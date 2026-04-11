@@ -9,7 +9,15 @@ import { join } from 'path'
 
 const ROOT = join(__dirname, '..')
 const CACHE_PATH = join(ROOT, 'content', '.enrichment-cache.json')
+const REJECTIONS_PATH = join(ROOT, 'content', '.image-rejections.json')
 const USER_AGENT = 'StuffHappened/2.0 (historical-narratives; mebernin@gmail.com)'
+
+function loadRejections(): Set<string> {
+  if (existsSync(REJECTIONS_PATH)) {
+    return new Set(JSON.parse(readFileSync(REJECTIONS_PATH, 'utf-8')))
+  }
+  return new Set()
+}
 
 interface EnrichmentCache {
   thumbnails: Record<string, string | null>   // commonsFile → thumbUrl or null
@@ -172,14 +180,20 @@ export async function enrichEvents(
 
   saveCache(cache)
 
+  const rejections = loadRejections()
+  if (rejections.size > 0) console.log(`  Image rejections: ${rejections.size} events excluded`)
+
   const result = new Map<string, EnrichedEvent>()
   for (const evt of events) {
     const enriched: EnrichedEvent = {}
     // Prefer Commons thumbnail, fall back to Wikipedia page image
-    if (evt.commonsFile && cache.thumbnails[evt.commonsFile]) {
-      enriched.thumbnailUrl = cache.thumbnails[evt.commonsFile]!
-    } else if (evt.wikiSlug && cache.wikiImages[evt.wikiSlug]) {
-      enriched.thumbnailUrl = cache.wikiImages[evt.wikiSlug]!
+    // Skip if event is in rejections list
+    if (!rejections.has(evt.id)) {
+      if (evt.commonsFile && cache.thumbnails[evt.commonsFile]) {
+        enriched.thumbnailUrl = cache.thumbnails[evt.commonsFile]!
+      } else if (evt.wikiSlug && cache.wikiImages[evt.wikiSlug]) {
+        enriched.thumbnailUrl = cache.wikiImages[evt.wikiSlug]!
+      }
     }
     if (evt.wikiSlug && cache.extracts[evt.wikiSlug]) {
       enriched.wikiExtract = cache.extracts[evt.wikiSlug]!
