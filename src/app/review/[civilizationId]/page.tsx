@@ -26,7 +26,7 @@ export default async function ReviewPage({ params }: PageProps) {
     }))
 
   return (
-    <div className="max-w-lg mx-auto px-4 py-6">
+    <div className="mx-auto px-4 py-6 overflow-x-hidden" style={{ maxWidth: '100%' }}>
       <h1 className="text-xl font-bold mb-1">{narrative.label} — Image Review</h1>
       <p className="text-sm text-foreground/60 mb-6">
         {eventsWithImages.length} images. Tap to reject. Rejected images are saved and excluded on next build.
