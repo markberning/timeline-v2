@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { TlEvent } from '@/lib/types'
 import { CATEGORY_META } from '@/lib/categories'
+import { Lightbox } from './lightbox'
 
 interface EventSheetProps {
   event: TlEvent | null
@@ -20,9 +21,11 @@ function formatYear(year: number, endYear?: number): string {
 export function EventSheet({ event, onClose }: EventSheetProps) {
   const sheetRef = useRef<HTMLDivElement>(null)
   const [imgError, setImgError] = useState(false)
+  const [showLightbox, setShowLightbox] = useState(false)
 
   useEffect(() => {
     setImgError(false)
+    setShowLightbox(false)
     // Scroll sheet to top when event changes
     if (sheetRef.current) sheetRef.current.scrollTop = 0
   }, [event])
@@ -76,13 +79,16 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
         {/* Image + caption */}
         {showImage && (
           <figure className="mt-3 mx-5" style={{ width: 'calc(100% - 40px)' }}>
-            <div className="relative max-h-[200px] overflow-hidden bg-foreground/5 rounded-lg">
+            <div
+              className="relative bg-foreground/5 rounded-lg cursor-pointer overflow-hidden"
+              onClick={() => setShowLightbox(true)}
+            >
               <img
                 src={event.thumbnailUrl}
                 alt={event.imageCaption || event.label}
                 loading="lazy"
                 onError={() => setImgError(true)}
-                className="w-full object-cover max-h-[200px] rounded-lg"
+                className="w-full rounded-lg"
               />
             </div>
             {event.imageCaption && (
@@ -158,6 +164,14 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
           )}
         </div>
       </div>
+
+      {showLightbox && event.thumbnailUrl && (
+        <Lightbox
+          src={event.thumbnailUrl.replace(/\/\d+px-/, '/800px-')}
+          alt={event.imageCaption || event.label}
+          onClose={() => setShowLightbox(false)}
+        />
+      )}
     </>
   )
 }
