@@ -51,12 +51,20 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
       {/* Sheet */}
       <div
         ref={sheetRef}
-        className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg max-h-[80vh] overflow-y-auto animate-slide-up"
+        className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg max-h-[60vh] overflow-y-auto animate-slide-up"
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}
       >
-        {/* Drag handle */}
-        <div className="flex justify-center pt-3 pb-1 sticky top-0">
+        {/* Header bar: drag handle + close */}
+        <div className="flex items-center justify-between px-5 pt-3 pb-1 sticky top-0 bg-background rounded-t-2xl z-10">
+          <div className="w-8" />
           <div className="w-9 h-1 rounded-full bg-foreground/20" />
+          <button
+            onClick={onClose}
+            className="w-8 h-8 flex items-center justify-center text-foreground/40 hover:text-foreground/70 transition-colors text-lg"
+            aria-label="Close"
+          >
+            ×
+          </button>
         </div>
 
         {/* Category color bar */}
