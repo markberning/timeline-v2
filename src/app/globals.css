@@ -6,8 +6,8 @@
   --background: #ffffff;
   --foreground: #171717;
   --accent: #a1a1aa;
-  --accent-text: color-mix(in srgb, var(--accent), #000 40%);
-  --accent-badge: color-mix(in srgb, var(--accent), #000 25%);
+  --accent-text: color-mix(in srgb, var(--accent), #000 25%);
+  --accent-badge: color-mix(in srgb, var(--accent), #000 15%);
   --prose-size: 1.125rem;
 }
 
