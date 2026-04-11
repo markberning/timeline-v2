@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-04-11b — Mesopotamia Map Audit
+
+### Chapter Maps
+- Fact-checked all 13 Mesopotamia chapter maps against narrative text
+- All 13 maps pass — no hallucinations or factual errors found
+- Verified: city placements, dates, empire extents, trade routes, campaign arrows, geographic features, regional labels
+- Mesopotamia maps now at same quality bar as Indus Valley (post-hallucination-fix)
+
+---
+
 ## 2026-04-11 — Mobile Reading UI + Event System + Images + Maps
 
 ### Reader App

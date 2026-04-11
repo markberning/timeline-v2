@@ -68,6 +68,9 @@ const FIRST_WORD_BLOCK = new Set([
   'queen', 'rammed', 'rice', 'rise', 'ritual', 'royal', 'sacred', 'silk', 'spring', 'state',
   'three', 'five', 'seven', 'eight', 'tomb', 'turquoise', 'hundred', 'school', 'walled',
   'war', 'warring', 'western', 'eastern', 'worship', 'yellow',
+  // Geographic/civilization names too generic as standalone matches
+  'indus', 'harappan', 'harappa', 'mesopotamia', 'sumerian', 'akkadian', 'babylonian',
+  'assyrian', 'persian', 'vedic', 'mature', 'urban', 'trade', 'city',
 ])
 
 /** Build a map of lowercased phrases → event info. */

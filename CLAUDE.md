@@ -105,7 +105,7 @@ audits/                         — audit reports from the 5-persona pipeline
 Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
 **Mesopotamia chain** (pilot — complete):
-1. ✅ mesopotamia — 13 chapters, fully audited, 80 curated event links, 61 images
+1. ✅ mesopotamia — 13 chapters, fully audited, 80 curated event links, 61 images, 13 chapter maps (verified)
 
 **India chain** (next):
 1. ✅ indus-valley — 10 chapters, audited, 65 curated event links, 29 images, 10 chapter maps
