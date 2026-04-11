@@ -6,11 +6,12 @@ import { ChapterAccordion } from './chapter-accordion'
 import { EventSheet } from './event-sheet'
 
 interface NarrativeReaderProps {
+  civilizationId: string
   chapters: NarrativeChapter[]
   events: TlEvent[]
 }
 
-export function NarrativeReader({ chapters, events }: NarrativeReaderProps) {
+export function NarrativeReader({ civilizationId, chapters, events }: NarrativeReaderProps) {
   const [activeEvent, setActiveEvent] = useState<TlEvent | null>(null)
 
   // Build event lookup once
@@ -34,7 +35,7 @@ export function NarrativeReader({ chapters, events }: NarrativeReaderProps) {
       {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
       <div className="reading-content" onClick={handleClick}>
         {chapters.map(ch => (
-          <ChapterAccordion key={ch.slug} chapter={ch} />
+          <ChapterAccordion key={ch.slug} chapter={ch} civilizationId={civilizationId} />
         ))}
       </div>
 

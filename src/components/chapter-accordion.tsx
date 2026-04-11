@@ -2,22 +2,26 @@
 
 import { useState, useRef, useCallback } from 'react'
 import type { NarrativeChapter } from '@/lib/types'
+import { Lightbox } from './lightbox'
 
 interface ChapterAccordionProps {
   chapter: NarrativeChapter
+  civilizationId: string
   initialOpen?: boolean
 }
 
-export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccordionProps) {
+export function ChapterAccordion({ chapter, civilizationId, initialOpen = false }: ChapterAccordionProps) {
   const [open, setOpen] = useState(initialOpen)
+  const [showMapLightbox, setShowMapLightbox] = useState(false)
+  const [mapExists, setMapExists] = useState(true)
   const headerRef = useRef<HTMLButtonElement>(null)
+
+  const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
 
   function collapse() {
     if (!headerRef.current) return
-    // Remember where the header is on screen before content disappears
     const offsetBefore = headerRef.current.getBoundingClientRect().top
     setOpen(false)
-    // After React removes the content, adjust scroll so header stays in place
     requestAnimationFrame(() => {
       if (!headerRef.current) return
       const offsetAfter = headerRef.current.getBoundingClientRect().top
@@ -38,7 +42,7 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
 
   const handleContentTap = useCallback((e: React.MouseEvent) => {
     const target = e.target as HTMLElement
-    if (target.closest('a, button, input, select, textarea')) return
+    if (target.closest('a, button, input, select, textarea, img')) return
     collapse()
   }, [])
 
@@ -73,11 +77,34 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
 
       {open && (
         <div className="pb-8 cursor-pointer" onClick={handleContentTap}>
+          {/* Chapter map */}
+          {mapExists && (
+            <div
+              className="mb-6 rounded-lg overflow-hidden bg-foreground/5 cursor-pointer"
+              onClick={(e) => { e.stopPropagation(); setShowMapLightbox(true) }}
+            >
+              <img
+                src={mapSrc}
+                alt={`Map for Chapter ${chapter.number}: ${chapter.title}`}
+                className="w-full"
+                onError={() => setMapExists(false)}
+              />
+            </div>
+          )}
+
           <article
             className="prose dark:prose-invert max-w-none px-0"
             dangerouslySetInnerHTML={{ __html: chapter.contentHtml }}
           />
         </div>
+      )}
+
+      {showMapLightbox && (
+        <Lightbox
+          src={mapSrc}
+          alt={`Map for Chapter ${chapter.number}: ${chapter.title}`}
+          onClose={() => setShowMapLightbox(false)}
+        />
       )}
     </section>
   )

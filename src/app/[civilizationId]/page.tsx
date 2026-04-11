@@ -49,7 +49,7 @@ export default async function CivilizationPage({ params }: PageProps) {
           {narrative.chapters.length} chapters
         </p>
 
-        <NarrativeReader chapters={narrative.chapters} events={narrative.events} />
+        <NarrativeReader civilizationId={civilizationId} chapters={narrative.chapters} events={narrative.events} />
       </div>
     </div>
   )
