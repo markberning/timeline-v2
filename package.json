@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "parse": "tsx scripts/parse-narratives.ts",
+    "prebuild": "tsx scripts/parse-narratives.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
     "next": "16.2.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
