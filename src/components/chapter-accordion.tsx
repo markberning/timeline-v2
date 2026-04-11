@@ -50,8 +50,8 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
         className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 bg-background scroll-mt-[40px]"
       >
         <span
-          className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center mt-0.5 border-2"
-          style={{ borderColor: 'var(--accent-text)', color: 'var(--accent-text)' }}
+          className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
+          style={{ backgroundColor: 'var(--accent)' }}
         >
           {chapter.number}
         </span>
