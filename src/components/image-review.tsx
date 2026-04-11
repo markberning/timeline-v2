@@ -267,30 +267,33 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
       {noteInput && (
         <>
           <div className="fixed inset-0 z-40 bg-black/30" onClick={() => setNoteInput(null)} />
-          <div className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg p-5 animate-slide-up overflow-hidden" style={{ maxWidth: '100vw' }}>
-            <h3 className="font-semibold mb-2">
-              Reject: {events.find(e => e.id === noteInput.eventId)?.label}
-            </h3>
-            <textarea
-              autoFocus
-              value={noteInput.value}
-              onChange={e => setNoteInput({ ...noteInput, value: e.target.value })}
-              placeholder="Why? (optional — wrong image, bad caption, mismatch...)"
-              className="w-full p-3 rounded-lg border border-foreground/20 bg-background text-sm resize-none h-20 focus:outline-none focus:border-foreground/40 box-border"
-            />
-            <div className="flex gap-2 mt-3">
-              <button
-                onClick={() => setNoteInput(null)}
-                className="flex-1 py-2 rounded-lg text-sm border border-foreground/20"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={confirmReject}
-                className="flex-1 py-2 rounded-lg text-sm bg-red-500 text-white font-medium"
-              >
-                Reject
-              </button>
+          <div className="fixed bottom-0 inset-x-0 z-50 bg-background rounded-t-2xl shadow-lg animate-slide-up" style={{ width: '100%', maxWidth: '100%' }}>
+            <div className="px-4 py-5" style={{ maxWidth: '100%', boxSizing: 'border-box' }}>
+              <h3 className="font-semibold mb-2 truncate">
+                Reject: {events.find(e => e.id === noteInput.eventId)?.label}
+              </h3>
+              <textarea
+                autoFocus
+                value={noteInput.value}
+                onChange={e => setNoteInput({ ...noteInput, value: e.target.value })}
+                placeholder="Why? (optional)"
+                className="block w-full p-3 rounded-lg border border-foreground/20 bg-background text-sm resize-none h-20 focus:outline-none focus:border-foreground/40"
+                style={{ maxWidth: '100%', boxSizing: 'border-box' }}
+              />
+              <div className="flex gap-2 mt-3">
+                <button
+                  onClick={() => setNoteInput(null)}
+                  className="flex-1 py-2 rounded-lg text-sm border border-foreground/20"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={confirmReject}
+                  className="flex-1 py-2 rounded-lg text-sm bg-red-500 text-white font-medium"
+                >
+                  Reject
+                </button>
+              </div>
             </div>
           </div>
         </>
