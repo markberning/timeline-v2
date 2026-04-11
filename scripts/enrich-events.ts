@@ -11,6 +11,7 @@ const ROOT = join(__dirname, '..')
 const CACHE_PATH = join(ROOT, 'content', '.enrichment-cache.json')
 const REJECTIONS_PATH = join(ROOT, 'content', '.image-rejections.json')
 const CAPTION_OVERRIDES_PATH = join(ROOT, 'content', '.caption-overrides.json')
+const IMAGE_OVERRIDES_PATH = join(ROOT, 'content', '.image-overrides.json')
 const USER_AGENT = 'StuffHappened/2.0 (historical-narratives; mebernin@gmail.com)'
 
 function loadRejections(): Set<string> {
@@ -26,6 +27,13 @@ function loadRejections(): Set<string> {
 function loadCaptionOverrides(): Record<string, string> {
   if (existsSync(CAPTION_OVERRIDES_PATH)) {
     return JSON.parse(readFileSync(CAPTION_OVERRIDES_PATH, 'utf-8'))
+  }
+  return {}
+}
+
+function loadImageOverrides(): Record<string, string> {
+  if (existsSync(IMAGE_OVERRIDES_PATH)) {
+    return JSON.parse(readFileSync(IMAGE_OVERRIDES_PATH, 'utf-8'))
   }
   return {}
 }
@@ -247,7 +255,13 @@ export async function enrichEvents(
     ? { thumbnails: {}, extracts: {}, wikiImages: {}, wikiImageFiles: {}, imageDescriptions: {} } as EnrichmentCache
     : loadCache()
 
-  const commonsFiles = [...new Set(events.filter(e => e.commonsFile).map(e => e.commonsFile!))]
+  const imageOverrides = loadImageOverrides()
+  const imgOverrideCount = Object.keys(imageOverrides).length
+  if (imgOverrideCount > 0) console.log(`  Image overrides: ${imgOverrideCount} manual images`)
+
+  // Include override filenames in the Commons fetch list
+  const overrideFiles = Object.values(imageOverrides)
+  const commonsFiles = [...new Set([...events.filter(e => e.commonsFile).map(e => e.commonsFile!), ...overrideFiles])]
   const wikiSlugs = [...new Set(events.filter(e => e.wikiSlug).map(e => e.wikiSlug!))]
 
   await fetchThumbnails(commonsFiles, cache)
@@ -276,11 +290,15 @@ export async function enrichEvents(
   const result = new Map<string, EnrichedEvent>()
   for (const evt of events) {
     const enriched: EnrichedEvent = {}
-    // Prefer Commons thumbnail, fall back to Wikipedia page image
+    // Image priority: manual override > Commons file > Wikipedia page image
     // Skip if event is in rejections list
     if (!rejections.has(evt.id)) {
       let imageFile: string | null = null
-      if (evt.commonsFile && cache.thumbnails[evt.commonsFile]) {
+      if (imageOverrides[evt.id] && cache.thumbnails[imageOverrides[evt.id]]) {
+        const file = imageOverrides[evt.id]
+        enriched.thumbnailUrl = cache.thumbnails[file]!
+        imageFile = file
+      } else if (evt.commonsFile && cache.thumbnails[evt.commonsFile]) {
         enriched.thumbnailUrl = cache.thumbnails[evt.commonsFile]!
         imageFile = evt.commonsFile
       } else if (evt.wikiSlug && cache.wikiImages[evt.wikiSlug]) {
