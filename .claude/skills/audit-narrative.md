@@ -100,6 +100,19 @@ After writing the report, output to the user (in the main conversation):
 
 Do NOT propose fixes in your summary. The audit is report-only by design.
 
+### 6. Give your opinion and recommendations
+
+After surfacing the summary, provide an honest editorial assessment:
+
+- **Must-fix**: findings that are clearly right and high-impact (factual errors, major structural issues, missing definitions that break standalone readability)
+- **Should-fix**: real improvements with moderate effort (register breaks, enriching cross-civ additions, hedging overconfident claims)
+- **Lower priority**: valid but diminishing returns (minor formatting, borderline flags, things that would make the prose heavy if all fixed)
+- **Skip**: findings that are noise or would actively harm the narrative
+
+For backward cross-cultural findings specifically, recommend whether to apply them now or defer to a separate pass after the new TL is finalized. The default is: defer, then do a surgical pass inserting terse cross-reference parentheticals into the reference TL — not restructuring its prose.
+
+The goal is to help the user triage efficiently rather than treating all findings as equal. The audit catches everything; the editorial judgment decides what matters.
+
 ---
 
 ## Persona A — Curious Newcomer (PRIMARY)
@@ -474,3 +487,5 @@ Read ALL files using the Read tool before beginning your analysis.
 - **Persona E backward findings feed future edits.** When fixing the audited TL, also apply backward findings to the reference TLs. The backward report is not throwaway — it's a TODO list for updating older TLs.
 - **Persona E gets more valuable over time.** With 1 reference TL, it catches bilateral connections. With 5, it catches patterns across civilizations. With 10+, it's building a cross-civ comparison database.
 - **Fix priority order:** Story Editor issues first (structural), then Cross-Cultural forward findings (content enrichment), then Newcomer (content gaps), then Skeptic (accuracy). Cross-Cultural backward findings are a separate task applied to the reference TLs after the new TL is finalized.
+- **Cross-cultural comparisons accumulate.** Each new narrative should carry forward all existing cross-references so the *next* narrative being written starts even richer. When writing TL #3, the writer has both TL #1 and TL #2 as reference — and both should already contain cross-references to each other from previous audit passes. The backward CCC pass after each new TL is what builds this cumulative network. Don't skip it — it's what makes the 10th narrative dramatically richer than the 2nd.
+- **Backward CCC pass is surgical, not a rewrite.** Insert terse cross-reference parentheticals into the reference TL's existing prose. Don't restructure paragraphs or add new sections. The goal is "(the Indus Valley Civilization, whose side of this trade is covered in its own narrative, Chapter 7)" — one line, in the right spot, linking the reader across.
