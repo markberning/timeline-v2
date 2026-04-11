@@ -167,7 +167,7 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
 
       {showLightbox && event.thumbnailUrl && (
         <Lightbox
-          src={event.thumbnailUrl.replace(/\/\d+px-/, '/800px-')}
+          src={event.thumbnailUrl}
           alt={event.imageCaption || event.label}
           onClose={() => setShowLightbox(false)}
         />
