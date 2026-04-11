@@ -2,7 +2,6 @@
 
 import { useState, useRef } from 'react'
 import type { NarrativeChapter } from '@/lib/types'
-import { Lightbox } from './lightbox'
 
 interface ChapterAccordionProps {
   chapter: NarrativeChapter
@@ -12,7 +11,7 @@ interface ChapterAccordionProps {
 
 export function ChapterAccordion({ chapter, civilizationId, initialOpen = false }: ChapterAccordionProps) {
   const [open, setOpen] = useState(initialOpen)
-  const [showMapLightbox, setShowMapLightbox] = useState(false)
+  const [mapMinimized, setMapMinimized] = useState(false)
   const [mapExists, setMapExists] = useState(true)
   const headerRef = useRef<HTMLButtonElement>(null)
 
@@ -73,10 +72,10 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
       {open && (
         <div className="pb-8">
           {/* Chapter map */}
-          {mapExists && (
+          {mapExists && !mapMinimized && (
             <div
               className="mb-6 rounded-lg overflow-hidden bg-foreground/5 cursor-pointer"
-              onClick={(e) => { e.stopPropagation(); setShowMapLightbox(true) }}
+              onClick={(e) => { e.stopPropagation(); setMapMinimized(true) }}
             >
               <img
                 src={mapSrc}
@@ -85,6 +84,14 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
                 onError={() => setMapExists(false)}
               />
             </div>
+          )}
+          {mapExists && mapMinimized && (
+            <button
+              onClick={(e) => { e.stopPropagation(); setMapMinimized(false) }}
+              className="mb-6 w-full py-2 text-xs text-foreground/50 hover:text-foreground/80 transition-colors border border-foreground/10 rounded-lg"
+            >
+              Show map
+            </button>
           )}
 
           <article
@@ -101,13 +108,6 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
         </div>
       )}
 
-      {showMapLightbox && (
-        <Lightbox
-          src={mapSrc}
-          alt={`Map for Chapter ${chapter.number}: ${chapter.title}`}
-          onClose={() => setShowMapLightbox(false)}
-        />
-      )}
     </section>
   )
 }
