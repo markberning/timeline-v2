@@ -34,7 +34,13 @@ body {
 }
 
 .prose {
+  --tw-prose-body: var(--foreground);
+  --tw-prose-headings: var(--foreground);
   --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--foreground);
+  --tw-prose-counters: var(--foreground);
+  --tw-prose-bullets: var(--foreground);
+  color: var(--foreground);
   font-size: inherit !important;
   line-height: inherit !important;
 }
