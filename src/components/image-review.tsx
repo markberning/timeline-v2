@@ -220,21 +220,26 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
                 />
               </div>
 
-              {/* Caption preview — what the reader will see */}
-              <div className="px-3 py-2 bg-foreground/[0.03] border-b border-foreground/5">
-                <p className="text-xs text-foreground/40 uppercase tracking-wide mb-0.5">Caption shown to reader</p>
-                <p className="text-sm italic text-foreground/70">
-                  {evt.imageCaption || <span className="text-red-400">No caption — will show event label only</span>}
+              {/* Event title — what this image should represent */}
+              <div className="px-3 pt-3 pb-1 border-b border-foreground/5 bg-foreground/[0.02]">
+                <p className="text-xs text-foreground/40 uppercase tracking-wide mb-0.5">This image should represent</p>
+                <p className="font-bold text-base">{evt.label}</p>
+                <p className="text-xs text-foreground/50 mt-0.5 mb-2">
+                  {formatYear(evt.year)} · {evt.category}
                 </p>
               </div>
 
-              {/* Event details */}
-              <div className="px-3 py-3">
-                <p className="font-semibold text-sm">{evt.label}</p>
-                <p className="text-xs text-foreground/50 mt-0.5">
-                  {formatYear(evt.year)} · {evt.category}
+              {/* Caption preview */}
+              <div className="px-3 py-2 border-b border-foreground/5">
+                <p className="text-xs text-foreground/40 uppercase tracking-wide mb-0.5">Caption shown to reader</p>
+                <p className="text-sm italic text-foreground/70">
+                  {evt.imageCaption || <span className="text-red-400">No caption</span>}
                 </p>
-                <p className="text-sm text-foreground/70 mt-1.5 leading-relaxed">
+              </div>
+
+              {/* Description for context */}
+              <div className="px-3 py-3">
+                <p className="text-sm text-foreground/70 leading-relaxed">
                   {evt.description}
                 </p>
 

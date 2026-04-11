@@ -10,6 +10,7 @@ import { join } from 'path'
 const ROOT = join(__dirname, '..')
 const CACHE_PATH = join(ROOT, 'content', '.enrichment-cache.json')
 const REJECTIONS_PATH = join(ROOT, 'content', '.image-rejections.json')
+const CAPTION_OVERRIDES_PATH = join(ROOT, 'content', '.caption-overrides.json')
 const USER_AGENT = 'StuffHappened/2.0 (historical-narratives; mebernin@gmail.com)'
 
 function loadRejections(): Set<string> {
@@ -17,6 +18,13 @@ function loadRejections(): Set<string> {
     return new Set(JSON.parse(readFileSync(REJECTIONS_PATH, 'utf-8')))
   }
   return new Set()
+}
+
+function loadCaptionOverrides(): Record<string, string> {
+  if (existsSync(CAPTION_OVERRIDES_PATH)) {
+    return JSON.parse(readFileSync(CAPTION_OVERRIDES_PATH, 'utf-8'))
+  }
+  return {}
 }
 
 interface EnrichmentCache {
@@ -258,6 +266,10 @@ export async function enrichEvents(
   const rejections = loadRejections()
   if (rejections.size > 0) console.log(`  Image rejections: ${rejections.size} events excluded`)
 
+  const captionOverrides = loadCaptionOverrides()
+  const overrideCount = Object.keys(captionOverrides).length
+  if (overrideCount > 0) console.log(`  Caption overrides: ${overrideCount} manual captions`)
+
   const result = new Map<string, EnrichedEvent>()
   for (const evt of events) {
     const enriched: EnrichedEvent = {}
@@ -272,7 +284,10 @@ export async function enrichEvents(
         enriched.thumbnailUrl = cache.wikiImages[evt.wikiSlug]!
         imageFile = cache.wikiImageFiles[evt.wikiSlug] ?? null
       }
-      if (imageFile && cache.imageDescriptions[imageFile]) {
+      // Caption priority: manual override > Commons description
+      if (captionOverrides[evt.id]) {
+        enriched.imageCaption = captionOverrides[evt.id]
+      } else if (imageFile && cache.imageDescriptions[imageFile]) {
         enriched.imageCaption = cache.imageDescriptions[imageFile]!
       }
     }
