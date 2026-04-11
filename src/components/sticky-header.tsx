@@ -1,10 +1,12 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
 import { ChapterProgress } from './chapter-progress'
 import { DarkModeToggle } from './dark-mode-toggle'
 
 interface StickyHeaderProps {
+  civilizationId: string
   civilizationLabel: string
   chapterNumber: number
   chapterTitle: string
@@ -12,6 +14,7 @@ interface StickyHeaderProps {
 }
 
 export function StickyHeader({
+  civilizationId,
   civilizationLabel,
   chapterNumber,
   chapterTitle,
@@ -48,12 +51,16 @@ export function StickyHeader({
       className={`fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm transition-transform duration-200 ease-out ${
         hidden ? '-translate-y-[calc(100%-3px)]' : 'translate-y-0'
       }`}
+      style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
     >
       <div className="max-w-prose mx-auto px-5">
-        <div className="flex items-center justify-between gap-2 pt-3 pb-1">
-          <span className="text-sm font-medium text-foreground/60 truncate">
+        <div className="flex items-center justify-between gap-2 pt-2 pb-0.5">
+          <Link
+            href={`/${civilizationId}`}
+            className="text-sm font-medium text-foreground/60 truncate hover:text-foreground/80 transition-colors"
+          >
             {civilizationLabel}
-          </span>
+          </Link>
           <div className="flex items-center gap-2 shrink-0">
             {dateRange && (
               <span className="text-xs text-foreground/40">
@@ -63,7 +70,7 @@ export function StickyHeader({
             <DarkModeToggle />
           </div>
         </div>
-        <div className="pb-2 truncate text-sm font-semibold">
+        <div className="pb-1.5 truncate text-sm font-semibold">
           Chapter {chapterNumber} — {chapterTitle}
         </div>
       </div>

@@ -44,6 +44,7 @@ export default async function ChapterPage({ params }: PageProps) {
   return (
     <>
       <StickyHeader
+        civilizationId={civilizationId}
         civilizationLabel={narrative.label}
         chapterNumber={chapter.number}
         chapterTitle={chapter.title}

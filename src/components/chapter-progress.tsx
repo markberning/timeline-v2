@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef } from 'react'
 
 export function ChapterProgress() {
-  const [progress, setProgress] = useState(0)
+  const barRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     let ticking = false
@@ -14,7 +14,10 @@ export function ChapterProgress() {
       requestAnimationFrame(() => {
         const scrollY = window.scrollY
         const docHeight = document.documentElement.scrollHeight - window.innerHeight
-        setProgress(docHeight > 0 ? Math.min(scrollY / docHeight, 1) : 0)
+        const progress = docHeight > 0 ? Math.min(scrollY / docHeight, 1) : 0
+        if (barRef.current) {
+          barRef.current.style.width = `${progress * 100}%`
+        }
         ticking = false
       })
     }
@@ -27,9 +30,10 @@ export function ChapterProgress() {
   return (
     <div className="h-[3px] w-full bg-foreground/10">
       <div
-        className="h-full transition-[width] duration-150 ease-out"
+        ref={barRef}
+        className="h-full"
         style={{
-          width: `${progress * 100}%`,
+          width: '0%',
           backgroundColor: 'var(--accent)',
         }}
       />
