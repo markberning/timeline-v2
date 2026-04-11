@@ -45,7 +45,7 @@ export default async function CivilizationPage({ params }: PageProps) {
 
       <div className="pt-4 pb-8">
         <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>{narrative.label}</h1>
-        <p className="text-sm text-foreground/50 mt-1 mb-6">
+        <p className="text-sm text-foreground/60 mt-1 mb-6">
           {narrative.chapters.length} chapters
         </p>
 

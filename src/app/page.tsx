@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex items-center justify-between mb-10">
         <div>
           <h1 className="text-3xl font-bold">Stuff Happened</h1>
-          <p className="text-foreground/50 mt-2">
+          <p className="text-foreground/60 mt-2">
             Long-form historical narratives, one civilization at a time.
           </p>
         </div>

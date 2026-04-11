@@ -15,7 +15,7 @@ export function CivilizationCard({ id, label, accentColor, chapterCount }: Civil
       style={{ borderLeftColor: accentColor, borderLeftWidth: 4 }}
     >
       <h2 className="text-lg font-semibold">{label}</h2>
-      <p className="text-sm text-foreground/50 mt-1">{chapterCount} chapters</p>
+      <p className="text-sm text-foreground/60 mt-1">{chapterCount} chapters</p>
     </Link>
   )
 }

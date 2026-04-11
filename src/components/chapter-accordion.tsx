@@ -50,8 +50,8 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
         className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 bg-background scroll-mt-[40px]"
       >
         <span
-          className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
-          style={{ backgroundColor: 'var(--accent-badge)' }}
+          className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center mt-0.5 border-2"
+          style={{ borderColor: 'var(--accent-text)', color: 'var(--accent-text)' }}
         >
           {chapter.number}
         </span>
@@ -63,7 +63,7 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
             </span>
           </div>
           {chapter.dateRange && (
-            <p className="text-[0.75em] text-foreground/40 mt-0.5">{chapter.dateRange}</p>
+            <p className="text-[0.75em] text-foreground/60 mt-0.5">{chapter.dateRange}</p>
           )}
           {!open && chapter.summary && (
             <p className="text-foreground mt-2">{chapter.summary}</p>
