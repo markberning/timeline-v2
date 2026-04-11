@@ -50,7 +50,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 1. ✅ mesopotamia — 13 chapters, fully audited
 
 **India chain** (next):
-1. 🔄 indus-valley — in progress
+1. 🔄 indus-valley — 10 chapters, first draft complete, needs audit
 2. vedic-period
 3. maurya-empire
 4. post-maurya-kingdoms

@@ -603,6 +603,31 @@ The pattern: every time a new people enters, the first sentence must place them 
 
 ---
 
+## Writing rule (additional, structural)
+
+### Rule: Adapt narrative structure to the civilization, not a fixed template
+
+Each TL narrative should find the structure that fits its subject. Mesopotamia has 3,500 years of dynastic succession with named kings and political drama — it gets 13 chronological chapters. The Indus Valley has no readable names, no political narrative, and is known entirely through archaeology — it gets a different structure: a rediscovery frame, thematic chapters (cities, trade, religion, governance), and a mystery-driven arc.
+
+**The narrative type should be based on the TL, the place, the time, and the circumstances — not hard-and-fast rules.** A civilization with rich literary sources (Mesopotamia, Rome, China) can tell stories through named characters and political narrative. A civilization known only through archaeology (Indus Valley, early Andean) needs to foreground the detective work — what the evidence shows, what it doesn't, and why the gaps matter. A civilization with a dramatic discovery story (Indus Valley rediscovered in 1922, Pompeii buried in ash) should use that as a narrative frame.
+
+**What stays constant across all TLs:**
+- The writing rules (inline definitions, pronunciations, scene-setting, mechanisms not outcomes, etc.)
+- The voice (informal, informational, conversational)
+- The audit pipeline
+- Cross-civ comparisons at "firsts"
+
+**What adapts:**
+- Chapter count and length
+- Chronological vs. thematic organization
+- Whether the narrative uses named characters or archaeological inference
+- Whether a discovery/rediscovery frame adds value
+- How much space goes to "what we don't know" vs. "what we know"
+
+**Each narrative should attempt a fresh perspective.** Don't repeat the same structural approach from TL to TL. The Indus Valley opens with its 1922 rediscovery and works backward — a mystery-box frame that wouldn't suit Mesopotamia (which was never fully "lost") but perfectly fits a civilization that was completely forgotten for 3,000 years. Future TLs should find their own angle: the Vedic period might foreground the oral tradition (a civilization that wrote nothing down for a thousand years); a Chinese dynasty might foreground the continuity of bureaucratic record-keeping; an Andean civilization might foreground the absence of writing entirely. The goal is that each narrative feels distinct, not like a template re-skinned with different names.
+
+---
+
 ## Writing rules from full read-through (2026-04-09)
 
 ### Rule: Kill "we met" / "whom we meet" phrasing in cross-references
