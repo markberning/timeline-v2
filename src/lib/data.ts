@@ -16,7 +16,7 @@ function loadNarrative(id: string): TimelineNarrative {
 
 export function getAllNarrativeIds(): string[] {
   return readdirSync(CONTENT_DIR)
-    .filter(f => f.endsWith('.json'))
+    .filter(f => f.endsWith('.json') && !f.startsWith('.'))
     .map(f => f.replace('.json', ''))
 }
 
