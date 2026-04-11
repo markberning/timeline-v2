@@ -207,9 +207,9 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
               }`}
             >
               {/* Image — tap to open lightbox */}
-              <button
+              <div
                 onClick={() => setLightbox({ src: getLargeUrl(evt.thumbnailUrl), alt: evt.label })}
-                className="w-full block"
+                className="w-full cursor-pointer"
               >
                 <img
                   src={evt.thumbnailUrl}
@@ -217,7 +217,7 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
                   loading="lazy"
                   className="w-full bg-foreground/5"
                 />
-              </button>
+              </div>
 
               {/* Caption preview — what the reader will see */}
               <div className="px-3 py-2 bg-foreground/[0.03] border-b border-foreground/5">
@@ -267,7 +267,7 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
       {noteInput && (
         <>
           <div className="fixed inset-0 z-40 bg-black/30" onClick={() => setNoteInput(null)} />
-          <div className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg p-5 animate-slide-up">
+          <div className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg p-5 animate-slide-up overflow-hidden" style={{ maxWidth: '100vw' }}>
             <h3 className="font-semibold mb-2">
               Reject: {events.find(e => e.id === noteInput.eventId)?.label}
             </h3>
@@ -276,7 +276,7 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
               value={noteInput.value}
               onChange={e => setNoteInput({ ...noteInput, value: e.target.value })}
               placeholder="Why? (optional — wrong image, bad caption, mismatch...)"
-              className="w-full p-3 rounded-lg border border-foreground/20 bg-background text-sm resize-none h-20 focus:outline-none focus:border-foreground/40"
+              className="w-full p-3 rounded-lg border border-foreground/20 bg-background text-sm resize-none h-20 focus:outline-none focus:border-foreground/40 box-border"
             />
             <div className="flex gap-2 mt-3">
               <button
