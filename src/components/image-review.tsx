@@ -11,6 +11,10 @@ interface ReviewEvent {
   thumbnailUrl: string
 }
 
+interface Rejection {
+  reason: string
+}
+
 interface ImageReviewProps {
   civilizationId: string
   events: ReviewEvent[]
@@ -20,9 +24,7 @@ function formatYear(year: number): string {
   return year < 0 ? `${Math.abs(year)} BCE` : `${year} CE`
 }
 
-/** Get a larger version of a Wikimedia thumbnail URL */
 function getLargeUrl(thumbUrl: string): string {
-  // Replace /NNNpx- with /800px- for a bigger version
   return thumbUrl.replace(/\/\d+px-/, '/800px-')
 }
 
@@ -63,7 +65,6 @@ function Lightbox({ src, alt, onClose }: { src: string; alt: string; onClose: ()
       const newScale = Math.max(1, Math.min(5, scale * (dist / lastDistance.current)))
       setScale(newScale)
       lastDistance.current = dist
-
       const center = getCenter(e.touches)
       setTranslate(prev => ({
         x: prev.x + center.x - lastCenter.current.x,
@@ -106,9 +107,7 @@ function Lightbox({ src, alt, onClose }: { src: string; alt: string; onClose: ()
         src={src}
         alt={alt}
         className="max-w-full max-h-full object-contain"
-        style={{
-          transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})`,
-        }}
+        style={{ transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})` }}
         draggable={false}
       />
     </div>
@@ -117,36 +116,61 @@ function Lightbox({ src, alt, onClose }: { src: string; alt: string; onClose: ()
 
 export function ImageReview({ civilizationId, events }: ImageReviewProps) {
   const storageKey = `image-rejections-${civilizationId}`
-  const [rejected, setRejected] = useState<Set<string>>(new Set())
+  const [rejections, setRejections] = useState<Record<string, Rejection>>({})
   const [mounted, setMounted] = useState(false)
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null)
+  const [noteInput, setNoteInput] = useState<{ eventId: string; value: string } | null>(null)
 
   useEffect(() => {
     const saved = localStorage.getItem(storageKey)
-    if (saved) setRejected(new Set(JSON.parse(saved)))
+    if (saved) {
+      const parsed = JSON.parse(saved)
+      // Handle old format (array of IDs) → convert to new format
+      if (Array.isArray(parsed)) {
+        const converted: Record<string, Rejection> = {}
+        for (const id of parsed) converted[id] = { reason: '' }
+        setRejections(converted)
+      } else {
+        setRejections(parsed)
+      }
+    }
     setMounted(true)
   }, [storageKey])
 
-  function toggleReject(eventId: string) {
-    setRejected(prev => {
-      const next = new Set(prev)
-      if (next.has(eventId)) next.delete(eventId)
-      else next.add(eventId)
-      localStorage.setItem(storageKey, JSON.stringify([...next]))
-      return next
-    })
+  function save(next: Record<string, Rejection>) {
+    setRejections(next)
+    localStorage.setItem(storageKey, JSON.stringify(next))
+  }
+
+  function reject(eventId: string) {
+    // Open note input
+    setNoteInput({ eventId, value: '' })
+  }
+
+  function confirmReject() {
+    if (!noteInput) return
+    const next = { ...rejections, [noteInput.eventId]: { reason: noteInput.value } }
+    save(next)
+    setNoteInput(null)
+  }
+
+  function restore(eventId: string) {
+    const next = { ...rejections }
+    delete next[eventId]
+    save(next)
   }
 
   function exportRejections() {
-    const data = JSON.stringify([...rejected].sort(), null, 2)
+    const data = JSON.stringify(rejections, null, 2)
     navigator.clipboard.writeText(data).then(() => {
-      alert(`Copied ${rejected.size} rejected IDs to clipboard. Paste into content/.image-rejections.json`)
+      alert(`Copied ${Object.keys(rejections).length} rejections to clipboard`)
     })
   }
 
   if (!mounted) return null
 
-  const approvedCount = events.length - rejected.size
+  const rejectedCount = Object.keys(rejections).length
+  const approvedCount = events.length - rejectedCount
 
   return (
     <>
@@ -154,11 +178,11 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
         <div className="flex items-center justify-between">
           <span className="text-sm">
             <span className="text-green-600 font-medium">{approvedCount} approved</span>
-            {rejected.size > 0 && (
-              <span className="text-red-500 font-medium ml-2">{rejected.size} rejected</span>
+            {rejectedCount > 0 && (
+              <span className="text-red-500 font-medium ml-2">{rejectedCount} rejected</span>
             )}
           </span>
-          {rejected.size > 0 && (
+          {rejectedCount > 0 && (
             <button
               onClick={exportRejections}
               className="text-xs px-3 py-1.5 rounded-md bg-foreground/10 hover:bg-foreground/20 transition-colors"
@@ -171,7 +195,8 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
 
       <div className="space-y-6">
         {events.map(evt => {
-          const isRejected = rejected.has(evt.id)
+          const rejection = rejections[evt.id]
+          const isRejected = !!rejection
           return (
             <div
               key={evt.id}
@@ -194,32 +219,82 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
                 />
               </button>
 
-              {/* Caption */}
+              {/* Caption preview — what the reader will see */}
+              <div className="px-3 py-2 bg-foreground/[0.03] border-b border-foreground/5">
+                <p className="text-xs text-foreground/40 uppercase tracking-wide mb-0.5">Caption shown to reader</p>
+                <p className="text-sm font-medium">{evt.label}</p>
+              </div>
+
+              {/* Event details */}
               <div className="px-3 py-3">
-                <p className="font-semibold text-sm">{evt.label}</p>
-                <p className="text-xs text-foreground/50 mt-0.5">
+                <p className="text-xs text-foreground/50">
                   {formatYear(evt.year)} · {evt.category}
                 </p>
                 <p className="text-sm text-foreground/70 mt-1.5 leading-relaxed">
                   {evt.description}
                 </p>
 
+                {/* Rejection note */}
+                {isRejected && rejection.reason && (
+                  <p className="text-xs text-red-500 mt-2 italic">
+                    Note: {rejection.reason}
+                  </p>
+                )}
+
                 {/* Reject/restore button */}
-                <button
-                  onClick={() => toggleReject(evt.id)}
-                  className={`mt-3 text-xs px-3 py-1.5 rounded-md transition-colors ${
-                    isRejected
-                      ? 'bg-green-500/10 text-green-600 hover:bg-green-500/20'
-                      : 'bg-red-500/10 text-red-500 hover:bg-red-500/20'
-                  }`}
-                >
-                  {isRejected ? 'Restore image' : 'Reject image'}
-                </button>
+                {isRejected ? (
+                  <button
+                    onClick={() => restore(evt.id)}
+                    className="mt-3 text-xs px-3 py-1.5 rounded-md bg-green-500/10 text-green-600 hover:bg-green-500/20 transition-colors"
+                  >
+                    Restore image
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => reject(evt.id)}
+                    className="mt-3 text-xs px-3 py-1.5 rounded-md bg-red-500/10 text-red-500 hover:bg-red-500/20 transition-colors"
+                  >
+                    Reject image
+                  </button>
+                )}
               </div>
             </div>
           )
         })}
       </div>
+
+      {/* Note input modal */}
+      {noteInput && (
+        <>
+          <div className="fixed inset-0 z-40 bg-black/30" onClick={() => setNoteInput(null)} />
+          <div className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg p-5 animate-slide-up">
+            <h3 className="font-semibold mb-2">
+              Reject: {events.find(e => e.id === noteInput.eventId)?.label}
+            </h3>
+            <textarea
+              autoFocus
+              value={noteInput.value}
+              onChange={e => setNoteInput({ ...noteInput, value: e.target.value })}
+              placeholder="Why? (optional — wrong image, bad caption, mismatch...)"
+              className="w-full p-3 rounded-lg border border-foreground/20 bg-background text-sm resize-none h-20 focus:outline-none focus:border-foreground/40"
+            />
+            <div className="flex gap-2 mt-3">
+              <button
+                onClick={() => setNoteInput(null)}
+                className="flex-1 py-2 rounded-lg text-sm border border-foreground/20"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={confirmReject}
+                className="flex-1 py-2 rounded-lg text-sm bg-red-500 text-white font-medium"
+              >
+                Reject
+              </button>
+            </div>
+          </div>
+        </>
+      )}
 
       {lightbox && (
         <Lightbox src={lightbox.src} alt={lightbox.alt} onClose={() => setLightbox(null)} />
