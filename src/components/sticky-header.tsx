@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { ChapterProgress } from './chapter-progress'
 import { DarkModeToggle } from './dark-mode-toggle'
@@ -20,37 +19,10 @@ export function StickyHeader({
   chapterTitle,
   dateRange,
 }: StickyHeaderProps) {
-  const [hidden, setHidden] = useState(false)
-  const lastScrollY = useRef(0)
-
-  useEffect(() => {
-    let ticking = false
-    const threshold = 10
-
-    function onScroll() {
-      if (ticking) return
-      ticking = true
-      requestAnimationFrame(() => {
-        const currentY = window.scrollY
-        if (currentY > lastScrollY.current + threshold && currentY > 80) {
-          setHidden(true)
-        } else if (currentY < lastScrollY.current - threshold) {
-          setHidden(false)
-        }
-        lastScrollY.current = currentY
-        ticking = false
-      })
-    }
-
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm transition-transform duration-200 ease-out ${
-        hidden ? '-translate-y-[calc(100%-3px)]' : 'translate-y-0'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm"
       style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
     >
       <div className="max-w-prose mx-auto px-2">
