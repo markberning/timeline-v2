@@ -22,6 +22,7 @@ export default async function ReviewPage({ params }: PageProps) {
       description: e.description,
       category: e.category,
       thumbnailUrl: e.thumbnailUrl!,
+      imageCaption: e.imageCaption ?? null,
     }))
 
   return (

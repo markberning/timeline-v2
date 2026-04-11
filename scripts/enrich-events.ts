@@ -23,10 +23,12 @@ interface EnrichmentCache {
   thumbnails: Record<string, string | null>   // commonsFile → thumbUrl or null
   extracts: Record<string, string | null>     // wikiSlug → extract text or null
   wikiImages: Record<string, string | null>   // wikiSlug → Wikipedia page thumbnail URL or null
+  wikiImageFiles: Record<string, string | null> // wikiSlug → Wikipedia page image filename or null
+  imageDescriptions: Record<string, string | null> // Commons filename → description or null
 }
 
 function loadCache(): EnrichmentCache {
-  const defaults: EnrichmentCache = { thumbnails: {}, extracts: {}, wikiImages: {} }
+  const defaults: EnrichmentCache = { thumbnails: {}, extracts: {}, wikiImages: {}, wikiImageFiles: {}, imageDescriptions: {} }
   if (existsSync(CACHE_PATH)) {
     const raw = JSON.parse(readFileSync(CACHE_PATH, 'utf-8'))
     return { ...defaults, ...raw }
@@ -149,6 +151,9 @@ async function fetchWikiData(
       if (!(slug in cache.wikiImages)) {
         cache.wikiImages[slug] = page.thumbnail?.source ?? null
       }
+      if (!(slug in cache.wikiImageFiles)) {
+        cache.wikiImageFiles[slug] = (page as Record<string, unknown>).pageimage as string ?? null
+      }
     }
 
     for (const s of batch) {
@@ -158,8 +163,67 @@ async function fetchWikiData(
   }
 }
 
+/** Strip HTML tags from Commons descriptions */
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
+}
+
+/** Batch-fetch image descriptions from Commons. */
+async function fetchImageDescriptions(
+  filenames: string[],
+  cache: EnrichmentCache,
+): Promise<void> {
+  const uncached = filenames.filter(f => f && !(f in cache.imageDescriptions))
+  if (uncached.length === 0) {
+    console.log(`  Image captions: ${filenames.length} cached, 0 to fetch`)
+    return
+  }
+  console.log(`  Image captions: ${filenames.length - uncached.length} cached, ${uncached.length} to fetch`)
+
+  for (let i = 0; i < uncached.length; i += 50) {
+    const batch = uncached.slice(i, i + 50)
+    const titles = batch.map(f => `File:${f}`).join('|')
+    const url = `https://commons.wikimedia.org/w/api.php?action=query&titles=${encodeURIComponent(titles)}&prop=imageinfo&iiprop=extmetadata&iiextmetadatafilter=ImageDescription|ObjectName&format=json`
+
+    const data = await fetchJson(url) as {
+      query: {
+        pages: Record<string, {
+          title: string
+          imageinfo?: Array<{ extmetadata?: { ImageDescription?: { value: string }; ObjectName?: { value: string } } }>
+        }>
+        normalized?: Array<{ from: string; to: string }>
+      }
+    }
+
+    const normalizedMap = new Map<string, string>()
+    for (const f of batch) {
+      normalizedMap.set(`File:${f}`.replace(/_/g, ' '), f)
+      normalizedMap.set(`File:${f}`, f)
+    }
+    if (data.query.normalized) {
+      for (const n of data.query.normalized) {
+        const origFile = normalizedMap.get(n.from)
+        if (origFile) normalizedMap.set(n.to, origFile)
+      }
+    }
+
+    for (const page of Object.values(data.query.pages)) {
+      const filename = normalizedMap.get(page.title)
+      if (!filename) continue
+      const meta = page.imageinfo?.[0]?.extmetadata
+      const desc = meta?.ImageDescription?.value
+      cache.imageDescriptions[filename] = desc ? stripHtml(desc) : null
+    }
+
+    for (const f of batch) {
+      if (!(f in cache.imageDescriptions)) cache.imageDescriptions[f] = null
+    }
+  }
+}
+
 export interface EnrichedEvent {
   thumbnailUrl?: string
+  imageCaption?: string
   wikiExtract?: string
 }
 
@@ -169,7 +233,7 @@ export async function enrichEvents(
   forceRefresh = false,
 ): Promise<Map<string, EnrichedEvent>> {
   const cache = forceRefresh
-    ? { thumbnails: {}, extracts: {}, wikiImages: {} } as EnrichmentCache
+    ? { thumbnails: {}, extracts: {}, wikiImages: {}, wikiImageFiles: {}, imageDescriptions: {} } as EnrichmentCache
     : loadCache()
 
   const commonsFiles = [...new Set(events.filter(e => e.commonsFile).map(e => e.commonsFile!))]
@@ -177,6 +241,17 @@ export async function enrichEvents(
 
   await fetchThumbnails(commonsFiles, cache)
   await fetchWikiData(wikiSlugs, cache)
+
+  // Collect all image filenames we'll actually use (Commons + Wikipedia fallbacks)
+  const imageFilenames: string[] = []
+  for (const evt of events) {
+    if (evt.commonsFile && cache.thumbnails[evt.commonsFile]) {
+      imageFilenames.push(evt.commonsFile)
+    } else if (evt.wikiSlug && cache.wikiImageFiles[evt.wikiSlug]) {
+      imageFilenames.push(cache.wikiImageFiles[evt.wikiSlug]!)
+    }
+  }
+  await fetchImageDescriptions([...new Set(imageFilenames)], cache)
 
   saveCache(cache)
 
@@ -189,10 +264,16 @@ export async function enrichEvents(
     // Prefer Commons thumbnail, fall back to Wikipedia page image
     // Skip if event is in rejections list
     if (!rejections.has(evt.id)) {
+      let imageFile: string | null = null
       if (evt.commonsFile && cache.thumbnails[evt.commonsFile]) {
         enriched.thumbnailUrl = cache.thumbnails[evt.commonsFile]!
+        imageFile = evt.commonsFile
       } else if (evt.wikiSlug && cache.wikiImages[evt.wikiSlug]) {
         enriched.thumbnailUrl = cache.wikiImages[evt.wikiSlug]!
+        imageFile = cache.wikiImageFiles[evt.wikiSlug] ?? null
+      }
+      if (imageFile && cache.imageDescriptions[imageFile]) {
+        enriched.imageCaption = cache.imageDescriptions[imageFile]!
       }
     }
     if (evt.wikiSlug && cache.extracts[evt.wikiSlug]) {

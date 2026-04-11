@@ -9,6 +9,7 @@ interface ReviewEvent {
   description: string
   category: string
   thumbnailUrl: string
+  imageCaption: string | null
 }
 
 interface Rejection {
@@ -222,7 +223,9 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
               {/* Caption preview — what the reader will see */}
               <div className="px-3 py-2 bg-foreground/[0.03] border-b border-foreground/5">
                 <p className="text-xs text-foreground/40 uppercase tracking-wide mb-0.5">Caption shown to reader</p>
-                <p className="text-sm font-medium">{evt.label}</p>
+                <p className="text-sm italic text-foreground/70">
+                  {evt.imageCaption || <span className="text-red-400">No caption — will show event label only</span>}
+                </p>
               </div>
 
               {/* Event details */}

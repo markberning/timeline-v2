@@ -73,17 +73,24 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
           style={{ backgroundColor: cat?.base ?? '#6b7280' }}
         />
 
-        {/* Image */}
+        {/* Image + caption */}
         {showImage && (
-          <div className="relative w-full max-h-[200px] overflow-hidden bg-foreground/5 mt-3 mx-5 rounded-lg" style={{ width: 'calc(100% - 40px)' }}>
-            <img
-              src={event.thumbnailUrl}
-              alt={event.label}
-              loading="lazy"
-              onError={() => setImgError(true)}
-              className="w-full object-cover max-h-[200px] rounded-lg"
-            />
-          </div>
+          <figure className="mt-3 mx-5" style={{ width: 'calc(100% - 40px)' }}>
+            <div className="relative max-h-[200px] overflow-hidden bg-foreground/5 rounded-lg">
+              <img
+                src={event.thumbnailUrl}
+                alt={event.imageCaption || event.label}
+                loading="lazy"
+                onError={() => setImgError(true)}
+                className="w-full object-cover max-h-[200px] rounded-lg"
+              />
+            </div>
+            {event.imageCaption && (
+              <figcaption className="text-xs text-foreground/50 mt-1.5 leading-snug italic">
+                {event.imageCaption}
+              </figcaption>
+            )}
+          </figure>
         )}
 
         <div className="px-5 pt-3 pb-6">
