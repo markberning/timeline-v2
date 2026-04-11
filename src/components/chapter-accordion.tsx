@@ -74,7 +74,7 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
       {open && (
         <div className="pb-8 cursor-pointer" onClick={handleContentTap}>
           <article
-            className="prose prose-lg dark:prose-invert max-w-none px-0"
+            className="prose dark:prose-invert max-w-none px-0"
             dangerouslySetInnerHTML={{ __html: chapter.contentHtml }}
           />
         </div>
