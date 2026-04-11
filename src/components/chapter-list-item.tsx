@@ -35,7 +35,7 @@ export function ChapterListItem({
             <p className="text-xs text-foreground/40 mt-0.5">{dateRange}</p>
           )}
           {summary && (
-            <p className="text-sm text-foreground/60 mt-1 line-clamp-2">{summary}</p>
+            <p className="text-sm text-foreground/60 mt-1">{summary}</p>
           )}
         </div>
       </div>
