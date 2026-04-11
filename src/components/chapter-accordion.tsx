@@ -27,10 +27,6 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
     const target = e.target as HTMLElement
     if (target.closest('a, button, input, select, textarea')) return
     setOpen(false)
-    // Scroll back to this chapter's header
-    setTimeout(() => {
-      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }, 50)
   }, [])
 
   return (
