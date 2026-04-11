@@ -145,6 +145,7 @@ function loadReferenceData(tlId: string): { events: TlEvent[]; spans: TlSpan[]; 
     description: e.description,
     wikiSlug: e.wikiSlug,
     commonsFile: e.commonsFile,
+    details: e.details,
     tier: e.tier,
     category: e.category,
   }))

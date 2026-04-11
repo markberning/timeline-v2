@@ -8,6 +8,11 @@ export interface NarrativeChapter {
   eventIds: string[]
 }
 
+export interface EventDetail {
+  label: string
+  text: string
+}
+
 export interface TlEvent {
   id: string
   label: string
@@ -18,6 +23,7 @@ export interface TlEvent {
   commonsFile?: string
   thumbnailUrl?: string
   wikiExtract?: string
+  details?: EventDetail[]
   tier: number
   category: string
 }

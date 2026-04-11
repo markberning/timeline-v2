@@ -23,6 +23,8 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
 
   useEffect(() => {
     setImgError(false)
+    // Scroll sheet to top when event changes
+    if (sheetRef.current) sheetRef.current.scrollTop = 0
   }, [event])
 
   useEffect(() => {
@@ -49,29 +51,34 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
       {/* Sheet */}
       <div
         ref={sheetRef}
-        className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg max-h-[70vh] overflow-y-auto animate-slide-up"
+        className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg max-h-[80vh] overflow-y-auto animate-slide-up"
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}
       >
+        {/* Drag handle */}
+        <div className="flex justify-center pt-3 pb-1 sticky top-0">
+          <div className="w-9 h-1 rounded-full bg-foreground/20" />
+        </div>
+
         {/* Category color bar */}
         <div
-          className="h-1 rounded-t-2xl"
+          className="h-0.5 mx-5"
           style={{ backgroundColor: cat?.base ?? '#6b7280' }}
         />
 
         {/* Image */}
         {showImage && (
-          <div className="relative w-full max-h-[200px] overflow-hidden bg-foreground/5">
+          <div className="relative w-full max-h-[200px] overflow-hidden bg-foreground/5 mt-3 mx-5 rounded-lg" style={{ width: 'calc(100% - 40px)' }}>
             <img
               src={event.thumbnailUrl}
               alt={event.label}
               loading="lazy"
               onError={() => setImgError(true)}
-              className="w-full object-cover max-h-[200px]"
+              className="w-full object-cover max-h-[200px] rounded-lg"
             />
           </div>
         )}
 
-        <div className="px-5 pt-4 pb-6">
+        <div className="px-5 pt-3 pb-6">
           {/* Category label */}
           {cat && (
             <span
@@ -95,11 +102,32 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
             </p>
           )}
 
+          {/* Detail sections */}
+          {event.details && event.details.length > 0 && (
+            <div className="mt-4 space-y-4">
+              {event.details.map((detail, i) => (
+                <div key={i}>
+                  <h4 className="text-xs font-semibold uppercase tracking-wide text-foreground/50 mb-1">
+                    {detail.label}
+                  </h4>
+                  <p className="text-foreground/80 leading-relaxed text-[0.9em]">
+                    {detail.text}
+                  </p>
+                </div>
+              ))}
+            </div>
+          )}
+
           {/* Wikipedia extract */}
           {event.wikiExtract && (
-            <p className="mt-3 text-foreground/70 leading-relaxed text-[0.9em]">
-              {event.wikiExtract}
-            </p>
+            <div className="mt-4 pt-4 border-t border-foreground/10">
+              <h4 className="text-xs font-semibold uppercase tracking-wide text-foreground/50 mb-1">
+                Wikipedia
+              </h4>
+              <p className="text-foreground/70 leading-relaxed text-[0.9em]">
+                {event.wikiExtract}
+              </p>
+            </div>
           )}
 
           {/* Wikipedia link */}
