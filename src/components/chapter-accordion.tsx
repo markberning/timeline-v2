@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useCallback } from 'react'
 import type { NarrativeChapter } from '@/lib/types'
 
 interface ChapterAccordionProps {
@@ -10,13 +10,11 @@ interface ChapterAccordionProps {
 
 export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccordionProps) {
   const [open, setOpen] = useState(initialOpen)
-  const contentRef = useRef<HTMLDivElement>(null)
   const headerRef = useRef<HTMLButtonElement>(null)
 
   function toggle() {
     const next = !open
     setOpen(next)
-    // If opening, scroll the header into view after a brief delay for the content to render
     if (next && headerRef.current) {
       setTimeout(() => {
         headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -24,12 +22,23 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
     }
   }
 
+  const handleContentTap = useCallback((e: React.MouseEvent) => {
+    // Don't collapse if tapping a link or interactive element
+    const target = e.target as HTMLElement
+    if (target.closest('a, button, input, select, textarea')) return
+    setOpen(false)
+    // Scroll back to this chapter's header
+    setTimeout(() => {
+      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 50)
+  }, [])
+
   return (
     <section id={`chapter-${chapter.number}`} className="border-b border-foreground/10 last:border-b-0">
       <button
         ref={headerRef}
         onClick={toggle}
-        className="w-full text-left py-5 flex gap-3 items-start scroll-mt-[72px]"
+        className="w-full text-left py-5 flex gap-3 items-start sticky top-0 z-10 bg-background scroll-mt-0"
       >
         <span
           className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
@@ -54,7 +63,7 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
       </button>
 
       {open && (
-        <div ref={contentRef} className="pb-8">
+        <div className="pb-8 cursor-pointer" onClick={handleContentTap}>
           <article
             className="prose prose-lg dark:prose-invert max-w-none px-0"
             dangerouslySetInnerHTML={{ __html: chapter.contentHtml }}
