@@ -230,7 +230,8 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
 
               {/* Event details */}
               <div className="px-3 py-3">
-                <p className="text-xs text-foreground/50">
+                <p className="font-semibold text-sm">{evt.label}</p>
+                <p className="text-xs text-foreground/50 mt-0.5">
                   {formatYear(evt.year)} · {evt.category}
                 </p>
                 <p className="text-sm text-foreground/70 mt-1.5 leading-relaxed">
