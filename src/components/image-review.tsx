@@ -199,6 +199,20 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
     })
   }
 
+  async function submitReview() {
+    const res = await fetch('/api/review', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ civilizationId, rejections }),
+    })
+    const data = await res.json()
+    if (res.ok) {
+      alert(`Saved ${data.count} rejections to ${data.saved}`)
+    } else {
+      alert('Error saving: ' + data.error)
+    }
+  }
+
   if (!mounted) return null
 
   const rejectedCount = Object.keys(rejections).length
@@ -240,14 +254,24 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
             </button>
           ))}
         </div>
-        {rejectedCount > 0 && (
-          <button
-            onClick={exportRejections}
-            className="text-xs text-foreground/50 hover:text-foreground/80 transition-colors"
-          >
-            Copy rejections to clipboard
-          </button>
-        )}
+        <div className="flex gap-3">
+          {pendingCount === 0 && (
+            <button
+              onClick={submitReview}
+              className="text-xs px-3 py-1.5 rounded-md bg-green-600 text-white font-medium hover:bg-green-700 transition-colors"
+            >
+              Submit review
+            </button>
+          )}
+          {rejectedCount > 0 && (
+            <button
+              onClick={exportRejections}
+              className="text-xs text-foreground/50 hover:text-foreground/80 transition-colors"
+            >
+              Copy rejections
+            </button>
+          )}
+        </div>
       </div>
 
       <div className="space-y-6">
