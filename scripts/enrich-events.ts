@@ -15,7 +15,10 @@ const USER_AGENT = 'StuffHappened/2.0 (historical-narratives; mebernin@gmail.com
 
 function loadRejections(): Set<string> {
   if (existsSync(REJECTIONS_PATH)) {
-    return new Set(JSON.parse(readFileSync(REJECTIONS_PATH, 'utf-8')))
+    const raw = JSON.parse(readFileSync(REJECTIONS_PATH, 'utf-8'))
+    // Support both array format ["id1", "id2"] and object format {"id1": "reason"}
+    if (Array.isArray(raw)) return new Set(raw)
+    return new Set(Object.keys(raw))
   }
   return new Set()
 }
