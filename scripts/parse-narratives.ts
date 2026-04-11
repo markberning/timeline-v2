@@ -10,7 +10,6 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
-import { buildEventMatchMap, linkifyText } from './linkify'
 import { enrichEvents } from './enrich-events'
 
 interface ParsedChapter {
@@ -184,17 +183,41 @@ async function parseNarrative(filename: string, tlId: string) {
   )
   console.log(`  Enriched: ${enrichmentMap.size} events with thumbnails/extracts`)
 
-  // Build event match map for auto-linking
-  const eventMatchMap = buildEventMatchMap(
-    refData.events.map(e => ({ id: e.id, label: e.label, category: e.category }))
-  )
-  console.log(`  Event match map: ${eventMatchMap.size} phrases from ${refData.events.length} events`)
+  // Load curated event links
+  const linksPath = join(ROOT, 'content', `.event-links-${tlId}.json`)
+  let curatedLinks: Record<string, Array<{ eventId: string; matchText: string }>> = {}
+  if (existsSync(linksPath)) {
+    curatedLinks = JSON.parse(readFileSync(linksPath, 'utf-8'))
+    const totalLinks = Object.values(curatedLinks).reduce((s, arr) => s + arr.length, 0)
+    console.log(`  Curated event links: ${totalLinks} across ${Object.keys(curatedLinks).length} chapters`)
+  } else {
+    console.log(`  No curated event links found (${linksPath})`)
+  }
+
+  // Build category lookup for link injection
+  const categoryMap = new Map(refData.events.map(e => [e.id, e.category]))
 
   const chapters: ParsedChapter[] = []
 
   for (const ch of rawChapters) {
-    // Linkify event names in raw markdown before HTML conversion
-    const linkedBody = linkifyText(ch.body, eventMatchMap)
+    // Inject curated event links into raw markdown
+    let linkedBody = ch.body
+    const chapterLinks = curatedLinks[String(ch.number)] ?? []
+    // Sort by length descending so longer matches are replaced first
+    const sorted = [...chapterLinks].sort((a, b) => b.matchText.length - a.matchText.length)
+    const linked = new Set<string>()
+    for (const link of sorted) {
+      if (linked.has(link.eventId)) continue
+      const cat = categoryMap.get(link.eventId) ?? 'people'
+      const escaped = link.matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      // Only match in prose text, not inside existing HTML tags or markdown headings
+      const regex = new RegExp(`(?<!<[^>]*)\\b(${escaped})\\b`, 'i')
+      const replacement = `<a class="event-link" data-event-id="${link.eventId}" data-category="${cat}">${link.matchText}</a>`
+      const before = linkedBody
+      linkedBody = linkedBody.replace(regex, replacement)
+      if (linkedBody !== before) linked.add(link.eventId)
+    }
+
     const html = await markdownToHtml(linkedBody)
 
     chapters.push({
