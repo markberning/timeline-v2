@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { TlEvent } from '@/lib/types'
 import { CATEGORY_META } from '@/lib/categories'
 
@@ -19,6 +19,11 @@ function formatYear(year: number, endYear?: number): string {
 
 export function EventSheet({ event, onClose }: EventSheetProps) {
   const sheetRef = useRef<HTMLDivElement>(null)
+  const [imgError, setImgError] = useState(false)
+
+  useEffect(() => {
+    setImgError(false)
+  }, [event])
 
   useEffect(() => {
     if (!event) return
@@ -32,6 +37,7 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
   if (!event) return null
 
   const cat = CATEGORY_META[event.category]
+  const showImage = event.thumbnailUrl && !imgError
 
   return (
     <>
@@ -43,7 +49,7 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
       {/* Sheet */}
       <div
         ref={sheetRef}
-        className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg max-h-[50vh] overflow-y-auto animate-slide-up"
+        className="fixed bottom-0 left-0 right-0 z-50 bg-background rounded-t-2xl shadow-lg max-h-[70vh] overflow-y-auto animate-slide-up"
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}
       >
         {/* Category color bar */}
@@ -51,6 +57,19 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
           className="h-1 rounded-t-2xl"
           style={{ backgroundColor: cat?.base ?? '#6b7280' }}
         />
+
+        {/* Image */}
+        {showImage && (
+          <div className="relative w-full max-h-[200px] overflow-hidden bg-foreground/5">
+            <img
+              src={event.thumbnailUrl}
+              alt={event.label}
+              loading="lazy"
+              onError={() => setImgError(true)}
+              className="w-full object-cover max-h-[200px]"
+            />
+          </div>
+        )}
 
         <div className="px-5 pt-4 pb-6">
           {/* Category label */}
@@ -71,8 +90,15 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
 
           {/* Description */}
           {event.description && (
-            <p className="mt-3 text-foreground/80 leading-relaxed">
+            <p className="mt-3 leading-relaxed">
               {event.description}
+            </p>
+          )}
+
+          {/* Wikipedia extract */}
+          {event.wikiExtract && (
+            <p className="mt-3 text-foreground/70 leading-relaxed text-[0.9em]">
+              {event.wikiExtract}
             </p>
           )}
 
@@ -84,7 +110,7 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
               rel="noopener noreferrer"
               className="inline-block mt-4 text-sm font-medium text-foreground/50 hover:text-foreground/80 transition-colors"
             >
-              Wikipedia →
+              Read more on Wikipedia →
             </a>
           )}
         </div>

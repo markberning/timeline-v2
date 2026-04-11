@@ -16,6 +16,8 @@ export interface TlEvent {
   description: string
   wikiSlug: string
   commonsFile?: string
+  thumbnailUrl?: string
+  wikiExtract?: string
   tier: number
   category: string
 }

@@ -11,6 +11,7 @@ import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
 import { buildEventMatchMap, linkifyText } from './linkify'
+import { enrichEvents } from './enrich-events'
 
 interface ParsedChapter {
   number: number
@@ -174,6 +175,14 @@ async function parseNarrative(filename: string, tlId: string) {
   const summaries = loadSummaries(tlId)
   const refData = loadReferenceData(tlId)
 
+  // Enrich events with thumbnails and Wikipedia extracts
+  const forceRefresh = process.argv.includes('--refresh')
+  const enrichmentMap = await enrichEvents(
+    refData.events.map(e => ({ id: e.id, commonsFile: e.commonsFile, wikiSlug: e.wikiSlug })),
+    forceRefresh,
+  )
+  console.log(`  Enriched: ${enrichmentMap.size} events with thumbnails/extracts`)
+
   // Build event match map for auto-linking
   const eventMatchMap = buildEventMatchMap(
     refData.events.map(e => ({ id: e.id, label: e.label, category: e.category }))
@@ -209,7 +218,10 @@ async function parseNarrative(filename: string, tlId: string) {
         eventIds: [] as string[],
       }
     }),
-    events: refData.events,
+    events: refData.events.map(e => {
+      const enriched = enrichmentMap.get(e.id)
+      return enriched ? { ...e, ...enriched } : e
+    }),
     spans: refData.spans,
   }
 
