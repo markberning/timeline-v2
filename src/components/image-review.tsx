@@ -16,6 +16,8 @@ interface Rejection {
   reason: string
 }
 
+type Filter = 'pending' | 'approved' | 'rejected' | 'all'
+
 interface ImageReviewProps {
   civilizationId: string
   events: ReviewEvent[]
@@ -116,17 +118,19 @@ function Lightbox({ src, alt, onClose }: { src: string; alt: string; onClose: ()
 }
 
 export function ImageReview({ civilizationId, events }: ImageReviewProps) {
-  const storageKey = `image-rejections-${civilizationId}`
+  const rejectKey = `image-rejections-${civilizationId}`
+  const approveKey = `image-approved-${civilizationId}`
   const [rejections, setRejections] = useState<Record<string, Rejection>>({})
+  const [approved, setApproved] = useState<Set<string>>(new Set())
   const [mounted, setMounted] = useState(false)
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null)
   const [noteInput, setNoteInput] = useState<{ eventId: string; value: string } | null>(null)
+  const [filter, setFilter] = useState<Filter>('pending')
 
   useEffect(() => {
-    const saved = localStorage.getItem(storageKey)
-    if (saved) {
-      const parsed = JSON.parse(saved)
-      // Handle old format (array of IDs) → convert to new format
+    const savedR = localStorage.getItem(rejectKey)
+    if (savedR) {
+      const parsed = JSON.parse(savedR)
       if (Array.isArray(parsed)) {
         const converted: Record<string, Rejection> = {}
         for (const id of parsed) converted[id] = { reason: '' }
@@ -135,30 +139,57 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
         setRejections(parsed)
       }
     }
+    const savedA = localStorage.getItem(approveKey)
+    if (savedA) setApproved(new Set(JSON.parse(savedA)))
     setMounted(true)
-  }, [storageKey])
+  }, [rejectKey, approveKey])
 
-  function save(next: Record<string, Rejection>) {
+  function saveRejections(next: Record<string, Rejection>) {
     setRejections(next)
-    localStorage.setItem(storageKey, JSON.stringify(next))
+    localStorage.setItem(rejectKey, JSON.stringify(next))
+  }
+
+  function saveApproved(next: Set<string>) {
+    setApproved(next)
+    localStorage.setItem(approveKey, JSON.stringify([...next]))
+  }
+
+  function approve(eventId: string) {
+    const nextA = new Set(approved)
+    nextA.add(eventId)
+    saveApproved(nextA)
+    // Remove from rejections if it was there
+    if (rejections[eventId]) {
+      const nextR = { ...rejections }
+      delete nextR[eventId]
+      saveRejections(nextR)
+    }
   }
 
   function reject(eventId: string) {
-    // Open note input
     setNoteInput({ eventId, value: '' })
   }
 
   function confirmReject() {
     if (!noteInput) return
-    const next = { ...rejections, [noteInput.eventId]: { reason: noteInput.value } }
-    save(next)
+    const nextR = { ...rejections, [noteInput.eventId]: { reason: noteInput.value } }
+    saveRejections(nextR)
+    // Remove from approved if it was there
+    if (approved.has(noteInput.eventId)) {
+      const nextA = new Set(approved)
+      nextA.delete(noteInput.eventId)
+      saveApproved(nextA)
+    }
     setNoteInput(null)
   }
 
   function restore(eventId: string) {
-    const next = { ...rejections }
-    delete next[eventId]
-    save(next)
+    const nextR = { ...rejections }
+    delete nextR[eventId]
+    saveRejections(nextR)
+    const nextA = new Set(approved)
+    nextA.delete(eventId)
+    saveApproved(nextA)
   }
 
   function exportRejections() {
@@ -171,43 +202,73 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
   if (!mounted) return null
 
   const rejectedCount = Object.keys(rejections).length
-  const approvedCount = events.length - rejectedCount
+  const approvedCount = approved.size
+  const pendingCount = events.length - rejectedCount - approvedCount
+
+  const filtered = events.filter(evt => {
+    const isRejected = !!rejections[evt.id]
+    const isApproved = approved.has(evt.id)
+    switch (filter) {
+      case 'pending': return !isRejected && !isApproved
+      case 'approved': return isApproved
+      case 'rejected': return isRejected
+      case 'all': return true
+    }
+  })
 
   return (
     <>
+      {/* Filter tabs + stats */}
       <div className="sticky top-0 z-10 bg-background py-2 mb-4 border-b border-foreground/10">
-        <div className="flex items-center justify-between">
-          <span className="text-sm">
-            <span className="text-green-600 font-medium">{approvedCount} approved</span>
-            {rejectedCount > 0 && (
-              <span className="text-red-500 font-medium ml-2">{rejectedCount} rejected</span>
-            )}
-          </span>
-          {rejectedCount > 0 && (
+        <div className="flex gap-2 mb-2 flex-wrap">
+          {([
+            ['pending', `Pending (${pendingCount})`],
+            ['approved', `Approved (${approvedCount})`],
+            ['rejected', `Rejected (${rejectedCount})`],
+            ['all', `All (${events.length})`],
+          ] as [Filter, string][]).map(([key, label]) => (
             <button
-              onClick={exportRejections}
-              className="text-xs px-3 py-1.5 rounded-md bg-foreground/10 hover:bg-foreground/20 transition-colors"
+              key={key}
+              onClick={() => setFilter(key)}
+              className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
+                filter === key
+                  ? 'bg-foreground text-background font-medium'
+                  : 'bg-foreground/10'
+              }`}
             >
-              Copy rejections
+              {label}
             </button>
-          )}
+          ))}
         </div>
+        {rejectedCount > 0 && (
+          <button
+            onClick={exportRejections}
+            className="text-xs text-foreground/50 hover:text-foreground/80 transition-colors"
+          >
+            Copy rejections to clipboard
+          </button>
+        )}
       </div>
 
       <div className="space-y-6">
-        {events.map(evt => {
-          const rejection = rejections[evt.id]
-          const isRejected = !!rejection
+        {filtered.length === 0 && (
+          <p className="text-sm text-foreground/50 py-8 text-center">No events in this category</p>
+        )}
+        {filtered.map(evt => {
+          const isRejected = !!rejections[evt.id]
+          const isApproved = approved.has(evt.id)
           return (
             <div
               key={evt.id}
               className={`rounded-lg border overflow-hidden transition-all ${
                 isRejected
                   ? 'border-red-500/30 bg-red-500/5 opacity-40'
+                  : isApproved
+                  ? 'border-green-500/30'
                   : 'border-foreground/10'
               }`}
             >
-              {/* Image — tap to open lightbox */}
+              {/* Image */}
               <div
                 onClick={() => setLightbox({ src: getLargeUrl(evt.thumbnailUrl), alt: evt.label })}
                 className="w-full cursor-pointer"
@@ -220,7 +281,7 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
                 />
               </div>
 
-              {/* Event title — what this image should represent */}
+              {/* Event title */}
               <div className="px-3 pt-3 pb-1 border-b border-foreground/5 bg-foreground/[0.02]">
                 <p className="text-xs text-foreground/40 uppercase tracking-wide mb-0.5">This image should represent</p>
                 <p className="font-bold text-base">{evt.label}</p>
@@ -229,7 +290,7 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
                 </p>
               </div>
 
-              {/* Caption preview */}
+              {/* Caption */}
               <div className="px-3 py-2 border-b border-foreground/5">
                 <p className="text-xs text-foreground/40 uppercase tracking-wide mb-0.5">Caption shown to reader</p>
                 <p className="text-sm italic text-foreground/70">
@@ -237,35 +298,52 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
                 </p>
               </div>
 
-              {/* Description for context */}
+              {/* Description */}
               <div className="px-3 py-3">
                 <p className="text-sm text-foreground/70 leading-relaxed">
                   {evt.description}
                 </p>
 
                 {/* Rejection note */}
-                {isRejected && rejection.reason && (
+                {isRejected && rejections[evt.id].reason && (
                   <p className="text-xs text-red-500 mt-2 italic">
-                    Note: {rejection.reason}
+                    Note: {rejections[evt.id].reason}
                   </p>
                 )}
 
-                {/* Reject/restore button */}
-                {isRejected ? (
-                  <button
-                    onClick={() => restore(evt.id)}
-                    className="mt-3 text-xs px-3 py-1.5 rounded-md bg-green-500/10 text-green-600 hover:bg-green-500/20 transition-colors"
-                  >
-                    Restore image
-                  </button>
-                ) : (
-                  <button
-                    onClick={() => reject(evt.id)}
-                    className="mt-3 text-xs px-3 py-1.5 rounded-md bg-red-500/10 text-red-500 hover:bg-red-500/20 transition-colors"
-                  >
-                    Reject image
-                  </button>
-                )}
+                {/* Action buttons */}
+                <div className="flex gap-2 mt-3">
+                  {isRejected ? (
+                    <button
+                      onClick={() => restore(evt.id)}
+                      className="text-xs px-3 py-1.5 rounded-md bg-foreground/10 hover:bg-foreground/20 transition-colors"
+                    >
+                      Undo reject
+                    </button>
+                  ) : isApproved ? (
+                    <button
+                      onClick={() => restore(evt.id)}
+                      className="text-xs px-3 py-1.5 rounded-md bg-foreground/10 hover:bg-foreground/20 transition-colors"
+                    >
+                      Undo approve
+                    </button>
+                  ) : (
+                    <>
+                      <button
+                        onClick={() => approve(evt.id)}
+                        className="text-xs px-3 py-1.5 rounded-md bg-green-500/10 text-green-600 hover:bg-green-500/20 transition-colors"
+                      >
+                        Approve
+                      </button>
+                      <button
+                        onClick={() => reject(evt.id)}
+                        className="text-xs px-3 py-1.5 rounded-md bg-red-500/10 text-red-500 hover:bg-red-500/20 transition-colors"
+                      >
+                        Reject
+                      </button>
+                    </>
+                  )}
+                </div>
               </div>
             </div>
           )
