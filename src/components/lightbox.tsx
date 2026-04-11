@@ -89,6 +89,7 @@ export function Lightbox({ src, alt, onClose }: LightboxProps) {
         className="max-w-full max-h-full object-contain"
         style={{ transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})` }}
         draggable={false}
+        onClick={() => { if (scale <= 1.05) onClose() }}
       />
     </div>
   )
