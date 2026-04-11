@@ -1,0 +1,113 @@
+{
+  "1": [
+    {"eventId": "evt-amorite-migration", "matchText": "Amorites"},
+    {"eventId": "evt-kassite-dynasty", "matchText": "Kassites"}
+  ],
+  "2": [
+    {"eventId": "evt-eridu-temple", "matchText": "Eridu's temple"},
+    {"eventId": "evt-inanna-worship", "matchText": "cult of Inanna"},
+    {"eventId": "evt-silk-road-precursor", "matchText": "trade routes that predate"}
+  ],
+  "3": [
+    {"eventId": "evt-uruk-city", "matchText": "world's first real city"},
+    {"eventId": "evt-cuneiform-invention", "matchText": "cuneiform"},
+    {"eventId": "evt-cylinder-seal", "matchText": "cylinder seal"},
+    {"eventId": "evt-wheel-invention", "matchText": "The wheel appeared first"},
+    {"eventId": "evt-beer-brewing", "matchText": "first documented brewers"}
+  ],
+  "4": [
+    {"eventId": "evt-early-dynastic-wars", "matchText": "constantly fighting each other"},
+    {"eventId": "evt-eannatum", "matchText": "Eannatum of Lagash"},
+    {"eventId": "evt-elamite-rivalry", "matchText": "rival civilization of Elam"},
+    {"eventId": "evt-lugalzagesi", "matchText": "Lugal-zage-si"},
+    {"eventId": "evt-royal-tombs-ur", "matchText": "Royal Tombs of Ur"},
+    {"eventId": "evt-gilgamesh-person", "matchText": "Gilgamesh"},
+    {"eventId": "evt-sumerian-trade-networks", "matchText": "Sumerian Maritime Trade"},
+    {"eventId": "evt-shekel-weight", "matchText": "standardized weights"},
+    {"eventId": "evt-sumerian-astronomy", "matchText": "Early Sumerian astronomy"}
+  ],
+  "5": [
+    {"eventId": "evt-sargon-akkad", "matchText": "Sargon seized the throne"},
+    {"eventId": "evt-lugalzagesi", "matchText": "Lugal-zage-si"},
+    {"eventId": "evt-mari-kingdom", "matchText": "trading cities of Mari"},
+    {"eventId": "evt-enheduanna", "matchText": "Enheduanna"},
+    {"eventId": "evt-naram-sin", "matchText": "Naram-Sin"},
+    {"eventId": "evt-gudea-lagash", "matchText": "Gudea"}
+  ],
+  "6": [
+    {"eventId": "evt-ur-nammu", "matchText": "Ur-Nammu"},
+    {"eventId": "evt-ziggurat-ur", "matchText": "Great Ziggurat of Ur"},
+    {"eventId": "evt-code-ur-nammu", "matchText": "Code of Ur-Nammu"},
+    {"eventId": "evt-shulgi", "matchText": "most bureaucratic king"},
+    {"eventId": "evt-epic-gilgamesh-written", "matchText": "Epic of Gilgamesh"},
+    {"eventId": "evt-sumerian-king-list", "matchText": "Sumerian King List"}
+  ],
+  "7": [
+    {"eventId": "evt-amorite-migration", "matchText": "Amorites were Semitic-speaking"},
+    {"eventId": "evt-hammurabi", "matchText": "a king named Hammurabi"},
+    {"eventId": "evt-code-hammurabi", "matchText": "Code of Hammurabi"},
+    {"eventId": "evt-babylon-marduk", "matchText": "rise of the Marduk cult"},
+    {"eventId": "evt-silver-currency", "matchText": "silver as currency"},
+    {"eventId": "evt-babylonian-mathematics", "matchText": "Babylonian mathematics"},
+    {"eventId": "evt-plimpton-322", "matchText": "Plimpton 322 tablet"},
+    {"eventId": "evt-atra-hasis", "matchText": "Atra-Hasis"},
+    {"eventId": "evt-mari-kingdom", "matchText": "He destroyed Mari"}
+  ],
+  "8": [
+    {"eventId": "evt-hittite-sack-babylon", "matchText": "Hittite Sack of Babylon"},
+    {"eventId": "evt-kassite-dynasty", "matchText": "Kassite Dynasty"},
+    {"eventId": "evt-mitanni-kingdom", "matchText": "Kingdom of Mitanni"},
+    {"eventId": "evt-amarna-letters", "matchText": "Amarna Letters"},
+    {"eventId": "evt-aramaic-spread", "matchText": "Aramaic"},
+    {"eventId": "evt-babylon-marduk", "matchText": "statue of Marduk"}
+  ],
+  "9": [
+    {"eventId": "evt-tukulti-ninurta", "matchText": "Tukulti-Ninurta I"},
+    {"eventId": "evt-assyrian-conquest-babylon", "matchText": "Assyrian Conquest of Babylon"},
+    {"eventId": "evt-bronze-age-collapse", "matchText": "Bronze Age Collapse"},
+    {"eventId": "evt-tiglath-pileser-i", "matchText": "Tiglath-Pileser I"},
+    {"eventId": "evt-nebuchadnezzar-i", "matchText": "Nebuchadnezzar I"},
+    {"eventId": "evt-enuma-elish", "matchText": "Enuma Elish"},
+    {"eventId": "evt-new-year-festival", "matchText": "Akitu festival"},
+    {"eventId": "evt-mul-apin", "matchText": "MUL.APIN tablets"},
+    {"eventId": "evt-babylonian-eclipse", "matchText": "Saros cycle"},
+    {"eventId": "evt-nimrud", "matchText": "Nimrud"},
+    {"eventId": "evt-iron-age-transition", "matchText": "tin"}
+  ],
+  "10": [
+    {"eventId": "evt-ashurnasirpal-ii", "matchText": "Ashurnasirpal II"},
+    {"eventId": "evt-shalmaneser-iii", "matchText": "Shalmaneser III"},
+    {"eventId": "evt-battle-qarqar", "matchText": "Battle of Qarqar"},
+    {"eventId": "evt-tiglath-pileser-iii", "matchText": "a usurper seized the throne"}
+  ],
+  "11": [
+    {"eventId": "evt-tiglath-pileser-conquests", "matchText": "Assyrian Deportation Policy"},
+    {"eventId": "evt-fall-of-israel", "matchText": "Fall of Israel to Assyria"},
+    {"eventId": "evt-sennacherib", "matchText": "Sennacherib"},
+    {"eventId": "evt-nineveh-capital", "matchText": "Nineveh"},
+    {"eventId": "evt-sennacherib-jerusalem", "matchText": "Siege of Jerusalem"},
+    {"eventId": "evt-esarhaddon", "matchText": "Esarhaddon"},
+    {"eventId": "evt-assyrian-conquest-egypt", "matchText": "Assyrian Conquest of Egypt"},
+    {"eventId": "evt-ashurbanipal", "matchText": "Ashurbanipal"},
+    {"eventId": "evt-library-nineveh", "matchText": "Library of Ashurbanipal"},
+    {"eventId": "evt-destruction-elam", "matchText": "Destruction of Elam"},
+    {"eventId": "evt-battle-carchemish", "matchText": "Battle of Carchemish"},
+    {"eventId": "evt-nebuchadnezzar-ii", "matchText": "Nebuchadnezzar"}
+  ],
+  "12": [
+    {"eventId": "evt-ishtar-gate", "matchText": "Ishtar Gate"},
+    {"eventId": "evt-etemenanki", "matchText": "Etemenanki"},
+    {"eventId": "evt-hanging-gardens", "matchText": "Hanging Gardens of Babylon"},
+    {"eventId": "evt-chaldean-dynasty", "matchText": "Chaldean astronomy"},
+    {"eventId": "evt-babylonian-zodiac", "matchText": "Babylonian zodiac"},
+    {"eventId": "evt-mesopotamia-destruction-jerusalem", "matchText": "Destruction of Jerusalem"},
+    {"eventId": "evt-nabonidus", "matchText": "Nabonidus"},
+    {"eventId": "evt-new-year-festival", "matchText": "Akitu New Year festival"}
+  ],
+  "13": [
+    {"eventId": "evt-fall-babylon-persia", "matchText": "Fall of Babylon to Persia"},
+    {"eventId": "evt-cyrus-cylinder", "matchText": "Cyrus Cylinder"},
+    {"eventId": "evt-epic-gilgamesh-written", "matchText": "Epic of Gilgamesh"},
+    {"eventId": "evt-sumerian-astronomy", "matchText": "sexagesimal system"}
+  ]
+}
