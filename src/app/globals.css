@@ -29,14 +29,13 @@
   --font-mono: var(--font-geist-mono);
 }
 
-html {
+html, body {
   overflow-x: hidden;
-  overscroll-behavior: none;
 }
 
 body {
-  overflow-x: hidden;
   touch-action: pan-y;
+  overscroll-behavior-x: none;
 }
 
 body {
