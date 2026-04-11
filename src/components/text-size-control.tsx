@@ -56,7 +56,7 @@ export function TextSizeControl() {
         onClick={decrease}
         disabled={sizeIndex <= 0}
         aria-label="Decrease text size"
-        className="w-8 h-8 flex items-center justify-center rounded-md text-foreground/60 hover:text-foreground disabled:text-foreground/20 transition-colors text-xs font-bold"
+        className="w-8 h-8 flex items-center justify-center rounded-md text-foreground/60 hover:text-foreground disabled:text-foreground/35 transition-colors text-xs font-bold"
       >
         A
       </button>
@@ -64,7 +64,7 @@ export function TextSizeControl() {
         onClick={increase}
         disabled={sizeIndex >= SIZES.length - 1}
         aria-label="Increase text size"
-        className="w-8 h-8 flex items-center justify-center rounded-md text-foreground/60 hover:text-foreground disabled:text-foreground/20 transition-colors text-lg font-bold"
+        className="w-8 h-8 flex items-center justify-center rounded-md text-foreground/60 hover:text-foreground disabled:text-foreground/35 transition-colors text-lg font-bold"
       >
         A
       </button>

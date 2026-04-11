@@ -30,7 +30,7 @@ export default async function CivilizationPage({ params }: PageProps) {
     <div className="max-w-prose mx-auto px-5">
       <div className="sticky top-0 z-20 bg-background/95 backdrop-blur-sm -mx-5 px-5 pt-3 pb-2 border-b-2" style={{ borderBottomColor: 'var(--accent)' }}>
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-1 text-sm hover:opacity-80 transition-opacity" style={{ color: 'var(--accent)' }}>
+          <Link href="/" className="flex items-center gap-1 text-sm hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="15 18 9 12 15 6" />
             </svg>
@@ -44,7 +44,7 @@ export default async function CivilizationPage({ params }: PageProps) {
       </div>
 
       <div className="pt-4 pb-8">
-        <h1 className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>{narrative.label}</h1>
+        <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>{narrative.label}</h1>
         <p className="text-sm text-foreground/50 mt-1 mb-6">
           {narrative.chapters.length} chapters
         </p>

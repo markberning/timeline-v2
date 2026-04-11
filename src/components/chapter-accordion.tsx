@@ -51,7 +51,7 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
       >
         <span
           className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
-          style={{ backgroundColor: 'var(--accent)' }}
+          style={{ backgroundColor: 'var(--accent-badge)' }}
         >
           {chapter.number}
         </span>

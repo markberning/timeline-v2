@@ -25,7 +25,7 @@ export function ChapterListItem({
       <div className="flex items-baseline gap-3">
         <span
           className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white"
-          style={{ backgroundColor: 'var(--accent)' }}
+          style={{ backgroundColor: 'var(--accent-badge)' }}
         >
           {number}
         </span>
