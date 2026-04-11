@@ -44,7 +44,7 @@ export default async function CivilizationPage({ params }: PageProps) {
         </div>
       </div>
 
-      <div>
+      <div className="reading-content">
         {narrative.chapters.map(ch => (
           <ChapterAccordion key={ch.slug} chapter={ch} />
         ))}

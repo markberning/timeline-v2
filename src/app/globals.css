@@ -28,10 +28,15 @@ body {
 }
 
 /* Prose overrides for the reading experience */
-.prose {
-  --tw-prose-links: var(--accent);
+.reading-content {
   font-size: var(--prose-size);
   line-height: 1.75;
+}
+
+.prose {
+  --tw-prose-links: var(--accent);
+  font-size: inherit !important;
+  line-height: inherit !important;
 }
 
 .prose p {
