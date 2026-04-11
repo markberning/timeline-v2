@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import { ChapterAccordion } from '@/components/chapter-accordion'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import { TextSizeControl } from '@/components/text-size-control'
 
 interface PageProps {
   params: Promise<{ civilizationId: string }>
@@ -37,7 +38,10 @@ export default async function CivilizationPage({ params }: PageProps) {
             {narrative.chapters.length} chapters
           </p>
         </div>
-        <DarkModeToggle />
+        <div className="flex items-center gap-1">
+          <TextSizeControl />
+          <DarkModeToggle />
+        </div>
       </div>
 
       <div>
