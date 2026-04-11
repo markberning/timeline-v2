@@ -12,15 +12,18 @@ const CACHE_PATH = join(ROOT, 'content', '.enrichment-cache.json')
 const USER_AGENT = 'StuffHappened/2.0 (historical-narratives; mebernin@gmail.com)'
 
 interface EnrichmentCache {
-  thumbnails: Record<string, string | null>  // commonsFile → thumbUrl or null (verified missing)
-  extracts: Record<string, string | null>    // wikiSlug → extract text or null
+  thumbnails: Record<string, string | null>   // commonsFile → thumbUrl or null
+  extracts: Record<string, string | null>     // wikiSlug → extract text or null
+  wikiImages: Record<string, string | null>   // wikiSlug → Wikipedia page thumbnail URL or null
 }
 
 function loadCache(): EnrichmentCache {
+  const defaults: EnrichmentCache = { thumbnails: {}, extracts: {}, wikiImages: {} }
   if (existsSync(CACHE_PATH)) {
-    return JSON.parse(readFileSync(CACHE_PATH, 'utf-8'))
+    const raw = JSON.parse(readFileSync(CACHE_PATH, 'utf-8'))
+    return { ...defaults, ...raw }
   }
-  return { thumbnails: {}, extracts: {} }
+  return defaults
 }
 
 function saveCache(cache: EnrichmentCache): void {
@@ -43,10 +46,10 @@ async function fetchThumbnails(
 ): Promise<void> {
   const uncached = filenames.filter(f => !(f in cache.thumbnails))
   if (uncached.length === 0) {
-    console.log(`  Thumbnails: ${filenames.length} cached, 0 to fetch`)
+    console.log(`  Commons thumbnails: ${filenames.length} cached, 0 to fetch`)
     return
   }
-  console.log(`  Thumbnails: ${filenames.length - uncached.length} cached, ${uncached.length} to fetch`)
+  console.log(`  Commons thumbnails: ${filenames.length - uncached.length} cached, ${uncached.length} to fetch`)
 
   for (let i = 0; i < uncached.length; i += 50) {
     const batch = uncached.slice(i, i + 50)
@@ -60,7 +63,6 @@ async function fetchThumbnails(
       }
     }
 
-    // Build a reverse lookup: normalized title → original filename
     const normalizedMap = new Map<string, string>()
     for (const f of batch) {
       normalizedMap.set(`File:${f}`.replace(/_/g, ' '), f)
@@ -76,43 +78,48 @@ async function fetchThumbnails(
     for (const page of Object.values(data.query.pages)) {
       const filename = normalizedMap.get(page.title)
       if (!filename) continue
-      const thumbUrl = page.imageinfo?.[0]?.thumburl ?? null
-      cache.thumbnails[filename] = thumbUrl
-      if (!thumbUrl) console.log(`    ⚠ Missing: ${filename}`)
+      cache.thumbnails[filename] = page.imageinfo?.[0]?.thumburl ?? null
     }
 
-    // Mark any batch entries not found in response as null
     for (const f of batch) {
       if (!(f in cache.thumbnails)) cache.thumbnails[f] = null
     }
   }
 }
 
-/** Batch-fetch Wikipedia extracts. Up to 50 slugs per request. */
-async function fetchExtracts(
+/** Batch-fetch Wikipedia extracts + page images. Up to 50 slugs per request. */
+async function fetchWikiData(
   slugs: string[],
   cache: EnrichmentCache,
 ): Promise<void> {
-  const uncached = slugs.filter(s => !(s in cache.extracts))
+  // Check what needs fetching (either extract or image missing)
+  const needsExtract = slugs.filter(s => !(s in cache.extracts))
+  const needsImage = slugs.filter(s => !(s in cache.wikiImages))
+  const uncached = [...new Set([...needsExtract, ...needsImage])]
+
   if (uncached.length === 0) {
-    console.log(`  Extracts: ${slugs.length} cached, 0 to fetch`)
+    console.log(`  Wiki data: ${slugs.length} cached, 0 to fetch`)
     return
   }
-  console.log(`  Extracts: ${slugs.length - uncached.length} cached, ${uncached.length} to fetch`)
+  console.log(`  Wiki data: ${slugs.length - uncached.length} cached, ${uncached.length} to fetch`)
 
   for (let i = 0; i < uncached.length; i += 50) {
     const batch = uncached.slice(i, i + 50)
     const titles = batch.join('|')
-    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(titles)}&prop=extracts&exintro=1&explaintext=1&exsentences=3&format=json`
+    // Combine extracts + pageimages in one request
+    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(titles)}&prop=extracts|pageimages&exintro=1&explaintext=1&exsentences=3&pithumbsize=400&format=json`
 
     const data = await fetchJson(url) as {
       query: {
-        pages: Record<string, { title: string; extract?: string }>
+        pages: Record<string, {
+          title: string
+          extract?: string
+          thumbnail?: { source: string }
+        }>
         normalized?: Array<{ from: string; to: string }>
       }
     }
 
-    // Build reverse lookup
     const normalizedMap = new Map<string, string>()
     for (const s of batch) {
       normalizedMap.set(s, s)
@@ -128,12 +135,17 @@ async function fetchExtracts(
     for (const page of Object.values(data.query.pages)) {
       const slug = normalizedMap.get(page.title)
       if (!slug) continue
-      cache.extracts[slug] = page.extract?.trim() || null
+      if (!(slug in cache.extracts)) {
+        cache.extracts[slug] = page.extract?.trim() || null
+      }
+      if (!(slug in cache.wikiImages)) {
+        cache.wikiImages[slug] = page.thumbnail?.source ?? null
+      }
     }
 
-    // Mark missing
     for (const s of batch) {
       if (!(s in cache.extracts)) cache.extracts[s] = null
+      if (!(s in cache.wikiImages)) cache.wikiImages[s] = null
     }
   }
 }
@@ -149,22 +161,25 @@ export async function enrichEvents(
   forceRefresh = false,
 ): Promise<Map<string, EnrichedEvent>> {
   const cache = forceRefresh
-    ? { thumbnails: {}, extracts: {} } as EnrichmentCache
+    ? { thumbnails: {}, extracts: {}, wikiImages: {} } as EnrichmentCache
     : loadCache()
 
   const commonsFiles = [...new Set(events.filter(e => e.commonsFile).map(e => e.commonsFile!))]
   const wikiSlugs = [...new Set(events.filter(e => e.wikiSlug).map(e => e.wikiSlug!))]
 
   await fetchThumbnails(commonsFiles, cache)
-  await fetchExtracts(wikiSlugs, cache)
+  await fetchWikiData(wikiSlugs, cache)
 
   saveCache(cache)
 
   const result = new Map<string, EnrichedEvent>()
   for (const evt of events) {
     const enriched: EnrichedEvent = {}
+    // Prefer Commons thumbnail, fall back to Wikipedia page image
     if (evt.commonsFile && cache.thumbnails[evt.commonsFile]) {
       enriched.thumbnailUrl = cache.thumbnails[evt.commonsFile]!
+    } else if (evt.wikiSlug && cache.wikiImages[evt.wikiSlug]) {
+      enriched.thumbnailUrl = cache.wikiImages[evt.wikiSlug]!
     }
     if (evt.wikiSlug && cache.extracts[evt.wikiSlug]) {
       enriched.wikiExtract = cache.extracts[evt.wikiSlug]!
