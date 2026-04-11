@@ -12,10 +12,24 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
   const [open, setOpen] = useState(initialOpen)
   const headerRef = useRef<HTMLButtonElement>(null)
 
+  function collapse() {
+    if (!headerRef.current) return
+    // Remember where the header is on screen before content disappears
+    const offsetBefore = headerRef.current.getBoundingClientRect().top
+    setOpen(false)
+    // After React removes the content, adjust scroll so header stays in place
+    requestAnimationFrame(() => {
+      if (!headerRef.current) return
+      const offsetAfter = headerRef.current.getBoundingClientRect().top
+      window.scrollBy(0, offsetAfter - offsetBefore)
+    })
+  }
+
   function toggle() {
-    const next = !open
-    setOpen(next)
-    if (next && headerRef.current) {
+    if (open) {
+      collapse()
+    } else {
+      setOpen(true)
       setTimeout(() => {
         headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
       }, 50)
@@ -23,10 +37,9 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
   }
 
   const handleContentTap = useCallback((e: React.MouseEvent) => {
-    // Don't collapse if tapping a link or interactive element
     const target = e.target as HTMLElement
     if (target.closest('a, button, input, select, textarea')) return
-    setOpen(false)
+    collapse()
   }, [])
 
   return (
