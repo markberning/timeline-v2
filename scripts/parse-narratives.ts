@@ -10,6 +10,7 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
+import { buildEventMatchMap, linkifyText } from './linkify'
 
 interface ParsedChapter {
   number: number
@@ -173,11 +174,18 @@ async function parseNarrative(filename: string, tlId: string) {
   const summaries = loadSummaries(tlId)
   const refData = loadReferenceData(tlId)
 
+  // Build event match map for auto-linking
+  const eventMatchMap = buildEventMatchMap(
+    refData.events.map(e => ({ id: e.id, label: e.label, category: e.category }))
+  )
+  console.log(`  Event match map: ${eventMatchMap.size} phrases from ${refData.events.length} events`)
+
   const chapters: ParsedChapter[] = []
 
   for (const ch of rawChapters) {
-    const html = await markdownToHtml(ch.body)
-    const summary = summaries.find(s => s.chapter === ch.number)
+    // Linkify event names in raw markdown before HTML conversion
+    const linkedBody = linkifyText(ch.body, eventMatchMap)
+    const html = await markdownToHtml(linkedBody)
 
     chapters.push({
       number: ch.number,

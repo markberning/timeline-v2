@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
-import { ChapterAccordion } from '@/components/chapter-accordion'
+import { NarrativeReader } from '@/components/narrative-reader'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { TextSizeControl } from '@/components/text-size-control'
 
@@ -49,11 +49,7 @@ export default async function CivilizationPage({ params }: PageProps) {
           {narrative.chapters.length} chapters
         </p>
 
-        <div className="reading-content">
-          {narrative.chapters.map(ch => (
-            <ChapterAccordion key={ch.slug} chapter={ch} />
-          ))}
-        </div>
+        <NarrativeReader chapters={narrative.chapters} events={narrative.events} />
       </div>
     </div>
   )

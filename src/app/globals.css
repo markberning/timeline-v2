@@ -55,6 +55,8 @@ body {
 
 .prose a {
   color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .prose p {
@@ -77,12 +79,6 @@ body {
   line-height: 1.4;
 }
 
-.prose a {
-  color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
 .prose hr {
   margin-block: 2.5em;
   border-color: var(--foreground);
@@ -93,3 +89,40 @@ body {
   border-left-color: var(--accent);
   opacity: 0.9;
 }
+
+/* Bottom sheet slide-up animation */
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.animate-slide-up {
+  animation: slide-up 200ms ease-out;
+}
+
+/* Event links — category-colored, dotted underline */
+.event-link {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+/* Light mode: use darker text-safe variants */
+.event-link[data-category="rulers"]       { color: #92400e; }
+.event-link[data-category="wars"]         { color: #b91c1c; }
+.event-link[data-category="architecture"] { color: #6d28d9; }
+.event-link[data-category="religion"]     { color: #0e7490; }
+.event-link[data-category="science"]      { color: #047857; }
+.event-link[data-category="trade"]        { color: #c2410c; }
+.event-link[data-category="people"]       { color: #be185d; }
+.event-link[data-category="writing"]      { color: #6d28d9; }
+
+/* Dark mode: use vibrant base colors */
+.dark .event-link[data-category="rulers"]       { color: #f59e0b; }
+.dark .event-link[data-category="wars"]         { color: #ef4444; }
+.dark .event-link[data-category="architecture"] { color: #8b5cf6; }
+.dark .event-link[data-category="religion"]     { color: #06b6d4; }
+.dark .event-link[data-category="science"]      { color: #10b981; }
+.dark .event-link[data-category="trade"]        { color: #f97316; }
+.dark .event-link[data-category="people"]       { color: #ec4899; }
+.dark .event-link[data-category="writing"]      { color: #a78bfa; }
