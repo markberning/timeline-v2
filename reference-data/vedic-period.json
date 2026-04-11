@@ -1,0 +1,2622 @@
+{
+  "id": "vedic-period",
+  "label": "Vedic India",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Vedic_period",
+  "imageWikiSlug": "Agni_god_of_fire",
+  "mapCommonsFile": "Vedic_period_map.png",
+  "pitch": "When the Indus cities emptied and the great urban experiment along the Indus River faded after 1900 BCE, the subcontinent did not go dark. Post-Harappan peoples drifted eastward carrying craft traditions and agricultural knowledge, and into this landscape came Indo-Aryan migrants from Central Asia — bringing horses, chariots, fire rituals, and a sacred oral poetry that would become the Rigveda. Over the next thousand years, from roughly 1500 to 500 BCE, these two traditions blended into something new: Vedic civilization, the cultural bedrock of Hindu India.\n\n🔑 Key Facts:\n• The Rigveda, composed orally over centuries and transmitted word-perfect through elaborate memorization techniques, is the oldest religious text still in active use — 1,028 hymns to gods like Indra, Agni, and Varuna\n• The Battle of the Ten Kings, described in the Rigveda, is one of the oldest battles in any literature — a coalition war on the Ravi River that gave India its ancient name Bharatavarsha and its modern official name Bharat\n• The varna system (Brahmins, Kshatriyas, Vaishyas, Shudras) emerged during the Late Vedic period and became the framework for Indian social organization for millennia\n• The Upanishads introduced Brahman (universal reality), Atman (individual soul), karma, and moksha — philosophical concepts that shaped Hinduism, Buddhism, and Jainism alike\n• Iron tools enabled the clearance of the dense Gangetic forests, transforming the Ganges Valley into the agricultural heartland of Indian civilization and supporting the rise of cities and kingdoms\n• The sixteen Mahajanapadas (great kingdoms) represented India's first complex political landscape, including both monarchies and oligarchic republics — the gana-sanghas\n• The Shramana movement produced the Buddha and Mahavira, whose teachings would become two of the world's great religions, directly challenging Brahminical orthodoxy\n• Panini's Ashtadhyayi, a grammar of Sanskrit with 3,959 rules, is considered the most sophisticated linguistic work of the ancient world and prefigures modern computational linguistics\n\n🤔 Why It Matters: The Vedic period created the religious, social, and philosophical foundations of Indian civilization. Sanskrit became the classical language of South Asia, Vedic rituals evolved into Hindu worship, and the philosophical debates of the Upanishads generated ideas — karma, dharma, moksha — that now shape the lives of over a billion people. The Mahajanapada kingdoms that emerged from this era set the political stage for India's first great empire: when Chandragupta Maurya overthrew the Nanda dynasty and unified the subcontinent, he was building on the administrative traditions, trade networks, and urban infrastructure that the Vedic kingdoms had developed.\n\n🎲 Wild Card: The Shulba Sutras, composed for the precise construction of Vedic fire altars, contain a statement of the Pythagorean theorem centuries before Pythagoras was born — making Vedic priests some of the earliest mathematicians in the world, driven not by abstract curiosity but by the sacred geometry of ritual.",
+  "spans": [
+    {
+      "id": "span-vedic-early",
+      "label": "Early Vedic Period",
+      "startYear": -1500,
+      "endYear": -1000,
+      "wikiSlug": "Rigveda",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After the Indus cities declined, Indo-Aryan migrants entered the Punjab from Central Asia, bringing horses, chariots, fire rituals, and an oral poetic tradition. They encountered post-Harappan peoples whose agricultural knowledge and craft traditions blended with the newcomers' culture."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Rigveda was composed during this era — 1,028 hymns praising gods like Indra, Agni, and Varuna. Society was pastoral, centered on cattle herding and chariot warfare. The Battle of the Ten Kings established the Bharata tribe's dominance in the Punjab."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Early Vedic period laid the linguistic and religious foundations of Indian civilization. Vedic Sanskrit became the ancestor of all Indo-Aryan languages, and the ritual practices codified here evolved into the Hindu worship traditions that continue today."
+        }
+      ]
+    },
+    {
+      "id": "span-vedic-late",
+      "label": "Late Vedic Period",
+      "startYear": -1000,
+      "endYear": -600,
+      "wikiSlug": "Kuru_(kingdom)",
+      "details": [
+        {
+          "label": "Background",
+          "text": "As iron tools became available after 1000 BCE, Vedic peoples expanded eastward from the Punjab into the dense forests of the Ganges Valley. The Kuru and Panchala kingdoms became centers of ritual codification and political organization."
+        },
+        {
+          "label": "What Happened",
+          "text": "The later Vedas (Sama, Yajur, Atharva) were compiled. The varna system crystallized, Brahmin priestly authority grew through increasingly elaborate rituals, and wet-rice cultivation transformed the Ganges into an agricultural powerhouse."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Late Vedic expansion created the demographic and economic base for Indian civilization's classical era. The kingdoms that formed here — particularly Magadha — would eventually give rise to India's first empires."
+        }
+      ]
+    },
+    {
+      "id": "span-vedic-upanishadic",
+      "label": "Upanishadic Age",
+      "startYear": -800,
+      "endYear": -500,
+      "wikiSlug": "Upanishads",
+      "details": [
+        {
+          "label": "Background",
+          "text": "By the 8th century BCE, some thinkers grew dissatisfied with the elaborate sacrificial rituals that dominated Late Vedic religion. Forest-dwelling ascetics began seeking deeper truths about the nature of reality, self, and liberation."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Upanishads introduced revolutionary ideas: Brahman as the universal reality, Atman as the individual soul, karma as moral causation, and moksha as liberation from the cycle of rebirth. Philosophers like Yajnavalkya debated at royal courts."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Upanishadic revolution transformed Indian religion from ritual performance to philosophical inquiry. These ideas became the intellectual foundation of Hinduism and profoundly influenced the Buddhist and Jain traditions that emerged from the same intellectual ferment."
+        }
+      ]
+    },
+    {
+      "id": "span-vedic-mahajanapada",
+      "label": "Mahajanapada Era",
+      "startYear": -600,
+      "endYear": -345,
+      "wikiSlug": "Mahajanapadas",
+      "details": [
+        {
+          "label": "Background",
+          "text": "By the 6th century BCE, the Vedic tribal territories had consolidated into sixteen major kingdoms and republics spread across northern India. Urbanization, coinage, and long-distance trade accelerated political competition."
+        },
+        {
+          "label": "What Happened",
+          "text": "Kingdoms like Magadha, Kosala, and Gandhara competed for dominance. The Shramana movement challenged Brahminical authority, producing the Buddha and Mahavira. Cities like Varanasi, Rajagriha, and Taxila became major centers of learning and trade."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Mahajanapada era was the crucible of classical Indian civilization — the period that produced Buddhism, Jainism, the world's first republics, systematic grammar, and the political rivalries that would culminate in the Maurya Empire's unification of the subcontinent."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-vedic-indo-aryan-migration",
+      "label": "Indo-Aryan Migration",
+      "year": -1500,
+      "description": "Indo-Aryan-speaking peoples migrated into the Indian subcontinent from Central Asia, bringing the horse, chariot, and the earliest Vedic hymns that would define Indian civilization.",
+      "wikiSlug": "Indo-Aryan_migrations",
+      "commonsFile": "Spread_of_Indo-European_languages.png",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Indo-Aryan migration was part of a broader dispersal of Indo-European-speaking peoples from the Pontic steppe. DNA evidence confirms significant Central Asian ancestry entering South Asia around 1500 BCE."
+        },
+        {
+          "label": "What Happened",
+          "text": "Groups of pastoralists speaking an early form of Sanskrit entered the Punjab through the mountain passes of the Hindu Kush. They brought horses, spoke-wheeled chariots, and a rich oral poetic tradition praising warrior gods."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Indo-Aryan migrants blended with post-Harappan peoples to create Vedic civilization — the cultural foundation of Hindu India. Their language, Sanskrit, became the ancestor of most modern South Asian languages."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-rigveda",
+      "label": "Composition of the Rigveda",
+      "year": -1500,
+      "endYear": -1200,
+      "description": "The Rigveda, consisting of 1,028 hymns to Vedic deities, was composed orally over centuries. It is the oldest scripture of Hinduism and the oldest religious text in any Indo-European language.",
+      "wikiSlug": "Rigveda",
+      "commonsFile": "Rigveda_MS2097.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Rigveda",
+        "Rig Veda"
+      ],
+      "details": [
+        {
+          "label": "The Text",
+          "text": "The Rigveda contains 1,028 hymns organized into ten books (mandalas), praising gods like Indra, Agni, and Varuna. Composed in Vedic Sanskrit, it was transmitted orally for centuries with extraordinary accuracy before being written down."
+        },
+        {
+          "label": "Oral Transmission",
+          "text": "Vedic priests developed elaborate memorization techniques — chanting texts forward, backward, and in interlocking patterns — that preserved the hymns virtually unchanged for over three millennia. UNESCO recognized this oral tradition in 2003."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Rigveda is the oldest religious text still in active use, predating the Hebrew Bible and Homer by centuries. It provides our primary window into Early Vedic society, religion, and language."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-sanskrit",
+      "label": "Vedic Sanskrit Develops",
+      "year": -1450,
+      "description": "Vedic Sanskrit evolved as the liturgical and literary language of the Indo-Aryan peoples, eventually becoming the classical language of Indian civilization and a bridge to all Indo-European languages.",
+      "wikiSlug": "Vedic_Sanskrit",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Sanskrit",
+        "Vedic Sanskrit"
+      ],
+      "details": [
+        {
+          "label": "The Language",
+          "text": "Vedic Sanskrit is the oldest attested member of the Indo-Aryan branch of the Indo-European language family, closely related to Avestan (Old Iranian). Its grammar is extraordinarily complex, with eight cases and elaborate verb conjugations."
+        },
+        {
+          "label": "Evolution",
+          "text": "Vedic Sanskrit gradually evolved into Classical Sanskrit, standardized by Panini around 500 BCE. Meanwhile, spoken dialects diverged into Prakrits — the ancestor languages of Hindi, Bengali, Marathi, and most modern South Asian languages."
+        },
+        {
+          "label": "Legacy",
+          "text": "Sanskrit served as the literary and scholarly language of South Asia for over two millennia, comparable to Latin in Europe. It remains a liturgical language in Hinduism and a link connecting all Indo-European languages."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-pantheon",
+      "label": "Vedic Pantheon Established",
+      "year": -1400,
+      "description": "Early Vedic religion centered on nature gods: Indra (storm/war), Agni (fire), Varuna (cosmic order), Surya (sun), and Soma (sacred drink). Elaborate fire rituals propitiated them.",
+      "wikiSlug": "Rigvedic_deities",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "The Gods",
+          "text": "Indra, the warrior storm god, dominates the Rigveda with 250 hymns — more than any other deity. Agni (fire) received 200 hymns as the mediator between humans and gods. Varuna upheld cosmic order (rita)."
+        },
+        {
+          "label": "The Rituals",
+          "text": "Vedic worship centered on fire sacrifices (yajnas) performed by priests who chanted hymns while offering butter, grain, and soma into a consecrated fire. The fire god Agni literally carried offerings to the other gods."
+        },
+        {
+          "label": "Legacy",
+          "text": "Most Rigvedic gods faded in later Hinduism — Indra and Varuna became minor figures while Vishnu and Shiva (barely mentioned in the Rigveda) rose to supremacy. But the fire ritual tradition persists in Hindu wedding and funeral ceremonies."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-battle-ten-kings",
+      "label": "Battle of the Ten Kings",
+      "year": -1400,
+      "description": "The Rigveda describes a great battle where King Sudas of the Bharata tribe defeated a coalition of ten kings on the banks of the Ravi River, establishing Bharata dominance in the Punjab.",
+      "wikiSlug": "Battle_of_the_Ten_Kings",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "aliases": [
+        "Ten Kings",
+        "Sudas"
+      ],
+      "details": [
+        {
+          "label": "Background",
+          "text": "King Sudas of the Bharata tribe, guided by his priest Vasishtha, faced a coalition of ten rival tribes allied with the priest Vishvamitra. The conflict may reflect competition for control of the fertile Punjab river valleys."
+        },
+        {
+          "label": "The Battle",
+          "text": "Fought on the banks of the Ravi River (Parushni), Sudas routed the ten-king coalition. Several enemy leaders drowned attempting to cross the flooded river. The Rigveda hymn 7.18 celebrates the victory in vivid detail."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "This is one of the oldest battles described in any literature. The Bharata tribe's victory gave India its ancient name Bharatavarsha ('land of the Bharatas') and its modern official name, Bharat."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-chariot-warfare",
+      "label": "Vedic Chariot Warfare",
+      "year": -1380,
+      "description": "The horse-drawn chariot was the supreme weapon of the early Vedic period. Rigvedic hymns celebrate chariot warriors and the god Indra as the ultimate chariot fighter.",
+      "wikiSlug": "Chariot",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Weapon",
+          "text": "The spoke-wheeled war chariot, drawn by two horses and crewed by a driver and warrior, was the supreme military technology of the Early Vedic age. The Rigveda celebrates chariot warriors (rathins) in numerous hymns."
+        },
+        {
+          "label": "Shared Technology",
+          "text": "The chariot was an Indo-European innovation — similar vehicles appeared simultaneously across Mycenaean Greece, Hittite Anatolia, Shang China, and New Kingdom Egypt. The Vedic version was part of this broader Bronze Age revolution."
+        },
+        {
+          "label": "Cultural Role",
+          "text": "Chariots were elite status symbols as much as weapons. Chariot racing appears in Vedic texts as both sport and ritual, and Indra's chariot was the divine model for earthly warriors."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-soma-ritual",
+      "label": "Soma Ritual",
+      "year": -1350,
+      "description": "The pressing and drinking of Soma — a sacred intoxicating drink of debated botanical identity — was the central Vedic ritual, believed to grant immortality and divine vision.",
+      "wikiSlug": "Soma_(drink)",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Soma"
+      ],
+      "details": [
+        {
+          "label": "The Ritual",
+          "text": "Soma was pressed from a plant (identity debated — candidates include ephedra, fly agaric mushroom, and cannabis), mixed with milk, and offered to the gods. An entire book of the Rigveda (Book IX, 114 hymns) is devoted to Soma."
+        },
+        {
+          "label": "The Mystery",
+          "text": "The identity of the Soma plant is one of the great unsolved puzzles of Indology. The original plant may have been available only in Central Asia; as Indo-Aryans moved deeper into India, substitutes were used."
+        },
+        {
+          "label": "Significance",
+          "text": "Soma was more than a drink — it was a god. The ritual represented humanity's communion with the divine through intoxication, a practice with parallels in Greek Dionysian rites and Zoroastrian haoma ceremonies."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-cattle-economy",
+      "label": "Cattle-Based Economy",
+      "year": -1350,
+      "description": "Early Vedic society was pastoral, with cattle as the primary measure of wealth. Cattle raids (gavisti) were a common form of warfare, and cows held deep religious significance.",
+      "wikiSlug": "Cattle_in_religion_and_mythology",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Wealth in Cattle",
+          "text": "The Sanskrit word for 'war' (gavisti) literally means 'desire for cattle.' Cattle were the primary measure of wealth — a rich man was gomat ('possessing cattle'). Bride prices and ritual donations were paid in cows."
+        },
+        {
+          "label": "Sacred Status",
+          "text": "The cow's central economic role evolved into religious reverence. The Rigveda calls the cow aghnya ('not to be slaughtered'), laying the foundation for the sacred status of cattle in later Hindu tradition."
+        },
+        {
+          "label": "Legacy",
+          "text": "India's modern veneration of cattle traces directly to Vedic pastoral culture. The economic centrality of cattle in the Early Vedic period shaped religious attitudes that persist over 3,000 years later."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-horse-sacrifice",
+      "label": "Ashvamedha (Horse Sacrifice)",
+      "year": -1200,
+      "description": "The Ashvamedha, in which a consecrated horse roamed freely for a year before sacrifice, was the supreme royal ritual asserting a king's sovereignty over vast territories.",
+      "wikiSlug": "Ashvamedha",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Ashvamedha"
+      ],
+      "details": [
+        {
+          "label": "The Ritual",
+          "text": "A specially selected stallion was released to roam freely for a year, followed by the king's army. Any ruler whose territory the horse entered had to submit or fight. After a year, the horse was sacrificed in an elaborate ceremony."
+        },
+        {
+          "label": "Political Function",
+          "text": "The Ashvamedha was as much a political statement as a religious act — it proclaimed a king's sovereignty over all territory the horse traversed. Only the most powerful kings could perform it."
+        },
+        {
+          "label": "Legacy",
+          "text": "The ritual persisted for over a thousand years. The Gupta emperors performed Ashvamedhas as late as the 4th century CE, and the ritual remained a symbol of supreme royal authority throughout Indian history."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-kuru-kingdom",
+      "label": "Kuru Kingdom",
+      "year": -1200,
+      "endYear": -900,
+      "description": "The Kuru kingdom in the upper Ganges region systematized Vedic ritual and may have compiled the early Vedas. The Mahabharata epic is set in the Kuru realm.",
+      "wikiSlug": "Kuru_(kingdom)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Kuru",
+        "Kurus"
+      ],
+      "details": [
+        {
+          "label": "The Kingdom",
+          "text": "The Kuru kingdom arose from the merger of the Bharata and Puru tribes in the upper Ganges-Yamuna region (modern Haryana/western UP). It became the first major state of the Late Vedic period."
+        },
+        {
+          "label": "Ritual Codification",
+          "text": "The Kurus systematized Vedic ritual into the elaborate sacrificial system described in the later Vedas. This codification transformed a fluid oral tradition into a structured religious orthodoxy controlled by Brahmin priests."
+        },
+        {
+          "label": "Epic Memory",
+          "text": "The Mahabharata — India's greatest epic — is set in the Kuru realm, with the Kurukshetra war fought between rival Kuru factions. While the epic was composed much later, it may preserve memories of actual Kuru-era conflicts."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-samaveda",
+      "label": "Samaveda Compiled",
+      "year": -1200,
+      "description": "The Samaveda, the 'Veda of Melodies,' set Rigvedic hymns to musical notation for chanting during rituals — the oldest known musical compositions in Indian tradition.",
+      "wikiSlug": "Samaveda",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing",
+      "aliases": [
+        "Samaveda",
+        "Sama Veda"
+      ],
+      "details": [
+        {
+          "label": "The Text",
+          "text": "The Samaveda ('Veda of Songs') contains 1,549 verses, nearly all drawn from the Rigveda but rearranged for melodic chanting. It is essentially a hymnal — the musical companion to the Rigveda's poetry."
+        },
+        {
+          "label": "Musical Tradition",
+          "text": "The Samaveda's notation system is the oldest documented musical tradition in India. Its chanting style influenced the development of Indian classical music, with some scholars tracing the raga system's roots to Samavedic melody."
+        },
+        {
+          "label": "Significance",
+          "text": "The Samaveda demonstrates that Vedic religion was intensely musical. Correct melodic performance was considered as important as the words themselves — a wrong note could invalidate an entire ritual."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-yajurveda",
+      "label": "Yajurveda Compiled",
+      "year": -1100,
+      "description": "The Yajurveda provided prose formulas and instructions for performing elaborate Vedic sacrificial rituals, systematizing priestly knowledge.",
+      "wikiSlug": "Yajurveda",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing",
+      "aliases": [
+        "Yajurveda",
+        "Yajur Veda"
+      ],
+      "details": [
+        {
+          "label": "The Text",
+          "text": "The Yajurveda ('Veda of Ritual Formulas') contains prose mantras and instructions for performing sacrificial ceremonies. It exists in two versions: the 'Black' Yajurveda (mixed prose and commentary) and the 'White' (prose only)."
+        },
+        {
+          "label": "Ritual Manual",
+          "text": "While the Rigveda is poetry and the Samaveda is music, the Yajurveda is the practical manual — step-by-step instructions for building altars, preparing offerings, and performing each stage of complex rituals."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Yajurveda's detailed ritual prescriptions gave the Brahmin priesthood extraordinary power — only they knew the correct procedures. This specialist knowledge became the basis of Brahmin social authority for millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-panchala",
+      "label": "Panchala Kingdom",
+      "year": -1100,
+      "endYear": -500,
+      "description": "The Panchala kingdom rivaled Kuru as a center of Vedic learning. Many famous Upanishadic debates took place at Panchala courts.",
+      "wikiSlug": "Panchala",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Panchala"
+      ],
+      "details": [
+        {
+          "label": "The Kingdom",
+          "text": "Panchala occupied the middle Ganges-Yamuna doab (modern western Uttar Pradesh), rivaling the neighboring Kuru kingdom in power and prestige. It was known as a center of philosophical debate."
+        },
+        {
+          "label": "Intellectual Center",
+          "text": "Many of the Upanishads' most famous philosophical debates took place at Panchala courts. King Pravahana Jaivali of Panchala is depicted teaching Brahmin sages about the doctrine of rebirth."
+        },
+        {
+          "label": "Legacy",
+          "text": "Panchala plays a central role in the Mahabharata as the homeland of Draupadi and the Pandava allies. The kingdom persisted into the Mahajanapada period before being absorbed by Magadha."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-hastinapura",
+      "label": "Hastinapura Settlement",
+      "year": -1100,
+      "description": "Hastinapura, the legendary Kuru capital of the Mahabharata, has been archaeologically identified with Painted Grey Ware levels showing a significant Late Vedic settlement.",
+      "wikiSlug": "Hastinapura",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "aliases": [
+        "Hastinapura"
+      ],
+      "details": [
+        {
+          "label": "The Site",
+          "text": "Hastinapura on the upper Ganges has been excavated since the 1950s. Painted Grey Ware pottery and iron artifacts confirm a substantial settlement dating to the Late Vedic period (roughly 1100-800 BCE)."
+        },
+        {
+          "label": "Epic Connection",
+          "text": "The Mahabharata identifies Hastinapura as the Kuru capital and the site of the great throne dispute. While the epic was composed much later, the archaeological settlement may underlie the legendary city."
+        },
+        {
+          "label": "Flood Destruction",
+          "text": "Excavations reveal that Hastinapura was destroyed by a major flood around 800 BCE — an event that may have prompted the Kuru capital's shift to Kaushambi, as recorded in the Puranas."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-painted-grey-ware",
+      "label": "Painted Grey Ware Culture",
+      "year": -1100,
+      "endYear": -700,
+      "description": "The Painted Grey Ware archaeological culture corresponds to the Late Vedic period, with settlements across the Ganges-Yamuna doab showing increasing social complexity.",
+      "wikiSlug": "Painted_Grey_Ware_culture",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "aliases": [
+        "Painted Grey Ware"
+      ],
+      "details": [
+        {
+          "label": "The Culture",
+          "text": "Painted Grey Ware (PGW) is a distinctive pottery style — fine grey pottery with geometric designs painted in black — found across the Ganges-Yamuna doab. Archaeologists associate it with the Late Vedic peoples described in the later Vedas."
+        },
+        {
+          "label": "Material Evidence",
+          "text": "PGW sites show iron tools, rice cultivation, and mudbrick structures — confirming the transition from the pastoral Early Vedic culture to the settled agricultural society described in the later Vedic texts."
+        },
+        {
+          "label": "Linking Text to Ground",
+          "text": "PGW culture provides the crucial archaeological link between the literary world of the Vedas and actual settlements on the ground. Many PGW sites correspond to places named in Vedic and epic literature."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-gangetic-expansion",
+      "label": "Expansion into the Ganges Valley",
+      "year": -1000,
+      "description": "Vedic peoples expanded eastward from the Punjab into the rich Ganges Valley, clearing forests and establishing agricultural settlements that became the heartland of Indian civilization.",
+      "wikiSlug": "Vedic_period",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The Push East",
+          "text": "Around 1000 BCE, Vedic peoples began migrating from the Punjab and Ganges-Yamuna doab into the middle and lower Ganges Valley — a region of dense tropical forest that had been sparsely settled."
+        },
+        {
+          "label": "Iron and Fire",
+          "text": "Iron axes and slash-and-burn agriculture made the clearance of the Gangetic forests possible. The cleared land, enriched by the Ganges floodplain's alluvial soil, proved extraordinarily fertile for rice and wheat cultivation."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "This eastward expansion transformed the Ganges Valley into the demographic and economic heartland of Indian civilization — the region where cities, kingdoms, Buddhism, Jainism, and eventually the Maurya Empire would all emerge."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-iron-age",
+      "label": "Iron Age in India",
+      "year": -1000,
+      "description": "The adoption of iron tools and weapons transformed agriculture by enabling clearance of the dense forests of the Ganges plain, supporting population growth and urban development.",
+      "wikiSlug": "Iron_Age_in_India",
+      "commonsFile": "Punt_Land_sword.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "The Technology",
+          "text": "Iron smelting in India dates to at least 1300 BCE in the Malwa region, but widespread adoption occurred around 1000 BCE. Iron tools were harder and cheaper than bronze, making them accessible to ordinary farmers."
+        },
+        {
+          "label": "Agricultural Revolution",
+          "text": "Iron axes cleared forests; iron plowshares broke the heavy clay soils of the Ganges floodplain. This technological shift enabled the agricultural expansion that supported the transition from tribal pastoralism to settled kingdoms."
+        },
+        {
+          "label": "Military Impact",
+          "text": "Iron weapons — swords, arrowheads, spearpoints — transformed warfare. The military advantage of iron equipped armies contributed to the political consolidation that produced the Mahajanapada kingdoms."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-varna-system",
+      "label": "Varna System Emerges",
+      "year": -1000,
+      "description": "The Purusha Sukta hymn describes society divided into four varnas: Brahmins (priests), Kshatriyas (warriors), Vaishyas (commoners), and Shudras (servants) — the origin of India's caste system.",
+      "wikiSlug": "Varna_(Hinduism)",
+      "tier": 1,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Varna",
+        "varna system",
+        "caste"
+      ],
+      "details": [
+        {
+          "label": "The System",
+          "text": "The Purusha Sukta (Rigveda 10.90) describes four social orders emerging from the cosmic sacrifice: Brahmins (priests) from the mouth, Kshatriyas (warriors) from the arms, Vaishyas (commoners) from the thighs, and Shudras (servants) from the feet."
+        },
+        {
+          "label": "Evolution",
+          "text": "The varna system likely began as a loose occupational framework. During the Late Vedic period it hardened into a rigid hereditary hierarchy, with Brahmins asserting ritual supremacy and Shudras increasingly marginalized."
+        },
+        {
+          "label": "Legacy",
+          "text": "The varna system became the foundation of the caste system (jati), one of the most enduring social structures in history. Its impact on Indian society — stratification, occupational heredity, social immobility — persists today."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-rice-cultivation",
+      "label": "Rice Cultivation Spreads",
+      "year": -1000,
+      "description": "Wet-rice cultivation spread through the Ganges Valley during the Late Vedic period, dramatically increasing agricultural productivity and supporting population growth.",
+      "wikiSlug": "History_of_rice_cultivation",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Crop",
+          "text": "Rice (vrihi in Sanskrit) was indigenous to eastern India and had been cultivated in the Ganges region since at least 2000 BCE. During the Late Vedic period, systematic wet-rice paddy farming spread westward."
+        },
+        {
+          "label": "Impact",
+          "text": "Wet-rice cultivation produced far higher yields per hectare than wheat or barley. The surplus food supported population growth, occupational specialization, and the emergence of towns and cities in the Ganges Valley."
+        },
+        {
+          "label": "Significance",
+          "text": "Rice became the staple grain of eastern and southern India, a role it retains today. The agricultural wealth of the rice-growing Ganges Valley gave kingdoms like Magadha the economic base to dominate northern India."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-fire-altars",
+      "label": "Vedic Fire Altar Construction",
+      "year": -1000,
+      "description": "Elaborate brick fire altars in precise geometric shapes were constructed for Vedic rituals, requiring advanced mathematical knowledge recorded in the Shulba Sutras.",
+      "wikiSlug": "Agnicayana",
+      "commonsFile": "Agnicayana2011.jpg",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture",
+      "aliases": [
+        "Agnicayana"
+      ],
+      "details": [
+        {
+          "label": "The Altars",
+          "text": "Vedic fire altars were constructed from precisely shaped bricks in elaborate forms — falcon, tortoise, chariot wheel, rhombus — each shape carrying specific ritual meaning. Some altars required over 1,000 bricks."
+        },
+        {
+          "label": "Sacred Geometry",
+          "text": "Building these altars required sophisticated mathematics: calculating areas, constructing right angles, and transforming shapes while preserving area. The Shulba Sutras codified this knowledge, including a statement of the Pythagorean theorem."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Agnicayana (fire altar ceremony) is one of the oldest surviving Vedic rituals. A full performance was filmed in Kerala in 1975 and again in 2011 — a living link to practices over 3,000 years old."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-salt-trade",
+      "label": "Vedic Salt Trade",
+      "year": -950,
+      "description": "Salt, mentioned frequently in Vedic texts, was a valuable trade commodity connecting Rajasthan's salt lakes to the agricultural communities of the Ganges plain.",
+      "wikiSlug": "History_of_salt",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Commodity",
+          "text": "Salt was essential for preserving food and seasoning. The Sambhar Lake in Rajasthan was a major source, and the Rigveda mentions salt as a valuable commodity in trade and ritual."
+        },
+        {
+          "label": "Trade Networks",
+          "text": "Salt trade connected the arid regions of western India to the agricultural communities of the Ganges plain, establishing trade routes that would later carry other goods and ideas."
+        },
+        {
+          "label": "Economic Significance",
+          "text": "Control of salt sources was an early form of economic power. Later Indian kingdoms and empires would tax salt heavily — a practice that continued through British colonial rule and inspired Gandhi's famous Salt March in 1930."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-atharvaveda",
+      "label": "Atharvaveda Compiled",
+      "year": -900,
+      "description": "The Atharvaveda, the fourth Veda, contains spells, charms, and medical knowledge alongside philosophical hymns — a window into everyday beliefs and practices of Vedic people.",
+      "wikiSlug": "Atharvaveda",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Atharvaveda",
+        "Atharva Veda"
+      ],
+      "details": [
+        {
+          "label": "The Text",
+          "text": "The Atharvaveda contains 730 hymns covering healing charms, love spells, curses, philosophical speculations, and medical treatments. Unlike the other three Vedas, it addresses the concerns of daily life, not just priestly ritual."
+        },
+        {
+          "label": "Folk Religion",
+          "text": "While the Rigveda reflects elite priestly concerns, the Atharvaveda reveals popular beliefs — charms against snakebite, spells for good harvests, remedies for fever. It is our best window into what ordinary Vedic people believed and feared."
+        },
+        {
+          "label": "Medical Knowledge",
+          "text": "The Atharvaveda contains extensive medical knowledge — herbal remedies, descriptions of diseases, and healing practices — forming the earliest layer of what would become the Ayurvedic medical tradition."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-brahmana-texts",
+      "label": "Brahmana Texts",
+      "year": -900,
+      "endYear": -700,
+      "description": "The Brahmanas, prose commentaries on the Vedas, elaborated ritual procedures and cosmological symbolism, establishing the Brahmin priesthood's interpretive authority.",
+      "wikiSlug": "Brahmana",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Brahmanas"
+      ],
+      "details": [
+        {
+          "label": "The Texts",
+          "text": "The Brahmanas are prose commentaries attached to each Veda, explaining the meaning and procedure of sacrificial rituals. Major texts include the Shatapatha Brahmana and the Aitareya Brahmana."
+        },
+        {
+          "label": "Ritual Monopoly",
+          "text": "By elaborating ritual into an extraordinarily complex system requiring years of study, the Brahmanas effectively gave the Brahmin priesthood a monopoly on religious authority. Only trained Brahmins could perform the rites correctly."
+        },
+        {
+          "label": "Cosmological Ideas",
+          "text": "The Brahmanas developed myths about the creation of the universe and the cosmic significance of rituals — ideas that laid the groundwork for the more abstract philosophical speculations of the Upanishads."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-aranyakas",
+      "label": "Aranyaka Forest Texts",
+      "year": -900,
+      "description": "The Aranyakas bridged the ritual Brahmanas and philosophical Upanishads, containing esoteric interpretations of sacrificial rites meant for forest-dwelling ascetics.",
+      "wikiSlug": "Aranyaka",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Aranyakas"
+      ],
+      "details": [
+        {
+          "label": "The Texts",
+          "text": "The Aranyakas ('forest books') were composed for ascetics who had retired to the forest. They offer symbolic and mystical interpretations of rituals that could not be performed away from the sacrificial ground."
+        },
+        {
+          "label": "Transitional Literature",
+          "text": "The Aranyakas bridge the gap between the ritualistic Brahmanas and the philosophical Upanishads. They represent the moment when Indian religious thought began shifting from external ritual to internal meditation."
+        },
+        {
+          "label": "Significance",
+          "text": "By reinterpreting rituals as internal processes, the Aranyakas opened the door for the Upanishadic idea that true knowledge comes from within — a revolution that reshaped Indian religion."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-mahabharata-setting",
+      "label": "Mahabharata Epic Traditions",
+      "year": -900,
+      "description": "The oral traditions that would eventually become the Mahabharata epic — the world's longest poem at 200,000 verses — began taking shape during the Late Vedic period.",
+      "wikiSlug": "Mahabharata",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Mahabharata"
+      ],
+      "details": [
+        {
+          "label": "The Epic",
+          "text": "The Mahabharata is the longest epic poem in the world — roughly ten times the length of the Iliad and Odyssey combined. Its core story (the Kurukshetra war between rival Kuru cousins) may preserve memories of Late Vedic-era conflicts."
+        },
+        {
+          "label": "Oral Origins",
+          "text": "The epic's kernel likely dates to the Late Vedic period (900-700 BCE), with the Kuru and Panchala kingdoms as its setting. Bards (sutas) developed and transmitted the story orally for centuries before it was compiled in written form."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Mahabharata became far more than a war story — it incorporated philosophy (the Bhagavad Gita), law, ethics, and cosmology. It remains central to Hindu culture and is known across all of South and Southeast Asia."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-early-ayurveda",
+      "label": "Early Ayurvedic Knowledge",
+      "year": -800,
+      "description": "The Atharvaveda contains extensive medical knowledge — herbal remedies, surgical procedures, and disease descriptions — forming the earliest layer of the Ayurvedic tradition.",
+      "wikiSlug": "Ayurveda",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "aliases": [
+        "Ayurveda",
+        "Ayurvedic"
+      ],
+      "details": [
+        {
+          "label": "Origins",
+          "text": "Vedic medicine combined herbal remedies, magical charms, and empirical observation. The Atharvaveda describes treatments for fever, cough, jaundice, and wounds, along with the medicinal properties of dozens of plants."
+        },
+        {
+          "label": "Theory",
+          "text": "Early Vedic medicine associated disease with demonic possession and divine displeasure, but also recognized natural causes — dietary imbalance, seasonal change, and contagion. This dual approach persisted into classical Ayurveda."
+        },
+        {
+          "label": "Legacy",
+          "text": "Vedic medical knowledge evolved into Ayurveda, one of the world's oldest surviving medical traditions. Classical texts like the Charaka Samhita and Sushruta Samhita built directly on Vedic-era foundations."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-upanishads",
+      "label": "Early Upanishads",
+      "year": -800,
+      "endYear": -500,
+      "description": "The Upanishads shifted focus from ritual to philosophy, introducing Brahman (ultimate reality), Atman (self), karma, and moksha (liberation) — the intellectual foundation of Hinduism.",
+      "wikiSlug": "Upanishads",
+      "commonsFile": "Isha_Upanishad_Verse_1,_Sanskrit,_Devanagari.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Upanishads",
+        "Upanishadic"
+      ],
+      "details": [
+        {
+          "label": "The Texts",
+          "text": "The principal Upanishads (Brihadaranyaka, Chandogya, Taittiriya, Isha, and others) were composed between 800-500 BCE. The word 'Upanishad' means 'sitting near' — referring to students sitting at a teacher's feet."
+        },
+        {
+          "label": "Revolutionary Ideas",
+          "text": "The Upanishads introduced Brahman (the universal reality underlying all existence), Atman (the individual soul identical to Brahman), karma (moral cause and effect across lifetimes), and moksha (liberation from the cycle of rebirth)."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Upanishads transformed Indian religion from ritual performance to philosophical inquiry. Their ideas about karma and rebirth spread to Buddhism and Jainism, and their concept of an ultimate reality influenced Western thinkers from Schopenhauer to Emerson."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-mathematics",
+      "label": "Vedic Mathematics",
+      "year": -800,
+      "description": "The Shulba Sutras contain mathematical knowledge including the Pythagorean theorem, square root calculations, and geometric altar constructions.",
+      "wikiSlug": "Shulba_Sutras",
+      "tier": 2,
+      "tags": [],
+      "category": "science",
+      "aliases": [
+        "Shulba Sutras"
+      ],
+      "details": [
+        {
+          "label": "The Texts",
+          "text": "The Shulba Sutras ('rules of the cord') are appendices to the Vedas containing geometric and mathematical knowledge needed for constructing fire altars. The oldest (Baudhayana Shulba Sutra) dates to roughly 800 BCE."
+        },
+        {
+          "label": "Key Discoveries",
+          "text": "The Shulba Sutras contain a statement of the Pythagorean theorem centuries before Pythagoras, methods for calculating square roots to remarkable accuracy, and techniques for transforming geometric shapes while preserving area."
+        },
+        {
+          "label": "Legacy",
+          "text": "These texts demonstrate that practical mathematics in India developed from religious necessity — the need for precise ritual construction. This tradition eventually produced the decimal place-value system and the concept of zero."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-gurukula",
+      "label": "Gurukula Education System",
+      "year": -800,
+      "description": "The gurukula system of education, where students lived with a teacher for years to learn the Vedas, became the standard model for knowledge transmission in ancient India.",
+      "wikiSlug": "Gurukula",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Gurukula",
+        "gurukula"
+      ],
+      "details": [
+        {
+          "label": "The System",
+          "text": "A gurukula ('teacher's family') was a residential school where students (brahmacharis) lived with a guru for 12 years or more, learning the Vedas, philosophy, grammar, and practical skills through direct oral transmission."
+        },
+        {
+          "label": "How It Worked",
+          "text": "Students entered the gurukula around age 8 and spent years memorizing Vedic texts, studying under the guru, and performing household duties. Education was free — students repaid the guru with service and a gift (gurudakshina) at graduation."
+        },
+        {
+          "label": "Legacy",
+          "text": "The gurukula model preserved Vedic knowledge across centuries without writing. The emphasis on personal teacher-student relationships (guru-shishya parampara) remains central to Indian educational and spiritual traditions."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-upanishadic-debates",
+      "label": "Royal Philosophical Debates",
+      "year": -750,
+      "description": "Kings like Janaka of Videha hosted elaborate philosophical debates at their courts, where sages competed for prizes by demonstrating the deepest knowledge of reality.",
+      "wikiSlug": "Videha_(kingdom)",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "King Janaka",
+        "Janaka"
+      ],
+      "details": [
+        {
+          "label": "The Setting",
+          "text": "Late Vedic and early Upanishadic kings hosted brahmodyya — formal philosophical debates where sages competed before royal audiences. King Janaka of Videha was the most famous patron of these assemblies."
+        },
+        {
+          "label": "The Debates",
+          "text": "At Janaka's court, Yajnavalkya debated Gargi on the nature of reality, silenced rival sages, and won 1,000 cows decorated with gold. These debates pushed Indian philosophy beyond ritual toward metaphysical inquiry."
+        },
+        {
+          "label": "Significance",
+          "text": "The tradition of royal patronage of intellectual debate became a distinctive feature of Indian civilization, continuing through the Buddhist and Hindu traditions and eventually producing the great university at Nalanda."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-yajnavalkya",
+      "label": "Sage Yajnavalkya",
+      "year": -700,
+      "description": "Yajnavalkya, the great philosopher of the Brihadaranyaka Upanishad, articulated the doctrine of Brahman-Atman identity and debated with scholars at King Janaka's court.",
+      "wikiSlug": "Yajnavalkya",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "aliases": [
+        "Yajnavalkya"
+      ],
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Yajnavalkya is the central philosopher of the Brihadaranyaka Upanishad, the oldest and longest Upanishad. He taught at the court of King Janaka of Videha and was considered the greatest sage of his era."
+        },
+        {
+          "label": "Key Teachings",
+          "text": "Yajnavalkya articulated the identity of Atman (individual self) with Brahman (universal reality) — 'neti neti' ('not this, not this'), defining the ultimate by what it is not. He also taught the doctrine of karma and rebirth."
+        },
+        {
+          "label": "Legacy",
+          "text": "Yajnavalkya's teachings became the core of Advaita Vedanta philosophy, which holds that individual consciousness and universal reality are identical — an idea that influenced Hindu thought for over two millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-gargi",
+      "label": "Gargi Vachaknavi",
+      "year": -700,
+      "description": "Gargi, one of the few named female philosophers in the Upanishads, challenged Yajnavalkya with penetrating questions about the nature of reality at King Janaka's assembly.",
+      "wikiSlug": "Gargi_Vachaknavi",
+      "tier": 3,
+      "tags": [],
+      "category": "people",
+      "aliases": [
+        "Gargi"
+      ],
+      "details": [
+        {
+          "label": "Who She Was",
+          "text": "Gargi Vachaknavi was a philosopher who participated in the great debate at King Janaka's court in the Brihadaranyaka Upanishad. She is one of the very few women named as intellectual equals in ancient Indian texts."
+        },
+        {
+          "label": "The Debate",
+          "text": "Gargi challenged Yajnavalkya with a series of escalating questions: 'What is the world woven on?' Each answer prompted a deeper question, pushing toward the ultimate nature of reality. Yajnavalkya eventually warned her that her head would shatter if she asked further."
+        },
+        {
+          "label": "Significance",
+          "text": "Gargi's presence at the highest philosophical debate demonstrates that early Vedic society, while patriarchal, allowed some women access to intellectual life — a window that would largely close in later periods."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-astronomy",
+      "label": "Vedic Astronomy (Jyotisha)",
+      "year": -700,
+      "description": "The Vedanga Jyotisha, the oldest Indian astronomical text, established a lunisolar calendar and described the movements of the sun and moon for ritual timing.",
+      "wikiSlug": "Vedanga_Jyotisha",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "aliases": [
+        "Jyotisha",
+        "Vedanga Jyotisha"
+      ],
+      "details": [
+        {
+          "label": "The Text",
+          "text": "The Vedanga Jyotisha is the oldest known Indian astronomical work, dating to roughly 700-500 BCE. It describes a lunisolar calendar with a five-year cycle (yuga) for determining the correct dates for Vedic rituals."
+        },
+        {
+          "label": "Observations",
+          "text": "Vedic astronomers tracked the winter and summer solstices, calculated the length of the solar year, and mapped 27-28 lunar mansions (nakshatras) — star groupings used to track the moon's monthly progress."
+        },
+        {
+          "label": "Legacy",
+          "text": "Vedic astronomy laid the foundation for the sophisticated Indian astronomical tradition that would later produce Aryabhata's heliocentric model and calculate pi to four decimal places."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-trade-routes",
+      "label": "Ganges Valley Trade Routes",
+      "year": -700,
+      "description": "As urbanization accelerated, trade routes developed along the Ganges connecting major cities. Merchants grew in importance, and economic networks expanded across northern India.",
+      "wikiSlug": "Uttarapatha",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Routes",
+          "text": "Two major trade routes crystallized: the Uttarapatha (Northern Road) from Gandhara to Magadha, and the Dakshinapatha (Southern Road) linking the Ganges plain to the Deccan. Rivers served as natural highways."
+        },
+        {
+          "label": "Merchant Class",
+          "text": "The Vaishya merchant class gained economic power through long-distance trade. Merchant guilds (shreni) organized trade, set quality standards, and served as banking institutions — a system that would persist for centuries."
+        },
+        {
+          "label": "Urbanization",
+          "text": "Trade routes catalyzed urban growth. Cities like Varanasi, Rajagriha, and Shravasti grew at trade route intersections, supporting artisan communities, markets, and the intellectual ferment that produced Buddhism and Jainism."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-ramayana-traditions",
+      "label": "Ramayana Epic Traditions",
+      "year": -700,
+      "description": "The oral traditions behind the Ramayana — the story of Prince Rama's exile and rescue of Sita — began forming in the Late Vedic period, rooted in the kingdom of Kosala.",
+      "wikiSlug": "Ramayana",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Ramayana",
+        "Rama"
+      ],
+      "details": [
+        {
+          "label": "The Epic",
+          "text": "The Ramayana tells the story of Prince Rama of Ayodhya, his exile, the abduction of his wife Sita by the demon king Ravana, and her rescue with the help of the monkey god Hanuman."
+        },
+        {
+          "label": "Historical Setting",
+          "text": "The story is set in Ayodhya in the kingdom of Kosala — a real Mahajanapada city. While the epic was compiled by Valmiki much later, its oral traditions likely began in the Late Vedic period."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Ramayana became one of the most beloved stories in Asian literature, adapted across India, Southeast Asia, and beyond. The ideal of Rama's righteous kingship (Rama Rajya) influenced Indian political thought for millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-sixteen-mahajanapadas",
+      "label": "Sixteen Mahajanapadas",
+      "year": -600,
+      "description": "By the 6th century BCE, sixteen major kingdoms had emerged across northern India, including Magadha, Kosala, Gandhara, and Avanti — the political map of the Buddha's world.",
+      "wikiSlug": "Mahajanapadas",
+      "commonsFile": "Mahajanapadas_(c._500_BCE).png",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Mahajanapadas",
+        "mahajanapadas"
+      ],
+      "details": [
+        {
+          "label": "The Kingdoms",
+          "text": "Buddhist and Jain texts list sixteen great kingdoms spanning from Gandhara (modern Afghanistan/Pakistan) to Anga (modern Bihar). The most powerful included Magadha, Kosala, Vatsa, and Avanti."
+        },
+        {
+          "label": "Political Diversity",
+          "text": "The Mahajanapadas included both monarchies (ruled by hereditary kings) and republics (gana-sanghas, governed by assemblies of clan elders). This political diversity is unique in the ancient world."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Mahajanapada system was the crucible of classical Indian civilization — the political framework within which Buddhism, Jainism, urban culture, coinage, and administrative systems all developed. Magadha would eventually absorb the others to form the Maurya Empire."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-magadha-rise",
+      "label": "Rise of Magadha",
+      "year": -600,
+      "description": "Magadha in the eastern Ganges emerged as the most powerful kingdom, with iron-rich soil, strategic river access, and aggressive kings who would eventually unify much of India.",
+      "wikiSlug": "Magadha",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Magadha"
+      ],
+      "details": [
+        {
+          "label": "Natural Advantages",
+          "text": "Magadha (modern southern Bihar) sat on iron ore deposits, controlled productive rice lands, and was protected by rivers and hills. Its capital Rajagriha ('King's House') was fortified by five surrounding hills."
+        },
+        {
+          "label": "Aggressive Expansion",
+          "text": "Under the Haryanka, Shishunaga, and Nanda dynasties, Magadha absorbed neighboring kingdoms through conquest and diplomacy. By 345 BCE, the Nanda dynasty controlled most of northern India."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Magadha's rise foreshadowed Indian political unification. The administrative and military institutions built by Magadhan kings provided the foundation on which Chandragupta Maurya would build India's first empire."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-gana-sanghas",
+      "label": "Gana-Sangha Republics",
+      "year": -600,
+      "description": "Several Mahajanapadas were governed as oligarchic republics rather than monarchies, with assemblies of clan elders making collective decisions — among the world's earliest republics.",
+      "wikiSlug": "Gaṇa_saṅgha",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "gana-sangha",
+        "gana-sanghas"
+      ],
+      "details": [
+        {
+          "label": "The System",
+          "text": "Gana-sanghas ('assemblies of equals') were governed by councils of Kshatriya clan elders who debated and voted on decisions. The Vajjian Confederacy and the Shakya republic (the Buddha's homeland) were prominent examples."
+        },
+        {
+          "label": "How They Worked",
+          "text": "Decisions required consensus or majority vote. Leaders (raja) were elected from the assembly, not hereditary. Buddhist texts describe elaborate parliamentary procedures including quorum requirements and secret ballots."
+        },
+        {
+          "label": "Significance",
+          "text": "The gana-sanghas represent one of the earliest experiments in republican governance — contemporary with Greek city-state democracy but developed independently. They eventually fell to the expanding monarchies, particularly Magadha."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-varanasi",
+      "label": "Varanasi Emerges",
+      "year": -600,
+      "description": "Varanasi (Kashi) became one of the most important cities in northern India — a center of learning, trade, and religion that remains sacred to Hindus, Buddhists, and Jains today.",
+      "wikiSlug": "Varanasi",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "aliases": [
+        "Varanasi",
+        "Kashi"
+      ],
+      "details": [
+        {
+          "label": "The City",
+          "text": "Located on the Ganges in the kingdom of Kashi, Varanasi was already a major urban center by the 6th century BCE. It was one of the sixteen Mahajanapadas' capital cities and a major trade hub."
+        },
+        {
+          "label": "Religious Center",
+          "text": "The Buddha preached his first sermon at nearby Sarnath, Mahavira spent time in Varanasi, and the city became one of Hinduism's holiest pilgrimage sites. Its sacred status as a place of death and liberation dates to the Vedic era."
+        },
+        {
+          "label": "Legacy",
+          "text": "Varanasi claims to be the oldest continuously inhabited city in the world. Its role as a spiritual capital of India has continued unbroken for over 2,500 years — one of the few cities from the Mahajanapada era still thriving today."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-shramana-movement",
+      "label": "Shramana Movement",
+      "year": -600,
+      "description": "Wandering ascetics (shramanas) challenged Brahminical ritual orthodoxy, seeking liberation through meditation and austerity. This movement gave rise to Buddhism and Jainism.",
+      "wikiSlug": "Śramaṇa",
+      "tier": 1,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Shramana",
+        "shramanas"
+      ],
+      "details": [
+        {
+          "label": "The Movement",
+          "text": "Shramanas ('strivers') were wandering ascetics who rejected Brahmin ritual authority and the Vedas. They sought liberation through personal discipline — meditation, fasting, celibacy, and renunciation of worldly life."
+        },
+        {
+          "label": "Why It Happened",
+          "text": "The growing rigidity of the varna system, Brahmin monopoly on spiritual authority, and the economic disruptions of urbanization created widespread dissatisfaction. The Shramanas offered an alternative path to spiritual truth."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Shramana movement produced two world religions — Buddhism and Jainism — and influenced Hinduism itself to incorporate asceticism and meditation. It represents one of the great intellectual revolutions in human history."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-taxila",
+      "label": "Taxila Center of Learning",
+      "year": -600,
+      "description": "Taxila in the northwestern kingdom of Gandhara became a renowned center of learning where students from across India studied the Vedas, medicine, law, and military science.",
+      "wikiSlug": "Taxila",
+      "commonsFile": "Taxila_map.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "aliases": [
+        "Taxila"
+      ],
+      "details": [
+        {
+          "label": "The Center",
+          "text": "Taxila (in modern Pakistan) was the capital of Gandhara and a major crossroads on the trade routes between India, Central Asia, and Persia. Students traveled from across India to study there."
+        },
+        {
+          "label": "Curriculum",
+          "text": "Taxila's teachers offered instruction in the Vedas, grammar, philosophy, medicine, law, military arts, and archery. It functioned as an informal university — not a single institution but a network of teachers accepting students."
+        },
+        {
+          "label": "Famous Alumni",
+          "text": "Chanakya, the strategist who masterminded the Maurya Empire's founding, reportedly taught at Taxila. Panini, the great grammarian, was also associated with the Gandhara region. The center's influence shaped Indian intellectual life for centuries."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-coinage",
+      "label": "Earliest Indian Coinage",
+      "year": -600,
+      "description": "Punch-marked silver coins appeared across northern India, facilitating long-distance trade and tax collection by the expanding Mahajanapada kingdoms.",
+      "wikiSlug": "Punch-marked_coins",
+      "commonsFile": "Punch-marked_coin_of_Gandhara_Janapada.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Innovation",
+          "text": "India's earliest coins were silver pieces stamped with symbols (sun, six-armed wheel, tree-in-railing) using metal punches. They appeared independently of Lydian coinage in Anatolia, roughly contemporary around 600 BCE."
+        },
+        {
+          "label": "Economic Impact",
+          "text": "Standardized coinage transformed trade by eliminating the need to weigh silver for each transaction. It enabled efficient tax collection, long-distance commerce, and the accumulation of state treasuries."
+        },
+        {
+          "label": "Political Power",
+          "text": "Coinage gave Mahajanapada kings a powerful fiscal tool. The ability to mint coins and collect taxes in currency funded standing armies and bureaucracies — the instruments of state power that enabled Magadha's rise."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-kosala-kingdom",
+      "label": "Kingdom of Kosala",
+      "year": -600,
+      "endYear": -475,
+      "description": "Kosala was one of the most powerful Mahajanapadas, with its capital at Shravasti. The Buddha spent many rainy seasons there, and King Prasenajit was one of his important patrons.",
+      "wikiSlug": "Kosala",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Kosala"
+      ],
+      "details": [
+        {
+          "label": "The Kingdom",
+          "text": "Kosala occupied the fertile Ganges plain in modern Uttar Pradesh, with Shravasti as its capital and Ayodhya as a secondary city. It rivaled Magadha as the most powerful Mahajanapada before being absorbed by it."
+        },
+        {
+          "label": "The Buddha's Connection",
+          "text": "The Buddha spent 25 rainy-season retreats in Kosala, more than anywhere else. The wealthy merchant Anathapindika donated the Jetavana monastery at Shravasti, which became one of the most important Buddhist centers."
+        },
+        {
+          "label": "Decline",
+          "text": "Kosala was weakened by internal succession disputes and eventually conquered by Magadha under Ajatashatru. The Shakya republic — the Buddha's homeland — was a vassal of Kosala, adding personal poignancy to the conquest."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-vajjian-confederacy",
+      "label": "Vajjian Confederacy",
+      "year": -600,
+      "endYear": -468,
+      "description": "The Vajjian Confederacy was the most prominent gana-sangha republic, a federation of eight clans centered at Vaishali. The Buddha praised its democratic governance as a model of good government.",
+      "wikiSlug": "Vajji",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Vajji",
+        "Vajjian"
+      ],
+      "details": [
+        {
+          "label": "The Confederacy",
+          "text": "The Vajjian Confederacy (Vajji) was a federation of eight clans, with the Lichchhavi clan dominant, based at Vaishali in modern Bihar. It was the most powerful of the gana-sangha republics."
+        },
+        {
+          "label": "Democratic Model",
+          "text": "The Buddha praised the Vajjians' system of regular assemblies, respect for elders, and consensus-based decision-making. He warned that Magadha could not conquer the Vajjians as long as they maintained these practices."
+        },
+        {
+          "label": "Fall",
+          "text": "Ajatashatru of Magadha defeated the Vajjians after a sixteen-year war by sowing discord among the clans — exactly the internal division the Buddha had warned against. The fall of the Vajjians marked the triumph of monarchy over republicanism."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-second-urbanization",
+      "label": "Second Urbanization",
+      "year": -600,
+      "description": "After the Indus cities had been abandoned for over a millennium, cities re-emerged across the Ganges Valley — a second wave of urbanization driven by iron, agriculture, and trade.",
+      "wikiSlug": "Second_urbanisation",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "aliases": [
+        "Second Urbanization"
+      ],
+      "details": [
+        {
+          "label": "The Phenomenon",
+          "text": "Around 600 BCE, true cities appeared in the Ganges Valley for the first time since the Indus decline — Varanasi, Rajagriha, Shravasti, Champa, Pataliputra. This 'second urbanization' was distinct from and unrelated to Harappan urbanism."
+        },
+        {
+          "label": "Driving Forces",
+          "text": "Iron tools, wet-rice agriculture, trade networks, and political consolidation all contributed. The new cities grew at trade route intersections, defended by walls and moats, serving as capitals for the Mahajanapada kingdoms."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The second urbanization created the social conditions for India's greatest intellectual revolution — Buddhism and Jainism both emerged from the ferment of these new cities, as did systematic philosophy, grammar, and political thought."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-buddha",
+      "label": "Siddhartha Gautama (The Buddha)",
+      "year": -563,
+      "endYear": -483,
+      "description": "Siddhartha Gautama, born a Shakya prince, achieved enlightenment and founded Buddhism — the most significant religious development to emerge from the Vedic intellectual milieu.",
+      "wikiSlug": "Gautama_Buddha",
+      "commonsFile": "Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "people",
+      "aliases": [
+        "Buddha",
+        "Siddhartha Gautama",
+        "Siddhartha",
+        "Gautama"
+      ],
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Born a prince of the Shakya republic in what is now southern Nepal, Siddhartha Gautama renounced his privileged life at age 29 to seek the cause of human suffering. After years of ascetic practice, he achieved enlightenment under a Bodhi tree at Bodh Gaya."
+        },
+        {
+          "label": "The Teaching",
+          "text": "The Buddha taught the Four Noble Truths (suffering exists, it has a cause, it can end, there is a path) and the Eightfold Path of ethical conduct, meditation, and wisdom. He rejected both extreme asceticism and worldly indulgence."
+        },
+        {
+          "label": "Legacy",
+          "text": "Buddhism became one of the world's great religions, spreading from India to all of Asia. With over 500 million adherents today, it is the most far-reaching cultural export of the Vedic world."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-rajagriha",
+      "label": "Rajagriha as Capital",
+      "year": -550,
+      "description": "Rajagriha, Magadha's capital surrounded by five hills, was one of the largest cities in the world during the 6th century BCE — a center of political power, trade, and Buddhist activity.",
+      "wikiSlug": "Rajgir",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "aliases": [
+        "Rajagriha",
+        "Rajgir"
+      ],
+      "details": [
+        {
+          "label": "The City",
+          "text": "Rajagriha ('King's House') was strategically located in a valley surrounded by five rocky hills in modern Bihar. It was one of the largest cities in the ancient world, with cyclopean stone walls predating similar fortifications in Greece."
+        },
+        {
+          "label": "Buddhist Significance",
+          "text": "The Buddha spent several years in Rajagriha, and the nearby Griddhakuta ('Vulture Peak') hill was one of his favorite retreat sites. The First Buddhist Council was held in a cave at Rajagriha after his death."
+        },
+        {
+          "label": "Legacy",
+          "text": "Rajagriha served as Magadha's capital until Ajatashatru moved it to nearby Pataliputra, which would become one of the world's greatest ancient cities under the Maurya Empire."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-bimbisara",
+      "label": "King Bimbisara",
+      "year": -543,
+      "endYear": -491,
+      "description": "Bimbisara of Magadha built alliances through marriage diplomacy, established efficient tax collection, and was a patron of the Buddha — making Magadha the dominant Mahajanapada kingdom.",
+      "wikiSlug": "Bimbisara",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "aliases": [
+        "Bimbisara"
+      ],
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Bimbisara founded the Haryanka dynasty and ruled Magadha from around 543-491 BCE. He expanded Magadha through strategic marriages with the royal families of Kosala, Vaishali, and Madra."
+        },
+        {
+          "label": "Administration",
+          "text": "Bimbisara organized Magadha's first systematic tax collection, built roads connecting villages to the capital at Rajagriha, and appointed officials to oversee justice — laying the groundwork for later imperial bureaucracy."
+        },
+        {
+          "label": "Buddhist Connection",
+          "text": "Bimbisara was one of the Buddha's earliest and most important royal patrons, donating the Bamboo Grove (Veluvana) near Rajagriha as one of the first Buddhist monasteries. He was eventually imprisoned and killed by his own son, Ajatashatru."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-mahavira",
+      "label": "Mahavira",
+      "year": -540,
+      "endYear": -468,
+      "description": "Mahavira, the 24th Tirthankara, systematized Jain philosophy of non-violence, asceticism, and karma. Jainism became a major Indian religion alongside Buddhism and Hinduism.",
+      "wikiSlug": "Mahavira",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "aliases": [
+        "Mahavira",
+        "Vardhamana"
+      ],
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Vardhamana Mahavira ('Great Hero') was born into a Kshatriya family in the Vajjian Confederacy. Like the Buddha, he renounced worldly life to seek spiritual liberation, but chose extreme asceticism — abandoning even clothing."
+        },
+        {
+          "label": "The Teaching",
+          "text": "Mahavira taught ahimsa (non-violence toward all living beings), aparigraha (non-attachment), and anekantavada (many-sidedness of truth). Jain monks sweep the ground before them and strain their drinking water to avoid harming insects."
+        },
+        {
+          "label": "Legacy",
+          "text": "Jainism became a major Indian religion with millions of adherents. Its emphasis on non-violence influenced Indian culture broadly — Gandhi explicitly credited Jain ahimsa as an inspiration for his philosophy of nonviolent resistance."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-sarnath-sermon",
+      "label": "Buddha's First Sermon",
+      "year": -528,
+      "description": "At the Deer Park in Sarnath near Varanasi, the Buddha delivered his first sermon — 'Setting the Wheel of Dharma in Motion' — teaching the Four Noble Truths and the Middle Way.",
+      "wikiSlug": "Dhammacakkappavattana_Sutta",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Sarnath"
+      ],
+      "details": [
+        {
+          "label": "The Sermon",
+          "text": "After achieving enlightenment at Bodh Gaya, the Buddha walked to the Deer Park at Sarnath near Varanasi. There he delivered his first teaching to five ascetics, setting out the Four Noble Truths and the Eightfold Path."
+        },
+        {
+          "label": "The Middle Way",
+          "text": "The Buddha rejected both extreme asceticism (which he had practiced for six years) and worldly indulgence, teaching a 'middle way' of moderation. This practical approach distinguished Buddhism from the severe austerities of Jainism."
+        },
+        {
+          "label": "Significance",
+          "text": "This sermon ('Turning the Wheel of Dharma') marks the founding moment of Buddhism as a teaching tradition. Sarnath became one of the four holiest Buddhist pilgrimage sites, and the Dharma Wheel became Buddhism's primary symbol."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-persian-invasion",
+      "label": "Persian Conquest of Gandhara",
+      "year": -518,
+      "description": "The Achaemenid emperor Darius I conquered the Gandhara region, making it a satrapy of the Persian Empire — India's first encounter with a foreign imperial power.",
+      "wikiSlug": "Achaemenid_conquest_of_the_Indus_Valley",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "aliases": [
+        "Darius I"
+      ],
+      "details": [
+        {
+          "label": "Background",
+          "text": "Darius I of Persia conquered the Gandhara kingdom (modern Pakistan/Afghanistan) around 518 BCE, incorporating it as the 20th satrapy of the Achaemenid Empire. Indian soldiers fought in the Persian armies."
+        },
+        {
+          "label": "Cultural Exchange",
+          "text": "Persian administration introduced the Aramaic script (ancestor of Kharosthi), administrative practices, and artistic styles to the northwest. Indian tribute included gold dust, elephants, and cotton cloth."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Achaemenid conquest connected India to the wider world of the Persian Empire, facilitating cross-cultural exchange. When Alexander followed the same route two centuries later, he was following Persian imperial roads."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-panini",
+      "label": "Panini",
+      "year": -500,
+      "description": "Panini composed the Ashtadhyayi, a grammar of Sanskrit with 3,959 rules so complete and systematic that modern linguists consider it the most sophisticated grammatical work of the ancient world.",
+      "wikiSlug": "Pāṇini",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "aliases": [
+        "Panini",
+        "Ashtadhyayi"
+      ],
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Panini was a grammarian from the Gandhara region (modern northwest Pakistan) who lived around the 5th century BCE. Little is known about his life beyond his extraordinary intellectual achievement."
+        },
+        {
+          "label": "The Grammar",
+          "text": "The Ashtadhyayi ('Eight Chapters') contains 3,959 rules that describe Sanskrit grammar with mathematical precision. It uses metalinguistic markers, recursive definitions, and context-sensitive rules — techniques not rediscovered in the West until the 20th century."
+        },
+        {
+          "label": "Legacy",
+          "text": "Modern linguists and computer scientists recognize Panini's grammar as a precursor to formal language theory and programming languages. Noam Chomsky acknowledged Panini's influence on generative grammar."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-dharmasutras",
+      "label": "Dharmasutras Composed",
+      "year": -500,
+      "description": "The Dharmasutras, early legal texts prescribing rules of conduct for each varna, began codifying the social and legal norms that would shape Indian law for millennia.",
+      "wikiSlug": "Dharmasutra",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Dharmasutras"
+      ],
+      "details": [
+        {
+          "label": "The Texts",
+          "text": "The Dharmasutras (by Gautama, Baudhayana, Apastamba, and Vasishtha) prescribe rules of conduct — dharma — for each stage of life and social class. They cover marriage, inheritance, crime, ritual purity, and royal duty."
+        },
+        {
+          "label": "Social Order",
+          "text": "These texts formalized the varna system into a legal framework, prescribing specific duties, rights, and punishments for each social class. They gave Brahminical social order the force of religious law."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Dharmasutras were precursors to the later Dharmashastras, including the influential Laws of Manu. Their framework of varna-based legal obligations shaped Indian jurisprudence for over two millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-ajatashatru",
+      "label": "King Ajatashatru",
+      "year": -491,
+      "endYear": -461,
+      "description": "Ajatashatru seized the Magadhan throne from his father Bimbisara and expanded the kingdom aggressively, defeating the Vajjian Confederacy and establishing Magadha as the dominant power.",
+      "wikiSlug": "Ajatashatru",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "aliases": [
+        "Ajatashatru"
+      ],
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Ajatashatru imprisoned and killed his father Bimbisara to seize the throne of Magadha. Despite this violent beginning, he proved an effective ruler who vastly expanded Magadhan power."
+        },
+        {
+          "label": "Conquests",
+          "text": "Ajatashatru waged a sixteen-year war against the Vajjian Confederacy, defeating it through a combination of military force and diplomatic subterfuge. He also conquered Kosala and Kashi, making Magadha the dominant kingdom."
+        },
+        {
+          "label": "Buddhist Connection",
+          "text": "Despite killing his father, Ajatashatru became a patron of Buddhism. He reportedly hosted the First Buddhist Council at Rajagriha after the Buddha's death, where monks gathered to preserve the Buddha's teachings."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-first-buddhist-council",
+      "label": "First Buddhist Council",
+      "year": -483,
+      "description": "After the Buddha's death, 500 monks gathered at Rajagriha to recite and preserve his teachings from memory — the first step in codifying Buddhist scripture.",
+      "wikiSlug": "First_Buddhist_council",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "The Gathering",
+          "text": "Soon after the Buddha's death (parinirvana), 500 senior monks (arhats) gathered in a cave near Rajagriha, Magadha. Ananda recited the Buddha's discourses (suttas) and Upali recited the monastic rules (vinaya)."
+        },
+        {
+          "label": "Oral Canon",
+          "text": "The council established the oral canon of Buddhist teaching through collective recitation and verification. This canon would be transmitted orally for centuries before being written down in Sri Lanka around 100 BCE."
+        },
+        {
+          "label": "Significance",
+          "text": "The First Buddhist Council preserved the Buddha's teaching in a remarkably organized form. The oral tradition it established kept Buddhism doctrinally coherent during its spread across Asia."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-nanda-dynasty",
+      "label": "Nanda Dynasty",
+      "year": -345,
+      "endYear": -322,
+      "description": "The Nanda dynasty seized power in Magadha and amassed enormous wealth and the largest army India had seen, but their unpopularity created the opening for Chandragupta Maurya.",
+      "wikiSlug": "Nanda_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Nanda",
+        "Nandas"
+      ],
+      "details": [
+        {
+          "label": "Rise to Power",
+          "text": "Mahapadma Nanda, reportedly of low-caste origin, overthrew the Shishunaga dynasty and established the Nanda dynasty around 345 BCE. He was called 'the destroyer of Kshatriyas' for eliminating rival royal families."
+        },
+        {
+          "label": "Power and Wealth",
+          "text": "The Nandas commanded the largest army in Indian history up to that point — reportedly 200,000 infantry, 20,000 cavalry, 2,000 chariots, and 3,000 elephants. Their treasury was legendary."
+        },
+        {
+          "label": "Fall",
+          "text": "Despite their military strength, the Nandas were deeply unpopular due to heavy taxation and their low-caste origins. Chandragupta Maurya, guided by the strategist Chanakya, overthrew the last Nanda king around 322 BCE, founding India's first great empire."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-chanakya",
+      "label": "Chanakya at Taxila",
+      "year": -340,
+      "description": "The Brahmin scholar Chanakya, humiliated by the Nanda court, began plotting the dynasty's overthrow from Taxila — training the young Chandragupta Maurya as his instrument of revolution.",
+      "wikiSlug": "Chanakya",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "aliases": [
+        "Chanakya",
+        "Kautilya"
+      ],
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Chanakya (also called Kautilya or Vishnugupta) was a Brahmin scholar and teacher at Taxila. According to tradition, he was insulted at the Nanda court and vowed to destroy the dynasty."
+        },
+        {
+          "label": "The Plot",
+          "text": "At Taxila, Chanakya identified the young Chandragupta Maurya as a future king and trained him in statecraft, military strategy, and political philosophy. Together they built an army and forged alliances to challenge the Nandas."
+        },
+        {
+          "label": "Legacy",
+          "text": "Chanakya's political treatise, the Arthashastra, became one of the most influential works on statecraft in Indian history — a handbook of governance, espionage, and economics that guided the Maurya Empire."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-alexander-invasion",
+      "label": "Alexander Reaches India",
+      "year": -326,
+      "description": "Alexander the Great's invasion of the Punjab in 326 BCE brought the first direct contact between Greek and Indian civilizations, though his army turned back before reaching the Ganges kingdoms.",
+      "wikiSlug": "Indian_campaign_of_Alexander_the_Great",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "aliases": [
+        "Alexander"
+      ],
+      "details": [
+        {
+          "label": "The Invasion",
+          "text": "Alexander crossed the Hindu Kush in 327 BCE and entered the Punjab in 326 BCE. He defeated King Porus at the Battle of the Hydaspes but his exhausted army refused to march further east toward the Nanda Empire."
+        },
+        {
+          "label": "Cultural Impact",
+          "text": "Greek garrisons left in the Punjab created the Indo-Greek cultural zone that influenced Gandharan art, astronomy, and philosophy. Greek accounts by Megasthenes and others provided the first foreign descriptions of India."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Alexander's retreat left a power vacuum in the northwest that Chandragupta Maurya quickly filled — defeating the Greek garrisons and then overthrowing the Nanda dynasty to found the Maurya Empire."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Indo-Aryan",
+      "aliases": [
+        "Indo-Aryans",
+        "Aryan"
+      ],
+      "definition": "A branch of the Indo-European language family whose speakers migrated into South Asia around 1500 BCE. The term refers to a language group, not a race — a distinction often confused in 19th-century scholarship.",
+      "wikiSlug": "Indo-Aryan_peoples",
+      "type": "culture"
+    },
+    {
+      "term": "Punjab",
+      "aliases": [
+        "Sapta Sindhu"
+      ],
+      "definition": "The 'Land of Five Rivers' in northwestern South Asia (modern Pakistan/India). The Rigvedic homeland, where the earliest Indo-Aryan settlements were established. Called Sapta Sindhu ('Seven Rivers') in the Rigveda.",
+      "wikiSlug": "Punjab",
+      "type": "geography"
+    },
+    {
+      "term": "Ganges Valley",
+      "aliases": [
+        "Ganges",
+        "Ganga"
+      ],
+      "definition": "The vast alluvial plain of the Ganges River in northern India. After the Vedic eastward expansion, it became the demographic, economic, and political heartland of Indian civilization.",
+      "wikiSlug": "Indo-Gangetic_Plain",
+      "type": "geography"
+    },
+    {
+      "term": "Indra",
+      "aliases": [],
+      "definition": "The king of the Vedic gods, associated with storms, war, and rainfall. Indra receives more hymns in the Rigveda than any other deity (250 of 1,028), but declined in importance in later Hinduism.",
+      "wikiSlug": "Indra",
+      "type": "culture"
+    },
+    {
+      "term": "Agni",
+      "aliases": [],
+      "definition": "The Vedic god of fire, serving as the divine messenger who carries sacrificial offerings to other gods. Agni is invoked in nearly every Vedic ritual and receives 200 hymns in the Rigveda.",
+      "wikiSlug": "Agni",
+      "type": "culture"
+    },
+    {
+      "term": "Varuna",
+      "aliases": [],
+      "definition": "The Vedic god of cosmic order (rita), water, and oaths. Varuna maintained moral law in the Rigveda but was gradually eclipsed by Indra. He later became a minor water deity in Hinduism.",
+      "wikiSlug": "Varuna",
+      "type": "culture"
+    },
+    {
+      "term": "Yajna",
+      "aliases": [
+        "yajnas",
+        "fire sacrifice",
+        "fire sacrifices"
+      ],
+      "definition": "The Vedic fire sacrifice — the central ritual of Vedic religion. Offerings of butter, grain, and soma were poured into a consecrated fire while priests chanted hymns to invoke the gods.",
+      "wikiSlug": "Yajna",
+      "type": "culture"
+    },
+    {
+      "term": "Brahmin",
+      "aliases": [
+        "Brahmins",
+        "Brahman priest"
+      ],
+      "definition": "The priestly class (varna) in the Vedic social system. Brahmins held a monopoly on Vedic ritual knowledge and gradually established themselves as the highest social group, a position they maintained for millennia.",
+      "wikiSlug": "Brahmin",
+      "type": "culture"
+    },
+    {
+      "term": "Kshatriya",
+      "aliases": [
+        "Kshatriyas"
+      ],
+      "definition": "The warrior and ruling class (varna) in the Vedic social system. Kshatriyas held political and military power, though Brahmin priests claimed ritual superiority over them.",
+      "wikiSlug": "Kshatriya",
+      "type": "culture"
+    },
+    {
+      "term": "Vaishya",
+      "aliases": [
+        "Vaishyas"
+      ],
+      "definition": "The commoner and merchant class (varna) in the Vedic social system. Vaishyas engaged in agriculture, cattle herding, and trade. Their economic role grew as urbanization and commerce expanded.",
+      "wikiSlug": "Vaishya",
+      "type": "culture"
+    },
+    {
+      "term": "Shudra",
+      "aliases": [
+        "Shudras"
+      ],
+      "definition": "The servant class (varna) at the bottom of the Vedic social hierarchy. Shudras were excluded from Vedic study and rituals, serving the three upper varnas. Their marginalization deepened over time.",
+      "wikiSlug": "Shudra",
+      "type": "culture"
+    },
+    {
+      "term": "Brahman",
+      "aliases": [],
+      "definition": "The ultimate reality or universal soul in Upanishadic philosophy — the unchanging ground of all existence. Not to be confused with Brahma (creator god) or Brahmin (priestly class).",
+      "wikiSlug": "Brahman",
+      "type": "term"
+    },
+    {
+      "term": "Atman",
+      "aliases": [],
+      "definition": "The individual soul or self in Upanishadic philosophy. The Upanishads teach that Atman is identical to Brahman — the individual self is the universal self. Realizing this identity is the path to liberation.",
+      "wikiSlug": "Ātman_(Hinduism)",
+      "type": "term"
+    },
+    {
+      "term": "Karma",
+      "aliases": [
+        "karma"
+      ],
+      "definition": "The principle of moral cause and effect — good actions lead to good outcomes across lifetimes, bad actions to bad. First systematized in the Upanishads, karma became central to Hinduism, Buddhism, and Jainism.",
+      "wikiSlug": "Karma",
+      "type": "term"
+    },
+    {
+      "term": "Moksha",
+      "aliases": [
+        "moksha",
+        "liberation"
+      ],
+      "definition": "Liberation from the cycle of death and rebirth (samsara). The ultimate goal in Hindu and Jain philosophy, achieved through knowledge, devotion, or action. Buddhism uses the parallel concept of nirvana.",
+      "wikiSlug": "Moksha",
+      "type": "term"
+    },
+    {
+      "term": "Samsara",
+      "aliases": [
+        "samsara",
+        "rebirth",
+        "reincarnation"
+      ],
+      "definition": "The cycle of death and rebirth that all beings undergo according to their karma. Escaping samsara through moksha or nirvana is the ultimate goal of Indian spiritual practice.",
+      "wikiSlug": "Saṃsāra",
+      "type": "term"
+    },
+    {
+      "term": "Dharma",
+      "aliases": [
+        "dharma"
+      ],
+      "definition": "A multivalent concept meaning cosmic order, moral law, duty, or religious teaching. In Hinduism it refers to righteous conduct appropriate to one's social position; in Buddhism it refers to the Buddha's teaching.",
+      "wikiSlug": "Dharma",
+      "type": "term"
+    },
+    {
+      "term": "Ahimsa",
+      "aliases": [
+        "ahimsa",
+        "non-violence"
+      ],
+      "definition": "The principle of non-violence toward all living beings. Central to Jain philosophy and influential in Buddhism and later Hinduism. Gandhi adopted ahimsa as the basis of his nonviolent resistance movement.",
+      "wikiSlug": "Ahimsa",
+      "type": "term"
+    },
+    {
+      "term": "Vedas",
+      "aliases": [
+        "Vedic texts"
+      ],
+      "definition": "The four sacred texts of Hinduism — Rigveda, Samaveda, Yajurveda, and Atharvaveda — composed orally between roughly 1500-900 BCE. Considered shruti ('that which is heard'), they are the foundational scriptures of Hindu tradition.",
+      "wikiSlug": "Vedas",
+      "type": "term"
+    },
+    {
+      "term": "Tirthankara",
+      "aliases": [
+        "Tirthankaras"
+      ],
+      "definition": "In Jainism, a spiritual teacher who has conquered the cycle of death and rebirth and forged a path for others to follow. Mahavira is the 24th and last Tirthankara of the current cosmic age.",
+      "wikiSlug": "Tirthankara",
+      "type": "term"
+    },
+    {
+      "term": "Gandhara",
+      "aliases": [],
+      "definition": "An ancient kingdom in the northwestern subcontinent (modern Pakistan/Afghanistan), centered on the Peshawar Valley. Home to Taxila and a crossroads between India, Central Asia, and Persia.",
+      "wikiSlug": "Gandhara",
+      "type": "geography"
+    },
+    {
+      "term": "Videha",
+      "aliases": [],
+      "definition": "An ancient kingdom in the eastern Ganges region (modern northern Bihar/Nepal border). King Janaka of Videha hosted the famous Upanishadic philosophical debates at his court.",
+      "wikiSlug": "Videha_(kingdom)",
+      "type": "geography"
+    },
+    {
+      "term": "Bodh Gaya",
+      "aliases": [
+        "Bodhi tree"
+      ],
+      "definition": "The site in modern Bihar where the Buddha achieved enlightenment under a pipal (Bodhi) tree. It became the holiest Buddhist pilgrimage site, marked by the Mahabodhi Temple.",
+      "wikiSlug": "Bodh_Gaya",
+      "type": "geography"
+    },
+    {
+      "term": "Purusha Sukta",
+      "aliases": [],
+      "definition": "A Rigvedic hymn (10.90) describing the creation of the universe and the four varnas from the sacrifice of the cosmic being (Purusha). It became the foundational text justifying the social hierarchy.",
+      "wikiSlug": "Purusha_sukta",
+      "type": "term"
+    },
+    {
+      "term": "Pataliputra",
+      "aliases": [],
+      "definition": "Founded as a Magadhan fortress by Ajatashatru, Pataliputra (modern Patna in Bihar) became the capital of the Nanda and Maurya empires — one of the largest cities in the ancient world.",
+      "wikiSlug": "Pataliputra",
+      "type": "geography"
+    },
+    {
+      "term": "Haryanka Dynasty",
+      "aliases": [
+        "Haryanka"
+      ],
+      "definition": "The first historical dynasty of Magadha (c. 543-413 BCE), founded by Bimbisara. Under Bimbisara and Ajatashatru, the Haryankas transformed Magadha from a regional power into the dominant Mahajanapada.",
+      "wikiSlug": "Haryanka_dynasty",
+      "type": "culture"
+    },
+    {
+      "term": "Shishunaga Dynasty",
+      "aliases": [
+        "Shishunaga"
+      ],
+      "definition": "The second dynasty of Magadha (c. 413-345 BCE), which succeeded the Haryankas and was in turn overthrown by the Nandas. The Shishunagas temporarily moved the capital to Vaishali.",
+      "wikiSlug": "Shishunaga_dynasty",
+      "type": "culture"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "aliases": [
+        "Achaemenid",
+        "Persian Empire"
+      ],
+      "definition": "The first Persian Empire (c. 550-330 BCE), founded by Cyrus the Great. Its conquest of Gandhara around 518 BCE brought the northwestern subcontinent into the Persian imperial system.",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "culture"
+    },
+    {
+      "term": "Porus",
+      "aliases": [],
+      "definition": "The king of Paurava who fought Alexander the Great at the Battle of the Hydaspes in 326 BCE. Despite defeat, his valor impressed Alexander, who restored his kingdom as a vassal ruler.",
+      "wikiSlug": "Porus",
+      "type": "culture"
+    },
+    {
+      "term": "Shakya",
+      "aliases": [
+        "Shakyas"
+      ],
+      "definition": "A small republic (gana-sangha) in the Himalayan foothills of modern Nepal, vassal to Kosala. The Buddha (Siddhartha Gautama) was born a prince of the Shakya clan.",
+      "wikiSlug": "Shakya",
+      "type": "culture"
+    },
+    {
+      "term": "Sangha",
+      "aliases": [
+        "sangha"
+      ],
+      "definition": "The Buddhist monastic community founded by the Buddha. The sangha — along with the Buddha and the Dharma — forms one of the Three Jewels of Buddhism.",
+      "wikiSlug": "Sangha",
+      "type": "term"
+    },
+    {
+      "term": "Nirvana",
+      "aliases": [
+        "nirvana"
+      ],
+      "definition": "In Buddhism, the cessation of suffering and escape from the cycle of rebirth (samsara). Literally 'extinguishing' — the blowing out of the fires of desire, hatred, and delusion.",
+      "wikiSlug": "Nirvana",
+      "type": "term"
+    },
+    {
+      "term": "Avanti",
+      "aliases": [],
+      "definition": "One of the four most powerful Mahajanapadas, located in central India (modern Malwa). Its capital Ujjain was a major trade center on the route between northern India and the western seaports.",
+      "wikiSlug": "Avanti_(ancient_kingdom)",
+      "type": "geography"
+    },
+    {
+      "term": "Vaishali",
+      "aliases": [],
+      "definition": "The capital of the Vajjian Confederacy in modern Bihar. One of the earliest republics in world history and an important site in both Buddhist and Jain tradition — Mahavira was born nearby.",
+      "wikiSlug": "Vaishali_(ancient_city)",
+      "type": "geography"
+    },
+    {
+      "term": "Shravasti",
+      "aliases": [],
+      "definition": "Capital of the kingdom of Kosala, where the Buddha spent more rainy-season retreats than anywhere else. The Jetavana monastery at Shravasti was one of the most important early Buddhist centers.",
+      "wikiSlug": "Shravasti",
+      "type": "geography"
+    },
+    {
+      "term": "Kashi",
+      "aliases": [],
+      "definition": "An ancient Mahajanapada kingdom centered on Varanasi. It was eventually absorbed by Kosala and then Magadha. The name 'Kashi' is still used as a traditional name for Varanasi.",
+      "wikiSlug": "Kashi_(region)",
+      "type": "geography"
+    },
+    {
+      "term": "Bhagavad Gita",
+      "aliases": [
+        "Gita"
+      ],
+      "definition": "A 700-verse scripture embedded within the Mahabharata, featuring a dialogue between Prince Arjuna and the god Krishna on duty, righteousness, and the nature of reality. One of the most influential texts in Hinduism.",
+      "wikiSlug": "Bhagavad_Gita",
+      "type": "term"
+    },
+    {
+      "term": "Lichchhavi",
+      "aliases": [
+        "Lichchhavis"
+      ],
+      "definition": "The dominant clan of the Vajjian Confederacy, based at Vaishali. The Lichchhavis were a powerful warrior aristocracy who governed through a republican assembly rather than hereditary monarchy.",
+      "wikiSlug": "Licchavi_(clan)",
+      "type": "culture"
+    },
+    {
+      "term": "Nakshatras",
+      "aliases": [
+        "nakshatra"
+      ],
+      "definition": "The 27 or 28 lunar mansions (star groupings) used in Vedic astronomy to track the moon's monthly journey across the sky. They formed the basis of the Hindu calendar and astrological system.",
+      "wikiSlug": "Nakshatra",
+      "type": "term"
+    },
+    {
+      "term": "Rita",
+      "aliases": [
+        "rita"
+      ],
+      "definition": "The Vedic concept of cosmic order — the natural law governing the universe, seasons, and moral conduct. Rita was maintained by the god Varuna and is a precursor to the later concept of dharma.",
+      "wikiSlug": "Ṛta",
+      "type": "term"
+    }
+  ],
+  "story": {
+    "title": "Vedic India: From Hymns to Kingdoms",
+    "intro": "Between roughly 1500 and 320 BCE, the Indian subcontinent underwent one of the most consequential cultural transformations in human history. As the great Indus Valley cities faded and Indo-Aryan migrants arrived from Central Asia, a new civilization took shape — one built not on bricks and urban planning, but on sacred poetry, fire rituals, and philosophical inquiry. The Vedic tradition that emerged from this encounter would produce the world's oldest scriptures still in use, revolutionary ideas about the soul and reality, two major world religions, and the political foundations of India's first empire.\n\nThis guided tour explores the Vedic world through three lenses. The first path, Sacred Texts & Philosophy, traces the extraordinary intellectual journey from the Rigveda's hymns to the Upanishads' metaphysics — the ideas that shaped a billion lives. The second, Kings & Kingdoms, follows the political evolution from pastoral tribes to the sixteen great kingdoms that competed for dominance. The third, Society & Innovation, examines how ordinary people lived, what they traded, and what they invented — from the caste system to the Pythagorean theorem.",
+    "paths": [
+      {
+        "id": "path-texts",
+        "label": "Sacred Texts & Philosophy",
+        "color": "#f59e0b",
+        "icon": "📜",
+        "description": "From the Rigveda's hymns to the Upanishads' metaphysics — the ideas that shaped a civilization.",
+        "recap": "The intellectual journey of the Vedic period is one of the most remarkable in human history. Starting with the Rigveda's 1,028 hymns to nature gods — composed by pastoral poets who had recently arrived in the Punjab — the tradition evolved over a thousand years into the sophisticated metaphysics of the Upanishads. Along the way, the Vedic texts preserved not just religious ideas but a complete picture of a changing society: the Samaveda's melodies, the Yajurveda's ritual instructions, the Atharvaveda's folk medicine, and the Brahmanas' cosmological speculations.\n\nThe Upanishadic revolution was the turning point. When thinkers like Yajnavalkya declared that the individual soul (Atman) was identical to the universal reality (Brahman), they shifted Indian religion from ritual performance to philosophical inquiry — a shift whose effects are still felt today. The concepts of karma, samsara, and moksha that emerged from this ferment became the shared intellectual vocabulary of Hinduism, Buddhism, and Jainism alike. And the Shramana challenge to Brahminical authority that grew from this philosophical restlessness would produce two of the world's great religions.\n\nThe Vedic intellectual tradition did not end with the period itself. Panini's grammar systematized Sanskrit with a precision that wouldn't be matched until modern computational linguistics. The Shulba Sutras applied sophisticated geometry to altar construction. And the oral transmission techniques that preserved the Vedas word-perfect for millennia remain one of the great feats of human memory.",
+        "nodes": [
+          {
+            "id": "node-texts-rigveda",
+            "eventId": "evt-vedic-rigveda",
+            "narrative": "When the Indus Valley cities emptied and the great urban experiment along the Indus River faded — their writing lost, their cities slowly buried under silt — South Asia did not fall silent. Into the Punjab came Indo-Aryan migrants from Central Asia, and with them came something that would prove more durable than any city: sacred poetry.\n\nThe Rigveda, composed orally over roughly three centuries (1500-1200 BCE), is the oldest religious text still in active use anywhere in the world. Its 1,028 hymns, organized into ten books called mandalas, praise a pantheon of nature gods — Indra the storm warrior (250 hymns), Agni the fire messenger (200 hymns), Varuna the upholder of cosmic order, Surya the sun, and many others. The hymns are not theology in any systematic sense. They are poetry — vivid, muscular, and sometimes wildly imaginative. Indra slays the serpent Vritra to release the waters. Agni carries offerings skyward in his flames. Dawn arrives as a beautiful woman in a chariot.\n\nWhat makes the Rigveda extraordinary is not just its age but its preservation. Vedic priests developed elaborate memorization techniques — chanting texts forward, backward, and in interlocking patterns — that transmitted the hymns virtually unchanged for over three millennia. When scholars finally transcribed the oral tradition, they found a text of remarkable consistency. UNESCO recognized this oral tradition as an Intangible Cultural Heritage in 2003.\n\nThe Rigveda is also our primary window into Early Vedic society: a pastoral world of cattle herders and chariot warriors, clan rivalries and fire sacrifices, where wealth was measured in cows and prestige in hymns composed for the gods.",
+            "image": {
+              "commonsFile": "Rigveda_MS2097.jpg",
+              "caption": "A Rigveda manuscript in Devanagari script, preserving hymns composed orally over 3,000 years ago"
+            },
+            "quiz": [
+              {
+                "question": "What unique preservation technique did Vedic priests use that involved chanting texts in multiple directional patterns?",
+                "options": [
+                  "They chanted texts forward, backward, and in interlocking word patterns",
+                  "They carved hymns on stone pillars at each monsoon season",
+                  "They encoded hymns in drum rhythms passed between villages",
+                  "They used a system of knotted cords similar to Inca quipu"
+                ],
+                "answerIndex": 0,
+                "explanation": "Vedic priests developed a system called vikrti-patha — chanting the same text in multiple patterns (word-by-word, reversed, interlocked) to create cross-checks that caught any errors. This is why the Rigveda has been transmitted with extraordinary accuracy for over 3,000 years."
+              },
+              {
+                "question": "How many hymns in the Rigveda are dedicated to Indra, the storm god?",
+                "options": [
+                  "About 50",
+                  "About 250",
+                  "About 120",
+                  "About 500"
+                ],
+                "answerIndex": 1,
+                "explanation": "Indra receives roughly 250 of the Rigveda's 1,028 hymns — more than any other deity. This dominance reflects the Early Vedic world's focus on war and weather: Indra was both the champion warrior and the bringer of rain."
+              }
+            ]
+          },
+          {
+            "id": "node-texts-later-vedas",
+            "eventId": "evt-vedic-atharvaveda",
+            "narrative": "The Rigveda was just the beginning. Over the following centuries, three more Vedas were compiled, each serving a different function in the increasingly elaborate ritual system.\n\nThe Samaveda ('Veda of Songs') rearranged Rigvedic verses for melodic chanting — essentially a hymnal with the oldest documented musical notation in Indian tradition. The Yajurveda ('Veda of Ritual Formulas') provided step-by-step instructions for performing sacrifices. And the Atharvaveda, the most unusual of the four, collected spells, charms, healing remedies, and philosophical speculations that reveal what ordinary Vedic people actually believed and feared.\n\nWhile the Rigveda reflects the concerns of elite priests and warriors, the Atharvaveda is a window into daily life. It contains charms against snakebite, love spells, remedies for fever, rituals to ensure a good harvest, and curses against enemies. It also preserves extensive medical knowledge — herbal treatments, descriptions of diseases, and healing practices that form the earliest layer of what would become the Ayurvedic medical tradition.\n\nThe four Vedas together — called shruti, 'that which is heard' — were considered of divine origin, not composed by humans but revealed to ancient sages. This claim of divine authority made the Vedas the unquestionable foundation of Hindu tradition and gave their guardians, the Brahmin priests, extraordinary social power. The elaborate ritual system described in the Vedas required years of specialized training, effectively creating a priestly monopoly on access to the divine.\n\nAttached to the Vedas came prose commentaries called the Brahmanas, which elaborated ritual procedures into an extraordinarily complex system. The Brahmanas explained the cosmic significance of every ritual gesture — why the fire must face east, why three oblations are poured, why the altar must be a precise shape. This ritualistic apparatus would eventually provoke its own reaction: the philosophical revolution of the Upanishads.",
+            "quiz": [
+              {
+                "question": "What makes the Atharvaveda unique among the four Vedas?",
+                "options": [
+                  "It was composed entirely by women sages",
+                  "It was the only Veda originally written down rather than transmitted orally",
+                  "It contains everyday spells, charms, and medical remedies rather than priestly ritual",
+                  "It is dedicated exclusively to the god Vishnu"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Atharvaveda is the most 'human' of the Vedas — packed with love spells, healing charms, curses, and remedies for snakebite and fever. It reveals the folk beliefs and daily concerns of ordinary Vedic people, not just the elite priestly tradition."
+              },
+              {
+                "question": "What Sanskrit term for the Vedas means 'that which is heard,' implying divine revelation?",
+                "options": [
+                  "Smriti",
+                  "Shakti",
+                  "Sutra",
+                  "Shruti"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Vedas are classified as shruti ('that which is heard') — divinely revealed knowledge heard by ancient sages during deep meditation. This distinguishes them from smriti ('that which is remembered'), which includes human-composed texts like the epics."
+              }
+            ]
+          },
+          {
+            "id": "node-texts-upanishads",
+            "eventId": "evt-vedic-upanishads",
+            "narrative": "By the 8th century BCE, some thinkers had grown dissatisfied with the elaborate ritualism that dominated Late Vedic religion. The Brahmanas prescribed ever more complex sacrificial procedures, but a growing number of forest-dwelling ascetics asked a more fundamental question: what is the nature of reality itself?\n\nThe Upanishads, composed between roughly 800 and 500 BCE, represent one of the great intellectual revolutions in human history. The word 'upanishad' means 'sitting near' — referring to students sitting at a teacher's feet to receive esoteric knowledge. What they heard was revolutionary.\n\nThe core Upanishadic insight is the identity of Atman (the individual soul) with Brahman (the universal reality). As the Chandogya Upanishad puts it: tat tvam asi — 'thou art that.' The individual self, properly understood, is not separate from the ground of all existence. This realization, the Upanishads teach, is the path to moksha — liberation from the endless cycle of death and rebirth (samsara) driven by karma (moral cause and effect across lifetimes).\n\nThese concepts — Brahman, Atman, karma, samsara, moksha — became the shared intellectual vocabulary of all Indian religious traditions. Hinduism, Buddhism, and Jainism all accept the framework of karma and rebirth, even as they differ profoundly on the nature of the self and the path to liberation.\n\nThe Upanishads also introduced a new model of spiritual authority. Where the Brahmanas vested power in ritual specialists, the Upanishads celebrated the individual seeker. A king (Janaka of Videha) could be wiser than a priest. A woman (Gargi Vachaknavi) could challenge the greatest sage. Knowledge, not birth or ritual expertise, was the true path to liberation.",
+            "image": {
+              "commonsFile": "Isha_Upanishad_Verse_1,_Sanskrit,_Devanagari.jpg",
+              "caption": "Opening verse of the Isha Upanishad in Devanagari script"
+            },
+            "quiz": [
+              {
+                "question": "Which 19th-century Western philosopher was profoundly influenced by the Upanishads, calling them 'the consolation of my life'?",
+                "options": [
+                  "Arthur Schopenhauer",
+                  "Friedrich Nietzsche",
+                  "Immanuel Kant",
+                  "Georg Hegel"
+                ],
+                "answerIndex": 0,
+                "explanation": "Arthur Schopenhauer kept a copy of the Upanishads on his bedside table and called them 'the consolation of my life and the consolation of my death.' Their influence on his philosophy of will and representation was profound."
+              },
+              {
+                "question": "What is the Sanskrit phrase from the Chandogya Upanishad meaning 'thou art that,' expressing the unity of the individual soul with universal reality?",
+                "options": [
+                  "Om mani padme hum",
+                  "Tat tvam asi",
+                  "Neti neti",
+                  "Aham brahmasmi"
+                ],
+                "answerIndex": 1,
+                "explanation": "Tat tvam asi ('thou art that') is one of the four mahavakyas (great sayings) of the Upanishads. It encapsulates the core teaching: your innermost self (Atman) is identical to the universal reality (Brahman)."
+              }
+            ]
+          },
+          {
+            "id": "node-texts-yajnavalkya",
+            "eventId": "evt-vedic-yajnavalkya",
+            "narrative": "The Upanishadic revolution was not abstract philosophy conducted in isolation. It was a living tradition of debate, conducted at royal courts before audiences of scholars, where reputations were won and lost.\n\nThe most famous of these debates is recorded in the Brihadaranyaka Upanishad — the oldest and longest Upanishad. King Janaka of Videha announced a great assembly and offered a prize of 1,000 cows with gold-tipped horns to whichever sage demonstrated the deepest knowledge. The philosopher Yajnavalkya boldly ordered his student to drive the cows home before the debate had even begun, then proceeded to defeat every challenger.\n\nYajnavalkya's key teaching was neti neti — 'not this, not this.' When asked to define Brahman, he argued that the ultimate reality cannot be described in positive terms; it can only be approached by negating everything it is not. Brahman is not large, not small, not conscious, not unconscious — it transcends all categories. This apophatic approach (defining by negation) influenced not just Indian philosophy but later mystical traditions worldwide.\n\nAmong Yajnavalkya's challengers was Gargi Vachaknavi, one of the few women named as a philosopher in ancient Indian literature. Gargi pushed Yajnavalkya with escalating questions: 'On what is the earth woven? On what is that woven? And that?' When she pressed toward the ultimate question, Yajnavalkya warned her that her head would shatter if she went further — a dramatic way of saying the question itself dissolves at the boundary of language.\n\nThe presence of Gargi in the debate suggests that early Vedic society, while patriarchal, allowed some women access to intellectual life — a space that would narrow considerably in later periods.",
+            "quiz": [
+              {
+                "question": "What was the prize offered at King Janaka's philosophical debate that Yajnavalkya claimed before the contest began?",
+                "options": [
+                  "A land grant of 100 villages",
+                  "The hand of the king's daughter in marriage",
+                  "1,000 cows with gold-tipped horns",
+                  "A jeweled throne and royal title"
+                ],
+                "answerIndex": 2,
+                "explanation": "King Janaka offered 1,000 cows with ten gold coins attached to each cow's horns. Yajnavalkya's audacity in claiming the prize before the debate had concluded was either supreme confidence or supreme arrogance — the Upanishad lets the reader decide."
+              },
+              {
+                "question": "In Upanishadic philosophy, what does the phrase 'neti neti' mean?",
+                "options": [
+                  "'I am the universe'",
+                  "'Silence is truth'",
+                  "'The path of knowledge'",
+                  "'Not this, not this' — defining the ultimate by negation"
+                ],
+                "answerIndex": 3,
+                "explanation": "Neti neti ('not this, not this') is Yajnavalkya's method for approaching Brahman. Since the ultimate reality transcends all categories and descriptions, it can only be defined by what it is not. This apophatic approach influenced mystical traditions across the world."
+              }
+            ]
+          },
+          {
+            "id": "node-texts-shramana",
+            "eventId": "evt-vedic-shramana-movement",
+            "narrative": "The philosophical ferment of the Upanishads did not stay confined to Brahmin intellectual circles. By the 6th century BCE, a much broader movement was underway — one that would produce two of the world's great religions.\n\nThe Shramana ('striver') movement consisted of wandering ascetics who had renounced worldly life to seek spiritual liberation. Unlike the Brahmin priests, the Shramanas rejected the authority of the Vedas, denied the efficacy of Vedic ritual, and challenged the varna system that placed Brahmins at the top of society. They sought truth through personal discipline — meditation, fasting, celibacy, and radical renunciation.\n\nThe Shramana movement was fueled by several factors. The growing rigidity of the varna system frustrated those born into lower ranks. The Brahmin monopoly on spiritual authority excluded many seekers. And the rapid urbanization of the Ganges Valley — the second urbanization, after the Indus cities had been abandoned for over a millennium — created a new mercantile class with wealth but no status in the Brahminical system. These urban merchants and professionals became natural patrons of Shramana teachers who offered spiritual paths independent of Brahmin control.\n\nThe two most successful Shramana teachers — Siddhartha Gautama (the Buddha) and Vardhamana Mahavira (the founder of Jainism) — were both born into the Kshatriya (warrior/ruling) class, not the Brahmin priesthood. Both renounced privilege. Both rejected Vedic ritual. Both taught paths to liberation open to anyone regardless of birth.\n\nThe Shramana challenge transformed Indian religion permanently. Even orthodox Hinduism had to accommodate the appeal of renunciation, meditation, and personal spiritual practice — traditions that Brahminical ritualism had previously ignored.",
+            "quiz": [
+              {
+                "question": "Which social class provided the most enthusiastic patrons for Shramana teachers like the Buddha and Mahavira?",
+                "options": [
+                  "Urban merchants with wealth but low ritual status",
+                  "Shudra servants seeking liberation",
+                  "Brahmin priests who wanted reform",
+                  "Foreign traders from Persia and Greece"
+                ],
+                "answerIndex": 0,
+                "explanation": "The new urban merchant class — wealthy from the second urbanization's trade boom but ranked third in the varna system — became natural supporters of teachers who rejected birth-based hierarchy. Many of the Buddha's most important patrons were wealthy merchants."
+              },
+              {
+                "question": "What was the social class background shared by both the Buddha and Mahavira?",
+                "options": [
+                  "Brahmin priestly families",
+                  "Kshatriya warrior/ruling families",
+                  "Vaishya merchant families",
+                  "They came from different classes"
+                ],
+                "answerIndex": 1,
+                "explanation": "Both the Buddha (a Shakya prince) and Mahavira (born into a Kshatriya family in the Vajjian Confederacy) came from the warrior-ruling class. Their rejection of privilege in favor of spiritual seeking made their renunciation particularly dramatic and influential."
+              }
+            ],
+            "image": {
+              "commonsFile": "Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg",
+              "caption": "The Buddha in the Dharma teaching pose (Dhammacakkappavattana Mudra), Sarnath Museum, 5th century CE"
+            }
+          },
+          {
+            "id": "node-texts-panini",
+            "eventId": "evt-vedic-panini",
+            "narrative": "The Vedic intellectual tradition culminated in an achievement so remarkable that modern scientists still study it: Panini's grammar of Sanskrit.\n\nPanini lived in the Gandhara region around the 5th century BCE. Little is known about his life, but his work — the Ashtadhyayi ('Eight Chapters') — is one of the great intellectual accomplishments of the ancient world. In 3,959 rules, Panini described the complete grammar of Sanskrit with mathematical precision.\n\nWhat makes the Ashtadhyayi extraordinary is not just its completeness but its method. Panini used metalinguistic markers (symbols that refer to categories of sounds), recursive definitions (rules that call other rules), and context-sensitive transformations — techniques that Western linguists and computer scientists would not develop independently until the 20th century. Noam Chomsky explicitly acknowledged Panini's influence on generative grammar, and some computer scientists consider the Ashtadhyayi the earliest example of a formal language specification.\n\nPanini's grammar effectively froze Classical Sanskrit — the language he described became the standard that all subsequent Sanskrit writers followed. This standardization allowed Sanskrit to serve as the intellectual lingua franca of South Asia for over two millennia, much as Latin served in medieval Europe.\n\nThe Ashtadhyayi was the capstone of a Vedic tradition that had always treated language with extraordinary reverence. In a culture where sacred texts were transmitted orally for centuries, precise knowledge of grammar, phonetics, and meter was not academic — it was essential for the correct performance of rituals and the preservation of divine revelation.\n\nFrom the Rigveda's hymns to Panini's grammar, the Vedic intellectual tradition demonstrates that ancient India's greatest technology was not engineering or metallurgy but language itself — perfected, analyzed, and preserved with a rigor that the modern world is still learning from.",
+            "quiz": [
+              {
+                "question": "How many grammatical rules does Panini's Ashtadhyayi contain?",
+                "options": [
+                  "1,028",
+                  "2,500",
+                  "3,959",
+                  "5,000"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Ashtadhyayi contains exactly 3,959 rules (sutras) describing Sanskrit grammar. The number 1,028 is the number of hymns in the Rigveda — a common confusion, since both are cornerstone texts of the Vedic tradition."
+              },
+              {
+                "question": "Which modern linguist explicitly acknowledged Panini's ancient grammar as an influence on generative linguistic theory?",
+                "options": [
+                  "Ferdinand de Saussure",
+                  "Edward Sapir",
+                  "Steven Pinker",
+                  "Noam Chomsky"
+                ],
+                "answerIndex": 3,
+                "explanation": "Noam Chomsky acknowledged Panini's influence on generative grammar. The Ashtadhyayi's use of recursive rules and formal transformations anticipates techniques that Chomsky and others developed in computational linguistics 2,400 years later."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "path-kingdoms",
+        "label": "Kings & Kingdoms",
+        "color": "#ef4444",
+        "icon": "👑",
+        "description": "From tribal chiefs to the sixteen great kingdoms — the political evolution that set the stage for empire.",
+        "recap": "The political story of the Vedic period is a thousand-year evolution from tribal pastoralism to complex statehood. The early Indo-Aryan clans of the Punjab — fighting chariot battles over cattle and river valleys — gradually consolidated into the Kuru and Panchala kingdoms, which codified Vedic ritual and established the first organized states in the Ganges region. As iron tools enabled the clearance of the dense Gangetic forests, new kingdoms emerged further east, competing for control of the increasingly wealthy trade routes.\n\nBy the 6th century BCE, this process had produced the sixteen Mahajanapadas — great kingdoms spanning from Gandhara in the northwest to Anga in the east. What makes this political landscape remarkable is its diversity: alongside hereditary monarchies, several states operated as gana-sangha republics with elected leaders and assembly-based governance. The Vajjian Confederacy's democratic practices impressed the Buddha himself.\n\nBut the trend was toward centralization. Magadha, blessed with iron deposits, fertile rice lands, and aggressive rulers, absorbed its neighbors one by one. Under Bimbisara, Ajatashatru, and the Nanda dynasty, Magadha built the administrative and military machinery that Chandragupta Maurya would inherit when he overthrew the Nandas and founded India's first empire. The Vedic period's political experiments — monarchy, republicanism, bureaucracy, diplomacy — were the raw material from which the Maurya Empire was forged.",
+        "nodes": [
+          {
+            "id": "node-kingdoms-ten-kings",
+            "eventId": "evt-vedic-battle-ten-kings",
+            "narrative": "The earliest political event described in Indian literature is a battle. The Rigveda's hymn 7.18 celebrates the victory of King Sudas of the Bharata tribe over a coalition of ten rival kings on the banks of the Ravi River in the Punjab — one of the oldest battles recorded in any literature anywhere in the world.\n\nThe Battle of the Ten Kings was fought over control of the fertile river valleys of the Punjab, the heartland of early Indo-Aryan settlement. Sudas, guided by his priest Vasishtha, faced a coalition organized by a rival priest, Vishvamitra, who had switched his allegiance from Sudas to the enemy alliance. The rivalry between Vasishtha and Vishvamitra — competing priestly lineages vying for royal patronage — is one of the great feuds of Vedic literature.\n\nThe Rigveda describes the battle in vivid detail: the coalition tried to divert the river to flood Sudas's forces, but the waters turned against them instead. Several enemy kings drowned attempting to cross the swollen Ravi. The Bharata victory was decisive.\n\nThe political consequences were profound. The Bharata tribe established dominance over the Punjab, and their name became synonymous with the land itself — Bharatavarsha, 'the land of the Bharatas.' When modern India adopted its official name in Hindi, it chose Bharat — a direct link to this battle fought over three thousand years ago.\n\nEarly Vedic politics was tribal. Chiefs (rajas) led loose confederations of clans, their authority derived from military prowess, cattle wealth, and the support of priestly advisors. There were no permanent capitals, no bureaucracies, no written law. Power was personal, seasonal, and contested in battles like this one.",
+            "quiz": [
+              {
+                "question": "What is the modern official name of India in Hindi, derived from the Bharata tribe that won the Battle of the Ten Kings?",
+                "options": [
+                  "Bharat",
+                  "Aryavarta",
+                  "Hindustan",
+                  "Jambudvipa"
+                ],
+                "answerIndex": 0,
+                "explanation": "India's official name in Hindi is Bharat — derived from the Bharata tribe whose victory in the Battle of the Ten Kings established their dominance in the Punjab over 3,000 years ago. The Constitution of India uses both 'India' and 'Bharat' as the country's names."
+              },
+              {
+                "question": "Which two rival priests are depicted as being on opposite sides of the Battle of the Ten Kings?",
+                "options": [
+                  "Yajnavalkya and Gargi",
+                  "Vasishtha and Vishvamitra",
+                  "Agni and Varuna",
+                  "Vyasa and Valmiki"
+                ],
+                "answerIndex": 1,
+                "explanation": "Vasishtha served King Sudas while Vishvamitra supported the rival coalition. Their rivalry — two priestly lineages competing for royal patronage — is one of the great feuds of Vedic literature and illustrates how priests and kings were bound together in early Indian politics."
+              }
+            ]
+          },
+          {
+            "id": "node-kingdoms-kuru",
+            "eventId": "evt-vedic-kuru-kingdom",
+            "narrative": "The transition from tribal chieftaincy to organized kingdom happened in the upper Ganges region, where the Kuru kingdom emerged around 1200 BCE from the merger of the Bharata and Puru tribes — the victors and vanquished of the Battle of the Ten Kings, now united.\n\nThe Kuru kingdom represents a fundamental shift in Vedic political organization. Where earlier tribes were loose confederations led by warrior-chiefs, the Kurus built something approaching a state: defined territory in the Ganges-Yamuna doab (the fertile land between the two rivers), a royal court at Hastinapura, and a systematized ritual apparatus that gave the king's authority divine sanction.\n\nThe Kurus' most consequential achievement was the codification of Vedic ritual. Under Kuru patronage, the elaborate sacrificial system described in the later Vedas was standardized — transforming a fluid oral tradition into a structured religious orthodoxy. The Ashvamedha (horse sacrifice) became the supreme assertion of royal sovereignty. The Rajasuya (royal consecration) ritual formalized the king's divine right to rule. These rituals bound the Brahmin priesthood to the monarchy in a mutually reinforcing relationship: the king needed priests to legitimate his rule, and the priests needed royal patronage to sustain their rituals.\n\nThe Kuru realm also became the setting for India's greatest literary work. The Mahabharata — the longest epic poem in the world at roughly 200,000 verses — tells the story of a catastrophic war between rival Kuru factions. While the epic was composed much later, its core story may preserve memories of actual conflicts in the Kuru kingdom during this era.\n\nThe Kuru-Panchala heartland served as the cultural center of the Vedic world for centuries, setting the template for later Indian kingship: ritual legitimation, Brahmin alliance, territorial control, and the elaborate court culture that would characterize the Mahajanapada kingdoms.",
+            "image": {
+              "commonsFile": "Agnicayana2011.jpg",
+              "caption": "A Vedic fire altar ceremony (Agnicayana) performed in Kerala, 2011 — a ritual tradition dating to the Kuru period"
+            },
+            "quiz": [
+              {
+                "question": "Approximately how many verses long is the Mahabharata, making it the world's longest epic poem?",
+                "options": [
+                  "About 24,000 verses",
+                  "About 50,000 verses",
+                  "About 200,000 verses",
+                  "About 100,000 verses"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Mahabharata contains roughly 200,000 verses — about ten times the combined length of Homer's Iliad and Odyssey. It is the longest known epic poem in any language, encompassing not just the Kurukshetra war story but philosophy, law, cosmology, and the Bhagavad Gita."
+              },
+              {
+                "question": "What was the Rajasuya ritual in the Vedic political system?",
+                "options": [
+                  "A funeral rite for deceased kings",
+                  "A horse sacrifice asserting territorial sovereignty",
+                  "A mass sacrifice to end a drought",
+                  "A royal consecration ceremony legitimating the king's rule"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Rajasuya was an elaborate royal consecration ritual that formally installed a king and gave his authority divine sanction. It involved multiple fire sacrifices, ritual bathing, and the symbolic submission of rival chiefs — a political theater of legitimation."
+              }
+            ]
+          },
+          {
+            "id": "node-kingdoms-mahajanapadas",
+            "eventId": "evt-vedic-sixteen-mahajanapadas",
+            "narrative": "By the 6th century BCE, a thousand years of political evolution had produced something unprecedented on the Indian subcontinent: sixteen major kingdoms and republics, the Mahajanapadas ('great footprints of a people'), spanning from the mountains of Gandhara in the northwest to the rice paddies of Anga in the east.\n\nThe sixteen Mahajanapadas were not a unified system but a competitive landscape. Buddhist and Jain texts list them: Anga, Magadha, Kashi, Kosala, Vajji, Malla, Chedi, Vatsa, Kuru, Panchala, Matsya, Shurasena, Assaka, Avanti, Gandhara, and Kamboja. Four emerged as dominant: Magadha in the east, Kosala in the central Ganges, Avanti in central India, and Vatsa in the upper Ganges.\n\nWhat made this political landscape remarkable was its diversity. Most Mahajanapadas were hereditary monarchies, but several — the Vajjian Confederacy, the Malla republic, the Shakya republic (where the Buddha was born), and others — operated as gana-sanghas: oligarchic republics governed by assemblies of clan elders who elected leaders and made decisions collectively. These represent some of the earliest experiments in republican governance anywhere in the world, contemporary with but independent of Greek city-state democracy.\n\nThe Mahajanapada era was driven by the second urbanization — the re-emergence of cities in the Ganges Valley after a gap of over a millennium since the Indus civilization's decline. Iron tools, wet-rice agriculture, and expanding trade networks supported populations large enough to sustain walled cities, professional armies, and bureaucratic administration.\n\nThis was also the era of the Buddha and Mahavira, of philosophical revolution and religious diversity. The competitive political environment created space for new ideas — kings who patronized heterodox teachers gained prestige and differentiated themselves from rivals. It was a world very much like the Greek city-states: small, ambitious, intellectually fertile, and heading toward conquest and unification.",
+            "image": {
+              "commonsFile": "Mahajanapadas_(c._500_BCE).png",
+              "caption": "Map of the sixteen Mahajanapadas, the great kingdoms of northern India around 500 BCE"
+            },
+            "quiz": [
+              {
+                "question": "How many Mahajanapadas ('great kingdoms') were traditionally listed in Buddhist and Jain texts?",
+                "options": [
+                  "16",
+                  "12",
+                  "8",
+                  "24"
+                ],
+                "answerIndex": 0,
+                "explanation": "Buddhist and Jain texts consistently list 16 Mahajanapadas. The number may be somewhat formalized (Indian culture favored auspicious numbers), but it captures the real political landscape of roughly a dozen significant states plus several smaller ones."
+              },
+              {
+                "question": "The gana-sangha republics of ancient India are historically significant because they represent what?",
+                "options": [
+                  "The first known written constitutions",
+                  "Early experiments in republican governance, independent of Greek democracy",
+                  "The only ancient societies ruled entirely by women",
+                  "Theocratic states governed by Buddhist monks"
+                ],
+                "answerIndex": 1,
+                "explanation": "The gana-sangha republics — including the Vajjian Confederacy, Shakya republic, and others — developed assembly-based governance independently of Greek city-state democracy, at roughly the same time (6th-5th century BCE). They represent an independent Indian tradition of republican thought."
+              }
+            ]
+          },
+          {
+            "id": "node-kingdoms-bimbisara",
+            "eventId": "evt-vedic-bimbisara",
+            "narrative": "The story of how one kingdom — Magadha — rose to dominate all the others begins with Bimbisara, who founded the Haryanka dynasty around 543 BCE and transformed Magadha from a regional power into the dominant force in northern India.\n\nMagadha had natural advantages. Located in modern southern Bihar, it sat on iron ore deposits that provided both agricultural tools and weapons. The Ganges and Son rivers gave it natural defenses and trade routes. And the rich rice-growing land of the eastern Ganges Valley produced the agricultural surplus needed to feed a large army.\n\nBimbisara exploited these advantages with a combination of military force and diplomatic marriage. He married princesses from Kosala, the Lichchhavi clan of the Vajjian Confederacy, and Madra — turning potential enemies into allies. He organized Magadha's first systematic tax collection, built roads connecting villages to the capital at Rajagriha, and appointed officials to oversee justice in the countryside.\n\nBimbisara was also one of the Buddha's earliest and most important royal patrons. He donated the Bamboo Grove (Veluvana) near Rajagriha as one of the first Buddhist monasteries — a generous act that also associated his kingdom with the new intellectual movement sweeping northern India.\n\nBut Bimbisara's story has a dark ending. His own son, Ajatashatru, grew impatient for the throne. Around 491 BCE, Ajatashatru imprisoned his father — who reportedly starved to death in captivity. The patricide was shocking, but Ajatashatru proved an even more effective ruler than his father, expanding Magadha's borders dramatically through a combination of military conquest and political cunning.",
+            "quiz": [
+              {
+                "question": "What was the name of the Buddhist monastery that Bimbisara donated near Rajagriha — one of the first in history?",
+                "options": [
+                  "Jetavana",
+                  "Nalanda",
+                  "Veluvana (Bamboo Grove)",
+                  "Sarnath Deer Park"
+                ],
+                "answerIndex": 2,
+                "explanation": "Bimbisara donated the Veluvana (Bamboo Grove) near Rajagriha as a monastery for the Buddha and his followers. It was one of the earliest Buddhist monasteries and a symbol of the royal patronage that helped Buddhism spread across India."
+              },
+              {
+                "question": "What natural resource gave Magadha a decisive military and economic advantage over rival kingdoms?",
+                "options": [
+                  "Gold deposits in the Vindhya Mountains",
+                  "Copper mines along the Son River",
+                  "Diamond mines in the Deccan Plateau",
+                  "Iron ore deposits in southern Bihar"
+                ],
+                "answerIndex": 3,
+                "explanation": "Magadha sat on some of the richest iron ore deposits in India. This gave it both superior weapons (iron-tipped arrows and spears) and better agricultural tools (iron plowshares), providing a compounding economic and military advantage."
+              }
+            ]
+          },
+          {
+            "id": "node-kingdoms-persian",
+            "eventId": "evt-vedic-persian-invasion",
+            "narrative": "While Magadha was consolidating power in the eastern Ganges, the northwestern subcontinent experienced its first encounter with a foreign imperial power. Around 518 BCE, the Achaemenid emperor Darius I conquered the kingdom of Gandhara and incorporated it as the 20th satrapy of the Persian Empire.\n\nThe Persian conquest was significant for several reasons. It brought the subcontinent into direct contact with the wider world of the Achaemenid Empire — the largest empire in history up to that point, stretching from Libya to the Indus. Indian soldiers served in Persian armies as far away as Greece; Herodotus describes Indian contingents at the Battle of Thermopylae. Indian gold, cotton, and elephants flowed west; Persian administrative practices and the Aramaic script (ancestor of the Kharosthi writing system) flowed east.\n\nThe Gandhara region — with Taxila as its intellectual capital — became a cultural crossroads. Indian, Persian, and eventually Greek ideas mingled in this frontier zone. The administrative methods of the Achaemenid Empire may have influenced the bureaucratic systems that later Indian kingdoms adopted.\n\nBut the Persian conquest also demonstrated the vulnerability of the fragmented Mahajanapada system. Gandhara, operating as an independent kingdom, could not resist the might of a unified empire. The lesson was not lost on Indian political thinkers — and it was in this same Gandhara region, at Taxila, that the Brahmin scholar Chanakya would later develop his theories of centralized statecraft and train the young Chandragupta Maurya to unite India under a single ruler.\n\nTwo centuries later, Alexander the Great would follow the same route into India that Darius had pioneered — and his retreat would create the power vacuum that Chandragupta exploited to found the Maurya Empire.",
+            "quiz": [
+              {
+                "question": "Indian soldiers served in the Achaemenid Persian army at which famous battle against the Greeks?",
+                "options": [
+                  "Battle of Thermopylae",
+                  "Battle of Marathon",
+                  "Battle of Salamis",
+                  "Battle of Gaugamela"
+                ],
+                "answerIndex": 0,
+                "explanation": "Herodotus describes Indian contingents in Xerxes' invasion of Greece, including at Thermopylae (480 BCE). Indian soldiers fought with bows of bamboo and iron-tipped arrows — one of the earliest documented examples of South Asian military involvement in European conflicts."
+              },
+              {
+                "question": "What writing system used in India's northwest was descended from the Aramaic script introduced by Persian administration?",
+                "options": [
+                  "Brahmi",
+                  "Kharosthi",
+                  "Devanagari",
+                  "Tamil Brahmi"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Kharosthi script, used extensively in Gandhara and the northwestern frontier, was derived from the Aramaic script brought by Achaemenid Persian administrators. Ashoka's edicts in the northwest were written in Kharosthi, while those elsewhere used Brahmi."
+              }
+            ]
+          },
+          {
+            "id": "node-kingdoms-nanda-maurya",
+            "eventId": "evt-vedic-nanda-dynasty",
+            "narrative": "The Mahajanapada era ended not with a whimper but with the rise of India's first near-imperial dynasty: the Nandas, who ruled Magadha from about 345 to 322 BCE and controlled the largest army the subcontinent had ever seen.\n\nMahapadma Nanda, the dynasty's founder, was reportedly of low-caste origin — a radical break in a society where kings were supposed to be Kshatriyas. He overthrew the Shishunaga dynasty and systematically eliminated rival royal families across northern India, earning the title 'destroyer of the Kshatriyas.' Under the Nandas, Magadha's territory expanded to encompass most of the Ganges plain and beyond.\n\nThe Nanda army was enormous by ancient standards: Greek sources report 200,000 infantry, 20,000 cavalry, 2,000 chariots, and 3,000 war elephants. This was the army that made Alexander the Great's soldiers refuse to march further east in 326 BCE — they had heard about the Nanda forces waiting beyond the Punjab and decided they had fought enough.\n\nBut the Nandas were deeply unpopular. Their heavy taxation funded the massive army but alienated the populace. Their low-caste origins offended the Brahmin establishment. And their ruthless elimination of rival dynasties created resentment among the surviving aristocracy.\n\nIt was from this resentment that the Maurya Empire was born. The Brahmin scholar Chanakya, reportedly insulted at the Nanda court, found his instrument of revenge in the young Chandragupta Maurya. Training him at Taxila in statecraft and military strategy, Chanakya and Chandragupta built an army, forged alliances with discontented nobles, and overthrew the last Nanda king around 322 BCE.\n\nWith Chandragupta's victory, the Vedic world of competing kingdoms gave way to something entirely new: a unified empire spanning most of the subcontinent. The administrative systems, trade networks, urban infrastructure, and political ideas developed during the Vedic period provided the foundation — but the scale of the Maurya achievement would have been unimaginable to the pastoral poets who composed the Rigveda a thousand years earlier.",
+            "quiz": [
+              {
+                "question": "What was the reported size of the Nanda army that frightened Alexander the Great's soldiers into refusing to march east?",
+                "options": [
+                  "50,000 infantry and 500 elephants",
+                  "100,000 infantry and 1,000 elephants",
+                  "200,000 infantry and 3,000 elephants",
+                  "500,000 infantry and 10,000 elephants"
+                ],
+                "answerIndex": 2,
+                "explanation": "Greek sources reported the Nanda army at 200,000 infantry, 20,000 cavalry, 2,000 chariots, and 3,000 war elephants. While these numbers may be exaggerated, even a fraction of this force would have dwarfed Alexander's exhausted army of roughly 40,000."
+              },
+              {
+                "question": "Why was the Nanda dynasty's founder, Mahapadma Nanda, considered socially revolutionary in the Vedic caste system?",
+                "options": [
+                  "He abolished the caste system entirely",
+                  "He appointed Shudras as his military commanders",
+                  "He was the first foreign-born ruler of an Indian kingdom",
+                  "He was reportedly of low-caste origin, breaking the tradition of Kshatriya kings"
+                ],
+                "answerIndex": 3,
+                "explanation": "Mahapadma Nanda was reportedly of barber or Shudra origin — a radical break in a society where kings were supposed to come from the Kshatriya warrior class. His rise demonstrated that real power could override birth status, foreshadowing the social mobility of later Indian history."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "path-society",
+        "label": "Society & Innovation",
+        "color": "#10b981",
+        "icon": "🏺",
+        "description": "Daily life, trade, caste, cities, and the inventions that transformed the subcontinent.",
+        "recap": "The Vedic period transformed the Indian subcontinent from a post-urban landscape of scattered agricultural communities into a thriving civilization of cities, trade networks, and complex social structures. The journey began with pastoral Indo-Aryan clans measuring wealth in cattle, and ended with sophisticated urban economies using standardized coinage and long-distance trade routes connecting the Ganges Valley to Persia and beyond.\n\nAt the center of this transformation was a profound social innovation — and a deeply problematic one. The varna system, which organized society into four hereditary classes, gave Vedic civilization extraordinary structural stability but at a tremendous human cost. The rigidity of caste stratification, with Brahmins claiming divinely ordained supremacy and Shudras condemned to permanent servitude, created social hierarchies whose effects persist in India today, over three thousand years later.\n\nThe material innovations were equally consequential. Iron tools enabled the agricultural revolution that turned the Ganges Valley into India's breadbasket. Wet-rice cultivation produced the surplus that fed cities. Standardized coinage facilitated trade. And the mathematical knowledge developed for ritual altar construction — including the Pythagorean theorem — laid foundations for India's later achievements in mathematics, including the decimal system and the concept of zero. The Vedic period was not just a chapter in religious history; it was the era that built the economic, social, and intellectual infrastructure of Indian civilization.",
+        "nodes": [
+          {
+            "id": "node-society-cattle",
+            "eventId": "evt-vedic-cattle-economy",
+            "narrative": "When the Indo-Aryan migrants arrived in the Punjab around 1500 BCE, they brought with them a way of life centered on one animal: the cow. Early Vedic society was pastoral — semi-nomadic herders who measured wealth not in gold or land but in cattle.\n\nThe centrality of cattle to Vedic life permeated the language itself. The Sanskrit word for 'war' (gavisti) literally means 'desire for cattle.' A wealthy man was gomat — 'possessing cattle.' Cattle raids between rival clans were the most common form of conflict. Bride prices, priestly donations, and tribute payments were calculated in cows. The Rigveda contains dozens of hymns celebrating cattle wealth and praying for its increase.\n\nThis economic reality had profound religious consequences. The cow's central role in sustaining Vedic life evolved into religious reverence. The Rigveda already calls the cow aghnya — 'not to be slaughtered' — laying the earliest foundation for what would become one of Hinduism's most distinctive cultural markers. Three thousand years later, India's modern reverence for cattle traces directly to these pastoral beginnings.\n\nThe cattle economy also shaped early Vedic social structure. The distinction between those who owned large herds and those who did not created the first economic hierarchies. Chiefs (rajas) were the great cattle lords. Priests (Brahmins) received cattle as payment for performing rituals. Ordinary clansmen herded communal stock. And those outside the clan system had nothing at all.\n\nThis pastoral world would be transformed over the following centuries as the Vedic peoples settled into agricultural communities, adopted iron tools, and built permanent villages and eventually cities. But the cattle economy left its mark on Indian culture permanently — from the sacred cow to the vocabulary of wealth to the social hierarchies that would crystallize into the caste system.",
+            "quiz": [
+              {
+                "question": "What does the Sanskrit word 'gavisti,' often translated as 'war,' literally mean?",
+                "options": [
+                  "Desire for cattle",
+                  "Desire for glory",
+                  "Desire for land",
+                  "Desire for fire"
+                ],
+                "answerIndex": 0,
+                "explanation": "Gavisti literally means 'desire for cattle' (from 'go' meaning cow and 'ishti' meaning desire/seeking). That the word for war derives from cattle raiding reveals just how central cattle were to early Vedic economy and conflict."
+              },
+              {
+                "question": "What Rigvedic term for the cow, meaning 'not to be slaughtered,' represents the earliest known expression of the sacred cow tradition?",
+                "options": [
+                  "Gomat",
+                  "Aghnya",
+                  "Gaupati",
+                  "Nandi"
+                ],
+                "answerIndex": 1,
+                "explanation": "The term aghnya ('not to be slaughtered') appears in the Rigveda in reference to cattle. It is the earliest textual evidence for the sacred status of the cow in Indian culture — a tradition that evolved over millennia into one of Hinduism's most recognizable features."
+              }
+            ]
+          },
+          {
+            "id": "node-society-varna",
+            "eventId": "evt-vedic-varna-system",
+            "narrative": "The pastoral hierarchies of Early Vedic society hardened into something more systematic during the Late Vedic period: the varna system, one of the most enduring — and controversial — social structures in human history.\n\nThe foundational text is the Purusha Sukta, a hymn in the tenth book of the Rigveda that describes the creation of the universe from the sacrifice of a cosmic being (Purusha). From the Purusha's mouth emerged the Brahmins (priests and scholars). From the arms came the Kshatriyas (warriors and rulers). From the thighs came the Vaishyas (farmers, herders, and merchants). And from the feet came the Shudras (servants and laborers).\n\nThis cosmological justification for social hierarchy — each class emerging from a different body part, with the head (Brahmins) literally above the feet (Shudras) — gave the varna system a religious authority that purely political arrangements lacked. It was not just a social order but a cosmic one, ordained by the structure of reality itself.\n\nDuring the Early Vedic period, the varna categories were probably flexible — more occupational descriptions than hereditary castes. A talented person could potentially move between roles. But during the Late Vedic period (roughly 1000-600 BCE), the system rigidified dramatically. Birth, not ability, determined varna. Intermarriage between varnas was increasingly restricted. And below the four varnas emerged an even more marginalized group — the 'untouchables' (later called Dalits), considered so impure that contact with them was polluting.\n\nThe Dharmasutras, composed around 500 BCE, codified varna obligations into legal prescriptions: what each class could eat, whom they could marry, what punishments they received for identical crimes (harsher for lower varnas, lighter for Brahmins). This legal framework gave the caste system the force of religious law.\n\nThe varna system's legacy is still being reckoned with. India's constitution abolished untouchability in 1950 and established affirmative action programs for lower castes — but the social hierarchies rooted in Vedic-era classification continue to shape Indian life three thousand years after the Purusha Sukta was composed.",
+            "quiz": [
+              {
+                "question": "Which hymn in the Rigveda provides the cosmological origin story for the four-varna social system?",
+                "options": [
+                  "Nasadiya Sukta (Hymn of Creation)",
+                  "Agni Sukta (Hymn to Fire)",
+                  "Purusha Sukta (Hymn of the Cosmic Person)",
+                  "Vishnu Sukta (Hymn to Vishnu)"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Purusha Sukta (Rigveda 10.90) describes the four varnas emerging from different body parts of the sacrificed cosmic being Purusha. This hymn gave the social hierarchy a cosmological justification that made it appear divinely ordained rather than humanly constructed."
+              },
+              {
+                "question": "In what year did the Indian Constitution formally abolish 'untouchability' — the practice of considering certain people outside the varna system too impure to touch?",
+                "options": [
+                  "1935",
+                  "1947",
+                  "1955",
+                  "1950"
+                ],
+                "answerIndex": 3,
+                "explanation": "Article 17 of the Indian Constitution, which came into effect on January 26, 1950, abolished untouchability and forbade its practice in any form. The architect of this provision was B.R. Ambedkar — himself a Dalit who had experienced caste discrimination firsthand."
+              }
+            ],
+            "image": {
+              "commonsFile": "An_early_Brahmi_script_-_Ashoka_rock_edict.jpg",
+              "caption": "Early Indian inscription in Brahmi script — the writing system that preserved Vedic legal and social texts"
+            }
+          },
+          {
+            "id": "node-society-iron",
+            "eventId": "evt-vedic-iron-age",
+            "narrative": "Around 1000 BCE, a technological revolution transformed the Indian subcontinent. Iron — harder, more durable, and more abundant than the bronze used by the earlier Indus civilization — began to spread across the Ganges Valley, and its effects were profound.\n\nThe cattle economy of the Early Vedic period had been centered on the relatively open Punjab. The middle and lower Ganges Valley, by contrast, was covered in dense tropical forest — impenetrable to bronze tools and inhospitable to pastoral herding. Iron changed everything.\n\nIron axes could fell the massive trees of the Gangetic forest. Iron plowshares could break the heavy alluvial soil of the floodplain. What had been wilderness became, within a few centuries, the most productive agricultural land in South Asia. The cleared Ganges Valley, enriched by annual flooding, proved ideal for wet-rice cultivation — a crop that produces far higher yields per hectare than wheat or barley.\n\nThe agricultural revolution triggered by iron had cascading effects. Population grew. Villages became towns. Surplus food supported non-agricultural specialists: artisans, merchants, soldiers, priests, administrators. Trade routes connecting these new settlements crystallized into the Uttarapatha (Northern Road) and Dakshinapatha (Southern Road) — highways that would serve Indian commerce for millennia.\n\nIron also transformed warfare. Iron-tipped arrows, spears, and swords were cheaper and more effective than bronze weapons, allowing kingdoms to equip larger armies. The military advantage of iron-equipped forces accelerated the political consolidation that produced the Mahajanapada kingdoms and eventually the Maurya Empire.\n\nThe Indian Iron Age was contemporary with similar transformations across Eurasia — the Greek Dark Age, the Neo-Assyrian Empire, the Zhou dynasty in China. Everywhere, iron enabled the same pattern: forest clearance, agricultural expansion, population growth, urbanization, and state formation.",
+            "quiz": [
+              {
+                "question": "What type of farming, enabled by iron tools and Ganges Valley flooding, dramatically increased food production during the Late Vedic period?",
+                "options": [
+                  "Wet-rice paddy cultivation",
+                  "Terraced hillside farming",
+                  "Canal-irrigated wheat farming",
+                  "Slash-and-burn millet agriculture"
+                ],
+                "answerIndex": 0,
+                "explanation": "Wet-rice paddy cultivation became the dominant form of agriculture in the cleared Ganges Valley. Rice produces significantly higher yields per hectare than wheat or barley, giving the rice-growing kingdoms of the eastern Ganges (especially Magadha) a crucial economic advantage."
+              },
+              {
+                "question": "What were the two major trade routes that crystallized during the Vedic period, connecting the subcontinent from northwest to southeast?",
+                "options": [
+                  "Silk Road and Spice Route",
+                  "Uttarapatha (Northern Road) and Dakshinapatha (Southern Road)",
+                  "Ganges Highway and Indus Trail",
+                  "Royal Road and Merchant's Path"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Uttarapatha (Northern Road) connected Gandhara to Magadha, while the Dakshinapatha (Southern Road) linked the Ganges plain to the Deccan. These two trade arteries served Indian commerce for millennia and catalyzed the urbanization of the Mahajanapada era."
+              }
+            ]
+          },
+          {
+            "id": "node-society-urbanization",
+            "eventId": "evt-vedic-second-urbanization",
+            "narrative": "After the great Indus cities had been abandoned for over a millennium — their grid-planned streets buried, their undeciphered writing lost — cities re-emerged on the Indian subcontinent around 600 BCE. Scholars call this the 'second urbanization,' and it was in many ways more consequential than the first.\n\nThe new cities of the Ganges Valley — Varanasi, Rajagriha, Shravasti, Champa, and eventually Pataliputra — were different from their Indus predecessors. Where Harappan cities were remarkable for their standardized planning and infrastructure, the Mahajanapada cities grew organically around trade route intersections, fortified by walls and moats, centered on royal palaces and marketplace bazaars.\n\nVaranasi, on the banks of the Ganges in the kingdom of Kashi, became one of the most important cities in this new urban world. By the 6th century BCE it was a major center of learning, trade, and religion — a role it has maintained for over 2,500 years. The Buddha chose nearby Sarnath for his first sermon. Mahavira spent time within its walls. Hindu traditions consider it the holiest city on Earth, where death brings liberation from the cycle of rebirth.\n\nThe second urbanization created the social conditions for India's greatest intellectual revolution. The concentration of people from different backgrounds — merchants, artisans, soldiers, scholars, refugees from rural caste restrictions — fostered the creative ferment that produced Buddhism, Jainism, systematic philosophy, formal grammar, and mathematical innovation. It was in these cities that the Shramana movement found its most enthusiastic audience: urban merchants and professionals who had wealth but no status in the Brahminical ritual system.\n\nThe emergence of cities also transformed the economy. Artisan guilds (shreni) organized production. Merchant associations regulated trade. And around 600 BCE, standardized punch-marked silver coins appeared — enabling the efficient tax collection and long-distance commerce that funded the growing Mahajanapada states.",
+            "quiz": [
+              {
+                "question": "What is the approximate gap in time between the decline of the Indus Valley cities and the 'second urbanization' in the Ganges Valley?",
+                "options": [
+                  "About 300 years",
+                  "About 700 years",
+                  "About 1,300 years",
+                  "About 2,000 years"
+                ],
+                "answerIndex": 2,
+                "explanation": "The major Indus cities were largely abandoned by around 1900 BCE, and the Ganges Valley cities emerged around 600 BCE — a gap of roughly 1,300 years. During this long interval, the subcontinent had no true cities, making the second urbanization a genuinely independent urban experiment."
+              },
+              {
+                "question": "What were 'shreni' in the context of the Mahajanapada urban economy?",
+                "options": [
+                  "Royal tax collectors appointed by the king",
+                  "Sacred precincts within cities reserved for Brahmin rituals",
+                  "Military fortifications surrounding major cities",
+                  "Artisan and merchant guilds that organized production and trade"
+                ],
+                "answerIndex": 3,
+                "explanation": "Shreni were artisan and merchant guilds that organized production, set quality standards, resolved disputes, and even functioned as banking institutions. They became a central feature of Indian economic life and persisted for centuries, comparable to medieval European guilds."
+              }
+            ]
+          },
+          {
+            "id": "node-society-mathematics",
+            "eventId": "evt-vedic-mathematics",
+            "narrative": "One of the Vedic period's most surprising legacies is mathematical. The Shulba Sutras — composed for the seemingly mundane purpose of building fire altars — contain mathematical discoveries that predate their Greek counterparts by centuries.\n\nThe Shulba Sutras ('rules of the cord,' named for the measuring ropes used in altar construction) were appendices to the Vedas, written by Vedic priests who needed to solve practical geometric problems. Vedic fire altars had to be constructed in precise shapes — falcon, tortoise, chariot wheel, rhombus — with exact areas. Changing an altar's shape while preserving its area required sophisticated geometric knowledge.\n\nThe Baudhayana Shulba Sutra, dated to roughly 800 BCE, contains a clear statement of the Pythagorean theorem — the relationship between the sides of a right triangle — centuries before Pythagoras was born in Greece around 570 BCE. It also provides methods for calculating square roots to remarkable accuracy and techniques for 'squaring the circle' (approximating a circle's area with a square).\n\nThese mathematical achievements arose from religious necessity, not abstract curiosity. The Vedic priests who developed them were not mathematicians in the modern sense — they were ritualists who needed precise geometry to please the gods. A fire altar built to incorrect proportions would invalidate the entire sacrifice. This religious motivation drove mathematical innovation with an urgency that pure intellectual curiosity might not have provided.\n\nThe Vedic mathematical tradition would eventually produce some of the most important discoveries in the history of mathematics: the decimal place-value number system, the concept of zero (both the numeral and the mathematical concept), and sophisticated astronomical calculations. These innovations, transmitted to the Islamic world and from there to Europe, transformed global mathematics. Every time you write a number using digits 0-9, you are using a system that began with Vedic altar construction.",
+            "image": {
+              "commonsFile": "Agnicayana2011.jpg",
+              "caption": "A precisely constructed Vedic fire altar — the ritual necessity that drove ancient India's mathematical innovations"
+            },
+            "quiz": [
+              {
+                "question": "Which Shulba Sutra text contains a statement of the Pythagorean theorem predating Pythagoras by centuries?",
+                "options": [
+                  "Baudhayana Shulba Sutra",
+                  "Apastamba Shulba Sutra",
+                  "Katyayana Shulba Sutra",
+                  "Manava Shulba Sutra"
+                ],
+                "answerIndex": 0,
+                "explanation": "The Baudhayana Shulba Sutra (c. 800 BCE) states: 'The diagonal of a rectangle produces both areas which the two sides produce separately.' This is the Pythagorean theorem, formulated roughly 250 years before Pythagoras was born."
+              },
+              {
+                "question": "What practical need drove the development of sophisticated geometry in the Vedic tradition?",
+                "options": [
+                  "Building irrigation canals along the Ganges",
+                  "Building precise geometric fire altars for rituals",
+                  "Constructing city walls for defense",
+                  "Measuring agricultural land for taxation"
+                ],
+                "answerIndex": 1,
+                "explanation": "Vedic fire altars had to be constructed in exact geometric shapes (falcon, tortoise, wheel) with precise areas. An incorrectly built altar would invalidate the ritual. This religious necessity drove Vedic priests to develop sophisticated geometric and mathematical knowledge."
+              }
+            ]
+          },
+          {
+            "id": "node-society-coinage",
+            "eventId": "evt-vedic-coinage",
+            "narrative": "Around 600 BCE, a small but revolutionary innovation appeared in northern India: standardized silver coins stamped with symbols — sun, six-armed wheel, tree-in-railing — using metal punches. These punch-marked coins transformed the Indian economy and enabled the political consolidation that would produce the Maurya Empire.\n\nBefore coinage, trade relied on barter or weighed pieces of metal. Every transaction required negotiation over the metal's purity and weight. Standardized coins eliminated this friction — a coin's value was guaranteed by the authority that issued it. This seemingly simple change had profound effects.\n\nFor merchants, coinage made long-distance trade dramatically more efficient. Goods could be priced, profits calculated, and debts recorded with precision. The Vaishya merchant class, already growing in importance from the second urbanization, gained new economic power through the accumulation of coined wealth.\n\nFor kings, coinage was an instrument of state power. Taxes could be collected in standardized currency rather than in kind (grain, labor, cattle). Standing armies could be paid in coin. Bureaucrats could be salaried. The entire administrative apparatus of the Mahajanapada kingdoms — and later the Maurya Empire — depended on the fiscal capacity that coinage provided.\n\nIndia's punch-marked coins appeared independently of Lydian coinage in Anatolia, at roughly the same time (around 600 BCE) — one of those remarkable parallel innovations suggesting that certain economic conditions inevitably produce certain technological solutions. Like Lydia, India had reached a level of commercial complexity where barter was no longer sufficient.\n\nFrom these humble silver pieces stamped with mysterious symbols, India's monetary tradition would evolve through Maurya karshapanas, Kushan gold coins, and Mughal rupees to the modern Indian rupee — an unbroken tradition of coined money stretching back over 2,600 years.",
+            "quiz": [
+              {
+                "question": "India's earliest punch-marked coins developed independently at roughly the same time as coinage in which other ancient civilization?",
+                "options": [
+                  "China (cowrie shell currency)",
+                  "Egypt (gold rings)",
+                  "Lydia in Anatolia (electrum coins)",
+                  "Rome (bronze aes)"
+                ],
+                "answerIndex": 2,
+                "explanation": "Both India and Lydia (in modern Turkey) developed standardized coinage around 600 BCE, independently of each other. This parallel innovation suggests that commercial economies reaching a certain level of complexity inevitably produce standardized currency."
+              },
+              {
+                "question": "What symbols were typically stamped on India's earliest punch-marked coins?",
+                "options": [
+                  "Sanskrit letters and numbers",
+                  "Animals like elephants and peacocks",
+                  "Portraits of kings and deities",
+                  "Sun, six-armed wheel, tree-in-railing, and geometric patterns"
+                ],
+                "answerIndex": 3,
+                "explanation": "India's earliest punch-marked coins bore abstract symbols — sun, six-armed wheel, tree-in-railing, hills, and various geometric marks — stamped with metal punches. Unlike later Greek-influenced coins, they bore no portraits or text, and the symbols' exact meanings remain debated."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

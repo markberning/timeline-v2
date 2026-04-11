@@ -1,0 +1,512 @@
+{
+  "id": "modern-india",
+  "label": "Modern India",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "History_of_the_Republic_of_India",
+  "imageWikiSlug": "India_Gate",
+  "pitch": "Gandhi returns to India in 1915 and transforms a colonial subject population into a nonviolent mass movement. The Salt March of 1930 captivated the world, but India gains independence in 1947 came with the traumatic Partition of India that killed up to two million people. From those ashes, the Indian Constitution adopted in 1950 built the world's largest democracy — and Economic liberalization begins in 1991 unleashed a transformation that is still accelerating.\n\n🔑 Key Facts:\n• Gandhi assassinated in 1948 by a Hindu nationalist plunged the newly independent nation into mourning just months after freedom\n• Indira Gandhi becomes PM in 1966 and dominates Indian politics for two decades — until Indira Gandhi assassinated by her own bodyguards in 1984\n• The IT boom and Bangalore rises turned India into the world's back office, and Chandrayaan-3 lands on Moon made India the first nation to reach the lunar south pole\n• The Green Revolution begins in 1965 transformed India from famine-prone to food-surplus in a single generation\n\n🤔 Why It Matters: India proved that democracy can survive in conditions of staggering diversity — over a billion people, hundreds of languages, deep religious divisions — and its tech workforce now powers companies across the globe.\n\n🎲 Wild Card: Rabindranath Tagore wins Nobel in 1913 as the first non-European literature laureate — he wrote the national anthems of both India AND Bangladesh, making him the only person in history to author two different countries' anthems.",
+  "countryIds": [
+    "356"
+  ],
+  "spans": [
+    {
+      "id": "span-modern-india-mi-british-raj",
+      "label": "British Raj",
+      "startYear": 1858,
+      "endYear": 1947,
+      "wikiSlug": "British_Raj",
+      "description": "Direct Crown rule replaced the East India Company after the 1857 rebellion, governing the subcontinent through a viceroy and civil service. British infrastructure modernized India while extractive policies drained its wealth."
+    },
+    {
+      "id": "span-modern-india-mi-freedom-movement",
+      "label": "Independence Movement",
+      "startYear": 1885,
+      "endYear": 1947,
+      "wikiSlug": "Indian_independence_movement",
+      "description": "Beginning with the founding of the Indian National Congress, the freedom struggle evolved from elite petitions to Gandhi's mass nonviolent campaigns. The movement ultimately ended nearly a century of British rule in 1947."
+    },
+    {
+      "id": "span-modern-india-mi-nehru-era",
+      "label": "Nehruvian Era",
+      "startYear": 1947,
+      "endYear": 1964,
+      "wikiSlug": "Jawaharlal_Nehru",
+      "description": "Jawaharlal Nehru shaped independent India through democratic socialism, secularism, and non-alignment in foreign policy. His government built heavy industry, dams, and scientific institutions while navigating Partition's aftermath."
+    },
+    {
+      "id": "span-modern-india-mi-indira-era",
+      "label": "Indira Gandhi Era",
+      "startYear": 1966,
+      "endYear": 1984,
+      "wikiSlug": "Indira_Gandhi",
+      "description": "Indira Gandhi dominated Indian politics with populist programs like bank nationalization and the Green Revolution, but also declared a controversial Emergency suspending civil liberties. Her assassination in 1984 triggered widespread communal violence."
+    },
+    {
+      "id": "span-modern-india-mi-liberalization",
+      "label": "Economic Liberalization",
+      "startYear": 1991,
+      "endYear": 2010,
+      "wikiSlug": "Economic_liberalisation_in_India",
+      "description": "Finance Minister Manmohan Singh dismantled the License Raj amid a balance-of-payments crisis, opening India to foreign investment and global markets. The reforms fueled rapid GDP growth and India's rise as an IT and services powerhouse."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-mi-sepoy-mutiny",
+      "label": "Sepoy Mutiny",
+      "year": 1857,
+      "endYear": 1858,
+      "description": "Indian soldiers rebelled against the British East India Company, triggering a widespread uprising that ended Company rule and led to direct Crown governance.",
+      "wikiSlug": "Indian_Rebellion_of_1857",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-british-raj-begins",
+      "label": "British Raj established",
+      "year": 1858,
+      "description": "After the mutiny, the British Crown assumed direct control of India from the East India Company, beginning the era of the British Raj.",
+      "wikiSlug": "British_Raj",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-inc-founded",
+      "label": "Indian National Congress founded",
+      "year": 1885,
+      "description": "Educated Indians formed the Indian National Congress, which became the primary vehicle for the independence movement over the next six decades.",
+      "wikiSlug": "Indian_National_Congress",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-partition-bengal",
+      "label": "Partition of Bengal",
+      "year": 1905,
+      "description": "The British partitioned Bengal along religious lines, sparking the Swadeshi movement and galvanizing nationalist sentiment across India.",
+      "wikiSlug": "Partition_of_Bengal_(1905)",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-jallianwala-bagh",
+      "label": "Jallianwala Bagh massacre",
+      "year": 1919,
+      "description": "British troops fired on an unarmed crowd in Amritsar, killing hundreds and turning Indian public opinion decisively against colonial rule.",
+      "wikiSlug": "Jallianwala_Bagh_massacre",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-gandhi-returns",
+      "label": "Gandhi returns to India",
+      "year": 1915,
+      "description": "Mohandas Gandhi returned from South Africa and began organizing nonviolent resistance, transforming the independence movement into a mass campaign.",
+      "wikiSlug": "Mahatma_Gandhi",
+      "tier": 1,
+      "category": "people",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-mi-non-cooperation",
+      "label": "Non-Cooperation Movement",
+      "year": 1920,
+      "endYear": 1922,
+      "description": "Gandhi launched the Non-Cooperation Movement, urging Indians to boycott British goods, schools, and courts in a massive act of civil disobedience.",
+      "wikiSlug": "Non-cooperation_movement",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-salt-march",
+      "label": "Salt March",
+      "year": 1930,
+      "description": "Gandhi led a 240-mile march to the sea to make salt in defiance of British tax laws, inspiring worldwide attention to Indian independence.",
+      "wikiSlug": "Salt_March",
+      "tier": 1,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-mi-quit-india",
+      "label": "Quit India Movement",
+      "year": 1942,
+      "description": "Gandhi demanded an immediate end to British rule with the call 'Do or Die,' sparking mass protests despite harsh repression.",
+      "wikiSlug": "Quit_India_movement",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bose-ina",
+      "label": "Subhas Chandra Bose leads INA",
+      "year": 1943,
+      "description": "Bose organized the Indian National Army from POWs in Southeast Asia, fighting alongside Japan to liberate India from British rule.",
+      "wikiSlug": "Subhas_Chandra_Bose",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-mi-independence",
+      "label": "India gains independence",
+      "year": 1947,
+      "description": "India achieved independence from Britain on August 15, 1947, fulfilling decades of struggle but accompanied by the traumatic partition with Pakistan.",
+      "wikiSlug": "Indian_independence_movement",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-partition",
+      "label": "Partition of India",
+      "year": 1947,
+      "description": "The subcontinent was divided into India and Pakistan along religious lines, triggering mass migration and communal violence that killed up to two million people.",
+      "wikiSlug": "Partition_of_India",
+      "tier": 1,
+      "category": "wars",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-mi-gandhi-assassination",
+      "label": "Gandhi assassinated",
+      "year": 1948,
+      "description": "Mahatma Gandhi was shot dead by Hindu nationalist Nathuram Godse, plunging the newly independent nation into mourning.",
+      "wikiSlug": "Assassination_of_Mahatma_Gandhi",
+      "tier": 1,
+      "category": "people",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-mi-constitution",
+      "label": "Indian Constitution adopted",
+      "year": 1950,
+      "description": "India adopted the world's longest written constitution, establishing a sovereign democratic republic with fundamental rights and directive principles.",
+      "wikiSlug": "Constitution_of_India",
+      "tier": 1,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-nehru-pm",
+      "label": "Nehru becomes first Prime Minister",
+      "year": 1947,
+      "description": "Jawaharlal Nehru became India's first prime minister, championing democratic socialism, secularism, and non-alignment in foreign policy.",
+      "wikiSlug": "Jawaharlal_Nehru",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-mi-ambedkar-constitution",
+      "label": "Ambedkar drafts constitution",
+      "year": 1949,
+      "description": "B.R. Ambedkar, a Dalit leader and legal scholar, chaired the drafting committee that produced India's constitution, enshrining equality and social justice.",
+      "wikiSlug": "B._R._Ambedkar",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-mi-first-iit",
+      "label": "First IIT established",
+      "year": 1951,
+      "description": "India established the Indian Institute of Technology at Kharagpur, beginning a system of elite engineering schools that would produce global tech leaders.",
+      "wikiSlug": "Indian_Institutes_of_Technology",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-five-year-plan",
+      "label": "First Five-Year Plan launched",
+      "year": 1951,
+      "description": "Nehru launched India's first Five-Year Plan focused on agriculture and irrigation, beginning a tradition of Soviet-influenced economic planning.",
+      "wikiSlug": "Five-Year_Plans_of_India",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-sino-indian-war",
+      "label": "Sino-Indian War",
+      "year": 1962,
+      "description": "China launched a surprise attack across the Himalayan border, inflicting a humiliating defeat on India and shattering the era of Hindi-Chini bhai-bhai.",
+      "wikiSlug": "Sino-Indian_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-green-revolution",
+      "label": "Green Revolution begins",
+      "year": 1965,
+      "description": "India adopted high-yield wheat and rice varieties, transforming the country from a famine-prone nation into a food-surplus agricultural power.",
+      "wikiSlug": "Green_Revolution_in_India",
+      "tier": 2,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-indira-pm",
+      "label": "Indira Gandhi becomes PM",
+      "year": 1966,
+      "description": "Indira Gandhi, Nehru's daughter, became prime minister and dominated Indian politics for nearly two decades with a mix of populism and authoritarianism.",
+      "wikiSlug": "Indira_Gandhi",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-mi-bangladesh-war",
+      "label": "Bangladesh Liberation War",
+      "year": 1971,
+      "description": "India intervened in the Pakistani civil war, helping East Pakistan achieve independence as Bangladesh in a decisive two-week military campaign.",
+      "wikiSlug": "Bangladesh_Liberation_War",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-nuclear-test-1974",
+      "label": "Smiling Buddha nuclear test",
+      "year": 1974,
+      "description": "India conducted its first nuclear weapon test at Pokhran, becoming the sixth nation to detonate a nuclear device.",
+      "wikiSlug": "Smiling_Buddha",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-emergency",
+      "label": "The Emergency declared",
+      "year": 1975,
+      "endYear": 1977,
+      "description": "Indira Gandhi declared a state of emergency suspending civil liberties, jailing opponents, and censoring the press in India's darkest democratic hour.",
+      "wikiSlug": "The_Emergency_(India)",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-golden-temple",
+      "label": "Operation Blue Star",
+      "year": 1984,
+      "description": "Indian troops stormed the Golden Temple in Amritsar to flush out Sikh militants, killing hundreds and deeply wounding the Sikh community.",
+      "wikiSlug": "Operation_Blue_Star",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-mi-indira-assassination",
+      "label": "Indira Gandhi assassinated",
+      "year": 1984,
+      "description": "Indira Gandhi was shot dead by her Sikh bodyguards in retaliation for Operation Blue Star, triggering anti-Sikh pogroms across northern India.",
+      "wikiSlug": "Assassination_of_Indira_Gandhi",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-mi-bhopal-disaster",
+      "label": "Bhopal gas disaster",
+      "year": 1984,
+      "description": "A toxic gas leak from a Union Carbide pesticide plant in Bhopal killed thousands and injured hundreds of thousands in the world's worst industrial accident.",
+      "wikiSlug": "Bhopal_disaster",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-liberalization-1991",
+      "label": "Economic liberalization begins",
+      "year": 1991,
+      "description": "Finance Minister Manmohan Singh dismantled the License Raj, opening India's economy to foreign investment and global competition amid a balance-of-payments crisis.",
+      "wikiSlug": "Economic_liberalisation_in_India",
+      "tier": 1,
+      "category": "trade",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-mi-babri-masjid",
+      "label": "Babri Masjid demolished",
+      "year": 1992,
+      "description": "Hindu nationalists demolished the Babri mosque in Ayodhya, sparking nationwide communal riots and reshaping Indian religious politics.",
+      "wikiSlug": "Demolition_of_the_Babri_Masjid",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-pokhran-ii",
+      "label": "Pokhran-II nuclear tests",
+      "year": 1998,
+      "description": "India conducted five nuclear weapons tests, declaring itself a nuclear weapons state and drawing international sanctions.",
+      "wikiSlug": "Pokhran-II",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-it-boom",
+      "label": "IT boom and Bangalore rises",
+      "year": 2000,
+      "description": "India's information technology sector exploded, with Bangalore becoming a global outsourcing hub and Indian IT firms earning billions in revenue.",
+      "wikiSlug": "Information_technology_in_India",
+      "tier": 2,
+      "category": "trade",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "evt-mi-mumbai-attacks",
+      "label": "Mumbai terror attacks",
+      "year": 2008,
+      "description": "Pakistani militants launched coordinated attacks across Mumbai, killing 166 people over four days and bringing India and Pakistan to the brink of war.",
+      "wikiSlug": "2008_Mumbai_attacks",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-chandrayaan-1",
+      "label": "Chandrayaan-1 lunar mission",
+      "year": 2008,
+      "description": "India's first lunar probe discovered water molecules on the Moon's surface, establishing ISRO as a credible space agency on a shoestring budget.",
+      "wikiSlug": "Chandrayaan-1",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-modi-pm",
+      "label": "Narendra Modi becomes PM",
+      "year": 2014,
+      "description": "BJP leader Narendra Modi won a commanding majority, promising economic development and Hindu nationalist governance.",
+      "wikiSlug": "Narendra_Modi",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-mi-mars-orbiter",
+      "label": "Mangalyaan reaches Mars",
+      "year": 2014,
+      "description": "India's Mars Orbiter Mission reached Martian orbit on its first attempt, making India the first Asian nation to reach Mars.",
+      "wikiSlug": "Mars_Orbiter_Mission",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-demonetization",
+      "label": "Demonetization of banknotes",
+      "year": 2016,
+      "description": "Modi abruptly invalidated 86% of India's currency to combat corruption and black money, causing widespread economic disruption.",
+      "wikiSlug": "2016_Indian_banknote_demonetisation",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-chandrayaan-3",
+      "label": "Chandrayaan-3 lands on Moon",
+      "year": 2023,
+      "description": "India became the fourth country to land on the Moon and the first to land near the lunar south pole, a triumph for ISRO's low-cost approach.",
+      "wikiSlug": "Chandrayaan-3",
+      "tier": 2,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-tagore-nobel",
+      "label": "Rabindranath Tagore wins Nobel",
+      "year": 1913,
+      "description": "Poet Rabindranath Tagore became the first non-European to win the Nobel Prize in Literature for his deeply sensitive collection Gitanjali.",
+      "wikiSlug": "Rabindranath_Tagore",
+      "tier": 2,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-mi-taj-mahal-hotel",
+      "label": "Taj Mahal Palace Hotel opened",
+      "year": 1903,
+      "description": "Jamsetji Tata opened the Taj Mahal Palace Hotel in Mumbai, one of India's first luxury hotels and a symbol of Indian enterprise.",
+      "wikiSlug": "Taj_Mahal_Palace_Hotel",
+      "tier": 3,
+      "category": "architecture",
+      "tags": [
+        "trade"
+      ]
+    },
+    {
+      "id": "evt-mi-new-delhi-built",
+      "label": "New Delhi inaugurated",
+      "year": 1931,
+      "description": "The British inaugurated New Delhi as India's capital, with Edwin Lutyens' grand imperial architecture replacing Calcutta as the seat of power.",
+      "wikiSlug": "New_Delhi",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-iim-founded",
+      "label": "First IIM established",
+      "year": 1961,
+      "description": "India established the Indian Institute of Management at Calcutta, building a network of business schools that trained India's corporate leaders.",
+      "wikiSlug": "Indian_Institutes_of_Management",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-ram-temple",
+      "label": "Ram Temple consecrated in Ayodhya",
+      "year": 2024,
+      "description": "PM Modi consecrated the Ram Mandir in Ayodhya on the site of the demolished Babri Masjid, capping a decades-long Hindu nationalist campaign.",
+      "wikiSlug": "Ram_Mandir",
+      "tier": 3,
+      "category": "religion",
+      "tags": [
+        "architecture"
+      ]
+    }
+  ]
+}

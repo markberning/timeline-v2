@@ -1,0 +1,2409 @@
+{
+  "id": "indus-valley",
+  "label": "Indus Valley Civilization",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "imageWikiSlug": "Dancing_Girl_(Mohenjo-daro)",
+  "mapCommonsFile": "Indus_Valley_Civilization,_Mature_Phase_(2600-1900_BCE).svg",
+  "wikiSlug": "Indus_Valley_Civilisation",
+  "countryIds": [
+    "356",
+    "586"
+  ],
+  "pitch": "Around 2600 BCE, while the Egyptians were still finishing the Great Pyramid, a civilization of five million people quietly perfected the most sophisticated urban infrastructure the ancient world had ever built — and then vanished so completely that it wasn't rediscovered until 1922. The Indus Valley Civilization, sprawling across modern Pakistan and northwestern India, built grid-planned cities with sewage systems Rome wouldn't match for two thousand years, traded with Mesopotamia, and produced writing that no one has ever deciphered. This is where South Asian civilization begins.\n\n🔑 Key Facts:\n• The Indus civilization was the largest of the three great Bronze Age civilizations — larger in area than Egypt and Mesopotamia combined, with over 1,000 settlements identified across 1.5 million square kilometers\n• Harappan cities show no palaces, no royal tombs, and no clear warrior class — suggesting a form of governance unlike anything in the ancient world: possibly merchant councils, priestly authorities, or collective city administrations\n• The Indus script (roughly 400 signs) remains completely undeciphered after a century of attempts — making the Harappans the only major ancient civilization whose language we cannot read\n• Standardized weights accurate to 0.1 grams were uniform across the entire civilization, implying a centralized trade regulation system operating across 1,500 kilometers\n• The Great Bath of Mohenjo-daro — a watertight brick pool on the citadel mound — is the world's earliest known public ritual water tank, prefiguring the Hindu tradition of ritual bathing that continues today\n• Lothal's tidal dock was the world's first purpose-built harbor; Shortughai in Afghanistan was a trading colony 1,500 kilometers from the Indus heartland, positioned near lapis lazuli sources\n• The Indus were the first people to cultivate cotton commercially, a crop that would eventually dress the world\n• The civilization's collapse around 1900 BCE remains one of history's great mysteries — cities didn't burn, there are no mass graves, no sudden invasion; instead populations drifted eastward over centuries, carrying Harappan craft traditions that blended with the arriving Indo-Aryan culture\n\n🤔 Why It Matters: The Indus civilization seeded the Indian subcontinent's enduring traditions: ritual bathing (the Great Bath prefigures Hindu sacred tanks), proto-Shiva worship (the Pashupati seal), urban planning principles, and trade networks that persisted through the Vedic period. When the Indo-Aryan migrants arrived after 1500 BCE, they didn't encounter a blank slate — they encountered a landscape of post-Harappan peoples whose material culture, agricultural knowledge, and possibly religious practices blended into what would become Hindu civilization. The Vedic traditions that shaped Hinduism, Buddhism, and Jainism were born from this encounter between two worlds.\n\n🎲 Wild Card: Dentists in Mehrgarh were drilling teeth with flint-tipped bow drills around 7000 BCE — making South Asian dentistry at least 4,000 years older than Egyptian dental practice and 9,000 years older than your last filling.",
+  "spans": [
+    {
+      "id": "span-indus-valley-ravi-phase",
+      "label": "Ravi Phase",
+      "startYear": -3300,
+      "endYear": -2800,
+      "wikiSlug": "Ravi_Phase",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The earliest farming communities at Harappa emerged from the Neolithic culture of Mehrgarh, which had practiced agriculture, pottery, and proto-dentistry since 7000 BCE. By 3300 BCE, these communities were expanding along the Ravi River tributary."
+        },
+        {
+          "label": "What Happened",
+          "text": "Small villages produced distinctive Ravi-phase pottery and the earliest proto-writing marks — simple signs scratched into clay before firing. These aren't yet a true script, but they show the germ of symbolic communication that would blossom into the Indus script."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Ravi Phase is roughly contemporary with the earliest Sumerian city-states and the unification of Egypt — three independent experiments in complex society emerging almost simultaneously across the ancient world."
+        }
+      ]
+    },
+    {
+      "id": "span-indus-valley-kot-diji-phase",
+      "label": "Kot Diji Phase",
+      "startYear": -2800,
+      "endYear": -2600,
+      "wikiSlug": "Kot_Diji",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After centuries of small villages, the Kot Diji phase saw the first real towns — fortified settlements with massive stone walls, standardized pottery, and evidence of organized agriculture. This is the dress rehearsal for full urbanism."
+        },
+        {
+          "label": "What Happened",
+          "text": "Settlements like Kot Diji and Kalibangan grew large enough to require defensive walls and administrative structures. The earliest plowed field in South Asia appeared at Kalibangan, its cross-plow furrows still visible in the soil 4,800 years later."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The transition from Kot Diji to Mature Harappan was swift and dramatic — within a century or two, scattered towns transformed into grid-planned metropolises. What caused this urban explosion remains a major question in South Asian archaeology."
+        }
+      ]
+    },
+    {
+      "id": "span-indus-valley-mature-harappan",
+      "label": "Mature Harappan",
+      "startYear": -2600,
+      "endYear": -1900,
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Around 2600 BCE, a remarkable transformation occurred: scattered towns reorganized into planned cities using identical brick ratios, standardized weights, and a shared script. What drove this sudden integration across 1.5 million square kilometers is unknown."
+        },
+        {
+          "label": "What Happened",
+          "text": "At the civilization's peak, cities like Mohenjo-daro and Harappa housed 40,000–80,000 people each. The Great Bath, granaries, workshop quarters, and brick-lined drains reveal a society that prioritized collective infrastructure over individual monuments. Maritime trade reached Mesopotamia and Oman; overland routes extended to Afghanistan."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Mature Harappan is the only ancient civilization without confirmed palaces, royal tombs, or clear evidence of a warrior elite — a social structure so unusual that scholars still debate whether it was governed by merchant guilds, priestly councils, or something without modern parallel."
+        }
+      ]
+    },
+    {
+      "id": "span-indus-valley-late-harappan",
+      "label": "Late Harappan",
+      "startYear": -1900,
+      "endYear": -1600,
+      "wikiSlug": "Late_Harappan",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The 4.2 kiloyear climate event (around 2200 BCE) brought prolonged drought to much of the ancient world, disrupting agriculture across South Asia and drying the Ghaggar-Hakra river that fed hundreds of Harappan settlements."
+        },
+        {
+          "label": "What Happened",
+          "text": "Major western cities were gradually abandoned as populations drifted east toward the Ganges plain, south toward Gujarat, and northeast toward the Gangetic foothills. Writing, standardized weights, and long-distance trade all faded. Cities shrank into villages. The administrative system dissolved."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The decline wasn't a sudden collapse but a slow transformation — Harappan craft traditions survived in regional cultures for centuries. The eastward population shift may have brought Harappan agricultural knowledge and cultural practices into the regions where the Vedic civilization was taking shape."
+        }
+      ]
+    },
+    {
+      "id": "span-indus-valley-cemetery-h-culture",
+      "label": "Cemetery H Culture",
+      "startYear": -1900,
+      "endYear": -1300,
+      "wikiSlug": "Cemetery_H_culture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Named for a burial site at Harappa, the Cemetery H culture represents the last recognizably Harappan tradition — but transformed. New pottery styles featuring painted peacocks, stars, and abstract designs replaced the uniform Mature Harappan ware."
+        },
+        {
+          "label": "What Happened",
+          "text": "Cremation burials gradually replaced the earlier tradition of inhumation, the Indus script disappeared, and regional cultures diverged. The Cemetery H people were likely a transitional population — Late Harappan descendants absorbing influences from multiple directions including Indo-Aryan migrants."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "By 1300 BCE, the last Harappan cultural markers had faded. But the people themselves didn't vanish — DNA evidence shows genetic continuity between Harappan-era populations and modern South Asians, suggesting the Harappans became the substrate upon which all later Indian civilizations were built."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-mehrgarh-settlement",
+      "label": "Mehrgarh Farming Village",
+      "year": -7000,
+      "description": "The Neolithic farming village of Mehrgarh in Balochistan was established around 7000 BCE, becoming one of the world's earliest farming settlements. Wheat, barley, and cattle herding began here centuries before similar developments spread to much of Asia.",
+      "wikiSlug": "Mehrgarh",
+      "tier": 1,
+      "category": "science",
+      "details": [
+        {
+          "label": "What It Was",
+          "text": "Mehrgarh was a year-round farming settlement in the Kachi Plain of Balochistan — one of the earliest Neolithic villages in South Asia, predating the Indus cities by 4,500 years. Residents grew wheat and barley and herded goats, sheep, and cattle."
+        },
+        {
+          "label": "Proto-Dentistry",
+          "text": "Burials at Mehrgarh include teeth drilled with flint-tipped bow drills — the earliest evidence of dental treatment in the world, dating to around 7000 BCE and predating the first known Egyptian dental texts by over 4,000 years."
+        },
+        {
+          "label": "Foundation of Indus Culture",
+          "text": "Mehrgarh's millennia of agricultural and craft development — pottery, copper working, figurine production — laid the cultural foundations for the Harappan civilization that emerged 4,000 years later on the same trade routes."
+        }
+      ]
+    },
+    {
+      "id": "evt-ravi-phase-harappa",
+      "label": "Ravi Phase at Harappa",
+      "year": -3300,
+      "description": "The earliest occupation at Harappa began during the Ravi Phase, with small farming communities producing pottery and basic crafts. This marks the beginning of what would grow into one of the civilization's greatest cities.",
+      "wikiSlug": "Harappa",
+      "tier": 3,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "First Settlement",
+          "text": "The Ravi Phase at Harappa (named for the Ravi River) saw a small agricultural village establish itself on a natural mound above the floodplain. The village produced distinctive pottery with geometric designs and simple tools."
+        },
+        {
+          "label": "Proto-Writing Appears",
+          "text": "The earliest known proto-writing signs in South Asia appear on Ravi-phase pottery at Harappa — simple scratched marks that precede the developed Indus script by several centuries, suggesting writing evolved gradually from pottery marks."
+        },
+        {
+          "label": "Continuity of Occupation",
+          "text": "Harappa was continuously occupied from the Ravi Phase through the Mature Harappan peak, making it one of the longest-occupied urban sites in the ancient world. The city grew from a village of a few hundred to a metropolis of tens of thousands."
+        }
+      ]
+    },
+    {
+      "id": "evt-kot-diji-founded",
+      "label": "Kot Diji Founded",
+      "year": -2800,
+      "description": "The fortified settlement of Kot Diji was established in present-day Sindh, becoming one of the earliest Early Harappan sites. Its massive stone walls suggest organized defense and centralized planning.",
+      "wikiSlug": "Kot_Diji",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The First Fortified Town",
+          "text": "Kot Diji's massive stone defensive walls enclose a citadel mound about 80 meters long, rising 5 meters above the surrounding plain. The wall-building effort implies organized labor and some form of centralized authority — the first hint of the planning capacity that would define Mature Harappan cities."
+        },
+        {
+          "label": "Early Standardization",
+          "text": "Kot Diji-phase pottery shows increasing standardization in form and decoration across a wide region — the first sign that distant communities were sharing cultural practices. This uniformity is a precursor to the remarkable civilization-wide standardization of the Mature phase."
+        },
+        {
+          "label": "Gateway to Urbanization",
+          "text": "Sites like Kot Diji mark the critical transition from village to proto-urban life in the Indus region. Their destruction and rebuilding in Mature Harappan style around 2600 BCE suggests a rapid, possibly violent, social transformation into the full urban civilization."
+        }
+      ]
+    },
+    {
+      "id": "evt-kalibangan-plowed-field",
+      "label": "Kalibangan Plowed Field",
+      "year": -2800,
+      "description": "The earliest known plowed agricultural field was discovered at Kalibangan in Rajasthan, with a distinctive cross-plow pattern still visible in the soil. This demonstrates advanced farming techniques during the Early Harappan period.",
+      "wikiSlug": "Kalibangan",
+      "tier": 2,
+      "category": "science",
+      "details": [
+        {
+          "label": "The World's Oldest Plowed Field",
+          "text": "At Kalibangan, excavators found a pre-urban field with criss-crossing furrows still visible in the soil 4,800 years later. The field was plowed in two directions at right angles — identical to a technique still used in Rajasthan today."
+        },
+        {
+          "label": "Agricultural Innovation",
+          "text": "The cross-plow pattern maximized water retention and weed suppression. The field was immediately south of the Early Harappan settlement, showing that organized agriculture was central to town planning from the very beginning."
+        },
+        {
+          "label": "Living Tradition",
+          "text": "The cross-plow technique preserved in this ancient field is still practiced by farmers in the same region today — an unbroken agricultural tradition spanning nearly 5,000 years, one of the longest continuous farming practices anywhere in the world."
+        }
+      ]
+    },
+    {
+      "id": "evt-early-indus-script",
+      "label": "Early Indus Signs",
+      "year": -2600,
+      "description": "The earliest known examples of fully developed Indus signs appear on seals and pottery from the Early Harappan period. These proto-writing marks represent an early stage in the development of the still-undeciphered Indus script.",
+      "wikiSlug": "Indus_script",
+      "tier": 3,
+      "category": "writing",
+      "details": [
+        {
+          "label": "A Script No One Can Read",
+          "text": "The Indus script comprises roughly 400 distinct signs, often written on small steatite seals. Despite over a century of scholarly effort, it remains completely undeciphered — the only major ancient civilization whose writing is still unknown."
+        },
+        {
+          "label": "What We Can Guess",
+          "text": "The script is likely logo-syllabic (signs representing both whole words and sounds), reads right-to-left, and most inscriptions are short — averaging just 5 signs. These patterns suggest it was used primarily for labeling goods and owners, not recording narratives."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Without the ability to read Harappan texts, everything we know about their beliefs, governance, and social structure comes from archaeology alone. The script's silence is itself a profound fact: we know more about ancient Sumerians from their accounting tablets than we do about the architects of the largest Bronze Age civilization."
+        }
+      ]
+    },
+    {
+      "id": "evt-kot-diji-burned",
+      "label": "Kot Diji Destruction",
+      "year": -2600,
+      "description": "Kot Diji was destroyed by fire around 2600 BCE, marking the transition from the Early to Mature Harappan phase. The site was rebuilt in a distinctly Mature Harappan style, suggesting political or cultural upheaval.",
+      "wikiSlug": "Kot_Diji",
+      "tier": 3,
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Fire Layer",
+          "text": "A thick layer of ash and burned debris marks the end of the Kot Diji-phase settlement. Similar destruction layers appear at other Early Harappan sites around the same time, suggesting a regional disruption rather than a single local fire."
+        },
+        {
+          "label": "Conflict or Accident?",
+          "text": "Whether the destruction was deliberate warfare, accidental fire, or some ritual burning associated with a political transition is unknown. What's clear is that the rebuilt city was immediately reorganized on Mature Harappan principles — gridded streets, standardized bricks, and new pottery styles."
+        },
+        {
+          "label": "The Urban Revolution",
+          "text": "The destruction and rapid rebuilding of Early Harappan sites around 2600 BCE coincides with the sudden emergence of the full Mature Harappan urban system. This transition — from scattered towns to a unified civilization — may have involved conflict, religious transformation, or a new political authority."
+        }
+      ]
+    },
+    {
+      "id": "evt-mature-harappan-begins",
+      "label": "Mature Harappan Begins",
+      "year": -2600,
+      "description": "The Mature Harappan phase began around 2600 BCE, marked by rapid urbanization, standardized brick sizes, advanced drainage systems, and a unified system of weights and measures across a vast geographic area.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 1,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The Urban Revolution",
+          "text": "Within a remarkably short period, scattered Kot Diji-phase towns reorganized into planned cities using identical brick ratios (1:2:4), shared pottery styles, standardized weights, and a common script — across a civilization larger than Egypt and Mesopotamia combined."
+        },
+        {
+          "label": "No Precedent",
+          "text": "Unlike the Egyptian or Mesopotamian urban revolutions — which left temples, palaces, and royal inscriptions — the Harappan urban revolution is almost invisible archaeologically. There are no founding texts, no commemorative monuments, no royal decrees. The revolution happened in silence."
+        },
+        {
+          "label": "Scale and Reach",
+          "text": "At its peak the Mature Harappan civilization covered 1.5 million square kilometers with over 1,000 settlements from the Himalayas to the Arabian Sea. Cities like Mohenjo-daro, Harappa, Rakhigarhi, and Dholavira were among the largest urban centers on Earth."
+        }
+      ]
+    },
+    {
+      "id": "evt-mohenjo-daro-built",
+      "label": "Mohenjo-daro Built",
+      "year": -2600,
+      "description": "Mohenjo-daro was constructed as one of the largest cities of the ancient world, housing an estimated 40,000–80,000 people. Its grid-planned streets, advanced sewage system, and monumental architecture represent the peak of Indus urban planning.",
+      "wikiSlug": "Mohenjo-daro",
+      "tier": 1,
+      "category": "architecture",
+      "commonsFile": "Mohenjo-daro_Ruins.jpg",
+      "details": [
+        {
+          "label": "The Great City",
+          "text": "Mohenjo-daro ('Mound of the Dead') sat on a natural rise above the Indus floodplain in Sindh. At its peak it covered 250 hectares with streets laid out in a precise grid oriented to cardinal directions, serviced by covered brick drains, and organized into distinct residential, commercial, and civic quarters."
+        },
+        {
+          "label": "Two Mounds",
+          "text": "Mohenjo-daro was organized around two main mounds: the higher Citadel Mound (with the Great Bath, granary, and assembly hall) and the lower Residential Mound (with hundreds of houses, workshops, and market streets). This two-zone layout appears at many Harappan cities."
+        },
+        {
+          "label": "Unknown Builders",
+          "text": "We know everything about how Mohenjo-daro was built but nothing about who ordered it. No palace, no royal tomb, no inscription names a ruler. The city was built, maintained, and eventually abandoned entirely without leaving a single name we can read."
+        }
+      ]
+    },
+    {
+      "id": "evt-dholavira-built",
+      "label": "Dholavira Built",
+      "year": -2600,
+      "endYear": -1450,
+      "description": "The city of Dholavira in Gujarat's Rann of Kutch was one of the largest Harappan cities, with an elaborate water management system of reservoirs and channels. Its three-part division of citadel, middle town, and lower town was unique.",
+      "wikiSlug": "Dholavira",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "City in the Desert",
+          "text": "Dholavira was built in one of the most water-scarce environments in South Asia — the Rann of Kutch, a salt flat that floods seasonally. To survive here, the Harappans built 16 interconnected reservoirs that captured every drop of monsoon rain and held it through the long dry season."
+        },
+        {
+          "label": "Unique Layout",
+          "text": "Unlike most Harappan cities with two zones, Dholavira had three: a strongly fortified citadel, a 'middle town' for elites and administrators, and a larger lower town for ordinary residents. Its walls were up to 18 meters thick in places."
+        },
+        {
+          "label": "The Longest-Occupied City",
+          "text": "Dholavira was continuously inhabited from around 2600 to 1450 BCE — nearly 1,200 years of urban life in an unforgiving environment, sustained entirely by the water management ingenuity of its builders."
+        }
+      ]
+    },
+    {
+      "id": "evt-great-bath",
+      "label": "Great Bath of Mohenjo-daro",
+      "year": -2590,
+      "description": "The Great Bath is a large waterproof pool at the heart of Mohenjo-daro's citadel mound. Scholars believe it served a ritual purification function, making it the earliest known public water tank and a possible precursor to later South Asian bathing traditions.",
+      "wikiSlug": "Great_Bath,_Mohenjo-daro",
+      "commonsFile": "Mohenjodaro_-_The_Great_Bath.jpg",
+      "tier": 1,
+      "category": "religion",
+      "details": [
+        {
+          "label": "The Structure",
+          "text": "The Great Bath measures 12 x 7 meters and is 2.4 meters deep. Its floor and walls were built of precisely fitted kiln-fired bricks sealed with natural bitumen and a layer of mortar — a remarkably sophisticated waterproofing system for 2600 BCE."
+        },
+        {
+          "label": "Ritual Purification",
+          "text": "The Great Bath sits at the center of the Citadel Mound among what appear to be priestly or administrative buildings. Archaeologists believe it was used for ritual bathing — purification before religious activities. If so, it prefigures the Hindu tradition of ritual bathing in sacred tanks by over 2,000 years."
+        },
+        {
+          "label": "Enduring Legacy",
+          "text": "The Great Bath may be the oldest ancestor of the sacred kunda (tank) found in Hindu temples today and the tradition of ritual immersion in holy rivers. The specific connection cannot be proven, but the Harappan emphasis on water purification and the Vedic/Hindu emphasis on ritual cleanliness run in strikingly parallel channels."
+        }
+      ]
+    },
+    {
+      "id": "evt-rakhigarhi",
+      "label": "Rakhigarhi Settlement",
+      "year": -2590,
+      "endYear": -2000,
+      "description": "Rakhigarhi in present-day Haryana was one of the largest Harappan cities, possibly exceeding even Mohenjo-daro in area. DNA analysis of burials here has provided crucial evidence about the genetic ancestry of the Harappan people.",
+      "wikiSlug": "Rakhigarhi",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Possibly the Largest City",
+          "text": "Recent surveys suggest Rakhigarhi covered over 350 hectares — potentially larger than Mohenjo-daro. Much of it remains unexcavated beneath a modern village, but what has been found shows the full toolkit of Mature Harappan urbanism: brick drains, granaries, and standardized street layouts."
+        },
+        {
+          "label": "The DNA Evidence",
+          "text": "A 2019 study analyzed ancient DNA from burials at Rakhigarhi. The results showed Harappan people were descended from South Asian hunter-gatherers and Iranian-related farmers, with minimal steppe ancestry. This placed the Harappans as distinct from the Indo-Aryan migrants who would arrive later."
+        },
+        {
+          "label": "Who the Harappans Were",
+          "text": "The Rakhigarhi DNA data suggests the Indus people were not ancestrally related to the Indo-Aryan speakers who composed the Vedas. The cultural transformation of South Asia after 1900 BCE involved real population movement — people with different ancestry arriving and blending with Harappan descendants."
+        }
+      ]
+    },
+    {
+      "id": "evt-urban-planning",
+      "label": "Grid-Planned Cities",
+      "year": -2580,
+      "description": "Harappan cities were laid out on precise grid patterns with streets oriented to cardinal directions. Uniform brick ratios of 1:2:4 were used across the entire civilization, suggesting a centralized authority overseeing construction standards.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The Indus Grid",
+          "text": "Harappan streets ran in straight lines oriented roughly north-south and east-west, with major avenues up to 10 meters wide and narrower residential lanes branching off them. The grid layout allowed efficient drainage, predictable land use, and easy navigation in cities of tens of thousands."
+        },
+        {
+          "label": "Standardized Bricks",
+          "text": "Every kiln-fired brick from Mohenjo-daro to Dholavira — separated by 800 kilometers — uses the same 1:2:4 ratio. This isn't coincidence. It means either a single authority controlled construction standards across the entire civilization, or these standards were shared through some other form of cultural coordination we can't see."
+        },
+        {
+          "label": "Public Infrastructure First",
+          "text": "Harappan cities prioritized public infrastructure — drainage, wells, granaries, public baths — over private luxury. While Egyptian cities were built around temples and palaces, Harappan cities were built around sewers. This inversion of priorities tells us something fundamental about how Harappan society organized itself."
+        }
+      ]
+    },
+    {
+      "id": "evt-harappa-city",
+      "label": "Harappa at Peak",
+      "year": -2580,
+      "endYear": -2000,
+      "description": "The city of Harappa reached its peak population of approximately 23,000–35,000 people, with distinct walled sectors including a citadel, granaries, and working platforms. It was one of the civilization's two great capitals.",
+      "wikiSlug": "Harappa",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Industrial City",
+          "text": "Harappa's lower town included extensive workshop areas where copper smelters, bead makers, shell workers, and potters worked in specialized districts. The organization of craft production by guild-like workshops is the earliest evidence of industrial-scale manufacturing in South Asia."
+        },
+        {
+          "label": "The Granaries",
+          "text": "Large mud-brick platforms near the citadel mound were once interpreted as granaries — centralized grain storage facilities supporting the city's workforce. Recent scholarship debates their exact function, but their scale implies centralized economic management."
+        },
+        {
+          "label": "Northern Capital",
+          "text": "Harappa served as the northern anchor of the Indus civilization while Mohenjo-daro anchored the south, roughly 600 kilometers apart. The parallel development of both cities with identical planning principles and script traditions suggests tight coordination between them."
+        }
+      ]
+    },
+    {
+      "id": "evt-drainage-system",
+      "label": "Urban Drainage Systems",
+      "year": -2570,
+      "description": "Harappan cities featured the ancient world's most sophisticated drainage and sewage systems. Covered drains ran along streets with household connections, soak pits, and inspection holes — unmatched in complexity until Roman times.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "science",
+      "details": [
+        {
+          "label": "The Engineering",
+          "text": "Every Harappan house of any substance had a private bathroom with drains that connected to covered brick channels running along the streets. The main street drains were wide enough for workers to enter for cleaning, with inspection holes at regular intervals — a maintenance-aware design that Roman engineers would rediscover 2,500 years later."
+        },
+        {
+          "label": "Sanitation as Priority",
+          "text": "The scale of Harappan investment in drainage is extraordinary. While Egyptian cities of the same era had no sewage infrastructure at all, every Harappan city block was threaded with an interlocking system of private drains, public channels, and soak pits. Disease prevention appears to have been a civic priority."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Effective sewage disposal was one of the most life-saving technologies in human history. Cities without it were constantly devastated by dysentery, cholera, and typhoid. The Harappan drainage system may help explain how cities of 50,000 people could sustain themselves for centuries in the pre-antibiotic world."
+        }
+      ]
+    },
+    {
+      "id": "evt-standardized-weights",
+      "label": "Standardized Weights",
+      "year": -2570,
+      "description": "The Indus people developed a remarkably precise system of weights based on ratios of 1:2:4, using cubical chert stones. This standardized system was uniform across the entire civilization, implying centralized trade regulation.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "trade",
+      "details": [
+        {
+          "label": "The System",
+          "text": "Harappan weights were cubical chert stones ground to precise binary ratios: 1, 2, 4, 8, 16, 32, 64, and up. The smallest weights are accurate to 0.1 grams. Identical weight sets have been found from Gujarat to the Punjab — 1,500 kilometers apart — with the same proportions."
+        },
+        {
+          "label": "What It Proves",
+          "text": "A single standardized weight system across 1.5 million square kilometers implies either a single authority controlling trade standards, or such deep cultural unity that independent communities all adopted and maintained the same measurement system. There is no historical parallel for this kind of commercial standardization at this scale before the Roman Empire."
+        },
+        {
+          "label": "Commercial Society",
+          "text": "The Harappan weight system was a commercial technology. It enabled trust between strangers — merchants 500 kilometers apart could transact knowing both parties were using the same standard. This is the ancient infrastructure of a market economy, and it's one of the most sophisticated things the Harappans built."
+        }
+      ]
+    },
+    {
+      "id": "evt-indus-script-seals",
+      "label": "Indus Script on Seals",
+      "year": -2560,
+      "description": "Thousands of steatite seals bearing the Indus script and animal motifs were produced during the Mature Harappan phase. Despite over a century of study, the script remains undeciphered, with roughly 400 distinct signs identified.",
+      "wikiSlug": "Indus_script",
+      "commonsFile": "Indus_seal_impression.jpg",
+      "tier": 1,
+      "category": "writing",
+      "details": [
+        {
+          "label": "The Seals",
+          "text": "Over 4,000 Harappan seals have been found — small, flat, square tablets of carved steatite (soapstone) with an animal motif on one side and 1–5 Indus script signs on the other. They were pressed into wet clay to mark goods, containers, and storerooms."
+        },
+        {
+          "label": "400 Signs, Zero Translations",
+          "text": "The Indus script has been the subject of dozens of decipherment attempts. None have succeeded. The signs are too few for simple pictographs, too many for a simple syllabary. Without a bilingual inscription — an Indus Rosetta Stone — the language may never be deciphered."
+        },
+        {
+          "label": "The Unicorn Seal",
+          "text": "The most common seal type shows a bull-like creature with a single horn (the 'unicorn') in front of a mysterious object scholars call a 'standard.' This seal appears at nearly every Harappan site, suggesting it represented something civilization-wide — a clan, a guild, a deity, or a civic identity we cannot name."
+        }
+      ]
+    },
+    {
+      "id": "evt-granaries-harappa",
+      "label": "Granaries of Harappa",
+      "year": -2560,
+      "description": "Large granary structures were built at Harappa near the citadel mound, suggesting centralized grain storage and redistribution. These structures indicate a sophisticated system of economic administration and surplus management.",
+      "wikiSlug": "Harappa",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "Centralized Storage",
+          "text": "The platform structures at Harappa once interpreted as granaries are 45 x 55 meters of mud-brick construction — massive public buildings by any measure. Whether they stored grain, raw materials, or served another purpose, their scale indicates centralized control of economic resources."
+        },
+        {
+          "label": "Feeding the City",
+          "text": "Cities of 30,000+ people require enormous food inputs. The Harappan heartland was extraordinarily productive — winter wheat and barley watered by the Indus floods, supplemented by rice in the east. Surplus storage was essential for feeding urban populations through the monsoon cycle."
+        },
+        {
+          "label": "No Temples, No Palaces",
+          "text": "What's remarkable is what the Harappans built instead of temples and palaces. Other ancient civilizations spent their surplus on royal monuments and divine houses. The Harappans built granaries and sewers — public infrastructure investments that suggest a different set of values about what a city is for."
+        }
+      ]
+    },
+    {
+      "id": "evt-bead-making",
+      "label": "Carnelian Bead Industry",
+      "year": -2560,
+      "description": "The Harappans mastered long carnelian bead production using a complex heating and drilling technique. These beads were highly prized trade goods found as far away as Mesopotamia and were among the civilization's most distinctive exports.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Technique",
+          "text": "Long carnelian beads (up to 12 cm) required heating the raw stone to change its color from orange-yellow to the prized red, then drilling from both ends with copper drills tipped with abrasive paste. The process took weeks. The result was one of the most coveted luxury goods in the ancient world."
+        },
+        {
+          "label": "Global Exports",
+          "text": "Harappan carnelian beads have been found in Mesopotamian royal tombs, Egyptian jewelry, and Central Asian burials — proof that Indus luxury goods circulated across the entire ancient world. The bead industry was both a major export sector and a form of soft cultural diplomacy."
+        },
+        {
+          "label": "Craft Specialization",
+          "text": "Bead-making workshops concentrated at specific cities like Chanhu-daro and Lothal show early craft specialization and something resembling industrial production. The Harappans weren't making beads as household crafts — they were running workshops with professional craftspeople producing for export markets."
+        }
+      ]
+    },
+    {
+      "id": "evt-dancing-girl",
+      "label": "Dancing Girl Bronze",
+      "year": -2550,
+      "description": "The 'Dancing Girl' is a small bronze figurine found at Mohenjo-daro, depicting a confident young woman with bangles on one arm. It demonstrates advanced lost-wax casting technique and is one of the most celebrated artworks of the ancient world.",
+      "wikiSlug": "Dancing_Girl_(Mohenjo-daro)",
+      "commonsFile": "Dancing_girl_of_Mohenjo-daro.jpg",
+      "tier": 2,
+      "category": "people",
+      "details": [
+        {
+          "label": "The Figure",
+          "text": "Just 10.8 centimeters tall, the Dancing Girl stands with one hand on her hip and the other arm weighted with bangles from wrist to shoulder. She looks directly at the viewer with a confidence and specificity — a real person, not a type — that is extremely rare in ancient art."
+        },
+        {
+          "label": "Masterful Craft",
+          "text": "The figurine was cast using the lost-wax process — wax model, clay mold, molten bronze poured in, clay broken away — a technique of considerable skill. The Harappans achieved it 4,500 years ago without the benefit of later metallurgical knowledge."
+        },
+        {
+          "label": "Unanswered Questions",
+          "text": "Who was she? A dancer? A temple performer? A goddess? A portrait of a specific person? We have no idea. But her posture — relaxed, confident, direct — suggests the Harappans represented individuals, not just types. She is the most human face the Indus civilization left us."
+        }
+      ]
+    },
+    {
+      "id": "evt-pashupati-seal",
+      "label": "Pashupati Seal",
+      "year": -2500,
+      "description": "The famous 'Pashupati' seal from Mohenjo-daro depicts a seated figure in a cross-legged posture surrounded by animals. Some scholars interpret this as a proto-Shiva figure, though this identification remains debated.",
+      "wikiSlug": "Pashupati_seal",
+      "commonsFile": "Shiva_Pashupati.jpg",
+      "tier": 2,
+      "category": "religion",
+      "details": [
+        {
+          "label": "The Image",
+          "text": "The Pashupati seal shows a horned, three-faced figure seated in a yoga-like position (possibly a prototype of padmasana, the lotus pose). The figure is surrounded by animals: elephant, tiger, rhinoceros, and buffalo below the throne; two deer beneath the seat. The name 'Pashupati' ('Lord of Animals') is a later interpretation."
+        },
+        {
+          "label": "Proto-Shiva Debate",
+          "text": "The seated posture, the surrounding animals, and the possible ithyphallic nature of the figure all echo later attributes of the Hindu god Shiva. Some scholars see this as direct continuity — Shiva worship originating in the Indus civilization and flowing into Hindu tradition. Others argue the resemblance is coincidental. The debate has generated enormous scholarly controversy."
+        },
+        {
+          "label": "What We Can Say",
+          "text": "Whatever the Pashupati seal meant to its makers, it suggests the Harappans had a sophisticated religious iconography centered on a horned deity associated with nature, animals, and meditation posture — concepts that would resonate powerfully in later South Asian religious thought."
+        }
+      ]
+    },
+    {
+      "id": "evt-mother-goddess",
+      "label": "Mother Goddess Figurines",
+      "year": -2500,
+      "description": "Numerous terracotta female figurines found across Harappan sites suggest a widespread fertility or mother goddess cult. These heavily ornamented figures are among the most common religious artifacts of the civilization.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "religion",
+      "details": [
+        {
+          "label": "The Figurines",
+          "text": "Female terracotta figurines with elaborate headdresses, necklaces, and girdles have been found at virtually every Harappan site. They are the most numerous religious artifacts of the civilization — more common than seals, more widespread than bronze figures."
+        },
+        {
+          "label": "Fertility or Divinity?",
+          "text": "Whether these figures represent a goddess, a category of ritual object, a toy, or a protective charm is debated. Their consistent imagery — adorned, full-figured, often holding objects — suggests shared religious meaning across the civilization, but we cannot read that meaning without written records."
+        },
+        {
+          "label": "Continuity with Later Hinduism",
+          "text": "Female divinity plays a central role in Hinduism — through Devi, Durga, Lakshmi, and the shakti tradition. Whether this continuity traces back to the Harappan mother goddess cult is impossible to prove, but the geographical and temporal proximity suggests a link that many scholars find compelling."
+        }
+      ]
+    },
+    {
+      "id": "evt-cotton-cultivation",
+      "label": "Cotton Cultivation",
+      "year": -2500,
+      "description": "The Indus Valley Civilization was among the first to cultivate and weave cotton, with traces of cotton cloth found at Mohenjo-daro. This innovation would eventually spread across the ancient world via trade networks.",
+      "wikiSlug": "Cotton",
+      "tier": 2,
+      "category": "trade",
+      "details": [
+        {
+          "label": "First Cotton Farmers",
+          "text": "Cotton cloth fragments from Mohenjo-daro date to around 2500 BCE, making the Indus Valley one of the first places in the world to cultivate Gossypium arboreum (tree cotton) and spin it into thread. The Harappans likely wore cotton garments when the rest of the world was dressed in wool and linen."
+        },
+        {
+          "label": "Export Commodity",
+          "text": "Cotton was a major Harappan export to Mesopotamia and the Persian Gulf. Mesopotamian texts mention cloth from Meluhha (the Indus region) as a valued trade good. Cotton production may have been organized at the city level, another example of Harappan economic sophistication."
+        },
+        {
+          "label": "A Gift to the World",
+          "text": "Indian cotton would eventually spread globally: to Arabia, then Africa and the Mediterranean, and eventually to the Americas. Today cotton is one of the world's most important crops. The Harappans, who domesticated it 4,500 years ago, launched one of history's most consequential agricultural innovations."
+        }
+      ]
+    },
+    {
+      "id": "evt-urban-wells",
+      "label": "Public Wells System",
+      "year": -2500,
+      "description": "Harappan cities were equipped with an unprecedented network of public and private wells, providing clean water access to urban populations. Mohenjo-daro alone had over 700 wells — more than any other Bronze Age city.",
+      "wikiSlug": "Mohenjo-daro",
+      "tier": 3,
+      "category": "science",
+      "details": [
+        {
+          "label": "The Numbers",
+          "text": "Mohenjo-daro had at least 700 brick-lined wells — roughly one per city block. This is an extraordinary figure: contemporary cities in Mesopotamia and Egypt had far fewer public water sources, relying more on river access and small cisterns."
+        },
+        {
+          "label": "Design Innovation",
+          "text": "Harappan wells were lined with precisely cut wedge-shaped bricks forming a curved cylinder that resisted soil pressure. The design was so effective that modern archaeologists initially mistook some wells for later construction until the bricks were analyzed."
+        },
+        {
+          "label": "Public Health Infrastructure",
+          "text": "The combination of wells (clean water in) and drains (waste water out) made Harappan cities unusually healthy by ancient standards. Access to clean water and waste disposal were the two most critical public health innovations in human history — and the Harappans had both."
+        }
+      ]
+    },
+    {
+      "id": "evt-harappan-city-councils",
+      "label": "Harappan City Governance",
+      "year": -2500,
+      "description": "Unlike Egypt and Mesopotamia, the Indus Valley shows no evidence of royal palaces, divine kings, or warrior elites. Scholars infer that governance may have been collective — merchant assemblies, priestly councils, or rotating magistrates — making it one of antiquity's most unusual political systems.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "rulers",
+      "details": [
+        {
+          "label": "The Missing Kings",
+          "text": "Every other major Bronze Age civilization left abundant evidence of kingship: royal tombs (Egypt), palace records (Mesopotamia), royal inscriptions (China). The Harappans left none. No palace has been found. No royal tomb. No inscription glorifying a ruler by name. The governance of five million people is entirely invisible to archaeology."
+        },
+        {
+          "label": "What Alternatives Look Like",
+          "text": "The closest ancient parallels to a kingless urban civilization are the early Etruscan cities of Italy and certain Indus-era cities in the ancient Near East. Scholars have proposed merchant councils (like medieval city-states), temple-based priestly authorities, or clan-based collective governance — all of which can maintain civic order without a visible king."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "If the Harappans were genuinely governed without kings — maintaining civilization-wide standards for 700 years through commercial custom and cultural unity rather than royal command — they represent the earliest known experiment in collective urban governance, predating Greek city-state democracy by 2,000 years."
+        }
+      ]
+    },
+    {
+      "id": "evt-lothal-founded",
+      "label": "Lothal Founded",
+      "year": -2400,
+      "description": "Lothal was established in present-day Gujarat as a major Harappan trading port. It featured the world's earliest known dock, a tidal basin connected to a river channel, enabling maritime trade with Mesopotamia and the Persian Gulf.",
+      "wikiSlug": "Lothal",
+      "tier": 2,
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Port City",
+          "text": "Lothal (meaning 'Mound of the Dead' in Gujarati, parallel to Mohenjo-daro's name) was built at the head of the Gulf of Khambhat in modern Gujarat. Its position on a tidal estuary gave it access to both river trade and maritime shipping along the Arabian Sea coast."
+        },
+        {
+          "label": "The Dockyard",
+          "text": "Lothal's dock — a large rectangular basin measuring 37 x 22 meters, connected to the river by a channel — is the world's earliest known purpose-built harbor. A sluice gate regulated water levels so ships could dock regardless of tidal state. This engineering feat would not be matched until Roman harbor construction 2,000 years later."
+        },
+        {
+          "label": "Workshop Hub",
+          "text": "Lothal was also a manufacturing center. Archaeologists found a bead factory with over 3,000 semi-finished beads, a copper smelter, and abundant evidence of shell working. The city processed raw materials from the Arabian Sea and Gulf of Khambhat into finished luxury goods for export."
+        }
+      ]
+    },
+    {
+      "id": "evt-mesopotamia-trade",
+      "label": "Trade with Mesopotamia",
+      "year": -2400,
+      "endYear": -2000,
+      "description": "Harappan merchants established extensive trade networks with Mesopotamia, evidenced by Indus seals found at Ur and Mesopotamian texts referring to 'Meluhha,' believed to be the Indus region. Exports included carnelian beads, ivory, and timber.",
+      "wikiSlug": "Meluhha",
+      "tier": 1,
+      "category": "trade",
+      "details": [
+        {
+          "label": "Meluhha",
+          "text": "Sumerian texts from around 2350 BCE mention a distant trading partner called Meluhha — identified by most scholars as the Indus Valley. Texts describe Meluhha as a source of carnelian, lapis lazuli, timber, and copper, transported to Mesopotamia by sea. Indus-style seals and weights found at Ur confirm the connection."
+        },
+        {
+          "label": "The Trade Goods",
+          "text": "Harappan exports to Mesopotamia included: carnelian and etched beads (the signature Harappan export), ivory combs and bangles, cotton cloth, tropical hardwoods, peacocks, and possibly slaves. In return, Mesopotamia sent silver, tin, textiles, and manufactured goods."
+        },
+        {
+          "label": "Scope and Duration",
+          "text": "The Indus-Mesopotamia trade lasted over 400 years and covered 3,000 kilometers of sea route. It was one of the longest-distance trade relationships in the ancient world, involving specialized merchants, standardized weights on both ends, and enough volume to leave abundant archaeological traces at Ur, Nippur, and other Mesopotamian cities."
+        }
+      ]
+    },
+    {
+      "id": "evt-dilmun-trade",
+      "label": "Dilmun Trade Route",
+      "year": -2300,
+      "description": "The island of Bahrain (ancient Dilmun) served as a crucial intermediary in maritime trade between the Indus Valley and Mesopotamia. Indus-style weights and seals found at Dilmun confirm its role as a trading hub.",
+      "wikiSlug": "Dilmun",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Entrepôt",
+          "text": "Dilmun (modern Bahrain) was described in Mesopotamian texts as a pure and sacred land — and also as the world's busiest trading hub. Located midway between the Indus and Mesopotamia, it served as the entrepôt where goods from both worlds were exchanged, taxed, and transshipped."
+        },
+        {
+          "label": "Archaeological Evidence",
+          "text": "Harappan-style cubical weights, carnelian beads, and Indus-type pottery have all been found at Dilmun sites. The island's merchants apparently used both Mesopotamian and Harappan measurement systems, indicating they regularly dealt with both cultures."
+        },
+        {
+          "label": "The Persian Gulf System",
+          "text": "The Harappa-Dilmun-Mesopotamia triangle was one of the world's first international trading systems. Dilmun's wealth came from its position as a neutral intermediary: it didn't produce the goods but facilitated their exchange and skimmed a profit. This model of entrepôt trade — neutral port, multiple trading partners — has characterized maritime commerce ever since."
+        }
+      ]
+    },
+    {
+      "id": "evt-magan-copper-trade",
+      "label": "Magan (Oman) Copper Trade",
+      "year": -2300,
+      "endYear": -2000,
+      "description": "Harappan merchants imported copper from Magan (modern Oman) via maritime trade routes across the Arabian Sea. Harappan artifacts found in Oman confirm this important resource exchange network.",
+      "wikiSlug": "Magan_(civilization)",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Copper Source",
+          "text": "Magan (roughly modern Oman) was one of the ancient world's richest copper sources and a major Harappan trading partner. Mesopotamian texts describe ships from Magan carrying copper — probably transiting through Dilmun before reaching Mesopotamia or Indus ports."
+        },
+        {
+          "label": "The Archaeological Proof",
+          "text": "Harappan pottery, weights, and carnelian beads have been found at sites throughout modern Oman, including the copper-mining regions. Conversely, copper objects from Oman appear in Harappan cities. The exchange network was bidirectional and substantial."
+        },
+        {
+          "label": "Raw Materials for Bronze",
+          "text": "Copper from Magan, tin from Afghanistan, and local smelting expertise gave Harappan metalworkers the raw materials for bronze production. The ability to source materials from 2,000+ kilometers away and combine them into sophisticated alloys is a marker of remarkable commercial and organizational capability."
+        }
+      ]
+    },
+    {
+      "id": "evt-shortughai",
+      "label": "Shortughai Trading Colony",
+      "year": -2300,
+      "endYear": -1800,
+      "description": "Shortughai in northern Afghanistan was a Harappan trading outpost near lapis lazuli and tin sources, the most distant known Harappan settlement. Its presence shows the vast reach of Indus trade networks.",
+      "wikiSlug": "Shortughai",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Farthest Outpost",
+          "text": "Shortughai in the Amu Darya valley of northern Afghanistan sits 1,500 kilometers from the nearest Harappan heartland city. Excavations found unmistakably Harappan pottery, seals, weights, and urban planning — a transplanted Harappan community living in the heart of Central Asia."
+        },
+        {
+          "label": "Why Here?",
+          "text": "Shortughai was positioned near two critical resources: lapis lazuli from the Badakhshan mines (the only source of this deep-blue stone in the ancient world) and tin deposits needed for bronze production. The colony was essentially a resource extraction operation managed by Harappan merchants."
+        },
+        {
+          "label": "Global Reach",
+          "text": "Shortughai proves the Indus civilization operated trade networks stretching 3,000 kilometers from end to end — from Oman in the south to Afghanistan in the north, from the Arabian Sea to the Central Asian foothills. This is the geographic footprint of a true ancient world-system."
+        }
+      ]
+    },
+    {
+      "id": "evt-dholavira-signboard",
+      "label": "Dholavira Signboard",
+      "year": -2300,
+      "description": "A large inscription of ten Indus script characters was found at Dholavira's north gate, likely serving as a public signboard. This is the largest known Indus inscription and suggests the script could be read at a distance.",
+      "wikiSlug": "Dholavira",
+      "tier": 3,
+      "category": "writing",
+      "details": [
+        {
+          "label": "The Discovery",
+          "text": "Excavators at Dholavira found fragments of large gypsum letters — originally mounted on a wooden board above the city's north gate. Ten Indus script signs, each about 37 centimeters tall, would have been visible to anyone approaching the city."
+        },
+        {
+          "label": "What It Might Say",
+          "text": "This is the only known Harappan public inscription — and like all Indus writing, it cannot be read. It may have stated the city's name, a welcoming inscription, or the name of a guild or civic authority. What's striking is that the Harappans felt public written communication was worth the effort of creating large permanent letters."
+        },
+        {
+          "label": "Literacy in the Ancient World",
+          "text": "Public inscriptions are signs of widespread literacy — there's no point in posting large letters if no one can read them. The Dholavira signboard suggests that Harappan literacy, whatever form it took, extended beyond a narrow scribal class to include ordinary citizens approaching the city gates."
+        }
+      ]
+    },
+    {
+      "id": "evt-dholavira-reservoirs",
+      "label": "Dholavira Water System",
+      "year": -2300,
+      "description": "Dholavira featured an elaborate water harvesting and storage system with at least 16 reservoirs carved from rock or built with stone masonry. This engineering marvel enabled the city to survive in the arid Rann of Kutch.",
+      "wikiSlug": "Dholavira",
+      "tier": 3,
+      "category": "science",
+      "details": [
+        {
+          "label": "The System",
+          "text": "Dholavira's water system comprised 16 reservoirs fed by channels that captured rainwater draining from the surrounding seasonal streams. The total storage capacity was enormous — enough to sustain the city through multi-year droughts. Some reservoirs were cut directly into bedrock; others were built with stone masonry walls."
+        },
+        {
+          "label": "Monsoon Engineering",
+          "text": "The Rann of Kutch receives monsoon rain for only a few months per year. Dholavira's engineers designed a system to capture every usable drop during those months and hold it through the long dry season. The efficiency of their water management is remarkable even by modern standards."
+        },
+        {
+          "label": "Ancient Climate Resilience",
+          "text": "That Dholavira survived for over a millennium in one of India's most water-scarce environments — while the wetter western cities eventually collapsed from climate change — suggests the arid-zone cities' water management expertise gave them a survival advantage their more water-rich neighbors lacked."
+        }
+      ]
+    },
+    {
+      "id": "evt-unicorn-seal",
+      "label": "Unicorn Seal Motif",
+      "year": -2250,
+      "description": "The so-called 'unicorn' seal is the most common seal type found at Indus sites, depicting a bull-like animal with a single visible horn in profile. It may represent a clan, trade guild, or religious symbol across the civilization.",
+      "wikiSlug": "Pashupati_seal",
+      "tier": 3,
+      "category": "writing",
+      "details": [
+        {
+          "label": "The Most Common Image",
+          "text": "Of the 4,000+ Harappan seals found, the 'unicorn' (actually a one-horned bull seen in profile) appears on more than half. It is accompanied by a mysterious object — called the 'standard' or 'filter' — that may represent a ritual vessel, a cult implement, or a civic symbol."
+        },
+        {
+          "label": "Not Really a Unicorn",
+          "text": "The animal almost certainly had two horns — it's simply depicted in profile where only one is visible. Analysis suggests it represents the Indian zebu bull, the aurochs, or a stylized composite animal. The name 'unicorn' is a modern convenience for a creature we cannot identify."
+        },
+        {
+          "label": "What It Meant",
+          "text": "The near-universal presence of this motif across 1,500 kilometers of Harappan territory suggests it meant something important to the whole civilization — possibly a dominant clan's emblem, a merchant guild's mark, a civic identity, or a divine symbol. We simply don't know."
+        }
+      ]
+    },
+    {
+      "id": "evt-ivory-comb",
+      "label": "Ivory Craftsmanship",
+      "year": -2250,
+      "description": "Harappan artisans produced finely carved ivory combs, gaming pieces, and decorative objects. Ivory working was a major craft industry, with raw materials sourced from elephants in the surrounding regions.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "Luxury Goods Industry",
+          "text": "Harappan ivory workers produced combs, inlays, gaming pieces, and small decorative objects of extraordinary delicacy. Ivory combs found at Harappan sites are among the most precisely crafted objects of the ancient world, with teeth so fine they could only have served a cosmetic function."
+        },
+        {
+          "label": "Elephant Procurement",
+          "text": "Elephants were native to the Indus plains in this period and probably managed as a resource — both for ivory and possibly for transport and labor. Elephant images appear on Harappan seals, suggesting the animals held cultural significance beyond their economic value."
+        },
+        {
+          "label": "Export Quality",
+          "text": "Harappan ivory goods were luxury exports to Mesopotamia alongside carnelian beads. The combination of ivory, carnelian, and cotton placed the Indus civilization at the top of the ancient world's luxury goods supply chain."
+        }
+      ]
+    },
+    {
+      "id": "evt-priest-king",
+      "label": "Priest-King Sculpture",
+      "year": -2200,
+      "description": "The 'Priest-King' is a carved steatite bust found at Mohenjo-daro, depicting a bearded man wearing a decorated cloak and headband. It is one of the few depictions possibly representing an elite individual or leader.",
+      "wikiSlug": "Priest-King_(Mohenjo-daro)",
+      "commonsFile": "Priest-King_Mohenjo-daro.jpg",
+      "tier": 2,
+      "category": "rulers",
+      "details": [
+        {
+          "label": "The Figure",
+          "text": "The Priest-King bust (18.5 cm tall) shows a bearded man with half-closed eyes, wearing a robe decorated with trefoil patterns originally filled with red pigment. A headband and armband suggest high status. The expression is serene, almost meditative — unlike the militaristic royal portraits of Egypt or Mesopotamia."
+        },
+        {
+          "label": "Who He Was",
+          "text": "The name 'Priest-King' is entirely speculative — we have no idea whether this man was a ruler, a priest, a wealthy merchant, or a cult figure. Unlike Egyptian pharaohs or Mesopotamian kings, no inscription accompanies him. He is the closest thing to a Harappan ruler portrait, and he remains completely anonymous."
+        },
+        {
+          "label": "What His Absence Means",
+          "text": "The rarity of elite portraiture in Harappan art is significant. Egypt's temples and palaces are covered in royal images; Mesopotamia's steles proclaim kings by name. The Harappans left almost no images of rulers and no commemorative inscriptions. Whether this reflects religious prohibition, a non-royal governance system, or cultural values we don't understand remains one of archaeology's great mysteries."
+        }
+      ]
+    },
+    {
+      "id": "evt-administrative-seals",
+      "label": "Administrative Seal System",
+      "year": -2200,
+      "description": "The uniform seal system across Harappan sites likely served administrative and commercial functions, with clay seal impressions used to mark goods and containers. This suggests a bureaucratic governance system coordinating trade across vast distances.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "writing",
+      "details": [
+        {
+          "label": "How Seals Worked",
+          "text": "A Harappan seal was pressed into wet clay that sealed a storage jar, bundle, or room door. The impression identified the owner or shipper. Clay sealing fragments — lumps of clay with seal impressions on one side and cord or mat impressions on the other — have been found at trading sites from Mohenjo-daro to Mesopotamia."
+        },
+        {
+          "label": "The Administrative System",
+          "text": "The uniform seal system implies a shared administrative language across the civilization. Merchants at opposite ends of the Indus world used the same script, the same seal format, and the same weight standards. Whatever governance maintained this system — city councils, a trading federation, a priestly network — it worked for 700 years."
+        },
+        {
+          "label": "Information Encoded in Signs",
+          "text": "Seal inscriptions probably recorded names, professions, clans, or commodity types. If we could read them, they would be the ancient world's equivalent of shipping labels or ID cards. Instead, they remain 4,000-year-old messages that we can see but cannot open."
+        }
+      ]
+    },
+    {
+      "id": "evt-fire-altars",
+      "label": "Fire Altars at Kalibangan",
+      "year": -2200,
+      "description": "Rows of mud-brick fire altars discovered at Kalibangan suggest organized fire rituals, possibly a precursor to later Vedic fire worship. This is among the most debated evidence of Harappan religious practice.",
+      "wikiSlug": "Kalibangan",
+      "tier": 3,
+      "category": "religion",
+      "details": [
+        {
+          "label": "The Altars",
+          "text": "At Kalibangan, excavators found rows of mud-brick pits on the citadel mound, each containing ash and animal bones. The arrangement — multiple altars in a row, suggesting simultaneous use — is interpreted as evidence of communal fire rituals rather than household cooking."
+        },
+        {
+          "label": "Connection to Vedic Ritual?",
+          "text": "Fire sacrifice (yajna) is the central ritual of Vedic religion, performed on specially constructed altars. Whether the Kalibangan fire altars represent a precursor to Vedic yajna, an independent parallel, or something completely different is hotly debated — but the spatial and functional similarity is striking."
+        },
+        {
+          "label": "The Continuity Problem",
+          "text": "If Harappan fire rituals did influence Vedic practice, the transmission would have occurred during the post-urban period when Harappan and Indo-Aryan populations were mixing in the Gangetic foothills. Cultural transmission doesn't require direct political continuity — practices can survive collapse and be adopted by newcomers."
+        }
+      ]
+    },
+    {
+      "id": "evt-burial-practices",
+      "label": "Harappan Burial Practices",
+      "year": -2200,
+      "description": "Harappan burials were relatively simple compared to contemporary civilizations, with the deceased laid in north-south oriented graves with modest pottery offerings. The lack of grand tombs suggests a society without extreme social stratification.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "religion",
+      "details": [
+        {
+          "label": "Simple Graves",
+          "text": "Harappan burials were extended inhumations in brick-lined pits, typically oriented north-south, with pottery, tools, jewelry, and food offerings. The offerings were modest by ancient standards — nothing like the elaborate treasures in Egyptian royal tombs or Mesopotamian royal cemeteries."
+        },
+        {
+          "label": "Egalitarian Death",
+          "text": "Analysis of hundreds of Harappan burials shows no cemetery section clearly reserved for elites, no mass servant burials accompanying important individuals, and relatively small differences in the quantity and quality of grave goods. This suggests either a society with limited wealth concentration or cultural taboos against displaying status in death."
+        },
+        {
+          "label": "Bodies Without Names",
+          "text": "Not a single Harappan burial has been identified as belonging to a king, priest, merchant, or craftsperson. Without inscribed grave goods or narrative texts, the dead are as anonymous as the living. The Harappans are the only major ancient civilization from which we cannot name a single historical individual."
+        }
+      ]
+    },
+    {
+      "id": "evt-fortification-walls",
+      "label": "City Fortifications",
+      "year": -2200,
+      "description": "Many Harappan cities featured massive mud-brick fortification walls around their citadel mounds. At Dholavira, walls were up to 18 meters thick, suggesting defense despite the civilization showing relatively few signs of warfare.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "wars",
+      "details": [
+        {
+          "label": "Walls Without Weapons",
+          "text": "Harappan cities had fortification walls comparable to those of other ancient civilizations, yet the Indus sites yield remarkably few weapons compared to Egypt or Mesopotamia. Arrowheads and spear points exist, but no scenes of battle, no warrior burials, no war memorials."
+        },
+        {
+          "label": "What Were They Defending Against?",
+          "text": "The citadel walls at Mohenjo-daro and the massive perimeter walls at Dholavira suggest defense was a concern. The threat may have been from neighbors outside the Harappan cultural sphere — raiding pastoralists from the highlands — rather than warfare between Harappan cities."
+        },
+        {
+          "label": "A Relatively Peaceful Society?",
+          "text": "Compared to contemporaries like the Akkadian Empire (which glorified military conquest) or the Early Dynastic Sumerian city-states (which warred constantly), the Harappans appear to have been relatively peaceful. Whether this reflects genuine social harmony, successful deterrence, or simply a gap in our evidence is unknown."
+        }
+      ]
+    },
+    {
+      "id": "evt-ruler-measurement",
+      "label": "Indus Ruler (Measurement)",
+      "year": -2200,
+      "description": "An ivory scale found at Lothal is divided into precise units of approximately 1.7mm, making it one of the smallest divisions on any ancient measuring device. The Harappans used decimal-based linear measurement for their urban planning.",
+      "wikiSlug": "Lothal",
+      "tier": 3,
+      "category": "science",
+      "details": [
+        {
+          "label": "The Ivory Scale",
+          "text": "A broken ivory ruler from Lothal has 27 divisions marking a unit of 1.704 mm — one of the smallest standard measurement divisions known from the ancient world. The Harappan foot (approximately 33.5 cm) and other standard units appear consistent across sites, suggesting a shared measurement system."
+        },
+        {
+          "label": "Decimal Precision",
+          "text": "The Harappan measurement system was decimal in structure — the ivory ruler's divisions correspond to 1/10 of the 'Harappan foot.' Decimal-based measurement is more intuitive for trade and construction than the duodecimal (base-12) systems common in Mesopotamia."
+        },
+        {
+          "label": "Engineering Application",
+          "text": "The consistent brick sizes and street widths across Harappan cities required a shared linear measurement standard — you can't build identical 1:2:4 bricks without an agreed-upon unit. The Lothal ruler is physical proof of the measurement system behind the urban planning."
+        }
+      ]
+    },
+    {
+      "id": "evt-animal-veneration",
+      "label": "Animal Veneration on Seals",
+      "year": -2200,
+      "description": "Harappan seals depict zebu bulls, elephants, rhinoceroses, and tigers in ritual contexts, suggesting animal veneration or totemism. The prominence of the humped bull may connect to later Hindu reverence for the sacred cow.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "religion",
+      "details": [
+        {
+          "label": "Animals on Seals",
+          "text": "Harappan seals feature a consistent repertoire of animals: the one-horned bull (most common), elephants, tigers, rhinoceroses, water buffaloes, and composite creatures. All are depicted with care and sometimes in what appear to be ritual contexts — in front of a 'standard,' being carried in procession, or facing a tree."
+        },
+        {
+          "label": "The Sacred Bull",
+          "text": "The bull appears on more Harappan seals than any other animal. In later Hinduism, the bull Nandi is the vehicle and companion of Shiva, and the cow is considered sacred. Whether Harappan bull veneration flows into Hindu tradition through cultural continuity or represents independent parallel development remains debated."
+        },
+        {
+          "label": "Totemism and Identity",
+          "text": "The different animal types on seals may represent different clans, guilds, or city-states within the Harappan world. If so, the seals functioned as identity documents — 'I am from the Tiger guild' or 'This goods belongs to the Elephant clan' — in a system of commercial identity without modern parallel."
+        }
+      ]
+    },
+    {
+      "id": "evt-indus-metallurgy",
+      "label": "Bronze and Copper Metallurgy",
+      "year": -2200,
+      "description": "Harappan smiths produced sophisticated bronze and copper tools, weapons, and ornaments using advanced alloying techniques. Copper from Rajasthan and Balochistan was smelted in specialized workshops.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "science",
+      "details": [
+        {
+          "label": "The Craft",
+          "text": "Harappan copper and bronze objects include flat axes, knives, fishhooks, mirrors, vessels, and figurines. Smiths sourced copper locally from Rajasthan and Balochistan and obtained tin — needed for true bronze — from Afghanistan. The combination of distant trade networks for raw materials and local smelting expertise produced a sophisticated metallurgical industry."
+        },
+        {
+          "label": "Lost-Wax Casting",
+          "text": "The Dancing Girl figurine proves Harappan mastery of lost-wax casting (cire perdue) — a demanding technique that produces complex shapes by casting around a wax model. This technique requires precise temperature control, skilled mold-making, and considerable experimental experience to execute reliably."
+        },
+        {
+          "label": "Workshop Organization",
+          "text": "Bronze-working workshops concentrated in specific city districts — evident at Mohenjo-daro, Harappa, and Lothal — suggest organized craft production with specialist smiths rather than household metalworking. The scale of Harappan metal production rivaled anything in the contemporary Bronze Age world."
+        }
+      ]
+    },
+    {
+      "id": "evt-toy-carts",
+      "label": "Terracotta Toy Carts",
+      "year": -2200,
+      "description": "Miniature terracotta toy carts with movable wheels have been found at many Harappan sites, reflecting the importance of wheeled transport in the civilization. These are among the earliest evidence of wheeled vehicles in South Asia.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "science",
+      "details": [
+        {
+          "label": "Toys as Evidence",
+          "text": "Harappan terracotta toy carts with movable terracotta wheels are among the most charming archaeological finds from the civilization. They come in several types — some with animal heads as hood ornaments — and were clearly meant to be played with by children."
+        },
+        {
+          "label": "Wheeled Transport",
+          "text": "The toys confirm that wheeled transport was familiar to Harappan children — which means it was familiar to Harappan adults. Actual cart finds (wooden wheels don't survive well) and figurines of loaded carts suggest the Harappans used wheeled vehicles for urban goods transport, farming, and possibly passenger travel."
+        },
+        {
+          "label": "Technology Transfer",
+          "text": "Wheeled vehicles originated in Mesopotamia around 3500 BCE and reached the Indus through the same trade networks that connected the two civilizations. The Harappan adoption and refinement of wheel technology is one example of how Bronze Age trade transferred practical innovations across thousands of kilometers."
+        }
+      ]
+    },
+    {
+      "id": "evt-indus-games",
+      "label": "Board Games and Dice",
+      "year": -2200,
+      "description": "Harappan sites have yielded cubic dice and board game pieces, suggesting a rich leisure culture. These are among the earliest known gaming artifacts and may be precursors to later Indian games like Pachisi.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "people",
+      "details": [
+        {
+          "label": "The Games",
+          "text": "Cubic dice with dot faces have been found at Harappan sites — among the earliest known examples of dice in human history, contemporary with Egyptian dice and predating Roman dice by 2,000 years. Game boards with linear tracks suggest racing or counting games, though their rules are entirely unknown."
+        },
+        {
+          "label": "Cultural Continuity",
+          "text": "Board games with dice are a central feature of South Asian culture: Pachisi, Chaupar, and their modern descendants Parcheesi and Ludo all use dice and board movement as their core mechanic. Whether the Harappan game tradition feeds into this lineage is uncertain but intriguing."
+        },
+        {
+          "label": "Leisure in an Ancient City",
+          "text": "The presence of dice and game boards implies leisure time — people who weren't subsistence farming 16 hours a day had time to play. Urban Harappan life apparently included recreation alongside commerce, craft, and ritual, suggesting a quality of life more sophisticated than bare survival."
+        }
+      ]
+    },
+    {
+      "id": "evt-climate-shift",
+      "label": "4.2 Kiloyear Climate Event",
+      "year": -2200,
+      "description": "A severe drought lasting centuries affected civilizations worldwide around 2200 BCE. In the Indus region, reduced monsoon rainfall weakened the Ghaggar-Hakra river, contributing to eventual decline of urban centers.",
+      "wikiSlug": "4.2-kiloyear_event",
+      "tier": 2,
+      "category": "science",
+      "details": [
+        {
+          "label": "The Global Drought",
+          "text": "The 4.2 kiloyear event was a prolonged global drought — roughly 2200–1900 BCE — evidenced by lake sediment data, cave records, and the simultaneous collapse of several ancient civilizations. The Akkadian Empire in Mesopotamia, the Old Kingdom in Egypt, and the Indus Valley Civilization all experienced major crises at the same time."
+        },
+        {
+          "label": "Impact on the Indus",
+          "text": "In the Indus region, reduced monsoon intensity may have weakened the Ghaggar-Hakra river system, cutting off water to the hundreds of settlements along its banks. The timing aligns with the beginning of Harappan urban decline around 1900 BCE, though other factors — river shifts, trade collapse, social stress — were also at work."
+        },
+        {
+          "label": "A World in Crisis",
+          "text": "The near-simultaneous collapse of multiple Bronze Age civilizations around 2200 BCE raises a profound question: how connected were ancient societies to global climate? The evidence suggests that even in an era without mass communication, ancient empires were vulnerable to the same atmospheric events — and that climate has always been a more powerful force than any human institution."
+        }
+      ]
+    },
+    {
+      "id": "evt-banawali",
+      "label": "Banawali Settlement",
+      "year": -2100,
+      "endYear": -1900,
+      "description": "Banawali in Haryana was a fortified Harappan town notable for its unique oval-shaped plan and a toy plow, the earliest evidence of plowed agriculture in South Asia alongside Kalibangan.",
+      "wikiSlug": "Banawali",
+      "tier": 3,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Unusual Layout",
+          "text": "Unlike the rectangular grid plans of most Harappan cities, Banawali has an oval outer wall enclosing a two-part town. This deviation from the Harappan urban standard may reflect local adaptation to terrain, a different founding group, or experimentation within a generally standardized system."
+        },
+        {
+          "label": "The Toy Plow",
+          "text": "A terracotta plow toy found at Banawali — the earliest known representation of an ard (scratch plow) in South Asia — confirms that plowing technology was familiar to Harappan children and thus central to the civilization's agricultural practice."
+        },
+        {
+          "label": "Late Harappan Continuity",
+          "text": "Banawali continued to be occupied into the Late Harappan period, providing evidence of the eastward population shift after major western cities declined. Its relatively late occupation shows how Harappan culture persisted in the Gangetic foothills even as the core cities were abandoned."
+        }
+      ]
+    },
+    {
+      "id": "evt-chanhu-daro",
+      "label": "Chanhu-daro",
+      "year": -2100,
+      "endYear": -1700,
+      "description": "A specialized manufacturing center in Sindh, notable for being the only major Harappan city without a citadel. It was a hub for bead-making, seal-carving, and metalworking.",
+      "wikiSlug": "Chanhu-daro",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "No Citadel",
+          "text": "Every major Harappan city has a raised citadel mound with public buildings — except Chanhu-daro. Its absence is striking and unexplained. The city may have been an industrial satellite dependent on a nearby administrative center, or its governance may have been so different that a citadel wasn't needed or built."
+        },
+        {
+          "label": "Manufacturing Hub",
+          "text": "Chanhu-daro was dedicated to craft production: evidence of bead-making, shell-working, metal-casting, and steatite seal carving has been found throughout the site. It may have been a specialized production center exporting finished goods to larger cities rather than a self-sufficient urban center."
+        },
+        {
+          "label": "The Cat and the Mouse",
+          "text": "Among Chanhu-daro's most charming finds: a kiln-fired brick with the footprint of a cat that stepped on it while the clay was wet, and a few inches away, the paw prints of the mouse it was chasing. The chase was preserved forever when the brick was fired."
+        }
+      ]
+    },
+    {
+      "id": "evt-surkotada",
+      "label": "Surkotada Horse Evidence",
+      "year": -2100,
+      "description": "The site of Surkotada in Gujarat yielded controversial horse bone remains, debated as the earliest evidence of the domesticated horse in the Indian subcontinent during the Harappan period.",
+      "wikiSlug": "Surkotada",
+      "tier": 3,
+      "category": "science",
+      "details": [
+        {
+          "label": "The Controversy",
+          "text": "Horse bones found at Surkotada (dated 2100–1700 BCE) have been claimed as the earliest horse domestication evidence in South Asia. This matters enormously because horses are central to the Indo-Aryan migration hypothesis — if horses were already present in the Harappan world, the relationship between Harappans and incoming Indo-Aryans becomes more complex."
+        },
+        {
+          "label": "The Debate",
+          "text": "Most specialists who have examined the Surkotada bones conclude they represent a wild or onager (wild ass) subspecies rather than a domesticated horse proper. The domesticated horse (Equus caballus) appears reliably in South Asia only with the Late Harappan and early Vedic periods, consistent with the Indo-Aryan migration model."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The presence or absence of domestic horses in Harappan sites is one of the key data points in the debate over whether the Indo-Aryan migrations happened and when. The Surkotada evidence has been cited by scholars on both sides — a reminder that archaeological data rarely settles contested historical questions cleanly."
+        }
+      ]
+    },
+    {
+      "id": "evt-ghaggar-hakra",
+      "label": "Ghaggar-Hakra Drying",
+      "year": -2000,
+      "description": "The Ghaggar-Hakra river system — running through modern Haryana and Rajasthan — began drying as monsoon patterns shifted. Hundreds of Harappan settlements along its banks were abandoned as their water source disappeared.",
+      "wikiSlug": "Ghaggar-Hakra_river",
+      "tier": 2,
+      "category": "science",
+      "details": [
+        {
+          "label": "The Lost River",
+          "text": "The Ghaggar-Hakra (identified by some scholars with the mythical Vedic Sarasvati River) once flowed through modern Haryana and Rajasthan into the Rann of Kutch. At its height it supported hundreds of Harappan settlements — more settlements than the Indus itself."
+        },
+        {
+          "label": "The Drying",
+          "text": "Satellite imagery and geological surveys show the Ghaggar-Hakra dried gradually as its upstream Himalayan glacier-fed tributaries were captured by the Sutlej and Yamuna rivers through natural tectonic processes. This wasn't a sudden event but a centuries-long reduction in flow that eventually made the river bed a seasonal stream."
+        },
+        {
+          "label": "Migration Trigger",
+          "text": "As the Ghaggar-Hakra dried, its dependent settlements were abandoned one by one. Population shifted east toward the still-flowing Ganges-Yamuna system, south toward Gujarat's coast, and northeast toward the foothills. This eastward migration is archaeologically visible in the Late Harappan period and may have brought Harappan populations into contact with incoming Indo-Aryan migrants."
+        }
+      ]
+    },
+    {
+      "id": "evt-decline-begins",
+      "label": "Decline Begins",
+      "year": -1900,
+      "description": "The Mature Harappan phase ended around 1900 BCE as major cities were gradually abandoned. Climate change drying the Ghaggar-Hakra, tectonic shifts altering the Indus course, and trade network collapse are among the debated causes.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The Collapse That Wasn't",
+          "text": "Unlike the Bronze Age Collapse of 1200 BCE (which left burning palaces and massacre evidence), the Harappan decline was gradual and quiet. Cities shrank over decades. Trade networks contracted. Writing faded. Standardized weights stopped being made. There are no conquest narratives, no dramatic last stands."
+        },
+        {
+          "label": "Multiple Causes",
+          "text": "Scholars debate whether the primary driver was: (1) climate change and the drying Ghaggar-Hakra; (2) Indus River course changes flooding the western cities; (3) collapse of the Mesopotamian trade networks that sustained urban economic life; or (4) internal social stresses from population density and disease. Most likely it was a combination."
+        },
+        {
+          "label": "The Adaptation",
+          "text": "Crucially, the people survived. Harappan populations didn't die off — they adapted. Cities emptied into the surrounding countryside. Craft traditions persisted at smaller scale. The ceramic, metallurgical, and agricultural knowledge of the Harappans flowed into the regional cultures that replaced them."
+        }
+      ]
+    },
+    {
+      "id": "evt-mohenjo-daro-massacre",
+      "label": "Mohenjo-daro Skeletons",
+      "year": -1900,
+      "description": "Scattered human skeletons found in the upper levels of Mohenjo-daro were once interpreted as evidence of a violent massacre. Modern scholarship rejects the 'Aryan invasion' theory, attributing the remains to disease, flooding, or gradual abandonment.",
+      "wikiSlug": "Mohenjo-daro",
+      "tier": 3,
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Skeletons",
+          "text": "Excavators at Mohenjo-daro found clusters of human skeletons in the upper strata — some in doorways, some in the streets. Mortimer Wheeler, the British archaeologist who excavated the site in the 1940s, interpreted them as massacre victims and linked the destruction to 'Aryan invaders.'"
+        },
+        {
+          "label": "The Myth Debunked",
+          "text": "Modern forensic analysis has largely rejected the massacre hypothesis. The skeletons show no weapon injuries. Their scattered positions suggest they died at different times — possibly from flood, disease, or gradual abandonment rather than a single violent event. They may represent bodies left unburied during a chaotic period of urban crisis."
+        },
+        {
+          "label": "The Aryan Invasion Theory",
+          "text": "The 'Aryan invasion' narrative — once widely taught — proposed that Indo-Aryan warriors violently destroyed the Harappan civilization around 1500 BCE. This theory is now rejected by the archaeological and genetic communities. The Harappan decline preceded the Indo-Aryan arrivals by centuries, and the transition appears to have been cultural blending rather than military conquest."
+        }
+      ]
+    },
+    {
+      "id": "evt-cemetery-h",
+      "label": "Cemetery H Culture",
+      "year": -1900,
+      "endYear": -1300,
+      "description": "The Cemetery H culture at Harappa represents the Late Harappan phase, with new pottery styles featuring painted peacocks and stars. Cremation burial practices replaced earlier inhumation, signaling cultural transformation.",
+      "wikiSlug": "Cemetery_H_culture",
+      "tier": 2,
+      "category": "religion",
+      "details": [
+        {
+          "label": "New Death Practices",
+          "text": "Cemetery H culture introduced cremation burial to the Harappan world — a dramatic departure from the previous tradition of extended inhumation. The cremated remains were placed in large painted pottery urns and buried in graveyards distinct from the Mature Harappan cemeteries."
+        },
+        {
+          "label": "New Art Forms",
+          "text": "Cemetery H pottery features painted peacocks, pipal trees, stars, and abstract geometric patterns — images with no precedent in Mature Harappan art. These new visual languages suggest cultural contact with peoples from outside the Harappan sphere, possibly including early Indo-Aryan groups."
+        },
+        {
+          "label": "Transition Population",
+          "text": "The Cemetery H people were almost certainly Late Harappan descendants blending with incoming cultural influences. They form the archaeological bridge between the Indus civilization and the early Vedic cultures — the human substrate of one of history's most consequential cultural transformations."
+        }
+      ]
+    },
+    {
+      "id": "evt-deurbanization",
+      "label": "De-urbanization",
+      "year": -1800,
+      "description": "By 1800 BCE, the great Harappan cities had largely been abandoned as populations shifted to smaller rural settlements in the east and south. Writing, standardized weights, and long-distance trade all declined during this period.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The Dispersal",
+          "text": "Late Harappan settlement patterns show a dramatic shift: fewer large cities, more numerous small villages; westward sites abandoned, eastern sites multiplying. The population of the Ganges-Yamuna doab (the land between the rivers) increased significantly from 1900–1500 BCE as migrants from the declining Indus cities arrived."
+        },
+        {
+          "label": "What Was Lost",
+          "text": "With urban collapse came the loss of urban specialization: the Indus script stopped being written, standardized weights stopped being manufactured, the long-distance maritime trade network ended. The administrative and commercial infrastructure of the civilization simply stopped functioning."
+        },
+        {
+          "label": "What Survived",
+          "text": "Craft skills survived: pottery traditions, copper working, bead making, textile production. Agricultural knowledge survived: wheat and barley farming, cotton cultivation, irrigation techniques. These practical traditions flowed into the Gangetic cultures that replaced Harappan urban life — and eventually into the Vedic civilization growing in the same region."
+        }
+      ]
+    },
+    {
+      "id": "evt-pirak-settlement",
+      "label": "Pirak: Bridge Culture",
+      "year": -1800,
+      "endYear": -1300,
+      "description": "The post-urban settlement at Pirak in Balochistan shows continuity with Harappan traditions while introducing horse and camel figurines and rice cultivation — bridging the Harappan and Vedic worlds.",
+      "wikiSlug": "Pirak",
+      "tier": 3,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Old and New Together",
+          "text": "Pirak was a settled agricultural community that maintained Harappan craft traditions (pottery styles, copper tools) while incorporating new elements: horse and Bactrian camel figurines (animals not found in Mature Harappan contexts), rice cultivation alongside older wheat and barley, and iron objects appearing in the later levels."
+        },
+        {
+          "label": "Cultural Blending",
+          "text": "The combination of Harappan continuities and new elements at Pirak is exactly what cultural blending looks like archaeologically. This site provides material evidence for what the written record cannot tell us: how the encounter between post-Harappan populations and incoming Central Asian peoples produced the hybrid culture of the early Vedic period."
+        },
+        {
+          "label": "The Long Tail of Harappan Culture",
+          "text": "Pirak was occupied from 1800 to 1300 BCE — long after the Mature Harappan peak. It shows that Harappan cultural traditions didn't disappear in 1900 BCE but slowly transformed over 500 years of interaction with new peoples and ideas. The Vedic world grew out of this gradual transformation."
+        }
+      ]
+    },
+    {
+      "id": "evt-late-harappan-craft",
+      "label": "Late Harappan Regional Styles",
+      "year": -1700,
+      "description": "Despite urban decline, Late Harappan communities maintained craft traditions including pottery and copper working, but with increasing regional variation as cultural uniformity of the Mature phase broke down.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 3,
+      "category": "trade",
+      "details": [
+        {
+          "label": "Fragmentation",
+          "text": "The cultural uniformity of the Mature Harappan — those identical bricks, weights, and seals across 1.5 million square kilometers — dissolved in the Late period. Regional pottery styles diverged. Local materials replaced standardized imports. The civilization-wide trade network that had sustained cultural unity collapsed."
+        },
+        {
+          "label": "Craft Persistence",
+          "text": "Despite fragmentation, the craft knowledge of the Harappans persisted in rural workshops. Copper tools continued to be made. Pottery wheels continued to spin. Cotton continued to be grown and woven. The skills of the urban civilization outlasted the cities themselves by centuries."
+        },
+        {
+          "label": "Seeds of Later Tradition",
+          "text": "The copper working traditions of Late Harappan communities flow into the Copper Hoards culture of the Gangetic plain (1500–700 BCE), and ultimately into the Iron Age technologies of the early Vedic period. The material technology of India's first civilization didn't end; it evolved."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-period-begins",
+      "label": "Vedic Period Begins",
+      "year": -1500,
+      "description": "Indo-Aryan peoples migrated into the Indian subcontinent from Central Asia, bringing the horse, chariot, and the Sanskrit language. Their hymns — the Rigveda — would become the foundation of Hindu civilization.",
+      "wikiSlug": "Vedic_period",
+      "tier": 2,
+      "category": "people",
+      "details": [
+        {
+          "label": "The Arrivals",
+          "text": "Indo-Aryan-speaking peoples migrated into the Punjab from Central Asia around 1500 BCE, bringing domesticated horses, spoke-wheeled chariots, cattle herding practices, and the early hymns of the Rigveda. They were not a conquering army but a gradual influx of pastoralists settling into a post-urban landscape."
+        },
+        {
+          "label": "Meeting the Harappans",
+          "text": "The Indo-Aryans did not arrive in an empty land. Post-Harappan populations — Dravidian-speaking farmers descended from the Indus civilization — were already living in the Gangetic foothills and plains. The encounter between these two groups produced the hybrid culture of early Vedic India: Indo-Aryan language and ritual overlaying Harappan agricultural and craft foundations."
+        },
+        {
+          "label": "The New Civilization",
+          "text": "The Vedic period inherited from the Harappans: the monsoon-based agricultural calendar, cotton cultivation, the buffalo sacrifice tradition, and possibly the proto-Shiva deity. The Indo-Aryans contributed: Sanskrit, the Vedic hymns, fire sacrifice (yajna), the chariot, and new social categories. From this fusion emerged classical Indian civilization."
+        }
+      ]
+    },
+    {
+      "id": "evt-end-civilization",
+      "label": "Harappan Legacy Fades",
+      "year": -1300,
+      "description": "By 1300 BCE, the last vestiges of Harappan cultural markers had disappeared, absorbed into regional cultures of the Gangetic plain. But the people and their knowledge — agricultural, craft, and possibly spiritual — lived on in the world they had built.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "tier": 2,
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The End of the Visible",
+          "text": "By 1300 BCE, the Indus script had stopped being used, standardized weights had disappeared, and Harappan-style seals were no longer being produced. The material culture that archaeologists can identify as 'Harappan' had dissolved into regional traditions. The civilization was over."
+        },
+        {
+          "label": "The Invisible Inheritance",
+          "text": "What the Harappans left behind was mostly invisible to later peoples — and to archaeologists until 1922. Their sewers were buried. Their cities were forgotten. Their script was unreadable. But their agricultural techniques, craft knowledge, trade routes, and possibly their religious ideas all persisted in the cultures that grew in their wake."
+        },
+        {
+          "label": "Rediscovery",
+          "text": "The Indus civilization was unknown to history until British archaeologists began excavating Harappa and Mohenjo-daro in the 1920s. What they found — a civilization larger than Egypt and Mesopotamia combined — was a complete surprise. The world's largest Bronze Age civilization had been entirely forgotten for 3,000 years."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Mohenjo-daro",
+      "aliases": [
+        "Mound of the Dead"
+      ],
+      "definition": "The largest city of the Indus Valley Civilization, located in modern Sindh (Pakistan). At its peak around 2500 BCE it housed 40,000–80,000 people with grid-planned streets, covered drains, and the Great Bath. Rediscovered in 1922.",
+      "wikiSlug": "Mohenjo-daro",
+      "type": "geography"
+    },
+    {
+      "term": "Harappa",
+      "aliases": [],
+      "definition": "One of the two great cities of the Indus civilization (the other being Mohenjo-daro), located in modern Punjab (Pakistan). It gave its name to the Harappan civilization. Population peaked at 23,000–35,000 during the Mature phase.",
+      "wikiSlug": "Harappa",
+      "type": "geography"
+    },
+    {
+      "term": "Lothal",
+      "aliases": [],
+      "definition": "A Harappan port city in modern Gujarat, India, famous for the world's earliest known purpose-built tidal dock. It was a major manufacturing and trade hub with connections to Mesopotamia and the Persian Gulf.",
+      "wikiSlug": "Lothal",
+      "type": "geography"
+    },
+    {
+      "term": "Dholavira",
+      "aliases": [],
+      "definition": "One of the five largest Harappan cities, located in the Rann of Kutch (Gujarat, India). Remarkable for its three-part urban layout and elaborate system of 16 reservoirs that harvested every drop of monsoon rain in an arid environment.",
+      "wikiSlug": "Dholavira",
+      "type": "geography"
+    },
+    {
+      "term": "Rakhigarhi",
+      "aliases": [],
+      "definition": "A massive Harappan city in modern Haryana, India — possibly the largest Harappan city by area. DNA analysis of its burials provided key evidence that Harappan people were genetically distinct from later Indo-Aryan migrants.",
+      "wikiSlug": "Rakhigarhi",
+      "type": "geography"
+    },
+    {
+      "term": "Mehrgarh",
+      "aliases": [],
+      "definition": "A Neolithic village in Balochistan (Pakistan) occupied from 7000 BCE. One of the world's earliest farming settlements and the direct cultural ancestor of the Indus Valley Civilization. Famous for the world's earliest evidence of dentistry.",
+      "wikiSlug": "Mehrgarh",
+      "type": "geography"
+    },
+    {
+      "term": "Kalibangan",
+      "aliases": [],
+      "definition": "An Early and Mature Harappan city in Rajasthan, India. Famous for containing the world's earliest known plowed field (still visible as criss-crossing furrow patterns) and rows of fire altars possibly used for ritual sacrifice.",
+      "wikiSlug": "Kalibangan",
+      "type": "geography"
+    },
+    {
+      "term": "Steatite",
+      "aliases": [
+        "soapstone"
+      ],
+      "definition": "A soft, easily carved stone (talc-rich) used extensively by the Harappans to make their distinctive square seals. After carving and polishing, seals were fired to produce a hard white surface. Also used for beads and small vessels.",
+      "wikiSlug": "Steatite",
+      "type": "technique"
+    },
+    {
+      "term": "Meluhha",
+      "aliases": [],
+      "definition": "The Sumerian name for the Indus Valley region, appearing in Mesopotamian cuneiform texts from around 2350 BCE. Meluhha was known as a source of carnelian, lapis lazuli, ivory, timber, and exotic animals traded to Mesopotamia.",
+      "wikiSlug": "Meluhha",
+      "type": "term"
+    },
+    {
+      "term": "Dilmun",
+      "aliases": [],
+      "definition": "The Sumerian name for ancient Bahrain — the island entrepôt midway between the Indus Valley and Mesopotamia. Dilmun served as the hub of the Harappan-Mesopotamian trade network and was described in Sumerian texts as a 'pure' and prosperous land.",
+      "wikiSlug": "Dilmun",
+      "type": "geography"
+    },
+    {
+      "term": "Magan",
+      "aliases": [],
+      "definition": "The ancient name for the coastal region of modern Oman, a major source of copper traded to both Mesopotamia and the Indus Valley. Harappan artifacts found in Oman confirm direct trade between the two civilizations.",
+      "wikiSlug": "Magan_(civilization)",
+      "type": "geography"
+    },
+    {
+      "term": "Indus script",
+      "aliases": [
+        "Harappan script"
+      ],
+      "definition": "The undeciphered writing system of the Indus Valley Civilization, used primarily on small square seals. It comprises roughly 400 distinct signs, is generally written right-to-left, and has resisted decipherment for over a century despite numerous attempts.",
+      "wikiSlug": "Indus_script",
+      "type": "term"
+    },
+    {
+      "term": "Mature Harappan",
+      "aliases": [
+        "Mature phase"
+      ],
+      "definition": "The peak phase of the Indus Valley Civilization (2600–1900 BCE), characterized by large planned cities, standardized weights and bricks, widespread use of the Indus script, and active maritime trade with Mesopotamia.",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "term"
+    },
+    {
+      "term": "Carnelian",
+      "aliases": [],
+      "definition": "A red-orange semi-precious stone mined in Gujarat that the Harappans turned into their most prized export. Long carnelian beads required weeks of heating, drilling, and polishing to produce, and were found in royal tombs as far away as Mesopotamia.",
+      "wikiSlug": "Carnelian_(gemstone)",
+      "type": "term"
+    },
+    {
+      "term": "lost-wax casting",
+      "aliases": [
+        "cire perdue"
+      ],
+      "definition": "A metalworking technique in which a wax model is surrounded by clay, fired to melt out the wax, then filled with molten metal. The Harappans used this method to produce the Dancing Girl figurine and other sophisticated bronze objects around 2500 BCE.",
+      "wikiSlug": "Lost-wax_casting",
+      "type": "technique"
+    },
+    {
+      "term": "yajna",
+      "aliases": [
+        "fire sacrifice",
+        "yagna"
+      ],
+      "definition": "The central ritual of Vedic religion — a fire sacrifice performed on specially constructed altars, in which offerings of grain, ghee, and sometimes animals are burned as gifts to the gods. Possibly prefigured by Harappan fire altars at Kalibangan.",
+      "wikiSlug": "Yajna",
+      "type": "term"
+    },
+    {
+      "term": "Rigveda",
+      "aliases": [
+        "Rig Veda"
+      ],
+      "definition": "The oldest of the four Vedas, consisting of 1,028 hymns to Vedic deities. Composed orally by Indo-Aryan peoples between 1500 and 1200 BCE, it is the oldest religious text in any Indo-European language and the foundational scripture of Hinduism.",
+      "wikiSlug": "Rigveda",
+      "type": "term"
+    },
+    {
+      "term": "Indo-Aryan migration",
+      "aliases": [
+        "Aryan migration",
+        "Indo-Aryan migrants"
+      ],
+      "definition": "The movement of Indo-Aryan-speaking peoples from the Eurasian steppe into South Asia beginning around 1500 BCE, bringing the Sanskrit language, Vedic religious traditions, and domesticated horses. Distinct from the discredited 'Aryan invasion' theory of violent conquest.",
+      "wikiSlug": "Indo-Aryan_migrations",
+      "type": "term"
+    },
+    {
+      "term": "Ghaggar-Hakra",
+      "aliases": [
+        "Sarasvati River",
+        "Saraswati"
+      ],
+      "definition": "A now-mostly-dry river system running through Haryana and Rajasthan (India) that once supported hundreds of Harappan settlements. Some scholars identify it with the mythical Vedic Sarasvati River. Its drying around 1900 BCE contributed to Harappan urban decline.",
+      "wikiSlug": "Ghaggar-Hakra_river",
+      "type": "geography"
+    },
+    {
+      "term": "zebu",
+      "aliases": [
+        "humped bull",
+        "Bos indicus"
+      ],
+      "definition": "The distinctive humped cattle of South Asia, domesticated in the Indus Valley region around 3000 BCE. The zebu appears prominently on Harappan seals and is likely the 'unicorn' animal depicted in the most common seal type. Still a sacred animal in Hinduism today.",
+      "wikiSlug": "Zebu",
+      "type": "term"
+    },
+    {
+      "term": "Shortughai",
+      "aliases": [],
+      "definition": "The northernmost known Harappan settlement, located in the Amu Darya valley of modern Afghanistan — 1,500 km from the Indus heartland. Positioned near lapis lazuli mines in Badakhshan, it was a Harappan commercial outpost for obtaining this prized trade commodity.",
+      "wikiSlug": "Shortughai",
+      "type": "geography"
+    },
+    {
+      "term": "lapis lazuli",
+      "aliases": [],
+      "definition": "A deep-blue semi-precious stone mined almost exclusively in the Badakhshan region of modern Afghanistan during the ancient period. Prized across the ancient world from Egypt to Mesopotamia to the Indus, it was one of the most valuable trade commodities of the Bronze Age.",
+      "wikiSlug": "Lapis_lazuli",
+      "type": "term"
+    },
+    {
+      "term": "4.2 kiloyear event",
+      "aliases": [
+        "4.2 kya event"
+      ],
+      "definition": "A prolonged global drought lasting roughly 200 years, centered around 2200 BCE, evidenced by climate proxies worldwide. Associated with the collapse of the Akkadian Empire, Old Kingdom Egypt, and possibly contributing to Harappan urban decline. One of the most significant climate events of the Holocene.",
+      "wikiSlug": "4.2-kiloyear_event",
+      "type": "term"
+    },
+    {
+      "term": "Pashupati",
+      "aliases": [
+        "Lord of Animals"
+      ],
+      "definition": "The name ('Lord of Animals') applied by scholars to a figure depicted on a famous Mohenjo-daro seal — a horned, cross-legged deity surrounded by animals. Some interpret this as a proto-Shiva figure; others see it as coincidental resemblance to later Hindu iconography.",
+      "wikiSlug": "Pashupati_seal",
+      "type": "term"
+    },
+    {
+      "term": "Cemetery H culture",
+      "aliases": [],
+      "definition": "The Late Harappan culture (1900–1300 BCE) at Harappa, named for a burial site. Characterized by new pottery with painted peacocks and stars, cremation replacing inhumation, and the fading of Indus script use — marking the transition from the Harappan to early Vedic cultural world.",
+      "wikiSlug": "Cemetery_H_culture",
+      "type": "term"
+    },
+    {
+      "term": "Kot Diji",
+      "aliases": [
+        "Kot Dijian phase"
+      ],
+      "definition": "An Early Harappan fortified settlement in Sindh and the name for the pre-urban phase (2800–2600 BCE) that preceded the Mature Harappan. Kot Diji-phase sites show the first signs of regional cultural standardization that would intensify into full urbanism.",
+      "wikiSlug": "Kot_Diji",
+      "type": "geography"
+    },
+    {
+      "term": "Pirak",
+      "aliases": [],
+      "definition": "A post-Harappan settlement in Balochistan occupied 1800–1300 BCE that blended Harappan craft traditions with new elements including horse and camel figurines and rice cultivation. It represents the cultural bridge between the Indus civilization and early Vedic India.",
+      "wikiSlug": "Pirak",
+      "type": "geography"
+    },
+    {
+      "term": "entrepôt",
+      "aliases": [
+        "trading hub"
+      ],
+      "definition": "A neutral port city that facilitates trade between two distant civilizations without producing the traded goods itself. Dilmun (Bahrain) served as an entrepôt between the Indus Valley and Mesopotamia, taking a profit from facilitating exchange between both worlds.",
+      "wikiSlug": "Entrepôt",
+      "type": "term"
+    },
+    {
+      "term": "Chanhu-daro",
+      "aliases": [],
+      "definition": "A Harappan city in Sindh (Pakistan) notable for being the only major Harappan urban center without a citadel mound. It functioned as a specialized manufacturing hub for beads, seals, and metal objects rather than an administrative center.",
+      "wikiSlug": "Chanhu-daro",
+      "type": "geography"
+    },
+    {
+      "term": "Surkotada",
+      "aliases": [],
+      "definition": "A Late Harappan fortified settlement in Gujarat (India) that yielded controversial horse bone remains — claimed by some as the earliest domesticated horse evidence in South Asia, debated by specialists as possibly representing a wild equid rather than true horse.",
+      "wikiSlug": "Surkotada",
+      "type": "geography"
+    },
+    {
+      "term": "padmasana",
+      "aliases": [
+        "lotus position"
+      ],
+      "definition": "A seated cross-legged meditation posture central to South Asian yoga and meditation traditions. The Pashupati seal may depict the earliest known use of this posture, suggesting yoga-like practices were part of Harappan religious life long before the Vedic period.",
+      "wikiSlug": "Padmasana",
+      "type": "term"
+    }
+  ],
+  "story": {
+    "intro": "Around 2600 BCE, while Egyptian pharaohs were building pyramids and Sumerian city-states were squabbling over river rights, the people of the Indus Valley were quietly doing something no one had done before: building the world's first planned cities. Grid-planned streets. Covered sewage drains. Public wells on every block. A standardized system of weights accurate to a fraction of a gram, uniform from Afghanistan to Gujarat. The Indus Valley Civilization was the largest Bronze Age civilization on Earth — and it did it all without palaces, without royal tombs, and without a single name we can read.\n\nFor 700 years the civilization flourished: cities of 50,000 people, maritime trade reaching Mesopotamia, crafts exported across the ancient world. Then, around 1900 BCE, the great cities were gradually abandoned. No one burned them, no army conquered them — the people simply drifted away, east toward the Ganges, south toward Gujarat, leaving their cities to the silence. Three thousand years later, British archaeologists stumbled onto the ruins and discovered that the world's largest Bronze Age civilization had been entirely forgotten.\n\nThree paths explore this world. Cities of the Indus follows the urban miracle — the engineering, the planning, the architecture that still astonishes modern engineers. Trade and Technology traces how the Harappans connected the ancient world, from Afghanistan's lapis lazuli to Mesopotamia's gold. Mystery and Collapse wrestles with what we don't know: the unread script, the invisible rulers, and the quiet ending of the most sophisticated urban society the ancient world had seen.",
+    "paths": [
+      {
+        "id": "cities",
+        "label": "Cities of the Indus",
+        "description": "The engineering marvel: how 5 million people built the ancient world's most livable cities — and why we still don't know who was in charge.",
+        "color": "#0ea5e9",
+        "icon": "🏙️",
+        "nodes": [
+          {
+            "eventId": "evt-mehrgarh-settlement",
+            "narrative": "Every civilization begins somewhere. For the Indus Valley, it began at Mehrgarh — a farming village in the Kachi Plain of Balochistan that was already old when the pyramids were young. By 7000 BCE, the people of Mehrgarh were growing wheat and barley, herding cattle and goats, and producing distinctive pottery decorated with geometric designs. They were also, remarkably, drilling teeth. Dental analysis of burials shows that Mehrgarh residents used flint-tipped bow drills to address tooth decay — the earliest evidence of dentistry anywhere on Earth, predating Egyptian dental texts by four millennia.\n\nMehrgarh wasn't the Indus civilization — that was still 4,500 years in the future — but it was the seed. Over those millennia, the agricultural techniques, craft traditions, and cultural practices of Mehrgarh's descendants gradually spread across the Indus drainage basin. The people who would build Mohenjo-daro and Harappa were the great-grandchildren, a hundred generations removed, of these Balochistan farmers. The Indus civilization didn't emerge from nothing; it grew from one of the world's oldest farming traditions.",
+            "image": {
+              "commonsFile": "Mehrgarh_-_Overview_of_the_excavation_site.jpg",
+              "caption": "Archaeological excavations at Mehrgarh, Balochistan — the Neolithic predecessor to the Indus civilization."
+            },
+            "quiz": [
+              {
+                "question": "What makes Mehrgarh's dental evidence particularly remarkable in global context?",
+                "options": [
+                  "It predates all other known dental treatment by over 4,000 years",
+                  "It shows teeth were replaced with ivory implants",
+                  "It was performed only on rulers and priests",
+                  "It used metal instruments unavailable elsewhere"
+                ],
+                "answerIndex": 0,
+                "explanation": "Mehrgarh burials show bow-drill dentistry from around 7000 BCE — the oldest evidence of dental treatment in the world, predating the first known Egyptian dental texts by over 4,000 years."
+              },
+              {
+                "question": "What crop cultivated at Mehrgarh around 7000 BCE would later become one of the world's most important commercial crops?",
+                "options": [
+                  "Rice",
+                  "Wheat",
+                  "Barley",
+                  "Cotton"
+                ],
+                "answerIndex": 3,
+                "explanation": "Cotton cultivation began in the Indus Valley region — early evidence comes from Mehrgarh and later from Mohenjo-daro. The Harappans were among the first people to cultivate cotton commercially, launching an agricultural tradition that now clothes much of the world."
+              }
+            ],
+            "id": "node-mehrgarh-settlement"
+          },
+          {
+            "eventId": "evt-mature-harappan-begins",
+            "narrative": "Around 2600 BCE, something extraordinary happened across the Indus drainage basin: scattered farming towns reorganized almost simultaneously into planned cities. The scale of the transformation is startling. Within a century or two, communities separated by hundreds of kilometers began using identical brick ratios (1:2:4), identical weight standards, and an identical writing system. How? We have no idea. No founding text survives. No inscriptions name a great reformer or conqueror. The urban revolution happened in near-total archaeological silence.\n\nWhat emerged was the Mature Harappan civilization — the largest of the three great Bronze Age civilizations, covering 1.5 million square kilometers with over 1,000 settlements. At its peak it was home to five million people. The great cities — Mohenjo-daro, Harappa, Rakhigarhi, Dholavira — were among the largest urban centers on Earth. And they were built on principles no other ancient civilization had discovered: public infrastructure first, private luxury second. Grid-planned streets, covered drains, public wells on every block. While Mesopotamian cities built temples and Egyptians built pyramids, the Harappans built sewers. It tells you something profound about what they thought a city was for.",
+            "image": {
+              "commonsFile": "Mohenjo-daro_Ruins.jpg",
+              "caption": "The ruins of Mohenjo-daro, one of the largest cities of the ancient world, with its distinctive grid-planned streets."
+            },
+            "quiz": [
+              {
+                "question": "How large was the Indus Valley Civilization compared to Egypt and Mesopotamia?",
+                "options": [
+                  "Smaller than both",
+                  "Larger in area than Egypt and Mesopotamia combined",
+                  "About twice the size of Egypt",
+                  "Roughly the same size as each"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Indus Valley Civilization covered 1.5 million square kilometers — larger in area than Egypt and Mesopotamia combined, making it the largest of the three great Bronze Age civilizations."
+              },
+              {
+                "question": "What is the most striking difference between Harappan cities and contemporary Egyptian or Mesopotamian cities?",
+                "options": [
+                  "Harappan cities were smaller and less populated",
+                  "Harappan cities had no defensive walls",
+                  "Harappan cities had no marketplaces",
+                  "Harappan cities prioritized public infrastructure (drains, wells) over temples and palaces"
+                ],
+                "answerIndex": 3,
+                "explanation": "While Egyptian and Mesopotamian cities built temples and palaces as their central monuments, Harappan cities prioritized covered drains, public wells, and grid-planned streets — an inversion of priorities that suggests a fundamentally different understanding of what a city is for."
+              }
+            ],
+            "id": "node-mature-harappan-begins"
+          },
+          {
+            "eventId": "evt-mohenjo-daro-built",
+            "narrative": "Mohenjo-daro was the largest city in the Indus world — perhaps 40,000 to 80,000 people at its peak, covering 250 hectares of precisely organized space. Standing on its citadel mound today (what's left of it), you can still see the logic of the planning. Streets ran straight. Drains ran beneath them. Houses were built to standard proportions using standard bricks. The whole city was a machine for urban life, designed with an engineer's clarity.\n\nThe city divided into two main zones. On the higher Citadel Mound stood the Great Bath, a large assembly hall, and what may have been administrative granaries. Below, in the Residential Mound, hundreds of houses of varying sizes opened onto lanes that branched from main avenues. The wealthier houses were larger and faced inward — private courtyards rather than street-facing facades. Every substantial house had its own bathroom, and every bathroom drained into the covered brick channels under the streets. The system was so well designed that archaeologists initially thought some drains were medieval constructions — too sophisticated for 2600 BCE.\n\nWho built it? We don't know. No inscription names a founder. No palace displays a ruler's face. Mohenjo-daro was built, maintained for 700 years, and eventually abandoned — entirely anonymously. The greatest urban engineering project of the Bronze Age was accomplished by people whose names we cannot speak.",
+            "image": {
+              "commonsFile": "Mohenjodaro_-_The_Great_Bath.jpg",
+              "caption": "The Great Bath of Mohenjo-daro — the world's earliest known public ritual water tank, built around 2600 BCE."
+            },
+            "quiz": [
+              {
+                "question": "What was unusual about how wealthy Harappan houses were oriented?",
+                "options": [
+                  "They faced inward toward private courtyards rather than the street",
+                  "They were built above street level on raised platforms",
+                  "They had no windows at all",
+                  "They faced outward toward major streets for commerce"
+                ],
+                "answerIndex": 0,
+                "explanation": "Harappan elite houses faced inward onto private courtyards rather than outward onto streets — suggesting a culture that valued privacy and separation from public space, unlike Mesopotamian houses that often opened commercial areas to the street."
+              },
+              {
+                "question": "What did archaeologists initially assume about Harappan drain construction?",
+                "options": [
+                  "That it was a water delivery system, not a sewage system",
+                  "That it was built by Roman engineers much later",
+                  "That it was medieval construction, too sophisticated for 2600 BCE",
+                  "That it was purely decorative rather than functional"
+                ],
+                "answerIndex": 2,
+                "explanation": "The sophistication of Harappan drainage — with inspection holes, household connections, and covered channels — was so advanced that some archaeologists initially assumed they were medieval constructions, not believing drains of this quality could date to 2600 BCE."
+              }
+            ],
+            "id": "node-mohenjo-daro-built"
+          },
+          {
+            "eventId": "evt-great-bath",
+            "narrative": "At the center of Mohenjo-daro's citadel mound sits the Great Bath — a rectangular pool 12 meters long, 7 meters wide, and 2.4 meters deep, sealed with bitumen-treated bricks that have kept it watertight for 4,600 years. There's nothing quite like it anywhere else in the Bronze Age world. This isn't a river, a cistern, or a private bath — it's a purpose-built public pool of considerable engineering sophistication, sitting at the civic heart of the city's most important mound.\n\nThe leading interpretation is that the Great Bath served ritual purification — ceremonial bathing before religious activities. Surrounding rooms may have been changing rooms or the residences of priests. If so, the Great Bath is the oldest ancestor of the sacred kunda found in Hindu temples today, and the broader South Asian tradition of ritual bathing in holy tanks and rivers that continues for hundreds of millions of people. The specific line of descent cannot be proven — the Harappans left no texts explaining their practices — but the geographical and temporal proximity, combined with the architectural similarity, makes a connection plausible.\n\nWhat the Great Bath tells us most clearly is that the Harappans organized their cities around collective experiences. Clean water, ritual purity, communal bathing — these were civic priorities, not private luxuries. The Bath sat where an Egyptian city would have put a temple and a Mesopotamian city would have put a royal palace. The Harappans put a public pool.",
+            "quiz": [
+              {
+                "question": "What material was used to waterproof the Great Bath, still effective 4,600 years later?",
+                "options": [
+                  "Lead-lined bricks",
+                  "Fired clay with salt treatment",
+                  "Bitumen (natural asphalt) applied between brick layers",
+                  "Gypsum plaster over limestone"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Great Bath was waterproofed with bitumen — natural asphalt applied between layers of precisely fitted kiln-fired bricks. This 4,600-year-old waterproofing system is still largely effective today."
+              },
+              {
+                "question": "What does the Great Bath's location on the Citadel Mound tell us about Harappan priorities?",
+                "options": [
+                  "That military defense was the city's top concern",
+                  "That a public ritual bathing pool ranked as a civic priority equal to temples and palaces elsewhere",
+                  "That the Harappans lacked sufficient building materials for permanent structures",
+                  "That water was too scarce to be used for ritual purposes"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Great Bath occupies the same prestigious position — the city's highest, most important mound — that temples held in Mesopotamian cities and palaces held in Egyptian ones. This placement indicates that public ritual bathing was a top civic priority in Harappan culture."
+              }
+            ],
+            "id": "node-great-bath"
+          },
+          {
+            "eventId": "evt-drainage-system",
+            "narrative": "The Harappan drainage system is one of the most remarkable achievements in human history — not for its scale or ambition, but for its sheer practical sophistication. Every house of any substance had a private bathroom with a drain. Every drain connected to a covered brick channel under the street. Every main channel had inspection holes at regular intervals so workers could descend and clean it. The system handled human waste, rainwater, and household wastewater — and it served cities of 50,000 people.\n\nFor context: Rome built comparable urban drainage infrastructure 2,500 years later, and European cities didn't manage it until the 19th century. London's famous Great Stink of 1858 — which killed thousands and finally forced the construction of a modern sewer system — happened in the world's largest industrial city, which had no covered drains worth mentioning. Mohenjo-daro had covered drains in 2600 BCE.\n\nThe investment in drainage is arguably the most important thing the Harappans built. Effective sewage disposal — moving human waste away from water sources and food production — is one of the most life-saving technologies in human history. Cities without it were constantly devastated by dysentery, cholera, and typhoid. The Harappans cracked the most important engineering problem of urban life 4,600 years ago. Then the knowledge was lost for 3,500 years.",
+            "quiz": [
+              {
+                "question": "What practical feature of Harappan drains shows they were designed for long-term maintenance, not just initial construction?",
+                "options": [
+                  "Channels ran downhill to self-clean with rainwater",
+                  "All drains were made of ceramic pipe, not brick",
+                  "Drains were built with removable bricks for replacement",
+                  "Inspection holes were installed at regular intervals so workers could descend and clean them"
+                ],
+                "answerIndex": 3,
+                "explanation": "Harappan street drains included inspection holes at regular intervals — openings large enough for a worker to enter and clean the channel. This maintenance-aware design shows the Harappans planned for the long-term operation of their infrastructure, not just initial construction."
+              },
+              {
+                "question": "How long after the Harappan drainage system would London build comparable covered sewers?",
+                "options": [
+                  "About 500 years later (in Roman times)",
+                  "About 1,500 years later (in medieval times)",
+                  "About 4,400 years later (in the 1860s)",
+                  "About 2,000 years later (in the 18th century)"
+                ],
+                "answerIndex": 2,
+                "explanation": "London's modern sewer system was built in the 1860s after the Great Stink of 1858 killed thousands and forced action. Mohenjo-daro had covered drains in 2600 BCE — roughly 4,400 years earlier."
+              }
+            ],
+            "id": "node-drainage-system"
+          },
+          {
+            "eventId": "evt-dholavira-built",
+            "narrative": "If Mohenjo-daro was the Indus civilization's greatest achievement of urban planning, Dholavira was its greatest achievement of engineering against the odds. Located in the Rann of Kutch — a flat salt plain that floods in monsoon and bakes dry for eight months of the year — Dholavira should not have been a major city. It was anyway, for over a thousand years.\n\nThe secret was water management. Dholavira's engineers built 16 interconnected reservoirs carved from rock and constructed from stone masonry, capturing every drop of monsoon rainfall that drained from the surrounding terrain and holding it through the dry season. The total storage capacity could sustain the city through multi-year droughts. When the city was at its peak around 2500 BCE, it was one of the most water-efficient urban settlements in the world.\n\nDholavira also had a unique layout: three distinct zones (not the usual two) separated by massive walls, with the innermost citadel protected by walls up to 18 meters thick. And it had the Dholavira Signboard — ten large Indus script characters originally mounted above the city's north gate, the only known public inscription in the entire civilization. The Harappans, it seems, wanted visitors to know where they were. We just can't read what they said.",
+            "image": {
+              "wikiSlug": "Dholavira",
+              "caption": "The ancient city of Dholavira, one of the five largest cities of the Indus Valley Civilization, built in the arid Rann of Kutch."
+            },
+            "quiz": [
+              {
+                "question": "How many interconnected reservoirs did Dholavira build to survive in the arid Rann of Kutch?",
+                "options": [
+                  "8",
+                  "16",
+                  "24",
+                  "3"
+                ],
+                "answerIndex": 1,
+                "explanation": "Dholavira built 16 interconnected reservoirs — some carved from bedrock, others built with stone masonry — to capture and store monsoon rainfall for the long dry season."
+              },
+              {
+                "question": "What makes the Dholavira Signboard unique among all Harappan artifacts?",
+                "options": [
+                  "It is the only known public inscription in the entire civilization",
+                  "It is the only Harappan text that has been partially deciphered",
+                  "It is the longest Harappan inscription found on a single seal",
+                  "It is the only Harappan text written on metal"
+                ],
+                "answerIndex": 0,
+                "explanation": "The Dholavira Signboard — ten large Indus script characters originally mounted above the city's north gate — is the only known public inscription in the Harappan world. Every other Harappan text appears on small personal seals."
+              }
+            ],
+            "id": "node-dholavira-built"
+          },
+          {
+            "eventId": "evt-decline-begins",
+            "narrative": "The decline of the Indus cities is one of history's most baffling mysteries — not because it was sudden and dramatic, but because it was slow and quiet. Around 1900 BCE, after 700 years of urban sophistication, the great cities began to empty. Not burned. Not conquered. Just gradually abandoned, as populations drifted eastward toward the Ganges, southward toward Gujarat's coast, away from the drying Ghaggar-Hakra river and the flooding Indus.\n\nThe causes are still debated. Climate change had already struck: the 4.2 kiloyear event (around 2200 BCE) brought prolonged drought to much of the ancient world, weakening the Ghaggar-Hakra river system that sustained hundreds of Harappan settlements. Then the Indus itself may have shifted course, flooding western cities. Then the Mesopotamian trade network — which had sustained Harappan urban economic life — collapsed as Bronze Age civilization stumbled across the Near East. And perhaps internal social stresses from population density, disease, and inequality played a role too.\n\nWhat's striking is what didn't happen. The people didn't die — they adapted. The cities emptied into villages. The craft traditions contracted but survived. The agricultural knowledge that fed five million people flowed east into the Ganges plain, where it would eventually combine with a new cultural tradition arriving from the west: the Indo-Aryan migrants who brought horses, chariots, and the hymns that would become the Rigveda. Two worlds colliding — the Harappan and the Indo-Aryan — would produce the civilization we call Hindu.",
+            "quiz": [
+              {
+                "question": "What is the most significant fact about the Harappan urban decline compared to other ancient civilization collapses?",
+                "options": [
+                  "It happened without evidence of military conquest, burning, or mass death — just gradual abandonment",
+                  "It was completed in less than 50 years",
+                  "All Harappan cities were abandoned at exactly the same time",
+                  "It was caused by a single catastrophic flood"
+                ],
+                "answerIndex": 0,
+                "explanation": "Unlike many ancient civilization collapses (which leave burning cities, massacre victims, and conquest inscriptions), the Harappan decline was quiet — gradual city abandonment without evidence of military conquest or mass death."
+              },
+              {
+                "question": "What happened to the people when the Harappan cities were abandoned?",
+                "options": [
+                  "They retreated into the Himalayas",
+                  "They were killed in warfare with incoming Indo-Aryans",
+                  "They migrated to Mesopotamia",
+                  "They adapted, with populations shifting east and south while preserving craft and agricultural knowledge"
+                ],
+                "answerIndex": 3,
+                "explanation": "Harappan populations weren't destroyed — they adapted. DNA evidence shows genetic continuity between Harappan-era populations and modern South Asians. People dispersed eastward and southward, carrying agricultural and craft knowledge that eventually blended with incoming Indo-Aryan cultural traditions."
+              }
+            ],
+            "id": "node-decline-begins"
+          }
+        ],
+        "recap": "The cities of the Indus were, in every measurable sense, the most sophisticated urban environments of the Bronze Age world. They achieved what no other civilization managed for another two millennia: city-wide sanitation, a standardized public infrastructure, and an urban planning logic that prioritized the quality of everyday life over the glorification of rulers. The Great Bath, the covered drains, the public wells on every block — these were the achievements of a civilization that had decided, collectively, that what a city owed its residents was clean water and working sewers.\n\nAnd then the cities were abandoned. Not in flame and conquest, but in the quiet redistribution of population that follows ecological and economic disruption. The Harappans became the substrate — the foundation layer — beneath everything that followed in South Asia. Their agricultural knowledge fed the Gangetic civilizations. Their craft traditions persisted in regional cultures for centuries. And their ritual practices — the purification bath, the horned deity, the sacred bull — echo in the religious traditions that followed.\n\nThe deepest mystery remains: who was in charge? Not a single name survives. No palace, no royal tomb, no commemorative inscription. The most sophisticated urban system of the ancient world was built and maintained for 700 years by people we cannot name, governed by authorities we cannot identify. The Indus cities are the greatest anonymous achievement in human history."
+      },
+      {
+        "id": "trade",
+        "label": "Trade and Technology",
+        "description": "How the Harappans built an ancient world-system — connecting Afghanistan to Oman, Mesopotamia to the Punjab — with weights, seals, and ships.",
+        "color": "#f59e0b",
+        "icon": "⚖️",
+        "nodes": [
+          {
+            "eventId": "evt-standardized-weights",
+            "narrative": "Commerce requires trust between strangers. In the modern world, trust is built by contracts, courts, and currencies. In the Harappan world, it was built by weights. The Harappan weight system — cubical chert stones ground to precise binary ratios — was accurate to 0.1 grams and uniform across 1,500 kilometers of territory. Identical weight sets have been found from Gujarat to the Punjab. Merchants at opposite ends of the civilization could do business knowing both parties were using the same standard.\n\nThis is more remarkable than it sounds. The Roman Empire, which unified an area far smaller than the Harappan civilization, spent enormous bureaucratic effort standardizing weights and measures across its territory. The Harappans achieved equivalent standardization without (as far as we can tell) a central government, an army, or a bureaucracy we can identify. Either there was a form of centralized authority we simply haven't found, or the cultural unity of the Harappan world was deep enough to maintain these standards through commercial custom alone.\n\nThe weight system was also technologically sophisticated. The progression — 1, 2, 4, 8, 16, 32, 64 — follows a binary doubling sequence that is easily verifiable by comparison. You don't need a central authority to audit these weights: any merchant with a balance scale could check whether a counterpart's weights were legitimate. The system was self-policing.",
+            "image": {
+              "commonsFile": "Indus_weight.jpg",
+              "caption": "Harappan cubical chert weights, standardized to precise binary ratios across the entire civilization."
+            },
+            "quiz": [
+              {
+                "question": "How were the binary Harappan weight ratios (1, 2, 4, 8, 16...) self-policing without a central authority?",
+                "options": [
+                  "Any merchant with a balance scale could verify whether a counterpart's weights were legitimate by comparison",
+                  "Government inspectors visited every market weekly",
+                  "The weights were made of a precious metal that couldn't be tampered with",
+                  "They were marked with the name of the issuing city"
+                ],
+                "answerIndex": 0,
+                "explanation": "The binary doubling sequence meant any merchant with a balance scale could immediately check weights against each other. If a 2-unit weight equals two 1-unit weights, any fraud is instantly detectable. The system was inherently self-verifying."
+              },
+              {
+                "question": "What does the uniform weight system across 1,500 kilometers imply about Harappan governance?",
+                "options": [
+                  "That the Harappans had no governance at all and relied on barter",
+                  "That a single powerful ruler personally enforced standards across the entire civilization",
+                  "That either a hidden central authority existed, or cultural unity maintained standards through commercial custom alone",
+                  "That the weight system was invented by Mesopotamian traders and adopted by the Harappans"
+                ],
+                "answerIndex": 2,
+                "explanation": "The uniform weight system implies either centralized authority we haven't found, or cultural unity deep enough to maintain commercial standards across 1,500 km without visible enforcement — both remarkable possibilities that we cannot yet distinguish."
+              }
+            ],
+            "id": "node-standardized-weights"
+          },
+          {
+            "eventId": "evt-bead-making",
+            "narrative": "If you wanted to send a signal of wealth and sophistication across the Bronze Age world, there was no better way than a long carnelian bead from the Indus. Producing one required weeks of careful work: heating the raw stone to change its color from orange to deep red, then drilling from both ends with copper drills tipped with abrasive paste, working through the brittle stone without cracking it. The longest beads reached 12 centimeters. The precision required would challenge a modern lapidary.\n\nThese beads appear in royal contexts thousands of kilometers from their origin. They've been found in the royal tombs at Ur in Mesopotamia, in Egyptian jewelry, and in Central Asian elite burials — proof that Harappan carnelian beads were not just locally valued but globally coveted. A Mesopotamian merchant who displayed a long carnelian necklace was advertising wealth, connections, and access to the distant world of Meluhha.\n\nThe bead industry was organized at the city level. Workshops at Chanhu-daro and Lothal have yielded thousands of semi-finished beads, raw carnelian blocks, and the tools of the trade. This was industrial-scale luxury production — professional craftspeople working for export markets, not household artisans making occasional pieces. The Harappans had, in effect, invented the concept of the luxury export industry.",
+            "image": {
+              "commonsFile": "Carnelian_beads_and_other_indus_jewellery.jpg",
+              "caption": "Harappan carnelian beads — among the most prized luxury exports of the ancient world, found in royal tombs from Mesopotamia to Central Asia."
+            },
+            "quiz": [
+              {
+                "question": "What makes long carnelian bead production an indicator of sophisticated craft specialization?",
+                "options": [
+                  "Only one family in Mohenjo-daro knew the technique",
+                  "The process required weeks of precise heating and drilling that only professional specialists could master",
+                  "Carnelian could only be found within 10 kilometers of Harappa",
+                  "The government controlled all bead production and export"
+                ],
+                "answerIndex": 1,
+                "explanation": "Long carnelian bead production required weeks of precise work: heat-treating to change color, then drilling from both ends without cracking the stone. The skill level required for 12-centimeter beads points to professional craftspeople, not household production."
+              },
+              {
+                "question": "What does the presence of Harappan carnelian beads in Mesopotamian royal tombs prove?",
+                "options": [
+                  "That Mesopotamian rulers conquered parts of the Indus Valley",
+                  "That the Harappans and Mesopotamians shared a common ruling dynasty",
+                  "That carnelian beads were used as currency across the ancient world",
+                  "That Harappan luxury goods circulated at the highest social levels across 3,000 kilometers"
+                ],
+                "answerIndex": 3,
+                "explanation": "Finding Harappan carnelian beads in royal tombs at Ur proves these goods reached the highest social levels of Mesopotamian society — they were elite luxury items, not common trade goods, traveling 3,000 kilometers to appear beside Sumerian royalty."
+              }
+            ],
+            "id": "node-bead-making"
+          },
+          {
+            "eventId": "evt-mesopotamia-trade",
+            "narrative": "Around 2350 BCE, a Sumerian scribe at Lagash wrote about goods arriving from a distant land called Meluhha — carnelian, ivory, timber, and exotic animals. Those goods came from the Indus Valley, 3,000 kilometers away by sea. For the next 400 years, Harappan merchants maintained one of the longest-distance trade relationships in the ancient world, sending ships from Lothal's tidal dock across the Arabian Sea to Mesopotamian ports.\n\nThe archaeological evidence is precise. Harappan-style seals — square steatite tablets with Indus script signs and animal motifs — have been found at Ur, Nippur, and other Mesopotamian cities. Mesopotamian cylinder seals appear at Indus sites. Harappan-style weights appear at Gulf trading posts. The trade was mutual, documented, and substantial enough to leave abundant physical traces across two civilizations that never shared a language or a king.\n\nWhat did it look like on the ground? Harappan merchant colonies may have operated at Mesopotamian ports, just as Assyrian merchants would later run trading colonies in Anatolia. The Harappan merchants who managed this trade were sophisticated commercial operators: they knew both markets, they maintained relationships across a sea voyage of weeks, and they did it without (so far as we know) the diplomatic infrastructure of a state. It was private enterprise on an ancient-world scale.",
+            "image": {
+              "commonsFile": "Indus_seal_impression.jpg",
+              "caption": "Harappan seal impression — identical steatite seals appear at sites from Mohenjo-daro to Ur in Mesopotamia, proving direct trade contact."
+            },
+            "quiz": [
+              {
+                "question": "What does the Sumerian term 'Meluhha' refer to in ancient texts?",
+                "options": [
+                  "The Indus Valley region, a distant trading partner known for carnelian, ivory, and timber",
+                  "The sea route between Mesopotamia and Egypt",
+                  "A Mesopotamian god of trade and commerce",
+                  "A mythological paradise at the end of the world"
+                ],
+                "answerIndex": 0,
+                "explanation": "Meluhha appears in Sumerian texts from around 2350 BCE as a distant trading partner supplying carnelian, ivory, timber, and exotic goods. Most scholars identify Meluhha with the Indus Valley civilization."
+              },
+              {
+                "question": "What physical evidence proves Harappan merchants operated directly in Mesopotamian cities?",
+                "options": [
+                  "Harappan clay tablets recording debt in Sumerian script",
+                  "Indus-language texts found in Mesopotamian libraries",
+                  "Harappan-style seals found at Ur, Nippur, and other Mesopotamian sites",
+                  "Mesopotamian accounts of Harappan armies"
+                ],
+                "answerIndex": 2,
+                "explanation": "Harappan-style steatite seals with Indus script and animal motifs have been found at multiple Mesopotamian cities including Ur. These are physical objects that traveled with goods or merchants from the Indus to Mesopotamia."
+              }
+            ],
+            "id": "node-mesopotamia-trade"
+          },
+          {
+            "eventId": "evt-shortughai",
+            "narrative": "In the Amu Darya valley of northern Afghanistan, 1,500 kilometers from the nearest Harappan heartland city, archaeologists found something unexpected: a Harappan colony. Shortughai was unmistakably Indus — the pottery, the weights, the seals, the street layout all matched the Harappan standard exactly. It was a transplanted Harappan community, living in the middle of Central Asia.\n\nWhy here? Shortughai was positioned near two resources the Harappans desperately wanted. The Badakhshan mines of northeastern Afghanistan were the only significant source of lapis lazuli in the ancient world — that deep-blue stone found in the jewelry of pharaohs and Sumerian queens, worth its weight in gold across the ancient world. And the region had tin deposits, the crucial ingredient for bronze production. Shortughai was, in effect, a resource extraction colony: a Harappan outpost positioned to control the supply of two of the most valuable commodities in the Bronze Age trade system.\n\nThe existence of Shortughai reframes the entire picture of the Indus civilization. This wasn't a regional culture that occasionally traded with neighbors. This was a commercial civilization operating a continent-spanning network: copper from Oman in the south, lapis lazuli and tin from Afghanistan in the north, ivory and carnelian from Gujarat in the east, trade goods for Mesopotamia in the west. The Harappan world-system stretched 3,000 kilometers from end to end.",
+            "quiz": [
+              {
+                "question": "Why was lapis lazuli so valuable in the ancient Bronze Age world?",
+                "options": [
+                  "It was the main ingredient in blue fabric dye used across the ancient world",
+                  "It was used as a preservative for food storage",
+                  "It was the only material that could be carved into cylinder seals",
+                  "The Badakhshan mines in Afghanistan were the only significant source in the ancient world"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Badakhshan mines in northeastern Afghanistan were the only significant lapis lazuli source in the ancient world. Every piece of lapis lazuli found in Egyptian pharaoh's tombs, Mesopotamian royal jewelry, and ancient Central Asian graves came from this one region — making control of its supply enormously valuable."
+              },
+              {
+                "question": "What does Shortughai's existence reveal about the nature of the Harappan economy?",
+                "options": [
+                  "That the Harappans were primarily a military empire that conquered distant territories",
+                  "That the Harappans operated a continent-spanning commercial network, not just regional trade",
+                  "That Harappan merchants worked for the state as government officials",
+                  "That the Harappan civilization was actually centered in Afghanistan, not the Indus"
+                ],
+                "answerIndex": 1,
+                "explanation": "A trading colony 1,500 km from the heartland, positioned near specific raw material sources, demonstrates that the Harappans were running a continent-spanning commercial network — not a regional culture with occasional long-distance contacts."
+              }
+            ],
+            "id": "node-shortughai"
+          },
+          {
+            "eventId": "evt-cotton-cultivation",
+            "narrative": "Around 2500 BCE, while the rest of the world was wearing wool and linen, the people of the Indus Valley were wearing cotton. They were among the first in the world to domesticate Gossypium arboreum — the tree cotton native to South Asia — and to spin it into thread fine enough for weaving. Cotton cloth fragments from Mohenjo-daro dated to 2500 BCE are among the earliest confirmed cotton textiles anywhere on Earth.\n\nCotton became one of the Harappans' most important exports. Mesopotamian texts describe cloth from Meluhha as a valued trade good. The soft, breathable fabric — superior to wool in the tropical climate of South Asia and attractive as a luxury good elsewhere — was shipped across the Arabian Sea alongside carnelian beads and ivory. Cotton production was probably organized at the city or guild level: not a household craft but an industrial textile industry with specialist spinners, weavers, and merchants managing the supply chain.\n\nThe global reach of this innovation is remarkable. Harappan cotton slowly spread: through trade to Arabia and the Persian Gulf, then to East Africa and the Mediterranean world, eventually to the Americas where Columbus found cotton already in use. Today cotton is one of the world's five most important crops, grown on every continent, clothing billions of people. The supply chain that feeds the entire global textile industry traces back — across 4,500 years of agricultural history — to the cotton fields of the Indus floodplain.",
+            "quiz": [
+              {
+                "question": "What was distinctive about the Harappan approach to cotton production compared to household craft?",
+                "options": [
+                  "Cotton production was likely organized industrially with specialist spinners, weavers, and merchants",
+                  "Each household grew its own cotton but was prohibited from selling it",
+                  "Cotton was used only for ritual purposes, never for clothing",
+                  "Cotton was only produced in royal workshops controlled by priests"
+                ],
+                "answerIndex": 0,
+                "explanation": "The scale of Harappan cotton evidence and its appearance as a major export good suggests organized production — industrial-level textile manufacturing with specialists, not household production for local use."
+              },
+              {
+                "question": "How did Harappan cotton eventually reach the Americas?",
+                "options": [
+                  "Harappan merchants sailed directly to the Americas in the Bronze Age",
+                  "Cotton spread gradually through Arab, African, and eventually transatlantic trade over thousands of years",
+                  "Columbus brought Harappan cotton seeds specifically to the Americas",
+                  "Cotton was independently domesticated in the Americas from a different species"
+                ],
+                "answerIndex": 1,
+                "explanation": "Harappan cotton spread gradually: through Arabian Sea trade to the Persian Gulf, then to East Africa and eventually the Mediterranean, then across the Atlantic. The process took millennia of incremental diffusion through trade networks. (The Americas did independently domesticate their own cotton species, Gossypium hirsutum, but the global spread of textile cotton culture began in South Asia.)"
+              }
+            ],
+            "id": "node-cotton-cultivation"
+          },
+          {
+            "eventId": "evt-indus-script-seals",
+            "narrative": "In the Harappan commercial world, identity was a seal. Every merchant, every warehouse, every shipment was marked with a small square steatite tablet pressed into wet clay — leaving an impression that identified the owner or shipper. Over 4,000 of these seals have been recovered from Harappan sites and from Mesopotamian trading posts. They are the commercial infrastructure of an ancient civilization.\n\nThe seals carried two things: an animal image and Indus script signs. The animals — bulls, unicorns, elephants, tigers — may have identified guilds, clans, or cities. The script signs probably recorded names, goods, or quantities. The clay sealings that survive — lumps of clay with seal impressions on one side and cord or mat impressions on the other — show exactly how the system worked: clay was pressed over a knotted cord securing a bundle or a door bolt, the seal was applied, and when the seal impression was broken, you knew the goods had been opened.\n\nBut the script itself remains locked. Despite over a century of attempts — some by the world's most distinguished linguists — no one has deciphered the Indus script. Without a bilingual inscription, without a known ancestral language to work from, the signs remain signs: 400 distinct marks encoding a civilization's identity, commercial transactions, and perhaps religious thoughts. They are the world's most eloquent silence.",
+            "quiz": [
+              {
+                "question": "How did clay sealings (not seals) function in Harappan commerce?",
+                "options": [
+                  "They were attached to boats as cargo manifests",
+                  "They were placed in graves to identify the deceased",
+                  "They were pressed on documents to authenticate contracts",
+                  "They were applied over knotted cords on bundles or door bolts — breaking the seal showed goods had been opened"
+                ],
+                "answerIndex": 3,
+                "explanation": "Clay sealings — lumps of clay with seal impressions on one face and cord or mat impressions on the other — were applied over knotted cords securing bundles or door bolts. Breaking the sealing proved the goods had been accessed. This is essentially the ancient equivalent of a tamper-evident seal."
+              },
+              {
+                "question": "Why is deciphering the Indus script so uniquely difficult compared to other ancient undeciphered scripts?",
+                "options": [
+                  "There is no bilingual inscription and no known ancestral language to work from",
+                  "The script was deliberately designed to be unreadable to outsiders",
+                  "Too few examples exist — fewer than 100 seals have been recovered",
+                  "The signs are too few and simple to contain meaningful information"
+                ],
+                "answerIndex": 0,
+                "explanation": "Successful ancient script decipherments (Egyptian hieroglyphs, Linear B) depended either on bilingual inscriptions (the Rosetta Stone) or a known related language. The Indus script has neither — no bilingual text, no confirmed linguistic ancestor, making decipherment essentially impossible without new discoveries."
+              }
+            ],
+            "id": "node-indus-script-seals"
+          },
+          {
+            "eventId": "evt-dancing-girl",
+            "narrative": "Among the most celebrated objects from the Indus civilization is a bronze figurine just 10.8 centimeters tall — the Dancing Girl of Mohenjo-daro. She stands with one hand on her hip and the other arm heavy with bangles from wrist to shoulder, looking directly at the viewer with an expression that archaeologists have struggled to describe for a century. Confident. Amused. Specific. She is, unmistakably, a particular person rather than a type.\n\nShe was cast using the lost-wax technique: a wax model precisely formed, surrounded by a clay mold, fired to melt out the wax, filled with molten bronze, the clay broken away. The technique requires considerable skill and experimentation to execute without defects. The Harappans were doing it around 2500 BCE.\n\nBut what the Dancing Girl represents most clearly is the human quality of Harappan art. Egyptian bronze figurines of this era are typically royal, religious, or symbolic — formal poses, divine attributes, kingly insignia. The Dancing Girl is none of these things. She is a young woman, possibly a performer, caught in a moment of casualness that somehow survived 4,500 years. She is the most human face the Indus civilization left us — and she is completely anonymous. We will never know her name.",
+            "image": {
+              "commonsFile": "Dancing_girl_of_Mohenjo-daro.jpg",
+              "caption": "The Dancing Girl of Mohenjo-daro — a bronze figurine cast using the lost-wax technique around 2500 BCE."
+            },
+            "quiz": [
+              {
+                "question": "What makes the Dancing Girl artistically unusual compared to contemporary Egyptian or Mesopotamian bronze work?",
+                "options": [
+                  "It was made using a technique unknown elsewhere in the Bronze Age world",
+                  "It is the only bronze object found at any Harappan site",
+                  "It shows a real individual in a casual moment rather than a royal, religious, or symbolic figure",
+                  "It depicts a goddess explicitly named in Indus script on its base"
+                ],
+                "answerIndex": 2,
+                "explanation": "Egyptian and Mesopotamian bronze figures of this era are typically formal — pharaohs, gods, symbolic animals. The Dancing Girl captures a specific individual in a casual pose, with no religious or royal iconography. This naturalistic, individualistic art style is highly unusual for 2500 BCE."
+              },
+              {
+                "question": "What does the lost-wax casting technique required for the Dancing Girl tell us about Harappan metallurgy?",
+                "options": [
+                  "That the Dancing Girl was actually made in Mesopotamia and traded to the Indus",
+                  "That lost-wax casting was a simple technique any villager could master",
+                  "That the Harappans learned bronze casting from Mesopotamian traders",
+                  "That Harappan metalworkers had achieved a high level of technical sophistication by 2500 BCE"
+                ],
+                "answerIndex": 3,
+                "explanation": "Lost-wax casting requires precise temperature control, skilled mold-making, and considerable trial-and-error experience. The successful execution of the Dancing Girl — at 2500 BCE — demonstrates that Harappan metalworkers had achieved a sophisticated level of technical mastery."
+              }
+            ],
+            "id": "node-dancing-girl"
+          }
+        ],
+        "recap": "The Harappan trade network was a world-system in the truest sense: a commercial web stretching from the copper mines of Oman to the lapis lazuli mines of Afghanistan to the gold and grain markets of Mesopotamia, all connected by standardized weights, recognizable seals, and the Harappan language of commercial trust. At its peak, Harappan merchants were operating the longest-distance sustained trade relationships of the Bronze Age world.\n\nWhat built this system was not military power — there's no evidence the Harappans maintained a significant army or projected military force anywhere. What built it was technology, craft quality, and commercial sophistication. The standardized weight system enabled trust between strangers. The carnelian beads and cotton cloth provided luxury goods no other civilization could match. The tidal dock at Lothal enabled year-round shipping. And the Indus script — however it worked — provided the administrative language to manage transactions across thousands of kilometers.\n\nWhen the trade network collapsed around 1900 BCE — partly from climate change, partly from the simultaneous decline of Mesopotamian trading partners — the Harappan urban system had no other foundation to stand on. Cities don't exist in isolation; they exist to process surplus production and facilitate commerce. When the commerce died, the cities followed. The Harappans had built the ancient world's most sophisticated commercial civilization, and they were also the first to discover that commercial civilizations are fragile in ways that subsistence agricultural civilizations are not."
+      },
+      {
+        "id": "mystery",
+        "label": "Mystery and Collapse",
+        "description": "The civilization no one can read: the undeciphered script, the invisible rulers, the quiet ending — and what the Harappans left behind.",
+        "color": "#8b5cf6",
+        "icon": "🔍",
+        "nodes": [
+          {
+            "title": "The Undeciphered Script",
+            "facts": [
+              {
+                "label": "The Mystery",
+                "text": "The Indus script has ~400 signs written right-to-left on steatite seals. Averaging just 5 signs per inscription, it remains undeciphered after 150 years of attempts."
+              },
+              {
+                "label": "The Problem",
+                "text": "No bilingual text — no Indus Rosetta Stone — has been found. Without knowing the underlying language, the signs remain unreadable."
+              },
+              {
+                "label": "What We Know",
+                "text": "The script was transactional — labels, identifiers, brief notes. The Harappans are the only major ancient civilization whose writing is entirely closed to us."
+              }
+            ],
+            "narrative": "In 1875, a British railway engineer named Alexander Cunningham came across a small square stone tablet at Harappa with strange signs on it. He thought it was foreign — possibly from beyond India. It wasn't. It was Harappan. And 150 years later, we still can't read it.\n\nThe Indus script is one of the last great undeciphered writing systems in the ancient world. It comprises roughly 400 distinct signs, mostly written right-to-left on small square steatite seals. The inscriptions are short — averaging five signs, rarely more than twenty. This brevity is itself a clue: the script was probably used for labels, identifiers, and brief administrative notes rather than extended narratives. No one was writing poetry in Indus script. No one was recording kings' names and victories. Whatever it was for, it was transactional.\n\nDecipherment has been attempted dozens of times by some of the world's finest linguists. None have succeeded. The fundamental problem is the lack of a bilingual text — an Indus Rosetta Stone. Without knowing what language underlies the script, and without a bilingual text to compare, the signs remain signs. We can count them, categorize them, map their distribution — but we cannot read them. The Harappans are the only major ancient civilization whose written language is entirely closed to us.",
+            "quiz": [
+              {
+                "question": "What is the fundamental obstacle to deciphering the Indus script?",
+                "options": [
+                  "There aren't enough examples to establish patterns",
+                  "The script changes dramatically between different cities",
+                  "No bilingual inscription exists and no known ancestral language can be identified",
+                  "The signs are too simple to encode a real language"
+                ],
+                "answerIndex": 2,
+                "explanation": "Every successful ancient script decipherment relied on a bilingual inscription (like the Rosetta Stone for Egyptian hieroglyphs) or a known related language (like Mycenaean Greek for Linear B). The Indus script has neither."
+              },
+              {
+                "question": "What does the average length of 5 signs per Indus inscription suggest about how the script was used?",
+                "options": [
+                  "That scribes were paid by the sign and kept inscriptions short to save money",
+                  "That the script was likely used for brief labels and identifiers rather than extended narratives",
+                  "That the Harappans used a separate oral tradition to record long texts",
+                  "That the Harappans had a very simple language with few words"
+                ],
+                "answerIndex": 1,
+                "explanation": "An average of 5 signs per inscription — rarely more than 20 — strongly suggests the script was used for brief commercial or administrative labels (owner names, commodity types, quantities) rather than extended religious, historical, or literary texts."
+              }
+            ],
+            "id": "node-the-undeciphered-script"
+          },
+          {
+            "eventId": "evt-priest-king",
+            "narrative": "Of all the questions the Indus civilization asks without answering, the deepest is the simplest: who was in charge? In Egypt, the answer is everywhere: the pharaoh's face on every monument, his name on every wall. In Mesopotamia, kings commissioned steles showing themselves as conquerors, builders, and servants of the gods. In the Harappan world, there is almost nothing.\n\nAlmost nothing. There is the Priest-King. Found at Mohenjo-daro, this carved steatite bust (18.5 centimeters tall) shows a bearded man with half-closed eyes, wearing a robe decorated with trefoil patterns. He wears a headband and armband that suggest high status. His expression is serene, almost meditative. He is the closest thing to a Harappan ruler portrait, and we cannot name him.\n\nWhy the silence? Several possibilities: the Harappans may have had religious taboos against depicting rulers. The actual governance may have been so decentralized — merchant councils, priestly bodies, rotating magistrates — that no individual ruler existed to depict. Or we may simply not have found the right site yet. The Harappan heartland is vast and mostly unexcavated. Somewhere under the soil of Pakistan and India, the answer to 'who was in charge?' may still exist. But after a century of excavation, the Priest-King remains the most powerful person in the Indus world — and he has no name.",
+            "image": {
+              "commonsFile": "Priest-King_Mohenjo-daro.jpg",
+              "caption": "The Priest-King bust from Mohenjo-daro — possibly the most powerful person in the Indus world, and entirely anonymous."
+            },
+            "quiz": [
+              {
+                "question": "What is the most significant aspect of the Priest-King bust in the context of ancient civilization studies?",
+                "options": [
+                  "It proves the Harappans practiced priestly kingship like Egypt",
+                  "It is the only bronze object found at Mohenjo-daro",
+                  "It is possibly an elite portrait, yet no inscription names who this person was or what authority they held",
+                  "It depicts the same figure as the Pashupati seal, confirming religious leadership"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Priest-King is striking precisely because it appears to be an elite portrait — the kind of image that in Egypt or Mesopotamia would be accompanied by extensive inscriptions naming and glorifying the subject. In Harappa, the figure is completely anonymous, raising profound questions about governance and representation."
+              },
+              {
+                "question": "What does the near-absence of elite portraiture in Harappan art suggest compared to Egypt or Mesopotamia?",
+                "options": [
+                  "Harappan rulers were depicted in a different medium (textiles or wood) that hasn't survived",
+                  "The Harappans believed rulers became gods at death, so depicting them in life was unnecessary",
+                  "The Harappans lacked the technical skill to depict human faces",
+                  "Religious taboos may have prohibited depicting rulers, or governance may have been too decentralized for individual rulers to commission self-glorification"
+                ],
+                "answerIndex": 3,
+                "explanation": "Egyptian and Mesopotamian rulers covered their civilizations with images of themselves. The Harappan near-silence on this point suggests either cultural/religious prohibition, decentralized governance without strong individual rulers, or both."
+              }
+            ],
+            "id": "node-priest-king"
+          },
+          {
+            "eventId": "evt-pashupati-seal",
+            "narrative": "Among the thousands of Harappan seals, one stands apart: the so-called Pashupati seal from Mohenjo-daro. It shows a figure seated in what appears to be a cross-legged meditation posture — legs folded, feet touching, spine erect — surrounded by four animals: elephant, tiger, rhinoceros, and buffalo. The figure wears an elaborate headdress with two horns and what may be buffalo-horn decorations. Three faces seem to look in three directions.\n\nScholars have named this figure 'Pashupati' — 'Lord of Animals' — an epithet of the Hindu god Shiva. The identification is seductive: Shiva is the great ascetic, the master of animals, often depicted in precisely this cross-legged posture (padmasana), with bull imagery and three aspects. If the Pashupati seal does depict a proto-Shiva, then the worship of this deity stretches back to 2500 BCE — 3,000 years before the classical Hinduism we know.\n\nMost scholars urge caution. The similarities may be coincidental. The posture may not be meditative. The 'three faces' may be one face with elaborate decorations. The animals may be incidental to the image's meaning. But the questions the Pashupati seal raises — about religious continuity between the Harappan and Hindu worlds, about the origins of yoga and meditation, about what the Harappans believed — are among the most fascinating in the history of religion.",
+            "image": {
+              "commonsFile": "Shiva_Pashupati.jpg",
+              "caption": "The Pashupati seal from Mohenjo-daro — possibly the earliest depiction of a deity who would evolve into Shiva."
+            },
+            "quiz": [
+              {
+                "question": "What attributes on the Pashupati seal resemble later depictions of the Hindu god Shiva?",
+                "options": [
+                  "The cross-legged meditation posture, surrounding animals, horned headdress, and possible three-faced aspect",
+                  "The crescent moon symbol above the figure's head",
+                  "The figure's blue skin color indicating divine nature",
+                  "The lotus flower held in the figure's right hand"
+                ],
+                "answerIndex": 0,
+                "explanation": "Shiva is characterized by: the cross-legged meditative posture (padmasana), association with animals (as Pashupati, 'Lord of Animals'), the bull/horned imagery, and a three-faced or triple aspect. The Pashupati seal shares these attributes, though scholars debate whether the resemblance indicates continuity or coincidence."
+              },
+              {
+                "question": "What would it mean for the history of Hinduism if the Pashupati seal does depict a proto-Shiva figure?",
+                "options": [
+                  "It would show that Shiva was originally a female deity",
+                  "It would prove that the Harappans were identical to the later Vedic peoples",
+                  "It would prove that Hinduism originated in Mesopotamia",
+                  "It would extend the worship of this deity back to 2500 BCE — 3,000 years before classical Hinduism"
+                ],
+                "answerIndex": 3,
+                "explanation": "If the identification holds, Shiva worship would predate the Vedic period by over a thousand years, making it one of the oldest continuously worshipped deities in human history and establishing deep roots for Shaivism in pre-Aryan South Asian religion."
+              }
+            ],
+            "id": "node-pashupati-seal"
+          },
+          {
+            "eventId": "evt-burial-practices",
+            "narrative": "The Harappans buried their dead simply. Extended in north-south oriented graves, with modest pottery offerings and occasionally tools or jewelry — but no gold, no royal regalia, no servants sacrificed to follow a ruler into the afterlife. This is fundamentally different from the burial practices of every other major Bronze Age civilization.\n\nIn Egypt, royal burial was the civilization's supreme project: enormous pyramids, elaborate mummification, entire rooms filled with luxury goods to sustain the pharaoh in eternity. In Mesopotamia, the Royal Cemetery at Ur (contemporary with the Mature Harappan) included human sacrifice — dozens of attendants killed to accompany the dead ruler. Even in China, Shang Dynasty rulers were buried with hundreds of sacrificed servants and chariots.\n\nThe Harappan graves show none of this. No identifiable royal burials. No sacrificed attendants. No grave goods that suggest extreme wealth concentration. Either the Harappans had no extremely powerful rulers (and thus no one for whom such extravagance was appropriate), or they had strong cultural or religious prohibitions against displaying status in death. Either interpretation is remarkable. The civilization that built the most sophisticated cities of the Bronze Age apparently believed that how you died said nothing about who you were.",
+            "quiz": [
+              {
+                "question": "What does the absence of human sacrifice in Harappan burials suggest compared to contemporary Mesopotamian practice?",
+                "options": [
+                  "Harappan rulers were buried in separate locations that remain undiscovered",
+                  "The Harappans lacked the wealth to afford sacrifices",
+                  "Either they lacked sufficiently powerful rulers to justify sacrifice, or they had strong prohibitions against displaying status in death",
+                  "Human sacrifice was practiced but only at specific religious sites not yet excavated"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Royal Cemetery at Ur (contemporary Mesopotamia) included dozens of sacrificed attendants accompanying rulers into death. Harappan burials show no equivalent — suggesting either a decentralized power structure without supreme rulers, or cultural values that prohibited status display through death."
+              },
+              {
+                "question": "How many Harappan individuals have been identified by name from burial or inscription evidence?",
+                "options": [
+                  "Hundreds of merchants and craftspeople",
+                  "Zero — not a single Harappan individual can be named",
+                  "Fewer than 10",
+                  "About 50 rulers and priests"
+                ],
+                "answerIndex": 1,
+                "explanation": "Despite thousands of excavated burials and thousands of seal inscriptions, not a single Harappan individual can be named. The Harappans are the only major ancient civilization from which we cannot identify any historical person — ruler, priest, merchant, or craftsperson."
+              }
+            ],
+            "id": "node-burial-practices"
+          },
+          {
+            "eventId": "evt-climate-shift",
+            "narrative": "Around 2200 BCE, the ancient world got unlucky. A prolonged drought — the 4.2 kiloyear climate event — struck across a vast swath of the Old World. The Akkadian Empire in Mesopotamia collapsed. Egypt's Old Kingdom fell into a century of chaos. The Indus Valley Civilization, which had been thriving for over 400 years, began its long slow decline.\n\nIn the Indus region, the drought weakened the Ghaggar-Hakra river — the river that fed hundreds of Harappan settlements across what is now Haryana and Rajasthan. As the river shrank, the cities it supported lost their water supply. Populations began drifting eastward toward the still-flowing Ganges-Yamuna system. The decline was not immediate — the cities continued for another 300 years — but the direction was set.\n\nThe 4.2 kiloyear event is one of the most important facts in Bronze Age history: it shows that ancient civilizations, however sophisticated, were fundamentally dependent on climate systems they could neither predict nor control. The Harappans survived in the Rann of Kutch with their reservoirs. They organized grain storage to buffer against bad monsoons. They did everything a clever society could do to manage climate risk. It wasn't enough. When the monsoon pattern shifted by just a few percent, five million people's lives began to unravel.",
+            "quiz": [
+              {
+                "question": "Which other major civilizations collapsed or severely weakened during the 4.2 kiloyear climate event around 2200 BCE?",
+                "options": [
+                  "The Akkadian Empire in Mesopotamia and Egypt's Old Kingdom",
+                  "The Hittites and the Mycenaeans",
+                  "China's Shang Dynasty and the Minoan civilization",
+                  "Rome and Greece"
+                ],
+                "answerIndex": 0,
+                "explanation": "The 4.2 kiloyear event was a global phenomenon. The Akkadian Empire of Mesopotamia collapsed around 2154 BCE after prolonged drought, and Egypt's Old Kingdom fell into the First Intermediate Period of chaos around the same time. The Indus civilization's decline began simultaneously."
+              },
+              {
+                "question": "Why did Dholavira (in the arid Rann of Kutch) potentially survive the climate event longer than wetter western Harappan cities?",
+                "options": [
+                  "Dholavira received more rainfall than the Punjab cities",
+                  "Dholavira's 16-reservoir water management system was designed specifically for drought survival",
+                  "Dholavira's rulers made ritual sacrifices that brought better rains",
+                  "Dholavira traded with Egypt and received food aid during the drought"
+                ],
+                "answerIndex": 1,
+                "explanation": "Dholavira's 16-reservoir system was engineered specifically to harvest every drop of monsoon rainfall and store it through long dry periods. This design — built for an arid environment — may have given Dholavira a resilience advantage when the monsoon weakened across the broader region."
+              }
+            ],
+            "id": "node-climate-shift"
+          },
+          {
+            "eventId": "evt-mohenjo-daro-massacre",
+            "narrative": "In the 1940s, Mortimer Wheeler excavated the upper levels of Mohenjo-daro and found something he interpreted as evidence of a violent end: scattered human skeletons in streets and doorways, some showing signs of being cut down where they stood. Wheeler connected the dots to the Rigveda — ancient hymns in which the storm god Indra destroys fortified cities — and proposed that Indo-Aryan invaders had massacred the last inhabitants of Mohenjo-daro.\n\nThe 'Aryan invasion' theory entered the history books. For decades it was taught in schools worldwide. It was also used in particularly damaging ways by Indian nationalist politics, both to celebrate an imagined Aryan origin and to deny one. The theory had real consequences.\n\nBut the theory was wrong. Modern forensic analysis of the Mohenjo-daro skeletons found no weapon injuries. The skeletons date from multiple time periods, not a single massacre event. Their positions — in doorways, on stairs — suggest deaths from flood, disease, or simple abandonment, not a battle. And genetically, the Indo-Aryan migrations postdate the Harappan urban collapse by centuries. The invaders didn't kill the cities; the cities were already abandoned when the Indo-Aryans arrived. What happened to the Indus civilization was far more interesting and far more mysterious than conquest: it just... ended.",
+            "quiz": [
+              {
+                "question": "What was Mortimer Wheeler's 'Aryan invasion' theory, and why did he propose it?",
+                "options": [
+                  "He believed climate change destroyed Harappan cities, and Aryans were the first to recolonize them",
+                  "He interpreted scattered skeletons at Mohenjo-daro as massacre victims of Indo-Aryan invaders, linking them to Rigvedic hymns about Indra destroying fortresses",
+                  "He found weapons with Aryan inscriptions buried with the skeletons",
+                  "He proposed that Egyptian armies invaded the Indus Valley around 1500 BCE"
+                ],
+                "answerIndex": 1,
+                "explanation": "Wheeler found scattered skeletons in Mohenjo-daro's upper levels and connected them to Rigvedic passages where Indra destroys 'pur' (fortified places), proposing that Indo-Aryan invaders had massacred the last inhabitants. This interpretation shaped historiography for decades before being debunked."
+              },
+              {
+                "question": "What evidence overturned the Aryan invasion narrative?",
+                "options": [
+                  "Forensic analysis showing no weapon injuries, multiple time periods for the deaths, and genetic evidence placing Indo-Aryan migrations centuries after the urban collapse",
+                  "Egyptian records confirming Indus cities were still occupied when Indo-Aryans arrived",
+                  "Archaeological evidence of Aryan settlements in the Indus Valley predating the civilization's decline",
+                  "A translated Indus text explicitly describing a peaceful cultural exchange"
+                ],
+                "answerIndex": 0,
+                "explanation": "Three lines of evidence dismantled the invasion theory: (1) forensic — no weapon injuries on the skeletons; (2) archaeological — the skeletons span multiple time periods, not a single massacre; (3) genetic — Indo-Aryan migrations post-date the Harappan urban collapse by centuries. The cities were already empty when the Indo-Aryans arrived."
+              }
+            ],
+            "id": "node-mohenjo-daro-massacre"
+          },
+          {
+            "eventId": "evt-vedic-period-begins",
+            "narrative": "Around 1500 BCE, a new people entered the Indus world from the northwest. They came not as conquerors — the cities were already empty — but as pastoralists with cattle, horses, chariots, and an elaborate set of hymns they sang around their fires. They called themselves Arya ('noble') and their language would become Sanskrit. Their hymns — the Rigveda — are the oldest scriptures of what would eventually become Hinduism.\n\nThey arrived in a landscape shaped by 2,000 years of Harappan civilization. The people they encountered — post-Harappan farmers descended from Indus Valley populations — spoke different languages (ancestral to modern Dravidian tongues like Tamil and Telugu) and practiced different traditions. What happened next was a slow cultural fusion that took centuries to complete.\n\nFrom this encounter, Indian civilization emerged. The Indo-Aryans contributed: Sanskrit and its literature, the Vedic hymns and fire sacrifice, the social categories that would evolve into the caste system, and the horse and chariot. The Harappan descendants contributed: the agricultural calendar, cotton and rice cultivation, the zebu cattle that appear in Vedic rituals, and possibly the proto-Shiva and sacred bath traditions that flow into later Hinduism. Neither the 'Aryan' nor the 'Harappan' thread alone produced Hindu civilization — it was the weaving together of both that created one of history's great religious and cultural traditions.",
+            "quiz": [
+              {
+                "question": "What is the Rigveda, and why is it historically significant?",
+                "options": [
+                  "An astronomical calendar used to track the monsoon season",
+                  "A law code written by the first Mauryan emperor",
+                  "A collection of 1,028 hymns composed by Indo-Aryan peoples around 1500–1200 BCE — the oldest surviving religious text in any Indo-European language",
+                  "A diplomatic treaty between the Harappan and Indo-Aryan peoples"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Rigveda consists of 1,028 hymns to Vedic deities, composed orally around 1500–1200 BCE. It is the oldest surviving religious text in any Indo-European language and the foundational scripture of Hinduism — still recited in religious ceremonies today."
+              },
+              {
+                "question": "What elements of Hindu religion and culture appear to have Harappan rather than Indo-Aryan roots?",
+                "options": [
+                  "The varna (caste) system and the four Vedas",
+                  "The chariot and the horse as symbols of divine power",
+                  "The Sanskrit language and the fire sacrifice ritual",
+                  "Sacred bathing traditions, proto-Shiva worship, the zebu bull's sacred status, and agricultural practices"
+                ],
+                "answerIndex": 3,
+                "explanation": "The sacred bathing tradition (prefigured by the Great Bath), proto-Shiva imagery (the Pashupati seal), the sacred status of the zebu bull, and the agricultural foundation (cotton, cattle, monsoon farming) appear to have Harappan roots that blended into what became Hinduism after the Indo-Aryan arrival."
+              }
+            ],
+            "id": "node-vedic-period-begins"
+          },
+          {
+            "eventId": "evt-end-civilization",
+            "narrative": "By 1300 BCE, the last visible traces of Harappan culture had dissolved. The Indus script was no longer written. The standardized weights were no longer made. The great cities were buried under centuries of sediment. Regional cultures had replaced the civilization-wide uniformity of the Mature Harappan. The people lived on — the genetic evidence is unambiguous — but their civilization was gone.\n\nAnd then forgotten. Utterly forgotten. When Alexander the Great crossed the Indus in 326 BCE, he had no idea there had once been cities on this ground larger than anything in Greece. When the first British colonists arrived in South Asia in the 17th century, they built railways through ruins they didn't recognize. It wasn't until 1922, when archaeologists Daya Ram Sahni and Rakhal Das Banerji began excavating Harappa and Mohenjo-daro, that the modern world learned what had been buried there.\n\nThe discovery was a shock. The world's largest Bronze Age civilization — covering an area larger than Egypt and Mesopotamia combined, home to five million people, possessing the most sophisticated urban infrastructure of the ancient world — had been completely unknown to history for 3,000 years. The Harappans built everything: cities, drains, baths, weights, seals, art. They left everything behind. And they left us not a single name.\n\nThe Vedic period that grew in their wake would build its own civilization — one we can read, one that named its gods and kings and poets. That story begins with the Indo-Aryan migrants who were already composing the Rigveda in the Punjab as the last Harappan traditions faded. What they inherited from the Harappans — the land, the agricultural knowledge, possibly the proto-Shiva, certainly the sacred water tradition — became the foundation of the civilization that shaped a billion people. The Harappans are gone and nameless. Their legacy is not.",
+            "quiz": [
+              {
+                "question": "When was the Indus Valley Civilization rediscovered by modern archaeologists?",
+                "options": [
+                  "1822 — by French archaeologists during Napoleon's Egyptian campaign",
+                  "1922 — by Indian and British archaeologists excavating Harappa and Mohenjo-daro",
+                  "1776 — during early British surveys of the Indian subcontinent",
+                  "1945 — as part of post-war archaeological efforts across South Asia"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Indus Valley Civilization was rediscovered in 1922 when archaeologists Daya Ram Sahni (at Harappa) and Rakhal Das Banerji (at Mohenjo-daro) revealed that a major Bronze Age civilization had existed in South Asia — completely unknown to history for 3,000 years."
+              },
+              {
+                "question": "What critical contribution did the Harappan civilization make to the Hindu traditions that followed?",
+                "options": [
+                  "The Sanskrit language and Vedic hymns",
+                  "The agricultural foundation, sacred bathing tradition, zebu cattle veneration, and proto-Shiva worship that blended into Hindu culture",
+                  "The caste system and the concept of the divine king",
+                  "The monumental pyramid architecture adopted by later temple builders"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Harappan legacy in Hinduism appears in the sacred bathing tradition (Great Bath → Hindu sacred tanks), proto-Shiva worship (Pashupati seal), zebu cattle veneration, and the agricultural calendar. These pre-Vedic elements blended with Indo-Aryan traditions to produce classical Hinduism."
+              }
+            ],
+            "id": "node-end-civilization"
+          }
+        ],
+        "recap": "The Indus Valley Civilization poses a question that gets more profound the more you examine it: how do we understand a civilization we cannot read? We know its architecture intimately — the drains, the Great Bath, the standardized streets. We know its commercial reach — from Afghanistan to Oman, Mesopotamia to Gujarat. We know its art — the Dancing Girl, the Priest-King, the Pashupati seal. We know, from DNA, who its people were.\n\nBut we don't know their language. We don't know their rulers' names. We don't know what they called their cities, their gods, or themselves. We have 4,000 seals covered in writing and we cannot read a single word. The Harappans are the world's most eloquent silence.\n\nWhat we do know is that they mattered enormously. When the Indo-Aryan migrants arrived after 1500 BCE, they didn't encounter a blank slate — they encountered the living legacy of a 2,000-year-old urban civilization: its agricultural calendar, its craft knowledge, its sacred water traditions, and perhaps its proto-Shiva deity. The Hindu civilization that would shape a billion people grew from the encounter between these two worlds. The Harappans provided the foundation; the Indo-Aryans provided the language to name it. From this fusion — nameless Harappan substratum meeting Sanskrit-speaking Vedic tradition — emerged one of humanity's greatest civilizations. The Indus story doesn't end in 1300 BCE. It becomes everything that follows."
+      }
+    ],
+    "title": "Indus Valley Civilization"
+  }
+}

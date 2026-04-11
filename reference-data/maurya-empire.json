@@ -1,0 +1,474 @@
+{
+  "id": "maurya-empire",
+  "label": "Maurya Empire",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Maurya_Empire",
+  "imageWikiSlug": "Sanchi_Stupa",
+  "pitch": "Ancient India's first great empire (322-185 BCE), the Maurya dynasty unified the subcontinent for the first time. Chandragupta Founds Empire by overthrowing the Nanda dynasty, guided by the brilliant strategist Chanakya, Royal Advisor. His grandson Ashoka Becomes Emperor and conquers Kalinga in a war so bloody it haunts him — he converts to Buddhism and spends the rest of his reign carving Ashoka's Rock Edicts that still stand across India today.\n\n🔑 Key Facts:\n• Arthashastra Composed by Chanakya is an ancient masterclass in statecraft, economics, and espionage — sometimes called 'India's Machiavelli' (1,800 years before Machiavelli)\n• The Kalinga War was so devastating that Ashoka Converts to Buddhism and renounced violence, transforming from conqueror to peacemaker\n• The Lion Capital of Ashoka at Sarnath became modern India's national emblem — you see it on every Indian rupee\n• The Great Stupa at Sanchi, commissioned by Ashoka, is one of the oldest stone structures in India\n\n🤔 Why It Matters: Ashoka's Buddhist Missions Abroad transformed Buddhism from a regional Indian sect into a world religion now practiced by 500+ million people. The Maurya model of centralized governance influenced Indian politics for millennia.\n\n🎲 Wild Card: Chandragupta Embraces Jainism at the end of his life — the emperor who conquered an empire voluntarily gave it up and reportedly fasted to death as a Jain monk.",
+  "countryIds": [
+    "356",
+    "586",
+    "50",
+    "524"
+  ],
+  "spans": [
+    {
+      "id": "span-maurya-empire-maurya-founding",
+      "label": "Chandragupta Era",
+      "startYear": -322,
+      "endYear": -298,
+      "wikiSlug": "Chandragupta_Maurya",
+      "description": "Chandragupta Maurya overthrew the Nanda dynasty and unified most of the Indian subcontinent for the first time, guided by the strategist Chanakya. He defeated Seleucus Nicator, established Pataliputra as his grand capital, and later abdicated to become a Jain monk."
+    },
+    {
+      "id": "span-maurya-empire-bindusara",
+      "label": "Bindusara Era",
+      "startYear": -298,
+      "endYear": -272,
+      "wikiSlug": "Bindusara",
+      "description": "Bindusara expanded the empire southward across the Deccan plateau, earning the title Amitraghata (Slayer of Foes). He maintained diplomatic ties with the Hellenistic world and consolidated the administrative systems his father had built."
+    },
+    {
+      "id": "span-maurya-empire-ashoka",
+      "label": "Ashoka's Reign",
+      "startYear": -272,
+      "endYear": -232,
+      "wikiSlug": "Ashoka",
+      "description": "After the devastating Kalinga War, Ashoka converted to Buddhism and devoted his reign to promoting dharma, nonviolence, and welfare through inscribed rock and pillar edicts. He sent Buddhist missionaries abroad, transforming Buddhism into a world religion."
+    },
+    {
+      "id": "span-maurya-empire-late-maurya",
+      "label": "Late Maurya Period",
+      "startYear": -232,
+      "endYear": -185,
+      "wikiSlug": "Maurya_Empire#Decline",
+      "description": "Weak successors and ambitious provincial governors led to rapid fragmentation of the empire after Ashoka's death. Greco-Bactrian forces invaded the northwest, and General Pushyamitra Shunga assassinated the last Maurya emperor in 185 BCE."
+    },
+    {
+      "id": "span-maurya-empire-pre-maurya-nanda",
+      "label": "Nanda Dynasty",
+      "startYear": -345,
+      "endYear": -322,
+      "wikiSlug": "Nanda_dynasty",
+      "description": "The Nandas controlled Magadha and much of northern India, amassing great wealth and maintaining a massive army. Their unpopularity created the opening that Chandragupta and Chanakya exploited to seize power and found the Maurya Empire."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-nanda-dynasty",
+      "label": "Nanda Dynasty Rules",
+      "year": -345,
+      "endYear": -322,
+      "description": "The Nanda dynasty controlled Magadha and much of northern India, amassing great wealth but provoking discontent that Chandragupta would exploit.",
+      "wikiSlug": "Nanda_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-chandragupta-founding",
+      "label": "Chandragupta Founds Empire",
+      "year": -322,
+      "endYear": -298,
+      "description": "Chandragupta Maurya overthrew the Nanda dynasty and established the Maurya Empire, unifying most of the Indian subcontinent for the first time.",
+      "wikiSlug": "Chandragupta_Maurya",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-defeat-seleucus",
+      "label": "Defeat of Seleucus",
+      "year": -305,
+      "description": "Chandragupta defeated Seleucus Nicator in the Seleucid–Mauryan war, gaining territories in Afghanistan and Balochistan through a peace treaty.",
+      "wikiSlug": "Seleucid%E2%80%93Mauryan_war",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-arthashastra",
+      "label": "Arthashastra Composed",
+      "year": -307.5,
+      "description": "Kautilya (Chanakya) composed the Arthashastra, an ancient Indian treatise on statecraft, economics, and military strategy that guided Maurya governance.",
+      "wikiSlug": "Arthashastra",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-chanakya",
+      "label": "Chanakya, Royal Advisor",
+      "year": -320,
+      "description": "The philosopher Chanakya served as chief advisor to Chandragupta, masterminding the empire's founding and shaping Indian political thought for centuries.",
+      "wikiSlug": "Chanakya",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pataliputra-capital",
+      "label": "Pataliputra as Capital",
+      "year": -322,
+      "description": "Pataliputra became the grand Maurya capital, described by Megasthenes as one of the largest and most magnificent cities in the ancient world.",
+      "wikiSlug": "Pataliputra",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-megasthenes",
+      "label": "Megasthenes Visits India",
+      "year": -302,
+      "description": "Greek ambassador Megasthenes visited Pataliputra and wrote the Indica, providing one of the earliest foreign accounts of Indian society and governance.",
+      "wikiSlug": "Megasthenes",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-chandragupta-jainism",
+      "label": "Chandragupta Embraces Jainism",
+      "year": -298,
+      "description": "Chandragupta abdicated in favor of his son Bindusara and became a Jain monk, reportedly fasting to death at Shravanabelagola in Karnataka.",
+      "wikiSlug": "Chandragupta_Maurya#Jainism_and_abdication",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bindusara",
+      "label": "Bindusara's Reign",
+      "year": -298,
+      "endYear": -272,
+      "description": "Bindusara expanded the empire southward across the Deccan plateau, earning the title Amitraghata (Slayer of Foes) from Greek sources.",
+      "wikiSlug": "Bindusara",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ashoka-ascends",
+      "label": "Ashoka Becomes Emperor",
+      "year": -272,
+      "endYear": -232,
+      "description": "Ashoka ascended the Maurya throne after a succession struggle and would become one of India's greatest rulers, known for spreading dharma across the subcontinent.",
+      "wikiSlug": "Ashoka",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kalinga-war",
+      "label": "Kalinga War",
+      "year": -261,
+      "description": "Ashoka's brutal conquest of Kalinga caused massive casualties and deeply affected him, triggering his famous conversion to Buddhism and nonviolence.",
+      "wikiSlug": "Kalinga_War",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ashoka-converts",
+      "label": "Ashoka Converts to Buddhism",
+      "year": -260,
+      "description": "Horrified by the carnage at Kalinga, Ashoka embraced Buddhism and devoted the rest of his reign to promoting dharma, nonviolence, and welfare.",
+      "wikiSlug": "Ashoka#Buddhist_kingship",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-rock-edicts",
+      "label": "Ashoka's Rock Edicts",
+      "year": -257,
+      "description": "Ashoka inscribed his Major Rock Edicts across the empire, proclaiming principles of dharma, religious tolerance, and compassion in Brahmi and Kharosthi scripts.",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pillar-edicts",
+      "label": "Ashoka's Pillar Edicts",
+      "year": -243,
+      "description": "The later Pillar Edicts were inscribed on polished sandstone pillars, many topped with the famous lion capital that became India's national emblem.",
+      "wikiSlug": "Pillars_of_Ashoka",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lion-capital",
+      "label": "Lion Capital of Ashoka",
+      "year": -256.0,
+      "description": "The four-lion capital at Sarnath became the most iconic Maurya sculpture and was adopted as the national emblem of modern India.",
+      "wikiSlug": "Lion_capital_of_Ashoka",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-third-buddhist-council",
+      "label": "Third Buddhist Council",
+      "year": -253.0,
+      "description": "Ashoka convened the Third Buddhist Council at Pataliputra to purify the sangha and codify the Pali Canon, shaping Theravada Buddhism.",
+      "wikiSlug": "Third_Buddhist_council",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-buddhist-missions",
+      "label": "Buddhist Missions Abroad",
+      "year": -250,
+      "description": "Ashoka sent Buddhist missionaries to Sri Lanka, Central Asia, and the Hellenistic world, transforming Buddhism from a regional sect into a world religion.",
+      "wikiSlug": "Ashoka#Propagation_of_Buddhism",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mahinda-sri-lanka",
+      "label": "Mahinda Brings Buddhism to Sri Lanka",
+      "year": -247,
+      "description": "Ashoka's son (or brother) Mahinda led a mission to Sri Lanka, converting King Devanampiya Tissa and establishing a lasting Buddhist tradition on the island.",
+      "wikiSlug": "Mahinda_(Buddhist_monk)",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-sanchi-stupa",
+      "label": "Great Stupa at Sanchi",
+      "year": -247.0,
+      "description": "Ashoka commissioned the Great Stupa at Sanchi, one of the oldest stone structures in India, later enlarged with elaborate carved gateways.",
+      "wikiSlug": "Sanchi",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-royal-highway",
+      "label": "Royal Highway (Uttarapatha)",
+      "year": -304.5,
+      "description": "The Maurya royal highway connected Pataliputra to Taxila and beyond, facilitating trade, communication, and military movement across the empire.",
+      "wikiSlug": "Uttarapatha",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-maurya-trade-routes",
+      "label": "Indian Ocean Trade Networks",
+      "year": -280,
+      "description": "Maurya-era ports facilitated trade with the Hellenistic world, exporting spices, textiles, and gemstones in exchange for gold and wine.",
+      "wikiSlug": "Indian_Ocean_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-punch-marked-coins",
+      "label": "Maurya Punch-Marked Coins",
+      "year": -310,
+      "description": "The Maurya state issued standardized silver punch-marked coins (karshapana), facilitating inter-regional trade across the vast empire.",
+      "wikiSlug": "Karshapana",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-taxila-university",
+      "label": "Taxila as Learning Center",
+      "year": -320,
+      "description": "Taxila flourished as a renowned center of learning under the Mauryas, attracting scholars studying medicine, law, military arts, and philosophy.",
+      "wikiSlug": "Taxila",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-maurya-medicine",
+      "label": "Maurya-Era Medicine",
+      "year": -290,
+      "description": "Ashoka established hospitals for humans and animals throughout the empire, one of the earliest known state-sponsored healthcare systems.",
+      "wikiSlug": "Ashoka#Administration",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-irrigation-systems",
+      "label": "Maurya Irrigation Works",
+      "year": -301.5,
+      "description": "The Maurya state built extensive irrigation canals and reservoirs, notably the Sudarshana Lake in Gujarat, supporting agriculture across the empire.",
+      "wikiSlug": "Sudarshana_Lake",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-brahmi-script",
+      "label": "Brahmi Script in Use",
+      "year": -298.5,
+      "description": "The Brahmi script became widely used across the Maurya Empire for inscriptions and administration, serving as the ancestor of most South and Southeast Asian scripts.",
+      "wikiSlug": "Brahmi_script",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kharosthi-script",
+      "label": "Kharosthi Script",
+      "year": -295.5,
+      "description": "The Kharosthi script was used in the northwestern provinces for Ashoka's edicts and Gandharan texts, derived from Aramaic and written right to left.",
+      "wikiSlug": "Kharosthi",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ashoka-death",
+      "label": "Death of Ashoka",
+      "year": -232,
+      "description": "Ashoka died after nearly four decades of rule, leaving an empire that had promoted unprecedented religious tolerance and welfare across South Asia.",
+      "wikiSlug": "Ashoka",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-dasharatha",
+      "label": "Dasharatha Maurya",
+      "year": -232,
+      "endYear": -224,
+      "description": "Dasharatha succeeded Ashoka and continued patronizing Ajivika monks, dedicating rock-cut caves in the Barabar Hills.",
+      "wikiSlug": "Dasharatha_Maurya",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-decline-fragmentation",
+      "label": "Empire Fragments",
+      "year": -220,
+      "description": "After Ashoka's death, weak successors and provincial governors led to rapid fragmentation, with outlying territories breaking away from central control.",
+      "wikiSlug": "Maurya_Empire#Decline",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-barabar-caves",
+      "label": "Barabar Caves",
+      "year": -244.0,
+      "description": "The Barabar Caves in Bihar are the oldest surviving rock-cut caves in India, granted by Ashoka and Dasharatha to Ajivika monks.",
+      "wikiSlug": "Barabar_Caves",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pushyamitra-coup",
+      "label": "Pushyamitra's Coup",
+      "year": -185,
+      "description": "General Pushyamitra Shunga assassinated the last Maurya emperor Brihadratha during a military parade, ending the Maurya dynasty and founding the Shunga dynasty.",
+      "wikiSlug": "Pushyamitra_Shunga",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-northwest-incursion",
+      "label": "Greek Incursions in Northwest",
+      "year": -200,
+      "description": "Greco-Bactrian forces under Demetrius invaded the weakening northwestern Maurya territories, beginning the Indo-Greek period in the subcontinent.",
+      "wikiSlug": "Demetrius_I_of_Bactria",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-maurya-bureaucracy",
+      "label": "Centralized Bureaucracy",
+      "year": -315,
+      "description": "The Maurya Empire developed a sophisticated administrative system with provinces, districts, and villages overseen by appointed officials and spies.",
+      "wikiSlug": "Maurya_Empire#Administration",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-dhamma-mahamatras",
+      "label": "Dhamma Mahamatras Appointed",
+      "year": -256,
+      "description": "Ashoka created a new class of officials called Dhamma Mahamatras tasked with promoting moral conduct, welfare, and religious harmony across the empire.",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-indica-megasthenes",
+      "label": "Indica by Megasthenes",
+      "year": -292.5,
+      "description": "Megasthenes' Indica described Maurya society, caste divisions, and Pataliputra in detail, becoming a key source for Hellenistic knowledge of India.",
+      "wikiSlug": "Indica_(Megasthenes)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jain-community",
+      "label": "Jain Communities Flourish",
+      "year": -290,
+      "description": "Jainism thrived under Maurya patronage, with Chandragupta's conversion lending royal prestige and communities spreading across western and southern India.",
+      "wikiSlug": "Jainism#Maurya_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-spice-trade",
+      "label": "Spice Trade Expansion",
+      "year": -270,
+      "description": "Maurya-era trade in pepper, cinnamon, and cardamom connected India to Mediterranean markets via overland and maritime routes.",
+      "wikiSlug": "Spice_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-maurya-metallurgy",
+      "label": "Maurya Iron and Steel",
+      "year": -280,
+      "description": "Advanced iron smelting and early steel production techniques flourished during the Maurya period, supporting agriculture, construction, and weaponry.",
+      "wikiSlug": "Wootz_steel",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    }
+  ]
+}

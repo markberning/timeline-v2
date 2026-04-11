@@ -1,0 +1,462 @@
+{
+  "id": "gupta-empire",
+  "label": "Gupta Golden Age",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Gupta_Empire",
+  "imageWikiSlug": "Iron_pillar_of_Delhi",
+  "pitch": "The golden age of ancient India (320-550 CE), the Gupta Empire produced breakthroughs that shaped the modern world. Chandragupta I launched the dynasty, Samudragupta conquered most of the subcontinent, and Chandragupta II (Vikramaditya) presided over a court where Kalidasa, Greatest Sanskrit Poet composed masterworks and Aryabhata's Aryabhatiya revolutionized mathematics.\n\n🔑 Key Facts:\n• The Concept of Zero Develops during this period — without it, modern mathematics, science, and computing would be impossible\n• The Ajanta Cave Paintings represent the pinnacle of ancient Indian art, their Buddhist murals still breathtaking after 1,500 years\n• Nalanda University Founded under Gupta patronage became the ancient world's foremost center of higher learning, attracting scholars from across Asia\n• The Iron Pillar of Delhi has resisted rust for over 1,600 years, demonstrating metallurgical skills that modern scientists still study\n\n🤔 Why It Matters: Every time you use the number zero, a decimal point, or the numeral system on your phone, you are using Gupta-era inventions. Indian mathematics transmitted through the Islamic world became the foundation of modern science.\n\n🎲 Wild Card: Vatsyayana's Kama Sutra was composed during this era — but far from just being about what you think, it is a systematic treatise on social conduct, courtship, and the art of living well in ancient Indian society.",
+  "countryIds": [
+    "356"
+  ],
+  "spans": [
+    {
+      "id": "span-gupta-empire-early-gupta",
+      "label": "Early Gupta Period",
+      "startYear": 320,
+      "endYear": 380,
+      "description": "Chandragupta I and Samudragupta established and expanded the dynasty through strategic marriages and military conquests across the Indian subcontinent. This formative period transformed a regional kingdom in Magadha into a pan-Indian empire.",
+      "wikiSlug": "Gupta_Empire#Rise"
+    },
+    {
+      "id": "span-gupta-empire-gupta-golden-age",
+      "label": "Golden Age",
+      "startYear": 380,
+      "endYear": 467,
+      "description": "Under Chandragupta II and Kumaragupta I, the empire reached its zenith in art, science, and literature. Kalidasa composed his masterworks, Aryabhata advanced mathematics, and Nalanda University was founded during this period.",
+      "wikiSlug": "Gupta_Empire#Golden_Age"
+    },
+    {
+      "id": "span-gupta-empire-late-gupta",
+      "label": "Late Gupta Period",
+      "startYear": 467,
+      "endYear": 550,
+      "description": "Repeated Huna (Hunnic) invasions, provincial revolts, and weakening central authority led to the empire's fragmentation. Regional kingdoms broke away as the Gupta dynasty lost control of its vast territories.",
+      "wikiSlug": "Gupta_Empire#Decline"
+    },
+    {
+      "id": "span-gupta-empire-vakataka-allies",
+      "label": "Vakataka Alliance",
+      "startYear": 375,
+      "endYear": 500,
+      "description": "The Vakataka dynasty of the Deccan served as key allies of the Guptas through royal marriage alliances. Under Vakataka patronage, the Ajanta Cave paintings were created, representing the pinnacle of ancient Indian art.",
+      "wikiSlug": "Vakataka_dynasty"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-sri-gupta",
+      "label": "Sri Gupta Founds Dynasty",
+      "year": 331.5,
+      "description": "Sri Gupta established the Gupta dynasty as a small kingdom in Magadha, laying the foundation for what would become India's golden age.",
+      "wikiSlug": "Sri_Gupta",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-chandragupta-i",
+      "label": "Chandragupta I",
+      "year": 320,
+      "endYear": 335,
+      "description": "Chandragupta I expanded the Gupta kingdom through marriage to the Lichchhavi princess Kumaradevi, adopting the title Maharajadhiraja (King of Kings).",
+      "wikiSlug": "Chandragupta_I",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-samudragupta",
+      "label": "Samudragupta",
+      "year": 335,
+      "endYear": 375,
+      "description": "Samudragupta conquered much of the Indian subcontinent through brilliant military campaigns, earning comparison to Alexander and described on the Allahabad Pillar.",
+      "wikiSlug": "Samudragupta",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-samudragupta-campaigns",
+      "label": "Samudragupta's Southern Campaign",
+      "year": 344.0,
+      "description": "Samudragupta led a sweeping military campaign through southern India, defeating twelve kings and extending Gupta influence to the Deccan.",
+      "wikiSlug": "Samudragupta#Military_campaigns",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-chandragupta-ii",
+      "label": "Chandragupta II (Vikramaditya)",
+      "year": 380,
+      "endYear": 415,
+      "description": "Chandragupta II presided over the peak of the Gupta golden age, defeating the Western Satraps and patronizing a brilliant court of scholars and artists.",
+      "wikiSlug": "Chandragupta_II",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-defeat-western-satraps",
+      "label": "Defeat of Western Satraps",
+      "year": 395,
+      "description": "Chandragupta II conquered the Western Kshatrapas of Gujarat, gaining access to lucrative western sea ports and expanding the empire to the Arabian Sea.",
+      "wikiSlug": "Western_Satraps#Decline",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-faxian-visit",
+      "label": "Faxian Visits India",
+      "year": 405,
+      "description": "Chinese Buddhist monk Faxian traveled through Gupta India for six years, describing a prosperous and well-governed society with flourishing Buddhism.",
+      "wikiSlug": "Faxian",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-kumaragupta-i",
+      "label": "Kumaragupta I",
+      "year": 415,
+      "endYear": 455,
+      "description": "Kumaragupta I maintained the empire at its zenith for four decades and founded the great Buddhist university at Nalanda.",
+      "wikiSlug": "Kumaragupta_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nalanda-university",
+      "label": "Nalanda University Founded",
+      "year": 427,
+      "description": "The great Buddhist monastery and university at Nalanda was established under Gupta patronage, becoming the ancient world's foremost center of higher learning.",
+      "wikiSlug": "Nalanda",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-skandagupta",
+      "label": "Skandagupta",
+      "year": 455,
+      "endYear": 467,
+      "description": "Skandagupta repelled devastating Huna (Hunnic) invasions, saving the empire temporarily but exhausting its military and financial resources.",
+      "wikiSlug": "Skandagupta",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huna-invasions",
+      "label": "Huna Invasions",
+      "year": 455,
+      "description": "The Alchon Huns (Hunas) launched major invasions into Gupta territory, beginning a series of devastating raids that would fatally weaken the empire.",
+      "wikiSlug": "Alchon_Huns",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-aryabhata",
+      "label": "Aryabhata's Aryabhatiya",
+      "year": 499,
+      "description": "Mathematician Aryabhata wrote the Aryabhatiya, introducing the place-value decimal system, approximating pi, and proposing Earth's axial rotation.",
+      "wikiSlug": "Aryabhata",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-concept-of-zero",
+      "label": "Concept of Zero Develops",
+      "year": 458,
+      "description": "Indian mathematicians during the Gupta period developed the concept of zero as a number, a revolutionary idea that would transform mathematics worldwide.",
+      "wikiSlug": "0#History",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-surya-siddhanta",
+      "label": "Surya Siddhanta",
+      "year": 391.0,
+      "description": "The Surya Siddhanta astronomical treatise was composed, calculating planetary motions, eclipses, and the sidereal year with remarkable accuracy.",
+      "wikiSlug": "Surya_Siddhanta",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-varahamihira",
+      "label": "Varahamihira",
+      "year": 505,
+      "description": "Astronomer Varahamihira compiled the Pancha-Siddhantika synthesizing Greek, Egyptian, and Indian astronomy, and authored works on astrology and hydrology.",
+      "wikiSlug": "Varahamihira",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kalidasa",
+      "label": "Kalidasa, Greatest Sanskrit Poet",
+      "year": 394.0,
+      "description": "Kalidasa composed masterworks including Shakuntala and Meghaduta, earning recognition as the greatest poet in the Sanskrit language.",
+      "wikiSlug": "Kalidasa",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-shakuntala",
+      "label": "Abhijnanasakuntalam",
+      "year": 397.0,
+      "description": "Kalidasa's play Shakuntala became the most celebrated work of Sanskrit drama, later translated by William Jones and influencing European Romanticism.",
+      "wikiSlug": "Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ramayana-mahabharata-finalized",
+      "label": "Epics Take Final Form",
+      "year": 347.0,
+      "description": "The Ramayana and Mahabharata reached their final written forms during the Gupta period, becoming the foundational texts of Hindu culture.",
+      "wikiSlug": "Indian_epic_poetry",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-puranas-compiled",
+      "label": "Puranas Compiled",
+      "year": 400,
+      "description": "Many of the major Puranas were compiled during the Gupta era, encoding Hindu mythology, cosmology, and genealogies in their classical form.",
+      "wikiSlug": "Puranas",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ajanta-caves",
+      "label": "Ajanta Cave Paintings",
+      "year": 460,
+      "description": "The stunning Buddhist murals at Ajanta Caves were painted under Vakataka and Gupta patronage, representing the pinnacle of ancient Indian painting.",
+      "wikiSlug": "Ajanta_Caves",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-iron-pillar",
+      "label": "Iron Pillar of Delhi",
+      "year": 402,
+      "description": "The iron pillar at Delhi was erected in honor of Vishnu, demonstrating remarkably advanced metallurgy — it has resisted rust for over 1,600 years.",
+      "wikiSlug": "Iron_pillar_of_Delhi",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-dashavatara-temple",
+      "label": "Dashavatara Temple at Deogarh",
+      "year": 500,
+      "description": "The Dashavatara Temple at Deogarh is one of the earliest Hindu stone temples, featuring exquisite relief panels depicting Vishnu's incarnations.",
+      "wikiSlug": "Dashavatara_Temple,_Deogarh",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-udayagiri-caves",
+      "label": "Udayagiri Caves",
+      "year": 401,
+      "description": "The rock-cut caves at Udayagiri were carved under Chandragupta II, featuring the iconic Varaha panel — one of the finest examples of Gupta sculpture.",
+      "wikiSlug": "Udayagiri_Caves",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gupta-gold-coins",
+      "label": "Gupta Gold Coinage",
+      "year": 335,
+      "description": "The Guptas issued exquisitely crafted gold coins (dinars) depicting rulers in various poses, reflecting imperial wealth and artistic sophistication.",
+      "wikiSlug": "Coinage_of_the_Gupta_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-silk-road-trade",
+      "label": "Gupta Silk Road Trade",
+      "year": 380,
+      "description": "The Gupta Empire actively traded along Silk Road networks, exporting textiles, spices, and gems while importing gold, horses, and Chinese silk.",
+      "wikiSlug": "Silk_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-maritime-trade",
+      "label": "Maritime Trade Flourishes",
+      "year": 403.0,
+      "description": "Gupta-era ports like Tamralipti and Bharuch connected India to Southeast Asia, China, and the Roman world through thriving maritime commerce.",
+      "wikiSlug": "Indian_Ocean_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-guild-system",
+      "label": "Guild System (Shreni)",
+      "year": 350,
+      "description": "Merchant and artisan guilds (shreni) formed a powerful economic institution during the Gupta period, regulating trade, banking, and craft production.",
+      "wikiSlug": "Shreni",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-hinduism-resurgence",
+      "label": "Hindu Temple Worship Spreads",
+      "year": 380,
+      "description": "The Gupta period saw Hinduism emerge as the dominant religion with royal patronage, establishing temple worship and Brahmanical rituals as mainstream practice.",
+      "wikiSlug": "Hinduism#Gupta_period",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-buddhist-art-sarnath",
+      "label": "Sarnath Buddha Sculptures",
+      "year": 450,
+      "description": "The Sarnath school of Gupta-era Buddhist sculpture produced the iconic seated Buddha with a serene expression, influencing Buddhist art across Asia.",
+      "wikiSlug": "Sarnath#Art_and_architecture",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-yoga-sutras-commentary",
+      "label": "Vyasa's Yoga Commentary",
+      "year": 406.0,
+      "description": "Vyasa composed the earliest surviving commentary on Patanjali's Yoga Sutras during the Gupta period, systematizing yoga philosophy.",
+      "wikiSlug": "Yoga_Sutras_of_Patanjali",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-allahabad-pillar",
+      "label": "Allahabad Pillar Inscription",
+      "year": 360,
+      "description": "Harishena's prasasti on the Allahabad Pillar is the primary source for Samudragupta's conquests, written in ornate Sanskrit verse.",
+      "wikiSlug": "Allahabad_Pillar",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sanskrit-flourishes",
+      "label": "Sanskrit as Court Language",
+      "year": 353.0,
+      "description": "Sanskrit became the preeminent language of administration, literature, and scholarship under the Guptas, spreading across South and Southeast Asia.",
+      "wikiSlug": "Sanskrit#Classical_Sanskrit",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sushruta-samhita",
+      "label": "Sushruta Samhita Redacted",
+      "year": 409.0,
+      "description": "The ancient surgical text Sushruta Samhita was redacted during the Gupta period, describing procedures including rhinoplasty and cataract surgery.",
+      "wikiSlug": "Sushruta_Samhita",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-toramana-invasion",
+      "label": "Toramana's Invasion",
+      "year": 500,
+      "description": "Huna ruler Toramana conquered large parts of northern India, dealing devastating blows to the weakened Gupta Empire.",
+      "wikiSlug": "Toramana",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mihirakula",
+      "label": "Mihirakula's Reign of Terror",
+      "year": 515,
+      "description": "Huna king Mihirakula terrorized northern India until defeated by Yashodharman and the Gupta vassal Narasimhagupta, ending Hunnic dominance.",
+      "wikiSlug": "Mihirakula",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gupta-collapse",
+      "label": "Gupta Empire Collapses",
+      "year": 550,
+      "description": "The Gupta Empire finally dissolved under pressure from Huna invasions, provincial revolts, and the rise of independent regional kingdoms.",
+      "wikiSlug": "Gupta_Empire#Decline",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vatsyayana",
+      "label": "Vatsyayana's Kama Sutra",
+      "year": 356.0,
+      "description": "Vatsyayana composed the Kama Sutra, a systematic treatise on human desire and social conduct that became one of India's most famous texts.",
+      "wikiSlug": "Kama_Sutra",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-panchatantra",
+      "label": "Panchatantra",
+      "year": 300,
+      "description": "Vishnu Sharma's Panchatantra, a collection of animal fables teaching political wisdom, was composed and would become one of the world's most translated works.",
+      "wikiSlug": "Panchatantra",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    }
+  ]
+}
