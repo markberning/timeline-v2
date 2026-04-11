@@ -66,7 +66,7 @@ export function ChapterAccordion({ chapter, initialOpen = false }: ChapterAccord
             <p className="text-[0.75em] text-foreground/40 mt-0.5">{chapter.dateRange}</p>
           )}
           {!open && chapter.summary && (
-            <p className="text-[0.9em] text-foreground/60 mt-2">{chapter.summary}</p>
+            <p className="text-foreground/60 mt-2">{chapter.summary}</p>
           )}
         </div>
       </button>
