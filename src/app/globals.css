@@ -6,16 +6,20 @@
   --background: #ffffff;
   --foreground: #171717;
   --accent: #a1a1aa;
-  --accent-text: color-mix(in srgb, var(--accent), #000 25%);
-  --accent-badge: color-mix(in srgb, var(--accent), #000 15%);
+  --accent-text: #4b5563;
+  --accent-badge: #6b7280;
   --prose-size: 1.125rem;
 }
 
 .dark {
   --background: #0a0a0a;
   --foreground: #ededed;
-  --accent-text: var(--accent);
-  --accent-badge: var(--accent);
+}
+
+/* In dark mode, accent colors have enough contrast on dark bg — use base color */
+.dark .accent-scope {
+  --accent-text: var(--accent) !important;
+  --accent-badge: var(--accent) !important;
 }
 
 @theme inline {
