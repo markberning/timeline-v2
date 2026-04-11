@@ -18,6 +18,8 @@ export default async function ReviewPage({ params }: PageProps) {
     .map(e => ({
       id: e.id,
       label: e.label,
+      year: e.year,
+      description: e.description,
       category: e.category,
       thumbnailUrl: e.thumbnailUrl!,
     }))
