@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useCallback } from 'react'
+import { useState, useRef } from 'react'
 import type { NarrativeChapter } from '@/lib/types'
 import { Lightbox } from './lightbox'
 
@@ -40,11 +40,6 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
     }
   }
 
-  const handleContentTap = useCallback((e: React.MouseEvent) => {
-    const target = e.target as HTMLElement
-    if (target.closest('a, button, input, select, textarea, img')) return
-    collapse()
-  }, [])
 
   return (
     <section id={`chapter-${chapter.number}`} className="border-b border-foreground/10 last:border-b-0">
@@ -76,7 +71,7 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
       </button>
 
       {open && (
-        <div className="pb-8 cursor-pointer" onClick={handleContentTap}>
+        <div className="pb-8">
           {/* Chapter map */}
           {mapExists && (
             <div
@@ -96,6 +91,13 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
             className="prose dark:prose-invert max-w-none px-0"
             dangerouslySetInnerHTML={{ __html: chapter.contentHtml }}
           />
+
+          <button
+            onClick={collapse}
+            className="mt-6 w-full py-3 text-sm text-foreground/50 hover:text-foreground/80 transition-colors border-t border-foreground/10"
+          >
+            Close Chapter {chapter.number}
+          </button>
         </div>
       )}
 
