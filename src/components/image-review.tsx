@@ -277,8 +277,8 @@ export function ImageReview({ civilizationId, events }: ImageReviewProps) {
                 value={noteInput.value}
                 onChange={e => setNoteInput({ ...noteInput, value: e.target.value })}
                 placeholder="Why? (optional)"
-                className="block w-full p-3 rounded-lg border border-foreground/20 bg-background text-sm resize-none h-20 focus:outline-none focus:border-foreground/40"
-                style={{ maxWidth: '100%', boxSizing: 'border-box' }}
+                className="block w-full p-3 rounded-lg border border-foreground/20 bg-background resize-none h-20 focus:outline-none focus:border-foreground/40"
+                style={{ fontSize: '16px', maxWidth: '100%', boxSizing: 'border-box' }}
               />
               <div className="flex gap-2 mt-3">
                 <button
