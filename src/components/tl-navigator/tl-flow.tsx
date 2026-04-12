@@ -12,6 +12,7 @@ interface Props {
 
 const MIN_BAR = 36
 const TARGET_MAX_FRAC = 0.7
+const MAX_INDENT_FRAC = 0.65
 const FRICTION = 0.94
 const MIN_VELOCITY = 0.05
 
@@ -75,6 +76,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     if (scrollOffsetRef.current > maxScroll) scrollOffsetRef.current = maxScroll
     if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
 
+    const maxIndent = vw * MAX_INDENT_FRAC
     const render = () => {
       const scrollOffset = scrollOffsetRef.current
       for (let i = 0; i < tls.length; i++) {
@@ -83,8 +85,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         const y = i * rowHeight - scrollOffset
         const rowCenterY = y + halfRow
         const t = rowCenterY / vh
-        const barW = barWidths[i] ?? MIN_BAR
-        const x = t * (vw - barW)
+        const x = t * maxIndent
         bar.style.transform = `translate3d(${x}px, ${y}px, 0)`
       }
     }
@@ -198,7 +199,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
           const so = scrollOffsetRef.current
           const y = i * rowHeight - so
           const t = (y + rowHeight / 2) / viewportSize.height
-          const x = t * (viewportSize.width - barW)
+          const x = t * (viewportSize.width * MAX_INDENT_FRAC)
           initialTransform = `translate3d(${x}px, ${y}px, 0)`
         }
         return (
