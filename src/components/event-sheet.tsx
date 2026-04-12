@@ -8,6 +8,7 @@ import { Lightbox } from './lightbox'
 interface EventSheetProps {
   event: TlEvent | null
   onClose: () => void
+  onInnerLinkClick?: (e: React.MouseEvent) => void
 }
 
 function formatYear(year: number, endYear?: number): string {
@@ -18,7 +19,7 @@ function formatYear(year: number, endYear?: number): string {
   return fmt(year)
 }
 
-export function EventSheet({ event, onClose }: EventSheetProps) {
+export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps) {
   const sheetRef = useRef<HTMLDivElement>(null)
   const [imgError, setImgError] = useState(false)
   const [showLightbox, setShowLightbox] = useState(false)
@@ -118,7 +119,7 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
           </figure>
         )}
 
-        <div className="px-5 pt-3 pb-6">
+        <div className="px-5 pt-3 pb-6" onClick={onInnerLinkClick}>
           {/* Category label */}
           {cat && (
             <span
@@ -164,9 +165,10 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
               <h4 className="text-xs font-semibold uppercase tracking-wide text-foreground/50 mb-1">
                 Wikipedia
               </h4>
-              <p className="text-foreground/70 leading-relaxed text-[0.9em]">
-                {event.wikiExtract}
-              </p>
+              <p
+                className="text-foreground/70 leading-relaxed text-[0.9em]"
+                dangerouslySetInnerHTML={{ __html: event.wikiExtract }}
+              />
             </div>
           )}
 

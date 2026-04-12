@@ -36,6 +36,14 @@ export interface TlSpan {
   endYear: number
 }
 
+export interface GlossaryEntry {
+  term: string
+  wikiSlug: string
+  type: string
+  wikiExtract?: string
+  thumbnailUrl?: string
+}
+
 export interface TimelineNarrative {
   id: string
   label: string
@@ -43,6 +51,7 @@ export interface TimelineNarrative {
   chapters: NarrativeChapter[]
   events: TlEvent[]
   spans: TlSpan[]
+  glossary?: GlossaryEntry[]
   mapCommonsFile?: string
 }
 

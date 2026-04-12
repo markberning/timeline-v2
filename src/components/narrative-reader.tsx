@@ -1,34 +1,49 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import type { NarrativeChapter, TlEvent } from '@/lib/types'
+import type { NarrativeChapter, TlEvent, GlossaryEntry } from '@/lib/types'
 import { ChapterAccordion } from './chapter-accordion'
 import { EventSheet } from './event-sheet'
+import { GlossarySheet } from './glossary-sheet'
 
 interface NarrativeReaderProps {
   civilizationId: string
   chapters: NarrativeChapter[]
   events: TlEvent[]
+  glossary: GlossaryEntry[]
 }
 
-export function NarrativeReader({ civilizationId, chapters, events }: NarrativeReaderProps) {
+export function NarrativeReader({ civilizationId, chapters, events, glossary }: NarrativeReaderProps) {
   const [activeEvent, setActiveEvent] = useState<TlEvent | null>(null)
+  const [activeGlossary, setActiveGlossary] = useState<GlossaryEntry | null>(null)
 
-  // Build event lookup once
   const eventMap = new Map(events.map(e => [e.id, e]))
+  const glossaryMap = new Map(glossary.map(g => [g.wikiSlug, g]))
 
   const handleClick = useCallback((e: React.MouseEvent) => {
-    const link = (e.target as HTMLElement).closest('.event-link') as HTMLElement | null
-    if (link) {
+    const target = e.target as HTMLElement
+    const eventLink = target.closest('.event-link') as HTMLElement | null
+    if (eventLink) {
       e.preventDefault()
       e.stopPropagation()
-      const eventId = link.dataset.eventId
+      const eventId = eventLink.dataset.eventId
       if (eventId) {
         const event = eventMap.get(eventId)
         if (event) setActiveEvent(event)
       }
+      return
     }
-  }, [eventMap])
+    const glossaryLink = target.closest('.glossary-link') as HTMLElement | null
+    if (glossaryLink) {
+      e.preventDefault()
+      e.stopPropagation()
+      const slug = glossaryLink.dataset.wikiSlug
+      if (slug) {
+        const entry = glossaryMap.get(slug)
+        if (entry) setActiveGlossary(entry)
+      }
+    }
+  }, [eventMap, glossaryMap])
 
   return (
     <>
@@ -47,6 +62,12 @@ export function NarrativeReader({ civilizationId, chapters, events }: NarrativeR
       <EventSheet
         event={activeEvent}
         onClose={() => setActiveEvent(null)}
+        onInnerLinkClick={handleClick}
+      />
+      <GlossarySheet
+        entry={activeGlossary}
+        onClose={() => setActiveGlossary(null)}
+        onInnerLinkClick={handleClick}
       />
     </>
   )

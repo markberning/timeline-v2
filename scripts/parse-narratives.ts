@@ -10,7 +10,7 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
-import { enrichEvents } from './enrich-events'
+import { enrichEvents, enrichGlossary } from './enrich-events'
 
 interface ParsedChapter {
   number: number
@@ -18,6 +18,21 @@ interface ParsedChapter {
   slug: string
   contentHtml: string
   eventIds: string[]
+}
+
+interface GlossaryLink {
+  term: string
+  matchText: string
+  wikiSlug: string
+  type: string
+}
+
+interface GlossaryEntry {
+  term: string
+  wikiSlug: string
+  type: string
+  wikiExtract?: string
+  thumbnailUrl?: string
 }
 
 interface ChapterSummary {
@@ -195,6 +210,36 @@ async function parseNarrative(filename: string, tlId: string) {
     console.log(`  No curated event links found (${linksPath})`)
   }
 
+  // Load curated glossary links
+  const glossaryLinksPath = join(ROOT, 'content', `.glossary-links-${tlId}.json`)
+  let glossaryLinks: Record<string, GlossaryLink[]> = {}
+  if (existsSync(glossaryLinksPath)) {
+    glossaryLinks = JSON.parse(readFileSync(glossaryLinksPath, 'utf-8'))
+    const totalGlossary = Object.values(glossaryLinks).reduce((s, arr) => s + arr.length, 0)
+    console.log(`  Curated glossary links: ${totalGlossary} across ${Object.keys(glossaryLinks).length} chapters`)
+  }
+
+  // Collect unique glossary slugs and enrich them
+  const allGlossaryLinks = Object.values(glossaryLinks).flat()
+  const glossarySlugs = [...new Set(allGlossaryLinks.map(l => l.wikiSlug))]
+  const glossaryEnrichment = glossarySlugs.length > 0
+    ? await enrichGlossary(glossarySlugs, forceRefresh)
+    : new Map()
+
+  // Build glossary entries keyed by slug (term comes from first link using that slug)
+  const glossaryEntries: Record<string, GlossaryEntry> = {}
+  for (const link of allGlossaryLinks) {
+    if (glossaryEntries[link.wikiSlug]) continue
+    const enriched = glossaryEnrichment.get(link.wikiSlug)
+    glossaryEntries[link.wikiSlug] = {
+      term: link.term,
+      wikiSlug: link.wikiSlug,
+      type: link.type,
+      wikiExtract: enriched?.wikiExtract,
+      thumbnailUrl: enriched?.thumbnailUrl,
+    }
+  }
+
   // Build category lookup for link injection
   const categoryMap = new Map(refData.events.map(e => [e.id, e.category]))
 
@@ -219,6 +264,21 @@ async function parseNarrative(filename: string, tlId: string) {
       if (linkedBody !== before) linked.add(link.eventId)
     }
 
+    // Inject glossary links (runs after events so events win where they overlap)
+    const chapterGlossary = glossaryLinks[String(ch.number)] ?? []
+    const glossarySorted = [...chapterGlossary].sort((a, b) => b.matchText.length - a.matchText.length)
+    const glossaryLinked = new Set<string>()
+    for (const link of glossarySorted) {
+      if (glossaryLinked.has(link.wikiSlug)) continue
+      const escaped = link.matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      // Skip matches inside existing <a ... > tags (event links or already-placed glossary links)
+      const regex = new RegExp(`(?<!<[^>]*)\\b(${escaped})\\b`, 'i')
+      const replacement = `<a class="glossary-link" data-wiki-slug="${link.wikiSlug}">${link.matchText}</a>`
+      const before = linkedBody
+      linkedBody = linkedBody.replace(regex, replacement)
+      if (linkedBody !== before) glossaryLinked.add(link.wikiSlug)
+    }
+
     const html = await markdownToHtml(linkedBody)
 
     chapters.push({
@@ -228,6 +288,24 @@ async function parseNarrative(filename: string, tlId: string) {
       contentHtml: html,
       eventIds: Array.from(linked),
     })
+  }
+
+  // Build a single regex of all glossary match texts for linking inside event wiki extracts
+  const glossaryTermsForExtracts = allGlossaryLinks.map(l => l.matchText)
+  const uniqueExtractTerms = [...new Set(glossaryTermsForExtracts)].sort((a, b) => b.length - a.length)
+  function linkGlossaryInText(text: string): string {
+    let result = text
+    const used = new Set<string>()
+    for (const term of uniqueExtractTerms) {
+      const entry = allGlossaryLinks.find(l => l.matchText === term)
+      if (!entry || used.has(entry.wikiSlug)) continue
+      const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      const regex = new RegExp(`(?<!<[^>]*)\\b(${escaped})\\b`)
+      const before = result
+      result = result.replace(regex, `<a class="glossary-link" data-wiki-slug="${entry.wikiSlug}">${term}</a>`)
+      if (result !== before) used.add(entry.wikiSlug)
+    }
+    return result
   }
 
   const output = {
@@ -245,9 +323,15 @@ async function parseNarrative(filename: string, tlId: string) {
     }),
     events: refData.events.map(e => {
       const enriched = enrichmentMap.get(e.id)
-      return enriched ? { ...e, ...enriched } : e
+      const merged: TlEvent & { wikiExtract?: string; thumbnailUrl?: string; imageCaption?: string } =
+        enriched ? { ...e, ...enriched } : e
+      if (merged.wikiExtract) {
+        merged.wikiExtract = linkGlossaryInText(merged.wikiExtract)
+      }
+      return merged
     }),
     spans: refData.spans,
+    glossary: Object.values(glossaryEntries),
   }
 
   const outPath = join(CONTENT_DIR, `${tlId}.json`)

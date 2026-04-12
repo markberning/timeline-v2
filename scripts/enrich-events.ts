@@ -246,6 +246,34 @@ export interface EnrichedEvent {
   wikiExtract?: string
 }
 
+export interface EnrichedGlossary {
+  wikiExtract?: string
+  thumbnailUrl?: string
+}
+
+/** Enrich a set of glossary wiki slugs. Shares the event enrichment cache. */
+export async function enrichGlossary(
+  wikiSlugs: string[],
+  forceRefresh = false,
+): Promise<Map<string, EnrichedGlossary>> {
+  const cache = forceRefresh
+    ? { thumbnails: {}, extracts: {}, wikiImages: {}, wikiImageFiles: {}, imageDescriptions: {} } as EnrichmentCache
+    : loadCache()
+
+  const uniqueSlugs = [...new Set(wikiSlugs)]
+  await fetchWikiData(uniqueSlugs, cache)
+  saveCache(cache)
+
+  const result = new Map<string, EnrichedGlossary>()
+  for (const slug of uniqueSlugs) {
+    const entry: EnrichedGlossary = {}
+    if (cache.extracts[slug]) entry.wikiExtract = cache.extracts[slug]!
+    if (cache.wikiImages[slug]) entry.thumbnailUrl = cache.wikiImages[slug]!
+    if (entry.wikiExtract || entry.thumbnailUrl) result.set(slug, entry)
+  }
+  return result
+}
+
 /** Enrich a set of events. Returns a map of event ID → enrichment data. */
 export async function enrichEvents(
   events: Array<{ id: string; commonsFile?: string; wikiSlug?: string }>,

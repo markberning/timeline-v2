@@ -129,6 +129,17 @@ body {
   border-color: currentColor;
 }
 
+/* Glossary links — gray solid underline */
+.glossary-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  color: #6b7280;
+}
+.dark .glossary-link {
+  color: #9ca3af;
+}
+
 /* Dark mode: use vibrant base colors */
 .dark .event-link[data-category="rulers"]       { color: #f59e0b; }
 .dark .event-link[data-category="wars"]         { color: #ef4444; }
