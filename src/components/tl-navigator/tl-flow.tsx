@@ -12,13 +12,18 @@ interface Props {
 
 const MIN_BAR = 36
 const TARGET_MAX_FRAC = 0.7
-const MAX_INDENT_FRAC = 0.65
+const MAX_INDENT_FRAC = 0.5
 const FRICTION = 0.94
 const MIN_VELOCITY = 0.05
 
-function formatYear(y: number): string {
-  const abs = Math.abs(Math.round(y))
-  return y < 0 ? `${abs} BCE` : `${abs} CE`
+function formatYearRange(start: number, end: number): string {
+  const startBce = start < 0
+  const endBce = end < 0
+  const sa = Math.abs(Math.round(start))
+  const ea = Math.abs(Math.round(end))
+  if (startBce && endBce) return `${sa}–${ea} BCE`
+  if (!startBce && !endBce) return `${sa}–${ea} CE`
+  return `${sa} BCE – ${ea} CE`
 }
 
 export function TlFlow({ tls, rowHeight, theme }: Props) {
@@ -256,7 +261,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
               <span>{tl.label}</span>
               <span style={{ opacity: 0.35 }}>·</span>
               <span style={{ opacity: 0.5, fontWeight: 400, fontSize: 11 }}>
-                {formatYear(tl.startYear)} – {formatYear(tl.endYear)}
+                {formatYearRange(tl.startYear, tl.endYear)}
               </span>
             </div>
             {tl.subtitle && (
