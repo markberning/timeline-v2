@@ -5,6 +5,7 @@ import { NextRequest, NextResponse } from 'next/server'
 const CONTENT_DIR = join(process.cwd(), 'content')
 const IMAGE_OVERRIDES = join(CONTENT_DIR, '.image-overrides.json')
 const CAPTION_OVERRIDES = join(CONTENT_DIR, '.caption-overrides.json')
+const IMAGE_REJECTIONS = join(CONTENT_DIR, '.image-rejections.json')
 
 interface Approval {
   eventId: string
@@ -25,15 +26,24 @@ export async function POST(request: NextRequest) {
   const captions: Record<string, string> = existsSync(CAPTION_OVERRIDES)
     ? JSON.parse(readFileSync(CAPTION_OVERRIDES, 'utf-8'))
     : {}
+  const rejectionsRaw: Record<string, string> | string[] = existsSync(IMAGE_REJECTIONS)
+    ? JSON.parse(readFileSync(IMAGE_REJECTIONS, 'utf-8'))
+    : {}
+  const rejections: Record<string, string> = Array.isArray(rejectionsRaw)
+    ? Object.fromEntries(rejectionsRaw.map(id => [id, '']))
+    : rejectionsRaw
 
   for (const a of approved) {
     if (!a.eventId || !a.filename) continue
     images[a.eventId] = a.filename
     if (a.caption) captions[a.eventId] = a.caption
+    // Newly approved events should no longer be on the rejection list
+    delete rejections[a.eventId]
   }
 
   writeFileSync(IMAGE_OVERRIDES, JSON.stringify(images, null, 2))
   writeFileSync(CAPTION_OVERRIDES, JSON.stringify(captions, null, 2))
+  writeFileSync(IMAGE_REJECTIONS, JSON.stringify(rejections, null, 2))
 
   return NextResponse.json({ count: approved.length })
 }
