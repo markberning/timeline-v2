@@ -14,20 +14,19 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
   const [open, setOpen] = useState(initialOpen)
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState(true)
+  const [justCollapsed, setJustCollapsed] = useState(false)
   const headerRef = useRef<HTMLButtonElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
 
   function collapse() {
-    if (!headerRef.current) return
-    const offsetBefore = headerRef.current.getBoundingClientRect().top
     setOpen(false)
+    setJustCollapsed(true)
     requestAnimationFrame(() => {
-      if (!headerRef.current) return
-      const offsetAfter = headerRef.current.getBoundingClientRect().top
-      window.scrollBy(0, offsetAfter - offsetBefore)
+      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     })
+    setTimeout(() => setJustCollapsed(false), 1500)
   }
 
   function onTouchStart(e: React.TouchEvent) {
@@ -63,7 +62,8 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
       <button
         ref={headerRef}
         onClick={toggle}
-        className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 bg-background scroll-mt-[40px]"
+        className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms]"
+        style={{ backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)' }}
       >
         <span
           className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
