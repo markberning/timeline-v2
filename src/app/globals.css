@@ -130,13 +130,16 @@ body {
 }
 
 /* Glossary links — gray solid underline */
-.glossary-link {
+.prose a.glossary-link,
+a.glossary-link {
   text-decoration: underline;
   text-underline-offset: 2px;
   cursor: pointer;
   color: #6b7280;
+  font-weight: inherit;
 }
-.dark .glossary-link {
+.dark .prose a.glossary-link,
+.dark a.glossary-link {
   color: #9ca3af;
 }
 
