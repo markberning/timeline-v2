@@ -1,6 +1,6 @@
 import type { NavigatorRegion } from './navigator-tls'
 
-export type BarStyle = 'filled' | 'stripe-left' | 'carved'
+export type BarStyle = 'filled' | 'stripe-left' | 'carved' | 'line'
 
 export interface NavigatorTheme {
   id: string
@@ -247,6 +247,49 @@ export const NAVIGATOR_THEMES: NavigatorTheme[] = [
       border: 'none',
       radius: 0,
       opacity: 1,
+    },
+    label: {
+      color: '#e8dfd0',
+      shadow: '0 1px 0 rgba(0,0,0,0.9)',
+    },
+    zoomBtn: {
+      border: '1px solid rgba(0,0,0,0.45)',
+      color: '#d6cdbe',
+      bg: 'rgba(0,0,0,0.2)',
+    },
+    toggle: {
+      offText: '#8c8174',
+      offBorder: 'rgba(255,255,255,0.14)',
+      onText: '#fff',
+      onBgAlpha: '40',
+    },
+  },
+  {
+    id: 'stone-v3',
+    name: 'Stone v3',
+    appBg: '#2a2520',
+    headerBg: '#322c26',
+    headerBorder: 'rgba(0,0,0,0.45)',
+    textPrimary: '#d6cdbe',
+    textSecondary: '#8c8174',
+    axisBg: '#322c26',
+    axisText: '#9c907f',
+    axisGridLine: 'rgba(255,255,255,0.05)',
+    axisBottomBorder: 'rgba(0,0,0,0.5)',
+    rowStripe: 'rgba(0,0,0,0.14)',
+    rowBorder: 'rgba(0,0,0,0.3)',
+    regionColors: {
+      'near-east': '#c2602e',
+      'africa': '#b07e26',
+      'asia': '#8270a8',
+      'europe': '#4a76a3',
+      'americas': '#549162',
+    },
+    bar: {
+      style: 'line',
+      radius: 0,
+      opacity: 1,
+      accentWidth: 3,
     },
     label: {
       color: '#e8dfd0',

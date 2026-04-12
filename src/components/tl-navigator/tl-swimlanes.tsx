@@ -125,51 +125,65 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                 width: trackWidth,
               }}
             >
-              {/* Bar body */}
-              <div
-                style={{
-                  position: 'absolute',
-                  left: barLeft,
-                  top: barTop,
-                  height: barHeight,
-                  width: barWidth,
-                  background: barFill,
-                  opacity: theme.bar.opacity,
-                  borderRadius: theme.bar.radius,
-                  border: theme.bar.border,
-                  boxShadow: theme.bar.shadow,
-                  boxSizing: 'border-box',
-                  overflow: 'hidden',
-                }}
-              >
-                {/* stripe-left accent */}
-                {theme.bar.style === 'stripe-left' && (
-                  <div
-                    style={{
-                      position: 'absolute',
-                      left: 0,
-                      top: 0,
-                      bottom: 0,
-                      width: theme.bar.accentWidth ?? 4,
-                      background: regionColor,
-                    }}
-                  />
-                )}
-                {/* carved: thin colored top edge */}
-                {theme.bar.style === 'carved' && (
-                  <div
-                    style={{
-                      position: 'absolute',
-                      left: 0,
-                      right: 0,
-                      top: 0,
-                      height: theme.bar.accentWidth ?? 3,
-                      background: regionColor,
-                      opacity: 0.85,
-                    }}
-                  />
-                )}
-              </div>
+              {/* Bar */}
+              {theme.bar.style === 'line' ? (
+                <div
+                  style={{
+                    position: 'absolute',
+                    left: barLeft,
+                    top: 4,
+                    height: theme.bar.accentWidth ?? 3,
+                    width: barWidth,
+                    background: regionColor,
+                    borderRadius: theme.bar.radius,
+                  }}
+                />
+              ) : (
+                <div
+                  style={{
+                    position: 'absolute',
+                    left: barLeft,
+                    top: barTop,
+                    height: barHeight,
+                    width: barWidth,
+                    background: barFill,
+                    opacity: theme.bar.opacity,
+                    borderRadius: theme.bar.radius,
+                    border: theme.bar.border,
+                    boxShadow: theme.bar.shadow,
+                    boxSizing: 'border-box',
+                    overflow: 'hidden',
+                  }}
+                >
+                  {/* stripe-left accent */}
+                  {theme.bar.style === 'stripe-left' && (
+                    <div
+                      style={{
+                        position: 'absolute',
+                        left: 0,
+                        top: 0,
+                        bottom: 0,
+                        width: theme.bar.accentWidth ?? 4,
+                        background: regionColor,
+                      }}
+                    />
+                  )}
+                  {/* carved: thin colored top edge */}
+                  {theme.bar.style === 'carved' && (
+                    <div
+                      style={{
+                        position: 'absolute',
+                        left: 0,
+                        right: 0,
+                        top: 0,
+                        height: theme.bar.accentWidth ?? 3,
+                        background: regionColor,
+                        opacity: 0.85,
+                      }}
+                    />
+                  )}
+                </div>
+              )}
               {/* Label */}
               <div
                 title={`${tl.label} · ${datesText}`}
