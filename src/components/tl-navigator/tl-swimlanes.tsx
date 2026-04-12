@@ -11,9 +11,75 @@ import {
   compressedTotalWidth,
 } from '@/lib/navigator-tls'
 
-const BREAK_BAR_COUNT = 3  // top N rows get a dark gap between name and dates
+const BREAK_BAR_COUNT = 3  // top N rows get a dark gap before the label text
 const BG_COLOR = '#0a0a0c' // matches the page background so the gap reads as a hole in the bar
-const LABEL_GAP_WIDTH = 16 // pixel width of the dark gap
+const LABEL_GAP_WIDTH = 22 // pixel width of the dark gap (also holds the dot + line + years text)
+const GAP_PRE_PAD = 4      // px of bar color visible to the left of the gap
+
+interface DotLineGapProps {
+  years: number
+  width: number
+  height: number
+}
+
+function DotLineGap({ years, width, height }: DotLineGapProps) {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width,
+        height,
+        background: BG_COLOR,
+        flexShrink: 0,
+      }}
+    >
+      {/* Tiny dot at the top center */}
+      <div
+        style={{
+          position: 'absolute',
+          left: '50%',
+          top: 2,
+          width: 4,
+          height: 4,
+          marginLeft: -2,
+          borderRadius: '50%',
+          background: '#fff',
+        }}
+      />
+      {/* Thin vertical line from dot to bottom */}
+      <div
+        style={{
+          position: 'absolute',
+          left: '50%',
+          top: 5,
+          bottom: 1,
+          width: 1,
+          marginLeft: -0.5,
+          background: '#fff',
+        }}
+      />
+      {/* Years count, drawn vertically along the line */}
+      <div
+        style={{
+          position: 'absolute',
+          left: '50%',
+          top: 7,
+          marginLeft: -5,
+          fontSize: 7,
+          fontWeight: 700,
+          color: '#fff',
+          letterSpacing: '0.05em',
+          writingMode: 'vertical-rl',
+          textOrientation: 'mixed',
+          lineHeight: 1,
+          textShadow: '0 0 2px #000',
+        }}
+      >
+        {years.toLocaleString()} yrs
+      </div>
+    </div>
+  )
+}
 
 interface Props {
   tls: NavigatorTl[]               // pre-filtered AND pre-sorted by start year
@@ -107,6 +173,12 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
           const bgStripe = i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'transparent'
           const datesText = `${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`
           const useGap = i < BREAK_BAR_COUNT
+          // Total years compressed within this bar's span — what the gap "represents"
+          const compressedYears = useGap
+            ? COMPRESSION_ZONES
+                .filter(z => z.start >= tl.startYear && z.end <= tl.endYear)
+                .reduce((sum, z) => sum + (z.end - z.start), 0)
+            : 0
 
           return (
             <div
@@ -134,14 +206,15 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   boxSizing: 'border-box',
                 }}
               />
-              {/* Label — flex row with optional dark gap between name and dates.
-                  The gap is the same color as the page bg and a hair taller
-                  than the bar so it visually punches a hole in the colored bar. */}
+              {/* Label — gap (if any) sits before the text. Because the gap is
+                  anchored to the bar's left edge, two rows whose bars start at
+                  the same year (e.g. Ancient China & Indus Valley at -7000)
+                  get gaps in the same X position automatically. */}
               <div
-                title={`${tl.label} · ${datesText}`}
+                title={`${tl.label} · ${datesText}${useGap ? ` (~${compressedYears.toLocaleString()} yrs compressed)` : ''}`}
                 style={{
                   position: 'absolute',
-                  left: barLeft + 8,
+                  left: barLeft + GAP_PRE_PAD,
                   top: 0,
                   height: rowHeight,
                   display: 'flex',
@@ -156,19 +229,15 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   zIndex: 4,
                 }}
               >
-                <span>{tl.label}</span>
-                {useGap ? (
-                  <div
-                    style={{
-                      width: LABEL_GAP_WIDTH,
-                      height: rowHeight - 6,
-                      background: BG_COLOR,
-                      flexShrink: 0,
-                    }}
+                {useGap && (
+                  <DotLineGap
+                    years={compressedYears}
+                    width={LABEL_GAP_WIDTH}
+                    height={rowHeight - 6}
                   />
-                ) : (
-                  <span style={{ opacity: 0.6 }}>·</span>
                 )}
+                <span>{tl.label}</span>
+                <span style={{ opacity: 0.6 }}>·</span>
                 <span>{datesText}</span>
               </div>
             </div>
