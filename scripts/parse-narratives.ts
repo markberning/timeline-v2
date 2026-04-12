@@ -254,6 +254,10 @@ async function parseNarrative(filename: string, tlId: string) {
     const linked = new Set<string>()
     for (const link of sorted) {
       if (linked.has(link.eventId)) continue
+      if (!categoryMap.has(link.eventId)) {
+        console.warn(`  ⚠ stale event link in ch${ch.number}: ${link.eventId} (skipping)`)
+        continue
+      }
       const cat = categoryMap.get(link.eventId) ?? 'people'
       const escaped = link.matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
       // Only match in prose text, not inside existing HTML tags or markdown headings
