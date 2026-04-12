@@ -26,6 +26,11 @@ const LANE_PADDING = 6
 const TAP_THRESHOLD_PX = 8
 const WHEEL_ZOOM_FACTOR = 0.0015
 
+// Solo-region mode: show only this region and let it fill the whole viewport.
+// Set to null to show all 5 regions.
+const SOLO_REGION: NavigatorRegion | null = 'asia'
+const SOLO_HEADER_OFFSET = 52  // matches the bands container top offset
+
 function dist(a: Touch, b: Touch): number {
   const dx = a.clientX - b.clientX
   const dy = a.clientY - b.clientY
@@ -35,22 +40,26 @@ function dist(a: Touch, b: Touch): number {
 export function TlNavigator() {
   const containerRef = useRef<HTMLDivElement>(null)
   const [viewport, setViewport] = useState<Viewport | null>(null)
+  const [containerHeight, setContainerHeight] = useState<number>(0)
 
   // Initialize viewport once we know container width
   useEffect(() => {
     const el = containerRef.current
     if (!el) return
-    const init = (w: number) => {
+    const init = (w: number, h: number) => {
       if (w <= 0) return
       // Start showing ~2000 years centered on -4000 BCE — only Mesopotamia + Indus initially
       const v = clampPan(makeInitialViewport(w, -4000, 2000))
       setViewport({ ...v, containerWidth: w })
+      setContainerHeight(h)
     }
-    init(el.clientWidth)
+    init(el.clientWidth, el.clientHeight)
 
     const ro = new ResizeObserver(() => {
       const w = el.clientWidth
+      const h = el.clientHeight
       if (w <= 0) return
+      setContainerHeight(h)
       setViewport(prev => {
         if (!prev) {
           const v = clampPan(makeInitialViewport(w, -4000, 2000))
@@ -263,6 +272,18 @@ export function TlNavigator() {
 
   const [vs, ve] = viewport ? getVisibleYearRange(viewport) : [TIME_MIN, TIME_MAX]
 
+  // Which regions actually get rendered — all regions, or solo filter
+  const renderedRegions: NavigatorRegion[] = SOLO_REGION ? [SOLO_REGION] : REGION_ORDER
+
+  // In solo mode, let the single band fill the whole vertical space by
+  // computing a dynamic lane height from the viewport height and the
+  // current lane count. Falls back to a reasonable min if no lanes.
+  const bandsAvailableHeight = Math.max(0, containerHeight - SOLO_HEADER_OFFSET)
+  const soloLaneCount = SOLO_REGION ? Math.max(1, laneCounts[SOLO_REGION] ?? 1) : 1
+  const soloLaneHeight = SOLO_REGION && bandsAvailableHeight > 0
+    ? Math.max(32, Math.floor((bandsAvailableHeight - LANE_PADDING * 2 - 18) / soloLaneCount))
+    : LANE_HEIGHT
+
   return (
     <div
       ref={containerRef}
@@ -318,15 +339,15 @@ export function TlNavigator() {
             justifyContent: 'center',
           }}
         >
-          {REGION_ORDER.map(r => (
+          {renderedRegions.map(r => (
             <RegionBand
               key={r}
               region={r}
               tls={byRegion[r]}
               viewport={viewport}
-              visibleLaneCount={laneCounts[r] ?? 0}
-              isVisible={visibleRegions.has(r)}
-              laneHeight={LANE_HEIGHT}
+              visibleLaneCount={SOLO_REGION === r ? soloLaneCount : (laneCounts[r] ?? 0)}
+              isVisible={SOLO_REGION ? true : visibleRegions.has(r)}
+              laneHeight={SOLO_REGION === r ? soloLaneHeight : LANE_HEIGHT}
               lanePadding={LANE_PADDING}
             />
           ))}
