@@ -22,6 +22,20 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
   const sheetRef = useRef<HTMLDivElement>(null)
   const [imgError, setImgError] = useState(false)
   const [showLightbox, setShowLightbox] = useState(false)
+  const pointerStart = useRef<{ x: number; y: number } | null>(null)
+
+  function onHeaderPointerDown(e: React.PointerEvent) {
+    pointerStart.current = { x: e.clientX, y: e.clientY }
+  }
+  function onHeaderPointerUp(e: React.PointerEvent) {
+    const start = pointerStart.current
+    pointerStart.current = null
+    if (!start) return
+    const dx = e.clientX - start.x
+    const dy = e.clientY - start.y
+    const swipeDown = dy > 40 && Math.abs(dy) > Math.abs(dx)
+    if (swipeDown) onClose()
+  }
 
   useEffect(() => {
     setImgError(false)
@@ -58,7 +72,12 @@ export function EventSheet({ event, onClose }: EventSheetProps) {
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}
       >
         {/* Header bar: drag handle + close */}
-        <div className="flex items-center justify-between px-5 pt-3 pb-1 sticky top-0 bg-background rounded-t-2xl z-10">
+        <div
+          className="flex items-center justify-between px-5 pt-3 pb-2 sticky top-0 bg-background rounded-t-2xl z-10 touch-none cursor-grab active:cursor-grabbing"
+          onPointerDown={onHeaderPointerDown}
+          onPointerUp={onHeaderPointerUp}
+          onClick={() => onClose()}
+        >
           <div className="w-8" />
           <div className="w-9 h-1 rounded-full bg-foreground/20" />
           <button
