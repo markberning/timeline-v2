@@ -13,7 +13,7 @@ interface Props {
 
 function formatYearShort(y: number): string {
   const abs = Math.abs(Math.round(y))
-  return y < 0 ? `${abs}bc` : `${abs}ad`
+  return y < 0 ? `${abs} BCE` : `${abs} CE`
 }
 
 // Nice-number tick interval so labels stay ~80px apart
