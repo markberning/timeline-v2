@@ -12,7 +12,6 @@ import { TlFlow } from './tl-flow'
 import { ZoneToggles } from './zone-toggles'
 
 const ROW_HEIGHT_FALLBACK = 56
-const AXIS_HEIGHT = 28
 const HEADER_HEIGHT = 88
 
 function sortTls(tls: NavigatorTl[]): NavigatorTl[] {
@@ -125,7 +124,6 @@ export function TlNavigator() {
       <TlFlow
         tls={sortedTls}
         rowHeight={theme.rowHeight ?? ROW_HEIGHT_FALLBACK}
-        axisHeight={AXIS_HEIGHT}
         theme={theme}
       />
     </div>
