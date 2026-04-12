@@ -276,7 +276,7 @@ export const NAVIGATOR_THEMES: NavigatorTheme[] = [
     axisText: '#9c907f',
     axisGridLine: 'rgba(255,255,255,0.05)',
     axisBottomBorder: 'rgba(0,0,0,0.5)',
-    rowStripe: 'rgba(0,0,0,0.14)',
+    rowStripe: 'transparent',
     rowBorder: 'rgba(0,0,0,0.3)',
     regionColors: {
       'near-east': '#c2602e',
