@@ -197,13 +197,10 @@ export const NAVIGATOR_THEMES: NavigatorTheme[] = [
       'americas': '#549162',
     },
     bar: {
-      style: 'carved',
-      fill: '#1c1814',
-      border: '1px solid rgba(0,0,0,0.6)',
-      shadow: 'inset 0 1px 2px rgba(0,0,0,0.75), inset 0 -1px 0 rgba(255,255,255,0.05)',
-      radius: 2,
+      style: 'filled',
+      border: 'none',
+      radius: 0,
       opacity: 1,
-      accentWidth: 3,
     },
     label: {
       color: '#e8dfd0',
