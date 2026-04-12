@@ -106,13 +106,13 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
           const isFilled = theme.bar.style === 'filled'
           const barFill = isFilled ? regionColor : (theme.bar.fill ?? regionColor)
           const isSplit = theme.rowLayout === 'split'
-          const halfHeight = Math.floor(rowHeight / 2)
+          const barLaneHeight = Math.floor(rowHeight / 3)
           const barTop = isSplit ? 0 : 4
-          const barHeight = isSplit ? halfHeight : rowHeight - 8
-          const labelTop = isSplit ? halfHeight : 0
-          const labelHeight = isSplit ? rowHeight - halfHeight : rowHeight
+          const barHeight = isSplit ? barLaneHeight : rowHeight - 8
+          const labelTop = isSplit ? barLaneHeight : 0
+          const labelHeight = isSplit ? rowHeight - barLaneHeight : rowHeight
           const labelLeft = isSplit ? barLeft + 2 : barLeft + 8
-          const labelFontSize = isSplit ? 11 : 13
+          const labelFontSize = isSplit ? 13 : 13
 
           return (
             <div
