@@ -35,9 +35,10 @@ export function TlNavigator() {
 
   const theme = STONE_THEME
 
-  // Lock document scroll/overscroll while the navigator is mounted so the
-  // page body can't rubber-band, drag the fixed navigator around, or trap
-  // touches outside the swimlane scroll container.
+  // Lock the document while the navigator is mounted. iOS Safari will
+  // rubber-band the body even when the only content is a position:fixed
+  // child, dragging the entire navigator around the screen — the only
+  // reliable defense is to pin html + body in place with position:fixed.
   useEffect(() => {
     const html = document.documentElement
     const body = document.body
@@ -46,6 +47,11 @@ export function TlNavigator() {
       htmlHeight: html.style.height,
       bodyOverflow: body.style.overflow,
       bodyHeight: body.style.height,
+      bodyWidth: body.style.width,
+      bodyPosition: body.style.position,
+      bodyTop: body.style.top,
+      bodyLeft: body.style.left,
+      bodyRight: body.style.right,
       bodyOverscroll: body.style.overscrollBehavior,
       bodyTouchAction: body.style.touchAction,
     }
@@ -53,6 +59,11 @@ export function TlNavigator() {
     html.style.height = '100%'
     body.style.overflow = 'hidden'
     body.style.height = '100%'
+    body.style.width = '100%'
+    body.style.position = 'fixed'
+    body.style.top = '0'
+    body.style.left = '0'
+    body.style.right = '0'
     body.style.overscrollBehavior = 'none'
     body.style.touchAction = 'none'
     return () => {
@@ -60,6 +71,11 @@ export function TlNavigator() {
       html.style.height = prev.htmlHeight
       body.style.overflow = prev.bodyOverflow
       body.style.height = prev.bodyHeight
+      body.style.width = prev.bodyWidth
+      body.style.position = prev.bodyPosition
+      body.style.top = prev.bodyTop
+      body.style.left = prev.bodyLeft
+      body.style.right = prev.bodyRight
       body.style.overscrollBehavior = prev.bodyOverscroll
       body.style.touchAction = prev.bodyTouchAction
     }
