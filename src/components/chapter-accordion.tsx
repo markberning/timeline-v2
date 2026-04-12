@@ -101,7 +101,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
       >
         <span
           className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
-          style={{ backgroundColor: 'var(--accent)' }}
+          style={{ backgroundColor: open ? '#10b981' : '#ef4444' }}
         >
           {chapter.number}
         </span>
