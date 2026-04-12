@@ -73,11 +73,13 @@ export function TlFlow({ tls, rowHeight, axisHeight, theme }: Props) {
 
   // DOM refs we touch on every scroll frame
   const barRefs = useRef<(HTMLDivElement | null)[]>([])
+  const lineRefs = useRef<(HTMLDivElement | null)[]>([])
   const tickRefs = useRef<(HTMLDivElement | null)[]>([])
   const tickLabelRefs = useRef<(HTMLDivElement | null)[]>([])
 
   useEffect(() => {
     barRefs.current.length = tls.length
+    lineRefs.current.length = tls.length
   }, [tls.length])
 
   // Scroll-driven layout updates. Native scroll handles the vertical
@@ -104,13 +106,14 @@ export function TlFlow({ tls, rowHeight, axisHeight, theme }: Props) {
       const w = viewportSize.width
 
       for (let i = 0; i < tls.length; i++) {
-        const node = barRefs.current[i]
-        if (!node) continue
+        const bar = barRefs.current[i]
+        const line = lineRefs.current[i]
+        if (!bar || !line) continue
         const tl = tls[i]
         const left = ((tl.startYear - rangeStart) / span) * w
         const width = Math.max(2, ((tl.endYear - tl.startYear) / span) * w)
-        node.style.transform = `translate3d(${left}px, 0, 0)`
-        node.style.width = `${width}px`
+        bar.style.transform = `translate3d(${left}px, 0, 0)`
+        line.style.transform = `scaleX(${width})`
       }
 
       const interval = tickInterval(span, MAX_TICKS)
@@ -222,21 +225,22 @@ export function TlFlow({ tls, rowHeight, axisHeight, theme }: Props) {
                   top: 0,
                   left: 0,
                   height: rowHeight,
-                  width: 0,
                   display: 'flex',
                   flexDirection: 'column',
                   justifyContent: 'center',
                   alignItems: 'flex-start',
                   gap: 2,
-                  willChange: 'transform, width',
+                  willChange: 'transform',
                 }}
               >
                 <div
+                  ref={el => { lineRefs.current[i] = el }}
                   style={{
                     height: theme.bar.accentWidth ?? 3,
-                    width: '100%',
+                    width: 1,
                     background: regionColor,
-                    borderRadius: theme.bar.radius,
+                    transformOrigin: 'left center',
+                    willChange: 'transform',
                   }}
                 />
                 <div
