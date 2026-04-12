@@ -3,6 +3,7 @@ export interface NarrativeChapter {
   title: string
   slug: string
   summary: string
+  summaryBullets?: string[]
   dateRange: string
   contentHtml: string
   eventIds: string[]

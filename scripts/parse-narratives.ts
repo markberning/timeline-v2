@@ -18,6 +18,7 @@ interface ParsedChapter {
   slug: string
   contentHtml: string
   eventIds: string[]
+  summaryBullets?: string[]
 }
 
 interface GlossaryLink {
@@ -38,7 +39,8 @@ interface GlossaryEntry {
 interface ChapterSummary {
   chapter: number
   title: string
-  summary: string
+  summary?: string
+  bullets?: string[]
   dateRange: string
 }
 
@@ -297,12 +299,38 @@ async function parseNarrative(filename: string, tlId: string) {
 
     const html = await markdownToHtml(linkedBody)
 
+    // Process summary bullets for this chapter (inject event + glossary links, strip markdown)
+    const summaryEntry = summaries.find(s => s.chapter === ch.number)
+    let summaryBullets: string[] | undefined
+    if (summaryEntry?.bullets && summaryEntry.bullets.length > 0) {
+      summaryBullets = []
+      for (const bullet of summaryEntry.bullets) {
+        let text = bullet
+        // Inject event links into bullet
+        for (const link of sorted) {
+          if (!categoryMap.has(link.eventId)) continue
+          const cat = categoryMap.get(link.eventId) ?? 'people'
+          const replacement = `<a class="event-link" data-event-id="${link.eventId}" data-category="${cat}">${link.matchText}</a>`
+          const res = replaceOutsideAnchors(text, link.matchText, replacement)
+          text = res.result
+        }
+        // Inject glossary links into bullet
+        for (const link of glossarySorted) {
+          const replacement = `<a class="glossary-link" data-wiki-slug="${link.wikiSlug}">${link.matchText}</a>`
+          const res = replaceOutsideAnchors(text, link.matchText, replacement)
+          text = res.result
+        }
+        summaryBullets.push(text)
+      }
+    }
+
     chapters.push({
       number: ch.number,
       title: ch.title,
       slug: slugify(ch.title),
       contentHtml: html,
       eventIds: Array.from(linked),
+      summaryBullets,
     })
   }
 

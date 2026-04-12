@@ -120,22 +120,45 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           {chapter.dateRange && (
             <p className="text-[0.75em] text-foreground/60 mt-0.5">{chapter.dateRange}</p>
           )}
-          {!open && chapter.summary && (
-            <p className="text-foreground mt-2">{chapter.summary}</p>
-          )}
-          {!open && chapterEvents.length > 0 && (
-            <div className="mt-3 flex flex-wrap gap-1.5">
-              {chapterEvents.map(ev => (
-                <span
-                  key={ev.id}
-                  className="event-link event-chip text-[0.7em] px-2 py-0.5 rounded-full border"
-                  data-event-id={ev.id}
-                  data-category={ev.category}
-                >
-                  {ev.label}
-                </span>
-              ))}
-            </div>
+          {!open && chapter.summaryBullets && chapter.summaryBullets.length > 0 ? (
+            <>
+              <ul className="mt-3 space-y-2 list-disc list-outside pl-5 text-[0.95em]">
+                {chapter.summaryBullets.map((html, i) => (
+                  <li
+                    key={i}
+                    className="leading-snug text-foreground"
+                    dangerouslySetInnerHTML={{ __html: html }}
+                  />
+                ))}
+              </ul>
+              <button
+                onClick={(e) => { e.stopPropagation(); onExpand() }}
+                className="mt-4 inline-flex items-center gap-1 text-sm font-medium px-3 py-1.5 rounded-full border border-foreground/20 hover:bg-foreground/5 transition-colors"
+                style={{ color: 'var(--accent-text)' }}
+              >
+                Read chapter →
+              </button>
+            </>
+          ) : (
+            <>
+              {!open && chapter.summary && (
+                <p className="text-foreground mt-2">{chapter.summary}</p>
+              )}
+              {!open && chapterEvents.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-1.5">
+                  {chapterEvents.map(ev => (
+                    <span
+                      key={ev.id}
+                      className="event-link event-chip text-[0.7em] px-2 py-0.5 rounded-full border"
+                      data-event-id={ev.id}
+                      data-category={ev.category}
+                    >
+                      {ev.label}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>

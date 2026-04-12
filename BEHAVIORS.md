@@ -3,7 +3,9 @@
 Source of truth for how the reader app should behave. Update this when we change or add a behavior so future work has a spec to check against.
 
 ## Chapter accordion
-- Collapsed: shows number, title, date range, 2–4 sentence summary, and event-link chips.
+- Collapsed: shows number, title, date range, and EITHER:
+  - a bulleted chronological list of what happens in the chapter with inline event/glossary links + a "Read chapter →" button (when the summary entry has a `bullets` array), OR
+  - the legacy 2–4 sentence paragraph summary + category-colored event chips (fallback when no bullets).
 - Tap header → expand that chapter. Other chapters become `display: none` (not just hidden visually).
 - Expand scrolls the section to the top of the viewport (under the 40px sticky controls bar). Uses `section.offsetTop - 40` not the sticky header's rect.
 - Chapter map (Gemini-generated) sits above the prose with `aspect-ratio: 1408/768` reserved so layout is stable before the image loads.
