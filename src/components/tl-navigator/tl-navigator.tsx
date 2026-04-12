@@ -5,7 +5,6 @@ import {
   NAVIGATOR_TLS,
   REGION_ORDER,
   type NavigatorRegion,
-  type NavigatorTl,
   TIME_MIN,
   TIME_MAX,
 } from '@/lib/navigator-tls'
@@ -14,22 +13,18 @@ import {
   clampPan,
   getVisibleYearRange,
   makeInitialViewport,
-  pixelToYear,
-  yearToPixel,
   formatYear,
   type Viewport,
 } from '@/lib/navigator-coords'
-import { RegionBand, assignLanes } from './region-band'
+import { TlDotTrack } from './tl-dot-track'
+import { ZoneToggles } from './zone-toggles'
 
-const LANE_HEIGHT = 22
-const LANE_PADDING = 6
 const TAP_THRESHOLD_PX = 8
 const WHEEL_ZOOM_FACTOR = 0.0015
-
-// Solo-region mode: show only this region and let it fill the whole viewport.
-// Set to null to show all 5 regions.
-const SOLO_REGION: NavigatorRegion | null = 'asia'
-const SOLO_HEADER_OFFSET = 52  // matches the bands container top offset
+const HEADER_HEIGHT = 84        // room for title + toggle pills
+const AXIS_Y = HEADER_HEIGHT + 20
+const ROW_HEIGHT = 18
+const ROW_GAP = 14
 
 function dist(a: Touch, b: Touch): number {
   const dx = a.clientX - b.clientX
@@ -40,29 +35,37 @@ function dist(a: Touch, b: Touch): number {
 export function TlNavigator() {
   const containerRef = useRef<HTMLDivElement>(null)
   const [viewport, setViewport] = useState<Viewport | null>(null)
-  const [containerHeight, setContainerHeight] = useState<number>(0)
+  const [enabledZones, setEnabledZones] = useState<Set<NavigatorRegion>>(
+    () => new Set<NavigatorRegion>(REGION_ORDER),
+  )
 
-  // Initialize viewport once we know container width
+  const toggleZone = useCallback((r: NavigatorRegion) => {
+    setEnabledZones(prev => {
+      const next = new Set(prev)
+      if (next.has(r)) next.delete(r); else next.add(r)
+      return next
+    })
+  }, [])
+
+  // Initialize viewport once we know container width.
+  // Start view: 5000 BCE → 2050 CE so nearly everything is visible, and user can
+  // zoom in wherever they want.
   useEffect(() => {
     const el = containerRef.current
     if (!el) return
-    const init = (w: number, h: number) => {
+    const init = (w: number) => {
       if (w <= 0) return
-      // Start showing ~2000 years centered on -4000 BCE — only Mesopotamia + Indus initially
-      const v = clampPan(makeInitialViewport(w, -4000, 2000))
+      const v = clampPan(makeInitialViewport(w, -1500, 7500))
       setViewport({ ...v, containerWidth: w })
-      setContainerHeight(h)
     }
-    init(el.clientWidth, el.clientHeight)
+    init(el.clientWidth)
 
     const ro = new ResizeObserver(() => {
       const w = el.clientWidth
-      const h = el.clientHeight
       if (w <= 0) return
-      setContainerHeight(h)
       setViewport(prev => {
         if (!prev) {
-          const v = clampPan(makeInitialViewport(w, -4000, 2000))
+          const v = clampPan(makeInitialViewport(w, -1500, 7500))
           return { ...v, containerWidth: w }
         }
         return clampPan({ ...prev, containerWidth: w })
@@ -232,67 +235,22 @@ export function TlNavigator() {
     }
   }, [setV])
 
-  // ── Group TLs by region + compute which regions are visible ──
-  const byRegion = useMemo(() => {
-    const map: Record<NavigatorRegion, NavigatorTl[]> = {
-      'near-east': [], 'africa': [], 'asia': [], 'europe': [], 'americas': [],
-    }
-    for (const tl of NAVIGATOR_TLS) map[tl.region].push(tl)
-    return map
-  }, [])
-
-  const { visibleRegions, laneCounts } = useMemo(() => {
-    if (!viewport) return { visibleRegions: new Set<NavigatorRegion>(), laneCounts: {} as Record<NavigatorRegion, number> }
-    const [vs, ve] = getVisibleYearRange(viewport)
-    const vis = new Set<NavigatorRegion>()
-    const lanes: Record<NavigatorRegion, number> = {
-      'near-east': 0, 'africa': 0, 'asia': 0, 'europe': 0, 'americas': 0,
-    }
-    for (const r of REGION_ORDER) {
-      const inView = byRegion[r].filter(tl => tl.endYear >= vs && tl.startYear <= ve)
-      if (inView.length > 0) {
-        vis.add(r)
-        // Compute lanes for VISIBLE subset so band shrinks when TLs leave
-        const assigned = assignLanes(inView)
-        const maxLane = Math.max(0, ...Array.from(assigned.values()))
-        lanes[r] = maxLane + 1
-      }
-    }
-    return { visibleRegions: vis, laneCounts: lanes }
-  }, [viewport, byRegion])
-
-  // Hover year indicator
-  const [hoverYear, setHoverYear] = useState<number | null>(null)
-  const onMouseMoveYear = (e: React.MouseEvent) => {
-    if (!viewport || !containerRef.current || viewport.pixelsPerYear <= 0) return
-    const rect = containerRef.current.getBoundingClientRect()
-    const y = pixelToYear(e.clientX - rect.left, viewport)
-    if (Number.isFinite(y)) setHoverYear(y)
-  }
+  // TLs from enabled zones only
+  const enabledTls = useMemo(
+    () => NAVIGATOR_TLS.filter(tl => enabledZones.has(tl.region)),
+    [enabledZones],
+  )
 
   const [vs, ve] = viewport ? getVisibleYearRange(viewport) : [TIME_MIN, TIME_MAX]
-
-  // Which regions actually get rendered — all regions, or solo filter
-  const renderedRegions: NavigatorRegion[] = SOLO_REGION ? [SOLO_REGION] : REGION_ORDER
-
-  // In solo mode, let the single band fill the whole vertical space by
-  // computing a dynamic lane height from the viewport height and the
-  // current lane count. Falls back to a reasonable min if no lanes.
-  const bandsAvailableHeight = Math.max(0, containerHeight - SOLO_HEADER_OFFSET)
-  const soloLaneCount = SOLO_REGION ? Math.max(1, laneCounts[SOLO_REGION] ?? 1) : 1
-  const soloLaneHeight = SOLO_REGION && bandsAvailableHeight > 0
-    ? Math.max(32, Math.floor((bandsAvailableHeight - LANE_PADDING * 2 - 18) / soloLaneCount))
-    : LANE_HEIGHT
 
   return (
     <div
       ref={containerRef}
       onWheel={onWheel}
       onPointerDown={onPointerDown}
-      onPointerMove={(e) => { onPointerMove(e); onMouseMoveYear(e) }}
+      onPointerMove={onPointerMove}
       onPointerUp={onPointerUp}
       onPointerCancel={onPointerUp}
-      onMouseLeave={() => setHoverYear(null)}
       style={{
         position: 'fixed',
         inset: 0,
@@ -303,69 +261,37 @@ export function TlNavigator() {
         userSelect: 'none',
       }}
     >
-      {/* Header */}
+      {/* Header: title + zone toggles */}
       <div
         style={{
           position: 'absolute',
           top: 0,
           left: 0,
           right: 0,
-          padding: '12px 14px 10px',
+          padding: '10px 12px',
           color: '#e5e5e5',
-          pointerEvents: 'none',
           zIndex: 10,
-          background: 'linear-gradient(to bottom, rgba(10,10,12,0.92), rgba(10,10,12,0))',
+          background: 'linear-gradient(to bottom, rgba(10,10,12,0.95), rgba(10,10,12,0.75) 70%, rgba(10,10,12,0))',
+          pointerEvents: 'none',
         }}
       >
-        <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Timeline Navigator</div>
-        <div style={{ fontSize: 10, color: '#888', marginTop: 2, fontVariantNumeric: 'tabular-nums' }}>
-          {formatYear(vs)} — {formatYear(ve)}
-          {hoverYear != null && <span style={{ marginLeft: 12, color: '#bbb' }}>● {formatYear(hoverYear)}</span>}
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: 12, marginBottom: 8 }}>
+          <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Timeline Navigator</div>
+          <div style={{ fontSize: 10, color: '#888', fontVariantNumeric: 'tabular-nums' }}>
+            {formatYear(vs)} — {formatYear(ve)}
+          </div>
         </div>
+        <ZoneToggles enabled={enabledZones} onToggle={toggleZone} />
       </div>
 
-      {/* Bands */}
+      {/* Dot track */}
       {viewport && (
-        <div
-          style={{
-            position: 'absolute',
-            top: 52,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            overflow: 'hidden',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-          }}
-        >
-          {renderedRegions.map(r => (
-            <RegionBand
-              key={r}
-              region={r}
-              tls={byRegion[r]}
-              viewport={viewport}
-              visibleLaneCount={SOLO_REGION === r ? soloLaneCount : (laneCounts[r] ?? 0)}
-              isVisible={SOLO_REGION ? true : visibleRegions.has(r)}
-              laneHeight={SOLO_REGION === r ? soloLaneHeight : LANE_HEIGHT}
-              lanePadding={LANE_PADDING}
-            />
-          ))}
-        </div>
-      )}
-
-      {/* Center crosshair for hover year */}
-      {hoverYear != null && viewport && (
-        <div
-          style={{
-            position: 'absolute',
-            top: 52,
-            bottom: 0,
-            width: 1,
-            background: 'rgba(255,255,255,0.12)',
-            left: yearToPixel(hoverYear, viewport),
-            pointerEvents: 'none',
-          }}
+        <TlDotTrack
+          tls={enabledTls}
+          viewport={viewport}
+          axisY={AXIS_Y}
+          rowHeight={ROW_HEIGHT}
+          rowGap={ROW_GAP}
         />
       )}
     </div>
