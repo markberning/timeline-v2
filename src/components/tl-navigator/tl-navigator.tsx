@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   NAVIGATOR_TLS,
   REGION_ORDER,
@@ -10,6 +10,7 @@ import {
   compressedYearToPixel,
   compressedTotalWidth,
 } from '@/lib/navigator-tls'
+import { NAVIGATOR_THEMES, DEFAULT_THEME_ID, getTheme } from '@/lib/navigator-themes'
 import { TlSwimlanes } from './tl-swimlanes'
 import { ZoneToggles } from './zone-toggles'
 
@@ -21,6 +22,8 @@ const MIN_PPY = 0.005
 const MAX_PPY = 8
 const ZOOM_STEP = 1.5
 
+const THEME_STORAGE_KEY = 'nav-theme'
+
 function sortTls(tls: NavigatorTl[]): NavigatorTl[] {
   return [...tls].sort((a, b) => a.startYear - b.startYear || a.endYear - b.endYear)
 }
@@ -31,6 +34,27 @@ export function TlNavigator() {
   const [enabledZones, setEnabledZones] = useState<Set<NavigatorRegion>>(
     () => new Set<NavigatorRegion>(REGION_ORDER),
   )
+  const [themeId, setThemeId] = useState<string>(DEFAULT_THEME_ID)
+
+  // Load persisted theme on mount
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(THEME_STORAGE_KEY)
+      if (saved && NAVIGATOR_THEMES.some(t => t.id === saved)) setThemeId(saved)
+    } catch {}
+  }, [])
+
+  const theme = getTheme(themeId)
+
+  const cycleTheme = useCallback(() => {
+    setThemeId(prev => {
+      const i = NAVIGATOR_THEMES.findIndex(t => t.id === prev)
+      const next = NAVIGATOR_THEMES[(i + 1) % NAVIGATOR_THEMES.length].id
+      try { localStorage.setItem(THEME_STORAGE_KEY, next) } catch {}
+      return next
+    })
+  }, [])
+
   const toggleZone = useCallback((r: NavigatorRegion) => {
     setEnabledZones(prev => {
       const next = new Set(prev)
@@ -50,8 +74,6 @@ export function TlNavigator() {
     setPixelsPerYear(prev => {
       const next = Math.min(MAX_PPY, Math.max(MIN_PPY, prev * factor))
       if (next === prev) return prev
-      // Preserve the year at horizontal viewport center under the compressed
-      // mapping.
       const visibleWidth = el.clientWidth
       const centerPx = el.scrollLeft + visibleWidth / 2
       const yearAtCenter = compressedPixelToYear(centerPx, prev)
@@ -65,20 +87,50 @@ export function TlNavigator() {
   const fitAll = useCallback(() => {
     const el = scrollRef.current
     if (!el) return
-    // compressedTotalWidth is linear in ppy — solve directly.
     const widthAtUnit = compressedTotalWidth(1)
     const next = el.clientWidth / widthAtUnit
     setPixelsPerYear(Math.max(MIN_PPY, next))
     requestAnimationFrame(() => { el.scrollLeft = 0 })
   }, [])
 
+  const zoomBtn: React.CSSProperties = {
+    width: 30,
+    height: 26,
+    borderRadius: 5,
+    border: theme.zoomBtn.border,
+    background: theme.zoomBtn.bg,
+    color: theme.zoomBtn.color,
+    fontSize: 14,
+    fontWeight: 700,
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    lineHeight: 1,
+  }
+
+  const themeBtn: React.CSSProperties = {
+    height: 26,
+    padding: '0 10px',
+    borderRadius: 5,
+    border: theme.zoomBtn.border,
+    background: theme.zoomBtn.bg,
+    color: theme.zoomBtn.color,
+    fontSize: 11,
+    fontWeight: 700,
+    letterSpacing: '0.03em',
+    textTransform: 'uppercase',
+    cursor: 'pointer',
+    lineHeight: 1,
+  }
+
   return (
     <div
       style={{
         position: 'fixed',
         inset: 0,
-        background: '#0a0a0c',
-        color: '#e5e5e5',
+        background: theme.appBg,
+        color: theme.textPrimary,
         display: 'flex',
         flexDirection: 'column',
       }}
@@ -89,21 +141,22 @@ export function TlNavigator() {
           height: HEADER_HEIGHT,
           flexShrink: 0,
           padding: '10px 12px',
-          borderBottom: '1px solid rgba(255,255,255,0.06)',
-          background: '#0d0d10',
+          borderBottom: `1px solid ${theme.headerBorder}`,
+          background: theme.headerBg,
           display: 'flex',
           flexDirection: 'column',
           gap: 8,
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Timeline Navigator</div>
           <div style={{ flex: 1 }} />
+          <button style={themeBtn} onClick={cycleTheme} title="Cycle theme">{theme.name}</button>
           <button style={zoomBtn} onClick={() => zoomBy(ZOOM_STEP)}>+</button>
           <button style={zoomBtn} onClick={() => zoomBy(1 / ZOOM_STEP)}>−</button>
           <button style={zoomBtn} onClick={fitAll}>fit</button>
         </div>
-        <ZoneToggles enabled={enabledZones} onToggle={toggleZone} />
+        <ZoneToggles enabled={enabledZones} onToggle={toggleZone} theme={theme} />
       </div>
 
       {/* Scrolling swimlanes area */}
@@ -120,24 +173,9 @@ export function TlNavigator() {
           pixelsPerYear={pixelsPerYear}
           rowHeight={ROW_HEIGHT}
           axisHeight={AXIS_HEIGHT}
+          theme={theme}
         />
       </div>
     </div>
   )
-}
-
-const zoomBtn: React.CSSProperties = {
-  width: 30,
-  height: 26,
-  borderRadius: 5,
-  border: '1px solid rgba(255,255,255,0.18)',
-  background: 'transparent',
-  color: '#e5e5e5',
-  fontSize: 14,
-  fontWeight: 700,
-  cursor: 'pointer',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  lineHeight: 1,
 }

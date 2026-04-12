@@ -3,19 +3,20 @@
 import { useMemo } from 'react'
 import type { NavigatorTl } from '@/lib/navigator-tls'
 import {
-  REGION_COLORS,
   TIME_MIN,
   TIME_MAX,
   COMPRESSION_ZONES,
   compressedYearToPixel,
   compressedTotalWidth,
 } from '@/lib/navigator-tls'
+import type { NavigatorTheme } from '@/lib/navigator-themes'
 
 interface Props {
   tls: NavigatorTl[]               // pre-filtered AND pre-sorted by start year
   pixelsPerYear: number
   rowHeight: number
   axisHeight: number
+  theme: NavigatorTheme
 }
 
 function formatYearShort(y: number): string {
@@ -31,7 +32,7 @@ function tickInterval(pixelsPerYear: number, minSpacingPx = 80): number {
   return 10000
 }
 
-export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props) {
+export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }: Props) {
   const trackWidth = Math.max(1, Math.round(compressedTotalWidth(pixelsPerYear)))
 
   const ticks = useMemo(() => {
@@ -39,8 +40,6 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
     const first = Math.ceil(TIME_MIN / interval) * interval
     const out: number[] = []
     for (let y = first; y <= TIME_MAX; y += interval) {
-      // Skip ticks that fall inside a compression zone — they'd bunch up
-      // uselessly behind nothing.
       const inZone = COMPRESSION_ZONES.some(z => y > z.start && y < z.end)
       if (!inZone) out.push(y)
     }
@@ -57,8 +56,8 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
           zIndex: 4,
           height: axisHeight,
           width: trackWidth,
-          background: '#0d0d10',
-          borderBottom: '1px solid rgba(255,255,255,0.08)',
+          background: theme.axisBg,
+          borderBottom: `1px solid ${theme.axisBottomBorder}`,
         }}
       >
         {ticks.map(y => {
@@ -72,7 +71,7 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                 top: 0,
                 bottom: 0,
                 width: 1,
-                background: 'rgba(255,255,255,0.08)',
+                background: theme.axisGridLine,
               }}
             >
               <div
@@ -81,7 +80,7 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   left: 4,
                   top: 4,
                   fontSize: 12,
-                  color: '#888',
+                  color: theme.axisText,
                   fontVariantNumeric: 'tabular-nums',
                   whiteSpace: 'nowrap',
                 }}
@@ -96,12 +95,16 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
       {/* Rows */}
       <div>
         {tls.map((tl, i) => {
-          const color = REGION_COLORS[tl.region]
+          const regionColor = theme.regionColors[tl.region]
           const barLeft = compressedYearToPixel(tl.startYear, pixelsPerYear)
           const barRight = compressedYearToPixel(tl.endYear, pixelsPerYear)
           const barWidth = Math.max(4, barRight - barLeft)
-          const bgStripe = i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'transparent'
+          const bgStripe = i % 2 === 0 ? theme.rowStripe : 'transparent'
           const datesText = `${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`
+
+          // Bar fill differs by style
+          const isFilled = theme.bar.style === 'filled'
+          const barFill = isFilled ? regionColor : (theme.bar.fill ?? regionColor)
 
           return (
             <div
@@ -110,11 +113,11 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                 position: 'relative',
                 height: rowHeight,
                 background: bgStripe,
-                borderBottom: '1px solid rgba(255,255,255,0.04)',
+                borderBottom: `1px solid ${theme.rowBorder}`,
                 width: trackWidth,
               }}
             >
-              {/* Solid colored duration bar */}
+              {/* Bar body */}
               <div
                 style={{
                   position: 'absolute',
@@ -122,13 +125,43 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   top: 4,
                   height: rowHeight - 8,
                   width: barWidth,
-                  background: color,
-                  opacity: 0.88,
-                  borderRadius: 3,
-                  border: '1px solid rgba(255,255,255,0.18)',
+                  background: barFill,
+                  opacity: theme.bar.opacity,
+                  borderRadius: theme.bar.radius,
+                  border: theme.bar.border,
+                  boxShadow: theme.bar.shadow,
                   boxSizing: 'border-box',
+                  overflow: 'hidden',
                 }}
-              />
+              >
+                {/* stripe-left accent */}
+                {theme.bar.style === 'stripe-left' && (
+                  <div
+                    style={{
+                      position: 'absolute',
+                      left: 0,
+                      top: 0,
+                      bottom: 0,
+                      width: theme.bar.accentWidth ?? 4,
+                      background: regionColor,
+                    }}
+                  />
+                )}
+                {/* carved: thin colored top edge */}
+                {theme.bar.style === 'carved' && (
+                  <div
+                    style={{
+                      position: 'absolute',
+                      left: 0,
+                      right: 0,
+                      top: 0,
+                      height: theme.bar.accentWidth ?? 3,
+                      background: regionColor,
+                      opacity: 0.85,
+                    }}
+                  />
+                )}
+              </div>
               {/* Label */}
               <div
                 title={`${tl.label} · ${datesText}`}
@@ -142,8 +175,8 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   gap: 6,
                   fontSize: 13,
                   fontWeight: 600,
-                  color: '#f1f1f4',
-                  textShadow: '0 1px 2px rgba(0,0,0,0.8), 0 0 4px rgba(0,0,0,0.6)',
+                  color: theme.label.color,
+                  textShadow: theme.label.shadow,
                   whiteSpace: 'nowrap',
                   pointerEvents: 'none',
                 }}

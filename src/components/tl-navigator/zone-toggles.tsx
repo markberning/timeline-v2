@@ -1,13 +1,15 @@
 'use client'
 
-import { REGION_ORDER, REGION_LABELS, REGION_COLORS, type NavigatorRegion } from '@/lib/navigator-tls'
+import { REGION_ORDER, REGION_LABELS, type NavigatorRegion } from '@/lib/navigator-tls'
+import type { NavigatorTheme } from '@/lib/navigator-themes'
 
 interface Props {
   enabled: Set<NavigatorRegion>
   onToggle: (region: NavigatorRegion) => void
+  theme: NavigatorTheme
 }
 
-export function ZoneToggles({ enabled, onToggle }: Props) {
+export function ZoneToggles({ enabled, onToggle, theme }: Props) {
   return (
     <div
       style={{
@@ -19,7 +21,7 @@ export function ZoneToggles({ enabled, onToggle }: Props) {
     >
       {REGION_ORDER.map(r => {
         const on = enabled.has(r)
-        const color = REGION_COLORS[r]
+        const color = theme.regionColors[r]
         return (
           <button
             key={r}
@@ -35,9 +37,9 @@ export function ZoneToggles({ enabled, onToggle }: Props) {
               letterSpacing: '0.04em',
               textTransform: 'uppercase',
               borderRadius: 999,
-              border: `1px solid ${on ? color : 'rgba(255,255,255,0.2)'}`,
-              background: on ? `${color}33` : 'transparent',
-              color: on ? '#fff' : '#888',
+              border: `1px solid ${on ? color : theme.toggle.offBorder}`,
+              background: on ? `${color}${theme.toggle.onBgAlpha}` : 'transparent',
+              color: on ? theme.toggle.onText : theme.toggle.offText,
               cursor: 'pointer',
               transition: 'background 150ms ease, border-color 150ms ease, color 150ms ease',
             }}
