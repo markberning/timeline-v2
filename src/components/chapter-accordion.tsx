@@ -39,12 +39,19 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   // After sibling chapters are hidden and the body is mounted, scroll header to top.
   useEffect(() => {
     if (!open) return
-    // Double rAF gives the browser a chance to complete layout after the hide
+    function scrollToHeader() {
+      const el = headerRef.current
+      if (!el) return
+      const rect = el.getBoundingClientRect()
+      const targetY = rect.top + window.pageYOffset - 40
+      window.scrollTo({ top: targetY, behavior: 'auto' })
+    }
+    // Run twice: once after initial layout, again after image loads
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        headerRef.current?.scrollIntoView({ behavior: 'auto', block: 'start' })
-      })
+      requestAnimationFrame(scrollToHeader)
     })
+    const timer = setTimeout(scrollToHeader, 300)
+    return () => clearTimeout(timer)
   }, [open])
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
