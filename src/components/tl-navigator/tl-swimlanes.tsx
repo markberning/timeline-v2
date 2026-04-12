@@ -13,8 +13,13 @@ import {
 
 const BREAK_BAR_COUNT = 3  // top N rows get a dark gap before the label text
 const BG_COLOR = '#0a0a0c' // matches the page background so the gap reads as a hole in the bar
-const LABEL_GAP_WIDTH = 22 // pixel width of the dark gap (also holds the dot + line + years text)
+const LABEL_GAP_WIDTH = 50 // pixel width of the dark gap (holds dot, line, horizontal years text)
 const GAP_PRE_PAD = 4      // px of bar color visible to the left of the gap
+
+function formatYearsCount(n: number): string {
+  if (n >= 1000) return `${(n / 1000).toFixed(1)}k yrs`
+  return `${n} yrs`
+}
 
 interface DotLineGapProps {
   years: number
@@ -46,36 +51,36 @@ function DotLineGap({ years, width, height }: DotLineGapProps) {
           background: '#fff',
         }}
       />
-      {/* Thin vertical line from dot to bottom */}
+      {/* Long vertical line from dot down to just above the text */}
       <div
         style={{
           position: 'absolute',
           left: '50%',
           top: 5,
-          bottom: 1,
+          bottom: 12,
           width: 1,
           marginLeft: -0.5,
           background: '#fff',
         }}
       />
-      {/* Years count, drawn vertically along the line */}
+      {/* Horizontal years text at the bottom of the gap */}
       <div
         style={{
           position: 'absolute',
-          left: '50%',
-          top: 7,
-          marginLeft: -5,
-          fontSize: 7,
+          left: 0,
+          right: 0,
+          bottom: 1,
+          textAlign: 'center',
+          fontSize: 9,
           fontWeight: 700,
           color: '#fff',
-          letterSpacing: '0.05em',
-          writingMode: 'vertical-rl',
-          textOrientation: 'mixed',
+          letterSpacing: '0.02em',
           lineHeight: 1,
+          fontVariantNumeric: 'tabular-nums',
           textShadow: '0 0 2px #000',
         }}
       >
-        {years.toLocaleString()} yrs
+        {formatYearsCount(years)}
       </div>
     </div>
   )
