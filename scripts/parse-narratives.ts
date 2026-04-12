@@ -17,6 +17,7 @@ interface ParsedChapter {
   title: string
   slug: string
   contentHtml: string
+  eventIds: string[]
 }
 
 interface ChapterSummary {
@@ -225,6 +226,7 @@ async function parseNarrative(filename: string, tlId: string) {
       title: ch.title,
       slug: slugify(ch.title),
       contentHtml: html,
+      eventIds: Array.from(linked),
     })
   }
 
@@ -239,7 +241,6 @@ async function parseNarrative(filename: string, tlId: string) {
         ...ch,
         summary: summary?.summary ?? '',
         dateRange: summary?.dateRange ?? '',
-        eventIds: [] as string[],
       }
     }),
     events: refData.events.map(e => {
