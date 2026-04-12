@@ -17,6 +17,7 @@ export interface NavigatorTheme {
   rowStripe: string
   rowBorder: string
   regionColors: Record<NavigatorRegion, string>
+  softRegionColors?: Record<NavigatorRegion, string>
   bar: {
     style: BarStyle
     fill?: string
@@ -240,16 +241,23 @@ export const NAVIGATOR_THEMES: NavigatorTheme[] = [
       'europe': '#5b8ac9',
       'americas': '#4fa67c',
     },
+    softRegionColors: {
+      'near-east': '#f3dccf',
+      'africa': '#f1e3c8',
+      'asia': '#e6dcf2',
+      'europe': '#dbe6f4',
+      'americas': '#d8ece1',
+    },
     bar: {
       style: 'stripe-left',
       fill: '#3a3631',
-      border: '1px solid rgba(255,255,255,0.07)',
+      border: '1px solid rgba(0,0,0,0.18)',
       radius: 2,
       opacity: 1,
       accentWidth: 4,
     },
     label: {
-      color: '#ece8df',
+      color: '#23201c',
       shadow: 'none',
     },
     zoomBtn: {
