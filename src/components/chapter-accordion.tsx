@@ -136,7 +136,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
                 style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
               >
-                Read Chapter →
+                Read Chapter {chapter.number} →
               </button>
             </>
           ) : (
