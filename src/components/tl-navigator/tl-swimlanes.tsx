@@ -162,6 +162,15 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                       paddingLeft: 1,
                     }}
                   >
+                    <span
+                      style={{
+                        width: 7,
+                        height: 7,
+                        borderRadius: '50%',
+                        background: regionColor,
+                        flexShrink: 0,
+                      }}
+                    />
                     <span>{tl.label}</span>
                     <span style={{ opacity: 0.6 }}>·</span>
                     <span>{datesText}</span>
