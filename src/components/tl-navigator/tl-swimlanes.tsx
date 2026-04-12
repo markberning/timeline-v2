@@ -104,10 +104,7 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
 
           // Bar fill differs by style
           const isFilled = theme.bar.style === 'filled'
-          const softFill = theme.softRegionColors?.[tl.region]
-          const barFill = isFilled
-            ? regionColor
-            : (softFill ?? theme.bar.fill ?? regionColor)
+          const barFill = isFilled ? regionColor : (theme.bar.fill ?? regionColor)
 
           return (
             <div
