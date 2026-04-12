@@ -72,35 +72,41 @@ export function TlNavigator() {
     requestAnimationFrame(() => { el.scrollLeft = 0 })
   }, [])
 
-  // Follow mode: on vertical scroll, slide the horizontal scroll so the topmost
-  // visible row's start year sits at FOLLOW_LEFT_FRACTION of the viewport width.
+  // Follow mode: on vertical scroll, slide horizontal scroll so a year
+  // interpolated between the topmost and next row's start years sits at
+  // FOLLOW_LEFT_FRACTION of the viewport width. The fractional interpolation
+  // makes horizontal motion continuous with vertical motion, so the slide
+  // feels buttery instead of snapping at each row boundary.
   useEffect(() => {
     if (!followMode) return
     const el = scrollRef.current
     if (!el) return
 
     let raf = 0
+    const update = () => {
+      raf = 0
+      if (!el) return
+      const fracIndex = Math.max(0, el.scrollTop / ROW_HEIGHT)
+      const i0 = Math.min(sortedTls.length - 1, Math.floor(fracIndex))
+      const i1 = Math.min(sortedTls.length - 1, i0 + 1)
+      const tl0 = sortedTls[i0]
+      const tl1 = sortedTls[i1]
+      if (!tl0) return
+      const frac = fracIndex - i0
+      const targetYear = tl0.startYear + (tl1.startYear - tl0.startYear) * frac
+      const targetYearPx = (targetYear - TIME_MIN) * pixelsPerYear
+      const targetScrollLeft = Math.max(0, targetYearPx - el.clientWidth * FOLLOW_LEFT_FRACTION)
+      if (Math.abs(el.scrollLeft - targetScrollLeft) > 0.5) {
+        el.scrollLeft = targetScrollLeft
+      }
+    }
     const onScroll = () => {
       if (raf) return
-      raf = requestAnimationFrame(() => {
-        raf = 0
-        if (!el) return
-        // The sticky axis sits above the first row, so the top-visible row is
-        // row index floor(scrollTop / rowHeight).
-        const topIndex = Math.max(0, Math.floor(el.scrollTop / ROW_HEIGHT))
-        const tl = sortedTls[topIndex]
-        if (!tl) return
-        const targetYearPx = (tl.startYear - TIME_MIN) * pixelsPerYear
-        const targetScrollLeft = Math.max(0, targetYearPx - el.clientWidth * FOLLOW_LEFT_FRACTION)
-        if (Math.abs(el.scrollLeft - targetScrollLeft) > 1) {
-          el.scrollLeft = targetScrollLeft
-        }
-      })
+      raf = requestAnimationFrame(update)
     }
 
     el.addEventListener('scroll', onScroll, { passive: true })
-    // Trigger once on enable so the view snaps to the current topmost row
-    onScroll()
+    update()  // snap to initial position on enable
     return () => {
       el.removeEventListener('scroll', onScroll)
       if (raf) cancelAnimationFrame(raf)
