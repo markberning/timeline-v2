@@ -172,8 +172,8 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                       }}
                     />
                     <span>{tl.label}</span>
-                    <span style={{ opacity: 0.6 }}>·</span>
-                    <span>{datesText}</span>
+                    <span style={{ opacity: 0.35 }}>·</span>
+                    <span style={{ opacity: 0.5, fontWeight: 400, fontSize: 11 }}>{datesText}</span>
                   </div>
                 </div>
               ) : (
