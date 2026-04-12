@@ -37,17 +37,19 @@ export function Lightbox({ src, alt, onClose }: LightboxProps) {
   }
 
   function zoomTo(targetScale: number, point: { x: number; y: number }) {
-    // Zoom around the tap point: keep that point visually stable.
-    const rect = { cx: window.innerWidth / 2, cy: window.innerHeight / 2 }
-    const offsetX = point.x - rect.cx
-    const offsetY = point.y - rect.cy
+    // Scale origin is the image center (also screen center at 1x).
+    // To keep the tapped point stable, translate by dx*(1-s), dy*(1-s).
     if (targetScale === 1) {
       setScale(1)
       setTranslate({ x: 0, y: 0 })
-    } else {
-      setScale(targetScale)
-      setTranslate({ x: -offsetX * (targetScale - 1) / targetScale, y: -offsetY * (targetScale - 1) / targetScale })
+      return
     }
+    const cx = window.innerWidth / 2
+    const cy = window.innerHeight / 2
+    const dx = point.x - cx
+    const dy = point.y - cy
+    setScale(targetScale)
+    setTranslate({ x: dx * (1 - targetScale), y: dy * (1 - targetScale) })
   }
 
   function onTouchStart(e: React.TouchEvent) {
