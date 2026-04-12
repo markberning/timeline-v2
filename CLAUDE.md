@@ -29,7 +29,8 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 ```
 src/
   app/
-    page.tsx                    — home: civilization picker
+    page.tsx                    — home: civilization picker (still the live home until navigator replaces it)
+    navigator/page.tsx          — /navigator: swim-lane gantt of all 70 civilizations
     [civilizationId]/
       layout.tsx                — accent color wrapper
       page.tsx                  — single-page accordion reader
@@ -44,11 +45,16 @@ src/
     text-size-control.tsx       — 5-step font size control (14-22px)
     civilization-card.tsx       — home page card
     image-review.tsx            — approve/reject images with notes
+    tl-navigator/
+      tl-navigator.tsx          — /navigator root: zoom buttons, zone toggles, scroll container
+      tl-swimlanes.tsx          — sticky time axis + one row per TL with colored bar
+      zone-toggles.tsx          — 5 zone filter pills (Near East/Africa/Asia/Europe/Americas)
   lib/
     data.ts                     — reads content JSON at build time
     types.ts                    — NarrativeChapter, TlEvent, TimelineNarrative, etc.
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
+    navigator-tls.ts            — 70 navigator TLs (6 real + 64 stubs), zone metadata, compression zones, year↔pixel helpers
 scripts/
   parse-narratives.ts           — markdown → JSON build pipeline
   enrich-events.ts              — Wikimedia API: thumbnails, extracts, captions (cached)
@@ -83,6 +89,7 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Lightbox** — double-tap to toggle zoom (exactly centered on tap point), pinch, pan, swipe-down dismiss, backdrop tap dismiss
 - **Gestures**: tap or swipe-right on chapter header to collapse; swipe-right on summary page navigates home
 - **Image review** — two pages: `/review/{tlId}` for QA of current images, `/candidates/{tlId}` for approving/rejecting new candidates with editable captions
+- **TL Navigator (`/navigator`)** — swim-lane gantt prototype: 70 civilizations (6 real + 64 stubs) sorted ascending by start year, one row per TL with a region-colored bar spanning its duration. Sticky time axis at top with adaptive nice-number ticks. Native scroll for both axes. Zoom +/-/fit buttons preserve the year at the viewport center. 5 zone toggle pills filter the visible TLs. Prehistoric stretches (-6900→-5200 and -4900→-3700) are compressed to 18-22% of natural width so the four oldest TLs pull in close to the rest. Lives at `/navigator` — does not yet replace the card home page or transition to narrative reading.
 
 ## Reader Features (planned)
 - Save-my-place (tap any sentence)
@@ -91,7 +98,7 @@ audits/                         — audit reports from the 5-persona pipeline
 - Deep links to specific sections
 - Outline summaries
 - Top drawer: interactive map (Ch 1), self-building timeline (Ch 2+)
-- TL Navigator: pan-and-zoom horizontal timeline for civilization discovery
+- TL Navigator → home: replace card picker with the navigator, wire row-tap to open the narrative reader
 
 ## Writing Rules (summary — full rules in rewrite-fixes.md)
 - **Write for completeness**, not for the existing event list

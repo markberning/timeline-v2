@@ -1,5 +1,49 @@
 # Changelog
 
+## 2026-04-12b — TL Navigator prototype
+
+### New `/navigator` route
+- Swim-lane gantt prototype for civilization discovery, separate from the card-based home page (which still lives at `/`).
+- 70 navigator TLs in `src/lib/navigator-tls.ts`: 6 with real start/end years from `reference-data/*.json` (the civilizations that have v2 narratives) and 64 stubs with historically-plausible dates so there's density to navigate.
+- One row per TL, sorted ascending by start year. Each row has a region-colored bar at `compressedYearToPixel(startYear)` with width matching the bar's compressed duration. The label `Name · start – end` floats above the bar at the bar's left edge and extends past the bar's right edge.
+- Row height 45px, fontSize 13 (bars), 12 (axis ticks), 11 (years labels).
+
+### Zones
+- 5 fixed zones — Near East, Africa, Asia, Europe, Americas — each with a single color.
+- Zone toggle pills at the top of the navigator filter visible TLs. All on by default.
+
+### Time axis
+- Sticky at top of the scroll container. Adaptive nice-number tick interval keeps labels ~80px apart at any zoom level.
+- Tick labels read `5000 BCE`, `500 CE`, etc. (BCE/CE, not bc/ad.)
+- Ticks inside compression zones are skipped.
+
+### Compression for prehistoric gaps
+- `-6900 → -5200` zone (between -7000 and -5000) compresses to 18% of natural width.
+- `-4900 → -3700` zone (between -5000 and -3500) compresses to 22%.
+- Bars that span a compression zone visually shrink through it; no TL's start or end year falls inside a zone, so the compression never distorts an anchor.
+- `compressedYearToPixel` walks the zones piecewise; `compressedPixelToYear` is the inverse used by zoom to preserve the year under the viewport center.
+
+### Zoom + scroll
+- `+` / `−` buttons multiply `pixelsPerYear` by 1.5 (clamped `[0.005, 8]`). Zoom preserves the year at the horizontal viewport center.
+- `fit` solves the `pixelsPerYear` that makes the compressed total width equal the viewport width and resets `scrollLeft` to 0.
+- Native browser scrolling for both axes.
+
+### Iterations explored and removed
+Many design directions were tried this session and rejected. Reference commits live in git history:
+- **Region-band layout** (5 vertically stacked region bands with TL bars) — replaced.
+- **Solo-region mode** with dynamic lane heights — `5aa0cec`, scrapped.
+- **Dot-on-axis with leader-line labels** — `abfd549`, scrapped.
+- **Gesture-based pan/zoom** (single-finger drag pan, vertical thumb zoom, two-finger pinch) — replaced by native scroll + buttons.
+- **Follow mode** (auto horizontal pan as you scroll vertically) — `d3bb0bf` / `9e67a95`, felt too rough, removed.
+- **Hatched-stripe break markers** for compression zones — `8551552`, replaced.
+- **Squiggly SVG breaks inside split bars** — `96a1940`, replaced.
+- **Dark gap + white dot/line/years label** marker for the top 3 prehistoric bars — `0632bc0` / `e75e713` / `1922872` / `29966b6`, ultimately removed in `525a8b3`. Compression of those bars stays in place but they render as plain solid bars with no marker overlay.
+
+### Out of scope (planned next)
+- Tap a row to open that civilization's narrative reader.
+- Make `/navigator` the new home, replacing the card picker at `/`.
+- Chain connection lines between TLs.
+
 ## 2026-04-12 — Glossary, Summaries, Images, Gestures, BEHAVIORS.md
 
 ### Glossary link system

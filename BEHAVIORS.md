@@ -54,6 +54,51 @@ Source of truth for how the reader app should behave. Update this when we change
 - Home page: civilization picker.
 - Chapter page: single-page accordion. No per-chapter routes.
 - **Swipe right on the civilization summary page** (dx > 80px, horizontal-dominant, no chapter expanded) navigates back to home. Disabled when a chapter is open, since swipe-right in that state is reserved for collapsing the chapter.
+- `/navigator` route hosts the swim-lane gantt prototype (see TL Navigator section).
+
+## TL Navigator (`/navigator`)
+A standalone prototype for civilization discovery, separate from the card-based home page.
+
+### Layout
+- Fixed-position viewport. Header at top (~88px) with title, zoom buttons (+/−/fit), and 5 zone toggle pills. Below the header, a single scrolling container fills the rest of the screen.
+- Inside the scroller: a sticky time axis (28px tall) at the top, then one row per TL (45px tall), sorted ascending by start year.
+- Each row: a region-colored bar positioned at `compressedYearToPixel(startYear)` with width matching the bar's compressed duration. Label `Name · start – end` floats above the bar at the bar's left edge and extends past the bar's right edge as needed.
+- Alternating-row 2% white stripe for legibility.
+
+### Zones
+- 5 fixed zones: Near East (orange-red), Africa (amber), Asia (purple), Europe (blue), Americas (green). Defined in `src/lib/navigator-tls.ts` as `REGION_ORDER` + `REGION_COLORS`.
+- Toggle pills filter visible TLs. All zones enabled by default. Toggling a zone immediately re-renders without unmounting.
+
+### Time axis
+- Compressed time mapping (see Compression below). Tick interval auto-snaps to a nice round number from `[1, 2, 5, 10, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000]` so axis labels stay ~80px apart.
+- Ticks falling inside a compression zone are skipped to keep the axis legible.
+- Tick labels read `5000 BCE`, `500 CE`, etc.
+
+### Compression
+- Two compression zones squish prehistoric stretches where nothing is happening on the TL list:
+  - `-6900 → -5200` at 18% of natural width (between Indus/Ancient China at -7000 and Mesopotamia at -5000)
+  - `-4900 → -3700` at 22% of natural width (between Mesopotamia at -5000 and Ancient Nubia at -3500)
+- Bars that span a compression zone visually shrink through it. The zones are placed JUST INSIDE the gap so no TL's start or end year ever falls inside a zone.
+- `compressedYearToPixel` and `compressedPixelToYear` in `src/lib/navigator-tls.ts` walk the zones piecewise. `compressedTotalWidth` is linear in `pixelsPerYear`, so `fit-all` solves it directly.
+
+### Zoom
+- `+` / `−` buttons multiply `pixelsPerYear` by 1.5 (clamped to `[0.005, 8]`).
+- Zoom preserves the year at the horizontal viewport center using the compressed inverse mapping.
+- `fit` solves for the `pixelsPerYear` that makes the compressed total width equal the visible viewport width and resets `scrollLeft` to 0.
+
+### Scroll
+- Native browser scrolling for both axes. Vertical scroll moves through the row list; horizontal scroll pans through time.
+- The time axis is `position: sticky; top: 0` so it stays visible while vertical-scrolling.
+
+### Data
+- 70 TLs in `NAVIGATOR_TLS`: 6 with real start/end years pulled from `reference-data/*.json` (the civilizations that have v2 narratives), 64 stubs with historically-plausible dates so there's enough density to navigate.
+
+### Out of scope (deferred)
+- Tap-to-narrative transition. Rows have no click handler yet.
+- Replacing the card home page at `/`.
+- Chain connection lines between TLs.
+- Follow-mode (auto-pan horizontally as you scroll vertically) — implemented and removed because the slide felt too rough; reference implementations live in commits `d3bb0bf` / `9e67a95`.
+- Gap markers in the prehistoric bars (dot/line/years label) — implemented and removed; live in commits `0632bc0` / `e75e713` / `1922872` if we want to revive them.
 
 ## Link pipeline (event links + glossary links)
 
