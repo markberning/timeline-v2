@@ -19,6 +19,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   const [mapExists, setMapExists] = useState(true)
   const [justCollapsed, setJustCollapsed] = useState(false)
   const headerRef = useRef<HTMLDivElement>(null)
+  const sectionRef = useRef<HTMLElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
@@ -36,26 +37,19 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     onExpand()
   }
 
-  const [debug, setDebug] = useState('')
-
-  // After sibling chapters are hidden and the body is mounted, scroll header to top.
+  // After sibling chapters are hidden and the body is mounted, scroll section to top.
   useEffect(() => {
     if (!open) return
-    function scrollToHeader(label: string) {
-      const el = headerRef.current
+    function scrollToSection() {
+      const el = sectionRef.current
       if (!el) return
-      const rect = el.getBoundingClientRect()
-      const pageY = window.pageYOffset
-      const docScroll = document.documentElement.scrollTop
-      const bodyScroll = document.body.scrollTop
-      const targetY = rect.top + pageY - 40
-      setDebug(`${label} rect.top=${Math.round(rect.top)} pageY=${Math.round(pageY)} docST=${docScroll} bodyST=${bodyScroll} → target=${Math.round(targetY)}`)
+      const targetY = el.offsetTop - 40
       window.scrollTo({ top: targetY, behavior: 'auto' })
     }
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => scrollToHeader('raf2'))
+      requestAnimationFrame(scrollToSection)
     })
-    const t1 = setTimeout(() => scrollToHeader('t300'), 300)
+    const t1 = setTimeout(scrollToSection, 300)
     return () => clearTimeout(t1)
   }, [open])
 
@@ -100,12 +94,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
 
   return (
-    <section id={`chapter-${chapter.number}`} className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}>
-      {open && (
-        <div className="fixed top-[100px] left-2 right-2 bg-red-600 text-white text-[10px] p-2 rounded z-[9999] font-mono pointer-events-none break-all">
-          CH{chapter.number} OPEN • {debug || '(no debug yet)'}
-        </div>
-      )}
+    <section ref={sectionRef} id={`chapter-${chapter.number}`} className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}>
       <div
         ref={headerRef}
         role="button"
