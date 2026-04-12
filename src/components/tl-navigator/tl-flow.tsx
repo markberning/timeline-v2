@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { NavigatorTl } from '@/lib/navigator-tls'
 import type { NavigatorTheme } from '@/lib/navigator-themes'
 
@@ -22,12 +22,15 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [viewportSize, setViewportSize] = useState({ width: 0, height: 0 })
 
-  useEffect(() => {
+  // Synchronous initial measurement so the first paint already has the
+  // correct viewport — no flash of bars stacked at x=0.
+  useLayoutEffect(() => {
     const el = scrollRef.current
     if (!el) return
-    const measure = () => setViewportSize({ width: el.clientWidth, height: el.clientHeight })
-    measure()
-    const ro = new ResizeObserver(measure)
+    setViewportSize({ width: el.clientWidth, height: el.clientHeight })
+    const ro = new ResizeObserver(() => {
+      setViewportSize({ width: el.clientWidth, height: el.clientHeight })
+    })
     ro.observe(el)
     return () => ro.disconnect()
   }, [])
@@ -51,7 +54,8 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
   }, [tls.length])
 
   // Per-frame: only one composited transform write per visible row.
-  useEffect(() => {
+  // useLayoutEffect so the initial positions are written before paint.
+  useLayoutEffect(() => {
     const el = scrollRef.current
     if (!el || viewportSize.width === 0 || viewportSize.height === 0) return
 
