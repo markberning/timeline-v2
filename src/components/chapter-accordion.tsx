@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import type { NarrativeChapter, TlEvent } from '@/lib/types'
 import { Lightbox } from './lightbox'
 
@@ -30,6 +30,67 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
     setTimeout(() => setJustCollapsed(false), 1500)
   }
 
+  function expand() {
+    setOpen(true)
+    setTimeout(() => {
+      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 50)
+  }
+
+  // Attach native listeners to header for reliable tap/swipe on iOS sticky
+  useEffect(() => {
+    const el = headerRef.current
+    if (!el) return
+    let startX = 0
+    let startY = 0
+    let moved = false
+
+    function handleStart(e: TouchEvent) {
+      if (e.touches.length !== 1) return
+      startX = e.touches[0].clientX
+      startY = e.touches[0].clientY
+      moved = false
+    }
+    function handleMove(e: TouchEvent) {
+      const dx = Math.abs(e.touches[0].clientX - startX)
+      const dy = Math.abs(e.touches[0].clientY - startY)
+      if (dx > 8 || dy > 8) moved = true
+    }
+    function handleEnd(e: TouchEvent) {
+      const t = e.changedTouches[0]
+      const dx = t.clientX - startX
+      const dy = t.clientY - startY
+      const target = e.target as HTMLElement
+      if (target.closest('.event-link')) return
+      if (!moved) {
+        // Tap
+        if (open) collapse()
+        else expand()
+        return
+      }
+      if (!open) return
+      const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
+      const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
+      if (swipeRight || swipeDown) collapse()
+    }
+
+    el.addEventListener('touchstart', handleStart, { passive: true })
+    el.addEventListener('touchmove', handleMove, { passive: true })
+    el.addEventListener('touchend', handleEnd, { passive: true })
+    return () => {
+      el.removeEventListener('touchstart', handleStart)
+      el.removeEventListener('touchmove', handleMove)
+      el.removeEventListener('touchend', handleEnd)
+    }
+  }, [open])
+
+  function onHeaderClick(e: React.MouseEvent) {
+    // Desktop click fallback; touch path handled in useEffect above
+    if ((e.target as HTMLElement).closest('.event-link')) return
+    if (open) collapse()
+    else expand()
+  }
+
   function onBodyTouchStart(e: React.TouchEvent) {
     if (e.touches.length !== 1) { touchStart.current = null; return }
     touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }
@@ -44,23 +105,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
     if (!open) return
     const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
     const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
-    if (swipeRight || swipeDown) {
-      e.preventDefault()
-      collapse()
-    }
-  }
-
-  function expand() {
-    setOpen(true)
-    setTimeout(() => {
-      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }, 50)
-  }
-
-  function toggle(e: React.MouseEvent) {
-    if ((e.target as HTMLElement).closest('.event-link')) return
-    if (open) collapse()
-    else expand()
+    if (swipeRight || swipeDown) collapse()
   }
 
 
@@ -68,10 +113,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
     <section id={`chapter-${chapter.number}`} className="border-b border-foreground/10 last:border-b-0">
       <button
         ref={headerRef}
-        onClick={toggle}
-        onTouchStart={onBodyTouchStart}
-        onTouchEnd={onBodyTouchEnd}
-        className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms]"
+        onClick={onHeaderClick}
+        className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms] touch-manipulation"
         style={{ backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)' }}
       >
         <span
