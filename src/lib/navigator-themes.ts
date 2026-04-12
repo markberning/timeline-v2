@@ -17,6 +17,7 @@ export interface NavigatorTheme {
   rowStripe: string
   rowBorder: string
   regionColors: Record<NavigatorRegion, string>
+  rowHeight?: number
   rowLayout?: 'overlay' | 'split'
   bar: {
     style: BarStyle
@@ -267,6 +268,7 @@ export const NAVIGATOR_THEMES: NavigatorTheme[] = [
   {
     id: 'stone-v3',
     name: 'Stone v3',
+    rowHeight: 56,
     appBg: '#2a2520',
     headerBg: '#322c26',
     headerBorder: 'rgba(0,0,0,0.45)',
@@ -277,7 +279,7 @@ export const NAVIGATOR_THEMES: NavigatorTheme[] = [
     axisGridLine: 'rgba(255,255,255,0.05)',
     axisBottomBorder: 'rgba(0,0,0,0.5)',
     rowStripe: 'transparent',
-    rowBorder: 'rgba(0,0,0,0.3)',
+    rowBorder: 'transparent',
     regionColors: {
       'near-east': '#c2602e',
       'africa': '#b07e26',

@@ -171,7 +171,7 @@ export function TlNavigator() {
         <TlSwimlanes
           tls={sortedTls}
           pixelsPerYear={pixelsPerYear}
-          rowHeight={ROW_HEIGHT}
+          rowHeight={theme.rowHeight ?? ROW_HEIGHT}
           axisHeight={AXIS_HEIGHT}
           theme={theme}
         />
