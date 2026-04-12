@@ -5,7 +5,7 @@ import type { NavigatorTl } from '@/lib/navigator-tls'
 import { REGION_COLORS, TIME_MIN, TIME_MAX } from '@/lib/navigator-tls'
 
 interface Props {
-  tls: NavigatorTl[]               // pre-filtered and sort-ready
+  tls: NavigatorTl[]               // pre-filtered AND pre-sorted by start year
   pixelsPerYear: number
   rowHeight: number
   axisHeight: number
@@ -27,11 +27,6 @@ function tickInterval(pixelsPerYear: number, minSpacingPx = 80): number {
 export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props) {
   const totalYears = TIME_MAX - TIME_MIN
   const trackWidth = Math.max(1, Math.round(totalYears * pixelsPerYear))
-
-  const sorted = useMemo(
-    () => [...tls].sort((a, b) => a.startYear - b.startYear || a.endYear - b.endYear),
-    [tls],
-  )
 
   const ticks = useMemo(() => {
     const interval = tickInterval(pixelsPerYear)
@@ -89,11 +84,12 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
 
       {/* Rows */}
       <div>
-        {sorted.map((tl, i) => {
+        {tls.map((tl, i) => {
           const color = REGION_COLORS[tl.region]
           const barLeft = (tl.startYear - TIME_MIN) * pixelsPerYear
           const barWidth = Math.max(4, (tl.endYear - tl.startYear) * pixelsPerYear)
-          const bgStripe = i % 2 === 0 ? 'rgba(255,255,255,0.015)' : 'transparent'
+          const bgStripe = i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'transparent'
+          const labelText = `${tl.label} · ${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`
           return (
             <div
               key={tl.id}
@@ -105,8 +101,8 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                 width: trackWidth,
               }}
             >
+              {/* Colored duration bar */}
               <div
-                title={`${tl.label} · ${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`}
                 style={{
                   position: 'absolute',
                   left: barLeft,
@@ -118,19 +114,27 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   borderRadius: 3,
                   border: '1px solid rgba(255,255,255,0.18)',
                   boxSizing: 'border-box',
-                  overflow: 'hidden',
+                }}
+              />
+              {/* Label — starts at bar left, extends past the bar as needed */}
+              <div
+                title={labelText}
+                style={{
+                  position: 'absolute',
+                  left: barLeft + 8,
+                  top: 0,
+                  height: rowHeight,
                   display: 'flex',
                   alignItems: 'center',
-                  padding: '0 8px',
                   fontSize: 11,
                   fontWeight: 600,
-                  color: '#fff',
-                  textShadow: '0 1px 2px rgba(0,0,0,0.6)',
+                  color: '#f1f1f4',
+                  textShadow: '0 1px 2px rgba(0,0,0,0.8), 0 0 4px rgba(0,0,0,0.6)',
                   whiteSpace: 'nowrap',
-                  textOverflow: 'ellipsis',
+                  pointerEvents: 'none',
                 }}
               >
-                {tl.label}
+                {labelText}
               </div>
             </div>
           )
