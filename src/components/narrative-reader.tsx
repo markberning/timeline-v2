@@ -35,7 +35,12 @@ export function NarrativeReader({ civilizationId, chapters, events }: NarrativeR
       {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
       <div className="reading-content" onClick={handleClick}>
         {chapters.map(ch => (
-          <ChapterAccordion key={ch.slug} chapter={ch} civilizationId={civilizationId} />
+          <ChapterAccordion
+            key={ch.slug}
+            chapter={ch}
+            civilizationId={civilizationId}
+            chapterEvents={ch.eventIds.map(id => eventMap.get(id)).filter((e): e is TlEvent => !!e)}
+          />
         ))}
       </div>
 

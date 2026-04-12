@@ -1,16 +1,17 @@
 'use client'
 
 import { useState, useRef } from 'react'
-import type { NarrativeChapter } from '@/lib/types'
+import type { NarrativeChapter, TlEvent } from '@/lib/types'
 import { Lightbox } from './lightbox'
 
 interface ChapterAccordionProps {
   chapter: NarrativeChapter
   civilizationId: string
+  chapterEvents: TlEvent[]
   initialOpen?: boolean
 }
 
-export function ChapterAccordion({ chapter, civilizationId, initialOpen = false }: ChapterAccordionProps) {
+export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initialOpen = false }: ChapterAccordionProps) {
   const [open, setOpen] = useState(initialOpen)
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState(true)
@@ -45,7 +46,8 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
     }
   }
 
-  function toggle() {
+  function toggle(e: React.MouseEvent) {
+    if ((e.target as HTMLElement).closest('.event-link')) return
     if (open) {
       collapse()
     } else {
@@ -83,6 +85,20 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
           )}
           {!open && chapter.summary && (
             <p className="text-foreground mt-2">{chapter.summary}</p>
+          )}
+          {!open && chapterEvents.length > 0 && (
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              {chapterEvents.map(ev => (
+                <span
+                  key={ev.id}
+                  className="event-link event-chip text-[0.7em] px-2 py-0.5 rounded-full border"
+                  data-event-id={ev.id}
+                  data-category={ev.category}
+                >
+                  {ev.label}
+                </span>
+              ))}
+            </div>
           )}
         </div>
       </button>

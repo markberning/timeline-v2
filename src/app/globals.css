@@ -123,6 +123,12 @@ body {
 .event-link[data-category="people"]       { color: #be185d; }
 .event-link[data-category="writing"]      { color: #6d28d9; }
 
+/* Chip variant: no underline, border in currentColor */
+.event-chip {
+  text-decoration: none;
+  border-color: currentColor;
+}
+
 /* Dark mode: use vibrant base colors */
 .dark .event-link[data-category="rulers"]       { color: #f59e0b; }
 .dark .event-link[data-category="wars"]         { color: #ef4444; }
