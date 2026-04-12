@@ -189,6 +189,18 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       {tls.map((tl, i) => {
         const regionColor = theme.regionColors[tl.region]
         const barW = barWidths[i] ?? MIN_BAR
+        // Initial inline transform — guarantees the first paint after the
+        // viewport is measured already shows each row in its correct
+        // position, even if any layout-effect race would otherwise show a
+        // stacked-at-(0,0) frame.
+        let initialTransform: string | undefined
+        if (viewportSize.width > 0 && viewportSize.height > 0) {
+          const so = scrollOffsetRef.current
+          const y = i * rowHeight - so
+          const t = (y + rowHeight / 2) / viewportSize.height
+          const x = t * (viewportSize.width - barW)
+          initialTransform = `translate3d(${x}px, ${y}px, 0)`
+        }
         return (
           <div
             key={tl.id}
@@ -205,6 +217,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
               gap: 2,
               willChange: 'transform',
               pointerEvents: 'none',
+              transform: initialTransform,
             }}
           >
             <div
