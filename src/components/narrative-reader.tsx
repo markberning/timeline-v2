@@ -16,6 +16,7 @@ interface NarrativeReaderProps {
 export function NarrativeReader({ civilizationId, chapters, events, glossary }: NarrativeReaderProps) {
   const [activeEvent, setActiveEvent] = useState<TlEvent | null>(null)
   const [activeGlossary, setActiveGlossary] = useState<GlossaryEntry | null>(null)
+  const [openChapter, setOpenChapter] = useState<number | null>(null)
 
   const eventMap = new Map(events.map(e => [e.id, e]))
   const glossaryMap = new Map(glossary.map(g => [g.wikiSlug, g]))
@@ -55,6 +56,10 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary }: 
             chapter={ch}
             civilizationId={civilizationId}
             chapterEvents={ch.eventIds.map(id => eventMap.get(id)).filter((e): e is TlEvent => !!e)}
+            open={openChapter === ch.number}
+            hidden={openChapter !== null && openChapter !== ch.number}
+            onExpand={() => setOpenChapter(ch.number)}
+            onCollapse={() => setOpenChapter(null)}
           />
         ))}
       </div>

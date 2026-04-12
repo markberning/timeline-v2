@@ -8,11 +8,13 @@ interface ChapterAccordionProps {
   chapter: NarrativeChapter
   civilizationId: string
   chapterEvents: TlEvent[]
-  initialOpen?: boolean
+  open: boolean
+  hidden: boolean
+  onExpand: () => void
+  onCollapse: () => void
 }
 
-export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initialOpen = false }: ChapterAccordionProps) {
-  const [open, setOpen] = useState(initialOpen)
+export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, onExpand, onCollapse }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState(true)
   const [justCollapsed, setJustCollapsed] = useState(false)
@@ -22,7 +24,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
 
   function collapse() {
-    setOpen(false)
+    onCollapse()
     setJustCollapsed(true)
     requestAnimationFrame(() => {
       headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -31,7 +33,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
   }
 
   function expand() {
-    setOpen(true)
+    onExpand()
     setTimeout(() => {
       headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }, 50)
@@ -80,7 +82,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
 
 
   return (
-    <section id={`chapter-${chapter.number}`} className="border-b border-foreground/10 last:border-b-0">
+    <section id={`chapter-${chapter.number}`} className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}>
       <div
         ref={headerRef}
         role="button"
