@@ -70,7 +70,8 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     const vh = viewportSize.height
     const vw = viewportSize.width
     const halfRow = rowHeight / 2
-    const maxScroll = Math.max(0, tls.length * rowHeight - vh)
+    const bottomPadding = rowHeight  // breathing room below last row
+    const maxScroll = Math.max(0, tls.length * rowHeight - vh + bottomPadding)
 
     // Clamp existing scroll into the new bounds
     if (scrollOffsetRef.current > maxScroll) scrollOffsetRef.current = maxScroll
