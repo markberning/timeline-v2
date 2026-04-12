@@ -34,9 +34,9 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
   function expand() {
     onExpand()
-    setTimeout(() => {
-      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }, 50)
+    requestAnimationFrame(() => {
+      headerRef.current?.scrollIntoView({ behavior: 'auto', block: 'start' })
+    })
   }
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
@@ -59,8 +59,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     }
     if (!open) return
     const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
-    const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
-    if (swipeRight || swipeDown) collapse()
+    if (swipeRight) collapse()
   }
 
   function onBodyTouchStart(e: React.TouchEvent) {
@@ -76,8 +75,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     touchStart.current = null
     if (!open) return
     const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
-    const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
-    if (swipeRight || swipeDown) collapse()
+    if (swipeRight) collapse()
   }
 
 
