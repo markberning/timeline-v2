@@ -42,6 +42,7 @@ Source of truth for how the reader app should behave. Update this when we change
 
 ## Dark mode
 - Background `#1c1c1f`, foreground `#e5e5e5` — softened from near-black/near-white. Contrast ≈ 13.6:1 (WCAG AAA).
+- Elevated surfaces (event sheet, glossary sheet) use `--surface: #2a2a2f` so they sit visibly above the page background.
 - Toggled via sun/moon button, persisted to `localStorage['theme']`.
 
 ## Text size

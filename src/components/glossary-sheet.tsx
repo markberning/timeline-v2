@@ -46,11 +46,12 @@ export function GlossarySheet({ entry, onClose, onInnerLinkClick }: GlossaryShee
       <div className="fixed inset-0 z-[55] bg-black/30" onClick={onClose} />
       <div
         ref={sheetRef}
-        className="fixed bottom-0 left-0 right-0 z-[60] bg-background rounded-t-2xl shadow-lg max-h-[55vh] overflow-y-auto animate-slide-up border-t border-foreground/10"
-        style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}
+        className="fixed bottom-0 left-0 right-0 z-[60] rounded-t-2xl shadow-lg max-h-[55vh] overflow-y-auto animate-slide-up border-t border-foreground/10"
+        style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)', backgroundColor: 'var(--surface)' }}
       >
         <div
-          className="flex items-center justify-between px-5 pt-3 pb-2 sticky top-0 bg-background rounded-t-2xl z-10 touch-none cursor-grab active:cursor-grabbing"
+          className="flex items-center justify-between px-5 pt-3 pb-2 sticky top-0 rounded-t-2xl z-10 touch-none cursor-grab active:cursor-grabbing"
+          style={{ backgroundColor: 'var(--surface)' }}
           onPointerDown={onHeaderPointerDown}
           onPointerUp={onHeaderPointerUp}
           onClick={() => onClose()}

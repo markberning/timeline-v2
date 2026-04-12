@@ -4,6 +4,7 @@
 
 :root {
   --background: #ffffff;
+  --surface: #ffffff;
   --foreground: #171717;
   --accent: #a1a1aa;
   --accent-text: #4b5563;
@@ -13,6 +14,7 @@
 
 .dark {
   --background: #1c1c1f;
+  --surface: #2a2a2f;
   --foreground: #e5e5e5;
 }
 
