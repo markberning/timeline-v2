@@ -58,27 +58,6 @@ So: a flat, silty plain between two rivers, with no natural resources except dir
 
 ---
 
-## Glossary terms used in Chapter 1 (extracted as I write — to be turned into proper glossary entries by linking pass)
-
-- **Mesopotamia** — Greek name meaning "between the rivers"; the name for the long river valley between the Tigris and Euphrates in modern Iraq.
-- **Tigris** — eastern of the two great Mesopotamian rivers; faster, more flood-prone.
-- **Euphrates** — western river; slower, more navigable, ran past most of the major cities.
-- **Anatolia** — highland peninsula making up most of modern Turkey; source of the Mesopotamian rivers' snowmelt.
-- **Sumerians** — earliest known people of southern Mesopotamia (~5000 BCE onward); inventors of cuneiform; spoke a language with no known relatives.
-- **Akkadians** — Semitic-speaking people who settled central Mesopotamia after the Sumerians; their language became the dominant lingua franca of the Bronze Age Middle East.
-- **Amorites** — Semitic-speaking people originally from the western steppes; founded the Old Babylonian dynasty (Hammurabi's people).
-- **Kassites** — mountain people from the Zagros highlands east of the plain; ruled Babylon for over 400 years after 1595 BCE.
-- **Assyrians** — Semitic-speaking people from northern Mesopotamia; built the largest pre-Persian empire in the Middle East.
-- **Chaldeans** — late Semitic group; founded the Neo-Babylonian Empire (Nebuchadnezzar's dynasty).
-- **city-state** — independent city ruling the farmland around it, with its own king, patron god, and army; the basic political unit of Mesopotamian history.
-- **silt** — fine river-borne soil; the only natural resource Mesopotamia had in abundance, and the foundation of its agriculture.
-- **floodplain** — the flat land along a river that gets covered when the river overflows its banks.
-- **cuneiform** — the wedge-shaped writing system the Sumerians invented; used for over 3,000 years across many languages. (Will be properly introduced in Chapter 3.)
-
----
-
----
-
 # Chapter 2 — Before the Cities
 
 Our story proper begins around 5000 BCE, long before the great city-states that would make Mesopotamia famous. The earliest people we can actually track — through the pottery, the tools, the post-holes of their houses, and eventually their temples — were farming villagers living in small settlements along the edges of the southern marshlands where the Tigris and Euphrates meet the Persian Gulf. These people were already the ancestors of the Sumerians (the original people of southern Mesopotamia, about whom we set the scene in the previous chapter), though they wouldn't be fully recognizable as "Sumerians" for another thousand years. They grew barley and emmer wheat, kept sheep and goats, fished the marshes, and built houses out of reed bundles and mud brick.
