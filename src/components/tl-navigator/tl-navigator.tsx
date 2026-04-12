@@ -11,7 +11,6 @@ import {
 import { TlSwimlanes } from './tl-swimlanes'
 import { ZoneToggles } from './zone-toggles'
 
-const NAME_COL_WIDTH = 160
 const ROW_HEIGHT = 30
 const AXIS_HEIGHT = 28
 const HEADER_HEIGHT = 88
@@ -48,14 +47,11 @@ export function TlNavigator() {
       const next = Math.min(MAX_PPY, Math.max(MIN_PPY, prev * factor))
       if (next === prev) return prev
       // Preserve the year at horizontal viewport center.
-      // scrollLeft is measured against the outer scrolling div; the name column
-      // is sticky, so the track starts at x=NAME_COL_WIDTH within the viewport
-      // and at scrollLeft px into the underlying track coordinate space.
-      const visibleTrackWidth = Math.max(0, el.clientWidth - NAME_COL_WIDTH)
-      const centerPx = el.scrollLeft + visibleTrackWidth / 2
+      const visibleWidth = el.clientWidth
+      const centerPx = el.scrollLeft + visibleWidth / 2
       const yearAtCenter = TIME_MIN + centerPx / prev
       const newCenterPx = (yearAtCenter - TIME_MIN) * next
-      const newScrollLeft = Math.max(0, newCenterPx - visibleTrackWidth / 2)
+      const newScrollLeft = Math.max(0, newCenterPx - visibleWidth / 2)
       requestAnimationFrame(() => { el.scrollLeft = newScrollLeft })
       return next
     })
@@ -64,8 +60,7 @@ export function TlNavigator() {
   const fitAll = useCallback(() => {
     const el = scrollRef.current
     if (!el) return
-    const visibleTrackWidth = Math.max(1, el.clientWidth - NAME_COL_WIDTH)
-    const next = visibleTrackWidth / TOTAL_YEARS
+    const next = el.clientWidth / TOTAL_YEARS
     setPixelsPerYear(Math.max(MIN_PPY, next))
     requestAnimationFrame(() => { el.scrollLeft = 0 })
   }, [])
@@ -116,7 +111,6 @@ export function TlNavigator() {
         <TlSwimlanes
           tls={tls}
           pixelsPerYear={pixelsPerYear}
-          nameColWidth={NAME_COL_WIDTH}
           rowHeight={ROW_HEIGHT}
           axisHeight={AXIS_HEIGHT}
         />
