@@ -30,12 +30,12 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
     setTimeout(() => setJustCollapsed(false), 1500)
   }
 
-  function onTouchStart(e: React.TouchEvent) {
+  function onBodyTouchStart(e: React.TouchEvent) {
     if (e.touches.length !== 1) { touchStart.current = null; return }
     touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }
   }
 
-  function onTouchEnd(e: React.TouchEvent) {
+  function onBodyTouchEnd(e: React.TouchEvent) {
     if (!touchStart.current) return
     const t = e.changedTouches[0]
     const dx = t.clientX - touchStart.current.x
@@ -44,19 +44,23 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
     if (!open) return
     const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
     const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
-    if (swipeRight || swipeDown) collapse()
+    if (swipeRight || swipeDown) {
+      e.preventDefault()
+      collapse()
+    }
+  }
+
+  function expand() {
+    setOpen(true)
+    setTimeout(() => {
+      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 50)
   }
 
   function toggle(e: React.MouseEvent) {
     if ((e.target as HTMLElement).closest('.event-link')) return
-    if (open) {
-      collapse()
-    } else {
-      setOpen(true)
-      setTimeout(() => {
-        headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-      }, 50)
-    }
+    if (open) collapse()
+    else expand()
   }
 
 
@@ -65,8 +69,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
       <button
         ref={headerRef}
         onClick={toggle}
-        onTouchStart={onTouchStart}
-        onTouchEnd={onTouchEnd}
+        onTouchStart={onBodyTouchStart}
+        onTouchEnd={onBodyTouchEnd}
         className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms]"
         style={{ backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)' }}
       >
@@ -107,7 +111,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
       </button>
 
       {open && (
-        <div className="pb-8" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+        <div className="pb-8" onTouchStart={onBodyTouchStart} onTouchEnd={onBodyTouchEnd}>
           {/* Chapter map */}
           {mapExists && (
             <div
