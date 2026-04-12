@@ -136,7 +136,7 @@ a.glossary-link {
   text-underline-offset: 2px;
   cursor: pointer;
   color: #6b7280;
-  font-weight: inherit;
+  font-weight: normal;
 }
 .dark .prose a.glossary-link,
 .dark a.glossary-link {
