@@ -131,13 +131,42 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                   style={{
                     position: 'absolute',
                     left: barLeft,
-                    top: 4,
-                    height: theme.bar.accentWidth ?? 3,
-                    width: barWidth,
-                    background: regionColor,
-                    borderRadius: theme.bar.radius,
+                    top: '50%',
+                    transform: 'translateY(-50%)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    gap: 2,
+                    pointerEvents: 'none',
                   }}
-                />
+                >
+                  <div
+                    style={{
+                      height: theme.bar.accentWidth ?? 3,
+                      width: barWidth,
+                      background: regionColor,
+                      borderRadius: theme.bar.radius,
+                    }}
+                  />
+                  <div
+                    title={`${tl.label} · ${datesText}`}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: 6,
+                      fontSize: 13,
+                      fontWeight: 600,
+                      color: theme.label.color,
+                      textShadow: theme.label.shadow,
+                      whiteSpace: 'nowrap',
+                      paddingLeft: 1,
+                    }}
+                  >
+                    <span>{tl.label}</span>
+                    <span style={{ opacity: 0.6 }}>·</span>
+                    <span>{datesText}</span>
+                  </div>
+                </div>
               ) : (
                 <div
                   style={{
@@ -184,8 +213,8 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                   )}
                 </div>
               )}
-              {/* Label */}
-              <div
+              {/* Label (skipped for line style — rendered inline with the line) */}
+              {theme.bar.style !== 'line' && <div
                 title={`${tl.label} · ${datesText}`}
                 style={{
                   position: 'absolute',
@@ -206,7 +235,7 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                 <span>{tl.label}</span>
                 <span style={{ opacity: 0.6 }}>·</span>
                 <span>{datesText}</span>
-              </div>
+              </div>}
             </div>
           )
         })}
