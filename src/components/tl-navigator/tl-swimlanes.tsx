@@ -106,16 +106,20 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
           const isFilled = theme.bar.style === 'filled'
           const barFill = isFilled ? regionColor : (theme.bar.fill ?? regionColor)
           const isSplit = theme.rowLayout === 'split'
-          const totalRowHeight = isSplit ? rowHeight * 2 : rowHeight
-          const labelTop = isSplit ? rowHeight : 0
+          const halfHeight = Math.floor(rowHeight / 2)
+          const barTop = isSplit ? 0 : 4
+          const barHeight = isSplit ? halfHeight : rowHeight - 8
+          const labelTop = isSplit ? halfHeight : 0
+          const labelHeight = isSplit ? rowHeight - halfHeight : rowHeight
           const labelLeft = isSplit ? barLeft + 2 : barLeft + 8
+          const labelFontSize = isSplit ? 11 : 13
 
           return (
             <div
               key={tl.id}
               style={{
                 position: 'relative',
-                height: totalRowHeight,
+                height: rowHeight,
                 background: bgStripe,
                 borderBottom: `1px solid ${theme.rowBorder}`,
                 width: trackWidth,
@@ -126,8 +130,8 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                 style={{
                   position: 'absolute',
                   left: barLeft,
-                  top: 4,
-                  height: rowHeight - 8,
+                  top: barTop,
+                  height: barHeight,
                   width: barWidth,
                   background: barFill,
                   opacity: theme.bar.opacity,
@@ -173,11 +177,11 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                   position: 'absolute',
                   left: labelLeft,
                   top: labelTop,
-                  height: rowHeight,
+                  height: labelHeight,
                   display: 'flex',
                   alignItems: 'center',
                   gap: 6,
-                  fontSize: 13,
+                  fontSize: labelFontSize,
                   fontWeight: 600,
                   color: isSplit ? theme.textPrimary : theme.label.color,
                   textShadow: isSplit ? 'none' : theme.label.shadow,
