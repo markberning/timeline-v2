@@ -40,24 +40,45 @@ export function TlNavigator() {
   useEffect(() => {
     const el = containerRef.current
     if (!el) return
-    const width = el.clientWidth
-    // Start showing ~2000 years centered on -4000 BCE — only Mesopotamia + Indus initially
-    const v = clampPan(makeInitialViewport(width, -4000, 2000))
-    setViewport({ ...v, containerWidth: width })
+    const init = (w: number) => {
+      if (w <= 0) return
+      // Start showing ~2000 years centered on -4000 BCE — only Mesopotamia + Indus initially
+      const v = clampPan(makeInitialViewport(w, -4000, 2000))
+      setViewport({ ...v, containerWidth: w })
+    }
+    init(el.clientWidth)
 
     const ro = new ResizeObserver(() => {
       const w = el.clientWidth
-      setViewport(prev => prev ? clampPan({ ...prev, containerWidth: w }) : prev)
+      if (w <= 0) return
+      setViewport(prev => {
+        if (!prev) {
+          const v = clampPan(makeInitialViewport(w, -4000, 2000))
+          return { ...v, containerWidth: w }
+        }
+        return clampPan({ ...prev, containerWidth: w })
+      })
     })
     ro.observe(el)
     return () => ro.disconnect()
   }, [])
 
   // Gesture state (refs — no re-renders for in-flight gestures)
-  const pointerRef = useRef<{ down: boolean; startX: number; startY: number; lastX: number; moved: boolean }>({
-    down: false, startX: 0, startY: 0, lastX: 0, moved: false,
+  // axis: null until the user moves far enough to commit to horizontal (pan) or vertical (zoom)
+  const pointerRef = useRef<{
+    down: boolean
+    startX: number; startY: number
+    lastX: number; lastY: number
+    anchorX: number  // pixel X where the gesture started — used as zoom anchor for vertical drags
+    axis: 'x' | 'y' | null
+    moved: boolean
+  }>({
+    down: false, startX: 0, startY: 0, lastX: 0, lastY: 0, anchorX: 0, axis: null, moved: false,
   })
   const touchRef = useRef<{ dist: number; mid: number } | null>(null)
+
+  const AXIS_COMMIT_PX = 6
+  const VERTICAL_ZOOM_FACTOR = 0.008  // per-pixel zoom rate for single-finger up/down drag
 
   const setV = useCallback((updater: (v: Viewport) => Viewport) => {
     setViewport(prev => prev ? clampPan(updater(prev)) : prev)
@@ -73,10 +94,19 @@ export function TlNavigator() {
     setV(v => applyZoom(v, factor, anchorX))
   }, [setV])
 
-  // ── Mouse drag pan ──
+  // ── Mouse drag pan (desktop mouse — horizontal pan only, wheel handles zoom) ──
   const onPointerDown = useCallback((e: React.PointerEvent) => {
     if (e.pointerType === 'touch') return  // touches handled separately
-    pointerRef.current = { down: true, startX: e.clientX, startY: e.clientY, lastX: e.clientX, moved: false }
+    const rect = containerRef.current?.getBoundingClientRect()
+    const anchorX = rect ? e.clientX - rect.left : 0
+    pointerRef.current = {
+      down: true,
+      startX: e.clientX, startY: e.clientY,
+      lastX: e.clientX, lastY: e.clientY,
+      anchorX,
+      axis: 'x',  // mouse drag is always pan
+      moved: false,
+    }
     ;(e.currentTarget as HTMLElement).setPointerCapture(e.pointerId)
   }, [])
 
@@ -105,7 +135,15 @@ export function TlNavigator() {
     const onTouchStart = (e: TouchEvent) => {
       if (e.touches.length === 1) {
         const t = e.touches[0]
-        pointerRef.current = { down: true, startX: t.clientX, startY: t.clientY, lastX: t.clientX, moved: false }
+        const rect = el.getBoundingClientRect()
+        pointerRef.current = {
+          down: true,
+          startX: t.clientX, startY: t.clientY,
+          lastX: t.clientX, lastY: t.clientY,
+          anchorX: t.clientX - rect.left,
+          axis: null,  // decided on first significant move
+          moved: false,
+        }
         touchRef.current = null
       } else if (e.touches.length === 2) {
         const [a, b] = [e.touches[0], e.touches[1]]
@@ -119,6 +157,7 @@ export function TlNavigator() {
     }
 
     const onTouchMove = (e: TouchEvent) => {
+      // Two-finger pinch: zoom + pan by pinch midpoint
       if (e.touches.length === 2 && touchRef.current) {
         e.preventDefault()
         const [a, b] = [e.touches[0], e.touches[1]]
@@ -132,15 +171,38 @@ export function TlNavigator() {
           return { ...zoomed, panOffsetPx: zoomed.panOffsetPx + panDelta }
         })
         touchRef.current = { dist: newDist, mid: newMid }
-      } else if (e.touches.length === 1 && pointerRef.current.down) {
+        return
+      }
+
+      // Single-finger: axis-locked — horizontal = pan, vertical = zoom
+      if (e.touches.length === 1 && pointerRef.current.down) {
         e.preventDefault()
+        const p = pointerRef.current
         const t = e.touches[0]
-        const dx = t.clientX - pointerRef.current.lastX
-        pointerRef.current.lastX = t.clientX
-        if (Math.abs(t.clientX - pointerRef.current.startX) > TAP_THRESHOLD_PX) {
-          pointerRef.current.moved = true
+        const dx = t.clientX - p.lastX
+        const dy = t.clientY - p.lastY
+        p.lastX = t.clientX
+        p.lastY = t.clientY
+
+        // Decide axis once the user has moved past the commit threshold
+        if (p.axis === null) {
+          const totalDx = Math.abs(t.clientX - p.startX)
+          const totalDy = Math.abs(t.clientY - p.startY)
+          if (Math.max(totalDx, totalDy) < AXIS_COMMIT_PX) return
+          p.axis = totalDx >= totalDy ? 'x' : 'y'
+          p.moved = true
         }
-        if (pointerRef.current.moved) setV(v => ({ ...v, panOffsetPx: v.panOffsetPx + dx }))
+
+        if (p.axis === 'x') {
+          setV(v => ({ ...v, panOffsetPx: v.panOffsetPx + dx }))
+        } else {
+          // Vertical drag: drag DOWN (positive dy) zooms OUT, drag UP zooms IN.
+          // Anchor the zoom at the finger's current X so the year under it stays put.
+          const rect = el.getBoundingClientRect()
+          const anchorX = t.clientX - rect.left
+          const factor = 1 - dy * VERTICAL_ZOOM_FACTOR
+          setV(v => applyZoom(v, factor, anchorX))
+        }
       }
     }
 
@@ -193,9 +255,10 @@ export function TlNavigator() {
   // Hover year indicator
   const [hoverYear, setHoverYear] = useState<number | null>(null)
   const onMouseMoveYear = (e: React.MouseEvent) => {
-    if (!viewport || !containerRef.current) return
+    if (!viewport || !containerRef.current || viewport.pixelsPerYear <= 0) return
     const rect = containerRef.current.getBoundingClientRect()
-    setHoverYear(pixelToYear(e.clientX - rect.left, viewport))
+    const y = pixelToYear(e.clientX - rect.left, viewport)
+    if (Number.isFinite(y)) setHoverYear(y)
   }
 
   const [vs, ve] = viewport ? getVisibleYearRange(viewport) : [TIME_MIN, TIME_MAX]
