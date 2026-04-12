@@ -140,12 +140,13 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           {mapExists && (
             <div
               className="mb-6 rounded-lg overflow-hidden bg-foreground/5 cursor-pointer"
+              style={{ aspectRatio: '1408 / 768' }}
               onClick={(e) => { e.stopPropagation(); setShowMapLightbox(true) }}
             >
               <img
                 src={mapSrc}
                 alt={`Map for Chapter ${chapter.number}: ${chapter.title}`}
-                className="w-full"
+                className="w-full h-full object-cover"
                 onError={() => setMapExists(false)}
               />
             </div>
