@@ -133,10 +133,10 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               </ul>
               <button
                 onClick={(e) => { e.stopPropagation(); onExpand() }}
-                className="mt-4 inline-flex items-center gap-1 text-sm font-medium px-3 py-1.5 rounded-full border border-foreground/20 hover:bg-foreground/5 transition-colors"
-                style={{ color: 'var(--accent-text)' }}
+                className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
+                style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
               >
-                Read chapter →
+                Read Chapter →
               </button>
             </>
           ) : (
