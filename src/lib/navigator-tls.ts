@@ -122,3 +122,63 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
 export const TIME_MIN = -7000
 export const TIME_MAX = 2050
+
+/**
+ * Compression zones squish long prehistoric stretches where nothing is
+ * happening on the TL list, so the first four ancient TLs (Ancient China /
+ * Indus / Meso / Nubia) pull in closer to the dense post-3500 BCE cluster.
+ *
+ * Zones MUST be:
+ *  - non-overlapping
+ *  - sorted by start ascending
+ *  - placed just inside the gap so no TL's start/end year falls inside
+ */
+export interface CompressionZone {
+  start: number
+  end: number
+  factor: number  // 0..1, fraction of natural width to keep
+}
+
+export const COMPRESSION_ZONES: CompressionZone[] = [
+  // Between Indus/Ancient China (-7000) and Mesopotamia (-5000)
+  { start: -6900, end: -5200, factor: 0.18 },
+  // Between Mesopotamia (-5000) and Ancient Nubia (-3500)
+  { start: -4900, end: -3700, factor: 0.22 },
+]
+
+/** Year → pixel using the piecewise compressed mapping. */
+export function compressedYearToPixel(year: number, pixelsPerYear: number): number {
+  let px = (year - TIME_MIN) * pixelsPerYear
+  for (const z of COMPRESSION_ZONES) {
+    if (year <= z.start) break
+    const overlap = Math.min(year, z.end) - z.start
+    if (overlap <= 0) continue
+    px -= overlap * (1 - z.factor) * pixelsPerYear
+  }
+  return px
+}
+
+/** Inverse of compressedYearToPixel — used by zoom to preserve center year. */
+export function compressedPixelToYear(px: number, pixelsPerYear: number): number {
+  let cursorYear = TIME_MIN
+  let remaining = px
+  for (const z of COMPRESSION_ZONES) {
+    const linearLen = (z.start - cursorYear) * pixelsPerYear
+    if (remaining <= linearLen) {
+      return cursorYear + remaining / pixelsPerYear
+    }
+    remaining -= linearLen
+    cursorYear = z.start
+    const compressedLen = (z.end - z.start) * z.factor * pixelsPerYear
+    if (remaining <= compressedLen) {
+      return cursorYear + remaining / (pixelsPerYear * z.factor)
+    }
+    remaining -= compressedLen
+    cursorYear = z.end
+  }
+  return cursorYear + remaining / pixelsPerYear
+}
+
+export function compressedTotalWidth(pixelsPerYear: number): number {
+  return compressedYearToPixel(TIME_MAX, pixelsPerYear)
+}

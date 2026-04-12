@@ -2,7 +2,41 @@
 
 import { useMemo } from 'react'
 import type { NavigatorTl } from '@/lib/navigator-tls'
-import { REGION_COLORS, TIME_MIN, TIME_MAX } from '@/lib/navigator-tls'
+import {
+  REGION_COLORS,
+  TIME_MIN,
+  TIME_MAX,
+  COMPRESSION_ZONES,
+  compressedYearToPixel,
+  compressedTotalWidth,
+} from '@/lib/navigator-tls'
+
+const BREAK_WIDTH = 16   // pixel width of the squiggly break gap between bar segments
+const BREAK_BAR_COUNT = 3  // top N rows that get break markers
+
+function SquiggleBreak({ left, top, width, height }: { left: number; top: number; width: number; height: number }) {
+  // Two parallel wavy vertical lines, scaled to fit the bar height
+  return (
+    <svg
+      style={{ position: 'absolute', left, top, width, height, pointerEvents: 'none', zIndex: 3 }}
+      viewBox="0 0 16 24"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M 5 0 Q 1 3, 5 6 T 5 12 T 5 18 T 5 24"
+        stroke="rgba(255,255,255,0.85)"
+        strokeWidth="1.5"
+        fill="none"
+      />
+      <path
+        d="M 11 0 Q 7 3, 11 6 T 11 12 T 11 18 T 11 24"
+        stroke="rgba(255,255,255,0.85)"
+        strokeWidth="1.5"
+        fill="none"
+      />
+    </svg>
+  )
+}
 
 interface Props {
   tls: NavigatorTl[]               // pre-filtered AND pre-sorted by start year
@@ -25,14 +59,18 @@ function tickInterval(pixelsPerYear: number, minSpacingPx = 80): number {
 }
 
 export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props) {
-  const totalYears = TIME_MAX - TIME_MIN
-  const trackWidth = Math.max(1, Math.round(totalYears * pixelsPerYear))
+  const trackWidth = Math.max(1, Math.round(compressedTotalWidth(pixelsPerYear)))
 
   const ticks = useMemo(() => {
     const interval = tickInterval(pixelsPerYear)
     const first = Math.ceil(TIME_MIN / interval) * interval
     const out: number[] = []
-    for (let y = first; y <= TIME_MAX; y += interval) out.push(y)
+    for (let y = first; y <= TIME_MAX; y += interval) {
+      // Skip ticks that fall inside a compression zone — they'd bunch up
+      // uselessly behind the break markers.
+      const inZone = COMPRESSION_ZONES.some(z => y > z.start && y < z.end)
+      if (!inZone) out.push(y)
+    }
     return out
   }, [pixelsPerYear])
 
@@ -51,7 +89,7 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
         }}
       >
         {ticks.map(y => {
-          const left = (y - TIME_MIN) * pixelsPerYear
+          const left = compressedYearToPixel(y, pixelsPerYear)
           return (
             <div
               key={y}
@@ -86,14 +124,40 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
       <div>
         {tls.map((tl, i) => {
           const color = REGION_COLORS[tl.region]
-          const barLeft = (tl.startYear - TIME_MIN) * pixelsPerYear
-          const barWidth = Math.max(4, (tl.endYear - tl.startYear) * pixelsPerYear)
+          const barLeft = compressedYearToPixel(tl.startYear, pixelsPerYear)
+          const barRight = compressedYearToPixel(tl.endYear, pixelsPerYear)
+          const barWidth = Math.max(4, barRight - barLeft)
           const bgStripe = i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'transparent'
-          // Top 3 prehistoric bars get a squiggly break glyph between the name
-          // and the date range to flag the long visual stretch.
-          const useBreak = i < 3
-          const separator = useBreak ? '\u00a0\u00a0〰\u00a0〰\u00a0〰\u00a0\u00a0' : ' · '
-          const labelText = `${tl.label}${separator}${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`
+          const labelText = `${tl.label} · ${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`
+
+          // For the top BREAK_BAR_COUNT rows, split the bar at each compression
+          // zone the bar fully spans and render a squiggly break in the gap.
+          const useBreaks = i < BREAK_BAR_COUNT
+          const crossings = useBreaks
+            ? COMPRESSION_ZONES
+                .filter(z => z.start >= tl.startYear && z.end <= tl.endYear)
+                .map(z => {
+                  const sPx = compressedYearToPixel(z.start, pixelsPerYear)
+                  const ePx = compressedYearToPixel(z.end, pixelsPerYear)
+                  return { mid: (sPx + ePx) / 2 }
+                })
+            : []
+
+          // Build segment list — bar split into chunks separated by break gaps
+          const segments: Array<{ left: number; width: number; first: boolean; last: boolean }> = []
+          let cursor = barLeft
+          crossings.forEach((c, idx) => {
+            const segRight = c.mid - BREAK_WIDTH / 2
+            if (segRight > cursor) {
+              segments.push({ left: cursor, width: segRight - cursor, first: idx === 0, last: false })
+            }
+            cursor = c.mid + BREAK_WIDTH / 2
+          })
+          if (barLeft + barWidth > cursor) {
+            segments.push({ left: cursor, width: (barLeft + barWidth) - cursor, first: crossings.length === 0, last: true })
+          }
+          if (segments.length > 0) segments[segments.length - 1].last = true
+
           return (
             <div
               key={tl.id}
@@ -105,21 +169,40 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                 width: trackWidth,
               }}
             >
-              {/* Colored duration bar */}
-              <div
-                style={{
-                  position: 'absolute',
-                  left: barLeft,
-                  top: 4,
-                  height: rowHeight - 8,
-                  width: barWidth,
-                  background: color,
-                  opacity: 0.88,
-                  borderRadius: 3,
-                  border: '1px solid rgba(255,255,255,0.18)',
-                  boxSizing: 'border-box',
-                }}
-              />
+              {/* Bar segments */}
+              {segments.map((s, idx) => (
+                <div
+                  key={idx}
+                  style={{
+                    position: 'absolute',
+                    left: s.left,
+                    top: 4,
+                    height: rowHeight - 8,
+                    width: Math.max(0, s.width),
+                    background: color,
+                    opacity: 0.88,
+                    borderTop: '1px solid rgba(255,255,255,0.18)',
+                    borderBottom: '1px solid rgba(255,255,255,0.18)',
+                    borderLeft: s.first ? '1px solid rgba(255,255,255,0.18)' : 'none',
+                    borderRight: s.last ? '1px solid rgba(255,255,255,0.18)' : 'none',
+                    borderTopLeftRadius: s.first ? 3 : 0,
+                    borderBottomLeftRadius: s.first ? 3 : 0,
+                    borderTopRightRadius: s.last ? 3 : 0,
+                    borderBottomRightRadius: s.last ? 3 : 0,
+                    boxSizing: 'border-box',
+                  }}
+                />
+              ))}
+              {/* Squiggle break markers */}
+              {crossings.map((c, idx) => (
+                <SquiggleBreak
+                  key={`brk-${idx}`}
+                  left={c.mid - BREAK_WIDTH / 2}
+                  top={4}
+                  width={BREAK_WIDTH}
+                  height={rowHeight - 8}
+                />
+              ))}
               {/* Label — starts at bar left, extends past the bar as needed */}
               <div
                 title={labelText}
@@ -136,6 +219,7 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   textShadow: '0 1px 2px rgba(0,0,0,0.8), 0 0 4px rgba(0,0,0,0.6)',
                   whiteSpace: 'nowrap',
                   pointerEvents: 'none',
+                  zIndex: 4,
                 }}
               >
                 {labelText}
