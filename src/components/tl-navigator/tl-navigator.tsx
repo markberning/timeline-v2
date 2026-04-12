@@ -13,7 +13,7 @@ import {
 import { TlSwimlanes } from './tl-swimlanes'
 import { ZoneToggles } from './zone-toggles'
 
-const ROW_HEIGHT = 30
+const ROW_HEIGHT = 45
 const AXIS_HEIGHT = 28
 const HEADER_HEIGHT = 88
 
