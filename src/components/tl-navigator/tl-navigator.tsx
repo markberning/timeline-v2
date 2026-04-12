@@ -184,7 +184,7 @@ export function TlNavigator() {
           overflow: 'auto',
           WebkitOverflowScrolling: 'touch',
           touchAction: 'pan-x pan-y',
-          overscrollBehavior: 'contain',
+          overscrollBehavior: 'none',
         }}
       >
         <TlSwimlanes
