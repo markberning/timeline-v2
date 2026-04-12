@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import type { NarrativeChapter, TlEvent } from '@/lib/types'
 import { Lightbox } from './lightbox'
 
@@ -34,10 +34,18 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
   function expand() {
     onExpand()
-    requestAnimationFrame(() => {
-      headerRef.current?.scrollIntoView({ behavior: 'auto', block: 'start' })
-    })
   }
+
+  // After sibling chapters are hidden and the body is mounted, scroll header to top.
+  useEffect(() => {
+    if (!open) return
+    // Double rAF gives the browser a chance to complete layout after the hide
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        headerRef.current?.scrollIntoView({ behavior: 'auto', block: 'start' })
+      })
+    })
+  }, [open])
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
 
