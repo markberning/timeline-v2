@@ -15,6 +15,7 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState(true)
   const headerRef = useRef<HTMLButtonElement>(null)
+  const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
 
@@ -27,6 +28,22 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
       const offsetAfter = headerRef.current.getBoundingClientRect().top
       window.scrollBy(0, offsetAfter - offsetBefore)
     })
+  }
+
+  function onTouchStart(e: React.TouchEvent) {
+    if (e.touches.length !== 1) { touchStart.current = null; return }
+    touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }
+  }
+
+  function onTouchEnd(e: React.TouchEvent) {
+    if (!touchStart.current) return
+    const t = e.changedTouches[0]
+    const dx = t.clientX - touchStart.current.x
+    const dy = t.clientY - touchStart.current.y
+    touchStart.current = null
+    if (dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      collapse()
+    }
   }
 
   function toggle() {
@@ -71,7 +88,7 @@ export function ChapterAccordion({ chapter, civilizationId, initialOpen = false 
       </button>
 
       {open && (
-        <div className="pb-8">
+        <div className="pb-8" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
           {/* Chapter map */}
           {mapExists && (
             <div
