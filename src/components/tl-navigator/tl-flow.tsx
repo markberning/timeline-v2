@@ -72,8 +72,6 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         const bar = barRefs.current[i]
         if (!bar) continue
         const rowCenterY = i * rowHeight + halfRow - scrollTop
-        // Cull rows well outside the viewport
-        if (rowCenterY < -rowHeight * 3 || rowCenterY > vh + rowHeight * 3) continue
         const barW = barWidths[i] ?? MIN_BAR
         const t = rowCenterY / vh
         const x = t * (vw - barW)
