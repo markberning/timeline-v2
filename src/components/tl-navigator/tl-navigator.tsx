@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   NAVIGATOR_TLS,
   REGION_ORDER,
@@ -34,6 +34,36 @@ export function TlNavigator() {
   )
 
   const theme = STONE_THEME
+
+  // Lock document scroll/overscroll while the navigator is mounted so the
+  // page body can't rubber-band, drag the fixed navigator around, or trap
+  // touches outside the swimlane scroll container.
+  useEffect(() => {
+    const html = document.documentElement
+    const body = document.body
+    const prev = {
+      htmlOverflow: html.style.overflow,
+      htmlHeight: html.style.height,
+      bodyOverflow: body.style.overflow,
+      bodyHeight: body.style.height,
+      bodyOverscroll: body.style.overscrollBehavior,
+      bodyTouchAction: body.style.touchAction,
+    }
+    html.style.overflow = 'hidden'
+    html.style.height = '100%'
+    body.style.overflow = 'hidden'
+    body.style.height = '100%'
+    body.style.overscrollBehavior = 'none'
+    body.style.touchAction = 'none'
+    return () => {
+      html.style.overflow = prev.htmlOverflow
+      html.style.height = prev.htmlHeight
+      body.style.overflow = prev.bodyOverflow
+      body.style.height = prev.bodyHeight
+      body.style.overscrollBehavior = prev.bodyOverscroll
+      body.style.touchAction = prev.bodyTouchAction
+    }
+  }, [])
 
   const toggleZone = useCallback((r: NavigatorRegion) => {
     setEnabledZones(prev => {
@@ -137,6 +167,8 @@ export function TlNavigator() {
           flex: 1,
           overflow: 'auto',
           WebkitOverflowScrolling: 'touch',
+          touchAction: 'pan-x pan-y',
+          overscrollBehavior: 'contain',
         }}
       >
         <TlSwimlanes
