@@ -12,8 +12,8 @@
 }
 
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #1c1c1f;
+  --foreground: #e5e5e5;
 }
 
 /* In dark mode, accent colors have enough contrast on dark bg — use base color */
