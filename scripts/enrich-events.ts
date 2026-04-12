@@ -121,9 +121,9 @@ async function fetchWikiData(
   slugs: string[],
   cache: EnrichmentCache,
 ): Promise<void> {
-  // Check what needs fetching (either extract or image missing)
-  const needsExtract = slugs.filter(s => !(s in cache.extracts))
-  const needsImage = slugs.filter(s => !(s in cache.wikiImages))
+  // Check what needs fetching (missing, or previously cached as null)
+  const needsExtract = slugs.filter(s => !cache.extracts[s])
+  const needsImage = slugs.filter(s => !cache.wikiImages[s])
   const uncached = [...new Set([...needsExtract, ...needsImage])]
 
   if (uncached.length === 0) {
@@ -164,15 +164,11 @@ async function fetchWikiData(
     for (const page of Object.values(data.query.pages)) {
       const slug = normalizedMap.get(page.title)
       if (!slug) continue
-      if (!(slug in cache.extracts)) {
-        cache.extracts[slug] = page.extract?.trim() || null
-      }
-      if (!(slug in cache.wikiImages)) {
-        cache.wikiImages[slug] = page.thumbnail?.source ?? null
-      }
-      if (!(slug in cache.wikiImageFiles)) {
-        cache.wikiImageFiles[slug] = (page as Record<string, unknown>).pageimage as string ?? null
-      }
+      const extract = page.extract?.trim()
+      if (extract) cache.extracts[slug] = cleanExtract(extract)
+      else if (!(slug in cache.extracts)) cache.extracts[slug] = null
+      cache.wikiImages[slug] = page.thumbnail?.source ?? cache.wikiImages[slug] ?? null
+      cache.wikiImageFiles[slug] = ((page as Record<string, unknown>).pageimage as string) ?? cache.wikiImageFiles[slug] ?? null
     }
 
     for (const s of batch) {
@@ -185,6 +181,19 @@ async function fetchWikiData(
 /** Strip HTML tags from Commons descriptions */
 function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
+}
+
+/** Clean wiki extracts: drop parenthetical clutter with non-Latin scripts, cuneiform, etc. */
+function cleanExtract(text: string): string {
+  // Remove parentheticals that contain non-Latin script characters (Arabic, Syriac, Hebrew, Greek, Cuneiform, CJK, etc.)
+  // or that are just script labels like "Syriac:"
+  const nonLatin = /[\u0370-\u03FF\u0400-\u04FF\u0530-\u058F\u0590-\u05FF\u0600-\u06FF\u0700-\u074F\u0780-\u07BF\u0900-\u097F\u4E00-\u9FFF\u{10000}-\u{1FFFF}]/u
+  let cleaned = text.replace(/\s*\([^)]*\)/g, (match) => {
+    return nonLatin.test(match) ? '' : match
+  })
+  // Collapse whitespace, fix punctuation clinging
+  cleaned = cleaned.replace(/\s+/g, ' ').replace(/\s+([,.;:])/g, '$1').trim()
+  return cleaned
 }
 
 /** Batch-fetch image descriptions from Commons. */
@@ -267,7 +276,7 @@ export async function enrichGlossary(
   const result = new Map<string, EnrichedGlossary>()
   for (const slug of uniqueSlugs) {
     const entry: EnrichedGlossary = {}
-    if (cache.extracts[slug]) entry.wikiExtract = cache.extracts[slug]!
+    if (cache.extracts[slug]) entry.wikiExtract = cleanExtract(cache.extracts[slug]!)
     if (cache.wikiImages[slug]) entry.thumbnailUrl = cache.wikiImages[slug]!
     if (entry.wikiExtract || entry.thumbnailUrl) result.set(slug, entry)
   }
@@ -341,7 +350,7 @@ export async function enrichEvents(
       }
     }
     if (evt.wikiSlug && cache.extracts[evt.wikiSlug]) {
-      enriched.wikiExtract = cache.extracts[evt.wikiSlug]!
+      enriched.wikiExtract = cleanExtract(cache.extracts[evt.wikiSlug]!)
     }
     if (enriched.thumbnailUrl || enriched.wikiExtract) {
       result.set(evt.id, enriched)
