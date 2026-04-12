@@ -2,7 +2,14 @@
 
 import { useMemo } from 'react'
 import type { NavigatorTl } from '@/lib/navigator-tls'
-import { REGION_COLORS, TIME_MIN, TIME_MAX } from '@/lib/navigator-tls'
+import {
+  REGION_COLORS,
+  TIME_MIN,
+  TIME_MAX,
+  COMPRESSION_ZONES,
+  compressedYearToPixel,
+  compressedTotalWidth,
+} from '@/lib/navigator-tls'
 
 interface Props {
   tls: NavigatorTl[]               // pre-filtered AND pre-sorted by start year
@@ -25,19 +32,57 @@ function tickInterval(pixelsPerYear: number, minSpacingPx = 80): number {
 }
 
 export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props) {
-  const totalYears = TIME_MAX - TIME_MIN
-  const trackWidth = Math.max(1, Math.round(totalYears * pixelsPerYear))
+  const trackWidth = Math.max(1, Math.round(compressedTotalWidth(pixelsPerYear)))
+  const contentHeight = axisHeight + tls.length * rowHeight
 
   const ticks = useMemo(() => {
     const interval = tickInterval(pixelsPerYear)
     const first = Math.ceil(TIME_MIN / interval) * interval
     const out: number[] = []
-    for (let y = first; y <= TIME_MAX; y += interval) out.push(y)
+    for (let y = first; y <= TIME_MAX; y += interval) {
+      // Skip ticks that fall inside a compression zone — they'd bunch up
+      // uselessly and overlap the break markers.
+      const inZone = COMPRESSION_ZONES.some(z => y > z.start && y < z.end)
+      if (!inZone) out.push(y)
+    }
     return out
   }, [pixelsPerYear])
 
+  const breakStripes = useMemo(
+    () =>
+      COMPRESSION_ZONES.map(z => {
+        const left = compressedYearToPixel(z.start, pixelsPerYear)
+        const right = compressedYearToPixel(z.end, pixelsPerYear)
+        return { zone: z, left, width: Math.max(4, right - left) }
+      }),
+    [pixelsPerYear],
+  )
+
   return (
-    <div style={{ position: 'relative', width: trackWidth }}>
+    <div style={{ position: 'relative', width: trackWidth, minHeight: contentHeight }}>
+      {/* Break stripes — one per compression zone, running the full content
+          height underneath the axis and rows. Hatched background signals
+          "compressed gap" and flanking borders act as the visual ">{  {<"
+          marker the user asked for. */}
+      {breakStripes.map(({ zone, left, width }) => (
+        <div
+          key={`break-${zone.start}`}
+          style={{
+            position: 'absolute',
+            left,
+            top: 0,
+            width,
+            height: contentHeight,
+            background:
+              'repeating-linear-gradient(135deg, rgba(255,255,255,0.06) 0 4px, transparent 4px 8px)',
+            borderLeft: '1px dashed rgba(255,255,255,0.28)',
+            borderRight: '1px dashed rgba(255,255,255,0.28)',
+            pointerEvents: 'none',
+            zIndex: 1,
+          }}
+        />
+      ))}
+
       {/* Sticky time axis at top */}
       <div
         style={{
@@ -51,7 +96,7 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
         }}
       >
         {ticks.map(y => {
-          const left = (y - TIME_MIN) * pixelsPerYear
+          const left = compressedYearToPixel(y, pixelsPerYear)
           return (
             <div
               key={y}
@@ -83,11 +128,12 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
       </div>
 
       {/* Rows */}
-      <div>
+      <div style={{ position: 'relative', zIndex: 2 }}>
         {tls.map((tl, i) => {
           const color = REGION_COLORS[tl.region]
-          const barLeft = (tl.startYear - TIME_MIN) * pixelsPerYear
-          const barWidth = Math.max(4, (tl.endYear - tl.startYear) * pixelsPerYear)
+          const barLeft = compressedYearToPixel(tl.startYear, pixelsPerYear)
+          const barRight = compressedYearToPixel(tl.endYear, pixelsPerYear)
+          const barWidth = Math.max(4, barRight - barLeft)
           const bgStripe = i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'transparent'
           const labelText = `${tl.label} · ${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`
           return (

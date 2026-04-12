@@ -4,10 +4,11 @@ import { useCallback, useMemo, useRef, useState } from 'react'
 import {
   NAVIGATOR_TLS,
   REGION_ORDER,
-  TIME_MAX,
-  TIME_MIN,
   type NavigatorRegion,
   type NavigatorTl,
+  compressedPixelToYear,
+  compressedYearToPixel,
+  compressedTotalWidth,
 } from '@/lib/navigator-tls'
 import { TlSwimlanes } from './tl-swimlanes'
 import { ZoneToggles } from './zone-toggles'
@@ -19,7 +20,6 @@ const HEADER_HEIGHT = 88
 const MIN_PPY = 0.005
 const MAX_PPY = 8
 const ZOOM_STEP = 1.5
-const TOTAL_YEARS = TIME_MAX - TIME_MIN
 
 function sortTls(tls: NavigatorTl[]): NavigatorTl[] {
   return [...tls].sort((a, b) => a.startYear - b.startYear || a.endYear - b.endYear)
@@ -50,11 +50,13 @@ export function TlNavigator() {
     setPixelsPerYear(prev => {
       const next = Math.min(MAX_PPY, Math.max(MIN_PPY, prev * factor))
       if (next === prev) return prev
-      // Preserve the year at horizontal viewport center.
+      // Preserve the year at horizontal viewport center under the compressed
+      // mapping: find which year sits at the current center pixel, then
+      // recompute scrollLeft so that same year lands at the center again.
       const visibleWidth = el.clientWidth
       const centerPx = el.scrollLeft + visibleWidth / 2
-      const yearAtCenter = TIME_MIN + centerPx / prev
-      const newCenterPx = (yearAtCenter - TIME_MIN) * next
+      const yearAtCenter = compressedPixelToYear(centerPx, prev)
+      const newCenterPx = compressedYearToPixel(yearAtCenter, next)
       const newScrollLeft = Math.max(0, newCenterPx - visibleWidth / 2)
       requestAnimationFrame(() => { el.scrollLeft = newScrollLeft })
       return next
@@ -64,7 +66,11 @@ export function TlNavigator() {
   const fitAll = useCallback(() => {
     const el = scrollRef.current
     if (!el) return
-    const next = el.clientWidth / TOTAL_YEARS
+    // Solve for the ppy that makes the compressed total width equal the
+    // visible viewport width. Because compressedTotalWidth is linear in ppy
+    // (ppy is a common factor), we can do this directly.
+    const widthAtUnit = compressedTotalWidth(1)
+    const next = el.clientWidth / widthAtUnit
     setPixelsPerYear(Math.max(MIN_PPY, next))
     requestAnimationFrame(() => { el.scrollLeft = 0 })
   }, [])

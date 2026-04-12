@@ -122,3 +122,72 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
 export const TIME_MIN = -7000
 export const TIME_MAX = 2050
+
+/**
+ * Compression zones collapse long prehistoric stretches where nothing is
+ * happening on the TL list. Each zone compresses to `factor` × its natural
+ * visual width so the first four ancient TLs (Ancient China / Indus / Meso /
+ * Nubia) pull in closer to the dense post-3500 BCE cluster.
+ *
+ * Zones MUST be:
+ *  - non-overlapping
+ *  - sorted by start ascending
+ *  - placed just inside the gap so no TL's start/end year falls inside
+ */
+export interface CompressionZone {
+  start: number
+  end: number
+  factor: number  // 0..1, how much of the natural width to keep
+}
+
+export const COMPRESSION_ZONES: CompressionZone[] = [
+  // Between Indus/Ancient China (-7000) and Mesopotamia (-5000)
+  { start: -6900, end: -5200, factor: 0.18 },
+  // Between Mesopotamia (-5000) and Ancient Nubia (-3500)
+  { start: -4900, end: -3700, factor: 0.22 },
+]
+
+/**
+ * Convert year → pixel using the piecewise compressed mapping. For each
+ * compression zone the caller has walked past (fully or partially), the
+ * natural pixel distance is reduced by `(1 - factor) * overlap * ppy`.
+ */
+export function compressedYearToPixel(year: number, pixelsPerYear: number): number {
+  let px = (year - TIME_MIN) * pixelsPerYear
+  for (const z of COMPRESSION_ZONES) {
+    if (year <= z.start) break
+    const overlap = Math.min(year, z.end) - z.start
+    if (overlap <= 0) continue
+    px -= overlap * (1 - z.factor) * pixelsPerYear
+  }
+  return px
+}
+
+/**
+ * Inverse of compressedYearToPixel — walks forward through zones, draining
+ * pixels as we go, so zoom can preserve a year under the viewport center.
+ */
+export function compressedPixelToYear(px: number, pixelsPerYear: number): number {
+  let cursorYear = TIME_MIN
+  let remaining = px
+  for (const z of COMPRESSION_ZONES) {
+    const linearLen = (z.start - cursorYear) * pixelsPerYear
+    if (remaining <= linearLen) {
+      return cursorYear + remaining / pixelsPerYear
+    }
+    remaining -= linearLen
+    cursorYear = z.start
+    const compressedLen = (z.end - z.start) * z.factor * pixelsPerYear
+    if (remaining <= compressedLen) {
+      return cursorYear + remaining / (pixelsPerYear * z.factor)
+    }
+    remaining -= compressedLen
+    cursorYear = z.end
+  }
+  return cursorYear + remaining / pixelsPerYear
+}
+
+/** Total pixel width of the timeline at a given zoom. */
+export function compressedTotalWidth(pixelsPerYear: number): number {
+  return compressedYearToPixel(TIME_MAX, pixelsPerYear)
+}
