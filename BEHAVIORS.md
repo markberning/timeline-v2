@@ -53,6 +53,7 @@ Source of truth for how the reader app should behave. Update this when we change
 ## Navigation
 - Home page: civilization picker.
 - Chapter page: single-page accordion. No per-chapter routes.
+- **Swipe right on the civilization summary page** (dx > 80px, horizontal-dominant, no chapter expanded) navigates back to home. Disabled when a chapter is open, since swipe-right in that state is reserved for collapsing the chapter.
 
 ## Link pipeline (event links + glossary links)
 
