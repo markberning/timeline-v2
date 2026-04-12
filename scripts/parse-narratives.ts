@@ -245,6 +245,24 @@ async function parseNarrative(filename: string, tlId: string) {
 
   const chapters: ParsedChapter[] = []
 
+  // Replace the first whole-word match of `matchText` in `text`, skipping any
+  // positions inside existing <a>...</a> spans so we never nest anchors.
+  function replaceOutsideAnchors(text: string, matchText: string, replacement: string): { result: string; replaced: boolean } {
+    const parts = text.split(/(<a\b[^>]*>[\s\S]*?<\/a>)/g)
+    const escaped = matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const regex = new RegExp(`\\b(${escaped})\\b`, 'i')
+    for (let i = 0; i < parts.length; i++) {
+      if (i % 2 === 1) continue // already an anchor — skip
+      const before = parts[i]
+      const after = before.replace(regex, replacement)
+      if (after !== before) {
+        parts[i] = after
+        return { result: parts.join(''), replaced: true }
+      }
+    }
+    return { result: text, replaced: false }
+  }
+
   for (const ch of rawChapters) {
     // Inject curated event links into raw markdown
     let linkedBody = ch.body
@@ -259,13 +277,10 @@ async function parseNarrative(filename: string, tlId: string) {
         continue
       }
       const cat = categoryMap.get(link.eventId) ?? 'people'
-      const escaped = link.matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-      // Only match in prose text, not inside existing HTML tags or markdown headings
-      const regex = new RegExp(`(?<!<[^>]*)\\b(${escaped})\\b`, 'i')
       const replacement = `<a class="event-link" data-event-id="${link.eventId}" data-category="${cat}">${link.matchText}</a>`
-      const before = linkedBody
-      linkedBody = linkedBody.replace(regex, replacement)
-      if (linkedBody !== before) linked.add(link.eventId)
+      const res = replaceOutsideAnchors(linkedBody, link.matchText, replacement)
+      linkedBody = res.result
+      if (res.replaced) linked.add(link.eventId)
     }
 
     // Inject glossary links (runs after events so events win where they overlap)
@@ -273,15 +288,11 @@ async function parseNarrative(filename: string, tlId: string) {
     const glossarySorted = [...chapterGlossary].sort((a, b) => b.matchText.length - a.matchText.length)
     const glossaryLinked = new Set<string>()
     for (const link of glossarySorted) {
-      // Dedupe by matchText so multiple distinct words can still point at the same wiki slug
       if (glossaryLinked.has(link.matchText.toLowerCase())) continue
-      const escaped = link.matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-      // Skip matches inside existing <a ... > tags (event links or already-placed glossary links)
-      const regex = new RegExp(`(?<!<[^>]*)\\b(${escaped})\\b`, 'i')
       const replacement = `<a class="glossary-link" data-wiki-slug="${link.wikiSlug}">${link.matchText}</a>`
-      const before = linkedBody
-      linkedBody = linkedBody.replace(regex, replacement)
-      if (linkedBody !== before) glossaryLinked.add(link.matchText.toLowerCase())
+      const res = replaceOutsideAnchors(linkedBody, link.matchText, replacement)
+      linkedBody = res.result
+      if (res.replaced) glossaryLinked.add(link.matchText.toLowerCase())
     }
 
     const html = await markdownToHtml(linkedBody)
