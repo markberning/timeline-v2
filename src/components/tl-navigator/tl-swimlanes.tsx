@@ -105,13 +105,17 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
           // Bar fill differs by style
           const isFilled = theme.bar.style === 'filled'
           const barFill = isFilled ? regionColor : (theme.bar.fill ?? regionColor)
+          const isSplit = theme.rowLayout === 'split'
+          const totalRowHeight = isSplit ? rowHeight * 2 : rowHeight
+          const labelTop = isSplit ? rowHeight : 0
+          const labelLeft = isSplit ? barLeft + 2 : barLeft + 8
 
           return (
             <div
               key={tl.id}
               style={{
                 position: 'relative',
-                height: rowHeight,
+                height: totalRowHeight,
                 background: bgStripe,
                 borderBottom: `1px solid ${theme.rowBorder}`,
                 width: trackWidth,
@@ -167,16 +171,16 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                 title={`${tl.label} · ${datesText}`}
                 style={{
                   position: 'absolute',
-                  left: barLeft + 8,
-                  top: 0,
+                  left: labelLeft,
+                  top: labelTop,
                   height: rowHeight,
                   display: 'flex',
                   alignItems: 'center',
                   gap: 6,
                   fontSize: 13,
                   fontWeight: 600,
-                  color: theme.label.color,
-                  textShadow: theme.label.shadow,
+                  color: isSplit ? theme.textPrimary : theme.label.color,
+                  textShadow: isSplit ? 'none' : theme.label.shadow,
                   whiteSpace: 'nowrap',
                   pointerEvents: 'none',
                 }}

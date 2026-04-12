@@ -17,6 +17,7 @@ export interface NavigatorTheme {
   rowStripe: string
   rowBorder: string
   regionColors: Record<NavigatorRegion, string>
+  rowLayout?: 'overlay' | 'split'
   bar: {
     style: BarStyle
     fill?: string
@@ -176,6 +177,7 @@ export const NAVIGATOR_THEMES: NavigatorTheme[] = [
   {
     id: 'stone',
     name: 'Stone',
+    rowLayout: 'split',
     appBg: '#2a2520',
     headerBg: '#322c26',
     headerBorder: 'rgba(0,0,0,0.45)',
