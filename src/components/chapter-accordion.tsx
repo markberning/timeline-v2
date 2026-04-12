@@ -36,22 +36,27 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     onExpand()
   }
 
+  const [debug, setDebug] = useState('')
+
   // After sibling chapters are hidden and the body is mounted, scroll header to top.
   useEffect(() => {
     if (!open) return
-    function scrollToHeader() {
+    function scrollToHeader(label: string) {
       const el = headerRef.current
       if (!el) return
       const rect = el.getBoundingClientRect()
-      const targetY = rect.top + window.pageYOffset - 40
+      const pageY = window.pageYOffset
+      const docScroll = document.documentElement.scrollTop
+      const bodyScroll = document.body.scrollTop
+      const targetY = rect.top + pageY - 40
+      setDebug(`${label} rect.top=${Math.round(rect.top)} pageY=${Math.round(pageY)} docST=${docScroll} bodyST=${bodyScroll} → target=${Math.round(targetY)}`)
       window.scrollTo({ top: targetY, behavior: 'auto' })
     }
-    // Run twice: once after initial layout, again after image loads
     requestAnimationFrame(() => {
-      requestAnimationFrame(scrollToHeader)
+      requestAnimationFrame(() => scrollToHeader('raf2'))
     })
-    const timer = setTimeout(scrollToHeader, 300)
-    return () => clearTimeout(timer)
+    const t1 = setTimeout(() => scrollToHeader('t300'), 300)
+    return () => clearTimeout(t1)
   }, [open])
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
@@ -96,6 +101,11 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
   return (
     <section id={`chapter-${chapter.number}`} className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}>
+      {debug && open && (
+        <div className="fixed bottom-24 left-2 right-2 bg-black/80 text-white text-[9px] p-2 rounded z-[9999] font-mono pointer-events-none break-all">
+          {debug}
+        </div>
+      )}
       <div
         ref={headerRef}
         role="button"
