@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 import type { NarrativeChapter, TlEvent } from '@/lib/types'
 import { Lightbox } from './lightbox'
 
@@ -16,7 +16,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState(true)
   const [justCollapsed, setJustCollapsed] = useState(false)
-  const headerRef = useRef<HTMLButtonElement>(null)
+  const headerRef = useRef<HTMLDivElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
@@ -37,58 +37,28 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
     }, 50)
   }
 
-  // Attach native listeners to header for reliable tap/swipe on iOS sticky
-  useEffect(() => {
-    const el = headerRef.current
-    if (!el) return
-    let startX = 0
-    let startY = 0
-    let moved = false
+  const pointerStart = useRef<{ x: number; y: number } | null>(null)
 
-    function handleStart(e: TouchEvent) {
-      if (e.touches.length !== 1) return
-      startX = e.touches[0].clientX
-      startY = e.touches[0].clientY
-      moved = false
-    }
-    function handleMove(e: TouchEvent) {
-      const dx = Math.abs(e.touches[0].clientX - startX)
-      const dy = Math.abs(e.touches[0].clientY - startY)
-      if (dx > 8 || dy > 8) moved = true
-    }
-    function handleEnd(e: TouchEvent) {
-      const t = e.changedTouches[0]
-      const dx = t.clientX - startX
-      const dy = t.clientY - startY
-      const target = e.target as HTMLElement
-      if (target.closest('.event-link')) return
-      if (!moved) {
-        // Tap
-        if (open) collapse()
-        else expand()
-        return
-      }
-      if (!open) return
-      const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
-      const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
-      if (swipeRight || swipeDown) collapse()
-    }
+  function onHeaderPointerDown(e: React.PointerEvent) {
+    pointerStart.current = { x: e.clientX, y: e.clientY }
+  }
 
-    el.addEventListener('touchstart', handleStart, { passive: true })
-    el.addEventListener('touchmove', handleMove, { passive: true })
-    el.addEventListener('touchend', handleEnd, { passive: true })
-    return () => {
-      el.removeEventListener('touchstart', handleStart)
-      el.removeEventListener('touchmove', handleMove)
-      el.removeEventListener('touchend', handleEnd)
-    }
-  }, [open])
-
-  function onHeaderClick(e: React.MouseEvent) {
-    // Desktop click fallback; touch path handled in useEffect above
+  function onHeaderPointerUp(e: React.PointerEvent) {
     if ((e.target as HTMLElement).closest('.event-link')) return
-    if (open) collapse()
-    else expand()
+    const start = pointerStart.current
+    pointerStart.current = null
+    const dx = start ? e.clientX - start.x : 0
+    const dy = start ? e.clientY - start.y : 0
+    const moved = Math.abs(dx) > 10 || Math.abs(dy) > 10
+    if (!moved) {
+      if (open) collapse()
+      else expand()
+      return
+    }
+    if (!open) return
+    const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
+    const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
+    if (swipeRight || swipeDown) collapse()
   }
 
   function onBodyTouchStart(e: React.TouchEvent) {
@@ -111,10 +81,13 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
 
   return (
     <section id={`chapter-${chapter.number}`} className="border-b border-foreground/10 last:border-b-0">
-      <button
+      <div
         ref={headerRef}
-        onClick={onHeaderClick}
-        className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms] touch-manipulation"
+        role="button"
+        tabIndex={0}
+        onPointerDown={onHeaderPointerDown}
+        onPointerUp={onHeaderPointerUp}
+        className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms] touch-manipulation cursor-pointer select-none"
         style={{ backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)' }}
       >
         <span
@@ -151,7 +124,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
             </div>
           )}
         </div>
-      </button>
+      </div>
 
       {open && (
         <div className="pb-8" onTouchStart={onBodyTouchStart} onTouchEnd={onBodyTouchEnd}>
