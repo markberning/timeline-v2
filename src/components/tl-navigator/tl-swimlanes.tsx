@@ -146,7 +146,6 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight }: Props
                   textShadow: '0 1px 2px rgba(0,0,0,0.8), 0 0 4px rgba(0,0,0,0.6)',
                   whiteSpace: 'nowrap',
                   pointerEvents: 'none',
-                  zIndex: 4,
                 }}
               >
                 <span>{tl.label}</span>
