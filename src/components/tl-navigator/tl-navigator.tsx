@@ -43,6 +43,13 @@ export function TlNavigator() {
     })
   }, [])
 
+  const soloZone = useCallback((r: NavigatorRegion) => {
+    setEnabledZones(prev => {
+      if (prev.size === 1 && prev.has(r)) return new Set<NavigatorRegion>(REGION_ORDER)
+      return new Set<NavigatorRegion>([r])
+    })
+  }, [])
+
   const sortedTls = useMemo(
     () => sortTls(NAVIGATOR_TLS.filter(tl => enabledZones.has(tl.region))),
     [enabledZones],
@@ -120,7 +127,7 @@ export function TlNavigator() {
           <button style={zoomBtn} onClick={() => zoomBy(1 / ZOOM_STEP)}>−</button>
           <button style={zoomBtn} onClick={fitAll}>fit</button>
         </div>
-        <ZoneToggles enabled={enabledZones} onToggle={toggleZone} theme={theme} />
+        <ZoneToggles enabled={enabledZones} onToggle={toggleZone} onSolo={soloZone} theme={theme} />
       </div>
 
       {/* Scrolling swimlanes area */}

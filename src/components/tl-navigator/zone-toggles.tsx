@@ -1,15 +1,38 @@
 'use client'
 
+import { useRef } from 'react'
 import { REGION_ORDER, REGION_LABELS, type NavigatorRegion } from '@/lib/navigator-tls'
 import type { NavigatorTheme } from '@/lib/navigator-themes'
 
 interface Props {
   enabled: Set<NavigatorRegion>
   onToggle: (region: NavigatorRegion) => void
+  onSolo: (region: NavigatorRegion) => void
   theme: NavigatorTheme
 }
 
-export function ZoneToggles({ enabled, onToggle, theme }: Props) {
+const DOUBLE_CLICK_MS = 220
+
+export function ZoneToggles({ enabled, onToggle, onSolo, theme }: Props) {
+  // Defer single-click toggles briefly so a double-click can pre-empt them.
+  const clickTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const handleClick = (r: NavigatorRegion) => {
+    if (clickTimer.current) clearTimeout(clickTimer.current)
+    clickTimer.current = setTimeout(() => {
+      clickTimer.current = null
+      onToggle(r)
+    }, DOUBLE_CLICK_MS)
+  }
+
+  const handleDoubleClick = (r: NavigatorRegion) => {
+    if (clickTimer.current) {
+      clearTimeout(clickTimer.current)
+      clickTimer.current = null
+    }
+    onSolo(r)
+  }
+
   return (
     <div
       style={{
@@ -25,7 +48,8 @@ export function ZoneToggles({ enabled, onToggle, theme }: Props) {
         return (
           <button
             key={r}
-            onClick={(e) => { e.stopPropagation(); onToggle(r) }}
+            onClick={(e) => { e.stopPropagation(); handleClick(r) }}
+            onDoubleClick={(e) => { e.stopPropagation(); handleDoubleClick(r) }}
             onPointerDown={(e) => e.stopPropagation()}
             style={{
               display: 'flex',
