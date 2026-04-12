@@ -38,18 +38,22 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
   }
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
+  const [debug, setDebug] = useState('')
 
   function onHeaderPointerDown(e: React.PointerEvent) {
     pointerStart.current = { x: e.clientX, y: e.clientY }
+    setDebug(`down ${e.pointerType} ${Math.round(e.clientX)},${Math.round(e.clientY)}`)
   }
 
   function onHeaderPointerUp(e: React.PointerEvent) {
-    if ((e.target as HTMLElement).closest('.event-link')) return
+    const tgt = e.target as HTMLElement
+    if (tgt.closest('.event-link')) { setDebug('up:link-hit'); return }
     const start = pointerStart.current
     pointerStart.current = null
     const dx = start ? e.clientX - start.x : 0
     const dy = start ? e.clientY - start.y : 0
     const moved = Math.abs(dx) > 10 || Math.abs(dy) > 10
+    setDebug(`up dx=${Math.round(dx)} dy=${Math.round(dy)} moved=${moved} open=${open}`)
     if (!moved) {
       if (open) collapse()
       else expand()
@@ -81,6 +85,11 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
 
   return (
     <section id={`chapter-${chapter.number}`} className="border-b border-foreground/10 last:border-b-0">
+      {debug && chapter.number === 1 && (
+        <div className="fixed bottom-24 left-2 right-2 bg-black/80 text-white text-[10px] p-2 rounded z-[9999] font-mono pointer-events-none">
+          {debug}
+        </div>
+      )}
       <div
         ref={headerRef}
         role="button"
