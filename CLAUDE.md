@@ -66,19 +66,23 @@ audits/                         — audit reports from the 5-persona pipeline
 ```
 
 ## Reader Features (built)
-- **Single-page accordion** — all chapters on one page, expand/collapse individually
+- **Single-page accordion** — all chapters on one page, only one open at a time (siblings `display: none`)
 - **Sticky controls** — back link, text size (A/A), dark mode toggle always visible
-- **Chapter maps** — Gemini-generated maps at top of each expanded chapter with lightbox zoom
+- **Chapter maps** — Gemini-generated maps at top of each expanded chapter with lightbox zoom (reserved aspect ratio so expand-scroll lands cleanly)
 - **Event links** — curated context-aware links in prose, colored by category (8 categories)
-- **Event bottom sheet** — tap a linked event for image, caption, details sections, Wikipedia extract, read-more link
+- **Glossary links** — gray solid underline, curated per-chapter, opens bottom sheet with Wikipedia extract. Also work inside event wiki extracts.
+- **Event bottom sheet** — tap a linked event for image, caption, details sections, Wikipedia extract, read-more link. Swipe down or tap header to dismiss.
+- **Glossary sheet** — gray-themed smaller variant of EventSheet.
+- **Summary bullets** — optional chronological bullet summary per chapter (with inline event/glossary links) + big "Read Chapter N →" button. Replaces the paragraph+chips layout. Used for all of Indus Valley.
 - **Image enrichment** — Commons thumbnails + Wikipedia page image fallback, all verified at build time
-- **Image captions** — manual overrides for all 122 events, descriptive alt-text style
-- **Dark mode** — class-based with anti-flash script, persisted to localStorage
+- **Image captions** — hand-written captions in `.caption-overrides.json`, informal 1–2 sentence voice
+- **Dark mode** — class-based with anti-flash script, softened to `#1c1c1f` / `#e5e5e5` (WCAG AAA 13.6:1). Bottom sheets use lighter `--surface` for elevation.
 - **Text size** — 5 steps (14-22px), persisted, affects both summaries and prose equally
 - **WCAG AA contrast** — all text passes 4.5:1, accent colors have light/dark mode variants
 - **Viewport lock** — touch-action: pan-y prevents horizontal drift on mobile
-- **Lightbox** — pinch-to-zoom on event images and chapter maps
-- **Image review** — `/review/{tlId}` page with approve/reject/notes workflow
+- **Lightbox** — double-tap to toggle zoom (exactly centered on tap point), pinch, pan, swipe-down dismiss, backdrop tap dismiss
+- **Gestures**: tap or swipe-right on chapter header to collapse; swipe-right on summary page navigates home
+- **Image review** — two pages: `/review/{tlId}` for QA of current images, `/candidates/{tlId}` for approving/rejecting new candidates with editable captions
 
 ## Reader Features (planned)
 - Save-my-place (tap any sentence)
@@ -105,10 +109,10 @@ audits/                         — audit reports from the 5-persona pipeline
 Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
 **Mesopotamia chain** (pilot — complete):
-1. ✅ mesopotamia — 13 chapters, fully audited, 80 curated event links, 61 images, 13 chapter maps (verified)
+1. ✅ mesopotamia — 13 chapters, fully audited, 85 curated event links, **334 curated glossary links**, **84/89 images (95%)**, 13 chapter maps (verified)
 
-**India chain** (next):
-1. ✅ indus-valley — 10 chapters, audited, 65 curated event links, 29 images, 10 chapter maps
+**India chain** (in progress):
+1. ✅ indus-valley — 10 chapters, audited, 66 curated event links, Ch 1 glossary (28 terms), **48/56 images (86%)**, **chronological summary bullets for all 10 chapters**, 10 chapter maps
 2. vedic-period
 3. maurya-empire
 4. post-maurya-kingdoms
