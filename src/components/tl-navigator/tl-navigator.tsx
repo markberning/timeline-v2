@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
 import {
   NAVIGATOR_TLS,
   REGION_ORDER,
@@ -10,7 +10,7 @@ import {
   compressedYearToPixel,
   compressedTotalWidth,
 } from '@/lib/navigator-tls'
-import { NAVIGATOR_THEMES, DEFAULT_THEME_ID, getTheme } from '@/lib/navigator-themes'
+import { STONE_THEME } from '@/lib/navigator-themes'
 import { TlSwimlanes } from './tl-swimlanes'
 import { ZoneToggles } from './zone-toggles'
 
@@ -22,8 +22,6 @@ const MIN_PPY = 0.005
 const MAX_PPY = 8
 const ZOOM_STEP = 1.5
 
-const THEME_STORAGE_KEY = 'nav-theme'
-
 function sortTls(tls: NavigatorTl[]): NavigatorTl[] {
   return [...tls].sort((a, b) => a.startYear - b.startYear || a.endYear - b.endYear)
 }
@@ -34,26 +32,8 @@ export function TlNavigator() {
   const [enabledZones, setEnabledZones] = useState<Set<NavigatorRegion>>(
     () => new Set<NavigatorRegion>(REGION_ORDER),
   )
-  const [themeId, setThemeId] = useState<string>(DEFAULT_THEME_ID)
 
-  // Load persisted theme on mount
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem(THEME_STORAGE_KEY)
-      if (saved && NAVIGATOR_THEMES.some(t => t.id === saved)) setThemeId(saved)
-    } catch {}
-  }, [])
-
-  const theme = getTheme(themeId)
-
-  const cycleTheme = useCallback(() => {
-    setThemeId(prev => {
-      const i = NAVIGATOR_THEMES.findIndex(t => t.id === prev)
-      const next = NAVIGATOR_THEMES[(i + 1) % NAVIGATOR_THEMES.length].id
-      try { localStorage.setItem(THEME_STORAGE_KEY, next) } catch {}
-      return next
-    })
-  }, [])
+  const theme = STONE_THEME
 
   const toggleZone = useCallback((r: NavigatorRegion) => {
     setEnabledZones(prev => {
@@ -109,21 +89,6 @@ export function TlNavigator() {
     lineHeight: 1,
   }
 
-  const themeBtn: React.CSSProperties = {
-    height: 26,
-    padding: '0 10px',
-    borderRadius: 5,
-    border: theme.zoomBtn.border,
-    background: theme.zoomBtn.bg,
-    color: theme.zoomBtn.color,
-    fontSize: 11,
-    fontWeight: 700,
-    letterSpacing: '0.03em',
-    textTransform: 'uppercase',
-    cursor: 'pointer',
-    lineHeight: 1,
-  }
-
   return (
     <div
       style={{
@@ -151,7 +116,6 @@ export function TlNavigator() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Timeline Navigator</div>
           <div style={{ flex: 1 }} />
-          <button style={themeBtn} onClick={cycleTheme} title="Cycle theme">{theme.name}</button>
           <button style={zoomBtn} onClick={() => zoomBy(ZOOM_STEP)}>+</button>
           <button style={zoomBtn} onClick={() => zoomBy(1 / ZOOM_STEP)}>−</button>
           <button style={zoomBtn} onClick={fitAll}>fit</button>

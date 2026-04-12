@@ -94,25 +94,12 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
 
       {/* Rows */}
       <div>
-        {tls.map((tl, i) => {
+        {tls.map(tl => {
           const regionColor = theme.regionColors[tl.region]
           const barLeft = compressedYearToPixel(tl.startYear, pixelsPerYear)
           const barRight = compressedYearToPixel(tl.endYear, pixelsPerYear)
           const barWidth = Math.max(4, barRight - barLeft)
-          const bgStripe = i % 2 === 0 ? theme.rowStripe : 'transparent'
           const datesText = `${formatYearShort(tl.startYear)} – ${formatYearShort(tl.endYear)}`
-
-          // Bar fill differs by style
-          const isFilled = theme.bar.style === 'filled'
-          const barFill = isFilled ? regionColor : (theme.bar.fill ?? regionColor)
-          const isSplit = theme.rowLayout === 'split'
-          const barLaneHeight = Math.floor(rowHeight / 3)
-          const barTop = isSplit ? 0 : 4
-          const barHeight = isSplit ? barLaneHeight : rowHeight - 8
-          const labelTop = isSplit ? barLaneHeight : 0
-          const labelHeight = isSplit ? rowHeight - barLaneHeight : rowHeight
-          const labelLeft = isSplit ? barLeft + 2 : barLeft + 8
-          const labelFontSize = isSplit ? 13 : 13
 
           return (
             <div
@@ -120,146 +107,73 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
               style={{
                 position: 'relative',
                 height: rowHeight,
-                background: bgStripe,
-                borderBottom: `1px solid ${theme.rowBorder}`,
                 width: trackWidth,
               }}
             >
-              {/* Bar */}
-              {theme.bar.style === 'line' ? (
-                <div
-                  style={{
-                    position: 'absolute',
-                    left: barLeft,
-                    top: '50%',
-                    transform: 'translateY(-50%)',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'flex-start',
-                    gap: 2,
-                    pointerEvents: 'none',
-                  }}
-                >
-                  <div
-                    style={{
-                      height: theme.bar.accentWidth ?? 3,
-                      width: barWidth,
-                      background: regionColor,
-                      borderRadius: theme.bar.radius,
-                    }}
-                  />
-                  <div
-                    title={`${tl.label} · ${datesText}`}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: 6,
-                      fontSize: 13,
-                      fontWeight: 600,
-                      color: theme.label.color,
-                      textShadow: theme.label.shadow,
-                      whiteSpace: 'nowrap',
-                      paddingLeft: 1,
-                    }}
-                  >
-                    <span
-                      style={{
-                        width: 7,
-                        height: 7,
-                        borderRadius: '50%',
-                        background: regionColor,
-                        flexShrink: 0,
-                      }}
-                    />
-                    <span>{tl.label}</span>
-                    <span style={{ opacity: 0.35 }}>·</span>
-                    <span style={{ opacity: 0.5, fontWeight: 400, fontSize: 11 }}>{datesText}</span>
-                  </div>
-                  {tl.subtitle && (
-                    <div
-                      style={{
-                        fontSize: 11,
-                        fontStyle: 'italic',
-                        fontWeight: 400,
-                        color: theme.label.color,
-                        opacity: 0.55,
-                        whiteSpace: 'nowrap',
-                        paddingLeft: 14,
-                      }}
-                    >
-                      {tl.subtitle}
-                    </div>
-                  )}
-                </div>
-              ) : (
-                <div
-                  style={{
-                    position: 'absolute',
-                    left: barLeft,
-                    top: barTop,
-                    height: barHeight,
-                    width: barWidth,
-                    background: barFill,
-                    opacity: theme.bar.opacity,
-                    borderRadius: theme.bar.radius,
-                    border: theme.bar.border,
-                    boxShadow: theme.bar.shadow,
-                    boxSizing: 'border-box',
-                    overflow: 'hidden',
-                  }}
-                >
-                  {/* stripe-left accent */}
-                  {theme.bar.style === 'stripe-left' && (
-                    <div
-                      style={{
-                        position: 'absolute',
-                        left: 0,
-                        top: 0,
-                        bottom: 0,
-                        width: theme.bar.accentWidth ?? 4,
-                        background: regionColor,
-                      }}
-                    />
-                  )}
-                  {/* carved: thin colored top edge */}
-                  {theme.bar.style === 'carved' && (
-                    <div
-                      style={{
-                        position: 'absolute',
-                        left: 0,
-                        right: 0,
-                        top: 0,
-                        height: theme.bar.accentWidth ?? 3,
-                        background: regionColor,
-                        opacity: 0.85,
-                      }}
-                    />
-                  )}
-                </div>
-              )}
-              {/* Label (skipped for line style — rendered inline with the line) */}
-              {theme.bar.style !== 'line' && <div
-                title={`${tl.label} · ${datesText}`}
+              <div
                 style={{
                   position: 'absolute',
-                  left: labelLeft,
-                  top: labelTop,
-                  height: labelHeight,
+                  left: barLeft,
+                  top: '50%',
+                  transform: 'translateY(-50%)',
                   display: 'flex',
-                  alignItems: 'center',
-                  gap: 6,
-                  fontSize: labelFontSize,
-                  fontWeight: 600,
-                  color: isSplit ? theme.textPrimary : theme.label.color,
-                  textShadow: isSplit ? 'none' : theme.label.shadow,
-                  whiteSpace: 'nowrap',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  gap: 2,
                   pointerEvents: 'none',
                 }}
               >
-                <span>{tl.label}</span>
-                <span style={{ opacity: 0.6 }}>·</span>
-                <span>{datesText}</span>
-              </div>}
+                <div
+                  style={{
+                    height: theme.bar.accentWidth ?? 3,
+                    width: barWidth,
+                    background: regionColor,
+                    borderRadius: theme.bar.radius,
+                  }}
+                />
+                <div
+                  title={`${tl.label} · ${datesText}`}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 6,
+                    fontSize: 13,
+                    fontWeight: 600,
+                    color: theme.label.color,
+                    textShadow: theme.label.shadow,
+                    whiteSpace: 'nowrap',
+                    paddingLeft: 1,
+                  }}
+                >
+                  <span
+                    style={{
+                      width: 7,
+                      height: 7,
+                      borderRadius: '50%',
+                      background: regionColor,
+                      flexShrink: 0,
+                    }}
+                  />
+                  <span>{tl.label}</span>
+                  <span style={{ opacity: 0.35 }}>·</span>
+                  <span style={{ opacity: 0.5, fontWeight: 400, fontSize: 11 }}>{datesText}</span>
+                </div>
+                {tl.subtitle && (
+                  <div
+                    style={{
+                      fontSize: 11,
+                      fontStyle: 'italic',
+                      fontWeight: 400,
+                      color: theme.label.color,
+                      opacity: 0.55,
+                      whiteSpace: 'nowrap',
+                      paddingLeft: 14,
+                    }}
+                  >
+                    {tl.subtitle}
+                  </div>
+                )}
+              </div>
             </div>
           )
         })}
