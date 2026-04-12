@@ -175,6 +175,21 @@ export function TlSwimlanes({ tls, pixelsPerYear, rowHeight, axisHeight, theme }
                     <span style={{ opacity: 0.35 }}>·</span>
                     <span style={{ opacity: 0.5, fontWeight: 400, fontSize: 11 }}>{datesText}</span>
                   </div>
+                  {tl.subtitle && (
+                    <div
+                      style={{
+                        fontSize: 11,
+                        fontStyle: 'italic',
+                        fontWeight: 400,
+                        color: theme.label.color,
+                        opacity: 0.55,
+                        whiteSpace: 'nowrap',
+                        paddingLeft: 14,
+                      }}
+                    >
+                      {tl.subtitle}
+                    </div>
+                  )}
                 </div>
               ) : (
                 <div
