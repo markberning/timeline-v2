@@ -101,9 +101,9 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
   return (
     <section id={`chapter-${chapter.number}`} className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}>
-      {debug && open && (
-        <div className="fixed bottom-24 left-2 right-2 bg-black/80 text-white text-[9px] p-2 rounded z-[9999] font-mono pointer-events-none break-all">
-          {debug}
+      {open && (
+        <div className="fixed top-[100px] left-2 right-2 bg-red-600 text-white text-[10px] p-2 rounded z-[9999] font-mono pointer-events-none break-all">
+          CH{chapter.number} OPEN • {debug || '(no debug yet)'}
         </div>
       )}
       <div
