@@ -1,3 +1,5 @@
 node_modules/
 content/
 .next/
+.DS_Store
+tsconfig.tsbuildinfo
