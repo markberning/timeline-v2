@@ -41,9 +41,10 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
     const dx = t.clientX - touchStart.current.x
     const dy = t.clientY - touchStart.current.y
     touchStart.current = null
-    if (dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
-      collapse()
-    }
+    if (!open) return
+    const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
+    const swipeDown = dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5
+    if (swipeRight || swipeDown) collapse()
   }
 
   function toggle(e: React.MouseEvent) {
@@ -64,6 +65,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, initi
       <button
         ref={headerRef}
         onClick={toggle}
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
         className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms]"
         style={{ backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)' }}
       >
