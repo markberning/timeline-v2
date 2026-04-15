@@ -108,6 +108,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'indus-valley.md': 'indus-valley',
   'ancient-china.md': 'ancient-china',
   'ancient-nubia.md': 'ancient-nubia',
+  'elamite-civilization.md': 'elamite-civilization',
 }
 
 function slugify(title: string): string {
