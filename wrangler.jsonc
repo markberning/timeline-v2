@@ -1,0 +1,21 @@
+/**
+ * Cloudflare Workers + Static Assets config for Stuff Happened v2.
+ *
+ * The modern Cloudflare deploy path for static sites routes through
+ * Workers: `npm run build` produces `out/` (Next static export), then
+ * `npx wrangler deploy` uploads `out/` as a static asset bundle served
+ * by a no-op Worker at the edge.
+ *
+ * No `main` entry point — `assets` alone is enough for a pure static
+ * site. Adding a main module would let us run edge logic before the
+ * asset lookup, but we don't need any for this app.
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "timeline-v2",
+  "compatibility_date": "2024-12-30",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
