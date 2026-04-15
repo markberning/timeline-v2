@@ -38,7 +38,7 @@ export const REGION_COLORS: Record<NavigatorRegion, string> = {
 export const NAVIGATOR_TLS: NavigatorTl[] = [
   // ── NEAR EAST ──
   { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true, hasContent: true },
-  { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539 },
+  { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539, hasContent: true },
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609 },
   { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178 },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651 },

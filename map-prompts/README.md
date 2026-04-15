@@ -16,7 +16,4 @@ Do not rely on a top-of-file note to convey this — Gemini takes the chapter ti
 - [indus-valley.md](indus-valley.md) — 8 chapters (2, 4–10; Ch 1 and Ch 3 not drafted)
 - [ancient-nubia.md](ancient-nubia.md) — 8 chapters (1–8)
 - [ancient-china.md](ancient-china.md) — 8 chapters (1–8)
-
-## Pending TLs
-
-- `elamite-civilization` — prompts not yet drafted
+- [elamite-civilization.md](elamite-civilization.md) — 8 chapters (1–8)
