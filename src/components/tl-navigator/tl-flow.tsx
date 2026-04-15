@@ -527,7 +527,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
               flexDirection: 'column',
               justifyContent: 'center',
               alignItems: 'flex-start',
-              gap: 1,
+              gap: 0,
               willChange: 'transform, opacity',
               pointerEvents: 'none',
               opacity: 0,
@@ -549,6 +549,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 alignItems: 'center',
                 gap: 7,
                 fontSize: 15,
+                lineHeight: 1.15,
                 fontWeight: 600,
                 color: theme.label.color,
                 textShadow: theme.label.shadow,
@@ -574,6 +575,8 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 gap: 8,
                 paddingLeft: 16,
                 whiteSpace: 'nowrap',
+                lineHeight: 1.15,
+                marginTop: 2,
               }}
             >
               <span
@@ -629,6 +632,8 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
               <div
                 style={{
                   fontSize: 13,
+                  lineHeight: 1.15,
+                  marginTop: 2,
                   fontStyle: 'italic',
                   fontWeight: 400,
                   color: theme.label.color,
