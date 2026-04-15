@@ -45,6 +45,18 @@ export interface GlossaryEntry {
   thumbnailUrl?: string
 }
 
+export interface CrossLink {
+  id: string
+  matchText: string
+  sourceChapter: number
+  targetTl: string
+  targetChapter: number
+  targetLabel: string
+  targetChapterTitle: string
+  targetRegion: string
+  blurb: string
+}
+
 export interface TimelineNarrative {
   id: string
   label: string
@@ -53,6 +65,7 @@ export interface TimelineNarrative {
   events: TlEvent[]
   spans: TlSpan[]
   glossary?: GlossaryEntry[]
+  crossLinks?: CrossLink[]
   mapCommonsFile?: string
 }
 

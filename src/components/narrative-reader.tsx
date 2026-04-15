@@ -1,31 +1,59 @@
 'use client'
 
-import { useState, useCallback, useRef } from 'react'
+import { useState, useCallback, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import type { NarrativeChapter, TlEvent, GlossaryEntry } from '@/lib/types'
+import type { NarrativeChapter, TlEvent, GlossaryEntry, CrossLink } from '@/lib/types'
 import { ChapterAccordion } from './chapter-accordion'
 import { EventSheet } from './event-sheet'
 import { GlossarySheet } from './glossary-sheet'
+import { CrossLinkSheet } from './cross-link-sheet'
 
 interface NarrativeReaderProps {
   civilizationId: string
   chapters: NarrativeChapter[]
   events: TlEvent[]
   glossary: GlossaryEntry[]
+  crossLinks: CrossLink[]
 }
 
-export function NarrativeReader({ civilizationId, chapters, events, glossary }: NarrativeReaderProps) {
+export function NarrativeReader({ civilizationId, chapters, events, glossary, crossLinks }: NarrativeReaderProps) {
   const router = useRouter()
   const [activeEvent, setActiveEvent] = useState<TlEvent | null>(null)
   const [activeGlossary, setActiveGlossary] = useState<GlossaryEntry | null>(null)
+  const [activeCrossLink, setActiveCrossLink] = useState<CrossLink | null>(null)
   const [openChapter, setOpenChapter] = useState<number | null>(null)
   const swipeStart = useRef<{ x: number; y: number } | null>(null)
 
   const eventMap = new Map(events.map(e => [e.id, e]))
   const glossaryMap = new Map(glossary.map(g => [g.wikiSlug, g]))
+  const crossLinkMap = new Map(crossLinks.map(cl => [cl.id, cl]))
+
+  // Auto-expand a chapter when arriving via ?chapter=N (from a cross-link jump).
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const params = new URLSearchParams(window.location.search)
+    const ch = params.get('chapter')
+    if (ch) {
+      const n = parseInt(ch, 10)
+      if (!isNaN(n) && chapters.some(c => c.number === n)) {
+        setOpenChapter(n)
+      }
+    }
+  }, [chapters])
 
   const handleClick = useCallback((e: React.MouseEvent) => {
     const target = e.target as HTMLElement
+    const crossLinkEl = target.closest('.cross-link') as HTMLElement | null
+    if (crossLinkEl) {
+      e.preventDefault()
+      e.stopPropagation()
+      const id = crossLinkEl.dataset.crossId
+      if (id) {
+        const cl = crossLinkMap.get(id)
+        if (cl) setActiveCrossLink(cl)
+      }
+      return
+    }
     const eventLink = target.closest('.event-link') as HTMLElement | null
     if (eventLink) {
       e.preventDefault()
@@ -47,7 +75,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary }: 
         if (entry) setActiveGlossary(entry)
       }
     }
-  }, [eventMap, glossaryMap])
+  }, [eventMap, glossaryMap, crossLinkMap])
 
   function onTouchStart(e: React.TouchEvent) {
     if (openChapter !== null) return
@@ -98,6 +126,10 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary }: 
         entry={activeGlossary}
         onClose={() => setActiveGlossary(null)}
         onInnerLinkClick={handleClick}
+      />
+      <CrossLinkSheet
+        crossLink={activeCrossLink}
+        onClose={() => setActiveCrossLink(null)}
       />
     </>
   )

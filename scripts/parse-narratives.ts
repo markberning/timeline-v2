@@ -11,6 +11,7 @@ import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
 import { enrichEvents, enrichGlossary } from './enrich-events'
+import { NAVIGATOR_TLS } from '../src/lib/navigator-tls'
 
 interface ParsedChapter {
   number: number
@@ -34,6 +35,31 @@ interface GlossaryEntry {
   type: string
   wikiExtract?: string
   thumbnailUrl?: string
+}
+
+interface CrossLinkCurated {
+  matchText: string
+  targetTl: string
+  targetChapter: number
+  blurb: string
+}
+
+interface CrossLinkOut {
+  id: string
+  matchText: string
+  sourceChapter: number
+  targetTl: string
+  targetChapter: number
+  targetLabel: string
+  targetChapterTitle: string
+  targetRegion: string
+  blurb: string
+}
+
+interface TlMeta {
+  label: string
+  region: string
+  chapters: Map<number, string>
 }
 
 interface ChapterSummary {
@@ -186,7 +212,7 @@ function loadReferenceData(tlId: string): { events: TlEvent[]; spans: TlSpan[]; 
   }
 }
 
-async function parseNarrative(filename: string, tlId: string) {
+async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<string, TlMeta>) {
   console.log(`Parsing ${filename} → ${tlId}...`)
 
   const markdown = readFileSync(join(NARRATIVES_DIR, filename), 'utf-8')
@@ -222,6 +248,15 @@ async function parseNarrative(filename: string, tlId: string) {
     console.log(`  Curated glossary links: ${totalGlossary} across ${Object.keys(glossaryLinks).length} chapters`)
   }
 
+  // Load curated cross-cultural links
+  const crossLinksPath = join(ROOT, 'content', `.cross-links-${tlId}.json`)
+  let curatedCrossLinks: Record<string, CrossLinkCurated[]> = {}
+  if (existsSync(crossLinksPath)) {
+    curatedCrossLinks = JSON.parse(readFileSync(crossLinksPath, 'utf-8'))
+    const totalCross = Object.values(curatedCrossLinks).reduce((s, arr) => s + arr.length, 0)
+    console.log(`  Curated cross-links: ${totalCross} across ${Object.keys(curatedCrossLinks).length} chapters`)
+  }
+
   // Collect unique glossary slugs and enrich them
   const allGlossaryLinks = Object.values(glossaryLinks).flat()
   const glossarySlugs = [...new Set(allGlossaryLinks.map(l => l.wikiSlug))]
@@ -247,6 +282,7 @@ async function parseNarrative(filename: string, tlId: string) {
   const categoryMap = new Map(refData.events.map(e => [e.id, e.category]))
 
   const chapters: ParsedChapter[] = []
+  const crossLinksOut: CrossLinkOut[] = []
 
   // Replace the first whole-word match of `matchText` in `text`, skipping any
   // positions inside existing <a>...</a> spans so we never nest anchors.
@@ -269,6 +305,43 @@ async function parseNarrative(filename: string, tlId: string) {
   for (const ch of rawChapters) {
     // Inject curated event links into raw markdown
     let linkedBody = ch.body
+
+    // Inject cross-cultural links first so they win over events/glossary on overlapping matches
+    const chapterCross = curatedCrossLinks[String(ch.number)] ?? []
+    const crossSorted = [...chapterCross].sort((a, b) => b.matchText.length - a.matchText.length)
+    let crossIdx = 0
+    for (const cl of crossSorted) {
+      const targetMeta = tlMetaMap.get(cl.targetTl)
+      if (!targetMeta) {
+        console.warn(`  ⚠ cross-link ch${ch.number} → unknown targetTl: ${cl.targetTl} (skipping)`)
+        continue
+      }
+      const targetChapterTitle = targetMeta.chapters.get(cl.targetChapter)
+      if (!targetChapterTitle) {
+        console.warn(`  ⚠ cross-link ch${ch.number} → ${cl.targetTl} ch${cl.targetChapter} not found (skipping)`)
+        continue
+      }
+      const id = `cl-${ch.number}-${crossIdx++}`
+      const replacement = `<a class="cross-link" data-cross-id="${id}" data-target-region="${targetMeta.region}">${cl.matchText}</a>`
+      const res = replaceOutsideAnchors(linkedBody, cl.matchText, replacement)
+      linkedBody = res.result
+      if (res.replaced) {
+        crossLinksOut.push({
+          id,
+          matchText: cl.matchText,
+          sourceChapter: ch.number,
+          targetTl: cl.targetTl,
+          targetChapter: cl.targetChapter,
+          targetLabel: targetMeta.label,
+          targetChapterTitle,
+          targetRegion: targetMeta.region,
+          blurb: cl.blurb,
+        })
+      } else {
+        console.warn(`  ⚠ cross-link ch${ch.number}: matchText "${cl.matchText}" not found in body`)
+      }
+    }
+
     const chapterLinks = curatedLinks[String(ch.number)] ?? []
     // Sort by length descending so longer matches are replaced first
     const sorted = [...chapterLinks].sort((a, b) => b.matchText.length - a.matchText.length)
@@ -307,6 +380,16 @@ async function parseNarrative(filename: string, tlId: string) {
       summaryBullets = []
       for (const bullet of summaryEntry.bullets) {
         let text = bullet
+        // Inject cross-links first so they win on overlapping matches
+        for (const cl of crossSorted) {
+          const targetMeta = tlMetaMap.get(cl.targetTl)
+          if (!targetMeta?.chapters.has(cl.targetChapter)) continue
+          const existing = crossLinksOut.find(x => x.matchText === cl.matchText && x.sourceChapter === ch.number && x.targetTl === cl.targetTl && x.targetChapter === cl.targetChapter)
+          if (!existing) continue
+          const replacement = `<a class="cross-link" data-cross-id="${existing.id}" data-target-region="${targetMeta.region}">${cl.matchText}</a>`
+          const res = replaceOutsideAnchors(text, cl.matchText, replacement)
+          text = res.result
+        }
         // Inject event links into bullet
         for (const link of sorted) {
           if (!categoryMap.has(link.eventId)) continue
@@ -377,6 +460,7 @@ async function parseNarrative(filename: string, tlId: string) {
     }),
     spans: refData.spans,
     glossary: Object.values(glossaryEntries),
+    crossLinks: crossLinksOut,
   }
 
   const outPath = join(CONTENT_DIR, `${tlId}.json`)
@@ -387,10 +471,27 @@ async function parseNarrative(filename: string, tlId: string) {
 async function main() {
   mkdirSync(CONTENT_DIR, { recursive: true })
 
+  // Pass 1: collect chapter titles + labels + region for every TL so cross-links
+  // can resolve targets without a second full parse.
+  const tlMetaMap = new Map<string, TlMeta>()
+  for (const [filename, tlId] of Object.entries(NARRATIVE_FILES)) {
+    const path = join(NARRATIVES_DIR, filename)
+    if (!existsSync(path)) continue
+    const md = readFileSync(path, 'utf-8')
+    const rawChapters = splitIntoChapters(md)
+    const refData = loadReferenceData(tlId)
+    const navTl = NAVIGATOR_TLS.find(t => t.id === tlId)
+    tlMetaMap.set(tlId, {
+      label: refData.label,
+      region: navTl?.region ?? 'asia',
+      chapters: new Map(rawChapters.map(c => [c.number, c.title])),
+    })
+  }
+
   for (const [filename, tlId] of Object.entries(NARRATIVE_FILES)) {
     const path = join(NARRATIVES_DIR, filename)
     if (existsSync(path)) {
-      await parseNarrative(filename, tlId)
+      await parseNarrative(filename, tlId, tlMetaMap)
     } else {
       console.warn(`Skipping ${filename}: file not found`)
     }
