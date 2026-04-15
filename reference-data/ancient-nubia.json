@@ -253,7 +253,7 @@
       "id": "evt-kerma-royal-burials",
       "label": "Kerma Royal Burials",
       "year": -2025,
-      "description": "Kerma kings were buried in enormous tumuli with hundreds of sacrificed retainers, cattle, and luxury goods — evidence of extraordinary royal power and complex social hierarchy.",
+      "description": "Kerma kings were buried in enormous circular tumuli, the largest nearly the size of a football field, with corridors of sacrificed retainers radiating out from the central burial chamber. The Harvard archaeologist George Reisner's 1920s excavations documented retainer counts of three to four hundred in the largest tumuli — an order of magnitude greater than the Sumerian royal tombs at Ur, and the most extreme form of Bronze Age royal retainer sacrifice known.",
       "wikiSlug": "Kerma_culture",
       "tier": 2,
       "tags": [],
@@ -387,11 +387,21 @@
       "id": "evt-kerma-hyksos-alliance",
       "label": "Kerma-Hyksos Alliance",
       "year": -1650,
-      "description": "During Egypt's Second Intermediate Period, Kerma allied with the Hyksos rulers of northern Egypt against the Theban pharaohs, squeezing Egypt from both north and south.",
+      "description": "During Egypt's Second Intermediate Period, the Hyksos ruler Apophis of Avaris and the ruler of Kush at Kerma coordinated pressure on the Theban pharaohs caught between them, squeezing Egypt from both north and south. The alliance is known primarily from the Second Kamose Stele, which quotes an intercepted Hyksos letter.",
       "wikiSlug": "Hyksos",
       "tier": 2,
       "tags": [],
       "category": "wars"
+    },
+    {
+      "id": "evt-second-kamose-stele",
+      "label": "Second Kamose Stele",
+      "year": -1555,
+      "description": "The Theban pharaoh Kamose erected a victory stele at Karnak (the great temple complex north of Thebes) documenting his wars against the Hyksos. Its most famous passage describes the interception of a courier carrying a letter from the Hyksos king Apophis to the ruler of Kush, proposing a joint attack on Thebes and a division of Egypt between them. Kamose had the letter's text carved into the stele as his smoking-gun justification for war — the single best surviving source for the Kerma-Hyksos alliance.",
+      "wikiSlug": "Kamose",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
     },
     {
       "id": "evt-kerma-fine-ware",
@@ -417,7 +427,7 @@
       "id": "evt-thutmose-i-conquest",
       "label": "Egyptian Conquest of Nubia",
       "year": -1504,
-      "description": "Thutmose I campaigned past the Fourth Cataract and destroyed the Kerma kingdom, bringing all of Nubia under Egyptian control for the first time.",
+      "description": "Thutmose I launched a massive river-and-land campaign past the Second, Third, and Fourth Cataracts — more than 600 miles (1,000 km) upstream from the Egyptian border — sacking the city of Kerma, damaging (but not toppling) the Western Deffufa, and ending the Kerma kingdom as an independent power. The New Kingdom's logistical infrastructure, including reconstructed Middle Kingdom slipways, made it possible to move Egyptian river forces through the cataracts that had bottled up earlier pharaohs.",
       "wikiSlug": "Thutmose_I",
       "tier": 1,
       "tags": [
@@ -426,10 +436,20 @@
       "category": "wars"
     },
     {
+      "id": "evt-tombos-stele",
+      "label": "Tombos Stele of Thutmose I",
+      "year": -1502,
+      "description": "On his way back downriver from the destruction of Kerma, Thutmose I erected a victory stele at Tombos (near the Third Cataract, well inside Nubia) that commemorated the campaign and described, in the formal register of Egyptian royal inscriptions, the fate of one Nubian captive: his body hung 'head-downward at the prow of the falcon-ship of his majesty.' Sailing downstream with a corpse dangling from the bow of the royal boat was a public warning to every riverside village the boat passed — and the stele is the source of one of the most striking details in Egyptian campaign propaganda.",
+      "wikiSlug": "Tombos_(Nubia)",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
       "id": "evt-fall-of-kerma",
       "label": "Fall of the Kerma Kingdom",
       "year": -1500,
-      "description": "Thutmose I's campaigns and subsequent Egyptian occupation ended the Kerma kingdom after a thousand years. The city was destroyed but Nubian cultural traditions survived under Egyptian rule.",
+      "description": "Thutmose I's campaigns and subsequent Egyptian occupation ended the Kerma kingdom after a thousand years. The city was destroyed, the royal cemetery shut down, and the administrative structures broken, but Nubian cultural traditions survived under Egyptian rule. The ruler of Kush at the time of the fall is unknown: Kerma left no writing of its own, and the Egyptian victory sources do not record his name.",
       "wikiSlug": "Kerma_culture",
       "tier": 1,
       "tags": [],
@@ -481,11 +501,21 @@
       "id": "evt-nubian-gold-mines",
       "label": "Nubian Gold Mines",
       "year": -1400,
-      "description": "Nubia's gold mines were the primary source of Egypt's wealth during the New Kingdom. The Turin Papyrus Map, history's oldest geological map, depicts gold mining operations in Nubia.",
+      "description": "Nubia's gold mines — mostly in the Wadi Allaqi east of the Nile in Lower Nubia, supplemented by the gold-bearing rock formations around the Fourth Cataract — were the primary source of Egypt's wealth during the New Kingdom. Quartz veins were broken up and crushed by hand in brutal desert conditions, often by prisoners of war and debt-bondaged Nubians. The Greek historian Diodorus Siculus, writing a thousand years later, left the most vivid surviving account of the mining labor. The Turin Papyrus Map (c. 1150 BCE) is the oldest surviving geological map in human history and shows how the New Kingdom state visualized its mining operations.",
       "wikiSlug": "Nubia",
       "tier": 2,
       "tags": [],
       "category": "trade"
+    },
+    {
+      "id": "evt-amarna-gold-pipeline",
+      "label": "Amarna Letters and Nubian Gold",
+      "year": -1350,
+      "description": "The Amarna Letters — more than 300 diplomatic tablets discovered at the short-lived capital of Akhenaten at Tell el-Amarna — are the best surviving window into Late Bronze Age international relations. Written in Akkadian cuneiform (the era's diplomatic language), they contain repeated requests from the Kassite kings of Babylon, the Mitanni kings, the Hittites, and the Middle Assyrians for gold from the pharaoh, with formulaic complaints that 'in your country gold is as common as dust.' The gold everybody was asking for was Nubian gold, filtered through the Viceroy of Kush's office, making the Amarna Letters the other end of Nubia's gold pipeline.",
+      "wikiSlug": "Amarna_letters",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
     },
     {
       "id": "evt-nubian-religion-amun",
