@@ -56,7 +56,7 @@ src/
     types.ts                    — NarrativeChapter, TlEvent, TimelineNarrative, etc.
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
-    navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for mesopotamia + indus-valley)
+    navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for mesopotamia, indus-valley, ancient-china)
     navigator-themes.ts         — Stone theme constants (warm dark bg, region palette, row height)
 scripts/
   parse-narratives.ts           — markdown → JSON build pipeline
@@ -97,7 +97,7 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Gap-aware horizontal spacing** — each row's natural x is `(rowCenterY/vh) * maxIndent + (cumGap[i] - anchorCum) * H_GAP_SCALE`, where `cumGap[i]` is cumulative `sqrt(startYear - prev.startYear)` and `anchorCum` is interpolated at the fractional topmost visible row. Chronological clusters of similar-era TLs pack tight; big historical jumps produce a visibly wider horizontal step. `MAX_INDENT_FRAC = 0.3`, `H_GAP_SCALE = 0.38`.
 - **Entry zone** — rows whose center y is in the bottom third of the viewport ease out from `entryX = 0.85*vw` toward their natural x. New TLs visibly glide in from the lower right as they scroll up, locking into the diagonal as they cross into the top two-thirds.
 - **Subtitles** — every NavigatorTl has a short descriptive+evocative tagline (place anchor + flavor hook) rendered beneath the civ name in small italic.
-- **hasContent dimming** — rows with `hasContent: true` (mesopotamia, indus-valley) render at full opacity; others at 0.35 so they read as "not written yet".
+- **hasContent dimming** — rows with `hasContent: true` (mesopotamia, indus-valley, ancient-china) render at full opacity; others at 0.35 so they read as "not written yet".
 - **Tap to navigate** — short tap on a row with `hasContent` uses `window.location.href` (NOT `router.push`) to force a full browser load. Client-side React transitions leave iOS Safari's scroll engine in a stuck state and the first few touches on the narrative page get swallowed; a hard navigation discards the whole page and starts fresh.
 - **Zone toggles** — single tap toggles a zone on/off; double-tap solos it (enables only that zone); double-tap again restores all five.
 - **Chain icon + chain pull** — every TL that belongs to at least one chain (from `reference-data/tl-chains.ts`) shows a small chain-link SVG at the right edge of its row (positioned via a separate ref'd element, `translate3d(0, y, 0)`). Tapping in the right `ICON_TAP_WIDTH = 48px` zone of the row starts a chain-pull animation: phase 1 (400ms, ease-out) slides every visible chain sibling's x toward the tapped row's x (y unchanged, so vertical alignment is preserved and the chain reads as a column), phase 2 holds for 200ms, phase 3 (600ms, ease-in) releases back to natural. `PULL_STRENGTH = 0.8`. Siblings off-screen are still pulled but invisible; that's a known limitation (not yet addressed). `chainMembers` useMemo builds `Map<rowIdx, Set<rowIdx>>` from the union of chains in the current filtered tls list.
@@ -127,10 +127,10 @@ audits/                         — audit reports from the 5-persona pipeline
 ## Civilization Roadmap
 Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
-**Mesopotamia chain** (pilot — complete):
+**Mesopotamian Succession chain** (pilot — complete):
 1. ✅ mesopotamia — 13 chapters, fully audited, 85 curated event links, **334 curated glossary links**, **84/89 images (95%)**, 13 chapter maps (verified)
 
-**India chain** (in progress):
+**Indian Subcontinent chain** (in progress):
 1. ✅ indus-valley — 10 chapters, audited, 66 curated event links, Ch 1 glossary (28 terms), **48/56 images (86%)**, **chronological summary bullets for all 10 chapters**, 10 chapter maps
 2. vedic-period
 3. maurya-empire
@@ -141,14 +141,27 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 8. mughal-empire
 9. modern-india
 
-**Egypt chain** (after India):
+**Chinese Dynasties chain** (in progress):
+1. ✅ ancient-china — 8 chapters (~20k words), full 5-persona audit (Ch 3 and Ch 6 GOOD→STRONG after pass 1, all 8 STRONG), 37 curated event links (every event placed), chronological summary bullets for all 8 chapters, chapter maps pending. Backward cross-cultural pass applied to Mesopotamia and Indus Valley.
+2. shang-dynasty
+3. zhou-dynasty
+4. qin-dynasty
+5. han-dynasty
+6. six-dynasties
+7. tang-song-china
+8. yuan-dynasty
+9. ming-dynasty
+10. qing-dynasty
+11. chinese-revolution
+12. rise-of-china
+
+**Egypt chain** (after India/China):
 - ancient-egypt series (TBD split)
 
 ## Color System
-- **Region colors**: 1-2 colors per region, not per TL (too many AA-compliant shades needed)
-- **Accent colors**: defined in `src/lib/accent-colors.ts` with base/text/badge variants
-- **Category colors**: 8 event categories in `src/lib/categories.ts` with light/dark mode variants
-- **All contrast ratios documented** in accent-colors.ts comments
+- **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).
+- **All 18 chain entries contrast-verified**: text on white ≥4.5:1, white on badge ≥3:1 (AA-lg), base on dark `#0a0a0a` ≥4.5:1. Check via the Python script in the accent-colors comment history when adding a new shade.
+- **Category colors**: 8 event categories in `src/lib/categories.ts` with light/dark mode variants.
 
 ## Session Conventions
 At the end of every task or set of changes, always provide a **Changes made this pass** section — a brief numbered list of what was completed with one sentence per item.

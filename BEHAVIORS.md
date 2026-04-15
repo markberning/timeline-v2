@@ -7,11 +7,18 @@ Source of truth for how the reader app should behave. Update this when we change
   - a bulleted chronological list of what happens in the chapter with inline event/glossary links + a "Read chapter →" button (when the summary entry has a `bullets` array), OR
   - the legacy 2–4 sentence paragraph summary + category-colored event chips (fallback when no bullets).
 - Tap header → expand that chapter. Other chapters become `display: none` (not just hidden visually).
-- Expand scrolls the section to the top of the viewport (under the 40px sticky controls bar). Uses `section.offsetTop - 40` not the sticky header's rect.
-- Chapter map (Gemini-generated) sits above the prose with `aspect-ratio: 1408/768` reserved so layout is stable before the image loads.
+- Expand scrolls the section so its header sits flush under the page's sticky top nav. The accordion measures the nav height once on mount via `document.querySelector('[data-top-nav]').getBoundingClientRect().height` and uses the measured value for both the sticky chapter-header `top` and the chapter-open scroll target. Previous hardcoded `-40` was short of the actual ~48px nav and left the chapter header landing 8px below the nav.
+- Chapter maps are **probed on mount** with `new Image()` before the slot renders. `mapExists` starts as `null` (unknown) and only becomes `true` on successful load; civilizations without maps (Ancient China currently) never reserve the `aspect-ratio: 1408/768` placeholder, which previously caused a layout collapse mid-scroll that threw off the chapter-open scroll target.
 - Tap sticky header while expanded → collapse. Swipe right anywhere in the body → collapse. × close button at the bottom also collapses.
 - On collapse: `window.scrollTo` the just-closed header to the top, then pulse it with a 1.5s accent-colored background flash.
 - Only one chapter open at a time. Scroll never spills past the end of the open chapter.
+
+## Accent colors (chain-driven)
+- Every TL narrative page gets an accent color from its first chain in `reference-data/tl-chains.ts`. Every TL in the same chain shares the color; every chain in the same region is a distinct shade of that region's family (Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate).
+- Lookup: `getAccentColors(tlId)` in `src/lib/accent-colors.ts` calls `getChainsForTimeline(tlId)`, takes the first chain, and reads from the `CHAIN_COLORS` map. Falls back to `TL_OVERRIDES` (empty by default) then to neutral `DEFAULT_COLORS`.
+- All 18 chain entries are contrast-verified: `text` on white ≥ AA 4.5:1, white on `badge` ≥ AA-lg 3:1, `base` on dark `#0a0a0a` ≥ AA 4.5:1. The comment in `accent-colors.ts` lists the target thresholds; when adding a new shade, rerun the contrast check before committing.
+- The colors feed three CSS variables on the narrative page: `--accent` (decorative: nav underline, buttons, progress), `--accent-text` (readable text on white), `--accent-badge` (background for white chapter-number pills).
+- The navigator (`TlNavigator` + `TlFlow`) does NOT use these accent colors — it uses the `STONE_THEME.regionColors` map (one color per region) because zone filtering is the primary visual grouping there.
 
 ## Event link chips
 - One pill per event referenced in that chapter, colored by category.
@@ -68,7 +75,7 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
 - Each row is a single absolutely-positioned element with `translate3d(x, y, 0)` + `opacity` written per frame. The row renders as 3 stacked lines: (1) region hairline + name, (2) date range + optional chain chip, (3) italic subtitle. `rowHeight = 72`.
 
 ### Data
-- 71 TLs in `NAVIGATOR_TLS` (`src/lib/navigator-tls.ts`): id, label, subtitle, region, startYear, endYear, optional `isReal` and `hasContent` flags. Only `mesopotamia` and `indus-valley` have `hasContent: true`; everything else renders at opacity 0.35.
+- 71 TLs in `NAVIGATOR_TLS` (`src/lib/navigator-tls.ts`): id, label, subtitle, region, startYear, endYear, optional `isReal` and `hasContent` flags. Only `mesopotamia`, `indus-valley`, and `ancient-china` have `hasContent: true`; everything else renders at opacity 0.35.
 - Every TL has a hand-written `subtitle` (short descriptive+evocative tagline, place anchor + flavor hook — e.g. `Iraq's first cities and cuneiform`).
 
 ### Zones
