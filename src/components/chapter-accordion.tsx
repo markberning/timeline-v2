@@ -46,8 +46,11 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   function collapse() {
     onCollapse()
     setJustCollapsed(true)
+    // Scroll the section (which has scrollMarginTop: navHeight) so the
+    // chapter header lands just below the sticky top nav rather than
+    // flush to y=0 behind it.
     requestAnimationFrame(() => {
-      headerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     })
     setTimeout(() => setJustCollapsed(false), 1500)
   }
@@ -56,22 +59,23 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     onExpand()
   }
 
-  // After sibling chapters are hidden and the body is mounted, scroll section to top.
+  // On expand: scroll to the top of the document. Because siblings are
+  // hidden (display:none) when one chapter is open, the opened chapter is
+  // always the first visible chapter in the flow and sits right below the
+  // page h1 + "N chapters" subtitle. scrollY=0 shows the sticky nav, the
+  // h1, the subtitle, and the opened chapter header stacked naturally —
+  // same answer whether this was a user tap or a cross-link auto-expand.
   useEffect(() => {
     if (!open) return
-    function scrollToSection() {
-      const el = sectionRef.current
-      if (!el) return
-      const rect = el.getBoundingClientRect()
-      const targetY = Math.max(0, rect.top + window.scrollY - navHeight)
-      window.scrollTo({ top: targetY, behavior: 'auto' })
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'auto' })
     }
     requestAnimationFrame(() => {
-      requestAnimationFrame(scrollToSection)
+      requestAnimationFrame(scrollToTop)
     })
-    const t1 = setTimeout(scrollToSection, 300)
+    const t1 = setTimeout(scrollToTop, 300)
     return () => clearTimeout(t1)
-  }, [open, navHeight])
+  }, [open])
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
 
