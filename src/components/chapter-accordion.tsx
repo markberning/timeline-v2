@@ -34,7 +34,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     if (nav) setNavHeight(Math.ceil(nav.getBoundingClientRect().height))
   }, [])
 
-  const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
+  const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.webp`
 
   useEffect(() => {
     let cancelled = false
