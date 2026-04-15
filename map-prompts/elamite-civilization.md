@@ -1,6 +1,27 @@
 # Elam — Map Prompts
 
-See [README.md](README.md) for house style. All 8 chapter maps are pending Gemini generation — save output to `public/maps/elamite-civilization/chapter-{N}.png`, then run the non-destructive WebP optimizer (keep PNG originals).
+See [README.md](README.md) for house style. Save output to `public/maps/elamite-civilization/chapter-{N}.png`, then run the non-destructive WebP optimizer (keep PNG originals).
+
+---
+
+## GLOBAL RULES FOR ALL ELAM PROMPTS — read before drawing any map in this file
+
+**CRITICAL RULES:**
+
+1. **Draw each label exactly once.** Do not repeat any city name, region name, river name, or annotation anywhere on the map. If you see an opportunity to put the same label in two places, choose only one.
+2. **Spell every label exactly as written in the prompt.** Do not invent words. Do not abbreviate. Do not generate any word that is not in the prompt text.
+3. **Include the exact site name on every label.** The site name is the word or phrase before the first parenthesis or em-dash. Never drop a site name.
+4. **North is at the top of the map. East is to the right.** Place every location according to its real-world geography in this orientation.
+5. **All water is light blue.** Seas, bays, lakes, and rivers are rendered in light blue. Deserts are pale yellow. Land is beige/tan. River floodplains are soft green.
+6. **Do not invent any labels, annotations, sites, or features that are not in this prompt.**
+
+**ELAM ORIENTATION RULES:**
+
+1. Elam has TWO halves. **Susa** is in the lowland plain of Khuzestan, east of the Tigris River, in roughly modern southwest Iran. **Anshan** (modern Tall-i Malyan) is in the highlands of Fars, roughly 160 miles EAST of Susa, across the Zagros Mountains. Never draw Susa and Anshan as the same point.
+2. The Zagros Mountains run NORTHWEST-to-SOUTHEAST as a long parallel ridge system separating Mesopotamia (to the west) from the Iranian plateau (to the east).
+3. The Karun and Karkheh rivers flow from the Zagros west and south into the Persian Gulf — they do NOT join the Tigris or Euphrates.
+4. The Tigris River is the WESTERN boundary between Mesopotamia and Elam. Susa sits east of the Tigris. Babylon, Ur, and the other Sumerian cities sit west of the Tigris.
+5. Chogha Zanbil / Dur-Untash is 25 miles SOUTHEAST of Susa, on the Khuzestan plain, NOT in the Zagros highlands.
 
 ---
 
