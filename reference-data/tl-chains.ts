@@ -19,6 +19,22 @@ export interface TlChain {
 
 export const TL_CHAINS: TlChain[] = [
   // ── AFRICA ──
+  // nubian-tradition is listed before nile-valley so that kingdom-of-kush
+  // (which belongs to both) gets its primary chip as "Nubia 2/3" — making
+  // the Nubian chain read cleanly as 1/3, 2/3, 3/3 when scanning down the
+  // Africa region. The first-match rule in rowChainInfo picks whichever
+  // chain appears first in this array.
+  {
+    id: 'nubian-tradition',
+    label: 'Nubian Tradition',
+    shortLabel: 'Nubia',
+    origins: 'The middle Nile valley south of Egypt supported settled communities from at least 5000 BCE. The Kerma culture, centered near the Third Cataract, became one of Africa\'s earliest urban civilizations.',
+    entries: [
+      { timelineId: 'ancient-nubia', transition: 'Nubian kingdoms maintained their identity even under Egyptian domination, and when Egypt weakened, Kush emerged as a major power in its own right.' },
+      { timelineId: 'kingdom-of-kush', transition: 'As Kush declined in the 4th century CE, the Kingdom of Aksum — fueled by Red Sea trade and early Christianity — became the dominant power in northeast Africa.' },
+      { timelineId: 'kingdom-of-aksum' },
+    ],
+  },
   {
     id: 'nile-valley',
     label: 'Nile Valley',
@@ -30,17 +46,6 @@ export const TL_CHAINS: TlChain[] = [
       { timelineId: 'new-kingdom-egypt', transition: 'The New Kingdom collapsed into fragmentation as Libyan warlords, Nubian pharaohs, and Persian conquerors fought over the Nile. Alexander the Great\'s conquest launched a final Hellenistic chapter under the Ptolemies.' },
       { timelineId: 'late-egypt', transition: 'As Egyptian power waned, the Kingdom of Kush to the south — long a vassal and trading partner — rose to fill the vacuum, eventually conquering Egypt itself as the 25th Dynasty.' },
       { timelineId: 'kingdom-of-kush' },
-    ],
-  },
-  {
-    id: 'nubian-tradition',
-    label: 'Nubian Tradition',
-    shortLabel: 'Nubia',
-    origins: 'The middle Nile valley south of Egypt supported settled communities from at least 5000 BCE. The Kerma culture, centered near the Third Cataract, became one of Africa\'s earliest urban civilizations.',
-    entries: [
-      { timelineId: 'ancient-nubia', transition: 'Nubian kingdoms maintained their identity even under Egyptian domination, and when Egypt weakened, Kush emerged as a major power in its own right.' },
-      { timelineId: 'kingdom-of-kush', transition: 'As Kush declined in the 4th century CE, the Kingdom of Aksum — fueled by Red Sea trade and early Christianity — became the dominant power in northeast Africa.' },
-      { timelineId: 'kingdom-of-aksum' },
     ],
   },
   {
@@ -203,6 +208,21 @@ export const TL_CHAINS: TlChain[] = [
   },
 
   // ── MIDDLE EAST ──
+  // persian-tradition is listed before mesopotamian-succession so that
+  // persian-empire (in both chains) gets its primary chip as "Persia 2/3",
+  // matching elamite-civilization's "Persia 1/3" and safavid-persia's
+  // "Persia 3/3" visually. First-match rule in rowChainInfo.
+  {
+    id: 'persian-tradition',
+    label: 'Persian Tradition',
+    shortLabel: 'Persia',
+    origins: 'The Iranian plateau has been home to complex societies since at least 3200 BCE. The earliest known civilization in the region, Elam, developed independently of Mesopotamia with its own writing system and cultural traditions.',
+    entries: [
+      { timelineId: 'elamite-civilization', transition: 'Elam was eventually absorbed into the Achaemenid Persian Empire founded by Cyrus the Great, who built the largest empire the world had yet seen.' },
+      { timelineId: 'persian-empire', transition: 'After Alexander\'s conquest and centuries of Parthian and Sassanid rule, the Safavid dynasty reunified Persia in 1501 and established Shia Islam as the state religion.' },
+      { timelineId: 'safavid-persia' },
+    ],
+  },
   {
     id: 'mesopotamian-succession',
     label: 'Mesopotamian Succession',
@@ -223,17 +243,6 @@ export const TL_CHAINS: TlChain[] = [
     entries: [
       { timelineId: 'hittite-empire', transition: 'The Hittite Empire collapsed in the Bronze Age catastrophe around 1200 BCE. Anatolia passed through Phrygian, Lydian, Persian, Greek, Roman, and Byzantine hands before the Ottoman Turks conquered Constantinople in 1453.' },
       { timelineId: 'ottoman-empire' },
-    ],
-  },
-  {
-    id: 'persian-tradition',
-    label: 'Persian Tradition',
-    shortLabel: 'Persia',
-    origins: 'The Iranian plateau has been home to complex societies since at least 3200 BCE. The earliest known civilization in the region, Elam, developed independently of Mesopotamia with its own writing system and cultural traditions.',
-    entries: [
-      { timelineId: 'elamite-civilization', transition: 'Elam was eventually absorbed into the Achaemenid Persian Empire founded by Cyrus the Great, who built the largest empire the world had yet seen.' },
-      { timelineId: 'persian-empire', transition: 'After Alexander\'s conquest and centuries of Parthian and Sassanid rule, the Safavid dynasty reunified Persia in 1501 and established Shia Islam as the state religion.' },
-      { timelineId: 'safavid-persia' },
     ],
   },
 
