@@ -16,6 +16,7 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 - **Dev**: `npm run dev` → localhost:3000
 
 ## Content Pipeline
+0. **Pull v1 reference data** — before starting a new TL, check `~/projects/personal/timeline/src/data/{tlId}.json`. v1 has curated pitch/spans/events for most of the 71 navigator TLs in the same format as v2. Copy it to `reference-data/{tlId}.json` and write the narrative against it. Only build reference data from scratch if v1 genuinely has nothing.
 1. **Write narrative** using all writing rules in `rewrite-fixes.md`
 2. **Audit** using the 5-persona system in `.claude/skills/audit-narrative.md`
 3. **Fix** audit findings
