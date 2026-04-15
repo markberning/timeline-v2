@@ -10,11 +10,13 @@ interface ChapterAccordionProps {
   chapterEvents: TlEvent[]
   open: boolean
   hidden: boolean
+  nextChapterNumber: number | null
   onExpand: () => void
   onCollapse: () => void
+  onReadNext: () => void
 }
 
-export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, onExpand, onCollapse }: ChapterAccordionProps) {
+export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, onExpand, onCollapse, onReadNext }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   // null = probing; true = map exists; false = 404. Only render the map
   // slot when true, so civs without maps never reserve empty space that
@@ -231,12 +233,24 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
             dangerouslySetInnerHTML={{ __html: chapter.contentHtml }}
           />
 
-          <button
-            onClick={collapse}
-            className="mt-6 w-full py-3 text-sm text-foreground/50 hover:text-foreground/80 transition-colors border-t border-foreground/10"
-          >
-            Close Chapter {chapter.number}
-          </button>
+          <div className="mt-6 pt-4 border-t border-foreground/10 flex items-center gap-3">
+            <button
+              onClick={collapse}
+              aria-label={`Close Chapter ${chapter.number}`}
+              className="shrink-0 w-11 h-11 flex items-center justify-center rounded-lg text-foreground/50 hover:text-foreground/80 hover:bg-foreground/5 transition-colors text-2xl"
+            >
+              ×
+            </button>
+            {nextChapterNumber !== null && (
+              <button
+                onClick={onReadNext}
+                className="flex-1 py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
+                style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+              >
+                Read Chapter {nextChapterNumber} →
+              </button>
+            )}
+          </div>
         </div>
       )}
 

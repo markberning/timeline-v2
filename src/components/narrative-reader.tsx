@@ -103,18 +103,23 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
-        {chapters.map(ch => (
-          <ChapterAccordion
-            key={ch.slug}
-            chapter={ch}
-            civilizationId={civilizationId}
-            chapterEvents={ch.eventIds.map(id => eventMap.get(id)).filter((e): e is TlEvent => !!e)}
-            open={openChapter === ch.number}
-            hidden={openChapter !== null && openChapter !== ch.number}
-            onExpand={() => setOpenChapter(ch.number)}
-            onCollapse={() => setOpenChapter(null)}
-          />
-        ))}
+        {chapters.map((ch, i) => {
+          const next = chapters[i + 1]
+          return (
+            <ChapterAccordion
+              key={ch.slug}
+              chapter={ch}
+              civilizationId={civilizationId}
+              chapterEvents={ch.eventIds.map(id => eventMap.get(id)).filter((e): e is TlEvent => !!e)}
+              open={openChapter === ch.number}
+              hidden={openChapter !== null && openChapter !== ch.number}
+              nextChapterNumber={next ? next.number : null}
+              onExpand={() => setOpenChapter(ch.number)}
+              onCollapse={() => setOpenChapter(null)}
+              onReadNext={() => next && setOpenChapter(next.number)}
+            />
+          )
+        })}
       </div>
 
       <EventSheet
