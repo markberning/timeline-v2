@@ -136,7 +136,7 @@ export function TlNavigator() {
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Timeline Navigator</div>
+          <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Stuff Happened — A Timeline App</div>
         </div>
         {activeChain ? (
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
