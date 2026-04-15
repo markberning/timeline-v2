@@ -233,7 +233,9 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         if (idx >= 0 && idx < tls.length) {
           const tapped = tls[idx]
           if (tapped.hasContent) {
-            router.push(`/${tapped.id}`)
+            // Defer the route change so the touchend event fully
+            // resolves in iOS Safari before the navigator unmounts.
+            setTimeout(() => router.push(`/${tapped.id}`), 0)
             return
           }
         }

@@ -57,28 +57,38 @@ export function TlNavigator() {
     body.style.overscrollBehavior = 'none'
     body.style.touchAction = 'none'
     return () => {
-      // Restore in a careful order: drop position:fixed last and force
-      // a reflow so iOS Safari re-engages its scroll engine immediately
-      // on the next page. Otherwise the first few touches on the
-      // navigated-to page get swallowed.
-      body.style.touchAction = prev.bodyTouchAction
-      body.style.overscrollBehavior = prev.bodyOverscroll
-      body.style.overflow = prev.bodyOverflow
-      body.style.height = prev.bodyHeight
-      body.style.width = prev.bodyWidth
-      body.style.top = prev.bodyTop
-      body.style.left = prev.bodyLeft
-      body.style.right = prev.bodyRight
-      body.style.position = prev.bodyPosition
-      html.style.overflow = prev.htmlOverflow
-      html.style.height = prev.htmlHeight
+      // Restore in a careful order: drop position:fixed LAST and use
+      // explicit reset values (not the captured possibly-empty strings)
+      // so iOS Safari definitely re-engages its scroll engine on the
+      // navigated-to page. Empty-string cleanup falls back to CSS
+      // inheritance, which Safari sometimes doesn't pick up until
+      // several touches have fired.
+      body.style.touchAction = 'pan-y'
+      body.style.overscrollBehavior = 'auto'
+      body.style.overflow = 'visible'
+      body.style.height = ''
+      body.style.width = ''
+      body.style.top = ''
+      body.style.left = ''
+      body.style.right = ''
+      body.style.position = 'static'
+      html.style.overflow = 'visible'
+      html.style.height = ''
       // Force synchronous layout flush so Safari sees the new body
       // state before the next paint.
       void body.offsetHeight
-      // Kick the scroll engine. When body was position:fixed, window
-      // scroll was pinned at 0; a no-op scrollTo makes Safari re-enter
-      // normal scroll-handling mode.
+      // Kick the scroll engine. scrollTo(0, 1) then (0, 0) is the
+      // classic iOS trick to force Safari out of whatever cached
+      // "body isn't scrollable" state it was holding.
+      window.scrollTo(0, 1)
       window.scrollTo(0, 0)
+      // Finally, drop our overrides back to inherited/empty so the
+      // page's own CSS owns the values going forward.
+      body.style.touchAction = prev.bodyTouchAction
+      body.style.overscrollBehavior = prev.bodyOverscroll
+      body.style.overflow = prev.bodyOverflow
+      body.style.position = prev.bodyPosition
+      html.style.overflow = prev.htmlOverflow
     }
   }, [])
 
