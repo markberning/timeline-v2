@@ -40,7 +40,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true, hasContent: true },
   { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539 },
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609 },
-  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1700, endYear: -1178 },
+  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178 },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651 },
   { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258 },
   { id: 'ottoman-empire', label: 'Ottoman Empire', subtitle: "Turkey's six-century juggernaut", region: 'near-east', startYear: 1299, endYear: 1922 },
@@ -58,24 +58,24 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'songhai-empire', label: 'Songhai Empire', subtitle: "Timbuktu's last great ruler", region: 'africa', startYear: 1464, endYear: 1591 },
 
   // ── ASIA (South) ──
-  { id: 'indus-valley', label: 'Indus Valley', subtitle: "Pakistan's brick cities and lost script", region: 'asia', startYear: -7000, endYear: -1300, isReal: true, hasContent: true },
+  { id: 'indus-valley', label: 'Indus Valley', subtitle: "Pakistan's brick cities and lost script", region: 'asia', startYear: -3300, endYear: -1300, isReal: true, hasContent: true },
   { id: 'vedic-period', label: 'Vedic Period', subtitle: "northern India's sacred hymns", region: 'asia', startYear: -1500, endYear: -322, isReal: true },
-  { id: 'maurya-empire', label: 'Maurya Empire', subtitle: "India's first unifier, Buddhism's patron", region: 'asia', startYear: -345, endYear: -185, isReal: true },
+  { id: 'maurya-empire', label: 'Maurya Empire', subtitle: "India's first unifier, Buddhism's patron", region: 'asia', startYear: -322, endYear: -185, isReal: true },
   { id: 'post-maurya-kingdoms', label: 'Post-Maurya Kingdoms', subtitle: "India's centuries of fragmentation", region: 'asia', startYear: -185, endYear: 320 },
-  { id: 'gupta-empire', label: 'Gupta Empire', subtitle: "India's classical golden age", region: 'asia', startYear: 300, endYear: 550, isReal: true },
+  { id: 'gupta-empire', label: 'Gupta Empire', subtitle: "India's classical golden age", region: 'asia', startYear: 320, endYear: 550, isReal: true },
   { id: 'medieval-india', label: 'Medieval India', subtitle: 'temple kingdoms and Hindu revival', region: 'asia', startYear: 550, endYear: 1206 },
   { id: 'delhi-sultanate', label: 'Delhi Sultanate', subtitle: 'Islam takes northern India', region: 'asia', startYear: 1206, endYear: 1526 },
   { id: 'mughal-empire', label: 'Mughal Empire', subtitle: 'Persianate India and the Taj Mahal', region: 'asia', startYear: 1526, endYear: 1857 },
   { id: 'modern-india', label: 'Modern India', subtitle: 'Raj to republic', region: 'asia', startYear: 1857, endYear: 2024, isReal: true },
 
   // ── ASIA (East) ──
-  { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -7000, endYear: -1600, hasContent: true },
+  { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -5000, endYear: -1600, hasContent: true },
   { id: 'shang-dynasty', label: 'Shang Dynasty', subtitle: "China's first oracle bones", region: 'asia', startYear: -1600, endYear: -1046 },
   { id: 'zhou-dynasty', label: 'Zhou Dynasty', subtitle: 'Confucius and the Warring States', region: 'asia', startYear: -1046, endYear: -256 },
   { id: 'qin-dynasty', label: 'Qin Dynasty', subtitle: 'China unified by terror and law', region: 'asia', startYear: -221, endYear: -206 },
   { id: 'han-dynasty', label: 'Han Dynasty', subtitle: "China's silk-road golden age", region: 'asia', startYear: -206, endYear: 220 },
   { id: 'six-dynasties', label: 'Six Dynasties', subtitle: 'China divided north and south', region: 'asia', startYear: 220, endYear: 589 },
-  { id: 'tang-song-china', label: 'Tang & Song China', subtitle: "China's cosmopolitan peak", region: 'asia', startYear: 618, endYear: 1279 },
+  { id: 'tang-song-china', label: 'Sui, Tang & Song China', subtitle: "from Grand Canal to cosmopolitan peak", region: 'asia', startYear: 581, endYear: 1279 },
   { id: 'yuan-dynasty', label: 'Yuan Dynasty', subtitle: 'Mongol-ruled China', region: 'asia', startYear: 1271, endYear: 1368 },
   { id: 'ming-dynasty', label: 'Ming Dynasty', subtitle: 'Forbidden City and the treasure fleet', region: 'asia', startYear: 1368, endYear: 1644 },
   { id: 'qing-dynasty', label: 'Qing Dynasty', subtitle: "China's last Manchu empire", region: 'asia', startYear: 1644, endYear: 1912 },
@@ -86,7 +86,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'ancient-japan', label: 'Ancient Japan', subtitle: 'Yayoi rice farmers to Heian courtiers', region: 'asia', startYear: -300, endYear: 1185 },
   { id: 'edo-japan', label: 'Edo Japan', subtitle: 'isolation under the shoguns', region: 'asia', startYear: 1603, endYear: 1868 },
   { id: 'meiji-japan', label: 'Meiji Japan', subtitle: 'Japan races to industrialize', region: 'asia', startYear: 1868, endYear: 1912 },
-  { id: 'japanese-economic-miracle', label: 'Japanese Economic Miracle', subtitle: "postwar Japan's boom", region: 'asia', startYear: 1945, endYear: 2024 },
+  { id: 'japanese-economic-miracle', label: 'Japanese Economic Miracle', subtitle: "postwar Japan's boom", region: 'asia', startYear: 1945, endYear: 1991 },
   { id: 'ancient-korea', label: 'Ancient Korea', subtitle: 'mythic Korea to Silla unification', region: 'asia', startYear: -2333, endYear: 935 },
   { id: 'joseon-korea', label: 'Joseon Korea', subtitle: "Confucian Korea's long dynasty", region: 'asia', startYear: 1392, endYear: 1910 },
   { id: 'korean-modern', label: 'Modern Korea', subtitle: 'colonization, war, and split', region: 'asia', startYear: 1910, endYear: 2024 },
@@ -99,7 +99,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'ancient-greece', label: 'Ancient Greece', subtitle: 'philosophy, drama, democracy', region: 'europe', startYear: -800, endYear: -146 },
   { id: 'ancient-rome', label: 'Ancient Rome', subtitle: "the Mediterranean's grand experiment", region: 'europe', startYear: -753, endYear: 476 },
   { id: 'byzantine-empire', label: 'Byzantine Empire', subtitle: 'the Roman empire that lasted', region: 'europe', startYear: 330, endYear: 1453 },
-  { id: 'medieval-europe', label: 'Medieval Europe', subtitle: 'cathedrals, knights, and plague', region: 'europe', startYear: 476, endYear: 1400 },
+  { id: 'medieval-europe', label: 'Medieval Europe', subtitle: 'cathedrals, knights, and plague', region: 'europe', startYear: 476, endYear: 1500 },
   { id: 'renaissance-italy', label: 'Renaissance Italy', subtitle: 'the city-state art revival', region: 'europe', startYear: 1300, endYear: 1600 },
   { id: 'scientific-revolution', label: 'Scientific Revolution', subtitle: 'Galileo to Newton', region: 'europe', startYear: 1543, endYear: 1687 },
   { id: 'enlightenment', label: 'Enlightenment', subtitle: 'reason takes the throne', region: 'europe', startYear: 1685, endYear: 1815 },
@@ -109,11 +109,8 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── AMERICAS ──
   { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3000, endYear: -200 },
-  // Olmec is listed before Maya despite Maya's earlier archaeological startYear
-  // because the Mesoamerican chain runs Olmec → Maya → Aztec (Olmec as the
-  // "mother culture"). Keeping chain order here so the chip reads 1/3, 2/3, 3/3.
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400 },
-  { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -2000, endYear: 1697 },
+  { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697 },
   { id: 'andean-kingdoms', label: 'Andean Kingdoms', subtitle: "Peru's regional cultures (Moche, Nazca)", region: 'americas', startYear: -200, endYear: 500 },
   { id: 'middle-horizon-empires', label: 'Tiwanaku & Wari', subtitle: 'highland Andean empires before the Inca', region: 'americas', startYear: 500, endYear: 1000 },
   { id: 'aztec-empire', label: 'Aztec Empire', subtitle: "Mexico's lake-city war state", region: 'americas', startYear: 1345, endYear: 1521 },
@@ -121,7 +118,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'early-american-republic', label: 'Early US Republic', subtitle: 'the new nation finds its feet', region: 'americas', startYear: 1776, endYear: 1828 },
   { id: 'antebellum-america', label: 'Antebellum America', subtitle: 'expansion and the slavery crisis', region: 'americas', startYear: 1828, endYear: 1865 },
   { id: 'reconstruction', label: 'Reconstruction', subtitle: 'the South after the Civil War', region: 'americas', startYear: 1865, endYear: 1877 },
-  { id: 'roaring-twenties', label: 'Roaring Twenties', subtitle: 'jazz, autos, and the boom', region: 'americas', startYear: 1900, endYear: 1929 },
+  { id: 'roaring-twenties', label: 'Roaring Twenties', subtitle: 'jazz, autos, and the boom', region: 'americas', startYear: 1918, endYear: 1929 },
   { id: 'civil-rights-era', label: 'Civil Rights Era', subtitle: 'the Black freedom struggle', region: 'americas', startYear: 1954, endYear: 1968 },
 ]
 
