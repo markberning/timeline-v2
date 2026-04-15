@@ -135,8 +135,26 @@ export function TlNavigator() {
           gap: 8,
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
           <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Stuff Happened — A Timeline App</div>
+          <a
+            href="https://v1.stuffhappened.com"
+            style={{
+              fontSize: 12,
+              fontWeight: 600,
+              letterSpacing: '0.04em',
+              padding: '4px 10px',
+              borderRadius: 999,
+              border: `1px solid ${theme.headerBorder}`,
+              background: 'rgba(255,255,255,0.06)',
+              color: theme.textPrimary,
+              opacity: 0.75,
+              textDecoration: 'none',
+              pointerEvents: 'auto',
+            }}
+          >
+            v1 ↗
+          </a>
         </div>
         {activeChain ? (
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>

@@ -1,5 +1,7 @@
 node_modules/
 content/
 .next/
+out/
+.dev-stash/
 .DS_Store
 tsconfig.tsbuildinfo
