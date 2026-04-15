@@ -70,6 +70,11 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
   const soloDirRef = useRef<0 | 1>(0)
   const soloAnimStartRef = useRef<number | null>(null)
   const soloAnimRafRef = useRef(0)
+  // Kick-handle assigned by the main layout effect. The prop-change
+  // useEffect calls this to start the animation, since useEffect runs
+  // AFTER useLayoutEffect on the same render — the layout effect alone
+  // can't see freshly-updated refs.
+  const kickSoloAnimRef = useRef<() => void>(() => {})
 
   useLayoutEffect(() => {
     const el = containerRef.current
@@ -155,19 +160,23 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
     barRefs.current.length = tls.length
   }, [tls.length])
 
-  // React to soloChainId prop changes: kick off enter or exit animation.
-  // The rAF loop itself lives in the main useLayoutEffect below.
+  // React to soloChainId prop changes: configure the animation refs and
+  // kick the rAF loop directly via kickSoloAnimRef. The layout effect is
+  // what assigns kickSoloAnimRef.current, so by the time this useEffect
+  // runs it already points at the current render's startSoloAnim closure.
   useEffect(() => {
-    if (soloChainId) {
+    if (soloChainId && soloChainId !== activeChainId) {
       setActiveChainId(soloChainId)
       soloScrollRef.current = 0
       soloDirRef.current = 1
       soloAnimStartRef.current = performance.now() - soloProgressRef.current * SOLO_ANIM_MS
-    } else if (activeChainId) {
+      kickSoloAnimRef.current()
+    } else if (!soloChainId && activeChainId) {
       // Begin exit — keep activeChainId set until animation completes so
       // the chain's solo layout stays valid through the tween.
       soloDirRef.current = 0
       soloAnimStartRef.current = performance.now() - (1 - soloProgressRef.current) * SOLO_ANIM_MS
+      kickSoloAnimRef.current()
     }
   }, [soloChainId, activeChainId])
 
@@ -306,8 +315,13 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
       soloAnimRafRef.current = requestAnimationFrame(step)
     }
 
-    // If the prop-change effect already queued an animation direction,
-    // kick it off on this layout pass.
+    // Expose startSoloAnim to the prop-change useEffect, which runs AFTER
+    // this layout effect and needs to kick the animation directly.
+    kickSoloAnimRef.current = startSoloAnim
+
+    // If an animation was in flight before this layout effect re-ran (e.g.
+    // the old one was cancelled by cleanup during a viewport resize),
+    // resume it. Otherwise just draw the current frame.
     if (soloAnimStartRef.current !== null && soloAnimRafRef.current === 0) {
       const wantsEnter = soloDirRef.current === 1
       const atTarget = wantsEnter ? soloProgressRef.current >= 1 : soloProgressRef.current <= 0
