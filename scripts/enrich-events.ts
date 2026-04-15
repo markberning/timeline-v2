@@ -116,7 +116,16 @@ async function fetchThumbnails(
   }
 }
 
-/** Batch-fetch Wikipedia extracts + page images. Up to 50 slugs per request. */
+/** Batch-fetch Wikipedia extracts + page images. 20 slugs per request.
+ *
+ * The MediaWiki `prop=extracts` module defaults `exlimit=1` and caps at
+ * `exlimit=20`. Without `exlimit=20` explicit, sending a batch of 50 titles
+ * returned only the first ~17 extracts and silently dropped the rest (the
+ * response carried an `excontinue: 20` token we weren't following). Those
+ * dropped slugs got cached as null and glossary sheets opened for them
+ * rendered just the title + "Read more on Wikipedia →" with no extract.
+ * Batch size 20 + explicit `exlimit=20` guarantees every slug in a request
+ * gets an extract pass (if Wikipedia has one for it). */
 async function fetchWikiData(
   slugs: string[],
   cache: EnrichmentCache,
@@ -132,11 +141,24 @@ async function fetchWikiData(
   }
   console.log(`  Wiki data: ${slugs.length - uncached.length} cached, ${uncached.length} to fetch`)
 
-  for (let i = 0; i < uncached.length; i += 50) {
-    const batch = uncached.slice(i, i + 50)
-    const titles = batch.join('|')
-    // Combine extracts + pageimages in one request
-    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(titles)}&prop=extracts|pageimages&exintro=1&explaintext=1&exsentences=3&pithumbsize=400&format=json`
+  // Build a decode helper that tolerates malformed %-sequences (curators
+  // sometimes hand-write slugs with bad escapes).
+  function safeDecode(slug: string): string {
+    try { return decodeURIComponent(slug) } catch { return slug }
+  }
+
+  for (let i = 0; i < uncached.length; i += 20) {
+    const batch = uncached.slice(i, i + 20)
+    // Decode any URL-encoded slugs before sending to the API. Wikipedia
+    // expects literal apostrophes, em-dashes, etc. — our curated glossary
+    // files sometimes include pre-encoded forms like `Potter%27s_wheel`
+    // which encodeURIComponent below would double-encode to `Potter%2527s_wheel`
+    // and Wikipedia would never match.
+    const decodedBatch = batch.map(safeDecode)
+    const titles = decodedBatch.join('|')
+    // Combine extracts + pageimages in one request. redirects=1 so slugs
+    // like `Lachish` follow to their canonical article (`Tel Lachish`).
+    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(titles)}&prop=extracts|pageimages&exintro=1&explaintext=1&exsentences=3&exlimit=20&pithumbsize=400&redirects=1&format=json`
 
     const data = await fetchJson(url) as {
       query: {
@@ -146,18 +168,30 @@ async function fetchWikiData(
           thumbnail?: { source: string }
         }>
         normalized?: Array<{ from: string; to: string }>
+        redirects?: Array<{ from: string; to: string }>
       }
     }
 
     const normalizedMap = new Map<string, string>()
+    // Seed with every form the API might return: raw slug, decoded slug,
+    // underscore-to-space variants of each.
     for (const s of batch) {
+      const dec = safeDecode(s)
       normalizedMap.set(s, s)
+      normalizedMap.set(dec, s)
       normalizedMap.set(s.replace(/_/g, ' '), s)
+      normalizedMap.set(dec.replace(/_/g, ' '), s)
     }
     if (data.query.normalized) {
       for (const n of data.query.normalized) {
         const origSlug = normalizedMap.get(n.from)
         if (origSlug) normalizedMap.set(n.to, origSlug)
+      }
+    }
+    if (data.query.redirects) {
+      for (const r of data.query.redirects) {
+        const origSlug = normalizedMap.get(r.from)
+        if (origSlug) normalizedMap.set(r.to, origSlug)
       }
     }
 
