@@ -84,7 +84,11 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   }
 
   function onHeaderPointerUp(e: React.PointerEvent) {
-    if ((e.target as HTMLElement).closest('.event-link')) return
+    // If the tap landed on an inline link inside a summary bullet, let
+    // the click delegation in narrative-reader handle it — don't toggle
+    // the chapter. Covers event, glossary, and cross-cultural links.
+    const t = e.target as HTMLElement
+    if (t.closest('.event-link') || t.closest('.glossary-link') || t.closest('.cross-link')) return
     const start = pointerStart.current
     pointerStart.current = null
     const dx = start ? e.clientX - start.x : 0
