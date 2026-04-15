@@ -186,7 +186,7 @@ A dotted line along the Nile between Aswan and Semna, with 8–10 small fort ico
 
 Create a simple, clean map for Chapter 5 of a mobile reading app about Ancient Nubia. The chapter is called "Classic Kerma" and covers the peak phase of the Kerma kingdom (~1750–1600 BCE) — the city of Kerma with its population over 10,000, the Western Deffufa temple, the Eastern Deffufa and royal cemetery, the export of tulip-beaker fine ware as far as Thebes, and Kerma's diplomatic reach up and down the Nile.
 
-The chapter title "Chapter 5: Classic Kerma" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 5: Classic Kerma" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
@@ -227,7 +227,7 @@ A shaded circle around the Kerma region labeled "Kerma Kingdom at peak, ~1750–
 
 Create a simple, clean map for Chapter 6 of a mobile reading app about Ancient Nubia. The chapter is called "The Squeeze and the Fall" and covers the Second Intermediate Period Kerma–Hyksos alliance (~1650–1550 BCE), the interception of the Hyksos king Apophis's letter to the ruler of Kush, and Thutmose I's New Kingdom campaign past the Fourth Cataract that destroyed the Kerma kingdom around 1504 BCE.
 
-The chapter title "Chapter 6: The Squeeze and the Fall" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 6: The Squeeze and the Fall" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
@@ -272,7 +272,7 @@ The chapter title "Chapter 6: The Squeeze and the Fall" should appear at the top
 
 Create a simple, clean map for Chapter 7 of a mobile reading app about Ancient Nubia. The chapter is called "Province of Gold" and covers the four centuries of New Kingdom Egyptian administration of Nubia (~1500–1150 BCE) — the Viceroy of Kush governing from Aniba/Miam, the industrial-scale gold mining at Wadi Allaqi, the temple complexes at Jebel Barkal, Amada, Soleb, and Ramesses II's Abu Simbel.
 
-The chapter title "Chapter 7: Province of Gold" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 7: Province of Gold" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
@@ -322,7 +322,7 @@ A large shaded band covering the Nile valley from the First Cataract south to Je
 
 Create a simple, clean map for Chapter 8 of a mobile reading app about Ancient Nubia. The chapter is called "The Cultural Bridge" and covers the Egyptianization of the Nubian elite under New Kingdom administration (~1400–1070 BCE), the bicultural nobility (Hekanefer of Miam, Huy as Viceroy), the Late Bronze Age collapse, Egyptian withdrawal from Nubia under the last Viceroy Panehsy around 1070 BCE, and the forward pointer to the Kushite kingdom that would rise at Napata.
 
-The chapter title "Chapter 8: The Cultural Bridge" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 8: The Cultural Bridge" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 

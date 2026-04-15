@@ -22,7 +22,7 @@ Paste this block at the top of every prompt, before the chapter-title directive,
 
 ---
 
-The chapter title "Chapter N: <Title>" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter N: <Title>" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 ```
 
 **Swap in the chapter number and title on the last line.** Do not paraphrase the rules block — use the exact wording above, because Gemini tends to follow literal directives more reliably than paraphrased ones.

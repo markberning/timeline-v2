@@ -40,7 +40,7 @@ Chapters in this file:
 
 Create a simple, clean map for Chapter 1 of a mobile reading app about the Elamite Civilization. The chapter is called "Two Elams" and sets the geographic stage for everything that follows — the two-region structure of Elam, with a hot lowland half at Susa on the Khuzestan plain and a highland half at Anshan up in the mountain basins of Fars, bound together across the Zagros for almost three thousand years.
 
-The chapter title "Chapter 1: Two Elams" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 1: Two Elams" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and ELAM ORIENTATION RULES above.**
 
@@ -82,7 +82,7 @@ A double-headed arrow connecting Susa and Anshan across the Zagros ridges, label
 
 Create a simple, clean map for Chapter 3 of a mobile reading app about the Elamite Civilization. The chapter is called "Ur Falls" and covers the 2004 BCE Elamite sack of Ur that ended the Third Dynasty of Ur and the Sumerian political world, the rise of the Shimashki dynasty, the adoption of cuneiform for the Elamite language, and the crystallization of the Elamite pantheon.
 
-The chapter title "Chapter 3: Ur Falls" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 3: Ur Falls" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and ELAM ORIENTATION RULES above.**
 
@@ -127,7 +127,7 @@ The chapter title "Chapter 3: Ur Falls" should appear at the top of the map, cen
 
 Create a simple, clean map for Chapter 7 of a mobile reading app about the Elamite Civilization. The chapter is called "Til-Tuba" and covers the Neo-Assyrian destruction of Elam between 653 and 645 BCE — the Battle of Til-Tuba where Te-Umman was killed, the alliance with Shamash-shum-ukin's rebellion, and Ashurbanipal's 646 BCE Sack of Susa.
 
-The chapter title "Chapter 7: Til-Tuba" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 7: Til-Tuba" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and ELAM ORIENTATION RULES above.**
 
@@ -169,7 +169,7 @@ The chapter title "Chapter 7: Til-Tuba" should appear at the top of the map, cen
 
 Create a simple, clean map for Chapter 8 of a mobile reading app about the Elamite Civilization. The chapter is called "The Persian Echo" and covers the Persian adoption of Elamite bureaucratic tradition — Cyrus the Great's Anshan royal title, the 30,000-tablet Persepolis Fortification Archive in Elamite cuneiform, the trilingual Behistun inscription with its Elamite version carved first, and the Persian Empire as the bureaucratic continuation of Elam.
 
-The chapter title "Chapter 8: The Persian Echo" should appear at the top of the map, centered, in a clean serif font, above the map frame — not inside the map area itself. Match the title treatment of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+The chapter title "Chapter 8: The Persian Echo" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
 **Apply the GLOBAL RULES and ELAM ORIENTATION RULES above.**
 
