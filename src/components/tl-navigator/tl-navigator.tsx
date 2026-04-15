@@ -57,17 +57,28 @@ export function TlNavigator() {
     body.style.overscrollBehavior = 'none'
     body.style.touchAction = 'none'
     return () => {
-      html.style.overflow = prev.htmlOverflow
-      html.style.height = prev.htmlHeight
+      // Restore in a careful order: drop position:fixed last and force
+      // a reflow so iOS Safari re-engages its scroll engine immediately
+      // on the next page. Otherwise the first few touches on the
+      // navigated-to page get swallowed.
+      body.style.touchAction = prev.bodyTouchAction
+      body.style.overscrollBehavior = prev.bodyOverscroll
       body.style.overflow = prev.bodyOverflow
       body.style.height = prev.bodyHeight
       body.style.width = prev.bodyWidth
-      body.style.position = prev.bodyPosition
       body.style.top = prev.bodyTop
       body.style.left = prev.bodyLeft
       body.style.right = prev.bodyRight
-      body.style.overscrollBehavior = prev.bodyOverscroll
-      body.style.touchAction = prev.bodyTouchAction
+      body.style.position = prev.bodyPosition
+      html.style.overflow = prev.htmlOverflow
+      html.style.height = prev.htmlHeight
+      // Force synchronous layout flush so Safari sees the new body
+      // state before the next paint.
+      void body.offsetHeight
+      // Kick the scroll engine. When body was position:fixed, window
+      // scroll was pinned at 0; a no-op scrollTo makes Safari re-enter
+      // normal scroll-handling mode.
+      window.scrollTo(0, 0)
     }
   }, [])
 
