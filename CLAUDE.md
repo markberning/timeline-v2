@@ -29,7 +29,7 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 9. **Write summary bullets** — `narratives/{tlId}.summaries.json` as a JSON list of `{chapter, title, dateRange, bullets: [...]}`, 6–10 bullets per chapter. Dense single-sentence factual outlines, not polished prose. See `narratives/ancient-china.summaries.json` for style reference. Bullets auto-get event/glossary/cross-link injection by the parse script.
 10. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts (cached). **Restart the dev server after parse** — `lib/data.ts` caches narratives in-memory.
 11. **Backward cross-cultural pass** — apply the Persona E backward findings by adding Elam/Nubia/etc. cross-link entries to the completed reference TL cross-link files, pointing at chapters in the new TL.
-12. **Generate chapter maps** — use Gemini with prompts from `map-prompts/{tlId}.md` (see `map-prompts/README.md` for house style), save to `public/maps/{tlId}/chapter-{N}.png`. Then run the non-destructive optimize script to produce `.webp` copies at quality 85 alongside the PNGs. The reader loads `.webp` via the image probe in `chapter-accordion.tsx`.
+12. **Generate chapter maps** — use Gemini with prompts from `map-prompts/{tlId}.md`. **Every prompt must open with the CRITICAL RULES block from `map-prompts/README.md`** (draw each label exactly once, spell exactly as written, don't invent words, edge-to-edge map with top header bar only) plus the TL's orientation preamble if applicable. Set Gemini to **thinking mode** for the extra rule-following budget — fast mode hallucinates. Save output to `public/maps/{tlId}/chapter-{N}.png`, then run the non-destructive optimize script for `.webp` at quality 85. **Audit every generated map** against its prompt — duplicate labels and garbled invented words are the most common failure modes. Maps with factual errors go to `map-prompts/redo/{tlId}.md` with per-chapter SPECIFIC REMINDERS blocks naming the exact failure. The reader loads `.webp` via the image probe in `chapter-accordion.tsx`.
 13. **Review images** — `/review/{tlId}` page for approving/rejecting event images (dev mode only)
 14. **Ship toggle** — flip `hasContent: true` on the TL's entry in `src/lib/navigator-tls.ts` to make the row tappable on the home navigator.
 
@@ -160,7 +160,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 9. modern-india
 
 **Chinese Dynasties chain** (in progress):
-1. ✅ ancient-china — 8 chapters (~20k words), full 5-persona audit (all 8 STRONG), 37 event links, **208 glossary links**, **52+ summary bullets**, **17 cross-links**, label "Ancient China", chapter maps pending. Backward cross-cultural pass applied to Mesopotamia and Indus Valley.
+1. ✅ ancient-china — 8 chapters (~20k words), full 5-persona audit (all 8 STRONG), 37 event links, **208 glossary links**, **52+ summary bullets**, **17 cross-links**, label "Ancient China", **8 WebP chapter maps** (Ch 4/7/8 regenerated under strict-rules redo pass). Backward cross-cultural pass applied to Mesopotamia and Indus Valley.
 2. shang-dynasty
 3. zhou-dynasty
 4. qin-dynasty
@@ -174,12 +174,12 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 12. rise-of-china
 
 **Nubian Tradition chain** (in progress):
-1. ✅ ancient-nubia — 8 chapters (~24k words), full 5-persona audit with must/should fixes applied, **54 reference events**, **52 event links**, **190 glossary links**, **18 forward cross-links + 11 backward into Meso/Indus/China**, parse-enriched (45 thumbs / 51 extracts / 44 captions), **8 WebP chapter maps** (Gemini-generated), navigator `hasContent: true`, **shipped live on stuffhappened.com**. Chain color: ochre/yellow (`nubian-tradition`). Summary bullets (`narratives/ancient-nubia.summaries.json`) NOT yet written.
+1. ✅ ancient-nubia — 8 chapters (~24k words), full 5-persona audit with must/should fixes applied, **54 reference events**, **52 event links**, **190 glossary links**, **18 forward cross-links + 11 backward into Meso/Indus/China**, parse-enriched, **61 summary bullets across 8 chapters**, **8 WebP chapter maps** (all 8 regenerated under strict-rules redo pass, edge-to-edge style on Ch 5-8), navigator `hasContent: true`, **shipped live on stuffhappened.com**. Chain color: ochre/yellow (`nubian-tradition`).
 2. kingdom-of-kush
 3. kingdom-of-aksum
 
 **Persian Tradition chain** (in progress):
-1. 📝 elamite-civilization — reference data imported from v1 and expanded 35 → **51 events** (added Puzur-Inshushinak, Eparti I, Siwe-palar-hupak, Kudur-Nahhunte I, Humban / Kiririsha / Nahhunte pantheon entries, Igihalkid dynasty, Humban-Numena I, Kutir-Nahhunte III, Hutelutush-Inshushinak, Te-Umman / Battle of Til-Tuba, Shamash-shum-ukin alliance, "King of Anshan" title, Behistun Elamite inscription, Persepolis Fortification Archive). Covers 3200–500 BCE. 8-chapter narrative drafted (~24k words) + audit + must/should fix pass applied. Backward cross-cultural pass into Meso (+14) and Indus (+2) shipped. **Pending:** forward event links, glossary links, forward cross-links, summary bullets, chapter map prompts, chapter maps, image review, `hasContent` toggle.
+1. ✅ elamite-civilization — 8 chapters (~24k words), full 5-persona audit and fix pass, **51 reference events**, **49 event links**, **206 glossary links**, **22 forward cross-links + 16 backward into Meso/Indus**, parse-enriched, **63 summary bullets across 8 chapters**, **8 WebP chapter maps** (Ch 1/3/7/8 regenerated under strict-rules redo pass), navigator `hasContent: true`, **shipped live on stuffhappened.com**. Central thesis: Elam never died — it became the bureaucratic spine of Persia. Chain color: `persian-tradition`.
 2. persian-empire
 3. safavid-persia
 
