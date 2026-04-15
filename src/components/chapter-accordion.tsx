@@ -16,13 +16,25 @@ interface ChapterAccordionProps {
 
 export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, onExpand, onCollapse }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
-  const [mapExists, setMapExists] = useState(true)
+  // null = probing; true = map exists; false = 404. Only render the map
+  // slot when true, so civs without maps never reserve empty space that
+  // later collapses and throws off the chapter open scroll position.
+  const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
   const headerRef = useRef<HTMLDivElement>(null)
   const sectionRef = useRef<HTMLElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
+
+  useEffect(() => {
+    let cancelled = false
+    const img = new window.Image()
+    img.onload = () => { if (!cancelled) setMapExists(true) }
+    img.onerror = () => { if (!cancelled) setMapExists(false) }
+    img.src = mapSrc
+    return () => { cancelled = true }
+  }, [mapSrc])
 
   function collapse() {
     onCollapse()
@@ -174,8 +186,9 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
       {open && (
         <div className="pb-8" onTouchStart={onBodyTouchStart} onTouchEnd={onBodyTouchEnd}>
-          {/* Chapter map */}
-          {mapExists && (
+          {/* Chapter map — only mount when the probe in useEffect confirmed
+              the file exists, so civs without maps don't reserve layout space. */}
+          {mapExists === true && (
             <div
               className="mb-6 rounded-lg overflow-hidden bg-foreground/5 cursor-pointer"
               style={{ aspectRatio: '1408 / 768' }}
@@ -185,7 +198,6 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 src={mapSrc}
                 alt={`Map for Chapter ${chapter.number}: ${chapter.title}`}
                 className="w-full h-full object-cover"
-                onError={() => setMapExists(false)}
               />
             </div>
           )}
