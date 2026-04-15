@@ -72,6 +72,11 @@ interface ChapterSummary {
   dateRange: string
 }
 
+interface TlEventDetail {
+  label: string
+  text: string
+}
+
 interface TlEvent {
   id: string
   label: string
@@ -82,6 +87,7 @@ interface TlEvent {
   commonsFile?: string
   tier: number
   category: string
+  details?: TlEventDetail[]
 }
 
 interface TlSpan {
@@ -460,6 +466,15 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
         enriched ? { ...e, ...enriched } : e
       if (merged.wikiExtract) {
         merged.wikiExtract = linkGlossaryInText(merged.wikiExtract)
+      }
+      if (merged.description) {
+        merged.description = linkGlossaryInText(merged.description)
+      }
+      if (merged.details && Array.isArray(merged.details)) {
+        merged.details = merged.details.map(d => ({
+          ...d,
+          text: d.text ? linkGlossaryInText(d.text) : d.text,
+        }))
       }
       return merged
     }),

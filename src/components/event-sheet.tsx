@@ -139,9 +139,10 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
 
           {/* Description */}
           {event.description && (
-            <p className="mt-3 leading-relaxed">
-              {event.description}
-            </p>
+            <p
+              className="mt-3 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: event.description }}
+            />
           )}
 
           {/* Detail sections */}
@@ -152,9 +153,10 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
                   <h4 className="text-xs font-semibold uppercase tracking-wide text-foreground/50 mb-1">
                     {detail.label}
                   </h4>
-                  <p className="text-foreground/80 leading-relaxed text-[0.9em]">
-                    {detail.text}
-                  </p>
+                  <p
+                    className="text-foreground/80 leading-relaxed text-[0.9em]"
+                    dangerouslySetInnerHTML={{ __html: detail.text }}
+                  />
                 </div>
               ))}
             </div>
