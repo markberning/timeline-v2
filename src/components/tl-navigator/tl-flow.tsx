@@ -12,8 +12,8 @@ interface Props {
 
 const MIN_BAR = 36
 const TARGET_MAX_FRAC = 0.7
-const MAX_INDENT_FRAC = 0.5
-const GAP_SCALE = 1.5                // px per sqrt(year gap between adjacent TLs)
+const MAX_INDENT_FRAC = 0.35         // scroll-dependent diagonal contribution
+const MAX_GAP_INDENT_FRAC = 0.2      // extra horizontal offset from cumulative year-gap
 const ENTRY_ZONE_FRAC = 0.33         // bottom third of viewport is the fly-in zone
 const ENTRY_X_FRAC = 0.85            // new rows start at 85% of viewport width
 const FRICTION = 0.94
@@ -52,22 +52,27 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     return () => ro.disconnect()
   }, [])
 
-  // Per-row vertical layout: each row gets extra vertical space above it
-  // based on the startYear gap from the previous TL, so clusters of
-  // similar-era civilizations pack tight and big historical gaps create
-  // visible breathing room. Monotonic, so chronological order is safe.
+  // Per-row HORIZONTAL offset: cumulative sqrt(year-gap) from row 0,
+  // normalized to [0, 1]. Rows with similar start years pack together
+  // horizontally; big historical jumps open up a wider step. Monotonic
+  // in i so chronological order is preserved. Rows keep a uniform
+  // vertical rhythm (i * rowHeight).
   const rowLayout = useMemo(() => {
     const n = tls.length
-    const baseY = new Array<number>(n)
-    if (n === 0) return { baseY, totalHeight: 0 }
-    baseY[0] = 0
+    const baseXNorm = new Array<number>(n).fill(0)
+    if (n === 0) return { baseXNorm, totalHeight: 0 }
+    const cum = new Array<number>(n)
+    cum[0] = 0
     for (let i = 1; i < n; i++) {
       const gap = Math.max(0, tls[i].startYear - tls[i - 1].startYear)
-      const extra = Math.sqrt(gap) * GAP_SCALE
-      baseY[i] = baseY[i - 1] + rowHeight + extra
+      cum[i] = cum[i - 1] + Math.sqrt(gap)
     }
-    const totalHeight = baseY[n - 1] + rowHeight
-    return { baseY, totalHeight }
+    const total = cum[n - 1]
+    if (total > 0) {
+      for (let i = 0; i < n; i++) baseXNorm[i] = cum[i] / total
+    }
+    const totalHeight = n * rowHeight
+    return { baseXNorm, totalHeight }
   }, [tls, rowHeight])
 
   // Bar width per TL: sqrt-compressed duration, normalized so the longest
@@ -104,19 +109,22 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
 
     const maxIndent = vw * MAX_INDENT_FRAC
+    const maxGapIndent = vw * MAX_GAP_INDENT_FRAC
     const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
     const entryX = vw * ENTRY_X_FRAC
     const entryZoneSpan = vh - settleEndY
-    const baseY = rowLayout.baseY
+    const baseXNorm = rowLayout.baseXNorm
 
     const render = () => {
       const scrollOffset = scrollOffsetRef.current
       for (let i = 0; i < tls.length; i++) {
         const bar = barRefs.current[i]
         if (!bar) continue
-        const y = baseY[i] - scrollOffset
+        const y = i * rowHeight - scrollOffset
         const rowCenterY = y + halfRow
-        const naturalX = (rowCenterY / vh) * maxIndent
+        const diagonalX = (rowCenterY / vh) * maxIndent
+        const gapX = baseXNorm[i] * maxGapIndent
+        const naturalX = diagonalX + gapX
         let x = naturalX
         if (rowCenterY > settleEndY) {
           const raw = (rowCenterY - settleEndY) / entryZoneSpan
@@ -233,14 +241,17 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         // position, even if any layout-effect race would otherwise show a
         // stacked-at-(0,0) frame.
         let initialTransform: string | undefined
-        if (viewportSize.width > 0 && viewportSize.height > 0 && rowLayout.baseY[i] !== undefined) {
+        if (viewportSize.width > 0 && viewportSize.height > 0 && rowLayout.baseXNorm[i] !== undefined) {
           const so = scrollOffsetRef.current
           const vh = viewportSize.height
           const vw = viewportSize.width
-          const y = rowLayout.baseY[i] - so
+          const y = i * rowHeight - so
           const rowCenterY = y + rowHeight / 2
           const maxIndent = vw * MAX_INDENT_FRAC
-          const naturalX = (rowCenterY / vh) * maxIndent
+          const maxGapIndent = vw * MAX_GAP_INDENT_FRAC
+          const diagonalX = (rowCenterY / vh) * maxIndent
+          const gapX = rowLayout.baseXNorm[i] * maxGapIndent
+          const naturalX = diagonalX + gapX
           const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
           let x = naturalX
           if (rowCenterY > settleEndY) {
