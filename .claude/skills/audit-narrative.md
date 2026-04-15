@@ -7,7 +7,7 @@ user-invocable: true
 
 Audit a chapter-format narrative document with four parallel persona subagents and write a merged report.
 
-This skill exists because human-in-the-loop debugging of every chapter is unsustainable across 100+ TLs. The personas catch four categories of failure: empty claims and undefined terms (Newcomer), content that smells made up (Skeptic), weak storytelling (Story Editor), and missed cross-cultural connections (Cross-Cultural Reviewer). See `rewrite-fixes.md` for the writing rules these personas enforce.
+This skill exists because human-in-the-loop debugging of every chapter is unsustainable across 100+ TLs. The personas catch four categories of failure: empty claims and undefined terms (Newcomer), content that smells made up (Skeptic), weak storytelling (Story Editor), and missed cross-cultural connections (Cross-Cultural Reviewer). See `WRITING-RULES.md` for the writing rules these personas enforce.
 
 **This is a report-only audit.** No fixes are applied. The user reads the report and decides what to change.
 
@@ -474,7 +474,7 @@ Read ALL files using the Read tool before beginning your analysis.
 ## Notes for future maintainers
 
 - **Persona C (Fact Checker) is not built.** Needs WebSearch or a reference source. Add later when A and B have been calibrated against real findings.
-- **Personas are intentionally blind to known-risk lists.** Don't pass `rewrite-fixes.md` "known risks" section into Persona B's prompt. The point is to see what the agent catches independently.
+- **Personas are intentionally blind to known-risk lists.** Don't pass `audits/mesopotamia-rewrite-fixes.md` "known risks" section into Persona B's prompt. The point is to see what the agent catches independently.
 - **Keep the personas as subagents, not inline.** Inline persona prompts run in the orchestrator's context and inherit prior conversation knowledge, biasing them toward findings the conversation already knows about. Subagents start fresh.
 - **Calibration targets:**
   - Persona A: if >30 items/chapter the prompt is too loose; if <3/chapter it's too tight.
