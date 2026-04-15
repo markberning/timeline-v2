@@ -43,62 +43,87 @@ Source of truth for how the reader app should behave. Update this when we change
 - × button always dismisses.
 
 ## Dark mode
-- Background `#1c1c1f`, foreground `#e5e5e5` — softened from near-black/near-white. Contrast ≈ 13.6:1 (WCAG AAA).
-- Elevated surfaces (event sheet, glossary sheet) use `--surface: #2a2a2f` so they sit visibly above the page background.
-- Toggled via sun/moon button, persisted to `localStorage['theme']`.
+- Background `#22201e` (warm dark, unified with the navigator Stone theme), foreground `#e5e5e5`. Contrast ≈ 13.6:1 (WCAG AAA).
+- Elevated surfaces (event sheet, glossary sheet) use `--surface: #2f2c29` so they sit visibly above the page background.
+- **Dark is the default**: `class="dark"` is hardcoded on `<html>` in `layout.tsx`; the anti-flash script only *removes* the class when `localStorage.theme === 'light'`. `color-scheme: dark` is declared on both `:root` and `.dark` in globals.css so iOS Safari doesn't apply its own auto-dark filter (without this, the navigator and narrative background looked measurably different even though both pointed at the same hex).
+- Viewport meta exports `colorScheme: 'dark'` and `themeColor: '#22201e'`.
+- Toggle is still available; persisted to `localStorage['theme']`.
 
 ## Text size
 - 5 steps (0.875rem → 1.375rem) via A/A buttons, persisted to `localStorage['textSize']`. Affects both summaries and prose equally.
 
 ## Navigation
-- Home page: civilization picker.
+- Home page (`/`): the TL Navigator flow layout. No civilization picker.
 - Chapter page: single-page accordion. No per-chapter routes.
 - **Swipe right on the civilization summary page** (dx > 80px, horizontal-dominant, no chapter expanded) navigates back to home. Disabled when a chapter is open, since swipe-right in that state is reserved for collapsing the chapter.
-- `/navigator` route hosts the swim-lane gantt prototype (see TL Navigator section).
+- `/navigator` is an alias route that renders the same navigator component as `/`.
 
-## TL Navigator (`/navigator`)
-A standalone prototype for civilization discovery, separate from the card-based home page.
+## TL Navigator (home, `/`)
+Custom-touch scrolling flow layout of 71 civilizations. This is the home page now — the old card picker is gone.
 
 ### Layout
-- Fixed-position viewport. Header at top (~88px) with title, zoom buttons (+/−/fit), and 5 zone toggle pills. Below the header, a single scrolling container fills the rest of the screen.
-- Inside the scroller: a sticky time axis (28px tall) at the top, then one row per TL (45px tall), sorted ascending by start year.
-- Each row: a region-colored bar positioned at `compressedYearToPixel(startYear)` with width matching the bar's compressed duration. Label `Name · start – end` floats above the bar at the bar's left edge and extends past the bar's right edge as needed.
-- Alternating-row 2% white stripe for legibility.
-
-### Zones
-- 5 fixed zones: Near East (orange-red), Africa (amber), Asia (purple), Europe (blue), Americas (green). Defined in `src/lib/navigator-tls.ts` as `REGION_ORDER` + `REGION_COLORS`.
-- Toggle pills filter visible TLs. All zones enabled by default. Toggling a zone immediately re-renders without unmounting.
-
-### Time axis
-- Compressed time mapping (see Compression below). Tick interval auto-snaps to a nice round number from `[1, 2, 5, 10, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000]` so axis labels stay ~80px apart.
-- Ticks falling inside a compression zone are skipped to keep the axis legible.
-- Tick labels read `5000 BCE`, `500 CE`, etc.
-
-### Compression
-- Two compression zones squish prehistoric stretches where nothing is happening on the TL list:
-  - `-6900 → -5200` at 18% of natural width (between Indus/Ancient China at -7000 and Mesopotamia at -5000)
-  - `-4900 → -3700` at 22% of natural width (between Mesopotamia at -5000 and Ancient Nubia at -3500)
-- Bars that span a compression zone visually shrink through it. The zones are placed JUST INSIDE the gap so no TL's start or end year ever falls inside a zone.
-- `compressedYearToPixel` and `compressedPixelToYear` in `src/lib/navigator-tls.ts` walk the zones piecewise. `compressedTotalWidth` is linear in `pixelsPerYear`, so `fit-all` solves it directly.
-
-### Zoom
-- `+` / `−` buttons multiply `pixelsPerYear` by 1.5 (clamped to `[0.005, 8]`).
-- Zoom preserves the year at the horizontal viewport center using the compressed inverse mapping.
-- `fit` solves for the `pixelsPerYear` that makes the compressed total width equal the visible viewport width and resets `scrollLeft` to 0.
-
-### Scroll
-- Native browser scrolling for both axes. Vertical scroll moves through the row list; horizontal scroll pans through time.
-- The time axis is `position: sticky; top: 0` so it stays visible while vertical-scrolling.
+- Fixed-position viewport anchored at top with `height: 100svh` (not `inset: 0`, which would extend behind the Safari bottom toolbar). Stone theme warm dark bg `#22201e`, matching the narrative dark mode bg so the transition between navigator and narrative is seamless.
+- Header (~88px): title + 5 zone toggle pills. No zoom buttons, no time axis — they aren't needed in the flow layout.
+- Body: `TlFlow` component handles everything below the header. `overflow: hidden`, `touch-action: none`. All scroll is JS-driven via touch handlers; no native scroll.
+- Each row is a single absolutely-positioned element with one `translate3d(x, y, 0)` transform per frame. Rows with chain membership get a companion chain-icon element (separate ref, `translate3d(0, y, 0)`) pinned to `right: 12`.
 
 ### Data
-- 70 TLs in `NAVIGATOR_TLS`: 6 with real start/end years pulled from `reference-data/*.json` (the civilizations that have v2 narratives), 64 stubs with historically-plausible dates so there's enough density to navigate.
+- 71 TLs in `NAVIGATOR_TLS` (`src/lib/navigator-tls.ts`): id, label, subtitle, region, startYear, endYear, optional `isReal` and `hasContent` flags. Only `mesopotamia` and `indus-valley` have `hasContent: true`; everything else renders at opacity 0.35.
+- Every TL has a hand-written `subtitle` (short descriptive+evocative tagline, place anchor + flavor hook — e.g. `Iraq's first cities and cuneiform`).
 
-### Out of scope (deferred)
-- Tap-to-narrative transition. Rows have no click handler yet.
-- Replacing the card home page at `/`.
-- Chain connection lines between TLs.
-- Follow-mode (auto-pan horizontally as you scroll vertically) — implemented and removed because the slide felt too rough; reference implementations live in commits `d3bb0bf` / `9e67a95`.
-- Gap markers in the prehistoric bars (dot/line/years label) — implemented and removed; live in commits `0632bc0` / `e75e713` / `1922872` if we want to revive them.
+### Zones
+- 5 fixed zones: Near East, Africa, Asia, Europe, Americas. `REGION_ORDER` + colors live on `STONE_THEME.regionColors` in `src/lib/navigator-themes.ts`.
+- Single tap on a pill toggles that zone on/off. Double-tap solos it (enables only that zone). Double-tap on an already-solo zone restores all five. Single-click toggle is deferred by 220ms so a double-tap can pre-empt it (`ZoneToggles` manages this with a `useRef` timer).
+
+### Flow layout (the heart of the navigator)
+- `rowLayout` useMemo precomputes `cumGap[i]` — cumulative `sqrt(max(0, tls[i].startYear - tls[i-1].startYear))` in sqrt-year units. Rows are still evenly spaced vertically (uniform `i * rowHeight`).
+- `barWidths[i]` is sqrt-compressed duration, normalized so the longest TL fills `TARGET_MAX_FRAC = 0.7` of viewport width. Computed once per `tls + viewport` change; set on each bar's line element as an inline `transform: scaleX(barW)` on a 1px base so width updates are fully composited.
+- Per frame, `render()` does two passes:
+  1. Compute natural `(x, y)` for every row:
+     - `y = i * rowHeight - scrollOffset`
+     - `diagonalX = (rowCenterY / vh) * maxIndent` — scroll-driven diagonal, `MAX_INDENT_FRAC = 0.3`
+     - `gapX = (cumGap[i] - anchorCum) * H_GAP_SCALE` where `anchorCum` is a linear interpolation of `cumGap` at the fractional topmost row (`scrollOffset / rowHeight`). `H_GAP_SCALE = 0.38` (px per sqrt-year). This makes clusters of similar-era TLs pack tight and big historical jumps open a wider horizontal step, without pushing rows off-screen (the anchor re-centers the topmost visible row at x=0).
+     - Entry zone: if `rowCenterY > vh * (1 - ENTRY_ZONE_FRAC)` (`0.33`), lerp `x` toward `entryX = vw * 0.85` with `progress = ((rowCenterY - settleEndY) / entryZoneSpan)²`. New TLs visibly fly in from the lower right and glide diagonally into place as they scroll up.
+  2. Chain-pull offset (x-only, see below), then write one `translate3d` per row to `barRefs[i]` and another to `iconRefs[i]` (icons track row y but keep x anchored to the viewport's right edge).
+
+### Custom touch scroll
+- `overflow: hidden` + `touch-action: none` on the container; body is locked via `position: fixed` while the navigator is mounted (see iOS hardening below).
+- `scrollOffsetRef`, `velocityRef`, `lastTouchY/Time`, `isTouchingRef`, `momentumRafRef` all in refs — no React re-render during scroll.
+- `onTouchMove` accumulates `scrollOffset -= dy`, clamps to `[0, maxScroll]`, updates velocity as `-dy * (16.67 / dt)`, and calls `render()` synchronously.
+- `onTouchEnd` kicks off friction-decay momentum via rAF when velocity exceeds `MIN_VELOCITY = 0.05`. `FRICTION = 0.94`. Wheel events handled similarly for desktop.
+- `maxScroll = totalHeight - vh + rowHeight` — one row of breathing room below the last TL so it doesn't sit flush at the bottom.
+
+### Tap detection
+- `TAP_MOVE_THRESHOLD = 10px`, `TAP_TIME_THRESHOLD = 500ms`, and a `wasMomentumRef` flag mean "tap during active momentum stops the scroll and does not fire any action".
+- On a clean tap, compute `rowIdx = floor((touchY - rect.top + scrollOffset) / rowHeight)`.
+- **Icon zone check first**: if `touchX > vw - ICON_TAP_WIDTH` (48px) AND `chainMembers.has(rowIdx)`, start a chain pull and return.
+- **Navigation next**: if `tls[rowIdx].hasContent`, use `window.location.href = '/' + id` — NOT `router.push`. Client-side React transitions leave iOS Safari's scroll engine in a stuck state for several touches on the next page; a hard navigation sidesteps it.
+- Otherwise, fall through to momentum launch.
+
+### Chain icons + chain-pull animation
+- `chainMembers` useMemo (rebuilt whenever `tls` changes) walks `TL_CHAINS` from `reference-data/tl-chains.ts` and builds a `Map<rowIdx, Set<rowIdx>>` of sibling row indices. Union across all chains a TL belongs to (some TLs like `persian-empire` are in multiple chains).
+- Only rows with at least one visible sibling render a chain-link SVG, anchored at `right: 12` on a separate ref'd element with its own `translate3d(0, y, 0)` transform. Icon color is `theme.textPrimary` at opacity 0.45. `pointer-events: none` — the container's touch handler does the hit-testing by coordinates.
+- On an icon-zone tap, `startChainPull(tappedIdx)` sets `chainPullRef = { startTime, tappedIdx, memberSet }` and launches an rAF loop that calls `render()` each frame. The animation has three phases:
+  - **Pull-in** (`PULL_IN_MS = 400`, ease-out): each sibling's `x` lerps from natural toward the tapped row's natural x with factor `1 - (1 - t)²`.
+  - **Hold** (`PULL_HOLD_MS = 200`): `factor = 1`, chain clustered at strength `PULL_STRENGTH = 0.8`.
+  - **Release** (`PULL_RELEASE_MS = 600`, ease-in): factor `(1 - t)²` back to 0. Siblings glide back to their natural positions.
+- **Only x is pulled**, not y. Vertical spacing stays untouched so the cluster reads as a column at the tapped row's x. This preserves chronological ordering visually.
+- **Known limitation**: siblings off-screen (above or below the viewport) are still pulled (their transforms are updated) but aren't visible. Scrolling isn't auto-triggered to reveal them. Future work: either scroll to center the tapped chain during pull, or constrain the pull so every sibling's target y stays within the viewport.
+
+### iOS Safari hardening
+- Navigator wrapper uses `position: fixed; top: 0; left: 0; right: 0; height: 100svh`. `inset: 0` would use the large viewport and extend behind the bottom address bar; `100svh` respects the toolbar.
+- While the navigator is mounted, a useEffect in `tl-navigator.tsx` locks the body: `html.overflow = 'hidden'`, `body.overflow = 'hidden'`, `body.position = 'fixed'`, `body.top/left/right = 0`, `body.overscroll-behavior = 'none'`, `body.touch-action = 'none'`. Required because iOS Safari rubber-bands the body and drags `position: fixed` children around, even with `overscroll-behavior: none`.
+- On unmount, the cleanup restores the body to explicit reset values (`position: static`, `touch-action: pan-y`, `overflow: visible`), forces a reflow via `void body.offsetHeight`, calls `window.scrollTo(0, 1); scrollTo(0, 0)` to kick Safari's scroll engine out of its cached "body not scrollable" state, and then drops the overrides back to the captured previous values. Even with all of this, navigating via `router.push` leaves Safari holding onto enough state that the first few touches on the narrative page get swallowed — that's why tap navigation uses `window.location.href` instead.
+
+### Stone theme
+- The only theme. Defined in `src/lib/navigator-themes.ts` as `STONE_THEME`. App bg `#22201e`, header bg `#2a2724`, `rowHeight: 56`, `bar.style: 'line'` (bar is a thin region-colored hairline, not a filled rectangle), region palette tuned warm.
+- Label stack per row: line (3px colored hairline at `scaleX(barW)`) → name row (`[dot] Name · start–end`) → subtitle (italic small opacity 0.55). Dates use `formatYearRange` that combines eras when both years share one (`1922–1991 CE`, `5000–539 BCE`).
+
+### Deferred / out of scope
+- Reveal off-screen chain siblings during pull (see Known limitation above).
+- Tap-to-expand subtitle / tooltip preview of a non-content TL.
+- Per-chain coloring of the chain icon (currently neutral).
+- Follow-mode and gap markers from earlier swimlane experiments — superseded by the flow layout.
 
 ## Link pipeline (event links + glossary links)
 

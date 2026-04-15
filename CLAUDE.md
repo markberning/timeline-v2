@@ -29,8 +29,8 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 ```
 src/
   app/
-    page.tsx                    — home: civilization picker (still the live home until navigator replaces it)
-    navigator/page.tsx          — /navigator: swim-lane gantt of all 70 civilizations
+    page.tsx                    — home: renders TlNavigator (the flow navigator IS the home page)
+    navigator/page.tsx          — /navigator: alias route, also renders TlNavigator
     [civilizationId]/
       layout.tsx                — accent color wrapper
       page.tsx                  — single-page accordion reader
@@ -46,15 +46,17 @@ src/
     civilization-card.tsx       — home page card
     image-review.tsx            — approve/reject images with notes
     tl-navigator/
-      tl-navigator.tsx          — /navigator root: zoom buttons, zone toggles, scroll container
-      tl-swimlanes.tsx          — sticky time axis + one row per TL with colored bar
-      zone-toggles.tsx          — 5 zone filter pills (Near East/Africa/Asia/Europe/Americas)
+      tl-navigator.tsx          — navigator shell: header, zone toggles, body scroll lock, mounts TlFlow
+      tl-flow.tsx               — custom-touch-scroll flow renderer: diagonal layout, chain pull, chain icons, tap nav
+      tl-swimlanes.tsx          — legacy swim-lane gantt renderer (kept for reference, no longer mounted)
+      zone-toggles.tsx          — 5 zone filter pills (Near East/Africa/Asia/Europe/Americas); double-tap = solo
   lib/
     data.ts                     — reads content JSON at build time
     types.ts                    — NarrativeChapter, TlEvent, TimelineNarrative, etc.
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
-    navigator-tls.ts            — 70 navigator TLs (6 real + 64 stubs), zone metadata, compression zones, year↔pixel helpers
+    navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for mesopotamia + indus-valley)
+    navigator-themes.ts         — Stone theme constants (warm dark bg, region palette, row height)
 scripts/
   parse-narratives.ts           — markdown → JSON build pipeline
   enrich-events.ts              — Wikimedia API: thumbnails, extracts, captions (cached)
@@ -82,14 +84,23 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Summary bullets** — optional chronological bullet summary per chapter (with inline event/glossary links) + big "Read Chapter N →" button. Replaces the paragraph+chips layout. Used for all of Indus Valley.
 - **Image enrichment** — Commons thumbnails + Wikipedia page image fallback, all verified at build time
 - **Image captions** — hand-written captions in `.caption-overrides.json`, informal 1–2 sentence voice
-- **Dark mode** — class-based with anti-flash script, softened to `#1c1c1f` / `#e5e5e5` (WCAG AAA 13.6:1). Bottom sheets use lighter `--surface` for elevation.
+- **Dark mode** — class-based, hardcoded `dark` on `<html>` in layout.tsx (anti-flash script only removes it if user has explicitly chosen light). Background `#22201e` warm dark, matches the navigator's Stone theme. `color-scheme: dark` declared so iOS Safari doesn't apply auto-dark. Bottom sheets use lighter `--surface` `#2f2c29` for elevation.
 - **Text size** — 5 steps (14-22px), persisted, affects both summaries and prose equally
 - **WCAG AA contrast** — all text passes 4.5:1, accent colors have light/dark mode variants
 - **Viewport lock** — touch-action: pan-y prevents horizontal drift on mobile
 - **Lightbox** — double-tap to toggle zoom (exactly centered on tap point), pinch, pan, swipe-down dismiss, backdrop tap dismiss
 - **Gestures**: tap or swipe-right on chapter header to collapse; swipe-right on summary page navigates home
 - **Image review** — two pages: `/review/{tlId}` for QA of current images, `/candidates/{tlId}` for approving/rejecting new candidates with editable captions
-- **TL Navigator (`/navigator`)** — swim-lane gantt prototype: 70 civilizations (6 real + 64 stubs) sorted ascending by start year, one row per TL with a region-colored bar spanning its duration. Sticky time axis at top with adaptive nice-number ticks. Native scroll for both axes. Zoom +/-/fit buttons preserve the year at the viewport center. 5 zone toggle pills filter the visible TLs. Prehistoric stretches (-6900→-5200 and -4900→-3700) are compressed to 18-22% of natural width so the four oldest TLs pull in close to the rest. Lives at `/navigator` — does not yet replace the card home page or transition to narrative reading.
+- **TL Navigator (home at `/`)** — custom-touch scroll flow layout of 71 civilizations. Vertical-only scrolling; each row has a fixed sqrt-compressed-duration bar width and its horizontal position is recomputed per frame from the row's y in the viewport (diagonal) plus a per-row year-gap offset (anchor-based). No global time axis. `TlFlow` (in `tl-flow.tsx`) owns scroll completely: container has `overflow: hidden` and `touch-action: none`, touchstart/move/end handlers track velocity and call a single `render()` that writes one `translate3d(x, y, 0)` per row. Friction-based momentum via rAF (`FRICTION = 0.94`).
+- **Stone theme** — the only navigator theme left. Warm dark bg `#22201e`, region palette, line-style bars (thin colored hairline + dot + name + faded dates on one row, italic subtitle below), row height 56.
+- **Gap-aware horizontal spacing** — each row's natural x is `(rowCenterY/vh) * maxIndent + (cumGap[i] - anchorCum) * H_GAP_SCALE`, where `cumGap[i]` is cumulative `sqrt(startYear - prev.startYear)` and `anchorCum` is interpolated at the fractional topmost visible row. Chronological clusters of similar-era TLs pack tight; big historical jumps produce a visibly wider horizontal step. `MAX_INDENT_FRAC = 0.3`, `H_GAP_SCALE = 0.38`.
+- **Entry zone** — rows whose center y is in the bottom third of the viewport ease out from `entryX = 0.85*vw` toward their natural x. New TLs visibly glide in from the lower right as they scroll up, locking into the diagonal as they cross into the top two-thirds.
+- **Subtitles** — every NavigatorTl has a short descriptive+evocative tagline (place anchor + flavor hook) rendered beneath the civ name in small italic.
+- **hasContent dimming** — rows with `hasContent: true` (mesopotamia, indus-valley) render at full opacity; others at 0.35 so they read as "not written yet".
+- **Tap to navigate** — short tap on a row with `hasContent` uses `window.location.href` (NOT `router.push`) to force a full browser load. Client-side React transitions leave iOS Safari's scroll engine in a stuck state and the first few touches on the narrative page get swallowed; a hard navigation discards the whole page and starts fresh.
+- **Zone toggles** — single tap toggles a zone on/off; double-tap solos it (enables only that zone); double-tap again restores all five.
+- **Chain icon + chain pull** — every TL that belongs to at least one chain (from `reference-data/tl-chains.ts`) shows a small chain-link SVG at the right edge of its row (positioned via a separate ref'd element, `translate3d(0, y, 0)`). Tapping in the right `ICON_TAP_WIDTH = 48px` zone of the row starts a chain-pull animation: phase 1 (400ms, ease-out) slides every visible chain sibling's x toward the tapped row's x (y unchanged, so vertical alignment is preserved and the chain reads as a column), phase 2 holds for 200ms, phase 3 (600ms, ease-in) releases back to natural. `PULL_STRENGTH = 0.8`. Siblings off-screen are still pulled but invisible; that's a known limitation (not yet addressed). `chainMembers` useMemo builds `Map<rowIdx, Set<rowIdx>>` from the union of chains in the current filtered tls list.
+- **iOS scroll hardening** — navigator wrapper uses `position: fixed; height: 100svh` (not `inset: 0`, which would extend behind the Safari bottom toolbar). Body is locked via `position: fixed`, `overflow: hidden`, `touch-action: none`, `overscroll-behavior: none` while the navigator is mounted; cleanup restores explicit values, forces a reflow, and calls `window.scrollTo(0, 1); scrollTo(0, 0)` to kick the scroll engine.
 
 ## Reader Features (planned)
 - Save-my-place (tap any sentence)
@@ -98,7 +109,7 @@ audits/                         — audit reports from the 5-persona pipeline
 - Deep links to specific sections
 - Outline summaries
 - Top drawer: interactive map (Ch 1), self-building timeline (Ch 2+)
-- TL Navigator → home: replace card picker with the navigator, wire row-tap to open the narrative reader
+- Navigator: scroll-to-reveal off-screen chain siblings during chain pull (currently siblings off-screen are pulled but invisible)
 
 ## Writing Rules (summary — full rules in rewrite-fixes.md)
 - **Write for completeness**, not for the existing event list
