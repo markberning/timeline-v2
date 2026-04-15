@@ -307,9 +307,98 @@ When citing a historical writer as a source, give a one-line intro on first use:
 
 ---
 
-## Rule: Chapter summaries should be factual outlines, not polished prose
+## Rule: Chapter summaries — how to write them
 
-The expandable summary bullets should read like a table of contents for the chapter: brief factual statements of what the chapter covers. No narrative polish, no scene-setting, no transitions. The summary is a table of contents, not a miniature version of the chapter.
+Every shipped TL has a `narratives/{tlId}.summaries.json` file that powers the collapsed chapter card in the reader. Bullets are the primary mechanism: tapping a chapter header shows a sticky bullet list above a "Read Chapter N →" button. Open the chapter and the bullets give way to the full prose. Writing good bullets is a separate craft from writing the narrative.
+
+### File format
+
+JSON list (not object), one entry per chapter:
+
+```json
+[
+  {
+    "chapter": 1,
+    "title": "Chapter Title",
+    "dateRange": "7000–5000 BCE",
+    "bullets": [
+      "Tight single sentence stating one fact from the chapter.",
+      "Another tight single sentence, with named people and concrete numbers."
+    ]
+  }
+]
+```
+
+**Required fields:** `chapter` (int), `title` (string), `dateRange` (string), `bullets` (non-empty array of strings).
+
+**Optional `summary` field** (legacy): Mesopotamia has a prose paragraph per chapter. The reader only renders it as a fallback when `bullets` is absent (`chapter-accordion.tsx:182`). New TLs should skip it — bullets are enough.
+
+### Density
+
+- **6–10 bullets per chapter.** Shorter chapters get 6, denser chapters get 10. Go to 11–12 only for exceptionally long chapters (Mesopotamia Ch 11 is an upper extreme).
+- Scale with the chapter, not a fixed quota. The right number is "enough to cover the beats, not more."
+
+### Length per bullet
+
+- **25–40 words** is the sweet spot. Hard cap ~55. Never a paragraph.
+- **One sentence.** If you need two, you're really writing two bullets glued together — split them.
+- Tight and declarative. Short enough that a reader scanning the collapsed card can absorb each one in under five seconds.
+
+### Voice
+
+- **Keep the narrative's informal voice.** Standout phrases survive: "China's Sorrow," "the black-headed people," "first by a huge margin," "a delightful piece of royal propaganda." These are why bullets feel like continuations of the book and not a wire-service summary.
+- **Strip everything transitional.** No "Meanwhile," "By the next generation," "But the real story is." The bullet list has no flow — each bullet stands alone.
+- **No scene-setting.** The narrative sets the scene; the bullet names the fact.
+- **No cross-chapter callbacks.** Don't write "(see Chapter 5)" or "as we saw earlier." Each bullet is read out of context in a collapsed card.
+- **No narrator asides.** No "as far as we can tell," no "interestingly," no meta-commentary. The bullet is the assertion.
+
+### Content
+
+- **Named people, specific dates, concrete numbers, proper nouns.** "Sargon's daughter Enheduanna, high priestess of the moon god Nanna at Ur, became the first named author in recorded human history" — *not* "a priestess became a famous writer."
+- **Prefer facts that hit hard in isolation.** Shocking comparisons, first-in-the-world superlatives, and specific artifacts land better than generalizations.
+- **Cover the chapter's actual beats** — the main people, events, places, and payoffs the chapter spends time on. A reader who only reads the bullets should know roughly what the chapter is about.
+- **Skip the obvious.** If the chapter title already says "Hammurabi's Babylon," don't burn a bullet on "this chapter is about Hammurabi."
+
+### matchText awareness (important — the bullets auto-get links)
+
+The parse script injects event, glossary, and cross-links into every bullet after it's written — same regex-based matcher as the chapter prose. That means:
+
+- **Phrasing should mirror the narrative's plain-text spans** so the existing event/glossary/cross-link entries hit. If the narrative calls it "the 4.2 kiloyear event," the bullet should too — not "the 4.2-kya drought event."
+- **No markdown formatting inside bullets** (no bold, no italics, no links). Plain text only. The parse script's word-boundary regex silently fails on anything starting or ending with a non-word character, same rules as `content/.event-links-{tlId}.json`.
+- **No parentheticals immediately adjacent to a key noun** that would break up a matchText span. "Enheduanna (high priestess of Nanna)" is fine, but "Enheduanna, high priestess of Nanna at Ur," flows as one linkable phrase.
+- After parsing, eyeball the collapsed card on dev to confirm the links you expect actually rendered. If a bullet has zero links but the chapter has events and glossary coverage, the phrasing is probably off — rewrite the bullet to match the narrative's wording.
+
+### dateRange format
+
+Keep it compact. Four valid shapes:
+
+- **Era range:** `"7000–5000 BCE"` — the normal case, use an en-dash.
+- **Event era:** `"~2100–1600 BCE"` — add a tilde if the range is legendary/uncertain.
+- **Framing-only chapter:** `"Geographic setting + pre-7000 BCE"` or `"Geographic & cultural setting"` — for chapters that set the stage before chronology kicks in.
+- **Open-ended mystery:** `"Ongoing mystery"` — for thematic chapters (Indus "The Invisible Rulers," Indus "Gods Without Names") where no single date range fits.
+
+### Process
+
+1. **Read the chapter end-to-end** before writing any bullets. The bullet list is a reduction, not a generation step — you pull facts out of prose, you don't invent them.
+2. **Draft 8–12 candidate bullets** then cut the weakest. It's easier to trim than to pad.
+3. **Audit each bullet for concreteness:** does it name a person, a date, a number, or a place? If not, rewrite or cut.
+4. **Check matchText alignment:** for each bullet, ask "does the narrative use this exact wording for the linkable nouns?" If not, adjust the bullet to match.
+5. **Run `npm run parse`** and confirm the file is picked up (watch for `No summaries found for {tlId}` warnings — that means the file path or TL id is wrong).
+6. **Restart `npm run dev`** (the parse cache is in-memory — see `feedback_parse_restart_dev`).
+7. **View the collapsed chapter card on mobile** (or DevTools mobile mode) and confirm each bullet fits comfortably on two lines or fewer, and that the auto-injected links are the ones you expected.
+
+### Exemplar bullets (keep these in your head while writing)
+
+From `ancient-china.summaries.json` Ch 1:
+> "The Yellow River carries so much loess silt it is literally called China's Sorrow, changing course at least 26 times in recorded history and drowning whole regions when it jumps its banks."
+
+From `indus-valley.summaries.json` Ch 7:
+> "Mesopotamian texts call the Harappans Meluhha — a land across the sea — and Sargon of Akkad's inscriptions mention ships from Meluhha docking at his capital around 2350 BCE."
+
+From `mesopotamia-rewrite.summaries.json` Ch 3:
+> "Around 3800 BCE, a settlement called Uruk began to grow faster than any community in human history had grown before — and within six hundred years it was the world's first real city, with 40,000 to 80,000 residents packed into six square kilometers."
+
+All three hit the same formula: **a specific place/person/thing + a concrete number or date + a jaw-dropping comparison or claim**, in one tight sentence, with the narrative's informal voice intact.
 
 ---
 
