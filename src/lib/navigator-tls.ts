@@ -69,7 +69,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'modern-india', label: 'Modern India', subtitle: 'Raj to republic', region: 'asia', startYear: 1857, endYear: 2024, isReal: true },
 
   // ── ASIA (East) ──
-  { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -7000, endYear: -1600 },
+  { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -7000, endYear: -1600, hasContent: true },
   { id: 'shang-dynasty', label: 'Shang Dynasty', subtitle: "China's first oracle bones", region: 'asia', startYear: -1600, endYear: -1046 },
   { id: 'zhou-dynasty', label: 'Zhou Dynasty', subtitle: 'Confucius and the Warring States', region: 'asia', startYear: -1046, endYear: -256 },
   { id: 'qin-dynasty', label: 'Qin Dynasty', subtitle: 'China unified by terror and law', region: 'asia', startYear: -221, endYear: -206 },

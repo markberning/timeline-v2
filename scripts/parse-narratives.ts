@@ -72,6 +72,7 @@ const CONTENT_DIR = join(ROOT, 'content')
 const NARRATIVE_FILES: Record<string, string> = {
   'mesopotamia-rewrite.md': 'mesopotamia',
   'indus-valley.md': 'indus-valley',
+  'ancient-china.md': 'ancient-china',
 }
 
 function slugify(title: string): string {
