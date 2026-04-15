@@ -22,6 +22,7 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 3. **Fix** audit findings
 4. **Reconcile** — add any events/terms from the narrative that are missing from the TL reference data
 5. **Curate event links** — read each chapter and place links in `content/.event-links-{tlId}.json`
+5b. **Curate cross-civ links** (optional) — place "meanwhile in..." pointers in `content/.cross-links-{tlId}.json` per chapter with `{ matchText, targetTl, targetChapter, blurb }`. Rendered as a bottom sheet in the reader via `CrossLinkSheet`.
 6. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts (cached)
 7. **Generate chapter maps** — use Gemini with prompts from `map-prompts.md`, save to `public/maps/{tlId}/chapter-{N}.png`
 8. **Review images** — `/review/{tlId}` page for approving/rejecting event images

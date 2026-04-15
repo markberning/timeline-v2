@@ -138,6 +138,15 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
 - Browse between chains from within chain-solo mode (e.g. swipe to adjacent chain).
 - Follow-mode and gap markers from earlier swimlane experiments — superseded by the flow layout.
 
+## Cross-civ links ("Meanwhile in...")
+- Third kind of inline link in the reader, alongside event links and glossary links. Match phrase in the prose opens a `CrossLinkSheet` bottom sheet that introduces a parallel development in another civilization and offers a "Read {label} Ch N →" jump button.
+- Data: `content/.cross-links-{tlId}.json` — per-chapter map of `{ matchText, targetTl, targetChapter, blurb }`. `matchText` finds the first occurrence of the phrase in that chapter's prose (outside existing anchors); `targetTl` + `targetChapter` are the destination; `blurb` is 1–3 sentences of "meanwhile..." context written by the curator.
+- Parse time: `parse-narratives.ts` loads each TL's cross-link file, enriches each entry with `targetLabel` (from `navigator-tls.ts`), `targetChapterTitle` (from the destination TL's chapters), and `targetRegion`, and emits a stable `id` per link. Cross-link anchors are injected into the chapter HTML with `class="cross-link"` and `data-cross-link-id="..."`.
+- Runtime: `NarrativeReader` builds a `Map<id, CrossLink>` and its `handleClick` delegate opens `CrossLinkSheet` when the tapped anchor has a `cross-link` class.
+- Sheet styling: header shows "Meanwhile in {label}", chapter title, blurb, and a region-colored CTA button. Colors are resolved from a small `REGION_COLORS_LIGHT`/`REGION_COLORS_DARK` map keyed by `targetRegion` (not the chain-color system — this is intentional, cross-links are about geography not chain).
+- Jump: tapping "Read {label} Ch N →" does a hard `window.location.href = '/{targetTl}?chapter={n}'` navigation, same anti-iOS-stuck-scroll pattern used by the navigator.
+- Currently only `content/.cross-links-ancient-china.json` exists. The backward cross-civ audit pass that inserted parenthetical cross-refs into `mesopotamia-rewrite.md` and `indus-valley.md` still uses plain prose — those refs have not been converted to data-driven cross-links yet.
+
 ## Link pipeline (event links + glossary links)
 
 The reader has two kinds of inline clickable terms in chapter prose:
