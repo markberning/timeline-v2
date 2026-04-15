@@ -48,7 +48,7 @@ export interface NavigatorTheme {
 export const STONE_THEME: NavigatorTheme = {
   id: 'stone',
   name: 'Stone',
-  rowHeight: 72,
+  rowHeight: 92,
   appBg: '#22201e',
   headerBg: '#2a2724',
   headerBorder: 'rgba(0,0,0,0.45)',

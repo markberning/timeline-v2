@@ -527,7 +527,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
               flexDirection: 'column',
               justifyContent: 'center',
               alignItems: 'flex-start',
-              gap: 3,
+              gap: 1,
               willChange: 'transform, opacity',
               pointerEvents: 'none',
               opacity: 0,
@@ -547,8 +547,8 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: 6,
-                fontSize: 13,
+                gap: 7,
+                fontSize: 15,
                 fontWeight: 600,
                 color: theme.label.color,
                 textShadow: theme.label.shadow,
@@ -558,8 +558,8 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
             >
               <span
                 style={{
-                  width: 7,
-                  height: 7,
+                  width: 8,
+                  height: 8,
                   borderRadius: '50%',
                   background: regionColor,
                   flexShrink: 0,
@@ -572,13 +572,13 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 display: 'flex',
                 alignItems: 'center',
                 gap: 8,
-                paddingLeft: 14,
+                paddingLeft: 16,
                 whiteSpace: 'nowrap',
               }}
             >
               <span
                 style={{
-                  fontSize: 11,
+                  fontSize: 13,
                   color: theme.label.color,
                   opacity: 0.5,
                   fontWeight: 400,
@@ -593,12 +593,12 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
-                    gap: 4,
-                    fontSize: 10,
+                    gap: 5,
+                    fontSize: 12,
                     fontWeight: 500,
                     color: theme.label.color,
                     opacity: 0.65,
-                    padding: '2px 7px',
+                    padding: '3px 9px',
                     borderRadius: 999,
                     border: `1px solid ${theme.headerBorder}`,
                     background: 'rgba(255,255,255,0.04)',
@@ -607,8 +607,8 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                   }}
                 >
                   <svg
-                    width="9"
-                    height="9"
+                    width="11"
+                    height="11"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -628,13 +628,13 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
             {tl.subtitle && (
               <div
                 style={{
-                  fontSize: 11,
+                  fontSize: 13,
                   fontStyle: 'italic',
                   fontWeight: 400,
                   color: theme.label.color,
                   opacity: 0.55,
                   whiteSpace: 'nowrap',
-                  paddingLeft: 14,
+                  paddingLeft: 16,
                 }}
               >
                 {tl.subtitle}
