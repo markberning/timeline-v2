@@ -2,7 +2,9 @@
 
 **Date:** 2026-04-15
 **Branch:** main
-**Last commit on main:** `7cadd2d` — Ancient Nubia: curated event links
+**Last commit on main:** `170872b` — Navigator: flip ancient-nubia hasContent to true
+
+**Deploy:** Cloudflare Workers Builds is git-connected and auto-deploys on push to `main`. If a build ever fails because the project is "disconnected from Git account", reconnect via Worker Settings → Build → Manage (next to the Git repository field).
 
 ---
 
