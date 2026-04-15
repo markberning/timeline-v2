@@ -107,6 +107,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'mesopotamia-rewrite.md': 'mesopotamia',
   'indus-valley.md': 'indus-valley',
   'ancient-china.md': 'ancient-china',
+  'ancient-nubia.md': 'ancient-nubia',
 }
 
 function slugify(title: string): string {
