@@ -1,32 +1,33 @@
 'use client'
 
-import { Fragment, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { useRouter } from 'next/navigation'
-import type { NavigatorTl } from '@/lib/navigator-tls'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import type { NavigatorRegion, NavigatorTl } from '@/lib/navigator-tls'
 import type { NavigatorTheme } from '@/lib/navigator-themes'
 import { TL_CHAINS } from '../../../reference-data/tl-chains'
 
 interface Props {
-  tls: NavigatorTl[]              // pre-filtered AND pre-sorted by start year
+  tls: NavigatorTl[]                 // ALL tls, sorted by start year (not zone-filtered)
+  enabledZones: Set<NavigatorRegion>
   rowHeight: number
   theme: NavigatorTheme
+  soloChainId: string | null
+  onChainSolo: (chainId: string | null) => void
 }
 
 const MIN_BAR = 36
 const TARGET_MAX_FRAC = 0.7
-const MAX_INDENT_FRAC = 0.3          // scroll-dependent diagonal contribution
-const H_GAP_SCALE = 0.38             // px of horizontal offset per sqrt(year-gap)
-const ENTRY_ZONE_FRAC = 0.33         // bottom third of viewport is the fly-in zone
-const ENTRY_X_FRAC = 0.85            // new rows start at 85% of viewport width
+const MAX_INDENT_FRAC = 0.3
+const H_GAP_SCALE = 0.38
+const ENTRY_ZONE_FRAC = 0.33
+const ENTRY_X_FRAC = 0.85
 const FRICTION = 0.94
 const MIN_VELOCITY = 0.05
-const TAP_MOVE_THRESHOLD = 10        // px of drag beyond which it's a scroll, not a tap
-const TAP_TIME_THRESHOLD = 500       // ms beyond which it's a press, not a tap
-const ICON_TAP_WIDTH = 48            // px from the right edge counted as an icon tap
-const PULL_IN_MS = 400
-const PULL_HOLD_MS = 200
-const PULL_RELEASE_MS = 600
-const PULL_STRENGTH = 0.8            // how close to the tapped row chain members reach
+const TAP_MOVE_THRESHOLD = 10
+const TAP_TIME_THRESHOLD = 500
+
+const SOLO_ANIM_MS = 650
+const SOLO_LEFT_PAD_FRAC = 0.06
+const SOLO_STACK_TOP_PAD = 16
 
 function formatYearRange(start: number, end: number): string {
   const startBce = start < 0
@@ -38,31 +39,37 @@ function formatYearRange(start: number, end: number): string {
   return `${sa} BCE – ${ea} CE`
 }
 
-export function TlFlow({ tls, rowHeight, theme }: Props) {
-  const router = useRouter()
+function easeInOut(t: number): number {
+  return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2
+}
+
+export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onChainSolo }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
   const [viewportSize, setViewportSize] = useState({ width: 0, height: 0 })
+  // Kept as state (not ref) so the soloLayout useMemo recomputes when it
+  // changes. Stays set during the exit animation and clears on completion.
+  const [activeChainId, setActiveChainId] = useState<string | null>(null)
 
-  // All scroll state lives in refs so we never re-render React on scroll.
-  const scrollOffsetRef = useRef(0)
+  // Scroll refs — flow has its own offset, chain-solo has its own.
+  const flowScrollRef = useRef(0)
+  const soloScrollRef = useRef(0)
   const velocityRef = useRef(0)
   const lastTouchYRef = useRef(0)
   const lastTouchTimeRef = useRef(0)
   const isTouchingRef = useRef(false)
   const momentumRafRef = useRef(0)
-  // Tap detection state
+
   const touchStartXRef = useRef(0)
   const touchStartYRef = useRef(0)
   const touchStartTimeRef = useRef(0)
   const touchMovedRef = useRef(false)
   const wasMomentumRef = useRef(false)
-  // Chain-pull animation state
-  const chainPullRef = useRef<{
-    startTime: number
-    tappedIdx: number
-    memberSet: Set<number>
-  } | null>(null)
-  const pullRafRef = useRef(0)
+
+  // Chain-solo animation state (0 = full flow, 1 = fully soloed).
+  const soloProgressRef = useRef(0)
+  const soloDirRef = useRef<0 | 1>(0)
+  const soloAnimStartRef = useRef<number | null>(null)
+  const soloAnimRafRef = useRef(0)
 
   useLayoutEffect(() => {
     const el = containerRef.current
@@ -75,22 +82,65 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     return () => ro.disconnect()
   }, [])
 
-  // Per-row horizontal anchor: raw cumulative sqrt(year-gap). Vertical
-  // rhythm is uniform (i * rowHeight); the year-gap signal rides in
-  // horizontal offset only.
-  const rowLayout = useMemo(() => {
-    const n = tls.length
+  // Flow-mode visible rows: row indices allowed by the zone filter,
+  // plus the cumGap walked over only those visible rows.
+  const flowLayout = useMemo(() => {
+    const visibleIdxs: number[] = []
+    for (let i = 0; i < tls.length; i++) {
+      if (enabledZones.has(tls[i].region)) visibleIdxs.push(i)
+    }
+    const n = visibleIdxs.length
     const cumGap = new Array<number>(n).fill(0)
     for (let i = 1; i < n; i++) {
-      const gap = Math.max(0, tls[i].startYear - tls[i - 1].startYear)
+      const prev = tls[visibleIdxs[i - 1]]
+      const cur = tls[visibleIdxs[i]]
+      const gap = Math.max(0, cur.startYear - prev.startYear)
       cumGap[i] = cumGap[i - 1] + Math.sqrt(gap)
     }
-    const totalHeight = n * rowHeight
-    return { cumGap, totalHeight }
-  }, [tls, rowHeight])
+    const visIdxByRow = new Map<number, number>()
+    visibleIdxs.forEach((rowIdx, vi) => visIdxByRow.set(rowIdx, vi))
+    return { visibleIdxs, cumGap, visIdxByRow, totalHeight: n * rowHeight }
+  }, [tls, enabledZones, rowHeight])
 
-  // Bar width per TL: sqrt-compressed duration, normalized so the longest
-  // TL fills ~70% of the viewport width. Constant per scroll.
+  // Primary chain for each row (first chain containing it) — used for chip.
+  const rowChainInfo = useMemo(() => {
+    const byId = new Map<string, number>()
+    tls.forEach((tl, i) => byId.set(tl.id, i))
+    const perRow = new Map<number, { chainId: string; shortLabel: string; index: number; total: number }>()
+    for (const chain of TL_CHAINS) {
+      chain.entries.forEach((e, ei) => {
+        const rowIdx = byId.get(e.timelineId)
+        if (rowIdx === undefined) return
+        if (perRow.has(rowIdx)) return
+        perRow.set(rowIdx, {
+          chainId: chain.id,
+          shortLabel: chain.shortLabel,
+          index: ei,
+          total: chain.entries.length,
+        })
+      })
+    }
+    return perRow
+  }, [tls])
+
+  // Ordered member list for the currently active chain (during enter,
+  // hold, and exit animation). Stays set through the exit tween.
+  const soloLayout = useMemo(() => {
+    if (!activeChainId) return { order: [] as number[], soloIdxByRow: new Map<number, number>(), stackHeight: 0 }
+    const chain = TL_CHAINS.find(c => c.id === activeChainId)
+    if (!chain) return { order: [] as number[], soloIdxByRow: new Map<number, number>(), stackHeight: 0 }
+    const byId = new Map<string, number>()
+    tls.forEach((tl, i) => byId.set(tl.id, i))
+    const order: number[] = []
+    for (const e of chain.entries) {
+      const idx = byId.get(e.timelineId)
+      if (idx !== undefined) order.push(idx)
+    }
+    const soloIdxByRow = new Map<number, number>()
+    order.forEach((rowIdx, si) => soloIdxByRow.set(rowIdx, si))
+    return { order, soloIdxByRow, stackHeight: order.length * rowHeight }
+  }, [tls, activeChainId, rowHeight])
+
   const barWidths = useMemo(() => {
     if (tls.length === 0 || viewportSize.width === 0) return new Array(tls.length).fill(MIN_BAR)
     const sqrts = tls.map(tl => Math.sqrt(Math.max(1, tl.endYear - tl.startYear)))
@@ -100,39 +150,27 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     return sqrts.map(s => Math.max(MIN_BAR, s * scale))
   }, [tls, viewportSize.width])
 
-  // Chain membership: for each row index, the set of sibling row
-  // indices it's grouped with (union across all chains it belongs to).
-  // Only rows with at least one sibling show a chain icon.
-  const chainMembers = useMemo(() => {
-    const byId = new Map<string, number>()
-    tls.forEach((tl, i) => byId.set(tl.id, i))
-    const result = new Map<number, Set<number>>()
-    for (const chain of TL_CHAINS) {
-      const idxs: number[] = []
-      for (const e of chain.entries) {
-        const idx = byId.get(e.timelineId)
-        if (idx !== undefined) idxs.push(idx)
-      }
-      if (idxs.length < 2) continue
-      for (const idx of idxs) {
-        const existing = result.get(idx) ?? new Set<number>()
-        for (const other of idxs) if (other !== idx) existing.add(other)
-        result.set(idx, existing)
-      }
-    }
-    return result
-  }, [tls])
-
   const barRefs = useRef<(HTMLDivElement | null)[]>([])
-  const iconRefs = useRef<(HTMLDivElement | null)[]>([])
   useEffect(() => {
     barRefs.current.length = tls.length
-    iconRefs.current.length = tls.length
   }, [tls.length])
 
-  // Single update + listener setup pass. Re-runs whenever sizing or
-  // content changes; the touch/wheel handlers + render closure all read
-  // the latest values from this scope.
+  // React to soloChainId prop changes: kick off enter or exit animation.
+  // The rAF loop itself lives in the main useLayoutEffect below.
+  useEffect(() => {
+    if (soloChainId) {
+      setActiveChainId(soloChainId)
+      soloScrollRef.current = 0
+      soloDirRef.current = 1
+      soloAnimStartRef.current = performance.now() - soloProgressRef.current * SOLO_ANIM_MS
+    } else if (activeChainId) {
+      // Begin exit — keep activeChainId set until animation completes so
+      // the chain's solo layout stays valid through the tween.
+      soloDirRef.current = 0
+      soloAnimStartRef.current = performance.now() - (1 - soloProgressRef.current) * SOLO_ANIM_MS
+    }
+  }, [soloChainId, activeChainId])
+
   useLayoutEffect(() => {
     const el = containerRef.current
     if (!el || viewportSize.width === 0 || viewportSize.height === 0) return
@@ -140,112 +178,144 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     const vh = viewportSize.height
     const vw = viewportSize.width
     const halfRow = rowHeight / 2
-    const bottomPadding = rowHeight  // breathing room below last row
-    const maxScroll = Math.max(0, rowLayout.totalHeight - vh + bottomPadding)
+    const bottomPadding = rowHeight
+    const flowMaxScroll = Math.max(0, flowLayout.totalHeight - vh + bottomPadding)
+    const soloStackHeight = soloLayout.stackHeight
+    const soloStackCenter = soloStackHeight > 0 && soloStackHeight < vh
+      ? (vh - soloStackHeight) / 2
+      : SOLO_STACK_TOP_PAD
+    const soloMaxScroll = Math.max(0, soloStackHeight - vh + bottomPadding)
+    const soloLeftPad = vw * SOLO_LEFT_PAD_FRAC
 
-    // Clamp existing scroll into the new bounds
-    if (scrollOffsetRef.current > maxScroll) scrollOffsetRef.current = maxScroll
-    if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
+    if (flowScrollRef.current > flowMaxScroll) flowScrollRef.current = flowMaxScroll
+    if (flowScrollRef.current < 0) flowScrollRef.current = 0
+    if (soloScrollRef.current > soloMaxScroll) soloScrollRef.current = soloMaxScroll
+    if (soloScrollRef.current < 0) soloScrollRef.current = 0
 
     const maxIndent = vw * MAX_INDENT_FRAC
     const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
     const entryX = vw * ENTRY_X_FRAC
     const entryZoneSpan = vh - settleEndY
-    const cumGap = rowLayout.cumGap
-    const n = tls.length
-    const lastIdx = n - 1
-
-    const naturalX = new Array<number>(n)
-    const naturalY = new Array<number>(n)
 
     const render = () => {
-      const scrollOffset = scrollOffsetRef.current
-      const topIdx = scrollOffset / rowHeight
-      const i0 = Math.max(0, Math.min(lastIdx, Math.floor(topIdx)))
-      const i1 = Math.min(lastIdx, i0 + 1)
-      const frac = Math.max(0, Math.min(1, topIdx - i0))
-      const anchorCum = cumGap[i0] * (1 - frac) + cumGap[i1] * frac
+      const flowScroll = flowScrollRef.current
+      const soloScroll = soloScrollRef.current
+      const rawProgress = soloProgressRef.current
+      const t = easeInOut(rawProgress)
 
-      // Pass 1: compute natural (x, y) for every row
-      for (let i = 0; i < n; i++) {
-        const y = i * rowHeight - scrollOffset
-        const rowCenterY = y + halfRow
-        const diagonalX = (rowCenterY / vh) * maxIndent
-        const gapX = (cumGap[i] - anchorCum) * H_GAP_SCALE
-        let nx = diagonalX + gapX
-        if (rowCenterY > settleEndY) {
-          const raw = (rowCenterY - settleEndY) / entryZoneSpan
-          const progress = raw > 1 ? 1 : raw
-          const eased = progress * progress
-          nx = nx + (entryX - nx) * eased
-        }
-        naturalX[i] = nx
-        naturalY[i] = y
-      }
+      const fn = flowLayout.visibleIdxs.length
+      const flowTopIdx = flowScroll / rowHeight
+      const fi0 = Math.max(0, Math.min(Math.max(0, fn - 1), Math.floor(flowTopIdx)))
+      const fi1 = Math.min(Math.max(0, fn - 1), fi0 + 1)
+      const ffrac = Math.max(0, Math.min(1, flowTopIdx - fi0))
+      const flowAnchorCum = (flowLayout.cumGap[fi0] ?? 0) * (1 - ffrac) + (flowLayout.cumGap[fi1] ?? 0) * ffrac
 
-      // Pass 2: chain-pull factor (x-only), then write transforms
-      const pull = chainPullRef.current
-      let pullFactor = 0
-      let tappedIdx = -1
-      let memberSet: Set<number> | null = null
-      if (pull) {
-        const elapsed = performance.now() - pull.startTime
-        if (elapsed < PULL_IN_MS) {
-          const t = elapsed / PULL_IN_MS
-          pullFactor = 1 - (1 - t) * (1 - t)
-        } else if (elapsed < PULL_IN_MS + PULL_HOLD_MS) {
-          pullFactor = 1
-        } else if (elapsed < PULL_IN_MS + PULL_HOLD_MS + PULL_RELEASE_MS) {
-          const t = (elapsed - PULL_IN_MS - PULL_HOLD_MS) / PULL_RELEASE_MS
-          pullFactor = (1 - t) * (1 - t)
-        } else {
-          chainPullRef.current = null
-        }
-        if (chainPullRef.current) {
-          tappedIdx = pull.tappedIdx
-          memberSet = pull.memberSet
-        }
-      }
-
-      for (let i = 0; i < n; i++) {
+      for (let i = 0; i < tls.length; i++) {
         const bar = barRefs.current[i]
-        const icon = iconRefs.current[i]
-        const y = naturalY[i]
-        let x = naturalX[i]
-        if (memberSet && memberSet.has(i)) {
-          const tX = naturalX[tappedIdx]
-          x = x + (tX - x) * pullFactor * PULL_STRENGTH
+        if (!bar) continue
+        const vi = flowLayout.visIdxByRow.get(i)
+        const si = soloLayout.soloIdxByRow.get(i)
+        const inFlow = vi !== undefined
+        const inSolo = si !== undefined
+
+        if (!inFlow && !inSolo) {
+          bar.style.opacity = '0'
+          bar.style.visibility = 'hidden'
+          continue
         }
-        if (bar) bar.style.transform = `translate3d(${x}px, ${y}px, 0)`
-        if (icon) icon.style.transform = `translate3d(0px, ${y}px, 0)`
+
+        // Flow target
+        let flowX: number
+        let flowY: number
+        let flowOpacity: number
+        if (inFlow) {
+          const vind = vi as number
+          flowY = vind * rowHeight - flowScroll
+          const rowCenterY = flowY + halfRow
+          const diagonalX = (rowCenterY / vh) * maxIndent
+          const gapX = ((flowLayout.cumGap[vind] ?? 0) - flowAnchorCum) * H_GAP_SCALE
+          let nx = diagonalX + gapX
+          if (rowCenterY > settleEndY) {
+            const raw = (rowCenterY - settleEndY) / entryZoneSpan
+            const progress = raw > 1 ? 1 : raw
+            const eased = progress * progress
+            nx = nx + (entryX - nx) * eased
+          }
+          flowX = nx
+          flowOpacity = 1
+        } else {
+          // Chain member outside the current zone filter — parked
+          // off-screen right. When solo kicks in, it slides in from there.
+          flowX = vw + 80
+          flowY = halfRow
+          flowOpacity = 0
+        }
+
+        // Solo target
+        let soloX: number
+        let soloY: number
+        let soloOpacity: number
+        if (inSolo) {
+          const sind = si as number
+          soloY = sind * rowHeight + soloStackCenter - soloScroll
+          soloX = soloLeftPad
+          soloOpacity = 1
+        } else {
+          // Non-member: slide off to the right and fade.
+          soloX = flowX + vw * 1.1
+          soloY = flowY
+          soloOpacity = 0
+        }
+
+        const x = flowX + (soloX - flowX) * t
+        const y = flowY + (soloY - flowY) * t
+        const opT = flowOpacity + (soloOpacity - flowOpacity) * t
+        const baseAlpha = tls[i].hasContent ? 1 : 0.35
+        const op = opT * baseAlpha
+
+        bar.style.transform = `translate3d(${x}px, ${y}px, 0)`
+        bar.style.opacity = String(op)
+        bar.style.visibility = op > 0.01 ? 'visible' : 'hidden'
       }
     }
 
-    const startChainPull = (tappedIdx: number) => {
-      const members = chainMembers.get(tappedIdx)
-      if (!members || members.size === 0) return
-      stopMomentum()
-      if (pullRafRef.current) {
-        cancelAnimationFrame(pullRafRef.current)
-        pullRafRef.current = 0
-      }
-      chainPullRef.current = {
-        startTime: performance.now(),
-        tappedIdx,
-        memberSet: members,
-      }
+    const isAnimating = () => soloAnimRafRef.current > 0
+
+    const startSoloAnim = () => {
+      if (soloAnimRafRef.current) cancelAnimationFrame(soloAnimRafRef.current)
       const step = () => {
-        render()
-        if (!chainPullRef.current) {
-          pullRafRef.current = 0
-          return
+        const start = soloAnimStartRef.current ?? performance.now()
+        const elapsed = performance.now() - start
+        const raw = Math.min(1, Math.max(0, elapsed / SOLO_ANIM_MS))
+        if (soloDirRef.current === 1) {
+          soloProgressRef.current = raw
+        } else {
+          soloProgressRef.current = 1 - raw
         }
-        pullRafRef.current = requestAnimationFrame(step)
+        render()
+        if (raw < 1) {
+          soloAnimRafRef.current = requestAnimationFrame(step)
+        } else {
+          soloAnimRafRef.current = 0
+          if (soloDirRef.current === 0) {
+            // Exit complete — drop the active chain so flow mode owns it again.
+            setActiveChainId(null)
+          }
+        }
       }
-      pullRafRef.current = requestAnimationFrame(step)
+      soloAnimRafRef.current = requestAnimationFrame(step)
     }
 
-    render()
+    // If the prop-change effect already queued an animation direction,
+    // kick it off on this layout pass.
+    if (soloAnimStartRef.current !== null && soloAnimRafRef.current === 0) {
+      const wantsEnter = soloDirRef.current === 1
+      const atTarget = wantsEnter ? soloProgressRef.current >= 1 : soloProgressRef.current <= 0
+      if (!atTarget) startSoloAnim()
+      else render()
+    } else {
+      render()
+    }
 
     const stopMomentum = () => {
       if (momentumRafRef.current) {
@@ -254,24 +324,26 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       }
     }
 
+    const inSoloMode = () => soloProgressRef.current >= 0.99 && activeChainId !== null
+
     const startMomentum = () => {
       stopMomentum()
+      const solo = inSoloMode()
       const step = () => {
         velocityRef.current *= FRICTION
-        scrollOffsetRef.current += velocityRef.current
-        if (scrollOffsetRef.current < 0) {
-          scrollOffsetRef.current = 0
-          velocityRef.current = 0
-        } else if (scrollOffsetRef.current > maxScroll) {
-          scrollOffsetRef.current = maxScroll
-          velocityRef.current = 0
+        if (solo) {
+          soloScrollRef.current += velocityRef.current
+          if (soloScrollRef.current < 0) { soloScrollRef.current = 0; velocityRef.current = 0 }
+          else if (soloScrollRef.current > soloMaxScroll) { soloScrollRef.current = soloMaxScroll; velocityRef.current = 0 }
+        } else {
+          flowScrollRef.current += velocityRef.current
+          if (flowScrollRef.current < 0) { flowScrollRef.current = 0; velocityRef.current = 0 }
+          else if (flowScrollRef.current > flowMaxScroll) { flowScrollRef.current = flowMaxScroll; velocityRef.current = 0 }
         }
         render()
         if (Math.abs(velocityRef.current) > MIN_VELOCITY) {
           momentumRafRef.current = requestAnimationFrame(step)
-        } else {
-          momentumRafRef.current = 0
-        }
+        } else momentumRafRef.current = 0
       }
       momentumRafRef.current = requestAnimationFrame(step)
     }
@@ -295,10 +367,9 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       e.preventDefault()
       const y = e.touches[0].clientY
       const x = e.touches[0].clientX
-      const t = performance.now()
+      const now = performance.now()
       const dy = y - lastTouchYRef.current
-      const dt = t - lastTouchTimeRef.current
-      // Tap tracking — distance from the touch's starting point
+      const dt = now - lastTouchTimeRef.current
       if (!touchMovedRef.current) {
         const distX = x - touchStartXRef.current
         const distY = y - touchStartYRef.current
@@ -306,58 +377,91 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
           touchMovedRef.current = true
         }
       }
-      scrollOffsetRef.current -= dy
-      if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
-      else if (scrollOffsetRef.current > maxScroll) scrollOffsetRef.current = maxScroll
+      if (isAnimating()) {
+        // Swallow scroll input during the solo transition.
+        lastTouchYRef.current = y
+        lastTouchTimeRef.current = now
+        return
+      }
+      if (inSoloMode()) {
+        soloScrollRef.current -= dy
+        if (soloScrollRef.current < 0) soloScrollRef.current = 0
+        else if (soloScrollRef.current > soloMaxScroll) soloScrollRef.current = soloMaxScroll
+      } else {
+        flowScrollRef.current -= dy
+        if (flowScrollRef.current < 0) flowScrollRef.current = 0
+        else if (flowScrollRef.current > flowMaxScroll) flowScrollRef.current = flowMaxScroll
+      }
       if (dt > 0) velocityRef.current = -dy * (16.67 / dt)
       lastTouchYRef.current = y
-      lastTouchTimeRef.current = t
+      lastTouchTimeRef.current = now
       render()
     }
 
-    const onTouchEnd = (e: TouchEvent) => {
+    const onTouchEnd = () => {
       if (!isTouchingRef.current) return
       isTouchingRef.current = false
-      // Tap detection: no meaningful movement, quick release, and momentum
-      // wasn't the reason the user tapped (first-tap-stops pattern).
       if (
         !touchMovedRef.current &&
         !wasMomentumRef.current &&
+        !isAnimating() &&
         performance.now() - touchStartTimeRef.current < TAP_TIME_THRESHOLD
       ) {
         const rect = el.getBoundingClientRect()
         const touchY = touchStartYRef.current - rect.top
-        const contentY = touchY + scrollOffsetRef.current
-        const idx = Math.floor(contentY / rowHeight)
-        if (idx >= 0 && idx < tls.length) {
-          const tapped = tls[idx]
-          // Icon tap region (right edge of the viewport)
-          const touchXInRect = touchStartXRef.current - rect.left
-          if (touchXInRect > vw - ICON_TAP_WIDTH && chainMembers.has(idx)) {
-            startChainPull(idx)
-            return
-          }
-          if (tapped.hasContent) {
-            // Full browser navigation instead of router.push — iOS
-            // Safari holds onto the body's locked scroll state through
-            // a client-side React transition and the first few touches
-            // on the new page get swallowed. A hard navigation
-            // discards the entire page, so the new route loads with a
-            // completely fresh scroll engine.
-            window.location.href = `/${tapped.id}`
+
+        // Chip tap first — hit-test via elementFromPoint.
+        const hit = document.elementFromPoint(touchStartXRef.current, touchStartYRef.current)
+        const chipEl = hit && (hit as Element).closest ? (hit as Element).closest('[data-chain-chip]') as HTMLElement | null : null
+        if (chipEl) {
+          const chainId = chipEl.getAttribute('data-chain-id')
+          if (chainId) {
+            onChainSolo(soloChainId === chainId ? null : chainId)
             return
           }
         }
+
+        // Row nav tap
+        if (inSoloMode()) {
+          const contentY = touchY + soloScrollRef.current - soloStackCenter
+          const sindex = Math.floor(contentY / rowHeight)
+          if (sindex >= 0 && sindex < soloLayout.order.length) {
+            const rowIdx = soloLayout.order[sindex]
+            const tl = tls[rowIdx]
+            if (tl && tl.hasContent) {
+              window.location.href = `/${tl.id}`
+              return
+            }
+          }
+        } else {
+          const contentY = touchY + flowScrollRef.current
+          const vindex = Math.floor(contentY / rowHeight)
+          if (vindex >= 0 && vindex < flowLayout.visibleIdxs.length) {
+            const rowIdx = flowLayout.visibleIdxs[vindex]
+            const tl = tls[rowIdx]
+            if (tl && tl.hasContent) {
+              window.location.href = `/${tl.id}`
+              return
+            }
+          }
+        }
       }
-      if (Math.abs(velocityRef.current) > MIN_VELOCITY) startMomentum()
+      if (Math.abs(velocityRef.current) > MIN_VELOCITY && !isAnimating()) startMomentum()
     }
 
     const onWheel = (e: WheelEvent) => {
       e.preventDefault()
       stopMomentum()
-      scrollOffsetRef.current += e.deltaY
-      if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
-      else if (scrollOffsetRef.current > maxScroll) scrollOffsetRef.current = maxScroll
+      if (isAnimating()) return
+      if (inSoloMode()) {
+        soloScrollRef.current += e.deltaY
+        if (soloScrollRef.current < 0) soloScrollRef.current = 0
+        else if (soloScrollRef.current > soloMaxScroll) soloScrollRef.current = soloMaxScroll
+      } else {
+        flowScrollRef.current += e.deltaY
+        if (flowScrollRef.current < 0) flowScrollRef.current = 0
+        else if (flowScrollRef.current > flowMaxScroll) flowScrollRef.current = flowMaxScroll
+      }
       render()
     }
 
@@ -369,13 +473,17 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
 
     return () => {
       stopMomentum()
+      if (soloAnimRafRef.current) {
+        cancelAnimationFrame(soloAnimRafRef.current)
+        soloAnimRafRef.current = 0
+      }
       el.removeEventListener('touchstart', onTouchStart)
       el.removeEventListener('touchmove', onTouchMove)
       el.removeEventListener('touchend', onTouchEnd)
       el.removeEventListener('touchcancel', onTouchEnd)
       el.removeEventListener('wheel', onWheel)
     }
-  }, [tls, barWidths, rowLayout, viewportSize, rowHeight, router, chainMembers])
+  }, [tls, barWidths, flowLayout, soloLayout, viewportSize, rowHeight, soloChainId, activeChainId, onChainSolo])
 
   return (
     <div
@@ -391,46 +499,10 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       {tls.map((tl, i) => {
         const regionColor = theme.regionColors[tl.region]
         const barW = barWidths[i] ?? MIN_BAR
-        // Initial inline transform — guarantees the first paint after the
-        // viewport is measured already shows each row in its correct
-        // position, even if any layout-effect race would otherwise show a
-        // stacked-at-(0,0) frame.
-        let initialTransform: string | undefined
-        if (viewportSize.width > 0 && viewportSize.height > 0 && rowLayout.cumGap[i] !== undefined) {
-          const so = scrollOffsetRef.current
-          const vh = viewportSize.height
-          const vw = viewportSize.width
-          const y = i * rowHeight - so
-          const rowCenterY = y + rowHeight / 2
-          const maxIndent = vw * MAX_INDENT_FRAC
-          const lastIdx = rowLayout.cumGap.length - 1
-          const topIdx = so / rowHeight
-          const ai0 = Math.max(0, Math.min(lastIdx, Math.floor(topIdx)))
-          const ai1 = Math.min(lastIdx, ai0 + 1)
-          const afrac = Math.max(0, Math.min(1, topIdx - ai0))
-          const anchorCum = rowLayout.cumGap[ai0] * (1 - afrac) + rowLayout.cumGap[ai1] * afrac
-          const diagonalX = (rowCenterY / vh) * maxIndent
-          const gapX = (rowLayout.cumGap[i] - anchorCum) * H_GAP_SCALE
-          const naturalX = diagonalX + gapX
-          const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
-          let x = naturalX
-          if (rowCenterY > settleEndY) {
-            const raw = (rowCenterY - settleEndY) / (vh - settleEndY)
-            const progress = raw > 1 ? 1 : raw
-            const eased = progress * progress
-            const entryX = vw * ENTRY_X_FRAC
-            x = naturalX + (entryX - naturalX) * eased
-          }
-          initialTransform = `translate3d(${x}px, ${y}px, 0)`
-        }
-        const hasChain = chainMembers.has(i)
-        const iconInitialTransform =
-          viewportSize.width > 0 && viewportSize.height > 0
-            ? `translate3d(0px, ${i * rowHeight - scrollOffsetRef.current}px, 0)`
-            : undefined
+        const chain = rowChainInfo.get(i)
         return (
-          <Fragment key={tl.id}>
           <div
+            key={tl.id}
             ref={el => { barRefs.current[i] = el }}
             style={{
               position: 'absolute',
@@ -441,11 +513,11 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
               flexDirection: 'column',
               justifyContent: 'center',
               alignItems: 'flex-start',
-              gap: 2,
-              willChange: 'transform',
+              gap: 3,
+              willChange: 'transform, opacity',
               pointerEvents: 'none',
-              transform: initialTransform,
-              opacity: tl.hasContent ? 1 : 0.35,
+              opacity: 0,
+              visibility: 'hidden',
             }}
           >
             <div
@@ -480,10 +552,64 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
                 }}
               />
               <span>{tl.label}</span>
-              <span style={{ opacity: 0.35 }}>·</span>
-              <span style={{ opacity: 0.5, fontWeight: 400, fontSize: 11 }}>
+            </div>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 8,
+                paddingLeft: 14,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              <span
+                style={{
+                  fontSize: 11,
+                  color: theme.label.color,
+                  opacity: 0.5,
+                  fontWeight: 400,
+                }}
+              >
                 {formatYearRange(tl.startYear, tl.endYear)}
               </span>
+              {chain && (
+                <span
+                  data-chain-chip="1"
+                  data-chain-id={chain.chainId}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: 4,
+                    fontSize: 10,
+                    fontWeight: 500,
+                    color: theme.label.color,
+                    opacity: 0.65,
+                    padding: '2px 7px',
+                    borderRadius: 999,
+                    border: `1px solid ${theme.headerBorder}`,
+                    background: 'rgba(255,255,255,0.04)',
+                    pointerEvents: 'auto',
+                    cursor: 'pointer',
+                  }}
+                >
+                  <svg
+                    width="9"
+                    height="9"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+                  </svg>
+                  <span>
+                    {chain.shortLabel} {chain.index + 1}/{chain.total}
+                  </span>
+                </span>
+              )}
             </div>
             {tl.subtitle && (
               <div
@@ -501,39 +627,6 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
               </div>
             )}
           </div>
-          {hasChain && (
-            <div
-              ref={el => { iconRefs.current[i] = el }}
-              style={{
-                position: 'absolute',
-                top: 0,
-                right: 12,
-                height: rowHeight,
-                display: 'flex',
-                alignItems: 'center',
-                pointerEvents: 'none',
-                color: theme.textPrimary,
-                opacity: 0.45,
-                willChange: 'transform',
-                transform: iconInitialTransform,
-              }}
-            >
-              <svg
-                width="15"
-                height="15"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-              </svg>
-            </div>
-          )}
-          </Fragment>
         )
       })}
     </div>

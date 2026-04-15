@@ -8,10 +8,11 @@ import {
   type NavigatorTl,
 } from '@/lib/navigator-tls'
 import { STONE_THEME } from '@/lib/navigator-themes'
+import { TL_CHAINS } from '../../../reference-data/tl-chains'
 import { TlFlow } from './tl-flow'
 import { ZoneToggles } from './zone-toggles'
 
-const ROW_HEIGHT_FALLBACK = 56
+const ROW_HEIGHT_FALLBACK = 72
 const HEADER_HEIGHT = 88
 
 function sortTls(tls: NavigatorTl[]): NavigatorTl[] {
@@ -22,6 +23,7 @@ export function TlNavigator() {
   const [enabledZones, setEnabledZones] = useState<Set<NavigatorRegion>>(
     () => new Set<NavigatorRegion>(REGION_ORDER),
   )
+  const [soloChainId, setSoloChainId] = useState<string | null>(null)
 
   const theme = STONE_THEME
 
@@ -57,12 +59,6 @@ export function TlNavigator() {
     body.style.overscrollBehavior = 'none'
     body.style.touchAction = 'none'
     return () => {
-      // Restore in a careful order: drop position:fixed LAST and use
-      // explicit reset values (not the captured possibly-empty strings)
-      // so iOS Safari definitely re-engages its scroll engine on the
-      // navigated-to page. Empty-string cleanup falls back to CSS
-      // inheritance, which Safari sometimes doesn't pick up until
-      // several touches have fired.
       body.style.touchAction = 'pan-y'
       body.style.overscrollBehavior = 'auto'
       body.style.overflow = 'visible'
@@ -74,16 +70,9 @@ export function TlNavigator() {
       body.style.position = 'static'
       html.style.overflow = 'visible'
       html.style.height = ''
-      // Force synchronous layout flush so Safari sees the new body
-      // state before the next paint.
       void body.offsetHeight
-      // Kick the scroll engine. scrollTo(0, 1) then (0, 0) is the
-      // classic iOS trick to force Safari out of whatever cached
-      // "body isn't scrollable" state it was holding.
       window.scrollTo(0, 1)
       window.scrollTo(0, 0)
-      // Finally, drop our overrides back to inherited/empty so the
-      // page's own CSS owns the values going forward.
       body.style.touchAction = prev.bodyTouchAction
       body.style.overscrollBehavior = prev.bodyOverscroll
       body.style.overflow = prev.bodyOverflow
@@ -107,10 +96,18 @@ export function TlNavigator() {
     })
   }, [])
 
-  const sortedTls = useMemo(
-    () => sortTls(NAVIGATOR_TLS.filter(tl => enabledZones.has(tl.region))),
-    [enabledZones],
+  // Pass all tls always; TlFlow handles zone filtering + chain solo animation.
+  const allSortedTls = useMemo(() => sortTls(NAVIGATOR_TLS), [])
+
+  const activeChain = useMemo(
+    () => (soloChainId ? TL_CHAINS.find(c => c.id === soloChainId) ?? null : null),
+    [soloChainId],
   )
+  const activeChainCount = useMemo(() => {
+    if (!activeChain) return 0
+    const known = new Set(NAVIGATOR_TLS.map(t => t.id))
+    return activeChain.entries.filter(e => known.has(e.timelineId)).length
+  }, [activeChain])
 
   return (
     <div
@@ -126,7 +123,6 @@ export function TlNavigator() {
         flexDirection: 'column',
       }}
     >
-      {/* Header */}
       <div
         style={{
           height: HEADER_HEIGHT,
@@ -142,13 +138,57 @@ export function TlNavigator() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Timeline Navigator</div>
         </div>
-        <ZoneToggles enabled={enabledZones} onToggle={toggleZone} onSolo={soloZone} theme={theme} />
+        {activeChain ? (
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <button
+              onClick={(e) => { e.stopPropagation(); setSoloChainId(null) }}
+              onPointerDown={(e) => e.stopPropagation()}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 8,
+                padding: '5px 10px 5px 10px',
+                fontSize: 11,
+                fontWeight: 600,
+                letterSpacing: '0.02em',
+                borderRadius: 999,
+                border: `1px solid ${theme.toggle.offBorder}`,
+                background: 'rgba(255,255,255,0.06)',
+                color: theme.textPrimary,
+                cursor: 'pointer',
+              }}
+            >
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+              </svg>
+              <span>{activeChain.label}</span>
+              <span style={{ opacity: 0.5, fontWeight: 400 }}>·</span>
+              <span style={{ opacity: 0.7, fontWeight: 400 }}>{activeChainCount} timelines</span>
+              <span style={{ opacity: 0.5, fontSize: 13, marginLeft: 2 }}>×</span>
+            </button>
+          </div>
+        ) : (
+          <ZoneToggles enabled={enabledZones} onToggle={toggleZone} onSolo={soloZone} theme={theme} />
+        )}
       </div>
 
       <TlFlow
-        tls={sortedTls}
+        tls={allSortedTls}
+        enabledZones={enabledZones}
         rowHeight={theme.rowHeight ?? ROW_HEIGHT_FALLBACK}
         theme={theme}
+        soloChainId={soloChainId}
+        onChainSolo={setSoloChainId}
       />
     </div>
   )

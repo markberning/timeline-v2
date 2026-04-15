@@ -65,7 +65,7 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
 - Fixed-position viewport anchored at top with `height: 100svh` (not `inset: 0`, which would extend behind the Safari bottom toolbar). Stone theme warm dark bg `#22201e`, matching the narrative dark mode bg so the transition between navigator and narrative is seamless.
 - Header (~88px): title + 5 zone toggle pills. No zoom buttons, no time axis — they aren't needed in the flow layout.
 - Body: `TlFlow` component handles everything below the header. `overflow: hidden`, `touch-action: none`. All scroll is JS-driven via touch handlers; no native scroll.
-- Each row is a single absolutely-positioned element with one `translate3d(x, y, 0)` transform per frame. Rows with chain membership get a companion chain-icon element (separate ref, `translate3d(0, y, 0)`) pinned to `right: 12`.
+- Each row is a single absolutely-positioned element with `translate3d(x, y, 0)` + `opacity` written per frame. The row renders as 3 stacked lines: (1) region hairline + name, (2) date range + optional chain chip, (3) italic subtitle. `rowHeight = 72`.
 
 ### Data
 - 71 TLs in `NAVIGATOR_TLS` (`src/lib/navigator-tls.ts`): id, label, subtitle, region, startYear, endYear, optional `isReal` and `hasContent` flags. Only `mesopotamia` and `indus-valley` have `hasContent: true`; everything else renders at opacity 0.35.
@@ -84,7 +84,7 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
      - `diagonalX = (rowCenterY / vh) * maxIndent` — scroll-driven diagonal, `MAX_INDENT_FRAC = 0.3`
      - `gapX = (cumGap[i] - anchorCum) * H_GAP_SCALE` where `anchorCum` is a linear interpolation of `cumGap` at the fractional topmost row (`scrollOffset / rowHeight`). `H_GAP_SCALE = 0.38` (px per sqrt-year). This makes clusters of similar-era TLs pack tight and big historical jumps open a wider horizontal step, without pushing rows off-screen (the anchor re-centers the topmost visible row at x=0).
      - Entry zone: if `rowCenterY > vh * (1 - ENTRY_ZONE_FRAC)` (`0.33`), lerp `x` toward `entryX = vw * 0.85` with `progress = ((rowCenterY - settleEndY) / entryZoneSpan)²`. New TLs visibly fly in from the lower right and glide diagonally into place as they scroll up.
-  2. Chain-pull offset (x-only, see below), then write one `translate3d` per row to `barRefs[i]` and another to `iconRefs[i]` (icons track row y but keep x anchored to the viewport's right edge).
+  2. Solo blend (see Chain-solo mode below): lerp between the natural flow `(x, y)` and a stacked chain-solo target by `soloProgressRef` (0–1, eased), then write one `translate3d` + `opacity` per row to `barRefs[i]`.
 
 ### Custom touch scroll
 - `overflow: hidden` + `touch-action: none` on the container; body is locked via `position: fixed` while the navigator is mounted (see iOS hardening below).
@@ -96,19 +96,25 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
 ### Tap detection
 - `TAP_MOVE_THRESHOLD = 10px`, `TAP_TIME_THRESHOLD = 500ms`, and a `wasMomentumRef` flag mean "tap during active momentum stops the scroll and does not fire any action".
 - On a clean tap, compute `rowIdx = floor((touchY - rect.top + scrollOffset) / rowHeight)`.
-- **Icon zone check first**: if `touchX > vw - ICON_TAP_WIDTH` (48px) AND `chainMembers.has(rowIdx)`, start a chain pull and return.
+- **Chip hit-test first**: `document.elementFromPoint(touchX, touchY).closest('[data-chain-chip]')`. If found, call `onChainSolo(chainId)` (toggles — tapping the chip of the already-soloed chain exits).
 - **Navigation next**: if `tls[rowIdx].hasContent`, use `window.location.href = '/' + id` — NOT `router.push`. Client-side React transitions leave iOS Safari's scroll engine in a stuck state for several touches on the next page; a hard navigation sidesteps it.
 - Otherwise, fall through to momentum launch.
 
-### Chain icons + chain-pull animation
-- `chainMembers` useMemo (rebuilt whenever `tls` changes) walks `TL_CHAINS` from `reference-data/tl-chains.ts` and builds a `Map<rowIdx, Set<rowIdx>>` of sibling row indices. Union across all chains a TL belongs to (some TLs like `persian-empire` are in multiple chains).
-- Only rows with at least one visible sibling render a chain-link SVG, anchored at `right: 12` on a separate ref'd element with its own `translate3d(0, y, 0)` transform. Icon color is `theme.textPrimary` at opacity 0.45. `pointer-events: none` — the container's touch handler does the hit-testing by coordinates.
-- On an icon-zone tap, `startChainPull(tappedIdx)` sets `chainPullRef = { startTime, tappedIdx, memberSet }` and launches an rAF loop that calls `render()` each frame. The animation has three phases:
-  - **Pull-in** (`PULL_IN_MS = 400`, ease-out): each sibling's `x` lerps from natural toward the tapped row's natural x with factor `1 - (1 - t)²`.
-  - **Hold** (`PULL_HOLD_MS = 200`): `factor = 1`, chain clustered at strength `PULL_STRENGTH = 0.8`.
-  - **Release** (`PULL_RELEASE_MS = 600`, ease-in): factor `(1 - t)²` back to 0. Siblings glide back to their natural positions.
-- **Only x is pulled**, not y. Vertical spacing stays untouched so the cluster reads as a column at the tapped row's x. This preserves chronological ordering visually.
-- **Known limitation**: siblings off-screen (above or below the viewport) are still pulled (their transforms are updated) but aren't visible. Scrolling isn't auto-triggered to reveal them. Future work: either scroll to center the tapped chain during pull, or constrain the pull so every sibling's target y stays within the viewport.
+### Chain chips + chain-solo mode
+- Every row whose TL belongs to at least one chain from `TL_CHAINS` shows an inline chain chip on line 2 next to the dates: a small chain-link glyph + `shortLabel` + `index/total` (e.g. `⛓ China 5/12`). `shortLabel` is a new field on `TlChain` — every chain has a compact form ("Chinese Dynasties" → "China", "Mesoamerican Civilizations" → "Mesoamerica", etc.). The chip is tagged `data-chain-chip="1" data-chain-id="..."` with `pointer-events: auto` on an otherwise `pointer-events: none` row.
+- `rowChainInfo` useMemo walks `TL_CHAINS` in order and assigns the *first* chain a row belongs to (rows in multiple chains show only their first chain's chip). Result: `Map<rowIdx, { chainId, shortLabel, index, total }>`.
+- Tapping a chip calls `onChainSolo(chainId)` (from the `TlNavigator` parent), which toggles `soloChainId`. Tapping the chip of the currently soloed chain exits back to flow mode. During the transition animation, taps are ignored (`isAnimating()` gate in `onTouchEnd` and `onTouchMove`).
+
+### Chain-solo animation
+- `soloChainId` prop flowing from the parent drives a single ref-based animation. `soloProgressRef` goes 0 → 1 for enter and 1 → 0 for exit over `SOLO_ANIM_MS = 650` (ease-in-out). `soloDirRef` tracks direction; `soloAnimStartRef` is the timestamp origin; `soloAnimRafRef` owns the rAF. Mid-animation prop changes reset the start time so the tween blends from the current progress.
+- `activeChainId` is React state (not a ref) so `soloLayout` useMemo recomputes when it changes. It's set immediately on enter and cleared only after the exit tween completes — this keeps the chain's stacked target positions valid through the exit.
+- Per frame `render()` computes, for every row in `tls`:
+  - **Flow target** `(flowX, flowY, flowOpacity)`: the normal diagonal/gap/entry-zone position if the row is in `flowLayout.visibleIdxs` (i.e. its region is in `enabledZones`). Otherwise parked off-screen right with `flowOpacity = 0` — chain members from disabled zones start invisible and slide in during the enter animation.
+  - **Solo target** `(soloX, soloY, soloOpacity)`: if the row is in the active chain's ordered member list, it stacks at `soloLeftPad` (6% of viewport width), `y = soloIdx * rowHeight + soloStackCenter - soloScroll`. `soloStackCenter` vertically centers the stack when it fits, otherwise uses a small top pad. Non-members slide further off-screen right and fade.
+  - **Blend**: `x = lerp(flowX, soloX, easeInOut(soloProgress))`, same for `y` and `opacity`. Rows with `opacity <= 0.01` also get `visibility: hidden` so `elementFromPoint` ignores them during chip hit-testing.
+- The `TlFlow` component now owns zone filtering internally (parent passes *all* tls + `enabledZones`); this is required so chain members in disabled zones still exist as DOM nodes and can animate in.
+- Two independent scroll offsets: `flowScrollRef` and `soloScrollRef`. Touch/wheel handlers write to whichever is active (`inSoloMode()` = `soloProgress >= 0.99 && activeChainId !== null`). Entering solo mode resets `soloScrollRef` to 0. Flow scroll is preserved across solo enter/exit so exiting the chain drops back where the user was.
+- The header shows either the zone toggles (flow mode) OR a "Chain: {label} · N timelines ×" pill (solo mode). Tapping × on the pill calls `setSoloChainId(null)` and plays the exit animation in reverse.
 
 ### iOS Safari hardening
 - Navigator wrapper uses `position: fixed; top: 0; left: 0; right: 0; height: 100svh`. `inset: 0` would use the large viewport and extend behind the bottom address bar; `100svh` respects the toolbar.
@@ -116,13 +122,13 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
 - On unmount, the cleanup restores the body to explicit reset values (`position: static`, `touch-action: pan-y`, `overflow: visible`), forces a reflow via `void body.offsetHeight`, calls `window.scrollTo(0, 1); scrollTo(0, 0)` to kick Safari's scroll engine out of its cached "body not scrollable" state, and then drops the overrides back to the captured previous values. Even with all of this, navigating via `router.push` leaves Safari holding onto enough state that the first few touches on the narrative page get swallowed — that's why tap navigation uses `window.location.href` instead.
 
 ### Stone theme
-- The only theme. Defined in `src/lib/navigator-themes.ts` as `STONE_THEME`. App bg `#22201e`, header bg `#2a2724`, `rowHeight: 56`, `bar.style: 'line'` (bar is a thin region-colored hairline, not a filled rectangle), region palette tuned warm.
-- Label stack per row: line (3px colored hairline at `scaleX(barW)`) → name row (`[dot] Name · start–end`) → subtitle (italic small opacity 0.55). Dates use `formatYearRange` that combines eras when both years share one (`1922–1991 CE`, `5000–539 BCE`).
+- The only theme. Defined in `src/lib/navigator-themes.ts` as `STONE_THEME`. App bg `#22201e`, header bg `#2a2724`, `rowHeight: 72`, `bar.style: 'line'` (bar is a thin region-colored hairline, not a filled rectangle), region palette tuned warm.
+- Label stack per row (3 lines): (1) region hairline at `scaleX(barW)` + `[dot] Name`, (2) dates + optional chain chip, (3) italic subtitle. Dates use `formatYearRange` that combines eras when both years share one (`1922–1991 CE`, `5000–539 BCE`).
 
 ### Deferred / out of scope
-- Reveal off-screen chain siblings during pull (see Known limitation above).
 - Tap-to-expand subtitle / tooltip preview of a non-content TL.
-- Per-chain coloring of the chain icon (currently neutral).
+- Per-chain coloring of the chain chip (currently neutral).
+- Browse between chains from within chain-solo mode (e.g. swipe to adjacent chain).
 - Follow-mode and gap markers from earlier swimlane experiments — superseded by the flow layout.
 
 ## Link pipeline (event links + glossary links)
