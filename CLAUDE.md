@@ -12,12 +12,13 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 ## Tech Stack
 - **Framework**: Next.js 16 + React 19 + TypeScript
 - **Styling**: Tailwind 4 + @tailwindcss/typography
-- **Build**: `npm run parse` converts markdown narratives → JSON with event links, enriched images, and chapter maps
-- **Dev**: `npm run dev` → localhost:3000
+- **Build**: `npm run parse` runs automatically as `prebuild`; `npm run build` calls `scripts/build-static.mjs` which temporarily stashes dev-only routes (`/api/*`, `/candidates`, `/review`) and runs `next build` with `output: 'export'` to produce a fully static `out/` directory.
+- **Deploy**: Cloudflare Workers + Static Assets via `wrangler.jsonc`. `stuffhappened.com` is the v2 production domain; `v1.stuffhappened.com` is the legacy Vite explorer. Both projects live in the same CF account.
+- **Dev**: `npm run dev` → localhost:3000. Dev server keeps the dev-only api routes and dynamic review pages for local image curation.
 
 ## Content Pipeline
-0. **Pull v1 reference data** — before starting a new TL, check `~/projects/personal/timeline/src/data/{tlId}.json`. v1 has curated pitch/spans/events for most of the 71 navigator TLs in the same format as v2. Copy it to `reference-data/{tlId}.json` and write the narrative against it. Only build reference data from scratch if v1 genuinely has nothing.
-1. **Write narrative** using all writing rules in `rewrite-fixes.md`
+0. **Pull v1 reference data** — before starting a new TL, check `~/projects/personal/timeline/src/data/{tlId}.json`. v1 has curated pitch/spans/events for most of the 71 navigator TLs in the same format as v2. Copy it to `reference-data/{tlId}.json` and write the narrative against it. Only build reference data from scratch if v1 genuinely has nothing. Before starting narrative writing, **review the v1 event list for coverage gaps** — some TLs never got a v1 overhaul and may be thin on events. If the event count looks light relative to the civilization's scope, propose additions up front and expand the reference data before writing begins.
+1. **Write narrative** — Claude drafts the chapter-based prose. The user never hand-writes narratives; Claude does all writing, the user reviews and directs. Apply all writing rules in `rewrite-fixes.md`.
 2. **Audit** using the 5-persona system in `.claude/skills/audit-narrative.md`
 3. **Fix** audit findings
 4. **Reconcile** — add any events/terms from the narrative that are missing from the TL reference data
@@ -39,9 +40,10 @@ src/
     review/[civilizationId]/    — image review page
     api/review/                 — saves review results to file
   components/
-    chapter-accordion.tsx       — expandable chapter with sticky header + map
-    narrative-reader.tsx        — client wrapper for event link click delegation
-    event-sheet.tsx             — bottom sheet for event details (image, caption, details, wiki)
+    chapter-accordion.tsx       — expandable chapter with sticky header + map + X-close / Read-next bottom nav
+    narrative-reader.tsx        — client wrapper for event + glossary + cross-link click delegation; reads ?chapter=N on mount
+    event-sheet.tsx             — bottom sheet for event details (image, caption, desc/details rendered as HTML, wiki extract)
+    cross-link-sheet.tsx        — cross-cultural "Meanwhile in..." sheet; MutationObserver on <html> dark class
     lightbox.tsx                — pinch-to-zoom fullscreen image viewer
     dark-mode-toggle.tsx        — sun/moon toggle, persisted to localStorage
     text-size-control.tsx       — 5-step font size control (14-22px)
@@ -60,18 +62,24 @@ src/
     navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for mesopotamia, indus-valley, ancient-china)
     navigator-themes.ts         — Stone theme constants (warm dark bg, region palette, row height)
 scripts/
-  parse-narratives.ts           — markdown → JSON build pipeline
-  enrich-events.ts              — Wikimedia API: thumbnails, extracts, captions (cached)
+  parse-narratives.ts           — markdown → JSON build pipeline (two-pass: collects TL metadata first, then injects cross-links before event/glossary)
+  enrich-events.ts              — Wikimedia API: thumbnails, extracts, captions (cached); batch size 20 with exlimit=20, redirects=1, safeDecode slugs
+  build-static.mjs              — wraps `next build`, stashes dev-only routes (/api, /candidates, /review) during static export
+  optimize-maps.mjs             — one-shot PNG → WebP converter for chapter maps
   linkify.ts                    — legacy regex linkifier (replaced by curated links)
 narratives/                     — chapter-based prose narratives (one .md per civilization)
 reference-data/                 — TL JSON files from v1 (events, spans, chains)
 content/                        — generated JSON (gitignored except override files)
   .event-links-{tlId}.json     — curated event link placements per chapter
+  .glossary-links-{tlId}.json  — curated glossary term placements per chapter
+  .cross-links-{tlId}.json     — curated cross-cultural link placements per chapter
   .caption-overrides.json       — manual image captions (overrides Commons descriptions)
   .image-overrides.json         — manual image file replacements
   .image-rejections.json        — rejected images with reasons
   .enrichment-cache.json        — Wikimedia API cache (gitignored)
-public/maps/{tlId}/             — chapter map images (chapter-{N}.png)
+public/maps/{tlId}/             — chapter map images (chapter-{N}.webp, quality 85)
+wrangler.jsonc                  — Cloudflare Workers + Static Assets config (deploy target for stuffhappened.com)
+next.config.ts                  — output: 'export', trailingSlash: true, images: { unoptimized: true }
 audits/                         — audit reports from the 5-persona pipeline
 ```
 
@@ -79,11 +87,14 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Single-page accordion** — all chapters on one page, only one open at a time (siblings `display: none`)
 - **Sticky controls** — back link, text size (A/A), dark mode toggle always visible
 - **Chapter maps** — Gemini-generated maps at top of each expanded chapter with lightbox zoom (reserved aspect ratio so expand-scroll lands cleanly)
-- **Event links** — curated context-aware links in prose, colored by category (8 categories)
-- **Glossary links** — gray solid underline, curated per-chapter, opens bottom sheet with Wikipedia extract. Also work inside event wiki extracts.
-- **Event bottom sheet** — tap a linked event for image, caption, details sections, Wikipedia extract, read-more link. Swipe down or tap header to dismiss.
+- **Event links** — curated context-aware links in prose, colored by category (8 categories). Now also auto-injected into `event.description` and `event.details[].text` inside the EventSheet (not just the Wikipedia extract).
+- **Glossary links** — gray solid underline, curated per-chapter, opens bottom sheet with Wikipedia extract. All three shipped TLs now have full glossary coverage: Mesopotamia 336, Indus Valley 226, Ancient China 208. Glossary-linked inside chapter prose, summary bullets, event descriptions, event details, and event wiki extracts.
+- **Cross-cultural ("CCC") links** — dashed underline+overline bracketed phrase, colored in the *target* TL's chain color (not the host TL's). Tap opens a `CrossLinkSheet` with "Meanwhile in {label}" + a 1–3 sentence blurb + "Read {label} Ch N →" button that hard-navigates to `/{tl}?chapter=N` so the target chapter auto-expands on arrival. Curated per-chapter in `content/.cross-links-{tlId}.json`. Current inventory: Meso 11, Indus 28, Ancient China 17 (56 total). One `matchText` must cover exactly one civilization — compound phrases like "Egypt and Mesopotamia" get narrowed to just the linked civ.
+- **Event bottom sheet** — tap a linked event for image, caption, description, details sections, Wikipedia extract, read-more link. Description and details now render as HTML so inline glossary links work inside them.
 - **Glossary sheet** — gray-themed smaller variant of EventSheet.
-- **Summary bullets** — optional chronological bullet summary per chapter (with inline event/glossary links) + big "Read Chapter N →" button. Replaces the paragraph+chips layout. Used for all of Indus Valley.
+- **Cross-link sheet** — accent-colored header, MutationObserver watches `<html>` for `.dark` class changes so the accent reactively swaps between light and dark target colors when the user toggles the theme mid-session.
+- **Summary bullets** — chronological bullet summary per chapter with inline event/glossary/cross-link auto-linking + prominent "Read Chapter N →" button. Used for **all three TLs** now (Meso 121 bullets across 13 chapters, Indus 60+ across 10, Ancient China 52+ across 8). Bullet length scales by chapter density (6–12 per chapter).
+- **Chapter bottom nav** — every expanded chapter has a small × close button on the left and a prominent accent-colored "Read Chapter N+1 →" button filling the rest of the row. Last chapter shows only the ×. Tapping Read Next sets `openChapter = N+1`, which triggers the expand effect → `window.scrollTo({top: 0})` so the next chapter renders flush under the h1.
 - **Image enrichment** — Commons thumbnails + Wikipedia page image fallback, all verified at build time
 - **Image captions** — hand-written captions in `.caption-overrides.json`, informal 1–2 sentence voice
 - **Dark mode** — class-based, hardcoded `dark` on `<html>` in layout.tsx (anti-flash script only removes it if user has explicitly chosen light). Background `#22201e` warm dark, matches the navigator's Stone theme. `color-scheme: dark` declared so iOS Safari doesn't apply auto-dark. Bottom sheets use lighter `--surface` `#2f2c29` for elevation.
@@ -92,9 +103,13 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Viewport lock** — touch-action: pan-y prevents horizontal drift on mobile
 - **Lightbox** — double-tap to toggle zoom (exactly centered on tap point), pinch, pan, swipe-down dismiss, backdrop tap dismiss
 - **Gestures**: tap or swipe-right on chapter header to collapse; swipe-right on summary page navigates home
-- **Image review** — two pages: `/review/{tlId}` for QA of current images, `/candidates/{tlId}` for approving/rejecting new candidates with editable captions
-- **TL Navigator (home at `/`)** — custom-touch scroll flow layout of 71 civilizations. Vertical-only scrolling; each row has a fixed sqrt-compressed-duration bar width and its horizontal position is recomputed per frame from the row's y in the viewport (diagonal) plus a per-row year-gap offset (anchor-based). No global time axis. `TlFlow` (in `tl-flow.tsx`) owns scroll completely: container has `overflow: hidden` and `touch-action: none`, touchstart/move/end handlers track velocity and call a single `render()` that writes one `translate3d(x, y, 0)` per row. Friction-based momentum via rAF (`FRICTION = 0.94`).
-- **Stone theme** — the only navigator theme left. Warm dark bg `#22201e`, region palette, line-style bars (thin colored hairline + dot + name + faded dates on one row, italic subtitle below), row height 56.
+- **Image review** — two pages: `/review/{tlId}` for QA of current images, `/candidates/{tlId}` for approving/rejecting new candidates with editable captions. These are dev-only — stashed out of the tree during static build via `scripts/build-static.mjs` so production doesn't include them.
+- **Chapter expand/collapse scroll** — on expand (user tap or cross-link auto-expand via `?chapter=N`), always `window.scrollTo({top: 0})`. Because siblings are `display: none` while one chapter is open, the opened chapter is always the first visible chapter and sits right below the h1 + "N chapters" subtitle, so scrollY=0 shows sticky nav → h1 → subtitle → chapter header stacked naturally. On collapse, `sectionRef.scrollIntoView({block: 'start'})` honors the section's `scrollMarginTop: navHeight` so the just-closed chapter header lands cleanly below the sticky nav (previous headerRef-based version hid it behind the nav).
+- **TL Navigator (home at `/`)** — custom-touch scroll flow layout of 71 civilizations. Vertical-only scrolling; each row has a fixed sqrt-compressed-duration bar width and its horizontal position is recomputed per frame from the row's y in the viewport (diagonal) plus a per-row year-gap offset (anchor-based). No global time axis. `TlFlow` (in `tl-flow.tsx`) owns scroll completely: container has `overflow: hidden` and `touch-action: none`, touchstart/move/end handlers track velocity and call a single `render()` that writes one `translate3d(x, y, 0)` per row. Friction-based momentum via rAF (`FRICTION = 0.94`). Desktop mouse support via a parallel `pointerup` listener filtered to `pointerType === 'mouse'`.
+- **Navigator header** — reads "Stuff Happened — A Timeline App" with a small "v1 ↗" pill link to `https://v1.stuffhappened.com` for the legacy Vite explorer.
+- **Stone theme** — the only navigator theme left. Warm dark bg `#22201e`, region palette, line-style bars (thin colored hairline + dot + name + chain chip on row 1 next to label, faded dates on row 2, italic subtitle on row 3). Row height 92.
+- **Chain chip** — the chain identifier pill sits on row 1 next to the TL label with a 36px left gap, rounded border + subtle white fill, 14px text. Previous placement next to the dates on row 2 caused accidental taps when users aimed at the label and landed on the chip. `data-chain-chip="1"` + `data-chain-id="..."` + `pointer-events: auto` on an otherwise `pointer-events: none` row.
+- **WebP chapter maps** — every chapter map is stored as `.webp` quality 85 under `public/maps/{tlId}/chapter-{N}.webp`, converted from 1408×768 PNG via `scripts/optimize-maps.mjs` + sharp. Total size dropped from 56 MB → 2.1 MB (96% reduction) with no visible quality loss on the illustrated parchment-style maps.
 - **Gap-aware horizontal spacing** — each row's natural x is `(rowCenterY/vh) * maxIndent + (cumGap[i] - anchorCum) * H_GAP_SCALE`, where `cumGap[i]` is cumulative `sqrt(startYear - prev.startYear)` and `anchorCum` is interpolated at the fractional topmost visible row. Chronological clusters of similar-era TLs pack tight; big historical jumps produce a visibly wider horizontal step. `MAX_INDENT_FRAC = 0.3`, `H_GAP_SCALE = 0.38`.
 - **Entry zone** — rows whose center y is in the bottom third of the viewport ease out from `entryX = 0.85*vw` toward their natural x. New TLs visibly glide in from the lower right as they scroll up, locking into the diagonal as they cross into the top two-thirds.
 - **Subtitles** — every NavigatorTl has a short descriptive+evocative tagline (place anchor + flavor hook) rendered beneath the civ name in small italic.
@@ -108,7 +123,6 @@ audits/                         — audit reports from the 5-persona pipeline
 - Save-my-place (tap any sentence)
 - Footnotes
 - Theme threads (track a concept across chapters)
-- Deep links to specific sections
 - Outline summaries
 - Top drawer: interactive map (Ch 1), self-building timeline (Ch 2+)
 - Navigator: scroll-to-reveal off-screen chain siblings during chain pull (currently siblings off-screen are pulled but invisible)
@@ -129,10 +143,10 @@ audits/                         — audit reports from the 5-persona pipeline
 Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
 **Mesopotamian Succession chain** (pilot — complete):
-1. ✅ mesopotamia — 13 chapters, fully audited, 85 curated event links, **334 curated glossary links**, **84/89 images (95%)**, 13 chapter maps (verified)
+1. ✅ mesopotamia — 13 chapters, fully audited, 85 curated event links, **336 glossary links**, **121 summary bullets across 13 chapters**, **11 cross-links**, 84/89 images (95%), 13 WebP chapter maps, label "Mesopotamia"
 
 **Indian Subcontinent chain** (in progress):
-1. ✅ indus-valley — 10 chapters, audited, 66 curated event links, Ch 1 glossary (28 terms), **48/56 images (86%)**, **chronological summary bullets for all 10 chapters**, 10 chapter maps
+1. ✅ indus-valley — 10 chapters, audited, 66 event links, **226 glossary links**, **60+ summary bullets**, **28 cross-links** (heaviest edge, Ch 7 "A World Connected" has 8 links to Meso), 48/56 images (86%), 10 WebP chapter maps, label "Indus Valley"
 2. vedic-period
 3. maurya-empire
 4. post-maurya-kingdoms
@@ -143,7 +157,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 9. modern-india
 
 **Chinese Dynasties chain** (in progress):
-1. ✅ ancient-china — 8 chapters (~20k words), full 5-persona audit (Ch 3 and Ch 6 GOOD→STRONG after pass 1, all 8 STRONG), 37 curated event links (every event placed), chronological summary bullets for all 8 chapters, chapter maps pending. Backward cross-cultural pass applied to Mesopotamia and Indus Valley.
+1. ✅ ancient-china — 8 chapters (~20k words), full 5-persona audit (all 8 STRONG), 37 event links, **208 glossary links**, **52+ summary bullets**, **17 cross-links**, label "Ancient China", chapter maps pending. Backward cross-cultural pass applied to Mesopotamia and Indus Valley.
 2. shang-dynasty
 3. zhou-dynasty
 4. qin-dynasty
@@ -156,7 +170,12 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 11. chinese-revolution
 12. rise-of-china
 
-**Egypt chain** (after India/China):
+**Nubian Tradition chain** (next — starting ancient-nubia):
+1. 📝 ancient-nubia — reference data imported from v1 and expanded from 37 → **51 events** (added Ta-Seti naming, Qustul Cemetery L / Ta-Seti kingship controversy, Wawat and Yam, Harkhuf's Four Expeditions, Pepi II's Dancing Dwarf Letter, Semna Stele, Mirgissa Slipway, Eastern Deffufa, Kerma Fine Ware, Temple of Amada, Aniba/Miam, Nubian Egyptianization, Huy Viceroy, Admin Collapse). Covers 3500–1070 BCE. Chain color: ochre/yellow (`nubian-tradition` in accent-colors). Narrative writing is the next step.
+2. kingdom-of-kush
+3. kingdom-of-aksum
+
+**Egypt chain** (after Nubia):
 - ancient-egypt series (TBD split)
 
 ## Color System

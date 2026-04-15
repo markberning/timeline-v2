@@ -37,7 +37,7 @@ Source of truth for how the reader app should behave. Update this when we change
 - Bottom sheet, slides up with `animate-slide-up`.
 - Swipe down on header, tap header, or × button closes.
 - Tap backdrop closes.
-- Wiki extract rendered as HTML (so glossary links inside it are clickable).
+- `event.description`, each `event.details[].text`, and `event.wikiExtract` are all rendered as HTML via `dangerouslySetInnerHTML` — the parse step runs `linkGlossaryInText` over all three fields so any glossary term that naturally appears in those fields becomes a clickable link. Previously only `wikiExtract` got this treatment and glossary terms in descriptions rendered as plain text.
 
 ## GlossarySheet
 - Same gesture set as EventSheet but gray-themed.
@@ -225,3 +225,29 @@ Both workflows require `npm run parse` + dev-server restart afterward for change
 - For text-based events (Epic of Gilgamesh, Enuma Elish, Atra-Hasis, Plimpton 322), the actual cuneiform tablet of that text is the right image — don't try to find a "dramatic scene."
 - Avoid: generic civilization maps, wrong-culture objects, wrong-era objects, disambiguation-page defaults.
 - Skip abstract concepts (Temple Economy, Silver Currency, De-urbanization, governance absence) — no single artifact represents them; leave them imageless.
+
+## Chapter bottom navigation
+- Every expanded chapter has a row at the bottom containing a small `×` close button on the left and an accent-colored `Read Chapter N+1 →` primary button filling the rest. Last chapter shows only the `×`.
+- Tapping Read Next calls `setOpenChapter(next.number)` in `NarrativeReader`. The parent re-renders with the next chapter open and the current one hidden; the expand effect fires and scrolls to y=0, so the next chapter renders flush under the h1.
+- Previous behavior was a single full-width "Close Chapter N" link at the bottom. Replaced because readers finishing a chapter almost always want to start the next one, not collapse.
+
+## Navigator header
+- Title reads "Stuff Happened — A Timeline App" in 13px bold letter-spacing 0.03em.
+- Right side of the title row has a small pill link "v1 ↗" pointing at `https://v1.stuffhappened.com` — the legacy Vite explorer that previously lived at `stuffhappened.com` and now lives on the subdomain.
+- Below the title row: zone toggle pills (flow mode) OR the chain-solo pill (solo mode).
+
+## Navigator chain chip placement
+- Chain chip sits on **row 1 next to the TL label**, not on row 2 next to the dates. 36 px `marginLeft` from the label, 14 px font, 4×12 px padding, rounded-999 border, subtle `rgba(255,255,255,0.07)` background fill.
+- Historical context: earlier placements had the chip right after the date range on row 2 (8 px gap). Users aiming at the TL label on row 1 frequently landed on the chip below and accidentally triggered chain-solo. A "push to far right of row 2" attempt (marginLeft: auto with definite width) was rejected visually. Current row-1 placement + pill styling + 36 px gap is the shipped version.
+- Desktop mouse support: a parallel `pointerup` listener filtered to `pointerType === 'mouse'` runs the same chip hit-test via `elementFromPoint` that the touch handler uses. Touch devices continue to use the touchstart/touchend path; mouse filter keeps them from double-firing.
+
+## Deploy
+- **Target**: Cloudflare Workers + Static Assets. Production domain `stuffhappened.com`, legacy v1 lives on `v1.stuffhappened.com`, both projects in the same CF account.
+- **Build**: `npm run build` = `prebuild` (which runs `tsx scripts/parse-narratives.ts`) + `node scripts/build-static.mjs`. The build-static script stashes `src/app/api/`, `src/app/candidates/`, and `src/app/review/` out of the tree before `next build` runs, then restores them in a finally block. Those routes can't be statically exported (route handlers + `force-dynamic` Wikimedia-fetching pages) but are still useful for local dev image curation, so `next dev` continues to see them.
+- **next.config.ts**: `output: 'export'`, `trailingSlash: true`, `images: { unoptimized: true }`.
+- **wrangler.jsonc**: `name: "timeline-v2"`, `compatibility_date: "2024-12-30"`, `assets: { directory: "./out", not_found_handling: "404-page" }`. Wrangler uploads `out/` as the Workers static asset bundle; no `main` entry point because there's no edge logic.
+- **Dashboard**: Cloudflare Pages / Workers project `timeline-v2` is connected to `github.com/markberning/timeline-v2`. Build command `npm run build`, deploy command `npx wrangler deploy`. Pushes to `main` auto-trigger new builds.
+- **Chapter maps are WebP quality 85** under `public/maps/{tlId}/chapter-{N}.webp`. Converted via `scripts/optimize-maps.mjs` + sharp from the original 1408×768 PNGs. Total out/ size dropped 76 MB → 11 MB after this optimization.
+
+## Narrative authorship
+- **Claude always writes narratives.** The user never hand-writes prose; they review and direct. Before starting a new TL, always (1) pull v1 reference data, (2) review the event list for coverage gaps (some v1 TLs are thin because they never got a narrative-driven overhaul), (3) propose additions up front and expand the reference data before writing begins. Rules captured in `CLAUDE.md` Pipeline step 1 and `rewrite-fixes.md` header.

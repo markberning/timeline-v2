@@ -2,6 +2,8 @@
 
 Issues flagged while reading mesopotamia-rewrite.md. Apply these when we port chapters into v2 and when writing new TLs.
 
+**Who writes:** Claude drafts every narrative. The user never hand-writes narratives — they review and direct. If you're reading this before starting a new TL, you (Claude) are the one writing it. Before writing, review the v1 reference events for coverage gaps and propose additions; some v1 TLs never got a narrative-driven overhaul and may be thin.
+
 ---
 
 ## Core principle: Write for completeness, not for the existing event list
