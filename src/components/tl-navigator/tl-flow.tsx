@@ -12,8 +12,8 @@ interface Props {
 
 const MIN_BAR = 36
 const TARGET_MAX_FRAC = 0.7
-const MAX_INDENT_FRAC = 0.35         // scroll-dependent diagonal contribution
-const MAX_GAP_INDENT_FRAC = 0.2      // extra horizontal offset from cumulative year-gap
+const MAX_INDENT_FRAC = 0.2          // shallow scroll-dependent diagonal
+const GAP_SCALE = 1.2                // px per sqrt(year-gap) — local horizontal variation
 const ENTRY_ZONE_FRAC = 0.33         // bottom third of viewport is the fly-in zone
 const ENTRY_X_FRAC = 0.85            // new rows start at 85% of viewport width
 const FRICTION = 0.94
@@ -52,27 +52,21 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     return () => ro.disconnect()
   }, [])
 
-  // Per-row HORIZONTAL offset: cumulative sqrt(year-gap) from row 0,
-  // normalized to [0, 1]. Rows with similar start years pack together
-  // horizontally; big historical jumps open up a wider step. Monotonic
-  // in i so chronological order is preserved. Rows keep a uniform
-  // vertical rhythm (i * rowHeight).
+  // Per-row HORIZONTAL offset: raw cumulative sqrt(year-gap) in
+  // sqrt-year units. Each frame we subtract the anchor (the topmost
+  // visible row's cumGap, interpolated) so the visible window always
+  // starts near x=0 and later rows step rightward by the actual local
+  // gap. No normalization across the full list — that compressed the
+  // local variation into invisibility.
   const rowLayout = useMemo(() => {
     const n = tls.length
-    const baseXNorm = new Array<number>(n).fill(0)
-    if (n === 0) return { baseXNorm, totalHeight: 0 }
-    const cum = new Array<number>(n)
-    cum[0] = 0
+    const cumGap = new Array<number>(n).fill(0)
     for (let i = 1; i < n; i++) {
       const gap = Math.max(0, tls[i].startYear - tls[i - 1].startYear)
-      cum[i] = cum[i - 1] + Math.sqrt(gap)
-    }
-    const total = cum[n - 1]
-    if (total > 0) {
-      for (let i = 0; i < n; i++) baseXNorm[i] = cum[i] / total
+      cumGap[i] = cumGap[i - 1] + Math.sqrt(gap)
     }
     const totalHeight = n * rowHeight
-    return { baseXNorm, totalHeight }
+    return { cumGap, totalHeight }
   }, [tls, rowHeight])
 
   // Bar width per TL: sqrt-compressed duration, normalized so the longest
@@ -109,21 +103,29 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
 
     const maxIndent = vw * MAX_INDENT_FRAC
-    const maxGapIndent = vw * MAX_GAP_INDENT_FRAC
     const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
     const entryX = vw * ENTRY_X_FRAC
     const entryZoneSpan = vh - settleEndY
-    const baseXNorm = rowLayout.baseXNorm
+    const cumGap = rowLayout.cumGap
+    const n = tls.length
+    const lastIdx = n - 1
 
     const render = () => {
       const scrollOffset = scrollOffsetRef.current
-      for (let i = 0; i < tls.length; i++) {
+      // Anchor: interpolate cumGap at the current fractional topmost row
+      const topIdx = scrollOffset / rowHeight
+      const i0 = Math.max(0, Math.min(lastIdx, Math.floor(topIdx)))
+      const i1 = Math.min(lastIdx, i0 + 1)
+      const frac = Math.max(0, Math.min(1, topIdx - i0))
+      const anchorCum = cumGap[i0] * (1 - frac) + cumGap[i1] * frac
+
+      for (let i = 0; i < n; i++) {
         const bar = barRefs.current[i]
         if (!bar) continue
         const y = i * rowHeight - scrollOffset
         const rowCenterY = y + halfRow
         const diagonalX = (rowCenterY / vh) * maxIndent
-        const gapX = baseXNorm[i] * maxGapIndent
+        const gapX = (cumGap[i] - anchorCum) * GAP_SCALE
         const naturalX = diagonalX + gapX
         let x = naturalX
         if (rowCenterY > settleEndY) {
@@ -241,16 +243,21 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         // position, even if any layout-effect race would otherwise show a
         // stacked-at-(0,0) frame.
         let initialTransform: string | undefined
-        if (viewportSize.width > 0 && viewportSize.height > 0 && rowLayout.baseXNorm[i] !== undefined) {
+        if (viewportSize.width > 0 && viewportSize.height > 0 && rowLayout.cumGap[i] !== undefined) {
           const so = scrollOffsetRef.current
           const vh = viewportSize.height
           const vw = viewportSize.width
           const y = i * rowHeight - so
           const rowCenterY = y + rowHeight / 2
           const maxIndent = vw * MAX_INDENT_FRAC
-          const maxGapIndent = vw * MAX_GAP_INDENT_FRAC
+          const lastIdx = rowLayout.cumGap.length - 1
+          const topIdx = so / rowHeight
+          const ai0 = Math.max(0, Math.min(lastIdx, Math.floor(topIdx)))
+          const ai1 = Math.min(lastIdx, ai0 + 1)
+          const afrac = Math.max(0, Math.min(1, topIdx - ai0))
+          const anchorCum = rowLayout.cumGap[ai0] * (1 - afrac) + rowLayout.cumGap[ai1] * afrac
           const diagonalX = (rowCenterY / vh) * maxIndent
-          const gapX = rowLayout.baseXNorm[i] * maxGapIndent
+          const gapX = (rowLayout.cumGap[i] - anchorCum) * GAP_SCALE
           const naturalX = diagonalX + gapX
           const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
           let x = naturalX
