@@ -463,6 +463,51 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
       if (Math.abs(velocityRef.current) > MIN_VELOCITY && !isAnimating()) startMomentum()
     }
 
+    // Desktop mouse support: pointerup with pointerType === 'mouse' runs the
+    // same tap/hit-test logic as onTouchEnd without touching the touch flow.
+    // Touch devices also emit pointer events, but we filter to mouse so the
+    // existing touchstart/end path stays the sole handler for touch.
+    const onPointerUp = (e: PointerEvent) => {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return
+      if (isAnimating()) return
+      const rect = el.getBoundingClientRect()
+      const clickY = e.clientY - rect.top
+
+      const hit = document.elementFromPoint(e.clientX, e.clientY)
+      const chipEl = hit && (hit as Element).closest ? (hit as Element).closest('[data-chain-chip]') as HTMLElement | null : null
+      if (chipEl) {
+        const chainId = chipEl.getAttribute('data-chain-id')
+        if (chainId) {
+          onChainSolo(soloChainId === chainId ? null : chainId)
+          return
+        }
+      }
+
+      if (inSoloMode()) {
+        const contentY = clickY + soloScrollRef.current - soloStackCenter
+        const sindex = Math.floor(contentY / rowHeight)
+        if (sindex >= 0 && sindex < soloLayout.order.length) {
+          const rowIdx = soloLayout.order[sindex]
+          const tl = tls[rowIdx]
+          if (tl && tl.hasContent) {
+            window.location.href = `/${tl.id}`
+            return
+          }
+        }
+      } else {
+        const contentY = clickY + flowScrollRef.current
+        const vindex = Math.floor(contentY / rowHeight)
+        if (vindex >= 0 && vindex < flowLayout.visibleIdxs.length) {
+          const rowIdx = flowLayout.visibleIdxs[vindex]
+          const tl = tls[rowIdx]
+          if (tl && tl.hasContent) {
+            window.location.href = `/${tl.id}`
+            return
+          }
+        }
+      }
+    }
+
     const onWheel = (e: WheelEvent) => {
       e.preventDefault()
       stopMomentum()
@@ -483,6 +528,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
     el.addEventListener('touchmove', onTouchMove, { passive: false })
     el.addEventListener('touchend', onTouchEnd, { passive: false })
     el.addEventListener('touchcancel', onTouchEnd, { passive: false })
+    el.addEventListener('pointerup', onPointerUp)
     el.addEventListener('wheel', onWheel, { passive: false })
 
     return () => {
@@ -495,6 +541,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
       el.removeEventListener('touchmove', onTouchMove)
       el.removeEventListener('touchend', onTouchEnd)
       el.removeEventListener('touchcancel', onTouchEnd)
+      el.removeEventListener('pointerup', onPointerUp)
       el.removeEventListener('wheel', onWheel)
     }
   }, [tls, barWidths, flowLayout, soloLayout, viewportSize, rowHeight, soloChainId, activeChainId, onChainSolo])
