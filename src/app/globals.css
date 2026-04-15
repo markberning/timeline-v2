@@ -156,7 +156,7 @@ a.glossary-link {
    Each anchor gets inline --cl-light / --cl-dark vars from the parse step. */
 .prose a.cross-link,
 a.cross-link {
-  text-decoration: underline;
+  text-decoration-line: underline overline;
   text-decoration-style: dashed;
   text-underline-offset: 3px;
   text-decoration-thickness: 1.5px;
