@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import type { NavigatorTl } from '@/lib/navigator-tls'
 import type { NavigatorTheme } from '@/lib/navigator-themes'
+import { TL_CHAINS } from '../../../reference-data/tl-chains'
 
 interface Props {
   tls: NavigatorTl[]              // pre-filtered AND pre-sorted by start year
@@ -21,6 +22,11 @@ const FRICTION = 0.94
 const MIN_VELOCITY = 0.05
 const TAP_MOVE_THRESHOLD = 10        // px of drag beyond which it's a scroll, not a tap
 const TAP_TIME_THRESHOLD = 500       // ms beyond which it's a press, not a tap
+const ICON_TAP_WIDTH = 48            // px from the right edge counted as an icon tap
+const PULL_IN_MS = 400
+const PULL_HOLD_MS = 200
+const PULL_RELEASE_MS = 600
+const PULL_STRENGTH = 0.8            // how close to the tapped row chain members reach
 
 function formatYearRange(start: number, end: number): string {
   const startBce = start < 0
@@ -50,6 +56,13 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
   const touchStartTimeRef = useRef(0)
   const touchMovedRef = useRef(false)
   const wasMomentumRef = useRef(false)
+  // Chain-pull animation state
+  const chainPullRef = useRef<{
+    startTime: number
+    tappedIdx: number
+    memberSet: Set<number>
+  } | null>(null)
+  const pullRafRef = useRef(0)
 
   useLayoutEffect(() => {
     const el = containerRef.current
@@ -87,9 +100,34 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     return sqrts.map(s => Math.max(MIN_BAR, s * scale))
   }, [tls, viewportSize.width])
 
+  // Chain membership: for each row index, the set of sibling row
+  // indices it's grouped with (union across all chains it belongs to).
+  // Only rows with at least one sibling show a chain icon.
+  const chainMembers = useMemo(() => {
+    const byId = new Map<string, number>()
+    tls.forEach((tl, i) => byId.set(tl.id, i))
+    const result = new Map<number, Set<number>>()
+    for (const chain of TL_CHAINS) {
+      const idxs: number[] = []
+      for (const e of chain.entries) {
+        const idx = byId.get(e.timelineId)
+        if (idx !== undefined) idxs.push(idx)
+      }
+      if (idxs.length < 2) continue
+      for (const idx of idxs) {
+        const existing = result.get(idx) ?? new Set<number>()
+        for (const other of idxs) if (other !== idx) existing.add(other)
+        result.set(idx, existing)
+      }
+    }
+    return result
+  }, [tls])
+
   const barRefs = useRef<(HTMLDivElement | null)[]>([])
+  const iconRefs = useRef<(HTMLDivElement | null)[]>([])
   useEffect(() => {
     barRefs.current.length = tls.length
+    iconRefs.current.length = tls.length
   }, [tls.length])
 
   // Single update + listener setup pass. Re-runs whenever sizing or
@@ -117,33 +155,94 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     const n = tls.length
     const lastIdx = n - 1
 
+    const naturalX = new Array<number>(n)
+    const naturalY = new Array<number>(n)
+
     const render = () => {
       const scrollOffset = scrollOffsetRef.current
-      // Topmost visible row index (fractional) — vertical spacing is
-      // uniform again, so scrollOffset / rowHeight works directly.
       const topIdx = scrollOffset / rowHeight
       const i0 = Math.max(0, Math.min(lastIdx, Math.floor(topIdx)))
       const i1 = Math.min(lastIdx, i0 + 1)
       const frac = Math.max(0, Math.min(1, topIdx - i0))
       const anchorCum = cumGap[i0] * (1 - frac) + cumGap[i1] * frac
 
+      // Pass 1: compute natural (x, y) for every row
       for (let i = 0; i < n; i++) {
-        const bar = barRefs.current[i]
-        if (!bar) continue
         const y = i * rowHeight - scrollOffset
         const rowCenterY = y + halfRow
         const diagonalX = (rowCenterY / vh) * maxIndent
         const gapX = (cumGap[i] - anchorCum) * H_GAP_SCALE
-        const naturalX = diagonalX + gapX
-        let x = naturalX
+        let nx = diagonalX + gapX
         if (rowCenterY > settleEndY) {
           const raw = (rowCenterY - settleEndY) / entryZoneSpan
           const progress = raw > 1 ? 1 : raw
           const eased = progress * progress
-          x = naturalX + (entryX - naturalX) * eased
+          nx = nx + (entryX - nx) * eased
         }
-        bar.style.transform = `translate3d(${x}px, ${y}px, 0)`
+        naturalX[i] = nx
+        naturalY[i] = y
       }
+
+      // Pass 2: chain-pull factor (x-only), then write transforms
+      const pull = chainPullRef.current
+      let pullFactor = 0
+      let tappedIdx = -1
+      let memberSet: Set<number> | null = null
+      if (pull) {
+        const elapsed = performance.now() - pull.startTime
+        if (elapsed < PULL_IN_MS) {
+          const t = elapsed / PULL_IN_MS
+          pullFactor = 1 - (1 - t) * (1 - t)
+        } else if (elapsed < PULL_IN_MS + PULL_HOLD_MS) {
+          pullFactor = 1
+        } else if (elapsed < PULL_IN_MS + PULL_HOLD_MS + PULL_RELEASE_MS) {
+          const t = (elapsed - PULL_IN_MS - PULL_HOLD_MS) / PULL_RELEASE_MS
+          pullFactor = (1 - t) * (1 - t)
+        } else {
+          chainPullRef.current = null
+        }
+        if (chainPullRef.current) {
+          tappedIdx = pull.tappedIdx
+          memberSet = pull.memberSet
+        }
+      }
+
+      for (let i = 0; i < n; i++) {
+        const bar = barRefs.current[i]
+        const icon = iconRefs.current[i]
+        const y = naturalY[i]
+        let x = naturalX[i]
+        if (memberSet && memberSet.has(i)) {
+          const tX = naturalX[tappedIdx]
+          x = x + (tX - x) * pullFactor * PULL_STRENGTH
+        }
+        if (bar) bar.style.transform = `translate3d(${x}px, ${y}px, 0)`
+        if (icon) icon.style.transform = `translate3d(0px, ${y}px, 0)`
+      }
+    }
+
+    const startChainPull = (tappedIdx: number) => {
+      const members = chainMembers.get(tappedIdx)
+      if (!members || members.size === 0) return
+      stopMomentum()
+      if (pullRafRef.current) {
+        cancelAnimationFrame(pullRafRef.current)
+        pullRafRef.current = 0
+      }
+      chainPullRef.current = {
+        startTime: performance.now(),
+        tappedIdx,
+        memberSet: members,
+      }
+      const step = () => {
+        render()
+        if (!chainPullRef.current) {
+          pullRafRef.current = 0
+          return
+        }
+        pullRafRef.current = requestAnimationFrame(step)
+      }
+      pullRafRef.current = requestAnimationFrame(step)
     }
 
     render()
@@ -232,6 +331,12 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         const idx = Math.floor(contentY / rowHeight)
         if (idx >= 0 && idx < tls.length) {
           const tapped = tls[idx]
+          // Icon tap region (right edge of the viewport)
+          const touchXInRect = touchStartXRef.current - rect.left
+          if (touchXInRect > vw - ICON_TAP_WIDTH && chainMembers.has(idx)) {
+            startChainPull(idx)
+            return
+          }
           if (tapped.hasContent) {
             // Full browser navigation instead of router.push — iOS
             // Safari holds onto the body's locked scroll state through
@@ -270,7 +375,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       el.removeEventListener('touchcancel', onTouchEnd)
       el.removeEventListener('wheel', onWheel)
     }
-  }, [tls, barWidths, rowLayout, viewportSize, rowHeight, router])
+  }, [tls, barWidths, rowLayout, viewportSize, rowHeight, router, chainMembers])
 
   return (
     <div
@@ -318,9 +423,14 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
           }
           initialTransform = `translate3d(${x}px, ${y}px, 0)`
         }
+        const hasChain = chainMembers.has(i)
+        const iconInitialTransform =
+          viewportSize.width > 0 && viewportSize.height > 0
+            ? `translate3d(0px, ${i * rowHeight - scrollOffsetRef.current}px, 0)`
+            : undefined
         return (
+          <Fragment key={tl.id}>
           <div
-            key={tl.id}
             ref={el => { barRefs.current[i] = el }}
             style={{
               position: 'absolute',
@@ -391,6 +501,39 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
               </div>
             )}
           </div>
+          {hasChain && (
+            <div
+              ref={el => { iconRefs.current[i] = el }}
+              style={{
+                position: 'absolute',
+                top: 0,
+                right: 12,
+                height: rowHeight,
+                display: 'flex',
+                alignItems: 'center',
+                pointerEvents: 'none',
+                color: theme.textPrimary,
+                opacity: 0.45,
+                willChange: 'transform',
+                transform: iconInitialTransform,
+              }}
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+              </svg>
+            </div>
+          )}
+          </Fragment>
         )
       })}
     </div>
