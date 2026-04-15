@@ -3,6 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
+  color-scheme: dark;
   --background: #ffffff;
   --surface: #ffffff;
   --foreground: #171717;
@@ -13,9 +14,15 @@
 }
 
 .dark {
+  color-scheme: dark;
   --background: #22201e;
   --surface: #2f2c29;
   --foreground: #e5e5e5;
+}
+
+html.dark,
+html.dark body {
+  background-color: #22201e;
 }
 
 /* In dark mode, accent colors have enough contrast on dark bg — use base color */
