@@ -47,7 +47,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'safavid-persia', label: 'Safavid Persia', subtitle: "Iran's Shia revolution", region: 'near-east', startYear: 1501, endYear: 1736 },
 
   // ── AFRICA ──
-  { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3500, endYear: -1070 },
+  { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3500, endYear: -1070, hasContent: true },
   { id: 'early-dynastic-egypt', label: 'Early Dynastic Egypt', subtitle: 'the first pharaohs unite the Nile', region: 'africa', startYear: -3100, endYear: -2686 },
   { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181 },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -1550, endYear: -1069 },
