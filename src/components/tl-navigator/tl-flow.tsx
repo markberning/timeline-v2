@@ -541,6 +541,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 background: regionColor,
                 transformOrigin: 'left center',
                 transform: `scaleX(${barW})`,
+                marginBottom: 6,
               }}
             />
             <div
