@@ -17,6 +17,7 @@ Every prompt in this folder opens with a **CRITICAL RULES** block addressing the
 
 - [ancient-china.md](ancient-china.md) — Chapters 4, 7, 8 (the three China maps with real errors)
 - [ancient-nubia.md](ancient-nubia.md) — Chapters 1–8 (all eight Nubia maps need redos)
+- [elamite-civilization.md](elamite-civilization.md) — Chapters 1, 3, 7, 8 (Ch 7 is a priority-1 redo for "Brotion"/"Tiaati-Tela" garbled text; others are minor)
 
 ## Workflow
 
@@ -31,3 +32,4 @@ The following maps are clean and should be left alone:
 
 - **Ancient China:** Ch 1, 2, 3, 5, 6
 - **Ancient Nubia:** (none — all 8 had issues)
+- **Elam:** Ch 2, 4, 5, 6

@@ -119,5 +119,6 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 First-run Gemini output had hallucinations on some maps — see [redo/](redo/) for tightened rewrites of the problem prompts. Specifically:
 - [redo/ancient-china.md](redo/ancient-china.md) — Ch 4, 7, 8 (the three China maps with real errors)
 - [redo/ancient-nubia.md](redo/ancient-nubia.md) — Ch 1–8 (all eight Nubia maps need redos)
+- [redo/elamite-civilization.md](redo/elamite-civilization.md) — Ch 1, 3, 7, 8 (Ch 7 is priority-1; others are minor)
 
 The redos are the live reference for "how a prompt should look when it actually has to work." When drafting new TL prompts, copy the redo style, not the first-run style.
