@@ -28,7 +28,7 @@ export default async function CivilizationPage({ params }: PageProps) {
 
   return (
     <div className="max-w-prose mx-auto px-5">
-      <div className="sticky top-0 z-20 bg-background/95 backdrop-blur-sm -mx-5 px-5 pt-3 pb-2 border-b-2" style={{ borderBottomColor: 'var(--accent)' }}>
+      <div data-top-nav className="sticky top-0 z-20 bg-background/95 backdrop-blur-sm -mx-5 px-5 pt-3 pb-2 border-b-2" style={{ borderBottomColor: 'var(--accent)' }}>
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-1 text-sm hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

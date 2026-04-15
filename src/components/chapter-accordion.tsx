@@ -21,9 +21,16 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   // later collapses and throws off the chapter open scroll position.
   const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
+  // Measured page-nav height used for sticky header top + scroll offset.
+  const [navHeight, setNavHeight] = useState(48)
   const headerRef = useRef<HTMLDivElement>(null)
   const sectionRef = useRef<HTMLElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
+
+  useEffect(() => {
+    const nav = document.querySelector('[data-top-nav]') as HTMLElement | null
+    if (nav) setNavHeight(Math.ceil(nav.getBoundingClientRect().height))
+  }, [])
 
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.png`
 
@@ -55,7 +62,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     function scrollToSection() {
       const el = sectionRef.current
       if (!el) return
-      const targetY = el.offsetTop - 40
+      const rect = el.getBoundingClientRect()
+      const targetY = Math.max(0, rect.top + window.scrollY - navHeight)
       window.scrollTo({ top: targetY, behavior: 'auto' })
     }
     requestAnimationFrame(() => {
@@ -63,7 +71,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     })
     const t1 = setTimeout(scrollToSection, 300)
     return () => clearTimeout(t1)
-  }, [open])
+  }, [open, navHeight])
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
 
@@ -106,15 +114,23 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
 
   return (
-    <section ref={sectionRef} id={`chapter-${chapter.number}`} className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}>
+    <section
+      ref={sectionRef}
+      id={`chapter-${chapter.number}`}
+      className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}
+      style={{ scrollMarginTop: `${navHeight}px` }}
+    >
       <div
         ref={headerRef}
         role="button"
         tabIndex={0}
         onPointerDown={onHeaderPointerDown}
         onPointerUp={onHeaderPointerUp}
-        className="w-full text-left py-5 flex gap-3 items-start sticky top-[40px] z-10 scroll-mt-[40px] transition-colors duration-[1200ms] touch-manipulation cursor-pointer select-none"
-        style={{ backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)' }}
+        className="w-full text-left py-5 flex gap-3 items-start sticky z-10 transition-colors duration-[1200ms] touch-manipulation cursor-pointer select-none"
+        style={{
+          top: `${navHeight}px`,
+          backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)',
+        }}
       >
         <span
           className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"

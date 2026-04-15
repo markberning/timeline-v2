@@ -14,6 +14,7 @@ export interface AccentColors {
 // maurya-empire: text 5.48:1 AA | dark 7.80:1 AA | badge 3.77:1 AA-lg
 // gupta-empire:  text 7.09:1 AA | dark 9.22:1 AA | badge 3.19:1 AA-lg
 // ancient-egypt: text 6.47:1 AA | dark 5.26:1 AA | badge 4.83:1 AA
+// ancient-china: text 8.60:1 AAA | dark 5.06:1 AA | badge 5.15:1 AA
 //
 // Badge note: badges are large text (14px bold), so AA-lg (3:1) is sufficient.
 // Region color strategy: 1-2 colors per region, not per TL.
@@ -26,6 +27,7 @@ const TL_ACCENT_COLORS: Record<string, AccentColors> = {
   'maurya-empire':  { base: '#10b981', text: '#047857', badge: '#059669' },
   'gupta-empire':   { base: '#f59e0b', text: '#92400e', badge: '#d97706' },
   'ancient-egypt':  { base: '#ef4444', text: '#b91c1c', badge: '#dc2626' },
+  'ancient-china':  { base: '#a855f7', text: '#6b21a8', badge: '#9333ea' },
 }
 
 const DEFAULT_COLORS: AccentColors = { base: '#6b7280', text: '#4b5563', badge: '#6b7280' }
