@@ -233,9 +233,13 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         if (idx >= 0 && idx < tls.length) {
           const tapped = tls[idx]
           if (tapped.hasContent) {
-            // Defer the route change so the touchend event fully
-            // resolves in iOS Safari before the navigator unmounts.
-            setTimeout(() => router.push(`/${tapped.id}`), 0)
+            // Full browser navigation instead of router.push — iOS
+            // Safari holds onto the body's locked scroll state through
+            // a client-side React transition and the first few touches
+            // on the new page get swallowed. A hard navigation
+            // discards the entire page, so the new route loads with a
+            // completely fresh scroll engine.
+            window.location.href = `/${tapped.id}`
             return
           }
         }
