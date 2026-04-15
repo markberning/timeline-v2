@@ -13,20 +13,25 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 - **Framework**: Next.js 16 + React 19 + TypeScript
 - **Styling**: Tailwind 4 + @tailwindcss/typography
 - **Build**: `npm run parse` runs automatically as `prebuild`; `npm run build` calls `scripts/build-static.mjs` which temporarily stashes dev-only routes (`/api/*`, `/candidates`, `/review`) and runs `next build` with `output: 'export'` to produce a fully static `out/` directory.
-- **Deploy**: Cloudflare Workers + Static Assets via `wrangler.jsonc`. `stuffhappened.com` is the v2 production domain; `v1.stuffhappened.com` is the legacy Vite explorer. Both projects live in the same CF account.
+- **Deploy**: Cloudflare Workers + Static Assets via `wrangler.jsonc`. `stuffhappened.com` is the v2 production domain; `v1.stuffhappened.com` is the legacy Vite explorer. Both projects live in the same CF account. **Auto-deploy is configured** through Cloudflare Workers Builds — the `timeline-v2` Worker has a git integration pointing at the GitHub repo, and every push to `main` triggers `npm run build && npx wrangler deploy` automatically. If a build gets "canceled" or the dashboard shows "disconnected from your Git account," the GitHub OAuth has gone stale: reconnect via CF dashboard → Workers → `timeline-v2` → Settings → Build → Manage (next to the Git repository field). Manual deploys from a local terminal with `npx wrangler deploy` are the fallback if auto-deploy is broken.
 - **Dev**: `npm run dev` → localhost:3000. Dev server keeps the dev-only api routes and dynamic review pages for local image curation.
 
 ## Content Pipeline
 0. **Pull v1 reference data** — before starting a new TL, check `~/projects/personal/timeline/src/data/{tlId}.json`. v1 has curated pitch/spans/events for most of the 71 navigator TLs in the same format as v2. Copy it to `reference-data/{tlId}.json` and write the narrative against it. Only build reference data from scratch if v1 genuinely has nothing. Before starting narrative writing, **review the v1 event list for coverage gaps** — some TLs never got a v1 overhaul and may be thin on events. If the event count looks light relative to the civilization's scope, propose additions up front and expand the reference data before writing begins.
 1. **Write narrative** — Claude drafts the chapter-based prose. The user never hand-writes narratives; Claude does all writing, the user reviews and directs. Apply all writing rules in `WRITING-RULES.md`.
 2. **Audit** using the 5-persona system in `.claude/skills/audit-narrative.md`
-3. **Fix** audit findings
+3. **Fix** audit findings — apply must-fix and should-fix items from the merged audit report at `audits/{tlId}.audit.md`
 4. **Reconcile** — add any events/terms from the narrative that are missing from the TL reference data
-5. **Curate event links** — read each chapter and place links in `content/.event-links-{tlId}.json`
-5b. **Curate cross-civ links** (optional) — place "meanwhile in..." pointers in `content/.cross-links-{tlId}.json` per chapter with `{ matchText, targetTl, targetChapter, blurb }`. Rendered as a bottom sheet in the reader via `CrossLinkSheet`.
-6. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts (cached)
-7. **Generate chapter maps** — use Gemini with prompts from `map-prompts.md`, save to `public/maps/{tlId}/chapter-{N}.png`
-8. **Review images** — `/review/{tlId}` page for approving/rejecting event images
+5. **Register with parse pipeline** — add `'{tlId}.md': '{tlId}'` to the `NARRATIVE_FILES` map in `scripts/parse-narratives.ts`. Without this step, the TL will be skipped silently.
+6. **Curate event links** — read each chapter and place links in `content/.event-links-{tlId}.json`. **matchText must be plain ASCII text with word-character boundaries** — no `**bold**` wrappers, no trailing `(parentheticals)`, no leading/trailing punctuation. The parse script uses `\b(escaped)\b` regex, so anything starting or ending in a non-word character will silently fail to match.
+7. **Curate glossary links** — `content/.glossary-links-{tlId}.json`, format `[{term, matchText, wikiSlug, type}]` with type ∈ place|people|concept. Same matchText rules as event links. Target density: ~20–35 per chapter.
+8. **Curate cross-civ links** (optional) — `content/.cross-links-{tlId}.json` per chapter with `{matchText, targetTl, targetChapter, blurb}`. Rendered as a bottom sheet in the reader via `CrossLinkSheet`. Same matchText rules.
+9. **Write summary bullets** — `narratives/{tlId}.summaries.json` as a JSON list of `{chapter, title, dateRange, bullets: [...]}`, 6–10 bullets per chapter. Dense single-sentence factual outlines, not polished prose. See `narratives/ancient-china.summaries.json` for style reference. Bullets auto-get event/glossary/cross-link injection by the parse script.
+10. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts (cached). **Restart the dev server after parse** — `lib/data.ts` caches narratives in-memory.
+11. **Backward cross-cultural pass** — apply the Persona E backward findings by adding Elam/Nubia/etc. cross-link entries to the completed reference TL cross-link files, pointing at chapters in the new TL.
+12. **Generate chapter maps** — use Gemini with prompts from `map-prompts.md`, save to `public/maps/{tlId}/chapter-{N}.png`. Then run the non-destructive optimize script to produce `.webp` copies at quality 85 alongside the PNGs. The reader loads `.webp` via the image probe in `chapter-accordion.tsx`.
+13. **Review images** — `/review/{tlId}` page for approving/rejecting event images (dev mode only)
+14. **Ship toggle** — flip `hasContent: true` on the TL's entry in `src/lib/navigator-tls.ts` to make the row tappable on the home navigator.
 
 ## File Structure
 ```
@@ -168,12 +173,17 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 11. chinese-revolution
 12. rise-of-china
 
-**Nubian Tradition chain** (next — starting ancient-nubia):
-1. 📝 ancient-nubia — reference data imported from v1 and expanded from 37 → **51 events** (added Ta-Seti naming, Qustul Cemetery L / Ta-Seti kingship controversy, Wawat and Yam, Harkhuf's Four Expeditions, Pepi II's Dancing Dwarf Letter, Semna Stele, Mirgissa Slipway, Eastern Deffufa, Kerma Fine Ware, Temple of Amada, Aniba/Miam, Nubian Egyptianization, Huy Viceroy, Admin Collapse). Covers 3500–1070 BCE. Chain color: ochre/yellow (`nubian-tradition` in accent-colors). Narrative writing is the next step.
+**Nubian Tradition chain** (in progress):
+1. ✅ ancient-nubia — 8 chapters (~24k words), full 5-persona audit with must/should fixes applied, **54 reference events**, **52 event links**, **190 glossary links**, **18 forward cross-links + 11 backward into Meso/Indus/China**, parse-enriched (45 thumbs / 51 extracts / 44 captions), **8 WebP chapter maps** (Gemini-generated), navigator `hasContent: true`, **shipped live on stuffhappened.com**. Chain color: ochre/yellow (`nubian-tradition`). Summary bullets (`narratives/ancient-nubia.summaries.json`) NOT yet written.
 2. kingdom-of-kush
 3. kingdom-of-aksum
 
-**Egypt chain** (after Nubia):
+**Persian Tradition chain** (in progress):
+1. 📝 elamite-civilization — reference data imported from v1 and expanded 35 → **51 events** (added Puzur-Inshushinak, Eparti I, Siwe-palar-hupak, Kudur-Nahhunte I, Humban / Kiririsha / Nahhunte pantheon entries, Igihalkid dynasty, Humban-Numena I, Kutir-Nahhunte III, Hutelutush-Inshushinak, Te-Umman / Battle of Til-Tuba, Shamash-shum-ukin alliance, "King of Anshan" title, Behistun Elamite inscription, Persepolis Fortification Archive). Covers 3200–500 BCE. 8-chapter narrative drafted (~24k words) + audit + must/should fix pass applied. Backward cross-cultural pass into Meso (+14) and Indus (+2) shipped. **Pending:** forward event links, glossary links, forward cross-links, summary bullets, chapter map prompts, chapter maps, image review, `hasContent` toggle.
+2. persian-empire
+3. safavid-persia
+
+**Egypt chain** (after Elam wraps):
 - ancient-egypt series (TBD split)
 
 ## Color System
