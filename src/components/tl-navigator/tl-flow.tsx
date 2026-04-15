@@ -578,6 +578,10 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 whiteSpace: 'nowrap',
                 lineHeight: 1.15,
                 marginTop: 2,
+                // Definite width so the chain chip can float far right via
+                // marginLeft: auto — spatially distances its tap zone from
+                // where label + dates + subtitle line up on the left.
+                width: Math.max(viewportSize.width * 0.88 - 32, 260),
               }}
             >
               <span
@@ -608,6 +612,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                     background: 'rgba(255,255,255,0.04)',
                     pointerEvents: 'auto',
                     cursor: 'pointer',
+                    marginLeft: 'auto',
                   }}
                 >
                   <svg
