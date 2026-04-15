@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import type { NavigatorTl } from '@/lib/navigator-tls'
 import type { NavigatorTheme } from '@/lib/navigator-themes'
 
@@ -18,6 +19,8 @@ const ENTRY_ZONE_FRAC = 0.33         // bottom third of viewport is the fly-in z
 const ENTRY_X_FRAC = 0.85            // new rows start at 85% of viewport width
 const FRICTION = 0.94
 const MIN_VELOCITY = 0.05
+const TAP_MOVE_THRESHOLD = 10        // px of drag beyond which it's a scroll, not a tap
+const TAP_TIME_THRESHOLD = 500       // ms beyond which it's a press, not a tap
 
 function formatYearRange(start: number, end: number): string {
   const startBce = start < 0
@@ -30,6 +33,7 @@ function formatYearRange(start: number, end: number): string {
 }
 
 export function TlFlow({ tls, rowHeight, theme }: Props) {
+  const router = useRouter()
   const containerRef = useRef<HTMLDivElement>(null)
   const [viewportSize, setViewportSize] = useState({ width: 0, height: 0 })
 
@@ -40,6 +44,12 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
   const lastTouchTimeRef = useRef(0)
   const isTouchingRef = useRef(false)
   const momentumRafRef = useRef(0)
+  // Tap detection state
+  const touchStartXRef = useRef(0)
+  const touchStartYRef = useRef(0)
+  const touchStartTimeRef = useRef(0)
+  const touchMovedRef = useRef(false)
+  const wasMomentumRef = useRef(false)
 
   useLayoutEffect(() => {
     const el = containerRef.current
@@ -168,10 +178,16 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     }
 
     const onTouchStart = (e: TouchEvent) => {
+      wasMomentumRef.current = momentumRafRef.current > 0
       stopMomentum()
       isTouchingRef.current = true
-      lastTouchYRef.current = e.touches[0].clientY
+      const t0 = e.touches[0]
+      lastTouchYRef.current = t0.clientY
       lastTouchTimeRef.current = performance.now()
+      touchStartXRef.current = t0.clientX
+      touchStartYRef.current = t0.clientY
+      touchStartTimeRef.current = lastTouchTimeRef.current
+      touchMovedRef.current = false
       velocityRef.current = 0
     }
 
@@ -179,9 +195,18 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       if (!isTouchingRef.current) return
       e.preventDefault()
       const y = e.touches[0].clientY
+      const x = e.touches[0].clientX
       const t = performance.now()
       const dy = y - lastTouchYRef.current
       const dt = t - lastTouchTimeRef.current
+      // Tap tracking — distance from the touch's starting point
+      if (!touchMovedRef.current) {
+        const distX = x - touchStartXRef.current
+        const distY = y - touchStartYRef.current
+        if (distX * distX + distY * distY > TAP_MOVE_THRESHOLD * TAP_MOVE_THRESHOLD) {
+          touchMovedRef.current = true
+        }
+      }
       scrollOffsetRef.current -= dy
       if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
       else if (scrollOffsetRef.current > maxScroll) scrollOffsetRef.current = maxScroll
@@ -191,9 +216,28 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       render()
     }
 
-    const onTouchEnd = () => {
+    const onTouchEnd = (e: TouchEvent) => {
       if (!isTouchingRef.current) return
       isTouchingRef.current = false
+      // Tap detection: no meaningful movement, quick release, and momentum
+      // wasn't the reason the user tapped (first-tap-stops pattern).
+      if (
+        !touchMovedRef.current &&
+        !wasMomentumRef.current &&
+        performance.now() - touchStartTimeRef.current < TAP_TIME_THRESHOLD
+      ) {
+        const rect = el.getBoundingClientRect()
+        const touchY = touchStartYRef.current - rect.top
+        const contentY = touchY + scrollOffsetRef.current
+        const idx = Math.floor(contentY / rowHeight)
+        if (idx >= 0 && idx < tls.length) {
+          const tapped = tls[idx]
+          if (tapped.hasContent) {
+            router.push(`/${tapped.id}`)
+            return
+          }
+        }
+      }
       if (Math.abs(velocityRef.current) > MIN_VELOCITY) startMomentum()
     }
 
@@ -220,7 +264,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       el.removeEventListener('touchcancel', onTouchEnd)
       el.removeEventListener('wheel', onWheel)
     }
-  }, [tls, barWidths, rowLayout, viewportSize, rowHeight])
+  }, [tls, barWidths, rowLayout, viewportSize, rowHeight, router])
 
   return (
     <div
