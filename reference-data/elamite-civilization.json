@@ -1,0 +1,599 @@
+{
+  "id": "elamite-civilization",
+  "label": "Elam",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "wikiSlug": "Elam",
+  "imageWikiSlug": "Chogha_Zanbil",
+  "pitch": "In the highlands and lowlands of southwestern Iran, the Elamites built one of the ancient world's most enduring civilizations \u2014 a perennial rival of Mesopotamia that outlasted Sumer, challenged Babylon, and fought Assyria for over two thousand years. From the Proto-Elamite Period around 2700 BCE to the final destruction by the Achaemenid Persians in 539 BCE, Elam carved its own path in the shadow of its better-known neighbors.\n\n\ud83d\udd11 Key Facts:\n\u2022 The Ziggurat of Chogha Zanbil, built by Untash-Napirisha around 1250 BCE, is the best-preserved ziggurat outside Mesopotamia and a UNESCO World Heritage Site\n\u2022 The Proto-Elamite Script is one of the world's oldest undeciphered writing systems, predating even the earliest Sumerian tablets at some sites\n\u2022 Shutruk-Nahhunte sacked Babylon in 1158 BCE and carried off the Code of Hammurabi and the Stele of Naram-Sin to Susa \u2014 where archaeologists found them 3,000 years later\n\u2022 Susa, the Elamite capital, was continuously inhabited for over 6,000 years, making it one of the longest-lived cities in human history\n\n\ud83e\udd14 Why It Matters: Elam demonstrates that Mesopotamia did not develop in isolation. The Elamites created their own writing, religion, and political systems, and their interactions \u2014 from trade to warfare \u2014 shaped the development of Babylonian and Assyrian civilization. The Elamite heartland later became the core of the Persian Empire.\n\n\ud83c\udfb2 Wild Card: When the Assyrian king Ashurbanipal finally destroyed Elam in 646 BCE during the Sack of Susa, he boasted of salting the fields and carrying off the bones of Elamite kings so their ghosts could find no rest. Yet within a century, the Persians rose from the same Iranian highlands to build the largest empire the world had ever seen.",
+  "countryIds": [
+    "364"
+  ],
+  "spans": [
+    {
+      "id": "span-elamite-civilization-proto-elamite",
+      "label": "Proto-Elamite Period",
+      "startYear": -2700,
+      "endYear": -2100,
+      "description": "The earliest phase of Elamite statehood centered on Susa and Anshan, with the Dynasty of Awan maintaining independence from Akkadian and Sumerian empires. The undeciphered Proto-Elamite script was in use during this era.",
+      "wikiSlug": "Proto-Elamite"
+    },
+    {
+      "id": "span-elamite-civilization-old-elamite",
+      "label": "Old Elamite Period",
+      "startYear": -2100,
+      "endYear": -1500,
+      "description": "Elam sacked Ur in 2004 BCE and the Sukkalmah dynasty governed through a unique shared-power system. Elamite cuneiform adoption and expanding trade networks connected the Iranian highlands to Mesopotamia.",
+      "wikiSlug": "Elam"
+    },
+    {
+      "id": "span-elamite-civilization-middle-elamite",
+      "label": "Middle Elamite Period",
+      "startYear": -1500,
+      "endYear": -1100,
+      "description": "Elam's golden age under kings like Untash-Napirisha and Shutruk-Nahhunte, who built the ziggurat at Chogha Zanbil and sacked Babylon. The empire reached its greatest territorial extent under Shilhak-Inshushinak.",
+      "wikiSlug": "Elam"
+    },
+    {
+      "id": "span-elamite-civilization-neo-elamite",
+      "label": "Neo-Elamite Period",
+      "startYear": -1100,
+      "endYear": -539,
+      "description": "A long decline punctuated by brief revivals, ending when Ashurbanipal sacked Susa in 646 BCE. Elamite culture survived through the Achaemenid Persians, who made Susa their capital and adopted Elamite administrative traditions.",
+      "wikiSlug": "Elam"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-proto-elamite-script",
+      "label": "Proto-Elamite Script",
+      "year": -3100,
+      "description": "The Proto-Elamite script appeared almost simultaneously with early Sumerian writing. Used for administrative records, it spread across the Iranian plateau but remains undeciphered.",
+      "wikiSlug": "Proto-Elamite_script",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-anshan-city",
+      "label": "City of Anshan",
+      "year": -2700,
+      "description": "Anshan (modern Tal-e Malyan) in the highlands of Fars served as Elam's second capital, controlling mountain trade routes and highland resources.",
+      "wikiSlug": "Anshan_(Persia)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-elamite-trade-network",
+      "label": "Elamite Trade Networks",
+      "year": -2700,
+      "description": "Elamite merchants traded tin, copper, lapis lazuli, and other highland resources with Mesopotamia, serving as intermediaries connecting the Iranian plateau to the Mesopotamian lowlands.",
+      "wikiSlug": "Elam",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-awan-dynasty",
+      "label": "Dynasty of Awan",
+      "year": -2600,
+      "endYear": -2100,
+      "description": "The Dynasty of Awan was the first known Elamite ruling house, maintaining independence from Akkad and Sumer through a combination of diplomacy and mountain warfare.",
+      "wikiSlug": "Awan_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-susa-founded",
+      "label": "City of Susa",
+      "year": -2592,
+      "description": "Susa, in the lowlands of Khuzestan, was founded as early as 4200 BCE and became the primary Elamite capital \u2014 one of the world's oldest continuously inhabited cities.",
+      "wikiSlug": "Susa",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-inshushinak-worship",
+      "label": "Cult of Inshushinak",
+      "year": -2500,
+      "description": "Inshushinak, 'Lord of Susa,' was the supreme Elamite deity and judge of the dead. His temple complex at Susa was the religious heart of the Elamite world.",
+      "wikiSlug": "Insushinak",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-highland-trade-routes",
+      "label": "Iranian Highland Trade Routes",
+      "year": -2500,
+      "description": "Elam controlled critical trade routes across the Zagros Mountains, connecting Mesopotamia to the tin and lapis lazuli sources of Afghanistan and Central Asia.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-elamite-akkadian-treaty",
+      "label": "Elamite-Akkadian Treaty",
+      "year": -2250,
+      "description": "A treaty between Elam and the Akkadian Empire, written in Elamite, is one of the oldest known international treaties \u2014 evidence of Elam's recognized sovereignty.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-naram-sin-conquest",
+      "label": "Naram-Sin Conquers Elam",
+      "year": -2240,
+      "description": "The Akkadian king Naram-Sin temporarily conquered Elam, but Elamite resistance continued. The Stele of Naram-Sin may depict this campaign into the Zagros Mountains.",
+      "wikiSlug": "Naram-Sin_of_Akkad",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-elamite-linear-script",
+      "label": "Linear Elamite Script",
+      "year": -2200,
+      "description": "Linear Elamite, a script distinct from both Proto-Elamite and cuneiform, was recently partially deciphered in 2022 after a century of mystery \u2014 a breakthrough for understanding Elamite culture.",
+      "wikiSlug": "Linear_Elamite",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-elamite-glyptic",
+      "label": "Elamite Cylinder Seals",
+      "year": -2200,
+      "description": "Elamite cylinder seals developed a distinctive style featuring ritual scenes, mythological creatures, and serpent motifs that differed markedly from Mesopotamian conventions.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-shimashki-dynasty",
+      "label": "Shimashki Dynasty",
+      "year": -2100,
+      "endYear": -1900,
+      "description": "After destroying Ur, the Shimashki dynasty controlled a highland empire stretching across western Iran, raiding Mesopotamia and extracting tribute.",
+      "wikiSlug": "Shimashki_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puzur-inshushinak",
+      "label": "Puzur-Inshushinak",
+      "year": -2100,
+      "description": "The last great king of the Awan dynasty, Puzur-Inshushinak briefly made Elam an imperial power, campaigning against Gutian and Sumerian rivals and commissioning monumental inscriptions in both Akkadian and the still-undeciphered Linear Elamite script. His inscriptions on votive statues from Susa are the richest surviving source of Linear Elamite text in existence.",
+      "wikiSlug": "Puzur-Inshushinak",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pinikir-goddess",
+      "label": "Goddess Pinikir",
+      "year": -2020,
+      "description": "Pinikir, the great mother goddess, was one of Elam's most important deities, associated with love and the heavens. Her worship influenced later Iranian religious traditions.",
+      "wikiSlug": "Pinikir",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-elamite-cuneiform",
+      "label": "Elamite Cuneiform Adoption",
+      "year": -2010,
+      "description": "While maintaining their own languages, the Elamites adopted cuneiform for official inscriptions, creating a hybrid written culture that borrowed from but never fully merged with Mesopotamia.",
+      "wikiSlug": "Elamite_language",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-destruction-ur",
+      "label": "Elamite Destruction of Ur",
+      "year": -2004,
+      "description": "The Elamites, allied with other groups, sacked Ur and ended the Third Dynasty of Ur. The Lament for Ur, one of the oldest literary texts, mourns this catastrophe.",
+      "wikiSlug": "Fall_of_Ur",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-susa-acropolis",
+      "label": "Susa Acropolis Temples",
+      "year": -2000,
+      "description": "The religious complex on the Susa acropolis contained temples to Inshushinak and other Elamite deities, serving as the spiritual center of the civilization for millennia.",
+      "wikiSlug": "Susa",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-elamite-matriliny",
+      "label": "Elamite Royal Succession",
+      "year": -1990,
+      "description": "Elamite royal succession often passed through the female line, with kings sometimes marrying their sisters \u2014 a practice that distinguished Elamite kingship from Mesopotamian norms.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-copper-tin-trade",
+      "label": "Elamite Copper and Tin Trade",
+      "year": -1980,
+      "description": "Elam's access to copper from Oman and tin from Afghanistan made it a crucial node in the Bronze Age metals trade, enriching Susa's merchant class.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-sukkalmah-period",
+      "label": "Sukkalmah Period",
+      "year": -1900,
+      "endYear": -1500,
+      "description": "The Sukkalmah ('Grand Regent') dynasty governed Elam through a unique system of shared power between the king, the sukkalmah, and the governor of Susa.",
+      "wikiSlug": "Sukkalmah_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-eparti-sukkalmah",
+      "label": "Eparti I, Founder of the Sukkalmah",
+      "year": -1850,
+      "description": "Eparti I founded the Sukkalmah ('grand regent') dynasty around 1850 BCE, establishing the distinctive Elamite government of three ranked offices \u2014 sukkalmah at the top, sukkal of Elam and Simashki below him, sukkal of Susa below that \u2014 often held by brothers and uncles in a complex family system that kept Elam diplomatically strong for three centuries.",
+      "wikiSlug": "Sukkalmah_dynasty",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-siwe-palar-hupak",
+      "label": "Siwe-palar-hupak and the Mari Letters",
+      "year": -1770,
+      "description": "Siwe-palar-hupak was the Elamite sukkalmah during Hammurabi's rise, and his diplomatic correspondence is preserved indirectly in the Mari letters \u2014 the diplomatic archive found at the Syrian city of Mari. The Mari letters show Elam as one of the great powers of the age, with Hammurabi addressing the Elamite ruler as 'father' in the respect-ranked kinship terms of Mesopotamian diplomacy. Siwe-palar-hupak's Elam was a peer of Babylon, not a vassal.",
+      "wikiSlug": "Siwe-palar-huppak",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kudur-nahhunte-i",
+      "label": "Kudur-Nahhunte I Invades Babylonia",
+      "year": -1750,
+      "description": "The Elamite king Kudur-Nahhunte I campaigned into Babylonia shortly after Hammurabi's death, sacking cities and carrying off temple statues \u2014 a pattern of Elamite retaliatory raids against Mesopotamia that would recur for the next thousand years, culminating in Shutruk-Nahhunte's more famous sack of Babylon in 1158 BCE.",
+      "wikiSlug": "Kudur-Nahhunte",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-humban-pantheon",
+      "label": "Humban, King of the Elamite Gods",
+      "year": -1600,
+      "description": "Humban was the chief of the Elamite pantheon \u2014 the sky father, the king-maker, the god whose name appears in dozens of royal names (Humban-Numena, Humban-Haltash, Humban-menanu). The Elamite royal formula was 'servant of Humban and Inshushinak,' and the god's name survived into the Persian period as a theophoric element even after Elam itself had been absorbed into the Achaemenid empire.",
+      "wikiSlug": "Humban",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-kiririsha",
+      "label": "Kiririsha, the Great Mother",
+      "year": -1600,
+      "description": "Kiririsha was the great mother goddess of Elam, consort of Humban and patron of the southern highland city of Liyan. Royal inscriptions call her 'great lady,' 'mother of the gods,' and the Elamite kings invoked her alongside Humban and Inshushinak in the standard divine triad at the head of the pantheon.",
+      "wikiSlug": "Kiririsha",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-nahhunte-sun-god",
+      "label": "Nahhunte, the Sun God",
+      "year": -1600,
+      "description": "Nahhunte was the Elamite sun god and the divine judge \u2014 the god whose name means 'creator of the day' and who appears in royal names like Shutruk-Nahhunte and Kutir-Nahhunte. Like the Mesopotamian sun god Shamash, Nahhunte presided over justice and oaths, and Elamite court judgments invoked him as the ultimate witness.",
+      "wikiSlug": "Nahhunte",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tepti-ahar",
+      "label": "Tepti-Ahar Tomb Complex",
+      "year": -1500,
+      "description": "The tomb of Tepti-Ahar at Haft Tappeh near Susa contained mass burials and evidence of complex mortuary rituals, shedding light on Middle Elamite religious practices.",
+      "wikiSlug": "Haft_Tappeh",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-elamite-astronomy",
+      "label": "Elamite Astronomical Knowledge",
+      "year": -1500,
+      "description": "Elamite priests maintained astronomical observations that contributed to the broader Mesopotamian tradition, with evidence of celestial calculations found in Susa archives.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-humban-deity",
+      "label": "Worship of Humban",
+      "year": -1500,
+      "description": "Humban, the Elamite sky god and 'king of the gods,' became increasingly prominent in the Middle Elamite period, often paired with Kiririsha, the mother goddess.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-haft-tappeh",
+      "label": "Haft Tappeh Royal City",
+      "year": -1400,
+      "description": "The site of Haft Tappeh near Susa served as a Middle Elamite royal residence with monumental architecture, workshops, and evidence of large-scale grain storage.",
+      "wikiSlug": "Haft_Tappeh",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-igihalkid-dynasty",
+      "label": "Igihalkid Dynasty",
+      "year": -1400,
+      "endYear": -1210,
+      "description": "The Igihalkid dynasty ruled Elam from roughly 1400 to 1210 BCE and presided over the Middle Elamite golden age \u2014 Untash-Napirisha and Chogha Zanbil, the great bronze statue of Queen Napir-Asu, the fortification of Susa, and the beginnings of Elam's most aggressive foreign policy. The dynasty took its name from the king Ige-halki and marks the transition from the quieter Kidinuid period to Elam's peak as a Near Eastern great power.",
+      "wikiSlug": "Igihalkid_dynasty",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-humban-numena",
+      "label": "Humban-Numena I",
+      "year": -1350,
+      "description": "Humban-Numena I (grandfather of Untash-Napirisha) began the Elamite great-building program that would culminate in Chogha Zanbil, expanding the temple complex at Susa and issuing inscriptions in a form of Elamite written in cuneiform signs that would become the standard royal script for the rest of the Middle Elamite period.",
+      "wikiSlug": "Humban-numena",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-elamite-bronze-statue",
+      "label": "Elamite Bronze Statue of Napir-Asu",
+      "year": -1340,
+      "description": "The bronze statue of Queen Napir-Asu, weighing 1,750 kg, is a masterwork of Elamite metallurgy. The inscription curses anyone who damages it \u2014 the curse held for 3,300 years.",
+      "wikiSlug": "Statue_of_Queen_Napir-Asu",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-untash-napirisha",
+      "label": "Untash-Napirisha",
+      "year": -1275,
+      "endYear": -1240,
+      "description": "King Untash-Napirisha presided over Elam's golden age, building the magnificent ziggurat at Chogha Zanbil and a new ceremonial capital at Dur-Untash.",
+      "wikiSlug": "Untash-Napirisha",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-chogha-zanbil",
+      "label": "Ziggurat of Chogha Zanbil",
+      "year": -1250,
+      "description": "The five-tiered ziggurat at Chogha Zanbil, originally 53 meters tall, is the best-preserved stepped temple outside Mesopotamia and a UNESCO World Heritage Site.",
+      "wikiSlug": "Chogha_Zanbil",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-elamite-warriors",
+      "label": "Elamite Warrior Traditions",
+      "year": -1200,
+      "description": "Elamite warriors were renowned archers and charioteers. Mesopotamian texts frequently describe Elamite military prowess, and their mountain-adapted tactics frustrated lowland armies.",
+      "wikiSlug": "Elam",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-shutruk-nahhunte",
+      "label": "Shutruk-Nahhunte",
+      "year": -1185,
+      "endYear": -1155,
+      "description": "The warrior king Shutruk-Nahhunte conquered Babylon and carried off its greatest monuments, including the Code of Hammurabi and the Stele of Naram-Sin.",
+      "wikiSlug": "Shutruk-Nahhunte",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sack-babylon-elamite",
+      "label": "Elamite Sack of Babylon",
+      "year": -1158,
+      "description": "Shutruk-Nahhunte sacked Babylon and carried off the Code of Hammurabi and other monuments to Susa. The Kassite dynasty of Babylon ended in humiliation.",
+      "wikiSlug": "Shutruk-Nahhunte",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kutir-nahhunte",
+      "label": "Kutir-Nahhunte III",
+      "year": -1155,
+      "description": "The son of Shutruk-Nahhunte, Kutir-Nahhunte III continued his father's wars against Babylonia after the famous sack of Babylon in 1158 BCE, deposing the Kassite king and briefly installing Elamite overlordship across Mesopotamia. His campaigns represent the high-water mark of Elamite political reach \u2014 Elam at its most aggressive, before Nebuchadnezzar I's counterattack would drive them back to Susa for good.",
+      "wikiSlug": "Kutir-Nahhunte_III",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sit-shamshi",
+      "label": "Sit Shamshi Bronze Tableau",
+      "year": -1150,
+      "description": "The Sit Shamshi ('Sunrise') is a detailed bronze model depicting a ritual ceremony with miniature figures, trees, and altars \u2014 a unique window into Elamite religious practice.",
+      "wikiSlug": "Sit_Shamshi",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-shilhak-inshushinak",
+      "label": "Shilhak-Inshushinak",
+      "year": -1150,
+      "endYear": -1120,
+      "description": "The greatest Middle Elamite king expanded the empire to its maximum extent, conquering vast territories in Mesopotamia and commissioning building projects across Elam.",
+      "wikiSlug": "Shilhak-Inshushinak",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hutelutush-inshushinak",
+      "label": "Hutelutush-Inshushinak",
+      "year": -1120,
+      "description": "The last king of the Middle Elamite period, Hutelutush-Inshushinak lost the wars against the Babylonian king Nebuchadnezzar I around 1110 BCE, saw the Elamite statue of Marduk reclaimed by Babylon, and retreated from Susa as central Elamite authority fractured. After his reign, Elam disappears almost entirely from the historical record for nearly three centuries \u2014 a 'dark age' from which the kingdom would only re-emerge in the Neo-Elamite revival of the 8th century BCE.",
+      "wikiSlug": "Hutelutush-Inshushinak",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nebuchadnezzar-i-revenge",
+      "label": "Nebuchadnezzar I Defeats Elam",
+      "year": -1110,
+      "description": "Babylonian king Nebuchadnezzar I invaded Elam and recovered the stolen statue of Marduk, ending Elamite dominance over Babylon and beginning a period of Elamite decline.",
+      "wikiSlug": "Nebuchadnezzar_I",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-neo-elamite-revival",
+      "label": "Neo-Elamite Revival",
+      "year": -750,
+      "endYear": -646,
+      "description": "A series of Neo-Elamite kings allied with Babylon against Assyria, playing the balance of power game between the era's superpowers.",
+      "wikiSlug": "Elam",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-anshan-persian-title",
+      "label": "King of Anshan",
+      "year": -700,
+      "description": "Long after Elamite political power had collapsed, the Elamite royal title 'king of Anshan' was adopted by a new line of rulers in the Iranian highlands \u2014 the Persians. Cyrus the Great's grandfather Cyrus I styled himself 'king of Anshan' on his seal, and Cyrus the Great himself used the same title on the Cyrus Cylinder. The Persian royal line claimed the Elamite city of Anshan as its ancestral seat, meaning the founder of the Achaemenid Empire was, in his own self-presentation, heir to an Elamite throne.",
+      "wikiSlug": "Anshan_(Persia)",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-te-umman-til-tuba",
+      "label": "Te-Umman and the Battle of Til-Tuba",
+      "year": -653,
+      "description": "At the Battle of Til-Tuba in 653 BCE, the Assyrian army under Ashurbanipal defeated the Elamite king Te-Umman (Tempti-Humban-Inshushinak). Te-Umman was captured, beheaded on the battlefield, and his severed head was carried back to Nineveh \u2014 where Ashurbanipal commissioned some of the most gruesomely detailed narrative reliefs in all of ancient art, showing the battle, the chase, the decapitation, and the head hanging in a garden tree at Nineveh while the king and his queen feast beneath it. The reliefs survive and are on display at the British Museum.",
+      "wikiSlug": "Battle_of_Til-Tuba",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-shamash-shum-ukin-alliance",
+      "label": "Elamite Alliance with Shamash-shum-ukin",
+      "year": -652,
+      "description": "When Ashurbanipal's older brother Shamash-shum-ukin revolted against him from Babylon (652\u2013648 BCE), the Elamite king Humban-Nikash II allied with the rebel and sent an army west. The revolt failed, Shamash-shum-ukin died in the burning palace at Babylon, and Ashurbanipal turned his fury south \u2014 setting off the series of campaigns that would end with the Sack of Susa six years later. Elam's choice to back the wrong brother was the decision that doomed the kingdom.",
+      "wikiSlug": "Shamash-shum-ukin",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sack-susa-assyria",
+      "label": "Sack of Susa",
+      "year": -646,
+      "description": "Ashurbanipal's armies sacked Susa, destroyed temples, and salted the fields. The Assyrian king boasted of total devastation, effectively ending Elam as an independent power.",
+      "wikiSlug": "Ashurbanipal",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-elamite-legacy-persia",
+      "label": "Elamite Legacy in Persia",
+      "year": -550,
+      "description": "The Achaemenid Persians built their capital at Susa and used Elamite as one of three official languages. Elamite administrative traditions deeply influenced Persian imperial governance.",
+      "wikiSlug": "Elam",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-behistun-elamite",
+      "label": "Behistun Inscription in Elamite",
+      "year": -520,
+      "description": "The great trilingual Behistun Inscription that Darius I carved into the cliff face above the Hamadan\u2013Babylon road around 520 BCE includes a version in Elamite alongside its Old Persian and Babylonian versions. The Elamite text was carved first and is the longest of the three, and the Achaemenid state's choice to put Elamite at the center of its trilingual monumental program is the clearest surviving evidence of how important the language remained under Persian rule.",
+      "wikiSlug": "Behistun_Inscription",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-persepolis-fortification-archive",
+      "label": "Persepolis Fortification Archive",
+      "year": -509,
+      "endYear": -494,
+      "description": "The Persepolis Fortification Archive is a hoard of roughly 30,000 clay tablets and sealings, excavated from the fortification walls at Persepolis in 1933, recording the day-to-day economic administration of the Achaemenid royal court between 509 and 494 BCE under Darius I. The astonishing fact: the tablets are in Elamite, not Old Persian. The Persian Empire that had just conquered the Near East ran its palace bureaucracy in the language of the kingdom it had supposedly absorbed, using Elamite-speaking scribes whose training traced directly back to the old Susa schools. Elamite outlasted Elam by two centuries inside the Persian administrative system.",
+      "wikiSlug": "Persepolis_Administrative_Archives",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    }
+  ]
+}
