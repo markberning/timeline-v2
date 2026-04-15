@@ -13,6 +13,9 @@ interface Props {
 const MIN_BAR = 36
 const TARGET_MAX_FRAC = 0.7
 const MAX_INDENT_FRAC = 0.5
+const GAP_SCALE = 1.5                // px per sqrt(year gap between adjacent TLs)
+const ENTRY_ZONE_FRAC = 0.33         // bottom third of viewport is the fly-in zone
+const ENTRY_X_FRAC = 0.85            // new rows start at 85% of viewport width
 const FRICTION = 0.94
 const MIN_VELOCITY = 0.05
 
@@ -49,6 +52,24 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     return () => ro.disconnect()
   }, [])
 
+  // Per-row vertical layout: each row gets extra vertical space above it
+  // based on the startYear gap from the previous TL, so clusters of
+  // similar-era civilizations pack tight and big historical gaps create
+  // visible breathing room. Monotonic, so chronological order is safe.
+  const rowLayout = useMemo(() => {
+    const n = tls.length
+    const baseY = new Array<number>(n)
+    if (n === 0) return { baseY, totalHeight: 0 }
+    baseY[0] = 0
+    for (let i = 1; i < n; i++) {
+      const gap = Math.max(0, tls[i].startYear - tls[i - 1].startYear)
+      const extra = Math.sqrt(gap) * GAP_SCALE
+      baseY[i] = baseY[i - 1] + rowHeight + extra
+    }
+    const totalHeight = baseY[n - 1] + rowHeight
+    return { baseY, totalHeight }
+  }, [tls, rowHeight])
+
   // Bar width per TL: sqrt-compressed duration, normalized so the longest
   // TL fills ~70% of the viewport width. Constant per scroll.
   const barWidths = useMemo(() => {
@@ -76,22 +97,33 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
     const vw = viewportSize.width
     const halfRow = rowHeight / 2
     const bottomPadding = rowHeight  // breathing room below last row
-    const maxScroll = Math.max(0, tls.length * rowHeight - vh + bottomPadding)
+    const maxScroll = Math.max(0, rowLayout.totalHeight - vh + bottomPadding)
 
     // Clamp existing scroll into the new bounds
     if (scrollOffsetRef.current > maxScroll) scrollOffsetRef.current = maxScroll
     if (scrollOffsetRef.current < 0) scrollOffsetRef.current = 0
 
     const maxIndent = vw * MAX_INDENT_FRAC
+    const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
+    const entryX = vw * ENTRY_X_FRAC
+    const entryZoneSpan = vh - settleEndY
+    const baseY = rowLayout.baseY
+
     const render = () => {
       const scrollOffset = scrollOffsetRef.current
       for (let i = 0; i < tls.length; i++) {
         const bar = barRefs.current[i]
         if (!bar) continue
-        const y = i * rowHeight - scrollOffset
+        const y = baseY[i] - scrollOffset
         const rowCenterY = y + halfRow
-        const t = rowCenterY / vh
-        const x = t * maxIndent
+        const naturalX = (rowCenterY / vh) * maxIndent
+        let x = naturalX
+        if (rowCenterY > settleEndY) {
+          const raw = (rowCenterY - settleEndY) / entryZoneSpan
+          const progress = raw > 1 ? 1 : raw
+          const eased = progress * progress
+          x = naturalX + (entryX - naturalX) * eased
+        }
         bar.style.transform = `translate3d(${x}px, ${y}px, 0)`
       }
     }
@@ -180,7 +212,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
       el.removeEventListener('touchcancel', onTouchEnd)
       el.removeEventListener('wheel', onWheel)
     }
-  }, [tls, barWidths, viewportSize, rowHeight])
+  }, [tls, barWidths, rowLayout, viewportSize, rowHeight])
 
   return (
     <div
@@ -201,11 +233,23 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
         // position, even if any layout-effect race would otherwise show a
         // stacked-at-(0,0) frame.
         let initialTransform: string | undefined
-        if (viewportSize.width > 0 && viewportSize.height > 0) {
+        if (viewportSize.width > 0 && viewportSize.height > 0 && rowLayout.baseY[i] !== undefined) {
           const so = scrollOffsetRef.current
-          const y = i * rowHeight - so
-          const t = (y + rowHeight / 2) / viewportSize.height
-          const x = t * (viewportSize.width * MAX_INDENT_FRAC)
+          const vh = viewportSize.height
+          const vw = viewportSize.width
+          const y = rowLayout.baseY[i] - so
+          const rowCenterY = y + rowHeight / 2
+          const maxIndent = vw * MAX_INDENT_FRAC
+          const naturalX = (rowCenterY / vh) * maxIndent
+          const settleEndY = vh * (1 - ENTRY_ZONE_FRAC)
+          let x = naturalX
+          if (rowCenterY > settleEndY) {
+            const raw = (rowCenterY - settleEndY) / (vh - settleEndY)
+            const progress = raw > 1 ? 1 : raw
+            const eased = progress * progress
+            const entryX = vw * ENTRY_X_FRAC
+            x = naturalX + (entryX - naturalX) * eased
+          }
           initialTransform = `translate3d(${x}px, ${y}px, 0)`
         }
         return (
