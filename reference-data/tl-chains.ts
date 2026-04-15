@@ -40,12 +40,14 @@ export const TL_CHAINS: TlChain[] = [
     label: 'Nile Valley',
     shortLabel: 'Nile',
     origins: 'Before the first pharaohs, scattered farming communities along the Nile slowly coalesced into two distinct regions — Upper and Lower Egypt. By 3500 BCE, these communities had developed irrigation, pottery, and the beginnings of hieroglyphic writing.',
+    // kingdom-of-kush belongs to nubian-tradition (its natural home) and is
+    // deliberately not listed here, so the Nile chain chips read 1/4..4/4
+    // cleanly. Kush's rule over Egypt is still documented in the prose.
     entries: [
       { timelineId: 'early-dynastic-egypt', transition: 'King Narmer unified Upper and Lower Egypt around 3100 BCE, launching the Age of the Pyramids — when divine pharaohs commanded the resources to build the most ambitious monuments the ancient world had ever seen.' },
       { timelineId: 'old-kingdom-egypt', transition: 'After a century of civil war between rival warlords, Mentuhotep II reunified Egypt and launched a cultural renaissance — the Middle Kingdom. When the Hyksos invaded and were expelled, Egypt erupted into its imperial zenith.' },
       { timelineId: 'new-kingdom-egypt', transition: 'The New Kingdom collapsed into fragmentation as Libyan warlords, Nubian pharaohs, and Persian conquerors fought over the Nile. Alexander the Great\'s conquest launched a final Hellenistic chapter under the Ptolemies.' },
-      { timelineId: 'late-egypt', transition: 'As Egyptian power waned, the Kingdom of Kush to the south — long a vassal and trading partner — rose to fill the vacuum, eventually conquering Egypt itself as the 25th Dynasty.' },
-      { timelineId: 'kingdom-of-kush' },
+      { timelineId: 'late-egypt' },
     ],
   },
   {
@@ -228,10 +230,13 @@ export const TL_CHAINS: TlChain[] = [
     label: 'Mesopotamian Succession',
     shortLabel: 'Mesopotamia',
     origins: 'The fertile land between the Tigris and Euphrates rivers — Mesopotamia — saw the world\'s first cities, writing, and codified law emerge around 3500 BCE. Sumerians, Akkadians, and Babylonians built successive civilizations in this cradle.',
+    // persian-empire belongs to persian-tradition (its natural home) and is
+    // deliberately not listed here, so the Mesopotamia chain chips read
+    // 1/3..3/3 cleanly. Persian rule over Babylon is still documented in
+    // the prose and the transition text below.
     entries: [
       { timelineId: 'mesopotamia', transition: 'From the fragmented city-states of Mesopotamia, the Assyrians built the ancient world\'s first true military empire through iron weapons, siege warfare, and systematic terror.' },
-      { timelineId: 'assyrian-empire', transition: 'Assyria\'s brutal methods united its enemies. A coalition of Babylonians and Medes destroyed Nineveh in 612 BCE. Within a century, Cyrus the Great\'s Persian Empire absorbed the entire region.' },
-      { timelineId: 'persian-empire', transition: 'The Arab conquests of the 7th century CE transformed the former Persian lands. Under the Abbasid caliphate, the Islamic world experienced a golden age of science, philosophy, and art.' },
+      { timelineId: 'assyrian-empire', transition: 'Assyria\'s brutal methods united its enemies. A coalition of Babylonians and Medes destroyed Nineveh in 612 BCE. Within a century, Cyrus the Great\'s Persian Empire absorbed the entire region — and several centuries later, the Arab conquests brought the Abbasid caliphate, ushering in an Islamic golden age of science, philosophy, and art.' },
       { timelineId: 'islamic-golden-age' },
     ],
   },
