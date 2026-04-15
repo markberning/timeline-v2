@@ -17,3 +17,9 @@ Do not rely on a top-of-file note to convey this — Gemini takes the chapter ti
 - [ancient-nubia.md](ancient-nubia.md) — 8 chapters (1–8)
 - [ancient-china.md](ancient-china.md) — 8 chapters (1–8)
 - [elamite-civilization.md](elamite-civilization.md) — 8 chapters (1–8)
+
+## Redos
+
+First-run Gemini output had hallucinations on some maps — see [redo/](redo/) for tightened rewrites of the problem prompts. Specifically:
+- [redo/ancient-china.md](redo/ancient-china.md) — Ch 4, 7, 8 (the three China maps with real errors)
+- [redo/ancient-nubia.md](redo/ancient-nubia.md) — Ch 1–8 (all eight Nubia maps need redos)
