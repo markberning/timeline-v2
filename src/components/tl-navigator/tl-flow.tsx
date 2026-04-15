@@ -568,6 +568,41 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 }}
               />
               <span>{tl.label}</span>
+              {chain && (
+                <span
+                  data-chain-chip="1"
+                  data-chain-id={chain.chainId}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: 5,
+                    fontSize: 15,
+                    fontWeight: 500,
+                    color: theme.label.color,
+                    opacity: 0.55,
+                    marginLeft: 18,
+                    pointerEvents: 'auto',
+                    cursor: 'pointer',
+                  }}
+                >
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+                  </svg>
+                  <span>
+                    {chain.shortLabel} {chain.index + 1}/{chain.total}
+                  </span>
+                </span>
+              )}
             </div>
             <div
               style={{
@@ -578,10 +613,6 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 whiteSpace: 'nowrap',
                 lineHeight: 1.15,
                 marginTop: 2,
-                // Definite width so the chain chip can float far right via
-                // marginLeft: auto — spatially distances its tap zone from
-                // where label + dates + subtitle line up on the left.
-                width: Math.max(viewportSize.width * 0.88 - 32, 260),
               }}
             >
               <span
@@ -594,45 +625,6 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
               >
                 {formatYearRange(tl.startYear, tl.endYear)}
               </span>
-              {chain && (
-                <span
-                  data-chain-chip="1"
-                  data-chain-id={chain.chainId}
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: 5,
-                    fontSize: 12,
-                    fontWeight: 500,
-                    color: theme.label.color,
-                    opacity: 0.65,
-                    padding: '3px 9px',
-                    borderRadius: 999,
-                    border: `1px solid ${theme.headerBorder}`,
-                    background: 'rgba(255,255,255,0.04)',
-                    pointerEvents: 'auto',
-                    cursor: 'pointer',
-                    marginLeft: 'auto',
-                  }}
-                >
-                  <svg
-                    width="11"
-                    height="11"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.6"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-                  </svg>
-                  <span>
-                    {chain.shortLabel} {chain.index + 1}/{chain.total}
-                  </span>
-                </span>
-              )}
             </div>
             {tl.subtitle && (
               <div
