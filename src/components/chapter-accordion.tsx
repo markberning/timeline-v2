@@ -132,82 +132,91 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     >
       <div
         ref={headerRef}
-        role="button"
-        tabIndex={0}
-        onPointerDown={onHeaderPointerDown}
-        onPointerUp={onHeaderPointerUp}
-        className="w-full text-left py-5 flex gap-3 items-start sticky z-10 transition-colors duration-[1200ms] touch-manipulation cursor-pointer select-none"
+        className="sticky z-10 transition-colors duration-[1200ms]"
         style={{
           top: `${navHeight}px`,
           backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)',
         }}
       >
-        <span
-          className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
-          style={{ backgroundColor: 'var(--accent)' }}
+        {/* Clickable header row — only this area toggles the chapter. */}
+        <div
+          role="button"
+          tabIndex={0}
+          onPointerDown={onHeaderPointerDown}
+          onPointerUp={onHeaderPointerUp}
+          className="w-full text-left pt-5 pb-2 flex gap-3 items-start touch-manipulation cursor-pointer select-none"
         >
-          {chapter.number}
-        </span>
-        <div className="min-w-0 flex-1">
-          <div className="flex items-center justify-between gap-2">
-            <h2 className="font-semibold">{chapter.title}</h2>
-            <span className={`text-foreground/30 text-lg shrink-0 transition-transform duration-200 ${open ? 'rotate-90' : ''}`}>
-              &#x203A;
-            </span>
+          <span
+            className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
+            style={{ backgroundColor: 'var(--accent)' }}
+          >
+            {chapter.number}
+          </span>
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="font-semibold">{chapter.title}</h2>
+              <span className={`text-foreground/30 text-lg shrink-0 transition-transform duration-200 ${open ? 'rotate-90' : ''}`}>
+                &#x203A;
+              </span>
+            </div>
+            {chapter.dateRange && (
+              <p className="text-[0.75em] text-foreground/60 mt-0.5">{chapter.dateRange}</p>
+            )}
           </div>
-          {chapter.dateRange && (
-            <p className="text-[0.75em] text-foreground/60 mt-0.5">{chapter.dateRange}</p>
-          )}
-          {!open && chapter.summaryBullets && chapter.summaryBullets.length > 0 ? (
-            <>
-              <ul className="mt-3 space-y-2 list-disc list-outside pl-5 text-[0.95em]">
-                {chapter.summaryBullets.map((html, i) => (
-                  <li
-                    key={i}
-                    className="leading-snug text-foreground"
-                    dangerouslySetInnerHTML={{ __html: html }}
-                  />
-                ))}
-              </ul>
-              <button
-                onClick={(e) => { e.stopPropagation(); onExpand() }}
-                className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
-              >
-                Read Chapter {chapter.number} →
-              </button>
-            </>
-          ) : (
-            <>
-              {!open && chapter.summary && (
-                <p className="text-foreground mt-2">{chapter.summary}</p>
-              )}
-              {!open && chapterEvents.length > 0 && (
-                <div className="mt-3 flex flex-wrap gap-1.5">
-                  {chapterEvents.map(ev => (
-                    <span
-                      key={ev.id}
-                      className="event-link event-chip text-[0.7em] px-2 py-0.5 rounded-full border"
-                      data-event-id={ev.id}
-                      data-category={ev.category}
-                    >
-                      {ev.label}
-                    </span>
+        </div>
+
+        {/* Non-clickable preview content — outside the pointer zone so text is selectable. */}
+        {!open && (
+          <div className="pb-5 pl-10">
+            {chapter.summaryBullets && chapter.summaryBullets.length > 0 ? (
+              <>
+                <ul className="mt-1 space-y-2 list-disc list-outside pl-5 text-[0.95em]">
+                  {chapter.summaryBullets.map((html, i) => (
+                    <li
+                      key={i}
+                      className="leading-snug text-foreground"
+                      dangerouslySetInnerHTML={{ __html: html }}
+                    />
                   ))}
-                </div>
-              )}
-              {!open && (
+                </ul>
                 <button
-                  onClick={(e) => { e.stopPropagation(); onExpand() }}
+                  onClick={onExpand}
                   className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
                   style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
                 >
                   Read Chapter {chapter.number} →
                 </button>
-              )}
-            </>
-          )}
-        </div>
+              </>
+            ) : (
+              <>
+                {chapter.summary && (
+                  <p className="text-foreground mt-1">{chapter.summary}</p>
+                )}
+                {chapterEvents.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-1.5">
+                    {chapterEvents.map(ev => (
+                      <span
+                        key={ev.id}
+                        className="event-link event-chip text-[0.7em] px-2 py-0.5 rounded-full border"
+                        data-event-id={ev.id}
+                        data-category={ev.category}
+                      >
+                        {ev.label}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                <button
+                  onClick={onExpand}
+                  className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
+                  style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                >
+                  Read Chapter {chapter.number} →
+                </button>
+              </>
+            )}
+          </div>
+        )}
       </div>
 
       {open && (
