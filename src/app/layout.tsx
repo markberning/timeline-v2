@@ -37,7 +37,7 @@ export default function RootLayout({
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.classList.add('dark')}var s=localStorage.getItem('textSize');if(s){var sizes=['0.875rem','1rem','1.125rem','1.25rem','1.375rem'];var i=parseInt(s,10);if(i>=0&&i<sizes.length){document.documentElement.style.setProperty('--prose-size',sizes[i])}}}catch(e){}})()`,
+            __html: `(function(){try{var t=localStorage.getItem('theme');if(t!=='light'){document.documentElement.classList.add('dark')}var s=localStorage.getItem('textSize');if(s){var sizes=['0.875rem','1rem','1.125rem','1.25rem','1.375rem'];var i=parseInt(s,10);if(i>=0&&i<sizes.length){document.documentElement.style.setProperty('--prose-size',sizes[i])}}}catch(e){}})()`,
           }}
         />
       </head>
