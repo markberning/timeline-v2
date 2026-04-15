@@ -78,6 +78,7 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
 
 ### Data
 - 71 TLs in `NAVIGATOR_TLS` (`src/lib/navigator-tls.ts`): id, label, subtitle, region, startYear, endYear, optional `isReal` and `hasContent` flags. Only `mesopotamia`, `indus-valley`, and `ancient-china` have `hasContent: true`; everything else renders at opacity 0.35.
+- **Row order is global chronological, not array order.** `sortTls` in `tl-navigator.tsx` re-sorts by `startYear` ascending, with `endYear` as the tiebreaker. NAVIGATOR_TLS array order is ignored for display. Consequence: TL start/end dates drive the navigator layout, so they need to reflect scholarly consensus for the civilization's actual span — extended "Neolithic roots" dates push a TL up past later civilizations in the visible order. Regional grouping of the source array exists only for human readability of the file.
 - Every TL has a hand-written `subtitle` (short descriptive+evocative tagline, place anchor + flavor hook — e.g. `Iraq's first cities and cuneiform`).
 
 ### Zones
