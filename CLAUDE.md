@@ -29,7 +29,7 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 9. **Write summary bullets** — `narratives/{tlId}.summaries.json` as a JSON list of `{chapter, title, dateRange, bullets: [...]}`, 6–10 bullets per chapter. Dense single-sentence factual outlines, not polished prose. See `narratives/ancient-china.summaries.json` for style reference. Bullets auto-get event/glossary/cross-link injection by the parse script.
 10. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts (cached). **Restart the dev server after parse** — `lib/data.ts` caches narratives in-memory.
 11. **Backward cross-cultural pass** — apply the Persona E backward findings by adding Elam/Nubia/etc. cross-link entries to the completed reference TL cross-link files, pointing at chapters in the new TL.
-12. **Generate chapter maps** — use Gemini with prompts from `map-prompts.md`, save to `public/maps/{tlId}/chapter-{N}.png`. Then run the non-destructive optimize script to produce `.webp` copies at quality 85 alongside the PNGs. The reader loads `.webp` via the image probe in `chapter-accordion.tsx`.
+12. **Generate chapter maps** — use Gemini with prompts from `map-prompts/{tlId}.md` (see `map-prompts/README.md` for house style), save to `public/maps/{tlId}/chapter-{N}.png`. Then run the non-destructive optimize script to produce `.webp` copies at quality 85 alongside the PNGs. The reader loads `.webp` via the image probe in `chapter-accordion.tsx`.
 13. **Review images** — `/review/{tlId}` page for approving/rejecting event images (dev mode only)
 14. **Ship toggle** — flip `hasContent: true` on the TL's entry in `src/lib/navigator-tls.ts` to make the row tappable on the home navigator.
 
