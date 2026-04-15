@@ -11,7 +11,7 @@ import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
 import { enrichEvents, enrichGlossary } from './enrich-events'
-import { NAVIGATOR_TLS } from '../src/lib/navigator-tls'
+import { getAccentColors } from '../src/lib/accent-colors'
 
 interface ParsedChapter {
   number: number
@@ -52,14 +52,16 @@ interface CrossLinkOut {
   targetChapter: number
   targetLabel: string
   targetChapterTitle: string
-  targetRegion: string
+  targetColorLight: string
+  targetColorDark: string
   blurb: string
 }
 
 interface TlMeta {
   label: string
-  region: string
   chapters: Map<number, string>
+  colorLight: string
+  colorDark: string
 }
 
 interface ChapterSummary {
@@ -322,7 +324,8 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
         continue
       }
       const id = `cl-${ch.number}-${crossIdx++}`
-      const replacement = `<a class="cross-link" data-cross-id="${id}" data-target-region="${targetMeta.region}">${cl.matchText}</a>`
+      const styleAttr = `style="--cl-light:${targetMeta.colorLight};--cl-dark:${targetMeta.colorDark}"`
+      const replacement = `<a class="cross-link" data-cross-id="${id}" ${styleAttr}>${cl.matchText}</a>`
       const res = replaceOutsideAnchors(linkedBody, cl.matchText, replacement)
       linkedBody = res.result
       if (res.replaced) {
@@ -334,7 +337,8 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
           targetChapter: cl.targetChapter,
           targetLabel: targetMeta.label,
           targetChapterTitle,
-          targetRegion: targetMeta.region,
+          targetColorLight: targetMeta.colorLight,
+          targetColorDark: targetMeta.colorDark,
           blurb: cl.blurb,
         })
       } else {
@@ -386,7 +390,8 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
           if (!targetMeta?.chapters.has(cl.targetChapter)) continue
           const existing = crossLinksOut.find(x => x.matchText === cl.matchText && x.sourceChapter === ch.number && x.targetTl === cl.targetTl && x.targetChapter === cl.targetChapter)
           if (!existing) continue
-          const replacement = `<a class="cross-link" data-cross-id="${existing.id}" data-target-region="${targetMeta.region}">${cl.matchText}</a>`
+          const styleAttr = `style="--cl-light:${targetMeta.colorLight};--cl-dark:${targetMeta.colorDark}"`
+          const replacement = `<a class="cross-link" data-cross-id="${existing.id}" ${styleAttr}>${cl.matchText}</a>`
           const res = replaceOutsideAnchors(text, cl.matchText, replacement)
           text = res.result
         }
@@ -480,11 +485,12 @@ async function main() {
     const md = readFileSync(path, 'utf-8')
     const rawChapters = splitIntoChapters(md)
     const refData = loadReferenceData(tlId)
-    const navTl = NAVIGATOR_TLS.find(t => t.id === tlId)
+    const accent = getAccentColors(tlId)
     tlMetaMap.set(tlId, {
       label: refData.label,
-      region: navTl?.region ?? 'asia',
       chapters: new Map(rawChapters.map(c => [c.number, c.title])),
+      colorLight: accent.text,
+      colorDark: accent.base,
     })
   }
 

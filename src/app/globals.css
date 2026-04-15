@@ -152,7 +152,8 @@ a.glossary-link {
   color: #9ca3af;
 }
 
-/* Cross-cultural links — dashed underline in the TARGET TL's region color */
+/* Cross-cultural links — dashed underline in the target TL's chain color.
+   Each anchor gets inline --cl-light / --cl-dark vars from the parse step. */
 .prose a.cross-link,
 a.cross-link {
   text-decoration: underline;
@@ -161,17 +162,12 @@ a.cross-link {
   text-decoration-thickness: 1.5px;
   cursor: pointer;
   font-weight: 500;
+  color: var(--cl-light, #6b7280);
 }
-.cross-link[data-target-region="near-east"] { color: #b45309; }
-.cross-link[data-target-region="africa"]    { color: #a16207; }
-.cross-link[data-target-region="asia"]      { color: #6d28d9; }
-.cross-link[data-target-region="europe"]    { color: #1d4ed8; }
-.cross-link[data-target-region="americas"]  { color: #15803d; }
-.dark .cross-link[data-target-region="near-east"] { color: #fbbf24; }
-.dark .cross-link[data-target-region="africa"]    { color: #fcd34d; }
-.dark .cross-link[data-target-region="asia"]      { color: #c4b5fd; }
-.dark .cross-link[data-target-region="europe"]    { color: #93c5fd; }
-.dark .cross-link[data-target-region="americas"]  { color: #86efac; }
+.dark .prose a.cross-link,
+.dark a.cross-link {
+  color: var(--cl-dark, #9ca3af);
+}
 
 /* Dark mode: use vibrant base colors */
 .dark .event-link[data-category="rulers"]       { color: #f59e0b; }

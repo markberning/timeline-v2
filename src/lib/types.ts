@@ -53,7 +53,8 @@ export interface CrossLink {
   targetChapter: number
   targetLabel: string
   targetChapterTitle: string
-  targetRegion: string
+  targetColorLight: string
+  targetColorDark: string
   blurb: string
 }
 

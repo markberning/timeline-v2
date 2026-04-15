@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { CrossLink } from '@/lib/types'
 
 interface CrossLinkSheetProps {
@@ -8,22 +8,17 @@ interface CrossLinkSheetProps {
   onClose: () => void
 }
 
-const REGION_COLORS_LIGHT: Record<string, string> = {
-  'near-east': '#b45309',
-  'africa':    '#a16207',
-  'asia':      '#6d28d9',
-  'europe':    '#1d4ed8',
-  'americas':  '#15803d',
-}
-const REGION_COLORS_DARK: Record<string, string> = {
-  'near-east': '#fbbf24',
-  'africa':    '#fcd34d',
-  'asia':      '#c4b5fd',
-  'europe':    '#93c5fd',
-  'americas':  '#86efac',
-}
-
 export function CrossLinkSheet({ crossLink, onClose }: CrossLinkSheetProps) {
+  const [isDark, setIsDark] = useState(false)
+  useEffect(() => {
+    if (typeof document === 'undefined') return
+    const update = () => setIsDark(document.documentElement.classList.contains('dark'))
+    update()
+    const obs = new MutationObserver(update)
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
+    return () => obs.disconnect()
+  }, [])
+
   const sheetRef = useRef<HTMLDivElement>(null)
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
 
@@ -55,8 +50,7 @@ export function CrossLinkSheet({ crossLink, onClose }: CrossLinkSheetProps) {
 
   if (!crossLink) return null
 
-  const isDark = typeof document !== 'undefined' && document.documentElement.classList.contains('dark')
-  const accent = (isDark ? REGION_COLORS_DARK : REGION_COLORS_LIGHT)[crossLink.targetRegion] ?? '#6b7280'
+  const accent = isDark ? crossLink.targetColorDark : crossLink.targetColorLight
 
   function jumpToTarget() {
     window.location.href = `/${crossLink!.targetTl}?chapter=${crossLink!.targetChapter}`
