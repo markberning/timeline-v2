@@ -8,6 +8,7 @@ export interface NavigatorTl {
   startYear: number
   endYear: number
   isReal?: boolean
+  hasContent?: boolean
 }
 
 export const REGION_ORDER: NavigatorRegion[] = [
@@ -36,7 +37,7 @@ export const REGION_COLORS: Record<NavigatorRegion, string> = {
 
 export const NAVIGATOR_TLS: NavigatorTl[] = [
   // ── NEAR EAST ──
-  { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true },
+  { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true, hasContent: true },
   { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539 },
   { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1700, endYear: -1178 },
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609 },
@@ -57,7 +58,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'songhai-empire', label: 'Songhai Empire', subtitle: "Timbuktu's last great ruler", region: 'africa', startYear: 1464, endYear: 1591 },
 
   // ── ASIA (South) ──
-  { id: 'indus-valley', label: 'Indus Valley', subtitle: "Pakistan's brick cities and lost script", region: 'asia', startYear: -7000, endYear: -1300, isReal: true },
+  { id: 'indus-valley', label: 'Indus Valley', subtitle: "Pakistan's brick cities and lost script", region: 'asia', startYear: -7000, endYear: -1300, isReal: true, hasContent: true },
   { id: 'vedic-period', label: 'Vedic Period', subtitle: "northern India's sacred hymns", region: 'asia', startYear: -1500, endYear: -322, isReal: true },
   { id: 'maurya-empire', label: 'Maurya Empire', subtitle: "India's first unifier, Buddhism's patron", region: 'asia', startYear: -345, endYear: -185, isReal: true },
   { id: 'post-maurya-kingdoms', label: 'Post-Maurya Kingdoms', subtitle: "India's centuries of fragmentation", region: 'asia', startYear: -185, endYear: 320 },

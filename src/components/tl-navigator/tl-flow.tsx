@@ -285,6 +285,7 @@ export function TlFlow({ tls, rowHeight, theme }: Props) {
               willChange: 'transform',
               pointerEvents: 'none',
               transform: initialTransform,
+              opacity: tl.hasContent ? 1 : 0.35,
             }}
           >
             <div
