@@ -208,10 +208,10 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 <div className="mt-4 flex gap-2">
                   <button
                     onClick={() => setSummaryOpen(false)}
-                    className="flex-1 py-3 text-base font-semibold rounded-lg transition-colors hover:opacity-80"
+                    className="shrink-0 w-12 h-12 flex items-center justify-center rounded-lg text-lg font-semibold transition-colors hover:opacity-80"
                     style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                   >
-                    Close Summary
+                    ×
                   </button>
                   <button
                     onClick={onExpand}
