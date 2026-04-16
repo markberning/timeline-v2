@@ -108,7 +108,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'soviet-union', label: 'Soviet Union', subtitle: "communism's superpower experiment", region: 'europe', startYear: 1922, endYear: 1991 },
 
   // ── AMERICAS ──
-  { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3000, endYear: -200 },
+  { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200 },
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400 },
   { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697 },
   { id: 'andean-kingdoms', label: 'Andean Kingdoms', subtitle: "Peru's regional cultures (Moche, Nazca)", region: 'americas', startYear: -200, endYear: 500 },
