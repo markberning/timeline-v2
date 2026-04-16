@@ -2,13 +2,21 @@
 
 See [README.md](README.md) for house style. Save output to `public/maps/persian-empire/chapter-{N}.png`, then run the non-destructive WebP optimizer (keep PNG originals).
 
+Chapters in this file: **Ch 1–10**.
+
 ---
 
-## PERSIAN EMPIRE ORIENTATION RULES
+## GLOBAL RULES FOR ALL PERSIAN EMPIRE PROMPTS — read before drawing any map in this file
 
-Paste this block after the CRITICAL RULES for every Persian Empire prompt:
+**CRITICAL RULES:**
 
-```
+1. **Draw each label exactly once.** Do not repeat any city name, region name, river name, or annotation anywhere on the map. If you see an opportunity to put the same label in two places, choose only one.
+2. **Spell every label exactly as written in the prompt.** Do not invent words. Do not abbreviate. Do not generate any word that is not in the prompt text. (On prior runs Gemini invented words like "cononniat", "reachit", and "Kushi" — do not do this. Every word on the final map must appear verbatim somewhere in this prompt.)
+3. **Include the exact site name on every label.** The site name is the word or phrase before the first parenthesis or em-dash. Never drop a site name.
+4. **North is at the top of the map. East is to the right.** Place every location according to its real-world geography in this orientation.
+5. **All water is light blue.** Seas, bays, and rivers are light blue. Deserts are pale yellow. Land is beige/tan.
+6. **Do not invent any labels, annotations, sites, or features that are not in this prompt.**
+
 **PERSIAN EMPIRE ORIENTATION RULES:**
 
 1. North is at the top. East is to the right.
@@ -19,7 +27,6 @@ Paste this block after the CRITICAL RULES for every Persian Empire prompt:
 6. The **Euphrates** frontier between Rome/Parthia/Sassanids runs roughly north-south through modern Syria/Iraq. **Ctesiphon** is on the Tigris, southeast of Baghdad, on the EASTERN bank. Seleucia is on the WESTERN bank opposite Ctesiphon.
 7. **Nisa** (Arsacid royal city) is in modern Turkmenistan, near Ashgabat, in the FAR NORTHEAST of the Iranian world — not in western Iran.
 8. **Gundishapur** is in Khuzestan, the same lowland province as Susa, roughly 150 miles east of Susa — NOT on the Iranian plateau and NOT in Mesopotamia proper.
-```
 
 ---
 
@@ -29,7 +36,7 @@ Create a simple, clean map for Chapter 1 of a mobile reading app about the Persi
 
 The chapter title "Chapter 1: Cyrus the Great" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Wide view showing the full extent of Cyrus's conquests: from the Aegean coast (Sardis/Lydia) in the west to central Asia in the east, from the Black Sea/Caucasus in the north to the Persian Gulf in the south
@@ -66,9 +73,9 @@ The chapter title "Chapter 1: Cyrus the Great" should appear at the top of the m
 
 Create a simple, clean map for Chapter 2. The chapter covers Darius I's seizure of power, the Behistun Inscription, the satrapy system, the Royal Road, Persepolis, and Zoroastrianism (522–490 BCE).
 
-Title: "Chapter 2: Darius and the Empire's Machinery"
+The chapter title "Chapter 2: Darius and the Empire's Machinery" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Show the full Achaemenid Empire from Egypt/Libya in the west to the Indus River in the east
@@ -98,7 +105,7 @@ Title: "Chapter 2: Darius and the Empire's Machinery"
 - A dashed line from Sardis to Susa: "Royal Road — 1,600 miles, seven-day courier service"
 - A subtle grid or star pattern radiating from Susa/Persepolis: "~20 satrapies, each with a satrap, a military commander, and 'the King's Eyes and Ears'"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -106,9 +113,9 @@ Title: "Chapter 2: Darius and the Empire's Machinery"
 
 Create a simple, clean map for Chapter 3. The chapter covers the Ionian Revolt, Marathon, Thermopylae, Salamis, and Plataea (499–449 BCE).
 
-Title: "Chapter 3: The Greek Wars"
+The chapter title "Chapter 3: The Greek Wars" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on the Aegean basin: western Anatolia (Ionia), mainland Greece, the island-dotted Aegean Sea, with Persia's western provinces as context
@@ -135,7 +142,7 @@ Title: "Chapter 3: The Greek Wars"
 - A red arrow from Sardis west across the Aegean to Marathon: "Darius's expedition, 490 BCE"
 - A thicker red arrow from the Hellespont south through Thermopylae toward Athens: "Xerxes' invasion, 480 BCE — overland and naval"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -143,9 +150,9 @@ Title: "Chapter 3: The Greek Wars"
 
 Create a simple, clean map for Chapter 4. The chapter covers the slow erosion of Achaemenid power (449–336 BCE): Cyrus the Younger's march, the Anabasis, the Great Satraps' Revolt, Egyptian secession, Artaxerxes III's reconquest.
 
-Title: "Chapter 4: The Long Afternoon"
+The chapter title "Chapter 4: The Long Afternoon" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Full empire view from Egypt to the Indus, showing the locations of major revolts and the Anabasis march route
@@ -172,7 +179,7 @@ Title: "Chapter 4: The Long Afternoon"
 - A dashed route from Sardis east to Cunaxa, then north from Cunaxa through Kurdistan to Trapezus on the Black Sea: "Anabasis — 1,500 miles through the heart of the empire, 401 BCE"
 - Shaded zones in Egypt, western Anatolia, and Phoenicia: "Satrapal revolts, Egyptian secession, Phoenician rebellion — the empire frays"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -180,9 +187,9 @@ Title: "Chapter 4: The Long Afternoon"
 
 Create a simple, clean map for Chapter 5. The chapter covers Alexander's three decisive battles (Issus, Gaugamela, the Hydaspes), the burning of Persepolis, and his death at Babylon (334–323 BCE).
 
-Title: "Chapter 5: Alexander and the End"
+The chapter title "Chapter 5: Alexander and the End" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Full Alexander campaign map from Greece to the Indus River, showing the march route and key battle sites
@@ -207,7 +214,7 @@ Title: "Chapter 5: Alexander and the End"
 - A bold route line from the Hellespont east through Issus, Gaugamela, Persepolis, across Afghanistan, to the Hydaspes and back to Babylon: "Alexander's campaign — 20,000 miles in eleven years"
 - A fire/highlight icon at Persepolis: "Persepolis burns, 330 BCE — the fire baked 30,000 Elamite tablets, preserving them"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -215,9 +222,9 @@ Title: "Chapter 5: Alexander and the End"
 
 Create a simple, clean map for Chapter 6. The chapter covers the Arsacid dynasty's rise from a small northeastern satrapy to an empire stretching from the Euphrates to the Indus, plus the Silk Road (247–53 BCE).
 
-Title: "Chapter 6: The Parthian Rise"
+The chapter title "Chapter 6: The Parthian Rise" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Show the full Parthian Empire at its peak: from the Euphrates in the west to the borders of India in the east, with the Silk Road route marked
@@ -244,7 +251,7 @@ Title: "Chapter 6: The Parthian Rise"
 - A dashed line from China (far right edge) through Merv, through Nisa, to the Euphrates and beyond: "Silk Road — Chinese silk, Indian spices, Roman gold, all through Parthian middlemen"
 - A shaded expansion zone from the original Parthia satrapy outward: "Arsaces I seizes Parthia, ~247 BCE — Mithridates I builds the empire, ~171–138 BCE"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -252,9 +259,9 @@ Title: "Chapter 6: The Parthian Rise"
 
 Create a simple, clean map for Chapter 7. The chapter covers the 300-year standoff along the Euphrates frontier: Carrhae, the Armenian question, repeated Roman captures and retreats from Ctesiphon (53 BCE–224 CE).
 
-Title: "Chapter 7: Parthia vs. Rome"
+The chapter title "Chapter 7: Parthia vs. Rome" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on the Roman-Parthian frontier zone: from the eastern Mediterranean through Mesopotamia to western Iran
@@ -281,7 +288,7 @@ Title: "Chapter 7: Parthia vs. Rome"
 - A thick red contested line along the Euphrates: "The Euphrates frontier — 300 years, neither side could break through"
 - Arrows from the Roman side crossing toward Ctesiphon, with return arrows: "Trajan (116 CE), Septimius Severus (198 CE), Carus (283 CE) — three captures, three retreats"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -289,9 +296,9 @@ Title: "Chapter 7: Parthia vs. Rome"
 
 Create a simple, clean map for Chapter 8. The chapter covers Ardashir's overthrow of the Arsacids, the Zoroastrian theocracy, Shapur I's capture of the Roman emperor Valerian at Edessa, and Naqsh-e Rostam (224–309 CE).
 
-Title: "Chapter 8: Ardashir and the Sassanid Revolution"
+The chapter title "Chapter 8: Ardashir and the Sassanid Revolution" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Show the Sassanid Empire's extent: from the Euphrates frontier to eastern Iran, with Fars highlighted as the revolutionary heartland
@@ -317,7 +324,7 @@ Title: "Chapter 8: Ardashir and the Sassanid Revolution"
 - An arrow from Istakhr/Fars northward to Ctesiphon: "Ardashir, 224 CE — Fars priest-king overthrows the Arsacids, claims Achaemenid descent"
 - A red arrow from the Sassanid side to Edessa: "Shapur I captures Valerian, 260 CE — the King of Kings above, the Roman emperor on his knees"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -325,9 +332,9 @@ Title: "Chapter 8: Ardashir and the Sassanid Revolution"
 
 Create a simple, clean map for Chapter 9. The chapter covers Shapur II, Julian's failed invasion, the Academy of Gundishapur, Khosrow I, chess, silk production, and the Avesta (309–590 CE).
 
-Title: "Chapter 9: The Sassanid Golden Age"
+The chapter title "Chapter 9: The Sassanid Golden Age" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Show the Sassanid Empire at its cultural peak, from the Byzantine frontier to eastern Iran
@@ -353,7 +360,7 @@ Title: "Chapter 9: The Sassanid Golden Age"
 - A dashed intellectual route from Athens east to Gundishapur: "Greek texts → Gundishapur → Abbasid Baghdad → medieval Europe — the chain that saved classical philosophy"
 - A dashed trade route from China (far right edge) through Iran: "Silk Road — chess from India, silk production breaks the Chinese monopoly"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -361,9 +368,9 @@ Title: "Chapter 9: The Sassanid Golden Age"
 
 Create a simple, clean map for Chapter 10. The chapter covers Khosrow II's overreach, the devastating last Roman-Persian war (602–628), and the Arab conquest (636–651 CE).
 
-Title: "Chapter 10: The Last Persian Empire"
+The chapter title "Chapter 10: The Last Persian Empire" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and PERSIAN EMPIRE ORIENTATION RULES above.**
 
 **Map requirements:**
 - Show the Sassanid Empire's maximum extent under Khosrow II (briefly holding Egypt, Syria, Palestine, Anatolia) and then the Arab conquest sweeping through
@@ -388,4 +395,4 @@ Title: "Chapter 10: The Last Persian Empire"
 - A shaded zone covering Egypt, Syria, Palestine, and Anatolia: "Khosrow II's maximum extent, ~614 CE — briefly recreating the Achaemenid footprint"
 - Bold arrows from Arabia north into Mesopotamia, then east through the Zagros to Merv: "Arab Muslim conquest, 636–651 CE — the empire dies, the culture survives"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.

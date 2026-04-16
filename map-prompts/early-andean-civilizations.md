@@ -1,10 +1,22 @@
 # Map Prompts — Early Andean Civilizations (8 chapters)
 
-## ANDEAN ORIENTATION RULES
+See [README.md](README.md) for house style. Save output to `public/maps/early-andean-civilizations/chapter-{N}.png`, then run the non-destructive WebP optimizer (keep PNG originals).
 
-Paste this block after the CRITICAL RULES for every Andean prompt:
+Chapters in this file: **Ch 1–8**.
 
-```
+---
+
+## GLOBAL RULES FOR ALL ANDEAN PROMPTS — read before drawing any map in this file
+
+**CRITICAL RULES:**
+
+1. **Draw each label exactly once.** Do not repeat any city name, region name, river name, or annotation anywhere on the map. If you see an opportunity to put the same label in two places, choose only one.
+2. **Spell every label exactly as written in the prompt.** Do not invent words. Do not abbreviate. Do not generate any word that is not in the prompt text. (On prior runs Gemini invented words like "cononniat", "reachit", and "Kushi" — do not do this. Every word on the final map must appear verbatim somewhere in this prompt.)
+3. **Include the exact site name on every label.** The site name is the word or phrase before the first parenthesis or em-dash. Never drop a site name.
+4. **North is at the top of the map. East is to the right.** Place every location according to its real-world geography in this orientation.
+5. **All water is light blue.** Seas, bays, and rivers are light blue. Deserts are pale yellow. Land is beige/tan.
+6. **Do not invent any labels, annotations, sites, or features that are not in this prompt.**
+
 **ANDEAN ORIENTATION RULES:**
 
 1. North is at the top. East is to the right. The Pacific Ocean is to the LEFT (west).
@@ -15,7 +27,6 @@ Paste this block after the CRITICAL RULES for every Andean prompt:
 6. Lima is on the CENTRAL coast. The Supe Valley and Casma Valley are NORTH of Lima on the coast. The Paracas Peninsula is SOUTH of Lima.
 7. Chavín de Huántar is INLAND, in the highlands, EAST of the coastal sites and at higher elevation.
 8. Rivers on the Peruvian coast are SHORT, running WEST from the Andes to the Pacific. They are NOT long continental rivers.
-```
 
 ---
 
@@ -23,9 +34,9 @@ Paste this block after the CRITICAL RULES for every Andean prompt:
 
 Create a simple, clean map for Chapter 1 of a mobile reading app about Early Andean Civilizations. The chapter covers the geographic zones of the Andes: coast, highlands, puna, and eastern jungle.
 
-Title: "Chapter 1: The Vertical World"
+The chapter title "Chapter 1: The Vertical World" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Cross-section view of Peru from Pacific coast to eastern jungle, showing the altitude zones as colored bands: desert coast (pale yellow), highlands (green/brown), puna (pale gray), eastern jungle (dark green)
@@ -47,15 +58,17 @@ Title: "Chapter 1: The Vertical World"
 **One annotation:**
 - Altitude labels along the cross-section or margin: "Coast: 0–1,500 ft", "Highlands: 6,000–13,000 ft", "Puna: 13,000–16,000 ft"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 2 — First Temples on the Coast
 
-Title: "Chapter 2: First Temples on the Coast"
+Create a simple, clean map for Chapter 2. The chapter covers the earliest monumental architecture on the Peruvian coast.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES.**
+The chapter title "Chapter 2: First Temples on the Coast" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Peruvian coast from Chicama Valley (north) to Supe Valley (south), showing early temple sites
@@ -73,15 +86,17 @@ Title: "Chapter 2: First Temples on the Coast"
 - Chicama Valley
 - Supe Valley
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 3 — Caral: City Without War
 
-Title: "Chapter 3: Caral — City Without War"
+Create a simple, clean map for Chapter 3. The chapter covers the monumental city of Caral in the Supe Valley and its cotton-for-fish exchange economy.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES.**
+The chapter title "Chapter 3: Caral — City Without War" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Close focus on the Supe Valley showing Caral ~14 miles inland from the coast, with Aspero at the river mouth
@@ -99,15 +114,17 @@ Title: "Chapter 3: Caral — City Without War"
 **One annotation:**
 - A double-headed arrow between Caral and Aspero: "Cotton-for-fish exchange: cotton flows downriver, dried anchovy flows upriver"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 4 — After Caral: The Initial Period
 
-Title: "Chapter 4: After Caral — The Initial Period"
+Create a simple, clean map for Chapter 4. The chapter covers the Initial Period after Caral's decline, with new monumental centers in the Casma Valley and highlands.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES.**
+The chapter title "Chapter 4: After Caral — The Initial Period" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Wider view of Peruvian coast from Casma Valley to Lima area, plus Kotosh in the highlands
@@ -125,15 +142,17 @@ Title: "Chapter 4: After Caral — The Initial Period"
 - Andes Highlands
 - Ecuador (edge, with arrow: "pottery and spondylus arrive from the north")
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 5 — U-Shaped Worlds
 
-Title: "Chapter 5: U-Shaped Worlds"
+Create a simple, clean map for Chapter 5. The chapter covers the U-shaped temple tradition on the central and north coast of Peru.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES.**
+The chapter title "Chapter 5: U-Shaped Worlds" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Central and north coast of Peru from Moche Valley to Lurin Valley, showing U-shaped temple sites
@@ -154,15 +173,17 @@ Title: "Chapter 5: U-Shaped Worlds"
 **One annotation:**
 - Small U-shape diagram icon: "U-shaped centers: central mound + 2 wings, open end facing east toward the Andes"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 6 — Chavin de Huantar
 
-Title: "Chapter 6: Chavín de Huántar"
+Create a simple, clean map for Chapter 6. The chapter covers the highland oracle center of Chavin de Huantar, its underground galleries, and the Lanzon monolith.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES.**
+The chapter title "Chapter 6: Chavín de Huántar" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on the highland location of Chavin de Huantar, showing it between the coast and the eastern jungle
@@ -182,15 +203,17 @@ Title: "Chapter 6: Chavín de Huántar"
 **One annotation:**
 - Dotted lines from coast and from highlands converging at Chavin: "Pilgrims from coast and highlands converge at the oracle"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 7 — The Chavin Horizon
 
-Title: "Chapter 7: The Chavín Horizon"
+Create a simple, clean map for Chapter 7. The chapter covers the spread of Chavin-style art across Peru during the Early Horizon.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES.**
+The chapter title "Chapter 7: The Chavín Horizon" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Full Peru from far north coast to southern highlands, showing the spread of Chavin-style art
@@ -211,15 +234,17 @@ Title: "Chapter 7: The Chavín Horizon"
 **One annotation:**
 - A shaded zone covering most of Peru: "Chavín Horizon — single art style shared across an area the size of California, ~600–200 BCE"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 8 — Paracas and the Horizon's End
 
-Title: "Chapter 8: Paracas and the Horizon's End"
+Create a simple, clean map for Chapter 8. The chapter covers the Paracas culture on the south coast and the decline of the Chavin Horizon.
 
-**Apply CRITICAL RULES and ANDEAN ORIENTATION RULES.**
+The chapter title "Chapter 8: Paracas and the Horizon's End" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and ANDEAN ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on the south coast of Peru, Paracas Peninsula and Ica region
@@ -238,4 +263,4 @@ Title: "Chapter 8: Paracas and the Horizon's End"
 **One annotation:**
 - A faded zone along the south coast: "Paracas culture — stem-stitch embroidery, trepanation, cranial modification, desert lines"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.

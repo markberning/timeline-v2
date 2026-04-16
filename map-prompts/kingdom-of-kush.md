@@ -2,13 +2,21 @@
 
 See [README.md](README.md) for house style. Save output to `public/maps/kingdom-of-kush/chapter-{N}.png`, then run the non-destructive WebP optimizer (keep PNG originals).
 
+Chapters in this file: **Ch 1–8**.
+
 ---
 
-## KUSH ORIENTATION RULES
+## GLOBAL RULES FOR ALL KUSH PROMPTS — read before drawing any map in this file
 
-The Kingdom of Kush prompts use the standard **NUBIA ORIENTATION RULES** from README.md, extended with Meroitic-specific additions. Paste this block after the CRITICAL RULES for every Kingdom of Kush prompt:
+**CRITICAL RULES:**
 
-```
+1. **Draw each label exactly once.** Do not repeat any city name, region name, river name, or annotation anywhere on the map. If you see an opportunity to put the same label in two places, choose only one.
+2. **Spell every label exactly as written in the prompt.** Do not invent words. Do not abbreviate. Do not generate any word that is not in the prompt text. (On prior runs Gemini invented words like "cononniat", "reachit", and "Kushi" — do not do this. Every word on the final map must appear verbatim somewhere in this prompt.)
+3. **Include the exact site name on every label.** The site name is the word or phrase before the first parenthesis or em-dash. Never drop a site name.
+4. **North is at the top of the map. East is to the right.** Place every location according to its real-world geography in this orientation.
+5. **All water is light blue.** Seas, bays, and rivers are light blue. Deserts are pale yellow. Land is beige/tan.
+6. **Do not invent any labels, annotations, sites, or features that are not in this prompt.**
+
 **NUBIA ORIENTATION RULES (extended for Kingdom of Kush):**
 
 1. North is at the top of the map. South is at the bottom. The Mediterranean Sea is at the top. Khartoum and the Sixth Cataract are near the bottom.
@@ -22,7 +30,6 @@ The Kingdom of Kush prompts use the standard **NUBIA ORIENTATION RULES** from RE
 9. **Meroë** is ~125 miles north of Khartoum, well SOUTH of Napata — roughly 300 miles upstream from the Fourth Cataract. Meroë is near the bottom of any full-Nile map. It is between the Fifth and Sixth Cataracts.
 10. The **Butana steppe** is the grassland region EAST of the Nile between the Fifth and Sixth Cataracts, in the Meroitic heartland. Musawwarat es-Sufra and Naqa are inland sites on the Butana, east of the river.
 11. **Aksum** is in the Ethiopian highlands, far to the SOUTHEAST of Meroë — across the Atbara River and into the mountains. Adulis (Aksum's Red Sea port) is on the coast east of Aksum.
-```
 
 ---
 
@@ -32,7 +39,7 @@ Create a simple, clean map for Chapter 1 of a mobile reading app about the Kingd
 
 The chapter title "Chapter 1: Independence and the Napatan Rise" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Show the Nile valley from Memphis/the delta (top) south to the Fifth Cataract (bottom), covering the full range of the chapter's geography
@@ -66,9 +73,9 @@ The chapter title "Chapter 1: Independence and the Napatan Rise" should appear a
 
 Create a simple, clean map for Chapter 2. The chapter covers Piye's military campaign from Napata to the delta — the siege of Hermopolis (the horse scene), the capture of Memphis using the Nile flood, and his return home to Napata (750–714 BCE).
 
-Title: "Chapter 2: Piye Conquers Egypt"
+The chapter title "Chapter 2: Piye Conquers Egypt" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Full Nile valley from the Mediterranean delta (top) south to the Fourth Cataract/Jebel Barkal (bottom)
@@ -95,7 +102,7 @@ Title: "Chapter 2: Piye Conquers Egypt"
 - A bold arrow from Jebel Barkal north through Hermopolis and Memphis to the delta: "Piye's campaign — 800+ miles up the Nile, ~728 BCE"
 - A return arrow from the delta south to Jebel Barkal: "And then he went home — Victory Stela erected at Jebel Barkal, not in Egypt"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -103,9 +110,9 @@ Title: "Chapter 2: Piye Conquers Egypt"
 
 Create a simple, clean map for Chapter 3. The chapter covers Shabaka's permanent establishment at Memphis, Shebitku's possible Levantine campaign, Taharqa's building program (Karnak colonnade, Nuri pyramids, Jebel Barkal expansion), and the 25th Dynasty's cultural renaissance (714–664 BCE).
 
-Title: "Chapter 3: The Black Pharaohs — 25th Dynasty"
+The chapter title "Chapter 3: The Black Pharaohs — 25th Dynasty" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Full 25th Dynasty territory from the Mediterranean to the Fifth Cataract — the entire Nile under one ruler
@@ -133,7 +140,7 @@ Title: "Chapter 3: The Black Pharaohs — 25th Dynasty"
 - A shaded zone spanning the entire Nile from the Mediterranean to the Fifth Cataract: "25th Dynasty — ~1,500 miles of Nile, New York to Denver, under one king"
 - A highlight at Nuri: "Nuri necropolis — 20+ royal pyramids built here over three centuries"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -141,9 +148,9 @@ Title: "Chapter 3: The Black Pharaohs — 25th Dynasty"
 
 Create a simple, clean map for Chapter 4. The chapter covers Esarhaddon's invasions of Egypt, Ashurbanipal's sack of Thebes (663 BCE), Tantamani's failed reconquest, the retreat to Napata, and Psamtik II's 593 BCE raid that reached Napata itself (674–593 BCE).
 
-Title: "Chapter 4: The Assyrian Storm"
+The chapter title "Chapter 4: The Assyrian Storm" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Wide view: from Nineveh (northeast) through the Levant and Sinai to the full Nile valley down to Napata
@@ -171,17 +178,17 @@ Title: "Chapter 4: The Assyrian Storm"
 - A second red arrow from Memphis south to Thebes: "Ashurbanipal, 663 BCE — sack of Thebes, the worst catastrophe in Near Eastern memory"
 - A blue arrow from the delta south to Napata: "Psamtik II, 593 BCE — Egyptian raid reaches Napata, Greek mercenaries leave graffiti at Abu Simbel"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
-## Chapter 5 — The Move to Meroë
+## Chapter 5 — The Move to Meroe
 
-Create a simple, clean map for Chapter 5. The chapter covers the gradual shift of the Kushite capital from Napata to Meroë, the iron industry and slag heaps, the Butana steppe environment, Arkamani's break with the Napatan priesthood, and the new Meroë pyramid necropolis (600–270 BCE).
+Create a simple, clean map for Chapter 5. The chapter covers the gradual shift of the Kushite capital from Napata to Meroe, the iron industry and slag heaps, the Butana steppe environment, Arkamani's break with the Napatan priesthood, and the new Meroe pyramid necropolis (600–270 BCE).
 
-Title: "Chapter 5: The Move to Meroë"
+The chapter title "Chapter 5: The Move to Meroë" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on Upper Nubia and the Meroitic heartland: from the Third Cataract (top) south to Khartoum/Sixth Cataract (bottom)
@@ -207,7 +214,7 @@ Title: "Chapter 5: The Move to Meroë"
 - A dashed arrow from Napata south to Meroë: "Capital shifts south, ~600–270 BCE — iron, wood, and distance from Egyptian raiders"
 - A shaded zone around Meroë on the east bank: "Meroë iron industry — slag heaps visible to this day; 200+ pyramids on ridges east of the city"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -215,9 +222,9 @@ Title: "Chapter 5: The Move to Meroë"
 
 Create a simple, clean map for Chapter 6. The chapter covers the invention of the Meroitic script, the Apedemak lion-god cult, Musawwarat es-Sufra and its Great Enclosure, the Kandake tradition, war elephants, and Meroitic fine ware (300–25 BCE).
 
-Title: "Chapter 6: Iron, Script, and Queens"
+The chapter title "Chapter 6: Iron, Script, and Queens" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on the Meroitic heartland: from Meroë south to Khartoum and east across the Butana steppe
@@ -241,7 +248,7 @@ Title: "Chapter 6: Iron, Script, and Queens"
 - A highlighted zone east of the Nile between Musawwarat and Naqa: "Apedemak cult centers — lion-headed war god, no Egyptian equivalent, purely Kushite"
 - A label at Meroë: "Meroitic script — we can read the sounds but cannot translate the words"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -249,9 +256,9 @@ Title: "Chapter 6: Iron, Script, and Queens"
 
 Create a simple, clean map for Chapter 7. The chapter covers Amanirenas's raid on Roman Egypt, the Bronze Head of Augustus buried under the Apedemak temple, Petronius's counter-campaign to Napata, the Treaty of Samos, and the Natakamani-Amanitore building program (27 BCE–1 CE).
 
-Title: "Chapter 7: Rome's Southern Frontier"
+The chapter title "Chapter 7: Rome's Southern Frontier" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Show the Kushite-Roman frontier zone: from the Nile delta (top) south to Meroë (bottom), with the First Cataract as the contested border
@@ -279,7 +286,7 @@ Title: "Chapter 7: Rome's Southern Frontier"
 - A blue counter-arrow from Aswan south to Napata: "Petronius counter-campaign — reaches Napata, 500 miles south, cannot hold it"
 - A note at Aswan: "Treaty of Samos, ~21 BCE — Rome cancels tribute, withdraws to the First Cataract, Kush keeps its independence"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
@@ -287,9 +294,9 @@ Title: "Chapter 7: Rome's Southern Frontier"
 
 Create a simple, clean map for Chapter 8. The chapter covers the decline of Meroitic Kush: trade route shifts to Aksum/Adulis, possible deforestation, the Roman Crisis of the Third Century, and Ezana of Aksum's conquest (~350 CE).
 
-Title: "Chapter 8: The Long Twilight"
+The chapter title "Chapter 8: The Long Twilight" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply the CRITICAL RULES and KUSH ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and NUBIA ORIENTATION RULES above.**
 
 **Map requirements:**
 - Wide view: from the Mediterranean (top) south to the Ethiopian highlands (bottom-right), showing the Red Sea coast and the Aksumite kingdom
@@ -316,4 +323,4 @@ Title: "Chapter 8: The Long Twilight"
 - A faded dashed line along the Nile from Meroë north to Alexandria: "Old trade route — declining, bypassed by the Red Sea"
 - A bold dashed line from Adulis north to Alexandria and east toward India: "New trade route — Aksum's Adulis port captures the Indian Ocean trade, Meroë cut out"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.

@@ -1,10 +1,22 @@
 # Map Prompts — Predynastic & Early Dynastic Egypt (8 chapters)
 
-## EGYPT ORIENTATION RULES
+See [README.md](README.md) for house style. Save output to `public/maps/early-dynastic-egypt/chapter-{N}.png`, then run the non-destructive WebP optimizer (keep PNG originals).
 
-Paste this block after the CRITICAL RULES for every Egypt prompt:
+Chapters in this file: **Ch 1–8**.
 
-```
+---
+
+## GLOBAL RULES FOR ALL EGYPT PROMPTS — read before drawing any map in this file
+
+**CRITICAL RULES:**
+
+1. **Draw each label exactly once.** Do not repeat any city name, region name, river name, or annotation anywhere on the map. If you see an opportunity to put the same label in two places, choose only one.
+2. **Spell every label exactly as written in the prompt.** Do not invent words. Do not abbreviate. Do not generate any word that is not in the prompt text. (On prior runs Gemini invented words like "cononniat", "reachit", and "Kushi" — do not do this. Every word on the final map must appear verbatim somewhere in this prompt.)
+3. **Include the exact site name on every label.** The site name is the word or phrase before the first parenthesis or em-dash. Never drop a site name.
+4. **North is at the top of the map. East is to the right.** Place every location according to its real-world geography in this orientation.
+5. **All water is light blue.** Seas, bays, and rivers are light blue. Deserts are pale yellow. Land is beige/tan.
+6. **Do not invent any labels, annotations, sites, or features that are not in this prompt.**
+
 **EGYPT ORIENTATION RULES:**
 
 1. North is at the top. The Mediterranean Sea is at the top of the map. Upper Egypt is in the south (bottom). Lower Egypt / the Delta is in the north (top).
@@ -15,7 +27,6 @@ Paste this block after the CRITICAL RULES for every Egypt prompt:
 6. Sinai is the triangular peninsula EAST of the Delta, between Egypt and the Levant.
 7. The Eastern Desert is between the Nile and the Red Sea. The Western Desert (Sahara) is west of the Nile.
 8. Hierakonpolis and Naqada are in UPPER Egypt (southern, bottom of map). Memphis and the Fayum are in LOWER Egypt (northern, top half of map).
-```
 
 ---
 
@@ -23,9 +34,9 @@ Paste this block after the CRITICAL RULES for every Egypt prompt:
 
 Create a simple, clean map for Chapter 1 of a mobile reading app about Predynastic Egypt. The chapter covers the African Humid Period, the drying of the Sahara, and the first farming communities along the Nile.
 
-The chapter title "Chapter 1: The Green Sahara and the Refugees" should appear at the top.
+The chapter title "Chapter 1: The Green Sahara and the Refugees" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES above.**
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Wide view of northeast Africa: Sahara, Nile Valley, Eastern Desert, Red Sea, Mediterranean coast, edge of Levant
@@ -58,9 +69,9 @@ The chapter title "Chapter 1: The Green Sahara and the Refugees" should appear a
 
 Create a simple, clean map for Chapter 2. The chapter covers the Badarian culture in middle Egypt and the Maadi culture in Lower Egypt.
 
-Title: "Chapter 2: Badarians and the Birth of an Egyptian Look"
+The chapter title "Chapter 2: Badarians and the Birth of an Egyptian Look" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES.**
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Nile Valley from the Delta to just south of El-Badari, showing the full Nile with the narrow floodplain flanked by desert
@@ -79,15 +90,17 @@ Title: "Chapter 2: Badarians and the Birth of an Egyptian Look"
 - Western Desert
 - Mediterranean Sea
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 3 — Naqada I and II: Upper Egypt Pulls Ahead
 
-Title: "Chapter 3: Naqada I and II — Upper Egypt Pulls Ahead"
+Create a simple, clean map for Chapter 3. The chapter covers the Naqada I and II periods, with Upper Egypt's predynastic centers pulling ahead of the Delta.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES.**
+The chapter title "Chapter 3: Naqada I and II — Upper Egypt Pulls Ahead" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on Upper Egypt from Hierakonpolis to the Delta, showing the Nile with key predynastic sites
@@ -109,15 +122,17 @@ Title: "Chapter 3: Naqada I and II — Upper Egypt Pulls Ahead"
 **One annotation:**
 - A subtle shaded zone along Upper Egypt labeled: "Naqada cultural zone — Upper Egypt pulls ahead of the Delta, 3800–3300 BCE"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 4 — Naqada III: Writing, Kings, and the Road to Unity
 
-Title: "Chapter 4: Naqada III — Writing, Kings, and the Road to Unity"
+Create a simple, clean map for Chapter 4. The chapter covers the Naqada III period, proto-hieroglyphs at Tomb U-j, and the Thinite kings' march toward unification.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES.**
+The chapter title "Chapter 4: Naqada III — Writing, Kings, and the Road to Unity" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Nile Valley from the Delta to Hierakonpolis, with trade routes east to Sinai/Levant
@@ -139,15 +154,17 @@ Title: "Chapter 4: Naqada III — Writing, Kings, and the Road to Unity"
 **One annotation:**
 - A dashed line from the Levant toward Abydos: "700 Levantine wine jars buried with Scorpion I at Tomb U-j"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 5 — Narmer Unifies Egypt
 
-Title: "Chapter 5: Narmer Unifies Egypt"
+Create a simple, clean map for Chapter 5. The chapter covers Narmer's unification of Upper and Lower Egypt and the founding of Memphis.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES.**
+The chapter title "Chapter 5: Narmer Unifies Egypt" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Full Egypt from Mediterranean to First Cataract, showing the unified state
@@ -168,15 +185,17 @@ Title: "Chapter 5: Narmer Unifies Egypt"
 - Arrow from Upper Egypt northward: "Upper Egyptian conquest of the Delta under Narmer, ~3100 BCE"
 - A shaded zone covering the full Nile from Mediterranean to Aswan: "Unified Egypt — Two Lands under one king"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 6 — The First Dynasty: Building the Pharaonic System
 
-Title: "Chapter 6: The First Dynasty"
+Create a simple, clean map for Chapter 6. The chapter covers the First Dynasty's reach from Abydos to Byblos, subsidiary burials, and the early pharaonic system.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES.**
+The chapter title "Chapter 6: The First Dynasty" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Egypt plus Sinai and Levantine coast (Byblos), showing the First Dynasty's reach
@@ -197,15 +216,17 @@ Title: "Chapter 6: The First Dynasty"
 - Mediterranean Sea
 - Nubia (edge, south)
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 7 — The Second Dynasty Crisis
 
-Title: "Chapter 7: The Second Dynasty Crisis"
+Create a simple, clean map for Chapter 7. The chapter covers the shift of royal burial from Abydos to Saqqara, Peribsen's Seth serekh, and the Second Dynasty crisis.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES.**
+The chapter title "Chapter 7: The Second Dynasty Crisis" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on the Memphis-Abydos axis, showing the shift of royal burial
@@ -225,15 +246,17 @@ Title: "Chapter 7: The Second Dynasty Crisis"
 - Arrow from Abydos to Saqqara: "Hetepsekhemwy moves royal cemetery to Saqqara, ~2890 BCE"
 - A highlight at Abydos: "Peribsen's Seth-name serekh — the only king to replace Horus with Seth"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
 
 ---
 
 ## Chapter 8 — Khasekhemwy and the Eve of the Pyramid Age
 
-Title: "Chapter 8: Khasekhemwy and the Eve of the Pyramid Age"
+Create a simple, clean map for Chapter 8. The chapter covers Khasekhemwy's reunification, his massive tomb at Abydos, and the bridge to Djoser's Pyramid Age.
 
-**Apply CRITICAL RULES and EGYPT ORIENTATION RULES.**
+The chapter title "Chapter 8: Khasekhemwy and the Eve of the Pyramid Age" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+
+**Apply the GLOBAL RULES and EGYPT ORIENTATION RULES above.**
 
 **Map requirements:**
 - Focus on the Hierakonpolis-Abydos-Saqqara triangle, the key sites of the reunification
@@ -253,4 +276,4 @@ Title: "Chapter 8: Khasekhemwy and the Eve of the Pyramid Age"
 **One annotation:**
 - A dashed line from Abydos to Saqqara: "Khasekhemwy → Nimaathap → Djoser: the dynastic bridge from mudbrick to the Pyramid Age"
 
-**Style:** Landscape, phone, match series style.
+**Style:** Landscape orientation, phone screen, match series style.
