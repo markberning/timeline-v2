@@ -4,6 +4,8 @@ import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import { NarrativeReader } from '@/components/narrative-reader'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { TextSizeControl } from '@/components/text-size-control'
+import { getChainsForTimeline, getChainPosition } from '../../../reference-data/tl-chains'
+import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
 
 interface PageProps {
   params: Promise<{ civilizationId: string }>
@@ -26,6 +28,15 @@ export default async function CivilizationPage({ params }: PageProps) {
   const { civilizationId } = await params
   const narrative = getNarrative(civilizationId)
 
+  const chains = getChainsForTimeline(civilizationId)
+  const chain = chains[0] ?? null
+  const pos = chain ? getChainPosition(chain, civilizationId) : null
+
+  const prevId = pos && pos.index > 0 ? chain!.entries[pos.index - 1].timelineId : null
+  const nextId = pos && pos.index < pos.total - 1 ? chain!.entries[pos.index + 1].timelineId : null
+  const prevTl = prevId ? NAVIGATOR_TLS.find(t => t.id === prevId) : null
+  const nextTl = nextId ? NAVIGATOR_TLS.find(t => t.id === nextId) : null
+
   return (
     <div className="max-w-prose mx-auto px-5">
       <div data-top-nav className="sticky top-0 z-20 bg-background/95 backdrop-blur-sm -mx-5 px-5 pt-3 pb-2 border-b-2" style={{ borderBottomColor: 'var(--accent)' }}>
@@ -41,6 +52,36 @@ export default async function CivilizationPage({ params }: PageProps) {
             <DarkModeToggle />
           </div>
         </div>
+        {chain && pos && pos.index !== -1 && (
+          <div className="flex items-center justify-between mt-1 text-xs text-foreground/50">
+            <div>
+              {prevTl ? (
+                prevTl.hasContent ? (
+                  <a href={`/${prevId}`} className="hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
+                    ← {prevTl.label}
+                  </a>
+                ) : (
+                  <span className="opacity-40">← {prevTl.label}</span>
+                )
+              ) : (
+                <span className="italic opacity-40">{chain.shortLabel} chain</span>
+              )}
+            </div>
+            <div>
+              {nextTl ? (
+                nextTl.hasContent ? (
+                  <a href={`/${nextId}`} className="hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
+                    {nextTl.label} →
+                  </a>
+                ) : (
+                  <span className="opacity-40">{nextTl.label} →</span>
+                )
+              ) : (
+                <span className="italic opacity-40">{chain.shortLabel} chain</span>
+              )}
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="pt-4 pb-8">

@@ -48,7 +48,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── AFRICA ──
   { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3500, endYear: -1070, hasContent: true },
-  { id: 'early-dynastic-egypt', label: 'Predynastic & Early Dynastic Egypt', subtitle: 'from Saharan herders to the first pharaohs', region: 'africa', startYear: -5000, endYear: -2686, hasContent: true },
+  { id: 'early-dynastic-egypt', label: 'Before the Pharaohs', subtitle: 'from Saharan herders to the first pharaohs', region: 'africa', startYear: -5000, endYear: -2686, hasContent: true },
   { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181 },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -1550, endYear: -1069 },
   { id: 'kingdom-of-kush', label: 'Kingdom of Kush', subtitle: "Sudan's Black pharaohs", region: 'africa', startYear: -1070, endYear: 350, hasContent: true },
