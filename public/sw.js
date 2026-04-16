@@ -14,7 +14,7 @@
 // produce opaque responses, which can be served back to <img> elements
 // without the page needing crossOrigin="anonymous".
 
-const SHELL_CACHE = 'offline-shell-v1'
+const SHELL_CACHE = 'offline-shell-v2'
 const TL_CACHE_PREFIX = 'offline-tl-'
 const TL_CACHE_SUFFIX = '-v1'
 
@@ -79,14 +79,46 @@ self.addEventListener('fetch', (event) => {
   // Skip chrome-extension, data, and other non-http schemes.
   if (url.protocol !== 'http:' && url.protocol !== 'https:') return
 
+  // Network-first for navigation requests (HTML pages). This keeps
+  // deployments visible immediately when the user is online: the SW
+  // fetches the fresh HTML and only falls back to cache on failure.
+  // Cache-first for everything else — assets are hash-keyed or stable,
+  // and users see newer HTML on the same visit that will pick up any
+  // asset changes on reload.
+  const isNavigation =
+    req.mode === 'navigate' ||
+    (req.destination === 'document' && req.method === 'GET')
+
   event.respondWith(
     (async () => {
+      if (isNavigation) {
+        try {
+          const fresh = await fetch(req)
+          if (fresh && fresh.status === 200 && url.origin === self.location.origin) {
+            const clone = fresh.clone()
+            caches.open(SHELL_CACHE).then((c) => c.put(req, clone)).catch(() => {})
+          }
+          return fresh
+        } catch {
+          const cached = await matchWithSlashVariants(req)
+          if (cached) return cached
+          // Last resort: serve the navigator from cache so the user can
+          // still see their downloaded library.
+          const home = await caches.match('/')
+          if (home) return home
+          return new Response('Offline — download this TL to read it offline.', {
+            status: 503,
+            statusText: 'Offline',
+            headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+          })
+        }
+      }
+
+      // Non-navigation: cache-first.
       const cached = await matchWithSlashVariants(req)
       if (cached) return cached
       try {
         const response = await fetch(req)
-        // Runtime-cache same-origin successful responses into the shell
-        // cache so the navigator + shared chunks are available offline.
         if (
           response &&
           response.status === 200 &&
@@ -97,14 +129,7 @@ self.addEventListener('fetch', (event) => {
         }
         return response
       } catch {
-        // Network failed and nothing in cache. For navigation requests,
-        // try to return the navigator ("/") from cache so the user can at
-        // least see their downloaded library. Otherwise return a 503.
-        if (req.mode === 'navigate') {
-          const home = await caches.match('/')
-          if (home) return home
-        }
-        return new Response('Offline — download this TL to read it offline.', {
+        return new Response('Offline asset unavailable.', {
           status: 503,
           statusText: 'Offline',
           headers: { 'Content-Type': 'text/plain; charset=utf-8' },
