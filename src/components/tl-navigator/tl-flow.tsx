@@ -4,6 +4,7 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { NavigatorRegion, NavigatorTl } from '@/lib/navigator-tls'
 import type { NavigatorTheme } from '@/lib/navigator-themes'
 import { TL_CHAINS } from '../../../reference-data/tl-chains'
+import { useAllOfflineStatus, downloadTl, deleteTl } from '@/lib/offline'
 
 interface Props {
   tls: NavigatorTl[]                 // ALL tls, sorted by start year (not zone-filtered)
@@ -45,6 +46,13 @@ function easeInOut(t: number): number {
 
 export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onChainSolo }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
+  const offlineStatus = useAllOfflineStatus()
+  // Mirror live offline status into a ref so the tap-handler closures
+  // inside the layout effect can read current values without forcing
+  // the effect to re-run (and re-attach touch listeners) on every
+  // progress tick.
+  const offlineStatusRef = useRef(offlineStatus)
+  offlineStatusRef.current = offlineStatus
   const [viewportSize, setViewportSize] = useState({ width: 0, height: 0 })
   // Kept as state (not ref) so the soloLayout useMemo recomputes when it
   // changes. Stays set during the exit animation and clears on completion.
@@ -435,6 +443,19 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
           }
         }
 
+        // Offline download button tap — hit-test before row nav so tapping
+        // the cloud icon never also triggers a navigation.
+        const offlineEl = hit && (hit as Element).closest ? (hit as Element).closest('[data-offline-btn]') as HTMLElement | null : null
+        if (offlineEl) {
+          const tlId = offlineEl.getAttribute('data-tl-id')
+          if (tlId) {
+            const cur = offlineStatusRef.current[tlId]?.status ?? 'none'
+            if (cur === 'downloaded') deleteTl(tlId)
+            else if (cur !== 'downloading') downloadTl(tlId)
+            return
+          }
+        }
+
         // Row nav tap
         if (inSoloMode()) {
           const contentY = touchY + soloScrollRef.current - soloStackCenter
@@ -479,6 +500,17 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
         const chainId = chipEl.getAttribute('data-chain-id')
         if (chainId) {
           onChainSolo(soloChainId === chainId ? null : chainId)
+          return
+        }
+      }
+
+      const offlineEl = hit && (hit as Element).closest ? (hit as Element).closest('[data-offline-btn]') as HTMLElement | null : null
+      if (offlineEl) {
+        const tlId = offlineEl.getAttribute('data-tl-id')
+        if (tlId) {
+          const cur = offlineStatus[tlId]?.status ?? 'none'
+          if (cur === 'downloaded') deleteTl(tlId)
+          else if (cur !== 'downloading') downloadTl(tlId)
           return
         }
       }
@@ -561,6 +593,9 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
         const regionColor = theme.regionColors[tl.region]
         const barW = barWidths[i] ?? MIN_BAR
         const chain = rowChainInfo.get(i)
+        const offline = tl.hasContent ? (offlineStatus[tl.id]?.status ?? 'none') : 'none'
+        const offlineDone = offlineStatus[tl.id]?.done ?? 0
+        const offlineTotal = offlineStatus[tl.id]?.total ?? 0
         return (
           <div
             key={tl.id}
@@ -615,6 +650,74 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 }}
               />
               <span>{tl.label}</span>
+              {tl.hasContent && (
+                <span
+                  data-offline-btn="1"
+                  data-tl-id={tl.id}
+                  aria-label={
+                    offline === 'downloaded' ? 'Remove offline download'
+                    : offline === 'downloading' ? 'Downloading for offline'
+                    : offline === 'error' ? 'Offline download failed, tap to retry'
+                    : 'Download for offline reading'
+                  }
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: 28,
+                    height: 28,
+                    marginLeft: 10,
+                    borderRadius: 999,
+                    pointerEvents: 'auto',
+                    cursor: 'pointer',
+                    color:
+                      offline === 'downloaded' ? 'var(--accent, #fbbf24)'
+                      : offline === 'error' ? '#f87171'
+                      : theme.label.color,
+                    opacity:
+                      offline === 'none' ? 0.55
+                      : offline === 'downloading' ? 0.85
+                      : 1,
+                    transition: 'opacity 150ms, color 150ms',
+                  }}
+                >
+                  {offline === 'downloaded' ? (
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                      <path d="m9 12 2 2 4-4" stroke="var(--background, #22201e)" fill="none" strokeWidth="2" />
+                    </svg>
+                  ) : offline === 'error' ? (
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                      <path d="m10 11 4 4 m0-4-4 4" />
+                    </svg>
+                  ) : offline === 'downloading' ? (
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                      <circle cx="12" cy="14" r="2" fill="currentColor" />
+                      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.4s" repeatCount="indefinite" />
+                    </svg>
+                  ) : (
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                      <path d="M12 10v6 m-2.5-2.5L12 16l2.5-2.5" />
+                    </svg>
+                  )}
+                  {offline === 'downloading' && offlineTotal > 0 && (
+                    <span
+                      style={{
+                        marginLeft: 6,
+                        fontSize: 11,
+                        fontWeight: 500,
+                        opacity: 0.8,
+                        fontVariantNumeric: 'tabular-nums',
+                      }}
+                    >
+                      {Math.round((offlineDone / offlineTotal) * 100)}%
+                    </span>
+                  )}
+                </span>
+              )}
               {chain && (
                 <span
                   data-chain-chip="1"

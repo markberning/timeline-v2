@@ -101,6 +101,8 @@ const ROOT = join(__dirname, '..')
 const NARRATIVES_DIR = join(ROOT, 'narratives')
 const REFERENCE_DIR = join(ROOT, 'reference-data')
 const CONTENT_DIR = join(ROOT, 'content')
+const OFFLINE_MANIFEST_DIR = join(ROOT, 'public', 'offline')
+const MAPS_DIR = join(ROOT, 'public', 'maps')
 
 // Map narrative filenames to TL IDs
 const NARRATIVE_FILES: Record<string, string> = {
@@ -488,6 +490,42 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
   const outPath = join(CONTENT_DIR, `${tlId}.json`)
   writeFileSync(outPath, JSON.stringify(output, null, 2))
   console.log(`  → ${outPath} (${chapters.length} chapters, ${refData.events.length} events)`)
+
+  // Emit the per-TL offline manifest: the exact list of URLs the service
+  // worker should fetch + cache when the user taps "download for offline".
+  // Kept minimal — just the page URL, the map WebPs that exist on disk,
+  // and the unique thumbnail URLs for events + glossary. /_next/static/*
+  // chunks are runtime-cached by the SW on first visit, so they don't
+  // need to be in the manifest.
+  const pageUrl = `/${tlId}/`
+  const mapUrls: string[] = []
+  for (const ch of chapters) {
+    const webp = join(MAPS_DIR, tlId, `chapter-${ch.number}.webp`)
+    if (existsSync(webp)) mapUrls.push(`/maps/${tlId}/chapter-${ch.number}.webp`)
+  }
+  const thumbSet = new Set<string>()
+  for (const ev of output.events as Array<{ thumbnailUrl?: string }>) {
+    if (ev.thumbnailUrl) thumbSet.add(ev.thumbnailUrl)
+  }
+  for (const gl of output.glossary) {
+    if (gl.thumbnailUrl) thumbSet.add(gl.thumbnailUrl)
+  }
+  const thumbnails = Array.from(thumbSet)
+  const manifest = {
+    tlId,
+    label: refData.label,
+    pageUrl,
+    maps: mapUrls,
+    thumbnails,
+    // urls = flat list the SW iterates — page first so it's available even
+    // if thumbnail fetches fail. Thumbnails last because they're the
+    // largest and the most tolerant of individual failures.
+    urls: [pageUrl, ...mapUrls, ...thumbnails],
+  }
+  mkdirSync(OFFLINE_MANIFEST_DIR, { recursive: true })
+  const manifestPath = join(OFFLINE_MANIFEST_DIR, `${tlId}.manifest.json`)
+  writeFileSync(manifestPath, JSON.stringify(manifest, null, 2))
+  console.log(`  → ${manifestPath} (${mapUrls.length} maps, ${thumbnails.length} thumbnails)`)
 }
 
 async function main() {
