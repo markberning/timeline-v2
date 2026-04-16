@@ -30,6 +30,7 @@ const TAP_TIME_THRESHOLD = 500
 const SOLO_ANIM_MS = 650
 const SOLO_LEFT_PAD_FRAC = 0.06
 const SOLO_STACK_TOP_PAD = 16
+const FLOW_TOP_PAD_FRAC = 0.75
 
 function formatYearRange(start: number, end: number): string {
   const startBce = start < 0
@@ -212,7 +213,8 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
     const vw = viewportSize.width
     const halfRow = rowHeight / 2
     const bottomPadding = rowHeight
-    const flowMaxScroll = Math.max(0, flowLayout.totalHeight - vh + bottomPadding)
+    const flowTopPad = vh * FLOW_TOP_PAD_FRAC
+    const flowMaxScroll = Math.max(0, flowLayout.totalHeight + flowTopPad - vh + bottomPadding)
     const soloStackHeight = soloLayout.stackHeight
     const soloStackCenter = soloStackHeight > 0 && soloStackHeight < vh
       ? (vh - soloStackHeight) / 2
@@ -263,7 +265,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
         let flowOpacity: number
         if (inFlow) {
           const vind = vi as number
-          flowY = vind * rowHeight - flowScroll
+          flowY = vind * rowHeight + flowTopPad - flowScroll
           const rowCenterY = flowY + halfRow
           const diagonalX = (rowCenterY / vh) * maxIndent
           const gapX = ((flowLayout.cumGap[vind] ?? 0) - flowAnchorCum) * H_GAP_SCALE
