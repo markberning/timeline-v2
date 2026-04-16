@@ -138,18 +138,22 @@ body {
   border-color: currentColor;
 }
 
-/* Glossary links — gray solid underline */
+/* Glossary links — subtle gray background highlight */
 .prose a.glossary-link,
 a.glossary-link {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
   cursor: pointer;
-  color: #4b5563;
+  color: #374151;
   font-weight: normal;
+  background-color: #f3f4f6;
+  border-radius: 3px;
+  padding: 1px 4px;
+  margin: 0 -2px;
 }
 .dark .prose a.glossary-link,
 .dark a.glossary-link {
-  color: #9ca3af;
+  color: #d1d5db;
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 /* Cross-cultural links — tinted background highlight in the target TL's chain color.
