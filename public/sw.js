@@ -51,6 +51,27 @@ self.addEventListener('activate', (event) => {
   )
 })
 
+// Try caches.match against a request and its trailing-slash variant.
+// Next.js static export uses trailingSlash: true, so manifest URLs are
+// stored as `/ancient-china/` but navigator taps go to `/ancient-china`
+// (no slash). Cloudflare resolves the form difference online via its
+// static-asset serving; offline we have to try both variants ourselves.
+async function matchWithSlashVariants(req) {
+  const direct = await caches.match(req)
+  if (direct) return direct
+  try {
+    const url = new URL(req.url)
+    if (url.pathname === '/') return null
+    const toggled = url.pathname.endsWith('/')
+      ? url.pathname.slice(0, -1)
+      : url.pathname + '/'
+    url.pathname = toggled
+    const alt = await caches.match(url.toString())
+    if (alt) return alt
+  } catch {}
+  return null
+}
+
 self.addEventListener('fetch', (event) => {
   const req = event.request
   if (req.method !== 'GET') return
@@ -60,7 +81,7 @@ self.addEventListener('fetch', (event) => {
 
   event.respondWith(
     (async () => {
-      const cached = await caches.match(req)
+      const cached = await matchWithSlashVariants(req)
       if (cached) return cached
       try {
         const response = await fetch(req)
@@ -76,8 +97,13 @@ self.addEventListener('fetch', (event) => {
         }
         return response
       } catch {
-        // Network failed and nothing in cache. Return a minimal 503 so
-        // the browser doesn't show its default offline page.
+        // Network failed and nothing in cache. For navigation requests,
+        // try to return the navigator ("/") from cache so the user can at
+        // least see their downloaded library. Otherwise return a 503.
+        if (req.mode === 'navigate') {
+          const home = await caches.match('/')
+          if (home) return home
+        }
         return new Response('Offline — download this TL to read it offline.', {
           status: 503,
           statusText: 'Offline',
