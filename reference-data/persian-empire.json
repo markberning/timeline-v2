@@ -1,0 +1,875 @@
+{
+  "id": "persian-empire",
+  "label": "Persian Empire",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "imageWikiSlug": "Persepolis",
+  "pitch": "From the highlands of Iran, Cyrus the Great built the first true world empire — one that stretched from Egypt to India, connected by the Royal Road completed under Darius I the Great, and governed with a tolerance for local customs that was radical for its time. The Cyrus Cylinder, sometimes called the first declaration of human rights, set the tone. Then came the epic clashes at the Battle of Thermopylae and Battle of Gaugamela, followed by centuries of Parthian and Sassanid rule.\n\n🔑 Key Facts:\n• Persepolis construction begins under Darius I, creating a ceremonial capital whose ruins still awe visitors today\n• The Battle of Carrhae saw Parthian horsemen annihilate seven Roman legions under Crassus — one of Rome's worst defeats\n• Khosrow I Anushirvan presided over a Sassanid golden age of learning, founding the Academy of Gundishapur flourishes as a world-class center of science\n• The Behistun Inscription, carved into a cliff face in three languages, became the key to deciphering cuneiform\n\n🤔 Why It Matters: Persian innovations in governance, religious tolerance (Zoroastrianism as state religion and the Decree of religious tolerance), and infrastructure (the Yam relay postal system under the Parthians) influenced every empire that followed, from Rome to the Islamic caliphates.\n\n🎲 Wild Card: Chess introduced to Persia from India during Khosrow I's reign transformed into shatranj and then spread to the Arab world and Europe — meaning every chess match you've ever played traces back to a Sassanid royal court.",
+  "countryIds": [
+    "364",
+    "368",
+    "792",
+    "818",
+    "4"
+  ],
+  "spans": [
+    {
+      "id": "span-persian-empire-achaemenid",
+      "label": "Achaemenid Empire",
+      "startYear": -550,
+      "endYear": -330,
+      "wikiSlug": "Achaemenid_Empire",
+      "description": "Founded by Cyrus the Great, the Achaemenid Empire became the largest the ancient world had seen, stretching from Egypt to India. Darius I organized it into satrapies connected by the Royal Road and built the ceremonial capital at Persepolis."
+    },
+    {
+      "id": "span-persian-empire-seleucid",
+      "label": "Seleucid Period",
+      "startYear": -312,
+      "endYear": -247,
+      "wikiSlug": "Seleucid_Empire",
+      "description": "After Alexander's death, his general Seleucus carved out a successor state spanning Iran to Syria. Greek culture blended with Iranian traditions in a Hellenistic fusion, though the dynasty steadily lost eastern territories to the Parthians."
+    },
+    {
+      "id": "span-persian-empire-parthian",
+      "label": "Parthian Empire",
+      "startYear": -247,
+      "endYear": 224,
+      "wikiSlug": "Parthian_Empire",
+      "description": "The Arsacid dynasty built a decentralized empire that rivaled Rome for nearly five centuries. Parthian horse archers annihilated Roman legions at Carrhae, and the empire grew rich as the key middleman on the Silk Road."
+    },
+    {
+      "id": "span-persian-empire-sassanid",
+      "label": "Sassanid Empire",
+      "startYear": 224,
+      "endYear": 651,
+      "wikiSlug": "Sasanian_Empire",
+      "description": "The last pre-Islamic Persian dynasty revived Achaemenid traditions and made Zoroastrianism the state religion. Under Khosrow I the empire reached a cultural golden age, but exhausting wars with Byzantium left it vulnerable to the Arab conquests."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-cyrus-great",
+      "label": "Cyrus the Great",
+      "year": -559,
+      "endYear": -530,
+      "description": "Founder of the Achaemenid Empire who united the Medes and Persians, conquering Lydia and Babylon. His reign established the largest empire the world had yet seen.",
+      "wikiSlug": "Cyrus_the_Great",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-conquest-media",
+      "label": "Conquest of Media",
+      "year": -550,
+      "description": "Cyrus defeated his grandfather Astyages, overthrowing the Median Empire and unifying the Iranian peoples under Persian rule.",
+      "wikiSlug": "Battle_of_Pasargadae",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-pasargadae",
+      "label": "Pasargadae built",
+      "year": -546,
+      "description": "Cyrus established Pasargadae as the first capital of the Achaemenid Empire, featuring gardens that may have inspired the concept of paradise.",
+      "wikiSlug": "Pasargadae",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-fall-babylon",
+      "label": "Fall of Babylon",
+      "year": -539,
+      "description": "Cyrus conquered the Neo-Babylonian Empire, entering Babylon reportedly without a battle. He freed the Jewish exiles and restored local temples.",
+      "wikiSlug": "Fall_of_Babylon",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-cyrus-cylinder",
+      "label": "Cyrus Cylinder",
+      "year": -539,
+      "description": "A clay cylinder inscribed in Akkadian proclaiming Cyrus's restoration of temples and repatriation of peoples. Often called the first declaration of human rights.",
+      "wikiSlug": "Cyrus_Cylinder",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-cambyses-ii",
+      "label": "Cambyses II",
+      "year": -530,
+      "endYear": -522,
+      "description": "Son of Cyrus who conquered Egypt in 525 BCE, extending the empire to its greatest territorial extent in Africa.",
+      "wikiSlug": "Cambyses_II",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-conquest-egypt",
+      "label": "Conquest of Egypt",
+      "year": -525,
+      "description": "Cambyses II defeated Pharaoh Psamtik III at the Battle of Pelusium, making Egypt a Persian satrapy.",
+      "wikiSlug": "Battle_of_Pelusium_(525_BC)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-darius-i",
+      "label": "Darius I the Great",
+      "year": -522,
+      "endYear": -486,
+      "description": "Rose to power after defeating rival claimants. He reorganized the empire into satrapies, standardized coinage, and built the Royal Road.",
+      "wikiSlug": "Darius_the_Great",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-zoroaster",
+      "label": "Zoroastrianism as state religion",
+      "year": -520,
+      "description": "Darius I promoted Zoroastrianism and the worship of Ahura Mazda as the supreme deity, embedding the faith into imperial ideology.",
+      "wikiSlug": "Zoroastrianism",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-behistun-inscription",
+      "label": "Behistun Inscription",
+      "year": -520,
+      "description": "Monumental trilingual inscription carved into a cliff face by Darius I, recording his victories. It became the key to deciphering cuneiform script.",
+      "wikiSlug": "Behistun_Inscription",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-persepolis-construction",
+      "label": "Persepolis construction begins",
+      "year": -518,
+      "description": "Darius began building the ceremonial capital at Persepolis, featuring the grand Apadana palace and monumental staircases with relief sculptures.",
+      "wikiSlug": "Persepolis",
+      "tier": 1,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-daric-coinage",
+      "label": "Daric gold coinage",
+      "year": -515,
+      "description": "Darius introduced the gold daric and silver siglos as standardized imperial currency, facilitating trade across the vast empire.",
+      "wikiSlug": "Daric",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-royal-road",
+      "label": "Royal Road completed",
+      "year": -500,
+      "description": "Darius built the Royal Road stretching 2,700 km from Sardis to Susa, with relay stations enabling messages to travel its length in seven days.",
+      "wikiSlug": "Royal_Road",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-marathon",
+      "label": "Battle of Marathon",
+      "year": -490,
+      "description": "A Persian expeditionary force was defeated by the Athenians on the plain of Marathon, ending the first Persian invasion of Greece.",
+      "wikiSlug": "Battle_of_Marathon",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-xerxes-i",
+      "label": "Xerxes I",
+      "year": -486,
+      "endYear": -465,
+      "description": "Son of Darius who launched the massive second invasion of Greece. He completed many of Persepolis's grandest structures.",
+      "wikiSlug": "Xerxes_I",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-thermopylae",
+      "label": "Battle of Thermopylae",
+      "year": -480,
+      "description": "Xerxes' army overwhelmed a Greek force led by King Leonidas of Sparta at the narrow pass of Thermopylae after a three-day stand.",
+      "wikiSlug": "Battle_of_Thermopylae",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-salamis",
+      "label": "Battle of Salamis",
+      "year": -480,
+      "description": "The Greek fleet decisively defeated the larger Persian navy in the straits of Salamis, turning the tide of the second Persian invasion.",
+      "wikiSlug": "Battle_of_Salamis",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-artaxerxes-i",
+      "label": "Artaxerxes I",
+      "year": -465,
+      "endYear": -424,
+      "description": "Oversaw a period of relative stability, dealt with Egyptian revolts, and authorized Ezra and Nehemiah to restore Jerusalem.",
+      "wikiSlug": "Artaxerxes_I",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-peace-callias",
+      "label": "Peace of Callias",
+      "year": -449,
+      "description": "A treaty ending hostilities between the Achaemenid Empire and the Delian League, establishing spheres of influence in the Aegean.",
+      "wikiSlug": "Peace_of_Callias",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-persian-immortals",
+      "label": "The Immortals elite guard",
+      "year": -500,
+      "description": "The 10,000 Immortals formed the elite standing army of the Achaemenid Empire, always maintained at exactly 10,000 soldiers.",
+      "wikiSlug": "Immortals_(Achaemenid_Empire)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-darius-iii",
+      "label": "Darius III",
+      "year": -336,
+      "endYear": -330,
+      "description": "The last Achaemenid king who faced Alexander the Great's invasion. His defeats at Issus and Gaugamela ended the empire.",
+      "wikiSlug": "Darius_III",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-battle-gaugamela",
+      "label": "Battle of Gaugamela",
+      "year": -331,
+      "description": "Alexander the Great decisively defeated Darius III, ending effective Achaemenid resistance and opening the path to Persepolis and Susa.",
+      "wikiSlug": "Battle_of_Gaugamela",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-persepolis-burned",
+      "label": "Persepolis burned",
+      "year": -330,
+      "description": "Alexander's forces burned the great palace complex at Persepolis, symbolically ending the Achaemenid dynasty.",
+      "wikiSlug": "Persepolis#Destruction",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-arsaces-i",
+      "label": "Arsaces I founds Parthia",
+      "year": -247,
+      "description": "Arsaces I led the Parni tribe to seize control of the satrapy of Parthia from the Seleucids, founding the Arsacid dynasty.",
+      "wikiSlug": "Arsaces_I_of_Parthia",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mithridates-i",
+      "label": "Mithridates I",
+      "year": -171,
+      "endYear": -138,
+      "description": "Expanded Parthia from a minor kingdom into a great empire, conquering Media, Mesopotamia, and Elymais from the Seleucids.",
+      "wikiSlug": "Mithridates_I_of_Parthia",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-old-nisa",
+      "label": "Nisa royal residence",
+      "year": -170,
+      "description": "The Parthian royal residence at Nisa featured Hellenistic and Iranian architectural styles, with ivory rhytons and treasury buildings.",
+      "wikiSlug": "Nisa,_Turkmenistan",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-silk-road-parthia",
+      "label": "Parthian Silk Road trade",
+      "year": -120,
+      "description": "The Parthians became key middlemen in Silk Road trade between Rome and China, profiting enormously from tariffs on luxury goods.",
+      "wikiSlug": "Silk_Road",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-mithraism-spread",
+      "label": "Mithraism spreads west",
+      "year": -67,
+      "description": "The cult of Mithras, rooted in Persian Zoroastrian traditions, began spreading through the Roman world via soldiers and merchants.",
+      "wikiSlug": "Mithraism",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-carrhae",
+      "label": "Battle of Carrhae",
+      "year": -53,
+      "description": "A Parthian force led by Surena annihilated seven Roman legions under Crassus, one of Rome's worst military defeats.",
+      "wikiSlug": "Battle_of_Carrhae",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-surena",
+      "label": "Surena",
+      "year": -53,
+      "description": "Brilliant Parthian general who devised the tactics that destroyed Crassus's army at Carrhae, including the famous Parthian shot.",
+      "wikiSlug": "Surena",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ctesiphon-capital",
+      "label": "Ctesiphon becomes capital",
+      "year": -58,
+      "description": "The Parthians established Ctesiphon on the Tigris as their winter capital, which would later become the Sassanid capital as well.",
+      "wikiSlug": "Ctesiphon",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-parthian-texts",
+      "label": "Parthian religious texts",
+      "year": -100,
+      "description": "Parthian-era scribes preserved and transmitted Zoroastrian oral traditions, contributing to the eventual compilation of the Avesta.",
+      "wikiSlug": "Avesta",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ardashir-i",
+      "label": "Ardashir I founds Sassanid Empire",
+      "year": 224,
+      "endYear": 242,
+      "description": "Ardashir I defeated the last Parthian king Artabanus IV at the Battle of Hormozdgan, founding the Sassanid dynasty.",
+      "wikiSlug": "Ardashir_I",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-mani-manichaeism",
+      "label": "Mani founds Manichaeism",
+      "year": 240,
+      "description": "The prophet Mani established Manichaeism, a syncretic religion blending Zoroastrian, Christian, and Buddhist elements that spread across Eurasia.",
+      "wikiSlug": "Mani_(prophet)",
+      "tier": 2,
+      "category": "religion",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-shapur-i",
+      "label": "Shapur I",
+      "year": 240,
+      "endYear": 270,
+      "description": "Expanded the Sassanid Empire dramatically and famously captured Roman Emperor Valerian at the Battle of Edessa in 260 CE.",
+      "wikiSlug": "Shapur_I",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-capture-valerian",
+      "label": "Capture of Emperor Valerian",
+      "year": 260,
+      "description": "Shapur I captured Roman Emperor Valerian at the Battle of Edessa, the only time a Roman emperor was taken prisoner.",
+      "wikiSlug": "Battle_of_Edessa",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-naqsh-e-rostam",
+      "label": "Naqsh-e Rostam reliefs",
+      "year": 260,
+      "description": "Monumental rock reliefs carved at Naqsh-e Rostam depicting Shapur's triumph over three Roman emperors, a masterpiece of Sassanid art.",
+      "wikiSlug": "Naqsh-e_Rostam",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kartir",
+      "label": "Kartir's religious reforms",
+      "year": 280,
+      "description": "The Zoroastrian high priest Kartir established orthodoxy, persecuted rival religions, and consolidated priestly power under Bahram II.",
+      "wikiSlug": "Kartir",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-shapur-ii",
+      "label": "Shapur II",
+      "year": 309,
+      "endYear": 379,
+      "description": "One of the longest-reigning Persian monarchs who waged prolonged wars against Rome and defended the eastern frontier against nomadic invasions.",
+      "wikiSlug": "Shapur_II",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-gundishapur-academy",
+      "label": "Academy of Gundishapur flourishes",
+      "year": 370,
+      "description": "The Academy of Gundishapur became a leading center of medicine, philosophy, and science, drawing scholars from Greece, India, and Syria.",
+      "wikiSlug": "Academy_of_Gundishapur",
+      "tier": 2,
+      "category": "science"
+    },
+    {
+      "id": "evt-avesta-compilation",
+      "label": "Avesta compiled in written form",
+      "year": 400,
+      "description": "The sacred texts of Zoroastrianism were compiled and written down in the Avestan script during the Sassanid period after centuries of oral transmission.",
+      "wikiSlug": "Avesta",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-sassanid-silk",
+      "label": "Sassanid silk production",
+      "year": 450,
+      "description": "The Sassanids developed a thriving domestic silk weaving industry, with distinctive patterns that influenced textile art across the medieval world.",
+      "wikiSlug": "Sasanian_Empire#Economy",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-khosrow-i",
+      "label": "Khosrow I Anushirvan",
+      "year": 531,
+      "endYear": 579,
+      "description": "Known as 'Immortal Soul,' he reformed taxation, reorganized the military, and presided over a golden age of Persian culture and learning.",
+      "wikiSlug": "Khosrow_I",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-taq-kasra",
+      "label": "Taq Kasra arch built",
+      "year": 540,
+      "description": "The great arch at Ctesiphon, with the largest single-span vault of the ancient world at 37 meters, was completed under Khosrow I.",
+      "wikiSlug": "Taq_Kasra",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-chess-persia",
+      "label": "Chess introduced to Persia",
+      "year": 550,
+      "description": "The Indian game of chaturanga was introduced to the Sassanid court, where it evolved into shatranj and later spread to the Arab world and Europe.",
+      "wikiSlug": "Shatranj",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-khosrow-ii",
+      "label": "Khosrow II",
+      "year": 590,
+      "endYear": 628,
+      "description": "The last great Sassanid king who nearly conquered the Byzantine Empire before a devastating reversal led to his overthrow.",
+      "wikiSlug": "Khosrow_II",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-shahnameh-oral",
+      "label": "Khwaday-Namag compiled",
+      "year": 600,
+      "description": "The Sassanid-era 'Book of Lords' compiled Persian mythology and royal history, later serving as the main source for Ferdowsi's Shahnameh.",
+      "wikiSlug": "Khwaday-Namag",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-byzantine-sassanid-war",
+      "label": "Last great Roman-Persian war",
+      "year": 602,
+      "endYear": 628,
+      "description": "The final and most devastating war between Byzantium and the Sassanids exhausted both empires, leaving them vulnerable to the Arab conquests.",
+      "wikiSlug": "Byzantine–Sasanian_War_of_602–628",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-al-qadisiyyah",
+      "label": "Battle of al-Qadisiyyah",
+      "year": 636,
+      "description": "Arab Muslim forces defeated the Sassanid army in a decisive battle that opened Mesopotamia to the Islamic conquest.",
+      "wikiSlug": "Battle_of_al-Qādisiyyah",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-fall-sassanid",
+      "label": "Fall of the Sassanid Empire",
+      "year": 651,
+      "description": "The last Sassanid king Yazdegerd III was killed in Merv, ending over four centuries of Sassanid rule and a millennium of Iranian imperial tradition.",
+      "wikiSlug": "Muslim_conquest_of_Persia",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-lydia",
+      "label": "Conquest of Lydia",
+      "year": -546,
+      "description": "Cyrus defeated King Croesus of Lydia at the Battle of Thymbra, capturing Sardis and gaining control of the wealthy kingdom and its Greek coastal cities.",
+      "wikiSlug": "Battle_of_Thymbra",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-susa-palace",
+      "label": "Palace of Darius at Susa",
+      "year": -510,
+      "description": "Darius I built a grand palace at Susa using materials and craftsmen from across the empire, as documented in the Susa foundation charter.",
+      "wikiSlug": "Apadana_of_Darius_in_Susa",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ionian-revolt",
+      "label": "Ionian Revolt",
+      "year": -499,
+      "endYear": -493,
+      "description": "Greek city-states in Ionia revolted against Persian rule with Athenian support, setting the stage for the Greco-Persian Wars.",
+      "wikiSlug": "Ionian_Revolt",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-plataea",
+      "label": "Battle of Plataea",
+      "year": -479,
+      "description": "A Greek coalition decisively defeated the Persian army under Mardonius, ending Xerxes' invasion and Persian ambitions in mainland Greece.",
+      "wikiSlug": "Battle_of_Plataea",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-artaxerxes-ii",
+      "label": "Artaxerxes II",
+      "year": -404,
+      "endYear": -358,
+      "description": "Longest-reigning Achaemenid king who survived his brother Cyrus the Younger's rebellion and reasserted Persian influence over Greece via the King's Peace.",
+      "wikiSlug": "Artaxerxes_II",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-issus",
+      "label": "Battle of Issus",
+      "year": -333,
+      "description": "Alexander the Great defeated Darius III in a narrow coastal plain, capturing the Persian royal family and treasury at Damascus.",
+      "wikiSlug": "Battle_of_Issus",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-mithridates-ii",
+      "label": "Mithridates II the Great",
+      "year": -124,
+      "endYear": -91,
+      "description": "Expanded Parthia to its greatest extent, received a Chinese envoy to establish Silk Road diplomacy, and adopted the title King of Kings.",
+      "wikiSlug": "Mithridates_II_of_Parthia",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-shapur-bishapur",
+      "label": "City of Bishapur founded",
+      "year": 266,
+      "description": "Shapur I founded the city of Bishapur to commemorate his victories over Rome, adorned with mosaics and rock reliefs by Roman prisoners of war.",
+      "wikiSlug": "Bishapur",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-nihavand",
+      "label": "Battle of Nihavand",
+      "year": 642,
+      "description": "Arab forces defeated the Sassanid army in the decisive 'Victory of Victories,' effectively ending organized Persian resistance to the Islamic conquest.",
+      "wikiSlug": "Battle_of_Nihavand",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-pe-cyrus-anshan-title",
+      "label": "Cyrus Claims 'King of Anshan'",
+      "year": -559,
+      "description": "When Cyrus II came to power in the Persian heartland of Fars, he claimed the ancient Elamite title 'King of Anshan' — the same royal seat that the Elamite kings had held for two thousand years. The title was a deliberate statement of continuity: the Persian Empire would inherit Elam's bureaucratic traditions, not start from scratch.",
+      "wikiSlug": "Cyrus_the_Great",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Elam's Heir",
+          "text": "Anshan (modern Tall-i Malyan) was the highland capital of the Elamite civilization for millennia. By claiming 'King of Anshan,' Cyrus was announcing that the new Persian state was the successor to the oldest political tradition on the Iranian plateau — the same tradition that had produced the 30,000-tablet Persepolis Fortification Archive in Elamite cuneiform."
+        },
+        {
+          "label": "Continuity, Not Conquest",
+          "text": "The Persian Empire did not destroy what it conquered — it absorbed. Elamite scribes kept writing in Elamite cuneiform at Persepolis. Babylonian administrators kept running Babylon. Egyptian priests kept serving their gods. The absorption model started with Cyrus's adoption of the Anshan title and became the defining characteristic of Achaemenid governance."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-satrapy-system",
+      "label": "The Satrapy System",
+      "year": -520,
+      "description": "Darius I reorganized the empire into roughly 20 satrapies (provinces), each governed by a satrap (governor) who collected taxes, maintained order, and raised troops — but was watched by a royal secretary, a military commander, and traveling inspectors called 'the King's Eyes and Ears' to prevent rebellion.",
+      "wikiSlug": "Satrapy",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Divide and Watch",
+          "text": "The satrapy system was designed to solve the oldest problem of empire: how to govern territory too large for one person to see. Each satrap had enormous local authority but was structurally unable to consolidate power — the military commander answered directly to the king, the royal secretary reported independently, and the King's Eyes could show up unannounced. The system was a masterpiece of institutional distrust."
+        },
+        {
+          "label": "Tax Districts",
+          "text": "Each satrapy owed a fixed annual tribute in silver, kind, or labor. Darius standardized the assessments, recorded them in the treasury archives, and enforced collection with the threat of military intervention. The system financed the standing army, the road network, and the massive construction programs at Persepolis and Susa."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-persepolis-archive",
+      "label": "Persepolis Fortification Archive",
+      "year": -509,
+      "description": "The Persepolis Fortification Archive — over 30,000 clay tablets written in Elamite cuneiform — records the daily administration of the Persian heartland around 509-494 BCE: food rations, travel authorizations, religious offerings, and labor management. It is the single most detailed record of how the Achaemenid Empire actually functioned day to day.",
+      "wikiSlug": "Persepolis_Fortification_Archive",
+      "tier": 1,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Written in Elamite",
+          "text": "The archive is written in Elamite cuneiform — not Old Persian, not Aramaic, but the language and script of the old Elamite bureaucracy. This is the smoking gun for the Elamite-to-Persian administrative continuity: two centuries after Elam ceased to exist as an independent kingdom, its scribal tradition was still running the Persian Empire's paperwork."
+        },
+        {
+          "label": "What It Records",
+          "text": "The tablets record grain and wine rations issued to workers, travel provisions for officials on the Royal Road, offerings to Zoroastrian and local deities, and labor allocations for construction projects. They name individuals by title and origin — Persians, Elamites, Babylonians, Egyptians, Greeks, Indians — working side by side in a genuinely multicultural bureaucracy."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-postal-system",
+      "label": "The Royal Postal System",
+      "year": -500,
+      "description": "The Achaemenid postal system (angareion) used relay stations spaced a day's ride apart along the Royal Road, with fresh horses and riders at each station, enabling a message to travel the 1,600 miles from Sardis to Susa in about 7 days — a speed that would not be surpassed until the telegraph.",
+      "wikiSlug": "Angarium",
+      "tier": 2,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Herodotus's Praise",
+          "text": "Herodotus, who was generally hostile to the Persians, could not help admiring the postal system: 'Neither snow nor rain nor heat nor darkness of night prevents these couriers from completing their designated stages with utmost speed.' The US Postal Service unofficial motto is adapted from this passage — about the Persian post, not the American one."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-ahura-mazda",
+      "label": "Ahura Mazda and Zoroastrian Dualism",
+      "year": -520,
+      "description": "Darius I's inscriptions declare Ahura Mazda ('Wise Lord') as the supreme god who created heaven, earth, and humanity. Zoroastrianism, the religion of the prophet Zarathustra, framed the cosmos as a battle between Ahura Mazda (truth, light, order) and Angra Mainyu (the lie, darkness, chaos) — the oldest known ethical dualism in any religion.",
+      "wikiSlug": "Zoroastrianism",
+      "tier": 1,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Cosmic War",
+          "text": "Zoroastrianism taught that every human being participated in the cosmic battle between truth and the lie by choosing good thoughts, good words, and good deeds. The individual's choices mattered — they tipped the cosmic balance. This was a radical idea in the ancient world, where most religions assumed the gods did as they pleased and humans endured it."
+        },
+        {
+          "label": "Influence",
+          "text": "Zoroastrian dualism influenced Judaism during the Babylonian exile (the concepts of Satan, angels, apocalypse, and bodily resurrection have been traced to Zoroastrian contact), and through Judaism it influenced Christianity and Islam. The religion of a Persian prophet may be the single most influential theological export in human history."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-persepolis-apadana",
+      "label": "The Apadana at Persepolis",
+      "year": -515,
+      "description": "The Apadana (audience hall) at Persepolis was a vast hypostyle hall with 72 stone columns, each 65 feet tall, capable of holding 10,000 people. Its monumental staircase reliefs depict delegations from all 23 subject peoples bringing tribute to the king — the most complete visual catalogue of the Achaemenid Empire's diversity.",
+      "wikiSlug": "Apadana",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "The Nations on the Stairs",
+          "text": "The Apadana staircase reliefs show Medes in round caps bringing horses, Babylonians in fringed robes bringing bulls, Ethiopians bringing ivory and a giraffe, Indians bringing gold dust, Scythians bringing horses and bracelets, Egyptians bringing linen and a bull — each delegation carved in distinctive dress with distinctive gifts, in a procession that serves as a stone census of the known world."
+        },
+        {
+          "label": "Architecture of Power",
+          "text": "The Apadana's columns were topped with double-bull or double-griffin capitals in a style that synthesized Egyptian, Mesopotamian, Greek, and Iranian elements. The architecture of Persepolis was as deliberately multicultural as the empire it represented — built by workers from every satrapy, in a style that belonged to none of them and all of them."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-aramaic-lingua-franca",
+      "label": "Imperial Aramaic as Lingua Franca",
+      "year": -500,
+      "description": "The Achaemenid Empire adopted Aramaic — the language of Syrian and Mesopotamian merchants — as its official administrative language for communication across satrapies. Imperial Aramaic became the first true lingua franca of the ancient Near East, spoken from Egypt to Afghanistan.",
+      "wikiSlug": "Imperial_Aramaic",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Why Aramaic?",
+          "text": "Old Persian was the language of the ruling dynasty, and Elamite was the language of the Persepolis bureaucracy, but neither was widely spoken outside its home region. Aramaic was already the common language of trade across the Near East — it used a simple alphabet that was easy to learn, could be written on cheap parchment or papyrus (unlike cuneiform on clay), and was already understood from the Mediterranean to the Indus. The Persians chose the practical option."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-alexander-conquest",
+      "label": "Alexander's Conquest",
+      "year": -334,
+      "description": "Alexander III of Macedon crossed the Hellespont in 334 BCE with 40,000 troops and in three years destroyed the Achaemenid Empire — defeating Darius III at Issus (333), Gaugamela (331), and burning Persepolis (330). The conquest ended 220 years of Achaemenid rule but did not end Persian culture.",
+      "wikiSlug": "Wars_of_Alexander_the_Great",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Three Battles",
+          "text": "At Issus, Alexander caught Darius's army in a narrow coastal plain where Persian numbers couldn't deploy. At Gaugamela, on the open Mesopotamian plain, he punched through the center of the largest army Darius could assemble. Darius fled both battles and was eventually murdered by his own satrap, Bessus, who was in turn hunted down by Alexander."
+        },
+        {
+          "label": "Persepolis Burns",
+          "text": "Alexander burned Persepolis in 330 BCE — either as revenge for Xerxes' burning of Athens 150 years earlier, or in a drunken accident, depending on which ancient source you trust. The Apadana's columns and staircase reliefs survived because stone doesn't burn easily, but the wooden roofs, the treasury contents, and the administrative archives were destroyed. The burning was the single most destructive act of cultural vandalism in the ancient world."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-parthian-horse-archers",
+      "label": "Parthian Horse Archers and the 'Parthian Shot'",
+      "year": -150,
+      "description": "The Parthian military was built around heavy cavalry (cataphracts in full armor) and light horse archers who could fire backward while riding at full gallop — the famous 'Parthian shot' that gave Rome fits for three centuries.",
+      "wikiSlug": "Parthian_shot",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Tactic",
+          "text": "Parthian horse archers would approach a Roman formation, loose a volley of arrows, then wheel away before the infantry could close. If the Romans pursued, the archers turned in the saddle and shot backward over the horse's rump — the 'Parthian shot' that entered English as 'parting shot.' The tactic was devastatingly effective against slow-moving infantry on open ground."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-sassanid-art",
+      "label": "Sassanid Rock Reliefs and Silver",
+      "year": 250,
+      "description": "The Sassanid kings carved enormous rock reliefs at Naqsh-e Rostam, Taq-e Bostan, and Bishapur showing royal investitures, victories, and hunts — and their court workshops produced the finest silver plate in the ancient world, traded as far as China and Scandinavia.",
+      "wikiSlug": "Sasanian_art",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Propaganda in Stone",
+          "text": "The most famous Sassanid relief at Naqsh-e Rostam shows Shapur I on horseback receiving the surrender of the Roman emperor Valerian — the first Roman emperor ever captured in battle. The relief was carved directly below the Achaemenid royal tombs, a deliberate visual claim that the Sassanids were the legitimate heirs of Cyrus and Darius."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-shahnama-tradition",
+      "label": "The Khwaday-Namag and the Shahnama Tradition",
+      "year": 600,
+      "description": "The Sassanid court commissioned the Khwaday-Namag ('Book of Lords'), a prose chronicle of Iranian kingship from mythical origins to the present. Though the original is lost, it was the direct source for Ferdowsi's Shahnama ('Book of Kings'), the Persian national epic written around 1000 CE — the longest poem ever written by a single author.",
+      "wikiSlug": "Khwaday-Namag",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Why It Matters",
+          "text": "The Khwaday-Namag ensured that Iranian cultural memory survived the Arab conquest. When Ferdowsi turned it into the Shahnama four centuries later, he preserved a version of Persian identity that ran from mythical kings to the last Sassanid — a cultural continuity that helped Persian language and literature survive centuries of Arab and later Turkic domination. The Shahnama is to Persian identity what the Iliad is to Greek identity."
+        }
+      ]
+    },
+    {
+      "id": "evt-pe-arab-conquest",
+      "label": "The Arab Conquest of Iran",
+      "year": 636,
+      "description": "Arab Muslim armies defeated the Sassanid field army at al-Qadisiyyah (636 CE) and Nihavand (642 CE), then spent a decade mopping up regional resistance. The last Sassanid king, Yazdegerd III, fled east and was murdered by a local miller in 651 CE. The conquest ended 400 years of Sassanid rule and four centuries of Zoroastrian state religion, but Persian culture and language survived and eventually reshaped Islam from within.",
+      "wikiSlug": "Muslim_conquest_of_Persia",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Not a Clean Break",
+          "text": "The Arab conquest did not destroy Persian civilization. Within two centuries, Persian-speaking Muslims had become the dominant cultural force in the eastern Islamic world — Persian poetry, Persian administration, Persian architecture, and Persian science became the prestige culture of the Abbasid caliphate. The Persians were conquered militarily but reconquered their conquerors culturally. This is the pattern Elam established and Persia perfected."
+        }
+      ]
+    }
+  ],
+  "wikiSlug": "Achaemenid_Empire"
+}
