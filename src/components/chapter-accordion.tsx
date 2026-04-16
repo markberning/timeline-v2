@@ -173,7 +173,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   <button
                     onClick={() => setSummaryOpen(true)}
                     className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
-                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}}
+                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                   >
                     Summary
                   </button>
@@ -192,7 +192,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 <button
                   onClick={() => setSummaryOpen(false)}
                   className="mt-2 w-full py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
-                  style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}}
+                  style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                 >
                   Close Summary
                 </button>
