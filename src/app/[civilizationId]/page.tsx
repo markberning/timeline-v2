@@ -57,7 +57,7 @@ export default async function CivilizationPage({ params }: PageProps) {
 
       <div className="pt-4 pb-8">
         {chain && pos && pos.index !== -1 && (
-          <div className="flex items-center justify-between text-xs text-foreground/50 mb-2">
+          <div className="flex items-center justify-between text-sm text-foreground/50 mb-2">
             <div>
               {prevTl ? (
                 prevTl.hasContent ? (
@@ -86,13 +86,14 @@ export default async function CivilizationPage({ params }: PageProps) {
             </div>
           </div>
         )}
-        <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>{narrative.label}</h1>
+        <div className="flex items-baseline justify-between">
+          <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>{narrative.label}</h1>
+          <span className="text-sm text-foreground/60">{narrative.chapters.length} chapters</span>
+        </div>
         {currentTl?.subtitle && (
-          <p className="text-sm text-foreground/50 mt-1 italic">{currentTl.subtitle}</p>
+          <p className="text-sm text-foreground/50 mt-1 italic mb-6">{currentTl.subtitle}</p>
         )}
-        <p className="text-sm text-foreground/60 mt-1 mb-6">
-          {narrative.chapters.length} chapters
-        </p>
+        {!currentTl?.subtitle && <div className="mb-6" />}
 
         <NarrativeReader civilizationId={civilizationId} chapters={narrative.chapters} events={narrative.events} glossary={narrative.glossary ?? []} crossLinks={narrative.crossLinks ?? []} />
       </div>
