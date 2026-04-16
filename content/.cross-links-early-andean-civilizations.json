@@ -15,7 +15,7 @@
       "blurb": "The sunken circular plaza at Sechin Bajo, dated to roughly 3500 BCE, is contemporary with the earliest mud-brick temple platforms at Eridu and Uruk in southern Mesopotamia — the structures that would evolve into the great ziggurats of Sumer. Two civilizations on opposite sides of the world were building their first public ceremonial architecture at the same moment, with no knowledge of each other's existence."
     },
     {
-      "matchText": "Predynastic Egypt Ch 4",
+      "matchText": "predynastic Naqada III phase",
       "targetTl": "early-dynastic-egypt",
       "targetChapter": 4,
       "blurb": "At the same moment Norte Chico temples were rising on the Peruvian coast around 3000 BCE, the Nile Valley was in its Naqada III phase — Scorpion I was being buried at Abydos with 700 wine jars and the earliest hieroglyphic labels, and the Wars of Unification that would produce Narmer and the first pharaoh were just beginning. Both civilizations were building their foundations at the same time, but Egypt had writing and pottery and Peru had neither."
@@ -25,6 +25,12 @@
       "targetTl": "indus-valley",
       "targetChapter": 3,
       "blurb": "The Norte Chico network — 25 cooperating ceremonial centers with no single dominant capital — looks less like early Mesopotamia and more like the early Indus Valley, where Harappa, Mohenjo-daro, and Dholavira were roughly equal partners in a distributed urban system. Both civilizations achieved complexity without obvious centralized kingship, and both left behind no royal propaganda, no conquest monuments, and no evidence of the kind of violent hierarchy that defined Egypt and Mesopotamia."
+    },
+    {
+      "matchText": "first hieroglyphs being carved on ivory labels",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 4,
+      "blurb": "While the Norte Chico was building its first coastal temples, the Nile Valley was on the verge of political unification — the predynastic kings of Abydos were consolidating Upper Egypt by force, inventing hieroglyphic writing, and producing the ceremonial palettes that would culminate in the Narmer Palette. Egypt was about to become a state. Peru was building temples without one."
     }
   ],
   "3": [
@@ -65,16 +71,42 @@
       "blurb": "The Caral quipu fragments, if correctly identified, push the knotted-string recording technology back to about 2600 BCE — nearly contemporary with the earliest cuneiform accounting tablets at Uruk. Both civilizations needed to record quantitative information beyond what human memory could manage. Mesopotamia solved it with marks on clay. The Andes solved it with knots on string."
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "matchText": "Andean equivalent of the Egyptian Eye of Horus or the Mesopotamian winged bull",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "The comparison to the winged bull is apt — both the Andean fanged deity and the Mesopotamian lamassu were visual shorthand for divine power that everyone in the culture recognized, placed at the entrances of sacred buildings to mark the boundary between human and divine space. Both traditions independently arrived at the same solution: a hybrid creature, part human and part animal, whose image communicated supernatural authority across linguistic boundaries."
+    }
+  ],
   "5": [
     {
       "matchText": "Kassite Babylon and the first Assyrian Empire",
       "targetTl": "mesopotamia",
       "targetChapter": 8,
       "blurb": "The U-shaped temple period in Peru (1500-800 BCE) overlaps with Kassite Babylon's long peaceful reign — the four-century dynasty that kept Mesopotamia stable while the great-power diplomacy of the Amarna Letters connected Egypt, Hatti, Mitanni, and Elam in the first international system. On opposite sides of the world, two very different civilizations were building their most elaborate religious architecture."
+    },
+    {
+      "matchText": "Shang Dynasty is producing the magnificent bronze vessels of Anyang",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "The Shang Dynasty's bronze-casting tradition at Anyang produced ritual vessels of a technical quality unmatched anywhere in the ancient world — massive tripod cauldrons and wine vessels cast in piece-molds, decorated with the taotie mask motif that is China's equivalent of the Andean fanged face. Two civilizations on opposite sides of the Pacific were independently developing elaborate supernatural-face iconography at the same time."
     }
   ],
-  "7": [],
+  "7": [
+    {
+      "matchText": "being absorbed into the Achaemenid Persian Empire",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 8,
+      "blurb": "The Chavin Horizon (600-200 BCE) overlaps with the transformation of Elam into the Persian Empire — the moment when Cyrus the Great, styling himself 'king of Anshan' in Elamite royal tradition, built the largest empire the ancient world had seen. The Elamite cuneiform scribal tradition became the administrative backbone of the Achaemenid state, running 30,000 tablets of imperial records in Elamite rather than Persian."
+    },
+    {
+      "matchText": "Warring States period",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "The Chavin Horizon is exactly contemporary with the Chinese Warring States period and the philosophy of Confucius and Laozi — the era when Chinese intellectual traditions were being founded that would shape East Asian civilization for the next two millennia. The Andes were doing their own version of cultural unification at the same time, through pilgrimage and prestige art rather than philosophy and statecraft."
+    }
+  ],
   "8": [
     {
       "matchText": "finest textiles of contemporary China or Egypt",
