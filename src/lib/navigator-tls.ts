@@ -48,7 +48,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── AFRICA ──
   { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3500, endYear: -1070, hasContent: true },
-  { id: 'early-dynastic-egypt', label: 'Predynastic & Early Dynastic Egypt', subtitle: 'from Saharan herders to the first pharaohs', region: 'africa', startYear: -5000, endYear: -2686 },
+  { id: 'early-dynastic-egypt', label: 'Predynastic & Early Dynastic Egypt', subtitle: 'from Saharan herders to the first pharaohs', region: 'africa', startYear: -5000, endYear: -2686, hasContent: true },
   { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181 },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -1550, endYear: -1069 },
   { id: 'kingdom-of-kush', label: 'Kingdom of Kush', subtitle: "Sudan's Black pharaohs", region: 'africa', startYear: -1070, endYear: 350 },
@@ -108,7 +108,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'soviet-union', label: 'Soviet Union', subtitle: "communism's superpower experiment", region: 'europe', startYear: 1922, endYear: 1991 },
 
   // ── AMERICAS ──
-  { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200 },
+  { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200, hasContent: true },
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400 },
   { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697 },
   { id: 'andean-kingdoms', label: 'Andean Kingdoms', subtitle: "Peru's regional cultures (Moche, Nazca)", region: 'americas', startYear: -200, endYear: 500 },
