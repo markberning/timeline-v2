@@ -106,6 +106,13 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 
 ---
 
+## Known bad phrases — never include these in prompts
+
+- **"phone screen"** — causes Gemini to render the map at phone-screen dimensions (tiny, cramped labels, wrong aspect ratio). The maps are displayed on phones but should be generated at full resolution. Use "Landscape orientation, match series style." instead.
+- **"designed to be viewed on a phone screen"** — same problem, longer form.
+
+---
+
 ## Per-TL files
 
 - [mesopotamia.md](mesopotamia.md) — 13 chapters (1–13)
