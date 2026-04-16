@@ -180,8 +180,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 )}
                 <button
                   onClick={onExpand}
-                  className="flex-1 py-2.5 text-sm font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                  style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                  className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
+                  style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                 >
                   Read Chapter {chapter.number} →
                 </button>
@@ -260,8 +260,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
             {nextChapterNumber !== null && (
               <button
                 onClick={onReadNext}
-                className="flex-1 py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                className="flex-1 py-3 text-base font-semibold rounded-lg transition-colors hover:opacity-80"
+                style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
               >
                 Read Chapter {nextChapterNumber} →
               </button>
