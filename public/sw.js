@@ -18,6 +18,14 @@ const SHELL_CACHE = 'offline-shell-v2'
 const TL_CACHE_PREFIX = 'offline-tl-'
 const TL_CACHE_SUFFIX = '-v1'
 
+// On localhost we let the SW install and handle download/delete
+// messages (so the library sheet actually works in dev), but its fetch
+// handler bails out immediately so Next.js HMR + dev-server chunks
+// aren't intercepted.
+const IS_DEV_HOST =
+  self.location.hostname === 'localhost' ||
+  self.location.hostname === '127.0.0.1'
+
 function tlCacheName(tlId) {
   return `${TL_CACHE_PREFIX}${tlId}${TL_CACHE_SUFFIX}`
 }
@@ -73,6 +81,10 @@ async function matchWithSlashVariants(req) {
 }
 
 self.addEventListener('fetch', (event) => {
+  // Dev: don't touch fetches at all. Downloads still work because
+  // the download loop uses its own fetch() from inside the message
+  // handler, which bypasses the fetch-event listener.
+  if (IS_DEV_HOST) return
   const req = event.request
   if (req.method !== 'GET') return
   const url = new URL(req.url)
@@ -175,7 +187,9 @@ async function downloadTl(tlId, manifest) {
       failed++
     }
     done++
-    if (done % 5 === 0 || done === total) {
+    // Broadcast on every item for the first 10 (so the UI moves off 0%
+    // immediately), then every 5 items, then on the final item.
+    if (done <= 10 || done % 5 === 0 || done === total) {
       broadcast({ type: 'download-progress', tlId, done, total, failed })
     }
   }

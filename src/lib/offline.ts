@@ -104,19 +104,10 @@ export async function registerServiceWorker() {
   initialized = true
   readLocalStorageInitial()
   emit()
-  // Dev mode: Next.js HMR + runtime-cached _next/* chunks fight each
-  // other. Skip registration entirely in dev so hot reload keeps
-  // working. Cloud icons still render (state defaults to 'none'); taps
-  // will noop because postToSW finds no active worker.
-  if (process.env.NODE_ENV !== 'production') {
-    // If a stale SW from a previous prod-like test is still installed,
-    // unregister it so dev doesn't serve cached prod assets.
-    try {
-      const existing = await navigator.serviceWorker.getRegistrations()
-      for (const reg of existing) await reg.unregister()
-    } catch {}
-    return
-  }
+  // Register the SW in both dev and prod. In dev the SW's fetch
+  // handler sees localhost and bails out (no runtime caching, no
+  // interception), so HMR is untouched. The message handler still
+  // runs, which is what makes per-TL downloads work on localhost.
   try {
     swReg = await navigator.serviceWorker.register('/sw.js', { scope: '/' })
   } catch (err) {
