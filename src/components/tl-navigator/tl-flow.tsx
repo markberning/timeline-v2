@@ -30,7 +30,7 @@ const TAP_TIME_THRESHOLD = 500
 const SOLO_ANIM_MS = 650
 const SOLO_LEFT_PAD_FRAC = 0.06
 const SOLO_STACK_TOP_PAD = 16
-const FLOW_TOP_PAD_FRAC = 0.75
+const FLOW_TOP_PAD_FRAC = 0.25
 
 function formatYearRange(start: number, end: number): string {
   const startBce = start < 0
