@@ -52,8 +52,11 @@ export default async function CivilizationPage({ params }: PageProps) {
             <DarkModeToggle />
           </div>
         </div>
+      </div>
+
+      <div className="pt-4 pb-8">
         {chain && pos && pos.index !== -1 && (
-          <div className="flex items-center justify-between mt-1 text-xs text-foreground/50">
+          <div className="flex items-center justify-between text-xs text-foreground/50 mb-2">
             <div>
               {prevTl ? (
                 prevTl.hasContent ? (
@@ -82,9 +85,6 @@ export default async function CivilizationPage({ params }: PageProps) {
             </div>
           </div>
         )}
-      </div>
-
-      <div className="pt-4 pb-8">
         <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>{narrative.label}</h1>
         <p className="text-sm text-foreground/60 mt-1 mb-6">
           {narrative.chapters.length} chapters
