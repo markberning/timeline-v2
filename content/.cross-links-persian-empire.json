@@ -25,12 +25,6 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
       "blurb": "The Persepolis Fortification Archive was written in Elamite, not Persian — proving that the Elamite bureaucratic tradition survived the destruction of the Elamite state and became the administrative backbone of the Persian Empire. Elamite scribes were still doing the paperwork two centuries after their kingdom was destroyed."
-    },
-    {
-      "matchText": "the Mesopotamian literary tradition",
-      "targetTl": "mesopotamia",
-      "targetChapter": 1,
-      "blurb": "The decipherment of Babylonian cuneiform through the Behistun Inscription unlocked three thousand years of Mesopotamian literary tradition — from the Epic of Gilgamesh to the Sumerian king lists. Without Darius's trilingual propaganda, the entire written record of one of the world's oldest civilizations would have remained unreadable."
     }
   ],
   "3": [
@@ -55,12 +49,6 @@
       "targetTl": "indus-valley",
       "targetChapter": 10,
       "blurb": "When Alexander reached the Indus frontier, the mature Indus Valley civilization was three thousand years gone — but its successor cultures had produced the Gandhara region that had been an Achaemenid satrapy, and the trade networks that connected India to Iran were still running the same routes the Harappan merchants had pioneered."
-    },
-    {
-      "matchText": "Kingdom of Kush was beginning its transition from Napata to Meroe",
-      "targetTl": "ancient-nubia",
-      "targetChapter": 6,
-      "blurb": "While Alexander was destroying the Achaemenid Empire, the Kingdom of Kush was completing its long transition from Napata to Meroë — moving its royal center south to a location with better access to iron ore, tropical trade goods, and independence from Egyptian cultural influence."
     }
   ],
   "6": [
@@ -73,38 +61,19 @@
   ],
   "7": [
     {
-      "matchText": "Han Dynasty in China",
-      "targetTl": "ancient-china",
-      "targetChapter": 8,
-      "blurb": "The Han Dynasty and the Arsacid dynasty collapsed within four years of each other — the Han in 220 CE, the Arsacids in 224 CE — at opposite ends of the Silk Road. The simultaneous collapse may not be coincidental: the trade disruptions and political instabilities that weakened one empire could have propagated along the same routes to the other."
-    },
-    {
       "matchText": "late Meroitic period",
       "targetTl": "ancient-nubia",
       "targetChapter": 7,
       "blurb": "The Kingdom of Kush during its late Meroitic period was at its most culturally distinctive — developing its own script, architecture, and religious traditions — at exactly the same time that the Parthian and Roman empires were locked in their generational standoff along the Euphrates."
     }
   ],
-  "8": [
-    {
-      "matchText": "Elamite Civilization Ch 8",
-      "targetTl": "elamite-civilization",
-      "targetChapter": 8,
-      "blurb": "The Sassanid claim to Achaemenid ancestry ran through Elamite administrative continuity. The same Elamite bureaucratic traditions that Cyrus had inherited and Darius had used to run the empire were the deep institutional foundation that Ardashir was claiming when he carved his investiture scene at Naqsh-e Rostam."
-    }
-  ],
+  "8": [],
   "9": [
     {
       "matchText": "Gupta Empire",
       "targetTl": "indus-valley",
       "targetChapter": 10,
       "blurb": "The Sassanid and Gupta golden ages were exactly contemporary, and the two empires were in direct contact through trade and diplomacy. Indian mathematical concepts including decimal notation reached Iran through this connection, and from Iran they passed to the Arab world — which is why we call them 'Arabic' numerals even though they were Indian in origin."
-    },
-    {
-      "matchText": "final collapse of the Kingdom of Kush",
-      "targetTl": "ancient-nubia",
-      "targetChapter": 8,
-      "blurb": "The Kingdom of Kush fell to the Aksumite Kingdom around 350 CE, roughly contemporary with the early Sassanid golden age. While the Sassanids were building Gundishapur and compiling the Avesta, the oldest kingdom in sub-Saharan Africa was finally ending its three-thousand-year run."
     }
   ],
   "10": [
