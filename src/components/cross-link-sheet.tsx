@@ -98,8 +98,8 @@ export function CrossLinkSheet({ crossLink, onClose }: CrossLinkSheetProps) {
 
           <button
             onClick={jumpToTarget}
-            className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 transition-colors hover:bg-foreground/5"
-            style={{ color: accent, borderColor: accent }}
+            className="mt-5 w-full py-3 text-base font-semibold rounded-lg transition-colors hover:opacity-80"
+            style={{ color: accent, backgroundColor: `color-mix(in srgb, ${accent} 20%, transparent)` }}
           >
             Read {crossLink.targetLabel} Ch {crossLink.targetChapter} →
           </button>
