@@ -11,6 +11,7 @@ import { STONE_THEME } from '@/lib/navigator-themes'
 import { TL_CHAINS } from '../../../reference-data/tl-chains'
 import { TlFlow } from './tl-flow'
 import { ZoneToggles } from './zone-toggles'
+import { OfflineLibrarySheet } from './offline-library-sheet'
 
 const ROW_HEIGHT_FALLBACK = 72
 const HEADER_HEIGHT = 88
@@ -24,6 +25,7 @@ export function TlNavigator() {
     () => new Set<NavigatorRegion>(REGION_ORDER),
   )
   const [soloChainId, setSoloChainId] = useState<string | null>(null)
+  const [libraryOpen, setLibraryOpen] = useState(false)
 
   const theme = STONE_THEME
 
@@ -137,24 +139,49 @@ export function TlNavigator() {
       >
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
           <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.03em' }}>Stuff Happened — A Timeline App</div>
-          <a
-            href="https://v1.stuffhappened.com"
-            style={{
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.04em',
-              padding: '4px 10px',
-              borderRadius: 999,
-              border: `1px solid ${theme.headerBorder}`,
-              background: 'rgba(255,255,255,0.06)',
-              color: theme.textPrimary,
-              opacity: 0.75,
-              textDecoration: 'none',
-              pointerEvents: 'auto',
-            }}
-          >
-            v1 ↗
-          </a>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <button
+              onClick={() => setLibraryOpen(true)}
+              aria-label="Offline library"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 30,
+                height: 26,
+                padding: 0,
+                borderRadius: 999,
+                border: `1px solid ${theme.headerBorder}`,
+                background: 'rgba(255,255,255,0.06)',
+                color: theme.textPrimary,
+                opacity: 0.75,
+                cursor: 'pointer',
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                <path d="M12 10v6 m-2.5-2.5L12 16l2.5-2.5" />
+              </svg>
+            </button>
+            <a
+              href="https://v1.stuffhappened.com"
+              style={{
+                fontSize: 12,
+                fontWeight: 600,
+                letterSpacing: '0.04em',
+                padding: '4px 10px',
+                borderRadius: 999,
+                border: `1px solid ${theme.headerBorder}`,
+                background: 'rgba(255,255,255,0.06)',
+                color: theme.textPrimary,
+                opacity: 0.75,
+                textDecoration: 'none',
+                pointerEvents: 'auto',
+              }}
+            >
+              v1 ↗
+            </a>
+          </div>
         </div>
         {activeChain ? (
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -208,6 +235,13 @@ export function TlNavigator() {
         soloChainId={soloChainId}
         onChainSolo={setSoloChainId}
       />
+      {libraryOpen && (
+        <OfflineLibrarySheet
+          tls={allSortedTls}
+          theme={theme}
+          onClose={() => setLibraryOpen(false)}
+        />
+      )}
     </div>
   )
 }
