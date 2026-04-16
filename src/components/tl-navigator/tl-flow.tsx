@@ -650,6 +650,45 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                 }}
               />
               <span>{tl.label}</span>
+              {chain && (
+                <span
+                  data-chain-chip="1"
+                  data-chain-id={chain.chainId}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: 6,
+                    fontSize: 14,
+                    fontWeight: 500,
+                    color: theme.label.color,
+                    opacity: 0.85,
+                    marginLeft: 36,
+                    padding: '4px 12px',
+                    borderRadius: 999,
+                    border: `1px solid ${theme.headerBorder}`,
+                    background: 'rgba(255,255,255,0.07)',
+                    pointerEvents: 'auto',
+                    cursor: 'pointer',
+                  }}
+                >
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+                  </svg>
+                  <span>
+                    {chain.shortLabel} {chain.index + 1}/{chain.total}
+                  </span>
+                </span>
+              )}
               {tl.hasContent && (
                 <span
                   data-offline-btn="1"
@@ -716,45 +755,6 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
                       {Math.round((offlineDone / offlineTotal) * 100)}%
                     </span>
                   )}
-                </span>
-              )}
-              {chain && (
-                <span
-                  data-chain-chip="1"
-                  data-chain-id={chain.chainId}
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: 6,
-                    fontSize: 14,
-                    fontWeight: 500,
-                    color: theme.label.color,
-                    opacity: 0.85,
-                    marginLeft: 36,
-                    padding: '4px 12px',
-                    borderRadius: 999,
-                    border: `1px solid ${theme.headerBorder}`,
-                    background: 'rgba(255,255,255,0.07)',
-                    pointerEvents: 'auto',
-                    cursor: 'pointer',
-                  }}
-                >
-                  <svg
-                    width="13"
-                    height="13"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-                  </svg>
-                  <span>
-                    {chain.shortLabel} {chain.index + 1}/{chain.total}
-                  </span>
                 </span>
               )}
             </div>
