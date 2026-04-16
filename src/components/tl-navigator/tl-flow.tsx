@@ -4,6 +4,7 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { NavigatorRegion, NavigatorTl } from '@/lib/navigator-tls'
 import type { NavigatorTheme } from '@/lib/navigator-themes'
 import { TL_CHAINS } from '../../../reference-data/tl-chains'
+import { useAllOfflineStatus } from '@/lib/offline'
 
 interface Props {
   tls: NavigatorTl[]                 // ALL tls, sorted by start year (not zone-filtered)
@@ -12,6 +13,7 @@ interface Props {
   theme: NavigatorTheme
   soloChainId: string | null
   onChainSolo: (chainId: string | null) => void
+  onOfflineBlocked: (tlId: string) => void
 }
 
 const MIN_BAR = 36
@@ -43,8 +45,16 @@ function easeInOut(t: number): number {
   return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2
 }
 
-export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onChainSolo }: Props) {
+export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onChainSolo, onOfflineBlocked }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
+  const offlineStatus = useAllOfflineStatus()
+  // Mirror offline state + the callback into refs so the tap-handler
+  // closures inside the layout effect read current values without
+  // forcing the heavy effect to re-run on every status change.
+  const offlineStatusRef = useRef(offlineStatus)
+  offlineStatusRef.current = offlineStatus
+  const onOfflineBlockedRef = useRef(onOfflineBlocked)
+  onOfflineBlockedRef.current = onOfflineBlocked
   const [viewportSize, setViewportSize] = useState({ width: 0, height: 0 })
   // Kept as state (not ref) so the soloLayout useMemo recomputes when it
   // changes. Stays set during the exit animation and clears on completion.
@@ -179,6 +189,20 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
       kickSoloAnimRef.current()
     }
   }, [soloChainId, activeChainId])
+
+  // Navigate to a TL reader, but if the browser reports offline AND
+  // we haven't downloaded that TL, bail out and open the library sheet
+  // via the onOfflineBlocked callback so the user can download it
+  // instead of being stranded on a broken URL.
+  function navigateToTl(tlId: string) {
+    const isOffline = typeof navigator !== 'undefined' && navigator.onLine === false
+    const status = offlineStatusRef.current[tlId]?.status ?? 'none'
+    if (isOffline && status !== 'downloaded') {
+      onOfflineBlockedRef.current(tlId)
+      return
+    }
+    window.location.href = `/${tlId}`
+  }
 
   useLayoutEffect(() => {
     const el = containerRef.current
@@ -443,7 +467,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
             const rowIdx = soloLayout.order[sindex]
             const tl = tls[rowIdx]
             if (tl && tl.hasContent) {
-              window.location.href = `/${tl.id}`
+              navigateToTl(tl.id)
               return
             }
           }
@@ -454,7 +478,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
             const rowIdx = flowLayout.visibleIdxs[vindex]
             const tl = tls[rowIdx]
             if (tl && tl.hasContent) {
-              window.location.href = `/${tl.id}`
+              navigateToTl(tl.id)
               return
             }
           }
@@ -490,7 +514,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
           const rowIdx = soloLayout.order[sindex]
           const tl = tls[rowIdx]
           if (tl && tl.hasContent) {
-            window.location.href = `/${tl.id}`
+            navigateToTl(tl.id)
             return
           }
         }
@@ -501,7 +525,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
           const rowIdx = flowLayout.visibleIdxs[vindex]
           const tl = tls[rowIdx]
           if (tl && tl.hasContent) {
-            window.location.href = `/${tl.id}`
+            navigateToTl(tl.id)
             return
           }
         }

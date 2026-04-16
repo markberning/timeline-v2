@@ -234,6 +234,7 @@ export function TlNavigator() {
         theme={theme}
         soloChainId={soloChainId}
         onChainSolo={setSoloChainId}
+        onOfflineBlocked={() => setLibraryOpen(true)}
       />
       {libraryOpen && (
         <OfflineLibrarySheet
