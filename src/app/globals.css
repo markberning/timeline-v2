@@ -178,3 +178,14 @@ a.cross-link {
 .dark .event-link[data-category="trade"]        { color: #f97316; }
 .dark .event-link[data-category="people"]       { color: #ec4899; }
 .dark .event-link[data-category="writing"]      { color: #a78bfa; }
+
+/* Drop cap on first paragraph of narrative prose */
+.drop-cap > p:first-of-type::first-letter {
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.8;
+  padding-right: 0.08em;
+  padding-top: 0.05em;
+  font-weight: 700;
+  color: var(--accent-text);
+}

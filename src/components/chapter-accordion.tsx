@@ -238,7 +238,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           )}
 
           <article
-            className="prose dark:prose-invert max-w-none px-0"
+            className="prose dark:prose-invert max-w-none px-0 font-[family-name:var(--font-lora)] drop-cap"
             dangerouslySetInnerHTML={{ __html: chapter.contentHtml }}
           />
 
