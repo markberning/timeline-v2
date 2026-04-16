@@ -111,6 +111,8 @@ const NARRATIVE_FILES: Record<string, string> = {
   'ancient-china.md': 'ancient-china',
   'ancient-nubia.md': 'ancient-nubia',
   'elamite-civilization.md': 'elamite-civilization',
+  'early-dynastic-egypt.md': 'early-dynastic-egypt',
+  'early-andean-civilizations.md': 'early-andean-civilizations',
 }
 
 function slugify(title: string): string {
