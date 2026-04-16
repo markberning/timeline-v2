@@ -172,8 +172,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
                   <button
                     onClick={() => setSummaryOpen(true)}
-                    className="flex-1 py-2.5 text-sm font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                    style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                    className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
+                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}}
                   >
                     Summary
                   </button>
@@ -191,8 +191,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               <>
                 <button
                   onClick={() => setSummaryOpen(false)}
-                  className="mt-2 w-full py-2.5 text-sm font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                  style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                  className="mt-2 w-full py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
+                  style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}}
                 >
                   Close Summary
                 </button>
@@ -214,8 +214,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   </button>
                   <button
                     onClick={onExpand}
-                    className="flex-1 py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                    style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                    className="flex-1 py-3 text-base font-semibold rounded-lg transition-colors hover:opacity-80"
+                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                   >
                     Read Chapter {chapter.number} →
                   </button>
