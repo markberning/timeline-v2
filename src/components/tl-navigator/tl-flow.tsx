@@ -474,7 +474,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
             }
           }
         } else {
-          const contentY = touchY + flowScrollRef.current
+          const contentY = touchY + flowScrollRef.current - flowTopPad
           const vindex = Math.floor(contentY / rowHeight)
           if (vindex >= 0 && vindex < flowLayout.visibleIdxs.length) {
             const rowIdx = flowLayout.visibleIdxs[vindex]
@@ -521,7 +521,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
           }
         }
       } else {
-        const contentY = clickY + flowScrollRef.current
+        const contentY = clickY + flowScrollRef.current - flowTopPad
         const vindex = Math.floor(contentY / rowHeight)
         if (vindex >= 0 && vindex < flowLayout.visibleIdxs.length) {
           const rowIdx = flowLayout.visibleIdxs[vindex]
