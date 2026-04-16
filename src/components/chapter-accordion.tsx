@@ -168,24 +168,39 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
         {!open && (
           <div className="pb-5 pl-10">
             {!summaryOpen && (
-              <div className="mt-2 flex gap-2">
+              <>
                 {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
-                  <button
+                  <div
+                    className="mt-2 relative cursor-pointer overflow-hidden"
+                    style={{ maxHeight: '3.2em' }}
                     onClick={() => setSummaryOpen(true)}
-                    className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
-                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                   >
-                    Summary
-                  </button>
+                    <p
+                      className="text-sm text-foreground/50 leading-relaxed"
+                      dangerouslySetInnerHTML={{ __html: chapter.summaryBullets.slice(0, 2).join(' ') }}
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 h-6" style={{ background: 'linear-gradient(transparent, var(--background))' }} />
+                  </div>
                 )}
-                <button
-                  onClick={onExpand}
-                  className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
+                <div className="mt-3 flex gap-2">
+                  {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
+                    <button
+                      onClick={() => setSummaryOpen(true)}
+                      className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
+                      style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
+                    >
+                      Summary
+                    </button>
+                  )}
+                  <button
+                    onClick={onExpand}
+                    className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
                   style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                 >
                   Read Chapter {chapter.number} →
                 </button>
               </div>
+              </>
             )}
             {summaryOpen && chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
               <>
