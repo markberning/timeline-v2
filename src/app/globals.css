@@ -153,7 +153,7 @@ a.glossary-link {
 .dark .prose a.glossary-link,
 .dark a.glossary-link {
   color: #d1d5db;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 /* Cross-cultural links — tinted background highlight in the target TL's chain color.
