@@ -74,10 +74,33 @@ async function matchWithSlashVariants(req) {
       ? url.pathname.slice(0, -1)
       : url.pathname + '/'
     url.pathname = toggled
-    const alt = await caches.match(url.toString())
+    // Build a real Request so we match cache.put'd entries reliably —
+    // string-based caches.match has produced false negatives in some
+    // iOS Safari builds.
+    const altReq = new Request(url.toString())
+    const alt = await caches.match(altReq)
     if (alt) return alt
+    // Third try: scan every cache explicitly for either variant.
+    const keys = await caches.keys()
+    for (const key of keys) {
+      const cache = await caches.open(key)
+      const hit =
+        (await cache.match(req.url)) ||
+        (await cache.match(url.toString()))
+      if (hit) return hit
+    }
   } catch {}
   return null
+}
+
+function offlineFallbackHtml() {
+  return new Response(
+    `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Offline</title><meta http-equiv="refresh" content="2;url=/"><style>html,body{margin:0;padding:0;background:#22201e;color:#e7e5e4;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;height:100%;}body{display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;}main{max-width:360px;text-align:center;}h1{font-size:18px;margin:0 0 10px;font-weight:700;}p{font-size:14px;line-height:1.5;opacity:0.75;margin:0 0 18px;}a{color:#fbbf24;text-decoration:none;font-weight:600;display:inline-block;padding:10px 16px;border:1px solid #fbbf24;border-radius:999px;font-size:13px;}</style></head><body><main><h1>You're offline</h1><p>This timeline isn't downloaded yet. Taking you back to the library…</p><a href="/">← Back to library</a></main></body></html>`,
+    {
+      status: 200,
+      headers: { 'Content-Type': 'text/html; charset=utf-8' },
+    },
+  )
 }
 
 self.addEventListener('fetch', (event) => {
@@ -114,15 +137,11 @@ self.addEventListener('fetch', (event) => {
         } catch {
           const cached = await matchWithSlashVariants(req)
           if (cached) return cached
-          // Last resort: serve the navigator from cache so the user can
-          // still see their downloaded library.
-          const home = await caches.match('/')
-          if (home) return home
-          return new Response('Offline — download this TL to read it offline.', {
-            status: 503,
-            statusText: 'Offline',
-            headers: { 'Content-Type': 'text/plain; charset=utf-8' },
-          })
+          // Nothing in cache for this URL — return an offline HTML page
+          // that meta-redirects back to "/" after 2 seconds. The
+          // redirect means the URL bar ends up on the navigator cleanly
+          // instead of stranding the user on a broken TL URL.
+          return offlineFallbackHtml()
         }
       }
 
@@ -180,6 +199,17 @@ async function downloadTl(tlId, manifest) {
       // (res.status === 0), which cache.put accepts fine.
       if (res && (res.ok || res.type === 'opaque')) {
         await cache.put(req, res.clone())
+        // For same-origin same-path URLs, also cache under the toggled
+        // trailing-slash variant so both `/mesopotamia` and
+        // `/mesopotamia/` hit directly in caches.match regardless of
+        // how the browser formed the navigation request.
+        if (!isCrossOrigin && url !== '/') {
+          try {
+            const altUrl = url.endsWith('/') ? url.slice(0, -1) : url + '/'
+            const altReq = new Request(altUrl, { credentials: 'omit' })
+            await cache.put(altReq, res.clone())
+          } catch {}
+        }
       } else {
         failed++
       }
