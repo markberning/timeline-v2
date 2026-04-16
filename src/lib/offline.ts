@@ -88,7 +88,6 @@ async function getActiveWorker(): Promise<ServiceWorker | null> {
 async function postToSW(message: unknown) {
   const worker = await getActiveWorker()
   if (!worker) {
-    // SW not ready yet — wait for it and retry once.
     await navigator.serviceWorker?.ready.catch(() => {})
     const retry = await getActiveWorker()
     retry?.postMessage(message)

@@ -153,7 +153,7 @@ Custom-touch scrolling flow layout of 71 civilizations. This is the home page no
 - **Sheet**: header shows "Meanwhile in {label}" + `Chapter {n}: {title}` + blurb + a CTA button colored with the same target-chain shade. The sheet watches `<html>` for `.dark` class changes via MutationObserver and swaps between `targetColorLight` and `targetColorDark` reactively when the user toggles the theme.
 - **Jump**: tapping "Read {label} Ch N →" does a hard `window.location.href = '/{targetTl}?chapter={n}'` navigation (same anti-iOS-stuck-scroll pattern used by the navigator). On the target page, `NarrativeReader` runs a mount-time effect that reads `?chapter=N` from `window.location.search` and calls `setOpenChapter(n)`, which triggers the chapter-accordion's open effect (scroll to y=0). The browser back button returns to the source TL with its original scroll state intact.
 - **Auto-expand only applies to user-tap expands too**: the expand scroll effect in `chapter-accordion.tsx` has one unified path — `window.scrollTo({top: 0})` — whether the chapter was opened programmatically from a cross-link nav or by a user tap.
-- **Current curation state**: only `content/.cross-links-ancient-china.json` exists, with 2 proof-of-concept links in Chapter 3 ("Mesopotamia" → mesopotamia Ch 3 "The First City: Uruk", "Indus Valley cotton" → indus-valley Ch 2 "The Deep Roots"). The backward cross-civ audit pass that inserted parenthetical cross-refs into `mesopotamia-rewrite.md` and `indus-valley.md` still uses plain prose — those refs have not been converted to data-driven cross-links yet. Raw grep density across the three shipped narratives: Indus → Meso is the heaviest edge (~45 mentions), Indus ↔ China the thinnest (~6), Meso ↔ China roughly balanced (~11 each way).
+- **Current curation state (post 2026-04-15 structural audit)**: all 5 shipped TLs have cross-link files with a combined **137 cross-links**. Per-TL totals: Meso 34, Indus 37, Ancient China 22, Ancient Nubia 20, Elamite Civilization 24. The 2026-04-15 audit filled the biggest structural gaps: Meso→Indus (+4 trade-era links in Ch 4/5/6), Indus→Elam (+4 Meluhha/Susa/Shimashki links), China↔Elam (+3 covering the previously-zero gap via Silk Road + Anshan-rooted Achaemenids), Nubia↔Elam (+3 via Achaemenid satrapies ↔ Viceroy of Kush). See `audits/mesopotamia-backward-factcheck.md` and `audits/indus-valley-backward-factcheck.md` for the methodology and `project_cross_links.md` memory for the raw matrix. Adding a new TL should run the same structural audit against all 5 shipped TLs to identify where the new TL belongs in the matrix.
 
 ## Link pipeline (event links + glossary links)
 
@@ -252,3 +252,72 @@ Both workflows require `npm run parse` + dev-server restart afterward for change
 
 ## Narrative authorship
 - **Claude always writes narratives.** The user never hand-writes prose; they review and direct. Before starting a new TL, always (1) pull v1 reference data, (2) review the event list for coverage gaps (some v1 TLs are thin because they never got a narrative-driven overhaul), (3) propose additions up front and expand the reference data before writing begins. Rules captured in `CLAUDE.md` Pipeline step 1 and `WRITING-RULES.md`.
+
+## Offline reading (per-TL download)
+
+### The feature
+Users can download any of the 5 shipped TLs for offline reading by tapping a cloud icon in the navigator header, which opens a bottom-sheet library listing all `hasContent` TLs with per-row download controls. Tapping a row kicks off a download that fetches the page HTML + every chapter map + every event/glossary thumbnail into a named cache. Total per-TL footprint: ~15–20 MB. Tapping a downloaded row again wipes that cache. When the browser is offline, previously-downloaded TLs open from cache; un-downloaded TLs show the library sheet instead of a broken page.
+
+### Per-TL manifest generation
+- `scripts/parse-narratives.ts` now emits `public/offline/{tlId}.manifest.json` for every shipped TL during every parse run.
+- Shape: `{ tlId, label, pageUrl, maps: string[], thumbnails: string[], urls: string[] }` where `urls = [pageUrl, ...maps, ...thumbnails]` is the flat list the SW iterates.
+- `maps` only includes WebPs that actually exist on disk (checked with `existsSync`), so a TL without maps emits a valid manifest with an empty maps array.
+- `thumbnails` is a deduped set of `event.thumbnailUrl` + `glossary.thumbnailUrl` values after enrichment. Typical size: 160–265 thumbnails per TL.
+- `public/offline/` is gitignored — the manifests are regenerated on every parse.
+
+### Service worker (`public/sw.js`)
+Hand-rolled, no Workbox. Two cache kinds:
+
+- `offline-shell-v2` — runtime cache for navigator + shared `_next/*` chunks. Populated opportunistically by the fetch handler as the user browses. Clean-up on activate removes any older-versioned shell caches (`offline-shell-v1`, etc.).
+- `offline-tl-{tlId}-v1` — per-TL cache, populated explicitly by message from the client during the download flow.
+
+Fetch strategy:
+
+- **Navigation requests** (HTML pages) → **network-first**. The SW tries `fetch(req)` first, and only falls back to cache on failure. This is the only strategy that lets a constantly-updated static site show new deploys to returning users — the original cache-first version stuck users on old HTML indefinitely. On failure, the fallback tries `matchWithSlashVariants(req)` (see below), then the home page from cache, then an HTML offline fallback with a 2-second meta-refresh back to `/`.
+- **Non-navigation** requests (CSS, JS, images, maps, thumbnails) → **cache-first**. These are hash-keyed (JS/CSS) or stable (content) and can be served from cache without freshness concerns.
+
+`matchWithSlashVariants(req)` exists because Next.js static export with `trailingSlash: true` stores page URLs as `/mesopotamia/` but the navigator navigates to `/mesopotamia` (no slash) via `window.location.href`. Cloudflare resolves the difference online via its static-assets layer. Offline, the SW has to try both forms. The helper does three passes: exact `caches.match(req)`, toggled-slash Request, and finally a manual iteration of every cache looking for either variant. **And** the download loop caches every same-origin URL under both slash variants (cache.put with the original URL plus a second cache.put with the toggled URL) so exact matches always hit regardless of which form the browser uses.
+
+Opaque cross-origin thumbnails: the download loop uses `{ mode: isCrossOrigin ? 'no-cors' : 'same-origin' }`. Cross-origin Wikimedia thumbnails produce opaque responses (`res.type === 'opaque'`, `res.status === 0`) that cache.put accepts and `<img>` elements render back from cache without needing `crossOrigin="anonymous"` on the img tag.
+
+Dev-mode bypass: the SW checks `self.location.hostname === 'localhost' || '127.0.0.1'` at load time and sets `IS_DEV_HOST`. When true, the fetch handler returns early without intercepting any request, so Next.js HMR and dev-server chunks are never runtime-cached or intercepted. The message handler still runs, so `downloadTl` / `deleteTl` / `check-tl` work in dev — you can test the download flow locally without breaking HMR, you just can't test "actually offline reading" in dev because the fetch handler is a no-op there.
+
+Install + activate: `install` calls `skipWaiting` + precaches `/` (with a silent .catch so a dev 404 on root won't fail the install). `activate` calls `clients.claim` and cleans up any older-versioned shell caches. Bumping `SHELL_CACHE` forces a clean-slate on the next activation without touching per-TL caches.
+
+### Client library (`src/lib/offline.ts`)
+Module-level state store pattern using `useSyncExternalStore`. Exports:
+
+- `registerServiceWorker()` — mount-once registration called from `<OfflineRegistrar />` in `app/layout.tsx`.
+- `downloadTl(tlId)` — fetches `/offline/{tlId}.manifest.json`, sets progress state, posts `download-tl` message to SW.
+- `deleteTl(tlId)` — posts `delete-tl` message.
+- `useOfflineStatus(tlId)` — per-TL progress hook.
+- `useAllOfflineStatus()` — full map of every TL's status, for components that render many rows.
+
+Terminal states (`downloaded`, `error`) are mirrored to `localStorage['offline:{tlId}']` so cold-start renders the right icon before the SW has a chance to reply. On SW registration, a `list-downloaded` message syncs the canonical state from the SW and drift-corrects anything that disagrees.
+
+### UI: header button + library sheet
+- The navigator header has a small cloud button next to the `v1 ↗` pill. Tap → opens `OfflineLibrarySheet`.
+- `OfflineLibrarySheet` is a bottom-sheet modal (80svh max-height, tap backdrop or × to close, Escape key also closes). Lists every `hasContent` TL with its label + subtitle + a per-row cloud status control. Visual states: outline cloud + down arrow (none), pulsing cloud + done/total + percent (downloading), filled cloud + check mark (downloaded), cloud with × (error). Tap a row to download or delete.
+- The sheet itself shows live progress: percent + `{done} / {total}` for the currently downloading TL. Progress updates broadcast on every one of the first 10 items (so the UI moves off 0% immediately), then every 5, then on the final item.
+
+### Client-side offline tap guard
+`tl-flow.tsx` reads `useAllOfflineStatus()` and mirrors it into a ref so the layout-effect tap-handler closures read current values without the heavy effect re-running on every progress tick. Before `window.location.href = '/{tlId}'`, the handler calls a new `navigateToTl(tlId)` helper that checks:
+
+1. `navigator.onLine === false` (browser reports offline)
+2. The TL's status is not `'downloaded'`
+
+If both are true, it calls the `onOfflineBlocked` callback (passed from `TlNavigator`, which opens `OfflineLibrarySheet`). Otherwise it navigates normally.
+
+This guard was added after real-offline testing revealed that iOS Safari appears to short-circuit navigations to URLs it thinks won't work offline, silently dropping the tap before the SW can serve a fallback page. The client-side check dodges the issue entirely by preventing the navigation and showing the library instead.
+
+### Known tripwires (as of 2026-04-15)
+- **Test offline on real production, not localhost.** Loopback is always reachable even with wifi off. Airplane mode on iOS leaves wifi on if you manually re-enabled it; Control Center shows the wifi icon state. Real test = airplane mode ON + wifi explicitly OFF + tap production URL in Safari.
+- **First reload after a deploy still runs the old SW.** The browser fetches the new `sw.js` on any navigation, but the currently-controlling SW is the old one until activate fires. With `skipWaiting` + `clients.claim` the new SW takes over quickly, but users typically need two reloads before the new code is definitely running.
+- **Cache-busting is per-cache-name, not per-file.** The `offline-shell-v2` bump wipes the old shell cache but leaves `offline-tl-{tlId}-v1` untouched. If a shipped narrative is corrected and you want users' downloaded copies to update, you either need to bump the per-TL suffix (wipes all downloads, bad UX) or wait for users to manually delete + re-download.
+- **Runtime shell cache is lenient.** Users get offline content "for free" for any page they visited online before going offline, even without tapping download. The client-side offline guard only looks at explicit downloads, so runtime-cached pages still navigate through. This is a feature, not a bug — more content offline is strictly better than less.
+
+## Summary text selection fix
+- The sticky chapter header in `chapter-accordion.tsx` used to wrap the clickable expand handler around the entire panel, including the summary bullets and Read button, and carried `select-none`. That meant tapping anywhere inside a bullet collapsed/expanded the chapter and you couldn't drag-select a quote.
+- The structure is now: sticky outer container → **clickable header row** (number badge + title + date + chevron, `select-none` + pointer handlers) → **non-clickable preview area** (bullets + Read Chapter button, default text selection, no pointer handler). Visual layout preserved via `pl-10` on the preview container to match the number-badge indentation.
+- The Read Chapter button sits outside the click zone, so it no longer needs `stopPropagation` on its onClick.
+- Event/glossary/cross-link anchors inside bullets still work — their click events bubble up to the narrative-reader-level click delegation as before.
