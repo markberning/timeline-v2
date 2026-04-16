@@ -18,11 +18,9 @@ interface ChapterAccordionProps {
 
 export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, onExpand, onCollapse, onReadNext }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
-  // null = probing; true = map exists; false = 404. Only render the map
-  // slot when true, so civs without maps never reserve empty space that
-  // later collapses and throws off the chapter open scroll position.
   const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
+  const [summaryOpen, setSummaryOpen] = useState(false)
   // Measured page-nav height used for sticky header top + scroll offset.
   const [navHeight, setNavHeight] = useState(48)
   const headerRef = useRef<HTMLDivElement>(null)
@@ -58,6 +56,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   }
 
   function expand() {
+    setSummaryOpen(false)
     onExpand()
   }
 
@@ -165,10 +164,29 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           </div>
         </div>
 
-        {/* Non-clickable preview content — outside the pointer zone so text is selectable. */}
+        {/* Collapsed state — summary toggle + read button */}
         {!open && (
           <div className="pb-5 pl-10">
-            {chapter.summaryBullets && chapter.summaryBullets.length > 0 ? (
+            {!summaryOpen && (
+              <div className="mt-2 flex gap-2">
+                {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
+                  <button
+                    onClick={() => setSummaryOpen(true)}
+                    className="flex-1 py-2.5 text-sm font-medium rounded-lg border hover:bg-foreground/5 transition-colors text-foreground/60 border-foreground/20"
+                  >
+                    Summary
+                  </button>
+                )}
+                <button
+                  onClick={onExpand}
+                  className="flex-1 py-2.5 text-sm font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
+                  style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                >
+                  Read Chapter {chapter.number} →
+                </button>
+              </div>
+            )}
+            {summaryOpen && chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
               <>
                 <ul className="mt-1 space-y-2 list-disc list-outside pl-5 text-[0.95em]">
                   {chapter.summaryBullets.map((html, i) => (
@@ -179,40 +197,21 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                     />
                   ))}
                 </ul>
-                <button
-                  onClick={onExpand}
-                  className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                  style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
-                >
-                  Read Chapter {chapter.number} →
-                </button>
-              </>
-            ) : (
-              <>
-                {chapter.summary && (
-                  <p className="text-foreground mt-1">{chapter.summary}</p>
-                )}
-                {chapterEvents.length > 0 && (
-                  <div className="mt-3 flex flex-wrap gap-1.5">
-                    {chapterEvents.map(ev => (
-                      <span
-                        key={ev.id}
-                        className="event-link event-chip text-[0.7em] px-2 py-0.5 rounded-full border"
-                        data-event-id={ev.id}
-                        data-category={ev.category}
-                      >
-                        {ev.label}
-                      </span>
-                    ))}
-                  </div>
-                )}
-                <button
-                  onClick={onExpand}
-                  className="mt-5 w-full py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
-                  style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
-                >
-                  Read Chapter {chapter.number} →
-                </button>
+                <div className="mt-4 flex gap-2">
+                  <button
+                    onClick={() => setSummaryOpen(false)}
+                    className="shrink-0 w-11 h-11 flex items-center justify-center rounded-lg text-foreground/50 hover:text-foreground/80 hover:bg-foreground/5 transition-colors text-2xl"
+                  >
+                    ×
+                  </button>
+                  <button
+                    onClick={onExpand}
+                    className="flex-1 py-3 text-base font-semibold rounded-lg border-2 hover:bg-foreground/5 transition-colors"
+                    style={{ color: 'var(--accent-text)', borderColor: 'var(--accent-text)' }}
+                  >
+                    Read Chapter {chapter.number} →
+                  </button>
+                </div>
               </>
             )}
           </div>
