@@ -52,7 +52,7 @@
     },
     {
       "eventId": "evt-ede-cities-of-dead",
-      "matchText": "cemetery"
+      "matchText": "dedicated burial ground"
     },
     {
       "eventId": "evt-ede-maadi-culture",
@@ -81,10 +81,6 @@
       "matchText": "Tomb 100"
     },
     {
-      "eventId": "evt-ede-naqada-ii",
-      "matchText": "Naqada II phase"
-    },
-    {
       "eventId": "evt-ede-predynastic-faience",
       "matchText": "Faience"
     },
@@ -103,10 +99,6 @@
     {
       "eventId": "evt-ede-predynastic-goldwork",
       "matchText": "alluvial gold"
-    },
-    {
-      "eventId": "evt-ede-horus-falcon-worship",
-      "matchText": "falcon god"
     }
   ],
   "4": [
@@ -136,11 +128,7 @@
     },
     {
       "eventId": "evt-ede-upper-lower-conflict",
-      "matchText": "two powers fought"
-    },
-    {
-      "eventId": "evt-ede-this-nekhen-wars",
-      "matchText": "Wars of Unification"
+      "matchText": "conquest of Lower Egypt"
     },
     {
       "eventId": "evt-ede-nubian-trade",
@@ -208,7 +196,7 @@
     },
     {
       "eventId": "evt-ede-nome-system",
-      "matchText": "42 administrative units called nomes"
+      "matchText": "nome system became a working administrative framework"
     },
     {
       "eventId": "evt-ede-anedjib-semerkhet",
@@ -220,7 +208,7 @@
     },
     {
       "eventId": "evt-ede-saqqara-mastabas",
-      "matchText": "Saqqara"
+      "matchText": "North Saqqara"
     },
     {
       "eventId": "evt-ede-byblos-trade",
@@ -228,7 +216,7 @@
     },
     {
       "eventId": "evt-ede-sinai-turquoise",
-      "matchText": "turquoise and copper mines in Sinai"
+      "matchText": "turquoise and copper mines"
     }
   ],
   "7": [
