@@ -1,13 +1,13 @@
 {
   "1": [
     {
-      "matchText": "Hassuna and Samarra and Halaf cultures",
+      "matchText": "Hassuna",
       "targetTl": "mesopotamia",
       "targetChapter": 1,
       "blurb": "The same Neolithic farming package that reached Egypt — emmer wheat, barley, sheep, goats — was assembling the first villages of northern Mesopotamia at the same time. The Hassuna, Samarra, and Halaf cultures were the Mesopotamian equivalents of Egypt's Fayum A and Merimde: small farming communities learning to store surplus, build permanent houses, and make pottery, all drawing from the same domestication zone in southeastern Turkey."
     },
     {
-      "matchText": "Ubaid culture of the south",
+      "matchText": "Ubaid",
       "targetTl": "mesopotamia",
       "targetChapter": 1,
       "blurb": "The Ubaid was the immediate ancestor of Sumerian civilization — the culture that built the first irrigation canals on the alluvial plain of southern Iraq and founded the temple-centered communities at Eridu and Ur that would eventually produce the world's first cities. While Egypt's Fayum A farmers were digging grain pits, the Ubaid was laying the groundwork for Uruk."
@@ -41,19 +41,19 @@
   ],
   "3": [
     {
-      "matchText": "Uruk in southern Mesopotamia",
+      "matchText": "Uruk",
       "targetTl": "mesopotamia",
       "targetChapter": 2,
       "blurb": "By 3300 BCE Uruk was a city of roughly 40,000 people — the largest human settlement in the world — with monumental temple architecture, the first proto-cuneiform tablets, and a 'colonial' trading network stretching from the Persian Gulf to Syria. Egypt's Naqada II elites were importing Mesopotamian cylinder seals and niched-facade architectural ideas from this same Uruk expansion, the first indirect contact between the two great river-valley civilizations."
-    },
+    }
+  ],
+  "4": [
     {
       "matchText": "Gebel el-Arak knife",
       "targetTl": "mesopotamia",
       "targetChapter": 2,
       "blurb": "The ivory hilt of this Egyptian flint knife depicts a 'master of animals' figure — a bearded man holding two rampant lions — that is a classic Mesopotamian motif from Uruk-period seal carvings. It is the single most dramatic piece of evidence for direct Mesopotamian artistic influence on predynastic Egypt, and it shows that by the late Naqada II period, Egyptian craftsmen had seen and were deliberately quoting Sumerian visual conventions."
-    }
-  ],
-  "4": [
+    },
     {
       "matchText": "proto-cuneiform tablets were being inscribed in Uruk",
       "targetTl": "mesopotamia",
@@ -87,23 +87,17 @@
       "targetTl": "mesopotamia",
       "targetChapter": 3,
       "blurb": "While Egypt's First Dynasty was building a centralized bureaucratic state under a single king, the Sumerian city-states were doing the opposite — consolidating as independent kingdoms that would spend the next several centuries fighting each other for regional dominance. The contrast between Egypt's top-down unity and Mesopotamia's competitive fragmentation is one of the defining structural differences between the two civilizations."
-    },
-    {
-      "matchText": "Indus Valley Ch 2",
-      "targetTl": "indus-valley",
-      "targetChapter": 2,
-      "blurb": "While Egypt's First Dynasty kings were building the pharaonic system around 3000 BCE, the Indus Valley was in its early transition from farming villages to the first planned urban centers. Harappa and Mohenjo-daro were not yet cities, but the standardized pottery, expanding settlements, and early brick-and-drainage experiments were laying the groundwork for the mature Indus civilization that would emerge a few centuries later."
     }
   ],
   "7": [
     {
-      "matchText": "Kish and Uruk and Ur",
+      "matchText": "Kish",
       "targetTl": "mesopotamia",
       "targetChapter": 4,
       "blurb": "Egypt's Second Dynasty Horus-Seth schism was happening at the same time as the Sumerian inter-city wars — Kish vs. Uruk vs. Ur — that defined Early Dynastic Mesopotamia. Both civilizations were going through the messy, violent process of working out what political authority looked like in a state-level society, and both were doing it with a mix of military force and religious legitimation."
     },
     {
-      "matchText": "Harappa and Mohenjo-daro",
+      "matchText": "Harappa",
       "targetTl": "indus-valley",
       "targetChapter": 3,
       "blurb": "While Egypt was tearing itself apart over Horus and Seth, the Indus Valley was entering its mature urban phase — Harappa and Mohenjo-daro were now fully planned cities with grid streets, fired-brick buildings, standardized weights, and the most sophisticated urban drainage system in the ancient world. The Indus approach to urbanism could not have been more different from Egypt's: no palaces, no royal tombs, no obvious kings."
@@ -123,28 +117,22 @@
       "blurb": "When Khasekhemwy dies around 2686 BCE, the Royal Tombs of Ur — with their gold treasures, lapis lazuli, and retainer sacrifices — are still a few centuries in the future. The Ur death pits would be the Mesopotamian equivalent of the Abydos subsidiary burials, at larger scale and with more gold, but by the time Ur was burying Queen Puabi with her 74 attendants, Egypt had already abandoned retainer sacrifice entirely and moved to symbolic figurine substitutes."
     },
     {
-      "matchText": "Indus Valley civilization is entering its mature urban phase",
+      "matchText": "Indus Valley",
       "targetTl": "indus-valley",
       "targetChapter": 3,
       "blurb": "At the moment Egypt's Early Dynastic period ends, the Indus Valley's great cities are hitting their stride — Harappa and Mohenjo-daro are fully planned, the standardized weights and seals are in use, and the long-distance maritime trade with Mesopotamia is running. The two civilizations took radically different approaches to the same problem: Egypt built a divine monarchy; the Indus built a decentralized urban network with no visible kings at all."
     },
     {
-      "matchText": "Caral on the coast of Peru",
+      "matchText": "Caral",
       "targetTl": "early-andean-civilizations",
       "targetChapter": 3,
       "blurb": "Caral, in the Supe Valley of coastal Peru, is an exact contemporary of Khasekhemwy — a monumental center with sunken circular plazas and platform mounds, built by a cotton-and-anchovy economy that had no pottery, no writing, and no evidence of warfare. The two civilizations were solving the same organizational problems at the same time, on opposite sides of the planet, with completely different tools."
     },
     {
-      "matchText": "Ancient China is still in its Longshan phase",
+      "matchText": "Longshan",
       "targetTl": "ancient-china",
       "targetChapter": 7,
       "blurb": "When Khasekhemwy dies around 2686 BCE, China is in the late Longshan period — a century or two away from the legendary Xia dynasty and the first historical Shang. The Chinese were building walled towns, producing exquisite wheel-turned pottery, and generating the kind of inter-community competition that would soon produce the first Chinese states, but they had not yet crossed the threshold into bronze-working or palace-building urbanism."
-    },
-    {
-      "matchText": "Kerma kingdom",
-      "targetTl": "ancient-nubia",
-      "targetChapter": 2,
-      "blurb": "By 2686 BCE, the predecessors of the Kerma kingdom in Upper Nubia were just beginning to consolidate along the upper Nile — building the cattle-herding, tumulus-burying culture that would eventually produce Africa's first indigenous city-state south of Egypt. Kerma and Egypt would spend the next millennium as trading partners and intermittent enemies, with the relationship growing more violent as Egyptian ambitions pushed south."
     }
   ]
 }
