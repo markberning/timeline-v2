@@ -188,7 +188,15 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
             )}
             {summaryOpen && chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
               <>
-                <ul className="mt-1 space-y-2 list-disc list-outside pl-5 text-[0.95em]">
+                <div className="mt-2 flex justify-end">
+                  <button
+                    onClick={() => setSummaryOpen(false)}
+                    className="w-8 h-8 flex items-center justify-center rounded-full text-foreground/50 hover:text-foreground/80 hover:bg-foreground/5 transition-colors text-xl"
+                  >
+                    ×
+                  </button>
+                </div>
+                <ul className="space-y-2 list-disc list-outside pl-5 text-[0.95em]">
                   {chapter.summaryBullets.map((html, i) => (
                     <li
                       key={i}
