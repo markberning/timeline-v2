@@ -42,7 +42,7 @@ The chapter title "Chapter 4: Jade and the Pig-Dragon" should appear at the top 
 **One annotation:**
 A single shaded region across the Liao River basin labeled "Hongshan Culture, ~4500–3000 BCE — jade pig-dragons, ancestor shrines, ritual altars"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 

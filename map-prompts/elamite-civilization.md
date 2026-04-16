@@ -56,7 +56,7 @@ The chapter title "Chapter 1: Two Elams" should appear at the top of the map, ce
 **One annotation:**
 A double-headed arrow connecting Susa and Anshan across the Zagros ridges, labeled "Two Elams — one civilization, two connected halves, ~3200–500 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -93,7 +93,7 @@ The chapter title "Chapter 2: Naram-Sin's Stone" should appear at the top of the
 **One annotation:**
 A red dashed arrow from Akkad east across the Tigris to Susa, labeled "Sargon c. 2300 BCE, Naram-Sin c. 2240 BCE — two Akkadian campaigns against Elam". A smaller dot at the Louvre position (not shown — this is a content label) indicating "Elamite-Akkadian Treaty, 2250 BCE — oldest surviving treaty in world history"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -130,7 +130,7 @@ The chapter title "Chapter 3: Ur Falls" should appear at the top of the map, cen
 - A red solid arrow from the Elamite border west across the Tigris to Ur, labeled "Kindattu's campaign, 2004 BCE — end of Sumerian political history"
 - A secondary dashed arrow from Uruk east to Susa, labeled "Cult statue of Nanaya looted — held at Susa for 1,600 years"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -167,7 +167,7 @@ The chapter title "Chapter 4: Grand Regents" should appear at the top of the map
 - Lines or subtle diplomatic arrows radiating out from Susa to Mari and Babylon, labeled "Siwe-palar-hupak c. 1770 BCE — Elam at the diplomatic center of the Near East, addressed as 'father' by Zimri-Lim and Hammurabi"
 - A secondary note: "Mari letters — 25,000 tablets excavated from Zimri-Lim's burned palace"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -205,7 +205,7 @@ The chapter title "Chapter 5: The Ziggurat Generation" should appear at the top 
 **One annotation:**
 A highlighted zone around Dur-Untash/Chogha Zanbil labeled "Dur-Untash, c. 1250 BCE — Untash-Napirisha's sacred city with the largest surviving ziggurat in the world". A small note elsewhere: "Napir-Asu bronze statue — 3,760 lb (1,750 kg) cast in a single piece"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -239,7 +239,7 @@ The chapter title "Chapter 6: Sack of Babylon" should appear at the top of the m
 - A bold red arrow from Susa west across the Tigris to Babylon, labeled "Shutruk-Nahhunte, 1158 BCE — sack of Babylon, looting of the Code of Hammurabi and Victory Stele of Naram-Sin"
 - A blue return arrow from Babylon east to Susa a few decades later, labeled "Nebuchadnezzar I c. 1110 BCE — recovery of the Marduk statue"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -274,7 +274,7 @@ The chapter title "Chapter 7: Til-Tuba" should appear at the top of the map, cen
 - A red arrow from Nineveh south to Til-Tuba, labeled "Battle of Til-Tuba, 653 BCE — Te-Umman killed, his head carried back to Nineveh"
 - A second arrow from Nineveh southeast to Susa, labeled "Sack of Susa, 646 BCE — royal tombs opened, bones of Elamite kings carried to Assyria"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -310,4 +310,4 @@ The chapter title "Chapter 8: The Persian Echo" should appear at the top of the 
 - A shaded zone covering the full Achaemenid footprint, labeled "Achaemenid Persian Empire — administered in Elamite cuneiform, ~509 BCE onward"
 - A small highlight at Persepolis labeled "Persepolis Fortification Archive — 30,000 clay tablets in Elamite" and at Behistun labeled "Behistun Inscription — Old Persian, Babylonian, Elamite carved side by side"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous chapter maps exactly.

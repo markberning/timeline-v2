@@ -58,7 +58,7 @@ The chapter title "Chapter 1: The Vertical World" should appear at the top of th
 **One annotation:**
 - Altitude labels along the cross-section or margin: "Coast: 0–1,500 ft", "Highlands: 6,000–13,000 ft", "Puna: 13,000–16,000 ft"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -86,7 +86,7 @@ The chapter title "Chapter 2: First Temples on the Coast" should appear at the t
 - Chicama Valley
 - Supe Valley
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -114,7 +114,7 @@ The chapter title "Chapter 3: Caral — City Without War" should appear at the t
 **One annotation:**
 - A double-headed arrow between Caral and Aspero: "Cotton-for-fish exchange: cotton flows downriver, dried anchovy flows upriver"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -142,7 +142,7 @@ The chapter title "Chapter 4: After Caral — The Initial Period" should appear 
 - Andes Highlands
 - Ecuador (edge, with arrow: "pottery and spondylus arrive from the north")
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -173,7 +173,7 @@ The chapter title "Chapter 5: U-Shaped Worlds" should appear at the top of the m
 **One annotation:**
 - Small U-shape diagram icon: "U-shaped centers: central mound + 2 wings, open end facing east toward the Andes"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -203,7 +203,7 @@ The chapter title "Chapter 6: Chavín de Huántar" should appear at the top of t
 **One annotation:**
 - Dotted lines from coast and from highlands converging at Chavin: "Pilgrims from coast and highlands converge at the oracle"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -234,7 +234,7 @@ The chapter title "Chapter 7: The Chavín Horizon" should appear at the top of t
 **One annotation:**
 - A shaded zone covering most of Peru: "Chavín Horizon — single art style shared across an area the size of California, ~600–200 BCE"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -263,4 +263,4 @@ The chapter title "Chapter 8: Paracas and the Horizon's End" should appear at th
 **One annotation:**
 - A faded zone along the south coast: "Paracas culture — stem-stitch embroidery, trepanation, cranial modification, desert lines"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.

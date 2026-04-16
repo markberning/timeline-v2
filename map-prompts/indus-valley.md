@@ -27,7 +27,7 @@ Create a simple, clean map for Chapter 2 of a mobile reading app about the Indus
 **One annotation:**
 A shaded area along the Balochistan foothills and western Indus margins showing the zone where early farming communities spread between 7000 and 3500 BCE, labeled "Early Farming Zone"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -58,7 +58,7 @@ Create a simple, clean map for Chapter 4 of a mobile reading app about the Indus
 **One annotation:**
 A large shaded area covering the full extent of the Mature Harappan civilization (~930 miles east-west, ~810 miles north-south), labeled "Mature Harappan Civilization, ~2600-1900 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -90,7 +90,7 @@ Create a simple, clean map for Chapter 5 of a mobile reading app about the Indus
 **One annotation:**
 Dotted lines or subtle connectors between the five cities showing them as anchor points of a single urban network, labeled "Five Anchor Cities of the Harappan Network"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -120,7 +120,7 @@ Create a simple, clean map for Chapter 6 of a mobile reading app about the Indus
 **One annotation:**
 A shaded area across the full Harappan footprint labeled "Civilization-wide standards maintained for 700 years — no named ruler"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -152,7 +152,7 @@ Create a simple, clean map for Chapter 7 of a mobile reading app about the Indus
 **One annotation:**
 A maritime trade route line along the coast from Lothal through Magan to Dilmun to Ur, labeled "Harappan Maritime Trade Route (~1,550 miles)"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -182,7 +182,7 @@ Create a simple, clean map for Chapter 8 of a mobile reading app about the Indus
 **One annotation:**
 A shaded area across the Harappan footprint labeled "Mother goddess figurines found at virtually every Harappan site"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -212,7 +212,7 @@ Create a simple, clean map for Chapter 9 of a mobile reading app about the Indus
 **One annotation:**
 A large arrow or shaded migration path from the western Indus heartland eastward toward the Ganges-Yamuna doab, Gujarat coast, and Himalayan foothills, labeled "Eastward Migration, ~1900-1600 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -242,4 +242,4 @@ Create a simple, clean map for Chapter 10 of a mobile reading app about the Indu
 **One annotation:**
 An arrow showing the Indo-Aryan migration route from the Eurasian steppe through the Hindu Kush passes into the Punjab, labeled "Indo-Aryan Migration, ~1500 BCE onward"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.

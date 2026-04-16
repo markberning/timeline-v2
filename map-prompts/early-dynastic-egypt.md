@@ -61,7 +61,7 @@ The chapter title "Chapter 1: The Green Sahara and the Refugees" should appear a
 **One annotation:**
 - A faded arrow or flow indicator from the Sahara toward the Nile, labeled: "Saharan refugees migrate east as the desert dries, ~5500–4000 BCE"
 
-**Style:** Landscape orientation, phone screen, match Ancient Nubia / Indus Valley map style.
+**Style:** Landscape orientation, match Ancient Nubia / Indus Valley map style.
 
 ---
 
@@ -90,7 +90,7 @@ The chapter title "Chapter 2: Badarians and the Birth of an Egyptian Look" shoul
 - Western Desert
 - Mediterranean Sea
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -122,7 +122,7 @@ The chapter title "Chapter 3: Naqada I and II — Upper Egypt Pulls Ahead" shoul
 **One annotation:**
 - A subtle shaded zone along Upper Egypt labeled: "Naqada cultural zone — Upper Egypt pulls ahead of the Delta, 3800–3300 BCE"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -154,7 +154,7 @@ The chapter title "Chapter 4: Naqada III — Writing, Kings, and the Road to Uni
 **One annotation:**
 - A dashed line from the Levant toward Abydos: "700 Levantine wine jars buried with Scorpion I at Tomb U-j"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -185,7 +185,7 @@ The chapter title "Chapter 5: Narmer Unifies Egypt" should appear at the top of 
 - Arrow from Upper Egypt northward: "Upper Egyptian conquest of the Delta under Narmer, ~3100 BCE"
 - A shaded zone covering the full Nile from Mediterranean to Aswan: "Unified Egypt — Two Lands under one king"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -216,7 +216,7 @@ The chapter title "Chapter 6: The First Dynasty" should appear at the top of the
 - Mediterranean Sea
 - Nubia (edge, south)
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -246,7 +246,7 @@ The chapter title "Chapter 7: The Second Dynasty Crisis" should appear at the to
 - Arrow from Abydos to Saqqara: "Hetepsekhemwy moves royal cemetery to Saqqara, ~2890 BCE"
 - A highlight at Abydos: "Peribsen's Seth-name serekh — the only king to replace Horus with Seth"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -276,4 +276,4 @@ The chapter title "Chapter 8: Khasekhemwy and the Eve of the Pyramid Age" should
 **One annotation:**
 - A dashed line from Abydos to Saqqara: "Khasekhemwy → Nimaathap → Djoser: the dynastic bridge from mudbrick to the Pyramid Age"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.

@@ -65,7 +65,7 @@ The chapter title "Chapter 1: Independence and the Napatan Rise" should appear a
 - A shaded zone around Jebel Barkal and El-Kurru: "Napatan heartland — Amun worship maintained after Egypt's withdrawal"
 - A dashed arrow from Jebel Barkal north to Thebes: "Kashta's daughter Amenirdis I installed as God's Wife of Amun, ~760 BCE — theological infiltration, not invasion"
 
-**Style:** Landscape orientation, phone screen, match the Ancient Nubia / Elamite Civilization map style.
+**Style:** Landscape orientation, match the Ancient Nubia / Elamite Civilization map style.
 
 ---
 
@@ -102,7 +102,7 @@ The chapter title "Chapter 2: Piye Conquers Egypt" should appear at the top of t
 - A bold arrow from Jebel Barkal north through Hermopolis and Memphis to the delta: "Piye's campaign — 800+ miles up the Nile, ~728 BCE"
 - A return arrow from the delta south to Jebel Barkal: "And then he went home — Victory Stela erected at Jebel Barkal, not in Egypt"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -140,7 +140,7 @@ The chapter title "Chapter 3: The Black Pharaohs — 25th Dynasty" should appear
 - A shaded zone spanning the entire Nile from the Mediterranean to the Fifth Cataract: "25th Dynasty — ~1,500 miles of Nile, New York to Denver, under one king"
 - A highlight at Nuri: "Nuri necropolis — 20+ royal pyramids built here over three centuries"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -178,7 +178,7 @@ The chapter title "Chapter 4: The Assyrian Storm" should appear at the top of th
 - A second red arrow from Memphis south to Thebes: "Ashurbanipal, 663 BCE — sack of Thebes, the worst catastrophe in Near Eastern memory"
 - A blue arrow from the delta south to Napata: "Psamtik II, 593 BCE — Egyptian raid reaches Napata, Greek mercenaries leave graffiti at Abu Simbel"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -214,7 +214,7 @@ The chapter title "Chapter 5: The Move to Meroë" should appear at the top of th
 - A dashed arrow from Napata south to Meroë: "Capital shifts south, ~600–270 BCE — iron, wood, and distance from Egyptian raiders"
 - A shaded zone around Meroë on the east bank: "Meroë iron industry — slag heaps visible to this day; 200+ pyramids on ridges east of the city"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -248,7 +248,7 @@ The chapter title "Chapter 6: Iron, Script, and Queens" should appear at the top
 - A highlighted zone east of the Nile between Musawwarat and Naqa: "Apedemak cult centers — lion-headed war god, no Egyptian equivalent, purely Kushite"
 - A label at Meroë: "Meroitic script — we can read the sounds but cannot translate the words"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -286,7 +286,7 @@ The chapter title "Chapter 7: Rome's Southern Frontier" should appear at the top
 - A blue counter-arrow from Aswan south to Napata: "Petronius counter-campaign — reaches Napata, 500 miles south, cannot hold it"
 - A note at Aswan: "Treaty of Samos, ~21 BCE — Rome cancels tribute, withdraws to the First Cataract, Kush keeps its independence"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -323,4 +323,4 @@ The chapter title "Chapter 8: The Long Twilight" should appear at the top of the
 - A faded dashed line along the Nile from Meroë north to Alexandria: "Old trade route — declining, bypassed by the Red Sea"
 - A bold dashed line from Adulis north to Alexandria and east toward India: "New trade route — Aksum's Adulis port captures the Indian Ocean trade, Meroë cut out"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.

@@ -36,7 +36,7 @@ The chapter title "Chapter 1: Before China" should appear at the top of the map,
 **One annotation:**
 A horizontal line dividing the map roughly along the Qinling Mountains (the mountain range that separates north China from south China and marks the climatic divide between millet-farming and rice-farming zones), labeled "Qinling Climatic Divide — millet north, rice south"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -71,7 +71,7 @@ The chapter title "Chapter 2: Two Grains, Two Worlds" should appear at the top o
 - A shaded zone along the Yellow River valley labeled "Millet farming zone — Peiligang / Cishan culture, ~7000 BCE"
 - A shaded zone along the Yangtze delta and lower basin labeled "Rice farming zone — Kuahuqiao / Shangshan, ~7000 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -105,7 +105,7 @@ The chapter title "Chapter 3: The Painted Pottery World" should appear at the to
 - A shaded band across the middle Yellow River region labeled "Yangshao Culture, ~5000–3000 BCE — painted pottery, millet farming, villages"
 - A smaller shaded band across the lower Yangtze labeled "Hemudu Culture, ~5000–3300 BCE — rice farming, early silk, stilt houses"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -134,7 +134,7 @@ The chapter title "Chapter 4: Jade and the Pig-Dragon" should appear at the top 
 **One annotation:**
 A shaded region across the Liao River basin labeled "Hongshan Culture, ~4500–3000 BCE — jade pig-dragons, ancestor shrines, ritual altars"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -165,7 +165,7 @@ The chapter title "Chapter 5: The Liangzhu Miracle" should appear at the top of 
 - A shaded ring around the greater Liangzhu territory labeled "Liangzhu Culture, ~3300–2300 BCE — the first pre-dynastic Chinese city"
 - A smaller hatched zone showing the dam network labeled "100 km² hydraulic flood-control system — the earliest large-scale water management in East Asia"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -200,7 +200,7 @@ The chapter title "Chapter 6: Longshan: Walls, Warlords, and the Yellow Emperor"
 - A network of connecting lines between the walled-town sites, labeled "Longshan walled-town network, ~3000–2000 BCE — warlord states across north China"
 - A small icon at Shimao labeled "Shimao — decapitated foundation skulls"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -233,7 +233,7 @@ The chapter title "Chapter 7: The Flood and the First Dynasty" should appear at 
 **One annotation:**
 A wavy blue band along the Yellow River showing the traditional flood path, with a label: "The Great Flood — Yu's flood-control campaign, traditional date c. 2070 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -265,4 +265,4 @@ The chapter title "Chapter 8: Erlitou: Legend Becomes Archaeology" should appear
 **One annotation:**
 A shaded region around Erlitou labeled "Erlitou, ~1900–1600 BCE — Palace No. 1, earliest bronze casting in Chinese archaeology, probably the historical Xia". A small red arrow from Zhengzhou toward Erlitou labeled "Shang conquest, Battle of Mingtiao, traditional date c. 1600 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.

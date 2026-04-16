@@ -65,7 +65,7 @@ The chapter title "Chapter 1: Cyrus the Great" should appear at the top of the m
 - Three arrows radiating from Anshan/Pasargadae outward — one NW to Ecbatana (~550 BCE), one W to Sardis (546 BCE), one W to Babylon (539 BCE), labeled: "Three conquests in fifteen years"
 - A subtle shaded zone covering the full Achaemenid footprint, labeled: "Largest empire the world had yet seen"
 
-**Style:** Landscape orientation, phone screen, match the Elamite Civilization / Ancient Nubia map style.
+**Style:** Landscape orientation, match the Elamite Civilization / Ancient Nubia map style.
 
 ---
 
@@ -105,7 +105,7 @@ The chapter title "Chapter 2: Darius and the Empire's Machinery" should appear a
 - A dashed line from Sardis to Susa: "Royal Road — 1,600 miles, seven-day courier service"
 - A subtle grid or star pattern radiating from Susa/Persepolis: "~20 satrapies, each with a satrap, a military commander, and 'the King's Eyes and Ears'"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -142,7 +142,7 @@ The chapter title "Chapter 3: The Greek Wars" should appear at the top of the ma
 - A red arrow from Sardis west across the Aegean to Marathon: "Darius's expedition, 490 BCE"
 - A thicker red arrow from the Hellespont south through Thermopylae toward Athens: "Xerxes' invasion, 480 BCE — overland and naval"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -179,7 +179,7 @@ The chapter title "Chapter 4: The Long Afternoon" should appear at the top of th
 - A dashed route from Sardis east to Cunaxa, then north from Cunaxa through Kurdistan to Trapezus on the Black Sea: "Anabasis — 1,500 miles through the heart of the empire, 401 BCE"
 - Shaded zones in Egypt, western Anatolia, and Phoenicia: "Satrapal revolts, Egyptian secession, Phoenician rebellion — the empire frays"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -214,7 +214,7 @@ The chapter title "Chapter 5: Alexander and the End" should appear at the top of
 - A bold route line from the Hellespont east through Issus, Gaugamela, Persepolis, across Afghanistan, to the Hydaspes and back to Babylon: "Alexander's campaign — 20,000 miles in eleven years"
 - A fire/highlight icon at Persepolis: "Persepolis burns, 330 BCE — the fire baked 30,000 Elamite tablets, preserving them"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -251,7 +251,7 @@ The chapter title "Chapter 6: The Parthian Rise" should appear at the top of the
 - A dashed line from China (far right edge) through Merv, through Nisa, to the Euphrates and beyond: "Silk Road — Chinese silk, Indian spices, Roman gold, all through Parthian middlemen"
 - A shaded expansion zone from the original Parthia satrapy outward: "Arsaces I seizes Parthia, ~247 BCE — Mithridates I builds the empire, ~171–138 BCE"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -288,7 +288,7 @@ The chapter title "Chapter 7: Parthia vs. Rome" should appear at the top of the 
 - A thick red contested line along the Euphrates: "The Euphrates frontier — 300 years, neither side could break through"
 - Arrows from the Roman side crossing toward Ctesiphon, with return arrows: "Trajan (116 CE), Septimius Severus (198 CE), Carus (283 CE) — three captures, three retreats"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -324,7 +324,7 @@ The chapter title "Chapter 8: Ardashir and the Sassanid Revolution" should appea
 - An arrow from Istakhr/Fars northward to Ctesiphon: "Ardashir, 224 CE — Fars priest-king overthrows the Arsacids, claims Achaemenid descent"
 - A red arrow from the Sassanid side to Edessa: "Shapur I captures Valerian, 260 CE — the King of Kings above, the Roman emperor on his knees"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -360,7 +360,7 @@ The chapter title "Chapter 9: The Sassanid Golden Age" should appear at the top 
 - A dashed intellectual route from Athens east to Gundishapur: "Greek texts → Gundishapur → Abbasid Baghdad → medieval Europe — the chain that saved classical philosophy"
 - A dashed trade route from China (far right edge) through Iran: "Silk Road — chess from India, silk production breaks the Chinese monopoly"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.
 
 ---
 
@@ -395,4 +395,4 @@ The chapter title "Chapter 10: The Last Persian Empire" should appear at the top
 - A shaded zone covering Egypt, Syria, Palestine, and Anatolia: "Khosrow II's maximum extent, ~614 CE — briefly recreating the Achaemenid footprint"
 - Bold arrows from Arabia north into Mesopotamia, then east through the Zagros to Merv: "Arab Muslim conquest, 636–651 CE — the empire dies, the culture survives"
 
-**Style:** Landscape orientation, phone screen, match series style.
+**Style:** Landscape orientation, match series style.

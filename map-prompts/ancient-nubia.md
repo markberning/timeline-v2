@@ -35,7 +35,7 @@ Create a simple, clean map for Chapter 1 of a mobile reading app about Ancient N
 **One annotation:**
 A shaded band running from just south of Aswan down to roughly the Second Cataract, labeled "A-Group Culture Heartland, ~3800–2800 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -68,7 +68,7 @@ Create a simple, clean map for Chapter 2 of a mobile reading app about Ancient N
 - A red arrow pointing south from Memphis into Lower Nubia, labeled "Old Kingdom raids — Sneferu, c. 2600 BCE"
 - A shaded band in Lower Nubia with the label "Four-century depopulation, ~2800–2400 BCE" and a separate shaded dot at Kerma labeled "Population drifts south"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -101,7 +101,7 @@ Create a simple, clean map for Chapter 3 of a mobile reading app about Ancient N
 **One annotation:**
 A dashed line showing the overland donkey-caravan route from Elephantine south along the west bank of the Nile, bypassing the Second Cataract whitewater, then continuing to Kerma. Label: "Harkhuf's Four Expeditions, c. 2280 BCE — 300-donkey caravans"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -132,7 +132,7 @@ Create a simple, clean map for Chapter 4 of a mobile reading app about Ancient N
 **One annotation:**
 A dotted line along the Nile between Aswan and Semna, with 8–10 small fort icons spaced along it, labeled "Middle Kingdom Fortress Chain — c. 1900–1700 BCE". A small red line across the river at Semna labeled "Semna border stele — no Nubian shall pass"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -164,7 +164,7 @@ Create a simple, clean map for Chapter 5 of a mobile reading app about Ancient N
 **One annotation:**
 A shaded circle around the Kerma region labeled "Kerma Kingdom at peak, ~1750–1600 BCE — population over 10,000, Africa's first urban society outside Egypt". A small arrow from Kerma north to Thebes labeled "Tulip ware exports"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -199,7 +199,7 @@ Create a simple, clean map for Chapter 6 of a mobile reading app about Ancient N
 - A red dashed arrow going south from Avaris toward Kerma, labeled "Intercepted Hyksos letter — 'come north, let's split Egypt'" (showing the courier route)
 - A solid red arrow going south from Thebes past all four cataracts to the Fourth Cataract, labeled "Thutmose I's campaign, c. 1504 BCE — Kerma destroyed"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -240,7 +240,7 @@ Create a simple, clean map for Chapter 7 of a mobile reading app about Ancient N
 **One annotation:**
 A large shaded band covering the Nile valley from the First Cataract south to Jebel Barkal, labeled "Egyptian Province of Nubia — Viceroy of Kush, c. 1500–1150 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -276,4 +276,4 @@ Create a simple, clean map for Chapter 8 of a mobile reading app about Ancient N
 - A fading arrow pointing south from Thebes, going only as far as the First Cataract then dissolving, labeled "Egyptian authority withdraws, c. 1070 BCE — Panehsy last Viceroy"
 - A highlighted circle around Napata / Jebel Barkal, labeled "Future Kingdom of Kush — Amun cult carried south → Next TL"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.

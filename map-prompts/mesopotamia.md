@@ -32,7 +32,7 @@ Create a simple, clean map for Chapter 1 of a mobile reading app about Mesopotam
 **One annotation:**
 A shaded area over the southern floodplain between the rivers labeled "Sumer — the Sumerian heartland (~size of New Jersey)"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -62,7 +62,7 @@ Create a simple, clean map for Chapter 2 of a mobile reading app about Mesopotam
 **One annotation:**
 A trade route line from Badakhshan in Afghanistan across to southern Mesopotamia, labeled "Lapis Lazuli Trade Route (~3,000 km)"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -91,7 +91,7 @@ Create a simple, clean map for Chapter 3 of a mobile reading app about Mesopotam
 **One annotation:**
 A highlighted area around Uruk labeled "Uruk — world's first city, ~3200 BCE (population 40,000-80,000)"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -124,7 +124,7 @@ Create a simple, clean map for Chapter 4 of a mobile reading app about Mesopotam
 **One annotation:**
 A shaded band between Lagash and Umma labeled "Gu-edena — disputed border farmland fought over for generations"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -157,7 +157,7 @@ Create a simple, clean map for Chapter 5 of a mobile reading app about Mesopotam
 **One annotation:**
 A shaded area showing the extent of the Akkadian Empire from the Persian Gulf to the Mediterranean, labeled "Akkadian Empire (~930 miles) — first multi-ethnic empire in history"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -189,7 +189,7 @@ Create a simple, clean map for Chapter 6 of a mobile reading app about Mesopotam
 **One annotation:**
 A shaded area covering the Ur III state across southern Mesopotamia, labeled "Ur III State — the most bureaucratic kingdom in the ancient world"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -222,7 +222,7 @@ Create a simple, clean map for Chapter 7 of a mobile reading app about Mesopotam
 **One annotation:**
 A shaded area showing Hammurabi's unified empire across southern and central Mesopotamia, with Babylon prominently at its center, labeled "Hammurabi's Empire — first unification since Sargon"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -256,7 +256,7 @@ Create a simple, clean map for Chapter 8 of a mobile reading app about Mesopotam
 **One annotation:**
 Lines or subtle connections between the five great powers (Babylon, Hattusa, Amarna/Egypt, Mitanni, Assur) labeled "Bronze Age Great Power System — all diplomatic letters written in Akkadian cuneiform"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -289,7 +289,7 @@ Create a simple, clean map for Chapter 9 of a mobile reading app about Mesopotam
 **One annotation:**
 A shaded area over the Assyrian heartland (the upper Tigris valley around Assur, Nineveh, and Nimrud) labeled "Assyrian Heartland — first military rise"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -323,7 +323,7 @@ Create a simple, clean map for Chapter 10 of a mobile reading app about Mesopota
 **One annotation:**
 A shaded area showing the Neo-Assyrian Empire's reach from the Assyrian heartland westward to Syria and the Levant, labeled "Neo-Assyrian Empire — military terror as state policy"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -358,7 +358,7 @@ Create a simple, clean map for Chapter 11 of a mobile reading app about Mesopota
 **One annotation:**
 A large shaded area showing the full extent of the Neo-Assyrian Empire from the Nile to western Iran, labeled "Neo-Assyrian Empire at its zenith — largest empire the world had yet seen"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -391,7 +391,7 @@ Create a simple, clean map for Chapter 12 of a mobile reading app about Mesopota
 **One annotation:**
 A shaded area showing the Neo-Babylonian Empire centered on Babylon, labeled "Neo-Babylonian Empire — Babylon becomes the most magnificent city in the world"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
 
 ---
 
@@ -424,4 +424,4 @@ Create a simple, clean map for Chapter 13 of a mobile reading app about Mesopota
 **One annotation:**
 A large shaded area showing the Achaemenid Persian Empire stretching from the Mediterranean to the Iranian highlands, with Babylon inside it, labeled "Achaemenid Persian Empire — 3,000 years of Mesopotamian independence ends"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Think Apple Maps meets a history textbook. No clutter. The reader should glance at it for 3 seconds and understand where things are, then go back to reading. Match the style of the previous chapter maps exactly.

@@ -69,7 +69,7 @@ The chapter title "Chapter 1: Two Elams" should appear at the top of the map ima
 **One annotation, appearing exactly once:**
 A double-headed arrow connecting Susa and Anshan across the Zagros ridges, labeled: "Two Elams — one civilization, two connected halves, ~3200–500 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -113,7 +113,7 @@ The chapter title "Chapter 3: Ur Falls" should appear at the top of the map imag
 - A red solid arrow from the Elamite border west across the Tigris to Ur, labeled: "Kindattu's campaign, 2004 BCE — end of Sumerian political history"
 - A secondary dashed arrow from Uruk east to Susa, labeled: "Cult statue of Nanaya looted — held at Susa for 1,600 years"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -156,7 +156,7 @@ The chapter title "Chapter 7: Til-Tuba" should appear at the top of the map imag
 - A red arrow from Nineveh south to Til-Tuba, labeled: "Battle of Til-Tuba, 653 BCE — Te-Umman killed, his head carried back to Nineveh"
 - A second arrow from Nineveh southeast to Susa, labeled: "Sack of Susa, 646 BCE — royal tombs opened, bones of Elamite kings carried to Assyria"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
@@ -199,4 +199,4 @@ The chapter title "Chapter 8: The Persian Echo" should appear at the top of the 
 - A shaded zone covering the full Achaemenid footprint, labeled: "Achaemenid Persian Empire — administered in Elamite cuneiform, ~509 BCE onward"
 - A small highlight at Persepolis labeled: "Persepolis Fortification Archive — 30,000 clay tablets in Elamite". A second small highlight at Behistun labeled: "Behistun Inscription — Old Persian, Babylonian, Elamite carved side by side"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.

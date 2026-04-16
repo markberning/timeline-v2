@@ -62,7 +62,7 @@ The chapter title "Chapter 1: Land of the Bow" should appear at the top of the m
 **One annotation:**
 A single shaded band running from just south of Aswan down to roughly the Second Cataract, with ONE label: "A-Group Culture Heartland, ~3800–2800 BCE"
 
-**Style:** Landscape orientation, simple and elegant, designed to be viewed on a phone screen. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
+**Style:** Landscape orientation, simple and elegant. Match the style of the previous Ancient Nubia and Indus Valley chapter maps exactly.
 
 ---
 
