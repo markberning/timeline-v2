@@ -36,6 +36,7 @@ export default async function CivilizationPage({ params }: PageProps) {
   const nextId = pos && pos.index < pos.total - 1 ? chain!.entries[pos.index + 1].timelineId : null
   const prevTl = prevId ? NAVIGATOR_TLS.find(t => t.id === prevId) : null
   const nextTl = nextId ? NAVIGATOR_TLS.find(t => t.id === nextId) : null
+  const currentTl = NAVIGATOR_TLS.find(t => t.id === civilizationId)
 
   return (
     <div className="max-w-prose mx-auto px-5">
@@ -86,6 +87,9 @@ export default async function CivilizationPage({ params }: PageProps) {
           </div>
         )}
         <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>{narrative.label}</h1>
+        {currentTl?.subtitle && (
+          <p className="text-sm text-foreground/50 mt-1 italic">{currentTl.subtitle}</p>
+        )}
         <p className="text-sm text-foreground/60 mt-1 mb-6">
           {narrative.chapters.length} chapters
         </p>
