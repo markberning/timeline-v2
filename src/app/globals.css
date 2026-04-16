@@ -188,3 +188,15 @@ a.cross-link {
   font-weight: 700;
   color: var(--accent-text);
 }
+
+/* Decorative separator after the first paragraph */
+.drop-cap > p:first-of-type::after {
+  content: '◆';
+  display: block;
+  text-align: center;
+  margin: 1.2em 0 0.4em;
+  font-size: 0.5em;
+  color: var(--accent);
+  opacity: 0.5;
+  letter-spacing: 0.5em;
+}
