@@ -87,7 +87,7 @@ export default async function CivilizationPage({ params }: PageProps) {
           </div>
         )}
         <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>
-          {narrative.label} <span className="text-xl font-normal text-foreground/50">{narrative.chapters.length} chapters</span>
+          {narrative.label} <span className="text-xl" style={{ color: 'var(--accent)' }}>&middot;</span> <span className="text-xl font-normal text-foreground/50">{narrative.chapters.length} chapters</span>
         </h1>
         {currentTl?.subtitle && (
           <p className="text-sm text-foreground/50 mt-1 italic mb-6">{currentTl.subtitle}</p>
