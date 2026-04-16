@@ -152,21 +152,23 @@ a.glossary-link {
   color: #9ca3af;
 }
 
-/* Cross-cultural links — dashed underline in the target TL's chain color.
+/* Cross-cultural links — tinted background highlight in the target TL's chain color.
    Each anchor gets inline --cl-light / --cl-dark vars from the parse step. */
 .prose a.cross-link,
 a.cross-link {
-  text-decoration-line: underline overline;
-  text-decoration-style: dashed;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1.5px;
+  text-decoration: none;
   cursor: pointer;
   font-weight: 500;
   color: var(--cl-light, #6b7280);
+  background-color: color-mix(in srgb, var(--cl-light, #6b7280) 12%, transparent);
+  border-radius: 3px;
+  padding: 1px 4px;
+  margin: 0 -2px;
 }
 .dark .prose a.cross-link,
 .dark a.cross-link {
   color: var(--cl-dark, #9ca3af);
+  background-color: color-mix(in srgb, var(--cl-dark, #9ca3af) 15%, transparent);
 }
 
 /* Dark mode: use vibrant base colors */
