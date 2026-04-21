@@ -323,17 +323,29 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
             <button
               onClick={collapse}
               aria-label={`Close Chapter ${chapter.number}`}
-              className="shrink-0 w-11 h-11 flex items-center justify-center rounded-lg text-foreground/50 hover:text-foreground/80 hover:bg-foreground/5 transition-colors text-2xl"
+              className="shrink-0 w-11 h-11 flex items-center justify-center rounded-lg text-2xl transition-colors hover:opacity-90"
+              style={{ backgroundColor: 'var(--accent)', color: 'white' }}
             >
               ×
             </button>
             {nextChapterNumber !== null && (
               <button
                 onClick={onReadNext}
-                className="flex-1 py-3 text-base font-semibold rounded-lg transition-colors hover:opacity-80"
-                style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
+                className="flex-1 py-4 px-5 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3"
+                style={{ backgroundColor: 'var(--accent)', color: 'white' }}
               >
-                Read Chapter {nextChapterNumber} →
+                <div className="flex-1 min-w-0">
+                  <div className="text-sm font-bold tracking-wide uppercase flex items-center gap-1.5">
+                    <span className="inline-block w-3.5 h-3.5 rounded-[3px] bg-white/30" />
+                    Read Next Chapter
+                  </div>
+                  <div className="text-base font-semibold mt-1 font-[family-name:var(--font-lora)]">
+                    Chapter {nextChapterNumber}
+                  </div>
+                </div>
+                <div className="shrink-0 w-9 h-9 rounded-full border-2 border-white/40 flex items-center justify-center">
+                  <span className="text-lg leading-none">›</span>
+                </div>
               </button>
             )}
           </div>
