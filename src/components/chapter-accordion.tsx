@@ -149,7 +149,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     >
       <div
         ref={headerRef}
-        className="sticky z-10 transition-colors duration-[1200ms] -mx-5 px-5"
+        className="sticky z-10 transition-colors duration-[1200ms] -mx-8 px-8"
         style={{
           top: `${navHeight}px`,
           backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)',
@@ -172,7 +172,12 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           <div className="min-w-0 flex-1">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0 flex-1">
-                <h2 className="font-semibold font-[family-name:var(--font-lora)]">{chapter.title}</h2>
+                <div className="flex items-center gap-1.5">
+                  <h2 className="font-semibold font-[family-name:var(--font-lora)]">{chapter.title}</h2>
+                  <span className={`shrink-0 text-foreground/30 text-lg transition-transform duration-200 ${summaryOpen ? 'rotate-90' : ''}`}>
+                    &#x203A;
+                  </span>
+                </div>
                 {chapter.dateRange && (
                   <p className="text-[0.75em] text-foreground/50 mt-0.5 italic font-[family-name:var(--font-lora)]">{chapter.dateRange}</p>
                 )}
@@ -190,9 +195,6 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   </div>
                 )
               })()}
-              <span className={`shrink-0 text-foreground/30 text-lg transition-transform duration-200 mt-0.5 ${summaryOpen ? 'rotate-90' : ''}`}>
-                &#x203A;
-              </span>
             </div>
           </div>
         </div>
