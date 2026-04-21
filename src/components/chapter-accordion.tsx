@@ -343,7 +343,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   <div className="text-base font-semibold mt-1 font-[family-name:var(--font-lora)]">
                     {nextChapterTitle}
                   </div>
-                  <div className="text-sm opacity-70 mt-0.5">
+                  <div className="text-sm font-bold opacity-70 mt-0.5">
                     Chapter {nextChapterNumber}
                   </div>
                 </div>
