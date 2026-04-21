@@ -152,21 +152,33 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           className="w-full text-left pt-5 pb-2 flex gap-3 items-start touch-manipulation cursor-pointer select-none"
         >
           <span
-            className="text-sm font-bold shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5"
-            style={{ backgroundColor: 'var(--accent)' }}
+            className="text-sm font-bold shrink-0 mt-0.5 tabular-nums"
+            style={{ color: 'var(--accent)' }}
           >
-            {chapter.number}
+            {String(chapter.number).padStart(2, '0')}
           </span>
           <div className="min-w-0 flex-1">
-            <div className="flex items-center justify-between gap-2">
-              <h2 className="font-semibold">{chapter.title}</h2>
-              <span className={`text-foreground/30 text-lg shrink-0 transition-transform duration-200 ${open ? 'rotate-90' : ''}`}>
-                &#x203A;
-              </span>
+            <div className="flex items-start justify-between gap-2">
+              <div className="min-w-0">
+                <h2 className="font-semibold">{chapter.title}</h2>
+                {chapter.dateRange && (
+                  <p className="text-[0.75em] text-foreground/50 mt-0.5">{chapter.dateRange}</p>
+                )}
+              </div>
+              {chapterEvents.length > 0 && (() => {
+                const years = chapterEvents.map(e => e.year)
+                const startYear = Math.min(...years)
+                const endYear = Math.max(...years)
+                const fmtAbs = (y: number) => Math.abs(y).toLocaleString()
+                const suffix = endYear <= 0 ? 'BCE' : 'CE'
+                return (
+                  <div className="shrink-0 text-right text-xs text-foreground/40 leading-tight mt-0.5">
+                    <div>{fmtAbs(startYear)}</div>
+                    <div>{fmtAbs(endYear)} {suffix}</div>
+                  </div>
+                )
+              })()}
             </div>
-            {chapter.dateRange && (
-              <p className="text-[0.75em] text-foreground/60 mt-0.5">{chapter.dateRange}</p>
-            )}
           </div>
         </div>
 
