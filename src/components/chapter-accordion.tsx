@@ -27,6 +27,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   const sectionRef = useRef<HTMLElement>(null)
   const mapRef = useRef<HTMLDivElement>(null)
   const [mapScrolledPast, setMapScrolledPast] = useState(false)
+  const savedScrollY = useRef(0)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   useEffect(() => {
@@ -57,6 +58,18 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     img.src = mapSrc
     return () => { cancelled = true }
   }, [mapSrc])
+
+  function openLightbox() {
+    savedScrollY.current = window.scrollY
+    openLightbox()
+  }
+
+  function closeLightbox() {
+    closeLightbox()
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: savedScrollY.current, behavior: 'auto' })
+    })
+  }
 
   function collapse() {
     onCollapse()
@@ -276,7 +289,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               ref={mapRef}
               className="mb-6 rounded-lg overflow-hidden bg-foreground/5 cursor-pointer"
               style={{ aspectRatio: '1408 / 768' }}
-              onClick={(e) => { e.stopPropagation(); setShowMapLightbox(true) }}
+              onClick={(e) => { e.stopPropagation(); openLightbox() }}
             >
               <img
                 src={mapSrc}
@@ -291,7 +304,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
             <div
               className="fixed bottom-4 right-4 z-30 rounded-lg overflow-hidden shadow-lg border border-foreground/10 cursor-pointer transition-opacity hover:opacity-90"
               style={{ width: '100px', aspectRatio: '1408 / 768' }}
-              onClick={(e) => { e.stopPropagation(); setShowMapLightbox(true) }}
+              onClick={(e) => { e.stopPropagation(); openLightbox() }}
             >
               <img
                 src={mapSrc}
@@ -331,7 +344,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
         <Lightbox
           src={mapSrc}
           alt={`Map for Chapter ${chapter.number}: ${chapter.title}`}
-          onClose={() => setShowMapLightbox(false)}
+          onClose={() => closeLightbox()}
         />
       )}
     </section>
