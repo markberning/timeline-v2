@@ -103,12 +103,24 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     const moved = Math.abs(dx) > 10 || Math.abs(dy) > 10
     if (!moved) {
       if (open) collapse()
-      else expand()
+      else setSummaryOpen(!summaryOpen)
       return
     }
     if (!open) return
     const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
     if (swipeRight) collapse()
+  }
+
+  function formatYearRange(): string {
+    if (chapterEvents.length === 0) return ''
+    const years = chapterEvents.map(e => e.year)
+    const startYear = Math.min(...years)
+    const endYear = Math.max(...years)
+    const fmt = (y: number) => {
+      const abs = Math.abs(y).toLocaleString()
+      return y <= 0 ? `${abs} BCE` : `${abs} CE`
+    }
+    return `${fmt(startYear)} – ${fmt(endYear)}`
   }
 
   function onBodyTouchStart(e: React.TouchEvent) {
@@ -182,72 +194,44 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           </div>
         </div>
 
-        {/* Collapsed state — summary toggle + read button */}
-        {!open && (
+        {/* Summary expanded state */}
+        {!open && summaryOpen && chapter.summary && (
           <div className="pb-5 pl-10">
-            {!summaryOpen && (
-              <>
-                <div className="mt-2 flex gap-2">
-                  {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
-                    <button
-                      onClick={() => setSummaryOpen(true)}
-                      className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
-                      style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
-                    >
-                      Summary
-                    </button>
-                  )}
-                  <button
-                    onClick={onExpand}
-                    className="flex-1 py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
-                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
-                  >
-                    Read Chapter {chapter.number} →
-                  </button>
+            <button
+              onClick={expand}
+              className="mt-3 w-full py-3 px-4 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3"
+              style={{ backgroundColor: 'var(--accent)', color: 'white' }}
+            >
+              <div className="flex-1 min-w-0">
+                <div className="text-xs font-bold tracking-wide uppercase flex items-center gap-1.5">
+                  <span className="inline-block w-3 h-3 rounded-[3px] bg-white/30" />
+                  Read the Full Chapter
                 </div>
-                {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
-                  <div
-                    className="mt-3 relative cursor-pointer overflow-hidden"
-                    style={{ maxHeight: '3.2em' }}
-                    onClick={() => setSummaryOpen(true)}
-                  >
-                    <p
-                      className="text-sm text-foreground/50 leading-relaxed"
-                      dangerouslySetInnerHTML={{ __html: chapter.summaryBullets.slice(0, 2).join(' ') }}
-                    />
-                    <div className="absolute bottom-0 left-0 right-0 h-6" style={{ background: 'linear-gradient(transparent, var(--background))' }} />
-                  </div>
-                )}
-              </>
-            )}
-            {summaryOpen && chapter.summary && (
-              <>
-                <button
-                  onClick={onExpand}
-                  className="mt-2 w-full py-3 px-4 text-left rounded-lg transition-colors hover:opacity-80"
-                  style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
-                >
-                  <div className="text-xs font-bold tracking-wide uppercase flex items-center gap-1.5">
-                    <span className="text-[0.7em]">▶︎</span> Read the Full Chapter
-                  </div>
-                  <div className="text-sm font-semibold mt-1">{chapter.title}</div>
-                  <div className="text-xs opacity-60 mt-0.5">
-                    Chapter {chapter.number} · {estimateReadingTime(chapter.contentHtml)} minutes{chapter.dateRange ? ` · ${chapter.dateRange}` : ''}
-                  </div>
-                </button>
+                <div className="text-sm font-semibold mt-1">{chapter.title}</div>
+                <div className="text-xs opacity-70 mt-0.5">
+                  Chapter {chapter.number} · {chapterEvents.length} events{formatYearRange() ? ` · ${formatYearRange()}` : ''}
+                </div>
+              </div>
+              <div className="shrink-0 w-8 h-8 rounded-full border-2 border-white/40 flex items-center justify-center">
+                <span className="text-base leading-none">›</span>
+              </div>
+            </button>
 
-                <div className="mt-4">
-                  <div className="text-[0.65em] font-semibold tracking-[0.15em] text-foreground/40 uppercase">
-                    Summary · for review
-                  </div>
-                  <p className="mt-2 text-sm leading-relaxed text-foreground/70">
-                    {chapter.summary}
-                  </p>
-                </div>
-              </>
-            )}
+            <div className="mt-4">
+              <div className="text-[0.65em] font-semibold tracking-[0.15em] text-foreground/40 uppercase">
+                Summary · for review
+              </div>
+              <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
+                <p className="text-sm leading-relaxed italic text-foreground/70">
+                  {chapter.summary}
+                </p>
+              </div>
+            </div>
           </div>
         )}
+
+        {/* Collapsed — just the header row, no extra content */}
+        {!open && !summaryOpen && <div className="pb-2" />}
       </div>
 
       {open && (
