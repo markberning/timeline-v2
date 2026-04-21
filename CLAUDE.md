@@ -66,7 +66,7 @@ src/
     types.ts                    — NarrativeChapter, TlEvent, TimelineNarrative, etc.
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
-    navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for all 5 shipped TLs)
+    navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for all 9 shipped TLs)
     navigator-themes.ts         — Stone theme constants (warm dark bg, region palette, row height)
     offline.ts                  — service worker registration + download/delete/status store (useSyncExternalStore); exposes registerServiceWorker, downloadTl, deleteTl, useOfflineStatus, useAllOfflineStatus
 scripts/
@@ -96,19 +96,20 @@ audits/                         — audit reports from the 5-persona pipeline
 
 ## Reader Features (built)
 - **Single-page accordion** — all chapters on one page, only one open at a time (siblings `display: none`)
-- **Sticky controls** — back link, text size (A/A), dark mode toggle always visible
+- **Sticky controls** — "← Stuff Happened" back link, text size (A/A), dark mode toggle always visible. Below the sticky bar: chain navigation row (← prev TL | next TL →) with accent-colored links for hasContent TLs, then the h1 title with inline chapter count and accent dot separator, then the TL subtitle in italic.
 - **Chapter maps** — Gemini-generated maps at top of each expanded chapter with lightbox zoom (reserved aspect ratio so expand-scroll lands cleanly)
 - **Event links** — curated context-aware links in prose, colored by category (8 categories). Now also auto-injected into `event.description` and `event.details[].text` inside the EventSheet (not just the Wikipedia extract).
-- **Glossary links** — gray solid underline, curated per-chapter, opens bottom sheet with Wikipedia extract. All three shipped TLs now have full glossary coverage: Mesopotamia 336, Indus Valley 226, Ancient China 208. Glossary-linked inside chapter prose, summary bullets, event descriptions, event details, and event wiki extracts.
-- **Cross-cultural ("CCC") links** — dashed underline+overline bracketed phrase, colored in the *target* TL's chain color (not the host TL's). Tap opens a `CrossLinkSheet` with "Meanwhile in {label}" + a 1–3 sentence blurb + "Read {label} Ch N →" button that hard-navigates to `/{tl}?chapter=N` so the target chapter auto-expands on arrival. Curated per-chapter in `content/.cross-links-{tlId}.json`. Current inventory: Meso 34, Indus 37, Ancient China 22, Ancient Nubia 20, Elamite Civilization 24 — **137 total across all 5 shipped TLs** after the 2026-04-15 structural audit pass filled the Meso↔Indus, Indus→Elam, China↔Elam, and Nubia↔Elam gaps. One `matchText` must cover exactly one civilization — compound phrases like "Egypt and Mesopotamia" get narrowed to just the linked civ.
+- **Glossary links** — gray background highlight (light mode: #e5e7eb bg + #374151 text; dark mode: cool gray rgba(200,205,215,0.18) bg + #e5e7eb text), curated per-chapter, opens bottom sheet with Wikipedia extract. Glossary-linked inside chapter prose, summary bullets, event descriptions, event details, and event wiki extracts.
+- **Cross-cultural ("CCC") links** — tinted background highlight in the *target* TL's chain color (light mode 12% opacity, dark mode 15%), no underlines. Tap opens a `CrossLinkSheet` with "Meanwhile in {label}" + a 1–3 sentence blurb + solid-fill "Read {label} Ch N →" button that hard-navigates to `/{tl}?chapter=N` so the target chapter auto-expands on arrival. Curated per-chapter in `content/.cross-links-{tlId}.json`. One `matchText` must cover exactly one civilization — compound phrases like "Egypt and Mesopotamia" get narrowed to just the linked civ. Three distinct link styles: event = colored underline, glossary = gray background, cross-link = colored background.
 - **Event bottom sheet** — tap a linked event for image, caption, description, details sections, Wikipedia extract, read-more link. Description and details now render as HTML so inline glossary links work inside them.
 - **Glossary sheet** — gray-themed smaller variant of EventSheet.
 - **Cross-link sheet** — accent-colored header, MutationObserver watches `<html>` for `.dark` class changes so the accent reactively swaps between light and dark target colors when the user toggles the theme mid-session.
-- **Summary bullets** — chronological bullet summary per chapter with inline event/glossary/cross-link auto-linking + prominent "Read Chapter N →" button. Used for **all three TLs** now (Meso 121 bullets across 13 chapters, Indus 60+ across 10, Ancient China 52+ across 8). Bullet length scales by chapter density (6–12 per chapter).
-- **Chapter bottom nav** — every expanded chapter has a small × close button on the left and a prominent accent-colored "Read Chapter N+1 →" button filling the rest of the row. Last chapter shows only the ×. Tapping Read Next sets `openChapter = N+1`, which triggers the expand effect → `window.scrollTo({top: 0})` so the next chapter renders flush under the h1.
+- **Summary accordion** — collapsed chapters show two solid-fill accent-colored buttons side by side ("Summary" + "Read Chapter N →") plus a ~2-line faded peek of the first summary bullets below. Tapping "Summary" expands the full bullet list with a "Close Summary" button at top and a compact × + "Read Chapter →" at bottom. Bullets get inline event/glossary/cross-link auto-linking from the parse script.
+- **Narrative prose styling** — expanded chapters render in **Lora serif** font (loaded via next/font/google) with an **accent-colored drop cap** (2.8em, bold, floated left) on the first paragraph and a **diamond glyph separator** (◆, accent color, 50% opacity) between the first paragraph and the body prose. Summary bullets stay in Geist sans-serif. All buttons use solid 20% accent fill (no outlined borders).
+- **Chapter bottom nav** — every expanded chapter has a small × close button on the left and a solid-fill accent-colored "Read Chapter N+1 →" button filling the rest of the row. Last chapter shows only the ×.
 - **Image enrichment** — Commons thumbnails + Wikipedia page image fallback, all verified at build time
 - **Image captions** — hand-written captions in `.caption-overrides.json`, informal 1–2 sentence voice
-- **Dark mode** — class-based, hardcoded `dark` on `<html>` in layout.tsx (anti-flash script only removes it if user has explicitly chosen light). Background `#22201e` warm dark, matches the navigator's Stone theme. `color-scheme: dark` declared so iOS Safari doesn't apply auto-dark. Bottom sheets use lighter `--surface` `#2f2c29` for elevation.
+- **Dark mode** — class-based, hardcoded `dark` on `<html>` in layout.tsx (anti-flash script only removes it if user has explicitly chosen light). Background `#22201e` warm dark, matches the navigator's Stone theme. `color-scheme: dark` declared so iOS Safari doesn't apply auto-dark. Bottom sheets use lighter `--surface` `#2f2c29` for elevation. The `theme-color` meta tag updates on toggle (dark: `#22201e`, light: `#ffffff`) so the iOS notch/status bar matches the page background in both modes.
 - **Text size** — 5 steps (14-22px), persisted, affects both summaries and prose equally
 - **WCAG AA contrast** — all text passes 4.5:1, accent colors have light/dark mode variants
 - **Viewport lock** — touch-action: pan-y prevents horizontal drift on mobile
@@ -117,7 +118,7 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Image review** — two pages: `/review/{tlId}` for QA of current images, `/candidates/{tlId}` for approving/rejecting new candidates with editable captions. These are dev-only — stashed out of the tree during static build via `scripts/build-static.mjs` so production doesn't include them.
 - **Chapter expand/collapse scroll** — on expand (user tap or cross-link auto-expand via `?chapter=N`), always `window.scrollTo({top: 0})`. Because siblings are `display: none` while one chapter is open, the opened chapter is always the first visible chapter and sits right below the h1 + "N chapters" subtitle, so scrollY=0 shows sticky nav → h1 → subtitle → chapter header stacked naturally. On collapse, `sectionRef.scrollIntoView({block: 'start'})` honors the section's `scrollMarginTop: navHeight` so the just-closed chapter header lands cleanly below the sticky nav (previous headerRef-based version hid it behind the nav).
 - **TL Navigator (home at `/`)** — custom-touch scroll flow layout of 71 civilizations. `TlFlow` (in `tl-flow.tsx`) owns scroll completely: vertical-only, rAF friction momentum, each row rendered as a single `translate3d(x, y, 0)` per frame. Row x is a diagonal offset (row y in viewport × max indent) plus a gap-aware year-offset so chronological clusters pack tight and big historical jumps spread. Rows in the bottom third ease in from the lower right. Desktop mouse support via parallel `pointerup` listener. Constants live in `tl-flow.tsx`.
-- **Navigator header** — "Stuff Happened — A Timeline App" with small "v1 ↗" pill to `https://v1.stuffhappened.com`.
+- **Navigator header** — "Stuff Happened" (18px bold) with small "v1 ↗" pill to `https://v1.stuffhappened.com`. Navigator flow starts at 25% from the top of the viewport (FLOW_TOP_PAD_FRAC = 0.25) so the first TL appears 3/4 of the way up the screen.
 - **Stone theme** — the only navigator theme. Warm dark bg `#22201e`, region palette, line-style bars: row 1 colored hairline + dot + name, row 2 faded dates + chain chip, row 3 italic subtitle.
 - **Chain chip** — tagged `data-chain-chip="1"` + `data-chain-id="..."` with `pointer-events: auto` on an otherwise non-interactive row. Tap hit-tested via `elementFromPoint(...).closest('[data-chain-chip]')`.
 - **Subtitles** — every NavigatorTl has a short descriptive+evocative tagline rendered in small italic below the name.
@@ -128,7 +129,7 @@ audits/                         — audit reports from the 5-persona pipeline
 - **WebP chapter maps** — stored as `.webp` quality 85 under `public/maps/{tlId}/chapter-{N}.webp`, converted via `scripts/optimize-maps.mjs` + sharp. 56 MB → 2.1 MB total with no visible quality loss.
 - **iOS scroll hardening** — navigator uses `position: fixed; height: 100svh`; body locked while mounted; cleanup forces reflow + `window.scrollTo(0, 1); scrollTo(0, 0)` to kick Safari's scroll engine.
 - **Offline reading (per-TL download)** — hand-rolled service worker at `public/sw.js`. `npm run parse` emits `public/offline/{tlId}.manifest.json` for every shipped TL, listing the page URL + every chapter-map WebP on disk + every Wikimedia event/glossary thumbnail URL. A cloud button in the navigator header opens a bottom-sheet `OfflineLibrarySheet` listing all `hasContent` TLs with per-row download/delete controls. Tap a row to populate `offline-tl-{tlId}-v1` cache (~15–20 MB per TL); tap again to wipe it. The SW uses **network-first for navigation requests** (so deployments show up immediately online) and **cache-first for assets**. `matchWithSlashVariants` handles the `/{tlId}` vs `/{tlId}/` mismatch, and the download loop caches both variants. A client-side guard in `tl-flow.tsx` checks `navigator.onLine` + download status before navigating — tapping a non-downloaded TL offline opens the library sheet instead of stranding the user. Dev-mode: SW registers on localhost but the fetch handler bails out to avoid fighting HMR. See `project_offline_reading.md` memory for the architecture and the tripwire list.
-- **Summary text selection** — sticky chapter header is split into a clickable top row (number + title + date + chevron, `select-none`) and a sibling non-clickable preview area (bullets + Read button, default text selection). Previously the whole panel was clickable-expand with `select-none`, which meant you couldn't drag to select a quote from a bullet.
+- **Summary text selection** — sticky chapter header is split into a clickable top row (number + title + date + chevron, `select-none`) and a sibling non-clickable preview area (summary buttons + peek text, default text selection).
 
 ## Reader Features (planned)
 - Save-my-place (tap any sentence)
@@ -181,18 +182,26 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 11. chinese-revolution
 12. rise-of-china
 
+**Nile Valley chain** (in progress):
+1. ✅ early-dynastic-egypt — 8 chapters (~25k words), label "Before the Pharaohs", 68 reference events, ~55 event links, ~209 glossary links, ~20 cross-links, 59 summary bullets, 8 WebP chapter maps (zero redos), full audit + fixes. Covers predynastic through Second Dynasty (-5000 to -2686 BCE).
+2. old-kingdom-egypt
+3. new-kingdom-egypt
+4. late-egypt
+
 **Nubian Tradition chain** (in progress):
-1. ✅ ancient-nubia — 8 chapters (~24k words), full 5-persona audit with must/should fixes applied, summary factcheck on all 8 chapters (2 STRONG + 5 CHECK fixes applied in Ch 1/2/3/4/6/7/8), **54 reference events**, **52 event links**, **190 glossary links**, **20 forward cross-links** (closes Nubia↔Elam zero-gap after 2026-04-15 structural audit), parse-enriched, **61 summary bullets across 8 chapters**, **8 WebP chapter maps** (all 8 regenerated under strict-rules redo pass, edge-to-edge style on Ch 5-8), navigator `hasContent: true`, **shipped live on stuffhappened.com** with offline download support. Chain color: ochre/yellow (`nubian-tradition`).
-2. kingdom-of-kush
+1. ✅ ancient-nubia — 8 chapters (~24k words), full pipeline, 8 WebP chapter maps. Chain color: ochre/yellow (`nubian-tradition`).
+2. ✅ kingdom-of-kush — 8 chapters (~24k words), 55 reference events, 58 event links, 184 glossary links, 19 cross-links, 64 summary bullets, 8 WebP chapter maps (1 redo for pyramid count), full audit + fixes. Covers Napatan rise through Aksumite conquest (-1070 to 350 CE).
 3. kingdom-of-aksum
 
 **Persian Tradition chain** (in progress):
-1. ✅ elamite-civilization — 8 chapters (~24k words), full 5-persona audit and fix pass, summary factcheck on all 8 chapters (4 STRONG + 2 CHECK fixes applied in Ch 1/2/5/6/7/8), **51 reference events**, **49 event links**, **206 glossary links**, **24 forward cross-links** (Elam→China and Elam→Nubia added in 2026-04-15 structural audit), parse-enriched, **63 summary bullets across 8 chapters**, **8 WebP chapter maps** (Ch 1/3/7/8 regenerated under strict-rules redo pass), navigator `hasContent: true`, **shipped live on stuffhappened.com** with offline download support. Central thesis: Elam never died — it became the bureaucratic spine of Persia. Chain color: `persian-tradition`.
-2. persian-empire
+1. ✅ elamite-civilization — 8 chapters (~24k words), full pipeline, 8 WebP chapter maps. Central thesis: Elam never died — it became the bureaucratic spine of Persia. Chain color: `persian-tradition`.
+2. ✅ persian-empire — 10 chapters (~15.5k words), 71 reference events, 62 event links, 164 glossary links, 15 cross-links, 86 summary bullets, 10 WebP chapter maps (zero redos), full audit + fixes. Covers Cyrus through Arab conquest (-559 to 651 CE). Central thesis: Persia absorbs what it conquers.
 3. safavid-persia
 
-**Egypt chain** (after Elam wraps):
-- ancient-egypt series (TBD split)
+**Andean chain** (in progress):
+1. ✅ early-andean-civilizations — 8 chapters (~16k words), label "Early Andean", 69 reference events, ~61 event links, ~193 glossary links, ~18 cross-links, 56 summary bullets, 8 WebP chapter maps (zero redos), full audit + fixes. Covers Norte Chico/Caral through Chavín to Paracas (-3500 to -200 BCE).
+2. andean-kingdoms
+3. middle-horizon-empires
 
 ## Color System
 - **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).
