@@ -25,12 +25,27 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   const [navHeight, setNavHeight] = useState(48)
   const headerRef = useRef<HTMLDivElement>(null)
   const sectionRef = useRef<HTMLElement>(null)
+  const mapRef = useRef<HTMLDivElement>(null)
+  const [mapScrolledPast, setMapScrolledPast] = useState(false)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   useEffect(() => {
     const nav = document.querySelector('[data-top-nav]') as HTMLElement | null
     if (nav) setNavHeight(Math.ceil(nav.getBoundingClientRect().height))
   }, [])
+
+  // Track when the full-size map scrolls out of view
+  useEffect(() => {
+    if (!open || mapExists !== true) { setMapScrolledPast(false); return }
+    const el = mapRef.current
+    if (!el) return
+    const obs = new IntersectionObserver(
+      ([entry]) => setMapScrolledPast(!entry.isIntersecting),
+      { threshold: 0 }
+    )
+    obs.observe(el)
+    return () => obs.disconnect()
+  }, [open, mapExists])
 
   const mapSrc = `/maps/${civilizationId}/chapter-${chapter.number}.webp`
 
@@ -172,7 +187,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           <div className="min-w-0 flex-1">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0 flex-1">
-                <h2 className="text-lg font-semibold font-[family-name:var(--font-lora)]">
+                <h2 className="text-xl font-semibold font-[family-name:var(--font-lora)]">
                   {chapter.title}
                   <span className={`inline-block text-foreground/50 text-2xl font-bold transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90 translate-x-1' : ''}`}>
                     &#x203A;
@@ -258,6 +273,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               the file exists, so civs without maps don't reserve layout space. */}
           {mapExists === true && (
             <div
+              ref={mapRef}
               className="mb-6 rounded-lg overflow-hidden bg-foreground/5 cursor-pointer"
               style={{ aspectRatio: '1408 / 768' }}
               onClick={(e) => { e.stopPropagation(); setShowMapLightbox(true) }}
@@ -265,6 +281,21 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               <img
                 src={mapSrc}
                 alt={`Map for Chapter ${chapter.number}: ${chapter.title}`}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
+
+          {/* Mini map thumbnail — appears when full map scrolls out of view */}
+          {mapExists === true && mapScrolledPast && (
+            <div
+              className="fixed bottom-4 right-4 z-30 rounded-lg overflow-hidden shadow-lg border border-foreground/10 cursor-pointer transition-opacity hover:opacity-90"
+              style={{ width: '100px', aspectRatio: '1408 / 768' }}
+              onClick={(e) => { e.stopPropagation(); setShowMapLightbox(true) }}
+            >
+              <img
+                src={mapSrc}
+                alt="Map"
                 className="w-full h-full object-cover"
               />
             </div>
