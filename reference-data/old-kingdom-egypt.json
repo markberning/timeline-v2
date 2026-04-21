@@ -1,0 +1,2492 @@
+{
+  "id": "old-kingdom-egypt",
+  "label": "Age of the Pyramids",
+  "type": "civilization",
+  "region": "africa",
+  "source": "curated",
+  "imageWikiSlug": "Great_Pyramid_of_Giza",
+  "mapCommonsFile": "Ancient_Egypt_old_and_middle_kingdom-en.svg",
+  "wikiSlug": "Old_Kingdom_of_Egypt",
+  "pitch": "The divine kingship, hieroglyphic writing, and bureaucratic taxation that Narmer's successors built during the Early Dynastic Period were prologue. The Old Kingdom turned those institutions into stone on a scale the world had never imagined — the Step Pyramid, the Great Pyramid at Giza, the Sphinx. For five centuries, pharaohs who were worshipped as living gods commanded a centralized state so effective that it could mobilize tens of thousands of workers, feed them, and direct their labor toward monuments designed to last for eternity. Then it all collapsed.\n\n🔑 Key Facts:\n• Imhotep's Step Pyramid at Saqqara (c. 2650 BCE) was the world's first large-scale stone structure — a revolutionary leap from the mud-brick mastabas of the Early Dynastic period, with no known architectural prototype\n• Sneferu built more pyramid volume than any other pharaoh — the Meidum Pyramid, the Bent Pyramid, and the Red Pyramid at Dahshur solved the engineering problems that made the Great Pyramid possible\n• The Great Pyramid of Giza, completed around 2560 BCE for Khufu, remained the tallest human-built structure on Earth for over 3,800 years and was built by a rotating labor force of skilled workers, not slaves\n• Pharaohs were not merely kings but the incarnation of Horus on earth — responsible for maintaining ma'at (cosmic order), controlling the Nile floods, and mediating between humanity and the gods\n• The Pyramid Texts, carved inside Unas's pyramid around 2353 BCE, are the oldest known religious texts in the world — a collection of spells to guide the pharaoh's soul through the afterlife\n• Provincial governors (nomarchs) accumulated hereditary power throughout the Fifth and Sixth Dynasties, gradually hollowing out central authority until the system buckled under Pepi II's record-long reign\n• The First Intermediate Period (~2181–2055 BCE) shattered the myth of pharaonic invincibility but also democratized afterlife beliefs — the Coffin Texts extended the promise of eternal life from pharaohs to commoners\n• The era produced Egypt's first great literature of social criticism — the Admonitions of Ipuwer and the Dialogue of a Man with His Soul reflect a civilization in existential crisis\n\n🤔 Why It Matters: The Old Kingdom invented the template for state authority that Egypt would follow for three thousand years: divine pharaoh, professional bureaucracy, monumental architecture as political statement. When the Old Kingdom collapsed in the First Intermediate Period, the trauma was civilizational — but the template survived. The Middle Kingdom pharaohs who reunified Egypt were not building something new; they were restoring something they believed had always been true. That continuity — the idea that Egypt was eternal — is itself one of history's most powerful political inventions. The New Kingdom would inherit this template, amplify it, and carry Egyptian power to imperial heights undreamed of by the pyramid builders.\n\n🎲 Wild Card: The workers who built the Great Pyramid were not slaves. Archaeological excavations at the Giza workers' village uncovered evidence of a skilled, rotating labor force who received beer, bread, and medical care — including the earliest known evidence of successful limb amputation surgery. Their cemetery shows healed bones and even brain surgery attempts, suggesting these workers were valued enough to receive state-of-the-art medical treatment.",
+  "glossary": [
+    {
+      "term": "Ma'at",
+      "aliases": [
+        "maat",
+        "cosmic order"
+      ],
+      "definition": "The Egyptian concept of truth, justice, and cosmic order. Pharaohs were charged with maintaining ma'at — keeping the universe in balance. It was both an abstract principle and a goddess, depicted as a woman with an ostrich feather. A person's heart was weighed against the feather of Ma'at in the afterlife judgment.",
+      "wikiSlug": "Maat",
+      "type": "term"
+    },
+    {
+      "term": "Memphis",
+      "aliases": [
+        "Ineb-Hedj",
+        "White Walls"
+      ],
+      "definition": "Capital of Egypt for most of the Old Kingdom, located at the junction of Upper and Lower Egypt near modern Cairo. Founded around 3100 BCE after unification. Its strategic position at the apex of the Nile Delta made it the administrative and economic center of the unified state.",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "geography"
+    },
+    {
+      "term": "Saqqara",
+      "aliases": [
+        "Sakkara"
+      ],
+      "definition": "The vast necropolis west of Memphis serving as the royal burial ground for much of the Old Kingdom. Site of Djoser's Step Pyramid, the world's first monumental stone building, and the Pyramid of Unas containing the oldest Pyramid Texts. Used for over 3,000 years.",
+      "wikiSlug": "Saqqara",
+      "type": "geography"
+    },
+    {
+      "term": "Giza",
+      "aliases": [
+        "Giza Plateau",
+        "Giza Necropolis"
+      ],
+      "definition": "The plateau west of modern Cairo where the three Great Pyramids (Khufu, Khafre, Menkaure) and the Sphinx stand. The Giza complex was built during the Fourth Dynasty and includes mortuary temples, causeways, and the workers' village discovered by archaeologists.",
+      "wikiSlug": "Giza_pyramid_complex",
+      "type": "geography"
+    },
+    {
+      "term": "Dahshur",
+      "aliases": [],
+      "definition": "A royal necropolis south of Saqqara where Sneferu built the Bent Pyramid and the Red Pyramid. These experimental structures solved the engineering challenges of true pyramid construction and paved the way for the Great Pyramid at Giza.",
+      "wikiSlug": "Dahshur",
+      "type": "geography"
+    },
+    {
+      "term": "Nomarch",
+      "aliases": [
+        "nomarchs",
+        "provincial governor"
+      ],
+      "definition": "Governor of a nome (province). During the Old Kingdom, nomarchs were appointed by the pharaoh. Over time, the position became hereditary, and nomarchs accumulated independent wealth and military power. Their growing autonomy contributed to the Old Kingdom's collapse.",
+      "wikiSlug": "Nomarch",
+      "type": "term"
+    },
+    {
+      "term": "Nome",
+      "aliases": [
+        "nomes"
+      ],
+      "definition": "An administrative province of ancient Egypt. Upper Egypt had 22 nomes and Lower Egypt had 20. Each nome had its own capital, patron deity, and governor (nomarch). The nome system endured for the entire span of pharaonic history.",
+      "wikiSlug": "Nome_(Egypt)",
+      "type": "term"
+    },
+    {
+      "term": "Ka",
+      "aliases": [],
+      "definition": "One of the components of the Egyptian soul — the vital life force or spiritual double. The ka was born with a person and survived death, requiring food offerings and a preserved body to sustain it in the afterlife. Pyramid complexes included offering chapels to feed the pharaoh's ka.",
+      "wikiSlug": "Ka_(Egyptian_soul)",
+      "type": "term"
+    },
+    {
+      "term": "Ba",
+      "aliases": [],
+      "definition": "The personality or spiritual essence of an Egyptian individual, depicted as a human-headed bird. After death, the ba traveled between the tomb and the underworld. Reunion of the ba with the preserved body was essential for eternal life.",
+      "wikiSlug": "Ba_(Egyptian_soul)",
+      "type": "term"
+    },
+    {
+      "term": "Mastaba",
+      "aliases": [
+        "mastabas"
+      ],
+      "definition": "A flat-roofed, rectangular tomb with sloping sides, used for Egyptian burials before and during the pyramid age. Djoser's Step Pyramid evolved from stacking mastabas. Nobles and officials continued to be buried in mastabas throughout the Old Kingdom, clustered around the royal pyramids.",
+      "wikiSlug": "Mastaba",
+      "type": "term"
+    },
+    {
+      "term": "Vizier",
+      "aliases": [
+        "tjaty"
+      ],
+      "definition": "The highest official in the Egyptian state after the pharaoh — head of the judiciary, chief of the treasury, and overseer of all construction projects. Imhotep was the most famous vizier. The office existed from the Early Dynastic period through the end of pharaonic history.",
+      "wikiSlug": "Vizier_(Ancient_Egypt)",
+      "type": "term"
+    },
+    {
+      "term": "Heliopolitan Theology",
+      "aliases": [
+        "Ennead",
+        "Heliopolitan Ennead"
+      ],
+      "definition": "The creation myth centered at Heliopolis, involving nine gods (the Ennead): Atum created Shu and Tefnut, who begat Geb and Nut, who produced Osiris, Isis, Set, and Nephthys. This cosmology shaped Egyptian religion for millennia and influenced the Pyramid Texts.",
+      "wikiSlug": "Ennead",
+      "type": "term"
+    },
+    {
+      "term": "Heliopolis",
+      "aliases": [
+        "Iunu",
+        "On"
+      ],
+      "definition": "Ancient religious center northeast of Memphis, home to the sun god Ra's chief temple and the center of solar theology. The priests of Heliopolis developed the Ennead creation myth and influenced pharaonic religion throughout the Old Kingdom. The Fifth Dynasty pharaohs built sun temples to honor Ra's cult.",
+      "wikiSlug": "Heliopolis_(ancient_Egypt)",
+      "type": "geography"
+    },
+    {
+      "term": "Abu Gorab",
+      "aliases": [],
+      "definition": "A site north of Saqqara where Fifth Dynasty pharaohs built sun temples honoring Ra. The temples featured large open courtyards with obelisks and altars, reflecting the growing importance of solar worship. Only two of six known temples have been excavated.",
+      "wikiSlug": "Abu_Gorab",
+      "type": "geography"
+    },
+    {
+      "term": "Abydos",
+      "aliases": [],
+      "definition": "One of Egypt's most sacred sites in Upper Egypt, burial place of the first pharaohs and cult center of Osiris. The Early Dynastic royal cemetery at Umm el-Qa'ab contained the earliest hieroglyphic inscriptions. Abydos remained a pilgrimage destination throughout Egyptian history.",
+      "wikiSlug": "Abydos,_Egypt",
+      "type": "geography"
+    },
+    {
+      "term": "Natron",
+      "aliases": [],
+      "definition": "A naturally occurring mineral salt (sodium carbonate) found in dry lake beds, especially the Wadi Natrun. Used in mummification to desiccate the body by drawing out moisture. Also used in cleaning, glassmaking, and ritual purification.",
+      "wikiSlug": "Natron",
+      "type": "technique"
+    },
+    {
+      "term": "Osiris",
+      "aliases": [],
+      "definition": "God of the dead and the afterlife, ruler of the underworld. According to myth, Osiris was murdered by his brother Set and resurrected by his wife Isis. Every dead pharaoh became Osiris, while the living pharaoh was Horus. His cult grew throughout the Old Kingdom and dominated Egyptian afterlife beliefs.",
+      "wikiSlug": "Osiris",
+      "type": "term"
+    },
+    {
+      "term": "Ra",
+      "aliases": [
+        "Re",
+        "sun god"
+      ],
+      "definition": "The sun god, the most important deity of the Old Kingdom. Ra traveled across the sky by day and through the underworld by night. Fifth Dynasty pharaohs added 'Son of Ra' to the royal titulary and built sun temples at Abu Gorab. Solar theology influenced the Pyramid Texts.",
+      "wikiSlug": "Ra",
+      "type": "term"
+    },
+    {
+      "term": "Horus",
+      "aliases": [
+        "falcon god"
+      ],
+      "definition": "The falcon-headed sky god. The living pharaoh was considered the earthly incarnation of Horus — the first element of the royal titulary was the Horus name. The mythological conflict between Horus and Set represented the triumph of order over chaos.",
+      "wikiSlug": "Horus",
+      "type": "term"
+    },
+    {
+      "term": "Byblos",
+      "aliases": [],
+      "definition": "An ancient Phoenician port city in modern Lebanon. Egypt's most important trading partner during the Old Kingdom, supplying cedar wood essential for shipbuilding, coffins, and temple construction. Egyptian artifacts found at Byblos date from the Old Kingdom through the New Kingdom.",
+      "wikiSlug": "Byblos",
+      "type": "geography"
+    },
+    {
+      "term": "Nubia",
+      "aliases": [
+        "Nubian",
+        "Kush"
+      ],
+      "definition": "The region south of Egypt along the Nile, from Aswan to central Sudan. Rich in gold, copper, and exotic goods. Egypt traded with and raided Nubia throughout the Old Kingdom. The autobiography of Harkhuf describes four expeditions to Nubia during the Sixth Dynasty.",
+      "wikiSlug": "Nubia",
+      "type": "geography"
+    },
+    {
+      "term": "Herakleopolis",
+      "aliases": [
+        "Herakleopolitan",
+        "Henen-nesut"
+      ],
+      "definition": "City in Middle Egypt that served as the capital of the Ninth and Tenth Dynasties during the First Intermediate Period. The Herakleopolitan kings controlled northern Egypt and competed with the Theban Eleventh Dynasty for supremacy until their defeat by Mentuhotep II around 2055 BCE.",
+      "wikiSlug": "Herakleopolis_Magna",
+      "type": "geography"
+    },
+    {
+      "term": "Thebes",
+      "aliases": [
+        "Waset"
+      ],
+      "definition": "City in Upper Egypt (modern Luxor) that rose to prominence during the First Intermediate Period as the power base of the Eleventh Dynasty. Mentuhotep II ruled from Thebes when he reunified Egypt. Thebes would become Egypt's most important religious center during the New Kingdom.",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "geography"
+    },
+    {
+      "term": "Wadi Hammamat",
+      "aliases": [],
+      "definition": "A dry riverbed in the Eastern Desert connecting the Nile Valley to the Red Sea coast. An important quarry site for greywacke and granite, and a key route for trade expeditions. Inscriptions from Old Kingdom mining expeditions survive on the cliff walls.",
+      "wikiSlug": "Wadi_Hammamat",
+      "type": "geography"
+    },
+    {
+      "term": "Nilometer",
+      "aliases": [
+        "nilometers"
+      ],
+      "definition": "A structure used to measure the Nile's annual flood level. Readings predicted harvest quality and determined tax rates. The oldest known nilometer was on Elephantine Island. The Palermo Stone records annual Nile levels from the earliest dynasties.",
+      "wikiSlug": "Nilometer",
+      "type": "technique"
+    },
+    {
+      "term": "Basin Irrigation",
+      "aliases": [],
+      "definition": "The system of capturing Nile floodwaters in earthen basins to saturate the soil before planting. Developed in the predynastic period and refined during the Old Kingdom. It enabled the agricultural surplus that funded pyramid construction and supported a large non-farming population.",
+      "wikiSlug": "Irrigation_in_Egypt",
+      "type": "technique"
+    },
+    {
+      "term": "Papyrus",
+      "aliases": [],
+      "definition": "A writing material made from the pith of the Cyperus papyrus plant, cut into strips, layered crosswise, and pressed. Developed by the Early Dynastic period and used throughout Egyptian history. Papyrus enabled the bureaucratic record-keeping that made the Old Kingdom state possible.",
+      "wikiSlug": "Papyrus",
+      "type": "technique"
+    },
+    {
+      "term": "Hieratic",
+      "aliases": [
+        "hieratic script"
+      ],
+      "definition": "A cursive form of hieroglyphic writing developed for speed and efficiency on papyrus. Used for administrative documents, letters, literary texts, and accounting. Hieroglyphs remained the prestige script for monumental inscriptions, while hieratic handled everyday business.",
+      "wikiSlug": "Hieratic",
+      "type": "technique"
+    },
+    {
+      "term": "Canopic Jars",
+      "aliases": [
+        "canopic jar"
+      ],
+      "definition": "Containers used during mummification to store the removed internal organs (liver, lungs, stomach, intestines). Each jar was protected by one of the four sons of Horus. The practice began during the Old Kingdom and continued through the Late Period.",
+      "wikiSlug": "Canopic_jar",
+      "type": "technique"
+    },
+    {
+      "term": "Epagomenal Days",
+      "aliases": [],
+      "definition": "The five extra days added to the Egyptian calendar's twelve 30-day months to approximate the solar year (365 days). According to myth, these were the days on which Osiris, Isis, Set, Nephthys, and Horus the Elder were born. The calendar still drifted against the true solar year by about a quarter day annually.",
+      "wikiSlug": "Intercalation_(timekeeping)",
+      "type": "term"
+    },
+    {
+      "term": "Weni the Elder",
+      "aliases": [
+        "Weni",
+        "Uni"
+      ],
+      "definition": "A Sixth Dynasty official whose autobiographical tomb inscription is one of the most important primary sources for Old Kingdom history. Starting as a minor functionary, Weni rose to become a judge, military commander, and canal builder under three pharaohs. His text describes a military campaign into southern Canaan.",
+      "wikiSlug": "Weni",
+      "type": "culture"
+    },
+    {
+      "term": "Harkhuf",
+      "aliases": [],
+      "definition": "A Sixth Dynasty governor of Upper Egypt who conducted four trading expeditions to Nubia. His tomb inscription at Aswan includes a letter from the young pharaoh Pepi II excitedly requesting a dancing dwarf Harkhuf was bringing back — one of the most human documents from the Old Kingdom.",
+      "wikiSlug": "Harkhuf",
+      "type": "culture"
+    },
+    {
+      "term": "Elephantine",
+      "aliases": [
+        "Elephantine Island"
+      ],
+      "definition": "An island in the Nile at Aswan, Egypt's traditional southern frontier. Site of the oldest known nilometer and a garrison town controlling trade with Nubia. The governors of Elephantine organized expeditions into Nubia and the Eastern Desert throughout the Old Kingdom.",
+      "wikiSlug": "Elephantine",
+      "type": "geography"
+    },
+    {
+      "term": "Punt",
+      "aliases": [
+        "Land of Punt"
+      ],
+      "definition": "A trading partner of Egypt located on the coast of the Horn of Africa (modern Eritrea/Somalia/Djibouti area). Known to Egyptians from Old Kingdom expeditions as a source of myrrh, frankincense, gold, ebony, and exotic animals. The most famous expedition was Hatshepsut's during the New Kingdom.",
+      "wikiSlug": "Land_of_Punt",
+      "type": "geography"
+    },
+    {
+      "term": "Meidum",
+      "aliases": [
+        "Meidum Pyramid"
+      ],
+      "definition": "An archaeological site south of Cairo where Sneferu built or completed a step pyramid that partially collapsed, likely during or after construction. The visible tower structure is the inner core of what was once a true pyramid. It represents an early experiment in the transition from step to true pyramid form.",
+      "wikiSlug": "Meidum",
+      "type": "geography"
+    },
+    {
+      "term": "Deshret",
+      "aliases": [
+        "Red Crown"
+      ],
+      "definition": "The red crown of Lower Egypt, one of the two crowns that were combined into the Double Crown (pschent) after unification. Its distinctive shape — a flat-topped cap with a tall projection curling forward — appears on some of the earliest representations of Egyptian kings.",
+      "wikiSlug": "Deshret",
+      "type": "term"
+    },
+    {
+      "term": "Hedjet",
+      "aliases": [
+        "White Crown"
+      ],
+      "definition": "The tall, conical white crown of Upper Egypt. Combined with the red crown of Lower Egypt to form the Double Crown worn by pharaohs of unified Egypt. Appears on the Narmer Palette and was associated with the goddess Nekhbet.",
+      "wikiSlug": "Hedjet",
+      "type": "term"
+    },
+    {
+      "term": "Serekh",
+      "aliases": [],
+      "definition": "A rectangular frame representing a palace facade, used to enclose the Horus name of the pharaoh. One of the earliest forms of royal insignia, appearing from the predynastic period. A falcon (Horus) perched atop the serekh indicated the king as the living Horus.",
+      "wikiSlug": "Serekh",
+      "type": "term"
+    }
+  ],
+  "spans": [
+    {
+      "id": "span-oke-old-kingdom",
+      "label": "Old Kingdom",
+      "startYear": -2686,
+      "endYear": -2181,
+      "wikiSlug": "Old_Kingdom_of_Egypt",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Third Dynasty transition brought Djoser and his architect Imhotep, who experimented with stacked mastabas to create the Step Pyramid — the first monumental stone building in history."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Fourth Dynasty under Sneferu, Khufu, Khafre, and Menkaure produced the Giza pyramid complex. Centralized administration, a professional scribal class, and trade networks to Byblos and Nubia all expanded. The Fifth and Sixth Dynasties shifted emphasis toward solar worship and provincial expansion."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Old Kingdom demonstrated what a centralized ancient state could achieve — pyramid construction on a scale never repeated. But the system depended on absolute royal authority, and as provincial governors gained power, the center could not hold."
+        }
+      ]
+    },
+    {
+      "id": "span-oke-first-intermediate",
+      "label": "First Intermediate Period",
+      "startYear": -2181,
+      "endYear": -2055,
+      "wikiSlug": "First_Intermediate_Period_of_Egypt",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Pepi II's extraordinarily long reign (~94 years) allowed provincial nomarchs to entrench hereditary power. A series of low Nile floods and famines further weakened the central court, and the Sixth Dynasty ended around 2181 BCE."
+        },
+        {
+          "label": "What Happened",
+          "text": "Egypt fractured between rival dynasties — the Ninth/Tenth at Herakleopolis in the north and the Eleventh at Thebes in the south. Widespread famine, social upheaval, and lament literature defined the era. Regional cultures flourished as nomarchs acted as independent rulers."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The First Intermediate Period shattered the myth of pharaonic invincibility but also democratized Egyptian culture — the Coffin Texts extended afterlife beliefs from kings to commoners. It ended when Mentuhotep II reunified Egypt around 2055 BCE, launching the Middle Kingdom."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-oke-calendar",
+      "label": "Egyptian Calendar",
+      "year": -2700,
+      "description": "Egyptians developed a 365-day solar calendar with 12 months of 30 days plus 5 epagomenal days — one of the world's first systematic calendars and the ancestor of our modern calendar.",
+      "wikiSlug": "Egyptian_calendar",
+      "tier": 2,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The annual Nile flood demanded precise timekeeping. Egyptian astronomers observed that the star Sirius (Sopdet) rose just before the flood each year, and used this observation to anchor a 365-day calendar."
+        },
+        {
+          "label": "The Calendar",
+          "text": "Three seasons of four months each (Inundation, Growth, Harvest), with 30 days per month plus 5 extra days at year's end. The calendar drifted by about a quarter-day per year against the true solar year but remained in use for millennia."
+        },
+        {
+          "label": "Legacy",
+          "text": "Julius Caesar's calendar reform in 46 BCE was directly based on the Egyptian calendar, adding a leap day. Through the Julian and Gregorian calendars, the Egyptian system became the foundation of the calendar used worldwide today."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-djoser",
+      "label": "Djoser",
+      "year": -2670,
+      "endYear": -2650,
+      "description": "Second pharaoh of the Third Dynasty, Djoser commissioned the Step Pyramid at Saqqara — the world's first monumental stone building — and established the architectural ambition that would define the Old Kingdom.",
+      "wikiSlug": "Djoser",
+      "commonsFile": "Djoser.jpg",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Djoser (also Netjerikhet) was the first pharaoh to commission monumental stone architecture. His 19-year reign marked the beginning of Egypt's pyramid age and the full flowering of centralized royal power."
+        },
+        {
+          "label": "The Step Pyramid",
+          "text": "Working with his vizier Imhotep, Djoser transformed a traditional mastaba tomb into a six-tiered stepped structure 62 meters tall — surrounded by a vast ceremonial complex enclosed by a limestone wall."
+        },
+        {
+          "label": "Legacy",
+          "text": "Djoser was revered for centuries. New Kingdom tourists left graffiti praising his achievement. His reign proved that the unified Egyptian state could mobilize labor and resources on an unprecedented scale."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-imhotep",
+      "label": "Imhotep",
+      "year": -2650,
+      "description": "History's first named architect, physician, and polymath. Imhotep served as vizier to Djoser and designed the Step Pyramid at Saqqara. He was later deified as a god of wisdom and medicine.",
+      "wikiSlug": "Imhotep",
+      "commonsFile": "Imhotep-Louvre.JPG",
+      "tier": 1,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Imhotep held the titles of vizier, high priest, chief architect, and chief physician under Djoser. He is the first non-royal in recorded history whose name was preserved — a measure of his extraordinary reputation."
+        },
+        {
+          "label": "Architect and Innovator",
+          "text": "Imhotep invented monumental stone construction. Before him, Egyptian buildings used mud-brick. The Step Pyramid's limestone blocks, columns, and enclosed complex represented a complete reinvention of building technology."
+        },
+        {
+          "label": "Legacy",
+          "text": "Imhotep was deified two thousand years after his death as the god of medicine and wisdom. The Greeks identified him with Asclepius. He remains the earliest historical figure known by name to have achieved godhood."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-step-pyramid",
+      "label": "Step Pyramid of Djoser",
+      "year": -2650,
+      "description": "Designed by Imhotep at Saqqara, the Step Pyramid was the world's first large-scale stone structure — a revolutionary leap from mud-brick mastabas to monumental stone architecture.",
+      "wikiSlug": "Pyramid_of_Djoser",
+      "commonsFile": "Saqqara_BW_5.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Before Djoser, royal tombs were flat-topped mud-brick mastabas. Imhotep stacked six progressively smaller mastabas to create a stepped structure 62 meters tall — an entirely new concept in architecture."
+        },
+        {
+          "label": "The Structure",
+          "text": "The Step Pyramid stands within a 15-hectare enclosed complex featuring colonnades, ceremonial courts, and chapels — all built in stone for the first time. Underground galleries contain over 40,000 stone vessels."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Step Pyramid proved that stone could replace mud-brick at monumental scale. Every subsequent pyramid — including the Great Pyramid — descended from this single experimental structure at Saqqara."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-nilometer",
+      "label": "Nilometer System",
+      "year": -2650,
+      "description": "Egyptians developed nilometers to measure the Nile's annual flood levels, enabling prediction of harvests and calculation of taxes — a critical tool of state administration.",
+      "wikiSlug": "Nilometer",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Nile's annual flood deposited fertile silt but varied in height each year. Too low meant drought; too high meant destructive flooding. Predicting the flood was essential for agricultural planning and tax assessment."
+        },
+        {
+          "label": "How It Worked",
+          "text": "Nilometers were stepped stone structures or vertical columns calibrated to measure water levels. The oldest known example was on Elephantine Island at Aswan. Measurements were reported to Memphis and used to set tax rates."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The nilometer system connected flood measurement to state taxation — a high flood meant a good harvest and higher taxes. The Palermo Stone records annual Nile levels from the earliest dynasties, showing how central this data was to governance."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-stone-vessel-production",
+      "label": "Stone Vessel Production",
+      "year": -2650,
+      "description": "Old Kingdom craftsmen produced stone vessels in industrial quantities — over 40,000 were found beneath the Step Pyramid alone, demonstrating extraordinary skill in working hard stones like diorite and alabaster.",
+      "wikiSlug": "Stone_vessel",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Stone vessel production was one of ancient Egypt's most technically demanding crafts. Artisans used copper drills and quartz sand abrasive to hollow out vessels from hard stones — a technique perfected over centuries."
+        },
+        {
+          "label": "The Achievement",
+          "text": "Over 40,000 stone vessels were found in galleries beneath the Step Pyramid, many dating to earlier dynasties. Old Kingdom workshops at Memphis and Saqqara produced vessels from granite, diorite, alabaster, and schist in standardized forms."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The scale of production reveals an organized craft industry with specialized workshops. The drilling and polishing techniques applied to small vessels were directly transferable to the large-scale stone cutting required for pyramid construction."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-sekhemkhet-pyramid",
+      "label": "Buried Pyramid of Sekhemkhet",
+      "year": -2645,
+      "description": "Djoser's successor Sekhemkhet began a second step pyramid at Saqqara, intended to surpass Djoser's, but it was abandoned unfinished — possibly due to the pharaoh's early death.",
+      "wikiSlug": "Pyramid_of_Sekhemkhet",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Sekhemkhet followed Djoser on the throne and immediately began his own step pyramid at Saqqara, planned to be seven tiers — taller than the Step Pyramid. His architect may have been Imhotep himself."
+        },
+        {
+          "label": "The Structure",
+          "text": "Only the first tier was completed before construction stopped. When archaeologists opened the sealed alabaster sarcophagus in 1954, it was empty — one of Egyptology's great mysteries."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Buried Pyramid shows that pyramid building was already a competitive royal enterprise by the Third Dynasty. Each pharaoh sought to surpass his predecessor — a pattern that would drive five centuries of monumental construction."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-imhotep-medicine",
+      "label": "Imhotep's Medical Practice",
+      "year": -2640,
+      "description": "Imhotep practiced medicine based on observation and diagnosis rather than magic alone. Later tradition credited him with authoring a medical text describing treatment of over 200 diseases.",
+      "wikiSlug": "Imhotep",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Egyptian medicine combined empirical treatment with magical incantations. Imhotep is credited with advancing the empirical side — later texts attributed to him describe surgical procedures, anatomy, and pharmacology."
+        },
+        {
+          "label": "The Practice",
+          "text": "The medical tradition associated with Imhotep emphasized examination, diagnosis, and treatment. Some scholars link him to early versions of the Edwin Smith Papyrus, which describes rational surgical procedures."
+        },
+        {
+          "label": "Legacy",
+          "text": "Imhotep was deified as the god of medicine. Temples at Saqqara and Philae attracted pilgrims seeking cures for centuries, and Greek visitors equated him with their own healing god Asclepius."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-sneferu",
+      "label": "Sneferu",
+      "year": -2613,
+      "endYear": -2589,
+      "description": "Founder of the Fourth Dynasty, Sneferu built more pyramid volume than any other pharaoh — the Meidum Pyramid, the Bent Pyramid, and the Red Pyramid at Dahshur — solving the engineering problems that made the Great Pyramid possible.",
+      "wikiSlug": "Sneferu",
+      "commonsFile": "Snefru_Eg_Mus_Kairo_2002.png",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Sneferu founded the Fourth Dynasty and reigned for about 24 years. Despite building three pyramids (more stone than any pharaoh in history), he was remembered in later tradition as a benevolent, accessible ruler."
+        },
+        {
+          "label": "The Pyramid Builder",
+          "text": "Sneferu's three pyramids at Meidum and Dahshur trace the evolution from step pyramid to true pyramid. The Bent Pyramid's angle change midway reveals engineers correcting course in real time. The Red Pyramid achieved the first true smooth-sided form."
+        },
+        {
+          "label": "Legacy",
+          "text": "Sneferu's engineering experiments directly enabled the Great Pyramid. His reign also saw major expeditions to Sinai for turquoise and Lebanon for cedar, and the earliest known depictions of Egyptian military campaigns."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-meidum-pyramid",
+      "label": "Meidum Pyramid",
+      "year": -2610,
+      "description": "Sneferu's first pyramid at Meidum began as a step pyramid and was later converted to a true pyramid, but partially collapsed — a dramatic lesson in the challenges of pyramid engineering.",
+      "wikiSlug": "Meidum",
+      "commonsFile": "Meidum_pyramid_004.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Meidum Pyramid may have been started by Huni (last Third Dynasty pharaoh) and completed by Sneferu. Originally a seven-stepped pyramid, it was later filled in to create smooth sides — but the outer casing collapsed."
+        },
+        {
+          "label": "The Structure",
+          "text": "Today the pyramid appears as a three-stepped tower surrounded by a massive rubble pile — the collapsed outer casing. The surrounding necropolis contains some of the earliest private tombs with painted decoration."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Meidum collapse taught Egyptian engineers that simply packing a step pyramid into a smooth shape was structurally unsound. This failure drove the new engineering approaches visible in the Bent and Red Pyramids."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-bent-pyramid",
+      "label": "Bent Pyramid",
+      "year": -2600,
+      "description": "Sneferu's Bent Pyramid at Dahshur changes angle midway from 54° to 43°, likely due to structural concerns — a visible record of ancient engineers correcting course during construction.",
+      "wikiSlug": "Bent_Pyramid",
+      "commonsFile": "Snefru%27s_Bent_Pyramid_in_Dahshur.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After the Meidum collapse, Sneferu started fresh at Dahshur with a true pyramid at a steep 54° angle. When cracks appeared in the limestone, the builders reduced the angle to 43° — creating the distinctive bent profile."
+        },
+        {
+          "label": "The Structure",
+          "text": "The Bent Pyramid retains most of its original limestone casing — the best-preserved of any Egyptian pyramid. It has two separate internal chambers accessed from both the north face and the west face, unique among pyramids."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Bent Pyramid is a textbook in trial-and-error engineering. The angle change shows Egyptian builders adapting in real time to structural problems — a crucial step toward the perfected geometry of the Great Pyramid."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-byblos-trade",
+      "label": "Byblos Cedar Trade",
+      "year": -2600,
+      "description": "Regular trade between Egypt and Byblos (in modern Lebanon) supplied cedar wood essential for shipbuilding, coffins, and temple construction — Egypt's most important foreign trade relationship.",
+      "wikiSlug": "Byblos",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Egypt had abundant stone and food but lacked quality timber. The cedar forests of Lebanon, accessible through the port of Byblos, provided the essential wood for large-scale construction, shipbuilding, and funerary equipment."
+        },
+        {
+          "label": "The Trade Route",
+          "text": "Egyptian ships sailed to Byblos carrying gold, papyrus, linen, and grain, returning with cedar logs, resin, and oil. Egyptian artifacts and royal inscriptions found at Byblos attest to centuries of close commercial ties."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Byblos trade was not optional — without cedar, Egypt could not build ocean-going ships or the large wooden elements used in pyramid construction (sledges, scaffolding, coffins). This trade drove Egypt's earliest foreign policy."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-papyrus",
+      "label": "Papyrus Writing Material",
+      "year": -2600,
+      "description": "By the Old Kingdom, papyrus had become Egypt's standard writing surface — enabling the bureaucratic record-keeping, literary production, and administrative correspondence that underpinned the state.",
+      "wikiSlug": "Papyrus",
+      "commonsFile": "Papyrus_sheets.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Made from the pith of the Cyperus papyrus plant growing abundantly in the Nile marshes, papyrus was processed by cutting, layering, and pressing strips into smooth sheets. The technology was developed in the Early Dynastic period."
+        },
+        {
+          "label": "Uses",
+          "text": "Old Kingdom papyrus served as the medium for administrative records, tax lists, census data, letters, religious texts, and literary works. It was lighter and more portable than clay tablets, giving Egypt an administrative advantage."
+        },
+        {
+          "label": "Legacy",
+          "text": "Papyrus remained the premier writing surface in the Mediterranean world for over 3,000 years. The word 'paper' derives from 'papyrus,' though paper uses a different manufacturing process. Egypt's papyrus monopoly was a source of trade wealth."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-hieratic",
+      "label": "Hieratic Script Developed",
+      "year": -2600,
+      "description": "Hieratic, a cursive form of hieroglyphs optimized for writing on papyrus with reed brushes, became the standard administrative script — faster and more practical than formal hieroglyphs.",
+      "wikiSlug": "Hieratic",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Hieroglyphs were detailed and beautiful but slow to carve or paint. Scribes needed a faster writing method for everyday administration. Hieratic simplified hieroglyphic signs into flowing, connected strokes suited to papyrus and reed brush."
+        },
+        {
+          "label": "The Script",
+          "text": "Written right to left, hieratic was the working script of the Egyptian bureaucracy — used for letters, accounts, medical texts, legal documents, and literature. Hieroglyphs remained the prestige script for temple walls and monuments."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Hieratic made Egyptian literacy practical for administration. The entire Old Kingdom bureaucracy — tax records, labor assignments, supply lists — ran on hieratic. Without it, managing a pyramid workforce of 20,000 would have been impossible."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-mummification",
+      "label": "Mummification Practices",
+      "year": -2600,
+      "description": "Old Kingdom Egyptians developed elaborate mummification techniques — organ removal, natron desiccation, and linen wrapping — to preserve the body for the afterlife.",
+      "wikiSlug": "Ancient_Egyptian_funerary_practices",
+      "commonsFile": "Canopic_jars_British_Museum.jpg",
+      "tier": 1,
+      "tags": [
+        "science"
+      ],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Egyptians believed the ka (life force) and ba (personality) needed a preserved body to inhabit in the afterlife. Early mummification was crude, but Old Kingdom embalmers refined techniques for removing organs and desiccating the body."
+        },
+        {
+          "label": "The Process",
+          "text": "The brain was extracted through the nose with hooks. Internal organs were removed and stored in canopic jars. The body was packed in natron for 40 days, then wrapped in linen bandages with amulets. The full process took about 70 days."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Mummification was expensive and initially reserved for royalty and the elite. Its gradual spread to lower classes over centuries reflects the democratization of afterlife beliefs — a process completed during the First Intermediate Period."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-sinai-mining",
+      "label": "Sinai Mining Expeditions",
+      "year": -2600,
+      "description": "Old Kingdom pharaohs sent regular mining expeditions to the Sinai Peninsula for turquoise and copper — essential resources for jewelry, tools, and ritual objects.",
+      "wikiSlug": "Serabit_el-Khadim",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Sinai Peninsula contained Egypt's most accessible sources of turquoise (prized for jewelry) and copper ore. Inscriptions at mining sites like Wadi Maghara and Serabit el-Khadim record expeditions from the Third through Sixth Dynasties."
+        },
+        {
+          "label": "The Expeditions",
+          "text": "Royal expeditions of hundreds of workers camped at mining sites for months. Rock-cut inscriptions show pharaohs from Djoser through Pepi II sending expeditions. A temple to Hathor, goddess of turquoise, was built at Serabit el-Khadim."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Sinai mining was a major state enterprise requiring military protection, supply logistics, and skilled labor. The rock inscriptions are valuable historical sources, and the Hathor temple later became the site where early alphabetic writing first appeared."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-sed-festival",
+      "label": "Sed Festival (Heb Sed)",
+      "year": -2600,
+      "description": "The Sed Festival was a royal jubilee ceremony, typically held after 30 years of rule, in which the pharaoh ritually renewed his physical and divine power through athletic tests and re-coronation rites.",
+      "wikiSlug": "Sed_festival",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-oke-basin-irrigation",
+      "label": "Basin Irrigation System",
+      "year": -2600,
+      "description": "Old Kingdom engineers formalized basin irrigation — a system of earthen dikes and channels that captured annual Nile floodwaters in large basins, saturating fields before planting. This system generated the agricultural surplus that funded pyramid construction.",
+      "wikiSlug": "Irrigation_in_Egypt",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-oke-red-pyramid",
+      "label": "Red Pyramid",
+      "year": -2590,
+      "description": "Sneferu's Red Pyramid at Dahshur was the world's first successful true pyramid — a smooth-sided structure that solved the engineering challenges of its predecessors.",
+      "wikiSlug": "Red_Pyramid",
+      "commonsFile": "Dahschur_-_Rote_Pyramide_3.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After the Bent Pyramid's mid-construction correction, Sneferu commissioned a third pyramid at Dahshur using the proven 43° angle from the start. The red-tinged limestone of its exposed core gives it its modern name."
+        },
+        {
+          "label": "The Structure",
+          "text": "At 105 meters tall, the Red Pyramid was the largest structure in the world at the time of its completion. Its three internal chambers use a corbelled ceiling technique that would be refined in the Great Pyramid."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Red Pyramid proved that a true smooth-sided pyramid could be built safely at large scale. Its success gave Khufu's architects the confidence and knowledge to attempt the Great Pyramid just one generation later."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-khufu",
+      "label": "Khufu",
+      "year": -2589,
+      "endYear": -2566,
+      "description": "Khufu (Cheops) commissioned the Great Pyramid of Giza — the only surviving wonder of the ancient world and the pinnacle of Old Kingdom engineering.",
+      "wikiSlug": "Khufu",
+      "commonsFile": "Khufu_CEM.jpg",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Son of Sneferu, Khufu inherited a state perfected for pyramid building. Despite commissioning the largest pyramid ever built, remarkably little is known about him — the only confirmed likeness is a tiny 7.5 cm ivory figurine."
+        },
+        {
+          "label": "The Great Pyramid",
+          "text": "Khufu directed the construction of the Great Pyramid over approximately 20 years, mobilizing an estimated 20,000-30,000 workers per season. The project required precise surveying, quarrying, and logistics on an unprecedented scale."
+        },
+        {
+          "label": "Legacy",
+          "text": "Later tradition painted Khufu as a tyrant, but archaeological evidence suggests his workers were well-fed and cared for. His pyramid remained the tallest structure on Earth for 3,800 years — the longest such record in history."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-great-pyramid",
+      "label": "Great Pyramid of Giza",
+      "year": -2560,
+      "description": "Completed for Pharaoh Khufu, the Great Pyramid stood 146 meters tall and remained the tallest structure on Earth for over 3,800 years. It is the only surviving wonder of the ancient world.",
+      "wikiSlug": "Great_Pyramid_of_Giza",
+      "commonsFile": "Kheops-Pyramid.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Three generations of pyramid experimentation — from Djoser's Step Pyramid through Sneferu's three pyramids — culminated in the Great Pyramid. Egypt's centralized state, agricultural surplus, and engineering knowledge all reached their peak simultaneously."
+        },
+        {
+          "label": "The Structure",
+          "text": "Built from approximately 2.3 million limestone blocks averaging 2.5 tons each, the Great Pyramid's base is level to within 2.1 centimeters across 230 meters. Its internal chambers include the Grand Gallery, King's Chamber with granite beams, and mysterious air shafts."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Great Pyramid was the tallest structure on Earth until Lincoln Cathedral's spire in 1311 CE. It represents the absolute peak of the Old Kingdom state's organizational capacity — a feat that was never repeated, even by later Egyptian civilizations."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-hemiunu",
+      "label": "Hemiunu",
+      "year": -2560,
+      "description": "Khufu's vizier and the architect of the Great Pyramid. A grandson of Sneferu, Hemiunu oversaw the logistics of quarrying, transporting, and placing 2.3 million limestone blocks. His large limestone statue, found in his mastaba at Giza, depicts him as a powerful, heavyset official.",
+      "wikiSlug": "Hemiunu",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Hemiunu was a royal prince — son of Prince Nefermaat and grandson of Pharaoh Sneferu. He held the title 'Overseer of All Construction Projects of the King,' making him the chief architect and logistics commander of the Great Pyramid."
+        },
+        {
+          "label": "The Achievement",
+          "text": "Coordinating the Great Pyramid's construction required managing a workforce of 20,000-30,000 workers, organizing stone quarries, supply chains, and precision surveying. Hemiunu's mastaba near the Great Pyramid reflects his status as the most important official of Khufu's reign."
+        },
+        {
+          "label": "Legacy",
+          "text": "Hemiunu's seated limestone statue — one of the finest private sculptures of the Old Kingdom — shows a heavyset, confident man. He is one of the few individuals from the pyramid age whose role in the construction project can be identified by name."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-bread-beer-economy",
+      "label": "Bread and Beer Economy",
+      "year": -2560,
+      "description": "Old Kingdom workers were paid in bread and beer rather than money. The state bakeries and breweries at Giza produced thousands of loaves and jars of beer daily, forming the basis of the labor payment system that built the pyramids.",
+      "wikiSlug": "Ancient_Egyptian_cuisine",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-oke-khafre",
+      "label": "Khafre",
+      "year": -2558,
+      "endYear": -2532,
+      "description": "Khafre built the second-largest pyramid at Giza and is traditionally credited with commissioning the Great Sphinx. His valley temple features polished granite walls that still stand.",
+      "wikiSlug": "Khafre",
+      "commonsFile": "Khafre_statue.jpg",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Son of Khufu, Khafre ruled for about 26 years. His pyramid appears taller than Khufu's because it sits on higher ground, though it is actually 3 meters shorter. The finest surviving royal statue from the Old Kingdom depicts him."
+        },
+        {
+          "label": "Building Program",
+          "text": "Beyond his pyramid, Khafre built an elaborate mortuary complex including a valley temple with polished granite walls, a causeway, and likely the Great Sphinx — carved from a natural limestone outcrop with Khafre's face."
+        },
+        {
+          "label": "Legacy",
+          "text": "Khafre's diorite statue showing Horus protecting the king is one of ancient Egypt's masterpieces. His reign represents the peak of Fourth Dynasty power, before resources and ambition began to decline."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-giza-workers-village",
+      "label": "Giza Workers' Village",
+      "year": -2550,
+      "description": "Archaeologist Mark Lehner's excavation of the Giza workers' village revealed a well-organized settlement with bakeries, breweries, and medical facilities — proving the pyramids were built by skilled laborers, not slaves.",
+      "wikiSlug": "Giza_pyramid_complex",
+      "commonsFile": "Workers_village,_Giza.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "For centuries, the popular myth held that slaves built the pyramids. Excavations south of the Sphinx beginning in 1988 revealed a permanent settlement housing the workforce — with evidence of organized, state-supported labor."
+        },
+        {
+          "label": "What Was Found",
+          "text": "The village included large bakeries producing bread, breweries making beer, fish-processing facilities, and a copper workshop. Workers received medical care — healed bones show successful treatment of fractures and even amputations."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The workers' village transformed our understanding of pyramid construction. These were skilled, rotating crews organized by region and fed by the state — not slave gangs. Their cemetery shows they were honored with burial near the pyramids they built."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-giza-causeway-valley-temple",
+      "label": "Giza Causeways and Valley Temples",
+      "year": -2550,
+      "description": "Each Giza pyramid was connected to the Nile by a covered causeway leading to a valley temple where the pharaoh's body was received and purified. Khafre's valley temple, built from massive polished granite blocks, is the best preserved of the three.",
+      "wikiSlug": "Egyptian_pyramid_construction_techniques",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-oke-khufu-ship",
+      "label": "Khufu's Solar Barque",
+      "year": -2550,
+      "description": "A full-size ceremonial ship was buried in a pit beside the Great Pyramid — 43 meters long, made of cedar, and perfectly preserved for 4,500 years.",
+      "wikiSlug": "Khufu_ship",
+      "commonsFile": "Solar_boat_of_Khufu_01.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Egyptians believed the pharaoh needed a boat to travel with Ra across the sky in the afterlife. Several boat pits were dug around the Great Pyramid to serve this purpose."
+        },
+        {
+          "label": "The Ship",
+          "text": "Discovered in 1954 in a sealed pit, the ship was disassembled into 1,224 pieces of Lebanese cedar. Reassembled, it measured 43.6 meters — one of the largest and best-preserved ancient vessels ever found."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The solar barque demonstrates both Egyptian woodworking mastery and the depth of afterlife belief. The ship was fully functional — it could have sailed the Nile. Its cedar wood confirms the importance of the Byblos trade route."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-sphinx",
+      "label": "Great Sphinx",
+      "year": -2540,
+      "description": "The Great Sphinx of Giza — a lion with a human head — was carved from a single limestone outcrop during Khafre's reign. At 73 meters long, it remains the largest monolithic statue in the world.",
+      "wikiSlug": "Great_Sphinx_of_Giza",
+      "commonsFile": "Great_Sphinx_of_Giza_-_20080716a.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Sphinx was carved from a natural limestone ridge on the Giza plateau, likely during Khafre's reign based on its proximity to his valley temple. The face may represent Khafre himself, though some scholars dispute this."
+        },
+        {
+          "label": "The Structure",
+          "text": "At 73 meters long and 20 meters high, the Sphinx is the largest monolithic statue ever carved. The body is a lion symbolizing royal power; the human head wears the nemes headdress of a pharaoh. It was originally painted in vivid colors."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Sphinx guarded the Giza necropolis for 4,500 years, becoming one of the most recognizable symbols of ancient civilization. By the New Kingdom, it was already an ancient monument — Thutmose IV cleared sand from it and erected a dream stela between its paws."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-menkaure",
+      "label": "Menkaure",
+      "year": -2532,
+      "endYear": -2503,
+      "description": "Menkaure built the smallest of the three Giza pyramids, featuring a distinctive granite lower casing. His reign marks the beginning of a shift away from massive pyramid construction.",
+      "wikiSlug": "Menkaure",
+      "commonsFile": "GD-EG-Caire-Mus%C3%A9e006.JPG",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Son of Khafre, Menkaure completed the trio of Great Pyramids at Giza. Later tradition remembered him as a just and pious ruler — in contrast to stories about Khufu and Khafre as tyrants."
+        },
+        {
+          "label": "The Pyramid",
+          "text": "At 65 meters, Menkaure's pyramid is less than half the height of Khufu's. Its lower courses were cased in granite rather than limestone — a lavish but expensive choice. The mortuary temple contained some of the finest Old Kingdom sculpture."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The smaller scale may reflect declining royal power or a deliberate choice. After Menkaure, no pharaoh attempted anything close to the Giza scale. The golden age of pyramid building was over — though pyramid construction continued for centuries."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-meresankh-iii",
+      "label": "Meresankh III",
+      "year": -2530,
+      "description": "Granddaughter of Khufu and wife of Khafre, Meresankh III was buried in one of the most elaborately decorated mastabas at Giza. Its rock-cut chambers contain carved statues, painted scenes of daily life, and some of the finest preserved art from the Fourth Dynasty.",
+      "wikiSlug": "Meresankh_III",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-oke-khamerernebty-ii",
+      "label": "Khamerernebty II",
+      "year": -2530,
+      "description": "Wife of Pharaoh Menkaure, Khamerernebty II appears alongside him in the famous Menkaure Dyad statue — one of the masterpieces of Old Kingdom sculpture. The dyad shows the royal couple standing side by side with remarkable naturalism.",
+      "wikiSlug": "Khamerernebty_II",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-oke-egyptian-calendar-reform",
+      "label": "Scribal Schools Established",
+      "year": -2500,
+      "description": "By the Fifth Dynasty, formal scribal schools trained young men in hieratic writing, mathematics, and administration — creating the professional class that ran the Egyptian state.",
+      "wikiSlug": "Education_in_ancient_Egypt",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Running the Old Kingdom required thousands of literate administrators to manage taxes, labor corvées, supply chains, and legal records. Scribal schools attached to temples and the palace trained the bureaucratic elite."
+        },
+        {
+          "label": "What They Learned",
+          "text": "Students spent years copying literary texts, practicing arithmetic (especially fractions), learning administrative formats, and studying law. Literacy was rare — perhaps 1-2% of the population — making scribes a privileged class."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The scribal class was the backbone of the Egyptian state. Their training texts — later copied as literary classics — preserved administrative knowledge across centuries. The Instructions genre (wisdom literature) began as scribal school exercises."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-nubian-trade-routes",
+      "label": "Nubian Trade Routes",
+      "year": -2500,
+      "description": "Old Kingdom Egypt maintained extensive trade with Nubia for gold, ebony, incense, exotic animals, and mercenary soldiers — a commercial relationship that shaped both civilizations.",
+      "wikiSlug": "Nubia",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Nubia — the region south of the First Cataract at Aswan — was Egypt's most important trading partner for luxury goods. The governors of Elephantine organized expeditions south through increasingly challenging Nile cataracts."
+        },
+        {
+          "label": "The Trade",
+          "text": "Egyptian expeditions brought back gold, ebony, ivory, incense, animal skins, and enslaved people. They also recruited Nubian mercenaries — prized archers called 'Medjay' who served in Egyptian armies and police forces for centuries."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Nubian trade relationship was one of the longest-running in ancient history. Nubian gold funded Old Kingdom building projects, and the cultural exchange between Egypt and Nubia shaped both civilizations for millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-peseshet",
+      "label": "Peseshet",
+      "year": -2500,
+      "description": "Peseshet held the title 'Lady Overseer of Female Physicians,' making her possibly the earliest known female doctor in history. Her title appears on a false door stela in her son's mastaba at Giza, dating to the late Fourth or early Fifth Dynasty.",
+      "wikiSlug": "Peseshet",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-oke-wadi-hammamat",
+      "label": "Wadi Hammamat Quarry Expeditions",
+      "year": -2500,
+      "description": "Old Kingdom pharaohs sent large quarrying expeditions to Wadi Hammamat in the Eastern Desert, extracting greywacke and granite for sarcophagi, statues, and temple construction. Rock inscriptions left by expedition leaders survive on the cliff walls.",
+      "wikiSlug": "Wadi_Hammamat",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-oke-opening-mouth",
+      "label": "Opening of the Mouth Ritual",
+      "year": -2500,
+      "description": "A funerary ritual in which a priest touched the mouth, eyes, ears, and nose of the mummy or statue with ritual implements to restore the senses for the afterlife. First attested in the Old Kingdom, it remained central to Egyptian burial practice for over two millennia.",
+      "wikiSlug": "Opening_of_the_mouth_ceremony",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-oke-userkaf",
+      "label": "Userkaf",
+      "year": -2494,
+      "endYear": -2487,
+      "description": "Founder of the Fifth Dynasty, Userkaf shifted royal religious focus from pyramid building to solar worship, building the first sun temple at Abu Gorab in honor of Ra.",
+      "wikiSlug": "Userkaf",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Userkaf founded the Fifth Dynasty, possibly through a priestly lineage connected to the sun god Ra at Heliopolis. His small pyramid at Saqqara marked a dramatic reduction from Fourth Dynasty scale."
+        },
+        {
+          "label": "Solar Revolution",
+          "text": "Userkaf built the first sun temple at Abu Gorab — an open-air temple with a large obelisk rather than a traditional enclosed shrine. This inaugurated the Fifth Dynasty's signature building program."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The shift from massive pyramids to sun temples reflected growing priestly influence and a new theology: pharaohs were now 'Son of Ra' rather than simply incarnations of Horus. This religious evolution reshaped royal ideology."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-sahure",
+      "label": "Sahure",
+      "year": -2487,
+      "endYear": -2475,
+      "description": "Second pharaoh of the Fifth Dynasty, Sahure launched naval expeditions to Punt and Lebanon, and his pyramid complex at Abusir featured some of the finest relief carvings of the Old Kingdom.",
+      "wikiSlug": "Sahure",
+      "commonsFile": "Relief_of_Sahure_and_a_Nome_god.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Sahure moved the royal necropolis from Giza and Saqqara to Abusir. His pyramid was modest compared to Fourth Dynasty standards, but his mortuary temple reliefs were among the most sophisticated artistic achievements of the Old Kingdom."
+        },
+        {
+          "label": "Trade and Expeditions",
+          "text": "Sahure sent the first documented Egyptian naval expedition to Punt (Horn of Africa), returning with myrrh, malachite, and electrum. He also maintained the cedar trade with Byblos and quarrying expeditions to Sinai."
+        },
+        {
+          "label": "Legacy",
+          "text": "Sahure's reliefs showing his fleet returning from Punt are the earliest known depictions of an Egyptian sea voyage. His reign exemplifies the Fifth Dynasty's shift from pyramid building to trade expansion and religious patronage."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-punt-expedition",
+      "label": "Expedition to Punt",
+      "year": -2480,
+      "description": "Sahure organized the first documented Egyptian expedition to the Land of Punt (Horn of Africa), returning with myrrh, gold, and exotic goods — beginning a trade tradition that would last over a thousand years.",
+      "wikiSlug": "Land_of_Punt",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Punt — probably in modern Eritrea, Djibouti, or Somalia — was known to Egyptians as 'God's Land' for its abundant incense trees. Sahure's expedition was the first reliably documented voyage there."
+        },
+        {
+          "label": "The Expedition",
+          "text": "Ships sailed from Red Sea ports carrying Egyptian trade goods. They returned with myrrh trees, frankincense, electrum, ebony, and exotic animals. Reliefs in Sahure's mortuary temple at Abusir depict the returning fleet."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Punt trade supplied incense essential for temple rituals and funerary practices. Sahure's expedition began a tradition that continued through the New Kingdom — Hatshepsut's famous Punt expedition was the most elaborate."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-abusir-pyramids",
+      "label": "Abusir Pyramids",
+      "year": -2480,
+      "description": "Fifth Dynasty pharaohs built their royal necropolis at Abusir, between Giza and Saqqara. Though smaller than Fourth Dynasty pyramids, the Abusir complex produced rich papyrus archives — the oldest surviving administrative documents from ancient Egypt.",
+      "wikiSlug": "Abusir",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-oke-sun-temples",
+      "label": "Sun Temples at Abu Gorab",
+      "year": -2450,
+      "description": "Fifth Dynasty pharaohs built sun temples at Abu Gorab honoring the sun god Ra, reflecting the growing importance of solar theology. Only two of six known temples have been excavated.",
+      "wikiSlug": "Abu_Gorab",
+      "commonsFile": "Abu_Gorab_3.jpg",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Fifth Dynasty's devotion to Ra was unprecedented. Six pharaohs built sun temples at Abu Gorab, north of Saqqara — open-air structures centered on a massive obelisk standing on a raised platform."
+        },
+        {
+          "label": "The Temples",
+          "text": "The best-preserved temple, built by Niuserre, features a large courtyard with a squat obelisk on a platform, an altar for animal sacrifice, and a stone causeway. The Season Room contained painted reliefs of the agricultural cycle."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The sun temples show that religious power was shifting from the pharaoh's personal cult to the organized priesthood of Ra at Heliopolis. This theological shift would have lasting consequences for royal authority."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-mastaba-decoration",
+      "label": "Painted Mastaba Tombs",
+      "year": -2450,
+      "description": "Old Kingdom nobles built elaborately decorated mastaba tombs around the pyramids, with painted scenes of daily life — farming, hunting, feasting — that provide the richest visual record of ancient Egyptian life.",
+      "wikiSlug": "Mastaba",
+      "commonsFile": "Meidoum_geese.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "While pharaohs built pyramids, their officials built flat-roofed mastaba tombs nearby. By the Fifth Dynasty, these tombs featured elaborate painted and carved wall decorations depicting the tomb owner's life and afterlife provisions."
+        },
+        {
+          "label": "What Was Depicted",
+          "text": "Scenes show farming, fishing, hunting, craft workshops, feasts, music, dance, and family life. The Tomb of Ti at Saqqara and the mastaba of Mereruka are among the most elaborate, with hundreds of figures in vivid detail."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "These tomb paintings are our primary source for understanding daily life in the Old Kingdom. They show us what people ate, how they dressed, what crafts they practiced, and how they imagined the afterlife — preserving a vanished world in extraordinary detail."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-ptahshepses",
+      "label": "Ptahshepses",
+      "year": -2450,
+      "description": "A Fifth Dynasty official who rose from royal nursery companion to vizier and married Princess Khamerernebty. His enormous mastaba at Abusir — one of the largest non-royal tombs of the Old Kingdom — reflects the growing power and independence of high officials.",
+      "wikiSlug": "Ptahshepses_(vizier,_Abusir)",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-oke-djedkare-isesi",
+      "label": "Djedkare Isesi",
+      "year": -2414,
+      "endYear": -2375,
+      "description": "A Fifth Dynasty pharaoh who ruled for nearly 40 years and reformed Egyptian administration by appointing provincial officials outside the royal family. His reign accelerated the decentralization that would eventually weaken pharaonic authority.",
+      "wikiSlug": "Djedkare_Isesi",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-oke-palermo-stone",
+      "label": "Palermo Stone",
+      "year": -2400,
+      "description": "The Palermo Stone records the annals of early pharaohs — Nile flood levels, temple building, military campaigns, and festivals — one of the most important primary sources for Old Kingdom history.",
+      "wikiSlug": "Palermo_Stone",
+      "commonsFile": "Palermo_Stone,_front.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Palermo Stone is a fragment of a basalt stela originally listing every pharaoh from the First Dynasty through the Fifth Dynasty, recording annual events, Nile flood levels, and royal activities year by year."
+        },
+        {
+          "label": "What It Records",
+          "text": "Each year's entry notes the Nile flood height (in cubits and fingers), major festivals, temple foundations, military campaigns, and cattle counts. It provides the framework for reconstructing Old Kingdom chronology."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Palermo Stone is one of history's earliest systematic attempts at record-keeping — an ancient Egyptian attempt to document their own past. It remains a primary source for dating Old Kingdom pharaohs and events."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-ptahhotep",
+      "label": "Instructions of Ptahhotep",
+      "year": -2400,
+      "description": "The vizier Ptahhotep composed one of the world's oldest wisdom texts — a collection of maxims on ethics, leadership, and proper conduct that became a classic of Egyptian literature.",
+      "wikiSlug": "The_Maxims_of_Ptahhotep",
+      "commonsFile": "Prisse_papyrus.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Ptahhotep served as vizier under Djedkare Isesi in the Fifth Dynasty. His Instructions, presented as advice from an aging father to his son, established the Egyptian wisdom literature genre that would endure for two millennia."
+        },
+        {
+          "label": "The Text",
+          "text": "Thirty-seven maxims cover topics from table manners to leadership: 'If you are a leader, listen calmly to the plea of a petitioner. Do not rebuff him before he has emptied his body of what he planned to tell you.'"
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Instructions of Ptahhotep is among the oldest known works of moral philosophy. Its emphasis on justice, humility, and restraint influenced later Egyptian wisdom literature and bears striking parallels to the biblical Book of Proverbs."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-unas",
+      "label": "Unas",
+      "year": -2375,
+      "endYear": -2345,
+      "description": "Last pharaoh of the Fifth Dynasty, Unas built a modest pyramid at Saqqara but revolutionized Egyptian religion by inscribing the first Pyramid Texts on its interior walls.",
+      "wikiSlug": "Unas",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Unas was the last ruler of the Fifth Dynasty. His pyramid at Saqqara was the smallest of the dynasty, but its religious significance far outweighed its physical size."
+        },
+        {
+          "label": "The Innovation",
+          "text": "Unas ordered 228 spells carved into the walls of his burial chamber in blue-painted hieroglyphs. This was the first time religious texts appeared inside a pyramid — creating the tradition of inscribed royal tombs."
+        },
+        {
+          "label": "Legacy",
+          "text": "Every subsequent Old Kingdom pyramid included Pyramid Texts, each adding new spells. The tradition evolved into the Coffin Texts and eventually the Book of the Dead — Egypt's most famous funerary literature."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-pyramid-texts",
+      "label": "Pyramid Texts",
+      "year": -2353,
+      "description": "The oldest known religious texts in the world were carved inside the pyramid of Unas at Saqqara — a collection of spells to guide the pharaoh's soul through the afterlife.",
+      "wikiSlug": "Pyramid_Texts",
+      "commonsFile": "Pyramid_texts_Teti_-_1.jpg",
+      "tier": 1,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Before Unas, pyramid interiors were undecorated. Unas broke this tradition by carving 228 spells into the walls of his burial chamber — the earliest large-scale religious text in human history."
+        },
+        {
+          "label": "The Texts",
+          "text": "The spells describe the pharaoh's journey through the underworld, his transformation into a star, his ascent to join Ra in the sky, and his identification with Osiris. They reflect a complex cosmology combining solar and Osirian beliefs."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Pyramid Texts are the foundation of all subsequent Egyptian funerary literature — the Coffin Texts and Book of the Dead descended from them. They preserve the oldest known religious ideas in written form, predating the Vedas by over a millennium."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-teti",
+      "label": "Teti",
+      "year": -2345,
+      "endYear": -2323,
+      "description": "Founder of the Sixth Dynasty, Teti was possibly assassinated by his own bodyguard — an early sign of the political instability that would eventually bring down the Old Kingdom.",
+      "wikiSlug": "Teti",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Teti married a daughter of Unas to legitimize his claim. He founded the Sixth Dynasty and built his pyramid at Saqqara with Pyramid Texts. The historian Manetho claims he was murdered by his bodyguard."
+        },
+        {
+          "label": "Political Instability",
+          "text": "If the assassination account is accurate, Teti's murder represents the first known regicide in Egyptian history. His successor Userkare may have been the usurper, though Teti's son Pepi I eventually reclaimed the throne."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Teti's possible assassination suggests that by the Sixth Dynasty, the Old Kingdom's political system was already under strain. Royal authority was no longer unquestioned — a trend that would accelerate over the next century."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-mereruka",
+      "label": "Mereruka",
+      "year": -2340,
+      "description": "Vizier to Pharaoh Teti and married to a royal princess, Mereruka built the largest mastaba tomb at Saqqara — 32 rooms decorated with vivid painted reliefs of hunting, fishing, craft workshops, and daily life that rank among the finest art of the Old Kingdom.",
+      "wikiSlug": "Mereruka",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-oke-pepi-i",
+      "label": "Pepi I",
+      "year": -2321,
+      "endYear": -2287,
+      "description": "Pepi I reigned for about 34 years and expanded Egyptian influence into Nubia and the Sinai. His general Weni led the first major Egyptian military campaign into Canaan.",
+      "wikiSlug": "Pepi_I_Meryre",
+      "commonsFile": "Pepi_I_and_his_son.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Pepi I restored stability after the dynastic turmoil following Teti's murder. He built extensively throughout Egypt and maintained trade networks with Byblos, Nubia, and Punt. His pyramid at South Saqqara contained Pyramid Texts."
+        },
+        {
+          "label": "Military Campaigns",
+          "text": "His general Weni led an army — including Nubian mercenaries — into southern Canaan five times, the first large-scale Egyptian military operations outside the Nile Valley. Weni's autobiography is a key source for Sixth Dynasty history."
+        },
+        {
+          "label": "Legacy",
+          "text": "Pepi I's long reign maintained the Old Kingdom system, but his reliance on provincial nomarchs to manage the kingdom increased their independent power — planting seeds of the eventual collapse."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-weni",
+      "label": "Weni the Elder",
+      "year": -2300,
+      "description": "Weni served three pharaohs as judge, general, and canal builder. His autobiographical tomb inscription is one of the most important primary sources for Old Kingdom history.",
+      "wikiSlug": "Weni",
+      "tier": 3,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Starting as a minor official under Teti, Weni rose through the ranks to become one of Egypt's most powerful administrators, serving under Teti, Pepi I, and Merenre I. His career spanned the full range of Old Kingdom government."
+        },
+        {
+          "label": "Military Commander",
+          "text": "Weni led multiple campaigns into Canaan with an army of tens of thousands, including Nubian mercenaries. His inscription describes the troops singing a victory song — one of the earliest known military songs."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Weni's autobiography, carved on his tomb wall at Abydos, provides the most detailed account of Old Kingdom administration, military organization, and legal proceedings. It shows how a commoner could rise to the highest ranks through talent."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-copper-statue-pepi",
+      "label": "Copper Statues of Pepi I",
+      "year": -2300,
+      "description": "Two life-size copper statues of Pepi I and his son — the oldest known large-scale metal statues in the world — demonstrate Old Kingdom mastery of metalworking technology.",
+      "wikiSlug": "Pepi_I_Meryre",
+      "commonsFile": "Merenre_statue_Cairo.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Egyptian metalworkers had been casting small bronze and copper objects for centuries. The life-size statues of Pepi I and his son Merenre represent a quantum leap in scale and technique."
+        },
+        {
+          "label": "The Statues",
+          "text": "Found at Hierakonpolis, the larger statue stands about 1.8 meters. They were made by hammering copper sheets over a wooden core — a technique requiring enormous skill. The eyes were inlaid with obsidian and limestone."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "These statues predate any comparable large-scale metalwork from other civilizations by centuries. They demonstrate that Old Kingdom Egypt had metallurgical expertise far beyond what surviving artifacts typically suggest."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-harkhuf",
+      "label": "Harkhuf's Nubian Expeditions",
+      "year": -2280,
+      "description": "Governor Harkhuf led four trading expeditions to Nubia, bringing back incense, ebony, oils, and a dancing dwarf that so delighted the young Pepi II that the pharaoh's letter was carved on Harkhuf's tomb.",
+      "wikiSlug": "Harkhuf",
+      "tier": 2,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Harkhuf was governor of Upper Egypt at Elephantine, responsible for organizing trade expeditions into Nubia. His four journeys deep into central Africa are the most detailed accounts of Old Kingdom African exploration."
+        },
+        {
+          "label": "The Dancing Dwarf",
+          "text": "On his fourth expedition, Harkhuf captured or traded for a dancing pygmy. Young Pepi II wrote an excited letter demanding the dwarf be brought safely: 'Watch that he doesn't fall into the water!' This letter was so treasured that Harkhuf carved it on his tomb."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Harkhuf's expeditions show the extent of Egypt's African trade networks. His tomb inscription and Pepi II's letter are among the most human documents from the Old Kingdom — a rare glimpse past royal propaganda into genuine personality."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-pepi-ii",
+      "label": "Pepi II",
+      "year": -2278,
+      "endYear": -2184,
+      "description": "Pepi II became pharaoh as a child and reigned for approximately 94 years — the longest confirmed reign in recorded history. The erosion of central authority during his rule led to the Old Kingdom's collapse.",
+      "wikiSlug": "Pepi_II_Neferkare",
+      "commonsFile": "Pepi_II_and_his_mother.jpg",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Pepi II ascended the throne at about age six and reigned for approximately 94 years — the longest documented reign in history. His mother Ankhesenpepi II served as regent during his minority."
+        },
+        {
+          "label": "The Long Decline",
+          "text": "As Pepi II aged, provincial nomarchs consolidated hereditary power and stopped sending tribute. The central bureaucracy weakened, building projects declined, and Nubian trade routes deteriorated. Multiple low Nile floods caused famine."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Pepi II's reign is a case study in institutional decay. A ruler too old to govern effectively, a court unable to replace him, and a provincial system designed for loyal appointees — not hereditary lords — combined to end the pyramid age."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-nomarch-power",
+      "label": "Rise of the Nomarchs",
+      "year": -2250,
+      "description": "Provincial governors (nomarchs) accumulated hereditary power, building their own tombs rivaling royal ones and maintaining private armies — gradually hollowing out pharaonic authority.",
+      "wikiSlug": "Nomarch",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Old Kingdom nomarchs were originally appointed by the pharaoh to administer Egypt's 42 provinces (nomes). Over the Fifth and Sixth Dynasties, these positions became hereditary and nomarchs began acting as independent lords."
+        },
+        {
+          "label": "What Changed",
+          "text": "Nomarchs built elaborate decorated tombs in their home provinces (rather than at the royal necropolis), maintained private armies, collected taxes locally, and ceased sending full tribute to Memphis. Some adopted royal prerogatives."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The rise of the nomarchs is the political story of the Old Kingdom's collapse. Central authority was not destroyed by invasion but slowly drained by the very officials tasked with maintaining it — a pattern that has repeated throughout history."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-famine-relief",
+      "label": "Famine and Low Nile Floods",
+      "year": -2200,
+      "description": "A series of abnormally low Nile floods caused widespread famine across Egypt, contributing to the collapse of central authority and the social upheaval of the First Intermediate Period.",
+      "wikiSlug": "4.2-kiloyear_event",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Egypt's agricultural system depended entirely on the annual Nile flood. Climate data from lake sediments and ice cores shows a prolonged drought across the eastern Mediterranean beginning around 2200 BCE — the 4.2 kiloyear event."
+        },
+        {
+          "label": "The Impact",
+          "text": "Provincial tomb inscriptions describe famine: 'I gave bread to the hungry and clothing to the naked. I buried the dead. When Upper Egypt was a desert, I did not allow my nome to go hungry.' These are among the earliest recorded humanitarian crises."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The 4.2 kiloyear drought affected civilizations across the ancient world — the Akkadian Empire in Mesopotamia collapsed at roughly the same time. It was one of history's first climate-driven political crises."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-old-kingdom-collapse",
+      "label": "Old Kingdom Collapse",
+      "year": -2181,
+      "description": "The Old Kingdom dissolved as central authority collapsed following Pepi II's death. Provincial nomarchs became independent rulers, and Egypt entered the First Intermediate Period.",
+      "wikiSlug": "First_Intermediate_Period_of_Egypt",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Multiple factors converged: Pepi II's extreme old age left a power vacuum, hereditary nomarchs owed no loyalty to his successors, and a series of low Nile floods caused widespread famine. The brief Seventh and Eighth Dynasties at Memphis held nominal power but controlled little."
+        },
+        {
+          "label": "What Happened",
+          "text": "After Pepi II's death, Egypt fragmented into competing power centers. The Memphis-based court lost control of the provinces. Within decades, rival dynastic lines emerged at Herakleopolis and Thebes, while local warlords fought over resources."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Old Kingdom collapse was not a foreign invasion but an internal systems failure — the first recorded case of a major civilization undone by institutional decay. It remained a traumatic cultural memory that shaped Egyptian political thought for millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-herakleopolis-dynasty",
+      "label": "Herakleopolitan Dynasty",
+      "year": -2160,
+      "endYear": -2055,
+      "description": "The Ninth and Tenth Dynasties ruled northern Egypt from Herakleopolis, competing with the Theban Eleventh Dynasty for control of the country during the First Intermediate Period.",
+      "wikiSlug": "Ninth_Dynasty_of_Egypt",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "As Memphis lost control, a powerful family at Herakleopolis in Middle Egypt established the Ninth and Tenth Dynasties, claiming pharaonic authority over northern Egypt while controlling the vital Faiyum agricultural region."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Herakleopolitan kings fought a prolonged civil war against the Theban Eleventh Dynasty for control of Upper Egypt. Key battles occurred around the Abydos region. Both sides recruited Nubian mercenaries."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Herakleopolitan period produced important literary works, including the Instructions for King Merikare — one of the earliest political treatises on just governance. But their dynasty ended when Mentuhotep II of Thebes conquered them."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-ankhtifi",
+      "label": "Ankhtifi of Mo'alla",
+      "year": -2150,
+      "description": "Ankhtifi, nomarch of Hierakonpolis and Edfu, was a First Intermediate Period warlord whose boastful tomb inscriptions describe his military campaigns, famine relief, and independent rule.",
+      "wikiSlug": "Ankhtifi",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Ankhtifi was a provincial governor who controlled two nomes in Upper Egypt during the early First Intermediate Period. He waged war against neighboring Thebes and provided famine relief to his people — acting as an independent ruler."
+        },
+        {
+          "label": "His Inscriptions",
+          "text": "His tomb at Mo'alla contains some of the most vivid autobiographical texts from the period: 'All of Upper Egypt was dying of hunger, to such a degree that everyone had come to eating his children. But I did not allow anyone to die of hunger in this nome.'"
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Ankhtifi represents the new political reality of the First Intermediate Period — provincial strongmen who governed without pharaonic sanction. His hostility toward Thebes foreshadows the wars of reunification that would come."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-theban-rise",
+      "label": "Rise of Thebes",
+      "year": -2130,
+      "description": "The Eleventh Dynasty established Thebes as the capital of an independent Upper Egyptian state, beginning the power struggle that would eventually reunify Egypt.",
+      "wikiSlug": "Eleventh_Dynasty_of_Egypt",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Thebes was a minor town in Upper Egypt until the First Intermediate Period. The local ruling family, led by Intef I, declared independence from the Herakleopolitan dynasty and established the Eleventh Dynasty around 2130 BCE."
+        },
+        {
+          "label": "What Happened",
+          "text": "The early Theban rulers — Intef I, II, and III — gradually expanded their control southward to Elephantine and northward toward Abydos. They fought a prolonged war with Herakleopolis for control of Middle Egypt."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Thebes' rise from provincial town to Egypt's most powerful city is one of the great comeback stories of the ancient world. The Theban dynasty would reunify Egypt and make Thebes the religious capital of the New Kingdom."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-coffin-texts",
+      "label": "Coffin Texts",
+      "year": -2100,
+      "description": "Funerary spells previously reserved for pharaohs' pyramids were adapted for use by nobles and officials, painted on wooden coffins — democratizing access to the afterlife.",
+      "wikiSlug": "Coffin_Texts",
+      "commonsFile": "CoffinTextsBM.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "During the Old Kingdom, only pharaohs received Pyramid Texts to ensure their afterlife. The First Intermediate Period's social upheaval broke this royal monopoly — provincial elites demanded their own funerary literature."
+        },
+        {
+          "label": "The Texts",
+          "text": "The Coffin Texts adapted and expanded Pyramid Text spells, painting them on wooden coffins. They introduced the concept of a judgment before Osiris and included the 'Book of Two Ways' — the earliest known map of the underworld."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Coffin Texts represent a revolution in Egyptian religion: the afterlife was no longer exclusively royal. This democratization continued through the New Kingdom's Book of the Dead, which made afterlife spells available to anyone who could afford a papyrus copy."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-ipuwer",
+      "label": "Admonitions of Ipuwer",
+      "year": -2100,
+      "description": "A lament text describing Egypt's social collapse during the First Intermediate Period — servants becoming masters, the Nile running with blood, and tomb robbery — one of the earliest works of social criticism.",
+      "wikiSlug": "Admonitions_of_Ipuwer",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Admonitions of Ipuwer is a poetic text presenting a sage's complaint to the pharaoh about the state of the country. Whether it describes actual conditions or is a literary exercise, it reflects the trauma of the Old Kingdom's collapse."
+        },
+        {
+          "label": "The Text",
+          "text": "Ipuwer laments: 'The river is blood. The wealthy are in mourning. Those who had clothes are now in rags. Gold and lapis lazuli are strung on the necks of slave girls.' The social order has been completely inverted."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Admonitions is one of history's earliest works of social criticism — a protest against disorder and injustice. Its vivid imagery has drawn comparisons to biblical plague narratives, though it predates them by centuries."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-merikare",
+      "label": "Instructions for King Merikare",
+      "year": -2100,
+      "description": "A political treatise written as advice from a Herakleopolitan pharaoh to his son — one of the earliest texts on just governance, statecraft, and the responsibilities of kingship.",
+      "wikiSlug": "Teaching_for_King_Merykara",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Attributed to a Ninth or Tenth Dynasty pharaoh of Herakleopolis, this text purports to be a dying king's advice to his heir. It addresses practical governance during the civil war with Thebes."
+        },
+        {
+          "label": "The Text",
+          "text": "The text advises: 'Be skillful in speech... Do justice whilst you endure upon earth. Quiet the weeper; do not oppress the widow.' It also frankly discusses military strategy against Thebes and the desecration of tombs at Abydos."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Instructions for Merikare is one of the earliest surviving political treatises — a practical guide to kingship that balances justice with realpolitik. Its moral framework influenced later Egyptian wisdom literature."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-dialogue-man-soul",
+      "label": "Dialogue of a Man with His Soul",
+      "year": -2080,
+      "description": "A philosophical text in which a man contemplating suicide debates with his own soul — one of the world's earliest explorations of existential despair and the meaning of life.",
+      "wikiSlug": "Dispute_between_a_man_and_his_Ba",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Written during the First Intermediate Period, this text reflects the psychological impact of civilizational collapse. A man argues for death while his ba (soul-personality) argues for life — the earliest known philosophical dialogue."
+        },
+        {
+          "label": "The Text",
+          "text": "The man compares death favorably to life: 'Death is before me today like the fragrance of myrrh, like sitting under a sail on a windy day.' His soul counters that the afterlife is uncertain and life's pleasures should be enjoyed."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Dialogue is the world's earliest known text about existential despair, suicide, and the search for meaning in a collapsed world. It reveals that ancient Egyptians grappled with questions we consider modern."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-mentuhotep-ii",
+      "label": "Mentuhotep II Reunifies Egypt",
+      "year": -2055,
+      "description": "Mentuhotep II of Thebes conquered the Herakleopolitan dynasty and reunified Egypt, ending the First Intermediate Period and launching the Middle Kingdom.",
+      "wikiSlug": "Mentuhotep_II",
+      "commonsFile": "Mentuhotep_Deir_el-Bahari.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Mentuhotep II inherited a Theban kingdom that controlled most of Upper Egypt. The Herakleopolitan kings still held the north, and the civil war had lasted for over a century."
+        },
+        {
+          "label": "The Reunification",
+          "text": "Around 2040 BCE, Mentuhotep II's armies defeated the Herakleopolitan dynasty and took control of Memphis and Lower Egypt. The reunification was completed by about 2030 BCE, ending nearly 130 years of division."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Mentuhotep II's reunification was the most important political event between Narmer and Ahmose I. He proved that Egypt's unity could be restored after catastrophic collapse — establishing the precedent that would sustain Egyptian civilization through future crises."
+        }
+      ]
+    },
+    {
+      "id": "evt-oke-mortuary-temple-mentuhotep",
+      "label": "Mortuary Temple of Mentuhotep II",
+      "year": -2040,
+      "description": "Mentuhotep II built an innovative terraced mortuary temple at Deir el-Bahari — a design that would inspire Hatshepsut's famous temple built next to it 500 years later.",
+      "wikiSlug": "Mortuary_Temple_of_Mentuhotep_II",
+      "commonsFile": "Mentuhotep_Deir_el-Bahari.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After reunifying Egypt, Mentuhotep II chose the west bank at Thebes — not the traditional Memphis necropolis — for his mortuary complex. This was a political statement: Thebes, not Memphis, was the new center of power."
+        },
+        {
+          "label": "The Structure",
+          "text": "The temple at Deir el-Bahari featured a unique terraced design cut into the cliff face, with colonnades and a pyramid or mastaba structure on top. It combined elements of a mortuary temple and a royal tomb in a single complex."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Mentuhotep II's temple broke with Old Kingdom traditions of building on the open desert. Its terraced cliff-face design directly influenced Hatshepsut's spectacular temple built immediately adjacent to it nearly 500 years later."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "Age of the Pyramids: Guided Tour",
+    "intro": "When Narmer unified Upper and Lower Egypt around 3100 BCE, he inherited a Nile Valley civilization already thousands of years old — with farming communities, hieroglyphic writing, and the beginnings of divine kingship all firmly established. What happened next was unprecedented. Over five centuries, the Old Kingdom pharaohs turned those inherited institutions into the most ambitious building program the ancient world had ever seen: the pyramids.\n\nThis timeline covers Egypt from the start of the Old Kingdom (~2686 BCE) through the collapse of central authority, the chaos of the First Intermediate Period, and the reunification under Mentuhotep II (~2055 BCE). It is the story of how a centralized state achieved things no civilization had attempted before — and how that same system eventually tore itself apart.\n\nThree paths explore different angles of this era. The Pyramid Builders follows the evolution of monumental architecture from Imhotep's revolutionary Step Pyramid through the perfection of the Great Pyramid and the religious texts carved inside the last royal pyramids. Pharaohs and Power traces the arc of royal authority from divine kings to institutional collapse and eventual reunification. Life Along the Nile uncovers the world behind the monuments — mummification, wisdom literature, African trade networks, and the extraordinary literature of crisis that emerged when the Old Kingdom fell.",
+    "paths": [
+      {
+        "id": "pyramid-builders",
+        "label": "The Pyramid Builders",
+        "color": "#d4a017",
+        "icon": "🔺",
+        "description": "Follow the evolution of pyramid building from Imhotep's revolutionary Step Pyramid through the perfection of the Great Pyramid and its aftermath.",
+        "nodes": [
+          {
+            "id": "pb-1",
+            "eventId": "evt-oke-step-pyramid",
+            "narrative": "Before the Step Pyramid, no civilization on Earth had built a monumental structure in stone. Mud-brick mastabas — flat-topped rectangular tombs — were the standard for Egyptian royal burials. They were impressive enough, but they eroded, crumbled, and eventually disappeared. Then, around 2650 BCE, a Third Dynasty pharaoh named Djoser and his vizier Imhotep changed everything.\n\nImhotep's idea was deceptively simple: stack six progressively smaller mastabas on top of each other. The result was a stepped tower 62 meters tall, visible for miles across the desert — the first pyramid. But the structure was only part of the innovation. Imhotep surrounded it with a vast ceremonial complex enclosed by a 10.5-meter limestone wall, featuring colonnades, courtyards, and chapels — all carved in stone for the first time. The complex included representations of Upper and Lower Egypt's shrines, symbolically placing the entire united kingdom under the dead pharaoh's eternal protection.\n\nBeneath the pyramid, tunnels extend for nearly six kilometers. Burial chambers lined with blue faience tiles imitating reed matting contained over 40,000 stone vessels — many dating to earlier dynasties, deliberately collected and stored beneath the monument. The Step Pyramid was not just a tomb. It was a statement that the pharaoh's power extended beyond death, and that stone — unlike mud-brick — could make that statement eternal.",
+            "quiz": [
+              {
+                "question": "What unusual collection was found in the tunnels beneath the Step Pyramid?",
+                "options": [
+                  "Over 40,000 stone vessels, many from earlier dynasties",
+                  "A library of papyrus scrolls describing the construction process",
+                  "Hundreds of mummified cats and ibises",
+                  "A scale model of the entire Nile Valley"
+                ],
+                "answerIndex": 0,
+                "explanation": "The tunnels beneath the Step Pyramid contained over 40,000 stone vessels — many predating Djoser by centuries. They appear to have been deliberately collected from earlier royal tombs and reinterred, perhaps to associate Djoser with the authority of his predecessors."
+              },
+              {
+                "question": "What material were the walls of the Step Pyramid's underground chambers decorated with?",
+                "options": [
+                  "Sheets of beaten gold depicting the pharaoh's victories",
+                  "Blue faience tiles imitating woven reed matting",
+                  "Carved limestone panels showing funeral processions",
+                  "Painted plaster scenes of the pharaoh hunting"
+                ],
+                "answerIndex": 1,
+                "explanation": "The underground chambers of the Step Pyramid were decorated with blue-green faience tiles arranged to imitate woven reed mat walls — recreating in permanent materials the appearance of the pharaoh's palace. It was architecture designed for eternity."
+              }
+            ],
+            "image": {
+              "commonsFile": "Saqqara_BW_5.jpg",
+              "caption": "The Step Pyramid of Djoser at Saqqara, the world's first monumental stone structure (~2650 BCE)"
+            }
+          },
+          {
+            "id": "pb-2",
+            "eventId": "evt-oke-bent-pyramid",
+            "narrative": "The Step Pyramid proved that stone construction was possible, but its stepped profile was a transitional form. The true pyramid — a smooth-sided geometric shape rising to a single point — would take three generations of experimentation to achieve. That process of trial and error is written in stone at Dahshur.\n\nSneferu, founder of the Fourth Dynasty around 2613 BCE, was history's most prolific pyramid builder. He started at Meidum, south of Saqqara, either completing or building a step pyramid that he later tried to convert into a true pyramid by filling in the steps and adding a smooth casing. The result was a structural disaster — the outer layers collapsed, leaving only a tower-like core surrounded by rubble. The lesson was clear: you could not simply pack a step pyramid into a smooth shape.\n\nSneferu started fresh at Dahshur with a bold new design: a true pyramid rising at a steep 54-degree angle. Construction proceeded well until the structure reached about half its intended height. Then cracks appeared in the limestone. The builders, rather than starting over, made a practical decision: they reduced the angle to 43 degrees for the upper portion, completing the pyramid with its distinctive bent profile. The result looks strange, but it represents something remarkable — ancient engineers solving a structural crisis in real time, adapting their design based on what the stone was telling them.\n\nThe Bent Pyramid retains most of its original white limestone casing — the best-preserved exterior of any Egyptian pyramid. It stands as a textbook in the evolution of architectural engineering.",
+            "quiz": [
+              {
+                "question": "How many pyramids did Sneferu build during his reign?",
+                "options": [
+                  "One — the Bent Pyramid at Dahshur",
+                  "Two — the Bent Pyramid and the Red Pyramid",
+                  "Three — at Meidum, Dahshur (Bent), and Dahshur (Red)",
+                  "Four — two at Dahshur and two at Saqqara"
+                ],
+                "answerIndex": 2,
+                "explanation": "Sneferu built three pyramids: the Meidum Pyramid, the Bent Pyramid, and the Red Pyramid. Combined, they contain more stone than the Great Pyramid — making Sneferu the most prolific pyramid builder in history, even more so than his son Khufu."
+              },
+              {
+                "question": "What is unusual about the Bent Pyramid compared to all other Egyptian pyramids?",
+                "options": [
+                  "It was built entirely underground",
+                  "It was painted red to honor the sun god Ra",
+                  "It was the only pyramid with no burial chamber",
+                  "It retains most of its original smooth limestone casing"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Bent Pyramid is the best-preserved pyramid in Egypt, retaining most of its original smooth white limestone outer casing. Most other pyramids lost their casing stones centuries ago — stripped for use in other buildings, especially medieval Cairo."
+              }
+            ],
+            "image": {
+              "commonsFile": "Snefru%27s_Bent_Pyramid_in_Dahshur.jpg",
+              "caption": "The Bent Pyramid at Dahshur, with its distinctive angle change visible midway up (~2600 BCE)"
+            }
+          },
+          {
+            "id": "pb-3",
+            "eventId": "evt-oke-great-pyramid",
+            "narrative": "Everything the Old Kingdom had learned about building in stone — from the Step Pyramid through the Meidum collapse, the Bent Pyramid's angle correction, and the Red Pyramid's proven geometry — converged in a single structure completed around 2560 BCE for Pharaoh Khufu.\n\nThe Great Pyramid of Giza is built from approximately 2.3 million limestone blocks, each averaging 2.5 tons. Its base covers 5.3 hectares and is level to within 2.1 centimeters across 230 meters — an accuracy that modern builders would struggle to match. At 146 meters tall, it was the tallest structure on Earth for over 3,800 years, not surpassed until Lincoln Cathedral's spire in 1311 CE.\n\nThe internal structure is equally impressive. The Grand Gallery — a corbelled passage 47 meters long and 8.5 meters high — leads to the King's Chamber, roofed with nine granite beams weighing over 400 tons collectively. Above this are five relieving chambers designed to distribute the weight of the stone above and prevent the ceiling from collapsing. Narrow shafts extend from the King's Chamber toward the sky, possibly aligned with specific stars.\n\nArchaeological excavations at the workers' village south of the Sphinx revealed how this enormous project was organized. A rotating labor force of approximately 20,000 to 30,000 workers was fed, housed, and medically treated by the state. They received bread, beer, and meat — their diet was better than that of many modern manual laborers. The workers' cemetery shows healed fractures and even evidence of amputation surgery, suggesting that injured workers received serious medical care rather than being discarded.",
+            "quiz": [
+              {
+                "question": "What structure held the record as the tallest on Earth before the Great Pyramid was surpassed?",
+                "options": [
+                  "Nothing — it was always the tallest until Lincoln Cathedral",
+                  "The Colosseum in Rome",
+                  "The Lighthouse of Alexandria",
+                  "The Tower of Babel in Babylon"
+                ],
+                "answerIndex": 0,
+                "explanation": "The Great Pyramid held the record as the tallest structure on Earth for an astonishing 3,800+ years — from its completion around 2560 BCE until Lincoln Cathedral's spire surpassed it in 1311 CE. No other structure has held such a record for remotely as long."
+              },
+              {
+                "question": "What evidence did archaeologists find about the health of pyramid workers?",
+                "options": [
+                  "Mass graves suggesting high mortality rates",
+                  "Healed bones and successful amputation surgery, suggesting quality medical care",
+                  "No evidence — workers' remains have never been found",
+                  "Dental records showing all workers had the same diet as pharaohs"
+                ],
+                "answerIndex": 1,
+                "explanation": "The workers' cemetery at Giza shows healed fractures, set bones, and even evidence of successful limb amputations. Workers received medical care that was advanced for the time — suggesting they were valued skilled laborers, not expendable slaves."
+              }
+            ],
+            "image": {
+              "commonsFile": "Kheops-Pyramid.jpg",
+              "caption": "The Great Pyramid of Giza, the only surviving wonder of the ancient world (~2560 BCE)"
+            }
+          },
+          {
+            "id": "pb-4",
+            "eventId": "evt-oke-sphinx",
+            "narrative": "The Great Sphinx sits on the Giza plateau like a sentinel guarding the dead — 73 meters long, 20 meters high, carved from a single outcrop of limestone bedrock. It is the largest monolithic statue ever created.\n\nThe Sphinx was most likely carved during the reign of Khafre, Khufu's son, around 2540 BCE. The face almost certainly represents Khafre himself, wearing the nemes headdress of a pharaoh. The body is that of a reclining lion — a symbol of royal power that Egyptian kings had used for centuries. The combination of human intelligence with leonine strength created an image of divine kingship that has resonated across cultures ever since.\n\nThe limestone from which the Sphinx was carved varies in quality. The head, carved from a harder stratum, has survived well. The body, made from softer layers, has been heavily eroded by wind and sand — and by millennia of moisture trapped in the stone. The Sphinx was periodically buried to its shoulders in sand. Around 1400 BCE, the young prince Thutmose (later Thutmose IV) fell asleep between its paws and dreamed the Sphinx promised him the throne if he cleared the sand. He did — and erected a granite stela between the paws to record the dream. This Dream Stela is still visible today.\n\nKhafre's building program at Giza extended well beyond the Sphinx. His pyramid, the second largest at Giza, appears taller than Khufu's because it sits on higher ground. His valley temple, built from enormous blocks of polished granite, still stands — one of the most intact Old Kingdom structures. A diorite statue found in the temple shows Khafre seated with the falcon god Horus spreading his wings protectively behind the pharaoh's head — one of the masterpieces of Egyptian sculpture.",
+            "quiz": [
+              {
+                "question": "What story does the Dream Stela between the Sphinx's paws tell?",
+                "options": [
+                  "How Khufu decided where to build the Great Pyramid",
+                  "The mythological origin of the Sphinx as a guardian of the underworld",
+                  "That a prince fell asleep and dreamed the Sphinx would make him pharaoh if he cleared the sand",
+                  "A record of military victories by the Sphinx's builder"
+                ],
+                "answerIndex": 2,
+                "explanation": "Around 1400 BCE — over 1,000 years after the Sphinx was built — the young prince Thutmose fell asleep between its sand-buried paws and dreamed the Sphinx promised him the throne if he excavated it. He became Thutmose IV and erected the Dream Stela to record the event."
+              },
+              {
+                "question": "What famous statue of Khafre was found in his valley temple at Giza?",
+                "options": [
+                  "A gold-plated wooden statue showing him as Osiris",
+                  "A colossal granite head ten times life-size",
+                  "A limestone sphinx with Khafre's face (a smaller copy of the Great Sphinx)",
+                  "A diorite statue with the falcon god Horus spreading wings behind his head"
+                ],
+                "answerIndex": 3,
+                "explanation": "The diorite statue of Khafre, now in the Egyptian Museum in Cairo, shows the pharaoh seated with Horus as a falcon spreading protective wings behind his head. Carved from extremely hard stone with remarkable precision, it is considered one of the finest surviving Old Kingdom sculptures."
+              }
+            ],
+            "image": {
+              "commonsFile": "Great_Sphinx_of_Giza_-_20080716a.jpg",
+              "caption": "The Great Sphinx with Khafre's pyramid behind it, Giza (~2540 BCE)"
+            }
+          },
+          {
+            "id": "pb-5",
+            "eventId": "evt-oke-sun-temples",
+            "narrative": "After Menkaure completed the third great pyramid at Giza, something shifted in Egyptian royal architecture. The Fifth Dynasty pharaohs, beginning with Userkaf around 2494 BCE, still built pyramids — but they were smaller and less ambitious. The real innovation of the Fifth Dynasty was a new type of structure: the sun temple.\n\nSix Fifth Dynasty pharaohs built sun temples at Abu Gorab, a site north of Saqqara. Unlike traditional temples enclosed within walls and roofed halls, the sun temples were open to the sky. Their centerpiece was a squat, massive obelisk mounted on a raised platform — designed to catch the first rays of the sun. Large courtyards held altars for animal sacrifice and water channels to drain the blood. The entire complex was oriented to solar alignments.\n\nThis architectural shift reflected a theological revolution. The Fourth Dynasty pharaohs had been gods in their own right — Horus incarnate, builders of eternal monuments. The Fifth Dynasty pharaohs increasingly defined themselves in relation to Ra, the sun god. They added 'Son of Ra' to the royal titulary — a title that every subsequent pharaoh would carry. The sun temples were physical expressions of this new relationship: the pharaoh was no longer the supreme deity on earth but the chief intermediary between humanity and the supreme god of the cosmos.\n\nThe shift had political implications too. The priests of Heliopolis — Ra's cult center — gained enormous influence. Royal resources that had once gone entirely into pyramid construction were now shared with temple priesthoods. The age of titanic royal monuments was drawing to a close.",
+            "quiz": [
+              {
+                "question": "What new royal title did the Fifth Dynasty pharaohs add to distinguish themselves from their predecessors?",
+                "options": [
+                  "Son of Ra",
+                  "Lord of the Two Lands",
+                  "Master of the Horizon",
+                  "Keeper of Ma'at"
+                ],
+                "answerIndex": 0,
+                "explanation": "The Fifth Dynasty introduced the title \"Son of Ra\" (sa Ra) to the pharaonic titulary. This marked a theological shift — the pharaoh was no longer simply Horus incarnate but specifically the offspring of the sun god. Every subsequent Egyptian pharaoh carried this title."
+              },
+              {
+                "question": "How did the sun temples at Abu Gorab differ from traditional Egyptian temples?",
+                "options": [
+                  "They were built underground to represent the sun's journey through the underworld",
+                  "They were open to the sky with a central obelisk, rather than enclosed with roofed halls",
+                  "They were portable structures that could be moved to follow the sun's path",
+                  "They were identical to traditional temples but painted gold"
+                ],
+                "answerIndex": 1,
+                "explanation": "Unlike traditional Egyptian temples, which were enclosed within walls and roofed halls creating progressively darker inner sanctuaries, the sun temples at Abu Gorab were open-air structures. Their centerpiece was a massive obelisk on a raised platform, designed to catch and reflect sunlight."
+              }
+            ],
+            "image": {
+              "commonsFile": "Abu_Gorab_3.jpg",
+              "caption": "Ruins of the sun temple of Niuserre at Abu Gorab, with its raised obelisk base (~2450 BCE)"
+            }
+          },
+          {
+            "id": "pb-6",
+            "eventId": "evt-oke-pyramid-texts",
+            "narrative": "The last Fifth Dynasty pharaoh, Unas, built the smallest pyramid of his dynasty at Saqqara around 2353 BCE. From the outside, it was unremarkable — a modest structure that even in antiquity was overshadowed by Djoser's Step Pyramid nearby. But inside, Unas did something that no pharaoh before him had attempted: he covered the walls of his burial chamber with hieroglyphic texts.\n\nThese Pyramid Texts — 228 spells carved in blue-painted columns — are the oldest known religious texts in the world. They predate the Hindu Vedas by over a millennium and the oldest biblical texts by nearly two millennia. The spells describe the pharaoh's journey after death: his transformation into a star, his ascent to join Ra in the solar barque, his identification with Osiris in the underworld, and his passage through gates guarded by dangerous beings. Some spells are aggressive, even threatening: 'The sky thunders, the earth quakes before me, for I am a magician, I possess magic.'\n\nEvery subsequent Old Kingdom pharaoh followed Unas's precedent, adding new spells to the collection. By the end of the Sixth Dynasty, the Pyramid Texts corpus numbered over 800 spells — a vast repository of religious thought spanning centuries. The texts reveal a complex cosmology that combined two different afterlife traditions: the solar journey (traveling with Ra across the sky) and the Osirian underworld (resurrection with Osiris in the land of the dead).\n\nThe Pyramid Texts would evolve into the Coffin Texts during the First Intermediate Period and eventually into the Book of the Dead during the New Kingdom — a chain of religious literature spanning two thousand years. But it all started with Unas and the simple decision to write on the walls of his modest pyramid at Saqqara.\n\nFrom Imhotep's revolutionary Step Pyramid to the Pyramid Texts carved inside Unas's burial chamber, the arc of Old Kingdom monumental architecture tells a coherent story. The pyramids grew from experimental stacks to geometric perfection, then gradually shrank as religious priorities shifted from sheer stone mass to theological texts. The pharaohs who had once commanded all of Egypt's resources for their monuments were increasingly sharing power with priestly institutions — and the provincial governors who would eventually bring the whole system down were already building their own impressive tombs far from the royal necropolises. The age of the pyramids was ending, but the religious ideas born inside them would outlast the stones.",
+            "quiz": [
+              {
+                "question": "How old are the Pyramid Texts compared to other major religious texts?",
+                "options": [
+                  "About the same age as the Hindu Vedas",
+                  "Roughly 500 years older than the oldest Chinese oracle bone inscriptions",
+                  "Over 1,000 years older than the Vedas and nearly 2,000 years older than the oldest biblical texts",
+                  "They are actually younger than the Sumerian religious texts from Mesopotamia"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Pyramid Texts (~2353 BCE) predate the Hindu Vedas by over 1,000 years and the oldest biblical texts by nearly 2,000 years. They are the oldest substantial religious texts found anywhere in the world, though shorter Sumerian hymns and prayers exist from roughly the same era."
+              },
+              {
+                "question": "What color were the hieroglyphs in Unas's Pyramid Texts painted?",
+                "options": [
+                  "Gold, to represent the sun god Ra",
+                  "Red, the color of power in Egyptian symbolism",
+                  "They were not painted — they were unpainted carved stone",
+                  "Blue, arranged in vertical columns"
+                ],
+                "answerIndex": 3,
+                "explanation": "The hieroglyphs in Unas's burial chamber were carved and then filled with blue pigment, arranged in neat vertical columns on the white limestone walls. The blue color may have represented the sky or the eternal waters of Nun — the primordial ocean from which creation emerged."
+              }
+            ],
+            "image": {
+              "commonsFile": "Pyramid_texts_Teti_-_1.jpg",
+              "caption": "Pyramid Texts carved in the burial chamber of Teti at Saqqara (~2320 BCE)"
+            }
+          }
+        ],
+        "recap": "The Old Kingdom's architectural story is one of the most dramatic learning curves in human history. In roughly two centuries — from Imhotep's experimental stack of mastabas to the geometric perfection of the Great Pyramid — Egyptian builders solved engineering problems that modern architects still study. The Meidum collapse, the Bent Pyramid's mid-construction angle change, the Red Pyramid's proven geometry, and finally the Great Pyramid's breathtaking precision trace a clear line of institutional learning.\n\nBut the story does not end at the peak. After the Fourth Dynasty's Giza monuments, pyramid building gradually declined while theological innovation accelerated. The Fifth Dynasty's sun temples reflected a shift in how pharaohs understood their relationship to the divine. The Pyramid Texts — the world's oldest religious literature — turned the pyramid interior into something more important than the exterior: a vehicle for the pharaoh's eternal soul. From Imhotep's stone revolution to Unas's written spells, the Old Kingdom transformed how humans related to permanence, death, and the divine."
+      },
+      {
+        "id": "pharaohs-power",
+        "label": "Pharaohs & Power",
+        "color": "#7c3aed",
+        "icon": "👑",
+        "description": "Trace the rise and fall of pharaonic authority — from divine kings who built monuments to eternity, to the collapse that shattered the myth of invincibility.",
+        "nodes": [
+          {
+            "id": "pp-1",
+            "eventId": "evt-oke-djoser",
+            "narrative": "The Third Dynasty began around 2686 BCE with a new ruling family on the throne at Memphis. Its second pharaoh, Djoser (also known by his Horus name Netjerikhet), would become one of the most consequential rulers in Egyptian history — not primarily for his military campaigns or administrative reforms, but because he unleashed a building program that transformed what the Egyptian state was capable of.\n\nDjoser ruled for approximately 19 years. During that time, he commanded the construction of the Step Pyramid complex at Saqqara — a project that required quarrying, transporting, and precisely cutting millions of limestone blocks, feeding and housing thousands of workers, and coordinating the largest construction workforce the world had ever assembled. The logistics alone represented a revolution in state capacity.\n\nThe man who designed it was Imhotep, Djoser's vizier — the highest non-royal official in Egypt. Imhotep's titles included chief priest, chief architect, chief physician, and chief sculptor. He is the first non-royal individual in history whose name was preserved — a testament to how extraordinary his contemporaries considered his achievements. Two thousand years after his death, Egyptians deified him as a god of wisdom and medicine.\n\nDjoser's relationship with Imhotep illustrates something important about the Old Kingdom system: pharaonic power was not just about the king's divine status. It required talented administrators who could translate royal ambition into reality. The bureaucratic machinery that Djoser built to construct the Step Pyramid — the supply chains, labor rotations, quarry management, and construction oversight — would be refined by each subsequent pharaoh until it reached its peak at Giza.",
+            "quiz": [
+              {
+                "question": "What happened to Imhotep's reputation over the millennia after his death?",
+                "options": [
+                  "He was deified as a god of wisdom and medicine about 2,000 years later",
+                  "He was erased from records by a jealous later pharaoh",
+                  "He was remembered only as a mythological figure, not a real person",
+                  "His tomb was destroyed and his name forgotten until modern archaeology"
+                ],
+                "answerIndex": 0,
+                "explanation": "Imhotep was progressively elevated in Egyptian culture — first remembered as a great sage, then a demigod, and finally deified as a full god of medicine and wisdom. The Greeks identified him with their healing god Asclepius. He is one of very few non-royals in history to achieve divine status."
+              },
+              {
+                "question": "What is Djoser's other name, found on monuments?",
+                "options": [
+                  "Khufu",
+                  "Netjerikhet",
+                  "Menes",
+                  "Amenhotep"
+                ],
+                "answerIndex": 1,
+                "explanation": "Djoser was known during his lifetime by his Horus name Netjerikhet. The name \"Djoser\" (meaning \"holy\") was actually given to him centuries later and appears only in later records. This dual-naming pattern — Horus name for contemporaries, later name for posterity — is common in early Egyptian history."
+              }
+            ],
+            "image": {
+              "commonsFile": "Imhotep-Louvre.JPG",
+              "caption": "Bronze statuette of Imhotep, vizier to Djoser and the world's first named architect (Late Period copy)"
+            }
+          },
+          {
+            "id": "pp-2",
+            "eventId": "evt-oke-sneferu",
+            "narrative": "When Sneferu founded the Fourth Dynasty around 2613 BCE, he inherited the state machinery that Djoser's successors had refined over half a century. What he did with it was unprecedented: he built three full-size pyramids during a single reign of about 24 years. Combined, they contain more stone than the Great Pyramid — making Sneferu the most prolific builder in Egyptian history.\n\nSneferu's building spree was not vanity. Each pyramid represented an engineering experiment. The Meidum Pyramid, likely started by his predecessor Huni, was converted from a step pyramid to a true pyramid — and partially collapsed. The Bent Pyramid at Dahshur started at a steep angle and had to be corrected midway. The Red Pyramid, also at Dahshur, was the first successful true pyramid — built from the start at the safe 43-degree angle proven by the Bent Pyramid's upper section.\n\nBeyond construction, Sneferu expanded Egypt's resource base to feed his ambitions. He sent the first documented military expeditions to Sinai for turquoise and copper, and maintained the cedar trade with Byblos that provided the timber essential for construction scaffolding, sledges, and ships. Rock-cut inscriptions at Wadi Maghara in Sinai show Sneferu smiting enemies — the earliest known reliefs of an Egyptian pharaoh in military action.\n\nLater Egyptian tradition remembered Sneferu as a benevolent ruler. The Westcar Papyrus, written centuries later, portrays him as approachable and good-humored — strikingly different from the tyrannical reputation his son Khufu would acquire. Whether or not this reputation was deserved, Sneferu's legacy was decisive: he solved the engineering problems that made the Great Pyramid possible, and he expanded the state's capacity to mobilize resources on a truly imperial scale.",
+            "quiz": [
+              {
+                "question": "How was Sneferu remembered in later Egyptian literature?",
+                "options": [
+                  "As a cruel tyrant who worked his people to death",
+                  "As a warrior king famous for conquering Nubia",
+                  "As a benevolent and approachable ruler in the Westcar Papyrus",
+                  "As a religious reformer who changed Egyptian theology"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Westcar Papyrus, written during the Middle Kingdom, portrays Sneferu as good-humored and approachable — telling jokes and being entertained by court magicians. This positive reputation contrasts sharply with his son Khufu, whom later tradition painted as a tyrant."
+              },
+              {
+                "question": "Where is the earliest known relief of an Egyptian pharaoh in military action?",
+                "options": [
+                  "The Great Pyramid at Giza",
+                  "Wall paintings inside the Step Pyramid",
+                  "The Narmer Palette showing the unification of Egypt",
+                  "Rock inscriptions at Wadi Maghara in Sinai depicting Sneferu"
+                ],
+                "answerIndex": 3,
+                "explanation": "While the Narmer Palette (c. 3100 BCE) shows a king smiting an enemy, the rock-cut reliefs at Wadi Maghara in Sinai — showing Sneferu defeating local opponents — are the earliest known reliefs of a pharaoh in a military context, carved in situ at the site of the action."
+              }
+            ],
+            "image": {
+              "commonsFile": "Dahschur_-_Rote_Pyramide_3.jpg",
+              "caption": "The Red Pyramid at Dahshur — the world's first successful true pyramid, built by Sneferu (~2590 BCE)"
+            }
+          },
+          {
+            "id": "pp-3",
+            "eventId": "evt-oke-khufu",
+            "narrative": "Khufu inherited everything — Sneferu's engineering knowledge, Egypt's expanded resource networks, a perfected state bureaucracy, and the proven 43-degree pyramid geometry. He used it all to build the most ambitious structure in human history.\n\nRemarkably little is known about Khufu personally. The only confirmed likeness is a 7.5-centimeter ivory figurine — the smallest known royal statue from the Old Kingdom, representing the builder of its largest monument. This irony has fascinated historians for centuries. Later Egyptian writers, particularly Herodotus's Egyptian informants in the fifth century BCE, portrayed Khufu as a ruthless tyrant who closed the temples, forced the entire population into labor, and even prostituted his own daughter to fund the pyramid. Modern archaeology tells a very different story.\n\nThe Giza workers' village excavated by Mark Lehner and Zahi Hawass revealed a sophisticated settlement with organized barracks, large bakeries producing thousands of loaves daily, breweries, fish-processing facilities, and a copper workshop for making and repairing tools. Workers received beef, a luxury food — their cattle bones show prime cuts. A workers' cemetery south of the pyramid complex contains the graves of laborers who received medical care for injuries. The evidence points to a rotating corvée labor system: communities sent work crews for seasonal shifts, and the state fed and housed them well.\n\nKhufu also commissioned at least five full-size ships to be buried in pits beside his pyramid. One, excavated in 1954, was 43.6 meters long — made of 1,224 pieces of Lebanese cedar, perfectly preserved for 4,500 years. The ship was fully functional, capable of sailing the Nile, but was intended for the pharaoh's journey with Ra across the sky in the afterlife.",
+            "quiz": [
+              {
+                "question": "What is the only confirmed likeness of Khufu, builder of the Great Pyramid?",
+                "options": [
+                  "A 7.5-centimeter ivory figurine",
+                  "A painted relief in his pyramid's burial chamber",
+                  "A 20-ton granite head found at Giza",
+                  "A gold death mask found in his sarcophagus"
+                ],
+                "answerIndex": 0,
+                "explanation": "The only confirmed image of Khufu, the builder of history's most massive monument, is a tiny 7.5 cm ivory figurine found at Abydos. It is the smallest royal statue known from the Old Kingdom — a striking irony that the builder of the largest structure left behind the smallest portrait."
+              },
+              {
+                "question": "What luxury food did the pyramid workers at Giza receive as part of their diet?",
+                "options": [
+                  "Fish from the Mediterranean Sea",
+                  "Beef — with bone evidence showing prime cuts",
+                  "Imported dates and figs from the Levant",
+                  "Honey from royal apiaries"
+                ],
+                "answerIndex": 1,
+                "explanation": "Analysis of animal bones from the Giza workers' village shows the laborers received beef — a luxury food that most Egyptians rarely ate. The bones show prime cuts, indicating the workers were being fed quality meat, not scraps. This evidence contradicts the slave-labor myth."
+              }
+            ],
+            "image": {
+              "commonsFile": "Khufu_CEM.jpg",
+              "caption": "The only confirmed image of Khufu — a 7.5 cm ivory figurine, now in the Egyptian Museum"
+            }
+          },
+          {
+            "id": "pp-4",
+            "eventId": "evt-oke-pepi-ii",
+            "narrative": "Two centuries separate Khufu's Great Pyramid from the reign of Pepi II, and in that time, pharaonic power gradually eroded. The Fifth Dynasty shifted religious authority toward the priesthood of Ra. The Sixth Dynasty pharaohs maintained the system but increasingly relied on provincial nomarchs — governors of Egypt's 42 nomes (provinces) — to administer the kingdom. These positions, originally appointed by the pharaoh, were becoming hereditary.\n\nPepi II ascended the throne around 2278 BCE as a child of approximately six years old. His mother, Ankhesenpepi II, served as regent. What followed was the longest documented reign in human history — approximately 94 years. One of the most charming documents from this period is the young Pepi II's letter to the explorer Harkhuf, who was bringing a dancing pygmy from central Africa: 'Come northward to the court immediately! Bring this dwarf with you alive, prosperous, and healthy! When he goes down with you into the ship, appoint excellent people who shall be beside him on each side of the vessel. Take care lest he fall into the water!'\n\nBut the charm of a child pharaoh gave way to the reality of an impossibly long reign. As Pepi II aged, the nomarchs of Upper Egypt consolidated their positions into hereditary fiefdoms. They built their own elaborate tombs far from the royal necropolis, maintained their own militias, and increasingly kept local tax revenue rather than forwarding it to Memphis. The pharaoh's authority became nominal.\n\nBy the time Pepi II finally died — likely in his late nineties — the system was hollowed out. His successors ruled for only brief periods. The Seventh Dynasty, according to the ancient historian Manetho, consisted of 'seventy kings in seventy days' — almost certainly an exaggeration, but reflective of the chaos that followed.",
+            "quiz": [
+              {
+                "question": "How did the ancient historian Manetho describe the chaotic Seventh Dynasty?",
+                "options": [
+                  "As a period when Egypt was ruled by foreign invaders from Nubia",
+                  "As a golden age of literature and art",
+                  "As seventy kings in seventy days",
+                  "As the period when the pyramids were first robbed"
+                ],
+                "answerIndex": 2,
+                "explanation": "Manetho described the Seventh Dynasty as \"seventy kings in seventy days\" — almost certainly an exaggeration, but vividly conveying the political chaos that followed Pepi II's death. The rapid succession of rulers with no real power reflected a system that had completely broken down."
+              },
+              {
+                "question": "What was Pepi II's approximate age when he became pharaoh?",
+                "options": [
+                  "He was an adult of about 30",
+                  "He was born to the throne and crowned at birth",
+                  "He was a teenager of about 15",
+                  "He was about 6 years old"
+                ],
+                "answerIndex": 3,
+                "explanation": "Pepi II became pharaoh at approximately six years of age. His mother Ankhesenpepi II served as regent during his minority. His excited letter to the explorer Harkhuf about a dancing pygmy is one of the most endearing documents from the Old Kingdom — clearly written by an enthusiastic child."
+              }
+            ],
+            "image": {
+              "commonsFile": "Pepi_II_and_his_mother.jpg",
+              "caption": "Alabaster statue of the young Pepi II sitting on his mother Ankhesenpepi II's lap"
+            }
+          },
+          {
+            "id": "pp-5",
+            "eventId": "evt-oke-old-kingdom-collapse",
+            "narrative": "The Old Kingdom did not fall to foreign invaders or a single catastrophic event. It was slowly dismantled from within, over decades, by the very officials the system had created.\n\nThe nomarchs — provincial governors who had once been loyal appointees — had accumulated hereditary power, private armies, and independent wealth. When Pepi II died, there was no mechanism to reassert central control. The Memphis court continued to exist, but the pharaohs of the Seventh and Eighth Dynasties were figureheads ruling a capital that controlled nothing beyond its own walls.\n\nEnvironmental crisis accelerated the collapse. Climate data from ice cores, lake sediments, and archaeological evidence points to a prolonged period of abnormally low Nile floods beginning around 2200 BCE — part of a broader climate event that also contributed to the fall of the Akkadian Empire in Mesopotamia. In Egypt, low floods meant poor harvests, and poor harvests meant famine. Provincial tomb inscriptions from this period paint a grim picture: 'When Upper Egypt was a desert and people were dying of hunger, I gave bread to the hungry and clothing to the naked. I did not allow anyone to die of hunger in this nome.'\n\nThese inscriptions reveal the new political reality. Nomarchs were now the ones feeding the people, defending the borders, and maintaining order. They spoke of their own accomplishments, not the pharaoh's. Royal authority — which had been unquestioned since Narmer's unification over 900 years earlier — was effectively gone.\n\nBy 2160 BCE, two rival power centers had emerged. The Ninth and Tenth Dynasties at Herakleopolis in Middle Egypt claimed pharaonic authority and controlled the vital Faiyum agricultural region. In the south, a provincial family at Thebes — a town of no previous importance — declared themselves the Eleventh Dynasty and began expanding their territory. Egypt was at war with itself.",
+            "quiz": [
+              {
+                "question": "What global climate event coincided with the Old Kingdom's collapse?",
+                "options": [
+                  "A prolonged drought around 2200 BCE that also contributed to the fall of the Akkadian Empire",
+                  "A massive volcanic eruption that blocked sunlight for years",
+                  "A sudden Ice Age that froze the Nile for the first time",
+                  "A shift in the monsoon that flooded the Nile continuously for decades"
+                ],
+                "answerIndex": 0,
+                "explanation": "The 4.2 kiloyear event — a prolonged drought around 2200 BCE — caused low Nile floods in Egypt and contributed to the collapse of the Akkadian Empire in Mesopotamia. It is one of the earliest documented cases of climate change contributing to the fall of multiple civilizations simultaneously."
+              },
+              {
+                "question": "What was Thebes before the First Intermediate Period?",
+                "options": [
+                  "Egypt's capital since the unification under Narmer",
+                  "A town of no previous political importance",
+                  "The center of the sun god Ra's priesthood",
+                  "A major port city on the Mediterranean coast"
+                ],
+                "answerIndex": 1,
+                "explanation": "Thebes (modern Luxor) was a minor provincial town with no significant political history before the First Intermediate Period. Its rise to become Egypt's most important religious center — home of the god Amun and the Valley of the Kings — began only when a local family declared themselves the Eleventh Dynasty and challenged the north."
+              }
+            ]
+          },
+          {
+            "id": "pp-6",
+            "eventId": "evt-oke-mentuhotep-ii",
+            "narrative": "The war between Herakleopolis and Thebes lasted for over a century. It was fought along the Nile between Abydos and the Faiyum — a stretch of river that controlled access between Upper and Lower Egypt. Both sides recruited Nubian mercenaries. Both sides desecrated each other's tombs and monuments.\n\nThe turning point came under Mentuhotep II of Thebes, who took the throne around 2061 BCE. After consolidating his control of Upper Egypt, he launched a decisive campaign against the Herakleopolitan north around 2040 BCE. The details are sparse, but the outcome was clear: Herakleopolis fell, and Egypt was reunified under a single pharaoh for the first time in over a century.\n\nMentuhotep II's reunification was the most important political event in Egyptian history between Narmer's original unification (~3100 BCE) and Ahmose I's founding of the New Kingdom (~1550 BCE). He proved that the Egyptian idea of unity was not just an Old Kingdom artifact — it was a political principle powerful enough to survive a century of civil war and restore itself.\n\nThe reunifier built his mortuary complex at Deir el-Bahari on the west bank of Thebes — not at Memphis or Saqqara, the traditional royal burial sites. This was a statement: the new Egypt would be centered on Thebes, not Memphis. The temple featured an innovative terraced design carved into the cliff face, breaking with the pyramid tradition entirely. Five hundred years later, Hatshepsut would build her own spectacular mortuary temple immediately adjacent, inspired by Mentuhotep II's design.\n\nWith reunification, Egypt entered the Middle Kingdom — an era of literary renaissance, expanded trade, and administrative reform that would eventually give way to the Hyksos invasion and the explosive imperial expansion of the New Kingdom. The Old Kingdom's template of divine pharaonic authority had been tested to destruction and survived. Egypt's most enduring political idea — that the Two Lands must be one — would carry the civilization forward for another two thousand years.",
+            "quiz": [
+              {
+                "question": "Where did Mentuhotep II build his mortuary temple, breaking with Old Kingdom tradition?",
+                "options": [
+                  "At Giza, next to the Great Pyramid",
+                  "At Saqqara, near the Step Pyramid",
+                  "At Deir el-Bahari in Thebes, carved into a cliff face",
+                  "At Memphis, restoring the old capital's prestige"
+                ],
+                "answerIndex": 2,
+                "explanation": "Mentuhotep II chose Deir el-Bahari on the west bank at Thebes — not the traditional Memphis/Saqqara necropolis — for his innovative terraced mortuary temple. This was a political statement that power had shifted south. The design later inspired Hatshepsut's famous temple built next door."
+              },
+              {
+                "question": "What military tactic did both sides use during the civil war between Herakleopolis and Thebes?",
+                "options": [
+                  "Chariot warfare adopted from the Hyksos",
+                  "Elephant cavalry imported from Punt",
+                  "Naval blockades on the Mediterranean coast",
+                  "Hiring Nubian mercenaries to supplement their armies"
+                ],
+                "answerIndex": 3,
+                "explanation": "Both the Herakleopolitan and Theban dynasties recruited Nubian mercenary archers — the Medjay — to bolster their forces. The practice of hiring Nubian warriors continued throughout Egyptian history; they eventually became Egypt's premier police force."
+              }
+            ],
+            "image": {
+              "commonsFile": "Mentuhotep_Deir_el-Bahari.jpg",
+              "caption": "Painted sandstone statue of Mentuhotep II in his jubilee garment, found at Deir el-Bahari"
+            }
+          }
+        ],
+        "recap": "The arc of pharaonic power during the Old Kingdom follows a pattern that would repeat throughout history: centralized authority enables extraordinary achievements, institutional decay hollows it out, crisis shatters it, and a strong leader eventually rebuilds. Djoser and Imhotep proved that the Egyptian state could mobilize resources on an unprecedented scale. Sneferu and Khufu pushed that capacity to its absolute limit at Giza. But the same system that built the pyramids — with its appointed governors, agricultural taxation, and divine royal authority — contained the seeds of its own destruction.\n\nThe nomarchs who drained pharaonic power were not rebels — they were the system working as intended, except that over generations, their roles became hereditary and their loyalties became local. Pepi II's impossibly long reign gave them time to entrench. Climate crisis gave them cover. And when the pharaoh finally died, there was nothing left to hold the center together.\n\nMentuhotep II's reunification proved that the idea of a united Egypt was more powerful than any individual king. The Middle Kingdom that followed would rebuild the bureaucracy, curb the nomarchs, and launch a cultural renaissance. But the trauma of the First Intermediate Period left a permanent mark on Egyptian consciousness — a fear of disorder and a devotion to restoring ma'at that would define the civilization for the next two millennia."
+      },
+      {
+        "id": "life-nile",
+        "label": "Life Along the Nile",
+        "color": "#059669",
+        "icon": "🌾",
+        "description": "Discover the world behind the monuments — trade routes, scientific achievements, religious beliefs, and the literature born from crisis.",
+        "nodes": [
+          {
+            "id": "ln-1",
+            "eventId": "evt-oke-mummification",
+            "narrative": "The Old Kingdom is remembered for its pyramids, but the religious beliefs that motivated those monuments were equally extraordinary. The Egyptians did not simply hope for an afterlife — they engineered one, developing a sophisticated technology of death that aimed to preserve the body for eternity.\n\nEgyptian afterlife theology held that a person was composed of several spiritual elements. The ka was the vital life force — a spiritual double born with each person that required sustenance (food offerings) after death. The ba was the personality — depicted as a human-headed bird that could travel between the tomb and the underworld. For the ka and ba to function in the afterlife, they needed an intact body to return to. If the body decayed, the person's afterlife was over.\n\nOld Kingdom embalmers developed increasingly sophisticated techniques to prevent this. The brain was extracted through the nose with long hooks. Internal organs — liver, lungs, stomach, and intestines — were removed and stored separately in canopic jars, each protected by one of the four sons of Horus. The body cavity was packed with natron, a naturally occurring mineral salt that desiccated the tissue. After approximately 40 days, the dried body was wrapped in linen bandages with protective amulets placed at key points. The entire process took about 70 days.\n\nFull mummification was expensive and initially reserved for royalty and the highest officials. But the technology gradually spread downward through Egyptian society over centuries. By the First Intermediate Period, provincial elites were demanding the same funerary treatment as the pharaoh. This democratization of death rituals paralleled the Coffin Texts' democratization of afterlife spells — a profound shift in who was considered worthy of eternal life.",
+            "quiz": [
+              {
+                "question": "How long did the complete mummification process take from start to finish?",
+                "options": [
+                  "About 70 days",
+                  "About 7 days",
+                  "About 7 months",
+                  "It varied from 1 day for commoners to 1 year for pharaohs"
+                ],
+                "answerIndex": 0,
+                "explanation": "The full mummification process took approximately 70 days — 40 days for natron desiccation, plus additional time for organ removal, wrapping, and ritual preparation. The number 70 had symbolic significance in Egyptian culture, connected to the period when the star Sirius was invisible below the horizon."
+              },
+              {
+                "question": "What was stored in canopic jars during mummification?",
+                "options": [
+                  "The person's jewelry and gold for the afterlife",
+                  "The removed internal organs — liver, lungs, stomach, and intestines",
+                  "Food offerings to sustain the ka in eternity",
+                  "Sacred oils and perfumes used in the wrapping process"
+                ],
+                "answerIndex": 1,
+                "explanation": "Canopic jars held the four major organs removed during mummification: liver, lungs, stomach, and intestines. Each jar was protected by one of the four sons of Horus. The heart was left in the body — Egyptians believed it was the seat of intelligence and would be weighed in the afterlife judgment."
+              }
+            ],
+            "image": {
+              "commonsFile": "Canopic_jars_British_Museum.jpg",
+              "caption": "Canopic jars for storing mummified organs, each protected by a son of Horus (British Museum)"
+            }
+          },
+          {
+            "id": "ln-2",
+            "eventId": "evt-oke-ptahhotep",
+            "narrative": "The pyramids demonstrate what the Old Kingdom state could build. The Instructions of Ptahhotep reveal what it valued.\n\nPtahhotep served as vizier — the highest government official — under Pharaoh Djedkare Isesi of the Fifth Dynasty, around 2400 BCE. In his old age, he composed a series of maxims for his son on how to live wisely and govern justly. These 37 maxims, preserved on papyrus, form one of the oldest works of moral philosophy in human history.\n\nThe Instructions cover everything from table manners to political strategy, but their core message is consistent: listen before you speak, treat the powerless with dignity, and restrain your anger and appetites. 'If you are a leader,' Ptahhotep advises, 'listen calmly to the plea of a petitioner. Do not rebuff him before he has emptied his body of what he planned to tell you. A man in distress wants to pour out his heart more than he wants his case adjudicated.'\n\nOther maxims address social mobility, friendship, and the relationship between knowledge and humility: 'Do not be arrogant because of your knowledge. Consult the ignorant as well as the wise. The limits of art are not reached; no artist possesses full mastery.' This emphasis on intellectual humility is striking from an official at the peak of the most powerful state on earth.\n\nThe Instructions of Ptahhotep became a classic of Egyptian literature, copied by scribal students for over a thousand years. They belong to the genre Egyptians called sebayt — 'instruction' or 'teaching' — a tradition of wisdom literature that would produce some of the ancient world's most enduring philosophical texts. The parallels with the biblical Book of Proverbs, written over a millennium later, have been noted by scholars since the first modern translations.",
+            "quiz": [
+              {
+                "question": "What later religious text has been compared to the Instructions of Ptahhotep?",
+                "options": [
+                  "The Egyptian Book of the Dead",
+                  "The Hindu Vedas",
+                  "The biblical Book of Proverbs",
+                  "The Quran"
+                ],
+                "answerIndex": 2,
+                "explanation": "Scholars have noted striking parallels between the Instructions of Ptahhotep and the biblical Book of Proverbs — both are collections of practical moral advice framed as a father instructing his son. Some passages are remarkably similar, though Ptahhotep predates Proverbs by over 1,000 years."
+              },
+              {
+                "question": "What Egyptian literary genre did the Instructions of Ptahhotep help establish?",
+                "options": [
+                  "Hymn literature dedicated to the gods",
+                  "The autobiography genre found on tomb walls",
+                  "Love poetry exchanged between couples",
+                  "Sebayt — a tradition of wisdom instruction literature"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Instructions of Ptahhotep is one of the earliest examples of sebayt (\"instruction\" or \"teaching\") — the Egyptian wisdom literature tradition. This genre, which framed moral and practical advice as a father-to-son instruction, continued for over 1,500 years and influenced wisdom traditions across the ancient Near East."
+              }
+            ],
+            "image": {
+              "commonsFile": "Prisse_papyrus.jpg",
+              "caption": "The Prisse Papyrus, containing the oldest surviving copy of the Instructions of Ptahhotep (12th Dynasty copy)"
+            }
+          },
+          {
+            "id": "ln-3",
+            "eventId": "evt-oke-harkhuf",
+            "narrative": "Egypt's relationship with the lands to the south — the region the Egyptians called Nubia — was one of the most important and enduring in the ancient world. Old Kingdom governors at Elephantine, Egypt's southernmost garrison town at the First Cataract of the Nile, organized trading expeditions deep into central Africa, returning with goods that the Nile Valley could not produce.\n\nThe most vivid account of these expeditions comes from Harkhuf, governor of Upper Egypt during the reigns of Merenre I and Pepi II in the Sixth Dynasty. Harkhuf's autobiographical tomb inscription at Aswan describes four expeditions into Nubia and beyond. Each journey lasted months, traveling by donkey caravan through increasingly remote territory.\n\nHarkhuf returned from his expeditions with incense, ebony, leopard skins, ivory, oil, and — on his fourth journey — a dancing pygmy who so delighted the young Pepi II that the boy pharaoh wrote an excited letter demanding the dwarf be brought safely to court. 'Come northward to the court immediately!' the letter reads. 'Bring this dwarf with you alive, prosperous, and healthy! When he goes down with you into the ship, appoint excellent people who shall be beside him on each side of the vessel. Take care lest he fall into the water! When he sleeps at night, appoint excellent people to sleep beside him in his tent. Inspect ten times a night!'\n\nHarkhuf was so proud of this royal letter that he had it carved in full on his tomb wall, where it survived for over four thousand years. Beyond its charm, the letter reveals the extensive trade networks that connected Egypt to central Africa — networks that supplied luxury goods, military recruits (Nubian mercenaries were prized archers), and exotic animals. These southern trade routes were as important to the Egyptian economy as the cedar trade with Byblos to the north.",
+            "quiz": [
+              {
+                "question": "What was the Nile's First Cataract at Aswan significant for?",
+                "options": [
+                  "It marked Egypt's traditional southern frontier and the gateway to Nubia",
+                  "It was the site of Egypt's largest pyramid",
+                  "It was the point where the Nile split into the Delta",
+                  "It was the location of the oldest Egyptian temple"
+                ],
+                "answerIndex": 0,
+                "explanation": "The First Cataract at Aswan — a stretch of shallow rapids and granite boulders — marked Egypt's traditional southern boundary. Elephantine Island in the cataract hosted a garrison town, nilometer, and the offices of governors like Harkhuf who organized trade expeditions south into Nubia."
+              },
+              {
+                "question": "Why did Harkhuf carve the full text of Pepi II's letter on his tomb wall?",
+                "options": [
+                  "He was required to by Egyptian law",
+                  "He was proud of receiving a personal letter from the pharaoh",
+                  "It was the only document he possessed",
+                  "The letter contained instructions for his burial ritual"
+                ],
+                "answerIndex": 1,
+                "explanation": "Receiving a personal letter from the pharaoh was a great honor that enhanced Harkhuf's status for eternity. By carving it on his tomb at Aswan, he ensured that everyone — including visitors in the afterlife — would know that the king of Egypt personally entrusted him with an important mission."
+              }
+            ]
+          },
+          {
+            "id": "ln-4",
+            "eventId": "evt-oke-coffin-texts",
+            "narrative": "During the Old Kingdom, the afterlife was an exclusive privilege. The Pyramid Texts carved inside royal pyramids at Saqqara contained the spells needed to navigate the underworld, join Ra in his solar barque, and achieve eternal life. These texts were reserved for the pharaoh alone. Nobles and officials were buried in mastaba tombs around the royal pyramids, hoping to share in the king's reflected glory — but they received no texts of their own.\n\nThe First Intermediate Period changed everything. As pharaonic authority collapsed and provincial elites became independent rulers, they claimed prerogatives that had once belonged exclusively to the king — including the right to an afterlife guaranteed by sacred texts.\n\nThe Coffin Texts emerged during this period as an adaptation and expansion of the Pyramid Texts. Instead of being carved on pyramid walls, these spells were painted on the interior surfaces of wooden coffins — a portable medium accessible to anyone who could afford a properly equipped burial. The texts drew heavily on the Pyramid Texts but added new material, including the 'Book of Two Ways' — the earliest known map of the underworld, depicting the paths a soul must navigate to reach the Field of Reeds (the Egyptian paradise).\n\nThe Coffin Texts also introduced a concept that would become central to later Egyptian religion: judgment before Osiris. While the Pyramid Texts assumed the pharaoh would automatically join the gods, the Coffin Texts presented the afterlife as something that had to be earned — the deceased had to demonstrate moral worthiness before a divine tribunal. This idea would evolve into the famous 'weighing of the heart' scene in the Book of the Dead, where the deceased's heart was weighed against the feather of Ma'at.\n\nThe democratization of the afterlife was one of the most profound cultural shifts in Egyptian history. What had been the pharaoh's exclusive right became, over centuries, available to anyone who could afford the funerary texts and equipment. Death, like everything else in Egypt, was being decentralized.",
+            "quiz": [
+              {
+                "question": "What is the Book of Two Ways?",
+                "options": [
+                  "An ancient Egyptian legal code with two sets of laws for Upper and Lower Egypt",
+                  "A mathematical text describing two methods for calculating pyramid angles",
+                  "The earliest known map of the underworld, showing paths to the Field of Reeds",
+                  "A diplomatic treaty between the two rival dynasties of the First Intermediate Period"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Book of Two Ways, found in the Coffin Texts, is the earliest known map of the underworld. It depicts two paths — by land and by water — that the soul must navigate past dangers to reach the Field of Reeds, the Egyptian paradise. It was painted on the bottom of coffins so the deceased could read it."
+              },
+              {
+                "question": "What new afterlife concept did the Coffin Texts introduce that was absent from the Pyramid Texts?",
+                "options": [
+                  "The idea that pharaohs could become stars",
+                  "The belief that cats were sacred guardians of the dead",
+                  "The concept of mummification preserving the body",
+                  "Judgment before Osiris based on moral worthiness"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Coffin Texts introduced the concept of judgment before Osiris — the idea that the deceased had to demonstrate moral worthiness to enter the afterlife. The Pyramid Texts had assumed the pharaoh automatically joined the gods. This idea evolved into the famous \"weighing of the heart\" scene in the Book of the Dead."
+              }
+            ],
+            "image": {
+              "commonsFile": "CoffinTextsBM.jpg",
+              "caption": "Coffin Texts painted on the interior of a Middle Kingdom coffin (British Museum)"
+            }
+          },
+          {
+            "id": "ln-5",
+            "eventId": "evt-oke-ipuwer",
+            "narrative": "The collapse of the Old Kingdom did not just produce political fragmentation and famine — it produced literature. Some of the most powerful writing in ancient history emerged from the crisis of the First Intermediate Period, as Egyptian intellectuals grappled with a world that no longer made sense.\n\nThe Admonitions of Ipuwer is the most famous of these crisis texts. Written as a sage's complaint to the pharaoh (or perhaps to the gods), it describes a world turned completely upside down. The Nile runs with blood. The wealthy are in mourning while the poor wear fine linen. Tomb robbers openly desecrate royal burials. Foreign peoples occupy the borders. 'Those who had clothes are now in rags,' Ipuwer laments. 'Gold and lapis lazuli are strung on the necks of slave girls.'\n\nScholars debate whether the Admonitions describes actual conditions during the First Intermediate Period or is a literary exercise composed later during the Middle Kingdom as a cautionary tale. Either way, the text reflects the profound shock that the Old Kingdom's collapse inflicted on Egyptian consciousness. For over five centuries, divine pharaohs had maintained ma'at — cosmic order. The pyramids proved it. The gods endorsed it. Now the system had failed, and Egyptians had to confront the possibility that divine order was not guaranteed.\n\nThe Instructions for King Merikare, written from the perspective of a Herakleopolitan king advising his heir, grapples with the same crisis from a political angle: how do you govern justly when the old certainties are gone? 'Be skillful in speech,' the text advises. 'Do justice whilst you endure upon earth. Quiet the weeper; do not oppress the widow.' But it also frankly discusses the desecration of tombs at Abydos and the tactical challenges of fighting Thebes — practical realpolitik alongside moral philosophy.",
+            "quiz": [
+              {
+                "question": "What specific social inversion does Ipuwer describe in his lament?",
+                "options": [
+                  "Slave girls wearing gold and lapis lazuli while the wealthy are in rags",
+                  "Pharaohs working as farmers in the fields",
+                  "Children ruling over their parents",
+                  "Priests abandoning the temples to become merchants"
+                ],
+                "answerIndex": 0,
+                "explanation": "Ipuwer specifically laments that \"gold and lapis lazuli are strung on the necks of slave girls\" while \"those who had clothes are now in rags.\" This vivid image of social inversion — the lowly wearing luxury while the elite suffer — captures the complete breakdown of the Old Kingdom's hierarchical social order."
+              },
+              {
+                "question": "What frank political topic does the Instructions for King Merikare discuss alongside its moral advice?",
+                "options": [
+                  "The destruction of all pyramids as punishment for royal hubris",
+                  "The desecration of tombs at Abydos and tactics for fighting Thebes",
+                  "Plans to abandon Egypt and resettle in Nubia",
+                  "A plot to assassinate the pharaoh of the rival dynasty"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Instructions for Merikare is notable for mixing moral philosophy with hardheaded realpolitik. It advises just governance and concern for the poor, but also discusses the desecration of sacred tombs at Abydos (which the author regrets) and strategic challenges of the civil war with the Theban dynasty."
+              }
+            ]
+          },
+          {
+            "id": "ln-6",
+            "eventId": "evt-oke-dialogue-man-soul",
+            "narrative": "The most psychologically modern text from the First Intermediate Period is also the most disturbing. The Dialogue of a Man with His Soul — sometimes called the Dispute between a Man and His Ba — is a conversation between a man contemplating suicide and his own spiritual essence. It is the earliest known text to explore existential despair, the desire for death, and the question of whether life is worth living.\n\nThe man argues for death in lyrical terms: 'Death is before me today like the fragrance of myrrh, like sitting under a sail on a windy day.' He sees death as release from a world of cruelty, betrayal, and meaninglessness. His ba (soul-personality) pushes back: the afterlife is uncertain, the underworld may be no better, and the pleasures of life — beer, music, love — are real and should be enjoyed.\n\nThe dialogue is remarkable not just for its content but for its structure. It presents two valid philosophical positions without clearly resolving them. The man's despair is not dismissed as weakness; the ba's argument for life is not presented as obviously correct. Modern readers have compared it to the Book of Ecclesiastes, to Hamlet's soliloquy, to Camus's The Myth of Sisyphus. It suggests that the psychological impact of civilizational collapse in ancient Egypt produced the same existential questioning that modern catastrophes generate.\n\nThe Dialogue marks the end of an era. The Old Kingdom had been built on certainty: the pharaoh was god, the state was eternal, and the afterlife was guaranteed (at least for the king). The First Intermediate Period destroyed those certainties. From that destruction came a literary and philosophical flowering that produced some of the most human, honest, and emotionally complex texts in the ancient world.\n\nThe Egypt that emerged from this crisis — reunified under Mentuhotep II — was fundamentally different from the Egypt that had built the pyramids. It was more introspective, more literary, more concerned with justice and individual morality. The Middle Kingdom that followed would be remembered as Egypt's classical age of literature. And when the Hyksos invaded and were eventually expelled, the New Kingdom pharaohs would carry Egypt's restored unity to imperial heights across the ancient Near East.",
+            "quiz": [
+              {
+                "question": "What modern philosophical works has the Dialogue of a Man with His Soul been compared to?",
+                "options": [
+                  "Plato's Republic and Aristotle's Ethics",
+                  "The Tao Te Ching and Confucius's Analects",
+                  "The Book of Ecclesiastes, Hamlet, and Camus's The Myth of Sisyphus",
+                  "Marx's Communist Manifesto and Rousseau's Social Contract"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Dialogue has been compared to Ecclesiastes (questioning the meaning of life), Hamlet's \"to be or not to be\" soliloquy (debating the merits of death), and Camus's Myth of Sisyphus (confronting absurdity). Written over 4,000 years ago, it addresses questions we often consider modern."
+              },
+              {
+                "question": "How does the man in the Dialogue describe death?",
+                "options": [
+                  "As a terrifying darkness to be avoided at all costs",
+                  "As a punishment inflicted by the gods for human wickedness",
+                  "As a long sleep from which one eventually awakens",
+                  "As the fragrance of myrrh and sitting under a sail on a windy day"
+                ],
+                "answerIndex": 3,
+                "explanation": "The man describes death in beautiful, sensual terms: \"like the fragrance of myrrh, like sitting under a sail on a windy day.\" Rather than fearing death, he sees it as peaceful release from a cruel world — making this one of the earliest known expressions of the desire for death as escape from suffering."
+              }
+            ]
+          }
+        ],
+        "recap": "The world behind the pyramids was richer and more complex than the monuments alone suggest. Old Kingdom Egyptians developed mummification technology that aimed to engineer eternity for the dead. They produced wisdom literature — the Instructions of Ptahhotep — that would influence moral philosophy across the ancient Near East. They maintained trade networks stretching from Lebanon to central Africa, as Harkhuf's expeditions into Nubia demonstrate.\n\nBut the most remarkable cultural achievement of this era came from its darkest period. The First Intermediate Period's collapse produced a literary and philosophical explosion: the Coffin Texts democratized the afterlife, the Admonitions of Ipuwer documented a world turned upside down, and the Dialogue of a Man with His Soul confronted existential despair with honesty that still resonates today. Egypt did not just survive its first great crisis — it emerged with a deeper, more introspective civilization. The Middle Kingdom that followed reunification would be remembered as Egypt's classical age, and the pharaohs of the New Kingdom would inherit both the pyramids' ambition and the crisis literature's hard-won wisdom."
+      }
+    ]
+  }
+}
