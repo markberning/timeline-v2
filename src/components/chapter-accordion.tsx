@@ -217,10 +217,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 const fmtAbs = (y: number) => Math.abs(y).toLocaleString()
                 const suffix = endYear <= 0 ? 'BCE' : 'CE'
                 return (
-                  <div className="shrink-0 text-right text-xs text-foreground/40 leading-tight mt-0.5">
-                    <div>{fmtAbs(startYear)}</div>
-                    <div className="text-[0.7em] my-px">↓</div>
-                    <div>{fmtAbs(endYear)} {suffix}</div>
+                  <div className="shrink-0 text-right text-xs text-foreground/40 mt-0.5">
+                    {fmtAbs(startYear)} › {fmtAbs(endYear)} {suffix}
                   </div>
                 )
               })()}
