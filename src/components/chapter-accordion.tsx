@@ -11,12 +11,13 @@ interface ChapterAccordionProps {
   open: boolean
   hidden: boolean
   nextChapterNumber: number | null
+  nextChapterTitle: string | null
   onExpand: () => void
   onCollapse: () => void
   onReadNext: () => void
 }
 
-export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, onExpand, onCollapse, onReadNext }: ChapterAccordionProps) {
+export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, nextChapterTitle, onExpand, onCollapse, onReadNext }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
@@ -340,6 +341,9 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                     Read Next Chapter
                   </div>
                   <div className="text-base font-semibold mt-1 font-[family-name:var(--font-lora)]">
+                    {nextChapterTitle}
+                  </div>
+                  <div className="text-sm opacity-70 mt-0.5">
                     Chapter {nextChapterNumber}
                   </div>
                 </div>

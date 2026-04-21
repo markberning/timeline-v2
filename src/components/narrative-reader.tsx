@@ -114,6 +114,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               open={openChapter === ch.number}
               hidden={openChapter !== null && openChapter !== ch.number}
               nextChapterNumber={next ? next.number : null}
+              nextChapterTitle={next ? next.title : null}
               onExpand={() => setOpenChapter(ch.number)}
               onCollapse={() => setOpenChapter(null)}
               onReadNext={() => next && setOpenChapter(next.number)}
