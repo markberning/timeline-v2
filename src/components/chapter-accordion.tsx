@@ -161,10 +161,10 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           tabIndex={0}
           onPointerDown={onHeaderPointerDown}
           onPointerUp={onHeaderPointerUp}
-          className="w-full text-left pt-5 pb-2 flex gap-3 items-start touch-manipulation cursor-pointer select-none"
+          className="w-full text-left pt-5 pb-2 flex gap-3 items-baseline touch-manipulation cursor-pointer select-none"
         >
           <span
-            className="text-sm font-bold shrink-0 mt-0.5 tabular-nums"
+            className="text-sm font-bold shrink-0 tabular-nums"
             style={{ color: 'var(--accent)' }}
           >
             {String(chapter.number).padStart(2, '0')}
