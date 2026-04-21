@@ -60,6 +60,12 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     onExpand()
   }
 
+  function estimateReadingTime(html: string): number {
+    const text = html.replace(/<[^>]+>/g, ' ')
+    const words = text.trim().split(/\s+/).length
+    return Math.max(1, Math.round(words / 200))
+  }
+
   // On expand: scroll to the top of the document. Because siblings are
   // hidden (display:none) when one chapter is open, the opened chapter is
   // always the first visible chapter in the flow and sits right below the
@@ -202,39 +208,29 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 )}
               </>
             )}
-            {summaryOpen && chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
+            {summaryOpen && chapter.summary && (
               <>
                 <button
-                  onClick={() => setSummaryOpen(false)}
-                  className="mt-2 w-full py-2.5 text-sm font-semibold rounded-lg transition-colors hover:opacity-80"
+                  onClick={onExpand}
+                  className="mt-2 w-full py-3 px-4 text-left rounded-lg transition-colors hover:opacity-80"
                   style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
                 >
-                  Close Summary
+                  <div className="text-xs font-bold tracking-wide uppercase flex items-center gap-1.5">
+                    <span className="text-[0.7em]">▶︎</span> Read the Full Chapter
+                  </div>
+                  <div className="text-sm font-semibold mt-1">{chapter.title}</div>
+                  <div className="text-xs opacity-60 mt-0.5">
+                    Chapter {chapter.number} · {estimateReadingTime(chapter.contentHtml)} minutes{chapter.dateRange ? ` · ${chapter.dateRange}` : ''}
+                  </div>
                 </button>
-                <ul className="mt-3 space-y-2 list-disc list-outside pl-5 text-[0.95em]">
-                  {chapter.summaryBullets.map((html, i) => (
-                    <li
-                      key={i}
-                      className="leading-snug text-foreground"
-                      dangerouslySetInnerHTML={{ __html: html }}
-                    />
-                  ))}
-                </ul>
-                <div className="mt-4 flex gap-2">
-                  <button
-                    onClick={() => setSummaryOpen(false)}
-                    className="shrink-0 w-12 h-12 flex items-center justify-center rounded-lg text-lg font-semibold transition-colors hover:opacity-80"
-                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
-                  >
-                    ×
-                  </button>
-                  <button
-                    onClick={onExpand}
-                    className="flex-1 py-3 text-base font-semibold rounded-lg transition-colors hover:opacity-80"
-                    style={{ color: 'var(--accent-text)', backgroundColor: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}
-                  >
-                    Read Chapter {chapter.number} →
-                  </button>
+
+                <div className="mt-4">
+                  <div className="text-[0.65em] font-semibold tracking-[0.15em] text-foreground/40 uppercase">
+                    Summary · for review
+                  </div>
+                  <p className="mt-2 text-sm leading-relaxed text-foreground/70">
+                    {chapter.summary}
+                  </p>
                 </div>
               </>
             )}
