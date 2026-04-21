@@ -149,7 +149,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     >
       <div
         ref={headerRef}
-        className="sticky z-10 transition-colors duration-[1200ms]"
+        className="sticky z-10 transition-colors duration-[1200ms] -mx-5 px-5"
         style={{
           top: `${navHeight}px`,
           backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)',
