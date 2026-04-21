@@ -233,15 +233,15 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           <div className="pb-5 pl-10">
             <button
               onClick={expand}
-              className="mt-3 w-full py-4 px-5 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3"
+              className="mt-3 w-full py-4 px-5 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3 font-bold"
               style={{ backgroundColor: 'var(--accent)', color: 'white' }}
             >
               <div className="flex-1 min-w-0">
-                <div className="text-sm font-bold tracking-wide uppercase flex items-center gap-1.5">
+                <div className="text-sm tracking-wide uppercase flex items-center gap-1.5">
                   <span className="inline-block w-3.5 h-3.5 rounded-[3px] bg-white/30" />
                   Read the Full Chapter
                 </div>
-                <div className="text-base font-semibold mt-1 font-[family-name:var(--font-lora)]">{chapter.title}</div>
+                <div className="text-base mt-1 font-[family-name:var(--font-lora)]">{chapter.title}</div>
                 <div className="text-sm opacity-70 mt-0.5">
                   Chapter {chapter.number} · {chapterEvents.length} events
                 </div>
@@ -332,18 +332,18 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
             {nextChapterNumber !== null && (
               <button
                 onClick={onReadNext}
-                className="flex-1 py-4 px-5 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3"
+                className="flex-1 py-4 px-5 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3 font-bold"
                 style={{ backgroundColor: 'var(--accent)', color: 'white' }}
               >
                 <div className="flex-1 min-w-0">
-                  <div className="text-sm font-bold tracking-wide uppercase flex items-center gap-1.5">
+                  <div className="text-sm tracking-wide uppercase flex items-center gap-1.5">
                     <span className="inline-block w-3.5 h-3.5 rounded-[3px] bg-white/30" />
                     Read Next Chapter
                   </div>
-                  <div className="text-base font-semibold mt-1 font-[family-name:var(--font-lora)]">
+                  <div className="text-base mt-1 font-[family-name:var(--font-lora)]">
                     {nextChapterTitle}
                   </div>
-                  <div className="text-sm font-bold opacity-70 mt-0.5">
+                  <div className="text-sm opacity-70 mt-0.5">
                     Chapter {nextChapterNumber}
                   </div>
                 </div>
