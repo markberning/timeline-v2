@@ -1,0 +1,732 @@
+{
+  "id": "minoan-civilization",
+  "label": "Minoan Civilization",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Minoan_civilization",
+  "imageWikiSlug": "Knossos",
+  "pitch": "On the island of Crete, Europe's first advanced civilization built labyrinthine palaces, mastered the seas, and created art so vibrant it still dazzles. Named after the mythical King Minos, the Minoans flourished from the construction of the First Palaces around 1900 BCE until the mysterious collapse after 1450 BCE. Their Palace of Knossos was the largest Bronze Age structure in Europe.\n\n🔑 Key Facts:\n• The Bull-Leaping Fresco depicts athletes vaulting over charging bulls — a ritual sport unique to Minoan culture that may have inspired the Minotaur legend\n• Linear A Script remains undeciphered, one of the great unsolved puzzles of archaeology\n• The Thera Eruption around 1620 BCE was one of the largest volcanic explosions in human history, devastating Minoan settlements and possibly inspiring the Atlantis myth\n• Minoan palaces had Indoor Plumbing Systems with terracotta pipes, flush toilets, and drainage — technology Europe wouldn't see again for over a thousand years\n\n🤔 Why It Matters: The Minoans created the first maritime trade empire in the Mediterranean, with the Minoan Thalassocracy controlling sea routes from Egypt to the Levant. Their art, architecture, and religion profoundly influenced Mycenaean Greece and thus all of Western civilization.\n\n🎲 Wild Card: When Arthur Evans excavated Knossos in 1900, he found a throne room with a stone seat still in place — the Throne Room of Knossos is the oldest throne room in Europe, and the throne itself may be the oldest in the world still sitting where it was originally placed.",
+  "countryIds": [
+    "300"
+  ],
+  "spans": [
+    {
+      "id": "span-minoan-civilization-prepalatial",
+      "label": "Prepalatial Period",
+      "startYear": -2700,
+      "endYear": -1900,
+      "wikiSlug": "Minoan_civilization",
+      "description": "Cretan communities transitioned from villages to complex societies with metalworking, long-distance trade, and communal tholos tombs. Population growth and craft specialization laid the groundwork for the palace civilizations to come."
+    },
+    {
+      "id": "span-minoan-civilization-protopalatial",
+      "label": "Protopalatial (First Palaces)",
+      "startYear": -1900,
+      "endYear": -1700,
+      "wikiSlug": "Minoan_civilization",
+      "description": "The first monumental palace complexes arose at Knossos, Phaistos, and Malia, serving as administrative, religious, and economic centers. Linear A script and Kamares ware pottery emerged during this period."
+    },
+    {
+      "id": "span-minoan-civilization-neopalatial",
+      "label": "Neopalatial (Second Palaces)",
+      "startYear": -1700,
+      "endYear": -1450,
+      "wikiSlug": "Minoan_civilization",
+      "description": "Minoan civilization reached its peak after earthquakes destroyed the first palaces and grander replacements were built. Knossos became the largest Bronze Age structure in Europe, and Minoan thalassocracy dominated Mediterranean sea lanes."
+    },
+    {
+      "id": "span-minoan-civilization-postpalatial",
+      "label": "Postpalatial / Mycenaean Crete",
+      "startYear": -1450,
+      "endYear": -1100,
+      "wikiSlug": "Minoan_civilization",
+      "description": "Mycenaean Greeks took control of Crete after the destruction of most Minoan palaces around 1450 BCE. Linear B replaced Linear A, and Minoan culture was gradually absorbed into the Mycenaean world."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-early-minoan-settlement",
+      "label": "Early Minoan Settlements",
+      "year": -2700,
+      "description": "Agricultural communities on Crete began developing into complex societies, with evidence of metalworking, long-distance trade, and communal tombs (tholos burials).",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-vasiliki-ware",
+      "label": "Vasiliki Ware Pottery",
+      "year": -2600,
+      "description": "Distinctive mottled pottery from Vasiliki demonstrates early Minoan artistic sophistication and specialized craft production.",
+      "wikiSlug": "Vasiliki_ware",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-olive-vine-cultivation",
+      "label": "Olive and Vine Cultivation",
+      "year": -2500,
+      "description": "Cretans adopted systematic olive and grape cultivation, creating the agricultural surpluses that would underpin palace economies. Olive oil became a major export commodity and ritual substance, stored in massive pithoi jars.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tholos-tombs-mesara",
+      "label": "Tholos Tombs of the Mesara",
+      "year": -2500,
+      "description": "Circular stone tholos tombs in the Mesara plain of southern Crete served as communal burial sites for entire clans over generations. Some contained hundreds of burials along with gold jewelry, stone vessels, and ivory seals, revealing an increasingly stratified society.",
+      "wikiSlug": "Tholos_tomb",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-early-bronze-working",
+      "label": "Early Minoan Metallurgy",
+      "year": -2300,
+      "description": "Cretan metalworkers mastered copper-tin bronze alloys, producing daggers, tools, and ornamental objects. Bronze technology accelerated craft specialization and long-distance trade for tin, which Crete lacked entirely.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mochlos-settlement",
+      "label": "Mochlos Trading Settlement",
+      "year": -2300,
+      "description": "The island settlement of Mochlos off Crete's northeast coast became an early trading hub, with rich tombs containing gold jewelry, Cycladic imports, and Egyptian stone vessels that attest to Crete's growing maritime connections.",
+      "wikiSlug": "Mochlos",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-prepalatial-seals",
+      "label": "Pre-palatial Seal Stones",
+      "year": -2200,
+      "description": "Minoan artisans began carving soft stone seals with geometric and animal motifs, used to stamp clay sealings on containers and doors. These seals are the earliest evidence of centralized accounting on Crete and a precursor to the later writing systems.",
+      "wikiSlug": "Minoan_sealstone",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cretan-hieroglyphs",
+      "label": "Cretan Hieroglyphic Script",
+      "year": -2100,
+      "description": "The earliest Minoan writing system, Cretan hieroglyphs, appeared on seals and clay tablets. It remains undeciphered and may have influenced Linear A.",
+      "wikiSlug": "Cretan_hieroglyphs",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-chrysolakkos-malia",
+      "label": "Chrysolakkos Burial Complex",
+      "year": -2000,
+      "description": "The monumental Chrysolakkos ('pit of gold') burial complex at Malia contained rich grave goods including the famous Malia Pendant. The structure's scale suggests an emerging elite class in the decades just before palace construction began.",
+      "wikiSlug": "Chrysolakkos",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-peak-sanctuaries",
+      "label": "Peak Sanctuaries",
+      "year": -2000,
+      "description": "Minoans worshipped at open-air peak sanctuaries on mountaintops across Crete, depositing clay figurines and offerings — the most widespread Minoan religious practice.",
+      "wikiSlug": "Peak_sanctuary",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-first-palaces",
+      "label": "First Palaces Built",
+      "year": -1900,
+      "description": "The first monumental palace complexes were built at Knossos, Phaistos, and Malia, marking Crete's transition to a palace-centered civilization with centralized storage and administration.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-phaistos-palace",
+      "label": "Palace of Phaistos",
+      "year": -1900,
+      "description": "The Palace of Phaistos in southern Crete was the second-largest Minoan palace, commanding the fertile Mesara plain from a hilltop with panoramic views. Destroyed around 1700 BCE and rebuilt on a grander plan, it yielded the enigmatic Phaistos Disc.",
+      "wikiSlug": "Phaistos",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kamares-ware",
+      "label": "Kamares Ware Pottery",
+      "year": -1900,
+      "description": "Kamares ware — thin-walled pottery with white and red designs on dark backgrounds — represents the peak of Minoan ceramic art, found across the eastern Mediterranean.",
+      "wikiSlug": "Kamares_ware",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-malia-palace",
+      "label": "Palace of Malia",
+      "year": -1900,
+      "description": "The Palace of Malia on Crete's north coast was the third-largest Minoan palace, featuring a unique kernos stone used in grain offering rituals.",
+      "wikiSlug": "Malia,_Crete",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bees-pendant-malia",
+      "label": "Bees Pendant of Malia",
+      "year": -1800,
+      "description": "The gold Bees Pendant from Chrysolakkos at Malia depicts two bees depositing a drop of honey into a granulated gold comb. Just over an inch wide, it is one of the finest examples of Minoan goldwork and a masterpiece of ancient jewelry.",
+      "wikiSlug": "Malia_Pendant",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-linear-a",
+      "label": "Linear A Script",
+      "year": -1800,
+      "description": "Linear A replaced Cretan hieroglyphs as the primary writing system. Used for administration and religious dedications, it remains undeciphered despite decades of effort.",
+      "wikiSlug": "Linear_A",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-phaistos-disc",
+      "label": "Phaistos Disc",
+      "year": -1740.0,
+      "description": "The mysterious Phaistos Disc features stamped symbols in a spiral pattern. Its script is unique and undeciphered — it may be the world's earliest 'printed' text.",
+      "wikiSlug": "Phaistos_Disc",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-earthquake-destruction",
+      "label": "Earthquake Destroys First Palaces",
+      "year": -1730.0,
+      "description": "A major earthquake destroyed the first palaces around 1700 BCE, but the Minoans rebuilt on an even grander scale, ushering in the Neopalatial golden age.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-knossos-palace",
+      "label": "Palace of Knossos",
+      "year": -1720.0,
+      "description": "The rebuilt Palace of Knossos covered 20,000 square meters with over 1,000 rooms, lustral basins, grand staircases, and elaborate frescoes — the heart of Minoan civilization.",
+      "wikiSlug": "Knossos",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-egyptian-trade",
+      "label": "Minoan-Egyptian Trade",
+      "year": -1710.0,
+      "description": "Minoan goods and artistic influence reached Egypt, and Egyptian objects flowed to Crete. Tomb paintings at Thebes depict 'Keftiu' (Cretans) bearing gifts to the pharaoh.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-indoor-plumbing",
+      "label": "Indoor Plumbing Systems",
+      "year": -1700,
+      "description": "Minoan palaces featured sophisticated water management: terracotta pipes, drainage systems, flush toilets, and bathtubs — sanitation engineering unmatched until Roman times.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-anemospilia-temple",
+      "label": "Anemospilia Temple",
+      "year": -1700,
+      "description": "The temple at Anemospilia on Mount Juktas was destroyed by earthquake while a ritual was in progress. Excavators found what appears to be a human sacrifice victim on an altar — a controversial find that challenged the image of the Minoans as peaceful.",
+      "wikiSlug": "Anemospilia",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-psychro-cave",
+      "label": "Psychro Cave Sanctuary",
+      "year": -1700,
+      "description": "The Psychro Cave (Dictaean Cave) in the Lasithi plateau was one of the most important Minoan sacred caves, later identified in Greek myth as the birthplace of Zeus. Thousands of votive offerings — bronze figurines, double axes, and jewelry — were deposited in its depths.",
+      "wikiSlug": "Psychro_Cave",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-galatas-palace",
+      "label": "Palace of Galatas",
+      "year": -1700,
+      "description": "The small palace at Galatas in the Pediada region demonstrates that Minoan palatial administration extended beyond the major centers. Though modest compared to Knossos, it had a central court, storage magazines, and cult rooms following the standard palace plan.",
+      "wikiSlug": "Galatas_(Crete)",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-petras-palace",
+      "label": "Palace of Petras",
+      "year": -1700,
+      "description": "The palace complex at Petras near Siteia in eastern Crete controlled a small harbor and agricultural territory. Its archive of Linear A tablets is one of the largest found outside the major palace sites.",
+      "wikiSlug": "Petras,_Crete",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-minoan-cyclades-phylakopi",
+      "label": "Minoan Presence in the Cyclades",
+      "year": -1700,
+      "description": "Minoan cultural influence spread to the Cycladic islands, with a strong presence at Phylakopi on Melos. Minoan-style frescoes, pottery, and religious practices appeared across the island chain, forming the western arc of the Minoan trade network.",
+      "wikiSlug": "Phylakopi",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-double-axe-symbol",
+      "label": "Labrys (Double Axe) Symbol",
+      "year": -1690.0,
+      "description": "The double axe (labrys) was the most important Minoan religious symbol, found throughout palaces and sanctuaries. The word 'labyrinth' likely derives from it.",
+      "wikiSlug": "Labrys",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-minoan-roads",
+      "label": "Minoan Road Network",
+      "year": -1680.0,
+      "description": "The Minoans built paved roads connecting palaces across Crete, some over 3.5 meters wide with drainage channels — the first road system in Europe.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-minoan-weights",
+      "label": "Minoan Weights and Measures",
+      "year": -1670.0,
+      "description": "Standardized stone weights found across Minoan sites and trading partners demonstrate a sophisticated commercial system integrated with Egyptian and Near Eastern standards.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goddess-worship",
+      "label": "Minoan Goddess Worship",
+      "year": -1660.0,
+      "description": "Minoan religion appears to have centered on powerful female deities associated with nature, animals, and fertility — a stark contrast to the male-dominated pantheons of the Near East.",
+      "wikiSlug": "Minoan_religion",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-snake-goddess",
+      "label": "Snake Goddess Figurines",
+      "year": -1650,
+      "description": "Faience figurines of bare-breasted women holding snakes suggest a prominent female deity or priestess role in Minoan religion, emphasizing the divine feminine.",
+      "wikiSlug": "Minoan_snake_goddess_figurines",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-akrotiri-trade",
+      "label": "Akrotiri Trading Port",
+      "year": -1650,
+      "description": "The Minoan settlement at Akrotiri on Thera (Santorini) was a prosperous trading port with multi-story buildings and stunning frescoes, frozen in time by the later eruption.",
+      "wikiSlug": "Akrotiri_(prehistoric_city)",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-saffron-gatherers",
+      "label": "Saffron Gatherers Fresco",
+      "year": -1650,
+      "description": "The Saffron Gatherers fresco from Akrotiri depicts women harvesting crocus flowers, suggesting a goddess-centered ritual and Crete's role in the saffron trade.",
+      "wikiSlug": "Akrotiri_(prehistoric_city)",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-ship-procession-fresco",
+      "label": "Ship Procession Fresco",
+      "year": -1650,
+      "description": "The miniature Ship Procession Fresco from Akrotiri's West House depicts a fleet of elaborately decorated ships sailing between ports with dolphins leaping alongside. At over 6 meters long, it is the most detailed representation of Bronze Age seafaring in the Aegean.",
+      "wikiSlug": "Akrotiri_(prehistoric_city)",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bull-leaping",
+      "label": "Bull-Leaping Fresco",
+      "year": -1620.0,
+      "description": "The famous Bull-Leaping Fresco from Knossos depicts athletes somersaulting over a charging bull — a dangerous ritual sport central to Minoan religion and identity.",
+      "wikiSlug": "Bull-leaping",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-thera-eruption",
+      "label": "Thera Eruption",
+      "year": -1620,
+      "description": "The volcanic eruption of Thera (Santorini) was one of the largest in human history, burying Akrotiri under meters of ash and generating massive tsunamis that struck Crete.",
+      "wikiSlug": "Minoan_eruption",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-thalassocracy",
+      "label": "Minoan Thalassocracy",
+      "year": -1610.0,
+      "endYear": -1450,
+      "description": "The Minoans controlled Mediterranean sea routes, establishing trading posts and colonies across the Aegean. Their naval dominance made palace walls unnecessary — Knossos was unfortified.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ugarit-trade",
+      "label": "Minoan-Levantine Trade",
+      "year": -1600,
+      "description": "Minoan pottery and goods reached the Levantine port of Ugarit and other eastern Mediterranean cities, while Canaanite jars and Levantine metalwork flowed back to Crete. The relationship placed Minoan merchants in direct contact with Near Eastern palace economies.",
+      "wikiSlug": "Ugarit",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-minoan-frescoes",
+      "label": "Minoan Fresco Painting",
+      "year": -1600,
+      "description": "Minoan frescoes depicting dolphins, flowers, processions, and rituals represent the earliest European painting tradition, using vivid wet-plaster (buon fresco) techniques.",
+      "wikiSlug": "Minoan_pottery",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-gournia-town",
+      "label": "Gournia — Minoan Town",
+      "year": -1600,
+      "description": "Gournia on the Gulf of Mirabello is the best-preserved Minoan town, fully excavated to reveal a dense grid of houses, workshops, and narrow streets surrounding a small palace. It provides the clearest picture of everyday Minoan life outside the major palaces.",
+      "wikiSlug": "Gournia",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sacred-horns",
+      "label": "Horns of Consecration",
+      "year": -1600,
+      "description": "Stone or plaster horns of consecration crowned Minoan palace rooflines and altars as sacred symbols, likely representing the horns of the sacrificial bull. The motif is found at every major Minoan site and became the most recognizable architectural emblem of the civilization.",
+      "wikiSlug": "Horns_of_consecration",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-minoan-miletus",
+      "label": "Minoan Colony at Miletus",
+      "year": -1600,
+      "description": "The Minoans established a settlement at Miletus on the Anatolian coast, their most significant foothold outside the Aegean islands. Minoan-style architecture, pottery, and burial practices there demonstrate a genuine colonial presence, not just trade contacts.",
+      "wikiSlug": "Miletus",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-triton-shell-trumpet",
+      "label": "Triton Shell Trumpets",
+      "year": -1600,
+      "description": "Large triton sea shells modified into ritual trumpets appear in Minoan sanctuaries and palace cult rooms. Depictions on seal stones show them being blown during religious ceremonies, making them the best-documented musical instruments of Minoan ritual life.",
+      "wikiSlug": "Triton%27s_trumpet",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zakros-palace",
+      "label": "Palace of Zakros",
+      "year": -1590.0,
+      "description": "The easternmost Minoan palace at Zakros served as a gateway for trade with Egypt and the Near East, with a unique ceremonial pool in its central court.",
+      "wikiSlug": "Zakros",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-copper-trade",
+      "label": "Minoan Copper Trade",
+      "year": -1580.0,
+      "description": "The Minoans imported massive quantities of copper from Cyprus, processing it into bronze for tools, weapons, and art objects in palace-controlled workshops.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-boxer-rhyton",
+      "label": "Boxer Rhyton",
+      "year": -1550,
+      "description": "The black steatite Boxer Rhyton from Hagia Triada depicts boxing and bull-leaping scenes in relief — athletes wearing helmets and gloves in what may be a religious festival. It is one of the finest examples of Minoan stone carving.",
+      "wikiSlug": "Boxer_vase",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hagia-triada",
+      "label": "Hagia Triada Royal Villa",
+      "year": -1550,
+      "description": "The luxurious royal villa at Hagia Triada near Phaistos yielded extraordinary finds including the Harvester Vase and the Hagia Triada sarcophagus with painted ritual scenes.",
+      "wikiSlug": "Hagia_Triada",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-priest-king",
+      "label": "Priest-King Fresco",
+      "year": -1550,
+      "description": "The 'Priest-King' or 'Prince of the Lilies' fresco from Knossos is one of the most iconic Minoan images, though its reconstruction by Evans is now disputed.",
+      "wikiSlug": "Prince_of_the_Lilies",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-throne-room",
+      "label": "Throne Room of Knossos",
+      "year": -1507.5,
+      "description": "The oldest throne room in Europe, featuring a carved gypsum throne flanked by painted griffins. The throne still sits in its original position after 3,500 years.",
+      "wikiSlug": "Knossos",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-marine-style",
+      "label": "Marine Style Pottery",
+      "year": -1502.5,
+      "description": "Late Minoan Marine Style pottery featured octopi, nautilus, and sea creatures wrapping around vessels — among the most distinctive decorative arts of the Bronze Age.",
+      "wikiSlug": "Minoan_pottery",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-isopata-ring",
+      "label": "Isopata Ring",
+      "year": -1500,
+      "description": "The gold Isopata Ring found in a tomb near Knossos depicts four women performing an ecstatic dance in a flower-filled field while a smaller figure descends from the sky. It is the most vivid representation of Minoan ritual dance and possible divine epiphany.",
+      "wikiSlug": "Isopata_ring",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-la-parisienne",
+      "label": "La Parisienne Fresco",
+      "year": -1500,
+      "description": "The 'La Parisienne' fresco fragment from Knossos depicts a woman in profile with elaborate curled hair, painted lips, and a sacral knot at the back of her neck. Arthur Evans's team gave her the nickname because her stylishness looked strikingly modern.",
+      "wikiSlug": "La_Parisienne_(fresco)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-master-impression",
+      "label": "Master Impression Seal",
+      "year": -1500,
+      "description": "The 'Master Impression' seal from Chania depicts a male figure standing atop a city, holding a staff and overlooking a seascape with a shrine. It is the closest thing to a portrait of Minoan royal authority ever found and suggests a ruler who claimed power over both city and sea.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-harvester-vase",
+      "label": "Harvester Vase",
+      "year": -1497.5,
+      "description": "The stone Harvester Vase from Hagia Triada depicts a jubilant procession of harvesters — one of the most lively and naturalistic works of Bronze Age art.",
+      "wikiSlug": "Harvester_Vase",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-minos-legend",
+      "label": "King Minos (Legendary)",
+      "year": -1492.5,
+      "description": "Greek tradition remembered Minos as Crete's great king who commanded the labyrinth and the Minotaur. Whether based on a real ruler or a royal title, 'Minos' gave the civilization its modern name.",
+      "wikiSlug": "Minos",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-palace-destruction",
+      "label": "Destruction of Minoan Palaces",
+      "year": -1450,
+      "description": "All Minoan palaces except Knossos were destroyed around 1450 BCE. The cause remains debated: Mycenaean invasion, internal revolt, or aftereffects of Thera.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mycenaean-takeover",
+      "label": "Mycenaean Takeover of Knossos",
+      "year": -1450,
+      "description": "Mycenaean Greeks took control of Knossos, introducing Linear B (Greek) to replace Linear A. Minoan culture persisted but was increasingly Mycenaean in character.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-linear-b-knossos",
+      "label": "Linear B at Knossos",
+      "year": -1450,
+      "description": "Linear B tablets at Knossos, written in an early form of Greek, document Mycenaean administration of Crete — confirming the Greek takeover of the island.",
+      "wikiSlug": "Linear_B",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-warrior-graves",
+      "label": "Late Minoan Warrior Graves",
+      "year": -1400,
+      "description": "Tombs from post-destruction Crete increasingly featured weapons, armor, and horse gear — a shift from Minoan burial traditions toward Mycenaean warrior culture. The change in grave goods marks the cultural takeover of the island's elite class.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-final-destruction-knossos",
+      "label": "Final Destruction of Knossos",
+      "year": -1375,
+      "description": "The Palace of Knossos was destroyed for the last time around 1375 BCE, likely by fire. Crete became a provincial backwater under Mycenaean cultural dominance.",
+      "wikiSlug": "Knossos",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-bronze-age-collapse-crete",
+      "label": "Bronze Age Collapse Reaches Crete",
+      "year": -1200,
+      "description": "The wave of destruction and disruption that swept the eastern Mediterranean around 1200 BCE reached Crete, ending Mycenaean-era palatial life. Coastal settlements were abandoned as populations retreated to defensible mountain sites, mirroring the wider Bronze Age collapse.",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-karphi-refuge",
+      "label": "Karphi — Last Minoan Refuge",
+      "year": -1200,
+      "description": "The remote mountain settlement of Karphi above the Lasithi plateau was founded by refugees fleeing coastal insecurity. Perched at 1,100 meters with goddess figurines preserving Minoan religious traditions, it is considered the last distinctly Minoan community, surviving until around 1000 BCE.",
+      "wikiSlug": "Karfi",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-subminoan-iron-age",
+      "label": "Subminoan Period",
+      "year": -1100,
+      "description": "The Subminoan period marks Crete's transition from the Bronze Age to the Iron Age. Iron tools gradually replaced bronze, population declined sharply, and Minoan cultural traditions finally dissolved into the emerging Greek world of the Early Iron Age.",
+      "wikiSlug": "Sub-Minoan_pottery",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kalokairinos-excavation",
+      "label": "Minos Kalokairinos Excavates Knossos",
+      "year": 1878,
+      "description": "Cretan merchant and antiquarian Minos Kalokairinos conducted the first archaeological excavation at Knossos in 1878, uncovering storage magazines with giant pithoi jars. Ottoman authorities halted the dig, but Kalokairinos proved the palace existed and set the stage for Evans's later work.",
+      "wikiSlug": "Minos_Kalokairinos",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-arthur-evans-knossos",
+      "label": "Arthur Evans Excavates Knossos",
+      "year": 1900,
+      "description": "British archaeologist Arthur Evans began excavating Knossos in 1900, uncovering the vast palace complex and naming the civilization 'Minoan' after the legendary King Minos. His reconstructions — controversial then and now — made Knossos the most visited archaeological site in Greece.",
+      "wikiSlug": "Arthur_Evans",
+      "tier": 1,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "Evans's Reconstruction",
+          "text": "Evans spent 35 years and much of his personal fortune reconstructing sections of Knossos with reinforced concrete, including the iconic red columns and the Grand Staircase. Critics argue the reconstructions reflect Edwardian Art Nouveau taste more than Bronze Age reality, but they made the ruins legible to millions of visitors."
+        }
+      ]
+    },
+    {
+      "id": "evt-ventris-linear-b",
+      "label": "Michael Ventris Deciphers Linear B",
+      "year": 1952,
+      "description": "British architect and amateur cryptographer Michael Ventris cracked Linear B in 1952, revealing it as an early form of Greek — proving that Mycenaeans, not Minoans, administered Knossos in its final phase. The breakthrough left Linear A still undeciphered.",
+      "wikiSlug": "Michael_Ventris",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}
