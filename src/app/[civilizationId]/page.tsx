@@ -60,9 +60,14 @@ export default async function CivilizationPage({ params }: PageProps) {
           {/* Decorative left bracket */}
           <div className="shrink-0 w-2.5 border-l-[1.5px] border-t-[1.5px] border-b-[1.5px] border-foreground/20 my-0.5" />
           <div className="flex-1">
-            <h1 className="text-2xl font-bold font-[family-name:var(--font-lora)]">
-              {narrative.label}
-            </h1>
+            <div className="flex items-center justify-between gap-3">
+              <h1 className="text-2xl font-bold font-[family-name:var(--font-lora)]">
+                {narrative.label}
+              </h1>
+              <span className="shrink-0 text-xs font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
+                {narrative.chapters.length} ch
+              </span>
+            </div>
             {currentTl?.subtitle && (
               <p className="text-sm text-foreground/50 mt-0.5 italic">{currentTl.subtitle}</p>
             )}
