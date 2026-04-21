@@ -56,8 +56,20 @@ export default async function CivilizationPage({ params }: PageProps) {
       </div>
 
       <div className="pt-4 pb-8">
+        <div className="flex gap-4 items-stretch">
+          {/* Decorative left bracket */}
+          <div className="shrink-0 w-2.5 border-l-[1.5px] border-t-[1.5px] border-b-[1.5px] border-foreground/20 my-0.5" />
+          <div>
+            <h1 className="text-2xl font-bold font-[family-name:var(--font-lora)]">
+              {narrative.label}
+            </h1>
+            {currentTl?.subtitle && (
+              <p className="text-sm text-foreground/50 mt-0.5 italic">{currentTl.subtitle}</p>
+            )}
+          </div>
+        </div>
         {chain && pos && pos.index !== -1 && (
-          <div className="flex items-center justify-between text-sm text-foreground/50 mb-2">
+          <div className="flex items-center justify-between text-sm text-foreground/50 mt-3 mb-6">
             <div>
               {prevTl ? (
                 prevTl.hasContent ? (
@@ -86,13 +98,7 @@ export default async function CivilizationPage({ params }: PageProps) {
             </div>
           </div>
         )}
-        <h1 className="text-2xl font-bold" style={{ color: 'var(--accent-text)' }}>
-          {narrative.label} <span className="text-xl" style={{ color: 'var(--accent)' }}>&middot;</span> <span className="text-xl font-normal text-foreground/50">{narrative.chapters.length} chapters</span>
-        </h1>
-        {currentTl?.subtitle && (
-          <p className="text-sm text-foreground/50 mt-1 italic mb-6">{currentTl.subtitle}</p>
-        )}
-        {!currentTl?.subtitle && <div className="mb-6" />}
+        {(!chain || !pos || pos.index === -1) && <div className="mb-6" />}
 
         <NarrativeReader civilizationId={civilizationId} chapters={narrative.chapters} events={narrative.events} glossary={narrative.glossary ?? []} crossLinks={narrative.crossLinks ?? []} />
       </div>
