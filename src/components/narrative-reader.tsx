@@ -173,21 +173,18 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
         if (!ch) return null
         const pct = Math.round(savedProgress.scrollPct * 100)
         return (
-          <div className="mb-4 rounded-lg py-3 px-4 flex items-center gap-3" style={{ backgroundColor: 'var(--accent)', color: 'white' }}>
+          <div className="mb-4 rounded-lg py-3 px-4 flex items-center gap-3 cursor-pointer hover:opacity-90 transition-opacity" style={{ backgroundColor: 'var(--accent)', color: 'white' }} onClick={resumeReading}>
             <div className="flex-1 min-w-0">
               <div className="text-sm font-bold">Continue Reading</div>
               <div className="text-sm opacity-80 mt-0.5 font-[family-name:var(--font-lora)]">
                 Ch {ch.number}: {ch.title} · {pct}%
               </div>
             </div>
-            <button
-              onClick={resumeReading}
-              className="shrink-0 w-9 h-9 rounded-full border-2 border-white/40 flex items-center justify-center hover:opacity-90"
-            >
+            <div className="shrink-0 w-9 h-9 rounded-full border-2 border-white/40 flex items-center justify-center">
               <span className="text-lg leading-none">›</span>
-            </button>
+            </div>
             <button
-              onClick={() => setResumeDismissed(true)}
+              onClick={(e) => { e.stopPropagation(); setResumeDismissed(true) }}
               className="shrink-0 text-white/50 hover:text-white text-lg"
               aria-label="Dismiss"
             >

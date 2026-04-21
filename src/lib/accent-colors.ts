@@ -37,8 +37,8 @@ const CHAIN_COLORS: Record<string, AccentColors> = {
   'persian-tradition':       { base: '#f97316', text: '#7c2d12', badge: '#ea580c' },
 
   // Africa (ochre / yellow family)
-  'nile-valley':             { base: '#eab308', text: '#713f12', badge: '#a16207' },
-  'nubian-tradition':        { base: '#facc15', text: '#854d0e', badge: '#b45309' },
+  'nile-valley':             { base: '#a67c00', text: '#713f12', badge: '#8b6508' },
+  'nubian-tradition':        { base: '#b8860b', text: '#713f12', badge: '#8b6914' },
   'west-african-empires':    { base: '#ca8a04', text: '#422006', badge: '#713f12' },
 
   // Asia (violet / purple family)
