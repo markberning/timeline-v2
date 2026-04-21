@@ -219,6 +219,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                 return (
                   <div className="shrink-0 text-right text-xs text-foreground/40 leading-tight mt-0.5">
                     <div>{fmtAbs(startYear)}</div>
+                    <div className="text-[0.7em] my-px">↓</div>
                     <div>{fmtAbs(endYear)} {suffix}</div>
                   </div>
                 )
