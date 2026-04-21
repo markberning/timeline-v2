@@ -195,7 +195,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
         </div>
 
         {/* Summary expanded state */}
-        {!open && summaryOpen && chapter.summary && (
+        {!open && summaryOpen && chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
           <div className="pb-5 pl-10">
             <button
               onClick={expand}
@@ -217,16 +217,24 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               </div>
             </button>
 
-            <div className="mt-4">
-              <div className="text-[0.65em] font-semibold tracking-[0.15em] text-foreground/40 uppercase">
-                Summary · for review
+            {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
+              <div className="mt-4">
+                <div className="text-[0.65em] font-semibold tracking-[0.15em] text-foreground/40 uppercase">
+                  Summary · for review
+                </div>
+                <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
+                  <ul className="space-y-2 list-disc list-outside pl-5 text-[0.95em]">
+                    {chapter.summaryBullets.map((html, i) => (
+                      <li
+                        key={i}
+                        className="leading-snug text-foreground"
+                        dangerouslySetInnerHTML={{ __html: html }}
+                      />
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
-                <p className="text-sm leading-relaxed italic text-foreground/70">
-                  {chapter.summary}
-                </p>
-              </div>
-            </div>
+            )}
           </div>
         )}
 
