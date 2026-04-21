@@ -3,17 +3,17 @@
 Source of truth for how the reader app should behave. Update this when we change or add a behavior so future work has a spec to check against.
 
 ## Chapter accordion
-- Collapsed: shows number, title, date range, and EITHER:
-  - a bulleted chronological list of what happens in the chapter with inline event/glossary links + a "Read chapter →" button (when the summary entry has a `bullets` array), OR
-  - the legacy 2–4 sentence paragraph summary + category-colored event chips (fallback when no bullets).
-- Tap header → expand that chapter. Other chapters become `display: none` (not just hidden visually).
+- **Collapsed state**: minimal row showing "01" chapter number in accent color, chapter title in Lora serif (text-xl) with inline rotating chevron (`›`, bold, rotates 90° + translate-x-1 when open), subtitle (dateRange) in italic serif below, start/end years right-justified with `›` separator. Gray `border-b` lines between chapters. No buttons, no summary peek.
+- **Tap header → toggle summary** (NOT expand chapter). Summary expanded state shows the READ THE FULL CHAPTER button (solid accent background, white text, bold, book icon + circle arrow, chapter number inline with title, year range on own line) + "SUMMARY · FOR REVIEW" label + bullet list inside a left accent-colored vertical border (2.5px, margin-quoted style). Bullets in Geist sans-serif with inline event/glossary/cross-link auto-linking.
+- **READ THE FULL CHAPTER button** → expand that chapter. Other chapters become `display: none` (not just hidden visually).
 - **Expand scroll behavior**: on open, `window.scrollTo({top: 0})`. Because sibling chapters are `display:none`, the opened chapter is always the first visible chapter in the flow and sits right below the h1 + "N chapters" subtitle; scrollY=0 then shows sticky nav → h1 → subtitle → chapter header → map/body stacked naturally. Same answer whether the chapter was opened by a user tap or by a cross-link auto-expand (`?chapter=N`). Previous "scroll flush below nav" behavior was rejected because it pushed the h1 "Mesopotamia / N chapters" off-screen for every chapter past the top, and a delta-preserve approach had edge cases when the user tapped from a scroll position where the header was above the fold. A 300ms retry handles the case where an image/map loads after the initial rAF and would otherwise shift the chapter position.
 - **Collapse scroll behavior**: calls `sectionRef.current.scrollIntoView({block: 'start'})`. The `<section>` has inline `scrollMarginTop: navHeight`, so the just-closed chapter header lands just below the sticky nav (not flush to y=0 behind it). Previous bug: collapse called `scrollIntoView` on the inner sticky header div, which has no scroll-margin, so the chapter number was hidden behind the nav.
 - The sticky top-nav height is measured once on mount via `document.querySelector('[data-top-nav]').getBoundingClientRect().height` and used for both the chapter-header `sticky top` and the section's `scrollMarginTop` — hardcoded `-40` was short of the actual ~48px nav.
 - Chapter maps are **probed on mount** with `new Image()` before the slot renders. `mapExists` starts as `null` (unknown) and only becomes `true` on successful load; civilizations without maps (Ancient China currently) never reserve the `aspect-ratio: 1408/768` placeholder, which previously caused a layout collapse mid-scroll that threw off the chapter-open scroll target.
 - Tap sticky header while expanded → collapse. Swipe right anywhere in the body → collapse. × close button at the bottom also collapses.
-- On collapse: scroll as above, then pulse the just-closed header with a 1.5s accent-colored background flash.
+- On collapse: scroll as above, then pulse the just-closed header with a 1.5s accent-colored background flash (edge-to-edge via `-mx-8 px-8`).
 - Only one chapter open at a time. Scroll never spills past the end of the open chapter.
+- **Sticky mini map**: when the chapter map scrolls out of view during reading, a small 100px-wide thumbnail appears fixed in the bottom-right corner (z-30). Tapping it opens the lightbox. It auto-hides when the full map scrolls back into view. Tracked via IntersectionObserver on the map div.
 
 ## Accent colors (chain-driven)
 - Every TL narrative page gets an accent color from its first chain in `reference-data/tl-chains.ts`. Every TL in the same chain shares the color; every chain in the same region is a distinct shade of that region's family (Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate).
@@ -58,8 +58,19 @@ Source of truth for how the reader app should behave. Update this when we change
 - Viewport meta exports `colorScheme: 'dark'` and `themeColor: '#22201e'`.
 - Toggle is still available; persisted to `localStorage['theme']`.
 
+## Light mode
+- Background `#ede5d3` (warm parchment cream). Theme-color meta tag updates to `#ede5d3` so iOS notch/status bar matches.
+
 ## Text size
-- 5 steps (0.875rem → 1.375rem) via A/A buttons, persisted to `localStorage['textSize']`. Affects both summaries and prose equally.
+- 5 steps (0.875rem → 1.375rem) via A/A buttons, default 1rem (16px, index 1), persisted to `localStorage['textSize']`. Chapter numbers, titles, subtitles, and summary bullets use relative `em` units so they scale with the control. Prose inherits `--prose-size` from `.reading-content`.
+
+## Save-my-place
+- While a chapter is open, the scroll position is auto-saved to localStorage every 500ms (debounced). Stored as `reading-progress-{tlId}` → `{ chapter, scrollPct, timestamp }`.
+- On returning to a TL page with saved progress and no chapter open, an accent-colored "Continue Reading" banner appears showing chapter name + percentage. The entire banner is clickable to resume; × button dismisses (with `stopPropagation`). Progress expires after 90 days.
+- Resume: sets `pendingScrollPct` ref, opens the chapter, waits 400ms for content render + scroll-to-top effect to settle, then scrolls to `docHeight * pct`.
+
+## Lightbox scroll preservation
+- `openLightbox()` saves `window.scrollY` to a ref before showing the lightbox. `closeLightbox()` restores it via `requestAnimationFrame` after hiding. Prevents the scroll-to-top effect from firing when the lightbox state change causes a re-render.
 
 ## Navigation
 - Home page (`/`): the TL Navigator flow layout. No civilization picker.
@@ -228,9 +239,9 @@ Both workflows require `npm run parse` + dev-server restart afterward for change
 - Skip abstract concepts (Temple Economy, Silver Currency, De-urbanization, governance absence) — no single artifact represents them; leave them imageless.
 
 ## Chapter bottom navigation
-- Every expanded chapter has a row at the bottom containing a small `×` close button on the left and an accent-colored `Read Chapter N+1 →` primary button filling the rest. Last chapter shows only the `×`.
+- Every expanded chapter has a row at the bottom containing a solid accent-colored `×` close button and a "Read Next Chapter" button matching the READ THE FULL CHAPTER style (solid accent background, white text, bold, book icon, circle arrow, next chapter title in Lora serif + "Chapter N" below). Last chapter shows only the `×`.
 - Tapping Read Next calls `setOpenChapter(next.number)` in `NarrativeReader`. The parent re-renders with the next chapter open and the current one hidden; the expand effect fires and scrolls to y=0, so the next chapter renders flush under the h1.
-- Previous behavior was a single full-width "Close Chapter N" link at the bottom. Replaced because readers finishing a chapter almost always want to start the next one, not collapse.
+- `nextChapterTitle` prop was added to `ChapterAccordionProps` so the button can display the next chapter's name.
 
 ## Navigator header
 - Title reads "Stuff Happened — A Timeline App" in 13px bold letter-spacing 0.03em.
@@ -316,8 +327,16 @@ This guard was added after real-offline testing revealed that iOS Safari appears
 - **Cache-busting is per-cache-name, not per-file.** The `offline-shell-v2` bump wipes the old shell cache but leaves `offline-tl-{tlId}-v1` untouched. If a shipped narrative is corrected and you want users' downloaded copies to update, you either need to bump the per-TL suffix (wipes all downloads, bad UX) or wait for users to manually delete + re-download.
 - **Runtime shell cache is lenient.** Users get offline content "for free" for any page they visited online before going offline, even without tapping download. The client-side offline guard only looks at explicit downloads, so runtime-cached pages still navigate through. This is a feature, not a bug — more content offline is strictly better than less.
 
-## Summary text selection fix
-- The sticky chapter header in `chapter-accordion.tsx` used to wrap the clickable expand handler around the entire panel, including the summary bullets and Read button, and carried `select-none`. That meant tapping anywhere inside a bullet collapsed/expanded the chapter and you couldn't drag-select a quote.
-- The structure is now: sticky outer container → **clickable header row** (number badge + title + date + chevron, `select-none` + pointer handlers) → **non-clickable preview area** (bullets + Read Chapter button, default text selection, no pointer handler). Visual layout preserved via `pl-10` on the preview container to match the number-badge indentation.
-- The Read Chapter button sits outside the click zone, so it no longer needs `stopPropagation` on its onClick.
+## Summary text selection
+- The sticky chapter header is split into: **clickable header row** ("01" number + title + chevron, `select-none` + pointer handlers) → **non-clickable summary area** (READ button + SUMMARY label + bullet list, default text selection, no pointer handler). Layout indented via `pl-10`.
 - Event/glossary/cross-link anchors inside bullets still work — their click events bubble up to the narrative-reader-level click delegation as before.
+
+## Reader page header layout
+- Accent-colored vertical bar (3.5px, rounded) to the left of the TL title.
+- Title in Lora serif (text-2xl, bold, foreground color — not accent).
+- "N CH" pill (accent background, white text, rounded-full) right-justified on the title line.
+- Subtitle in italic, muted, indented to align with title text (`pl-[16.5px]`).
+- Chain navigation row positioned below the title block (not above).
+
+## Accent color contrast
+- Nile Valley and Nubian Tradition yellow accent colors were darkened (`#a67c00` and `#b8860b` respectively) to ensure adequate contrast for white text on solid accent buttons (READ THE FULL CHAPTER, Read Next, Continue Reading banner).
