@@ -172,12 +172,12 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           <div className="min-w-0 flex-1">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0 flex-1">
-                <div className="flex items-center gap-1.5">
-                  <h2 className="font-semibold font-[family-name:var(--font-lora)]">{chapter.title}</h2>
-                  <span className={`shrink-0 text-foreground/30 text-lg transition-transform duration-200 ${summaryOpen ? 'rotate-90' : ''}`}>
+                <h2 className="font-semibold font-[family-name:var(--font-lora)]">
+                  {chapter.title}
+                  <span className={`inline-block text-foreground/30 text-lg transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90' : ''}`}>
                     &#x203A;
                   </span>
-                </div>
+                </h2>
                 {chapter.dateRange && (
                   <p className="text-[0.75em] text-foreground/50 mt-0.5 italic font-[family-name:var(--font-lora)]">{chapter.dateRange}</p>
                 )}
@@ -204,21 +204,21 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           <div className="pb-5 pl-10">
             <button
               onClick={expand}
-              className="mt-3 w-full py-3 px-4 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3"
+              className="mt-3 w-full py-4 px-5 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3"
               style={{ backgroundColor: 'var(--accent)', color: 'white' }}
             >
               <div className="flex-1 min-w-0">
-                <div className="text-xs font-bold tracking-wide uppercase flex items-center gap-1.5">
-                  <span className="inline-block w-3 h-3 rounded-[3px] bg-white/30" />
+                <div className="text-sm font-bold tracking-wide uppercase flex items-center gap-1.5">
+                  <span className="inline-block w-3.5 h-3.5 rounded-[3px] bg-white/30" />
                   Read the Full Chapter
                 </div>
-                <div className="text-sm font-semibold mt-1 font-[family-name:var(--font-lora)]">{chapter.title}</div>
-                <div className="text-xs opacity-70 mt-0.5">
+                <div className="text-base font-semibold mt-1 font-[family-name:var(--font-lora)]">{chapter.title}</div>
+                <div className="text-sm opacity-70 mt-0.5">
                   Chapter {chapter.number} · {chapterEvents.length} events{formatYearRange() ? ` · ${formatYearRange()}` : ''}
                 </div>
               </div>
-              <div className="shrink-0 w-8 h-8 rounded-full border-2 border-white/40 flex items-center justify-center">
-                <span className="text-base leading-none">›</span>
+              <div className="shrink-0 w-9 h-9 rounded-full border-2 border-white/40 flex items-center justify-center">
+                <span className="text-lg leading-none">›</span>
               </div>
             </button>
 
@@ -228,7 +228,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   Summary · for review
                 </div>
                 <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
-                  <ul className="space-y-2 list-disc list-outside pl-5 text-[0.92em] font-[family-name:var(--font-lora)]">
+                  <ul className="space-y-2 list-disc list-outside pl-5 text-[0.82em] font-[family-name:var(--font-lora)]">
                     {chapter.summaryBullets.map((html, i) => (
                       <li
                         key={i}
