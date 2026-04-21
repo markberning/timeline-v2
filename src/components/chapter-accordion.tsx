@@ -207,7 +207,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   <span className="inline-block w-3 h-3 rounded-[3px] bg-white/30" />
                   Read the Full Chapter
                 </div>
-                <div className="text-sm font-semibold mt-1">{chapter.title}</div>
+                <div className="text-sm font-semibold mt-1 font-[family-name:var(--font-lora)]">{chapter.title}</div>
                 <div className="text-xs opacity-70 mt-0.5">
                   Chapter {chapter.number} · {chapterEvents.length} events{formatYearRange() ? ` · ${formatYearRange()}` : ''}
                 </div>
