@@ -59,7 +59,7 @@ export default async function CivilizationPage({ params }: PageProps) {
         <div className="flex gap-4 items-stretch">
           {/* Decorative left bracket */}
           <div className="shrink-0 w-2.5 border-l-[1.5px] border-t-[1.5px] border-b-[1.5px] border-foreground/20 my-0.5" />
-          <div>
+          <div className="flex-1">
             <h1 className="text-2xl font-bold font-[family-name:var(--font-lora)]">
               {narrative.label}
             </h1>
@@ -67,6 +67,8 @@ export default async function CivilizationPage({ params }: PageProps) {
               <p className="text-sm text-foreground/50 mt-0.5 italic">{currentTl.subtitle}</p>
             )}
           </div>
+          {/* Accent vertical bar */}
+          <div className="shrink-0 w-[3px] rounded-full my-0.5" style={{ backgroundColor: 'var(--accent)' }} />
         </div>
         {chain && pos && pos.index !== -1 && (
           <div className="flex items-center justify-between text-sm text-foreground/50 mt-3 mb-6">
