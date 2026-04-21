@@ -61,11 +61,11 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
   function openLightbox() {
     savedScrollY.current = window.scrollY
-    openLightbox()
+    setShowMapLightbox(true)
   }
 
   function closeLightbox() {
-    closeLightbox()
+    setShowMapLightbox(false)
     requestAnimationFrame(() => {
       window.scrollTo({ top: savedScrollY.current, behavior: 'auto' })
     })
