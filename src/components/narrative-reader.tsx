@@ -16,19 +16,43 @@ interface NarrativeReaderProps {
   crossLinks: CrossLink[]
 }
 
+interface ReadingProgress {
+  chapter: number
+  scrollPct: number
+  timestamp: number
+}
+
+function loadProgress(tlId: string): ReadingProgress | null {
+  try {
+    const raw = localStorage.getItem(`reading-progress-${tlId}`)
+    if (!raw) return null
+    const p = JSON.parse(raw) as ReadingProgress
+    // Expire after 90 days
+    if (Date.now() - p.timestamp > 90 * 24 * 60 * 60 * 1000) return null
+    return p
+  } catch { return null }
+}
+
+function saveProgress(tlId: string, chapter: number, scrollPct: number) {
+  localStorage.setItem(`reading-progress-${tlId}`, JSON.stringify({ chapter, scrollPct, timestamp: Date.now() }))
+}
+
 export function NarrativeReader({ civilizationId, chapters, events, glossary, crossLinks }: NarrativeReaderProps) {
   const router = useRouter()
   const [activeEvent, setActiveEvent] = useState<TlEvent | null>(null)
   const [activeGlossary, setActiveGlossary] = useState<GlossaryEntry | null>(null)
   const [activeCrossLink, setActiveCrossLink] = useState<CrossLink | null>(null)
   const [openChapter, setOpenChapter] = useState<number | null>(null)
+  const [savedProgress, setSavedProgress] = useState<ReadingProgress | null>(null)
+  const [resumeDismissed, setResumeDismissed] = useState(false)
+  const pendingScrollPct = useRef<number | null>(null)
   const swipeStart = useRef<{ x: number; y: number } | null>(null)
 
   const eventMap = new Map(events.map(e => [e.id, e]))
   const glossaryMap = new Map(glossary.map(g => [g.wikiSlug, g]))
   const crossLinkMap = new Map(crossLinks.map(cl => [cl.id, cl]))
 
-  // Auto-expand a chapter when arriving via ?chapter=N (from a cross-link jump).
+  // Load saved progress on mount
   useEffect(() => {
     if (typeof window === 'undefined') return
     const params = new URLSearchParams(window.location.search)
@@ -37,9 +61,56 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       const n = parseInt(ch, 10)
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
         setOpenChapter(n)
+        return
       }
     }
-  }, [chapters])
+    const progress = loadProgress(civilizationId)
+    if (progress && chapters.some(c => c.number === progress.chapter)) {
+      setSavedProgress(progress)
+    }
+  }, [chapters, civilizationId])
+
+  // Auto-save scroll position while reading (debounced)
+  useEffect(() => {
+    if (openChapter === null) return
+    let timeout: ReturnType<typeof setTimeout>
+    function onScroll() {
+      clearTimeout(timeout)
+      timeout = setTimeout(() => {
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight
+        const pct = docHeight > 0 ? window.scrollY / docHeight : 0
+        saveProgress(civilizationId, openChapter!, Math.min(1, pct))
+      }, 500)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    // Save immediately when chapter opens
+    onScroll()
+    return () => {
+      clearTimeout(timeout)
+      window.removeEventListener('scroll', onScroll)
+    }
+  }, [openChapter, civilizationId])
+
+  // Restore scroll position after chapter expands
+  useEffect(() => {
+    if (openChapter === null || pendingScrollPct.current === null) return
+    const pct = pendingScrollPct.current
+    pendingScrollPct.current = null
+    // Wait for the chapter content to render and the scroll-to-top effect to finish
+    const t = setTimeout(() => {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight
+      window.scrollTo({ top: docHeight * pct, behavior: 'auto' })
+    }, 400)
+    return () => clearTimeout(t)
+  }, [openChapter])
+
+  function resumeReading() {
+    if (!savedProgress) return
+    pendingScrollPct.current = savedProgress.scrollPct
+    setOpenChapter(savedProgress.chapter)
+    setSavedProgress(null)
+    setResumeDismissed(false)
+  }
 
   const handleClick = useCallback((e: React.MouseEvent) => {
     const target = e.target as HTMLElement
@@ -96,6 +167,35 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
 
   return (
     <>
+      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
+      {savedProgress && !resumeDismissed && openChapter === null && (() => {
+        const ch = chapters.find(c => c.number === savedProgress.chapter)
+        if (!ch) return null
+        const pct = Math.round(savedProgress.scrollPct * 100)
+        return (
+          <div className="mb-4 rounded-lg py-3 px-4 flex items-center gap-3" style={{ backgroundColor: 'var(--accent)', color: 'white' }}>
+            <div className="flex-1 min-w-0">
+              <div className="text-sm font-bold">Continue Reading</div>
+              <div className="text-sm opacity-80 mt-0.5 font-[family-name:var(--font-lora)]">
+                Ch {ch.number}: {ch.title} · {pct}%
+              </div>
+            </div>
+            <button
+              onClick={resumeReading}
+              className="shrink-0 w-9 h-9 rounded-full border-2 border-white/40 flex items-center justify-center hover:opacity-90"
+            >
+              <span className="text-lg leading-none">›</span>
+            </button>
+            <button
+              onClick={() => setResumeDismissed(true)}
+              className="shrink-0 text-white/50 hover:text-white text-lg"
+              aria-label="Dismiss"
+            >
+              ×
+            </button>
+          </div>
+        )
+      })()}
       {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
       <div
         className="reading-content"
