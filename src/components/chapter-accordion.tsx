@@ -172,9 +172,9 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           <div className="min-w-0 flex-1">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0">
-                <h2 className="font-semibold">{chapter.title}</h2>
+                <h2 className="font-semibold font-[family-name:var(--font-lora)]">{chapter.title}</h2>
                 {chapter.dateRange && (
-                  <p className="text-[0.75em] text-foreground/50 mt-0.5">{chapter.dateRange}</p>
+                  <p className="text-[0.75em] text-foreground/50 mt-0.5 italic font-[family-name:var(--font-lora)]">{chapter.dateRange}</p>
                 )}
               </div>
               {chapterEvents.length > 0 && (() => {
@@ -223,7 +223,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   Summary · for review
                 </div>
                 <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
-                  <ul className="space-y-2 list-disc list-outside pl-5 text-sm">
+                  <ul className="space-y-2 list-disc list-outside pl-5 text-sm font-[family-name:var(--font-lora)]">
                     {chapter.summaryBullets.map((html, i) => (
                       <li
                         key={i}
