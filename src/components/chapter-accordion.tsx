@@ -261,7 +261,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                   Summary · for review
                 </div>
                 <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
-                  <ul className="space-y-2 list-disc list-outside pl-5 text-[0.82em] font-[family-name:var(--font-lora)]">
+                  <ul className="space-y-2 list-disc list-outside pl-5 text-[0.82em]">
                     {chapter.summaryBullets.map((html, i) => (
                       <li
                         key={i}
