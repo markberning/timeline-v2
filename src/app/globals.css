@@ -12,10 +12,10 @@
   --accent-badge: #6b7280;
   --prose-size: 1rem;
   /* Chapter header sizes scale with --prose-size.
-     Ratios calibrated at 14px prose: title=18, sub=14, meta=13 */
-  --ch-title: calc(var(--prose-size) * 1.286);
-  --ch-subtitle: var(--prose-size);
-  --ch-meta: calc(var(--prose-size) * 0.929);
+     Ratios calibrated at default 16px: title=18, sub=14, meta=13 */
+  --ch-title: calc(var(--prose-size) * 1.125);
+  --ch-subtitle: calc(var(--prose-size) * 0.875);
+  --ch-meta: calc(var(--prose-size) * 0.8125);
 }
 
 .dark {
