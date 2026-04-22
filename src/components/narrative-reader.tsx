@@ -59,6 +59,11 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
   const glossaryMap = new Map(glossary.map(g => [g.wikiSlug, g]))
   const crossLinkMap = new Map(crossLinks.map(cl => [cl.id, cl]))
 
+  // Remember which civ was last viewed so the home page can highlight it
+  useEffect(() => {
+    localStorage.setItem('last-viewed-civ', civilizationId)
+  }, [civilizationId])
+
   // Load saved progress on mount
   useEffect(() => {
     if (typeof window === 'undefined') return

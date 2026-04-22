@@ -19,14 +19,33 @@ function useIsDesktop(): boolean {
   return desktop
 }
 
-// Default to the first civ with content
 const defaultCiv = SORTED_CIVS.find(c => c.hasContent)?.id ?? SORTED_CIVS[0]?.id ?? null
+
+function getInitialCiv(): string | null {
+  if (typeof window === 'undefined') return defaultCiv
+  const last = localStorage.getItem('last-viewed-civ')
+  if (last && SORTED_CIVS.some(c => c.id === last)) return last
+  return defaultCiv
+}
 
 export function ChronologyPage() {
   const isDesktop = useIsDesktop()
-  const [activeCivId, setActiveCivId] = useState<string | null>(defaultCiv)
+  const [activeCivId, setActiveCivId] = useState<string | null>(getInitialCiv)
   const ribbonScrollRef = useRef<HTMLDivElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
+
+  // On mount, scroll the list to the initial active civ
+  useEffect(() => {
+    const id = activeCivId
+    if (!id || !listRef.current) return
+    const row = listRef.current.querySelector(`[data-civ-id="${id}"]`) as HTMLElement | null
+    if (row) {
+      // Small delay to let layout settle
+      requestAnimationFrame(() => {
+        row.scrollIntoView({ block: 'start' })
+      })
+    }
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="flex flex-col h-dvh bg-background text-foreground">
