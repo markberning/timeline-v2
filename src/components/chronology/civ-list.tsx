@@ -12,9 +12,14 @@ interface CivListProps {
 
 export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProps) {
   const rowRefs = useRef<Map<string, HTMLDivElement>>(new Map())
-  const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  // Hysteresis: track the pending candidate and only commit after it's been
+  // stable for SETTLE_MS. This prevents ping-ponging between two rows at
+  // the boundary.
+  const pendingId = useRef<string | null>(null)
+  const settleTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const committedId = useRef<string | null>(activeCivId)
+  const SETTLE_MS = 180
 
-  // IntersectionObserver: detect which row is near the top
   const observerRef = useRef<IntersectionObserver | null>(null)
 
   const handleIntersect = useCallback(
@@ -29,14 +34,31 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
       }
       if (!topEntry) return
       const civId = (topEntry.target as HTMLElement).dataset.civId
-      if (!civId) return
+      if (!civId || civId === committedId.current) {
+        // Already committed — cancel any pending switch
+        if (settleTimer.current) clearTimeout(settleTimer.current)
+        pendingId.current = null
+        return
+      }
 
-      // Debounce to prevent rapid flicker during fast scrolling
-      if (debounceTimer.current) clearTimeout(debounceTimer.current)
-      debounceTimer.current = setTimeout(() => onActiveCivChange(civId), 60)
+      if (civId === pendingId.current) return // already waiting on this one
+
+      // New candidate: start the settle timer
+      pendingId.current = civId
+      if (settleTimer.current) clearTimeout(settleTimer.current)
+      settleTimer.current = setTimeout(() => {
+        committedId.current = civId
+        pendingId.current = null
+        onActiveCivChange(civId)
+      }, SETTLE_MS)
     },
     [onActiveCivChange]
   )
+
+  // Keep committedId in sync if parent changes activeCivId externally
+  useEffect(() => {
+    committedId.current = activeCivId
+  }, [activeCivId])
 
   useEffect(() => {
     const container = listRef.current
@@ -44,7 +66,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
 
     observerRef.current = new IntersectionObserver(handleIntersect, {
       root: container,
-      rootMargin: '-15% 0px -80% 0px', // activation zone near top
+      rootMargin: '-15% 0px -80% 0px',
       threshold: 0,
     })
 
@@ -54,7 +76,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     return () => obs.disconnect()
   }, [handleIntersect, listRef])
 
-  // Register row refs for the observer
   const setRowRef = useCallback((id: string, el: HTMLDivElement | null) => {
     if (el) {
       rowRefs.current.set(id, el)
@@ -85,32 +106,37 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
             key={civ.id}
             ref={el => setRowRef(civ.id, el)}
             data-civ-id={civ.id}
-            className={`py-3 border-b border-foreground/5 transition-colors duration-200 ${
+            className={`py-3 border-b border-foreground/5 ${
               civ.hasContent ? 'cursor-pointer' : 'opacity-40'
             }`}
-            style={{
-              borderLeftWidth: isActive ? 3 : 0,
-              borderLeftColor: isActive ? color : 'transparent',
-              paddingLeft: isActive ? 12 : 0,
-            }}
             onClick={() => handleTap(civ)}
           >
+            {/* Fixed-width left accent — no layout shift on active toggle.
+                The 15px pl is always reserved; active state fills the
+                left 3px with color via box-shadow inset. */}
             <div
-              className="text-[10px] font-bold uppercase tracking-[0.12em]"
-              style={{ color: isActive ? color : 'var(--foreground)', opacity: isActive ? 1 : 0.35 }}
+              className="pl-4 transition-[box-shadow] duration-200"
+              style={{
+                boxShadow: isActive ? `inset 3px 0 0 ${color}` : 'inset 3px 0 0 transparent',
+              }}
             >
-              {chainLabel}
-            </div>
-            <div
-              className={`text-lg font-[family-name:var(--font-lora)] mt-0.5 ${
-                isActive ? 'italic' : ''
-              }`}
-              style={{ color: isActive ? color : 'var(--foreground)' }}
-            >
-              {civ.label}
-            </div>
-            <div className="text-xs text-foreground/40 mt-0.5 tabular-nums">
-              {formatYearRange(civ.startYear, civ.endYear)}
+              <div
+                className="text-[10px] font-bold uppercase tracking-[0.12em] transition-colors duration-200"
+                style={{ color: isActive ? color : 'var(--foreground)', opacity: isActive ? 1 : 0.35 }}
+              >
+                {chainLabel}
+              </div>
+              <div
+                className={`text-lg font-[family-name:var(--font-lora)] mt-0.5 transition-colors duration-200 ${
+                  isActive ? 'italic' : ''
+                }`}
+                style={{ color: isActive ? color : 'var(--foreground)' }}
+              >
+                {civ.label}
+              </div>
+              <div className="text-xs text-foreground/40 mt-0.5 tabular-nums">
+                {formatYearRange(civ.startYear, civ.endYear)}
+              </div>
             </div>
           </div>
         )
