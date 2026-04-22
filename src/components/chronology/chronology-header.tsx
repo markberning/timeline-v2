@@ -14,7 +14,7 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
           Stuff Happened
         </div>
         <h1 className="text-3xl lg:text-[44px] italic font-[family-name:var(--font-lora)] text-foreground mt-1 leading-tight">
-          Chronology
+          The Archive
         </h1>
         <p className="text-sm lg:text-base text-foreground/50 mt-1">
           {isDesktop

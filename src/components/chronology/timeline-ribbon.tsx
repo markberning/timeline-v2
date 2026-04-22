@@ -48,6 +48,20 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
     ? (packed ? packed.laneCount * (BAR_HEIGHT_DESKTOP + BAR_GAP_DESKTOP) : 150) + TICK_AXIS_HEIGHT
     : REGION_ORDER.length * LANE_HEIGHT_MOBILE + TICK_AXIS_HEIGHT
 
+  // Convert vertical wheel events to horizontal scroll on the ribbon
+  useEffect(() => {
+    const el = scrollRef.current
+    if (!el) return
+    function onWheel(e: WheelEvent) {
+      // If user is already scrolling horizontally (trackpad), let it be
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return
+      e.preventDefault()
+      el!.scrollLeft += e.deltaY
+    }
+    el.addEventListener('wheel', onWheel, { passive: false })
+    return () => el.removeEventListener('wheel', onWheel)
+  }, [scrollRef])
+
   // Auto-scroll to active civ
   useEffect(() => {
     if (!activeCivId || !scrollRef.current) return
@@ -63,10 +77,8 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
       const focusX = containerWidth * FOCUS_MARKER_PCT
       container.scrollTo({ left: barStartX - focusX, behavior: 'smooth' })
     } else {
-      // Center bar in viewport
-      const barEndX = yearToX(civ.endYear)
-      const barCenter = (barStartX + barEndX) / 2
-      container.scrollTo({ left: barCenter - containerWidth / 2, behavior: 'smooth' })
+      // Center bar START in viewport
+      container.scrollTo({ left: barStartX - containerWidth / 2, behavior: 'smooth' })
     }
   }, [activeCivId, yearToX, mode, scrollRef])
 
@@ -215,7 +227,7 @@ function PackedBars({
               top: TICK_AXIS_HEIGHT + bar.lane * (BAR_HEIGHT_DESKTOP + BAR_GAP_DESKTOP),
               width: bar.width,
               height: BAR_HEIGHT_DESKTOP,
-              backgroundColor: isActive ? color : `color-mix(in srgb, ${color} 30%, var(--background))`,
+              backgroundColor: isActive ? color : `color-mix(in srgb, ${color} 12%, var(--background))`,
               boxShadow: isActive ? `0 0 10px ${color}50` : 'none',
               zIndex: isActive ? 5 : 1,
             }}
@@ -223,7 +235,7 @@ function PackedBars({
           >
             <span
               className="absolute inset-0 flex items-center px-1 text-[8px] font-semibold truncate"
-              style={{ color: isActive ? 'white' : 'var(--foreground)', opacity: isActive ? 1 : 0.6 }}
+              style={{ color: isActive ? 'white' : 'var(--foreground)', opacity: isActive ? 1 : 0.3 }}
             >
               {bar.civ.label}
             </span>

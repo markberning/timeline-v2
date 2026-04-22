@@ -1,5 +1,6 @@
 'use client'
 
+import { useRef, useEffect } from 'react'
 import { NAVIGATOR_TLS, REGION_COLORS, REGION_LABELS } from '@/lib/navigator-tls'
 import { CIV_CHAIN_MAP, formatYearRange } from '@/lib/chronology-data'
 import { ChainGrid } from './chain-grid'
@@ -12,11 +13,21 @@ interface DetailPaneProps {
 }
 
 export function DetailPane({ activeCivId, onSelect }: DetailPaneProps) {
+  const gridScrollRef = useRef<HTMLDivElement>(null)
   const civ = activeCivId ? TL_BY_ID.get(activeCivId) : null
+
+  // Auto-scroll chain grid to show the active civ
+  useEffect(() => {
+    if (!activeCivId || !gridScrollRef.current) return
+    const activeEl = gridScrollRef.current.querySelector(`[data-grid-civ="${activeCivId}"]`) as HTMLElement | null
+    if (activeEl) {
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    }
+  }, [activeCivId])
 
   if (!civ) {
     return (
-      <div className="flex-1 border border-foreground/10 rounded-lg mx-8 mt-4 mb-8 p-8 text-foreground/30 text-center">
+      <div className="min-h-0 flex-1 border border-foreground/10 rounded-lg mx-8 mt-4 mb-4 p-8 text-foreground/30 text-center">
         Click a bar above to see details.
       </div>
     )
@@ -28,8 +39,8 @@ export function DetailPane({ activeCivId, onSelect }: DetailPaneProps) {
   const chainLabel = chainInfo?.chain.shortLabel
 
   return (
-    <div className="flex-1 border border-foreground/10 rounded-lg mx-8 mt-4 mb-8 overflow-hidden">
-      <div className="flex flex-col lg:flex-row">
+    <div className="min-h-0 flex-1 border border-foreground/10 rounded-lg mx-8 mt-4 mb-4 overflow-hidden flex flex-col">
+      <div className="flex flex-col lg:flex-row min-h-0 flex-1">
         {/* Left: selected civ info */}
         <div className="w-full lg:w-[340px] shrink-0 p-6 lg:p-8 border-b lg:border-b-0 lg:border-r border-foreground/10">
           {/* Chain · Region eyebrow */}
@@ -78,8 +89,8 @@ export function DetailPane({ activeCivId, onSelect }: DetailPaneProps) {
           )}
         </div>
 
-        {/* Right: chain grid */}
-        <div className="flex-1 p-6 lg:p-8 overflow-y-auto max-h-[400px]">
+        {/* Right: chain grid — scrolls to fill remaining vertical space */}
+        <div ref={gridScrollRef} className="flex-1 p-6 lg:p-8 overflow-y-auto min-h-0">
           <ChainGrid activeCivId={activeCivId} onSelect={onSelect} />
         </div>
       </div>

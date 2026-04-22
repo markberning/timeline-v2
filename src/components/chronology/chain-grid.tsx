@@ -44,6 +44,7 @@ export function ChainGrid({ activeCivId, onSelect }: ChainGridProps) {
                   return (
                     <button
                       key={tl.id}
+                      data-grid-civ={tl.id}
                       className={`block w-full text-left text-[12.5px] font-[family-name:var(--font-lora)] leading-snug py-0.5 pl-2 transition-colors duration-150 ${
                         canNavigate ? 'cursor-pointer hover:opacity-80' : 'opacity-35 cursor-default'
                       }`}
