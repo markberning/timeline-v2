@@ -49,7 +49,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   // ── AFRICA ──
   { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3500, endYear: -1070, hasContent: true },
   { id: 'early-dynastic-egypt', label: 'Before the Pharaohs', subtitle: 'from Saharan herders to the first pharaohs', region: 'africa', startYear: -5000, endYear: -2686, hasContent: true },
-  { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181 },
+  { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181, hasContent: true },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -1550, endYear: -1069 },
   { id: 'kingdom-of-kush', label: 'Kingdom of Kush', subtitle: "Sudan's Black pharaohs", region: 'africa', startYear: -1070, endYear: 350, hasContent: true },
   { id: 'late-egypt', label: 'Late Egypt', subtitle: 'pharaohs under foreign rule', region: 'africa', startYear: -664, endYear: -332 },
@@ -94,7 +94,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'khmer-empire', label: 'Khmer Empire', subtitle: "Cambodia's Angkor Wat builders", region: 'asia', startYear: 802, endYear: 1431 },
 
   // ── EUROPE ──
-  { id: 'minoan-civilization', label: 'Minoan', subtitle: "Crete's bull-leaping palace culture", region: 'europe', startYear: -2700, endYear: -1450 },
+  { id: 'minoan-civilization', label: 'Minoan', subtitle: "Crete's bull-leaping palace culture", region: 'europe', startYear: -2700, endYear: -1450, hasContent: true },
   { id: 'mycenaean-civilization', label: 'Mycenaean', subtitle: "Greece's bronze-age warlords", region: 'europe', startYear: -1600, endYear: -1100 },
   { id: 'ancient-greece', label: 'Ancient Greece', subtitle: 'philosophy, drama, democracy', region: 'europe', startYear: -800, endYear: -146 },
   { id: 'ancient-rome', label: 'Ancient Rome', subtitle: "the Mediterranean's grand experiment", region: 'europe', startYear: -753, endYear: 476 },

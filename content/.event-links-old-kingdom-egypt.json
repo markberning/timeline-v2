@@ -223,6 +223,10 @@
     {
       "eventId": "evt-oke-merikare",
       "matchText": "Instructions for King Merikare"
+    },
+    {
+      "eventId": "evt-oke-basin-irrigation",
+      "matchText": "Basin irrigation"
     }
   ],
   "8": [
@@ -237,10 +241,6 @@
     {
       "eventId": "evt-oke-calendar",
       "matchText": "epagomenal days"
-    },
-    {
-      "eventId": "evt-oke-basin-irrigation",
-      "matchText": "basin irrigation"
     }
   ]
 }
