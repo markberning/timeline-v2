@@ -200,10 +200,21 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           </span>
           <div className="min-w-0 flex-1">
             <h2 className="text-lg font-[family-name:var(--font-lora)]">
-              {chapter.title}
-              <span className={`inline-block text-foreground/50 text-2xl font-bold transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90 translate-x-1' : ''}`}>
-                &#x203A;
-              </span>
+              {(() => {
+                const words = chapter.title.split(' ')
+                const last = words.pop()
+                return (
+                  <>
+                    {words.length > 0 && words.join(' ') + ' '}
+                    <span className="whitespace-nowrap">
+                      {last}
+                      <span className={`inline-block text-foreground/50 text-2xl font-bold transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90 translate-x-1' : ''}`}>
+                        &#x203A;
+                      </span>
+                    </span>
+                  </>
+                )
+              })()}
             </h2>
             {chapter.dateRange && (
               <p className="text-[0.75em] text-foreground/50 mt-0.5 italic font-[family-name:var(--font-lora)]">{chapter.dateRange}</p>
