@@ -119,6 +119,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'old-kingdom-egypt.md': 'old-kingdom-egypt',
   'ancient-korea.md': 'ancient-korea',
   'assyrian-empire.md': 'assyrian-empire',
+  'hittite-empire.md': 'hittite-empire',
 }
 
 function slugify(title: string): string {
