@@ -192,13 +192,13 @@ a.cross-link {
 }
 .civ-row-chain {
   color: var(--foreground);
-  opacity: 0.35;
+  opacity: 0.5;
+}
+.civ-row-chain-pos {
+  opacity: 0.5;
 }
 .civ-row-label {
   color: var(--foreground);
-}
-.civ-row-subtitle {
-  display: none;
 }
 .civ-row-enter {
   display: none;
@@ -215,11 +215,8 @@ a.cross-link {
 .civ-row[data-active] .civ-row-label {
   color: var(--row-color);
 }
-.civ-row[data-active] .civ-row-subtitle {
-  display: block;
-}
 .civ-row[data-active] .civ-row-enter {
-  display: flex;
+  display: inline-flex;
 }
 
 /* Hide scrollbars on ribbon */

@@ -13,10 +13,10 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
         <div className="text-[10px] lg:text-xs font-semibold tracking-[0.15em] uppercase text-foreground/40">
           Stuff Happened
         </div>
-        <h1 className="text-3xl lg:text-[44px] italic font-normal font-[family-name:var(--font-lora)] text-foreground mt-1 leading-tight">
+        <h1 className="text-3xl lg:text-[44px] italic font-[family-name:var(--font-lora)] text-foreground mt-1 leading-tight">
           The Civ Lib
         </h1>
-        <p className="text-sm lg:text-base text-foreground/50 mt-1 italic font-[family-name:var(--font-lora)]">
+        <p className="text-sm lg:text-base text-foreground/50 mt-1">
           {isDesktop
             ? 'Click any bar for details.'
             : 'Scroll the list.'}

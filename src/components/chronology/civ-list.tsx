@@ -102,68 +102,50 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
         const color = REGION_COLORS[civ.region]
         const chainInfo = CIV_CHAIN_MAP.get(civ.id)
         const chainLabel = chainInfo?.chain.shortLabel ?? REGION_LABELS[civ.region]
-        const chainPosition = chainInfo ? `${chainInfo.index + 1} of ${chainInfo.total}` : null
+        const chainPosition = chainInfo ? `${chainInfo.index + 1}/${chainInfo.total}` : null
 
         return (
           <div
             key={civ.id}
             ref={el => setRowRef(civ.id, el)}
             data-civ-id={civ.id}
-            className={`civ-row py-4 border-b border-foreground/5 ${
+            className={`civ-row py-3 border-b border-foreground/5 ${
               !civ.hasContent ? 'opacity-35' : ''
             }`}
             style={{ '--row-color': color } as React.CSSProperties}
           >
-            <div className="civ-row-inner pl-4">
-              {/* Chain eyebrow */}
-              <div className="civ-row-chain text-[10px] font-bold uppercase tracking-[0.12em] flex items-center gap-1.5">
-                {chainLabel}
-                {chainPosition && (
-                  <span className="text-foreground/25 font-normal">
-                    {chainPosition}
-                  </span>
-                )}
-              </div>
-
-              {/* Civ title — Lora serif */}
-              <div className="civ-row-label text-xl font-semibold font-[family-name:var(--font-lora)] mt-1">
-                {civ.label}
-              </div>
-
-              {/* Date range */}
-              <div className="text-[0.75em] text-foreground/40 mt-0.5 italic font-[family-name:var(--font-lora)] tabular-nums">
-                {formatYearRange(civ.startYear, civ.endYear)}
-              </div>
-
-              {/* Subtitle */}
-              {civ.subtitle && (
-                <div className="civ-row-subtitle text-[0.8em] text-foreground/40 mt-1 leading-snug">
-                  {civ.subtitle}
+            <div className="civ-row-inner pl-4 flex items-center gap-3">
+              <div className="flex-1 min-w-0">
+                {/* Chain + position */}
+                <div className="civ-row-chain text-[10px] font-bold uppercase tracking-[0.12em]">
+                  {chainLabel}
+                  {chainPosition && (
+                    <span className="civ-row-chain-pos ml-1.5 font-normal">{chainPosition}</span>
+                  )}
                 </div>
-              )}
 
-              {/* Enter button — only rendered when hasContent, shown via CSS on data-active */}
+                {/* Civ title */}
+                <div className="civ-row-label text-lg font-[family-name:var(--font-lora)] mt-0.5">
+                  {civ.label}
+                </div>
+
+                {/* Date range */}
+                <div className="text-xs text-foreground/40 mt-0.5 tabular-nums">
+                  {formatYearRange(civ.startYear, civ.endYear)}
+                </div>
+              </div>
+
+              {/* Small enter pill — right side, shown on active via CSS */}
               {civ.hasContent && (
                 <button
-                  className="civ-row-enter mt-3 w-full py-3 px-4 text-left rounded-lg flex items-center gap-3 font-bold"
-                  style={{ backgroundColor: color, color: 'white' }}
+                  className="civ-row-enter shrink-0 px-3 py-1.5 rounded-full text-xs font-bold text-white"
+                  style={{ backgroundColor: color }}
                   onClick={(e) => {
                     e.stopPropagation()
                     window.location.href = `/${civ.id}/`
                   }}
                 >
-                  <div className="flex-1 min-w-0">
-                    <div className="text-xs tracking-wide uppercase flex items-center gap-1.5">
-                      <span className="inline-block w-3 h-3 rounded-[3px] bg-white/30" />
-                      Read
-                    </div>
-                    <div className="text-base mt-0.5 font-[family-name:var(--font-lora)]">
-                      {civ.label}
-                    </div>
-                  </div>
-                  <div className="shrink-0 w-8 h-8 rounded-full border-2 border-white/40 flex items-center justify-center">
-                    <span className="text-lg leading-none">›</span>
-                  </div>
+                  Read →
                 </button>
               )}
             </div>
