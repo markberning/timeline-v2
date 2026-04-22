@@ -126,6 +126,8 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 - [early-andean-civilizations.md](early-andean-civilizations.md) — 8 chapters (1–8)
 - [old-kingdom-egypt.md](old-kingdom-egypt.md) — 8 chapters (1–8)
 - [minoan-civilization.md](minoan-civilization.md) — 8 chapters (1–8)
+- [ancient-korea.md](ancient-korea.md) — 8 chapters (1–8)
+- [assyrian-empire.md](assyrian-empire.md) — 8 chapters (1–8)
 
 ## Redos
 
