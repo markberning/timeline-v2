@@ -75,7 +75,7 @@ export function packBarsIntoLanes(
   for (const civ of civs) {
     const barLeft = yearToX(civ.startYear)
     const barRight = yearToX(civ.endYear)
-    const barWidth = Math.max(barRight - barLeft, 4)
+    const barWidth = Math.max(barRight - barLeft, 20)
 
     let assignedLane = -1
     for (let l = 0; l < laneEnds.length; l++) {

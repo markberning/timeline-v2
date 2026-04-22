@@ -171,7 +171,7 @@ function SwimLaneBars({
 
         return civs.map(civ => {
           const x = yearToX(civ.startYear)
-          const w = Math.max(yearToX(civ.endYear) - x, 4)
+          const w = Math.max(yearToX(civ.endYear) - x, 24)
           const isActive = civ.id === activeCivId
           const color = REGION_COLORS[civ.region]
 
@@ -189,7 +189,7 @@ function SwimLaneBars({
               }}
               onClick={() => onSelect(civ.id)}
             >
-              {isActive && w > 30 && (
+              {isActive && (
                 <span className="absolute inset-0 flex items-center px-1 text-[8px] font-bold text-white truncate">
                   {civ.label}
                 </span>
