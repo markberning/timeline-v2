@@ -199,7 +199,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
             {String(chapter.number).padStart(2, '0')}
           </span>
           <div className="min-w-0 flex-1">
-            <h2 className="text-xl font-semibold font-[family-name:var(--font-lora)]">
+            <h2 className="text-lg font-[family-name:var(--font-lora)]">
               {chapter.title}
               <span className={`inline-block text-foreground/50 text-2xl font-bold transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90 translate-x-1' : ''}`}>
                 &#x203A;
