@@ -1,48 +1,184 @@
 'use client'
 
-// Minimal civilization icons as a decorative border strip.
-// Each is a simple SVG glyph at 20x20, rendered at low opacity.
+// Detailed civilization icons as a decorative border strip.
+// Each icon uses its region color and has filled/detailed paths.
 
-const ICONS = [
-  // Pyramid (Egypt)
-  <path key="pyramid" d="M10 3L18 17H2Z" />,
-  // Ziggurat (Mesopotamia)
-  <path key="ziggurat" d="M3 17h14M5 13h10M7 9h6M9 5h2" />,
-  // Greek columns
-  <path key="columns" d="M4 17V7M10 17V7M16 17V7M2 7h16M2 17h16M3 5h14" />,
-  // Pagoda (China)
-  <path key="pagoda" d="M10 2v16M6 6h8M4 10h12M2 14h16M7 6l3-4 3 4M5 10l5-4 5 4M3 14l7-4 7 4" />,
-  // Dharma wheel (India)
-  <path key="wheel" d="M10 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14ZM10 6v8M6.5 7.5l7 5M13.5 7.5l-7 5" />,
-  // Stepped pyramid (Andes)
-  <path key="andes" d="M2 17h16M4 14h12M6 11h8M8 8h4M9 5h2" />,
-  // Torii gate (Japan)
-  <path key="torii" d="M4 7h12M2 5h16M6 7v10M14 7v10M10 5V2" />,
-  // Faravahar wings (Persia)
-  <path key="persia" d="M10 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM6 10C4 7 2 6 1 6M14 10c2-3 4-4 5-4M6 10C4 13 2 14 1 14M14 10c2 3 4 4 5 4M10 12v5" />,
-  // Ship (Phoenicia)
-  <path key="ship" d="M3 14c2 2 12 2 14 0M5 14V8l5-4 5 4v6M10 4V2" />,
-  // Triskelion (Celts)
-  <path key="celts" d="M10 10c0-4 3-7 3-7M10 10c3.5 2 7 0 7 0M10 10c-3.5 2-7 5-7 5" />,
+import { REGION_COLORS } from '@/lib/navigator-tls'
+
+const near = REGION_COLORS['near-east']
+const africa = REGION_COLORS['africa']
+const asia = REGION_COLORS['asia']
+const europe = REGION_COLORS['europe']
+const americas = REGION_COLORS['americas']
+
+interface Icon {
+  color: string
+  paths: React.ReactNode
+}
+
+const ICONS: Icon[] = [
+  // Pyramid (Egypt) — Africa
+  {
+    color: africa,
+    paths: (
+      <>
+        <polygon points="16,28 32,4 48,28" fill="currentColor" opacity="0.25" />
+        <polygon points="16,28 32,4 48,28" fill="none" stroke="currentColor" strokeWidth="2" />
+        <line x1="32" y1="4" x2="32" y2="28" stroke="currentColor" strokeWidth="1" opacity="0.4" />
+        <polygon points="24,28 32,14 40,28" fill="currentColor" opacity="0.15" />
+      </>
+    ),
+  },
+  // Ziggurat (Mesopotamia) — Near East
+  {
+    color: near,
+    paths: (
+      <>
+        <rect x="6" y="24" width="20" height="4" rx="0.5" fill="currentColor" opacity="0.3" />
+        <rect x="9" y="19" width="14" height="5" rx="0.5" fill="currentColor" opacity="0.4" />
+        <rect x="12" y="14" width="8" height="5" rx="0.5" fill="currentColor" opacity="0.5" />
+        <rect x="14" y="9" width="4" height="5" rx="0.5" fill="currentColor" opacity="0.7" />
+        <rect x="6" y="24" width="20" height="4" rx="0.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <rect x="9" y="19" width="14" height="5" rx="0.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <rect x="12" y="14" width="8" height="5" rx="0.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <rect x="14" y="9" width="4" height="5" rx="0.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      </>
+    ),
+  },
+  // Greek temple (Europe)
+  {
+    color: europe,
+    paths: (
+      <>
+        <polygon points="4,10 16,3 28,10" fill="currentColor" opacity="0.2" stroke="currentColor" strokeWidth="1.5" />
+        <rect x="4" y="10" width="24" height="2" fill="currentColor" opacity="0.5" />
+        <rect x="7" y="12" width="2.5" height="14" fill="currentColor" opacity="0.6" />
+        <rect x="13" y="12" width="2.5" height="14" fill="currentColor" opacity="0.6" />
+        <rect x="19" y="12" width="2.5" height="14" fill="currentColor" opacity="0.6" />
+        <rect x="24" y="12" width="2.5" height="14" fill="currentColor" opacity="0.6" />
+        <rect x="4" y="26" width="24" height="2" fill="currentColor" opacity="0.5" />
+      </>
+    ),
+  },
+  // Pagoda (China) — Asia
+  {
+    color: asia,
+    paths: (
+      <>
+        <polygon points="6,28 16,23 26,28" fill="currentColor" opacity="0.2" stroke="currentColor" strokeWidth="1.5" />
+        <polygon points="8,23 16,18 24,23" fill="currentColor" opacity="0.25" stroke="currentColor" strokeWidth="1.5" />
+        <polygon points="10,18 16,13 22,18" fill="currentColor" opacity="0.3" stroke="currentColor" strokeWidth="1.5" />
+        <polygon points="12,13 16,8 20,13" fill="currentColor" opacity="0.4" stroke="currentColor" strokeWidth="1.5" />
+        <line x1="16" y1="8" x2="16" y2="3" stroke="currentColor" strokeWidth="1.5" />
+        <circle cx="16" cy="3" r="1" fill="currentColor" />
+      </>
+    ),
+  },
+  // Dharma wheel (India) — Asia
+  {
+    color: asia,
+    paths: (
+      <>
+        <circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" strokeWidth="2" />
+        <circle cx="16" cy="16" r="3.5" fill="currentColor" opacity="0.3" stroke="currentColor" strokeWidth="1.5" />
+        {[0, 45, 90, 135, 180, 225, 270, 315].map(deg => {
+          const rad = (deg * Math.PI) / 180
+          return (
+            <line
+              key={deg}
+              x1={16 + Math.cos(rad) * 3.5}
+              y1={16 + Math.sin(rad) * 3.5}
+              x2={16 + Math.cos(rad) * 11}
+              y2={16 + Math.sin(rad) * 11}
+              stroke="currentColor"
+              strokeWidth="1.5"
+            />
+          )
+        })}
+      </>
+    ),
+  },
+  // Stepped pyramid (Andes) — Americas
+  {
+    color: americas,
+    paths: (
+      <>
+        <path d="M4,28 H28 V24 H24 V20 H20 V16 H18 V12 H14 V16 H12 V20 H8 V24 H4 Z" fill="currentColor" opacity="0.25" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+        <line x1="16" y1="12" x2="16" y2="6" stroke="currentColor" strokeWidth="1.5" />
+        <circle cx="16" cy="5" r="1.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      </>
+    ),
+  },
+  // Torii gate (Japan) — Asia
+  {
+    color: asia,
+    paths: (
+      <>
+        <line x1="8" y1="10" x2="8" y2="28" stroke="currentColor" strokeWidth="2.5" />
+        <line x1="24" y1="10" x2="24" y2="28" stroke="currentColor" strokeWidth="2.5" />
+        <path d="M4,8 Q16,4 28,8" fill="none" stroke="currentColor" strokeWidth="2.5" />
+        <line x1="6" y1="12" x2="26" y2="12" stroke="currentColor" strokeWidth="2" />
+      </>
+    ),
+  },
+  // Winged sun disk (Persia) — Near East
+  {
+    color: near,
+    paths: (
+      <>
+        <circle cx="16" cy="16" r="4" fill="currentColor" opacity="0.4" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M12,16 C9,10 4,8 1,9" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M12,16 C9,12 5,11 2,12" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M12,16 C10,14 6,14 3,15" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M20,16 C23,10 28,8 31,9" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M20,16 C23,12 27,11 30,12" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M20,16 C22,14 26,14 29,15" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      </>
+    ),
+  },
+  // Viking/Phoenician ship — Europe
+  {
+    color: europe,
+    paths: (
+      <>
+        <path d="M4,20 Q16,26 28,20" fill="currentColor" opacity="0.2" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M2,18 Q16,24 30,18" fill="none" stroke="currentColor" strokeWidth="2" />
+        <line x1="16" y1="18" x2="16" y2="6" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M16,7 L24,12 L16,16" fill="currentColor" opacity="0.15" stroke="currentColor" strokeWidth="1" />
+        <path d="M2,18 L4,14" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M30,18 L28,14" stroke="currentColor" strokeWidth="1.5" />
+      </>
+    ),
+  },
+  // Spiral / Triskelion (Celts) — Europe
+  {
+    color: europe,
+    paths: (
+      <>
+        <path d="M16,16 C16,10 20,6 20,6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        <path d="M16,16 C20,19 24,17 24,17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        <path d="M16,16 C12,19 8,17 8,17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        <path d="M20,6 C22,6 22,9 20,10" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M24,17 C25,19 23,21 21,20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M8,17 C6,18 7,21 9,20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </>
+    ),
+  },
 ]
 
 export function CivIconsStrip() {
   return (
-    <div className="flex items-center justify-center gap-5 py-2 overflow-hidden opacity-[0.12]">
+    <div className="flex items-center justify-center gap-4 lg:gap-6 py-1.5 overflow-hidden shrink-0">
       {ICONS.map((icon, i) => (
         <svg
           key={i}
-          width="18"
-          height="18"
-          viewBox="0 0 20 20"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="shrink-0 text-foreground"
+          width="28"
+          height="28"
+          viewBox="0 0 32 32"
+          className="shrink-0"
+          style={{ color: icon.color, opacity: 0.45 }}
         >
-          {icon}
+          {icon.paths}
         </svg>
       ))}
     </div>
