@@ -178,7 +178,7 @@ function SwimLaneBars({
           return (
             <button
               key={civ.id}
-              className="absolute rounded-sm overflow-hidden cursor-pointer"
+              className="absolute rounded-sm cursor-pointer"
               style={{
                 left: x,
                 top: laneTop + 2,
@@ -186,11 +186,23 @@ function SwimLaneBars({
                 height: LANE_HEIGHT_MOBILE - 4,
                 backgroundColor: isActive ? color : `color-mix(in srgb, ${color} 25%, var(--background))`,
                 boxShadow: isActive ? `0 0 8px ${color}60` : 'none',
+                zIndex: isActive ? 5 : 1,
+                overflow: isActive ? 'visible' : 'hidden',
               }}
               onClick={() => onSelect(civ.id)}
             >
               {isActive && (
-                <span className="absolute inset-0 flex items-center px-1 text-[8px] font-bold text-white truncate">
+                <span
+                  className="absolute whitespace-nowrap text-[9px] font-bold text-white pointer-events-none"
+                  style={{
+                    left: 0,
+                    bottom: '100%',
+                    marginBottom: 1,
+                    backgroundColor: color,
+                    borderRadius: 3,
+                    padding: '1px 5px',
+                  }}
+                >
                   {civ.label}
                 </span>
               )}
