@@ -1,0 +1,2723 @@
+{
+  "id": "assyrian-empire",
+  "label": "Assyrian Empire",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "wikiSlug": "Assyria",
+  "imageWikiSlug": "Lamassu",
+  "mapCommonsFile": "Map_of_Assyria.png",
+  "pitch": "From Mesopotamia's fragmented city-states — the Sumerian temple economies, the Akkadian imperial model, the Babylonian legal tradition — the Assyrians inherited every tool of civilization and forged them into the ancient world's first true military empire. While Babylon preserved culture, Assyria projected power, building an iron-armed war machine that conquered from Egypt to Iran through professional armies, siege warfare, and calculated terror.\n\n🔑 Key Facts:\n• Assyrian merchants at Kanesh in Anatolia (~1950 BCE) ran one of the ancient world's first international trade networks, leaving over 23,000 cuneiform tablets documenting commercial transactions, interest rates, and insurance contracts\n• Tiglath-Pileser III (745–727 BCE) invented the professional standing army, replacing seasonal levies with a permanent force of infantry, cavalry, chariots, and engineers — a model every later empire copied\n• The Assyrians systematically relocated up to 4.5 million conquered people across the empire, breaking local resistance while creating a diverse labor force — the deportation of Israel's ten tribes became one of history's most famous forced migrations\n• Sennacherib's aqueduct at Jerwan used over 2 million dressed stone blocks and a corbelled arch to carry water 50 km to Nineveh — an engineering achievement not surpassed until Roman aqueducts centuries later\n• Ashurbanipal's library at Nineveh contained over 30,000 cuneiform tablets, preserving the Epic of Gilgamesh, astronomical records, medical texts, and omens — the ancient world's greatest organized collection of knowledge\n• The Assyrians adopted Aramaic alongside Akkadian for imperial administration, spreading it as the lingua franca of the entire Near East — it would eventually become the language spoken by Jesus\n• Lamassu guardian sculptures — colossal winged bull-men weighing up to 30 tons — flanked palace gates as symbols of royal power, using a five-legged optical illusion that appears correct from both front and side views\n• The fall of Nineveh in 612 BCE was so complete that within two centuries, no one could even find the city — when Xenophon marched past its ruins in 401 BCE, locals had no idea what civilization built them\n\n🤔 Why It Matters:\nAssyrian innovations in imperial administration — provincial governance, road networks, postal relay systems, standardized weights and measures — became the direct template for the Persian Empire that absorbed the region after Nineveh's fall. Cyrus the Great's Royal Road followed Assyrian routes, his satrapy system echoed Assyrian provinces, and Persian tolerance was explicitly a reaction against Assyrian terror. The cuneiform archives Ashurbanipal assembled preserved three millennia of Mesopotamian knowledge that would otherwise have been lost.\n\n🎲 Wild Card:\nAssyrian palace reliefs depict the world's first known military divers — soldiers crossing rivers using inflated animal skins as flotation devices, breathing through reed tubes while fully armed. This appears on Ashurnasirpal II's palace walls at Nimrud, nearly 2,800 years before modern combat diving.",
+  "spans": [
+    {
+      "id": "span-assyrian-early",
+      "label": "Early Assyrian Period",
+      "startYear": -2500,
+      "endYear": -2025,
+      "wikiSlug": "Early_Period_of_Assyria",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The city of Assur emerged on the west bank of the Tigris in northern Mesopotamia, strategically positioned at a crossroads between Sumerian cities to the south and Anatolian highlands to the north."
+        },
+        {
+          "label": "What Happened",
+          "text": "Assur functioned primarily as a religious center dedicated to the god Ashur, existing as a minor city-state subject to larger Mesopotamian powers like the Akkadian Empire and the Third Dynasty of Ur."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "This long formative period gave Assyria its identity as a distinct culture centered on the god Ashur — a devotion that would drive Assyrian kings to conquer in their deity's name for the next two millennia."
+        }
+      ]
+    },
+    {
+      "id": "span-assyrian-old",
+      "label": "Old Assyrian Period",
+      "startYear": -2025,
+      "endYear": -1378,
+      "wikiSlug": "Old_Assyrian_Empire",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After the fall of the Third Dynasty of Ur, Assyria gained independence and its merchants seized the opportunity to build far-flung trade networks across Anatolia."
+        },
+        {
+          "label": "What Happened",
+          "text": "Assyrian traders established colonies (karum) at Kanesh and other Anatolian cities, exchanging tin and textiles for silver and gold. Shamshi-Adad I briefly built a territorial empire before Assyria fell under Mitanni domination for over a century."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Old Assyrian trade colonies produced one of history's earliest archives of commercial correspondence and pioneered practices like credit, insurance, and joint-stock ventures that would not reappear in such sophistication for centuries."
+        }
+      ]
+    },
+    {
+      "id": "span-assyrian-middle",
+      "label": "Middle Assyrian Empire",
+      "startYear": -1378,
+      "endYear": -934,
+      "wikiSlug": "Middle_Assyrian_Empire",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After more than a century under Mitanni control, Assyria broke free when Ashur-uballit I exploited the Hittite destruction of Mitanni to reassert Assyrian independence and claim great power status."
+        },
+        {
+          "label": "What Happened",
+          "text": "Warrior kings like Tukulti-Ninurta I conquered Babylon for the first time, and Tiglath-Pileser I campaigned to the Mediterranean. Assyria adopted iron weapons early, but Aramean migrations and drought contracted its territory."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Middle Assyrian period established the template of aggressive military expansion, detailed royal annals, and brutal treatment of enemies that the Neo-Assyrian Empire would inherit and perfect."
+        }
+      ]
+    },
+    {
+      "id": "span-assyrian-neo",
+      "label": "Neo-Assyrian Empire",
+      "startYear": -934,
+      "endYear": -609,
+      "wikiSlug": "Neo-Assyrian_Empire",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Beginning with Ashur-dan II's systematic reconquest of lost territories in 934 BCE, Assyria entered a period of relentless expansion that would produce the largest empire the ancient world had yet seen."
+        },
+        {
+          "label": "What Happened",
+          "text": "A succession of warrior kings — Ashurnasirpal II, Tiglath-Pileser III, Sargon II, Sennacherib, and Ashurbanipal — conquered from Egypt to Iran using professional armies, mass deportations, and psychological terror. They built magnificent capitals at Nimrud, Dur-Sharrukin, and Nineveh."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Assyria's innovations in professional armies, provincial administration, road networks, and intelligence systems became the direct template for the Persian Empire. When Nineveh fell in 612 BCE, the imperial infrastructure survived under new management."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-assyr-assur-founded",
+      "label": "City of Assur Founded",
+      "year": -2500,
+      "description": "The city of Assur on the Tigris River became the religious and political center of Assyria, dedicated to the god Ashur who gave the civilization its name.",
+      "wikiSlug": "Assur",
+      "commonsFile": "Ruins of Ashur from South.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Northern Mesopotamia's position between Sumerian cities to the south and resource-rich highlands to the north made it a natural trading crossroads. Assur sat on a limestone bluff overlooking the Tigris at a major river crossing."
+        },
+        {
+          "label": "The City",
+          "text": "Assur served as both a commercial hub and a religious center, with the great temple of the god Ashur at its heart. The city gave its name to both the god and the civilization that grew around it."
+        },
+        {
+          "label": "Legacy",
+          "text": "Even after Assyrian kings moved their capitals to Nimrud, Dur-Sharrukin, and Nineveh, Assur remained the spiritual heart of Assyria. Kings returned to be crowned and buried there for over two millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-akkadian-rule",
+      "label": "Akkadian Rule over Assur",
+      "year": -2334,
+      "description": "Sargon of Akkad incorporated Assur into the world's first empire, exposing Assyrians to imperial administration, Akkadian language, and the model of centralized governance.",
+      "wikiSlug": "Akkadian_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Sargon of Akkad conquered all of Mesopotamia from the Persian Gulf to the Mediterranean, incorporating the small city-state of Assur into history's first multi-ethnic empire."
+        },
+        {
+          "label": "What Changed",
+          "text": "Under Akkadian rule, Assur adopted the Akkadian language alongside its Sumerian inheritance. The Akkadian imperial model — appointed governors, standardized weights, military campaigns to secure trade — left a lasting impression on Assyrian political culture."
+        },
+        {
+          "label": "Legacy",
+          "text": "Later Assyrian kings explicitly invoked Sargon of Akkad as a model. Sargon II chose his throne name in homage, and Assyrian royal inscriptions echoed Akkadian imperial rhetoric for centuries."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-ashur-god",
+      "label": "Ashur: The God Who Was the Empire",
+      "year": -2000,
+      "description": "The god Ashur began as the patron deity of a single city-state but was elevated to king of the gods as Assyria expanded — making military conquest literally a religious obligation.",
+      "wikiSlug": "Ashur_(god)",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Unlike other Mesopotamian gods who represented natural forces — Shamash the sun, Ishtar love and war, Enlil the wind — Ashur began as simply the patron god of the city that bore his name. He had no elaborate mythology of his own and no origin story."
+        },
+        {
+          "label": "The Theology",
+          "text": "As Assyria grew from city-state to empire, Ashur was elevated to supreme deity. Assyrian scribes rewrote the Babylonian creation epic (Enuma Elish) replacing Marduk with Ashur, making him the creator of the universe. Every Assyrian military campaign was framed as expanding Ashur's dominion — the king fought as the god's earthly agent."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Ashur's unique character — a god defined by his political community rather than by natural forces — gave Assyrian imperialism a theological engine. Conquest was worship. Expansion was devotion. This fusion of religion and state power would be echoed by later empires from Rome to the Caliphates."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-trade-colonies",
+      "label": "Old Assyrian Trade Colonies",
+      "year": -1950,
+      "endYear": -1750,
+      "description": "Assyrian merchants established trading colonies (karum) across Anatolia, especially at Kanesh, creating one of history's first international trade networks.",
+      "wikiSlug": "Kārum",
+      "commonsFile": "Kültepe, the ancient site of Kanesh.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Assyrian merchants organized caravans of donkeys carrying tin (from Iran) and textiles (from Mesopotamia) to trade for silver and gold in Anatolia. The round trip took weeks over dangerous mountain passes."
+        },
+        {
+          "label": "The Network",
+          "text": "At least 20 trading colonies operated across Anatolia, with Kanesh as the central hub. Merchants operated under formal commercial agreements, used credit and insurance, and maintained family firms across generations."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Kanesh tablets reveal business practices — letters of credit, joint-stock companies, interest-bearing loans — that would not appear again in such sophistication for centuries. This was a capitalist economy 4,000 years ago."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-kanesh-tablets",
+      "label": "Kanesh Tablets",
+      "year": -1900,
+      "description": "Over 23,000 cuneiform tablets from the trading colony at Kanesh document commercial transactions, family correspondence, and legal disputes in extraordinary detail.",
+      "wikiSlug": "Kültepe",
+      "commonsFile": "Tablet Kültepe Louvre AO19839.jpg",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "The tablets were found in the merchants' quarter at Kültepe (ancient Kanesh) in central Turkey. They include business letters, contracts, loan agreements, and even personal correspondence between husbands abroad and wives at home in Assur."
+        },
+        {
+          "label": "What They Reveal",
+          "text": "The tablets document a world of sophisticated commerce: exchange rates, shipping insurance, tax disputes, and even complaints about inferior merchandise. Women in Assur managed the textile production that was the backbone of the trade."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "These are among the oldest commercial archives ever found. They reveal that 4,000 years ago, Assyrian merchants operated with a level of financial sophistication comparable to medieval Italian traders."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-shamshi-adad",
+      "label": "Shamshi-Adad I",
+      "year": -1808,
+      "endYear": -1776,
+      "description": "Shamshi-Adad I created the first Assyrian territorial state, controlling northern Mesopotamia from the Euphrates to the Zagros Mountains.",
+      "wikiSlug": "Shamshi-Adad_I",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "An Amorite warlord who seized Assur and then conquered northern Mesopotamia, Shamshi-Adad was the first ruler to unite a large territory under Assyrian control. He installed his sons as sub-kings in key cities."
+        },
+        {
+          "label": "His Reign",
+          "text": "Shamshi-Adad built a kingdom stretching from the Euphrates to the Zagros. His letters to his sons survive — including sharp reprimands to the underperforming Yasmah-Addu and praise for the more capable Ishme-Dagan."
+        },
+        {
+          "label": "Legacy",
+          "text": "His empire collapsed after his death, but Shamshi-Adad established the precedent that Assyria could be more than a city-state. Later Assyrian kings included him in their king lists as a legitimate dynastic ancestor."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-shamshi-adad-letters",
+      "label": "Royal Letters of Shamshi-Adad",
+      "year": -1790,
+      "description": "Surviving letters from Shamshi-Adad I to his sons reveal the inner workings of early Assyrian royal administration and family dynamics.",
+      "wikiSlug": "Shamshi-Adad_I",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "Shamshi-Adad installed his sons Ishme-Dagan and Yasmah-Addu as sub-kings in Ekallatum and Mari respectively. The letters between father and sons form one of the earliest known royal correspondences."
+        },
+        {
+          "label": "The Letters",
+          "text": "In one famous letter, Shamshi-Adad scolds Yasmah-Addu: 'How long do we have to keep guiding you? Are you a child, not a man?' He contrasts him unfavorably with his brother Ishme-Dagan, who was running his kingdom competently."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "These letters humanize ancient rulers in remarkable ways — a father frustrated with his incompetent son is a universal experience that resonates across four millennia."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-mitanni-domination",
+      "label": "Mitanni Domination",
+      "year": -1500,
+      "description": "Assyria fell under the domination of the Hurrian Mitanni kingdom for over a century, a humiliation that later Assyrian kings tried to erase from the historical record.",
+      "wikiSlug": "Mitanni",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Mitanni, a Hurrian-speaking kingdom centered in northern Syria, expanded eastward using chariot warfare to dominate northern Mesopotamia. Assyria became a vassal, forced to pay tribute and supply troops."
+        },
+        {
+          "label": "What Happened",
+          "text": "For over a century, Assyrian kings served as subordinates to Mitanni overlords. Later Assyrian scribes either omitted this period from king lists or rewrote it to minimize the humiliation."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Mitanni domination fueled a fierce determination for independence that shaped Assyrian military culture for centuries. When Assyria finally broke free, its kings explicitly framed their conquests as revenge and restoration."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-ashur-uballit",
+      "label": "Ashur-uballit I",
+      "year": -1363,
+      "endYear": -1328,
+      "description": "Ashur-uballit I freed Assyria from Mitanni control and established diplomatic relations with Egypt as an equal, beginning Assyria's rise to great power status.",
+      "wikiSlug": "Ashur-uballit_I",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Ashur-uballit I exploited the Hittite destruction of Mitanni to reassert Assyrian independence. He wrote to the Egyptian pharaoh Akhenaten as 'Great King' — demanding recognition as an equal of Egypt, Babylon, and the Hittites."
+        },
+        {
+          "label": "His Reign",
+          "text": "Beyond diplomacy, Ashur-uballit intervened in Babylonian succession politics, installing his grandson on the Babylonian throne — the first time Assyria projected power over its southern neighbor."
+        },
+        {
+          "label": "Legacy",
+          "text": "Ashur-uballit's diplomatic boldness transformed Assyria from a regional backwater into a recognized great power. The Amarna Letters preserve his correspondence with Egypt, documenting this dramatic status change."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-tukulti-ninurta",
+      "label": "Tukulti-Ninurta I",
+      "year": -1243,
+      "endYear": -1207,
+      "description": "Tukulti-Ninurta I conquered Babylon, becoming the first Assyrian king to rule the holy city. He built a new capital across from Assur and inspired later legends.",
+      "wikiSlug": "Tukulti-Ninurta_I",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "A warrior king who defeated the Hittites, conquered Babylon, and carried off the statue of Marduk — the ultimate symbol of Babylonian sovereignty. His conquest of Babylon shocked the ancient world."
+        },
+        {
+          "label": "His Reign",
+          "text": "Tukulti-Ninurta built a new capital city, Kar-Tukulti-Ninurta, directly across the Tigris from Assur. His increasingly autocratic rule alienated the Assyrian nobility, and he was ultimately murdered by his own son."
+        },
+        {
+          "label": "Legacy",
+          "text": "His dramatic life inspired the Tukulti-Ninurta Epic, one of the oldest known literary works celebrating a historical king. Some scholars believe his conquest of Babylon also influenced the Greek Ninus legend."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-tiglath-pileser-i",
+      "label": "Tiglath-Pileser I",
+      "year": -1114,
+      "endYear": -1076,
+      "description": "A warrior king who campaigned from the Mediterranean to Babylon and established the first Assyrian royal hunting parks among the earliest known royal gardens.",
+      "wikiSlug": "Tiglath-Pileser_I",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Tiglath-Pileser I was a prolific campaigner who fought the Mushki (possibly Phrygians) in Anatolia, raided Babylon, and reached the Mediterranean coast — where he received tribute from Byblos and went on a boat ride."
+        },
+        {
+          "label": "His Reign",
+          "text": "He hunted and killed four wild bulls, ten elephants, and a narwhal on his campaigns, recording these feats in royal inscriptions. He established royal gardens at Assur where exotic animals and plants were kept."
+        },
+        {
+          "label": "Legacy",
+          "text": "His extensive campaigns demonstrated Assyrian military potential, but Aramean migrations after his death contracted Assyrian territory for over a century. The Neo-Assyrian Empire later cited his campaigns as precedent for their own conquests."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-middle-laws",
+      "label": "Middle Assyrian Laws",
+      "year": -1076,
+      "description": "The Middle Assyrian law code regulated property, marriage, and commerce with harsh punishments, reflecting a militarized patriarchal society distinct from Babylonian legal traditions.",
+      "wikiSlug": "Middle_Assyrian_Laws",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "Unlike Hammurabi's famous code, the Middle Assyrian Laws were not a royal proclamation but a working legal reference. They were found at Assur and date to around the reign of Tiglath-Pileser I."
+        },
+        {
+          "label": "The Laws",
+          "text": "The code is notable for its harsh treatment of women, including veiling requirements — some of the earliest known mandates for female veiling. Punishments included mutilation, forced labor, and execution."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Comparing Assyrian and Babylonian laws reveals how the same Mesopotamian legal tradition could produce very different societies — Assyria's military culture produced markedly harsher social controls than Babylon's commercial culture."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-iron-weapons",
+      "label": "Adoption of Iron Weapons",
+      "year": -1050,
+      "description": "Assyria was among the first powers to mass-produce iron weapons, giving its armies a decisive material advantage over bronze-armed opponents.",
+      "wikiSlug": "Iron_Age",
+      "tier": 2,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Iron smelting technology spread from Anatolia after the collapse of the Hittite Empire around 1180 BCE. While iron had been known for centuries, mass production required temperatures achievable only with sophisticated furnace design."
+        },
+        {
+          "label": "The Innovation",
+          "text": "Assyria invested heavily in iron production, equipping its armies with iron swords, spearheads, and arrowheads. Iron was harder than bronze and, crucially, made from widely available ore rather than scarce tin."
+        },
+        {
+          "label": "Impact",
+          "text": "Iron weapons gave Assyria a material advantage that lasted until neighboring states caught up. The iron age also enabled better agricultural tools — iron plowshares broke harder soil, increasing food production to support larger armies."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-aramean-wars",
+      "label": "Aramean Invasions",
+      "year": -1050,
+      "endYear": -934,
+      "description": "Aramean tribal migrations flooded into Mesopotamia after the Bronze Age collapse, contracting Assyrian territory and nearly overwhelming the state before the Neo-Assyrian recovery.",
+      "wikiSlug": "Aramaeans",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Bronze Age collapse around 1200–1150 BCE disrupted trade networks and destabilized states across the Near East. Aramean pastoral nomads from the Syrian steppe migrated into the resulting vacuum."
+        },
+        {
+          "label": "What Happened",
+          "text": "Aramean tribes established kingdoms across Syria and northern Mesopotamia, cutting Assyrian trade routes and reducing the empire to a rump state around Assur. Tiglath-Pileser I fought them repeatedly but could not stop the tide."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Ironically, the Aramean language would eventually triumph culturally even as Assyria crushed them militarily. By the 8th century BCE, Aramaic was replacing Akkadian as the spoken language of the Assyrian Empire itself."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-neo-rise",
+      "label": "Neo-Assyrian Revival",
+      "year": -934,
+      "description": "Under Ashur-dan II, Assyria began systematic reconquest and expansion, launching the Neo-Assyrian period that would produce the ancient world's largest empire.",
+      "wikiSlug": "Ashur-dan_II",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After a century of contraction under Aramean pressure, Assyria in 934 BCE was confined to its heartland along the upper Tigris. Ashur-dan II began the slow, methodical process of reconquering lost territory."
+        },
+        {
+          "label": "What Happened",
+          "text": "Ashur-dan II and his successors Adad-nirari II and Tukulti-Ninurta II reclaimed Assyrian territory through annual campaigns, rebuilding fortresses, resettling depopulated areas, and extracting tribute from Aramean and Babylonian neighbors."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "This century of reconquest laid the foundation for the explosive expansion under Ashurnasirpal II and his successors. The methodical approach — annual campaigns, provincial consolidation, tribute extraction — became the standard Neo-Assyrian operational model."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-ashurnasirpal-ii",
+      "label": "Ashurnasirpal II",
+      "year": -883,
+      "endYear": -859,
+      "description": "Ashurnasirpal II rebuilt the empire through campaigns of deliberate terror and inaugurated the new capital Nimrud with a legendary feast for 69,574 guests.",
+      "wikiSlug": "Ashurnasirpal_II",
+      "commonsFile": "Ashurnasirpal II British Museum.jpg",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Ashurnasirpal II perfected the Assyrian strategy of calculated terror, recording in gruesome detail how he flayed rebels alive, impaled captives, and built pillars of skulls. His annals were designed to deter resistance before armies arrived."
+        },
+        {
+          "label": "His Reign",
+          "text": "He campaigned from the Mediterranean to the Zagros, extracting tribute from Phoenician cities and establishing Assyrian dominance over northern Mesopotamia. His inauguration feast at Nimrud lasted ten days and fed nearly 70,000 guests."
+        },
+        {
+          "label": "Legacy",
+          "text": "Ashurnasirpal II transformed Assyria from a recovering regional power into the ancient Near East's dominant military force. His palace reliefs at Nimrud set the standard for Assyrian royal art that influenced every subsequent king."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-nimrud",
+      "label": "Nimrud (Kalhu) Capital",
+      "year": -879,
+      "description": "Ashurnasirpal II made Nimrud the new Assyrian capital, building the magnificent Northwest Palace adorned with carved stone reliefs depicting royal conquests and rituals.",
+      "wikiSlug": "Nimrud",
+      "commonsFile": "Kalhu (Nimrud), the NW palace.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Assur, while sacred, was cramped and peripheral. Ashurnasirpal II chose the ancient site of Kalhu (Nimrud) on the Tigris as a fresh canvas for a capital reflecting Assyrian power."
+        },
+        {
+          "label": "The Structure",
+          "text": "The Northwest Palace covered nearly 2 hectares with hundreds of rooms lined with carved alabaster reliefs. A massive ziggurat, temples, administrative buildings, and an arsenal surrounded it within walls enclosing 360 hectares."
+        },
+        {
+          "label": "Legacy",
+          "text": "Nimrud served as the Assyrian capital for over 150 years and was one of the ancient world's grandest cities. Austen Henry Layard's excavation there in 1845 was one of the great moments of archaeological discovery."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-lamassu",
+      "label": "Lamassu Guardian Sculptures",
+      "year": -870,
+      "description": "Colossal winged bull-man sculptures placed at palace gates became iconic symbols of Assyrian power, weighing up to 30 tons and using a five-legged optical illusion.",
+      "wikiSlug": "Lamassu",
+      "commonsFile": "Human headed winged bull facing.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Lamassu were protective deities carved as human-headed winged bulls or lions, placed in pairs at palace and city gates. They combined the strength of a bull, the speed of an eagle, and the intelligence of a human."
+        },
+        {
+          "label": "The Structure",
+          "text": "Carved from single blocks of alabaster weighing up to 30 tons, lamassu featured a famous five-legged optical illusion: viewed from the front they appear standing, from the side they appear walking. Quarrying and transporting them was a massive engineering feat."
+        },
+        {
+          "label": "Legacy",
+          "text": "Lamassu became the most recognizable symbols of Assyrian civilization. Several survive in the British Museum and the Louvre, while others were tragically destroyed by ISIS at Nimrud in 2015."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-palace-reliefs",
+      "label": "Assyrian Palace Reliefs",
+      "year": -865,
+      "description": "Carved stone reliefs lining palace walls depicted royal hunts, military campaigns, and religious ceremonies with unprecedented realism and narrative power.",
+      "wikiSlug": "Assyrian_palace_reliefs",
+      "commonsFile": "Assyrian - Eagle-Headed Genie Between Two Sacred Trees - Walters 2115 (2).jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Beginning with Ashurnasirpal II at Nimrud, Assyrian kings lined their palace walls with narrative stone reliefs carved in alabaster — a tradition continued for over 200 years until the empire's fall."
+        },
+        {
+          "label": "The Art",
+          "text": "Reliefs depicted military campaigns in precise detail (siege engines, troop formations, prisoner treatment), royal lion hunts with remarkable anatomical accuracy, and religious ceremonies. They served as both propaganda and historical record."
+        },
+        {
+          "label": "Legacy",
+          "text": "Assyrian reliefs are among the greatest achievements of ancient art. The lion hunt reliefs of Ashurbanipal, now in the British Museum, are considered masterpieces of sculptural realism unmatched until Greek classical art."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-shalmaneser-iii",
+      "label": "Shalmaneser III",
+      "year": -858,
+      "endYear": -824,
+      "description": "Shalmaneser III campaigned relentlessly for 35 years, fighting coalitions across the Near East and recording his conquests on the famous Black Obelisk.",
+      "wikiSlug": "Shalmaneser_III",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Son of Ashurnasirpal II, Shalmaneser III conducted 35 military campaigns in his 34-year reign — perhaps the most relentless schedule of warfare in ancient history."
+        },
+        {
+          "label": "His Reign",
+          "text": "He fought the Battle of Qarqar against a 12-king coalition including Israel and Damascus, campaigned against Urartu, and intervened repeatedly in Babylonian affairs. His reign ended with a major rebellion led by his own son."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Black Obelisk of Shalmaneser, found at Nimrud, depicts five kings paying tribute — including the earliest known image of an Israelite (Jehu, king of Israel, prostrating before the Assyrian king)."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-qarqar",
+      "label": "Battle of Qarqar",
+      "year": -853,
+      "description": "At Qarqar, Shalmaneser III faced a coalition of 12 kings including Ahab of Israel and Hadadezer of Damascus — one of the largest battles of the ancient Near East.",
+      "wikiSlug": "Battle_of_Qarqar",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Shalmaneser III's westward expansion alarmed the kingdoms of Syria and the Levant. An unusual coalition of rivals including Israel, Damascus, Hamath, and several others united to block the Assyrian advance."
+        },
+        {
+          "label": "The Battle",
+          "text": "The coalition fielded an enormous combined army at Qarqar on the Orontes River. Shalmaneser claimed victory in his inscriptions, but the coalition survived intact, and he was unable to advance further west for several years."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Qarqar demonstrated both the reach of Assyrian ambition and its limits. It also provides the earliest known extra-biblical reference to the Kingdom of Israel, with Ahab contributing 2,000 chariots to the coalition."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-relief-propaganda",
+      "label": "Assyrian Royal Propaganda",
+      "year": -850,
+      "description": "Assyrian kings developed history's first systematic propaganda program, using palace reliefs, royal inscriptions, and calculated terror to project power.",
+      "wikiSlug": "Assyrian_propaganda",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Assyrian kings understood that controlling narratives was as important as winning battles. Royal annals were carefully composed to present the king as invincible, pious, and divinely chosen."
+        },
+        {
+          "label": "What They Did",
+          "text": "Palace reliefs showed kings defeating enemies, hunting lions, and performing rituals. Inscriptions at conquered cities described punishments in graphic detail — specifically designed to terrify future rebels. Military campaigns always ended in 'victory' regardless of actual outcome."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Assyria's systematic use of propaganda was unprecedented in the ancient world. The combination of visual imagery, written narratives, and physical terror created an information environment designed to discourage resistance — a strategy that every subsequent empire has adapted."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-nimrud-ivories",
+      "label": "Nimrud Ivory Collection",
+      "year": -850,
+      "description": "Thousands of intricately carved ivory plaques found at Nimrud represent tribute and booty from across the empire — one of the richest collections of ancient decorative art ever discovered.",
+      "wikiSlug": "Nimrud_ivories",
+      "commonsFile": "Ivory plaque Nimrud.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Context",
+          "text": "Ivory was a luxury material in the ancient Near East, carved by Phoenician, Syrian, and Egyptian workshops into furniture panels, cosmetic boxes, and decorative plaques. Assyrian kings accumulated thousands of pieces through tribute and conquest."
+        },
+        {
+          "label": "The Collection",
+          "text": "Excavations at Nimrud, especially from Fort Shalmaneser and the Northwest Palace, recovered thousands of carved ivory plaques depicting sphinxes, lions, lotuses, and human figures in styles ranging from Egyptian to Phoenician. Many were originally inlaid with gold and colored glass."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Nimrud ivories demonstrate the vast wealth flowing into the Assyrian Empire from across the Near East. They also show how Assyrian power created a cosmopolitan artistic tradition, with craftsmen from different cultures producing luxury goods for Assyrian consumption."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-fort-shalmaneser",
+      "label": "Fort Shalmaneser at Nimrud",
+      "year": -845,
+      "description": "Shalmaneser III built a massive military arsenal and palace complex at Nimrud that served as the empire's primary military headquarters and storehouse for tribute for over a century.",
+      "wikiSlug": "Fort_Shalmaneser",
+      "commonsFile": "Nimrud Assyria.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "While Ashurnasirpal II's Northwest Palace served as the ceremonial center of Nimrud, the growing empire needed a dedicated military headquarters. Shalmaneser III built a massive complex in the city's southeast corner."
+        },
+        {
+          "label": "The Structure",
+          "text": "Fort Shalmaneser covered over 300 by 200 meters with a throne room, barracks, workshops, and vast storerooms. Thousands of carved ivory plaques were found in its storerooms — tribute and booty from Phoenician, Syrian, and Egyptian workshops, forming one of the richest ivory collections ever discovered."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The fort functioned as the empire's military nerve center for over 150 years, where armies mustered, tribute was stored, and campaigns were planned. Its ivory collection reveals the massive flow of luxury goods extracted from conquered peoples."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-black-obelisk",
+      "label": "Black Obelisk of Shalmaneser",
+      "year": -825,
+      "description": "The Black Obelisk depicts foreign kings paying tribute, including the earliest known image of an Israelite — King Jehu bowing before the Assyrian king.",
+      "wikiSlug": "Black_Obelisk_of_Shalmaneser_III",
+      "commonsFile": "Black Obelisk of Shalmaneser III.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "The 2-meter tall black limestone obelisk was discovered at Nimrud in 1846 by Austen Henry Layard. It depicts tribute scenes from five different kings, each with detailed inscriptions."
+        },
+        {
+          "label": "The Object",
+          "text": "Panel by panel, it shows exotic animals (elephants, monkeys, a rhinoceros) and luxury goods brought as tribute. The second register shows 'Jehu, son of Omri' (Jehu of Israel) prostrating himself — the only known ancient depiction of an Israelite king."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Black Obelisk is one of the most important objects in biblical archaeology, providing independent confirmation of biblical figures. It is now one of the British Museum's most famous exhibits."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-sammu-ramat",
+      "label": "Sammu-ramat (Semiramis)",
+      "year": -810,
+      "endYear": -805,
+      "description": "Queen regent Sammu-ramat governed Assyria during her son's minority — the only woman to wield supreme power in Assyrian history, later immortalized in Greek legend as the warrior-queen Semiramis.",
+      "wikiSlug": "Shammuramat",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who She Was",
+          "text": "Sammu-ramat was the wife of Shamshi-Adad V and mother of Adad-nirari III. When her husband died around 811 BCE, her son was too young to rule, and Sammu-ramat served as regent — an extraordinary position for a woman in the rigidly patriarchal Assyrian state."
+        },
+        {
+          "label": "Her Regency",
+          "text": "A stele from Assur names her alongside her son, an unprecedented honor for a queen. She may have accompanied military campaigns, and her influence was felt into Adad-nirari III's adult reign. Her authority was remarkable enough that it was remembered centuries later."
+        },
+        {
+          "label": "Legacy",
+          "text": "Greek writers transformed Sammu-ramat into Semiramis, a legendary warrior-queen who supposedly built Babylon, conquered India, and invented the eunuch system. The historical Sammu-ramat was less fantastical but no less extraordinary — a woman who held supreme power in the ancient world's most militarized empire."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-ishtar-cult",
+      "label": "Cult of Ishtar at Nineveh",
+      "year": -800,
+      "description": "The temple of Ishtar at Nineveh was one of the most important religious centers in the empire, with the goddess serving as patron of both love and war.",
+      "wikiSlug": "Ishtar",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Ishtar (the Akkadian form of Sumerian Inanna) was the goddess of love, war, and the planet Venus. Her temple at Nineveh was one of the oldest religious sites in northern Mesopotamia, predating the Assyrian Empire itself."
+        },
+        {
+          "label": "The Cult",
+          "text": "Assyrian kings lavished attention on Ishtar's temple, rebuilding it repeatedly. In her martial aspect, Ishtar was closely associated with Assyrian military campaigns — kings invoked her before battle and credited her with victories."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The dual nature of Ishtar — love and war combined in a single deity — reflects the Mesopotamian worldview where these forces were inseparable aspects of cosmic order, a concept borrowed from the Sumerian religious tradition."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-akitu",
+      "label": "Akitu New Year Festival",
+      "year": -800,
+      "description": "The Assyrian akitu festival celebrated the new year with elaborate rituals, royal processions, and the symbolic renewal of the king's divine mandate to rule.",
+      "wikiSlug": "Akitu",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The akitu festival was inherited from the Sumerian and Babylonian tradition. In Assyria, it centered on the god Ashur rather than Marduk, with the celebration lasting up to twelve days around the spring equinox."
+        },
+        {
+          "label": "The Festival",
+          "text": "Ceremonies included the ritual humbling of the king before the god Ashur, processions through the city, the recitation of creation myths, and the symbolic 'renewal' of the king's right to rule. Failure to celebrate akitu was considered a sign of political crisis."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The akitu festival demonstrates the deep continuity of Mesopotamian religious tradition — Assyria, despite its military character, maintained ritual practices inherited from Sumer over two millennia earlier."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-urartu-wars",
+      "label": "Wars against Urartu",
+      "year": -776,
+      "description": "Assyria fought a prolonged struggle against the kingdom of Urartu in the Armenian highlands, its most powerful rival through most of the 9th and 8th centuries BCE.",
+      "wikiSlug": "Urartu",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Urartu, centered around Lake Van in the Armenian highlands, was the only Near Eastern power that could match Assyria militarily through most of the 8th century. It threatened Assyrian control of key northern trade routes."
+        },
+        {
+          "label": "What Happened",
+          "text": "Multiple Assyrian kings campaigned against Urartu. Sargon II's campaign of 714 BCE, recorded in his famous letter to the god Ashur, devastated the Urartian temple of Haldi at Musasir and broke Urartian power."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Urartu-Assyria rivalry was the great power struggle of the 9th-8th century Near East. Urartu's fortress-building and irrigation engineering in the Armenian highlands were directly influenced by Assyrian models."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-aramaic-lingua-franca",
+      "label": "Aramaic as Lingua Franca",
+      "year": -750,
+      "description": "The Assyrians adopted Aramaic alongside Akkadian for imperial administration, spreading it as the lingua franca of the Near East — Jesus would later speak a descendant dialect.",
+      "wikiSlug": "Aramaic_language",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "Although Assyria crushed the Aramean kingdoms militarily, the Aramaic language — written in a simple alphabet rather than complex cuneiform — proved too practical to suppress. By the 8th century, Aramaic was the spoken language of most of the empire's population."
+        },
+        {
+          "label": "What Changed",
+          "text": "Tiglath-Pileser III's administration formally adopted Aramaic alongside Akkadian. Scribes wrote on parchment and papyrus in Aramaic alphabetic script, while cuneiform clay tablets continued for religious and scholarly purposes."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "This bilingual policy spread Aramaic across the entire Near East. It remained the region's common language for over a millennium — through Persian, Hellenistic, and early Roman times. Modern Aramaic is still spoken by Assyrian Christian communities in Iraq."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-eunuch-officials",
+      "label": "Rise of Court Eunuchs",
+      "year": -750,
+      "description": "Castrated officials became increasingly powerful in Assyrian government, serving as provincial governors, military commanders, and trusted administrators of the king.",
+      "wikiSlug": "Eunuch",
+      "tier": 3,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Assyrian kings employed eunuchs (sha reshi) as personal attendants and administrators because they could not found dynasties or pose succession threats. Over time, eunuchs accumulated enormous power."
+        },
+        {
+          "label": "What Happened",
+          "text": "By the 8th century BCE, eunuchs held some of the highest positions in the empire: provincial governors, military commanders, and chief administrators. The turtanu (commander-in-chief) was sometimes a eunuch."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Assyrian use of eunuch administrators established a pattern adopted by later empires including Persia, Byzantium, China, and the Ottoman Empire — wherever rulers needed loyal officials who could not become rival dynasties."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-tiglath-pileser-iii",
+      "label": "Tiglath-Pileser III",
+      "year": -745,
+      "endYear": -727,
+      "description": "Tiglath-Pileser III revolutionized the empire with a professional standing army, provincial system, and mass deportation policy that broke conquered peoples' resistance.",
+      "wikiSlug": "Tiglath-Pileser_III",
+      "commonsFile": "Tiglath-pileser III - Nimrud - 728 BC - British Museum.jpg",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Tiglath-Pileser III seized the throne in a coup around 745 BCE and immediately launched sweeping reforms. He replaced the old system of vassal kingdoms with directly administered provinces and created the first permanent professional army."
+        },
+        {
+          "label": "His Reign",
+          "text": "He conquered Damascus, reduced Israel to a vassal, campaigned against Urartu, and placed Babylon under his personal rule. His mass deportation policy forcibly relocated entire populations to break resistance and create a loyal, mixed labor force."
+        },
+        {
+          "label": "Legacy",
+          "text": "His military and administrative reforms transformed Assyria from a seasonal raiding power into a true empire. The professional standing army, provincial governor system, and imperial road network he created became the template for all later Near Eastern empires."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-deportation",
+      "label": "Mass Deportation Policy",
+      "year": -740,
+      "description": "The Assyrians systematically relocated conquered populations across the empire, breaking local identities and creating a diverse labor force — up to 4.5 million people were moved.",
+      "wikiSlug": "Assyrian_deportation",
+      "tier": 2,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "While forced population transfers had occurred before, Tiglath-Pileser III systematized them into a core imperial policy. Conquered peoples were uprooted and resettled in distant provinces, often swapping populations between regions."
+        },
+        {
+          "label": "What Happened",
+          "text": "Assyrian records document deportations of entire communities — men, women, children, livestock — across the empire. Estimates suggest 4 to 4.5 million people were moved over two centuries. Deportees provided labor for building projects and agriculture."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Mass deportation was brutally effective at preventing revolt by destroying local solidarity. It also inadvertently created the ancient world's most ethnically diverse society and spread technologies, languages, and ideas across the Near East."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-imperial-road",
+      "label": "Imperial Road System",
+      "year": -740,
+      "description": "The Assyrians built a network of royal roads with relay stations for mounted messengers, enabling rapid communication across the empire — a precursor to the Persian Royal Road.",
+      "wikiSlug": "Royal_road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Governing a vast empire required rapid communication. Assyrian kings built paved roads connecting major cities, with relay stations where messengers exchanged horses and dispatches were forwarded."
+        },
+        {
+          "label": "The System",
+          "text": "Royal couriers carrying sealed clay tablet dispatches could traverse the empire in days rather than weeks. Provincial governors were required to maintain roads and relay stations in their territory, and intelligence reports flowed constantly to the capital."
+        },
+        {
+          "label": "Impact",
+          "text": "The Persian Royal Road that Herodotus described running 2,700 km from Sardis to Susa followed many of the same routes the Assyrians had built. The relay postal system (later called the angareion by the Persians) was directly inherited from Assyrian practice."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-standing-army",
+      "label": "Professional Standing Army",
+      "year": -740,
+      "description": "Tiglath-Pileser III replaced seasonal conscript levies with a permanent professional force of infantry, cavalry, chariots, and siege engineers — the first in world history.",
+      "wikiSlug": "Military_history_of_the_Neo-Assyrian_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Before Tiglath-Pileser III, Assyrian armies were seasonal — farmers called up for campaigning season, then sent home for harvest. This limited campaign duration and made long-distance operations impractical."
+        },
+        {
+          "label": "The Innovation",
+          "text": "The new army was a permanent, year-round force recruited from across the empire (including deportees), organized into specialized units: heavy and light infantry, cavalry, chariot corps, and dedicated siege engineers with battering rams and mobile towers."
+        },
+        {
+          "label": "Impact",
+          "text": "A professional army could campaign year-round, maintain garrisons, and respond quickly to rebellions. This innovation was so effective that every subsequent major power — Persia, the Hellenistic kingdoms, Rome — adopted permanent professional armies."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-provincial-system",
+      "label": "Provincial Governance System",
+      "year": -738,
+      "description": "Tiglath-Pileser III replaced vassal kingdoms with directly administered provinces under appointed governors, creating the ancient world's first bureaucratic empire.",
+      "wikiSlug": "Neo-Assyrian_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Earlier Assyrian kings relied on vassal kings who paid tribute but governed their own territories. This system was unreliable — vassals rebelled constantly. Tiglath-Pileser III replaced it with something new."
+        },
+        {
+          "label": "What Changed",
+          "text": "Conquered territories were reorganized as provinces governed by Assyrian-appointed officials. Governors collected taxes, administered justice, maintained roads, and supplied troops. An intelligence network of informants reported back to the king."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "This provincial system was the direct model for the Persian satrapy system, which in turn influenced Hellenistic and Roman provincial governance. The idea that a central government appoints administrators to run distant territories originates here."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-siege-warfare",
+      "label": "Assyrian Siege Warfare",
+      "year": -730,
+      "description": "Assyrian engineers developed the ancient world's most sophisticated siege techniques, including battering rams, siege towers, tunneling, and earthwork ramps.",
+      "wikiSlug": "Assyrian_siege_warfare",
+      "commonsFile": "Assyrian Attack on a Town.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Ancient cities relied on walls for defense, and most armies simply laid siege and waited. Assyrian kings refused to wait — they invested heavily in engineering solutions to breach walls."
+        },
+        {
+          "label": "The Innovation",
+          "text": "Assyrian siege equipment included covered battering rams on wheeled platforms, multi-story siege towers, sapping tunnels, earth ramps built against walls, and diversion of water supplies. Specialists operated the equipment under covering fire from archers."
+        },
+        {
+          "label": "Impact",
+          "text": "No city in the ancient Near East could withstand an Assyrian siege indefinitely. This capability was a key element of Assyrian terror — cities that resisted knew their walls would not save them, encouraging preemptive surrender."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-fall-israel",
+      "label": "Fall of Israel",
+      "year": -722,
+      "description": "Shalmaneser V and Sargon II conquered the Kingdom of Israel, deporting its population — the origin of the 'Lost Ten Tribes' tradition in biblical history.",
+      "wikiSlug": "Assyrian_captivity",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Kingdom of Israel had been an Assyrian vassal since Tiglath-Pileser III's campaigns. When King Hoshea stopped paying tribute and sought Egyptian support, Shalmaneser V laid siege to the capital Samaria."
+        },
+        {
+          "label": "The Conquest",
+          "text": "After a three-year siege, Samaria fell in 722 BCE. Sargon II (who may have completed the conquest) deported 27,290 Israelites and resettled the region with people from Babylon, Hamath, and elsewhere."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The deportation of Israel's population created the tradition of the 'Lost Ten Tribes' — one of history's most enduring mysteries and a formative event in biblical history. The Kingdom of Judah survived as an Assyrian vassal for another century."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-sargon-ii",
+      "label": "Sargon II",
+      "year": -722,
+      "endYear": -705,
+      "description": "Sargon II defeated Urartu, consolidated western conquests, and built the magnificent capital of Dur-Sharrukin, only for it to be abandoned after his death in battle.",
+      "wikiSlug": "Sargon_II",
+      "commonsFile": "Sargon II and dignitary.jpg",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Sargon II took the throne name of Sargon of Akkad, history's first empire-builder. He may have seized power through usurpation, which would explain his choice of a name meaning 'the legitimate king.'"
+        },
+        {
+          "label": "His Reign",
+          "text": "Sargon crushed a coalition of Levantine states, defeated Urartu in his famous 714 BCE campaign, and conquered the Medes. He built an entirely new capital at Dur-Sharrukin (modern Khorsabad) — completed in just ten years at enormous expense."
+        },
+        {
+          "label": "Legacy",
+          "text": "Sargon died in battle in 705 BCE — unusual for an Assyrian king — and his body was not recovered. His son Sennacherib abandoned Dur-Sharrukin, possibly because his father's death there was considered an evil omen."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-dur-sharrukin",
+      "label": "Dur-Sharrukin Built",
+      "year": -717,
+      "description": "Sargon II built an entirely new capital city, Dur-Sharrukin (modern Khorsabad), with massive palace, temples, and walls — completed in just ten years then abandoned.",
+      "wikiSlug": "Dur-Sharrukin",
+      "commonsFile": "Dur-Sharrukin bird eye.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Sargon II wanted a capital that would outshine Nimrud and Assur — a city built from scratch as a monument to his reign. He chose a site 20 km northeast of Nineveh."
+        },
+        {
+          "label": "The Structure",
+          "text": "Dur-Sharrukin covered nearly 3 square km with a perfectly square plan, thick walls with seven gates, and a massive palace on a raised platform. The palace alone had over 200 rooms with carved reliefs and colossal lamassu."
+        },
+        {
+          "label": "Legacy",
+          "text": "When Sargon died in battle in 705, his son Sennacherib abandoned the city and moved the capital to Nineveh. Dur-Sharrukin was never completed and stood largely empty — one of history's most spectacular abandoned building projects."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-sennacherib",
+      "label": "Sennacherib",
+      "year": -705,
+      "endYear": -681,
+      "description": "Sennacherib moved the capital to Nineveh, built the 'Palace Without Rival,' besieged Jerusalem, and destroyed Babylon in a sacrilege that shocked the ancient world.",
+      "wikiSlug": "Sennacherib",
+      "commonsFile": "Sennacherib, King of Assyria, in his Chariot.jpg",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Sennacherib was one of history's most energetic builders and most feared conquerors. He transformed Nineveh into a city of unparalleled grandeur while waging campaigns across the empire."
+        },
+        {
+          "label": "His Reign",
+          "text": "He besieged Jerusalem in 701 BCE — an event recorded in both Assyrian annals and the Bible with different outcomes. After repeated Babylonian revolts, he destroyed Babylon itself in 689 BCE and diverted rivers to flood the ruins."
+        },
+        {
+          "label": "Legacy",
+          "text": "Sennacherib's destruction of Babylon was considered a sacrilege even by Assyrian standards. His own sons murdered him in 681 BCE — possibly in retribution for the act. His 'Palace Without Rival' at Nineveh remains one of the ancient world's greatest buildings."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-siege-lachish",
+      "label": "Siege of Lachish",
+      "year": -701,
+      "description": "Sennacherib's siege of Lachish in Judah was commemorated in detailed palace reliefs at Nineveh — among the most vivid depictions of ancient warfare ever found.",
+      "wikiSlug": "Siege_of_Lachish",
+      "commonsFile": "Lachish Relief - British Museum.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Lachish was the second most important city in the Kingdom of Judah after Jerusalem. When Judah's King Hezekiah rebelled against Assyria, Sennacherib attacked Lachish while a separate force besieged Jerusalem."
+        },
+        {
+          "label": "The Battle",
+          "text": "Assyrian engineers built a massive siege ramp against the city walls — still visible today. Battering rams, siege towers, and archers overwhelmed the defenders. The city was destroyed and its population deported."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Sennacherib was so proud of the victory that he commissioned a detailed relief series for his palace at Nineveh. These reliefs, now in the British Museum, are the most complete visual record of ancient siege warfare ever discovered."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-jerusalem-siege",
+      "label": "Siege of Jerusalem",
+      "year": -701,
+      "description": "Sennacherib besieged Jerusalem but failed to take it — an event recorded in both Assyrian and biblical sources with strikingly different explanations for the outcome.",
+      "wikiSlug": "Assyrian_siege_of_Jerusalem",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After destroying Lachish, Sennacherib demanded Jerusalem's surrender. King Hezekiah had prepared by building the Siloam Tunnel to secure the city's water supply — a remarkable 533-meter underground channel cut through solid rock."
+        },
+        {
+          "label": "The Siege",
+          "text": "Assyrian records say Hezekiah paid massive tribute and Sennacherib withdrew. The Bible says an angel killed 185,000 Assyrian soldiers overnight. Modern scholars suggest a plague may have struck the army, forcing withdrawal."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Jerusalem's survival became a defining moment in biblical theology — proof of divine protection that shaped Jewish (and later Christian) belief for millennia. It is one of the rare events documented by both sides with radically different narratives."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-nineveh-expanded",
+      "label": "Nineveh Expanded",
+      "year": -700,
+      "description": "Sennacherib transformed Nineveh into the world's largest city, with 12 km of walls, 15 gates, aqueducts, and gardens that some scholars identify as the real 'Hanging Gardens.'",
+      "wikiSlug": "Nineveh",
+      "commonsFile": "Nineveh map city walls & gates.JPG",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Nineveh had been inhabited for millennia but was secondary to Assur and Nimrud as an Assyrian capital. Sennacherib chose it as the site for history's greatest building project."
+        },
+        {
+          "label": "The Structure",
+          "text": "Sennacherib enclosed 750 hectares within 12 km of walls pierced by 15 monumental gates. He built the 'Palace Without Rival' with 71 rooms and over 3,000 carved relief panels. An aqueduct brought water from 50 km away to feed parks and gardens."
+        },
+        {
+          "label": "Legacy",
+          "text": "Archaeologist Stephanie Dalley has argued that Sennacherib's gardens at Nineveh — not Nebuchadnezzar's Babylon — were the real 'Hanging Gardens' of ancient fame. The city's destruction in 612 BCE was one of the ancient world's most dramatic events."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-astronomy",
+      "label": "Assyrian Astronomical Records",
+      "year": -700,
+      "description": "Assyrian scholars maintained systematic astronomical observations, recording eclipses and planetary movements that became the foundation of later Babylonian and Greek astronomy.",
+      "wikiSlug": "Babylonian_astronomy",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Assyrian court astronomers served a dual purpose: predicting omens for the king and maintaining systematic records of celestial events. Their observations built on millennia of Mesopotamian astronomical tradition."
+        },
+        {
+          "label": "What They Recorded",
+          "text": "The Royal Archives contain hundreds of letters from court astronomers reporting lunar eclipses, planetary positions, and unusual celestial events. These reports were used for political decision-making — an eclipse could delay a military campaign."
+        },
+        {
+          "label": "Impact",
+          "text": "The continuous astronomical records maintained by Assyrian and Babylonian scholars from the 8th century BCE onward enabled the discovery of predictive cycles like the saros cycle for eclipses. Greek astronomers later built directly on these Mesopotamian observations."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-nabu-worship",
+      "label": "Cult of Nabu",
+      "year": -700,
+      "description": "Nabu, the god of writing and wisdom, rose to prominence in Neo-Assyrian religion alongside Ashur and Ishtar, with a major temple at Nimrud.",
+      "wikiSlug": "Nabu",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Nabu was the Babylonian god of writing, son of Marduk. As Assyrian kings increasingly valued literacy and record-keeping, Nabu's cult grew in importance within the Assyrian pantheon."
+        },
+        {
+          "label": "The Cult",
+          "text": "The Temple of Nabu (Ezida) at Nimrud was one of the city's most important structures. Ashurbanipal, himself an avid scholar, particularly favored Nabu — the Library of Ashurbanipal may be understood as an offering to the god of writing."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The rise of Nabu reflects Assyria's transition from a purely military power to one that also valued scholarship and administrative expertise. Nabu's name appears in many Neo-Babylonian royal names, including Nebuchadnezzar ('Nabu, protect the crown prince')."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-medicine",
+      "label": "Assyrian Medical Texts",
+      "year": -700,
+      "description": "Medical tablets from Ashurbanipal's library reveal a sophisticated system combining herbal remedies, surgical techniques, and diagnostic procedures with supernatural explanations.",
+      "wikiSlug": "Mesopotamian_medicine",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Assyrian medicine inherited the Babylonian tradition of combining practical treatments with magical incantations. Court physicians (asu) treated the king and nobility using accumulated knowledge recorded on cuneiform tablets."
+        },
+        {
+          "label": "The Texts",
+          "text": "Medical texts from Nineveh describe hundreds of herbal remedies, surgical procedures for wounds and abscesses, and systematic diagnostic methods. The Diagnostic Handbook organized symptoms by body part and included prognoses for recovery."
+        },
+        {
+          "label": "Impact",
+          "text": "While Assyrian medicine mixed empirical observation with superstition, the systematic recording and transmission of medical knowledge through cuneiform tablets preserved treatments that were passed to Persian, Greek, and eventually Islamic medical traditions."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-palace-without-rival",
+      "label": "Palace Without Rival",
+      "year": -700,
+      "description": "Sennacherib's \"Palace Without Rival\" at Nineveh contained 71 rooms with over 3,000 carved relief panels covering nearly 3 km of wall space — the largest Assyrian palace ever built.",
+      "wikiSlug": "Palace_of_Sennacherib",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "When Sennacherib moved the capital from Dur-Sharrukin to Nineveh, he set out to build a palace that would surpass anything previously constructed. He called it \"The Palace Without Rival\" — and the name was not an exaggeration."
+        },
+        {
+          "label": "The Structure",
+          "text": "The palace covered over 500 by 250 meters with at least 71 rooms, their walls lined with carved alabaster reliefs totaling approximately 3,000 panels depicting campaigns, siege warfare, construction projects, and religious ceremonies. Colossal lamassu flanked the entrance."
+        },
+        {
+          "label": "Legacy",
+          "text": "The palace contained Sennacherib's detailed reliefs of the siege of Lachish and his campaigns in Babylon. When Nineveh fell in 612 BCE, the palace was burned but the fire baked the foundation deposits and buried reliefs, preserving them for Layard's rediscovery in the 1840s."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-aqueduct-jerwan",
+      "label": "Aqueduct of Jerwan",
+      "year": -690,
+      "description": "Sennacherib built the massive Jerwan aqueduct to supply water to Nineveh — an engineering marvel with over 2 million dressed stone blocks and a corbelled arch.",
+      "wikiSlug": "Aqueduct_of_Jerwan",
+      "commonsFile": "Bavian Aqueduct Eastern Canal Head, Khenis relief.jpg",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Nineveh's expansion required far more water than local sources could provide. Sennacherib commissioned an ambitious canal and aqueduct system to bring water from mountain springs 50 km away."
+        },
+        {
+          "label": "The Innovation",
+          "text": "The Jerwan aqueduct crossed a 300-meter-wide valley on a bridge built from over 2 million dressed limestone blocks. It used a corbelled arch design and waterproofing with bitumen — engineering techniques not seen again at this scale until Roman aqueducts."
+        },
+        {
+          "label": "Impact",
+          "text": "The aqueduct system transformed Nineveh from a dry city into one with parks, orchards, and possibly the famous 'Hanging Gardens.' It demonstrates that Assyrian engineering excellence extended well beyond military applications."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-ashur-temple",
+      "label": "Temple of Ashur Rebuilt",
+      "year": -690,
+      "description": "The great temple of the god Ashur in the holy city of Assur was repeatedly rebuilt and expanded by successive kings, serving as the empire's religious heart.",
+      "wikiSlug": "Assur",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The god Ashur was unique in the Mesopotamian pantheon — originally a local city god who was elevated to supreme deity as his city grew into an empire. The temple of Ashur at Assur was the holiest site in the Assyrian world."
+        },
+        {
+          "label": "The Structure",
+          "text": "Multiple kings rebuilt and expanded the temple complex. It included a ziggurat, courtyards, and ritual chambers. Assyrian kings were crowned here and returned to present war trophies — the god's share of imperial conquests."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The Ashur cult was inseparable from Assyrian imperial ideology. The king ruled as the god's earthly representative, and conquests were framed as expanding the god Ashur's dominion — giving religious justification to military expansion."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-destruction-babylon",
+      "label": "Destruction of Babylon",
+      "year": -689,
+      "description": "After repeated Babylonian revolts, Sennacherib razed Babylon to the ground and diverted canals to flood the ruins — a sacrilege that shocked the ancient world.",
+      "wikiSlug": "Sennacherib%27s_campaign_in_Judah",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Babylon had rebelled repeatedly against Assyrian control. After Sennacherib's own son (installed as puppet king of Babylon) was murdered by rebels, Sennacherib decided on total destruction as a final solution."
+        },
+        {
+          "label": "What Happened",
+          "text": "Assyrian armies leveled Babylon's walls, temples, and palaces. Sennacherib diverted the Euphrates to flood the ruins and carried off the statue of Marduk — the supreme Babylonian deity. He boasted of turning the city into a swamp."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The destruction of Babylon was considered sacrilege even by Assyrian standards. It may have contributed to Sennacherib's assassination by his own sons in 681 BCE. His successor Esarhaddon immediately began rebuilding Babylon as an act of atonement."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-esarhaddon",
+      "label": "Esarhaddon",
+      "year": -681,
+      "endYear": -669,
+      "description": "Esarhaddon rebuilt Babylon to atone for his father's destruction, then conquered Egypt in 671 BCE — the first time Assyria controlled the Nile.",
+      "wikiSlug": "Esarhaddon",
+      "commonsFile": "Esarhaddon Stele at Pergamon Museum, Berlin.jpg",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Esarhaddon became king after his brothers murdered Sennacherib and he defeated them in a brief civil war. Despite chronic illness (possibly lupus), he proved one of Assyria's most capable rulers."
+        },
+        {
+          "label": "His Reign",
+          "text": "He immediately began rebuilding Babylon, restoring its temples and returning the statue of Marduk — reversing his father's sacrilege. In 671 BCE he marched across the Sinai and conquered Memphis, making Egypt an Assyrian province."
+        },
+        {
+          "label": "Legacy",
+          "text": "Esarhaddon's succession treaty — requiring vassals to support Ashurbanipal's accession — is one of the most detailed political documents from the ancient Near East. He died on campaign in 669 BCE, attempting to reconquer Egypt after a rebellion."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-ahiqar",
+      "label": "Ahiqar the Wise",
+      "year": -680,
+      "description": "Ahiqar, a legendary Assyrian sage and advisor, became the subject of one of the most widely circulated wisdom texts in the ancient Near East.",
+      "wikiSlug": "Story_of_Ahikar",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Ahiqar (or Ahikar) was said to be a high official under Sennacherib and Esarhaddon. His story — betrayed by a nephew he raised, imprisoned, then vindicated — circulated as a wisdom text across the ancient world."
+        },
+        {
+          "label": "His Writings",
+          "text": "The Words of Ahiqar include proverbs, fables, and riddles. A copy was found among the Elephantine papyri in Egypt, and the story influenced the biblical Book of Tobit and possibly the Aesop tradition."
+        },
+        {
+          "label": "Legacy",
+          "text": "Ahiqar's story traveled from Assyria to Egypt, Persia, Arabia, Ethiopia, and eventually medieval Europe — one of the most widely distributed pieces of ancient Near Eastern literature, second only to the Epic of Gilgamesh."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-esarhaddon-treaty",
+      "label": "Esarhaddon's Succession Treaty",
+      "year": -672,
+      "description": "Esarhaddon forced vassal kings to swear loyalty oaths to his chosen successor Ashurbanipal — one of the most detailed political documents from the ancient Near East.",
+      "wikiSlug": "Succession_Treaty_of_Esarhaddon",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "Esarhaddon was haunted by the chaos that followed his father Sennacherib's assassination. To prevent another bloody succession, he forced every vassal and high official in the empire to swear elaborate loyalty oaths to his chosen heir, Ashurbanipal."
+        },
+        {
+          "label": "The Treaty",
+          "text": "The text lists dozens of curses that would befall oath-breakers, invoking every god in the Mesopotamian pantheon. Copies were distributed throughout the empire and placed in temples. The treaty also reveals the division of power — Ashurbanipal would rule Assyria while his brother Shamash-shum-ukin would rule Babylon."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The succession treaty is one of the ancient world's most detailed political documents. Scholars have noted striking parallels between its curse formulas and passages in the biblical Book of Deuteronomy, suggesting direct literary influence from Assyrian treaty language on biblical writers."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-conquest-egypt",
+      "label": "Assyrian Conquest of Egypt",
+      "year": -671,
+      "description": "Esarhaddon marched across the Sinai and conquered Memphis, bringing Egypt under Assyrian control and marking the empire's greatest territorial extent.",
+      "wikiSlug": "Assyrian_conquest_of_Egypt",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Egypt under the 25th (Nubian) Dynasty had been supporting anti-Assyrian rebellions in the Levant. Esarhaddon decided to eliminate the problem at its source."
+        },
+        {
+          "label": "The Conquest",
+          "text": "In 671 BCE, Esarhaddon's army crossed the Sinai desert in 15 days and stormed Memphis, Egypt's capital. Pharaoh Taharqa fled south to Nubia. Esarhaddon installed local vassals and took the title 'King of Egypt.'"
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The conquest of Egypt gave Assyria control from the Nile to the Zagros — the largest empire the world had yet seen. It was also a statement: no power on earth was beyond Assyrian reach. Ashurbanipal had to reconquer Egypt when it rebelled again."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-ashurbanipal",
+      "label": "Ashurbanipal",
+      "year": -669,
+      "endYear": -631,
+      "description": "The last great Assyrian king combined unusual scholarly interests with notorious cruelty, crushing Elam, maintaining the empire at its peak, and assembling history's first great library.",
+      "wikiSlug": "Ashurbanipal",
+      "commonsFile": "Ashurbanipal lion hunting.jpg",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Who He Was",
+          "text": "Ashurbanipal was unique among Assyrian kings — literate in both Akkadian and Sumerian, he could read cuneiform tablets himself and personally directed the assembly of his great library. He was also notoriously brutal, boasting of flaying enemies and gouging out eyes."
+        },
+        {
+          "label": "His Reign",
+          "text": "He conquered Thebes in Egypt (663 BCE), defeated his brother's rebellion in Babylon (652–648 BCE), and utterly destroyed the ancient kingdom of Elam, sacking its capital Susa. Palace reliefs show him feasting while the severed head of the Elamite king hangs from a tree."
+        },
+        {
+          "label": "Legacy",
+          "text": "After Ashurbanipal's death around 631 BCE, the empire unraveled with shocking speed. But his library of 30,000+ tablets, buried when Nineveh fell, preserved Mesopotamian civilization's intellectual heritage for modern scholars to rediscover."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-sack-thebes",
+      "label": "Sack of Thebes",
+      "year": -663,
+      "description": "Ashurbanipal's army sacked Thebes, Egypt's ancient religious capital, carrying off enormous plunder and demonstrating that no city in the known world was safe from Assyria.",
+      "wikiSlug": "Sack_of_Thebes",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After Esarhaddon's death, Pharaoh Taharqa and later Tantamani of Nubia attempted to reclaim Egypt from Assyrian control. Ashurbanipal launched a massive campaign deep into Upper Egypt."
+        },
+        {
+          "label": "What Happened",
+          "text": "Ashurbanipal's army marched over 1,000 km up the Nile and sacked Thebes (Waset/No-Amon), carrying off vast quantities of gold, silver, and two obelisks. The plunder was so famous that the biblical Book of Nahum later used Thebes' fate as a warning to Nineveh."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The sack of Thebes demonstrated the extraordinary reach of Assyrian military power — from the upper Nile to the Iranian plateau. It was the farthest south any Mesopotamian army had ever campaigned."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-civil-war",
+      "label": "Assyrian Civil War",
+      "year": -652,
+      "endYear": -648,
+      "description": "Ashurbanipal's brother Shamash-shum-ukin, installed as king of Babylon, revolted with a broad coalition — the resulting civil war exhausted Assyria's resources.",
+      "wikiSlug": "Shamash-shum-ukin",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Esarhaddon's succession plan gave Ashurbanipal Assyria and his brother Shamash-shum-ukin Babylon. The arrangement was inherently unstable — Babylon's king was subordinate to Assyria's, a status Shamash-shum-ukin increasingly resented."
+        },
+        {
+          "label": "What Happened",
+          "text": "In 652 BCE, Shamash-shum-ukin organized a massive coalition including Elam, Arab tribes, and Babylonian cities. Ashurbanipal besieged Babylon for two years until famine forced surrender. Shamash-shum-ukin died in his burning palace."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The civil war demonstrated the fundamental Babylonian problem that plagued every Assyrian king — Babylon was too proud to accept permanent subjugation but too important to abandon. The war's exhaustion contributed to Assyria's rapid collapse a generation later."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-library",
+      "label": "Library of Ashurbanipal",
+      "year": -650,
+      "description": "Ashurbanipal assembled over 30,000 cuneiform tablets at Nineveh — the ancient world's greatest library, preserving the Epic of Gilgamesh, medical texts, and astronomical records.",
+      "wikiSlug": "Library_of_Ashurbanipal",
+      "commonsFile": "Library of Ashurbanipal The Flood Tablet.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "Ashurbanipal systematically collected cuneiform tablets from across the empire, sending scribes to copy temple and palace archives in Babylon, Borsippa, Nippur, and elsewhere. He personally directed the project and could read the tablets himself."
+        },
+        {
+          "label": "The Collection",
+          "text": "The library contained over 30,000 clay tablets organized by subject: literature (including the complete Epic of Gilgamesh), medicine, astronomy, omens, rituals, mathematics, and royal correspondence. Tablets were catalogued and stored in designated rooms."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "When Nineveh was destroyed in 612 BCE, the fire that consumed the palace ironically preserved the clay tablets by baking them hard. Their discovery in 1853 by Hormuzd Rassam revolutionized our understanding of ancient Mesopotamian civilization."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-destruction-elam",
+      "label": "Destruction of Elam",
+      "year": -646,
+      "description": "Ashurbanipal's armies sacked Susa and devastated the ancient kingdom of Elam, ending a civilization that had existed for over two millennia.",
+      "wikiSlug": "Sack_of_Susa",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Elam, centered in southwestern Iran, had supported Shamash-shum-ukin's rebellion and had been a rival of Mesopotamian powers for over 2,000 years. After winning the civil war, Ashurbanipal turned his full fury on Elam."
+        },
+        {
+          "label": "What Happened",
+          "text": "Ashurbanipal's armies sacked Susa, Elam's capital, and systematically devastated the country. He boasted of desecrating royal tombs, scattering the bones of Elamite kings, and carrying off the statue of the goddess Nanaya that had been stolen 1,635 years earlier."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The destruction of Elam removed one of the ancient Near East's oldest civilizations from history. Ironically, the power vacuum in Iran that Assyria created would eventually be filled by the Persians — who would destroy Assyria's successors."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-garden-party-relief",
+      "label": "Garden Party Relief",
+      "year": -645,
+      "description": "A palace relief shows Ashurbanipal and his queen feasting in a garden while the severed head of the Elamite king hangs from a nearby tree — one of the most striking images from the ancient world.",
+      "wikiSlug": "Banquet_scene_of_Ashurbanipal",
+      "commonsFile": "Banquet scene Ashurbanipal Louvre AO19913.jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Context",
+          "text": "After Ashurbanipal's victory over Elam and the death of the Elamite king Teumman at the Battle of Til-Tuba in 653 BCE, this relief was carved to celebrate the triumph in the North Palace at Nineveh."
+        },
+        {
+          "label": "The Scene",
+          "text": "Ashurbanipal reclines on a couch while his queen Libbali-sharrat sits in a chair, attended by servants with fans and musicians. Vines hang overhead, birds flit between trees — and in the third tree from the left, the severed head of King Teumman hangs by a ring through his lip."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The relief captures the essential paradox of Assyrian civilization: exquisite artistic refinement combined with casual brutality. It is one of the rare depictions of an Assyrian queen and the earliest known image of a royal garden party — domestic tranquility framed by a trophy of war."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-lion-hunt-reliefs",
+      "label": "Lion Hunt Reliefs",
+      "year": -640,
+      "description": "Ashurbanipal's lion hunt reliefs from Nineveh are considered among the greatest masterpieces of ancient art, depicting royal hunts with extraordinary anatomical realism.",
+      "wikiSlug": "Assyrian_lion_hunts",
+      "commonsFile": "Dying lion (Assyria).jpg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Royal lion hunting was a deeply symbolic ritual in Assyria — the king's ability to confront and kill lions demonstrated his fitness to protect his people. Lions were specifically kept and released for these hunts."
+        },
+        {
+          "label": "The Art",
+          "text": "The reliefs show Ashurbanipal hunting lions from a chariot and on foot. The dying lion panels achieve a level of anatomical realism and emotional power that was unprecedented in ancient art — a wounded lioness dragging her paralyzed hind legs is perhaps the most famous."
+        },
+        {
+          "label": "Legacy",
+          "text": "Now in the British Museum, these reliefs are widely considered the pinnacle of Mesopotamian art. Art historians note that this level of naturalistic animal portraiture would not be achieved again in Western art for over a thousand years."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-scythian-incursions",
+      "label": "Scythian Incursions",
+      "year": -630,
+      "description": "Nomadic Scythian raiders swept through the Near East in the empire's final decades, adding a destabilizing new threat that Assyria could not contain.",
+      "wikiSlug": "Scythians",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Scythians were horse-mounted nomadic warriors from the Eurasian steppe who had been pushing into the Near East since the late 7th century BCE. Their mobility and archery skills made them difficult to counter with conventional Assyrian tactics."
+        },
+        {
+          "label": "What Happened",
+          "text": "Scythian raiders swept through the Assyrian Empire's northern and eastern periphery, raiding into Syria and reportedly reaching the borders of Egypt. Herodotus claimed they dominated parts of the Near East for 28 years, though this may be exaggerated."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Scythian incursions added another destabilizing factor to an empire already weakened by succession crises and rebellions. Some scholars believe Scythians also participated in the coalition that destroyed Nineveh in 612 BCE, though their role remains debated."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-fall-assur",
+      "label": "Fall of Assur",
+      "year": -614,
+      "description": "The Medes sacked the holy city of Assur — Assyria's religious heart for over two millennia — sealing an alliance with Babylon that would destroy the empire.",
+      "wikiSlug": "Battle_of_Assur",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After Ashurbanipal's death around 631 BCE, succession disputes fractured the empire. The Medes under Cyaxares, emboldened by Assyria's internal chaos, marched into the Assyrian heartland."
+        },
+        {
+          "label": "The Battle",
+          "text": "In 614 BCE, Cyaxares's Median army stormed Assur, the spiritual capital where every Assyrian king had been crowned and buried for two millennia. Nabopolassar of Babylon arrived after the city had already fallen and sealed an alliance with the Medes, cemented by a royal marriage."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The fall of Assur was psychologically devastating — more than any territorial loss, losing the god Ashur's own city shattered the theological foundation of the empire. The Babylonian-Median alliance formed over Assur's ruins would destroy Nineveh two years later."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-fall-nineveh",
+      "label": "Fall of Nineveh",
+      "year": -612,
+      "description": "A coalition of Babylonians and Medes besieged and destroyed Nineveh, the greatest city in the world. The destruction was so complete the city was lost for 2,500 years.",
+      "wikiSlug": "Battle_of_Nineveh_(612_BC)",
+      "commonsFile": "Fall of Nineveh.jpg",
+      "tier": 1,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After Ashurbanipal's death, the empire fractured in succession struggles. Nabopolassar of Babylon and Cyaxares of Media formed an alliance against their common enemy. In 614 BCE they destroyed the holy city of Assur — a devastating blow."
+        },
+        {
+          "label": "The Battle",
+          "text": "In 612 BCE the coalition besieged Nineveh. After three months, seasonal flooding of the Tigris breached the city walls (as prophesied in the biblical Book of Nahum). The last Assyrian king, Sin-shar-ishkun, died in the flames of his burning palace."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "The fall of the ancient world's mightiest empire in just a few years sent shockwaves across the Near East. Nineveh was so thoroughly destroyed that it was never rebuilt. By the time Xenophon passed the ruins in 401 BCE, no one remembered what city they had been."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-fall-harran",
+      "label": "Fall of Harran",
+      "year": -609,
+      "description": "The last Assyrian stronghold at Harran fell to the Babylonians, ending the Assyrian Empire. An Egyptian army arrived too late to save its ally.",
+      "wikiSlug": "Battle_of_Harran_(609_BC)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After Nineveh's fall, Ashur-uballit II (the last Assyrian king) retreated west to Harran with the remnants of the Assyrian army. Egypt's Pharaoh Necho II marched north to support Assyria — astonishingly, Egypt was now allied with its former conqueror."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Babylonian army drove Ashur-uballit II from Harran in 609 BCE. Necho's Egyptian army arrived too late. King Josiah of Judah was killed at Megiddo trying to block Necho's march — a death that deeply affected Jewish history."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "Harran's fall ended over two millennia of Assyrian history. The Babylonians and Medes divided the Assyrian Empire between them, but the imperial administrative system — provinces, roads, deportations — survived under new management and was inherited by Persia."
+        }
+      ]
+    },
+    {
+      "id": "evt-assyr-nabu-sharrussu-ukin",
+      "label": "Nebo-Sarsekim Tablet",
+      "year": -595,
+      "description": "A cuneiform tablet from Babylon names the official Nabu-sharrussu-ukin, independently confirming a figure mentioned in the biblical Book of Jeremiah — a rare case of an ordinary person attested in both sources.",
+      "wikiSlug": "Nebo-Sarsekim_Tablet",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Context",
+          "text": "In 2007, Assyriologist Michael Jursa was cataloguing tablets in the British Museum's collection when he identified a small tablet from 595 BCE recording a gold donation by an official named Nabu-sharrussu-ukin, chief eunuch of Nebuchadnezzar II."
+        },
+        {
+          "label": "The Connection",
+          "text": "Jeremiah 39:3 names \"Nebo-Sarsekim\" (the Hebrew rendering of Nabu-sharrussu-ukin) as a Babylonian official present at the siege of Jerusalem in 587 BCE. The tablet confirms this otherwise minor biblical figure was a real person holding exactly the title Jeremiah attributed to him."
+        },
+        {
+          "label": "Why It Matters",
+          "text": "While the tablet dates to the Neo-Babylonian period after Assyria's fall, it confirms the cuneiform tradition's intersection with biblical history. Unlike famous kings, Nabu-sharrussu-ukin was an ordinary bureaucrat — his confirmation shows the historical reliability of even minor biblical details rooted in the Mesopotamian world."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Assur (god)",
+      "aliases": [
+        "Ashur",
+        "the god Ashur"
+      ],
+      "definition": "The supreme deity of Assyria, originally the patron god of the city of Assur. As Assyria grew from city-state to empire, Ashur was elevated to king of the gods. Assyrian conquests were framed as expanding Ashur's dominion — making war itself a religious duty.",
+      "wikiSlug": "Ashur_(god)",
+      "type": "term"
+    },
+    {
+      "term": "Assur (city)",
+      "aliases": [
+        "Qal'at Sherqat"
+      ],
+      "definition": "The original capital and religious center of Assyria, on a limestone bluff overlooking the Tigris River. Even after capitals moved to Nimrud and Nineveh, Assyrian kings were crowned and buried at Assur. Its ruins are at modern Qal'at Sherqat, Iraq.",
+      "wikiSlug": "Assur",
+      "type": "geography"
+    },
+    {
+      "term": "Nineveh",
+      "aliases": [],
+      "definition": "The final and greatest Assyrian capital, on the east bank of the Tigris opposite modern Mosul, Iraq. Sennacherib expanded it to 750 hectares within 12 km of walls. It was destroyed so thoroughly in 612 BCE that its location was unknown for 2,500 years.",
+      "wikiSlug": "Nineveh",
+      "type": "geography"
+    },
+    {
+      "term": "Nimrud",
+      "aliases": [
+        "Kalhu",
+        "Calah"
+      ],
+      "definition": "Assyrian capital from c. 879–706 BCE, built by Ashurnasirpal II on the Tigris south of Nineveh. Its Northwest Palace contained thousands of carved stone reliefs and colossal lamassu. Austen Henry Layard's 1845 excavation was a landmark of archaeology.",
+      "wikiSlug": "Nimrud",
+      "type": "geography"
+    },
+    {
+      "term": "Dur-Sharrukin",
+      "aliases": [
+        "Khorsabad"
+      ],
+      "definition": "A purpose-built capital city constructed by Sargon II starting in 717 BCE. Completed in just ten years at enormous expense, it was abandoned almost immediately after Sargon's death in battle. Its ruins at Khorsabad, Iraq, were the first Assyrian site excavated by Europeans.",
+      "wikiSlug": "Dur-Sharrukin",
+      "type": "geography"
+    },
+    {
+      "term": "karum",
+      "aliases": [
+        "karums",
+        "karum system"
+      ],
+      "definition": "An Assyrian trading colony in a foreign city, especially in Bronze Age Anatolia. The karum at Kanesh was the largest, housing Assyrian merchant families who traded tin and textiles for silver and gold under formal commercial agreements.",
+      "wikiSlug": "Kārum",
+      "type": "term"
+    },
+    {
+      "term": "Kanesh",
+      "aliases": [
+        "Kültepe"
+      ],
+      "definition": "An ancient city in central Anatolia (modern Kültepe, Turkey) that housed the largest Assyrian trading colony. Over 23,000 cuneiform tablets found there document Old Assyrian commercial practices in extraordinary detail.",
+      "wikiSlug": "Kültepe",
+      "type": "geography"
+    },
+    {
+      "term": "lamassu",
+      "aliases": [
+        "lamassus",
+        "shedu"
+      ],
+      "definition": "Colossal winged bull or lion sculptures with human heads that flanked Assyrian palace and city gates as protective deities. Carved from single blocks weighing up to 30 tons, they feature a famous five-legged optical illusion — standing when viewed from the front, walking from the side.",
+      "wikiSlug": "Lamassu",
+      "type": "term"
+    },
+    {
+      "term": "Tigris",
+      "aliases": [
+        "Tigris River"
+      ],
+      "definition": "One of the two great rivers of Mesopotamia. Assur, Nimrud, and Nineveh were all built along the Tigris in northern Mesopotamia. The river's seasonal flooding both nourished agriculture and, at Nineveh in 612 BCE, helped destroy the city's walls.",
+      "wikiSlug": "Tigris",
+      "type": "geography"
+    },
+    {
+      "term": "Urartu",
+      "aliases": [
+        "Urartian",
+        "Urartians"
+      ],
+      "definition": "A kingdom centered around Lake Van in the Armenian highlands (c. 860–590 BCE) that was Assyria's most powerful rival through most of the 8th century. Urartians built impressive fortresses, irrigation systems, and metalwork influenced by Assyrian models.",
+      "wikiSlug": "Urartu",
+      "type": "culture"
+    },
+    {
+      "term": "Mitanni",
+      "aliases": [
+        "Hanigalbat"
+      ],
+      "definition": "A Hurrian-speaking kingdom that dominated northern Mesopotamia and Syria from c. 1500–1300 BCE. Mitanni controlled Assyria for over a century using chariot warfare. Its collapse enabled Assyria's rise to great power status.",
+      "wikiSlug": "Mitanni",
+      "type": "culture"
+    },
+    {
+      "term": "Elam",
+      "aliases": [
+        "Elamite",
+        "Elamites"
+      ],
+      "definition": "An ancient civilization in southwestern Iran (modern Khuzestan) with its capital at Susa. Elam was Mesopotamia's most persistent eastern rival for over 2,000 years until Ashurbanipal's armies destroyed it in 646 BCE.",
+      "wikiSlug": "Elam",
+      "type": "culture"
+    },
+    {
+      "term": "Medes",
+      "aliases": [
+        "Median",
+        "Media"
+      ],
+      "definition": "An Iranian people who established a kingdom in northwestern Iran. Under Cyaxares, the Medes allied with Babylon to destroy the Assyrian Empire. The Median kingdom was later absorbed into the Persian Empire of Cyrus the Great.",
+      "wikiSlug": "Medes",
+      "type": "culture"
+    },
+    {
+      "term": "Arameans",
+      "aliases": [
+        "Aramean"
+      ],
+      "definition": "Semitic-speaking pastoral nomads who migrated into Mesopotamia and Syria after the Bronze Age collapse (~1200 BCE). They established kingdoms across the region, and their language Aramaic eventually replaced Akkadian as the everyday speech of the entire Near East.",
+      "wikiSlug": "Aramaeans",
+      "type": "culture"
+    },
+    {
+      "term": "Aramaic",
+      "aliases": [],
+      "definition": "A Semitic language written in a simple alphabetic script that replaced Akkadian cuneiform as the everyday language of the Near East. Adopted by the Assyrian Empire for administration, it remained the region's common tongue for over a millennium and was the language Jesus spoke.",
+      "wikiSlug": "Aramaic_language",
+      "type": "term"
+    },
+    {
+      "term": "cuneiform",
+      "aliases": [],
+      "definition": "The world's first writing system, using wedge-shaped marks pressed into wet clay. Invented by Sumerians around 3400 BCE, cuneiform was used to write Sumerian, Akkadian, and other languages for 3,000 years. Ashurbanipal's library preserved the largest cuneiform collection ever assembled.",
+      "wikiSlug": "Cuneiform",
+      "type": "technique"
+    },
+    {
+      "term": "Akkadian",
+      "aliases": [],
+      "definition": "An East Semitic language spoken across Mesopotamia for over two millennia. Akkadian (in its Assyrian and Babylonian dialects) was the diplomatic language of the ancient Near East and the language of most Assyrian royal inscriptions and scholarly texts.",
+      "wikiSlug": "Akkadian_language",
+      "type": "term"
+    },
+    {
+      "term": "Babylon",
+      "aliases": [
+        "Babylonian",
+        "Babylonians"
+      ],
+      "definition": "The most famous city of ancient Mesopotamia, on the Euphrates near modern Hillah, Iraq. Babylon's periodic rebellions against Assyrian rule were a constant problem — Sennacherib destroyed it in 689 BCE, Esarhaddon rebuilt it, and ultimately Babylon helped destroy Assyria.",
+      "wikiSlug": "Babylon",
+      "type": "geography"
+    },
+    {
+      "term": "Susa",
+      "aliases": [],
+      "definition": "The capital of Elam (and later the Achaemenid Persian Empire), in southwestern Iran. Ashurbanipal sacked Susa in 646 BCE, ending Elamite civilization. The city later became one of the Persian Empire's most important administrative centers.",
+      "wikiSlug": "Susa",
+      "type": "geography"
+    },
+    {
+      "term": "Samaria",
+      "aliases": [],
+      "definition": "The capital of the Kingdom of Israel, besieged and conquered by the Assyrians in 722 BCE. Its fall and the subsequent deportation of Israel's population created the biblical tradition of the 'Lost Ten Tribes.'",
+      "wikiSlug": "Samaria",
+      "type": "geography"
+    },
+    {
+      "term": "Lachish",
+      "aliases": [],
+      "definition": "The second most important city in the Kingdom of Judah, besieged and destroyed by Sennacherib in 701 BCE. The siege is depicted in famous palace reliefs now in the British Museum and confirmed by archaeological excavation of the Assyrian siege ramp.",
+      "wikiSlug": "Lachish",
+      "type": "geography"
+    },
+    {
+      "term": "Harran",
+      "aliases": [],
+      "definition": "An ancient city in Upper Mesopotamia (modern Turkey) that served as the last Assyrian capital after Nineveh's fall. Its loss in 609 BCE ended the Assyrian Empire. Harran was also famous as a center of the moon god Sin's cult.",
+      "wikiSlug": "Harran",
+      "type": "geography"
+    },
+    {
+      "term": "Nabopolassar",
+      "aliases": [],
+      "definition": "Founder of the Neo-Babylonian (Chaldean) dynasty who led Babylon's revolt against Assyria. He allied with the Medes to destroy Nineveh in 612 BCE and ended Assyrian power. His son Nebuchadnezzar II would build the famous Babylon of the Bible.",
+      "wikiSlug": "Nabopolassar",
+      "type": "culture"
+    },
+    {
+      "term": "Cyaxares",
+      "aliases": [],
+      "definition": "King of the Medes (r. c. 625–585 BCE) who allied with Nabopolassar of Babylon to destroy the Assyrian Empire. His army sacked Assur in 614 BCE and co-destroyed Nineveh in 612 BCE, establishing Media as a major power in the ancient Near East.",
+      "wikiSlug": "Cyaxares",
+      "type": "culture"
+    },
+    {
+      "term": "Ishtar",
+      "aliases": [
+        "Inanna"
+      ],
+      "definition": "The Akkadian goddess of love, war, and the planet Venus — the most important female deity in Mesopotamia. Known as Inanna in Sumerian, her temple at Nineveh was one of the most important religious sites in the Assyrian Empire.",
+      "wikiSlug": "Ishtar",
+      "type": "term"
+    },
+    {
+      "term": "Nabu",
+      "aliases": [],
+      "definition": "The Babylonian god of writing and wisdom, son of Marduk. Nabu's cult grew in importance in Neo-Assyrian times alongside the increasing value placed on literacy and scholarship. His name appears in many royal names, including Nebuchadnezzar.",
+      "wikiSlug": "Nabu",
+      "type": "term"
+    },
+    {
+      "term": "akitu",
+      "aliases": [
+        "Akitu festival"
+      ],
+      "definition": "The Mesopotamian New Year festival, celebrated around the spring equinox with processions, rituals, and the symbolic renewal of the king's mandate to rule. In Assyria it honored the god Ashur; in Babylon, Marduk.",
+      "wikiSlug": "Akitu",
+      "type": "term"
+    },
+    {
+      "term": "satrapy",
+      "aliases": [
+        "satrapies",
+        "satrap"
+      ],
+      "definition": "A provincial administrative unit in ancient Near Eastern empires. Assyrian governors administered provinces with authority over taxation, justice, and military forces — a system the Persian Empire later adopted and refined as its satrapy system.",
+      "wikiSlug": "Satrap",
+      "type": "term"
+    },
+    {
+      "term": "Zagros Mountains",
+      "aliases": [
+        "Zagros"
+      ],
+      "definition": "A mountain range stretching from southeastern Turkey through Iran. The Zagros formed the eastern boundary of Mesopotamian civilization and was home to peoples including the Kassites, Gutians, and later the Medes and Persians.",
+      "wikiSlug": "Zagros_Mountains",
+      "type": "geography"
+    },
+    {
+      "term": "Siloam Tunnel",
+      "aliases": [
+        "Hezekiah's Tunnel"
+      ],
+      "definition": "A 533-meter underground water channel cut through solid rock beneath Jerusalem by King Hezekiah before Sennacherib's siege in 701 BCE. It redirected the Gihon Spring's water inside the city walls. An inscription describing the tunneling was found in 1880.",
+      "wikiSlug": "Siloam_tunnel",
+      "type": "technique"
+    },
+    {
+      "term": "Epic of Gilgamesh",
+      "aliases": [
+        "Gilgamesh"
+      ],
+      "definition": "The world's oldest great work of literature, telling the story of a Sumerian king's quest for immortality. The most complete version was found in Ashurbanipal's library at Nineveh. Its flood narrative predates the biblical flood story by over a millennium.",
+      "wikiSlug": "Epic_of_Gilgamesh",
+      "type": "term"
+    },
+    {
+      "term": "Levant",
+      "aliases": [],
+      "definition": "The eastern Mediterranean coastal region including modern Syria, Lebanon, Israel/Palestine, and Jordan. The Levant was a constant target of Assyrian expansion, prized for its ports, cedar forests, and position on trade routes between Mesopotamia and Egypt.",
+      "wikiSlug": "Levant",
+      "type": "geography"
+    },
+    {
+      "term": "Xenophon",
+      "aliases": [],
+      "definition": "Greek mercenary commander and writer (c. 430–354 BCE) who led 10,000 Greek soldiers home through the former Assyrian Empire in 401 BCE. His account, the Anabasis, describes passing the ruins of Nineveh without anyone knowing what civilization had built them.",
+      "wikiSlug": "Xenophon",
+      "type": "culture"
+    },
+    {
+      "term": "Austen Henry Layard",
+      "aliases": [
+        "Layard"
+      ],
+      "definition": "British archaeologist (1817–1894) who excavated Nimrud and Nineveh in the 1840s–50s, discovering Assyrian palace reliefs, lamassu sculptures, and Ashurbanipal's library. His finds filled the British Museum and sparked global fascination with ancient Assyria.",
+      "wikiSlug": "Austen_Henry_Layard",
+      "type": "culture"
+    },
+    {
+      "term": "Hormuzd Rassam",
+      "aliases": [
+        "Rassam"
+      ],
+      "definition": "An Assyrian-born British archaeologist (1826–1910) who discovered the Library of Ashurbanipal at Nineveh in 1853, including the Flood Tablet of the Epic of Gilgamesh. He was one of the first Middle Eastern-born archaeologists to work in the field.",
+      "wikiSlug": "Hormuzd_Rassam",
+      "type": "culture"
+    },
+    {
+      "term": "Sinai",
+      "aliases": [
+        "Sinai desert"
+      ],
+      "definition": "The arid peninsula between Egypt and the Levant that Esarhaddon's army crossed in 15 days to conquer Egypt in 671 BCE. Crossing the Sinai with a large army was a significant logistical achievement in the ancient world.",
+      "wikiSlug": "Sinai_Peninsula",
+      "type": "geography"
+    },
+    {
+      "term": "Memphis",
+      "aliases": [],
+      "definition": "The ancient capital of Egypt, near modern Cairo. Esarhaddon conquered Memphis in 671 BCE, making Egypt an Assyrian province. Its capture marked the Assyrian Empire's greatest territorial extent.",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "geography"
+    },
+    {
+      "term": "Thebes (Egypt)",
+      "aliases": [
+        "Waset",
+        "No-Amon"
+      ],
+      "definition": "The ancient religious capital of Upper Egypt (modern Luxor), home to the great temples of Karnak and Luxor. Ashurbanipal's army sacked Thebes in 663 BCE — the farthest south any Mesopotamian army had ever campaigned.",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "geography"
+    },
+    {
+      "term": "turtanu",
+      "aliases": [
+        "tartanu"
+      ],
+      "definition": "The Assyrian title for commander-in-chief or supreme military officer, second only to the king. The turtanu led armies on campaign when the king did not command personally and served as the most powerful official in the empire.",
+      "wikiSlug": "Tartan_(title)",
+      "type": "term"
+    },
+    {
+      "term": "sha reshi",
+      "aliases": [
+        "court eunuch",
+        "eunuchs"
+      ],
+      "definition": "Castrated officials in the Assyrian court who served as administrators, military commanders, and governors. Because they could not found dynasties, they were trusted with enormous power. The practice influenced later empires from Persia to China.",
+      "wikiSlug": "Eunuch",
+      "type": "term"
+    }
+  ],
+  "story": {
+    "title": "Assyrian Empire: Iron & Empire",
+    "intro": "Between roughly 2500 and 609 BCE, the Assyrians transformed from a small city-state on the Tigris River into the ancient world's most feared military empire. Inheriting the cuneiform writing, legal traditions, and administrative models of Mesopotamia's earlier civilizations — Sumer, Akkad, Babylon — they forged these tools into something new: a centralized war machine that conquered from Egypt to Iran and pioneered innovations in professional armies, siege warfare, and provincial governance that every subsequent empire would copy.\n\nThis guided tour explores three dimensions of the Assyrian story. The Military Machine traces how Assyria built and deployed the ancient world's most devastating army. Gods, Scholars & Scribes reveals a civilization that wasn't merely brutal — it preserved Mesopotamian learning and maintained religious traditions stretching back two millennia. Empire Builders examines how the Assyrians actually governed their vast conquests, from trade colonies to deportation policies to the road networks that held the empire together.\n\nThe Assyrians inherited everything from Mesopotamia — writing, religion, law, urban life — and scaled it into imperial power. When their empire collapsed, the Persians inherited their infrastructure, their roads, and even their administrative vocabulary. Understanding Assyria means understanding the bridge between the first civilizations and the empires that shaped the classical world.",
+    "paths": [
+      {
+        "id": "path-military",
+        "label": "The Military Machine",
+        "color": "#dc2626",
+        "icon": "⚔️",
+        "description": "How Assyria built and deployed the ancient world's most devastating army.",
+        "recap": "The Assyrian military machine was the most sophisticated killing apparatus the ancient world had ever seen. From Ashurnasirpal II's campaigns of calculated terror through Tiglath-Pileser III's revolutionary professional army to the siege engines that no city could withstand, Assyria perfected the art of war across three centuries.\n\nWhat made Assyria different from earlier conquerors wasn't just military technology — it was system. A permanent standing army meant year-round campaigning. Specialized siege engineers meant no walls were safe. Provincial garrisons meant conquered territory stayed conquered. Mass deportation meant resistance was futile. This interlocking system of violence and control was so effective that it became the template for every major military empire that followed.\n\nBut the machine had a fatal flaw: it created enemies faster than it could crush them. When Ashurbanipal's death removed the last strong hand, a coalition of everyone Assyria had brutalized — Babylonians, Medes, Scythians — tore the empire apart in barely a decade. The very terror that had held the empire together ensured there would be no mercy at its end.",
+        "nodes": [
+          {
+            "id": "node-mil-ashurnasirpal",
+            "eventId": "evt-assyr-ashurnasirpal-ii",
+            "narrative": "The Assyrian military tradition inherited techniques from across Mesopotamia — Akkadian imperial warfare, Babylonian siege craft, even Mitanni chariot tactics — but it was Ashurnasirpal II who fused them into something the ancient world had never seen: systematic terror as official policy.\n\nAshurnasirpal II came to power in 883 BCE and immediately launched campaigns across northern Mesopotamia and into Syria. What set him apart from earlier conquerors was not his military skill (though it was considerable) but his deliberate use of atrocity as strategy. His royal annals describe flaying rebels alive, building pillars of skulls, and impaling captives outside conquered cities — all recorded in gruesome detail and distributed as propaganda. The message was clear: resistance was not merely futile but would bring consequences so horrific that surrender was the only rational choice.\n\nThe strategy worked. Many cities submitted without a fight when Ashurnasirpal's army approached. He campaigned from the Zagros Mountains to the Mediterranean, forcing Phoenician coastal cities to pay tribute. When he finished rebuilding the city of Nimrud as his new capital, he celebrated with a feast lasting ten days for nearly 70,000 guests — a demonstration of wealth and power that announced Assyria's arrival as the dominant force in the ancient Near East.",
+            "image": {
+              "commonsFile": "Ashurnasirpal II British Museum.jpg",
+              "caption": "Ashurnasirpal II relief from the Northwest Palace at Nimrud, 9th century BCE"
+            },
+            "quiz": [
+              {
+                "question": "What unusual feature did Ashurnasirpal II's palace swimming pool have?",
+                "options": [
+                  "It was filled using a canal that also fed palace gardens",
+                  "It was lined with carved alabaster showing underwater scenes",
+                  "It was heated by underground furnaces year-round",
+                  "It featured a waterfall powered by an aqueduct"
+                ],
+                "answerIndex": 0,
+                "explanation": "Ashurnasirpal II built a canal system at Nimrud that not only irrigated extensive palace gardens with exotic plants and animals, but also filled what appears to be one of the earliest known swimming pools in the ancient world."
+              },
+              {
+                "question": "What did Assyrian soldiers use inflated animal skins for, as depicted on Nimrud reliefs?",
+                "options": [
+                  "Carrying water on long desert marches",
+                  "Crossing rivers while fully armed",
+                  "Signaling between units during battle",
+                  "Cushioning battering rams against city walls"
+                ],
+                "answerIndex": 1,
+                "explanation": "Palace reliefs at Nimrud show soldiers crossing rivers using inflated animal skins as flotation devices while breathing through reed tubes — one of the earliest depictions of military diving, nearly 2,800 years before modern combat diving was developed."
+              }
+            ]
+          },
+          {
+            "id": "node-mil-tiglath-pileser",
+            "eventId": "evt-assyr-tiglath-pileser-iii",
+            "narrative": "Ashurnasirpal II and his son Shalmaneser III had built an empire through terror and tribute, but by the mid-8th century the system was breaking down. Vassal kings rebelled constantly, and a period of internal weakness culminated in plague and civil unrest. Then, around 745 BCE, a figure who took the throne name Tiglath-Pileser III seized power in what was almost certainly a coup — and proceeded to revolutionize how empires worked.\n\nHis most important innovation was deceptively simple: he replaced the seasonal conscript levy with a permanent professional army. Before Tiglath-Pileser III, Assyrian soldiers were farmers called up for campaigning season and sent home for harvest. This limited when and how far the army could operate. His new force was a year-round, full-time military organized into specialized units: heavy infantry, light infantry, cavalry, chariot corps, and dedicated siege engineers with battering rams and mobile towers. Soldiers were recruited from across the empire, including deportees from conquered lands.\n\nEqually revolutionary was his administrative reform. Instead of leaving conquered kings in place as tribute-paying vassals, Tiglath-Pileser III replaced them with Assyrian-appointed governors running directly administered provinces. Governors collected taxes, maintained roads, supplied troops, and reported to the king through a network of intelligence agents. This was the ancient world's first truly bureaucratic empire — and its model would be copied by Persians, Hellenistic kingdoms, and Romans for the next thousand years.",
+            "image": {
+              "commonsFile": "Tiglath-pileser III - Nimrud - 728 BC - British Museum.jpg",
+              "caption": "Relief of Tiglath-Pileser III from his palace at Nimrud"
+            },
+            "quiz": [
+              {
+                "question": "What did Tiglath-Pileser III do after conquering Damascus in 732 BCE?",
+                "options": [
+                  "Burned the city and salted the earth",
+                  "Made it his western capital",
+                  "Sold its population into slavery to fund further campaigns",
+                  "Turned it into an Assyrian province with an appointed governor"
+                ],
+                "answerIndex": 3,
+                "explanation": "Damascus was converted into an Assyrian province, ending centuries of Aramean independence. This was Tiglath-Pileser III's signature move — replacing independent kingdoms with directly administered provinces under Assyrian governors, a system far more reliable than tribute from vassal kings."
+              },
+              {
+                "question": "What percentage of the Assyrian army under Tiglath-Pileser III was estimated to be foreign-born?",
+                "options": [
+                  "About 10%, mostly interpreters",
+                  "About 25%, mainly cavalry",
+                  "Up to 50%, including deportees integrated into regular units",
+                  "About 75%, with Assyrians serving only as officers"
+                ],
+                "answerIndex": 2,
+                "explanation": "Tiglath-Pileser III's professional army drew heavily on conquered and deported peoples, with estimates suggesting up to half the army was non-Assyrian. This multi-ethnic force, bound by professional loyalty rather than tribal identity, was both more flexible and more loyal than a purely national conscript army."
+              }
+            ]
+          },
+          {
+            "id": "node-mil-fall-israel",
+            "eventId": "evt-assyr-fall-israel",
+            "narrative": "The fall of the Kingdom of Israel in 722 BCE demonstrated every element of the Assyrian military system working in concert — professional army, siege capability, and mass deportation — and created one of history's most enduring mysteries.\n\nIsrael had been reduced to an Assyrian vassal by Tiglath-Pileser III, but when King Hoshea stopped paying tribute and sought Egyptian support, Shalmaneser V marched south and besieged the capital city of Samaria. The siege lasted three years — a testament to Samaria's strong defenses on its hilltop position. Sargon II, who came to power during or shortly after the siege, claimed credit for the final conquest.\n\nWhat followed was standard Assyrian procedure: 27,290 Israelites were deported and resettled in distant parts of the empire, while people from Babylon, Hamath, and elsewhere were brought in to replace them. The deportees never returned, becoming the biblical \"Lost Ten Tribes\" — a mystery that has generated speculation from Josephus to modern DNA studies. Only the southern Kingdom of Judah survived, as an Assyrian vassal, for another century.\n\nThe deportation of Israel's population had enormous consequences for the development of Judaism. The theological crisis of losing the Promised Land — and the determination to preserve identity in exile — shaped Jewish religious thought for millennia.",
+            "quiz": [
+              {
+                "question": "What people did the Assyrians settle in former Israelite territory after the deportation?",
+                "options": [
+                  "Peoples from Babylon, Hamath, and other conquered regions",
+                  "Nobody — the land was left empty as a warning",
+                  "Assyrian military colonists only",
+                  "Egyptian prisoners of war from a recent campaign"
+                ],
+                "answerIndex": 0,
+                "explanation": "The Assyrians replaced the deported Israelites with settlers from Babylon, Cuthah, Hamath, and other regions. These mixed settlers eventually became the Samaritans — a community that exists to this day, numbering about 800 people, and that Jews of the Second Temple period considered religiously suspect."
+              },
+              {
+                "question": "Which modern country has officially claimed descent from one of the Lost Ten Tribes?",
+                "options": [
+                  "Ethiopia, claiming descent from the tribe of Dan",
+                  "Japan, through the Nihon Yudayajin theory",
+                  "Afghanistan, through the Pashtun-Israelite theory",
+                  "All of these have been seriously proposed"
+                ],
+                "answerIndex": 3,
+                "explanation": "The mystery of the Lost Ten Tribes has generated claims from virtually every continent. Ethiopian Jews (Beta Israel) claim descent from Dan, some Pashtun groups claim Israelite ancestry, and the Nihon Yudayajin theory links Japanese customs to Israelite practices — among dozens of other proposed connections worldwide."
+              }
+            ]
+          },
+          {
+            "id": "node-mil-siege-warfare",
+            "eventId": "evt-assyr-siege-lachish",
+            "narrative": "The Siege of Lachish in 701 BCE was not the largest or most consequential Assyrian siege, but it is the best documented — and it demonstrates why Assyrian siege warfare was the most sophisticated military engineering in the ancient world.\n\nLachish was the second most important city in the Kingdom of Judah, perched on a fortified tell with thick mudbrick walls. When King Hezekiah of Judah rebelled against Assyria, Sennacherib's army moved against Lachish while another force besieged Jerusalem. Rather than simply surrounding the city and waiting (the traditional siege method), Assyrian engineers built a massive earth-and-stone ramp against the southwestern wall — a ramp that is still visible archaeologically today.\n\nBattering rams on wheeled platforms were pushed up the ramp under covering fire from archers and slingers. Siege towers allowed Assyrian soldiers to fight at wall height. Sappers tunneled beneath the walls while defenders poured oil and fire on the siege equipment. When the walls were finally breached, the city was systematically destroyed and its population deported.\n\nSennacherib was so proud of the victory that he commissioned an elaborate series of carved reliefs for his palace at Nineveh, depicting the siege in step-by-step detail — from the initial assault to the procession of deportees leaving the ruined city. These reliefs, now in the British Museum, are the most complete visual record of ancient siege warfare ever discovered.",
+            "image": {
+              "commonsFile": "Lachish Relief - British Museum.jpg",
+              "caption": "Sennacherib's relief depicting the siege of Lachish, from Nineveh"
+            },
+            "quiz": [
+              {
+                "question": "What did Israeli archaeologists find when they excavated the Lachish siege ramp?",
+                "options": [
+                  "Assyrian coins used to pay soldiers",
+                  "Evidence that the ramp was never actually completed",
+                  "Tunnels showing the defenders tried to undermine the ramp",
+                  "A counter-ramp built by defenders inside the walls"
+                ],
+                "answerIndex": 3,
+                "explanation": "Excavations revealed that Lachish's defenders built a counter-ramp of earth and debris inside the walls to match the Assyrian ramp, creating a higher fighting platform. They also found hundreds of sling stones, arrowheads, and a chain of linked iron hooks that were probably used to snag battering rams."
+              },
+              {
+                "question": "What modern military practice did Assyrian siege warfare anticipate?",
+                "options": [
+                  "Combined arms operations — coordinating infantry, engineers, and archers simultaneously",
+                  "Trench warfare — surrounding cities with defensive ditches",
+                  "Psychological operations — playing drums to prevent defenders from sleeping",
+                  "Naval blockade — using boats to cut off river supply lines"
+                ],
+                "answerIndex": 0,
+                "explanation": "Assyrian siege warfare was essentially combined arms operations: engineers built ramps and operated battering rams, archers provided suppressive fire, infantry assaulted breaches, and sappers tunneled simultaneously. This coordination of specialized units working together toward a single objective is the hallmark of modern combined arms doctrine."
+              }
+            ]
+          },
+          {
+            "id": "node-mil-civil-war",
+            "eventId": "evt-assyr-civil-war",
+            "narrative": "The Assyrian Civil War of 652–648 BCE revealed the empire's fundamental weakness: Babylon. For centuries, Assyrian kings had struggled with the same dilemma — Babylon was too proud and culturally important to simply rule as a province, but too rebellious to trust with any degree of autonomy.\n\nEsarhaddon thought he had solved the problem with a clever succession plan: Ashurbanipal would rule Assyria, while his brother Shamash-shum-ukin would rule Babylon as a subordinate king. The arrangement was inherently unstable, and by 652 BCE Shamash-shum-ukin had organized a massive coalition including Elam, Arab tribes, Chaldeans, and even Assyrian provincial governors against his brother.\n\nThe civil war lasted four years and stretched Assyrian resources to the breaking point. Ashurbanipal besieged Babylon itself, and famine within the city became so severe that contemporary accounts describe people eating their own children. Shamash-shum-ukin died in the flames of his burning palace. Ashurbanipal then turned his fury on the coalition partners, culminating in the total destruction of Elam — a civilization that had existed for over two millennia.\n\nAshurbanipal won the civil war, but the cost was enormous. The empire's military and financial reserves were depleted, and the destruction of Elam created a power vacuum in Iran that would eventually be filled by the Persians — who would prove far more dangerous than the Elamites had ever been.",
+            "quiz": [
+              {
+                "question": "What famous artifact shows Ashurbanipal's celebration of victory over his brother?",
+                "options": [
+                  "A relief showing Shamash-shum-ukin's execution by impalement",
+                  "A relief showing Ashurbanipal feasting in a garden while the severed head of the Elamite king hangs from a tree",
+                  "A stele listing all the cities destroyed in the civil war",
+                  "A cylinder seal showing the two brothers fighting hand-to-hand"
+                ],
+                "answerIndex": 1,
+                "explanation": "The famous 'Garden Party' relief from Nineveh shows Ashurbanipal and his queen reclining in a garden while the severed head of the Elamite king Teumman hangs from a nearby tree — combining a peaceful domestic scene with a gruesome trophy of war in a uniquely Assyrian juxtaposition."
+              },
+              {
+                "question": "What did Ashurbanipal do with the bones of Elamite kings after sacking Susa?",
+                "options": [
+                  "Buried them with full honors to show magnanimity",
+                  "Ground them into mortar used for rebuilding Babylon",
+                  "Dug up the royal tombs and scattered the bones to deny them rest in the afterlife",
+                  "Preserved them in Ashurbanipal's library as curiosities"
+                ],
+                "answerIndex": 2,
+                "explanation": "Ashurbanipal boasted of exhuming Elamite royal tombs and exposing the bones to sunlight, denying the dead rest in the afterlife — one of the most extreme acts of desecration in the ancient world. He also carried off the statue of the goddess Nanaya that the Elamites had captured 1,635 years earlier, restoring it to its original temple."
+              }
+            ]
+          },
+          {
+            "id": "node-mil-fall-nineveh",
+            "eventId": "evt-assyr-fall-nineveh",
+            "narrative": "The fall of Nineveh in 612 BCE was one of the ancient world's most dramatic reversals. The greatest military power ever known was destroyed in barely a decade, and its capital was so thoroughly obliterated that within two centuries no one could even find it.\n\nAfter Ashurbanipal's death around 631 BCE, succession disputes fractured the empire. Nabopolassar, a Chaldean leader, seized Babylon and declared independence in 626 BCE. In 614 BCE the Medes under Cyaxares sacked the holy city of Assur — the spiritual heart of Assyrian civilization. The two allied, sealing their pact with a marriage between their royal houses.\n\nIn 612 BCE the combined Babylonian-Median army besieged Nineveh. According to the Babylonian Chronicle, after three months of siege, seasonal flooding of the Tigris breached the city walls — a detail that eerily matches the biblical prophecy of Nahum, who predicted Nineveh's destruction by flood. The last king, Sin-shar-ishkun, is said to have died in his burning palace.\n\nThe victors divided the spoils. Babylon took southern Mesopotamia and the Levant; the Medes took the highlands of Iran and Anatolia. The Assyrian provincial system, road network, and administrative apparatus survived — the new rulers simply operated it under new management. Within a century, Cyrus the Great's Persian Empire would absorb both successor states and inherit the entire Assyrian imperial infrastructure.",
+            "quiz": [
+              {
+                "question": "Who was the unexpected ally that tried to save the Assyrian Empire in its final years?",
+                "options": [
+                  "The Elamites, despite Ashurbanipal's devastation",
+                  "The Kingdom of Judah, hoping to keep Assyria as a buffer",
+                  "Egypt, which marched north to support its former conqueror",
+                  "The Scythians, who had been Assyrian mercenaries"
+                ],
+                "answerIndex": 2,
+                "explanation": "In a remarkable reversal, Egypt under Pharaoh Necho II marched north to support the remnants of the Assyrian state against Babylon. Egypt preferred a weakened Assyria on its border to a powerful new Babylonian empire. King Josiah of Judah was killed trying to block Necho's march at Megiddo — one of the Bible's most consequential battles."
+              },
+              {
+                "question": "When the Greek mercenary Xenophon marched past Nineveh's ruins in 401 BCE, what did locals tell him about the ruins?",
+                "options": [
+                  "They had no idea what civilization had built them",
+                  "That a great king had built them as a tomb",
+                  "That they were cursed and no one dared enter",
+                  "That they were the remains of a giant's castle"
+                ],
+                "answerIndex": 0,
+                "explanation": "Xenophon described passing massive ruined walls near the Tigris but recorded that no one in the area knew what civilization had built them. The most powerful empire the ancient world had ever seen had been so thoroughly destroyed that within 200 years its very memory had been erased from the region."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "path-culture",
+        "label": "Gods, Scholars & Scribes",
+        "color": "#7c3aed",
+        "icon": "📜",
+        "description": "Assyrian religion, scholarship, and the preservation of Mesopotamian civilization's intellectual heritage.",
+        "recap": "Assyria's reputation as a purely military power obscures a civilization that was simultaneously one of the ancient world's most active preservers of knowledge. The same kings who boasted of flaying enemies also maintained scribal schools, funded astronomical research, and assembled the greatest library of the ancient world.\n\nThis dual nature — combining brutal military expansion with genuine intellectual achievement — was not contradictory to the Assyrians. The god Ashur demanded both conquest and proper learning. Royal inscriptions were both propaganda and historical record. Astronomical observations served both omen-reading and genuine science. The library of Ashurbanipal was both a tool of royal legitimacy and an act of genuine scholarly devotion.\n\nWhen Nineveh fell in 612 BCE, the fire that destroyed the city ironically preserved the library's clay tablets by baking them hard. Rediscovered in the 1850s, these tablets gave the modern world access to three millennia of Mesopotamian thought — the Epic of Gilgamesh, mathematical texts, medical knowledge, astronomical observations. The Assyrians, for all their cruelty, were the custodians who preserved civilization's earliest intellectual heritage for us to read today.",
+        "nodes": [
+          {
+            "id": "node-cul-kanesh",
+            "eventId": "evt-assyr-kanesh-tablets",
+            "narrative": "Long before Assyria became an empire, it was a trading civilization — and the tablets from Kanesh reveal a society of remarkable commercial sophistication that inherited and extended the Mesopotamian scribal tradition.\n\nBeginning around 1950 BCE, Assyrian merchants organized caravans of donkeys laden with tin and textiles, trekking from Assur across dangerous mountain passes to trading colonies in Anatolia. The colony at Kanesh (modern Kültepe in Turkey) was the hub of this network, and it produced over 23,000 cuneiform tablets documenting every aspect of the trade.\n\nThese tablets reveal a world of business practices that feel astonishingly modern: formal contracts, letters of credit, interest-bearing loans, insurance against loss of goods, and family firms operating across multiple generations. Women in Assur managed the textile production that was one pillar of the trade, and their letters to husbands abroad provide rare glimpses of domestic life — including complaints about sending money home and requests for specific luxury items.\n\nThe Kanesh tablets also show how cuneiform writing, invented by the Sumerians for temple accounting, had evolved into a tool flexible enough to record commercial law, personal correspondence, and international diplomacy. This Mesopotamian tradition of systematic record-keeping would become one of Assyria's most enduring legacies.",
+            "image": {
+              "commonsFile": "Tablet Kültepe Louvre AO19839.jpg",
+              "caption": "Old Assyrian cuneiform tablet from Kanesh, c. 1900 BCE"
+            },
+            "quiz": [
+              {
+                "question": "What was the most profitable commodity Assyrian merchants brought to Anatolia?",
+                "options": [
+                  "Gold from Nubia",
+                  "Cedar wood from Lebanon",
+                  "Spices from the Indian Ocean trade",
+                  "Tin, essential for making bronze"
+                ],
+                "answerIndex": 3,
+                "explanation": "Tin was the most valuable commodity because bronze — the defining technology of the era — requires tin alloyed with copper. Anatolia had abundant copper but little tin, so Assyrian merchants who brought tin from Iranian sources could command enormous profits on every caravan."
+              },
+              {
+                "question": "What did one Kanesh tablet reveal about an Assyrian wife named Pushu-ken?",
+                "options": [
+                  "She ran a textile workshop producing goods for the trade network",
+                  "She was the first woman to write a legal contract",
+                  "She organized the first trade caravan led by a woman",
+                  "She invented a new dyeing technique for Anatolian wool"
+                ],
+                "answerIndex": 0,
+                "explanation": "Letters from Kanesh reveal that women like Pushu-ken managed textile production workshops in Assur, weaving cloth that was a major trade good. These women were active business participants who gave instructions to male agents, complained about quality and payments, and occasionally threatened legal action against debtors."
+              }
+            ]
+          },
+          {
+            "id": "node-cul-religion",
+            "eventId": "evt-assyr-ashur-temple",
+            "narrative": "Assyrian religion was not merely a matter of private belief — it was the operating system of the state. The god Ashur stood at the center of everything, and understanding his cult is essential to understanding why Assyria worked the way it did.\n\nUnlike other Mesopotamian deities who were associated with natural forces (Shamash the sun, Ishtar love and war), Ashur was originally just the patron god of a single city. As Assyria expanded, Ashur was elevated to king of the gods — not by theological argument but by military conquest. Every Assyrian victory was a victory for Ashur, and every new province was territory added to Ashur's dominion. The king ruled as Ashur's earthly representative, making military expansion literally a religious duty.\n\nThis theological framework had practical consequences. The great temple at the city of Assur was the holiest site in the empire — kings returned there to be crowned, to present war trophies, and to be buried. The akitu New Year festival, inherited from the Sumerian and Babylonian tradition, ritually renewed the king's mandate from Ashur. Failure to celebrate akitu was a sign of political crisis.\n\nAlongside Ashur, the Assyrians inherited the entire Mesopotamian pantheon: Ishtar (love and war) with her great temple at Nineveh, Nabu (writing and wisdom) whose cult grew alongside Assyria's increasing investment in scholarship, and dozens of others. This religious continuity — maintaining traditions stretching back to Sumer — gave Assyrian civilization a depth that belied its military reputation.",
+            "quiz": [
+              {
+                "question": "What unique feature distinguished the god Ashur from other Mesopotamian deities?",
+                "options": [
+                  "He was the only god who demanded human sacrifice",
+                  "He was the only major deity who never had an origin myth — he simply existed",
+                  "He was the only god worshipped exclusively by men",
+                  "He was the only deity depicted without a human form"
+                ],
+                "answerIndex": 1,
+                "explanation": "Unlike Marduk (who slew Tiamat in the Enuma Elish) or Enlil (who separated heaven and earth), Ashur had no origin story. He was simply the supreme god, existing prior to everything. This theological blankness actually served Assyria well — Ashur could absorb the attributes of other gods as Assyria absorbed their cities."
+              },
+              {
+                "question": "What happened to an Assyrian king who could not celebrate the akitu festival?",
+                "options": [
+                  "He was ritually executed and replaced",
+                  "He had to send a substitute to perform the rituals",
+                  "Nothing — it was purely optional",
+                  "His reign was considered illegitimate until the festival could be held"
+                ],
+                "answerIndex": 3,
+                "explanation": "The akitu festival was so central to legitimacy that a king who could not celebrate it was in serious political trouble. When rebellions or enemy invasions prevented the festival, it was noted in chronicles as a sign of divine disfavor. Several usurpers specifically timed their coups to coincide with or prevent the akitu celebration."
+              }
+            ]
+          },
+          {
+            "id": "node-cul-aramaic",
+            "eventId": "evt-assyr-aramaic-lingua-franca",
+            "narrative": "One of history's great ironies is that the language of the people Assyria conquered — Aramaic — ended up conquering Assyria from within. By the 8th century BCE, the Assyrian Empire had two written languages, and the newcomer was winning.\n\nAkkadian cuneiform had been the prestige language of Mesopotamia for two millennia. It was written by pressing a reed stylus into wet clay to create wedge-shaped marks — a system that required years of training and produced heavy, fragile tablets. Aramaic, by contrast, used a simple alphabet of 22 letters written with ink on parchment or papyrus — lighter, cheaper, and far easier to learn.\n\nTiglath-Pileser III's administration formally adopted Aramaic alongside Akkadian for imperial communication. Palace reliefs from this period show pairs of scribes: one writing in cuneiform on a clay tablet, the other in Aramaic on a scroll. Over time, Aramaic became the spoken language of the empire's population while cuneiform was increasingly reserved for scholarly, religious, and monumental purposes.\n\nThis bilingual policy had consequences far beyond Assyria. By spreading Aramaic as the language of imperial administration across the entire Near East, the Assyrians inadvertently created a lingua franca that would outlast their empire by over a millennium. Aramaic remained the region's common language through the Persian, Hellenistic, and early Roman periods. Jesus of Nazareth spoke Aramaic, and small communities of Assyrian Christians in Iraq still speak modern descendants of the language today.",
+            "quiz": [
+              {
+                "question": "What famous religious text was originally written in Aramaic, the language the Assyrians spread?",
+                "options": [
+                  "The Quran",
+                  "The Bhagavad Gita",
+                  "Parts of the biblical books of Daniel and Ezra",
+                  "The Egyptian Book of the Dead"
+                ],
+                "answerIndex": 2,
+                "explanation": "Portions of the biblical books of Daniel and Ezra are written in Aramaic rather than Hebrew, reflecting the period when Aramaic was the common language of the Near East. The Babylonian Talmud was also written in Aramaic, as was much of the Dead Sea Scrolls collection."
+              },
+              {
+                "question": "How many people worldwide still speak modern dialects of Aramaic today?",
+                "options": [
+                  "Around 500,000 to 800,000, mostly in diaspora communities",
+                  "A few hundred scholars in universities",
+                  "None — it's been dead for centuries",
+                  "Over 5 million across the Middle East"
+                ],
+                "answerIndex": 0,
+                "explanation": "Modern Aramaic dialects are still spoken by 500,000 to 800,000 people, mostly Assyrian and Chaldean Christians displaced from Iraq and Syria. Some villages in Syria's Qalamoun Mountains also spoke Western Aramaic into the 21st century, making Aramaic one of the oldest continuously spoken language families in the world."
+              }
+            ]
+          },
+          {
+            "id": "node-cul-library",
+            "eventId": "evt-assyr-library",
+            "narrative": "Ashurbanipal's library at Nineveh was the ancient world's greatest organized collection of knowledge — and its survival is one of history's most fortunate accidents.\n\nAshurbanipal was unique among Assyrian kings in being genuinely literate. He could read both Akkadian and Sumerian cuneiform — a rare skill even among scribes, let alone rulers. He used this ability to direct the most ambitious knowledge-collection project the ancient world had ever seen. Scribes were sent to temples, palaces, and private collections across the empire with orders to copy every tablet they could find. The resulting library contained over 30,000 tablets organized by subject: literature, medicine, astronomy, mathematics, omens, rituals, legal texts, and royal correspondence.\n\nThe collection preserved texts spanning three millennia of Mesopotamian intellectual tradition. The most famous item was the complete twelve-tablet Epic of Gilgamesh — the world's oldest great work of literature, including a flood narrative that predates the biblical account by over a thousand years. Medical texts catalogued symptoms and treatments. Astronomical records documented eclipses and planetary movements with precision that would not be surpassed for centuries.\n\nWhen Nineveh was destroyed in 612 BCE, the fire that consumed the palace ironically preserved the clay tablets by baking them hard. They lay buried under rubble for nearly 2,500 years until Hormuzd Rassam — an Assyrian-born archaeologist working with the British Museum — discovered them in 1853. When George Smith deciphered the Flood Tablet in 1872 and realized it contained a flood story predating the Bible, the finding made headlines worldwide.",
+            "image": {
+              "commonsFile": "Library of Ashurbanipal The Flood Tablet.jpg",
+              "caption": "The Flood Tablet from the Epic of Gilgamesh, Library of Ashurbanipal"
+            },
+            "quiz": [
+              {
+                "question": "What did George Smith reportedly do when he first read the Flood Tablet from Gilgamesh?",
+                "options": [
+                  "Fainted from the shock of the discovery",
+                  "Began removing his clothes in excitement, rushing around the room",
+                  "Immediately telegraphed the Pope to inform him",
+                  "Quietly filed it away, not realizing its significance for weeks"
+                ],
+                "answerIndex": 1,
+                "explanation": "According to witnesses at the British Museum in 1872, George Smith became so excited upon reading the flood story on the tablet — realizing it predated the biblical account — that he began undressing, rushing around the room in a state of high agitation. The discovery made international headlines and transformed our understanding of biblical origins."
+              },
+              {
+                "question": "What evidence suggests Ashurbanipal genuinely read the tablets in his library, rather than merely collecting them?",
+                "options": [
+                  "Scribal records show he tested new acquisitions by reading them aloud",
+                  "His palace diary records specific reading sessions",
+                  "He composed original poems that reference obscure texts in the collection",
+                  "Tablets with his personal annotations and corrections survive"
+                ],
+                "answerIndex": 3,
+                "explanation": "Some tablets from Ashurbanipal's library contain colophons (end notes) in which the king personally claims to have read, checked, and corrected the text. This is extraordinary — no other ancient Near Eastern ruler left evidence of personally engaging with cuneiform scholarship at this level."
+              }
+            ]
+          },
+          {
+            "id": "node-cul-lion-hunts",
+            "eventId": "evt-assyr-lion-hunt-reliefs",
+            "narrative": "The lion hunt reliefs of Ashurbanipal are widely considered the greatest masterpieces of ancient Near Eastern art — and they reveal a civilization that combined brutality and aesthetic brilliance in ways that still fascinate and disturb.\n\nRoyal lion hunting was a deeply symbolic ritual in Assyria. The king's ability to confront and kill the most dangerous predator demonstrated his fitness to protect his people and the cosmic order. Lions were specifically captured and kept in palace grounds, then released into enclosed arenas where the king hunted them from a chariot and on foot — a staged performance with genuine physical danger.\n\nThe reliefs depicting these hunts achieve a level of naturalistic art that was unprecedented in the ancient world. A wounded lioness dragging her paralyzed hind legs, roaring in agony, is perhaps the most emotionally powerful image in all of ancient art. A dying lion vomiting blood as it collapses under arrow wounds combines anatomical accuracy with genuine pathos. Art historians note that this level of animal portraiture would not be achieved again in Western art for over a thousand years.\n\nThe juxtaposition of extraordinary artistic sensitivity with the casual cruelty of the hunts captures something essential about Assyrian civilization. The same culture that produced these masterpieces of empathy toward dying animals also produced detailed inscriptions boasting about the torture and mutilation of human enemies. This paradox is not something the Assyrians would have recognized — to them, both the hunting and the war were expressions of royal power in service of the gods.",
+            "image": {
+              "commonsFile": "Dying lion (Assyria).jpg",
+              "caption": "The dying lioness relief from Ashurbanipal's palace at Nineveh"
+            },
+            "quiz": [
+              {
+                "question": "How were the lions for royal hunts obtained?",
+                "options": [
+                  "Professional trappers captured them alive using pit traps and nets",
+                  "They were imported from Africa by sea",
+                  "Conquered peoples were required to send lions as tribute",
+                  "They were bred in captivity in palace compounds"
+                ],
+                "answerIndex": 0,
+                "explanation": "Reliefs show lions being captured alive using pit traps covered with brush, then transported in wooden cages to the hunting grounds. Professional trappers maintained a supply for the king's hunts. The Asiatic lion (now extinct in Mesopotamia, surviving only in India's Gir Forest) was once common across the Near East."
+              },
+              {
+                "question": "What happened to the Assyrian palace reliefs after Nineveh was destroyed?",
+                "options": [
+                  "They were looted by the Babylonians and taken to Babylon",
+                  "They were buried under rubble and forgotten for 2,500 years",
+                  "They were defaced by the Persians but left in place",
+                  "Local people used them as building stone for centuries"
+                ],
+                "answerIndex": 1,
+                "explanation": "The reliefs were buried under rubble when Nineveh was destroyed and remained underground until Austen Henry Layard and Hormuzd Rassam excavated them in the 1840s-50s. The burial actually preserved them — many reliefs are in remarkable condition despite 2,500 years of entombment."
+              }
+            ]
+          },
+          {
+            "id": "node-cul-propaganda",
+            "eventId": "evt-assyr-relief-propaganda",
+            "narrative": "Assyria developed history's first systematic propaganda program — a coordinated campaign of visual imagery, written narratives, and physical terror designed to control how both subjects and enemies perceived the empire.\n\nAssyrian royal inscriptions were not mere records; they were carefully crafted narratives presenting the king as invincible, pious, and divinely chosen. Campaigns always ended in \"victory\" regardless of actual outcome. The Battle of Qarqar in 853 BCE, probably a draw or even a defeat, was presented as a triumph. Rebellions were described as the work of ungrateful fools who defied the gods and received deserved punishment.\n\nPalace reliefs served the same purpose visually. Visitors to Assyrian palaces walked through halls lined with images of the king conquering enemies, hunting lions, and communing with the gods. These were not just decorative — they were propaganda for foreign ambassadors and vassal kings who visited the court. The message was unmistakable: this is what happens to those who resist.\n\nThe third element was physical: inscriptions at conquered cities described punishments in deliberately graphic detail. Ashurnasirpal II described flaying officials alive and draping their skins over walls. Ashurbanipal described forcing defeated kings to wear the severed heads of their allies as necklaces. Whether every described atrocity actually occurred is debatable — but the descriptions themselves were the point, designed to make future resistance seem hopeless.\n\nThis combination of visual, textual, and physical propaganda was unprecedented in its sophistication. Every subsequent empire, from Persia to Rome to the modern era, has used some version of the Assyrian playbook.",
+            "quiz": [
+              {
+                "question": "What happened to Assyrian royal inscriptions when a new king took power?",
+                "options": [
+                  "They were carefully preserved as historical records",
+                  "They were translated into every language of the empire",
+                  "Previous kings' inscriptions were often removed and replaced or buried under new construction",
+                  "They were moved to the library at Nineveh for safekeeping"
+                ],
+                "answerIndex": 2,
+                "explanation": "Assyrian kings frequently buried, replaced, or recycled their predecessors' inscriptions. Sennacherib, who moved the capital from Dur-Sharrukin to Nineveh, essentially erased his father Sargon II from Nineveh's monumental record. Each king wanted visitors to see only his own achievements — propaganda was personal, not institutional."
+              },
+              {
+                "question": "What detail in Assyrian palace reliefs was specifically designed to impress foreign visitors?",
+                "options": [
+                  "Maps showing the empire's vast territory",
+                  "Astronomical charts showing Assyrian scientific knowledge",
+                  "Portraits of the king's family members",
+                  "Scenes of tribute from conquered nations, with each nation's distinctive dress accurately depicted"
+                ],
+                "answerIndex": 3,
+                "explanation": "Tribute scenes showed representatives of conquered nations in their own distinctive clothing and hairstyles, carrying their region's characteristic products. A visiting ambassador would see his own people depicted paying tribute — or see what happened to nations that refused. The accuracy of the ethnic details was itself a form of intelligence display."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "path-empire",
+        "label": "Empire Builders",
+        "color": "#d97706",
+        "icon": "🏛️",
+        "description": "How the Assyrians governed their vast empire — trade, administration, construction, and the infrastructure that made it work.",
+        "recap": "The Assyrian Empire was not just a military conquest — it was a system. Trade networks that predated the empire by a millennium, administrative innovations that no previous state had attempted, and construction projects that still inspire awe were all essential to making the empire function.\n\nThe Old Assyrian merchants at Kanesh pioneered international commerce with practices that feel startlingly modern. Tiglath-Pileser III's provincial system replaced unreliable vassal kings with directly administered territories. The road network carried not just armies but intelligence reports, tax revenues, and standardized weights and measures. Mass deportation, while brutal, created the ancient world's most ethnically diverse society and inadvertently spread technologies and languages across vast distances.\n\nWhen the empire fell, its administrative infrastructure survived. The Babylonians and Medes who destroyed Nineveh simply operated the Assyrian provincial system under new management. When Cyrus the Great built the Persian Empire a generation later, he inherited Assyrian roads, Assyrian administrative vocabulary, and the Assyrian concept that a single state could govern people from Egypt to Iran. The Persian innovation was not empire itself — that was Assyrian — but governing with tolerance rather than terror.",
+        "nodes": [
+          {
+            "id": "node-emp-trade",
+            "eventId": "evt-assyr-trade-colonies",
+            "narrative": "A thousand years before Assyria became an empire, it was already one of the ancient world's most successful trading civilizations. The Old Assyrian trade colonies of the early 2nd millennium BCE created an international commercial network of remarkable sophistication.\n\nFrom around 1950 to 1750 BCE, Assyrian merchant families organized caravans of donkeys carrying tin (sourced from Iran or Afghanistan) and textiles (woven in Assur) across hundreds of kilometers of mountain terrain to trading colonies in Anatolia. The round trip took weeks and crossed territories controlled by other powers, requiring diplomatic agreements and payment of transit taxes.\n\nAt their destination, merchants exchanged tin and textiles for Anatolian silver and gold — metals that were scarce in Mesopotamia but abundant in Anatolia. The profit margins were enormous: tin that cost one unit of silver in Assur could be sold for two units in Anatolia. But the trade also involved considerable risk — caravans could be robbed, goods damaged, or local rulers could impose unexpected taxes.\n\nTo manage these risks, Assyrian merchants developed institutions that look astonishingly modern. They used formal contracts witnessed by multiple parties, extended credit across vast distances, purchased insurance against loss of goods, and operated family firms that passed knowledge and contacts across generations. This was a capitalist economy four millennia before the term was coined — and its commercial records, preserved in cuneiform on clay tablets, are among the most detailed economic archives ever found from the ancient world.",
+            "image": {
+              "commonsFile": "Kültepe, the ancient site of Kanesh.jpg",
+              "caption": "The mound at Kültepe (ancient Kanesh), Turkey — center of the Assyrian trade network"
+            },
+            "quiz": [
+              {
+                "question": "What financial instrument did Old Assyrian merchants use that wouldn't reappear in Europe for millennia?",
+                "options": [
+                  "Paper currency backed by temple reserves",
+                  "Joint-stock investment partnerships called naruqqum",
+                  "Fractional reserve banking with clay tablet receipts",
+                  "Futures contracts on commodity prices"
+                ],
+                "answerIndex": 1,
+                "explanation": "Assyrian merchants formed naruqqum — joint investment partnerships where multiple investors pooled capital for a trading venture and shared profits proportionally. These arrangements functioned remarkably like modern joint-stock companies, yet predated the Dutch East India Company by over 3,500 years."
+              },
+              {
+                "question": "Why did the Old Assyrian trade colonies collapse around 1750 BCE?",
+                "options": [
+                  "A volcanic eruption made the mountain passes impassable",
+                  "The Hittites conquered Anatolia and expelled the merchants",
+                  "Shamshi-Adad I's empire disrupted the trade routes, and political instability in Anatolia made commerce unsustainable",
+                  "The tin mines in Iran were exhausted"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Old Assyrian trade system declined due to a combination of political disruption — Shamshi-Adad I's conquests reoriented Assyrian priorities, while Hittite expansion in Anatolia destabilized the local kingdoms that had hosted Assyrian merchants. The commercial infrastructure simply couldn't survive without political stability at both ends of the trade routes."
+              }
+            ]
+          },
+          {
+            "id": "node-emp-nimrud",
+            "eventId": "evt-assyr-nimrud",
+            "narrative": "When Ashurnasirpal II decided to move the Assyrian capital from Assur to Nimrud around 879 BCE, he was making a statement about Assyria's transformation from a city-state into an empire — and the city he built announced that transformation to the world.\n\nAssur was cramped, ancient, and peripheral to the empire's expanding borders. Nimrud (ancient Kalhu) sat on the Tigris at the confluence of the Upper Zab River, commanding fertile agricultural land and key routes north and east. Ashurnasirpal rebuilt it on a scale unprecedented in Mesopotamia.\n\nThe centerpiece was the Northwest Palace, covering nearly two hectares with hundreds of rooms lined with carved alabaster reliefs depicting military campaigns, royal hunts, and religious rituals. Colossal lamassu — winged bull-men weighing up to 30 tons — flanked the doorways. A massive ziggurat, additional temples, an arsenal, and administrative buildings filled the city, enclosed within walls encompassing 360 hectares.\n\nNimrud served as the Assyrian capital for over 150 years, through the reigns of Shalmaneser III, Tiglath-Pileser III, and their successors. It was here that the empire's administrative machinery was centered, here that foreign ambassadors were received, and here that the Black Obelisk recorded Israelite tribute. When Austen Henry Layard excavated Nimrud in 1845, his discoveries — lamassu, palace reliefs, carved ivories — were among the most spectacular archaeological finds of the 19th century, filling the British Museum's Assyrian galleries.",
+            "image": {
+              "commonsFile": "Kalhu (Nimrud), the NW palace.jpg",
+              "caption": "Reconstruction of the Northwest Palace at Nimrud"
+            },
+            "quiz": [
+              {
+                "question": "What was found in Nimrud's 'treasure tombs' when they were excavated in 1988-1989?",
+                "options": [
+                  "The personal library of Ashurnasirpal II",
+                  "A collection of weapons from every nation the Assyrians conquered",
+                  "The preserved body of a king in a golden sarcophagus",
+                  "Over 600 pieces of gold jewelry — the richest find from ancient Mesopotamia"
+                ],
+                "answerIndex": 3,
+                "explanation": "Iraqi archaeologists discovered royal tombs beneath the Northwest Palace containing over 600 pieces of exquisite gold jewelry — crowns, necklaces, earrings, and vessels — belonging to Assyrian queens. It was the richest treasure ever found in Mesopotamia. The gold was moved to the Central Bank of Iraq and survived the 2003 looting."
+              },
+              {
+                "question": "What tragic event befell Nimrud in 2015?",
+                "options": [
+                  "A flood of the Tigris submerged the site",
+                  "ISIS bulldozed and dynamited the ruins, destroying lamassu and reliefs",
+                  "Looters discovered and stripped a previously unknown palace",
+                  "A wildfire consumed protective shelters built over the excavations"
+                ],
+                "answerIndex": 1,
+                "explanation": "In 2015, ISIS (ISIL) used bulldozers and explosives to destroy large sections of Nimrud, including colossal lamassu and wall reliefs. They filmed the destruction as propaganda. International outcry followed, and restoration efforts have since begun, but much of the 2,800-year-old site was irreversibly damaged."
+              }
+            ]
+          },
+          {
+            "id": "node-emp-deportation",
+            "eventId": "evt-assyr-deportation",
+            "narrative": "Mass deportation was the Assyrian Empire's most characteristic and controversial policy — a brutally effective tool of imperial control that accidentally created the ancient world's most diverse society.\n\nThe practice of relocating conquered populations existed before Assyria, but Tiglath-Pileser III systematized it into a core instrument of governance. After a conquest, entire communities — men, women, children, and their livestock — were uprooted and marched to distant provinces. Populations from different regions were deliberately swapped: Babylonians were sent to Syria, Syrians to Media, and so on.\n\nThe strategic logic was simple. Uprooted people, surrounded by strangers in an unfamiliar land, could not organize resistance. Without local networks, knowledge of terrain, or shared identity with their neighbors, deportees depended entirely on the Assyrian state. They provided labor for massive construction projects, agricultural workers for underpopulated regions, and soldiers for the professional army.\n\nAssyrian records document deportations totaling an estimated 4 to 4.5 million people over two centuries — an enormous number for the ancient world. The most famous was the deportation of Israel's population in 722 BCE, but dozens of others are recorded. The policy had unintended consequences: it spread technologies, languages, and ideas across vast distances, and it created ethnically diverse cities where no one group could claim dominance.",
+            "quiz": [
+              {
+                "question": "What practical amenities did the Assyrians provide to deportees during their forced marches?",
+                "options": [
+                  "Food, water stations, and sometimes donkeys for the elderly and children",
+                  "Nothing — they walked in chains until they arrived or died",
+                  "Military escorts only, to prevent escape",
+                  "Maps of the route and letters of transit"
+                ],
+                "answerIndex": 0,
+                "explanation": "Assyrian records and reliefs show that deportees were sometimes provided with food rations, water stations along the route, and transport animals for those who could not walk. This was not humanitarianism — it was pragmatism. Dead deportees couldn't work, so keeping them alive during transit was in the empire's interest."
+              },
+              {
+                "question": "What modern city's population is partly descended from Assyrian deportees?",
+                "options": [
+                  "Jerusalem — deportees from across the empire settled there",
+                  "Baghdad — it was founded on the site of an Assyrian deportee settlement",
+                  "Samaria — peoples from Babylon and elsewhere replaced the deported Israelites",
+                  "Damascus — Assyrian deportees formed the city's merchant class"
+                ],
+                "answerIndex": 2,
+                "explanation": "After deporting Israel's population, the Assyrians resettled the region with people from Babylon, Cuthah, Hamath, and other areas. These settlers intermarried with remaining Israelites and became the Samaritans — a community that still exists today, though numbering only about 800 people, centered on Mount Gerizim near Nablus."
+              }
+            ]
+          },
+          {
+            "id": "node-emp-nineveh",
+            "eventId": "evt-assyr-nineveh-expanded",
+            "narrative": "Sennacherib's expansion of Nineveh was the most ambitious urban construction project in the ancient world — and the gardens he built there may have been the real \"Hanging Gardens\" that later writers attributed to Babylon.\n\nWhen Sennacherib abandoned his father Sargon II's brand-new capital at Dur-Sharrukin and chose Nineveh, he set about creating a city that would surpass anything previously built. Massive walls stretched 12 kilometers around 750 hectares, pierced by 15 monumental gates — each named after an Assyrian deity. At its height, Nineveh may have housed over 100,000 people, making it one of the largest cities in the world.\n\nThe centerpiece was Sennacherib's \"Palace Without Rival,\" with 71 rooms and over 3,000 carved relief panels covering approximately 3 kilometers of wall space. But the most innovative feature was the water system. Sennacherib built an aqueduct stretching over 50 kilometers from mountain springs to the city, crossing valleys on stone bridges. The Jerwan aqueduct used over 2 million dressed limestone blocks and featured corbelled arches — engineering that would not be surpassed until the Romans built their great aqueducts centuries later.\n\nArchaeologist Stephanie Dalley has argued persuasively that the gardens Sennacherib built using this water supply — terraced gardens fed by the aqueduct, probably using an Archimedean screw to raise water — were the real \"Hanging Gardens\" that Greek writers later misattributed to Nebuchadnezzar's Babylon. No evidence of comparable gardens has ever been found at Babylon, while Sennacherib's own inscriptions describe exactly such gardens at Nineveh.",
+            "image": {
+              "commonsFile": "Nineveh map city walls & gates.JPG",
+              "caption": "Plan of ancient Nineveh showing the 12 km city walls and 15 gates"
+            },
+            "quiz": [
+              {
+                "question": "What technology may Sennacherib have used to raise water to his elevated gardens at Nineveh?",
+                "options": [
+                  "A shaduf system of counterweighted buckets",
+                  "A chain pump operated by oxen",
+                  "A device resembling an Archimedean screw — centuries before Archimedes",
+                  "Siphon pipes made of baked clay"
+                ],
+                "answerIndex": 2,
+                "explanation": "Sennacherib's inscriptions describe a device for raising water that scholars believe functioned like an Archimedean screw — a rotating helical surface inside a cylinder that lifts water as it turns. If correct, this predates Archimedes by about 350 years. The device was used to water elevated garden terraces fed by the Jerwan aqueduct."
+              },
+              {
+                "question": "What was discovered when archaeologists counted the stone blocks in the Jerwan aqueduct?",
+                "options": [
+                  "Each block was numbered in sequence with cuneiform markings",
+                  "The blocks were quarried from three different locations across the empire",
+                  "The blocks were held together with iron clamps rather than mortar",
+                  "Over 2 million dressed stones were used — comparable to the Great Pyramid of Giza"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Jerwan aqueduct used over 2 million carefully dressed limestone blocks to span a 300-meter valley — a mass of stone comparable to what the Egyptians used for the Great Pyramid. The scale of engineering required to supply Nineveh with water was one of the ancient world's greatest construction achievements."
+              }
+            ]
+          },
+          {
+            "id": "node-emp-conquest-egypt",
+            "eventId": "evt-assyr-conquest-egypt",
+            "narrative": "The Assyrian conquest of Egypt in 671 BCE was the empire's most audacious military achievement — and it marked the moment when Assyria's administrative system reached its greatest territorial extent.\n\nEgypt under the 25th Dynasty (Nubian pharaohs) had been supporting anti-Assyrian rebellions in the Levant for years. Esarhaddon decided to eliminate the problem at its source. Crossing the Sinai desert with a large army was itself a significant logistical achievement — the army marched for 15 days across arid terrain, supported by Arab camel herders who provided water.\n\nThe assault on Memphis was swift and decisive. Pharaoh Taharqa's army was defeated and the pharaoh fled south to Nubia. Esarhaddon installed local Egyptian vassals, reorganized the administration, and took the title \"King of Upper and Lower Egypt\" — the first Mesopotamian ruler ever to govern the Nile Valley.\n\nBut governing Egypt proved harder than conquering it. The country rebelled almost immediately after Esarhaddon's departure, and when he died marching to reconquer it in 669 BCE, the task fell to Ashurbanipal. He reconquered Egypt and sacked Thebes in 663 BCE — the farthest south any Mesopotamian army had ever campaigned — but eventually withdrew, recognizing that direct control of so distant a territory was impractical. Assyria's brief rule over Egypt demonstrated both the extraordinary reach of its military power and the practical limits of ancient empire.",
+            "image": {
+              "commonsFile": "Esarhaddon Stele at Pergamon Museum, Berlin.jpg",
+              "caption": "Victory stele of Esarhaddon, holding captives by ropes through their lips"
+            },
+            "quiz": [
+              {
+                "question": "How did Esarhaddon keep his army supplied with water during the crossing of the Sinai?",
+                "options": [
+                  "He dug wells along the route months in advance",
+                  "He hired Arab camel herders to transport water across the desert",
+                  "He timed the march to coincide with seasonal rains",
+                  "He used a fleet of ships to resupply from the coast"
+                ],
+                "answerIndex": 1,
+                "explanation": "Esarhaddon's inscriptions mention that he secured the cooperation of Arab tribal leaders who provided camels loaded with water skins for the desert crossing. This logistical alliance with desert nomads was essential — without it, no Mesopotamian army could have crossed the Sinai in force."
+              },
+              {
+                "question": "What unusual punishment did Esarhaddon inflict on captured Egyptian rulers?",
+                "options": [
+                  "He made vassal kings wear dog chains and guard his palace gates",
+                  "He displayed them in cages at the gates of Nineveh",
+                  "He forced them to drag blocks for his building projects",
+                  "He tattooed 'property of Assyria' on their foreheads"
+                ],
+                "answerIndex": 0,
+                "explanation": "Esarhaddon's victory stele shows defeated rulers being led by ropes threaded through holes pierced in their lips. According to his inscriptions, some captured rebel leaders were forced to wear dog chains and stand guard at the gates of his palace — combining physical punishment with calculated humiliation."
+              }
+            ]
+          },
+          {
+            "id": "node-emp-harran",
+            "eventId": "evt-assyr-fall-harran",
+            "narrative": "The fall of Harran in 609 BCE was not just the end of the Assyrian Empire — it was the moment when Mesopotamia's first great imperial experiment was transferred, wholesale, to new management.\n\nAfter Nineveh's destruction in 612 BCE, the remnants of the Assyrian state retreated west to Harran under Ashur-uballit II, the last Assyrian king. In a stunning reversal of history, Egypt — which Assyria had conquered barely 60 years earlier — marched north to support its former conqueror. Pharaoh Necho II recognized that a weakened Assyria on his border was preferable to a powerful new Babylonian empire.\n\nBut Necho arrived too late. Nabopolassar's Babylonian army drove Ashur-uballit from Harran, and Egypt's attempt to retake the city failed. King Josiah of Judah was killed at the Battle of Megiddo trying to block Necho's march — a death that had profound consequences for Jewish history. The Assyrian state ceased to exist.\n\nYet what the Assyrians built survived. The Babylonians and Medes divided Assyrian territory but kept the provincial system, the road network, and the administrative apparatus running. When Cyrus the Great conquered Babylon in 539 BCE and built the Persian Empire, he inherited Assyrian roads, Assyrian administrative vocabulary, and the fundamental Assyrian concept that a single state could govern people from Egypt to Iran. The Persian innovation was not empire itself — that was Assyrian — but governing with tolerance rather than terror. The infrastructure that Assyria built became the skeleton on which the Persian, Hellenistic, and Roman empires were all built.",
+            "quiz": [
+              {
+                "question": "What happened to the Assyrian people after their empire fell?",
+                "options": [
+                  "They were completely annihilated with no descendants",
+                  "They were all deported to Babylon as slaves",
+                  "They continued living in their homeland, eventually becoming one of the earliest Christian communities",
+                  "They migrated en masse to India along the Silk Road"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Assyrian people survived the fall of their empire and continued living in northern Mesopotamia. They were among the earliest converts to Christianity (tradition says the apostle Thomas visited them), and Assyrian Christians still exist today — primarily in Iraq, Syria, Turkey, and diaspora communities worldwide, numbering roughly 3–5 million people."
+              },
+              {
+                "question": "What specific Assyrian innovation did the Persian Empire directly adopt?",
+                "options": [
+                  "The lamassu sculpture tradition for palace decoration",
+                  "The relay postal system with mounted couriers and road stations",
+                  "Mass deportation of conquered populations",
+                  "Lion hunting as a royal ritual"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Persian Royal Road system with relay stations (called angareion by the Greeks) was directly inherited from the Assyrian imperial road and postal network. Herodotus marveled at the speed of Persian postal couriers — 'neither snow nor rain nor heat nor gloom of night stays these couriers' — but the system they used was Assyrian in origin."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
