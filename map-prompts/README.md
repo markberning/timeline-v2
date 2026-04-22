@@ -130,6 +130,7 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 - [assyrian-empire.md](assyrian-empire.md) — 8 chapters (1–8)
 - [hittite-empire.md](hittite-empire.md) — 8 chapters (1–8)
 - [mycenaean-civilization.md](mycenaean-civilization.md) — 8 chapters (1–8)
+- [shang-dynasty.md](shang-dynasty.md) — 8 chapters (1–8)
 
 ## Redos
 
