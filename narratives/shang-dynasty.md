@@ -85,7 +85,7 @@ Wang died the following year, in 1900, during the Boxer Rebellion (he threw hims
 
 In 1928, the **Academia Sinica** (China's national research academy) sent archaeologist **Li Ji** (LEE-jee), trained at Harvard, to conduct China's first professional archaeological excavation at the site. Fifteen seasons of digging between 1928 and 1937, interrupted by the Japanese invasion of China, uncovered the ruins of a great Bronze Age capital: palace foundations, royal tombs, bronze foundries, and approximately 25,000 inscribed oracle bone fragments recovered from organized archival storage pits. The site was designated **Yinxu** (YEEN-shoo), meaning "the Ruins of Yin," and it turned out to be exactly what the ancient king lists said it was: the last capital of the Shang Dynasty, occupied from roughly 1250 to 1046 BCE.
 
-Since then, over 150,000 oracle bone fragments have been recovered from Yinxu and surrounding sites. It is the largest single archive of Bronze Age writing from any civilization on Earth.
+Since then, over 150,000 oracle bone fragments have been recovered from Yinxu and surrounding sites. It is the largest archive of Bronze Age writing from any single site on Earth. (The total corpus of Mesopotamian cuneiform tablets is vastly larger, but those are scattered across hundreds of sites and span three millennia.)
 
 ---
 
@@ -153,7 +153,7 @@ But the oracle bones were only half of what made the Shang extraordinary. The ot
 
 If you wanted to understand power in Shang China, you did not look at an army or a palace or a crown. You looked at a bronze vessel.
 
-The Shang produced the most technically sophisticated bronze castings of the ancient world, and they did it using a method that no other civilization employed. While the rest of the Bronze Age world (Mesopotamia, Egypt, the Aegean, the Andes) primarily used **lost-wax casting** (a technique where a wax model is coated in clay, the wax is melted out, and molten bronze is poured into the void), the Shang developed something entirely different: **piece-mold casting**.
+The Shang produced the most technically sophisticated bronze castings of the ancient world, and they did it using a method that no other civilization employed. While the rest of the Bronze Age world (Mesopotamia, Egypt, the Aegean) primarily used **lost-wax casting** (a technique where a wax model is coated in clay, the wax is melted out, and molten bronze is poured into the void), the Shang developed something entirely different: **piece-mold casting**.
 
 Here is how it worked. A craftsman began by sculpting a full-scale clay model of the desired vessel, complete with all its surface decoration. This model, called the "mother" or master, was then covered with sections of wet clay pressed firmly against the surface to capture every detail of the design. When these clay sections dried and hardened, they were carefully removed from the model, creating a set of interlocking ceramic mold pieces (typically three to twelve sections, depending on the vessel's complexity) that, when reassembled, reproduced the vessel's outer surface in negative. Meanwhile, the original clay model was shaved down to create the "core," which would define the hollow interior of the vessel. The mold sections were assembled around the reduced core, clamped together, and molten bronze (roughly 85 to 90 percent copper alloyed with 10 to 15 percent tin, sometimes with added lead to improve the metal's flow) was poured into the gap between the outer mold and the inner core. When the bronze cooled and solidified, the ceramic mold was broken away to reveal the finished vessel.
 
@@ -463,7 +463,7 @@ Meanwhile, back on the Yellow River plain, the dynasty that had defined Bronze A
 
 Every Chinese dynasty ends the same way.
 
-That is not literally true, but the Shang thought it was, because the Shang's own founding story (Chapter 1) told them so. Tang the Victuous had overthrown the tyrannical Jie of Xia because heaven had withdrawn its favor from a corrupt ruler and transferred it to a virtuous rebel. The Shang had been telling this story about themselves for five hundred years. And now, around 1100 BCE, someone else was telling it about them.
+That is not literally true, but the Shang thought it was, because the Shang's own founding story (Chapter 1) told them so. Tang the Victorious had overthrown the tyrannical Jie of Xia because heaven had withdrawn its favor from a corrupt ruler and transferred it to a virtuous rebel. The Shang had been telling this story about themselves for five hundred years. And now, around 1100 BCE, someone else was telling it about them.
 
 The last act of the Shang Dynasty is the story of three men: a king who lost his kingdom, a patient rebel who prepared the ground, and the rebel's son who finished the job. The three men were **Di Xin** (DEE-shin), the last Shang king; **King Wen of Zhou** (WUHN), the rebel who built the coalition; and **King Wu of Zhou** (WOO), who led the army that destroyed the Shang at the Battle of Muye.
 
