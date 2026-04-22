@@ -1,0 +1,758 @@
+{
+  "id": "ancient-korea",
+  "label": "Ancient Korea",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Three_Kingdoms_of_Korea",
+  "imageWikiSlug": "Bulguksa",
+  "pitch": "Three rival kingdoms fought for the Korean peninsula across seven centuries: Goguryeo Founded in the mountainous north, Baekje Founded in the fertile southwest, and Silla Founded in the southeast. When Gwanggaeto the Great expanded Goguryeo to its greatest extent and Goguryeo Defeats Sui China humiliated a million-man invasion, the world learned not to underestimate Korean warriors.\n\n🔑 Key Facts:\n• Buddhism Arrives in Goguryeo in 372 CE transformed Korean spiritual life and sparked centuries of temple building\n• Queen Seondeok of Silla became Korea's first female ruler and commissioned the Cheomseongdae Observatory, the oldest surviving observatory in East Asia\n• General Kim Yu-sin led the campaigns that achieved Silla Unifies Korea in 668 CE\n• Gaya Iron Trade made the southern confederacy a major exporter to China and Japan\n\n🤔 Why It Matters: The unification forged a shared Korean identity that survived Mongol invasions, Japanese colonization, and modern division into North and South Korea — one of the longest continuous cultural traditions on Earth.\n\n🎲 Wild Card: The Ondol Underfloor Heating system invented by Goguryeo channeled hot air beneath stone floors — and Koreans still use heated floors in their homes today, 1,800 years later.",
+  "countryIds": [
+    "410",
+    "408"
+  ],
+  "spans": [
+    {
+      "id": "span-ancient-korea-gojoseon",
+      "label": "Gojoseon",
+      "startYear": -2333,
+      "endYear": -108,
+      "description": "Korea's legendary first kingdom, traditionally founded by Dangun in 2333 BCE. Gojoseon grew from a Bronze Age chiefdom into a powerful state that controlled trade between China and the Korean peninsula before falling to Han dynasty invasion in 108 BCE.",
+      "wikiSlug": "Gojoseon"
+    },
+    {
+      "id": "span-ancient-korea-han-commanderies",
+      "label": "Han Commanderies",
+      "startYear": -108,
+      "endYear": 313,
+      "description": "After conquering Gojoseon, the Han dynasty established four commanderies on the northern peninsula. Lelang, the longest-lasting, became a conduit for Chinese culture, technology, and trade goods flowing into Korea for over four centuries.",
+      "wikiSlug": "Four_Commanderies_of_Han"
+    },
+    {
+      "id": "span-ancient-korea-proto-three-kingdoms",
+      "label": "Proto-Three Kingdoms",
+      "startYear": -57,
+      "endYear": 300,
+      "description": "Small tribal states and walled-town polities competed across the Korean peninsula. Silla, Goguryeo, and Baekje were founded during this period, laying the groundwork for the Three Kingdoms era.",
+      "wikiSlug": "Proto–Three_Kingdoms_of_Korea"
+    },
+    {
+      "id": "span-ancient-korea-goguryeo",
+      "label": "Goguryeo",
+      "startYear": -37,
+      "endYear": 668,
+      "description": "The largest and most militarily powerful of the Three Kingdoms, Goguryeo controlled Manchuria and northern Korea. It repelled massive Sui and Tang Chinese invasions and left a legacy of mountain fortresses and painted tomb murals.",
+      "wikiSlug": "Goguryeo"
+    },
+    {
+      "id": "span-ancient-korea-baekje",
+      "label": "Baekje",
+      "startYear": -18,
+      "endYear": 660,
+      "description": "The southwestern kingdom was renowned for refined Buddhist art, maritime trade, and cultural diplomacy. Baekje transmitted Buddhism, writing, and advanced technology to Japan, profoundly shaping early Japanese civilization.",
+      "wikiSlug": "Baekje"
+    },
+    {
+      "id": "span-ancient-korea-silla",
+      "label": "Silla",
+      "startYear": -57,
+      "endYear": 668,
+      "description": "Starting as the smallest of the Three Kingdoms in the southeast, Silla developed the Hwarang warrior corps and spectacular gold-crown culture. It ultimately allied with Tang China to conquer Baekje and Goguryeo, unifying Korea.",
+      "wikiSlug": "Silla"
+    },
+    {
+      "id": "span-ancient-korea-gaya",
+      "label": "Gaya Confederacy",
+      "startYear": 42,
+      "endYear": 562,
+      "description": "A loose confederation of city-states in the southern Nakdong River basin, Gaya was the peninsula's leading iron producer. Its iron ingots were exported to China and Japan before Silla absorbed the last Gaya states.",
+      "wikiSlug": "Gaya_confederacy"
+    },
+    {
+      "id": "span-ancient-korea-unified-silla",
+      "label": "Unified Silla",
+      "startYear": 668,
+      "endYear": 935,
+      "description": "After expelling Tang forces from the peninsula, Silla ruled a unified Korea from its capital at Gyeongju. The period saw a golden age of Buddhist art, international trade, and cultural achievement before internal decay led to the rise of Later Three Kingdoms.",
+      "wikiSlug": "Later_Silla"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-dangun-founding",
+      "label": "Dangun Founds Gojoseon",
+      "year": -2333,
+      "description": "According to Korean foundation mythology, the divine figure Dangun Wanggeom established Gojoseon, Korea's first kingdom. The legend — in which a bear transforms into a woman and bears Dangun — remains central to Korean national identity. October 3 is still celebrated as National Foundation Day.",
+      "wikiSlug": "Dangun",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-korean-bronze-age",
+      "label": "Korean Bronze Age Begins",
+      "year": -1500,
+      "description": "Bronze technology spread into the Korean peninsula from Manchuria and northern China, producing distinctive Manchurian-type bronze daggers and ritual mirrors. Korean bronzework developed its own style distinct from Chinese forms, including the signature slender bronze dagger (bipahyeong donggeom).",
+      "wikiSlug": "Mumun_pottery_period",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mumun-pottery",
+      "label": "Mumun Pottery Period",
+      "year": -1500,
+      "endYear": -300,
+      "description": "The Mumun (plain) pottery period saw Korean communities shift from comb-pattern Jeulmun ware to undecorated, functional ceramics. This era brought megalithic burials, rice paddies, walled settlements, and emerging social hierarchies across the peninsula.",
+      "wikiSlug": "Mumun_pottery_period",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-rice-cultivation-korea",
+      "label": "Rice Cultivation Arrives in Korea",
+      "year": -1500,
+      "description": "Wet-rice farming spread from China into the Korean peninsula, transforming the southern regions into productive agricultural land. Rice cultivation brought settled village life, population growth, and the social stratification that laid the groundwork for Korea's first organized polities.",
+      "wikiSlug": "Mumun_pottery_period",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-dolmen-culture",
+      "label": "Korean Dolmen Culture",
+      "year": -1000,
+      "description": "Korea produced an extraordinary concentration of megalithic dolmens — stone burial monuments — with over 30,000 surviving examples, roughly 40% of the world's total. The sheer density of dolmens on the peninsula, especially at sites like Gochang and Hwasun (now UNESCO World Heritage), reflects powerful chieftain societies that could mobilize large labor forces.",
+      "wikiSlug": "Dolmens_in_South_Korea",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-korean-shamanism",
+      "label": "Korean Shamanism (Muism)",
+      "year": -1000,
+      "description": "Indigenous Korean shamanism (mu-gyo or Muism) predates all organized religion on the peninsula. Mudang shamans — predominantly women — served as intermediaries between the living and the spirit world through ecstatic rituals (gut) involving music, dance, and trance. Elements of Muism survive in Korean folk religion today.",
+      "wikiSlug": "Korean_shamanism",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-korean-iron-age",
+      "label": "Iron Age Begins in Korea",
+      "year": -400,
+      "description": "Iron smelting technology reached the Korean peninsula from China, initially appearing in the northwest. Iron tools revolutionized agriculture and warfare, enabling the clearing of forested lowlands and the production of superior weapons that shifted the balance of power among competing chiefdoms.",
+      "wikiSlug": "Proto–Three_Kingdoms_of_Korea",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-wiman-joseon",
+      "label": "Wiman Seizes Gojoseon Throne",
+      "year": -194,
+      "description": "Wiman (Wei Man), a Chinese or Yan refugee, overthrew King Jun of Gojoseon and established Wiman Joseon. Under Wiman and his descendants, Gojoseon expanded and controlled trade between Han China and the Korean peninsula, growing wealthy as a commercial middleman.",
+      "wikiSlug": "Wiman_Joseon",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-fall-of-gojoseon",
+      "label": "Fall of Gojoseon",
+      "year": -108,
+      "description": "Emperor Wu of Han invaded Gojoseon after its rulers blocked Chinese access to Korean trade routes. After a year-long siege, Gojoseon's capital at Wanggeom-seong fell when internal factions assassinated the king and surrendered. The conquest ended Korea's first kingdom after over two millennia of legendary history.",
+      "wikiSlug": "Wiman_Joseon",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-han-commanderies",
+      "label": "Han Commanderies Established",
+      "year": -108,
+      "description": "After conquering Gojoseon, the Han dynasty established four commanderies (Lelang, Zhenfan, Lintun, and Xuantu) on the northern Korean peninsula. These administrative districts became channels for Chinese culture, technology, and goods flowing into Korea, but also sparked resistance that fueled the rise of native Korean kingdoms.",
+      "wikiSlug": "Four_Commanderies_of_Han",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-samhan-confederacies",
+      "label": "Samhan Confederacies Emerge",
+      "year": -100,
+      "description": "In southern Korea beyond Chinese control, three loose tribal confederacies took shape: Mahan in the southwest, Jinhan in the southeast, and Byeonhan in the south-central coast. These walled-town polities practiced rice agriculture, iron smelting, and maritime trade, eventually giving rise to Baekje (from Mahan), Silla (from Jinhan), and Gaya (from Byeonhan).",
+      "wikiSlug": "Samhan",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lelang-commandery",
+      "label": "Lelang Commandery Flourishes",
+      "year": -75,
+      "description": "After the other three commanderies were abandoned or consolidated, Lelang near modern Pyongyang became the sole surviving Han outpost in Korea. For over four centuries it served as a cultural interface, producing Chinese-style lacquerware, bronze mirrors, and administrative records that influenced surrounding Korean polities.",
+      "wikiSlug": "Lelang_Commandery",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-silla-founding",
+      "label": "Silla Founded",
+      "year": -57,
+      "description": "According to tradition, Hyeokgeose founded the kingdom of Silla in southeastern Korea, beginning the longest-lived Korean dynasty.",
+      "wikiSlug": "Silla",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goguryeo-founding",
+      "label": "Goguryeo Founded",
+      "year": -37,
+      "description": "Jumong (later honored as King Dongmyeong) established Goguryeo in the north, which would grow into the largest and most militarily powerful of the Three Kingdoms. The Jumong legend — a divine archer born from an egg who fled jealous brothers — became one of Korea's most enduring foundation myths.",
+      "wikiSlug": "Goguryeo",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-baekje-founding",
+      "label": "Baekje Founded",
+      "year": -18,
+      "description": "Onjo, said to be a son of Jumong, founded Baekje in southwestern Korea, which became renowned for its arts and maritime trade.",
+      "wikiSlug": "Baekje",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gaya-founding",
+      "label": "Gaya Confederacy Formed",
+      "year": 42,
+      "description": "The Gaya confederacy of city-states emerged in the southern Nakdong River basin, famous for iron production and trade with Japan.",
+      "wikiSlug": "Gaya_confederacy",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-iron-trade-gaya",
+      "label": "Gaya Iron Trade",
+      "year": 100,
+      "description": "Gaya became the Korean peninsula's leading iron producer, exporting iron ingots to China, Japan, and other Korean kingdoms. Iron ingots from Gaya served as a form of currency across maritime East Asia.",
+      "wikiSlug": "Gaya_confederacy",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ondol-heating",
+      "label": "Ondol Underfloor Heating",
+      "year": 200,
+      "description": "Goguryeo developed the ondol system of channeling heated air beneath stone floors, a technology still used in Korean homes today.",
+      "wikiSlug": "Ondol",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-goguryeo-fortress",
+      "label": "Goguryeo Mountain Fortresses",
+      "year": 300,
+      "description": "Goguryeo developed a sophisticated system of mountain fortresses that proved devastatingly effective against Chinese invasions. Built on strategic heights with stone walls tracing ridgelines, these fortresses could shelter entire populations during siege and control supply routes through mountain passes.",
+      "wikiSlug": "Goguryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goguryeo-conquers-lelang",
+      "label": "Goguryeo Conquers Lelang",
+      "year": 313,
+      "description": "Goguryeo seized Lelang Commandery, expelling the last Chinese administrative presence from the Korean peninsula after over four centuries. The conquest was a turning point: Korea was now governed entirely by Korean kingdoms, and Goguryeo absorbed Lelang's Chinese-trained bureaucrats and cultural infrastructure.",
+      "wikiSlug": "Lelang_Commandery",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goguryeo-tombs",
+      "label": "Goguryeo Tomb Murals",
+      "year": 350,
+      "description": "Goguryeo nobles commissioned elaborate painted tombs depicting hunting, dancing, wrestling, and celestial scenes, creating masterworks of East Asian art. The murals at Anak Tomb No. 3 and the Tomb of the Dancers are among the finest surviving examples of pre-modern Korean painting.",
+      "wikiSlug": "Goguryeo_tombs",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-buddhism-goguryeo",
+      "label": "Buddhism Arrives in Goguryeo",
+      "year": 372,
+      "description": "Monk Sundo introduced Buddhism to Goguryeo from Former Qin, beginning the transformation of Korean spiritual and artistic life.",
+      "wikiSlug": "Korean_Buddhism",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-confucian-academy",
+      "label": "Taehak Confucian Academy",
+      "year": 372,
+      "description": "Goguryeo established the Taehak, Korea's first state Confucian academy, training aristocrats in Chinese classics and administration. The simultaneous adoption of Buddhism and Confucianism in the same year reflects Goguryeo's deliberate effort to build a literate, organized state.",
+      "wikiSlug": "Goguryeo",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-goguryeo-code-of-laws",
+      "label": "Goguryeo Legal Code",
+      "year": 373,
+      "description": "Goguryeo promulgated a formal legal code (yullyeong) in the same year it established the Taehak academy and received Buddhism — a triple modernization that transformed the kingdom from a tribal federation into a structured state with written laws, formal education, and state religion.",
+      "wikiSlug": "Goguryeo",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-buddhism-baekje",
+      "label": "Buddhism Arrives in Baekje",
+      "year": 384,
+      "description": "Indian monk Marananta brought Buddhism to Baekje, where it flourished and was later transmitted to Japan.",
+      "wikiSlug": "Korean_Buddhism",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-gwanggaeto-expands",
+      "label": "Gwanggaeto the Great",
+      "year": 391,
+      "endYear": 413,
+      "description": "Gwanggaeto expanded Goguryeo to its greatest territorial extent, conquering Manchuria, parts of the Liaodong Peninsula, and much of the northern Korean peninsula. He campaigned south against Baekje and the Wa (Japanese) raiders, and north against the Khitan and other Manchurian peoples, making Goguryeo a major East Asian power.",
+      "wikiSlug": "Gwanggaeto_the_Great",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-baekje-japan-trade",
+      "label": "Baekje-Japan Cultural Exchange",
+      "year": 400,
+      "description": "Baekje transmitted Buddhism, Chinese writing, Confucian texts, and advanced technology to Japan, profoundly shaping early Japanese civilization. Baekje scholars, monks, and artisans migrated to Japan in waves, and the connection was so deep that Japanese royals reportedly wept when Baekje fell.",
+      "wikiSlug": "Baekje",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-silla-gold-crowns",
+      "label": "Silla Gold Crowns",
+      "year": 400,
+      "description": "Royal tombs in Gyeongju yielded spectacular gold crowns with tree and antler motifs, among the finest examples of ancient metalwork anywhere in East Asia. The crowns' shamanistic imagery — trees reaching toward heaven, deer antlers symbolizing spiritual power — predates Buddhist influence in Silla.",
+      "wikiSlug": "Silla_gold_crowns",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-gwanggaeto-stele",
+      "label": "Gwanggaeto Stele Erected",
+      "year": 414,
+      "description": "King Jangsu erected a massive 6.4-meter stone stele near modern Ji'an, China, commemorating his father Gwanggaeto's conquests. With over 1,800 Chinese characters, it is the most important primary source for early Korean history and one of the largest inscribed stelae in East Asia.",
+      "wikiSlug": "Gwanggaeto_Stele",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jangsu-moves-capital",
+      "label": "Jangsu Moves Capital to Pyongyang",
+      "year": 427,
+      "description": "King Jangsu relocated Goguryeo's capital to Pyongyang, shifting the kingdom's center southward and intensifying rivalry with Baekje and Silla. Jangsu's 79-year reign (the longest of any Korean king) saw Goguryeo at its territorial and cultural peak.",
+      "wikiSlug": "Jangsu_of_Goguryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-baekje-buddhist-art",
+      "label": "Baekje Buddhist Art Flourishes",
+      "year": 500,
+      "description": "Baekje artisans created refined Buddhist sculptures and temple architecture that profoundly influenced early Japanese Buddhist art. The gilt-bronze Baekje Incense Burner, discovered in 1993, is considered one of Korea's greatest artistic treasures.",
+      "wikiSlug": "Baekje",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-gyeongju-royal-tombs",
+      "label": "Gyeongju Royal Tombs",
+      "year": 500,
+      "description": "The Silla capital of Gyeongju contains over 150 massive earthen burial mounds, some rising 20 meters (65 feet) high. These tombs yielded gold crowns, glass vessels, weapons, and jewelry that reveal Silla's wealth and its connections to distant Silk Road cultures.",
+      "wikiSlug": "Royal_Tombs_of_the_Silla_Dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-idu-writing",
+      "label": "Idu Writing System",
+      "year": 500,
+      "description": "Korean scholars developed idu, a system using Chinese characters to represent Korean grammar and sounds, enabling writing in the Korean language for the first time. Though clumsy compared to later hangul, idu remained in use for over a thousand years.",
+      "wikiSlug": "Idu_(Korean)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-silk-road-silla",
+      "label": "Silla on the Silk Road",
+      "year": 500,
+      "description": "Silla's gold crowns and glass artifacts reveal connections to Central Asian and Roman trade networks via the Silk Road. Roman glass beads and Middle Eastern-style gold filigree found in Gyeongju tombs show the peninsula was linked to transcontinental commerce.",
+      "wikiSlug": "Silla",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-silla-bone-rank",
+      "label": "Silla Bone Rank System",
+      "year": 520,
+      "description": "King Beopheung formalized the hereditary bone-rank system, rigidly stratifying Silla society by bloodline and determining access to office, marriage partners, house size, and even clothing color. Only those of 'sacred bone' rank could become king.",
+      "wikiSlug": "Bone_rank_system",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-buddhism-silla",
+      "label": "Buddhism Adopted in Silla",
+      "year": 527,
+      "description": "Silla officially adopted Buddhism after the martyr Ichadon's execution reportedly produced miracles — his blood ran white as milk, and the earth shook — convincing the king to embrace the faith. Silla was the last of the Three Kingdoms to accept Buddhism.",
+      "wikiSlug": "Ichadon",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hwarang",
+      "label": "Hwarang Warrior Corps",
+      "year": 540,
+      "description": "Silla formalized the Hwarang ('Flower Knights'), an elite youth corps trained in martial arts, Buddhism, Confucian ethics, poetry, and music. The Hwarang produced many of Silla's greatest generals and statesmen, and their five secular precepts blended warrior discipline with Buddhist compassion.",
+      "wikiSlug": "Hwarang",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hwangnyongsa",
+      "label": "Hwangnyongsa Temple Built",
+      "year": 553,
+      "description": "Silla built the massive Hwangnyongsa temple complex in Gyeongju, featuring a legendary nine-story wooden pagoda nearly 80 meters (260 feet) tall — one of the tallest structures in East Asia at the time. The temple stood for nearly 700 years before Mongol invaders destroyed it in 1238.",
+      "wikiSlug": "Hwangnyongsa",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-silla-gaya-conquest",
+      "label": "Silla Conquers Gaya",
+      "year": 562,
+      "description": "Silla absorbed the last Gaya states, gaining their iron resources, skilled metalworkers, and maritime trade connections with Japan. The conquest eliminated a buffer zone and brought Silla into direct rivalry with Baekje.",
+      "wikiSlug": "Gaya_confederacy",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-samguk-sagi-sources",
+      "label": "Early Korean Histories Compiled",
+      "year": 600,
+      "description": "Each of the Three Kingdoms compiled official histories: Goguryeo's New Collection (Sinjip, 600 CE), Baekje's Documentary Records, and Silla's National History. Though only fragments survive through later works like the Samguk Sagi (1145 CE), they show all three kingdoms valued written historical records.",
+      "wikiSlug": "Samguk_Sagi",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mireuksa",
+      "label": "Mireuksa Temple Built",
+      "year": 602,
+      "description": "Baekje constructed Mireuksa, the largest Buddhist temple in Korean history, with a massive stone pagoda that partially survives today — the oldest and largest stone pagoda in Korea.",
+      "wikiSlug": "Mireuksa",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-eulji-mundeok",
+      "label": "General Eulji Mundeok",
+      "year": 612,
+      "description": "Goguryeo's legendary general lured the massive Sui invasion force deep into enemy territory with a feigned retreat, then destroyed them at the Salsu River in one of history's most lopsided military victories. He reportedly sent a mocking poem to the Sui commander before the final ambush.",
+      "wikiSlug": "Eulji_Mundeok",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goguryeo-sui-war",
+      "label": "Goguryeo Defeats Sui China",
+      "year": 612,
+      "description": "General Eulji Mundeok annihilated a massive Sui Chinese invasion force — reportedly over a million soldiers — at the Battle of Salsu. Of 305,000 Sui troops who crossed the Yalu River, fewer than 3,000 returned. The catastrophic losses contributed to the collapse of the Sui dynasty itself.",
+      "wikiSlug": "Goguryeo–Sui_War",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-queen-seondeok",
+      "label": "Queen Seondeok of Silla",
+      "year": 632,
+      "endYear": 647,
+      "description": "Korea's first female ruler promoted Buddhism and scholarship, commissioning Cheomseongdae and the nine-story wooden pagoda at Hwangnyongsa. She navigated constant military threats from Goguryeo and Baekje while laying the cultural and diplomatic foundations for Silla's eventual unification of Korea.",
+      "wikiSlug": "Queen_Seondeok_of_Silla",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-yeon-gaesomun",
+      "label": "Yeon Gaesomun Seizes Power",
+      "year": 642,
+      "description": "The military strongman Yeon Gaesomun killed over 100 aristocrats in a coup and installed a puppet king, making himself dictator of Goguryeo. His aggressive policies provoked Tang Emperor Taizong's invasion, but Yeon Gaesomun's iron grip held the kingdom together and his generals repeatedly defeated Chinese armies.",
+      "wikiSlug": "Yeon_Gaesomun",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goguryeo-tang-war",
+      "label": "Goguryeo-Tang Wars",
+      "year": 645,
+      "description": "Goguryeo repeatedly repelled Tang Chinese invasions, including Emperor Taizong's personal campaign in 645 CE. The fortress of Ansi held out for over 60 days against the Tang army, humiliating one of history's greatest conquerors. Tang China — the most powerful empire in Asia — could not break Goguryeo by force alone.",
+      "wikiSlug": "Goguryeo–Tang_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cheomseongdae",
+      "label": "Cheomseongdae Observatory",
+      "year": 647,
+      "description": "Queen Seondeok built the oldest surviving astronomical observatory in East Asia. The stone tower in Gyeongju, standing 9 meters (30 feet) tall with 362 stones (one for each day of the lunar year), demonstrates Silla's scientific sophistication and remains a symbol of Korean ingenuity.",
+      "wikiSlug": "Cheomseongdae",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kim-yusin",
+      "label": "General Kim Yu-sin",
+      "year": 655,
+      "description": "Silla's greatest general led the campaigns that conquered Baekje and Goguryeo, unifying the Korean peninsula under Silla rule. Born into Gaya royalty (his great-grandfather was the last Gaya king), Kim Yu-sin rose through the Hwarang system and became the architect of Korean unification.",
+      "wikiSlug": "Kim_Yu-sin",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-baekje-falls",
+      "label": "Fall of Baekje",
+      "year": 660,
+      "description": "A combined Silla-Tang alliance conquered Baekje, ending the southwestern kingdom after nearly 700 years. According to legend, 3,000 Baekje court women threw themselves from the cliff at Nakhwaam rather than face capture — the 'Rock of the Falling Flowers.'",
+      "wikiSlug": "Fall_of_Baekje",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-wonhyo",
+      "label": "Monk Wonhyo",
+      "year": 660,
+      "description": "Korea's most influential Buddhist philosopher synthesized competing doctrines and brought Buddhism to the common people through popular teachings. His famous 'skull cup' enlightenment — realizing that a skull full of rainwater that disgusted him in daylight had tasted fine in the dark — became a foundational Zen parable about the nature of mind.",
+      "wikiSlug": "Wonhyo",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-goguryeo-falls",
+      "label": "Fall of Goguryeo",
+      "year": 668,
+      "description": "The Silla-Tang alliance finally conquered Goguryeo after repeated campaigns, ending the most powerful of the Three Kingdoms. Internal divisions and the defection of key generals doomed Goguryeo after it had successfully resisted Chinese invasion for decades.",
+      "wikiSlug": "Fall_of_Goguryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-silla-unification",
+      "label": "Silla Unifies Korea",
+      "year": 668,
+      "description": "After defeating Goguryeo, Silla turned on its Tang allies and fought a seven-year war (670-676) to expel Chinese forces from the peninsula. The expulsion of Tang was arguably more important than the conquests themselves — it established that Korea would be governed by Koreans, not absorbed into the Chinese empire.",
+      "wikiSlug": "Later_Silla",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-silla-expels-tang",
+      "label": "Silla Expels Tang Forces",
+      "year": 676,
+      "description": "After seven years of fighting its former ally, Silla decisively defeated Tang forces at the battles of Maeso Fortress and Kibolpo, driving China from the Korean peninsula. Tang recognized Silla's sovereignty south of the Taedong River, establishing the border that defined Korean territory for centuries.",
+      "wikiSlug": "Silla%27s_war_of_unification",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-silla-national-academy",
+      "label": "Silla National Confucian Academy",
+      "year": 682,
+      "description": "Unified Silla established the Gukhak (National Academy) to train officials in Confucian classics, history, and administration. The academy represented a shift toward meritocratic governance that would deepen under subsequent Korean dynasties, gradually complementing the rigid bone-rank system.",
+      "wikiSlug": "Later_Silla",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-unified-silla-golden-age",
+      "label": "Unified Silla Golden Age",
+      "year": 682,
+      "description": "Under kings Sinmun and Seongdeok, Unified Silla entered a golden age of Buddhist art, scholarship, and international trade. The capital Gyeongju reportedly had one million residents and was one of the largest cities in the world, rivaling Chang'an and Baghdad.",
+      "wikiSlug": "Later_Silla",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hyangga-poetry",
+      "label": "Hyangga Poetry Tradition",
+      "year": 700,
+      "description": "Silla poets composed hyangga ('native songs') using the hyangchal writing system to record Korean-language poetry in Chinese characters. Only 25 survive, preserved in the Samguk Yusa, but they represent the oldest Korean-language literature and a bridge between oral tradition and written culture.",
+      "wikiSlug": "Hyangga",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-silla-celadon-precursors",
+      "label": "Unified Silla Stoneware",
+      "year": 750,
+      "description": "Unified Silla potters produced high-fired gray stoneware with stamped and incised decoration, building on Gaya and earlier Silla traditions. These sophisticated ceramics were precursors to the celadon pottery that would make Korea world-famous during the Goryeo dynasty.",
+      "wikiSlug": "Korean_pottery_and_porcelain",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-bulguksa",
+      "label": "Bulguksa Temple Built",
+      "year": 751,
+      "description": "Prime Minister Kim Daeseong commissioned Bulguksa temple and the nearby Seokguram grotto in Gyeongju, masterpieces of Unified Silla Buddhist architecture. The Seokguram Buddha — a serene granite figure gazing out to sea through a precisely oriented window — is considered one of the finest Buddhist sculptures in the world. Both are UNESCO World Heritage sites.",
+      "wikiSlug": "Bulguksa",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-woodblock-printing",
+      "label": "Mugujeonggwang Great Dharani Sutra",
+      "year": 751,
+      "description": "The world's oldest surviving woodblock-printed document, the Mugujeonggwang Great Dharani Sutra, was discovered inside a Bulguksa pagoda in 1966. Printed around 751 CE, it predates the Chinese Diamond Sutra by over a century, suggesting Korea was at the forefront of printing technology.",
+      "wikiSlug": "Pure_Light_Dharani_Sutra",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-seokguram",
+      "label": "Seokguram Grotto",
+      "year": 751,
+      "description": "The artificial stone grotto housing a monumental seated Buddha was built on a hillside above Bulguksa temple. Its engineering is remarkable: the domed ceiling uses precisely fitted stone blocks without mortar, and the cave's ventilation system kept the interior dry for over a thousand years.",
+      "wikiSlug": "Seokguram",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-emille-bell",
+      "label": "Emille Bell Cast",
+      "year": 771,
+      "description": "The Divine Bell of King Seongdeok (Emille Bell) was cast in Gyeongju — at 3.75 meters (12 feet) tall and nearly 19 tons, it is one of the largest and most beautifully decorated bronze bells ever made. Its haunting tone, according to legend, comes from a child sacrificed during casting, giving it the name 'Emille' (baby's cry).",
+      "wikiSlug": "Emille_Bell",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-jang-bogo",
+      "label": "Jang Bogo's Maritime Empire",
+      "year": 828,
+      "description": "The former Silla slave Jang Bogo established Cheonghaejin, a maritime garrison on Wando Island, and built a commercial empire controlling trade routes between Korea, China, and Japan. He eliminated piracy in the Yellow Sea and became the most powerful maritime trader in East Asia before his assassination in 846.",
+      "wikiSlug": "Jang_Bogo",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-later-three-kingdoms",
+      "label": "Later Three Kingdoms Period",
+      "year": 892,
+      "description": "Rebellions shattered Unified Silla into three rival states: Later Baekje, Later Goguryeo (Taebong), and a rump Silla. Provincial strongmen carved out independent kingdoms as the bone-rank aristocracy lost control of the countryside, setting the stage for the final contest to reunify Korea.",
+      "wikiSlug": "Later_Three_Kingdoms_of_Korea",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-wang-geon-goryeo",
+      "label": "Wang Geon Founds Goryeo",
+      "year": 918,
+      "description": "Wang Geon, a merchant's son from Kaesong, overthrew his predecessor and founded the Goryeo dynasty, from which the English name 'Korea' derives. Wang Geon combined military prowess with diplomatic marriages, eventually absorbing Later Baekje and Silla to reunify the peninsula in 935-936.",
+      "wikiSlug": "Taejo_of_Goryeo",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-silla-surrenders",
+      "label": "Silla Surrenders to Goryeo",
+      "year": 935,
+      "description": "The last Silla king, Gyeongsun, peacefully surrendered to Wang Geon of Goryeo, ending a dynasty that had lasted nearly a thousand years (57 BCE–935 CE). Wang Geon treated the former king with honor, giving him a high rank and marrying a Silla princess — a diplomatic gesture that helped legitimize Goryeo rule.",
+      "wikiSlug": "Gyeongsun_of_Silla",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
