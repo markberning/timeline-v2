@@ -173,7 +173,7 @@ The foundation was leveled to within 2.1 centimeters across the entire 756-foot 
 
 Now the numbers. They are worth dwelling on, because the Great Pyramid is one of those structures where the raw data is more astonishing than any description.
 
-The pyramid is built from approximately **2.3 million limestone blocks**, each averaging about 2.5 tons — roughly the weight of a large SUV. Some of the blocks, particularly the granite beams in the King's Chamber, weigh 25 to 80 tons. The total weight of the pyramid is estimated at about 6 million tons. If you took all 2.3 million blocks and laid them end to end, the line would stretch roughly two-thirds of the way around the Earth.
+The pyramid is built from approximately **2.3 million limestone blocks**, each averaging about 2.5 tons — roughly the weight of a large SUV. Some of the blocks, particularly the granite beams in the King's Chamber, weigh 25 to 80 tons. The total weight of the pyramid is estimated at about 6 million tons. The base covers about 13 acres (5.3 hectares), roughly the area of ten football fields.
 
 When completed, the pyramid stood **481 feet (146.5 meters) tall** — the height of a 48-story building, the tallest structure on Earth for 3,800 years, not surpassed until the central spire of Lincoln Cathedral in England was completed around 1311 CE. No other human-built structure has held the height record for remotely as long. The pyramid's base covers **13.1 acres (5.3 hectares)** — large enough to fit ten football fields inside its footprint.
 
