@@ -153,6 +153,42 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
   )
 }
 
+// Estimate text width at ~5.5px per character for 9px bold sans
+function estimateLabelWidth(label: string): number {
+  return label.length * 5.5 + 10 // +10 for padding
+}
+
+// For each region lane, figure out which bars have enough clear space
+// to show their label without overlapping a neighbor.
+function computeLabelVisibility(
+  civs: NavigatorTl[],
+  yearToX: (y: number) => number,
+): Set<string> {
+  const showLabel = new Set<string>()
+  // Sort by start position
+  const bars = civs
+    .map(c => ({ id: c.id, label: c.label, x: yearToX(c.startYear), w: Math.max(yearToX(c.endYear) - yearToX(c.startYear), 70) }))
+    .sort((a, b) => a.x - b.x)
+
+  for (let i = 0; i < bars.length; i++) {
+    const bar = bars[i]
+    const labelW = estimateLabelWidth(bar.label)
+    if (bar.w < labelW) continue // bar too narrow for its own label
+
+    // Check gap to previous and next bar
+    const prevEnd = i > 0 ? bars[i - 1].x + bars[i - 1].w : -Infinity
+    const nextStart = i < bars.length - 1 ? bars[i + 1].x : Infinity
+    const gapBefore = bar.x - prevEnd
+    const gapAfter = nextStart - (bar.x + bar.w)
+
+    // Show label if there's at least 4px gap on each side, or bar is wide enough
+    if (gapBefore >= 4 && gapAfter >= 4) {
+      showLabel.add(bar.id)
+    }
+  }
+  return showLabel
+}
+
 // ── Mobile: swim-lane bars ──
 function SwimLaneBars({
   yearToX,
@@ -168,39 +204,36 @@ function SwimLaneBars({
       {REGION_ORDER.map((region, laneIdx) => {
         const civs = CIVS_BY_REGION.get(region) ?? []
         const laneTop = TICK_AXIS_HEIGHT + laneIdx * LANE_HEIGHT_MOBILE
+        const labelsToShow = computeLabelVisibility(civs, yearToX)
 
         return civs.map(civ => {
           const x = yearToX(civ.startYear)
           const w = Math.max(yearToX(civ.endYear) - x, 70)
           const isActive = civ.id === activeCivId
           const color = REGION_COLORS[civ.region]
+          const showLabel = isActive || labelsToShow.has(civ.id)
 
           return (
             <button
               key={civ.id}
-              className="absolute rounded-sm cursor-pointer"
+              className="absolute rounded-sm overflow-hidden cursor-pointer"
               style={{
                 left: x,
                 top: laneTop + 2,
                 width: w,
                 height: LANE_HEIGHT_MOBILE - 4,
-                backgroundColor: isActive ? color : `color-mix(in srgb, ${color} 25%, var(--background))`,
+                backgroundColor: isActive ? color : `color-mix(in srgb, ${color} 15%, var(--background))`,
                 boxShadow: isActive ? `0 0 8px ${color}60` : 'none',
                 zIndex: isActive ? 5 : 1,
-                overflow: isActive ? 'visible' : 'hidden',
               }}
               onClick={() => onSelect(civ.id)}
             >
-              {isActive && (
+              {showLabel && (
                 <span
-                  className="absolute whitespace-nowrap text-[9px] font-bold text-white pointer-events-none"
+                  className="absolute inset-0 flex items-center px-1.5 text-[9px] font-bold truncate"
                   style={{
-                    left: 0,
-                    bottom: '100%',
-                    marginBottom: 1,
-                    backgroundColor: color,
-                    borderRadius: 3,
-                    padding: '1px 5px',
+                    color: isActive ? 'white' : 'var(--foreground)',
+                    opacity: isActive ? 1 : 0.4,
                   }}
                 >
                   {civ.label}
