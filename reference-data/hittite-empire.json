@@ -1,0 +1,830 @@
+{
+  "id": "hittite-empire",
+  "label": "Hittite Empire",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "wikiSlug": "Hittites",
+  "imageWikiSlug": "Hattusa",
+  "pitch": "In the highlands of Anatolia (modern Turkey), the Hittites built one of the Bronze Age's great superpowers — the only civilization to fight pharaonic Egypt to a standstill. From the founding of the Old Hittite Kingdom under Hattusili I around 1650 BCE through the catastrophic Bronze Age Collapse that ended them around 1178 BCE, the Hittites dominated the ancient Near East for nearly five centuries.\n\n🔑 Key Facts:\n• The Battle of Kadesh between Suppiluliuma II's predecessor Muwatalli II and Ramesses II was the largest chariot battle in history — and ended in a draw\n• The Egyptian-Hittite Peace Treaty following Kadesh is the oldest known international peace treaty, with copies found in both Hattusa and Egypt\n• Hittite Iron Smelting Techniques gave them a technological edge that foreshadowed the entire Iron Age\n• The capital Hattusa was a massive fortified city with the iconic Lions Gate and thousands of cuneiform tablets\n\n🤔 Why It Matters: The Hittites pioneered constitutional monarchy with the Hittite Law Code, developed sophisticated diplomacy through royal marriages and treaties, and their mastery of iron technology helped transition the ancient world from Bronze to Iron Age.\n\n🎲 Wild Card: When Suppiluliuma I was conquering the Near East, an Egyptian queen (likely Ankhesenamun, Tutankhamun's widow) wrote begging him to send a son to marry her and become pharaoh. He sent Prince Zannanza — who was murdered en route, triggering a war between the two empires.",
+  "countryIds": [
+    "792"
+  ],
+  "spans": [
+    {
+      "id": "span-hittite-empire-old-hittite",
+      "label": "Old Hittite Kingdom",
+      "startYear": -1650,
+      "endYear": -1500,
+      "description": "Hattusili I and Mursili I established Hattusa as the capital and projected Hittite power into Syria and Mesopotamia, culminating in the audacious sack of Babylon in 1595 BCE. Court assassinations and succession crises marked the kingdom's turbulent early politics.",
+      "wikiSlug": "Old_Hittite_Kingdom"
+    },
+    {
+      "id": "span-hittite-empire-middle-hittite",
+      "label": "Middle Hittite Period",
+      "startYear": -1500,
+      "endYear": -1400,
+      "description": "A period of internal weakness and external pressure from the Kaska peoples and Hurrian kingdoms. King Telepinu's succession edict attempted to stabilize the throne, but the empire contracted before its later revival.",
+      "wikiSlug": "Hittites"
+    },
+    {
+      "id": "span-hittite-empire-new-hittite",
+      "label": "New Hittite Kingdom",
+      "startYear": -1400,
+      "endYear": -1178,
+      "description": "The empire reached its peak under Suppiluliuma I, who conquered Mitanni and rivaled Egypt as a Near Eastern superpower. This era saw the Battle of Kadesh, the Egyptian-Hittite peace treaty, and the catastrophic Bronze Age Collapse that destroyed the empire.",
+      "wikiSlug": "Hittites"
+    },
+    {
+      "id": "span-hittite-empire-neo-hittite",
+      "label": "Neo-Hittite States",
+      "startYear": -1178,
+      "endYear": -700,
+      "description": "After the empire's collapse, successor kingdoms like Carchemish preserved Hittite culture, Luwian hieroglyphs, and political traditions in southeastern Anatolia and northern Syria. These states were eventually absorbed by the Neo-Assyrian Empire.",
+      "wikiSlug": "Syro-Hittite_states"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-hatti-civilization",
+      "label": "Hatti Civilization",
+      "year": -2500,
+      "endYear": -1750,
+      "description": "The pre-Hittite Hattians were the indigenous people of central Anatolia, with sophisticated metalwork and religious traditions. The Hittites absorbed their culture so thoroughly that they called their own land 'Hatti' and adopted Hattic as a liturgical language.",
+      "wikiSlug": "Hattians",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-alacahoyuk-tombs",
+      "label": "Royal Tombs of Alaca Höyük",
+      "year": -2400,
+      "endYear": -2200,
+      "description": "The pre-Hittite royal tombs at Alaca Höyük contained stunning gold and bronze artifacts including solar disc standards, revealing a wealthy Hattian elite culture that predated and influenced the Hittites.",
+      "wikiSlug": "Alacahöyük",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-assyrian-trading-colonies",
+      "label": "Assyrian Trading Colonies (Karum)",
+      "year": -1950,
+      "endYear": -1750,
+      "description": "Old Assyrian merchants established trading colonies (karum) across Anatolia, most notably at Kanesh. These colonies brought cuneiform writing and commercial practices that the later Hittite state would adopt.",
+      "wikiSlug": "Kārum",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-anitta-of-kussara",
+      "label": "Anitta of Kussara",
+      "year": -1750,
+      "endYear": -1720,
+      "description": "Anitta, king of Kussara, conquered Kanesh and destroyed Hattusa, placing a curse on anyone who rebuilt it. His inscription is the earliest known text in the Hittite language — and the later Hittites ignored his curse entirely.",
+      "wikiSlug": "Anitta",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hattusili-i",
+      "label": "Hattusili I",
+      "year": -1650,
+      "endYear": -1620,
+      "description": "Hattusili I founded the Old Hittite Kingdom and established Hattusa as the capital, launching campaigns into northern Syria.",
+      "wikiSlug": "Hattusili_I",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hattusa-capital",
+      "label": "Hattusa Established as Capital",
+      "year": -1640,
+      "description": "The fortified city of Hattusa in central Anatolia became the Hittite capital, eventually growing to house over 40,000 people and a massive royal archive.",
+      "wikiSlug": "Hattusa",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-conquest-aleppo",
+      "label": "Conquest of Aleppo",
+      "year": -1620,
+      "description": "Hattusili I conquered Aleppo, extending Hittite power deep into Syria and establishing the empire as a major Near Eastern power.",
+      "wikiSlug": "Hattusili_I",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mursili-i",
+      "label": "Mursili I",
+      "year": -1610,
+      "endYear": -1590,
+      "description": "Grandson of Hattusili I, Mursili I led the dramatic raid on Babylon in 1595 BCE that toppled the Amorite dynasty.",
+      "wikiSlug": "Mursili_I",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-siege-urshu",
+      "label": "Siege of Urshu",
+      "year": -1600,
+      "description": "The Hittite siege of Urshu in northern Syria produced one of the earliest detailed siege narratives, describing battering rams, tunnels, and the king's fury at his generals' incompetence.",
+      "wikiSlug": "Siege_of_Urshu",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hittite-cuneiform",
+      "label": "Hittite Cuneiform Adaptation",
+      "year": -1600,
+      "description": "The Hittites adapted Mesopotamian cuneiform to write their Indo-European language, creating the earliest known written Indo-European tongue.",
+      "wikiSlug": "Hittite_language",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tawananna-institution",
+      "label": "Tawananna (Great Queen) Institution",
+      "year": -1600,
+      "description": "The Hittite office of Tawananna gave the Great Queen independent religious and political authority that she retained even after her husband's death — a unique institution among Bronze Age monarchies.",
+      "wikiSlug": "Tawananna",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sack-of-babylon",
+      "label": "Sack of Babylon",
+      "year": -1595,
+      "description": "Mursili I's audacious long-range raid sacked Babylon, ending the First Babylonian Dynasty and demonstrating Hittite military reach across Mesopotamia.",
+      "wikiSlug": "Sack_of_Babylon_(1595_BC)",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-telepinu-ruler",
+      "label": "Telipinu",
+      "year": -1525,
+      "endYear": -1500,
+      "description": "King Telipinu seized the throne by overthrowing the assassins of his predecessor, then paradoxically issued an edict banning future usurpations — the reformer who got in by the door he was trying to lock.",
+      "wikiSlug": "Telepinu_(king)",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-telepinu-edict",
+      "label": "Edict of Telepinu",
+      "year": -1525,
+      "description": "King Telepinu issued an edict establishing royal succession rules to end the cycle of assassinations, one of the earliest constitutional documents in history.",
+      "wikiSlug": "Telepinu_(king)",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hittite-law-code",
+      "label": "Hittite Law Code",
+      "year": -1500,
+      "description": "The Hittite law code was remarkably humane for its era, emphasizing restitution over punishment and distinguishing between intentional and accidental harm.",
+      "wikiSlug": "Hittite_laws",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hittite-spring-festival",
+      "label": "AN.TAH.SUM Spring Festival",
+      "year": -1500,
+      "description": "The great Hittite spring festival lasted 38 days, with the king performing rituals at cult centers across the homeland to ensure divine favor for the harvest.",
+      "wikiSlug": "Hittite_religion",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-kizzuwatna-treaty",
+      "label": "Treaty with Kizzuwatna",
+      "year": -1480,
+      "description": "The Hittites concluded a diplomatic treaty with the kingdom of Kizzuwatna in southeastern Anatolia, absorbing Hurrian religious and cultural practices.",
+      "wikiSlug": "Kizzuwatna",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tin-trade",
+      "label": "Anatolian Tin Trade",
+      "year": -1480,
+      "description": "Hittite control of Anatolian tin sources was strategically vital, as tin was essential for bronze production throughout the ancient Near East.",
+      "wikiSlug": "Tin_sources_and_trade_in_ancient_times",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-hurrian-religion",
+      "label": "Hurrian Religious Influence",
+      "year": -1450,
+      "description": "Hurrian gods and rituals were increasingly absorbed into Hittite religious practice, creating a syncretic pantheon of over a thousand deities — the 'thousand gods of Hatti.'",
+      "wikiSlug": "Hittite_mythology",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-thousand-gods",
+      "label": "Thousand Gods of Hatti",
+      "year": -1450,
+      "description": "The Hittite pantheon absorbed deities from every conquered and allied people — Hattian, Hurrian, Mesopotamian, Luwian — swelling to over a thousand named gods. Rather than replacing foreign gods, the Hittites simply added them to the roster.",
+      "wikiSlug": "Hittite_religion",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-storm-god-hatti",
+      "label": "Storm God of Hatti (Teshub)",
+      "year": -1450,
+      "description": "The Storm God of Hatti — identified with the Hurrian Teshub — was the supreme deity of the Hittite state, protector of kingship, and the god to whom Great Kings prayed in crisis. His consort was the Sun Goddess of Arinna.",
+      "wikiSlug": "Teshub",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tudhaliya-i",
+      "label": "Tudhaliya I",
+      "year": -1430,
+      "endYear": -1400,
+      "description": "Tudhaliya I revitalized Hittite power after a period of weakness, campaigning against Arzawa and the Kaska peoples to restore the empire.",
+      "wikiSlug": "Tudhaliya_I",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-iron-smelting",
+      "label": "Hittite Iron Smelting Techniques",
+      "year": -1420,
+      "description": "The Hittites were among the first to smelt iron on a significant scale, closely guarding the technology that would eventually define the Iron Age.",
+      "wikiSlug": "Iron_Age",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-hattusa-temples",
+      "label": "Great Temple of Hattusa",
+      "year": -1410,
+      "description": "The massive Temple I at Hattusa, dedicated to the storm god Teshub and sun goddess Arinna, was the largest building in the capital with surrounding storerooms.",
+      "wikiSlug": "Hattusa",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hittite-medicine",
+      "label": "Hittite Medical Texts",
+      "year": -1400,
+      "description": "Hittite medical texts combined empirical treatments with ritual healing, including quarantine procedures that show early understanding of contagion.",
+      "wikiSlug": "Hittites",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kaska-raids",
+      "label": "Kaska Invasions",
+      "year": -1400,
+      "endYear": -1200,
+      "description": "The Kaska, tribal peoples from the northern Anatolian mountains, repeatedly raided Hittite territory and sacked Hattusa at least once. They were a persistent threat that no Hittite king ever permanently subdued.",
+      "wikiSlug": "Kaskians",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kumarbi-cycle",
+      "label": "Song of Kumarbi",
+      "year": -1390,
+      "description": "The Hurro-Hittite 'Song of Kumarbi' tells of divine succession through violence — a myth that scholars believe influenced Hesiod's Theogony centuries later.",
+      "wikiSlug": "Song_of_Kumarbi",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-alacahoyuk-gate",
+      "label": "Sphinx Gate of Alacahoyuk",
+      "year": -1380,
+      "description": "The monumental Sphinx Gate at Alacahoyuk, decorated with carved relief panels showing processions and hunting scenes, is a masterwork of Hittite sculpture.",
+      "wikiSlug": "Alacahöyük",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-luwian-hieroglyphs",
+      "label": "Luwian Hieroglyphic Script",
+      "year": -1370,
+      "description": "The Luwian hieroglyphic script, distinct from cuneiform, was used on seals and monumental inscriptions and survived the empire's collapse in Neo-Hittite states.",
+      "wikiSlug": "Anatolian_hieroglyphs",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-arzawa-campaigns",
+      "label": "Arzawa Campaigns",
+      "year": -1360,
+      "description": "Hittite campaigns against the Arzawa confederation in western Anatolia brought Luwian-speaking territories under imperial control. Arzawa had been powerful enough to correspond directly with Egypt in the Amarna Letters.",
+      "wikiSlug": "Arzawa",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-suppiluliuma-i",
+      "label": "Suppiluliuma I",
+      "year": -1355,
+      "endYear": -1322,
+      "description": "The greatest Hittite king, Suppiluliuma I transformed the empire into a superpower, conquering Mitanni, dominating Syria, and rivaling Egypt.",
+      "wikiSlug": "Suppiluliuma_I",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-amarna-letters",
+      "label": "Amarna Letters (Hittite Correspondence)",
+      "year": -1350,
+      "description": "The Amarna archive in Egypt preserved letters between Hittite kings and pharaohs, revealing the diplomacy, rivalry, and grudging respect between the two superpowers of the Late Bronze Age.",
+      "wikiSlug": "Amarna_letters",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hittite-vassal-treaties",
+      "label": "Hittite Vassal Treaty System",
+      "year": -1350,
+      "description": "The Hittites built their empire through a sophisticated system of vassal treaties that bound client kings with mutual obligations, curses, and divine witnesses. These treaties are the most detailed diplomatic documents from the Bronze Age.",
+      "wikiSlug": "Hittite_treaties",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lions-gate",
+      "label": "Lions Gate of Hattusa",
+      "year": -1345,
+      "description": "One of Hattusa's monumental city gates, flanked by massive stone lion sculptures that still stand today, demonstrating Hittite architectural ambition.",
+      "wikiSlug": "Hattusa",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kikkuli-horse",
+      "label": "Kikkuli the Horse Trainer",
+      "year": -1345,
+      "description": "Kikkuli, a Mitanni horse trainer employed by the Hittites, wrote the oldest known manual on horse conditioning and chariot training — a remarkable specialist whose expertise crossed cultural boundaries.",
+      "wikiSlug": "Kikkuli",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-conquest-mitanni",
+      "label": "Conquest of Mitanni",
+      "year": -1340,
+      "description": "Suppiluliuma I destroyed the Mitanni kingdom, the Hittites' chief rival in northern Mesopotamia, and installed vassal rulers across Syria.",
+      "wikiSlug": "Mitanni",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-royal-archive",
+      "label": "Royal Archive of Hattusa",
+      "year": -1340,
+      "description": "Over 30,000 cuneiform tablets were stored in the Hattusa archive, covering laws, treaties, rituals, and correspondence — an invaluable historical record.",
+      "wikiSlug": "Boğazköy_Archive",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ugarit-trade",
+      "label": "Ugarit Trade Networks",
+      "year": -1335,
+      "description": "The Hittites controlled trade routes through vassal ports like Ugarit, facilitating exchange of copper, tin, textiles, and grain across the eastern Mediterranean.",
+      "wikiSlug": "Ugarit",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-madduwatta-affair",
+      "label": "Madduwatta Affair",
+      "year": -1330,
+      "description": "The 'Indictment of Madduwatta' records a Hittite vassal in western Anatolia who repeatedly broke his oaths, allied with enemies, and raided Cyprus — a vivid case study in the limits of vassal diplomacy.",
+      "wikiSlug": "Madduwatta",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zannanza-affair",
+      "label": "Zannanza Affair",
+      "year": -1323,
+      "description": "An Egyptian queen requested a Hittite prince as husband. Suppiluliuma I sent his son Zannanza, who was murdered en route — triggering war between the two empires.",
+      "wikiSlug": "Zannanza",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-plague-hatti",
+      "label": "Great Plague of Hatti",
+      "year": -1322,
+      "endYear": -1295,
+      "description": "A devastating plague, possibly brought by Egyptian prisoners of war, killed Suppiluliuma I and ravaged Hatti for two decades, weakening the empire.",
+      "wikiSlug": "Hittite_plague",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mursili-ii",
+      "label": "Mursili II",
+      "year": -1321,
+      "endYear": -1295,
+      "description": "Mursili II ascended the throne as a young man during the plague and spent his reign campaigning relentlessly to hold the empire together. His Plague Prayers are among the most emotionally raw religious texts from the ancient world.",
+      "wikiSlug": "Mursili_II",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-plague-prayers",
+      "label": "Plague Prayers of Mursili II",
+      "year": -1310,
+      "description": "Mursili II's prayers to the gods during the plague are astonishingly personal — he questions divine justice, confesses his father's sins, and bargains desperately. They prefigure the Book of Job by centuries.",
+      "wikiSlug": "Plague_Prayers_of_Mursili_II",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hittite-chariot",
+      "label": "Three-Man Chariot Innovation",
+      "year": -1300,
+      "description": "The Hittites developed the heavier three-man chariot (driver, shield-bearer, spearman), a tactical innovation that gave them an edge in pitched battle.",
+      "wikiSlug": "Chariot",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-uluburun-shipwreck",
+      "label": "Uluburun Shipwreck",
+      "year": -1300,
+      "description": "A ship that sank off the coast of southwestern Turkey carried cargo from at least seven cultures: Canaanite, Mycenaean, Cypriot, Egyptian, Kassite, Nubian, and Anatolian. The wreck is the best single piece of evidence for the interconnected Bronze Age world the Hittites lived in.",
+      "wikiSlug": "Uluburun_shipwreck",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muwatalli-ii",
+      "label": "Muwatalli II",
+      "year": -1295,
+      "endYear": -1272,
+      "description": "Muwatalli II relocated the capital to Tarhuntassa and led the Hittite army at Kadesh against Ramesses II.",
+      "wikiSlug": "Muwatalli_II",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tarhuntassa-capital",
+      "label": "Tarhuntassa as Alternate Capital",
+      "year": -1290,
+      "description": "Muwatalli II moved the capital south to Tarhuntassa, closer to the Syrian front. The move was controversial, and his successor moved it back to Hattusa — but the city became a rival power center that haunted later kings.",
+      "wikiSlug": "Tarhuntassa",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-kadesh",
+      "label": "Battle of Kadesh",
+      "year": -1274,
+      "description": "The largest chariot battle in history, fought between Muwatalli II and Ramesses II at Kadesh in Syria. Despite Egyptian propaganda, the battle was likely a draw.",
+      "wikiSlug": "Battle_of_Kadesh",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hattusili-iii",
+      "label": "Hattusili III",
+      "year": -1267,
+      "endYear": -1237,
+      "description": "Hattusili III usurped the throne and pursued peace with Egypt, negotiating the famous treaty and marrying his daughter to Ramesses II.",
+      "wikiSlug": "Hattusili_III",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hattusili-iii-apology",
+      "label": "Apology of Hattusili III",
+      "year": -1265,
+      "description": "Hattusili III wrote an autobiography justifying his usurpation of the throne, blaming his predecessor and crediting the goddess Ishtar. It is the oldest known political autobiography and reads like a Bronze Age PR campaign.",
+      "wikiSlug": "Apology_of_Hattusili_III",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-puduhepa",
+      "label": "Queen Puduhepa",
+      "year": -1260,
+      "endYear": -1237,
+      "description": "Wife of Hattusili III, Puduhepa co-signed the peace treaty with Egypt and conducted independent diplomatic correspondence — one of the most powerful queens in antiquity.",
+      "wikiSlug": "Puduhepa",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-peace-treaty",
+      "label": "Egyptian-Hittite Peace Treaty",
+      "year": -1259,
+      "description": "The Treaty of Kadesh between Hattusili III and Ramesses II is the oldest known international peace treaty. A copy hangs in the UN headquarters.",
+      "wikiSlug": "Egyptian–Hittite_peace_treaty",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-yazilikaya",
+      "label": "Yazilikaya Sanctuary",
+      "year": -1250,
+      "description": "The open-air rock sanctuary at Yazilikaya near Hattusa features carved reliefs of the entire Hittite pantheon in procession — a unique surviving monument.",
+      "wikiSlug": "Yazılıkaya",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-royal-marriage-egypt",
+      "label": "Hittite-Egyptian Royal Marriage",
+      "year": -1246,
+      "description": "Hattusili III's daughter married Ramesses II, sealing the peace treaty with a dynastic union. The marriage journey from Hattusa to Egypt was celebrated by both sides in commemorative inscriptions.",
+      "wikiSlug": "Hattusili_III",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-tudhaliya-iv",
+      "label": "Tudhaliya IV",
+      "year": -1237,
+      "endYear": -1209,
+      "description": "Tudhaliya IV fought to maintain Hittite power against rising threats from Assyria and western Anatolian states, while commissioning the Yazilikaya reliefs.",
+      "wikiSlug": "Tudhaliya_IV",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kurunta-bronze-tablet",
+      "label": "Kurunta and the Bronze Tablet",
+      "year": -1235,
+      "description": "A large bronze tablet found at Hattusa records the treaty between Tudhaliya IV and his cousin Kurunta, king of Tarhuntassa. Kurunta may have briefly seized the Hittite throne — a succession crisis that weakened the empire in its final decades.",
+      "wikiSlug": "Kurunta",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-tudhaliya-iv-laws",
+      "label": "Revised Hittite Law Code",
+      "year": -1230,
+      "description": "Tudhaliya IV oversaw a revision of the Hittite law code that reduced the severity of many penalties even further, continuing the trend toward restitution-based justice that had distinguished Hittite law from its Mesopotamian predecessors.",
+      "wikiSlug": "Hittite_laws",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-battle-nihriya",
+      "label": "Battle of Nihriya",
+      "year": -1230,
+      "description": "The Assyrians defeated the Hittites at Nihriya, signaling the shift in power from Hatti to Assyria in northern Mesopotamia.",
+      "wikiSlug": "Battle_of_Nihriya",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-naval-battle-alashiya",
+      "label": "Naval Battle of Alashiya",
+      "year": -1210,
+      "description": "Suppiluliuma II's inscription records a naval victory off the coast of Cyprus (Alashiya) — one of the earliest described naval battles in history. It was a victory that could not prevent the broader collapse.",
+      "wikiSlug": "Suppiluliuma_II",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-suppiluliuma-ii",
+      "label": "Suppiluliuma II",
+      "year": -1207,
+      "endYear": -1178,
+      "description": "The last known Hittite Great King, Suppiluliuma II won a naval battle against Cyprus but could not save the empire from collapse.",
+      "wikiSlug": "Suppiluliuma_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sea-peoples-threat",
+      "label": "Sea Peoples Invasions",
+      "year": -1200,
+      "description": "Waves of Sea Peoples attacked coastal cities and disrupted trade networks across the eastern Mediterranean, contributing to the collapse of the Hittite Empire.",
+      "wikiSlug": "Sea_Peoples",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-famine-letters",
+      "label": "Grain Shortage Letters",
+      "year": -1200,
+      "description": "Desperate letters found in Ugarit and Hattusa reveal severe grain shortages in the final years, with the Hittite king begging Egypt for emergency shipments.",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-fall-hattusa",
+      "label": "Fall of Hattusa",
+      "year": -1178,
+      "description": "Hattusa was burned and abandoned as the Hittite Empire collapsed during the broader Bronze Age catastrophe, ending five centuries of Hittite power.",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-carchemish-state",
+      "label": "Neo-Hittite Carchemish",
+      "year": -1100,
+      "endYear": -717,
+      "description": "After the empire's fall, Carchemish became the leading Neo-Hittite state, preserving Hittite culture, Luwian hieroglyphs, and political traditions for centuries.",
+      "wikiSlug": "Carchemish",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-neo-hittite-sculpture",
+      "label": "Neo-Hittite Monumental Sculpture",
+      "year": -1050,
+      "description": "Neo-Hittite states produced a distinctive tradition of carved stone reliefs and portal lions that blended Hittite imperial style with Aramaean and Assyrian influences — a cultural afterlife that kept Hittite art alive for centuries.",
+      "wikiSlug": "Syro-Hittite_states",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-samal-zincirli",
+      "label": "Sam'al (Zincirli)",
+      "year": -1000,
+      "endYear": -713,
+      "description": "The Neo-Hittite kingdom of Sam'al in southeastern Turkey produced remarkable bilingual inscriptions and monumental architecture. Its royal palace and gate sculptures survive as masterworks of the post-imperial Hittite tradition.",
+      "wikiSlug": "Sam%27al",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tell-halaf-guzana",
+      "label": "Tell Halaf (Guzana)",
+      "year": -1000,
+      "endYear": -808,
+      "description": "The Neo-Hittite/Aramaean city of Guzana (Tell Halaf) in northeastern Syria was famous for its elaborate palace facade with carved figures and portal animals — a vivid fusion of Hittite and Aramaean artistic traditions.",
+      "wikiSlug": "Tell_Halaf",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-neo-hittite-luwian",
+      "label": "Luwian Hieroglyphic Inscriptions (Neo-Hittite)",
+      "year": -950,
+      "description": "After the empire fell and cuneiform was lost, Luwian hieroglyphs became the primary script of the Neo-Hittite states. The KARKAMIŠ inscriptions are the longest surviving examples, recording royal deeds in a script that outlived the empire by four centuries.",
+      "wikiSlug": "Anatolian_hieroglyphs",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tabal-kingdom",
+      "label": "Kingdom of Tabal",
+      "year": -900,
+      "endYear": -713,
+      "description": "Tabal, a Neo-Hittite kingdom in central Anatolia near the old Hittite heartland, maintained Luwian language and culture. It was one of the last Neo-Hittite polities to fall to Assyria.",
+      "wikiSlug": "Tabal",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-assyrian-conquest-neo-hittite",
+      "label": "Assyrian Conquest of Neo-Hittite States",
+      "year": -717,
+      "endYear": -700,
+      "description": "The Neo-Assyrian Empire systematically conquered the remaining Neo-Hittite states — Carchemish fell in 717 BCE, Sam'al by 713, Tabal by 713. Five centuries of Hittite cultural continuity finally ended under Assyrian provincial administration.",
+      "wikiSlug": "Syro-Hittite_states",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    }
+  ]
+}
