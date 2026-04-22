@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { SORTED_CIVS } from '@/lib/chronology-data'
 import { ChronologyHeader } from './chronology-header'
+import { CivIconsStrip } from './civ-icons-strip'
 import { TimelineRibbon } from './timeline-ribbon'
 import { CivList } from './civ-list'
 import { DetailPane } from './detail-pane'
@@ -50,6 +51,7 @@ export function ChronologyPage() {
   return (
     <div className="flex flex-col h-dvh bg-background text-foreground">
       <ChronologyHeader isDesktop={isDesktop} />
+      <CivIconsStrip />
 
       <TimelineRibbon
         mode={isDesktop ? 'packed' : 'swim'}
