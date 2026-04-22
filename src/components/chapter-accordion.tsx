@@ -217,10 +217,10 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               })()}
             </h2>
             {chapter.subtitle && (
-              <p className="text-[0.75em] text-foreground/40 mt-0.5">{chapter.subtitle}</p>
+              <p className="text-[0.75em] text-foreground/55 mt-0.5 italic font-[family-name:var(--font-lora)]">{chapter.subtitle}</p>
             )}
             {chapter.dateRange && (
-              <p className="text-[0.75em] text-foreground/50 mt-0.5 italic font-[family-name:var(--font-lora)]">{chapter.dateRange}</p>
+              <p className="text-[0.7em] text-foreground/35 mt-0.5 tabular-nums">{chapter.dateRange}</p>
             )}
           </div>
         </div>
