@@ -18,6 +18,9 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
   const visualActiveId = useRef<string | null>(activeCivId)
   const scrollEndTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const rafId = useRef<number>(0)
+  // When an external source (bar tap) sets the active civ, suppress
+  // scroll-based detection until the programmatic scroll settles.
+  const externalLockUntil = useRef<number>(0)
 
   useEffect(() => { visualActiveId.current = activeCivId }, [activeCivId])
 
@@ -42,6 +45,9 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     function onScroll() {
       cancelAnimationFrame(rafId.current)
       rafId.current = requestAnimationFrame(() => {
+        // Skip scroll detection while a bar-tap scroll is settling
+        if (Date.now() < externalLockUntil.current) return
+
         if (container!.scrollTop < 20) {
           const firstId = SORTED_CIVS[0]?.id
           if (firstId) {
@@ -91,13 +97,13 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
   useEffect(() => {
     if (!activeCivId) return
     applyVisualActive(activeCivId)
-    // Scroll list to show this row (only if it wasn't triggered by list scroll)
     const el = rowEls.current.get(activeCivId)
     if (el && listRef.current) {
       const containerRect = listRef.current.getBoundingClientRect()
       const rowRect = el.getBoundingClientRect()
-      // Only scroll if the row isn't already visible near the top
       if (rowRect.top < containerRect.top || rowRect.top > containerRect.top + containerRect.height * 0.3) {
+        // Lock out scroll detection while the programmatic scroll runs
+        externalLockUntil.current = Date.now() + 800
         el.scrollIntoView({ behavior: 'smooth', block: 'start' })
       }
     }
