@@ -1,6 +1,7 @@
 export interface NarrativeChapter {
   number: number
   title: string
+  subtitle?: string
   slug: string
   summary: string
   summaryBullets?: string[]

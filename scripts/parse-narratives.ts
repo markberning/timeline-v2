@@ -67,6 +67,7 @@ interface TlMeta {
 interface ChapterSummary {
   chapter: number
   title: string
+  subtitle?: string
   summary?: string
   bullets?: string[]
   dateRange: string
@@ -471,6 +472,7 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
       const summary = summaries.find(s => s.chapter === ch.number)
       return {
         ...ch,
+        subtitle: summary?.subtitle ?? undefined,
         summary: summary?.summary ?? '',
         dateRange: summary?.dateRange ?? '',
       }
