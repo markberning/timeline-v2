@@ -110,9 +110,10 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
             ref={el => setRowRef(civ.id, el)}
             data-civ-id={civ.id}
             className={`civ-row py-3 border-b border-foreground/5 ${
-              !civ.hasContent ? 'opacity-35' : ''
+              civ.hasContent ? 'cursor-pointer active:opacity-80' : 'opacity-35'
             }`}
             style={{ '--row-color': color } as React.CSSProperties}
+            onClick={() => civ.hasContent && (window.location.href = `/${civ.id}/`)}
           >
             <div className="civ-row-inner pl-4 flex items-center gap-3">
               <div className="flex-1 min-w-0">
@@ -137,16 +138,9 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
 
               {/* Small enter pill — right side, shown on active via CSS */}
               {civ.hasContent && (
-                <button
-                  className="civ-row-enter shrink-0 px-3 py-1.5 rounded-full text-xs font-bold text-white"
-                  style={{ backgroundColor: color }}
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    window.location.href = `/${civ.id}/`
-                  }}
-                >
+                <div className="civ-row-enter shrink-0 px-3 py-1.5 rounded-full text-xs font-bold text-white" style={{ backgroundColor: color }}>
                   Read →
-                </button>
+                </div>
               )}
             </div>
           </div>
