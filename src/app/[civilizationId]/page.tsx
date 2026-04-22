@@ -60,19 +60,19 @@ export default async function CivilizationPage({ params }: PageProps) {
           <div className="flex items-center gap-3">
             {/* Accent vertical bar */}
             <div className="shrink-0 w-[3.5px] self-stretch rounded-full" style={{ backgroundColor: 'var(--accent)' }} />
-            <h1 className="text-2xl font-bold font-[family-name:var(--font-lora)]">
+            <h1 className="text-[22px] font-bold font-[family-name:var(--font-lora)] leading-tight">
               {narrative.label}
             </h1>
           </div>
-          <span className="shrink-0 text-xs font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
+          <span className="shrink-0 text-[13px] font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
             {narrative.chapters.length} CH
           </span>
         </div>
         {currentTl?.subtitle && (
-          <p className="text-sm text-foreground/50 mt-0.5 italic pl-[16.5px]">{currentTl.subtitle}</p>
+          <p className="text-[14px] text-foreground/55 mt-1 italic font-[family-name:var(--font-lora)] pl-[16.5px]">{currentTl.subtitle}</p>
         )}
         {chain && pos && pos.index !== -1 && (
-          <div className="flex items-center justify-between text-sm text-foreground/50 mt-3 mb-6">
+          <div className="flex items-center justify-between text-[13px] text-foreground/40 mt-3 mb-6">
             <div>
               {prevTl ? (
                 prevTl.hasContent ? (
@@ -80,10 +80,10 @@ export default async function CivilizationPage({ params }: PageProps) {
                     ← {prevTl.label}
                   </a>
                 ) : (
-                  <span className="opacity-40">← {prevTl.label}</span>
+                  <span className="opacity-50">← {prevTl.label}</span>
                 )
               ) : (
-                <span className="italic opacity-40">{chain.shortLabel} chain</span>
+                <span className="italic opacity-50">{chain.shortLabel} chain</span>
               )}
             </div>
             <div>
@@ -93,10 +93,10 @@ export default async function CivilizationPage({ params }: PageProps) {
                     {nextTl.label} →
                   </a>
                 ) : (
-                  <span className="opacity-40">{nextTl.label} →</span>
+                  <span className="opacity-50">{nextTl.label} →</span>
                 )
               ) : (
-                <span className="italic opacity-40">{chain.shortLabel} chain</span>
+                <span className="italic opacity-50">{chain.shortLabel} chain</span>
               )}
             </div>
           </div>

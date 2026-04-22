@@ -193,13 +193,13 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           className="w-full text-left pt-5 pb-2 flex gap-3 items-baseline touch-manipulation cursor-pointer select-none"
         >
           <span
-            className="text-[0.85em] font-bold shrink-0 tabular-nums"
+            className="text-[14px] font-bold shrink-0 tabular-nums"
             style={{ color: 'var(--accent)' }}
           >
             {String(chapter.number).padStart(2, '0')}
           </span>
           <div className="min-w-0 flex-1">
-            <h2 className="text-lg font-[family-name:var(--font-lora)]">
+            <h2 className="text-[18px] font-[family-name:var(--font-lora)] leading-snug">
               {(() => {
                 const words = chapter.title.split(' ')
                 const last = words.pop()
@@ -208,7 +208,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                     {words.length > 0 && words.join(' ') + ' '}
                     <span className="whitespace-nowrap">
                       {last}
-                      <span className={`inline-block text-foreground/50 text-2xl font-bold transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90 translate-x-1' : ''}`}>
+                      <span className={`inline-block text-foreground/50 text-[22px] font-bold transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90 translate-x-1' : ''}`}>
                         &#x203A;
                       </span>
                     </span>
@@ -217,10 +217,10 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               })()}
             </h2>
             {chapter.subtitle && (
-              <p className="text-[13.5px] text-foreground/55 mt-0.5 italic font-[family-name:var(--font-lora)] leading-snug">{chapter.subtitle}</p>
+              <p className="text-[14px] text-foreground/55 mt-0.5 italic font-[family-name:var(--font-lora)] leading-snug">{chapter.subtitle}</p>
             )}
             {chapter.dateRange && (
-              <p className="text-[12.5px] text-foreground/35 mt-0.5 tabular-nums">{chapter.dateRange}</p>
+              <p className="text-[13px] text-foreground/35 mt-0.5 tabular-nums">{chapter.dateRange}</p>
             )}
           </div>
         </div>
@@ -234,15 +234,15 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               style={{ backgroundColor: 'var(--accent)', color: 'white' }}
             >
               <div className="flex-1 min-w-0">
-                <div className="text-sm tracking-wide uppercase flex items-center gap-1.5">
+                <div className="text-[13px] tracking-wide uppercase flex items-center gap-1.5">
                   <span className="inline-block w-3.5 h-3.5 rounded-[3px] bg-white/30" />
                   Read the Full Chapter
                 </div>
-                <div className="text-lg mt-1 font-[family-name:var(--font-lora)]">
+                <div className="text-[18px] mt-1 font-[family-name:var(--font-lora)]">
                   <span className="opacity-70 mr-1">{chapter.number}.</span>{chapter.title}
                 </div>
                 {formatYearRange() && (
-                  <div className="text-sm opacity-70 mt-0.5">
+                  <div className="text-[13px] opacity-70 mt-0.5">
                     {formatYearRange()}
                   </div>
                 )}
@@ -254,11 +254,11 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
 
             {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
               <div className="mt-4">
-                <div className="text-xs font-semibold tracking-[0.15em] text-foreground/40 uppercase">
+                <div className="text-[11px] font-semibold tracking-[0.15em] text-foreground/40 uppercase">
                   Summary · for review
                 </div>
                 <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
-                  <ul className="space-y-2 list-disc list-outside pl-5 text-[0.82em]">
+                  <ul className="space-y-2 list-disc list-outside pl-5 text-[14px]">
                     {chapter.summaryBullets.map((html, i) => (
                       <li
                         key={i}

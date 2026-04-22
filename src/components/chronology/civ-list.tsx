@@ -136,7 +136,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
             <div className="civ-row-inner pl-4 flex items-center gap-3">
               <div className="flex-1 min-w-0">
                 {/* Chain + position */}
-                <div className="civ-row-chain text-[10px] font-bold uppercase tracking-[0.12em]">
+                <div className="civ-row-chain text-[11px] font-bold uppercase tracking-[0.12em]">
                   {chainLabel}
                   {chainPosition && (
                     <span className="civ-row-chain-pos ml-1.5 font-normal">{chainPosition}</span>
@@ -144,19 +144,19 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
                 </div>
 
                 {/* Civ title */}
-                <div className="civ-row-label text-lg font-[family-name:var(--font-lora)] mt-0.5">
+                <div className="civ-row-label text-[18px] font-[family-name:var(--font-lora)] mt-0.5 leading-snug">
                   {civ.label}
                 </div>
 
                 {/* Subtitle */}
                 {civ.subtitle && (
-                  <div className="text-[13.5px] text-foreground/55 mt-0.5 italic font-[family-name:var(--font-lora)] leading-snug">
+                  <div className="text-[14px] text-foreground/55 mt-0.5 italic font-[family-name:var(--font-lora)] leading-snug">
                     {civ.subtitle}
                   </div>
                 )}
 
                 {/* Date range */}
-                <div className="text-[12.5px] text-foreground/35 mt-0.5 tabular-nums">
+                <div className="text-[13px] text-foreground/35 mt-0.5 tabular-nums">
                   {formatYearRange(civ.startYear, civ.endYear)}
                 </div>
               </div>
