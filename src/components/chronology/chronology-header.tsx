@@ -1,0 +1,30 @@
+'use client'
+
+import { DarkModeToggle } from '@/components/dark-mode-toggle'
+
+interface ChronologyHeaderProps {
+  isDesktop: boolean
+}
+
+export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
+  return (
+    <header className="px-5 pt-5 pb-3 lg:px-8 lg:pt-8 lg:pb-4 flex items-start justify-between">
+      <div>
+        <div className="text-[10px] lg:text-xs font-semibold tracking-[0.15em] uppercase text-foreground/40">
+          Stuff Happened
+        </div>
+        <h1 className="text-3xl lg:text-[44px] italic font-[family-name:var(--font-lora)] text-foreground mt-1 leading-tight">
+          Chronology
+        </h1>
+        <p className="text-sm lg:text-base text-foreground/50 mt-1">
+          {isDesktop
+            ? 'Click any bar for details.'
+            : 'Scroll the list.'}
+        </p>
+      </div>
+      <div className="shrink-0 mt-1">
+        <DarkModeToggle />
+      </div>
+    </header>
+  )
+}

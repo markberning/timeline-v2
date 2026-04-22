@@ -1,5 +1,5 @@
-import { TlNavigator } from '@/components/tl-navigator/tl-navigator'
+import { ChronologyPage } from '@/components/chronology/chronology-page'
 
 export default function Home() {
-  return <TlNavigator />
+  return <ChronologyPage />
 }
