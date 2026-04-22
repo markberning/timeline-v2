@@ -83,7 +83,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
   }, [activeCivId, yearToX, mode, scrollRef])
 
   return (
-    <div className="relative border-y border-foreground/10">
+    <div className="relative border-y border-foreground/10 shrink-0">
       {/* Region labels (mobile swim-lane only) */}
       {mode === 'swim' && (
         <div

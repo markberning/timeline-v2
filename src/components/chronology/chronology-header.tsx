@@ -8,7 +8,7 @@ interface ChronologyHeaderProps {
 
 export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
   return (
-    <header className="px-5 pt-5 pb-3 lg:px-8 lg:pt-8 lg:pb-4 flex items-start justify-between">
+    <header className="px-5 pt-5 pb-3 lg:px-8 lg:pt-8 lg:pb-4 flex items-start justify-between shrink-0">
       <div>
         <div className="text-[10px] lg:text-xs font-semibold tracking-[0.15em] uppercase text-foreground/40">
           Stuff Happened

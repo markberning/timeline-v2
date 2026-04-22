@@ -106,7 +106,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
   }
 
   return (
-    <div ref={listRef} className="flex-1 overflow-y-auto overflow-x-hidden px-5">
+    <div ref={listRef} className="flex-1 overflow-y-auto overflow-x-hidden px-5 pt-2" style={{ overscrollBehaviorY: 'contain' }}>
       {SORTED_CIVS.map(civ => {
         const color = REGION_COLORS[civ.region]
         const chainInfo = CIV_CHAIN_MAP.get(civ.id)
