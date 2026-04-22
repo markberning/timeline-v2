@@ -219,6 +219,10 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 2. joseon-korea
 3. korean-modern
 
+**Anatolian Succession chain** (in progress):
+1. ✅ hittite-empire — 8 chapters (~18.5k words), label "Hittite Empire", 70 reference events, 66 event links, 204 glossary links, 16 cross-links, 65 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers pre-Hittite Hatti through Bronze Age Collapse to Neo-Hittite states (-2500 to -700 BCE) plus 19th-century rediscovery. Central thesis: the forgotten superpower — world-historic and completely forgotten for 3,000 years. Chain color: orange-red (`anatolian-succession`).
+2. ottoman-empire
+
 ## Color System
 - **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).
 - **All 18 chain entries contrast-verified**: text on white ≥4.5:1, white on badge ≥3:1 (AA-lg), base on dark `#0a0a0a` ≥4.5:1. Check via the Python script in the accent-colors comment history when adding a new shade.

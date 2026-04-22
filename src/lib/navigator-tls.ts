@@ -40,7 +40,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true, hasContent: true },
   { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539, hasContent: true },
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609, hasContent: true },
-  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178 },
+  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178, hasContent: true },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651, hasContent: true },
   { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258 },
   { id: 'ottoman-empire', label: 'Ottoman Empire', subtitle: "Turkey's six-century juggernaut", region: 'near-east', startYear: 1299, endYear: 1922 },

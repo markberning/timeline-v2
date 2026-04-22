@@ -111,7 +111,7 @@ The institution that made Hittite court politics uniquely volatile was the **pan
 
 The reign of Hattusili I's grandson and successor, **Mursili I** (ruled approximately 1610-1590 BCE), produced one of the most audacious military operations in ancient history.
 
-In 1595 BCE, Mursili I marched his army out of Hattusa, south through Syria, and east down the Euphrates River on a campaign that covered roughly 600 miles (1,000 km) of hostile territory. His target was the most prestigious city in the ancient world: **Babylon** (Mesopotamia Ch 7). And he took it.
+In approximately 1595 BCE (this date follows the "Middle Chronology" used by most scholars; other chronological systems place it as late as 1531 BCE), Mursili I marched his army out of Hattusa, south through Syria, and east down the Euphrates River on a campaign that covered roughly 600 miles (1,000 km) of hostile territory. His target was the most prestigious city in the ancient world: **Babylon** (Mesopotamia Ch 7). And he took it.
 
 The sack of Babylon by Mursili I ended the First Babylonian Dynasty, the dynasty that had produced **Hammurabi** (hah-moo-RAH-bee; the king famous for his law code, who had ruled Babylon roughly 1792-1750 BCE; Mesopotamia Ch 7). By 1595 BCE, Hammurabi's dynasty was already in decline, but Babylon remained the cultural and economic center of Mesopotamia. No one expected a highland Anatolian kingdom to reach that far. The raid was the ancient equivalent of a land power in Ukraine suddenly sacking Paris: geographically implausible, strategically insane, and yet it happened.
 
@@ -169,7 +169,7 @@ And then came the incident that might have changed everything.
 
 Around 1323 BCE, the young pharaoh **Tutankhamun** (too-tahn-KAH-moon) died in Egypt without an heir. What happened next is one of the most extraordinary episodes in ancient history, and scholars are still debating the details. A letter arrived at the Hittite court from an Egyptian queen, identified in the Hittite text as **Dahamunzu** (dah-hah-MOON-zoo; this is not an Egyptian name but the Hittite rendering of the Egyptian title *ta hemet nesu*, meaning "the king's wife"). The most common identification is **Ankhesenamun** (ahn-keh-SEH-nah-moon), Tutankhamun's widow and daughter of the famous pharaoh Akhenaten.
 
-The letter said: "My husband has died. A son I have not. But to you, they say, your sons are many. If you would give me one of your sons, he would become my husband. Never shall I pick out a servant of mine and make him my husband. I am afraid."
+The letter, as preserved in a Hittite-language summary composed by Mursili II decades later, said (in scholarly paraphrase): "My husband has died. A son I have not. But to you, they say, your sons are many. If you would give me one of your sons, he would become my husband. Never shall I pick out a servant of mine and make him my husband. I am afraid."
 
 This was staggering. An Egyptian queen was asking a foreign king to send a prince to become pharaoh of Egypt. In three thousand years of Egyptian history, nothing remotely like this had happened before. Egypt did not import kings. Egypt conquered foreigners; it did not marry them into the royal family at the highest level. The letter implies a court in crisis: a widowed queen, a power struggle among factions at court, and a woman desperate enough to seek help from Egypt's most dangerous rival rather than accept a marriage to a courtier she considered beneath her.
 
@@ -295,7 +295,7 @@ The Apology is a fascinating document because it reveals the constraints under w
 
 ---
 
-Hattusili III, having secured his position, turned his attention to diplomacy. And in 1259 BCE, he and Ramesses II produced the document that the Hittites are most famous for: the **Egyptian-Hittite Peace Treaty**, the oldest known international peace treaty in history.
+Hattusili III, having secured his position, turned his attention to diplomacy. And around 1259 BCE (the exact date depends on the chronological system used for Ramesses II's reign), he and Ramesses II produced the document that the Hittites are most famous for: the **Egyptian-Hittite Peace Treaty**, the oldest known international peace treaty in history.
 
 A copy of the treaty hangs in the United Nations headquarters in New York, a gift from Turkey. It is there because the treaty is genuinely remarkable. It is not a surrender document. It is not a trade agreement dressed up as peace. It is a mutual defense pact between equals, negotiated over years of diplomatic correspondence, and it addresses the full range of issues that modern peace treaties address: mutual non-aggression, mutual defense against third-party attack, the return of political refugees, the status of border territories, and the divine witnesses who would punish violations.
 
