@@ -154,40 +154,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
 }
 
 // Estimate text width at ~5.5px per character for 9px bold sans
-function estimateLabelWidth(label: string): number {
-  return label.length * 5.5 + 10 // +10 for padding
-}
-
-// For each region lane, figure out which bars have enough clear space
-// to show their label without overlapping a neighbor.
-function computeLabelVisibility(
-  civs: NavigatorTl[],
-  yearToX: (y: number) => number,
-): Set<string> {
-  const showLabel = new Set<string>()
-  // Sort by start position
-  const bars = civs
-    .map(c => ({ id: c.id, label: c.label, x: yearToX(c.startYear), w: Math.max(yearToX(c.endYear) - yearToX(c.startYear), 70) }))
-    .sort((a, b) => a.x - b.x)
-
-  for (let i = 0; i < bars.length; i++) {
-    const bar = bars[i]
-    const labelW = estimateLabelWidth(bar.label)
-    if (bar.w < labelW) continue // bar too narrow for its own label
-
-    // Check gap to previous and next bar
-    const prevEnd = i > 0 ? bars[i - 1].x + bars[i - 1].w : -Infinity
-    const nextStart = i < bars.length - 1 ? bars[i + 1].x : Infinity
-    const gapBefore = bar.x - prevEnd
-    const gapAfter = nextStart - (bar.x + bar.w)
-
-    // Show label if there's at least 4px gap on each side, or bar is wide enough
-    if (gapBefore >= 4 && gapAfter >= 4) {
-      showLabel.add(bar.id)
-    }
-  }
-  return showLabel
-}
+const MIN_LABEL_WIDTH = 45 // show label if bar is at least this wide
 
 // ── Mobile: swim-lane bars ──
 function SwimLaneBars({
@@ -204,14 +171,12 @@ function SwimLaneBars({
       {REGION_ORDER.map((region, laneIdx) => {
         const civs = CIVS_BY_REGION.get(region) ?? []
         const laneTop = TICK_AXIS_HEIGHT + laneIdx * LANE_HEIGHT_MOBILE
-        const labelsToShow = computeLabelVisibility(civs, yearToX)
-
         return civs.map(civ => {
           const x = yearToX(civ.startYear)
           const w = Math.max(yearToX(civ.endYear) - x, 70)
           const isActive = civ.id === activeCivId
           const color = REGION_COLORS[civ.region]
-          const showLabel = isActive || labelsToShow.has(civ.id)
+          const showLabel = isActive || w >= MIN_LABEL_WIDTH
 
           return (
             <button
