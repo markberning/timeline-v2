@@ -84,11 +84,11 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
 
   return (
     <div className="relative border-y border-foreground/10 shrink-0">
-      {/* Region labels (mobile swim-lane only) */}
+      {/* Region labels (mobile swim-lane only) — opaque bg covers bar text underneath */}
       {mode === 'swim' && (
         <div
-          className="absolute left-0 top-0 z-10 flex flex-col pointer-events-none"
-          style={{ paddingTop: TICK_AXIS_HEIGHT }}
+          className="absolute left-0 top-0 z-10 flex flex-col pointer-events-none bg-background"
+          style={{ paddingTop: TICK_AXIS_HEIGHT, width: 52 }}
         >
           {REGION_ORDER.map(region => (
             <div
