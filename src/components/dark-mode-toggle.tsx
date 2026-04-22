@@ -17,7 +17,7 @@ export function DarkModeToggle() {
     document.documentElement.classList.toggle('dark', next)
     localStorage.setItem('theme', next ? 'dark' : 'light')
     const meta = document.querySelector('meta[name="theme-color"]')
-    if (meta) meta.setAttribute('content', next ? '#22201e' : '#ede5d3')
+    if (meta) meta.setAttribute('content', next ? '#22201e' : '#f5f0e8')
   }
 
   if (!mounted) return <div className="w-8 h-8" />
