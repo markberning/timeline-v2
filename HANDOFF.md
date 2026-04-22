@@ -1,62 +1,57 @@
-# Session Handoff — 2026-04-21b
+# Session Handoff — 2026-04-22
 
 **Branch:** main
-**Last commit:** `b5c09e1` — READ button: chapter number inline with title, remove events count
-**Auto-deploy:** may need reconnect (last CF auto-deploy was April 16; manual `npx wrangler deploy` works as fallback)
+**Last commit:** `8cd6ac1` — Shang audit fixes
+**Total commits this session:** 97
+**Auto-deploy:** Cloudflare Workers auto-deploy from main. Manual fallback: `npx wrangler deploy`.
 
----
+## Session Summary
+Massive content session: **7 new TLs shipped** (#10-16), bringing the total to **16 live TLs**. Also fixed a UI bug (duplicate date display) and a label alignment issue.
 
-## TL;DR
+## TLs Shipped This Session
 
-Major summary page redesign driven by Figma mockups (5 color variants), plus save-my-place, sticky mini map, and parchment light mode. All 9 shipped TLs affected.
+| # | TL ID | Chain | Words | Events | Maps |
+|---|-------|-------|-------|--------|------|
+| 10 | minoan-civilization | Greco-Roman #1 | 17.5k | 66 | prompts ready |
+| 11 | old-kingdom-egypt | Nile Valley #2 | 17.7k | 67 | prompts ready |
+| 12 | ancient-korea | Korean Civ #1 | 16k | 65 | prompts ready |
+| 13 | assyrian-empire | Meso Succession #2 | 16.4k | 67 | prompts ready |
+| 14 | hittite-empire | Anatolian #1 | 18.5k | 70 | prompts ready |
+| 15 | mycenaean-civilization | Greco-Roman #2 | 17.4k | 67 | prompts ready |
+| 16 | shang-dynasty | Chinese Dynasties #2 | 17.4k | 69 | prompts ready |
 
-## What changed this session
+Each TL went through the full pipeline: v1 data copy → expand to 65-70 events → label alignment check → 8-chapter narrative → 4-persona audit → must-fix application → event/glossary/cross-civ link curation → summary bullets → chapter map prompts → parse/enrich → ship toggle → push.
 
-### 1. Summary page redesign (mockup-driven)
-- **Collapsed chapters**: minimal rows — "01" accent number, Lora serif title with inline rotating chevron, italic serif subtitle, start/end years right-justified with `›` separator. No buttons, no peek text.
-- **Header tap toggles summary** (not chapter). READ THE FULL CHAPTER button is the only way to open the full narrative.
-- **Summary expanded**: solid accent READ button (white text, bold, book icon, circle `›`, chapter number inline with title, year range) + "SUMMARY · FOR REVIEW" label + bullet list inside left accent vertical border (margin-quoted style).
-- **Reader page header**: accent vertical bar left of title, Lora serif (foreground color), "N CH" pill right-justified, subtitle indented below, chain nav moved below title block.
-- **Chapter bottom nav**: × close and "Read Next Chapter" buttons now match READ button style (solid accent, white text, bold, book icon, circle arrow, next chapter title + number).
+## UI Fixes
+- **Duplicate date display** removed from chapter headers (was showing years twice — once in dateRange italic below title, once calculated on the right side). Fixed in `chapter-accordion.tsx`.
+- **Label mismatches** fixed: Old Kingdom Egypt ("Age of the Pyramids" → "Old Kingdom Egypt"), Minoan ("Minoan Civilization" → "Minoan"). Re-parsed to update content JSONs.
 
-### 2. Save-my-place
-- Auto-saves chapter + scroll percentage to localStorage while reading (debounced 500ms).
-- "Continue Reading" banner on return shows chapter name + percentage. Whole banner clickable, × dismisses. 90-day expiry.
-- Resume scrolls to saved position after 400ms render delay.
+## Pipeline Improvements
+- **CLAUDE.md step 0** now mandates 60-70 event target density AND label alignment check between ref data and navigator-tls.ts.
 
-### 3. Sticky mini map
-- When the chapter map scrolls out of view, a 100px thumbnail appears fixed bottom-right.
-- Tap opens lightbox. Disappears when full map scrolls back into view.
-- IntersectionObserver-based tracking.
+## What Still Needs Doing
 
-### 4. Lightbox scroll preservation
-- Saves `window.scrollY` before opening, restores on close via `requestAnimationFrame`.
+### Immediate
+1. **Generate 56 chapter maps** — prompts ready in `map-prompts/` for all 7 new TLs. Gemini thinking mode, save PNGs, run WebP optimizer.
+2. **Backward cross-cultural pass** — Persona E audit reports have backward findings for all 7 new TLs (cross-refs to add to the 9 older TLs). Terse parenthetical insertions only.
 
-### 5. Visual polish
-- **Light mode background**: `#ede5d3` (warm parchment cream), matching notch/status bar via theme-color meta tag.
-- **Dark mode background**: kept at `#22201e`.
-- **Text size default**: reduced from 18px to 16px (1rem). Chapter numbers, titles, subtitles, and summary bullets use relative `em` units so they all scale with the text-size control.
-- **Fonts**: chapter title (text-xl Lora serif), subtitle (italic Lora serif), summary bullets (Geist sans-serif), READ button title (text-lg Lora serif bold).
-- **Chevrons**: bold, 50% opacity, inline after title text, rotate + translate-x-1 on open.
-- **Edge-to-edge highlight**: collapse flash uses `-mx-8 px-8` to bleed past container padding.
-- **Yellow accent colors darkened**: nile-valley `#a67c00`, nubian-tradition `#b8860b` — adequate contrast for white text on solid accent buttons.
+### Next TLs
+Natural chain progressions: ancient-greece, zhou-dynasty, new-kingdom-egypt, kingdom-of-aksum, vedic-period, islamic-golden-age, safavid-persia.
 
-## Files changed
-
-| File | What |
-|------|------|
-| `src/components/chapter-accordion.tsx` | Complete collapsed/summary/expanded redesign, sticky mini map, lightbox scroll preservation, bottom nav restyle |
-| `src/components/narrative-reader.tsx` | Save-my-place (progress save/load, resume banner), `nextChapterTitle` prop |
-| `src/app/[civilizationId]/page.tsx` | Header layout: accent bar, serif title, CH pill, chain nav below |
-| `src/app/globals.css` | Light mode background `#ede5d3`, prose-size default `1rem` |
-| `src/app/layout.tsx` | Anti-flash script theme-color updated to `#ede5d3` |
-| `src/components/dark-mode-toggle.tsx` | Light mode theme-color updated to `#ede5d3` |
-| `src/components/text-size-control.tsx` | Default index changed from 2 (18px) to 1 (16px) |
-| `src/lib/accent-colors.ts` | Darkened nile-valley and nubian-tradition yellows |
-| `BEHAVIORS.md` | Updated: accordion, dark/light mode, text size, save-my-place, lightbox, bottom nav, header, accent contrast |
-| `CLAUDE.md` | Updated: reader features (built/planned), summary page, save-my-place, mini map, light mode |
-
-## Next priorities
-- Old Kingdom Egypt, Shang Dynasty, or Vedic Period narrative
-- Check Cloudflare auto-deploy git integration (may need OAuth reconnect)
-- Consider adding chapter title to the Continue Reading banner's resume scroll target
+## All 16 Shipped TLs
+1. mesopotamia (13 ch, maps ✅)
+2. indus-valley (10 ch, maps ✅)
+3. ancient-china (8 ch, maps ✅)
+4. ancient-nubia (8 ch, maps ✅)
+5. elamite-civilization (8 ch, maps ✅)
+6. early-dynastic-egypt (8 ch, maps ✅)
+7. early-andean-civilizations (8 ch, maps ✅)
+8. persian-empire (10 ch, maps ✅)
+9. kingdom-of-kush (8 ch, maps ✅)
+10. minoan-civilization (8 ch, maps pending)
+11. old-kingdom-egypt (8 ch, maps pending)
+12. ancient-korea (8 ch, maps pending)
+13. assyrian-empire (8 ch, maps pending)
+14. hittite-empire (8 ch, maps pending)
+15. mycenaean-civilization (8 ch, maps pending)
+16. shang-dynasty (8 ch, maps pending)
