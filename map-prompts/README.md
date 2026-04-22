@@ -120,6 +120,12 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 - [ancient-nubia.md](ancient-nubia.md) — 8 chapters (1–8, first-run; see redo/ for rewrites)
 - [ancient-china.md](ancient-china.md) — 8 chapters (1–8, first-run; see redo/ for Ch 4/7/8 rewrites)
 - [elamite-civilization.md](elamite-civilization.md) — 8 chapters (1–8)
+- [early-dynastic-egypt.md](early-dynastic-egypt.md) — 8 chapters (1–8)
+- [kingdom-of-kush.md](kingdom-of-kush.md) — 8 chapters (1–8)
+- [persian-empire.md](persian-empire.md) — 10 chapters (1–10)
+- [early-andean-civilizations.md](early-andean-civilizations.md) — 8 chapters (1–8)
+- [old-kingdom-egypt.md](old-kingdom-egypt.md) — 8 chapters (1–8)
+- [minoan-civilization.md](minoan-civilization.md) — 8 chapters (1–8)
 
 ## Redos
 
@@ -127,5 +133,6 @@ First-run Gemini output had hallucinations on some maps — see [redo/](redo/) f
 - [redo/ancient-china.md](redo/ancient-china.md) — Ch 4, 7, 8 (the three China maps with real errors)
 - [redo/ancient-nubia.md](redo/ancient-nubia.md) — Ch 1–8 (all eight Nubia maps need redos)
 - [redo/elamite-civilization.md](redo/elamite-civilization.md) — Ch 1, 3, 7, 8 (Ch 7 is priority-1; others are minor)
+- [redo/kingdom-of-kush.md](redo/kingdom-of-kush.md) — Ch 6 (pyramid count hallucination)
 
 The redos are the live reference for "how a prompt should look when it actually has to work." When drafting new TL prompts, copy the redo style, not the first-run style.
