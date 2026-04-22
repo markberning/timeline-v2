@@ -186,8 +186,7 @@ a.cross-link {
 .dark .event-link[data-category="writing"]      { color: #a78bfa; }
 
 /* ── Civ list row: active state driven by data-active attribute ──
-   This is toggled via direct DOM manipulation during scroll so we
-   never trigger a React re-render while the user is scrolling. */
+   Toggled via direct DOM manipulation during scroll — no React re-renders. */
 .civ-row-inner {
   box-shadow: inset 3px 0 0 transparent;
 }
@@ -198,6 +197,14 @@ a.cross-link {
 .civ-row-label {
   color: var(--foreground);
 }
+.civ-row-subtitle {
+  display: none;
+}
+.civ-row-enter {
+  display: none;
+}
+
+/* Active row */
 .civ-row[data-active] .civ-row-inner {
   box-shadow: inset 3px 0 0 var(--row-color);
 }
@@ -207,6 +214,12 @@ a.cross-link {
 }
 .civ-row[data-active] .civ-row-label {
   color: var(--row-color);
+}
+.civ-row[data-active] .civ-row-subtitle {
+  display: block;
+}
+.civ-row[data-active] .civ-row-enter {
+  display: flex;
 }
 
 /* Hide scrollbars on ribbon */

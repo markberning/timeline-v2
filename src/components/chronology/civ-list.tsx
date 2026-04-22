@@ -10,11 +10,7 @@ interface CivListProps {
   listRef: React.RefObject<HTMLDivElement | null>
 }
 
-// Activation point: 20% down from the top of the list container.
 const ACTIVATION_FRAC = 0.20
-// After scroll stops for this long, commit the active civ to React state
-// (which updates the ribbon). During scrolling we only do lightweight DOM
-// class toggles — no React re-renders, no ribbon updates.
 const SCROLL_END_MS = 300
 
 export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProps) {
@@ -23,20 +19,15 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
   const scrollEndTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const rafId = useRef<number>(0)
 
-  // Sync visual ref when React state changes (e.g. initial mount)
   useEffect(() => { visualActiveId.current = activeCivId }, [activeCivId])
 
-  // ── Direct DOM styling — no React re-render needed ──
   const applyVisualActive = useCallback((newId: string | null) => {
     const prevId = visualActiveId.current
     if (newId === prevId) return
-
-    // Deactivate previous
     if (prevId) {
       const prevEl = rowEls.current.get(prevId)
       if (prevEl) prevEl.removeAttribute('data-active')
     }
-    // Activate new
     if (newId) {
       const newEl = rowEls.current.get(newId)
       if (newEl) newEl.setAttribute('data-active', 'true')
@@ -44,7 +35,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     visualActiveId.current = newId
   }, [])
 
-  // Scroll-based activation: rAF-throttled, DOM-only during scroll
   useEffect(() => {
     const container = listRef.current
     if (!container) return
@@ -52,9 +42,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     function onScroll() {
       cancelAnimationFrame(rafId.current)
       rafId.current = requestAnimationFrame(() => {
-        // If at or near the top (including iOS rubber-band), always pick
-        // the first civ. This prevents the bounce-back from landing on
-        // the second row.
         if (container!.scrollTop < 20) {
           const firstId = SORTED_CIVS[0]?.id
           if (firstId) {
@@ -70,7 +57,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
         const containerRect = container!.getBoundingClientRect()
         const activationY = containerRect.top + container!.clientHeight * ACTIVATION_FRAC
 
-        // Find the row whose top is above the activation line and closest to it
         let bestId: string | null = null
         let bestTop = -Infinity
 
@@ -83,11 +69,8 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
         })
 
         if (!bestId) return
-
-        // Lightweight DOM toggle — instant, no React
         applyVisualActive(bestId)
 
-        // Defer the React state update (ribbon sync) until scroll stops
         if (scrollEndTimer.current) clearTimeout(scrollEndTimer.current)
         scrollEndTimer.current = setTimeout(() => {
           onActiveCivChange(bestId!)
@@ -104,7 +87,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     }
   }, [listRef, applyVisualActive, onActiveCivChange])
 
-  // Apply initial visual state after mount
   useEffect(() => {
     if (activeCivId) applyVisualActive(activeCivId)
   }, [activeCivId, applyVisualActive])
@@ -114,41 +96,76 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     else rowEls.current.delete(id)
   }, [])
 
-  function handleTap(civ: typeof SORTED_CIVS[0]) {
-    if (civ.hasContent) {
-      window.location.href = `/${civ.id}/`
-    }
-  }
-
   return (
     <div ref={listRef} className="flex-1 overflow-y-auto overflow-x-hidden px-5 pt-2" style={{ overscrollBehaviorY: 'contain' }}>
       {SORTED_CIVS.map(civ => {
         const color = REGION_COLORS[civ.region]
         const chainInfo = CIV_CHAIN_MAP.get(civ.id)
         const chainLabel = chainInfo?.chain.shortLabel ?? REGION_LABELS[civ.region]
+        const chainPosition = chainInfo ? `${chainInfo.index + 1} of ${chainInfo.total}` : null
 
         return (
           <div
             key={civ.id}
             ref={el => setRowRef(civ.id, el)}
             data-civ-id={civ.id}
-            data-region-color={color}
-            className={`civ-row py-3 border-b border-foreground/5 ${
-              civ.hasContent ? 'cursor-pointer' : 'opacity-40'
+            className={`civ-row py-4 border-b border-foreground/5 ${
+              !civ.hasContent ? 'opacity-35' : ''
             }`}
             style={{ '--row-color': color } as React.CSSProperties}
-            onClick={() => handleTap(civ)}
           >
             <div className="civ-row-inner pl-4">
-              <div className="civ-row-chain text-[10px] font-bold uppercase tracking-[0.12em]">
+              {/* Chain eyebrow */}
+              <div className="civ-row-chain text-[10px] font-bold uppercase tracking-[0.12em] flex items-center gap-1.5">
                 {chainLabel}
+                {chainPosition && (
+                  <span className="text-foreground/25 font-normal">
+                    {chainPosition}
+                  </span>
+                )}
               </div>
-              <div className="civ-row-label text-lg font-[family-name:var(--font-lora)] mt-0.5">
+
+              {/* Civ title — Lora serif */}
+              <div className="civ-row-label text-xl font-semibold font-[family-name:var(--font-lora)] mt-1">
                 {civ.label}
               </div>
-              <div className="text-xs text-foreground/40 mt-0.5 tabular-nums">
+
+              {/* Date range */}
+              <div className="text-[0.75em] text-foreground/40 mt-0.5 italic font-[family-name:var(--font-lora)] tabular-nums">
                 {formatYearRange(civ.startYear, civ.endYear)}
               </div>
+
+              {/* Subtitle */}
+              {civ.subtitle && (
+                <div className="civ-row-subtitle text-[0.8em] text-foreground/40 mt-1 leading-snug">
+                  {civ.subtitle}
+                </div>
+              )}
+
+              {/* Enter button — only rendered when hasContent, shown via CSS on data-active */}
+              {civ.hasContent && (
+                <button
+                  className="civ-row-enter mt-3 w-full py-3 px-4 text-left rounded-lg flex items-center gap-3 font-bold"
+                  style={{ backgroundColor: color, color: 'white' }}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    window.location.href = `/${civ.id}/`
+                  }}
+                >
+                  <div className="flex-1 min-w-0">
+                    <div className="text-xs tracking-wide uppercase flex items-center gap-1.5">
+                      <span className="inline-block w-3 h-3 rounded-[3px] bg-white/30" />
+                      Read
+                    </div>
+                    <div className="text-base mt-0.5 font-[family-name:var(--font-lora)]">
+                      {civ.label}
+                    </div>
+                  </div>
+                  <div className="shrink-0 w-8 h-8 rounded-full border-2 border-white/40 flex items-center justify-center">
+                    <span className="text-lg leading-none">›</span>
+                  </div>
+                </button>
+              )}
             </div>
           </div>
         )
