@@ -1,0 +1,722 @@
+{
+  "id": "mycenaean-civilization",
+  "label": "Mycenaean",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Mycenaean_Greece",
+  "imageWikiSlug": "Mask_of_Agamemnon",
+  "pitch": "Before classical Athens and Sparta, there was Mycenae — the warrior civilization that launched the Trojan War, built cyclopean fortresses, and gave Greece its first written language. From the spectacular Shaft Graves at Mycenae around 1600 BCE to the devastating Bronze Age Collapse after 1200 BCE, Mycenaean warlords dominated the Aegean for four centuries.\n\n🔑 Key Facts:\n• The Mask of Agamemnon, a gold death mask from the shaft graves, is one of the most famous archaeological finds in history — though it predates the legendary king by centuries\n• The Lion Gate of Mycenae, with its massive carved lintel, is the oldest monumental sculpture in Europe\n• Linear B Tablets, deciphered in 1952, proved the Mycenaeans spoke Greek — pushing the history of the Greek language back by 700 years\n• The legendary Trojan War may reflect real Mycenaean military expeditions against western Anatolian cities\n\n🤔 Why It Matters: The Mycenaeans created the first Greek civilization, establishing the heroic traditions, religious practices, and cultural memories that Homer immortalized in the Iliad and Odyssey. Their collapse triggered Greece's Dark Ages, but their legends shaped Western literature forever.\n\n🎲 Wild Card: When Heinrich Schliemann found the gold death mask at Mycenae in 1876, he allegedly telegraphed the King of Greece: 'I have gazed upon the face of Agamemnon.' He was wrong about the date by about 300 years — but the drama was perfect.",
+  "countryIds": [
+    "300"
+  ],
+  "spans": [
+    {
+      "id": "span-mycenaean-civilization-early-mycenaean",
+      "label": "Early Mycenaean Period",
+      "startYear": -1600,
+      "endYear": -1400,
+      "wikiSlug": "Mycenaean_Greece",
+      "description": "A warrior elite rose to power on mainland Greece, burying their dead with spectacular gold grave goods in shaft graves. Heavy Minoan cultural influence shaped early Mycenaean art, religion, and trade networks."
+    },
+    {
+      "id": "span-mycenaean-civilization-palatial",
+      "label": "Palatial Period",
+      "startYear": -1400,
+      "endYear": -1200,
+      "wikiSlug": "Mycenaean_Greece",
+      "description": "Mycenaean civilization reached its height with fortified palace centers at Mycenae, Tiryns, Pylos, and Thebes administering vast territories using Linear B. The era saw cyclopean wall construction, the Lion Gate, and probable campaigns against Troy."
+    },
+    {
+      "id": "span-mycenaean-civilization-post-palatial",
+      "label": "Post-Palatial Decline",
+      "startYear": -1200,
+      "endYear": -1100,
+      "wikiSlug": "Mycenaean_Greece",
+      "description": "Nearly all Mycenaean palaces were destroyed by fire around 1200 BCE amid the broader Bronze Age collapse. Trade networks shattered, writing was lost, and populations declined dramatically across the Aegean."
+    },
+    {
+      "id": "span-mycenaean-civilization-dark-ages",
+      "label": "Greek Dark Ages",
+      "startYear": -1100,
+      "endYear": -800,
+      "wikiSlug": "Greek_Dark_Ages",
+      "description": "Greece entered three centuries of illiteracy, depopulation, and reduced material culture after the Mycenaean collapse. Oral poets preserved heroic traditions that would eventually become Homer's Iliad and Odyssey."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-grave-circle-b",
+      "label": "Grave Circle B at Mycenae",
+      "year": -1650,
+      "description": "The earlier of the two royal grave circles at Mycenae, Grave Circle B contained 26 graves with bronze weapons, gold jewelry, and amber beads — the first evidence of a rising warrior aristocracy on mainland Greece.",
+      "wikiSlug": "Grave_Circle_B,_Mycenae",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-perseus-legendary-founder",
+      "label": "Perseus, Legendary Founder of Mycenae",
+      "year": -1600,
+      "description": "Greek myth credited the hero Perseus, slayer of Medusa, with founding Mycenae. He supposedly named it after his sword cap (mykes) fell off at the site, where he found a spring of water.",
+      "wikiSlug": "Perseus",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-shaft-graves",
+      "label": "Shaft Graves at Mycenae",
+      "year": -1600,
+      "description": "The shaft graves at Mycenae contained spectacular gold artifacts including death masks, weapons, and jewelry, revealing a wealthy warrior elite that had risen to power on mainland Greece.",
+      "wikiSlug": "Grave_Circle_A,_Mycenae",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-minoan-influence",
+      "label": "Minoan Cultural Influence",
+      "year": -1600,
+      "description": "Early Mycenaean elites adopted Minoan artistic styles, religious practices, and administrative techniques, creating a hybrid culture that would eventually surpass its teacher.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mask-agamemnon",
+      "label": "Mask of Agamemnon",
+      "year": -1580,
+      "description": "The famous gold death mask found by Schliemann at Mycenae, mistakenly attributed to Agamemnon, is the most iconic artifact of Mycenaean civilization.",
+      "wikiSlug": "Mask_of_Agamemnon",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mycenaean-goldwork",
+      "label": "Mycenaean Gold Craftsmanship",
+      "year": -1580,
+      "description": "The shaft graves revealed extraordinary goldsmithing: repousse death masks, gold cups with hunting scenes, inlaid daggers, and gold signet rings with religious imagery — the richest gold assemblage in prehistoric Europe.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mycenae-power-center",
+      "label": "Mycenae Emerges as Power Center",
+      "year": -1550,
+      "description": "By 1550 BCE Mycenae had become the dominant center on the Argive plain, its wealth from trade and raiding evident in increasingly elaborate grave goods and monumental construction.",
+      "wikiSlug": "Mycenae",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-vapheio-cups",
+      "label": "Vapheio Cups",
+      "year": -1500,
+      "description": "Two gold cups from a tholos tomb at Vapheio in Laconia depict bull-catching scenes with extraordinary artistry — one showing a wild capture, the other a tame decoy. They are masterpieces of Aegean metalwork.",
+      "wikiSlug": "Vapheio",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-tholos-tombs",
+      "label": "Tholos Tomb Construction",
+      "year": -1500,
+      "description": "Mycenaean rulers built massive beehive-shaped tholos tombs, demonstrating engineering skill and the immense resources commanded by palatial rulers.",
+      "wikiSlug": "Tholos",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-dendra-panoply",
+      "label": "Dendra Panoply",
+      "year": -1450,
+      "description": "The Dendra panoply, a complete bronze suit of armor found in a tomb, is the oldest known full-body armor in Europe, demonstrating advanced Mycenaean metalworking.",
+      "wikiSlug": "Dendra_panoply",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-conquest-crete",
+      "label": "Mycenaean Conquest of Crete",
+      "year": -1450,
+      "description": "Mycenaean warriors conquered Crete around 1450 BCE, taking control of Knossos and replacing Minoan Linear A administration with Greek Linear B.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-linear-b",
+      "label": "Linear B Tablets",
+      "year": -1417.5,
+      "description": "The Mycenaeans adapted Minoan Linear A into Linear B to write Greek, creating palace inventories and administrative records — the earliest known form of the Greek language.",
+      "wikiSlug": "Linear_B",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mycenaean-religion",
+      "label": "Early Greek Gods Documented",
+      "year": -1412.5,
+      "description": "Linear B tablets mention Zeus, Hera, Poseidon, Hermes, Athena, and Dionysus — proving that the core Greek pantheon existed centuries before Homer.",
+      "wikiSlug": "Mycenaean_religion",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-chariot-warfare",
+      "label": "Mycenaean Chariot Warfare",
+      "year": -1407.5,
+      "description": "Linear B records document hundreds of chariots maintained by Mycenaean palaces, used as prestige weapons and mobile platforms in aristocratic warfare.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-trade-networks",
+      "label": "Mycenaean Mediterranean Trade",
+      "year": -1402.5,
+      "endYear": -1200,
+      "description": "Mycenaean pottery and goods have been found from Spain to Syria. The palatial economy organized specialized production of olive oil, wine, textiles, and bronze for export.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-miletus-settlement",
+      "label": "Mycenaean Settlement at Miletus",
+      "year": -1400,
+      "description": "The Mycenaeans established a significant settlement at Miletus on the Anatolian coast, complete with a fortification wall and Mycenaean pottery — their most important foothold in western Asia Minor.",
+      "wikiSlug": "Miletus",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-amber-trade",
+      "label": "Baltic Amber Trade Route",
+      "year": -1400,
+      "description": "Amber beads from the Baltic Sea have been found in Mycenaean shaft graves and tholos tombs, proving a long-distance trade network stretching over 1,500 miles (2,400 km) from northern Europe to Greece.",
+      "wikiSlug": "Amber_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-phi-psi-figurines",
+      "label": "Phi and Psi Terracotta Figurines",
+      "year": -1400,
+      "description": "Mass-produced terracotta female figurines, named for their resemblance to the Greek letters phi and psi, were placed in tombs and shrines across the Mycenaean world — likely representations of goddesses or votives.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ancestor-worship",
+      "label": "Tholos Tomb Ancestor Cult",
+      "year": -1400,
+      "description": "Evidence of repeated offerings at tholos tombs suggests the Mycenaeans practiced ancestor worship, returning to royal tombs to pour libations and leave gifts for the powerful dead.",
+      "wikiSlug": "Mycenaean_religion",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-boar-tusk-helmet",
+      "label": "Boar's Tusk Helmet",
+      "year": -1397.5,
+      "description": "The distinctive Mycenaean boar's tusk helmet, described by Homer in the Iliad, required 40-60 boar tusks to make — a status symbol of the warrior aristocracy.",
+      "wikiSlug": "Boar%27s_tusk_helmet",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-wanax-system",
+      "label": "Wanax Palace System",
+      "year": -1392.5,
+      "description": "Each Mycenaean palace was ruled by a wanax (king) supported by a lawagetas (military commander) and bureaucracy documented in Linear B — a proto-feudal system.",
+      "wikiSlug": "Wanax",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mycenaean-burial-rites",
+      "label": "Mycenaean Burial Rites",
+      "year": -1387.5,
+      "description": "Mycenaean elite burial included grave goods of gold, weapons, and ceramics, with practices ranging from shaft graves to tholos tombs reflecting evolving religious beliefs about the afterlife.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-eleusis-mystery",
+      "label": "Origins of Eleusinian Mysteries",
+      "year": -1382.5,
+      "description": "The Eleusinian Mysteries, Greece's most sacred religious rites, may have Mycenaean origins. A megaron at Eleusis dates to this period, hinting at early cult activity.",
+      "wikiSlug": "Eleusinian_Mysteries",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mycenaean-pottery-exports",
+      "label": "Mycenaean Pottery Exports",
+      "year": -1375,
+      "description": "Distinctive Mycenaean stirrup jars and kraters have been found from Egypt to Italy to the Levant. Their standardized production and wide distribution made them the most recognizable pottery brand in the Late Bronze Age Mediterranean.",
+      "wikiSlug": "Mycenaean_pottery",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-linear-b-inventories",
+      "label": "Linear B Inventory Tablets",
+      "year": -1375,
+      "description": "Palatial scribes kept meticulous Linear B records of grain stores, livestock, cloth production, bronze allocations, and land holdings — revealing a tightly controlled redistributive economy managed from the palace.",
+      "wikiSlug": "Linear_B",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cypriot-copper-trade",
+      "label": "Cypriot Copper Trade",
+      "year": -1350,
+      "description": "Mycenaean Greece imported vast quantities of copper from Cyprus, essential for bronze production. Oxhide-shaped copper ingots found in Mycenaean contexts match those from Cypriot smelting sites.",
+      "wikiSlug": "Oxhide_ingot",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cyclopean-walls",
+      "label": "Cyclopean Wall Construction",
+      "year": -1350,
+      "description": "Mycenaean citadels were surrounded by massive 'cyclopean' walls built from boulders so large that later Greeks believed only the Cyclopes could have moved them.",
+      "wikiSlug": "Cyclopean_masonry",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-megaron-architecture",
+      "label": "Mycenaean Megaron Architecture",
+      "year": -1350,
+      "description": "The megaron — a rectangular hall with a central hearth, four columns, and a front porch — was the heart of every Mycenaean palace. This architectural form became the template for later Greek temples.",
+      "wikiSlug": "Megaron",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-olive-oil-wine",
+      "label": "Olive Oil and Wine Production",
+      "year": -1350,
+      "description": "Linear B tablets document large-scale olive oil and wine production organized by the palaces. Perfumed olive oil was a luxury export, while wine appears in records of ritual offerings and rations for workers.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pylos-palace",
+      "label": "Palace of Nestor at Pylos",
+      "year": -1312.5,
+      "description": "The well-preserved palace at Pylos in Messenia yielded hundreds of Linear B tablets and a decorated megaron (throne room) with a central hearth and painted floors.",
+      "wikiSlug": "Palace_of_Nestor",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-uluburun-wreck",
+      "label": "Uluburun Shipwreck Era",
+      "year": -1307.5,
+      "description": "The Uluburun shipwreck off Turkey carried cargo from at least seven cultures, illustrating the international trade network in which Mycenaean Greece was a major player.",
+      "wikiSlug": "Uluburun_shipwreck",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tiryns-citadel",
+      "label": "Citadel of Tiryns",
+      "year": -1302.5,
+      "description": "The fortress of Tiryns had walls up to 8 meters thick with corbelled galleries, earning it the epithet 'wall-girt Tiryns' from Homer.",
+      "wikiSlug": "Tiryns",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-midea-citadel",
+      "label": "Citadel of Midea",
+      "year": -1300,
+      "description": "The fortified citadel of Midea in the Argolid, third in importance after Mycenae and Tiryns, guarded a key pass with massive cyclopean walls and yielded rich tombs including the Dendra panoply.",
+      "wikiSlug": "Midea",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gla-fortress",
+      "label": "Fortress of Gla",
+      "year": -1300,
+      "description": "The Mycenaean fortress of Gla in Boeotia enclosed 24 acres — ten times larger than the citadel of Mycenae — and guarded the massive drainage works that reclaimed Lake Kopais for agriculture.",
+      "wikiSlug": "Gla",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kopais-drainage",
+      "label": "Lake Kopais Drainage Works",
+      "year": -1300,
+      "description": "Mycenaean engineers built an elaborate system of dikes, canals, and polders to drain Lake Kopais in Boeotia for farmland — one of the most ambitious hydraulic engineering projects in Bronze Age Europe.",
+      "wikiSlug": "Lake_Copais",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-thebes-palace",
+      "label": "Palace of Thebes",
+      "year": -1297.5,
+      "description": "The Mycenaean palace at Thebes in Boeotia was a major administrative center, with Linear B archives and cylinder seals showing connections to Mesopotamia.",
+      "wikiSlug": "Thebes,_Greece",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mycenaean-perfume",
+      "label": "Mycenaean Perfume Industry",
+      "year": -1292.5,
+      "description": "Linear B tablets document a sophisticated perfume industry at Pylos, using olive oil infused with coriander, rose, and sage — an important luxury export.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-ahhiyawa-letters",
+      "label": "Ahhiyawa Letters",
+      "year": -1287.5,
+      "description": "Hittite diplomatic texts refer to 'Ahhiyawa' — almost certainly the Mycenaeans — as a major western power, confirming their international importance.",
+      "wikiSlug": "Ahhiyawa",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mycenaean-raids-anatolia",
+      "label": "Mycenaean Raids on Anatolia",
+      "year": -1280,
+      "description": "Hittite texts describe conflicts with Ahhiyawa over western Anatolian vassal states, including disputes over the city of Wilusa (likely Troy). These raids may be the historical kernel behind the Trojan War legends.",
+      "wikiSlug": "Ahhiyawa",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nestor-legendary-king",
+      "label": "Nestor, Legendary King of Pylos",
+      "year": -1250,
+      "description": "Greek legend remembered Nestor as the wise old king of Pylos who sailed to Troy with 90 ships. The discovery of the Palace of Nestor confirmed Pylos was a real Mycenaean power center, though the legendary king remains unverifiable.",
+      "wikiSlug": "Nestor_(mythology)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lion-gate",
+      "label": "Lion Gate of Mycenae",
+      "year": -1250,
+      "description": "The Lion Gate, the main entrance to the citadel of Mycenae, features a carved relief of two confronting lions — the oldest monumental sculpture in Europe.",
+      "wikiSlug": "Lion_Gate",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-treasury-atreus",
+      "label": "Treasury of Atreus",
+      "year": -1250,
+      "description": "The 'Treasury of Atreus' at Mycenae, with its 13.5-meter-high corbelled dome, was the largest domed structure in the world for over a thousand years until the Roman Pantheon.",
+      "wikiSlug": "Treasury_of_Atreus",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-orchomenos-treasury-minyas",
+      "label": "Treasury of Minyas at Orchomenos",
+      "year": -1250,
+      "description": "The tholos tomb at Orchomenos, called the Treasury of Minyas by later Greeks, rivaled the Treasury of Atreus in scale. Its decorated ceiling of carved green schist is unique among Mycenaean tombs.",
+      "wikiSlug": "Treasury_of_Minyas",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cult-center-mycenae",
+      "label": "Cult Center at Mycenae",
+      "year": -1250,
+      "description": "A religious complex within the Mycenae citadel contained painted plaster goddesses, snake-handling figurines, and ritual vessels — evidence of organized state religion.",
+      "wikiSlug": "Mycenae",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tiryns-cult-center",
+      "label": "Cult Center at Tiryns",
+      "year": -1250,
+      "description": "A cult room inside the citadel of Tiryns contained a painted altar, terracotta figurines, and ritual vessels. After the palace's destruction, worship at the site continued into the early Iron Age.",
+      "wikiSlug": "Tiryns",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dionysus-linear-b",
+      "label": "Dionysus on Linear B Tablets",
+      "year": -1250,
+      "description": "Linear B tablets from Pylos reference di-wo-nu-so (Dionysus), proving the god of wine and ecstasy was worshipped centuries before the classical period — not a late foreign import as once believed.",
+      "wikiSlug": "Dionysus",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-agamemnon-legendary",
+      "label": "Agamemnon, Legendary King of Mycenae",
+      "year": -1200,
+      "description": "Greek tradition remembered Agamemnon as the High King of Mycenae who led the Greek alliance against Troy. While no Linear B tablet names him, Mycenae's archaeological preeminence among the palaces fits the legend's claim of a paramount ruler.",
+      "wikiSlug": "Agamemnon",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pylos-ta-tablets",
+      "label": "Pylos Ta Series Tablets",
+      "year": -1200,
+      "description": "The Ta series tablets from Pylos record a frantic inventory of bronze vessels and ritual equipment — apparently taken just before the palace was destroyed. They provide a snapshot of a civilization in its final hours.",
+      "wikiSlug": "Palace_of_Nestor",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-warrior-vase",
+      "label": "Warrior Vase",
+      "year": -1200,
+      "description": "The Warrior Vase from Mycenae depicts armed soldiers marching in formation — one of the most vivid images of Mycenaean military culture from the twilight of the civilization.",
+      "wikiSlug": "Warrior_Vase",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-palatial-destruction",
+      "label": "Destruction of Mycenaean Palaces",
+      "year": -1200,
+      "description": "Around 1200 BCE, nearly all Mycenaean palace centers were destroyed by fire. The cause remains debated: invasion, internal revolt, earthquake, or systemic collapse.",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sea-peoples-mycenaean",
+      "label": "Sea Peoples and Mycenaean World",
+      "year": -1200,
+      "description": "Egyptian texts describe attacks by 'Sea Peoples' including groups with Aegean-sounding names like the Ekwesh (Achaeans?) and Denyen (Danaans?). Some may have been displaced Mycenaeans; others may have contributed to the palaces' destruction.",
+      "wikiSlug": "Sea_Peoples",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-peloponnese-destructions",
+      "label": "Destructions Across the Peloponnese",
+      "year": -1190,
+      "description": "Within a generation of 1200 BCE, major centers at Mycenae, Tiryns, Midea, Thebes, and Orchomenos were burned. Some were partially reoccupied, but the palatial administration and Linear B record-keeping never recovered.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-trojan-war",
+      "label": "Trojan War",
+      "year": -1184,
+      "description": "The legendary war against Troy, immortalized by Homer, may reflect real Mycenaean military campaigns against the wealthy city of Wilusa (Troy) in western Anatolia.",
+      "wikiSlug": "Trojan_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-destruction-pylos",
+      "label": "Destruction of Pylos",
+      "year": -1180,
+      "description": "The Palace of Nestor at Pylos was destroyed by fire around 1180 BCE and never rebuilt. Its Linear B archive survived only because the fire baked the clay tablets, accidentally preserving them for archaeologists.",
+      "wikiSlug": "Palace_of_Nestor",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-destruction-troy-vi",
+      "label": "Destruction of Troy VIIa",
+      "year": -1180,
+      "description": "Archaeological evidence shows Troy VIIa was destroyed by fire around 1180 BCE, with arrowheads and unburied bodies suggesting a violent attack consistent with the Trojan War legend.",
+      "wikiSlug": "Troy_VII",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-bronze-age-collapse",
+      "label": "Bronze Age Collapse",
+      "year": -1177,
+      "description": "The broader Bronze Age collapse destroyed civilizations from Greece to Egypt. Trade networks shattered, writing was lost, and populations declined dramatically.",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-dorian-invasion",
+      "label": "Dorian Migration",
+      "year": -1100,
+      "description": "Greek tradition attributed the collapse to invading Dorians from the north. While the historicity is debated, dialect evidence confirms Doric-speaking groups settled the Peloponnese.",
+      "wikiSlug": "Dorian_invasion",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-loss-writing",
+      "label": "Loss of Writing",
+      "year": -1100,
+      "description": "With the destruction of the palaces, Linear B fell out of use and Greece became illiterate for over 300 years — the only known case of a literate civilization losing writing.",
+      "wikiSlug": "Greek_Dark_Ages",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-population-decline",
+      "label": "Population Collapse",
+      "year": -1100,
+      "description": "Archaeological surveys suggest the population of the Mycenaean heartland declined by up to 90% between 1200 and 1100 BCE, with many sites abandoned entirely.",
+      "wikiSlug": "Greek_Dark_Ages",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-sub-mycenaean",
+      "label": "Sub-Mycenaean Period",
+      "year": -1060,
+      "description": "The Sub-Mycenaean period (~1060-1000 BCE) represents the final echo of Mycenaean culture: simplified pottery, single burials replacing family tombs, and impoverished settlements clinging to old citadel sites.",
+      "wikiSlug": "Sub-Mycenaean_pottery",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-iron-replaces-bronze",
+      "label": "Iron Replaces Bronze",
+      "year": -1050,
+      "description": "With the collapse of Bronze Age trade networks that supplied tin, Greek smiths turned to locally available iron ore. By 1050 BCE iron weapons and tools had largely replaced bronze — a technological shift born of necessity.",
+      "wikiSlug": "Greek_Dark_Ages",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-ionian-migration",
+      "label": "Ionian Migration",
+      "year": -1050,
+      "description": "Displaced Greeks migrated across the Aegean to settle the western coast of Anatolia, founding cities like Miletus, Ephesus, and Smyrna. These Ionian colonies would later become centers of Greek philosophy and science.",
+      "wikiSlug": "Ionian_migration",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lefkandi-settlement",
+      "label": "Lefkandi Settlement",
+      "year": -1050,
+      "description": "The site of Lefkandi on Euboea maintained long-distance trade contacts even during the darkest phase of the Dark Ages, showing that the collapse was not total — some communities kept the embers of civilization burning.",
+      "wikiSlug": "Lefkandi",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lefkandi-burial",
+      "label": "Lefkandi Heroic Burial",
+      "year": -1000,
+      "description": "A monumental burial at Lefkandi on Euboea, with a warrior and his wife interred with gold and horses, shows that elite culture survived the collapse in pockets.",
+      "wikiSlug": "Lefkandi",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-homer-preserves",
+      "label": "Homeric Oral Tradition",
+      "year": -900,
+      "description": "During the Dark Ages, bards preserved memories of Mycenaean glory in oral poetry that would eventually be written down as the Iliad and Odyssey — ensuring the Mycenaeans were never truly forgotten.",
+      "wikiSlug": "Homer",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-schliemann-mycenae",
+      "label": "Heinrich Schliemann Excavates Mycenae",
+      "year": 1876,
+      "description": "German businessman-turned-archaeologist Heinrich Schliemann excavated Mycenae in 1876, uncovering the shaft graves and their spectacular gold contents. His dramatic (and often unscientific) methods brought Mycenaean civilization to worldwide attention.",
+      "wikiSlug": "Heinrich_Schliemann",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ventris-linear-b",
+      "label": "Michael Ventris Deciphers Linear B",
+      "year": 1952,
+      "description": "British architect Michael Ventris cracked the Linear B script in 1952, proving the tablets were written in an early form of Greek. The breakthrough — achieved at age 30, building on wartime codebreaking methods — pushed the Greek language back 700 years.",
+      "wikiSlug": "Michael_Ventris",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}
