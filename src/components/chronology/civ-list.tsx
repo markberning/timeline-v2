@@ -87,9 +87,21 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     }
   }, [listRef, applyVisualActive, onActiveCivChange])
 
+  // When activeCivId changes externally (e.g. bar tap), update visual + scroll to row
   useEffect(() => {
-    if (activeCivId) applyVisualActive(activeCivId)
-  }, [activeCivId, applyVisualActive])
+    if (!activeCivId) return
+    applyVisualActive(activeCivId)
+    // Scroll list to show this row (only if it wasn't triggered by list scroll)
+    const el = rowEls.current.get(activeCivId)
+    if (el && listRef.current) {
+      const containerRect = listRef.current.getBoundingClientRect()
+      const rowRect = el.getBoundingClientRect()
+      // Only scroll if the row isn't already visible near the top
+      if (rowRect.top < containerRect.top || rowRect.top > containerRect.top + containerRect.height * 0.3) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
+    }
+  }, [activeCivId, applyVisualActive, listRef])
 
   const setRowRef = useCallback((id: string, el: HTMLDivElement | null) => {
     if (el) rowEls.current.set(id, el)
