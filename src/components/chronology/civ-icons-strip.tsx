@@ -1,41 +1,31 @@
 'use client'
 
-// Civilization-themed decorative strip using Unicode symbols.
-// These render natively at high quality on all platforms.
-
-import { REGION_COLORS } from '@/lib/navigator-tls'
-
-const near = REGION_COLORS['near-east']
-const africa = REGION_COLORS['africa']
-const asia = REGION_COLORS['asia']
-const europe = REGION_COLORS['europe']
-const americas = REGION_COLORS['americas']
-
-const GLYPHS: { char: string; color: string }[] = [
-  { char: '𓂀', color: africa },    // Egyptian eye of Horus
-  { char: '☽', color: near },      // Crescent (Near East)
-  { char: '☸', color: asia },      // Dharma wheel (India)
-  { char: '⚱', color: europe },    // Amphora (Greece/Rome)
-  { char: '𓃭', color: africa },    // Egyptian lion
-  { char: '◉', color: americas },  // Sun disk (Andes)
-  { char: '⛩', color: asia },      // Torii gate (Japan)
-  { char: '𓋹', color: africa },    // Ankh
-  { char: '☬', color: asia },      // Adi Shakti (India)
-  { char: '⚔', color: europe },    // Crossed swords (Rome)
+const ICONS = [
+  '/icons/sphinx.png',
+  '/icons/lamassu.png',
+  '/icons/faravahar.png',
+  '/icons/torii.png',
+  '/icons/lotus.png',
+  '/icons/mountains.png',
+  '/icons/colosseum.png',
+  '/icons/horse.png',
+  '/icons/maya-temple.png',
+  '/icons/viking-ship.png',
+  '/icons/mesopotamia.png',
 ]
 
 export function CivIconsStrip() {
   return (
-    <div className="flex items-center justify-center gap-3 lg:gap-5 py-1 overflow-hidden shrink-0">
-      {GLYPHS.map((g, i) => (
-        <span
+    <div className="flex items-center justify-center gap-3 lg:gap-5 py-1.5 overflow-hidden shrink-0 opacity-60">
+      {ICONS.map((src, i) => (
+        <img
           key={i}
-          className="text-[22px] lg:text-[26px] leading-none select-none"
-          style={{ color: g.color, opacity: 0.4 }}
+          src={src}
+          alt=""
           aria-hidden="true"
-        >
-          {g.char}
-        </span>
+          className="h-7 lg:h-9 w-auto shrink-0 select-none"
+          draggable={false}
+        />
       ))}
     </div>
   )
