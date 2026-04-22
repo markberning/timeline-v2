@@ -73,11 +73,11 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
     const containerWidth = container.clientWidth
 
     if (mode === 'swim') {
-      // Align bar start with focus marker position
+      // Mobile: instant scroll — smooth fights the user's list momentum
       const focusX = containerWidth * FOCUS_MARKER_PCT
-      container.scrollTo({ left: barStartX - focusX, behavior: 'smooth' })
+      container.scrollTo({ left: barStartX - focusX, behavior: 'auto' })
     } else {
-      // Center bar START in viewport
+      // Desktop: smooth scroll on click
       container.scrollTo({ left: barStartX - containerWidth / 2, behavior: 'smooth' })
     }
   }, [activeCivId, yearToX, mode, scrollRef])
@@ -178,7 +178,7 @@ function SwimLaneBars({
           return (
             <button
               key={civ.id}
-              className="absolute rounded-sm overflow-hidden transition-all duration-200 cursor-pointer"
+              className="absolute rounded-sm overflow-hidden cursor-pointer"
               style={{
                 left: x,
                 top: laneTop + 2,
