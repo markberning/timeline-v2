@@ -70,7 +70,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── ASIA (East) ──
   { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -4000, endYear: -1600, hasContent: true },
-  { id: 'shang-dynasty', label: 'Shang Dynasty', subtitle: "China's first oracle bones", region: 'asia', startYear: -1600, endYear: -1046 },
+  { id: 'shang-dynasty', label: 'Shang Dynasty', subtitle: "China's first oracle bones", region: 'asia', startYear: -1600, endYear: -1046, hasContent: true },
   { id: 'zhou-dynasty', label: 'Zhou Dynasty', subtitle: 'Confucius and the Warring States', region: 'asia', startYear: -1046, endYear: -256 },
   { id: 'qin-dynasty', label: 'Qin Dynasty', subtitle: 'China unified by terror and law', region: 'asia', startYear: -221, endYear: -206 },
   { id: 'han-dynasty', label: 'Han Dynasty', subtitle: "China's silk-road golden age", region: 'asia', startYear: -206, endYear: 220 },
@@ -95,7 +95,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── EUROPE ──
   { id: 'minoan-civilization', label: 'Minoan', subtitle: "Crete's bull-leaping palace culture", region: 'europe', startYear: -2700, endYear: -1450, hasContent: true },
-  { id: 'mycenaean-civilization', label: 'Mycenaean', subtitle: "Greece's bronze-age warlords", region: 'europe', startYear: -1600, endYear: -1100 },
+  { id: 'mycenaean-civilization', label: 'Mycenaean', subtitle: "Greece's bronze-age warlords", region: 'europe', startYear: -1600, endYear: -1100, hasContent: true },
   { id: 'ancient-greece', label: 'Ancient Greece', subtitle: 'philosophy, drama, democracy', region: 'europe', startYear: -800, endYear: -146 },
   { id: 'ancient-rome', label: 'Ancient Rome', subtitle: "the Mediterranean's grand experiment", region: 'europe', startYear: -753, endYear: 476 },
   { id: 'byzantine-empire', label: 'Byzantine Empire', subtitle: 'the Roman empire that lasted', region: 'europe', startYear: 330, endYear: 1453 },

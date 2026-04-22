@@ -174,7 +174,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
 **Chinese Dynasties chain** (in progress):
 1. ✅ ancient-china — 8 chapters (~20k words), full 5-persona audit (all 8 STRONG), summary factcheck clean (3 CHECK fixes applied in Ch 3/6/7), 37 event links, **208 glossary links**, **52 summary bullets**, **22 cross-links** (up from 17 after the 2026-04-15 structural audit, closes the China↔Elam zero-gap), label "Ancient China", **8 WebP chapter maps** (Ch 4/7/8 regenerated under strict-rules redo pass). Backward cross-cultural pass applied to Mesopotamia and Indus Valley.
-2. shang-dynasty
+2. ✅ shang-dynasty — 8 chapters (~17.4k words), label "Shang Dynasty", 69 reference events, 69 event links, 195 glossary links, 15 cross-links, 63 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Erligang expansion through Battle of Muye (-1600 to -1046 BCE). Central thesis: where Chinese civilization stops being archaeology and starts being history — oracle bones, bronze kings, and the invention of the Mandate of Heaven.
 3. zhou-dynasty
 4. qin-dynasty
 5. han-dynasty
@@ -209,7 +209,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
 **Greco-Roman chain** (in progress):
 1. ✅ minoan-civilization — 8 chapters (~17.5k words), label "Minoan", 66 reference events, 61 event links, 201 glossary links, 13 cross-links, 66 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Neolithic Crete through Subminoan period (-7000 to -1100 BCE) plus modern rediscovery (1878-1952). Central thesis: Europe's first civilization was Cretan, not Greek, reconstructed from pictures and ruins because the language is locked. Chain color: blue (`greco-roman`).
-2. mycenaean-civilization
+2. ✅ mycenaean-civilization — 8 chapters (~17.4k words), label "Mycenaean", 67 reference events, 67 event links, 245 glossary links, 17 cross-links, 64 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers shaft graves through Greek Dark Ages (-1600 to -800 BCE). Central thesis: Greece before Greece knew it was Greek — the warriors whose memory became Homer.
 3. ancient-greece
 4. ancient-rome
 5. byzantine-empire
