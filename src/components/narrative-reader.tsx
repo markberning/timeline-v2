@@ -29,12 +29,19 @@ function loadProgress(tlId: string): ReadingProgress | null {
     const p = JSON.parse(raw) as ReadingProgress
     // Expire after 90 days
     if (Date.now() - p.timestamp > 90 * 24 * 60 * 60 * 1000) return null
+    // Don't show if user dismissed and hasn't scrolled since
+    const dismissedAt = localStorage.getItem(`reading-dismissed-${tlId}`)
+    if (dismissedAt && p.timestamp <= Number(dismissedAt)) return null
     return p
   } catch { return null }
 }
 
 function saveProgress(tlId: string, chapter: number, scrollPct: number) {
   localStorage.setItem(`reading-progress-${tlId}`, JSON.stringify({ chapter, scrollPct, timestamp: Date.now() }))
+}
+
+function dismissProgress(tlId: string) {
+  localStorage.setItem(`reading-dismissed-${tlId}`, String(Date.now()))
 }
 
 export function NarrativeReader({ civilizationId, chapters, events, glossary, crossLinks }: NarrativeReaderProps) {
@@ -184,7 +191,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               <span className="text-lg leading-none">›</span>
             </div>
             <button
-              onClick={(e) => { e.stopPropagation(); setResumeDismissed(true) }}
+              onClick={(e) => { e.stopPropagation(); setResumeDismissed(true); dismissProgress(civilizationId) }}
               className="shrink-0 text-white/50 hover:text-white text-lg"
               aria-label="Dismiss"
             >
