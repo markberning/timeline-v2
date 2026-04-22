@@ -1,0 +1,87 @@
+{
+  "1": [
+    {"eventId": "evt-tang-founds-shang", "matchText": "Tang of Shang"},
+    {"eventId": "evt-shang-mingtiao", "matchText": "Battle of Mingtiao"},
+    {"eventId": "evt-erligang-city", "matchText": "Zhengzhou"},
+    {"eventId": "evt-rammed-earth", "matchText": "hangtu"},
+    {"eventId": "evt-bronze-casting-begins", "matchText": "piece-mold casting"},
+    {"eventId": "evt-erligang-expansion", "matchText": "Erligang expansion"},
+    {"eventId": "evt-panlongcheng", "matchText": "Panlongcheng"},
+    {"eventId": "evt-copper-tin-trade", "matchText": "copper and tin"},
+    {"eventId": "evt-yi-yin", "matchText": "Yi Yin"},
+    {"eventId": "evt-pan-geng", "matchText": "Pan Geng"},
+    {"eventId": "evt-bronze-foundry-org", "matchText": "royal monopoly"}
+  ],
+  "2": [
+    {"eventId": "evt-wang-yirong-discovery", "matchText": "Wang Yirong"},
+    {"eventId": "evt-oracle-bones", "matchText": "oracle bone inscriptions"},
+    {"eventId": "evt-yinxu-excavations", "matchText": "Li Ji"},
+    {"eventId": "evt-anyang-capital", "matchText": "Yinxu"},
+    {"eventId": "evt-chinese-writing-origin", "matchText": "oracle bone script"},
+    {"eventId": "evt-oracle-bone-preparation", "matchText": "plastrons"},
+    {"eventId": "evt-scapulimancy-origins", "matchText": "scapulimancy"},
+    {"eventId": "evt-shang-oracle-content", "matchText": "five main topics"},
+    {"eventId": "evt-yinxu-unesco", "matchText": "UNESCO World Heritage Site"}
+  ],
+  "3": [
+    {"eventId": "evt-bronze-casting-begins", "matchText": "piece-mold casting"},
+    {"eventId": "evt-taotie-motif", "matchText": "taotie"},
+    {"eventId": "evt-ritual-bronzes", "matchText": "Ding tripods"},
+    {"eventId": "evt-simuwu-ding", "matchText": "Simuwu Ding"},
+    {"eventId": "evt-bronze-weapons", "matchText": "ge"},
+    {"eventId": "evt-shang-music-bells", "matchText": "nao"},
+    {"eventId": "evt-animal-bronzes", "matchText": "zoomorphic vessels"},
+    {"eventId": "evt-bronze-foundry-org", "matchText": "state monopoly"}
+  ],
+  "4": [
+    {"eventId": "evt-wu-ding", "matchText": "Wu Ding"},
+    {"eventId": "evt-fu-hao", "matchText": "Fu Hao"},
+    {"eventId": "evt-fu-hao-qiang-campaign", "matchText": "13,000 soldiers"},
+    {"eventId": "evt-fu-hao-tomb", "matchText": "468 bronze objects"},
+    {"eventId": "evt-fu-yue", "matchText": "Fu Yue"},
+    {"eventId": "evt-shang-chariots", "matchText": "horse-drawn chariot"},
+    {"eventId": "evt-jade-carving", "matchText": "755 jade objects"},
+    {"eventId": "evt-white-pottery", "matchText": "kaolin"},
+    {"eventId": "evt-chariot-burials", "matchText": "Chariot burials"}
+  ],
+  "5": [
+    {"eventId": "evt-shangdi-worship", "matchText": "Shangdi"},
+    {"eventId": "evt-ancestor-worship", "matchText": "ancestor worship"},
+    {"eventId": "evt-di-sacrificial-system", "matchText": "di sacrificial cycle"},
+    {"eventId": "evt-human-sacrifice", "matchText": "Xibeigang"},
+    {"eventId": "evt-shang-dog-sacrifice", "matchText": "Dogs were the most commonly sacrificed animal"},
+    {"eventId": "evt-fang-campaigns", "matchText": "fang peoples"},
+    {"eventId": "evt-shang-diviner-que", "matchText": "Que"},
+    {"eventId": "evt-turtle-shell-trade", "matchText": "turtle plastrons"},
+    {"eventId": "evt-shang-astronomy", "matchText": "solar and lunar eclipses"}
+  ],
+  "6": [
+    {"eventId": "evt-anyang-capital", "matchText": "Yinxu"},
+    {"eventId": "evt-bone-workshops", "matchText": "bone and antler working"},
+    {"eventId": "evt-jade-carving", "matchText": "Jade workshops"},
+    {"eventId": "evt-silk-production", "matchText": "Silk textiles"},
+    {"eventId": "evt-lacquer-work", "matchText": "Lacquerwork"},
+    {"eventId": "evt-shang-social-classes", "matchText": "social hierarchy"},
+    {"eventId": "evt-shang-slavery", "matchText": "enslaved war captives"},
+    {"eventId": "evt-shang-calendar", "matchText": "lunisolar calendar"},
+    {"eventId": "evt-ten-heavenly-stems", "matchText": "Ten Heavenly Stems"},
+    {"eventId": "evt-cowrie-currency", "matchText": "Cowrie shells"},
+    {"eventId": "evt-shang-wine-culture", "matchText": "Fermented millet wine"},
+    {"eventId": "evt-shang-numerals", "matchText": "logographic"}
+  ],
+  "7": [
+    {"eventId": "evt-sanxingdui", "matchText": "Sanxingdui"},
+    {"eventId": "evt-ritual-bronzes", "matchText": "bronze vessels"}
+  ],
+  "8": [
+    {"eventId": "evt-di-xin", "matchText": "Di Xin"},
+    {"eventId": "evt-daji", "matchText": "Daji"},
+    {"eventId": "evt-king-wen-zhou", "matchText": "King Wen"},
+    {"eventId": "evt-king-wu-zhou", "matchText": "King Wu"},
+    {"eventId": "evt-zhou-coalition", "matchText": "Mengjin"},
+    {"eventId": "evt-battle-muye", "matchText": "Battle of Muye"},
+    {"eventId": "evt-mandate-of-heaven", "matchText": "Mandate of Heaven"},
+    {"eventId": "evt-song-state", "matchText": "Weizi Qi"},
+    {"eventId": "evt-shang-proto-zhou", "matchText": "Wei River valley"}
+  ]
+}
