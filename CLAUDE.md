@@ -156,8 +156,10 @@ audits/                         — audit reports from the 5-persona pipeline
 ## Civilization Roadmap
 Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
-**Mesopotamian Succession chain** (pilot — complete):
+**Mesopotamian Succession chain** (in progress):
 1. ✅ mesopotamia — 13 chapters, fully audited (plus a 2026-04-15 backward Persona-E audit against China/Nubia/Elam that corrected 6 factual errors across Ch 3/5/6/11/13 and a summary fact-precision pass that fixed 5 bullets), 82 curated event links, **336 glossary links**, **121 summary bullets across 13 chapters**, **34 cross-links** (up from 11 after the 2026-04-15 structural audit), 84/89 images (95%), 13 WebP chapter maps, label "Mesopotamia"
+2. ✅ assyrian-empire — 8 chapters (~16.4k words), label "Assyrian Empire", 67 reference events, 64 event links, 183 glossary links, 18 cross-links, 68 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Old Assyrian trade colonies through fall of Nineveh (-2500 to -609 BCE). Central thesis: the world's first superpower — organized violence as statecraft, brilliant until it wasn't.
+3. islamic-golden-age
 
 **Indian Subcontinent chain** (in progress):
 1. ✅ indus-valley — 10 chapters, audited (plus 2026-04-15 backward Persona-E pass + summary factcheck — 2 narrative corrections on Ch 1/4/6/8 + 0 summary drifts; summaries came back clean), 66 event links, **226 glossary links**, **69 summary bullets**, **37 cross-links** (up from 28 after the 2026-04-15 structural audit; still the heaviest Indus→Meso edge), 48/56 images (86%), 10 WebP chapter maps, label "Indus Valley"
@@ -211,6 +213,11 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 3. ancient-greece
 4. ancient-rome
 5. byzantine-empire
+
+**Korean Civilization chain** (in progress):
+1. ✅ ancient-korea — 8 chapters (~16k words), label "Ancient Korea", 65 reference events, 65 event links, 207 glossary links, 16 cross-links, 64 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Dangun founding myth through Unified Silla to Goryeo (-2333 to 935 CE). Central thesis: the peninsula that refused to be swallowed — borrowed everything from China, remained stubbornly Korean. Chain color: violet (`korean-civilization`).
+2. joseon-korea
+3. korean-modern
 
 ## Color System
 - **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).

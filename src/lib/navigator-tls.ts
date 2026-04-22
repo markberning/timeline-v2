@@ -39,7 +39,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   // ── NEAR EAST ──
   { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true, hasContent: true },
   { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539, hasContent: true },
-  { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609 },
+  { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609, hasContent: true },
   { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178 },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651, hasContent: true },
   { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258 },
@@ -87,7 +87,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'edo-japan', label: 'Edo Japan', subtitle: 'isolation under the shoguns', region: 'asia', startYear: 1603, endYear: 1868 },
   { id: 'meiji-japan', label: 'Meiji Japan', subtitle: 'Japan races to industrialize', region: 'asia', startYear: 1868, endYear: 1912 },
   { id: 'japanese-economic-miracle', label: 'Japanese Economic Miracle', subtitle: "postwar Japan's boom", region: 'asia', startYear: 1945, endYear: 1991 },
-  { id: 'ancient-korea', label: 'Ancient Korea', subtitle: 'mythic Korea to Silla unification', region: 'asia', startYear: -2333, endYear: 935 },
+  { id: 'ancient-korea', label: 'Ancient Korea', subtitle: 'mythic Korea to Silla unification', region: 'asia', startYear: -2333, endYear: 935, hasContent: true },
   { id: 'joseon-korea', label: 'Joseon Korea', subtitle: "Confucian Korea's long dynasty", region: 'asia', startYear: 1392, endYear: 1910 },
   { id: 'korean-modern', label: 'Modern Korea', subtitle: 'colonization, war, and split', region: 'asia', startYear: 1910, endYear: 2024 },
   { id: 'srivijaya', label: 'Srivijaya', subtitle: "Sumatra's maritime Buddhist empire", region: 'asia', startYear: 650, endYear: 1377 },
