@@ -148,8 +148,15 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
                   {civ.label}
                 </div>
 
+                {/* Subtitle */}
+                {civ.subtitle && (
+                  <div className="text-xs text-foreground/40 mt-0.5 italic font-[family-name:var(--font-lora)]">
+                    {civ.subtitle}
+                  </div>
+                )}
+
                 {/* Date range */}
-                <div className="text-xs text-foreground/40 mt-0.5 tabular-nums">
+                <div className="text-xs text-foreground/30 mt-0.5 tabular-nums">
                   {formatYearRange(civ.startYear, civ.endYear)}
                 </div>
               </div>
