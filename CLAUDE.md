@@ -187,7 +187,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 12. rise-of-china
 
 **Nile Valley chain** (in progress):
-1. ✅ early-dynastic-egypt — 8 chapters (~25k words), label "Before the Pharaohs", 68 reference events, ~55 event links, ~209 glossary links, ~20 cross-links, 59 summary bullets, 8 WebP chapter maps (zero redos), full audit + fixes. Covers predynastic through Second Dynasty (-5000 to -2686 BCE).
+1. ✅ early-dynastic-egypt — 8 chapters (~25k words), label "Early Egypt", 68 reference events, ~55 event links, ~209 glossary links, ~20 cross-links, 59 summary bullets, 8 WebP chapter maps (zero redos), full audit + fixes. Covers predynastic through Second Dynasty (-5000 to -2686 BCE).
 2. ✅ old-kingdom-egypt — 8 chapters (~17.7k words), label "Old Kingdom Egypt", 67 reference events, 57 event links, 191 glossary links, 15 cross-links, 66 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Third Dynasty through First Intermediate Period reunification (-2686 to -2055 BCE). Central thesis: faith converted into engineering, then the engineering collapsed but the ideas survived.
 3. new-kingdom-egypt
 4. late-egypt
