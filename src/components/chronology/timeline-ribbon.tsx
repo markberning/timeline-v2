@@ -171,7 +171,7 @@ function SwimLaneBars({
 
         return civs.map(civ => {
           const x = yearToX(civ.startYear)
-          const w = Math.max(yearToX(civ.endYear) - x, 50)
+          const w = Math.max(yearToX(civ.endYear) - x, 70)
           const isActive = civ.id === activeCivId
           const color = REGION_COLORS[civ.region]
 

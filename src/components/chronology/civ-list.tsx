@@ -52,6 +52,21 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     function onScroll() {
       cancelAnimationFrame(rafId.current)
       rafId.current = requestAnimationFrame(() => {
+        // If at or near the top (including iOS rubber-band), always pick
+        // the first civ. This prevents the bounce-back from landing on
+        // the second row.
+        if (container!.scrollTop < 20) {
+          const firstId = SORTED_CIVS[0]?.id
+          if (firstId) {
+            applyVisualActive(firstId)
+            if (scrollEndTimer.current) clearTimeout(scrollEndTimer.current)
+            scrollEndTimer.current = setTimeout(() => {
+              onActiveCivChange(firstId)
+            }, SCROLL_END_MS)
+          }
+          return
+        }
+
         const containerRect = container!.getBoundingClientRect()
         const activationY = containerRect.top + container!.clientHeight * ACTIVATION_FRAC
 
