@@ -83,70 +83,69 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
   }, [activeCivId, yearToX, mode, scrollRef])
 
   return (
-    <div className="relative border-y border-foreground/10 shrink-0">
-      {/* Region labels (mobile swim-lane only) — opaque bg covers bar text underneath */}
-      {mode === 'swim' && (
-        <div
-          className="absolute left-0 top-0 z-10 flex flex-col pointer-events-none bg-background"
-          style={{ paddingTop: TICK_AXIS_HEIGHT, width: 52 }}
-        >
-          {REGION_ORDER.map(region => (
-            <div
-              key={region}
-              className="flex items-center text-[8px] font-bold uppercase tracking-wider pl-1.5 pr-1"
-              style={{
-                height: LANE_HEIGHT_MOBILE,
-                color: REGION_COLORS[region],
-              }}
-            >
-              {REGION_LABELS[region].split(' ').map((w, i) => (
-                <span key={i} className={i > 0 ? 'ml-0.5' : ''}>{w}</span>
-              ))}
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* Focus marker (mobile only) */}
-      {mode === 'swim' && (
-        <div
-          className="absolute top-0 bottom-0 w-px z-10 pointer-events-none"
-          style={{
-            left: `${FOCUS_MARKER_PCT * 100}%`,
-            background: 'var(--foreground)',
-            opacity: 0.15,
-          }}
-        />
-      )}
-
-      {/* Scrollable ribbon container */}
-      <div
-        ref={scrollRef}
-        className="overflow-x-auto overflow-y-hidden scrollbar-none"
-        style={{
-          height: ribbonHeight,
-          WebkitOverflowScrolling: 'touch',
-          paddingLeft: mode === 'swim' ? 52 : 0,
-        }}
-      >
-        <div className="relative" style={{ width: totalWidth, height: ribbonHeight }}>
-          {/* Tick marks */}
-          {ticks.map(tick => (
-            <div key={tick.year} className="absolute top-0" style={{ left: tick.x }}>
-              <div className="h-full w-px absolute top-0 bg-foreground/5" />
+    <div className="border-y border-foreground/10 shrink-0">
+      <div className={mode === 'swim' ? 'flex' : ''}>
+        {/* Region labels — sits beside scroll area so bars clip at its edge */}
+        {mode === 'swim' && (
+          <div className="shrink-0 bg-background z-10 relative" style={{ width: 52 }}>
+            <div style={{ height: TICK_AXIS_HEIGHT }} />
+            {REGION_ORDER.map(region => (
               <div
-                className="absolute text-[9px] text-foreground/30 whitespace-nowrap tabular-nums"
-                style={{ top: 2, left: 3 }}
+                key={region}
+                className="flex items-center text-[8px] font-bold uppercase tracking-wider pl-1.5 pr-1"
+                style={{
+                  height: LANE_HEIGHT_MOBILE,
+                  color: REGION_COLORS[region],
+                }}
               >
-                {tick.label}
+                {REGION_LABELS[region].split(' ').map((w, i) => (
+                  <span key={i} className={i > 0 ? 'ml-0.5' : ''}>{w}</span>
+                ))}
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+        )}
 
-          {/* Bars */}
-          {mode === 'swim'
-            ? <SwimLaneBars yearToX={yearToX} activeCivId={activeCivId} onSelect={onSelect} />
-            : packed && <PackedBars packed={packed} activeCivId={activeCivId} onSelect={onSelect} />}
+        {/* Scrollable ribbon container */}
+        <div
+          ref={scrollRef}
+          className="overflow-x-auto overflow-y-hidden scrollbar-none flex-1 min-w-0 relative"
+          style={{
+            height: ribbonHeight,
+            WebkitOverflowScrolling: 'touch',
+          }}
+        >
+          {/* Focus marker (mobile only) */}
+          {mode === 'swim' && (
+            <div
+              className="absolute top-0 bottom-0 w-px z-10 pointer-events-none"
+              style={{
+                left: `${FOCUS_MARKER_PCT * 100}%`,
+                background: 'var(--foreground)',
+                opacity: 0.15,
+              }}
+            />
+          )}
+
+          <div className="relative" style={{ width: totalWidth, height: ribbonHeight }}>
+            {/* Tick marks */}
+            {ticks.map(tick => (
+              <div key={tick.year} className="absolute top-0" style={{ left: tick.x }}>
+                <div className="h-full w-px absolute top-0 bg-foreground/5" />
+                <div
+                  className="absolute text-[9px] text-foreground/30 whitespace-nowrap tabular-nums"
+                  style={{ top: 2, left: 3 }}
+                >
+                  {tick.label}
+                </div>
+              </div>
+            ))}
+
+            {/* Bars */}
+            {mode === 'swim'
+              ? <SwimLaneBars yearToX={yearToX} activeCivId={activeCivId} onSelect={onSelect} />
+              : packed && <PackedBars packed={packed} activeCivId={activeCivId} onSelect={onSelect} />}
+          </div>
         </div>
       </div>
     </div>
