@@ -117,6 +117,8 @@ const NARRATIVE_FILES: Record<string, string> = {
   'kingdom-of-kush.md': 'kingdom-of-kush',
   'minoan-civilization.md': 'minoan-civilization',
   'old-kingdom-egypt.md': 'old-kingdom-egypt',
+  'ancient-korea.md': 'ancient-korea',
+  'assyrian-empire.md': 'assyrian-empire',
 }
 
 function slugify(title: string): string {
