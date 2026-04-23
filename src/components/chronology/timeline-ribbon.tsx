@@ -87,11 +87,17 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
 
   return (
     <div className="border-y border-foreground/10 shrink-0 relative">
-      {/* Region labels — overlays the scroll container's left edge */}
+      {/* Region labels + fade: one overlay covering the full left zone.
+           Solid background under labels, fading to transparent on the right
+           so scrolling bar content dissolves before reaching the text. */}
       {mode === 'swim' && (
         <div
           className="absolute left-0 bottom-0 z-20 pointer-events-none"
-          style={{ top: TICK_AXIS_HEIGHT, width: regionColWidth }}
+          style={{
+            top: TICK_AXIS_HEIGHT,
+            width: regionColWidth + fadeWidth,
+            background: `linear-gradient(to right, var(--background) ${regionColWidth}px, transparent)`,
+          }}
         >
           {REGION_ORDER.map(region => (
             <div
@@ -108,20 +114,6 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
             </div>
           ))}
         </div>
-      )}
-
-      {/* Fade overlay — content fades out approaching the region labels */}
-      {mode === 'swim' && (
-        <div
-          className="absolute z-10 pointer-events-none"
-          style={{
-            top: TICK_AXIS_HEIGHT,
-            bottom: 0,
-            left: regionColWidth,
-            width: fadeWidth,
-            background: 'linear-gradient(to right, var(--background), transparent)',
-          }}
-        />
       )}
 
       {/* Scrollable ribbon container */}
