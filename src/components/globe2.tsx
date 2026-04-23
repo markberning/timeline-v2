@@ -195,15 +195,17 @@ export default function Globe2() {
       const w = window.innerWidth
       const h = window.innerHeight
       setDimensions({ w, h })
-      const base = Math.min(w, h) * 0.42
+      // On portrait phones, use width so the globe spans the screen edge-to-edge.
+      // On landscape/desktop, use the smaller dimension.
+      const isMobile = w <= 720
+      const base = isMobile ? w * 0.48 : Math.min(w, h) * 0.42
       baseScaleRef.current = base
-      // Start zoomed in on mobile so pins are tappable
       if (!initialized) {
         initialized = true
-        if (w <= 720) scaleRef.current = 1.6
+        if (isMobile) scaleRef.current = 1.0 // mobile globe already fills screen
       }
       projectionRef.current
-        .translate([w / 2, h / 2 - 20])
+        .translate([w / 2, h / 2 * 0.85])  // nudge up slightly so timeline doesn't cover globe
         .scale(base * scaleRef.current)
     }
     handleResize()
@@ -252,8 +254,7 @@ export default function Globe2() {
 
       // Calculate zoom level from extent bounding box
       const isMob = window.innerWidth <= 720
-      const mobileBoost = isMob ? 1.8 : 1.0
-      let targetK = 2.0 * mobileBoost
+      let targetK = 2.0
       if (civ.extent.length >= 3) {
         const lons = civ.extent.map(p => p[0])
         const lats = civ.extent.map(p => p[1])
@@ -261,13 +262,13 @@ export default function Globe2() {
           Math.max(...lons) - Math.min(...lons),
           Math.max(...lats) - Math.min(...lats),
         )
-        if (span < 6) targetK = 4.0 * mobileBoost
-        else if (span < 15) targetK = 3.0 * mobileBoost
-        else if (span < 30) targetK = 2.2 * mobileBoost
-        else if (span < 60) targetK = 1.6 * mobileBoost
-        else targetK = 1.2 * mobileBoost
+        if (span < 6) targetK = 3.2
+        else if (span < 15) targetK = 2.4
+        else if (span < 30) targetK = 1.8
+        else if (span < 60) targetK = 1.4
+        else targetK = 1.1
       }
-      targetK = Math.min(isMob ? 9 : 6, targetK)
+      targetK = Math.min(isMob ? 4.5 : 4.5, targetK)
 
       const startK = scaleRef.current
 
