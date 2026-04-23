@@ -20,7 +20,13 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
           a library of civilizations
         </p>
       </div>
-      <div className="shrink-0 mt-1">
+      <div className="shrink-0 mt-1 flex items-center gap-3">
+        <a
+          href="/globe"
+          className="text-foreground/40 hover:text-foreground/70 text-xs font-semibold tracking-wider uppercase transition-colors"
+        >
+          Globe
+        </a>
         <DarkModeToggle />
       </div>
     </header>
