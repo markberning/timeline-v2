@@ -592,7 +592,7 @@ export default function Globe2() {
     if (worldLoaded) renderGlobe()
   }, [worldLoaded, renderGlobe, year, selectedId, dimensions])
 
-  /* ── drag interaction ─────────────────────────────────────── */
+  /* ── drag interaction + tap-hold-drag zoom ─────────────────── */
   useEffect(() => {
     const svg = svgRef.current
     if (!svg) return
@@ -600,10 +600,35 @@ export default function Globe2() {
     let dragStart: [number, number] | null = null
     let rotStart: [number, number] = [0, 0]
 
+    // Tap-then-hold-drag zoom (Apple Maps style):
+    // First tap (down+up quickly), then second tap held + drag up/down = zoom
+    let lastTapTime = 0
+    let lastTapPos: [number, number] = [0, 0]
+    let isZoomDrag = false
+    let zoomDragStartY = 0
+    let zoomDragStartK = 1
+    const TAP_WINDOW = 350  // ms between first tap release and second tap down
+    const TAP_RADIUS = 30   // px proximity
+
     function onPointerDown(e: PointerEvent) {
       // Ignore if clicking a pin or label
       const target = e.target as Element
       if (target.closest(`.${styles.civPin}`) || target.closest(`.${styles.civLabel}`)) return
+
+      // Check if this is the second tap in a tap-hold-drag gesture
+      const now = performance.now()
+      const dt = now - lastTapTime
+      const dist = Math.hypot(e.clientX - lastTapPos[0], e.clientY - lastTapPos[1])
+
+      if (dt < TAP_WINDOW && dist < TAP_RADIUS) {
+        // Second tap — enter zoom-drag mode
+        isZoomDrag = true
+        zoomDragStartY = e.clientY
+        zoomDragStartK = scaleRef.current
+        isDraggingRef.current = true
+        svg!.setPointerCapture(e.pointerId)
+        return
+      }
 
       dragStart = [e.clientX, e.clientY]
       rotStart = [...rotationRef.current]
@@ -612,6 +637,17 @@ export default function Globe2() {
     }
 
     function onPointerMove(e: PointerEvent) {
+      if (isZoomDrag) {
+        // Drag up = zoom in, drag down = zoom out
+        const dy = zoomDragStartY - e.clientY  // positive = dragged up
+        const factor = dy * 0.008
+        scaleRef.current = Math.max(0.4, Math.min(6, zoomDragStartK + factor))
+        projectionRef.current.scale(baseScaleRef.current * scaleRef.current)
+        if (rafRef.current) cancelAnimationFrame(rafRef.current)
+        rafRef.current = requestAnimationFrame(renderGlobe)
+        return
+      }
+
       if (!dragStart) return
       const dx = e.clientX - dragStart[0]
       const dy = e.clientY - dragStart[1]
@@ -632,18 +668,32 @@ export default function Globe2() {
     }
 
     function onPointerUp(e: PointerEvent) {
+      if (isZoomDrag) {
+        isZoomDrag = false
+        isDraggingRef.current = false
+        lastTapTime = 0  // reset so next tap is fresh
+        requestAnimationFrame(renderGlobe)
+        return
+      }
+
       if (dragStart) {
         const dx = e.clientX - dragStart[0]
         const dy = e.clientY - dragStart[1]
         const moved = Math.hypot(dx, dy) > 4
 
         if (!moved) {
+          // Record this as a tap for potential tap-hold-drag
+          lastTapTime = performance.now()
+          lastTapPos = [e.clientX, e.clientY]
+
           // Click on empty globe → deselect (but not if clicking a pin or label)
           const target = e.target as Element
           if (!target.closest(`.${styles.civPin}`) && !target.closest(`.${styles.civLabel}`)) {
             setSelectedId(null)
             selectedIdRef.current = null
           }
+        } else {
+          lastTapTime = 0  // dragged, not a tap
         }
 
         dragStart = null
@@ -656,7 +706,7 @@ export default function Globe2() {
 
     function onDblClick(e: MouseEvent) {
       e.preventDefault()
-      // Double-click zooms in
+      // Double-click/tap zooms in (quick double tap, no drag)
       const startK = scaleRef.current
       const targetK = Math.min(6, startK * 1.6)
       const duration = 300
