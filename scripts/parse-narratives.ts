@@ -127,6 +127,8 @@ const NARRATIVE_FILES: Record<string, string> = {
   'olmec-civilization.md': 'olmec-civilization',
   'vedic-period.md': 'vedic-period',
   'zhou-dynasty.md': 'zhou-dynasty',
+  'qin-dynasty.md': 'qin-dynasty',
+  'maurya-empire.md': 'maurya-empire',
 }
 
 function slugify(title: string): string {
