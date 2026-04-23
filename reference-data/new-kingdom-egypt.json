@@ -529,6 +529,280 @@
       "tier": 3,
       "tags": ["trade"],
       "category": "people"
+    },
+    {
+      "id": "evt-sobekneferu",
+      "label": "Sobekneferu",
+      "year": -1806,
+      "endYear": -1802,
+      "description": "The first confirmed female pharaoh in Egyptian history, Sobekneferu was the last ruler of the Twelfth Dynasty. She appears in the Turin King List with her own cartouche and regnal years.",
+      "wikiSlug": "Sobekneferu",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-seqenenre-tao",
+      "label": "Seqenenre Tao",
+      "year": -1560,
+      "endYear": -1555,
+      "description": "Theban pharaoh whose mummy bears horrific battle wounds from Hyksos-style weapons. He died fighting the Hyksos occupiers, beginning the war of liberation that his successors would finish.",
+      "wikiSlug": "Seqenenre_Tao",
+      "tier": 3,
+      "tags": ["military"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kamose",
+      "label": "Kamose",
+      "year": -1555,
+      "endYear": -1550,
+      "description": "Last pharaoh of the Seventeenth Dynasty, Kamose continued the war against the Hyksos, raiding deep into their territory and intercepting a Hyksos letter proposing a joint attack with Kerma.",
+      "wikiSlug": "Kamose",
+      "tier": 3,
+      "tags": ["military"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ahhotep-i",
+      "label": "Ahhotep I",
+      "year": -1560,
+      "endYear": -1530,
+      "description": "Queen regent during the early reign of Ahmose I, Ahhotep I's tomb contained golden flies (military valor awards), suggesting she played an active role in the Hyksos liberation wars.",
+      "wikiSlug": "Ahhotep_I",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ahmose-nefertari",
+      "label": "Ahmose-Nefertari",
+      "year": -1550,
+      "endYear": -1495,
+      "description": "Wife of Ahmose I, she transformed the title God's Wife of Amun into a major political institution and was later deified as patron goddess of the Theban necropolis.",
+      "wikiSlug": "Ahmose-Nefertari",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-amenhotep-i",
+      "label": "Amenhotep I",
+      "year": -1525,
+      "endYear": -1504,
+      "description": "Second pharaoh of the Eighteenth Dynasty, Amenhotep I consolidated the reconquest, campaigned in Nubia, and is traditionally credited with founding the artisans' village of Deir el-Medina.",
+      "wikiSlug": "Amenhotep_I",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-senenmut",
+      "label": "Senenmut",
+      "year": -1473,
+      "endYear": -1458,
+      "description": "Non-royal architect and chief steward under Hatshepsut, Senenmut held more power than any non-royal individual since Imhotep. He designed Hatshepsut's mortuary temple and served as tutor to Princess Neferure.",
+      "wikiSlug": "Senenmut",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-amenhotep-ii",
+      "label": "Amenhotep II",
+      "year": -1427,
+      "endYear": -1401,
+      "description": "Son and successor of Thutmose III, Amenhotep II was famed for physical prowess — his inscriptions boast of driving arrows through copper targets from a speeding chariot. He maintained the empire his father built.",
+      "wikiSlug": "Amenhotep_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-queen-tiye",
+      "label": "Queen Tiye",
+      "year": -1398,
+      "endYear": -1338,
+      "description": "Great Royal Wife of Amenhotep III and one of the most politically influential women in the ancient world. Foreign kings addressed diplomatic correspondence directly to her, acknowledging her policy-making authority.",
+      "wikiSlug": "Tiye",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ankhesenamun",
+      "label": "Ankhesenamun",
+      "year": -1348,
+      "endYear": -1322,
+      "description": "Tutankhamun's widow who wrote a desperate letter to the Hittite king Suppiluliuma I requesting a prince to marry, to prevent a commoner from seizing the throne. The prince was murdered en route.",
+      "wikiSlug": "Ankhesenamun",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-great-hymn-aten",
+      "label": "Great Hymn to the Aten",
+      "year": -1345,
+      "description": "Attributed to Akhenaten, this hymn praising the Aten as sole creator god contains striking parallels to Psalm 104 and is one of the earliest expressions of monotheistic theology.",
+      "wikiSlug": "Great_Hymn_to_the_Aten",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-egyptian-love-poetry",
+      "label": "Egyptian Love Poetry",
+      "year": -1250,
+      "description": "New Kingdom lyric poetry preserved on papyri and ostraca from Deir el-Medina — frank, sensual verses about desire and longing that stand alongside the Song of Solomon and Sappho.",
+      "wikiSlug": "Ancient_Egyptian_literature#Love_poetry",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-merneptah-stele",
+      "label": "Merneptah Stele",
+      "year": -1208,
+      "description": "Also called the Israel Stele, this victory inscription by Pharaoh Merneptah contains the earliest known reference to Israel in any ancient text.",
+      "wikiSlug": "Merneptah_Stele",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-turin-strike-papyrus",
+      "label": "Turin Strike Papyrus",
+      "year": -1170,
+      "description": "The administrative record documenting the workers' strike at Deir el-Medina, preserving the workers' complaints and officials' responses in bureaucratic detail.",
+      "wikiSlug": "Turin_Strike_Papyrus",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ramesseum",
+      "label": "The Ramesseum",
+      "year": -1260,
+      "description": "Ramesses II's mortuary temple on the west bank of Thebes, featuring a colossal statue weighing over 1,000 tons. Its ruins inspired Shelley's poem Ozymandias.",
+      "wikiSlug": "Ramesseum",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medinet-habu",
+      "label": "Medinet Habu",
+      "year": -1180,
+      "description": "Mortuary temple of Ramesses III on the west bank of Thebes, decorated with vivid reliefs of the Sea Peoples battles — one of the earliest depictions of naval warfare.",
+      "wikiSlug": "Medinet_Habu_(temple)",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-great-hypostyle-hall",
+      "label": "Great Hypostyle Hall",
+      "year": -1280,
+      "description": "The most spectacular interior space in Egyptian architecture: 134 columns in the temple of Karnak, the central twelve rising 69 feet high. Begun by Seti I, completed by Ramesses II.",
+      "wikiSlug": "Great_Hypostyle_Hall",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-delta",
+      "label": "Battle of the Delta",
+      "year": -1178,
+      "description": "Ramesses III's naval victory over the Sea Peoples in the mouths of the Nile — one of the earliest naval battles in recorded history, depicted in vivid reliefs at Medinet Habu.",
+      "wikiSlug": "Battle_of_the_Delta",
+      "tier": 3,
+      "tags": ["military"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-opet-festival",
+      "label": "Opet Festival",
+      "year": -1400,
+      "description": "Annual religious procession carrying the sacred barque of Amun from Karnak to Luxor Temple, celebrating the divine rejuvenation of the pharaoh's kingship.",
+      "wikiSlug": "Opet_Festival",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-glass-production",
+      "label": "Egyptian Glass Production",
+      "year": -1380,
+      "description": "Egyptian glass-making reached its peak under Amenhotep III, producing polychrome vessels and jewelry in brilliant blues, greens, and yellows that were luxury exports across the eastern Mediterranean.",
+      "wikiSlug": "Egyptian_glass",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-nubian-gold-trade",
+      "label": "Nubian Gold Trade",
+      "year": -1500,
+      "endYear": -1070,
+      "description": "The gold mines of Upper Nubia and the Eastern Desert produced a flow of gold that made Egypt the richest power in the Bronze Age world, financing armies, temples, and diplomacy.",
+      "wikiSlug": "Nubian_gold_mining",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-levantine-vassal-system",
+      "label": "Levantine Vassal System",
+      "year": -1458,
+      "endYear": -1178,
+      "description": "Egypt maintained control of Levantine city-states through a vassal network: local kings paid tribute, sent sons as hostages to the Egyptian court, and provided military support when called upon.",
+      "wikiSlug": "New_Kingdom_of_Egypt#Foreign_policy",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-merneptah",
+      "label": "Merneptah",
+      "year": -1213,
+      "endYear": -1203,
+      "description": "Thirteenth son of Ramesses II, Merneptah came to the throne in his sixties and defeated a major Libyan invasion. His victory stele contains the earliest known reference to Israel.",
+      "wikiSlug": "Merneptah",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tomb-robberies",
+      "label": "Great Tomb Robbery Trials",
+      "year": -1126,
+      "description": "A series of papyri document the investigation and prosecution of organized gangs systematically looting royal tombs at Thebes, revealing the breakdown of state authority in the late New Kingdom.",
+      "wikiSlug": "Abbott_Papyrus",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-papyrus-harris",
+      "label": "Papyrus Harris I",
+      "year": -1155,
+      "description": "The longest papyrus in existence (133 feet), compiled at Ramesses III's death, recording his temple donations. It reveals the Amun temple controlled 81,000 workers and vast agricultural lands.",
+      "wikiSlug": "Papyrus_Harris_I",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-herihor",
+      "label": "Herihor",
+      "year": -1080,
+      "endYear": -1074,
+      "description": "High Priest of Amun and Viceroy of Kush who effectively ruled Upper Egypt independently, having himself depicted at Karnak in pharaonic scale — a visual claim of equality with the king.",
+      "wikiSlug": "Herihor",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
     }
   ]
 }
