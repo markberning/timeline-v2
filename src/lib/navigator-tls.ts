@@ -59,7 +59,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── ASIA (South) ──
   { id: 'indus-valley', label: 'Indus Valley', subtitle: "Pakistan's brick cities and lost script", region: 'asia', startYear: -3300, endYear: -1300, isReal: true, hasContent: true },
-  { id: 'vedic-period', label: 'Vedic Period', subtitle: "northern India's sacred hymns", region: 'asia', startYear: -1500, endYear: -322, isReal: true },
+  { id: 'vedic-period', label: 'Vedic Period', subtitle: "northern India's sacred hymns", region: 'asia', startYear: -1500, endYear: -322, isReal: true, hasContent: true },
   { id: 'maurya-empire', label: 'Maurya Empire', subtitle: "India's first unifier, Buddhism's patron", region: 'asia', startYear: -322, endYear: -185, isReal: true },
   { id: 'post-maurya-kingdoms', label: 'Post-Maurya Kingdoms', subtitle: "India's centuries of fragmentation", region: 'asia', startYear: -185, endYear: 320 },
   { id: 'gupta-empire', label: 'Gupta Empire', subtitle: "India's classical golden age", region: 'asia', startYear: 320, endYear: 550, isReal: true },
@@ -71,7 +71,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   // ── ASIA (East) ──
   { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -4000, endYear: -1600, hasContent: true },
   { id: 'shang-dynasty', label: 'Shang Dynasty', subtitle: "China's first oracle bones", region: 'asia', startYear: -1600, endYear: -1046, hasContent: true },
-  { id: 'zhou-dynasty', label: 'Zhou Dynasty', subtitle: 'Confucius and the Warring States', region: 'asia', startYear: -1046, endYear: -256 },
+  { id: 'zhou-dynasty', label: 'Zhou Dynasty', subtitle: 'Confucius and the Warring States', region: 'asia', startYear: -1046, endYear: -256, hasContent: true },
   { id: 'qin-dynasty', label: 'Qin Dynasty', subtitle: 'China unified by terror and law', region: 'asia', startYear: -221, endYear: -206 },
   { id: 'han-dynasty', label: 'Han Dynasty', subtitle: "China's silk-road golden age", region: 'asia', startYear: -206, endYear: 220 },
   { id: 'six-dynasties', label: 'Six Dynasties', subtitle: 'China divided north and south', region: 'asia', startYear: 220, endYear: 589 },
