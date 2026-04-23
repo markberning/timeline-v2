@@ -26,13 +26,14 @@ export const GLOBE2_CIVS: GlobeCiv2[] = [
   { id: "sassanid", name: "Sassanid Empire", start: 224, end: 651, capital: [44.58, 33.09], region: "Iran & Mesopotamia", summary: "The last pre-Islamic Persian empire, patrons of Zoroastrianism, architecture, and art. Endless wars with Byzantium exhausted both before the Arab conquest.", cities: ["Ctesiphon", "Istakhr", "Gundeshapur"], extent: [[38.0,25.0],[72.0,28.0],[72.0,42.0],[38.0,41.0]] },
 
   // ── Egypt / North Africa (8) ──────────────────────────────────
+  { id: "egypt-early", name: "Early Egypt", start: -5000, end: -2686, capital: [31.25, 30.05], region: "Nile Valley", summary: "From Saharan herders to the first pharaohs — Egypt's predynastic and early dynastic period saw the unification of Upper and Lower Egypt, the invention of hieroglyphics, and the first monumental tombs.", cities: ["Memphis", "Abydos", "Hierakonpolis", "Buto"], extent: [[29.5,24.0],[33.5,24.0],[34.0,31.7],[29.0,31.5]] },
   { id: "egypt-old", name: "Old Kingdom Egypt", start: -2686, end: -2181, capital: [31.13, 29.98], region: "Nile Valley", summary: "The age of the pyramid-builders. Pharaohs Khufu, Khafre, and Menkaure raised the Giza complex; a centralized state and bureaucracy produced some of humanity's most iconic monuments.", cities: ["Memphis", "Giza", "Saqqara"], extent: [[30.0,22.0],[33.5,22.0],[34.0,31.7],[29.5,31.5]] },
-  { id: "egypt-middle", name: "Middle Kingdom Egypt", start: -2055, end: -1650, capital: [32.64, 25.72], region: "Nile Valley", summary: "A renaissance of Egyptian art and literature under the 11th–12th dynasties, centered on Thebes. Expansion into Nubia and the Sinai.", cities: ["Thebes", "Itjtawy", "Lisht"], extent: [[30.0,22.0],[34.0,22.0],[34.5,31.7],[29.5,31.5]] },
-  { id: "egypt-new", name: "New Kingdom Egypt", start: -1550, end: -1069, capital: [32.64, 25.72], region: "Nile Valley & Levant", summary: "Egypt's imperial age, producing Hatshepsut, Akhenaten's monotheism, Tutankhamun, and Ramesses II. Its reach stretched into the Levant and deep Nubia.", cities: ["Thebes", "Memphis", "Pi-Ramesses", "Amarna"], extent: [[29.0,20.0],[37.0,22.0],[37.0,32.5],[28.5,32.0]] },
+  { id: "egypt-new", name: "New Kingdom Egypt", start: -2055, end: -1069, capital: [32.64, 25.72], region: "Nile Valley & Levant", summary: "Egypt's imperial age, producing Hatshepsut, Akhenaten's monotheism, Tutankhamun, and Ramesses II. Its reach stretched into the Levant and deep Nubia.", cities: ["Thebes", "Memphis", "Pi-Ramesses", "Amarna"], extent: [[29.0,20.0],[37.0,22.0],[37.0,32.5],[28.5,32.0]] },
+  { id: "nubia", name: "Ancient Nubia", start: -3500, end: -1070, capital: [30.97, 19.60], region: "Upper Nile", summary: "Egypt's southern rival and occasional conqueror, Nubia developed its own kingdoms along the Upper Nile — from the cattle-herding A-Group through the fortress-building Kingdom of Kerma, which rivalled the pharaohs for a millennium.", cities: ["Kerma", "Buhen", "Faras", "Semna"], extent: [[29.5,17.0],[35.0,17.0],[35.0,24.0],[29.0,23.5]] },
   { id: "kush", name: "Kingdom of Kush", start: -1070, end: 350, capital: [33.72, 18.43], region: "Nubia (Sudan)", summary: "Nubian kingdoms of Napata and Meroë built more pyramids than Egypt, conquered Egypt as its 25th Dynasty, and developed their own Meroitic script.", cities: ["Napata", "Meroë", "Kerma"], extent: [[30.0,14.0],[37.0,14.0],[37.0,22.5],[29.5,22.0]] },
   { id: "carthage", name: "Carthage", start: -814, end: -146, capital: [10.33, 36.85], region: "North Africa & W. Mediterranean", summary: "A Phoenician colony that grew into a maritime empire dominating the western Mediterranean. Hannibal's elephants crossed the Alps; Rome's final answer was total destruction.", cities: ["Carthage", "Utica", "Gadir", "Panormus"], extent: [[-6.0,35.0],[11.5,36.5],[11.5,37.5],[-6.0,36.2]] },
   { id: "aksum", name: "Kingdom of Aksum", start: -100, end: 960, capital: [38.72, 14.13], region: "Ethiopian Highlands", summary: "An Indian Ocean trade power minting its own coinage, Aksum converted to Christianity in the 4th century and raised towering stone obelisks still standing today.", cities: ["Aksum", "Adulis", "Matara"], extent: [[36.0,12.0],[42.0,12.5],[42.0,17.5],[36.0,17.0]] },
-  { id: "mali", name: "Mali Empire", start: 1235, end: 1670, capital: [-8.0, 12.65], region: "West Africa", summary: "Mansa Musa's legendary hajj distributed so much gold it inflated Egyptian currency for years. Timbuktu became a continent-wide center of learning.", cities: ["Timbuktu", "Niani", "Djenné"], extent: [[-16.0,10.0],[4.0,10.0],[4.0,22.0],[-16.0,22.0]] },
+  { id: "mali", name: "Mali Empire", start: 1226, end: 1670, capital: [-8.0, 12.65], region: "West Africa", summary: "Mansa Musa's legendary hajj distributed so much gold it inflated Egyptian currency for years. Timbuktu became a continent-wide center of learning.", cities: ["Timbuktu", "Niani", "Djenné"], extent: [[-16.0,10.0],[4.0,10.0],[4.0,22.0],[-16.0,22.0]] },
   { id: "songhai", name: "Songhai Empire", start: 1464, end: 1591, capital: [-1.48, 17.03], region: "West Africa", summary: "Successor to Mali and one of the largest states in African history, Songhai's cities along the Niger were centers of trade and Islamic scholarship.", cities: ["Gao", "Timbuktu", "Djenné"], extent: [[-10.0,10.0],[8.0,10.0],[8.0,20.0],[-10.0,20.0]] },
 
   // ── Mediterranean / Europe (13) ───────────────────────────────
@@ -60,6 +61,7 @@ export const GLOBE2_CIVS: GlobeCiv2[] = [
 
   // ── South Asia (7) ────────────────────────────────────────────
   { id: "indus", name: "Indus Valley Civilization", start: -3300, end: -1300, capital: [68.14, 27.33], region: "Indus basin", summary: "A vast Bronze Age urban culture with planned cities, standardized weights, and an undeciphered script. Mohenjo-daro and Harappa had advanced drainage and baths unmatched for millennia.", cities: ["Mohenjo-daro", "Harappa", "Dholavira", "Lothal"], extent: [[66.0,22.0],[77.0,22.0],[77.0,33.0],[66.0,33.0]] },
+  { id: "vedic", name: "Vedic Period", start: -1500, end: -322, capital: [80.95, 26.85], region: "Northern India", summary: "The Indo-Aryan migrations brought Sanskrit, the Vedas, and the caste system. An oral civilization — hymns memorized without writing became the foundation of Hinduism, while the late Vedic age produced Buddhism and Jainism.", cities: ["Hastinapura", "Kashi (Varanasi)", "Taxila", "Kaushambi"], extent: [[69.0,20.0],[88.0,20.0],[88.0,32.0],[69.0,32.0]] },
   { id: "maurya", name: "Mauryan Empire", start: -322, end: -185, capital: [85.14, 25.61], region: "South Asia", summary: "The first pan-Indian empire, reaching its zenith under Ashoka whose conversion to Buddhism reshaped Asian religion. Pillar edicts spread his dharma across the subcontinent.", cities: ["Pataliputra", "Taxila", "Ujjain"], extent: [[67.0,8.0],[92.0,8.0],[92.0,35.0],[67.0,35.0]] },
   { id: "gupta", name: "Gupta Empire", start: 320, end: 550, capital: [85.14, 25.61], region: "Northern India", summary: "India's classical golden age: the decimal system and zero, Kalidasa's poetry, Nalanda university, and masterworks of temple sculpture.", cities: ["Pataliputra", "Ujjain", "Prayag"], extent: [[70.0,15.0],[90.0,15.0],[90.0,32.0],[70.0,32.0]] },
   { id: "chola", name: "Chola Empire", start: 848, end: 1279, capital: [79.12, 10.78], region: "South India & Maritime SE Asia", summary: "A Tamil naval power that projected force to Sri Lanka, the Maldives, and Srivijaya. Its bronze Nataraja statues and granite temples are high points of Indian art.", cities: ["Thanjavur", "Gangaikonda Cholapuram", "Kanchipuram"], extent: [[74.0,7.0],[82.0,7.0],[82.0,16.0],[74.0,16.0]] },
@@ -98,7 +100,7 @@ export const GLOBE2_CIVS: GlobeCiv2[] = [
 
   // ── Americas (14) ─────────────────────────────────────────────
   { id: "olmec", name: "Olmec Civilization", start: -1500, end: -400, capital: [-94.17, 18.12], region: "Gulf Coast Mexico", summary: "Mesoamerica's 'mother culture', famed for colossal basalt heads carved without metal tools and a ritual ballgame passed to every later civilization.", cities: ["San Lorenzo", "La Venta", "Tres Zapotes"], extent: [[-96.0,17.0],[-92.0,17.0],[-92.0,19.0],[-96.0,19.0]] },
-  { id: "maya", name: "Maya Civilization", start: -2000, end: 1697, capital: [-89.62, 17.22], region: "Yucatán & Central America", summary: "An astronomically precise civilization of city-states that invented the only fully developed pre-Columbian writing system and a dazzling zero-based mathematics.", cities: ["Tikal", "Palenque", "Copán", "Chichén Itzá"], extent: [[-93.0,13.5],[-86.5,13.5],[-86.5,22.5],[-93.0,22.5]] },
+  { id: "maya", name: "Maya Civilization", start: -1000, end: 1697, capital: [-89.62, 17.22], region: "Yucatán & Central America", summary: "An astronomically precise civilization of city-states that invented the only fully developed pre-Columbian writing system and a dazzling zero-based mathematics.", cities: ["Tikal", "Palenque", "Copán", "Chichén Itzá"], extent: [[-93.0,13.5],[-86.5,13.5],[-86.5,22.5],[-93.0,22.5]] },
   { id: "teotihuacan", name: "Teotihuacan", start: -100, end: 550, capital: [-98.84, 19.69], region: "Central Mexico", summary: "A metropolis of 100,000+ dominated by the Pyramid of the Sun. Its grid-planned streets and multi-ethnic apartment compounds influenced all of Mesoamerica.", cities: ["Teotihuacan"], extent: [[-99.5,19.0],[-98.0,19.0],[-98.0,20.5],[-99.5,20.5]] },
   { id: "zapotec", name: "Zapotec Civilization", start: -500, end: 1521, capital: [-96.77, 17.04], region: "Oaxaca Valley", summary: "Builders of the mountaintop capital Monte Albán and one of Mesoamerica's earliest writing systems.", cities: ["Monte Albán", "Mitla"], extent: [[-98.0,15.5],[-95.0,15.5],[-95.0,18.5],[-98.0,18.5]] },
   { id: "toltec", name: "Toltec Civilization", start: 900, end: 1168, capital: [-99.34, 20.06], region: "Central Mexico", summary: "Warrior-artisans whose capital Tula bristled with giant atlantean stone warriors. Later Aztecs claimed Toltec descent as a mark of legitimacy.", cities: ["Tula"], extent: [[-101.0,19.0],[-98.0,19.0],[-98.0,22.0],[-101.0,22.0]] },
@@ -125,10 +127,10 @@ export interface Globe2Group {
 
 export const GLOBE2_GROUPS: Globe2Group[] = [
   { id: "mesopotamia", label: "Mesopotamia & Near East", color: "#d97706", ids: ["sumer","akkad","babylon","assyria","elam","hittites","phoenicia","israel","urartu","achaemenid","parthia","sassanid"] },
-  { id: "egypt", label: "Egypt & Africa", color: "#b44d3b", ids: ["egypt-old","egypt-middle","egypt-new","kush","carthage","aksum","mali","songhai"] },
+  { id: "egypt", label: "Egypt & Africa", color: "#b44d3b", ids: ["egypt-early","egypt-old","egypt-new","nubia","kush","carthage","aksum","mali","songhai"] },
   { id: "europe", label: "Mediterranean & Europe", color: "#2563eb", ids: ["minoan","mycenaean","greece-classical","macedon","etruscan","roman-republic","roman-empire","byzantine","celts","franks","vikings","kievan-rus","hre"] },
   { id: "steppe", label: "Eurasian Steppe", color: "#9a6e3a", ids: ["scythians","xiongnu","huns","gokturk","mongol","timurid"] },
-  { id: "south-asia", label: "South Asia", color: "#7c3aed", ids: ["indus","maurya","gupta","chola","delhi","vijayanagara","mughal"] },
+  { id: "south-asia", label: "South Asia", color: "#7c3aed", ids: ["indus","vedic","maurya","gupta","chola","delhi","vijayanagara","mughal"] },
   { id: "east-asia", label: "East Asia", color: "#dc2626", ids: ["erlitou","shang","zhou","qin","han","tang","song","yuan","ming","goguryeo","silla","goryeo","yamato","heian"] },
   { id: "se-asia", label: "Southeast Asia", color: "#0d9488", ids: ["khmer","srivijaya","majapahit","dai-viet"] },
   { id: "islamic", label: "Islamic World", color: "#059669", ids: ["rashidun","abbasid","al-andalus","ottoman","safavid"] },
@@ -160,10 +162,13 @@ const GLOBE_TO_READER: Record<string, string> = {
   achaemenid: 'persian-empire',
   parthia: 'persian-empire',
   sassanid: 'persian-empire',
+  'egypt-early': 'early-dynastic-egypt',
   'egypt-old': 'old-kingdom-egypt',
   'egypt-new': 'new-kingdom-egypt',
+  nubia: 'ancient-nubia',
   kush: 'kingdom-of-kush',
   indus: 'indus-valley',
+  vedic: 'vedic-period',
   maurya: 'maurya-empire',
   erlitou: 'ancient-china',
   shang: 'shang-dynasty',
@@ -175,7 +180,6 @@ const GLOBE_TO_READER: Record<string, string> = {
   chavin: 'early-andean-civilizations',
   goguryeo: 'ancient-korea',
   silla: 'ancient-korea',
-  aksum: 'ancient-nubia',
 }
 
 /** Get the reader page slug for a globe civ, or null if no content. */
