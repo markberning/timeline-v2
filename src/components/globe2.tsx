@@ -409,6 +409,16 @@ export default function Globe2() {
     const labelPadX = 6
     const labelPadY = 2
 
+    // Seed the placed list with all visible pin positions so labels never
+    // cover another civ's dot. Each pin is treated as a small rect.
+    const pinPad = 10
+    for (const civ of activeCivs) {
+      const [lon, lat] = civ.capital
+      if (!isVisible(lon, lat, rotation)) continue
+      const pc = projection([lon, lat])
+      if (pc) placed.push({ x: pc[0] - pinPad, y: pc[1] - pinPad, w: pinPad * 2, h: pinPad * 2 })
+    }
+
     // Sort: selected first, then by distance to center for priority
     const [cx, cy] = projection.translate()
     const sorted = [...activeCivs].sort((a, b) => {
@@ -517,9 +527,9 @@ export default function Globe2() {
     let rotStart: [number, number] = [0, 0]
 
     function onPointerDown(e: PointerEvent) {
-      // Ignore if clicking a pin
+      // Ignore if clicking a pin or label
       const target = e.target as Element
-      if (target.closest(`.${styles.civPin}`)) return
+      if (target.closest(`.${styles.civPin}`) || target.closest(`.${styles.civLabel}`)) return
 
       dragStart = [e.clientX, e.clientY]
       rotStart = [...rotationRef.current]
@@ -554,10 +564,11 @@ export default function Globe2() {
         const moved = Math.hypot(dx, dy) > 4
 
         if (!moved) {
-          // Click on empty globe → deselect
+          // Click on empty globe → deselect (but not if clicking a pin or label)
           const target = e.target as Element
-          if (!target.closest(`.${styles.civPin}`)) {
+          if (!target.closest(`.${styles.civPin}`) && !target.closest(`.${styles.civLabel}`)) {
             setSelectedId(null)
+            selectedIdRef.current = null
           }
         }
 
