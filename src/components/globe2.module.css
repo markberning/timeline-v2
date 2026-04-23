@@ -28,9 +28,9 @@
 }
 
 :global(.dark) {
-  --globe-sphere: #2a3038;
-  --globe-land: #3a3530;
-  --globe-border: rgba(200, 195, 185, 0.2);
+  --globe-sphere: #354050;
+  --globe-land: #4a4540;
+  --globe-border: rgba(200, 195, 185, 0.25);
   --globe-graticule: rgba(200, 195, 185, 0.08);
   --globe-civ-fill: rgba(217, 119, 6, 0.28);
   --globe-civ-stroke: #d97706;
