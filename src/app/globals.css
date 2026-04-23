@@ -196,8 +196,8 @@ a.cross-link {
   box-shadow: inset 3px 0 0 transparent;
 }
 .civ-row-chain {
-  color: var(--foreground);
-  opacity: 0.5;
+  color: var(--row-color);
+  opacity: 0.6;
 }
 .civ-row-chain-pos {
   opacity: 0.5;
