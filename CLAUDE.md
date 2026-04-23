@@ -37,8 +37,8 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 ```
 src/
   app/
-    page.tsx                    — home: renders TlNavigator (the flow navigator IS the home page)
-    navigator/page.tsx          — /navigator: alias route, also renders TlNavigator
+    page.tsx                    — home: renders ChronologyPage ("The Civ Lib" — editorial home with swim-lane ribbon + civ list)
+    navigator/page.tsx          — /navigator: old TlNavigator flow layout (preserved)
     [civilizationId]/
       layout.tsx                — accent color wrapper
       page.tsx                  — single-page accordion reader
@@ -52,9 +52,16 @@ src/
     lightbox.tsx                — pinch-to-zoom fullscreen image viewer
     dark-mode-toggle.tsx        — sun/moon toggle, persisted to localStorage
     text-size-control.tsx       — 5-step font size control (14-22px)
-    civilization-card.tsx       — home page card
     image-review.tsx            — approve/reject images with notes
     offline-registrar.tsx       — mount-once client component that registers the service worker; included in app/layout.tsx
+    chronology/
+      chronology-page.tsx       — 'use client' shell: owns activeCivId, responsive breakpoint, wires ribbon ↔ list/detail
+      chronology-header.tsx     — "Stuff Happened" eyebrow + "The Civ Lib" title + dark mode toggle
+      timeline-ribbon.tsx       — horizontal scrollable ribbon: swim-lane mode (mobile, 5 region lanes) + lane-packed mode (desktop)
+      civ-list.tsx              — mobile scrolling list with DOM-only active state (no React re-renders during scroll)
+      civ-icons-strip.tsx       — decorative civilization icon PNGs between header and ribbon
+      detail-pane.tsx           — desktop detail card: civ info (left) + chain grid (right)
+      chain-grid.tsx            — desktop: all chains grouped by region in a 3-column grid
     tl-navigator/
       tl-navigator.tsx          — navigator shell: header (title + v1 pill + offline library button), zone toggles, body scroll lock, mounts TlFlow + OfflineLibrarySheet
       tl-flow.tsx               — custom-touch-scroll flow renderer: diagonal layout, chain pull, chain icons, tap nav, client-side offline guard
@@ -63,7 +70,8 @@ src/
       offline-library-sheet.tsx — bottom-sheet modal opened by the header cloud button; lists all hasContent TLs with per-row download/delete cloud controls
   lib/
     data.ts                     — reads content JSON at build time
-    types.ts                    — NarrativeChapter, TlEvent, TimelineNarrative, etc.
+    types.ts                    — NarrativeChapter (now with optional subtitle), TlEvent, TimelineNarrative, etc.
+    chronology-data.ts          — sorted civs, chain lookup map, lane-packing algorithm, year formatting
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
     navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for all 9 shipped TLs)
@@ -224,7 +232,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 2. ottoman-empire
 
 ## Color System
-- **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).
+- **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange (#d97706), Africa = rust red (#b44d3b), Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).
 - **All 18 chain entries contrast-verified**: text on white ≥4.5:1, white on badge ≥3:1 (AA-lg), base on dark `#0a0a0a` ≥4.5:1. Check via the Python script in the accent-colors comment history when adding a new shade.
 - **Category colors**: 8 event categories in `src/lib/categories.ts` with light/dark mode variants.
 

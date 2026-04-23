@@ -1,53 +1,70 @@
-# Session Handoff — 2026-04-22
+# Session Handoff — 2026-04-22b
 
 **Branch:** main
-**Last commit:** `8cd6ac1` — Shang audit fixes
-**Total commits this session:** 97
+**Last commit:** `fa3b24c` — Chain position inherits font-bold
+**Commits this session:** 55
 **Auto-deploy:** Cloudflare Workers auto-deploy from main. Manual fallback: `npx wrangler deploy`.
 
 ## Session Summary
-Massive content session: **7 new TLs shipped** (#10-16), bringing the total to **16 live TLs**. Also fixed a UI bug (duplicate date display) and a label alignment issue.
+New editorial home page ("The Civ Lib") replacing the old TL Navigator at `/`. Major typography and color system overhaul across home page and reader. Chapter subtitles added to all 16 TLs.
 
-## TLs Shipped This Session
+## What Was Built
 
-| # | TL ID | Chain | Words | Events | Maps |
-|---|-------|-------|-------|--------|------|
-| 10 | minoan-civilization | Greco-Roman #1 | 17.5k | 66 | prompts ready |
-| 11 | old-kingdom-egypt | Nile Valley #2 | 17.7k | 67 | prompts ready |
-| 12 | ancient-korea | Korean Civ #1 | 16k | 65 | prompts ready |
-| 13 | assyrian-empire | Meso Succession #2 | 16.4k | 67 | prompts ready |
-| 14 | hittite-empire | Anatolian #1 | 18.5k | 70 | prompts ready |
-| 15 | mycenaean-civilization | Greco-Roman #2 | 17.4k | 67 | prompts ready |
-| 16 | shang-dynasty | Chinese Dynasties #2 | 17.4k | 69 | prompts ready |
+### New Home Page (`/`)
+- **Mobile**: horizontal swim-lane ribbon (5 region lanes) + scrolling civ list with DOM-only active state highlighting (zero React re-renders during scroll). IntersectionObserver replaced with scroll-position math + 300ms settle timer. Ribbon auto-scrolls to active bar.
+- **Desktop**: lane-packed ribbon (first-fit algorithm) + detail pane with chain grid index. Bar click centers bar start, updates detail pane, auto-scrolls chain grid.
+- **Civ icons strip**: 11 PNG civilization icons (sphinx, lamassu, faravahar, torii, lotus, etc.) as decorative border between header and ribbon.
+- **Region labels**: gradient fade overlay (solid under labels → transparent) so bar content dissolves before reaching text.
+- **Last-viewed civ**: reader saves `localStorage['last-viewed-civ']`, home page reads it on mount and scrolls to that row.
+- **Title**: "The Civ Lib" in italic Lora.
+- Old TL Navigator preserved at `/navigator`.
 
-Each TL went through the full pipeline: v1 data copy → expand to 65-70 events → label alignment check → 8-chapter narrative → 4-persona audit → must-fix application → event/glossary/cross-civ link curation → summary bullets → chapter map prompts → parse/enrich → ship toggle → push.
+### Typography Framework
+- Unified 5-level type scale across home page and reader: page title 22px, section title 18px, subtitle 14px italic Lora, meta 13px tabular-nums, labels 11px uppercase.
+- Chapter headers scale with `--prose-size` via CSS calc vars (`--ch-title` ×1.125, `--ch-subtitle` ×0.875, `--ch-meta` ×0.8125).
+- Text size control removed from reader nav; default prose size 16px. Stale `localStorage['textSize']` actively cleaned up on page load.
 
-## UI Fixes
-- **Duplicate date display** removed from chapter headers (was showing years twice — once in dateRange italic below title, once calculated on the right side). Fixed in `chapter-accordion.tsx`.
-- **Label mismatches** fixed: Old Kingdom Egypt ("Age of the Pyramids" → "Old Kingdom Egypt"), Minoan ("Minoan Civilization" → "Minoan"). Re-parsed to update content JSONs.
+### Chapter Subtitles
+- Added `subtitle` field to `NarrativeChapter` type, parse script, and all 16 summaries JSON files (137 chapters total).
+- Short descriptive one-liners for every chapter, rendered in italic Lora below title and above dateRange.
 
-## Pipeline Improvements
-- **CLAUDE.md step 0** now mandates 60-70 event target density AND label alignment check between ref data and navigator-tls.ts.
+### Color System Changes
+- **Africa**: gold/ochre → rust red (`#b44d3b`). Chain accents updated (nile-valley, nubian-tradition, west-african-empires).
+- **Near East**: standardized to `#d97706` (matching chain accent on reader pages).
+- **Light mode background**: lightened from `#ede5d3` to `#f5f0e8`.
+
+### Reader Fixes
+- **Continue Reading banner**: dismissed state persisted to localStorage; only reappears if user actually scrolls in a chapter after dismissing.
+- **Cross-link sheet button**: solid accent bg + white text + Lora font (matching READ THE FULL CHAPTER style).
+- **Chapter title nowrap**: last word + chevron wrapped in `whitespace-nowrap` so icon never strands alone.
+- **"Before the Pharaohs"** renamed to **"Early Egypt"** (academically correct — the TL includes the first pharaohs).
+
+### Mobile Scroll Performance
+- Replaced IntersectionObserver with scroll-position math (rAF-throttled, deterministic).
+- Active row highlighting via direct DOM attribute toggle + CSS — zero React re-renders during scroll.
+- React state (ribbon sync) deferred until 300ms after scroll stops.
+- 800ms lock-out after bar tap prevents scroll handler from overriding the selection.
+- `scrollTop < 20` always selects first civ (prevents iOS rubber-band bounce-back issue).
 
 ## What Still Needs Doing
 
 ### Immediate
 1. **Generate 56 chapter maps** — prompts ready in `map-prompts/` for all 7 new TLs. Gemini thinking mode, save PNGs, run WebP optimizer.
-2. **Backward cross-cultural pass** — Persona E audit reports have backward findings for all 7 new TLs (cross-refs to add to the 9 older TLs). Terse parenthetical insertions only.
+2. **Backward cross-cultural pass** — Persona E audit reports have backward findings for all 7 new TLs.
 
 ### Next TLs
 Natural chain progressions: ancient-greece, zhou-dynasty, new-kingdom-egypt, kingdom-of-aksum, vedic-period, islamic-golden-age, safavid-persia.
 
 ## All 16 Shipped TLs
-1. mesopotamia (13 ch, maps ✅)
-2. indus-valley (10 ch, maps ✅)
-3. ancient-china (8 ch, maps ✅)
-4. ancient-nubia (8 ch, maps ✅)
-5. elamite-civilization (8 ch, maps ✅)
-6. early-dynastic-egypt (8 ch, maps ✅)
-7. early-andean-civilizations (8 ch, maps ✅)
-8. persian-empire (10 ch, maps ✅)
-9. kingdom-of-kush (8 ch, maps ✅)
+1. mesopotamia (13 ch, maps done)
+2. indus-valley (10 ch, maps done)
+3. ancient-china (8 ch, maps done)
+4. ancient-nubia (8 ch, maps done)
+5. elamite-civilization (8 ch, maps done)
+6. early-dynastic-egypt (8 ch, maps done) — label now "Early Egypt"
+7. early-andean-civilizations (8 ch, maps done)
+8. persian-empire (10 ch, maps done)
+9. kingdom-of-kush (8 ch, maps done)
 10. minoan-civilization (8 ch, maps pending)
 11. old-kingdom-egypt (8 ch, maps pending)
 12. ancient-korea (8 ch, maps pending)
@@ -55,3 +72,18 @@ Natural chain progressions: ancient-greece, zhou-dynasty, new-kingdom-egypt, kin
 14. hittite-empire (8 ch, maps pending)
 15. mycenaean-civilization (8 ch, maps pending)
 16. shang-dynasty (8 ch, maps pending)
+
+## Key Files Changed This Session
+- `src/app/page.tsx` — swapped TlNavigator for ChronologyPage
+- `src/components/chronology/*` — 7 new files (chronology-page, header, ribbon, civ-list, detail-pane, chain-grid, civ-icons-strip)
+- `src/lib/chronology-data.ts` — new data module
+- `src/lib/navigator-tls.ts` — region colors updated
+- `src/lib/accent-colors.ts` — Africa chain colors: gold → rust red
+- `src/lib/types.ts` — NarrativeChapter.subtitle added
+- `src/app/globals.css` — ch-title/subtitle/meta CSS vars, civ-row active styles, light mode bg
+- `src/app/layout.tsx` — localStorage cleanup, light mode color
+- `src/components/chapter-accordion.tsx` — subtitle rendering, scaling vars, nowrap chevron
+- `src/components/narrative-reader.tsx` — last-viewed-civ save, continue-reading dismiss persistence
+- `src/components/cross-link-sheet.tsx` — solid accent button style
+- `narratives/*.summaries.json` — all 16 files updated with chapter subtitles
+- `public/icons/*.png` — 11 civilization icon PNGs

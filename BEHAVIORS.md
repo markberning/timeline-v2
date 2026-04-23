@@ -3,7 +3,7 @@
 Source of truth for how the reader app should behave. Update this when we change or add a behavior so future work has a spec to check against.
 
 ## Chapter accordion
-- **Collapsed state**: minimal row showing "01" chapter number in accent color, chapter title in Lora serif (text-xl) with inline rotating chevron (`›`, bold, rotates 90° + translate-x-1 when open), subtitle (dateRange) in italic serif below, start/end years right-justified with `›` separator. Gray `border-b` lines between chapters. No buttons, no summary peek.
+- **Collapsed state**: minimal row showing "01" chapter number in accent color, chapter title in Lora serif (18px at default prose) with inline rotating chevron (`›`, bold, rotates 90° + translate-x-1 when open, last word + chevron wrapped in `whitespace-nowrap`), subtitle in italic Lora (14px, 55% opacity), dateRange in tabular-nums (13px, 35% opacity). Gray `border-b` lines between chapters. No buttons, no summary peek. All three sizes scale proportionally with `--prose-size` via CSS calc vars `--ch-title` (×1.125), `--ch-subtitle` (×0.875), `--ch-meta` (×0.8125).
 - **Tap header → toggle summary** (NOT expand chapter). Summary expanded state shows the READ THE FULL CHAPTER button (solid accent background, white text, bold, book icon + circle arrow, chapter number inline with title, year range on own line) + "SUMMARY · FOR REVIEW" label + bullet list inside a left accent-colored vertical border (2.5px, margin-quoted style). Bullets in Geist sans-serif with inline event/glossary/cross-link auto-linking.
 - **READ THE FULL CHAPTER button** → expand that chapter. Other chapters become `display: none` (not just hidden visually).
 - **Expand scroll behavior**: on open, `window.scrollTo({top: 0})`. Because sibling chapters are `display:none`, the opened chapter is always the first visible chapter in the flow and sits right below the h1 + "N chapters" subtitle; scrollY=0 then shows sticky nav → h1 → subtitle → chapter header → map/body stacked naturally. Same answer whether the chapter was opened by a user tap or by a cross-link auto-expand (`?chapter=N`). Previous "scroll flush below nav" behavior was rejected because it pushed the h1 "Mesopotamia / N chapters" off-screen for every chapter past the top, and a delta-preserve approach had edge cases when the user tapped from a scroll position where the header was above the fold. A 300ms retry handles the case where an image/map loads after the initial rAF and would otherwise shift the chapter position.
@@ -16,7 +16,7 @@ Source of truth for how the reader app should behave. Update this when we change
 - **Sticky mini map**: when the chapter map scrolls out of view during reading, a small 100px-wide thumbnail appears fixed in the bottom-right corner (z-30). Tapping it opens the lightbox. It auto-hides when the full map scrolls back into view. Tracked via IntersectionObserver on the map div.
 
 ## Accent colors (chain-driven)
-- Every TL narrative page gets an accent color from its first chain in `reference-data/tl-chains.ts`. Every TL in the same chain shares the color; every chain in the same region is a distinct shade of that region's family (Near East = amber/orange, Africa = yellow/ochre, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate).
+- Every TL narrative page gets an accent color from its first chain in `reference-data/tl-chains.ts`. Every TL in the same chain shares the color; every chain in the same region is a distinct shade of that region's family (Near East = amber/orange, Africa = rust red, Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate).
 - Lookup: `getAccentColors(tlId)` in `src/lib/accent-colors.ts` calls `getChainsForTimeline(tlId)`, takes the first chain, and reads from the `CHAIN_COLORS` map. Falls back to `TL_OVERRIDES` (empty by default) then to neutral `DEFAULT_COLORS`.
 - All 18 chain entries are contrast-verified: `text` on white ≥ AA 4.5:1, white on `badge` ≥ AA-lg 3:1, `base` on dark `#0a0a0a` ≥ AA 4.5:1. The comment in `accent-colors.ts` lists the target thresholds; when adding a new shade, rerun the contrast check before committing.
 - The colors feed three CSS variables on the narrative page: `--accent` (decorative: nav underline, buttons, progress), `--accent-text` (readable text on white), `--accent-badge` (background for white chapter-number pills).
@@ -59,24 +59,25 @@ Source of truth for how the reader app should behave. Update this when we change
 - Toggle is still available; persisted to `localStorage['theme']`.
 
 ## Light mode
-- Background `#ede5d3` (warm parchment cream). Theme-color meta tag updates to `#ede5d3` so iOS notch/status bar matches.
+- Background `#f5f0e8` (warm cream, lighter than the original `#ede5d3`). Theme-color meta tag updates to `#f5f0e8` so iOS notch/status bar matches.
 
 ## Text size
-- 5 steps (0.875rem → 1.375rem) via A/A buttons, default 1rem (16px, index 1), persisted to `localStorage['textSize']`. Chapter numbers, titles, subtitles, and summary bullets use relative `em` units so they scale with the control. Prose inherits `--prose-size` from `.reading-content`.
+- Text size control removed from reader nav. Default prose size is 16px (1rem). Chapter headers scale via CSS calc vars derived from `--prose-size`. `localStorage['textSize']` is actively cleaned up on page load to prevent stale overrides.
 
 ## Save-my-place
 - While a chapter is open, the scroll position is auto-saved to localStorage every 500ms (debounced). Stored as `reading-progress-{tlId}` → `{ chapter, scrollPct, timestamp }`.
-- On returning to a TL page with saved progress and no chapter open, an accent-colored "Continue Reading" banner appears showing chapter name + percentage. The entire banner is clickable to resume; × button dismisses (with `stopPropagation`). Progress expires after 90 days.
+- On returning to a TL page with saved progress and no chapter open, an accent-colored "Continue Reading" banner appears showing chapter name + percentage. The entire banner is clickable to resume; × button dismisses (with `stopPropagation`), writes a dismissal timestamp to `localStorage['reading-dismissed-{tlId}']`. The banner only reappears if the progress timestamp is newer than the dismissal — meaning the user actually opened a chapter and scrolled since dismissing. Progress expires after 90 days.
 - Resume: sets `pendingScrollPct` ref, opens the chapter, waits 400ms for content render + scroll-to-top effect to settle, then scrolls to `docHeight * pct`.
 
 ## Lightbox scroll preservation
 - `openLightbox()` saves `window.scrollY` to a ref before showing the lightbox. `closeLightbox()` restores it via `requestAnimationFrame` after hiding. Prevents the scroll-to-top effect from firing when the lightbox state change causes a re-render.
 
 ## Navigation
-- Home page (`/`): the TL Navigator flow layout. No civilization picker.
+- Home page (`/`): the Chronology page ("The Civ Lib") — editorial home with horizontal swim-lane ribbon (mobile) or lane-packed ribbon (desktop), plus scrolling civ list (mobile) or detail pane with chain grid (desktop). The old TL Navigator flow layout lives at `/navigator`.
 - Chapter page: single-page accordion. No per-chapter routes.
 - **Swipe right on the civilization summary page** (dx > 80px, horizontal-dominant, no chapter expanded) navigates back to home. Disabled when a chapter is open, since swipe-right in that state is reserved for collapsing the chapter.
-- `/navigator` is an alias route that renders the same navigator component as `/`.
+- **Last-viewed civ**: reader pages save `civilizationId` to `localStorage['last-viewed-civ']` on mount. The chronology home page reads it and starts with that civ highlighted + scrolled into view.
+- **Whole-row tap**: on the home page list, tapping any `hasContent` row navigates to that civ (not just the "Read →" pill).
 
 ## TL Navigator (home, `/`)
 Custom-touch scrolling flow layout of 71 civilizations. This is the home page now — the old card picker is gone.
