@@ -1,0 +1,534 @@
+{
+  "id": "new-kingdom-egypt",
+  "label": "New Kingdom Egypt",
+  "type": "civilization",
+  "region": "africa",
+  "source": "curated",
+  "imageWikiSlug": "Ramesses_II",
+  "mapCommonsFile": "Egypt_1450_BC.svg",
+  "wikiSlug": "New_Kingdom_of_Egypt",
+  "pitch": "When Mentuhotep II reunified Egypt around 2055 BCE, he inherited a country traumatized by civil war and famine. What followed — the Middle Kingdom's literary renaissance, the Hyksos crisis, and then the explosive imperial expansion of the New Kingdom — represents Egypt at its most dynamic: a civilization that absorbed shocks, adapted technologies, and emerged more powerful each time. By the reign of Ramesses II, Egypt stretched from Nubia to Syria and pharaoh's name was carved into cliffs across the ancient world.\n\n🔑 Key Facts:\n• Mentuhotep II's reunification (c. 2055 BCE) launched the Middle Kingdom, a cultural golden age prized for its classical literature, especially the Story of Sinuhe — still read as a masterpiece today\n• The Hyksos invasion (c. 1650 BCE) introduced the horse-drawn chariot and composite bow; after Egypt expelled them, it turned these weapons into an empire-building arsenal\n• Hatshepsut (r. 1479–1458 BCE) was one of Egypt's most successful rulers — she launched the famous Punt expedition, built a magnificent mortuary temple, and ruled for two decades before being erased from official records by her successor\n• Thutmose III conducted 17 military campaigns and won the Battle of Megiddo (1457 BCE), expanding the Egyptian Empire to its greatest extent — a feat that earned him the modern epithet 'Napoleon of Egypt'\n• Akhenaten's Amarna Revolution (c. 1346 BCE) imposed monotheistic worship of the sun disk Aten, moved the capital, and transformed Egyptian art — then was reversed almost entirely after his death\n• The Battle of Kadesh (1274 BCE) between Ramesses II and the Hittites produced history's oldest known peace treaty, a copy of which hangs in the United Nations headquarters\n• The Sea Peoples invasion (1178 BCE) destroyed or destabilized nearly every civilization in the Bronze Age eastern Mediterranean — Egypt alone repelled them, though it never recovered its imperial vigor\n• The first recorded workers' strike in history occurred at Deir el-Medina (c. 1170 BCE) when artisans building royal tombs walked off the job over unpaid grain rations\n\n🤔 Why It Matters: The New Kingdom was the apex of a 3,000-year civilization — but its collapse was just as instructive as its rise. The Bronze Age Collapse that destroyed the Hittites, Mycenaeans, and Ugarit left Egypt standing but weakened. The fragmentation that followed — rival dynasties, Libyan warlords, Nubian pharaohs — set the stage for the Late Period's cycles of foreign conquest and native revival. Every pattern of Late Egypt's story traces back to cracks that appeared in the New Kingdom's final century.\n\n🎲 Wild Card: Nefertiti may have briefly ruled Egypt as pharaoh. Some Egyptologists believe she assumed the throne under the name Neferneferuaten after Akhenaten's death, ruling for two years before Tutankhamun. If true, she would be one of only a handful of female pharaohs in three thousand years of history.",
+  "glossary": [],
+  "spans": [
+    {
+      "id": "span-ancient-egypt-middle-kingdom",
+      "label": "Middle Kingdom",
+      "startYear": -2055,
+      "endYear": -1650,
+      "description": "A cultural renaissance marked by classical literature, expanded trade with Nubia and the Levant, and major irrigation projects in the Faiyum. Pharaohs reasserted central control after the chaos of the First Intermediate Period.",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "details": [
+        { "label": "Background", "text": "After Mentuhotep II's reunification, the Twelfth Dynasty under Amenemhat I and Senusret III restored centralized rule, curtailed nomarch power, and pushed Egypt's frontier deep into Nubia." },
+        { "label": "What Happened", "text": "The Middle Kingdom produced Egypt's classical literature (Story of Sinuhe, Instructions of Amenemhat), massive irrigation works in the Faiyum, and the fortress system along the Nile's Second Cataract. Senusret III's administrative reforms fundamentally restructured the state." },
+        { "label": "The Bigger Picture", "text": "The Middle Kingdom is sometimes called Egypt's 'classical age' — its literature set the standard for written Egyptian for centuries, and its administrative innovations gave the New Kingdom the bureaucratic foundation for empire." }
+      ]
+    },
+    {
+      "id": "span-ancient-egypt-second-intermediate",
+      "label": "Second Intermediate",
+      "startYear": -1650,
+      "endYear": -1550,
+      "description": "The Hyksos, Semitic rulers from the Levant, seized northern Egypt and introduced the horse-drawn chariot and composite bow. Theban pharaohs eventually expelled them and reunified the kingdom.",
+      "wikiSlug": "Second_Intermediate_Period_of_Egypt",
+      "details": [
+        { "label": "Background", "text": "The Middle Kingdom weakened under the Thirteenth Dynasty's rapid succession of rulers. Levantine settlers in the Delta (the Hyksos) gradually consolidated power, eventually controlling Lower Egypt from their capital Avaris." },
+        { "label": "What Happened", "text": "The Hyksos ruled northern Egypt for about a century, introducing the horse-drawn chariot, composite bow, and bronze weapons. Theban rulers in the south launched a war of liberation; Ahmose I finally expelled the Hyksos around 1550 BCE and reunified Egypt." },
+        { "label": "The Bigger Picture", "text": "The Hyksos interlude was a military education. Egypt adopted every weapon the Hyksos had used against it and turned them toward building the largest empire in its history during the New Kingdom." }
+      ]
+    },
+    {
+      "id": "span-ancient-egypt-new-kingdom",
+      "label": "New Kingdom",
+      "startYear": -1550,
+      "endYear": -1069,
+      "description": "Egypt's imperial zenith, when warrior pharaohs like Thutmose III and Ramesses II built an empire stretching from Nubia to Syria. The Valley of the Kings, Abu Simbel, and Akhenaten's religious revolution defined this era.",
+      "wikiSlug": "New_Kingdom_of_Egypt",
+      "details": [
+        { "label": "Background", "text": "Ahmose I's expulsion of the Hyksos launched the Eighteenth Dynasty and transformed Egypt from a defended kingdom into an offensive empire. The New Kingdom pharaohs pursued conquest as a religious duty and a source of tribute." },
+        { "label": "What Happened", "text": "Thutmose III's 17 campaigns pushed Egypt's borders to the Euphrates and into Nubia's Fourth Cataract. Akhenaten's religious revolution was reversed after his death. Ramesses II's 66-year reign produced Abu Simbel, the Egyptian-Hittite peace treaty, and the last great imperial generation. The Sea Peoples invasion (1178 BCE) and economic collapse ended the New Kingdom by 1069 BCE." },
+        { "label": "The Bigger Picture", "text": "The New Kingdom's imperial wealth funded an unprecedented building program — the Valley of the Kings, Karnak's vast extensions, Luxor Temple, Abu Simbel. Its collapse marked the end of Egypt's empire-building era and the beginning of a long defensive phase." }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-mentuhotep-ii",
+      "label": "Mentuhotep II",
+      "year": -2061,
+      "endYear": -2010,
+      "description": "Mentuhotep II reunified Egypt after the chaos of the First Intermediate Period, founding the Middle Kingdom from his base in Thebes.",
+      "wikiSlug": "Mentuhotep_II",
+      "tier": 2,
+      "tags": ["politics"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-karnak-begun",
+      "label": "Temple of Karnak Begun",
+      "year": -2000,
+      "description": "Construction began on the Temple of Karnak near Thebes. Over 2,000 years of expansion made it the largest religious complex ever built.",
+      "wikiSlug": "Karnak",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-amenemhat-i",
+      "label": "Amenemhat I",
+      "year": -1991,
+      "endYear": -1962,
+      "description": "Founder of the Twelfth Dynasty and the Middle Kingdom's golden age. He moved the capital to Itjtawy and was likely assassinated, as recounted in the Instructions of Amenemhat.",
+      "wikiSlug": "Amenemhat_I",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-amenemhat",
+      "label": "Instructions of Amenemhat",
+      "year": -1985,
+      "description": "This literary text, purportedly the ghost of Amenemhat I advising his son, is a masterwork of Middle Egyptian literature and political propaganda.",
+      "wikiSlug": "Instruction_of_Amenemhat",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-senusret-iii",
+      "label": "Senusret III",
+      "year": -1878,
+      "endYear": -1839,
+      "description": "Senusret III was the most powerful Middle Kingdom pharaoh, expanding Egypt's southern border deep into Nubia and reforming the administration.",
+      "wikiSlug": "Senusret_III",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sinuhe",
+      "label": "Story of Sinuhe",
+      "year": -1875,
+      "description": "Considered the greatest work of ancient Egyptian literature, the Story of Sinuhe tells of a courtier's exile and return — a tale of identity and belonging.",
+      "wikiSlug": "Story_of_Sinuhe",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-nubian-campaigns",
+      "label": "Nubian Campaigns",
+      "year": -1870,
+      "endYear": -1840,
+      "description": "Senusret III launched a series of devastating campaigns into Nubia, building massive fortresses along the Nile to secure Egypt's southern border.",
+      "wikiSlug": "Buhen",
+      "tier": 3,
+      "tags": ["military"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-faiyum-irrigation",
+      "label": "Faiyum Irrigation Project",
+      "year": -1850,
+      "description": "Middle Kingdom pharaohs, especially Amenemhat III, engineered a massive irrigation project to reclaim the Faiyum oasis, creating one of Egypt most productive agricultural regions.",
+      "wikiSlug": "Faiyum",
+      "tier": 3,
+      "tags": ["architecture"],
+      "category": "science"
+    },
+    {
+      "id": "evt-hyksos-invasion",
+      "label": "Hyksos Invasion",
+      "year": -1650,
+      "endYear": -1550,
+      "description": "The Hyksos, a Semitic people from the Levant, conquered Lower Egypt and ruled from Avaris for a century, introducing the horse-drawn chariot to Egypt.",
+      "wikiSlug": "Hyksos",
+      "tier": 2,
+      "tags": ["military"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-rhind-papyrus",
+      "label": "Rhind Mathematical Papyrus",
+      "year": -1650,
+      "description": "The most extensive Egyptian mathematical document, containing 84 problems covering arithmetic, algebra, geometry, and fractions. It reveals how Egyptians calculated areas, volumes, and pyramid slopes.",
+      "wikiSlug": "Rhind_Mathematical_Papyrus",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-hyksos-chariot",
+      "label": "Chariot Warfare Adopted",
+      "year": -1600,
+      "description": "The Hyksos introduced the horse-drawn chariot and composite bow to Egypt, revolutionizing Egyptian warfare. After expelling the Hyksos, Egypt adopted these weapons to build its New Kingdom empire.",
+      "wikiSlug": "Chariot",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-edwin-smith",
+      "label": "Edwin Smith Papyrus",
+      "year": -1600,
+      "description": "The world's oldest known surgical treatise describes 48 cases with rational, anatomical approaches to injuries — remarkably modern for its time.",
+      "wikiSlug": "Edwin_Smith_Papyrus",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-ahmose-i",
+      "label": "Ahmose I",
+      "year": -1565,
+      "endYear": -1525,
+      "description": "First pharaoh of the Eighteenth Dynasty, Ahmose I reunified Egypt and launched the New Kingdom — Egypt's most prosperous and powerful era.",
+      "wikiSlug": "Ahmose_I",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-expulsion-hyksos",
+      "label": "Expulsion of the Hyksos",
+      "year": -1555,
+      "description": "Ahmose I drove the Hyksos invaders out of Egypt after a century of foreign rule, reunifying Upper and Lower Egypt under native Egyptian rule.",
+      "wikiSlug": "Hyksos",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-book-of-dead",
+      "label": "Book of the Dead",
+      "year": -1545,
+      "description": "The Book of the Dead emerged as a collection of funerary spells on papyrus, guiding the deceased through the underworld to judgment before Osiris.",
+      "wikiSlug": "Book_of_the_Dead",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ebers-papyrus",
+      "label": "Ebers Papyrus",
+      "year": -1535,
+      "description": "A comprehensive medical encyclopedia covering over 700 remedies and magical formulas for diseases from ophthalmology to gastroenterology.",
+      "wikiSlug": "Ebers_Papyrus",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-thutmose-i",
+      "label": "Thutmose I",
+      "year": -1506,
+      "endYear": -1493,
+      "description": "Expanded Egypt's empire to its greatest extent to date, campaigning deep into Nubia and reaching the Euphrates River. He was the first pharaoh buried in the Valley of the Kings.",
+      "wikiSlug": "Thutmose_I",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-valley-of-kings",
+      "label": "Valley of the Kings",
+      "year": -1504,
+      "description": "Thutmose I was the first pharaoh buried in the Valley of the Kings, beginning a tradition that would continue for 500 years.",
+      "wikiSlug": "Valley_of_the_Kings",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-deir-el-medina",
+      "label": "Deir el-Medina Founded",
+      "year": -1504,
+      "description": "The workers' village of Deir el-Medina was established to house artisans building the royal tombs. It provides the richest record of daily life in ancient Egypt.",
+      "wikiSlug": "Deir_el-Medina",
+      "tier": 3,
+      "tags": ["trade"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hatshepsut",
+      "label": "Hatshepsut",
+      "year": -1479,
+      "endYear": -1458,
+      "description": "Hatshepsut was one of Egypt's most successful pharaohs. She expanded trade networks, launched the expedition to Punt, and built her famous mortuary temple at Deir el-Bahari.",
+      "wikiSlug": "Hatshepsut",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hatshepsut-temple",
+      "label": "Temple of Hatshepsut",
+      "year": -1470,
+      "description": "Hatshepsut's mortuary temple at Deir el-Bahari is a masterpiece of ancient architecture, featuring colonnaded terraces carved into limestone cliffs.",
+      "wikiSlug": "Mortuary_Temple_of_Hatshepsut",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-punt-expedition",
+      "label": "Expedition to Punt",
+      "year": -1470,
+      "description": "Hatshepsut sent a major trading expedition to the Land of Punt (probably modern Eritrea/Somalia), returning with myrrh trees, gold, ebony, and exotic animals.",
+      "wikiSlug": "Land_of_Punt",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-thutmose-iii",
+      "label": "Thutmose III",
+      "year": -1458,
+      "endYear": -1425,
+      "description": "Called the 'Napoleon of Egypt,' Thutmose III conducted 17 military campaigns and expanded the Egyptian Empire to its greatest extent.",
+      "wikiSlug": "Thutmose_III",
+      "tier": 2,
+      "tags": ["military"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-megiddo",
+      "label": "Battle of Megiddo",
+      "year": -1457,
+      "description": "Thutmose III's decisive victory at Megiddo crushed a Canaanite coalition and established Egyptian dominance over the Levant for generations.",
+      "wikiSlug": "Battle_of_Megiddo_(15th_century_BC)",
+      "tier": 2,
+      "tags": ["military"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-water-clock",
+      "label": "Water Clock (Clepsydra)",
+      "year": -1500,
+      "description": "Egyptians invented the water clock for timekeeping at night when sundials were useless, enabling accurate measurement of temple ritual hours.",
+      "wikiSlug": "Water_clock",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-conquest-nubia-new-kingdom",
+      "label": "New Kingdom Nubian Empire",
+      "year": -1500,
+      "endYear": -1070,
+      "description": "Egypt controlled Nubia as far as the Fourth Cataract during the New Kingdom, extracting gold, building temples at Abu Simbel and Soleb, and appointing a Viceroy of Kush to govern the territory.",
+      "wikiSlug": "Nubia",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-luxor-temple",
+      "label": "Temple of Luxor",
+      "year": -1400,
+      "description": "Amenhotep III began construction of the Temple of Luxor, later expanded by Ramesses II. It was dedicated to the rejuvenation of kingship.",
+      "wikiSlug": "Luxor_Temple",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-amenhotep-iii",
+      "label": "Amenhotep III",
+      "year": -1391,
+      "endYear": -1353,
+      "description": "Amenhotep III presided over Egypt at the peak of its power and prosperity. He built the Luxor Temple, the Colossi of Memnon, and maintained vast diplomatic networks. His reign was an era of unprecedented artistic achievement.",
+      "wikiSlug": "Amenhotep_III",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-amenhotep-iii-diplomacy",
+      "label": "Amarna Diplomatic System",
+      "year": -1380,
+      "endYear": -1330,
+      "description": "Egypt maintained a sophisticated diplomatic network with Near Eastern powers including Babylon, Mitanni, and the Hittites. The Amarna Letters archive preserves hundreds of cuneiform tablets documenting this international system.",
+      "wikiSlug": "Amarna_letters",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-nefertiti",
+      "label": "Nefertiti",
+      "year": -1370,
+      "description": "Queen Nefertiti was Akhenaten's Great Royal Wife and may have co-ruled as pharaoh. Her painted limestone bust is one of the most iconic works of ancient art.",
+      "wikiSlug": "Nefertiti",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-colossi-memnon",
+      "label": "Colossi of Memnon",
+      "year": -1350,
+      "description": "Two massive stone statues of Amenhotep III were erected at the entrance to his mortuary temple. They became a famous Roman-era tourist attraction.",
+      "wikiSlug": "Colossi_of_Memnon",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-meritaten",
+      "label": "Meritaten",
+      "year": -1350,
+      "endYear": -1330,
+      "description": "Eldest daughter of Akhenaten and Nefertiti, Meritaten may have briefly ruled as pharaoh during the chaotic end of the Amarna period. She appears prominently in temple and tomb art at Amarna.",
+      "wikiSlug": "Meritaten",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-akhenaten",
+      "label": "Akhenaten",
+      "year": -1353,
+      "endYear": -1336,
+      "description": "Akhenaten imposed monotheistic worship of the sun disk Aten, moved the capital to Amarna, and revolutionized Egyptian art with a naturalistic style.",
+      "wikiSlug": "Akhenaten",
+      "tier": 2,
+      "tags": ["religion", "people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-amarna-revolution",
+      "label": "Amarna Revolution",
+      "year": -1346,
+      "description": "Akhenaten banned the worship of all gods except Aten (the sun disk), moved the capital to Amarna, and imposed history's first known monotheistic religion.",
+      "wikiSlug": "Atenism",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-amun-restored",
+      "label": "Amun Worship Restored",
+      "year": -1332,
+      "description": "Tutankhamun reversed Akhenaten's religious revolution, restoring the traditional pantheon headed by Amun-Ra and returning the capital to Thebes.",
+      "wikiSlug": "Restoration_Stela",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tutankhamun",
+      "label": "Tutankhamun",
+      "year": -1332,
+      "endYear": -1323,
+      "description": "The boy pharaoh Tutankhamun restored traditional Egyptian religion after Akhenaten's revolution. His intact tomb, discovered in 1922, revolutionized Egyptology.",
+      "wikiSlug": "Tutankhamun",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-horemheb",
+      "label": "Horemheb",
+      "year": -1319,
+      "endYear": -1292,
+      "description": "The last pharaoh of the Eighteenth Dynasty, Horemheb was a military commander who restored order after the Amarna period and erased Akhenaten, Tutankhamun, and Ay from official records.",
+      "wikiSlug": "Horemheb",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-seti-i",
+      "label": "Seti I",
+      "year": -1294,
+      "endYear": -1279,
+      "description": "Restored Egyptian power after the Amarna period's upheaval, campaigning in the Levant and Nubia. His temple at Abydos contains the famous King List and some of Egypt's finest relief carvings.",
+      "wikiSlug": "Seti_I",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ramesses-ii",
+      "label": "Ramesses II",
+      "year": -1279,
+      "endYear": -1213,
+      "description": "Ramesses II 'the Great' reigned 66 years — one of Egypt's longest and most celebrated reigns, marked by monumental building and military campaigns.",
+      "wikiSlug": "Ramesses_II",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nefertari",
+      "label": "Nefertari",
+      "year": -1290,
+      "description": "Ramesses II's favorite queen, Nefertari was given an exquisitely painted tomb in the Valley of the Queens — the finest in all of Egypt.",
+      "wikiSlug": "Nefertari",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kadesh",
+      "label": "Battle of Kadesh",
+      "year": -1274,
+      "description": "Ramesses II fought the Hittites at Kadesh in the largest chariot battle of the ancient world. The resulting treaty is history's earliest known peace agreement.",
+      "wikiSlug": "Battle_of_Kadesh",
+      "tier": 2,
+      "tags": ["military", "diplomacy"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abu-simbel",
+      "label": "Abu Simbel Temples",
+      "year": -1264,
+      "description": "Ramesses II carved two massive temples into the cliff face at Abu Simbel, featuring four 20-meter colossal statues of himself at the entrance.",
+      "wikiSlug": "Abu_Simbel",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-egyptian-hittite-treaty",
+      "label": "Egyptian-Hittite Peace Treaty",
+      "year": -1259,
+      "description": "Ramesses II and Hattusili III signed the world's oldest surviving peace treaty, ending decades of warfare between Egypt and the Hittite Empire. A copy hangs in the UN headquarters.",
+      "wikiSlug": "Egyptian–Hittite_peace_treaty",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ramesses-iii",
+      "label": "Ramesses III",
+      "year": -1186,
+      "endYear": -1155,
+      "description": "Ramesses III was the last great warrior pharaoh, defeating the Sea Peoples in a series of dramatic land and naval battles.",
+      "wikiSlug": "Ramesses_III",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sea-peoples",
+      "label": "Sea Peoples Invasion",
+      "year": -1178,
+      "description": "Ramesses III repelled a massive invasion by the Sea Peoples — a mysterious coalition that had already destroyed the Hittite Empire and many Mediterranean civilizations.",
+      "wikiSlug": "Sea_Peoples",
+      "tier": 2,
+      "tags": ["military"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-workers-strike",
+      "label": "First Recorded Workers Strike",
+      "year": -1170,
+      "description": "Artisans at Deir el-Medina staged the earliest recorded labor strike in history when their grain rations went unpaid during Ramesses III reign. The event reveals economic decline late in the New Kingdom.",
+      "wikiSlug": "Deir_el-Medina",
+      "tier": 3,
+      "tags": ["trade"],
+      "category": "people"
+    }
+  ]
+}

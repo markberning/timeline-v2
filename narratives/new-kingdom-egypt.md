@@ -6,7 +6,7 @@
 
 ---
 
-## Chapter Outline (9 chapters)
+# Chapter Outline (9 chapters)
 
 | # | Chapter | Era | Key topics |
 |---|---------|-----|------------|
@@ -22,7 +22,7 @@
 
 ---
 
-## Chapter 1 — Egypt's Classical Age
+# Chapter 1 — Egypt's Classical Age
 
 The Old Kingdom Egypt narrative ended with a man named Mentuhotep II standing in his terraced temple at Deir el-Bahri, looking out over a country that had been broken and rebuilt (Old Kingdom Egypt Ch 8). The First Intermediate Period, roughly 130 years of civil war, famine, and competing warlords, had shattered the system that built the pyramids. Mentuhotep II put it back together, reunifying Egypt around 2055 BCE from his base at Thebes, 400 miles (640 km) south of the old capital at Memphis. He founded the Middle Kingdom.
 
@@ -98,7 +98,7 @@ And in the northeast Delta, in a city called **Avaris** (pronounced "AV-ah-ris")
 
 ---
 
-## Chapter 2 — The Uninvited Guests
+# Chapter 2 — The Uninvited Guests
 
 The word **Hyksos** is a Greek mangling of an Egyptian phrase, **heka khasut**, meaning "rulers of foreign lands." It was originally a title of respect, used for Levantine chieftains. By the time it entered the historical record as a group name, it had become something uglier: the label the Egyptians slapped on the foreign dynasty that ruled northern Egypt for about a century, and whose memory they would try to erase, rewrite, and demonize for the next thousand years.
 
@@ -154,7 +154,7 @@ Kamose raided deep into Hyksos territory, reaching the outskirts of Avaris itsel
 
 ---
 
-## Chapter 3 — Liberation
+# Chapter 3 — Liberation
 
 **Ahmose I** (pronounced "AH-moh-seh") came to the throne as a child, possibly as young as ten. His mother, **Ahhotep I** (pronounced "ah-HOH-tep"), served as regent during his minority, and her own tomb would later yield military decorations — golden flies, the Egyptian award for valor in battle — suggesting she played an active role in the war effort, not just a ceremonial one. When Ahmose came of age and took command, he did what his predecessors had been building toward for a generation.
 
@@ -194,7 +194,7 @@ What happened next was something no one in the Egyptian court expected. A woman 
 
 ---
 
-## Chapter 4 — The Woman Who Was King
+# Chapter 4 — The Woman Who Was King
 
 **Hatshepsut** (pronounced "hat-SHEP-soot") was the daughter of Thutmose I and his Great Royal Wife, Ahmose. When Thutmose I died, the succession passed to his son by a secondary wife: **Thutmose II**, who married Hatshepsut (his half-sister, in keeping with the Egyptian royal practice of sibling marriage to concentrate divine blood). Thutmose II reigned for roughly thirteen years (the exact length is debated), and his health appears to have been poor — his mummy shows signs of a skin disease and he died relatively young. He left behind a daughter by Hatshepsut, named **Neferure** (pronounced "nef-eh-ROO-ray"), and a son by a secondary wife, a boy who would become **Thutmose III**.
 
@@ -242,7 +242,7 @@ Hatshepsut's body may have been found. In 2007, a mummy from the Valley of the K
 
 ---
 
-## Chapter 5 — Napoleon of Egypt
+# Chapter 5 — Napoleon of Egypt
 
 Thutmose III had spent twenty-two years watching someone else run his kingdom. When Hatshepsut died and the full power of the pharaonic state finally came into his hands, he used it to build the largest empire Egypt had ever known.
 
@@ -286,7 +286,7 @@ His son **Amenhotep II** (reigned roughly 1427–1401 BCE) continued the militar
 
 ---
 
-## Chapter 6 — The Sun King
+# Chapter 6 — The Sun King
 
 **Amenhotep III** (pronounced "ah-MEN-hoh-tep," reigned roughly 1391–1353 BCE) inherited the most powerful kingdom on Earth and spent thirty-eight years enjoying it.
 
@@ -326,7 +326,7 @@ Amenhotep III died around 1353 BCE, probably in his fifties, after the longest a
 
 ---
 
-## Chapter 7 — The Heretic Pharaoh
+# Chapter 7 — The Heretic Pharaoh
 
 No pharaoh in Egyptian history has generated more scholarly debate, more popular fascination, and more wildly contradictory interpretations than **Akhenaten** (pronounced "ahk-eh-NAH-ten"), born Amenhotep IV, who came to the throne around 1353 BCE and spent seventeen years attempting to reshape Egyptian civilization around the worship of a single god: the visible sun disk, called the **Aten**.
 
@@ -398,7 +398,7 @@ When Horemheb died around 1292 BCE without an heir, the throne passed to his viz
 
 ---
 
-## Chapter 8 — The Greatest Name
+# Chapter 8 — The Greatest Name
 
 There is a joke among Egyptologists that wherever you dig in Egypt, you find the name of Ramesses II. He carved it on temples he built. He carved it on temples other pharaohs built. He carved it on statues that weren't his. He put his cartouche on obelisks, on cliff faces, on the walls of conquered cities, and on objects so old that the original maker was already forgotten. No pharaoh before or after inscribed his name on as many monuments across as much territory as **Ramesses II** (pronounced "RAM-eh-seez"), and the cumulative effect, three thousand years later, is that his name is everywhere.
 
@@ -472,7 +472,7 @@ These are real voices from three thousand years ago — not royal propaganda, no
 
 ---
 
-## Chapter 9 — The Last Stand
+# Chapter 9 — The Last Stand
 
 The end of the Bronze Age is one of the great catastrophes of human history. Between roughly 1200 and 1150 BCE, a cascade of destruction swept across the eastern Mediterranean, destroying or severely damaging nearly every major civilization in the region. The **Hittite Empire** collapsed entirely — its capital, Hattusha, was burned and abandoned around 1180 BCE (Hittite Empire Ch 8). The **Mycenaean** palace-states of Greece were destroyed or abandoned (Mycenaean Civilization Ch 7). The great trading city of **Ugarit** on the Syrian coast was sacked and never reoccupied. The Kassite dynasty of Babylon was overthrown. The kingdom of **Amurru** vanished. Cyprus was devastated. The entire international trading system that had connected these civilizations — the network of diplomacy, gift exchange, and commercial shipping that the Amarna Letters document — ceased to function.
 

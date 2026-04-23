@@ -123,6 +123,8 @@ const NARRATIVE_FILES: Record<string, string> = {
   'hittite-empire.md': 'hittite-empire',
   'mycenaean-civilization.md': 'mycenaean-civilization',
   'shang-dynasty.md': 'shang-dynasty',
+  'new-kingdom-egypt.md': 'new-kingdom-egypt',
+  'olmec-civilization.md': 'olmec-civilization',
 }
 
 function slugify(title: string): string {

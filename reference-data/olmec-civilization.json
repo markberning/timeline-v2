@@ -1,0 +1,447 @@
+{
+  "id": "olmec-civilization",
+  "label": "Olmec",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Olmecs",
+  "imageWikiSlug": "Olmec_colossal_heads",
+  "pitch": "The 'mother culture' of Mesoamerica, thriving on Mexico's Gulf Coast from 1500 to 400 BCE, the Olmec built the first complex civilization in the Americas. They carved the Colossal Heads at San Lorenzo — massive basalt portraits weighing up to 50 tons, transported through dense jungle without wheels — and developed the Cascajal Block (Earliest Writing), the oldest known script in the Western Hemisphere. Their Were-Jaguar Religion and Mesoamerican Ballgame set the template for every civilization that followed.\n\n🔑 Key Facts:\n• San Lorenzo Founded around 1200 BCE was the first major urban center in the Americas, with an elaborate drainage system beneath it\n• La Venta Becomes Capital after San Lorenzo's mysterious decline, and its Great Pyramid at La Venta was the largest structure in Mesoamerica\n• Long Count Calendar Origins trace back to the Olmec — the same calendar system the Maya later used to track vast spans of cosmic time\n• Olmec Trade Networks exchanged jade, obsidian, and magnetite across hundreds of miles of jungle\n\n🤔 Why It Matters: Nearly everything that defined Mesoamerican civilizations — from the Aztecs to the Maya — traces back to Olmec innovations: the calendar, the ballgame, writing, and the Concept of Zero in Mesoamerica, independently invented here.\n\n🎲 Wild Card: The Olmec name literally means 'Rubber People' — they were the first to process natural latex into Rubber Ball Production for their ritual ballgame, making them the inventors of rubber technology 3,500 years before Charles Goodyear.",
+  "countryIds": [
+    "484"
+  ],
+  "spans": [
+    {
+      "id": "span-olmec-civilization-early-olmec",
+      "label": "Early Olmec Period",
+      "startYear": -1500,
+      "endYear": -1200,
+      "wikiSlug": "Olmecs#Early_Formative",
+      "description": "The earliest complex society in Mesoamerica developed in the Gulf Coast lowlands of southern Mexico. Communities cultivated maize, processed rubber for the ballgame, and deposited ritual offerings at sacred springs like El Manati."
+    },
+    {
+      "id": "span-olmec-civilization-san-lorenzo",
+      "label": "San Lorenzo Phase",
+      "startYear": -1200,
+      "endYear": -900,
+      "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n",
+      "description": "San Lorenzo became the Americas' first major urban center, built on a massive artificial plateau with elaborate drainage systems. Sculptors carved colossal basalt heads weighing up to 50 tons, transported through dense jungle without wheels."
+    },
+    {
+      "id": "span-olmec-civilization-la-venta",
+      "label": "La Venta Phase",
+      "startYear": -900,
+      "endYear": -400,
+      "wikiSlug": "La_Venta",
+      "description": "After San Lorenzo's decline, La Venta rose as the dominant Olmec center, featuring Mesoamerica's earliest known pyramid and massive buried offerings of jade and serpentine. Olmec art and religion spread across Mexico and Central America."
+    },
+    {
+      "id": "span-olmec-civilization-tres-zapotes",
+      "label": "Tres Zapotes / Late Olmec",
+      "startYear": -400,
+      "endYear": -100,
+      "wikiSlug": "Tres_Zapotes",
+      "description": "The last major Olmec center at Tres Zapotes bridged the transition to Epi-Olmec and early Classic-period cultures. Long Count calendar dates and the concept of zero emerged during this twilight phase of Olmec civilization."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-olmec-origins",
+      "label": "Olmec Culture Emerges",
+      "year": -1500,
+      "description": "The Olmec civilization emerged in the tropical lowlands of south-central Mexico, developing the earliest complex society in Mesoamerica.",
+      "wikiSlug": "Olmecs#Origins",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-san-lorenzo-founded",
+      "label": "San Lorenzo Founded",
+      "year": -1207.5,
+      "description": "San Lorenzo became the first major Olmec center, built on a massive artificially modified plateau with elaborate drainage systems and monumental sculpture.",
+      "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-colossal-heads-san-lorenzo",
+      "label": "Colossal Heads at San Lorenzo",
+      "year": -1202.5,
+      "description": "Olmec sculptors carved massive basalt heads weighing up to 50 tons, likely portraits of rulers, transported from mountains 80 km away without wheeled vehicles.",
+      "wikiSlug": "Olmec_colossal_heads",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-basalt-transport",
+      "label": "Basalt Boulder Transport",
+      "year": -1150,
+      "description": "The Olmecs transported enormous basalt boulders from the Tuxtla Mountains to San Lorenzo using log rollers and river rafts, a remarkable logistical feat.",
+      "wikiSlug": "Olmec_colossal_heads#Transport",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-olmec-jade-work",
+      "label": "Olmec Jade Carving",
+      "year": -1110.0,
+      "description": "Olmec artisans mastered jade carving, creating exquisite figurines, masks, and celts depicting the were-jaguar and other supernatural beings.",
+      "wikiSlug": "Olmec_figurine",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-san-lorenzo-drainage",
+      "label": "San Lorenzo Drainage System",
+      "year": -1105.0,
+      "description": "San Lorenzo featured an elaborate system of buried stone drains, demonstrating sophisticated hydraulic engineering for the earliest urban center in the Americas.",
+      "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n#Drainage_system",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-san-lorenzo-decline",
+      "label": "San Lorenzo Declines",
+      "year": -907.5,
+      "description": "San Lorenzo was abandoned around 900 BCE, its monuments deliberately defaced and buried. Power shifted to La Venta as the new Olmec capital.",
+      "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n#Decline",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-la-venta-rises",
+      "label": "La Venta Becomes Capital",
+      "year": -902.5,
+      "description": "La Venta succeeded San Lorenzo as the dominant Olmec center, built on an island in a coastal swamp with Mesoamerica's earliest known pyramid.",
+      "wikiSlug": "La_Venta",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-great-pyramid-la-venta",
+      "label": "Great Pyramid at La Venta",
+      "year": -807.5,
+      "description": "The Great Pyramid at La Venta, a 30-meter conical mound, was the largest Mesoamerican structure of its time and likely served as a ritual center.",
+      "wikiSlug": "La_Venta#Complex_C",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-massive-offerings",
+      "label": "Massive Offerings at La Venta",
+      "year": -802.5,
+      "description": "Olmec rulers buried enormous offerings of serpentine blocks, jade, and figurines in deep pits at La Venta, reflecting vast wealth and ritual devotion.",
+      "wikiSlug": "La_Venta#Offerings",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-la-venta-mosaic",
+      "label": "Serpentine Mosaic Pavements",
+      "year": -797.5,
+      "description": "Elaborate serpentine mosaic pavements depicting jaguar masks were laid and immediately buried at La Venta as ritual offerings, never intended to be seen.",
+      "wikiSlug": "La_Venta#Mosaics",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-were-jaguar",
+      "label": "Were-Jaguar Religion",
+      "year": -1197.5,
+      "description": "The Olmec worshipped a pantheon centered on the were-jaguar, a supernatural being combining human and feline features that dominated their iconography.",
+      "wikiSlug": "Olmec_religion",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-olmec-feathered-serpent",
+      "label": "Feathered Serpent Imagery",
+      "year": -897.5,
+      "description": "Early depictions of the feathered serpent appear in Olmec art, foreshadowing the Quetzalcoatl deity that would dominate later Mesoamerican religions.",
+      "wikiSlug": "Quetzalcoatl#Olmec",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-olmec-shaman-rulers",
+      "label": "Shaman-Rulers",
+      "year": -1012.5,
+      "description": "Olmec rulers appear to have served as shaman-kings, mediating between the human and supernatural worlds through ritual transformation and bloodletting.",
+      "wikiSlug": "Olmec_religion#Shaman-rulers",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-olmec-bloodletting",
+      "label": "Bloodletting Rituals",
+      "year": -1007.5,
+      "description": "The Olmec practiced ritual bloodletting using stingray spines and obsidian blades, establishing a tradition central to all later Mesoamerican religions.",
+      "wikiSlug": "Mesoamerican_bloodletting",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-olmec-long-count-origins",
+      "label": "Long Count Calendar Origins",
+      "year": -500,
+      "description": "The Olmec are credited with developing the Long Count calendar system, later adopted and refined by the Maya for tracking vast spans of time.",
+      "wikiSlug": "Mesoamerican_Long_Count_calendar",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cascajal-block",
+      "label": "Cascajal Block (Earliest Writing)",
+      "year": -892.5,
+      "description": "The Cascajal Block bears the earliest known writing in the Americas, a serpentine tablet with 62 distinct glyphs in an Olmec script not yet deciphered.",
+      "wikiSlug": "Cascajal_Block",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-olmec-hieroglyphs",
+      "label": "Olmec Hieroglyphic System",
+      "year": -650,
+      "description": "Later Olmec inscriptions show a developing hieroglyphic system that likely influenced the Zapotec, Maya, and Isthmian scripts of Mesoamerica.",
+      "wikiSlug": "Olmec_hieroglyphs",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-stela-c-tres-zapotes",
+      "label": "Stela C at Tres Zapotes",
+      "year": -31,
+      "description": "Stela C at Tres Zapotes bears one of the earliest Long Count dates outside the Maya region, linking late Olmec culture to emerging Mesoamerican traditions.",
+      "wikiSlug": "Tres_Zapotes#Stela_C",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-olmec-zero",
+      "label": "Concept of Zero in Mesoamerica",
+      "year": -400,
+      "description": "The Olmec and their successors independently developed the concept of zero, one of only a handful of civilizations to do so.",
+      "wikiSlug": "0#Mesoamerica",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-rubber-balls",
+      "label": "Rubber Ball Production",
+      "year": -1600,
+      "description": "The Olmec were the first to process natural rubber from latex trees, creating rubber balls for the Mesoamerican ballgame — hence their name 'Rubber People.'",
+      "wikiSlug": "Olmecs#Etymology",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mesoamerican-ballgame",
+      "label": "Mesoamerican Ballgame",
+      "year": -1400,
+      "description": "The Olmec played the earliest known version of the Mesoamerican ballgame, a ritual sport with cosmological significance that spread across all later civilizations.",
+      "wikiSlug": "Mesoamerican_ballgame",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-olmec-trade-networks",
+      "label": "Olmec Trade Networks",
+      "year": -1100,
+      "description": "The Olmec established vast trade networks across Mesoamerica, exchanging jade, obsidian, magnetite, and serpentine with distant regions.",
+      "wikiSlug": "Olmecs#Trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jade-trade",
+      "label": "Jade Trade from Guatemala",
+      "year": -1002.5,
+      "description": "Olmec demand for jade drove long-distance trade to Guatemala's Motagua Valley, the only significant jade source in Mesoamerica.",
+      "wikiSlug": "Jade_use_in_Mesoamerica",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-obsidian-trade",
+      "label": "Obsidian Trade",
+      "year": -1095.0,
+      "description": "The Olmec imported obsidian from highland Mexican sources hundreds of kilometers away for tools, blades, and mirrors of exceptional quality.",
+      "wikiSlug": "Obsidian_use_in_Mesoamerica",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-magnetite-mirrors",
+      "label": "Magnetite Mirrors",
+      "year": -997.5,
+      "description": "Olmec artisans crafted highly polished magnetite mirrors, possibly used for fire-starting, divination, and as symbols of elite status and supernatural power.",
+      "wikiSlug": "Olmec_mirrors",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cacao-cultivation",
+      "label": "Cacao Cultivation",
+      "year": -992.5,
+      "description": "The Olmec were among the first to cultivate cacao, preparing ritual chocolate drinks that would remain central to Mesoamerican culture for millennia.",
+      "wikiSlug": "History_of_chocolate#Mesoamerica",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-olmec-influence-spreads",
+      "label": "Olmec Influence Spreads",
+      "year": -987.5,
+      "description": "Olmec artistic and religious motifs appeared at sites across Mexico and Central America, leading scholars to call the Olmec the 'mother culture' of Mesoamerica.",
+      "wikiSlug": "Olmecs#Olmec_influence",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-chalcatzingo",
+      "label": "Chalcatzingo Reliefs",
+      "year": -700,
+      "description": "The highland site of Chalcatzingo features Olmec-style rock carvings including 'El Rey,' depicting a ruler seated in a cave mouth with rain clouds above.",
+      "wikiSlug": "Chalcatzingo",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tres-zapotes",
+      "label": "Tres Zapotes",
+      "year": -400,
+      "description": "Tres Zapotes became the last major Olmec center, bridging the transition to the Epi-Olmec culture and maintaining traditions as La Venta declined.",
+      "wikiSlug": "Tres_Zapotes",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-la-venta-decline",
+      "label": "La Venta Abandoned",
+      "year": -400,
+      "description": "La Venta was abandoned around 400 BCE with monuments deliberately destroyed, marking the end of the classic Olmec civilization.",
+      "wikiSlug": "La_Venta#Decline",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-olmec-wrestling",
+      "label": "Olmec Wrestler Sculpture",
+      "year": -1192.5,
+      "description": "The Olmec Wrestler is a naturalistic basalt sculpture of a seated figure, remarkably different from other Olmec art and among the finest Pre-Columbian sculptures.",
+      "wikiSlug": "Olmec_Wrestler",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-el-manati-offerings",
+      "label": "El Manatí Sacred Spring",
+      "year": -1600,
+      "description": "Wooden busts, rubber balls, jade axes, and infant remains were deposited at the sacred spring of El Manatí, revealing early Olmec ritual practices.",
+      "wikiSlug": "El_Manat%C3%AD",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-epi-olmec",
+      "label": "Epi-Olmec Culture",
+      "year": -300,
+      "description": "The Epi-Olmec culture continued Olmec traditions at sites like Tres Zapotes and Cerro de las Mesas, bridging the gap to Classic-period civilizations.",
+      "wikiSlug": "Epi-Olmec_culture",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-olmec-astronomy",
+      "label": "Olmec Astronomical Observations",
+      "year": -792.5,
+      "description": "La Venta's architectural alignment suggests sophisticated astronomical knowledge, with structures oriented to track solstices and celestial events.",
+      "wikiSlug": "Olmecs#Astronomy",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-tuxtla-statuette",
+      "label": "Tuxtla Statuette",
+      "year": -162,
+      "description": "The Tuxtla Statuette bears an Epi-Olmec inscription with one of the earliest Long Count dates, providing key evidence for the development of Mesoamerican writing.",
+      "wikiSlug": "Tuxtla_Statuette",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-maize-cultivation",
+      "label": "Maize Agriculture",
+      "year": -1500,
+      "description": "Olmec farmers cultivated maize, beans, and squash in the fertile Gulf Coast lowlands, producing the agricultural surplus that supported their civilization.",
+      "wikiSlug": "Olmecs#Subsistence",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-san-lorenzo-monument-destruction",
+      "label": "San Lorenzo Monument Destruction",
+      "year": -950,
+      "description": "Colossal heads and thrones at San Lorenzo were deliberately mutilated and buried, possibly during a violent overthrow or ritual destruction by rival groups.",
+      "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n#Decline",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-olmec-territorial-conflicts",
+      "label": "Olmec Territorial Expansion",
+      "year": -1090.0,
+      "description": "Evidence of burned buildings and defensive works suggests the Olmec used military force to establish control over trade routes and rival settlements.",
+      "wikiSlug": "Olmecs#Warfare",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    }
+  ]
+}

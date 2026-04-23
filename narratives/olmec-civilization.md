@@ -6,7 +6,7 @@
 
 ---
 
-## Chapter Outline (8 chapters)
+# Chapter Outline (8 chapters)
 
 | # | Chapter | Era | Key topics |
 |---|---------|-----|------------|
@@ -21,7 +21,7 @@
 
 ---
 
-## Chapter 1 — The Rubber People
+# Chapter 1 — The Rubber People
 
 In January 1862, a Mexican landowner and antiquarian named **José María Melgar y Serrano** (ho-SEH mah-REE-ah mel-GAR ee seh-RAH-no) was clearing land on his hacienda near the town of **Tres Zapotes** (tres sah-POH-tes) in the state of **Veracruz** (veh-rah-CROOZ), on Mexico's Gulf Coast, when a farmworker told him about something strange in the jungle. Buried in the undergrowth, half-swallowed by roots and mud, was a massive stone sphere. When Melgar's men dug it out, they found themselves staring at a colossal human head carved from a single boulder of dark volcanic basalt, about five feet tall, weighing several tons, with a flat-nosed face, thick lips, and a tight-fitting helmet. The head stared back at them with an expression of calm authority that had not changed in over two thousand years.
 
@@ -61,7 +61,7 @@ The next chapter is about the first of those cities, and it begins with a questi
 
 ---
 
-## Chapter 2 — San Lorenzo
+# Chapter 2 — San Lorenzo
 
 Around 1200 BCE, while the **Shang dynasty** in China was casting the largest bronze ritual vessels the world had ever seen (Shang Dynasty Ch 3) and the **New Kingdom** pharaohs in Egypt were building their sprawling mortuary temples in the Valley of the Kings, something was happening on a muddy plateau above the floodplains of the Coatzacoalcos River in southern Mexico that had no parallel anywhere else in the Western Hemisphere.
 
@@ -113,7 +113,7 @@ The civilization survived its first capital. The stone kings survived too, burie
 
 ---
 
-## Chapter 3 — Stone Kings
+# Chapter 3 — Stone Kings
 
 Seventeen colossal heads. That is the complete inventory, as of this writing, of the most recognizable art objects from pre-Columbian America. Ten were found at San Lorenzo, four at La Venta, two at Tres Zapotes, and one at a smaller site called **La Cobata** (lah ko-BAH-tah). Each one is unique. Each one is a portrait. Each one was carved from a single massive boulder of volcanic basalt. And each one was transported across miles of jungle and swamp by people who had no wheels, no metal tools, and no draft animals.
 
@@ -163,7 +163,7 @@ Seventeen stone faces. Seventeen individuals whose names, deeds, families, and h
 
 ---
 
-## Chapter 4 — Jaguars, Blood, and Rubber
+# Chapter 4 — Jaguars, Blood, and Rubber
 
 The Olmec lived in a world thick with supernatural power. Every river, every cave, every mountain, every spring was alive with forces that needed to be acknowledged, appeased, and channeled. The rulers who carved their faces into basalt boulders were not just political leaders. They were the people who stood between the human world and a spirit world that was both terrifying and essential, and the rituals they performed to maintain that connection shaped everything the Olmec built, made, and traded.
 
@@ -221,7 +221,7 @@ Whether this model is correct is, of course, uncertain. We are interpreting art 
 
 ---
 
-## Chapter 5 — The Jade Highway
+# Chapter 5 — The Jade Highway
 
 The Olmec heartland was a land of mud, water, and rubber trees. It was not a land of precious stones, volcanic glass, or valuable minerals. Everything the Olmec valued most, apart from rubber and basalt, came from somewhere else. And the distances involved were staggering.
 
@@ -271,7 +271,7 @@ What's not debatable is the scale. Olmec trade goods and Olmec-style art have be
 
 ---
 
-## Chapter 6 — La Venta
+# Chapter 6 — La Venta
 
 Around 900 BCE, as San Lorenzo's mutilated monuments were sinking into the mud, a new center was rising 50 miles (80 km) to the northeast, on one of the least promising pieces of real estate in the ancient Americas.
 
@@ -327,7 +327,7 @@ That new location was Tres Zapotes, the last of the three great Olmec centers (C
 
 ---
 
-## Chapter 7 — Words and Numbers
+# Chapter 7 — Words and Numbers
 
 The Olmec may have invented writing in the Americas. They may have invented the calendar system that the Maya later made famous. They almost certainly contributed to the independent development of the concept of zero, one of the rarest and most consequential intellectual achievements in human history. And because none of their texts can be read, we can't be sure about any of it.
 
@@ -379,7 +379,7 @@ The Olmec period was when the mathematical and calendrical foundations of Mesoam
 
 ---
 
-## Chapter 8 — Mother Culture or Sister Culture?
+# Chapter 8 — Mother Culture or Sister Culture?
 
 Around 400 BCE, when La Venta's last monuments were being buried in the swamp and the center of gravity in the Olmec world was shifting to **Tres Zapotes** (tres sah-POH-tes), the civilization that Matthew Stirling had rediscovered three thousand years later was entering its final chapter. But "final chapter" is misleading. The Olmec didn't vanish the way civilizations are imagined to vanish, with a dramatic collapse and an empty landscape. They faded, transformed, and fed their innovations into the cultures that replaced them. The ending was a transition, not an extinction.
 
