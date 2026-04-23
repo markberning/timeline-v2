@@ -10,8 +10,10 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
   return (
     <header className="px-5 pt-5 pb-3 lg:px-8 lg:pt-8 lg:pb-4 flex items-start justify-between shrink-0">
       <div>
-        <div className="text-[10px] lg:text-xs font-semibold tracking-[0.15em] uppercase text-foreground/40">
-          Stuff Happened
+        <div className="flex items-center gap-3 text-[10px] lg:text-xs font-semibold tracking-[0.15em] uppercase text-foreground/40">
+          <span>Stuff Happened</span>
+          <span>&middot;</span>
+          <a href="/globe" className="hover:text-foreground/70 transition-colors">Globe View</a>
         </div>
         <h1 className="text-3xl lg:text-[44px] italic font-[family-name:var(--font-lora)] text-foreground mt-1 leading-tight">
           Historica
@@ -20,13 +22,7 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
           a library of civilizations
         </p>
       </div>
-      <div className="shrink-0 mt-1 flex items-center gap-3">
-        <a
-          href="/globe"
-          className="text-foreground/40 hover:text-foreground/70 text-xs font-semibold tracking-wider uppercase transition-colors"
-        >
-          Globe View
-        </a>
+      <div className="shrink-0 mt-1">
         <DarkModeToggle />
       </div>
     </header>
