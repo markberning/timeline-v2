@@ -200,7 +200,7 @@ a.cross-link {
   opacity: 0.6;
 }
 .civ-row-chain-pos {
-  opacity: 0.5;
+  opacity: 1;
 }
 .civ-row-label {
   color: var(--foreground);
