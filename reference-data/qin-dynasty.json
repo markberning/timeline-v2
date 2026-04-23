@@ -124,6 +124,31 @@
       ]
     },
     {
+      "id": "evt-qin-duke-xiao",
+      "label": "Duke Xiao of Qin",
+      "year": -381,
+      "endYear": -338,
+      "description": "Duke Xiao issued an open call for talent from any state, offering titles and land to anyone who could make Qin strong. This rejection of birth-based privilege attracted Shang Yang and launched Qin's transformation from a semi-barbaric frontier state into a Legalist war machine.",
+      "wikiSlug": "Duke_Xiao_of_Qin",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Open Call",
+          "text": "Duke Xiao's proclamation that any man from any state could earn power through demonstrated ability was revolutionary. It bypassed the aristocratic gatekeeping that dominated the other kingdoms and attracted ambitious reformers who were frustrated by hereditary privilege."
+        },
+        {
+          "label": "Partnership with Shang Yang",
+          "text": "Shang Yang arrived from Wei and convinced Duke Xiao to implement sweeping reforms beginning in 356 BCE. The duke backed him consistently for over two decades despite fierce aristocratic opposition."
+        },
+        {
+          "label": "Legacy",
+          "text": "Duke Xiao's willingness to empower a foreign-born reformer set the precedent for Qin's meritocratic culture. Every subsequent Qin ruler inherited a state where talent mattered more than birth."
+        }
+      ]
+    },
+    {
       "id": "evt-qin-shang-yang-reforms",
       "label": "Shang Yang's Legalist Reforms",
       "year": -356,
@@ -144,6 +169,105 @@
         {
           "label": "The Bitter Irony",
           "text": "When Duke Xiao died in 338 BCE, Shang Yang's enemies accused him under his own laws. He fled but was captured and executed — torn apart by chariots. His reforms survived him completely."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-king-huiwen",
+      "label": "King Huiwen of Qin",
+      "year": -338,
+      "endYear": -311,
+      "description": "The Qin ruler who executed Shang Yang but kept every one of his reforms. King Huiwen eliminated the reformer who had humiliated his tutor when he was crown prince, then continued building the Legalist state Shang Yang had designed.",
+      "wikiSlug": "King_Huiwen_of_Qin",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Revenge and Pragmatism",
+          "text": "As crown prince, King Huiwen had been punished under Shang Yang's laws (his tutor's nose was cut off for the prince's offense). When he took the throne, he had Shang Yang executed — but recognized that the reforms were too effective to reverse."
+        },
+        {
+          "label": "Expansion",
+          "text": "Under Huiwen, Qin conquered the Sichuan Basin and began the aggressive eastern expansion that would culminate in unification a century later."
+        },
+        {
+          "label": "Significance",
+          "text": "The fact that Shang Yang's personal enemy kept his system intact proved the reforms had become self-sustaining — they no longer depended on any individual."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-bai-qi",
+      "label": "Bai Qi",
+      "year": -332,
+      "endYear": -257,
+      "description": "The most feared battlefield commander of the Warring States era, who won over 70 battles without a major defeat. Bai Qi's massacre of 400,000 Zhao prisoners at Changping became synonymous with military brilliance and moral horror. His own king later forced him to commit suicide.",
+      "wikiSlug": "Bai_Qi",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "Military Record",
+          "text": "Bai Qi served Qin for over 30 years, winning every major engagement. He was responsible for destroying the armies of multiple rival states, and his campaigns are estimated to have killed over a million enemy soldiers in total."
+        },
+        {
+          "label": "Changping",
+          "text": "The mass execution of 400,000 Zhao prisoners in 260 BCE was Bai Qi's most infamous act. He calculated that releasing them would restore Zhao's military capability, and feeding them would bankrupt Qin's supply lines."
+        },
+        {
+          "label": "His End",
+          "text": "Bai Qi refused to lead a campaign he considered unwinnable. The king of Qin, offended, stripped him of rank and then forced him to commit suicide. His name became a Chinese byword for military genius and moral horror."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-sichuan-conquest",
+      "label": "Conquest of the Sichuan Basin",
+      "year": -316,
+      "description": "Qin conquered the fertile Sichuan Basin to the southwest, adding a second major food-producing region to its agricultural base. The Sichuan grain surplus, amplified by the later Dujiangyan irrigation system, directly funded the armies that conquered the six kingdoms.",
+      "wikiSlug": "Qin%27s_campaign_against_Shu",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "Strategic Value",
+          "text": "The Sichuan Basin was one of the most fertile regions in China, protected by mountains on all sides. Adding it to Qin's resource base gave the state a second granary independent of the Wei River valley."
+        },
+        {
+          "label": "Agricultural Transformation",
+          "text": "The Dujiangyan irrigation system, built around 256 BCE by governor Li Bing, turned the basin into an agricultural powerhouse. The grain from Sichuan fed Qin's armies for the campaigns of unification."
+        },
+        {
+          "label": "Long-Term Impact",
+          "text": "Sichuan remained one of China's most productive agricultural regions for the next two millennia. The conquest established a pattern Qin would repeat: seize territory, develop its agriculture, use the surplus for further conquest."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-han-feizi",
+      "label": "Han Feizi",
+      "year": -280,
+      "endYear": -233,
+      "description": "The philosopher who synthesized Legalist thought into its most complete form. His writings so impressed Ying Zheng that the king said he would die content if he could meet the author. When Han Feizi came to Qin as a diplomat, Li Si had him imprisoned and poisoned — killed by the political techniques he had theorized.",
+      "wikiSlug": "Han_Fei",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "The Philosopher",
+          "text": "Han Feizi was a prince of the state of Han who studied under Xunzi alongside Li Si. His text synthesized Legalist ideas about law, statecraft, and the techniques of power into the most complete theoretical framework the school ever produced."
+        },
+        {
+          "label": "The Irony",
+          "text": "When Ying Zheng read Han Feizi's essays, he was so impressed he launched a war partly to acquire the philosopher. But Li Si, fearing displacement, had Han Feizi imprisoned and forced him to take poison before he could gain influence at court."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Han Feizi remains one of the most important texts in Chinese political philosophy, read by rulers and officials for the next two millennia."
         }
       ]
     },
@@ -232,6 +356,56 @@
       ]
     },
     {
+      "id": "evt-qin-li-mu",
+      "label": "Li Mu of Zhao",
+      "year": -250,
+      "endYear": -228,
+      "description": "Zhao's greatest general, who repelled two earlier Qin invasions with brilliant defensive tactics. Qin could not defeat him on the battlefield, so they bribed Zhao court officials into having him executed on fabricated charges — eliminating Zhao's most capable defender before the final invasion.",
+      "wikiSlug": "Li_Mu",
+      "tier": 3,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "Defense Against Xiongnu",
+          "text": "Before facing Qin, Li Mu made his reputation defending Zhao's northern border against Xiongnu raids, using patient defensive strategies that drew nomad forces into devastating ambushes."
+        },
+        {
+          "label": "Stopping Qin",
+          "text": "Li Mu repelled two Qin invasions through careful positional warfare, making him the most serious obstacle to Qin's unification. He was the only general who consistently matched Qin's armies in the field."
+        },
+        {
+          "label": "Assassination by Bribery",
+          "text": "Unable to defeat Li Mu militarily, Qin bribed Zhao court officials into accusing him of treason. He was arrested and executed on fabricated charges. Zhao collapsed within months."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-wang-jian",
+      "label": "Wang Jian",
+      "year": -250,
+      "endYear": -210,
+      "description": "Qin's most experienced and cautious general during the wars of unification. Wang Jian demanded 600,000 troops for the Chu campaign when the king offered 200,000, was proven right when the smaller force was routed, and patiently waited a full year before delivering the decisive victory.",
+      "wikiSlug": "Wang_Jian_(Qin_general)",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "The Chu Campaign",
+          "text": "When Li Xin's 200,000-troop invasion of Chu was routed, Ying Zheng personally begged Wang Jian to lead a second attempt. Wang Jian demanded 600,000 soldiers and then refused to fight, camping for an entire year until Chu committed to an attack he could destroy."
+        },
+        {
+          "label": "Political Survival",
+          "text": "Unusually for a Qin general of his stature, Wang Jian survived by carefully managing his relationship with the king, repeatedly asking for material rewards to signal he had no political ambitions beyond wealth."
+        },
+        {
+          "label": "Legacy",
+          "text": "Wang Jian and his son Wang Ben conquered five of the six kingdoms between them. The Wang family was the military backbone of Qin's unification."
+        }
+      ]
+    },
+    {
       "id": "evt-qin-lu-buwei",
       "label": "Lü Buwei",
       "year": -249,
@@ -276,6 +450,55 @@
         {
           "label": "His Downfall",
           "text": "Li Si co-conspired with Zhao Gao to place Qin Er Shi on the throne. He later tried to oppose Zhao Gao and was arrested. Zhao Gao had him executed by the Five Punishments — mutilation, followed by being cut in half at the waist — in 208 BCE."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-ying-zheng-becomes-king",
+      "label": "Ying Zheng Becomes King of Qin",
+      "year": -246,
+      "description": "The future Qin Shi Huang ascended to the Qin throne at thirteen when his father died unexpectedly. Born Ying Zheng, the boy king spent his first decade surviving court intrigues before he could begin his conquests.",
+      "wikiSlug": "Qin_(state)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "An Unpromising Start",
+          "text": "The future Qin Shi Huang was born in Handan while his father was a hostage of Zhao. His father's return to Qin and rapid rise to the throne was engineered by the merchant Lü Buwei, who served as regent during the boy king's minority."
+        },
+        {
+          "label": "Palace Intrigues",
+          "text": "The years 246–238 BCE were marked by palace factions. Lü Buwei wielded enormous power. A court scandal involving Lao Ai — a man Lü Buwei introduced to the queen mother — ended in open rebellion, which Ying Zheng crushed in 238 BCE."
+        },
+        {
+          "label": "Coming Into His Own",
+          "text": "After exiling Lü Buwei and executing Lao Ai, the 21-year-old king personally took control of Qin's government. He assembled advisors including Li Si and began planning the conquest of the remaining states."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-zheng-guo-canal",
+      "label": "Zheng Guo Canal",
+      "year": -246,
+      "endYear": -236,
+      "description": "The Zheng Guo Canal, stretching 150 km through the Wei River valley, was the largest irrigation project in Warring States China. Proposed by a spy from Han who hoped the massive project would exhaust Qin before it could conquer anyone — it did the opposite.",
+      "wikiSlug": "Zhengguo_Canal",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "A Trojan Horse That Backfired",
+          "text": "Han sent engineer Zheng Guo to Qin with a secret mission: propose an enormous canal to drain Qin's resources. When discovered, Ying Zheng's advisors wanted him executed — but Zheng Guo argued the canal would benefit Qin enormously. He was right."
+        },
+        {
+          "label": "Agricultural Transformation",
+          "text": "The canal irrigated 270,000 hectares of previously alkaline and barren land in the Guanzhong plain, dramatically increasing Qin's agricultural output. The Wei River valley became one of China's most productive regions."
+        },
+        {
+          "label": "Strategic Impact",
+          "text": "The grain surplus from the canal directly funded Qin's wars of unification. It may be the most consequential piece of infrastructure in Chinese history — the project designed to prevent conquest instead enabled it."
         }
       ]
     },
@@ -330,51 +553,99 @@
       ]
     },
     {
-      "id": "evt-qin-ying-zheng-becomes-king",
-      "label": "Ying Zheng Becomes King of Qin",
+      "id": "evt-qin-mausoleum-complex",
+      "label": "First Emperor's Mausoleum Complex",
       "year": -246,
-      "description": "The future Qin Shi Huang ascended to the Qin throne at thirteen when his father died unexpectedly. Born Ying Zheng, the boy king spent his first decade surviving court intrigues before he could begin his conquests.",
-      "wikiSlug": "Qin_(state)",
-      "tier": 2,
-      "tags": [],
-      "category": "rulers",
-      "details": [
-        {
-          "label": "An Unpromising Start",
-          "text": "The future Qin Shi Huang was born in Handan while his father was a hostage of Zhao. His father's return to Qin and rapid rise to the throne was engineered by the merchant Lü Buwei, who served as regent during the boy king's minority."
-        },
-        {
-          "label": "Palace Intrigues",
-          "text": "The years 246–238 BCE were marked by palace factions. Lü Buwei wielded enormous power. A court scandal involving Lao Ai — a man Lü Buwei introduced to the queen mother — ended in open rebellion, which Ying Zheng crushed in 238 BCE."
-        },
-        {
-          "label": "Coming Into His Own",
-          "text": "After exiling Lü Buwei and executing Lao Ai, the 21-year-old king personally took control of Qin's government. He assembled advisors including Li Si and began planning the conquest of the remaining states."
-        }
-      ]
-    },
-    {
-      "id": "evt-qin-zheng-guo-canal",
-      "label": "Zheng Guo Canal",
-      "year": -246,
-      "endYear": -236,
-      "description": "The Zheng Guo Canal, stretching 150 km through the Wei River valley, was the largest irrigation project in Warring States China. Proposed by a spy from Han who hoped the massive project would exhaust Qin before it could conquer anyone — it did the opposite.",
-      "wikiSlug": "Zhengguo_Canal",
+      "endYear": -210,
+      "description": "The largest tomb complex in the ancient world, under construction for 36 years employing up to 700,000 laborers. The main burial mound, a truncated pyramid originally 76 meters high, remains unexcavated. Ancient sources describe mercury rivers, astronomical ceilings, and crossbow traps inside.",
+      "wikiSlug": "Mausoleum_of_the_First_Qin_Emperor",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "A Trojan Horse That Backfired",
-          "text": "Han sent engineer Zheng Guo to Qin with a secret mission: propose an enormous canal to drain Qin's resources. When discovered, Ying Zheng's advisors wanted him executed — but Zheng Guo argued the canal would benefit Qin enormously. He was right."
+          "label": "Scale",
+          "text": "The mausoleum complex extends far beyond the Terracotta Army pits. Additional finds include bronze chariots with gold fittings, stone armor suits, pits of real horses buried alive, and bronze water birds arranged beside a simulated river."
         },
         {
-          "label": "Agricultural Transformation",
-          "text": "The canal irrigated 270,000 hectares of previously alkaline and barren land in the Guanzhong plain, dramatically increasing Qin's agricultural output. The Wei River valley became one of China's most productive regions."
+          "label": "Mercury Confirmation",
+          "text": "Soil testing in the 1980s detected mercury concentrations dozens of times higher than background levels in a pattern matching China's major rivers — confirming Sima Qian's description of mercury rivers inside the tomb."
         },
         {
-          "label": "Strategic Impact",
-          "text": "The grain surplus from the canal directly funded Qin's wars of unification. It may be the most consequential piece of infrastructure in Chinese history — the project designed to prevent conquest instead enabled it."
+          "label": "Unopened",
+          "text": "Chinese authorities have publicly stated the main mound will not be opened until technology exists to preserve its contents. The catastrophic paint loss from the Terracotta Army figures when exposed to air is the cautionary precedent."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-lushi-chunqiu",
+      "label": "Lushi Chunqiu (Annals of Lu Buwei)",
+      "year": -239,
+      "description": "An eclectic encyclopedia of philosophy, history, and statecraft compiled by thousands of scholars under Lu Buwei's patronage. He reportedly hung a copy from the city gate with a bounty of 1,000 gold coins for anyone who could change a single word. Nobody collected.",
+      "wikiSlug": "Lüshi_Chunqiu",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Scope",
+          "text": "The Lushi Chunqiu drew from every school of thought — Confucianism, Daoism, Legalism, Mohism, and more — attempting a comprehensive synthesis of Chinese intellectual life. It is one of the last great works of the Hundred Schools era."
+        },
+        {
+          "label": "Political Context",
+          "text": "Lu Buwei commissioned the encyclopedia partly to enhance his prestige at court and partly to provide a governing philosophy broader than pure Legalism for the unified state he expected Qin to build."
+        },
+        {
+          "label": "Survival",
+          "text": "Unlike many pre-Qin texts, the Lushi Chunqiu survived the Burning of Books — possibly because it was produced under Qin sponsorship and thus exempt from the destruction order."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-lao-ai-rebellion",
+      "label": "Lao Ai Rebellion",
+      "year": -238,
+      "description": "A palace coup attempted by Lao Ai, a courtier who had fathered two sons with the queen mother. When Ying Zheng was about to assume personal rule at twenty-one, Lao Ai staged an armed rebellion using stolen royal seals. The young king crushed it decisively, executing Lao Ai and purging his faction.",
+      "wikiSlug": "Lao_Ai",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Scandal",
+          "text": "Lu Buwei had introduced Lao Ai to the queen mother as a companion. The relationship became an open scandal. Lao Ai accumulated power, fathered two sons, and built a faction large enough to attempt an armed coup."
+        },
+        {
+          "label": "The Coup Attempt",
+          "text": "When Ying Zheng was about to assume personal rule at age 21, Lao Ai used stolen royal seals to mobilize troops. The rebellion was crushed quickly — Ying Zheng proved his ruthless competence by decisively eliminating every conspirator."
+        },
+        {
+          "label": "Aftermath",
+          "text": "Lao Ai was executed by chariot-tearing. The queen mother was placed under house arrest. The episode led directly to Lu Buwei's exile and suicide, leaving Ying Zheng as the sole, unchallenged ruler of Qin."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-expulsion-of-foreigners",
+      "label": "Expulsion Order and Li Si's Remonstrance",
+      "year": -237,
+      "description": "After discovering Zheng Guo was a spy, Ying Zheng's advisors pushed an order expelling all foreign-born officials from Qin. Li Si, himself a foreigner from Chu, wrote a famous remonstrance arguing that Qin's strength depended on absorbing talent from everywhere. The order was reversed.",
+      "wikiSlug": "Li_Si",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Crisis",
+          "text": "The discovery that the engineer Zheng Guo was a Han spy triggered xenophobic panic at the Qin court. An edict ordered all foreign-born officials to leave Qin — which would have gutted the administration, since Qin had recruited talent from every state."
+        },
+        {
+          "label": "Li Si's Argument",
+          "text": "Li Si's remonstrance became one of the most celebrated essays in Chinese political literature. He catalogued every foreign-born figure who had made Qin great — from Shang Yang to music and jewels — arguing that Qin's openness to talent was its greatest advantage."
+        },
+        {
+          "label": "Outcome",
+          "text": "Ying Zheng reversed the expulsion order. Li Si's remonstrance saved his own career and preserved Qin's meritocratic culture. The episode demonstrated how close Qin came to sabotaging itself through nativism."
         }
       ]
     },
@@ -400,6 +671,31 @@
         {
           "label": "Why He Lost",
           "text": "Xiang Yu could win battles but not govern. He burned Xianyang, executed the surrendered Qin prince, and divided China among local lords rather than unifying it. Liu Bang — more patient and politically shrewd — wore him down over four years. Xiang Yu committed suicide at the Wujiang River."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-han-xin",
+      "label": "Han Xin",
+      "year": -231,
+      "endYear": -196,
+      "description": "One of the most brilliant military strategists in Chinese history, who served as Liu Bang's chief general during the Chu-Han Contention. Han Xin's campaigns systematically destroyed Xiang Yu's allies and pinned him into the final encirclement at Gaixia.",
+      "wikiSlug": "Han_Xin",
+      "tier": 3,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "From Nobody to General",
+          "text": "Han Xin was so poor in his youth that he endured the humiliation of crawling between a bully's legs rather than fight. He served briefly under Xiang Yu before defecting to Liu Bang, who recognized his genius and made him supreme military commander."
+        },
+        {
+          "label": "Strategic Brilliance",
+          "text": "Han Xin conquered multiple rival kingdoms for Liu Bang using innovative tactics, including a famous river-crossing ambush. His campaigns systematically isolated Xiang Yu from his allies."
+        },
+        {
+          "label": "Tragic End",
+          "text": "After the Han dynasty was established, Liu Bang grew suspicious of Han Xin's power. He was eventually arrested on conspiracy charges and executed — the greatest general who built the Han, killed by the emperor he had made."
         }
       ]
     },
@@ -578,31 +874,6 @@
       ]
     },
     {
-      "id": "evt-qin-great-wall",
-      "label": "Great Wall Construction",
-      "year": -221,
-      "endYear": -210,
-      "description": "General Meng Tian connected and extended the existing northern walls of the former kingdoms into a continuous barrier stretching roughly 5,000 km. The project conscripted 300,000 soldiers and unknown numbers of laborers; the death tolls were staggering.",
-      "wikiSlug": "Great_Wall_of_China",
-      "tier": 1,
-      "tags": [],
-      "category": "architecture",
-      "details": [
-        {
-          "label": "Not Built From Scratch",
-          "text": "The Qin Wall was not built from nothing — Qin, Zhao, and Yan had all built walls against the Xiongnu nomads during the Warring States period. Meng Tian's achievement was connecting these disparate segments into a single continuous northern frontier system."
-        },
-        {
-          "label": "Human Cost",
-          "text": "Hundreds of thousands of conscript laborers worked in brutal conditions — extreme cold, exhaustion, disease, and the threat of nomad raids. Chinese legend says the wall is built on the bones of its workers; archaeologists have found burial sites nearby."
-        },
-        {
-          "label": "A Strategy, Not a Barrier",
-          "text": "The wall was a platform for military operations, a supply chain for frontier garrisons, and a signaling network. Beacon towers allowed news of Xiongnu incursions to reach the capital within hours. The strategy worked: the Xiongnu were kept at bay throughout Qin's reign."
-        }
-      ]
-    },
-    {
       "id": "evt-qin-legalist-law-code",
       "label": "Qin Uniform Legal Code",
       "year": -221,
@@ -706,6 +977,127 @@
       ]
     },
     {
+      "id": "evt-qin-axle-standardization",
+      "label": "Axle Width Standardization",
+      "year": -221,
+      "description": "Qin mandated a uniform axle width for all carts across the empire. Previously, vehicles from different kingdoms cut different-width ruts in unpaved roads, meaning carts from one region could not use roads rutted by traffic from another. Standardization dramatically reduced inter-regional travel time.",
+      "wikiSlug": "Qin_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "trade",
+      "details": [
+        {
+          "label": "The Problem",
+          "text": "Unpaved roads developed deep ruts from repeated traffic. Carts with different axle widths could not travel in ruts cut by carts from other regions, effectively creating separate road networks for each former kingdom."
+        },
+        {
+          "label": "The Solution",
+          "text": "A single standard axle width was imposed across the empire. Combined with the Chidao road network, this created a unified transportation system for the first time in Chinese history."
+        },
+        {
+          "label": "Commercial Impact",
+          "text": "Standardized axles, combined with standardized currency and weights, eliminated the friction that had made inter-state commerce expensive and unreliable during the Warring States era."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-crossbow-mass-production",
+      "label": "Qin Crossbow Mass Production",
+      "year": -221,
+      "description": "Qin manufactured crossbow triggers with interchangeable parts — a broken trigger mechanism could be replaced with any other trigger of the same type. This evidence of standardized mass production and quality control in weapon manufacturing would not be matched elsewhere for centuries.",
+      "wikiSlug": "Chinese_crossbow",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Interchangeable Parts",
+          "text": "Bronze crossbow triggers found with the Terracotta Army are standardized to such precision that parts from different triggers are interchangeable — evidence of industrial mass production with quality control over 2,000 years before the concept became common in the West."
+        },
+        {
+          "label": "Chrome Treatment",
+          "text": "Some bronze weapons found with the Terracotta Army show chromium surface treatment that prevented corrosion for over two millennia. Whether this was deliberate anti-rust technology or incidental contact with chromium-rich lacquer remains debated."
+        },
+        {
+          "label": "Military Advantage",
+          "text": "Standardized weapons meant Qin armies could repair equipment in the field by swapping parts rather than crafting individual replacements — a significant logistical advantage in sustained campaigns."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-commandery-county-system",
+      "label": "Commandery-County System",
+      "year": -221,
+      "description": "Li Si's administrative system divided the empire into 36 commanderies (later expanded to 40+), each subdivided into counties, all governed by appointed officials answerable to the central government. No one inherited anything. This bureaucratic framework became the structural backbone of Chinese governance for the next two millennia.",
+      "wikiSlug": "Commandery_(China)",
+      "tier": 2,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "The Debate",
+          "text": "Some ministers urged the traditional solution: distribute conquered territories to royal relatives as feudal lords. Li Si argued that feudal lords had caused the Warring States disaster, and recreating the system would restart the cycle."
+        },
+        {
+          "label": "The Structure",
+          "text": "Officials could be promoted, transferred, or dismissed at the emperor's pleasure. Nobody inherited anything. The bureaucracy ran on merit and obedience, not blood."
+        },
+        {
+          "label": "Enduring Impact",
+          "text": "When the Han replaced Qin, they initially experimented with a hybrid system. The experiment produced a major rebellion in 154 BCE. After that, the appointed-official model became permanent. The county system remains the basis of Chinese local government."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-five-phases-cosmology",
+      "label": "Five Phases State Cosmology",
+      "year": -221,
+      "description": "Qin adopted the Five Phases (wuxing) cosmological framework as official state ideology, identifying itself with the Water phase. This determined the dynasty's ritual color (black), auspicious number (six), calendar (tenth-month new year), and claim to have superseded the Zhou Fire phase in the cosmic cycle.",
+      "wikiSlug": "Wuxing_(Chinese_philosophy)",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Water Phase",
+          "text": "Under the Five Phases system, each dynasty embodied an elemental force. Qin claimed the Water phase, which superseded Zhou's Fire phase. Water was associated with severity, black, the number six, and the winter season."
+        },
+        {
+          "label": "Ritual Expression",
+          "text": "Officials wore black. Imperial ceremonies incorporated the number six. The Zhuanxu calendar started the year in the tenth month — all derived from the Water phase associations."
+        },
+        {
+          "label": "Legitimation",
+          "text": "The Five Phases theory provided cosmic legitimacy: Qin's rise was not merely military conquest but the natural cycle of the universe. Every subsequent dynasty adopted this framework, each claiming its own phase."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-great-wall",
+      "label": "Great Wall Construction",
+      "year": -221,
+      "endYear": -210,
+      "description": "General Meng Tian connected and extended the existing northern walls of the former kingdoms into a continuous barrier stretching roughly 5,000 km. The project conscripted 300,000 soldiers and unknown numbers of laborers; the death tolls were staggering.",
+      "wikiSlug": "Great_Wall_of_China",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Not Built From Scratch",
+          "text": "The Qin Wall was not built from nothing — Qin, Zhao, and Yan had all built walls against the Xiongnu nomads during the Warring States period. Meng Tian's achievement was connecting these disparate segments into a single continuous northern frontier system."
+        },
+        {
+          "label": "Human Cost",
+          "text": "Hundreds of thousands of conscript laborers worked in brutal conditions — extreme cold, exhaustion, disease, and the threat of nomad raids. Chinese legend says the wall is built on the bones of its workers; archaeologists have found burial sites nearby."
+        },
+        {
+          "label": "A Strategy, Not a Barrier",
+          "text": "The wall was a platform for military operations, a supply chain for frontier garrisons, and a signaling network. Beacon towers allowed news of Xiongnu incursions to reach the capital within hours. The strategy worked: the Xiongnu were kept at bay throughout Qin's reign."
+        }
+      ]
+    },
+    {
       "id": "evt-qin-inspection-tours",
       "label": "Imperial Inspection Tours",
       "year": -220,
@@ -785,6 +1177,78 @@
       ]
     },
     {
+      "id": "evt-qin-stele-inscriptions",
+      "label": "Imperial Stele Inscriptions",
+      "year": -219,
+      "description": "Li Si composed formal inscriptions for stone steles erected during the First Emperor's inspection tours at Mount Tai, Mount Langya, and Mount Jieshi. Written in the new standardized small seal script, they proclaimed the emperor's achievements in deliberately intimidating prose.",
+      "wikiSlug": "Mount_Tai",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "Style",
+          "text": "The stele inscriptions were written in four-character verse so formal it was almost incomprehensible to common readers — deliberately intimidating rather than informative. They proclaimed the emperor's unification, his virtue, and the end of the Warring States chaos."
+        },
+        {
+          "label": "Calligraphic Significance",
+          "text": "As the first major public texts written in the new small seal script, the steles served as models for the standardized writing system across the empire."
+        },
+        {
+          "label": "Survival",
+          "text": "Most original steles have been lost or eroded, but their texts were preserved in Sima Qian's Shiji, providing firsthand examples of Qin imperial rhetoric."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-mount-tai-sacrifice",
+      "label": "Feng and Shan Sacrifices on Mount Tai",
+      "year": -219,
+      "description": "Qin Shi Huang performed the feng and shan sacrifices on Mount Tai, the most sacred of China's Five Great Mountains. These rituals were reserved for rulers Heaven deemed supremely accomplished. Confucian scholars questioned his worthiness; he dismissed them and performed the rites anyway.",
+      "wikiSlug": "Feng_and_shan_sacrifices",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "Significance",
+          "text": "The feng and shan sacrifices on Mount Tai were the most prestigious rituals in Chinese political culture, performed by only a handful of emperors across all of Chinese history. Performing them was a claim of supreme legitimacy."
+        },
+        {
+          "label": "Controversy",
+          "text": "Confucian scholars at court argued that the First Emperor had not earned the right to perform these rites. He overrode their objections and conducted the ceremonies according to his own interpretation."
+        },
+        {
+          "label": "Precedent",
+          "text": "The feng and shan sacrifices became a recurring benchmark of imperial ambition. Later emperors who performed them — notably Emperor Wu of Han — were explicitly following the First Emperor's precedent."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-xu-fu-expedition",
+      "label": "Xu Fu's Maritime Expeditions",
+      "year": -219,
+      "description": "The court alchemist Xu Fu sailed east with a fleet of 3,000 young men and women to find the mythical Penglai islands and the elixir of immortality. He returned once claiming sea monsters blocked passage, obtained funding for a second expedition, sailed again, and never came back.",
+      "wikiSlug": "Xu_Fu",
+      "tier": 3,
+      "tags": [],
+      "category": "religion",
+      "details": [
+        {
+          "label": "The First Expedition",
+          "text": "Xu Fu sailed east searching for the mythical Penglai islands where immortals were said to possess the elixir of eternal life. He returned with a story about giant sea creatures blocking his passage and convinced the emperor to fund a larger second expedition."
+        },
+        {
+          "label": "The Second Expedition",
+          "text": "Xu Fu sailed again with 3,000 young men and women and never returned. Some scholars speculate he settled somewhere and decided that returning empty-handed to the First Emperor would be fatal."
+        },
+        {
+          "label": "Japanese Legend",
+          "text": "Later Japanese legends identified Xu Fu (under the reading Jofuku) as the founder of an early settlement in Japan. Multiple Japanese cities have shrines to him. The claim cannot be verified but has persisted for two millennia."
+        }
+      ]
+    },
+    {
       "id": "evt-qin-ling-canal",
       "label": "Ling Canal",
       "year": -219,
@@ -810,6 +1274,54 @@
       ],
       "aliases": [
         "Lingqu"
+      ]
+    },
+    {
+      "id": "evt-qin-shuihudi-bamboo-texts",
+      "label": "Shuihudi Bamboo Texts",
+      "year": -217,
+      "description": "Bamboo strips bearing the Qin legal code, administrative procedures, and official forms, discovered in 1975 in a tomb at Shuihudi in Hubei province. The tomb belonged to a county magistrate named Xi, whose working library revealed a Qin bureaucracy of surprising nuance and meticulous organization.",
+      "wikiSlug": "Shuihudi_Qin_bamboo_texts",
+      "tier": 2,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "The Discovery",
+          "text": "The Shuihudi texts, found in 1975, are the closest thing we have to a Qin bureaucrat's desk drawer: legal codes, standardized forms, investigation procedures, agricultural management guidelines, and regulations on road widths and grain storage."
+        },
+        {
+          "label": "Forensic Procedures",
+          "text": "The texts include instructions for investigating suspicious deaths: inspect the body, measure wounds, interview witnesses, document everything. The level of procedural detail shows a legal system far more organized than the simple 'brutal tyranny' portrait."
+        },
+        {
+          "label": "Reassessment",
+          "text": "The Shuihudi discovery challenged the simplistic view of the Qin as pure tyranny. The system was harsh, but it was also comprehensively and meticulously organized — written law applied by trained officials with documented procedures."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-baiyue-campaigns",
+      "label": "Southern Campaigns Against the Baiyue",
+      "year": -214,
+      "description": "Qin launched major military campaigns to conquer the Baiyue peoples of southern China and northern Vietnam. The campaigns required the construction of the Lingqu Canal to supply armies through subtropical jungle terrain. The conquests opened the far south to Chinese settlement for centuries to come.",
+      "wikiSlug": "Qin%27s_campaigns_against_the_Yue_tribes",
+      "tier": 3,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Challenge",
+          "text": "The Baiyue peoples inhabited mountainous, jungled terrain in what is now Guangdong, Guangxi, and northern Vietnam. They resisted fiercely. The first Qin invasion suffered severe casualties from guerrilla warfare and tropical disease."
+        },
+        {
+          "label": "The Lingqu Solution",
+          "text": "The critical logistical obstacle was the watershed divide between north-flowing and south-flowing rivers. The Lingqu Canal linked the two systems, allowing supplies to move by boat from central China to the far south."
+        },
+        {
+          "label": "Long-Term Impact",
+          "text": "The Baiyue conquests opened southern China to Chinese colonization. Over the following centuries, millions of Chinese settlers moved south, gradually transforming the demographics and culture of the region."
+        }
       ]
     },
     {
@@ -857,6 +1369,54 @@
         {
           "label": "The Price",
           "text": "The execution of 460 scholars destroyed an irreplaceable concentration of learning. Fusu's protest — calling the action excessive — was principled and brave. His exile removed the most capable and humane heir, setting the stage for the succession crisis that destroyed the dynasty."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-epang-palace",
+      "label": "Epang Palace",
+      "year": -212,
+      "description": "The First Emperor ordered construction of the massive Epang Palace near Xianyang, intended to be the grandest structure in the empire. The front hall alone was designed to seat 10,000 people. Construction was never completed — halted by the emperor's death and the dynasty's collapse.",
+      "wikiSlug": "Epang_Palace",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Ambition",
+          "text": "The Epang Palace was planned as the ceremonial heart of the empire. Ancient sources describe the front hall as 500 paces from east to west and 50 feet high, with space for 10,000 people. It would have been the largest wooden structure in the ancient world."
+        },
+        {
+          "label": "Never Completed",
+          "text": "Construction began around 212 BCE but was abandoned after the First Emperor's death. The labor demands of the palace, the mausoleum, the Great Wall, and the road network simultaneously pushed Qin's population to the breaking point."
+        },
+        {
+          "label": "Archaeological Debate",
+          "text": "Modern archaeology has found the rammed-earth foundation platform but little evidence of the superstructure. The traditional claim that Xiang Yu burned the Epang Palace may be exaggerated — it may never have been completed enough to burn."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-straight-road",
+      "label": "Straight Road (Zhidao)",
+      "year": -212,
+      "description": "A military highway of over 700 kilometers built by Meng Tian from Xianyang northward to the frontier garrison at Jiuyuan. Cut through mountains and filled across valleys, the Straight Road enabled rapid troop deployment against Xiongnu raiders along the northern frontier.",
+      "wikiSlug": "Straight_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Purpose",
+          "text": "While the Chidao road network served general administration and commerce, the Straight Road was a dedicated military artery pointing at a specific threat — the Xiongnu confederation to the north."
+        },
+        {
+          "label": "Engineering",
+          "text": "The road cut through mountains and bridged valleys for over 700 km (about 435 miles), requiring massive earthmoving. Sections were wide enough for supply wagons and cavalry columns to move simultaneously."
+        },
+        {
+          "label": "Strategic Impact",
+          "text": "The Straight Road could deliver reinforcements from the capital to the northern frontier in days rather than weeks, transforming the logistics of frontier defense."
         }
       ]
     },
@@ -937,6 +1497,54 @@
       ]
     },
     {
+      "id": "evt-qin-mercury-tomb-technology",
+      "label": "Mercury Rivers in the Imperial Tomb",
+      "year": -210,
+      "description": "Sima Qian described the interior of the First Emperor's tomb as containing rivers and seas of liquid mercury representing China's waterways. Soil testing in the 1980s confirmed mercury concentrations dozens of times above background levels, in a pattern matching the Yellow and Yangtze Rivers.",
+      "wikiSlug": "Mausoleum_of_the_First_Qin_Emperor",
+      "tier": 3,
+      "tags": [],
+      "category": "science",
+      "details": [
+        {
+          "label": "Ancient Description",
+          "text": "Sima Qian described a ceiling inlaid with astronomical maps, rivers of liquid mercury, mechanical crossbow traps, and the buried bodies of those who knew the tomb's secrets."
+        },
+        {
+          "label": "Scientific Confirmation",
+          "text": "Mercury concentration measurements taken around the burial mound in the 1980s showed levels dozens of times higher than normal, distributed in a pattern consistent with China's major river systems. The mercury rivers are almost certainly real."
+        },
+        {
+          "label": "Implications",
+          "text": "The technical capacity to create flowing mercury channels on a large scale — and maintain them for display purposes — demonstrates engineering sophistication that complements the evidence from the Terracotta Army's standardized weapons."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-meng-jiangnü",
+      "label": "Legend of Meng Jiangnü",
+      "year": -210,
+      "description": "The folk tale of a woman whose tears collapsed a section of the Great Wall when she wept over her husband's death in its construction. The legend became one of the most popular stories in Chinese culture, a permanent indictment of the human cost of the First Emperor's ambitions.",
+      "wikiSlug": "Meng_Jiangnü",
+      "tier": 3,
+      "tags": [],
+      "category": "writing",
+      "details": [
+        {
+          "label": "The Story",
+          "text": "Meng Jiangnü's husband was conscripted to build the Great Wall and died from exhaustion. She traveled to the Wall to find him, and her grief was so powerful that a section of the Wall collapsed, revealing his bones."
+        },
+        {
+          "label": "Cultural Significance",
+          "text": "The legend became one of China's four great folktales, retold in opera, literature, and film for over two millennia. It is the most enduring popular critique of the Qin dynasty's brutal labor demands."
+        },
+        {
+          "label": "Historical Context",
+          "text": "The story captures the real human cost of the Great Wall's construction. Hundreds of thousands of conscript laborers worked in extreme conditions, and the death toll was staggering. The legend gave that suffering a human face."
+        }
+      ]
+    },
+    {
       "id": "evt-qin-chen-sheng-wu-guang",
       "label": "Chen Sheng–Wu Guang Uprising",
       "year": -209,
@@ -989,6 +1597,30 @@
       ]
     },
     {
+      "id": "evt-qin-ziying-last-ruler",
+      "label": "Ziying, Last Ruler of Qin",
+      "year": -207,
+      "description": "The third and final Qin ruler reigned for just 46 days. Ziying killed the eunuch Zhao Gao by feigning illness and luring him to a private meeting, then surrendered peacefully to Liu Bang. Weeks later, Xiang Yu arrived, executed Ziying, and burned the palaces.",
+      "wikiSlug": "Ziying",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Killing Zhao Gao",
+          "text": "Ziying accomplished what no other figure at court had managed: he eliminated the man who had destroyed the dynasty from within, executing Zhao Gao and his entire family within days of taking the throne."
+        },
+        {
+          "label": "Surrender",
+          "text": "When Liu Bang's army arrived at Xianyang, Ziying surrendered with a white silk cord around his neck — the traditional gesture of submission. Liu Bang spared his life."
+        },
+        {
+          "label": "Execution",
+          "text": "Xiang Yu, arriving weeks later with a much larger force, reversed Liu Bang's clemency and executed Ziying. The Qin dynasty ended."
+        }
+      ]
+    },
+    {
       "id": "evt-qin-fall-xianyang",
       "label": "Fall of Xianyang and End of Qin",
       "year": -206,
@@ -1013,6 +1645,104 @@
       ],
       "aliases": [
         "fall of Xianyang"
+      ]
+    },
+    {
+      "id": "evt-qin-chu-han-contention",
+      "label": "Chu-Han Contention",
+      "year": -206,
+      "endYear": -202,
+      "description": "The four-year civil war between Xiang Yu's Western Chu and Liu Bang's Han that followed the Qin dynasty's collapse. Xiang Yu won every major battle but lost the war; Liu Bang's political skill, patience, and willingness to delegate proved decisive.",
+      "wikiSlug": "Chu–Han_Contention",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Division",
+          "text": "After Qin fell, Xiang Yu divided China among 18 kings, giving himself the title Hegemon-King of Western Chu and relegating Liu Bang to a remote western territory — a deliberate insult."
+        },
+        {
+          "label": "Contrasting Styles",
+          "text": "Xiang Yu was the greater warrior but a poor politician. Liu Bang was a mediocre soldier but a supreme political operator who kept generals loyal, treated populations leniently, and retreated when outmatched."
+        },
+        {
+          "label": "Outcome",
+          "text": "The Contention ended at the Battle of Gaixia in 202 BCE. Liu Bang founded the Han dynasty, explicitly inheriting every Qin institutional structure while abandoning Qin's harshest policies."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-battle-gaixia",
+      "label": "Battle of Gaixia",
+      "year": -202,
+      "description": "The final battle of the Chu-Han Contention. Surrounded at Gaixia, Xiang Yu heard his own soldiers singing Chu folk songs from the Han camps and knew his cause was lost. He escaped with 800 cavalry, was cornered at the Wujiang River, refused to cross, and committed suicide.",
+      "wikiSlug": "Battle_of_Gaixia",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "details": [
+        {
+          "label": "The Songs of Chu",
+          "text": "The Chinese idiom 'the songs of Chu on all sides' comes from this moment. When Xiang Yu heard Chu folk songs from the Han camps, he concluded his homeland had already surrendered. His army disintegrated overnight."
+        },
+        {
+          "label": "Xiang Yu's Last Stand",
+          "text": "Escaping with 800 cavalry, Xiang Yu was cornered at the Wujiang River. A boatman offered to ferry him to safety. He refused: 'Heaven has abandoned me. Even if the fathers of Jiangdong took pity on me, I could not face them.' He fought on foot, killing dozens, then committed suicide."
+        },
+        {
+          "label": "Legacy",
+          "text": "The scene became one of the most celebrated moments in Chinese literary and operatic tradition: the warrior who won every battle and lost the war. Liu Bang wept at the news and buried Xiang Yu with the honors of a king."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-sima-qian",
+      "label": "Sima Qian",
+      "year": -145,
+      "endYear": -86,
+      "description": "China's first great historian, whose Records of the Grand Historian (Shiji) is the primary ancient source for Qin dynasty history. Writing a century after the Qin's fall, Sima Qian compiled the accounts of the First Emperor, the Terracotta Army, and the mercury rivers that define our understanding of the dynasty.",
+      "wikiSlug": "Sima_Qian",
+      "tier": 2,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "The Shiji",
+          "text": "Sima Qian's Records of the Grand Historian covered Chinese history from the Yellow Emperor through the early Han. His detailed biographies of Qin figures — the First Emperor, Li Si, Xiang Yu, Jing Ke — remain the foundation of Qin historiography."
+        },
+        {
+          "label": "Personal Cost",
+          "text": "Sima Qian was castrated by Emperor Wu of Han for defending a disgraced general. He chose survival and castration over death because his history was unfinished — completing the Shiji was more important than dignity."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Shiji established the template for all subsequent Chinese dynastic histories. Almost everything we know about the Qin dynasty comes through Sima Qian's lens."
+        }
+      ]
+    },
+    {
+      "id": "evt-qin-yang-zhifa",
+      "label": "Yang Zhifa and the 1974 Discovery",
+      "year": 1974,
+      "description": "In March 1974, farmer Yang Zhifa and his companions hit terracotta fragments while digging a well near Xi'an. The discovery led to one of the greatest archaeological finds in history — the Terracotta Army of the First Emperor. Yang Zhifa eventually became a minor celebrity signing books at the museum gift shop.",
+      "wikiSlug": "Terracotta_Army",
+      "tier": 3,
+      "tags": [],
+      "category": "people",
+      "details": [
+        {
+          "label": "The Discovery",
+          "text": "Farmers digging a well about five feet down hit something hard and pulled up fired clay fragments unnervingly shaped like human body parts. Local authorities and then archaeologists were notified."
+        },
+        {
+          "label": "What They Found",
+          "text": "The subsequent excavation revealed over 8,000 life-sized clay soldiers with individualized faces, horses, chariots, and real bronze weapons — an entire buried army standing in underground formation."
+        },
+        {
+          "label": "Yang Zhifa",
+          "text": "The farmer who made the initial discovery was not given significant compensation for decades. He eventually became a minor celebrity at the museum, signing books at the gift shop for visitors."
+        }
       ]
     }
   ],
