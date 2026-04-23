@@ -139,7 +139,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
                 <div className="civ-row-chain text-[11px] font-bold uppercase tracking-[0.12em]">
                   {chainLabel}
                   {chainPosition && (
-                    <span className="civ-row-chain-pos ml-1.5 font-normal">{chainPosition}</span>
+                    <span className="civ-row-chain-pos ml-1.5">{chainPosition}</span>
                   )}
                 </div>
 
