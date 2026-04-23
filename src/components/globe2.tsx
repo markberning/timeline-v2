@@ -936,61 +936,65 @@ export default function Globe2() {
 
       {/* ── Drawer / sidebar ──────────────────────────────── */}
       <div className={`${styles.drawer} ${drawerOpen ? styles.open : ''}`}>
-        <div className={styles.drawerHeader}>
-          <span className={`${styles.drawerTitle} font-[family-name:var(--font-geist-sans)]`}>
-            All Civilizations
-          </span>
-          <button
-            className={styles.drawerClose}
-            onClick={() => setDrawerOpen(false)}
-            aria-label="Close drawer"
-          >
-            &times;
-          </button>
-        </div>
-        <input
-          className={`${styles.drawerSearch} font-[family-name:var(--font-geist-sans)]`}
-          type="text"
-          placeholder="Search civilizations..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          autoFocus={drawerOpen}
-        />
-        {filteredGroups.map((group) => (
-          <div key={group.id} className={styles.drawerGroup}>
-            <div
-              className={`${styles.drawerGroupLabel} font-[family-name:var(--font-geist-sans)]`}
-              style={{ color: group.color }}
+        <div className={styles.drawerSticky}>
+          <div className={styles.drawerHeader}>
+            <span className={`${styles.drawerTitle} font-[family-name:var(--font-geist-sans)]`}>
+              All Civilizations
+            </span>
+            <button
+              className={styles.drawerClose}
+              onClick={() => setDrawerOpen(false)}
+              aria-label="Close drawer"
             >
-              {group.label} <span style={{ opacity: 0.6, fontWeight: 400 }}>({group.ids.length})</span>
-            </div>
-            {group.ids.map((id) => {
-              const civ = GLOBE2_CIVS.find((c) => c.id === id)
-              if (!civ) return null
-              const isActive = civ.start <= year && civ.end >= year
-              return (
-                <div
-                  key={id}
-                  className={`${styles.drawerItem} ${
-                    selectedId === id ? styles.active : ''
-                  }`}
-                  style={{
-                    opacity: isActive ? 1 : 0.4,
-                    ...(selectedId === id ? { background: group.color } : {}),
-                  }}
-                  onClick={() => selectCiv(id)}
-                >
-                  <span>{civ.name}</span>
-                  <span
-                    className={`${styles.itemDates} font-[family-name:var(--font-geist-mono)]`}
-                  >
-                    {formatYear(civ.start)}
-                  </span>
-                </div>
-              )
-            })}
+              &times;
+            </button>
           </div>
-        ))}
+          <input
+            className={`${styles.drawerSearch} font-[family-name:var(--font-geist-sans)]`}
+            type="text"
+            placeholder="Search civilizations..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            autoFocus={drawerOpen}
+          />
+        </div>
+        <div className={styles.drawerBody}>
+          {filteredGroups.map((group) => (
+            <div key={group.id} className={styles.drawerGroup}>
+              <div
+                className={`${styles.drawerGroupLabel} font-[family-name:var(--font-geist-sans)]`}
+                style={{ color: group.color }}
+              >
+                {group.label} <span style={{ opacity: 0.6, fontWeight: 400 }}>({group.ids.length})</span>
+              </div>
+              {group.ids.map((id) => {
+                const civ = GLOBE2_CIVS.find((c) => c.id === id)
+                if (!civ) return null
+                const isActive = civ.start <= year && civ.end >= year
+                return (
+                  <div
+                    key={id}
+                    className={`${styles.drawerItem} ${
+                      selectedId === id ? styles.active : ''
+                    }`}
+                    style={{
+                      opacity: isActive ? 1 : 0.4,
+                      ...(selectedId === id ? { background: group.color } : {}),
+                    }}
+                    onClick={() => selectCiv(id)}
+                  >
+                    <span>{civ.name}</span>
+                    <span
+                      className={`${styles.itemDates} font-[family-name:var(--font-geist-mono)]`}
+                    >
+                      {formatYear(civ.start)}
+                    </span>
+                  </div>
+                )
+              })}
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* ── Zoom controls ─────────────────────────────────── */}
