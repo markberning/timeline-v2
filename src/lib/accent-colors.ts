@@ -36,10 +36,10 @@ const CHAIN_COLORS: Record<string, AccentColors> = {
   'anatolian-succession':    { base: '#ea580c', text: '#9a3412', badge: '#c2410c' },
   'persian-tradition':       { base: '#f97316', text: '#7c2d12', badge: '#ea580c' },
 
-  // Africa (ochre / yellow family)
-  'nile-valley':             { base: '#a67c00', text: '#713f12', badge: '#8b6508' },
-  'nubian-tradition':        { base: '#b8860b', text: '#713f12', badge: '#8b6914' },
-  'west-african-empires':    { base: '#ca8a04', text: '#422006', badge: '#713f12' },
+  // Africa (rust red family)
+  'nile-valley':             { base: '#b44d3b', text: '#7c2d12', badge: '#a3392a' },
+  'nubian-tradition':        { base: '#c4533f', text: '#7c2d12', badge: '#b44030' },
+  'west-african-empires':    { base: '#a64232', text: '#7c2d12', badge: '#943828' },
 
   // Asia (violet / purple family)
   'chinese-dynasties':       { base: '#a855f7', text: '#6b21a8', badge: '#9333ea' },

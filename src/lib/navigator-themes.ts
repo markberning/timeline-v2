@@ -62,7 +62,7 @@ export const STONE_THEME: NavigatorTheme = {
   rowBorder: 'transparent',
   regionColors: {
     'near-east': '#c2602e',
-    'africa': '#b07e26',
+    'africa': '#a04838',
     'asia': '#8270a8',
     'europe': '#4a76a3',
     'americas': '#549162',
