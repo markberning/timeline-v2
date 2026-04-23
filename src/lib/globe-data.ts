@@ -14,8 +14,39 @@ export interface GlobeCiv {
   geometry: { type: 'Polygon'; coordinates: number[][][] }
 }
 
+// Catmull-Rom spline interpolation for smooth polygon boundaries.
+// Takes angular control points and generates smooth curves between them.
+// segsPerEdge=4 with 10 control points → 40 smooth vertices.
+function smooth(coords: [number, number][], segsPerEdge = 4): [number, number][] {
+  const n = coords.length
+  const out: [number, number][] = []
+  for (let i = 0; i < n; i++) {
+    const p0 = coords[(i - 1 + n) % n]
+    const p1 = coords[i]
+    const p2 = coords[(i + 1) % n]
+    const p3 = coords[(i + 2) % n]
+    for (let s = 0; s < segsPerEdge; s++) {
+      const t = s / segsPerEdge
+      const t2 = t * t
+      const t3 = t2 * t
+      out.push([
+        0.5 * ((-p0[0] + 3 * p1[0] - 3 * p2[0] + p3[0]) * t3
+             + (2 * p0[0] - 5 * p1[0] + 4 * p2[0] - p3[0]) * t2
+             + (-p0[0] + p2[0]) * t
+             + 2 * p1[0]),
+        0.5 * ((-p0[1] + 3 * p1[1] - 3 * p2[1] + p3[1]) * t3
+             + (2 * p0[1] - 5 * p1[1] + 4 * p2[1] - p3[1]) * t2
+             + (-p0[1] + p2[1]) * t
+             + 2 * p1[1]),
+      ])
+    }
+  }
+  return out
+}
+
 function poly(coords: [number, number][]): { type: 'Polygon'; coordinates: number[][][] } {
-  return { type: 'Polygon', coordinates: [[...coords, coords[0]]] }
+  const s = smooth(coords)
+  return { type: 'Polygon', coordinates: [[...s, s[0]]] }
 }
 
 function centroidOf(coords: [number, number][]): [number, number] {
@@ -27,151 +58,174 @@ function centroidOf(coords: [number, number][]): [number, number] {
 }
 
 // Approximate historical territorial extents — [longitude, latitude] pairs.
-// Overlapping civs (e.g. China sequence) have distinct boundaries reflecting
-// each period's actual territory, so they shift as you nudge the globe.
+// More control points on larger territories and complex coastlines; the
+// Catmull-Rom spline fills in smooth curves between them.
 const TERRITORIES: Record<string, [number, number][]> = {
   // ── Near East ──
 
-  // Mesopotamia: Tigris-Euphrates valley, southern Iraq to upper Syria
+  // Mesopotamia: Persian Gulf marshes → Euphrates → upper Tigris → Zagros edge
   'mesopotamia': [
-    [42, 29.5], [42, 33], [43, 35.5], [44.5, 37], [47, 36],
-    [48.5, 34], [48.5, 31], [47, 29], [44, 28.5],
+    [44, 29], [42.5, 29.5], [42, 31], [42, 33], [42.5, 34.5],
+    [43.5, 35.5], [44.5, 37], [46, 36.5], [47.5, 36], [48.5, 34.5],
+    [48.5, 32.5], [48, 31], [47.5, 29.5], [46, 28.5],
   ],
 
-  // Elam: southwestern Iran (Khuzestan + highlands toward Fars)
+  // Elam: Khuzestan lowland → Zagros highlands → Fars
   'elamite-civilization': [
-    [48, 29], [48, 32.5], [50, 34.5], [53, 34.5], [55, 32],
-    [54, 29], [51, 28],
+    [48.5, 28.5], [48, 30], [48, 32], [49, 33.5], [50.5, 34.5],
+    [52.5, 34.5], [54.5, 33], [55, 31], [54, 29.5], [52, 28.5],
+    [50, 28],
   ],
 
-  // Assyrian Empire: upper Tigris, NE Syria, SE Turkey
+  // Assyrian Empire: upper Tigris heartland → NE Syria → SE Turkey
   'assyrian-empire': [
-    [38, 34], [38, 37], [40, 38], [43.5, 38], [46.5, 37],
-    [47, 35], [44.5, 33.5], [40.5, 33],
+    [38.5, 33.5], [38, 35], [38, 36.5], [39.5, 37.5], [41.5, 38],
+    [43.5, 38], [45.5, 37.5], [47, 36], [47, 34.5], [45.5, 33.5],
+    [43, 33], [40.5, 33],
   ],
 
-  // Hittite Empire: central Anatolia heartland
+  // Hittite Empire: central Anatolian plateau
   'hittite-empire': [
-    [29, 36.5], [28.5, 39.5], [30.5, 41], [34.5, 41.5], [37.5, 40],
-    [38, 38], [36, 37], [32, 36],
+    [29.5, 36], [28.5, 37.5], [28.5, 39], [29.5, 40.5], [31.5, 41],
+    [34, 41.5], [36.5, 41], [38, 40], [38, 38.5], [37, 37.5],
+    [35, 36.5], [32.5, 36],
   ],
 
-  // Persian Empire: Iran proper — Cyrus to Sassanids
+  // Persian Empire: Zagros → Caspian coast → Kopet Dag → Baluchistan → Gulf
   'persian-empire': [
-    [44, 26], [43, 31], [44, 36], [48, 38], [56, 38],
-    [63, 36], [66, 32], [63, 26], [56, 24], [48, 25],
+    [44, 26.5], [43.5, 29], [43, 32], [44, 35], [46, 37],
+    [48.5, 38], [51, 38.5], [54, 38], [57, 37.5], [60, 37],
+    [63, 35.5], [65.5, 33], [65.5, 30], [64, 27.5], [61, 26],
+    [57, 25], [53, 24.5], [49, 25], [46, 25.5],
   ],
 
   // ── Africa ──
 
-  // Ancient Nubia: upper Nile, northern Sudan
+  // Ancient Nubia: 1st Cataract → 4th Cataract, Nile corridor
   'ancient-nubia': [
-    [30.5, 18], [30, 21.5], [31.5, 24], [34, 23], [35, 20.5],
-    [34, 17.5], [32, 16.5],
+    [31, 16.5], [30, 18], [30, 20], [30.5, 22], [31.5, 23.5],
+    [33, 23.5], [34.5, 22], [35, 20], [34.5, 18], [33.5, 17],
   ],
 
-  // Early Dynastic Egypt: Nile Delta + narrow valley to First Cataract
+  // Early Dynastic Egypt: Delta triangle → narrow Nile valley to Aswan
   'early-dynastic-egypt': [
-    [29.5, 24], [29.5, 28], [30, 31], [31.5, 31.5], [33, 30],
-    [33, 26.5], [32, 24], [30.5, 23],
+    [30.5, 23.5], [29.5, 25], [29.5, 27], [30, 29], [30, 30.5],
+    [31, 31.5], [32, 31.5], [32.5, 30.5], [33, 28.5], [33, 26.5],
+    [32.5, 25], [32, 24],
   ],
 
-  // Old Kingdom Egypt: pyramid heartland, slightly wider
+  // Old Kingdom Egypt: pyramid heartland, slightly wider oasis influence
   'old-kingdom-egypt': [
-    [29, 24.5], [29, 28.5], [29.5, 31], [32, 31.5], [34, 30],
-    [34, 27], [33, 24], [30.5, 23.5],
+    [30.5, 23.5], [29, 25.5], [29, 27.5], [29.5, 29.5], [30, 31],
+    [31.5, 31.5], [33, 31], [34, 29.5], [34, 27.5], [33.5, 25.5],
+    [33, 24], [31.5, 23.5],
   ],
 
-  // New Kingdom Egypt: imperial extent — deeper into Nubia + Sinai
+  // New Kingdom Egypt: south into Nubia + Sinai + coastal Canaan
   'new-kingdom-egypt': [
-    [28, 21], [28, 27.5], [29.5, 31.5], [32, 32], [35, 30.5],
-    [36, 27.5], [35, 23.5], [33.5, 20.5], [30.5, 19],
+    [30.5, 19.5], [28.5, 22], [28, 25], [28, 27.5], [29.5, 30],
+    [30, 31.5], [31.5, 32], [33, 31.5], [35, 30.5], [36, 28.5],
+    [36, 26], [35.5, 23.5], [34.5, 21.5], [33, 20],
   ],
 
-  // Kingdom of Kush: Napata + Meroe, deeper into Sudan
+  // Kingdom of Kush: Napata/Meroe region, central Sudan
   'kingdom-of-kush': [
-    [30, 13], [29.5, 17.5], [31, 21.5], [33.5, 22.5], [36.5, 20.5],
-    [37, 16], [35, 13], [32, 12],
+    [31.5, 12.5], [30, 14], [29.5, 16], [29.5, 18], [30.5, 20],
+    [31.5, 21.5], [33, 22.5], [35, 22], [36.5, 20.5], [37, 18],
+    [36.5, 15.5], [35, 13.5], [33.5, 12.5],
   ],
 
   // ── South Asia ──
 
-  // Indus Valley: Indus basin — Harappa/Mohenjo-daro + Gujarat
+  // Indus Valley: delta → Punjab → Rajasthan edge → Gujarat coast
   'indus-valley': [
-    [66, 23.5], [66, 28], [68, 31], [71, 32], [74, 29.5],
-    [75, 26], [73, 22], [69.5, 21],
+    [66.5, 22], [66, 24.5], [66, 27], [67, 29.5], [68.5, 31],
+    [70.5, 32], [72.5, 31], [74, 29.5], [75, 27], [74.5, 24.5],
+    [73, 22], [70.5, 21], [68, 21],
   ],
 
-  // Vedic Period: Indo-Gangetic plain, east of Indus into Bihar
+  // Vedic Period: Saraswati/Punjab → Ganges-Yamuna Doab → Bihar
   'vedic-period': [
-    [73, 23], [73, 29], [76, 31.5], [81, 30], [86, 27],
-    [87, 24], [84, 21.5], [78, 21],
+    [73.5, 22], [73, 25], [73, 27.5], [74.5, 29.5], [76.5, 31],
+    [79, 30.5], [82, 29.5], [85, 28], [87, 26], [87, 24],
+    [85, 22.5], [82, 21.5], [78.5, 21],
   ],
 
-  // Maurya Empire: most of the Indian subcontinent
+  // Maurya Empire: Hindu Kush → Himalayas → Bengal → Deccan → Gujarat
   'maurya-empire': [
-    [66, 21], [66, 28.5], [70, 34], [77, 35], [84, 30],
-    [90, 25.5], [89, 18], [84, 11], [78, 8], [73, 10], [68, 16],
+    [66.5, 20], [66, 24], [66.5, 28], [68, 31], [70, 33.5],
+    [73, 35], [77, 34.5], [81, 32], [84, 30], [87.5, 27.5],
+    [90, 25], [89.5, 22], [89, 19], [87, 16], [84, 12.5],
+    [80, 9.5], [77, 8.5], [74, 9.5], [71, 12], [68, 16],
   ],
 
   // ── East Asia ──
 
-  // Ancient China: Yellow River core (Neolithic heartland)
+  // Ancient China: Yellow River core — Wei valley → North China Plain
   'ancient-china': [
-    [104, 33.5], [104, 38.5], [108, 41], [114, 40], [117, 37],
-    [115, 33.5], [110, 31.5],
+    [105, 32.5], [104, 35], [104, 37.5], [106, 39.5], [109, 40.5],
+    [112, 40.5], [115, 39.5], [117, 37.5], [116, 35.5], [114, 33.5],
+    [111, 32], [108, 31.5],
   ],
 
-  // Shang Dynasty: Yellow River corridor, slightly wider + south
+  // Shang Dynasty: central Yellow River — Anyang/Zhengzhou heartland
   'shang-dynasty': [
-    [107, 31.5], [106, 36.5], [109, 39.5], [114, 39], [118, 36],
-    [117, 32], [112, 30.5],
+    [107.5, 31], [106.5, 33.5], [106, 36], [108, 38.5], [110.5, 39.5],
+    [113.5, 39], [116, 38], [117.5, 36], [117.5, 33.5], [116, 31.5],
+    [113, 30.5], [110, 30.5],
   ],
 
-  // Zhou Dynasty: reaches the Yangtze, wider east-west
+  // Zhou Dynasty: wider — Yangtze included, from Shaanxi to the coast
   'zhou-dynasty': [
-    [104, 28], [102, 34], [104, 39.5], [109, 41], [117, 40],
-    [120, 36], [119, 30.5], [114, 27], [108, 27],
+    [104.5, 27.5], [103, 30.5], [102, 33.5], [103, 37], [105, 39.5],
+    [109, 41], [113.5, 41], [117, 40], [119.5, 38], [120, 35.5],
+    [119.5, 32.5], [118, 30], [115.5, 28], [111, 27], [107.5, 27],
   ],
 
-  // Qin Dynasty: unified China — large territory
+  // Qin Dynasty: unified China — Great Wall to Guangdong
   'qin-dynasty': [
-    [100, 23], [99, 31], [102, 37], [107, 41.5], [115, 42],
-    [121, 39], [122, 34], [121, 28], [117, 22], [109, 19.5], [103, 21],
+    [100.5, 23], [99.5, 27], [99.5, 31], [101, 35], [103.5, 38.5],
+    [107, 41], [111, 42], [115.5, 42], [119, 40.5], [121, 38],
+    [122, 35], [122, 32], [121.5, 29], [120, 26], [117.5, 23],
+    [113, 21], [109, 20], [105, 20.5], [102, 22],
   ],
 
-  // Ancient Korea: Korean peninsula
+  // Ancient Korea: peninsula from Yalu/Tumen to southern coast
   'ancient-korea': [
-    [125, 34], [124.5, 37], [125, 40], [127, 42.5], [129.5, 42.5],
-    [130, 38.5], [129, 35], [127, 33.5],
+    [125.5, 33.5], [124.5, 35.5], [124.5, 37.5], [125, 39.5],
+    [126, 41], [127.5, 42.5], [129, 42.5], [130, 41], [130, 39],
+    [129.5, 37], [129, 35.5], [128, 34], [126.5, 33.5],
   ],
 
   // ── Europe ──
 
-  // Minoan: island of Crete
+  // Minoan: Crete — west cape → north coast → east cape → south coast
   'minoan-civilization': [
-    [23.5, 34.8], [23.5, 35.5], [25, 35.8], [26.3, 35.4],
-    [26.3, 35], [25, 34.7], [24, 34.6],
+    [23.5, 35.3], [24, 35.6], [25, 35.7], [25.8, 35.5], [26.3, 35.3],
+    [26.3, 35], [25.5, 34.8], [24.8, 34.8], [24, 34.9], [23.5, 35],
   ],
 
-  // Mycenaean: Peloponnese + southern mainland Greece
+  // Mycenaean: Peloponnese → Attica → Boeotia → Thessaly
   'mycenaean-civilization': [
-    [21, 36.5], [20.5, 38.5], [21.5, 39.5], [24, 40],
-    [25, 38.5], [24.5, 37], [23, 36.5], [21.5, 36],
+    [21.5, 36.5], [21, 37.5], [21, 38.5], [21.5, 39.5], [22.5, 40],
+    [24, 40], [25, 39.5], [25, 38.5], [24, 37.5], [23, 37],
+    [22.5, 36.5],
   ],
 
   // ── Americas ──
 
-  // Early Andean: coastal Peru + highlands
+  // Early Andean: Peruvian coast + adjacent highlands
   'early-andean-civilizations': [
-    [-81, -6], [-79, -3], [-76, -5], [-72, -9], [-70, -14],
-    [-72, -18], [-76, -18.5], [-80, -14], [-81.5, -9],
+    [-81, -6], [-79.5, -4], [-78, -4.5], [-76, -6], [-74, -8],
+    [-72, -10.5], [-70, -13.5], [-70.5, -16], [-72, -18],
+    [-75, -18.5], [-78, -17], [-80, -14], [-81, -11], [-81.5, -8],
   ],
 
-  // Olmec: Gulf Coast Mexico (Veracruz / Tabasco)
+  // Olmec: Gulf Coast lowlands — Tres Zapotes to La Venta
   'olmec-civilization': [
-    [-97, 17], [-97.5, 19.5], [-96, 20], [-93.5, 19],
-    [-93, 17.5], [-94.5, 16.5],
+    [-97.5, 17], [-97.5, 18.5], [-97, 19.5], [-96, 19.5],
+    [-94.5, 19], [-93.5, 18.5], [-93, 17.5], [-94, 16.5],
+    [-95.5, 16.5],
   ],
 }
 

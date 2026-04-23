@@ -58,9 +58,9 @@ export default function GlobeView() {
       const globe = new (GlobeCtor as any)(containerRef.current)
         .backgroundColor('rgba(0,0,0,0)')
         .showAtmosphere(true)
-        .atmosphereColor('#555550')
-        .atmosphereAltitude(0.18)
-        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+        .atmosphereColor('#aaa8a0')
+        .atmosphereAltitude(0.15)
+        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
         .polygonsData(polygons)
         .polygonGeoJsonGeometry((d: any) => d.geometry)
         .polygonCapColor((d: any) => {
@@ -93,6 +93,10 @@ export default function GlobeView() {
         .height(window.innerHeight)
 
       globeRef.current = globe
+
+      // Boost lighting so the globe texture is clearly visible
+      const lights = globe.lights()
+      lights.forEach((l: any) => { l.intensity = l.intensity * 2.5 })
 
       // Camera controls — no auto-rotate, user drives
       const controls = globe.controls()
