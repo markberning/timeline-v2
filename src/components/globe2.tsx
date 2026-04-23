@@ -651,9 +651,24 @@ export default function Globe2() {
 
     function onWheel(e: WheelEvent) {
       e.preventDefault()
-      const delta = -e.deltaY * 0.001
-      scaleRef.current = Math.max(0.4, Math.min(6, scaleRef.current + delta))
-      projectionRef.current.scale(baseScaleRef.current * scaleRef.current)
+
+      // Horizontal swipe (deltaX) → rotate/pan the globe
+      if (Math.abs(e.deltaX) > 0) {
+        const scale = projectionRef.current.scale()
+        const k = 50 / scale
+        const [rLon, rLat] = rotationRef.current
+        rotationRef.current = [rLon + e.deltaX * k, rLat]
+        projectionRef.current.rotate([rotationRef.current[0], rotationRef.current[1], 0])
+      }
+
+      // Vertical swipe (deltaY) + pinch (ctrlKey) → zoom
+      if (Math.abs(e.deltaY) > 0) {
+        const factor = e.ctrlKey ? 0.01 : 0.001  // pinch is more sensitive
+        const delta = -e.deltaY * factor
+        scaleRef.current = Math.max(0.4, Math.min(6, scaleRef.current + delta))
+        projectionRef.current.scale(baseScaleRef.current * scaleRef.current)
+      }
+
       renderGlobe()
     }
 
