@@ -68,6 +68,17 @@
       "category": "rulers"
     },
     {
+      "id": "evt-dhana-nanda",
+      "label": "Dhana Nanda, Last Nanda King",
+      "year": -329,
+      "endYear": -322,
+      "description": "Dhana Nanda was the last ruler of the Nanda dynasty, whose heavy taxation and unpopularity created the conditions for Chandragupta's revolution. His massive army reportedly terrified Alexander's troops into mutiny.",
+      "wikiSlug": "Dhana_Nanda",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
       "id": "evt-chandragupta-founding",
       "label": "Chandragupta Founds Empire",
       "year": -322,
@@ -82,10 +93,20 @@
       "category": "rulers"
     },
     {
+      "id": "evt-chandragupta-northwest",
+      "label": "Chandragupta Conquers Northwest",
+      "year": -321,
+      "description": "Chandragupta swept through the Punjab and Indus valley, liberating or conquering the Greek garrisons that Alexander of Macedon had left behind after his retreat in 326 BCE.",
+      "wikiSlug": "Chandragupta_Maurya#Conquest_of_the_Nanda_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
       "id": "evt-defeat-seleucus",
       "label": "Defeat of Seleucus",
       "year": -305,
-      "description": "Chandragupta defeated Seleucus Nicator in the Seleucid–Mauryan war, gaining territories in Afghanistan and Balochistan through a peace treaty.",
+      "description": "Chandragupta defeated Seleucus Nicator in the Seleucid-Mauryan war, gaining territories in Afghanistan and Balochistan and sending 500 war elephants that reshaped the Hellenistic world.",
       "wikiSlug": "Seleucid%E2%80%93Mauryan_war",
       "tier": 2,
       "tags": [
@@ -94,10 +115,30 @@
       "category": "wars"
     },
     {
+      "id": "evt-seleucid-marriage-alliance",
+      "label": "Seleucid Marriage Alliance",
+      "year": -304,
+      "description": "The peace treaty between Chandragupta and Seleucus included a marriage alliance, probably a Seleucid princess married into the Maurya court, establishing sustained diplomatic contact between South Asia and the Mediterranean.",
+      "wikiSlug": "Seleucid%E2%80%93Mauryan_war#Treaty",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-battle-ipsus",
+      "label": "Maurya Elephants at Ipsus",
+      "year": -301,
+      "description": "The 500 war elephants Chandragupta gave Seleucus played a decisive role at the Battle of Ipsus, one of the key battles in the Wars of the Diadochi, reshaping the Hellenistic political map.",
+      "wikiSlug": "Battle_of_Ipsus",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
       "id": "evt-arthashastra",
       "label": "Arthashastra Composed",
       "year": -307.5,
-      "description": "Kautilya (Chanakya) composed the Arthashastra, an ancient Indian treatise on statecraft, economics, and military strategy that guided Maurya governance.",
+      "description": "Kautilya (Chanakya) composed the Arthashastra, an ancient Indian treatise on statecraft, economics, espionage, and military strategy — one of the most comprehensive works on power ever written.",
       "wikiSlug": "Arthashastra",
       "tier": 1,
       "tags": [],
@@ -107,7 +148,7 @@
       "id": "evt-chanakya",
       "label": "Chanakya, Royal Advisor",
       "year": -320,
-      "description": "The philosopher Chanakya served as chief advisor to Chandragupta, masterminding the empire's founding and shaping Indian political thought for centuries.",
+      "description": "The philosopher Chanakya served as chief advisor to Chandragupta, masterminding the empire's founding and shaping Indian political thought for centuries. His three names (Chanakya, Kautilya, Vishnugupta) reflect how multiple literary traditions claimed him.",
       "wikiSlug": "Chanakya",
       "tier": 1,
       "tags": [],
@@ -117,7 +158,7 @@
       "id": "evt-pataliputra-capital",
       "label": "Pataliputra as Capital",
       "year": -322,
-      "description": "Pataliputra became the grand Maurya capital, described by Megasthenes as one of the largest and most magnificent cities in the ancient world.",
+      "description": "Pataliputra became the grand Maurya capital, described by Megasthenes as roughly 9 miles long, surrounded by a timber palisade with 570 towers and 64 gates, and protected by a wide moat.",
       "wikiSlug": "Pataliputra",
       "tier": 2,
       "tags": [],
@@ -127,17 +168,27 @@
       "id": "evt-megasthenes",
       "label": "Megasthenes Visits India",
       "year": -302,
-      "description": "Greek ambassador Megasthenes visited Pataliputra and wrote the Indica, providing one of the earliest foreign accounts of Indian society and governance.",
+      "description": "Greek ambassador Megasthenes visited Pataliputra and wrote the Indica, providing one of the earliest foreign accounts of Indian society, describing the city's royal palace with gilded pillars and ornamental lakes.",
       "wikiSlug": "Megasthenes",
       "tier": 2,
       "tags": [],
       "category": "people"
     },
     {
+      "id": "evt-indica-megasthenes",
+      "label": "Indica by Megasthenes",
+      "year": -292.5,
+      "description": "Megasthenes' Indica described Maurya society in detail, surviving through quotations by Strabo, Arrian, and Diodorus Siculus. It became the key source for Hellenistic knowledge of India.",
+      "wikiSlug": "Indica_(Megasthenes)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
       "id": "evt-chandragupta-jainism",
       "label": "Chandragupta Embraces Jainism",
       "year": -298,
-      "description": "Chandragupta abdicated in favor of his son Bindusara and became a Jain monk, reportedly fasting to death at Shravanabelagola in Karnataka.",
+      "description": "Chandragupta abdicated the throne, became a Jain monk, and traveled to Shravanabelagola in Karnataka, where he reportedly performed santhara — voluntary fasting unto death.",
       "wikiSlug": "Chandragupta_Maurya#Jainism_and_abdication",
       "tier": 2,
       "tags": [],
@@ -148,9 +199,59 @@
       "label": "Bindusara's Reign",
       "year": -298,
       "endYear": -272,
-      "description": "Bindusara expanded the empire southward across the Deccan plateau, earning the title Amitraghata (Slayer of Foes) from Greek sources.",
+      "description": "Bindusara expanded the empire southward across the Deccan plateau, earning the title Amitraghata (Slayer of Foes). He maintained diplomatic relations with the Hellenistic world.",
       "wikiSlug": "Bindusara",
       "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-deccan-campaign",
+      "label": "Deccan Campaign",
+      "year": -290,
+      "description": "Bindusara conquered most of the Deccan plateau, extending Maurya authority to within about 300 miles of India's southern tip. Only the Tamil kingdoms of the Cholas, Pandyas, and Cheras remained independent.",
+      "wikiSlug": "Bindusara#Military_campaigns",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-deimachus",
+      "label": "Deimachus, Greek Ambassador",
+      "year": -285,
+      "description": "Deimachus served as Greek ambassador from the Seleucid court to Pataliputra during Bindusara's reign, continuing the tradition of Hellenistic diplomatic missions begun under Chandragupta.",
+      "wikiSlug": "Deimachus",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-bindusara-ajivikas",
+      "label": "Bindusara Patronizes Ajivikas",
+      "year": -288,
+      "description": "Bindusara was a patron of the Ajivikas, an ancient determinist sect that rivaled Buddhism and Jainism. The Maurya dynasty's religious pluralism — Jainism, Ajivika, Buddhism — was a family trait.",
+      "wikiSlug": "Ajivika",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-succession-crisis",
+      "label": "Succession Crisis",
+      "year": -272,
+      "description": "Bindusara's death triggered a violent succession struggle among his many sons. Ashoka, a younger prince who had governed Ujjain, outmaneuvered and probably killed his elder brother Susima to seize the throne.",
+      "wikiSlug": "Ashoka#Rise_to_power",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ashoka-ujjain",
+      "label": "Ashoka Governs Ujjain",
+      "year": -275,
+      "description": "The young prince Ashoka was sent to govern Ujjain, capital of the western province of Avanti. The administrative and military experience he gained there proved decisive in the succession crisis.",
+      "wikiSlug": "Ujjain",
+      "tier": 3,
       "tags": [],
       "category": "rulers"
     },
@@ -159,7 +260,7 @@
       "label": "Ashoka Becomes Emperor",
       "year": -272,
       "endYear": -232,
-      "description": "Ashoka ascended the Maurya throne after a succession struggle and would become one of India's greatest rulers, known for spreading dharma across the subcontinent.",
+      "description": "Ashoka ascended the Maurya throne after a violent succession struggle and would become one of India's most consequential rulers, transforming from conqueror to advocate of dharma.",
       "wikiSlug": "Ashoka",
       "tier": 1,
       "tags": [
@@ -171,7 +272,7 @@
       "id": "evt-kalinga-war",
       "label": "Kalinga War",
       "year": -261,
-      "description": "Ashoka's brutal conquest of Kalinga caused massive casualties and deeply affected him, triggering his famous conversion to Buddhism and nonviolence.",
+      "description": "Ashoka's brutal conquest of Kalinga caused massive casualties — his own inscription claims 100,000 killed and 150,000 deported — triggering his famous conversion to Buddhism and nonviolence.",
       "wikiSlug": "Kalinga_War",
       "tier": 1,
       "tags": [
@@ -183,7 +284,7 @@
       "id": "evt-ashoka-converts",
       "label": "Ashoka Converts to Buddhism",
       "year": -260,
-      "description": "Horrified by the carnage at Kalinga, Ashoka embraced Buddhism and devoted the rest of his reign to promoting dharma, nonviolence, and welfare.",
+      "description": "Horrified by the carnage at Kalinga, Ashoka embraced Buddhism as a lay devotee (upasaka) and adopted dhamma as his governing philosophy, attempting to replace conquest with moral persuasion.",
       "wikiSlug": "Ashoka#Buddhist_kingship",
       "tier": 1,
       "tags": [],
@@ -193,19 +294,51 @@
       "id": "evt-rock-edicts",
       "label": "Ashoka's Rock Edicts",
       "year": -257,
-      "description": "Ashoka inscribed his Major Rock Edicts across the empire, proclaiming principles of dharma, religious tolerance, and compassion in Brahmi and Kharosthi scripts.",
+      "description": "Ashoka inscribed his Fourteen Major Rock Edicts across the empire in Prakrit, proclaiming principles of dharma, religious tolerance, and compassion — the first explicit articulation of religious tolerance as governance policy in world history.",
       "wikiSlug": "Edicts_of_Ashoka",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "religion"
       ],
       "category": "writing"
     },
     {
+      "id": "evt-religious-tolerance-edict",
+      "label": "Religious Tolerance Edict (XII)",
+      "year": -256,
+      "description": "Rock Edict XII declared that all religions should be honored and none condemned — the first surviving articulation of religious tolerance as a principle of governance in world history.",
+      "wikiSlug": "Edicts_of_Ashoka#Rock_Edicts",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-animal-welfare-edicts",
+      "label": "Animal Welfare Edicts",
+      "year": -255,
+      "description": "Ashoka banned animal sacrifice in Pataliputra, restricted killing of certain species, and established veterinary hospitals for both humans and animals — the earliest known state-sponsored healthcare covering animals.",
+      "wikiSlug": "Edicts_of_Ashoka#Rock_Edicts",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dhamma-mahamatras",
+      "label": "Dhamma Mahamatras Appointed",
+      "year": -256,
+      "description": "Ashoka created a new class of officials called Dhamma Mahamatras tasked with promoting ethical behavior, mediating disputes, inspecting prisons, and monitoring the welfare of women, the elderly, and the poor.",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
       "id": "evt-pillar-edicts",
       "label": "Ashoka's Pillar Edicts",
       "year": -243,
-      "description": "The later Pillar Edicts were inscribed on polished sandstone pillars, many topped with the famous lion capital that became India's national emblem.",
+      "description": "The seven Pillar Edicts were inscribed on polished sandstone pillars up to 50 feet high, transported hundreds of miles from the Chunar quarries. Their mirror-like Maurya polish still impresses modern engineers.",
       "wikiSlug": "Pillars_of_Ashoka",
       "tier": 2,
       "tags": [],
@@ -215,9 +348,29 @@
       "id": "evt-lion-capital",
       "label": "Lion Capital of Ashoka",
       "year": -256.0,
-      "description": "The four-lion capital at Sarnath became the most iconic Maurya sculpture and was adopted as the national emblem of modern India.",
+      "description": "The four-lion capital at Sarnath — four Asiatic lions seated back-to-back on a circular abacus with a 24-spoke dharmachakra — became modern India's national emblem in 1950.",
       "wikiSlug": "Lion_capital_of_Ashoka",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ashoka-chakra",
+      "label": "Ashoka Chakra on Indian Flag",
+      "year": -256,
+      "description": "The 24-spoke Dharma Wheel (Ashoka Chakra) from the Lion Capital was placed at the center of India's national flag in 1947, connecting the modern republic to a 3rd-century-BCE emperor's moral vision.",
+      "wikiSlug": "Ashoka_Chakra",
       "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-chunar-sandstone",
+      "label": "Chunar Sandstone Pillars",
+      "year": -250,
+      "description": "At least thirty monolithic sandstone pillars were quarried from the Chunar deposits near Varanasi, shaped, polished to a glass-like sheen, and transported hundreds of miles to their final locations across the empire.",
+      "wikiSlug": "Pillars_of_Ashoka",
+      "tier": 3,
       "tags": [],
       "category": "architecture"
     },
@@ -225,19 +378,29 @@
       "id": "evt-third-buddhist-council",
       "label": "Third Buddhist Council",
       "year": -253.0,
-      "description": "Ashoka convened the Third Buddhist Council at Pataliputra to purify the sangha and codify the Pali Canon, shaping Theravada Buddhism.",
+      "description": "Ashoka convened the Third Buddhist Council at Pataliputra, presided over by Moggaliputta Tissa, to purify the sangha and codify the Pali Canon, shaping Theravada Buddhism.",
       "wikiSlug": "Third_Buddhist_council",
       "tier": 2,
       "tags": [],
       "category": "religion"
     },
     {
+      "id": "evt-pali-canon",
+      "label": "Pali Canon Codified",
+      "year": -252,
+      "description": "The Third Buddhist Council established the contents of the Pali Canon through oral agreement. It would not be written down until the 1st century BCE in Sri Lanka, ending centuries of purely oral transmission.",
+      "wikiSlug": "Pāli_Canon",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
       "id": "evt-buddhist-missions",
       "label": "Buddhist Missions Abroad",
       "year": -250,
-      "description": "Ashoka sent Buddhist missionaries to Sri Lanka, Central Asia, and the Hellenistic world, transforming Buddhism from a regional sect into a world religion.",
+      "description": "Ashoka sent Buddhist missionaries to Sri Lanka, Gandhara, Kashmir, Central Asia, and claimed to have sent missions to five Hellenistic kingdoms, transforming Buddhism from a regional sect into a world religion.",
       "wikiSlug": "Ashoka#Propagation_of_Buddhism",
-      "tier": 2,
+      "tier": 1,
       "tags": [],
       "category": "religion"
     },
@@ -245,17 +408,37 @@
       "id": "evt-mahinda-sri-lanka",
       "label": "Mahinda Brings Buddhism to Sri Lanka",
       "year": -247,
-      "description": "Ashoka's son (or brother) Mahinda led a mission to Sri Lanka, converting King Devanampiya Tissa and establishing a lasting Buddhist tradition on the island.",
+      "description": "Ashoka's son Mahinda led a Buddhist mission to Sri Lanka, converting King Devanampiya Tissa at Anuradhapura and establishing the longest unbroken Buddhist tradition in the world.",
       "wikiSlug": "Mahinda_(Buddhist_monk)",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-sanghamitta",
+      "label": "Sanghamitta and the Bodhi Tree",
+      "year": -246,
+      "description": "Ashoka's daughter Sanghamitta brought a cutting from the sacred Bodhi tree at Bodh Gaya to Sri Lanka and established a community of Buddhist nuns. The descendant tree at Anuradhapura is reputedly the oldest documented tree in the world.",
+      "wikiSlug": "Sanghamitta",
       "tier": 3,
       "tags": [],
       "category": "religion"
     },
     {
+      "id": "evt-gandhara-school",
+      "label": "Gandhara School of Buddhist Art",
+      "year": -240,
+      "description": "The interaction between Buddhism and Hellenistic Greek culture in Gandhara produced the first artistic tradition to depict the Buddha in human form, using Greco-Roman sculptural techniques. Every Buddha statue worldwide descends from this fusion.",
+      "wikiSlug": "Greco-Buddhist_art",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
       "id": "evt-sanchi-stupa",
       "label": "Great Stupa at Sanchi",
       "year": -247.0,
-      "description": "Ashoka commissioned the Great Stupa at Sanchi, one of the oldest stone structures in India, later enlarged with elaborate carved gateways.",
+      "description": "Ashoka commissioned the original brick structure at Sanchi, later enlarged and encased in stone with elaborately carved gateways. The stupa's hemispherical shape represents the dome of heaven.",
       "wikiSlug": "Sanchi",
       "tier": 2,
       "tags": [
@@ -267,9 +450,9 @@
       "id": "evt-royal-highway",
       "label": "Royal Highway (Uttarapatha)",
       "year": -304.5,
-      "description": "The Maurya royal highway connected Pataliputra to Taxila and beyond, facilitating trade, communication, and military movement across the empire.",
+      "description": "The Maurya royal highway ran roughly 1,200 miles from Pataliputra to Taxila and beyond, with rest houses, milestones, shade trees, and wells — a direct descendant of the Persian Royal Road model.",
       "wikiSlug": "Uttarapatha",
-      "tier": 3,
+      "tier": 2,
       "tags": [],
       "category": "trade"
     },
@@ -277,7 +460,7 @@
       "id": "evt-maurya-trade-routes",
       "label": "Indian Ocean Trade Networks",
       "year": -280,
-      "description": "Maurya-era ports facilitated trade with the Hellenistic world, exporting spices, textiles, and gemstones in exchange for gold and wine.",
+      "description": "Maurya-era ports including Bharuch in Gujarat shipped spices, textiles, ivory, and gemstones to the Hellenistic world, laying the groundwork for the massive Indian Ocean trade of later centuries.",
       "wikiSlug": "Indian_Ocean_trade",
       "tier": 3,
       "tags": [],
@@ -287,8 +470,28 @@
       "id": "evt-punch-marked-coins",
       "label": "Maurya Punch-Marked Coins",
       "year": -310,
-      "description": "The Maurya state issued standardized silver punch-marked coins (karshapana), facilitating inter-regional trade across the vast empire.",
+      "description": "The Maurya state standardized silver punch-marked coins (karshapana), stamped with symbols like sun, wheel, tree, and elephant, creating a uniform monetary system across the subcontinent for the first time.",
       "wikiSlug": "Karshapana",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-spice-trade",
+      "label": "Spice Trade Expansion",
+      "year": -270,
+      "description": "Maurya-era trade in pepper, cinnamon, and cardamom connected southern India to Mediterranean markets via overland and maritime routes, beginning the spice trade that would become enormously lucrative.",
+      "wikiSlug": "Spice_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-state-monopolies",
+      "label": "State Monopolies",
+      "year": -312,
+      "description": "The Arthashastra describes state control over mines, salt production, forest products, and weapons manufacturing — a proto-mixed economy with private enterprise supervised by specialized superintendents.",
+      "wikiSlug": "Arthashastra#Economics",
       "tier": 3,
       "tags": [],
       "category": "trade"
@@ -297,57 +500,117 @@
       "id": "evt-taxila-university",
       "label": "Taxila as Learning Center",
       "year": -320,
-      "description": "Taxila flourished as a renowned center of learning under the Mauryas, attracting scholars studying medicine, law, military arts, and philosophy.",
+      "description": "Taxila flourished as a renowned center of learning under the Mauryas, attracting scholars studying medicine, law, military arts, and philosophy. Both Chanakya and students from across the subcontinent studied here.",
       "wikiSlug": "Taxila",
-      "tier": 3,
+      "tier": 2,
       "tags": [],
       "category": "science"
     },
     {
       "id": "evt-maurya-medicine",
-      "label": "Maurya-Era Medicine",
-      "year": -290,
-      "description": "Ashoka established hospitals for humans and animals throughout the empire, one of the earliest known state-sponsored healthcare systems.",
+      "label": "Maurya-Era Hospitals",
+      "year": -255,
+      "description": "Ashoka established hospitals for both humans and animals throughout the empire and ordered the cultivation and distribution of medicinal herbs — the earliest known state-sponsored civilian healthcare system.",
       "wikiSlug": "Ashoka#Administration",
-      "tier": 3,
+      "tier": 2,
       "tags": [],
       "category": "science"
     },
     {
       "id": "evt-irrigation-systems",
-      "label": "Maurya Irrigation Works",
+      "label": "Sudarshana Lake and Irrigation",
       "year": -301.5,
-      "description": "The Maurya state built extensive irrigation canals and reservoirs, notably the Sudarshana Lake in Gujarat, supporting agriculture across the empire.",
+      "description": "The Maurya state built Sudarshana Lake in Gujarat, an artificial reservoir that remained in use for over six hundred years. Inscriptions from the 2nd century BCE and 5th century CE both mention repairs to the dam.",
       "wikiSlug": "Sudarshana_Lake",
       "tier": 3,
       "tags": [],
       "category": "science"
     },
     {
-      "id": "evt-brahmi-script",
-      "label": "Brahmi Script in Use",
-      "year": -298.5,
-      "description": "The Brahmi script became widely used across the Maurya Empire for inscriptions and administration, serving as the ancestor of most South and Southeast Asian scripts.",
-      "wikiSlug": "Brahmi_script",
+      "id": "evt-maurya-metallurgy",
+      "label": "Maurya Iron and Steel",
+      "year": -280,
+      "description": "Maurya-era smiths produced high-carbon steel through techniques that would eventually evolve into wootz steel, prized across the ancient world and later traded to produce the famous Damascus steel blades.",
+      "wikiSlug": "Wootz_steel",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-maurya-legal-system",
+      "label": "Maurya Legal System",
+      "year": -310,
+      "description": "The Arthashastra describes courts at village, district, and provincial levels with the king as final appeal. The system distinguished civil and criminal law, specifying rules of evidence and judicial procedure.",
+      "wikiSlug": "Arthashastra#Law",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-spy-network",
+      "label": "Maurya Spy Network",
+      "year": -315,
+      "description": "Kautilya's Arthashastra describes an elaborate surveillance apparatus with resident agents (samstha), roving agents (sancara) disguised as monks or merchants, poisoners, assassins, and agents provocateurs — all reporting independently to the king.",
+      "wikiSlug": "Arthashastra#Espionage",
       "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-brahmi-script",
+      "label": "Brahmi Script Standardized",
+      "year": -260,
+      "description": "The Brahmi script became widely standardized across the Maurya Empire for Ashoka's inscriptions. It is the ancestor of virtually every script used in South and Southeast Asia today, used by billions of people.",
+      "wikiSlug": "Brahmi_script",
+      "tier": 1,
       "tags": [],
       "category": "writing"
     },
     {
       "id": "evt-kharosthi-script",
       "label": "Kharosthi Script",
-      "year": -295.5,
-      "description": "The Kharosthi script was used in the northwestern provinces for Ashoka's edicts and Gandharan texts, derived from Aramaic and written right to left.",
+      "year": -260,
+      "description": "The Kharosthi script, derived from Aramaic and written right to left, was used in the northwestern provinces for Ashoka's edicts. Some edicts in the far northwest also used Greek and Aramaic.",
       "wikiSlug": "Kharosthi",
       "tier": 3,
       "tags": [],
       "category": "writing"
     },
     {
+      "id": "evt-arthashastra-rediscovery",
+      "label": "Arthashastra Rediscovered",
+      "year": 1905,
+      "description": "R. Shamasastry rediscovered a complete Arthashastra manuscript at the Mysore Oriental Library among palm-leaf manuscripts. Published in 1909, it stunned the scholarly world with its systematic scope.",
+      "wikiSlug": "Arthashastra#Rediscovery",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-prinsep-brahmi",
+      "label": "Prinsep Deciphers Brahmi",
+      "year": 1837,
+      "description": "British officer James Prinsep cracked the Brahmi script through painstaking comparison of coin legends and inscriptions, allowing Ashoka's edicts to be read for the first time in over a thousand years.",
+      "wikiSlug": "James_Prinsep",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-nehru-ashoka-symbols",
+      "label": "Nehru Adopts Ashoka's Symbols",
+      "year": 1950,
+      "description": "India's first prime minister Jawaharlal Nehru championed Ashoka's Lion Capital as the national emblem and the Ashoka Chakra for the flag, claiming Ashoka as proof that India had always been capable of tolerant, moral governance.",
+      "wikiSlug": "State_Emblem_of_India",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
       "id": "evt-ashoka-death",
       "label": "Death of Ashoka",
       "year": -232,
-      "description": "Ashoka died after nearly four decades of rule, leaving an empire that had promoted unprecedented religious tolerance and welfare across South Asia.",
+      "description": "Ashoka died after nearly four decades of rule, leaving an empire held together by a moral vision that had exactly one indispensable component: Ashoka himself.",
       "wikiSlug": "Ashoka",
       "tier": 2,
       "tags": [],
@@ -358,7 +621,7 @@
       "label": "Dasharatha Maurya",
       "year": -232,
       "endYear": -224,
-      "description": "Dasharatha succeeded Ashoka and continued patronizing Ajivika monks, dedicating rock-cut caves in the Barabar Hills.",
+      "description": "Dasharatha succeeded Ashoka and continued patronizing Ajivika monks, dedicating the Barabar Caves rock-cut sanctuaries — continuing the family tradition of religious pluralism.",
       "wikiSlug": "Dasharatha_Maurya",
       "tier": 3,
       "tags": [],
@@ -368,7 +631,7 @@
       "id": "evt-decline-fragmentation",
       "label": "Empire Fragments",
       "year": -220,
-      "description": "After Ashoka's death, weak successors and provincial governors led to rapid fragmentation, with outlying territories breaking away from central control.",
+      "description": "After Ashoka's death, weak successors and provincial governors led to rapid fragmentation, with outlying territories breaking away from central control within a generation.",
       "wikiSlug": "Maurya_Empire#Decline",
       "tier": 3,
       "tags": [],
@@ -378,12 +641,22 @@
       "id": "evt-barabar-caves",
       "label": "Barabar Caves",
       "year": -244.0,
-      "description": "The Barabar Caves in Bihar are the oldest surviving rock-cut caves in India, granted by Ashoka and Dasharatha to Ajivika monks.",
+      "description": "The Barabar Caves in Bihar are the oldest surviving rock-cut caves in India, dedicated to Ajivika monks by Ashoka and Dasharatha. They feature the same mirror-smooth polished surfaces found on Ashoka's pillars.",
       "wikiSlug": "Barabar_Caves",
-      "tier": 3,
+      "tier": 2,
       "tags": [
         "religion"
       ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lumbini-pillar",
+      "label": "Lumbini Pillar Inscription",
+      "year": -249,
+      "description": "Ashoka erected a pillar at Lumbini identifying it as the Buddha's birthplace. Rediscovered in 1896, this inscription is key evidence establishing Siddhartha Gautama as a real historical person.",
+      "wikiSlug": "Lumbini",
+      "tier": 3,
+      "tags": [],
       "category": "architecture"
     },
     {
@@ -399,12 +672,22 @@
       "category": "wars"
     },
     {
+      "id": "evt-shunga-dynasty",
+      "label": "Shunga Dynasty Founded",
+      "year": -185,
+      "description": "Pushyamitra founded the Shunga dynasty, associated with a Brahmanical revival and a shift away from Ashoka's non-sectarian dhamma back toward Vedic orthodoxy.",
+      "wikiSlug": "Shunga_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
       "id": "evt-northwest-incursion",
       "label": "Greek Incursions in Northwest",
       "year": -200,
-      "description": "Greco-Bactrian forces under Demetrius invaded the weakening northwestern Maurya territories, beginning the Indo-Greek period in the subcontinent.",
+      "description": "Greco-Bactrian king Demetrius I invaded the weakening northwestern Maurya territories, eventually establishing Indo-Greek kingdoms in the Punjab — sophisticated Hellenistic rulers who minted bilingual coins and patronized Buddhist art.",
       "wikiSlug": "Demetrius_I_of_Bactria",
-      "tier": 3,
+      "tier": 2,
       "tags": [],
       "category": "wars"
     },
@@ -412,33 +695,11 @@
       "id": "evt-maurya-bureaucracy",
       "label": "Centralized Bureaucracy",
       "year": -315,
-      "description": "The Maurya Empire developed a sophisticated administrative system with provinces, districts, and villages overseen by appointed officials and spies.",
+      "description": "The Maurya Empire developed a sophisticated administrative system with four main provinces, each governed by a viceroy, subdivided into districts and villages with appointed officials and spies.",
       "wikiSlug": "Maurya_Empire#Administration",
-      "tier": 3,
+      "tier": 2,
       "tags": [],
       "category": "rulers"
-    },
-    {
-      "id": "evt-dhamma-mahamatras",
-      "label": "Dhamma Mahamatras Appointed",
-      "year": -256,
-      "description": "Ashoka created a new class of officials called Dhamma Mahamatras tasked with promoting moral conduct, welfare, and religious harmony across the empire.",
-      "wikiSlug": "Edicts_of_Ashoka",
-      "tier": 3,
-      "tags": [
-        "religion"
-      ],
-      "category": "rulers"
-    },
-    {
-      "id": "evt-indica-megasthenes",
-      "label": "Indica by Megasthenes",
-      "year": -292.5,
-      "description": "Megasthenes' Indica described Maurya society, caste divisions, and Pataliputra in detail, becoming a key source for Hellenistic knowledge of India.",
-      "wikiSlug": "Indica_(Megasthenes)",
-      "tier": 3,
-      "tags": [],
-      "category": "writing"
     },
     {
       "id": "evt-jain-community",
@@ -451,24 +712,65 @@
       "category": "religion"
     },
     {
-      "id": "evt-spice-trade",
-      "label": "Spice Trade Expansion",
-      "year": -270,
-      "description": "Maurya-era trade in pepper, cinnamon, and cardamom connected India to Mediterranean markets via overland and maritime routes.",
-      "wikiSlug": "Spice_trade",
+      "id": "evt-ashoka-bodh-gaya",
+      "label": "Ashoka Visits Bodh Gaya",
+      "year": -258,
+      "description": "Ashoka visited and patronized the key Buddhist pilgrimage sites including Bodh Gaya (the Buddha's enlightenment), Sarnath (first sermon), Lumbini (birth), and Kushinagar (death).",
+      "wikiSlug": "Bodh_Gaya",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "religion"
     },
     {
-      "id": "evt-maurya-metallurgy",
-      "label": "Maurya Iron and Steel",
-      "year": -280,
-      "description": "Advanced iron smelting and early steel production techniques flourished during the Maurya period, supporting agriculture, construction, and weaponry.",
-      "wikiSlug": "Wootz_steel",
+      "id": "evt-maurya-polish",
+      "label": "Maurya Stone-Polishing Technique",
+      "year": -250,
+      "description": "Maurya craftsmen developed a stone-finishing technique producing glass-like surfaces that survived over 2,200 years. The method, possibly involving silica-based burnishing, was never replicated in later Indian stone-working.",
+      "wikiSlug": "Pillars_of_Ashoka#Maurya_polish",
       "tier": 3,
       "tags": [],
       "category": "science"
+    },
+    {
+      "id": "evt-ashokavadana",
+      "label": "Ashokavadana Legend",
+      "year": -100,
+      "description": "The Ashokavadana (Legend of Ashoka) shaped the Buddhist memory of the emperor, painting his pre-conversion self as Chandashoka (Ashoka the Fierce) to heighten the contrast with his later transformation.",
+      "wikiSlug": "Ashokavadana",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-strabo-arrian",
+      "label": "Greek Historians Preserve Maurya Records",
+      "year": -50,
+      "description": "Strabo, Arrian, and Diodorus Siculus preserved fragments of Megasthenes' lost Indica in their own works, becoming essential sources for reconstructing the Maurya period.",
+      "wikiSlug": "Strabo",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-moggaliputta-tissa",
+      "label": "Moggaliputta Tissa Presides",
+      "year": -253,
+      "description": "The monk Moggaliputta Tissa presided over the Third Buddhist Council at Pataliputra and organized the nine missionary expeditions that carried Buddhism beyond India.",
+      "wikiSlug": "Moggaliputta-Tissa",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-brihadratha",
+      "label": "Brihadratha, Last Maurya Emperor",
+      "year": -187,
+      "endYear": -185,
+      "description": "Brihadratha was the last Maurya emperor, so weak that his own general Pushyamitra could murder him during a military review in front of troops who did nothing to stop it.",
+      "wikiSlug": "Brihadratha_Maurya",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
     }
   ]
 }
