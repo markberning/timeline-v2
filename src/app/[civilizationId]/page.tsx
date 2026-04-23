@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import { NarrativeReader } from '@/components/narrative-reader'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
-import { TextSizeControl } from '@/components/text-size-control'
 import { getChainsForTimeline, getChainPosition } from '../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
 
@@ -49,7 +48,6 @@ export default async function CivilizationPage({ params }: PageProps) {
             Stuff Happened
           </Link>
           <div className="flex items-center gap-1">
-            <TextSizeControl />
             <DarkModeToggle />
           </div>
         </div>

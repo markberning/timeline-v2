@@ -10,7 +10,7 @@
   --accent: #a1a1aa;
   --accent-text: #4b5563;
   --accent-badge: #6b7280;
-  --prose-size: 1rem;
+  --prose-size: 0.875rem;
   /* Chapter header sizes scale with --prose-size.
      Ratios calibrated at default 16px: title=18, sub=14, meta=13 */
   --ch-title: calc(var(--prose-size) * 1.125);
