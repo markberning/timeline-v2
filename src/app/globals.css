@@ -199,6 +199,9 @@ a.cross-link {
   color: var(--row-color);
   opacity: 0.6;
 }
+:is(.dark) .civ-row-chain {
+  opacity: 0.85;
+}
 .civ-row-chain-pos {
   opacity: 1;
 }
