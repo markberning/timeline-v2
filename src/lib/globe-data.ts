@@ -271,7 +271,7 @@ export const GLOBE_CIVS: GlobeCiv[] = NAVIGATOR_TLS
       hasContent: !!tl.hasContent,
       centroid: centroidOf(coords),
       color: getAccentColors(tl.id).base,
-      altOffset: layer * 0.002,
+      altOffset: layer * 0.0003,
       geometry: poly(coords),
     }
   })
