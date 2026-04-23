@@ -60,7 +60,7 @@ export default function GlobeView() {
         .showAtmosphere(true)
         .atmosphereColor('#555550')
         .atmosphereAltitude(0.18)
-        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
         .polygonsData(polygons)
         .polygonGeoJsonGeometry((d: any) => d.geometry)
         .polygonCapColor((d: any) => {
@@ -93,10 +93,9 @@ export default function GlobeView() {
 
       globeRef.current = globe
 
-      // Auto-rotate
+      // Camera controls — no auto-rotate, user drives
       const controls = globe.controls()
-      controls.autoRotate = true
-      controls.autoRotateSpeed = 0.5
+      controls.autoRotate = false
       controls.enableZoom = true
       controls.minDistance = 150
       controls.maxDistance = 450
