@@ -197,7 +197,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 **Nile Valley chain** (in progress):
 1. ✅ early-dynastic-egypt — 8 chapters (~25k words), label "Early Egypt", 68 reference events, ~55 event links, ~209 glossary links, ~20 cross-links, 59 summary bullets, 8 WebP chapter maps (zero redos), full audit + fixes. Covers predynastic through Second Dynasty (-5000 to -2686 BCE).
 2. ✅ old-kingdom-egypt — 8 chapters (~17.7k words), label "Old Kingdom Egypt", 67 reference events, 57 event links, 191 glossary links, 15 cross-links, 66 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Third Dynasty through First Intermediate Period reunification (-2686 to -2055 BCE). Central thesis: faith converted into engineering, then the engineering collapsed but the ideas survived.
-3. new-kingdom-egypt
+3. ✅ new-kingdom-egypt — 9 chapters (~17.2k words), label "New Kingdom Egypt", 72 reference events, 68 event links, 196 glossary links, 20 cross-links, 9 chapter map prompts (maps pending generation), full audit + fixes. Covers Middle Kingdom through Bronze Age Collapse (-2055 to -1069 BCE). Central thesis: three reinventions, each more ambitious and more brittle — literary renaissance, chariot empire, monumental superpower, then the Bronze Age took it all away.
 4. late-egypt
 
 **Nubian Tradition chain** (in progress):
@@ -214,6 +214,11 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 1. ✅ early-andean-civilizations — 8 chapters (~16k words), label "Early Andean", 69 reference events, ~61 event links, ~193 glossary links, ~18 cross-links, 56 summary bullets, 8 WebP chapter maps (zero redos), full audit + fixes. Covers Norte Chico/Caral through Chavín to Paracas (-3500 to -200 BCE).
 2. andean-kingdoms
 3. middle-horizon-empires
+
+**Mesoamerican chain** (in progress):
+1. ✅ olmec-civilization — 8 chapters (~14.5k words), label "Olmec", 68 reference events, 63 event links, 180 glossary links, 13 cross-links, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Gulf Coast Olmec from modern discovery through Epi-Olmec legacy (-1600 to -100 BCE). Central thesis: Mesoamerica's forgotten founders — colossal heads, rubber, the calendar, writing, zero, the ballgame, and the mother culture debate. Chain color: green (`mesoamerican`).
+2. maya-civilization
+3. aztec-empire
 
 **Greco-Roman chain** (in progress):
 1. ✅ minoan-civilization — 8 chapters (~17.5k words), label "Minoan", 66 reference events, 61 event links, 201 glossary links, 13 cross-links, 66 summary bullets, 8 chapter map prompts (maps pending generation), full audit + fixes. Covers Neolithic Crete through Subminoan period (-7000 to -1100 BCE) plus modern rediscovery (1878-1952). Central thesis: Europe's first civilization was Cretan, not Greek, reconstructed from pictures and ruins because the language is locked. Chain color: blue (`greco-roman`).

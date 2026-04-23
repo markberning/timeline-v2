@@ -1,67 +1,49 @@
-# Session Handoff — 2026-04-22b
+# Session Handoff — 2026-04-22c
 
 **Branch:** main
-**Last commit:** `fa3b24c` — Chain position inherits font-bold
-**Commits this session:** 55
+**Last commit:** `e87094a` — Olmec cross-link matchText fix
 **Auto-deploy:** Cloudflare Workers auto-deploy from main. Manual fallback: `npx wrangler deploy`.
 
 ## Session Summary
-New editorial home page ("The Civ Lib") replacing the old TL Navigator at `/`. Major typography and color system overhaul across home page and reader. Chapter subtitles added to all 16 TLs.
+Two new TLs shipped in parallel: New Kingdom Egypt (Nile Valley chain #3) and Olmec (Mesoamerican chain #1). Full pipeline for both: narratives, summaries, 5-persona audits, audit fixes, event reconciliation (46→72 NKE, 37→68 Olmec), curated event/glossary/cross-links, map prompts. Total shipped TLs: 18.
 
 ## What Was Built
 
-### New Home Page (`/`)
-- **Mobile**: horizontal swim-lane ribbon (5 region lanes) + scrolling civ list with DOM-only active state highlighting (zero React re-renders during scroll). IntersectionObserver replaced with scroll-position math + 300ms settle timer. Ribbon auto-scrolls to active bar.
-- **Desktop**: lane-packed ribbon (first-fit algorithm) + detail pane with chain grid index. Bar click centers bar start, updates detail pane, auto-scrolls chain grid.
-- **Civ icons strip**: 11 PNG civilization icons (sphinx, lamassu, faravahar, torii, lotus, etc.) as decorative border between header and ribbon.
-- **Region labels**: gradient fade overlay (solid under labels → transparent) so bar content dissolves before reaching text.
-- **Last-viewed civ**: reader saves `localStorage['last-viewed-civ']`, home page reads it on mount and scrolls to that row.
-- **Title**: "The Civ Lib" in italic Lora.
-- Old TL Navigator preserved at `/navigator`.
+### New Kingdom Egypt (`new-kingdom-egypt`)
+- **9 chapters, ~17.2k words** covering Middle Kingdom through Bronze Age Collapse (-2055 to -1069 BCE)
+- Central thesis: three reinventions (literary renaissance, chariot empire, monumental superpower), each more ambitious and more brittle
+- 72 reference events, 68 event links, 196 glossary links, 20 cross-links
+- 9 summary chapters with subtitles
+- 5-persona audit: all 9 chapters STRONG. Must-fix items applied (Paracas anachronism, ma'at definition, Manetho/Kassites intros, Kadesh army numbers qualified)
+- Navigator startYear updated from -1550 to -2055 (covers Middle Kingdom)
+- Map prompts for all 9 chapters (maps pending Gemini generation)
 
-### Typography Framework
-- Unified 5-level type scale across home page and reader: page title 22px, section title 18px, subtitle 14px italic Lora, meta 13px tabular-nums, labels 11px uppercase.
-- Chapter headers scale with `--prose-size` via CSS calc vars (`--ch-title` ×1.125, `--ch-subtitle` ×0.875, `--ch-meta` ×0.8125).
-- Text size control removed from reader nav; default prose size 16px. Stale `localStorage['textSize']` actively cleaned up on page load.
-
-### Chapter Subtitles
-- Added `subtitle` field to `NarrativeChapter` type, parse script, and all 16 summaries JSON files (137 chapters total).
-- Short descriptive one-liners for every chapter, rendered in italic Lora below title and above dateRange.
-
-### Color System Changes
-- **Africa**: gold/ochre → rust red (`#b44d3b`). Chain accents updated (nile-valley, nubian-tradition, west-african-empires).
-- **Near East**: standardized to `#d97706` (matching chain accent on reader pages).
-- **Light mode background**: lightened from `#ede5d3` to `#f5f0e8`.
-
-### Reader Fixes
-- **Continue Reading banner**: dismissed state persisted to localStorage; only reappears if user actually scrolls in a chapter after dismissing.
-- **Cross-link sheet button**: solid accent bg + white text + Lora font (matching READ THE FULL CHAPTER style).
-- **Chapter title nowrap**: last word + chevron wrapped in `whitespace-nowrap` so icon never strands alone.
-- **"Before the Pharaohs"** renamed to **"Early Egypt"** (academically correct — the TL includes the first pharaohs).
-
-### Mobile Scroll Performance
-- Replaced IntersectionObserver with scroll-position math (rAF-throttled, deterministic).
-- Active row highlighting via direct DOM attribute toggle + CSS — zero React re-renders during scroll.
-- React state (ribbon sync) deferred until 300ms after scroll stops.
-- 800ms lock-out after bar tap prevents scroll handler from overriding the selection.
-- `scrollTop < 20` always selects first civ (prevents iOS rubber-band bounce-back issue).
+### Olmec (`olmec-civilization`)
+- **8 chapters, ~14.5k words** covering Gulf Coast Olmec from 1862 rediscovery through Epi-Olmec legacy (-1600 to -100 BCE)
+- Central thesis: Mesoamerica's forgotten founders — colossal heads, rubber, calendar, writing, zero, ballgame, and the mother culture debate
+- 68 reference events, 63 event links, 180 glossary links, 13 cross-links
+- 8 summary chapters with subtitles
+- 5-persona audit: 7/8 STRONG, 1 GOOD. Must-fix items applied (Tuxtla Statuette 162 BCE→CE, Indus drainage date corrected, Ur→Babylon population, scholar intros, Goodyear date, Spanish conquest dated)
+- First TL in Mesoamerican chain (Olmec → Maya → Aztec)
+- Map prompts for all 8 chapters with new Mesoamerica orientation preamble
 
 ## What Still Needs Doing
 
 ### Immediate
-1. **Generate 56 chapter maps** — prompts ready in `map-prompts/` for all 7 new TLs. Gemini thinking mode, save PNGs, run WebP optimizer.
-2. **Backward cross-cultural pass** — Persona E audit reports have backward findings for all 7 new TLs.
+1. **Generate 17 chapter maps** — prompts ready in `map-prompts/` for both new TLs (9 NKE + 8 Olmec). Gemini thinking mode, save PNGs, run WebP optimizer.
+2. **Generate maps for 7 prior TLs** — 56 maps still pending from last session (minoan, old-kingdom-egypt, ancient-korea, assyrian-empire, hittite-empire, mycenaean, shang-dynasty).
+3. **Backward cross-cultural pass** — Persona E audit reports have backward findings for both new TLs (12 per TL). Surgical insertions into reference TL narratives.
 
 ### Next TLs
-Natural chain progressions: ancient-greece, zhou-dynasty, new-kingdom-egypt, kingdom-of-aksum, vedic-period, islamic-golden-age, safavid-persia.
+Natural chain progressions: ancient-greece, zhou-dynasty, late-egypt, kingdom-of-aksum, vedic-period, islamic-golden-age, maya-civilization, safavid-persia.
 
-## All 16 Shipped TLs
+## All 18 Shipped TLs
 1. mesopotamia (13 ch, maps done)
 2. indus-valley (10 ch, maps done)
 3. ancient-china (8 ch, maps done)
 4. ancient-nubia (8 ch, maps done)
 5. elamite-civilization (8 ch, maps done)
-6. early-dynastic-egypt (8 ch, maps done) — label now "Early Egypt"
+6. early-dynastic-egypt (8 ch, maps done)
 7. early-andean-civilizations (8 ch, maps done)
 8. persian-empire (10 ch, maps done)
 9. kingdom-of-kush (8 ch, maps done)
@@ -72,18 +54,25 @@ Natural chain progressions: ancient-greece, zhou-dynasty, new-kingdom-egypt, kin
 14. hittite-empire (8 ch, maps pending)
 15. mycenaean-civilization (8 ch, maps pending)
 16. shang-dynasty (8 ch, maps pending)
+17. **new-kingdom-egypt (9 ch, maps pending)** ← NEW
+18. **olmec-civilization (8 ch, maps pending)** ← NEW
 
 ## Key Files Changed This Session
-- `src/app/page.tsx` — swapped TlNavigator for ChronologyPage
-- `src/components/chronology/*` — 7 new files (chronology-page, header, ribbon, civ-list, detail-pane, chain-grid, civ-icons-strip)
-- `src/lib/chronology-data.ts` — new data module
-- `src/lib/navigator-tls.ts` — region colors updated
-- `src/lib/accent-colors.ts` — Africa chain colors: gold → rust red
-- `src/lib/types.ts` — NarrativeChapter.subtitle added
-- `src/app/globals.css` — ch-title/subtitle/meta CSS vars, civ-row active styles, light mode bg
-- `src/app/layout.tsx` — localStorage cleanup, light mode color
-- `src/components/chapter-accordion.tsx` — subtitle rendering, scaling vars, nowrap chevron
-- `src/components/narrative-reader.tsx` — last-viewed-civ save, continue-reading dismiss persistence
-- `src/components/cross-link-sheet.tsx` — solid accent button style
-- `narratives/*.summaries.json` — all 16 files updated with chapter subtitles
-- `public/icons/*.png` — 11 civilization icon PNGs
+- `narratives/new-kingdom-egypt.md` — 9-chapter narrative
+- `narratives/new-kingdom-egypt.summaries.json` — summaries with subtitles
+- `narratives/olmec-civilization.md` — 8-chapter narrative
+- `narratives/olmec-civilization.summaries.json` — summaries with subtitles
+- `reference-data/new-kingdom-egypt.json` — expanded to 72 events
+- `reference-data/olmec-civilization.json` — expanded to 68 events
+- `content/.event-links-new-kingdom-egypt.json` — 68 curated event links
+- `content/.glossary-links-new-kingdom-egypt.json` — 196 glossary links
+- `content/.cross-links-new-kingdom-egypt.json` — 20 cross-links
+- `content/.event-links-olmec-civilization.json` — 63 curated event links
+- `content/.glossary-links-olmec-civilization.json` — 180 glossary links
+- `content/.cross-links-olmec-civilization.json` — 13 cross-links
+- `map-prompts/new-kingdom-egypt.md` — 9 chapter map prompts
+- `map-prompts/olmec-civilization.md` — 8 chapter map prompts
+- `scripts/parse-narratives.ts` — both TLs registered in NARRATIVE_FILES
+- `src/lib/navigator-tls.ts` — hasContent: true, NKE startYear: -2055
+- `audits/new-kingdom-egypt.audit.md` — 5-persona audit report
+- `audits/olmec-civilization.audit.md` — 5-persona audit report
