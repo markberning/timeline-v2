@@ -10,6 +10,7 @@ export interface GlobeCiv {
   hasContent: boolean
   centroid: [number, number] // [lng, lat]
   color: string
+  altOffset: number // unique per-civ altitude offset to prevent z-fighting
   geometry: { type: 'Polygon'; coordinates: number[][][] }
 }
 
@@ -174,10 +175,39 @@ const TERRITORIES: Record<string, [number, number][]> = {
   ],
 }
 
+// Explicit layer order for overlapping regions. Higher number = rendered on top.
+// Within each geographic cluster, smaller/earlier territories go on top so they
+// stay visible when overlapping with larger empires underneath.
+const LAYER_ORDER: Record<string, number> = {
+  // China: Qin (huge) on bottom → Ancient China (small core) on top
+  'qin-dynasty':      1,
+  'zhou-dynasty':     2,
+  'shang-dynasty':    3,
+  'ancient-china':    4,
+  // India: Maurya (huge) on bottom → Indus (small) on top
+  'maurya-empire':    1,
+  'vedic-period':     2,
+  'indus-valley':     3,
+  // Egypt: New Kingdom (largest) on bottom → Early Dynastic (narrowest) on top
+  'new-kingdom-egypt':     1,
+  'old-kingdom-egypt':     2,
+  'early-dynastic-egypt':  3,
+  // Nubia/Kush
+  'kingdom-of-kush':  1,
+  'ancient-nubia':    2,
+  // Near East: Persian (huge) on bottom → smaller territories on top
+  'persian-empire':          1,
+  'mesopotamia':             2,
+  'elamite-civilization':    3,
+  'assyrian-empire':         4,
+  'hittite-empire':          5,
+}
+
 export const GLOBE_CIVS: GlobeCiv[] = NAVIGATOR_TLS
   .filter(tl => tl.hasContent && TERRITORIES[tl.id])
   .map(tl => {
     const coords = TERRITORIES[tl.id]
+    const layer = LAYER_ORDER[tl.id] ?? 0
     return {
       id: tl.id,
       label: tl.label,
@@ -187,6 +217,7 @@ export const GLOBE_CIVS: GlobeCiv[] = NAVIGATOR_TLS
       hasContent: !!tl.hasContent,
       centroid: centroidOf(coords),
       color: getAccentColors(tl.id).base,
+      altOffset: layer * 0.002,
       geometry: poly(coords),
     }
   })

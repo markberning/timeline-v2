@@ -79,9 +79,10 @@ export default function GlobeView() {
           return hexToRgba(d.color, 0.08)
         })
         .polygonAltitude((d: any) => {
-          if (d.active) return 0.03
-          if (d.facing) return 0.015
-          return 0.004
+          const off = d.altOffset ?? 0
+          if (d.active) return 0.03 + off
+          if (d.facing) return 0.015 + off
+          return 0.004 + off
         })
         .polygonLabel(() => '')
         .polygonsTransitionDuration(300)
