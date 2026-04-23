@@ -969,7 +969,7 @@ export default function Globe2() {
 
             {chain ? (
               <div className={styles.groupLabel} style={{ color: cardColor }}>
-                {chain.shortLabel} <span style={{ opacity: 0.6 }}>({chain.pos}/{chain.total})</span>
+                {chain.shortLabel} ({chain.pos}/{chain.total})
               </div>
             ) : (
               <div className={styles.groupLabel} style={{ color: cardColor }}>
