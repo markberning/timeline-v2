@@ -89,10 +89,9 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
       {/* Region labels — overlays the scroll container's left edge */}
       {mode === 'swim' && (
         <div
-          className="absolute left-0 top-0 bottom-0 z-20 pointer-events-none border-r border-foreground/10"
-          style={{ width: regionColWidth, backgroundColor: 'color-mix(in srgb, var(--foreground) 3%, var(--background))' }}
+          className="absolute left-0 bottom-0 z-20 pointer-events-none border-r border-foreground/10"
+          style={{ top: TICK_AXIS_HEIGHT, width: regionColWidth, backgroundColor: 'color-mix(in srgb, var(--foreground) 3%, var(--background))' }}
         >
-          <div style={{ height: TICK_AXIS_HEIGHT }} />
           {REGION_ORDER.map(region => (
             <div
               key={region}
