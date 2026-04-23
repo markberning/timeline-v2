@@ -17,9 +17,7 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
           The Civ Lib
         </h1>
         <p className="text-sm lg:text-base text-foreground/50 mt-1">
-          {isDesktop
-            ? 'Click any bar for details.'
-            : 'Scroll the list.'}
+          a library of civilizations
         </p>
       </div>
       <div className="shrink-0 mt-1">
