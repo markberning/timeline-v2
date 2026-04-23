@@ -32,11 +32,6 @@ const OCEAN_COLOR = '#8aadbe'
 const LAND_COLOR = '#d4c8a8'
 const BORDER_COLOR = 'rgba(90,80,60,0.4)'
 
-// Label data extends GlobeCiv with a mutable "nearest to camera" flag
-interface LabelDatum extends GlobeCiv {
-  _nearest: boolean
-}
-
 export default function GlobeView() {
   const containerRef = useRef<HTMLDivElement>(null)
   const globeRef = useRef<any>(null)
@@ -59,22 +54,14 @@ export default function GlobeView() {
 
       if (!mounted || !containerRef.current) return
 
-      // ── Data layers ──
+      // ── Data ──
 
-      // Country outlines (always visible)
       const countriesGeo = feature(worldTopo, worldTopo.objects.countries) as any
       const countryPolygons = countriesGeo.features.map((f: any) => ({
         type: 'country' as const,
         geometry: f.geometry,
       }))
 
-      // Civ labels (dots + names, always visible)
-      const labelData: LabelDatum[] = GLOBE_CIVS.map(civ => ({
-        ...civ,
-        _nearest: false,
-      }))
-
-      // Helper: rebuild polygonsData with optional active territory
       function buildPolygons(civId: string | null) {
         if (!civId) return [...countryPolygons]
         const civ = GLOBE_CIVS.find(c => c.id === civId)
@@ -82,7 +69,7 @@ export default function GlobeView() {
         return [...countryPolygons, { type: 'civ' as const, ...civ }]
       }
 
-      // Debounced hover manager — handles label→polygon mouse transitions
+      // Debounced hover — handles label-box → territory mouse transitions
       function setHovered(civId: string | null) {
         if (hoverClearTimer) { clearTimeout(hoverClearTimer); hoverClearTimer = null }
         if (civId) {
@@ -91,13 +78,14 @@ export default function GlobeView() {
           setActiveCiv(GLOBE_CIVS.find(c => c.id === civId) ?? null)
         } else {
           hoverClearTimer = setTimeout(() => {
+            if (!mounted) return
             hoveredIdRef.current = null
             globe.polygonsData(buildPolygons(null))
-          }, 150)
+          }, 300)
         }
       }
 
-      // ── Globe init ──
+      // ── Globe ──
 
       // eslint-disable-next-line new-cap
       const globe = new (GlobeCtor as any)(containerRef.current)
@@ -106,19 +94,17 @@ export default function GlobeView() {
         .atmosphereColor('#b0c8d8')
         .atmosphereAltitude(0.12)
 
-        // Polygons: countries + hovered civ territory
+        // Polygons: country outlines + hovered civ territory
         .polygonsData(buildPolygons(null))
         .polygonGeoJsonGeometry((d: any) => d.geometry)
-        .polygonCapColor((d: any) => {
-          if (d.type === 'country') return LAND_COLOR
-          return hexToRgba(d.color, 0.5)
-        })
+        .polygonCapColor((d: any) =>
+          d.type === 'country' ? LAND_COLOR : hexToRgba(d.color, 0.5),
+        )
         .polygonSideColor(() => 'rgba(0,0,0,0)')
-        .polygonStrokeColor((d: any) => {
-          if (d.type === 'country') return BORDER_COLOR
-          return hexToRgba(d.color, 0.8)
-        })
-        .polygonAltitude((d: any) => d.type === 'country' ? 0.006 : 0.01)
+        .polygonStrokeColor((d: any) =>
+          d.type === 'country' ? BORDER_COLOR : hexToRgba(d.color, 0.8),
+        )
+        .polygonAltitude((d: any) => (d.type === 'country' ? 0.006 : 0.01))
         .polygonLabel(() => '')
         .polygonsTransitionDuration(200)
         .onPolygonClick((d: any) => {
@@ -129,20 +115,59 @@ export default function GlobeView() {
           else setHovered(null)
         })
 
-        // Labels: civ dots + names
-        .labelsData(labelData)
-        .labelLat((d: any) => d.centroid[1])
-        .labelLng((d: any) => d.centroid[0])
-        .labelText((d: any) => d.label)
-        .labelSize((d: any) => d._nearest ? 1.8 : 1.2)
-        .labelDotRadius((d: any) => d._nearest ? 0.5 : 0.3)
-        .labelColor((d: any) => d.color)
-        .labelResolution(2)
-        .labelAltitude(0.015)
-        .labelsTransitionDuration(300)
-        .onLabelHover((label: any) => setHovered(label?.id ?? null))
-        .onLabelClick((label: any) => {
-          if (label?.hasContent) window.location.href = `/${label.id}`
+        // Points: colored dots at each civ centroid
+        .pointsData(GLOBE_CIVS)
+        .pointLat((d: any) => d.centroid[1])
+        .pointLng((d: any) => d.centroid[0])
+        .pointColor((d: any) => d.color)
+        .pointRadius(0.35)
+        .pointAltitude(0.008)
+
+        // HTML elements: styled label boxes at offset positions
+        .htmlElementsData(GLOBE_CIVS)
+        .htmlLat((d: any) => d.labelPos[1])
+        .htmlLng((d: any) => d.labelPos[0])
+        .htmlAltitude(0.025)
+        .htmlElement((d: any) => {
+          const box = document.createElement('div')
+          box.textContent = d.label
+          box.style.cssText = [
+            'background: rgba(30, 28, 25, 0.85)',
+            `border: 1px solid ${hexToRgba(d.color, 0.3)}`,
+            `border-left: 3px solid ${d.color}`,
+            'border-radius: 6px',
+            'padding: 3px 8px',
+            'color: #e8e0d4',
+            'font-size: 11px',
+            'font-weight: 500',
+            'font-family: system-ui, sans-serif',
+            'cursor: pointer',
+            'white-space: nowrap',
+            'transition: all 0.2s ease',
+            'pointer-events: auto',
+            'user-select: none',
+          ].join(';')
+
+          box.addEventListener('mouseenter', () => {
+            box.style.background = 'rgba(30, 28, 25, 0.95)'
+            box.style.borderColor = d.color
+            box.style.color = '#fff'
+            box.style.transform = 'scale(1.08)'
+            box.style.boxShadow = `0 0 12px ${hexToRgba(d.color, 0.3)}`
+            setHovered(d.id)
+          })
+          box.addEventListener('mouseleave', () => {
+            box.style.background = 'rgba(30, 28, 25, 0.85)'
+            box.style.borderColor = hexToRgba(d.color, 0.3)
+            box.style.color = '#e8e0d4'
+            box.style.transform = 'scale(1)'
+            box.style.boxShadow = 'none'
+            setHovered(null)
+          })
+          box.addEventListener('click', () => {
+            if (d.hasContent) window.location.href = `/${d.id}`
+          })
+          return box
         })
 
         .width(window.innerWidth)
@@ -150,7 +175,7 @@ export default function GlobeView() {
 
       globeRef.current = globe
 
-      // Set globe material to ocean color (no photo texture)
+      // Set globe to solid ocean color
       const mat = globe.globeMaterial() as any
       mat.color.set(OCEAN_COLOR)
       mat.shininess = 5
@@ -165,40 +190,33 @@ export default function GlobeView() {
       controls.minDistance = 150
       controls.maxDistance = 450
 
-      // Face-camera detection — highlights nearest civ label + shows card
+      // Face-camera detection — passive card only (no label visual change)
       let prevNearestId: string | null = null
 
       intervalId = setInterval(() => {
         if (!mounted) return
-        // If user is hovering, don't override with face-camera
-        if (hoveredIdRef.current) return
+        if (hoveredIdRef.current) return // hover overrides face-camera
 
         const pov = globe.pointOfView()
-        let nearest: LabelDatum | null = null
+        let nearest: GlobeCiv | null = null
         let nearestDist = Infinity
 
-        for (const l of labelData) {
-          const dist = angularDist(pov.lat, pov.lng, l.centroid[1], l.centroid[0])
-          if (dist < nearestDist && l.hasContent) {
+        for (const c of GLOBE_CIVS) {
+          const dist = angularDist(pov.lat, pov.lng, c.centroid[1], c.centroid[0])
+          if (dist < nearestDist && c.hasContent) {
             nearestDist = dist
-            nearest = l
+            nearest = c
           }
         }
 
-        const newNearestId =
-          nearest && nearestDist < ACTIVE_THRESHOLD ? nearest.id : null
-
-        if (newNearestId !== prevNearestId) {
-          prevNearestId = newNearestId
-          for (const l of labelData) l._nearest = l.id === newNearestId
-          globe.labelsData([...labelData])
-          setActiveCiv(
-            newNearestId ? GLOBE_CIVS.find(c => c.id === newNearestId) ?? null : null,
-          )
+        const newId = nearest && nearestDist < ACTIVE_THRESHOLD ? nearest.id : null
+        if (newId !== prevNearestId) {
+          prevNearestId = newId
+          setActiveCiv(newId ? nearest : null)
         }
       }, 200)
 
-      // Window resize
+      // Resize
       resizeHandler = () => {
         globe.width(window.innerWidth).height(window.innerHeight)
       }
@@ -218,7 +236,6 @@ export default function GlobeView() {
     <div className="fixed inset-0 bg-[#1a1917]">
       <div ref={containerRef} className="w-full h-full" />
 
-      {/* Back button */}
       <button
         onClick={() => (window.location.href = '/')}
         className="fixed top-5 left-5 z-10 text-white/60 hover:text-white/90 transition-colors text-sm font-medium flex items-center gap-1.5"
@@ -227,7 +244,6 @@ export default function GlobeView() {
         Back
       </button>
 
-      {/* Active civ card */}
       <div
         className={`fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out pointer-events-none ${
           activeCiv ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
