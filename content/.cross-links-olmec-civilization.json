@@ -1,0 +1,92 @@
+{
+  "1": [
+    {
+      "matchText": "Norte Chico civilization of Peru",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 3,
+      "blurb": "The Norte Chico civilization on Peru's desert coast was building monumental temple complexes without pottery, writing, or warfare at the same time the Olmec were getting started. Both were among the earliest complex societies in the Americas, but they developed completely independently, separated by thousands of miles of jungle and ocean with no contact between them."
+    },
+    {
+      "matchText": "Indus Valley Civilization",
+      "targetTl": "indus-valley",
+      "targetChapter": 4,
+      "blurb": "The Indus Valley Civilization spread across the dry, manageable floodplains of modern Pakistan and northwest India, building standardized brick cities with grid streets and the ancient world's most sophisticated urban drainage. Unlike the Olmec's jungle environment, the Indus landscape rewarded planning and control — and the Indus people standardized everything from brick sizes to weights across a vast, uniform region."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "Shang dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "Around 1200 BCE, while the Olmec were building San Lorenzo, the Shang dynasty in China was at its peak at Anyang — casting the largest bronze ritual vessels ever made, divining the future through oracle bones, and ruling a state that stretched across the Yellow River basin. Both civilizations expressed political power through monumental art, but the Shang had writing, bronze, and chariots that the Olmec lacked."
+    },
+    {
+      "matchText": "New Kingdom",
+      "targetTl": "new-kingdom-egypt",
+      "targetChapter": 5,
+      "blurb": "Around 1200 BCE, the New Kingdom pharaohs were at the height of their power — Ramesses II had just signed the world's first peace treaty with the Hittites, the Valley of the Kings was filling with spectacular royal tombs, and Egypt's empire stretched from Nubia to Syria. Both Egypt and the Olmec were building monumental architecture to express divine kingship, on opposite sides of the world with no contact between them."
+    },
+    {
+      "matchText": "Indus Valley Civilization",
+      "targetTl": "indus-valley",
+      "targetChapter": 5,
+      "blurb": "The Indus Valley Civilization had been building covered brick drains under its streets since roughly 2600 BCE, over a thousand years before San Lorenzo's basalt-trough drainage system. The Indus drains served cities of 40,000 people with standardized urban planning — a dramatically larger scale than San Lorenzo, but the engineering sophistication is comparable."
+    }
+  ],
+  "4": [
+    {
+      "matchText": "the Shang kings divined the will of ancestors through oracle bones",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 4,
+      "blurb": "The Shang kings in China derived their legitimacy from divination — heating cattle bones and turtle shells to crack patterns that they read as messages from royal ancestors. Like the Olmec shaman-rulers, Shang kings claimed unique access to the supernatural world, but through ancestral spirits and systematic written divination rather than jaguar transformation and bloodletting."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "jade-working traditions",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Shang dynasty's jade-carving tradition at Anyang produced some of the finest jade objects in the ancient world — ceremonial blades, ornaments, and ritual objects carved with a mastery that developed independently of the Olmec tradition on the opposite side of the Pacific. Both civilizations treated jade as the most precious material in their world, a remarkable convergence with no contact between them."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "Shang dynasty's bronze vessel offerings buried in ritual pits",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 6,
+      "blurb": "The Shang dynasty buried spectacular bronze vessels, jade objects, and sacrificial victims in ritual pits at sites like Sanxingdui and Yinxu — offerings meant to serve the dead in the afterlife. The Olmec took a different approach: their serpentine mosaics and jade caches at La Venta were buried not in tombs but simply in the ground, as gifts to the earth itself."
+    },
+    {
+      "matchText": "Great Pyramid of Khufu at Giza",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 8,
+      "blurb": "The Great Pyramid of Khufu, built around 2560 BCE, contains about 91 million cubic feet of stone and represents the resources of a unified Egyptian state that could conscript tens of thousands of laborers. La Venta's Great Pyramid, built roughly 1,800 years later with packed earth carried in baskets, is less famous but arguably more impressive per capita — achieving monumental scale with the resources of a single polity in a tropical swamp."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "earliest Sumerian proto-cuneiform tablets",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "The earliest Sumerian proto-cuneiform tablets from Uruk, dating to roughly 3400 BCE, are accounting records — lists of grain, livestock, and labor, not literature. Like the Cascajal Block, they sit at the boundary between record-keeping and true writing, and scholars have debated for decades whether they encode full language or merely structured information."
+    },
+    {
+      "matchText": "earliest Egyptian hieroglyphs",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 4,
+      "blurb": "The earliest Egyptian hieroglyphs, dating to roughly 3200 BCE, are short labels on ivory tags and pottery — names, titles, and numbers, not sentences. Like the Olmec Cascajal Block, they represent the very beginning of a writing tradition that would take centuries to develop into a full script capable of recording literature and law."
+    },
+    {
+      "matchText": "Chinese oracle bones",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 4,
+      "blurb": "The Shang oracle bone script, appearing around 1200 BCE, is fully developed writing from its earliest known examples — a script that could record questions, answers, and dates with a vocabulary of over 4,000 characters. Unlike the Cascajal Block's 28 sign types, oracle bone script was already a mature system, suggesting a long development period whose earlier stages have not survived."
+    },
+    {
+      "matchText": "Indus Valley script",
+      "targetTl": "indus-valley",
+      "targetChapter": 6,
+      "blurb": "The Indus Valley script, used from roughly 2600 to 1900 BCE on seals, tablets, and pottery, remains undeciphered after a century of effort. Like the Olmec Cascajal Block, it sits in the uncertain zone between proto-writing and true writing, and some scholars have argued it isn't writing at all — making it and the Cascajal Block the two great unresolved cases in the history of writing."
+    }
+  ]
+}
