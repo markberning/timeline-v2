@@ -89,8 +89,8 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
       {/* Region labels — overlays the scroll container's left edge */}
       {mode === 'swim' && (
         <div
-          className="absolute left-0 bottom-0 z-20 pointer-events-none border-r border-foreground/10"
-          style={{ top: TICK_AXIS_HEIGHT, width: regionColWidth, backgroundColor: 'color-mix(in srgb, var(--foreground) 3%, var(--background))' }}
+          className="absolute left-0 bottom-0 z-20 pointer-events-none"
+          style={{ top: TICK_AXIS_HEIGHT, width: regionColWidth }}
         >
           {REGION_ORDER.map(region => (
             <div
@@ -107,6 +107,20 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
             </div>
           ))}
         </div>
+      )}
+
+      {/* Fade overlay — content fades out approaching the region labels */}
+      {mode === 'swim' && (
+        <div
+          className="absolute z-10 pointer-events-none"
+          style={{
+            top: TICK_AXIS_HEIGHT,
+            bottom: 0,
+            left: regionColWidth,
+            width: 30,
+            background: 'linear-gradient(to right, var(--background), transparent)',
+          }}
+        />
       )}
 
       {/* Scrollable ribbon container */}
