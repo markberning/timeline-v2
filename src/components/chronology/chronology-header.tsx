@@ -25,7 +25,7 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
           href="/globe"
           className="text-foreground/40 hover:text-foreground/70 text-xs font-semibold tracking-wider uppercase transition-colors"
         >
-          Globe
+          Globe View
         </a>
         <DarkModeToggle />
       </div>
