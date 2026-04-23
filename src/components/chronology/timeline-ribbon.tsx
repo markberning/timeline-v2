@@ -82,7 +82,8 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
     }
   }, [activeCivId, yearToX, mode, scrollRef])
 
-  const regionColWidth = 56
+  const regionColWidth = 62
+  const fadeWidth = 24
 
   return (
     <div className="border-y border-foreground/10 shrink-0 relative">
@@ -117,7 +118,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
             top: TICK_AXIS_HEIGHT,
             bottom: 0,
             left: regionColWidth,
-            width: 30,
+            width: fadeWidth,
             background: 'linear-gradient(to right, var(--background), transparent)',
           }}
         />
@@ -130,7 +131,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef }: Timel
         style={{
           height: ribbonHeight,
           WebkitOverflowScrolling: 'touch',
-          paddingLeft: mode === 'swim' ? regionColWidth : 0,
+          paddingLeft: mode === 'swim' ? regionColWidth + fadeWidth : 0,
         }}
       >
         <div className="relative" style={{ width: totalWidth, height: ribbonHeight }}>
