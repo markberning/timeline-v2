@@ -31,7 +31,7 @@ const ACTIVE_THRESHOLD = 30
 // Globe palette
 const OCEAN_COLOR = '#8aadbe'
 const LAND_COLOR = '#d4c8a8'
-const BORDER_COLOR = 'rgba(90,80,60,0.4)'
+const BORDER_COLOR = 'rgba(90,80,60,0.35)'
 
 export default function GlobeView() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -41,7 +41,6 @@ export default function GlobeView() {
   const [activeCiv, setActiveCiv] = useState<GlobeCiv | null>(null)
   const [sidebarOpen, setSidebarOpen] = useState(true)
 
-  // Group civs by region for the sidebar
   const civsByRegion = useMemo(
     () =>
       REGION_ORDER.map(rk => ({
@@ -58,6 +57,7 @@ export default function GlobeView() {
     let mounted = true
     let intervalId: ReturnType<typeof setInterval>
     let resizeHandler: (() => void) | null = null
+    let pageshowHandler: ((e: PageTransitionEvent) => void) | null = null
     let hoverClearTimer: ReturnType<typeof setTimeout> | null = null
     const hoveredIdRef: { current: string | null } = { current: null }
 
@@ -78,35 +78,48 @@ export default function GlobeView() {
         geometry: f.geometry,
       }))
 
-      function buildPolygons(civId: string | null) {
-        if (!civId) return [...countryPolygons]
-        const civ = GLOBE_CIVS.find(c => c.id === civId)
-        if (!civ) return [...countryPolygons]
-        return [...countryPolygons, { type: 'civ' as const, ...civ }]
+      // Memoized polygon builder — only creates a new array when the active
+      // civ changes. Prevents redundant globe.gl re-renders that cause flicker.
+      let currentCivId: string | null = null
+      let currentPolygons: any[] = countryPolygons
+
+      function updatePolygons(civId: string | null) {
+        if (civId === currentCivId) return // no change — skip re-render
+        currentCivId = civId
+        if (!civId) {
+          currentPolygons = countryPolygons // stable reference
+        } else {
+          const civ = GLOBE_CIVS.find(c => c.id === civId)
+          currentPolygons = civ
+            ? [...countryPolygons, { type: 'civ' as const, ...civ }]
+            : countryPolygons
+        }
+        globe.polygonsData(currentPolygons)
       }
 
-      // Debounced hover — used by dots, sidebar, and territory polygon
+      // Debounced hover — shared by dots, sidebar, and territory polygon
       function setHovered(civId: string | null) {
         if (hoverClearTimer) {
           clearTimeout(hoverClearTimer)
           hoverClearTimer = null
         }
         if (civId) {
+          if (hoveredIdRef.current === civId) return // already active
           hoveredIdRef.current = civId
-          globe.polygonsData(buildPolygons(civId))
+          updatePolygons(civId)
           setHoveredId(civId)
           setActiveCiv(GLOBE_CIVS.find(c => c.id === civId) ?? null)
         } else {
+          if (!hoveredIdRef.current) return // already cleared
           hoverClearTimer = setTimeout(() => {
             if (!mounted) return
             hoveredIdRef.current = null
-            globe.polygonsData(buildPolygons(null))
+            updatePolygons(null)
             setHoveredId(null)
           }, 300)
         }
       }
 
-      // Expose setHovered to React via ref
       setHoveredRef.current = setHovered
 
       // ── Globe ──
@@ -119,7 +132,7 @@ export default function GlobeView() {
         .atmosphereAltitude(0.12)
 
         // Polygons: country outlines + hovered territory
-        .polygonsData(buildPolygons(null))
+        .polygonsData(countryPolygons)
         .polygonGeoJsonGeometry((d: any) => d.geometry)
         .polygonCapColor((d: any) =>
           d.type === 'country' ? LAND_COLOR : hexToRgba(d.color, 0.5),
@@ -128,7 +141,10 @@ export default function GlobeView() {
         .polygonStrokeColor((d: any) =>
           d.type === 'country' ? BORDER_COLOR : hexToRgba(d.color, 0.8),
         )
-        .polygonAltitude((d: any) => (d.type === 'country' ? 0.006 : 0.01))
+        .polygonAltitude((d: any) => {
+          if (d.type === 'country') return 0.01
+          return 0.02 + (d.altOffset ?? 0)
+        })
         .polygonLabel(() => '')
         .polygonsTransitionDuration(200)
         .onPolygonClick((d: any) => {
@@ -158,7 +174,7 @@ export default function GlobeView() {
 
       globeRef.current = globe
 
-      // Solid ocean globe — no photo texture
+      // Solid ocean globe
       const mat = globe.globeMaterial() as any
       mat.color.set(OCEAN_COLOR)
       mat.shininess = 5
@@ -198,13 +214,19 @@ export default function GlobeView() {
           prevNearestId = newId
           setActiveCiv(newId ? nearest : null)
         }
-      }, 200)
+      }, 500)
 
       // Resize
       resizeHandler = () => {
         globe.width(window.innerWidth).height(window.innerHeight)
       }
       window.addEventListener('resize', resizeHandler)
+
+      // Handle browser back button — bfcache kills WebGL context
+      pageshowHandler = (e: PageTransitionEvent) => {
+        if (e.persisted) window.location.reload()
+      }
+      window.addEventListener('pageshow', pageshowHandler)
     })()
 
     return () => {
@@ -212,13 +234,13 @@ export default function GlobeView() {
       clearInterval(intervalId)
       if (hoverClearTimer) clearTimeout(hoverClearTimer)
       if (resizeHandler) window.removeEventListener('resize', resizeHandler)
+      if (pageshowHandler) window.removeEventListener('pageshow', pageshowHandler)
       if (globeRef.current) globeRef.current._destructor()
     }
   }, [])
 
   return (
     <div className="fixed inset-0 bg-[#1a1917]">
-      {/* Globe */}
       <div ref={containerRef} className="w-full h-full" />
 
       {/* Back button */}
@@ -230,7 +252,7 @@ export default function GlobeView() {
         Back
       </button>
 
-      {/* Sidebar toggle (when collapsed) */}
+      {/* Sidebar toggle (collapsed) */}
       {!sidebarOpen && (
         <button
           onClick={() => setSidebarOpen(true)}
@@ -247,7 +269,6 @@ export default function GlobeView() {
         }`}
       >
         <div className="h-full w-52 bg-black/70 backdrop-blur-md border-l border-white/10 flex flex-col">
-          {/* Header */}
           <div className="px-4 py-3 flex items-center justify-between border-b border-white/10 shrink-0">
             <span className="text-[10px] font-semibold text-white/50 uppercase tracking-[0.15em]">
               Civilizations
@@ -260,7 +281,6 @@ export default function GlobeView() {
             </button>
           </div>
 
-          {/* Civ list grouped by region */}
           <div className="flex-1 overflow-y-auto py-1">
             {civsByRegion.map(group => (
               <div key={group.key}>
@@ -276,13 +296,10 @@ export default function GlobeView() {
                     onMouseEnter={() => setHoveredRef.current(civ.id)}
                     onMouseLeave={() => setHoveredRef.current(null)}
                     onClick={() => {
-                      if (civ.hasContent)
-                        window.location.href = `/${civ.id}`
+                      if (civ.hasContent) window.location.href = `/${civ.id}`
                     }}
                     className={`w-full text-left px-4 py-1.5 flex items-center gap-2.5 transition-colors ${
-                      hoveredId === civ.id
-                        ? 'bg-white/10'
-                        : 'hover:bg-white/5'
+                      hoveredId === civ.id ? 'bg-white/10' : 'hover:bg-white/5'
                     }`}
                   >
                     <span
