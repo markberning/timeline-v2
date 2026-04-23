@@ -145,7 +145,11 @@ export function getCivColor(civId: string): string {
   return _civColorMap.get(civId) ?? '#d97706'
 }
 
-/** Map globe civ IDs → reader page slugs (only civs with shipped content). */
+/**
+ * Map globe civ IDs → reader page slugs (only civs with shipped content).
+ * Globe has finer-grained civs than the reader; multiple globe civs can map
+ * to the same reader TL (e.g. Sumer/Akkad/Babylon → mesopotamia).
+ */
 const GLOBE_TO_READER: Record<string, string> = {
   sumer: 'mesopotamia',
   akkad: 'mesopotamia',
@@ -157,7 +161,6 @@ const GLOBE_TO_READER: Record<string, string> = {
   parthia: 'persian-empire',
   sassanid: 'persian-empire',
   'egypt-old': 'old-kingdom-egypt',
-  'egypt-middle': 'new-kingdom-egypt',
   'egypt-new': 'new-kingdom-egypt',
   kush: 'kingdom-of-kush',
   indus: 'indus-valley',
@@ -172,13 +175,58 @@ const GLOBE_TO_READER: Record<string, string> = {
   chavin: 'early-andean-civilizations',
   goguryeo: 'ancient-korea',
   silla: 'ancient-korea',
-  // Nubia
   aksum: 'ancient-nubia',
 }
 
 /** Get the reader page slug for a globe civ, or null if no content. */
 export function getReaderSlug(civId: string): string | null {
   return GLOBE_TO_READER[civId] ?? null
+}
+
+/**
+ * Chain info for each globe civ: chain label, position (1-based), total members.
+ * Maps globe civ ID → its reader TL's chain membership.
+ */
+export interface ChainInfo {
+  label: string       // e.g. "Chinese Dynasties"
+  shortLabel: string  // e.g. "China"
+  pos: number         // 1-based position in chain
+  total: number       // total members in chain
+}
+
+// Chain definitions (matches reference-data/tl-chains.ts)
+const CHAINS: { label: string; shortLabel: string; members: string[] }[] = [
+  { label: 'Mesopotamian Succession', shortLabel: 'Mesopotamia', members: ['mesopotamia','assyrian-empire','islamic-golden-age'] },
+  { label: 'Nile Valley', shortLabel: 'Nile', members: ['early-dynastic-egypt','old-kingdom-egypt','new-kingdom-egypt','late-egypt'] },
+  { label: 'Nubian Tradition', shortLabel: 'Nubia', members: ['ancient-nubia','kingdom-of-kush','kingdom-of-aksum'] },
+  { label: 'Persian Tradition', shortLabel: 'Persia', members: ['elamite-civilization','persian-empire','safavid-persia'] },
+  { label: 'Indian Subcontinent', shortLabel: 'India', members: ['indus-valley','vedic-period','maurya-empire','post-maurya-kingdoms','gupta-empire','medieval-india','delhi-sultanate','mughal-empire','modern-india'] },
+  { label: 'Chinese Dynasties', shortLabel: 'China', members: ['ancient-china','shang-dynasty','zhou-dynasty','qin-dynasty','han-dynasty','six-dynasties','tang-song-china','yuan-dynasty','ming-dynasty','qing-dynasty','chinese-revolution','rise-of-china'] },
+  { label: 'Korean Civilization', shortLabel: 'Korea', members: ['ancient-korea','joseon-korea','korean-modern'] },
+  { label: 'Greco-Roman World', shortLabel: 'Greco-Roman', members: ['minoan-civilization','mycenaean-civilization','ancient-greece','ancient-rome','byzantine-empire'] },
+  { label: 'Anatolian Powers', shortLabel: 'Anatolia', members: ['hittite-empire','ottoman-empire'] },
+  { label: 'Mesoamerican Civilizations', shortLabel: 'Mesoamerica', members: ['olmec-civilization','maya-civilization','aztec-empire'] },
+  { label: 'Andean Civilizations', shortLabel: 'Andes', members: ['early-andean-civilizations','andean-kingdoms','middle-horizon-empires','inca-empire'] },
+]
+
+// Build a lookup: reader TL id → chain info
+const _readerChainMap = new Map<string, ChainInfo>()
+for (const chain of CHAINS) {
+  for (let i = 0; i < chain.members.length; i++) {
+    _readerChainMap.set(chain.members[i], {
+      label: chain.label,
+      shortLabel: chain.shortLabel,
+      pos: i + 1,
+      total: chain.members.length,
+    })
+  }
+}
+
+/** Get chain info for a globe civ, or null if not in a chain. */
+export function getCivChain(civId: string): ChainInfo | null {
+  const readerSlug = GLOBE_TO_READER[civId]
+  if (!readerSlug) return null
+  return _readerChainMap.get(readerSlug) ?? null
 }
 
 export const TIME_MIN = -5000

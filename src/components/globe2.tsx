@@ -19,14 +19,9 @@ import {
   ERAS,
   getCivColor,
   getReaderSlug,
+  getCivChain,
   type GlobeCiv2,
-  type Globe2Group,
 } from '@/lib/globe2-data'
-
-/** Find the group a civ belongs to. */
-function getCivGroup(civId: string): Globe2Group | undefined {
-  return GLOBE2_GROUPS.find(g => g.ids.includes(civId))
-}
 import styles from './globe2.module.css'
 
 /* ── helpers ─────────────────────────────────────────────────── */
@@ -946,7 +941,7 @@ export default function Globe2() {
       {/* ── Info card ─────────────────────────────────────── */}
       {selected && (() => {
         const cardColor = getCivColor(selected.id)
-        const group = getCivGroup(selected.id)
+        const chain = getCivChain(selected.id)
         const readerSlug = getReaderSlug(selected.id)
         return (
           <div
@@ -972,9 +967,13 @@ export default function Globe2() {
               ))}
             </div>
 
-            {group && (
+            {chain ? (
               <div className={styles.groupLabel} style={{ color: cardColor }}>
-                {group.label} <span style={{ opacity: 0.6 }}>({group.ids.length})</span>
+                {chain.shortLabel} <span style={{ opacity: 0.6 }}>({chain.pos}/{chain.total})</span>
+              </div>
+            ) : (
+              <div className={styles.groupLabel} style={{ color: cardColor }}>
+                {selected.region}
               </div>
             )}
             <h2 className="font-[family-name:var(--font-lora)]">{selected.name}</h2>
