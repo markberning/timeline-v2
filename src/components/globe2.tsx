@@ -897,19 +897,21 @@ export default function Globe2() {
 
       {/* ── Title block ───────────────────────────────────── */}
       <div className={styles.titleBlock}>
-        <a
-          href="/"
-          className={`${styles.kicker} ${styles.homeLink} font-[family-name:var(--font-geist-sans)]`}
-        >
-          &larr; Stuff Happened
-        </a>
+        <div className={styles.eyebrow}>
+          <a
+            href="/"
+            className={`${styles.homeLink} font-[family-name:var(--font-geist-sans)]`}
+          >
+            &larr; Stuff Happened
+          </a>
+        </div>
         <div className={`${styles.title} font-[family-name:var(--font-lora)]`}>
           Historica
         </div>
         <div
           className={`${styles.subtitle} font-[family-name:var(--font-geist-sans)]`}
         >
-          Drag to spin &middot; Click a pin to explore
+          a globe of civilizations
         </div>
       </div>
 

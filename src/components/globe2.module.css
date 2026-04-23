@@ -644,39 +644,42 @@
 /* ── Title block ─────────────────────────────────────────────── */
 .titleBlock {
   position: absolute;
-  top: 14px;
-  left: 16px;
+  top: 20px;
+  left: 20px;
   z-index: 20;
   pointer-events: none;
 }
 
-.titleBlock .kicker {
-  font-size: 11px;
+.eyebrow {
+  font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--globe-accent);
-  margin-bottom: 2px;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  color: var(--globe-text-muted);
+  margin-bottom: 4px;
+  pointer-events: auto;
 }
 
 .homeLink {
-  pointer-events: auto;
+  color: var(--globe-text-muted);
   text-decoration: none;
-  transition: opacity 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 .homeLink:hover {
-  opacity: 0.7;
+  color: var(--globe-text);
 }
 
 .titleBlock .title {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1.15;
   color: var(--globe-text);
 }
 
 .titleBlock .subtitle {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--globe-text-muted);
   margin-top: 4px;
 }
@@ -750,12 +753,16 @@
   }
 
   .titleBlock {
-    top: 10px;
-    left: 12px;
+    top: 16px;
+    left: 16px;
   }
 
   .titleBlock .title {
-    font-size: 20px;
+    font-size: 24px;
+  }
+
+  .titleBlock .subtitle {
+    font-size: 12px;
   }
 
   .pinDot {
