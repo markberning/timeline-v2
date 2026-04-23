@@ -181,6 +181,16 @@
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: opacity 0.15s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tipDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 /* ── Info card ────────────────────────────────────────────────── */

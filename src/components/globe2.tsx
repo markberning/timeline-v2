@@ -17,6 +17,7 @@ import {
   TIME_MIN,
   TIME_MAX,
   ERAS,
+  getCivColor,
   type GlobeCiv2,
 } from '@/lib/globe2-data'
 import styles from './globe2.module.css'
@@ -372,6 +373,9 @@ export default function Globe2() {
         const ring = asClosedRing(selCiv.extent as [number, number][])
         const geo: GeoJSON.Polygon = { type: 'Polygon', coordinates: [ring] }
         regionEl.setAttribute('d', path(geo) || '')
+        const regionColor = getCivColor(selCiv.id)
+        regionEl.style.fill = regionColor + '40'      // 25% opacity
+        regionEl.style.stroke = regionColor
       } else {
         regionEl.setAttribute('d', '')
       }
@@ -393,6 +397,7 @@ export default function Globe2() {
       const [lon, lat] = civ.capital
       const vis = isVisible(lon, lat, rotation)
       const coords = projection([lon, lat])
+      const civColor = getCivColor(civ.id)
 
       let g = pinsG.querySelector(`[data-civ-id="${civ.id}"]`) as SVGGElement | null
       if (!g) {
@@ -414,6 +419,12 @@ export default function Globe2() {
       }
       g.style.display = ''
       g.setAttribute('transform', `translate(${coords[0]},${coords[1]})`)
+
+      // Apply region color to pin
+      const dot = g.querySelector(`.${styles.pinDot}`) as SVGCircleElement | null
+      const halo = g.querySelector(`.${styles.pinHalo}`) as SVGCircleElement | null
+      if (dot) dot.style.fill = civColor
+      if (halo) halo.style.stroke = civColor
 
       // Focused / dimmed states
       const isFocused = civ.id === selectedId
@@ -526,6 +537,7 @@ export default function Globe2() {
       placed.push(bestRect)
       count++
 
+      const labelColor = getCivColor(civ.id)
       const g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
       g.classList.add(styles.civLabel)
       g.setAttribute('data-civ-id', civ.id)
@@ -541,6 +553,7 @@ export default function Globe2() {
       line.setAttribute('y1', String(py))
       line.setAttribute('x2', String(lx))
       line.setAttribute('y2', String(ly))
+      line.style.stroke = labelColor + '66'
       g.appendChild(line)
 
       // Bubble background
@@ -550,6 +563,7 @@ export default function Globe2() {
       rect.setAttribute('y', String(bestRect.y))
       rect.setAttribute('width', String(boxW))
       rect.setAttribute('height', String(boxH))
+      rect.style.stroke = labelColor + '66'
       g.appendChild(rect)
 
       // Text
@@ -631,16 +645,36 @@ export default function Globe2() {
       }
     }
 
+    function onDblClick(e: MouseEvent) {
+      e.preventDefault()
+      // Double-click zooms in
+      const startK = scaleRef.current
+      const targetK = Math.min(6, startK * 1.6)
+      const duration = 300
+      const t0 = performance.now()
+      function animateZoom(now: number) {
+        const t = Math.min(1, (now - t0) / duration)
+        const ease = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2
+        scaleRef.current = startK + (targetK - startK) * ease
+        projectionRef.current.scale(baseScaleRef.current * scaleRef.current)
+        renderGlobe()
+        if (t < 1) requestAnimationFrame(animateZoom)
+      }
+      requestAnimationFrame(animateZoom)
+    }
+
     svg.addEventListener('pointerdown', onPointerDown)
     svg.addEventListener('pointermove', onPointerMove)
     svg.addEventListener('pointerup', onPointerUp)
     svg.addEventListener('pointercancel', onPointerUp)
+    svg.addEventListener('dblclick', onDblClick)
 
     return () => {
       svg.removeEventListener('pointerdown', onPointerDown)
       svg.removeEventListener('pointermove', onPointerMove)
       svg.removeEventListener('pointerup', onPointerUp)
       svg.removeEventListener('pointercancel', onPointerUp)
+      svg.removeEventListener('dblclick', onDblClick)
     }
   }, [renderGlobe])
 
@@ -832,8 +866,13 @@ export default function Globe2() {
             left: hoverPos.x + 14,
             top: hoverPos.y - 28,
             opacity: 1,
+            borderColor: getCivColor(hoveredCiv.id) + '66',
           }}
         >
+          <span
+            className={styles.tipDot}
+            style={{ background: getCivColor(hoveredCiv.id) }}
+          />
           <strong>{hoveredCiv.name}</strong>
           <span
             className="font-[family-name:var(--font-geist-mono)]"
@@ -845,43 +884,47 @@ export default function Globe2() {
       )}
 
       {/* ── Info card ─────────────────────────────────────── */}
-      {selected && (
-        <div
-          className={`${styles.infoCard} font-[family-name:var(--font-geist-sans)]`}
-        >
-          <button
-            className={styles.closeBtn}
-            onClick={() => setSelectedId(null)}
-            aria-label="Close"
+      {selected && (() => {
+        const cardColor = getCivColor(selected.id)
+        return (
+          <div
+            className={`${styles.infoCard} font-[family-name:var(--font-geist-sans)]`}
+            style={{ borderColor: cardColor + '40' }}
           >
-            &times;
-          </button>
+            <button
+              className={styles.closeBtn}
+              onClick={() => setSelectedId(null)}
+              aria-label="Close"
+            >
+              &times;
+            </button>
 
-          {/* Era strip */}
-          <div className={styles.eraStrip}>
-            {eraStripForCiv(selected).map((era, i) => (
-              <span
-                key={i}
-                className={era.active ? styles.active : undefined}
-                style={{ background: era.color }}
-              />
-            ))}
-          </div>
-
-          <div className={styles.region}>{selected.region}</div>
-          <h2 className="font-[family-name:var(--font-lora)]">{selected.name}</h2>
-          <div className={`${styles.dates} font-[family-name:var(--font-geist-mono)]`}>
-            {yearSpan(selected.start, selected.end)}
-          </div>
-          <div className={styles.summary}>{selected.summary}</div>
-          {selected.cities.length > 0 && (
-            <div className={styles.cities}>
-              Key cities:{' '}
-              <span>{selected.cities.join(', ')}</span>
+            {/* Era strip */}
+            <div className={styles.eraStrip}>
+              {eraStripForCiv(selected).map((era, i) => (
+                <span
+                  key={i}
+                  className={era.active ? styles.active : undefined}
+                  style={{ background: era.active ? cardColor : era.color }}
+                />
+              ))}
             </div>
-          )}
-        </div>
-      )}
+
+            <div className={styles.region} style={{ color: cardColor }}>{selected.region}</div>
+            <h2 className="font-[family-name:var(--font-lora)]">{selected.name}</h2>
+            <div className={`${styles.dates} font-[family-name:var(--font-geist-mono)]`}>
+              {yearSpan(selected.start, selected.end)}
+            </div>
+            <div className={styles.summary}>{selected.summary}</div>
+            {selected.cities.length > 0 && (
+              <div className={styles.cities}>
+                Key cities:{' '}
+                <span>{selected.cities.join(', ')}</span>
+              </div>
+            )}
+          </div>
+        )
+      })()}
 
       {/* ── Drawer toggle ─────────────────────────────────── */}
       <button
@@ -917,8 +960,9 @@ export default function Globe2() {
           <div key={group.id} className={styles.drawerGroup}>
             <div
               className={`${styles.drawerGroupLabel} font-[family-name:var(--font-geist-sans)]`}
+              style={{ color: group.color }}
             >
-              {group.label}
+              {group.label} <span style={{ opacity: 0.6, fontWeight: 400 }}>({group.ids.length})</span>
             </div>
             {group.ids.map((id) => {
               const civ = GLOBE2_CIVS.find((c) => c.id === id)
@@ -930,7 +974,10 @@ export default function Globe2() {
                   className={`${styles.drawerItem} ${
                     selectedId === id ? styles.active : ''
                   }`}
-                  style={{ opacity: isActive ? 1 : 0.4 }}
+                  style={{
+                    opacity: isActive ? 1 : 0.4,
+                    ...(selectedId === id ? { background: group.color } : {}),
+                  }}
                   onClick={() => selectCiv(id)}
                 >
                   <span>{civ.name}</span>

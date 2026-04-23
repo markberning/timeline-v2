@@ -119,21 +119,31 @@ export const GLOBE2_CIVS: GlobeCiv2[] = [
 export interface Globe2Group {
   id: string
   label: string
+  color: string      // hex color for pins, region polygon, drawer labels
   ids: string[]
 }
 
 export const GLOBE2_GROUPS: Globe2Group[] = [
-  { id: "mesopotamia", label: "Mesopotamia & Near East", ids: ["sumer","akkad","babylon","assyria","elam","hittites","phoenicia","israel","urartu","achaemenid","parthia","sassanid"] },
-  { id: "egypt", label: "Egypt & Africa", ids: ["egypt-old","egypt-middle","egypt-new","kush","carthage","aksum","mali","songhai"] },
-  { id: "europe", label: "Mediterranean & Europe", ids: ["minoan","mycenaean","greece-classical","macedon","etruscan","roman-republic","roman-empire","byzantine","celts","franks","vikings","kievan-rus","hre"] },
-  { id: "steppe", label: "Eurasian Steppe", ids: ["scythians","xiongnu","huns","gokturk","mongol","timurid"] },
-  { id: "south-asia", label: "South Asia", ids: ["indus","maurya","gupta","chola","delhi","vijayanagara","mughal"] },
-  { id: "east-asia", label: "East Asia", ids: ["erlitou","shang","zhou","qin","han","tang","song","yuan","ming","goguryeo","silla","goryeo","yamato","heian"] },
-  { id: "se-asia", label: "Southeast Asia", ids: ["khmer","srivijaya","majapahit","dai-viet"] },
-  { id: "islamic", label: "Islamic World", ids: ["rashidun","abbasid","al-andalus","ottoman","safavid"] },
-  { id: "americas", label: "The Americas", ids: ["olmec","maya","teotihuacan","zapotec","toltec","aztec","chavin","nazca","moche","tiwanaku","wari","inca","mississippian","pueblo"] },
-  { id: "oceania", label: "Oceania", ids: ["polynesia"] },
+  { id: "mesopotamia", label: "Mesopotamia & Near East", color: "#d97706", ids: ["sumer","akkad","babylon","assyria","elam","hittites","phoenicia","israel","urartu","achaemenid","parthia","sassanid"] },
+  { id: "egypt", label: "Egypt & Africa", color: "#b44d3b", ids: ["egypt-old","egypt-middle","egypt-new","kush","carthage","aksum","mali","songhai"] },
+  { id: "europe", label: "Mediterranean & Europe", color: "#2563eb", ids: ["minoan","mycenaean","greece-classical","macedon","etruscan","roman-republic","roman-empire","byzantine","celts","franks","vikings","kievan-rus","hre"] },
+  { id: "steppe", label: "Eurasian Steppe", color: "#9a6e3a", ids: ["scythians","xiongnu","huns","gokturk","mongol","timurid"] },
+  { id: "south-asia", label: "South Asia", color: "#7c3aed", ids: ["indus","maurya","gupta","chola","delhi","vijayanagara","mughal"] },
+  { id: "east-asia", label: "East Asia", color: "#dc2626", ids: ["erlitou","shang","zhou","qin","han","tang","song","yuan","ming","goguryeo","silla","goryeo","yamato","heian"] },
+  { id: "se-asia", label: "Southeast Asia", color: "#0d9488", ids: ["khmer","srivijaya","majapahit","dai-viet"] },
+  { id: "islamic", label: "Islamic World", color: "#059669", ids: ["rashidun","abbasid","al-andalus","ottoman","safavid"] },
+  { id: "americas", label: "The Americas", color: "#16a34a", ids: ["olmec","maya","teotihuacan","zapotec","toltec","aztec","chavin","nazca","moche","tiwanaku","wari","inca","mississippian","pueblo"] },
+  { id: "oceania", label: "Oceania", color: "#0ea5e9", ids: ["polynesia"] },
 ]
+
+/** Look up the group color for a given civ id. */
+const _civColorMap = new Map<string, string>()
+for (const g of GLOBE2_GROUPS) {
+  for (const id of g.ids) _civColorMap.set(id, g.color)
+}
+export function getCivColor(civId: string): string {
+  return _civColorMap.get(civId) ?? '#d97706'
+}
 
 export const TIME_MIN = -5000
 export const TIME_MAX = 1700
