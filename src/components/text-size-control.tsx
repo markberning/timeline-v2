@@ -10,7 +10,7 @@ const SIZES = [
   { label: '22', value: '1.375rem' },
 ]
 
-const DEFAULT_INDEX = 0 // 14px
+const DEFAULT_INDEX = 1 // 16px
 
 export function TextSizeControl() {
   const [sizeIndex, setSizeIndex] = useState(DEFAULT_INDEX)
