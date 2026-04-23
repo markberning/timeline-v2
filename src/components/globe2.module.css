@@ -239,6 +239,14 @@
   letter-spacing: 0.05em;
 }
 
+.infoCard .groupLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
 .infoCard .dates {
   font-size: 13px;
   color: var(--globe-text-muted);
@@ -709,7 +717,14 @@
   }
 
   .zoomCtrl {
-    display: none;
+    bottom: 108px;
+    right: 10px;
+  }
+
+  .zoomCtrl button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
   }
 
   .hint {

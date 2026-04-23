@@ -19,7 +19,13 @@ import {
   ERAS,
   getCivColor,
   type GlobeCiv2,
+  type Globe2Group,
 } from '@/lib/globe2-data'
+
+/** Find the group a civ belongs to. */
+function getCivGroup(civId: string): Globe2Group | undefined {
+  return GLOBE2_GROUPS.find(g => g.ids.includes(civId))
+}
 import styles from './globe2.module.css'
 
 /* ── helpers ─────────────────────────────────────────────────── */
@@ -404,10 +410,13 @@ export default function Globe2() {
         g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
         g.setAttribute('data-civ-id', civ.id)
         g.classList.add(styles.civPin)
+        const isMob = window.innerWidth <= 720
         const halo = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
         halo.classList.add(styles.pinHalo)
+        halo.setAttribute('r', isMob ? '14' : '7')
         const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
         dot.classList.add(styles.pinDot)
+        dot.setAttribute('r', isMob ? '6' : '3.5')
         g.appendChild(halo)
         g.appendChild(dot)
         pinsG.appendChild(g)
@@ -886,6 +895,7 @@ export default function Globe2() {
       {/* ── Info card ─────────────────────────────────────── */}
       {selected && (() => {
         const cardColor = getCivColor(selected.id)
+        const group = getCivGroup(selected.id)
         return (
           <div
             className={`${styles.infoCard} font-[family-name:var(--font-geist-sans)]`}
@@ -905,12 +915,16 @@ export default function Globe2() {
                 <span
                   key={i}
                   className={era.active ? styles.active : undefined}
-                  style={{ background: era.active ? cardColor : era.color }}
+                  style={{ background: cardColor, opacity: era.active ? 1 : 0.15 }}
                 />
               ))}
             </div>
 
-            <div className={styles.region} style={{ color: cardColor }}>{selected.region}</div>
+            {group && (
+              <div className={styles.groupLabel} style={{ color: cardColor }}>
+                {group.label} <span style={{ opacity: 0.6 }}>({group.ids.length})</span>
+              </div>
+            )}
             <h2 className="font-[family-name:var(--font-lora)]">{selected.name}</h2>
             <div className={`${styles.dates} font-[family-name:var(--font-geist-mono)]`}>
               {yearSpan(selected.start, selected.end)}
