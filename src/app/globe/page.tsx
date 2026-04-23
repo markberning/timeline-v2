@@ -1,12 +1,11 @@
 'use client'
-
 import dynamic from 'next/dynamic'
 
-const GlobeView = dynamic(() => import('@/components/globe-view'), {
+const Globe2 = dynamic(() => import('@/components/globe2'), {
   ssr: false,
-  loading: () => <div className="fixed inset-0 bg-[#1a1917]" />,
+  loading: () => <div className="fixed inset-0 bg-[var(--background)]" />,
 })
 
 export default function GlobePage() {
-  return <GlobeView />
+  return <Globe2 />
 }

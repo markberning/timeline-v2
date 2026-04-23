@@ -808,11 +808,12 @@ export default function Globe2() {
 
       {/* ── Title block ───────────────────────────────────── */}
       <div className={styles.titleBlock}>
-        <div
-          className={`${styles.kicker} font-[family-name:var(--font-geist-sans)]`}
+        <a
+          href="/"
+          className={`${styles.kicker} ${styles.homeLink} font-[family-name:var(--font-geist-sans)]`}
         >
-          Stuff Happened
-        </div>
+          &larr; Stuff Happened
+        </a>
         <div className={`${styles.title} font-[family-name:var(--font-lora)]`}>
           Historica
         </div>
@@ -892,6 +893,18 @@ export default function Globe2() {
 
       {/* ── Drawer / sidebar ──────────────────────────────── */}
       <div className={`${styles.drawer} ${drawerOpen ? styles.open : ''}`}>
+        <div className={styles.drawerHeader}>
+          <span className={`${styles.drawerTitle} font-[family-name:var(--font-geist-sans)]`}>
+            All Civilizations
+          </span>
+          <button
+            className={styles.drawerClose}
+            onClick={() => setDrawerOpen(false)}
+            aria-label="Close drawer"
+          >
+            &times;
+          </button>
+        </div>
         <input
           className={`${styles.drawerSearch} font-[family-name:var(--font-geist-sans)]`}
           type="text"
