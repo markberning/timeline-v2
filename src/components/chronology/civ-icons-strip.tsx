@@ -14,6 +14,16 @@ const ICONS = [
   '/icons/maya-temple.png',
   '/icons/viking-ship.png',
   '/icons/mesopotamia.png',
+  '/icons/triskelion.png',
+  '/icons/horseman.png',
+  '/icons/menorah.png',
+  '/icons/quetzalcoatl.png',
+  '/icons/olmec-head.png',
+  '/icons/angkor.png',
+  '/icons/junk.png',
+  '/icons/mosque.png',
+  '/icons/dhow.png',
+  '/icons/pagoda.png',
 ]
 
 function shuffle<T>(arr: T[]): T[] {
