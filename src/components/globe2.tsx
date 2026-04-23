@@ -192,8 +192,10 @@ export default function Globe2() {
   useEffect(() => {
     let initialized = false
     function handleResize() {
-      const w = window.innerWidth
-      const h = window.innerHeight
+      // Use visualViewport on iOS to avoid Safari chrome measurement issues
+      const vv = window.visualViewport
+      const w = vv ? vv.width : window.innerWidth
+      const h = vv ? vv.height : window.innerHeight
       setDimensions({ w, h })
       // On portrait phones, use width so the globe spans the screen edge-to-edge.
       // On landscape/desktop, use the smaller dimension.
@@ -760,7 +762,8 @@ export default function Globe2() {
         ref={svgRef}
         width={dimensions.w}
         height={dimensions.h}
-        style={{ display: 'block' }}
+        viewBox={`0 0 ${dimensions.w} ${dimensions.h}`}
+        style={{ display: 'block', position: 'absolute', inset: 0 }}
         onClick={handlePinClick}
         onMouseMove={handlePinHover}
         onMouseLeave={() => {
