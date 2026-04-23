@@ -39,6 +39,8 @@ src/
   app/
     page.tsx                    — home: renders ChronologyPage ("The Civ Lib" — editorial home with swim-lane ribbon + civ list)
     navigator/page.tsx          — /navigator: old TlNavigator flow layout (preserved)
+    globe/page.tsx              — /globe: shelved WebGL globe (globe.gl, kept but superseded by globe2)
+    globe2/page.tsx             — /globe2: D3 orthographic globe with 70 civs, timeline scrubber, drawer sidebar
     [civilizationId]/
       layout.tsx                — accent color wrapper
       page.tsx                  — single-page accordion reader
@@ -54,6 +56,9 @@ src/
     text-size-control.tsx       — 5-step font size control (14-22px)
     image-review.tsx            — approve/reject images with notes
     offline-registrar.tsx       — mount-once client component that registers the service worker; included in app/layout.tsx
+    globe-view.tsx              — shelved globe.gl WebGL globe (superseded by globe2)
+    globe2.tsx                  — D3 orthographic SVG globe: 70 civs, drag-rotate, scroll/pinch zoom, spin-to-civ, leader-line labels, timeline scrubber, drawer sidebar, info card
+    globe2.module.css           — CSS module for globe2: theme-aware (dark/light), mobile-responsive
     chronology/
       chronology-page.tsx       — 'use client' shell: owns activeCivId, responsive breakpoint, wires ribbon ↔ list/detail
       chronology-header.tsx     — "Stuff Happened" eyebrow + "The Civ Lib" title + dark mode toggle
@@ -75,6 +80,8 @@ src/
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
     navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for all 9 shipped TLs)
+    globe-data.ts               — shelved: polygon territories for globe.gl globe (22 civs)
+    globe2-data.ts              — 70 civilizations for D3 globe: id, name, start/end years, capital [lon,lat], extent polygon, region, summary, cities; plus GLOBE2_GROUPS (10 region groups) and timeline constants
     navigator-themes.ts         — Stone theme constants (warm dark bg, region palette, row height)
     offline.ts                  — service worker registration + download/delete/status store (useSyncExternalStore); exposes registerServiceWorker, downloadTl, deleteTl, useOfflineStatus, useAllOfflineStatus
 scripts/
@@ -141,6 +148,18 @@ audits/                         — audit reports from the 5-persona pipeline
 - **iOS scroll hardening** — navigator uses `position: fixed; height: 100svh`; body locked while mounted; cleanup forces reflow + `window.scrollTo(0, 1); scrollTo(0, 0)` to kick Safari's scroll engine.
 - **Offline reading (per-TL download)** — hand-rolled service worker at `public/sw.js`. `npm run parse` emits `public/offline/{tlId}.manifest.json` for every shipped TL, listing the page URL + every chapter-map WebP on disk + every Wikimedia event/glossary thumbnail URL. A cloud button in the navigator header opens a bottom-sheet `OfflineLibrarySheet` listing all `hasContent` TLs with per-row download/delete controls. Tap a row to populate `offline-tl-{tlId}-v1` cache (~15–20 MB per TL); tap again to wipe it. The SW uses **network-first for navigation requests** (so deployments show up immediately online) and **cache-first for assets**. `matchWithSlashVariants` handles the `/{tlId}` vs `/{tlId}/` mismatch, and the download loop caches both variants. A client-side guard in `tl-flow.tsx` checks `navigator.onLine` + download status before navigating — tapping a non-downloaded TL offline opens the library sheet instead of stranding the user. Dev-mode: SW registers on localhost but the fetch handler bails out to avoid fighting HMR. See `project_offline_reading.md` memory for the architecture and the tripwire list.
 - **Summary text selection** — sticky chapter header is split into a clickable top row (number + title + date + chevron, `select-none`) and a sibling non-clickable summary area (READ button + bullet list, default text selection).
+- **Globe2 (`/globe2`)** — D3 orthographic SVG globe with 70 civilizations. Styled for the app (dark mode warm colors, Lora/Geist fonts, amber accent). Key features:
+  - **Two-path country rendering** — one `<path>` for all land fill + one for all borders (not 200 separate paths). Critical for drag performance.
+  - **Drag to rotate** — pointer events with RAF-throttled state updates. Trackpad: two-finger swipe left/right pans, up/down zooms. Pinch (Ctrl+wheel) zooms.
+  - **Civ pins** — visible only on the near hemisphere, year-filtered. Click → animated spin-to-civ + zoom-to-fit-extent + region polygon highlight + info card.
+  - **Leader-line labels** — collision-avoiding placement (tries 4 directions), avoids pins, selected region bounding box, and screen edges. Skipped during drag for perf.
+  - **Timeline scrubber** — year slider from 5000 BCE to 1700 CE with density waveform histogram (120 bins) and era markers (Bronze/Iron/Classical/Medieval/Early Modern).
+  - **Drawer sidebar** — 10 region groups, search by name/region/city, dimmed-but-clickable items outside current year (click jumps year).
+  - **Info card** — civ name, dates, region, summary, cities, era strip. Desktop: right panel. Mobile: card above timeline.
+  - **Winding fix** — `asClosedRing()` uses `d3.geoArea` to detect and correct inside-out polygons.
+  - **Mobile** — visualViewport for iOS Safari sizing, pinch-to-zoom, bigger pin hit targets (r=6), initial zoom 1.0 with `w×0.48` base scale.
+  - **Globe data** — 70 civs in `src/lib/globe2-data.ts` with capitals, extent polygons, summaries, cities. Separate from our NAVIGATOR_TLS 74-civ dataset.
+  - **Shelved `/globe`** — earlier WebGL globe.gl approach at `/globe` is still deployed but superseded by globe2. Uses `globe-view.tsx` + `globe-data.ts`. Can be removed when globe2 is mature.
 
 ## Reader Features (planned)
 - Footnotes

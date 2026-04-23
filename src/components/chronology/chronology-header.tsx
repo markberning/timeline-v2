@@ -22,7 +22,7 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
       </div>
       <div className="shrink-0 mt-1 flex items-center gap-3">
         <a
-          href="/globe"
+          href="/globe2"
           className="text-foreground/40 hover:text-foreground/70 text-xs font-semibold tracking-wider uppercase transition-colors"
         >
           Globe
