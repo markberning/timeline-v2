@@ -1,0 +1,82 @@
+{
+  "1": [
+    {"eventId": "evt-vedic-indo-aryan-migration", "matchText": "Indo-Aryans"},
+    {"eventId": "evt-vedic-indo-european-discovery", "matchText": "Indo-European language family"},
+    {"eventId": "evt-vedic-cattle-economy", "matchText": "desire for cattle"},
+    {"eventId": "evt-vedic-chariot-warfare", "matchText": "spoke-wheeled chariot"},
+    {"eventId": "evt-vedic-sanskrit", "matchText": "Vedic Sanskrit"},
+    {"eventId": "evt-vedic-varna-system", "matchText": "varna system"}
+  ],
+  "2": [
+    {"eventId": "evt-vedic-rigveda", "matchText": "Rigveda"},
+    {"eventId": "evt-vedic-oral-transmission", "matchText": "error-correcting code"},
+    {"eventId": "evt-vedic-pantheon", "matchText": "Vedic gods"},
+    {"eventId": "evt-vedic-soma-ritual", "matchText": "Soma ritual"},
+    {"eventId": "evt-vedic-battle-ten-kings", "matchText": "Battle of the Ten Kings"},
+    {"eventId": "evt-vedic-sanskrit", "matchText": "Vedic Sanskrit"},
+    {"eventId": "evt-vedic-indo-european-discovery", "matchText": "Indo-Iranian"}
+  ],
+  "3": [
+    {"eventId": "evt-vedic-gangetic-expansion", "matchText": "Ganges Valley"},
+    {"eventId": "evt-vedic-iron-age", "matchText": "iron"},
+    {"eventId": "evt-vedic-samaveda", "matchText": "Samaveda"},
+    {"eventId": "evt-vedic-yajurveda", "matchText": "Yajurveda"},
+    {"eventId": "evt-vedic-atharvaveda", "matchText": "Atharvaveda"},
+    {"eventId": "evt-vedic-brahmana-texts", "matchText": "Brahmana literature"},
+    {"eventId": "evt-vedic-horse-sacrifice", "matchText": "ashvamedha"},
+    {"eventId": "evt-vedic-fire-altars", "matchText": "agnicayana"},
+    {"eventId": "evt-vedic-mathematics", "matchText": "Shulba Sutras"},
+    {"eventId": "evt-vedic-gurukula", "matchText": "gurukula"},
+    {"eventId": "evt-vedic-kuru-kingdom", "matchText": "Kuru"},
+    {"eventId": "evt-vedic-hastinapura", "matchText": "Hastinapura"},
+    {"eventId": "evt-vedic-mahabharata-setting", "matchText": "Mahabharata"},
+    {"eventId": "evt-vedic-panchala", "matchText": "Panchala"},
+    {"eventId": "evt-vedic-rice-cultivation", "matchText": "wet-rice cultivation"}
+  ],
+  "4": [
+    {"eventId": "evt-vedic-varna-system", "matchText": "Purusha Sukta"},
+    {"eventId": "evt-vedic-dharmasutras", "matchText": "Dharmasutras"},
+    {"eventId": "evt-vedic-shramana-movement", "matchText": "Shramana movement"}
+  ],
+  "5": [
+    {"eventId": "evt-vedic-upanishads", "matchText": "Upanishads"},
+    {"eventId": "evt-vedic-aranyakas", "matchText": "Aranyakas"},
+    {"eventId": "evt-vedic-yajnavalkya", "matchText": "Yajnavalkya"},
+    {"eventId": "evt-vedic-gargi", "matchText": "Gargi Vachaknavi"},
+    {"eventId": "evt-vedic-upanishadic-debates", "matchText": "King Janaka of Videha"}
+  ],
+  "6": [
+    {"eventId": "evt-vedic-second-urbanization", "matchText": "Second Urbanization"},
+    {"eventId": "evt-vedic-sixteen-mahajanapadas", "matchText": "Mahajanapadas"},
+    {"eventId": "evt-vedic-magadha-rise", "matchText": "Magadha"},
+    {"eventId": "evt-vedic-bimbisara", "matchText": "Bimbisara"},
+    {"eventId": "evt-vedic-ajatashatru", "matchText": "Ajatashatru"},
+    {"eventId": "evt-vedic-coinage", "matchText": "punch-marked silver coins"},
+    {"eventId": "evt-vedic-trade-routes", "matchText": "Uttarapatha"},
+    {"eventId": "evt-vedic-taxila", "matchText": "Taxila"},
+    {"eventId": "evt-vedic-gana-sanghas", "matchText": "gana-sanghas"},
+    {"eventId": "evt-vedic-vajjian-confederacy", "matchText": "Vajjian Confederacy"},
+    {"eventId": "evt-vedic-varanasi", "matchText": "Varanasi"},
+    {"eventId": "evt-vedic-persian-invasion", "matchText": "Darius I"},
+    {"eventId": "evt-vedic-ramayana-traditions", "matchText": "Ramayana"},
+    {"eventId": "evt-vedic-bhagavad-gita", "matchText": "Bhagavad Gita"},
+    {"eventId": "evt-vedic-rajagriha", "matchText": "Rajagriha"}
+  ],
+  "7": [
+    {"eventId": "evt-vedic-shramana-movement", "matchText": "Shramana"},
+    {"eventId": "evt-vedic-buddha", "matchText": "Siddhartha Gautama"},
+    {"eventId": "evt-vedic-sarnath-sermon", "matchText": "Sarnath"},
+    {"eventId": "evt-vedic-mahavira", "matchText": "Vardhamana Mahavira"},
+    {"eventId": "evt-vedic-first-buddhist-council", "matchText": "First Buddhist Council"}
+  ],
+  "8": [
+    {"eventId": "evt-vedic-nanda-dynasty", "matchText": "Nanda dynasty"},
+    {"eventId": "evt-vedic-alexander-invasion", "matchText": "Alexander of Macedon"},
+    {"eventId": "evt-vedic-hydaspes-battle", "matchText": "Battle of the Hydaspes"},
+    {"eventId": "evt-vedic-chanakya", "matchText": "Chanakya"},
+    {"eventId": "evt-vedic-chandragupta-maurya", "matchText": "Chandragupta Maurya"},
+    {"eventId": "evt-vedic-arthashastra", "matchText": "Arthashastra"},
+    {"eventId": "evt-vedic-panini", "matchText": "Ashtadhyayi"},
+    {"eventId": "evt-vedic-brahmi-script", "matchText": "Brahmi"}
+  ]
+}

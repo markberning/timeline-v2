@@ -1687,6 +1687,227 @@
           "text": "Alexander's retreat left a power vacuum in the northwest that Chandragupta Maurya quickly filled — defeating the Greek garrisons and then overthrowing the Nanda dynasty to found the Maurya Empire."
         }
       ]
+    },
+    {
+      "id": "evt-vedic-oral-transmission",
+      "label": "Vedic Oral Transmission System",
+      "year": -1400,
+      "description": "Vedic priests developed an elaborate error-correcting memorization system (vikritis) — chanting texts forward, backward, and in interlocking patterns — that preserved the Rigveda virtually unchanged for over three millennia.",
+      "wikiSlug": "Vedic_chant",
+      "tier": 2,
+      "tags": [],
+      "category": "science",
+      "aliases": [
+        "vikritis",
+        "Vedic chanting"
+      ],
+      "details": [
+        {
+          "label": "The System",
+          "text": "Students memorized texts in increasingly complex patterns: Pada-patha (word by word), Krama-patha (overlapping pairs), Jata-patha (forward-backward-forward), and Ghana-patha (three-word interlocking cycles). Any corruption to a single word produced detectable inconsistencies."
+        },
+        {
+          "label": "Error-Correcting Code",
+          "text": "The system functions as an error-correcting code — the same principle modern computers use to detect data corruption, independently invented by Bronze Age priests three thousand years before information theory."
+        },
+        {
+          "label": "Legacy",
+          "text": "UNESCO recognized the Vedic oral tradition as a Masterpiece of Intangible Cultural Heritage in 2003. The Rigveda was transmitted purely by memory for over forty generations before being written down — the longest and most precise oral tradition in human history."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-indo-european-discovery",
+      "label": "Indo-European Language Family",
+      "year": -1500,
+      "description": "The Indo-Aryan languages belong to the vast Indo-European family — the largest language family on earth — linking Sanskrit to Greek, Latin, Persian, and English through a common ancestor spoken on the Pontic-Caspian steppe.",
+      "wikiSlug": "Indo-European_languages",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Indo-European",
+        "Proto-Indo-European"
+      ],
+      "details": [
+        {
+          "label": "The Connection",
+          "text": "The Sanskrit word for 'father' is pitar. Latin: pater. Greek: pater. English: father. Persian: pedar. These inherited words from a single source — Proto-Indo-European, spoken on the Pontic-Caspian steppe — prove a common origin for over three billion speakers today."
+        },
+        {
+          "label": "The Homeland",
+          "text": "Linguistics, archaeology, and ancient DNA converge on the Pontic-Caspian steppe (Ukraine to Kazakhstan) as the Proto-Indo-European homeland. Migrations beginning around 3000 BCE spread the language family to Europe, Anatolia, Iran, and India."
+        },
+        {
+          "label": "Vedic Connection",
+          "text": "Vedic Sanskrit's closest relative is Avestan, the sacred language of Zoroastrianism — so close that scholars can convert Vedic verses into Avestan by applying regular sound-change rules. The two traditions diverged from a common source before entering their respective homelands."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-pataliputra-founded",
+      "label": "Pataliputra Founded",
+      "year": -490,
+      "description": "Ajatashatru fortified the village of Pataliputra on the Ganges as a military outpost — a decision that proved prophetic as it later became the capital of both the Nanda and Maurya empires.",
+      "wikiSlug": "Pataliputra",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture",
+      "aliases": [
+        "Pataliputra"
+      ],
+      "details": [
+        {
+          "label": "The Founding",
+          "text": "Ajatashatru of Magadha fortified the village of Pataligrama on the Ganges (near modern Patna in Bihar) as a forward military base during his war against the Vajjian Confederacy. The strategic location — at the confluence of major rivers — made it a natural command center."
+        },
+        {
+          "label": "Growth",
+          "text": "Pataliputra replaced the old hill-fortress capital of Rajagriha, becoming Magadha's permanent capital under later dynasties. Its riverine location gave it unmatched access to trade routes running the length of the Ganges Valley."
+        },
+        {
+          "label": "Legacy",
+          "text": "Under the Maurya Empire, Pataliputra grew into one of the largest cities in the ancient world. The Greek ambassador Megasthenes described it as a magnificent metropolis protected by a wooden palisade with 570 towers and 64 gates."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-hydaspes-battle",
+      "label": "Battle of the Hydaspes",
+      "year": -326,
+      "description": "Alexander the Great defeated King Porus on the banks of the Jhelum River (Hydaspes) in the first clash between Greek and Indian armies — the battle that introduced war elephants to Western warfare.",
+      "wikiSlug": "Battle_of_the_Hydaspes",
+      "tier": 2,
+      "tags": [],
+      "category": "wars",
+      "aliases": [
+        "Hydaspes"
+      ],
+      "details": [
+        {
+          "label": "The Battle",
+          "text": "In 326 BCE, Alexander crossed the swollen Jhelum River in a monsoon rainstorm to attack Porus's army, which included 200 war elephants — the first time Macedonian soldiers faced elephants. Alexander's superior cavalry tactics won, but at heavy cost."
+        },
+        {
+          "label": "Porus's Valor",
+          "text": "King Porus fought from atop his largest elephant, refusing to retreat even after being wounded multiple times. When asked by Alexander how he wished to be treated, he replied 'as a king.' Alexander, impressed, restored his kingdom."
+        },
+        {
+          "label": "Turning Point",
+          "text": "The Hydaspes was Alexander's last major battle. His army, exhausted and terrified by reports of the massive Nanda army further east, refused to march on. At the Beas River, they mutinied — ending Alexander's eastward advance."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-chandragupta-maurya",
+      "label": "Chandragupta Maurya Seizes Power",
+      "year": -322,
+      "description": "Chandragupta Maurya, trained by the strategist Chanakya at Taxila, overthrew the Nanda dynasty and founded the Maurya Empire — India's first great empire spanning nearly the entire subcontinent.",
+      "wikiSlug": "Chandragupta_Maurya",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers",
+      "aliases": [
+        "Chandragupta Maurya",
+        "Chandragupta"
+      ],
+      "details": [
+        {
+          "label": "The Rise",
+          "text": "Chandragupta first defeated the Greek garrisons Alexander had left in the Punjab, then marched east with a growing army. Around 322 BCE, he overthrew the last Nanda king and seized the throne of Magadha."
+        },
+        {
+          "label": "The Partnership",
+          "text": "Chandragupta's success was inseparable from Chanakya's strategy. The Brahmin scholar identified the young man as a future king, trained him in statecraft and military strategy, and guided the revolution from behind the scenes."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Maurya Empire Chandragupta founded would eventually cover nearly the entire Indian subcontinent under his grandson Ashoka — the largest political unit India had ever seen, built on the administrative traditions the Vedic kingdoms had developed."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-arthashastra",
+      "label": "Arthashastra Composed",
+      "year": -320,
+      "description": "Chanakya's Arthashastra, a comprehensive treatise on governance, espionage, and economics, became one of the most influential works on statecraft in Indian history — often compared to Machiavelli's Prince.",
+      "wikiSlug": "Arthashastra",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Arthashastra",
+        "Kautilya"
+      ],
+      "details": [
+        {
+          "label": "The Text",
+          "text": "The Arthashastra ('Science of Statecraft') is a comprehensive treatise covering governance, taxation, law enforcement, espionage, foreign policy, and economics. It is ruthlessly pragmatic — advising the use of spies, assassins, and deception."
+        },
+        {
+          "label": "Comparison",
+          "text": "The Arthashastra has been compared to Machiavelli's Prince, written nearly two thousand years later. Both share the insight that effective government requires understanding power as it actually works, not as idealists wish it worked."
+        },
+        {
+          "label": "Historical Value",
+          "text": "Beyond political theory, the Arthashastra describes the complex, urbanized, commercially active society the Vedic period had produced — standardized currency, professional armies, elaborate bureaucracies, and sophisticated diplomatic practices."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-bhagavad-gita",
+      "label": "Bhagavad Gita Traditions",
+      "year": -500,
+      "description": "The Bhagavad Gita, embedded within the Mahabharata epic, presents a philosophical dialogue between Prince Arjuna and the god Krishna that became one of the most influential texts in Hinduism.",
+      "wikiSlug": "Bhagavad_Gita",
+      "tier": 2,
+      "tags": [],
+      "category": "religion",
+      "aliases": [
+        "Bhagavad Gita",
+        "Gita"
+      ],
+      "details": [
+        {
+          "label": "The Text",
+          "text": "The Bhagavad Gita is a 700-verse dialogue set on the eve of the Kurukshetra battle. Prince Arjuna, paralyzed by the prospect of killing his kinsmen, receives philosophical instruction from the god Krishna on duty, action, and the nature of the self."
+        },
+        {
+          "label": "The Teaching",
+          "text": "Krishna teaches that Arjuna must fulfill his dharma as a warrior without attachment to results — offering his actions to God. The Gita synthesizes multiple philosophical traditions: Upanishadic knowledge, selfless action, and devotional love."
+        },
+        {
+          "label": "Legacy",
+          "text": "The Bhagavad Gita became one of the most revered texts in Hinduism, addressing the central tension between worldly duty and spiritual liberation. Gandhi called it his 'eternal mother' and drew on it throughout his life."
+        }
+      ]
+    },
+    {
+      "id": "evt-vedic-brahmi-script",
+      "label": "Brahmi Script Emerges",
+      "year": -350,
+      "description": "The Brahmi script, the ancestor of most South and Southeast Asian writing systems, appeared in the late Vedic period — ending a millennium-long gap in Indian writing after the Indus script died.",
+      "wikiSlug": "Brahmi_script",
+      "tier": 2,
+      "tags": [],
+      "category": "writing",
+      "aliases": [
+        "Brahmi"
+      ],
+      "details": [
+        {
+          "label": "The Script",
+          "text": "Brahmi is an alphasyllabary — each character represents a consonant with an inherent vowel, modified by diacritics. Its earliest surviving examples are Ashoka's rock edicts (3rd century BCE), but the script likely developed somewhat earlier."
+        },
+        {
+          "label": "Origins Debate",
+          "text": "Whether Brahmi derived from a Semitic script (possibly Aramaic, introduced via Achaemenid Persian contacts) or was an independent Indian invention is debated. It has no demonstrable connection to the much older Indus script."
+        },
+        {
+          "label": "Legacy",
+          "text": "Brahmi is the ancestor of virtually every South and Southeast Asian script — Devanagari, Tamil, Sinhala, Thai, Burmese, Khmer, and many others. Its emergence ended a writing gap of over a millennium since the death of the Indus script."
+        }
+      ]
     }
   ],
   "glossary": [
