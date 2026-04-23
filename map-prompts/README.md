@@ -135,6 +135,8 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 - [new-kingdom-egypt.md](new-kingdom-egypt.md) — 9 chapters (1–9)
 - [vedic-period.md](vedic-period.md) — 7 chapters (1–3, 5–8; Ch 4 skipped — thematic, no geography)
 - [zhou-dynasty.md](zhou-dynasty.md) — 9 chapters (1–9)
+- [maurya-empire.md](maurya-empire.md) — 8 chapters (1–8)
+- [qin-dynasty.md](qin-dynasty.md) — 7 chapters (1–7; Ch 8 is a reflection chapter, no map)
 
 ## Redos
 
