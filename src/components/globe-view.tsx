@@ -15,7 +15,6 @@ function hexToRgba(hex: string, alpha: number): string {
   return `rgba(${r},${g},${b},${alpha})`
 }
 
-// Great-circle angular distance in degrees (Haversine)
 function angularDist(lat1: number, lng1: number, lat2: number, lng2: number): number {
   const toRad = Math.PI / 180
   const dLat = (lat2 - lat1) * toRad
@@ -26,27 +25,17 @@ function angularDist(lat1: number, lng1: number, lat2: number, lng2: number): nu
   return 2 * Math.asin(Math.sqrt(Math.min(1, a))) * (180 / Math.PI)
 }
 
-const FACE_THRESHOLD = 55
 const ACTIVE_THRESHOLD = 30
 
-// Globe palette — parchment land on muted ocean
+// Globe palette
 const OCEAN_COLOR = '#8aadbe'
 const LAND_COLOR = '#d4c8a8'
 const BORDER_COLOR = 'rgba(90,80,60,0.4)'
 
-interface CivPolygon extends GlobeCiv {
-  type: 'civ'
-  facing: boolean
-  active: boolean
-  hovered: boolean
+// Label data extends GlobeCiv with a mutable "nearest to camera" flag
+interface LabelDatum extends GlobeCiv {
+  _nearest: boolean
 }
-
-interface CountryPolygon {
-  type: 'country'
-  geometry: any
-}
-
-type PolygonDatum = CivPolygon | CountryPolygon
 
 export default function GlobeView() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -59,9 +48,9 @@ export default function GlobeView() {
     let mounted = true
     let intervalId: ReturnType<typeof setInterval>
     let resizeHandler: (() => void) | null = null
+    let hoverClearTimer: ReturnType<typeof setTimeout> | null = null
 
     ;(async () => {
-      // Load globe.gl, topojson converter, and world countries in parallel
       const [{ default: GlobeCtor }, { feature }, worldTopo] = await Promise.all([
         import('globe.gl'),
         import('topojson-client') as Promise<typeof import('topojson-client')>,
@@ -70,23 +59,45 @@ export default function GlobeView() {
 
       if (!mounted || !containerRef.current) return
 
-      // Convert TopoJSON → GeoJSON country features
+      // ── Data layers ──
+
+      // Country outlines (always visible)
       const countriesGeo = feature(worldTopo, worldTopo.objects.countries) as any
-      const countryPolygons: CountryPolygon[] = countriesGeo.features.map((f: any) => ({
+      const countryPolygons = countriesGeo.features.map((f: any) => ({
         type: 'country' as const,
         geometry: f.geometry,
       }))
 
-      // Civ polygons
-      const civPolygons: CivPolygon[] = GLOBE_CIVS.map(civ => ({
-        type: 'civ' as const,
+      // Civ labels (dots + names, always visible)
+      const labelData: LabelDatum[] = GLOBE_CIVS.map(civ => ({
         ...civ,
-        facing: false,
-        active: false,
-        hovered: false,
+        _nearest: false,
       }))
 
-      const allPolygons: PolygonDatum[] = [...countryPolygons, ...civPolygons]
+      // Helper: rebuild polygonsData with optional active territory
+      function buildPolygons(civId: string | null) {
+        if (!civId) return [...countryPolygons]
+        const civ = GLOBE_CIVS.find(c => c.id === civId)
+        if (!civ) return [...countryPolygons]
+        return [...countryPolygons, { type: 'civ' as const, ...civ }]
+      }
+
+      // Debounced hover manager — handles label→polygon mouse transitions
+      function setHovered(civId: string | null) {
+        if (hoverClearTimer) { clearTimeout(hoverClearTimer); hoverClearTimer = null }
+        if (civId) {
+          hoveredIdRef.current = civId
+          globe.polygonsData(buildPolygons(civId))
+          setActiveCiv(GLOBE_CIVS.find(c => c.id === civId) ?? null)
+        } else {
+          hoverClearTimer = setTimeout(() => {
+            hoveredIdRef.current = null
+            globe.polygonsData(buildPolygons(null))
+          }, 150)
+        }
+      }
+
+      // ── Globe init ──
 
       // eslint-disable-next-line new-cap
       const globe = new (GlobeCtor as any)(containerRef.current)
@@ -94,115 +105,100 @@ export default function GlobeView() {
         .showAtmosphere(true)
         .atmosphereColor('#b0c8d8')
         .atmosphereAltitude(0.12)
-        .polygonsData(allPolygons)
-        .polygonGeoJsonGeometry((d: PolygonDatum) => d.geometry)
+
+        // Polygons: countries + hovered civ territory
+        .polygonsData(buildPolygons(null))
+        .polygonGeoJsonGeometry((d: any) => d.geometry)
         .polygonCapColor((d: any) => {
           if (d.type === 'country') return LAND_COLOR
-          if (d.hovered || d.active) return hexToRgba(d.color, 0.75)
-          if (d.facing) return hexToRgba(d.color, 0.45)
-          return hexToRgba(d.color, 0.2)
+          return hexToRgba(d.color, 0.5)
         })
-        .polygonSideColor(() => 'rgba(0,0,0,0)') // no visible sides — flat look
+        .polygonSideColor(() => 'rgba(0,0,0,0)')
         .polygonStrokeColor((d: any) => {
           if (d.type === 'country') return BORDER_COLOR
-          if (d.hovered || d.active) return hexToRgba(d.color, 0.9)
-          if (d.facing) return hexToRgba(d.color, 0.5)
-          return hexToRgba(d.color, 0.15)
+          return hexToRgba(d.color, 0.8)
         })
-        .polygonAltitude((d: any) => {
-          if (d.type === 'country') return 0.006
-          const off = d.altOffset ?? 0
-          if (d.hovered || d.active) return 0.012 + off
-          if (d.facing) return 0.01 + off
-          return 0.008 + off
-        })
+        .polygonAltitude((d: any) => d.type === 'country' ? 0.006 : 0.01)
         .polygonLabel(() => '')
-        .polygonsTransitionDuration(300)
-        .showPointerCursor((_type: string, d: any) => d?.type === 'civ' && d?.hasContent)
+        .polygonsTransitionDuration(200)
         .onPolygonClick((d: any) => {
           if (d.type === 'civ' && d.hasContent) window.location.href = `/${d.id}`
         })
         .onPolygonHover((d: any) => {
-          for (const p of civPolygons) p.hovered = false
-          if (d && d.type === 'civ') {
-            d.hovered = true
-            hoveredIdRef.current = d.id
-          } else {
-            hoveredIdRef.current = null
-          }
-          globe.polygonsData([...allPolygons])
+          if (d?.type === 'civ') setHovered(d.id)
+          else setHovered(null)
         })
+
+        // Labels: civ dots + names
+        .labelsData(labelData)
+        .labelLat((d: any) => d.centroid[1])
+        .labelLng((d: any) => d.centroid[0])
+        .labelText((d: any) => d.label)
+        .labelSize((d: any) => d._nearest ? 1.8 : 1.2)
+        .labelDotRadius((d: any) => d._nearest ? 0.5 : 0.3)
+        .labelColor((d: any) => d.color)
+        .labelResolution(2)
+        .labelAltitude(0.015)
+        .labelsTransitionDuration(300)
+        .onLabelHover((label: any) => setHovered(label?.id ?? null))
+        .onLabelClick((label: any) => {
+          if (label?.hasContent) window.location.href = `/${label.id}`
+        })
+
         .width(window.innerWidth)
         .height(window.innerHeight)
 
       globeRef.current = globe
 
-      // Set globe material to ocean color (no texture image)
+      // Set globe material to ocean color (no photo texture)
       const mat = globe.globeMaterial() as any
       mat.color.set(OCEAN_COLOR)
       mat.shininess = 5
 
-      // Boost ambient lighting so the globe is clearly visible
+      // Boost lighting
       globe.lights().forEach((l: any) => { l.intensity = l.intensity * 2 })
 
-      // Camera controls — user drives, no auto-rotate
+      // Camera controls
       const controls = globe.controls()
       controls.autoRotate = false
       controls.enableZoom = true
       controls.minDistance = 150
       controls.maxDistance = 450
 
-      // Face-camera detection loop
-      let prevCardId: string | null = null
+      // Face-camera detection — highlights nearest civ label + shows card
+      let prevNearestId: string | null = null
 
       intervalId = setInterval(() => {
         if (!mounted) return
+        // If user is hovering, don't override with face-camera
+        if (hoveredIdRef.current) return
+
         const pov = globe.pointOfView()
-        let closest: CivPolygon | null = null
-        let closestDist = Infinity
-        let dirty = false
+        let nearest: LabelDatum | null = null
+        let nearestDist = Infinity
 
-        for (const p of civPolygons) {
-          const dist = angularDist(pov.lat, pov.lng, p.centroid[1], p.centroid[0])
-          const wasFacing = p.facing
-          const wasActive = p.active
-          p.facing = dist < FACE_THRESHOLD
-          p.active = false
-          if (wasFacing !== p.facing || wasActive !== p.active) dirty = true
-
-          if (dist < closestDist && p.hasContent) {
-            closestDist = dist
-            closest = p
+        for (const l of labelData) {
+          const dist = angularDist(pov.lat, pov.lng, l.centroid[1], l.centroid[0])
+          if (dist < nearestDist && l.hasContent) {
+            nearestDist = dist
+            nearest = l
           }
         }
 
-        // Hover takes priority for the card; face-camera is fallback
-        const hId = hoveredIdRef.current
-        const facingId =
-          closest && closestDist < ACTIVE_THRESHOLD ? closest.id : null
-        const cardId = hId ?? facingId
+        const newNearestId =
+          nearest && nearestDist < ACTIVE_THRESHOLD ? nearest.id : null
 
-        if (cardId && !hId) {
-          const ap = civPolygons.find(p => p.id === cardId)
-          if (ap && !ap.active) {
-            ap.active = true
-            dirty = true
-          }
-        }
-
-        if (dirty) {
-          globe.polygonsData([...allPolygons])
-        }
-
-        if (cardId !== prevCardId) {
-          prevCardId = cardId ?? null
+        if (newNearestId !== prevNearestId) {
+          prevNearestId = newNearestId
+          for (const l of labelData) l._nearest = l.id === newNearestId
+          globe.labelsData([...labelData])
           setActiveCiv(
-            cardId ? GLOBE_CIVS.find(c => c.id === cardId) ?? null : null,
+            newNearestId ? GLOBE_CIVS.find(c => c.id === newNearestId) ?? null : null,
           )
         }
-      }, 150)
+      }, 200)
 
-      // Handle window resize
+      // Window resize
       resizeHandler = () => {
         globe.width(window.innerWidth).height(window.innerHeight)
       }
@@ -212,6 +208,7 @@ export default function GlobeView() {
     return () => {
       mounted = false
       clearInterval(intervalId)
+      if (hoverClearTimer) clearTimeout(hoverClearTimer)
       if (resizeHandler) window.removeEventListener('resize', resizeHandler)
       if (globeRef.current) globeRef.current._destructor()
     }
@@ -219,7 +216,6 @@ export default function GlobeView() {
 
   return (
     <div className="fixed inset-0 bg-[#1a1917]">
-      {/* Globe container */}
       <div ref={containerRef} className="w-full h-full" />
 
       {/* Back button */}
