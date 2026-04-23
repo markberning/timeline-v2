@@ -190,12 +190,18 @@ export default function Globe2() {
 
   /* ── resize handling ──────────────────────────────────────── */
   useEffect(() => {
+    let initialized = false
     function handleResize() {
       const w = window.innerWidth
       const h = window.innerHeight
       setDimensions({ w, h })
       const base = Math.min(w, h) * 0.42
       baseScaleRef.current = base
+      // Start zoomed in on mobile so pins are tappable
+      if (!initialized) {
+        initialized = true
+        if (w <= 720) scaleRef.current = 1.6
+      }
       projectionRef.current
         .translate([w / 2, h / 2 - 20])
         .scale(base * scaleRef.current)
@@ -217,10 +223,16 @@ export default function Globe2() {
     return () => window.removeEventListener('keydown', onKey)
   }, [])
 
+  // Store selectedId in a ref so renderGlobe always reads the current value
+  // (avoids stale closure during spin animation)
+  const selectedIdRef = useRef<string | null>(null)
+  useEffect(() => { selectedIdRef.current = selectedId }, [selectedId])
+
   /* ── select a civ: spin to it ─────────────────────────────── */
   const selectCiv = useCallback(
     (id: string | null) => {
       setSelectedId(id)
+      selectedIdRef.current = id // update ref immediately for renderGlobe
       setDrawerOpen(false)
       if (!id) return
       const civ = GLOBE2_CIVS.find((c) => c.id === id)
@@ -251,6 +263,7 @@ export default function Globe2() {
       }
       requestAnimationFrame(animate)
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [year],
   )
 
@@ -318,13 +331,15 @@ export default function Globe2() {
     ) as SVGPathElement | null
     if (borderEl) borderEl.setAttribute('d', path(bordersMesh) || '')
 
-    /* ── civ region polygon ────────────────────────────────── */
+    /* ── civ region polygon (read from ref for fresh value during animation) */
     const regionEl = svg.querySelector(
       `.${styles.civRegion}`,
     ) as SVGPathElement | null
     if (regionEl) {
-      if (selected && selected.extent.length >= 3) {
-        const ring = asClosedRing(selected.extent as [number, number][])
+      const selId = selectedIdRef.current
+      const selCiv = selId ? GLOBE2_CIVS.find(c => c.id === selId) : null
+      if (selCiv && selCiv.extent.length >= 3) {
+        const ring = asClosedRing(selCiv.extent as [number, number][])
         const geo: GeoJSON.Polygon = { type: 'Polygon', coordinates: [ring] }
         regionEl.setAttribute('d', path(geo) || '')
       } else {
@@ -452,6 +467,9 @@ export default function Globe2() {
 
       const g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
       g.classList.add(styles.civLabel)
+      g.setAttribute('data-civ-id', civ.id)
+      g.style.cursor = 'pointer'
+      g.style.pointerEvents = 'auto'
 
       // Leader line
       const lx = bestRect.x
@@ -483,7 +501,7 @@ export default function Globe2() {
 
       labelsG.appendChild(g)
     }
-  }, [activeCivs, selectedId, selected])
+  }, [activeCivs, selectedId])
 
   /* ── re-render when state changes ─────────────────────────── */
   useEffect(() => {
@@ -577,14 +595,55 @@ export default function Globe2() {
       renderGlobe()
     }
 
+    // Pinch-to-zoom for mobile
+    let pinchDist0: number | null = null
+    let pinchScale0 = 1
+    function touchDist(t: TouchList) {
+      return Math.hypot(
+        t[0].clientX - t[1].clientX,
+        t[0].clientY - t[1].clientY,
+      )
+    }
+    function onTouchStart(e: TouchEvent) {
+      if (e.touches.length === 2) {
+        pinchDist0 = touchDist(e.touches)
+        pinchScale0 = scaleRef.current
+      }
+    }
+    function onTouchMove(e: TouchEvent) {
+      if (e.touches.length === 2 && pinchDist0 !== null) {
+        e.preventDefault()
+        const d = touchDist(e.touches)
+        const factor = d / pinchDist0
+        scaleRef.current = Math.max(0.4, Math.min(9, pinchScale0 * factor))
+        projectionRef.current.scale(baseScaleRef.current * scaleRef.current)
+        renderGlobe()
+      }
+    }
+    function onTouchEnd(e: TouchEvent) {
+      if (e.touches.length < 2) pinchDist0 = null
+    }
+
     svg.addEventListener('wheel', onWheel, { passive: false })
-    return () => svg.removeEventListener('wheel', onWheel)
+    svg.addEventListener('touchstart', onTouchStart, { passive: true })
+    svg.addEventListener('touchmove', onTouchMove, { passive: false })
+    svg.addEventListener('touchend', onTouchEnd)
+
+    return () => {
+      svg.removeEventListener('wheel', onWheel)
+      svg.removeEventListener('touchstart', onTouchStart)
+      svg.removeEventListener('touchmove', onTouchMove)
+      svg.removeEventListener('touchend', onTouchEnd)
+    }
   }, [renderGlobe])
 
-  /* ── pin click / hover handlers ───────────────────────────── */
+  /* ── pin + label click / hover handlers ───────────────────── */
   const handlePinClick = useCallback(
     (e: ReactMouseEvent<SVGSVGElement>) => {
-      const target = (e.target as Element).closest(`.${styles.civPin}`)
+      // Check both pins and leader-line labels
+      const target =
+        (e.target as Element).closest(`.${styles.civPin}`) ??
+        (e.target as Element).closest(`.${styles.civLabel}`)
       if (!target) return
       e.stopPropagation()
       const id = target.getAttribute('data-civ-id')

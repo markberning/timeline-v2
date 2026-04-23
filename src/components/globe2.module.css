@@ -655,11 +655,11 @@
   }
 
   .pinDot {
-    r: 5;
+    r: 6;
   }
 
   .pinHalo {
-    r: 10;
+    r: 14;
   }
 
   .civTip {
