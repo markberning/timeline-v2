@@ -2999,6 +2999,272 @@
       ]
     },
     {
+      "id": "evt-king-cheng",
+      "label": "King Cheng of Zhou",
+      "year": -1042,
+      "endYear": -1006,
+      "description": "King Cheng inherited the throne as a child, relying on the Duke of Zhou's regency. His reign saw the consolidation of Zhou power and the formalization of feudal institutions.",
+      "wikiSlug": "King_Cheng_of_Zhou",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-rebellion-three-guards",
+      "label": "Rebellion of the Three Guards",
+      "year": -1042,
+      "description": "Three of King Wu's brothers rebelled against the Duke of Zhou's regency, allying with Shang loyalists. The Duke crushed the revolt and expanded Zhou control eastward.",
+      "wikiSlug": "Rebellion_of_the_Three_Guards",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-luoyi-eastern-capital",
+      "label": "Luoyi Eastern Capital Founded",
+      "year": -1036,
+      "description": "The Duke of Zhou established a second capital at Luoyi near modern Luoyang to project Zhou authority into the conquered Shang heartland.",
+      "wikiSlug": "Chengzhou",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-da-yu-ding",
+      "label": "Da Yu Ding Bronze",
+      "year": -980,
+      "description": "A massive bronze tripod recording a royal land grant to a nobleman named Yu, one of the most important Western Zhou bronze inscriptions documenting the feudal system.",
+      "wikiSlug": "Da_Yu_ding",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mao-gong-ding",
+      "label": "Mao Gong Ding Bronze",
+      "year": -850,
+      "description": "With 497 characters, the Mao Gong Ding bears the longest bronze inscription ever found, recording King Xuan's charge to his minister Mao Gong.",
+      "wikiSlug": "Mao_Gong_Ding",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-king-li-exile",
+      "label": "King Li Exiled",
+      "year": -841,
+      "description": "The people of the capital rioted against King Li's tyranny and drove him into exile, leading to the unprecedented Gonghe Regency.",
+      "wikiSlug": "King_Li_of_Zhou",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gonghe-regency",
+      "label": "Gonghe Regency — 841 BCE",
+      "year": -841,
+      "endYear": -828,
+      "description": "After King Li's exile, a regency governed the Zhou state. 841 BCE became the first reliably dated year in Chinese history, the starting point for continuous chronology.",
+      "wikiSlug": "Gonghe_Regency",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sima-qian",
+      "label": "Sima Qian's Records of the Grand Historian",
+      "year": -94,
+      "description": "Sima Qian completed the first comprehensive history of China, using 841 BCE as the starting point for precise chronology and shaping how all later dynasties recorded their history.",
+      "wikiSlug": "Records_of_the_Grand_Historian",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-king-you-beacon",
+      "label": "King You and the Beacon Fires",
+      "year": -771,
+      "description": "King You's repeated false lighting of the beacon fires to amuse his concubine Bao Si became one of China's most famous cautionary tales about the abuse of power.",
+      "wikiSlug": "King_You_of_Zhou",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-spring-autumn-begins",
+      "label": "Spring and Autumn Period Begins",
+      "year": -770,
+      "description": "After the fall of Western Zhou, the Eastern Zhou era began a centuries-long period of interstate competition among powerful feudal states while the Zhou king became a figurehead.",
+      "wikiSlug": "Spring_and_Autumn_period",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-duke-wen-jin",
+      "label": "Duke Wen of Jin",
+      "year": -636,
+      "endYear": -628,
+      "description": "After 19 years in exile, Duke Wen claimed the Jin throne and became hegemon, establishing Jin as the dominant northern power at the Battle of Chengpu.",
+      "wikiSlug": "Duke_Wen_of_Jin",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-chengpu",
+      "label": "Battle of Chengpu",
+      "year": -632,
+      "description": "Duke Wen of Jin defeated Chu at Chengpu, establishing Jin's hegemony over the central states and checking Chu's northern expansion.",
+      "wikiSlug": "Battle_of_Chengpu",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-king-zhuang-chu",
+      "label": "King Zhuang of Chu",
+      "year": -613,
+      "endYear": -591,
+      "description": "King Zhuang brought Chu to its greatest power and famously asked about the weight of the Zhou king's ritual cauldrons, a veiled challenge to the mandate itself.",
+      "wikiSlug": "King_Zhuang_of_Chu",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ox-drawn-iron-plow",
+      "label": "Ox-Drawn Iron Plow",
+      "year": -500,
+      "description": "The combination of iron plowshares and ox traction multiplied the amount of land a family could cultivate, driving the agricultural revolution that fed the Warring States armies.",
+      "wikiSlug": "Chinese_agriculture",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-analects",
+      "label": "The Analects (Lunyu)",
+      "year": -475,
+      "description": "Confucius's students compiled his sayings into the Analects after his death, creating the foundational text of Chinese education and moral philosophy for over two millennia.",
+      "wikiSlug": "Analects",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-partition-jin",
+      "label": "Partition of Jin",
+      "year": -453,
+      "description": "Three ministerial families divided the great state of Jin among themselves, formally ending the feudal order and marking the transition from the Spring and Autumn to the Warring States period.",
+      "wikiSlug": "Partition_of_Jin",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cavalry-king-wuling",
+      "label": "King Wuling Adopts Cavalry",
+      "year": -307,
+      "description": "King Wuling of Zhao adopted nomadic riding dress and cavalry tactics, a cultural revolution that shocked the Chinese world and transformed Warring States warfare.",
+      "wikiSlug": "King_Wuling_of_Zhao",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-dao-de-jing",
+      "label": "Dao De Jing",
+      "year": -400,
+      "description": "The foundational text of Daoism, attributed to Laozi, offered an alternative to Confucianism through paradox, naturalness, and wuwei. It is the second most translated book in world history.",
+      "wikiSlug": "Tao_Te_Ching",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zou-yan",
+      "label": "Zou Yan and Yin-Yang Cosmology",
+      "year": -305,
+      "endYear": -240,
+      "description": "Zou Yan systematized the yin-yang and five-phases cosmological framework that would underpin Chinese medicine, astrology, and dynastic succession theory for millennia.",
+      "wikiSlug": "Zou_Yan",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-chu-silk-manuscript",
+      "label": "Chu Silk Manuscript",
+      "year": -300,
+      "description": "The oldest known manuscript written on silk, containing cosmological diagrams and calendrical text from the state of Chu, demonstrating that silk was already a writing medium.",
+      "wikiSlug": "Chu_Silk_Manuscript",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-li-sao",
+      "label": "Li Sao by Qu Yuan",
+      "year": -300,
+      "description": "Qu Yuan's long poem 'Encountering Sorrow' is the first great work of individual literary expression in Chinese history, a voice of personal grief and political protest.",
+      "wikiSlug": "Li_Sao",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-dragon-boat-festival",
+      "label": "Dragon Boat Festival Origin",
+      "year": -278,
+      "description": "Qu Yuan drowned himself in the Miluo River after Qin conquered the Chu capital. The Dragon Boat Festival, still celebrated by hundreds of millions, commemorates the search for his body.",
+      "wikiSlug": "Dragon_Boat_Festival",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-su-qin-zhang-yi",
+      "label": "Su Qin and Zhang Yi",
+      "year": -330,
+      "description": "The rival strategists Su Qin and Zhang Yi embodied Warring States diplomacy: Su Qin assembled a six-state Vertical alliance against Qin, while Zhang Yi peeled states away with Horizontal deals.",
+      "wikiSlug": "Su_Qin",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-bai-qi",
+      "label": "General Bai Qi",
+      "year": -293,
+      "endYear": -257,
+      "description": "Qin's most feared general, credited with killing over one million enemy soldiers. His massacre of 400,000 Zhao prisoners at Changping remains one of history's most devastating atrocities.",
+      "wikiSlug": "Bai_Qi",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "people"
+    },
+    {
+      "id": "evt-county-system",
+      "label": "County System (Xian)",
+      "year": -350,
+      "description": "Warring States kingdoms replaced hereditary fiefs with directly administered counties, appointing officials who served at the ruler's pleasure — the seed of China's 2,000-year bureaucratic system.",
+      "wikiSlug": "Xian_(administrative_division)",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cast-iron-blast-furnace",
+      "label": "Chinese Blast Furnace Technology",
+      "year": -550,
+      "description": "Chinese metallurgists achieved cast iron using blast furnaces 1,500 years before Europe, enabling mass production of standardized tools and weapons that transformed agriculture and warfare.",
+      "wikiSlug": "Blast_furnace",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
       "id": "evt-end-zhou",
       "label": "End of the Zhou Dynasty",
       "year": -256,
