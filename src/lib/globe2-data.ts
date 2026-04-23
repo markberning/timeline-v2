@@ -145,6 +145,42 @@ export function getCivColor(civId: string): string {
   return _civColorMap.get(civId) ?? '#d97706'
 }
 
+/** Map globe civ IDs → reader page slugs (only civs with shipped content). */
+const GLOBE_TO_READER: Record<string, string> = {
+  sumer: 'mesopotamia',
+  akkad: 'mesopotamia',
+  babylon: 'mesopotamia',
+  assyria: 'assyrian-empire',
+  elam: 'elamite-civilization',
+  hittites: 'hittite-empire',
+  achaemenid: 'persian-empire',
+  parthia: 'persian-empire',
+  sassanid: 'persian-empire',
+  'egypt-old': 'old-kingdom-egypt',
+  'egypt-middle': 'new-kingdom-egypt',
+  'egypt-new': 'new-kingdom-egypt',
+  kush: 'kingdom-of-kush',
+  indus: 'indus-valley',
+  maurya: 'maurya-empire',
+  erlitou: 'ancient-china',
+  shang: 'shang-dynasty',
+  zhou: 'zhou-dynasty',
+  qin: 'qin-dynasty',
+  minoan: 'minoan-civilization',
+  mycenaean: 'mycenaean-civilization',
+  olmec: 'olmec-civilization',
+  chavin: 'early-andean-civilizations',
+  goguryeo: 'ancient-korea',
+  silla: 'ancient-korea',
+  // Nubia
+  aksum: 'ancient-nubia',
+}
+
+/** Get the reader page slug for a globe civ, or null if no content. */
+export function getReaderSlug(civId: string): string | null {
+  return GLOBE_TO_READER[civId] ?? null
+}
+
 export const TIME_MIN = -5000
 export const TIME_MAX = 1700
 

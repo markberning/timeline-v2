@@ -18,6 +18,7 @@ import {
   TIME_MAX,
   ERAS,
   getCivColor,
+  getReaderSlug,
   type GlobeCiv2,
   type Globe2Group,
 } from '@/lib/globe2-data'
@@ -946,6 +947,7 @@ export default function Globe2() {
       {selected && (() => {
         const cardColor = getCivColor(selected.id)
         const group = getCivGroup(selected.id)
+        const readerSlug = getReaderSlug(selected.id)
         return (
           <div
             className={`${styles.infoCard} font-[family-name:var(--font-geist-sans)]`}
@@ -985,6 +987,15 @@ export default function Globe2() {
                 Key cities:{' '}
                 <span>{selected.cities.join(', ')}</span>
               </div>
+            )}
+            {readerSlug && (
+              <a
+                href={`/${readerSlug}`}
+                className={styles.readBtn}
+                style={{ background: cardColor }}
+              >
+                Read the full story &rarr;
+              </a>
             )}
           </div>
         )

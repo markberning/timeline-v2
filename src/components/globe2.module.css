@@ -270,6 +270,24 @@
   color: var(--globe-text);
 }
 
+.readBtn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 14px;
+  transition: opacity 0.15s ease;
+}
+
+.readBtn:hover {
+  opacity: 0.85;
+}
+
 .eraStrip {
   display: flex;
   height: 6px;
