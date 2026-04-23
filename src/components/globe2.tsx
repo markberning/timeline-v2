@@ -1,0 +1,873 @@
+'use client'
+
+import {
+  useEffect,
+  useRef,
+  useState,
+  useCallback,
+  useMemo,
+  type MouseEvent as ReactMouseEvent,
+} from 'react'
+import * as d3 from 'd3'
+import * as topojson from 'topojson-client'
+import type { Topology, GeometryCollection } from 'topojson-specification'
+import {
+  GLOBE2_CIVS,
+  GLOBE2_GROUPS,
+  TIME_MIN,
+  TIME_MAX,
+  ERAS,
+  type GlobeCiv2,
+} from '@/lib/globe2-data'
+import styles from './globe2.module.css'
+
+/* ── helpers ─────────────────────────────────────────────────── */
+
+function formatYear(y: number): string {
+  if (y < 0) return `${Math.abs(y)} BCE`
+  if (y === 0) return '1 CE'
+  return `${y} CE`
+}
+
+function yearSpan(s: number, e: number): string {
+  return `${formatYear(s)} – ${formatYear(e)}`
+}
+
+/**
+ * Angular distance between two lon/lat points in degrees.
+ */
+function angularDist(
+  lon1: number,
+  lat1: number,
+  lon2: number,
+  lat2: number,
+): number {
+  const toRad = Math.PI / 180
+  const dLat = (lat2 - lat1) * toRad
+  const dLon = (lon2 - lon1) * toRad
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1 * toRad) * Math.cos(lat2 * toRad) * Math.sin(dLon / 2) ** 2
+  return 2 * Math.asin(Math.sqrt(Math.min(1, a))) * (180 / Math.PI)
+}
+
+/** Is a lon/lat point on the visible hemisphere? */
+function isVisible(
+  lon: number,
+  lat: number,
+  rotation: [number, number],
+): boolean {
+  return angularDist(-rotation[0], -rotation[1], lon, lat) < 90
+}
+
+/** Close a polygon ring for GeoJSON and fix winding via d3.geoArea. */
+function asClosedRing(
+  coords: [number, number][],
+): [number, number][] {
+  const ring = [...coords]
+  const first = ring[0]
+  const last = ring[ring.length - 1]
+  if (first[0] !== last[0] || first[1] !== last[1]) {
+    ring.push([first[0], first[1]])
+  }
+  // Fix winding: GeoJSON exterior rings must be counter-clockwise.
+  // If d3.geoArea > 2*PI (> half the sphere), reverse the winding.
+  const geojson: GeoJSON.Polygon = { type: 'Polygon', coordinates: [ring] }
+  if (d3.geoArea(geojson) > 2 * Math.PI) {
+    ring.reverse()
+  }
+  return ring
+}
+
+/** Density histogram for the timeline waveform. */
+function computeDensity(
+  civs: GlobeCiv2[],
+  bins: number,
+): number[] {
+  const out = new Array(bins).fill(0) as number[]
+  const range = TIME_MAX - TIME_MIN
+  for (const c of civs) {
+    const i0 = Math.max(0, Math.floor(((c.start - TIME_MIN) / range) * bins))
+    const i1 = Math.min(bins - 1, Math.floor(((c.end - TIME_MIN) / range) * bins))
+    for (let i = i0; i <= i1; i++) out[i]++
+  }
+  return out
+}
+
+/** Simple rect-rect overlap check for label collision. */
+interface Rect {
+  x: number
+  y: number
+  w: number
+  h: number
+}
+function rectsOverlap(a: Rect, b: Rect): boolean {
+  return a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y
+}
+
+/* ── era strip colors ────────────────────────────────────────── */
+const ERA_COLORS = ['#b45309', '#a16207', '#92400e', '#78350f', '#713f12']
+
+/* ── WorldMap topology URL ───────────────────────────────────── */
+const WORLD_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json'
+
+/* ══════════════════════════════════════════════════════════════
+   Globe2 Component
+   ══════════════════════════════════════════════════════════════ */
+
+export default function Globe2() {
+  /* ── refs ──────────────────────────────────────────────────── */
+  const svgRef = useRef<SVGSVGElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
+  const worldRef = useRef<Topology | null>(null)
+
+  /* ── state ────────────────────────────────────────────────── */
+  const [year, setYear] = useState(-2000)
+  const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [hoveredId, setHoveredId] = useState<string | null>(null)
+  const [hoverPos, setHoverPos] = useState<{ x: number; y: number } | null>(null)
+  const [drawerOpen, setDrawerOpen] = useState(false)
+  const [search, setSearch] = useState('')
+  const [worldLoaded, setWorldLoaded] = useState(false)
+  const [dimensions, setDimensions] = useState({ w: 0, h: 0 })
+
+  /* ── projection & path ────────────────────────────────────── */
+  const projectionRef = useRef(
+    d3
+      .geoOrthographic()
+      .rotate([-30, -20, 0])
+      .clipAngle(90)
+      .precision(0.5),
+  )
+  const scaleRef = useRef(1)
+  const rotationRef = useRef<[number, number]>([-30, -20])
+  const isDraggingRef = useRef(false)
+  const rafRef = useRef(0)
+  const baseScaleRef = useRef(0)
+
+  /* ── derived data ─────────────────────────────────────────── */
+  const activeCivs = useMemo(
+    () => GLOBE2_CIVS.filter((c) => c.start <= year && c.end >= year),
+    [year],
+  )
+
+  const selected = useMemo(
+    () => (selectedId ? GLOBE2_CIVS.find((c) => c.id === selectedId) ?? null : null),
+    [selectedId],
+  )
+
+  const density = useMemo(() => computeDensity(GLOBE2_CIVS, 120), [])
+  const maxDensity = useMemo(() => Math.max(...density, 1), [density])
+
+  /* ── search filtering for drawer ──────────────────────────── */
+  const filteredGroups = useMemo(() => {
+    const q = search.toLowerCase().trim()
+    if (!q) return GLOBE2_GROUPS
+    return GLOBE2_GROUPS.map((g) => ({
+      ...g,
+      ids: g.ids.filter((id) => {
+        const c = GLOBE2_CIVS.find((cv) => cv.id === id)
+        return (
+          c &&
+          (c.name.toLowerCase().includes(q) ||
+            c.region.toLowerCase().includes(q) ||
+            c.cities.some((ct) => ct.toLowerCase().includes(q)))
+        )
+      }),
+    })).filter((g) => g.ids.length > 0)
+  }, [search])
+
+  /* ── load world topology ──────────────────────────────────── */
+  useEffect(() => {
+    fetch(WORLD_URL)
+      .then((r) => r.json())
+      .then((topo: Topology) => {
+        worldRef.current = topo
+        setWorldLoaded(true)
+      })
+      .catch(console.error)
+  }, [])
+
+  /* ── resize handling ──────────────────────────────────────── */
+  useEffect(() => {
+    function handleResize() {
+      const w = window.innerWidth
+      const h = window.innerHeight
+      setDimensions({ w, h })
+      const base = Math.min(w, h) * 0.42
+      baseScaleRef.current = base
+      projectionRef.current
+        .translate([w / 2, h / 2 - 20])
+        .scale(base * scaleRef.current)
+    }
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  /* ── keyboard shortcuts ───────────────────────────────────── */
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        setSelectedId(null)
+        setDrawerOpen(false)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
+
+  /* ── select a civ: spin to it ─────────────────────────────── */
+  const selectCiv = useCallback(
+    (id: string | null) => {
+      setSelectedId(id)
+      setDrawerOpen(false)
+      if (!id) return
+      const civ = GLOBE2_CIVS.find((c) => c.id === id)
+      if (!civ) return
+
+      // If outside the civ's time range, jump to midpoint
+      const mid = Math.round((civ.start + civ.end) / 2)
+      if (year < civ.start || year > civ.end) {
+        setYear(Math.max(TIME_MIN, Math.min(TIME_MAX, mid)))
+      }
+
+      // Spin to the civ's capital
+      const [lon, lat] = civ.capital
+      const targetRot: [number, number] = [-lon, -lat]
+      const startRot = rotationRef.current
+      const interp = d3.interpolate(startRot, targetRot)
+
+      const duration = 800
+      const t0 = performance.now()
+      function animate(now: number) {
+        const t = Math.min(1, (now - t0) / duration)
+        const ease = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2
+        const [rLon, rLat] = interp(ease)
+        rotationRef.current = [rLon, rLat]
+        projectionRef.current.rotate([rLon, rLat, 0])
+        renderGlobe()
+        if (t < 1) requestAnimationFrame(animate)
+      }
+      requestAnimationFrame(animate)
+    },
+    [year],
+  )
+
+  /* ── render the globe into the SVG ─────────────────────────── */
+  const renderGlobe = useCallback(() => {
+    const svg = svgRef.current
+    const world = worldRef.current
+    if (!svg || !world) return
+
+    const projection = projectionRef.current
+    const path = d3.geoPath(projection)
+    const rotation = rotationRef.current
+    const { w, h } = {
+      w: window.innerWidth,
+      h: window.innerHeight,
+    }
+
+    /* ── sphere + graticule ──────────────────────────────────── */
+    const sphereEl = svg.querySelector(`.${styles.sphere}`) as SVGCircleElement | null
+    if (sphereEl) {
+      const [cx, cy] = projection.translate()
+      const r = projection.scale()
+      sphereEl.setAttribute('cx', String(cx))
+      sphereEl.setAttribute('cy', String(cy))
+      sphereEl.setAttribute('r', String(r))
+    }
+
+    const gratEl = svg.querySelector(`.${styles.graticule}`) as SVGPathElement | null
+    if (gratEl) {
+      const graticule = d3.geoGraticule10()
+      gratEl.setAttribute('d', path(graticule) || '')
+    }
+
+    /* ── countries: two-path optimization ──────────────────── */
+    const countries = (
+      topojson.feature(
+        world,
+        world.objects.countries as GeometryCollection,
+      ) as GeoJSON.FeatureCollection
+    ).features
+
+    // Combine all country geometries into a single MultiPolygon for fill
+    const allCoords: GeoJSON.Position[][][] = []
+    for (const f of countries) {
+      const g = f.geometry
+      if (g.type === 'Polygon') allCoords.push(g.coordinates)
+      else if (g.type === 'MultiPolygon')
+        for (const poly of g.coordinates) allCoords.push(poly)
+    }
+    const combinedFill: GeoJSON.MultiPolygon = {
+      type: 'MultiPolygon',
+      coordinates: allCoords,
+    }
+
+    const fillEl = svg.querySelector(`.${styles.countryFill}`) as SVGPathElement | null
+    if (fillEl) fillEl.setAttribute('d', path(combinedFill) || '')
+
+    const bordersMesh = topojson.mesh(
+      world,
+      world.objects.countries as GeometryCollection,
+      (a, b) => a !== b,
+    )
+    const borderEl = svg.querySelector(
+      `.${styles.countryBorders}`,
+    ) as SVGPathElement | null
+    if (borderEl) borderEl.setAttribute('d', path(bordersMesh) || '')
+
+    /* ── civ region polygon ────────────────────────────────── */
+    const regionEl = svg.querySelector(
+      `.${styles.civRegion}`,
+    ) as SVGPathElement | null
+    if (regionEl) {
+      if (selected && selected.extent.length >= 3) {
+        const ring = asClosedRing(selected.extent as [number, number][])
+        const geo: GeoJSON.Polygon = { type: 'Polygon', coordinates: [ring] }
+        regionEl.setAttribute('d', path(geo) || '')
+      } else {
+        regionEl.setAttribute('d', '')
+      }
+    }
+
+    /* ── pins (update g.civPin positions + visibility) ──────── */
+    const pinsG = svg.querySelector('#pins-group')
+    if (!pinsG) return
+
+    // Remove stale pins
+    const existingPins = pinsG.querySelectorAll(`.${styles.civPin}`)
+    const activeIds = new Set(activeCivs.map((c) => c.id))
+    existingPins.forEach((el) => {
+      const pinId = el.getAttribute('data-civ-id')
+      if (pinId && !activeIds.has(pinId)) el.remove()
+    })
+
+    for (const civ of activeCivs) {
+      const [lon, lat] = civ.capital
+      const vis = isVisible(lon, lat, rotation)
+      const coords = projection([lon, lat])
+
+      let g = pinsG.querySelector(`[data-civ-id="${civ.id}"]`) as SVGGElement | null
+      if (!g) {
+        g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
+        g.setAttribute('data-civ-id', civ.id)
+        g.classList.add(styles.civPin)
+        const halo = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+        halo.classList.add(styles.pinHalo)
+        const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+        dot.classList.add(styles.pinDot)
+        g.appendChild(halo)
+        g.appendChild(dot)
+        pinsG.appendChild(g)
+      }
+
+      if (!vis || !coords) {
+        g.style.display = 'none'
+        continue
+      }
+      g.style.display = ''
+      g.setAttribute('transform', `translate(${coords[0]},${coords[1]})`)
+
+      // Focused / dimmed states
+      const isFocused = civ.id === selectedId
+      const isDimmed = selectedId != null && civ.id !== selectedId
+      g.classList.toggle(styles.focused, isFocused)
+      g.classList.toggle(styles.dimmed, isDimmed)
+    }
+
+    /* ── leader-line labels (skip during drag) ─────────────── */
+    const labelsG = svg.querySelector('#labels-group')
+    if (!labelsG) return
+
+    if (isDraggingRef.current) {
+      labelsG.innerHTML = ''
+      return
+    }
+
+    labelsG.innerHTML = ''
+    const placed: Rect[] = []
+    const labelOffset = 20
+    const charW = 5.5
+    const labelH = 16
+    const labelPadX = 6
+    const labelPadY = 2
+
+    // Sort: selected first, then by distance to center for priority
+    const [cx, cy] = projection.translate()
+    const sorted = [...activeCivs].sort((a, b) => {
+      if (a.id === selectedId) return -1
+      if (b.id === selectedId) return 1
+      const pa = projection(a.capital)
+      const pb = projection(b.capital)
+      if (!pa || !pb) return 0
+      const da = Math.hypot(pa[0] - cx, pa[1] - cy)
+      const db = Math.hypot(pb[0] - cx, pb[1] - cy)
+      return da - db
+    })
+
+    const maxLabels = w < 720 ? 6 : 14
+
+    let count = 0
+    for (const civ of sorted) {
+      if (count >= maxLabels) break
+      const [lon, lat] = civ.capital
+      if (!isVisible(lon, lat, rotation)) continue
+      const coords = projection([lon, lat])
+      if (!coords) continue
+
+      const px = coords[0]
+      const py = coords[1]
+      const textLen = civ.name.length * charW
+      const boxW = textLen + labelPadX * 2
+      const boxH = labelH + labelPadY * 2
+
+      // Try 4 directions for label placement
+      const dirs: [number, number][] = [
+        [1, -1],
+        [1, 1],
+        [-1, -1],
+        [-1, 1],
+      ]
+      let bestDir = dirs[0]
+      let bestRect: Rect | null = null
+
+      for (const [dx, dy] of dirs) {
+        const lx = px + dx * labelOffset
+        const ly = py + dy * labelOffset - boxH / 2
+        const rect: Rect = { x: lx, y: ly, w: boxW, h: boxH }
+        // Check bounds
+        if (lx < 0 || lx + boxW > w || ly < 0 || ly + boxH > h) continue
+        // Check collisions
+        if (placed.some((r) => rectsOverlap(rect, r))) continue
+        bestDir = [dx, dy]
+        bestRect = rect
+        break
+      }
+
+      if (!bestRect) continue
+      placed.push(bestRect)
+      count++
+
+      const g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
+      g.classList.add(styles.civLabel)
+
+      // Leader line
+      const lx = bestRect.x
+      const ly = bestRect.y + boxH / 2
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line')
+      line.classList.add(styles.leader)
+      line.setAttribute('x1', String(px))
+      line.setAttribute('y1', String(py))
+      line.setAttribute('x2', String(lx))
+      line.setAttribute('y2', String(ly))
+      g.appendChild(line)
+
+      // Bubble background
+      const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect')
+      rect.classList.add(styles.bubble)
+      rect.setAttribute('x', String(bestRect.x))
+      rect.setAttribute('y', String(bestRect.y))
+      rect.setAttribute('width', String(boxW))
+      rect.setAttribute('height', String(boxH))
+      g.appendChild(rect)
+
+      // Text
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text')
+      text.classList.add(styles.labelText)
+      text.setAttribute('x', String(bestRect.x + labelPadX))
+      text.setAttribute('y', String(bestRect.y + boxH / 2))
+      text.textContent = civ.name
+      g.appendChild(text)
+
+      labelsG.appendChild(g)
+    }
+  }, [activeCivs, selectedId, selected])
+
+  /* ── re-render when state changes ─────────────────────────── */
+  useEffect(() => {
+    if (worldLoaded) renderGlobe()
+  }, [worldLoaded, renderGlobe, year, selectedId, dimensions])
+
+  /* ── drag interaction ─────────────────────────────────────── */
+  useEffect(() => {
+    const svg = svgRef.current
+    if (!svg) return
+
+    let dragStart: [number, number] | null = null
+    let rotStart: [number, number] = [0, 0]
+
+    function onPointerDown(e: PointerEvent) {
+      // Ignore if clicking a pin
+      const target = e.target as Element
+      if (target.closest(`.${styles.civPin}`)) return
+
+      dragStart = [e.clientX, e.clientY]
+      rotStart = [...rotationRef.current]
+      isDraggingRef.current = true
+      svg!.setPointerCapture(e.pointerId)
+    }
+
+    function onPointerMove(e: PointerEvent) {
+      if (!dragStart) return
+      const dx = e.clientX - dragStart[0]
+      const dy = e.clientY - dragStart[1]
+      const scale = projectionRef.current.scale()
+      const sensitivity = 0.3
+
+      const newRot: [number, number] = [
+        rotStart[0] + (dx * sensitivity * 100) / scale,
+        Math.max(-89, Math.min(89, rotStart[1] - (dy * sensitivity * 100) / scale)),
+      ]
+
+      if (rafRef.current) cancelAnimationFrame(rafRef.current)
+      rafRef.current = requestAnimationFrame(() => {
+        rotationRef.current = newRot
+        projectionRef.current.rotate([newRot[0], newRot[1], 0])
+        renderGlobe()
+      })
+    }
+
+    function onPointerUp(e: PointerEvent) {
+      if (dragStart) {
+        const dx = e.clientX - dragStart[0]
+        const dy = e.clientY - dragStart[1]
+        const moved = Math.hypot(dx, dy) > 4
+
+        if (!moved) {
+          // Click on empty globe → deselect
+          const target = e.target as Element
+          if (!target.closest(`.${styles.civPin}`)) {
+            setSelectedId(null)
+          }
+        }
+
+        dragStart = null
+        isDraggingRef.current = false
+
+        // Re-render labels
+        requestAnimationFrame(renderGlobe)
+      }
+    }
+
+    svg.addEventListener('pointerdown', onPointerDown)
+    svg.addEventListener('pointermove', onPointerMove)
+    svg.addEventListener('pointerup', onPointerUp)
+    svg.addEventListener('pointercancel', onPointerUp)
+
+    return () => {
+      svg.removeEventListener('pointerdown', onPointerDown)
+      svg.removeEventListener('pointermove', onPointerMove)
+      svg.removeEventListener('pointerup', onPointerUp)
+      svg.removeEventListener('pointercancel', onPointerUp)
+    }
+  }, [renderGlobe])
+
+  /* ── zoom (wheel + pinch) ─────────────────────────────────── */
+  useEffect(() => {
+    const svg = svgRef.current
+    if (!svg) return
+
+    function onWheel(e: WheelEvent) {
+      e.preventDefault()
+      const delta = -e.deltaY * 0.001
+      scaleRef.current = Math.max(0.4, Math.min(6, scaleRef.current + delta))
+      projectionRef.current.scale(baseScaleRef.current * scaleRef.current)
+      renderGlobe()
+    }
+
+    svg.addEventListener('wheel', onWheel, { passive: false })
+    return () => svg.removeEventListener('wheel', onWheel)
+  }, [renderGlobe])
+
+  /* ── pin click / hover handlers ───────────────────────────── */
+  const handlePinClick = useCallback(
+    (e: ReactMouseEvent<SVGSVGElement>) => {
+      const target = (e.target as Element).closest(`.${styles.civPin}`)
+      if (!target) return
+      e.stopPropagation()
+      const id = target.getAttribute('data-civ-id')
+      if (id) selectCiv(id)
+    },
+    [selectCiv],
+  )
+
+  const handlePinHover = useCallback(
+    (e: ReactMouseEvent<SVGSVGElement>) => {
+      const target = (e.target as Element).closest(`.${styles.civPin}`)
+      if (target) {
+        const id = target.getAttribute('data-civ-id')
+        setHoveredId(id)
+        setHoverPos({ x: e.clientX, y: e.clientY })
+      } else {
+        setHoveredId(null)
+        setHoverPos(null)
+      }
+    },
+    [],
+  )
+
+  /* ── zoom button handlers ─────────────────────────────────── */
+  const handleZoom = useCallback(
+    (dir: number) => {
+      scaleRef.current = Math.max(0.4, Math.min(6, scaleRef.current + dir * 0.3))
+      projectionRef.current.scale(baseScaleRef.current * scaleRef.current)
+      renderGlobe()
+    },
+    [renderGlobe],
+  )
+
+  /* ── hovered civ for tooltip ──────────────────────────────── */
+  const hoveredCiv = useMemo(
+    () => (hoveredId ? GLOBE2_CIVS.find((c) => c.id === hoveredId) ?? null : null),
+    [hoveredId],
+  )
+
+  /* ── era strip for info card ──────────────────────────────── */
+  const eraStripForCiv = useCallback((civ: GlobeCiv2) => {
+    return ERAS.map((era, i) => {
+      const nextY = ERAS[i + 1]?.y ?? TIME_MAX
+      const active = civ.start <= nextY && civ.end >= era.y
+      return { ...era, active, color: ERA_COLORS[i] }
+    })
+  }, [])
+
+  /* ── render ────────────────────────────────────────────────── */
+  return (
+    <div ref={containerRef} className={styles.container}>
+      {/* ── SVG Globe ─────────────────────────────────────── */}
+      <svg
+        ref={svgRef}
+        width={dimensions.w}
+        height={dimensions.h}
+        style={{ display: 'block' }}
+        onClick={handlePinClick}
+        onMouseMove={handlePinHover}
+        onMouseLeave={() => {
+          setHoveredId(null)
+          setHoverPos(null)
+        }}
+      >
+        {/* Sphere background */}
+        <circle className={styles.sphere} />
+
+        {/* Graticule */}
+        <path className={styles.graticule} />
+
+        {/* Countries: two-path fill + borders */}
+        <path className={styles.countryFill} />
+        <path className={styles.countryBorders} />
+
+        {/* Selected civ region */}
+        <path className={styles.civRegion} />
+
+        {/* Pins */}
+        <g id="pins-group" />
+
+        {/* Labels */}
+        <g id="labels-group" />
+      </svg>
+
+      {/* ── Title block ───────────────────────────────────── */}
+      <div className={styles.titleBlock}>
+        <div
+          className={`${styles.kicker} font-[family-name:var(--font-geist-sans)]`}
+        >
+          Stuff Happened
+        </div>
+        <div className={`${styles.title} font-[family-name:var(--font-lora)]`}>
+          Historica
+        </div>
+        <div
+          className={`${styles.subtitle} font-[family-name:var(--font-geist-sans)]`}
+        >
+          Drag to spin &middot; Click a pin to explore
+        </div>
+      </div>
+
+      {/* ── Hover tooltip ─────────────────────────────────── */}
+      {hoveredCiv && hoverPos && hoveredId !== selectedId && (
+        <div
+          className={`${styles.civTip} font-[family-name:var(--font-geist-sans)]`}
+          style={{
+            left: hoverPos.x + 14,
+            top: hoverPos.y - 28,
+            opacity: 1,
+          }}
+        >
+          <strong>{hoveredCiv.name}</strong>
+          <span
+            className="font-[family-name:var(--font-geist-mono)]"
+            style={{ marginLeft: 8, opacity: 0.6, fontSize: 11 }}
+          >
+            {yearSpan(hoveredCiv.start, hoveredCiv.end)}
+          </span>
+        </div>
+      )}
+
+      {/* ── Info card ─────────────────────────────────────── */}
+      {selected && (
+        <div
+          className={`${styles.infoCard} font-[family-name:var(--font-geist-sans)]`}
+        >
+          <button
+            className={styles.closeBtn}
+            onClick={() => setSelectedId(null)}
+            aria-label="Close"
+          >
+            &times;
+          </button>
+
+          {/* Era strip */}
+          <div className={styles.eraStrip}>
+            {eraStripForCiv(selected).map((era, i) => (
+              <span
+                key={i}
+                className={era.active ? styles.active : undefined}
+                style={{ background: era.color }}
+              />
+            ))}
+          </div>
+
+          <div className={styles.region}>{selected.region}</div>
+          <h2 className="font-[family-name:var(--font-lora)]">{selected.name}</h2>
+          <div className={`${styles.dates} font-[family-name:var(--font-geist-mono)]`}>
+            {yearSpan(selected.start, selected.end)}
+          </div>
+          <div className={styles.summary}>{selected.summary}</div>
+          {selected.cities.length > 0 && (
+            <div className={styles.cities}>
+              Key cities:{' '}
+              <span>{selected.cities.join(', ')}</span>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ── Drawer toggle ─────────────────────────────────── */}
+      <button
+        className={`${styles.drawerToggle} font-[family-name:var(--font-geist-sans)]`}
+        onClick={() => setDrawerOpen((v) => !v)}
+      >
+        {drawerOpen ? 'Close' : `${activeCivs.length} civilizations`}
+      </button>
+
+      {/* ── Drawer / sidebar ──────────────────────────────── */}
+      <div className={`${styles.drawer} ${drawerOpen ? styles.open : ''}`}>
+        <input
+          className={`${styles.drawerSearch} font-[family-name:var(--font-geist-sans)]`}
+          type="text"
+          placeholder="Search civilizations..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          autoFocus={drawerOpen}
+        />
+        {filteredGroups.map((group) => (
+          <div key={group.id} className={styles.drawerGroup}>
+            <div
+              className={`${styles.drawerGroupLabel} font-[family-name:var(--font-geist-sans)]`}
+            >
+              {group.label}
+            </div>
+            {group.ids.map((id) => {
+              const civ = GLOBE2_CIVS.find((c) => c.id === id)
+              if (!civ) return null
+              const isActive = civ.start <= year && civ.end >= year
+              return (
+                <div
+                  key={id}
+                  className={`${styles.drawerItem} ${
+                    selectedId === id ? styles.active : ''
+                  }`}
+                  style={{ opacity: isActive ? 1 : 0.4 }}
+                  onClick={() => selectCiv(id)}
+                >
+                  <span>{civ.name}</span>
+                  <span
+                    className={`${styles.itemDates} font-[family-name:var(--font-geist-mono)]`}
+                  >
+                    {formatYear(civ.start)}
+                  </span>
+                </div>
+              )
+            })}
+          </div>
+        ))}
+      </div>
+
+      {/* ── Zoom controls ─────────────────────────────────── */}
+      <div className={styles.zoomCtrl}>
+        <button onClick={() => handleZoom(1)} aria-label="Zoom in">
+          +
+        </button>
+        <button onClick={() => handleZoom(-1)} aria-label="Zoom out">
+          &minus;
+        </button>
+      </div>
+
+      {/* ── Keyboard hints ────────────────────────────────── */}
+      <div className={`${styles.hint} font-[family-name:var(--font-geist-sans)]`}>
+        <kbd>Esc</kbd> close &nbsp;&nbsp; Scroll to zoom
+      </div>
+
+      {/* ── Timeline scrubber ─────────────────────────────── */}
+      <div className={styles.timeline}>
+        <div className={styles.timelineInner}>
+          {/* Year display */}
+          <div
+            className={`${styles.timelineYear} font-[family-name:var(--font-geist-mono)]`}
+          >
+            {formatYear(year)}
+          </div>
+
+          {/* Active count */}
+          <div
+            className={`${styles.civCount} font-[family-name:var(--font-geist-mono)]`}
+          >
+            {activeCivs.length} active
+          </div>
+
+          {/* Density waveform */}
+          <svg className={styles.densityChart} viewBox={`0 0 ${density.length} 24`} preserveAspectRatio="none">
+            {density.map((v, i) => (
+              <rect
+                key={i}
+                className={styles.densityBar}
+                x={i}
+                y={24 - (v / maxDensity) * 24}
+                width={0.85}
+                height={(v / maxDensity) * 24}
+              />
+            ))}
+          </svg>
+
+          {/* Era markers */}
+          {ERAS.map((era) => {
+            const pct = ((era.y - TIME_MIN) / (TIME_MAX - TIME_MIN)) * 100
+            return (
+              <span
+                key={era.label}
+                className={`${styles.eraMarker} font-[family-name:var(--font-geist-mono)]`}
+                style={{ left: `${pct}%` }}
+              >
+                {era.label}
+              </span>
+            )
+          })}
+
+          {/* Slider */}
+          <input
+            className={styles.timelineSlider}
+            type="range"
+            min={TIME_MIN}
+            max={TIME_MAX}
+            step={10}
+            value={year}
+            onChange={(e) => setYear(Number(e.target.value))}
+          />
+        </div>
+      </div>
+    </div>
+  )
+}

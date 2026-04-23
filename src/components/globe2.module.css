@@ -1,0 +1,668 @@
+/* ── Globe2 CSS Module ────────────────────────────────────────────
+   Theme-aware styles for the D3 orthographic globe.
+   Light: parchment bg, warm tones
+   Dark: warm dark bg, matching the Stone theme
+   ─────────────────────────────────────────────────────────────── */
+
+/* ── Accent tokens ───────────────────────────────────────────── */
+:root {
+  --globe-accent: #d97706;
+  --globe-accent-soft: rgba(217, 119, 6, 0.4);
+  --globe-accent-glow: #f59e0b;
+
+  /* globe surface — light mode */
+  --globe-sphere: #dfe5e2;
+  --globe-land: #f4ecd6;
+  --globe-border: rgba(31, 29, 24, 0.35);
+  --globe-graticule: rgba(31, 29, 24, 0.12);
+  --globe-civ-fill: rgba(217, 119, 6, 0.28);
+  --globe-civ-stroke: #d97706;
+
+  /* UI surfaces — light mode */
+  --globe-panel-bg: rgba(237, 229, 211, 0.92);
+  --globe-panel-border: rgba(31, 29, 24, 0.15);
+  --globe-text: #171717;
+  --globe-text-muted: rgba(23, 23, 23, 0.55);
+  --globe-btn-bg: rgba(31, 29, 24, 0.08);
+  --globe-btn-hover: rgba(31, 29, 24, 0.14);
+}
+
+:global(.dark) {
+  --globe-sphere: #2a3038;
+  --globe-land: #3a3530;
+  --globe-border: rgba(200, 195, 185, 0.2);
+  --globe-graticule: rgba(200, 195, 185, 0.08);
+  --globe-civ-fill: rgba(217, 119, 6, 0.28);
+  --globe-civ-stroke: #d97706;
+
+  --globe-panel-bg: rgba(47, 44, 41, 0.94);
+  --globe-panel-border: rgba(200, 195, 185, 0.12);
+  --globe-text: #e5e5e5;
+  --globe-text-muted: rgba(229, 229, 229, 0.5);
+  --globe-btn-bg: rgba(229, 229, 229, 0.08);
+  --globe-btn-hover: rgba(229, 229, 229, 0.14);
+}
+
+/* ── Container ───────────────────────────────────────────────── */
+.container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--background);
+  color: var(--globe-text);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
+
+/* ── SVG globe paths ─────────────────────────────────────────── */
+.sphere {
+  fill: var(--globe-sphere);
+  stroke: var(--globe-border);
+  stroke-width: 0.5;
+}
+
+.graticule {
+  fill: none;
+  stroke: var(--globe-graticule);
+  stroke-width: 0.4;
+  stroke-dasharray: 2 3;
+}
+
+.countryFill {
+  fill: var(--globe-land);
+  stroke: none;
+}
+
+.countryBorders {
+  fill: none;
+  stroke: var(--globe-border);
+  stroke-width: 0.3;
+  stroke-linejoin: round;
+}
+
+.civRegion {
+  fill: var(--globe-civ-fill);
+  stroke: var(--globe-civ-stroke);
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+/* ── Pins ─────────────────────────────────────────────────────── */
+.civPin {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.civPin.dimmed {
+  opacity: 0.35;
+}
+
+.civPin.focused .pinDot {
+  r: 5;
+  fill: var(--globe-accent-glow);
+  filter: drop-shadow(0 0 6px var(--globe-accent-glow));
+}
+
+.civPin.focused .pinHalo {
+  r: 10;
+  stroke: var(--globe-accent-glow);
+  opacity: 0.4;
+}
+
+.pinDot {
+  fill: var(--globe-accent);
+  stroke: var(--background);
+  stroke-width: 1;
+  r: 3.5;
+  transition: r 0.2s ease, fill 0.2s ease;
+}
+
+.pinHalo {
+  fill: none;
+  stroke: var(--globe-accent);
+  stroke-width: 1;
+  r: 7;
+  opacity: 0;
+  transition: r 0.2s ease, opacity 0.2s ease;
+}
+
+.civPin:hover .pinDot,
+.civPin:focus-visible .pinDot {
+  r: 4.5;
+  fill: var(--globe-accent-glow);
+}
+
+.civPin:hover .pinHalo,
+.civPin:focus-visible .pinHalo {
+  opacity: 0.3;
+}
+
+/* ── Leader-line labels ──────────────────────────────────────── */
+.civLabel {
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.leader {
+  stroke: var(--globe-accent-soft);
+  stroke-width: 1;
+  fill: none;
+}
+
+.bubble {
+  fill: var(--globe-panel-bg);
+  stroke: var(--globe-accent-soft);
+  stroke-width: 0.6;
+  rx: 3;
+  ry: 3;
+}
+
+.labelText {
+  fill: var(--globe-text);
+  font-size: 10px;
+  dominant-baseline: central;
+}
+
+/* ── Hover tooltip ───────────────────────────────────────────── */
+.civTip {
+  position: absolute;
+  background: var(--globe-panel-bg);
+  border: 1px solid var(--globe-panel-border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 12px;
+  color: var(--globe-text);
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 40;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.15s ease;
+}
+
+/* ── Info card ────────────────────────────────────────────────── */
+.infoCard {
+  position: absolute;
+  right: 16px;
+  top: 60px;
+  width: 340px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  background: var(--globe-panel-bg);
+  border: 1px solid var(--globe-panel-border);
+  border-radius: 12px;
+  padding: 20px;
+  z-index: 30;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  animation: slideInRight 0.3s ease;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.infoCard h2 {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--globe-text);
+  line-height: 1.25;
+}
+
+.infoCard .region {
+  font-size: 12px;
+  color: var(--globe-accent);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.infoCard .dates {
+  font-size: 13px;
+  color: var(--globe-text-muted);
+  margin-bottom: 12px;
+}
+
+.infoCard .summary {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--globe-text);
+  margin-bottom: 14px;
+}
+
+.infoCard .cities {
+  font-size: 12px;
+  color: var(--globe-text-muted);
+  margin-bottom: 16px;
+}
+
+.infoCard .cities span {
+  color: var(--globe-text);
+}
+
+.eraStrip {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  gap: 1px;
+}
+
+.eraStrip span {
+  flex: 1;
+  opacity: 0.2;
+  transition: opacity 0.2s ease;
+}
+
+.eraStrip span.active {
+  opacity: 1;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: var(--globe-btn-bg);
+  color: var(--globe-text-muted);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: background 0.15s ease;
+}
+
+.closeBtn:hover {
+  background: var(--globe-btn-hover);
+}
+
+/* ── Timeline bar ────────────────────────────────────────────── */
+.timeline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  background: var(--globe-panel-bg);
+  border-top: 1px solid var(--globe-panel-border);
+  z-index: 20;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timelineInner {
+  position: relative;
+  width: 100%;
+  height: 48px;
+}
+
+.densityChart {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  right: 0;
+  height: 24px;
+  pointer-events: none;
+}
+
+.densityBar {
+  fill: var(--globe-accent-soft);
+}
+
+.timelineSlider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.timelineSlider::-webkit-slider-runnable-track {
+  height: 3px;
+  background: var(--globe-btn-bg);
+  border-radius: 1.5px;
+}
+
+.timelineSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--globe-accent);
+  border: 2px solid var(--background);
+  margin-top: -7px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.timelineSlider::-moz-range-track {
+  height: 3px;
+  background: var(--globe-btn-bg);
+  border-radius: 1.5px;
+  border: none;
+}
+
+.timelineSlider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--globe-accent);
+  border: 2px solid var(--background);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.timelineYear {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--globe-accent);
+  white-space: nowrap;
+}
+
+.eraMarker {
+  position: absolute;
+  bottom: 20px;
+  font-size: 9px;
+  color: var(--globe-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.civCount {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  font-size: 11px;
+  color: var(--globe-text-muted);
+}
+
+/* ── Drawer / sidebar ────────────────────────────────────────── */
+.drawer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background: var(--globe-panel-bg);
+  border-right: 1px solid var(--globe-panel-border);
+  z-index: 50;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  overflow-y: auto;
+  padding: 16px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
+}
+
+.drawer.open {
+  transform: translateX(0);
+}
+
+.drawerSearch {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--globe-panel-border);
+  border-radius: 8px;
+  background: var(--globe-btn-bg);
+  color: var(--globe-text);
+  font-size: 13px;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.drawerSearch:focus {
+  border-color: var(--globe-accent);
+}
+
+.drawerSearch::placeholder {
+  color: var(--globe-text-muted);
+}
+
+.drawerGroup {
+  margin-bottom: 12px;
+}
+
+.drawerGroupLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--globe-accent);
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.drawerItem {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--globe-text);
+  transition: background 0.12s ease;
+  line-height: 1.35;
+}
+
+.drawerItem:hover {
+  background: var(--globe-btn-hover);
+}
+
+.drawerItem.active {
+  background: var(--globe-accent);
+  color: #fff;
+}
+
+.drawerItem .itemDates {
+  font-size: 10px;
+  color: var(--globe-text-muted);
+  margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.drawerItem.active .itemDates {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ── Drawer toggle ───────────────────────────────────────────── */
+.drawerToggle {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 25;
+  padding: 6px 14px;
+  border: 1px solid var(--globe-panel-border);
+  border-radius: 20px;
+  background: var(--globe-panel-bg);
+  color: var(--globe-text);
+  font-size: 12px;
+  cursor: pointer;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background 0.15s ease;
+  white-space: nowrap;
+}
+
+.drawerToggle:hover {
+  background: var(--globe-btn-hover);
+}
+
+/* ── Zoom controls ───────────────────────────────────────────── */
+.zoomCtrl {
+  position: absolute;
+  bottom: 88px;
+  right: 16px;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.zoomCtrl button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--globe-panel-border);
+  background: var(--globe-panel-bg);
+  color: var(--globe-text);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.12s ease;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.zoomCtrl button:hover {
+  background: var(--globe-btn-hover);
+}
+
+/* ── Title block ─────────────────────────────────────────────── */
+.titleBlock {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.titleBlock .kicker {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--globe-accent);
+  margin-bottom: 2px;
+}
+
+.titleBlock .title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--globe-text);
+}
+
+.titleBlock .subtitle {
+  font-size: 12px;
+  color: var(--globe-text-muted);
+  margin-top: 4px;
+}
+
+/* ── Keyboard hints ──────────────────────────────────────────── */
+.hint {
+  position: absolute;
+  bottom: 84px;
+  left: 16px;
+  z-index: 20;
+  font-size: 10px;
+  color: var(--globe-text-muted);
+  line-height: 1.6;
+  pointer-events: none;
+}
+
+.hint kbd {
+  display: inline-block;
+  padding: 1px 5px;
+  border: 1px solid var(--globe-panel-border);
+  border-radius: 3px;
+  background: var(--globe-btn-bg);
+  font-size: 10px;
+  margin: 0 2px;
+}
+
+/* ── Mobile ≤720px ───────────────────────────────────────────── */
+@media (max-width: 720px) {
+  .infoCard {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: auto;
+    bottom: 72px;
+    width: 100%;
+    max-height: 50vh;
+    border-radius: 16px 16px 0 0;
+    animation: slideUp 0.3s ease;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .drawer {
+    width: 100%;
+  }
+
+  .zoomCtrl {
+    display: none;
+  }
+
+  .hint {
+    display: none;
+  }
+
+  .titleBlock {
+    top: 10px;
+    left: 12px;
+  }
+
+  .titleBlock .title {
+    font-size: 20px;
+  }
+
+  .pinDot {
+    r: 5;
+  }
+
+  .pinHalo {
+    r: 10;
+  }
+
+  .civTip {
+    display: none;
+  }
+}
