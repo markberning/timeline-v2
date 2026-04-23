@@ -320,11 +320,12 @@
 
 .densityChart {
   position: absolute;
-  bottom: 22px;
+  bottom: 20px;
   left: 0;
   right: 0;
-  height: 24px;
+  height: 32px;
   pointer-events: none;
+  opacity: 0.7;
 }
 
 .densityBar {

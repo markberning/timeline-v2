@@ -954,7 +954,7 @@ export default function Globe2() {
                 className={styles.densityBar}
                 x={i}
                 y={24 - (v / maxDensity) * 24}
-                width={0.85}
+                width={1}
                 height={(v / maxDensity) * 24}
               />
             ))}
