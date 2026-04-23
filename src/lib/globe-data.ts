@@ -5,11 +5,11 @@ export interface GlobeCiv {
   id: string
   label: string
   subtitle: string
+  region: string
   startYear: number
   endYear: number
   hasContent: boolean
   centroid: [number, number] // [lng, lat]
-  labelPos: [number, number] // [lng, lat] — offset position for label box
   color: string
   altOffset: number // unique per-civ altitude offset to prevent z-fighting
   geometry: { type: 'Polygon'; coordinates: number[][][] }
@@ -258,60 +258,20 @@ const LAYER_ORDER: Record<string, number> = {
   'hittite-empire':          5,
 }
 
-// Label positions spread apart to avoid text overlap on the globe.
-// Labels are offset from centroids — the territory polygon on hover
-// shows the true location. [longitude, latitude].
-const LABEL_POSITIONS: Record<string, [number, number]> = {
-  // Near East — fan from Turkey to Iran
-  'hittite-empire':          [28, 44],
-  'assyrian-empire':         [43, 42],
-  'mesopotamia':             [44, 27],
-  'elamite-civilization':    [55, 27],
-  'persian-empire':          [63, 34],
-
-  // Africa/Nile — spread west and east of the valley
-  'early-dynastic-egypt':    [17, 31],
-  'old-kingdom-egypt':       [18, 27],
-  'new-kingdom-egypt':       [38, 28],
-  'ancient-nubia':           [25, 15],
-  'kingdom-of-kush':         [40, 11],
-
-  // South Asia — across the subcontinent
-  'indus-valley':            [62, 22],
-  'vedic-period':            [78, 29],
-  'maurya-empire':           [82, 14],
-
-  // East Asia — spread across China + Korea
-  'ancient-china':           [106, 42],
-  'shang-dynasty':           [119, 37],
-  'zhou-dynasty':            [105, 28],
-  'qin-dynasty':             [116, 21],
-  'ancient-korea':           [133, 39],
-
-  // Europe
-  'minoan-civilization':     [27, 33],
-  'mycenaean-civilization':  [17, 41],
-
-  // Americas
-  'early-andean-civilizations': [-76, -10],
-  'olmec-civilization':      [-96, 18],
-}
-
 export const GLOBE_CIVS: GlobeCiv[] = NAVIGATOR_TLS
   .filter(tl => tl.hasContent && TERRITORIES[tl.id])
   .map(tl => {
     const coords = TERRITORIES[tl.id]
     const layer = LAYER_ORDER[tl.id] ?? 0
-    const ctr = centroidOf(coords)
     return {
       id: tl.id,
       label: tl.label,
       subtitle: tl.subtitle ?? '',
+      region: tl.region,
       startYear: tl.startYear,
       endYear: tl.endYear,
       hasContent: !!tl.hasContent,
-      centroid: ctr,
-      labelPos: LABEL_POSITIONS[tl.id] ?? ctr,
+      centroid: centroidOf(coords),
       color: getAccentColors(tl.id).base,
       altOffset: layer * 0.0003,
       geometry: poly(coords),

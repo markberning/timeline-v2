@@ -1,7 +1,8 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useMemo } from 'react'
 import { GLOBE_CIVS, type GlobeCiv } from '@/lib/globe-data'
+import { REGION_ORDER, REGION_LABELS, REGION_COLORS } from '@/lib/navigator-tls'
 
 function formatYear(y: number): string {
   if (y < 0) return `${Math.abs(y)} BCE`
@@ -35,8 +36,22 @@ const BORDER_COLOR = 'rgba(90,80,60,0.4)'
 export default function GlobeView() {
   const containerRef = useRef<HTMLDivElement>(null)
   const globeRef = useRef<any>(null)
-  const hoveredIdRef = useRef<string | null>(null)
+  const setHoveredRef = useRef<(id: string | null) => void>(() => {})
+  const [hoveredId, setHoveredId] = useState<string | null>(null)
   const [activeCiv, setActiveCiv] = useState<GlobeCiv | null>(null)
+  const [sidebarOpen, setSidebarOpen] = useState(true)
+
+  // Group civs by region for the sidebar
+  const civsByRegion = useMemo(
+    () =>
+      REGION_ORDER.map(rk => ({
+        key: rk,
+        label: REGION_LABELS[rk],
+        color: REGION_COLORS[rk],
+        civs: GLOBE_CIVS.filter(c => c.region === rk),
+      })).filter(g => g.civs.length > 0),
+    [],
+  )
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -44,6 +59,7 @@ export default function GlobeView() {
     let intervalId: ReturnType<typeof setInterval>
     let resizeHandler: (() => void) | null = null
     let hoverClearTimer: ReturnType<typeof setTimeout> | null = null
+    const hoveredIdRef: { current: string | null } = { current: null }
 
     ;(async () => {
       const [{ default: GlobeCtor }, { feature }, worldTopo] = await Promise.all([
@@ -69,21 +85,29 @@ export default function GlobeView() {
         return [...countryPolygons, { type: 'civ' as const, ...civ }]
       }
 
-      // Debounced hover — handles label-box → territory mouse transitions
+      // Debounced hover — used by dots, sidebar, and territory polygon
       function setHovered(civId: string | null) {
-        if (hoverClearTimer) { clearTimeout(hoverClearTimer); hoverClearTimer = null }
+        if (hoverClearTimer) {
+          clearTimeout(hoverClearTimer)
+          hoverClearTimer = null
+        }
         if (civId) {
           hoveredIdRef.current = civId
           globe.polygonsData(buildPolygons(civId))
+          setHoveredId(civId)
           setActiveCiv(GLOBE_CIVS.find(c => c.id === civId) ?? null)
         } else {
           hoverClearTimer = setTimeout(() => {
             if (!mounted) return
             hoveredIdRef.current = null
             globe.polygonsData(buildPolygons(null))
+            setHoveredId(null)
           }, 300)
         }
       }
+
+      // Expose setHovered to React via ref
+      setHoveredRef.current = setHovered
 
       // ── Globe ──
 
@@ -94,7 +118,7 @@ export default function GlobeView() {
         .atmosphereColor('#b0c8d8')
         .atmosphereAltitude(0.12)
 
-        // Polygons: country outlines + hovered civ territory
+        // Polygons: country outlines + hovered territory
         .polygonsData(buildPolygons(null))
         .polygonGeoJsonGeometry((d: any) => d.geometry)
         .polygonCapColor((d: any) =>
@@ -115,59 +139,18 @@ export default function GlobeView() {
           else setHovered(null)
         })
 
-        // Points: colored dots at each civ centroid
+        // Points: colored dots at each cultural center
         .pointsData(GLOBE_CIVS)
         .pointLat((d: any) => d.centroid[1])
         .pointLng((d: any) => d.centroid[0])
         .pointColor((d: any) => d.color)
-        .pointRadius(0.35)
+        .pointRadius(0.4)
         .pointAltitude(0.008)
-
-        // HTML elements: styled label boxes at offset positions
-        .htmlElementsData(GLOBE_CIVS)
-        .htmlLat((d: any) => d.labelPos[1])
-        .htmlLng((d: any) => d.labelPos[0])
-        .htmlAltitude(0.025)
-        .htmlElement((d: any) => {
-          const box = document.createElement('div')
-          box.textContent = d.label
-          box.style.cssText = [
-            'background: rgba(30, 28, 25, 0.85)',
-            `border: 1px solid ${hexToRgba(d.color, 0.3)}`,
-            `border-left: 3px solid ${d.color}`,
-            'border-radius: 6px',
-            'padding: 3px 8px',
-            'color: #e8e0d4',
-            'font-size: 11px',
-            'font-weight: 500',
-            'font-family: system-ui, sans-serif',
-            'cursor: pointer',
-            'white-space: nowrap',
-            'transition: all 0.2s ease',
-            'pointer-events: auto',
-            'user-select: none',
-          ].join(';')
-
-          box.addEventListener('mouseenter', () => {
-            box.style.background = 'rgba(30, 28, 25, 0.95)'
-            box.style.borderColor = d.color
-            box.style.color = '#fff'
-            box.style.transform = 'scale(1.08)'
-            box.style.boxShadow = `0 0 12px ${hexToRgba(d.color, 0.3)}`
-            setHovered(d.id)
-          })
-          box.addEventListener('mouseleave', () => {
-            box.style.background = 'rgba(30, 28, 25, 0.85)'
-            box.style.borderColor = hexToRgba(d.color, 0.3)
-            box.style.color = '#e8e0d4'
-            box.style.transform = 'scale(1)'
-            box.style.boxShadow = 'none'
-            setHovered(null)
-          })
-          box.addEventListener('click', () => {
-            if (d.hasContent) window.location.href = `/${d.id}`
-          })
-          return box
+        .onPointHover((point: any) => {
+          setHovered(point?.id ?? null)
+        })
+        .onPointClick((point: any) => {
+          if (point?.hasContent) window.location.href = `/${point.id}`
         })
 
         .width(window.innerWidth)
@@ -175,13 +158,14 @@ export default function GlobeView() {
 
       globeRef.current = globe
 
-      // Set globe to solid ocean color
+      // Solid ocean globe — no photo texture
       const mat = globe.globeMaterial() as any
       mat.color.set(OCEAN_COLOR)
       mat.shininess = 5
 
-      // Boost lighting
-      globe.lights().forEach((l: any) => { l.intensity = l.intensity * 2 })
+      globe.lights().forEach((l: any) => {
+        l.intensity = l.intensity * 2
+      })
 
       // Camera controls
       const controls = globe.controls()
@@ -190,12 +174,11 @@ export default function GlobeView() {
       controls.minDistance = 150
       controls.maxDistance = 450
 
-      // Face-camera detection — passive card only (no label visual change)
+      // Face-camera passive card (when nothing hovered)
       let prevNearestId: string | null = null
 
       intervalId = setInterval(() => {
-        if (!mounted) return
-        if (hoveredIdRef.current) return // hover overrides face-camera
+        if (!mounted || hoveredIdRef.current) return
 
         const pov = globe.pointOfView()
         let nearest: GlobeCiv | null = null
@@ -209,7 +192,8 @@ export default function GlobeView() {
           }
         }
 
-        const newId = nearest && nearestDist < ACTIVE_THRESHOLD ? nearest.id : null
+        const newId =
+          nearest && nearestDist < ACTIVE_THRESHOLD ? nearest.id : null
         if (newId !== prevNearestId) {
           prevNearestId = newId
           setActiveCiv(newId ? nearest : null)
@@ -234,8 +218,10 @@ export default function GlobeView() {
 
   return (
     <div className="fixed inset-0 bg-[#1a1917]">
+      {/* Globe */}
       <div ref={containerRef} className="w-full h-full" />
 
+      {/* Back button */}
       <button
         onClick={() => (window.location.href = '/')}
         className="fixed top-5 left-5 z-10 text-white/60 hover:text-white/90 transition-colors text-sm font-medium flex items-center gap-1.5"
@@ -244,10 +230,86 @@ export default function GlobeView() {
         Back
       </button>
 
+      {/* Sidebar toggle (when collapsed) */}
+      {!sidebarOpen && (
+        <button
+          onClick={() => setSidebarOpen(true)}
+          className="fixed top-5 right-5 z-20 bg-black/60 backdrop-blur-md border border-white/10 rounded-lg px-3 py-2 text-white/60 hover:text-white/90 text-xs font-semibold uppercase tracking-wider transition-colors"
+        >
+          Civs
+        </button>
+      )}
+
+      {/* Sidebar */}
       <div
-        className={`fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out pointer-events-none ${
+        className={`fixed top-0 right-0 h-full z-20 transition-transform duration-300 ease-out ${
+          sidebarOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        <div className="h-full w-52 bg-black/70 backdrop-blur-md border-l border-white/10 flex flex-col">
+          {/* Header */}
+          <div className="px-4 py-3 flex items-center justify-between border-b border-white/10 shrink-0">
+            <span className="text-[10px] font-semibold text-white/50 uppercase tracking-[0.15em]">
+              Civilizations
+            </span>
+            <button
+              onClick={() => setSidebarOpen(false)}
+              className="text-white/30 hover:text-white/60 text-lg leading-none transition-colors"
+            >
+              ×
+            </button>
+          </div>
+
+          {/* Civ list grouped by region */}
+          <div className="flex-1 overflow-y-auto py-1">
+            {civsByRegion.map(group => (
+              <div key={group.key}>
+                <div
+                  className="px-4 pt-3 pb-1 text-[9px] font-bold uppercase tracking-[0.2em]"
+                  style={{ color: group.color }}
+                >
+                  {group.label}
+                </div>
+                {group.civs.map(civ => (
+                  <button
+                    key={civ.id}
+                    onMouseEnter={() => setHoveredRef.current(civ.id)}
+                    onMouseLeave={() => setHoveredRef.current(null)}
+                    onClick={() => {
+                      if (civ.hasContent)
+                        window.location.href = `/${civ.id}`
+                    }}
+                    className={`w-full text-left px-4 py-1.5 flex items-center gap-2.5 transition-colors ${
+                      hoveredId === civ.id
+                        ? 'bg-white/10'
+                        : 'hover:bg-white/5'
+                    }`}
+                  >
+                    <span
+                      className="w-2 h-2 rounded-full shrink-0"
+                      style={{ background: civ.color }}
+                    />
+                    <span
+                      className={`text-[12px] leading-tight transition-colors ${
+                        hoveredId === civ.id ? 'text-white' : 'text-white/60'
+                      }`}
+                    >
+                      {civ.label}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Active civ card */}
+      <div
+        className={`fixed bottom-0 left-0 z-10 transition-all duration-300 ease-out pointer-events-none ${
           activeCiv ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
         }`}
+        style={{ right: sidebarOpen ? '13rem' : '0' }}
       >
         {activeCiv && (
           <div className="mx-4 mb-6 rounded-2xl overflow-hidden backdrop-blur-xl bg-white/10 border border-white/10 pointer-events-auto">
