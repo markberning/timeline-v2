@@ -28,7 +28,7 @@ export const REGION_LABELS: Record<NavigatorRegion, string> = {
 }
 
 export const REGION_COLORS: Record<NavigatorRegion, string> = {
-  'near-east': '#b45309',
+  'near-east': '#d97706',
   'africa': '#ca8a04',
   'asia': '#7c3aed',
   'europe': '#1d4ed8',
