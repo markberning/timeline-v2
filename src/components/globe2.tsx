@@ -244,20 +244,47 @@ export default function Globe2() {
         setYear(Math.max(TIME_MIN, Math.min(TIME_MAX, mid)))
       }
 
-      // Spin to the civ's capital
+      // Spin to the civ's capital + zoom to fit extent
       const [lon, lat] = civ.capital
       const targetRot: [number, number] = [-lon, -lat]
       const startRot = rotationRef.current
-      const interp = d3.interpolate(startRot, targetRot)
+      const interpRot = d3.interpolate(startRot, targetRot)
+
+      // Calculate zoom level from extent bounding box
+      const isMob = window.innerWidth <= 720
+      const mobileBoost = isMob ? 1.8 : 1.0
+      let targetK = 2.0 * mobileBoost
+      if (civ.extent.length >= 3) {
+        const lons = civ.extent.map(p => p[0])
+        const lats = civ.extent.map(p => p[1])
+        const span = Math.max(
+          Math.max(...lons) - Math.min(...lons),
+          Math.max(...lats) - Math.min(...lats),
+        )
+        if (span < 6) targetK = 4.0 * mobileBoost
+        else if (span < 15) targetK = 3.0 * mobileBoost
+        else if (span < 30) targetK = 2.2 * mobileBoost
+        else if (span < 60) targetK = 1.6 * mobileBoost
+        else targetK = 1.2 * mobileBoost
+      }
+      targetK = Math.min(isMob ? 9 : 6, targetK)
+
+      const startK = scaleRef.current
 
       const duration = 800
       const t0 = performance.now()
       function animate(now: number) {
         const t = Math.min(1, (now - t0) / duration)
         const ease = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2
-        const [rLon, rLat] = interp(ease)
+        const [rLon, rLat] = interpRot(ease)
         rotationRef.current = [rLon, rLat]
         projectionRef.current.rotate([rLon, rLat, 0])
+
+        // Animate zoom
+        const k = startK + (targetK - startK) * ease
+        scaleRef.current = k
+        projectionRef.current.scale(baseScaleRef.current * k)
+
         renderGlobe()
         if (t < 1) requestAnimationFrame(animate)
       }
@@ -417,6 +444,27 @@ export default function Globe2() {
       if (!isVisible(lon, lat, rotation)) continue
       const pc = projection([lon, lat])
       if (pc) placed.push({ x: pc[0] - pinPad, y: pc[1] - pinPad, w: pinPad * 2, h: pinPad * 2 })
+    }
+
+    // Also avoid the selected civ's region polygon bounding box
+    const selId = selectedIdRef.current
+    const selCiv = selId ? GLOBE2_CIVS.find(c => c.id === selId) : null
+    if (selCiv && selCiv.extent.length >= 3) {
+      const screenPts = selCiv.extent
+        .filter(([lo, la]) => isVisible(lo, la, rotation))
+        .map(pt => projection(pt))
+        .filter(Boolean) as [number, number][]
+      if (screenPts.length >= 2) {
+        const xs = screenPts.map(p => p[0])
+        const ys = screenPts.map(p => p[1])
+        const pad = 8
+        placed.push({
+          x: Math.min(...xs) - pad,
+          y: Math.min(...ys) - pad,
+          w: Math.max(...xs) - Math.min(...xs) + pad * 2,
+          h: Math.max(...ys) - Math.min(...ys) + pad * 2,
+        })
+      }
     }
 
     // Sort: selected first, then by distance to center for priority

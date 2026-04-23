@@ -612,14 +612,16 @@
 @media (max-width: 720px) {
   .infoCard {
     position: absolute;
-    right: 0;
-    left: 0;
+    right: 8px;
+    left: 8px;
     top: auto;
-    bottom: 72px;
-    width: 100%;
-    max-height: 50vh;
-    border-radius: 16px 16px 0 0;
+    bottom: 80px;
+    width: auto;
+    max-width: calc(100vw - 16px);
+    max-height: 45vh;
+    border-radius: 16px;
     animation: slideUp 0.3s ease;
+    z-index: 30;
   }
 
   @keyframes slideUp {
