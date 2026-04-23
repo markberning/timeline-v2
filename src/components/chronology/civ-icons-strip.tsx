@@ -65,7 +65,7 @@ export function CivIconsStrip() {
     <div
       ref={containerRef}
       onClick={reshuffle}
-      className="flex items-center justify-center gap-3 lg:gap-4 py-1.5 overflow-hidden shrink-0 opacity-60 cursor-pointer"
+      className="flex items-center justify-center gap-3 lg:gap-4 py-1.5 overflow-hidden shrink-0 opacity-50 dark:opacity-80 cursor-pointer"
     >
       {/* Mobile: show 7 */}
       {icons.slice(0, MOBILE_COUNT).map((src, i) => (
