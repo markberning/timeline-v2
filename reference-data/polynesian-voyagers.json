@@ -1,0 +1,769 @@
+{
+  "id": "polynesian-voyagers",
+  "label": "Polynesian Voyagers",
+  "type": "civilization",
+  "region": "oceania",
+  "source": "curated",
+  "wikiSlug": "Polynesian_navigation",
+  "imageWikiSlug": "Moai",
+  "pitch": "Without compasses, maps, or metal tools, Polynesian voyagers crossed the largest ocean on Earth and settled every habitable island from the Settlement of Hawai'i to the Settlement of New Zealand. Their Stellar Navigation System — reading star paths, ocean swells, and bird flight — represents one of humanity's greatest intellectual achievements, while the Moai Statue Construction on remote Easter Island remains one of archaeology's most enduring mysteries.\n\n🔑 Key Facts:\n• The Double-Hull Voyaging Canoe could carry dozens of people and supplies across thousands of miles of open ocean\n• The Settlement of Easter Island put humans on the most remote inhabited island on Earth — over 2,000 miles from the nearest population\n• The Tu'i Tonga Empire built a maritime realm spanning Tonga, Samoa, and Fiji with a divine kingship\n• The Sweet Potato from South America provides evidence of trans-Pacific contact centuries before Columbus\n\n🤔 Why It Matters: Polynesians proved that human ingenuity can conquer any environment. Their navigation knowledge, nearly lost to colonialism, has been revived and now inspires ocean conservation and indigenous cultural movements worldwide.\n\n🎲 Wild Card: The Rongorongo Script of Easter Island is one of only a handful of times in human history that writing was independently invented — and nobody alive can read it.",
+  "countryIds": [
+    "554",
+    "258"
+  ],
+  "spans": [
+    {
+      "id": "span-polynesian-voyagers-lapita",
+      "label": "Lapita Expansion",
+      "startYear": -1500,
+      "endYear": -500,
+      "wikiSlug": "Lapita_culture",
+      "description": "Lapita peoples spread from the Bismarck Archipelago across Near and Remote Oceania, carrying distinctive dentate-stamped pottery, obsidian tools, and an Austronesian language family that would become the foundation of Polynesian culture."
+    },
+    {
+      "id": "span-polynesian-voyagers-ancestral-polynesia",
+      "label": "Ancestral Polynesian Development",
+      "startYear": -500,
+      "endYear": 300,
+      "wikiSlug": "Polynesia",
+      "description": "In the Fiji-Tonga-Samoa triangle, Lapita descendants abandoned pottery and developed the distinctive Polynesian cultural complex: hierarchical chieftainship, mana and tapu concepts, outrigger and double-hull canoe technology, and the oral traditions that would guide expansion across the Pacific."
+    },
+    {
+      "id": "span-polynesian-voyagers-early-expansion",
+      "label": "Early Polynesian Expansion",
+      "startYear": 300,
+      "endYear": 700,
+      "wikiSlug": "Polynesian_expansion",
+      "description": "Voyagers from western Polynesia settled the Marquesas and Tahiti using double-hull canoes and stellar navigation. They established the cultural foundations -- mana, tapu, and oral genealogy traditions -- that would spread across the Pacific."
+    },
+    {
+      "id": "span-polynesian-voyagers-central-polynesia",
+      "label": "Central Polynesian Flourishing",
+      "startYear": 700,
+      "endYear": 1000,
+      "wikiSlug": "Polynesia",
+      "description": "Polynesian societies matured across the central Pacific with marae temple construction, breadfruit cultivation, and long-distance trade networks. The Tu'i Tonga Empire emerged as the region's first maritime political power."
+    },
+    {
+      "id": "span-polynesian-voyagers-remote-settlement",
+      "label": "Remote Island Settlement",
+      "startYear": 1000,
+      "endYear": 1300,
+      "wikiSlug": "Polynesian_navigation",
+      "description": "Voyagers reached the most remote corners of the Polynesian Triangle, settling Hawai'i, Easter Island, and New Zealand. These crossings of thousands of miles of open ocean rank among the greatest feats of navigation in human history."
+    },
+    {
+      "id": "span-polynesian-voyagers-classical-polynesia",
+      "label": "Classical Polynesian Societies",
+      "startYear": 1300,
+      "endYear": 1500,
+      "wikiSlug": "Polynesia",
+      "description": "Isolated island societies developed distinctive cultures including Hawaiian ali'i chieftainship, Maori pa fortifications, and Easter Island moai construction. Inter-island voyaging declined as settled populations grew and local political systems matured."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-lapita-pottery",
+      "label": "Lapita Pottery Culture",
+      "year": -1500,
+      "description": "The Lapita cultural complex emerged in the Bismarck Archipelago with its hallmark dentate-stamped pottery, marking the beginning of the Austronesian expansion into the Pacific.",
+      "wikiSlug": "Lapita_culture",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-austronesian-dispersal",
+      "label": "Austronesian Language Dispersal",
+      "year": -1400,
+      "description": "The Austronesian language family spread across the Pacific with Lapita voyagers, eventually becoming the most geographically widespread language family on Earth before European colonization.",
+      "wikiSlug": "Austronesian_languages",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lapita-bismarck-expansion",
+      "label": "Lapita Expansion from Bismarcks",
+      "year": -1350,
+      "description": "Lapita peoples sailed beyond the Bismarck Archipelago into the open Pacific, carrying pottery, domesticated animals, and cultivated plants to previously uninhabited islands.",
+      "wikiSlug": "Lapita_culture#Spread",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lapita-obsidian-trade",
+      "label": "Lapita Obsidian Trade",
+      "year": -1300,
+      "description": "Lapita peoples established long-distance obsidian trade networks spanning over 2,000 miles, sourcing volcanic glass from New Britain and distributing it across Melanesia and western Polynesia.",
+      "wikiSlug": "Obsidian#Pacific_Islands",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lapita-outrigger",
+      "label": "Early Outrigger Canoe Development",
+      "year": -1200,
+      "description": "Lapita seafarers developed outrigger canoe technology with stabilizing lateral floats, enabling reliable open-ocean crossings between distant island groups.",
+      "wikiSlug": "Outrigger_canoe",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-fiji-settlement",
+      "label": "Settlement of Fiji",
+      "year": -1000,
+      "description": "Lapita voyagers reached the Fiji archipelago, establishing settlements with dentate-stamped pottery that would evolve into a distinctive Fijian cultural tradition.",
+      "wikiSlug": "History_of_Fiji",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tonga-settlement",
+      "label": "Settlement of Tonga",
+      "year": -900,
+      "description": "Lapita peoples settled the Tongan archipelago, which would become the cradle of Polynesian civilization and the seat of the later Tu'i Tonga maritime empire.",
+      "wikiSlug": "History_of_Tonga",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-samoa-settlement",
+      "label": "Settlement of Samoa",
+      "year": -800,
+      "description": "Lapita voyagers settled the Samoan islands, completing occupation of the Fiji-Tonga-Samoa triangle where Polynesian culture would crystallize over the next millennium.",
+      "wikiSlug": "History_of_Samoa",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lapita-pottery-decline",
+      "label": "Lapita Pottery Disappearance",
+      "year": -500,
+      "description": "The distinctive Lapita dentate-stamped pottery tradition faded in western Polynesia, replaced by plain wares as island cultures diverged and developed uniquely Polynesian material traditions.",
+      "wikiSlug": "Lapita_culture",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-polynesian-cultural-complex",
+      "label": "Polynesian Cultural Complex",
+      "year": -200,
+      "description": "In the Tonga-Samoa homeland, the ancestral Polynesian cultural complex coalesced: hierarchical chieftainship, mana and tapu, kava ritual, bark-cloth production, and the oral genealogical traditions that defined Polynesian identity.",
+      "wikiSlug": "Polynesia#Culture",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-kava-ceremony",
+      "label": "Kava Ceremony Tradition",
+      "year": -100,
+      "description": "The ritualized preparation and drinking of kava became central to Polynesian diplomacy, religion, and social life, used to consecrate meetings between chiefs and mark important occasions.",
+      "wikiSlug": "Kava_culture",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-polynesian-outliers",
+      "label": "Polynesian Outlier Settlements",
+      "year": 100,
+      "description": "Polynesian voyagers settled small islands scattered across Melanesia and Micronesia, creating culturally Polynesian enclaves like Tikopia, Anuta, and Kapingamarangi far outside the Polynesian Triangle.",
+      "wikiSlug": "Polynesian_outlier",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-marquesas-settlement",
+      "label": "Settlement of Marquesas",
+      "year": 300,
+      "description": "Polynesian voyagers from western Polynesia settled the Marquesas Islands, establishing a key hub for further eastward expansion across the remote Pacific.",
+      "wikiSlug": "Marquesas_Islands",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-star-navigation",
+      "label": "Stellar Navigation System",
+      "year": 350,
+      "description": "Polynesian navigators developed sophisticated wayfinding using star paths, ocean swells, wind patterns, and bird flight to cross vast distances without instruments.",
+      "wikiSlug": "Polynesian_navigation",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-double-hull-canoe",
+      "label": "Double-Hull Voyaging Canoe",
+      "year": 400,
+      "description": "Polynesians developed large double-hull canoes capable of carrying dozens of people and supplies across thousands of miles of open ocean.",
+      "wikiSlug": "Polynesian_navigation#Canoes",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mana-concept",
+      "label": "Mana and Tapu System",
+      "year": 400,
+      "description": "The concepts of mana (spiritual power) and tapu (sacred prohibition) formed the foundation of Polynesian religion and social hierarchy across every settled island.",
+      "wikiSlug": "Mana",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tapa-cloth",
+      "label": "Tapa Cloth Production",
+      "year": 500,
+      "description": "Polynesians developed tapa bark cloth manufacturing, creating decorated textiles used for clothing, ceremonial wrapping, and trade.",
+      "wikiSlug": "Tapa_cloth",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-oral-genealogies",
+      "label": "Oral Genealogical Traditions",
+      "year": 500,
+      "description": "Polynesians maintained elaborate oral genealogies tracing chiefly lineages back dozens of generations, preserving history without writing.",
+      "wikiSlug": "Oral_tradition",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tattoo-tradition",
+      "label": "Polynesian Tattooing",
+      "year": 500,
+      "description": "Polynesians developed elaborate tattooing traditions using bone combs and ink, with designs marking social status, genealogy, and spiritual protection.",
+      "wikiSlug": "Tattooing_in_the_Pacific_Islands",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-adze-trade",
+      "label": "Basalt Adze Trade Networks",
+      "year": 600,
+      "description": "Polynesians established long-distance trade networks exchanging high-quality basalt adzes, obsidian, and other stone tools between islands.",
+      "wikiSlug": "Adze",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tahiti-settlement",
+      "label": "Settlement of Tahiti",
+      "year": 600,
+      "description": "Voyagers settled Tahiti, which became a major population center and launching point for expeditions across the Polynesian Triangle.",
+      "wikiSlug": "Tahiti",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-stick-charts",
+      "label": "Polynesian Stick Charts",
+      "year": 600,
+      "description": "Pacific Islanders created stick and shell charts mapping ocean swell patterns and island positions, among the earliest navigational charts.",
+      "wikiSlug": "Marshall_Islands_stick_chart",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-wave-piloting",
+      "label": "Wave Piloting Technique",
+      "year": 650,
+      "description": "Polynesian navigators mastered wave piloting, reading the refraction and reflection patterns of ocean swells against distant islands to detect land far beyond the visible horizon.",
+      "wikiSlug": "Polynesian_navigation#Swell",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-breadfruit-cultivation",
+      "label": "Breadfruit Cultivation",
+      "year": 700,
+      "description": "Polynesians cultivated and selectively bred breadfruit as a staple crop, developing over 100 varieties adapted to different island environments.",
+      "wikiSlug": "Breadfruit",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-marae-temples",
+      "label": "Marae Temple Construction",
+      "year": 700,
+      "description": "Polynesians built marae, open-air stone temple platforms used for religious ceremonies and chiefly rituals across the islands.",
+      "wikiSlug": "Marae",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-taro-irrigation",
+      "label": "Taro Irrigation Systems",
+      "year": 750,
+      "description": "Polynesian farmers developed elaborate irrigated pondfield systems for growing taro, terracing hillsides and channeling streams to sustain dense populations on volcanic islands.",
+      "wikiSlug": "Taro#Oceania",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-polynesian-astronomy",
+      "label": "Polynesian Star Compass",
+      "year": 800,
+      "description": "Navigators systematized knowledge of over 200 stars into a mental star compass dividing the horizon into directional houses for wayfinding.",
+      "wikiSlug": "Polynesian_navigation#Stars",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cook-islands",
+      "label": "Settlement of Cook Islands",
+      "year": 800,
+      "description": "Voyagers from Tahiti and the Marquesas settled the Cook Islands, expanding the network of inhabited Polynesian islands.",
+      "wikiSlug": "Cook_Islands",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-bird-navigation",
+      "label": "Bird Observation Navigation",
+      "year": 850,
+      "description": "Navigators used the flight patterns of land-based birds like the golden plover and frigatebird to locate islands beyond the horizon, releasing captive birds and following their flight toward land.",
+      "wikiSlug": "Polynesian_navigation#Birds",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pearl-shell-trade",
+      "label": "Pearl Shell Trade",
+      "year": 900,
+      "description": "Pearl shells from the Tuamotu atolls became prized trade goods across Polynesia, used for fishhooks, ornaments, and chiefly regalia.",
+      "wikiSlug": "Tuamotus",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tonga-tu-i-tonga",
+      "label": "Tu'i Tonga Empire",
+      "year": 950,
+      "description": "The Tu'i Tonga dynasty established a maritime empire spanning Tonga, Samoa, and Fiji, with a powerful divine kingship that collected tribute across the western Pacific.",
+      "wikiSlug": "Tu%CA%BBi_Tonga_Empire",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tui-tonga-langi",
+      "label": "Tongan Royal Langi Tombs",
+      "year": 1000,
+      "description": "The Tu'i Tonga kings built massive stepped stone langi burial tombs in Mu'a, Tonga, the largest monumental architecture in Polynesia outside Easter Island.",
+      "wikiSlug": "Langi",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-samoa-political",
+      "label": "Samoan Paramount Chiefs",
+      "year": 1000,
+      "description": "Samoa developed a complex political system of paramount chiefs (matai) governing through councils rather than centralized monarchy.",
+      "wikiSlug": "Matai",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-easter-island",
+      "label": "Settlement of Easter Island",
+      "year": 1000,
+      "description": "Polynesian voyagers reached Rapa Nui (Easter Island), the most remote inhabited island on Earth, over 2,000 miles from the nearest population.",
+      "wikiSlug": "Easter_Island",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hawaii-settlement",
+      "label": "Settlement of Hawai'i",
+      "year": 1000,
+      "description": "Polynesian voyagers from the Marquesas reached the Hawaiian Islands, beginning settlement of the northernmost point of the Polynesian Triangle.",
+      "wikiSlug": "Ancient_Hawaii",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-sweet-potato",
+      "label": "Sweet Potato from South America",
+      "year": 1000,
+      "description": "Polynesians obtained the sweet potato from South America, providing evidence of trans-Pacific contact centuries before European exploration.",
+      "wikiSlug": "Sweet_potato#Oceania",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tui-manu-a",
+      "label": "Tui Manu'a Paramount Chiefs",
+      "year": 1000,
+      "description": "The Tui Manu'a dynasty of eastern Samoa claimed to be the oldest chiefly title in Polynesia, with oral traditions placing their authority over Samoa, Tonga, and Fiji before the Tu'i Tonga's rise.",
+      "wikiSlug": "Tui_Manu%27a",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tongan-samoa-wars",
+      "label": "Tongan-Samoan Wars",
+      "year": 1050,
+      "description": "The Tu'i Tonga empire clashed with Samoan chiefs over tribute and political control, with oral traditions recording battles and Samoan resistance to Tongan hegemony.",
+      "wikiSlug": "Tu%CA%BBi_Tonga_Empire#Expansion",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-moai-construction",
+      "label": "Moai Statue Construction",
+      "year": 1100,
+      "endYear": 1500,
+      "description": "Rapa Nui islanders carved and erected nearly 900 massive moai stone statues, some weighing over 80 tons, as ancestral monuments.",
+      "wikiSlug": "Moai",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hawaiian-heiau",
+      "label": "Hawaiian Heiau Temples",
+      "year": 1100,
+      "description": "Hawaiians constructed stone heiau temple platforms for worship and human sacrifice, reflecting the development of a complex religious hierarchy.",
+      "wikiSlug": "Heiau",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-fijian-chiefdoms",
+      "label": "Fijian Confederacies",
+      "year": 1100,
+      "description": "Fijian chiefs organized rival confederacies like Bau, Rewa, and Verata, building hilltop fortifications and waging wars of territorial expansion across the archipelago.",
+      "wikiSlug": "History_of_Fiji",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-rapa-nui-ahu-platforms",
+      "label": "Rapa Nui Ahu Platforms",
+      "year": 1100,
+      "description": "Easter Islanders constructed massive stone ahu ceremonial platforms along the coastline, each serving as the foundation for moai statues and as focal points for ancestor worship and community gathering.",
+      "wikiSlug": "Ahu",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hawaiian-tahitian-voyages",
+      "label": "Hawai'i-Tahiti Voyaging Era",
+      "year": 1100,
+      "description": "A period of regular two-way voyaging connected Hawai'i and Tahiti across 2,500 miles of open ocean, bringing new settlers, religious practices, and the strict kapu system to the Hawaiian islands.",
+      "wikiSlug": "Ancient_Hawaii#Second_wave",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-fijian-drua-canoe",
+      "label": "Fijian Drua War Canoe",
+      "year": 1200,
+      "description": "Fijians developed the drua, a massive double-hull war canoe up to 100 feet long that could carry over 100 warriors and became the most feared naval weapon in the western Pacific.",
+      "wikiSlug": "Drua",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hawaiian-fishponds",
+      "label": "Hawaiian Fishpond Aquaculture",
+      "year": 1200,
+      "description": "Hawaiians built sophisticated coastal fishponds for aquaculture, a unique engineering achievement that sustained large populations.",
+      "wikiSlug": "Hawaiian_fishpond",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-makahiki-festival",
+      "label": "Makahiki Festival",
+      "year": 1200,
+      "description": "Hawaiians celebrated the annual Makahiki festival honoring the god Lono with four months of harvest celebrations, sports, and a kapu on warfare.",
+      "wikiSlug": "Makahiki",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tahitian-arioi-origins",
+      "label": "Tahitian Sacred Chiefs",
+      "year": 1200,
+      "description": "Tahitian ari'i nui (high chiefs) consolidated power through divine genealogies tracing descent from the god Ta'aroa, establishing rigid social stratification with priestly and warrior classes.",
+      "wikiSlug": "Tahiti#History",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nz-settlement",
+      "label": "Settlement of New Zealand",
+      "year": 1250,
+      "description": "Polynesian voyagers from eastern Polynesia reached Aotearoa (New Zealand), the last major landmass settled by humans.",
+      "wikiSlug": "M%C4%81ori_people",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-moa-hunting",
+      "label": "Moa Hunting Period",
+      "year": 1280,
+      "description": "Early Maori settlers hunted the giant flightless moa birds to extinction within roughly a century, fundamentally reshaping New Zealand's ecology and forcing a shift to agriculture and fishing.",
+      "wikiSlug": "Moa#Extinction",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-maori-pa",
+      "label": "Maori Pa Fortifications",
+      "year": 1300,
+      "description": "Maori in New Zealand developed elaborate pa (fortified villages) with defensive ditches, palisades, and fighting stages.",
+      "wikiSlug": "P%C4%81_(Maori)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-rongorongo",
+      "label": "Rongorongo Script",
+      "year": 1300,
+      "description": "Easter Islanders developed rongorongo, a system of glyphs carved on wooden tablets that remains undeciphered, possibly one of few independent inventions of writing.",
+      "wikiSlug": "Rongorongo",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hawaiian-ali-i",
+      "label": "Hawaiian Ali'i System",
+      "year": 1300,
+      "description": "Hawaii developed a rigid hereditary class system with divine ali'i chiefs at the top, supported by an elaborate kapu (taboo) system that governed every aspect of daily life.",
+      "wikiSlug": "Ali%CA%BBi",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-arioi-society",
+      "label": "Arioi Society in Tahiti",
+      "year": 1300,
+      "description": "The Arioi were an elite Tahitian religious society devoted to the war god Oro, performing ritual drama, dance, and comedy across the islands.",
+      "wikiSlug": "Arioi",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hula-tradition",
+      "label": "Hula Dance Tradition",
+      "year": 1300,
+      "description": "Hawaiians developed hula as a sacred dance form combining chant, rhythm, and movement to preserve oral histories, honor gods, and celebrate chiefs.",
+      "wikiSlug": "Hula",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-maori-carving",
+      "label": "Maori Wood Carving Tradition",
+      "year": 1350,
+      "description": "Maori developed a distinctive wood carving tradition for meeting houses, canoe prows, and sacred objects representing ancestor figures.",
+      "wikiSlug": "Whakairo",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-maori-wars",
+      "label": "Maori Tribal Warfare",
+      "year": 1350,
+      "description": "Maori iwi (tribes) engaged in warfare over resources and territory, developing the haka war dance and taiaha fighting staff.",
+      "wikiSlug": "Maori_wars",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-maori-migration",
+      "label": "Great Fleet Migration",
+      "year": 1350,
+      "description": "Maori oral tradition records a great fleet of canoes arriving in Aotearoa, with each waka giving rise to major tribal groupings.",
+      "wikiSlug": "Great_Fleet",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-inter-island-trade-networks",
+      "label": "Inter-Island Trade Networks",
+      "year": 1350,
+      "description": "Mature trade networks connected distant island groups, exchanging red feathers, whale teeth, fine mats, and adzes along routes maintained by chiefly alliances and kinship ties.",
+      "wikiSlug": "Polynesia#Economy",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-rapa-nui-birdman",
+      "label": "Birdman Cult of Rapa Nui",
+      "year": 1400,
+      "description": "Easter Island's Birdman cult replaced moai worship, with annual competitions to retrieve the first sooty tern egg determining the island's ruler for the following year.",
+      "wikiSlug": "Tangata_manu",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hawaiian-unification-wars",
+      "label": "Hawaiian Inter-Island Wars",
+      "year": 1400,
+      "description": "Hawaiian ali'i (chiefs) waged wars of conquest between islands, developing sophisticated military tactics and warrior traditions.",
+      "wikiSlug": "Ancient_Hawaii#Warfare",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kumulipo",
+      "label": "Kumulipo Creation Chant",
+      "year": 1400,
+      "description": "The Hawaiian Kumulipo, an epic creation chant of over 2,000 lines, encapsulated cosmology, genealogy, and natural history in oral form.",
+      "wikiSlug": "Kumulipo",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-maori-kumara-cultivation",
+      "label": "Maori Kumara Cultivation",
+      "year": 1400,
+      "description": "Maori adapted sweet potato (kumara) cultivation to New Zealand's temperate climate using stone-lined storage pits and south-facing garden terraces, pushing tropical agriculture to its global limit.",
+      "wikiSlug": "K%C5%ABmara",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-hawaiian-ahupuaa",
+      "label": "Ahupua'a Land System",
+      "year": 1400,
+      "description": "Hawaiians organized their islands into ahupua'a, wedge-shaped land divisions running from mountain to sea, each a self-sufficient economic unit that sustained large populations through integrated resource management.",
+      "wikiSlug": "Ahupua%CA%BBa",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-maori-wharenui",
+      "label": "Maori Wharenui Meeting Houses",
+      "year": 1400,
+      "description": "Maori constructed elaborate wharenui (meeting houses) serving as the architectural and spiritual center of each community, with carved ancestors guarding the entrance and interior posts representing tribal genealogy.",
+      "wikiSlug": "Wharenui",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-piilani-maui",
+      "label": "Pi'ilani of Maui",
+      "year": 1450,
+      "description": "Chief Pi'ilani unified the island of Maui and built the King's Highway (Alaloa), a paved coastal road circling the entire island that facilitated trade and military movement.",
+      "wikiSlug": "Pi%CA%BBilani",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tongan-civil-war",
+      "label": "Tongan Civil Wars",
+      "year": 1470,
+      "description": "The Tu'i Tonga empire fragmented through civil wars, leading to the creation of the Tu'i Ha'atakalaua and Tu'i Kanokupolu parallel royal lines.",
+      "wikiSlug": "Tu%CA%BBi_Tonga_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tongan-triple-kingship",
+      "label": "Tongan Triple Kingship",
+      "year": 1470,
+      "description": "Tonga's political crisis produced a unique triple kingship: the sacred Tu'i Tonga retained ritual authority while the Tu'i Ha'atakalaua and Tu'i Kanokupolu wielded actual governing power.",
+      "wikiSlug": "Tu%CA%BBi_Ha%CA%BBatakalaua",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ahu-tongariki",
+      "label": "Ahu Tongariki Platform",
+      "year": 1480,
+      "description": "Easter Islanders completed Ahu Tongariki, the largest ahu platform on Rapa Nui, bearing 15 moai statues in a row stretching over 200 feet along the coast.",
+      "wikiSlug": "Ahu_Tongariki",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-rapa-nui-collapse",
+      "label": "Rapa Nui Ecological Crisis",
+      "year": 1500,
+      "description": "Easter Island experienced environmental collapse as deforestation eliminated resources needed for moai construction and ocean-going canoes.",
+      "wikiSlug": "Easter_Island#Deforestation",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-umi-a-liloa",
+      "label": "Umi-a-Liloa of Hawai'i Island",
+      "year": 1500,
+      "description": "Chief Umi-a-Liloa unified Hawai'i Island through conquest and established a centralized administration with appointed district governors, foreshadowing Kamehameha's later unification.",
+      "wikiSlug": "%CA%BBUmi-a-L%C4%ABloa",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
