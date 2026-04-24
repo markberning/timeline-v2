@@ -8,29 +8,42 @@ interface ChronologyHeaderProps {
 
 export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
   return (
-    <header className="px-5 pt-5 pb-3 lg:px-8 lg:pt-8 lg:pb-4 flex items-start justify-between shrink-0">
+    <header
+      className="flex items-start justify-between shrink-0"
+      style={{ padding: '20px 20px 12px' }}
+    >
       <div>
-        <div className="text-[10px] lg:text-xs font-semibold tracking-[0.15em] uppercase text-foreground/40 mb-1">
+        <div
+          className="font-[family-name:var(--font-geist-sans)]"
+          style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase' as const, color: 'var(--foreground)', opacity: 0.4, marginBottom: 4 }}
+        >
           Stuff Happened
         </div>
-        <h1 className="text-[28px] lg:text-[40px] italic font-[family-name:var(--font-lora)] text-foreground leading-tight">
+        <h1
+          className="font-[family-name:var(--font-lora)]"
+          style={{ fontSize: 28, fontStyle: 'italic', fontWeight: 400, lineHeight: 1.15, color: 'var(--foreground)' }}
+        >
           Historica
         </h1>
-        <nav className="flex items-center gap-5 mt-2 font-[family-name:var(--font-lora)] italic text-[15px] lg:text-[17px]">
-          <span className="text-foreground border-b-2 border-foreground pb-0.5">
+        <nav
+          className="font-[family-name:var(--font-lora)]"
+          style={{ display: 'flex', alignItems: 'center', gap: 20, marginTop: 8, fontSize: 15, fontStyle: 'italic' }}
+        >
+          <span style={{ color: 'var(--foreground)', paddingBottom: 2, borderBottom: '2px solid var(--foreground)' }}>
             List View
           </span>
           <a
             href="/globe"
-            className="text-foreground/35 hover:text-foreground/60 border-b-2 border-transparent hover:border-foreground/30 pb-0.5 transition-all duration-200"
+            className="transition-all duration-200"
+            style={{ color: 'color-mix(in srgb, var(--foreground) 35%, transparent)', paddingBottom: 2, borderBottom: '2px solid transparent', textDecoration: 'none' }}
+            onMouseEnter={e => { e.currentTarget.style.color = 'color-mix(in srgb, var(--foreground) 60%, transparent)'; e.currentTarget.style.borderBottomColor = 'color-mix(in srgb, var(--foreground) 30%, transparent)' }}
+            onMouseLeave={e => { e.currentTarget.style.color = 'color-mix(in srgb, var(--foreground) 35%, transparent)'; e.currentTarget.style.borderBottomColor = 'transparent' }}
           >
             Globe View
           </a>
         </nav>
       </div>
-      <div className="shrink-0 mt-2">
-        <DarkModeToggle />
-      </div>
+      <DarkModeToggle />
     </header>
   )
 }

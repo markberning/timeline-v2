@@ -729,6 +729,7 @@
   top: 20px;
   right: 20px;
   z-index: 25;
+  pointer-events: auto;
 }
 
 /* ── Keyboard hints ──────────────────────────────────────────── */
@@ -800,17 +801,8 @@
   }
 
   .titleBlock {
-    top: 16px;
-    left: 16px;
-  }
-
-  .titleBlock .title {
-    font-size: 22px;
-  }
-
-  .viewToggle {
-    font-size: 14px;
-    gap: 16px;
+    top: 20px;
+    left: 20px;
   }
 
   .pinDot {
