@@ -821,10 +821,12 @@
     bottom: 0;
   }
 
-  /* Push era markers up so they don't collide */
+  /* Slant era markers so they don't overlap */
   .eraMarker {
     bottom: 28px;
-    font-size: 8px;
+    font-size: 7px;
+    transform: translateX(-50%) rotate(-35deg);
+    transform-origin: center bottom;
   }
 
   /* Density chart sits above the slider */
