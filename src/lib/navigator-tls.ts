@@ -41,7 +41,10 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539, hasContent: true },
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609, hasContent: true },
   { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178, hasContent: true },
+  { id: 'phoenicia', label: 'Phoenicia', subtitle: "Lebanon's alphabet-inventing sea traders", region: 'near-east', startYear: -1500, endYear: -300 },
+  { id: 'ancient-israel', label: 'Ancient Israel', subtitle: "the Hebrew kingdoms and the First Temple", region: 'near-east', startYear: -1020, endYear: -586 },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651, hasContent: true },
+  { id: 'umayyad-caliphate', label: 'Rashidun & Umayyad', subtitle: "Islam's century of conquest, Medina to Damascus", region: 'near-east', startYear: 632, endYear: 750 },
   { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258 },
   { id: 'ottoman-empire', label: 'Ottoman Empire', subtitle: "Turkey's six-century juggernaut", region: 'near-east', startYear: 1299, endYear: 1922 },
   { id: 'safavid-persia', label: 'Safavid Persia', subtitle: "Iran's Shia revolution", region: 'near-east', startYear: 1501, endYear: 1736 },
@@ -52,6 +55,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181, hasContent: true },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -2055, endYear: -1069, hasContent: true },
   { id: 'kingdom-of-kush', label: 'Kingdom of Kush', subtitle: "Sudan's Black pharaohs", region: 'africa', startYear: -1070, endYear: 350, hasContent: true },
+  { id: 'carthage', label: 'Carthage', subtitle: "Hannibal's Mediterranean trade empire", region: 'africa', startYear: -814, endYear: -146 },
   { id: 'late-egypt', label: 'Late Egypt', subtitle: 'pharaohs under foreign rule', region: 'africa', startYear: -664, endYear: -332 },
   { id: 'kingdom-of-aksum', label: 'Kingdom of Aksum', subtitle: "Ethiopia's Red Sea trade empire", region: 'africa', startYear: 80, endYear: 940 },
   { id: 'mali-empire', label: 'Mali Empire', subtitle: "west Africa's gold, salt, and Mansa Musa", region: 'africa', startYear: 1226, endYear: 1670 },
@@ -82,6 +86,13 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'chinese-revolution', label: 'Chinese Revolution', subtitle: 'Mao reshapes China', region: 'asia', startYear: 1912, endYear: 1976 },
   { id: 'rise-of-china', label: 'Rise of China', subtitle: "Deng's reforms to superpower", region: 'asia', startYear: 1976, endYear: 2024 },
 
+  // ── ASIA (Steppe) ──
+  { id: 'scythians', label: 'Scythians', subtitle: "gold-clad horse nomads of the Pontic steppe", region: 'asia', startYear: -800, endYear: -200 },
+  { id: 'xiongnu-huns', label: 'Xiongnu & Huns', subtitle: "the steppe rivals who haunted China and Rome", region: 'asia', startYear: -209, endYear: 469 },
+  { id: 'gokturk-khaganate', label: 'Göktürk Khaganate', subtitle: "the first people to call themselves Turk", region: 'asia', startYear: 552, endYear: 744 },
+  { id: 'mongol-empire', label: 'Mongol Empire', subtitle: "Genghis Khan's conquest of Eurasia", region: 'asia', startYear: 1206, endYear: 1368 },
+  { id: 'timurid-empire', label: 'Timurid Empire', subtitle: "Tamerlane's Central Asian renaissance", region: 'asia', startYear: 1370, endYear: 1507 },
+
   // ── ASIA (Japan/Korea/SE) ──
   { id: 'ancient-japan', label: 'Ancient Japan', subtitle: 'Yayoi rice farmers to Heian courtiers', region: 'asia', startYear: -300, endYear: 1185 },
   { id: 'edo-japan', label: 'Edo Japan', subtitle: 'isolation under the shoguns', region: 'asia', startYear: 1603, endYear: 1868 },
@@ -92,14 +103,20 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'korean-modern', label: 'Modern Korea', subtitle: 'colonization, war, and split', region: 'asia', startYear: 1910, endYear: 2024 },
   { id: 'srivijaya', label: 'Srivijaya', subtitle: "Sumatra's maritime Buddhist empire", region: 'asia', startYear: 650, endYear: 1377 },
   { id: 'khmer-empire', label: 'Khmer Empire', subtitle: "Cambodia's Angkor Wat builders", region: 'asia', startYear: 802, endYear: 1431 },
+  { id: 'dai-viet', label: 'Đại Việt', subtitle: "Vietnam's thousand-year independence", region: 'asia', startYear: 939, endYear: 1804 },
+  { id: 'majapahit', label: 'Majapahit', subtitle: "Java's golden age archipelago empire", region: 'asia', startYear: 1293, endYear: 1527 },
 
   // ── EUROPE ──
   { id: 'minoan-civilization', label: 'Minoan', subtitle: "Crete's bull-leaping palace culture", region: 'europe', startYear: -2700, endYear: -1450, hasContent: true },
   { id: 'mycenaean-civilization', label: 'Mycenaean', subtitle: "Greece's bronze-age warlords", region: 'europe', startYear: -1600, endYear: -1100, hasContent: true },
   { id: 'ancient-greece', label: 'Ancient Greece', subtitle: 'philosophy, drama, democracy', region: 'europe', startYear: -800, endYear: -146 },
   { id: 'ancient-rome', label: 'Ancient Rome', subtitle: "the Mediterranean's grand experiment", region: 'europe', startYear: -753, endYear: 476 },
+  { id: 'celtic-cultures', label: 'Celtic Cultures', subtitle: "druids, torcs, and iron-age Europe", region: 'europe', startYear: -450, endYear: -50 },
   { id: 'byzantine-empire', label: 'Byzantine Empire', subtitle: 'the Roman empire that lasted', region: 'europe', startYear: 330, endYear: 1453 },
   { id: 'medieval-europe', label: 'Medieval Europe', subtitle: 'cathedrals, knights, and plague', region: 'europe', startYear: 476, endYear: 1500 },
+  { id: 'al-andalus', label: 'Al-Andalus', subtitle: "Islamic Spain's seven-century flowering", region: 'europe', startYear: 711, endYear: 1492 },
+  { id: 'viking-age', label: 'Viking Age', subtitle: "Scandinavia's raiders, traders, and settlers", region: 'europe', startYear: 793, endYear: 1066 },
+  { id: 'kievan-rus', label: "Kievan Rus'", subtitle: "east Slavic river kingdoms before Russia", region: 'europe', startYear: 882, endYear: 1240 },
   { id: 'renaissance-italy', label: 'Renaissance Italy', subtitle: 'the city-state art revival', region: 'europe', startYear: 1300, endYear: 1600 },
   { id: 'scientific-revolution', label: 'Scientific Revolution', subtitle: 'Galileo to Newton', region: 'europe', startYear: 1543, endYear: 1687 },
   { id: 'enlightenment', label: 'Enlightenment', subtitle: 'reason takes the throne', region: 'europe', startYear: 1685, endYear: 1815 },
@@ -107,12 +124,17 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'industrial-revolution', label: 'Industrial Revolution', subtitle: 'steam, factories, and cities', region: 'europe', startYear: 1760, endYear: 1900 },
   { id: 'soviet-union', label: 'Soviet Union', subtitle: "communism's superpower experiment", region: 'europe', startYear: 1922, endYear: 1991 },
 
-  // ── AMERICAS ──
+  // ── AMERICAS & OCEANIA ──
   { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200, hasContent: true },
+  { id: 'polynesian-voyagers', label: 'Polynesian Voyagers', subtitle: "the Pacific's star-navigating wayfinders", region: 'americas', startYear: -1500, endYear: 1300 },
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400, hasContent: true },
+  { id: 'zapotec-civilization', label: 'Zapotec', subtitle: "Oaxaca's mountaintop scribes", region: 'americas', startYear: -500, endYear: 1521 },
+  { id: 'ancestral-puebloans', label: 'Ancestral Puebloans', subtitle: "Mesa Verde and Chaco Canyon's cliff builders", region: 'americas', startYear: -100, endYear: 1300 },
+  { id: 'teotihuacan', label: 'Teotihuacan', subtitle: "the Americas' first great metropolis", region: 'americas', startYear: -100, endYear: 550 },
   { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697 },
   { id: 'andean-kingdoms', label: 'Andean Kingdoms', subtitle: "Peru's regional cultures (Moche, Nazca)", region: 'americas', startYear: -200, endYear: 500 },
   { id: 'middle-horizon-empires', label: 'Tiwanaku & Wari', subtitle: 'highland Andean empires before the Inca', region: 'americas', startYear: 500, endYear: 1000 },
+  { id: 'mississippian-culture', label: 'Mississippian', subtitle: "Cahokia's mound-building chiefdoms", region: 'americas', startYear: 800, endYear: 1600 },
   { id: 'aztec-empire', label: 'Aztec Empire', subtitle: "Mexico's lake-city war state", region: 'americas', startYear: 1345, endYear: 1521 },
   { id: 'inca-empire', label: 'Inca Empire', subtitle: "the Andes' road-builders", region: 'americas', startYear: 1438, endYear: 1533 },
   { id: 'early-american-republic', label: 'Early US Republic', subtitle: 'the new nation finds its feet', region: 'americas', startYear: 1776, endYear: 1828 },
