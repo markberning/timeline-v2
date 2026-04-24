@@ -1,27 +1,4 @@
-# Maya — Cities in the Jungle
-
-**Goal:** Narrative for the second TL in the Mesoamerican chain (after Olmec, before Aztec). The Maya are the longest-running civilization in the Americas: 2,700 years of city-states that never unified into an empire, inventing zero, predicting eclipses, and building pyramids in the jungle while fighting each other nonstop. Unlike the Olmec, the Maya left a fully decipherable writing system, named kings, dated monuments, and a mythological literature (the Popol Vuh). Central thesis: the Maya prove you don't need an empire to build a civilization — decentralized competition among dozens of city-states produced some of the greatest intellectual and artistic achievements in human history, and the same competition destroyed them.
-
-**Status:** First draft, 8 chapters.
-
----
-
-## Chapter Outline (8 chapters)
-
-| # | Chapter | Era | Key topics |
-|---|---------|-----|------------|
-| 1 | Before the Pyramids | ~2000–250 BCE | Preclassic roots, farming villages, Nakbe, El Mirador, earliest script, Olmec inheritance |
-| 2 | The Classic Dawn | 250–550 CE | Tikal rises, Teotihuacan intervention, Copan and Palenque founded, zero and Venus tables |
-| 3 | The Great Rivalry | 537–695 CE | Tikal vs. Calakmul superpower war, Caracol star war, Dos Pilas proxy wars |
-| 4 | The Golden Age | 600–800 CE | Pakal at Palenque, Yaxchilan, Copan, Bonampak murals, intellectual peak |
-| 5 | The Collapse | 800–1000 CE | Classic Maya collapse, drought, warfare, Puuc cities, the mystery |
-| 6 | The Postclassic World | 1000–1500 CE | Chichen Itza, Kukulcan, Mayapan, maritime trade, codices |
-| 7 | Words, Stars, and Zero | Thematic | Writing, astronomy, mathematics, calendar, Popol Vuh |
-| 8 | Contact and the Last Kingdom | 1502–1697 CE | Spanish arrival, de Landa's bonfire, Popol Vuh saved, fall of Tayasal |
-
----
-
-## Chapter 1 — Before the Pyramids
+# Chapter 1 — Before the Pyramids
 
 The Maya built their civilization in one of the most difficult environments on Earth. Not the worst, exactly, but close: a thick, flat, limestone jungle stretching across what is now southeastern Mexico, Guatemala, Belize, and the western edges of Honduras and El Salvador, roughly 125,000 square miles (about the size of New Mexico). The landscape looks, from above, like an ocean of green canopy broken occasionally by rivers, lakes, and low ridges. Beneath the canopy, the air is hot, wet, and still. Rainfall in the lowland core averages 60 to 100 inches (1,500 to 2,500 mm) per year, roughly four to six times what Kansas gets. The temperature rarely drops below 80°F. Mosquitoes, jaguars, howler monkeys, snakes, and several hundred species of things that bite, sting, or poison occupy every ecological niche.
 
@@ -75,7 +52,7 @@ El Mirador collapsed around 150 CE. The reasons are debated: environmental degra
 
 ---
 
-## Chapter 2 — The Classic Dawn
+# Chapter 2 — The Classic Dawn
 
 The Classic period of Maya civilization (roughly 250–900 CE) is defined by a simple fact: this is when the Maya started writing things down. Not just dates on calendar monuments, but detailed historical texts carved into stone stelae (tall, flat slabs erected in public plazas), painted on pottery, inscribed on lintels above doorways, and written in bark-paper books. These texts record the names of kings, the dates of their births and accessions, their military victories, their ritual performances, their family genealogies, and their divine claims. For the first time in the Americas, we can read the words of named individuals describing their own deeds in their own language. The Maya Classic period is, in the fullest sense, historical.
 
@@ -115,7 +92,7 @@ The Classic Maya world was taking shape: a constellation of powerful city-states
 
 ---
 
-## Chapter 3 — The Great Rivalry
+# Chapter 3 — The Great Rivalry
 
 For most of the 6th and 7th centuries CE, Maya politics was dominated by a single fact: the superpower rivalry between **Tikal** and **Calakmul** (kah-lahk-MOOL). The two cities sat roughly 60 miles (100 km) apart in the dense Petén jungle, each commanding networks of allied and vassal states, and they fought each other, through proxies and directly, for over 150 years. The conflict shaped the political map of the Classic Maya world, drew in every major city in the lowlands, and produced some of the most dramatic events in pre-Columbian American history.
 
@@ -157,7 +134,7 @@ The result was a system that political scientists call a "peer polity interactio
 
 ---
 
-## Chapter 4 — The Golden Age
+# Chapter 4 — The Golden Age
 
 The 7th and 8th centuries CE were the peak of Maya civilization. More cities were building, more kings were carving monuments, more artists were painting, more astronomers were calculating, and more people were living in the Maya lowlands than at any other time before or since. The population of the lowland core may have reached 3 to 10 million people (estimates vary wildly depending on methodology), packed into a landscape that would support far fewer under less intensive agriculture. This was the Golden Age, and its greatest achievements came not from a single city but from the collective output of dozens of kingdoms competing for glory.
 
@@ -213,7 +190,7 @@ Within fifty years, most of it would be abandoned.
 
 ---
 
-## Chapter 5 — The Collapse
+# Chapter 5 — The Collapse
 
 Here is one of the great puzzles of world history: between roughly 800 and 1000 CE, the Maya cities of the southern lowlands, the ones that had spent six centuries building pyramids, carving stelae, and fighting superpower wars, stopped. Stopped building. Stopped carving. Stopped writing. And, over a period of decades, stopped being occupied. Populations plummeted. Jungle swallowed plazas. Pyramids became hills covered in trees. The southern lowland core, which had supported millions of people at its peak, was largely empty by 1000 CE.
 
@@ -263,7 +240,7 @@ The southern lowland jungle took back the cities. Tikal's pyramids became tree-c
 
 ---
 
-## Chapter 6 — The Postclassic World
+# Chapter 6 — The Postclassic World
 
 The Maya civilization that emerged after the Classic Collapse was different from what came before. The divine kings of the Classic period, with their Long Count dates and their elaborate genealogical inscriptions, were gone. The new Maya world was more commercial, more cosmopolitan, more openly syncretic (blending Maya traditions with ideas from central Mexico), and more focused on trade than on carved stelae and dynastic propaganda. It was not a decline. It was a transformation.
 
@@ -313,7 +290,7 @@ The **Dresden Codex** (named for the German library where it is now housed), com
 
 ---
 
-## Chapter 7 — Words, Stars, and Zero
+# Chapter 7 — Words, Stars, and Zero
 
 The Maya developed the most sophisticated writing system, the most accurate astronomy, and the most advanced mathematics of any civilization in the pre-Columbian Americas. These three achievements are interconnected: the writing system recorded the astronomical observations, the mathematics made the calculations possible, and the calendar wove all three together into a system for tracking time from the creation of the world to the end of days. No other civilization in the Western Hemisphere came close.
 
@@ -369,7 +346,7 @@ The ballgame that the Hero Twins play against the lords of Xibalba was the mytho
 
 ---
 
-## Chapter 8 — Contact and the Last Kingdom
+# Chapter 8 — Contact and the Last Kingdom
 
 On his fourth and final voyage to the Americas in 1502, Christopher Columbus anchored off the Bay Islands near the coast of modern Honduras and encountered a large Maya trading canoe carrying cacao, copper, obsidian, and cotton textiles. It was the first recorded contact between Europeans and Maya civilization. Columbus's men seized the canoe, inspected its cargo, took what interested them, and let it go. Columbus noted the encounter in his log and sailed west. He had no idea that the people in the canoe belonged to a civilization that had been building cities, writing books, and predicting eclipses for two thousand years. He was looking for China.
 

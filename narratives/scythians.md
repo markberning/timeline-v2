@@ -1,26 +1,3 @@
-# Scythians — The Civilization That Didn't Build Cities
-
-**Goal:** Narrative for a standalone TL (planned for Central Asian Steppe chain). Covers roughly 900–200 BCE — the Iranian-speaking horse nomads who dominated the Eurasian steppe from the Danube to the Altai Mountains, terrorized every settled empire from Assyria to Persia, left no written records of their own, and yet produced some of the most stunning gold artwork ever found, preserved in frozen tombs for 2,500 years. The through-line is the paradox of a civilization without cities: the Scythians invented mounted warfare, controlled trade routes spanning two continents, inspired the Greek legend of the Amazons, and defeated Darius the Great of Persia — all without building a single permanent structure. Everything we know about them comes from the people they fought, the people they traded with, and the graves they left behind. The graves turn out to be extraordinarily eloquent.
-
-**Status:** First draft, 8 chapters.
-
----
-
-## Chapter Outline (8 chapters)
-
-| # | Chapter | Era | Key topics |
-|---|---------|-----|------------|
-| 1 | The Steppe and Its People | ~900–700 BCE | Geography, who the Scythians were, migration from Central Asia, Cimmerian displacement, horse culture origins |
-| 2 | Raiders of Empires | ~700–600 BCE | Near Eastern raids, Assyrian alliances, Madyes domination of Media, sack of Ascalon, expulsion from the Near East |
-| 3 | The Kingdom of Grass | ~600–500 BCE | Pontic steppe dominion, the kurgan tradition, royal funerals, Anacharsis, Greek colonies, Olbia |
-| 4 | Darius's Humiliation | ~513 BCE | The Persian invasion of Scythia, scorched-earth retreat, Idanthyrsus's riddle, why empires can't conquer nomads |
-| 5 | The Golden Age | ~500–350 BCE | Herodotus, Black Sea trade, grain exports, Bosporan Kingdom, animal-style gold, Scyles |
-| 6 | Warriors, Women, and the Sword of Ares | cultural/thematic | Mounted archery, composite bow, warfare, women warriors, Amazons, religion, shamanism, Enarees |
-| 7 | The Pazyryk Tombs | cultural/thematic | Frozen preservation, tattoos, textiles, the oldest carpet, daily life, material culture, Scythian Triad |
-| 8 | Decline and Legacy | ~350–200 BCE | Ateas, Philip II, Zopyrion, Sarmatian pressure, Scythian Neapolis, Crimean remnant, the nomad legacy |
-
----
-
 # Chapter 1 — The Steppe and Its People
 
 Here is a civilization that built nothing.

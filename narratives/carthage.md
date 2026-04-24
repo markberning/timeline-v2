@@ -1,26 +1,3 @@
-# Carthage — The Empire That History Silenced
-
-**Goal:** Narrative for Carthage, the Phoenician colony that outgrew its parent and built the western Mediterranean's greatest trading empire. Central thesis: Carthage built a commercial superpower, produced one of history's most brilliant generals in Hannibal, and was so thoroughly destroyed that we know it almost entirely through the words of its enemies. This is the deep dive on the civilization that the Phoenicia TL introduces. The narrative grapples honestly with the "winner's history" problem: nearly every source that survives was written by someone who either hated Carthage or inherited their information from someone who did. When the losers leave no books, the winners get to define them.
-
-**Status:** First draft, 8 chapters.
-
----
-
-# Chapter Outline (8 chapters)
-
-| # | Chapter | Era | Key topics |
-|---|---------|-----|------------|
-| 1 | The New City | ~814–580 BCE | Dido's founding legend, Byrsa Hill, early trade networks, Tophet, break from Tyre, Punic script |
-| 2 | Masters of the Western Sea | ~580–480 BCE | Magonid dynasty, Battle of Alalia, Iberian expansion, Hanno & Himilco voyages, first Rome treaty |
-| 3 | The African Empire | ~480–264 BCE | Himera disaster, suffete reforms, African territorial expansion, cothon harbor, Mago's treatise, Aristotle |
-| 4 | Rome | ~264–241 BCE | First Punic War, corvus, naval disasters, Hamilcar Barca in Sicily, Mercenary War |
-| 5 | The Barcid Project | ~237–218 BCE | Hamilcar in Spain, Hasdrubal the Fair, New Carthage silver, Hannibal takes command, Saguntum |
-| 6 | The War That Changed Everything | ~218–201 BCE | Alps, Trebia, Trasimene, Cannae, stalemate, Scipio, Zama |
-| 7 | How the Carthaginians Lived | Thematic | Religion, Tophet debate, trade, navigation, coinage, Kerkouane, war elephants, mercenary system |
-| 8 | Carthago Delenda Est | ~201–146 BCE | Economic recovery, Cato, Third Punic War, destruction, loss of Punic literature, legacy |
-
----
-
 # Chapter 1 — The New City
 
 Around 814 BCE, according to a tradition that ancient writers considered reliable and modern archaeologists find roughly plausible, a Tyrian princess named **Elissa** (eh-LISS-ah), later called **Dido** (DY-doh) by Latin writers, sailed west from the great Phoenician port city of **Tyre** (rhymes with "fire"; on the coast of modern Lebanon) and founded a new city on the coast of North Africa. She called it **Qart Hadasht** (kart hah-DASHT), which means, straightforwardly enough, "New City." The Greeks rendered this as *Karchedon*. The Romans rendered it as *Carthago*. We call it **Carthage**.
