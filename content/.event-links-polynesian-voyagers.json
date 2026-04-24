@@ -1,0 +1,88 @@
+{
+  "1": [
+    {"eventId": "evt-lapita-pottery", "matchText": "Lapita pottery"},
+    {"eventId": "evt-austronesian-dispersal", "matchText": "Austronesian"},
+    {"eventId": "evt-lapita-bismarck-expansion", "matchText": "Lapita culture had crystallized in the Bismarck Archipelago"},
+    {"eventId": "evt-lapita-outrigger", "matchText": "outrigger canoe"},
+    {"eventId": "evt-lapita-obsidian-trade", "matchText": "obsidian"},
+    {"eventId": "evt-fiji-settlement", "matchText": "Fiji"},
+    {"eventId": "evt-tonga-settlement", "matchText": "Tonga"},
+    {"eventId": "evt-samoa-settlement", "matchText": "Samoa"}
+  ],
+  "2": [
+    {"eventId": "evt-lapita-pottery-decline", "matchText": "pottery production in the Fiji-Tonga-Samoa region began to decline"},
+    {"eventId": "evt-mana-concept", "matchText": "mana"},
+    {"eventId": "evt-polynesian-cultural-complex", "matchText": "the Lapita became the Polynesians"},
+    {"eventId": "evt-kava-ceremony", "matchText": "kava"},
+    {"eventId": "evt-tapa-cloth", "matchText": "tapa"},
+    {"eventId": "evt-tattoo-tradition", "matchText": "Tattooing"},
+    {"eventId": "evt-oral-genealogies", "matchText": "oral recitation"},
+    {"eventId": "evt-polynesian-outliers", "matchText": "Polynesian Outliers"}
+  ],
+  "3": [
+    {"eventId": "evt-star-navigation", "matchText": "star compass"},
+    {"eventId": "evt-wave-piloting", "matchText": "wave piloting"},
+    {"eventId": "evt-bird-navigation", "matchText": "golden plover"},
+    {"eventId": "evt-double-hull-canoe", "matchText": "double-hull voyaging canoes"},
+    {"eventId": "evt-stick-charts", "matchText": "stick charts"},
+    {"eventId": "evt-polynesian-astronomy", "matchText": "star sequences to use at which time of year"}
+  ],
+  "4": [
+    {"eventId": "evt-marquesas-settlement", "matchText": "Marquesas Islands"},
+    {"eventId": "evt-tahiti-settlement", "matchText": "Society Islands"},
+    {"eventId": "evt-cook-islands", "matchText": "Cook Islands"},
+    {"eventId": "evt-tahitian-arioi-origins", "matchText": "ari'i nui"}
+  ],
+  "5": [
+    {"eventId": "evt-tonga-tu-i-tonga", "matchText": "Tu'i Tonga"},
+    {"eventId": "evt-tui-tonga-langi", "matchText": "langi"},
+    {"eventId": "evt-tongan-samoa-wars", "matchText": "Tongan-Samoan wars"},
+    {"eventId": "evt-fijian-drua-canoe", "matchText": "drua"},
+    {"eventId": "evt-fijian-chiefdoms", "matchText": "confederacies"},
+    {"eventId": "evt-marae-temples", "matchText": "marae"},
+    {"eventId": "evt-breadfruit-cultivation", "matchText": "Breadfruit"},
+    {"eventId": "evt-taro-irrigation", "matchText": "terraced irrigation systems"},
+    {"eventId": "evt-pearl-shell-trade", "matchText": "pearl shells"},
+    {"eventId": "evt-adze-trade", "matchText": "basalt adzes"},
+    {"eventId": "evt-samoa-political", "matchText": "matai"},
+    {"eventId": "evt-tui-manu-a", "matchText": "Tui Manu'a"},
+    {"eventId": "evt-inter-island-trade-networks", "matchText": "Trade networks connected the island groups"}
+  ],
+  "6": [
+    {"eventId": "evt-hawaii-settlement", "matchText": "first Polynesian settlers arrived around 1000 CE"},
+    {"eventId": "evt-hawaiian-fishponds", "matchText": "Hawaiian fishpond"},
+    {"eventId": "evt-easter-island", "matchText": "Rapa Nui"},
+    {"eventId": "evt-nz-settlement", "matchText": "Aotearoa"},
+    {"eventId": "evt-moa-hunting", "matchText": "moa"},
+    {"eventId": "evt-sweet-potato", "matchText": "sweet potato problem"},
+    {"eventId": "evt-maori-migration", "matchText": "Great Fleet"},
+    {"eventId": "evt-maori-kumara-cultivation", "matchText": "kumara"},
+    {"eventId": "evt-hawaiian-tahitian-voyages", "matchText": "second wave of settlers arrived from Tahiti"}
+  ],
+  "7": [
+    {"eventId": "evt-moai-construction", "matchText": "moai"},
+    {"eventId": "evt-rapa-nui-ahu-platforms", "matchText": "ahu"},
+    {"eventId": "evt-ahu-tongariki", "matchText": "Ahu Tongariki"},
+    {"eventId": "evt-hawaiian-ali-i", "matchText": "ali'i"},
+    {"eventId": "evt-hawaiian-heiau", "matchText": "heiau"},
+    {"eventId": "evt-makahiki-festival", "matchText": "Makahiki"},
+    {"eventId": "evt-maori-pa", "matchText": "pa"},
+    {"eventId": "evt-maori-wars", "matchText": "haka"},
+    {"eventId": "evt-maori-carving", "matchText": "whakairo"},
+    {"eventId": "evt-maori-wharenui", "matchText": "wharenui"},
+    {"eventId": "evt-arioi-society", "matchText": "Arioi"},
+    {"eventId": "evt-rapa-nui-birdman", "matchText": "Birdman cult"},
+    {"eventId": "evt-rongorongo", "matchText": "rongorongo"},
+    {"eventId": "evt-hula-tradition", "matchText": "hula"},
+    {"eventId": "evt-kumulipo", "matchText": "Kumulipo"},
+    {"eventId": "evt-piilani-maui", "matchText": "Pi'ilani"},
+    {"eventId": "evt-hawaiian-ahupuaa", "matchText": "ahupua'a"},
+    {"eventId": "evt-umi-a-liloa", "matchText": "Umi-a-Liloa"}
+  ],
+  "8": [
+    {"eventId": "evt-tongan-civil-war", "matchText": "civil wars and political crises"},
+    {"eventId": "evt-tongan-triple-kingship", "matchText": "triple kingship"},
+    {"eventId": "evt-rapa-nui-collapse", "matchText": "deforestation was essentially complete"},
+    {"eventId": "evt-hawaiian-unification-wars", "matchText": "ali'i fought wars"}
+  ]
+}
