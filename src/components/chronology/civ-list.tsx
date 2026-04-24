@@ -145,13 +145,10 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
     : null
 
   return (
-    <div ref={listRef} className="flex-1 overflow-y-auto overflow-x-hidden px-5 pt-2" style={{ overscrollBehaviorY: 'contain' }}>
-      {/* Chain filter header */}
+    <>
+      {/* Chain filter header — outside scroll container so no bleed */}
       {soloChain && (
-        <div
-          className="flex items-center gap-2 sticky top-0 z-20 border-b border-foreground/10 -mx-5 px-5 bg-[#f5f0e8] dark:bg-[#22201e]"
-          style={{ marginTop: -8, paddingTop: 10, paddingBottom: 8 }}
-        >
+        <div className="flex items-center gap-2 px-5 py-2 border-b border-foreground/10 shrink-0">
           <div
             className="w-2 h-2 rounded-full shrink-0"
             style={{ backgroundColor: soloColor! }}
@@ -171,6 +168,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
         </div>
       )}
 
+      <div ref={listRef} className="flex-1 overflow-y-auto overflow-x-hidden px-5 pt-2" style={{ overscrollBehaviorY: 'contain' }}>
       {displayCivs.map(civ => {
         const color = REGION_COLORS[civ.region]
         const chainInfo = CIV_CHAIN_MAP.get(civ.id)
@@ -228,5 +226,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
       })}
       <div className="h-[60vh]" />
     </div>
+    </>
   )
 }
