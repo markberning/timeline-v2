@@ -1,0 +1,759 @@
+{
+  "id": "maya-civilization",
+  "label": "Maya",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "imageWikiSlug": "Chichen_Itza",
+  "pitch": "Deep in the jungles of Central America, the Maya built towering pyramids, predicted eclipses, and invented a writing system (Earliest Maya Script) so complex it took modern scholars until the 1980s to crack. Their civilization spanned over two thousand years and dozens of rival city-states — from the Rise of El Mirador in the Preclassic to the devastating Classic Maya Collapse. Kings like K'inich Janaab Pakal ruled for 68 years and were buried in jade-encrusted splendor beneath the Temple of the Inscriptions.\n\n🔑 Key Facts:\n• The Maya Concept of Zero was developed independently, centuries before it reached Europe\n• The Tikal–Calakmul Rivalry drove a superpower conflict that shaped Classic Maya politics for over a century\n• The Rise of Chichén Itzá and El Castillo (Kukulcán Pyramid) represent the Postclassic peak, with equinox shadow-serpents descending the stairs\n• The Dresden Codex Compiled contains astronomical tables predicting eclipses with terrifying accuracy\n\n🤔 Why It Matters: Maya advances in astronomy (Venus Tables Calculated), mathematics, and agriculture fed a civilization of millions — and the Popol Vuh Written Down preserves one of humanity's great creation mythologies.\n\n🎲 Wild Card: 18 Rabbit Captured and Killed — the great king of Copan was beheaded by his own vassal state Quirigua in 738 CE, proving that even in the Maya world, office politics could be fatally literal.",
+  "countryIds": [
+    "484",
+    "320",
+    "340",
+    "84"
+  ],
+  "spans": [
+    {
+      "id": "span-maya-civilization-early-preclassic",
+      "label": "Early Preclassic",
+      "startYear": -2000,
+      "endYear": -1000,
+      "wikiSlug": "Preclassic_Maya",
+      "description": "Sedentary farming villages appeared along the Pacific coast and in the Yucatan lowlands, cultivating maize, beans, and squash. Early pottery and cacao cultivation mark the foundations of Maya culture."
+    },
+    {
+      "id": "span-maya-civilization-middle-preclassic",
+      "label": "Middle Preclassic",
+      "startYear": -1000,
+      "endYear": -350,
+      "wikiSlug": "Preclassic_Maya",
+      "description": "The first monumental architecture appeared at sites like Nakbe, and trade networks for obsidian and jade connected highland and lowland communities. Social stratification and early forms of kingship began to emerge."
+    },
+    {
+      "id": "span-maya-civilization-late-preclassic",
+      "label": "Late Preclassic",
+      "startYear": -350,
+      "endYear": 250,
+      "wikiSlug": "Preclassic_Maya",
+      "description": "Massive cities like El Mirador arose with some of the largest pyramids ever built in the Maya world. The earliest hieroglyphic writing and the Long Count calendar appeared during this period of rapid cultural development."
+    },
+    {
+      "id": "span-maya-civilization-classic-period",
+      "label": "Classic Period",
+      "startYear": 250,
+      "endYear": 900,
+      "wikiSlug": "Classic_Maya_period",
+      "description": "Dozens of rival city-states including Tikal, Calakmul, Palenque, and Copan competed for dominance through warfare, alliances, and monumental construction. This era produced the height of Maya art, writing, astronomy, and architecture."
+    },
+    {
+      "id": "span-maya-civilization-terminal-classic",
+      "label": "Terminal Classic",
+      "startYear": 800,
+      "endYear": 1000,
+      "wikiSlug": "Classic_Maya_collapse",
+      "description": "Major lowland cities were progressively abandoned due to drought, warfare, and political fragmentation in one of history's great civilizational collapses. Power shifted northward to Puuc-style cities like Uxmal and the rising Chichen Itza."
+    },
+    {
+      "id": "span-maya-civilization-postclassic",
+      "label": "Postclassic",
+      "startYear": 1000,
+      "endYear": 1524,
+      "wikiSlug": "Postclassic_Maya",
+      "description": "Chichen Itza and later Mayapan dominated the northern Yucatan, blending Maya and central Mexican cultural traditions. Maritime trade flourished along coastal routes until the Spanish conquest dismantled Maya political independence."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-earliest-maya-settlements",
+      "label": "Earliest Maya Settlements",
+      "year": -1800,
+      "description": "Sedentary farming villages appear along the Pacific coast and in the lowlands of the Yucatán, marking the beginning of Maya settlement.",
+      "wikiSlug": "Maya_civilization",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cuello-founded",
+      "label": "Cuello Settlement",
+      "year": -1200,
+      "description": "One of the earliest known Maya communities, Cuello in Belize shows evidence of maize agriculture and pottery production.",
+      "wikiSlug": "Cuello",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cacao-cultivation",
+      "label": "Cacao Cultivation Begins",
+      "year": -1100,
+      "description": "The Maya begin cultivating cacao, which becomes a prized trade commodity and ritual beverage across Mesoamerica.",
+      "wikiSlug": "History_of_chocolate",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-nakbe-monumental",
+      "label": "Nakbe Monumental Architecture",
+      "year": -800,
+      "description": "Nakbe in the Petén Basin develops massive stone platforms and pyramid structures, among the earliest monumental Maya architecture.",
+      "wikiSlug": "Nakbe",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-el-mirador-rise",
+      "label": "Rise of El Mirador",
+      "year": -600,
+      "description": "El Mirador grows into a massive Preclassic city with the La Danta pyramid, one of the largest structures ever built in the ancient Maya world.",
+      "wikiSlug": "El_Mirador",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-maya-script-origins",
+      "label": "Earliest Maya Script",
+      "year": -300,
+      "description": "The earliest Maya hieroglyphic inscriptions appear, developing one of the few fully developed writing systems of the pre-Columbian Americas.",
+      "wikiSlug": "Maya_script",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kaminaljuyu-trade",
+      "label": "Kaminaljuyú Trade Hub",
+      "year": -400,
+      "description": "Kaminaljuyú in the Guatemala highlands becomes a major trade center controlling obsidian and jade routes across Mesoamerica.",
+      "wikiSlug": "Kaminaljuyu",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-maya-long-count",
+      "label": "Long Count Calendar Adopted",
+      "year": -36,
+      "description": "The earliest known Long Count dates appear on Maya monuments, establishing a linear calendar system counting from a mythic creation date of 3114 BCE.",
+      "wikiSlug": "Mesoamerican_Long_Count_calendar",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-tikal-founded",
+      "label": "Tikal Founded",
+      "year": -400,
+      "description": "Tikal is established in the Petén lowlands, eventually growing into one of the largest and most powerful Maya city-states.",
+      "wikiSlug": "Tikal",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-popol-vuh-tradition",
+      "label": "Popol Vuh Oral Tradition",
+      "year": -200,
+      "description": "The creation mythology later recorded as the Popol Vuh takes shape, describing the Hero Twins and the Maya origin of humanity from maize.",
+      "wikiSlug": "Popol_Vuh",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-siyaj-kahk-conquest",
+      "label": "Siyaj K'ahk' Conquers Tikal",
+      "year": 378,
+      "description": "The warrior Siyaj K'ahk' arrives at Tikal and overthrows its king, installing a new Teotihuacan-linked dynasty in a pivotal power shift.",
+      "wikiSlug": "Siyaj_K%27ahk%27",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-yax-nuun-ahiin",
+      "label": "Yax Nuun Ahiin I",
+      "year": 379,
+      "endYear": 404,
+      "description": "Installed by Siyaj K'ahk' after the Teotihuacan intervention, Yax Nuun Ahiin I founded a new dynasty that would dominate Tikal for centuries.",
+      "wikiSlug": "Yax_Nuun_Ahiin_I",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-copan-dynasty-founded",
+      "label": "Copán Dynasty Founded",
+      "year": 426,
+      "description": "K'inich Yax K'uk' Mo' founds the royal dynasty of Copán, establishing a kingdom that becomes a major center of Maya art and science.",
+      "wikiSlug": "K%27inich_Yax_K%27uk%27_Mo%27",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-palenque-founded",
+      "label": "Palenque Dynasty Founded",
+      "year": 431,
+      "description": "The dynasty of Palenque is established under K'uk' Bahlam I in the western Maya lowlands of modern Chiapas, Mexico.",
+      "wikiSlug": "Palenque",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tikal-calakmul-rivalry",
+      "label": "Tikal–Calakmul Rivalry Begins",
+      "year": 537,
+      "description": "The superpower rivalry between Tikal and Calakmul intensifies, with Calakmul's Sky Witness defeating Tikal and inaugurating a long period of conflict.",
+      "wikiSlug": "Tikal%E2%80%93Calakmul_wars",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-caracol-defeats-tikal",
+      "label": "Caracol Defeats Tikal",
+      "year": 562,
+      "description": "Calakmul's ally Caracol inflicts a devastating \"star war\" defeat on Tikal, beginning a 130-year period of Tikal's decline.",
+      "wikiSlug": "Caracol",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pakal-reign",
+      "label": "K'inich Janaab Pakal",
+      "year": 615,
+      "endYear": 683,
+      "description": "Pakal the Great rules Palenque for 68 years, commissioning the Temple of the Inscriptions and presiding over a golden age of art and architecture.",
+      "wikiSlug": "K%27inich_Janaab_Pakal",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-temple-inscriptions",
+      "label": "Temple of the Inscriptions",
+      "year": 675,
+      "description": "Pakal commissions his funerary pyramid at Palenque, containing the longest known Maya hieroglyphic text and his elaborate jade-masked burial.",
+      "wikiSlug": "Temple_of_the_Inscriptions",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kan-bahlam-ii",
+      "label": "K'inich Kan Bahlam II",
+      "year": 684,
+      "endYear": 702,
+      "description": "Pakal's son continues Palenque's building program, constructing the Cross Group temples with elaborate mythological inscriptions.",
+      "wikiSlug": "K%27inich_Kan_Bahlam_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tikal-defeats-calakmul",
+      "label": "Tikal Defeats Calakmul",
+      "year": 695,
+      "description": "Jasaw Chan K'awiil I of Tikal defeats Calakmul's ruler Yich'aak K'ahk', breaking Calakmul's regional dominance and reviving Tikal's power.",
+      "wikiSlug": "Jasaw_Chan_K%27awiil_I",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-maya-zero",
+      "label": "Maya Concept of Zero",
+      "year": 350,
+      "description": "The Maya independently develop the concept of zero and a vigesimal (base-20) positional number system, centuries before it reaches Europe.",
+      "wikiSlug": "Maya_numerals",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-maya-astronomy",
+      "label": "Venus Tables Calculated",
+      "year": 400,
+      "description": "Maya astronomers calculate the synodic period of Venus to within two hours of the modern value, using it to time wars and rituals.",
+      "wikiSlug": "Maya_astronomy",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-calakmul-peak",
+      "label": "Calakmul at Its Peak",
+      "year": 636,
+      "description": "Under Yuknoom Ch'een II (\"the Great\"), Calakmul assembles a vast network of vassal states and becomes the dominant Maya superpower.",
+      "wikiSlug": "Yuknoom_Ch%27een_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-bonampak-murals",
+      "label": "Bonampak Murals Painted",
+      "year": 790,
+      "description": "The vivid Bonampak murals are painted, depicting warfare, ritual, and court life in the finest surviving example of Classic Maya painting.",
+      "wikiSlug": "Bonampak",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-maya-ballgame-peak",
+      "label": "Ballgame Culture Flourishes",
+      "year": 600,
+      "description": "The Mesoamerican ballgame reaches peak cultural importance among the Maya, with elaborate ball courts built at major cities as sites of ritual and sport.",
+      "wikiSlug": "Mesoamerican_ballgame",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-jade-trade-network",
+      "label": "Jade Trade Networks",
+      "year": 300,
+      "description": "Extensive trade networks distribute jade from the Motagua Valley across the Maya world, where it is valued above gold for ritual and royal adornment.",
+      "wikiSlug": "Maya_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cacao-as-currency",
+      "label": "Cacao Beans as Currency",
+      "year": 500,
+      "description": "Cacao beans are widely used as a standardized medium of exchange across the Maya lowlands, functioning as currency in marketplaces.",
+      "wikiSlug": "History_of_chocolate",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-copan-altar-q",
+      "label": "Altar Q at Copán",
+      "year": 776,
+      "description": "Yax Pasaj Chan Yopaat commissions Altar Q, depicting all 16 kings of the Copán dynasty, one of the most important Maya historical monuments.",
+      "wikiSlug": "Altar_Q",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-18-rabbit-capture",
+      "label": "18 Rabbit Captured and Killed",
+      "year": 738,
+      "description": "Uaxaclajuun Ub'aah K'awiil (\"18 Rabbit\"), the great king of Copán, is captured and beheaded by vassal-state Quiriguá in a shocking reversal.",
+      "wikiSlug": "Uaxaclajuun_Ub%27aah_K%27awiil",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-quirigua-stelae",
+      "label": "Quiriguá Stelae Erected",
+      "year": 751,
+      "description": "After defeating Copán, Quiriguá erects the tallest freestanding stone monuments in the Maya world, including the 10-meter Stela E.",
+      "wikiSlug": "Quirigu%C3%A1",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-classic-maya-collapse",
+      "label": "Classic Maya Collapse",
+      "year": 850,
+      "description": "Major lowland cities are progressively abandoned over decades due to drought, warfare, and political fragmentation, ending the Classic Period.",
+      "wikiSlug": "Classic_Maya_collapse",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-dresden-codex",
+      "label": "Dresden Codex Compiled",
+      "year": 1200,
+      "description": "The Dresden Codex, the oldest surviving book from the Americas, is compiled with astronomical tables, eclipse predictions, and Venus calculations.",
+      "wikiSlug": "Dresden_Codex",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-chichen-itza-rise",
+      "label": "Rise of Chichén Itzá",
+      "year": 900,
+      "description": "Chichén Itzá emerges as the dominant Postclassic power in the northern Yucatán, blending Maya and central Mexican architectural styles.",
+      "wikiSlug": "Chichen_Itza",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-el-castillo",
+      "label": "El Castillo (Kukulcán Pyramid)",
+      "year": 1000,
+      "description": "The iconic stepped pyramid at Chichén Itzá is built, designed so equinox sunlight creates a serpent shadow descending its staircase.",
+      "wikiSlug": "El_Castillo,_Chichen_Itza",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kukulcan-cult",
+      "label": "Cult of Kukulcán Spreads",
+      "year": 950,
+      "description": "Worship of the feathered serpent deity Kukulcán (Quetzalcoatl) becomes central to Postclassic Maya religion, especially at Chichén Itzá.",
+      "wikiSlug": "Kukulkan",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-chichen-itza-decline",
+      "label": "Decline of Chichén Itzá",
+      "year": 1100,
+      "description": "Chichén Itzá loses political dominance, possibly after conflict with Mayapán, and is gradually depopulated though it remains a pilgrimage site.",
+      "wikiSlug": "Chichen_Itza",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mayapan-league",
+      "label": "League of Mayapán",
+      "year": 1200,
+      "description": "Mayapán becomes the political capital of the Yucatán under the Cocom dynasty, governing through a confederacy of allied noble houses.",
+      "wikiSlug": "Mayapan",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-maya-salt-trade",
+      "label": "Yucatán Salt Trade",
+      "year": 1100,
+      "description": "The coastal salt beds of northern Yucatán become a major export commodity, fueling maritime trade routes around the peninsula.",
+      "wikiSlug": "Maya_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mayapan-fall",
+      "label": "Fall of Mayapán",
+      "year": 1441,
+      "description": "The Xiu faction revolts against the Cocom rulers, sacking Mayapán and ending the last centralized Maya political authority in the Yucatán.",
+      "wikiSlug": "Mayapan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lady-xoc",
+      "label": "Lady K'abal Xook Bloodletting",
+      "year": 724,
+      "description": "Lintel 24 at Yaxchilán depicts Lady K'abal Xook performing a royal bloodletting ritual, one of the most famous images of Maya religious practice.",
+      "wikiSlug": "Lady_Xoc",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-books-of-chilam-balam",
+      "label": "Books of Chilam Balam",
+      "year": 1500,
+      "description": "Prophetic and historical texts known as the Books of Chilam Balam are compiled, recording Maya history, prophecy, and calendrical knowledge in Latin script.",
+      "wikiSlug": "Chilam_Balam",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-spanish-contact",
+      "label": "Spanish Contact",
+      "year": 1502,
+      "description": "Columbus encounters a Maya trading canoe off Honduras during his fourth voyage, the first recorded European contact with Maya civilization.",
+      "wikiSlug": "Maya_civilization",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-spanish-conquest-yucatan",
+      "label": "Spanish Conquest of Yucatán Begins",
+      "year": 1527,
+      "description": "Francisco de Montejo launches the first of several campaigns to conquer the Yucatán Maya, a brutal process that takes over 170 years to complete.",
+      "wikiSlug": "Spanish_conquest_of_Yucat%C3%A1n",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-diego-de-landa",
+      "label": "Diego de Landa's Inquisition",
+      "year": 1562,
+      "description": "Bishop Diego de Landa burns thousands of Maya manuscripts and idols at Maní, destroying most of the written record of Maya civilization.",
+      "wikiSlug": "Diego_de_Landa",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-ah-kukum-xiu",
+      "label": "Ah Kukum Xiu",
+      "year": 1441,
+      "description": "The Xiu lord who led the revolt against the Cocom dynasty at Mayapán, reshaping the political landscape of the Postclassic Yucatán.",
+      "wikiSlug": "Xiu_dynasty",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jasaw-chan-kawiil",
+      "label": "Jasaw Chan K'awiil I",
+      "year": 682,
+      "endYear": 734,
+      "description": "The ruler who revived Tikal by defeating Calakmul in 695, ending a 130-year period of decline and launching a massive building program.",
+      "wikiSlug": "Jasaw_Chan_K%27awiil_I",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-calakmul-city",
+      "label": "Calakmul",
+      "year": 400,
+      "description": "Calakmul in the Petén Basin grew into one of the largest Maya cities, with over 6,000 structures and a population rivaling Tikal at its peak.",
+      "wikiSlug": "Calakmul",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sacred-cenote",
+      "label": "Sacred Cenote at Chichén Itzá",
+      "year": 900,
+      "description": "The Sacred Cenote at Chichén Itzá served as a major pilgrimage site where offerings of jade, gold, and human sacrifices were cast into the waters.",
+      "wikiSlug": "Sacred_Cenote",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-uxmal-rise",
+      "label": "Rise of Uxmal",
+      "year": 850,
+      "description": "Uxmal emerged as a major Puuc-style city in the northern Yucatán, featuring the ornate Pyramid of the Magician and the Governor's Palace.",
+      "wikiSlug": "Uxmal",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-maya-blue-pigment",
+      "label": "Maya Blue Pigment",
+      "year": 600,
+      "description": "The Maya developed Maya Blue, a remarkably durable synthetic pigment made from indigo and palygorskite clay, used in murals and on sacrificial offerings.",
+      "wikiSlug": "Maya_blue",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-yaxchilan-dynasty",
+      "label": "Yaxchilán at Its Peak",
+      "year": 720,
+      "description": "Under Shield Jaguar II and Bird Jaguar IV, Yaxchilán on the Usumacinta River reached its peak as a major political and artistic center.",
+      "wikiSlug": "Yaxchilan",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-popol-vuh-written",
+      "label": "Popol Vuh Written Down",
+      "year": 1554,
+      "description": "K'iche' Maya nobles transcribed the Popol Vuh into Latin script, preserving the most complete surviving account of Maya creation mythology.",
+      "wikiSlug": "Popol_Vuh",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-maya-maritime-trade",
+      "label": "Maya Coastal Trading Canoes",
+      "year": 1200,
+      "description": "Postclassic Maya merchants operated large seafaring canoes around the Yucatán Peninsula, trading obsidian, cacao, salt, and honey along coastal routes.",
+      "wikiSlug": "Maya_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-maya-earliest-pottery",
+      "label": "Earliest Maya Pottery",
+      "year": -1500,
+      "description": "Distinctive Maya ceramic traditions emerge in Belize and the Pacific lowlands, with decorated vessels used for storing maize and cacao.",
+      "wikiSlug": "Maya_ceramics",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-san-bartolo-murals",
+      "label": "San Bartolo Murals",
+      "year": -100,
+      "description": "The San Bartolo murals in Guatemala depict the Hero Twins myth and the Maya maize god in vivid polychrome, the oldest known intact Maya paintings.",
+      "wikiSlug": "San_Bartolo_(Maya_site)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-maya-raised-field-agriculture",
+      "label": "Raised Field Agriculture",
+      "year": 200,
+      "description": "Maya farmers construct elaborate raised field and canal systems in seasonal wetlands, supporting dense populations in the Petén lowlands.",
+      "wikiSlug": "Maya_agriculture",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-lady-six-sky",
+      "label": "Lady Six Sky of Naranjo",
+      "year": 682,
+      "endYear": 741,
+      "description": "Lady Six Sky arrived at Naranjo from Dos Pilas and rebuilt it into a regional power, directing military campaigns and commissioning monuments in her own name.",
+      "wikiSlug": "Lady_Six_Sky",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-shield-jaguar-ii",
+      "label": "Shield Jaguar II of Yaxchilán",
+      "year": 681,
+      "endYear": 742,
+      "description": "Itzamnaaj Bahlam III (Shield Jaguar II) ruled Yaxchilán for over 60 years, commissioning the lintels that depict royal bloodletting rituals and military conquests.",
+      "wikiSlug": "Itzamnaaj_Bahlam_III",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-bird-jaguar-iv",
+      "label": "Bird Jaguar IV of Yaxchilán",
+      "year": 752,
+      "endYear": 768,
+      "description": "Bird Jaguar IV succeeded his father Shield Jaguar II after a contested interregnum, launching an aggressive building and monument program to legitimize his rule.",
+      "wikiSlug": "Bird_Jaguar_IV",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-dos-pilas-wars",
+      "label": "Dos Pilas Wars",
+      "year": 648,
+      "description": "The breakaway kingdom of Dos Pilas, founded by a Tikal prince who allied with Calakmul, became a flashpoint in the Tikal-Calakmul superpower struggle.",
+      "wikiSlug": "Dos_Pilas",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hero-twins-mythology",
+      "label": "Hero Twins Mythology",
+      "year": -300,
+      "description": "The myth of the Hero Twins Hunahpu and Xbalanque, who outwit the lords of the underworld, becomes central to Maya religion and is depicted in art across the Classic period.",
+      "wikiSlug": "Maya_Hero_Twins",
+      "tier": 2,
+      "tags": ["writing"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puuc-architecture",
+      "label": "Puuc Architectural Style",
+      "year": 800,
+      "description": "The Puuc style emerges in the northern Yucatán hills with elaborate mosaic stone facades, rain god masks, and geometric friezes at Uxmal, Kabah, and Sayil.",
+      "wikiSlug": "Puuc",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cordoba-expedition",
+      "label": "Hernández de Córdoba Expedition",
+      "year": 1517,
+      "description": "Francisco Hernández de Córdoba leads the first Spanish expedition to the Yucatán coast, encountering stone cities and fierce Maya resistance that wounded him fatally.",
+      "wikiSlug": "Francisco_Hern%C3%A1ndez_de_C%C3%B3rdoba_(explorer)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-fall-of-tayasal",
+      "label": "Fall of Tayasal",
+      "year": 1697,
+      "description": "The Spanish finally conquer Nojpetén (Tayasal), capital of the Itza Maya on Lake Petén Itzá, the last independent Maya state — 175 years after Montejo's first campaign.",
+      "wikiSlug": "Fall_of_Nojpet%C3%A9n",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-maya-sacbe-roads",
+      "label": "Sacbe Road Networks",
+      "year": 600,
+      "description": "The Maya construct raised limestone causeways (sacbeob) connecting city centers and outlying settlements, with the longest running 62 miles (100 km) from Cobá to Yaxuná.",
+      "wikiSlug": "Sacbe",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    }
+  ],
+  "wikiSlug": "Maya_civilization"
+}
