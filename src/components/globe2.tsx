@@ -897,21 +897,15 @@ export default function Globe2() {
 
       {/* ── Title block ───────────────────────────────────── */}
       <div className={styles.titleBlock}>
-        <div className={styles.eyebrow}>
-          <a
-            href="/"
-            className={`${styles.homeLink} font-[family-name:var(--font-geist-sans)]`}
-          >
-            &larr; Stuff Happened
-          </a>
+        <div className={`${styles.eyebrow} font-[family-name:var(--font-geist-sans)]`}>
+          Stuff Happened
         </div>
         <div className={`${styles.title} font-[family-name:var(--font-lora)]`}>
           Historica
         </div>
-        <div
-          className={`${styles.subtitle} font-[family-name:var(--font-geist-sans)]`}
-        >
-          a globe of civilizations
+        <div className={`${styles.viewToggle} font-[family-name:var(--font-geist-sans)]`}>
+          <a href="/" className={styles.viewBtn}>List View</a>
+          <span className={styles.viewBtnActive}>Globe View</span>
         </div>
       </div>
 
