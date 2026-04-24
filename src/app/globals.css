@@ -215,13 +215,16 @@ a.cross-link {
 /* Active row */
 .civ-row[data-active] .civ-row-inner {
   box-shadow: inset 3px 0 0 var(--row-color);
+  background: color-mix(in srgb, var(--row-color) 12%, transparent);
+  border-radius: 6px;
 }
 .civ-row[data-active] .civ-row-chain {
   color: var(--row-color);
   opacity: 1;
 }
 .civ-row[data-active] .civ-row-label {
-  color: var(--row-color);
+  color: var(--foreground);
+  font-weight: 700;
 }
 .civ-row[data-active] .civ-row-enter {
   display: inline-flex;
