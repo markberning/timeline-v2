@@ -1,0 +1,838 @@
+{
+  "id": "ancient-israel",
+  "label": "Ancient Israel",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "wikiSlug": "Kingdom_of_Israel_(united_monarchy)",
+  "spans": [
+    {
+      "id": "span-united-monarchy",
+      "label": "United Monarchy",
+      "startYear": -1020,
+      "endYear": -930,
+      "wikiSlug": "Kingdom_of_Israel_(united_monarchy)",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Israelite tribes in the central hill country of Canaan faced growing pressure from Philistine city-states along the coast. The loose tribal confederation under judges proved inadequate against an organized military threat."
+        },
+        {
+          "label": "What Happened",
+          "text": "According to biblical tradition, the prophet Samuel anointed Saul as the first king, followed by David who captured Jerusalem and made it his capital, and Solomon who built the First Temple and expanded trade networks. The historicity of this period is heavily debated — archaeological evidence for a powerful united kingdom remains thin, though the Tel Dan Stele confirms the 'House of David' existed."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Whether the United Monarchy was a regional empire or a modest highland chiefdom inflated by later biblical authors, the period established Jerusalem as the political and religious center of Israelite identity — a status it never lost."
+        }
+      ]
+    },
+    {
+      "id": "span-divided-kingdom",
+      "label": "Divided Kingdom",
+      "startYear": -930,
+      "endYear": -722,
+      "wikiSlug": "Kingdoms_of_Israel_and_Judah",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After Solomon's death, the northern tribes rejected his son Rehoboam's heavy taxation and forced labor policies, splitting the kingdom into Israel in the north (ten tribes, capital eventually at Samaria) and Judah in the south (two tribes, capital Jerusalem)."
+        },
+        {
+          "label": "What Happened",
+          "text": "The northern Kingdom of Israel became the larger, wealthier, and more cosmopolitan state — and the more archaeologically visible one. The Omride dynasty built Samaria into a major city, clashed with Aram-Damascus and Assyria, and drew fierce prophetic criticism for tolerating Canaanite worship. Judah remained a smaller highland kingdom in Israel's shadow."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Divided Kingdom period produced the great prophetic movement — Elijah, Amos, Hosea, Isaiah — that transformed Israelite religion from temple-based worship into an ethical monotheism focused on justice and covenant. When Assyria destroyed Israel in 722 BCE, Judah inherited and preserved this tradition."
+        }
+      ]
+    },
+    {
+      "id": "span-judah-alone",
+      "label": "Kingdom of Judah Alone",
+      "startYear": -722,
+      "endYear": -586,
+      "wikiSlug": "Kingdom_of_Judah",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After Assyria's destruction of the northern kingdom, Judah was the sole surviving Israelite state — a small vassal kingdom navigating between Assyrian, Egyptian, and eventually Babylonian superpowers."
+        },
+        {
+          "label": "What Happened",
+          "text": "Hezekiah fortified Jerusalem and survived Sennacherib's siege in 701 BCE. His grandson Manasseh ruled for 55 years as an Assyrian vassal. Josiah's reforms in 621 BCE centralized worship at Jerusalem and produced what became the book of Deuteronomy. After Josiah died at Megiddo in 609 BCE, Judah lurched between Egyptian and Babylonian control until Nebuchadnezzar destroyed Jerusalem and the First Temple in 586 BCE."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The destruction of the Temple and the Babylonian Exile forced a revolutionary transformation: Israelite religion, no longer tied to a temple or a kingdom, became portable, text-based, and universal — the foundation of Judaism and, through it, Christianity and Islam."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-saul-king",
+      "label": "Saul, First King of Israel",
+      "year": -1020,
+      "endYear": -1000,
+      "description": "According to biblical accounts, Saul of the tribe of Benjamin became the first Israelite king, uniting the tribes against the Philistine threat. His reign ended in defeat and suicide at the Battle of Mount Gilboa.",
+      "wikiSlug": "Saul",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-gilboa",
+      "label": "Battle of Mount Gilboa",
+      "year": -1010,
+      "description": "The Philistines defeated the Israelite army at Mount Gilboa, killing Saul and his sons. According to the biblical account, Saul fell on his own sword to avoid capture, and the Philistines displayed his body on the walls of Beth-shan.",
+      "wikiSlug": "Battle_of_Mount_Gilboa",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-david-goliath",
+      "label": "David and Goliath",
+      "year": -1010,
+      "description": "The biblical account of the shepherd boy David killing the Philistine giant Goliath with a sling became one of history's most enduring narratives about underdog victory. Whether historical or legendary, it reflects the real Israelite-Philistine conflict over the central hill country.",
+      "wikiSlug": "Goliath",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-david-king",
+      "label": "David Becomes King",
+      "year": -1000,
+      "endYear": -960,
+      "description": "David of Bethlehem, a former vassal of the Philistines, united the Israelite tribes under his rule after a civil war with Saul's surviving son. Biblical tradition credits him with composing the Psalms, though modern scholarship attributes most psalms to later authors.",
+      "wikiSlug": "David",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-conquest-jerusalem",
+      "label": "David Conquers Jerusalem",
+      "year": -1000,
+      "description": "David captured the Jebusite fortress of Jerusalem, a neutral city between the northern and southern tribes, and made it his capital. The choice was politically brilliant — it belonged to no tribe, giving the king a personal power base.",
+      "wikiSlug": "Jebusite",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-psalms",
+      "label": "The Book of Psalms",
+      "year": -1000,
+      "endYear": -500,
+      "description": "The 150 psalms — hymns, laments, and prayers — were composed over several centuries and traditionally attributed to David. They became the hymnal of the Jerusalem Temple and remain central to Jewish and Christian worship three thousand years later.",
+      "wikiSlug": "Psalms",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ark-jerusalem",
+      "label": "Ark of the Covenant Brought to Jerusalem",
+      "year": -995,
+      "description": "David transferred the Ark of the Covenant — the sacred chest believed to house the tablets of the Ten Commandments — to Jerusalem, merging political and religious authority in a single capital. No archaeological evidence of the Ark has ever been found.",
+      "wikiSlug": "Ark_of_the_Covenant",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bathsheba",
+      "label": "Bathsheba and Court Intrigue",
+      "year": -985,
+      "description": "The biblical narrative of David's adultery with Bathsheba and murder of her husband Uriah is remarkable for its unflinching criticism of the king. Bathsheba later secured the throne for her son Solomon, making her one of the most politically consequential women in Israelite history.",
+      "wikiSlug": "Bathsheba",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-solomon-king",
+      "label": "Solomon's Reign",
+      "year": -960,
+      "endYear": -930,
+      "description": "Solomon, David's son by Bathsheba, became legendary for wisdom, wealth, and building projects — above all the First Temple. Biblical accounts of his 700 wives and vast empire are almost certainly exaggerated, but his historicity is generally accepted.",
+      "wikiSlug": "Solomon",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-first-temple",
+      "label": "First Temple Built in Jerusalem",
+      "year": -957,
+      "description": "Solomon built the First Temple (Beit HaMikdash) on Mount Moriah in Jerusalem, creating the central sanctuary for Israelite worship. No archaeological remains have been identified, as the site lies beneath the later Temple Mount platform.",
+      "wikiSlug": "Solomon%27s_Temple",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-solomon-trade",
+      "label": "Solomon's Trade Networks",
+      "year": -950,
+      "description": "Biblical tradition describes Solomon's trade relationships with Hiram of Tyre (importing cedar and gold for the Temple) and the Queen of Sheba (luxury goods from Arabia). His merchants reportedly operated from Ezion-Geber on the Red Sea coast.",
+      "wikiSlug": "Solomon#Wealth",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-proverbs",
+      "label": "Book of Proverbs",
+      "year": -950,
+      "endYear": -700,
+      "description": "The Proverbs, traditionally attributed to Solomon, collected centuries of Israelite and broader Near Eastern wisdom literature. Some proverbs closely parallel the Egyptian Instruction of Amenemope, showing the international character of ancient wisdom traditions.",
+      "wikiSlug": "Book_of_Proverbs",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-j-source",
+      "label": "Earliest Biblical Source Texts (J Source)",
+      "year": -950,
+      "endYear": -850,
+      "description": "Many scholars identify the Yahwist (J) source as the earliest literary strand of the Pentateuch, composed in Judah during the early monarchy. This narrative thread, using the divine name Yahweh, includes vivid, anthropomorphic portrayals of God walking in Eden and dining with Abraham.",
+      "wikiSlug": "Jahwist",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ezion-geber",
+      "label": "Ezion-Geber Port",
+      "year": -950,
+      "description": "Solomon reportedly built a fleet at Ezion-Geber on the Gulf of Aqaba, giving the kingdom access to Red Sea trade routes reaching Arabia, East Africa, and possibly India. The site has been tentatively identified with Tell el-Kheleifeh.",
+      "wikiSlug": "Ezion-Geber",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ophir-gold",
+      "label": "Gold of Ophir",
+      "year": -945,
+      "description": "Solomon's fleets reportedly brought gold from Ophir, a location never definitively identified — candidates range from East Africa to India to Arabia. An 8th-century BCE potsherd from Tell Qasile reading 'gold of Ophir' confirms the place name was known in ancient Israel.",
+      "wikiSlug": "Ophir",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-queen-sheba",
+      "label": "Visit of the Queen of Sheba",
+      "year": -940,
+      "description": "The Queen of Sheba reportedly visited Solomon to test his wisdom and exchange lavish gifts. Whether historical or literary, the story reflects real trade connections between Israel and the incense kingdoms of southern Arabia (modern Yemen).",
+      "wikiSlug": "Queen_of_Sheba",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kingdom-split",
+      "label": "Kingdom Splits: Israel and Judah",
+      "year": -930,
+      "description": "After Solomon's death, his son Rehoboam refused to reduce taxation and forced labor. The northern tribes seceded under Jeroboam, creating the Kingdom of Israel. Judah, centered on Jerusalem, remained under the Davidic dynasty.",
+      "wikiSlug": "Jeroboam",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-rehoboam",
+      "label": "Rehoboam of Judah",
+      "year": -930,
+      "endYear": -913,
+      "description": "Solomon's son Rehoboam rejected the northern tribes' plea for lighter burdens with the infamous reply: 'My father disciplined you with whips; I will discipline you with scorpions.' He lost ten of twelve tribes and spent his reign fortifying Judah's borders.",
+      "wikiSlug": "Rehoboam",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jeroboam",
+      "label": "Jeroboam I of Israel",
+      "year": -930,
+      "endYear": -909,
+      "description": "The first king of the breakaway northern kingdom established rival worship centers at Dan and Bethel with golden calf shrines, deliberately breaking Jerusalem's religious monopoly. Biblical authors condemned him for centuries as the king 'who made Israel to sin.'",
+      "wikiSlug": "Jeroboam",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-dan-bethel-shrines",
+      "label": "Rival Shrines at Dan and Bethel",
+      "year": -928,
+      "description": "Jeroboam established cult centers at Dan (in the far north) and Bethel (near the Judahite border) to prevent his subjects from pilgrimaging to Jerusalem. The golden calves he installed there may have been pedestals for Yahweh rather than idol worship.",
+      "wikiSlug": "Golden_calf#Jeroboam's_golden_calves",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-shishak-invasion",
+      "label": "Pharaoh Shishak's Invasion",
+      "year": -925,
+      "description": "Pharaoh Sheshonq I of Egypt (biblical Shishak) invaded both Israel and Judah, raiding Jerusalem's temple treasury. His campaign is recorded both in the Bible and on the Bubastite Portal at Karnak — one of the first events confirmed by both biblical and Egyptian sources.",
+      "wikiSlug": "Shoshenq_I#Campaign_in_Canaan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gezer-calendar",
+      "label": "Gezer Calendar",
+      "year": -925,
+      "description": "This small limestone tablet, found at Gezer, lists the agricultural months of the year in what appears to be a schoolboy's exercise. It is one of the oldest known examples of Hebrew writing, dated to the 10th century BCE.",
+      "wikiSlug": "Gezer_calendar",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-water-engineering",
+      "label": "Israelite Water Systems",
+      "year": -900,
+      "description": "Israelite cities developed sophisticated water systems to survive sieges, including vertical shafts at Hazor, Megiddo, and Gezer that reached underground springs. These engineering projects required precise surveying and organization of large labor forces.",
+      "wikiSlug": "Water_supply_system_in_ancient_Hazor",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-omri-dynasty",
+      "label": "Omri Founds Samaria",
+      "year": -880,
+      "endYear": -841,
+      "description": "King Omri of Israel built the new capital city of Samaria on a strategically chosen hilltop and established a dynasty so prominent that Assyrian records called Israel 'the House of Omri' for over a century — even after his dynasty was overthrown.",
+      "wikiSlug": "Omri",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-samaria-built",
+      "label": "City of Samaria Built",
+      "year": -880,
+      "description": "Omri purchased a hilltop and built Samaria as the northern kingdom's new capital. Excavations revealed impressive ashlar masonry, ivory-decorated palaces, and sophisticated water systems — the first major Israelite city confirmed by archaeology.",
+      "wikiSlug": "Samaria_(ancient_city)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ahab-king",
+      "label": "Ahab and the Omride Kingdom",
+      "year": -874,
+      "endYear": -853,
+      "description": "Omri's son Ahab made Israel a significant regional power, building fortified cities at Megiddo, Hazor, and Gezer. The Kurkh Monolith credits Ahab with fielding 2,000 chariots and 10,000 infantry at Qarqar — the largest chariot force in the anti-Assyrian coalition.",
+      "wikiSlug": "Ahab",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jezebel",
+      "label": "Jezebel, Queen of Israel",
+      "year": -874,
+      "endYear": -841,
+      "description": "The Phoenician princess Jezebel married Ahab and promoted Baal worship in Israel, drawing fierce opposition from the prophet Elijah. The biblical portrait of her as a wicked queen reflects the deeper conflict between Canaanite polytheism and Yahwist exclusivism.",
+      "wikiSlug": "Jezebel",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-elijah",
+      "label": "Elijah the Prophet",
+      "year": -870,
+      "endYear": -850,
+      "description": "Elijah challenged the prophets of Baal on Mount Carmel in one of the Bible's most dramatic scenes, demanding Israel choose between Yahweh and Baal. His uncompromising monotheism set the template for all later prophetic protest against royal power and foreign religion.",
+      "wikiSlug": "Elijah",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-megiddo-stables",
+      "label": "Megiddo's Monumental Buildings",
+      "year": -870,
+      "description": "Major construction at Megiddo during the Omride period included what were once identified as 'Solomon's Stables' — large pillared buildings now dated to Ahab's reign. Whether stables, storehouses, or barracks, they reflect significant state investment in a strategic fortress city.",
+      "wikiSlug": "Megiddo#Iron_Age",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mount-carmel",
+      "label": "Contest on Mount Carmel",
+      "year": -865,
+      "description": "According to the biblical account, Elijah challenged 450 prophets of Baal to a contest: both sides would prepare a sacrifice, and the god who sent fire from heaven was the true God. Yahweh answered; Baal did not. Elijah then ordered the Baal prophets killed.",
+      "wikiSlug": "Elijah_on_Mount_Carmel",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-qarqar",
+      "label": "Battle of Qarqar",
+      "year": -853,
+      "description": "A coalition of twelve kings including Ahab of Israel and Hadadezer of Damascus fought Shalmaneser III of Assyria at Qarqar on the Orontes River. The battle — unmentioned in the Bible — halted Assyrian expansion into the Levant for over a decade.",
+      "wikiSlug": "Battle_of_Qarqar",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-elisha",
+      "label": "Elisha the Prophet",
+      "year": -850,
+      "endYear": -800,
+      "description": "Elijah's successor Elisha continued the prophetic struggle against the Omride dynasty, working miracles according to biblical tradition and playing kingmaker in both Israel and Aram-Damascus. He reportedly instigated Jehu's bloody coup.",
+      "wikiSlug": "Elisha",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-arad-temple",
+      "label": "Arad Temple",
+      "year": -850,
+      "endYear": -700,
+      "description": "A Yahweh temple at the fortress of Arad in the Negev, complete with a holy of holies and two incense altars, was deliberately dismantled — probably during Hezekiah's centralization reforms. It proves that legitimate Yahweh worship existed outside Jerusalem before the reforms.",
+      "wikiSlug": "Arad#Israelite_period",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-jehu-coup",
+      "label": "Jehu's Coup and Dynasty",
+      "year": -841,
+      "endYear": -753,
+      "description": "The military commander Jehu overthrew the Omride dynasty in a violent coup, killing King Joram, Jezebel, and all of Ahab's descendants along with the Baal worshippers. The Black Obelisk of Shalmaneser III depicts Jehu prostrating before the Assyrian king — the only known image of an Israelite king.",
+      "wikiSlug": "Jehu",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-black-obelisk",
+      "label": "Black Obelisk of Shalmaneser III",
+      "year": -841,
+      "description": "This Assyrian monument shows 'Jehu, son of Omri' bowing before Shalmaneser III and offering tribute. It is the only surviving contemporary depiction of an Israelite or Judahite king, though the identification has been debated.",
+      "wikiSlug": "Black_Obelisk_of_Shalmaneser_III",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mesha-stele",
+      "label": "Mesha Stele (Moabite Stone)",
+      "year": -840,
+      "description": "King Mesha of Moab erected a victory stele celebrating his revolt against Israelite rule, mentioning the 'House of Omri' and possibly the 'House of David.' It is one of the most important extrabiblical inscriptions confirming Israelite history.",
+      "wikiSlug": "Mesha_Stele",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tel-dan-stele",
+      "label": "Tel Dan Stele",
+      "year": -835,
+      "description": "A victory stele discovered in northern Israel in 1993, erected by an Aramean king (probably Hazael of Damascus), contains the phrase 'House of David' — the earliest known reference to David outside the Bible and a landmark in biblical archaeology.",
+      "wikiSlug": "Tel_Dan_stele",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kuntillet-ajrud",
+      "label": "Kuntillet Ajrud Inscriptions",
+      "year": -800,
+      "description": "Inscriptions found at this remote desert site in the Sinai mention 'Yahweh of Samaria and his Asherah,' suggesting early Israelite religion included a divine consort for Yahweh. This challenges the biblical narrative of pure monotheism and reveals a more complex religious landscape.",
+      "wikiSlug": "Kuntillet_Ajrud",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hebrew-calendar",
+      "label": "Hebrew Calendar Development",
+      "year": -800,
+      "description": "The Israelites developed a lunisolar calendar coordinating agricultural seasons with lunar months, adding an intercalary month to keep festivals aligned with harvests. The Gezer Calendar, a 10th-century BCE inscription listing agricultural seasons, is one of the oldest known Hebrew texts.",
+      "wikiSlug": "Hebrew_calendar",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-jeroboam-ii",
+      "label": "Jeroboam II's Prosperity",
+      "year": -786,
+      "endYear": -746,
+      "description": "Under Jeroboam II, the northern kingdom experienced its greatest territorial expansion and economic prosperity, recovering all the land lost to Aram-Damascus. The prophets Amos and Hosea saw this wealth as breeding corruption and social injustice.",
+      "wikiSlug": "Jeroboam_II",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-amos",
+      "label": "Amos the Prophet",
+      "year": -760,
+      "description": "A Judahite shepherd called to prophesy in Israel, Amos was the first of the 'writing prophets' whose oracles were preserved as a biblical book. He condemned social injustice, religious hypocrisy, and the exploitation of the poor — radical ideas for an ancient monarchy.",
+      "wikiSlug": "Amos_(prophet)",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-prophetic-literature",
+      "label": "Rise of Written Prophecy",
+      "year": -760,
+      "endYear": -586,
+      "description": "Beginning with Amos around 760 BCE, prophetic oracles were preserved in writing for the first time, creating a literary genre unique to Israel. These texts — Amos, Hosea, Isaiah, Micah, Jeremiah, and others — transformed prophecy from oral performance into scripture.",
+      "wikiSlug": "Nevi%27im",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hosea",
+      "label": "Hosea the Prophet",
+      "year": -750,
+      "description": "Hosea used his troubled marriage as a metaphor for God's relationship with unfaithful Israel. His prophecies, among the earliest preserved in written form, introduced the concept of divine love as more powerful than divine wrath.",
+      "wikiSlug": "Hosea",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-isaiah",
+      "label": "Isaiah the Prophet",
+      "year": -740,
+      "endYear": -700,
+      "description": "Isaiah of Jerusalem, the most literary of the Hebrew prophets, advised kings during the Assyrian crisis. His vision of a future 'prince of peace' and a world where nations 'beat their swords into plowshares' became foundational texts for both Judaism and Christianity.",
+      "wikiSlug": "Isaiah",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tiglath-pileser-tribute",
+      "label": "Assyrian Tribute Imposed",
+      "year": -738,
+      "description": "Tiglath-Pileser III of Assyria imposed tribute on King Menahem of Israel, marking the beginning of direct Assyrian interference in Israelite affairs. Menahem raised the tribute by taxing every wealthy man in Israel 50 shekels of silver.",
+      "wikiSlug": "Menahem",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-syro-ephraimite-war",
+      "label": "Syro-Ephraimite War",
+      "year": -735,
+      "description": "Israel and Aram-Damascus attacked Judah to force it into an anti-Assyrian coalition. King Ahaz of Judah appealed to Tiglath-Pileser III for help, making Judah an Assyrian vassal — a fateful decision that preserved Judah but at the cost of its independence.",
+      "wikiSlug": "Syro-Ephraimite_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-micah",
+      "label": "Micah the Prophet",
+      "year": -730,
+      "description": "The prophet Micah, a rural Judahite contemporary of Isaiah, denounced the ruling class for land-grabbing and oppression. His summary of religion — 'act justly, love mercy, walk humbly with your God' — became one of the most quoted verses in the Hebrew Bible.",
+      "wikiSlug": "Micah_(prophet)",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-fall-samaria",
+      "label": "Fall of Samaria — End of Israel",
+      "year": -722,
+      "description": "The Assyrians under Shalmaneser V and Sargon II conquered Samaria after a three-year siege, deporting 27,290 Israelites according to Assyrian records. The northern Kingdom of Israel ceased to exist, and its deported population became the legendary 'Lost Ten Tribes.'",
+      "wikiSlug": "Siege_of_Samaria_(ancient)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lost-ten-tribes",
+      "label": "The Lost Ten Tribes",
+      "year": -722,
+      "description": "Assyria's deportation of Israel's population and resettlement of foreigners in Samaria created an enduring mystery. The fate of the ten northern tribes inspired centuries of speculation, with claimed identifications ranging from the British Isles to Ethiopia to Japan.",
+      "wikiSlug": "Ten_Lost_Tribes",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-samaritan-origins",
+      "label": "Origins of the Samaritans",
+      "year": -720,
+      "description": "Assyria resettled foreign populations in the former northern kingdom, who blended with the remaining Israelites to create the Samaritans. They worshipped Yahweh but centered their religion on Mount Gerizim rather than Jerusalem, creating a rivalry that lasted centuries.",
+      "wikiSlug": "Samaritans#Origins",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hezekiah",
+      "label": "Hezekiah's Reign and Reforms",
+      "year": -715,
+      "endYear": -686,
+      "description": "Hezekiah of Judah centralized worship in Jerusalem, destroyed local shrines and the bronze serpent attributed to Moses, and fortified the kingdom against Assyria. He is one of only two kings the Bible praises without reservation.",
+      "wikiSlug": "Hezekiah",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-siloam-tunnel",
+      "label": "Hezekiah's Siloam Tunnel",
+      "year": -701,
+      "description": "Hezekiah's engineers carved a 533-meter (1,750-foot) tunnel through solid rock to bring water from the Gihon Spring inside Jerusalem's walls before the Assyrian siege. The Siloam Inscription, found inside the tunnel, describes the two teams meeting in the middle.",
+      "wikiSlug": "Siloam_tunnel",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sennacherib-invasion",
+      "label": "Sennacherib's Invasion of Judah",
+      "year": -701,
+      "description": "The Assyrian king Sennacherib invaded Judah, conquering 46 walled cities and besieging Jerusalem. His own records boast of shutting Hezekiah up 'like a caged bird' but never claim to have taken the city — one of the Bible's most debated near-misses.",
+      "wikiSlug": "Sennacherib%27s_campaign_in_Judah",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lachish-siege",
+      "label": "Siege of Lachish",
+      "year": -701,
+      "description": "Sennacherib's siege and destruction of Lachish, Judah's second-largest city, was depicted in a dramatic series of reliefs now in the British Museum. Archaeological excavation confirmed the Assyrian siege ramp, arrowheads, and mass burial — the biblical and Assyrian accounts match remarkably well.",
+      "wikiSlug": "Siege_of_Lachish",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lmlk-seals",
+      "label": "LMLK Royal Seal Impressions",
+      "year": -700,
+      "description": "Over 2,000 jar handles stamped 'LMLK' (lamelekh, 'belonging to the king') have been found across Judah, marking royal provisions stored in four administrative centers. They reflect a sophisticated bureaucratic system for managing agricultural taxation and military supply.",
+      "wikiSlug": "LMLK_seal",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-covenant-theology",
+      "label": "Covenant Theology",
+      "year": -700,
+      "description": "The concept of a covenant (brit) between Yahweh and Israel — 'I will be your God, you will be my people' — became the organizing principle of Israelite religion. Modeled on Hittite and Assyrian treaty forms, it made religious obligation a contract with mutual obligations.",
+      "wikiSlug": "Covenant_(biblical)",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ten-commandments",
+      "label": "The Ten Commandments",
+      "year": -700,
+      "description": "The Decalogue, traditionally attributed to Moses at Sinai, reached its canonical form during the monarchic period. The two slightly different versions in Exodus and Deuteronomy suggest an evolving tradition, but the ethical core — prohibitions on murder, theft, adultery, and false witness — became foundational to Western legal and moral thought.",
+      "wikiSlug": "Ten_Commandments",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-manasseh",
+      "label": "Manasseh's Long Reign",
+      "year": -686,
+      "endYear": -642,
+      "description": "Manasseh ruled Judah for 55 years — the longest reign of any Judahite king — as a loyal Assyrian vassal. The Bible condemns him as the worst king in Judah's history for reintroducing pagan worship and shedding 'so much innocent blood that he filled Jerusalem from end to end.'",
+      "wikiSlug": "Manasseh_of_Judah",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-monotheism-development",
+      "label": "Emergence of Strict Monotheism",
+      "year": -650,
+      "endYear": -550,
+      "description": "Israelite religion evolved from monolatry (worshipping one god while acknowledging others exist) to strict monotheism (only one God exists) during the late monarchy and exile periods. Inscriptions from Kuntillet Ajrud mentioning 'Yahweh and his Asherah' show that earlier Israelite religion was more diverse than the Bible implies.",
+      "wikiSlug": "Origins_of_Judaism",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ketef-hinnom",
+      "label": "Ketef Hinnom Silver Scrolls",
+      "year": -650,
+      "description": "Two tiny silver scrolls found in a tomb near Jerusalem contain the Priestly Blessing from Numbers 6:24-26 ('The Lord bless you and keep you'). Dating to the late 7th century BCE, they are the oldest known fragments of a biblical text.",
+      "wikiSlug": "Ketef_Hinnom",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jeremiah",
+      "label": "Jeremiah the Prophet",
+      "year": -626,
+      "endYear": -586,
+      "description": "Jeremiah prophesied during Judah's final decades, urging submission to Babylon as God's will and warning that Jerusalem would be destroyed. Persecuted, imprisoned, and thrown into a cistern, he witnessed the very catastrophe he had predicted.",
+      "wikiSlug": "Jeremiah",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-josiah-reforms",
+      "label": "Josiah's Religious Reforms",
+      "year": -621,
+      "description": "King Josiah launched sweeping religious reforms after a 'Book of the Law' was discovered during Temple renovations — likely an early version of Deuteronomy. He centralized all worship at Jerusalem, destroyed rural shrines, and reinstituted Passover. These reforms reshaped Israelite religion permanently.",
+      "wikiSlug": "Josiah",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-deuteronomy",
+      "label": "Discovery of Deuteronomy",
+      "year": -621,
+      "description": "The 'Book of the Law' found in the Temple during Josiah's renovations is widely identified by scholars as the core of Deuteronomy. Whether genuinely ancient or composed to justify Josiah's reforms, it became the theological foundation for biblical religion — one God, one temple, one people.",
+      "wikiSlug": "Book_of_Deuteronomy",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-passover-reinstituted",
+      "label": "Passover Reinstituted",
+      "year": -621,
+      "description": "Josiah held a national Passover celebration in Jerusalem — the first centralized observance since the judges, according to the biblical account. The festival, commemorating the Exodus from Egypt, became one of Judaism's three pilgrimage holidays.",
+      "wikiSlug": "Passover",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-deuteronomistic-history",
+      "label": "Deuteronomistic History Compiled",
+      "year": -620,
+      "endYear": -560,
+      "description": "The sweeping history from Joshua through Kings was compiled during and after Josiah's reign, interpreting Israel's entire history through the lens of covenant loyalty: obedience brought prosperity, disobedience brought disaster. This theological framework shaped how the Bible tells history.",
+      "wikiSlug": "Deuteronomistic_history",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-battle-megiddo-josiah",
+      "label": "Battle of Megiddo — Death of Josiah",
+      "year": -609,
+      "description": "Josiah was killed at Megiddo while attempting to block Pharaoh Necho II's march north to support the crumbling Assyrian Empire. His death shattered Judah's independence and ended the religious reforms. The blow was so devastating that the prophet Zechariah was still mourning it centuries later.",
+      "wikiSlug": "Battle_of_Megiddo_(609_BC)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jehoiakim",
+      "label": "Jehoiakim — Egyptian and Babylonian Vassal",
+      "year": -609,
+      "endYear": -598,
+      "description": "Pharaoh Necho II installed Jehoiakim as king of Judah, but after Babylon's victory at Carchemish in 605 BCE, Jehoiakim switched allegiance to Nebuchadnezzar. His later rebellion brought Babylonian retaliation and sealed Judah's fate.",
+      "wikiSlug": "Jehoiakim",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-first-deportation",
+      "label": "First Babylonian Deportation",
+      "year": -597,
+      "description": "Nebuchadnezzar besieged Jerusalem and deported King Jehoiachin, the royal family, and thousands of elite Judahites to Babylon. The Babylonian Chronicles confirm this siege and record Jehoiachin's rations in Babylonian archives — matching the biblical account precisely.",
+      "wikiSlug": "Siege_of_Jerusalem_(597_BC)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zedekiah",
+      "label": "Zedekiah, Last King of Judah",
+      "year": -597,
+      "endYear": -586,
+      "description": "Nebuchadnezzar installed Zedekiah as a puppet king, but he foolishly rebelled in 589 BCE. The result was a brutal 18-month siege that ended with the destruction of Jerusalem, the burning of the Temple, and Zedekiah being forced to watch his sons' execution before being blinded.",
+      "wikiSlug": "Zedekiah",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lachish-letters",
+      "label": "Lachish Letters",
+      "year": -588,
+      "description": "Ostraca (inscribed pottery fragments) found at Lachish contain military correspondence from the final months before Babylon's conquest, including the chilling report: 'We are watching for the fire signals of Lachish... we cannot see Azekah.' They capture Judah's last days in real time.",
+      "wikiSlug": "Lachish_letters",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-fall-jerusalem",
+      "label": "Fall of Jerusalem and Destruction of the First Temple",
+      "year": -586,
+      "description": "Nebuchadnezzar's forces breached Jerusalem's walls, burned the Temple Solomon had built four centuries earlier, and deported most of the remaining population to Babylon. The destruction of the Temple became the defining catastrophe of Jewish history, commemorated annually on Tisha B'Av.",
+      "wikiSlug": "Siege_of_Jerusalem_(587_BC)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    }
+  ]
+}
