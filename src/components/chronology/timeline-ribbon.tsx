@@ -69,8 +69,10 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
     return () => el.removeEventListener('wheel', onWheel)
   }, [scrollRef])
 
-  // Auto-scroll to active civ
+  // Auto-scroll to active civ (also re-fires on ribbonMode change so
+  // returning from chain-pills view scrolls the ribbon to the right spot)
   useEffect(() => {
+    if (ribbonMode !== 'timeline') return
     if (!activeCivId || !scrollRef.current) return
     const civ = SORTED_CIVS.find(c => c.id === activeCivId)
     if (!civ) return
@@ -87,7 +89,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
       // Desktop: smooth scroll on click
       container.scrollTo({ left: barStartX - containerWidth / 2, behavior: 'smooth' })
     }
-  }, [activeCivId, yearToX, mode, scrollRef])
+  }, [activeCivId, yearToX, mode, scrollRef, ribbonMode])
 
   const regionColWidth = 62
   const fadeWidth = 24
