@@ -160,7 +160,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
             {soloChain.label}
           </span>
           <span className="text-[11px] text-foreground/40 mr-1">
-            {displayCivs.length} TL{displayCivs.length !== 1 ? 's' : ''}
+            {displayCivs.length} civ{displayCivs.length !== 1 ? 's' : ''}
           </span>
           <button
             className="text-[11px] font-bold uppercase tracking-wider opacity-40 cursor-pointer px-2 py-1"
