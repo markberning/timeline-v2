@@ -22,6 +22,7 @@ import {
   getCivChain,
   type GlobeCiv2,
 } from '@/lib/globe2-data'
+import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import styles from './globe2.module.css'
 
 /* ── helpers ─────────────────────────────────────────────────── */
@@ -897,16 +898,19 @@ export default function Globe2() {
 
       {/* ── Title block ───────────────────────────────────── */}
       <div className={styles.titleBlock}>
-        <div className={`${styles.eyebrow} font-[family-name:var(--font-geist-sans)]`}>
+        <div className={styles.eyebrow}>
           Stuff Happened
         </div>
         <div className={`${styles.title} font-[family-name:var(--font-lora)]`}>
           Historica
         </div>
-        <div className={`${styles.viewToggle} font-[family-name:var(--font-geist-sans)]`}>
+        <nav className={`${styles.viewToggle} font-[family-name:var(--font-lora)]`}>
           <a href="/" className={styles.viewBtn}>List View</a>
           <span className={styles.viewBtnActive}>Globe View</span>
-        </div>
+        </nav>
+      </div>
+      <div className={styles.darkToggle}>
+        <DarkModeToggle />
       </div>
 
       {/* ── Hover tooltip ─────────────────────────────────── */}
