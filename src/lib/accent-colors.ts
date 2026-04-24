@@ -66,8 +66,9 @@ const CHAIN_COLORS: Record<string, AccentColors> = {
 // edge cases where the chain color needs to be explicitly overridden.
 // Empty by default; prefer the chain color.
 const TL_OVERRIDES: Record<string, AccentColors> = {
-  // Near East orphan — amber family, darker shade to distinguish from Mesopotamian chain
+  // Near East orphans — amber family, distinct shades
   'phoenicia':              { base: '#b45309', text: '#92400e', badge: '#a16207' },
+  'ancient-israel':         { base: '#ca8a04', text: '#854d0e', badge: '#a16207' },
   // Oceania — sky/teal, unique region
   'polynesian-voyagers':    { base: '#0ea5e9', text: '#0369a1', badge: '#0284c7' },
 }

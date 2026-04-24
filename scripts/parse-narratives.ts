@@ -131,6 +131,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'maurya-empire.md': 'maurya-empire',
   'phoenicia.md': 'phoenicia',
   'polynesian-voyagers.md': 'polynesian-voyagers',
+  'ancient-israel.md': 'ancient-israel',
 }
 
 function slugify(title: string): string {
