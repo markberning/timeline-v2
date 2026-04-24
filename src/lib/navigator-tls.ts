@@ -42,7 +42,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609, hasContent: true },
   { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178, hasContent: true },
   { id: 'phoenicia', label: 'Phoenicia', subtitle: "Lebanon's alphabet-inventing sea traders", region: 'near-east', startYear: -1500, endYear: -300, hasContent: true },
-  { id: 'ancient-israel', label: 'Ancient Israel', subtitle: "the Hebrew kingdoms and the First Temple", region: 'near-east', startYear: -1020, endYear: -586 },
+  { id: 'ancient-israel', label: 'Ancient Israel', subtitle: "the Hebrew kingdoms and the First Temple", region: 'near-east', startYear: -1020, endYear: -586, hasContent: true },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651, hasContent: true },
   { id: 'umayyad-caliphate', label: 'Rashidun & Umayyad', subtitle: "Islam's century of conquest, Medina to Damascus", region: 'near-east', startYear: 632, endYear: 750 },
   { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258 },
