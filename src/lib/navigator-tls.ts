@@ -55,7 +55,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181, hasContent: true },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -2055, endYear: -1069, hasContent: true },
   { id: 'kingdom-of-kush', label: 'Kingdom of Kush', subtitle: "Sudan's Black pharaohs", region: 'africa', startYear: -1070, endYear: 350, hasContent: true },
-  { id: 'carthage', label: 'Carthage', subtitle: "Hannibal's Mediterranean trade empire", region: 'africa', startYear: -814, endYear: -146 },
+  { id: 'carthage', label: 'Carthage', subtitle: "Hannibal's Mediterranean trade empire", region: 'africa', startYear: -814, endYear: -146, hasContent: true },
   { id: 'late-egypt', label: 'Late Egypt', subtitle: 'pharaohs under foreign rule', region: 'africa', startYear: -664, endYear: -332 },
   { id: 'kingdom-of-aksum', label: 'Kingdom of Aksum', subtitle: "Ethiopia's Red Sea trade empire", region: 'africa', startYear: 80, endYear: 940 },
   { id: 'mali-empire', label: 'Mali Empire', subtitle: "west Africa's gold, salt, and Mansa Musa", region: 'africa', startYear: 1226, endYear: 1670 },
@@ -87,7 +87,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'rise-of-china', label: 'Rise of China', subtitle: "Deng's reforms to superpower", region: 'asia', startYear: 1976, endYear: 2024 },
 
   // ── ASIA (Steppe) ──
-  { id: 'scythians', label: 'Scythians', subtitle: "gold-clad horse nomads of the Pontic steppe", region: 'asia', startYear: -800, endYear: -200 },
+  { id: 'scythians', label: 'Scythians', subtitle: "gold-clad horse nomads of the Pontic steppe", region: 'asia', startYear: -800, endYear: -200, hasContent: true },
   { id: 'xiongnu-huns', label: 'Xiongnu & Huns', subtitle: "the steppe rivals who haunted China and Rome", region: 'asia', startYear: -209, endYear: 469 },
   { id: 'gokturk-khaganate', label: 'Göktürk Khaganate', subtitle: "the first people to call themselves Turk", region: 'asia', startYear: 552, endYear: 744 },
   { id: 'mongol-empire', label: 'Mongol Empire', subtitle: "Genghis Khan's conquest of Eurasia", region: 'asia', startYear: 1206, endYear: 1368 },
