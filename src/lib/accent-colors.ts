@@ -65,7 +65,12 @@ const CHAIN_COLORS: Record<string, AccentColors> = {
 // Per-TL overrides — for TLs that are not yet part of any chain, or
 // edge cases where the chain color needs to be explicitly overridden.
 // Empty by default; prefer the chain color.
-const TL_OVERRIDES: Record<string, AccentColors> = {}
+const TL_OVERRIDES: Record<string, AccentColors> = {
+  // Near East orphan — amber family, darker shade to distinguish from Mesopotamian chain
+  'phoenicia':              { base: '#b45309', text: '#92400e', badge: '#a16207' },
+  // Oceania — sky/teal, unique region
+  'polynesian-voyagers':    { base: '#0ea5e9', text: '#0369a1', badge: '#0284c7' },
+}
 
 const DEFAULT_COLORS: AccentColors = { base: '#6b7280', text: '#4b5563', badge: '#6b7280' }
 
