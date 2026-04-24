@@ -4,9 +4,11 @@ import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 interface ChronologyHeaderProps {
   isDesktop: boolean
+  ribbonMode: 'timeline' | 'chains'
+  onRibbonModeChange: (mode: 'timeline' | 'chains') => void
 }
 
-export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
+export function ChronologyHeader({ isDesktop, ribbonMode, onRibbonModeChange }: ChronologyHeaderProps) {
   return (
     <header
       className="flex items-start justify-between shrink-0"
@@ -42,6 +44,51 @@ export function ChronologyHeader({ isDesktop }: ChronologyHeaderProps) {
             Globe View
           </a>
         </nav>
+
+        {/* Timeline / Chains slider toggle */}
+        <div
+          className="font-[family-name:var(--font-geist-sans)] relative flex items-center"
+          style={{ marginTop: 10, borderRadius: 6, backgroundColor: 'color-mix(in srgb, var(--foreground) 8%, transparent)', padding: 2 }}
+        >
+          {/* Sliding background */}
+          <div
+            className="absolute transition-transform duration-200 ease-in-out"
+            style={{
+              width: 'calc(50% - 2px)',
+              height: 'calc(100% - 4px)',
+              top: 2,
+              left: 2,
+              borderRadius: 4,
+              backgroundColor: 'var(--foreground)',
+              opacity: 0.12,
+              transform: ribbonMode === 'chains' ? 'translateX(100%)' : 'translateX(0)',
+            }}
+          />
+          <button
+            className="relative z-[1] flex-1 text-center cursor-pointer py-1 px-3"
+            style={{
+              fontSize: 11,
+              fontWeight: 600,
+              letterSpacing: '0.05em',
+              color: ribbonMode === 'timeline' ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 40%, transparent)',
+            }}
+            onClick={() => onRibbonModeChange('timeline')}
+          >
+            Timelines
+          </button>
+          <button
+            className="relative z-[1] flex-1 text-center cursor-pointer py-1 px-3"
+            style={{
+              fontSize: 11,
+              fontWeight: 600,
+              letterSpacing: '0.05em',
+              color: ribbonMode === 'chains' ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 40%, transparent)',
+            }}
+            onClick={() => onRibbonModeChange('chains')}
+          >
+            Chains
+          </button>
+        </div>
       </div>
       <DarkModeToggle />
     </header>

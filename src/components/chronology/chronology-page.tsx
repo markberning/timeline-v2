@@ -52,7 +52,7 @@ export function ChronologyPage() {
 
   return (
     <div className="flex flex-col h-dvh bg-background text-foreground">
-      <ChronologyHeader isDesktop={isDesktop} />
+      <ChronologyHeader isDesktop={isDesktop} ribbonMode={ribbonMode} onRibbonModeChange={setRibbonMode} />
       <CivIconsStrip />
 
       <TimelineRibbon

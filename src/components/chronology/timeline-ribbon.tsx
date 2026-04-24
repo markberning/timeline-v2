@@ -106,7 +106,6 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
         <ChainPills
           soloChainId={soloChainId}
           onChainSolo={onChainSolo}
-          onModeChange={onRibbonModeChange}
         />
       </div>
     )
@@ -114,21 +113,6 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
 
   return (
     <div className="border-y border-foreground/10 shrink-0 relative">
-      {/* Mode toggle — sits in the region-label column on mobile */}
-      {mode === 'swim' && (
-        <button
-          className="absolute left-0 top-0 z-30 flex items-center justify-center cursor-pointer"
-          style={{ width: regionColWidth, height: TICK_AXIS_HEIGHT }}
-          onClick={() => onRibbonModeChange('chains')}
-          aria-label="Show chains"
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-40">
-            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-          </svg>
-        </button>
-      )}
-
       {/* Region labels + fade */}
       {mode === 'swim' && (
         <div
@@ -307,31 +291,12 @@ const CHAIN_PILL_ROW_HEIGHT = 28
 function ChainPills({
   soloChainId,
   onChainSolo,
-  onModeChange,
 }: {
   soloChainId: string | null
   onChainSolo: (id: string | null) => void
-  onModeChange: (mode: 'timeline' | 'chains') => void
 }) {
   return (
     <div className="px-2 py-2">
-      {/* Back toggle */}
-      <div className="flex items-center gap-2 mb-1.5 px-1">
-        <button
-          className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider opacity-40 cursor-pointer"
-          onClick={() => onModeChange('timeline')}
-          aria-label="Show timeline"
-        >
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="15 18 9 12 15 6" />
-          </svg>
-          Timeline
-        </button>
-        <span className="text-[10px] font-bold uppercase tracking-wider opacity-25">·</span>
-        <span className="text-[10px] font-bold uppercase tracking-wider opacity-60">Chains</span>
-      </div>
-
-      {/* Chain pills grouped by region */}
       {CHAINS_BY_REGION.map(({ region, chains }) => (
         <div key={region} className="flex items-center gap-1 mb-1" style={{ minHeight: CHAIN_PILL_ROW_HEIGHT }}>
           <div
@@ -349,7 +314,7 @@ function ChainPills({
               return (
                 <button
                   key={chain.id}
-                  className="rounded-full cursor-pointer transition-all duration-150 whitespace-nowrap"
+                  className="rounded cursor-pointer transition-all duration-150 whitespace-nowrap"
                   style={{
                     padding: '3px 10px',
                     fontSize: 11,
