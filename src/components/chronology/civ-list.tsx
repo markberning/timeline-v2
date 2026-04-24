@@ -188,7 +188,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
             style={{ '--row-color': color } as React.CSSProperties}
             onClick={() => civ.hasContent && (window.location.href = `/${civ.id}/`)}
           >
-            <div className="civ-row-inner pl-4 flex items-center gap-3">
+            <div className="civ-row-inner flex items-center gap-3">
               <div className="flex-1 min-w-0">
                 {/* Chain + position */}
                 <div className="civ-row-chain text-[11px] font-bold uppercase tracking-[0.12em]">
