@@ -3,7 +3,6 @@
 import { useRef, useEffect, useCallback, useMemo } from 'react'
 import { REGION_COLORS, REGION_LABELS } from '@/lib/navigator-tls'
 import { SORTED_CIVS, CIV_CHAIN_MAP, formatYearRange } from '@/lib/chronology-data'
-import { CHAIN_COLORS } from '@/lib/accent-colors'
 import type { NavigatorTl } from '@/lib/navigator-tls'
 import { TL_CHAINS } from '../../../reference-data/tl-chains'
 
@@ -140,9 +139,12 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
     }
   }, [soloChainId, listRef])
 
-  const soloColor = soloChain
-    ? (CHAIN_COLORS[soloChain.id]?.base ?? '#6b7280')
-    : null
+  // Derive region color from the chain's first member
+  const soloColor = useMemo(() => {
+    if (!soloChain) return null
+    const firstTl = SORTED_CIVS.find(c => c.id === soloChain.entries[0]?.timelineId)
+    return firstTl ? REGION_COLORS[firstTl.region] : '#6b7280'
+  }, [soloChain])
 
   return (
     <>

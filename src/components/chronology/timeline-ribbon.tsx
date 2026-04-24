@@ -16,7 +16,6 @@ import {
   packBarsIntoLanes,
   generateTicks,
 } from '@/lib/chronology-data'
-import { CHAIN_COLORS } from '@/lib/accent-colors'
 import type { NavigatorTl } from '@/lib/navigator-tls'
 
 // ── Constants ──
@@ -309,9 +308,8 @@ function ChainPills({
           </div>
           <div className="flex flex-wrap gap-1">
             {chains.map(chain => {
-              const colors = CHAIN_COLORS[chain.id]
               const isActive = chain.id === soloChainId
-              const color = colors?.base ?? REGION_COLORS[region]
+              const color = REGION_COLORS[region]
 
               return (
                 <button
