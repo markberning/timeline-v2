@@ -132,9 +132,12 @@ const NARRATIVE_FILES: Record<string, string> = {
   'phoenicia.md': 'phoenicia',
   'polynesian-voyagers.md': 'polynesian-voyagers',
   'ancient-israel.md': 'ancient-israel',
+  'late-egypt.md': 'late-egypt',
   'maya-civilization.md': 'maya-civilization',
   'carthage.md': 'carthage',
   'scythians.md': 'scythians',
+  'ancient-greece.md': 'ancient-greece',
+  'ancient-rome.md': 'ancient-rome',
 }
 
 function slugify(title: string): string {
