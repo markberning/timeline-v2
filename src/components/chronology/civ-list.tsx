@@ -175,7 +175,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
         const color = REGION_COLORS[civ.region]
         const chainInfo = CIV_CHAIN_MAP.get(civ.id)
         const chainLabel = chainInfo?.chain.shortLabel ?? REGION_LABELS[civ.region]
-        const chainPosition = chainInfo ? `${chainInfo.index + 1}/${chainInfo.total}` : null
+        const chainPosition = chainInfo ? `${chainInfo.index + 1}/${chainInfo.total}` : '1/1'
 
         return (
           <div

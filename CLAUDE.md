@@ -59,10 +59,10 @@ src/
     globe2.tsx                  — D3 orthographic SVG globe: 86 civs, color-coded by region, drag-rotate, tap-hold-drag zoom, spin-to-civ, leader-line labels, timeline scrubber, drawer sidebar, info card with chain position + "Read the full story" button
     globe2.module.css           — CSS module for globe: theme-aware (dark/light), mobile-responsive, matched header with list view
     chronology/
-      chronology-page.tsx       — 'use client' shell: owns activeCivId, responsive breakpoint, wires ribbon ↔ list/detail
+      chronology-page.tsx       — 'use client' shell: owns activeCivId, ribbonMode (timeline|chains), soloChainId; wires ribbon ↔ list/detail
       chronology-header.tsx     — "Stuff Happened" eyebrow + "The Civ Lib" title + dark mode toggle
-      timeline-ribbon.tsx       — horizontal scrollable ribbon: swim-lane mode (mobile, 5 region lanes) + lane-packed mode (desktop)
-      civ-list.tsx              — mobile scrolling list with DOM-only active state (no React re-renders during scroll)
+      timeline-ribbon.tsx       — horizontal scrollable ribbon: swim-lane mode (mobile, 5 region lanes) + lane-packed mode (desktop); toggles to chain-pills view showing 27 chains grouped by region
+      civ-list.tsx              — mobile scrolling list with DOM-only active state (no React re-renders during scroll); chain filter mode reorders to chain succession
       civ-icons-strip.tsx       — decorative civilization icon PNGs between header and ribbon
       detail-pane.tsx           — desktop detail card: civ info (left) + chain grid (right)
       chain-grid.tsx            — desktop: all chains grouped by region in a 3-column grid
@@ -78,7 +78,7 @@ src/
     chronology-data.ts          — sorted civs, chain lookup map, lane-packing algorithm, year formatting
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
-    navigator-tls.ts            — 91 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for 25 shipped TLs)
+    navigator-tls.ts            — 91 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for 31 shipped TLs)
     globe-data.ts               — dead code: polygon territories for old globe.gl globe
     globe2-data.ts              — 86 civilizations for D3 globe: id, name, start/end years, capital [lon,lat], extent polygon, region, summary, cities; plus GLOBE2_GROUPS (10 color-coded region groups), GLOBE_TO_READER mapping (globe civ → reader TL slug), getCivColor(), getReaderSlug(), getCivChain(), and timeline constants
     navigator-themes.ts         — Stone theme constants (warm dark bg, region palette, row height)
@@ -139,7 +139,7 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Stone theme** — the only navigator theme. Warm dark bg `#22201e`, region palette, line-style bars: row 1 colored hairline + dot + name, row 2 faded dates + chain chip, row 3 italic subtitle.
 - **Chain chip** — tagged `data-chain-chip="1"` + `data-chain-id="..."` with `pointer-events: auto` on an otherwise non-interactive row. Tap hit-tested via `elementFromPoint(...).closest('[data-chain-chip]')`.
 - **Subtitles** — every NavigatorTl has a short descriptive+evocative tagline rendered in small italic below the name.
-- **hasContent dimming** — rows with `hasContent: true` (25 shipped TLs) render at full opacity; others at 0.35.
+- **hasContent dimming** — rows with `hasContent: true` (31 shipped TLs) render at full opacity; others at 0.35.
 - **Tap to navigate** — short tap on a `hasContent` row uses `window.location.href` (NOT `router.push`). Client-side React transitions leave iOS Safari's scroll engine stuck; a hard nav discards the page and starts fresh.
 - **Zone toggles** — single tap toggles a zone; double-tap solos it; double-tap again restores all five.
 - **Chain-solo mode** — tapping a row's chain chip solos its chain (see `project_navigator_chain_solo.md` memory and `tl-flow.tsx` `soloChainId` prop). Non-members slide off-screen right and fade; members stack centered, 650ms eased transition. The old "chain pull" animation is gone.
@@ -157,8 +157,9 @@ audits/                         — audit reports from the 5-persona pipeline
   - **Timeline scrubber** — year slider from 5000 BCE to 1700 CE with density waveform. Mobile: taller (96px), slanted era markers, year/count below slider.
   - **Drawer sidebar** — 10 region groups with color + count, search, sticky header + search bar, dimmed-but-clickable items outside current year with explainer text, close button.
   - **Info card** — chain position (e.g. "CHINA 4/12"), civ name, dates, summary, cities, era strip in group color. "Read the full story →" button for shipped TLs.
-  - **Globe ↔ Navigator sync** — 86 globe civs mapped to 91 navigator TLs via `GLOBE_TO_READER` in `globe2-data.ts`. Sub-civs show parent name in parens (e.g. "Silla / Unified Silla (Ancient Korea)"). All 25 shipped TLs reachable from globe.
+  - **Globe ↔ Navigator sync** — 86 globe civs mapped to 91 navigator TLs via `GLOBE_TO_READER` in `globe2-data.ts`. Sub-civs show parent name in parens (e.g. "Silla / Unified Silla (Ancient Korea)"). All 31 shipped TLs reachable from globe.
   - **Matched headers** — both home page and globe share identical header: "STUFF HAPPENED" eyebrow, *Historica* Lora italic title, *List View* / *Globe View* underline toggle, dark mode toggle. Pixel-matched sizes and spacing.
+- **Chain filter (home page)** — header nav has a *Timelines* / *Chains* toggle (italic Lora, underline-on-active, same row as List View / Globe View, separated by pipe). Chains mode replaces the swim-lane ribbon with tappable chain pills grouped by region, colored by region color. Tap a pill to filter the civ list to that chain's members in succession order (not chronological). A chain header bar appears above the list with chain name, civ count, and × dismiss. Swim-lane bars dim when a chain is filtered. Standalone TLs show "1/1" position.
 
 ## Reader Features (planned)
 - Footnotes
@@ -216,7 +217,7 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 1. ✅ early-dynastic-egypt — 8 chapters (~25k words), label "Early Egypt", 68 reference events, ~55 event links, ~209 glossary links, ~20 cross-links, 59 summary bullets, 8 WebP chapter maps (zero redos), full audit + fixes. Covers predynastic through Second Dynasty (-5000 to -2686 BCE).
 2. ✅ old-kingdom-egypt — 8 chapters (~17.7k words), label "Old Kingdom Egypt", 67 reference events, 57 event links, 191 glossary links, 15 cross-links, 66 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers Third Dynasty through First Intermediate Period reunification (-2686 to -2055 BCE). Central thesis: faith converted into engineering, then the engineering collapsed but the ideas survived.
 3. ✅ new-kingdom-egypt — 9 chapters (~17.2k words), label "New Kingdom Egypt", 72 reference events, 68 event links, 196 glossary links, 20 cross-links, 9 WebP chapter maps, full audit + fixes. Covers Middle Kingdom through Bronze Age Collapse (-2055 to -1069 BCE). Central thesis: three reinventions, each more ambitious and more brittle — literary renaissance, chariot empire, monumental superpower, then the Bronze Age took it all away.
-4. late-egypt
+4. ✅ late-egypt — 8 chapters (~16k words), label "Late Egypt", 68 reference events, 68 event links, 193 glossary links, 17 cross-links, 65 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers Saite reunification through Alexander's conquest (-664 to -332 BCE). Central thesis: Egypt refused to die quietly — the Saite Renaissance was genuine, and Egyptians fought Persia for two centuries.
 
 **Nubian Tradition chain** (in progress):
 1. ✅ ancient-nubia — 8 chapters (~24k words), full pipeline, 8 WebP chapter maps. Chain color: ochre/yellow (`nubian-tradition`).
@@ -235,14 +236,14 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 
 **Mesoamerican chain** (in progress):
 1. ✅ olmec-civilization — 8 chapters (~14.5k words), label "Olmec", 68 reference events, 63 event links, 180 glossary links, 13 cross-links, 8 WebP chapter maps, full audit + fixes. Covers Gulf Coast Olmec from modern discovery through Epi-Olmec legacy (-1600 to -100 BCE). Central thesis: Mesoamerica's forgotten founders — colossal heads, rubber, the calendar, writing, zero, the ballgame, and the mother culture debate. Chain color: green (`mesoamerican`).
-2. maya-civilization
+2. ✅ maya-civilization — 8 chapters (~15.9k words), label "Maya", 65 reference events, 70 event links, 220 glossary links, 15 cross-links, 63 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers Preclassic through fall of Tayasal (-1000 to 1697 CE). Central thesis: 2,700 years of city-states that never unified — decentralized competition produced zero, eclipse prediction, and the Americas' only full writing system.
 3. aztec-empire
 
 **Greco-Roman chain** (in progress):
 1. ✅ minoan-civilization — 8 chapters (~17.5k words), label "Minoan", 66 reference events, 61 event links, 201 glossary links, 13 cross-links, 66 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers Neolithic Crete through Subminoan period (-7000 to -1100 BCE) plus modern rediscovery (1878-1952). Central thesis: Europe's first civilization was Cretan, not Greek, reconstructed from pictures and ruins because the language is locked. Chain color: blue (`greco-roman`).
 2. ✅ mycenaean-civilization — 8 chapters (~17.4k words), label "Mycenaean", 67 reference events, 67 event links, 245 glossary links, 17 cross-links, 64 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers shaft graves through Greek Dark Ages (-1600 to -800 BCE). Central thesis: Greece before Greece knew it was Greek — the warriors whose memory became Homer.
-3. ancient-greece
-4. ancient-rome
+3. ✅ ancient-greece — 8 chapters (~19k words), label "Ancient Greece", 98 reference events, 93 event links, 209 glossary links, 17 cross-links, 69 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers Dark Ages through Roman conquest (-800 to -146 BCE). Central thesis: democracy, philosophy, drama, and science were fragile experiments by quarrelsome city-states, not inevitable discoveries.
+4. ✅ ancient-rome — 10 chapters (~18k words), label "Ancient Rome", 102 reference events, 102 event links, 217 glossary links, 16 cross-links, 79 summary bullets, 10 WebP chapter maps, full audit + fixes. Covers founding through fall of the West (-753 to 476 CE). Central thesis: Rome's genius was adoption, not invention — they built a system that held half the known world together for five centuries.
 5. byzantine-empire
 
 **Korean Civilization chain** (in progress):
@@ -258,10 +259,12 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 - ✅ phoenicia — 8 chapters (~16k words), label "Phoenicia", 71 reference events, 69 event links, 192 glossary links, 63 summary bullets, 8 chapter map prompts (maps pending Gemini), full audit + fixes. Covers Levantine coast from Bronze Age through destruction of Carthage (-1500 to -146 BCE). Central thesis: never built an empire — built something more durable: the alphabet, the trade routes, the colonies. Accent color: amber `#b45309`.
 - ✅ polynesian-voyagers — 8 chapters (~16k words), label "Polynesian Voyagers", 70 reference events, 70 event links, 214 glossary links, 67 summary bullets, 8 chapter map prompts (maps pending Gemini), full audit + fixes. Covers Lapita expansion through Polynesian Triangle settlement (-1500 to 1300 CE). Central thesis: the greatest exploration in human history, without metal, writing, compasses, or maps. Accent color: sky `#0ea5e9`.
 - ✅ ancient-israel — 8 chapters (~16k words), label "Ancient Israel", 71 reference events, 71 event links, 199 glossary links, 67 summary bullets, 8 chapter map prompts (maps pending Gemini), full audit + fixes. Covers Hebrew kingdoms from Saul through Babylonian exile (-1020 to -586 BCE). Central thesis: a tiny kingdom in a terrible location that produced the most influential collection of texts in human history. Accent color: gold `#ca8a04`.
+- ✅ carthage — 8 chapters (~13.5k words), label "Carthage", 79 reference events, 75 event links, 191 glossary links, 15 cross-links, 62 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers Dido's founding through destruction (-814 to -146 BCE). Central thesis: a Phoenician colony that outgrew its parent, produced Hannibal, and was so thoroughly destroyed we know it almost entirely through its enemies' words.
+- ✅ scythians — 8 chapters (~15.8k words), label "Scythians", 65 reference events, 65 event links, 200 glossary links, 16 cross-links, 59 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers Pontic steppe nomads from migration through Sarmatian displacement (-800 to -200 BCE). Central thesis: the civilization that didn't build cities — invented mounted warfare, defeated Darius, and left no writing but extraordinary gold art preserved in frozen tombs.
 
 ## Color System
-- **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange (#d97706), Africa = rust red (#b44d3b), Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).
-- **All 18 chain entries contrast-verified**: text on white ≥4.5:1, white on badge ≥3:1 (AA-lg), base on dark `#0a0a0a` ≥4.5:1. Check via the Python script in the accent-colors comment history when adding a new shade.
+- **Region-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same region gets the same accent color — one color per region, no per-chain variations. `getAccentColors(tlId)` looks up the TL's region and returns `{base, text, badge}`. Region colors: Near East = amber `#d97706`, Africa = rust red `#b44d3b`, Asia = violet `#7c3aed`, Europe = blue `#1d4ed8`, Americas = green `#047857`.
+- **Globe groups** (`globe2-data.ts`): 10 color-coded groups for geographic readability on the globe — intentionally more granular than the 5-region accent system (e.g., East Asia red, South Asia violet, SE Asia teal). Separate system, not linked to accent colors.
 - **Category colors**: 8 event categories in `src/lib/categories.ts` with light/dark mode variants.
 
 ## Session Conventions
