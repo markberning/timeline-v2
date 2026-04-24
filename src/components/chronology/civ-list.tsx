@@ -149,8 +149,8 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
       {/* Chain filter header */}
       {soloChain && (
         <div
-          className="flex items-center gap-2 py-2 px-1 mb-1 sticky top-0 z-10"
-          style={{ backgroundColor: 'var(--background)' }}
+          className="flex items-center gap-2 px-1 sticky top-0 z-10 border-b border-foreground/10"
+          style={{ backgroundColor: 'var(--background)', marginTop: -8, paddingTop: 10, paddingBottom: 8 }}
         >
           <div
             className="w-2 h-2 rounded-full shrink-0"
