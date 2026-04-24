@@ -41,7 +41,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539, hasContent: true },
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609, hasContent: true },
   { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178, hasContent: true },
-  { id: 'phoenicia', label: 'Phoenicia', subtitle: "Lebanon's alphabet-inventing sea traders", region: 'near-east', startYear: -1500, endYear: -300 },
+  { id: 'phoenicia', label: 'Phoenicia', subtitle: "Lebanon's alphabet-inventing sea traders", region: 'near-east', startYear: -1500, endYear: -300, hasContent: true },
   { id: 'ancient-israel', label: 'Ancient Israel', subtitle: "the Hebrew kingdoms and the First Temple", region: 'near-east', startYear: -1020, endYear: -586 },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651, hasContent: true },
   { id: 'umayyad-caliphate', label: 'Rashidun & Umayyad', subtitle: "Islam's century of conquest, Medina to Damascus", region: 'near-east', startYear: 632, endYear: 750 },
@@ -126,7 +126,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── AMERICAS & OCEANIA ──
   { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200, hasContent: true },
-  { id: 'polynesian-voyagers', label: 'Polynesian Voyagers', subtitle: "the Pacific's star-navigating wayfinders", region: 'americas', startYear: -1500, endYear: 1300 },
+  { id: 'polynesian-voyagers', label: 'Polynesian Voyagers', subtitle: "the Pacific's star-navigating wayfinders", region: 'americas', startYear: -1500, endYear: 1300, hasContent: true },
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400, hasContent: true },
   { id: 'zapotec-civilization', label: 'Zapotec', subtitle: "Oaxaca's mountaintop scribes", region: 'americas', startYear: -500, endYear: 1521 },
   { id: 'ancestral-puebloans', label: 'Ancestral Puebloans', subtitle: "Mesa Verde and Chaco Canyon's cliff builders", region: 'americas', startYear: -100, endYear: 1300 },
