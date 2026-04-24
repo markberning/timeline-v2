@@ -137,6 +137,9 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 - [zhou-dynasty.md](zhou-dynasty.md) — 9 chapters (1–9)
 - [maurya-empire.md](maurya-empire.md) — 8 chapters (1–8)
 - [qin-dynasty.md](qin-dynasty.md) — 7 chapters (1–7; Ch 8 is a reflection chapter, no map)
+- [maya-civilization.md](maya-civilization.md) — 8 chapters (1–8)
+- [carthage.md](carthage.md) — 8 chapters (1–8; Ch 7 is thematic — trade routes and cultural sites)
+- [scythians.md](scythians.md) — 8 chapters (1–8; Ch 6–7 thematic — warrior culture regions and Pazyryk kurgan sites)
 
 ## Redos
 
