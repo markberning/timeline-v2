@@ -1,0 +1,827 @@
+{
+  "id": "phoenicia",
+  "label": "Phoenicia",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "imageWikiSlug": "Byblos",
+  "pitch": "Every alphabet on Earth traces back to a script invented by Phoenician traders on a narrow strip of Mediterranean coast. The Phoenician Alphabet Invented around 1050 BCE was the single most consequential act of simplification in human history — and the Greeks Adopt Phoenician Alphabet, adding vowels and creating the ancestor of every European script. These same traders founded Carthage (Founding of Carthage), sailed past the Pillars of Hercules to the Founding of Gadir (Cádiz), and may have completed the Circumnavigation of Africa two millennia before anyone else.\n\n🔑 Key Facts:\n• Hiram I of Tyre supplied cedar and craftsmen to King Solomon and built the Temple of Melqart at Tyre, one of the ancient Mediterranean's great religious centers\n• The Tyrian Purple Dye Industry extracted dye from murex sea snails, creating the most prized luxury textile color in the ancient world\n• Hannibal Barca crossed the Alps with war elephants and nearly destroyed Rome at the Battle of Cannae during the Second Punic War\n• Alexander's Siege of Tyre in 332 BCE ended Phoenician independence after a brutal seven-month siege\n\n🤔 Why It Matters: Phoenician trade networks spread not just goods but ideas — their alphabet, Sidonian Glassmaking techniques, and navigational knowledge laid the groundwork for Mediterranean civilization as we know it.\n\n🎲 Wild Card: Hanno's Voyage Down Africa around 500 BCE may have reached modern Cameroon, where his crew reported encountering \"wild people\" covered in hair who threw rocks at them — probably gorillas, making Hanno the first known European to document great apes.",
+  "countryIds": [
+    "422",
+    "788",
+    "760"
+  ],
+  "spans": [
+    {
+      "id": "span-phoenicia-early-phoenicia",
+      "label": "Early Phoenician Cities",
+      "startYear": -1500,
+      "endYear": -1200,
+      "wikiSlug": "Phoenicia",
+      "description": "Independent city-states like Byblos, Sidon, and Tyre emerged as prosperous trading centers under Egyptian suzerainty. Phoenician merchants exported cedar, olive oil, and textiles while developing early alphabetic writing."
+    },
+    {
+      "id": "span-phoenicia-golden-age",
+      "label": "Phoenician Golden Age",
+      "startYear": -1200,
+      "endYear": -842,
+      "wikiSlug": "Phoenicia",
+      "description": "After the Bronze Age Collapse freed them from Egyptian control, Phoenician cities became the dominant maritime traders of the Mediterranean. This era saw the invention of the alphabet, the founding of Carthage, and the expansion of colonies from Spain to North Africa."
+    },
+    {
+      "id": "span-phoenicia-assyrian-babylonian",
+      "label": "Assyrian & Babylonian Domination",
+      "startYear": -842,
+      "endYear": -539,
+      "wikiSlug": "Phoenicia",
+      "description": "Phoenician cities fell under Assyrian and later Babylonian tributary control, paying heavy tribute while retaining limited autonomy. Tyre endured a 13-year siege by Nebuchadnezzar II, and political independence gave way to cultural resilience."
+    },
+    {
+      "id": "span-phoenicia-persian-phoenicia",
+      "label": "Persian Period",
+      "startYear": -539,
+      "endYear": -332,
+      "wikiSlug": "Phoenicia_under_Achaemenid_rule",
+      "description": "Under Achaemenid Persian rule, Phoenician fleets served as the backbone of the Persian navy at battles like Salamis. The cities prospered through trade and relative autonomy until Alexander the Great's siege of Tyre ended Phoenician independence."
+    },
+    {
+      "id": "span-phoenicia-carthage",
+      "label": "Carthage",
+      "startYear": -814,
+      "endYear": -146,
+      "wikiSlug": "Carthage",
+      "description": "Founded by Tyrian colonists, Carthage grew into the dominant power of the western Mediterranean with a vast trade network and formidable navy. Its three wars against Rome culminated in the city's total destruction in 146 BCE."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-byblos-papyrus-hub",
+      "label": "Byblos as Papyrus Entrepôt",
+      "year": -1500,
+      "description": "Byblos became the ancient world's clearinghouse for Egyptian papyrus, re-exporting it across the Mediterranean so thoroughly that the Greeks named the city 'Byblos' after the material — giving us the words 'biblos' (book) and ultimately 'Bible.'",
+      "wikiSlug": "Byblos",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-byblos-egyptian-trade",
+      "label": "Byblos–Egypt Trade Flourishes",
+      "year": -1450,
+      "description": "Byblos became a major hub exporting cedar wood, olive oil, and wine to Egypt in exchange for papyrus and gold.",
+      "wikiSlug": "Byblos",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-abimilki-tyre",
+      "label": "Abimilki of Tyre",
+      "year": -1350,
+      "endYear": -1335,
+      "description": "King of Tyre who wrote Amarna letters to Pharaoh Akhenaten, documenting Phoenician politics under Egyptian suzerainty.",
+      "wikiSlug": "Abimilki",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ugaritic-alphabet",
+      "label": "Ugaritic Cuneiform Alphabet",
+      "year": -1300,
+      "description": "The city of Ugarit developed one of the earliest alphabetic scripts, a cuneiform alphabet of 30 letters that influenced later Phoenician writing.",
+      "wikiSlug": "Ugaritic_alphabet",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-baal-cycle-texts",
+      "label": "Baal Cycle Myths",
+      "year": -1250,
+      "description": "The Ugaritic Baal Cycle tablets describe the storm god Baal's battles and kingship, reflecting core Canaanite-Phoenician religious beliefs.",
+      "wikiSlug": "Baal_Cycle",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bronze-age-collapse",
+      "label": "Bronze Age Collapse",
+      "year": -1200,
+      "description": "The Sea Peoples destroyed many coastal cities, but Phoenician cities like Tyre and Sidon survived and rose to fill the power vacuum.",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-adonis-cult-byblos",
+      "label": "Adonis Cult at Byblos",
+      "year": -1100,
+      "description": "The worship of Adonis (Phoenician Adon, meaning 'lord') centered at Byblos, where annual festivals mourned his death and celebrated his rebirth — a seasonal dying-and-rising myth linked to the Mesopotamian Tammuz tradition.",
+      "wikiSlug": "Adonis",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-colony-utica",
+      "label": "Founding of Utica",
+      "year": -1101,
+      "description": "One of the earliest Phoenician colonies in North Africa, Utica served as a critical waypoint on western Mediterranean trade routes.",
+      "wikiSlug": "Utica,_Tunisia",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-colony-cadiz",
+      "label": "Founding of Gadir (Cádiz)",
+      "year": -1100,
+      "description": "Phoenicians established Gadir beyond the Pillars of Hercules, their westernmost colony and a gateway to Atlantic tin and silver trade routes.",
+      "wikiSlug": "Cádiz",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-sanchuniathon",
+      "label": "Sanchuniathon's Histories",
+      "year": -1100,
+      "description": "A semi-legendary Phoenician author from Berytus whose writings on Phoenician mythology and cosmogony survive in fragments via later Greek authors.",
+      "wikiSlug": "Sanchuniathon",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-phoenician-shipbuilding",
+      "label": "Phoenician Shipbuilding Innovations",
+      "year": -1000,
+      "description": "Phoenician shipwrights pioneered the keeled hull for open-water stability and mortise-and-tenon joinery for watertight planking, later adding the bireme's second oar bank for speed — innovations that made them the ancient world's dominant naval architects.",
+      "wikiSlug": "Phoenicia#Navigation",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-phoenician-alphabet",
+      "label": "Phoenician Alphabet Invented",
+      "year": -1050,
+      "description": "The Phoenicians developed the first widely-used linear alphabet of 22 consonant letters, ancestor of Greek, Latin, Arabic, and Hebrew scripts.",
+      "wikiSlug": "Phoenician_alphabet",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ahiram-sarcophagus",
+      "label": "Ahiram Sarcophagus Inscription",
+      "year": -1000,
+      "description": "The sarcophagus of King Ahiram of Byblos bears one of the oldest known inscriptions in the Phoenician alphabet.",
+      "wikiSlug": "Ahiram",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-abibaal-king-byblos",
+      "label": "Abibaal of Byblos",
+      "year": -1000,
+      "endYear": -975,
+      "description": "King of Byblos who maintained strong ties with Egypt and left an inscription on a statue of Pharaoh Shoshenq I.",
+      "wikiSlug": "Abibaal",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-astarte-worship",
+      "label": "Cult of Astarte at Sidon",
+      "year": -1000,
+      "description": "Astarte, goddess of love and war, was the chief deity of Sidon. Her worship spread throughout the Mediterranean via Phoenician colonists.",
+      "wikiSlug": "Astarte",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hiram-i",
+      "label": "Hiram I of Tyre",
+      "year": -980,
+      "endYear": -947,
+      "description": "Expanded Tyre into a major maritime power, supplied cedar and craftsmen to King Solomon for the construction of the First Temple in Jerusalem.",
+      "wikiSlug": "Hiram_I",
+      "tier": 2,
+      "tags": [
+        "people",
+        "trade"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-murex-dye-process",
+      "label": "Murex Dye Extraction Perfected",
+      "year": -950,
+      "description": "Phoenician dyers perfected the laborious process of extracting purple pigment from murex sea snails — each shell yielded a single drop of mucus that, exposed to sunlight, turned from yellow-green to deep violet, requiring some 10,000 snails per gram of dye.",
+      "wikiSlug": "Tyrian_purple",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-temple-melqart",
+      "label": "Temple of Melqart at Tyre",
+      "year": -950,
+      "description": "Hiram I built the great temple of Melqart, the patron god of Tyre, which became one of the most important religious centers in the ancient Mediterranean.",
+      "wikiSlug": "Melqart",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-purple-dye-industry",
+      "label": "Tyrian Purple Dye Industry",
+      "year": -950,
+      "description": "Phoenicians perfected the extraction of purple dye from murex sea snails, creating the most prized luxury textile dye in the ancient world.",
+      "wikiSlug": "Tyrian_purple",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-phoenician-ivory-trade",
+      "label": "Phoenician Ivory Carving Trade",
+      "year": -900,
+      "description": "Phoenician artisans became the ancient world's premier ivory carvers, producing intricate plaques, furniture inlays, and luxury objects blending Egyptian and Syrian motifs for export to Assyrian palaces and across the Mediterranean.",
+      "wikiSlug": "Nimrud_ivories",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-glass-blowing-sidon",
+      "label": "Sidonian Glassmaking",
+      "year": -900,
+      "description": "Sidon became the leading center of glass production in the ancient world, pioneering techniques for transparent and colored glass vessels.",
+      "wikiSlug": "Phoenician_glass",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-phoenician-stellar-navigation",
+      "label": "Phoenician Stellar Navigation",
+      "year": -900,
+      "description": "Phoenician sailors navigated by Ursa Minor (the Little Bear) rather than the Great Bear used by Greeks, fixing on the star closest to true north — a technique so identified with them that the Greeks called the constellation 'the Phoenician.'",
+      "wikiSlug": "Ursa_Minor",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-ithobaal-i",
+      "label": "Ithobaal I of Tyre",
+      "year": -887,
+      "endYear": -856,
+      "description": "Priest-king who united Tyre and Sidon under one rule, expanding Phoenician territory and marrying his daughter Jezebel to King Ahab of Israel.",
+      "wikiSlug": "Ithobaal_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jezebel",
+      "label": "Jezebel, Princess of Sidon",
+      "year": -874,
+      "description": "Phoenician princess who married King Ahab of Israel and promoted the worship of Baal, becoming one of the most infamous figures in the Hebrew Bible.",
+      "wikiSlug": "Jezebel",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-assyrian-tribute",
+      "label": "Assyrian Tribute Imposed",
+      "year": -842,
+      "description": "Shalmaneser III of Assyria forced Tyre and Sidon to pay heavy tribute, beginning a long era of Phoenician subjection to Mesopotamian empires.",
+      "wikiSlug": "Shalmaneser_III",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pygmalion-tyre",
+      "label": "Pygmalion of Tyre",
+      "year": -831,
+      "endYear": -785,
+      "description": "King of Tyre whose murder of his uncle the high priest Acerbas drove his sister Dido (Elissa) to flee and found Carthage. Under his long reign Tyre shifted its commercial heartland westward into the Mediterranean.",
+      "wikiSlug": "Pygmalion_of_Tyre",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-carthage-founded",
+      "label": "Founding of Carthage",
+      "year": -814,
+      "description": "Tyrian colonists led by Queen Dido (Elissa) founded Carthage in modern Tunisia, which grew into the dominant power of the western Mediterranean.",
+      "wikiSlug": "Carthage",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-dido-queen-carthage",
+      "label": "Queen Dido (Elissa)",
+      "year": -814,
+      "description": "Legendary Tyrian princess who fled her brother Pygmalion and founded Carthage, becoming one of the most famous figures of Phoenician history and later Roman literature.",
+      "wikiSlug": "Dido",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cadmus-alphabet-greece",
+      "label": "Cadmus Brings the Alphabet to Greece",
+      "year": -800,
+      "description": "In Greek mythology, the Phoenician prince Cadmus founded Thebes and introduced the Phoenician alphabet to Greece — a legend Herodotus endorsed, and modern scholarship confirms the script's Phoenician origin even if the hero is mythological.",
+      "wikiSlug": "Cadmus",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-greek-alphabet-adoption",
+      "label": "Greeks Adopt Phoenician Alphabet",
+      "year": -800,
+      "description": "Greeks adapted the Phoenician alphabet by adding vowels, creating the ancestor of all European scripts including Latin and Cyrillic.",
+      "wikiSlug": "History_of_the_Greek_alphabet",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-nora-stone",
+      "label": "Nora Stone Inscription",
+      "year": -800,
+      "description": "The Nora Stone from Sardinia is the oldest known Phoenician inscription found outside the Levant, recording a military victory and providing the earliest written reference to Sardinia in any language.",
+      "wikiSlug": "Nora_Stone",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-phoenician-colonies-sardinia",
+      "label": "Colonization of Sardinia",
+      "year": -800,
+      "description": "Phoenicians established colonies at Nora, Sulci, and Tharros on Sardinia, exploiting the island's mineral wealth and strategic position.",
+      "wikiSlug": "Phoenician_and_Punic_Sardinia",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-phoenician-tin-trade",
+      "label": "Tin Trade with Britain",
+      "year": -800,
+      "description": "Phoenician merchants sailed to the Cassiterides (possibly Cornwall or Brittany) to obtain tin, essential for bronze production across the Mediterranean.",
+      "wikiSlug": "Cassiterides",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-silver-trade-tartessos",
+      "label": "Silver Trade with Tartessos",
+      "year": -800,
+      "description": "Phoenician merchants traded extensively with Tartessos in southwestern Spain, tapping the Guadalquivir valley's enormous silver deposits — industrial-scale extraction at sites like Rio Tinto produced millions of tons of slag and made Phoenicia the ancient world's silver middleman.",
+      "wikiSlug": "Tartessos",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tophet-carthage",
+      "label": "Tophet of Carthage",
+      "year": -750,
+      "description": "The sacred precinct of Tanit and Baal Hammon in Carthage, a controversial religious site containing thousands of urns with cremated remains.",
+      "wikiSlug": "Tophet",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tophet-child-sacrifice-debate",
+      "label": "Ritual Child Sacrifice Debate",
+      "year": -750,
+      "description": "Greek and Roman authors accused Carthaginians of sacrificing children to Baal Hammon. Modern archaeology confirms infant cremation urns at tophets, but scholars remain divided on whether the remains reflect sacrifice or the ritual burial of children who died naturally.",
+      "wikiSlug": "Religion_in_Carthage#Child_sacrifice",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hiram-ii-tyre",
+      "label": "Hiram II of Tyre",
+      "year": -737,
+      "endYear": -729,
+      "description": "King of Tyre who paid tribute to Assyria's Tiglath-Pileser III, then allied with Damascus against Assyria and lost Sidon — a disastrous gamble that shrank Tyre's territory and ended with his overthrow by Mattan II.",
+      "wikiSlug": "Hiram_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ethbaal-ii-tribute",
+      "label": "Ethbaal II of Tyre",
+      "year": -738,
+      "description": "King of Tyre known only from Assyrian tribute lists — he paid tribute to Tiglath-Pileser III in 738 BCE, illustrating the tight Assyrian grip on Phoenician city-states during the 8th century.",
+      "wikiSlug": "Ithobaal_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-luli-tyre",
+      "label": "Luli of Tyre Flees Sennacherib",
+      "year": -701,
+      "description": "King Luli fled Tyre when Sennacherib of Assyria invaded, though Tyre's island fortress resisted a five-year siege.",
+      "wikiSlug": "Luli_(king)",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kition-phoenician-cyprus",
+      "label": "Phoenician Kition on Cyprus",
+      "year": -700,
+      "description": "By the late 8th century BCE, Kition (modern Larnaca) had become the chief Phoenician city on Cyprus — a copper-rich trading hub with ship sheds for triremes that connected the Levant, Egypt, and the Aegean until Ptolemy I destroyed the dynasty in 312 BCE.",
+      "wikiSlug": "Kition",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-baal-hammon-carthage",
+      "label": "Baal Hammon Worship at Carthage",
+      "year": -700,
+      "description": "Baal Hammon, depicted as a bearded elder with curling ram's horns, rose to become the chief god of Carthage — a weather and fertility deity whose supremacy eclipsed the Tyrian patron Melqart as Carthage grew independent from its mother city.",
+      "wikiSlug": "Baal_Hammon",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-circumnavigation-africa",
+      "label": "Circumnavigation of Africa",
+      "year": -600,
+      "description": "Phoenician sailors commissioned by Pharaoh Necho II reportedly circumnavigated Africa, a feat not repeated for two thousand years.",
+      "wikiSlug": "Phoenician_expedition_of_Africa",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-nebuchadnezzar-siege-tyre",
+      "label": "Nebuchadnezzar's Siege of Tyre",
+      "year": -586,
+      "endYear": -573,
+      "description": "Nebuchadnezzar II besieged island Tyre for 13 years. The city eventually submitted but was never fully captured, maintaining limited autonomy.",
+      "wikiSlug": "Siege_of_Tyre_(586–573_BC)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-alalia",
+      "label": "Battle of Alalia",
+      "year": -535,
+      "description": "A Carthaginian-Etruscan fleet of 120 ships drove Phocaean Greeks from Corsica in a costly naval engagement, securing Carthaginian control of Sardinia and splitting the western Mediterranean into Punic and Etruscan spheres of influence.",
+      "wikiSlug": "Battle_of_Alalia",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mago-i-carthage",
+      "label": "Mago I Founds the Magonid Dynasty",
+      "year": -550,
+      "endYear": -530,
+      "description": "A general who seized power and made Carthage the preeminent Phoenician military state in the western Mediterranean, allying with the Etruscans to expel Greeks from Corsica at Alalia and helping crush Tartessos in Spain.",
+      "wikiSlug": "Mago_I_of_Carthage",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-eshmunazar-ii",
+      "label": "Eshmunazar II of Sidon",
+      "year": -539,
+      "endYear": -525,
+      "description": "His sarcophagus bears a lengthy Phoenician inscription warning against grave robbery, one of the most important Phoenician texts ever found.",
+      "wikiSlug": "Eshmunazar_II",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-phoenician-metalworking",
+      "label": "Phoenician Bronze and Metalwork",
+      "year": -900,
+      "description": "Phoenician smiths excelled at bronze casting, producing bowls, incense stands, and decorated vessels that blended Egyptian and Assyrian motifs — prized across the Mediterranean and exported as diplomatic gifts and luxury goods.",
+      "wikiSlug": "Phoenicia#Art",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-temple-eshmun",
+      "label": "Temple of Eshmun at Sidon",
+      "year": -525,
+      "description": "A grand healing sanctuary dedicated to Eshmun, the Phoenician god of healing, built near Sidon with monumental terraces and pools.",
+      "wikiSlug": "Temple_of_Eshmun",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-phoenician-temple-rites",
+      "label": "Phoenician Sacred Temple Rites",
+      "year": -500,
+      "description": "Greek and Roman writers described ritual sacred prostitution at Phoenician temples of Astarte, though modern scholars debate whether these accounts reflect actual Phoenician practice or Greek misunderstanding of foreign temple economies involving female cult personnel.",
+      "wikiSlug": "Sacred_prostitution",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tanit-worship-carthage",
+      "label": "Cult of Tanit at Carthage",
+      "year": -500,
+      "description": "From the 5th century BCE, Tanit — a lunar and fertility goddess with a distinctive triangular symbol — eclipsed Baal Hammon as Carthage's most prominent deity, appearing first on inscriptions and eventually dominating Punic religious life across North Africa.",
+      "wikiSlug": "Tanit",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hanno-voyage",
+      "label": "Hanno's Voyage Down Africa",
+      "year": -500,
+      "description": "Carthaginian explorer Hanno sailed along the West African coast, possibly reaching modern Cameroon, and documented the journey in a famous periplus.",
+      "wikiSlug": "Hanno_the_Navigator",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-persian-fleet",
+      "label": "Phoenician Fleet Serves Persia",
+      "year": -480,
+      "description": "Phoenician ships formed the backbone of Xerxes' navy at the Battle of Salamis, demonstrating their continued naval supremacy despite Persian rule.",
+      "wikiSlug": "Battle_of_Salamis",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-carthage-sicily-wars",
+      "label": "Battle of Himera",
+      "year": -480,
+      "description": "A Carthaginian army under Hamilcar was defeated by Greek forces in Sicily, checking Punic expansion in the central Mediterranean.",
+      "wikiSlug": "Battle_of_Himera_(480_BC)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hamilcar-i-carthage",
+      "label": "Hamilcar I of Carthage",
+      "year": -510,
+      "endYear": -480,
+      "description": "Magonid king who expanded Carthaginian territory in Sicily and Sardinia before leading the invasion force at Himera in 480 BCE, where he was killed — a defeat that ended Carthaginian military ambitions in Sicily for seventy years.",
+      "wikiSlug": "Hamilcar_I_of_Carthage",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hannibal-mago-himera",
+      "label": "Hannibal Mago Destroys Himera",
+      "year": -409,
+      "description": "The Magonid king Hannibal Mago — grandson of the Hamilcar killed at Himera in 480 BCE — sacked and razed the Greek city of Himera in revenge, a vendetta seventy years in the making that reasserted Carthaginian power in western Sicily.",
+      "wikiSlug": "Battle_of_Himera_(409_BC)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mago-agriculture",
+      "label": "Mago's Agricultural Treatise",
+      "year": -450,
+      "description": "Carthaginian writer Mago produced a 28-volume treatise on agriculture so valued that the Roman Senate ordered it translated into Latin after Carthage's fall.",
+      "wikiSlug": "Mago_(agriculture)",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cothon-harbor",
+      "label": "Cothon Harbor of Carthage",
+      "year": -400,
+      "description": "Carthage's famous circular military harbor could shelter 220 warships with a central admiralty island, an engineering marvel of the ancient world.",
+      "wikiSlug": "Cothon",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-abdashtart-sidon",
+      "label": "Abdashtart I (Straton) of Sidon",
+      "year": -365,
+      "endYear": -352,
+      "description": "King of Sidon who introduced bronze coinage alongside debased silver shekels to fund an expanded navy, and gave his name to 'Straton's Tower' — the coastal settlement later rebuilt by Herod as Caesarea.",
+      "wikiSlug": "Abdashtart_I",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tennes-revolt",
+      "label": "Tennes' Revolt Against Persia",
+      "year": -351,
+      "description": "King Tennes of Sidon led a revolt against Persian rule with Egyptian support. Artaxerxes III crushed the rebellion and burned Sidon to the ground.",
+      "wikiSlug": "Tennes",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-alexander-siege-tyre",
+      "label": "Alexander's Siege of Tyre",
+      "year": -332,
+      "description": "Alexander the Great built a causeway to besiege island Tyre for seven months, finally capturing and destroying the city. This ended Phoenician independence.",
+      "wikiSlug": "Siege_of_Tyre_(332_BC)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-first-punic-war",
+      "label": "First Punic War",
+      "year": -264,
+      "endYear": -241,
+      "description": "Rome and Carthage fought for control of Sicily in the first of three wars. Carthage lost its Sicilian territories and paid heavy indemnities.",
+      "wikiSlug": "First_Punic_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hannibal-barca",
+      "label": "Hannibal Barca",
+      "year": -247,
+      "endYear": -183,
+      "description": "Carthaginian general who crossed the Alps with war elephants and defeated Rome repeatedly, considered one of the greatest military commanders in history.",
+      "wikiSlug": "Hannibal",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-hasdrubal-fair",
+      "label": "Hasdrubal the Fair Founds New Carthage",
+      "year": -228,
+      "endYear": -221,
+      "description": "Hamilcar Barca's son-in-law who governed Iberia through diplomacy rather than conquest, founded Cartagena (Qart Hadasht) beside rich silver mines as his capital, and negotiated the Ebro Treaty with Rome before his assassination by a Celtic slave.",
+      "wikiSlug": "Hasdrubal_the_Fair",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hamilcar-barca",
+      "label": "Hamilcar Barca in Spain",
+      "year": -237,
+      "endYear": -228,
+      "description": "Hannibal's father Hamilcar conquered much of southern Spain for Carthage, founding New Carthage and securing silver mines to rebuild Punic power.",
+      "wikiSlug": "Hamilcar_Barca",
+      "tier": 3,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-scipio-africanus",
+      "label": "Scipio Africanus",
+      "year": -236,
+      "endYear": -183,
+      "description": "Roman general who defeated Hannibal at Zama and ended Carthaginian military power, earning the honorific 'Africanus' for his conquest.",
+      "wikiSlug": "Scipio_Africanus",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-second-punic-war",
+      "label": "Second Punic War",
+      "year": -218,
+      "endYear": -201,
+      "description": "Hannibal invaded Italy and won devastating victories at Trebia, Trasimene, and Cannae, but Carthage ultimately lost when Scipio invaded Africa.",
+      "wikiSlug": "Second_Punic_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-cannae",
+      "label": "Battle of Cannae",
+      "year": -216,
+      "description": "Hannibal's double-envelopment annihilated a Roman army of 80,000 at Cannae, one of the most devastating defeats in Roman history.",
+      "wikiSlug": "Battle_of_Cannae",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-zama",
+      "label": "Battle of Zama",
+      "year": -202,
+      "description": "Scipio Africanus defeated Hannibal in North Africa, ending the Second Punic War and establishing Roman supremacy over the western Mediterranean.",
+      "wikiSlug": "Battle_of_Zama",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-temple-baalbek",
+      "label": "Temple Complex at Baalbek",
+      "year": -150,
+      "description": "The monumental sanctuary at Heliopolis-Baalbek, originally a Phoenician sacred site, was expanded into one of the largest temple complexes in the ancient world.",
+      "wikiSlug": "Baalbek",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-third-punic-war",
+      "label": "Third Punic War",
+      "year": -149,
+      "endYear": -146,
+      "description": "Rome besieged and destroyed Carthage after Cato the Elder's relentless campaign of 'Carthago delenda est,' ending Phoenician civilization in the West.",
+      "wikiSlug": "Third_Punic_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-destruction-carthage",
+      "label": "Destruction of Carthage",
+      "year": -146,
+      "description": "Rome razed Carthage at the end of the Third Punic War, enslaving survivors and salting the earth. The greatest Phoenician colony was obliterated.",
+      "wikiSlug": "Battle_of_Carthage_(c._149_BC)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    }
+  ],
+  "wikiSlug": "Phoenicia"
+}
