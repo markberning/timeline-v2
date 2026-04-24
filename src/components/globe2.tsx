@@ -1003,12 +1003,16 @@ export default function Globe2() {
       })()}
 
       {/* ── Drawer toggle ─────────────────────────────────── */}
-      <button
-        className={`${styles.drawerToggle} font-[family-name:var(--font-geist-sans)]`}
-        onClick={() => setDrawerOpen((v) => !v)}
-      >
-        {drawerOpen ? 'Close' : `${activeCivs.length} civilizations`}
-      </button>
+      {!drawerOpen && (
+        <button
+          className={`${styles.drawerToggle} font-[family-name:var(--font-geist-sans)]`}
+          onClick={() => setDrawerOpen(true)}
+        >
+          <span className={styles.toggleIcon}>&#9776;</span>
+          <span>{activeCivs.length} civilizations</span>
+          <span className={styles.toggleChevron}>&rsaquo;</span>
+        </button>
+      )}
 
       {/* ── Drawer / sidebar ──────────────────────────────── */}
       <div className={`${styles.drawer} ${drawerOpen ? styles.open : ''}`}>
