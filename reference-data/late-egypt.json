@@ -1,0 +1,811 @@
+{
+  "id": "late-egypt",
+  "label": "Late Egypt",
+  "type": "civilization",
+  "region": "africa",
+  "source": "curated",
+  "imageWikiSlug": "Cleopatra",
+  "mapCommonsFile": "Ptolemaic_Kingdom_III-II_century_BC_-_en.svg",
+  "wikiSlug": "Late_Period_of_ancient_Egypt",
+  "pitch": "When the New Kingdom collapsed around 1069 BCE, the Egypt that emerged from its ruins looked nothing like the empire of Ramesses II. Libyan warlords controlled the Delta. Thebes answered to a different dynasty. Nubian kings eventually swept north and ruled as pharaohs. Then came the Assyrians, and after them the Persians — twice. What is remarkable is not that Egypt fell to these powers, but that it kept bouncing back: each time a native dynasty reasserted itself, rebuilt temples, and insisted that the old ways had never really changed. The Ptolemies were the last in this long line of reinventors — Greek in language and culture, yet determined to present themselves as legitimate heirs to three thousand years of pharaonic tradition.\n\n🔑 Key Facts:\n• Smendes I's founding of the Twenty-first Dynasty at Tanis (1069 BCE) split Egypt between northern and southern power centers — a fragmentation that lasted two centuries\n• The Kushite Twenty-fifth Dynasty (c. 747–656 BCE) ruled all of Egypt and launched a remarkable cultural revival, building pyramids and restoring neglected temples in both Egypt and Nubia\n• The Assyrian conquest (671 BCE) under Esarhaddon sacked Thebes — the richest city in the world — stripping its centuries of accumulated temple treasure\n• Psamtik I's reunification (664 BCE) launched the Twenty-sixth (Saite) Dynasty, Egypt's last great native dynasty, marked by a deliberate archaizing revival of Old Kingdom artistic styles\n• Pharaoh Necho II began the Canal of the Pharaohs (c. 600 BCE) — an attempt to link the Nile to the Red Sea that prefigured the modern Suez Canal by 2,400 years\n• Alexander the Great conquered Egypt in 332 BCE without a battle; he was welcomed as a liberator from Persian rule and crowned pharaoh at Memphis\n• The Library of Alexandria, founded by Ptolemy I around 283 BCE, was the ancient world's greatest repository of knowledge — scholars there calculated the Earth's circumference and mapped the stars\n• Cleopatra VII was the first Ptolemaic ruler in nearly 300 years who could speak Egyptian; her 21-year reign ended with the Battle of Actium and Egypt's absorption into Rome\n\n🤔 Why It Matters: Late Egypt is the story of a civilization absorbing wave after wave of foreign conquest — Libyan, Nubian, Assyrian, Persian, Macedonian, Roman — and finding ways to survive each one. The Ptolemaic period, in particular, shows how thoroughly Egyptian religious and architectural traditions could domesticate even conquerors who arrived speaking Greek. The Rosetta Stone is the perfect symbol: a bureaucratic decree that had to be written in three scripts because no single language commanded everyone's loyalty. As Egypt became Rome's most valuable province, it also became the conduit through which ancient knowledge — mathematics, medicine, philosophy — flowed into the Western tradition. The Kingdom of Kush to the south, Egypt's former colony and occasional conqueror, would inherit many of these traditions and carry them deep into sub-Saharan Africa.\n\n🎲 Wild Card: The Tanis royal tombs, discovered intact by Pierre Montet in 1939, contained gold funerary masks and treasures rivaling Tutankhamun's — but they received almost no international attention because the world was focused on the outbreak of World War II. They remain among the least-known major archaeological discoveries of the 20th century.",
+  "glossary": [],
+  "spans": [
+    {
+      "id": "span-ancient-egypt-third-intermediate",
+      "label": "Third Intermediate",
+      "startYear": -1069,
+      "endYear": -664,
+      "description": "Egypt fragmented among rival dynasties, Libyan warlords, and Nubian pharaohs of the 25th Dynasty. Political division weakened Egypt but cultural traditions and temple construction continued.",
+      "wikiSlug": "Third_Intermediate_Period_of_Egypt",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The New Kingdom ended when the high priests of Amun at Thebes effectively became independent rulers while pharaohs of the Twenty-first Dynasty controlled the Delta from Tanis. Power passed steadily to Libyan military commanders who had settled in the Delta."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Libyan Twenty-second Dynasty under Shoshenq I briefly reunified Egypt and campaigned in the Levant. Fragmentation returned as rival Libyan dynasties proliferated. The Nubian king Piye conquered all of Egypt from the south around 747 BCE, establishing the Twenty-fifth Dynasty and ruling as a pharaoh more Egyptian than the Egyptians."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Despite political chaos, the Third Intermediate Period maintained Egyptian cultural continuity. Temple construction, religious texts, and artistic traditions all continued — evidence that Egyptian civilization was deeper than any particular political structure."
+        }
+      ]
+    },
+    {
+      "id": "span-ancient-egypt-late-period",
+      "label": "Late Period",
+      "startYear": -664,
+      "endYear": -332,
+      "description": "Native Egyptian dynasties alternated with Persian occupation. The Saite renaissance briefly restored Egyptian independence and cultural pride before the Achaemenid Empire conquered the kingdom twice.",
+      "wikiSlug": "Late_Period_of_ancient_Egypt",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Assyrian sack of Thebes (663 BCE) ended Kushite rule in Egypt. The Assyrians installed Psamtik I as a client ruler, but he skillfully asserted independence and founded the Twenty-sixth (Saite) Dynasty — Egypt's last great native ruling house."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Saite period saw a deliberate cultural revival of Old Kingdom artistic styles and an opening to Greek mercenaries and traders. Persia conquered Egypt in 525 BCE under Cambyses II. Despite periodic revolts and a brief restoration of native rule, Egypt fell to Persia again in 343 BCE. Alexander ended Persian occupation in 332 BCE."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Late Period demonstrates Egypt's fundamental resilience: every time a foreign power left, native Egyptian rulers reconstituted the pharaonic system. The institutions were strong enough to outlast any particular conqueror — until Rome made Egypt a province, not a kingdom."
+        }
+      ]
+    },
+    {
+      "id": "span-ancient-egypt-ptolemaic",
+      "label": "Ptolemaic",
+      "startYear": -332,
+      "endYear": -30,
+      "description": "Alexander the Great conquered Egypt and his general Ptolemy founded a Greek-speaking dynasty. Alexandria became the intellectual capital of the Mediterranean, home to the Great Library and the Lighthouse.",
+      "wikiSlug": "Ptolemaic_Kingdom",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After Alexander's death in 323 BCE, his general Ptolemy secured Egypt and declared himself king in 305 BCE. The Ptolemies ruled from Alexandria, a city planned by Alexander that quickly became the largest in the Mediterranean world."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Ptolemaic dynasty blended Greek administration with Egyptian religious legitimacy, building temples like Edfu and Philae in pure Egyptian style while governing in Greek. The Library and Museum of Alexandria attracted scholars from across the Mediterranean. Cleopatra VII's alliance with Rome — first with Caesar, then with Antony — failed at Actium in 31 BCE. Egypt became a Roman province in 30 BCE."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Ptolemaic period was the longest-running experiment in cultural fusion the ancient world had seen: Greek rulers who dressed as pharaohs, Egyptian priests who wrote in Greek, and a city (Alexandria) that was simultaneously the capital of Egypt and the intellectual hub of the Hellenistic Mediterranean."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-smendes",
+      "label": "Smendes I",
+      "year": -1069,
+      "endYear": -1043,
+      "description": "Smendes I founded the Twenty-first Dynasty at Tanis, marking the beginning of the Third Intermediate Period as Egypt split between northern and southern rulers.",
+      "wikiSlug": "Smendes_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tanis-royal-tombs",
+      "label": "Tanis Royal Tombs",
+      "year": -1000,
+      "description": "The royal tombs at Tanis contained spectacular gold funerary masks and treasures rivaling Tutankhamun's, discovered intact by Pierre Montet in 1939.",
+      "wikiSlug": "Tanis",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-shoshenq-i",
+      "label": "Shoshenq I",
+      "year": -943,
+      "endYear": -922,
+      "description": "Libyan pharaoh who founded the Twenty-second Dynasty, reunifying Egypt after the fragmented Third Intermediate Period.",
+      "wikiSlug": "Shoshenq_I",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-shoshenq-levant",
+      "label": "Shoshenq's Levantine Campaign",
+      "year": -925,
+      "description": "Pharaoh Shoshenq I launched a military campaign into the Levant, sacking Jerusalem's Temple treasures. The campaign is recorded on the Bubastite Portal at Karnak.",
+      "wikiSlug": "Shoshenq_I",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-karnak-bubastite",
+      "label": "Bubastite Portal",
+      "year": -925,
+      "description": "Shoshenq I erected the Bubastite Portal at Karnak, recording his victorious campaign into ancient Israel and Judah.",
+      "wikiSlug": "Bubastite_Portal",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kushite-conquest",
+      "label": "Kushite Conquest",
+      "year": -747,
+      "endYear": -656,
+      "description": "The Kingdom of Kush invaded and conquered Egypt, establishing the Twenty-fifth Dynasty. The Kushite pharaohs restored traditional Egyptian temples and culture.",
+      "wikiSlug": "Twenty-fifth_Dynasty_of_Egypt",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-king-piye",
+      "label": "King Piye",
+      "year": -747,
+      "endYear": -714,
+      "description": "Kushite king who conquered Egypt from the south, unifying it under the Twenty-fifth Dynasty. Piye's Victory Stela at Gebel Barkal is one of the longest ancient Egyptian texts.",
+      "wikiSlug": "Piye",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-shabaka",
+      "label": "Shabaka Stone",
+      "year": -710,
+      "description": "Pharaoh Shabaka ordered the Memphite creation theology inscribed on stone, preserving one of Egypt's oldest religious texts from a decaying papyrus scroll.",
+      "wikiSlug": "Shabaka_Stone",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-taharqa",
+      "label": "Taharqa",
+      "year": -690,
+      "endYear": -664,
+      "description": "Kushite pharaoh and greatest builder of the Twenty-fifth Dynasty, who restored temples across Egypt and Nubia. He clashed with the Assyrian Empire and is mentioned in the Hebrew Bible as an ally of Judah.",
+      "wikiSlug": "Taharqa",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-assyrian-conquest",
+      "label": "Assyrian Conquest",
+      "year": -671,
+      "endYear": -654,
+      "description": "The Assyrian Empire under Esarhaddon and Ashurbanipal conquered Egypt, sacking Thebes and ending the Twenty-fifth Dynasty's rule.",
+      "wikiSlug": "Assyrian_conquest_of_Egypt",
+      "tier": 3,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-psamtik-i",
+      "label": "Psamtik I",
+      "year": -664,
+      "endYear": -610,
+      "description": "Psamtik I reunified Egypt after Assyrian domination, founding the Twenty-sixth Dynasty and inaugurating the Late Period.",
+      "wikiSlug": "Psamtik_I",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-saite-renaissance",
+      "label": "Saite Renaissance",
+      "year": -664,
+      "endYear": -525,
+      "description": "The Twenty-sixth Dynasty launched a deliberate cultural revival, copying Old Kingdom artistic styles and restoring ancient monuments in a conscious effort to reconnect with Egypt's glorious past.",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sack-of-thebes",
+      "label": "Sack of Thebes",
+      "year": -663,
+      "description": "Ashurbanipal's Assyrian army sacked Thebes, plundering centuries of accumulated temple treasure from what had been the richest city in the ancient world.",
+      "wikiSlug": "Sack_of_Thebes_(663_BC)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-greek-mercenaries",
+      "label": "Greek Mercenaries in Egypt",
+      "year": -660,
+      "description": "Psamtik I recruited Ionian and Carian Greek mercenaries to help secure Egyptian independence from Assyria, beginning a long tradition of Greek military service in Egypt.",
+      "wikiSlug": "Stratopeda",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-demotic",
+      "label": "Demotic Script",
+      "year": -650,
+      "description": "Demotic replaced hieratic as the everyday writing system of Egypt. Faster to write, it was used for legal, commercial, and literary texts.",
+      "wikiSlug": "Demotic_(Egyptian)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-naucratis",
+      "label": "Naucratis Trading Colony",
+      "year": -630,
+      "description": "The Greek trading colony of Naucratis in the Nile Delta became the first permanent Greek settlement in Egypt, a hub for cross-Mediterranean commerce and cultural exchange.",
+      "wikiSlug": "Naucratis",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-necho-ii",
+      "label": "Necho II",
+      "year": -610,
+      "endYear": -595,
+      "description": "Ambitious Saite pharaoh who projected Egyptian power into the Levant, began the Canal of the Pharaohs linking the Nile to the Red Sea, and commissioned a Phoenician circumnavigation of Africa.",
+      "wikiSlug": "Necho_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-megiddo-609",
+      "label": "Battle of Megiddo (609 BCE)",
+      "year": -609,
+      "description": "Pharaoh Necho II defeated and killed King Josiah of Judah at Megiddo while marching to support the dying Assyrian Empire against Babylon. The battle ended Judah's brief independence.",
+      "wikiSlug": "Battle_of_Megiddo_(609_BC)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-carchemish",
+      "label": "Battle of Carchemish",
+      "year": -605,
+      "description": "Nebuchadnezzar II of Babylon crushed the Egyptian army at Carchemish, ending Egypt's bid for control of the Levant and establishing Babylonian dominance over the Near East.",
+      "wikiSlug": "Battle_of_Carchemish",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-africa-circumnavigation",
+      "label": "Circumnavigation of Africa",
+      "year": -600,
+      "description": "Pharaoh Necho II commissioned Phoenician sailors to circumnavigate Africa. According to Herodotus, they completed the three-year voyage — over two thousand years before Vasco da Gama.",
+      "wikiSlug": "Phoenician_exploration#Circumnavigation_of_Africa",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-suez-canal-precursor",
+      "label": "Canal of the Pharaohs",
+      "year": -600,
+      "description": "Pharaoh Necho II began construction of a canal linking the Nile to the Red Sea — an ancient precursor to the modern Suez Canal.",
+      "wikiSlug": "Canal_of_the_Pharaohs",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-psamtik-ii",
+      "label": "Psamtik II",
+      "year": -595,
+      "endYear": -589,
+      "description": "Saite pharaoh who campaigned deep into Nubia against the Kingdom of Kush and systematically erased the names of the Twenty-fifth Dynasty Kushite pharaohs from Egyptian monuments.",
+      "wikiSlug": "Psamtik_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-abu-simbel-graffiti",
+      "label": "Abu Simbel Graffiti",
+      "year": -591,
+      "description": "Greek and Carian mercenaries serving Psamtik II carved graffiti on the legs of the colossal statues at Abu Simbel — some of the earliest surviving Greek inscriptions, scratched by bored soldiers on campaign.",
+      "wikiSlug": "Abu_Simbel_graffiti",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-apries",
+      "label": "Apries",
+      "year": -589,
+      "endYear": -570,
+      "description": "Saite pharaoh whose failed military intervention in Libya triggered a mutiny that brought his general Amasis to power. Apries was eventually killed in battle against his own former troops.",
+      "wikiSlug": "Apries",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-amasis-ii",
+      "label": "Amasis II",
+      "year": -570,
+      "endYear": -526,
+      "description": "Usurper general who became one of Egypt's most capable late pharaohs, cultivating Greek alliances, expanding trade, and presiding over a prosperous reign. Herodotus portrays him as a shrewd and jovial ruler.",
+      "wikiSlug": "Amasis_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-egyptian-medicine-greeks",
+      "label": "Egyptian Medicine Influences Greece",
+      "year": -550,
+      "description": "Greek physicians traveled to Egypt to study its advanced medical traditions. Egyptian surgical techniques, pharmacology, and anatomical knowledge significantly influenced the development of Greek medicine.",
+      "wikiSlug": "Ancient_Egyptian_medicine",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pythagoras-egypt",
+      "label": "Pythagoras Visits Egypt",
+      "year": -535,
+      "description": "According to ancient tradition, Pythagoras spent years studying with Egyptian priests, learning geometry and religious doctrines including the transmigration of souls before founding his school in Italy.",
+      "wikiSlug": "Pythagoras",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-psamtik-iii",
+      "label": "Psamtik III",
+      "year": -526,
+      "endYear": -525,
+      "description": "The last pharaoh of the Twenty-sixth Dynasty, who reigned only six months before his defeat by Cambyses II at the Battle of Pelusium ended Egyptian independence for over a century.",
+      "wikiSlug": "Psamtik_III",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-persian-conquest",
+      "label": "Persian Conquest",
+      "year": -525,
+      "description": "Cambyses II of Persia defeated Psamtik III at Pelusium and annexed Egypt, making it a satrapy of the Achaemenid Empire.",
+      "wikiSlug": "Battle_of_Pelusium_(525_BC)",
+      "tier": 2,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cambyses-ii-egypt",
+      "label": "Cambyses II in Egypt",
+      "year": -525,
+      "endYear": -522,
+      "description": "Persian king who conquered Egypt and reportedly desecrated temples and killed the sacred Apis bull, though these stories may be Egyptian propaganda. His lost army in the Sahara remains one of antiquity's great mysteries.",
+      "wikiSlug": "Cambyses_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-pelusium",
+      "label": "Battle of Pelusium",
+      "year": -525,
+      "description": "Cambyses II routed the Egyptian army at Pelusium, allegedly using cats and sacred animals as shields knowing the Egyptians would not risk harming them. Egypt became a Persian satrapy.",
+      "wikiSlug": "Battle_of_Pelusium_(525_BC)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-udjahorresnet",
+      "label": "Udjahorresnet",
+      "year": -520,
+      "description": "Egyptian priest and physician who served as advisor to both Cambyses II and Darius I, helping the Persians govern Egypt through its native institutions. His autobiography on a naophorous statue is a rare Egyptian collaborator's perspective.",
+      "wikiSlug": "Udjahorresnet",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-darius-i-egypt",
+      "label": "Darius I in Egypt",
+      "year": -518,
+      "description": "Darius I visited Egypt and proved a more respectful ruler than Cambyses, completing the Canal of the Pharaohs, codifying Egyptian law, and building the Temple of Hibis at Kharga Oasis — the largest Persian-period temple in Egypt.",
+      "wikiSlug": "Darius_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hibis-temple",
+      "label": "Temple of Hibis",
+      "year": -510,
+      "description": "Darius I built the Temple of Hibis at Kharga Oasis, dedicated to Amun. It is the best-preserved temple from the Persian period in Egypt and shows Persian rulers embracing Egyptian religious traditions.",
+      "wikiSlug": "Temple_of_Hibis",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-serapeum-expansion",
+      "label": "Serapeum Expansion",
+      "year": -500,
+      "description": "The Serapeum at Saqqara, the vast underground burial complex for sacred Apis bulls, was expanded with massive granite sarcophagi during the Late Period as the Apis cult reached peak importance.",
+      "wikiSlug": "Serapeum_of_Saqqara",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-animal-cult-explosion",
+      "label": "Animal Cult Explosion",
+      "year": -500,
+      "description": "The Late Period saw a massive expansion of animal cults across Egypt, with millions of ibises, cats, baboons, and crocodiles mummified as votive offerings. Animal necropolises became a major religious industry.",
+      "wikiSlug": "Animal_mummy",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-inaros-revolt",
+      "label": "Inaros Revolt",
+      "year": -460,
+      "endYear": -454,
+      "description": "Libyan prince Inaros led a major Egyptian revolt against Persian rule, initially defeating a Persian army and seizing Memphis with Athenian naval support before being crushed and executed.",
+      "wikiSlug": "Inaros_II",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-herodotus-egypt",
+      "label": "Herodotus Visits Egypt",
+      "year": -450,
+      "description": "The Greek historian Herodotus traveled extensively in Egypt during Persian rule, recording detailed observations of Egyptian customs, religion, and history in Book II of his Histories — an invaluable (if sometimes fanciful) primary source.",
+      "wikiSlug": "Herodotus",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-egyptian-calendar",
+      "label": "Egyptian Calendar Influence",
+      "year": -450,
+      "description": "The Egyptian 365-day civil calendar, with its twelve 30-day months plus five epagomenal days, influenced Greek and later Roman calendar reform. It was the most practical calendar in the ancient world.",
+      "wikiSlug": "Egyptian_calendar",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-elephantine-papyri",
+      "label": "Elephantine Papyri",
+      "year": -450,
+      "description": "Aramaic papyri from the Jewish military colony at Elephantine on the Nile reveal a vibrant multicultural community under Persian rule, with its own temple to Yahweh and detailed legal and personal correspondence.",
+      "wikiSlug": "Elephantine_papyri",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-temple-archives",
+      "label": "Temple Archives of the Late Period",
+      "year": -450,
+      "description": "Egyptian temples maintained vast archives of ritual texts, medical papyri, astronomical tables, and administrative records during the Late Period, preserving millennia of accumulated knowledge.",
+      "wikiSlug": "House_of_Life",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-amyrtaeus",
+      "label": "Amyrtaeus",
+      "year": -404,
+      "endYear": -399,
+      "description": "Amyrtaeus of Sais expelled the Persians and became the sole pharaoh of the Twenty-eighth Dynasty, restoring native Egyptian rule after over a century of Persian occupation.",
+      "wikiSlug": "Amyrtaeus",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-imhotep-cult",
+      "label": "Cult of Imhotep",
+      "year": -400,
+      "description": "The Old Kingdom architect Imhotep was deified in the Late Period as a god of medicine and wisdom, with temples dedicated to his healing cult. The Greeks identified him with their own god Asclepius.",
+      "wikiSlug": "Imhotep",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-twenty-ninth-dynasty",
+      "label": "Twenty-ninth Dynasty",
+      "year": -399,
+      "endYear": -380,
+      "description": "A short-lived native dynasty based at Mendes in the Delta that maintained Egyptian independence through diplomatic alliances with Athens and Sparta against the Persian threat.",
+      "wikiSlug": "Twenty-ninth_Dynasty_of_Egypt",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-grain-trade-athens",
+      "label": "Egyptian Grain Trade with Athens",
+      "year": -394,
+      "description": "Egypt supplied grain to Athens and other Greek city-states, establishing the Nile Delta as a major breadbasket of the eastern Mediterranean and deepening Greco-Egyptian economic ties.",
+      "wikiSlug": "Grain_trade_in_the_Hellenistic_world",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-plato-egypt",
+      "label": "Plato's Egypt",
+      "year": -390,
+      "description": "Plato reportedly visited Egypt and was deeply impressed by Egyptian learning, incorporating Egyptian ideas about the soul, the state, and the myth of Atlantis into his philosophical works.",
+      "wikiSlug": "Plato",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-nectanebo-i",
+      "label": "Nectanebo I",
+      "year": -380,
+      "endYear": -362,
+      "description": "Founder of the Thirtieth Dynasty, Egypt's last native dynasty. A prolific temple builder who successfully repelled a massive Persian invasion in 373 BCE and presided over a cultural flourishing.",
+      "wikiSlug": "Nectanebo_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-temple-philae",
+      "label": "Temple of Philae",
+      "year": -380,
+      "description": "The Temple of Isis at Philae was built on an island in the Nile. It was one of the last active temples of the ancient Egyptian religion, operating until 550 CE.",
+      "wikiSlug": "Philae",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-divine-birth-narratives",
+      "label": "Divine Birth Narratives",
+      "year": -370,
+      "description": "The mammisi (birth houses) at Thirtieth Dynasty temples elaborated the theology of divine birth, depicting the pharaoh as the child of a god. These narratives influenced Ptolemaic and even early Christian iconography.",
+      "wikiSlug": "Mammisi",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-nectanebo-ii",
+      "label": "Nectanebo II",
+      "year": -360,
+      "endYear": -343,
+      "description": "Nectanebo II was the last native-born pharaoh of Egypt. His defeat by the Persians ended indigenous Egyptian rule.",
+      "wikiSlug": "Nectanebo_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-astronomical-observations",
+      "label": "Late Period Astronomical Observations",
+      "year": -350,
+      "description": "Egyptian priests maintained sophisticated astronomical observations at temples across the Late Period, tracking stellar decans and planetary movements. This tradition later fed directly into Hellenistic astronomy at Alexandria.",
+      "wikiSlug": "Egyptian_astronomy",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-persian-reconquest",
+      "label": "Persian Reconquest",
+      "year": -343,
+      "description": "Artaxerxes III of Persia reconquered Egypt after two failed attempts, ending the last native dynasty. Persian rule was harsh, with temples reportedly looted and sacred animals killed.",
+      "wikiSlug": "Artaxerxes_III",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-artaxerxes-iii-egypt",
+      "label": "Artaxerxes III",
+      "year": -343,
+      "endYear": -338,
+      "description": "Persian king who finally crushed Egyptian independence after Nectanebo II fled south. His brutal occupation created the resentment that made Egyptians welcome Alexander as a liberator a decade later.",
+      "wikiSlug": "Artaxerxes_III",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-dream-stele-tradition",
+      "label": "Dream Stele Tradition",
+      "year": -340,
+      "description": "The tradition of recording divine dreams on stelae flourished in the Late Period. Nectanebo II's dream stele at the Serapeum follows a pattern stretching back to Thutmose IV's famous sphinx dream.",
+      "wikiSlug": "Dream_Stele",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-alexander",
+      "label": "Alexander Conquers Egypt",
+      "year": -332,
+      "description": "Alexander the Great conquered Egypt from the Persians without a battle. He founded Alexandria and was crowned pharaoh at Memphis.",
+      "wikiSlug": "Alexander_the_Great",
+      "tier": 2,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-siwa-oracle",
+      "label": "Oracle of Siwa",
+      "year": -332,
+      "description": "Alexander made a dangerous journey across the Libyan desert to consult the Oracle of Amun at Siwa Oasis, where the priests reportedly greeted him as the son of Zeus-Ammon, legitimizing his rule in Egyptian religious terms.",
+      "wikiSlug": "Siwa_Oasis",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-alexandria-founded",
+      "label": "Alexandria Founded",
+      "year": -331,
+      "description": "Alexander the Great founded Alexandria, which became the Mediterranean's greatest trading hub and intellectual capital for centuries.",
+      "wikiSlug": "Alexandria",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ptolemy-i",
+      "label": "Ptolemy I",
+      "year": -305,
+      "endYear": -282,
+      "description": "Ptolemy I Soter, a general of Alexander the Great, founded the Ptolemaic Dynasty and established Alexandria as a center of learning.",
+      "wikiSlug": "Ptolemy_I_Soter",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-serapis",
+      "label": "Serapis Cult Established",
+      "year": -305,
+      "description": "Ptolemy I created the cult of Serapis, merging Egyptian Osiris-Apis with Greek Zeus to unify his Greek and Egyptian subjects under one deity.",
+      "wikiSlug": "Serapis",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-library",
+      "label": "Library of Alexandria",
+      "year": -283,
+      "description": "The Great Library of Alexandria was founded by Ptolemy I, becoming the ancient world's greatest center of scholarship and housing hundreds of thousands of scrolls.",
+      "wikiSlug": "Library_of_Alexandria",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lighthouse",
+      "label": "Lighthouse of Alexandria",
+      "year": -280,
+      "description": "The Pharos of Alexandria, one of the Seven Wonders, was built on the island of Pharos. At 100m tall, it guided ships into the harbor for centuries.",
+      "wikiSlug": "Lighthouse_of_Alexandria",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-manetho",
+      "label": "Manetho",
+      "year": -280,
+      "description": "Egyptian priest Manetho wrote Aegyptiaca, a history of Egypt that established the system of dynasties still used by Egyptologists today.",
+      "wikiSlug": "Manetho",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-eratosthenes-egypt",
+      "label": "Eratosthenes",
+      "year": -276,
+      "endYear": -194,
+      "description": "Greek polymath who served as chief librarian at Alexandria, calculated the circumference of the Earth with remarkable accuracy, and invented the discipline of geography.",
+      "wikiSlug": "Eratosthenes",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-temple-edfu",
+      "label": "Temple of Edfu",
+      "year": -237,
+      "description": "The Temple of Horus at Edfu is the best-preserved ancient temple in Egypt. Built during the Ptolemaic period, its inscriptions are a major source for understanding Egyptian religious ritual.",
+      "wikiSlug": "Temple_of_Edfu",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-grain-trade",
+      "label": "Rome's Granary",
+      "year": -200,
+      "description": "Egypt became the primary grain supplier for Rome, shipping millions of bushels annually — making it the most strategically vital province in the empire.",
+      "wikiSlug": "Cura_Annonae",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-rosetta-stone",
+      "label": "Rosetta Stone",
+      "year": -196,
+      "description": "A decree of Ptolemy V was inscribed in hieroglyphs, demotic, and Greek on a granite stele. Its 1799 discovery was the key to deciphering hieroglyphs.",
+      "wikiSlug": "Rosetta_Stone",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cleopatra",
+      "label": "Cleopatra VII",
+      "year": -51,
+      "endYear": -30,
+      "description": "Cleopatra VII, the last active pharaoh, allied with Julius Caesar and Mark Antony to preserve Egyptian independence. Her death ended the Ptolemaic Kingdom.",
+      "wikiSlug": "Cleopatra",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-actium",
+      "label": "Battle of Actium",
+      "year": -31,
+      "description": "Octavian's naval victory over Cleopatra and Mark Antony at Actium sealed the fate of Ptolemaic Egypt and ended the Hellenistic era.",
+      "wikiSlug": "Battle_of_Actium",
+      "tier": 2,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    }
+  ]
+}
