@@ -39,8 +39,7 @@ src/
   app/
     page.tsx                    — home: renders ChronologyPage ("The Civ Lib" — editorial home with swim-lane ribbon + civ list)
     navigator/page.tsx          — /navigator: old TlNavigator flow layout (preserved)
-    globe/page.tsx              — /globe: shelved WebGL globe (globe.gl, kept but superseded by globe2)
-    globe2/page.tsx             — /globe2: D3 orthographic globe with 70 civs, timeline scrubber, drawer sidebar
+    globe/page.tsx              — /globe: D3 orthographic globe with 86 civs, timeline scrubber, drawer sidebar, color-coded by region
     [civilizationId]/
       layout.tsx                — accent color wrapper
       page.tsx                  — single-page accordion reader
@@ -56,9 +55,9 @@ src/
     text-size-control.tsx       — 5-step font size control (14-22px)
     image-review.tsx            — approve/reject images with notes
     offline-registrar.tsx       — mount-once client component that registers the service worker; included in app/layout.tsx
-    globe-view.tsx              — shelved globe.gl WebGL globe (superseded by globe2)
-    globe2.tsx                  — D3 orthographic SVG globe: 70 civs, drag-rotate, scroll/pinch zoom, spin-to-civ, leader-line labels, timeline scrubber, drawer sidebar, info card
-    globe2.module.css           — CSS module for globe2: theme-aware (dark/light), mobile-responsive
+    globe-view.tsx              — dead code: old globe.gl WebGL globe
+    globe2.tsx                  — D3 orthographic SVG globe: 86 civs, color-coded by region, drag-rotate, tap-hold-drag zoom, spin-to-civ, leader-line labels, timeline scrubber, drawer sidebar, info card with chain position + "Read the full story" button
+    globe2.module.css           — CSS module for globe: theme-aware (dark/light), mobile-responsive, matched header with list view
     chronology/
       chronology-page.tsx       — 'use client' shell: owns activeCivId, responsive breakpoint, wires ribbon ↔ list/detail
       chronology-header.tsx     — "Stuff Happened" eyebrow + "The Civ Lib" title + dark mode toggle
@@ -79,9 +78,9 @@ src/
     chronology-data.ts          — sorted civs, chain lookup map, lane-packing algorithm, year formatting
     accent-colors.ts            — per-TL accent colors with WCAG-safe text/badge variants
     categories.ts               — event category metadata (colors for 8 categories)
-    navigator-tls.ts            — 71 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for all 9 shipped TLs)
-    globe-data.ts               — shelved: polygon territories for globe.gl globe (22 civs)
-    globe2-data.ts              — 70 civilizations for D3 globe: id, name, start/end years, capital [lon,lat], extent polygon, region, summary, cities; plus GLOBE2_GROUPS (10 region groups) and timeline constants
+    navigator-tls.ts            — 91 navigator TLs with region, startYear, endYear, subtitle (descriptive tagline), hasContent flag (true for 25 shipped TLs)
+    globe-data.ts               — dead code: polygon territories for old globe.gl globe
+    globe2-data.ts              — 86 civilizations for D3 globe: id, name, start/end years, capital [lon,lat], extent polygon, region, summary, cities; plus GLOBE2_GROUPS (10 color-coded region groups), GLOBE_TO_READER mapping (globe civ → reader TL slug), getCivColor(), getReaderSlug(), getCivChain(), and timeline constants
     navigator-themes.ts         — Stone theme constants (warm dark bg, region palette, row height)
     offline.ts                  — service worker registration + download/delete/status store (useSyncExternalStore); exposes registerServiceWorker, downloadTl, deleteTl, useOfflineStatus, useAllOfflineStatus
 scripts/
@@ -135,12 +134,12 @@ audits/                         — audit reports from the 5-persona pipeline
 - **Gestures**: tap chapter header to toggle summary; swipe-right on expanded chapter to collapse; swipe-right on summary page navigates home
 - **Image review** — two pages: `/review/{tlId}` for QA of current images, `/candidates/{tlId}` for approving/rejecting new candidates with editable captions. These are dev-only — stashed out of the tree during static build via `scripts/build-static.mjs` so production doesn't include them.
 - **Chapter expand/collapse scroll** — on expand (user tap or cross-link auto-expand via `?chapter=N`), always `window.scrollTo({top: 0})`. Because siblings are `display: none` while one chapter is open, the opened chapter is always the first visible chapter and sits right below the h1 + "N chapters" subtitle, so scrollY=0 shows sticky nav → h1 → subtitle → chapter header stacked naturally. On collapse, `sectionRef.scrollIntoView({block: 'start'})` honors the section's `scrollMarginTop: navHeight` so the just-closed chapter header lands cleanly below the sticky nav (previous headerRef-based version hid it behind the nav).
-- **TL Navigator (home at `/`)** — custom-touch scroll flow layout of 71 civilizations. `TlFlow` (in `tl-flow.tsx`) owns scroll completely: vertical-only, rAF friction momentum, each row rendered as a single `translate3d(x, y, 0)` per frame. Row x is a diagonal offset (row y in viewport × max indent) plus a gap-aware year-offset so chronological clusters pack tight and big historical jumps spread. Rows in the bottom third ease in from the lower right. Desktop mouse support via parallel `pointerup` listener. Constants live in `tl-flow.tsx`.
+- **TL Navigator (home at `/`)** — custom-touch scroll flow layout of 91 civilizations. `TlFlow` (in `tl-flow.tsx`) owns scroll completely: vertical-only, rAF friction momentum, each row rendered as a single `translate3d(x, y, 0)` per frame. Row x is a diagonal offset (row y in viewport × max indent) plus a gap-aware year-offset so chronological clusters pack tight and big historical jumps spread. Rows in the bottom third ease in from the lower right. Desktop mouse support via parallel `pointerup` listener. Constants live in `tl-flow.tsx`.
 - **Navigator header** — "Stuff Happened" (18px bold) with small "v1 ↗" pill to `https://v1.stuffhappened.com`. Navigator flow starts at 25% from the top of the viewport (FLOW_TOP_PAD_FRAC = 0.25) so the first TL appears 3/4 of the way up the screen.
 - **Stone theme** — the only navigator theme. Warm dark bg `#22201e`, region palette, line-style bars: row 1 colored hairline + dot + name, row 2 faded dates + chain chip, row 3 italic subtitle.
 - **Chain chip** — tagged `data-chain-chip="1"` + `data-chain-id="..."` with `pointer-events: auto` on an otherwise non-interactive row. Tap hit-tested via `elementFromPoint(...).closest('[data-chain-chip]')`.
 - **Subtitles** — every NavigatorTl has a short descriptive+evocative tagline rendered in small italic below the name.
-- **hasContent dimming** — rows with `hasContent: true` (mesopotamia, indus-valley, ancient-china) render at full opacity; others at 0.35.
+- **hasContent dimming** — rows with `hasContent: true` (25 shipped TLs) render at full opacity; others at 0.35.
 - **Tap to navigate** — short tap on a `hasContent` row uses `window.location.href` (NOT `router.push`). Client-side React transitions leave iOS Safari's scroll engine stuck; a hard nav discards the page and starts fresh.
 - **Zone toggles** — single tap toggles a zone; double-tap solos it; double-tap again restores all five.
 - **Chain-solo mode** — tapping a row's chain chip solos its chain (see `project_navigator_chain_solo.md` memory and `tl-flow.tsx` `soloChainId` prop). Non-members slide off-screen right and fade; members stack centered, 650ms eased transition. The old "chain pull" animation is gone.
@@ -148,18 +147,18 @@ audits/                         — audit reports from the 5-persona pipeline
 - **iOS scroll hardening** — navigator uses `position: fixed; height: 100svh`; body locked while mounted; cleanup forces reflow + `window.scrollTo(0, 1); scrollTo(0, 0)` to kick Safari's scroll engine.
 - **Offline reading (per-TL download)** — hand-rolled service worker at `public/sw.js`. `npm run parse` emits `public/offline/{tlId}.manifest.json` for every shipped TL, listing the page URL + every chapter-map WebP on disk + every Wikimedia event/glossary thumbnail URL. A cloud button in the navigator header opens a bottom-sheet `OfflineLibrarySheet` listing all `hasContent` TLs with per-row download/delete controls. Tap a row to populate `offline-tl-{tlId}-v1` cache (~15–20 MB per TL); tap again to wipe it. The SW uses **network-first for navigation requests** (so deployments show up immediately online) and **cache-first for assets**. `matchWithSlashVariants` handles the `/{tlId}` vs `/{tlId}/` mismatch, and the download loop caches both variants. A client-side guard in `tl-flow.tsx` checks `navigator.onLine` + download status before navigating — tapping a non-downloaded TL offline opens the library sheet instead of stranding the user. Dev-mode: SW registers on localhost but the fetch handler bails out to avoid fighting HMR. See `project_offline_reading.md` memory for the architecture and the tripwire list.
 - **Summary text selection** — sticky chapter header is split into a clickable top row (number + title + date + chevron, `select-none`) and a sibling non-clickable summary area (READ button + bullet list, default text selection).
-- **Globe2 (`/globe2`)** — D3 orthographic SVG globe with 70 civilizations. Styled for the app (dark mode warm colors, Lora/Geist fonts, amber accent). Key features:
-  - **Two-path country rendering** — one `<path>` for all land fill + one for all borders (not 200 separate paths). Critical for drag performance.
-  - **Drag to rotate** — pointer events with RAF-throttled state updates. Trackpad: two-finger swipe left/right pans, up/down zooms. Pinch (Ctrl+wheel) zooms.
-  - **Civ pins** — visible only on the near hemisphere, year-filtered. Click → animated spin-to-civ + zoom-to-fit-extent + region polygon highlight + info card.
-  - **Leader-line labels** — collision-avoiding placement (tries 4 directions), avoids pins, selected region bounding box, and screen edges. Skipped during drag for perf.
-  - **Timeline scrubber** — year slider from 5000 BCE to 1700 CE with density waveform histogram (120 bins) and era markers (Bronze/Iron/Classical/Medieval/Early Modern).
-  - **Drawer sidebar** — 10 region groups, search by name/region/city, dimmed-but-clickable items outside current year (click jumps year).
-  - **Info card** — civ name, dates, region, summary, cities, era strip. Desktop: right panel. Mobile: card above timeline.
-  - **Winding fix** — `asClosedRing()` uses `d3.geoArea` to detect and correct inside-out polygons.
-  - **Mobile** — visualViewport for iOS Safari sizing, pinch-to-zoom, bigger pin hit targets (r=6), initial zoom 1.0 with `w×0.48` base scale.
-  - **Globe data** — 70 civs in `src/lib/globe2-data.ts` with capitals, extent polygons, summaries, cities. Separate from our NAVIGATOR_TLS 74-civ dataset.
-  - **Shelved `/globe`** — earlier WebGL globe.gl approach at `/globe` is still deployed but superseded by globe2. Uses `globe-view.tsx` + `globe-data.ts`. Can be removed when globe2 is mature.
+- **Globe (`/globe`)** — D3 orthographic SVG globe with 86 civilizations, consolidated from the former `/globe2` route. Old WebGL globe.gl (`globe-view.tsx`) is dead code. Key features:
+  - **Color-coded by region** — 10 groups (Near East amber, Africa rust, Europe blue, Asia violet/red, Americas green, Steppe brown, Islamic green, SE Asia teal, Oceania sky). Pins, region polygons, leader-line labels, info cards, hover tooltips, and drawer headers all use group colors.
+  - **Two-path country rendering** — one `<path>` for all land fill + one for all borders. Critical for drag performance.
+  - **Drag to rotate** — pointer events with RAF-throttled state updates. Trackpad: two-finger swipe left/right pans, up/down zooms.
+  - **Tap-hold-drag zoom** — Apple Maps style: tap once, tap again and hold, drag up to zoom in / down to zoom out. Double-tap also zooms in.
+  - **Civ pins** — visible only on the near hemisphere, year-filtered. Explicit `r` attribute on circles (6px mobile, 3.5px desktop). Click → animated spin-to-civ + zoom-to-fit-extent + region polygon highlight + info card.
+  - **Leader-line labels** — collision-avoiding placement (tries 4 directions), tinted with civ's region color.
+  - **Timeline scrubber** — year slider from 5000 BCE to 1700 CE with density waveform. Mobile: taller (96px), slanted era markers, year/count below slider.
+  - **Drawer sidebar** — 10 region groups with color + count, search, sticky header + search bar, dimmed-but-clickable items outside current year with explainer text, close button.
+  - **Info card** — chain position (e.g. "CHINA 4/12"), civ name, dates, summary, cities, era strip in group color. "Read the full story →" button for shipped TLs.
+  - **Globe ↔ Navigator sync** — 86 globe civs mapped to 91 navigator TLs via `GLOBE_TO_READER` in `globe2-data.ts`. Sub-civs show parent name in parens (e.g. "Silla / Unified Silla (Ancient Korea)"). All 25 shipped TLs reachable from globe.
+  - **Matched headers** — both home page and globe share identical header: "STUFF HAPPENED" eyebrow, *Historica* Lora italic title, *List View* / *Globe View* underline toggle, dark mode toggle. Pixel-matched sizes and spacing.
 
 ## Reader Features (planned)
 - Footnotes
@@ -254,6 +253,11 @@ Narratives follow the chain order from `reference-data/tl-chains.ts`:
 **Anatolian Succession chain** (in progress):
 1. ✅ hittite-empire — 8 chapters (~18.5k words), label "Hittite Empire", 70 reference events, 66 event links, 204 glossary links, 16 cross-links, 65 summary bullets, 8 WebP chapter maps, full audit + fixes. Covers pre-Hittite Hatti through Bronze Age Collapse to Neo-Hittite states (-2500 to -700 BCE) plus 19th-century rediscovery. Central thesis: the forgotten superpower — world-historic and completely forgotten for 3,000 years. Chain color: orange-red (`anatolian-succession`).
 2. ottoman-empire
+
+**Standalone TLs (no chain):**
+- ✅ phoenicia — 8 chapters (~16k words), label "Phoenicia", 71 reference events, 69 event links, 192 glossary links, 63 summary bullets, 8 chapter map prompts (maps pending Gemini), full audit + fixes. Covers Levantine coast from Bronze Age through destruction of Carthage (-1500 to -146 BCE). Central thesis: never built an empire — built something more durable: the alphabet, the trade routes, the colonies. Accent color: amber `#b45309`.
+- ✅ polynesian-voyagers — 8 chapters (~16k words), label "Polynesian Voyagers", 70 reference events, 70 event links, 214 glossary links, 67 summary bullets, 8 chapter map prompts (maps pending Gemini), full audit + fixes. Covers Lapita expansion through Polynesian Triangle settlement (-1500 to 1300 CE). Central thesis: the greatest exploration in human history, without metal, writing, compasses, or maps. Accent color: sky `#0ea5e9`.
+- ✅ ancient-israel — 8 chapters (~16k words), label "Ancient Israel", 71 reference events, 71 event links, 199 glossary links, 67 summary bullets, 8 chapter map prompts (maps pending Gemini), full audit + fixes. Covers Hebrew kingdoms from Saul through Babylonian exile (-1020 to -586 BCE). Central thesis: a tiny kingdom in a terrible location that produced the most influential collection of texts in human history. Accent color: gold `#ca8a04`.
 
 ## Color System
 - **Chain-driven accent colors**: defined in `src/lib/accent-colors.ts`. Every TL in the same chain gets the same accent color; every chain in the same region gets a distinct shade of the region's color family. Region families: Near East = amber/orange (#d97706), Africa = rust red (#b44d3b), Asia = violet/purple, Europe = blue/sky, Americas = green, Global = slate. `getAccentColors(tlId)` looks up the TL's first chain via `getChainsForTimeline` and returns the chain color (falling back to per-TL overrides or neutral gray).
