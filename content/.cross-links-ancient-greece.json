@@ -1,0 +1,132 @@
+{
+  "1": [
+    {
+      "matchText": "Phoenicians",
+      "targetTl": "phoenicia",
+      "targetChapter": 3,
+      "blurb": "The Phoenicians developed their consonant-only writing system around 1050 BCE and spread it across the Mediterranean through their trading network. The Greeks borrowed the letter forms and added vowels, creating the first true alphabet — a transformation that made Greek literature, philosophy, and science possible."
+    },
+    {
+      "matchText": "Mycenaean palaces had burned",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 7,
+      "blurb": "The Mycenaean palace civilization collapsed around 1200 BCE as part of the broader Bronze Age Collapse. The palace bureaucracies, the Linear B writing system, and the centralized economies all vanished within a generation, plunging Greece into a three-century Dark Age."
+    },
+    {
+      "matchText": "Shang dynasty oracle bones",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Shang dynasty developed Chinese writing through oracle bone divination around 1200 BCE, roughly contemporary with the Mycenaean Linear B tablets. Both writing systems served palace bureaucracies, but Chinese writing survived its dynasty's fall while Linear B died with the Mycenaean palaces."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "Persian Empire under Darius",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Darius I built the most sophisticated imperial administration the world had seen: twenty satrapies, the Royal Road courier system, standardized coinage, and codified law. Athens' democratic experiment and Persia's bureaucratic monarchy represented two radically different answers to the same question — how do you govern a diverse population?"
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 7,
+      "blurb": "The Zhou Dynasty's Warring States period was producing its own political fragmentation and intellectual ferment at the same time Athens was inventing democracy. Confucius, like Solon, sought institutional solutions to social crisis — but Confucius looked to restored ritual hierarchy while Solon expanded political participation."
+    }
+  ],
+  "3": [
+    {
+      "matchText": "Cyrus the Great",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Cyrus the Great built the Persian Empire from scratch in fifteen years, conquering Media, Lydia, and Babylon. His conquest of the Lydian kingdom in 547 BCE brought the Greek cities of the Ionian coast under Persian rule, setting up the collision between Greece and Persia that defined the next century."
+    },
+    {
+      "matchText": "Darius I",
+      "targetTl": "persian-empire",
+      "targetChapter": 3,
+      "blurb": "Darius I responded to the Ionian Revolt by sending the punitive expedition that was defeated at Marathon. From the Persian perspective, Greece was a minor frontier problem — a handful of small cities on the western fringe of an empire stretching from Egypt to the Indus."
+    }
+  ],
+  "4": [
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "The Phoenician cities of Tyre and Sidon were the naval backbone of the Persian fleet that fought at Salamis. Alexander's destruction of Tyre in 332 BCE would end Phoenician independence, but Phoenician seamanship had been essential to both Persian and Greek military strategies throughout the 5th century."
+    },
+    {
+      "matchText": "New Kingdom Egypt",
+      "targetTl": "new-kingdom-egypt",
+      "targetChapter": 5,
+      "blurb": "Thutmose III's battle at Megiddo in the 15th century BCE established the Jezreel Valley fortress as a strategic chokepoint. Eight centuries later, Egyptian culture was still influencing Greek art: the Athenian kouros statues of the Archaic period borrow their pose and proportional systems from Egyptian standing figures."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "The Assyrian Empire had demonstrated a century earlier what happens when an imperial power overextends: Assyria's relentless military campaigns exhausted its resources and provoked universal hatred, leading to its sudden destruction in 612 BCE. Athens' imperial overreach during the Peloponnesian War followed a strikingly similar arc."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "Maurya Empire in India",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Chandragupta Maurya founded the Maurya Empire around 322 BCE, roughly contemporary with Alexander's conquests. While Alexander imposed Greek culture by military force, Chandragupta built an Indian imperial system from the Arthashastra's playbook — ruthless pragmatism applied to subcontinental unification."
+    },
+    {
+      "matchText": "Xenophon",
+      "targetTl": "persian-empire",
+      "targetChapter": 4,
+      "blurb": "Xenophon's march of the Ten Thousand in 401 BCE proved that a small Greek army could penetrate deep into the Persian Empire and survive. Philip of Macedon and his son Alexander both studied the lesson: Persia's vast territory was not as impregnable as it appeared."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 7,
+      "blurb": "Alexander's seven-month siege of Tyre in 332 BCE destroyed the greatest Phoenician city and ended Phoenician independence. The causeway he built to reach the island fortress silted up over the centuries, permanently turning Tyre from an island into a peninsula."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 5,
+      "blurb": "Alexander dismantled the Achaemenid Empire in four years of campaigning, burning Persepolis and declaring himself the legitimate successor of the Persian kings. The empire Cyrus had built in fifteen years and Darius had organized into the ancient world's most efficient bureaucracy was gone."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Alexander reached the Indus region in 326 BCE, fighting King Porus at the Hydaspes. The Indus Valley had been the site of one of humanity's earliest urban civilizations over two thousand years earlier — Alexander was marching through lands with a history as deep as Egypt's."
+    }
+  ],
+  "8": [
+    {
+      "matchText": "Ptolemaic Kingdom",
+      "targetTl": "late-egypt",
+      "targetChapter": 6,
+      "blurb": "Ptolemy I seized Egypt after Alexander's death and founded a dynasty that would rule for nearly three centuries. The Ptolemies built Alexandria into the Mediterranean's greatest city, constructed the Library and the Lighthouse, and ruled as pharaohs — Greek kings performing Egyptian rituals in Egyptian temples."
+    },
+    {
+      "matchText": "Seleucid Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 6,
+      "blurb": "The Seleucid Empire inherited the vast eastern territories of Alexander's conquests but gradually shrank as the Parthians seized Persia and eastern provinces broke away. The Seleucids' failure to hold Alexander's empire proved that military conquest without cultural integration is unsustainable."
+    },
+    {
+      "matchText": "Cleopatra VII",
+      "targetTl": "late-egypt",
+      "targetChapter": 6,
+      "blurb": "Cleopatra VII, the last Ptolemaic ruler, was the final chapter of the Hellenistic age Alexander had inaugurated. Her defeat at Actium in 31 BCE ended Greek rule in Egypt and made the entire Mediterranean a Roman lake — closing the era of independent Greek and Hellenistic kingdoms."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "phoenicia",
+      "targetChapter": 8,
+      "blurb": "Rome destroyed Carthage in the same year (146 BCE) it destroyed Corinth, ending both Phoenician and Greek political independence in a single devastating season. The coincidence was not lost on ancient observers — the Mediterranean's two oldest trading civilizations were crushed simultaneously by the rising Roman superpower."
+    }
+  ]
+}
