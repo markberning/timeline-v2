@@ -1,0 +1,86 @@
+{
+  "1": [
+    {"eventId": "evt-smendes", "matchText": "Smendes I"},
+    {"eventId": "evt-tanis-royal-tombs", "matchText": "Tanis royal tombs"},
+    {"eventId": "evt-shoshenq-i", "matchText": "Shoshenq I"},
+    {"eventId": "evt-shoshenq-levant", "matchText": "military campaign into the Levant around 925 BCE"},
+    {"eventId": "evt-karnak-bubastite", "matchText": "Bubastite Portal"},
+    {"eventId": "evt-kushite-conquest", "matchText": "Kushite king Piye"},
+    {"eventId": "evt-king-piye", "matchText": "Victory Stela"},
+    {"eventId": "evt-shabaka", "matchText": "Shabaka Stone"},
+    {"eventId": "evt-taharqa", "matchText": "Taharqa"},
+    {"eventId": "evt-assyrian-conquest", "matchText": "Esarhaddon"},
+    {"eventId": "evt-sack-of-thebes", "matchText": "Sack of Thebes"},
+    {"eventId": "evt-psamtik-i", "matchText": "Psamtik I"},
+    {"eventId": "evt-saite-renaissance", "matchText": "Saite Renaissance"},
+    {"eventId": "evt-greek-mercenaries", "matchText": "Greek mercenaries"}
+  ],
+  "2": [
+    {"eventId": "evt-necho-ii", "matchText": "Necho II"},
+    {"eventId": "evt-battle-megiddo-609", "matchText": "Battle of Megiddo"},
+    {"eventId": "evt-battle-carchemish", "matchText": "Battle of Carchemish"},
+    {"eventId": "evt-suez-canal-precursor", "matchText": "Canal of the Pharaohs"},
+    {"eventId": "evt-africa-circumnavigation", "matchText": "circumnavigate Africa"},
+    {"eventId": "evt-psamtik-ii", "matchText": "Psamtik II"},
+    {"eventId": "evt-abu-simbel-graffiti", "matchText": "Abu Simbel graffiti"},
+    {"eventId": "evt-apries", "matchText": "Apries"}
+  ],
+  "3": [
+    {"eventId": "evt-amasis-ii", "matchText": "Amasis II"},
+    {"eventId": "evt-naucratis", "matchText": "Naucratis"},
+    {"eventId": "evt-demotic", "matchText": "demotic script"},
+    {"eventId": "evt-pythagoras-egypt", "matchText": "Pythagoras"},
+    {"eventId": "evt-egyptian-medicine-greeks", "matchText": "Egyptian medicine was similarly influential"},
+    {"eventId": "evt-psamtik-iii", "matchText": "Psamtik III"},
+    {"eventId": "evt-persian-conquest", "matchText": "Achaemenid Persian Empire"}
+  ],
+  "4": [
+    {"eventId": "evt-battle-pelusium", "matchText": "Battle of Pelusium"},
+    {"eventId": "evt-cambyses-ii-egypt", "matchText": "Cambyses II"},
+    {"eventId": "evt-udjahorresnet", "matchText": "Udjahorresnet"},
+    {"eventId": "evt-darius-i-egypt", "matchText": "Darius I"},
+    {"eventId": "evt-hibis-temple", "matchText": "Temple of Hibis"},
+    {"eventId": "evt-inaros-revolt", "matchText": "Inaros Revolt"},
+    {"eventId": "evt-herodotus-egypt", "matchText": "Herodotus"},
+    {"eventId": "evt-elephantine-papyri", "matchText": "Elephantine Papyri"},
+    {"eventId": "evt-egyptian-calendar", "matchText": "365-day civil calendar"}
+  ],
+  "5": [
+    {"eventId": "evt-amyrtaeus", "matchText": "Amyrtaeus"},
+    {"eventId": "evt-twenty-ninth-dynasty", "matchText": "Twenty-ninth Dynasty"},
+    {"eventId": "evt-grain-trade-athens", "matchText": "grain to Athens"},
+    {"eventId": "evt-plato-egypt", "matchText": "Plato"},
+    {"eventId": "evt-nectanebo-i", "matchText": "Nectanebo I"},
+    {"eventId": "evt-temple-philae", "matchText": "Temple of Isis at Philae"},
+    {"eventId": "evt-divine-birth-narratives", "matchText": "mammisi"},
+    {"eventId": "evt-nectanebo-ii", "matchText": "Nectanebo II"},
+    {"eventId": "evt-persian-reconquest", "matchText": "Artaxerxes III"},
+    {"eventId": "evt-dream-stele-tradition", "matchText": "dream stela"}
+  ],
+  "6": [
+    {"eventId": "evt-artaxerxes-iii-egypt", "matchText": "Second Persian Period"},
+    {"eventId": "evt-alexander", "matchText": "Alexander the Great"},
+    {"eventId": "evt-siwa-oracle", "matchText": "Oracle of Amun at Siwa"},
+    {"eventId": "evt-alexandria-founded", "matchText": "Alexandria"},
+    {"eventId": "evt-ptolemy-i", "matchText": "Ptolemy I Soter"},
+    {"eventId": "evt-serapis", "matchText": "Serapis"},
+    {"eventId": "evt-library", "matchText": "Library of Alexandria"},
+    {"eventId": "evt-lighthouse", "matchText": "Lighthouse of Alexandria"},
+    {"eventId": "evt-manetho", "matchText": "Manetho"},
+    {"eventId": "evt-eratosthenes-egypt", "matchText": "Eratosthenes"},
+    {"eventId": "evt-rosetta-stone", "matchText": "Rosetta Stone"},
+    {"eventId": "evt-cleopatra", "matchText": "Cleopatra VII"},
+    {"eventId": "evt-actium", "matchText": "Battle of Actium"},
+    {"eventId": "evt-temple-edfu", "matchText": "Edfu"}
+  ],
+  "7": [
+    {"eventId": "evt-animal-cult-explosion", "matchText": "animal cult explosion"},
+    {"eventId": "evt-serapeum-expansion", "matchText": "Serapeum at Saqqara"},
+    {"eventId": "evt-imhotep-cult", "matchText": "Cult of Imhotep"},
+    {"eventId": "evt-temple-archives", "matchText": "House of Life"},
+    {"eventId": "evt-astronomical-observations", "matchText": "stellar decans"}
+  ],
+  "8": [
+    {"eventId": "evt-grain-trade", "matchText": "shipping millions of bushels of grain annually"}
+  ]
+}
