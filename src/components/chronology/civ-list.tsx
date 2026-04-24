@@ -1,19 +1,24 @@
 'use client'
 
-import { useRef, useEffect, useCallback } from 'react'
+import { useRef, useEffect, useCallback, useMemo } from 'react'
 import { REGION_COLORS, REGION_LABELS } from '@/lib/navigator-tls'
 import { SORTED_CIVS, CIV_CHAIN_MAP, formatYearRange } from '@/lib/chronology-data'
+import { CHAIN_COLORS } from '@/lib/accent-colors'
+import type { NavigatorTl } from '@/lib/navigator-tls'
+import { TL_CHAINS } from '../../../reference-data/tl-chains'
 
 interface CivListProps {
   activeCivId: string | null
   onActiveCivChange: (id: string) => void
   listRef: React.RefObject<HTMLDivElement | null>
+  soloChainId: string | null
+  onChainSolo: (id: string | null) => void
 }
 
 const ACTIVATION_FRAC = 0.20
 const SCROLL_END_MS = 300
 
-export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProps) {
+export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, onChainSolo }: CivListProps) {
   const rowEls = useRef<Map<string, HTMLDivElement>>(new Map())
   const visualActiveId = useRef<string | null>(activeCivId)
   const scrollEndTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -21,6 +26,20 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
   // When an external source (bar tap) sets the active civ, suppress
   // scroll-based detection until the programmatic scroll settles.
   const externalLockUntil = useRef<number>(0)
+
+  // Compute filtered + reordered civs when a chain is solo'd
+  const soloChain = useMemo(() => {
+    if (!soloChainId) return null
+    return TL_CHAINS.find(c => c.id === soloChainId) ?? null
+  }, [soloChainId])
+
+  const displayCivs: NavigatorTl[] = useMemo(() => {
+    if (!soloChain) return SORTED_CIVS
+    const civById = new Map(SORTED_CIVS.map(c => [c.id, c]))
+    return soloChain.entries
+      .map(e => civById.get(e.timelineId))
+      .filter((c): c is NavigatorTl => c !== undefined)
+  }, [soloChain])
 
   useEffect(() => { visualActiveId.current = activeCivId }, [activeCivId])
 
@@ -49,7 +68,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
         if (Date.now() < externalLockUntil.current) return
 
         if (container!.scrollTop < 20) {
-          const firstId = SORTED_CIVS[0]?.id
+          const firstId = displayCivs[0]?.id
           if (firstId) {
             applyVisualActive(firstId)
             if (scrollEndTimer.current) clearTimeout(scrollEndTimer.current)
@@ -91,7 +110,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
       cancelAnimationFrame(rafId.current)
       if (scrollEndTimer.current) clearTimeout(scrollEndTimer.current)
     }
-  }, [listRef, applyVisualActive, onActiveCivChange])
+  }, [listRef, applyVisualActive, onActiveCivChange, displayCivs])
 
   // When activeCivId changes externally (e.g. bar tap), update visual + scroll to row
   useEffect(() => {
@@ -114,9 +133,45 @@ export function CivList({ activeCivId, onActiveCivChange, listRef }: CivListProp
     else rowEls.current.delete(id)
   }, [])
 
+  // Scroll to top when chain filter changes
+  useEffect(() => {
+    if (listRef.current) {
+      listRef.current.scrollTo({ top: 0, behavior: 'auto' })
+    }
+  }, [soloChainId, listRef])
+
+  const soloColor = soloChain
+    ? (CHAIN_COLORS[soloChain.id]?.base ?? '#6b7280')
+    : null
+
   return (
     <div ref={listRef} className="flex-1 overflow-y-auto overflow-x-hidden px-5 pt-2" style={{ overscrollBehaviorY: 'contain' }}>
-      {SORTED_CIVS.map(civ => {
+      {/* Chain filter header */}
+      {soloChain && (
+        <div
+          className="flex items-center gap-2 py-2 px-1 mb-1 sticky top-0 z-10"
+          style={{ backgroundColor: 'var(--background)' }}
+        >
+          <div
+            className="w-2 h-2 rounded-full shrink-0"
+            style={{ backgroundColor: soloColor! }}
+          />
+          <span className="text-[13px] font-bold flex-1" style={{ color: soloColor! }}>
+            {soloChain.label}
+          </span>
+          <span className="text-[11px] text-foreground/40 mr-1">
+            {displayCivs.length} TL{displayCivs.length !== 1 ? 's' : ''}
+          </span>
+          <button
+            className="text-[11px] font-bold uppercase tracking-wider opacity-40 cursor-pointer px-2 py-1"
+            onClick={() => onChainSolo(null)}
+          >
+            ✕
+          </button>
+        </div>
+      )}
+
+      {displayCivs.map(civ => {
         const color = REGION_COLORS[civ.region]
         const chainInfo = CIV_CHAIN_MAP.get(civ.id)
         const chainLabel = chainInfo?.chain.shortLabel ?? REGION_LABELS[civ.region]

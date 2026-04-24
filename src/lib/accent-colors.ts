@@ -30,7 +30,7 @@ export interface AccentColors {
 // map below (empty for now) and finally to the neutral default.
 // ----------------------------------------------------------------------
 
-const CHAIN_COLORS: Record<string, AccentColors> = {
+export const CHAIN_COLORS: Record<string, AccentColors> = {
   // Near East (amber / orange family)
   'mesopotamian-succession': { base: '#d97706', text: '#92400e', badge: '#b45309' },
   'anatolian-succession':    { base: '#ea580c', text: '#9a3412', badge: '#c2410c' },

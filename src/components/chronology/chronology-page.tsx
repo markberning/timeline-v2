@@ -32,6 +32,8 @@ function getInitialCiv(): string | null {
 export function ChronologyPage() {
   const isDesktop = useIsDesktop()
   const [activeCivId, setActiveCivId] = useState<string | null>(getInitialCiv)
+  const [ribbonMode, setRibbonMode] = useState<'timeline' | 'chains'>('timeline')
+  const [soloChainId, setSoloChainId] = useState<string | null>(null)
   const ribbonScrollRef = useRef<HTMLDivElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
 
@@ -58,6 +60,10 @@ export function ChronologyPage() {
         activeCivId={activeCivId}
         onSelect={setActiveCivId}
         scrollRef={ribbonScrollRef}
+        ribbonMode={ribbonMode}
+        onRibbonModeChange={setRibbonMode}
+        soloChainId={soloChainId}
+        onChainSolo={setSoloChainId}
       />
 
       {isDesktop ? (
@@ -67,6 +73,8 @@ export function ChronologyPage() {
           activeCivId={activeCivId}
           onActiveCivChange={setActiveCivId}
           listRef={listRef}
+          soloChainId={soloChainId}
+          onChainSolo={setSoloChainId}
         />
       )}
     </div>
