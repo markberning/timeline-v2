@@ -131,7 +131,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'zapotec-civilization', label: 'Zapotec', subtitle: "Oaxaca's mountaintop scribes", region: 'americas', startYear: -500, endYear: 1521 },
   { id: 'ancestral-puebloans', label: 'Ancestral Puebloans', subtitle: "Mesa Verde and Chaco Canyon's cliff builders", region: 'americas', startYear: -100, endYear: 1300 },
   { id: 'teotihuacan', label: 'Teotihuacan', subtitle: "the Americas' first great metropolis", region: 'americas', startYear: -100, endYear: 550 },
-  { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697 },
+  { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697, hasContent: true },
   { id: 'andean-kingdoms', label: 'Andean Kingdoms', subtitle: "Peru's regional cultures (Moche, Nazca)", region: 'americas', startYear: -200, endYear: 500 },
   { id: 'middle-horizon-empires', label: 'Tiwanaku & Wari', subtitle: 'highland Andean empires before the Inca', region: 'americas', startYear: 500, endYear: 1000 },
   { id: 'mississippian-culture', label: 'Mississippian', subtitle: "Cahokia's mound-building chiefdoms", region: 'americas', startYear: 800, endYear: 1600 },
