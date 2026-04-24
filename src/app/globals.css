@@ -214,9 +214,7 @@ a.cross-link {
 
 /* Active row */
 .civ-row[data-active] .civ-row-inner {
-  box-shadow: inset 4px 0 0 var(--row-color), 0 0 0 1px color-mix(in srgb, var(--row-color) 30%, transparent);
-  background: color-mix(in srgb, var(--row-color) 18%, transparent);
-  border-radius: 8px;
+  box-shadow: inset 4px 0 0 var(--row-color);
 }
 .civ-row[data-active] .civ-row-chain {
   color: var(--row-color);
