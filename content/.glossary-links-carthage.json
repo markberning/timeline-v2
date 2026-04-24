@@ -1,211 +1,1164 @@
 {
-  "chapters": {
-    "1": [
-      {"term": "Tyre", "matchText": "Tyre", "wikiSlug": "Tyre,_Lebanon", "type": "place"},
-      {"term": "Phoenician", "matchText": "Phoenician", "wikiSlug": "Phoenicia", "type": "concept"},
-      {"term": "Tunisia", "matchText": "Tunisia", "wikiSlug": "Tunisia", "type": "place"},
-      {"term": "Gulf of Tunis", "matchText": "Gulf of Tunis", "wikiSlug": "Gulf_of_Tunis", "type": "place"},
-      {"term": "Byrsa", "matchText": "Byrsa", "wikiSlug": "Byrsa", "type": "place"},
-      {"term": "Virgil", "matchText": "Virgil", "wikiSlug": "Virgil", "type": "people"},
-      {"term": "Aeneid", "matchText": "Aeneid", "wikiSlug": "Aeneid", "type": "concept"},
-      {"term": "Pygmalion", "matchText": "Pygmalion", "wikiSlug": "Pygmalion_of_Tyre", "type": "people"},
-      {"term": "Melqart", "matchText": "Melqart", "wikiSlug": "Melqart", "type": "concept"},
-      {"term": "Polybius", "matchText": "Polybius", "wikiSlug": "Polybius", "type": "people"},
-      {"term": "Diodorus Siculus", "matchText": "Diodorus Siculus", "wikiSlug": "Diodorus_Siculus", "type": "people"},
-      {"term": "Appian", "matchText": "Appian", "wikiSlug": "Appian", "type": "people"},
-      {"term": "Livy", "matchText": "Livy", "wikiSlug": "Livy", "type": "people"},
-      {"term": "Sicily", "matchText": "Sicily", "wikiSlug": "Sicily", "type": "place"},
-      {"term": "Utica", "matchText": "Utica", "wikiSlug": "Utica,_Tunisia", "type": "place"},
-      {"term": "Gadir", "matchText": "Gadir", "wikiSlug": "C%C3%A1diz", "type": "place"},
-      {"term": "Cap Bon", "matchText": "Cap Bon", "wikiSlug": "Cape_Bon", "type": "place"},
-      {"term": "Medjerda River", "matchText": "Medjerda River", "wikiSlug": "Medjerda_River", "type": "place"},
-      {"term": "Neo-Assyrian Empire", "matchText": "Neo-Assyrian Empire", "wikiSlug": "Neo-Assyrian_Empire", "type": "concept"},
-      {"term": "Tanit", "matchText": "Tanit", "wikiSlug": "Tanit", "type": "concept"},
-      {"term": "Baal Hammon", "matchText": "Baal Hammon", "wikiSlug": "Baal_Hammon", "type": "concept"},
-      {"term": "Tophet", "matchText": "Tophet", "wikiSlug": "Tophet", "type": "concept"},
-      {"term": "Punic", "matchText": "Punic script", "wikiSlug": "Punic_language", "type": "concept"},
-      {"term": "Neo-Punic", "matchText": "Neo-Punic", "wikiSlug": "Neo-Punic", "type": "concept"},
-      {"term": "Temple of Eshmun", "matchText": "Temple of Eshmun", "wikiSlug": "Eshmun", "type": "place"},
-      {"term": "Sardinia", "matchText": "Sardinia", "wikiSlug": "Sardinia", "type": "place"},
-      {"term": "Lebanon", "matchText": "Lebanon", "wikiSlug": "Lebanon", "type": "place"},
-      {"term": "Berber", "matchText": "Berber", "wikiSlug": "Berbers", "type": "people"}
-    ],
-    "2": [
-      {"term": "Magonid dynasty", "matchText": "Magonid dynasty", "wikiSlug": "Magonids", "type": "concept"},
-      {"term": "Syracuse", "matchText": "Syracuse", "wikiSlug": "Syracuse,_Sicily", "type": "place"},
-      {"term": "Etruscans", "matchText": "Etruscans", "wikiSlug": "Etruscan_civilization", "type": "people"},
-      {"term": "Corsica", "matchText": "Corsica", "wikiSlug": "Corsica", "type": "place"},
-      {"term": "Phocaea", "matchText": "Phocaea", "wikiSlug": "Phocaea", "type": "place"},
-      {"term": "Mediterranean", "matchText": "Mediterranean", "wikiSlug": "Mediterranean_Sea", "type": "place"},
-      {"term": "Iberia", "matchText": "Iberia", "wikiSlug": "Iberian_Peninsula", "type": "place"},
-      {"term": "quinquereme", "matchText": "quinquereme", "wikiSlug": "Quinquereme", "type": "concept"},
-      {"term": "trireme", "matchText": "triremes", "wikiSlug": "Trireme", "type": "concept"},
-      {"term": "Periplus of Hanno", "matchText": "Periplus of Hanno", "wikiSlug": "Hanno_the_Navigator", "type": "concept"},
-      {"term": "Mount Cameroon", "matchText": "Mount Cameroon", "wikiSlug": "Mount_Cameroon", "type": "place"},
-      {"term": "Brittany", "matchText": "Brittany", "wikiSlug": "Brittany", "type": "place"},
-      {"term": "Strait of Gibraltar", "matchText": "Strait of Gibraltar", "wikiSlug": "Strait_of_Gibraltar", "type": "place"},
-      {"term": "Roman Republic", "matchText": "Roman Republic", "wikiSlug": "Roman_Republic", "type": "concept"},
-      {"term": "Latium", "matchText": "Latium", "wikiSlug": "Latium", "type": "place"},
-      {"term": "Pillars of Hercules", "matchText": "Pillars of Hercules", "wikiSlug": "Pillars_of_Hercules", "type": "place"},
-      {"term": "North Africa", "matchText": "North Africa", "wikiSlug": "North_Africa", "type": "place"},
-      {"term": "Hanno the Navigator", "matchText": "the Navigator", "wikiSlug": "Hanno_the_Navigator", "type": "people"},
-      {"term": "gorilla", "matchText": "Gorillae", "wikiSlug": "Gorilla", "type": "concept"},
-      {"term": "Persians", "matchText": "Persians", "wikiSlug": "Achaemenid_Empire", "type": "concept"},
-      {"term": "bronze", "matchText": "bronze", "wikiSlug": "Bronze", "type": "concept"}
-    ],
-    "3": [
-      {"term": "Battle of Salamis", "matchText": "Salamis", "wikiSlug": "Battle_of_Salamis", "type": "concept"},
-      {"term": "Himera", "matchText": "Himera", "wikiSlug": "Himera", "type": "place"},
-      {"term": "Gelon of Syracuse", "matchText": "Gelon of Syracuse", "wikiSlug": "Gelo", "type": "people"},
-      {"term": "suffete", "matchText": "suffetes", "wikiSlug": "Suffet", "type": "concept"},
-      {"term": "Aristotle", "matchText": "Aristotle", "wikiSlug": "Aristotle", "type": "people"},
-      {"term": "Sparta", "matchText": "Sparta", "wikiSlug": "Sparta", "type": "place"},
-      {"term": "Council of Elders", "matchText": "Council of Elders", "wikiSlug": "Government_of_Carthage", "type": "concept"},
-      {"term": "Libya", "matchText": "Libyan", "wikiSlug": "Ancient_Libya", "type": "concept"},
-      {"term": "Bagradas Valley", "matchText": "Bagradas Valley", "wikiSlug": "Medjerda_River", "type": "place"},
-      {"term": "Mago the agronomist", "matchText": "Mago", "wikiSlug": "Mago_(agriculture)", "type": "people"},
-      {"term": "viticulture", "matchText": "viticulture", "wikiSlug": "Viticulture", "type": "concept"},
-      {"term": "gold dust", "matchText": "gold dust", "wikiSlug": "Gold_dust", "type": "concept"},
-      {"term": "Timoleon", "matchText": "Timoleon", "wikiSlug": "Timoleon", "type": "people"},
-      {"term": "Corinth", "matchText": "Corinthian", "wikiSlug": "Corinth", "type": "place"},
-      {"term": "Agathocles", "matchText": "Agathocles", "wikiSlug": "Agathocles", "type": "people"},
-      {"term": "Cothon", "matchText": "Cothon", "wikiSlug": "Cothon", "type": "place"},
-      {"term": "Kerkouane", "matchText": "Kerkouane", "wikiSlug": "Kerkouane", "type": "place"},
-      {"term": "UNESCO World Heritage Site", "matchText": "UNESCO World Heritage Site", "wikiSlug": "World_Heritage_Site", "type": "concept"},
-      {"term": "murex", "matchText": "murex shells", "wikiSlug": "Murex", "type": "concept"},
-      {"term": "Tanit symbol", "matchText": "Tanit symbol", "wikiSlug": "Tanit", "type": "concept"},
-      {"term": "Alexandria", "matchText": "Alexandria", "wikiSlug": "Alexandria", "type": "place"},
-      {"term": "war elephants", "matchText": "war elephants", "wikiSlug": "War_elephant", "type": "concept"},
-      {"term": "Saharan trade", "matchText": "Saharan trade routes", "wikiSlug": "Trans-Saharan_trade", "type": "concept"},
-      {"term": "Crimissus River", "matchText": "Crimissus", "wikiSlug": "Crimissus", "type": "place"}
-    ],
-    "4": [
-      {"term": "Messana", "matchText": "Messana", "wikiSlug": "Messina", "type": "place"},
-      {"term": "First Punic War", "matchText": "First Punic War", "wikiSlug": "First_Punic_War", "type": "concept"},
-      {"term": "Mamertines", "matchText": "Mamertines", "wikiSlug": "Mamertines", "type": "people"},
-      {"term": "Strait of Messina", "matchText": "Strait of Messina", "wikiSlug": "Strait_of_Messina", "type": "place"},
-      {"term": "Agrigentum", "matchText": "Agrigentum", "wikiSlug": "Agrigentum", "type": "place"},
-      {"term": "corvus", "matchText": "corvus", "wikiSlug": "Corvus_(boarding_device)", "type": "concept"},
-      {"term": "Regulus", "matchText": "Regulus", "wikiSlug": "Marcus_Atilius_Regulus", "type": "people"},
-      {"term": "Xanthippus", "matchText": "Xanthippus", "wikiSlug": "Xanthippus_(Carthaginian_general)", "type": "people"},
-      {"term": "Numidian", "matchText": "Numidians", "wikiSlug": "Numidia", "type": "people"},
-      {"term": "Hamilcar Barca", "matchText": "Hamilcar Barca", "wikiSlug": "Hamilcar_Barca", "type": "people"},
-      {"term": "Mount Eryx", "matchText": "Mount Eryx", "wikiSlug": "Eryx_(city)", "type": "place"},
-      {"term": "Aegates Islands", "matchText": "Aegates Islands", "wikiSlug": "Aegadian_Islands", "type": "place"},
-      {"term": "Mercenary War", "matchText": "Mercenary War", "wikiSlug": "Mercenary_War", "type": "concept"},
-      {"term": "Truceless War", "matchText": "Truceless War", "wikiSlug": "Mercenary_War", "type": "concept"},
-      {"term": "Balearic slingers", "matchText": "Balearic slingers", "wikiSlug": "Balearic_slinger", "type": "concept"},
-      {"term": "talent", "matchText": "talents", "wikiSlug": "Talent_(measurement)", "type": "concept"},
-      {"term": "Battle of Tunis", "matchText": "Battle of Tunis", "wikiSlug": "Battle_of_Tunis_(255_BC)", "type": "concept"},
-      {"term": "quinquereme", "matchText": "quinqueremes", "wikiSlug": "Quinquereme", "type": "concept"},
-      {"term": "guerrilla warfare", "matchText": "guerrilla campaign", "wikiSlug": "Guerrilla_warfare", "type": "concept"},
-      {"term": "Spartan", "matchText": "Spartan mercenary general", "wikiSlug": "Sparta", "type": "concept"}
-    ],
-    "5": [
-      {"term": "Iberia", "matchText": "Iberia", "wikiSlug": "Iberian_Peninsula", "type": "place"},
-      {"term": "Hannibal", "matchText": "Hannibal", "wikiSlug": "Hannibal", "type": "people"},
-      {"term": "Celtiberian", "matchText": "Celtiberian", "wikiSlug": "Celtiberians", "type": "people"},
-      {"term": "Carthaginian Senate", "matchText": "Carthaginian Senate", "wikiSlug": "Government_of_Carthage", "type": "concept"},
-      {"term": "Hasdrubal the Fair", "matchText": "Hasdrubal the Fair", "wikiSlug": "Hasdrubal_the_Fair", "type": "people"},
-      {"term": "Carthago Nova", "matchText": "Carthago Nova", "wikiSlug": "Cartagena,_Spain", "type": "place"},
-      {"term": "Cartagena", "matchText": "Cartagena", "wikiSlug": "Cartagena,_Spain", "type": "place"},
-      {"term": "Ebro Treaty", "matchText": "Ebro Treaty", "wikiSlug": "Ebro_Treaty", "type": "concept"},
-      {"term": "Ebro River", "matchText": "Ebro River", "wikiSlug": "Ebro", "type": "place"},
-      {"term": "Saguntum", "matchText": "Saguntum", "wikiSlug": "Saguntum", "type": "place"},
-      {"term": "Alexander the Great", "matchText": "Alexander the Great", "wikiSlug": "Alexander_the_Great", "type": "people"},
-      {"term": "Julius Caesar", "matchText": "Julius Caesar", "wikiSlug": "Julius_Caesar", "type": "people"},
-      {"term": "Napoleon", "matchText": "Napoleon", "wikiSlug": "Napoleon", "type": "people"},
-      {"term": "Numidian cavalry", "matchText": "Numidian cavalry", "wikiSlug": "Numidia", "type": "concept"},
-      {"term": "Pyrenees", "matchText": "Pyrenees", "wikiSlug": "Pyrenees", "type": "place"},
-      {"term": "Alps", "matchText": "Alps", "wikiSlug": "Alps", "type": "place"},
-      {"term": "Second Punic War", "matchText": "Second Punic War", "wikiSlug": "Second_Punic_War", "type": "concept"},
-      {"term": "Iberian infantry", "matchText": "Iberian heavy infantry", "wikiSlug": "Iberians", "type": "people"},
-      {"term": "Libyan spearmen", "matchText": "Libyan spearmen", "wikiSlug": "Ancient_Libya", "type": "concept"},
-      {"term": "Baal Hammon", "matchText": "Baal Hammon", "wikiSlug": "Baal_Hammon", "type": "concept"},
-      {"term": "Gaul", "matchText": "Gallic territory", "wikiSlug": "Gaul", "type": "place"}
-    ],
-    "6": [
-      {"term": "Col de Clapier", "matchText": "Col de Clapier", "wikiSlug": "Col_de_Clapier", "type": "place"},
-      {"term": "Col du Mont Cenis", "matchText": "Col du Mont Cenis", "wikiSlug": "Mont_Cenis", "type": "place"},
-      {"term": "Col de la Traversette", "matchText": "Col de la Traversette", "wikiSlug": "Col_de_la_Traversette", "type": "place"},
-      {"term": "Po Valley", "matchText": "Po Valley", "wikiSlug": "Po_Valley", "type": "place"},
-      {"term": "Gauls", "matchText": "Gauls", "wikiSlug": "Gauls", "type": "people"},
-      {"term": "Battle of the Trebia", "matchText": "Battle of the Trebia", "wikiSlug": "Battle_of_the_Trebia", "type": "concept"},
-      {"term": "Lake Trasimene", "matchText": "Lake Trasimene", "wikiSlug": "Lake_Trasimene", "type": "place"},
-      {"term": "Flaminius", "matchText": "Flaminius", "wikiSlug": "Gaius_Flaminius", "type": "people"},
-      {"term": "Fabius Maximus", "matchText": "Quintus Fabius Maximus", "wikiSlug": "Quintus_Fabius_Maximus_Verrucosus", "type": "people"},
-      {"term": "Fabian strategy", "matchText": "Fabian strategy", "wikiSlug": "Fabian_strategy", "type": "concept"},
-      {"term": "Cannae", "matchText": "Cannae", "wikiSlug": "Cannae", "type": "place"},
-      {"term": "double envelopment", "matchText": "double envelopment", "wikiSlug": "Pincer_movement", "type": "concept"},
-      {"term": "Libyan heavy infantry", "matchText": "Libyan heavy infantry", "wikiSlug": "Military_of_Carthage", "type": "concept"},
-      {"term": "Capua", "matchText": "Capua", "wikiSlug": "Capua", "type": "place"},
-      {"term": "Hasdrubal Barca", "matchText": "Hasdrubal Barca", "wikiSlug": "Hasdrubal_Barca", "type": "people"},
-      {"term": "Metaurus River", "matchText": "Metaurus", "wikiSlug": "Battle_of_the_Metaurus", "type": "place"},
-      {"term": "Scipio Africanus", "matchText": "Scipio Africanus", "wikiSlug": "Scipio_Africanus", "type": "people"},
-      {"term": "Battle of Zama", "matchText": "Battle of Zama", "wikiSlug": "Battle_of_Zama", "type": "concept"},
-      {"term": "Bithynia", "matchText": "Bithynia", "wikiSlug": "Bithynia", "type": "place"},
-      {"term": "West Point", "matchText": "West Point", "wikiSlug": "United_States_Military_Academy", "type": "place"},
-      {"term": "Sandhurst", "matchText": "Sandhurst", "wikiSlug": "Royal_Military_Academy_Sandhurst", "type": "place"},
-      {"term": "Numidian light cavalry", "matchText": "Numidian horsemen", "wikiSlug": "Numidia", "type": "concept"},
-      {"term": "Battle of the Somme", "matchText": "Somme", "wikiSlug": "Battle_of_the_Somme", "type": "concept"},
-      {"term": "Aemilius Paullus", "matchText": "Aemilius Paullus", "wikiSlug": "Lucius_Aemilius_Paullus_(consul_219_BC)", "type": "people"},
-      {"term": "Varro", "matchText": "Varro", "wikiSlug": "Gaius_Terentius_Varro", "type": "people"}
-    ],
-    "7": [
-      {"term": "Baal Hammon", "matchText": "Baal Hammon", "wikiSlug": "Baal_Hammon", "type": "concept"},
-      {"term": "Tanit", "matchText": "Tanit", "wikiSlug": "Tanit", "type": "concept"},
-      {"term": "sign of Tanit", "matchText": "sign of Tanit", "wikiSlug": "Tanit", "type": "concept"},
-      {"term": "Demeter", "matchText": "Demeter", "wikiSlug": "Demeter", "type": "concept"},
-      {"term": "Isis", "matchText": "Isis", "wikiSlug": "Isis", "type": "concept"},
-      {"term": "Kore (Persephone)", "matchText": "Kore", "wikiSlug": "Persephone", "type": "concept"},
-      {"term": "Melqart", "matchText": "Melqart", "wikiSlug": "Melqart", "type": "concept"},
-      {"term": "Tophet", "matchText": "Tophet debate", "wikiSlug": "Tophet", "type": "concept"},
-      {"term": "votive stelae", "matchText": "votive stelae", "wikiSlug": "Stele", "type": "concept"},
-      {"term": "Plutarch", "matchText": "Plutarch", "wikiSlug": "Plutarch", "type": "people"},
-      {"term": "Cleitarchus", "matchText": "Cleitarchus", "wikiSlug": "Cleitarchus", "type": "people"},
-      {"term": "Diodorus Siculus", "matchText": "Diodorus Siculus", "wikiSlug": "Diodorus_Siculus", "type": "people"},
-      {"term": "Tyrian purple", "matchText": "Tyrian purple", "wikiSlug": "Tyrian_purple", "type": "concept"},
-      {"term": "murex", "matchText": "murex sea snails", "wikiSlug": "Murex", "type": "concept"},
-      {"term": "electrum", "matchText": "electrum", "wikiSlug": "Electrum", "type": "concept"},
-      {"term": "Ursa Minor", "matchText": "Ursa Minor", "wikiSlug": "Ursa_Minor", "type": "concept"},
-      {"term": "Barcid coins", "matchText": "Barcid coins", "wikiSlug": "Hannibal", "type": "concept"},
-      {"term": "Sacred Band of Carthage", "matchText": "Sacred Band of Carthage", "wikiSlug": "Sacred_Band_of_Carthage", "type": "concept"},
-      {"term": "Balearic slingers", "matchText": "Balearic slingers", "wikiSlug": "Balearic_slinger", "type": "concept"},
-      {"term": "North African forest elephant", "matchText": "North African forest elephants", "wikiSlug": "North_African_elephant", "type": "concept"},
-      {"term": "Atlas Mountains", "matchText": "Atlas Mountains", "wikiSlug": "Atlas_Mountains", "type": "place"},
-      {"term": "Terence", "matchText": "Terence", "wikiSlug": "Terence", "type": "people"},
-      {"term": "Shakespeare", "matchText": "Shakespeare", "wikiSlug": "William_Shakespeare", "type": "people"},
-      {"term": "Moliere", "matchText": "Moliere", "wikiSlug": "Moli%C3%A8re", "type": "people"},
-      {"term": "Numidian cavalry", "matchText": "Numidian cavalry", "wikiSlug": "Numidia", "type": "concept"},
-      {"term": "mercenary system", "matchText": "mercenaries and allied contingents", "wikiSlug": "Military_of_Carthage", "type": "concept"},
-      {"term": "monotheism", "matchText": "monotheistic religions", "wikiSlug": "Monotheism", "type": "concept"},
-      {"term": "Judaism", "matchText": "Judaism", "wikiSlug": "Judaism", "type": "concept"}
-    ],
-    "8": [
-      {"term": "Masinissa", "matchText": "Masinissa", "wikiSlug": "Masinissa", "type": "people"},
-      {"term": "Numidians", "matchText": "Numidians", "wikiSlug": "Numidia", "type": "people"},
-      {"term": "Cato the Elder", "matchText": "Cato the Elder", "wikiSlug": "Cato_the_Elder", "type": "people"},
-      {"term": "Carthago delenda est", "matchText": "Carthago delenda est", "wikiSlug": "Carthago_delenda_est", "type": "concept"},
-      {"term": "Third Punic War", "matchText": "Third Punic War", "wikiSlug": "Third_Punic_War", "type": "concept"},
-      {"term": "Scipio Aemilianus", "matchText": "Scipio Aemilianus", "wikiSlug": "Scipio_Aemilianus", "type": "people"},
-      {"term": "Scipio Africanus", "matchText": "Scipio Africanus", "wikiSlug": "Scipio_Africanus", "type": "people"},
-      {"term": "Temple of Eshmun", "matchText": "Temple of Eshmun", "wikiSlug": "Eshmun", "type": "place"},
-      {"term": "Byrsa Hill", "matchText": "Byrsa Hill", "wikiSlug": "Byrsa", "type": "place"},
-      {"term": "Cothon", "matchText": "Cothon", "wikiSlug": "Cothon", "type": "place"},
-      {"term": "province of Africa", "matchText": "province of Africa", "wikiSlug": "Africa_(Roman_province)", "type": "place"},
-      {"term": "Corinth", "matchText": "Corinth", "wikiSlug": "Corinth", "type": "place"},
-      {"term": "Julius Caesar", "matchText": "Julius Caesar", "wikiSlug": "Julius_Caesar", "type": "people"},
-      {"term": "Augustus", "matchText": "Augustus", "wikiSlug": "Augustus", "type": "people"},
-      {"term": "Saint Augustine", "matchText": "Saint Augustine", "wikiSlug": "Augustine_of_Hippo", "type": "people"},
-      {"term": "Kerkouane", "matchText": "Kerkouane", "wikiSlug": "Kerkouane", "type": "place"},
-      {"term": "Tophet", "matchText": "Tophet", "wikiSlug": "Tophet", "type": "concept"},
-      {"term": "Mago agricultural treatise", "matchText": "agricultural treatise", "wikiSlug": "Mago_(agriculture)", "type": "concept"},
-      {"term": "Polybius", "matchText": "Polybius", "wikiSlug": "Polybius", "type": "people"},
-      {"term": "Herodotus", "matchText": "Herodotus", "wikiSlug": "Herodotus", "type": "people"},
-      {"term": "Thucydides", "matchText": "Thucydides", "wikiSlug": "Thucydides", "type": "people"},
-      {"term": "Punic faith", "matchText": "Punic faith", "wikiSlug": "Punic_faith", "type": "concept"},
-      {"term": "Phoenician alphabet", "matchText": "Phoenician script", "wikiSlug": "Phoenician_alphabet", "type": "concept"},
-      {"term": "sign of Tanit", "matchText": "sign of Tanit", "wikiSlug": "Tanit", "type": "concept"}
-    ]
-  }
+  "1": [
+    {
+      "term": "Tyre",
+      "matchText": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Phoenician",
+      "matchText": "Phoenician",
+      "wikiSlug": "Phoenicia",
+      "type": "concept"
+    },
+    {
+      "term": "Tunisia",
+      "matchText": "Tunisia",
+      "wikiSlug": "Tunisia",
+      "type": "place"
+    },
+    {
+      "term": "Gulf of Tunis",
+      "matchText": "Gulf of Tunis",
+      "wikiSlug": "Gulf_of_Tunis",
+      "type": "place"
+    },
+    {
+      "term": "Byrsa",
+      "matchText": "Byrsa",
+      "wikiSlug": "Byrsa",
+      "type": "place"
+    },
+    {
+      "term": "Virgil",
+      "matchText": "Virgil",
+      "wikiSlug": "Virgil",
+      "type": "people"
+    },
+    {
+      "term": "Aeneid",
+      "matchText": "Aeneid",
+      "wikiSlug": "Aeneid",
+      "type": "concept"
+    },
+    {
+      "term": "Pygmalion",
+      "matchText": "Pygmalion",
+      "wikiSlug": "Pygmalion_of_Tyre",
+      "type": "people"
+    },
+    {
+      "term": "Melqart",
+      "matchText": "Melqart",
+      "wikiSlug": "Melqart",
+      "type": "concept"
+    },
+    {
+      "term": "Polybius",
+      "matchText": "Polybius",
+      "wikiSlug": "Polybius",
+      "type": "people"
+    },
+    {
+      "term": "Diodorus Siculus",
+      "matchText": "Diodorus Siculus",
+      "wikiSlug": "Diodorus_Siculus",
+      "type": "people"
+    },
+    {
+      "term": "Appian",
+      "matchText": "Appian",
+      "wikiSlug": "Appian",
+      "type": "people"
+    },
+    {
+      "term": "Livy",
+      "matchText": "Livy",
+      "wikiSlug": "Livy",
+      "type": "people"
+    },
+    {
+      "term": "Sicily",
+      "matchText": "Sicily",
+      "wikiSlug": "Sicily",
+      "type": "place"
+    },
+    {
+      "term": "Utica",
+      "matchText": "Utica",
+      "wikiSlug": "Utica,_Tunisia",
+      "type": "place"
+    },
+    {
+      "term": "Gadir",
+      "matchText": "Gadir",
+      "wikiSlug": "C%C3%A1diz",
+      "type": "place"
+    },
+    {
+      "term": "Cap Bon",
+      "matchText": "Cap Bon",
+      "wikiSlug": "Cape_Bon",
+      "type": "place"
+    },
+    {
+      "term": "Medjerda River",
+      "matchText": "Medjerda River",
+      "wikiSlug": "Medjerda_River",
+      "type": "place"
+    },
+    {
+      "term": "Neo-Assyrian Empire",
+      "matchText": "Neo-Assyrian Empire",
+      "wikiSlug": "Neo-Assyrian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Tanit",
+      "matchText": "Tanit",
+      "wikiSlug": "Tanit",
+      "type": "concept"
+    },
+    {
+      "term": "Baal Hammon",
+      "matchText": "Baal Hammon",
+      "wikiSlug": "Baal_Hammon",
+      "type": "concept"
+    },
+    {
+      "term": "Tophet",
+      "matchText": "Tophet",
+      "wikiSlug": "Tophet",
+      "type": "concept"
+    },
+    {
+      "term": "Punic",
+      "matchText": "Punic script",
+      "wikiSlug": "Punic_language",
+      "type": "concept"
+    },
+    {
+      "term": "Neo-Punic",
+      "matchText": "Neo-Punic",
+      "wikiSlug": "Neo-Punic",
+      "type": "concept"
+    },
+    {
+      "term": "Temple of Eshmun",
+      "matchText": "Temple of Eshmun",
+      "wikiSlug": "Eshmun",
+      "type": "place"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "wikiSlug": "Sardinia",
+      "type": "place"
+    },
+    {
+      "term": "Lebanon",
+      "matchText": "Lebanon",
+      "wikiSlug": "Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Berber",
+      "matchText": "Berber",
+      "wikiSlug": "Berbers",
+      "type": "people"
+    }
+  ],
+  "2": [
+    {
+      "term": "Magonid dynasty",
+      "matchText": "Magonid dynasty",
+      "wikiSlug": "Magonids",
+      "type": "concept"
+    },
+    {
+      "term": "Syracuse",
+      "matchText": "Syracuse",
+      "wikiSlug": "Syracuse,_Sicily",
+      "type": "place"
+    },
+    {
+      "term": "Etruscans",
+      "matchText": "Etruscans",
+      "wikiSlug": "Etruscan_civilization",
+      "type": "people"
+    },
+    {
+      "term": "Corsica",
+      "matchText": "Corsica",
+      "wikiSlug": "Corsica",
+      "type": "place"
+    },
+    {
+      "term": "Phocaea",
+      "matchText": "Phocaea",
+      "wikiSlug": "Phocaea",
+      "type": "place"
+    },
+    {
+      "term": "Mediterranean",
+      "matchText": "Mediterranean",
+      "wikiSlug": "Mediterranean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Iberia",
+      "matchText": "Iberia",
+      "wikiSlug": "Iberian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "quinquereme",
+      "matchText": "quinquereme",
+      "wikiSlug": "Quinquereme",
+      "type": "concept"
+    },
+    {
+      "term": "trireme",
+      "matchText": "triremes",
+      "wikiSlug": "Trireme",
+      "type": "concept"
+    },
+    {
+      "term": "Periplus of Hanno",
+      "matchText": "Periplus of Hanno",
+      "wikiSlug": "Hanno_the_Navigator",
+      "type": "concept"
+    },
+    {
+      "term": "Mount Cameroon",
+      "matchText": "Mount Cameroon",
+      "wikiSlug": "Mount_Cameroon",
+      "type": "place"
+    },
+    {
+      "term": "Brittany",
+      "matchText": "Brittany",
+      "wikiSlug": "Brittany",
+      "type": "place"
+    },
+    {
+      "term": "Strait of Gibraltar",
+      "matchText": "Strait of Gibraltar",
+      "wikiSlug": "Strait_of_Gibraltar",
+      "type": "place"
+    },
+    {
+      "term": "Roman Republic",
+      "matchText": "Roman Republic",
+      "wikiSlug": "Roman_Republic",
+      "type": "concept"
+    },
+    {
+      "term": "Latium",
+      "matchText": "Latium",
+      "wikiSlug": "Latium",
+      "type": "place"
+    },
+    {
+      "term": "Pillars of Hercules",
+      "matchText": "Pillars of Hercules",
+      "wikiSlug": "Pillars_of_Hercules",
+      "type": "place"
+    },
+    {
+      "term": "North Africa",
+      "matchText": "North Africa",
+      "wikiSlug": "North_Africa",
+      "type": "place"
+    },
+    {
+      "term": "Hanno the Navigator",
+      "matchText": "the Navigator",
+      "wikiSlug": "Hanno_the_Navigator",
+      "type": "people"
+    },
+    {
+      "term": "gorilla",
+      "matchText": "Gorillae",
+      "wikiSlug": "Gorilla",
+      "type": "concept"
+    },
+    {
+      "term": "Persians",
+      "matchText": "Persians",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "bronze",
+      "matchText": "bronze",
+      "wikiSlug": "Bronze",
+      "type": "concept"
+    }
+  ],
+  "3": [
+    {
+      "term": "Battle of Salamis",
+      "matchText": "Salamis",
+      "wikiSlug": "Battle_of_Salamis",
+      "type": "concept"
+    },
+    {
+      "term": "Himera",
+      "matchText": "Himera",
+      "wikiSlug": "Himera",
+      "type": "place"
+    },
+    {
+      "term": "Gelon of Syracuse",
+      "matchText": "Gelon of Syracuse",
+      "wikiSlug": "Gelo",
+      "type": "people"
+    },
+    {
+      "term": "suffete",
+      "matchText": "suffetes",
+      "wikiSlug": "Suffet",
+      "type": "concept"
+    },
+    {
+      "term": "Aristotle",
+      "matchText": "Aristotle",
+      "wikiSlug": "Aristotle",
+      "type": "people"
+    },
+    {
+      "term": "Sparta",
+      "matchText": "Sparta",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Council of Elders",
+      "matchText": "Council of Elders",
+      "wikiSlug": "Government_of_Carthage",
+      "type": "concept"
+    },
+    {
+      "term": "Libya",
+      "matchText": "Libyan",
+      "wikiSlug": "Ancient_Libya",
+      "type": "concept"
+    },
+    {
+      "term": "Bagradas Valley",
+      "matchText": "Bagradas Valley",
+      "wikiSlug": "Medjerda_River",
+      "type": "place"
+    },
+    {
+      "term": "Mago the agronomist",
+      "matchText": "Mago",
+      "wikiSlug": "Mago_(agriculture)",
+      "type": "people"
+    },
+    {
+      "term": "viticulture",
+      "matchText": "viticulture",
+      "wikiSlug": "Viticulture",
+      "type": "concept"
+    },
+    {
+      "term": "gold dust",
+      "matchText": "gold dust",
+      "wikiSlug": "Gold_dust",
+      "type": "concept"
+    },
+    {
+      "term": "Timoleon",
+      "matchText": "Timoleon",
+      "wikiSlug": "Timoleon",
+      "type": "people"
+    },
+    {
+      "term": "Corinth",
+      "matchText": "Corinthian",
+      "wikiSlug": "Corinth",
+      "type": "place"
+    },
+    {
+      "term": "Agathocles",
+      "matchText": "Agathocles",
+      "wikiSlug": "Agathocles",
+      "type": "people"
+    },
+    {
+      "term": "Cothon",
+      "matchText": "Cothon",
+      "wikiSlug": "Cothon",
+      "type": "place"
+    },
+    {
+      "term": "Kerkouane",
+      "matchText": "Kerkouane",
+      "wikiSlug": "Kerkouane",
+      "type": "place"
+    },
+    {
+      "term": "UNESCO World Heritage Site",
+      "matchText": "UNESCO World Heritage Site",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
+    },
+    {
+      "term": "murex",
+      "matchText": "murex shells",
+      "wikiSlug": "Murex",
+      "type": "concept"
+    },
+    {
+      "term": "Tanit symbol",
+      "matchText": "Tanit symbol",
+      "wikiSlug": "Tanit",
+      "type": "concept"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "war elephants",
+      "matchText": "war elephants",
+      "wikiSlug": "War_elephant",
+      "type": "concept"
+    },
+    {
+      "term": "Saharan trade",
+      "matchText": "Saharan trade routes",
+      "wikiSlug": "Trans-Saharan_trade",
+      "type": "concept"
+    },
+    {
+      "term": "Crimissus River",
+      "matchText": "Crimissus",
+      "wikiSlug": "Crimissus",
+      "type": "place"
+    }
+  ],
+  "4": [
+    {
+      "term": "Messana",
+      "matchText": "Messana",
+      "wikiSlug": "Messina",
+      "type": "place"
+    },
+    {
+      "term": "First Punic War",
+      "matchText": "First Punic War",
+      "wikiSlug": "First_Punic_War",
+      "type": "concept"
+    },
+    {
+      "term": "Mamertines",
+      "matchText": "Mamertines",
+      "wikiSlug": "Mamertines",
+      "type": "people"
+    },
+    {
+      "term": "Strait of Messina",
+      "matchText": "Strait of Messina",
+      "wikiSlug": "Strait_of_Messina",
+      "type": "place"
+    },
+    {
+      "term": "Agrigentum",
+      "matchText": "Agrigentum",
+      "wikiSlug": "Agrigentum",
+      "type": "place"
+    },
+    {
+      "term": "corvus",
+      "matchText": "corvus",
+      "wikiSlug": "Corvus_(boarding_device)",
+      "type": "concept"
+    },
+    {
+      "term": "Regulus",
+      "matchText": "Regulus",
+      "wikiSlug": "Marcus_Atilius_Regulus",
+      "type": "people"
+    },
+    {
+      "term": "Xanthippus",
+      "matchText": "Xanthippus",
+      "wikiSlug": "Xanthippus_(Carthaginian_general)",
+      "type": "people"
+    },
+    {
+      "term": "Numidian",
+      "matchText": "Numidians",
+      "wikiSlug": "Numidia",
+      "type": "people"
+    },
+    {
+      "term": "Hamilcar Barca",
+      "matchText": "Hamilcar Barca",
+      "wikiSlug": "Hamilcar_Barca",
+      "type": "people"
+    },
+    {
+      "term": "Mount Eryx",
+      "matchText": "Mount Eryx",
+      "wikiSlug": "Eryx_(city)",
+      "type": "place"
+    },
+    {
+      "term": "Aegates Islands",
+      "matchText": "Aegates Islands",
+      "wikiSlug": "Aegadian_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Mercenary War",
+      "matchText": "Mercenary War",
+      "wikiSlug": "Mercenary_War",
+      "type": "concept"
+    },
+    {
+      "term": "Truceless War",
+      "matchText": "Truceless War",
+      "wikiSlug": "Mercenary_War",
+      "type": "concept"
+    },
+    {
+      "term": "Balearic slingers",
+      "matchText": "Balearic slingers",
+      "wikiSlug": "Balearic_slinger",
+      "type": "concept"
+    },
+    {
+      "term": "talent",
+      "matchText": "talents",
+      "wikiSlug": "Talent_(measurement)",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Tunis",
+      "matchText": "Battle of Tunis",
+      "wikiSlug": "Battle_of_Tunis_(255_BC)",
+      "type": "concept"
+    },
+    {
+      "term": "quinquereme",
+      "matchText": "quinqueremes",
+      "wikiSlug": "Quinquereme",
+      "type": "concept"
+    },
+    {
+      "term": "guerrilla warfare",
+      "matchText": "guerrilla campaign",
+      "wikiSlug": "Guerrilla_warfare",
+      "type": "concept"
+    },
+    {
+      "term": "Spartan",
+      "matchText": "Spartan mercenary general",
+      "wikiSlug": "Sparta",
+      "type": "concept"
+    }
+  ],
+  "5": [
+    {
+      "term": "Iberia",
+      "matchText": "Iberia",
+      "wikiSlug": "Iberian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Hannibal",
+      "matchText": "Hannibal",
+      "wikiSlug": "Hannibal",
+      "type": "people"
+    },
+    {
+      "term": "Celtiberian",
+      "matchText": "Celtiberian",
+      "wikiSlug": "Celtiberians",
+      "type": "people"
+    },
+    {
+      "term": "Carthaginian Senate",
+      "matchText": "Carthaginian Senate",
+      "wikiSlug": "Government_of_Carthage",
+      "type": "concept"
+    },
+    {
+      "term": "Hasdrubal the Fair",
+      "matchText": "Hasdrubal the Fair",
+      "wikiSlug": "Hasdrubal_the_Fair",
+      "type": "people"
+    },
+    {
+      "term": "Carthago Nova",
+      "matchText": "Carthago Nova",
+      "wikiSlug": "Cartagena,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Cartagena",
+      "matchText": "Cartagena",
+      "wikiSlug": "Cartagena,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Ebro Treaty",
+      "matchText": "Ebro Treaty",
+      "wikiSlug": "Ebro_Treaty",
+      "type": "concept"
+    },
+    {
+      "term": "Ebro River",
+      "matchText": "Ebro River",
+      "wikiSlug": "Ebro",
+      "type": "place"
+    },
+    {
+      "term": "Saguntum",
+      "matchText": "Saguntum",
+      "wikiSlug": "Saguntum",
+      "type": "place"
+    },
+    {
+      "term": "Alexander the Great",
+      "matchText": "Alexander the Great",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Julius Caesar",
+      "matchText": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar",
+      "type": "people"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon",
+      "wikiSlug": "Napoleon",
+      "type": "people"
+    },
+    {
+      "term": "Numidian cavalry",
+      "matchText": "Numidian cavalry",
+      "wikiSlug": "Numidia",
+      "type": "concept"
+    },
+    {
+      "term": "Pyrenees",
+      "matchText": "Pyrenees",
+      "wikiSlug": "Pyrenees",
+      "type": "place"
+    },
+    {
+      "term": "Alps",
+      "matchText": "Alps",
+      "wikiSlug": "Alps",
+      "type": "place"
+    },
+    {
+      "term": "Second Punic War",
+      "matchText": "Second Punic War",
+      "wikiSlug": "Second_Punic_War",
+      "type": "concept"
+    },
+    {
+      "term": "Iberian infantry",
+      "matchText": "Iberian heavy infantry",
+      "wikiSlug": "Iberians",
+      "type": "people"
+    },
+    {
+      "term": "Libyan spearmen",
+      "matchText": "Libyan spearmen",
+      "wikiSlug": "Ancient_Libya",
+      "type": "concept"
+    },
+    {
+      "term": "Baal Hammon",
+      "matchText": "Baal Hammon",
+      "wikiSlug": "Baal_Hammon",
+      "type": "concept"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gallic territory",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    }
+  ],
+  "6": [
+    {
+      "term": "Col de Clapier",
+      "matchText": "Col de Clapier",
+      "wikiSlug": "Col_de_Clapier",
+      "type": "place"
+    },
+    {
+      "term": "Col du Mont Cenis",
+      "matchText": "Col du Mont Cenis",
+      "wikiSlug": "Mont_Cenis",
+      "type": "place"
+    },
+    {
+      "term": "Col de la Traversette",
+      "matchText": "Col de la Traversette",
+      "wikiSlug": "Col_de_la_Traversette",
+      "type": "place"
+    },
+    {
+      "term": "Po Valley",
+      "matchText": "Po Valley",
+      "wikiSlug": "Po_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Gauls",
+      "matchText": "Gauls",
+      "wikiSlug": "Gauls",
+      "type": "people"
+    },
+    {
+      "term": "Battle of the Trebia",
+      "matchText": "Battle of the Trebia",
+      "wikiSlug": "Battle_of_the_Trebia",
+      "type": "concept"
+    },
+    {
+      "term": "Lake Trasimene",
+      "matchText": "Lake Trasimene",
+      "wikiSlug": "Lake_Trasimene",
+      "type": "place"
+    },
+    {
+      "term": "Flaminius",
+      "matchText": "Flaminius",
+      "wikiSlug": "Gaius_Flaminius",
+      "type": "people"
+    },
+    {
+      "term": "Fabius Maximus",
+      "matchText": "Quintus Fabius Maximus",
+      "wikiSlug": "Quintus_Fabius_Maximus_Verrucosus",
+      "type": "people"
+    },
+    {
+      "term": "Fabian strategy",
+      "matchText": "Fabian strategy",
+      "wikiSlug": "Fabian_strategy",
+      "type": "concept"
+    },
+    {
+      "term": "Cannae",
+      "matchText": "Cannae",
+      "wikiSlug": "Cannae",
+      "type": "place"
+    },
+    {
+      "term": "double envelopment",
+      "matchText": "double envelopment",
+      "wikiSlug": "Pincer_movement",
+      "type": "concept"
+    },
+    {
+      "term": "Libyan heavy infantry",
+      "matchText": "Libyan heavy infantry",
+      "wikiSlug": "Military_of_Carthage",
+      "type": "concept"
+    },
+    {
+      "term": "Capua",
+      "matchText": "Capua",
+      "wikiSlug": "Capua",
+      "type": "place"
+    },
+    {
+      "term": "Hasdrubal Barca",
+      "matchText": "Hasdrubal Barca",
+      "wikiSlug": "Hasdrubal_Barca",
+      "type": "people"
+    },
+    {
+      "term": "Metaurus River",
+      "matchText": "Metaurus",
+      "wikiSlug": "Battle_of_the_Metaurus",
+      "type": "place"
+    },
+    {
+      "term": "Scipio Africanus",
+      "matchText": "Scipio Africanus",
+      "wikiSlug": "Scipio_Africanus",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Zama",
+      "matchText": "Battle of Zama",
+      "wikiSlug": "Battle_of_Zama",
+      "type": "concept"
+    },
+    {
+      "term": "Bithynia",
+      "matchText": "Bithynia",
+      "wikiSlug": "Bithynia",
+      "type": "place"
+    },
+    {
+      "term": "West Point",
+      "matchText": "West Point",
+      "wikiSlug": "United_States_Military_Academy",
+      "type": "place"
+    },
+    {
+      "term": "Sandhurst",
+      "matchText": "Sandhurst",
+      "wikiSlug": "Royal_Military_Academy_Sandhurst",
+      "type": "place"
+    },
+    {
+      "term": "Numidian light cavalry",
+      "matchText": "Numidian horsemen",
+      "wikiSlug": "Numidia",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of the Somme",
+      "matchText": "Somme",
+      "wikiSlug": "Battle_of_the_Somme",
+      "type": "concept"
+    },
+    {
+      "term": "Aemilius Paullus",
+      "matchText": "Aemilius Paullus",
+      "wikiSlug": "Lucius_Aemilius_Paullus_(consul_219_BC)",
+      "type": "people"
+    },
+    {
+      "term": "Varro",
+      "matchText": "Varro",
+      "wikiSlug": "Gaius_Terentius_Varro",
+      "type": "people"
+    }
+  ],
+  "7": [
+    {
+      "term": "Baal Hammon",
+      "matchText": "Baal Hammon",
+      "wikiSlug": "Baal_Hammon",
+      "type": "concept"
+    },
+    {
+      "term": "Tanit",
+      "matchText": "Tanit",
+      "wikiSlug": "Tanit",
+      "type": "concept"
+    },
+    {
+      "term": "sign of Tanit",
+      "matchText": "sign of Tanit",
+      "wikiSlug": "Tanit",
+      "type": "concept"
+    },
+    {
+      "term": "Demeter",
+      "matchText": "Demeter",
+      "wikiSlug": "Demeter",
+      "type": "concept"
+    },
+    {
+      "term": "Isis",
+      "matchText": "Isis",
+      "wikiSlug": "Isis",
+      "type": "concept"
+    },
+    {
+      "term": "Kore (Persephone)",
+      "matchText": "Kore",
+      "wikiSlug": "Persephone",
+      "type": "concept"
+    },
+    {
+      "term": "Melqart",
+      "matchText": "Melqart",
+      "wikiSlug": "Melqart",
+      "type": "concept"
+    },
+    {
+      "term": "Tophet",
+      "matchText": "Tophet debate",
+      "wikiSlug": "Tophet",
+      "type": "concept"
+    },
+    {
+      "term": "votive stelae",
+      "matchText": "votive stelae",
+      "wikiSlug": "Stele",
+      "type": "concept"
+    },
+    {
+      "term": "Plutarch",
+      "matchText": "Plutarch",
+      "wikiSlug": "Plutarch",
+      "type": "people"
+    },
+    {
+      "term": "Cleitarchus",
+      "matchText": "Cleitarchus",
+      "wikiSlug": "Cleitarchus",
+      "type": "people"
+    },
+    {
+      "term": "Diodorus Siculus",
+      "matchText": "Diodorus Siculus",
+      "wikiSlug": "Diodorus_Siculus",
+      "type": "people"
+    },
+    {
+      "term": "Tyrian purple",
+      "matchText": "Tyrian purple",
+      "wikiSlug": "Tyrian_purple",
+      "type": "concept"
+    },
+    {
+      "term": "murex",
+      "matchText": "murex sea snails",
+      "wikiSlug": "Murex",
+      "type": "concept"
+    },
+    {
+      "term": "electrum",
+      "matchText": "electrum",
+      "wikiSlug": "Electrum",
+      "type": "concept"
+    },
+    {
+      "term": "Ursa Minor",
+      "matchText": "Ursa Minor",
+      "wikiSlug": "Ursa_Minor",
+      "type": "concept"
+    },
+    {
+      "term": "Barcid coins",
+      "matchText": "Barcid coins",
+      "wikiSlug": "Hannibal",
+      "type": "concept"
+    },
+    {
+      "term": "Sacred Band of Carthage",
+      "matchText": "Sacred Band of Carthage",
+      "wikiSlug": "Sacred_Band_of_Carthage",
+      "type": "concept"
+    },
+    {
+      "term": "Balearic slingers",
+      "matchText": "Balearic slingers",
+      "wikiSlug": "Balearic_slinger",
+      "type": "concept"
+    },
+    {
+      "term": "North African forest elephant",
+      "matchText": "North African forest elephants",
+      "wikiSlug": "North_African_elephant",
+      "type": "concept"
+    },
+    {
+      "term": "Atlas Mountains",
+      "matchText": "Atlas Mountains",
+      "wikiSlug": "Atlas_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Terence",
+      "matchText": "Terence",
+      "wikiSlug": "Terence",
+      "type": "people"
+    },
+    {
+      "term": "Shakespeare",
+      "matchText": "Shakespeare",
+      "wikiSlug": "William_Shakespeare",
+      "type": "people"
+    },
+    {
+      "term": "Moliere",
+      "matchText": "Moliere",
+      "wikiSlug": "Moli%C3%A8re",
+      "type": "people"
+    },
+    {
+      "term": "Numidian cavalry",
+      "matchText": "Numidian cavalry",
+      "wikiSlug": "Numidia",
+      "type": "concept"
+    },
+    {
+      "term": "mercenary system",
+      "matchText": "mercenaries and allied contingents",
+      "wikiSlug": "Military_of_Carthage",
+      "type": "concept"
+    },
+    {
+      "term": "monotheism",
+      "matchText": "monotheistic religions",
+      "wikiSlug": "Monotheism",
+      "type": "concept"
+    },
+    {
+      "term": "Judaism",
+      "matchText": "Judaism",
+      "wikiSlug": "Judaism",
+      "type": "concept"
+    }
+  ],
+  "8": [
+    {
+      "term": "Masinissa",
+      "matchText": "Masinissa",
+      "wikiSlug": "Masinissa",
+      "type": "people"
+    },
+    {
+      "term": "Numidians",
+      "matchText": "Numidians",
+      "wikiSlug": "Numidia",
+      "type": "people"
+    },
+    {
+      "term": "Cato the Elder",
+      "matchText": "Cato the Elder",
+      "wikiSlug": "Cato_the_Elder",
+      "type": "people"
+    },
+    {
+      "term": "Carthago delenda est",
+      "matchText": "Carthago delenda est",
+      "wikiSlug": "Carthago_delenda_est",
+      "type": "concept"
+    },
+    {
+      "term": "Third Punic War",
+      "matchText": "Third Punic War",
+      "wikiSlug": "Third_Punic_War",
+      "type": "concept"
+    },
+    {
+      "term": "Scipio Aemilianus",
+      "matchText": "Scipio Aemilianus",
+      "wikiSlug": "Scipio_Aemilianus",
+      "type": "people"
+    },
+    {
+      "term": "Scipio Africanus",
+      "matchText": "Scipio Africanus",
+      "wikiSlug": "Scipio_Africanus",
+      "type": "people"
+    },
+    {
+      "term": "Temple of Eshmun",
+      "matchText": "Temple of Eshmun",
+      "wikiSlug": "Eshmun",
+      "type": "place"
+    },
+    {
+      "term": "Byrsa Hill",
+      "matchText": "Byrsa Hill",
+      "wikiSlug": "Byrsa",
+      "type": "place"
+    },
+    {
+      "term": "Cothon",
+      "matchText": "Cothon",
+      "wikiSlug": "Cothon",
+      "type": "place"
+    },
+    {
+      "term": "province of Africa",
+      "matchText": "province of Africa",
+      "wikiSlug": "Africa_(Roman_province)",
+      "type": "place"
+    },
+    {
+      "term": "Corinth",
+      "matchText": "Corinth",
+      "wikiSlug": "Corinth",
+      "type": "place"
+    },
+    {
+      "term": "Julius Caesar",
+      "matchText": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar",
+      "type": "people"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Saint Augustine",
+      "matchText": "Saint Augustine",
+      "wikiSlug": "Augustine_of_Hippo",
+      "type": "people"
+    },
+    {
+      "term": "Kerkouane",
+      "matchText": "Kerkouane",
+      "wikiSlug": "Kerkouane",
+      "type": "place"
+    },
+    {
+      "term": "Tophet",
+      "matchText": "Tophet",
+      "wikiSlug": "Tophet",
+      "type": "concept"
+    },
+    {
+      "term": "Mago agricultural treatise",
+      "matchText": "agricultural treatise",
+      "wikiSlug": "Mago_(agriculture)",
+      "type": "concept"
+    },
+    {
+      "term": "Polybius",
+      "matchText": "Polybius",
+      "wikiSlug": "Polybius",
+      "type": "people"
+    },
+    {
+      "term": "Herodotus",
+      "matchText": "Herodotus",
+      "wikiSlug": "Herodotus",
+      "type": "people"
+    },
+    {
+      "term": "Thucydides",
+      "matchText": "Thucydides",
+      "wikiSlug": "Thucydides",
+      "type": "people"
+    },
+    {
+      "term": "Punic faith",
+      "matchText": "Punic faith",
+      "wikiSlug": "Punic_faith",
+      "type": "concept"
+    },
+    {
+      "term": "Phoenician alphabet",
+      "matchText": "Phoenician script",
+      "wikiSlug": "Phoenician_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "sign of Tanit",
+      "matchText": "sign of Tanit",
+      "wikiSlug": "Tanit",
+      "type": "concept"
+    }
+  ]
 }

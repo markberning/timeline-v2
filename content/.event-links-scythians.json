@@ -1,280 +1,278 @@
 {
-  "chapters": {
-    "1": [
-      {
-        "eventId": "evt-scythian-migration",
-        "matchText": "Scythians migrated from"
-      },
-      {
-        "eventId": "evt-horse-culture",
-        "matchText": "horse nomad culture"
-      },
-      {
-        "eventId": "evt-cimmerian-displacement",
-        "matchText": "Scythians drove the Cimmerians out of their grasslands"
-      },
-      {
-        "eventId": "evt-composite-bow",
-        "matchText": "Scythian composite bow"
-      },
-      {
-        "eventId": "evt-wagon-dwelling",
-        "matchText": "wagon dwellings"
-      },
-      {
-        "eventId": "evt-horse-breeding",
-        "matchText": "Scythian horse breeding"
-      },
-      {
-        "eventId": "evt-hippocrates-scythians",
-        "matchText": "Hippocrates"
-      }
-    ],
-    "2": [
-      {
-        "eventId": "evt-scythian-near-east",
-        "matchText": "Scythians came south"
-      },
-      {
-        "eventId": "evt-bartatua",
-        "matchText": "Bartatua"
-      },
-      {
-        "eventId": "evt-madyes",
-        "matchText": "Madyes"
-      },
-      {
-        "eventId": "evt-scythians-overthrow-medes",
-        "matchText": "Scythians overthrew Median rule"
-      },
-      {
-        "eventId": "evt-scythians-sack-ascalon",
-        "matchText": "Ascalon"
-      },
-      {
-        "eventId": "evt-akinakes",
-        "matchText": "akinakes"
-      }
-    ],
-    "3": [
-      {
-        "eventId": "evt-royal-kurgans",
-        "matchText": "Royal Kurgan Burials"
-      },
-      {
-        "eventId": "evt-funerary-customs",
-        "matchText": "Scythian royal funeral"
-      },
-      {
-        "eventId": "evt-scythian-animal-style",
-        "matchText": "Scythian Animal Style"
-      },
-      {
-        "eventId": "evt-scythian-mirror",
-        "matchText": "Scythian bronze mirrors"
-      },
-      {
-        "eventId": "evt-scythian-triad",
-        "matchText": "Scythian triad"
-      },
-      {
-        "eventId": "evt-anacharsis",
-        "matchText": "Anacharsis"
-      },
-      {
-        "eventId": "evt-olbia-colony",
-        "matchText": "Olbia"
-      },
-      {
-        "eventId": "evt-amber-route",
-        "matchText": "amber trade route"
-      },
-      {
-        "eventId": "evt-greek-black-sea-trade",
-        "matchText": "Greek colonies"
-      }
-    ],
-    "4": [
-      {
-        "eventId": "evt-darius-invasion",
-        "matchText": "Darius I"
-      },
-      {
-        "eventId": "evt-idanthyrsus",
-        "matchText": "Idanthyrsus"
-      }
-    ],
-    "5": [
-      {
-        "eventId": "evt-herodotus-scythians",
-        "matchText": "Herodotus"
-      },
-      {
-        "eventId": "evt-scythian-origin-myth",
-        "matchText": "Targitaus"
-      },
-      {
-        "eventId": "evt-aristeas",
-        "matchText": "Aristeas of Proconnesus"
-      },
-      {
-        "eventId": "evt-grain-export",
-        "matchText": "Scythian grain exports"
-      },
-      {
-        "eventId": "evt-panticapaeum-trade",
-        "matchText": "Panticapaeum"
-      },
-      {
-        "eventId": "evt-silk-road-steppe",
-        "matchText": "Steppe trade routes"
-      },
-      {
-        "eventId": "evt-slave-trade",
-        "matchText": "slave trade"
-      },
-      {
-        "eventId": "evt-kul-oba-kurgan",
-        "matchText": "Kul-Oba kurgan"
-      },
-      {
-        "eventId": "evt-solokha-kurgan",
-        "matchText": "Solokha kurgan"
-      },
-      {
-        "eventId": "evt-scythian-metallurgy",
-        "matchText": "Scythian goldsmithing"
-      },
-      {
-        "eventId": "evt-spargapithes",
-        "matchText": "Spargapithes"
-      },
-      {
-        "eventId": "evt-ariapeithes",
-        "matchText": "Ariapeithes"
-      },
-      {
-        "eventId": "evt-scyles",
-        "matchText": "Scyles"
-      },
-      {
-        "eventId": "evt-scythian-archers-athens",
-        "matchText": "Scythian archers"
-      },
-      {
-        "eventId": "evt-ephorus-scythians",
-        "matchText": "Ephorus"
-      }
-    ],
-    "6": [
-      {
-        "eventId": "evt-scale-armor",
-        "matchText": "Scythian scale armor"
-      },
-      {
-        "eventId": "evt-tabiti-goddess",
-        "matchText": "Tabiti"
-      },
-      {
-        "eventId": "evt-sword-cult",
-        "matchText": "Sword of Ares cult"
-      },
-      {
-        "eventId": "evt-scythian-shamanism",
-        "matchText": "Scythian shamanism"
-      },
-      {
-        "eventId": "evt-enarees",
-        "matchText": "Enarees"
-      },
-      {
-        "eventId": "evt-cannabis-ritual",
-        "matchText": "cannabis purification ritual"
-      },
-      {
-        "eventId": "evt-scythian-women-warriors",
-        "matchText": "Scythian women warriors"
-      },
-      {
-        "eventId": "evt-tomyris",
-        "matchText": "Tomyris"
-      }
-    ],
-    "7": [
-      {
-        "eventId": "evt-pazyryk-burials",
-        "matchText": "Pazyryk"
-      },
-      {
-        "eventId": "evt-scythian-tattoos",
-        "matchText": "tattoos"
-      },
-      {
-        "eventId": "evt-scythian-oral-tradition",
-        "matchText": "oral tradition"
-      }
-    ],
-    "8": [
-      {
-        "eventId": "evt-ateas",
-        "matchText": "Ateas"
-      },
-      {
-        "eventId": "evt-philip-defeats-ateas",
-        "matchText": "defeat of Ateas by Philip II"
-      },
-      {
-        "eventId": "evt-zopyrion-disaster",
-        "matchText": "Zopyrion"
-      },
-      {
-        "eventId": "evt-sarmatian-displacement",
-        "matchText": "Sarmatians"
-      },
-      {
-        "eventId": "evt-scythian-neapolis",
-        "matchText": "Scythian Neapolis"
-      },
-      {
-        "eventId": "evt-skilurus",
-        "matchText": "Skilurus"
-      },
-      {
-        "eventId": "evt-palakus",
-        "matchText": "Palakus"
-      },
-      {
-        "eventId": "evt-mithridatic-defeat",
-        "matchText": "Diophantus"
-      },
-      {
-        "eventId": "evt-palakus-war",
-        "matchText": "Palakus rallied Sarmatian allies"
-      },
-      {
-        "eventId": "evt-strabo-late-scythians",
-        "matchText": "Strabo"
-      },
-      {
-        "eventId": "evt-ovid-exile",
-        "matchText": "Ovid"
-      },
-      {
-        "eventId": "evt-lucian-toxaris",
-        "matchText": "Lucian"
-      },
-      {
-        "eventId": "evt-gold-pectoral",
-        "matchText": "Gold Pectoral of Tovsta Mohyla"
-      },
-      {
-        "eventId": "evt-chertomlyk-kurgan",
-        "matchText": "Chertomlyk kurgan"
-      },
-      {
-        "eventId": "evt-alexandropol-kurgan",
-        "matchText": "Alexandropol kurgan"
-      }
-    ]
-  }
+  "1": [
+    {
+      "eventId": "evt-scythian-migration",
+      "matchText": "Scythians migrated from"
+    },
+    {
+      "eventId": "evt-horse-culture",
+      "matchText": "horse nomad culture"
+    },
+    {
+      "eventId": "evt-cimmerian-displacement",
+      "matchText": "Scythians drove the Cimmerians out of their grasslands"
+    },
+    {
+      "eventId": "evt-composite-bow",
+      "matchText": "Scythian composite bow"
+    },
+    {
+      "eventId": "evt-wagon-dwelling",
+      "matchText": "wagon dwellings"
+    },
+    {
+      "eventId": "evt-horse-breeding",
+      "matchText": "Scythian horse breeding"
+    },
+    {
+      "eventId": "evt-hippocrates-scythians",
+      "matchText": "Hippocrates"
+    }
+  ],
+  "2": [
+    {
+      "eventId": "evt-scythian-near-east",
+      "matchText": "Scythians came south"
+    },
+    {
+      "eventId": "evt-bartatua",
+      "matchText": "Bartatua"
+    },
+    {
+      "eventId": "evt-madyes",
+      "matchText": "Madyes"
+    },
+    {
+      "eventId": "evt-scythians-overthrow-medes",
+      "matchText": "Scythians overthrew Median rule"
+    },
+    {
+      "eventId": "evt-scythians-sack-ascalon",
+      "matchText": "Ascalon"
+    },
+    {
+      "eventId": "evt-akinakes",
+      "matchText": "akinakes"
+    }
+  ],
+  "3": [
+    {
+      "eventId": "evt-royal-kurgans",
+      "matchText": "Royal Kurgan Burials"
+    },
+    {
+      "eventId": "evt-funerary-customs",
+      "matchText": "Scythian royal funeral"
+    },
+    {
+      "eventId": "evt-scythian-animal-style",
+      "matchText": "Scythian Animal Style"
+    },
+    {
+      "eventId": "evt-scythian-mirror",
+      "matchText": "Scythian bronze mirrors"
+    },
+    {
+      "eventId": "evt-scythian-triad",
+      "matchText": "Scythian triad"
+    },
+    {
+      "eventId": "evt-anacharsis",
+      "matchText": "Anacharsis"
+    },
+    {
+      "eventId": "evt-olbia-colony",
+      "matchText": "Olbia"
+    },
+    {
+      "eventId": "evt-amber-route",
+      "matchText": "amber trade route"
+    },
+    {
+      "eventId": "evt-greek-black-sea-trade",
+      "matchText": "Greek colonies"
+    }
+  ],
+  "4": [
+    {
+      "eventId": "evt-darius-invasion",
+      "matchText": "Darius I"
+    },
+    {
+      "eventId": "evt-idanthyrsus",
+      "matchText": "Idanthyrsus"
+    }
+  ],
+  "5": [
+    {
+      "eventId": "evt-herodotus-scythians",
+      "matchText": "Herodotus"
+    },
+    {
+      "eventId": "evt-scythian-origin-myth",
+      "matchText": "Targitaus"
+    },
+    {
+      "eventId": "evt-aristeas",
+      "matchText": "Aristeas of Proconnesus"
+    },
+    {
+      "eventId": "evt-grain-export",
+      "matchText": "Scythian grain exports"
+    },
+    {
+      "eventId": "evt-panticapaeum-trade",
+      "matchText": "Panticapaeum"
+    },
+    {
+      "eventId": "evt-silk-road-steppe",
+      "matchText": "Steppe trade routes"
+    },
+    {
+      "eventId": "evt-slave-trade",
+      "matchText": "slave trade"
+    },
+    {
+      "eventId": "evt-kul-oba-kurgan",
+      "matchText": "Kul-Oba kurgan"
+    },
+    {
+      "eventId": "evt-solokha-kurgan",
+      "matchText": "Solokha kurgan"
+    },
+    {
+      "eventId": "evt-scythian-metallurgy",
+      "matchText": "Scythian goldsmithing"
+    },
+    {
+      "eventId": "evt-spargapithes",
+      "matchText": "Spargapithes"
+    },
+    {
+      "eventId": "evt-ariapeithes",
+      "matchText": "Ariapeithes"
+    },
+    {
+      "eventId": "evt-scyles",
+      "matchText": "Scyles"
+    },
+    {
+      "eventId": "evt-scythian-archers-athens",
+      "matchText": "Scythian archers"
+    },
+    {
+      "eventId": "evt-ephorus-scythians",
+      "matchText": "Ephorus"
+    }
+  ],
+  "6": [
+    {
+      "eventId": "evt-scale-armor",
+      "matchText": "Scythian scale armor"
+    },
+    {
+      "eventId": "evt-tabiti-goddess",
+      "matchText": "Tabiti"
+    },
+    {
+      "eventId": "evt-sword-cult",
+      "matchText": "Sword of Ares cult"
+    },
+    {
+      "eventId": "evt-scythian-shamanism",
+      "matchText": "Scythian shamanism"
+    },
+    {
+      "eventId": "evt-enarees",
+      "matchText": "Enarees"
+    },
+    {
+      "eventId": "evt-cannabis-ritual",
+      "matchText": "cannabis purification ritual"
+    },
+    {
+      "eventId": "evt-scythian-women-warriors",
+      "matchText": "Scythian women warriors"
+    },
+    {
+      "eventId": "evt-tomyris",
+      "matchText": "Tomyris"
+    }
+  ],
+  "7": [
+    {
+      "eventId": "evt-pazyryk-burials",
+      "matchText": "Pazyryk"
+    },
+    {
+      "eventId": "evt-scythian-tattoos",
+      "matchText": "tattoos"
+    },
+    {
+      "eventId": "evt-scythian-oral-tradition",
+      "matchText": "oral tradition"
+    }
+  ],
+  "8": [
+    {
+      "eventId": "evt-ateas",
+      "matchText": "Ateas"
+    },
+    {
+      "eventId": "evt-philip-defeats-ateas",
+      "matchText": "defeat of Ateas by Philip II"
+    },
+    {
+      "eventId": "evt-zopyrion-disaster",
+      "matchText": "Zopyrion"
+    },
+    {
+      "eventId": "evt-sarmatian-displacement",
+      "matchText": "Sarmatians"
+    },
+    {
+      "eventId": "evt-scythian-neapolis",
+      "matchText": "Scythian Neapolis"
+    },
+    {
+      "eventId": "evt-skilurus",
+      "matchText": "Skilurus"
+    },
+    {
+      "eventId": "evt-palakus",
+      "matchText": "Palakus"
+    },
+    {
+      "eventId": "evt-mithridatic-defeat",
+      "matchText": "Diophantus"
+    },
+    {
+      "eventId": "evt-palakus-war",
+      "matchText": "Palakus rallied Sarmatian allies"
+    },
+    {
+      "eventId": "evt-strabo-late-scythians",
+      "matchText": "Strabo"
+    },
+    {
+      "eventId": "evt-ovid-exile",
+      "matchText": "Ovid"
+    },
+    {
+      "eventId": "evt-lucian-toxaris",
+      "matchText": "Lucian"
+    },
+    {
+      "eventId": "evt-gold-pectoral",
+      "matchText": "Gold Pectoral of Tovsta Mohyla"
+    },
+    {
+      "eventId": "evt-chertomlyk-kurgan",
+      "matchText": "Chertomlyk kurgan"
+    },
+    {
+      "eventId": "evt-alexandropol-kurgan",
+      "matchText": "Alexandropol kurgan"
+    }
+  ]
 }

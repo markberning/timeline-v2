@@ -147,8 +147,11 @@ async function fetchWikiData(
     try { return decodeURIComponent(slug) } catch { return slug }
   }
 
-  for (let i = 0; i < uncached.length; i += 20) {
-    const batch = uncached.slice(i, i + 20)
+  // Filter out any undefined/null slugs that sneak in from malformed link files
+  const validUncached = uncached.filter((s): s is string => typeof s === 'string' && s.length > 0)
+
+  for (let i = 0; i < validUncached.length; i += 20) {
+    const batch = validUncached.slice(i, i + 20)
     // Decode any URL-encoded slugs before sending to the API. Wikipedia
     // expects literal apostrophes, em-dashes, etc. — our curated glossary
     // files sometimes include pre-encoded forms like `Potter%27s_wheel`

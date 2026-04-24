@@ -295,7 +295,7 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
 
   // Collect unique glossary slugs and enrich them
   const allGlossaryLinks = Object.values(glossaryLinks).flat()
-  const glossarySlugs = [...new Set(allGlossaryLinks.map(l => l.wikiSlug))]
+  const glossarySlugs = [...new Set(allGlossaryLinks.map(l => l.wikiSlug).filter(Boolean))]
   const glossaryEnrichment = glossarySlugs.length > 0
     ? await enrichGlossary(glossarySlugs, forceRefresh)
     : new Map()
