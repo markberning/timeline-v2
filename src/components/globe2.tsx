@@ -1037,6 +1037,9 @@ export default function Globe2() {
             onChange={(e) => setSearch(e.target.value)}
             autoFocus={drawerOpen}
           />
+          <div className={`${styles.drawerHint} font-[family-name:var(--font-geist-sans)]`}>
+            Dimmed civs are outside the current year ({formatYear(year)}). Tap to jump there.
+          </div>
         </div>
         <div className={styles.drawerBody}>
           {filteredGroups.map((group) => (
