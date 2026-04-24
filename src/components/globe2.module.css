@@ -290,21 +290,37 @@
 
 .eraStrip {
   display: flex;
-  height: 6px;
-  border-radius: 3px;
-  overflow: hidden;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   gap: 1px;
 }
 
-.eraStrip span {
+.eraSegment {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.eraSegment span:first-child {
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
   opacity: 0.2;
   transition: opacity 0.2s ease;
 }
 
-.eraStrip span.active {
+.eraSegment span.active {
   opacity: 1;
+}
+
+.eraLabel {
+  font-size: 7px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--foreground);
+  white-space: nowrap;
 }
 
 .closeBtn {

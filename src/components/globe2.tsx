@@ -959,11 +959,15 @@ export default function Globe2() {
             {/* Era strip */}
             <div className={styles.eraStrip}>
               {eraStripForCiv(selected).map((era, i) => (
-                <span
-                  key={i}
-                  className={era.active ? styles.active : undefined}
-                  style={{ background: cardColor, opacity: era.active ? 1 : 0.15 }}
-                />
+                <div key={i} className={styles.eraSegment}>
+                  <span
+                    className={era.active ? styles.active : undefined}
+                    style={{ background: cardColor, opacity: era.active ? 1 : 0.15 }}
+                  />
+                  <span className={styles.eraLabel} style={{ opacity: era.active ? 0.5 : 0.25 }}>
+                    {era.label}
+                  </span>
+                </div>
               ))}
             </div>
 
