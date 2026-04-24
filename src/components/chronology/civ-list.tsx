@@ -149,7 +149,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
       {/* Chain filter header */}
       {soloChain && (
         <div
-          className="flex items-center gap-2 px-1 sticky top-0 z-10 border-b border-foreground/10"
+          className="flex items-center gap-2 sticky top-0 z-10 border-b border-foreground/10 -mx-5 px-5"
           style={{ backgroundColor: 'var(--background)', marginTop: -8, paddingTop: 10, paddingBottom: 8 }}
         >
           <div
@@ -188,7 +188,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
             style={{ '--row-color': color } as React.CSSProperties}
             onClick={() => civ.hasContent && (window.location.href = `/${civ.id}/`)}
           >
-            <div className="civ-row-inner flex items-center gap-3">
+            <div className="civ-row-inner pl-3 flex items-center gap-3">
               <div className="flex-1 min-w-0">
                 {/* Chain + position */}
                 <div className="civ-row-chain text-[11px] font-bold uppercase tracking-[0.12em]">
