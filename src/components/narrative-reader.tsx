@@ -92,17 +92,18 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             for (const p of paragraphs) {
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-              // Scroll first, then highlight after scroll settles
-              p.scrollIntoView({ behavior: 'smooth', block: 'center' })
+              // Use instant scroll so the viewport is stable
+              p.scrollIntoView({ behavior: 'auto', block: 'center' })
 
-              setTimeout(() => {
-                const rect = p.getBoundingClientRect()
-                const overlay = document.createElement('div')
-                overlay.textContent = '\u00A0' // non-breaking space so it has content
-                overlay.style.cssText = `position:fixed;top:${rect.top}px;left:${rect.left - 8}px;width:${rect.width + 16}px;height:${rect.height}px;background:rgba(255,0,0,0.3);border:2px solid red;border-radius:4px;pointer-events:none;z-index:9999;`
-                document.body.appendChild(overlay)
-                setTimeout(() => overlay.remove(), 5000)
-              }, 600)
+              // Use the browser's native find-and-highlight
+              try {
+                const sel = window.getSelection()
+                sel?.removeAllRanges()
+                // @ts-expect-error — window.find is non-standard but works in WebKit/Chrome
+                window.find(hl, false, false, true)
+              } catch {
+                // Fallback: no highlight, scroll is enough
+              }
 
               break
             }
