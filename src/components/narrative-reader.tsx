@@ -64,7 +64,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     localStorage.setItem('last-viewed-civ', civilizationId)
   }, [civilizationId])
 
-  const [highlightTerm, setHighlightTerm] = useState<string | null>(null)
+  const highlightTermRef = useRef<string | null>(null)
 
   // Load saved progress on mount
   useEffect(() => {
@@ -72,7 +72,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     const params = new URLSearchParams(window.location.search)
     const ch = params.get('chapter')
     const hl = params.get('highlight')
-    if (hl) setHighlightTerm(hl)
+    if (hl) highlightTermRef.current = hl
     if (ch) {
       const n = parseInt(ch, 10)
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
@@ -87,44 +87,61 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
   }, [chapters, civilizationId])
 
   // After chapter opens with a highlight term, find and scroll to the match.
-  // The accordion does scrollTo(0) at rAF + 300ms on expand, so we wait
-  // 800ms for everything to settle before touching scroll.
+  // Uses a ref (not state) so no re-render is triggered. Injects a visible
+  // overlay div positioned over the matching paragraph.
   useEffect(() => {
-    if (!highlightTerm || openChapter === null) return
+    if (!highlightTermRef.current || openChapter === null) return
+    const term = highlightTermRef.current
+    highlightTermRef.current = null
 
     const timer = setTimeout(() => {
       const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
-      if (!container) { setHighlightTerm(null); return }
+      if (!container) return
 
-      const termLower = highlightTerm.toLowerCase()
+      const termLower = term.toLowerCase()
       const paragraphs = container.querySelectorAll('p')
       for (const p of paragraphs) {
         if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-        // Highlight with outline + box-shadow (these properties are never set
-        // by prose so no specificity battle)
-        const prev = p.getAttribute('style') ?? ''
-        p.setAttribute('style', prev + ';outline: 2px solid #d97706; outline-offset: 4px; box-shadow: 0 0 0 6px rgba(217,119,6,0.15); border-radius: 4px; transition: outline-color 0.4s ease, box-shadow 0.4s ease;')
+        // Inject a highlight overlay as a sibling div
+        const overlay = document.createElement('div')
+        overlay.setAttribute('data-search-highlight', '1')
+        overlay.style.cssText = `
+          position: absolute;
+          left: -8px;
+          right: -8px;
+          top: -4px;
+          bottom: -4px;
+          background: rgba(217, 119, 6, 0.2);
+          border-left: 3px solid #d97706;
+          border-radius: 4px;
+          pointer-events: none;
+          transition: opacity 0.5s ease;
+          z-index: 1;
+        `
+        // Make the paragraph a positioning context
+        const prevPosition = p.style.position
+        p.style.position = 'relative'
+        p.appendChild(overlay)
 
         // Scroll to it
         p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
         // Fade out after 5 seconds
         setTimeout(() => {
-          p.setAttribute('style', prev + ';outline: 2px solid transparent; outline-offset: 4px; box-shadow: none; border-radius: 4px; transition: outline-color 0.4s ease, box-shadow 0.4s ease;')
+          overlay.style.opacity = '0'
           setTimeout(() => {
-            p.setAttribute('style', prev)
+            overlay.remove()
+            p.style.position = prevPosition
           }, 500)
         }, 5000)
 
         break
       }
-
-      setHighlightTerm(null)
-    }, 800) // wait for accordion expand + scrollTo(0) to settle
+    }, 800)
 
     return () => clearTimeout(timer)
-  }, [highlightTerm, openChapter])
+  }, [openChapter])
 
   // Auto-save scroll position while reading (debounced)
   useEffect(() => {
