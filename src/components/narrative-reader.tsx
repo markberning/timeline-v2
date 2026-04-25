@@ -64,19 +64,50 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     localStorage.setItem('last-viewed-civ', civilizationId)
   }, [civilizationId])
 
-  const highlightTermRef = useRef<string | null>(null)
-
-  // Load saved progress on mount
+  // Load saved progress on mount + handle search highlight
   useEffect(() => {
     if (typeof window === 'undefined') return
     const params = new URLSearchParams(window.location.search)
     const ch = params.get('chapter')
     const hl = params.get('highlight')
-    if (hl) highlightTermRef.current = hl
     if (ch) {
       const n = parseInt(ch, 10)
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
         setOpenChapter(n)
+
+        // If there's a highlight term, wait for content to render then highlight
+        if (hl) {
+          const timer = setTimeout(() => {
+            const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
+            if (!container) return
+
+            const termLower = hl.toLowerCase()
+            const paragraphs = container.querySelectorAll('p')
+            for (const p of paragraphs) {
+              if (!p.textContent?.toLowerCase().includes(termLower)) continue
+
+              // Inject a highlight banner before the paragraph
+              const banner = document.createElement('div')
+              banner.style.cssText = 'background:rgba(217,119,6,0.2);border-left:3px solid #d97706;padding:4px 8px;margin:0 -8px 0 -12px;border-radius:2px;pointer-events:none;'
+              // Clone the paragraph content into the banner to show it highlighted
+              banner.innerHTML = p.innerHTML
+              p.parentNode?.insertBefore(banner, p)
+              p.style.display = 'none'
+
+              // Scroll to it
+              banner.scrollIntoView({ behavior: 'smooth', block: 'center' })
+
+              // Restore after 5 seconds
+              setTimeout(() => {
+                p.style.display = ''
+                banner.remove()
+              }, 5000)
+
+              break
+            }
+          }, 1200)
+          return () => clearTimeout(timer)
+        }
         return
       }
     }
@@ -85,42 +116,6 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       setSavedProgress(progress)
     }
   }, [chapters, civilizationId])
-
-  // After chapter opens with a highlight term, find and scroll to the match.
-  // Uses a ref (not state) so no re-render is triggered. Injects a visible
-  // overlay div positioned over the matching paragraph.
-  useEffect(() => {
-    if (!highlightTermRef.current || openChapter === null) return
-    const term = highlightTermRef.current
-    highlightTermRef.current = null
-
-    const timer = setTimeout(() => {
-      const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
-      if (!container) return
-
-      const termLower = term.toLowerCase()
-      const paragraphs = container.querySelectorAll('p')
-      for (const p of paragraphs) {
-        if (!p.textContent?.toLowerCase().includes(termLower)) continue
-
-        // Inject a bright banner before the paragraph
-        const banner = document.createElement('div')
-        banner.textContent = `Found: "${term}"`
-        banner.style.cssText = 'background:#d97706;color:white;padding:8px 12px;border-radius:4px;font-size:14px;font-weight:bold;margin-bottom:8px;'
-        p.parentNode?.insertBefore(banner, p)
-
-        // Scroll to banner
-        banner.scrollIntoView({ behavior: 'smooth', block: 'center' })
-
-        // Remove after 5 seconds
-        setTimeout(() => banner.remove(), 5000)
-
-        break
-      }
-    }, 800)
-
-    return () => clearTimeout(timer)
-  }, [openChapter])
 
   // Auto-save scroll position while reading (debounced)
   useEffect(() => {
