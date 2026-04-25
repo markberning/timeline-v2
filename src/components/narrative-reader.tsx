@@ -92,46 +92,46 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
 
     // Wait for chapter content to render
     const timer = setTimeout(() => {
-      // Find the prose container for the open chapter
       const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
       if (!container) return
 
-      const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT)
+      // Find the paragraph containing the search term
       const termLower = highlightTerm.toLowerCase()
-      let node: Text | null
-      while ((node = walker.nextNode() as Text | null)) {
-        const idx = node.textContent?.toLowerCase().indexOf(termLower) ?? -1
-        if (idx === -1) continue
+      const paragraphs = container.querySelectorAll('p')
+      for (const p of paragraphs) {
+        if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-        // Split the text node and wrap the match in a highlight span
-        const range = document.createRange()
-        range.setStart(node, idx)
-        range.setEnd(node, idx + highlightTerm.length)
+        // Highlight the whole paragraph with a flash
+        p.style.transition = 'background-color 0.3s ease'
+        p.style.backgroundColor = 'rgba(217, 119, 6, 0.2)'
+        p.style.borderRadius = '4px'
+        p.style.marginLeft = '-8px'
+        p.style.marginRight = '-8px'
+        p.style.paddingLeft = '8px'
+        p.style.paddingRight = '8px'
 
-        const mark = document.createElement('mark')
-        mark.style.backgroundColor = 'rgba(217, 119, 6, 0.35)'
-        mark.style.borderRadius = '2px'
-        mark.style.padding = '1px 2px'
-        range.surroundContents(mark)
+        // Scroll to it
+        p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-        // Scroll to the highlight
-        mark.scrollIntoView({ behavior: 'smooth', block: 'center' })
-
-        // Remove highlight after 4 seconds
+        // Fade out after 4 seconds
         setTimeout(() => {
-          const parent = mark.parentNode
-          if (parent) {
-            parent.replaceChild(document.createTextNode(mark.textContent ?? ''), mark)
-            parent.normalize()
-          }
+          p.style.backgroundColor = 'transparent'
+          setTimeout(() => {
+            p.style.removeProperty('transition')
+            p.style.removeProperty('background-color')
+            p.style.removeProperty('border-radius')
+            p.style.removeProperty('margin-left')
+            p.style.removeProperty('margin-right')
+            p.style.removeProperty('padding-left')
+            p.style.removeProperty('padding-right')
+          }, 300)
         }, 4000)
 
-        break // only highlight first match
+        break
       }
 
-      // Clear the highlight term so it doesn't re-trigger
       setHighlightTerm(null)
-    }, 600) // wait for accordion animation
+    }, 600)
 
     return () => clearTimeout(timer)
   }, [highlightTerm, openChapter])
