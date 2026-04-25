@@ -70,7 +70,7 @@ const ICONS = [
   '/icons/safavid-persia.png',
 ]
 
-const MOBILE_COUNT = 5
+const MOBILE_COUNT = 7
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr]
