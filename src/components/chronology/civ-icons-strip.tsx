@@ -162,8 +162,8 @@ export function CivIconsStrip() {
           const sz = sizeFor(src)
           return (
             <div key={`${i}-${src}`} className="shrink-0 flex flex-col items-center">
-              <div className="h-12 flex items-end justify-center">
-                <img src={src} alt="" aria-hidden="true" className={`h-12 w-auto select-none dark:brightness-[1.8] ${mono ? 'grayscale' : ''}`} draggable={false} />
+              <div className="h-9 flex items-end justify-center">
+                <img src={src} alt="" aria-hidden="true" className={`h-9 w-auto select-none dark:brightness-[1.8] ${mono ? 'grayscale' : ''}`} draggable={false} />
               </div>
             </div>
           )
