@@ -8,7 +8,6 @@ const ICONS = [
   '/icons/persian-empire.png',
   '/icons/ancient-japan.png',
   '/icons/indus-valley.png',
-  '/icons/early-andean-civilizations.png',
   '/icons/ancient-rome.png',
   '/icons/carthage.png',
   '/icons/maya-civilization.png',
@@ -72,18 +71,6 @@ function shuffle<T>(arr: T[]): T[] {
   return a
 }
 
-/** Repeat the array enough times to fill `count` slots */
-function repeatToFill<T>(arr: T[], count: number): T[] {
-  const result: T[] = []
-  while (result.length < count) {
-    for (const item of arr) {
-      result.push(item)
-      if (result.length >= count) break
-    }
-  }
-  return result
-}
-
 export function CivIconsStrip() {
   const [icons, setIcons] = useState(() => shuffle(ICONS))
   const containerRef = useRef<HTMLDivElement>(null)
@@ -91,10 +78,6 @@ export function CivIconsStrip() {
   const reshuffle = useCallback(() => {
     setIcons(shuffle(ICONS))
   }, [])
-
-  // Mobile: first 7 from the shuffled array
-  // Desktop: show all shuffled icons (no repeat needed at 51)
-  const desktopIcons = repeatToFill(icons, 51)
 
   return (
     <div
@@ -108,8 +91,8 @@ export function CivIconsStrip() {
           <img src={src} alt="" aria-hidden="true" className="max-h-10 max-w-10 w-auto h-auto select-none" draggable={false} />
         </div>
       ))}
-      {/* Desktop: repeat to fill */}
-      {desktopIcons.map((src, i) => (
+      {/* Desktop: all unique icons */}
+      {icons.map((src, i) => (
         <div key={`d-${i}-${src}`} className="w-12 h-12 shrink-0 items-center justify-center hidden lg:flex">
           <img src={src} alt="" aria-hidden="true" className="max-h-12 max-w-12 w-auto h-auto select-none" draggable={false} />
         </div>
