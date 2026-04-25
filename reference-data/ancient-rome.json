@@ -1,0 +1,1284 @@
+{
+  "id": "ancient-rome",
+  "label": "Ancient Rome",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "imageWikiSlug": "Colosseum",
+  "pitch": "What started as a cluster of huts on the Palatine Hill became an empire spanning three continents. The Founding of Rome in 753 BCE launched a civilization that gave us concrete, aqueducts, and legal codes still echoed in modern courts. From the drama of Caesar Crosses the Rubicon to the reign of Augustus (First Emperor) to the Visigoth Sack of Rome, this is the arc of the Western world's most consequential superpower.\n\n🔑 Key Facts:\n• The Twelve Tables established Rome's first written law code, giving citizens rights they could actually read\n• Hannibal Barca crossed the Alps with elephants to fight Rome in the Second Punic War — one of history's greatest military gambles\n• The Colosseum Completed in 80 CE could seat 50,000 spectators for gladiatorial combat\n• Marcus Aurelius wrote the Meditations of Marcus Aurelius, a Stoic masterwork, while commanding armies on the frontier\n\n🤔 Why It Matters: Roman law (the Twelve Tables through the Codex Theodosianus), engineering (the Roman Aqueduct System at Peak), and the Edict of Milan legalizing Christianity shaped the legal, physical, and spiritual infrastructure of the modern West.\n\n🎲 Wild Card: The Destruction of Pompeii preserved an entire city under volcanic ash in 79 CE — including graffiti, fast-food counters, and political campaign slogans, giving us the most intimate snapshot of daily life in the ancient world.",
+  "spans": [
+    {
+      "id": "span-ancient-rome-roman-kingdom",
+      "label": "Roman Kingdom",
+      "startYear": -753,
+      "endYear": -509,
+      "wikiSlug": "Roman_Kingdom",
+      "description": "Seven legendary kings ruled Rome from its founding on the Palatine Hill, establishing the Senate, religious institutions, and early military organization. The monarchy ended when the tyrannical Tarquinius Superbus was overthrown in a republican revolution."
+    },
+    {
+      "id": "span-ancient-rome-early-republic",
+      "label": "Early Republic",
+      "startYear": -509,
+      "endYear": -264,
+      "wikiSlug": "Roman_Republic",
+      "description": "Rome replaced monarchy with elected consuls and the Twelve Tables of law, while plebeians fought for political rights through the Conflict of the Orders. By 264 BCE Rome had conquered the entire Italian peninsula through a mix of warfare and alliance-building."
+    },
+    {
+      "id": "span-ancient-rome-middle-republic",
+      "label": "Middle Republic",
+      "startYear": -264,
+      "endYear": -133,
+      "wikiSlug": "Roman_Republic",
+      "description": "Rome fought three Punic Wars against Carthage, survived Hannibal's invasion of Italy, and conquered the Hellenistic kingdoms of the eastern Mediterranean. Victory transformed Rome from an Italian power into master of the Mediterranean world."
+    },
+    {
+      "id": "span-ancient-rome-late-republic",
+      "label": "Late Republic",
+      "startYear": -133,
+      "endYear": -27,
+      "wikiSlug": "Roman_Republic",
+      "description": "Social upheaval, slave revolts, and ambitious generals tore the Republic apart through a series of civil wars. From the Gracchi brothers' reforms to Caesar's dictatorship and assassination, Rome's republican institutions crumbled under the weight of empire."
+    },
+    {
+      "id": "span-ancient-rome-principate",
+      "label": "Principate (Early Empire)",
+      "startYear": -27,
+      "endYear": 284,
+      "wikiSlug": "Principate",
+      "description": "Augustus established one-man rule behind a facade of republican government, inaugurating the Pax Romana and Rome's greatest territorial expansion. This era produced the Colosseum, the Pantheon, and the spread of Christianity across the empire."
+    },
+    {
+      "id": "span-ancient-rome-dominate",
+      "label": "Dominate (Late Empire)",
+      "startYear": 284,
+      "endYear": 476,
+      "wikiSlug": "Dominate",
+      "description": "Diocletian reorganized the empire as an openly autocratic state, and Constantine legalized Christianity and founded Constantinople. Barbarian invasions, economic decline, and the permanent east-west division led to the fall of the Western Empire in 476."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-founding-rome",
+      "label": "Founding of Rome",
+      "year": -753,
+      "description": "According to legend, Romulus founded the city of Rome on the Palatine Hill after killing his twin brother Remus. This traditional date marks the beginning of Roman civilization and the Roman Kingdom.",
+      "wikiSlug": "Founding_of_Rome",
+      "tier": 1,
+      "tags": [
+        "founding",
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-romulus",
+      "label": "Romulus",
+      "year": -753,
+      "endYear": -717,
+      "description": "Romulus served as the first King of Rome, establishing the Senate, the legions, and many foundational Roman institutions. He is said to have been taken up to heaven in a whirlwind.",
+      "wikiSlug": "Romulus",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-numa-pompilius",
+      "label": "Numa Pompilius",
+      "year": -715,
+      "endYear": -673,
+      "description": "The second King of Rome, Numa Pompilius was credited with establishing most of Rome's religious institutions, including the Vestal Virgins and the calendar reform adding January and February.",
+      "wikiSlug": "Numa_Pompilius",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-servian-wall",
+      "label": "Servian Wall",
+      "year": -578,
+      "description": "King Servius Tullius constructed the first defensive wall around Rome, enclosing all seven hills. The Servian Wall defined the city's boundaries for centuries.",
+      "wikiSlug": "Servian_Wall",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-republic-founded",
+      "label": "Roman Republic Founded",
+      "year": -509,
+      "description": "The Romans overthrew the last king, Lucius Tarquinius Superbus, and established a republic governed by elected magistrates and the Senate. This event shaped Western political thought for millennia.",
+      "wikiSlug": "Roman_Republic",
+      "tier": 1,
+      "tags": [
+        "politics",
+        "founding"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-twelve-tables",
+      "label": "Twelve Tables",
+      "year": -450,
+      "description": "Rome's first written legal code, the Twelve Tables, was inscribed on bronze tablets and displayed in the Forum. They formed the foundation of Roman law and influenced Western legal systems.",
+      "wikiSlug": "Twelve_Tables",
+      "tier": 2,
+      "tags": [
+        "law"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sack-of-rome-gauls",
+      "label": "Gallic Sack of Rome",
+      "year": -390,
+      "description": "A Gallic army under Brennus defeated the Romans at the Battle of the Allia and sacked most of Rome. This traumatic event left a lasting mark on Roman consciousness and military policy.",
+      "wikiSlug": "Battle_of_the_Allia",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-appian-way",
+      "label": "Appian Way Built",
+      "year": -312,
+      "description": "Censor Appius Claudius Caecus began construction of the Via Appia, the first major Roman road, connecting Rome to Capua. It became the model for Rome's vast road network spanning the empire.",
+      "wikiSlug": "Appian_Way",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-aqua-appia",
+      "label": "First Aqueduct (Aqua Appia)",
+      "year": -312,
+      "description": "The Aqua Appia was Rome's first aqueduct, built by Appius Claudius Caecus to bring fresh water into the city. Roman aqueduct engineering would eventually supply a million residents with water.",
+      "wikiSlug": "Aqua_Appia",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-first-punic-war",
+      "label": "First Punic War",
+      "year": -264,
+      "endYear": -241,
+      "description": "Rome's first major overseas conflict against Carthage was fought primarily over control of Sicily. Rome built a navy from scratch and won, gaining its first provinces outside the Italian peninsula.",
+      "wikiSlug": "First_Punic_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-second-punic-war",
+      "label": "Second Punic War",
+      "year": -218,
+      "endYear": -201,
+      "description": "Hannibal Barca invaded Italy by crossing the Alps with war elephants and won devastating victories at Trebia, Lake Trasimene, and Cannae. Rome eventually prevailed under Scipio Africanus at Zama.",
+      "wikiSlug": "Second_Punic_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hannibal",
+      "label": "Hannibal Barca",
+      "year": -247,
+      "endYear": -183,
+      "description": "Hannibal is regarded as one of history's greatest military commanders. His crossing of the Alps and campaign in Italy for over 15 years remains one of the most audacious military operations ever attempted.",
+      "wikiSlug": "Hannibal",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-scipio-africanus",
+      "label": "Scipio Africanus",
+      "year": -236,
+      "endYear": -183,
+      "description": "Publius Cornelius Scipio Africanus defeated Hannibal at the Battle of Zama in 202 BCE, ending the Second Punic War. He is considered one of Rome's greatest generals.",
+      "wikiSlug": "Scipio_Africanus",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-third-punic-war",
+      "label": "Third Punic War",
+      "year": -149,
+      "endYear": -146,
+      "description": "Rome besieged and utterly destroyed Carthage, salting the earth and selling survivors into slavery. The phrase 'Carthago delenda est' became synonymous with relentless determination.",
+      "wikiSlug": "Third_Punic_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-greece",
+      "label": "Conquest of Greece",
+      "year": -146,
+      "description": "Rome destroyed Corinth and absorbed Greece as the province of Achaea in the same year Carthage fell. Greek culture profoundly influenced Roman art, philosophy, and religion.",
+      "wikiSlug": "Roman_Greece",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tiberius-gracchus",
+      "label": "Tiberius Gracchus",
+      "year": -133,
+      "description": "Tribune Tiberius Gracchus proposed radical land reforms to help Rome's poor and was murdered by senators. His death marked the beginning of a century of political violence that would destroy the Republic.",
+      "wikiSlug": "Tiberius_Gracchus",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-gaius-marius",
+      "label": "Marius Reforms the Army",
+      "year": -107,
+      "description": "Consul Gaius Marius reformed the Roman army, opening enlistment to landless citizens and creating a professional standing army. This produced soldiers loyal to their generals rather than the state.",
+      "wikiSlug": "Marian_reforms",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-social-war",
+      "label": "Social War",
+      "year": -91,
+      "endYear": -87,
+      "description": "Rome's Italian allies revolted demanding Roman citizenship. Though Rome won militarily, it granted citizenship to all Italian allies, transforming the political landscape of the Republic.",
+      "wikiSlug": "Social_War_(90–88_BC)",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sulla-dictatorship",
+      "label": "Sulla's Dictatorship",
+      "year": -82,
+      "endYear": -79,
+      "description": "Lucius Cornelius Sulla marched on Rome twice and became dictator, carrying out proscriptions that killed thousands of political opponents. He set the precedent for military strongmen seizing power.",
+      "wikiSlug": "Sulla",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-spartacus",
+      "label": "Spartacus Revolt",
+      "year": -73,
+      "endYear": -71,
+      "description": "Spartacus, a Thracian gladiator, led the largest slave uprising in Roman history. His army of 70,000 defeated multiple Roman legions before being crushed by Marcus Licinius Crassus.",
+      "wikiSlug": "Third_Servile_War",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cicero",
+      "label": "Cicero",
+      "year": -106,
+      "endYear": -43,
+      "description": "Marcus Tullius Cicero was Rome's greatest orator and a defender of the Republic. His writings on law, politics, and philosophy became foundational texts of Western civilization.",
+      "wikiSlug": "Cicero",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-first-triumvirate",
+      "label": "First Triumvirate",
+      "year": -60,
+      "description": "Caesar, Pompey, and Crassus formed an informal political alliance that dominated Roman politics. This power-sharing arrangement sidelined the Senate and set the stage for civil war.",
+      "wikiSlug": "First_Triumvirate",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gallic-wars",
+      "label": "Gallic Wars",
+      "year": -58,
+      "endYear": -50,
+      "description": "Julius Caesar conquered Gaul (modern France) in a series of brilliant campaigns, adding vast territory to Rome and building a fiercely loyal veteran army. He also briefly invaded Britain.",
+      "wikiSlug": "Gallic_Wars",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-caesar-crosses-rubicon",
+      "label": "Caesar Crosses the Rubicon",
+      "year": -49,
+      "description": "Julius Caesar led his legion across the Rubicon River, starting a civil war against the Senate and Pompey. The phrase 'crossing the Rubicon' became a metaphor for passing a point of no return.",
+      "wikiSlug": "Crossing_the_Rubicon",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-julius-caesar",
+      "label": "Julius Caesar",
+      "year": -100,
+      "endYear": -44,
+      "description": "Gaius Julius Caesar was a military genius, political reformer, and dictator whose assassination on the Ides of March transformed Rome forever. His name became a title for future rulers (Kaiser, Tsar).",
+      "wikiSlug": "Julius_Caesar",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-assassination-caesar",
+      "label": "Assassination of Caesar",
+      "year": -44,
+      "description": "Julius Caesar was stabbed to death by a group of senators led by Brutus and Cassius on the Ides of March. Rather than restoring the Republic, his murder triggered another round of civil wars.",
+      "wikiSlug": "Assassination_of_Julius_Caesar",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vergil",
+      "label": "Virgil",
+      "year": -70,
+      "endYear": -19,
+      "description": "Publius Vergilius Maro wrote the Aeneid, Rome's national epic connecting Roman origins to the fall of Troy. He is considered one of the greatest poets in the Western tradition.",
+      "wikiSlug": "Virgil",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-rome-battle-actium",
+      "label": "Battle of Actium",
+      "year": -31,
+      "description": "Octavian's fleet defeated the combined forces of Mark Antony and Cleopatra off the coast of Greece. This decisive naval battle ended the Roman Republic's civil wars and made Octavian sole ruler.",
+      "wikiSlug": "Battle_of_Actium",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-augustus",
+      "label": "Augustus (First Emperor)",
+      "year": -63,
+      "endYear": 14,
+      "description": "Born Gaius Octavius, Augustus became Rome's first emperor and transformed the Republic into the Principate. His 40-year reign brought peace, prosperity, and a golden age of art and literature.",
+      "wikiSlug": "Augustus",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-principate-begins",
+      "label": "Principate Begins",
+      "year": -27,
+      "description": "The Senate granted Octavian the title Augustus, marking the formal beginning of the Roman Empire. He carefully maintained the fiction of republican government while holding supreme power.",
+      "wikiSlug": "Principate",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ovid",
+      "label": "Ovid",
+      "year": -43,
+      "endYear": 17,
+      "description": "Publius Ovidius Naso authored the Metamorphoses, a sweeping mythological epic that became one of the most influential works of Western literature. Augustus exiled him to the Black Sea in 8 CE.",
+      "wikiSlug": "Ovid",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roman-concrete",
+      "label": "Roman Concrete Perfected",
+      "year": -25,
+      "description": "Roman engineers perfected opus caementicium, a volcanic ash-based concrete that could set underwater. This revolutionary material enabled the construction of domes, harbors, and structures that still stand today.",
+      "wikiSlug": "Roman_concrete",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-livy",
+      "label": "Livy's History of Rome",
+      "year": -27,
+      "description": "Titus Livius began writing Ab Urbe Condita, a monumental 142-book history of Rome from its founding. Though only 35 books survive, it remains a primary source for early Roman history.",
+      "wikiSlug": "Livy",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jesus-crucifixion",
+      "label": "Crucifixion of Jesus",
+      "year": 30,
+      "description": "Jesus of Nazareth was crucified in Jerusalem under the authority of the Roman prefect Pontius Pilate. This event gave rise to Christianity, which would eventually transform the Roman Empire and Western civilization.",
+      "wikiSlug": "Crucifixion_of_Jesus",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tiberius",
+      "label": "Tiberius",
+      "year": 14,
+      "endYear": 37,
+      "description": "Augustus's stepson Tiberius became the second emperor and proved a capable but unpopular ruler. He withdrew to Capri in his later years, governing through his prefect Sejanus.",
+      "wikiSlug": "Tiberius",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-caligula",
+      "label": "Caligula",
+      "year": 37,
+      "endYear": 41,
+      "description": "Gaius Caesar, known as Caligula, began his reign with promise but descended into tyranny and possibly madness. He was assassinated by the Praetorian Guard after less than four years.",
+      "wikiSlug": "Caligula",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-claudius-britain",
+      "label": "Conquest of Britain",
+      "year": 43,
+      "description": "Emperor Claudius launched the Roman invasion of Britain, adding it as a province. Roman rule would last nearly 400 years and leave a lasting imprint on British culture and infrastructure.",
+      "wikiSlug": "Roman_conquest_of_Britain",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nero",
+      "label": "Nero",
+      "year": 54,
+      "endYear": 68,
+      "description": "Nero was the last Julio-Claudian emperor, remembered for his artistic pretensions, persecution of Christians, and the Great Fire of Rome in 64 CE. He committed suicide when the Senate declared him a public enemy.",
+      "wikiSlug": "Nero",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-great-fire-rome",
+      "label": "Great Fire of Rome",
+      "year": 64,
+      "description": "A devastating fire burned for six days, destroying ten of Rome's fourteen districts. Nero used the cleared land to build his lavish Domus Aurea and blamed Christians for the fire, launching persecutions.",
+      "wikiSlug": "Great_Fire_of_Rome",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-destruction-jerusalem",
+      "label": "Destruction of Jerusalem",
+      "year": 70,
+      "description": "Emperor Vespasian's son Titus besieged and destroyed Jerusalem, including the Second Temple. This catastrophic event reshaped Judaism and is commemorated on the Arch of Titus in Rome.",
+      "wikiSlug": "Siege_of_Jerusalem_(70_CE)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-colosseum",
+      "label": "Colosseum Completed",
+      "year": 80,
+      "description": "The Flavian Amphitheatre, known as the Colosseum, was completed under Emperor Titus. Seating 50,000 spectators, it hosted gladiatorial contests and remains the largest amphitheatre ever built.",
+      "wikiSlug": "Colosseum",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pompeii",
+      "label": "Destruction of Pompeii",
+      "year": 79,
+      "description": "Mount Vesuvius erupted catastrophically, burying Pompeii and Herculaneum under volcanic ash. The preserved cities provide an unparalleled snapshot of daily Roman life, rediscovered in the 18th century.",
+      "wikiSlug": "Eruption_of_Mount_Vesuvius_in_79_AD",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pliny-elder",
+      "label": "Pliny the Elder",
+      "year": 23,
+      "endYear": 79,
+      "description": "Gaius Plinius Secundus wrote the Naturalis Historia, a 37-volume encyclopedia of the natural world. He died observing the eruption of Vesuvius, exemplifying Roman scientific curiosity.",
+      "wikiSlug": "Pliny_the_Elder",
+      "tier": 3,
+      "tags": [
+        "writing",
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-trajan",
+      "label": "Trajan",
+      "year": 98,
+      "endYear": 117,
+      "description": "Trajan expanded the Roman Empire to its greatest territorial extent, conquering Dacia and Mesopotamia. He was considered one of the 'Five Good Emperors' and an ideal ruler.",
+      "wikiSlug": "Trajan",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-trajans-column",
+      "label": "Trajan's Column",
+      "year": 113,
+      "description": "This 30-meter carved column in Rome depicts Trajan's Dacian Wars in a continuous spiral frieze of 2,662 figures. It is a masterpiece of Roman narrative art and a key historical source.",
+      "wikiSlug": "Trajan's_Column",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hadrian",
+      "label": "Hadrian",
+      "year": 117,
+      "endYear": 138,
+      "description": "Hadrian consolidated the empire's borders, building his famous wall in Britain and the Pantheon in Rome. He was a cultured philhellene who traveled extensively throughout his empire.",
+      "wikiSlug": "Hadrian",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hadrians-wall",
+      "label": "Hadrian's Wall",
+      "year": 122,
+      "description": "Emperor Hadrian ordered the construction of a 73-mile wall across northern Britain to mark the empire's frontier. It remains one of the most impressive Roman engineering achievements.",
+      "wikiSlug": "Hadrian's_Wall",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pantheon",
+      "label": "Pantheon Rebuilt",
+      "year": 125,
+      "description": "Hadrian rebuilt the Pantheon with its revolutionary unreinforced concrete dome, still the world's largest of its kind. Its oculus and perfect proportions make it one of the best-preserved Roman buildings.",
+      "wikiSlug": "Pantheon,_Rome",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-marcus-aurelius",
+      "label": "Marcus Aurelius",
+      "year": 161,
+      "endYear": 180,
+      "description": "The last of the 'Five Good Emperors,' Marcus Aurelius was a Stoic philosopher-king who spent much of his reign fighting Germanic tribes. His Meditations remains a classic of Stoic philosophy.",
+      "wikiSlug": "Marcus_Aurelius",
+      "tier": 2,
+      "tags": [
+        "people",
+        "writing"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-meditations",
+      "label": "Meditations of Marcus Aurelius",
+      "year": 170,
+      "description": "Written during military campaigns along the Danube, Marcus Aurelius's personal journal of Stoic philosophy was never intended for publication. It became one of the most influential philosophical works in history.",
+      "wikiSlug": "Meditations",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-galen",
+      "label": "Galen",
+      "year": 129,
+      "endYear": 216,
+      "description": "Galen of Pergamon was the most accomplished physician in the Roman Empire, whose anatomical and medical theories dominated Western medicine for 1,300 years. He served as physician to several emperors.",
+      "wikiSlug": "Galen",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-ptolemy",
+      "label": "Ptolemy",
+      "year": 100,
+      "endYear": 170,
+      "description": "Claudius Ptolemy wrote the Almagest, the definitive astronomical treatise of antiquity, and the Geographia, which mapped the known world. His geocentric model dominated astronomy until Copernicus.",
+      "wikiSlug": "Ptolemy",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-commodus",
+      "label": "Commodus",
+      "year": 180,
+      "endYear": 192,
+      "description": "Marcus Aurelius's son Commodus was a vain and incompetent emperor who fancied himself a gladiator. His assassination plunged Rome into civil war and ended the era of the Five Good Emperors.",
+      "wikiSlug": "Commodus",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roman-roads",
+      "label": "Roman Road Network at Peak",
+      "year": 120,
+      "description": "At its height the Roman road network spanned over 400,000 kilometers, connecting every province of the empire. These engineered highways facilitated trade, troop movement, and communication across three continents.",
+      "wikiSlug": "Roman_roads",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-silk-road-trade",
+      "label": "Rome-China Silk Trade",
+      "year": -30,
+      "description": "Roman demand for Chinese silk drove a vast overland trade network connecting the Mediterranean to East Asia. Roman gold flowed east while luxury goods flowed west, creating the first global economy.",
+      "wikiSlug": "Sino-Roman_relations",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-rome-grain-trade",
+      "label": "Egyptian Grain Supply",
+      "year": -30,
+      "description": "After annexing Egypt, Rome depended on Egyptian grain to feed its million-plus population. The annona, the state grain supply, became a critical political tool and logistical achievement.",
+      "wikiSlug": "Cura_Annonae",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-port-ostia",
+      "label": "Port of Ostia Expanded",
+      "year": 42,
+      "description": "Emperor Claudius began a massive expansion of Ostia's harbor to handle the growing volume of Mediterranean trade. The port complex became one of the ancient world's largest commercial hubs.",
+      "wikiSlug": "Portus",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-antonine-plague",
+      "label": "Antonine Plague",
+      "year": 165,
+      "endYear": 180,
+      "description": "A devastating pandemic, likely smallpox, killed an estimated 5 million people across the Roman Empire. It weakened the military, disrupted trade, and may have contributed to Rome's eventual decline.",
+      "wikiSlug": "Antonine_Plague",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-caracalla-citizenship",
+      "label": "Edict of Caracalla",
+      "year": 212,
+      "description": "Emperor Caracalla extended Roman citizenship to all free inhabitants of the empire. This revolutionary decree unified the empire legally but also diluted the special status citizenship had carried.",
+      "wikiSlug": "Constitutio_Antoniniana",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-baths-caracalla",
+      "label": "Baths of Caracalla",
+      "year": 216,
+      "description": "These enormous public baths could accommodate 1,600 bathers and included libraries, gardens, and exercise areas. They exemplified Roman urban engineering and the importance of public amenities.",
+      "wikiSlug": "Baths_of_Caracalla",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-crisis-third-century",
+      "label": "Crisis of the Third Century",
+      "year": 235,
+      "endYear": 284,
+      "description": "The empire nearly collapsed under the weight of civil wars, plague, economic crisis, and barbarian invasions. In 50 years, over 20 emperors claimed the throne as the empire fragmented.",
+      "wikiSlug": "Crisis_of_the_Third_Century",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-diocletian",
+      "label": "Diocletian's Reforms",
+      "year": 284,
+      "endYear": 305,
+      "description": "Diocletian ended the Crisis of the Third Century and created the Tetrarchy, dividing the empire among four co-rulers. His administrative and economic reforms stabilized the empire but increased authoritarianism.",
+      "wikiSlug": "Diocletian",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-great-persecution",
+      "label": "Great Persecution of Christians",
+      "year": 303,
+      "endYear": 311,
+      "description": "Diocletian launched the last and most severe persecution of Christians in the Roman Empire. Churches were destroyed, scriptures burned, and clergy imprisoned, but the faith continued to spread.",
+      "wikiSlug": "Diocletianic_Persecution",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-constantine",
+      "label": "Constantine the Great",
+      "year": 306,
+      "endYear": 337,
+      "description": "Constantine reunified the Roman Empire, founded Constantinople, and became the first emperor to convert to Christianity. His reign fundamentally reshaped the political and religious landscape of the Western world.",
+      "wikiSlug": "Constantine_the_Great",
+      "tier": 1,
+      "tags": [
+        "religion",
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-edict-milan",
+      "label": "Edict of Milan",
+      "year": 313,
+      "description": "Constantine and Licinius issued the Edict of Milan, granting religious tolerance throughout the empire and ending the persecution of Christians. This marked a turning point in the history of Christianity.",
+      "wikiSlug": "Edict_of_Milan",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-council-nicaea",
+      "label": "Council of Nicaea",
+      "year": 325,
+      "description": "Constantine convened the first ecumenical council of Christian bishops at Nicaea. It produced the Nicene Creed, defining core Christian doctrine and establishing the relationship between church and state.",
+      "wikiSlug": "First_Council_of_Nicaea",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-constantinople-founded",
+      "label": "Constantinople Founded",
+      "year": 330,
+      "description": "Constantine inaugurated his new capital at Byzantium, renaming it Constantinople. Built on a strategic peninsula, it would become the greatest city in the medieval world and endure until 1453.",
+      "wikiSlug": "Constantinople",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-julian-apostasy",
+      "label": "Julian the Apostate",
+      "year": 361,
+      "endYear": 363,
+      "description": "Emperor Julian attempted to reverse the Christianization of the empire and restore traditional Roman religion. His brief reign and death in battle ended the last serious pagan revival.",
+      "wikiSlug": "Julian_(emperor)",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-christianity-state-religion",
+      "label": "Christianity Becomes State Religion",
+      "year": 380,
+      "description": "Emperor Theodosius I issued the Edict of Thessalonica, making Nicene Christianity the official state religion and banning pagan worship. This completed Rome's transformation from pagan to Christian empire.",
+      "wikiSlug": "Edict_of_Thessalonica",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-empire-divided",
+      "label": "Empire Permanently Divided",
+      "year": 395,
+      "description": "After the death of Theodosius I, the Roman Empire was permanently split between his sons into Western and Eastern halves. The Eastern Empire would survive for another thousand years as Byzantium.",
+      "wikiSlug": "Fall_of_the_Western_Roman_Empire",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sack-rome-visigoths",
+      "label": "Visigoth Sack of Rome",
+      "year": 410,
+      "description": "Alaric and his Visigoths sacked Rome for three days, the first time the city had fallen to a foreign enemy in 800 years. The event shocked the Roman world and inspired Augustine's City of God.",
+      "wikiSlug": "Sack_of_Rome_(410)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-augustine",
+      "label": "Augustine of Hippo",
+      "year": 354,
+      "endYear": 430,
+      "description": "Saint Augustine was the most influential Christian theologian of Late Antiquity. His Confessions and City of God shaped Western philosophy, theology, and political thought for over a millennium.",
+      "wikiSlug": "Augustine_of_Hippo",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-vandal-sack-rome",
+      "label": "Vandal Sack of Rome",
+      "year": 455,
+      "description": "The Vandals under Gaiseric looted Rome for two weeks, stripping the city of its treasures including items from the Temple of Jerusalem. The word 'vandalism' derives from their name.",
+      "wikiSlug": "Sack_of_Rome_(455)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-fall-western-rome",
+      "label": "Fall of Western Roman Empire",
+      "year": 476,
+      "description": "The Germanic chieftain Odoacer deposed the last Western Roman Emperor, Romulus Augustulus. This traditional date marks the end of the Western Roman Empire and the beginning of the Middle Ages.",
+      "wikiSlug": "Fall_of_the_Western_Roman_Empire",
+      "tier": 1,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roman-forum",
+      "label": "Roman Forum",
+      "year": -500,
+      "description": "The Forum Romanum served as the civic, commercial, and religious center of Rome for centuries. Its temples, basilicas, and arches made it the heart of the ancient world's greatest city.",
+      "wikiSlug": "Roman_Forum",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-temple-jupiter",
+      "label": "Temple of Jupiter Capitolinus",
+      "year": -509,
+      "description": "The Temple of Jupiter Optimus Maximus on the Capitoline Hill was Rome's most important temple, dedicated in the same year as the Republic's founding. It was the center of Roman state religion.",
+      "wikiSlug": "Temple_of_Jupiter_Optimus_Maximus",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lex-hortensia",
+      "label": "Lex Hortensia",
+      "year": -287,
+      "description": "This law made decisions of the plebeian assembly binding on all citizens, including patricians. It marked the culmination of the Conflict of the Orders and established a more democratic Roman government.",
+      "wikiSlug": "Lex_Hortensia",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roman-currency",
+      "label": "Denarius Introduced",
+      "year": -211,
+      "description": "Rome introduced the silver denarius, which became the standard currency across the Mediterranean world for centuries. Roman coinage facilitated trade and spread Roman culture throughout the empire.",
+      "wikiSlug": "Denarius",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cato-elder",
+      "label": "Cato the Elder",
+      "year": -234,
+      "endYear": -149,
+      "description": "Marcus Porcius Cato was a statesman known for ending every speech with 'Carthage must be destroyed.' He wrote De Agri Cultura, the oldest surviving complete prose work in Latin.",
+      "wikiSlug": "Cato_the_Elder",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-cleopatra-rome",
+      "label": "Cleopatra & Rome",
+      "year": -48,
+      "endYear": -30,
+      "description": "Cleopatra VII allied with Julius Caesar and later Mark Antony, intertwining Egyptian and Roman politics. Her death in 30 BCE ended the Ptolemaic dynasty and made Egypt a Roman province.",
+      "wikiSlug": "Cleopatra",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pompey",
+      "label": "Pompey the Great",
+      "year": -106,
+      "endYear": -48,
+      "description": "Gnaeus Pompeius Magnus conquered the East, cleared the Mediterranean of pirates, and formed the First Triumvirate with Caesar and Crassus. His rivalry with Caesar led to civil war and his assassination in Egypt.",
+      "wikiSlug": "Pompey",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mark-antony",
+      "label": "Mark Antony",
+      "year": -83,
+      "endYear": -30,
+      "description": "Marcus Antonius was Caesar's chief lieutenant, a member of the Second Triumvirate, and ruler of Rome's eastern provinces. His alliance with Cleopatra and defeat at Actium ended the Roman Republic.",
+      "wikiSlug": "Mark_Antony",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vespasian",
+      "label": "Vespasian",
+      "year": 69,
+      "endYear": 79,
+      "description": "Titus Flavius Vespasianus founded the Flavian dynasty after the chaos of the Year of Four Emperors. He restored fiscal stability, began construction of the Colosseum, and established a pragmatic style of rule.",
+      "wikiSlug": "Vespasian",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-year-four-emperors",
+      "label": "Year of Four Emperors",
+      "year": 69,
+      "description": "After Nero's suicide, four men claimed the throne in rapid succession — Galba, Otho, Vitellius, and Vespasian. The resulting civil war demonstrated the fragility of imperial succession and that emperors could be made outside Rome.",
+      "wikiSlug": "Year_of_the_Four_Emperors",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-seneca",
+      "label": "Seneca the Younger",
+      "year": -4,
+      "endYear": 65,
+      "description": "Lucius Annaeus Seneca was a Stoic philosopher, dramatist, and advisor to Emperor Nero. His letters and essays on ethics remain among the most influential works of Roman philosophy. Nero forced him to commit suicide.",
+      "wikiSlug": "Seneca_the_Younger",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-nerva",
+      "label": "Nerva",
+      "year": 96,
+      "endYear": 98,
+      "description": "Introduced the system of adoptive succession after Domitian's assassination, choosing Trajan as his heir. This principle produced the Five Good Emperors and Rome's greatest era of stability.",
+      "wikiSlug": "Nerva",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-codex-theodosianus",
+      "label": "Codex Theodosianus",
+      "year": 438,
+      "description": "The first official compilation of Roman imperial law, systematizing centuries of legislation. It profoundly influenced medieval European law and the later Justinian Code.",
+      "wikiSlug": "Codex_Theodosianus",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-battle-cannae",
+      "label": "Battle of Cannae",
+      "year": -216,
+      "description": "Hannibal annihilated a Roman army of 80,000 using a double-envelopment maneuver, inflicting the worst defeat in Roman history. The battle remains a textbook example of tactical genius.",
+      "wikiSlug": "Battle_of_Cannae",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-zama",
+      "label": "Battle of Zama",
+      "year": -202,
+      "description": "Scipio Africanus defeated Hannibal at Zama in North Africa, ending the Second Punic War and establishing Rome as the dominant power in the western Mediterranean.",
+      "wikiSlug": "Battle_of_Zama",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-adrianople",
+      "label": "Battle of Adrianople",
+      "year": 378,
+      "description": "The Visigoths destroyed a Roman army and killed Emperor Valens, one of the most catastrophic Roman military defeats. It demonstrated the empire's inability to control barbarian migrations.",
+      "wikiSlug": "Battle_of_Adrianople",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tacitus",
+      "label": "Tacitus",
+      "year": 56,
+      "endYear": 120,
+      "description": "Rome's greatest historian, whose Annals and Histories provide the most detailed account of the early empire. His mordant style and political analysis remain unmatched.",
+      "wikiSlug": "Tacitus",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-pont-du-gard",
+      "label": "Pont du Gard",
+      "year": 19,
+      "description": "The Pont du Gard aqueduct bridge in southern Gaul stands 49 meters high across three tiers of arches, carrying water 50 km to Nîmes. Among the most impressive Roman engineering works.",
+      "wikiSlug": "Pont_du_Gard",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-paul-missions",
+      "label": "Paul's Missionary Journeys",
+      "year": 45,
+      "endYear": 64,
+      "description": "Paul of Tarsus spread Christianity across the eastern Mediterranean, founding churches in Asia Minor and Greece. His epistles form a major portion of the New Testament.",
+      "wikiSlug": "Paul_the_Apostle",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-vitruvius",
+      "label": "Vitruvius' De Architectura",
+      "year": -15,
+      "description": "The only surviving ancient treatise on architecture and engineering. It influenced Renaissance architects and established principles of design still referenced today.",
+      "wikiSlug": "Vitruvius",
+      "tier": 3,
+      "tags": [
+        "architecture",
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-conflict-of-orders",
+      "label": "Conflict of the Orders",
+      "year": -494,
+      "endYear": -287,
+      "description": "The plebeians waged a two-century struggle for political equality with the patricians, using secessions and strikes to win tribunes, access to office, and legal protections. It shaped Rome into a more representative republic.",
+      "wikiSlug": "Conflict_of_the_Orders",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-samnite-wars",
+      "label": "Samnite Wars",
+      "year": -343,
+      "endYear": -290,
+      "description": "Three wars against the Samnites of central Italy established Roman dominance over the Italian peninsula. The wars drove Roman military innovation and the expansion of the road network.",
+      "wikiSlug": "Samnite_Wars",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cloacamaxima",
+      "label": "Cloaca Maxima",
+      "year": -600,
+      "description": "The Cloaca Maxima was one of the world earliest sewage systems, draining the marshy Forum valley into the Tiber. Originally an open channel, it was later enclosed and sections remain in use today.",
+      "wikiSlug": "Cloaca_Maxima",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gaius-gracchus",
+      "label": "Gaius Gracchus",
+      "year": -123,
+      "endYear": -121,
+      "description": "Following his brother Tiberius, Gaius Gracchus pushed ambitious reforms including subsidized grain, road building, and extending citizenship. He was killed in political violence, deepening the crisis of the Late Republic.",
+      "wikiSlug": "Gaius_Gracchus",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-pax-romana",
+      "label": "Pax Romana",
+      "year": -27,
+      "endYear": 180,
+      "description": "The Pax Romana was a roughly 200-year period of relative peace and stability across the Roman Empire. Trade, urbanization, and cultural exchange flourished, and the empire reached its greatest territorial extent.",
+      "wikiSlug": "Pax_Romana",
+      "tier": 1,
+      "tags": [
+        "trade"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roman-aqueducts",
+      "label": "Roman Aqueduct System at Peak",
+      "year": 100,
+      "description": "By the 2nd century CE, Rome was served by eleven aqueducts delivering over a million cubic meters of water daily. The system supplied public baths, fountains, and private homes across the city.",
+      "wikiSlug": "Roman_aqueduct",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-attila-the-hun",
+      "label": "Attila the Hun",
+      "year": 434,
+      "endYear": 453,
+      "description": "Attila united the Hunnic tribes and terrorized both halves of the Roman Empire, extracting massive tributes. His invasion of Gaul was stopped at the Battle of the Catalaunian Plains in 451.",
+      "wikiSlug": "Attila",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-crassus",
+      "label": "Marcus Licinius Crassus",
+      "year": -115,
+      "endYear": -53,
+      "description": "The wealthiest man in Roman history, Crassus crushed Spartacus revolt and formed the First Triumvirate with Caesar and Pompey. His death at Carrhae fighting the Parthians destabilized the alliance.",
+      "wikiSlug": "Marcus_Licinius_Crassus",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    }
+  ],
+  "wikiSlug": "Ancient_Rome",
+  "countryIds": [
+    "380",
+    "300",
+    "792",
+    "818",
+    "250",
+    "724",
+    "826",
+    "012"
+  ]
+}

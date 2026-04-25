@@ -1,0 +1,1207 @@
+{
+  "id": "ancient-greece",
+  "label": "Ancient Greece",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "imageWikiSlug": "Parthenon",
+  "pitch": "A patchwork of fiercely independent city-states crammed onto rocky peninsulas somehow invented democracy, philosophy, theater, and the Olympic ideal. It starts with Homer composes epics and the Greek Alphabet adopted, and explodes into the golden age when Pericles leads Athens and the Parthenon completed redefines what architecture can be. Then Alexander the Great conquered everything from Greece to India before dying at 32.\n\n🔑 Key Facts:\n• Cleisthenes establishes Democracy in Athens around 508 BCE, creating the world's first democratic government\n• The Battle of Thermopylae and Battle of Salamis turned back the Persian invasion and preserved Greek independence\n• Plato founds the Academy and Aristotle founds the Lyceum, creating institutions that shaped Western thought for millennia\n• Euclid's Elements remained the standard geometry textbook for over 2,000 years\n\n🤔 Why It Matters: Greek ideas about governance, logic, and individual rights flow directly into modern constitutions and legal systems. The Trial and Death of Socrates still defines the tension between free speech and state authority.\n\n🎲 Wild Card: The Antikythera Mechanism, a corroded bronze device pulled from a shipwreck, turned out to be a 2,000-year-old analog computer that tracked astronomical cycles — technology so advanced it wouldn't be matched for another 1,400 years.",
+  "countryIds": [
+    "300",
+    "792"
+  ],
+  "spans": [
+    {
+      "id": "span-ancient-greece-greek-dark-ages",
+      "label": "Greek Dark Ages",
+      "startYear": -800,
+      "endYear": -700,
+      "description": "Following the collapse of Mycenaean civilization, writing was lost and population declined. The Greek alphabet was adopted from the Phoenicians, and Homer composed the Iliad and Odyssey from oral tradition.",
+      "wikiSlug": "Greek_Dark_Ages"
+    },
+    {
+      "id": "span-ancient-greece-archaic-period",
+      "label": "Archaic Period",
+      "startYear": -700,
+      "endYear": -480,
+      "description": "City-states like Athens and Sparta emerged as major powers, Greek colonies spread across the Mediterranean, and the Olympic Games united Hellenic culture. Cleisthenes established the world's first democracy in Athens.",
+      "wikiSlug": "Archaic_Greece"
+    },
+    {
+      "id": "span-ancient-greece-classical-period",
+      "label": "Classical Period",
+      "startYear": -480,
+      "endYear": -323,
+      "description": "Greece's golden age produced the Parthenon, Athenian democracy under Pericles, and the philosophies of Socrates, Plato, and Aristotle. Greek victories over Persia at Salamis and Plataea secured independence.",
+      "wikiSlug": "Classical_Greece"
+    },
+    {
+      "id": "span-ancient-greece-hellenistic-period",
+      "label": "Hellenistic Period",
+      "startYear": -323,
+      "endYear": -30,
+      "description": "After Alexander the Great's death, his empire fractured into rival kingdoms that spread Greek culture from Egypt to Central Asia. Alexandria's Library, Euclid's geometry, and Archimedes' inventions flourished in this era.",
+      "wikiSlug": "Hellenistic_period"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-homer",
+      "label": "Homer composes epics",
+      "year": -750,
+      "description": "Homer composed the Iliad and the Odyssey, the foundational works of Western literature. These epic poems shaped Greek identity, religion, and education for centuries.",
+      "wikiSlug": "Homer",
+      "tier": 2,
+      "tags": [
+        "culture"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-greek-alphabet",
+      "label": "Greek Alphabet adopted",
+      "year": -800,
+      "description": "The Greeks adapted the Phoenician alphabet, adding vowels to create the first true alphabet. This innovation enabled widespread literacy and became the ancestor of Latin and Cyrillic scripts.",
+      "wikiSlug": "Greek_alphabet",
+      "tier": 2,
+      "tags": [
+        "culture"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-first-olympics",
+      "label": "First Olympic Games",
+      "year": -776,
+      "description": "The first recorded Olympic Games were held at Olympia in honor of Zeus. The games united Greek city-states in peaceful competition every four years and became a cornerstone of Greek culture.",
+      "wikiSlug": "Ancient_Olympic_Games",
+      "tier": 1,
+      "tags": [
+        "culture"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-greek-colonization",
+      "label": "Greek Colonization begins",
+      "year": -750,
+      "description": "Greek city-states began establishing colonies across the Mediterranean and Black Sea coasts. Settlements from Massalia to Byzantion spread Greek culture and created extensive trade networks.",
+      "wikiSlug": "Greek_colonisation",
+      "tier": 2,
+      "tags": [
+        "expansion"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-hesiod",
+      "label": "Hesiod's Works and Days",
+      "year": -700,
+      "description": "Hesiod composed Works and Days and Theogony, establishing Greek mythological cosmology and providing a guide to agricultural life. His writings are among the earliest Greek literary works after Homer.",
+      "wikiSlug": "Hesiod",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sparta-constitution",
+      "label": "Spartan Constitution",
+      "year": -700,
+      "description": "Lycurgus traditionally established Sparta's unique constitution, creating the dual kingship, the Gerousia council, and the agoge military training system. Sparta became the most formidable military power in Greece.",
+      "wikiSlug": "Great_Rhetra",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-coinage-lydia",
+      "label": "First Greek Coinage",
+      "year": -600,
+      "description": "Greek city-states adopted coinage from Lydia, minting their own coins in silver and electrum. Standardized currency revolutionized trade across the Mediterranean world.",
+      "wikiSlug": "Ancient_Greek_coinage",
+      "tier": 3,
+      "tags": [
+        "economy"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-sappho",
+      "label": "Sappho of Lesbos",
+      "year": -610,
+      "description": "Sappho composed lyric poetry on the island of Lesbos, celebrated across the ancient world for its emotional intensity. Plato called her the 'Tenth Muse' for the beauty of her verse.",
+      "wikiSlug": "Sappho",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-draco",
+      "label": "Draco's Law Code",
+      "year": -621,
+      "description": "Draco established Athens' first written law code, replacing oral tradition with codified justice. Though notoriously harsh, it was a critical step toward the rule of law in Athens.",
+      "wikiSlug": "Draco_(lawgiver)",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-solon",
+      "label": "Solon's Reforms",
+      "year": -594,
+      "description": "Solon reformed Athenian law and the constitution, abolishing debt slavery and creating property-based political classes. His reforms laid the groundwork for Athenian democracy.",
+      "wikiSlug": "Solon",
+      "tier": 2,
+      "tags": [
+        "politics",
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-thales",
+      "label": "Thales of Miletus",
+      "year": -585,
+      "description": "Thales is credited with predicting a solar eclipse and proposing that water is the fundamental substance of all matter. He is considered the first Western philosopher and founder of natural science.",
+      "wikiSlug": "Thales_of_Miletus",
+      "tier": 2,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-pythagoras",
+      "label": "Pythagoras founds school",
+      "year": -530,
+      "description": "Pythagoras established a philosophical and mathematical community in Croton, southern Italy. His theorem on right triangles and his work on musical harmonics profoundly influenced mathematics and philosophy.",
+      "wikiSlug": "Pythagoras",
+      "tier": 2,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-peisistratos",
+      "label": "Peisistratos, Tyrant of Athens",
+      "year": -561,
+      "endYear": -527,
+      "description": "Peisistratos seized power as tyrant of Athens and patronized the arts, commissioning the first written editions of Homer's epics. His rule saw Athens grow into a major cultural center.",
+      "wikiSlug": "Peisistratos",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cleisthenes",
+      "label": "Cleisthenes establishes Democracy",
+      "year": -508,
+      "description": "Cleisthenes reorganized Athenian political structure into ten tribes, established the Council of 500, and introduced ostracism. His reforms created the world's first democracy.",
+      "wikiSlug": "Cleisthenes",
+      "tier": 2,
+      "tags": [
+        "politics",
+        "founding"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-temple-artemis",
+      "label": "Temple of Artemis at Ephesus",
+      "year": -550,
+      "description": "The Temple of Artemis at Ephesus was built as one of the Seven Wonders of the Ancient World. The massive marble temple with 127 columns was a center of worship and commerce.",
+      "wikiSlug": "Temple_of_Artemis",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ionian-revolt",
+      "label": "Ionian Revolt",
+      "year": -499,
+      "endYear": -493,
+      "description": "Greek cities in Ionia revolted against Persian rule with Athenian support. The revolt's failure provoked the Persian Wars, as Darius I vowed revenge against Athens.",
+      "wikiSlug": "Ionian_Revolt",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-marathon",
+      "label": "Battle of Marathon",
+      "year": -490,
+      "description": "An outnumbered Athenian army defeated the Persian invasion force on the plain of Marathon. The victory preserved Greek independence and demonstrated the effectiveness of the hoplite phalanx.",
+      "wikiSlug": "Battle_of_Marathon",
+      "tier": 1,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-thermopylae",
+      "label": "Battle of Thermopylae",
+      "year": -484.5,
+      "description": "King Leonidas and 300 Spartans made their legendary last stand against Xerxes' massive Persian army at the narrow pass of Thermopylae. Their sacrifice became an enduring symbol of courage against overwhelming odds.",
+      "wikiSlug": "Battle_of_Thermopylae",
+      "tier": 2,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-salamis",
+      "label": "Battle of Salamis",
+      "year": -481.5,
+      "description": "Themistocles lured the Persian fleet into the narrow straits of Salamis, where the outnumbered Greek triremes destroyed the Persian navy. This decisive naval victory turned the tide of the Persian Wars.",
+      "wikiSlug": "Battle_of_Salamis",
+      "tier": 2,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-plataea",
+      "label": "Battle of Plataea",
+      "year": -479,
+      "description": "A united Greek army defeated the Persian forces at Plataea, ending the second Persian invasion of Greece. This land victory, combined with Salamis, secured Greek freedom from Persian rule.",
+      "wikiSlug": "Battle_of_Plataea",
+      "tier": 3,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-aeschylus-oresteia",
+      "label": "Aeschylus' Oresteia",
+      "year": -458,
+      "description": "Aeschylus premiered the Oresteia trilogy at the Dionysia festival, the only complete Greek tragic trilogy to survive. It explored justice, vengeance, and the transition from blood feuds to civic law.",
+      "wikiSlug": "Oresteia",
+      "tier": 3,
+      "tags": [
+        "culture"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pericles",
+      "label": "Pericles leads Athens",
+      "year": -461,
+      "endYear": -429,
+      "description": "Pericles dominated Athenian politics for over 30 years, expanding democracy, building the Parthenon, and making Athens the cultural capital of Greece. His age is considered the golden age of Athens.",
+      "wikiSlug": "Pericles",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-parthenon",
+      "label": "Parthenon completed",
+      "year": -432,
+      "description": "The Parthenon was completed atop the Acropolis, a masterpiece of Doric architecture housing Phidias' colossal gold-and-ivory statue of Athena. It remains the supreme symbol of Classical Greek civilization.",
+      "wikiSlug": "Parthenon",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-herodotus",
+      "label": "Herodotus writes Histories",
+      "year": -440,
+      "description": "Herodotus composed the Histories, chronicling the Greco-Persian Wars and the customs of Mediterranean peoples. Called the 'Father of History,' he pioneered systematic historical inquiry.",
+      "wikiSlug": "Herodotus",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sophocles-antigone",
+      "label": "Sophocles' Antigone",
+      "year": -441,
+      "description": "Sophocles staged Antigone, one of the greatest Greek tragedies, exploring the conflict between divine law and human authority. His work elevated tragic drama to new heights of psychological depth.",
+      "wikiSlug": "Antigone_(Sophocles_play)",
+      "tier": 3,
+      "tags": [
+        "culture"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hippocrates",
+      "label": "Hippocrates of Kos",
+      "year": -430,
+      "description": "Hippocrates founded rational medicine, separating healing from religion and superstition. The Hippocratic Oath and his clinical methods established principles still followed in medicine today.",
+      "wikiSlug": "Hippocrates",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-plague-athens",
+      "label": "Plague of Athens",
+      "year": -430,
+      "description": "A devastating plague struck Athens during the Peloponnesian War, killing a quarter of the population including Pericles. Thucydides' clinical description is the earliest detailed account of an epidemic.",
+      "wikiSlug": "Plague_of_Athens",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-socrates",
+      "label": "Socrates teaches in Athens",
+      "year": -470,
+      "endYear": -399,
+      "description": "Socrates revolutionized philosophy through his method of probing dialogue, questioning assumptions about virtue, justice, and knowledge. His trial and execution in 399 BCE made him Western philosophy's foundational martyr.",
+      "wikiSlug": "Socrates",
+      "tier": 2,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-euripides-medea",
+      "label": "Euripides' Medea",
+      "year": -431,
+      "description": "Euripides premiered Medea, a psychologically complex tragedy about a woman's revenge against her unfaithful husband. His realistic portrayal of human emotions transformed Greek drama.",
+      "wikiSlug": "Medea_(play)",
+      "tier": 3,
+      "tags": [
+        "culture"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-peloponnesian-war-start",
+      "label": "Peloponnesian War begins",
+      "year": -431,
+      "description": "Sparta and Athens plunged into a devastating 27-year war that engulfed all of Greece. Thucydides' account of the conflict became the foundational work of political realism and military history.",
+      "wikiSlug": "Peloponnesian_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-athens-falls",
+      "label": "Athens surrenders to Sparta",
+      "year": -404,
+      "description": "After the destruction of its fleet at Aegospotami, Athens was besieged and forced to surrender, ending the Peloponnesian War. Sparta dismantled the Long Walls and imposed the Thirty Tyrants.",
+      "wikiSlug": "Battle_of_Aegospotami",
+      "tier": 2,
+      "tags": [
+        "politics"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-trial-socrates",
+      "label": "Trial and Death of Socrates",
+      "year": -399,
+      "description": "Socrates was tried on charges of impiety and corrupting the youth, found guilty, and executed by drinking hemlock. Plato's Apology immortalized his defense and transformed him into philosophy's greatest martyr.",
+      "wikiSlug": "Trial_of_Socrates",
+      "tier": 2,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-plato-academy",
+      "label": "Plato founds the Academy",
+      "year": -387,
+      "description": "Plato established the Academy in Athens, the Western world's first institution of higher learning. It operated for nearly 900 years, producing thinkers who shaped philosophy, mathematics, and political theory.",
+      "wikiSlug": "Platonic_Academy",
+      "tier": 2,
+      "tags": [
+        "philosophy",
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-plato-republic",
+      "label": "Plato writes The Republic",
+      "year": -375,
+      "description": "Plato composed The Republic, exploring justice, the ideal state, and the Allegory of the Cave. It remains one of the most influential works in the history of Western philosophy and political thought.",
+      "wikiSlug": "Republic_(Plato)",
+      "tier": 2,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-thebes-leuctra",
+      "label": "Battle of Leuctra",
+      "year": -371,
+      "description": "Epaminondas of Thebes defeated the Spartans at Leuctra using his revolutionary oblique phalanx formation. This battle shattered Spartan military supremacy and made Thebes briefly the leading Greek power.",
+      "wikiSlug": "Battle_of_Leuctra",
+      "tier": 3,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-aristotle",
+      "label": "Aristotle founds the Lyceum",
+      "year": -335,
+      "description": "Aristotle established the Lyceum in Athens after tutoring Alexander the Great. His systematic works on logic, biology, ethics, and politics became the foundation of Western science and philosophy for two millennia.",
+      "wikiSlug": "Aristotle",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-philip-ii",
+      "label": "Philip II of Macedon",
+      "year": -359,
+      "endYear": -336,
+      "description": "Philip II transformed Macedon from a weak kingdom into Greece's dominant power, introducing the sarissa pike and professional army. His victory at Chaeronea in 338 BCE united Greece under Macedonian hegemony.",
+      "wikiSlug": "Philip_II_of_Macedon",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-chaeronea",
+      "label": "Battle of Chaeronea",
+      "year": -338,
+      "description": "Philip II and his son Alexander defeated the combined forces of Athens and Thebes at Chaeronea. This decisive battle ended Greek city-state independence and established Macedonian supremacy over Greece.",
+      "wikiSlug": "Battle_of_Chaeronea_(338_BC)",
+      "tier": 2,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-demosthenes",
+      "label": "Demosthenes' Philippics",
+      "year": -351,
+      "description": "Demosthenes delivered his famous Philippics, orations warning Athens of the Macedonian threat. He is regarded as the greatest orator of antiquity, and his speeches remain models of persuasive rhetoric.",
+      "wikiSlug": "Demosthenes",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-alexander-great",
+      "label": "Alexander the Great",
+      "year": -336,
+      "endYear": -323,
+      "description": "Alexander conquered the Persian Empire, Egypt, and territories as far as India, creating the largest empire the world had seen. His conquests spread Greek culture across three continents, launching the Hellenistic age.",
+      "wikiSlug": "Alexander_the_Great",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-granicus",
+      "label": "Battle of the Granicus",
+      "year": -334,
+      "description": "Alexander won his first major battle against the Persian Empire at the Granicus River. The victory opened Asia Minor to Macedonian conquest and demonstrated Alexander's tactical brilliance.",
+      "wikiSlug": "Battle_of_the_Granicus",
+      "tier": 3,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-issus",
+      "label": "Battle of Issus",
+      "year": -333,
+      "description": "Alexander defeated Darius III at Issus despite being greatly outnumbered. The Persian king fled the battlefield, leaving his family and treasure behind, shattering Persian morale.",
+      "wikiSlug": "Battle_of_Issus",
+      "tier": 3,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gaugamela",
+      "label": "Battle of Gaugamela",
+      "year": -331,
+      "description": "Alexander's decisive victory over Darius III at Gaugamela destroyed the Persian Empire. The battle showcased Alexander's tactical genius against a far larger force on terrain chosen by his enemy.",
+      "wikiSlug": "Battle_of_Gaugamela",
+      "tier": 2,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-greece-alexandria-founded",
+      "label": "Alexandria founded",
+      "year": -331,
+      "description": "Alexander founded Alexandria on Egypt's Mediterranean coast, which became the greatest city of the Hellenistic world. Its famous Library and Lighthouse made it the center of learning and commerce for centuries.",
+      "wikiSlug": "Alexandria",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-diogenes",
+      "label": "Diogenes the Cynic",
+      "year": -404,
+      "endYear": -323,
+      "description": "Diogenes of Sinope lived in extreme simplicity, challenging social conventions and advocating virtue through action rather than theory. His confrontations with Alexander the Great became legendary philosophical anecdotes.",
+      "wikiSlug": "Diogenes",
+      "tier": 3,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-wars-diadochi",
+      "label": "Wars of the Diadochi",
+      "year": -322,
+      "endYear": -281,
+      "description": "Alexander's generals fought brutal wars for control of his empire, eventually splitting it into the Ptolemaic, Seleucid, and Antigonid kingdoms. These successor states shaped the Hellenistic world for centuries.",
+      "wikiSlug": "Wars_of_the_Diadochi",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-euclid",
+      "label": "Euclid's Elements",
+      "year": -300,
+      "description": "Euclid compiled the Elements in Alexandria, systematizing geometry into axioms, postulates, and proofs. It became the most influential mathematics textbook in history, used for over 2,000 years.",
+      "wikiSlug": "Euclid's_Elements",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-library-alexandria",
+      "label": "Library of Alexandria",
+      "year": -295,
+      "description": "The Library of Alexandria was established under Ptolemy I, aiming to collect all the world's knowledge. At its peak, it held hundreds of thousands of scrolls and attracted the greatest scholars of the ancient world.",
+      "wikiSlug": "Library_of_Alexandria",
+      "tier": 2,
+      "tags": [
+        "writing",
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-colossus-rhodes",
+      "label": "Colossus of Rhodes",
+      "year": -286.0,
+      "description": "The Colossus of Rhodes, a 33-meter bronze statue of the sun god Helios, was erected to celebrate Rhodes' victory over Demetrius I. Though it stood for only 54 years before an earthquake, it became one of the Seven Wonders.",
+      "wikiSlug": "Colossus_of_Rhodes",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-archimedes",
+      "label": "Archimedes of Syracuse",
+      "year": -287,
+      "endYear": -212,
+      "description": "Archimedes made groundbreaking contributions to mathematics, physics, and engineering, discovering the principle of buoyancy and calculating pi. He is regarded as the greatest scientist of the ancient world.",
+      "wikiSlug": "Archimedes",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-eratosthenes",
+      "label": "Eratosthenes measures the Earth",
+      "year": -240,
+      "description": "Eratosthenes calculated Earth's circumference with remarkable accuracy using shadow angles at Alexandria and Syene. His measurement was within 2% of the modern value, demonstrating Greek scientific sophistication.",
+      "wikiSlug": "Eratosthenes",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-stoicism-founded",
+      "label": "Stoicism founded",
+      "year": -300,
+      "description": "Zeno of Citium founded Stoic philosophy in Athens, teaching from the Stoa Poikile. Stoicism's emphasis on virtue, reason, and acceptance of fate became one of the most enduring philosophical traditions in history.",
+      "wikiSlug": "Stoicism",
+      "tier": 2,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-epicurus",
+      "label": "Epicurus founds his school",
+      "year": -306,
+      "description": "Epicurus established his philosophical school, the Garden, in Athens, teaching that pleasure (understood as tranquility) is the highest good. His atomic theory and ethical philosophy influenced Roman and modern thought.",
+      "wikiSlug": "Epicurus",
+      "tier": 3,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-lighthouse-alexandria",
+      "label": "Lighthouse of Alexandria",
+      "year": -283.0,
+      "description": "The Pharos of Alexandria was completed under Ptolemy II, standing over 100 meters tall as one of the Seven Wonders. Its beacon guided ships into the busy harbor for centuries.",
+      "wikiSlug": "Lighthouse_of_Alexandria",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pyrrhus-italy",
+      "label": "Pyrrhus invades Italy",
+      "year": -280,
+      "description": "King Pyrrhus of Epirus invaded Italy to aid Greek colonies against Rome, winning costly battles that gave rise to the term 'Pyrrhic victory.' His campaigns marked the beginning of Rome's expansion into the Greek world.",
+      "wikiSlug": "Pyrrhic_War",
+      "tier": 3,
+      "tags": [
+        "military"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-achaean-league",
+      "label": "Achaean League rises",
+      "year": -277.0,
+      "description": "The Achaean League became the dominant federal state in the Peloponnese, representing one of the ancient world's most sophisticated experiments in representative government and interstate cooperation.",
+      "wikiSlug": "Achaean_League",
+      "tier": 3,
+      "tags": [
+        "politics"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-septuagint",
+      "label": "Septuagint translated",
+      "year": -250,
+      "description": "Jewish scholars in Alexandria translated the Hebrew Bible into Greek, creating the Septuagint. This translation made Jewish scripture accessible to the Hellenistic world and later became the Old Testament of early Christianity.",
+      "wikiSlug": "Septuagint",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-antikythera",
+      "label": "Antikythera Mechanism",
+      "year": -200,
+      "description": "The Antikythera mechanism, an ancient analog computer, was built to predict astronomical positions and eclipses. Discovered in a shipwreck in 1901, it demonstrates an astonishing level of Greek technological sophistication.",
+      "wikiSlug": "Antikythera_mechanism",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-greek-theater-origins",
+      "label": "Greek Tragedy emerges",
+      "year": -534,
+      "description": "Thespis is traditionally credited as the first actor to step out of the chorus at the Dionysia festival in Athens, inventing theatrical drama. His innovation launched the tradition of Greek tragedy.",
+      "wikiSlug": "Thespis",
+      "tier": 2,
+      "tags": [
+        "culture"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-aristophanes",
+      "label": "Aristophanes' Comedies",
+      "year": -425,
+      "description": "Aristophanes wrote satirical comedies like The Clouds, The Birds, and Lysistrata that lampooned Athenian politics, philosophy, and society. He is the greatest writer of Old Comedy and the only one whose complete plays survive.",
+      "wikiSlug": "Aristophanes",
+      "tier": 3,
+      "tags": [
+        "culture"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-thucydides",
+      "label": "Thucydides writes History",
+      "year": -411,
+      "description": "Thucydides composed his History of the Peloponnesian War, applying rigorous analytical methods to historical events. His work is considered the first truly scientific history and a masterpiece of political realism.",
+      "wikiSlug": "Thucydides",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-olympic-zeus",
+      "label": "Statue of Zeus at Olympia",
+      "year": -435,
+      "description": "Phidias created the colossal seated statue of Zeus at Olympia, one of the Seven Wonders of the Ancient World. The 12-meter gold-and-ivory figure awed visitors for over 800 years.",
+      "wikiSlug": "Statue_of_Zeus_at_Olympia",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-eleusinian-mysteries",
+      "label": "Eleusinian Mysteries flourish",
+      "year": -600,
+      "description": "The Eleusinian Mysteries, secret religious rites honoring Demeter and Persephone, attracted initiates from across the Greek world. They promised a blessed afterlife and were considered the most important religious ceremonies in Greece.",
+      "wikiSlug": "Eleusinian_Mysteries",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-delphi-oracle",
+      "label": "Oracle at Delphi",
+      "year": -750,
+      "description": "The Oracle at Delphi, where the Pythia spoke prophecies of Apollo, became the most prestigious religious site in Greece. City-states and kings consulted it before wars, colonization, and major decisions.",
+      "wikiSlug": "Pythia",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heraclitus",
+      "label": "Heraclitus of Ephesus",
+      "year": -500,
+      "description": "Heraclitus proposed that change is the fundamental nature of the universe, famously stating one cannot step in the same river twice. His concept of the Logos profoundly influenced later philosophy.",
+      "wikiSlug": "Heraclitus",
+      "tier": 3,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-mausoleum-halicarnassus",
+      "label": "Mausoleum at Halicarnassus",
+      "year": -350,
+      "description": "The Mausoleum at Halicarnassus was built for Mausolus, satrap of Caria, and became one of the Seven Wonders. Its name gave rise to the modern word 'mausoleum' for monumental tombs.",
+      "wikiSlug": "Mausoleum_at_Halicarnassus",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-greece-ptolemy-i",
+      "label": "Ptolemy I founds dynasty",
+      "year": -305,
+      "description": "Ptolemy I Soter, one of Alexander's generals, declared himself pharaoh of Egypt and founded the Ptolemaic dynasty. He established Alexandria as the intellectual capital of the Hellenistic world.",
+      "wikiSlug": "Ptolemy_I_Soter",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-corinth-destroyed",
+      "label": "Rome destroys Corinth",
+      "year": -146,
+      "description": "Rome destroyed Corinth and dissolved the Achaean League, bringing mainland Greece under Roman control. Greek independence effectively ended, though Greek culture continued to dominate the eastern Mediterranean.",
+      "wikiSlug": "Battle_of_Corinth_(146_BC)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-greece-cleopatra",
+      "label": "Cleopatra VII",
+      "year": -69,
+      "endYear": -30,
+      "description": "Cleopatra VII, the last active ruler of the Ptolemaic Kingdom, allied with Julius Caesar and Mark Antony to preserve Egyptian independence. Her death marked the end of the Hellenistic era and Egyptian sovereignty.",
+      "wikiSlug": "Cleopatra",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-actium",
+      "label": "Battle of Actium",
+      "year": -31,
+      "description": "Octavian's fleet defeated Antony and Cleopatra at Actium, ending the last major Hellenistic kingdom. Egypt became a Roman province, closing the Hellenistic age that Alexander had opened three centuries earlier.",
+      "wikiSlug": "Battle_of_Actium",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-silver-mines-laurium",
+      "label": "Silver Mines of Laurium",
+      "year": -483,
+      "description": "Athens discovered a rich silver vein at Laurium. Themistocles convinced the assembly to use the wealth to build 200 triremes, creating the navy that would win the Battle of Salamis.",
+      "wikiSlug": "Laurium",
+      "tier": 3,
+      "tags": [
+        "economy"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-agora-athens",
+      "label": "Athenian Agora flourishes",
+      "year": -500,
+      "description": "The Agora of Athens became the commercial, political, and social heart of the city, housing markets, law courts, and philosophical schools. It was the birthplace of democratic debate and civic life.",
+      "wikiSlug": "Ancient_Agora_of_Athens",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-silk-road-hellenistic",
+      "label": "Hellenistic Trade Routes expand",
+      "year": -250,
+      "description": "Hellenistic kingdoms established trade routes linking the Mediterranean with India and Central Asia. Greek merchants traded wine, olive oil, and pottery for eastern spices, silk, and precious stones.",
+      "wikiSlug": "Hellenistic_period#Economy",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-rhodian-sea-law",
+      "label": "Rhodian Sea Law",
+      "year": -300,
+      "description": "Rhodes established maritime law codes governing trade, piracy, and shipping that became the standard across the Mediterranean. These laws influenced Roman maritime law and, through it, modern admiralty law.",
+      "wikiSlug": "Rhodian_Sea_Law",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-herophilus",
+      "label": "Herophilus pioneers anatomy",
+      "year": -274.0,
+      "description": "Herophilus of Chalcedon performed systematic human dissections in Alexandria, distinguishing arteries from veins and mapping the nervous system. He is considered the father of anatomy.",
+      "wikiSlug": "Herophilus",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-aristarchus",
+      "label": "Aristarchus proposes heliocentrism",
+      "year": -270,
+      "description": "Aristarchus of Samos proposed that the Earth revolves around the Sun, anticipating Copernicus by 1,800 years. Though not widely accepted in antiquity, his heliocentric model was a remarkable intellectual achievement.",
+      "wikiSlug": "Aristarchus_of_Samos",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-themistocles",
+      "label": "Themistocles",
+      "year": -524,
+      "endYear": -459,
+      "description": "Themistocles convinced Athens to build a massive fleet of triremes, which proved decisive at the Battle of Salamis against the Persian navy. His strategic vision transformed Athens into a naval superpower.",
+      "wikiSlug": "Themistocles",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-leonidas",
+      "label": "Leonidas I of Sparta",
+      "year": -540,
+      "endYear": -480,
+      "description": "King Leonidas led 300 Spartans and allied Greeks in their legendary stand at Thermopylae against Xerxes' Persian army. His sacrifice became the defining symbol of Spartan courage and Greek resistance.",
+      "wikiSlug": "Leonidas_I",
+      "tier": 2,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-democritus",
+      "label": "Democritus",
+      "year": -460,
+      "endYear": -370,
+      "description": "Democritus proposed that all matter is composed of indivisible atoms moving through void, laying the foundation for atomic theory two millennia before modern physics confirmed it. He also contributed to mathematics, ethics, and epistemology.",
+      "wikiSlug": "Democritus",
+      "tier": 2,
+      "tags": [
+        "people",
+        "philosophy"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-parmenides",
+      "label": "Parmenides",
+      "year": -515,
+      "endYear": -450,
+      "description": "Parmenides argued that reality is unchanging and that all change is illusion, founding the study of metaphysics and ontology. His poem 'On Nature' forced all subsequent Greek philosophers to grapple with the problem of being versus becoming.",
+      "wikiSlug": "Parmenides",
+      "tier": 3,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-anaxagoras",
+      "label": "Anaxagoras",
+      "year": -500,
+      "endYear": -428,
+      "description": "Anaxagoras brought philosophy to Athens and was Pericles' teacher. He proposed that the sun was a mass of burning metal larger than the Peloponnese, and that a cosmic Mind (Nous) ordered the universe from primordial chaos.",
+      "wikiSlug": "Anaxagoras",
+      "tier": 3,
+      "tags": [
+        "people",
+        "philosophy"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-xenophanes",
+      "label": "Xenophanes",
+      "year": -570,
+      "endYear": -475,
+      "description": "Xenophanes challenged Greek polytheism, arguing that mortals create gods in their own image and that there is one greatest god unlike humans in form or thought. He also recognized fossils as evidence that land was once under sea.",
+      "wikiSlug": "Xenophanes",
+      "tier": 3,
+      "tags": [
+        "religion",
+        "philosophy"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-phidias",
+      "label": "Phidias",
+      "year": -478.5,
+      "endYear": -430,
+      "description": "The greatest sculptor of Classical Greece, overseeing the sculptural program of the Parthenon and creating the colossal Statue of Zeus at Olympia, one of the Seven Wonders.",
+      "wikiSlug": "Phidias",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-delian-league",
+      "label": "Delian League Founded",
+      "year": -478,
+      "description": "Athens formed the Delian League, an alliance of Greek city-states to continue the fight against Persia. Athens gradually transformed it into an empire, collecting tribute and suppressing revolts.",
+      "wikiSlug": "Delian_League",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sicilian-expedition",
+      "label": "Sicilian Expedition",
+      "year": -415,
+      "endYear": -413,
+      "description": "Athens launched a massive naval expedition against Syracuse in Sicily that ended in catastrophic defeat. The destruction of the Athenian fleet and army was a turning point in the Peloponnesian War.",
+      "wikiSlug": "Sicilian_Expedition",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-theater-epidaurus",
+      "label": "Theater of Epidaurus",
+      "year": -340,
+      "description": "The Theater of Epidaurus, seating 14,000, is the best-preserved ancient Greek theater and renowned for its extraordinary acoustics. A whisper from the stage can be heard in the highest seats.",
+      "wikiSlug": "Theatre_of_Epidaurus",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-laurion-silver",
+      "label": "Laurion Silver Mines",
+      "year": -483,
+      "description": "Athens discovered a rich vein of silver at Laurion, which Themistocles used to build the fleet that defeated Persia at Salamis. The mines funded Athenian democracy and imperial expansion.",
+      "wikiSlug": "Laurium",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-xenophon-anabasis",
+      "label": "Xenophon's Anabasis",
+      "year": -370,
+      "description": "Xenophon chronicled the march of 10,000 Greek mercenaries through hostile Persian territory, one of the great adventure narratives of antiquity and a key military history text.",
+      "wikiSlug": "Anabasis_(Xenophon)",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-persian-wars",
+      "label": "Greco-Persian Wars",
+      "year": -499,
+      "endYear": -449,
+      "description": "The Greco-Persian Wars pitted the Greek city-states against the Achaemenid Empire in a series of invasions. Greek victories at Marathon, Salamis, and Plataea preserved Greek independence and shaped Western civilization.",
+      "wikiSlug": "Greco-Persian_Wars",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xerxes-invasion",
+      "label": "Xerxes Invades Greece",
+      "year": -475.5,
+      "description": "Xerxes I assembled the largest army the ancient world had seen to conquer Greece, crossing the Hellespont on a bridge of boats. His campaign culminated in defeats at Thermopylae, Salamis, and Plataea.",
+      "wikiSlug": "Second_Persian_invasion_of_Greece",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-delian-league-treasury",
+      "label": "Delian Treasury Moved to Athens",
+      "year": -454,
+      "description": "Athens transferred the Delian League treasury from Delos to Athens, effectively converting the anti-Persian alliance into an Athenian empire. The tribute funded the Parthenon and other building projects.",
+      "wikiSlug": "Delian_League",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-corinthian-war",
+      "label": "Corinthian War",
+      "year": -395,
+      "endYear": -387,
+      "description": "Athens, Thebes, Corinth, and Argos allied against Spartan hegemony with Persian financial backing. The resulting King Peace reasserted Persian influence over Greek affairs in Asia Minor.",
+      "wikiSlug": "Corinthian_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-olympic-truce",
+      "label": "Olympic Truce Tradition",
+      "year": -776,
+      "description": "The ekecheiria (sacred truce) was declared before each Olympic Games, halting warfare across Greece to allow safe travel to Olympia. This pan-Hellenic tradition reinforced shared Greek identity across rival city-states.",
+      "wikiSlug": "Olympic_truce",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-minoan-crete",
+      "label": "Minoan Civilization",
+      "year": -2700,
+      "endYear": -1450,
+      "description": "The Minoan civilization on Crete was Europe first advanced civilization, with elaborate palaces at Knossos, sophisticated frescoes, and widespread Mediterranean trade. Its collapse around 1450 BCE opened the way for Mycenaean dominance.",
+      "wikiSlug": "Minoan_civilization",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mycenaean-civilization",
+      "label": "Mycenaean Civilization",
+      "year": -1600,
+      "endYear": -1100,
+      "description": "The Mycenaeans built fortified citadels at Mycenae, Tiryns, and Pylos and dominated the Aegean. They are the likely historical basis for Homer Trojan War and their Linear B script is the earliest Greek writing.",
+      "wikiSlug": "Mycenaean_Greece",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-trojan-war",
+      "label": "Trojan War (traditional)",
+      "year": -761.5,
+      "description": "The legendary war between the Mycenaean Greeks and Troy, immortalized in Homer Iliad. Whether a real conflict lies behind the myth remains debated, but it shaped Greek identity and literature for centuries.",
+      "wikiSlug": "Trojan_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-athenian-long-walls",
+      "label": "Long Walls of Athens",
+      "year": -461,
+      "description": "Athens built the Long Walls connecting the city to its port at Piraeus, making it invulnerable to siege by land. The walls symbolized Athenian naval power and were demolished after defeat in the Peloponnesian War.",
+      "wikiSlug": "Long_Walls",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-empedocles",
+      "label": "Empedocles",
+      "year": -490,
+      "endYear": -430,
+      "description": "Empedocles proposed that all matter consists of four elements: earth, water, air, and fire, combined and separated by Love and Strife. His four-element theory dominated Western natural philosophy until the Scientific Revolution.",
+      "wikiSlug": "Empedocles",
+      "tier": 3,
+      "tags": [
+        "philosophy"
+      ],
+      "category": "science"
+    }
+  ],
+  "wikiSlug": "Ancient_Greece"
+}
