@@ -179,8 +179,10 @@ export function CivIconsStrip() {
         {icons.map((src, i) => {
           const sz = sizeFor(src)
           return (
-            <div key={`${i}-${src}`} className={`${sz} shrink-0 flex flex-col items-center`}>
-              <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none dark:brightness-[1.8] ${mono ? 'grayscale' : ''}`} draggable={false} />
+            <div key={`${i}-${src}`} className="shrink-0 flex flex-col items-center">
+              <div className="h-12 flex items-end justify-center">
+                <img src={src} alt="" aria-hidden="true" className={`max-h-12 ${sz} h-auto select-none dark:brightness-[1.8] ${mono ? 'grayscale' : ''}`} draggable={false} />
+              </div>
               <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
             </div>
           )
