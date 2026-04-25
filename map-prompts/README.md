@@ -140,6 +140,10 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 - [maya-civilization.md](maya-civilization.md) — 8 chapters (1–8)
 - [carthage.md](carthage.md) — 8 chapters (1–8; Ch 7 is thematic — trade routes and cultural sites)
 - [scythians.md](scythians.md) — 8 chapters (1–8; Ch 6–7 thematic — warrior culture regions and Pazyryk kurgan sites)
+- [ancient-rome.md](ancient-rome.md) — 10 chapters (1–10)
+- [kingdom-of-aksum.md](kingdom-of-aksum.md) — 8 chapters (1–8)
+- [six-dynasties.md](six-dynasties.md) — 8 chapters (1–8)
+- [ancestral-puebloans.md](ancestral-puebloans.md) — 8 chapters (1–8)
 
 ## Redos
 
