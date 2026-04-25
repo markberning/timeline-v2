@@ -103,38 +103,17 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       for (const p of paragraphs) {
         if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-        // Inject a highlight overlay as a sibling div
-        const overlay = document.createElement('div')
-        overlay.setAttribute('data-search-highlight', '1')
-        overlay.style.cssText = `
-          position: absolute;
-          left: -8px;
-          right: -8px;
-          top: -4px;
-          bottom: -4px;
-          background: rgba(217, 119, 6, 0.2);
-          border-left: 3px solid #d97706;
-          border-radius: 4px;
-          pointer-events: none;
-          transition: opacity 0.5s ease;
-          z-index: 1;
-        `
-        // Make the paragraph a positioning context
-        const prevPosition = p.style.position
-        p.style.position = 'relative'
-        p.appendChild(overlay)
+        // Inject a bright banner before the paragraph
+        const banner = document.createElement('div')
+        banner.textContent = `Found: "${term}"`
+        banner.style.cssText = 'background:#d97706;color:white;padding:8px 12px;border-radius:4px;font-size:14px;font-weight:bold;margin-bottom:8px;'
+        p.parentNode?.insertBefore(banner, p)
 
-        // Scroll to it
-        p.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        // Scroll to banner
+        banner.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-        // Fade out after 5 seconds
-        setTimeout(() => {
-          overlay.style.opacity = '0'
-          setTimeout(() => {
-            overlay.remove()
-            p.style.position = prevPosition
-          }, 500)
-        }, 5000)
+        // Remove after 5 seconds
+        setTimeout(() => banner.remove(), 5000)
 
         break
       }
