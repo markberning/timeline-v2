@@ -143,7 +143,19 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               const overlay = document.createElement('div')
               overlay.style.cssText = `position:fixed;top:${anchorRect.top - 2}px;left:${pRect.left - 4}px;width:${pRect.width + 8}px;height:${lineHeight + 4}px;background:rgba(217,119,6,0.2);border-radius:3px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
               document.body.appendChild(overlay)
-              setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
+
+              // Remove on any scroll or touch
+              function dismiss() {
+                overlay.style.opacity = '0'
+                setTimeout(() => overlay.remove(), 300)
+                window.removeEventListener('scroll', dismiss)
+                window.removeEventListener('touchstart', dismiss)
+              }
+              // Small delay so the initial scroll doesn't immediately dismiss
+              setTimeout(() => {
+                window.addEventListener('scroll', dismiss, { once: true, passive: true })
+                window.addEventListener('touchstart', dismiss, { once: true, passive: true })
+              }, 300)
             })
           }, 1200)
           return () => clearTimeout(timer)
