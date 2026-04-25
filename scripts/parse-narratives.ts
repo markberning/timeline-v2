@@ -605,7 +605,7 @@ async function main() {
     for (const ch of content.chapters) {
       // Strip HTML tags to get plain text
       const plain = (ch.contentHtml as string)
-        .replace(/<[^>]+>/g, ' ')
+        .replace(/<[^>]+>/g, '')
         .replace(/&amp;/g, '&')
         .replace(/&lt;/g, '<')
         .replace(/&gt;/g, '>')
