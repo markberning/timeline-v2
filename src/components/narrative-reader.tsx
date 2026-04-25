@@ -73,7 +73,11 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
 
     // DEBUG: show what we got from URL
     if (hl) {
-      document.title = `DEBUG: ch=${ch} hl=${hl}`
+      const d = document.createElement('div')
+      d.textContent = `DEBUG: ch=${ch} hl=${hl} url=${window.location.search}`
+      d.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:red;color:white;padding:12px;font-size:16px;font-weight:bold;'
+      document.body.appendChild(d)
+      setTimeout(() => d.remove(), 10000)
     }
 
     if (ch) {
