@@ -5,6 +5,7 @@ import { NarrativeReader } from '@/components/narrative-reader'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { getChainsForTimeline, getChainPosition } from '../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
+import { getCivIconPath } from '@/lib/civ-icons'
 
 interface PageProps {
   params: Promise<{ civilizationId: string }>
@@ -36,6 +37,7 @@ export default async function CivilizationPage({ params }: PageProps) {
   const prevTl = prevId ? NAVIGATOR_TLS.find(t => t.id === prevId) : null
   const nextTl = nextId ? NAVIGATOR_TLS.find(t => t.id === nextId) : null
   const currentTl = NAVIGATOR_TLS.find(t => t.id === civilizationId)
+  const iconPath = getCivIconPath(civilizationId)
 
   return (
     <div className="max-w-prose mx-auto px-5">
@@ -62,9 +64,14 @@ export default async function CivilizationPage({ params }: PageProps) {
               {narrative.label}
             </h1>
           </div>
-          <span className="shrink-0 text-[13px] font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
-            {narrative.chapters.length} CH
-          </span>
+          <div className="flex items-center gap-2 shrink-0">
+            <span className="text-[13px] font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
+              {narrative.chapters.length} CH
+            </span>
+            {iconPath && (
+              <img src={iconPath} alt="" className="h-9 w-auto opacity-60" draggable={false} />
+            )}
+          </div>
         </div>
         {currentTl?.subtitle && (
           <p className="text-[14px] text-foreground/55 mt-1 italic font-[family-name:var(--font-lora)] pl-[16.5px]">{currentTl.subtitle}</p>

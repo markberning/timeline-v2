@@ -45,6 +45,16 @@ const ICONS = [
   '/icons/teotihuacan.png',
   '/icons/ancestral-puebloans.png',
   '/icons/mississippian-culture.png',
+  // Batch 3 — pending from master sheet
+  '/icons/elamite-civilization.png',
+  '/icons/ancient-greece.png',
+  '/icons/inca-empire.png',
+  '/icons/dai-viet.png',
+  '/icons/medieval-europe.png',
+  '/icons/polynesian-voyagers.png',
+  '/icons/mali-empire.png',
+  '/icons/ottoman-empire.png',
+  '/icons/ancient-nubia.png',
 ]
 
 const MOBILE_COUNT = 7
@@ -79,8 +89,8 @@ export function CivIconsStrip() {
   }, [])
 
   // Mobile: first 7 from the shuffled array
-  // Desktop: repeat all 42 shuffled icons to fill the row
-  const desktopIcons = repeatToFill(icons, 42)
+  // Desktop: show all shuffled icons (no repeat needed at 51)
+  const desktopIcons = repeatToFill(icons, 51)
 
   return (
     <div
