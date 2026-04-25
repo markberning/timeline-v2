@@ -87,8 +87,8 @@ export function CivIconsStrip() {
     >
       {/* Mobile: show 7, fixed width, bottom-aligned */}
       {icons.slice(0, MOBILE_COUNT).map((src, i) => (
-        <div key={`m-${i}-${src}`} className="w-12 shrink-0 flex items-end justify-center lg:hidden">
-          <img src={src} alt="" aria-hidden="true" className="w-12 h-auto select-none" draggable={false} />
+        <div key={`m-${i}-${src}`} className="w-10 shrink-0 flex items-end justify-center lg:hidden">
+          <img src={src} alt="" aria-hidden="true" className="w-10 h-auto select-none" draggable={false} />
         </div>
       ))}
       {/* Desktop: all unique icons, fixed width, bottom-aligned */}
