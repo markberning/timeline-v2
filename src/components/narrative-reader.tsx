@@ -101,33 +101,18 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       for (const p of paragraphs) {
         if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-        // Highlight the paragraph
-        p.style.transition = 'background-color 0.4s ease, border-color 0.4s ease'
-        p.style.backgroundColor = 'rgba(217, 119, 6, 0.25)'
-        p.style.borderLeft = '3px solid #d97706'
-        p.style.marginLeft = '-12px'
-        p.style.paddingLeft = '9px'
-        p.style.marginRight = '-8px'
-        p.style.paddingRight = '8px'
-        p.style.borderRadius = '2px'
+        // Highlight using a class (avoids prose CSS specificity issues)
+        p.classList.add('search-highlight')
 
         // Scroll to it
         p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-        // Fade out after 5 seconds
+        // Remove highlight after 5 seconds
         setTimeout(() => {
-          p.style.backgroundColor = 'transparent'
-          p.style.borderLeftColor = 'transparent'
+          p.classList.add('search-highlight-fade')
           setTimeout(() => {
-            p.style.removeProperty('transition')
-            p.style.removeProperty('background-color')
-            p.style.removeProperty('border-left')
-            p.style.removeProperty('margin-left')
-            p.style.removeProperty('padding-left')
-            p.style.removeProperty('margin-right')
-            p.style.removeProperty('padding-right')
-            p.style.removeProperty('border-radius')
-          }, 400)
+            p.classList.remove('search-highlight', 'search-highlight-fade')
+          }, 500)
         }, 5000)
 
         break
