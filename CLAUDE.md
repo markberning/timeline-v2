@@ -140,7 +140,7 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 **Japanese Civilization:** ✅ ancient-japan (8 ch) · shogunate-japan · meiji-japan
 **Standalone:** ✅ phoenicia (8 ch) · ✅ polynesian-voyagers (8 ch) · ✅ ancient-israel (8 ch) · ✅ carthage (8 ch)
 
-**Maps pending Gemini generation:** qin-dynasty (ch 8 only), six-dynasties (ch 8 only), umayyad-caliphate, mali-empire, gupta-empire, tang-song-china, gokturk-khaganate, edo-japan, joseon-korea, byzantine-empire
+**Maps pending Gemini generation:** umayyad-caliphate, mali-empire, gupta-empire, tang-song-china, gokturk-khaganate, edo-japan, joseon-korea, byzantine-empire
 
 ## Color System
 - **Region-driven accent colors** in `src/lib/accent-colors.ts`: Near East = amber `#d97706`, Africa = rust `#b44d3b`, Asia = violet `#7c3aed`, Europe = blue `#1d4ed8`, Americas = green `#047857`.
