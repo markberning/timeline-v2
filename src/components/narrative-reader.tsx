@@ -100,7 +100,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
                 if (rect.width === 0 || rect.height === 0) return
 
                 const overlay = document.createElement('div')
-                overlay.style.cssText = `position:fixed;top:${rect.top - 4}px;left:${rect.left - 8}px;width:${rect.width + 16}px;height:${Math.min(rect.height + 8, 200)}px;background:rgba(217,119,6,0.18);border-left:3px solid #d97706;border-radius:4px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
+                overlay.style.cssText = `position:fixed;top:${rect.top - 4}px;left:${rect.left - 8}px;width:${rect.width + 16}px;height:${rect.height + 8}px;background:rgba(217,119,6,0.18);border-left:3px solid #d97706;border-radius:4px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
                 document.body.appendChild(overlay)
                 setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
               })
