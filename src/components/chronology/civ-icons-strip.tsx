@@ -112,7 +112,7 @@ const ICON_SIZE: Record<string, string> = {
   '/icons/ming-dynasty.png': 'w-14',
   '/icons/qing-dynasty.png': 'w-14',
   '/icons/srivijaya.png': 'w-14',
-  '/icons/khmer-empire.png': 'w-16',
+  '/icons/khmer-empire.png': 'w-14',
   '/icons/teotihuacan.png': 'w-14',
   '/icons/ancestral-puebloans.png': 'w-16',
   '/icons/mississippian-culture.png': 'w-16',
