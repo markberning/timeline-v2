@@ -1,0 +1,760 @@
+{
+  "id": "post-maurya-kingdoms",
+  "label": "Post-Maurya Kingdoms",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Post-Maurya_kingdoms",
+  "imageWikiSlug": "Gandhara_Buddha_(tnm)",
+  "pitch": "After the Maurya Empire collapsed in 185 BCE, India shattered into competing kingdoms — and thrived. The Shunga Dynasty Founded by Pushyamitra revived Brahmanical religion while paradoxically producing some of Buddhism's greatest art at Bharhut and Sanchi. In the northwest, Menander I Rules the Indo-Greeks, a philosopher-king whose Socratic debates with a Buddhist monk became the Milindapanha. The Satavahana Dynasty rose to dominate the Deccan, while waves of Central Asian invaders — Sakas, Parthians, and finally the Kushans — poured through the mountain passes.\n\n🔑 Key Facts:\n• Kanishka I and the Kushan Empire connected India to the Silk Road, spreading Buddhism to China and Central Asia — the most consequential cultural export in Asian history\n• Gandhara Buddhist Art fused Greek sculpture with Indian religion, producing the first human images of the Buddha that became the template for all Buddhist art worldwide\n• The Sangam Literature of Tamil Nadu is the oldest surviving secular literature in any Indian language, preserving a world of pepper traders, warrior kings, and Roman merchants\n• Roman Trade with India was so lucrative that Pliny complained Rome was hemorrhaging gold to buy Indian pepper and silk\n\n🤔 Why It Matters: Five centuries of fragmentation produced more cultural innovation than the unified Maurya Empire ever did — Mahayana Buddhism, Gandhara art, the Silk Road connection, Ayurvedic medicine, and the mathematical concepts that would eventually give the world zero.\n\n🎲 Wild Card: The philosopher Nagarjuna invented the concept of 'emptiness' (shunyata) — the same Sanskrit word that later became the mathematical concept of zero. The man who said 'nothing is real' accidentally invented nothing.",
+  "countryIds": [
+    "356",
+    "586"
+  ],
+  "spans": [
+    {
+      "id": "span-post-maurya-shunga",
+      "label": "Shunga Dynasty",
+      "startYear": -185,
+      "endYear": -73,
+      "description": "Founded by General Pushyamitra after assassinating the last Maurya emperor, the Shungas ruled from Pataliputra and Vidisha. Despite their association with Brahmanical revival, Buddhist art flourished under their patronage at Bharhut and Sanchi.",
+      "wikiSlug": "Shunga_Empire"
+    },
+    {
+      "id": "span-post-maurya-indo-greek",
+      "label": "Indo-Greek Kingdom",
+      "startYear": -180,
+      "endYear": -10,
+      "description": "Greek kings ruled parts of northwestern India and the Punjab for over 170 years, minting bilingual coins in Greek and Kharosthi, patronizing Buddhism, and catalyzing the Greco-Buddhist artistic fusion that produced Gandhara art.",
+      "wikiSlug": "Indo-Greek_Kingdom"
+    },
+    {
+      "id": "span-post-maurya-satavahana",
+      "label": "Satavahana Dynasty",
+      "startYear": -100,
+      "endYear": 220,
+      "description": "The Satavahanas dominated the Deccan plateau for over three centuries, controlling lucrative trade routes between the Arabian Sea and the Bay of Bengal. They patronized Buddhist cave temples and produced some of India's earliest lead and copper coinage.",
+      "wikiSlug": "Satavahana_dynasty"
+    },
+    {
+      "id": "span-post-maurya-kushan",
+      "label": "Kushan Empire",
+      "startYear": 30,
+      "endYear": 375,
+      "description": "The Kushans, originally Yuezhi nomads from Central Asia, built an empire stretching from Afghanistan to the Gangetic plain. Under Kanishka I, they became the critical link between Rome, India, China, and Central Asia on the Silk Road, and Buddhism's most powerful patron since Ashoka.",
+      "wikiSlug": "Kushan_Empire"
+    },
+    {
+      "id": "span-post-maurya-indo-scythian",
+      "label": "Indo-Scythian / Saka Period",
+      "startYear": -200,
+      "endYear": 400,
+      "description": "Scythian (Saka) tribes migrated into the Indian subcontinent after being pushed from Central Asia, establishing the Western Satraps in Gujarat and Malwa. Rudradaman I's Junagadh inscription is the earliest known long inscription in Sanskrit.",
+      "wikiSlug": "Indo-Scythians"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-pushyamitra-shunga",
+      "label": "Pushyamitra Founds Shunga Dynasty",
+      "year": -185,
+      "endYear": -149,
+      "description": "General Pushyamitra Shunga assassinated the last Maurya emperor Brihadratha during a military parade and founded the Shunga dynasty, ruling from Pataliputra and reviving Vedic Brahmanical traditions.",
+      "wikiSlug": "Pushyamitra_Shunga",
+      "tier": 1,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-shunga-horse-sacrifice",
+      "label": "Pushyamitra's Ashvamedha Sacrifice",
+      "year": -183,
+      "description": "Pushyamitra performed the Vedic ashvamedha (horse sacrifice), a ritual of sovereignty that Ashoka had banned. The revival signaled a deliberate return to Brahmanical traditions after decades of Buddhist imperial patronage.",
+      "wikiSlug": "Ashvamedha",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-demetrius-invasion",
+      "label": "Demetrius I Invades India",
+      "year": -180,
+      "description": "Greco-Bactrian king Demetrius I crossed the Hindu Kush and conquered parts of the Punjab and Sindh, establishing the Indo-Greek Kingdom and beginning nearly two centuries of Greek rule in northwestern India.",
+      "wikiSlug": "Demetrius_I_of_Bactria",
+      "tier": 1,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-bharhut-stupa",
+      "label": "Bharhut Stupa Sculptures",
+      "year": -175,
+      "description": "The Bharhut stupa railings, carved during the Shunga period, are among the earliest surviving examples of Indian narrative sculpture, depicting Jataka tales and scenes from the Buddha's life without showing the Buddha in human form.",
+      "wikiSlug": "Bharhut",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-patanjali-mahabhasya",
+      "label": "Patanjali's Mahabhashya",
+      "year": -150,
+      "description": "The grammarian Patanjali composed the Mahabhashya, a massive commentary on Panini's grammar that became a foundational text of Sanskrit linguistics and preserved valuable information about Shunga-era society.",
+      "wikiSlug": "Mahābhāṣya",
+      "tier": 2,
+      "tags": ["writing"],
+      "category": "people"
+    },
+    {
+      "id": "evt-menander-reign",
+      "label": "Menander I Rules the Indo-Greeks",
+      "year": -165,
+      "endYear": -130,
+      "description": "Menander I (Milinda) was the most powerful Indo-Greek king, ruling from Sagala (modern Sialkot) across a territory stretching from Kabul to the Ravi River. He converted to Buddhism and became a legendary figure in Buddhist literature.",
+      "wikiSlug": "Menander_I",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-milindapanha",
+      "label": "Milindapanha Composed",
+      "year": -150,
+      "description": "The Milindapanha (Questions of Milinda) records philosophical dialogues between King Menander and the Buddhist monk Nagasena, covering topics from the nature of the self to the mechanics of karma in a Socratic question-and-answer format.",
+      "wikiSlug": "Milinda_Panha",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-indo-greek-coins",
+      "label": "Indo-Greek Bilingual Coinage",
+      "year": -160,
+      "description": "Indo-Greek kings minted sophisticated bilingual coins with Greek on the obverse and Kharosthi on the reverse, blending Hellenistic portraiture with Indian religious symbols — some of the finest coins of the ancient world.",
+      "wikiSlug": "Indo-Greek_Kingdom#Coinage",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-heliodorus-pillar",
+      "label": "Heliodorus Pillar at Vidisha",
+      "year": -113,
+      "description": "The Greek ambassador Heliodorus erected a Garuda pillar at Vidisha dedicated to Vasudeva (Vishnu), calling himself a Bhagavata (devotee). The pillar is striking evidence that Greeks in India adopted Hindu worship.",
+      "wikiSlug": "Heliodorus_pillar",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sanchi-gateways",
+      "label": "Sanchi Stupa Gateways (Toranas)",
+      "year": -100,
+      "description": "The four elaborately carved stone gateways (toranas) of the Great Stupa at Sanchi were added in the 1st century BCE, featuring some of the finest Buddhist narrative sculpture in existence — all without depicting the Buddha in human form.",
+      "wikiSlug": "Sanchi#Toranas",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kharavela-kalinga",
+      "label": "Kharavela of Kalinga",
+      "year": -150,
+      "endYear": -130,
+      "description": "King Kharavela of the Chedi dynasty restored Kalinga as a major power, campaigning across India and patronizing Jainism. His Hathigumpha inscription at Udayagiri describes military victories and public works across 13 regnal years.",
+      "wikiSlug": "Kharavela",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-saka-migration",
+      "label": "Sakas Enter India",
+      "year": -145,
+      "description": "Indo-Scythian (Saka) tribes, displaced from Central Asia by the Yuezhi, migrated through Bactria and entered the Indian subcontinent via Gandhara and the Bolan Pass, gradually establishing kingdoms in western India.",
+      "wikiSlug": "Indo-Scythians",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-maues-first-saka",
+      "label": "Maues, First Indo-Scythian King",
+      "year": -98,
+      "endYear": -60,
+      "description": "Maues established the first Indo-Scythian kingdom in Gandhara and the Indus valley, minting coins that blended Scythian, Greek, and Indian iconography and adopting the title 'Great King of Kings.'",
+      "wikiSlug": "Maues",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-satavahana-rise",
+      "label": "Satavahana Dynasty Rises",
+      "year": -100,
+      "description": "The Satavahana dynasty emerged as the dominant power in the Deccan, ruling from Pratishthana (Paithan) and controlling trade routes between India's western and eastern coasts.",
+      "wikiSlug": "Satavahana_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sangam-literature",
+      "label": "Tamil Sangam Literature",
+      "year": -100,
+      "endYear": 300,
+      "description": "The Sangam corpus — over 2,000 poems by more than 400 poets — is the oldest surviving secular literature in any Dravidian language, covering love, war, ethics, and the lives of Tamil kings, merchants, and ordinary people.",
+      "wikiSlug": "Sangam_literature",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-chera-chola-pandya",
+      "label": "Chera, Chola, and Pandya Kingdoms",
+      "year": -100,
+      "description": "The three ancient Tamil kingdoms — the Cheras of the Malabar coast, the Cholas of the Kaveri delta, and the Pandyas of Madurai — dominated southern India, controlling lucrative maritime trade with Rome, Southeast Asia, and China.",
+      "wikiSlug": "Three_Crowned_Kings",
+      "tier": 2,
+      "tags": ["trade"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-azes-era",
+      "label": "Azes Era Established",
+      "year": -58,
+      "description": "The Indo-Scythian king Azes I established a calendar era (the Azes era, 58 BCE) that became the foundation of the Vikrama Samvat calendar, still used in India and Nepal today.",
+      "wikiSlug": "Azes_I",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "science"
+    },
+    {
+      "id": "evt-ajanta-early-caves",
+      "label": "Early Ajanta Cave Temples",
+      "year": -100,
+      "description": "The earliest caves at Ajanta (Caves 9, 10, 12, and 13) were excavated in the Satavahana period as Buddhist prayer halls (chaityas) and monasteries (viharas), beginning the rock-cut tradition that would culminate in the spectacular Gupta-era paintings.",
+      "wikiSlug": "Ajanta_Caves#History",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gondophares",
+      "label": "Gondophares, Indo-Parthian King",
+      "year": -19,
+      "endYear": 45,
+      "description": "Gondophares I founded the Indo-Parthian Kingdom in Gandhara and parts of the Punjab. Christian tradition identifies him as the king visited by the Apostle Thomas, though the historicity is debated.",
+      "wikiSlug": "Gondophares",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-karle-chaitya",
+      "label": "Karla Cave Chaitya Hall",
+      "year": -80,
+      "description": "The great chaitya (prayer hall) at Karla near Pune is the largest and most impressive rock-cut Buddhist cave temple in India, with a soaring 45-foot vaulted ceiling, elaborate facades, and donations inscribed by merchants from across the Deccan trade routes.",
+      "wikiSlug": "Karla_Caves",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-roman-india-trade",
+      "label": "Roman Trade with India",
+      "year": -30,
+      "description": "After Rome's annexation of Egypt in 30 BCE, direct maritime trade between Rome and India exploded. Roman coins, wine, and glass flowed east; Indian pepper, gems, silk, and ivory flowed west through ports like Muziris and Arikamedu.",
+      "wikiSlug": "Indo-Roman_trade_relations",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-periplus",
+      "label": "Periplus of the Erythraean Sea",
+      "year": 50,
+      "description": "An anonymous Greek-Egyptian merchant wrote this practical guide to Indian Ocean trade, listing ports, goods, and navigation details from the Red Sea to India's Malabar coast — the most detailed surviving account of ancient maritime commerce.",
+      "wikiSlug": "Periplus_of_the_Erythraean_Sea",
+      "tier": 2,
+      "tags": ["trade"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muziris-port",
+      "label": "Muziris, India's Roman Gateway",
+      "year": 1,
+      "description": "The port of Muziris on India's Malabar coast (modern Kerala) was ancient India's busiest commercial hub, where Roman ships arrived annually on monsoon winds to buy pepper, the 'black gold' that Romans craved.",
+      "wikiSlug": "Muziris",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pliny-gold-drain",
+      "label": "Pliny Laments Gold Drain to India",
+      "year": 77,
+      "description": "Pliny the Elder complained that Rome spent 50 million sesterces annually on Indian goods, calling the trade 'a drain on our resources.' Hoards of Roman gold coins found across southern India confirm his lament.",
+      "wikiSlug": "Indo-Roman_trade_relations#Roman_gold_drain",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-arikamedu",
+      "label": "Arikamedu Roman Trading Post",
+      "year": -50,
+      "description": "Excavations at Arikamedu near Pondicherry revealed a Roman trading station with Mediterranean pottery, gems, beads, and wine amphorae — physical proof of the intense commercial connection between Rome and southern India.",
+      "wikiSlug": "Arikamedu",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-kushan-kujula",
+      "label": "Kujula Kadphises Founds Kushan Empire",
+      "year": 30,
+      "endYear": 80,
+      "description": "Kujula Kadphises unified the five Yuezhi tribes and founded the Kushan Empire, conquering Gandhara and expanding into the Indian subcontinent. He adopted the title 'King of Kings' and his coins show him styled as both Greek and Indian.",
+      "wikiSlug": "Kujula_Kadphises",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vima-kadphises",
+      "label": "Vima Kadphises Expands Empire",
+      "year": 90,
+      "endYear": 127,
+      "description": "Vima Kadphises expanded the Kushan Empire deep into northern India, issued the first Kushan gold coins, and was a devotee of Shiva — his coins depict him alongside a trident and bull, symbols of Shaivism.",
+      "wikiSlug": "Vima_Kadphises",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kanishka-reign",
+      "label": "Kanishka I and the Kushan Empire",
+      "year": 127,
+      "endYear": 150,
+      "description": "Kanishka I presided over the Kushan Empire at its zenith, ruling from Purushapura (Peshawar) over territory stretching from Central Asia to Varanasi. His patronage of Buddhism, the Silk Road, and multicultural art made the Kushans a pivot of Eurasian civilization.",
+      "wikiSlug": "Kanishka",
+      "tier": 1,
+      "tags": ["religion", "trade"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gandhara-art",
+      "label": "Gandhara Buddhist Art",
+      "year": 100,
+      "description": "The Gandhara school fused Greco-Roman sculptural techniques with Buddhist subjects, producing the first human representations of the Buddha — toga-draped, with Apollonian features. This template spread across Asia and influenced Buddhist art worldwide.",
+      "wikiSlug": "Gandhara#Art",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mathura-art",
+      "label": "Mathura School of Art",
+      "year": 100,
+      "description": "The Mathura school developed a parallel but distinctly Indian style of Buddhist and Hindu sculpture, depicting the Buddha with Indian features, thin robes, and a sensuous warmth that contrasted with Gandhara's Hellenistic austerity.",
+      "wikiSlug": "Mathura_art",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-fourth-buddhist-council",
+      "label": "Fourth Buddhist Council",
+      "year": 130,
+      "description": "Kanishka convened a great Buddhist council in Kashmir (or possibly Gandhara), where 500 monks compiled extensive commentaries on the Tripitaka. The council is traditionally associated with the formal codification of Mahayana doctrines.",
+      "wikiSlug": "Fourth_Buddhist_council",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mahayana-buddhism",
+      "label": "Rise of Mahayana Buddhism",
+      "year": 50,
+      "description": "Mahayana ('Great Vehicle') Buddhism emerged as a major movement, emphasizing the bodhisattva ideal — compassionate beings who delay their own enlightenment to help all sentient beings — and making Buddhism accessible to laypeople.",
+      "wikiSlug": "Mahayana",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-nagarjuna",
+      "label": "Nagarjuna and Madhyamaka Philosophy",
+      "year": 150,
+      "description": "The philosopher Nagarjuna, probably from Andhra, founded the Madhyamaka school of Buddhist philosophy, arguing that all things are 'empty' (shunya) of inherent existence — the most influential philosophical framework in Mahayana Buddhism.",
+      "wikiSlug": "Nagarjuna",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-ashvaghosha",
+      "label": "Ashvaghosha's Buddhacharita",
+      "year": 100,
+      "description": "The poet-philosopher Ashvaghosha composed the Buddhacharita (Acts of the Buddha), the first full biography of the Buddha in classical Sanskrit verse. He was also a dramatist and musician at Kanishka's court.",
+      "wikiSlug": "Aśvaghoṣa",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-silk-road-kushan",
+      "label": "Kushan Silk Road Dominance",
+      "year": 100,
+      "description": "The Kushan Empire controlled the critical central section of the Silk Road where goods from Rome, India, China, and Central Asia converged. Kushan merchants and diplomats maintained contacts with all four civilizations simultaneously.",
+      "wikiSlug": "Kushan_Empire#Trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-buddhism-central-asia",
+      "label": "Buddhism Spreads to Central Asia",
+      "year": 100,
+      "description": "Kushan patronage funded Buddhist monasteries, stupas, and translation centers across Central Asia — at Bamiyan, Balkh, and along the Tarim Basin — creating the monastic highway through which Buddhism reached China.",
+      "wikiSlug": "Buddhism_in_Central_Asia",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-buddhism-china-arrival",
+      "label": "Buddhism Reaches China",
+      "year": 68,
+      "description": "Buddhist monks and merchants traveling the Silk Road through Kushan territory brought Buddhism to Han Dynasty China. Emperor Ming of Han reportedly dreamed of a golden figure and sent envoys west, who returned with monks and scriptures.",
+      "wikiSlug": "Buddhism_in_China#Introduction",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-rudradaman",
+      "label": "Rudradaman I, Western Satrap",
+      "year": 130,
+      "endYear": 150,
+      "description": "The Western Saka Satrap Rudradaman I defeated the Satavahanas twice and repaired the ancient Sudarshana Lake in Gujarat. His Junagadh rock inscription (c. 150 CE) is the earliest known long inscription in classical Sanskrit prose.",
+      "wikiSlug": "Rudradaman_I",
+      "tier": 2,
+      "tags": ["writing"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-junagadh-inscription",
+      "label": "Junagadh Rock Inscription",
+      "year": 150,
+      "description": "Rudradaman I's inscription at Junagadh recorded the repair of the Sudarshana Lake originally built by the Mauryas, providing a rare administrative narrative spanning four centuries and marking Sanskrit's emergence as a language of royal inscriptions.",
+      "wikiSlug": "Junagadh_rock_inscription_of_Rudradaman",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-gautamiputra-satakarni",
+      "label": "Gautamiputra Satakarni",
+      "year": 106,
+      "endYear": 130,
+      "description": "The greatest Satavahana king, Gautamiputra Satakarni conquered the Western Satraps and claimed to have restored the glory of the dynasty. His mother Gautami Balashri's Nasik inscription is one of ancient India's rare texts authored by a woman.",
+      "wikiSlug": "Gautamiputra_Satakarni",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-amaravati-stupa",
+      "label": "Amaravati Stupa",
+      "year": 150,
+      "description": "The great stupa at Amaravati in Andhra Pradesh was the largest and most elaborately decorated Buddhist monument in southern India, with relief sculptures showing remarkable dynamism and emotional expressiveness that influenced art across Southeast Asia.",
+      "wikiSlug": "Amaravati_Stupa",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kushan-coinage",
+      "label": "Kushan Gold Coinage",
+      "year": 100,
+      "description": "Kushan gold coins depicted an extraordinary pantheon — Greek gods, Zoroastrian deities, the Buddha, Hindu gods, and the Kushan king himself — reflecting the empire's multicultural character. Their weight standard matched Roman aurei for trade compatibility.",
+      "wikiSlug": "Kushan_coinage",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-charaka-samhita",
+      "label": "Charaka Samhita Compiled",
+      "year": 100,
+      "description": "The Charaka Samhita, a foundational text of Ayurvedic medicine, was compiled in its current form during the Kushan period. It describes diagnosis, treatment, anatomy, and pharmacology with a sophistication that influenced Indian medicine for two millennia.",
+      "wikiSlug": "Charaka_Samhita",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-sushruta-samhita",
+      "label": "Sushruta Samhita and Ancient Surgery",
+      "year": 150,
+      "description": "The Sushruta Samhita, a treatise on surgery compiled in the early centuries CE, described rhinoplasty (nose reconstruction), cataract surgery, cesarean sections, and over 120 surgical instruments — the most advanced surgical knowledge in the ancient world.",
+      "wikiSlug": "Sushruta_Samhita",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-manusmriti",
+      "label": "Laws of Manu (Manusmriti)",
+      "year": 100,
+      "description": "The Manusmriti, compiled between the 2nd century BCE and 3rd century CE, codified Hindu social and legal norms including the varna (caste) system, duties of kings, and rules of dharma. It became the most authoritative dharmashastra text.",
+      "wikiSlug": "Manusmriti",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mahabharata-compilation",
+      "label": "Mahabharata Reaches Final Form",
+      "year": 200,
+      "description": "The Mahabharata, the world's longest epic poem at roughly 100,000 verses, reached its final compiled form during the post-Maurya centuries, incorporating the Bhagavad Gita and evolving from a warrior epic into an encyclopedic text covering law, philosophy, and cosmology.",
+      "wikiSlug": "Mahabharata",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-bhagavad-gita",
+      "label": "Bhagavad Gita Composed",
+      "year": -100,
+      "description": "The Bhagavad Gita, inserted into the Mahabharata, presents Krishna's philosophical discourse on duty, action, and devotion to the warrior Arjuna. It became Hinduism's most widely read scripture and one of the world's most influential religious texts.",
+      "wikiSlug": "Bhagavad_Gita",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hindu-devotionalism",
+      "label": "Rise of Bhakti Devotionalism",
+      "year": -50,
+      "description": "Bhakti (devotion) to personal gods — particularly Vishnu and Shiva — emerged as a powerful movement in Hinduism, making the religion more accessible than the ritual-heavy Vedic tradition and eventually becoming Hinduism's dominant mode of worship.",
+      "wikiSlug": "Bhakti",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-early-hindu-temples",
+      "label": "Earliest Hindu Temple Architecture",
+      "year": 200,
+      "description": "The earliest surviving freestanding Hindu temples date from the Gupta period, but structural elements — sanctums (garbhagriha), entrance porches, and standardized iconography — were developed during the post-Maurya centuries.",
+      "wikiSlug": "Hindu_temple_architecture",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tiruvalluvar",
+      "label": "Tiruvalluvar Writes the Tirukkural",
+      "year": 50,
+      "description": "The Tamil poet-philosopher Tiruvalluvar composed the Tirukkural, a masterwork of 1,330 couplets on ethics, statecraft, and love. Often compared to a Tamil Bible, it remains one of the most translated and revered works in Indian literature.",
+      "wikiSlug": "Tirukkural",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pepper-trade",
+      "label": "Black Pepper Trade",
+      "year": -50,
+      "description": "Indian black pepper from the Malabar coast became the most valuable spice in the Roman world, worth its weight in silver. The pepper trade drove maritime commerce, funded Tamil kingdoms, and made Muziris one of the busiest ports on earth.",
+      "wikiSlug": "Black_pepper#History",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-vasumitra-philosopher",
+      "label": "Vasumitra, Buddhist Philosopher",
+      "year": 130,
+      "description": "The scholar Vasumitra presided over Kanishka's Buddhist council and composed treatises on Abhidharma philosophy, contributing to the systematization of Buddhist thought that made Mahayana doctrines intellectually rigorous.",
+      "wikiSlug": "Vasumitra_(Buddhist_philosopher)",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-pali-canon-written",
+      "label": "Pali Canon Written Down in Sri Lanka",
+      "year": -29,
+      "description": "Buddhist monks at Aluvihara in Sri Lanka wrote the Pali Canon on palm leaves for the first time, ending centuries of purely oral transmission. The decision was driven by famine and war that threatened to break the chain of memorization.",
+      "wikiSlug": "Pāli_Canon#Composition",
+      "tier": 2,
+      "tags": ["writing"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lotus-sutra",
+      "label": "Lotus Sutra Composed",
+      "year": 100,
+      "description": "The Saddharma Pundarika (Lotus Sutra) was composed during the early Kushan period, teaching that all beings can achieve Buddhahood. It became the most influential Mahayana text in East Asia, central to Chinese, Japanese, and Korean Buddhism.",
+      "wikiSlug": "Lotus_Sutra",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bodhisattva-ideal",
+      "label": "Bodhisattva Ideal in Art and Devotion",
+      "year": 150,
+      "description": "The Mahayana bodhisattva ideal — compassionate beings like Avalokiteshvara and Maitreya who postpone nirvana to help others — became a central theme in Gandhara and Mathura sculpture and transformed Buddhist devotional practice across Asia.",
+      "wikiSlug": "Bodhisattva",
+      "tier": 2,
+      "tags": ["architecture"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-satavahana-decline",
+      "label": "Satavahana Dynasty Declines",
+      "year": 220,
+      "description": "The Satavahana dynasty fragmented in the early 3rd century CE, with successor states including the Ikshvakus in Andhra, the Abhiras in Maharashtra, and the Vakatakas who would later ally with the Guptas through marriage.",
+      "wikiSlug": "Satavahana_dynasty#Decline",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vasudeva-kushan",
+      "label": "Vasudeva I, Last Great Kushan",
+      "year": 191,
+      "endYear": 230,
+      "description": "Vasudeva I was the last great Kushan emperor, after whom the empire fragmented into regional rulers. His coins show exclusively Shaiva iconography, reflecting the gradual Indianization of the originally Central Asian dynasty.",
+      "wikiSlug": "Vasudeva_I",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lokaksema",
+      "label": "Lokaksema Translates Sutras to Chinese",
+      "year": 179,
+      "description": "The Kushan monk Lokaksema, working in the Chinese capital Luoyang, produced the first Chinese translations of Mahayana sutras, including the Perfection of Wisdom texts. He was the first of many Central Asian monks who made Buddhism Chinese.",
+      "wikiSlug": "Lokakṣema",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-kanishka-era",
+      "label": "Kanishka Era Calendar",
+      "year": 127,
+      "description": "Kanishka I established a new calendar era (Year 1 = 127 CE, though the exact date is debated). The 'Kanishka era' appears on inscriptions and coins across the Kushan realm and is a key chronological anchor for all Kushan dating.",
+      "wikiSlug": "Kanishka#Era",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-indian-numerals",
+      "label": "Indian Decimal Notation Develops",
+      "year": 200,
+      "description": "Indian mathematicians developed the place-value decimal numeral system with a symbol for zero during the early centuries CE. This system would later be transmitted to the Islamic world and then to Europe, becoming the global standard.",
+      "wikiSlug": "Indian_numerals",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-bamiyan-buddhas",
+      "label": "Bamiyan Buddhas Begun",
+      "year": 250,
+      "description": "Construction began on the two colossal standing Buddha statues carved into the Bamiyan cliffs in Afghanistan — the larger at 175 feet tall — reflecting the spread of Buddhism along Kushan trade routes. The Taliban destroyed them in 2001.",
+      "wikiSlug": "Buddhas_of_Bamiyan",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sassanid-pressure",
+      "label": "Sassanids Conquer Western Kushan Territories",
+      "year": 230,
+      "description": "The Sassanid Persian Empire under Ardashir I conquered the western Kushan territories in Bactria and Afghanistan, reducing the Kushans to a rump state in the Punjab known as the Kushan-Sassanid or Kushano-Sassanian kingdom.",
+      "wikiSlug": "Kushano-Sasanian_Kingdom",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-shunga-greco-wars",
+      "label": "Shunga-Indo-Greek Wars",
+      "year": -180,
+      "description": "The Shungas fought multiple wars against Indo-Greek invaders in the northwest. Pushyamitra reportedly repelled a Greek attack on Pataliputra, though whether this was Demetrius or Menander is debated.",
+      "wikiSlug": "Shunga_Empire#Wars",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-satavahana-saka-wars",
+      "label": "Satavahana-Saka Wars",
+      "year": 100,
+      "description": "The Satavahanas fought a prolonged struggle against the Western Saka Satraps (Kshatrapas) for control of western India. Gautamiputra Satakarni briefly defeated them, but Rudradaman later reversed the gains.",
+      "wikiSlug": "Satavahana_dynasty#Wars_with_the_Sakas",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kushan-han-contact",
+      "label": "Kushan-Han Diplomatic Contact",
+      "year": 90,
+      "description": "Chinese general Ban Chao clashed with Kushan forces in Central Asia but eventually established diplomatic relations. The Kushan-Han connection facilitated the Silk Road trade and Buddhist transmission that reshaped East Asian civilization.",
+      "wikiSlug": "Ban_Chao",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-purushapura-capital",
+      "label": "Purushapura (Peshawar), Kushan Capital",
+      "year": 127,
+      "description": "Kanishka made Purushapura (modern Peshawar, Pakistan) the primary Kushan capital, building a massive stupa reportedly over 600 feet tall that Xuanzang described centuries later as one of the wonders of the Buddhist world.",
+      "wikiSlug": "Peshawar#Kushan_era",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-monsoon-discovery",
+      "label": "Monsoon Wind Navigation",
+      "year": -100,
+      "description": "Greek and Indian sailors mastered monsoon wind patterns for direct open-ocean crossings between the Red Sea and India, cutting voyage time from months to weeks and supercharging Roman-Indian trade.",
+      "wikiSlug": "Hippalus",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kushan-decline",
+      "label": "Kushan Empire Fragments",
+      "year": 270,
+      "description": "The Kushan Empire fragmented under Sassanid and local pressure, splitting into small successor states. The 'Kidarite Huns' and later the 'Little Kushans' maintained fragments of Kushan power until the Gupta expansion.",
+      "wikiSlug": "Kushan_Empire#Decline",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gupta-founding",
+      "label": "Gupta Dynasty Founded",
+      "year": 320,
+      "description": "Sri Gupta and his successors established the Gupta dynasty in Magadha, beginning the reunification of northern India. Chandragupta I's marriage to the Lichchhavi princess Kumaradevi legitimized Gupta power and launched India's classical golden age.",
+      "wikiSlug": "Gupta_Empire#Origins",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
