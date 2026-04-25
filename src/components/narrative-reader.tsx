@@ -101,19 +101,42 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               }
             }
             if (!target) return
-            const p = target
 
-              p.scrollIntoView({ behavior: 'auto', block: 'center' })
+            // Find the exact text node containing the search term and create a Range around it
+            const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT)
+            let textNode: Text | null = null
+            let charIdx = -1
+            while ((textNode = walker.nextNode() as Text | null)) {
+              const idx = textNode.textContent?.toLowerCase().indexOf(termLower) ?? -1
+              if (idx !== -1) { charIdx = idx; break }
+            }
 
-              requestAnimationFrame(() => {
-                const rect = p.getBoundingClientRect()
-                if (rect.width === 0 || rect.height === 0) return
+            if (!textNode || charIdx === -1) {
+              // Fallback: scroll to paragraph
+              target.scrollIntoView({ behavior: 'auto', block: 'center' })
+              return
+            }
 
-                const overlay = document.createElement('div')
-                overlay.style.cssText = `position:fixed;top:${rect.top - 4}px;left:${rect.left - 8}px;width:${rect.width + 16}px;height:${rect.height + 8}px;background:rgba(217,119,6,0.18);border-left:3px solid #d97706;border-radius:4px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
-                document.body.appendChild(overlay)
-                setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
-              })
+            // Create a range around the matched word
+            const range = document.createRange()
+            range.setStart(textNode, charIdx)
+            range.setEnd(textNode, charIdx + hl.length)
+            const rangeRect = range.getBoundingClientRect()
+
+            // Scroll the word into view
+            target.scrollIntoView({ behavior: 'auto', block: 'center' })
+
+            requestAnimationFrame(() => {
+              const rect = range.getBoundingClientRect()
+              if (rect.width === 0 || rect.height === 0) return
+
+              // Highlight just the line containing the word (full width, line height)
+              const pRect = target!.getBoundingClientRect()
+              const overlay = document.createElement('div')
+              overlay.style.cssText = `position:fixed;top:${rect.top - 2}px;left:${pRect.left - 4}px;width:${pRect.width + 8}px;height:${rect.height + 4}px;background:rgba(217,119,6,0.2);border-radius:3px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
+              document.body.appendChild(overlay)
+              setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
+            })
           }, 1200)
           return () => clearTimeout(timer)
         }
