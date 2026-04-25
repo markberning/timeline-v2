@@ -231,13 +231,13 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
                     Ch {ch.number} · {ch.title}
                   </div>
                   {ch.matches.map((sentence, i) => (
-                    <a
+                    <button
                       key={i}
-                      href={`/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}`}
-                      className="block py-1.5 text-[13px] leading-snug text-foreground/65 no-underline border-b border-foreground/5 last:border-b-0"
+                      className="block w-full text-left py-1.5 text-[13px] leading-snug text-foreground/65 border-b border-foreground/5 last:border-b-0 cursor-pointer"
+                      onClick={() => { window.location.href = `/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}` }}
                     >
                       <HighlightedText text={sentence} query={query.trim()} />
-                    </a>
+                    </button>
                   ))}
                 </div>
               ))}
