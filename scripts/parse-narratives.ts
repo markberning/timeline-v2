@@ -142,6 +142,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'celtic-cultures.md': 'celtic-cultures',
   'ancient-japan.md': 'ancient-japan',
   'xiongnu-huns.md': 'xiongnu-huns',
+  'post-maurya-kingdoms.md': 'post-maurya-kingdoms',
 }
 
 function slugify(title: string): string {

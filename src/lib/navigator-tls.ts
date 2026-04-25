@@ -65,7 +65,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'indus-valley', label: 'Indus Valley', subtitle: "Pakistan's brick cities and lost script", region: 'asia', startYear: -3300, endYear: -1300, isReal: true, hasContent: true },
   { id: 'vedic-period', label: 'Vedic Period', subtitle: "northern India's sacred hymns", region: 'asia', startYear: -1500, endYear: -322, isReal: true, hasContent: true },
   { id: 'maurya-empire', label: 'Maurya Empire', subtitle: "India's first unifier, Buddhism's patron", region: 'asia', startYear: -322, endYear: -185, isReal: true, hasContent: true },
-  { id: 'post-maurya-kingdoms', label: 'Post-Maurya Kingdoms', subtitle: "India's centuries of fragmentation", region: 'asia', startYear: -185, endYear: 320 },
+  { id: 'post-maurya-kingdoms', label: 'Post-Maurya Kingdoms', subtitle: "India's centuries of fragmentation", region: 'asia', startYear: -185, endYear: 320, isReal: true, hasContent: true },
   { id: 'gupta-empire', label: 'Gupta Empire', subtitle: "India's classical golden age", region: 'asia', startYear: 320, endYear: 550, isReal: true },
   { id: 'medieval-india', label: 'Medieval India', subtitle: 'temple kingdoms and Hindu revival', region: 'asia', startYear: 550, endYear: 1206 },
   { id: 'delhi-sultanate', label: 'Delhi Sultanate', subtitle: 'Islam takes northern India', region: 'asia', startYear: 1206, endYear: 1526 },
