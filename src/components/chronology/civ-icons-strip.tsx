@@ -98,7 +98,7 @@ function labelFromPath(src: string): string {
 
 // Per-icon width overrides (Tailwind w- classes). Default is w-12.
 const ICON_SIZE: Record<string, string> = {
-  '/icons/early-dynastic-egypt.png': 'w-16',
+  '/icons/early-dynastic-egypt.png': 'w-20',
   '/icons/persian-empire.png': 'w-16',
 }
 
