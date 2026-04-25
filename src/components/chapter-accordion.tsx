@@ -15,9 +15,10 @@ interface ChapterAccordionProps {
   onExpand: () => void
   onCollapse: () => void
   onReadNext: () => void
+  suppressScrollOnOpen?: boolean
 }
 
-export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, nextChapterTitle, onExpand, onCollapse, onReadNext }: ChapterAccordionProps) {
+export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, nextChapterTitle, onExpand, onCollapse, onReadNext, suppressScrollOnOpen }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
@@ -102,7 +103,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   // h1, the subtitle, and the opened chapter header stacked naturally —
   // same answer whether this was a user tap or a cross-link auto-expand.
   useEffect(() => {
-    if (!open) return
+    if (!open || suppressScrollOnOpen) return
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'auto' })
     }
@@ -111,7 +112,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     })
     const t1 = setTimeout(scrollToTop, 300)
     return () => clearTimeout(t1)
-  }, [open])
+  }, [open, suppressScrollOnOpen])
 
   const pointerStart = useRef<{ x: number; y: number } | null>(null)
 

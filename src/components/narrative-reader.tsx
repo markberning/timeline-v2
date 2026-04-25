@@ -53,6 +53,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
   const [savedProgress, setSavedProgress] = useState<ReadingProgress | null>(null)
   const [resumeDismissed, setResumeDismissed] = useState(false)
   const pendingScrollPct = useRef<number | null>(null)
+  const [hasHighlight, setHasHighlight] = useState(false)
   const swipeStart = useRef<{ x: number; y: number } | null>(null)
 
   const eventMap = new Map(events.map(e => [e.id, e]))
@@ -85,8 +86,9 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
         setOpenChapter(n)
 
-        // If there's a highlight term, wait for content to render then highlight
+        // If there's a highlight term, suppress accordion scroll and highlight
         if (hl) {
+          setHasHighlight(true)
           const timer = setTimeout(() => {
             const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
 
@@ -105,7 +107,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
               found = true
 
-              // Highlight with outline (paints on top of everything)
+              // Highlight with outline + background
               p.style.setProperty('outline', '2px solid #d97706', 'important')
               p.style.setProperty('outline-offset', '6px', 'important')
               p.style.setProperty('background-color', 'rgba(217,119,6,0.15)', 'important')
@@ -283,6 +285,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               onExpand={() => setOpenChapter(ch.number)}
               onCollapse={() => setOpenChapter(null)}
               onReadNext={() => next && setOpenChapter(next.number)}
+              suppressScrollOnOpen={hasHighlight}
             />
           )
         })}
