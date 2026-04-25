@@ -109,10 +109,10 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
         p.style.paddingRight = '8px'
         p.style.borderRadius = '2px'
 
-        // Scroll to it
+        // Scroll to it (delay past accordion's scrollTo(0) at 300ms)
         setTimeout(() => {
           p.scrollIntoView({ behavior: 'smooth', block: 'center' })
-        }, 100)
+        }, 500)
 
         // Fade out after 5 seconds
         setTimeout(() => {
