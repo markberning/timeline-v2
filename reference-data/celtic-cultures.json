@@ -1,0 +1,750 @@
+{
+  "id": "celtic-cultures",
+  "label": "Celtic Cultures",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Celts",
+  "imageWikiSlug": "Gundestrup_cauldron",
+  "pitch": "Warrior tribes who dominated Europe from Ireland to Turkey (800 BCE-100 CE), the Celts were the people Rome feared most. Brennus Sacks Rome in 387 BCE sent shockwaves through the ancient world, Vercingetorix Unites Gaul in a desperate last stand against Caesar, and Boudica's Revolt nearly drove the Romans out of Britain. Their Druidic Tradition held knowledge that took 20 years to memorize, and their La Tène Culture Develops produced the swirling art style that still defines 'Celtic' design.\n\n🔑 Key Facts:\n• The Hallstatt Culture Emerges around 800 BCE as the earliest identifiably Celtic civilization, fueled by wealth from the Hallstatt Salt Mines\n• Caesar's Gallic Wars killed or enslaved millions and ended Celtic continental independence, but gave us De Bello Gallico — one of our best windows into Celtic society\n• The Gundestrup Cauldron is a masterpiece of silver metalwork depicting Celtic gods and rituals\n• Celtic Seasonal Festivals like Samhain (the ancestor of Halloween) and Beltane still echo in modern celebrations\n\n🤔 Why It Matters: Celtic languages survive today in Irish, Welsh, Scottish Gaelic, and Breton. Celtic art, music, and mythology permeate Western culture, from Tolkien's elves to the Book of Kells to Halloween itself.\n\n🎲 Wild Card: The Celtic Invasion of Greece in 279 BCE saw Celtic warriors attack the sacred oracle at Delphi — and some of them kept going east, crossing into Turkey to establish Galatians Settle in Anatolia, the same Galatians St. Paul later wrote his famous letter to.",
+  "countryIds": [
+    "250",
+    "826",
+    "372",
+    "724",
+    "040",
+    "756",
+    "276"
+  ],
+  "spans": [
+    {
+      "id": "span-celtic-world-hallstatt",
+      "label": "Hallstatt Culture",
+      "startYear": -800,
+      "endYear": -450,
+      "wikiSlug": "Hallstatt_culture",
+      "description": "The earliest identifiably Celtic civilization emerged in central Europe, centered on salt mining wealth at Hallstatt in Austria. Elite warrior burials with iron weapons, bronze vessels, and Mediterranean imports reveal a hierarchical society with long-distance trade connections."
+    },
+    {
+      "id": "span-celtic-world-la-tene",
+      "label": "La Tène Culture",
+      "startYear": -450,
+      "endYear": -50,
+      "wikiSlug": "La_T%C3%A8ne_culture",
+      "description": "The La Tène culture succeeded Hallstatt with its iconic curvilinear art style, advanced metalwork, and warrior aristocracies spreading from Ireland to Turkey. Fortified oppida towns developed as major centers of trade, craft production, and political power across Celtic Europe."
+    },
+    {
+      "id": "span-celtic-world-celtic-expansion",
+      "label": "Celtic Expansion",
+      "startYear": -400,
+      "endYear": -200,
+      "wikiSlug": "Celtic_expansion",
+      "description": "Celtic war bands surged across Europe, sacking Rome in 387 BCE, invading Greece in 279 BCE, and crossing into Anatolia. At their peak, Celtic-speaking peoples occupied territory from Ireland and Iberia to the Black Sea and central Turkey."
+    },
+    {
+      "id": "span-celtic-world-galatian-celts",
+      "label": "Galatians in Anatolia",
+      "startYear": -278,
+      "endYear": -25,
+      "wikiSlug": "Galatia",
+      "description": "Celtic tribes who crossed into Asia Minor established the kingdom of Galatia in central Anatolia, serving as mercenaries for Hellenistic kings. They maintained Celtic language and customs for centuries until Roman absorption, and are the same Galatians addressed in St. Paul's epistle."
+    },
+    {
+      "id": "span-celtic-world-roman-conquest-gaul",
+      "label": "Roman Gaul",
+      "startYear": -50,
+      "endYear": 100,
+      "wikiSlug": "Roman_Gaul",
+      "description": "Caesar's conquest of Gaul ended Celtic continental independence, killing or enslaving millions. Under Roman rule, Gaul was rapidly urbanized and Romanized, though Celtic languages, religious practices, and artistic traditions persisted beneath a Latin surface."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-hallstatt-origins",
+      "label": "Hallstatt Culture Emerges",
+      "year": -800,
+      "description": "The Hallstatt culture emerged in central Europe as the earliest identifiably Celtic civilization, characterized by iron working, salt mining, and elite burials.",
+      "wikiSlug": "Hallstatt_culture",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hallstatt-salt-mines",
+      "label": "Hallstatt Salt Mines",
+      "year": -750,
+      "description": "The salt mines at Hallstatt in Austria generated enormous wealth for early Celtic communities, preserving remarkable archaeological artifacts in salt deposits.",
+      "wikiSlug": "Hallstatt#History",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-hallstatt-elite-burials",
+      "label": "Hallstatt Elite Burials",
+      "year": -700,
+      "description": "Hallstatt chieftains were buried in wooden chambers under large tumuli with four-wheeled wagons, iron swords, bronze vessels, and imported Mediterranean luxuries reflecting their wealth and status.",
+      "wikiSlug": "Hallstatt_culture#Burials",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hallstatt-dagger-type",
+      "label": "Hallstatt Iron Swords",
+      "year": -750,
+      "description": "Hallstatt smiths produced distinctive long iron slashing swords with elaborate hilts and scabbards, marking the transition from bronze to iron weaponry in Celtic Europe.",
+      "wikiSlug": "Hallstatt_culture#Swords",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-celtic-ironworking",
+      "label": "Advanced Celtic Ironworking",
+      "year": -700,
+      "description": "Celtic smiths became Europe's finest ironworkers, producing superior swords, tools, and the iconic La Tène style fibulae and torcs.",
+      "wikiSlug": "Celtic_warfare#Weapons",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-heuneburg",
+      "label": "Heuneburg Hillfort",
+      "year": -600,
+      "description": "The Heuneburg on the upper Danube was one of the earliest Celtic hillforts, featuring Mediterranean-style mudbrick walls — a unique adoption of southern building techniques north of the Alps.",
+      "wikiSlug": "Heuneburg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-celtic-expansion-iberia",
+      "label": "Celtiberians in Spain",
+      "year": -600,
+      "description": "Celtic peoples migrated into the Iberian Peninsula and merged with local populations to form the Celtiberian culture of central and western Spain.",
+      "wikiSlug": "Celtiberians",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lepontic-inscriptions",
+      "label": "Lepontic Inscriptions",
+      "year": -600,
+      "description": "The Lepontic inscriptions from northern Italy are among the oldest Celtic texts, written in a variant of the Etruscan alphabet and representing the earliest known Celtic writing.",
+      "wikiSlug": "Lepontic_language",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-celtic-wine-trade",
+      "label": "Mediterranean Wine Trade",
+      "year": -600,
+      "description": "Celtic elites imported vast quantities of wine from Greek and Etruscan traders, exchanging metals, furs, and slaves in a thriving cross-cultural commerce.",
+      "wikiSlug": "Hallstatt_culture#Trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-golasecca-culture",
+      "label": "Golasecca Celtic Culture",
+      "year": -600,
+      "description": "The Golasecca culture in northern Italy represented a Celtic-speaking population in the Po Valley who served as intermediaries between the Mediterranean world and transalpine Celtic communities.",
+      "wikiSlug": "Golasecca_culture",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hochdorf-burial",
+      "label": "Hochdorf Chieftain's Grave",
+      "year": -530,
+      "description": "A Celtic chieftain was buried at Hochdorf near Stuttgart with a bronze couch, gold shoes, a cauldron of mead, and a four-wheeled wagon — one of the richest intact Hallstatt burials ever found.",
+      "wikiSlug": "Hochdorf_Chieftain%27s_Grave",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-celtic-wheel-tech",
+      "label": "Celtic Wheeled Vehicles",
+      "year": -600,
+      "description": "Celts developed advanced four-wheeled wagons and two-wheeled carts with iron tires, innovations later adopted throughout Europe.",
+      "wikiSlug": "Hallstatt_culture#Technology",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-vix-burial",
+      "label": "Vix Burial",
+      "year": -500,
+      "description": "The lavish burial of a Celtic woman at Vix in France contained a massive Greek bronze krater — the largest known from antiquity — demonstrating elite Celtic connections to Mediterranean trade.",
+      "wikiSlug": "Vix_Grave",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-celtic-britain",
+      "label": "Celtic Settlement of Britain",
+      "year": -500,
+      "description": "Celtic peoples established themselves across the British Isles, creating the tribal kingdoms that would define pre-Roman Britain and Ireland.",
+      "wikiSlug": "Celtic_Britons",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tin-trade",
+      "label": "Celtic Tin Trade",
+      "year": -500,
+      "description": "Celtic communities in Cornwall and Brittany controlled the vital tin trade supplying the Mediterranean bronze industry, generating significant wealth and connecting Atlantic Europe to the ancient world.",
+      "wikiSlug": "Tin_sources_and_trade_in_ancient_times",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cisalpine-gauls",
+      "label": "Gauls Settle the Po Valley",
+      "year": -400,
+      "description": "Celtic tribes — the Insubres, Boii, Senones, and Cenomani — migrated across the Alps into northern Italy, displacing Etruscans and establishing Cisalpine Gaul.",
+      "wikiSlug": "Cisalpine_Gaul",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-la-tene-begins",
+      "label": "La Tène Culture Develops",
+      "year": -450,
+      "description": "The La Tène culture succeeded Hallstatt with distinctive curvilinear art, advanced metalwork, and warrior aristocracies spreading across Europe.",
+      "wikiSlug": "La_T%C3%A8ne_culture",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-celtic-art-style",
+      "label": "Celtic Art Style Flourishes",
+      "year": -400,
+      "description": "Celtic artists developed their iconic abstract curvilinear style featuring spirals, triskeles, and stylized animals on metalwork, jewelry, and stone.",
+      "wikiSlug": "Celtic_art",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-celtic-torcs",
+      "label": "Celtic Gold Torcs",
+      "year": -400,
+      "description": "Twisted gold and silver torcs became the defining jewelry of Celtic elites, worn around the neck as symbols of status, wealth, and divine protection.",
+      "wikiSlug": "Torc#Celtic_torcs",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-druids",
+      "label": "Druidic Tradition",
+      "year": -400,
+      "description": "Druids served as priests, judges, and scholars in Celtic society, maintaining oral traditions, performing rituals, and wielding enormous political influence.",
+      "wikiSlug": "Druid",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-celtic-festivals",
+      "label": "Celtic Seasonal Festivals",
+      "year": -400,
+      "description": "The Celtic calendar revolved around four major festivals — Samhain, Imbolc, Beltane, and Lughnasadh — marking agricultural and supernatural turning points.",
+      "wikiSlug": "Celtic_calendar",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-celtic-head-cult",
+      "label": "Celtic Head Cult",
+      "year": -400,
+      "description": "The Celts practiced a head cult, believing the head housed the soul. Severed enemy heads were displayed as trophies and carved into sacred stone pillars.",
+      "wikiSlug": "Celtic_head_cult",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-sacred-groves",
+      "label": "Sacred Groves (Nemeton)",
+      "year": -400,
+      "description": "Celts worshipped in sacred groves called nemetons rather than in built temples, with trees and natural features serving as focal points for ritual.",
+      "wikiSlug": "Nemeton",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-celtic-tribal-structure",
+      "label": "Celtic Tribal Organization",
+      "year": -400,
+      "description": "Celtic society was organized into tribal units (tuatha) governed by kings or elected chiefs, with a warrior aristocracy, a priestly druid class, and a client-patron system binding freemen to nobles.",
+      "wikiSlug": "Celtic_society",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-celtic-women-status",
+      "label": "Celtic Women's Status",
+      "year": -400,
+      "description": "Celtic women held significantly higher legal and social status than their Greek or Roman counterparts, with rights to own property, divorce, and in some cases lead armies.",
+      "wikiSlug": "Celtic_women",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-celtic-chariot-warfare",
+      "label": "Celtic Chariot Warfare",
+      "year": -400,
+      "description": "Celtic warriors employed two-horse war chariots in battle, a tactic that impressed and terrified Roman observers during encounters in Gaul and Britain.",
+      "wikiSlug": "Chariot#Celtic_chariots",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-celtic-warrior-ethos",
+      "label": "Celtic Warrior Ethos",
+      "year": -400,
+      "description": "Celtic warriors fought for individual glory, often stripping naked before battle, issuing single-combat challenges, and collecting enemy heads as trophies — a code of honor that shocked Mediterranean observers.",
+      "wikiSlug": "Celtic_warfare",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-brennus-sacks-rome",
+      "label": "Brennus Sacks Rome",
+      "year": -387,
+      "description": "Gaulish chieftain Brennus led a Celtic army that defeated the Romans at the Battle of the Allia and sacked Rome, famously declaring 'Vae victis!' ('Woe to the vanquished!').",
+      "wikiSlug": "Battle_of_the_Allia",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-celtic-mercenaries",
+      "label": "Celtic Mercenaries in Mediterranean",
+      "year": -370,
+      "description": "Celtic warriors served as highly prized mercenaries across the Mediterranean, fighting for Syracuse, Carthage, and the Hellenistic kingdoms from the 4th century BCE onward.",
+      "wikiSlug": "Celtic_warfare#Mercenaries",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-celtic-balkans",
+      "label": "Celtic Expansion into the Balkans",
+      "year": -335,
+      "description": "Celtic tribes pushed into the Balkans, establishing kingdoms in Thrace and along the Danube. Alexander the Great reportedly received Celtic ambassadors who claimed they feared nothing except the sky falling.",
+      "wikiSlug": "Celts_in_Transylvania",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-celtic-enamelwork",
+      "label": "Celtic Enamelwork",
+      "year": -300,
+      "description": "Celtic craftsmen pioneered the technique of champlevé enamelwork in red, yellow, and blue, decorating horse gear, shields, and personal ornaments.",
+      "wikiSlug": "Champlev%C3%A9",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-celtic-horsemanship",
+      "label": "Celtic Cavalry Tradition",
+      "year": -300,
+      "description": "Celtic cavalry was renowned throughout the ancient world; Celtic horsemen served as mercenaries for Hellenistic kingdoms and were prized by Roman armies.",
+      "wikiSlug": "Celtic_warfare#Cavalry",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-celtic-coinage",
+      "label": "Celtic Coinage Begins",
+      "year": -300,
+      "description": "Celtic tribes began minting their own coins, initially imitating Greek staters of Philip II but quickly developing distinctive abstract and stylized designs.",
+      "wikiSlug": "Celtic_coinage",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-celtic-invasion-greece",
+      "label": "Celtic Invasion of Greece",
+      "year": -279,
+      "description": "A massive Celtic army under Brennus invaded Greece, attacking the sacred oracle at Delphi before being repulsed, demonstrating the reach of Celtic military power.",
+      "wikiSlug": "Celtic_invasion_of_Greece",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-galatians-settle",
+      "label": "Galatians Settle in Anatolia",
+      "year": -278,
+      "description": "Celtic tribes crossed into Anatolia and established the kingdom of Galatia, creating a Celtic enclave in the heart of the Hellenistic world that maintained Celtic language and customs for centuries.",
+      "wikiSlug": "Galatia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-galatian-defeat",
+      "label": "Dying Gaul Monument",
+      "year": -230,
+      "description": "Attalus I of Pergamon defeated the Galatians, commissioning the famous 'Dying Gaul' sculpture celebrating his victory — one of the most iconic depictions of Celtic warriors.",
+      "wikiSlug": "Dying_Gaul",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-celtiberian-script",
+      "label": "Celtiberian Script",
+      "year": -250,
+      "description": "Celtiberians in Spain adapted the Iberian semi-syllabic script to write their Celtic language, producing inscriptions on bronze tablets, coins, and pottery across central Iberia.",
+      "wikiSlug": "Celtiberian_script",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-oppida-fortifications",
+      "label": "Oppida (Celtic Towns)",
+      "year": -200,
+      "description": "Large fortified Celtic settlements called oppida developed across Europe, serving as political centers, markets, and craft production hubs with populations in the thousands.",
+      "wikiSlug": "Oppidum",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-manching-oppidum",
+      "label": "Manching Oppidum",
+      "year": -200,
+      "description": "The oppidum of Manching in Bavaria was one of the largest Celtic towns, enclosing over 900 acres behind 4.5 miles of walls with organized streets, workshops, and a mint.",
+      "wikiSlug": "Manching",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bibracte",
+      "label": "Bibracte Oppidum",
+      "year": -200,
+      "description": "Bibracte, capital of the Aedui tribe on Mont Beuvray in Burgundy, was a major Gallic oppidum with organized quarters for metalworkers, enamellers, and merchants trading across Europe.",
+      "wikiSlug": "Bibracte",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-murus-gallicus",
+      "label": "Murus Gallicus Walls",
+      "year": -200,
+      "description": "Celtic engineers developed the murus gallicus, a sophisticated fortification technique using timber-laced stone-and-earth ramparts that Caesar described as nearly impervious to battering rams.",
+      "wikiSlug": "Murus_Gallicus",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-gaulish-language",
+      "label": "Gaulish Language",
+      "year": -200,
+      "description": "Gaulish was the most widely spoken Celtic language, used from the Atlantic to the Balkans, and survives in over 800 inscriptions, graffiti, and curse tablets written in Greek and Latin alphabets.",
+      "wikiSlug": "Gaulish",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-celtic-glasswork",
+      "label": "Celtic Glasswork",
+      "year": -250,
+      "description": "Celtic artisans produced distinctive glass bracelets and beads in vibrant colors, demonstrating mastery of glassworking techniques independently developed from Mediterranean traditions.",
+      "wikiSlug": "Celtic_art#Glass",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-amber-trade",
+      "label": "Celtic Amber Trade",
+      "year": -600,
+      "description": "Celtic communities along the Amber Road linked Baltic amber sources to Mediterranean markets, with amber jewelry found in Hallstatt burials alongside Greek bronzes and Etruscan imports.",
+      "wikiSlug": "Amber_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-celtic-salt-trade",
+      "label": "Celtic Salt Trade Networks",
+      "year": -500,
+      "description": "Beyond Hallstatt, Celtic communities at Dürrnberg bei Hallein and other sites industrialized salt production, trading 'white gold' across Europe through extensive river and overland networks.",
+      "wikiSlug": "D%C3%BCrrnberg_bei_Hallein",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-gundestrup-cauldron",
+      "label": "Gundestrup Cauldron",
+      "year": -150,
+      "description": "The richly decorated silver Gundestrup Cauldron depicts Celtic deities including Cernunnos and rituals including a warrior procession, representing one of the finest surviving examples of Celtic metalwork.",
+      "wikiSlug": "Gundestrup_cauldron",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-celtic-deities",
+      "label": "Celtic Pantheon",
+      "year": -300,
+      "description": "The Celts worshipped hundreds of local and regional deities including Lugh, Cernunnos, Brigid, and the Morrigan, with gods tied to specific tribes, natural features, and crafts.",
+      "wikiSlug": "Celtic_deities",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-human-sacrifice",
+      "label": "Celtic Ritual Sacrifice",
+      "year": -300,
+      "description": "Classical authors and archaeological evidence — including bog bodies like Lindow Man — confirm that Celts practiced human sacrifice overseen by druids, particularly at moments of crisis or seasonal transition.",
+      "wikiSlug": "Celtic_human_sacrifice",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-votive-deposits",
+      "label": "Votive Deposits in Water",
+      "year": -300,
+      "description": "Celts deposited weapons, jewelry, and precious objects in rivers, lakes, and bogs as offerings to the gods, a widespread practice evidenced at La Tène itself and hundreds of other waterlogged sites.",
+      "wikiSlug": "Votive_deposit",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-numantia",
+      "label": "Siege of Numantia",
+      "year": -133,
+      "description": "The Celtiberian city of Numantia fell to Rome after a brutal siege, with defenders choosing mass suicide over surrender in a symbol of fierce Celtic resistance in Iberia.",
+      "wikiSlug": "Numantia",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gallic-councils",
+      "label": "Pan-Gallic Councils",
+      "year": -150,
+      "description": "Major Gallic tribes convened periodic assemblies (concilia) to debate war, alliances, and diplomacy, including the council at Bibracte that elected Vercingetorix supreme commander against Caesar.",
+      "wikiSlug": "Gallic_Wars#Political_structure",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-coligny-calendar",
+      "label": "Coligny Calendar",
+      "year": -100,
+      "description": "The Coligny Calendar is a Gaulish bronze tablet recording a sophisticated lunisolar calendar tracking months, intercalary periods, and auspicious days — the most extensive document in a Celtic language from antiquity.",
+      "wikiSlug": "Coligny_calendar",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-ogham",
+      "label": "Ogham Script Develops",
+      "year": -100,
+      "description": "The Ogham script emerged as the earliest known writing system for the Irish language, carved as notches along stone edges for memorial inscriptions.",
+      "wikiSlug": "Ogham",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-galatian-language",
+      "label": "Galatian Celtic in Anatolia",
+      "year": -200,
+      "description": "The Galatians maintained their Celtic language in central Anatolia for centuries, with St. Jerome reporting in the 4th century CE that Galatian resembled the speech of the Treveri in Gaul.",
+      "wikiSlug": "Galatian_language",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-poseidonios",
+      "label": "Poseidonios Describes Celts",
+      "year": -80,
+      "description": "Greek philosopher Poseidonios traveled among the Gauls and wrote detailed ethnographic accounts of Celtic feasting, warriors, druids, and the custom of nailing enemy heads to doorposts.",
+      "wikiSlug": "Posidonius",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-celtic-feasting",
+      "label": "Celtic Feasting Culture",
+      "year": -300,
+      "description": "Elaborate communal feasts were central to Celtic social life, with the 'champion's portion' — the best cut of meat awarded to the bravest warrior — and ritual drinking from imported Mediterranean wine.",
+      "wikiSlug": "Champion%27s_portion",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-celtic-bards",
+      "label": "Bards and Filid",
+      "year": -300,
+      "description": "Celtic bards (and the Irish filid) formed a professional poet class who composed praise poetry, preserved genealogies, and wielded the feared power of satire against dishonorable leaders.",
+      "wikiSlug": "Bard",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-diviciacus",
+      "label": "Diviciacus the Druid",
+      "year": -60,
+      "description": "Diviciacus of the Aedui is the only druid named in contemporary records, serving as diplomat to Rome and ally of Caesar during the Gallic Wars.",
+      "wikiSlug": "Diviciacus_(Aedui)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-dumnorix",
+      "label": "Dumnorix of the Aedui",
+      "year": -58,
+      "description": "Dumnorix, brother of Diviciacus and chieftain of the Aedui, repeatedly conspired against Caesar and refused to join the invasion of Britain, preferring Gallic freedom. Caesar had him killed in 54 BCE.",
+      "wikiSlug": "Dumnorix",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-caesar-gallic-wars",
+      "label": "Caesar's Gallic Wars",
+      "year": -58,
+      "endYear": -50,
+      "description": "Julius Caesar's eight-year campaign conquered Gaul, killing or enslaving an estimated one million people and bringing Celtic continental independence to an end.",
+      "wikiSlug": "Gallic_Wars",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ambiorix",
+      "label": "Ambiorix's Rebellion",
+      "year": -54,
+      "description": "Eburones chieftain Ambiorix ambushed and destroyed a Roman legion of 15 cohorts in the Ardennes, inflicting one of Caesar's worst defeats in Gaul.",
+      "wikiSlug": "Ambiorix",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-vercingetorix",
+      "label": "Vercingetorix Unites Gaul",
+      "year": -52,
+      "description": "Vercingetorix united the Gallic tribes in a massive revolt against Caesar, employing scorched-earth tactics before his final stand at Alesia.",
+      "wikiSlug": "Vercingetorix",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-alesia",
+      "label": "Battle of Alesia",
+      "year": -52,
+      "description": "Caesar besieged Vercingetorix at Alesia with massive double fortifications — 11 miles of inner walls and 14 miles of outer walls — winning the decisive battle that ended Gallic independence.",
+      "wikiSlug": "Battle_of_Alesia",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-commentarii",
+      "label": "De Bello Gallico",
+      "year": -50,
+      "description": "Caesar's account of the Gallic Wars is one of the most important primary sources on Celtic society, customs, and warfare, despite its Roman bias as conquest propaganda.",
+      "wikiSlug": "Commentarii_de_Bello_Gallico",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-commius",
+      "label": "Commius of the Atrebates",
+      "year": -52,
+      "description": "Commius, once Caesar's trusted Gallic ally, switched sides during the great revolt and fought at Alesia. He later fled to Britain and established a kingdom among the Atrebates there.",
+      "wikiSlug": "Commius",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-boudica",
+      "label": "Boudica's Revolt",
+      "year": 60,
+      "description": "Queen Boudica of the Iceni led a devastating revolt against Roman Britain, sacking Londinium, Verulamium, and Camulodunum before her final defeat.",
+      "wikiSlug": "Boudica",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roman-druid-suppression",
+      "label": "Roman Suppression of Druids",
+      "year": 54,
+      "description": "Emperor Claudius banned druidism throughout the empire, culminating in the Roman assault on the druid sanctuary on Anglesey (Mona) in 60 CE.",
+      "wikiSlug": "Druid#Suppression",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    }
+  ]
+}
