@@ -41,7 +41,7 @@ html.dark body {
 .dark img[src*="mughal-empire"],
 .dark img[src*="delhi-sultanate"],
 .dark img[src*="kingdom-of-aksum"] {
-  filter: brightness(3) saturate(2) !important;
+  filter: brightness(6) saturate(3) !important;
 }
 
 @theme inline {
