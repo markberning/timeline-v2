@@ -36,6 +36,14 @@ html.dark body {
   --accent-badge: var(--accent) !important;
 }
 
+/* Dark mode: swap dark-filled Asia icons to bright violet */
+.dark img[src*="modern-india"],
+.dark img[src*="mughal-empire"],
+.dark img[src*="delhi-sultanate"],
+.dark img[src*="kingdom-of-aksum"] {
+  filter: brightness(3) saturate(2) !important;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
