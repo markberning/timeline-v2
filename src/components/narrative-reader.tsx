@@ -107,52 +107,65 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             let textNode: Text | null = null
             let charIdx = -1
 
-            // If we have a snippet, find the text node containing the snippet first,
-            // then find the term within or near that node
+            // Normalize: collapse whitespace, strip spaces before punctuation
+            function norm(s: string) { return s.toLowerCase().replace(/\s+/g, ' ').replace(/\s+([,.:;!?)])/g, '$1') }
+
             if (snippet) {
-              const snipWords = snippet.toLowerCase().split(/\s+/).slice(0, 5).join(' ')
               const nodes: Text[] = []
               while ((textNode = walker.nextNode() as Text | null)) nodes.push(textNode)
 
-              // Find which node contains the snippet words
-              let bestNode: Text | null = null
-              let bestIdx = -1
+              // Build full normalized text and a map from normalized offset → (node, nodeOffset)
+              const allParts: { node: Text; text: string; start: number }[] = []
+              let totalLen = 0
               for (const node of nodes) {
-                const t = node.textContent?.toLowerCase() ?? ''
-                // Try to find the snippet words in this node
-                const idx = t.indexOf(snipWords)
-                if (idx !== -1) {
-                  // Now find the search term near this location
-                  const termIdx = t.indexOf(termLower, Math.max(0, idx - 20))
-                  if (termIdx !== -1) { bestNode = node; bestIdx = termIdx; break }
-                }
+                const raw = node.textContent ?? ''
+                allParts.push({ node, text: raw, start: totalLen })
+                totalLen += raw.length
               }
+              const allRaw = allParts.map(p => p.text).join('')
+              const allNorm = norm(allRaw)
+              const snipNorm = norm(snippet)
 
-              // Fallback: find snippet words across concatenated nodes
-              if (!bestNode) {
-                const allText = nodes.map(n => n.textContent ?? '').join('')
-                const allLower = allText.toLowerCase()
-                const snipPos = allLower.indexOf(snipWords)
-                // Find term nearest to snippet
-                let searchFrom = snipPos !== -1 ? Math.max(0, snipPos - 20) : 0
-                const termPos = allLower.indexOf(termLower, searchFrom)
-                if (termPos !== -1) {
-                  // Map back to node
-                  let offset = 0
-                  for (const node of nodes) {
-                    const len = node.textContent?.length ?? 0
-                    if (offset + len > termPos) {
-                      bestNode = node
-                      bestIdx = termPos - offset
-                      break
+              // Find snippet in normalized text
+              const snipPos = allNorm.indexOf(snipNorm)
+
+              // Find the search term nearest to the snippet
+              let bestPos = -1
+              if (snipPos !== -1) {
+                // Search for term near snippet location
+                const searchStart = Math.max(0, snipPos - 30)
+                bestPos = allNorm.indexOf(termLower, searchStart)
+              }
+              if (bestPos === -1) bestPos = allNorm.indexOf(termLower)
+
+              // Map normalized position back to raw position (approximate — normalization only removes chars)
+              if (bestPos !== -1) {
+                // Walk raw text to find matching position
+                let normIdx = 0
+                let rawIdx = 0
+                const rawLower = allRaw.toLowerCase()
+                while (normIdx < bestPos && rawIdx < allRaw.length) {
+                  // Skip extra whitespace and spaces before punctuation in raw that were collapsed
+                  if (allNorm[normIdx] === rawLower[rawIdx]) { normIdx++; rawIdx++ }
+                  else rawIdx++ // skip char that was removed in normalization
+                }
+
+                // Map rawIdx to text node
+                for (const part of allParts) {
+                  if (rawIdx < part.start + part.text.length) {
+                    textNode = part.node
+                    charIdx = rawIdx - part.start
+                    // Verify the term is actually here
+                    const nodeText = part.text.toLowerCase()
+                    if (!nodeText.slice(charIdx).startsWith(termLower)) {
+                      // Adjust: find term in this node near charIdx
+                      const nearby = nodeText.indexOf(termLower, Math.max(0, charIdx - 10))
+                      if (nearby !== -1) charIdx = nearby
                     }
-                    offset += len
+                    break
                   }
                 }
               }
-
-              textNode = bestNode
-              charIdx = bestIdx
             }
 
             // No snippet or snippet match failed — just find first occurrence
