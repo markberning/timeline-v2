@@ -92,24 +92,17 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             for (const p of paragraphs) {
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-              // Instant scroll, then get position in next frame
+              // Instant scroll, then overlay in next frame
               p.scrollIntoView({ behavior: 'auto', block: 'center' })
 
               requestAnimationFrame(() => {
                 const rect = p.getBoundingClientRect()
-                // Debug: show what we got
-                const info = document.createElement('div')
-                info.textContent = `rect: top=${rect.top.toFixed(0)} left=${rect.left.toFixed(0)} w=${rect.width.toFixed(0)} h=${rect.height.toFixed(0)}`
-                info.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:red;color:white;padding:8px;font-size:12px;'
-                document.body.appendChild(info)
-                setTimeout(() => info.remove(), 5000)
+                if (rect.width === 0 || rect.height === 0) return
 
-                if (rect.width > 0 && rect.height > 0) {
-                  const overlay = document.createElement('div')
-                  overlay.style.cssText = `position:fixed;top:${rect.top - 4}px;left:${rect.left - 8}px;width:${rect.width + 16}px;height:${rect.height + 8}px;background:rgba(217,119,6,0.25);border-left:3px solid #d97706;border-radius:4px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
-                  document.body.appendChild(overlay)
-                  setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
-                }
+                const overlay = document.createElement('div')
+                overlay.style.cssText = `position:fixed;top:${rect.top - 4}px;left:${rect.left - 8}px;width:${rect.width + 16}px;height:${Math.min(rect.height + 8, 200)}px;background:rgba(217,119,6,0.18);border-left:3px solid #d97706;border-radius:4px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
+                document.body.appendChild(overlay)
+                setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
               })
 
               break
