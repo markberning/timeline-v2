@@ -125,7 +125,7 @@ const ICON_SIZE: Record<string, string> = {
   '/icons/meiji-japan.png': 'w-14',
   '/icons/mali-empire.png': 'w-14',
   '/icons/polynesian-voyagers.png': 'w-14',
-  '/icons/dai-viet.png': 'w-14',
+  '/icons/dai-viet.png': 'w-15',
   '/icons/ottoman-empire.png': 'w-14',
   '/icons/renaissance-italy.png': 'w-11',
 }
