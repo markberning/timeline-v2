@@ -174,7 +174,7 @@ export function CivIconsStrip() {
       <button onClick={() => setMono(m => !m)} className="text-[10px] text-foreground/40 px-5 py-1">{mono ? '● mono' : '○ color'}</button>
       <div
         ref={containerRef}
-        className="flex items-end justify-start gap-3 lg:gap-4 px-5 py-1.5 overflow-x-auto shrink-0 border-t border-foreground/10"
+        className="flex items-end justify-start gap-3 lg:gap-4 px-5 overflow-x-auto shrink-0 border-t border-foreground/10"
       >
         {icons.map((src, i) => {
           const sz = sizeFor(src)
