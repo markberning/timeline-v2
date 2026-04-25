@@ -44,8 +44,7 @@ const SHARED_ICON: Record<string, string> = {
 
   // Japan chain
   'edo-japan': 'ancient-japan',
-  'meiji-japan': 'ancient-japan',
-  'japanese-economic-miracle': 'ancient-japan',
+  'japanese-economic-miracle': 'meiji-japan',
 
   // Korea chain
   'joseon-korea': 'ancient-korea',

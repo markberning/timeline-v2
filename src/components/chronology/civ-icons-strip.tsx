@@ -54,7 +54,11 @@ const ICONS = [
   '/icons/polynesian-voyagers.png',
   '/icons/mali-empire.png',
   '/icons/ottoman-empire.png',
+  // Batch 4
   '/icons/ancient-nubia.png',
+  '/icons/kingdom-of-aksum.png',
+  '/icons/meiji-japan.png',
+  '/icons/early-american-republic.png',
 ]
 
 const MOBILE_COUNT = 7
