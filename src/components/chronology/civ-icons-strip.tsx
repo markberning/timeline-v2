@@ -165,7 +165,6 @@ export function CivIconsStrip() {
               <div className="h-12 flex items-end justify-center">
                 <img src={src} alt="" aria-hidden="true" className={`h-12 w-auto select-none dark:brightness-[1.8] ${mono ? 'grayscale' : ''}`} draggable={false} />
               </div>
-              <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
             </div>
           )
         })}
