@@ -138,6 +138,10 @@ const NARRATIVE_FILES: Record<string, string> = {
   'scythians.md': 'scythians',
   'ancient-greece.md': 'ancient-greece',
   'ancient-rome.md': 'ancient-rome',
+  'zapotec-civilization.md': 'zapotec-civilization',
+  'celtic-cultures.md': 'celtic-cultures',
+  'ancient-japan.md': 'ancient-japan',
+  'xiongnu-huns.md': 'xiongnu-huns',
 }
 
 function slugify(title: string): string {

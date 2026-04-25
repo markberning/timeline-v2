@@ -88,13 +88,13 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── ASIA (Steppe) ──
   { id: 'scythians', label: 'Scythians', subtitle: "gold-clad horse nomads of the Pontic steppe", region: 'asia', startYear: -800, endYear: -200, hasContent: true },
-  { id: 'xiongnu-huns', label: 'Xiongnu & Huns', subtitle: "the steppe rivals who haunted China and Rome", region: 'asia', startYear: -209, endYear: 469 },
+  { id: 'xiongnu-huns', label: 'Xiongnu & Huns', subtitle: "the steppe rivals who haunted China and Rome", region: 'asia', startYear: -209, endYear: 469, hasContent: true },
   { id: 'gokturk-khaganate', label: 'Göktürk Khaganate', subtitle: "the first people to call themselves Turk", region: 'asia', startYear: 552, endYear: 744 },
   { id: 'mongol-empire', label: 'Mongol Empire', subtitle: "Genghis Khan's conquest of Eurasia", region: 'asia', startYear: 1206, endYear: 1368 },
   { id: 'timurid-empire', label: 'Timurid Empire', subtitle: "Tamerlane's Central Asian renaissance", region: 'asia', startYear: 1370, endYear: 1507 },
 
   // ── ASIA (Japan/Korea/SE) ──
-  { id: 'ancient-japan', label: 'Ancient Japan', subtitle: 'Yayoi rice farmers to Heian courtiers', region: 'asia', startYear: -300, endYear: 1185 },
+  { id: 'ancient-japan', label: 'Ancient Japan', subtitle: "from the world's oldest pottery to Heian courtiers", region: 'asia', startYear: -14000, endYear: 1185, hasContent: true },
   { id: 'edo-japan', label: 'Edo Japan', subtitle: 'isolation under the shoguns', region: 'asia', startYear: 1603, endYear: 1868 },
   { id: 'meiji-japan', label: 'Meiji Japan', subtitle: 'Japan races to industrialize', region: 'asia', startYear: 1868, endYear: 1912 },
   { id: 'japanese-economic-miracle', label: 'Japanese Economic Miracle', subtitle: "postwar Japan's boom", region: 'asia', startYear: 1945, endYear: 1991 },
@@ -111,7 +111,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'mycenaean-civilization', label: 'Mycenaean', subtitle: "Greece's bronze-age warlords", region: 'europe', startYear: -1600, endYear: -1100, hasContent: true },
   { id: 'ancient-greece', label: 'Ancient Greece', subtitle: 'philosophy, drama, democracy', region: 'europe', startYear: -800, endYear: -146, hasContent: true },
   { id: 'ancient-rome', label: 'Ancient Rome', subtitle: "the Mediterranean's grand experiment", region: 'europe', startYear: -753, endYear: 476, hasContent: true },
-  { id: 'celtic-cultures', label: 'Celtic Cultures', subtitle: "druids, torcs, and iron-age Europe", region: 'europe', startYear: -450, endYear: -50 },
+  { id: 'celtic-cultures', label: 'Celtic Cultures', subtitle: "druids, torcs, and iron-age Europe", region: 'europe', startYear: -800, endYear: -50, hasContent: true },
   { id: 'byzantine-empire', label: 'Byzantine Empire', subtitle: 'the Roman empire that lasted', region: 'europe', startYear: 330, endYear: 1453 },
   { id: 'medieval-europe', label: 'Medieval Europe', subtitle: 'cathedrals, knights, and plague', region: 'europe', startYear: 476, endYear: 1500 },
   { id: 'al-andalus', label: 'Al-Andalus', subtitle: "Islamic Spain's seven-century flowering", region: 'europe', startYear: 711, endYear: 1492 },
@@ -128,7 +128,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200, hasContent: true },
   { id: 'polynesian-voyagers', label: 'Polynesian Voyagers', subtitle: "the Pacific's star-navigating wayfinders", region: 'americas', startYear: -1500, endYear: 1300, hasContent: true },
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400, hasContent: true },
-  { id: 'zapotec-civilization', label: 'Zapotec', subtitle: "Oaxaca's mountaintop scribes", region: 'americas', startYear: -500, endYear: 1521 },
+  { id: 'zapotec-civilization', label: 'Zapotec', subtitle: "Oaxaca's mountaintop scribes", region: 'americas', startYear: -1500, endYear: 1521, hasContent: true },
   { id: 'ancestral-puebloans', label: 'Ancestral Puebloans', subtitle: "Mesa Verde and Chaco Canyon's cliff builders", region: 'americas', startYear: -100, endYear: 1300 },
   { id: 'teotihuacan', label: 'Teotihuacan', subtitle: "the Americas' first great metropolis", region: 'americas', startYear: -100, endYear: 550 },
   { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697, hasContent: true },
