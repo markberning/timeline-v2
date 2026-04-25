@@ -105,21 +105,17 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
               found = true
 
-              // Simple highlight: amber background on the paragraph
-              p.style.setProperty('background', 'rgba(217,119,6,0.25)', 'important')
-              p.style.setProperty('border-left', '3px solid #d97706', 'important')
-              p.style.setProperty('padding-left', '9px', 'important')
-              p.style.setProperty('margin-left', '-12px', 'important')
-              p.style.setProperty('border-radius', '4px', 'important')
+              // Highlight with outline (paints on top of everything)
+              p.style.setProperty('outline', '2px solid #d97706', 'important')
+              p.style.setProperty('outline-offset', '6px', 'important')
+              p.style.setProperty('background-color', 'rgba(217,119,6,0.15)', 'important')
 
               p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
               setTimeout(() => {
-                p.style.removeProperty('background')
-                p.style.removeProperty('border-left')
-                p.style.removeProperty('padding-left')
-                p.style.removeProperty('margin-left')
-                p.style.removeProperty('border-radius')
+                p.style.removeProperty('outline')
+                p.style.removeProperty('outline-offset')
+                p.style.removeProperty('background-color')
               }, 5000)
 
               break
