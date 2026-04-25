@@ -101,17 +101,19 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       for (const p of paragraphs) {
         if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-        // Highlight using a class (avoids prose CSS specificity issues)
-        p.classList.add('search-highlight')
+        // Highlight with outline + box-shadow (these properties are never set
+        // by prose so no specificity battle)
+        const prev = p.getAttribute('style') ?? ''
+        p.setAttribute('style', prev + ';outline: 2px solid #d97706; outline-offset: 4px; box-shadow: 0 0 0 6px rgba(217,119,6,0.15); border-radius: 4px; transition: outline-color 0.4s ease, box-shadow 0.4s ease;')
 
         // Scroll to it
         p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-        // Remove highlight after 5 seconds
+        // Fade out after 5 seconds
         setTimeout(() => {
-          p.classList.add('search-highlight-fade')
+          p.setAttribute('style', prev + ';outline: 2px solid transparent; outline-offset: 4px; box-shadow: none; border-radius: 4px; transition: outline-color 0.4s ease, box-shadow 0.4s ease;')
           setTimeout(() => {
-            p.classList.remove('search-highlight', 'search-highlight-fade')
+            p.setAttribute('style', prev)
           }, 500)
         }, 5000)
 
