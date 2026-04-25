@@ -586,6 +586,52 @@ async function main() {
     }
   }
 
+  // ── Generate search index ──────────────────────────────────────
+  console.log('Generating search index...')
+  const searchIndex: { tlId: string; label: string; region: string; chapters: { number: number; title: string; sentences: string[] }[] }[] = []
+
+  for (const [, tlId] of Object.entries(NARRATIVE_FILES)) {
+    const contentPath = join(CONTENT_DIR, `${tlId}.json`)
+    if (!existsSync(contentPath)) continue
+    const content = JSON.parse(readFileSync(contentPath, 'utf-8'))
+    if (!content.chapters || content.chapters.length === 0) continue
+
+    // Look up region from navigator-tls data
+    const { NAVIGATOR_TLS } = await import('../src/lib/navigator-tls')
+    const navTl = NAVIGATOR_TLS.find((t: { id: string }) => t.id === tlId)
+    if (!navTl || !navTl.hasContent) continue
+
+    const chapters: { number: number; title: string; sentences: string[] }[] = []
+    for (const ch of content.chapters) {
+      // Strip HTML tags to get plain text
+      const plain = (ch.contentHtml as string)
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&#39;/g, "'")
+        .replace(/&nbsp;/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+
+      // Split into sentences (handle abbreviations reasonably)
+      const sentences = plain
+        .split(/(?<=[.!?])\s+(?=[A-Z""])/)
+        .map(s => s.trim())
+        .filter(s => s.length > 10) // skip tiny fragments
+
+      chapters.push({ number: ch.number, title: ch.title, sentences })
+    }
+
+    searchIndex.push({ tlId, label: content.label, region: navTl.region, chapters })
+  }
+
+  const searchPath = join(ROOT, 'public', 'search-index.json')
+  writeFileSync(searchPath, JSON.stringify(searchIndex))
+  const sizeMB = (Buffer.byteLength(JSON.stringify(searchIndex)) / 1024 / 1024).toFixed(1)
+  console.log(`  → ${searchPath} (${searchIndex.length} TLs, ${sizeMB} MB)`)
+
   console.log('Done!')
 }
 

@@ -7,6 +7,7 @@ import { CivIconsStrip } from './civ-icons-strip'
 import { TimelineRibbon } from './timeline-ribbon'
 import { CivList } from './civ-list'
 import { DetailPane } from './detail-pane'
+import { SearchOverlay } from './search-overlay'
 
 function useIsDesktop(): boolean {
   const [desktop, setDesktop] = useState(false)
@@ -34,6 +35,7 @@ export function ChronologyPage() {
   const [activeCivId, setActiveCivId] = useState<string | null>(getInitialCiv)
   const [ribbonMode, setRibbonMode] = useState<'timeline' | 'chains'>('timeline')
   const [soloChainId, setSoloChainId] = useState<string | null>(null)
+  const [searchOpen, setSearchOpen] = useState(false)
   const ribbonScrollRef = useRef<HTMLDivElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
 
@@ -52,7 +54,7 @@ export function ChronologyPage() {
 
   return (
     <div className="flex flex-col h-dvh bg-background text-foreground">
-      <ChronologyHeader isDesktop={isDesktop} ribbonMode={ribbonMode} onRibbonModeChange={setRibbonMode} />
+      <ChronologyHeader isDesktop={isDesktop} ribbonMode={ribbonMode} onRibbonModeChange={setRibbonMode} onSearchOpen={() => setSearchOpen(true)} />
       <CivIconsStrip />
 
       <TimelineRibbon
@@ -77,6 +79,8 @@ export function ChronologyPage() {
           onChainSolo={setSoloChainId}
         />
       )}
+
+      {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
     </div>
   )
 }

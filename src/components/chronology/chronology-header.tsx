@@ -6,9 +6,10 @@ interface ChronologyHeaderProps {
   isDesktop: boolean
   ribbonMode: 'timeline' | 'chains'
   onRibbonModeChange: (mode: 'timeline' | 'chains') => void
+  onSearchOpen: () => void
 }
 
-export function ChronologyHeader({ isDesktop, ribbonMode, onRibbonModeChange }: ChronologyHeaderProps) {
+export function ChronologyHeader({ isDesktop, ribbonMode, onRibbonModeChange, onSearchOpen }: ChronologyHeaderProps) {
   return (
     <header
       className="flex items-start justify-between shrink-0"
@@ -70,7 +71,19 @@ export function ChronologyHeader({ isDesktop, ribbonMode, onRibbonModeChange }: 
           </button>
         </nav>
       </div>
-      <DarkModeToggle />
+      <div className="flex items-center gap-2">
+        <button
+          className="cursor-pointer opacity-40 transition-opacity duration-200 hover:opacity-70 p-1"
+          onClick={onSearchOpen}
+          aria-label="Search"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+        <DarkModeToggle />
+      </div>
     </header>
   )
 }
