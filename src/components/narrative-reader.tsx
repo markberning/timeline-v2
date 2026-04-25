@@ -91,43 +91,32 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
           setHasHighlight(true)
           const timer = setTimeout(() => {
             const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
-
-            const d2 = document.createElement('div')
-            d2.textContent = `TIMER FIRED: container=${container ? 'YES' : 'NO'}, paragraphs=${container?.querySelectorAll('p').length ?? 0}, term="${hl}"`
-            d2.style.cssText = 'position:fixed;top:40px;left:0;right:0;z-index:9999;background:blue;color:white;padding:12px;font-size:14px;font-weight:bold;'
-            document.body.appendChild(d2)
-            setTimeout(() => d2.remove(), 10000)
-
             if (!container) return
 
             const termLower = hl.toLowerCase()
             const paragraphs = container.querySelectorAll('p')
-            let found = false
             for (const p of paragraphs) {
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
-              found = true
 
-              // Highlight with outline + background
-              p.style.setProperty('outline', '2px solid #d97706', 'important')
-              p.style.setProperty('outline-offset', '6px', 'important')
-              p.style.setProperty('background-color', 'rgba(217,119,6,0.15)', 'important')
+              // Wrap the paragraph in a highlight div (same technique as debug banners which worked)
+              const wrapper = document.createElement('div')
+              wrapper.style.cssText = 'background:rgba(217,119,6,0.2);border-left:3px solid #d97706;margin-left:-12px;padding-left:9px;margin-right:-8px;padding-right:8px;border-radius:4px;transition:opacity 0.5s ease;'
+              p.parentNode!.insertBefore(wrapper, p)
+              wrapper.appendChild(p)
 
-              p.scrollIntoView({ behavior: 'smooth', block: 'center' })
+              wrapper.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
+              // Unwrap after 5 seconds
               setTimeout(() => {
-                p.style.removeProperty('outline')
-                p.style.removeProperty('outline-offset')
-                p.style.removeProperty('background-color')
+                wrapper.style.opacity = '0'
+                setTimeout(() => {
+                  wrapper.parentNode!.insertBefore(p, wrapper)
+                  wrapper.remove()
+                }, 500)
               }, 5000)
 
               break
             }
-
-            const d3 = document.createElement('div')
-            d3.textContent = `MATCH: ${found ? 'YES' : 'NO'}`
-            d3.style.cssText = 'position:fixed;top:80px;left:0;right:0;z-index:9999;background:green;color:white;padding:12px;font-size:14px;font-weight:bold;'
-            document.body.appendChild(d3)
-            setTimeout(() => d3.remove(), 10000)
           }, 1200)
           return () => clearTimeout(timer)
         }
