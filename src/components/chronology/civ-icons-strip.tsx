@@ -102,27 +102,17 @@ export function CivIconsStrip() {
       onClick={reshuffle}
       className="flex items-center justify-center gap-3 lg:gap-4 py-1.5 overflow-hidden shrink-0 cursor-pointer"
     >
-      {/* Mobile: show 7 */}
+      {/* Mobile: show 7, each in a fixed-width slot */}
       {icons.slice(0, MOBILE_COUNT).map((src, i) => (
-        <img
-          key={`m-${i}-${src}`}
-          src={src}
-          alt=""
-          aria-hidden="true"
-          className="h-10 w-auto shrink-0 select-none lg:hidden"
-          draggable={false}
-        />
+        <div key={`m-${i}-${src}`} className="w-10 h-10 shrink-0 flex items-center justify-center lg:hidden">
+          <img src={src} alt="" aria-hidden="true" className="max-h-10 max-w-10 w-auto h-auto select-none" draggable={false} />
+        </div>
       ))}
       {/* Desktop: repeat to fill */}
       {desktopIcons.map((src, i) => (
-        <img
-          key={`d-${i}-${src}`}
-          src={src}
-          alt=""
-          aria-hidden="true"
-          className="h-12 w-auto shrink-0 select-none hidden lg:block"
-          draggable={false}
-        />
+        <div key={`d-${i}-${src}`} className="w-12 h-12 shrink-0 items-center justify-center hidden lg:flex">
+          <img src={src} alt="" aria-hidden="true" className="max-h-12 max-w-12 w-auto h-auto select-none" draggable={false} />
+        </div>
       ))}
     </div>
   )
