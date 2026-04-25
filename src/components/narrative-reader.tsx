@@ -102,38 +102,66 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             }
             if (!target) return
 
-            // Collect the paragraph's full text and find the occurrence
-            // closest to the snippet context
-            const fullText = target.textContent?.toLowerCase() ?? ''
-            const snippetLower2 = snippet?.toLowerCase() ?? ''
-            let snippetPos = snippetLower2 ? fullText.indexOf(snippetLower2) : -1
-            if (snippetPos === -1) snippetPos = 0
-
-            // Find the occurrence of the term nearest to the snippet position
-            let bestPos = fullText.indexOf(termLower)
-            if (snippetPos > 0) {
-              let pos = -1
-              let closest = bestPos
-              let closestDist = Math.abs(bestPos - snippetPos)
-              while ((pos = fullText.indexOf(termLower, pos + 1)) !== -1) {
-                const dist = Math.abs(pos - snippetPos)
-                if (dist < closestDist) { closest = pos; closestDist = dist }
-              }
-              bestPos = closest
-            }
-
-            // Map the character offset back to a text node
+            // Walk text nodes and search directly — avoids textContent offset mismatch
             const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT)
             let textNode: Text | null = null
             let charIdx = -1
-            let runningOffset = 0
-            while ((textNode = walker.nextNode() as Text | null)) {
-              const len = textNode.textContent?.length ?? 0
-              if (runningOffset + len > bestPos) {
-                charIdx = bestPos - runningOffset
-                break
+
+            // If we have a snippet, find the text node containing the snippet first,
+            // then find the term within or near that node
+            if (snippet) {
+              const snipWords = snippet.toLowerCase().split(/\s+/).slice(0, 5).join(' ')
+              const nodes: Text[] = []
+              while ((textNode = walker.nextNode() as Text | null)) nodes.push(textNode)
+
+              // Find which node contains the snippet words
+              let bestNode: Text | null = null
+              let bestIdx = -1
+              for (const node of nodes) {
+                const t = node.textContent?.toLowerCase() ?? ''
+                // Try to find the snippet words in this node
+                const idx = t.indexOf(snipWords)
+                if (idx !== -1) {
+                  // Now find the search term near this location
+                  const termIdx = t.indexOf(termLower, Math.max(0, idx - 20))
+                  if (termIdx !== -1) { bestNode = node; bestIdx = termIdx; break }
+                }
               }
-              runningOffset += len
+
+              // Fallback: find snippet words across concatenated nodes
+              if (!bestNode) {
+                const allText = nodes.map(n => n.textContent ?? '').join('')
+                const allLower = allText.toLowerCase()
+                const snipPos = allLower.indexOf(snipWords)
+                // Find term nearest to snippet
+                let searchFrom = snipPos !== -1 ? Math.max(0, snipPos - 20) : 0
+                const termPos = allLower.indexOf(termLower, searchFrom)
+                if (termPos !== -1) {
+                  // Map back to node
+                  let offset = 0
+                  for (const node of nodes) {
+                    const len = node.textContent?.length ?? 0
+                    if (offset + len > termPos) {
+                      bestNode = node
+                      bestIdx = termPos - offset
+                      break
+                    }
+                    offset += len
+                  }
+                }
+              }
+
+              textNode = bestNode
+              charIdx = bestIdx
+            }
+
+            // No snippet or snippet match failed — just find first occurrence
+            if (!textNode || charIdx === -1) {
+              const walker2 = document.createTreeWalker(target, NodeFilter.SHOW_TEXT)
+              while ((textNode = walker2.nextNode() as Text | null)) {
+                const idx = textNode.textContent?.toLowerCase().indexOf(termLower) ?? -1
+                if (idx !== -1) { charIdx = idx; break }
+              }
             }
 
             if (!textNode || charIdx === -1) {
