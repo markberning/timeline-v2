@@ -121,19 +121,27 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             const range = document.createRange()
             range.setStart(textNode, charIdx)
             range.setEnd(textNode, charIdx + hl.length)
-            const rangeRect = range.getBoundingClientRect()
 
-            // Scroll the word into view
-            target.scrollIntoView({ behavior: 'auto', block: 'center' })
+            // Insert a temporary anchor to scroll to the exact word position
+            const anchor = document.createElement('span')
+            range.insertNode(anchor)
+            anchor.scrollIntoView({ behavior: 'auto', block: 'center' })
 
+            // Measure after scroll settles
             requestAnimationFrame(() => {
-              const rect = range.getBoundingClientRect()
-              if (rect.width === 0 || rect.height === 0) return
-
-              // Highlight just the line containing the word (full width, line height)
+              const anchorRect = anchor.getBoundingClientRect()
               const pRect = target!.getBoundingClientRect()
+
+              // Remove the anchor and normalize the text nodes
+              anchor.parentNode?.removeChild(anchor)
+              textNode!.parentNode?.normalize()
+
+              if (anchorRect.top === 0 && anchorRect.left === 0) return
+
+              // Highlight the line at the word's position
+              const lineHeight = parseFloat(getComputedStyle(target!).lineHeight) || 28
               const overlay = document.createElement('div')
-              overlay.style.cssText = `position:fixed;top:${rect.top - 2}px;left:${pRect.left - 4}px;width:${pRect.width + 8}px;height:${rect.height + 4}px;background:rgba(217,119,6,0.2);border-radius:3px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
+              overlay.style.cssText = `position:fixed;top:${anchorRect.top - 2}px;left:${pRect.left - 4}px;width:${pRect.width + 8}px;height:${lineHeight + 4}px;background:rgba(217,119,6,0.2);border-radius:3px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
               document.body.appendChild(overlay)
               setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
             })
