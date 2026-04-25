@@ -83,18 +83,18 @@ export function CivIconsStrip() {
     <div
       ref={containerRef}
       onClick={reshuffle}
-      className="flex items-center justify-center gap-3 lg:gap-4 py-1.5 overflow-hidden shrink-0 cursor-pointer"
+      className="flex items-end justify-center gap-5 lg:gap-6 py-1.5 overflow-hidden shrink-0 cursor-pointer"
     >
-      {/* Mobile: show 7, fixed width — tall icons grow taller */}
+      {/* Mobile: show 7, fixed width, bottom-aligned */}
       {icons.slice(0, MOBILE_COUNT).map((src, i) => (
-        <div key={`m-${i}-${src}`} className="w-10 shrink-0 flex items-end justify-center lg:hidden">
-          <img src={src} alt="" aria-hidden="true" className="w-10 h-auto select-none" draggable={false} />
+        <div key={`m-${i}-${src}`} className="w-12 shrink-0 flex items-end justify-center lg:hidden">
+          <img src={src} alt="" aria-hidden="true" className="w-12 h-auto select-none" draggable={false} />
         </div>
       ))}
-      {/* Desktop: all unique icons, fixed width */}
+      {/* Desktop: all unique icons, fixed width, bottom-aligned */}
       {icons.map((src, i) => (
-        <div key={`d-${i}-${src}`} className="w-12 shrink-0 items-end justify-center hidden lg:flex">
-          <img src={src} alt="" aria-hidden="true" className="w-12 h-auto select-none" draggable={false} />
+        <div key={`d-${i}-${src}`} className="w-14 shrink-0 items-end justify-center hidden lg:flex">
+          <img src={src} alt="" aria-hidden="true" className="w-14 h-auto select-none" draggable={false} />
         </div>
       ))}
     </div>
