@@ -142,31 +142,26 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               return
             }
 
-            // Create a range around the matched word
+            // Create a range around the matched word to measure its position
             const range = document.createRange()
             range.setStart(textNode, charIdx)
-            range.setEnd(textNode, charIdx + hl.length)
+            range.setEnd(textNode, Math.min(charIdx + hl.length, textNode.length))
 
-            // Insert a temporary anchor to scroll to the exact word position
-            const anchor = document.createElement('span')
-            range.insertNode(anchor)
-            anchor.scrollIntoView({ behavior: 'auto', block: 'center' })
+            // Scroll the range into view — get its rect, compute scroll target
+            const preRect = range.getBoundingClientRect()
+            const scrollTarget = window.scrollY + preRect.top - window.innerHeight / 2
+            window.scrollTo({ top: Math.max(0, scrollTarget), behavior: 'auto' })
 
             // Measure after scroll settles
             requestAnimationFrame(() => {
-              const anchorRect = anchor.getBoundingClientRect()
+              const wordRect = range.getBoundingClientRect()
               const pRect = target!.getBoundingClientRect()
 
-              // Remove the anchor and normalize the text nodes
-              anchor.parentNode?.removeChild(anchor)
-              textNode!.parentNode?.normalize()
-
-              if (anchorRect.top === 0 && anchorRect.left === 0) return
+              if (wordRect.width === 0 && wordRect.height === 0) return
 
               // Highlight the line at the word's position
-              const lineHeight = parseFloat(getComputedStyle(target!).lineHeight) || 28
               const overlay = document.createElement('div')
-              overlay.style.cssText = `position:fixed;top:${anchorRect.top - 2}px;left:${pRect.left - 4}px;width:${pRect.width + 8}px;height:${lineHeight + 4}px;background:rgba(217,119,6,0.2);border-radius:3px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
+              overlay.style.cssText = `position:fixed;top:${wordRect.top - 2}px;left:${pRect.left - 4}px;width:${pRect.width + 8}px;height:${wordRect.height + 4}px;background:rgba(217,119,6,0.2);border-radius:3px;pointer-events:none;z-index:50;transition:opacity 0.5s ease;`
               document.body.appendChild(overlay)
 
               // Remove on any scroll or touch
