@@ -7,10 +7,10 @@
       "blurb": "By 100 BCE the great Olmec centers at San Lorenzo, La Venta, and Tres Zapotes had been abandoned for centuries, their colossal heads left staring into the jungle. But the Olmec legacy lived on in the calendar systems, religious iconography, and urban planning principles that Teotihuacan would inherit and transform. The Olmec invented the template; Teotihuacan built the metropolis."
     },
     {
-      "matchText": "Chavin culture had collapsed",
+      "matchText": "regional kingdoms were emerging",
       "targetTl": "early-andean-civilizations",
       "targetChapter": 7,
-      "blurb": "While Teotihuacan was coalescing from refugee villages into a planned city, the Chavin culture in the Andes had already collapsed and regional kingdoms were emerging in Peru. Both hemispheres were experiencing the same pattern: an early unifying culture fragments, and something larger rises from the pieces. But the two experiments unfolded in complete isolation from each other."
+      "blurb": "While Teotihuacan was coalescing from refugee villages into a planned city, the Chavín culture in the Andes had already collapsed and regional kingdoms were emerging in Peru. Both hemispheres were experiencing the same pattern: an early unifying culture fragments, and something larger rises from the pieces. But the two experiments unfolded in complete isolation from each other."
     },
     {
       "matchText": "Roman Republic transitioning into the Roman Empire",
@@ -20,6 +20,12 @@
     }
   ],
   "2": [
+    {
+      "matchText": "Olmec had used caves for ritual",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 4,
+      "blurb": "Cave ritual was deeply embedded in Mesoamerican religion from the Olmec onward. At Oxtotitlan and Juxtlahuaca, Olmec-era cave paintings depict rulers and deities in underground spaces associated with earth, water, and the underworld. Teotihuacan's Pyramid of the Sun built over a real cave was the most literal version of this ancient tradition: a real cave, a real mountain, and a real temple at the top."
+    },
     {
       "matchText": "Rome under Trajan was the capital of an empire",
       "targetTl": "ancient-rome",
@@ -49,11 +55,17 @@
       "targetTl": "olmec-civilization",
       "targetChapter": 2,
       "blurb": "The Gulf Coast residents of the Merchants' Barrio came from the same tropical lowlands that had produced the Olmec civilization a thousand years earlier. The Olmec heartland's obsidian-poor landscape had made it dependent on highland trade networks — a dependency that Teotihuacan now exploited by housing Gulf Coast traders permanently inside the city."
+    },
+    {
+      "matchText": "Western Empire would formally end in 476 CE",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Teotihuacan's collapse around 550 CE came barely 75 years after the formal end of the Western Roman Empire in 476 CE. Two of the ancient world's most impressive urban experiments — one in the Old World, one in the New — fell within a century of each other, each leaving behind a power vacuum that successor states spent centuries trying to fill."
     }
   ],
   "6": [
     {
-      "matchText": "arrived at the Maya city of Tikal",
+      "matchText": "On January 16, 378 CE",
       "targetTl": "maya-civilization",
       "targetChapter": 2,
       "blurb": "The Entrada of 378 CE was a defining moment for both civilizations. From Teotihuacan's perspective, it was the most dramatic projection of power in the city's history. From the Maya perspective, it launched Tikal's rise to superpower status in the Classic Period — the Teotihuacan-backed dynasty used its foreign prestige to dominate the Maya lowlands for over a century."
@@ -63,16 +75,15 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "In 378 CE, the same year as the Entrada, the Roman Empire suffered one of its worst military disasters at the Battle of Adrianople, where Gothic cavalry destroyed a Roman army and killed Emperor Valens. Two great civilizations on opposite sides of the Atlantic were both at inflection points — Rome fragmenting, Teotihuacan projecting power at maximum range."
-    }
-  ],
-  "7": [
+    },
     {
-      "matchText": "Olmec had used caves for ritual",
-      "targetTl": "olmec-civilization",
-      "targetChapter": 4,
-      "blurb": "Cave ritual was deeply embedded in Mesoamerican religion from the Olmec onward. At Oxtotitlan and Juxtlahuaca, Olmec-era cave paintings depict rulers and deities in underground spaces associated with earth, water, and the underworld. Teotihuacan's Great Goddess emerging from a cave-mountain was the most monumental expression of this ancient tradition."
+      "matchText": "Moche culture on Peru's north coast",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 8,
+      "blurb": "While Teotihuacan was projecting power into the Maya lowlands, the Moche on Peru's north coast were producing their finest portrait vessels and building the Huacas del Sol and de la Luna. Both civilizations peaked around 400 CE, dominated their respective regions through a mix of trade and military power, and collapsed within a century of each other — the Americas' twin experiments in pre-Columbian urbanism."
     }
   ],
+  "7": [],
   "8": [
     {
       "matchText": "Tikal-Calakmul rivalry",
@@ -81,22 +92,10 @@
       "blurb": "After Teotihuacan's collapse around 550 CE, the Maya lowlands erupted in escalating warfare between Tikal and Calakmul — the two superpowers that dominated the Late Classic Period. Whether the removal of Teotihuacan's stabilizing influence freed the Maya city-states to fight more aggressively is debated, but the chronological coincidence is striking."
     },
     {
-      "matchText": "Monte Alban continued for another century",
-      "targetTl": "olmec-civilization",
-      "targetChapter": 8,
-      "blurb": "Monte Alban's decline after Teotihuacan's collapse ended one of the longest diplomatic relationships in Mesoamerican history. The two cities had maintained the Oaxacan Barrio connection for centuries — Zapotec residents living permanently in Teotihuacan, maintaining their culture while participating in the great city's economy. When both cities fell, the entire diplomatic architecture of Mesoamerica dissolved."
-    },
-    {
-      "matchText": "Western Empire would formally end in 476 CE",
-      "targetTl": "ancient-rome",
-      "targetChapter": 10,
-      "blurb": "Teotihuacan's collapse around 550 CE came barely 75 years after the formal end of the Western Roman Empire in 476 CE. Two of the ancient world's most impressive urban experiments — one in the Old World, one in the New — fell within a century of each other, each leaving behind a power vacuum that successor states spent centuries trying to fill."
-    },
-    {
-      "matchText": "Moche culture on Peru's north coast",
-      "targetTl": "early-andean-civilizations",
-      "targetChapter": 8,
-      "blurb": "While Teotihuacan was projecting power into the Maya lowlands, the Moche on Peru's north coast were producing their finest portrait vessels and building the Huacas del Sol and de la Luna. Both civilizations peaked around 400 CE, dominated their respective regions through a mix of trade and military power, and collapsed within a century of each other — the Americas' twin experiments in pre-Columbian urbanism."
+      "matchText": "continued for another century or so after",
+      "targetTl": "zapotec-civilization",
+      "targetChapter": 6,
+      "blurb": "Monte Albán's decline after Teotihuacan's collapse ended one of the longest diplomatic relationships in Mesoamerican history. The two cities had maintained the Oaxacan Barrio connection for centuries — Zapotec residents living permanently in Teotihuacan, maintaining their culture while participating in the great city's economy. When both cities fell, the entire diplomatic architecture of Mesoamerica dissolved."
     }
   ]
 }

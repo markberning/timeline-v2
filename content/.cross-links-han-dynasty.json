@@ -11,19 +11,24 @@
       "targetTl": "maurya-empire",
       "targetChapter": 7,
       "blurb": "The Maurya Empire, which had unified most of the Indian subcontinent under Ashoka's dharma experiment, was crumbling by 202 BCE. The Shunga coup that ended it in 185 BCE would come just seventeen years after the Han's founding — two great empires, one rising, one falling, on opposite ends of Asia."
-    }
-  ],
-  "2": [
+    },
     {
       "matchText": "Xiongnu under Modu Chanyu were building the steppe empire",
       "targetTl": "scythians",
       "targetChapter": 8,
       "blurb": "The Xiongnu under Modu Chanyu were the successors to the mounted nomadic warfare tradition the Scythians had pioneered centuries earlier. The same tactics — feigned retreats, encirclement, scorched earth, refusing to fight on the enemy's terms — that had humiliated Darius I of Persia in 513 BCE now trapped the Emperor of China at Baideng in 200 BCE. The steppe playbook hadn't changed because it didn't need to."
+    },
+    {
+      "matchText": "Ashokan golden age already fading",
+      "targetTl": "maurya-empire",
+      "targetChapter": 6,
+      "blurb": "Ashoka's dharma experiment — the first ruler in history to carve his regrets into stone — had transformed the Maurya Empire into a moral experiment. But by the time the Han dynasty was founded, the Mauryas were in their final decades, their bureaucratic reach contracting and their successors scrambling for legitimacy. Two empires founded on radically different visions of rule: Liu Bang's pragmatic minimalism and Ashoka's ethical maximalism."
     }
   ],
+  "2": [],
   "3": [
     {
-      "matchText": "Qin had taken from the Xiongnu under the Qin",
+      "matchText": "had taken from the Xiongnu under the Qin",
       "targetTl": "qin-dynasty",
       "targetChapter": 6,
       "blurb": "Meng Tian had conquered the Ordos Loop from the Xiongnu under Qin Shi Huang's orders and connected the northern wall segments into a continuous defensive barrier. When the Qin collapsed, the Xiongnu retook the Ordos. Wei Qing's campaign to recapture it under Emperor Wu was the Han finishing what the Qin had started — with better logistics and a long-term strategy the short-lived Qin never had time to develop."
@@ -51,30 +56,18 @@
   ],
   "5": [
     {
-      "matchText": "well-field system described in Confucian classics",
+      "matchText": "described in Confucian classics",
       "targetTl": "zhou-dynasty",
       "targetChapter": 2,
       "blurb": "The well-field system that Wang Mang tried to revive was an idealized description of Western Zhou land tenure — nine plots in a grid, eight families farming the outer plots while jointly cultivating the center for the state. Whether it ever existed as described is debated. What's certain is that Wang Mang believed in it enough to stake his dynasty on implementing it two thousand years too late."
-    },
-    {
-      "matchText": "Ashokan golden age already fading",
-      "targetTl": "maurya-empire",
-      "targetChapter": 6,
-      "blurb": "Ashoka's dharma experiment — the first ruler in history to carve his regrets into stone — had transformed the Maurya Empire into a moral experiment. But by the time the Han dynasty was founded, the Mauryas were in their final decades, their bureaucratic reach contracting and their successors scrambling for legitimacy. Two empires founded on radically different visions of rule: Liu Bang's pragmatic minimalism and Ashoka's ethical maximalism."
     }
   ],
   "6": [
     {
-      "matchText": "Trung Trac and Trung Nhi",
+      "matchText": "suppression extended Han cultural influence",
       "targetTl": "ancient-korea",
       "targetChapter": 2,
       "blurb": "While the Trung Sisters fought Han rule in Vietnam, the proto-kingdoms of the Korean peninsula were absorbing Han culture through the Lelang Commandery near modern Pyongyang. Both Vietnam and Korea spent centuries under direct Han administration, and both emerged with their own distinct civilizations — but the cultural transmission ran deep. Korean writing, governance, and Buddhism all traveled through Han channels."
-    },
-    {
-      "matchText": "the Antonine Plague ravaging the Roman Empire",
-      "targetTl": "ancient-rome",
-      "targetChapter": 8,
-      "blurb": "The Antonine Plague struck Rome in the 160s CE, killing perhaps five million people and weakening the empire's frontier defenses. Epidemics ravaged Eastern Han China in the same decades. The Silk Road that carried silk westward and glass eastward may also have carried pathogens — the same trade routes connecting the world's two largest empires may have transmitted the diseases that helped destroy both."
     },
     {
       "matchText": "Gan Ying reached the Persian Gulf",
@@ -85,7 +78,13 @@
   ],
   "7": [
     {
-      "matchText": "An Shigao arrived in Luoyang",
+      "matchText": "the Antonine Plague ravaging the Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 8,
+      "blurb": "The Antonine Plague struck Rome in the 160s CE, killing perhaps five million people and weakening the empire's frontier defenses. Epidemics ravaged Eastern Han China in the same decades. The Silk Road that carried silk westward and glass eastward may also have carried pathogens — the same trade routes connecting the world's two largest empires may have transmitted the diseases that helped destroy both."
+    },
+    {
+      "matchText": "arrived in Luoyang",
       "targetTl": "persian-empire",
       "targetChapter": 5,
       "blurb": "An Shigao was a Parthian prince who renounced his throne to become a Buddhist monk — traveling the Silk Road from Iran to China. His journey embodied the cultural exchange the trade routes enabled: a Persian royal bringing Indian philosophy to the Chinese capital, translating Sanskrit into Chinese using Daoist vocabulary. Three civilizations converging in one man."
@@ -105,7 +104,7 @@
       "blurb": "The Han collapse (184-220 CE) and the Roman Crisis of the Third Century (235-284 CE) share striking structural parallels: frontier wars draining treasuries, court factions paralyzing governance, epidemic disease depopulating provinces, and regional commanders refusing to disband their armies. Both empires split, reconstituted partially, and left institutional legacies that persisted for a millennium. The parallels are probably not coincidental — empires of this scale face similar problems regardless of culture."
     },
     {
-      "matchText": "Cao Cao wrote military commentaries on Sun Tzu's Art of War",
+      "matchText": "military commentaries on Sun Tzu's Art of War",
       "targetTl": "zhou-dynasty",
       "targetChapter": 7,
       "blurb": "Sun Tzu's Art of War, written during the Warring States period, was the foundational text of Chinese military thought. Cao Cao's commentary on it, produced while he was actively fighting the wars that would end the Han dynasty, is the earliest surviving annotation — a warlord interpreting a classic of strategy while practicing its principles in real time."

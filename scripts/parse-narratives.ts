@@ -143,6 +143,9 @@ const NARRATIVE_FILES: Record<string, string> = {
   'ancient-japan.md': 'ancient-japan',
   'xiongnu-huns.md': 'xiongnu-huns',
   'post-maurya-kingdoms.md': 'post-maurya-kingdoms',
+  'han-dynasty.md': 'han-dynasty',
+  'andean-kingdoms.md': 'andean-kingdoms',
+  'teotihuacan.md': 'teotihuacan',
 }
 
 function slugify(title: string): string {
