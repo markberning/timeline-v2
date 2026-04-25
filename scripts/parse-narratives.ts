@@ -107,7 +107,7 @@ const MAPS_DIR = join(ROOT, 'public', 'maps')
 
 // Map narrative filenames to TL IDs
 const NARRATIVE_FILES: Record<string, string> = {
-  'mesopotamia-rewrite.md': 'mesopotamia',
+  'mesopotamia.md': 'mesopotamia',
   'indus-valley.md': 'indus-valley',
   'ancient-china.md': 'ancient-china',
   'ancient-nubia.md': 'ancient-nubia',

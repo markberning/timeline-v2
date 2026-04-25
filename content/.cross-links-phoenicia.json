@@ -61,14 +61,7 @@
       "blurb": "The Assyrian palaces at Nimrud were treasure houses of tribute extracted from the entire Near East. Thousands of exquisite Phoenician ivory carvings found in Nimrud's storerooms — sphinxes, lotus flowers, winged figures — were either tribute payments or war booty, now among the finest small-scale artworks surviving from the ancient world."
     }
   ],
-  "5": [
-    {
-      "matchText": "Greek colonists had been pouring into Sicily",
-      "targetTl": "ancient-greece",
-      "targetChapter": 2,
-      "blurb": "Greek colonization exploded from roughly 750 BCE onward, planting city-states from the Black Sea to southern France. In Sicily and southern Italy, Greek colonies like Syracuse grew into wealthy, powerful cities that competed directly with Phoenician settlements — setting the stage for centuries of war between Carthage and the Greek west."
-    }
-  ],
+  "5": [],
   "6": [
     {
       "matchText": "Shalmaneser III",
@@ -96,6 +89,12 @@
     }
   ],
   "7": [
+    {
+      "matchText": "Greek colonists had been pouring into Sicily",
+      "targetTl": "ancient-greece",
+      "targetChapter": 2,
+      "blurb": "Greek colonization exploded from roughly 750 BCE onward, planting city-states from the Black Sea to southern France. In Sicily and southern Italy, Greek colonies like Syracuse grew into wealthy, powerful cities that competed directly with Phoenician settlements — setting the stage for centuries of war between Carthage and the Greek west."
+    },
     {
       "matchText": "Rome had no navy at the start of the war",
       "targetTl": "ancient-rome",
