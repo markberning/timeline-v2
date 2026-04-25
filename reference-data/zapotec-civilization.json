@@ -1,0 +1,699 @@
+{
+  "id": "zapotec-civilization",
+  "label": "Zapotec",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Zapotec_civilization",
+  "imageWikiSlug": "Monte_Albán",
+  "pitch": "The Zapotecs built one of the Americas' longest-lasting civilizations on a leveled mountaintop in Oaxaca, Mexico (1500 BCE–1521 CE). While the Olmec get credit as Mesoamerica's 'mother culture,' the Zapotecs may have independently invented writing — the carved Monument 3 at San José Mogote, dating to around 600 BCE, is among the oldest written texts in the Western Hemisphere. Their capital Monte Albán dominated the Valley of Oaxaca for over a thousand years, a city of 25,000 perched on an artificially flattened mountain ridge with panoramic views in every direction.\n\n🔑 Key Facts:\n• Monte Albán's Main Plaza was one of the earliest planned urban spaces in the Americas, with temples, palaces, an astronomical observatory, and the mysterious Danzantes (Dancer) stone carvings showing tortured captives\n• The Zapotec Calendar System used two interlocking cycles — a 260-day ritual calendar (piye) and a 365-day solar calendar (yza) — with a sophistication rivaling the Maya\n• Zapotec Writing developed independently and may predate all other Mesoamerican scripts, using a logographic system on carved stones and painted ceramics\n• The Tombs of Monte Albán contained spectacular polychrome murals and jade mosaics, including Tomb 7's famous Mixtec treasure hoard — the richest pre-Columbian burial ever found in Mexico\n\n🤔 Why It Matters: The Zapotecs proved that Mesoamerican civilization was not a single invention radiating from one center — they built cities, writing, and calendars in parallel with the Olmec and Maya, creating one of the most durable political traditions in the ancient Americas.\n\n🎲 Wild Card: When the Spanish arrived in 1521, the Zapotecs initially fought — then negotiated. Unlike the Aztecs, they were never fully conquered by force, and over a million Zapotec speakers preserve the language today.",
+  "countryIds": [
+    "484"
+  ],
+  "spans": [
+    {
+      "id": "span-zapotec-formative",
+      "label": "Formative Period",
+      "startYear": -1500,
+      "endYear": -500,
+      "description": "Early Zapotec villages emerged in the Valley of Oaxaca, with San José Mogote becoming the dominant settlement. Agriculture, pottery, public architecture, and the earliest experiments with writing and calendrical notation developed during this era.",
+      "wikiSlug": "Zapotec_civilization#Pre-Classic"
+    },
+    {
+      "id": "span-zapotec-monte-alban-rise",
+      "label": "Monte Albán I–II",
+      "startYear": -500,
+      "endYear": -200,
+      "description": "Monte Albán was founded around 500 BCE as a new hilltop capital unifying the Valley of Oaxaca. The Danzantes gallery, early writing systems, and the conquest-slab program marked the rise of a militaristic Zapotec state.",
+      "wikiSlug": "Monte_Albán#Monte_Albán_I"
+    },
+    {
+      "id": "span-zapotec-classic",
+      "label": "Monte Albán III (Classic Period)",
+      "startYear": -200,
+      "endYear": 700,
+      "description": "Monte Albán reached its peak population of 25,000 and dominated the Oaxacan highlands. Diplomatic contacts with Teotihuacan, elaborate tomb murals, a mature writing system, and monumental architecture defined the Zapotec golden age.",
+      "wikiSlug": "Monte_Albán#Monte_Albán_III"
+    },
+    {
+      "id": "span-zapotec-postclassic",
+      "label": "Postclassic Period",
+      "startYear": 700,
+      "endYear": 1521,
+      "description": "Monte Albán was gradually abandoned as political power fragmented among competing city-states. Mitla rose as the Zapotec religious capital, Mixtec peoples expanded into the valley, and the Aztec Empire imposed tributary control before the Spanish arrived.",
+      "wikiSlug": "Zapotec_civilization#Post-Classic"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-zapotec-tierras-largas",
+      "label": "Tierras Largas Phase Settlement",
+      "year": -1500,
+      "description": "The earliest permanent farming villages appeared in the Valley of Oaxaca during the Tierras Largas phase, cultivating maize, squash, and beans in one of Mesoamerica's most fertile highland valleys.",
+      "wikiSlug": "Valley_of_Oaxaca",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zapotec-san-jose-mogote-founding",
+      "label": "San José Mogote Founded",
+      "year": -1400,
+      "description": "San José Mogote became the largest village in the Valley of Oaxaca, growing to over 1,000 inhabitants with public buildings, craft workshops, and evidence of social stratification.",
+      "wikiSlug": "San_José_Mogote",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-pottery-traditions",
+      "label": "Early Zapotec Pottery",
+      "year": -1300,
+      "description": "Distinctive grayware pottery emerged in the Valley of Oaxaca, beginning a ceramic tradition that would last millennia and distinguish Zapotec material culture from neighboring regions.",
+      "wikiSlug": "Zapotec_civilization#Pre-Classic",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zapotec-public-buildings-sjm",
+      "label": "Public Architecture at San José Mogote",
+      "year": -1150,
+      "description": "San José Mogote constructed its first lime-plastered public buildings, including ceremonial platforms oriented to astronomical alignments, marking the transition from village to proto-urban center.",
+      "wikiSlug": "San_José_Mogote",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-olmec-exchange",
+      "label": "Olmec-Zapotec Exchange Networks",
+      "year": -1100,
+      "description": "Magnetite mirrors, marine shells, and obsidian traded between the Valley of Oaxaca and the Gulf Coast Olmec heartland show early interregional exchange, though the Zapotecs developed their own cultural trajectory independently.",
+      "wikiSlug": "Olmecs#Trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zapotec-three-valley-rivalry",
+      "label": "Three-Valley Political Rivalry",
+      "year": -900,
+      "description": "The Valley of Oaxaca's three arms — Etla, Tlacolula, and Zimatlán — developed competing chiefdoms, with San José Mogote dominating the Etla arm and smaller centers jostling for control in the others.",
+      "wikiSlug": "Valley_of_Oaxaca",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-magnetite-mirrors",
+      "label": "Magnetite Mirror Production",
+      "year": -900,
+      "description": "Zapotec craftsmen at San José Mogote produced polished magnetite mirrors for both local use and long-distance trade, demonstrating specialized craft production and ties to the broader Mesoamerican exchange system.",
+      "wikiSlug": "San_José_Mogote",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zapotec-temple-mound-sjm",
+      "label": "Temple Mound at San José Mogote",
+      "year": -850,
+      "description": "A large temple platform (Structure 28) was built at San José Mogote, standing over 15 feet tall with stuccoed walls and a stairway — one of the earliest monumental constructions in highland Mesoamerica.",
+      "wikiSlug": "San_José_Mogote",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-earliest-calendar",
+      "label": "Earliest Calendar Notations",
+      "year": -700,
+      "description": "Carved stones at San José Mogote bear what appear to be the earliest calendrical notations in Oaxaca, using the 260-day ritual count that would become the Zapotec piye calendar.",
+      "wikiSlug": "Mesoamerican_calendars",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zapotec-monument-3",
+      "label": "Monument 3 at San José Mogote",
+      "year": -600,
+      "description": "Monument 3, a carved stone showing a slain or sacrificed figure with a calendrical name glyph between its feet, represents one of the earliest known written texts in the Americas and possibly the oldest in Mesoamerica.",
+      "wikiSlug": "San_José_Mogote#Monument_3",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zapotec-monte-alban-founding",
+      "label": "Monte Albán Founded",
+      "year": -500,
+      "description": "A coalition of Valley of Oaxaca communities — or a conquering faction from San José Mogote — founded Monte Albán on a defensible hilltop 1,300 feet above the valley floor, leveling the summit to create a massive ceremonial plaza.",
+      "wikiSlug": "Monte_Albán",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-danzantes",
+      "label": "Danzantes Stone Carvings",
+      "year": -500,
+      "description": "Over 300 carved stone slabs depicting naked, contorted human figures — once called 'dancers' but now understood as slain or tortured captives — were installed at Monte Albán's Building L, broadcasting Zapotec military power.",
+      "wikiSlug": "Danzantes",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-main-plaza",
+      "label": "Monte Albán Main Plaza",
+      "year": -450,
+      "description": "The Main Plaza of Monte Albán was laid out as a vast rectangular public space roughly 1,000 by 650 feet, flanked by temple platforms and administrative buildings — one of the earliest planned urban spaces in the Americas.",
+      "wikiSlug": "Monte_Albán#The_Main_Plaza",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-conquest-slabs",
+      "label": "Conquest Slab Program",
+      "year": -400,
+      "description": "Building J at Monte Albán was decorated with over 40 'conquest slabs' depicting place-name glyphs with inverted heads, recording Zapotec military victories over neighboring communities in the earliest known territorial conquest records in Mesoamerica.",
+      "wikiSlug": "Monte_Albán#Building_J",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zapotec-building-j",
+      "label": "Building J (Observatory)",
+      "year": -400,
+      "description": "The arrow-shaped Building J at Monte Albán, oriented differently from all other structures, may have served as an astronomical observatory aligned to the zenith passage of the sun and the rising of the star Capella.",
+      "wikiSlug": "Monte_Albán#Building_J",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zapotec-writing-system",
+      "label": "Zapotec Writing System",
+      "year": -400,
+      "description": "The Zapotec script, a logographic writing system combining calendar signs, name glyphs, and place signs, matured into a full writing system — one of the earliest in Mesoamerica, used on carved stones, painted pottery, and tomb walls.",
+      "wikiSlug": "Zapotec_script",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zapotec-piye-calendar",
+      "label": "Piye (260-Day Calendar)",
+      "year": -400,
+      "description": "The Zapotec 260-day ritual calendar, called the piye, combined 20 day-names with 13 numbers to produce a sacred cycle used for divination, naming ceremonies, and determining auspicious dates for rituals and warfare.",
+      "wikiSlug": "Mesoamerican_calendars#260-day_calendar",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zapotec-yza-calendar",
+      "label": "Yza (365-Day Calendar)",
+      "year": -350,
+      "description": "The Zapotec 365-day solar calendar, called the yza, divided the year into 18 months of 20 days plus a dangerous 5-day period, interlocking with the piye to create a 52-year Calendar Round.",
+      "wikiSlug": "Mesoamerican_calendars#365-day_calendar",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zapotec-valley-unification",
+      "label": "Unification of the Valley of Oaxaca",
+      "year": -300,
+      "description": "By the end of Monte Albán Period II, the Zapotec state had conquered or absorbed all rival centers in the Valley of Oaxaca, creating a unified polity of perhaps 50,000 people across the three valley arms.",
+      "wikiSlug": "Monte_Albán#Monte_Albán_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-expansion-beyond-valley",
+      "label": "Zapotec Expansion Beyond the Valley",
+      "year": -300,
+      "description": "Monte Albán extended its political influence into the Cuicatlán Cañada to the north and the Mixteca Alta to the west, establishing frontier outposts and collecting tribute from conquered communities.",
+      "wikiSlug": "Zapotec_civilization#Pre-Classic",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zapotec-ceramic-urns",
+      "label": "Zapotec Ceramic Funerary Urns",
+      "year": -300,
+      "description": "Zapotec potters began producing elaborate ceramic urns depicting deities and ancestors, placed in tombs as companions for the dead. The tradition lasted over a thousand years, with styles becoming increasingly complex.",
+      "wikiSlug": "Zapotec_civilization#Funerary_urns",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-cocijo-worship",
+      "label": "Cocijo, the Lightning God",
+      "year": -300,
+      "description": "Cocijo, the Zapotec god of lightning, rain, and fertility — depicted with a forked serpent tongue and elaborate headdress — became the most prominent deity in the Zapotec pantheon, appearing on urns, carved stones, and temple facades.",
+      "wikiSlug": "Cocijo",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-pitao-cosmology",
+      "label": "Pitao: The Zapotec Pantheon",
+      "year": -250,
+      "description": "The Zapotec organized their deities under the concept of Pitao ('great time' or 'infinity'), a supreme creative force manifest through specific gods — Cocijo (rain), Pitao Cozobi (corn), Coquihani (light) — each governing different aspects of life.",
+      "wikiSlug": "Zapotec_religion",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-monte-alban-iiia",
+      "label": "Monte Albán Period IIIA Begins",
+      "year": -200,
+      "description": "Monte Albán entered its Classic period golden age, growing to a population of 17,000–25,000 with over 2,000 terraced residential platforms on the hillsides surrounding the ceremonial center.",
+      "wikiSlug": "Monte_Albán#Monte_Albán_III",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-north-platform",
+      "label": "North Platform Complex",
+      "year": -100,
+      "description": "The massive North Platform at Monte Albán, the largest structure on the site, was expanded into an elite residential and ceremonial precinct accessible by a grand staircase of carved stone, housing the ruling family and their court.",
+      "wikiSlug": "Monte_Albán#The_Main_Plaza",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-tomb-104",
+      "label": "Tomb 104 at Monte Albán",
+      "year": 200,
+      "description": "Tomb 104, one of Monte Albán's most famous burials, featured spectacular polychrome murals depicting processional figures, deities, and calendrical signs — the finest example of Classic Zapotec painting.",
+      "wikiSlug": "Monte_Albán#Tomb_104",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-teotihuacan-contact",
+      "label": "Teotihuacan-Zapotec Diplomatic Contact",
+      "year": 200,
+      "description": "Zapotec pottery and a possible Zapotec residential ward appeared at Teotihuacan, while Teotihuacan-style talud-tablero architecture appeared at Monte Albán, suggesting diplomatic exchange rather than conquest between the two great cities.",
+      "wikiSlug": "Teotihuacan#Relations_with_other_civilizations",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zapotec-oaxaca-barrio",
+      "label": "Zapotec Barrio at Teotihuacan",
+      "year": 200,
+      "description": "A distinct Zapotec residential neighborhood at Teotihuacan — identified by Oaxacan-style pottery, tombs, and funerary urns — suggests a permanent diplomatic or merchant community living in the great central Mexican metropolis.",
+      "wikiSlug": "Teotihuacan#Foreign_relations",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zapotec-ball-court",
+      "label": "Ball Court at Monte Albán",
+      "year": 100,
+      "description": "Monte Albán's I-shaped ball court, set into the northeast corner of the Main Plaza, was one of the earliest formal ball courts in the Oaxacan highlands, used for the ritual ballgame with deep religious significance.",
+      "wikiSlug": "Mesoamerican_ballgame",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-ancestor-worship",
+      "label": "Zapotec Ancestor Veneration",
+      "year": 100,
+      "description": "Elite Zapotec families built tombs beneath their residences and reopened them for subsequent burials, practicing an ancestor cult in which the dead were believed to intercede with the gods on behalf of the living.",
+      "wikiSlug": "Zapotec_civilization#Religion",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-stela-inscriptions",
+      "label": "Genealogical Stelae",
+      "year": 300,
+      "description": "Zapotec rulers erected carved stone stelae recording their names, parentage, conquests, and ritual acts in the Zapotec script, creating genealogical monuments that legitimized dynastic rule through ancestral descent.",
+      "wikiSlug": "Zapotec_script",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zapotec-jaguars-pumas",
+      "label": "Jaguar and Puma Symbolism",
+      "year": 300,
+      "description": "Zapotec art increasingly depicted jaguars and pumas as symbols of royal power and the supernatural, with rulers shown wearing jaguar-skin garments and sitting on jaguar thrones in carved reliefs and painted pottery.",
+      "wikiSlug": "Zapotec_civilization#Religion",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-peak-population",
+      "label": "Monte Albán at Peak Population",
+      "year": 400,
+      "description": "Monte Albán reached its maximum extent with an estimated 25,000 inhabitants on the hilltop and surrounding terraces, making it one of the largest cities in Mesoamerica and the undisputed capital of the Zapotec world.",
+      "wikiSlug": "Monte_Albán",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-irrigation-systems",
+      "label": "Valley Irrigation Systems",
+      "year": 300,
+      "description": "Zapotec engineers constructed canal irrigation systems in the Valley of Oaxaca to intensify maize agriculture, supporting the growing urban population at Monte Albán and surrounding settlements.",
+      "wikiSlug": "Valley_of_Oaxaca",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zapotec-cloud-people-origin",
+      "label": "Cloud People Origin Myth",
+      "year": 300,
+      "description": "The Zapotecs called themselves 'Be'ena' Za'a' (Cloud People), believing their ancestors descended from clouds, trees, jaguars, and rocks — an origin tradition recorded by Spanish friars and reflected in their preference for mountaintop settlements.",
+      "wikiSlug": "Zapotec_peoples",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-teotihuacan-decline",
+      "label": "Teotihuacan Falls, Zapotec Endures",
+      "year": 550,
+      "description": "When Teotihuacan collapsed around 550 CE, Monte Albán lost its most important diplomatic partner but continued for another two centuries, demonstrating the resilience of the Zapotec political system.",
+      "wikiSlug": "Teotihuacan#Collapse",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-monte-alban-decline",
+      "label": "Monte Albán Begins to Decline",
+      "year": 600,
+      "description": "Monte Albán's population began to shrink as political authority fragmented and secondary centers in the valley gained autonomy, though the hilltop remained a sacred pilgrimage site for centuries afterward.",
+      "wikiSlug": "Monte_Albán#Monte_Albán_IV",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-lambityeco",
+      "label": "Lambityeco Rises",
+      "year": 600,
+      "description": "Lambityeco, a secondary center in the Tlacolula arm of the valley, gained prominence as Monte Albán declined, its palaces decorated with stucco friezes of Cocijo and portraits of its ruling couple.",
+      "wikiSlug": "Lambityeco",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-yagul-rise",
+      "label": "Yagul Fortress City",
+      "year": 700,
+      "description": "Yagul emerged as a major Zapotec center in the Tlacolula Valley after Monte Albán's decline, its hilltop fortress, palace complex, and massive ball court reflecting the shift to smaller, more defensible city-states.",
+      "wikiSlug": "Yagul",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-monte-alban-abandonment",
+      "label": "Monte Albán Abandoned as Capital",
+      "year": 750,
+      "description": "Monte Albán ceased to function as a political capital, though it remained a sacred burial ground. Power shifted to competing Zapotec city-states across the valley — Zaachila, Mitla, Yagul, and others.",
+      "wikiSlug": "Monte_Albán#Monte_Albán_IV",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-mitla-rise",
+      "label": "Mitla Becomes Religious Capital",
+      "year": 800,
+      "description": "Mitla, in the eastern Tlacolula Valley, rose as the Zapotec religious capital and seat of the high priest (huijatoo), becoming the most sacred site in Zapotec religion where rulers were buried and oracles consulted.",
+      "wikiSlug": "Mitla",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-mitla-mosaics",
+      "label": "Mitla's Geometric Stone Mosaics",
+      "year": 900,
+      "description": "The palaces of Mitla were decorated with intricate geometric stone mosaic panels — thousands of precisely cut stone pieces fitted without mortar into repeating fret, spiral, and step patterns — unique in all of pre-Columbian architecture.",
+      "wikiSlug": "Mitla#Architecture",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-zaachila-kingdom",
+      "label": "Zaachila as Zapotec Political Capital",
+      "year": 900,
+      "description": "Zaachila emerged as the seat of the Zapotec political rulers after Monte Albán's abandonment, its kings claiming descent from the ancient Monte Albán dynasty while governing a reduced but still powerful Zapotec state.",
+      "wikiSlug": "Zaachila_(archaeological_site)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-mixtec-arrival",
+      "label": "Mixtec Expansion into the Valley",
+      "year": 1000,
+      "description": "Mixtec peoples from the mountainous Mixteca Alta began expanding into the Valley of Oaxaca through warfare and dynastic marriage alliances, gradually claiming territory that had been Zapotec for over a thousand years.",
+      "wikiSlug": "Mixtec",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zapotec-mixtec-intermarriage",
+      "label": "Zapotec-Mixtec Royal Marriages",
+      "year": 1050,
+      "description": "Zapotec and Mixtec ruling families intermarried strategically, creating complex dynastic alliances that blurred ethnic boundaries at the elite level while commoners maintained distinct Zapotec and Mixtec identities.",
+      "wikiSlug": "Mixtec#History",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-8-deer-era",
+      "label": "8 Deer Jaguar Claw's Conquests",
+      "year": 1097,
+      "description": "The Mixtec warlord 8 Deer Jaguar Claw conquered much of the Mixteca and parts of the Valley of Oaxaca, establishing a short-lived Mixtec empire that brought Zapotec territories under Mixtec control.",
+      "wikiSlug": "Eight_Deer_Jaguar_Claw",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-zapotec-tomb-7",
+      "label": "Tomb 7 at Monte Albán (Mixtec Reuse)",
+      "year": 1350,
+      "description": "Mixtec elites reopened and reused an ancient Zapotec tomb at Monte Albán, depositing the richest treasure ever found in Mexico — over 500 objects of gold, turquoise, jade, bone, and crystal, including intricate gold pectorals and earrings.",
+      "wikiSlug": "Monte_Albán#Tomb_7",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-zapotec-gold-work-tomb7",
+      "label": "Mixtec-Zapotec Gold Metallurgy",
+      "year": 1300,
+      "description": "The gold objects from Tomb 7 — produced using lost-wax casting techniques that arrived in Mesoamerica from South America — represent the finest pre-Columbian metalwork in Mexico, blending Mixtec artistry with Zapotec sacred space.",
+      "wikiSlug": "Lost-wax_casting",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zapotec-huijatoo",
+      "label": "The Huijatoo (High Priest of Mitla)",
+      "year": 1100,
+      "description": "The huijatoo, Zapotec high priest based at Mitla, wielded spiritual authority rivaling the secular king, serving as oracle, chief diviner, and guardian of the entrance to the underworld — a power the Spanish compared to the Pope.",
+      "wikiSlug": "Mitla",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-zapotec-zapotec-wars-mixtec",
+      "label": "Zapotec-Mixtec Wars",
+      "year": 1280,
+      "description": "Intermittent warfare between Zapotec and Mixtec city-states intensified in the late Postclassic, with both sides raiding for captives, territory, and tribute in a fragmented political landscape.",
+      "wikiSlug": "Mixtec#Warfare",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zapotec-cosijoeza-birth",
+      "label": "Cosijoeza, Last Independent Zapotec King",
+      "year": 1450,
+      "description": "Cosijoeza became the most powerful late Zapotec ruler, governing from Zaachila and later the mountain fortress of Guiengola, where he would famously resist the Aztec invasion.",
+      "wikiSlug": "Cosijoeza",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-aztec-invasion",
+      "label": "Aztec Invasion of Oaxaca",
+      "year": 1458,
+      "description": "Aztec armies under Motecuhzoma I invaded the Valley of Oaxaca, conquering Mixtec towns and imposing tributary obligations, though the Zapotecs under Cosijoeza resisted from their mountain strongholds.",
+      "wikiSlug": "Aztec_Empire#Expansion",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zapotec-guiengola",
+      "label": "Siege of Guiengola",
+      "year": 1497,
+      "description": "Cosijoeza successfully defended the mountain fortress of Guiengola against a prolonged Aztec siege led by Ahuitzotl, forcing the Aztecs to negotiate a peace that preserved Zapotec independence through a diplomatic marriage alliance.",
+      "wikiSlug": "Guiengola",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zapotec-aztec-alliance",
+      "label": "Zapotec-Aztec Marriage Alliance",
+      "year": 1497,
+      "description": "After the failed siege of Guiengola, Cosijoeza married Coyolicatzin, a daughter of the Aztec emperor Ahuitzotl, establishing a diplomatic alliance that preserved Zapotec autonomy while acknowledging Aztec hegemony.",
+      "wikiSlug": "Cosijoeza",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-cosijopii",
+      "label": "Cosijopii, Last Zapotec Ruler",
+      "year": 1502,
+      "description": "Cosijopii, son of Cosijoeza and the Aztec princess Coyolicatzin, inherited the Zapotec throne and would be the last to rule before the Spanish conquest — a prince of both Zapotec and Aztec royal blood.",
+      "wikiSlug": "Cosijopii",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-spanish-arrival",
+      "label": "Spanish Arrival in Oaxaca",
+      "year": 1521,
+      "description": "Spanish conquistadors under Francisco de Orozco entered the Valley of Oaxaca following the fall of Tenochtitlan. The Zapotecs, unlike the Aztecs, initially negotiated rather than fought, with Cosijopii submitting to Spanish authority.",
+      "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-zapotec-cosijopii-conversion",
+      "label": "Cosijopii's Conversion and Rebellion",
+      "year": 1521,
+      "description": "Cosijopii publicly converted to Christianity but was later caught practicing Zapotec religious rites in secret. The Spanish tried him for idolatry and stripped him of power — a symbol of Zapotec cultural resistance under colonial rule.",
+      "wikiSlug": "Cosijopii",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-zapotec-lienzos",
+      "label": "Zapotec Genealogical Lienzos",
+      "year": 1500,
+      "description": "Zapotec and Mixtec communities produced painted cloth documents called lienzos recording dynastic genealogies, territorial boundaries, and historical events using a pictographic tradition that continued into the colonial period.",
+      "wikiSlug": "Lienzo",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zapotec-diidxaza-language",
+      "label": "Diidxazá: The Zapotec Language",
+      "year": -500,
+      "description": "The Zapotec language family, part of the Oto-Manguean stock, diversified into multiple regional variants as Zapotec populations expanded across Oaxaca — a linguistic diversity reflecting centuries of political fragmentation.",
+      "wikiSlug": "Zapotec_languages",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zapotec-tehuantepec-control",
+      "label": "Zapotec Control of Tehuantepec",
+      "year": 1400,
+      "description": "Zapotec rulers extended their control to the Isthmus of Tehuantepec, the narrowest point in Mexico, gaining access to Pacific coast trade routes and the strategic passage between the Gulf and Pacific lowlands.",
+      "wikiSlug": "Isthmus_of_Tehuantepec",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zapotec-cuilapan",
+      "label": "Cuilapan as Mixtec-Zapotec Center",
+      "year": 1300,
+      "description": "Cuilapan, in the southern arm of the Valley of Oaxaca, became a significant center where Mixtec and Zapotec populations coexisted, its archaeological record showing the complex cultural mixing of the late Postclassic.",
+      "wikiSlug": "Cuilapan_de_Guerrero",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zapotec-jalieza",
+      "label": "Jalieza Hilltop Center",
+      "year": 700,
+      "description": "Jalieza, a large hilltop settlement in the southern valley, grew to prominence during Monte Albán's decline, its terraced hillsides housing thousands and its workshops producing cotton textiles for regional trade.",
+      "wikiSlug": "Jalieza",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zapotec-human-sacrifice",
+      "label": "Zapotec Sacrificial Practices",
+      "year": -200,
+      "description": "Archaeological evidence from Monte Albán confirms ritual human sacrifice, including decapitated skulls and the Danzantes carvings themselves, though Zapotec sacrifice appears less systematic than later Aztec practices.",
+      "wikiSlug": "Human_sacrifice_in_pre-Columbian_cultures",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zapotec-alfonso-caso",
+      "label": "Alfonso Caso Excavates Monte Albán",
+      "year": 1931,
+      "description": "Mexican archaeologist Alfonso Caso began systematic excavations at Monte Albán, discovering Tomb 7 in 1932 with its spectacular Mixtec gold treasure — the find that made Monte Albán world-famous and launched modern Oaxacan archaeology.",
+      "wikiSlug": "Alfonso_Caso_y_Andrade",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-zapotec-caso-tomb7-discovery",
+      "label": "Discovery of Tomb 7",
+      "year": 1932,
+      "description": "Caso's discovery of Tomb 7 at Monte Albán yielded over 500 gold, jade, turquoise, and bone objects — the richest archaeological find in Mexican history, transforming understanding of Mesoamerican metallurgy and elite burial practices.",
+      "wikiSlug": "Monte_Albán#Tomb_7",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}
