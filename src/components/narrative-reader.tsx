@@ -102,13 +102,38 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             }
             if (!target) return
 
-            // Find the exact text node containing the search term and create a Range around it
+            // Collect the paragraph's full text and find the occurrence
+            // closest to the snippet context
+            const fullText = target.textContent?.toLowerCase() ?? ''
+            const snippetLower2 = snippet?.toLowerCase() ?? ''
+            let snippetPos = snippetLower2 ? fullText.indexOf(snippetLower2) : -1
+            if (snippetPos === -1) snippetPos = 0
+
+            // Find the occurrence of the term nearest to the snippet position
+            let bestPos = fullText.indexOf(termLower)
+            if (snippetPos > 0) {
+              let pos = -1
+              let closest = bestPos
+              let closestDist = Math.abs(bestPos - snippetPos)
+              while ((pos = fullText.indexOf(termLower, pos + 1)) !== -1) {
+                const dist = Math.abs(pos - snippetPos)
+                if (dist < closestDist) { closest = pos; closestDist = dist }
+              }
+              bestPos = closest
+            }
+
+            // Map the character offset back to a text node
             const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT)
             let textNode: Text | null = null
             let charIdx = -1
+            let runningOffset = 0
             while ((textNode = walker.nextNode() as Text | null)) {
-              const idx = textNode.textContent?.toLowerCase().indexOf(termLower) ?? -1
-              if (idx !== -1) { charIdx = idx; break }
+              const len = textNode.textContent?.length ?? 0
+              if (runningOffset + len > bestPos) {
+                charIdx = bestPos - runningOffset
+                break
+              }
+              runningOffset += len
             }
 
             if (!textNode || charIdx === -1) {
