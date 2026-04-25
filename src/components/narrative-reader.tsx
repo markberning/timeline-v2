@@ -92,32 +92,17 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             for (const p of paragraphs) {
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
+              // Scroll first, then highlight after scroll settles
               p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-              // Create a fixed overlay on document.body
-              const overlay = document.createElement('div')
-              overlay.style.cssText = 'position:fixed;pointer-events:none;background:rgba(217,119,6,0.2);border-left:3px solid #d97706;border-radius:4px;z-index:40;transition:opacity 0.5s ease;'
-              document.body.appendChild(overlay)
-
-              // Reposition overlay to track the paragraph on every frame
-              let rafId = 0
-              function reposition() {
-                const rect = p.getBoundingClientRect()
-                overlay.style.top = `${rect.top - 4}px`
-                overlay.style.left = `${rect.left - 12}px`
-                overlay.style.width = `${rect.width + 20}px`
-                overlay.style.height = `${rect.height + 8}px`
-                rafId = requestAnimationFrame(reposition)
-              }
-              // Start after scroll settles
-              setTimeout(() => { rafId = requestAnimationFrame(reposition) }, 400)
-
-              // Fade out after 5 seconds
               setTimeout(() => {
-                cancelAnimationFrame(rafId)
-                overlay.style.opacity = '0'
-                setTimeout(() => overlay.remove(), 500)
-              }, 5000)
+                const rect = p.getBoundingClientRect()
+                const overlay = document.createElement('div')
+                overlay.textContent = '\u00A0' // non-breaking space so it has content
+                overlay.style.cssText = `position:fixed;top:${rect.top}px;left:${rect.left - 8}px;width:${rect.width + 16}px;height:${rect.height}px;background:rgba(255,0,0,0.3);border:2px solid red;border-radius:4px;pointer-events:none;z-index:9999;`
+                document.body.appendChild(overlay)
+                setTimeout(() => overlay.remove(), 5000)
+              }, 600)
 
               break
             }
