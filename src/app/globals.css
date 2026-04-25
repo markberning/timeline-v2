@@ -39,8 +39,7 @@ html.dark body {
 /* Dark mode: swap dark-filled Asia icons to bright violet */
 .dark img[src*="modern-india"],
 .dark img[src*="mughal-empire"],
-.dark img[src*="delhi-sultanate"],
-.dark img[src*="kingdom-of-aksum"] {
+.dark img[src*="delhi-sultanate"] {
   filter: brightness(6) saturate(3) !important;
 }
 
