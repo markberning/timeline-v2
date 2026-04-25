@@ -153,7 +153,7 @@ export function CivIconsStrip() {
         const sz = sizeFor(src)
         return (
           <div key={`m-${i}-${src}`} className={`${sz} shrink-0 flex flex-col items-center lg:hidden`}>
-            <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none`} draggable={false} />
+            <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none dark:brightness-[1.8]`} draggable={false} />
             <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
           </div>
         )
@@ -163,7 +163,7 @@ export function CivIconsStrip() {
         const sz = sizeFor(src)
         return (
           <div key={`d-${i}-${src}`} className={`${sz} shrink-0 flex-col items-center hidden lg:flex`}>
-            <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none`} draggable={false} />
+            <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none dark:brightness-[1.8]`} draggable={false} />
             <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
           </div>
         )
