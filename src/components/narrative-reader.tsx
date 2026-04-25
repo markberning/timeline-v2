@@ -89,32 +89,47 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
         if (hl) {
           const timer = setTimeout(() => {
             const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
+
+            const d2 = document.createElement('div')
+            d2.textContent = `TIMER FIRED: container=${container ? 'YES' : 'NO'}, paragraphs=${container?.querySelectorAll('p').length ?? 0}, term="${hl}"`
+            d2.style.cssText = 'position:fixed;top:40px;left:0;right:0;z-index:9999;background:blue;color:white;padding:12px;font-size:14px;font-weight:bold;'
+            document.body.appendChild(d2)
+            setTimeout(() => d2.remove(), 10000)
+
             if (!container) return
 
             const termLower = hl.toLowerCase()
             const paragraphs = container.querySelectorAll('p')
+            let found = false
             for (const p of paragraphs) {
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
+              found = true
 
-              // Inject a highlight banner before the paragraph
-              const banner = document.createElement('div')
-              banner.style.cssText = 'background:rgba(217,119,6,0.2);border-left:3px solid #d97706;padding:4px 8px;margin:0 -8px 0 -12px;border-radius:2px;pointer-events:none;'
-              // Clone the paragraph content into the banner to show it highlighted
-              banner.innerHTML = p.innerHTML
-              p.parentNode?.insertBefore(banner, p)
-              p.style.display = 'none'
+              // Simple highlight: amber background on the paragraph
+              p.style.setProperty('background', 'rgba(217,119,6,0.25)', 'important')
+              p.style.setProperty('border-left', '3px solid #d97706', 'important')
+              p.style.setProperty('padding-left', '9px', 'important')
+              p.style.setProperty('margin-left', '-12px', 'important')
+              p.style.setProperty('border-radius', '4px', 'important')
 
-              // Scroll to it
-              banner.scrollIntoView({ behavior: 'smooth', block: 'center' })
+              p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-              // Restore after 5 seconds
               setTimeout(() => {
-                p.style.display = ''
-                banner.remove()
+                p.style.removeProperty('background')
+                p.style.removeProperty('border-left')
+                p.style.removeProperty('padding-left')
+                p.style.removeProperty('margin-left')
+                p.style.removeProperty('border-radius')
               }, 5000)
 
               break
             }
+
+            const d3 = document.createElement('div')
+            d3.textContent = `MATCH: ${found ? 'YES' : 'NO'}`
+            d3.style.cssText = 'position:fixed;top:80px;left:0;right:0;z-index:9999;background:green;color:white;padding:12px;font-size:14px;font-weight:bold;'
+            document.body.appendChild(d3)
+            setTimeout(() => d3.remove(), 10000)
           }, 1200)
           return () => clearTimeout(timer)
         }
