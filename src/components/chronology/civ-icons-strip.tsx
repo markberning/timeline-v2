@@ -60,7 +60,7 @@ const ICONS = [
   '/icons/early-american-republic.png',
 ]
 
-const MOBILE_COUNT = 7
+const MOBILE_COUNT = 5
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr]
@@ -135,19 +135,34 @@ function sizeFor(src: string): string {
 }
 
 export function CivIconsStrip() {
-  // Temporarily disable shuffle for icon review
-  const icons = ICONS
+  const [icons, setIcons] = useState(() => shuffle(ICONS))
   const containerRef = useRef<HTMLDivElement>(null)
+
+  const reshuffle = useCallback(() => {
+    setIcons(shuffle(ICONS))
+  }, [])
 
   return (
     <div
       ref={containerRef}
-      className="flex items-end justify-start gap-3 lg:gap-4 px-5 py-1.5 overflow-x-auto shrink-0"
+      onClick={reshuffle}
+      className="flex items-end justify-around px-5 py-1.5 overflow-hidden shrink-0 cursor-pointer lg:justify-center lg:gap-6"
     >
+      {/* Mobile: show 7 */}
+      {icons.slice(0, MOBILE_COUNT).map((src, i) => {
+        const sz = sizeFor(src)
+        return (
+          <div key={`m-${i}-${src}`} className={`${sz} shrink-0 flex flex-col items-center lg:hidden`}>
+            <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none`} draggable={false} />
+            <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
+          </div>
+        )
+      })}
+      {/* Desktop: all icons */}
       {icons.map((src, i) => {
         const sz = sizeFor(src)
         return (
-          <div key={`${i}-${src}`} className={`${sz} shrink-0 flex flex-col items-center`}>
+          <div key={`d-${i}-${src}`} className={`${sz} shrink-0 flex-col items-center hidden lg:flex`}>
             <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none`} draggable={false} />
             <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
           </div>
