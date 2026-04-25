@@ -70,6 +70,12 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     const params = new URLSearchParams(window.location.search)
     const ch = params.get('chapter')
     const hl = params.get('highlight')
+
+    // DEBUG: show what we got from URL
+    if (hl) {
+      document.title = `DEBUG: ch=${ch} hl=${hl}`
+    }
+
     if (ch) {
       const n = parseInt(ch, 10)
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
