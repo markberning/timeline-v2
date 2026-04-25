@@ -100,6 +100,8 @@ function labelFromPath(src: string): string {
 const ICON_SIZE: Record<string, string> = {
   '/icons/early-dynastic-egypt.png': 'w-20',
   '/icons/persian-empire.png': 'w-16',
+  '/icons/viking-age.png': 'w-16',
+  '/icons/mesopotamia.png': 'w-16',
 }
 
 function sizeFor(src: string): string {
