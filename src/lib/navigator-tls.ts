@@ -129,7 +129,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'polynesian-voyagers', label: 'Polynesian Voyagers', subtitle: "the Pacific's star-navigating wayfinders", region: 'americas', startYear: -1500, endYear: 1500, hasContent: true },
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400, hasContent: true },
   { id: 'zapotec-civilization', label: 'Zapotec', subtitle: "Oaxaca's mountaintop scribes", region: 'americas', startYear: -1500, endYear: 1521, hasContent: true },
-  { id: 'ancestral-puebloans', label: 'Ancestral Puebloans', subtitle: "Mesa Verde and Chaco Canyon's cliff builders", region: 'americas', startYear: -100, endYear: 1300 },
+  { id: 'ancestral-puebloans', label: 'Ancestral Puebloans', subtitle: "Mesa Verde and Chaco Canyon's cliff builders", region: 'americas', startYear: -100, endYear: 1300, hasContent: true },
   { id: 'teotihuacan', label: 'Teotihuacan', subtitle: "the Americas' first great metropolis", region: 'americas', startYear: -100, endYear: 550, hasContent: true },
   { id: 'maya-civilization', label: 'Maya', subtitle: "Guatemala and Yucatán's stargazer kingdoms", region: 'americas', startYear: -1000, endYear: 1697, hasContent: true },
   { id: 'andean-kingdoms', label: 'Andean Kingdoms', subtitle: "Peru's regional cultures (Moche, Nazca)", region: 'americas', startYear: -200, endYear: 500, hasContent: true },
