@@ -86,22 +86,24 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     }
   }, [chapters, civilizationId])
 
-  // After chapter opens with a highlight term, find and scroll to the match
+  // After chapter opens with a highlight term, find and scroll to the match.
+  // The accordion does scrollTo(0) at rAF + 300ms on expand, so we wait
+  // 800ms for everything to settle before touching scroll.
   useEffect(() => {
     if (!highlightTerm || openChapter === null) return
 
-    function tryHighlight() {
+    const timer = setTimeout(() => {
       const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
-      if (!container || container.children.length === 0) return false
+      if (!container) { setHighlightTerm(null); return }
 
-      const termLower = highlightTerm!.toLowerCase()
+      const termLower = highlightTerm.toLowerCase()
       const paragraphs = container.querySelectorAll('p')
       for (const p of paragraphs) {
         if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-        // Full-width highlight flash
-        p.style.transition = 'background-color 0.4s ease'
-        p.style.backgroundColor = 'rgba(217, 119, 6, 0.3)'
+        // Highlight the paragraph
+        p.style.transition = 'background-color 0.4s ease, border-color 0.4s ease'
+        p.style.backgroundColor = 'rgba(217, 119, 6, 0.25)'
         p.style.borderLeft = '3px solid #d97706'
         p.style.marginLeft = '-12px'
         p.style.paddingLeft = '9px'
@@ -109,10 +111,8 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
         p.style.paddingRight = '8px'
         p.style.borderRadius = '2px'
 
-        // Scroll to it (delay past accordion's scrollTo(0) at 300ms)
-        setTimeout(() => {
-          p.scrollIntoView({ behavior: 'smooth', block: 'center' })
-        }, 500)
+        // Scroll to it
+        p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
         // Fade out after 5 seconds
         setTimeout(() => {
@@ -130,22 +130,13 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
           }, 400)
         }, 5000)
 
-        return true
+        break
       }
-      return false
-    }
 
-    // Poll until content renders (accordion animation takes time)
-    let attempts = 0
-    const interval = setInterval(() => {
-      attempts++
-      if (tryHighlight() || attempts > 20) {
-        clearInterval(interval)
-        setHighlightTerm(null)
-      }
-    }, 200)
+      setHighlightTerm(null)
+    }, 800) // wait for accordion expand + scrollTo(0) to settle
 
-    return () => clearInterval(interval)
+    return () => clearTimeout(timer)
   }, [highlightTerm, openChapter])
 
   // Auto-save scroll position while reading (debounced)
