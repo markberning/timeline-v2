@@ -195,20 +195,10 @@ a.cross-link {
 .civ-row-inner {
   box-shadow: inset 3px 0 0 transparent;
 }
-.civ-row-chain {
-  color: var(--row-color);
-  opacity: 0.6;
-}
-:is(.dark) .civ-row-chain {
-  opacity: 1;
-}
-.civ-row-chain-pos {
-  opacity: 1;
-}
 .civ-row-label {
   color: var(--foreground);
 }
-.civ-row-enter {
+.civ-row-pills {
   display: none;
 }
 
@@ -216,16 +206,12 @@ a.cross-link {
 .civ-row[data-active] .civ-row-inner {
   box-shadow: inset 4px 0 0 var(--row-color);
 }
-.civ-row[data-active] .civ-row-chain {
-  color: var(--row-color);
-  opacity: 1;
-}
 .civ-row[data-active] .civ-row-label {
   color: var(--foreground);
   font-weight: 700;
 }
-.civ-row[data-active] .civ-row-enter {
-  display: inline-flex;
+.civ-row[data-active] .civ-row-pills {
+  display: flex;
 }
 
 /* Hide scrollbars on ribbon */

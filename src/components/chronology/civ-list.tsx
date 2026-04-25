@@ -188,18 +188,10 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
             style={{ '--row-color': color } as React.CSSProperties}
             onClick={() => civ.hasContent && (window.location.href = `/${civ.id}/`)}
           >
-            <div className="civ-row-inner pl-3 flex items-center gap-3">
+            <div className="civ-row-inner pl-3">
               <div className="flex-1 min-w-0">
-                {/* Chain + position */}
-                <div className="civ-row-chain text-[11px] font-bold uppercase tracking-[0.12em]">
-                  {chainLabel}
-                  {chainPosition && (
-                    <span className="civ-row-chain-pos ml-1.5">{chainPosition}</span>
-                  )}
-                </div>
-
                 {/* Civ title */}
-                <div className="civ-row-label text-[18px] font-[family-name:var(--font-lora)] mt-0.5 leading-snug">
+                <div className="civ-row-label text-[18px] font-[family-name:var(--font-lora)] leading-snug">
                   {civ.label}
                 </div>
 
@@ -216,12 +208,29 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
                 </div>
               </div>
 
-              {/* Small enter pill — right side, shown on active via CSS */}
-              {civ.hasContent && (
-                <div className="civ-row-enter shrink-0 px-3 py-1.5 rounded-full text-xs font-bold text-white" style={{ backgroundColor: color }}>
-                  Read →
-                </div>
-              )}
+              {/* Action pills row — shown on active via CSS */}
+              <div className="civ-row-pills flex items-center gap-2 mt-2">
+                {civ.hasContent && (
+                  <div className="civ-row-enter shrink-0 px-3 py-1 rounded-md text-[12px] font-bold text-white" style={{ backgroundColor: color }}>
+                    Read →
+                  </div>
+                )}
+                {chainInfo && (
+                  <button
+                    className="civ-row-chain-pill shrink-0 px-3 py-1 rounded-md text-[12px] font-bold border cursor-pointer"
+                    style={{
+                      borderColor: color,
+                      color: color,
+                    }}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      onChainSolo(chainInfo.chain.id)
+                    }}
+                  >
+                    {chainInfo.chain.shortLabel} {chainInfo.index + 1}/{chainInfo.total}
+                  </button>
+                )}
+              </div>
             </div>
           </div>
         )
