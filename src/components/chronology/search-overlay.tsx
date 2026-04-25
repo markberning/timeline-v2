@@ -234,7 +234,11 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
                     <button
                       key={i}
                       className="block w-full text-left py-1.5 text-[13px] leading-snug text-foreground/65 border-b border-foreground/5 last:border-b-0 cursor-pointer"
-                      onClick={() => { window.location.href = `/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}&match=${i}` }}
+                      onClick={() => {
+                        // Pass a unique snippet from this sentence so the reader finds the exact paragraph
+                        const snippet = sentence.slice(0, 60).trim()
+                        window.location.href = `/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}&snippet=${encodeURIComponent(snippet)}`
+                      }}
                     >
                       <HighlightedText text={sentence} query={query.trim()} />
                     </button>

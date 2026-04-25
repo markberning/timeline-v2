@@ -71,7 +71,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     const params = new URLSearchParams(window.location.search)
     const ch = params.get('chapter')
     const hl = params.get('highlight')
-    const matchIdx = parseInt(params.get('match') ?? '0', 10)
+    const snippet = params.get('snippet')
 
     if (ch) {
       const n = parseInt(ch, 10)
@@ -84,12 +84,24 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
             if (!container) return
 
+            const snippetLower = snippet?.toLowerCase()
             const termLower = hl.toLowerCase()
             const paragraphs = container.querySelectorAll('p')
-            let hitCount = 0
-            for (const p of paragraphs) {
-              if (!p.textContent?.toLowerCase().includes(termLower)) continue
-              if (hitCount < matchIdx) { hitCount++; continue }
+
+            // Find the paragraph containing the snippet (best match), or fall back to first term match
+            let target: Element | null = null
+            if (snippetLower) {
+              for (const p of paragraphs) {
+                if (p.textContent?.toLowerCase().includes(snippetLower)) { target = p; break }
+              }
+            }
+            if (!target) {
+              for (const p of paragraphs) {
+                if (p.textContent?.toLowerCase().includes(termLower)) { target = p; break }
+              }
+            }
+            if (!target) return
+            const p = target
 
               p.scrollIntoView({ behavior: 'auto', block: 'center' })
 
@@ -102,9 +114,6 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
                 document.body.appendChild(overlay)
                 setTimeout(() => { overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 500) }, 5000)
               })
-
-              break
-            }
           }, 1200)
           return () => clearTimeout(timer)
         }
