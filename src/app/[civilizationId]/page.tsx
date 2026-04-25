@@ -63,15 +63,13 @@ export default async function CivilizationPage({ params }: PageProps) {
             <h1 className="text-[22px] font-bold font-[family-name:var(--font-lora)] leading-tight">
               {narrative.label}
             </h1>
-          </div>
-          <div className="flex items-center gap-2 shrink-0">
-            <span className="text-[13px] font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
-              {narrative.chapters.length} CH
-            </span>
             {iconPath && (
-              <img src={iconPath} alt="" className="h-9 w-auto opacity-60" draggable={false} />
+              <img src={iconPath} alt="" className="h-11 w-auto opacity-50" draggable={false} />
             )}
           </div>
+          <span className="shrink-0 text-[13px] font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
+            {narrative.chapters.length} CH
+          </span>
         </div>
         {currentTl?.subtitle && (
           <p className="text-[14px] text-foreground/55 mt-1 italic font-[family-name:var(--font-lora)] pl-[16.5px]">{currentTl.subtitle}</p>
