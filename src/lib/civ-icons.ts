@@ -4,24 +4,48 @@
  * only chain-shared overrides are listed.
  */
 const SHARED_ICON: Record<string, string> = {
-  // Nubian chain — each has own icon now, kush still falls back
-  // (kingdom-of-kush has own icon, no override needed)
+  // Egypt chain → all share early-dynastic sphinx
+  'old-kingdom-egypt': 'early-dynastic-egypt',
+  'new-kingdom-egypt': 'early-dynastic-egypt',
+  'late-egypt': 'early-dynastic-egypt',
+
+  // Nubian chain
+  'kingdom-of-kush': 'ancient-nubia',
 
   // Islamic chain
-  'umayyad-caliphate': 'umayyad-caliphate',
+  'al-andalus': 'umayyad-caliphate',
 
-  // Steppe chain — each has own icon now, timurid shares mongol
+  // Indian chain (pre-Islamic) — vedic + maurya have own, rest share indus
+  'post-maurya-kingdoms': 'indus-valley',
+  'gupta-empire': 'indus-valley',
+  'medieval-india': 'indus-valley',
+
+  // Chinese chain — all share ancient-china
+  'shang-dynasty': 'ancient-china',
+  'zhou-dynasty': 'ancient-china',
+  'qin-dynasty': 'ancient-china',
+  'han-dynasty': 'ancient-china',
+  'six-dynasties': 'ancient-china',
+
+  // Chinese modern
+  'rise-of-china': 'chinese-revolution',
+
+  // Steppe chain — timurid shares mongol
   'timurid-empire': 'mongol-empire',
 
   // Japan chain
+  'edo-japan': 'ancient-japan',
   'japanese-economic-miracle': 'meiji-japan',
 
   // Korea chain
-  'korean-modern': 'joseon-korea',
+  'joseon-korea': 'ancient-korea',
+  'korean-modern': 'ancient-korea',
 
-  // Russian chain — each has own icon now
+  // Greco-Roman — minoan + mycenaean have own, byzantine has own
 
-  // Andean chain — each has own icon now
+  // Andean chain — all share early-andean
+  'andean-kingdoms': 'early-andean-civilizations',
+  'middle-horizon-empires': 'early-andean-civilizations',
 
   // West African chain
   'songhai-empire': 'mali-empire',

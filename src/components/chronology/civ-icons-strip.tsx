@@ -58,22 +58,10 @@ const ICONS = [
   '/icons/kingdom-of-aksum.png',
   '/icons/meiji-japan.png',
   '/icons/early-american-republic.png',
-  // Batch 5 — chain splits
-  '/icons/old-kingdom-egypt.png',
-  '/icons/new-kingdom-egypt.png',
-  '/icons/late-egypt.png',
-  '/icons/kingdom-of-kush.png',
+  // Batch 5 — chain splits (kept)
   '/icons/soviet-union.png',
   '/icons/vedic-period.png',
   '/icons/maurya-empire.png',
-  '/icons/post-maurya-kingdoms.png',
-  '/icons/gupta-empire.png',
-  '/icons/medieval-india.png',
-  '/icons/shang-dynasty.png',
-  '/icons/zhou-dynasty.png',
-  '/icons/qin-dynasty.png',
-  '/icons/han-dynasty.png',
-  '/icons/six-dynasties.png',
   '/icons/xiongnu-huns.png',
   '/icons/gokturk-khaganate.png',
   '/icons/mongol-empire.png',
@@ -82,11 +70,6 @@ const ICONS = [
   '/icons/byzantine-empire.png',
   '/icons/umayyad-caliphate.png',
   '/icons/safavid-persia.png',
-  '/icons/al-andalus.png',
-  '/icons/edo-japan.png',
-  '/icons/joseon-korea.png',
-  '/icons/andean-kingdoms.png',
-  '/icons/middle-horizon-empires.png',
 ]
 
 const MOBILE_COUNT = 5
