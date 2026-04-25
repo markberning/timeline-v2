@@ -1,0 +1,715 @@
+{
+  "id": "ancestral-puebloans",
+  "label": "Ancestral Puebloans",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Ancestral_Puebloans",
+  "imageWikiSlug": "Cliff_Palace",
+  "pitch": "For over a thousand years, the Ancestral Puebloans built one of North America's most sophisticated civilizations in the arid canyons and mesas of the Four Corners region. Starting as nomadic hunter-gatherers weaving baskets so fine they could hold water, they evolved into master architects who carved entire cities into cliff faces and engineered a road network spanning 400 miles of desert. At Chaco Canyon, they raised Pueblo Bonito — a five-story, 650-room great house aligned to solar and lunar cycles — without metal tools, wheels, or draft animals.\n\n🔑 Key Facts:\n• Chaco Canyon's Great Houses contained over 200 ceremonial kivas, connected by arrow-straight roads visible from space\n• Mesa Verde's Cliff Palace, with 150 rooms and 23 kivas, was the largest cliff dwelling in North America\n• Turquoise workshops at Chaco processed over 200,000 pieces, trading with civilizations as far as Mesoamerica\n• Their astronomical markers at Fajada Butte tracked solstices and equinoxes with pinpoint accuracy\n\n🤔 Why It Matters: The Ancestral Puebloans proved that complex, large-scale civilization could thrive in one of the harshest environments on Earth — without rivers, rainfall, or the agricultural abundance that powered Old World empires. Their descendants, today's Pueblo peoples, maintain one of the longest continuous cultural traditions in the Americas.\n\n🎲 Wild Card: The name 'Anasazi' — used for decades — is actually a Navajo word meaning 'ancient enemies.' Modern Pueblo peoples prefer 'Ancestral Puebloans,' since these were their own ancestors, not their enemies.",
+  "countryIds": [
+    "236"
+  ],
+  "spans": [
+    {
+      "id": "span-ancestral-puebloans-early-basketmaker",
+      "label": "Early Basketmaker Era",
+      "startYear": -100,
+      "endYear": 500,
+      "wikiSlug": "Basketmaker_II_Era",
+      "description": "Small bands of hunter-gatherers in the Four Corners region began cultivating maize and squash while perfecting coiled basketry so tight it could hold water. They lived in shallow pithouses and rock shelters, storing surplus food in slab-lined cists."
+    },
+    {
+      "id": "span-ancestral-puebloans-modified-basketmaker",
+      "label": "Modified Basketmaker Era",
+      "startYear": 500,
+      "endYear": 750,
+      "wikiSlug": "Basketmaker_III_Era",
+      "description": "The adoption of the bow and arrow, pottery, and bean cultivation transformed Puebloan life. Villages of deeper pithouses appeared with dedicated storage rooms, and the first true kivas emerged as underground ceremonial chambers."
+    },
+    {
+      "id": "span-ancestral-puebloans-pueblo-i",
+      "label": "Pueblo I Period",
+      "startYear": 750,
+      "endYear": 900,
+      "wikiSlug": "Pueblo_I_Era",
+      "description": "Communities shifted from pithouses to above-ground masonry roomblocks arranged in arcs or straight rows. Villages grew larger, populations concentrated, and regional trade networks expanded across the Colorado Plateau."
+    },
+    {
+      "id": "span-ancestral-puebloans-pueblo-ii",
+      "label": "Pueblo II Period (Chaco Era)",
+      "startYear": 900,
+      "endYear": 1100,
+      "wikiSlug": "Pueblo_II_Era",
+      "description": "The Chacoan florescence transformed the Four Corners region. Massive great houses rose at Chaco Canyon, connected by an engineered road system spanning hundreds of miles. Turquoise trade, astronomical observation, and ceremonial architecture reached their apex."
+    },
+    {
+      "id": "span-ancestral-puebloans-pueblo-iii",
+      "label": "Pueblo III Period (Mesa Verde Era)",
+      "startYear": 1100,
+      "endYear": 1300,
+      "wikiSlug": "Pueblo_III_Era",
+      "description": "After Chaco's decline, population shifted north to the Mesa Verde region and south to the Cibola and Rio Grande areas. Communities built spectacular cliff dwellings in canyon alcoves, but increasing drought, conflict, and social stress ultimately triggered a mass migration southward."
+    },
+    {
+      "id": "span-ancestral-puebloans-great-migration",
+      "label": "Great Migration",
+      "startYear": 1275,
+      "endYear": 1300,
+      "wikiSlug": "Ancestral_Puebloans#702702702702702702702702",
+      "description": "A devastating mega-drought combined with decades of resource depletion and social conflict drove the complete abandonment of the Four Corners region. Thousands migrated south and east to the Rio Grande Valley, Hopi mesas, and Zuni, founding the Pueblo communities that persist today."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-puebloans-maize-cultivation",
+      "label": "Maize Cultivation Adopted",
+      "year": -100,
+      "description": "Ancestral Puebloan groups in the Four Corners region began cultivating maize originally domesticated in Mexico, supplementing their hunting and gathering with the crop that would become their staple food.",
+      "wikiSlug": "Maize#Origin",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-early-basketry",
+      "label": "Coiled Basketry Tradition",
+      "year": -50,
+      "description": "Basketmaker peoples developed extraordinarily fine coiled baskets woven so tightly they could hold water, using yucca fiber and other desert plants in intricate designs.",
+      "wikiSlug": "Basketmaker_II_Era",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-atlatl-use",
+      "label": "Atlatl Hunting Technology",
+      "year": -100,
+      "description": "Early Basketmaker hunters used the atlatl (spear-thrower) to hunt deer, bighorn sheep, and rabbits across the canyon country, a technology that would be replaced by the bow and arrow around 500 CE.",
+      "wikiSlug": "Atlatl",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-puebloans-first-pithouses",
+      "label": "First Pithouse Villages",
+      "year": 1,
+      "description": "Ancestral Puebloans began building shallow pithouses — semi-subterranean dwellings dug into the earth with timber-and-mud roofs — establishing the first permanent settlements in the Four Corners region.",
+      "wikiSlug": "Pit-house",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-rock-art-basketmaker",
+      "label": "Basketmaker Rock Art",
+      "year": 200,
+      "description": "Basketmaker peoples created distinctive rock art panels featuring broad-shouldered anthropomorphic figures, handprints, and bighorn sheep, pecked and painted on canyon walls across the Four Corners.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-puebloans-turkey-domestication",
+      "label": "Turkey Domestication",
+      "year": 200,
+      "description": "Ancestral Puebloans domesticated the wild turkey, initially raised for their feathers (woven into warm blankets) rather than meat, making it one of the few animals domesticated in pre-Columbian North America.",
+      "wikiSlug": "Domesticated_turkey",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-sandal-craft",
+      "label": "Woven Yucca Sandals",
+      "year": 250,
+      "description": "Basketmaker artisans crafted elaborately woven sandals from yucca fiber, with distinctive square-toe and round-toe styles that varied by region, serving as one of the earliest markers of Puebloan cultural identity.",
+      "wikiSlug": "Basketmaker_II_Era",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-puebloans-bow-arrow-adopted",
+      "label": "Bow and Arrow Adopted",
+      "year": 500,
+      "description": "The bow and arrow replaced the atlatl as the primary hunting weapon, dramatically increasing hunting efficiency and likely shifting the balance of power among competing groups.",
+      "wikiSlug": "Bow_and_arrow",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-puebloans-pottery-begins",
+      "label": "Pottery Production Begins",
+      "year": 500,
+      "description": "Ancestral Puebloans began producing gray-ware pottery using coil-and-scrape techniques, replacing baskets for cooking and storage and enabling more efficient food preparation.",
+      "wikiSlug": "Ancestral_Pueblo_pottery",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-bean-cultivation",
+      "label": "Bean Cultivation Adopted",
+      "year": 500,
+      "description": "The adoption of beans completed the Three Sisters agricultural triad (maize, beans, squash), providing a critical protein source that enabled larger, more sedentary populations.",
+      "wikiSlug": "Three_Sisters_(agriculture)",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-oral-tradition",
+      "label": "Oral Historical Tradition",
+      "year": 500,
+      "description": "Puebloan peoples maintained detailed oral histories passed through generations, including migration narratives, clan origin stories, and ceremonial knowledge — a tradition that continues among modern Pueblo communities.",
+      "wikiSlug": "Oral_tradition",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-puebloans-first-kivas",
+      "label": "First Kivas Emerge",
+      "year": 550,
+      "description": "Modified Basketmaker communities developed the first true kivas — circular underground ceremonial chambers evolved from pithouses — with ventilator shafts, fire pits, and sipapus (symbolic openings to the underworld).",
+      "wikiSlug": "Kiva",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-shabikeshchee",
+      "label": "Shabik'eshchee Village",
+      "year": 580,
+      "description": "Shabik'eshchee Village in Chaco Canyon, with over 60 pithouses and a large communal kiva, represents one of the largest known Modified Basketmaker settlements and an early hint of Chaco's future importance.",
+      "wikiSlug": "Shabik%27eshchee_Village",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-sipapu-cosmology",
+      "label": "Sipapu and Emergence Cosmology",
+      "year": 600,
+      "description": "Kiva floors contain a sipapu — a small symbolic hole representing the place of emergence where humanity climbed from the underworld — reflecting a cosmological framework shared across Puebloan cultures.",
+      "wikiSlug": "Sipapu",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-black-white-pottery",
+      "label": "Black-on-White Pottery",
+      "year": 600,
+      "description": "Puebloan potters developed the iconic black-on-white ceramic tradition, painting geometric designs with yucca-leaf brushes using iron-oxide pigments on polished gray clay.",
+      "wikiSlug": "Ancestral_Pueblo_pottery",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-cotton-arrives",
+      "label": "Cotton Cultivation Arrives",
+      "year": 700,
+      "description": "Cotton cultivation spread northward from Mexico into the Puebloan world, enabling the production of woven cotton textiles that supplemented yucca-fiber and turkey-feather clothing.",
+      "wikiSlug": "Cotton#Americas",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-puebloans-above-ground-masonry",
+      "label": "Above-Ground Masonry Construction",
+      "year": 750,
+      "description": "Communities transitioned from pithouses to above-ground roomblocks built with shaped sandstone blocks and mud mortar, a revolutionary architectural shift that defined the Pueblo periods.",
+      "wikiSlug": "Pueblo_I_Era",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-irrigation-farming",
+      "label": "Irrigation and Water Control",
+      "year": 800,
+      "description": "Puebloan farmers engineered check dams, diversion channels, and grid gardens to capture and direct scarce rainfall onto fields, enabling agriculture in a region receiving less than 10 inches of rain annually.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-conflict-evidence",
+      "label": "Early Evidence of Conflict",
+      "year": 850,
+      "description": "Burned villages and skeletal evidence of violence from the late Pueblo I period suggest growing competition for resources as populations expanded across the Colorado Plateau.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-puebloans-pueblo-bonito-founded",
+      "label": "Pueblo Bonito Founded",
+      "year": 850,
+      "description": "Construction began on Pueblo Bonito in Chaco Canyon, initially a modest crescent-shaped roomblock that would grow over 250 years into the largest great house in the Puebloan world, with over 650 rooms and 40 kivas.",
+      "wikiSlug": "Pueblo_Bonito",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-clan-system",
+      "label": "Clan-Based Social Organization",
+      "year": 900,
+      "description": "Puebloan society organized around matrilineal clans, with women owning houses and fields while clan membership determined ceremonial responsibilities, marriage rules, and community governance.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-chaco-florescence",
+      "label": "Chaco Canyon Florescence",
+      "year": 900,
+      "description": "Chaco Canyon entered its great florescence as a ceremonial and political center, with massive construction projects, engineered roads, and long-distance trade transforming a remote desert canyon into the hub of a regional system.",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-great-house-architecture",
+      "label": "Great House Architecture",
+      "year": 920,
+      "description": "Chacoan builders developed the great house form — massive multi-story structures with core-and-veneer masonry, built with precisely shaped sandstone blocks and hundreds of thousands of wooden beams hauled from forests 50 miles away.",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-chaco-roads",
+      "label": "Chacoan Road System",
+      "year": 950,
+      "description": "The Chacoans engineered an extensive network of arrow-straight roads up to 30 feet wide, cut into bedrock and cleared of vegetation, connecting Chaco Canyon to outlier communities across a 25,000-square-mile area.",
+      "wikiSlug": "Chaco_road_system",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-great-kivas",
+      "label": "Great Kivas at Chaco",
+      "year": 950,
+      "description": "Chacoans built enormous great kivas up to 60 feet in diameter, sunken ceremonial chambers large enough to hold hundreds of people, with massive roof beams, floor vaults, and niches for ritual objects.",
+      "wikiSlug": "Great_kiva",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-timber-transport",
+      "label": "Timber Transport from Distant Forests",
+      "year": 950,
+      "description": "Chacoan builders transported over 200,000 wooden beams from conifer forests in the Chuska and San Mateo mountains 50–70 miles away, carrying them on human backs without wheels or draft animals.",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-puebloans-turquoise-workshops",
+      "label": "Turquoise Workshops at Chaco",
+      "year": 975,
+      "description": "Chaco Canyon became the turquoise processing center of the Southwest, with workshops producing hundreds of thousands of finished pieces from raw stone imported from mines in the Cerrillos Hills near modern Santa Fe.",
+      "wikiSlug": "Turquoise#Americas",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-puebloans-chetro-ketl",
+      "label": "Chetro Ketl Great House",
+      "year": 990,
+      "description": "Construction of Chetro Ketl began in Chaco Canyon, eventually encompassing over 500 rooms, a colonnade of square columns unique in Puebloan architecture, and a great kiva over 60 feet across.",
+      "wikiSlug": "Chetro_Ketl",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-pueblo-bonito-expansion",
+      "label": "Pueblo Bonito Major Expansion",
+      "year": 1000,
+      "description": "Pueblo Bonito underwent its most ambitious expansion, reaching its final D-shaped form of over 650 rooms stacked four to five stories high, making it the largest building in North America until the 1880s.",
+      "wikiSlug": "Pueblo_Bonito",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-chaco-hierarchy",
+      "label": "Chacoan Political Hierarchy",
+      "year": 1000,
+      "description": "Elite burials at Pueblo Bonito — including two individuals interred with thousands of turquoise pieces, shell ornaments, and wooden staffs — suggest a ranked social hierarchy unusual in Puebloan society.",
+      "wikiSlug": "Pueblo_Bonito",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-ritual-calendar",
+      "label": "Pueblo Ceremonial Calendar",
+      "year": 1000,
+      "description": "Chacoans maintained a complex ceremonial calendar tied to agricultural cycles, solstices, and equinoxes, with kiva ceremonies, dances, and feasts coordinating the religious life of outlier communities.",
+      "wikiSlug": "Kiva",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-fajada-butte",
+      "label": "Fajada Butte Sun Dagger",
+      "year": 1000,
+      "description": "Three stone slabs atop Fajada Butte in Chaco Canyon cast a dagger of light through spiral petroglyphs to mark solstices, equinoxes, and the 18.6-year lunar standstill cycle with remarkable precision.",
+      "wikiSlug": "Sun_Dagger",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-petroglyphs",
+      "label": "Petroglyph Panels",
+      "year": 1000,
+      "description": "Puebloan communities carved elaborate petroglyph panels on canyon walls depicting clan symbols, spirals, handprints, animals, and human figures, serving as boundary markers, ceremonial records, and astronomical calendars.",
+      "wikiSlug": "Petroglyph",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-puebloans-mesoamerican-trade",
+      "label": "Mesoamerican Trade Connections",
+      "year": 1000,
+      "description": "Macaw skeletons, copper bells, and cacao residue found at Chaco reveal trade connections stretching over 1,500 miles south to Mesoamerican civilizations, exchanging turquoise for tropical luxury goods.",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-puebloans-chocolate-consumption",
+      "label": "Cacao (Chocolate) at Chaco",
+      "year": 1000,
+      "description": "Chemical analysis of Chacoan cylinder jars revealed cacao residue, proving that Puebloans consumed chocolate drinks imported from tropical Mesoamerica over 1,200 miles to the south.",
+      "wikiSlug": "History_of_chocolate",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-puebloans-lunar-alignments",
+      "label": "Lunar Standstill Alignments",
+      "year": 1020,
+      "description": "Multiple Chacoan great houses are aligned to the 18.6-year lunar standstill cycle, when the moon reaches its maximum and minimum positions on the horizon, suggesting sophisticated long-term astronomical observation.",
+      "wikiSlug": "Lunar_standstill",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-macaw-breeding",
+      "label": "Scarlet Macaw Breeding",
+      "year": 1020,
+      "description": "Chacoans kept and likely bred scarlet macaws imported from tropical Mexico, housing them in special rooms at Pueblo Bonito where their colorful feathers were used in ceremonial regalia.",
+      "wikiSlug": "Pueblo_Bonito",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-outlier-communities",
+      "label": "Chacoan Outlier System",
+      "year": 1050,
+      "description": "Over 150 outlier great houses were built across the San Juan Basin following Chacoan architectural plans, connected by roads and line-of-sight signaling stations to the canyon center.",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-corrugated-pottery",
+      "label": "Corrugated Pottery Tradition",
+      "year": 1050,
+      "description": "Puebloan potters perfected corrugated gray ware with textured coil patterns left unsmoothed on the exterior, creating utilitarian cooking vessels that are among the most recognizable ceramics of the Southwest.",
+      "wikiSlug": "Ancestral_Pueblo_pottery",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-chaco-supernova",
+      "label": "Possible Supernova Pictograph",
+      "year": 1054,
+      "description": "A painted panel in Chaco Canyon showing a crescent and star may depict the 1054 CE supernova that created the Crab Nebula, visible in daylight for weeks — though the interpretation remains debated.",
+      "wikiSlug": "SN_1054",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-puebloans-chimney-rock",
+      "label": "Chimney Rock Great House",
+      "year": 1076,
+      "description": "A Chacoan great house was built at Chimney Rock in southern Colorado, positioned to observe the northern lunar standstill between the site's twin rock spires — a dramatic fusion of architecture and astronomy.",
+      "wikiSlug": "Chimney_Rock_National_Monument",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-aztec-ruins",
+      "label": "Aztec Ruins Great House",
+      "year": 1100,
+      "description": "The Aztec Ruins great house in northern New Mexico, with over 400 rooms and a reconstructed great kiva, served as a major post-Chaco center, possibly inheriting Chaco Canyon's regional leadership role.",
+      "wikiSlug": "Aztec_Ruins_National_Monument",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-mesa-verde-flourishes",
+      "label": "Mesa Verde Flourishes",
+      "year": 1100,
+      "description": "As Chaco declined, the Mesa Verde region in southwestern Colorado became the dominant population center, with thousands of people concentrated on the mesa tops and in surrounding canyons.",
+      "wikiSlug": "Mesa_Verde_National_Park",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-canyon-de-chelly",
+      "label": "Canyon de Chelly Settlements",
+      "year": 1100,
+      "description": "Canyon de Chelly in northeastern Arizona hosted Puebloan cliff dwellings including the iconic White House ruin, tucked into a niche 600 feet below the canyon rim, occupied continuously for centuries.",
+      "wikiSlug": "Canyon_de_Chelly_National_Monument",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-kiva-murals",
+      "label": "Kiva Mural Painting",
+      "year": 1100,
+      "description": "Some Pueblo III kivas featured painted interior murals depicting ceremonial scenes, deities, and cosmological symbols, foreshadowing the elaborate mural traditions of later Pueblo communities like Kuaua and Pottery Mound.",
+      "wikiSlug": "Kiva",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-puebloans-chaco-decline",
+      "label": "Chaco Canyon Declines",
+      "year": 1130,
+      "description": "A prolonged drought beginning around 1130 CE, combined with deforestation and resource depletion, triggered the decline of Chaco Canyon as a regional center. Major construction ceased and populations dispersed.",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-cliff-dwellings",
+      "label": "Cliff Dwelling Construction Begins",
+      "year": 1190,
+      "description": "Around 1190 CE, Mesa Verde communities began building stone dwellings in natural alcoves and cliff overhangs, creating some of the most dramatic architecture in pre-Columbian North America.",
+      "wikiSlug": "Cliff_dwelling",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-cliff-palace",
+      "label": "Cliff Palace Built",
+      "year": 1200,
+      "description": "Cliff Palace at Mesa Verde, with 150 rooms and 23 kivas tucked into a massive sandstone alcove, was the largest cliff dwelling in North America and home to an estimated 100-120 people.",
+      "wikiSlug": "Cliff_Palace",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-puebloans-balcony-house",
+      "label": "Balcony House",
+      "year": 1200,
+      "description": "Balcony House at Mesa Verde, accessible only through a narrow tunnel and up a cliff face, represents the most defensively positioned of the major cliff dwellings, suggesting increasing concerns about security.",
+      "wikiSlug": "Balcony_House",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-puebloans-towers",
+      "label": "Tower Construction at Hovenweep",
+      "year": 1200,
+      "description": "Communities at Hovenweep built distinctive multi-story towers atop boulders and canyon rims, possibly serving as astronomical observatories, defensive lookouts, or ceremonial structures.",
+      "wikiSlug": "Hovenweep_National_Monument",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-defensive-sites",
+      "label": "Defensive Site Locations",
+      "year": 1200,
+      "description": "Many Pueblo III communities chose defensible locations — cliff alcoves, mesa tops, and canyon heads with restricted access — suggesting escalating conflict during the 13th century.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-puebloans-kachina-origins",
+      "label": "Kachina Religious Tradition Emerges",
+      "year": 1250,
+      "description": "The kachina belief system — involving spirit beings who bring rain, fertility, and social cohesion — likely emerged during the upheaval of the late Pueblo III period, becoming central to historic Pueblo religion.",
+      "wikiSlug": "Kachina",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-warfare-intensifies",
+      "label": "Warfare Intensifies",
+      "year": 1250,
+      "description": "Archaeological evidence of burned villages, defensive walls, and skeletal trauma indicates intensifying warfare across the Four Corners region during the mid-13th century, as drought strained resources.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-puebloans-sand-canyon-massacre",
+      "label": "Sand Canyon Pueblo Violence",
+      "year": 1280,
+      "description": "Sand Canyon Pueblo in southwestern Colorado was violently destroyed around 1280 CE, with unburied human remains left scattered through the rooms, one of the starkest examples of late Pueblo III conflict.",
+      "wikiSlug": "Sand_Canyon_Pueblo",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-puebloans-great-drought",
+      "label": "Great Drought Begins",
+      "year": 1276,
+      "description": "Tree-ring data reveals a catastrophic drought from 1276 to 1299 CE — the worst in over a thousand years — that devastated Puebloan agriculture and triggered the final abandonment of the Four Corners region.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-puebloans-four-corners-abandonment",
+      "label": "Four Corners Abandonment",
+      "year": 1285,
+      "description": "Thousands of Ancestral Puebloans abandoned the Mesa Verde, Chaco, and Kayenta regions in a mass migration, leaving behind cliff dwellings and great houses that would stand empty for centuries.",
+      "wikiSlug": "Ancestral_Puebloans",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-rio-grande-migration",
+      "label": "Migration to the Rio Grande",
+      "year": 1290,
+      "description": "Puebloan migrants settled along the Rio Grande in central New Mexico, founding villages that would grow into the historic Pueblos of Taos, Santa Clara, San Ildefonso, and others encountered by the Spanish in the 1500s.",
+      "wikiSlug": "Pueblo_people",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-puebloans-hopi-migration",
+      "label": "Migration to the Hopi Mesas",
+      "year": 1290,
+      "description": "Ancestral Puebloan groups migrated to the Hopi mesas in northeastern Arizona, joining existing communities and establishing a cultural continuity that the Hopi maintain to this day.",
+      "wikiSlug": "Hopi",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-puebloans-richard-wetherill",
+      "label": "Richard Wetherill Discovers Cliff Palace",
+      "year": 1888,
+      "description": "Rancher Richard Wetherill and Charlie Mason stumbled upon Cliff Palace at Mesa Verde while searching for stray cattle in a snowstorm, sparking national fascination with the Ancestral Puebloans.",
+      "wikiSlug": "Richard_Wetherill",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-puebloans-mesa-verde-park",
+      "label": "Mesa Verde National Park Established",
+      "year": 1906,
+      "description": "President Theodore Roosevelt signed the bill creating Mesa Verde National Park, the first national park established to protect archaeological and cultural heritage rather than scenic landscapes.",
+      "wikiSlug": "Mesa_Verde_National_Park",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-puebloans-antiquities-act",
+      "label": "Antiquities Act of 1906",
+      "year": 1906,
+      "description": "Widespread looting of Puebloan ruins helped inspire the Antiquities Act, giving presidents power to protect archaeological sites as national monuments — a direct result of the destruction at Chaco and Mesa Verde.",
+      "wikiSlug": "Antiquities_Act",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-puebloans-kidder-classification",
+      "label": "Pecos Classification System",
+      "year": 1927,
+      "description": "Archaeologist Alfred V. Kidder convened the first Pecos Conference, where scholars established the Basketmaker-Pueblo classification system still used today to organize Ancestral Puebloan cultural periods.",
+      "wikiSlug": "Pecos_Classification",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-puebloans-dendrochronology",
+      "label": "Tree-Ring Dating Revolution",
+      "year": 1929,
+      "description": "Astronomer A.E. Douglass used wooden beams from Puebloan ruins to perfect dendrochronology (tree-ring dating), providing exact construction dates for sites across the Southwest and revolutionizing archaeology worldwide.",
+      "wikiSlug": "Dendrochronology",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-puebloans-chaco-world-heritage",
+      "label": "Chaco Canyon UNESCO World Heritage Site",
+      "year": 1987,
+      "description": "Chaco Culture National Historical Park was designated a UNESCO World Heritage Site, recognizing the great houses and road system as achievements of universal cultural significance.",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-puebloans-nagpra",
+      "label": "NAGPRA and Repatriation",
+      "year": 1990,
+      "description": "The Native American Graves Protection and Repatriation Act required the return of Ancestral Puebloan human remains and sacred objects to descendant communities, reshaping the ethics of Southwestern archaeology.",
+      "wikiSlug": "Native_American_Graves_Protection_and_Repatriation_Act",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}
