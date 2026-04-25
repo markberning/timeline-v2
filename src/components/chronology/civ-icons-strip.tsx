@@ -96,6 +96,15 @@ function labelFromPath(src: string): string {
     .replace(/-/g, ' ')
 }
 
+// Per-icon width overrides (Tailwind w- classes). Default is w-12.
+const ICON_SIZE: Record<string, string> = {
+  '/icons/early-dynastic-egypt.png': 'w-16',
+}
+
+function sizeFor(src: string): string {
+  return ICON_SIZE[src] ?? 'w-12'
+}
+
 export function CivIconsStrip() {
   // Temporarily disable shuffle for icon review
   const icons = ICONS
@@ -106,12 +115,15 @@ export function CivIconsStrip() {
       ref={containerRef}
       className="flex items-end justify-start gap-3 lg:gap-4 px-5 py-1.5 overflow-x-auto shrink-0"
     >
-      {icons.map((src, i) => (
-        <div key={`${i}-${src}`} className="w-12 shrink-0 flex flex-col items-center">
-          <img src={src} alt="" aria-hidden="true" className="w-12 h-auto select-none" draggable={false} />
-          <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
-        </div>
-      ))}
+      {icons.map((src, i) => {
+        const sz = sizeFor(src)
+        return (
+          <div key={`${i}-${src}`} className={`${sz} shrink-0 flex flex-col items-center`}>
+            <img src={src} alt="" aria-hidden="true" className={`${sz} h-auto select-none`} draggable={false} />
+            <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
+          </div>
+        )
+      })}
     </div>
   )
 }
