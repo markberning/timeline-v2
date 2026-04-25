@@ -71,28 +71,26 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     const params = new URLSearchParams(window.location.search)
     const ch = params.get('chapter')
     const hl = params.get('highlight')
+    const matchIdx = parseInt(params.get('match') ?? '0', 10)
 
     if (ch) {
       const n = parseInt(ch, 10)
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
         setOpenChapter(n)
 
-        // If there's a highlight term, suppress accordion scroll and highlight
         if (hl) {
           setHasHighlight(true)
-
-          // Use a fixed-position overlay on document.body so no React
-          // re-render can destroy it. Reposition on every animation frame.
           const timer = setTimeout(() => {
             const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
             if (!container) return
 
             const termLower = hl.toLowerCase()
             const paragraphs = container.querySelectorAll('p')
+            let hitCount = 0
             for (const p of paragraphs) {
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
+              if (hitCount < matchIdx) { hitCount++; continue }
 
-              // Instant scroll, then overlay in next frame
               p.scrollIntoView({ behavior: 'auto', block: 'center' })
 
               requestAnimationFrame(() => {
