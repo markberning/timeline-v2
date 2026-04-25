@@ -124,7 +124,7 @@ export const TL_CHAINS: TlChain[] = [
     id: 'japanese-civilization',
     label: 'Japanese Civilization',
     shortLabel: 'Japan',
-    origins: 'Japan\'s earliest inhabitants were the Jōmon people, hunter-gatherers who produced some of the world\'s oldest pottery. Wet-rice agriculture arrived from the Korean peninsula around 300 BCE, transforming settlement patterns and enabling the rise of powerful clans.',
+    origins: 'Japan\'s earliest inhabitants were the Jōmon people, hunter-gatherers who produced some of the world\'s oldest pottery around 14,000 BCE. Wet-rice agriculture arrived from the Korean peninsula beginning around 900 BCE, transforming settlement patterns and enabling the rise of powerful clans.',
     entries: [
       { timelineId: 'ancient-japan', transition: 'By the late Heian period, imperial court power had waned and warrior clans dominated. After centuries of civil war, Tokugawa Ieyasu unified Japan and established 250 years of isolationist peace.' },
       { timelineId: 'edo-japan', transition: 'American warships in 1853 forced Japan open. The Tokugawa shogunate collapsed, and the Meiji Emperor launched a crash modernization that transformed Japan into an industrial power in a single generation.' },
@@ -171,7 +171,32 @@ export const TL_CHAINS: TlChain[] = [
     ],
   },
 
+  // ── STEPPE ──
+  {
+    id: 'central-asian-steppe',
+    label: 'Central Asian Steppe',
+    shortLabel: 'Steppe',
+    origins: 'The Eurasian steppe — a belt of grassland stretching 5,000 miles from Hungary to Mongolia — produced a succession of nomadic empires built on mounted archery, mobile warfare, and control of the trade routes connecting East and West.',
+    entries: [
+      { timelineId: 'scythians', transition: 'The Scythians were displaced by the Sarmatians in the west, but on the eastern steppe a new power was rising. Modu Chanyu unified the Xiongnu tribes around 209 BCE, creating the first true steppe empire and the template every successor would follow.' },
+      { timelineId: 'xiongnu-huns', transition: 'After the Xiongnu split and their western remnants possibly became the Huns, the steppe saw centuries of smaller confederacies before the Göktürks created the first empire to call itself "Turk."' },
+      { timelineId: 'gokturk-khaganate', transition: 'The Göktürk Khaganate fragmented and was absorbed by the Tang Chinese and Uighurs. Four centuries later, Temüjin united the Mongol tribes and launched the largest contiguous land empire in history.' },
+      { timelineId: 'mongol-empire', transition: 'The Mongol Empire fractured into successor khanates. From the ruins of the Chagatai Khanate, Timur built a Central Asian empire that rivaled the Mongols in military ambition if not in territorial extent.' },
+      { timelineId: 'timurid-empire' },
+    ],
+  },
+
   // ── EUROPE ──
+  {
+    id: 'northern-european',
+    label: 'Northern European',
+    shortLabel: 'N Europe',
+    origins: 'Before the Romans reached northern Europe, Celtic-speaking peoples had built a sophisticated Iron Age civilization across the continent — with salt mines, hilltop fortresses, and an artistic tradition that rivaled anything in the Mediterranean.',
+    entries: [
+      { timelineId: 'celtic-cultures', transition: 'Roman conquest destroyed Celtic political independence in Gaul and Britain, but Celtic culture survived on the fringes — in Ireland, Scotland, and Wales. Centuries later, Scandinavian raiders burst from the same northern edge of Europe.' },
+      { timelineId: 'viking-age' },
+    ],
+  },
   {
     id: 'greco-roman',
     label: 'Greco-Roman World',
@@ -252,18 +277,9 @@ export const TL_CHAINS: TlChain[] = [
   },
 
   // ── GLOBAL ──
-  {
-    id: 'modern-conflicts',
-    label: 'Modern Global Conflicts',
-    shortLabel: 'Modern Wars',
-    origins: 'The alliance systems, imperial rivalries, and arms races of the late 19th century created a powder keg in Europe. When a Serbian nationalist assassinated Archduke Franz Ferdinand in June 1914, the interlocking alliances pulled every major power into war.',
-    entries: [
-      { timelineId: 'world-war-i', transition: 'The punitive Treaty of Versailles, the collapse of empires, and the rise of fascism and communism set the stage for an even deadlier conflict just twenty years later.' },
-      { timelineId: 'world-war-ii', transition: 'World War II\'s aftermath divided the world into two nuclear-armed blocs. The United States and Soviet Union competed for global influence in a Cold War that lasted four decades.' },
-      { timelineId: 'cold-war', transition: 'The Soviet Union\'s collapse in 1991 left the United States as the sole superpower. The September 11 attacks a decade later launched a new era of asymmetric warfare.' },
-      { timelineId: 'war-on-terror' },
-    ],
-  },
+  // modern-conflicts chain removed — its TLs (world-war-i, world-war-ii,
+  // cold-war, war-on-terror) don't exist in the navigator yet. Re-add
+  // when those TLs are created.
 ]
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -272,10 +288,8 @@ export const TL_CHAINS: TlChain[] = [
 //
 // ── TIER 1: Chain existing orphan TLs (minimal new TLs needed) ──
 //
-// Central Asian Steppe
-//   scythians → (xiongnu/huns — NEW) → mongol-empire → (timurids — NEW)
-//   Theme: nomadic empires, horse warfare, Silk Road disruption
-//   Chains 2 existing orphans + 1-2 new TLs
+// Central Asian Steppe — IMPLEMENTED as 'central-asian-steppe'
+//   scythians → xiongnu-huns → gokturk-khaganate → mongol-empire → timurid-empire
 //
 // Islamic Civilization
 //   (umayyad-caliphate — NEW) → islamic-golden-age → (mamluk-sultanate — NEW) → ottoman-empire
@@ -294,10 +308,9 @@ export const TL_CHAINS: TlChain[] = [
 //   Theme: southern African state formation, trade, resistance
 //   Chains 2 existing orphans + 1 new TL
 //
-// Northern European
-//   celtic-world → viking-age → (medieval-scandinavia — NEW)
+// Northern European — IMPLEMENTED as 'northern-european'
+//   celtic-cultures → viking-age (+ medieval-scandinavia planned)
 //   Theme: pre-Christian northern Europe, raids, settlement, conversion
-//   Chains 2 existing orphans + 1 new TL
 //
 // Western European Extended (expand existing chain or parallel track)
 //   Option A: Prepend holy-roman-empire → medieval-europe (already in Ideas chain)

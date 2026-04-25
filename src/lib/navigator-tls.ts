@@ -40,7 +40,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true, hasContent: true },
   { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539, hasContent: true },
   { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609, hasContent: true },
-  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's iron-age horse lords", region: 'near-east', startYear: -1650, endYear: -1178, hasContent: true },
+  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's bronze-age forgotten superpower", region: 'near-east', startYear: -1650, endYear: -1178, hasContent: true },
   { id: 'phoenicia', label: 'Phoenicia', subtitle: "Lebanon's alphabet-inventing sea traders", region: 'near-east', startYear: -1500, endYear: -300, hasContent: true },
   { id: 'ancient-israel', label: 'Ancient Israel', subtitle: "the Hebrew kingdoms and the First Temple", region: 'near-east', startYear: -1020, endYear: -586, hasContent: true },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651, hasContent: true },
@@ -52,13 +52,13 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   // ── AFRICA ──
   { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3500, endYear: -1070, hasContent: true },
   { id: 'early-dynastic-egypt', label: 'Early Egypt', subtitle: 'from Saharan herders to the first pharaohs', region: 'africa', startYear: -5000, endYear: -2686, hasContent: true },
-  { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2181, hasContent: true },
+  { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2055, hasContent: true },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -2055, endYear: -1069, hasContent: true },
   { id: 'kingdom-of-kush', label: 'Kingdom of Kush', subtitle: "Sudan's Black pharaohs", region: 'africa', startYear: -1070, endYear: 350, hasContent: true },
   { id: 'carthage', label: 'Carthage', subtitle: "Hannibal's Mediterranean trade empire", region: 'africa', startYear: -814, endYear: -146, hasContent: true },
   { id: 'late-egypt', label: 'Late Egypt', subtitle: 'pharaohs under foreign rule', region: 'africa', startYear: -664, endYear: -332, hasContent: true },
   { id: 'kingdom-of-aksum', label: 'Kingdom of Aksum', subtitle: "Ethiopia's Red Sea trade empire", region: 'africa', startYear: 80, endYear: 940 },
-  { id: 'mali-empire', label: 'Mali Empire', subtitle: "west Africa's gold, salt, and Mansa Musa", region: 'africa', startYear: 1226, endYear: 1670 },
+  { id: 'mali-empire', label: 'Mali Empire', subtitle: "west Africa's gold, salt, and Mansa Musa", region: 'africa', startYear: 1235, endYear: 1670 },
   { id: 'songhai-empire', label: 'Songhai Empire', subtitle: "Timbuktu's last great ruler", region: 'africa', startYear: 1464, endYear: 1591 },
 
   // ── ASIA (South) ──
