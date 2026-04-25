@@ -118,6 +118,8 @@ const ICON_SIZE: Record<string, string> = {
   '/icons/inca-empire.png': 'w-14',
   '/icons/enlightenment.png': 'w-10',
   '/icons/russian-empire.png': 'w-10',
+  '/icons/hittite-empire.png': 'w-14',
+  '/icons/tang-song-china.png': 'w-14',
 }
 
 function sizeFor(src: string): string {
