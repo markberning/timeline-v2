@@ -109,6 +109,13 @@ const ICON_SIZE: Record<string, string> = {
   '/icons/islamic-golden-age.png': 'w-14',
   '/icons/phoenicia.png': 'w-14',
   '/icons/mughal-empire.png': 'w-14',
+  '/icons/ming-dynasty.png': 'w-14',
+  '/icons/qing-dynasty.png': 'w-14',
+  '/icons/srivijaya.png': 'w-14',
+  '/icons/teotihuacan.png': 'w-14',
+  '/icons/ancestral-puebloans.png': 'w-14',
+  '/icons/mississippian-culture.png': 'w-14',
+  '/icons/inca-empire.png': 'w-14',
 }
 
 function sizeFor(src: string): string {
