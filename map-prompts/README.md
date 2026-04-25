@@ -144,6 +144,14 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 - [kingdom-of-aksum.md](kingdom-of-aksum.md) — 8 chapters (1–8)
 - [six-dynasties.md](six-dynasties.md) — 8 chapters (1–8)
 - [ancestral-puebloans.md](ancestral-puebloans.md) — 8 chapters (1–8)
+- [ancient-japan.md](ancient-japan.md) — 8 chapters (1–8)
+- [andean-kingdoms.md](andean-kingdoms.md) — 8 chapters (1–8)
+- [celtic-cultures.md](celtic-cultures.md) — 8 chapters (1–8)
+- [han-dynasty.md](han-dynasty.md) — 8 chapters (1–8)
+- [post-maurya-kingdoms.md](post-maurya-kingdoms.md) — 8 chapters (1–8)
+- [teotihuacan.md](teotihuacan.md) — 8 chapters (1–8)
+- [xiongnu-huns.md](xiongnu-huns.md) — 8 chapters (1–8)
+- [zapotec-civilization.md](zapotec-civilization.md) — 8 chapters (1–8)
 
 ## Redos
 
