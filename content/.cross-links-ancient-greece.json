@@ -47,35 +47,9 @@
       "blurb": "Darius I responded to the Ionian Revolt by sending the punitive expedition that was defeated at Marathon. From the Persian perspective, Greece was a minor frontier problem — a handful of small cities on the western fringe of an empire stretching from Egypt to the Indus."
     }
   ],
-  "4": [
-    {
-      "matchText": "Phoenicia",
-      "targetTl": "phoenicia",
-      "targetChapter": 4,
-      "blurb": "The Phoenician cities of Tyre and Sidon were the naval backbone of the Persian fleet that fought at Salamis. Alexander's destruction of Tyre in 332 BCE would end Phoenician independence, but Phoenician seamanship had been essential to both Persian and Greek military strategies throughout the 5th century."
-    },
-    {
-      "matchText": "New Kingdom Egypt",
-      "targetTl": "new-kingdom-egypt",
-      "targetChapter": 5,
-      "blurb": "Thutmose III's battle at Megiddo in the 15th century BCE established the Jezreel Valley fortress as a strategic chokepoint. Eight centuries later, Egyptian culture was still influencing Greek art: the Athenian kouros statues of the Archaic period borrow their pose and proportional systems from Egyptian standing figures."
-    }
-  ],
-  "5": [
-    {
-      "matchText": "Assyrian Empire",
-      "targetTl": "assyrian-empire",
-      "targetChapter": 5,
-      "blurb": "The Assyrian Empire had demonstrated a century earlier what happens when an imperial power overextends: Assyria's relentless military campaigns exhausted its resources and provoked universal hatred, leading to its sudden destruction in 612 BCE. Athens' imperial overreach during the Peloponnesian War followed a strikingly similar arc."
-    }
-  ],
+  "4": [],
+  "5": [],
   "6": [
-    {
-      "matchText": "Maurya Empire in India",
-      "targetTl": "maurya-empire",
-      "targetChapter": 1,
-      "blurb": "Chandragupta Maurya founded the Maurya Empire around 322 BCE, roughly contemporary with Alexander's conquests. While Alexander imposed Greek culture by military force, Chandragupta built an Indian imperial system from the Arthashastra's playbook — ruthless pragmatism applied to subcontinental unification."
-    },
     {
       "matchText": "Xenophon",
       "targetTl": "persian-empire",
@@ -84,6 +58,12 @@
     }
   ],
   "7": [
+    {
+      "matchText": "Maurya Empire in India",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Chandragupta Maurya founded the Maurya Empire around 322 BCE, roughly contemporary with Alexander's conquests. While Alexander imposed Greek culture by military force, Chandragupta built an Indian imperial system from the Arthashastra's playbook — ruthless pragmatism applied to subcontinental unification."
+    },
     {
       "matchText": "Phoenicia",
       "targetTl": "phoenicia",

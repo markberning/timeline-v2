@@ -35,7 +35,7 @@
       "blurb": "Egypt's pharaonic tradition, stretching back to the unification around 3100 BCE, produced a divine kingship so absolute that the idea of importing a foreign prince to become pharaoh was unthinkable. The Zannanza affair's extraordinary nature only makes sense against that three-thousand-year tradition."
     },
     {
-      "matchText": "Mitanni kingdom",
+      "matchText": "Mitanni had to fall",
       "targetTl": "assyrian-empire",
       "targetChapter": 3,
       "blurb": "The Mitanni kingdom that Suppiluliuma destroyed had also dominated Assyria for over a century. When the Hittites broke Mitanni, they inadvertently freed Assyria to begin its own rise to power -- Ashur-uballit I exploited the vacuum to establish Assyrian independence."
@@ -55,12 +55,6 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "The diplomatic tradition of vassal treaties, originating in Mesopotamia, was perfected by the Hittites into a sophisticated system of mutual obligations enforced by divine witnesses. The Egyptian-Hittite Peace Treaty was the culmination of this tradition -- a bilateral pact between equals that anticipated modern international law by three millennia."
-    },
-    {
-      "matchText": "Elamite administration",
-      "targetTl": "elamite-civilization",
-      "targetChapter": 8,
-      "blurb": "The Elamite bureaucratic tradition, based at Susa in southwestern Iran, survived the fall of Elam itself and became the administrative spine of the later Persian Empire. The Hittites lacked this kind of deep institutional infrastructure, which helps explain why their empire collapsed so completely when the top fell."
     }
   ],
   "6": [
@@ -72,6 +66,12 @@
     }
   ],
   "7": [
+    {
+      "matchText": "Elamite administration",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 8,
+      "blurb": "The Elamite bureaucratic tradition, based at Susa in southwestern Iran, survived the fall of Elam itself and became the administrative spine of the later Persian Empire. The Hittites lacked this kind of deep institutional infrastructure, which helps explain why their empire collapsed so completely when the top fell."
+    },
     {
       "matchText": "Bronze Age Collapse",
       "targetTl": "mesopotamia",

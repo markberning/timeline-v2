@@ -47,15 +47,13 @@
       "blurb": "The Hellenistic kingdoms created by Alexander's generals had dominated the eastern Mediterranean for over a century. Rome's systematic dismantling of these kingdoms between 200 and 30 BCE brought Greek culture, science, and philosophy flooding into Rome — the conqueror was conquered by the culture it absorbed."
     }
   ],
-  "4": [
+  "5": [
     {
       "matchText": "Parthia",
       "targetTl": "persian-empire",
       "targetChapter": 7,
       "blurb": "The Parthian Empire replaced the Seleucids as the great power of the Iranian world. Rome and Parthia would face each other across the Euphrates frontier for three centuries — neither side able to achieve a decisive victory, creating a strategic stalemate that drained both empires."
-    }
-  ],
-  "5": [
+    },
     {
       "matchText": "Cleopatra VII",
       "targetTl": "late-egypt",
@@ -91,18 +89,18 @@
       "blurb": "The destruction of the Second Temple in 70 CE was a catastrophic event for Judaism, ending the sacrificial cult and accelerating the transformation into a text-based religion centered on synagogue worship and rabbinic interpretation. The spoils of Jerusalem were paraded through Rome and depicted on the Arch of Titus."
     },
     {
-      "matchText": "Sassanid Empire",
-      "targetTl": "persian-empire",
+      "matchText": "Babylonian exile",
+      "targetTl": "ancient-israel",
       "targetChapter": 8,
-      "blurb": "The Sassanid Empire replaced Parthia in 224 CE and proved a far more aggressive enemy than its predecessor. Shapur I's capture of Emperor Valerian in 260 CE was the ultimate humiliation — the first Roman emperor ever taken prisoner by a foreign power."
+      "blurb": "The Babylonian exile of 586 BCE had scattered Jewish communities across the Near East, beginning the diaspora that Christianity would later travel along. The same network of Jewish communities across the Roman Empire that had been established after the exile became the seedbed for early Christian churches."
     }
   ],
   "8": [
     {
-      "matchText": "Sassanid Persians",
+      "matchText": "Sassanid Empire",
       "targetTl": "persian-empire",
       "targetChapter": 8,
-      "blurb": "The Sassanid Empire under Shapur I captured Emperor Valerian in 260 CE and carved a triumph relief at Naqsh-e Rostam showing the Roman emperor on his knees. The Sassanids were a more ideologically driven and militarily organized enemy than the Parthians had been, adding eastern pressure to an already crumbling western frontier."
+      "blurb": "The Sassanid Empire replaced Parthia in 224 CE and proved a far more aggressive enemy than its predecessor. Shapur I's capture of Emperor Valerian in 260 CE was the ultimate humiliation — the first Roman emperor ever taken prisoner by a foreign power."
     },
     {
       "matchText": "Palmyra",
@@ -113,19 +111,19 @@
   ],
   "9": [
     {
-      "matchText": "Ancient Israel",
+      "matchText": "a Jewish sect",
       "targetTl": "ancient-israel",
       "targetChapter": 8,
       "blurb": "Christianity began as a Jewish sect in Roman Judaea, building on the monotheistic tradition that Ancient Israel had forged through centuries of exile and survival. Paul's mission to the Gentiles transformed it from a local Jewish movement into a universal religion that conquered the empire that had crucified its founder."
+    },
+    {
+      "matchText": "Sassanid Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "The Sassanid Empire under Shapur I captured Emperor Valerian in 260 CE and carved a triumph relief at Naqsh-e Rostam showing the Roman emperor on his knees. The Sassanids were a more ideologically driven and militarily organized enemy than the Parthians had been, adding eastern pressure to an already crumbling western frontier."
     }
   ],
   "10": [
-    {
-      "matchText": "Babylonian exile",
-      "targetTl": "ancient-israel",
-      "targetChapter": 8,
-      "blurb": "The Babylonian exile of 586 BCE had scattered Jewish communities across the Near East, beginning the diaspora that Christianity would later travel along. The same network of Jewish communities across the Roman Empire that had been established after the exile became the seedbed for early Christian churches."
-    },
     {
       "matchText": "Gallic sack of 390 BCE",
       "targetTl": "ancient-greece",

@@ -37,9 +37,7 @@
       "targetTl": "indus-valley",
       "targetChapter": 5,
       "blurb": "The Indus Valley civilization developed its own undeciphered seal-based script around 2600 BCE, roughly contemporary with Minoan seal stones. Both civilizations used seals to mark goods and track economic transactions, and both produced scripts that remain unreadable today, making them the two great silent literate cultures of the Bronze Age."
-    }
-  ],
-  "3": [
+    },
     {
       "matchText": "clay tokens used for counting goods evolved into the cuneiform writing system",
       "targetTl": "mesopotamia",
@@ -53,12 +51,6 @@
       "targetTl": "indus-valley",
       "targetChapter": 4,
       "blurb": "The Indus Valley cities of Mohenjo-daro and Harappa built covered brick sewers, household toilets connected to public drains, and the Great Bath, all without any evidence of contact with Crete. Two civilizations thousands of miles apart independently decided that urban sanitation was worth serious engineering investment, while Egypt and Mesopotamia apparently did not."
-    },
-    {
-      "matchText": "Minoan silence about warfare might mean they were actually peaceful",
-      "targetTl": "mesopotamia",
-      "targetChapter": 6,
-      "blurb": "Mesopotamian art is saturated with images of kings trampling enemies, sieges, and mass executions. The Minoans left almost no images of warfare at all. Whether this reflects a genuinely more peaceful society or simply different artistic conventions for expressing power remains one of the most debated questions in Aegean archaeology."
     }
   ],
   "5": [
@@ -69,10 +61,16 @@
       "blurb": "Egypt's 18th Dynasty was the era of Hatshepsut, Thutmose III, and Tutankhamun, and its tomb painters at Thebes recorded the peoples of the known world, including the Keftiu of Crete. The Minoans appear as a recognized foreign power bringing tribute or trade goods, depicted with the same dignity as other major civilizations."
     },
     {
-      "matchText": "Kassite Babylon",
+      "matchText": "Minoan silence about warfare might mean they were actually peaceful",
       "targetTl": "mesopotamia",
-      "targetChapter": 9,
-      "blurb": "The Kassite dynasty ruled Babylon for over four centuries, making it one of the longest-lived dynasties in Mesopotamian history. Their fall to Elamite invasion around 1155 BCE was part of the same Bronze Age Collapse wave that swept away the Mycenaean kingdoms and the remnants of Minoan Crete."
+      "targetChapter": 6,
+      "blurb": "Mesopotamian art is saturated with images of kings trampling enemies, sieges, and mass executions. The Minoans left almost no images of warfare at all. Whether this reflects a genuinely more peaceful society or simply different artistic conventions for expressing power remains one of the most debated questions in Aegean archaeology."
+    },
+    {
+      "matchText": "Egyptian temples were built within walled enclosures",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 6,
+      "blurb": "Egyptian temples were built within walled compounds from the earliest dynastic period onward, and even the most sacred precincts were enclosed by defensive or boundary walls. The Minoan decision to leave their palaces completely unfortified stands out as one of the most unusual choices in Bronze Age architecture."
     }
   ],
   "6": [
@@ -95,12 +93,6 @@
       "targetTl": "early-dynastic-egypt",
       "targetChapter": 8,
       "blurb": "The Sea Peoples raids that hammered the eastern Mediterranean around 1200 BCE were recorded most vividly in the temple inscriptions of Ramesses III. Egypt survived, badly weakened, but the wave of destruction that accompanied the Sea Peoples' migrations contributed to the collapse of every palatial civilization in the Aegean, including the remnants of Minoan Crete."
-    },
-    {
-      "matchText": "Egyptian temples were built within walled enclosures",
-      "targetTl": "early-dynastic-egypt",
-      "targetChapter": 6,
-      "blurb": "Egyptian temples were built within walled compounds from the earliest dynastic period onward, and even the most sacred precincts were enclosed by defensive or boundary walls. The Minoan decision to leave their palaces completely unfortified stands out as one of the most unusual choices in Bronze Age architecture."
     }
   ],
   "8": [

@@ -35,7 +35,7 @@
       "blurb": "Iron arrived in Korea around 400 BCE, nearly a millennium after it transformed Mesopotamia during the Bronze Age Collapse. The technology traveled from the Near East through Central Asia and China before reaching the Korean peninsula — one of the longest technology-transfer chains in ancient history."
     },
     {
-      "matchText": "Han Dynasty in China",
+      "matchText": "Han came to power in 206 BCE",
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "The Han Dynasty that conquered Gojoseon in 108 BCE was at the height of its expansionist phase under Emperor Wu. The same emperor who pushed Chinese borders into Central Asia along the Silk Road also pushed them into Korea, establishing commanderies that would channel Chinese culture into the peninsula for four centuries."
@@ -45,14 +45,6 @@
       "targetTl": "mesopotamia",
       "targetChapter": 8,
       "blurb": "The Hittites were among the earliest iron workers around 1200 BCE, and their mastery of iron contributed to the power struggles that defined the Late Bronze Age in the Near East. The same technology took eight centuries to reach Korea, traveling through China along trade networks that connected the ancient world's two extremes."
-    }
-  ],
-  "4": [
-    {
-      "matchText": "Sixteen Kingdoms",
-      "targetTl": "ancient-china",
-      "targetChapter": 8,
-      "blurb": "While the Three Kingdoms of Korea were taking shape, China itself was fragmented among competing dynasties after the fall of the Han in 220 CE. The chaos in China created opportunities for Korean kingdoms — Goguryeo in particular expanded aggressively during periods when no unified Chinese empire could push back."
     }
   ],
   "5": [
@@ -67,6 +59,18 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 8,
       "blurb": "While Gwanggaeto was conquering Manchuria around 400 CE, complex civilizations in the Americas were also flourishing. The Andean world had already produced monumental architecture and sophisticated societies millennia before Korea's Three Kingdoms era, a reminder that civilizational development was happening independently across the globe."
+    },
+    {
+      "matchText": "Sixteen Kingdoms",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "While the Three Kingdoms of Korea were taking shape, China itself was fragmented among competing dynasties after the fall of the Han in 220 CE. The chaos in China created opportunities for Korean kingdoms — Goguryeo in particular expanded aggressively during periods when no unified Chinese empire could push back."
+    },
+    {
+      "matchText": "fall of the Han Dynasty in 220 CE",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "The Sui Dynasty that Goguryeo broke was itself the product of four centuries of Chinese disunity following the Han collapse in 220 CE. China's repeated cycles of fragmentation and reunification created the geopolitical volatility that Korean kingdoms navigated — sometimes exploiting Chinese weakness, sometimes fighting for survival against a reunified empire."
     }
   ],
   "6": [
@@ -83,17 +87,11 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "The Tang Dynasty was one of China's greatest golden ages — the civilization that built Chang'an (the world's largest city), invented gunpowder, and produced some of the finest poetry in human history. That Silla could fight Tang to a standstill and force it to withdraw from Korea is one of the most remarkable David-and-Goliath outcomes in East Asian history."
-    },
-    {
-      "matchText": "fall of the Han Dynasty in 220 CE",
-      "targetTl": "ancient-china",
-      "targetChapter": 8,
-      "blurb": "The Sui Dynasty that Goguryeo broke was itself the product of four centuries of Chinese disunity following the Han collapse in 220 CE. China's repeated cycles of fragmentation and reunification created the geopolitical volatility that Korean kingdoms navigated — sometimes exploiting Chinese weakness, sometimes fighting for survival against a reunified empire."
     }
   ],
   "8": [
     {
-      "matchText": "Chinese Diamond Sutra",
+      "matchText": "predating the more famous Chinese",
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "The Chinese Diamond Sutra of 868 CE is traditionally cited as the oldest printed document, but the Korean Dharani Sutra from Bulguksa predates it by over a century. Both civilizations were pioneers of printing technology, and Korea would later produce the world's first movable metal type — a Korean innovation that predated Gutenberg by two centuries."
