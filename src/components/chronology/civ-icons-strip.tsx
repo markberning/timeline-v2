@@ -162,13 +162,13 @@ export function CivIconsStrip() {
       {/* Mobile: show 5 */}
       {icons.slice(0, MOBILE_COUNT).map((src, i) => (
         <div key={`m-${i}-${src}`} className="shrink-0 flex items-end justify-center lg:hidden">
-          <img src={src} alt="" aria-hidden="true" className="h-9 w-auto select-none dark:brightness-[1.8]" draggable={false} />
+          <img src={src} alt="" aria-hidden="true" className="h-9 w-auto select-none dark:brightness-[1.3] dark:opacity-60" draggable={false} />
         </div>
       ))}
       {/* Desktop: all icons */}
       {icons.map((src, i) => (
         <div key={`d-${i}-${src}`} className="shrink-0 items-end justify-center hidden lg:flex">
-          <img src={src} alt="" aria-hidden="true" className="h-9 w-auto select-none dark:brightness-[1.8]" draggable={false} />
+          <img src={src} alt="" aria-hidden="true" className="h-9 w-auto select-none dark:brightness-[1.3] dark:opacity-60" draggable={false} />
         </div>
       ))}
     </div>

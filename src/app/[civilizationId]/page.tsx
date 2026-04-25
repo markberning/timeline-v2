@@ -64,7 +64,7 @@ export default async function CivilizationPage({ params }: PageProps) {
               {narrative.label}
             </h1>
             {iconPath && (
-              <img src={iconPath} alt="" className="h-11 w-auto opacity-80 dark:opacity-40 dark:brightness-[1.8]" draggable={false} />
+              <img src={iconPath} alt="" className="h-11 w-auto opacity-80 dark:opacity-30 dark:brightness-[1.3]" draggable={false} />
             )}
           </div>
           <span className="shrink-0 text-[13px] font-semibold px-2.5 py-0.5 rounded-full text-white" style={{ backgroundColor: 'var(--accent)' }}>
