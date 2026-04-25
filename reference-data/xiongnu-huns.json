@@ -1,0 +1,796 @@
+{
+  "id": "xiongnu-huns",
+  "label": "Xiongnu & Huns",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Xiongnu",
+  "imageWikiSlug": "Xiongnu",
+  "pitch": "The Xiongnu were the original steppe superpower — a nomadic confederacy that humiliated Han China at the Battle of Baideng, forced centuries of tribute marriages, and prompted the construction of the Great Wall. Under Modu Chanyu, they built an empire stretching from Manchuria to Central Asia, inventing the political template that every later steppe empire would follow. When Han armies finally broke them, the Northern Xiongnu vanished westward into the grasslands — and something terrifying emerged on the other side.\n\n\ud83d\udd11 Key Facts:\n\u2022 Modu Chanyu murdered his father and unified the steppe tribes with whistling arrows and ruthless discipline\n\u2022 The heqin treaties forced Han China to send imperial princesses, silk, and grain to buy peace from nomads they called barbarians\n\u2022 Emperor Wu's campaigns cost more than the wars were worth — bankrupting the Han treasury to push the Xiongnu beyond the Gobi\n\u2022 Zhang Qian's failed diplomatic mission accidentally opened the Silk Road, connecting China to Rome for the first time\n\u2022 Attila the Hun extracted 2,100 pounds of gold annually from Constantinople and invaded Gaul and Italy before dying on his wedding night\n\n\ud83e\udd14 Why It Matters: The Xiongnu-to-Hun question is one of history's great mysteries — whether the Huns who destroyed Rome's western half were descendants of the nomads who tormented Han China. Either way, steppe peoples on horseback shaped both ends of Eurasia.\n\n\ud83c\udfb2 Wild Card: When Attila died in 453, his empire dissolved overnight — the peoples he'd terrorized for decades dismantled Hun power in a single battle at Nedao, proving that personality-driven empires die with their founders.",
+  "countryIds": [
+    "156",
+    "496"
+  ],
+  "spans": [
+    {
+      "id": "span-xiongnu-early-steppe",
+      "label": "Early Steppe Peoples",
+      "startYear": -400,
+      "endYear": -209,
+      "description": "Before the Xiongnu, various nomadic peoples dominated the Mongolian steppe, raiding the northern Chinese states and prompting the earliest wall-building efforts. The Donghu, Yuezhi, and proto-Xiongnu competed for grazing lands.",
+      "wikiSlug": "Xiongnu#Origins"
+    },
+    {
+      "id": "span-xiongnu-empire",
+      "label": "Xiongnu Empire",
+      "startYear": -209,
+      "endYear": -60,
+      "description": "Modu Chanyu unified the steppe tribes and built a confederacy stretching from Manchuria to Central Asia. The Xiongnu humiliated Han China at Baideng, extracted decades of heqin tribute, and controlled the Silk Road corridor until Emperor Wu's massive military campaigns finally broke their dominance.",
+      "wikiSlug": "Xiongnu#Empire"
+    },
+    {
+      "id": "span-xiongnu-han-wars",
+      "label": "Han-Xiongnu Wars",
+      "startYear": -133,
+      "endYear": -89,
+      "description": "Emperor Wu launched aggressive campaigns against the Xiongnu, sending generals Wei Qing and Huo Qubing deep into the Gobi. The wars bankrupted the Han treasury but pushed the Xiongnu north of the desert and opened the Silk Road.",
+      "wikiSlug": "Han%E2%80%93Xiongnu_War"
+    },
+    {
+      "id": "span-xiongnu-split",
+      "label": "Xiongnu Split & Decline",
+      "startYear": -60,
+      "endYear": 155,
+      "description": "Civil wars split the Xiongnu into Southern and Northern branches. The Southern Xiongnu became Han vassals settled along the frontier, while the Northern Xiongnu were driven progressively westward by Han and Xianbei attacks until they disappeared from Chinese records.",
+      "wikiSlug": "Xiongnu#Split"
+    },
+    {
+      "id": "span-hunnic-migration",
+      "label": "Hunnic Migration Period",
+      "startYear": 350,
+      "endYear": 420,
+      "description": "A fearsome horse-warrior people called the Huns appeared north of the Black Sea around 370, smashing the Ostrogothic and Visigothic kingdoms and triggering the Migration Period that would reshape Europe. Whether they descended from the Xiongnu remains debated.",
+      "wikiSlug": "Huns#Migration_period"
+    },
+    {
+      "id": "span-attila-empire",
+      "label": "Attila's Empire",
+      "startYear": 420,
+      "endYear": 469,
+      "description": "Under Rua and then Attila, the Huns built a multiethnic empire across the Hungarian plain that terrorized both halves of the Roman Empire. Attila's death in 453 triggered immediate collapse — subject peoples revolted and destroyed Hun power at the Battle of Nedao.",
+      "wikiSlug": "Attila#Empire"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-xiongnu-early-nomads",
+      "label": "Steppe Nomadic Culture Matures",
+      "year": -400,
+      "description": "Nomadic pastoral cultures on the Mongolian steppe developed sophisticated horse-riding, herding, and raiding practices that would form the basis of Xiongnu military power.",
+      "wikiSlug": "Eurasian_nomads",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-xiongnu-warring-states-raids",
+      "label": "Nomad Raids on Warring States",
+      "year": -350,
+      "description": "Steppe nomads raided the northern Chinese states of Zhao, Yan, and Qin, prompting these kingdoms to build long walls along their northern frontiers — precursors to the Great Wall.",
+      "wikiSlug": "Xiongnu#Origins",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-composite-bow",
+      "label": "Xiongnu Composite Bow",
+      "year": -300,
+      "description": "The Xiongnu perfected a powerful recurve composite bow made from horn, sinew, and wood that could be fired from horseback with devastating accuracy, giving steppe warriors an edge over infantry armies.",
+      "wikiSlug": "Composite_bow",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-xiongnu-touman",
+      "label": "Touman Becomes Chanyu",
+      "year": -220,
+      "description": "Touman led the Xiongnu confederation as chanyu during the Qin unification of China, but his favoritism toward a younger son over Modu would prove fatal.",
+      "wikiSlug": "Touman",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-meng-tian",
+      "label": "Meng Tian Drives Back the Xiongnu",
+      "year": -215,
+      "description": "Qin general Meng Tian led 300,000 troops to push the Xiongnu north of the Yellow River bend and connected existing walls into a continuous Great Wall fortification.",
+      "wikiSlug": "Meng_Tian",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-modu-rise",
+      "label": "Modu Chanyu Seizes Power",
+      "year": -209,
+      "description": "Modu murdered his father Touman with an arrow after training his warriors to shoot at whatever target he aimed at — including his favorite horse and his own wife. The patricide created the most powerful steppe empire the world had yet seen.",
+      "wikiSlug": "Modu_Chanyu",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-whistling-arrows",
+      "label": "Whistling Arrow Discipline",
+      "year": -209,
+      "description": "Modu trained his elite guard to shoot wherever his whistling arrow flew, executing any who hesitated — a legendary test of obedience that culminated in killing his own father.",
+      "wikiSlug": "Modu_Chanyu#Rise_to_power",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-xiongnu-donghu-defeat",
+      "label": "Modu Destroys the Donghu",
+      "year": -208,
+      "description": "Modu crushed the Donghu confederation to the east, enslaving their people and eliminating the Xiongnu's most dangerous rival on the steppe.",
+      "wikiSlug": "Donghu_people",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-yuezhi-defeat",
+      "label": "Xiongnu Defeat the Yuezhi",
+      "year": -203,
+      "description": "Modu drove the Yuezhi from their Gansu corridor homelands westward, eventually forcing their migration to Bactria — a displacement that reshaped Central Asian politics for centuries.",
+      "wikiSlug": "Yuezhi#Conflict_with_the_Xiongnu",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-baideng",
+      "label": "Battle of Baideng",
+      "year": -200,
+      "description": "Modu trapped Han emperor Gaozu and his army on Mount Baideng for seven days. The humiliated emperor escaped only through bribing Modu's wife, and China was forced to accept the heqin treaty system.",
+      "wikiSlug": "Battle_of_Baideng",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-heqin-treaties",
+      "label": "First Heqin Treaty",
+      "year": -198,
+      "description": "Han China agreed to send imperial princesses, silk, grain, and wine to the Xiongnu chanyu as tribute — a humiliating 'peace and kinship' arrangement that acknowledged Xiongnu military superiority.",
+      "wikiSlug": "Heqin",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-xiongnu-sky-worship",
+      "label": "Tengri Sky Worship",
+      "year": -200,
+      "description": "The Xiongnu worshipped Tengri, the eternal sky god, with the chanyu holding the title 'Son of Heaven' (Chengli Gutu) — a parallel to the Chinese emperor's mandate that implied equal cosmic authority.",
+      "wikiSlug": "Tengrism",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-xiongnu-confederation",
+      "label": "Xiongnu Empire at Peak",
+      "year": -190,
+      "description": "Under Modu, the Xiongnu controlled territory from Manchuria to the Altai Mountains, with vassal peoples including the Wusun, Loulan, and Qiang — the largest steppe empire before the Turks and Mongols.",
+      "wikiSlug": "Xiongnu#Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-modu-letter",
+      "label": "Modu's Insulting Letter to Empress Lu",
+      "year": -192,
+      "description": "Modu sent a letter to the widowed Empress Lu proposing marriage in deliberately crude terms. She swallowed the insult and renewed the heqin treaty, demonstrating the power imbalance between the two empires.",
+      "wikiSlug": "Modu_Chanyu#Relations_with_Han",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-xiongnu-lateral-succession",
+      "label": "Xiongnu Political System",
+      "year": -185,
+      "description": "The Xiongnu chanyu ruled through a dual administration with 'left' and 'right' wise kings governing the eastern and western wings — a decimal military-political system that later steppe empires would copy.",
+      "wikiSlug": "Xiongnu#Political_organization",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-laoshang",
+      "label": "Laoshang Chanyu",
+      "year": -174,
+      "description": "Modu's son Laoshang continued Xiongnu expansion, finishing off the Yuezhi by killing their king and turning his skull into a drinking cup — a steppe custom that horrified Chinese chroniclers.",
+      "wikiSlug": "Laoshang_Chanyu",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-silk-tribute",
+      "label": "Silk Flows to the Steppe",
+      "year": -170,
+      "description": "Heqin treaties sent enormous quantities of Chinese silk to the Xiongnu, who traded it westward along proto-Silk Road routes — inadvertently connecting Chinese manufacturing to Central Asian and Mediterranean markets.",
+      "wikiSlug": "Heqin#Gifts",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-xiongnu-horse-breeding",
+      "label": "Xiongnu Horse Herding",
+      "year": -180,
+      "description": "The Xiongnu bred hardy Mongolian horses suited to the harsh steppe climate, maintaining vast herds that provided transportation, food (mare's milk and meat), and the foundation of their military power.",
+      "wikiSlug": "Mongolian_horse",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-xiongnu-junchen",
+      "label": "Junchen Chanyu",
+      "year": -161,
+      "description": "Junchen Chanyu maintained Xiongnu pressure on the Han frontier, launching a major raid in 166 BCE that reached within sight of the Han capital Chang'an, terrifying the court.",
+      "wikiSlug": "Junchen_Chanyu",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-sima-qian",
+      "label": "Sima Qian Records Xiongnu History",
+      "year": -100,
+      "description": "Grand Historian Sima Qian devoted a chapter of the Shiji to the Xiongnu, providing the most detailed ancient account of their origins, customs, and wars — virtually everything we know about early Xiongnu comes from his pen.",
+      "wikiSlug": "Records_of_the_Grand_Historian",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-xiongnu-no-writing",
+      "label": "Xiongnu Oral Tradition",
+      "year": -200,
+      "description": "The Xiongnu left no written records of their own, relying on oral tradition for their history and laws. Everything known about them comes from Chinese sources, making the Xiongnu perspective on their own empire permanently lost.",
+      "wikiSlug": "Xiongnu#Language",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-xiongnu-mayi-ambush",
+      "label": "Mayi Ambush Fails",
+      "year": -133,
+      "description": "Emperor Wu attempted to lure 100,000 Xiongnu warriors into a trap at Mayi, but the chanyu discovered the ambush and withdrew — ending the heqin policy and beginning decades of open war.",
+      "wikiSlug": "Battle_of_Mayi",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-zhang-qian",
+      "label": "Zhang Qian's First Mission",
+      "year": -138,
+      "description": "Emperor Wu sent Zhang Qian to find the Yuezhi and forge an anti-Xiongnu alliance. Captured by the Xiongnu for ten years, Zhang eventually reached Bactria — his reports opened Chinese eyes to Central Asia and launched the Silk Road.",
+      "wikiSlug": "Zhang_Qian",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-xiongnu-zhang-qian-second",
+      "label": "Zhang Qian's Second Mission",
+      "year": -119,
+      "description": "Zhang Qian's second diplomatic mission reached the Wusun in the Ili Valley, establishing trade contacts that extended Chinese influence deep into Central Asia and formalized Silk Road connections.",
+      "wikiSlug": "Zhang_Qian#Second_journey",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-xiongnu-wei-qing",
+      "label": "Wei Qing's Campaigns",
+      "year": -129,
+      "description": "General Wei Qing launched the first successful Han counteroffensives against the Xiongnu, recapturing the Ordos Loop south of the Yellow River and establishing military colonies on former Xiongnu pastures.",
+      "wikiSlug": "Wei_Qing",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-huo-qubing",
+      "label": "Huo Qubing's Lightning Strikes",
+      "year": -121,
+      "description": "The teenage prodigy Huo Qubing led daring cavalry raids deep into the Hexi Corridor, defeating the Xiongnu right wise king and capturing the golden man idol used in Xiongnu worship — dying at just 24 but changing the strategic balance permanently.",
+      "wikiSlug": "Huo_Qubing",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-xiongnu-mobei",
+      "label": "Battle of Mobei",
+      "year": -119,
+      "description": "Wei Qing and Huo Qubing led a massive two-pronged invasion north of the Gobi Desert, shattering the Xiongnu main force and driving the chanyu's court into the remote northern steppe.",
+      "wikiSlug": "Battle_of_Mobei",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-silk-road-opens",
+      "label": "Silk Road Trade Begins",
+      "year": -115,
+      "description": "With the Xiongnu pushed from the Hexi Corridor, regular trade caravans began moving between China and Central Asia, creating the commercial network that would connect Rome and Han China.",
+      "wikiSlug": "Silk_Road",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-xiongnu-wusun-alliance",
+      "label": "Wusun Alliance Against Xiongnu",
+      "year": -105,
+      "description": "Han China forged a marriage alliance with the Wusun people of the Ili Valley, opening a second front against the Xiongnu and further isolating them from their western territories.",
+      "wikiSlug": "Wusun",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-xiongnu-li-ling",
+      "label": "Li Ling's Defeat and Defection",
+      "year": -99,
+      "description": "Han general Li Ling fought heroically with 5,000 infantry against 80,000 Xiongnu cavalry before surrendering. His defection to the Xiongnu caused a scandal — Sima Qian was castrated for defending him.",
+      "wikiSlug": "Li_Ling_(general)",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-xiongnu-succession-crisis",
+      "label": "Xiongnu Civil War",
+      "year": -60,
+      "description": "Five claimants fought for the chanyu title simultaneously, shattering Xiongnu unity. The civil war split the confederacy into rival factions and fatally weakened the empire's ability to resist Han pressure.",
+      "wikiSlug": "Xiongnu#Disunity",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-huhanye",
+      "label": "Huhanye Chanyu Submits to Han",
+      "year": -51,
+      "description": "Huhanye Chanyu traveled to the Han court and formally acknowledged Chinese suzerainty — the first time a Xiongnu ruler had bowed to a Chinese emperor, marking a dramatic reversal of the power dynamic.",
+      "wikiSlug": "Huhanye_Chanyu",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-wang-zhaojun",
+      "label": "Wang Zhaojun Sent as Bride",
+      "year": -33,
+      "description": "Court lady Wang Zhaojun was sent to marry Huhanye Chanyu as part of a heqin agreement. Her story became one of the most celebrated tales in Chinese literature — the beautiful woman sacrificed to appease the barbarians.",
+      "wikiSlug": "Wang_Zhaojun",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-xiongnu-zhizhi-defeat",
+      "label": "Zhizhi Chanyu Killed in Central Asia",
+      "year": -36,
+      "description": "Han general Chen Tang destroyed the rival Northern Chanyu Zhizhi at Talas in modern Kazakhstan — the westernmost military action of the Han dynasty, eliminating the anti-Han Xiongnu faction.",
+      "wikiSlug": "Battle_of_Zhizhi",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-noin-ula",
+      "label": "Noin-Ula Royal Tombs",
+      "year": -20,
+      "description": "The Noin-Ula burial site in northern Mongolia contained elite Xiongnu graves with Chinese silk, Greek-inspired textiles, and lacquerware — evidence of the Xiongnu's far-reaching trade connections.",
+      "wikiSlug": "Noyon_uul",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-xiongnu-ivolga",
+      "label": "Ivolga Fortress Settlement",
+      "year": -100,
+      "description": "The fortified Xiongnu settlement at Ivolga near Lake Baikal contained permanent buildings, grain storage, and workshops — evidence that the 'purely nomadic' Xiongnu also maintained settled communities.",
+      "wikiSlug": "Xiongnu#Archaeology",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-xiongnu-burial-practices",
+      "label": "Xiongnu Elite Burials",
+      "year": -150,
+      "description": "Xiongnu elites were buried in deep shaft graves under stone-ringed mounds with horses, weapons, Chinese luxury goods, and sometimes sacrificed attendants, reflecting a belief in an afterlife mirroring earthly status.",
+      "wikiSlug": "Xiongnu#Burials",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-xiongnu-shamanism",
+      "label": "Xiongnu Shamanic Practices",
+      "year": -180,
+      "description": "Xiongnu shamans mediated between the living and spirit worlds, performing rituals tied to seasonal migrations, warfare, and the worship of sacred mountains, rivers, and the eternal sky.",
+      "wikiSlug": "Xiongnu#Religion",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-xiongnu-metalwork",
+      "label": "Xiongnu Bronze and Gold Art",
+      "year": -150,
+      "description": "Xiongnu artisans produced distinctive bronze plaques and gold ornaments depicting animals in combat — stylistically related to Scythian animal art but with unique Mongolian steppe characteristics.",
+      "wikiSlug": "Xiongnu#Art",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-xiongnu-annual-assembly",
+      "label": "Annual Assembly at Longcheng",
+      "year": -190,
+      "description": "Each autumn the Xiongnu gathered at Longcheng (Dragon City) for a great assembly where the chanyu conducted sacrifices to heaven, reviewed troops, and settled disputes among the tribes.",
+      "wikiSlug": "Xiongnu#Political_organization",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-xiongnu-south-split",
+      "label": "Split into Southern and Northern Xiongnu",
+      "year": 48,
+      "description": "The Xiongnu formally split: the Southern Xiongnu under Bi Chanyu submitted to the Han and settled along the frontier as federates, while the Northern Xiongnu maintained independence on the Mongolian steppe.",
+      "wikiSlug": "Southern_Xiongnu",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-ban-chao",
+      "label": "Ban Chao's Western Regions Campaigns",
+      "year": 73,
+      "description": "Han general Ban Chao spent three decades pacifying the Western Regions, cutting off Northern Xiongnu access to Silk Road oases and tightening the strategic noose around the remaining steppe power.",
+      "wikiSlug": "Ban_Chao",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-battle-ikh-bayan",
+      "label": "Battle of Ikh Bayan",
+      "year": 89,
+      "description": "A combined Han-Southern Xiongnu force crushed the Northern Xiongnu at Ikh Bayan, killing or capturing over 200,000 and effectively destroying the Northern Chanyu's power on the Mongolian steppe.",
+      "wikiSlug": "Battle_of_Ikh_Bayan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xiongnu-northern-vanish",
+      "label": "Northern Xiongnu Driven West",
+      "year": 93,
+      "description": "The remnants of the Northern Xiongnu fled westward beyond the Altai Mountains, disappearing from Chinese records. Their fate — and whether they eventually became the Huns — remains one of history's great mysteries.",
+      "wikiSlug": "Northern_Xiongnu",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-southern-frontier",
+      "label": "Southern Xiongnu as Frontier Guards",
+      "year": 50,
+      "description": "The Southern Xiongnu settled in the Ordos region as Han frontier guards, receiving grain stipends and gradually adopting Chinese customs while maintaining their tribal military organization.",
+      "wikiSlug": "Southern_Xiongnu",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-xiongnu-ban-gu",
+      "label": "Ban Gu's Hanshu on the Xiongnu",
+      "year": 80,
+      "description": "Historian Ban Gu continued Sima Qian's account of the Xiongnu in the Book of Han, providing detailed records of diplomatic exchanges, military campaigns, and the internal politics of the chanyu's court.",
+      "wikiSlug": "Book_of_Han",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-xiongnu-liu-yuan",
+      "label": "Liu Yuan Founds Han Zhao",
+      "year": 304,
+      "description": "Liu Yuan, a Sinicized Southern Xiongnu aristocrat, declared himself emperor of a revived Han dynasty — the first of the Sixteen Kingdoms that fragmented northern China after the Western Jin collapse.",
+      "wikiSlug": "Liu_Yuan_(emperor)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-xiongnu-sack-luoyang",
+      "label": "Xiongnu Sack Luoyang",
+      "year": 311,
+      "description": "Liu Yuan's successor Liu Cong captured and sacked the Western Jin capital Luoyang, taking the emperor prisoner — a shocking reversal in which former frontier barbarians destroyed China's imperial capital.",
+      "wikiSlug": "Fall_of_Luoyang",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-xiongnu-debate",
+      "label": "The Xiongnu-Hun Connection Debate",
+      "year": 370,
+      "description": "Whether the European Huns descended from the Xiongnu remains unresolved. Linguistic, genetic, and archaeological evidence is fragmentary — the 300-year gap between the Northern Xiongnu's disappearance and the Huns' arrival has never been conclusively bridged.",
+      "wikiSlug": "Huns#Relationship_to_the_Xiongnu",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-huns-arrive-europe",
+      "label": "Huns Arrive North of Black Sea",
+      "year": 370,
+      "description": "A terrifying horse-warrior people called the Huns appeared north of the Black Sea, crushing the Alans and triggering panic among the Gothic peoples — the beginning of the end for the Western Roman Empire.",
+      "wikiSlug": "Huns#In_Europe",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-ostrogoths",
+      "label": "Huns Destroy the Ostrogothic Kingdom",
+      "year": 375,
+      "description": "The Huns crushed the Ostrogothic kingdom of Ermanaric north of the Black Sea, subjugating the Ostrogoths and driving the Visigoths in panic toward the Roman frontier on the Danube.",
+      "wikiSlug": "Ermanaric",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-visigoths-flee",
+      "label": "Visigoths Flee Across the Danube",
+      "year": 376,
+      "description": "Terrified by the Huns, the Visigoths begged Emperor Valens for asylum within the Roman Empire. Their desperate crossing of the Danube set in motion the chain of events that would destroy Rome's western half.",
+      "wikiSlug": "Gothic_War_(376%E2%80%93382)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-cranial-deformation",
+      "label": "Hunnic Cranial Deformation",
+      "year": 380,
+      "description": "The Huns practiced artificial cranial deformation, binding infants' heads to produce elongated skulls — a dramatic body modification that spread to subject peoples and horrified Roman observers.",
+      "wikiSlug": "Artificial_cranial_deformation",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-huns-roman-mercenaries",
+      "label": "Huns Serve as Roman Mercenaries",
+      "year": 380,
+      "description": "Roman generals hired Hunnic cavalry as mercenaries, prizing their mounted archery skills. The arrangement gave Huns gold, intelligence about Roman weaknesses, and a front-row seat to the empire's internal divisions.",
+      "wikiSlug": "Huns#Roman_Empire_relations",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-huns-ammianus",
+      "label": "Ammianus Marcellinus Describes the Huns",
+      "year": 390,
+      "description": "Roman historian Ammianus Marcellinus wrote the earliest detailed account of the Huns: barely human in appearance, eating raw meat softened under their saddles, living on horseback, and terrifying in battle.",
+      "wikiSlug": "Ammianus_Marcellinus",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-huns-uldin",
+      "label": "Uldin's Campaigns",
+      "year": 400,
+      "description": "Hunnic leader Uldin operated along the Danube frontier, alternately fighting for and against Rome. He helped defeat the Gothic rebel Gainas in 400 and raided Thrace in 408 before his followers defected.",
+      "wikiSlug": "Uldin",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huns-pannonian-base",
+      "label": "Huns Establish Hungarian Plain Base",
+      "year": 410,
+      "description": "The Huns consolidated control of the Hungarian plain (Pannonia), whose flat grasslands were ideal for their horse-based lifestyle and became the center of their growing multiethnic empire.",
+      "wikiSlug": "Huns#Hungarian_plain",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-huns-rua",
+      "label": "Rua Unifies the Huns",
+      "year": 420,
+      "description": "Rua (Rugila) consolidated Hunnic power and forced Constantinople to pay annual tribute of 350 pounds of gold, transforming the Huns from a loose confederation of raiders into a centralized extortion machine.",
+      "wikiSlug": "Rugila",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huns-attila-bleda",
+      "label": "Attila and Bleda Become Co-Rulers",
+      "year": 434,
+      "description": "Rua's nephews Attila and Bleda inherited joint rule of the Hunnic empire and immediately negotiated the Treaty of Margus, doubling Constantinople's tribute payments to 700 pounds of gold annually.",
+      "wikiSlug": "Bleda",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huns-treaty-margus",
+      "label": "Treaty of Margus",
+      "year": 435,
+      "description": "The Treaty of Margus doubled Eastern Roman tribute to the Huns, required the return of Hunnic fugitives, and restricted Roman trade to designated frontier markets — terms that revealed Constantinople's desperation.",
+      "wikiSlug": "Treaty_of_Margus",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-huns-bleda-murdered",
+      "label": "Attila Murders Bleda",
+      "year": 445,
+      "description": "Attila killed his brother Bleda and became sole ruler of the Hunnic empire. The circumstances are murky — Roman sources hint at assassination during a hunting trip — but the result gave Attila unchallenged power.",
+      "wikiSlug": "Attila#Sole_ruler",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huns-balkan-raids",
+      "label": "Attila Devastates the Balkans",
+      "year": 441,
+      "description": "Attila launched massive raids across the Balkans, destroying the Roman cities of Singidunum, Sirmium, and Naissus and advancing to within miles of Constantinople before the Theodosian Walls stopped him.",
+      "wikiSlug": "Attila#Campaigns_against_the_Eastern_Roman_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-priscus",
+      "label": "Priscus Visits Attila's Court",
+      "year": 449,
+      "description": "Byzantine diplomat Priscus visited Attila's wooden palace on the Hungarian plain and left the only eyewitness account: Attila ate plain food from wooden plates while his guests feasted on silver, and wept at the songs of his bards.",
+      "wikiSlug": "Priscus",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-huns-honoria",
+      "label": "Honoria's Ring to Attila",
+      "year": 450,
+      "description": "Western Roman princess Justa Grata Honoria secretly sent her ring to Attila, who interpreted it as a marriage proposal and demanded half the Western Empire as dowry — providing his pretext to invade Gaul.",
+      "wikiSlug": "Justa_Grata_Honoria",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-huns-catalaunian-plains",
+      "label": "Battle of the Catalaunian Plains",
+      "year": 451,
+      "description": "A coalition of Romans and Visigoths under Aetius fought Attila's multiethnic army to a standstill near Chalons in Gaul — one of the most consequential battles in European history, halting the Hunnic advance westward.",
+      "wikiSlug": "Battle_of_the_Catalaunian_Plains",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-aetius",
+      "label": "Aetius, the Last Roman",
+      "year": 451,
+      "description": "Flavius Aetius, who had spent his youth as a hostage among the Huns and used Hunnic mercenaries throughout his career, organized the allied defense against his former hosts at the Catalaunian Plains.",
+      "wikiSlug": "Flavius_Aetius",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-huns-italy-invasion",
+      "label": "Attila Invades Italy",
+      "year": 452,
+      "description": "Attila crossed the Alps and sacked Aquileia, Milan, and other northern Italian cities. Refugees fleeing the destruction founded settlements in the Venetian lagoon — the legendary origin of Venice.",
+      "wikiSlug": "Attila%27s_invasion_of_Italy",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-pope-leo",
+      "label": "Attila Meets Pope Leo I",
+      "year": 452,
+      "description": "Pope Leo I met Attila at the Mincio River and persuaded him to withdraw from Italy. The real reasons likely included plague in Attila's army and Eastern Roman reinforcements, but the legend of papal intervention endured for centuries.",
+      "wikiSlug": "Pope_Leo_I#Confrontation_with_Attila",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-huns-attila-death",
+      "label": "Death of Attila",
+      "year": 453,
+      "description": "Attila died on his wedding night to a young Gothic bride named Ildico, reportedly from a nosebleed after heavy drinking. His warriors mourned by slashing their faces so the greatest warrior would be wept in blood, not tears.",
+      "wikiSlug": "Attila#Death",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huns-nedao",
+      "label": "Battle of Nedao",
+      "year": 454,
+      "description": "The Gepids, Ostrogoths, and other subject peoples revolted against Attila's sons and destroyed Hunnic power at the Battle of Nedao. The Hunnic empire disintegrated within a year of Attila's death.",
+      "wikiSlug": "Battle_of_Nedao",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-sons-fight",
+      "label": "Attila's Sons Fight Each Other",
+      "year": 454,
+      "description": "Attila's numerous sons — Ellac, Dengizich, and Ernak among them — fought each other for the succession, fatally dividing the remaining Hunnic forces and enabling their subject peoples' revolt.",
+      "wikiSlug": "Ellac",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huns-dengizich",
+      "label": "Dengizich's Last Stand",
+      "year": 469,
+      "description": "Attila's son Dengizich led the last major Hunnic raid into Roman territory and was killed. His head was displayed on a pole in Constantinople's Hippodrome — the final act of the Hunnic threat to Europe.",
+      "wikiSlug": "Dengizich",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huns-dissolution",
+      "label": "Hunnic Peoples Absorbed",
+      "year": 469,
+      "description": "The remaining Huns fragmented into small groups that were absorbed by the Gepids, Ostrogoths, Avars, and Bulgars — the Hunnic name disappeared from history as quickly as it had appeared.",
+      "wikiSlug": "Huns#Successor_states",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
