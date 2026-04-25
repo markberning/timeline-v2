@@ -43,7 +43,6 @@ const ICONS = [
   '/icons/zapotec-civilization.png',
   '/icons/teotihuacan.png',
   '/icons/ancestral-puebloans.png',
-  '/icons/mississippian-culture.png',
   // Batch 3 — pending from master sheet
   '/icons/elamite-civilization.png',
   '/icons/ancient-greece.png',
@@ -66,7 +65,6 @@ const ICONS = [
   '/icons/gokturk-khaganate.png',
   '/icons/mongol-empire.png',
   '/icons/minoan-civilization.png',
-  '/icons/mycenaean-civilization.png',
   '/icons/byzantine-empire.png',
   '/icons/umayyad-caliphate.png',
   '/icons/safavid-persia.png',
@@ -125,6 +123,7 @@ const ICON_SIZE: Record<string, string> = {
   '/icons/qing-dynasty.png': 'w-14',
   '/icons/srivijaya.png': 'w-14',
   '/icons/khmer-empire.png': 'w-14',
+  '/icons/ancient-korea.png': 'w-10',
   '/icons/teotihuacan.png': 'w-14',
   '/icons/ancestral-puebloans.png': 'w-16',
   '/icons/mississippian-culture.png': 'w-16',

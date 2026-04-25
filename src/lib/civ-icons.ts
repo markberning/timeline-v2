@@ -41,7 +41,11 @@ const SHARED_ICON: Record<string, string> = {
   'joseon-korea': 'ancient-korea',
   'korean-modern': 'ancient-korea',
 
-  // Greco-Roman — minoan + mycenaean have own, byzantine has own
+  // Greco-Roman — minoan has own, mycenaean shares ancient-greece, byzantine has own
+  'mycenaean-civilization': 'ancient-greece',
+
+  // Mississippian shares ancestral-puebloans
+  'mississippian-culture': 'ancestral-puebloans',
 
   // Andean chain — all share early-andean
   'andean-kingdoms': 'early-andean-civilizations',
