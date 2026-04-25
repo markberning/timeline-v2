@@ -210,11 +210,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
 
               {/* Action pills row — shown on active via CSS */}
               <div className="civ-row-pills flex items-center gap-2 mt-2">
-                {civ.hasContent && (
-                  <div className="civ-row-enter shrink-0 px-3 py-1 rounded-md text-[12px] font-bold text-white" style={{ backgroundColor: color }}>
-                    Read →
-                  </div>
-                )}
                 {chainInfo && (
                   <button
                     className="civ-row-chain-pill shrink-0 px-3 py-1 rounded-md text-[12px] font-bold border cursor-pointer"
@@ -229,6 +224,11 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
                   >
                     {chainInfo.chain.shortLabel} {chainInfo.index + 1}/{chainInfo.total}
                   </button>
+                )}
+                {civ.hasContent && (
+                  <div className="civ-row-enter shrink-0 px-3 py-1 rounded-md text-[12px] font-bold text-white" style={{ backgroundColor: color }}>
+                    Read →
+                  </div>
                 )}
               </div>
             </div>
