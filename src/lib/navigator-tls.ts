@@ -78,7 +78,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'zhou-dynasty', label: 'Zhou Dynasty', subtitle: 'Confucius and the Warring States', region: 'asia', startYear: -1046, endYear: -256, hasContent: true },
   { id: 'qin-dynasty', label: 'Qin Dynasty', subtitle: 'China unified by terror and law', region: 'asia', startYear: -356, endYear: -206, hasContent: true },
   { id: 'han-dynasty', label: 'Han Dynasty', subtitle: "China's silk-road golden age", region: 'asia', startYear: -206, endYear: 220, hasContent: true },
-  { id: 'six-dynasties', label: 'Six Dynasties', subtitle: 'China divided north and south', region: 'asia', startYear: 220, endYear: 589 },
+  { id: 'six-dynasties', label: 'Six Dynasties', subtitle: 'China divided north and south', region: 'asia', startYear: 220, endYear: 589, hasContent: true },
   { id: 'tang-song-china', label: 'Sui, Tang & Song China', subtitle: "from Grand Canal to cosmopolitan peak", region: 'asia', startYear: 581, endYear: 1279 },
   { id: 'yuan-dynasty', label: 'Yuan Dynasty', subtitle: 'Mongol-ruled China', region: 'asia', startYear: 1271, endYear: 1368 },
   { id: 'ming-dynasty', label: 'Ming Dynasty', subtitle: 'Forbidden City and the treasure fleet', region: 'asia', startYear: 1368, endYear: 1644 },
