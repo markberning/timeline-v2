@@ -174,13 +174,13 @@ export function CivIconsStrip() {
       <button onClick={() => setMono(m => !m)} className="text-[10px] text-foreground/40 px-5 py-1">{mono ? '● mono' : '○ color'}</button>
       <div
         ref={containerRef}
-        className="flex items-end justify-start gap-3 lg:gap-4 px-5 py-1.5 overflow-x-auto shrink-0 border-t border-b border-foreground/10"
+        className="flex items-end justify-start gap-3 lg:gap-4 px-5 py-1.5 overflow-x-auto shrink-0 border-t border-foreground/10"
       >
         {icons.map((src, i) => {
           const sz = sizeFor(src)
           return (
             <div key={`${i}-${src}`} className="shrink-0 flex flex-col items-center">
-              <div className="h-12 flex items-end justify-center">
+              <div className="h-12 flex items-end justify-center border-b border-foreground/10">
                 <img src={src} alt="" aria-hidden="true" className={`h-12 w-auto select-none dark:brightness-[1.8] ${mono ? 'grayscale' : ''}`} draggable={false} />
               </div>
               <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
