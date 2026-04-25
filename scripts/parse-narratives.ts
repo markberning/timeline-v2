@@ -146,6 +146,8 @@ const NARRATIVE_FILES: Record<string, string> = {
   'han-dynasty.md': 'han-dynasty',
   'andean-kingdoms.md': 'andean-kingdoms',
   'teotihuacan.md': 'teotihuacan',
+  'kingdom-of-aksum.md': 'kingdom-of-aksum',
+  'six-dynasties.md': 'six-dynasties',
 }
 
 function slugify(title: string): string {
