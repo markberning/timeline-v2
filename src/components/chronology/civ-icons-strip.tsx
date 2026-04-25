@@ -105,6 +105,7 @@ const ICON_SIZE: Record<string, string> = {
   '/icons/scythians.png': 'w-14',
   '/icons/ancient-rome.png': 'w-14',
   '/icons/carthage.png': 'w-14',
+  '/icons/aztec-empire.png': 'w-14',
 }
 
 function sizeFor(src: string): string {
