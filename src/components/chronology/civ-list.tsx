@@ -219,7 +219,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
                     }}
                     onClick={(e) => {
                       e.stopPropagation()
-                      onChainSolo(chainInfo.chain.id)
+                      onChainSolo(soloChainId === chainInfo.chain.id ? null : chainInfo.chain.id)
                     }}
                   >
                     {chainInfo.chain.shortLabel} {chainInfo.index + 1}/{chainInfo.total}
