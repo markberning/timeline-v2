@@ -64,11 +64,15 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     localStorage.setItem('last-viewed-civ', civilizationId)
   }, [civilizationId])
 
+  const [highlightTerm, setHighlightTerm] = useState<string | null>(null)
+
   // Load saved progress on mount
   useEffect(() => {
     if (typeof window === 'undefined') return
     const params = new URLSearchParams(window.location.search)
     const ch = params.get('chapter')
+    const hl = params.get('highlight')
+    if (hl) setHighlightTerm(hl)
     if (ch) {
       const n = parseInt(ch, 10)
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
@@ -81,6 +85,56 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       setSavedProgress(progress)
     }
   }, [chapters, civilizationId])
+
+  // After chapter opens with a highlight term, find and scroll to the match
+  useEffect(() => {
+    if (!highlightTerm || openChapter === null) return
+
+    // Wait for chapter content to render
+    const timer = setTimeout(() => {
+      // Find the prose container for the open chapter
+      const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
+      if (!container) return
+
+      const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT)
+      const termLower = highlightTerm.toLowerCase()
+      let node: Text | null
+      while ((node = walker.nextNode() as Text | null)) {
+        const idx = node.textContent?.toLowerCase().indexOf(termLower) ?? -1
+        if (idx === -1) continue
+
+        // Split the text node and wrap the match in a highlight span
+        const range = document.createRange()
+        range.setStart(node, idx)
+        range.setEnd(node, idx + highlightTerm.length)
+
+        const mark = document.createElement('mark')
+        mark.style.backgroundColor = 'rgba(217, 119, 6, 0.35)'
+        mark.style.borderRadius = '2px'
+        mark.style.padding = '1px 2px'
+        range.surroundContents(mark)
+
+        // Scroll to the highlight
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' })
+
+        // Remove highlight after 4 seconds
+        setTimeout(() => {
+          const parent = mark.parentNode
+          if (parent) {
+            parent.replaceChild(document.createTextNode(mark.textContent ?? ''), mark)
+            parent.normalize()
+          }
+        }, 4000)
+
+        break // only highlight first match
+      }
+
+      // Clear the highlight term so it doesn't re-trigger
+      setHighlightTerm(null)
+    }, 600) // wait for accordion animation
+
+    return () => clearTimeout(timer)
+  }, [highlightTerm, openChapter])
 
   // Auto-save scroll position while reading (debounced)
   useEffect(() => {

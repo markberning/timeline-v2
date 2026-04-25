@@ -233,7 +233,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
                   {ch.matches.map((sentence, i) => (
                     <a
                       key={i}
-                      href={`/${result.tlId}/?chapter=${ch.number}`}
+                      href={`/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}`}
                       className="block py-1.5 text-[13px] leading-snug text-foreground/65 no-underline border-b border-foreground/5 last:border-b-0"
                     >
                       <HighlightedText text={sentence} query={query.trim()} />
