@@ -38,19 +38,19 @@ export const REGION_COLORS: Record<NavigatorRegion, string> = {
 export const NAVIGATOR_TLS: NavigatorTl[] = [
   // ── NEAR EAST ──
   { id: 'mesopotamia', label: 'Mesopotamia', subtitle: "Iraq's first cities and cuneiform", region: 'near-east', startYear: -5000, endYear: -539, isReal: true, hasContent: true },
-  { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3200, endYear: -539, hasContent: true },
-  { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2025, endYear: -609, hasContent: true },
-  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's bronze-age forgotten superpower", region: 'near-east', startYear: -1650, endYear: -1178, hasContent: true },
+  { id: 'elamite-civilization', label: 'Elam', subtitle: "southwest Iran's overlooked rival", region: 'near-east', startYear: -3100, endYear: -500, hasContent: true },
+  { id: 'assyrian-empire', label: 'Assyrian Empire', subtitle: "northern Iraq's siege specialists", region: 'near-east', startYear: -2500, endYear: -609, hasContent: true },
+  { id: 'hittite-empire', label: 'Hittite Empire', subtitle: "Anatolia's bronze-age forgotten superpower", region: 'near-east', startYear: -2500, endYear: -700, hasContent: true },
   { id: 'phoenicia', label: 'Phoenicia', subtitle: "Lebanon's alphabet-inventing sea traders", region: 'near-east', startYear: -1500, endYear: -300, hasContent: true },
   { id: 'ancient-israel', label: 'Ancient Israel', subtitle: "the Hebrew kingdoms and the First Temple", region: 'near-east', startYear: -1020, endYear: -586, hasContent: true },
-  { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -550, endYear: 651, hasContent: true },
+  { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -559, endYear: 651, hasContent: true },
   { id: 'umayyad-caliphate', label: 'Rashidun & Umayyad', subtitle: "Islam's century of conquest, Medina to Damascus", region: 'near-east', startYear: 632, endYear: 750 },
   { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258 },
   { id: 'ottoman-empire', label: 'Ottoman Empire', subtitle: "Turkey's six-century juggernaut", region: 'near-east', startYear: 1299, endYear: 1922 },
   { id: 'safavid-persia', label: 'Safavid Persia', subtitle: "Iran's Shia revolution", region: 'near-east', startYear: 1501, endYear: 1736 },
 
   // ── AFRICA ──
-  { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3500, endYear: -1070, hasContent: true },
+  { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3800, endYear: -1070, hasContent: true },
   { id: 'early-dynastic-egypt', label: 'Early Egypt', subtitle: 'from Saharan herders to the first pharaohs', region: 'africa', startYear: -5000, endYear: -2686, hasContent: true },
   { id: 'old-kingdom-egypt', label: 'Old Kingdom Egypt', subtitle: 'the great pyramids rise', region: 'africa', startYear: -2686, endYear: -2055, hasContent: true },
   { id: 'new-kingdom-egypt', label: 'New Kingdom Egypt', subtitle: 'empire, chariots, and Tut', region: 'africa', startYear: -2055, endYear: -1069, hasContent: true },
@@ -73,10 +73,10 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'modern-india', label: 'Modern India', subtitle: 'Raj to republic', region: 'asia', startYear: 1857, endYear: 2024, isReal: true },
 
   // ── ASIA (East) ──
-  { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -4000, endYear: -1600, hasContent: true },
+  { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -7000, endYear: -1600, hasContent: true },
   { id: 'shang-dynasty', label: 'Shang Dynasty', subtitle: "China's first oracle bones", region: 'asia', startYear: -1600, endYear: -1046, hasContent: true },
   { id: 'zhou-dynasty', label: 'Zhou Dynasty', subtitle: 'Confucius and the Warring States', region: 'asia', startYear: -1046, endYear: -256, hasContent: true },
-  { id: 'qin-dynasty', label: 'Qin Dynasty', subtitle: 'China unified by terror and law', region: 'asia', startYear: -221, endYear: -206, hasContent: true },
+  { id: 'qin-dynasty', label: 'Qin Dynasty', subtitle: 'China unified by terror and law', region: 'asia', startYear: -356, endYear: -206, hasContent: true },
   { id: 'han-dynasty', label: 'Han Dynasty', subtitle: "China's silk-road golden age", region: 'asia', startYear: -206, endYear: 220 },
   { id: 'six-dynasties', label: 'Six Dynasties', subtitle: 'China divided north and south', region: 'asia', startYear: 220, endYear: 589 },
   { id: 'tang-song-china', label: 'Sui, Tang & Song China', subtitle: "from Grand Canal to cosmopolitan peak", region: 'asia', startYear: 581, endYear: 1279 },
@@ -107,7 +107,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'majapahit', label: 'Majapahit', subtitle: "Java's golden age archipelago empire", region: 'asia', startYear: 1293, endYear: 1527 },
 
   // ── EUROPE ──
-  { id: 'minoan-civilization', label: 'Minoan', subtitle: "Crete's bull-leaping palace culture", region: 'europe', startYear: -2700, endYear: -1450, hasContent: true },
+  { id: 'minoan-civilization', label: 'Minoan', subtitle: "Crete's bull-leaping palace culture", region: 'europe', startYear: -7000, endYear: -1100, hasContent: true },
   { id: 'mycenaean-civilization', label: 'Mycenaean', subtitle: "Greece's bronze-age warlords", region: 'europe', startYear: -1600, endYear: -1100, hasContent: true },
   { id: 'ancient-greece', label: 'Ancient Greece', subtitle: 'philosophy, drama, democracy', region: 'europe', startYear: -800, endYear: -146, hasContent: true },
   { id: 'ancient-rome', label: 'Ancient Rome', subtitle: "the Mediterranean's grand experiment", region: 'europe', startYear: -753, endYear: 476, hasContent: true },
@@ -126,7 +126,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
 
   // ── AMERICAS & OCEANIA ──
   { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200, hasContent: true },
-  { id: 'polynesian-voyagers', label: 'Polynesian Voyagers', subtitle: "the Pacific's star-navigating wayfinders", region: 'americas', startYear: -1500, endYear: 1300, hasContent: true },
+  { id: 'polynesian-voyagers', label: 'Polynesian Voyagers', subtitle: "the Pacific's star-navigating wayfinders", region: 'americas', startYear: -1500, endYear: 1500, hasContent: true },
   { id: 'olmec-civilization', label: 'Olmec', subtitle: "Mexico's mother culture, colossal stone heads", region: 'americas', startYear: -1500, endYear: -400, hasContent: true },
   { id: 'zapotec-civilization', label: 'Zapotec', subtitle: "Oaxaca's mountaintop scribes", region: 'americas', startYear: -1500, endYear: 1521, hasContent: true },
   { id: 'ancestral-puebloans', label: 'Ancestral Puebloans', subtitle: "Mesa Verde and Chaco Canyon's cliff builders", region: 'americas', startYear: -100, endYear: 1300 },
