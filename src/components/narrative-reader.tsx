@@ -90,50 +90,62 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
   useEffect(() => {
     if (!highlightTerm || openChapter === null) return
 
-    // Wait for chapter content to render
-    const timer = setTimeout(() => {
+    function tryHighlight() {
       const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
-      if (!container) return
+      if (!container || container.children.length === 0) return false
 
-      // Find the paragraph containing the search term
-      const termLower = highlightTerm.toLowerCase()
+      const termLower = highlightTerm!.toLowerCase()
       const paragraphs = container.querySelectorAll('p')
       for (const p of paragraphs) {
         if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-        // Highlight the whole paragraph with a flash
-        p.style.transition = 'background-color 0.3s ease'
-        p.style.backgroundColor = 'rgba(217, 119, 6, 0.2)'
-        p.style.borderRadius = '4px'
-        p.style.marginLeft = '-8px'
+        // Full-width highlight flash
+        p.style.transition = 'background-color 0.4s ease'
+        p.style.backgroundColor = 'rgba(217, 119, 6, 0.3)'
+        p.style.borderLeft = '3px solid #d97706'
+        p.style.marginLeft = '-12px'
+        p.style.paddingLeft = '9px'
         p.style.marginRight = '-8px'
-        p.style.paddingLeft = '8px'
         p.style.paddingRight = '8px'
+        p.style.borderRadius = '2px'
 
         // Scroll to it
-        p.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        setTimeout(() => {
+          p.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }, 100)
 
-        // Fade out after 4 seconds
+        // Fade out after 5 seconds
         setTimeout(() => {
           p.style.backgroundColor = 'transparent'
+          p.style.borderLeftColor = 'transparent'
           setTimeout(() => {
             p.style.removeProperty('transition')
             p.style.removeProperty('background-color')
-            p.style.removeProperty('border-radius')
+            p.style.removeProperty('border-left')
             p.style.removeProperty('margin-left')
-            p.style.removeProperty('margin-right')
             p.style.removeProperty('padding-left')
+            p.style.removeProperty('margin-right')
             p.style.removeProperty('padding-right')
-          }, 300)
-        }, 4000)
+            p.style.removeProperty('border-radius')
+          }, 400)
+        }, 5000)
 
-        break
+        return true
       }
+      return false
+    }
 
-      setHighlightTerm(null)
-    }, 600)
+    // Poll until content renders (accordion animation takes time)
+    let attempts = 0
+    const interval = setInterval(() => {
+      attempts++
+      if (tryHighlight() || attempts > 20) {
+        clearInterval(interval)
+        setHighlightTerm(null)
+      }
+    }, 200)
 
-    return () => clearTimeout(timer)
+    return () => clearInterval(interval)
   }, [highlightTerm, openChapter])
 
   // Auto-save scroll position while reading (debounced)
