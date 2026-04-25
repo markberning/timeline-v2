@@ -71,30 +71,45 @@ function shuffle<T>(arr: T[]): T[] {
   return a
 }
 
-export function CivIconsStrip() {
-  const [icons, setIcons] = useState(() => shuffle(ICONS))
-  const containerRef = useRef<HTMLDivElement>(null)
+function labelFromPath(src: string): string {
+  return src.replace('/icons/', '').replace('.png', '')
+    .replace('early-dynastic-', 'E.')
+    .replace('early-andean-civilizations', 'E.Andean')
+    .replace('early-american-republic', 'E.US')
+    .replace('-civilization', '')
+    .replace('-empire', '')
+    .replace('ancient-', 'A.')
+    .replace('islamic-golden-age', 'Islam GA')
+    .replace('chinese-revolution', 'China Rev')
+    .replace('industrial-revolution', 'Indust Rev')
+    .replace('scientific-revolution', 'Sci Rev')
+    .replace('renaissance-italy', 'Ren Italy')
+    .replace('kingdom-of-aksum', 'Aksum')
+    .replace('polynesian-voyagers', 'Polynesia')
+    .replace('mississippian-culture', 'Mississip')
+    .replace('ancestral-puebloans', 'Puebloans')
+    .replace('medieval-europe', 'Med Europe')
+    .replace('modern-india', 'Mod India')
+    .replace('kievan-rus', 'Kiev Rus')
+    .replace('russian-', 'Russ ')
+    .replace('tang-song-china', 'Tang-Song')
+    .replace(/-/g, ' ')
+}
 
-  const reshuffle = useCallback(() => {
-    setIcons(shuffle(ICONS))
-  }, [])
+export function CivIconsStrip() {
+  // Temporarily disable shuffle for icon review
+  const icons = ICONS
+  const containerRef = useRef<HTMLDivElement>(null)
 
   return (
     <div
       ref={containerRef}
-      onClick={reshuffle}
-      className="flex items-end justify-center gap-5 lg:gap-6 px-5 py-1.5 overflow-hidden shrink-0 cursor-pointer"
+      className="flex items-end justify-start gap-3 lg:gap-4 px-5 py-1.5 overflow-x-auto shrink-0"
     >
-      {/* Mobile: show 7, fixed width, bottom-aligned */}
-      {icons.slice(0, MOBILE_COUNT).map((src, i) => (
-        <div key={`m-${i}-${src}`} className="w-10 shrink-0 flex items-end justify-center lg:hidden">
-          <img src={src} alt="" aria-hidden="true" className="w-10 h-auto select-none" draggable={false} />
-        </div>
-      ))}
-      {/* Desktop: all unique icons, fixed width, bottom-aligned */}
       {icons.map((src, i) => (
-        <div key={`d-${i}-${src}`} className="w-14 shrink-0 items-end justify-center hidden lg:flex">
-          <img src={src} alt="" aria-hidden="true" className="w-14 h-auto select-none" draggable={false} />
+        <div key={`${i}-${src}`} className="w-12 shrink-0 flex flex-col items-center">
+          <img src={src} alt="" aria-hidden="true" className="w-12 h-auto select-none" draggable={false} />
+          <span className="text-[8px] leading-tight text-foreground/50 text-center mt-0.5 truncate w-full">{labelFromPath(src)}</span>
         </div>
       ))}
     </div>
