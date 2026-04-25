@@ -72,15 +72,6 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     const ch = params.get('chapter')
     const hl = params.get('highlight')
 
-    // DEBUG: show what we got from URL
-    if (hl) {
-      const d = document.createElement('div')
-      d.textContent = `DEBUG: ch=${ch} hl=${hl} url=${window.location.search}`
-      d.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:red;color:white;padding:12px;font-size:16px;font-weight:bold;'
-      document.body.appendChild(d)
-      setTimeout(() => d.remove(), 10000)
-    }
-
     if (ch) {
       const n = parseInt(ch, 10)
       if (!isNaN(n) && chapters.some(c => c.number === n)) {
@@ -89,6 +80,9 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
         // If there's a highlight term, suppress accordion scroll and highlight
         if (hl) {
           setHasHighlight(true)
+
+          // Use a fixed-position overlay on document.body so no React
+          // re-render can destroy it. Reposition on every animation frame.
           const timer = setTimeout(() => {
             const container = document.querySelector('[data-chapter-content]') as HTMLElement | null
             if (!container) return
@@ -98,21 +92,31 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
             for (const p of paragraphs) {
               if (!p.textContent?.toLowerCase().includes(termLower)) continue
 
-              // Wrap the paragraph in a highlight div (same technique as debug banners which worked)
-              const wrapper = document.createElement('div')
-              wrapper.style.cssText = 'background:rgba(217,119,6,0.2);border-left:3px solid #d97706;margin-left:-12px;padding-left:9px;margin-right:-8px;padding-right:8px;border-radius:4px;transition:opacity 0.5s ease;'
-              p.parentNode!.insertBefore(wrapper, p)
-              wrapper.appendChild(p)
+              p.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
-              wrapper.scrollIntoView({ behavior: 'smooth', block: 'center' })
+              // Create a fixed overlay on document.body
+              const overlay = document.createElement('div')
+              overlay.style.cssText = 'position:fixed;pointer-events:none;background:rgba(217,119,6,0.2);border-left:3px solid #d97706;border-radius:4px;z-index:40;transition:opacity 0.5s ease;'
+              document.body.appendChild(overlay)
 
-              // Unwrap after 5 seconds
+              // Reposition overlay to track the paragraph on every frame
+              let rafId = 0
+              function reposition() {
+                const rect = p.getBoundingClientRect()
+                overlay.style.top = `${rect.top - 4}px`
+                overlay.style.left = `${rect.left - 12}px`
+                overlay.style.width = `${rect.width + 20}px`
+                overlay.style.height = `${rect.height + 8}px`
+                rafId = requestAnimationFrame(reposition)
+              }
+              // Start after scroll settles
+              setTimeout(() => { rafId = requestAnimationFrame(reposition) }, 400)
+
+              // Fade out after 5 seconds
               setTimeout(() => {
-                wrapper.style.opacity = '0'
-                setTimeout(() => {
-                  wrapper.parentNode!.insertBefore(p, wrapper)
-                  wrapper.remove()
-                }, 500)
+                cancelAnimationFrame(rafId)
+                overlay.style.opacity = '0'
+                setTimeout(() => overlay.remove(), 500)
               }, 5000)
 
               break
