@@ -4,69 +4,29 @@
  * only chain-shared overrides are listed.
  */
 const SHARED_ICON: Record<string, string> = {
-  // Egypt chain → sphinx icon
-  'old-kingdom-egypt': 'early-dynastic-egypt',
-  'new-kingdom-egypt': 'early-dynastic-egypt',
-  'late-egypt': 'early-dynastic-egypt',
-
-  // Nubian chain
-  'kingdom-of-kush': 'ancient-nubia',
+  // Nubian chain — each has own icon now, kush still falls back
+  // (kingdom-of-kush has own icon, no override needed)
 
   // Islamic chain
-  'umayyad-caliphate': 'islamic-golden-age',
-  'al-andalus': 'islamic-golden-age',
+  'umayyad-caliphate': 'umayyad-caliphate',
 
-  // Persian chain
-  'safavid-persia': 'persian-empire',
-
-  // Indian chain (pre-Islamic)
-  'vedic-period': 'indus-valley',
-  'maurya-empire': 'indus-valley',
-  'post-maurya-kingdoms': 'indus-valley',
-  'gupta-empire': 'indus-valley',
-  'medieval-india': 'indus-valley',
-
-  // Chinese chain (early)
-  'shang-dynasty': 'ancient-china',
-  'zhou-dynasty': 'ancient-china',
-  'qin-dynasty': 'ancient-china',
-  'han-dynasty': 'ancient-china',
-  'six-dynasties': 'ancient-china',
-
-  // Chinese modern
-  'rise-of-china': 'chinese-revolution',
-
-  // Steppe chain
-  'xiongnu-huns': 'scythians',
-  'gokturk-khaganate': 'scythians',
-  'mongol-empire': 'scythians',
-  'timurid-empire': 'scythians',
+  // Steppe chain — each has own icon now, timurid shares mongol
+  'timurid-empire': 'mongol-empire',
 
   // Japan chain
-  'edo-japan': 'ancient-japan',
   'japanese-economic-miracle': 'meiji-japan',
 
   // Korea chain
-  'joseon-korea': 'ancient-korea',
-  'korean-modern': 'ancient-korea',
+  'korean-modern': 'joseon-korea',
 
-  // Greco-Roman chain
-  'minoan-civilization': 'ancient-greece',
-  'mycenaean-civilization': 'ancient-greece',
-  'byzantine-empire': 'ancient-rome',
+  // Russian chain — each has own icon now
 
-  // Russian chain
-  'soviet-union': 'russian-empire',
-
-  // Andean chain
-  'andean-kingdoms': 'early-andean-civilizations',
-  'middle-horizon-empires': 'early-andean-civilizations',
+  // Andean chain — each has own icon now
 
   // West African chain
   'songhai-empire': 'mali-empire',
 
   // US chain
-  'early-american-republic': 'early-american-republic',
   'antebellum-america': 'early-american-republic',
   'reconstruction': 'early-american-republic',
   'roaring-twenties': 'early-american-republic',
