@@ -24,6 +24,27 @@ const ICONS = [
   '/icons/islamic-golden-age.png',
   '/icons/phoenicia.png',
   '/icons/tang-song-china.png',
+  '/icons/hittite-empire.jpg',
+  '/icons/delhi-sultanate.jpg',
+  '/icons/mughal-empire.jpg',
+  '/icons/modern-india.jpg',
+  '/icons/yuan-dynasty.jpg',
+  '/icons/ming-dynasty.png',
+  '/icons/qing-dynasty.png',
+  '/icons/chinese-revolution.jpg',
+  '/icons/ancient-korea.jpg',
+  '/icons/srivijaya.png',
+  '/icons/majapahit.png',
+  '/icons/kievan-rus.jpg',
+  '/icons/renaissance-italy.jpg',
+  '/icons/scientific-revolution.jpg',
+  '/icons/enlightenment.jpg',
+  '/icons/russian-empire.jpg',
+  '/icons/industrial-revolution.jpg',
+  '/icons/zapotec-civilization.png',
+  '/icons/teotihuacan.png',
+  '/icons/ancestral-puebloans.png',
+  '/icons/mississippian-culture.jpg',
 ]
 
 const MOBILE_COUNT = 7
@@ -58,7 +79,7 @@ export function CivIconsStrip() {
   }, [])
 
   // Mobile: first 7 from the shuffled array
-  // Desktop: repeat all 21 shuffled icons to fill the row
+  // Desktop: repeat all 42 shuffled icons to fill the row
   const desktopIcons = repeatToFill(icons, 42)
 
   return (
