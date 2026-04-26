@@ -15,9 +15,34 @@ Every prompt in this folder opens with a **CRITICAL RULES** block addressing the
 
 ## What's in here
 
-- [ancient-china.md](ancient-china.md) — Chapters 4, 7, 8 (the three China maps with real errors)
-- [ancient-nubia.md](ancient-nubia.md) — Chapters 1–8 (all eight Nubia maps need redos)
-- [elamite-civilization.md](elamite-civilization.md) — Chapters 1, 3, 7, 8 (Ch 7 is a priority-1 redo for "Brotion"/"Tiaati-Tela" garbled text; others are minor)
+**First-batch TLs:**
+- [ancient-china.md](ancient-china.md) — Chapters 4, 7, 8
+- [ancient-nubia.md](ancient-nubia.md) — Chapters 1–8 (all eight)
+- [kingdom-of-kush.md](kingdom-of-kush.md) — see file
+- [elamite-civilization.md](elamite-civilization.md) — Chapters 1, 3, 7, 8
+
+**11-TL Gemini batch (April 2026) — review findings:**
+- [ancestral-puebloans.md](ancestral-puebloans.md) — Ch 3, 4, 7, 8 (Ch 4 has the wrongly-attributed `chocolate residue` callout that was a real mislabel)
+- [andean-kingdoms.md](andean-kingdoms.md) — Ch 2, 3, 4, 5, 6, 8 (six chapters; pervasive duplicated phrases and one fully-garbled annotation in Ch 4)
+- [ancient-japan.md](ancient-japan.md) — Ch 1, 4, 8 (Ch 8 has hallucinated battle "Midani"; Ch 4 has duplicated Battle of Baekgang)
+- [celtic-cultures.md](celtic-cultures.md) — Ch 3, 5, 7 (Ch 7 priority: "repurgetorix" hallucination + missing Alesia surrender callout)
+- [han-dynasty.md](han-dynasty.md) — Ch 3, 5, 7 (Yellow River label duplications; Zhang Qian / Zhangye collision in Ch 3)
+- [kingdom-of-aksum.md](kingdom-of-aksum.md) — Ch 3, 5 (incomplete sentences)
+- [post-maurya-kingdoms.md](post-maurya-kingdoms.md) — Ch 4, 7, 8 (Ch 4 priority: Bamiyan Buddhas dated ~250 CE — factual error, should be 6th–7th c. CE)
+- [six-dynasties.md](six-dynasties.md) — Ch 2, 4, 6, 7 (positioning suffixes leaking into labels; Ch 4 has duplicated Eastern Jin and "Taizong buried the Taizong buried the")
+- [teotihuacan.md](teotihuacan.md) — Ch 1, 2, 5, 7, 8 (Ch 1: "Volgland Mexico" hallucination; Ch 5: "Gull site" hallucination; Ch 7: Pyramid of the Moon duplicated)
+- [xiongnu-huns.md](xiongnu-huns.md) — Ch 1, 2, 5, 7, 8 (Ch 8 priority: "Stepids" / "starvoys" garbled tribes annotation)
+- [zapotec-civilization.md](zapotec-civilization.md) — Ch 1, 2, 3, 4, 5, 7 (recurring `Mountains (surrounding ring)` duplication and `℡` Unicode-ligature substitution for `BCE` in Ch 3)
+
+## Recurring failure modes from the 11-TL batch
+
+In addition to the older ones above, the new batch surfaced these patterns:
+
+- **Annotation duplication with one variant garbled.** Two copies of the same annotation rendered, one clean, one with hallucinated/truncated text. (See andean Ch 3, andean Ch 4, post-maurya Ch 8, ancient-japan Ch 4.)
+- **Positioning instructions leaking into rendered labels.** Words like `(top)`, `(top edge)`, `(bottom edge)`, `(secondary)`, `(northeast edge)` were intended as author-side staging notes but Gemini rendered them as visible text. (See six-dynasties Ch 2/4/6/7, zapotec Ch 7.)
+- **Duplicated words inside a single label.** `Gate of Gate of the Sun`, `North North America`, `pottery, pottery,`, `(far north) (far north)`, `Taizong buried the Taizong buried the`, `Water flows underground / Water flows underground`. The fix is an explicit anti-duplication rule per chapter.
+- **Unicode ligature substitution.** `BCE` rendered as the telephone-symbol ligature `℡`. Force plain ASCII for date abbreviations.
+- **Trailing sentences with no closing.** `...70+ sacrificial`, `...cultural blending after`, `...propaganda in`. Force every label to end with a complete word and a closing parenthesis.
 
 ## Workflow
 
