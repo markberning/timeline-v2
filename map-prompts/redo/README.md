@@ -15,13 +15,8 @@ Every prompt in this folder opens with a **CRITICAL RULES** block addressing the
 
 ## What's in here
 
-**First-batch TLs:**
-- [ancient-china.md](ancient-china.md) — Chapters 4, 7, 8
-- [ancient-nubia.md](ancient-nubia.md) — Chapters 1–8 (all eight)
-- [kingdom-of-kush.md](kingdom-of-kush.md) — see file
-- [elamite-civilization.md](elamite-civilization.md) — Chapters 1, 3, 7, 8
+11-TL Gemini batch (April 2026) — review findings:
 
-**11-TL Gemini batch (April 2026) — review findings:**
 - [ancestral-puebloans.md](ancestral-puebloans.md) — Ch 3, 4, 7, 8 (Ch 4 has the wrongly-attributed `chocolate residue` callout that was a real mislabel)
 - [andean-kingdoms.md](andean-kingdoms.md) — Ch 2, 3, 4, 5, 6, 8 (six chapters; pervasive duplicated phrases and one fully-garbled annotation in Ch 4)
 - [ancient-japan.md](ancient-japan.md) — Ch 1, 4, 8 (Ch 8 has hallucinated battle "Midani"; Ch 4 has duplicated Battle of Baekgang)
