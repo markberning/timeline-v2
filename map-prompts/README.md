@@ -113,6 +113,51 @@ This is what the redo files in [redo/](redo/) use, and it's the only reliable wa
 
 ---
 
+## LEAN SPECIFICATION — keep prompts small to keep maps clean
+
+The April 2026 11-TL batch review found a strong correlation between **prompt density and failure rate**. Maps with 7+ sites and long parenthetical descriptions on every site failed routinely: duplicated labels, hallucinated words inside parentheticals (`Eastancia`, `cunitural pueblors`, `repurgetorix`, `Volgland`, `Stepids`, `starvoys`), truncated mid-sentence callouts, garbled BCE → `℡` ligatures. The denser the map, the more "filler" Gemini invented.
+
+**The fix is to ask for less.** Every word inside a parenthetical is a chance for the model to garble. Every duplicate site is a chance for the model to label one of them wrong. Move the descriptive content into the chapter prose; let the map do *spatial orientation*.
+
+**Lean specification — apply to every new chapter prompt and every redo:**
+
+1. **4–5 sites per map, maximum.** Pick the sites the chapter actually centers on. Drop any site mentioned only in passing — the reader has the prose for those. Dense maps with 7+ named sites are the #1 source of label garbling.
+2. **Site labels are name-only.** No long parentheticals on site dots.
+   - Good: `Pueblo Bonito`
+   - Bad: `Pueblo Bonito (850–1130 CE — 650+ rooms, 4–5 stories, largest building in North America for 1,000 years)`
+   - Every garbled word so far has been *inside* a parenthetical. Strip the parentheticals from site labels and the whole class of failures goes away.
+3. **One annotation per map, maximum.** Pick the single most important spatial story (the migration, the route, the trade flow). Drop any second annotation. If the map has both a migration arrow AND a separate "ecological collapse" callout, choose one.
+4. **Region labels: orientation only.** Just enough for the reader to know which way is north and what part of the world this is. Typically 3–5 region labels (one or two seas/oceans, the main river, the surrounding land mass). Drop region labels with parenthetical sub-text.
+5. **Chapter title bar is the only required text element.** Everything else is optional.
+
+**A clean prompt looks like:**
+
+```
+Map of {region} for Chapter N.
+
+5 sites, name-only labels:
+- Site A — at {position}
+- Site B — at {position}
+- Site C — at {position}
+- Site D — at {position}
+- Site E — at {position}
+
+3 region labels (gray, orientation only):
+- {Sea or ocean}
+- {Main river}
+- {Surrounding region}
+
+One annotation: {single short caption attached to a single arrow or shaded zone}.
+
+Title at top: "Chapter N: <Title>"
+```
+
+That's it. If you find yourself writing a fourth annotation or an eighth site, cut it. The chapter narrative carries the detail; the map carries the geography.
+
+---
+
+---
+
 ## Per-TL files
 
 - [mesopotamia.md](mesopotamia.md) — 13 chapters (1–13)

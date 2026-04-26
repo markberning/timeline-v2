@@ -1,17 +1,18 @@
-# Map Prompt Redos
+# Map Prompt Redos (lean spec)
 
-Prompts in this folder are **rewrites of originals that produced hallucinations** on the first Gemini run. Each prompt has been tightened with explicit anti-hallucination directives targeted at the specific failure mode the original map exhibited.
+Prompts in this folder are **lean rewrites** of originals that produced hallucinations on the first Gemini run. Every redo here follows the **lean specification** (see `../README.md` "LEAN SPECIFICATION" section): 4–5 sites max, name-only labels (no parentheticals on dots), ≤1 annotation per map, 3–5 region labels for orientation only.
 
-## Common Gemini failure modes observed on the first run
+The April 2026 batch review found the failure rate scaled directly with prompt density. Maps with 7+ sites and long parenthetical descriptions on every dot routinely produced duplicates, hallucinated words inside parentheticals, and truncated sentences. Lean prompts give Gemini fewer chances to garble.
 
-1. **Duplicate labels** — Gemini rendered the same city / region / annotation in two places on the same map. Seen in 9 of 16 maps.
-2. **Cataract numbering drift** — Gemini invented new names like "North Cataract" or rendered "Third Cataract" with the number "4" next to it.
-3. **Garbled text** — Gemini invented words that look plausible: "cononniat" for "Third Cataract", "reachit" for "reach", "Kushi" for "Kush".
-4. **Geographic orientation errors** — Memphis drawn west of Aswan; the Nile rendered flowing east-to-west instead of south-to-north; Lower Nubia placed south of Upper Nubia.
-5. **Dropped site names** — the site name before the parenthetical got silently deleted on rendering.
-6. **Label misplacement** — the Loess Plateau rendered east of Erlitou; the Yi River label placed on what was actually the Yellow River.
+## Failure modes that lean spec defends against
 
-Every prompt in this folder opens with a **CRITICAL RULES** block addressing these failures. Nubia prompts also open with a **Nubia orientation rules** block clarifying the Lower/Upper directional semantics that Gemini kept getting backwards.
+1. **Annotation duplication with one variant garbled.** Two copies of the same annotation, one clean, one with hallucinated/truncated text. (Lean fix: ≤1 annotation per map.)
+2. **Garbled words inside parentheticals on site labels.** `Eastancia`, `cunitural pueblors`, `repurgetorix`, `Volgland`, `Stepids`, `starvoys`, `Gull site`. (Lean fix: site labels are name-only — no parentheticals on dots. Every garbled word so far has been *inside* a parenthetical.)
+3. **Positioning instructions leaking into rendered labels.** `(top)`, `(top edge)`, `(bottom edge)`, `(secondary)`, `(northeast edge)` were author-side staging notes but Gemini rendered them as visible text. (Lean fix: positioning given in prose to the artist, never as parenthetical suffixes on labels.)
+4. **Duplicated words inside a single label.** `Gate of Gate of the Sun`, `North North America`, `pottery, pottery,`, `Taizong buried the Taizong buried the`. (Lean fix: critical rules call out each affected phrase explicitly.)
+5. **Unicode ligature substitution.** `BCE` rendered as the telephone-symbol ligature `℡`. (Lean fix: explicit "BCE in plain ASCII letters" rule.)
+6. **Trailing sentences with no closing.** `...70+ sacrificial`, `...cultural blending after`, `...propaganda in`. (Lean fix: explicit "every label ends with a complete word and closing parenthesis" rule.)
+7. **Site-label collision** (e.g. Zhang Qian's annotation overlapping the Zhangye city label). (Lean fix: fewer sites means more whitespace between labels.)
 
 ## What's in here
 
@@ -29,27 +30,9 @@ Every prompt in this folder opens with a **CRITICAL RULES** block addressing the
 - [xiongnu-huns.md](xiongnu-huns.md) — Ch 1, 2, 5, 7, 8 (Ch 8 priority: "Stepids" / "starvoys" garbled tribes annotation)
 - [zapotec-civilization.md](zapotec-civilization.md) — Ch 1, 2, 3, 4, 5, 7 (recurring `Mountains (surrounding ring)` duplication and `℡` Unicode-ligature substitution for `BCE` in Ch 3)
 
-## Recurring failure modes from the 11-TL batch
-
-In addition to the older ones above, the new batch surfaced these patterns:
-
-- **Annotation duplication with one variant garbled.** Two copies of the same annotation rendered, one clean, one with hallucinated/truncated text. (See andean Ch 3, andean Ch 4, post-maurya Ch 8, ancient-japan Ch 4.)
-- **Positioning instructions leaking into rendered labels.** Words like `(top)`, `(top edge)`, `(bottom edge)`, `(secondary)`, `(northeast edge)` were intended as author-side staging notes but Gemini rendered them as visible text. (See six-dynasties Ch 2/4/6/7, zapotec Ch 7.)
-- **Duplicated words inside a single label.** `Gate of Gate of the Sun`, `North North America`, `pottery, pottery,`, `(far north) (far north)`, `Taizong buried the Taizong buried the`, `Water flows underground / Water flows underground`. The fix is an explicit anti-duplication rule per chapter.
-- **Unicode ligature substitution.** `BCE` rendered as the telephone-symbol ligature `℡`. Force plain ASCII for date abbreviations.
-- **Trailing sentences with no closing.** `...70+ sacrificial`, `...cultural blending after`, `...propaganda in`. Force every label to end with a complete word and a closing parenthesis.
-
 ## Workflow
 
 1. Copy one prompt at a time into Gemini
 2. Save output to `public/maps/{civilizationId}/chapter-{N}.png`, overwriting the old PNG
-3. Re-run the non-destructive WebP optimizer to update the .webp copy
+3. Convert to WebP (q85) and update the chapter-{N}.webp
 4. Visually re-check before shipping — if the redo still has errors, iterate on the prompt
-
-## What was NOT regenerated
-
-The following maps are clean and should be left alone:
-
-- **Ancient China:** Ch 1, 2, 3, 5, 6
-- **Ancient Nubia:** (none — all 8 had issues)
-- **Elam:** Ch 2, 4, 5, 6

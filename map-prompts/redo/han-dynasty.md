@@ -1,128 +1,116 @@
-# Han Dynasty — Map Prompt Redos
+# Han Dynasty — Map Prompt Redos (lean spec)
 
-Self-contained, copy-paste-ready Gemini prompts for the Han chapters that need re-rendering. Ch 1, 2, 4, 6, 8 are clean. Ch 3, 5, 7 are below.
+Self-contained, copy-paste-ready Gemini prompts. Lean spec: 4–5 sites max, name-only labels, ≤1 annotation per map. Ch 1, 2, 4, 6, 8 are clean. Ch 3, 5, 7 below.
 
 ---
 
-## Chapter 3 — REDO
+## Chapter 3 — REDO (lean)
 
-Create a simple, clean map for Chapter 3 of a mobile reading app about the Han Dynasty. The chapter covers Emperor Wu, Zhang Qian's missions, Wei Qing and Huo Qubing's campaigns, the Battle of Mobei (119 BCE), the opening of the Silk Road, and the conquest of Nanyue and Wiman Joseon.
+Create a simple, clean map for Chapter 3 of a mobile reading app about the Han Dynasty. The chapter covers Emperor Wu's reign — Zhang Qian's Silk Road missions, Wei Qing and Huo Qubing's Xiongnu campaigns.
 
 The chapter title "Chapter 3: The Martial Emperor" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **The Zhang Qian annotation must read EXACTLY:** `Zhang Qian's missions — 13 years of captivity and travel open China's eyes to Central Asia`. The first words are `Zhang Qian's` — never `Quan's` or any abbreviation.
-2. **`Zhang Qian` (a person) and `Zhangye` (a city) are DIFFERENT WORDS at DIFFERENT POSITIONS on the map.** Do not place them so close together that they overlap or appear to merge. The Zhang Qian annotation should be attached to the Silk Road route line in the open area below the route, NOT on top of the Zhangye city dot. (If Zhangye is not explicitly listed in the sites below, do not draw it at all.)
-3. **Spell every label exactly as written below. Do not invent words. Do not abbreviate.**
-4. **Draw each label exactly once.**
+1. **The annotation says "Zhang Qian" in full, never abbreviated.** Never write "Quan's" — the name is "Zhang Qian", spelled out completely.
+2. **Draw each label exactly once.**
+3. **Spell every label exactly as written below.**
+4. **Site labels are name-only — no parentheticals on the dots.** Place labels with enough margin that no two labels overlap.
 5. **North is at the top. East is to the right.**
 6. **All water is light blue.**
 7. **Do not invent any labels, sites, or features that are not in this prompt.**
 
-**CHINA ORIENTATION RULES:**
-
-1. **Chang'an** (modern Xi'an) is in the Wei River valley in CENTRAL-NORTHWEST China.
-2. The **Hexi Corridor** is a narrow passage running NORTHWEST from Chang'an toward Central Asia, between the Gobi Desert (north) and the Tibetan Plateau (south).
-3. **Dunhuang** is at the western end of the Hexi Corridor.
-4. **Dayuan / Ferghana** is in Central Asia, west of the Tian Shan mountains.
-5. **Lelang** is in northern Korea, near modern Pyongyang.
-6. **Nanyue** is in southeastern China / northern Vietnam (modern Guangdong).
-
 **Map requirements:**
-- Wide view from Central Asia (Ferghana) in the west to Korea in the east, from the Mongolian steppe in the north to Vietnam in the south, showing Emperor Wu's vast expansion
+- Wide view from Ferghana in the west to Korea in the east, from the Mongolian steppe in the north to Vietnam in the south
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Chang'an** — Label: "Chang'an (Emperor Wu's capital — Imperial Academy founded 124 BCE)"
-- **Dunhuang** — western end of Hexi Corridor. Label: "Dunhuang (Han Great Wall extended here — gateway to the Silk Road)"
-- **Dayuan (Ferghana)** — Central Asia. Label: "Dayuan / Ferghana ('heavenly horses' — Zhang Qian reaches here, opens the Silk Road)"
-- **Lelang** — northern Korea. Label: "Lelang (Han commandery near modern Pyongyang — 400 years of Chinese cultural influence)"
+**Sites — 4 dots, name-only labels:**
+- **Chang'an** — Wei River valley (Han capital)
+- **Dunhuang** — western end of the Hexi Corridor
+- **Dayuan / Ferghana** — Central Asia
+- **Lelang** — northern Korea
 
-**Region labels (gray) — each ONCE:**
+**Region labels (gray, 5 max):**
 - Han Empire
 - Xiongnu steppe
 - Hexi Corridor
-- Ordos Loop
-- Silk Road (western edge)
-- Nanyue (modern Guangdong/Vietnam)
 - Gobi Desert
+- Silk Road
 
-**Two annotations:**
-- A bold westward route from Chang'an through the Hexi Corridor to Ferghana, with the annotation placed BELOW the route line (not overlapping the Hexi Corridor city labels): "Zhang Qian's missions — 13 years of captivity and travel open China's eyes to Central Asia"
-- Two bold arrows north of the Gobi: "Battle of Mobei 119 BCE — Wei Qing and Huo Qubing drive the Xiongnu north of the desert forever"
+**One annotation:**
+- A bold westward route from Chang'an through the Hexi Corridor to Ferghana, plus two arrows north of the Gobi (Wei Qing and Huo Qubing), with this single caption: "Zhang Qian's missions — 13 years of captivity and travel open China's eyes to Central Asia. Battle of Mobei, 119 BCE — Wei Qing and Huo Qubing drive the Xiongnu north of the desert."
 
 **Style:** Landscape orientation, simple and elegant.
 
 ---
 
-## Chapter 5 — REDO
+## Chapter 5 — REDO (lean)
 
-Create a simple, clean map for Chapter 5 of a mobile reading app about the Han Dynasty. The chapter covers the Western Regions Protectorate, the decline of the Western Han, Wang Mang's Xin dynasty, the Yellow River flood of 11 CE, the Red Eyebrow and Lulin rebellions, and Liu Xiu's restoration as Emperor Guangwu with the new capital at Luoyang.
+Create a simple, clean map for Chapter 5 of a mobile reading app about the Han Dynasty. The chapter covers Wang Mang's Xin dynasty interregnum, the Yellow River flood of 11 CE, and Liu Xiu's restoration as Eastern Han at Luoyang.
 
 The chapter title "Chapter 5: Wang Mang and the Interregnum" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **The Yellow River must be named EXACTLY ONCE on this map**, as a single light-gray italic river label `Yellow River` placed along the river's course. Do NOT also draw a region/parenthetical label like `Yellow River (catastrophic course change, 11 CE)`. The course-change event is described entirely by the separate annotation below.
-2. **The course-change event has ONE annotation only:** `Yellow River changes course, 11 CE — millions displaced, famine triggers rebellion`. This text appears once. Do not also write a shorter parenthetical version.
-3. **Spell every label exactly as written below. Do not invent words.**
-4. **Draw each label exactly once.**
+1. **The Yellow River appears EXACTLY ONCE on the map**, as a single light-gray italic river label along the river's course. Do NOT also draw "Yellow River" as a region or basin label.
+2. **Draw each label exactly once.**
+3. **Spell every label exactly as written below.**
+4. **Site labels are name-only — no parentheticals on the dots.**
 5. **North is at the top. East is to the right.**
 6. **All water is light blue.**
 7. **Do not invent any labels, sites, or features that are not in this prompt.**
 
 **Map requirements:**
-- Eastern China showing Chang'an, Luoyang, the Yellow River flood zone, and the rebellion theaters
+- Eastern China — Chang'an, Luoyang, the Yellow River flood zone, and Shandong
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Chang'an** — Label: "Chang'an (sacked by Red Eyebrows, 25 CE — Han tombs looted, city devastated)"
-- **Luoyang** — Label: "Luoyang (new Eastern Han capital — Emperor Guangwu rebuilds the dynasty here)"
+**Sites — 2 dots, name-only labels:**
+- **Chang'an** — sacked by the Red Eyebrows, 25 CE (single dot, name-only on the dot)
+- **Luoyang** — new Eastern Han capital from 25 CE (single dot, name-only on the dot)
 
-**Region labels (gray) — each ONCE:**
-- Western Han (falling)
-- Yellow River ← appears ONCE only, as a light gray river label along the river course
-- Shandong (Red Eyebrow uprising)
+**Region labels (gray, 4 max):**
+- Western Han
+- Yellow River ← appears ONCE only, as the river label
+- Shandong
+- Yangtze River
 
-**Two annotations (each appears ONCE):**
-- A wavy blue band showing the Yellow River flood, with this annotation: `Yellow River changes course, 11 CE — millions displaced, famine triggers rebellion`
-- Bold arrows from Shandong and the southwest converging on Chang'an: `Red Eyebrow and Lulin rebellions — Wang Mang killed 23 CE, dynasty restored by Liu Xiu 25 CE`
+**One annotation:**
+- A wavy blue band showing the Yellow River course change, plus arrows from Shandong and the southwest converging on Chang'an, with this single caption: "Yellow River changes course, 11 CE — millions displaced, famine triggers the Red Eyebrow and Lulin rebellions. Wang Mang killed 23 CE; Liu Xiu restores the Han at Luoyang, 25 CE."
 
 **Style:** Landscape orientation, simple and elegant.
 
 ---
 
-## Chapter 7 — REDO
+## Chapter 7 — REDO (lean)
 
-Create a simple, clean map for Chapter 7 of a mobile reading app about the Han Dynasty. The chapter covers the eunuch-scholar faction wars, the Celestial Masters (religious Daoism), An Shigao's Buddhist translations, Wang Chong's skepticism, Zhang Heng's seismograph, and the Partisan Prohibitions.
+Create a simple, clean map for Chapter 7 of a mobile reading app about the Han Dynasty. The chapter covers the eunuch-scholar faction wars, the Celestial Masters Daoism, and An Shigao's Buddhist translations.
 
 The chapter title "Chapter 7: Buddhism, Daoism, and the Mandate Fraying" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **The Yellow River must be named EXACTLY ONCE on this map**, as a single light-gray italic label along the river's course. Do NOT also draw a second `Yellow River` label as a region/basin label. One label per river, period.
-2. **Spell every label exactly as written below. Do not invent words.**
-3. **Draw each label exactly once.**
-4. **North is at the top. East is to the right.**
-5. **All water is light blue.**
-6. **Do not invent any labels, sites, or features that are not in this prompt.**
+1. **The Yellow River appears EXACTLY ONCE on the map**, as a single light-gray italic label along the river's course. Do NOT also draw a "Yellow River" basin label.
+2. **Draw each label exactly once.**
+3. **Spell every label exactly as written below.**
+4. **Site labels are name-only — no parentheticals on the dots.**
+5. **North is at the top. East is to the right.**
+6. **All water is light blue.**
+7. **Do not invent any labels, sites, or features that are not in this prompt.**
 
 **Map requirements:**
-- Eastern China showing Luoyang and the regional centers of religious and intellectual activity
+- Eastern China — Luoyang and Sichuan
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Luoyang** — Label: "Luoyang (An Shigao's Buddhist translations from 148 CE — court factions consuming the government)"
-- **Sichuan** — southwestern China. Label: "Sichuan (Zhang Daoling founds Celestial Masters Daoism, 142 CE — organized parishes, clergy, sacraments)"
+**Sites — 2 dots, name-only labels:**
+- **Luoyang** — Eastern Han capital
+- **Sichuan** — southwestern China
 
-**Region labels (gray) — each ONCE:**
-- Eastern Han Empire (declining)
-- Yellow River ← appears ONCE only, as a single light gray river label
+**Region labels (gray, 3 max):**
+- Eastern Han Empire
+- Yellow River ← appears ONCE only
 - Yangtze River
 
-**Two annotations:**
-- A shaded zone centered on Luoyang: "Mandate fraying — 10 emperors, 7 came to throne as children, eunuch vs. scholar factions locked in permanent war"
-- A dashed line from Sichuan to the eastern provinces: "Two religious transformations — Daoism becomes organized religion, Buddhism spreads beyond the capital"
+**One annotation:**
+- A shaded zone centered on Luoyang with this single caption: "Mandate fraying — 10 emperors, 7 came to throne as children, eunuch and scholar factions at war. An Shigao's Buddhist translations from Luoyang, 148 CE; Zhang Daoling founds Celestial Masters Daoism in Sichuan, 142 CE."
 
 **Style:** Landscape orientation, simple and elegant.

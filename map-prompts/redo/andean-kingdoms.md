@@ -1,242 +1,228 @@
-# Andean Kingdoms — Map Prompt Redos
+# Andean Kingdoms — Map Prompt Redos (lean spec)
 
-Self-contained, copy-paste-ready Gemini prompts for the Andean Kingdoms chapters that need re-rendering. Ch 1, 7 are clean. Ch 2, 3, 4, 5, 6, 8 are below.
+Self-contained, copy-paste-ready Gemini prompts. Lean spec: 4–5 sites max, name-only labels, ≤1 annotation per map. Ch 1, 7 are clean. Ch 2, 3, 4, 5, 6, 8 below.
 
 ---
 
-## Chapter 2 — REDO
+## Chapter 2 — REDO (lean)
 
-Create a simple, clean map for Chapter 2 of a mobile reading app about Andean Kingdoms. The chapter covers the Paracas textile tradition, the Paracas Necropolis, trepanation surgery, cranial modification, the Spondylus shell trade, and the transition from Paracas to Nazca on the south coast.
+Create a simple, clean map for Chapter 2 of a mobile reading app about Andean Kingdoms. The chapter covers the Paracas culture and the Spondylus shell trade.
 
 The chapter title "Chapter 2: The Paracas Weavers" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **Each label appears EXACTLY ONCE.** In particular, the Ecuador label must read `Ecuador (far north — Spondylus source)` exactly once, with the parenthetical written ONE time. Do NOT duplicate the parenthetical `(far north)` after the label.
+1. **Draw each label exactly once.** No parenthetical is duplicated under any label.
 2. **Spell every label exactly as written below. Do not invent words.**
-3. **North is at the top. East is to the right.**
-4. **All water is light blue.**
-5. **Do not invent any labels, sites, or features that are not in this prompt.**
-
-**ANDES ORIENTATION RULES:**
-
-1. The **Pacific Ocean** is to the WEST; the **Andes mountains** run NORTH-TO-SOUTH near the western coast.
-2. The **south coast** of Peru (Ica, Nazca, Acarí valleys) is in the LOWER-LEFT area of the map.
-3. **Ecuador** is to the FAR NORTH on the Pacific coast — the source of warm-water Spondylus shells.
+3. **Site labels are name-only — no parentheticals on the dots.**
+4. **North is at the top. East is to the right.**
+5. **All water is light blue.**
+6. **Do not invent any labels, sites, or features that are not in this prompt.**
 
 **Map requirements:**
-- Focused on the south coast of Peru (Ica, Nazca, Acarí valleys), with the wider coast visible for Spondylus trade context
+- South coast of Peru, with the Ecuadorian coast visible at the far north for the trade route
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Paracas Peninsula** — south coast. Label: "Paracas Peninsula (400+ mummy bundles — finest textiles in the ancient Americas)"
-- **Ica Valley** — south coast. Label: "Ica Valley (Paracas heartland, transition zone to Nazca)"
-- **Nazca Valley** — south coast. Label: "Nazca Valley (emerging Nazca culture, ~100 BCE)"
+**Sites — 4 dots, name-only labels:**
+- **Paracas Peninsula** — south coast
+- **Ica** — south coast
+- **Nazca** — south coast
+- **Ecuador** — far north on the Pacific coast
 
-**Region labels (gray) — each ONCE:**
+**Region labels (gray, 4 max):**
 - South coast
 - Pacific Ocean
 - Andes Mountains
-- Ecuador (far north — Spondylus source) ← this complete label appears EXACTLY ONCE; never duplicate `(far north)`
+- Ecuador (region context only — appears once, no other Ecuador labels)
 
-**Two annotations:**
-- A dashed trade line from Ecuador south along the coast to the Paracas Peninsula: "Spondylus shell trade — 1,200+ miles from warm Ecuadorian waters to the south coast"
-- A shaded zone across the south coast valleys: "Paracas culture ~800–100 BCE — textiles, trepanation, cranial modification, ancestor veneration"
+**One annotation:**
+- A dashed trade line from Ecuador south along the coast to the Paracas Peninsula with this caption: "Spondylus shell trade — 1,200+ miles from warm Ecuadorian waters to Paracas weavers, ~800–100 BCE."
 
 **Style:** Landscape orientation, simple and elegant.
 
 ---
 
-## Chapter 3 — REDO
+## Chapter 3 — REDO (lean)
 
-Create a simple, clean map for Chapter 3 of a mobile reading app about Andean Kingdoms. The chapter covers the Nazca culture, the Nazca Lines geoglyphs, Cahuachi ceremonial center, the puquios underground aqueducts, and Nazca polychrome ceramics.
+Create a simple, clean map for Chapter 3 of a mobile reading app about Andean Kingdoms. The chapter covers the Nazca Lines, Cahuachi, and the puquios aqueducts.
 
 The chapter title "Chapter 3: The Nazca Lines" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **Each annotation appears EXACTLY ONCE.** In particular, the puquios annotation must read `Water flows underground from mountain snowmelt — puquios tap subsurface aquifers` as ONE single sentence. Do NOT write `Water flows underground` twice in a row, or repeat any phrase within the annotation.
-2. **Spell every label exactly as written below. Do not invent words. Do not duplicate any phrase.**
-3. **North is at the top. East is to the right.**
-4. **All water is light blue.**
-5. **Do not invent any labels, sites, or features that are not in this prompt.**
+1. **Draw each label exactly once. Do not duplicate any phrase within an annotation** — never write "Water flows underground" twice.
+2. **Spell every label exactly as written below.**
+3. **Site labels are name-only — no parentheticals on the dots.**
+4. **North is at the top. East is to the right.**
+5. **All water is light blue.**
+6. **Do not invent any labels, sites, or features that are not in this prompt.**
 
 **Map requirements:**
-- Focused on the Nazca and Ica river valleys on the south coast, showing the pampa where the geoglyphs are located and the mountain ranges that supply water
+- Nazca and Ica river valleys on the south coast of Peru, plus the Andes mountain front
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Nazca Pampa** — flat gravel plateau. Label: "Nazca Pampa (170 sq miles of geoglyphs — hummingbird, spider, monkey, condor, over 1,000 figures)"
-- **Cahuachi** — Nazca Valley. Label: "Cahuachi (370-acre pilgrimage center — 40+ adobe mounds, not a city)"
-- **Puquios** — Nazca drainage. Label: "Puquios (underground aqueducts with spiral openings — still functioning after 2,000 years)"
+**Sites — 3 dots, name-only labels:**
+- **Cahuachi** — Nazca Valley
+- **Nazca Pampa** — flat gravel plateau adjacent to the Nazca Valley
+- **Puquios** — Nazca drainage
 
-**Region labels (gray) — each ONCE:**
+**Region labels (gray, 4 max):**
 - Nazca Valley
 - Ica Valley
 - Pacific Ocean
-- Andes Mountains (water source)
+- Andes Mountains
 
-**Two annotations (each appears EXACTLY ONCE, no internal repetition):**
-- Lines radiating from the pampa toward the mountain peaks: "Nazca Lines — messages to the mountain gods, ritual pathways walked for rain"
-- An arrow from the Andes down to the pampa: "Water flows underground from mountain snowmelt — puquios tap subsurface aquifers"
+**One annotation:**
+- An arrow from the Andes down to the pampa (with the geoglyph lines drawn on the pampa) and this single caption: "170 sq miles of geoglyphs — hummingbird, spider, monkey, condor, 1,000+ figures. Water flows underground from mountain snowmelt; puquios tap subsurface aquifers, still functioning after 2,000 years."
 
 **Style:** Landscape orientation, simple and elegant.
 
 ---
 
-## Chapter 4 — REDO
+## Chapter 4 — REDO (lean)
 
-Create a simple, clean map for Chapter 4 of a mobile reading app about Andean Kingdoms. The chapter covers the emergence of the Moche civilization on the north coast, the Gallinazo predecessor culture, Huaca del Sol and Huaca de la Luna, the Decapitator God Ai Apaec, the two-polity model, and the La Cumbre intervalley canal.
+Create a simple, clean map for Chapter 4 of a mobile reading app about Andean Kingdoms. The chapter covers the rise of the Moche on the north coast.
 
 The chapter title "Chapter 4: Rise of the Moche" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **The La Cumbre annotation appears EXACTLY ONCE**, with the EXACT text `La Cumbre intervalley canal — ~70 miles connecting two watersheds`. Do NOT draw a second copy of this annotation anywhere on the map. Do NOT write garbled variants like "La Cumbre soum—≈ valley" — the words are `intervalley canal`, the number is `~70 miles` (always written as letters and digits, never as the math symbol `≈`).
-2. **Spell every word exactly as written below. Do not invent words. Do not substitute math symbols for written numbers.**
-3. **Draw each label exactly once.**
+1. **Draw each label exactly once.** The La Cumbre annotation appears once, written as actual words ("~70 miles" — never the math symbol "≈").
+2. **Spell every label exactly as written below. Do not invent words. Do not garble — never write fragments like "soum—≈ valley".**
+3. **Site labels are name-only — no parentheticals on the dots.**
 4. **North is at the top. East is to the right.**
 5. **All water is light blue.**
 6. **Do not invent any labels, sites, or features that are not in this prompt.**
 
-**ANDES ORIENTATION RULES:**
-
-1. The **Pacific Ocean** is to the WEST; the **Andes mountains** run NORTH-TO-SOUTH near the western coast.
-2. The **north coast** of Peru (Moche, Chicama, Lambayeque, Jequetepeque, Virú valleys) is in the upper-left area.
-
 **Map requirements:**
-- North coast of Peru, showing the river valleys from Piura in the north to Huarmey in the south, with the two Moche polities visible
+- North coast of Peru — river valleys from Lambayeque in the north to Moche Valley in the south
+- Show the two Moche polities as shaded zones
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Huaca del Sol and Huaca de la Luna** — Moche Valley. Label: "Huaca del Sol and Huaca de la Luna (southern polity capital — largest adobe structure in the Americas)"
-- **Gallinazo Group** — Virú Valley. Label: "Gallinazo Group (30,000+ rooms — predecessor culture absorbed by the Moche)"
+**Sites — 3 dots, name-only labels:**
+- **Huaca del Sol & Huaca de la Luna** — Moche Valley (one combined dot)
+- **Gallinazo Group** — Virú Valley
+- **La Cumbre canal** — between Chicama and Moche valleys
 
-**Region labels (gray) — each ONCE:**
-- Southern Moche polity
-- Northern Moche polity
+**Region labels (gray, 4 max):**
 - Moche Valley
 - Chicama Valley
 - Lambayeque Valley
-- Jequetepeque Valley
 - Pacific Ocean
 
-**Two annotations (each appears EXACTLY ONCE):**
-- A line from the Chicama River to the Moche Valley: "La Cumbre intervalley canal — ~70 miles connecting two watersheds" (this exact annotation appears ONCE; do not duplicate it on the bottom-left or anywhere else)
-- Two shaded zones showing the two polities: "Two Moche polities — shared religion and art, separate ruling dynasties, 370 miles of coast"
+**One annotation:**
+- Two shaded zones (northern and southern Moche polity) with this single caption: "Two Moche polities, ~100–700 CE — shared religion and art, separate dynasties, 370 miles of coast. La Cumbre intervalley canal links the Chicama and Moche watersheds, ~70 miles long."
 
 **Style:** Landscape orientation, simple and elegant.
 
 ---
 
-## Chapter 5 — REDO
+## Chapter 5 — REDO (lean)
 
-Create a simple, clean map for Chapter 5 of a mobile reading app about Andean Kingdoms. The chapter covers the discovery of the Lord of Sipán, the Sacrifice Ceremony, Moche metallurgy, Dos Cabezas, El Brujo and the Lady of Cao, and San José de Moro.
+Create a simple, clean map for Chapter 5 of a mobile reading app about Andean Kingdoms. The chapter covers the Moche elite burials — Lord of Sipán, Lady of Cao, the Priestess of San José de Moro.
 
 The chapter title "Chapter 5: Lords of Sipán" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **No word is duplicated within any single label.** In particular, the San José de Moro label must read `San José de Moro (8+ high-status female burials — the Priestess role was real)` — the word `burials` appears EXACTLY ONCE.
-2. **Spell every label exactly as written below. Do not invent words. Do not duplicate any word.**
-3. **Draw each label exactly once.**
+1. **Draw each label exactly once. No word is duplicated within any single label** — the word "burials" appears at most once per label.
+2. **Spell every label exactly as written below.**
+3. **Site labels are name-only — no parentheticals on the dots.**
 4. **North is at the top. East is to the right.**
 5. **All water is light blue.**
 6. **Do not invent any labels, sites, or features that are not in this prompt.**
 
 **Map requirements:**
-- North coast of Peru focused on the major Moche burial sites and ceremonial centers
+- North coast of Peru — the major Moche burial sites
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Sipán** — Lambayeque Valley. Label: "Sipán (Lord of Sipán — richest burial in pre-Columbian Americas, ~300 CE)"
-- **Dos Cabezas** — Jequetepeque Valley. Label: "Dos Cabezas (three royal burials — evidence for two-polity model)"
-- **El Brujo** — Chicama Valley. Label: "El Brujo (Lady of Cao — female warrior-priest, tattooed, ~400 CE)"
-- **San José de Moro** — Jequetepeque Valley. Label: "San José de Moro (8+ high-status female burials — the Priestess role was real)" ← `burials` appears ONCE in this label
+**Sites — 4 dots, name-only labels:**
+- **Sipán** — Lambayeque Valley
+- **Dos Cabezas** — Jequetepeque Valley
+- **El Brujo** — Chicama Valley
+- **San José de Moro** — Jequetepeque Valley
 
-**Region labels (gray) — each ONCE:**
+**Region labels (gray, 4 max):**
 - Lambayeque Valley
 - Jequetepeque Valley
 - Chicama Valley
-- Moche Valley
 - Pacific Ocean
 
-**Two annotations:**
-- A dashed connection between Sipán, Dos Cabezas, El Brujo, and San José de Moro: "Warrior-priest dynasties — three centuries of the Sacrifice Ceremony enacted in real costumes"
-- A label at Sipán: "Gold, turquoise, copper — depletion gilding and lost-wax casting, metallurgy rivaling the Old World"
+**One annotation:**
+- A dashed connection across the four burial sites with this caption: "Warrior-priest dynasties — three centuries of the Sacrifice Ceremony enacted in real costumes. Lord of Sipán is the richest pre-Columbian burial in the Americas; the Priestess role at San José de Moro was held by women."
 
 **Style:** Landscape orientation, simple and elegant.
 
 ---
 
-## Chapter 6 — REDO
+## Chapter 6 — REDO (lean)
 
-Create a simple, clean map for Chapter 6 of a mobile reading app about Andean Kingdoms. The chapter covers Moche fineline painting, the Sacrifice Ceremony, portrait vessels, ritual combat, medical ceramics, erotic ceramics, and the Revolt of the Objects theme. This is a thematic chapter — the map shows the key Moche ceremonial and artistic centers rather than a narrative geographic progression.
+Create a simple, clean map for Chapter 6 of a mobile reading app about Andean Kingdoms. The chapter covers Moche art and ritual at Huaca del Sol and Huaca de la Luna.
 
 The chapter title "Chapter 6: Moche Art and Ritual" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **Every label must end with a complete word and a closing parenthesis.** No callout may trail off mid-sentence. In particular, the Huaca de la Luna label must end with the complete phrase "70+ sacrificial victims at base)" — never with the truncated fragment "70+ sacrificial".
-2. **Spell every label exactly as written below.**
-3. **Draw each label exactly once.**
-4. **North is at the top. East is to the right.**
-5. **Do not invent any labels, sites, or features that are not in this prompt.**
+1. **Every label ends with a complete word and a closing parenthesis if one was opened.** No callout may trail off mid-sentence.
+2. **Draw each label exactly once.**
+3. **Spell every label exactly as written below.**
+4. **Site labels are name-only — no parentheticals on the dots.**
+5. **North is at the top. East is to the right.**
+6. **All water is light blue.**
+7. **Do not invent any labels, sites, or features that are not in this prompt.**
 
 **Map requirements:**
-- North coast of Peru showing the major Moche ceramic production and ritual sites
+- North coast of Peru focused on the Moche Valley
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Huaca de la Luna** — Moche Valley. Label: "Huaca de la Luna (polychrome murals — Ai Apaec the Decapitator, 70+ sacrificial victims at base)" ← MUST end with "victims at base)" — do not truncate
-- **Huaca del Sol** — Moche Valley. Label: "Huaca del Sol (administrative center — 130 million adobe bricks)"
+**Sites — 2 dots, name-only labels:**
+- **Huaca del Sol** — Moche Valley
+- **Huaca de la Luna** — Moche Valley
 
-**Region labels (gray) — each ONCE:**
+**Region labels (gray, 3 max):**
 - Moche Valley
 - North coast
 - Pacific Ocean
 
-**Two annotations:**
-- A shaded zone across the Moche heartland: "Fineline painting tradition — narrative scenes on pottery functioning as scripture in a civilization without writing"
-- A label near Huaca de la Luna: "Ritual combat → capture → sacrifice → blood offering — the Sacrifice Ceremony enacted for centuries"
+**One annotation:**
+- A shaded zone across the Moche heartland with this single caption: "Fineline pottery as scripture in a civilization without writing. Huaca del Sol is 130 million adobe bricks; Huaca de la Luna held 70+ sacrificial victims and the Decapitator murals — the Sacrifice Ceremony enacted for centuries."
 
 **Style:** Landscape orientation, simple and elegant.
 
 ---
 
-## Chapter 8 — REDO
+## Chapter 8 — REDO (lean)
 
-Create a simple, clean map for Chapter 8 of a mobile reading app about Andean Kingdoms. The chapter covers the El Niño-driven collapse of the Moche, the burning of Pampa Grande, the Nazca decline, the rise of Tiwanaku with its raised-field agriculture and llama caravans, and the emergence of the Wari state.
+Create a simple, clean map for Chapter 8 of a mobile reading app about Andean Kingdoms. The chapter covers the Moche collapse and the rise of Tiwanaku and Wari.
 
 The chapter title "Chapter 8: Collapse and Connection" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
 
-**CRITICAL RULES — read carefully before drawing:**
+**CRITICAL RULES:**
 
-1. **No word is duplicated within any single label.** In particular, the Tiwanaku label must read `Tiwanaku (20,000–40,000 people by 500 CE — raised-field agriculture, Gate of the Sun)` — the phrase `Gate of` appears EXACTLY ONCE, followed by `the Sun`. Never write `Gate of Gate of the Sun`.
-2. **Spell every label exactly as written below. Do not invent words. Do not duplicate any phrase.**
-3. **Draw each label exactly once.**
-4. **North is at the top. East is to the right.**
-5. **Do not invent any labels, sites, or features that are not in this prompt.**
+1. **No phrase is duplicated within any single label.** "Gate of" appears once, followed by "the Sun" — never "Gate of Gate of the Sun".
+2. **Draw each label exactly once.**
+3. **Spell every label exactly as written below.**
+4. **Site labels are name-only — no parentheticals on the dots.**
+5. **North is at the top. East is to the right.**
+6. **All water is light blue.**
+7. **Do not invent any labels, sites, or features that are not in this prompt.**
 
 **Map requirements:**
-- Full Peruvian and Bolivian coast and highlands, from the north coast to Lake Titicaca, showing the collapse of coastal cultures and the rise of highland empires
+- Peruvian and Bolivian coast and highlands, from north coast to Lake Titicaca
 - Muted warm palette
 
-**Sites — each ONCE:**
-- **Pampa Grande** — Lambayeque Valley. Label: "Pampa Grande (last Moche capital — burned by internal revolt, ~700 CE)"
-- **Tiwanaku** — Lake Titicaca. Label: "Tiwanaku (20,000–40,000 people by 500 CE — raised-field agriculture, Gate of the Sun)" ← `Gate of` appears ONCE
-- **Wari** — Ayacucho basin. Label: "Wari (military state emerging ~550 CE — planned administrative centers, road networks)"
+**Sites — 3 dots, name-only labels:**
+- **Pampa Grande** — Lambayeque Valley (last Moche capital)
+- **Tiwanaku** — south shore of Lake Titicaca
+- **Wari** — Ayacucho basin
 
-**Region labels (gray) — each ONCE:**
-- North coast (Moche collapsing)
-- South coast (Nazca absorbed)
+**Region labels (gray, 4 max):**
+- North coast
 - Lake Titicaca
-- Ayacucho basin
 - Pacific Ocean
 - Andes Mountains
 
-**Two annotations:**
-- Arrows from Tiwanaku to distant colonies: "Tiwanaku colonies — Moquegua Valley (coast), Cochabamba (Bolivia), Atacama (Chile)"
-- A shaded zone showing Wari expansion: "Wari expansion after 550 CE — the first pan-Andean military empire, absorbing weakened coastal cultures"
+**One annotation:**
+- A shaded zone covering Wari expansion and Tiwanaku's reach, with this single caption: "Coastal cultures collapse, ~600–700 CE; Tiwanaku reaches 20,000–40,000 people on raised-field agriculture (Gate of the Sun monolith); Wari emerges as the first pan-Andean military empire."
 
 **Style:** Landscape orientation, simple and elegant.
