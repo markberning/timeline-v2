@@ -19,6 +19,7 @@ The chapter title "Chapter 1: The Volcano and the Valley" should appear at the t
 5. **North is at the top. East is to the right.**
 6. **All water is light blue.**
 7. **Do not invent any labels, sites, or features that are not in this prompt.**
+8. **Render the annotation caption EXACTLY as quoted, character-for-character.** Do not add words. Do not duplicate words. Past renders produced gibberish like "origina wanm" and "aligned firt in aligned" — both are wrong. The word "aligned" appears EXACTLY ONCE in the caption. There is no word "firt" or "wanm" in the caption.
 
 **Map requirements:**
 - The Basin of Mexico — lake system, volcanic mountains around the rim, Cuicuilco in the south, Teotihuacan Valley in the northeast
@@ -35,8 +36,9 @@ The chapter title "Chapter 1: The Volcano and the Valley" should appear at the t
 - Lake Texcoco
 - Volcanic mountains (rim)
 
-**One annotation:**
-- A bold arrow from Cuicuilco northeast to the Teotihuacan Valley with this single caption: "Xitle erupts ~100 BCE–80 CE, burying Cuicuilco under 30 feet of lava; refugees migrate northeast, providing the labor force for a planned city aligned 15.5° east of true north."
+**Two annotations — render each as a SEPARATE box, do NOT merge them:**
+- ANNOTATION A — a bold arrow from Cuicuilco northeast to the Teotihuacan Valley. Caption (verbatim, no other words): "Refugees flee Xitle's lava — migrate northeast"
+- ANNOTATION B — a small box near the Teotihuacan Valley. Caption (verbatim, no other words): "Grid aligned 15.5° east of true north"
 
 **Style:** Landscape orientation, simple and elegant.
 
@@ -125,30 +127,33 @@ The chapter title "Chapter 7: The Great Goddess and the Storm God" should appear
 
 **CRITICAL RULES:**
 
-1. **`Pyramid of the Moon` appears EXACTLY ONCE**, attached to the structure at the NORTH end of the Street of the Dead. The structure at the SOUTH end is the **Ciudadela**, NOT a second Pyramid of the Moon.
-2. **`Ciudadela` appears EXACTLY ONCE.**
-3. **Draw each label exactly once.**
-4. **Spell every label exactly as written below.**
-5. **Site labels are name-only — no parentheticals on the dots.**
-6. **North is at the top. East is to the right.**
-7. **Do not invent any labels, sites, or features that are not in this prompt.**
+1. **The word "ONCE" is a count instruction — do NOT render it on the map.** Past renders incorrectly placed "ONCE" inside compounds.
+2. **`Pyramid of the Moon` appears EXACTLY ONCE**, attached to the structure at the NORTH end of the Street of the Dead. The structure at the SOUTH end is the **Ciudadela**, NOT a second Pyramid of the Moon.
+3. **`Ciudadela` appears EXACTLY ONCE.**
+4. **Draw each label exactly once.**
+5. **Spell every label exactly as written below.**
+6. **Site labels are name-only — no parentheticals on the dots.**
+7. **North is at the top. East is to the right.**
+8. **Do not invent any labels, sites, or features that are not in this prompt.**
+9. **Render annotation captions EXACTLY as quoted, character-for-character.** Do not add words. Do not duplicate words. Past renders produced gibberish like `teamelts`, `muralstructure`, `genmrtly`, `molnnt`, and a duplicated `readable readable` — all are wrong. The word "readable" does not appear in the captions below. The words "teamelts", "muralstructure", "genmrtly", "molnnt" do not exist.
 
 **Map requirements:**
 - Architectural plan view of Teotihuacan with the major mural-bearing compounds
 - Muted warm palette
 
-**Sites — 5 labels, name-only:**
-- **Pyramid of the Moon** — north end ← appears ONCE only, at the north end
-- **Pyramid of the Sun** — east side
-- **Ciudadela** — south end ← appears ONCE only
+**Sites — 5 labels, name-only (all five must appear):**
+- **Pyramid of the Moon** — north end of the avenue
+- **Pyramid of the Sun** — east side of the avenue
+- **Ciudadela** — south end of the avenue
 - **Tepantitla** — northeast of the Pyramid of the Sun
 - **Atetelco** — west of the Street of the Dead
 
 **Region labels (gray, 1 max):**
 - Street of the Dead
 
-**One annotation:**
-- A shaded zone across the city with this single caption: "Murals on every wall — the city was painted floor to ceiling. Tepantitla's Great Goddess presides over a paradise of swimming, singing figures; Atetelco's eagle and coyote warriors devour human hearts. No named rulers, no readable writing — gods and processions stand in for individuals."
+**Two annotations — render each as a SEPARATE box, do NOT merge them:**
+- ANNOTATION A — a small shaded box on the city. Caption (verbatim, no other words): "Murals on every wall — vivid reds, greens, blues, yellows"
+- ANNOTATION B — a small box near the ceremonial core. Caption (verbatim, no other words): "No named rulers, no writing — gods and processions instead"
 
 **Style:** Landscape orientation, simple and elegant.
 
