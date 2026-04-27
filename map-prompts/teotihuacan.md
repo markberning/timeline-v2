@@ -36,24 +36,29 @@ The chapter title "Chapter 1: The Volcano and the Valley" should appear at the t
 
 **Apply the GLOBAL RULES and MESOAMERICA ORIENTATION RULES above.**
 
+**CRITICAL — annotation text rules for this map:**
+- The two annotations below are SEPARATE. Do not merge them. Do not invent connector words between them.
+- Render each annotation EXACTLY as the quoted string. Do not add words. Do not duplicate words.
+- Past attempts produced gibberish like "origina wanm" and "aligned firt in aligned" — both are wrong. Render exactly what is quoted.
+
 **Map requirements:**
 - Focused view of the Basin of Mexico, showing the lake system, the volcanic mountains ringing the basin, Cuicuilco in the south, and the Teotihuacan Valley in the northeast
 - Muted warm palette
 
 **Sites — each ONCE:**
-- **Cuicuilco** — southern basin. Label: "Cuicuilco (first urban center in the basin — buried under 30 feet of lava by Xitle volcano)"
-- **Xitle volcano** — southwestern basin edge. Label: "Xitle (eruption ~100 BCE–80 CE — lava buries Cuicuilco)"
-- **Teotihuacan Valley** — northeastern basin. Label: "Teotihuacan Valley (springs, fertile soil, and obsidian — refugees arrive, city begins)"
-- **Sierra de las Navajas** — northeast of the valley. Label: "Sierra de las Navajas (green obsidian source — the most prestigious cutting material in Mesoamerica)"
+- **Cuicuilco** — southern basin. Label: "Cuicuilco (first urban center — buried by Xitle's lava)"
+- **Xitle volcano** — southwestern basin edge. Label: "Xitle (eruption ~100 BCE–80 CE)"
+- **Teotihuacan Valley** — northeastern basin. Label: "Teotihuacan Valley (springs, soil, obsidian — city begins here)"
+- **Sierra de las Navajas** — northeast of the valley. Label: "Sierra de las Navajas (green obsidian source)"
 
 **Region labels (gray) — each ONCE:**
 - Basin of Mexico
 - Lake Texcoco
-- Volcanic mountains (rim)
+- Volcanic mountains
 
-**Two annotations:**
-- A bold arrow from Cuicuilco northeast to the Teotihuacan Valley: "Refugees flee the lava — thousands migrate northeast, providing the labor force for a planned city"
-- A label at the Teotihuacan Valley: "City grid aligned 15.5° east of true north — astronomical orientation maintained for 600 years"
+**Two annotations — render each as a SEPARATE box:**
+- ANNOTATION A — a bold arrow from Cuicuilco northeast to the Teotihuacan Valley. Caption (verbatim): "Refugees flee Xitle's lava — migrate northeast"
+- ANNOTATION B — a small box near the Teotihuacan Valley. Caption (verbatim): "Grid aligned 15.5° east of true north"
 
 **Style:** Landscape orientation, match series style.
 
@@ -226,24 +231,29 @@ The chapter title "Chapter 7: The Great Goddess and the Storm God" should appear
 
 **Apply the GLOBAL RULES and MESOAMERICA ORIENTATION RULES above.**
 
+**CRITICAL — text rules for this map:**
+- The word "ONCE" in the bullet headers below is a COUNT INSTRUCTION ("each label appears once"). Do NOT render the word "ONCE" anywhere on the map.
+- All five named sites (Tepantitla, Tetitla, Atetelco, Pyramid of the Sun, Pyramid of the Moon) must appear. Do not drop any.
+- Render each annotation EXACTLY as the quoted string. Do not duplicate words. Do not invent words. Past attempts produced gibberish like "teamelts", "muralstructure", "molnnt", "genmrtly", and a duplicated "readable readable" — all are wrong. Render exactly what is quoted.
+
 **Map requirements:**
 - Plan view of Teotihuacan showing the major mural-bearing compounds and their locations relative to the ceremonial core
 - Muted warm palette, architectural plan style
 
-**Sites — each ONCE:**
-- **Tepantitla** — northeast of the Pyramid of the Sun. Label: "Tepantitla (Great Goddess mural — paradise scene with tiny figures swimming, singing, chasing butterflies)"
+**Sites — render each label exactly once:**
+- **Tepantitla** — northeast of the Pyramid of the Sun. Label: "Tepantitla (Great Goddess mural — paradise scene)"
 - **Tetitla** — west of the Street of the Dead. Label: "Tetitla (net-jaguar processions, deity portraits)"
-- **Atetelco** — west of the Street of the Dead. Label: "Atetelco (eagle and coyote warrior processions — jaguars devouring human hearts)"
-- **Pyramid of the Sun** — Label: "Pyramid of the Sun"
-- **Pyramid of the Moon** — Label: "Pyramid of the Moon"
+- **Atetelco** — west of the Street of the Dead, south of Tetitla. Label: "Atetelco (eagle and coyote warrior processions)"
+- **Pyramid of the Sun** — east of the Street of the Dead. Label: "Pyramid of the Sun"
+- **Pyramid of the Moon** — north terminus of the Street of the Dead. Label: "Pyramid of the Moon"
 
-**Region labels (gray) — each ONCE:**
+**Region labels (gray) — render each exactly once:**
 - Street of the Dead
 - Ciudadela
 
-**Two annotations:**
-- A shaded zone across the city: "Murals on every wall — the city was painted floor to ceiling, vivid reds, greens, blues, yellows"
-- A label near the ceremonial core: "No named rulers, no readable writing — gods and processions instead of individuals"
+**Two annotations — render each as a SEPARATE box:**
+- ANNOTATION A — a small shaded zone across the city. Caption (verbatim): "Murals on every wall — vivid reds, greens, blues, yellows"
+- ANNOTATION B — a small box near the ceremonial core. Caption (verbatim): "No named rulers, no writing — gods and processions instead"
 
 **Style:** Landscape orientation, match series style.
 
