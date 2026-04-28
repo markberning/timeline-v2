@@ -1,5 +1,7 @@
 # Map Prompt Redos (lean spec)
 
+**Status (2026-04-28): all 11-TL batch redos complete and shipped.** Every chapter listed below has been replaced with a clean lean-spec render in `public/maps/{tl}/chapter-{N}.webp`.
+
 Prompts in this folder are **lean rewrites** of originals that produced hallucinations on the first Gemini run. Every redo here follows the **lean specification** (see `../README.md` "LEAN SPECIFICATION" section): 4–5 sites max, name-only labels (no parentheticals on dots), ≤1 annotation per map, 3–5 region labels for orientation only.
 
 The April 2026 batch review found the failure rate scaled directly with prompt density. Maps with 7+ sites and long parenthetical descriptions on every dot routinely produced duplicates, hallucinated words inside parentheticals, and truncated sentences. Lean prompts give Gemini fewer chances to garble.
@@ -16,23 +18,35 @@ The April 2026 batch review found the failure rate scaled directly with prompt d
 
 ## What's in here
 
-11-TL Gemini batch (April 2026) — review findings:
+11-TL Gemini batch (April 2026) — review findings, all shipped 2026-04-26 → 2026-04-28:
 
-- [ancestral-puebloans.md](ancestral-puebloans.md) — Ch 3, 4, 7, 8 (Ch 4 has the wrongly-attributed `chocolate residue` callout that was a real mislabel)
-- [andean-kingdoms.md](andean-kingdoms.md) — Ch 2, 3, 4, 5, 6, 8 (six chapters; pervasive duplicated phrases and one fully-garbled annotation in Ch 4)
-- [ancient-japan.md](ancient-japan.md) — Ch 1, 4, 8 (Ch 8 has hallucinated battle "Midani"; Ch 4 has duplicated Battle of Baekgang)
-- [celtic-cultures.md](celtic-cultures.md) — Ch 3, 5, 7 (Ch 7 priority: "repurgetorix" hallucination + missing Alesia surrender callout)
-- [han-dynasty.md](han-dynasty.md) — Ch 3, 5, 7 (Yellow River label duplications; Zhang Qian / Zhangye collision in Ch 3)
-- [kingdom-of-aksum.md](kingdom-of-aksum.md) — Ch 3, 5 (incomplete sentences)
-- [post-maurya-kingdoms.md](post-maurya-kingdoms.md) — Ch 4, 7, 8 (Ch 4 priority: Bamiyan Buddhas dated ~250 CE — factual error, should be 6th–7th c. CE)
-- [six-dynasties.md](six-dynasties.md) — Ch 2, 4, 6, 7 (positioning suffixes leaking into labels; Ch 4 has duplicated Eastern Jin and "Taizong buried the Taizong buried the")
-- [teotihuacan.md](teotihuacan.md) — Ch 1, 2, 5, 7, 8 (Ch 1: "Volgland Mexico" hallucination; Ch 5: "Gull site" hallucination; Ch 7: Pyramid of the Moon duplicated)
-- [xiongnu-huns.md](xiongnu-huns.md) — Ch 1, 2, 5, 7, 8 (Ch 8 priority: "Stepids" / "starvoys" garbled tribes annotation)
-- [zapotec-civilization.md](zapotec-civilization.md) — Ch 1, 2, 3, 4, 5, 7 (recurring `Mountains (surrounding ring)` duplication and `℡` Unicode-ligature substitution for `BCE` in Ch 3)
+- [ancestral-puebloans.md](ancestral-puebloans.md) — Ch 3, 4, 7, 8 ✅ shipped
+- [andean-kingdoms.md](andean-kingdoms.md) — Ch 2, 3, 4, 5, 6, 8 ✅ shipped
+- [ancient-japan.md](ancient-japan.md) — Ch 1, 4, 8 ✅ shipped
+- [celtic-cultures.md](celtic-cultures.md) — Ch 3, 5, 7 ✅ shipped
+- [han-dynasty.md](han-dynasty.md) — Ch 3, 5, 7 ✅ shipped
+- [kingdom-of-aksum.md](kingdom-of-aksum.md) — Ch 3, 5 ✅ shipped
+- [post-maurya-kingdoms.md](post-maurya-kingdoms.md) — Ch 4, 7, 8 ✅ shipped
+- [six-dynasties.md](six-dynasties.md) — Ch 2, 4, 6, 7 ✅ shipped
+- [teotihuacan.md](teotihuacan.md) — Ch 1, 2, 5, 7, 8 ✅ shipped (Ch 1 + Ch 7 needed a v2 pass — see below)
+- [xiongnu-huns.md](xiongnu-huns.md) — Ch 1, 2, 5, 7, 8 ✅ shipped
+- [zapotec-civilization.md](zapotec-civilization.md) — Ch 1, 2, 3, 4, 5, 7 ✅ shipped (Ch 4 needed a second render after `Munte Albán` gibberish in the first redo)
+
+## When the lean spec still fails: split-annotation v2 (Teotihuacan Ch 1, 7)
+
+A single still-too-long annotation can hallucinate even at the lean tier. Teotihuacan ch 1 produced `origina wanm` then `aligned firt in aligned`; ch 7 produced `teamelts`, `muralstructure`, doubled `readable readable`, plus the literal word `ONCE` rendered as a label inside two compounds (the bullet header `Sites — each ONCE:` leaked into the output).
+
+The fix that worked is in [teotihuacan-ch1-ch7-v2.md](teotihuacan-ch1-ch7-v2.md):
+
+1. **Split a long annotation into two short separate boxes (`ANNOTATION A` and `ANNOTATION B`).** Each box has a single short clause as its caption. The model has less room to mash adjacent clauses together with hallucinated connector words.
+2. **Cite the specific gibberish words from prior renders by name** so the model can pattern-match them as wrong: `"past renders produced gibberish like X, Y, Z — none of those strings exist."`
+3. **Explicitly tell the model that `ONCE` is a count instruction, not a label**, when the bullet header uses the word.
+
+Apply this v2 pattern preemptively when a chapter has more than one annotation or when the annotation is more than one short clause. It's a small extra defense on top of the regular lean spec.
 
 ## Workflow
 
 1. Copy one prompt at a time into Gemini
 2. Save output to `public/maps/{civilizationId}/chapter-{N}.png`, overwriting the old PNG
 3. Convert to WebP (q85) and update the chapter-{N}.webp
-4. Visually re-check before shipping — if the redo still has errors, iterate on the prompt
+4. Visually re-check before shipping — if the redo still has errors, iterate on the prompt (split annotations + cite the gibberish — see v2 section above)

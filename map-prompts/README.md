@@ -200,10 +200,8 @@ That's it. If you find yourself writing a fourth annotation or an eighth site, c
 
 ## Redos
 
-First-run Gemini output had hallucinations on some maps — see [redo/](redo/) for tightened rewrites of the problem prompts. Specifically:
-- [redo/ancient-china.md](redo/ancient-china.md) — Ch 4, 7, 8 (the three China maps with real errors)
-- [redo/ancient-nubia.md](redo/ancient-nubia.md) — Ch 1–8 (all eight Nubia maps need redos)
-- [redo/elamite-civilization.md](redo/elamite-civilization.md) — Ch 1, 3, 7, 8 (Ch 7 is priority-1; others are minor)
-- [redo/kingdom-of-kush.md](redo/kingdom-of-kush.md) — Ch 6 (pyramid count hallucination)
+First-run Gemini output had hallucinations on some maps — see [redo/](redo/) for tightened rewrites of the problem prompts. The earliest redos (Mesopotamia / Nubia / China / Elam / Kush) were narrow surgical rewrites; the **April 2026 11-TL batch** review then produced a much larger redo set covering ~40 chapters across 11 TLs. **As of 2026-04-28, the entire redo backlog is shipped** — every chapter listed in [redo/README.md](redo/README.md) has been replaced with a clean lean-spec render.
 
 The redos are the live reference for "how a prompt should look when it actually has to work." When drafting new TL prompts, copy the redo style, not the first-run style.
+
+If a chapter still hallucinates even at the lean tier (especially when the annotation is long or contains multiple clauses), apply the **split-annotation v2** pattern documented in [redo/README.md](redo/README.md) — break the annotation into two short separate boxes and cite prior gibberish words by name. This pattern was developed for Teotihuacan ch 1 and ch 7 in [redo/teotihuacan-ch1-ch7-v2.md](redo/teotihuacan-ch1-ch7-v2.md) after the lean spec alone wasn't enough.
