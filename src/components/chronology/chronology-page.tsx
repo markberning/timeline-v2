@@ -23,8 +23,15 @@ function useIsDesktop(): boolean {
 
 const defaultCiv = SORTED_CIVS.find(c => c.hasContent)?.id ?? SORTED_CIVS[0]?.id ?? null
 
+function isReload(): boolean {
+  if (typeof window === 'undefined') return false
+  const entries = performance.getEntriesByType('navigation') as PerformanceNavigationTiming[]
+  return entries[0]?.type === 'reload'
+}
+
 function getInitialCiv(): string | null {
   if (typeof window === 'undefined') return defaultCiv
+  if (isReload()) return defaultCiv
   const last = localStorage.getItem('last-viewed-civ')
   if (last && SORTED_CIVS.some(c => c.id === last)) return last
   return defaultCiv
@@ -39,13 +46,21 @@ export function ChronologyPage() {
   const ribbonScrollRef = useRef<HTMLDivElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
 
-  // On mount, scroll the list to the initial active civ
+  // On mount, scroll the list to the initial active civ.
+  // On reload, force the list to the top instead of restoring scroll position.
   useEffect(() => {
+    if (!listRef.current) return
+    if (isReload()) {
+      // rAF defers past the browser's own scroll restoration on reload
+      requestAnimationFrame(() => {
+        listRef.current?.scrollTo({ top: 0, behavior: 'auto' })
+      })
+      return
+    }
     const id = activeCivId
-    if (!id || !listRef.current) return
+    if (!id) return
     const row = listRef.current.querySelector(`[data-civ-id="${id}"]`) as HTMLElement | null
     if (row) {
-      // Small delay to let layout settle
       requestAnimationFrame(() => {
         row.scrollIntoView({ block: 'start' })
       })
