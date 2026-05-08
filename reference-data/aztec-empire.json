@@ -1,0 +1,769 @@
+{
+  "id": "aztec-empire",
+  "label": "Aztec Empire",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "imageWikiSlug": "Tenochtitlan",
+  "pitch": "When Spanish conquistadors first saw Tenochtitlan, they thought they were dreaming — a gleaming island city of 200,000 people, larger than any city in Europe, fed by Chinampa Agriculture Expands floating gardens and connected by the Tenochtitlan Causeways to the mainland. The story begins with the Mexica Leave Aztlan on a mythic migration and reaches its climax when Tenochtitlan Founded in 1325 on the spot where an eagle perched on a cactus devouring a serpent. Then Cortes Arrives, and everything changes.\n\n🔑 Key Facts:\n• Itzcoatl forged the Triple Alliance Formed with Texcoco and Tlacopan, transforming the Mexica from vassals into the dominant power of central Mexico\n• The Sun Stone Carved depicts the five cosmogonic suns and the Aztec calendar system in a single massive monument\n• Nezahualcoyotl, the philosopher-king of Texcoco, composed renowned Nahuatl poetry (Nezahualcoyotl's Poetry) and designed the Chapultepec Aqueduct supplying fresh water to the island city\n• Motecuzoma II presided over the empire at its zenith but faced the arrival of Cortes Arrives with 500 soldiers\n\n🤔 Why It Matters: Aztec achievements in hydraulic engineering, agriculture, and urban planning supported a city larger than contemporary London or Paris. The Pochteca Trade Networks connected Mesoamerica from Guatemala to the American Southwest.\n\n🎲 Wild Card: La Noche Triste — the Aztecs drove the Spanish out of Tenochtitlan in a devastating nighttime battle in 1520, killing hundreds of conquistadors weighed down by stolen gold. It was one of Spain's worst military defeats in the Americas, and it almost ended the conquest entirely.",
+  "countryIds": [
+    "484"
+  ],
+  "spans": [
+    {
+      "id": "span-aztec-empire-mexica-migration",
+      "label": "Mexica Migration",
+      "startYear": 1100,
+      "endYear": 1325,
+      "wikiSlug": "Mexica#Migration_and_foundation_of_Tenochtitlan",
+      "description": "The Mexica people journeyed south from their legendary homeland of Aztlan, guided by their patron god Huitzilopochtli. After over two centuries of wandering and temporary settlements, they arrived at Lake Texcoco to found their capital."
+    },
+    {
+      "id": "span-aztec-empire-tepanec-vassalage",
+      "label": "Tepanec Vassalage",
+      "startYear": 1325,
+      "endYear": 1428,
+      "wikiSlug": "Tepanec",
+      "description": "After founding Tenochtitlan on an island in Lake Texcoco, the Mexica served as vassals and mercenaries for the dominant Tepanec empire of Azcapotzalco. They built their city, established a royal dynasty, and gained military experience before revolting against their overlords."
+    },
+    {
+      "id": "span-aztec-empire-triple-alliance",
+      "label": "Triple Alliance",
+      "startYear": 1428,
+      "endYear": 1486,
+      "wikiSlug": "Aztec_Triple_Alliance",
+      "description": "Tenochtitlan, Texcoco, and Tlacopan defeated the Tepanecs and formed the Triple Alliance, rapidly conquering the Valley of Mexico. Itzcoatl rewrote Mexica history, chinampa agriculture expanded, and the Templo Mayor grew as Tenochtitlan became the dominant partner."
+    },
+    {
+      "id": "span-aztec-empire-imperial-expansion",
+      "label": "Imperial Expansion",
+      "startYear": 1486,
+      "endYear": 1519,
+      "wikiSlug": "Aztec_Empire",
+      "description": "Under Ahuitzotl and Motecuzoma II the empire reached its maximum extent, stretching from the Gulf Coast to the Pacific. Tenochtitlan grew to over 200,000 people, larger than any contemporary European city, supported by long-distance trade networks and tribute from hundreds of conquered towns."
+    },
+    {
+      "id": "span-aztec-empire-spanish-conquest",
+      "label": "Spanish Conquest",
+      "startYear": 1519,
+      "endYear": 1521,
+      "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire",
+      "description": "Hernan Cortes and 500 soldiers, allied with thousands of indigenous enemies of the Aztecs, besieged and destroyed Tenochtitlan after a devastating smallpox epidemic. The fall of the capital in 1521 ended the Aztec Empire and began three centuries of Spanish colonial rule."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-mexica-departure-aztlan",
+      "label": "Mexica Leave Aztlan",
+      "year": 1100,
+      "description": "The Mexica people began their legendary migration south from Aztlan, guided by their patron god Huitzilopochtli.",
+      "wikiSlug": "Aztlan",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-chapultepec-settlement",
+      "label": "Settlement at Chapultepec",
+      "year": 1248,
+      "description": "The Mexica temporarily settled at Chapultepec hill before being driven out by neighboring city-states.",
+      "wikiSlug": "Chapultepec",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tenochtitlan-founded",
+      "label": "Tenochtitlan Founded",
+      "year": 1325,
+      "description": "The Mexica founded Tenochtitlan on an island in Lake Texcoco after seeing the prophesied eagle on a cactus devouring a serpent.",
+      "wikiSlug": "Tenochtitlan",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tlatelolco-founded",
+      "label": "Tlatelolco Founded",
+      "year": 1337,
+      "description": "A dissident Mexica faction founded Tlatelolco on a neighboring island, which became the empire's greatest marketplace.",
+      "wikiSlug": "Tlatelolco_(altepetl)",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-acamapichtli",
+      "label": "Acamapichtli",
+      "year": 1376,
+      "endYear": 1395,
+      "description": "First tlatoani of Tenochtitlan, Acamapichtli established the Mexica royal dynasty with claimed Toltec lineage.",
+      "wikiSlug": "Acamapichtli",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huitzilihuitl",
+      "label": "Huitzilihuitl",
+      "year": 1396,
+      "endYear": 1417,
+      "description": "Second tlatoani who strengthened ties with the Tepanec Empire through marriage to Tezozomoc's daughter.",
+      "wikiSlug": "Huitzilihuitl",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-chimalpopoca",
+      "label": "Chimalpopoca",
+      "year": 1417,
+      "endYear": 1427,
+      "description": "Third tlatoani who was assassinated during the Tepanec power struggle, precipitating the war against Azcapotzalco.",
+      "wikiSlug": "Chimalpopoca",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tepanec-war",
+      "label": "Tepanec War",
+      "year": 1428,
+      "description": "The Mexica, allied with Texcoco and Tlacopan, defeated the Tepanec capital Azcapotzalco and ended Tepanec dominance in the Valley of Mexico.",
+      "wikiSlug": "Tepanec_War",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-itzcoatl",
+      "label": "Itzcoatl",
+      "year": 1427,
+      "endYear": 1440,
+      "description": "Fourth tlatoani who forged the Triple Alliance and transformed the Mexica from vassals into the dominant power of central Mexico.",
+      "wikiSlug": "Itzcoatl",
+      "tier": 2,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-burning-codices",
+      "label": "Burning of the Codices",
+      "year": 1430,
+      "description": "Itzcoatl ordered the destruction of existing historical records so Mexica history could be rewritten to glorify the new ruling order.",
+      "wikiSlug": "Aztec_codices",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-triple-alliance-formed",
+      "label": "Triple Alliance Formed",
+      "year": 1428,
+      "description": "Tenochtitlan, Texcoco, and Tlacopan formed the Aztec Triple Alliance, dividing tribute and territory among the three capitals.",
+      "wikiSlug": "Aztec_Triple_Alliance",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-chinampas-expansion",
+      "label": "Chinampa Agriculture Expands",
+      "year": 1430,
+      "description": "Large-scale expansion of chinampas (floating gardens) in Lake Texcoco dramatically increased food production for the growing capital.",
+      "wikiSlug": "Chinampa",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-motecuzoma-i",
+      "label": "Motecuzoma I",
+      "year": 1440,
+      "endYear": 1469,
+      "description": "Fifth tlatoani who greatly expanded the empire into the Gulf Coast and Oaxaca, and oversaw major construction in Tenochtitlan.",
+      "wikiSlug": "Moctezuma_I",
+      "tier": 2,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-templo-mayor-expansion",
+      "label": "Templo Mayor Expanded",
+      "year": 1450,
+      "description": "Motecuzoma I ordered a major expansion of the Templo Mayor, the twin-pyramid temple dedicated to Huitzilopochtli and Tlaloc.",
+      "wikiSlug": "Templo_Mayor",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-great-famine",
+      "label": "Great Famine of 1454",
+      "year": 1454,
+      "description": "A devastating four-year famine struck central Mexico, intensifying Aztec reliance on military expansion and tribute collection.",
+      "wikiSlug": "Aztec_Empire#Famine",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-flower-wars",
+      "label": "Flower Wars Begin",
+      "year": 1455,
+      "description": "Ritualized Flower Wars with Tlaxcala and other states were formalized to capture warriors for sacrifice and maintain military readiness.",
+      "wikiSlug": "Flower_war",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nezahualcoyotl-poetry",
+      "label": "Nezahualcoyotl's Poetry",
+      "year": 1460,
+      "description": "The philosopher-king of Texcoco composed renowned Nahuatl poetry exploring themes of mortality, beauty, and the divine.",
+      "wikiSlug": "Nezahualcoyotl",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-nezahualcoyotl-aqueduct",
+      "label": "Chapultepec Aqueduct",
+      "year": 1466,
+      "description": "Nezahualcoyotl designed the double-pipe aqueduct from Chapultepec springs to Tenochtitlan, supplying fresh water to the island city.",
+      "wikiSlug": "Chapultepec_aqueduct",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-axayacatl",
+      "label": "Axayacatl",
+      "year": 1469,
+      "endYear": 1481,
+      "description": "Sixth tlatoani who conquered Tlatelolco and led an unsuccessful invasion of the Tarascan Empire.",
+      "wikiSlug": "Axayacatl",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tlatelolco-conquest",
+      "label": "Conquest of Tlatelolco",
+      "year": 1473,
+      "description": "Axayacatl conquered the sister city of Tlatelolco, absorbing its famous market and unifying the island under Tenochtitlan's rule.",
+      "wikiSlug": "Battle_of_Tlatelolco_(1473)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sun-stone",
+      "label": "Sun Stone Carved",
+      "year": 1479,
+      "description": "The famous Aztec Sun Stone (Calendar Stone) was carved, depicting the five cosmogonic suns and the Aztec calendar system.",
+      "wikiSlug": "Aztec_sun_stone",
+      "tier": 2,
+      "tags": [
+        "religion",
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tarascan-defeat",
+      "label": "Defeat by Tarascans",
+      "year": 1479,
+      "description": "Axayacatl's army suffered a catastrophic defeat against the Tarascan Empire, one of the few powers the Aztecs never conquered.",
+      "wikiSlug": "Battle_of_Tlaximaloyan",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tizoc",
+      "label": "Tizoc",
+      "year": 1481,
+      "endYear": 1486,
+      "description": "Seventh tlatoani whose military failures and unpopularity likely led to his assassination by poisoning.",
+      "wikiSlug": "Tizoc",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ahuitzotl",
+      "label": "Ahuitzotl",
+      "year": 1486,
+      "endYear": 1502,
+      "description": "Eighth tlatoani and the empire's greatest military conqueror, who expanded Aztec territory to its maximum extent.",
+      "wikiSlug": "Ahuitzotl",
+      "tier": 2,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-templo-mayor-dedication",
+      "label": "Templo Mayor Rededication",
+      "year": 1487,
+      "description": "Ahuitzotl rededicated the expanded Templo Mayor with a massive ceremony involving thousands of human sacrifices over four days.",
+      "wikiSlug": "Templo_Mayor",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pochteca-trade",
+      "label": "Pochteca Trade Networks",
+      "year": 1490,
+      "description": "The pochteca long-distance merchant guild reached peak influence, trading luxury goods from Guatemala to the American Southwest.",
+      "wikiSlug": "Pochteca",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tlatelolco-market",
+      "label": "Tlatelolco Market at Peak",
+      "year": 1494.0,
+      "description": "The Tlatelolco market served 60,000 daily visitors, making it one of the largest marketplaces in the world at the time.",
+      "wikiSlug": "Tlatelolco_marketplace",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-coyolxauhqui-stone",
+      "label": "Coyolxauhqui Stone",
+      "year": 1469,
+      "description": "A massive circular relief of the dismembered moon goddess Coyolxauhqui was placed at the foot of the Templo Mayor.",
+      "wikiSlug": "Coyolxauhqui",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-motecuzoma-ii",
+      "label": "Motecuzoma II",
+      "year": 1502,
+      "endYear": 1520,
+      "description": "Ninth tlatoani who presided over the empire at its zenith but faced the arrival of Spanish conquistadors.",
+      "wikiSlug": "Moctezuma_II",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-aztec-calendar",
+      "label": "Tonalpohualli Calendar System",
+      "year": 1498.0,
+      "description": "The Aztec dual calendar combined a 260-day ritual cycle (tonalpohualli) with a 365-day solar cycle (xiuhpohualli) to organize religious and civic life.",
+      "wikiSlug": "Tonalpohualli",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-herbal-medicine",
+      "label": "Aztec Herbal Medicine",
+      "year": 1502.0,
+      "description": "Aztec physicians used over 1,200 medicinal plants, maintaining botanical gardens and a sophisticated medical tradition.",
+      "wikiSlug": "Aztec_medicine",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-nahuatl-poetry",
+      "label": "Nahuatl Flower-Songs",
+      "year": 1490,
+      "description": "The tradition of flower-and-song (in xochitl in cuicatl) poetry flourished as the highest Aztec art form, performed at elite gatherings.",
+      "wikiSlug": "Aztec_poetry",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tribute-codices",
+      "label": "Codex Mendoza Tribute Lists",
+      "year": 1510,
+      "description": "Detailed pictorial codices recorded tribute obligations from 371 conquered towns, documenting goods from cacao to eagle feathers.",
+      "wikiSlug": "Codex_Mendoza",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cortes-arrives",
+      "label": "Cortes Arrives",
+      "year": 1504.0,
+      "description": "Hernan Cortes landed on the Gulf Coast with 500 soldiers and began his march toward Tenochtitlan.",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-la-malinche",
+      "label": "La Malinche",
+      "year": 1514.0,
+      "description": "Malintzin (La Malinche), a Nahua woman, became Cortes's interpreter and advisor, playing a pivotal role in the conquest.",
+      "wikiSlug": "La_Malinche",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tlaxcala-alliance",
+      "label": "Tlaxcala Allies with Cortes",
+      "year": 1524.0,
+      "description": "The Tlaxcalans, longtime Aztec enemies, allied with Cortes, providing thousands of warriors for the march on Tenochtitlan.",
+      "wikiSlug": "Tlaxcala_(Nahua_state)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cholula-massacre",
+      "label": "Cholula Massacre",
+      "year": 1534.0,
+      "description": "Spanish forces and Tlaxcalan allies killed thousands of Cholulans, sending a terror signal throughout the Aztec tributary network.",
+      "wikiSlug": "Cholula_massacre",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-noche-triste",
+      "label": "La Noche Triste",
+      "year": 1506.0,
+      "description": "The Aztecs drove the Spanish out of Tenochtitlan in a devastating nighttime battle, killing hundreds of conquistadors.",
+      "wikiSlug": "La_Noche_Triste",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cuitlahuac",
+      "label": "Cuitlahuac",
+      "year": 1510.0,
+      "endYear": 1520,
+      "description": "Tenth tlatoani who led the resistance during La Noche Triste but died of smallpox after only 80 days in power.",
+      "wikiSlug": "Cuitl%C3%A1huac",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-smallpox-epidemic",
+      "label": "Smallpox Epidemic",
+      "year": 1520,
+      "description": "A catastrophic smallpox epidemic killed an estimated 40% of the population of the Valley of Mexico, devastating Aztec defenses.",
+      "wikiSlug": "Cocoliztli_epidemics",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cuauhtemoc",
+      "label": "Cuauhtemoc",
+      "year": 1497,
+      "endYear": 1525,
+      "description": "Last Aztec tlatoani who led the final defense of Tenochtitlan and became a symbol of indigenous resistance.",
+      "wikiSlug": "Cuauht%C3%A9moc",
+      "tier": 2,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-fall-tenochtitlan",
+      "label": "Fall of Tenochtitlan",
+      "year": 1521,
+      "description": "After a 75-day siege, Cortes and his indigenous allies captured Tenochtitlan, ending the Aztec Empire and beginning Spanish colonial rule.",
+      "wikiSlug": "Fall_of_Tenochtitlan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-templo-mayor-site",
+      "label": "Templo Mayor First Construction",
+      "year": 1325,
+      "description": "The original Templo Mayor was built at the center of Tenochtitlan shortly after the city's founding, dedicated to Huitzilopochtli and Tlaloc.",
+      "wikiSlug": "Templo_Mayor",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-nezahualcoyotl-reign",
+      "label": "Nezahualcoyotl",
+      "year": 1431,
+      "endYear": 1472,
+      "description": "Philosopher-king of Texcoco who was a poet, architect, and lawgiver, and co-architect of the Triple Alliance alongside Itzcoatl.",
+      "wikiSlug": "Nezahualcoyotl",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tlacaelel",
+      "label": "Tlacaelel",
+      "year": 1428,
+      "endYear": 1487,
+      "description": "The cihuacoatl (chief advisor) who shaped Aztec ideology, reforming the state religion to emphasize human sacrifice and rewriting Mexica history.",
+      "wikiSlug": "Tlacaelel",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-great-flood-tenochtitlan",
+      "label": "Great Flood of Tenochtitlan",
+      "year": 1449,
+      "description": "A catastrophic flood inundated Tenochtitlan, prompting Nezahualcoyotl to design a massive dike across Lake Texcoco to protect the city.",
+      "wikiSlug": "Nezahualcoyotl#Dike",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tezozomoc",
+      "label": "Tezozomoc of Azcapotzalco",
+      "year": 1370,
+      "endYear": 1426,
+      "description": "The powerful Tepanec ruler who dominated the Valley of Mexico for decades, making Tenochtitlan a vassal state until his death triggered the Tepanec War.",
+      "wikiSlug": "Tezozomoc_(Azcapotzalco)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-huitzilopochtli-cult",
+      "label": "Cult of Huitzilopochtli",
+      "year": 1400,
+      "description": "Worship of the war god Huitzilopochtli became the central state religion, driving the demand for captive warriors and ritual human sacrifice.",
+      "wikiSlug": "Huitzilopochtli",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tenochtitlan-causeways",
+      "label": "Tenochtitlan Causeways",
+      "year": 1440,
+      "description": "Three great causeways connected the island city of Tenochtitlan to the mainland, featuring drawbridges and aqueducts that impressed the Spanish upon arrival.",
+      "wikiSlug": "Tenochtitlan",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-massacre-templo-mayor",
+      "label": "Massacre at the Templo Mayor",
+      "year": 1540.0,
+      "description": "Pedro de Alvarado ordered the massacre of unarmed Aztec nobles during the festival of Toxcatl at the Templo Mayor, sparking the uprising that led to La Noche Triste.",
+      "wikiSlug": "Massacre_in_the_Great_Temple",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-new-fire-ceremony",
+      "label": "New Fire Ceremony",
+      "year": 1351,
+      "description": "The Xiuhmolpilli (New Fire Ceremony) was held every 52 years at the end of the Aztec calendar round, when all hearths were extinguished and a new fire drilled on a sacrificial victim's chest to avert cosmic destruction.",
+      "wikiSlug": "New_Fire_ceremony",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tlacaxipehualiztli",
+      "label": "Tlacaxipehualiztli Festival",
+      "year": 1440,
+      "description": "The spring festival of Xipe Totec (Our Lord the Flayed One) involved priests wearing the flayed skins of sacrificial victims for 20 days, symbolizing agricultural renewal and the shedding of the old year.",
+      "wikiSlug": "Tlacaxipehualiztli",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tlacaelel-religious-reform",
+      "label": "Tlacaelel's Religious Reforms",
+      "year": 1432,
+      "description": "Tlacaelel elevated Huitzilopochtli from a tribal war god to the supreme solar deity, reframing human sacrifice as cosmic necessity — the sun required human blood to rise each day.",
+      "wikiSlug": "Tlacaelel",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-calmecac-schools",
+      "label": "Calmecac Priestly Schools",
+      "year": 1380,
+      "description": "The calmecac (schools attached to temples) trained the sons of nobles and priests in religious ritual, astronomy, writing, law, and warfare, forming the empire's administrative and clerical class.",
+      "wikiSlug": "Calmecac",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-toxcatl-festival",
+      "label": "Toxcatl Festival of Tezcatlipoca",
+      "year": 1460,
+      "description": "During Toxcatl, the fifth month of the solar calendar, a youth selected a year earlier lived as the living embodiment of Tezcatlipoca before being sacrificed atop the Templo Mayor.",
+      "wikiSlug": "Toxcatl",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-nezahualpilli",
+      "label": "Nezahualpilli",
+      "year": 1472,
+      "endYear": 1516,
+      "description": "Philosopher-ruler of Texcoco who continued his father Nezahualcoyotl's traditions of scholarship and astronomy, and predicted catastrophic omens before the Spanish arrival.",
+      "wikiSlug": "Nezahualpilli",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pochteca-soconusco",
+      "label": "Pochteca Expedition to Soconusco",
+      "year": 1486,
+      "description": "Long-distance pochteca merchants opened the Soconusco (Xoconochco) cacao coast on the Pacific lowlands, bringing high-grade cacao — the Aztec luxury currency — into the tribute network.",
+      "wikiSlug": "Xoconochco",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cacao-currency",
+      "label": "Cacao as Currency",
+      "year": 1468,
+      "description": "Cacao beans became the standard medium of small-scale exchange throughout the empire; a turkey cost 100 beans and a tamale cost 1, making cacao the everyday currency of market transactions.",
+      "wikiSlug": "Cacao_bean#Cacao_as_money",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-obsidian-trade",
+      "label": "Pachuca Obsidian Trade",
+      "year": 1445,
+      "description": "Green obsidian from Pachuca (Hidalgo) was mined, worked into blades and points, and distributed across Mesoamerica via Aztec trade routes — the empire controlled access to one of the most prized tool materials on the continent.",
+      "wikiSlug": "Obsidian_use_in_Mesoamerica",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ahuitzotl-aqueduct",
+      "label": "Acuecuexatl Aqueduct",
+      "year": 1499,
+      "description": "Ahuitzotl built a second aqueduct from Coyoacan springs (Acuecuexatl) to supply the growing population of Tenochtitlan, though its excess flow famously caused a catastrophic flood in 1499.",
+      "wikiSlug": "Ahuitzotl#Flood_of_1500",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-codex-borbonicus",
+      "label": "Codex Borbonicus",
+      "year": 1507,
+      "description": "The Codex Borbonicus, a screenfold book produced by Aztec priests, recorded the complete 52-year calendar round, ritual almanac (tonalpohualli), and the New Fire Ceremony of 1507 in meticulous painted detail.",
+      "wikiSlug": "Codex_Borbonicus",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-telpochcalli-schools",
+      "label": "Telpochcalli Warrior Schools",
+      "year": 1390,
+      "description": "Telpochcalli (houses of youth) trained commoner boys in martial combat, civic duty, and communal labor; graduates formed the bulk of the Aztec armies that sustained imperial expansion.",
+      "wikiSlug": "Telpochcalli",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ahuitzotl-gulf-oaxaca",
+      "label": "Gulf Coast and Oaxaca Campaigns",
+      "year": 1497,
+      "description": "Ahuitzotl extended Aztec control to the Gulf Coast lowlands and deep into Oaxaca, doubling the empire's tribute base and bringing cacao, rubber, and tropical feathers into Tenochtitlan's markets.",
+      "wikiSlug": "Ahuitzotl",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huaxyacac-conquest",
+      "label": "Conquest of Huaxyacac",
+      "year": 1458,
+      "description": "Motecuzoma I's forces conquered Huaxyacac (modern Oaxaca City) and the surrounding Mixtec and Zapotec towns, establishing a crucial southern tributary zone that supplied gold, cochineal, and jade.",
+      "wikiSlug": "Aztec_Empire#Military_expansion",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    }
+  ],
+  "wikiSlug": "Aztec_Empire"
+}
