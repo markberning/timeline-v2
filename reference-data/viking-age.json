@@ -684,6 +684,321 @@
       "tier": 3,
       "tags": [],
       "category": "writing"
+    },
+    {
+      "id": "evt-iona-second-raid",
+      "label": "Second Sack of Iona",
+      "year": 825,
+      "description": "Vikings returned to Iona in 825, killing the abbot Blathmac when he refused to reveal the hiding place of St. Columba's relics. The massacre forced the abandonment of the original monastery.",
+      "wikiSlug": "Martyrdom_of_Blathmac",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hamburg-sacked",
+      "label": "Sack of Hamburg",
+      "year": 845,
+      "description": "A Norse fleet under the chieftain Horik destroyed the newly founded Archbishopric of Hamburg, forcing Archbishop Ansgar to flee and setting back Christian missionary work in Scandinavia by decades.",
+      "wikiSlug": "Sack_of_Hamburg_(845)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hastein-mediterranean",
+      "label": "Hastein's Mediterranean Raid",
+      "year": 859,
+      "endYear": 862,
+      "description": "The Norse warlords Hastein and Björn Ironside led a fleet of 62 ships through the Strait of Gibraltar, raiding the coasts of Iberia, Morocco, the south of France, and northern Italy, sacking Pisa and other cities.",
+      "wikiSlug": "Raid_on_the_Mediterranean_(859%E2%80%93862)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-repton-winter-camp",
+      "label": "Viking Winter Camp at Repton",
+      "year": 873,
+      "description": "The Great Heathen Army wintered at Repton in Mercia, capturing a major Mercian royal center. Excavations revealed a mass grave of Viking warriors — vivid archaeological evidence of the invasion.",
+      "wikiSlug": "Repton",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hafrsfjord",
+      "label": "Battle of Hafrsfjord",
+      "year": 872,
+      "description": "Harald Fairhair decisively defeated rival petty kings at Hafrsfjord, unifying Norway under a single ruler for the first time. The victory drove many Norse chieftains to settle Iceland rather than submit.",
+      "wikiSlug": "Battle_of_Hafrsfjord",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-oleg-of-kiev",
+      "label": "Oleg Moves Capital to Kiev",
+      "year": 882,
+      "description": "The Varangian prince Oleg seized Kiev from two other Rus' chieftains and declared it 'the mother of Rus' cities,' founding Kievan Rus' and establishing the Dnieper trade route to Constantinople.",
+      "wikiSlug": "Oleg_of_Novgorod",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-treaty-wedmore",
+      "label": "Treaty of Wedmore",
+      "year": 878,
+      "description": "After his defeat at Edington, the Viking leader Guthrum accepted Christian baptism with Alfred the Great as his godfather, then signed the Peace of Wedmore that divided England between Saxon and Danish spheres.",
+      "wikiSlug": "Treaty_of_Alfred_and_Guthrum",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ingolfr-arnarson",
+      "label": "Ingólfr Arnarson Settles Reykjavík",
+      "year": 874,
+      "description": "Ingólfr Arnarson became the first confirmed permanent Norse settler in Iceland, casting his high-seat pillars into the sea and building his hall where they washed ashore — the site of modern Reykjavík.",
+      "wikiSlug": "Ingólfr_Arnarson",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ansgar-birka-mission",
+      "label": "Ansgar Missionaries at Birka",
+      "year": 829,
+      "description": "Archbishop Ansgar of Hamburg sailed to the Swedish trading town of Birka, becoming the first Christian missionary to reach Scandinavia. He built a church there, though Christianity did not take hold for another century.",
+      "wikiSlug": "Ansgar",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-danegeld-ethelred",
+      "label": "Æthelred Pays First Danegeld",
+      "year": 991,
+      "description": "Following the Viking victory at the Battle of Maldon, King Æthelred the Unready paid 10,000 pounds of silver to buy peace — the first of escalating Danegeld tribute payments that would total tens of thousands of pounds over the next two decades.",
+      "wikiSlug": "Danegeld",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-st-brice-massacre",
+      "label": "St. Brice's Day Massacre",
+      "year": 1002,
+      "description": "King Æthelred ordered the killing of all Danes in England on St. Brice's Day, November 13, 1002. The massacre included the sister of Sweyn Forkbeard and helped trigger the Danish conquest of England.",
+      "wikiSlug": "St._Brice%27s_Day_massacre",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-igor-constantinople-raid",
+      "label": "Igor of Kiev Raids Constantinople",
+      "year": 941,
+      "description": "Igor of Kiev led a massive Rus' fleet against Constantinople but was repulsed by Greek fire — a catastrophic defeat that nonetheless prompted a major trade treaty with Byzantium in 944.",
+      "wikiSlug": "Rus%27%E2%80%93Byzantine_War_(941)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-olga-of-kiev",
+      "label": "Olga of Kiev Regent and Convert",
+      "year": 945,
+      "endYear": 964,
+      "description": "After her husband Igor was killed, Olga ruled Kievan Rus' as regent with legendary ferocity. She later converted to Orthodox Christianity in Constantinople (~957), paving the way for the Christianization of Rus' under her grandson Vladimir.",
+      "wikiSlug": "Olga_of_Kiev",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vladimir-converts-rus",
+      "label": "Vladimir the Great Baptizes Rus'",
+      "year": 988,
+      "description": "Prince Vladimir of Kiev converted to Orthodox Christianity and ordered the mass baptism of Kiev's population in the Dnieper River, permanently orienting Rus' civilization toward Byzantium rather than Rome.",
+      "wikiSlug": "Christianization_of_Kievan_Rus%27",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-svyatoslav-destroys-khazars",
+      "label": "Svyatoslav Destroys the Khazars",
+      "year": 968,
+      "description": "Svyatoslav I of Kiev crushed the Khazar Khaganate and conquered Bulgaria, dramatically expanding Kievan Rus' territory. His campaigns ended Khazar control of the steppe and opened the Volga trade route to Rus' merchants.",
+      "wikiSlug": "Sviatoslav_I_of_Kiev",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-yaroslav-wise",
+      "label": "Yaroslav the Wise and Russkaya Pravda",
+      "year": 1019,
+      "endYear": 1054,
+      "description": "Under Yaroslav the Wise, Kievan Rus' reached its political and cultural peak. He codified the Russkaya Pravda law code, built the Saint Sophia Cathedral in Kiev, and forged dynastic alliances across Europe.",
+      "wikiSlug": "Yaroslav_the_Wise",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ladby-ship-burial",
+      "label": "Ladby Ship Burial",
+      "year": 925,
+      "description": "A Danish chieftain was interred in the Ladby ship in Funen, Denmark, along with horses, dogs, and hunting equipment — the only Viking ship burial found in Denmark and a key archaeological site.",
+      "wikiSlug": "Ladby_ship",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-waterford-limerick-wexford",
+      "label": "Viking Towns in Ireland",
+      "year": 914,
+      "description": "Norse settlers founded the fortified trading towns of Waterford, Limerick, and Wexford in Ireland, which grew into the island's first true urban centers and major slave-trade hubs.",
+      "wikiSlug": "Viking_Age_in_Ireland",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-olof-skotkonung",
+      "label": "Olof Skötkonung, First Christian King of Sweden",
+      "year": 995,
+      "endYear": 1022,
+      "description": "Olof Skötkonung was the first King of Sweden to be baptized a Christian, around 1008. Sweden was the last of the Scandinavian kingdoms to Christianize, with the old pagan temple at Uppsala still active into the late 11th century.",
+      "wikiSlug": "Olof_Sk%C3%B6tkonung",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-thorfinn-karlsefni",
+      "label": "Thorfinn Karlsefni's Vinland Colony",
+      "year": 1010,
+      "description": "The Icelandic merchant Thorfinn Karlsefni led the most ambitious Norse attempt to colonize Vinland, bringing 160 settlers. After three years and violent clashes with the Skraelings (indigenous peoples), the colony was abandoned.",
+      "wikiSlug": "Thorfinn_Karlsefni",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-danevirke-fortification",
+      "label": "Danevirke Fortification",
+      "year": 808,
+      "description": "The Danish king Godfred ordered a major expansion of the Danevirke earthwork across the neck of the Jutland peninsula, creating the largest defensive wall in northern Europe to block Frankish and Saxon advances.",
+      "wikiSlug": "Danevirke",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-skaldic-poetry",
+      "label": "Skaldic Poetry Tradition",
+      "year": 860,
+      "description": "Norse skalds composed intricate court poetry in strict meters laden with kennings — elaborate metaphorical compounds — to praise kings and commemorate battles. Skaldic verse is one of the primary primary sources for Viking Age history.",
+      "wikiSlug": "Skaldic_poetry",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-erik-red-exile",
+      "label": "Erik the Red Exiled, Discovers Greenland",
+      "year": 982,
+      "description": "Exiled from Iceland for manslaughter, Erik the Red sailed west and spent three years exploring the coastline of Greenland before returning to recruit settlers. He named it 'Greenland' as a deliberate lure for emigrants.",
+      "wikiSlug": "Erik_the_Red",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kaupang-norway",
+      "label": "Kaupang: Norway's First Town",
+      "year": 800,
+      "description": "Kaupang on the Oslo Fjord was Norway's earliest urban trading center, active from around 800. Excavations show merchants trading glass, silver, and slaves with the wider Viking world.",
+      "wikiSlug": "Kaupang",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-battle-maldon",
+      "label": "Battle of Maldon",
+      "year": 991,
+      "description": "A Viking army defeated the English at Maldon, Essex — a battle immortalized in an Old English poem celebrating the heroic last stand of Ealdorman Byrhtnoth. The defeat prompted the first major Danegeld payment.",
+      "wikiSlug": "Battle_of_Maldon",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-magnus-barefoot",
+      "label": "Magnus Barefoot's Irish Sea Campaigns",
+      "year": 1098,
+      "endYear": 1103,
+      "description": "King Magnus III of Norway, nicknamed 'Barefoot' for adopting Scottish dress, launched the last major Norse campaigns in the Irish Sea, asserting control over the Western Isles and the Isle of Man before dying in an Irish ambush.",
+      "wikiSlug": "Magnus_III_of_Norway",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-varangian-rus-trade-treaties",
+      "label": "Rus'–Byzantine Trade Treaties",
+      "year": 907,
+      "description": "Oleg of Kiev led a celebrated raid on Constantinople that extracted a favorable trade treaty from the Byzantines, granting Rus' merchants extraordinary rights including tax-free trading in the capital — a commercial coup that cemented the Dnieper route.",
+      "wikiSlug": "Oleg%27s_raid_on_Constantinople",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-gunnhild-mother-of-kings",
+      "label": "Gunnhild, Mother of Kings",
+      "year": 950,
+      "description": "Gunnhild Gormsdóttir, wife of Erik Bloodaxe and queen of Norway, was one of the most powerful political women of the Viking Age, renowned for her cunning and seiðr magic. After Erik's death she orchestrated her sons' campaigns to reclaim Norway.",
+      "wikiSlug": "Gunnhild_Mother_of_Kings",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-dublin-slave-trade",
+      "label": "Dublin Slave Market",
+      "year": 870,
+      "description": "Viking Dublin became the largest slave market in northern Europe, with Norse raiders selling Irish, English, and Scottish captives to buyers across the Norse world and the Islamic caliphates. Slavery was central to Viking Age economics.",
+      "wikiSlug": "Viking_Age_slave_trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-codex-regius",
+      "label": "Codex Regius Compiled",
+      "year": 1070,
+      "description": "The Codex Regius, a collection of Old Norse mythological and heroic poems, was compiled in Iceland in the late Viking / early post-Viking period. It is our primary source for eddic poetry including the Völuspá and Hávamál.",
+      "wikiSlug": "Codex_Regius",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-wolf-age-ragnarok-myth",
+      "label": "Ragnarök — Norse End-Times Myth",
+      "year": 900,
+      "description": "The Norse concept of Ragnarök — the twilight of the gods, a great battle ending the world — pervaded Viking Age religion and poetry. Scholars debate whether it reflects pre-Viking mythology or was partly shaped by Christian apocalyptic imagery.",
+      "wikiSlug": "Ragnar%C3%B6k",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
     }
   ],
   "wikiSlug": "Viking_Age"
