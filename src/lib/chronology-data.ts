@@ -41,12 +41,36 @@ function chainRegion(chain: TlChain): NavigatorRegion | null {
   return null
 }
 
+// ── Synthetic "Standalone" chains for civs not in any real chain ──
+// Each region with unchained civs gets one pseudo-chain so the chain grid
+// can still surface them without making them members of any real chain.
+const UNCHAINED_BY_REGION = new Map<NavigatorRegion, NavigatorTl[]>()
+for (const civ of SORTED_CIVS) {
+  if (CIV_CHAIN_MAP.has(civ.id)) continue
+  const list = UNCHAINED_BY_REGION.get(civ.region) ?? []
+  list.push(civ)
+  UNCHAINED_BY_REGION.set(civ.region, list)
+}
+
+const STANDALONE_CHAINS_BY_REGION = new Map<NavigatorRegion, TlChain>()
+for (const [region, civs] of UNCHAINED_BY_REGION) {
+  STANDALONE_CHAINS_BY_REGION.set(region, {
+    id: `__standalone__${region}`,
+    label: 'Standalone civilizations',
+    shortLabel: 'Standalone',
+    origins: 'Civilizations not part of a single inheriting chain.',
+    entries: civs.map(c => ({ timelineId: c.id })),
+  })
+}
+
 // ── Chains grouped by region (for the desktop chain grid) ──
 export const CHAINS_BY_REGION: { region: NavigatorRegion; chains: TlChain[] }[] =
-  REGION_ORDER.map(region => ({
-    region,
-    chains: TL_CHAINS.filter(c => chainRegion(c) === region),
-  })).filter(g => g.chains.length > 0)
+  REGION_ORDER.map(region => {
+    const chains = TL_CHAINS.filter(c => chainRegion(c) === region)
+    const standalone = STANDALONE_CHAINS_BY_REGION.get(region)
+    if (standalone) chains.push(standalone)
+    return { region, chains }
+  }).filter(g => g.chains.length > 0)
 
 // ── Civs grouped by region (for mobile swim lanes) ──
 export const CIVS_BY_REGION = new Map<NavigatorRegion, NavigatorTl[]>(
