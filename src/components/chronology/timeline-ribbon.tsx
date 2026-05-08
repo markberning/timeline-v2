@@ -23,12 +23,16 @@ const MOBILE_PPY = 0.55   // pixels per year — mobile
 const DESKTOP_PPY = 0.7   // pixels per year — desktop
 const BAR_HEIGHT_DESKTOP = 12
 const BAR_GAP_DESKTOP = 2
+const BAR_HEIGHT_SIDE = 28      // taller bars for the side-panel desktop layout
+const BAR_GAP_SIDE = 4
 const LANE_HEIGHT_MOBILE = 22
 const TICK_AXIS_HEIGHT = 18
 const FOCUS_MARKER_PCT = 0.30  // 30% from left on mobile
 
 interface TimelineRibbonProps {
   mode: 'swim' | 'packed'
+  /** When true, ribbon fills its container's height (right-side desktop column) with thicker bars. */
+  side?: boolean
   activeCivId: string | null
   onSelect: (id: string) => void
   scrollRef: React.RefObject<HTMLDivElement | null>
@@ -38,11 +42,14 @@ interface TimelineRibbonProps {
   onChainSolo: (id: string | null) => void
 }
 
-export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonMode, onRibbonModeChange, soloChainId, onChainSolo }: TimelineRibbonProps) {
+export function TimelineRibbon({ mode, side = false, activeCivId, onSelect, scrollRef, ribbonMode, onRibbonModeChange, soloChainId, onChainSolo }: TimelineRibbonProps) {
   const ppy = mode === 'packed' ? DESKTOP_PPY : MOBILE_PPY
   const totalWidth = compressedTotalWidth(ppy)
   const yearToX = useCallback((y: number) => compressedYearToPixel(y, ppy), [ppy])
   const ticks = useMemo(() => generateTicks(ppy, 500), [ppy])
+
+  const barH = side ? BAR_HEIGHT_SIDE : BAR_HEIGHT_DESKTOP
+  const barGap = side ? BAR_GAP_SIDE : BAR_GAP_DESKTOP
 
   // Lane-packed bars (desktop)
   const packed = useMemo(() => {
@@ -51,7 +58,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
   }, [mode, yearToX])
 
   const ribbonHeight = mode === 'packed'
-    ? (packed ? packed.laneCount * (BAR_HEIGHT_DESKTOP + BAR_GAP_DESKTOP) : 150) + TICK_AXIS_HEIGHT
+    ? (packed ? packed.laneCount * (barH + barGap) : 150) + TICK_AXIS_HEIGHT
     : REGION_ORDER.length * LANE_HEIGHT_MOBILE + TICK_AXIS_HEIGHT
 
   // Convert vertical wheel events to horizontal scroll on the ribbon
@@ -103,7 +110,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
 
   if (ribbonMode === 'chains') {
     return (
-      <div className="border-y border-foreground/10 shrink-0 relative">
+      <div className={`relative ${side ? 'flex-1 min-h-0' : 'border-y border-foreground/10 shrink-0'}`}>
         <ChainPills
           soloChainId={soloChainId}
           onChainSolo={onChainSolo}
@@ -113,7 +120,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
   }
 
   return (
-    <div className="border-y border-foreground/10 shrink-0 relative">
+    <div className={`relative ${side ? 'flex-1 min-h-0 flex flex-col' : 'border-y border-foreground/10 shrink-0'}`}>
       {/* Region labels + fade */}
       {mode === 'swim' && (
         <div
@@ -146,15 +153,15 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
         ref={scrollRef}
         className="overflow-x-auto overflow-y-hidden scrollbar-none"
         style={{
-          height: ribbonHeight,
+          height: side ? '100%' : ribbonHeight,
           WebkitOverflowScrolling: 'touch',
           paddingLeft: mode === 'swim' ? regionColWidth + fadeWidth : 0,
         }}
       >
-        <div className="relative" style={{ width: totalWidth, height: ribbonHeight }}>
+        <div className="relative" style={{ width: totalWidth, height: ribbonHeight, minHeight: side ? '100%' : undefined }}>
           {/* Tick marks */}
           {ticks.map(tick => (
-            <div key={tick.year} className="absolute top-0" style={{ left: tick.x }}>
+            <div key={tick.year} className="absolute top-0 bottom-0" style={{ left: tick.x }}>
               <div className="h-full w-px absolute top-0 bg-foreground/5" />
               <div
                 className="absolute text-[9px] text-foreground/30 whitespace-nowrap tabular-nums"
@@ -168,7 +175,7 @@ export function TimelineRibbon({ mode, activeCivId, onSelect, scrollRef, ribbonM
           {/* Bars */}
           {mode === 'swim'
             ? <SwimLaneBars yearToX={yearToX} activeCivId={activeCivId} onSelect={onSelect} soloMemberIds={soloMemberIds} />
-            : packed && <PackedBars packed={packed} activeCivId={activeCivId} onSelect={onSelect} soloMemberIds={soloMemberIds} />}
+            : packed && <PackedBars packed={packed} activeCivId={activeCivId} onSelect={onSelect} soloMemberIds={soloMemberIds} barHeight={barH} barGap={barGap} />}
         </div>
       </div>
     </div>
@@ -244,12 +251,18 @@ function PackedBars({
   activeCivId,
   onSelect,
   soloMemberIds,
+  barHeight,
+  barGap,
 }: {
   packed: { bars: { civ: NavigatorTl; lane: number; x: number; width: number }[]; laneCount: number }
   activeCivId: string | null
   onSelect: (id: string) => void
   soloMemberIds: Set<string> | null
+  barHeight: number
+  barGap: number
 }) {
+  // Scale label font with bar thickness so taller side-panel bars use bigger text
+  const labelFontSize = barHeight >= 22 ? 11 : 8
   return (
     <>
       {packed.bars.map(bar => {
@@ -263,9 +276,9 @@ function PackedBars({
             className="absolute rounded-sm overflow-hidden transition-all duration-200 cursor-pointer"
             style={{
               left: bar.x,
-              top: TICK_AXIS_HEIGHT + bar.lane * (BAR_HEIGHT_DESKTOP + BAR_GAP_DESKTOP),
+              top: TICK_AXIS_HEIGHT + bar.lane * (barHeight + barGap),
               width: bar.width,
-              height: BAR_HEIGHT_DESKTOP,
+              height: barHeight,
               backgroundColor: isActive ? color : `color-mix(in srgb, ${color} 12%, var(--background))`,
               boxShadow: isActive ? `0 0 10px ${color}50` : 'none',
               zIndex: isActive ? 5 : 1,
@@ -274,8 +287,8 @@ function PackedBars({
             onClick={() => onSelect(bar.civ.id)}
           >
             <span
-              className="absolute inset-0 flex items-center px-1 text-[8px] font-semibold truncate"
-              style={{ color: isActive ? 'white' : 'var(--foreground)', opacity: isActive ? 1 : 0.3 }}
+              className="absolute inset-0 flex items-center px-2 font-semibold truncate"
+              style={{ color: isActive ? 'white' : 'var(--foreground)', opacity: isActive ? 1 : 0.45, fontSize: labelFontSize }}
             >
               {bar.civ.label}
             </span>

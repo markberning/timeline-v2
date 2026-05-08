@@ -70,29 +70,49 @@ export function ChronologyPage() {
   return (
     <div className="flex flex-col h-dvh bg-background text-foreground">
       <ChronologyHeader isDesktop={isDesktop} ribbonMode={ribbonMode} onRibbonModeChange={setRibbonMode} onSearchOpen={() => setSearchOpen(true)} />
-      <CivIconsStrip />
-
-      <TimelineRibbon
-        mode={isDesktop ? 'packed' : 'swim'}
-        activeCivId={activeCivId}
-        onSelect={setActiveCivId}
-        scrollRef={ribbonScrollRef}
-        ribbonMode={ribbonMode}
-        onRibbonModeChange={setRibbonMode}
-        soloChainId={soloChainId}
-        onChainSolo={setSoloChainId}
-      />
+      {!isDesktop && <CivIconsStrip />}
 
       {isDesktop ? (
-        <DetailPane activeCivId={activeCivId} onSelect={setActiveCivId} />
+        <div className="flex-1 min-h-0 flex">
+          {/* LEFT — details + chain grid */}
+          <div className="w-[58%] min-w-0 flex flex-col min-h-0 border-r border-foreground/10">
+            <DetailPane activeCivId={activeCivId} onSelect={setActiveCivId} />
+          </div>
+          {/* RIGHT — timeline ribbon (tall column) */}
+          <div className="flex-1 min-w-0 min-h-0 flex flex-col overflow-hidden">
+            <TimelineRibbon
+              mode="packed"
+              side
+              activeCivId={activeCivId}
+              onSelect={setActiveCivId}
+              scrollRef={ribbonScrollRef}
+              ribbonMode={ribbonMode}
+              onRibbonModeChange={setRibbonMode}
+              soloChainId={soloChainId}
+              onChainSolo={setSoloChainId}
+            />
+          </div>
+        </div>
       ) : (
-        <CivList
-          activeCivId={activeCivId}
-          onActiveCivChange={setActiveCivId}
-          listRef={listRef}
-          soloChainId={soloChainId}
-          onChainSolo={setSoloChainId}
-        />
+        <>
+          <TimelineRibbon
+            mode="swim"
+            activeCivId={activeCivId}
+            onSelect={setActiveCivId}
+            scrollRef={ribbonScrollRef}
+            ribbonMode={ribbonMode}
+            onRibbonModeChange={setRibbonMode}
+            soloChainId={soloChainId}
+            onChainSolo={setSoloChainId}
+          />
+          <CivList
+            activeCivId={activeCivId}
+            onActiveCivChange={setActiveCivId}
+            listRef={listRef}
+            soloChainId={soloChainId}
+            onChainSolo={setSoloChainId}
+          />
+        </>
       )}
 
       {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
