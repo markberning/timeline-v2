@@ -1,0 +1,690 @@
+{
+  "id": "viking-age",
+  "label": "Viking Age",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "imageWikiSlug": "Oseberg_ship",
+  "pitch": "Forget the horned helmets — the Vikings were master shipbuilders, traders, and poets who reached North America five centuries before Columbus. It all starts with the Raid on Lindisfarne in 793, and within a few decades the Great Heathen Army Invades England while Rurik Founds Novgorod in the east. By the time Leif Erikson Reaches Vinland around 1000 CE, Norse influence stretched from Baghdad to Newfoundland.\n\n🔑 Key Facts:\n• Alfred the Great defeated the Vikings and negotiated the Danelaw Established, splitting England between Saxon and Norse rule\n• The Althing Founded in Iceland in 930 CE created one of the world's oldest parliamentary assemblies\n• Cnut the Great ruled England, Denmark, and Norway simultaneously, forging the North Sea Empire\n• The Battle of Stamford Bridge in 1066 killed Harald Hardrada and traditionally marks the end of the Viking Age\n\n🤔 Why It Matters: Vikings founded cities (Viking Dublin Founded), developed maritime technology (Clinker-Built Longships), and established trade networks (Hedeby Trading Center) that shaped the political geography of medieval Europe, Russia, and the North Atlantic.\n\n🎲 Wild Card: Harald Bluetooth, the Danish king who converted Scandinavia to Christianity and erected the Jelling Stones Erected, is the namesake of Bluetooth wireless technology — the logo is a bind rune of his initials.",
+  "countryIds": [
+    "578",
+    "752",
+    "208",
+    "826",
+    "352"
+  ],
+  "spans": [
+    {
+      "id": "span-viking-age-early-viking",
+      "label": "Early Viking Raids",
+      "startYear": 793,
+      "endYear": 865,
+      "description": "Norse raiders struck monasteries and coastal settlements across Britain, Ireland, and Francia. These hit-and-run attacks targeted undefended wealth and established the Vikings as a feared maritime threat across Western Europe.",
+      "wikiSlug": "Viking_expansion"
+    },
+    {
+      "id": "span-viking-age-great-heathen-army",
+      "label": "Great Heathen Army & Settlement",
+      "startYear": 865,
+      "endYear": 954,
+      "description": "A massive Norse coalition invaded Anglo-Saxon England, conquering multiple kingdoms and establishing the Danelaw. Scandinavian settlers integrated into English society, founding towns like York (Jorvik) and leaving lasting marks on language, law, and place names.",
+      "wikiSlug": "Great_Heathen_Army"
+    },
+    {
+      "id": "span-viking-age-north-atlantic",
+      "label": "North Atlantic Expansion",
+      "startYear": 870,
+      "endYear": 1000,
+      "description": "Norse settlers colonized Iceland, Greenland, and briefly reached North America at L'Anse aux Meadows. This westward push represented the farthest extent of Viking exploration, driven by population pressure and the search for new farmland.",
+      "wikiSlug": "Norse_colonization_of_North_America"
+    },
+    {
+      "id": "span-viking-age-late-viking",
+      "label": "Late Viking Age",
+      "startYear": 954,
+      "endYear": 1066,
+      "description": "Scandinavian kingdoms consolidated under Christian monarchs like Harald Bluetooth and Cnut the Great, who built the North Sea Empire. The era ended with Harald Hardrada's defeat at Stamford Bridge in 1066, closing the age of Viking expansion.",
+      "wikiSlug": "Viking_Age"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-lindisfarne-raid",
+      "label": "Raid on Lindisfarne",
+      "year": 793,
+      "description": "Norse raiders attacked the monastery at Lindisfarne in Northumbria, traditionally marking the start of the Viking Age. The raid shocked Christendom and signaled the beginning of centuries of Scandinavian expansion.",
+      "wikiSlug": "Viking_raid_on_Lindisfarne",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-iona-raids",
+      "label": "Raids on Iona",
+      "year": 795,
+      "description": "Vikings raided the monastery of Iona off the Scottish coast, the first of several attacks that would force monks to relocate its treasures to Ireland.",
+      "wikiSlug": "Iona",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-charlemagne-coastal-defense",
+      "label": "Charlemagne's Coastal Defenses",
+      "year": 800,
+      "description": "Charlemagne organized coastal defenses and a fleet to protect the Frankish Empire from Norse raids along the North Sea and Channel coasts.",
+      "wikiSlug": "Charlemagne",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-oseberg-ship-burial",
+      "label": "Oseberg Ship Burial",
+      "year": 834,
+      "description": "Two high-status women were buried in the elaborately carved Oseberg ship in Vestfold, Norway. It is one of the finest surviving examples of Viking Age craftsmanship.",
+      "wikiSlug": "Oseberg_ship",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-dublin-founded",
+      "label": "Viking Dublin Founded",
+      "year": 841,
+      "description": "Norse settlers established a longphort at Dublin, which grew into a major Viking trading hub and slave market in Ireland.",
+      "wikiSlug": "Viking_Dublin",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-paris-siege-845",
+      "label": "First Siege of Paris",
+      "year": 845,
+      "description": "Ragnar led a Viking fleet up the Seine and sacked Paris, extracting a massive Danegeld payment of 7,000 pounds of silver from Charles the Bald.",
+      "wikiSlug": "Siege_of_Paris_(845)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-rurik-novgorod",
+      "label": "Rurik Founds Novgorod",
+      "year": 862,
+      "description": "The Varangian chieftain Rurik established rule over Novgorod, founding the Rurikid dynasty that would govern Rus' lands for over seven centuries.",
+      "wikiSlug": "Rurik",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-great-heathen-army",
+      "label": "Great Heathen Army Invades",
+      "year": 865,
+      "description": "A massive Norse coalition invaded Anglo-Saxon England, conquering Northumbria, East Anglia, and much of Mercia within a decade.",
+      "wikiSlug": "Great_Heathen_Army",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-settlement-iceland",
+      "label": "Settlement of Iceland",
+      "year": 874,
+      "description": "Ingólfr Arnarson became the first permanent Norse settler in Iceland, founding a homestead at Reykjavík. Within sixty years, much of Iceland's coastland was claimed.",
+      "wikiSlug": "Settlement_of_Iceland",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-alfred-great",
+      "label": "Alfred the Great",
+      "year": 871,
+      "endYear": 899,
+      "description": "King of Wessex who defeated the Viking Great Heathen Army and negotiated the Danelaw boundary, preserving Anglo-Saxon England.",
+      "wikiSlug": "Alfred_the_Great",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-danelaw-established",
+      "label": "Danelaw Established",
+      "year": 886,
+      "description": "The Treaty of Alfred and Guthrum formalized the Danelaw, granting Norse settlers legal control over eastern and northern England.",
+      "wikiSlug": "Danelaw",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gokstad-ship-burial",
+      "label": "Gokstad Ship Burial",
+      "year": 900,
+      "description": "A powerful chieftain was buried in the Gokstad ship in Vestfold, Norway. The seaworthy vessel demonstrates the advanced Norse shipbuilding tradition.",
+      "wikiSlug": "Gokstad_ship",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-norse-sun-compass",
+      "label": "Norse Sun Compass",
+      "year": 900,
+      "description": "Norse navigators used sun compasses and sun stones to determine latitude and direction during open-ocean voyages, enabling transatlantic navigation.",
+      "wikiSlug": "Norse_navigation",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-rollo-normandy",
+      "label": "Rollo Granted Normandy",
+      "year": 911,
+      "description": "Viking leader Rollo received Normandy from the Frankish king Charles the Simple by the Treaty of Saint-Clair-sur-Epte, founding the Duchy of Normandy.",
+      "wikiSlug": "Rollo",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-althing-founded",
+      "label": "Althing Founded",
+      "year": 930,
+      "description": "The Icelandic Althing was established at Thingvellir, one of the oldest parliamentary assemblies in the world. It served as both legislature and court.",
+      "wikiSlug": "Althing",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-erik-bloodaxe",
+      "label": "Erik Bloodaxe, King of York",
+      "year": 947,
+      "endYear": 954,
+      "description": "Erik Bloodaxe ruled as the last independent Viking king of Northumbria from York. His death in 954 ended the Viking Kingdom of York.",
+      "wikiSlug": "Eric_Bloodaxe",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-harald-bluetooth",
+      "label": "Harald Bluetooth",
+      "year": 958,
+      "endYear": 986,
+      "description": "King of Denmark and Norway who unified the Danish tribes and converted the Danes to Christianity, commemorated on the Jelling Stones.",
+      "wikiSlug": "Harald_Bluetooth",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-jelling-stones",
+      "label": "Jelling Stones Erected",
+      "year": 965,
+      "description": "Harald Bluetooth raised the larger Jelling Stone proclaiming Denmark's conversion to Christianity, often called Denmark's baptismal certificate.",
+      "wikiSlug": "Jelling_stones",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-norse-greenland",
+      "label": "Norse Settlement of Greenland",
+      "year": 985,
+      "description": "Erik the Red led settlers to Greenland after his exile from Iceland, establishing the Eastern and Western settlements that persisted for nearly 500 years.",
+      "wikiSlug": "Norse_colonization_of_Greenland",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-erik-the-red",
+      "label": "Erik the Red",
+      "year": 950,
+      "description": "Norse explorer who founded the first European settlement on Greenland. He named the island 'Greenland' to attract settlers.",
+      "wikiSlug": "Erik_the_Red",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-christianization-iceland",
+      "label": "Iceland Converts to Christianity",
+      "year": 987.5,
+      "description": "The Althing voted to adopt Christianity as Iceland's official religion, a peaceful compromise brokered by the lawspeaker Thorgeir Thorkelsson.",
+      "wikiSlug": "Christianization_of_Iceland",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-vinland",
+      "label": "Leif Erikson Reaches Vinland",
+      "year": 992.5,
+      "description": "Leif Erikson sailed from Greenland to North America, establishing a short-lived settlement at L'Anse aux Meadows in Newfoundland.",
+      "wikiSlug": "Leif_Erikson",
+      "tier": 1,
+      "category": "people",
+      "tags": [
+        "trade"
+      ]
+    },
+    {
+      "id": "evt-lanse-aux-meadows",
+      "label": "L'Anse aux Meadows Settlement",
+      "year": 997.5,
+      "description": "Norse settlers built a small encampment at L'Anse aux Meadows in Newfoundland, the only confirmed Viking site in North America.",
+      "wikiSlug": "L%27Anse_aux_Meadows",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-svolder",
+      "label": "Battle of Svolder",
+      "year": 1002.5,
+      "description": "A naval battle in the Baltic Sea where an alliance of Danish, Swedish, and Norwegian forces defeated Olaf Tryggvason of Norway, killing him.",
+      "wikiSlug": "Battle_of_Svolder",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-sweyn-forkbeard-england",
+      "label": "Sweyn Forkbeard Conquers England",
+      "year": 1013,
+      "description": "Danish king Sweyn Forkbeard invaded England and forced King Ethelred into exile, briefly uniting England under Danish rule.",
+      "wikiSlug": "Sweyn_Forkbeard",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-cnut-great",
+      "label": "Cnut the Great",
+      "year": 1016,
+      "endYear": 1035,
+      "description": "Danish king who ruled England, Denmark, and Norway, creating the North Sea Empire. He is remembered as one of the most effective rulers of medieval England.",
+      "wikiSlug": "Cnut",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-thingvellir-law",
+      "label": "Grágás Law Code",
+      "year": 1017,
+      "description": "The Icelandic Grágás ('Grey Goose') laws were first recorded in writing, codifying Norse legal tradition governing property, trade, and social obligations.",
+      "wikiSlug": "Gr%C3%A1g%C3%A1s",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-olaf-ii-norway",
+      "label": "Olaf II of Norway",
+      "year": 1015,
+      "endYear": 1028,
+      "description": "King who forcibly Christianized Norway and became the country's patron saint after his death at the Battle of Stiklestad in 1030.",
+      "wikiSlug": "Olaf_II_of_Norway",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "religion",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-stiklestad",
+      "label": "Battle of Stiklestad",
+      "year": 1030,
+      "description": "King Olaf II fell at Stiklestad fighting to reclaim his Norwegian throne. His martyrdom accelerated Norway's Christianization.",
+      "wikiSlug": "Battle_of_Stiklestad",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-hedeby-trade",
+      "label": "Hedeby Trading Center",
+      "year": 808,
+      "description": "The Danish king Godfred relocated merchants to Hedeby, which became the largest Viking Age trading town, connecting Baltic and North Sea commerce.",
+      "wikiSlug": "Hedeby",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-birka-trade",
+      "label": "Birka Trading Post",
+      "year": 790,
+      "description": "Birka on Lake Mälaren in Sweden was a major Viking trading center, handling goods from as far as the Byzantine Empire and the Islamic world.",
+      "wikiSlug": "Birka",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-varangian-guard",
+      "label": "Varangian Guard Established",
+      "year": 988,
+      "description": "Byzantine Emperor Basil II formed the Varangian Guard, an elite unit of Norse warriors who served as the emperor's personal bodyguard.",
+      "wikiSlug": "Varangian_Guard",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-rune-stones",
+      "label": "Rök Runestone",
+      "year": 800,
+      "description": "The Rök runestone in Sweden bears the longest known runic inscription, referencing heroic legends and demonstrating sophisticated Norse literary tradition.",
+      "wikiSlug": "R%C3%B6k_runestone",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-younger-futhark",
+      "label": "Younger Futhark Develops",
+      "year": 800,
+      "description": "The Younger Futhark runic alphabet replaced the Elder Futhark during the Viking Age, reducing the character set from 24 to 16 runes.",
+      "wikiSlug": "Younger_Futhark",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-paris-siege-885",
+      "label": "Siege of Paris (885-886)",
+      "year": 885,
+      "description": "A large Viking army besieged Paris for nearly a year before being paid off. The defense elevated Count Odo, who later became King of France.",
+      "wikiSlug": "Siege_of_Paris_(885%E2%80%93886)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-urnes-stave-church",
+      "label": "Urnes Stave Church",
+      "year": 1050,
+      "description": "The Urnes Stave Church in Norway, a UNESCO World Heritage Site, blends Viking animal-interlace art with Romanesque Christian architecture.",
+      "wikiSlug": "Urnes_Stave_Church",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-trelleborg-fortress",
+      "label": "Trelleborg Ring Fortress",
+      "year": 980,
+      "description": "Harald Bluetooth built the geometrically precise Trelleborg ring fortresses across Denmark, showcasing advanced Viking military engineering.",
+      "wikiSlug": "Trelleborg_(Slagelse)",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-norse-astronomy",
+      "label": "Viking Sunstone Navigation",
+      "year": 1007.5,
+      "description": "Norse sailors may have used calcite sunstones to locate the sun on overcast days, aiding navigation across the open North Atlantic.",
+      "wikiSlug": "Sunstone_(medieval)",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-norse-clinker-ships",
+      "label": "Clinker-Built Longships",
+      "year": 820,
+      "description": "Viking shipbuilders perfected clinker construction with overlapping planks, producing fast, flexible longships capable of ocean crossings and river navigation.",
+      "wikiSlug": "Longship",
+      "tier": 2,
+      "category": "science"
+    },
+    {
+      "id": "evt-adam-of-bremen",
+      "label": "Adam of Bremen's Chronicle",
+      "year": 1075,
+      "description": "Adam of Bremen wrote Gesta Hammaburgensis, a key source on Viking geography, religion, and the Norse discovery of Vinland.",
+      "wikiSlug": "Adam_of_Bremen",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-harald-hardrada",
+      "label": "Harald Hardrada",
+      "year": 1046,
+      "endYear": 1066,
+      "description": "King of Norway and former Varangian Guard commander who invaded England in 1066. Often called the last great Viking king.",
+      "wikiSlug": "Harald_Hardrada",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-stamford-bridge",
+      "label": "Battle of Stamford Bridge",
+      "year": 1066,
+      "description": "Harold Godwinson of England defeated and killed Harald Hardrada of Norway, ending the Viking threat to England. Traditionally marks the end of the Viking Age.",
+      "wikiSlug": "Battle_of_Stamford_Bridge",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ragnar-lothbrok",
+      "label": "Ragnar Lothbrok (legendary)",
+      "year": 845,
+      "description": "Semi-legendary Norse hero and king whose saga sons led the Great Heathen Army. Whether historical or mythical, he became the most famous Viking figure.",
+      "wikiSlug": "Ragnar_Lodbrok",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ivar-boneless",
+      "label": "Ivar the Boneless",
+      "year": 865,
+      "endYear": 873,
+      "description": "Legendary son of Ragnar Lothbrok who led the Great Heathen Army's invasion of England, conquering Northumbria and East Anglia.",
+      "wikiSlug": "Ivar_the_Boneless",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-battle-edington",
+      "label": "Battle of Edington",
+      "year": 878,
+      "description": "Alfred the Great defeated Guthrum's Viking army, leading to the Treaty of Wedmore and Guthrum's baptism as a Christian.",
+      "wikiSlug": "Battle_of_Edington",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-rus-attack-constantinople",
+      "label": "Rus' Siege of Constantinople",
+      "year": 860,
+      "description": "A Varangian Rus' fleet attacked Constantinople, shocking the Byzantine world and initiating diplomatic and religious contact between the two civilizations.",
+      "wikiSlug": "Rus'–Byzantine_War_(860)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-william-conqueror-normandy",
+      "label": "Battle of Hastings",
+      "year": 1066,
+      "description": "William of Normandy, a descendant of Viking Rollo, defeated Harold Godwinson just weeks after Stamford Bridge, beginning the Norman conquest of England.",
+      "wikiSlug": "Battle_of_Hastings",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-norse-mythology-eddas",
+      "label": "Poetic Edda Composed",
+      "year": 1012.5,
+      "description": "The poems of the Poetic Edda, preserving Norse mythology including tales of Odin, Thor, and Ragnarok, were composed during the Viking Age and later written down in Iceland.",
+      "wikiSlug": "Poetic_Edda",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-olaf-tryggvason",
+      "label": "Olaf Tryggvason",
+      "year": 995,
+      "endYear": 1000,
+      "description": "King of Norway who forcibly Christianized Norway, Iceland, and Greenland during his short but transformative reign.",
+      "wikiSlug": "Olaf_Tryggvason",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-jorvik-viking-york",
+      "label": "Viking Kingdom of York (Jorvik)",
+      "year": 876,
+      "description": "The Great Heathen Army established the Viking Kingdom of York, which became a thriving Norse trading center and cultural capital in England.",
+      "wikiSlug": "Scandinavian_York",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-freydis-eriksdottir",
+      "label": "Freydis Eriksdottir in Vinland",
+      "year": 1010,
+      "description": "Daughter of Erik the Red who led one of the last Norse expeditions to Vinland, depicted in the sagas as a fierce and controversial figure.",
+      "wikiSlug": "Freydís_Eiríksdóttir",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-floki-vilgerdarson",
+      "label": "Floki Discovers Iceland",
+      "year": 868,
+      "description": "The Norse explorer Floki Vilgerðarson sailed deliberately to Iceland using ravens as navigational aids, becoming the first to overwinter there and giving the island its name.",
+      "wikiSlug": "Flóki_Vilgerðarson",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-aud-the-deep-minded",
+      "label": "Aud the Deep-Minded",
+      "year": 895,
+      "description": "A powerful Irish-Norse noblewoman who led her family and followers from Scotland to Iceland, where she became one of the island's most prominent founding settlers and early Christian converts.",
+      "wikiSlug": "Unn_the_Deep-Minded",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-egil-skallagrimsson",
+      "label": "Egil Skallagrimsson",
+      "year": 940,
+      "description": "Iceland's most celebrated skald and warrior, whose complex poems and turbulent life are recorded in Egil's Saga. He exemplified the Viking ideal of the poet-fighter.",
+      "wikiSlug": "Egill_Skallagrímsson",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-thorgeir-lawspeaker",
+      "label": "Þorgeirr Decides Iceland's Faith",
+      "year": 1000,
+      "description": "The lawspeaker Þorgeirr Ljósvetningagoði, a pagan chieftain, withdrew under his cloak for a day and night before announcing that Iceland would adopt Christianity to prevent civil war.",
+      "wikiSlug": "Þorgeirr_Ljósvetningagoði",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-norse-blot-sacrifice",
+      "label": "Norse Blót Sacrifice Tradition",
+      "year": 850,
+      "description": "The blót was a central Norse religious ritual involving animal sacrifice to honor the gods — particularly Odin, Thor, and Freyr — at seasonal festivals held across Scandinavia.",
+      "wikiSlug": "Blót",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-disablot-midwinter",
+      "label": "Dísablót Midwinter Festival",
+      "year": 870,
+      "description": "The Dísablót was a Norse midwinter sacrifice performed in honor of the dísir — female spirits tied to fertility and fate. It was observed across Scandinavia and early Iceland.",
+      "wikiSlug": "Dísablót",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-conversion-denmark-bluetooth",
+      "label": "Harald Bluetooth Converts Denmark",
+      "year": 960,
+      "description": "Harald Bluetooth accepted Christian baptism and ordered the Christianization of Denmark, erecting the great Jelling Stones as a monument to the new faith and his political authority.",
+      "wikiSlug": "Christianization_of_Denmark",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-temple-at-uppsala",
+      "label": "Great Heathen Temple at Uppsala",
+      "year": 1000,
+      "description": "The massive pagan temple at Uppsala in Sweden, described by Adam of Bremen around 1075, held golden statues of Odin, Thor, and Freyr and hosted great sacrificial feasts every nine years.",
+      "wikiSlug": "Temple_at_Uppsala",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-olaf-haraldsson-sainthood",
+      "label": "Saint Olaf Canonized",
+      "year": 1031,
+      "description": "King Olaf Haraldsson was declared a saint just a year after his death at Stiklestad, becoming Norway's eternal patron saint. His cult spread across Scandinavia and the Norse diaspora.",
+      "wikiSlug": "Olaf_II_of_Norway",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-brunanburh",
+      "label": "Battle of Brunanburh",
+      "year": 937,
+      "description": "King Æthelstan of England crushed a combined Norse-Scottish coalition at Brunanburh, cementing English dominance and celebrated in one of the finest Old English poems.",
+      "wikiSlug": "Battle_of_Brunanburh",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-volga-trade-route",
+      "label": "Volga Trade Route to Baghdad",
+      "year": 900,
+      "description": "Norse Varangian traders navigated the Volga river system to reach the Caspian Sea and the Abbasid Caliphate, exchanging furs and slaves for vast quantities of Islamic silver dirhams.",
+      "wikiSlug": "Volga_trade_route",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-norse-longhouse",
+      "label": "Norse Longhouse Construction",
+      "year": 800,
+      "description": "The timber-framed Norse longhouse, housing family and livestock under one roof, was the fundamental unit of Viking settlement from Norway to Iceland and Greenland, engineered to withstand harsh northern winters.",
+      "wikiSlug": "Longhouse",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-runestone-memorial-tradition",
+      "label": "Runestone Memorial Tradition",
+      "year": 1020,
+      "description": "Thousands of runestones erected across Scandinavia, especially in Sweden, recorded names, deeds, and journeys — the largest corpus of Viking Age written records and a unique epigraphic tradition.",
+      "wikiSlug": "Runestone",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    }
+  ],
+  "wikiSlug": "Viking_Age"
+}
