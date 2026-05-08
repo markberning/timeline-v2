@@ -763,6 +763,394 @@
       "tier": 3,
       "tags": [],
       "category": "wars"
+    },
+    {
+      "id": "evt-mexica-culhuacan-vassalage",
+      "label": "Mexica Vassalage under Culhuacan",
+      "year": 1299,
+      "description": "After being expelled from Chapultepec, the Mexica were taken in by the Culhua of Culhuacan as vassals and resettled at Tizapan — a barren, snake-infested land intended to destroy them. Instead they thrived, intermarried with the Culhua, and began absorbing Toltec cultural legitimacy.",
+      "wikiSlug": "Culhuacan_(altepetl)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tizapan-grant",
+      "label": "Cocoxtli Grants Tizapan",
+      "year": 1299,
+      "description": "The Culhua ruler Cocoxtli granted the wandering Mexica the desolate land of Tizapan on the southern shore of Lake Texcoco. What was meant as punishment became a foothold; the Mexica turned Tizapan into a settlement and began earning status as Culhua warriors.",
+      "wikiSlug": "Tizapan",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-eagle-cactus-vision",
+      "label": "Eagle on the Cactus Vision",
+      "year": 1325,
+      "description": "Mexica priests reported seeing the prophesied sign from Huitzilopochtli — an eagle perched on a prickly pear cactus on a rocky island, devouring a serpent. This vision designated the founding site of Tenochtitlan and became the enduring symbol of the Mexican nation.",
+      "wikiSlug": "Coat_of_arms_of_Mexico",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-maxtla-defeat",
+      "label": "Defeat of Maxtla",
+      "year": 1428,
+      "description": "Itzcoatl and his allies besieged and captured Azcapotzalco, killing the Tepanec tyrant Maxtla who had murdered Chimalpopoca. The defeat ended Tepanec supremacy and cleared the way for Mexica dominance — Maxtla's capture was celebrated with his sacrifice at the founding ceremony of the Triple Alliance.",
+      "wikiSlug": "Maxtla",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tribute-division",
+      "label": "Triple Alliance Tribute Division",
+      "year": 1428,
+      "description": "The Triple Alliance formalized tribute distribution among its three capitals: Tenochtitlan received 2/5, Texcoco received 2/5, and Tlacopan (the junior partner) received 1/5. This arrangement made Tenochtitlan and Texcoco co-dominant and funded the construction of both cities.",
+      "wikiSlug": "Aztec_Triple_Alliance",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-itzcoatl-heartland-campaigns",
+      "label": "Itzcoatl Conquers the Valley",
+      "year": 1430,
+      "description": "Following the Tepanec War, Itzcoatl systematically conquered Xochimilco, Cuitlahuac, Mizquic, Coyoacan, and other towns around Lake Texcoco, consolidating Mexica control of the Valley of Mexico's heartland and establishing the tribute base that would fund all future expansion.",
+      "wikiSlug": "Itzcoatl",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-motecuzoma-i-huastec-campaign",
+      "label": "Motecuzoma I Conquers the Huastec",
+      "year": 1455,
+      "description": "Motecuzoma I launched a major campaign into the Huastec region of the Gulf Coast after a rebellion against Aztec tribute collectors. The brutal reconquest extended Aztec control to the Gulf lowlands and brought cotton, rubber, and vanilla into the tributary network.",
+      "wikiSlug": "Moctezuma_I#Campaigns",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-new-fire-1403",
+      "label": "New Fire Ceremony 1403",
+      "year": 1403,
+      "description": "The New Fire Ceremony (Xiuhmolpilli) of 1403 marked the end of a 52-year calendar round. All fires were extinguished across the Valley of Mexico, pregnant women and children were locked inside to prevent them from turning into monsters, and priests climbed Huixachtlan hill to drill new fire — if successful, the world would survive another cycle.",
+      "wikiSlug": "New_Fire_ceremony",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-new-fire-1455",
+      "label": "New Fire Ceremony 1455",
+      "year": 1455,
+      "description": "The 1455 New Fire coincided with the devastating One Rabbit famine, making this ceremony especially fraught — the population feared cosmic destruction was imminent. The successful lighting of new fire was greeted with extraordinary relief and became associated with the beginning of renewed Aztec imperial expansion.",
+      "wikiSlug": "New_Fire_ceremony",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-new-fire-1507",
+      "label": "New Fire Ceremony 1507",
+      "year": 1507,
+      "description": "The New Fire Ceremony of 1507 was the most elaborately documented, recorded in the Codex Borbonicus. Priests drilled new fire on the chest of a sacrificial victim atop Huixachtlan hill; when the flame caught, runners relayed fire to every temple and household hearth across the empire.",
+      "wikiSlug": "New_Fire_ceremony",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tizoc-stone",
+      "label": "Tizoc Stone",
+      "year": 1485,
+      "description": "Tizoc commissioned a massive circular sacrificial stone carved with 15 conquest scenes showing himself dragging captives by the hair — a propagandistic monument to military glory that his actual campaigns never achieved. The stone now sits in the National Museum of Anthropology in Mexico City.",
+      "wikiSlug": "Tizoc_Stone",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ahuitzotl-tehuantepec",
+      "label": "Ahuitzotl Reaches the Pacific",
+      "year": 1494,
+      "description": "Ahuitzotl's armies conquered Tehuantepec and pushed to the Pacific coast of modern Chiapas and Guatemala, reaching the Xoconochco (Soconusco) cacao coast. This was the empire's furthest southern expansion and brought the finest cacao in Mesoamerica directly under Tenochtitlan's tribute system.",
+      "wikiSlug": "Ahuitzotl#Military_campaigns",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-coatlicue-statue",
+      "label": "Coatlicue Statue",
+      "year": 1490,
+      "description": "The eight-foot basalt statue of Coatlicue (She of the Serpent Skirt) — goddess of earth, life, death, and rebirth — was carved and installed in the sacred precinct of Tenochtitlan. One of the most powerful works of pre-Columbian sculpture, it depicts the goddess wearing a skirt of serpents and a necklace of human hearts and hands.",
+      "wikiSlug": "Coatlicue_(statue)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-calpulli-system",
+      "label": "Calpulli Neighborhood Clans",
+      "year": 1350,
+      "description": "Tenochtitlan was organized into calpulli (neighborhood clan groups), each with its own temple, school, land-holding, and governing council. The calpulli formed the basic unit of Aztec civic life — allocating agricultural land to macehualtin commoners, organizing labor levies, and maintaining local religious practice.",
+      "wikiSlug": "Calpulli",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-macehualtin-commoners",
+      "label": "Macehualtin Commoner Class",
+      "year": 1380,
+      "description": "The macehualtin (commoners) formed the vast majority of Aztec society, farming chinampa plots allocated through the calpulli and serving in the armies. Unlike European serfs, macehualtin could rise through military achievement — capturing four enemy warriors elevated a commoner to near-noble status.",
+      "wikiSlug": "Macehualli",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tlacotin-slavery",
+      "label": "Tlacotin (Aztec Slavery)",
+      "year": 1400,
+      "description": "The tlacotin were Aztec slaves — not racial chattel but judicial and economic slaves who could be created by debt, crime, or self-sale during famine. Slaves could own property, purchase their freedom, and their children were born free. A sub-category, tecpan tlacotin, served in noble households.",
+      "wikiSlug": "Aztec_slavery",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pochteca-courts",
+      "label": "Pochteca Merchant Courts",
+      "year": 1480,
+      "description": "The pochteca guilds operated their own judicial courts, separate from standard Aztec law, to adjudicate commercial disputes among merchants. These courts had authority over matters of trade fraud, debt, and guild conduct — reflecting the semi-autonomous status of the merchant class within the imperial system.",
+      "wikiSlug": "Pochteca",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tlatocan-courts",
+      "label": "Tlatocan Judicial System",
+      "year": 1435,
+      "description": "Aztec civil and criminal justice was administered through a hierarchy of courts culminating in the tlatocan (supreme council). Judges were full-time specialists who heard cases daily; bribery of a judge was a capital offense. Nezahualcoyotl formalized this system in Texcoco and it spread throughout the empire.",
+      "wikiSlug": "Aztec_law",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cihuacoatl-office",
+      "label": "Office of the Cihuacoatl",
+      "year": 1428,
+      "description": "Itzcoatl created the office of cihuacoatl (snake woman — a title, not a gender), a vice-ruler who administered domestic affairs, supervised the judicial system, commanded the army in the tlatoani's absence, and managed tribute collection. Tlacaelel held the post for nearly sixty years, making him the empire's most influential figure.",
+      "wikiSlug": "Cihuacoatl_(position)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gladiatorial-sacrifice",
+      "label": "Gladiatorial Sacrifice of Tlahuicole",
+      "year": 1516,
+      "description": "The Tlaxcalan warrior Tlahuicole was captured by the Aztecs and offered his freedom — which he refused, demanding instead to die as a warrior. He was given the tlauauaniliztli (sacrificial gladiatorial combat): tied to a stone, armed with a feathered club, he fought eight jaguar and eagle warriors in succession before being sacrificed. He wounded several before falling, earning a warrior's death.",
+      "wikiSlug": "Tlahuicole",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-binding-of-years",
+      "label": "The Binding of the Years",
+      "year": 1455,
+      "description": "The 52-year calendar round (xiuhmolpilli, meaning 'binding of the years') was the longest Aztec time cycle in common use — when both the 260-day ritual calendar and the 365-day solar calendar returned to their shared starting point. At each end-of-cycle, the Aztecs performed the New Fire Ceremony to ensure cosmic renewal.",
+      "wikiSlug": "Xiuhmolpilli",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-ticitl-healers",
+      "label": "Ticitl Healer Tradition",
+      "year": 1470,
+      "description": "The ticitl (healers, both male and female) combined botanical medicine with ritual diagnosis, using the tonalpohualli calendar to determine which deity had caused an illness. They maintained specialized knowledge of over a thousand plant remedies, surgical techniques, and herbal anesthetics — a medical tradition documented after conquest in the Badianus Manuscript.",
+      "wikiSlug": "Aztec_medicine",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-badianus-manuscript",
+      "label": "Badianus Manuscript",
+      "year": 1552,
+      "description": "Written in 1552 by Aztec physician Martín de la Cruz and translated into Latin by Juan Badiano at the Colegio de Santa Cruz, the Badianus Manuscript documented pre-conquest Aztec herbal medicine with illustrated plant descriptions and treatments. It is the oldest known medical text from the Americas and preserves knowledge that predates the conquest by centuries.",
+      "wikiSlug": "Badianus_Manuscript",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-amoxtli-codex-tradition",
+      "label": "Amoxtli Screenfold Books",
+      "year": 1450,
+      "description": "Aztec scribes (tlacuiloque) produced amoxtli — screenfold books made from deer hide or bark paper (amatl) coated with white lime. These codices recorded ritual calendars, tribute lists, historical annals, and divinatory almanacs. Most were destroyed after the conquest; fewer than 20 pre-colonial pictorial manuscripts survive.",
+      "wikiSlug": "Aztec_codices",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cortes-veracruz-landing",
+      "label": "Cortés Lands at Veracruz",
+      "year": 1519,
+      "description": "Hernán Cortés and approximately 530 soldiers landed on the Gulf Coast in April 1519 and founded the settlement of Villa Rica de la Vera Cruz, thereby establishing legal jurisdiction independent of Cuba's governor Diego Velázquez. Cortés then famously scuttled his ships to prevent retreat.",
+      "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-meeting-motecuzoma",
+      "label": "Cortés Meets Motecuzoma II",
+      "year": 1519,
+      "description": "On November 8, 1519, Cortés and Motecuzoma II met on the causeway to Tenochtitlan in one of history's most consequential encounters. Motecuzoma received the Spaniards as honored guests and installed them in the palace of Axayacatl — a decision that would prove fatal to the empire.",
+      "wikiSlug": "Moctezuma_II#Meeting_with_Cortés",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-motecuzoma-detained",
+      "label": "Motecuzoma II Detained",
+      "year": 1519,
+      "description": "Within weeks of arriving in Tenochtitlan, Cortés seized Motecuzoma II and held him as a hostage, ruling the empire through him. The tlatoani's apparent capitulation shattered his authority; Aztec nobles viewed his compliance as cowardice or supernatural obligation, fatally undermining resistance.",
+      "wikiSlug": "Moctezuma_II#Captivity",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-smallpox-1520",
+      "label": "First Smallpox Wave 1520",
+      "year": 1520,
+      "description": "Smallpox arrived in Mexico in 1520 aboard a Spanish relief fleet, spreading ahead of Cortés's forces. The disease killed tens of thousands including tlatoani Cuitlahuac after only 80 days in power — and had no name in Nahuatl because nothing like it had ever existed in the Americas. The epidemic destroyed military command structures and demoralized defenders at the worst possible moment.",
+      "wikiSlug": "1520_Aztec_smallpox_epidemic",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-siege-tenochtitlan",
+      "label": "Siege of Tenochtitlan",
+      "year": 1521,
+      "description": "Beginning May 26, 1521, Cortés besieged Tenochtitlan with approximately 700 Spanish soldiers and over 100,000 indigenous allies — primarily Tlaxcalans, Texcocans, and Totonacs. For 75 days the Aztecs held out under Cuauhtémoc, fighting street by street as Spanish brigantines cut off canoe supply lines and smallpox raged inside the city.",
+      "wikiSlug": "Siege_of_Tenochtitlan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cuauhtemoc-captured",
+      "label": "Cuauhtémoc Captured",
+      "year": 1521,
+      "description": "On August 13, 1521, the last tlatoani Cuauhtémoc was captured while attempting to escape across the lake in a canoe. The city surrendered the same day. Cortés later tortured Cuauhtémoc to reveal where the Aztec treasury was hidden, and executed him in 1525 during the Honduras expedition on charges of conspiracy.",
+      "wikiSlug": "Cuauht%C3%A9moc",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-templo-mayor-phase-ii",
+      "label": "Templo Mayor Phase II",
+      "year": 1390,
+      "description": "The Templo Mayor underwent its second major construction phase during the reigns of Acamapichtli and Huitzilihuitl, when the original modest shrine was significantly enlarged with new stone facings and stairways — establishing the twin-staircase profile that would define all subsequent expansions.",
+      "wikiSlug": "Templo_Mayor",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-templo-mayor-phase-iv",
+      "label": "Templo Mayor Phase IV",
+      "year": 1440,
+      "description": "The fourth construction phase of the Templo Mayor, undertaken during Motecuzoma I's reign, was the most architecturally ambitious to that point — raising the twin pyramid to over 30 meters, adding the Coyolxauhqui stone at the base of the Huitzilopochtli stairway, and constructing the surrounding sacred precinct with new auxiliary temples.",
+      "wikiSlug": "Templo_Mayor",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sacred-precinct",
+      "label": "Tenochtitlan Sacred Precinct",
+      "year": 1500,
+      "description": "By 1500, the sacred precinct (Huey Teocalli) at the center of Tenochtitlan contained over 78 buildings including the Templo Mayor, temples to Quetzalcoatl and Tezcatlipoca, a tzompantli (skull rack) holding thousands of sacrificial skulls, a ball court, and the calmecac school — all enclosed within a massive serpent wall (coatepantli).",
+      "wikiSlug": "Tenochtitlan#Sacred_precinct",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-quetzalcoatl-legend",
+      "label": "Quetzalcoatl Return Prophecy",
+      "year": 1509,
+      "description": "The legend of Quetzalcoatl — the feathered serpent deity who had departed eastward across the sea, vowing to return — was interpreted by some (and later amplified by Spanish chroniclers) to explain Aztec hesitation toward Cortés. The year 1519 (One Reed in the Aztec calendar) was prophesied as the year of Quetzalcoatl's return.",
+      "wikiSlug": "Quetzalcoatl",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-motecuzoma-omens",
+      "label": "Eight Omens Before the Conquest",
+      "year": 1509,
+      "description": "Aztec sources record eight omens in the decade before the conquest: a comet, a spontaneously burning temple, a lightning strike without thunder, a weeping woman heard at night, a two-headed man, a bird with a mirror on its head showing warriors, and the lake boiling without fire. Whether invented post-hoc or genuine observations, they shaped how Aztecs remembered the conquest.",
+      "wikiSlug": "Aztec_history#Omens",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-codex-florentine",
+      "label": "Florentine Codex Compiled",
+      "year": 1540,
+      "description": "Fray Bernardino de Sahagún systematically interviewed Aztec elders from the 1540s through the 1570s to produce the Florentine Codex — a 12-volume encyclopedia of Aztec culture in Nahuatl and Spanish covering religion, natural history, economics, and the conquest itself. It remains the single most important source on pre-conquest Aztec civilization.",
+      "wikiSlug": "Florentine_Codex",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-nezahualcoyotl-laws",
+      "label": "Nezahualcoyotl's Legal Code",
+      "year": 1445,
+      "description": "Nezahualcoyotl of Texcoco established an 80-article legal code covering property, marriage, criminal offenses, and military conduct. Key provisions included death penalties for murder, adultery, theft by officials, and battlefield cowardice — making Texcoco one of the most legally sophisticated polities in Mesoamerica.",
+      "wikiSlug": "Nezahualcoyotl",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
     }
   ],
   "wikiSlug": "Aztec_Empire"
