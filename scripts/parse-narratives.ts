@@ -149,6 +149,11 @@ const NARRATIVE_FILES: Record<string, string> = {
   'kingdom-of-aksum.md': 'kingdom-of-aksum',
   'six-dynasties.md': 'six-dynasties',
   'ancestral-puebloans.md': 'ancestral-puebloans',
+  'aztec-empire.md': 'aztec-empire',
+  'byzantine-empire.md': 'byzantine-empire',
+  'viking-age.md': 'viking-age',
+  'mongol-empire.md': 'mongol-empire',
+  'gupta-empire.md': 'gupta-empire',
 }
 
 function slugify(title: string): string {
