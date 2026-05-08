@@ -198,6 +198,7 @@ That's it. If you find yourself writing a fourth annotation or an eighth site, c
 - [xiongnu-huns.md](xiongnu-huns.md) — 8 chapters (1–8)
 - [viking-age.md](viking-age.md) — 8 chapters (1–8)
 - [zapotec-civilization.md](zapotec-civilization.md) — 8 chapters (1–8)
+- [byzantine-empire.md](byzantine-empire.md) — 12 chapters (1–12)
 
 ## Redos
 
