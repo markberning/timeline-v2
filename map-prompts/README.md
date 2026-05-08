@@ -194,11 +194,13 @@ That's it. If you find yourself writing a fourth annotation or an eighth site, c
 - [celtic-cultures.md](celtic-cultures.md) — 8 chapters (1–8)
 - [han-dynasty.md](han-dynasty.md) — 8 chapters (1–8)
 - [post-maurya-kingdoms.md](post-maurya-kingdoms.md) — 8 chapters (1–8)
+- [gupta-empire.md](gupta-empire.md) — 8 chapters (1–8)
 - [teotihuacan.md](teotihuacan.md) — 8 chapters (1–8)
 - [xiongnu-huns.md](xiongnu-huns.md) — 8 chapters (1–8)
 - [viking-age.md](viking-age.md) — 8 chapters (1–8)
 - [zapotec-civilization.md](zapotec-civilization.md) — 8 chapters (1–8)
 - [byzantine-empire.md](byzantine-empire.md) — 12 chapters (1–12)
+- [mongol-empire.md](mongol-empire.md) — 9 chapters (1–9)
 
 ## Redos
 
