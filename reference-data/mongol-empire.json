@@ -699,6 +699,397 @@
       "tier": 3,
       "category": "trade",
       "tags": []
+    },
+    {
+      "id": "evt-yesugei-poisoned",
+      "label": "Yesügei poisoned by Tatars",
+      "year": 1171,
+      "description": "Yesügei, chieftain of the Borjigin clan and father of Temüjin, was poisoned by Tatar enemies while returning from delivering his son to a prospective bride. His death left the nine-year-old Temüjin and his family abandoned by their clan and destitute on the steppe — the trauma that forged Genghis Khan's iron will.",
+      "wikiSlug": "Yesügei",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-temujin-kidnapped",
+      "label": "Temüjin's wife Börte kidnapped",
+      "year": 1184,
+      "description": "Rival Merkit tribesmen raided Temüjin's camp and abducted his new bride Börte. Temüjin's subsequent rescue campaign — with help from his sworn brother Jamukha and the powerful Kereit ruler Toghrul — was his first act of military leadership and demonstrated the coalition-building that would define his rise.",
+      "wikiSlug": "Börte",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-alliance-toghrul",
+      "label": "Alliance with Toghrul (Wang Khan)",
+      "year": 1190,
+      "description": "Temüjin forged a pivotal alliance with Toghrul, ruler of the powerful Kereit tribe and vassal of the Jin dynasty who held the honorific title Wang Khan. The partnership gave Temüjin legitimacy and military muscle; together they crushed the Tatars, Temüjin's father's killers, around 1202.",
+      "wikiSlug": "Toghrul",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-defeat-wang-khan",
+      "label": "Defeat of Wang Khan",
+      "year": 1203,
+      "description": "Temüjin defeated and killed Toghrul (Wang Khan) after their alliance broke down, absorbing the Kereit people into his growing confederation. This eliminated the last major rival power in Mongolia east of the Altai and left only the Naimans standing between Temüjin and total steppe supremacy.",
+      "wikiSlug": "Toghrul",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-defeat-naimans",
+      "label": "Defeat of the Naimans",
+      "year": 1204,
+      "description": "Temüjin crushed the Naiman confederation under Tayang Khan at the Battle of Chakirmaut, completing his unification of the Mongolian plateau. The Naiman scribes, who used the Uyghur script, were absorbed into Mongol service — which is how the Mongols acquired their first writing system.",
+      "wikiSlug": "Battle_of_Chakirmaut",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-kurultai-1206",
+      "label": "Kurultai of 1206",
+      "year": 1206,
+      "description": "At a grand assembly (kurultai) on the banks of the Onon River, all Mongol tribal leaders gathered to formally acclaim Temüjin as Genghis Khan — meaning 'universal ruler' or 'oceanic king.' The kurultai established the new state's laws, military decimal system (arban-zuun-mingan-tumen), and the Nine White Banners as the empire's symbol.",
+      "wikiSlug": "Kurultai",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-western-xia-first-campaign",
+      "label": "First campaign against Western Xia",
+      "year": 1209,
+      "description": "Genghis Khan launched his first major campaign beyond the Mongolian plateau, invading the Tangut-ruled Western Xia kingdom. Western Xia submitted and paid tribute, becoming a vassal but not yet conquered — the campaign was partly a rehearsal for the coming war against the Jin dynasty.",
+      "wikiSlug": "Mongol_conquest_of_Western_Xia",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-capture-zhongdu",
+      "label": "Capture of Zhongdu (Beijing)",
+      "year": 1215,
+      "description": "After four years of campaigning through northern China, Mongol forces captured and sacked Zhongdu, the Jin capital (modern Beijing), killing much of its population. Yelü Chucai, a Khitan official serving the Jin, was captured here and entered Mongol service, eventually moderating their approach to governing settled peoples.",
+      "wikiSlug": "Mongol_conquest_of_the_Jin_dynasty",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-sack-bukhara",
+      "label": "Sack of Bukhara",
+      "year": 1220,
+      "description": "Genghis Khan led his army in a surprise flanking march through the supposedly impassable Kyzylkum Desert to take Bukhara from behind. In the city's great mosque he reportedly declared himself the flail of God punishing the people for their sins. The city's inhabitants were spared; its garrison was massacred.",
+      "wikiSlug": "Sack_of_Bukhara",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-sack-urgench",
+      "label": "Sack of Urgench",
+      "year": 1221,
+      "description": "Urgench, the Khwarezmian capital and one of the largest cities in the world, was besieged and sacked after fierce street-by-street fighting. The Mongols diverted the Amu Darya river through the ruined city. Contemporary estimates suggest over a million inhabitants were killed, though modern historians consider such figures exaggerated.",
+      "wikiSlug": "Siege_of_Urgench",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-battle-indus",
+      "label": "Battle of the Indus",
+      "year": 1221,
+      "description": "Genghis Khan cornered Jalal ad-Din Mingburnu, the last Khwarezmian prince, at the Indus River after a chase across Afghanistan. Jalal ad-Din made a desperate stand with 30,000 men; after defeat he leapt his horse off a cliff into the river and swam to the Indian bank as the Mongols watched in astonishment. The escape ended the Khwarezmian dynasty.",
+      "wikiSlug": "Battle_of_the_Indus",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-john-plano-carpini",
+      "label": "John of Plano Carpini's mission",
+      "year": 1245,
+      "description": "Pope Innocent IV sent Franciscan friar Giovanni da Pian del Carpine (John of Plano Carpini) as the first papal envoy to the Mongol Great Khan. Carpini attended Güyük Khan's coronation and returned in 1247 with a detailed report — Historia Mongalorum — the first systematic European account of Mongol customs, military tactics, and society.",
+      "wikiSlug": "Giovanni_da_Pian_del_Carpine",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-tolui-regent",
+      "label": "Tolui's regency",
+      "year": 1227,
+      "endYear": 1229,
+      "description": "After Genghis Khan's death, his youngest son Tolui served as regent for two years per Mongol custom — the youngest son (otchigin) kept the family hearth. Tolui commanded the forces that completed the destruction of the Jin heartland before his brother Ögedei was elected Great Khan at the kurultai of 1229.",
+      "wikiSlug": "Tolui",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-karakorum-built",
+      "label": "Karakorum city walls and palace built",
+      "year": 1235,
+      "description": "Ögedei Khan directed the construction of permanent walled city at Karakorum with a great palace (Tumen Amugulang), Chinese Buddhist temples, Muslim mosques, a Nestorian church, and the famous Silver Tree fountain. It was the administrative nerve center of an empire spanning half the world.",
+      "wikiSlug": "Karakorum",
+      "tier": 2,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-toregun-khatun-regency",
+      "label": "Töregene Khatun's regency",
+      "year": 1241,
+      "endYear": 1246,
+      "description": "After Ögedei Khan's sudden death, his widow Töregene Khatun governed the Mongol Empire as regent for five years, maneuvering skillfully to ensure the election of her son Güyük as Great Khan. She dismissed Ögedei's chief ministers and installed her own favorites — Fatima, a Persian woman, wielding enormous influence through her.",
+      "wikiSlug": "Töregene_Khatun",
+      "tier": 2,
+      "category": "rulers",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-guyuk-khan",
+      "label": "Güyük Khan",
+      "year": 1246,
+      "endYear": 1248,
+      "description": "Ögedei's son Güyük was elected Great Khan at a great kurultai attended by dignitaries from across Eurasia, including the papal envoy John of Plano Carpini. Güyük was hostile to his cousin Batu Khan of the Golden Horde and was reportedly marching to war against him when he died suddenly in 1248, possibly from alcohol-related illness.",
+      "wikiSlug": "Güyük_Khan",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-western-xia-final-campaign",
+      "label": "Final Western Xia campaign",
+      "year": 1226,
+      "endYear": 1227,
+      "description": "Genghis Khan personally led the final punitive campaign against Western Xia, which had refused to contribute troops for the Khwarezmian invasion. The campaign was successful but Genghis Khan died during the siege — of illness, according to most sources, though the exact cause remains debated. His generals kept his death secret until Western Xia surrendered.",
+      "wikiSlug": "Mongol_conquest_of_Western_Xia",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-berke-converts-islam",
+      "label": "Berke Khan converts to Islam",
+      "year": 1252,
+      "description": "Berke, younger brother of Batu Khan and future ruler of the Golden Horde, converted to Islam during a visit to Bukhara — becoming the first member of the Genghisid royal house to convert. His conversion predated his rule but shaped his later alliance with the Mamluk Sultanate against the Ilkhanate.",
+      "wikiSlug": "Berke",
+      "tier": 2,
+      "category": "religion",
+      "tags": ["rulers"]
+    },
+    {
+      "id": "evt-alamut-taken",
+      "label": "Sack of Alamut — Assassins destroyed",
+      "year": 1256,
+      "description": "Hülegü Khan captured and demolished the Nizari Ismaili fortress of Alamut in the Alborz Mountains, ending the feared Order of Assassins as a military power. The great library at Alamut — said to contain irreplaceable scientific manuscripts — was destroyed along with the fortress, though Nasir al-Din al-Tusi was rescued from captivity here and entered Mongol service.",
+      "wikiSlug": "Siege_of_Alamut_(1256)",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-nasir-al-din-tusi",
+      "label": "Nasir al-Din al-Tusi at Maragheh",
+      "year": 1259,
+      "description": "Captured from Alamut, the brilliant Persian mathematician and astronomer Nasir al-Din al-Tusi became Hülegü's court scientist and designed the Maragheh Observatory. There he developed the 'Tusi couple' — a mathematical device using two circles to model planetary motion without the problematic Ptolemaic equant, a breakthrough later used by Copernicus.",
+      "wikiSlug": "Nasir_al-Din_al-Tusi",
+      "tier": 2,
+      "category": "science",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-daoist-buddhist-debate",
+      "label": "Buddhist–Taoist Debate at Karakorum",
+      "year": 1258,
+      "description": "Möngke Khan presided over a grand theological debate at Karakorum between Buddhist and Taoist representatives, with Nestorian Christians and Muslims in attendance. The Buddhists were declared winners, but the event illustrated the remarkable intellectual diversity of the Mongol court at its peak — rulers who let all religions compete on merit.",
+      "wikiSlug": "Buddhist–Taoist_debate_of_1258",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-battle-kose-dag",
+      "label": "Battle of Köse Dağ",
+      "year": 1243,
+      "description": "A Mongol force under Baiju decisively defeated the Seljuk Sultanate of Rum at Köse Dağ in Anatolia, reducing the once-powerful sultanate to a Mongol vassal state. The battle opened Anatolia to Mongol influence and set the stage for the eventual displacement that would produce the Ottoman state.",
+      "wikiSlug": "Battle_of_Köse_Dağ",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-sack-vladimir",
+      "label": "Sack of Vladimir",
+      "year": 1238,
+      "description": "Batu Khan's forces captured and burned Vladimir, the capital of the Vladimir-Suzdal principality and the most powerful city in northeastern Rus'. Grand Prince Yuri II fled but was killed at the Battle of the Sit River soon after. The destruction of Vladimir effectively ended the Kievan Rus' political order in the northeast.",
+      "wikiSlug": "Sack_of_Vladimir",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-oz-beg-khan",
+      "label": "Öz Beg makes Islam state religion of Golden Horde",
+      "year": 1313,
+      "description": "Öz Beg Khan's accession to the Golden Horde throne marked a decisive Islamization of the western successor state; he made Islam the official state religion, forced the conversion of Mongol nobles, and built mosques throughout his territory. His long reign (1313–1341) was the Golden Horde's political and commercial peak.",
+      "wikiSlug": "Öz_Beg_Khan",
+      "tier": 2,
+      "category": "religion",
+      "tags": ["rulers"]
+    },
+    {
+      "id": "evt-caffa-plague-siege",
+      "label": "Siege of Caffa and the Black Death",
+      "year": 1346,
+      "description": "Golden Horde Khan Janibeg besieged the Genoese trading colony of Caffa in Crimea and, according to the chronicler Gabriele de' Mussis, catapulted plague-infected corpses over the walls — an early instance of biological warfare. Fleeing Genoese sailors carried the Black Death to Sicily and then across Europe.",
+      "wikiSlug": "Siege_of_Caffa",
+      "tier": 2,
+      "category": "wars",
+      "tags": ["trade"]
+    },
+    {
+      "id": "evt-xiangyang-siege",
+      "label": "Siege of Xiangyang",
+      "year": 1267,
+      "endYear": 1273,
+      "description": "Kublai Khan's forces besieged the twin fortress-cities of Xiangyang and Fandeng on the Han River for five years — the longest siege in the Mongol-Song war. Only the arrival of giant counterweight trebuchets (manjaniqs) from Persian engineers broke the deadlock. The fall opened the Yangtze valley to the final Song conquest.",
+      "wikiSlug": "Siege_of_Xiangyang",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-battle-yamen-proto-firearms",
+      "label": "Battle of Yamen — proto-firearms",
+      "year": 1279,
+      "description": "The final naval battle that destroyed the Southern Song fleet at Yamen saw Yuan forces employ fire-lance weapons — tube-launched projectiles that are among the earliest documented proto-firearms. Over 100,000 Song loyalists reportedly drowned or died in the battle; the last child emperor was carried into the sea by a minister who refused to surrender.",
+      "wikiSlug": "Battle_of_Yamen",
+      "tier": 3,
+      "category": "science",
+      "tags": ["wars"]
+    },
+    {
+      "id": "evt-arghun-european-alliance",
+      "label": "Arghun's diplomatic overtures to Europe",
+      "year": 1285,
+      "endYear": 1291,
+      "description": "Ilkhan Arghun sent multiple embassies to European monarchs and the Pope proposing a Franco-Mongol alliance against the Mamluk Sultanate — the most ambitious attempt at East-West diplomatic coordination in the medieval era. His Nestorian-Christian envoy Rabban Sauma met Philip IV of France and Pope Nicholas IV in 1287–1288, but no military alliance materialized.",
+      "wikiSlug": "Arghun",
+      "tier": 3,
+      "category": "people",
+      "tags": ["trade"]
+    },
+    {
+      "id": "evt-tegüder-ahmad-converts",
+      "label": "Tegüder Ahmad — first Muslim Ilkhan",
+      "year": 1282,
+      "endYear": 1284,
+      "description": "Ilkhan Tegüder Ahmad, who had been baptized a Nestorian Christian, converted to Islam and took the name Ahmad, becoming the first Ilkhan to rule as a Muslim. His conversion alarmed Christian allies and Mongol traditionalists; he was overthrown and executed by his nephew Arghun after only two years, but his reign foreshadowed the eventual Islamization of the Ilkhanate.",
+      "wikiSlug": "Tegüder",
+      "tier": 3,
+      "category": "religion",
+      "tags": ["rulers"]
+    },
+    {
+      "id": "evt-ghazan-reforms",
+      "label": "Ghazan Khan's administrative reforms",
+      "year": 1295,
+      "endYear": 1304,
+      "description": "Ilkhan Ghazan converted to Islam and simultaneously launched sweeping administrative reforms: standardizing weights and measures, reforming coinage, protecting farmers from arbitrary taxation by soldiers, and sponsoring an agricultural revival in war-ravaged Persia. His chief minister Rashid al-Din oversaw both the reforms and a renaissance of Persian arts and scholarship.",
+      "wikiSlug": "Ghazan",
+      "tier": 2,
+      "category": "trade",
+      "tags": ["rulers"]
+    },
+    {
+      "id": "evt-abu-said-death-ilkhanate-end",
+      "label": "Death of Abu Sa'id — Ilkhanate fragments",
+      "year": 1335,
+      "description": "Ilkhan Abu Sa'id died without an heir, triggering immediate succession conflicts. Within a decade the Ilkhanate had dissolved into a patchwork of competing Mongol, Persian, and Kurdish successor dynasties including the Jalayirids, Chobanids, and Muzaffarids. The collapse left Persia politically fragmented until Timur reunited it by conquest.",
+      "wikiSlug": "Abu_Sa'id_Bahadur_Khan",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-chagatai-khanate-kebek",
+      "label": "Kebek Khan's currency reform",
+      "year": 1321,
+      "description": "Chagatai Khan Kebek introduced a standardized silver coin (the kebeki) that became the dominant currency across Central Asia for over a century. He also built a fixed palace at Qarshi — unusual for a khanate that had remained proudly nomadic — signaling a slow drift toward settled administration in the western Chagatai domains.",
+      "wikiSlug": "Kebek_Khan",
+      "tier": 3,
+      "category": "trade",
+      "tags": ["rulers"]
+    },
+    {
+      "id": "evt-tarmashirin-converts",
+      "label": "Tarmashirin converts Chagatai Khanate to Islam",
+      "year": 1331,
+      "description": "Chagatai Khan Tarmashirin converted to Islam and began enforcing Islamic law, alienating the eastern Mongol tribes who remained shamanist or Buddhist. His assassination in 1334 split the Chagatai Khanate into the western Transoxiana (which became Muslim) and the eastern Moghulistan (which remained largely non-Muslim) — a fracture that persisted for a century.",
+      "wikiSlug": "Tarmashirin",
+      "tier": 3,
+      "category": "religion",
+      "tags": ["rulers"]
+    },
+    {
+      "id": "evt-red-turban-rebellion",
+      "label": "Red Turban Rebellion",
+      "year": 1351,
+      "endYear": 1368,
+      "description": "Inspired by White Lotus millenarian Buddhism, the Red Turban Rebellion erupted across the flooded Yellow River valley and spread into a general uprising against Yuan rule. From its ranks emerged Zhu Yuanzhang, a peasant orphan who would found the Ming dynasty, expel the Mongols, and reunite China — one of history's most improbable political ascents.",
+      "wikiSlug": "Red_Turban_Rebellion",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-bayan-baarin",
+      "label": "Bayan of the Baarin",
+      "year": 1267,
+      "endYear": 1295,
+      "description": "Kublai Khan's most capable general, Bayan of the Baarin clan commanded the final Yuan campaign against the Southern Song, capturing hundreds of cities over five years and accepting the surrender of the child emperor in 1276. William of Rubruck had earlier met his Nestorian father at Karakorum. Bayan later served as senior minister under Kublai's successors.",
+      "wikiSlug": "Bayan_of_the_Baarin",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-battle-second-homs",
+      "label": "Battle of Homs (1281)",
+      "year": 1281,
+      "description": "Ilkhan Abaqa's forces, including Armenian and Georgian crusader allies, were defeated by the Mamluks at the Second Battle of Homs in Syria. The defeat confirmed that the Mongols could not break the Mamluk hold on the Levant and signaled that the Ilkhanate's westward expansion had permanently stalled.",
+      "wikiSlug": "Battle_of_Homs_(1281)",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-yuan-drama-flourishes",
+      "label": "Yuan drama (zaju) flourishes",
+      "year": 1280,
+      "endYear": 1340,
+      "description": "Under Yuan rule, Chinese scholars blocked from the traditional civil service examination by Mongol preference for non-Chinese administrators turned to writing plays. The result was a golden age of Chinese drama: the zaju form, combining music, dialogue, and acrobatics, produced classics like The Injustice to Dou E by Guan Hanqing — works still performed today.",
+      "wikiSlug": "Zaju",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-toghon-temur-flees",
+      "label": "Toghon Temür flees to Mongolia",
+      "year": 1368,
+      "description": "The last Yuan emperor, Toghon Temür, fled Khanbaliq (Beijing) as the Ming rebel army approached, retreating north to Shangdu (Xanadu). He died in 1370. The flight did not end Mongol political ambitions — his descendants maintained the 'Northern Yuan' on the steppe for another century — but it ended the Mongol dynasty's rule over China proper.",
+      "wikiSlug": "Toghon_Temür",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
     }
   ],
   "wikiSlug": "Mongol_Empire",
