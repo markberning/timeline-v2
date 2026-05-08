@@ -1,0 +1,731 @@
+{
+  "id": "byzantine-empire",
+  "label": "Byzantine Empire",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "imageWikiSlug": "Hagia_Sophia",
+  "pitch": "When Rome fell in 476, its eastern half kept going for another thousand years. Constantinople Founded by Constantine I the Great became the richest city on Earth, and emperors like Justinian I built the Hagia Sophia Completed — a cathedral so astonishing that its dome seemed to float. From the Corpus Juris Civilis codifying Roman law to the Great Schism splitting Christianity forever, Byzantium was the bridge between the ancient and modern worlds.\n\n🔑 Key Facts:\n• Greek Fire Invented gave Byzantium a secret weapon that repelled Arab sieges and maintained naval supremacy for centuries\n• Basil II the Bulgar-Slayer expanded the empire to its largest medieval extent after decades of war against Bulgaria\n• The Fourth Crusade Sacks Constantinople in 1204 — fellow Christians destroyed Christendom's greatest city, a wound Byzantium never recovered from\n• The Mission of Cyril and Methodius created the Glagolitic alphabet for the Slavs, laying the foundation for Cyrillic script\n\n🤔 Why It Matters: Byzantine scholars preserved Greek philosophy and Roman law through centuries when western Europe had largely forgotten them. The Fall of Constantinople in 1453 sent Greek Scholars Flee to Italy, helping ignite the Renaissance.\n\n🎲 Wild Card: Silk Production Begins in Byzantium thanks to monks who smuggled silkworm eggs out of China hidden inside hollow bamboo canes — history's most consequential act of industrial espionage.",
+  "countryIds": [
+    "792",
+    "300",
+    "380"
+  ],
+  "spans": [
+    {
+      "id": "span-byzantine-empire-early-byzantine",
+      "label": "Early Byzantine",
+      "startYear": 330,
+      "endYear": 610,
+      "wikiSlug": "Byzantine_Empire_under_the_Constantinian_and_Valentinianic_dynasties",
+      "description": "Constantine founded Constantinople as the new eastern capital, and Christianity became the state religion. While the Western Empire fell to barbarian invasions, the eastern half survived, built the Theodosian Walls, and developed a distinct Greek Christian identity."
+    },
+    {
+      "id": "span-byzantine-empire-justinian-heraclian",
+      "label": "Justinian-Heraclian Era",
+      "startYear": 527,
+      "endYear": 717,
+      "wikiSlug": "Byzantine_Empire_under_the_Justinian_dynasty",
+      "description": "Justinian reconquered much of the western Mediterranean, built Hagia Sophia, and codified Roman law, but plague and overextension weakened the empire. The Arab conquests permanently stripped away the Levant, Egypt, and North Africa, reducing Byzantium to Anatolia and the Balkans."
+    },
+    {
+      "id": "span-byzantine-empire-iconoclasm",
+      "label": "Iconoclasm",
+      "startYear": 717,
+      "endYear": 867,
+      "wikiSlug": "Byzantine_Iconoclasm",
+      "description": "Emperors banned religious images, sparking a century-long theological crisis that divided the empire and widened the rift with Rome. The period also saw Byzantium repel major Arab sieges of Constantinople and reorganize its military through the theme system."
+    },
+    {
+      "id": "span-byzantine-empire-macedonian-dynasty",
+      "label": "Macedonian Renaissance",
+      "startYear": 867,
+      "endYear": 1056,
+      "wikiSlug": "Macedonian_dynasty",
+      "description": "Byzantium reached its medieval zenith under the Macedonian dynasty, with Basil II conquering Bulgaria and extending the empire's borders to their greatest extent since Justinian. A cultural renaissance flourished in art, scholarship, and the Christianization of the Slavic world."
+    },
+    {
+      "id": "span-byzantine-empire-komnenian",
+      "label": "Komnenian Restoration",
+      "startYear": 1081,
+      "endYear": 1185,
+      "wikiSlug": "Komnenian_restoration",
+      "description": "The Komnenos dynasty stabilized the empire after the disaster at Manzikert and managed the First Crusade's passage through Byzantine territory. Trade concessions to Venice and Genoa enriched Italian merchants at the expense of Byzantine economic independence."
+    },
+    {
+      "id": "span-byzantine-empire-palaiologan",
+      "label": "Palaiologan Era",
+      "startYear": 1261,
+      "endYear": 1453,
+      "wikiSlug": "Byzantine_Empire_under_the_Palaiologos_dynasty",
+      "description": "After recapturing Constantinople from the Crusaders, the empire survived in a greatly diminished state as the Ottomans steadily conquered its remaining territories. Byzantine scholars fleeing to Italy helped spark the Renaissance before Constantinople finally fell in 1453."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-constantinople-founded",
+      "label": "Constantinople Founded",
+      "year": 330,
+      "description": "Emperor Constantine I dedicated his new capital on the site of ancient Byzantium, making it the center of the eastern Roman world.",
+      "wikiSlug": "Constantinople",
+      "tier": 1,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-theodosius-i",
+      "label": "Theodosius I",
+      "year": 379,
+      "endYear": 395,
+      "description": "Last emperor to rule both eastern and western halves of the Roman Empire. Made Christianity the official state religion.",
+      "wikiSlug": "Theodosius_I",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-edict-thessalonica",
+      "label": "Edict of Thessalonica",
+      "year": 380,
+      "description": "Declared Nicene Christianity the official state religion of the Roman Empire, shaping Byzantine identity for a millennium.",
+      "wikiSlug": "Edict_of_Thessalonica",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-division-empire",
+      "label": "Division of the Empire",
+      "year": 395,
+      "description": "Upon the death of Theodosius I, the Roman Empire was permanently divided into eastern and western halves.",
+      "wikiSlug": "East%E2%80%93West_Schism_of_395",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-theodosian-walls",
+      "label": "Theodosian Walls Built",
+      "year": 413,
+      "description": "Triple line of fortifications built under Theodosius II that protected Constantinople for over a thousand years.",
+      "wikiSlug": "Walls_of_Constantinople",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-council-chalcedon",
+      "label": "Council of Chalcedon",
+      "year": 451,
+      "description": "Fourth ecumenical council defined orthodox Christology, leading to lasting schisms with Coptic and Syriac churches.",
+      "wikiSlug": "Council_of_Chalcedon",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-fall-western-rome",
+      "label": "Fall of Western Rome",
+      "year": 476,
+      "description": "Deposition of Romulus Augustulus ended the Western Roman Empire, leaving Byzantium as sole heir to Rome.",
+      "wikiSlug": "Fall_of_the_Western_Roman_Empire",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-justinian-i",
+      "label": "Justinian I",
+      "year": 527,
+      "endYear": 565,
+      "description": "One of Byzantium's greatest emperors, he reconquered much of the western Mediterranean and oversaw a golden age of law, architecture, and art.",
+      "wikiSlug": "Justinian_I",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-corpus-juris-civilis",
+      "label": "Corpus Juris Civilis",
+      "year": 529,
+      "description": "Justinian's codification of Roman law became the foundation of legal systems across Europe for centuries.",
+      "wikiSlug": "Corpus_Juris_Civilis",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-nika-riots",
+      "label": "Nika Riots",
+      "year": 532,
+      "description": "Massive urban revolt in Constantinople nearly toppled Justinian. Empress Theodora's resolve helped suppress the uprising.",
+      "wikiSlug": "Nika_riots",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-hagia-sophia",
+      "label": "Hagia Sophia Completed",
+      "year": 537,
+      "description": "Justinian's great cathedral, with its revolutionary pendentive dome, was the world's largest interior space for nearly a thousand years.",
+      "wikiSlug": "Hagia_Sophia",
+      "tier": 1,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-theodora",
+      "label": "Empress Theodora",
+      "year": 527,
+      "endYear": 548,
+      "description": "Co-ruler with Justinian, she championed women's rights and religious tolerance. One of the most powerful women in Byzantine history.",
+      "wikiSlug": "Theodora_(wife_of_Justinian_I)",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-belisarius-reconquest",
+      "label": "Belisarius Reconquers Italy",
+      "year": 535,
+      "endYear": 540,
+      "description": "General Belisarius recaptured North Africa and much of Italy from the Ostrogoths in Justinian's ambitious western campaigns.",
+      "wikiSlug": "Belisarius",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-plague-justinian",
+      "label": "Plague of Justinian",
+      "year": 541,
+      "description": "First major bubonic plague pandemic devastated Constantinople and the empire, killing up to a quarter of the eastern Mediterranean's population.",
+      "wikiSlug": "Plague_of_Justinian",
+      "tier": 2,
+      "category": "science"
+    },
+    {
+      "id": "evt-silk-smuggling",
+      "label": "Silk Production Begins",
+      "year": 552,
+      "description": "Byzantine monks smuggled silkworm eggs from China, breaking the Silk Road monopoly and establishing a lucrative domestic silk industry.",
+      "wikiSlug": "Smuggling_of_silkworm_eggs_into_the_Byzantine_Empire",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-heraclius",
+      "label": "Heraclius",
+      "year": 610,
+      "endYear": 641,
+      "description": "Overthrew the tyrant Phocas and defeated the Sassanid Persians, but lost the Levant and Egypt to the Arab conquests.",
+      "wikiSlug": "Heraclius",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-greek-official-language",
+      "label": "Greek Becomes Official Language",
+      "year": 620,
+      "description": "Heraclius replaced Latin with Greek as the empire's official administrative language, reflecting the eastern character of Byzantium.",
+      "wikiSlug": "Medieval_Greek",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-arab-siege-674",
+      "label": "First Arab Siege of Constantinople",
+      "year": 674,
+      "endYear": 678,
+      "description": "Umayyad fleet blockaded Constantinople for four years but was repelled with the help of Greek fire.",
+      "wikiSlug": "Siege_of_Constantinople_(674%E2%80%93678)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-greek-fire",
+      "label": "Greek Fire Invented",
+      "year": 672,
+      "description": "Kallinikos of Heliopolis developed Greek fire, an incendiary naval weapon that became Byzantium's most feared military secret.",
+      "wikiSlug": "Greek_fire",
+      "tier": 2,
+      "category": "science"
+    },
+    {
+      "id": "evt-arab-siege-717",
+      "label": "Second Arab Siege of Constantinople",
+      "year": 717,
+      "endYear": 718,
+      "description": "Leo III repelled a massive Umayyad siege, decisively ending Arab ambitions to conquer Constantinople.",
+      "wikiSlug": "Siege_of_Constantinople_(717%E2%80%93718)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-iconoclasm-begins",
+      "label": "Iconoclasm Begins",
+      "year": 726,
+      "description": "Emperor Leo III banned the veneration of religious images, sparking a century-long theological and political crisis.",
+      "wikiSlug": "Byzantine_Iconoclasm",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-irene-empress",
+      "label": "Empress Irene",
+      "year": 797,
+      "endYear": 802,
+      "description": "First woman to rule Byzantium in her own right, she restored icon veneration at the Second Council of Nicaea in 787.",
+      "wikiSlug": "Irene_of_Athens",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-triumph-orthodoxy",
+      "label": "Triumph of Orthodoxy",
+      "year": 843,
+      "description": "Empress Theodora permanently restored icon veneration, ending the iconoclast controversy. Still celebrated as a feast day.",
+      "wikiSlug": "Triumph_of_Orthodoxy",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cyril-methodius",
+      "label": "Mission of Cyril and Methodius",
+      "year": 863,
+      "description": "Byzantine missionaries created the Glagolitic alphabet to evangelize the Slavs, laying the foundation for Cyrillic script.",
+      "wikiSlug": "Saints_Cyril_and_Methodius",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-basil-i",
+      "label": "Basil I (Macedonian Dynasty)",
+      "year": 867,
+      "endYear": 886,
+      "description": "Founded the Macedonian dynasty that presided over Byzantium's greatest cultural and military golden age.",
+      "wikiSlug": "Basil_I",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-constantine-vii",
+      "label": "Constantine VII Porphyrogennetos",
+      "year": 913,
+      "endYear": 959,
+      "description": "Scholar-emperor who authored major works on imperial administration and ceremonies, preserving invaluable historical knowledge.",
+      "wikiSlug": "Constantine_VII",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-reconquest-crete",
+      "label": "Reconquest of Crete",
+      "year": 961,
+      "description": "Nikephoros Phokas recaptured Crete from the Arabs, restoring Byzantine naval dominance in the eastern Mediterranean.",
+      "wikiSlug": "Byzantine_reconquest_of_Crete",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-basil-ii",
+      "label": "Basil II the Bulgar-Slayer",
+      "year": 976,
+      "endYear": 1025,
+      "description": "Byzantium's greatest warrior-emperor expanded the empire to its largest medieval extent, conquering Bulgaria after decades of war.",
+      "wikiSlug": "Basil_II",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-conversion-rus",
+      "label": "Christianization of Kievan Rus'",
+      "year": 988,
+      "description": "Vladimir I of Kyiv adopted Orthodox Christianity from Byzantium, permanently linking the Slavic world to Constantinople's religious orbit.",
+      "wikiSlug": "Christianization_of_Kievan_Rus%27",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-kleidion",
+      "label": "Battle of Kleidion",
+      "year": 1014,
+      "description": "Basil II crushed the Bulgarian army and legendarily blinded 15,000 prisoners, ending Bulgarian resistance.",
+      "wikiSlug": "Battle_of_Kleidion",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-great-schism",
+      "label": "Great Schism",
+      "year": 1054,
+      "description": "Mutual excommunication between the papal legate and Patriarch of Constantinople permanently split Christianity into Catholic and Orthodox.",
+      "wikiSlug": "East%E2%80%93West_Schism",
+      "tier": 1,
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-manzikert",
+      "label": "Battle of Manzikert",
+      "year": 1071,
+      "description": "Seljuk Turks defeated and captured Emperor Romanos IV, opening Anatolia to Turkish settlement and permanently weakening the empire.",
+      "wikiSlug": "Battle_of_Manzikert",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-alexios-i",
+      "label": "Alexios I Komnenos",
+      "year": 1081,
+      "endYear": 1118,
+      "description": "Stabilized the empire after decades of crisis, skillfully managing the First Crusade and restoring Byzantine prestige.",
+      "wikiSlug": "Alexios_I_Komnenos",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-anna-komnene",
+      "label": "Anna Komnene",
+      "year": 1083,
+      "endYear": 1153,
+      "description": "Daughter of Alexios I and author of the Alexiad, she is considered one of the first female historians in Western tradition.",
+      "wikiSlug": "Anna_Komnene",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-first-crusade",
+      "label": "First Crusade Passes Through",
+      "year": 1097,
+      "description": "Crusader armies transited Byzantine territory, creating a tense alliance that briefly restored Nicaea and Antioch to the empire.",
+      "wikiSlug": "First_Crusade",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-venetian-trade-privileges",
+      "label": "Venetian Trade Privileges",
+      "year": 1082,
+      "description": "Alexios I granted Venice sweeping tax exemptions in exchange for naval aid, giving Italian merchants dominance in Byzantine commerce.",
+      "wikiSlug": "Chrysobull_of_1082",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-fourth-crusade",
+      "label": "Fourth Crusade Sacks Constantinople",
+      "year": 1204,
+      "description": "Crusaders diverted to Constantinople, sacking the city and establishing the Latin Empire. A catastrophic blow from which Byzantium never fully recovered.",
+      "wikiSlug": "Fourth_Crusade",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-empire",
+      "label": "Latin Empire",
+      "year": 1204,
+      "endYear": 1261,
+      "description": "Crusader state established in Constantinople while Byzantine successor states regrouped in Nicaea, Trebizond, and Epirus.",
+      "wikiSlug": "Latin_Empire",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-recapture-constantinople",
+      "label": "Constantinople Recaptured",
+      "year": 1261,
+      "description": "Michael VIII Palaiologos retook Constantinople from the Latins, restoring the Byzantine Empire but in a greatly diminished state.",
+      "wikiSlug": "Recapture_of_Constantinople_(1261)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-hesychasm",
+      "label": "Hesychast Controversy",
+      "year": 1341,
+      "description": "Theological dispute resolved in favor of Gregory Palamas, establishing hesychast mysticism as official Orthodox doctrine.",
+      "wikiSlug": "Hesychasm",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-gemistos-plethon",
+      "label": "Gemistos Plethon",
+      "year": 1355,
+      "endYear": 1452,
+      "description": "Byzantine philosopher who championed Platonic thought and influenced Italian Renaissance humanism during the Council of Florence.",
+      "wikiSlug": "Gemistus_Pletho",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ottoman-advance",
+      "label": "Battle of Kosovo",
+      "year": 1389,
+      "description": "Ottoman victory over the Serbs eliminated Byzantium's last major Balkan ally, tightening the noose around Constantinople.",
+      "wikiSlug": "Battle_of_Kosovo",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-constantine-xi",
+      "label": "Constantine XI Palaiologos",
+      "year": 1449,
+      "endYear": 1453,
+      "description": "Last Byzantine emperor, he died fighting on the walls during the final Ottoman siege, becoming a legendary figure in Greek culture.",
+      "wikiSlug": "Constantine_XI_Palaiologos",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-fall-constantinople",
+      "label": "Fall of Constantinople",
+      "year": 1453,
+      "description": "Sultan Mehmed II breached the walls with massive cannons, ending the Byzantine Empire after 1,123 years and marking the end of the medieval era.",
+      "wikiSlug": "Fall_of_Constantinople",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-university-constantinople",
+      "label": "University of Constantinople",
+      "year": 425,
+      "description": "Theodosius II founded a higher education institution that became a major center for law, philosophy, and rhetoric.",
+      "wikiSlug": "University_of_Constantinople",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-procopius",
+      "label": "Procopius of Caesarea",
+      "year": 500,
+      "endYear": 570,
+      "description": "Greatest Byzantine historian, his Wars, Buildings, and Secret History are essential sources for Justinian's reign.",
+      "wikiSlug": "Procopius",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-john-damascene",
+      "label": "John of Damascus",
+      "year": 676,
+      "endYear": 749,
+      "description": "Theologian and polymath who wrote the definitive defense of icon veneration and systematized Orthodox theology.",
+      "wikiSlug": "John_of_Damascus",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-theme-system",
+      "label": "Theme System Established",
+      "year": 640,
+      "description": "Military-administrative reorganization divided the empire into themes, creating a citizen-soldier system that strengthened defense.",
+      "wikiSlug": "Theme_(Byzantine_district)",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-constantine-i",
+      "label": "Constantine I the Great",
+      "year": 306,
+      "endYear": 337,
+      "description": "First Roman emperor to convert to Christianity, he founded Constantinople and set the stage for the Byzantine Empire.",
+      "wikiSlug": "Constantine_the_Great",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-hippodrome",
+      "label": "Hippodrome of Constantinople",
+      "year": 330,
+      "description": "The great chariot-racing arena seated up to 100,000 spectators and served as the center of Byzantine public life and political upheaval.",
+      "wikiSlug": "Hippodrome_of_Constantinople",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-council-nicaea",
+      "label": "First Council of Nicaea",
+      "year": 325,
+      "description": "Constantine convened the first ecumenical council, which produced the Nicene Creed and established key doctrines of mainstream Christianity.",
+      "wikiSlug": "First_Council_of_Nicaea",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-narses-italy",
+      "label": "Narses Completes Reconquest of Italy",
+      "year": 553,
+      "description": "The eunuch general Narses defeated the last Ostrogothic resistance at the Battle of Mons Lactarius, completing Justinian's reconquest of Italy.",
+      "wikiSlug": "Narses",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-battle-yarmuk",
+      "label": "Battle of Yarmouk",
+      "year": 636,
+      "description": "Arab forces decisively defeated the Byzantine army at Yarmouk, leading to the permanent loss of Syria, Palestine, and eventually Egypt.",
+      "wikiSlug": "Battle_of_Yarmouk",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-theodore-studite",
+      "label": "Theodore the Studite",
+      "year": 759,
+      "endYear": 826,
+      "description": "Influential monk and theologian who championed icon veneration and reformed monastic life through the Stoudios Monastery's rule.",
+      "wikiSlug": "Theodore_the_Studite",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-bezant-gold-coin",
+      "label": "Byzantine Gold Solidus (Bezant)",
+      "year": 498,
+      "description": "The gold solidus, known in the West as the bezant, served as the international trade currency of the Mediterranean for over 700 years.",
+      "wikiSlug": "Solidus_(coin)",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-byzantine-civil-war-1341",
+      "label": "Byzantine Civil War",
+      "year": 1341,
+      "endYear": 1347,
+      "description": "A devastating civil war between John V Palaiologos and John VI Kantakouzenos that invited Serbian and Ottoman intervention, fatally weakening the empire.",
+      "wikiSlug": "Byzantine_civil_war_of_1341–1347",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-hagia-eirene",
+      "label": "Hagia Eirene Rebuilt",
+      "year": 548,
+      "description": "Justinian rebuilt the Church of Hagia Eirene after the Nika riots. It is the oldest surviving church in Istanbul still in its original form.",
+      "wikiSlug": "Hagia_Irene",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-procopius-secret-history",
+      "label": "Procopius's Secret History",
+      "year": 550,
+      "description": "Procopius's scandalous unpublished memoir savaged Justinian, Theodora, and Belisarius in unsparing detail, offering a counter-narrative to his official panegyrics.",
+      "wikiSlug": "Secret_History_(Procopius)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-photius-bibliotheca",
+      "label": "Photius's Bibliotheca",
+      "year": 858,
+      "description": "Patriarch Photius compiled summaries and critiques of 279 books — many now lost — creating an invaluable window into ancient and Byzantine literature.",
+      "wikiSlug": "Bibliotheca_(Photius)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-leo-mathematician",
+      "label": "Leo the Mathematician's Automata",
+      "year": 840,
+      "description": "The scholar Leo designed mechanical golden lions, singing birds, and a throne that rose to the ceiling for the imperial throne room, dazzling foreign envoys.",
+      "wikiSlug": "Leo_the_Mathematician",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-rus-byzantine-treaty",
+      "label": "Rus'–Byzantine Treaty",
+      "year": 907,
+      "description": "Prince Oleg of Kyiv's naval raid on Constantinople forced a treaty granting Rus' merchants advantageous trading terms in the imperial capital.",
+      "wikiSlug": "Rus%E2%80%93Byzantine_Treaty_(907)",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-de-administrando-imperio",
+      "label": "De Administrando Imperio",
+      "year": 952,
+      "description": "Constantine VII's confidential manual on imperial statecraft compiled ethnographic reports on neighboring peoples and detailed diplomatic strategy — a unique document of Byzantine geopolitics.",
+      "wikiSlug": "De_Administrando_Imperio",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-souda-lexicon",
+      "label": "Souda Lexicon",
+      "year": 980,
+      "description": "Byzantine scholars compiled the Souda, a massive 30,000-entry Greek-language encyclopedia of history, literature, and biography that preserved knowledge of hundreds of otherwise lost ancient works.",
+      "wikiSlug": "Suda",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hosios-loukas",
+      "label": "Hosios Loukas Monastery",
+      "year": 1011,
+      "description": "The catholicon of Hosios Loukas in Boeotia was completed with some of the finest Byzantine mosaics surviving today, an apex of Middle Byzantine monumental art.",
+      "wikiSlug": "Hosios_Loukas",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-alexiad",
+      "label": "The Alexiad",
+      "year": 1148,
+      "description": "Anna Komnene completed her Alexiad, a history of her father Alexios I's reign — the first major historical work known to have been written by a woman.",
+      "wikiSlug": "Alexiad",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    }
+  ],
+  "wikiSlug": "Byzantine_Empire"
+}
