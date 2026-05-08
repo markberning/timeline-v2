@@ -74,8 +74,8 @@ export function ChronologyPage() {
 
       {isDesktop ? (
         <div className="flex-1 min-h-0 flex">
-          {/* LEFT — details + chain grid */}
-          <div className="w-[58%] min-w-0 flex flex-col min-h-0 border-r border-foreground/10">
+          {/* LEFT — selected civ on top, chain list below */}
+          <div className="w-[38%] min-w-[320px] max-w-[460px] flex flex-col min-h-0 border-r border-foreground/10">
             <DetailPane activeCivId={activeCivId} onSelect={setActiveCivId} />
           </div>
           {/* RIGHT — timeline ribbon (tall column) */}
