@@ -738,6 +738,329 @@
       "tier": 3,
       "tags": [],
       "category": "trade"
+    },
+    {
+      "id": "evt-prabhavatigupta-regency",
+      "label": "Prabhavatigupta's Vakataka Regency",
+      "year": 390,
+      "endYear": 410,
+      "description": "Prabhavatigupta, daughter of Chandragupta II, ruled the Vakataka kingdom as regent for her young sons after her husband Rudrasena II died, effectively merging Gupta and Vakataka political authority and creating the conditions for the Ajanta masterworks.",
+      "wikiSlug": "Prabhavatigupta",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vakataka-gupta-alliance",
+      "label": "Vakataka-Gupta Marriage Alliance",
+      "year": 375,
+      "description": "Chandragupta II sealed a strategic marriage alliance by giving his daughter Prabhavatigupta to Vakataka king Rudrasena II, linking the two most powerful dynasties of the subcontinent and extending Gupta influence into the Deccan without conquest.",
+      "wikiSlug": "Vakataka_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-harishena-ajanta",
+      "label": "Harishena Commissions Ajanta Phase II",
+      "year": 460,
+      "description": "Vakataka king Harishena patronized the spectacular second phase of cave excavation at Ajanta, including caves 1, 2, 16, and 17, whose paintings represent the pinnacle of the entire Gupta-Vakataka artistic tradition.",
+      "wikiSlug": "Harishena",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ujjain-second-capital",
+      "label": "Ujjain as Chandragupta II's Western Capital",
+      "year": 409,
+      "description": "After annexing the Western Kshatrapas, Chandragupta II made Ujjain his secondary capital and administrative base for the newly acquired western provinces, placing it among the most important cities in the empire alongside Pataliputra.",
+      "wikiSlug": "Ujjain",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pataliputra-capital",
+      "label": "Pataliputra, the Gupta Capital",
+      "year": 320,
+      "description": "The ancient city of Pataliputra (modern Patna) served as the Gupta imperial capital throughout the dynasty's height, a cosmopolitan urban center described by Faxian as prosperous, orderly, and teeming with merchants and scholars.",
+      "wikiSlug": "Pataliputra",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bhukti-vishaya-provinces",
+      "label": "Bhukti-Vishaya Provincial System",
+      "year": 350,
+      "description": "The Guptas organized their empire into large provinces (bhukti) governed by a royal prince or high official, subdivided into districts (vishaya) under a vishayapati — a layered administrative system that balanced central authority with local governance.",
+      "wikiSlug": "Gupta_Empire#Administration",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kumaramatya-officials",
+      "label": "Kumaramatya Bureaucracy",
+      "year": 350,
+      "description": "The Guptas relied on a corps of officials called kumaramatyas — ministers of the highest rank, often drawn from non-royal families — to staff the imperial administration, representing a partial meritocratic counterweight to hereditary aristocracy.",
+      "wikiSlug": "Gupta_Empire#Administration",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-asanga-yogacara",
+      "label": "Asanga Founds Yogacara School",
+      "year": 375,
+      "description": "Buddhist philosopher Asanga articulated the Yogacara (mind-only) school of Mahayana philosophy, arguing that external reality is a construction of consciousness — one of the most radical epistemological moves in ancient thought.",
+      "wikiSlug": "Asanga",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-vasubandhu-abhidharma",
+      "label": "Vasubandhu's Abhidharmakosha",
+      "year": 400,
+      "description": "Vasubandhu, younger brother of Asanga, composed the Abhidharmakosha — a massive systematic summary of Buddhist metaphysics — and later converted to Mahayana Yogacara, producing foundational texts for Buddhist philosophy across East Asia.",
+      "wikiSlug": "Vasubandhu",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dignaga-pramanasamuccaya",
+      "label": "Dignaga's Pramanasamuccaya",
+      "year": 480,
+      "description": "Buddhist logician Dignaga composed the Pramanasamuccaya (Compendium of Valid Cognition), establishing the foundations of formal epistemology in Indian philosophy and inaugurating a tradition of Buddhist logic that influenced both Hindu and Jain thinkers.",
+      "wikiSlug": "Dignaga#Works",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-devi-mahatmya",
+      "label": "Devi Mahatmya Composed",
+      "year": 450,
+      "description": "The Devi Mahatmya (Glory of the Goddess), embedded in the Markandeya Purana, was composed circa 450 CE — the first Sanskrit text to systematically present the Great Goddess (Devi) as the supreme power of the universe, founding the Shakta tradition.",
+      "wikiSlug": "Devi_Mahatmya",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-vishnu-purana",
+      "label": "Vishnu Purana Composition",
+      "year": 400,
+      "description": "The Vishnu Purana took its classical form during the Gupta period, presenting Vishnu as the supreme deity and narrating the mythology of his avatars in the form that shaped Vaishnava theology for centuries.",
+      "wikiSlug": "Vishnu_Purana",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-bhartrihari-vakyapadiya",
+      "label": "Bhartrihari's Vakyapadiya",
+      "year": 450,
+      "description": "Philosopher-grammarian Bhartrihari composed the Vakyapadiya (On the Sentence and the Word), arguing that language (shabda-brahman) is the ultimate reality — a linguistic philosophy that influenced both Indian grammar theory and Hindu metaphysics.",
+      "wikiSlug": "Bhart%E1%B9%9Bhari",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-aryabhata-pi",
+      "label": "Aryabhata Calculates Pi",
+      "year": 499,
+      "description": "In the Aryabhatiya, Aryabhata calculated π as approximately 3.1416 — accurate to four decimal places — and explicitly noted it was an approximation (āsanna), showing remarkable awareness of mathematical precision.",
+      "wikiSlug": "Aryabhatiya#Pi",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-aryabhata-earth-rotates",
+      "label": "Aryabhata: Earth Rotates on Its Axis",
+      "year": 499,
+      "description": "Aryabhata proposed that the apparent daily motion of stars is caused by Earth's own axial rotation — a heliocentric-adjacent insight that was centuries ahead of the European scientific consensus and contested by his own successors.",
+      "wikiSlug": "Aryabhata#Motions_of_the_solar_system",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-aryabhata-eclipse-theory",
+      "label": "Aryabhata's Correct Eclipse Theory",
+      "year": 499,
+      "description": "Aryabhata gave the correct scientific explanation for lunar and solar eclipses — that they are caused by Earth's and Moon's shadows, not by a demon swallowing the sun — in direct contradiction of mythological accounts.",
+      "wikiSlug": "Aryabhatiya#Eclipses",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-charaka-samhita-gupta",
+      "label": "Charaka Samhita Redaction",
+      "year": 400,
+      "description": "The Charaka Samhita, the foundational text of Ayurvedic internal medicine, was redacted and systematized during the Gupta era, becoming the authoritative medical canon taught at monasteries and centers of learning including Nalanda.",
+      "wikiSlug": "Charaka_Samhita",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-parvati-temple-nachna",
+      "label": "Parvati Temple at Nachna",
+      "year": 465,
+      "description": "The Parvati Temple at Nachna-Kuthara, built circa 465 CE, is one of the most complete surviving Gupta-period stone temples, combining a flat-roofed sanctum with sculptural programs that prefigure the fully developed shikhara style.",
+      "wikiSlug": "Nachna",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-vishnu-eran-boar",
+      "label": "Vishnu Varaha Sculpture at Eran",
+      "year": 510,
+      "description": "A colossal sandstone Varaha (boar-incarnation of Vishnu) sculpture at Eran, commissioned by Bhanugupta, stands among the finest examples of late Gupta monumental sculpture — the 13-foot figure carries the goddess Earth on its tusks.",
+      "wikiSlug": "Eran",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-western-kshatrapas-end",
+      "label": "Conquest of Western Kshatrapas",
+      "year": 409,
+      "description": "Chandragupta II destroyed the last Western Kshatrapa (Saka) ruler Rudrasimha III around 409 CE, ending over four centuries of Saka rule in Gujarat and Malwa and giving the Guptas control of the lucrative western ports on the Arabian Sea.",
+      "wikiSlug": "Western_Satraps",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-skandagupta-pushyamitras",
+      "label": "Skandagupta vs. Pushyamitras",
+      "year": 456,
+      "description": "Before facing the Huns, Skandagupta suppressed a revolt by the Pushyamitras — a tribal confederation in central India — demonstrating the internal pressures the empire was managing even at the height of its late power.",
+      "wikiSlug": "Skandagupta#Wars_with_the_Hunas",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-bhanugupta-goparaja",
+      "label": "Bhanugupta and the Goparaja Inscription",
+      "year": 510,
+      "description": "The Eran stone inscription of 510 CE records that the Gupta king Bhanugupta fought a great battle alongside his chieftain Goparaja, who died in combat while his devoted wife committed sati — one of the earliest epigraphic references to the practice.",
+      "wikiSlug": "Bhanugupta",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-narasimhagupta-baladitya",
+      "label": "Narasimhagupta Baladitya vs. Huns",
+      "year": 520,
+      "description": "Gupta king Narasimhagupta Baladitya allied with Yashodharman to resist Mihirakula's Hunnic forces; Chinese pilgrim Xuanzang later recorded that Baladitya captured Mihirakula but released him out of mercy, symbolizing the dynasty's fading but still significant power.",
+      "wikiSlug": "Narasimhagupta",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-successor-states",
+      "label": "Rise of Successor Kingdoms",
+      "year": 540,
+      "description": "As Gupta central authority dissolved, regional successor states emerged: the Maukharis in the Gangetic plain, the Later Guptas of Magadha (a separate dynasty), and the Maitrakas of Vallabhi in Gujarat — each claiming Gupta legitimacy while forging independent kingdoms.",
+      "wikiSlug": "Maukhari_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-sondani",
+      "label": "Battle of Sondani",
+      "year": 528,
+      "description": "At the Battle of Sondani (528 CE), regional ruler Yashodharman of Malwa decisively defeated Mihirakula's Hunnic army, ending the most brutal phase of Hunnic domination; Yashodharman's victory pillar at Mandasor boasts he subdued even the Guptas.",
+      "wikiSlug": "Yashodharman",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gupta-silver-coinage",
+      "label": "Gupta Silver Rupakas",
+      "year": 410,
+      "description": "After defeating the Western Kshatrapas, Chandragupta II minted silver coins (rupakas) in the Saka tradition for circulation in western India, adapting regional monetary customs rather than imposing a single imperial currency — a pragmatic approach to economic integration.",
+      "wikiSlug": "Coinage_of_the_Gupta_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-puga-merchant-guild",
+      "label": "Puga Merchant Guilds",
+      "year": 360,
+      "description": "Merchant associations called pugas (alongside the craft-based shreni) organized long-distance trade, issued promissory notes, and funded the construction of temples and rest houses — making them pillars of both the Gupta economy and its religious landscape.",
+      "wikiSlug": "Shreni",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-kacha-disputed-ruler",
+      "label": "Kacha, the Disputed Gupta Ruler",
+      "year": 335,
+      "description": "Coins bearing the name 'Kacha' suggest a brief, disputed reign between Samudragupta and his predecessor, possibly a brother who was deposed — but the evidence is thin enough that historians continue to debate whether Kacha ever ruled at all.",
+      "wikiSlug": "Kacha_(king)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-samudragupta-allahabad-21-kings",
+      "label": "21 Kings Defeated: Allahabad Pillar",
+      "year": 350,
+      "description": "The Allahabad Pillar inscription lists 21 northern kings uprooted and re-instated as vassals by Samudragupta — a deliberate policy of humiliation-then-absorption that extended Gupta suzerainty without the cost of direct annexation across a vast frontier.",
+      "wikiSlug": "Allahabad_Pillar",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pancharatra-tradition",
+      "label": "Pancharatra Vaishnava Tradition Codified",
+      "year": 380,
+      "description": "The Pancharatra — a devotional Vaishnava theological system prescribing temple rituals, icon worship, and the four successive states of divine manifestation — was codified during the Gupta period under royal Vaishnava patronage, becoming the liturgical backbone of temple Hinduism.",
+      "wikiSlug": "Pancharatra",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-gupta-natyashastra-study",
+      "label": "Classical Music and Drama Theory Flourishes",
+      "year": 400,
+      "description": "Gupta-era scholars systematically studied and elaborated the Natyashastra — the ancient treatise on performance, music, and aesthetics — producing a sophisticated theory of rasa (emotional essence) that underpins all classical Indian arts to the present day.",
+      "wikiSlug": "Natyashastra",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-vainyagupta",
+      "label": "Vainyagupta, Late Gupta Ruler",
+      "year": 507,
+      "description": "Vainyagupta is attested as a Gupta ruler in Bengal circa 507 CE from a single copper plate grant — a fragmentary record that illustrates how, in the dynasty's last decades, different branches of the family were issuing grants in the same regions simultaneously, signaling political fragmentation.",
+      "wikiSlug": "Vainyagupta",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
     }
   ]
 }
