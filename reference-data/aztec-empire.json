@@ -1151,6 +1151,79 @@
       "tier": 3,
       "tags": [],
       "category": "writing"
+    },
+    {
+      "id": "evt-albarradon-great-dike",
+      "label": "Albarradón of Nezahualcoyotl",
+      "year": 1449,
+      "description": "After the catastrophic flood of 1449, Nezahualcoyotl designed and supervised construction of a 10-mile stone dike across Lake Texcoco — the largest hydraulic engineering project in pre-Columbian Americas. The dike separated the brackish eastern lake from the freshwater chinampa zone to the west, protecting Tenochtitlan from further flooding and enabling the chinampa agriculture that fed the empire's capital.",
+      "wikiSlug": "Albarrad%C3%B3n_de_Nezahualc%C3%B3yotl",
+      "tier": 2,
+      "tags": ["science"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ixtlilxochitl-i",
+      "label": "Ixtlilxochitl I of Texcoco",
+      "year": 1409,
+      "endYear": 1418,
+      "description": "Ruler of Texcoco and father of Nezahualcoyotl, Ixtlilxochitl I was murdered by the Tepanec tyrant Tezozomoc when Nezahualcoyotl was a teenager. His assassination left his son as a fugitive, hiding in the mountains while plotting his return — the formative trauma that shaped the philosopher-king of Texcoco.",
+      "wikiSlug": "Ixtlilxochitl_I",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-moquihuix",
+      "label": "Moquihuix of Tlatelolco",
+      "year": 1467,
+      "endYear": 1473,
+      "description": "Last independent tlatoani of Tlatelolco, Moquihuix attempted to build an anti-Tenochtitlan coalition among rival city-states. Axayacatl crushed the revolt in 1473; Moquihuix died in the assault on Tlatelolco's Templo Mayor, ending the sister city's political independence and uniting the two island capitals under Tenochtitlan's rule.",
+      "wikiSlug": "Moquihuix",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nanahuatzin",
+      "label": "Nanahuatzin and the Fifth Sun",
+      "year": 1400,
+      "description": "The Aztec creation myth placed at Teotihuacan: a humble, scabrous god named Nanahuatzin threw himself without hesitation into the sacrificial fire while the beautiful god Tecuciztecatl lost his nerve. Nanahuatzin was reborn as the sun, and the myth became the theological foundation for human sacrifice — the gods had sacrificed themselves to set the sun in motion, and humans owed the same debt to keep it moving.",
+      "wikiSlug": "Nanahuatzin",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-macuilxochitzin",
+      "label": "Macuilxochitzin",
+      "year": 1435,
+      "endYear": 1499,
+      "description": "Daughter of the cihuacoatl Tlacaelel and one of the most celebrated Nahuatl poets of the imperial period. Macuilxochitzin composed verse that was performed at elite gatherings and preserved in post-conquest manuscripts; she is among the few pre-Columbian women whose literary work is identified by name. Her surviving poems include accounts of Aztec military campaigns.",
+      "wikiSlug": "Macuilxochitzin",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-battle-otumba",
+      "label": "Battle of Otumba",
+      "year": 1520,
+      "description": "In July 1520, two weeks after La Noche Triste, Cortés's depleted force of about 400 Spaniards and a few thousand Tlaxcalan auxiliaries met an Aztec army of roughly 40,000 on the plain of Otumba. Cortés's cavalry broke the Aztec center by killing the Aztec commander and capturing his battle standard — in Mesoamerican military convention, loss of the standard signaled defeat regardless of the actual numbers. The Aztec army withdrew, allowing the Spanish to reach Tlaxcala alive and regroup for the final siege.",
+      "wikiSlug": "Battle_of_Otumba",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cantares-mexicanos",
+      "label": "Cantares Mexicanos",
+      "year": 1560,
+      "description": "The Cantares Mexicanos is the largest surviving collection of pre-conquest and early colonial Nahuatl poetry, compiled in the mid-16th century. It preserves flower-songs, warrior hymns, and the great laments for the fall of Tenochtitlan — including the famous lines 'Broken spears lie in the roads / We have torn our hair in our grief.' Along with the Romances de los Señores de la Nueva España, it is the primary source for Aztec oral literary tradition.",
+      "wikiSlug": "Cantares_Mexicanos",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
     }
   ],
   "wikiSlug": "Aztec_Empire"
