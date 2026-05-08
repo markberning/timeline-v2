@@ -1,0 +1,713 @@
+{
+  "id": "mongol-empire",
+  "label": "Mongol Empire",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "imageWikiSlug": "Genghis_Khan",
+  "pitch": "In a single generation, a nomadic herder named Temujin united the warring tribes of the Mongolian steppe, and at a great assembly in 1206 was Genghis Khan proclaimed universal ruler. Within 25 years, Mongol horsemen had conquered more territory than Rome managed in four centuries — from the Siege of Baghdad that ended the Abbasid Caliphate to Kublai Khan founding the Yuan dynasty in China. The empire wasn't just destruction; it was the Reopening of the Silk Road on a scale the world had never seen.\n\n🔑 Key Facts:\n• The Great Yasa established a legal code governing military and civil life, while the Decree of religious tolerance exempted clergy of all faiths from taxation\n• The Siege of Baghdad in 1258 destroyed the Islamic world's intellectual capital, killing the last Abbasid caliph\n• Marco Polo arrives in China and spent 17 years at Kublai Khan's court, later dictating the travelogue that inspired Columbus\n• The Secret History of the Mongols is the oldest surviving Mongolian literary work and the primary source for Genghis Khan's life\n\n🤔 Why It Matters: Mongol conquests forged connections — the Yam relay postal system, Chao paper currency, and trade routes — that linked East and West, while Black Death spreads via Mongol routes carried plague that reshaped European demographics forever.\n\n🎲 Wild Card: The Second invasion of Japan failed spectacularly when Kublai Khan's massive fleet was destroyed by a typhoon the Japanese called kamikaze (\"divine wind\") — a term that would take on very different meaning 700 years later.",
+  "spans": [
+    {
+      "id": "span-mongol-empire-united-empire",
+      "label": "United Mongol Empire",
+      "startYear": 1206,
+      "endYear": 1260,
+      "wikiSlug": "Mongol_Empire",
+      "description": "Under Genghis Khan and his immediate successors, a single Mongol state conquered more territory than Rome managed in four centuries. The Great Yasa legal code, religious tolerance, and the Yam postal system unified the vast empire."
+    },
+    {
+      "id": "span-mongol-empire-golden-horde",
+      "label": "Golden Horde",
+      "startYear": 1227,
+      "endYear": 1395,
+      "wikiSlug": "Golden_Horde",
+      "description": "The western Mongol successor state ruled the Eurasian steppe from Russia to Central Asia under Batu Khan's descendants. The Horde collected tribute from Russian principalities for over two centuries and converted to Islam under Berke Khan."
+    },
+    {
+      "id": "span-mongol-empire-chagatai-khanate",
+      "label": "Chagatai Khanate",
+      "startYear": 1227,
+      "endYear": 1347,
+      "wikiSlug": "Chagatai_Khanate",
+      "description": "The Central Asian successor state controlled the Silk Road heartland from Transoxiana to the Tarim Basin. It gradually split into eastern and western halves, with the western portion eventually giving rise to Timur's empire."
+    },
+    {
+      "id": "span-mongol-empire-ilkhanate",
+      "label": "Ilkhanate",
+      "startYear": 1256,
+      "endYear": 1335,
+      "wikiSlug": "Ilkhanate",
+      "description": "Founded by Hulegu Khan after the sack of Baghdad, the Ilkhanate ruled Persia, Iraq, and parts of Central Asia. Under Ghazan Khan it converted to Islam, and the court patronized groundbreaking work in astronomy and historiography."
+    },
+    {
+      "id": "span-mongol-empire-yuan-dynasty",
+      "label": "Yuan Dynasty",
+      "startYear": 1271,
+      "endYear": 1368,
+      "wikiSlug": "Yuan_dynasty",
+      "description": "Kublai Khan proclaimed a Chinese-style dynasty ruling all of China from the new capital at Khanbaliq (Beijing). The Yuan introduced paper currency, patronized drama and astronomy, and hosted Marco Polo before falling to the Ming rebellion."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-temujin-birth",
+      "label": "Birth of Temüjin",
+      "year": 1162,
+      "description": "Temüjin, the future Genghis Khan, was born near the Onon River in the Khentii Mountains of Mongolia.",
+      "wikiSlug": "Genghis_Khan",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-uighur-script",
+      "label": "Adoption of Uyghur script",
+      "year": 1204,
+      "description": "After defeating the Naimans, the Mongols adopted the Uyghur script as their official writing system.",
+      "wikiSlug": "Mongolian_script",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-genghis-khan",
+      "label": "Genghis Khan proclaimed",
+      "year": 1198.5,
+      "endYear": 1227,
+      "description": "Temüjin united the Mongol tribes and was proclaimed Genghis Khan (universal ruler) at a kurultai on the Onon River.",
+      "wikiSlug": "Genghis_Khan",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-great-yasa",
+      "label": "The Great Yasa",
+      "year": 1203.5,
+      "description": "Genghis Khan promulgated the Great Yasa, a comprehensive legal code governing Mongol military, civil, and commercial life.",
+      "wikiSlug": "Yassa",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-religious-tolerance",
+      "label": "Decree of religious tolerance",
+      "year": 1208.5,
+      "description": "Genghis Khan exempted clergy of all faiths from taxation and military service, establishing a policy of religious tolerance throughout the empire.",
+      "wikiSlug": "Religion_in_the_Mongol_Empire",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-silk-road-trade",
+      "label": "Reopening of the Silk Road",
+      "year": 1207,
+      "description": "Mongol unification of the steppe secured caravan routes, revitalizing long-distance trade across Central Asia.",
+      "wikiSlug": "Silk_Road",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-conquest-jin",
+      "label": "Invasion of Jin dynasty",
+      "year": 1211,
+      "description": "Genghis Khan invaded the Jurchen Jin dynasty of northern China, beginning a campaign that would last over two decades.",
+      "wikiSlug": "Mongol_conquest_of_the_Jin_dynasty",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-subutai",
+      "label": "Subutai's campaigns",
+      "year": 1212,
+      "endYear": 1248,
+      "description": "Subutai, history's most successful general, directed over 20 campaigns conquering 32 nations across a wider area than any other commander.",
+      "wikiSlug": "Subutai",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-khwarezmian-campaign",
+      "label": "Invasion of Khwarezmia",
+      "year": 1219,
+      "description": "Genghis Khan invaded the Khwarezmian Empire after the governor of Otrar massacred a Mongol trade caravan.",
+      "wikiSlug": "Mongol_conquest_of_the_Khwarazmian_Empire",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-karakorum-founded",
+      "label": "Karakorum established",
+      "year": 1220,
+      "description": "Genghis Khan established Karakorum in central Mongolia as the administrative capital of the expanding Mongol Empire.",
+      "wikiSlug": "Karakorum",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-kalka",
+      "label": "Battle of the Kalka River",
+      "year": 1223,
+      "description": "Jebe and Subutai defeated a combined Rus' and Cuman army at the Kalka River, the Mongols' first encounter with European forces.",
+      "wikiSlug": "Battle_of_the_Kalka_River",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-genghis-death",
+      "label": "Death of Genghis Khan",
+      "year": 1227,
+      "description": "Genghis Khan died during the final campaign against Western Xia. His empire was divided among his four sons.",
+      "wikiSlug": "Death_of_Genghis_Khan",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-ogedei-khan",
+      "label": "Ögedei Khan",
+      "year": 1229,
+      "endYear": 1241,
+      "description": "Ögedei, Genghis Khan's third son, was elected Great Khan at a kurultai and oversaw massive imperial expansion.",
+      "wikiSlug": "Ögedei_Khan",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-fall-jin",
+      "label": "Fall of the Jin dynasty",
+      "year": 1234,
+      "description": "The Mongols and their Song allies captured Caizhou, ending the Jurchen Jin dynasty and securing all of northern China.",
+      "wikiSlug": "Mongol_conquest_of_the_Jin_dynasty",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-yam-postal",
+      "label": "Yam relay postal system",
+      "year": 1234,
+      "description": "Ögedei formalized the Yam, a vast relay postal system with stations every 25-30 miles across the empire.",
+      "wikiSlug": "Yam_(route)",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-invasion-europe",
+      "label": "Mongol invasion of Europe",
+      "year": 1236,
+      "endYear": 1242,
+      "description": "Batu Khan and Subutai led the western campaign, devastating Rus' principalities, Poland, and Hungary.",
+      "wikiSlug": "Mongol_invasion_of_Europe",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-secret-history",
+      "label": "The Secret History of the Mongols",
+      "year": 1240,
+      "description": "The Secret History of the Mongols was composed, the oldest surviving Mongolian literary work and primary source for Genghis Khan's life.",
+      "wikiSlug": "The_Secret_History_of_the_Mongols",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-gunpowder-west",
+      "label": "Gunpowder spreads westward",
+      "year": 1241,
+      "description": "Mongol campaigns introduced Chinese gunpowder weapons to the Middle East and Europe, transforming warfare across Eurasia.",
+      "wikiSlug": "History_of_gunpowder",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-mongke-khan",
+      "label": "Möngke Khan",
+      "year": 1251,
+      "endYear": 1259,
+      "description": "Möngke became Great Khan after a contested succession, restoring central authority and launching campaigns against Song China and the Middle East.",
+      "wikiSlug": "Möngke_Khan",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-william-rubruck",
+      "label": "William of Rubruck's journey",
+      "year": 1253,
+      "description": "Franciscan friar William of Rubruck traveled to Karakorum as an envoy of Louis IX, leaving one of the best European accounts of the Mongol court.",
+      "wikiSlug": "William_of_Rubruck",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-hulegu-khan",
+      "label": "Hülegü Khan founds Ilkhanate",
+      "year": 1256,
+      "endYear": 1265,
+      "description": "Hülegü Khan established the Ilkhanate, ruling Persia, Iraq, and parts of Central Asia as a Mongol successor state.",
+      "wikiSlug": "Hulagu_Khan",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-fall-baghdad",
+      "label": "Siege of Baghdad",
+      "year": 1258,
+      "description": "Hülegü Khan sacked Baghdad, killing Caliph al-Musta'sim and ending the 500-year Abbasid Caliphate.",
+      "wikiSlug": "Siege_of_Baghdad_(1258)",
+      "tier": 1,
+      "category": "wars",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-observatory-maragheh",
+      "label": "Maragheh Observatory",
+      "year": 1259,
+      "description": "Hülegü Khan founded the Maragheh Observatory in Persia, where Nasir al-Din al-Tusi led groundbreaking astronomical research.",
+      "wikiSlug": "Maragheh_observatory",
+      "tier": 2,
+      "category": "science",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-ain-jalut",
+      "label": "Battle of Ain Jalut",
+      "year": 1250.0,
+      "description": "The Egyptian Mamluks defeated a Mongol army at Ain Jalut in Palestine, marking the first major Mongol defeat and halting their westward advance.",
+      "wikiSlug": "Battle_of_Ain_Jalut",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-kublai-khan",
+      "label": "Kublai Khan",
+      "year": 1255.0,
+      "endYear": 1294,
+      "description": "Kublai Khan became Great Khan and later founded the Yuan dynasty, ruling the largest contiguous land empire in history.",
+      "wikiSlug": "Kublai_Khan",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-paper-money",
+      "label": "Chao paper currency",
+      "year": 1260,
+      "description": "Kublai Khan issued the Chao, a government-backed paper currency that became the sole legal tender throughout the Yuan empire.",
+      "wikiSlug": "Chao_(currency)",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-toluid-civil-war",
+      "label": "Toluid Civil War",
+      "year": 1260,
+      "endYear": 1264,
+      "description": "Kublai Khan and his brother Ariq Böke fought a civil war over the succession, permanently fracturing the united empire.",
+      "wikiSlug": "Toluid_Civil_War",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-khanbaliq",
+      "label": "Khanbaliq (Dadu) built",
+      "year": 1267,
+      "description": "Kublai Khan began construction of Khanbaliq (modern Beijing) as the new capital of his empire, designed in a grand Chinese-Mongol style.",
+      "wikiSlug": "Khanbaliq",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-phags-pa-script",
+      "label": "'Phags-pa script created",
+      "year": 1269,
+      "description": "Tibetan lama Drogön Chögyal Phagpa created the 'Phags-pa script at Kublai Khan's request as a unified writing system for the empire.",
+      "wikiSlug": "%CA%BCPhags-pa_script",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-tibetan-buddhism",
+      "label": "Tibetan Buddhism adopted by Yuan",
+      "year": 1270,
+      "description": "Kublai Khan declared Tibetan Buddhism the state religion of the Yuan dynasty, with Phagpa as Imperial Preceptor.",
+      "wikiSlug": "Buddhism_in_Mongolia",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-yuan-founded",
+      "label": "Yuan dynasty proclaimed",
+      "year": 1271,
+      "description": "Kublai Khan formally established the Yuan dynasty, adopting a Chinese dynastic name and blending Mongol and Chinese governance.",
+      "wikiSlug": "Yuan_dynasty",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-marco-polo",
+      "label": "Marco Polo arrives in China",
+      "year": 1275,
+      "description": "Venetian merchant Marco Polo arrived at Kublai Khan's court and spent 17 years in the empire, later dictating his famous travelogue.",
+      "wikiSlug": "Marco_Polo",
+      "tier": 2,
+      "category": "people",
+      "tags": [
+        "trade"
+      ]
+    },
+    {
+      "id": "evt-fall-song",
+      "label": "Fall of the Song dynasty",
+      "year": 1279,
+      "description": "The naval Battle of Yamen destroyed the last Song loyalists, completing the Mongol conquest of all China.",
+      "wikiSlug": "Battle_of_Yamen",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-guo-shoujing",
+      "label": "Guo Shoujing's Shoushi calendar",
+      "year": 1281,
+      "description": "Yuan astronomer Guo Shoujing calculated the length of the year to within 26 seconds of the modern value, producing the Shoushi calendar.",
+      "wikiSlug": "Guo_Shoujing",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-japan-invasion",
+      "label": "Second invasion of Japan",
+      "year": 1281,
+      "description": "Kublai Khan's massive fleet was destroyed by a typhoon (kamikaze) while attempting to invade Japan, ending Mongol ambitions there.",
+      "wikiSlug": "Mongol_invasions_of_Japan",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ilkhan-islam",
+      "label": "Ghazan converts to Islam",
+      "year": 1295,
+      "description": "Ilkhan Ghazan converted to Islam, making it the official religion of the Ilkhanate and accelerating Persian-Mongol cultural fusion.",
+      "wikiSlug": "Ghazan",
+      "tier": 2,
+      "category": "religion",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-sultaniyya",
+      "label": "Sultaniyya built",
+      "year": 1302,
+      "description": "Ilkhan Öljaitü built the city of Sultaniyya in Persia, featuring the massive Mausoleum of Öljaitü with its pioneering double-shell dome.",
+      "wikiSlug": "Soltaniyeh",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-rashid-al-din",
+      "label": "Rashid al-Din's Jami' al-Tawarikh",
+      "year": 1307,
+      "description": "Ilkhanate vizier Rashid al-Din completed the Jami' al-Tawarikh (Compendium of Chronicles), the first true world history.",
+      "wikiSlug": "Jami%27_al-tawarikh",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-black-death",
+      "label": "Black Death spreads via Mongol routes",
+      "year": 1346,
+      "description": "The Black Death traveled along Mongol trade networks from Central Asia to Crimea, then to Europe, killing a third of the continent's population.",
+      "wikiSlug": "Black_Death",
+      "tier": 2,
+      "category": "science"
+    },
+    {
+      "id": "evt-yuan-falls",
+      "label": "Fall of the Yuan dynasty",
+      "year": 1368,
+      "description": "The Red Turban Rebellion drove the Mongols from China as Zhu Yuanzhang founded the Ming dynasty, ending Mongol rule in China.",
+      "wikiSlug": "Fall_of_the_Yuan_dynasty",
+      "tier": 1,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-timur",
+      "label": "Timur rises to power",
+      "year": 1370,
+      "description": "Timur, claiming descent from Genghis Khan, established the Timurid Empire from Samarkand, conquering much of Central Asia and Persia.",
+      "wikiSlug": "Timur",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-jebe",
+      "label": "Jebe — Mongol General",
+      "year": 1213.5,
+      "endYear": 1225,
+      "description": "One of Genghis Khan's most trusted generals who conquered the Kara-Khitai and co-led the legendary reconnaissance expedition around the Caspian Sea.",
+      "wikiSlug": "Jebe",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-destruction-khwarezmia",
+      "label": "Destruction of Samarkand",
+      "year": 1220,
+      "description": "Genghis Khan sacked Samarkand, one of Central Asia's greatest cities, massacring defenders and deporting craftsmen to Mongolia.",
+      "wikiSlug": "Mongol_conquest_of_the_Khwarazmian_Empire#Samarkand",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-mohi",
+      "label": "Battle of Mohi",
+      "year": 1241,
+      "description": "Subutai and Batu Khan destroyed the Hungarian army at Mohi, leaving Central Europe defenseless. Only Ogedei's death halted the advance.",
+      "wikiSlug": "Battle_of_Mohi",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-legnica",
+      "label": "Battle of Legnica",
+      "year": 1241,
+      "description": "A Mongol diversionary force defeated a combined Polish and Teutonic Knights army in Silesia, demonstrating the scope of the European invasion.",
+      "wikiSlug": "Battle_of_Legnica",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-batu-khan",
+      "label": "Batu Khan",
+      "year": 1227,
+      "endYear": 1255,
+      "description": "Grandson of Genghis Khan who led the devastating invasion of Europe and established the Golden Horde, ruling the western Mongol domains.",
+      "wikiSlug": "Batu_Khan",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-sack-kiev",
+      "label": "Sack of Kyiv",
+      "year": 1240,
+      "description": "Batu Khan's forces destroyed Kyiv, one of the greatest cities of medieval Europe, effectively ending Kievan Rus' as a political entity.",
+      "wikiSlug": "Siege_of_Kyiv_(1240)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-berke-khan-islam",
+      "label": "Berke Khan converts to Islam",
+      "year": 1270.0,
+      "description": "Golden Horde ruler Berke became the first Mongol khan to convert to Islam, allying with the Mamluks against his cousin Hulegu's Ilkhanate.",
+      "wikiSlug": "Berke",
+      "tier": 3,
+      "category": "religion",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-first-japan-invasion",
+      "label": "First invasion of Japan",
+      "year": 1274,
+      "description": "Kublai Khan's first attempt to conquer Japan was repelled by Japanese defenders and a storm, foreshadowing the larger failed invasion of 1281.",
+      "wikiSlug": "Mongol_invasions_of_Japan#First_invasion_(1274)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-john-of-montecorvino",
+      "label": "John of Montecorvino in Beijing",
+      "year": 1294,
+      "description": "Franciscan missionary who became the first Catholic Archbishop of Beijing, establishing a Christian community at the Yuan court.",
+      "wikiSlug": "John_of_Montecorvino",
+      "tier": 3,
+      "category": "religion",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-yelü-chucai",
+      "label": "Yelü Chucai advises Genghis",
+      "year": 1215,
+      "description": "Khitan scholar Yelü Chucai entered Mongol service after the fall of Beijing and persuaded Genghis and Ögedei to tax rather than slaughter conquered populations, saving millions of lives.",
+      "wikiSlug": "Yelü_Chucai",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-sorghaghtani-beki",
+      "label": "Sorghaghtani Beki",
+      "year": 1230,
+      "endYear": 1252,
+      "description": "Daughter-in-law of Genghis Khan, Sorghaghtani Beki managed the family appanages and positioned her four sons — Möngke, Kublai, Hülegü, and Ariq Böke — to rule the empire's successor states, making her arguably the most powerful woman in Mongol history.",
+      "wikiSlug": "Sorghaghtani_Beki",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-nestorian-karakorum",
+      "label": "Nestorian Christianity at Karakorum",
+      "year": 1245,
+      "description": "Nestorian Christian churches operated openly in Karakorum alongside Buddhist temples and a mosque, reflecting the empire's official religious pluralism and the influence of Nestorian Kerait and Ongut tribes within the Mongol elite.",
+      "wikiSlug": "Nestorianism_in_the_Mongol_Empire",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-pax-mongolica-paiza",
+      "label": "Pax Mongolica and the paiza",
+      "year": 1240,
+      "description": "The Mongol Empire issued paiza tablets — metal passes guaranteeing safe passage, lodging, and horses — enabling merchants, diplomats, and missionaries to cross Eurasia with unprecedented security during the so-called Pax Mongolica.",
+      "wikiSlug": "Pax_Mongolica",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-silver-tree-karakorum",
+      "label": "Silver Tree Fountain of Karakorum",
+      "year": 1253,
+      "description": "French silversmith Guillaume Boucher completed the Silver Tree for Ögedei Khan's palace at Karakorum — a monumental fountain with four spouts dispensing wine, mead, rice wine, and grape wine, powered by a bellows-driven angel at the crown.",
+      "wikiSlug": "Silver_Tree_of_Karakorum",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-juvaini-history",
+      "label": "Juvayni's History of the World Conqueror",
+      "year": 1260,
+      "description": "Persian administrator Ata-Malik Juvayni completed his Tarikh-i Jahan-gusha (History of the World Conqueror), a firsthand account of Mongol rule written from within the Ilkhanate administration and an indispensable primary source.",
+      "wikiSlug": "Ata-Malik_Juvayni",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-berke-hulagu-war",
+      "label": "Berke–Hülegü War",
+      "year": 1262,
+      "endYear": 1263,
+      "description": "Golden Horde Khan Berke attacked his cousin Hülegü over the sack of Baghdad and unpaid tribute, the first open war between Mongol successor states and a sign of the empire's permanent fragmentation.",
+      "wikiSlug": "Berke–Hulagu_war",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-genoese-caffa",
+      "label": "Genoese Colony at Caffa",
+      "year": 1267,
+      "description": "The Golden Horde granted Genoa rights to the Black Sea port of Caffa (modern Feodosia), establishing a trading hub that funneled Chinese silks and Central Asian goods to European markets and exemplified the commercial dimension of the Pax Mongolica.",
+      "wikiSlug": "Caffa",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-tabriz-ilkhanate-capital",
+      "label": "Tabriz as Ilkhanate Capital",
+      "year": 1265,
+      "description": "Hülegü Khan made Tabriz the administrative capital of the Ilkhanate; under his successors it became one of the wealthiest cities in the world, a center of manuscript illumination and the point where Italian merchants first encountered Persian luxury goods.",
+      "wikiSlug": "Tabriz",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-chabi",
+      "label": "Chabi — Kublai's Chief Consort",
+      "year": 1270,
+      "endYear": 1281,
+      "description": "Chabi, Kublai Khan's favorite wife, was a skilled political operator who advocated leniency toward conquered Chinese subjects, fostered Tibetan Buddhist influence at court, and personally designed new quiver and helmet styles for the Yuan army.",
+      "wikiSlug": "Chabi",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-grand-canal-extension",
+      "label": "Yuan Grand Canal extension",
+      "year": 1289,
+      "description": "Kublai Khan's engineers extended and re-routed the Grand Canal to run directly from Hangzhou to Dadu (Beijing), creating a 1,100-mile inland waterway that supplied the new capital with grain from the south.",
+      "wikiSlug": "Grand_Canal_(China)",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-invasion-java",
+      "label": "Mongol invasion of Java",
+      "year": 1293,
+      "description": "Kublai Khan sent a fleet to punish the Javanese kingdom of Singhasari; the expedition was manipulated by local prince Raden Wijaya into defeating a rival ruler, after which Wijaya turned on the Mongols and drove them from the island — a humiliating final failure of Yuan overseas expansion.",
+      "wikiSlug": "Mongol_invasion_of_Java",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-wadi-al-khaznadar",
+      "label": "Battle of Wadi al-Khaznadar",
+      "year": 1299,
+      "description": "Ilkhan Ghazan's forces defeated the Mamluks at Wadi al-Khaznadar (the third Battle of Homs), briefly occupying Damascus and showing that Mongol military power in the Middle East was not yet spent after Ain Jalut.",
+      "wikiSlug": "Battle_of_Wadi_al-Khaznadar",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-ibn-battuta-golden-horde",
+      "label": "Ibn Battuta in the Golden Horde",
+      "year": 1332,
+      "description": "Moroccan traveler Ibn Battuta visited the Golden Horde court of Özbeg Khan and crossed the Chagatai Khanate on his way to India, leaving the most detailed eyewitness account of Mongol successor-state society in the late Pax Mongolica era.",
+      "wikiSlug": "Ibn_Battuta",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    }
+  ],
+  "wikiSlug": "Mongol_Empire",
+  "countryIds": [
+    "156",
+    "496",
+    "364",
+    "368",
+    "398",
+    "762"
+  ]
+}
