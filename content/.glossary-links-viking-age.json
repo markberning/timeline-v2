@@ -1,0 +1,822 @@
+{
+  "1": [
+    {
+      "term": "Gjermundbu helmet",
+      "matchText": "Gjermundbu helmet",
+      "wikiSlug": "Gjermundbu_helmet",
+      "type": "concept"
+    },
+    {
+      "term": "Harald Bluetooth",
+      "matchText": "Harald Bluetooth",
+      "wikiSlug": "Harald_Bluetooth",
+      "type": "people"
+    },
+    {
+      "term": "Younger Futhark",
+      "matchText": "Younger Futhark alphabet",
+      "wikiSlug": "Younger_Futhark",
+      "type": "concept"
+    },
+    {
+      "term": "Scandinavia",
+      "matchText": "Scandinavia",
+      "wikiSlug": "Scandinavia",
+      "type": "place"
+    },
+    {
+      "term": "Jutland",
+      "matchText": "Jutland",
+      "wikiSlug": "Jutland",
+      "type": "place"
+    },
+    {
+      "term": "Fjord",
+      "matchText": "fjords",
+      "wikiSlug": "Fjord",
+      "type": "concept"
+    },
+    {
+      "term": "Medieval Warm Period",
+      "matchText": "Medieval Warm Period",
+      "wikiSlug": "Medieval_Warm_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Little Ice Age",
+      "matchText": "Little Ice Age",
+      "wikiSlug": "Little_Ice_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Godar",
+      "matchText": "chieftain",
+      "wikiSlug": "Gothi",
+      "type": "concept"
+    },
+    {
+      "term": "Skald",
+      "matchText": "skalds",
+      "wikiSlug": "Skald",
+      "type": "concept"
+    },
+    {
+      "term": "Konungr",
+      "matchText": "konungr",
+      "wikiSlug": "King",
+      "type": "concept"
+    },
+    {
+      "term": "Clinker-built",
+      "matchText": "clinker-built",
+      "wikiSlug": "Clinker_(boat_building)",
+      "type": "concept"
+    },
+    {
+      "term": "Keel",
+      "matchText": "keel",
+      "wikiSlug": "Keel",
+      "type": "concept"
+    },
+    {
+      "term": "Oseberg ship",
+      "matchText": "Oseberg ship",
+      "wikiSlug": "Oseberg_ship",
+      "type": "concept"
+    },
+    {
+      "term": "Gokstad ship",
+      "matchText": "Gokstad ship",
+      "wikiSlug": "Gokstad_ship",
+      "type": "concept"
+    },
+    {
+      "term": "Thrall",
+      "matchText": "thrall",
+      "wikiSlug": "Thrall",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Dirham",
+      "matchText": "Abbasid silver dirhams",
+      "wikiSlug": "Dirham",
+      "type": "concept"
+    },
+    {
+      "term": "Carolingian Empire",
+      "matchText": "Carolingian Empire",
+      "wikiSlug": "Carolingian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate at its high tide",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    }
+  ],
+  "2": [
+    {
+      "term": "Lindisfarne",
+      "matchText": "Lindisfarne",
+      "wikiSlug": "Lindisfarne",
+      "type": "place"
+    },
+    {
+      "term": "Lindisfarne Gospels",
+      "matchText": "Lindisfarne Gospels",
+      "wikiSlug": "Lindisfarne_Gospels",
+      "type": "concept"
+    },
+    {
+      "term": "Alcuin of York",
+      "matchText": "Alcuin of York",
+      "wikiSlug": "Alcuin",
+      "type": "people"
+    },
+    {
+      "term": "Carolingian Renaissance",
+      "matchText": "Carolingian Renaissance",
+      "wikiSlug": "Carolingian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Iona",
+      "matchText": "Iona",
+      "wikiSlug": "Iona",
+      "type": "place"
+    },
+    {
+      "term": "Book of Kells",
+      "matchText": "Book of Kells",
+      "wikiSlug": "Book_of_Kells",
+      "type": "concept"
+    },
+    {
+      "term": "Longphort",
+      "matchText": "longphort",
+      "wikiSlug": "Longphort",
+      "type": "concept"
+    },
+    {
+      "term": "Seine",
+      "matchText": "the Seine",
+      "wikiSlug": "Seine",
+      "type": "place"
+    },
+    {
+      "term": "Danegeld",
+      "matchText": "Danegeld",
+      "wikiSlug": "Danegeld",
+      "type": "concept"
+    },
+    {
+      "term": "Charles the Bald",
+      "matchText": "Charles the Bald",
+      "wikiSlug": "Charles_the_Bald",
+      "type": "people"
+    },
+    {
+      "term": "Overwintering",
+      "matchText": "Overwintering",
+      "wikiSlug": "Wintering_(Viking)",
+      "type": "concept"
+    },
+    {
+      "term": "Ragnar Lothbrok",
+      "matchText": "Ragnar Lothbrok",
+      "wikiSlug": "Ragnar_Lodbrok",
+      "type": "people"
+    },
+    {
+      "term": "East Anglia",
+      "matchText": "East Anglia",
+      "wikiSlug": "East_Anglia",
+      "type": "place"
+    },
+    {
+      "term": "York",
+      "matchText": "York",
+      "wikiSlug": "York",
+      "type": "place"
+    },
+    {
+      "term": "Ivar the Boneless",
+      "matchText": "Ivar the Boneless",
+      "wikiSlug": "Ivar_the_Boneless",
+      "type": "people"
+    },
+    {
+      "term": "Blood eagle",
+      "matchText": "blood eagle",
+      "wikiSlug": "Blood_eagle",
+      "type": "concept"
+    },
+    {
+      "term": "Anglo-Saxon Chronicle",
+      "matchText": "Anglo-Saxon Chronicle",
+      "wikiSlug": "Anglo-Saxon_Chronicle",
+      "type": "concept"
+    },
+    {
+      "term": "Northumbria",
+      "matchText": "Northumbria",
+      "wikiSlug": "Northumbria",
+      "type": "place"
+    },
+    {
+      "term": "Edmund the Martyr",
+      "matchText": "Saint Edmund the Martyr",
+      "wikiSlug": "Edmund_the_Martyr",
+      "type": "people"
+    },
+    {
+      "term": "Wessex",
+      "matchText": "Wessex",
+      "wikiSlug": "Wessex",
+      "type": "place"
+    }
+  ],
+  "3": [
+    {
+      "term": "Alfred the Great",
+      "matchText": "Alfred the Great",
+      "wikiSlug": "Alfred_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Guthrum",
+      "matchText": "Guthrum",
+      "wikiSlug": "Guthrum",
+      "type": "people"
+    },
+    {
+      "term": "Athelney",
+      "matchText": "Isle of Athelney",
+      "wikiSlug": "Athelney",
+      "type": "place"
+    },
+    {
+      "term": "Edington",
+      "matchText": "Edington",
+      "wikiSlug": "Battle_of_Edington",
+      "type": "place"
+    },
+    {
+      "term": "Danelaw",
+      "matchText": "Danelaw",
+      "wikiSlug": "Danelaw",
+      "type": "concept"
+    },
+    {
+      "term": "Place-name suffix -by",
+      "matchText": "ending in -by",
+      "wikiSlug": "By_(place_name_element)",
+      "type": "concept"
+    },
+    {
+      "term": "Harald Fairhair",
+      "matchText": "Harald Fairhair",
+      "wikiSlug": "Harald_Fairhair",
+      "type": "people"
+    },
+    {
+      "term": "Thingvellir",
+      "matchText": "Thingvellir",
+      "wikiSlug": "%C3%9Eingvellir",
+      "type": "place"
+    },
+    {
+      "term": "Lawspeaker",
+      "matchText": "Lawspeaker",
+      "wikiSlug": "L%C3%B6gs%C3%B6guma%C3%B0r",
+      "type": "concept"
+    },
+    {
+      "term": "Gragas law code",
+      "matchText": "Gragas",
+      "wikiSlug": "Gr%C3%A1g%C3%A1s",
+      "type": "concept"
+    },
+    {
+      "term": "Knarr",
+      "matchText": "knarr",
+      "wikiSlug": "Knarr",
+      "type": "concept"
+    },
+    {
+      "term": "Reykjavik",
+      "matchText": "Reykjavik",
+      "wikiSlug": "Reykjav%C3%ADk",
+      "type": "place"
+    },
+    {
+      "term": "Erik the Red",
+      "matchText": "Erik the Red",
+      "wikiSlug": "Erik_the_Red",
+      "type": "people"
+    },
+    {
+      "term": "Lewis chessmen",
+      "matchText": "Lewis chessmen",
+      "wikiSlug": "Lewis_chessmen",
+      "type": "concept"
+    },
+    {
+      "term": "Skraelings",
+      "matchText": "Skraelings",
+      "wikiSlug": "Skr%C3%A6ling",
+      "type": "concept"
+    },
+    {
+      "term": "Landnamabók",
+      "matchText": "Landnamabók",
+      "wikiSlug": "Landn%C3%A1mab%C3%B3k",
+      "type": "concept"
+    },
+    {
+      "term": "Sunstone",
+      "matchText": "sunstone",
+      "wikiSlug": "Sunstone_(medieval)",
+      "type": "concept"
+    }
+  ],
+  "4": [
+    {
+      "term": "Rus",
+      "matchText": "Rus",
+      "wikiSlug": "Rus%27_people",
+      "type": "people"
+    },
+    {
+      "term": "Dnieper",
+      "matchText": "Dnieper",
+      "wikiSlug": "Dnieper",
+      "type": "place"
+    },
+    {
+      "term": "Volga",
+      "matchText": "Volga",
+      "wikiSlug": "Volga_River",
+      "type": "place"
+    },
+    {
+      "term": "Byzantine Empire",
+      "matchText": "Byzantine Empire",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Spillings hoard",
+      "matchText": "Spillings hoard",
+      "wikiSlug": "Spillings_hoard",
+      "type": "concept"
+    },
+    {
+      "term": "Gotland",
+      "matchText": "Gotland",
+      "wikiSlug": "Gotland",
+      "type": "place"
+    },
+    {
+      "term": "Ibn Fadlan",
+      "matchText": "Ibn Fadlan",
+      "wikiSlug": "Ibn_Fadlan",
+      "type": "people"
+    },
+    {
+      "term": "Primary Chronicle",
+      "matchText": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle",
+      "type": "concept"
+    },
+    {
+      "term": "Novgorod",
+      "matchText": "Novgorod",
+      "wikiSlug": "Novgorod",
+      "type": "place"
+    },
+    {
+      "term": "Kiev",
+      "matchText": "Kiev",
+      "wikiSlug": "Kiev",
+      "type": "place"
+    },
+    {
+      "term": "Kievan Rus",
+      "matchText": "Kievan Rus",
+      "wikiSlug": "Kievan_Rus%27",
+      "type": "concept"
+    },
+    {
+      "term": "Rurikid dynasty",
+      "matchText": "Rurikid dynasty",
+      "wikiSlug": "Rurikids",
+      "type": "concept"
+    },
+    {
+      "term": "Greek fire",
+      "matchText": "Greek fire",
+      "wikiSlug": "Greek_fire",
+      "type": "concept"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "place"
+    },
+    {
+      "term": "Cyrillic alphabet",
+      "matchText": "Cyrillic alphabet",
+      "wikiSlug": "Cyrillic_script",
+      "type": "concept"
+    },
+    {
+      "term": "Perun",
+      "matchText": "Perun",
+      "wikiSlug": "Perun",
+      "type": "concept"
+    },
+    {
+      "term": "Khazar Khaganate",
+      "matchText": "Khazar Khaganate",
+      "wikiSlug": "Khazar_Khaganate",
+      "type": "concept"
+    },
+    {
+      "term": "Harald Hardrada",
+      "matchText": "Harald Hardrada",
+      "wikiSlug": "Harald_Hardrada",
+      "type": "people"
+    }
+  ],
+  "5": [
+    {
+      "term": "Poetic Edda",
+      "matchText": "Poetic Edda",
+      "wikiSlug": "Poetic_Edda",
+      "type": "concept"
+    },
+    {
+      "term": "Codex Regius",
+      "matchText": "Codex Regius",
+      "wikiSlug": "Codex_Regius",
+      "type": "concept"
+    },
+    {
+      "term": "Snorri Sturluson",
+      "matchText": "Snorri Sturluson",
+      "wikiSlug": "Snorri_Sturluson",
+      "type": "people"
+    },
+    {
+      "term": "Prose Edda",
+      "matchText": "Prose Edda",
+      "wikiSlug": "Prose_Edda",
+      "type": "concept"
+    },
+    {
+      "term": "Yggdrasil",
+      "matchText": "Yggdrasil",
+      "wikiSlug": "Yggdrasil",
+      "type": "concept"
+    },
+    {
+      "term": "Norns",
+      "matchText": "Norns",
+      "wikiSlug": "Norns",
+      "type": "concept"
+    },
+    {
+      "term": "Odin",
+      "matchText": "Odin",
+      "wikiSlug": "Odin",
+      "type": "concept"
+    },
+    {
+      "term": "Valhalla",
+      "matchText": "Valhalla",
+      "wikiSlug": "Valhalla",
+      "type": "concept"
+    },
+    {
+      "term": "Valkyries",
+      "matchText": "Valkyries",
+      "wikiSlug": "Valkyrie",
+      "type": "concept"
+    },
+    {
+      "term": "Thor",
+      "matchText": "Thor",
+      "wikiSlug": "Thor",
+      "type": "concept"
+    },
+    {
+      "term": "Mjolnir",
+      "matchText": "Mjolnir",
+      "wikiSlug": "Mj%C3%B6lnir",
+      "type": "concept"
+    },
+    {
+      "term": "Freyr",
+      "matchText": "Freyr",
+      "wikiSlug": "Freyr",
+      "type": "concept"
+    },
+    {
+      "term": "Freyja",
+      "matchText": "Freyja",
+      "wikiSlug": "Freyja",
+      "type": "concept"
+    },
+    {
+      "term": "Loki",
+      "matchText": "Loki",
+      "wikiSlug": "Loki",
+      "type": "concept"
+    },
+    {
+      "term": "Ragnarok",
+      "matchText": "Ragnarok",
+      "wikiSlug": "Ragnar%C3%B6k",
+      "type": "concept"
+    },
+    {
+      "term": "Blot",
+      "matchText": "blot",
+      "wikiSlug": "Bl%C3%B3t",
+      "type": "concept"
+    },
+    {
+      "term": "Yule",
+      "matchText": "Yule",
+      "wikiSlug": "Yule",
+      "type": "concept"
+    },
+    {
+      "term": "Uppsala",
+      "matchText": "Uppsala",
+      "wikiSlug": "Uppsala",
+      "type": "place"
+    },
+    {
+      "term": "Trondheim",
+      "matchText": "Trondheim",
+      "wikiSlug": "Trondheim",
+      "type": "place"
+    },
+    {
+      "term": "Nidaros Cathedral",
+      "matchText": "Nidaros Cathedral",
+      "wikiSlug": "Nidaros_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Utiseta",
+      "matchText": "utiseta",
+      "wikiSlug": "Útiseta",
+      "type": "concept"
+    },
+    {
+      "term": "Seidr",
+      "matchText": "seidr",
+      "wikiSlug": "Sei%C3%B0r",
+      "type": "concept"
+    }
+  ],
+  "6": [
+    {
+      "term": "Elder Futhark",
+      "matchText": "Elder Futhark",
+      "wikiSlug": "Elder_Futhark",
+      "type": "concept"
+    },
+    {
+      "term": "Younger Futhark",
+      "matchText": "Younger Futhark",
+      "wikiSlug": "Younger_Futhark",
+      "type": "concept"
+    },
+    {
+      "term": "Rök runestone",
+      "matchText": "Rok runestone",
+      "wikiSlug": "R%C3%B6k_runestone",
+      "type": "concept"
+    },
+    {
+      "term": "Jelling Stone",
+      "matchText": "Jelling Stone",
+      "wikiSlug": "Jelling_stones",
+      "type": "concept"
+    },
+    {
+      "term": "Berezan runestone",
+      "matchText": "Berezan runestone",
+      "wikiSlug": "Berezan%27_runestone",
+      "type": "concept"
+    },
+    {
+      "term": "Dróttkvætt",
+      "matchText": "drott kvaett",
+      "wikiSlug": "Dr%C3%B3ttkv%C3%A6tt",
+      "type": "concept"
+    },
+    {
+      "term": "Kenning",
+      "matchText": "kennings",
+      "wikiSlug": "Kenning",
+      "type": "concept"
+    },
+    {
+      "term": "Egil's Saga",
+      "matchText": "Egil's Saga",
+      "wikiSlug": "Egil%27s_Saga",
+      "type": "concept"
+    },
+    {
+      "term": "Höfudlausn",
+      "matchText": "Hofudlausn",
+      "wikiSlug": "H%C3%B6fu%C3%B0lausn",
+      "type": "concept"
+    },
+    {
+      "term": "Voluspá",
+      "matchText": "Voluspa",
+      "wikiSlug": "V%C3%B6lusp%C3%A1",
+      "type": "concept"
+    },
+    {
+      "term": "Hávamál",
+      "matchText": "Havamal",
+      "wikiSlug": "H%C3%A1vam%C3%A1l",
+      "type": "concept"
+    },
+    {
+      "term": "Njal's Saga",
+      "matchText": "Njal's Saga",
+      "wikiSlug": "Nj%C3%A1ls_saga",
+      "type": "concept"
+    },
+    {
+      "term": "Heimskringla",
+      "matchText": "Heimskringla",
+      "wikiSlug": "Heimskringla",
+      "type": "concept"
+    },
+    {
+      "term": "Nibelungenlied",
+      "matchText": "Nibelungenlied",
+      "wikiSlug": "Nibelungenlied",
+      "type": "concept"
+    },
+    {
+      "term": "Ferdowsi",
+      "matchText": "Ferdowsi",
+      "wikiSlug": "Ferdowsi",
+      "type": "people"
+    }
+  ],
+  "7": [
+    {
+      "term": "Aethelred II",
+      "matchText": "Aethelred II",
+      "wikiSlug": "%C3%86thelred_the_Unready",
+      "type": "people"
+    },
+    {
+      "term": "Emma of Normandy",
+      "matchText": "Emma of Normandy",
+      "wikiSlug": "Emma_of_Normandy",
+      "type": "people"
+    },
+    {
+      "term": "At-Tartushi",
+      "matchText": "At-Tartushi",
+      "wikiSlug": "Ibrahim_ibn_Yaqub",
+      "type": "people"
+    },
+    {
+      "term": "Sigtuna",
+      "matchText": "Sigtuna",
+      "wikiSlug": "Sigtuna",
+      "type": "place"
+    },
+    {
+      "term": "Earldom",
+      "matchText": "earldoms",
+      "wikiSlug": "Earldom",
+      "type": "concept"
+    },
+    {
+      "term": "North Sea Empire",
+      "matchText": "North Sea Empire",
+      "wikiSlug": "North_Sea_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Brunanburh",
+      "matchText": "Battle of Brunanburh",
+      "wikiSlug": "Battle_of_Brunanburh",
+      "type": "concept"
+    },
+    {
+      "term": "Heqin",
+      "matchText": "heqin",
+      "wikiSlug": "Heqin",
+      "type": "concept"
+    },
+    {
+      "term": "Edmund Ironside",
+      "matchText": "Edmund Ironside",
+      "wikiSlug": "Edmund_Ironside",
+      "type": "people"
+    },
+    {
+      "term": "Magnus the Good",
+      "matchText": "Magnus the Good",
+      "wikiSlug": "Magnus_the_Good",
+      "type": "people"
+    },
+    {
+      "term": "Fyrd",
+      "matchText": "fyrd",
+      "wikiSlug": "Fyrd",
+      "type": "concept"
+    }
+  ],
+  "8": [
+    {
+      "term": "Edward the Confessor",
+      "matchText": "Edward the Confessor",
+      "wikiSlug": "Edward_the_Confessor",
+      "type": "people"
+    },
+    {
+      "term": "Witenagemot",
+      "matchText": "Witenagemot",
+      "wikiSlug": "Witenagemot",
+      "type": "concept"
+    },
+    {
+      "term": "Rollo",
+      "matchText": "Rollo",
+      "wikiSlug": "Rollo",
+      "type": "people"
+    },
+    {
+      "term": "Normandy",
+      "matchText": "Normandy",
+      "wikiSlug": "Normandy",
+      "type": "place"
+    },
+    {
+      "term": "William the Conqueror",
+      "matchText": "William the Bastard",
+      "wikiSlug": "William_the_Conqueror",
+      "type": "people"
+    },
+    {
+      "term": "Bayeux Tapestry",
+      "matchText": "Bayeux Tapestry",
+      "wikiSlug": "Bayeux_Tapestry",
+      "type": "concept"
+    },
+    {
+      "term": "Housecarls",
+      "matchText": "housecarls",
+      "wikiSlug": "Housecarl",
+      "type": "concept"
+    },
+    {
+      "term": "Senlac Hill",
+      "matchText": "Senlac Hill",
+      "wikiSlug": "Battle_of_Hastings",
+      "type": "place"
+    },
+    {
+      "term": "Stamford Bridge",
+      "matchText": "Stamford Bridge",
+      "wikiSlug": "Battle_of_Stamford_Bridge",
+      "type": "place"
+    },
+    {
+      "term": "Russkaya Pravda",
+      "matchText": "Russkaya Pravda",
+      "wikiSlug": "Russkaya_Pravda",
+      "type": "concept"
+    },
+    {
+      "term": "Yaroslav the Wise",
+      "matchText": "Yaroslav the Wise",
+      "wikiSlug": "Yaroslav_the_Wise",
+      "type": "people"
+    }
+  ]
+}
