@@ -1061,6 +1061,108 @@
       "tier": 3,
       "tags": [],
       "category": "rulers"
+    },
+    {
+      "id": "evt-ghatotkacha",
+      "label": "Ghatotkacha, Gupta Dynastic Link",
+      "year": 280,
+      "description": "Ghatotkacha — son of Sri Gupta and father of Chandragupta I — is the obscure middle link in the Gupta founding lineage. Named after the half-demon giant of the Mahabharata, he ruled a small Magadha territory but left no surviving inscriptions or coins; his significance is genealogical, bridging the dynasty's shadowy origins to its imperial launch under his son.",
+      "wikiSlug": "Ghatotkacha_(Gupta_king)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kumaradevi",
+      "label": "Kumaradevi, the Lichchhavi Queen",
+      "year": 320,
+      "description": "Kumaradevi, princess of the prestigious Lichchhavi confederation, married Chandragupta I and gave the young Gupta dynasty its crucial legitimacy boost. She is depicted alongside her husband on the famous Chandragupta I–Kumaradevi gold coins — the first Indian coins to show a queen as co-equal partner — with the reverse legend 'Lichchhavayah' advertising her family's ancient pedigree.",
+      "wikiSlug": "Kumaradevi_(Gupta_queen)",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-dhruvadevi",
+      "label": "Dhruvadevi, Queen of the Succession Crisis",
+      "year": 376,
+      "description": "Dhruvadevi was queen first to Ramagupta and then, after Chandragupta II seized the throne, to Chandragupta II himself — a levirate remarriage attested in Gupta inscriptions. Vishakhadatta's play Devichandraguptam dramatized the succession, depicting Dhruvadevi as central to the coup that displaced Ramagupta. She later appears in epigraphy as queen-mother of Kumaragupta I.",
+      "wikiSlug": "Dhruvadevi",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-devichandraguptam",
+      "label": "Devichandraguptam (Vishakhadatta's Political Drama)",
+      "year": 400,
+      "description": "Vishakhadatta's Sanskrit play Devichandraguptam ('Devi and Chandragupta') dramatized the Gupta succession crisis: Ramagupta agrees to surrender his queen Dhruvadevi to a Saka king as tribute; Chandragupta II disguises himself as the queen, kills the Saka king, then deposes his brother. Only fragments survive, but the play is the most important literary source for the Gupta succession and the same playwright's political acumen evident in the Mudrarakshasa.",
+      "wikiSlug": "Devichandraguptam",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kalidasa-vikramorvashiya",
+      "label": "Vikramorvashiya (Urvashi Won by Valor)",
+      "year": 399,
+      "description": "Kalidasa's play Vikramorvashiya — 'Urvashi Won by Valor' — recounts a king's love for the celestial apsara Urvashi, whose heavenly and mortal natures make their union perpetually fragile. Mythic in tone where Shakuntala is romantic and Malavikagnimitra is comic, it represents the full range of Kalidasa's dramatic vision and is notable for a fourth act in which the king, driven mad by separation, addresses the rocks and trees of the forest.",
+      "wikiSlug": "Vikramorva%C5%9B%C4%ABya",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kalidasa-kumarasambhava",
+      "label": "Kumarasambhava (The Birth of the War-God)",
+      "year": 396,
+      "description": "Kalidasa's mahakavya Kumarasambhava — 'The Birth of the War-God' — depicts the courtship of Shiva and Parvati, the destruction of the love-god Kama when he interrupts Shiva's meditation, and the eventual conception of their son Kartikeya. Its erotic and theological range made it one of the most celebrated and controversial Sanskrit court epics, containing some of the most explicitly sensuous passages in the canon.",
+      "wikiSlug": "Kum%C4%81rasambhava",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-wootz-steel",
+      "label": "Wootz Steel Export Trade",
+      "year": 400,
+      "description": "Gupta-era Indian smiths produced wootz — a high-carbon crucible steel made by sealing iron and charcoal in a clay crucible — for export across the Indian Ocean. Wootz ingots traveled through Sasanian Persia and the Arabian Gulf and would eventually be forged into the famous Damascus blades of the medieval Islamic world. The Indian steel industry of this period was producing material that would not be matched in Europe until the Industrial Revolution.",
+      "wikiSlug": "Wootz_steel",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-purugupta",
+      "label": "Purugupta, Disputed Successor",
+      "year": 467,
+      "endYear": 476,
+      "description": "Purugupta — probably Skandagupta's brother by a different mother — succeeded after Skandagupta left no son. His brief reign is poorly attested, but coins in his name confirm he held the Gupta throne in the decade following Skandagupta's death. His succession marks the beginning of the dynasty's contested late period, in which multiple Gupta branches issued grants simultaneously across shrinking territories.",
+      "wikiSlug": "Purugupta",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vishnugupta",
+      "label": "Vishnugupta, Last Gupta King",
+      "year": 540,
+      "endYear": 550,
+      "description": "Vishnugupta, attested in inscriptions around 540–550 CE, is the last Gupta ruler of any significance — king of a remnant kingdom in the eastern Ganges plain long after the empire's territorial authority had dissolved. His inscriptions mark the dynasty's final chapter: the great Gupta name persisted in epigraphy for decades after the empire it had named ceased to exist.",
+      "wikiSlug": "Vishnugupta_(Gupta_king)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-bhitari-pillar",
+      "label": "Bhitari Pillar Inscription of Skandagupta",
+      "year": 458,
+      "description": "Skandagupta's victory pillar at Bhitari in modern Uttar Pradesh is the primary epigraphic source for his contested succession and his wars against the Huns. Its famous passage — 'From whom the earth shook, when their armies clashed; whose battle had to be fought hand to hand; in which the splash of blood fell like rain' — is the most vivid battle description in any Gupta inscription and the chief evidence for the scale and ferocity of the Hephthalite invasion Skandagupta repelled.",
+      "wikiSlug": "Bhitari_pillar_inscription",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "writing"
     }
   ]
 }
