@@ -70,7 +70,7 @@ export function ChronologyPage() {
   return (
     <div className="flex flex-col h-dvh bg-background text-foreground">
       <ChronologyHeader isDesktop={isDesktop} ribbonMode={ribbonMode} onRibbonModeChange={setRibbonMode} onSearchOpen={() => setSearchOpen(true)} />
-      {!isDesktop && <CivIconsStrip />}
+      <CivIconsStrip />
 
       {isDesktop ? (
         <div className="flex-1 min-h-0 flex">
