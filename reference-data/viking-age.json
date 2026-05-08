@@ -999,6 +999,97 @@
       "tier": 3,
       "tags": [],
       "category": "religion"
+    },
+    {
+      "id": "evt-alcuin-of-york",
+      "label": "Alcuin of York",
+      "year": 793,
+      "description": "English-born theologian and leading scholar of the Carolingian Renaissance who wrote a horrified letter from Charlemagne's court after the Lindisfarne raid — one of the most important primary sources for the Viking Age's opening moment. His lament that 'never before has such a terror appeared in Britain' captures the shock felt across literate Christendom.",
+      "wikiSlug": "Alcuin",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-gorm-the-old",
+      "label": "Gorm the Old",
+      "year": 936,
+      "description": "The first historically attested king of a unified Denmark and father of Harald Bluetooth. Gorm consolidated the Danish heartland and erected the first of the two Jelling Stones for his queen Thyra, establishing the royal cult site at Jelling that his son would transform into Denmark's baptismal monument.",
+      "wikiSlug": "Gorm_the_Old",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ibn-fadlan-volga",
+      "label": "Ibn Fadlan's Volga Account",
+      "year": 922,
+      "description": "An Abbasid envoy named Ibn Fadlan traveled to the Volga Bulghars in 922 and wrote a detailed eyewitness account of Rus' merchants — describing their tattoos, their slave trade, and the ritual ship funeral of a Rus' chieftain. His travelogue is one of the most important primary sources for Norse life on the eastern trade routes.",
+      "wikiSlug": "Ibn_Fadlan",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-naddodd-sights-iceland",
+      "label": "Naddodd Sights Iceland",
+      "year": 860,
+      "description": "The Norse explorer Naddodd was blown off course to Iceland during a passage to the Faroe Islands and named the island 'Snowland' — the first recorded Norse sighting of Iceland, preceding Floki Vilgerðarson's deliberate voyage by about eight years.",
+      "wikiSlug": "Naddodd",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-gjermundbu-helmet",
+      "label": "Gjermundbu Helmet",
+      "year": 950,
+      "description": "The only intact Viking-Age helmet known to archaeology, excavated from a Norwegian grave at Gjermundbu in Ringerike. A plain iron skullcap with an eye-guard and nasal — no horns — it is the definitive physical refutation of the 19th-century operatic horned-helmet myth and a key artifact of Viking Age military culture.",
+      "wikiSlug": "Gjermundbu_helmet",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-of-fulford",
+      "label": "Battle of Fulford",
+      "year": 1066,
+      "description": "On September 20, 1066, Harald Hardrada and Tostig Godwinson routed the English northern earls Edwin and Morcar just outside York, opening the way for the Norse capture of the city. The battle set the stage for Stamford Bridge five days later, where Harold Godwinson arrived after a 200-mile forced march.",
+      "wikiSlug": "Battle_of_Fulford",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tostig-godwinson",
+      "label": "Tostig Godwinson",
+      "year": 1066,
+      "description": "Earl of Northumbria and younger brother of King Harold Godwinson, exiled in 1065 after his subjects revolted against his harsh rule. Tostig allied with Harald Hardrada to invade England in 1066, joining the Norse fleet that landed in Yorkshire. He was killed alongside Hardrada at the Battle of Stamford Bridge.",
+      "wikiSlug": "Tostig_Godwinson",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-magnus-the-good",
+      "label": "Magnus the Good",
+      "year": 1035,
+      "endYear": 1047,
+      "description": "Son of Saint Olaf who reclaimed the Norwegian throne after Cnut's death and briefly united Norway and Denmark under one crown. Magnus was preparing to invade England to assert his claim to Cnut's old kingdom when he died in 1047, passing the crown to his uncle Harald Hardrada.",
+      "wikiSlug": "Magnus_the_Good",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nidaros-cathedral",
+      "label": "Nidaros Cathedral and Saint Olaf's Shrine",
+      "year": 1030,
+      "description": "After King Olaf Haraldsson was killed at Stiklestad in 1030 and canonized, his body was interred at Nidaros (Trondheim), which became the major pilgrimage destination of the Norse world. Nidaros Cathedral grew around his shrine and remains Norway's national sanctuary; medieval pilgrim routes converged on it from across Scandinavia and the Norse diaspora.",
+      "wikiSlug": "Nidaros_Cathedral",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
     }
   ],
   "wikiSlug": "Viking_Age"
