@@ -18,7 +18,7 @@ export function ChainGrid({ activeCivId, onSelect }: ChainGridProps) {
           const regionColor = REGION_COLORS[group.region]
 
           return (
-            <div key={chain.id}>
+            <div key={chain.id} data-chain-block={chain.id}>
               {/* Chain header */}
               <div className="flex items-center gap-1.5 mb-1.5">
                 <span

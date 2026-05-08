@@ -16,16 +16,19 @@ export function DetailPane({ activeCivId, onSelect }: DetailPaneProps) {
   const gridScrollRef = useRef<HTMLDivElement>(null)
   const civ = activeCivId ? TL_BY_ID.get(activeCivId) : null
 
-  // Auto-scroll chain grid so the active civ lands at the top of the scroll area
+  // Auto-scroll chain grid so the chain header of the active civ is at the top
+  // (and the selected row stays visible just below its chain title).
   useEffect(() => {
     if (!activeCivId || !gridScrollRef.current) return
     const container = gridScrollRef.current
     const activeEl = container.querySelector(`[data-grid-civ="${activeCivId}"]`) as HTMLElement | null
     if (!activeEl) return
+    const chainBlock = activeEl.closest('[data-chain-block]') as HTMLElement | null
+    const target = chainBlock ?? activeEl
     const containerRect = container.getBoundingClientRect()
-    const elRect = activeEl.getBoundingClientRect()
-    const targetScroll = container.scrollTop + (elRect.top - containerRect.top) - 8
-    container.scrollTo({ top: Math.max(0, targetScroll), behavior: 'smooth' })
+    const targetRect = target.getBoundingClientRect()
+    const offset = container.scrollTop + (targetRect.top - containerRect.top) - 8
+    container.scrollTo({ top: Math.max(0, offset), behavior: 'smooth' })
   }, [activeCivId])
 
   if (!civ) {
