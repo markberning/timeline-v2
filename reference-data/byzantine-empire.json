@@ -633,7 +633,7 @@
       "year": 1341,
       "endYear": 1347,
       "description": "A devastating civil war between John V Palaiologos and John VI Kantakouzenos that invited Serbian and Ottoman intervention, fatally weakening the empire.",
-      "wikiSlug": "Byzantine_civil_war_of_1341–1347",
+      "wikiSlug": "Byzantine_civil_war_of_1341%E2%80%931347",
       "tier": 3,
       "category": "wars"
     },
@@ -725,6 +725,470 @@
       "tier": 3,
       "tags": [],
       "category": "writing"
+    },
+    {
+      "id": "evt-constantius-ii",
+      "label": "Constantius II",
+      "year": 337,
+      "endYear": 361,
+      "description": "Son of Constantine, he ruled the entire empire from 350 and promoted Arianism, persecuting Nicene Christians — his theological meddling set the tone for centuries of emperors intervening in church disputes.",
+      "wikiSlug": "Constantius_II",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-julian-apostate",
+      "label": "Julian the Apostate",
+      "year": 361,
+      "endYear": 363,
+      "description": "The last pagan emperor briefly reversed Constantine's Christianization, restoring sacrifices and temple funding before dying on campaign against Persia — the final attempt to turn back Christianity's tide.",
+      "wikiSlug": "Julian_(emperor)",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-theodosius-ii",
+      "label": "Theodosius II",
+      "year": 408,
+      "endYear": 450,
+      "description": "The long-reigning eastern emperor who built the Theodosian Walls, established the University of Constantinople, and assembled the Theodosian Code — an early codification of Roman law that prefigured Justinian's great project.",
+      "wikiSlug": "Theodosius_II",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-anastasius-i",
+      "label": "Anastasius I Currency Reform",
+      "year": 498,
+      "description": "Emperor Anastasius I overhauled the bronze coinage system, creating clearly denominated follis coins that stabilized everyday commerce and filled the treasury — one of late antiquity's most successful fiscal reforms.",
+      "wikiSlug": "Anastasius_I_(emperor)",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-justin-i",
+      "label": "Justin I",
+      "year": 518,
+      "endYear": 527,
+      "description": "An illiterate soldier who rose to emperor, Justin I reoriented Byzantine policy toward the West and groomed his brilliant nephew Justinian as co-emperor — the dynasty's real founder.",
+      "wikiSlug": "Justin_I",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-belisarius-north-africa",
+      "label": "Belisarius Reconquers North Africa",
+      "year": 533,
+      "endYear": 534,
+      "description": "In a lightning campaign, Belisarius destroyed the Vandal kingdom and restored North Africa to Byzantine rule in under a year — a stunning upset that emboldened Justinian's grander ambitions in Italy.",
+      "wikiSlug": "Vandalic_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-three-chapters-controversy",
+      "label": "Three Chapters Controversy",
+      "year": 553,
+      "description": "Justinian's Fifth Ecumenical Council condemned three theologians to appease the Monophysites, backfiring by alienating the western church and creating lasting splits that outlasted the empire.",
+      "wikiSlug": "Three-Chapter_Controversy",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-heraclius-nineveh",
+      "label": "Battle of Nineveh — Sassanids Crushed",
+      "year": 627,
+      "description": "Heraclius destroyed the main Sassanid army at Nineveh, the climax of his audacious counter-offensive deep into Persia that recovered all lost Byzantine territories — one of history's greatest military comebacks.",
+      "wikiSlug": "Battle_of_Nineveh_(627)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-true-cross-recovered",
+      "label": "True Cross Recovered",
+      "year": 630,
+      "description": "Heraclius returned the relic of the True Cross to Jerusalem after years of Persian captivity, making the triumphant entry that became one of Byzantine history's most celebrated moments — before Arab armies arrived just six years later.",
+      "wikiSlug": "True_Cross",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-loss-egypt",
+      "label": "Loss of Egypt to the Arabs",
+      "year": 642,
+      "description": "Arab forces completed the conquest of Egypt, stripping Byzantium of its wealthiest province and its primary grain supply — a demographic and fiscal catastrophe from which the empire never recovered its former scale.",
+      "wikiSlug": "Muslim_conquest_of_Egypt",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-sixth-ecumenical-council",
+      "label": "Sixth Ecumenical Council",
+      "year": 681,
+      "description": "The Third Council of Constantinople condemned Monothelitism — the compromise doctrine that Christ had one will — and anathematized a sitting pope, resolving a decades-long theological crisis that had divided church and empire.",
+      "wikiSlug": "Third_Council_of_Constantinople",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-maximos-confessor",
+      "label": "Maximos the Confessor Martyred",
+      "year": 662,
+      "description": "The theologian Maximos, who had battled Monothelitism for decades, was tortured, had his tongue and right hand cut off, and died in exile — his stubborn resistance ultimately vindicated at the Sixth Council nineteen years later.",
+      "wikiSlug": "Maximus_the_Confessor",
+      "tier": 3,
+      "category": "religion",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-council-hieria",
+      "label": "Council of Hieria",
+      "year": 754,
+      "description": "Emperor Constantine V convened an iconoclast council of 338 bishops that condemned icon veneration as idolatry — the high-water mark of imperial iconoclasm, later rejected and anathematized by the Second Council of Nicaea.",
+      "wikiSlug": "Council_of_Hieria",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-second-council-nicaea",
+      "label": "Second Council of Nicaea",
+      "year": 787,
+      "description": "Empress Irene convened the Seventh Ecumenical Council which definitively restored icon veneration, drawing the theological boundary between legitimate veneration and forbidden worship — a definition still used by Orthodox and Catholic churches.",
+      "wikiSlug": "Second_Council_of_Nicaea",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-photian-schism",
+      "label": "Photian Schism",
+      "year": 863,
+      "endYear": 867,
+      "description": "A bitter dispute between Rome and Constantinople over Patriarch Photius's legitimacy erupted into mutual condemnations — a rehearsal for the Great Schism of 1054, rehearsing every argument about papal supremacy versus conciliar authority.",
+      "wikiSlug": "Photian_schism",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-romanos-i-lekapenos",
+      "label": "Romanos I Lekapenos Seizes Power",
+      "year": 920,
+      "endYear": 944,
+      "description": "An admiral-turned-emperor, Romanos I sidelined the legitimate heir Constantine VII and ruled as senior emperor for 24 years, conducting successful wars against Bulgaria and issuing reforms protecting small landholders from aristocratic encroachment.",
+      "wikiSlug": "Romanos_I_Lekapenos",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nikephoros-ii-phokas",
+      "label": "Nikephoros II Phokas Reconquers Antioch",
+      "year": 969,
+      "description": "The soldier-emperor Nikephoros II retook Antioch from the Hamdanid Arabs, restoring one of Christianity's oldest cities to Byzantine rule after three centuries of Muslim control — the apex of the Macedonian military revival.",
+      "wikiSlug": "Nikephoros_II",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-michael-psellos",
+      "label": "Michael Psellos",
+      "year": 1018,
+      "endYear": 1078,
+      "description": "The foremost intellectual of the Macedonian-Komnenian transition, Psellos revived Platonic philosophy at Constantinople and wrote the Chronographia — a shrewd psychological portrait of the emperors he served and sometimes manipulated.",
+      "wikiSlug": "Michael_Psellos",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-currency-debasement",
+      "label": "Currency Debasement Begins",
+      "year": 1030,
+      "description": "Starting under Constantine IX, emperors began systematically reducing the gold content of the nomisma — the coin that had held stable for 700 years. By the 1070s it had lost 70% of its gold, triggering inflation and fiscal crisis.",
+      "wikiSlug": "Debasement_of_the_Byzantine_solidus",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-hyperpyron-alexios",
+      "label": "Hyperpyron Introduced",
+      "year": 1092,
+      "description": "Alexios I Komnenos replaced the debased nomisma with the hyperpyron — a new high-purity gold coin — restoring monetary confidence and laying a sound fiscal foundation for the Komnenian military recovery.",
+      "wikiSlug": "Hyperpyron",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-john-ii-komnenos",
+      "label": "John II Kalojohannes",
+      "year": 1118,
+      "endYear": 1143,
+      "description": "Often called Byzantium's finest emperor, John II waged relentless campaigns to restore prestige — recovering Cilicia, reasserting suzerainty over Antioch, and pushing into the Holy Land — before dying from a hunting accident.",
+      "wikiSlug": "John_II_Komnenos",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-battle-myriokephalon",
+      "label": "Battle of Myriokephalon",
+      "year": 1176,
+      "description": "Manuel I's ambitious campaign to reconquer Anatolia ended in catastrophic ambush — the Seljuks destroyed the Byzantine army in a mountain pass, ending forever the dream of recovering the Anatolian heartland.",
+      "wikiSlug": "Battle_of_Myriokephalon",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-genoa-pisa-privileges",
+      "label": "Genoese and Pisan Trade Privileges",
+      "year": 1111,
+      "description": "John II and his successors extended sweeping trade concessions to Pisa (1111) and Genoa (1155), completing the transfer of Byzantine maritime commerce to Italian city-states and devastating domestic Greek merchants.",
+      "wikiSlug": "Chrysobull_of_1155",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-andronikos-i-overthrow",
+      "label": "Andronikos I Overthrown",
+      "year": 1185,
+      "description": "The brutal emperor Andronikos I, who had massacred the Latin population of Constantinople in 1182, was overthrown and lynched by a mob — ending the Komnenian dynasty and opening an era of dynastic instability.",
+      "wikiSlug": "Andronikos_I_Komnenos",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-empire-nicaea",
+      "label": "Empire of Nicaea",
+      "year": 1204,
+      "endYear": 1261,
+      "description": "Byzantine court refugees established a rump state at Nicaea under Theodore I Laskaris, which became the empire's legitimate successor — carefully husbanding resources for the eventual reconquest of Constantinople.",
+      "wikiSlug": "Empire_of_Nicaea",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-john-iii-vatatzes",
+      "label": "John III Vatatzes",
+      "year": 1221,
+      "endYear": 1254,
+      "description": "The ablest emperor of Nicaean exile, John III expanded the state's economy through agricultural self-sufficiency, pushed the Latins to just Thrace, and built the diplomatic and military foundations for the 1261 reconquest.",
+      "wikiSlug": "John_III_Doukas_Vatatzes",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-michael-viii",
+      "label": "Michael VIII Palaiologos",
+      "year": 1261,
+      "endYear": 1282,
+      "description": "Founder of the last Byzantine dynasty, Michael VIII retook Constantinople and pursued a grand diplomatic strategy — including a short-lived union with Rome — to keep the Angevins from launching a reconquest.",
+      "wikiSlug": "Michael_VIII_Palaiologos",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-pelekanon",
+      "label": "Battle of Pelekanon",
+      "year": 1329,
+      "description": "Ottoman forces defeated Andronikos III, ending Byzantine hopes of recovering Nicaea. The defeat signaled that the empire could no longer protect its Anatolian cities, accelerating their defection to the Ottomans.",
+      "wikiSlug": "Battle_of_Pelekanon",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ottomans-europe",
+      "label": "Ottomans Cross into Europe",
+      "year": 1354,
+      "description": "The Ottomans seized Gallipoli — their first permanent foothold in Europe — largely because John VI Kantakouzenos had invited them as mercenaries during the civil war. Byzantium had inadvertently handed its eventual destroyers a bridgehead.",
+      "wikiSlug": "Ottoman_capture_of_Gallipoli",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-fall-adrianople",
+      "label": "Fall of Adrianople",
+      "year": 1369,
+      "description": "The Ottomans took Adrianople (Edirne) and made it their capital, surrounding Constantinople with Ottoman-controlled territory on all sides and reducing the empire to its capital city and scattered outposts.",
+      "wikiSlug": "Edirne",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-gregory-palamas",
+      "label": "Gregory Palamas",
+      "year": 1296,
+      "endYear": 1359,
+      "description": "The monk-theologian who formalized the Hesychast teaching that humans can experience God's uncreated energies directly — now a cornerstone of Eastern Orthodox theology. His canonization in 1368 made Palamism official Orthodox doctrine.",
+      "wikiSlug": "Gregory_Palamas",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-manuel-ii-western-tour",
+      "label": "Manuel II's Western Tour",
+      "year": 1399,
+      "endYear": 1402,
+      "description": "Emperor Manuel II made a remarkable diplomatic tour of Europe — visiting Venice, Paris, and London to beg for military aid against the Ottomans. He was received with honor but returned with little concrete help.",
+      "wikiSlug": "Manuel_II_Palaiologos",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tamerlane-ankara",
+      "label": "Tamerlane Defeats Ottomans at Ankara",
+      "year": 1402,
+      "description": "Timur's crushing defeat and capture of Sultan Bayezid I at the Battle of Ankara gave Byzantium a crucial half-century reprieve as the Ottoman state fragmented — an unexpected lifeline that delayed the final siege by fifty years.",
+      "wikiSlug": "Battle_of_Ankara",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-council-florence",
+      "label": "Council of Florence",
+      "year": 1439,
+      "description": "Desperate for western military aid, Byzantine Emperor John VIII signed a union with Rome acknowledging papal supremacy. The Greek clergy and populace rejected it, leaving Byzantium isolated — the famous quip: 'Better the turban than the tiara.'",
+      "wikiSlug": "Council_of_Florence",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-bessarion",
+      "label": "Cardinal Bessarion",
+      "year": 1403,
+      "endYear": 1472,
+      "description": "The Byzantine scholar-bishop who supported the Council of Florence union, settled in Rome, and donated his vast Greek manuscript collection to Venice — preserving hundreds of classical texts and becoming a central figure in the Renaissance transmission of ancient knowledge.",
+      "wikiSlug": "Bessarion",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-greek-scholars-west",
+      "label": "Greek Scholars Flee to Italy",
+      "year": 1453,
+      "description": "The fall of Constantinople drove a generation of Byzantine scholars and their manuscript libraries to Italy, energizing Renaissance humanism with direct access to Plato, Aristotle, and Greek patristics in the original.",
+      "wikiSlug": "Greek_scholars_in_the_Renaissance",
+      "tier": 2,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-zeno-henotikon",
+      "label": "Henotikon of Zeno",
+      "year": 482,
+      "description": "Emperor Zeno issued the Henotikon — a theological compromise edict attempting to reconcile Chalcedonians and Monophysites — that instead triggered the Acacian Schism with Rome, the first formal break between eastern and western churches.",
+      "wikiSlug": "Henotikon",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-varangian-guard",
+      "label": "Varangian Guard Founded",
+      "year": 988,
+      "description": "Basil II enrolled 6,000 Norse-Rus warriors sent by Vladimir of Kyiv into an elite imperial bodyguard — the famed Varangian Guard. Later staffed by Anglo-Saxons after the Norman Conquest, it served Byzantine emperors for over four centuries.",
+      "wikiSlug": "Varangian_Guard",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-john-kantakouzenos",
+      "label": "John VI Kantakouzenos",
+      "year": 1347,
+      "endYear": 1354,
+      "description": "A nobleman who won the civil war and ruled as emperor, Kantakouzenos then abdicated to become a monk — later writing a major history of his own reign. His invitation of Ottoman mercenaries proved catastrophic for Byzantine survival.",
+      "wikiSlug": "John_VI_Kantakouzenos",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-demetrios-kydones",
+      "label": "Demetrios Kydones",
+      "year": 1324,
+      "endYear": 1398,
+      "description": "The influential minister and translator who rendered Aquinas's Summa Theologiae into Greek, opening Latin scholasticism to Byzantine readers — a bridge figure in the late Byzantine intellectual engagement with the West.",
+      "wikiSlug": "Demetrios_Kydones",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-andronikos-ii-disasters",
+      "label": "Andronikos II's Fiscal Disasters",
+      "year": 1282,
+      "endYear": 1328,
+      "description": "Andronikos II dismantled the Byzantine navy to save money, granting its operations to Genoese contractors — a decision that left Constantinople wholly dependent on Italian sea power and fatally undermined Byzantine commercial independence.",
+      "wikiSlug": "Andronikos_II_Palaiologos",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-catalan-company",
+      "label": "Catalan Company Ravages Greece",
+      "year": 1303,
+      "endYear": 1311,
+      "description": "Hired as mercenaries against the Turks, the Catalan Company turned on their Byzantine employers after a dispute, ravaging Thrace and Macedonia for years before seizing the Duchy of Athens — a textbook example of the empire's inability to control hired forces.",
+      "wikiSlug": "Catalan_Company",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-hagios-demetrios-mosaics",
+      "label": "Church of Hagios Demetrios",
+      "year": 630,
+      "description": "The great basilica of Hagios Demetrios in Thessaloniki was redecorated after an Avar siege, producing a celebrated series of votive mosaics that rank among the finest surviving works of early Byzantine art.",
+      "wikiSlug": "Church_of_Saint_Demetrius,_Thessaloniki",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-reconquest-spain",
+      "label": "Reconquest of Southern Spain",
+      "year": 554,
+      "description": "Justinian's forces seized a foothold in southeastern Spain (the province of Spania) from the Visigoths, briefly extending Byzantine rule to the Iberian Peninsula — the westernmost reach of the empire's restoration ambitions.",
+      "wikiSlug": "Spania",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-marcian-emperor",
+      "label": "Emperor Marcian",
+      "year": 450,
+      "endYear": 457,
+      "description": "Marcian refused tribute to Attila the Hun and convened the Council of Chalcedon — two decisions that defined the mid-5th century empire. His fiscal prudence filled the treasury left nearly empty by his predecessors.",
+      "wikiSlug": "Marcian",
+      "tier": 3,
+      "category": "rulers"
     }
   ],
   "wikiSlug": "Byzantine_Empire"
