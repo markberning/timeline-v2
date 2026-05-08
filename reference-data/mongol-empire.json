@@ -1090,6 +1090,110 @@
       "tier": 3,
       "category": "rulers",
       "tags": []
+    },
+    {
+      "id": "evt-hoelun",
+      "label": "Hoelun — mother of Genghis Khan",
+      "year": 1171,
+      "endYear": 1210,
+      "description": "After Yesügei's poisoning left the family destitute and abandoned by their clan, Hoelun kept Temüjin and his siblings alive by foraging roots, fishing, and shaming her sons into hunting small game. Her survival instincts and iron resolve during those starving years on the Onon River are the formative context for Genghis Khan's character. The Secret History treats her as the moral anchor of the foundational story.",
+      "wikiSlug": "Hoelun",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-jamukha",
+      "label": "Jamukha — sworn brother and rival",
+      "year": 1184,
+      "endYear": 1205,
+      "description": "Jamukha was Temüjin's anda (sworn brother) who helped rescue Börte from the Merkits in 1184 and led a rival Mongol confederation for two decades. Charismatic, equally skilled in coalition-building, he was the last serious Mongol rival to Genghis Khan. Captured in 1205 after allies surrendered him, Jamukha refused mercy and was executed in the honorable bloodless manner — smothered or back-broken — per Temüjin's own order.",
+      "wikiSlug": "Jamukha",
+      "tier": 2,
+      "category": "people",
+      "tags": ["rulers"]
+    },
+    {
+      "id": "evt-mukhali",
+      "label": "Mukhali administers northern China",
+      "year": 1217,
+      "endYear": 1223,
+      "description": "Genghis Khan appointed Mukhali, one of his four senior generals and the son of a low-ranking vassal, as viceroy of the Jin campaigns while Genghis himself turned west toward Khwarezm. Mukhali commanded the continuing conquest of northern China from 1217 until his death in 1223, integrating Chinese and Khitan auxiliaries into the Mongol force — a key test of the merit-promotion system Genghis used to build his empire.",
+      "wikiSlug": "Mukhali",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-inalchuq-otrar",
+      "label": "Inalchuq massacres Mongol trade caravan",
+      "year": 1218,
+      "description": "The governor of Otrar on the Syr Darya river, Inalchuq (also called Ghayir Khan), declared a Mongol trade delegation of five hundred merchants to be spies and had them all executed, confiscating their goods. Genghis Khan sent envoys to Shah Muhammad II demanding Inalchuq's punishment; the Shah killed one envoy and sent the others home humiliated. The incident triggered the Mongol invasion of the Khwarezmian Empire in 1219.",
+      "wikiSlug": "Inalchuq",
+      "tier": 3,
+      "category": "people",
+      "tags": ["wars"]
+    },
+    {
+      "id": "evt-kara-khitai-conquest",
+      "label": "Conquest of the Kara-Khitai",
+      "year": 1218,
+      "description": "Genghis Khan sent his general Jebe to overthrow the Buddhist Khitan-led Kara-Khitai state in modern Xinjiang and eastern Central Asia — a remnant of the Liao dynasty that had been displaced by the Jin around 1125. The Kara-Khitai had harbored the Naiman leader Kuchlug, who had seized their throne. Jebe conquered the region in a single campaign, extending Mongol power to the borders of Khwarezm and making the western invasion of 1219 possible.",
+      "wikiSlug": "Qara_Khitai",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-house-of-wisdom",
+      "label": "Destruction of the House of Wisdom",
+      "year": 1258,
+      "description": "When Hülegü Khan sacked Baghdad, Mongol soldiers threw the contents of the Bayt al-Hikma — Baghdad's great manuscript library — into the Tigris River. Eyewitnesses described the river running black with ink for days. The House of Wisdom had functioned since the eighth century as a translation academy and manuscript repository containing Greek, Persian, Indian, and Syriac texts, some of which existed nowhere else. The loss is one of the largest single destructions of accumulated knowledge in pre-modern history.",
+      "wikiSlug": "House_of_Wisdom",
+      "tier": 2,
+      "category": "writing",
+      "tags": ["architecture"]
+    },
+    {
+      "id": "evt-kitbuqa",
+      "label": "Kitbuqa killed at Ayn Jalut",
+      "year": 1260,
+      "description": "Kitbuqa, a Naiman Nestorian Christian and one of Hülegü's most senior generals, was left in command of the Mongol occupation force in Syria when Hülegü withdrew east after Möngke Khan's death. At the Battle of Ayn Jalut in September 1260, the Mamluk general Baybars used a feigned retreat to draw Kitbuqa's army into a prepared killing zone. Kitbuqa was captured and executed — the first Mongol field commander to be defeated and killed in a pitched battle.",
+      "wikiSlug": "Kitbuqa",
+      "tier": 3,
+      "category": "people",
+      "tags": ["wars"]
+    },
+    {
+      "id": "evt-ariq-boke",
+      "label": "Ariq Böke's rival kurultai",
+      "year": 1260,
+      "endYear": 1264,
+      "description": "Ariq Böke, the youngest of Tolui's sons and regent at Karakorum, called his own kurultai to claim the title of Great Khan in 1260, directly contesting Kublai's parallel election at Kaiping. Ariq Böke represented the steppe traditionalist faction who believed the empire should remain anchored in Mongolia. Kublai cut off Karakorum's grain supply and starved him into surrender by 1264. Ariq Böke died in custody in 1266, possibly poisoned, ending the debate about whether the Mongol Empire would be a steppe polity or a Chinese-style dynasty.",
+      "wikiSlug": "Ariq_Böke",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-sarai-capital",
+      "label": "Sarai — Golden Horde capital",
+      "year": 1254,
+      "description": "Batu Khan established Sarai (also called Old Sarai or Sarai Batu) on the lower Volga near modern Astrakhan as the administrative capital of the Golden Horde. The city grew into one of the largest in the medieval world, with a population estimated at one hundred thousand at its peak, containing mosques, churches, craft workshops, and a resident Genoese merchant quarter. All Russian princes were required to travel to Sarai to receive their yarlyk (patent of rule) from the khan.",
+      "wikiSlug": "Sarai,_Golden_Horde",
+      "tier": 3,
+      "category": "architecture",
+      "tags": ["trade"]
+    },
+    {
+      "id": "evt-lu-xiufu",
+      "label": "Lu Xiufu's last stand at Yamen",
+      "year": 1279,
+      "description": "As the Yuan fleet destroyed the last Song loyalist fleet at Yamen in March 1279, the senior Song minister Lu Xiufu made the decision that the child emperor Zhao Bing should not survive to become a Mongol captive. He took the seven-year-old emperor in his arms and walked into the sea. Over a hundred thousand Song loyalists reportedly died in the battle or drowned themselves rather than surrender. It is one of the most dramatic endings of any dynasty in Chinese history.",
+      "wikiSlug": "Lu_Xiufu",
+      "tier": 3,
+      "category": "people",
+      "tags": ["wars"]
     }
   ],
   "wikiSlug": "Mongol_Empire",
