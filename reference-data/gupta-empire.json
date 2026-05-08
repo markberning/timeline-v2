@@ -457,6 +457,287 @@
       "tier": 3,
       "tags": [],
       "category": "writing"
+    },
+    {
+      "id": "evt-ramagupta",
+      "label": "Ramagupta's Brief Reign",
+      "year": 376,
+      "description": "Ramagupta briefly held the Gupta throne before his brother Chandragupta II seized power, reportedly after Ramagupta agreed to hand over his queen to a Saka king.",
+      "wikiSlug": "Ramagupta",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-samudragupta-northern-campaign",
+      "label": "Samudragupta's Northern Conquests",
+      "year": 340,
+      "description": "Samudragupta defeated and annexed nine kingdoms across the Gangetic plain and northern India, establishing direct Gupta rule from Bengal to Punjab.",
+      "wikiSlug": "Samudragupta#Military_campaigns",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-chandragupta-ii-coronation",
+      "label": "Chandragupta II Takes Vikramaditya Title",
+      "year": 380,
+      "description": "Chandragupta II adopted the legendary title Vikramaditya (Sun of Valor) upon ascending the throne, connecting his reign to the heroic ideal of Indian kingship.",
+      "wikiSlug": "Chandragupta_II#Titles",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-skandagupta-hun-defeat",
+      "label": "Skandagupta Repels the Huns",
+      "year": 458,
+      "description": "Skandagupta inflicted a decisive defeat on the Hephthalite Huns in 458 CE, temporarily halting their advance and earning wide acclaim as a savior of civilization.",
+      "wikiSlug": "Skandagupta#Wars_with_the_Hunas",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-budhagupta",
+      "label": "Budhagupta's Reign",
+      "year": 477,
+      "endYear": 496,
+      "description": "Budhagupta was among the last rulers to maintain a semblance of unified Gupta authority, issuing coins across a still-wide territory even as the empire fragmented.",
+      "wikiSlug": "Budhagupta",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-yashodharman-defeats-huns",
+      "label": "Yashodharman Defeats Mihirakula",
+      "year": 528,
+      "description": "Regional king Yashodharman allied with Gupta vassal forces to crush the Huna leader Mihirakula, ending the most brutal phase of Hunnic domination of northern India.",
+      "wikiSlug": "Yashodharman",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-huna-second-wave",
+      "label": "Second Huna Invasion Wave",
+      "year": 484,
+      "description": "A renewed Hephthalite offensive in the 480s overran large swaths of northwestern India, triggering provincial secessions and accelerating the Gupta collapse.",
+      "wikiSlug": "Hephthalite_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-aryabhata-person",
+      "label": "Aryabhata the Mathematician",
+      "year": 476,
+      "description": "Born in 476 CE, Aryabhata was the first named Indian mathematician-astronomer, whose revolutionary work on algebra, trigonometry, and astronomy influenced scholars across the Islamic world and Europe.",
+      "wikiSlug": "Aryabhata",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-varahamihira-person",
+      "label": "Varahamihira the Polymath",
+      "year": 505,
+      "description": "Varahamihira synthesized Greek, Babylonian, and Indian astronomy in the Pancha-Siddhantika and authored encyclopedic works on astrology, botany, and hydrology.",
+      "wikiSlug": "Varahamihira",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-dignaga",
+      "label": "Dignaga, Buddhist Logician",
+      "year": 480,
+      "description": "Buddhist philosopher Dignaga founded the school of Buddhist formal logic (pramana), producing works that transformed Indian epistemology and debate.",
+      "wikiSlug": "Dignaga",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-vatsyayana-person",
+      "label": "Vatsyayana the Scholar",
+      "year": 356,
+      "description": "Vatsyayana was a philosopher and grammarian who authored multiple works; the Kama Sutra is the most famous but he also wrote influential commentary on the Nyaya school of logic.",
+      "wikiSlug": "Vatsyayana",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-faxian-record",
+      "label": "Faxian's Fogguo Ji",
+      "year": 414,
+      "description": "On returning to China, Faxian wrote the Fogguo Ji (Record of Buddhist Kingdoms), a detailed eyewitness account of Gupta India's cities, monasteries, and daily life that remains an invaluable historical source.",
+      "wikiSlug": "Faxian#Record_of_Buddhist_Kingdoms",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kalidasa-meghaduta",
+      "label": "Meghaduta (The Cloud Messenger)",
+      "year": 401,
+      "description": "Kalidasa's lyric poem Meghaduta — in which a lovelorn spirit asks a cloud to carry a message to his distant wife — became the most celebrated example of Sanskrit lyric poetry.",
+      "wikiSlug": "Meghaduta",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kalidasa-raghuvamsa",
+      "label": "Raghuvamsa",
+      "year": 403,
+      "description": "Kalidasa's epic poem Raghuvamsa chronicles the Solar Dynasty of kings from whom Rama descended, showcasing the full range of Sanskrit mahakavya (great poem) conventions.",
+      "wikiSlug": "Raghuvamsa",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mrcchakatika",
+      "label": "Mricchakatika (The Little Clay Cart)",
+      "year": 415,
+      "description": "Sudraka's Sanskrit drama Mricchakatika, depicting the love affair of a poor Brahmin and a courtesan amid political upheaval, is among the most performed classical Indian plays.",
+      "wikiSlug": "Mricchakatika",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-vishakhadatta-mudrarakshasa",
+      "label": "Mudrarakshasa",
+      "year": 400,
+      "description": "Vishakhadatta's political drama Mudrarakshasa depicted the intrigues surrounding Chandragupta Maurya's rise to power, reflecting Gupta-era fascination with statecraft.",
+      "wikiSlug": "Mudrarakshasa",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-decimal-place-value",
+      "label": "Decimal Place-Value System",
+      "year": 458,
+      "description": "Indian scholars under the Guptas fully formalized the decimal place-value numeral system, the direct ancestor of the Hindu-Arabic numerals used globally today.",
+      "wikiSlug": "Hindu%E2%80%93Arabic_numeral_system",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-sine-tables",
+      "label": "Aryabhata's Sine Tables",
+      "year": 499,
+      "description": "Aryabhata computed the first known systematic table of sine values in his Aryabhatiya, founding trigonometry as a mathematical discipline.",
+      "wikiSlug": "Aryabhatiya#Trigonometry",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-iron-pillar-metallurgy",
+      "label": "Gupta Metallurgical Mastery",
+      "year": 402,
+      "description": "The rust-free Iron Pillar of Delhi demonstrates the Guptas' phosphoric wrought-iron smelting technique, a level of corrosion resistance not replicated in the West until the 20th century.",
+      "wikiSlug": "Iron_pillar_of_Delhi#Composition",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mahayana-buddhism-flourishes",
+      "label": "Mahayana Buddhism at Its Peak",
+      "year": 400,
+      "description": "Mahayana Buddhism flourished across the Gupta Empire despite the dynasty's personal preference for Vaishnavism, producing its most sophisticated philosophical texts and elaborate monastery networks.",
+      "wikiSlug": "Mahayana",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bhagavata-cult",
+      "label": "Bhagavata Vaishnava Cult Rises",
+      "year": 380,
+      "description": "The Bhagavata (devotional Vaishnava) cult became the dominant religious movement under Gupta royal patronage, establishing the personal devotion to Vishnu-Krishna that would define mainstream Hinduism.",
+      "wikiSlug": "Bhagavatism",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-shikhara-temples",
+      "label": "Shikhara Temple Architecture Emerges",
+      "year": 475,
+      "description": "The curvilinear shikhara tower became standardized as the defining feature of north Indian Hindu temple architecture during the late Gupta period, setting the template for all subsequent temple building.",
+      "wikiSlug": "Shikhara",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dashavatara-vishnu",
+      "label": "Ten Avatars of Vishnu Codified",
+      "year": 400,
+      "description": "The canonical list of Vishnu's ten principal avatars (Dashavatara) was consolidated during the Gupta period, forming the theological core of Vaishnava devotion.",
+      "wikiSlug": "Dashavatara",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bhitargaon-temple",
+      "label": "Bhitargaon Brick Temple",
+      "year": 450,
+      "description": "The Bhitargaon temple in Uttar Pradesh is one of the oldest surviving north Indian Hindu temples built in fired brick, featuring terracotta decorative panels that foreshadow later stone temple carving.",
+      "wikiSlug": "Bhitargaon_temple",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tigawa-vishnu-temple",
+      "label": "Vishnu Temple at Tigawa",
+      "year": 425,
+      "description": "The Vishnu Temple at Tigawa is an early example of the Gupta temple plan — a flat-roofed stone sanctuary with a pillared porch — representing the prototype from which the shikhara tradition developed.",
+      "wikiSlug": "Tigawa",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gupta-sculpture-style",
+      "label": "Gupta Sculptural Style Canonized",
+      "year": 400,
+      "description": "Gupta workshops established the canonical aesthetic for Hindu and Buddhist sculpture — elongated bodies, transparent drapery, serene expressions — that spread across South and Southeast Asia.",
+      "wikiSlug": "Gupta_art",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-southeast-asia-trade",
+      "label": "Indianization of Southeast Asia",
+      "year": 400,
+      "description": "Gupta-era merchants and Brahmin priests spread Sanskrit, Hinduism, and Indian political models to Funan, Champa, and early kingdoms of mainland Southeast Asia through intensifying trade networks.",
+      "wikiSlug": "Indianization",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-sasanian-trade",
+      "label": "Trade with Sasanian Persia",
+      "year": 385,
+      "description": "The Gupta Empire maintained vigorous commercial and diplomatic ties with the Sasanian Persian Empire, exchanging luxury goods, ivory, and horses along overland routes through Central Asia.",
+      "wikiSlug": "Sasanian_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
     }
   ]
 }
