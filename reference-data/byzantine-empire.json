@@ -1189,6 +1189,159 @@
       "wikiSlug": "Marcian",
       "tier": 3,
       "category": "rulers"
+    },
+    {
+      "id": "evt-battle-milvian-bridge",
+      "label": "Battle of the Milvian Bridge",
+      "year": 312,
+      "description": "Constantine defeated his rival Maxentius outside Rome, winning control of the western empire. His reported vision of a Christian symbol before the battle became the founding myth of Christian imperial rule.",
+      "wikiSlug": "Battle_of_the_Milvian_Bridge",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-edict-milan",
+      "label": "Edict of Milan",
+      "year": 313,
+      "description": "Constantine and his co-emperor Licinius legalized Christianity across the Roman Empire and ordered the return of confiscated church property, ending three centuries of intermittent persecution.",
+      "wikiSlug": "Edict_of_Milan",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-helena-true-cross",
+      "label": "Helena's Pilgrimage and the True Cross",
+      "year": 326,
+      "description": "Constantine's mother Helena made a pilgrimage to Jerusalem and reportedly discovered the True Cross buried under a pagan temple on Golgotha, establishing the relic that would become the empire's most sacred object and a recurring character in Byzantine history.",
+      "wikiSlug": "Helena_(empress)",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-theodosian-code",
+      "label": "Theodosian Code",
+      "year": 438,
+      "description": "Theodosius II commissioned the systematic compilation of all Roman imperial laws since Constantine into a single authoritative code — a major early codification of Roman law that prefigured Justinian's more ambitious Corpus Juris Civilis by ninety years.",
+      "wikiSlug": "Theodosian_Code",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tribonian",
+      "label": "Tribonian",
+      "year": 529,
+      "endYear": 534,
+      "description": "Justinian's chief legal officer and the principal architect of the Corpus Juris Civilis. Tribonian led the commission that condensed a thousand years of Roman legal writing into the Codex, Digest, and Institutes — the foundational texts of European civil law.",
+      "wikiSlug": "Tribonian",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-maurices-strategikon",
+      "label": "Maurice's Strategikon",
+      "year": 592,
+      "description": "Emperor Maurice composed a detailed military manual — covering cavalry tactics, infantry formations, logistics, and ethnic profiles of Byzantine enemies from Avars to Persians — that became the most important military handbook of early medieval warfare.",
+      "wikiSlug": "Strategikon_of_Maurice",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-niketas-choniates",
+      "label": "Niketas Choniates",
+      "year": 1155,
+      "endYear": 1217,
+      "description": "Byzantine historian and eyewitness of the 1204 sack, his Chronicle is the essential source for the Fourth Crusade and its aftermath — a horrified firsthand account of Crusaders looting Hagia Sophia and the systematic destruction of nine centuries of Byzantine civilization in three days.",
+      "wikiSlug": "Niketas_Choniates",
+      "tier": 3,
+      "tags": ["writing"],
+      "category": "people"
+    },
+    {
+      "id": "evt-union-lyons",
+      "label": "Union of Lyons",
+      "year": 1274,
+      "description": "Michael VIII Palaiologos signed a formal union of the Greek and Latin churches under papal supremacy to prevent Charles of Anjou from launching a crusade to retake Constantinople. The Greek clergy and people rejected it entirely, but the diplomatic gambit succeeded in keeping the Angevins at bay until the Sicilian Vespers removed the threat.",
+      "wikiSlug": "Second_Council_of_Lyon",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-sicilian-vespers",
+      "label": "Sicilian Vespers",
+      "year": 1282,
+      "description": "A popular uprising against French Angevin rule in Sicily, covertly funded by Michael VIII Palaiologos, killed thousands of French troops and destroyed Charles of Anjou's staging base for his planned reconquest of Constantinople — saving the restored Byzantine Empire from a second Latin occupation.",
+      "wikiSlug": "Sicilian_Vespers",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-chora-church",
+      "label": "Chora Church Mosaics",
+      "year": 1316,
+      "description": "The Church of Christ of the Chora in Constantinople was redecorated under the patronage of Theodore Metochites with mosaic and fresco cycles that represent the artistic zenith of the Palaiologan renaissance — emotionally vivid, spatially sophisticated, and among the finest surviving works of Byzantine art.",
+      "wikiSlug": "Chora_Church",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-varna",
+      "label": "Battle of Varna",
+      "year": 1444,
+      "description": "Ottoman forces destroyed the last major western crusade against them at Varna on the Black Sea coast, killing the Polish-Hungarian king Vladislav III and shattering any prospect of European military relief for Constantinople. The Union of Florence had been signed; the promised aid never arrived.",
+      "wikiSlug": "Battle_of_Varna",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-manuel-chrysoloras",
+      "label": "Manuel Chrysoloras Teaches in Florence",
+      "year": 1397,
+      "description": "Byzantine scholar Manuel Chrysoloras became the first person to teach classical Greek in western Europe since antiquity, training a generation of Italian humanists and initiating the direct transmission of Greek literature and philosophy to the Latin West — a process the fall of Constantinople would accelerate dramatically.",
+      "wikiSlug": "Manuel_Chrysoloras",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-george-sphrantzes",
+      "label": "George Sphrantzes",
+      "year": 1401,
+      "endYear": 1478,
+      "description": "Constantine XI's personal secretary and lifelong friend, Sphrantzes survived the fall of Constantinople and wrote the Memoirs — a firsthand chronicle of the last decades of the empire and the most intimate account of the emperor's final days inside the besieged city.",
+      "wikiSlug": "George_Sphrantzes",
+      "tier": 3,
+      "tags": ["writing"],
+      "category": "people"
+    },
+    {
+      "id": "evt-patriarch-gennadios-ii",
+      "label": "Patriarch Gennadios II",
+      "year": 1454,
+      "description": "Mehmed II appointed the anti-unionist theologian George Scholarios as Patriarch Gennadios II in 1454, granting him civil authority over all Orthodox Christians in the empire under the Rum millet system. The appointment preserved the institutional church through the Ottoman transition and made the Patriarchate the guardian of Greek Orthodox identity for the next four centuries.",
+      "wikiSlug": "Gennadius_II",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zoe-palaiologina-marriage",
+      "label": "Zoe Palaiologina Marries Ivan III",
+      "year": 1472,
+      "description": "The last Byzantine princess, Zoe Palaiologina (renamed Sophia), married Grand Duke Ivan III of Moscow, transferring the Byzantine double-headed eagle to the Russian state and giving Moscow a credible claim to the imperial inheritance. The marriage laid the foundation for the Third Rome doctrine and Russia's centuries-long self-identification as Byzantium's heir.",
+      "wikiSlug": "Sophia_Palaiologina",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
     }
   ],
   "wikiSlug": "Byzantine_Empire"
