@@ -1100,6 +1100,103 @@
       "tier": 1,
       "tags": [],
       "category": "wars"
+    },
+    {
+      "id": "evt-abu-nuwas",
+      "label": "Abu Nuwas",
+      "year": 796,
+      "description": "Abu Nuwas, the brilliant Iraqi-Persian poet and court favorite of Harun al-Rashid, composed wine poetry and love verse that challenged pious convention while remaining at the center of Abbasid cultural life — a measure of the Golden Age's intellectual latitude.",
+      "wikiSlug": "Abu_Nuwas",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-banu-musa-hiyal",
+      "label": "Banu Musa's Book of Ingenious Devices",
+      "year": 850,
+      "description": "The three Banu Musa brothers — Muhammad, Ahmad, and al-Hasan — produced the Kitab al-Hiyal, describing roughly a hundred mechanical devices including water-lifting machines, automata, and self-trimming lamps, while simultaneously funding Hunayn ibn Ishaq's translation school at a rate reportedly equal to the weight of each manuscript in gold.",
+      "wikiSlug": "Banu_Musa",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-thabit-ibn-qurra",
+      "label": "Thabit ibn Qurra",
+      "year": 870,
+      "description": "Thabit ibn Qurra, a Sabian mathematician from Harran patronized by the Banu Musa, corrected Arabic translations of Euclid, Ptolemy, and Archimedes, derived a formula for amicable numbers, extended the Pythagorean theorem to arbitrary triangles, and wrote on conic sections and music theory — producing some of the most original mathematics of the Golden Age.",
+      "wikiSlug": "Thabit_ibn_Qurra",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-maturidi",
+      "label": "Al-Maturidi's Theological School",
+      "year": 920,
+      "description": "Al-Maturidi of Samarkand founded the Maturidi school of Islamic theology, reaching conclusions similar to the Ash'ari school through slightly different reasoning and becoming the dominant theological framework in the Hanafi-influenced eastern Islamic world — the two schools together defined Sunni orthodoxy for the following millennium.",
+      "wikiSlug": "Al-Maturidi",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ibn-yunus",
+      "label": "Ibn Yunus's Hakimi Zij",
+      "year": 1000,
+      "description": "Ibn Yunus, working in Fatimid Cairo, produced the Hakimi Zij — a major astronomical compendium dedicated to the caliph al-Hakim — with observations of eclipses and planetary positions among the most accurate of the medieval period, establishing Cairo as a peer of Baghdad in Islamic astronomical science.",
+      "wikiSlug": "Ibn_Yunus",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-dar-al-ilm",
+      "label": "Fatimid Dar al-Ilm",
+      "year": 1005,
+      "description": "The Fatimid caliph al-Hakim founded the Dar al-Ilm (House of Knowledge) in Cairo, a research library and translation center modeled explicitly on the Abbasid House of Wisdom, which hosted Ibn al-Haytham and other scholars and established Cairo as a second intellectual capital of the Islamic world.",
+      "wikiSlug": "Dar_al-Ilm",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-jazari",
+      "label": "Al-Jazari's Book of Mechanical Devices",
+      "year": 1206,
+      "description": "Al-Jazari, engineer at the Artuqid court in Diyarbakir, completed the most comprehensive surviving work of medieval mechanical engineering anywhere in the world, describing fifty devices including a programmable musical robot, a double-action suction pump prefiguring industrial pumping, and water clocks of unprecedented accuracy.",
+      "wikiSlug": "Al-Jazari",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-maimonides",
+      "label": "Maimonides",
+      "year": 1190,
+      "description": "Maimonides (Moshe ben Maimon), a Jewish scholar born in Cordoba and working in Fatimid-then-Ayyubid Cairo, wrote the Mishneh Torah (a systematic codification of Jewish law) and the Guide for the Perplexed (integrating Jewish theology with Avicennan philosophy) — a product of the Islamic Golden Age's convivencia whose Latin translation influenced Thomas Aquinas.",
+      "wikiSlug": "Maimonides",
+      "tier": 2,
+      "tags": [
+        "people",
+        "writing"
+      ],
+      "category": "people"
     }
   ]
 }
