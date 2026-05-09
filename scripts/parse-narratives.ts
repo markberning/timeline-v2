@@ -154,6 +154,9 @@ const NARRATIVE_FILES: Record<string, string> = {
   'viking-age.md': 'viking-age',
   'mongol-empire.md': 'mongol-empire',
   'gupta-empire.md': 'gupta-empire',
+  'islamic-golden-age.md': 'islamic-golden-age',
+  'ottoman-empire.md': 'ottoman-empire',
+  'safavid-persia.md': 'safavid-persia',
 }
 
 function slugify(title: string): string {
