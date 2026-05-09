@@ -1,0 +1,1088 @@
+{
+  "id": "ottoman-empire",
+  "label": "Ottoman Empire",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "imageWikiSlug": "Suleiman_the_Magnificent",
+  "pitch": "For six hundred years the Ottoman Empire straddled Europe and Asia, controlling trade routes, holy cities, and the fate of millions. It begins with Osman I establishing a small beylik in Anatolia and explodes when Mehmed II (the Conqueror) achieves the Fall of Constantinople in 1453 — the event that ended the medieval world. Then Suleiman the Magnificent presides over the golden age, and Mimar Sinan — Chief Architect designs over 300 buildings including the Suleymaniye Mosque Completed.\n\n🔑 Key Facts:\n• The Janissary Corps Established created one of history's most formidable military forces from devshirme-recruited youths\n• The Battle of Kosovo in 1389 secured Ottoman dominance in the Balkans and became a defining moment in Balkan memory\n• The Piri Reis World Map of 1513 showed the Americas, making it one of the earliest surviving maps to do so\n• The Grand Bazaar of Istanbul became one of the world's largest and oldest covered markets, a commercial engine for centuries\n\n🤔 Why It Matters: Ottoman legal innovation (Kanuni Law Code of Suleiman harmonizing secular and religious law), religious coexistence (Sephardic Jews Welcomed after Spain's expulsion), and architectural brilliance (the Selimiye Mosque (Edirne) surpassing Hagia Sophia) shaped the modern Middle East, North Africa, and southeastern Europe.\n\n🎲 Wild Card: Ottoman Coffeehouses, first opened in Istanbul in 1555, became hotbeds of political debate and intellectual exchange — and spread the coffee habit to Europe, fueling the Enlightenment one cup at a time.",
+  "countryIds": [
+    "792",
+    "300",
+    "818",
+    "368",
+    "760"
+  ],
+  "spans": [
+    {
+      "id": "span-ottoman-empire-ottoman-founding",
+      "label": "Founding & Early Expansion",
+      "startYear": 1299,
+      "endYear": 1389,
+      "wikiSlug": "Rise_of_the_Ottoman_Empire",
+      "description": "Osman I established a small Anatolian beylik that rapidly expanded by absorbing Byzantine frontier lands. His successors captured Bursa and crossed into Europe, establishing the Janissary corps and making Edirne their European capital."
+    },
+    {
+      "id": "span-ottoman-empire-ottoman-rise",
+      "label": "Rise to Power",
+      "startYear": 1389,
+      "endYear": 1453,
+      "wikiSlug": "Rise_of_the_Ottoman_Empire",
+      "description": "Victory at Kosovo secured Balkan dominance, though Timur's defeat of Bayezid I at Ankara in 1402 nearly destroyed the state. The empire survived the civil war of the Interregnum and crushed a final Crusader army at Varna."
+    },
+    {
+      "id": "span-ottoman-empire-ottoman-expansion",
+      "label": "Imperial Expansion",
+      "startYear": 1453,
+      "endYear": 1520,
+      "wikiSlug": "Growth_of_the_Ottoman_Empire",
+      "description": "Mehmed II's conquest of Constantinople in 1453 ended the Byzantine Empire and transformed the Ottomans into a world power. Selim I then conquered the Mamluk Sultanate, claiming the Caliphate and doubling the empire's size."
+    },
+    {
+      "id": "span-ottoman-empire-ottoman-golden-age",
+      "label": "Golden Age (Suleiman Era)",
+      "startYear": 1520,
+      "endYear": 1566,
+      "wikiSlug": "Ottoman_Empire",
+      "description": "Suleiman the Magnificent presided over the empire's zenith in law, architecture, and military power. Mimar Sinan built hundreds of monumental structures, and the Kanuni law code harmonized secular and religious law across three continents."
+    },
+    {
+      "id": "span-ottoman-empire-ottoman-post-suleiman",
+      "label": "Post-Suleiman Period",
+      "startYear": 1566,
+      "endYear": 1683,
+      "wikiSlug": "Stagnation_of_the_Ottoman_Empire",
+      "description": "The empire remained formidable but faced internal palace intrigue, the Sultanate of Women, and rising European naval competition. The failed 1683 siege of Vienna marked the definitive end of Ottoman westward expansion."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-osman-i",
+      "label": "Osman I",
+      "year": 1299,
+      "endYear": 1326,
+      "description": "Founder of the Ottoman dynasty who established an independent beylik in northwestern Anatolia, laying the foundation for the empire.",
+      "wikiSlug": "Osman_I",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-sheikh-edebali",
+      "label": "Sheikh Edebali — Spiritual Mentor",
+      "year": 1299,
+      "description": "Sufi mystic and scholar whose teachings guided Osman I and provided the spiritual foundations of the early Ottoman state.",
+      "wikiSlug": "Sheikh_Edebali",
+      "tier": 3,
+      "category": "religion",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-millet-system",
+      "label": "Millet System",
+      "year": 1299,
+      "description": "Ottoman framework granting recognized religious communities (Christians, Jews, Armenians) legal autonomy over personal matters such as marriage, inheritance, and education — a cornerstone of multi-ethnic imperial governance.",
+      "wikiSlug": "Millet_(Ottoman_Empire)",
+      "tier": 2,
+      "category": "religion",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-conquest-bursa",
+      "label": "Conquest of Bursa",
+      "year": 1326,
+      "description": "Capture of Bursa from the Byzantines made it the first major Ottoman capital and commercial hub.",
+      "wikiSlug": "Siege_of_Bursa_(1326)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-orhan-i",
+      "label": "Orhan I",
+      "year": 1326,
+      "endYear": 1362,
+      "description": "Second Ottoman sultan who organized the state administration and expanded into Thrace, crossing into Europe for the first time.",
+      "wikiSlug": "Orhan",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-first-ottoman-coinage",
+      "label": "First Ottoman Silver Coins",
+      "year": 1327,
+      "description": "Orhan minted the first Ottoman silver akce coins, establishing an independent monetary system for trade.",
+      "wikiSlug": "Ak%C3%A7e",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-conquest-gallipoli",
+      "label": "Conquest of Gallipoli",
+      "year": 1354,
+      "description": "Ottomans seized Gallipoli after an earthquake, establishing their first permanent foothold in Europe.",
+      "wikiSlug": "Fall_of_Gallipoli",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-murad-i",
+      "label": "Murad I",
+      "year": 1362,
+      "endYear": 1389,
+      "description": "Expanded the empire deep into the Balkans and established the Janissary corps and devshirme system.",
+      "wikiSlug": "Murad_I",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-janissary-corps",
+      "label": "Janissary Corps Established",
+      "year": 1363,
+      "description": "Murad I created the elite Janissary infantry corps from devshirme-recruited Christian youths, forming the empire's military backbone.",
+      "wikiSlug": "Janissaries",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-conquest-adrianople",
+      "label": "Conquest of Adrianople (Edirne)",
+      "year": 1369,
+      "description": "Capture of Adrianople gave the Ottomans a new European capital and strategic base for Balkan expansion.",
+      "wikiSlug": "Fall_of_Adrianople_(1369)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-devshirme-system",
+      "label": "Devshirme System Formalized",
+      "year": 1380,
+      "description": "System of recruiting Christian boys from the Balkans for conversion and training as elite Janissaries or administrators, central to Ottoman governance.",
+      "wikiSlug": "Devshirme",
+      "tier": 3,
+      "category": "religion",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-battle-kosovo",
+      "label": "Battle of Kosovo",
+      "year": 1389,
+      "description": "Decisive Ottoman victory over a Serbian-led coalition that secured Ottoman dominance in the Balkans. Murad I was killed during or after the battle.",
+      "wikiSlug": "Battle_of_Kosovo",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-bayezid-i",
+      "label": "Bayezid I (the Thunderbolt)",
+      "year": 1389,
+      "endYear": 1402,
+      "description": "Rapid conqueror who besieged Constantinople and expanded into Anatolia, but was defeated and captured by Timur at Ankara.",
+      "wikiSlug": "Bayezid_I",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-battle-nicopolis",
+      "label": "Battle of Nicopolis",
+      "year": 1396,
+      "description": "Bayezid crushed a major European Crusader army, ending the last large-scale Western crusade against the Ottomans.",
+      "wikiSlug": "Battle_of_Nicopolis",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ulu-cami-bursa",
+      "label": "Ulu Cami (Grand Mosque of Bursa)",
+      "year": 1399,
+      "description": "Monumental 20-domed mosque built by Bayezid I, a masterpiece of early Ottoman architecture.",
+      "wikiSlug": "Grand_Mosque_of_Bursa",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-ankara",
+      "label": "Battle of Ankara",
+      "year": 1402,
+      "description": "Timur defeated and captured Bayezid I, triggering the Ottoman Interregnum and nearly destroying the empire.",
+      "wikiSlug": "Battle_of_Ankara",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ottoman-interregnum",
+      "label": "Ottoman Interregnum",
+      "year": 1402,
+      "endYear": 1413,
+      "description": "Civil war among Bayezid's sons for the throne following the catastrophic defeat at Ankara.",
+      "wikiSlug": "Ottoman_Interregnum",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mehmed-i-reunification",
+      "label": "Mehmed I Reunifies the Empire",
+      "year": 1413,
+      "description": "After defeating his brothers in the Interregnum civil war, Mehmed I reunified the fractured Ottoman state, restoring central authority and beginning cautious reconstruction.",
+      "wikiSlug": "Mehmed_I",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-edirne-old-mosque",
+      "label": "Old Mosque of Edirne (Eski Cami)",
+      "year": 1414,
+      "description": "One of the oldest Ottoman imperial mosques, built during the Interregnum with monumental calligraphy covering its interior walls.",
+      "wikiSlug": "Old_Mosque,_Edirne",
+      "tier": 3,
+      "category": "architecture",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-murad-ii",
+      "label": "Murad II",
+      "year": 1421,
+      "endYear": 1451,
+      "description": "Consolidated Ottoman power in the Balkans and mentored his son Mehmed II. Twice abdicated and returned to the throne.",
+      "wikiSlug": "Murad_II",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-varna",
+      "label": "Battle of Varna",
+      "year": 1444,
+      "description": "Ottoman victory over a Crusader army led by King Wladyslaw III of Poland, ending the Crusade of Varna and securing the Balkans.",
+      "wikiSlug": "Battle_of_Varna",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ottoman-silk-trade",
+      "label": "Bursa Silk Trade Flourishes",
+      "year": 1450,
+      "description": "Bursa became the western terminus of the Silk Road, with the Ottoman state profiting enormously from silk trade taxation and production.",
+      "wikiSlug": "Bursa",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-mehmed-ii",
+      "label": "Mehmed II (the Conqueror)",
+      "year": 1451,
+      "endYear": 1481,
+      "description": "Conquered Constantinople and transformed the empire into a major world power, earning the title Kayser-i Rum.",
+      "wikiSlug": "Mehmed_the_Conqueror",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-fall-constantinople",
+      "label": "Fall of Constantinople",
+      "year": 1453,
+      "description": "Mehmed II captured Constantinople using massive cannons and naval ingenuity, ending the Byzantine Empire after over a millennium.",
+      "wikiSlug": "Fall_of_Constantinople",
+      "tier": 1,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-hagia-sophia-mosque",
+      "label": "Hagia Sophia Converted to Mosque",
+      "year": 1453,
+      "description": "Mehmed II converted the great Byzantine cathedral into an imperial mosque, symbolizing Ottoman triumph and cultural synthesis.",
+      "wikiSlug": "Hagia_Sophia",
+      "tier": 2,
+      "category": "religion",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-enderun-school",
+      "label": "Enderun Palace School",
+      "year": 1455,
+      "description": "Mehmed II established the elite palace school at Topkapi to train future statesmen, generals, and administrators from devshirme recruits.",
+      "wikiSlug": "Enderun",
+      "tier": 3,
+      "category": "science",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-topkapi-palace",
+      "label": "Topkapi Palace Construction",
+      "year": 1459,
+      "description": "Mehmed II began building Topkapi Palace as the primary residence and administrative center of the Ottoman sultans for nearly 400 years.",
+      "wikiSlug": "Topkap%C4%B1_Palace",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-conquest-trebizond",
+      "label": "Conquest of Trebizond",
+      "year": 1461,
+      "description": "Mehmed II eliminated the last surviving successor state of the Byzantine Empire, the Empire of Trebizond on the Black Sea coast, completing Ottoman control of Anatolia.",
+      "wikiSlug": "Fall_of_Trebizond",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-istanbul-grand-bazaar",
+      "label": "Grand Bazaar of Istanbul",
+      "year": 1461,
+      "description": "Mehmed II ordered construction of the Grand Bazaar, which became one of the world's largest and oldest covered markets.",
+      "wikiSlug": "Grand_Bazaar,_Istanbul",
+      "tier": 2,
+      "category": "trade",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-conquest-negroponte",
+      "label": "Conquest of Negroponte",
+      "year": 1470,
+      "description": "Ottoman forces captured the Venetian-held island of Euboea (Negroponte), a strategic blow to Venetian commercial power in the Aegean and a shock to Western Europe.",
+      "wikiSlug": "Ottoman%E2%80%93Venetian_War_(1463%E2%80%931479)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-fatih-mosque",
+      "label": "Fatih Mosque Built",
+      "year": 1470,
+      "description": "Mehmed II's imperial mosque complex included a hospital, library, and madrasas, setting the model for Ottoman kulliye complexes.",
+      "wikiSlug": "Fatih_Mosque",
+      "tier": 3,
+      "category": "architecture",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-kanunname-mehmed",
+      "label": "Kanunname of Mehmed II",
+      "year": 1477,
+      "description": "Mehmed II codified Ottoman administrative and criminal law, including the fratricide law allowing sultans to execute brothers upon accession.",
+      "wikiSlug": "Kanunname",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-barbarossa-admiral",
+      "label": "Hayreddin Barbarossa",
+      "year": 1478,
+      "endYear": 1546,
+      "description": "Ottoman admiral who dominated the Mediterranean, defeating the Holy League at Preveza in 1538 and establishing Ottoman naval supremacy.",
+      "wikiSlug": "Hayreddin_Barbarossa",
+      "tier": 2,
+      "category": "people",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-matrakci-nasuh",
+      "label": "Matrakci Nasuh — Polymath",
+      "year": 1480,
+      "endYear": 1564,
+      "description": "Ottoman polymath known for miniature painting, mathematics, swordsmanship, and topographic illustrations of Suleiman's campaigns.",
+      "wikiSlug": "Matrak%C3%A7%C4%B1_Nasuh",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "evt-bayezid-ii-mosque-complex",
+      "label": "Bayezid II Mosque Complex (Edirne)",
+      "year": 1488,
+      "description": "Innovative mosque-hospital complex in Edirne, famous for treating mental illness with music therapy.",
+      "wikiSlug": "Bayezid_II_Mosque_(Edirne)",
+      "tier": 3,
+      "category": "architecture",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "evt-sephardic-jews-welcomed",
+      "label": "Sephardic Jews Welcomed",
+      "year": 1492,
+      "description": "Bayezid II invited Jews expelled from Spain, enriching Ottoman commerce, medicine, and printing.",
+      "wikiSlug": "History_of_the_Jews_in_the_Ottoman_Empire",
+      "tier": 3,
+      "category": "trade",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-ibrahim-muteferrika-printing",
+      "label": "First Ottoman Printing Press",
+      "year": 1493,
+      "description": "Sephardic Jewish refugees established the first printing press in the Ottoman Empire, initially printing in Hebrew.",
+      "wikiSlug": "Printing_in_the_Ottoman_Empire",
+      "tier": 3,
+      "category": "science",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-selim-i",
+      "label": "Selim I (the Grim)",
+      "year": 1512,
+      "endYear": 1520,
+      "description": "Conquered the Mamluk Sultanate and claimed the Caliphate, doubling the empire's size in eight years.",
+      "wikiSlug": "Selim_I",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-piri-reis-map",
+      "label": "Piri Reis World Map",
+      "year": 1513,
+      "description": "Ottoman admiral Piri Reis compiled a world map showing the Americas, one of the earliest surviving maps to do so.",
+      "wikiSlug": "Piri_Reis_map",
+      "tier": 2,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-battle-chaldiran",
+      "label": "Battle of Chaldiran",
+      "year": 1514,
+      "description": "Selim I defeated the Safavid Shah Ismail, securing eastern Anatolia and demonstrating Ottoman gunpowder superiority.",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-egypt",
+      "label": "Ottoman Conquest of Egypt",
+      "year": 1517,
+      "description": "Selim I defeated the Mamluks at Ridaniya and annexed Egypt, gaining control of the Hijaz and the holy cities of Mecca and Medina.",
+      "wikiSlug": "Ottoman_conquest_of_Egypt",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-caliphate-claimed",
+      "label": "Ottoman Caliphate Claimed",
+      "year": 1517,
+      "description": "After conquering Egypt, Selim I assumed the title of Caliph, giving the Ottomans spiritual authority over Sunni Muslims worldwide.",
+      "wikiSlug": "Ottoman_Caliphate",
+      "tier": 2,
+      "category": "religion",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-suleiman-i",
+      "label": "Suleiman the Magnificent",
+      "year": 1520,
+      "endYear": 1566,
+      "description": "Longest-reigning Ottoman sultan who presided over the empire's golden age in law, architecture, and military power.",
+      "wikiSlug": "Suleiman_the_Magnificent",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-hurrem-sultan",
+      "label": "Hurrem Sultan (Roxelana)",
+      "year": 1520,
+      "endYear": 1558,
+      "description": "Suleiman's powerful consort who became the first legal wife of a sultan in Ottoman history, wielding enormous political influence.",
+      "wikiSlug": "Hurrem_Sultan",
+      "tier": 2,
+      "category": "people",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-piri-reis-navigation",
+      "label": "Kitab-i Bahriye (Book of Navigation)",
+      "year": 1521,
+      "description": "Piri Reis published his comprehensive maritime atlas with detailed charts and sailing instructions for the Mediterranean.",
+      "wikiSlug": "Kitab-%C4%B1_Bahriye",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "evt-conquest-belgrade",
+      "label": "Conquest of Belgrade",
+      "year": 1521,
+      "description": "Suleiman captured Belgrade, the key fortress guarding Hungary, opening the road to Central Europe and the Battle of Mohacs.",
+      "wikiSlug": "Siege_of_Belgrade_(1521)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-rhodes",
+      "label": "Siege of Rhodes",
+      "year": 1522,
+      "description": "Suleiman captured Rhodes from the Knights Hospitaller after a six-month siege, securing Ottoman control of the eastern Mediterranean sea lanes.",
+      "wikiSlug": "Siege_of_Rhodes_(1522)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-mohacs",
+      "label": "Battle of Mohacs",
+      "year": 1526,
+      "description": "Decisive Ottoman victory that destroyed the Kingdom of Hungary and extended the empire into central Europe.",
+      "wikiSlug": "Battle_of_Moh%C3%A1cs_(1526)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-vienna",
+      "label": "First Siege of Vienna",
+      "year": 1529,
+      "description": "Suleiman's unsuccessful siege of Vienna marked the westernmost extent of Ottoman expansion into Europe.",
+      "wikiSlug": "Siege_of_Vienna_(1529)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-kanuni-law-code",
+      "label": "Kanuni Law Code of Suleiman",
+      "year": 1530,
+      "description": "Suleiman codified Ottoman secular law (kanun), harmonizing it with sharia and earning the title 'Lawgiver' (Kanuni).",
+      "wikiSlug": "Suleiman_the_Magnificent#Lawgiver",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-conquest-baghdad",
+      "label": "Ottoman Conquest of Baghdad",
+      "year": 1534,
+      "description": "Suleiman captured Baghdad from the Safavids, bringing Mesopotamia under Ottoman control and signaling dominance in the contest for Sunni leadership against Shia Persia.",
+      "wikiSlug": "Ottoman%E2%80%93Safavid_War_(1532%E2%80%9355)",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-capitulations-france",
+      "label": "Franco-Ottoman Capitulations",
+      "year": 1536,
+      "description": "Suleiman granted France trade privileges and legal protections, the first major diplomatic capitulations and a groundbreaking alliance with a Christian power.",
+      "wikiSlug": "Franco-Ottoman_alliance",
+      "tier": 3,
+      "category": "trade",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-battle-preveza",
+      "label": "Battle of Preveza",
+      "year": 1538,
+      "description": "Barbarossa's fleet routed a combined Christian fleet, securing Ottoman dominance over the Mediterranean for decades.",
+      "wikiSlug": "Battle_of_Preveza",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-mimar-sinan",
+      "label": "Mimar Sinan — Chief Architect",
+      "year": 1539,
+      "endYear": 1588,
+      "description": "Greatest Ottoman architect who served as chief royal architect for 50 years, designing over 300 structures across the empire.",
+      "wikiSlug": "Mimar_Sinan",
+      "tier": 1,
+      "category": "people",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-iznik-tiles",
+      "label": "Iznik Tile Production Peaks",
+      "year": 1550,
+      "description": "Iznik pottery reached its artistic zenith producing iconic blue, red, and green ceramic tiles that adorned Ottoman mosques and palaces.",
+      "wikiSlug": "%C4%B0znik_pottery",
+      "tier": 3,
+      "category": "trade",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-ottoman-coffee-culture",
+      "label": "Ottoman Coffeehouses",
+      "year": 1555,
+      "description": "The first coffeehouse opened in Istanbul, sparking a coffeehouse culture that became central to Ottoman social life, intellectual exchange, and politics.",
+      "wikiSlug": "Turkish_coffee",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-suleymaniye-mosque",
+      "label": "Suleymaniye Mosque Completed",
+      "year": 1557,
+      "description": "Sinan's imperial masterpiece in Istanbul, considered one of the finest achievements of Ottoman architecture.",
+      "wikiSlug": "S%C3%BCleymaniye_Mosque",
+      "tier": 2,
+      "category": "architecture",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-sokollu-mehmed-pasha",
+      "label": "Sokollu Mehmed Pasha",
+      "year": 1565,
+      "endYear": 1579,
+      "description": "Grand Vizier who effectively ran the empire under three sultans, maintaining stability during the transition from Suleiman's golden age.",
+      "wikiSlug": "Sokollu_Mehmed_Pasha",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-battle-lepanto",
+      "label": "Battle of Lepanto",
+      "year": 1571,
+      "description": "Holy League fleet defeated the Ottoman navy in the largest naval battle in Western history, though the Ottomans rebuilt their fleet within a year.",
+      "wikiSlug": "Battle_of_Lepanto",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-selimiye-mosque",
+      "label": "Selimiye Mosque (Edirne)",
+      "year": 1574,
+      "description": "Sinan's self-proclaimed masterpiece in Edirne, with a massive central dome surpassing Hagia Sophia. Now a UNESCO World Heritage Site.",
+      "wikiSlug": "Selimiye_Mosque",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ottoman-observatory",
+      "label": "Istanbul Observatory of Taqi al-Din",
+      "year": 1577,
+      "description": "Taqi al-Din built an advanced astronomical observatory in Istanbul, rivaling Tycho Brahe's, though it was demolished in 1580.",
+      "wikiSlug": "Istanbul_observatory_of_Taqi_al-Din",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-long-turkish-war",
+      "label": "Long Turkish War",
+      "year": 1593,
+      "endYear": 1606,
+      "description": "Exhausting conflict with the Habsburg Empire that ended in stalemate at the Peace of Zsitvatorok — the first treaty in which the Ottomans acknowledged the Habsburg Emperor as an equal rather than a vassal.",
+      "wikiSlug": "Long_Turkish_War",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cage-system-succession",
+      "label": "Kafes — The Cage System",
+      "year": 1603,
+      "description": "After centuries of fratricide, the Ottomans replaced royal execution of princes with confinement in gilded palace apartments (the 'cage'), producing later sultans who were isolated and often ill-equipped for rule.",
+      "wikiSlug": "Kafes",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-evliya-celebi",
+      "label": "Evliya Celebi — Traveler",
+      "year": 1611,
+      "endYear": 1682,
+      "description": "Ottoman traveler who spent 40 years journeying across the empire, producing the ten-volume Seyahatname, one of the great travel books of world literature.",
+      "wikiSlug": "Evliya_Çelebi",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-ahmed-mosque",
+      "label": "Sultan Ahmed Mosque (Blue Mosque)",
+      "year": 1616,
+      "description": "Iconic six-minareted mosque built opposite Hagia Sophia, famous for its interior blue Iznik tilework.",
+      "wikiSlug": "Sultan_Ahmed_Mosque",
+      "tier": 2,
+      "category": "architecture",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-sultanate-of-women",
+      "label": "Sultanate of Women",
+      "year": 1623,
+      "endYear": 1683,
+      "description": "Period when powerful women of the imperial harem — mothers and consorts of sultans — effectively controlled state affairs, with figures such as Kösem Sultan acting as regent and dominant political force.",
+      "wikiSlug": "Sultanate_of_Women",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-yeni-cami-istanbul",
+      "label": "Yeni Cami (New Mosque) Completed",
+      "year": 1665,
+      "description": "The 'New Mosque' at Eminönü on Istanbul's Golden Horn, begun in 1597 and completed after repeated interruptions, became one of the defining landmarks of the imperial city's skyline.",
+      "wikiSlug": "Yeni_Cami,_Istanbul",
+      "tier": 3,
+      "category": "architecture",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-siege-vienna-1683",
+      "label": "Battle of Vienna (1683)",
+      "year": 1683,
+      "description": "Failed Ottoman siege of Vienna marked the beginning of Ottoman territorial retreat in Europe and the end of westward expansion.",
+      "wikiSlug": "Battle_of_Vienna",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-karlowitz",
+      "label": "Treaty of Karlowitz",
+      "year": 1699,
+      "description": "First major peace treaty in which the Ottomans surrendered large territories to Christian powers — Hungary and Transylvania to the Habsburgs, Podolia to Poland — marking a decisive turn from conquest to defense.",
+      "wikiSlug": "Treaty_of_Karlowitz",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-lale-devri",
+      "label": "Lale Devri (Tulip Era)",
+      "year": 1718,
+      "endYear": 1730,
+      "description": "Peaceful interlude under Grand Vizier Ibrahim Pasha in which the Ottoman elite embraced European arts, tulip cultivation, and pleasure gardens — a fleeting attempt at cultural modernization cut short by popular revolt.",
+      "wikiSlug": "Tulip_period",
+      "tier": 2,
+      "category": "trade",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-ibrahim-muteferrika-arabic-press",
+      "label": "Ibrahim Müteferrika Arabic-Script Press",
+      "year": 1727,
+      "description": "Hungarian-born Ottoman convert Ibrahim Müteferrika established the first press to print books in Ottoman Turkish (Arabic script), a transformative but initially limited step toward mass literacy.",
+      "wikiSlug": "Ibrahim_M%C3%BCteferrika",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "evt-patrona-halil-revolt",
+      "label": "Patrona Halil Rebellion",
+      "year": 1730,
+      "description": "Janissary-led popular revolt in Istanbul that overthrew Sultan Ahmed III and his reforming Grand Vizier, ending the Tulip Era and revealing the limits of top-down Westernization.",
+      "wikiSlug": "Patrona_Halil_revolt",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-crimean-war",
+      "label": "Crimean War",
+      "year": 1853,
+      "endYear": 1856,
+      "description": "The Ottoman Empire, allied with Britain, France, and Sardinia, fought Russia in Crimea. The war exposed Ottoman military weakness, led to the Hatt-ı Hümayun reform edict, and produced Florence Nightingale's nursing revolution.",
+      "wikiSlug": "Crimean_War",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-dolmabahce-palace",
+      "label": "Dolmabahçe Palace Completed",
+      "year": 1856,
+      "description": "Baroque-influenced European-style palace on the Bosphorus replaced Topkapi as the imperial residence, symbolizing Ottoman ambitions to modernize and impress European powers.",
+      "wikiSlug": "Dolmabah%C3%A7e_Palace",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hatt-i-humayun",
+      "label": "Hatt-ı Hümayun Reform Edict",
+      "year": 1856,
+      "description": "Imperial rescript guaranteeing equality before the law for all Ottoman subjects regardless of religion, issued under European pressure at the end of the Crimean War.",
+      "wikiSlug": "Hatt-%C4%B1_H%C3%BCmayun",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-russo-turkish-war-1877",
+      "label": "Russo-Turkish War (1877–78)",
+      "year": 1877,
+      "endYear": 1878,
+      "description": "Russia defeated the Ottomans and liberated Bulgaria, Romania, and Serbia. The Treaty of San Stefano and subsequent Congress of Berlin reshaped the Balkans and accelerated the empire's European collapse.",
+      "wikiSlug": "Russo-Turkish_War_(1877%E2%80%931878)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-tanzimat-reforms",
+      "label": "Tanzimat Reforms",
+      "year": 1839,
+      "endYear": 1876,
+      "description": "Era of sweeping modernizing edicts that reorganized the military, judiciary, and taxation, and introduced a civil law code modeled on European precedent — the most sustained reform effort in Ottoman history.",
+      "wikiSlug": "Tanzimat",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-ottoman-constitution-1876",
+      "label": "First Ottoman Constitution",
+      "year": 1876,
+      "description": "Sultan Abdülhamid II promulgated the empire's first constitution and parliament, only to suspend both within two years — a short-lived experiment that nevertheless planted constitutional expectations.",
+      "wikiSlug": "Ottoman_Constitution_of_1876",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-abdulhamid-ii",
+      "label": "Abdülhamid II — Red Sultan",
+      "year": 1876,
+      "endYear": 1909,
+      "description": "Sultan who ruled with authoritarian censorship and secret police while also modernizing railways, telegraphs, and education. His pan-Islamic ideology sought to hold a fracturing empire together through religious solidarity.",
+      "wikiSlug": "Abdul_Hamid_II",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-young-turk-revolution",
+      "label": "Young Turk Revolution",
+      "year": 1908,
+      "description": "The Committee of Union and Progress forced Abdülhamid II to restore the 1876 constitution, marking the beginning of constitutional government and the effective transfer of power to reformist military officers.",
+      "wikiSlug": "Young_Turk_Revolution",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-balkan-wars",
+      "label": "Balkan Wars",
+      "year": 1912,
+      "endYear": 1913,
+      "description": "Two rapid wars in which the Ottoman Empire lost almost all its remaining European territory — including Macedonia and most of Thrace — to a coalition of Balkan states, triggering a massive refugee crisis.",
+      "wikiSlug": "Balkan_Wars",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-wwi-ottoman-entry",
+      "label": "Ottoman Entry into WWI",
+      "year": 1914,
+      "description": "The Committee of Union and Progress aligned the empire with Germany and Austria-Hungary, gambling that a Central Powers victory would reverse territorial losses. The bet was catastrophic.",
+      "wikiSlug": "Ottoman_Empire_in_World_War_I",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-armenian-genocide",
+      "label": "Armenian Genocide",
+      "year": 1915,
+      "description": "The Ottoman government ordered the deportation and massacre of its Armenian population. Over one million Armenians perished — one of the twentieth century's first genocides and a defining atrocity of the late empire.",
+      "wikiSlug": "Armenian_genocide",
+      "tier": 1,
+      "category": "wars",
+      "tags": [
+        "people",
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-gallipoli-campaign",
+      "label": "Gallipoli Campaign",
+      "year": 1915,
+      "description": "Allied landings on the Gallipoli Peninsula aimed to knock the Ottomans out of the war and open a sea route to Russia. Ottoman forces under Mustafa Kemal repulsed the invasion after eight months of brutal fighting.",
+      "wikiSlug": "Gallipoli_campaign",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-mudros-armistice",
+      "label": "Mudros Armistice",
+      "year": 1918,
+      "description": "The Ottoman Empire signed an armistice with the Allies, ending its participation in WWI and opening its territory to Allied occupation — the effective end of Ottoman sovereignty.",
+      "wikiSlug": "Armistice_of_Mudros",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-greco-turkish-war",
+      "label": "Greco-Turkish War",
+      "year": 1919,
+      "endYear": 1922,
+      "description": "Greek forces, backed by the Allies, invaded Anatolia but were decisively defeated by Mustafa Kemal's nationalist army, leading to a massive population exchange that ended the ancient Greek presence in Asia Minor.",
+      "wikiSlug": "Greco-Turkish_War_(1919%E2%80%931922)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-abolition-sultanate",
+      "label": "Abolition of the Sultanate",
+      "year": 1922,
+      "description": "The Grand National Assembly abolished the sultanate, stripping Mehmed VI of temporal power and ending 623 years of Ottoman dynastic rule. He fled Istanbul on a British warship.",
+      "wikiSlug": "Abolition_of_the_Ottoman_sultanate",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-selim-iii-new-order",
+      "label": "Selim III — Nizam-ı Cedid Reforms",
+      "year": 1789,
+      "endYear": 1807,
+      "description": "Sultan Selim III created a new European-style infantry corps (Nizam-ı Cedid) to modernize the army, provoking Janissary resistance that eventually cost him his throne and his life.",
+      "wikiSlug": "Selim_III",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-mahmud-ii-janissary-dissolution",
+      "label": "Auspicious Incident — Janissaries Destroyed",
+      "year": 1826,
+      "description": "Sultan Mahmud II suppressed and permanently abolished the Janissary corps after they mutinied against his new European-trained army. Thousands were killed; barracks were burned. The event cleared the way for modern military reform.",
+      "wikiSlug": "Auspicious_Incident",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-tanzimat-gulhane",
+      "label": "Gülhane Rescript (Tanzimat Launch)",
+      "year": 1839,
+      "description": "Sultan Abdülmecid I issued the Gülhane Imperial Edict, guaranteeing life, property, and honor to all subjects regardless of religion and inaugurating the Tanzimat reform era.",
+      "wikiSlug": "Tanzimat#G%C3%BClhane_Imperial_Edict",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-ottoman-divan-poetry",
+      "label": "Ottoman Divan Poetry Tradition",
+      "year": 1453,
+      "endYear": 1800,
+      "description": "Highly refined courtly poetry in Ottoman Turkish, drawing on Persian and Arabic models. Figures such as Fuzuli and Baki produced canonical works that shaped Ottoman literary culture for centuries.",
+      "wikiSlug": "Divan_poetry",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ottoman-miniature-painting",
+      "label": "Ottoman Miniature Painting Tradition",
+      "year": 1480,
+      "endYear": 1700,
+      "description": "Palace workshops (nakkashane) produced illustrated manuscripts chronicling imperial campaigns and court life, most famously the Surname-i Hümayun and Hunername, establishing a distinctive Ottoman visual style.",
+      "wikiSlug": "Ottoman_miniature",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-ulema-sheikh-ul-islam",
+      "label": "Sheikh ul-Islam — Chief Religious Authority",
+      "year": 1481,
+      "description": "The office of Sheikh ul-Islam was formalized under Mehmed II as the empire's highest religious authority, issuing fatwas that gave legal-religious sanction to sultanic decrees and war declarations.",
+      "wikiSlug": "Sheikh_ul-Islam",
+      "tier": 3,
+      "category": "religion",
+      "tags": [
+        "rulers"
+      ]
+    }
+  ],
+  "wikiSlug": "Ottoman_Empire"
+}
