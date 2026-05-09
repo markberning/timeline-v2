@@ -126,7 +126,9 @@ export const TL_CHAINS: TlChain[] = [
     shortLabel: 'Japan',
     origins: 'Japan\'s earliest inhabitants were the Jōmon people, hunter-gatherers who produced some of the world\'s oldest pottery around 14,000 BCE. Wet-rice agriculture arrived from the Korean peninsula beginning around 900 BCE, transforming settlement patterns and enabling the rise of powerful clans.',
     entries: [
-      { timelineId: 'ancient-japan', transition: 'By the late Heian period, imperial court power had waned and warrior clans dominated. After centuries of civil war, Tokugawa Ieyasu unified Japan and established 250 years of isolationist peace.' },
+      { timelineId: 'prehistoric-japan', transition: 'In 538, envoys from the Korean kingdom of Baekje presented a Buddhist statue and sutras to the Yamato court. The political crisis that followed launched Japan into the era of literacy, centralized state, and continental influence — the Asuka period.' },
+      { timelineId: 'asuka-nara-japan', transition: 'In 794, Emperor Kammu moved the capital to Heian-kyo (modern Kyoto), launching nearly four centuries of courtly literature, aristocratic refinement, and the slow emergence of a warrior class that would eventually overshadow the imperial court.' },
+      { timelineId: 'heian-japan', transition: 'The Genpei War ended the Heian era in 1185. Centuries of warrior rule and civil war followed, until Tokugawa Ieyasu unified Japan in 1603 and established 250 years of isolationist peace.' },
       { timelineId: 'edo-japan', transition: 'American warships in 1853 forced Japan open. The Tokugawa shogunate collapsed, and the Meiji Emperor launched a crash modernization that transformed Japan into an industrial power in a single generation.' },
       { timelineId: 'meiji-japan', transition: 'Meiji modernization fueled imperial ambitions that culminated in World War II. After devastating defeat, Japan reinvented itself as a pacifist economic powerhouse.' },
       { timelineId: 'japanese-economic-miracle' },

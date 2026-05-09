@@ -1,0 +1,972 @@
+{
+  "1": [
+    {
+      "term": "Asuka",
+      "matchText": "Asuka",
+      "wikiSlug": "Asuka_period",
+      "type": "concept"
+    },
+    {
+      "term": "Yamato",
+      "matchText": "Yamato",
+      "wikiSlug": "Yamato_period",
+      "type": "concept"
+    },
+    {
+      "term": "Baekje",
+      "matchText": "Baekje",
+      "wikiSlug": "Baekje",
+      "type": "place"
+    },
+    {
+      "term": "King Seong of Baekje",
+      "matchText": "King Seong",
+      "wikiSlug": "Seong_of_Baekje",
+      "type": "person"
+    },
+    {
+      "term": "Kofun period",
+      "matchText": "Kofun period",
+      "wikiSlug": "Kofun_period",
+      "type": "concept"
+    },
+    {
+      "term": "uji",
+      "matchText": "uji",
+      "wikiSlug": "Uji_(clan)",
+      "type": "concept"
+    },
+    {
+      "term": "Soga clan",
+      "matchText": "Soga",
+      "wikiSlug": "Soga_clan",
+      "type": "concept"
+    },
+    {
+      "term": "Mononobe clan",
+      "matchText": "Mononobe",
+      "wikiSlug": "Mononobe_clan",
+      "type": "concept"
+    },
+    {
+      "term": "Nakatomi clan",
+      "matchText": "Nakatomi",
+      "wikiSlug": "Nakatomi_clan",
+      "type": "concept"
+    },
+    {
+      "term": "toraijin",
+      "matchText": "toraijin",
+      "wikiSlug": "Toraijin",
+      "type": "concept"
+    },
+    {
+      "term": "kami",
+      "matchText": "kami",
+      "wikiSlug": "Kami",
+      "type": "concept"
+    },
+    {
+      "term": "Shinto",
+      "matchText": "Shinto",
+      "wikiSlug": "Shinto",
+      "type": "concept"
+    },
+    {
+      "term": "Mononobe no Moriya",
+      "matchText": "Mononobe no Moriya",
+      "wikiSlug": "Mononobe_no_Moriya",
+      "type": "person"
+    },
+    {
+      "term": "Shitenno-ji",
+      "matchText": "Shitenno-ji",
+      "wikiSlug": "Shitennō-ji",
+      "type": "place"
+    },
+    {
+      "term": "shinbutsu-shugo",
+      "matchText": "shinbutsu-shugo",
+      "wikiSlug": "Shinbutsu-shūgō",
+      "type": "concept"
+    },
+    {
+      "term": "Sushun",
+      "matchText": "Sushun",
+      "wikiSlug": "Emperor_Sushun",
+      "type": "person"
+    },
+    {
+      "term": "Three Kingdoms of Korea",
+      "matchText": "Three Kingdoms of Korea",
+      "wikiSlug": "Three_Kingdoms_of_Korea",
+      "type": "concept"
+    },
+    {
+      "term": "Bodh Gaya",
+      "matchText": "Bodh Gaya",
+      "wikiSlug": "Bodh_Gaya",
+      "type": "place"
+    },
+    {
+      "term": "Naniwa",
+      "matchText": "Naniwa",
+      "wikiSlug": "Naniwa-kyō",
+      "type": "place"
+    },
+    {
+      "term": "Sutra",
+      "matchText": "sutras",
+      "wikiSlug": "Sutra",
+      "type": "concept"
+    },
+    {
+      "term": "Mahayana Buddhism",
+      "matchText": "Mahayana",
+      "wikiSlug": "Mahayana",
+      "type": "concept"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "wikiSlug": "Gautama_Buddha",
+      "type": "person"
+    }
+  ],
+  "2": [
+    {
+      "term": "Empress Suiko",
+      "matchText": "Empress Suiko",
+      "wikiSlug": "Empress_Suiko",
+      "type": "person"
+    },
+    {
+      "term": "Asuka basin",
+      "matchText": "Asuka basin",
+      "wikiSlug": "Asuka,_Nara",
+      "type": "place"
+    },
+    {
+      "term": "Sui dynasty",
+      "matchText": "Sui",
+      "wikiSlug": "Sui_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Sui Yangdi",
+      "matchText": "Sui Emperor Yangdi",
+      "wikiSlug": "Emperor_Yang_of_Sui",
+      "type": "person"
+    },
+    {
+      "term": "Tianzi",
+      "matchText": "tianzi",
+      "wikiSlug": "Son_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "kentoshi",
+      "matchText": "kentoshi",
+      "wikiSlug": "Japanese_missions_to_Imperial_China",
+      "type": "concept"
+    },
+    {
+      "term": "Pagoda",
+      "matchText": "pagoda",
+      "wikiSlug": "Pagoda",
+      "type": "concept"
+    },
+    {
+      "term": "Asuka-dera",
+      "matchText": "Asuka-dera",
+      "wikiSlug": "Asuka-dera",
+      "type": "place"
+    },
+    {
+      "term": "Yamashiro no Oe",
+      "matchText": "Prince Yamashiro no Oe",
+      "wikiSlug": "Prince_Yamashiro",
+      "type": "person"
+    },
+    {
+      "term": "Bodhisattva",
+      "matchText": "bodhisattva",
+      "wikiSlug": "Bodhisattva",
+      "type": "concept"
+    },
+    {
+      "term": "Lotus Sutra",
+      "matchText": "Lotus Sutra",
+      "wikiSlug": "Lotus_Sutra",
+      "type": "concept"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "place"
+    },
+    {
+      "term": "Justinian I",
+      "matchText": "Justinian",
+      "wikiSlug": "Justinian_I",
+      "type": "person"
+    },
+    {
+      "term": "Tang dynasty",
+      "matchText": "Tang",
+      "wikiSlug": "Tang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Sassanid Empire",
+      "matchText": "Sassanid Empire",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Tokyo bracketing",
+      "matchText": "tokyo",
+      "wikiSlug": "Tokyō",
+      "type": "concept"
+    }
+  ],
+  "3": [
+    {
+      "term": "Soga no Iruka",
+      "matchText": "Soga no Iruka",
+      "wikiSlug": "Soga_no_Iruka",
+      "type": "person"
+    },
+    {
+      "term": "Soga no Emishi",
+      "matchText": "Soga no Emishi",
+      "wikiSlug": "Soga_no_Emishi",
+      "type": "person"
+    },
+    {
+      "term": "Naka no Oe",
+      "matchText": "Naka no Oe",
+      "wikiSlug": "Emperor_Tenji",
+      "type": "person"
+    },
+    {
+      "term": "Empress Kogyoku",
+      "matchText": "Empress Kogyoku",
+      "wikiSlug": "Empress_Kōgyoku",
+      "type": "person"
+    },
+    {
+      "term": "kemari",
+      "matchText": "kemari",
+      "wikiSlug": "Kemari",
+      "type": "concept"
+    },
+    {
+      "term": "Emperor Kotoku",
+      "matchText": "Emperor Kotoku",
+      "wikiSlug": "Emperor_Kōtoku",
+      "type": "person"
+    },
+    {
+      "term": "Fujiwara clan",
+      "matchText": "Fujiwara clan",
+      "wikiSlug": "Fujiwara_clan",
+      "type": "concept"
+    },
+    {
+      "term": "shoen",
+      "matchText": "shoen",
+      "wikiSlug": "Shōen",
+      "type": "concept"
+    },
+    {
+      "term": "Tang Code",
+      "matchText": "Tang Code",
+      "wikiSlug": "Tang_Code",
+      "type": "concept"
+    },
+    {
+      "term": "Equal-field system",
+      "matchText": "equal-field",
+      "wikiSlug": "Equal-field_system",
+      "type": "concept"
+    },
+    {
+      "term": "Su Dingfang",
+      "matchText": "Tang general Su Dingfang",
+      "wikiSlug": "Su_Dingfang",
+      "type": "person"
+    },
+    {
+      "term": "Korea Strait",
+      "matchText": "Korea Strait",
+      "wikiSlug": "Korea_Strait",
+      "type": "place"
+    },
+    {
+      "term": "Geum River",
+      "matchText": "Geum River",
+      "wikiSlug": "Geum_River",
+      "type": "place"
+    },
+    {
+      "term": "Toyotomi Hideyoshi",
+      "matchText": "Toyotomi Hideyoshi",
+      "wikiSlug": "Toyotomi_Hideyoshi",
+      "type": "person"
+    },
+    {
+      "term": "Dazaifu",
+      "matchText": "Dazaifu",
+      "wikiSlug": "Dazaifu_(government)",
+      "type": "place"
+    },
+    {
+      "term": "Kogo-nenjaku",
+      "matchText": "Kogo-nenjaku",
+      "wikiSlug": "Kōgo_no_nenjaku",
+      "type": "concept"
+    },
+    {
+      "term": "Empress Saimei",
+      "matchText": "Empress Saimei",
+      "wikiSlug": "Empress_Saimei",
+      "type": "person"
+    },
+    {
+      "term": "Tang Taizong",
+      "matchText": "Tang Taizong",
+      "wikiSlug": "Emperor_Taizong_of_Tang",
+      "type": "person"
+    },
+    {
+      "term": "Rashidun Caliphate",
+      "matchText": "Rashidun Caliphate",
+      "wikiSlug": "Rashidun_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Xuanwu Gate Incident",
+      "matchText": "Xuanwu Gate Incident",
+      "wikiSlug": "Xuanwu_Gate_Incident",
+      "type": "concept"
+    }
+  ],
+  "4": [
+    {
+      "term": "Hakuho",
+      "matchText": "Hakuho",
+      "wikiSlug": "Hakuhō_period",
+      "type": "concept"
+    },
+    {
+      "term": "Prince Oama",
+      "matchText": "Oama",
+      "wikiSlug": "Emperor_Tenmu",
+      "type": "person"
+    },
+    {
+      "term": "Prince Otomo",
+      "matchText": "Otomo",
+      "wikiSlug": "Emperor_Kōbun",
+      "type": "person"
+    },
+    {
+      "term": "Yoshino",
+      "matchText": "Yoshino",
+      "wikiSlug": "Yoshino,_Nara",
+      "type": "place"
+    },
+    {
+      "term": "Lake Biwa",
+      "matchText": "Lake Biwa",
+      "wikiSlug": "Lake_Biwa",
+      "type": "place"
+    },
+    {
+      "term": "tenno",
+      "matchText": "tenno",
+      "wikiSlug": "Emperor_of_Japan",
+      "type": "concept"
+    },
+    {
+      "term": "Hieda no Are",
+      "matchText": "Hieda no Are",
+      "wikiSlug": "Hieda_no_Are",
+      "type": "person"
+    },
+    {
+      "term": "Emperor Jimmu",
+      "matchText": "Emperor Jimmu",
+      "wikiSlug": "Emperor_Jimmu",
+      "type": "person"
+    },
+    {
+      "term": "Amaterasu",
+      "matchText": "Amaterasu",
+      "wikiSlug": "Amaterasu",
+      "type": "person"
+    },
+    {
+      "term": "Ise Shrine",
+      "matchText": "Ise Shrine",
+      "wikiSlug": "Ise_Grand_Shrine",
+      "type": "place"
+    },
+    {
+      "term": "Yakushi-ji",
+      "matchText": "Yakushi-ji",
+      "wikiSlug": "Yakushi-ji",
+      "type": "place"
+    },
+    {
+      "term": "Saio",
+      "matchText": "Saio",
+      "wikiSlug": "Saiō",
+      "type": "concept"
+    },
+    {
+      "term": "Empress Jito",
+      "matchText": "Empress Jito",
+      "wikiSlug": "Empress_Jitō",
+      "type": "person"
+    },
+    {
+      "term": "Mommu",
+      "matchText": "Mommu",
+      "wikiSlug": "Emperor_Monmu",
+      "type": "person"
+    },
+    {
+      "term": "Yamabe no Akahito",
+      "matchText": "Yamabe no Akahito",
+      "wikiSlug": "Yamabe_no_Akahito",
+      "type": "person"
+    },
+    {
+      "term": "Yakushi Triad",
+      "matchText": "Yakushi Triad",
+      "wikiSlug": "Yakushi-ji",
+      "type": "concept"
+    },
+    {
+      "term": "Unified Silla",
+      "matchText": "Unified Silla",
+      "wikiSlug": "Unified_Silla",
+      "type": "concept"
+    },
+    {
+      "term": "Umayyad Caliphate",
+      "matchText": "Umayyad Caliphate",
+      "wikiSlug": "Umayyad_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Wu Zetian",
+      "matchText": "Wu Zetian",
+      "wikiSlug": "Wu_Zetian",
+      "type": "person"
+    }
+  ],
+  "5": [
+    {
+      "term": "Fujiwara no Fuhito",
+      "matchText": "Fujiwara no Fuhito",
+      "wikiSlug": "Fujiwara_no_Fuhito",
+      "type": "person"
+    },
+    {
+      "term": "ritsuryo",
+      "matchText": "ritsuryo state",
+      "wikiSlug": "Ritsuryō",
+      "type": "concept"
+    },
+    {
+      "term": "Daijokan",
+      "matchText": "Daijokan",
+      "wikiSlug": "Daijō-kan",
+      "type": "concept"
+    },
+    {
+      "term": "Jingikan",
+      "matchText": "Jingikan",
+      "wikiSlug": "Jingi-kan",
+      "type": "concept"
+    },
+    {
+      "term": "handen-shuju",
+      "matchText": "handen-shuju",
+      "wikiSlug": "Handen-shūju",
+      "type": "concept"
+    },
+    {
+      "term": "shoen",
+      "matchText": "shoen",
+      "wikiSlug": "Shōen",
+      "type": "concept"
+    },
+    {
+      "term": "Empress Genmei",
+      "matchText": "Empress Genmei",
+      "wikiSlug": "Empress_Genmei",
+      "type": "person"
+    },
+    {
+      "term": "Empress Gensho",
+      "matchText": "Empress Gensho",
+      "wikiSlug": "Empress_Genshō",
+      "type": "person"
+    },
+    {
+      "term": "Heijo-kyo",
+      "matchText": "Heijo-kyo",
+      "wikiSlug": "Heijō-kyō",
+      "type": "place"
+    },
+    {
+      "term": "Chang'an",
+      "matchText": "Chang'an",
+      "wikiSlug": "Chang%27an",
+      "type": "place"
+    },
+    {
+      "term": "Suzaku Oji",
+      "matchText": "Suzaku Oji",
+      "wikiSlug": "Suzaku_Avenue",
+      "type": "concept"
+    },
+    {
+      "term": "Rajomon",
+      "matchText": "Rajomon",
+      "wikiSlug": "Rashōmon_(gate)",
+      "type": "concept"
+    },
+    {
+      "term": "Kofuku-ji",
+      "matchText": "Kofuku-ji",
+      "wikiSlug": "Kōfuku-ji",
+      "type": "place"
+    },
+    {
+      "term": "Kaiyuan Tongbao",
+      "matchText": "Kaiyuan Tongbao",
+      "wikiSlug": "Kaiyuan_Tongbao",
+      "type": "concept"
+    },
+    {
+      "term": "Musashi Province",
+      "matchText": "Musashi Province",
+      "wikiSlug": "Musashi_Province",
+      "type": "place"
+    },
+    {
+      "term": "Kojiki",
+      "matchText": "Kojiki",
+      "wikiSlug": "Kojiki",
+      "type": "concept"
+    },
+    {
+      "term": "O no Yasumaro",
+      "matchText": "O no Yasumaro",
+      "wikiSlug": "Ō_no_Yasumaro",
+      "type": "person"
+    },
+    {
+      "term": "Fudoki",
+      "matchText": "Fudoki",
+      "wikiSlug": "Fudoki",
+      "type": "concept"
+    },
+    {
+      "term": "Konin",
+      "matchText": "Emperor Konin",
+      "wikiSlug": "Emperor_Kōnin",
+      "type": "person"
+    },
+    {
+      "term": "Battle of Talas",
+      "matchText": "Battle of Talas",
+      "wikiSlug": "Battle_of_Talas",
+      "type": "concept"
+    }
+  ],
+  "6": [
+    {
+      "term": "Emperor Shomu",
+      "matchText": "Emperor Shomu",
+      "wikiSlug": "Emperor_Shōmu",
+      "type": "person"
+    },
+    {
+      "term": "Empress Komyo",
+      "matchText": "Empress Komyo",
+      "wikiSlug": "Empress_Kōmyō",
+      "type": "person"
+    },
+    {
+      "term": "kokubunji",
+      "matchText": "kokubunji",
+      "wikiSlug": "Provincial_temple",
+      "type": "concept"
+    },
+    {
+      "term": "Smallpox",
+      "matchText": "smallpox",
+      "wikiSlug": "Smallpox",
+      "type": "concept"
+    },
+    {
+      "term": "Todai-ji",
+      "matchText": "Todai-ji",
+      "wikiSlug": "Tōdai-ji",
+      "type": "place"
+    },
+    {
+      "term": "Daibutsu",
+      "matchText": "Daibutsu",
+      "wikiSlug": "Daibutsu",
+      "type": "concept"
+    },
+    {
+      "term": "Vairocana",
+      "matchText": "Vairocana",
+      "wikiSlug": "Vairocana",
+      "type": "person"
+    },
+    {
+      "term": "Kegon school",
+      "matchText": "Kegon",
+      "wikiSlug": "Huayan",
+      "type": "concept"
+    },
+    {
+      "term": "Daibutsuden",
+      "matchText": "Daibutsuden",
+      "wikiSlug": "Tōdai-ji",
+      "type": "place"
+    },
+    {
+      "term": "Bodhisena",
+      "matchText": "Bodhisena",
+      "wikiSlug": "Bodhisena",
+      "type": "person"
+    },
+    {
+      "term": "Shoso-in",
+      "matchText": "Shoso-in",
+      "wikiSlug": "Shōsōin",
+      "type": "place"
+    },
+    {
+      "term": "azekura",
+      "matchText": "azekura",
+      "wikiSlug": "Azekura-zukuri",
+      "type": "concept"
+    },
+    {
+      "term": "Hosso school",
+      "matchText": "Hosso",
+      "wikiSlug": "Hossō-shū",
+      "type": "concept"
+    },
+    {
+      "term": "Sanron school",
+      "matchText": "Sanron",
+      "wikiSlug": "Sanron-shū",
+      "type": "concept"
+    },
+    {
+      "term": "Ritsu school",
+      "matchText": "Ritsu",
+      "wikiSlug": "Ritsu_school",
+      "type": "concept"
+    },
+    {
+      "term": "Gyoki",
+      "matchText": "Gyoki",
+      "wikiSlug": "Gyōki",
+      "type": "person"
+    },
+    {
+      "term": "Ganjin",
+      "matchText": "Ganjin",
+      "wikiSlug": "Jianzhen",
+      "type": "person"
+    },
+    {
+      "term": "Toshodai-ji",
+      "matchText": "Toshodai-ji",
+      "wikiSlug": "Tōshōdai-ji",
+      "type": "place"
+    },
+    {
+      "term": "Vinaya",
+      "matchText": "Vinaya",
+      "wikiSlug": "Vinaya",
+      "type": "concept"
+    },
+    {
+      "term": "Borobudur",
+      "matchText": "Borobudur",
+      "wikiSlug": "Borobudur",
+      "type": "place"
+    }
+  ],
+  "7": [
+    {
+      "term": "Izanagi",
+      "matchText": "Izanagi",
+      "wikiSlug": "Izanagi",
+      "type": "person"
+    },
+    {
+      "term": "Izanami",
+      "matchText": "Izanami",
+      "wikiSlug": "Izanami",
+      "type": "person"
+    },
+    {
+      "term": "Three sacred regalia",
+      "matchText": "three sacred imperial regalia",
+      "wikiSlug": "Imperial_Regalia_of_Japan",
+      "type": "concept"
+    },
+    {
+      "term": "Nihon Shoki",
+      "matchText": "Nihon Shoki",
+      "wikiSlug": "Nihon_Shoki",
+      "type": "concept"
+    },
+    {
+      "term": "Prince Toneri",
+      "matchText": "Prince Toneri",
+      "wikiSlug": "Prince_Toneri",
+      "type": "person"
+    },
+    {
+      "term": "Manyoshu",
+      "matchText": "Manyoshu",
+      "wikiSlug": "Man%27yōshū",
+      "type": "concept"
+    },
+    {
+      "term": "Sakimori-uta",
+      "matchText": "sakimori-uta",
+      "wikiSlug": "Sakimori",
+      "type": "concept"
+    },
+    {
+      "term": "Kakinomoto no Hitomaro",
+      "matchText": "Kakinomoto no Hitomaro",
+      "wikiSlug": "Kakinomoto_no_Hitomaro",
+      "type": "person"
+    },
+    {
+      "term": "Otomo no Yakamochi",
+      "matchText": "Otomo no Yakamochi",
+      "wikiSlug": "Ōtomo_no_Yakamochi",
+      "type": "person"
+    },
+    {
+      "term": "man'yogana",
+      "matchText": "man'yogana",
+      "wikiSlug": "Man%27yōgana",
+      "type": "concept"
+    },
+    {
+      "term": "Yoro Code",
+      "matchText": "Yoro Code",
+      "wikiSlug": "Yōrō_Code",
+      "type": "concept"
+    },
+    {
+      "term": "Empress Koken",
+      "matchText": "Empress Koken",
+      "wikiSlug": "Empress_Kōken",
+      "type": "person"
+    },
+    {
+      "term": "Emperor Junnin",
+      "matchText": "Emperor Junnin",
+      "wikiSlug": "Emperor_Junnin",
+      "type": "person"
+    },
+    {
+      "term": "Dokyo",
+      "matchText": "Dokyo",
+      "wikiSlug": "Dōkyō",
+      "type": "person"
+    },
+    {
+      "term": "Hoo",
+      "matchText": "Hoo",
+      "wikiSlug": "Hō-ō_(emperor)",
+      "type": "concept"
+    },
+    {
+      "term": "Usa Hachiman",
+      "matchText": "Usa Hachiman",
+      "wikiSlug": "Usa_Jingū",
+      "type": "place"
+    },
+    {
+      "term": "Wake no Kiyomaro",
+      "matchText": "Wake no Kiyomaro",
+      "wikiSlug": "Wake_no_Kiyomaro",
+      "type": "person"
+    },
+    {
+      "term": "Hyakumanto Darani",
+      "matchText": "Hyakumanto Darani",
+      "wikiSlug": "Hyakumantō_Darani",
+      "type": "concept"
+    },
+    {
+      "term": "Kibi no Makibi",
+      "matchText": "Kibi no Makibi",
+      "wikiSlug": "Kibi_no_Makibi",
+      "type": "person"
+    },
+    {
+      "term": "Abe no Nakamaro",
+      "matchText": "Abe no Nakamaro",
+      "wikiSlug": "Abe_no_Nakamaro",
+      "type": "person"
+    },
+    {
+      "term": "Emperor Xuanzong",
+      "matchText": "Tang Emperor Xuanzong",
+      "wikiSlug": "Emperor_Xuanzong_of_Tang",
+      "type": "person"
+    }
+  ],
+  "8": [
+    {
+      "term": "Emperor Kammu",
+      "matchText": "Emperor Kammu",
+      "wikiSlug": "Emperor_Kammu",
+      "type": "person"
+    },
+    {
+      "term": "Takano no Niigasa",
+      "matchText": "Takano no Niigasa",
+      "wikiSlug": "Takano_no_Niigasa",
+      "type": "person"
+    },
+    {
+      "term": "Nagaoka-kyo",
+      "matchText": "Nagaoka-kyo",
+      "wikiSlug": "Nagaoka-kyō",
+      "type": "place"
+    },
+    {
+      "term": "Yamashiro region",
+      "matchText": "Yamashiro region",
+      "wikiSlug": "Yamashiro_Province",
+      "type": "place"
+    },
+    {
+      "term": "Fujiwara no Tanetsugu",
+      "matchText": "Fujiwara no Tanetsugu",
+      "wikiSlug": "Fujiwara_no_Tanetsugu",
+      "type": "person"
+    },
+    {
+      "term": "Sawara",
+      "matchText": "Sawara",
+      "wikiSlug": "Prince_Sawara",
+      "type": "person"
+    },
+    {
+      "term": "Heian-kyo",
+      "matchText": "Heian-kyo",
+      "wikiSlug": "Heian-kyō",
+      "type": "place"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Emishi",
+      "matchText": "Emishi",
+      "wikiSlug": "Emishi",
+      "type": "concept"
+    },
+    {
+      "term": "Tohoku",
+      "matchText": "Tohoku",
+      "wikiSlug": "Tōhoku_region",
+      "type": "place"
+    },
+    {
+      "term": "Aterui",
+      "matchText": "Aterui",
+      "wikiSlug": "Aterui",
+      "type": "person"
+    },
+    {
+      "term": "Sakanoue no Tamuramaro",
+      "matchText": "Sakanoue no Tamuramaro",
+      "wikiSlug": "Sakanoue_no_Tamuramaro",
+      "type": "person"
+    },
+    {
+      "term": "Sei-i Taishogun",
+      "matchText": "Sei-i Taishogun",
+      "wikiSlug": "Shogun",
+      "type": "concept"
+    },
+    {
+      "term": "Shogun",
+      "matchText": "shogun",
+      "wikiSlug": "Shogun",
+      "type": "concept"
+    },
+    {
+      "term": "Bushi",
+      "matchText": "bushi",
+      "wikiSlug": "Bushi",
+      "type": "concept"
+    },
+    {
+      "term": "Samurai",
+      "matchText": "samurai",
+      "wikiSlug": "Samurai",
+      "type": "concept"
+    },
+    {
+      "term": "Charlemagne",
+      "matchText": "Charlemagne",
+      "wikiSlug": "Charlemagne",
+      "type": "person"
+    },
+    {
+      "term": "Lindisfarne",
+      "matchText": "Lindisfarne",
+      "wikiSlug": "Lindisfarne",
+      "type": "place"
+    },
+    {
+      "term": "Harun al-Rashid",
+      "matchText": "Harun al-Rashid",
+      "wikiSlug": "Harun_al-Rashid",
+      "type": "person"
+    },
+    {
+      "term": "kokugaku",
+      "matchText": "kokugaku",
+      "wikiSlug": "Kokugaku",
+      "type": "concept"
+    }
+  ]
+}

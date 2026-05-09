@@ -94,7 +94,9 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'timurid-empire', label: 'Timurid Empire', subtitle: "Tamerlane's Central Asian renaissance", region: 'asia', startYear: 1370, endYear: 1507, hasContent: true },
 
   // ── ASIA (Japan/Korea/SE) ──
-  { id: 'ancient-japan', label: 'Ancient Japan', subtitle: "from the world's oldest pottery to Heian courtiers", region: 'asia', startYear: -14000, endYear: 1185, hasContent: true },
+  { id: 'prehistoric-japan', label: 'Prehistoric Japan', subtitle: "Jomon foragers, Yayoi rice, Kofun tombs", region: 'asia', startYear: -14000, endYear: 538, hasContent: true },
+  { id: 'asuka-nara-japan', label: 'Asuka & Nara Japan', subtitle: "Buddhism arrives, Yamato consolidates, Nara temples rise", region: 'asia', startYear: 538, endYear: 794, hasContent: true },
+  { id: 'heian-japan', label: 'Heian Japan', subtitle: "courtly literature, Fujiwara regency, the warrior class rising", region: 'asia', startYear: 794, endYear: 1185, hasContent: true },
   { id: 'edo-japan', label: 'Edo Japan', subtitle: 'isolation under the shoguns', region: 'asia', startYear: 1603, endYear: 1868, hasContent: true },
   { id: 'meiji-japan', label: 'Meiji Japan', subtitle: 'Japan races to industrialize', region: 'asia', startYear: 1868, endYear: 1912, hasContent: true },
   { id: 'japanese-economic-miracle', label: 'Japanese Economic Miracle', subtitle: "postwar Japan's boom", region: 'asia', startYear: 1945, endYear: 1991, hasContent: true },

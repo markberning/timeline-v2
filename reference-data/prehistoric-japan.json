@@ -1,0 +1,604 @@
+{
+  "id": "prehistoric-japan",
+  "label": "Prehistoric Japan",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Prehistoric_Japan",
+  "imageWikiSlug": "Daisen_Kofun",
+  "pitch": "Fourteen thousand years before Buddhism arrived and pulled Japan into recorded history, someone on the archipelago made a pot — and started one of the longest, strangest, most independent cultural runs anywhere on Earth. The Jomon were hunter-gatherers who fired clay vessels millennia before farming, built 500-person settlements without grain, and carved goggle-eyed clay figurines that still look like aliens. Then around 900 BCE rice and metal arrived together from Korea, and within a few centuries the islands had been transformed into a land of moated rice-farming villages, bronze ritual bells, and a hundred warring chiefdoms. By 250 CE, somebody invented the keyhole-shaped tomb, and the Yamato clan started building the largest tumuli in the world. The endpoint is 538 CE, when Baekje envoys carried a Buddha statue and a bag of sutras into the Yamato court — and the prehistoric era ended in one diplomatic gift.\n\n🔑 Key Facts:\n• Jomon Pottery from ~14,000 BCE is among the oldest fired ceramics on Earth, predating Near Eastern pottery by thousands of years\n• The Sannai-Maruyama Settlement housed up to 500 people for sixteen hundred years on chestnuts and fish, with no agriculture\n• The Gold Seal of the King of Na, dug up by a farmer in 1784, is physical proof of Chinese-Japanese diplomacy in 57 CE\n• Queen Himiko of Yamatai is the first Japanese person whose existence is confirmed by a written source — written by Chinese chroniclers, not Japanese ones\n• The Daisen Kofun is the largest tomb in the world by surface area — built by a polity that had no writing\n\n🤔 Why It Matters: Japan's prehistoric era is the world's clearest counter-example to the standard story that civilization requires farming. The Jomon ran complex coastal society for 13,000 years on nuts and fish; the Yayoi imported the entire Bronze Age + Iron Age package as a single bundle from Korea; the Kofun built monuments that rival the pyramids without ever writing a sentence. Everything that came afterward — the emperor, the samurai, modern Japan — grew from roots planted in the millennia covered here.\n\n🎲 Wild Card: The Jomon shakoki-dogu figurines, with their huge goggle-like eyes, look uncannily like a person wearing a snow goggles or a space helmet — a resemblance that has fueled decades of pseudoarchaeological alien-contact theories. They are almost certainly not aliens. They are almost certainly fertility figures or healing effigies, ritually broken to absorb illness or misfortune.",
+  "countryIds": [
+    "392"
+  ],
+  "spans": [
+    {
+      "id": "span-prehistoric-japan-jomon-pottery",
+      "label": "Jomon Pottery Era",
+      "startYear": -14000,
+      "endYear": -900,
+      "wikiSlug": "Jōmon_period",
+      "description": "One of the longest continuous cultural traditions in human history. Hunter-gatherers on the Japanese archipelago made the world's oldest pottery, lived in pit-house villages, traded jade and obsidian across hundreds of miles of open ocean, and built 500-person settlements like Sannai-Maruyama — all without farming."
+    },
+    {
+      "id": "span-prehistoric-japan-yayoi-rice",
+      "label": "Yayoi Rice Revolution",
+      "startYear": -900,
+      "endYear": 250,
+      "wikiSlug": "Yayoi_period",
+      "description": "Wet-rice agriculture, bronze, and iron arrived together from the Korean peninsula, brought by migrants who crossed the Korea Strait. Moated villages replaced pit-house hamlets, social stratification appeared, and a hundred warring chiefdoms competed for the best paddy land. Chinese chronicles document the first named Japanese rulers."
+    },
+    {
+      "id": "span-prehistoric-japan-yamato-forming",
+      "label": "Yamato Confederation Forming",
+      "startYear": 100,
+      "endYear": 350,
+      "wikiSlug": "Yamato_Kingdom",
+      "description": "The hundred warring kingdoms of Yayoi Japan began coalescing into larger confederations, briefly under the shaman queen Himiko of Yamatai (whose location is still debated). Out of this consolidation emerged the Yamato clan, ancestor of the imperial line that exists today."
+    },
+    {
+      "id": "span-prehistoric-japan-kofun",
+      "label": "Kofun Tomb Period",
+      "startYear": 250,
+      "endYear": 538,
+      "wikiSlug": "Kofun_period",
+      "description": "Enormous keyhole-shaped tombs began rising from the plains of central Japan, including the Daisen Kofun — the largest tomb in the world by area. The Yamato court consolidated political dominance across Honshu and northern Kyushu through marriage alliances, ritual authority, and the threat of force, while waves of Korean immigrants brought iron, sueki stoneware, and writing."
+    },
+    {
+      "id": "span-prehistoric-japan-pre-buddhist-threshold",
+      "label": "Pre-Buddhist Threshold",
+      "startYear": 500,
+      "endYear": 538,
+      "wikiSlug": "Asuka_period",
+      "description": "The final decades before recorded history. Korean ceramic and metal technology peaked, the Soga clan rose at court, and in 538 (or 552, depending on the source) the Baekje king sent a Buddha statue and Buddhist sutras to the Yamato court — ending the prehistoric era and triggering the religious-political crisis that would define the next century."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-pj-odai-yamamoto",
+      "label": "Odai Yamamoto Pottery",
+      "year": -14500,
+      "description": "Fired clay vessels from the Odai Yamamoto site in northern Honshu, dated by radiocarbon to roughly 14,500 BCE, are among the oldest pottery in the world — produced by hunter-gatherers thousands of years before agriculture, cities, or writing existed anywhere on Earth.",
+      "wikiSlug": "Ōdai_Yamamoto_I_site",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-incipient-jomon-pottery",
+      "label": "Incipient Jomon Pottery",
+      "year": -14000,
+      "description": "Hunter-gatherers across the Japanese archipelago began making fired clay vessels, marking the beginning of the Jomon period. The pottery was decorated by pressing twisted plant fibers into wet clay before firing — the cord-marked technique that gave the era its name.",
+      "wikiSlug": "Jōmon_pottery",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-pleistocene-holocene",
+      "label": "End of the Last Ice Age",
+      "year": -11700,
+      "description": "The Pleistocene ice age ended around 11,700 BCE, sea levels rose, and the land bridges that had connected the Japanese archipelago to the Asian mainland disappeared. Japan became a true island chain — geographically isolated but reachable, especially from Korea across the narrow strait.",
+      "wikiSlug": "Holocene",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-pit-dwellings",
+      "label": "Jomon Pit Dwellings",
+      "year": -10000,
+      "description": "Jomon communities built semi-subterranean pit houses (tateana-jukyo) — sunken floors two to three feet into the ground, wooden post frames, thatched roofs, central hearth. The sunken floor provided insulation against winter cold and structural stability against typhoons.",
+      "wikiSlug": "Pit-house",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-earliest-lacquerware",
+      "label": "Earliest Lacquerware",
+      "year": -7000,
+      "description": "Jomon craftspeople developed lacquer technology using sap from the urushi tree, producing some of the world's earliest known lacquered objects — combs, bowls, and bracelets dyed red with cinnabar. The tradition would define Japanese craftsmanship for the next nine thousand years.",
+      "wikiSlug": "Japanese_lacquerware",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-shell-middens",
+      "label": "Jomon Shell Middens",
+      "year": -6000,
+      "description": "Massive shell mounds along Japan's coastline document thousands of years of maritime adaptation — shellfish, deep-sea fishing, dolphin hunting, and tuna processing sustained dense coastal communities. The Omori Shell Mounds near Tokyo were excavated in 1877 in the first scientific dig in Japanese history.",
+      "wikiSlug": "Ōmori_Shell_Mounds",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-jomon-dogs",
+      "label": "Jomon Dog Domestication",
+      "year": -7000,
+      "description": "The Jomon kept domesticated dogs — the only domesticated animals of the Jomon world — and buried them with apparent care, suggesting hunting partners rather than livestock. Some dog burials show healed injuries, indicating the animals were nursed back to health rather than discarded.",
+      "wikiSlug": "Japanese_dog_breeds",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-obsidian-trade",
+      "label": "Jomon Obsidian Trade Networks",
+      "year": -5000,
+      "description": "Jomon communities traded obsidian — volcanic glass for razor-sharp cutting tools — across hundreds of miles of open ocean, with stone from the Izu Islands more than 350 miles from Honshu turning up at northern sites. Evidence of organized maritime exchange far beyond the scale of typical forager bands.",
+      "wikiSlug": "Obsidian_use_in_Japan",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-jomon-jade",
+      "label": "Jomon Jade Working",
+      "year": -4000,
+      "description": "Jomon craftspeople at Itoigawa on the Sea of Japan coast carved jadeite into polished pendants and earrings — the earliest jade-working tradition in East Asia, predating the famous jade cultures of Neolithic China by centuries.",
+      "wikiSlug": "Japanese_jade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-sannai-maruyama",
+      "label": "Sannai-Maruyama Settlement",
+      "year": -3900,
+      "endYear": -2300,
+      "description": "The largest known Jomon settlement, in northern Honshu (modern Aomori Prefecture), housed up to 500 people for sixteen hundred years in pit houses and aboveground longhouses, with massive six-post chestnut-wood structures, storage pits, burial areas, and long-distance trade in jade and obsidian.",
+      "wikiSlug": "Sannai-Maruyama_site",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-chestnut-management",
+      "label": "Chestnut Grove Management",
+      "year": -3500,
+      "description": "Sannai-Maruyama's residents managed chestnut groves for food, timber, and structural pillars — a form of arboriculture that blurs the conventional line between foraging and agriculture. DNA studies of preserved chestnuts show reduced genetic diversity consistent with deliberate human selection.",
+      "wikiSlug": "Castanea_crenata",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-flame-pottery",
+      "label": "Flame-Style Pottery (Kaen-doki)",
+      "year": -3500,
+      "description": "Middle Jomon potters in the Niigata region produced spectacular flame-style vessels with elaborate rims of writhing, flame-like projections — among the most dramatic ceramic art in the prehistoric world. The flamboyant rims would break with ordinary use, marking these as ceremonial objects.",
+      "wikiSlug": "Jōmon_pottery",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-dogu-figurines",
+      "label": "Dogu Figurines",
+      "year": -3000,
+      "description": "Jomon people carved small clay figurines (dogu) with exaggerated features — huge goggle-like eyes, swollen limbs, prominent breasts — over 18,000 of which have been found across Japan. Many were deliberately broken, suggesting they were ritually killed to absorb illness or misfortune.",
+      "wikiSlug": "Dogū",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pj-shakoki-dogu",
+      "label": "Shakoki-Dogu",
+      "year": -1500,
+      "description": "The famous goggle-eyed shakoki-dogu type — small clay figures whose huge slit eyes resemble Inuit snow goggles — appeared in northern Honshu in the Final Jomon period. Their resemblance to space-helmet figures has fueled decades of pseudoarchaeological alien-contact theories with zero scholarly support.",
+      "wikiSlug": "Dogū",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pj-stone-circles",
+      "label": "Jomon Stone Circles",
+      "year": -2000,
+      "description": "Late Jomon communities in northern Honshu erected stone circles — notably at Oyu and Komakino — arrangements of boulders around central standing stones, with associated burials and ceremonial deposits, likely used for seasonal gatherings or astronomical observations.",
+      "wikiSlug": "Ōyu_stone_circles",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pj-late-jomon-cooling",
+      "label": "Late Jomon Cooling and Contraction",
+      "year": -1500,
+      "description": "Climatic cooling reduced the dense nut-bearing forests that had sustained Jomon prosperity, causing population decline and settlement contraction in central and eastern Japan — setting the stage for the Yayoi transformation when continental migrants arrived a few centuries later.",
+      "wikiSlug": "Jōmon_period",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-final-jomon-ritual",
+      "label": "Final Jomon Ritual Intensification",
+      "year": -1000,
+      "description": "As the Jomon world contracted under climatic stress, communities invested heavily in ritual — stone circles, elaborate burial practices, and mass-produced clay figurines suggest intensified spiritual activity in response to environmental pressure.",
+      "wikiSlug": "Jōmon_period",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pj-jomon-genetics",
+      "label": "Jomon Genetic Heritage",
+      "year": -3000,
+      "description": "Modern genetic studies show that the Jomon people carried distinct East Asian ancestry that diverged from continental populations roughly 38,000 years ago. Their DNA persists most strongly in the Ainu of Hokkaido and the Ryukyu Islanders, and to a lesser degree in all modern Japanese.",
+      "wikiSlug": "Jōmon_people",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-yayoi-rice",
+      "label": "Wet-Rice Agriculture Arrives",
+      "year": -900,
+      "description": "Wet-rice paddy farming arrived on the beaches of northern Kyushu from the Korean peninsula around 900 BCE, then accelerated sharply after 300 BCE — transforming Japanese society from hunter-gatherer to agrarian and triggering population growth, social stratification, and territorial warfare.",
+      "wikiSlug": "Yayoi_period",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-itazuke-paddies",
+      "label": "Itazuke Rice Paddies",
+      "year": -800,
+      "description": "The earliest Yayoi rice paddies, found at the Itazuke site in northern Kyushu, used techniques identical to contemporary rice farming on the Korean peninsula — direct evidence that the agricultural package arrived through migration from Korea, not independent invention.",
+      "wikiSlug": "Itazuke_site",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-toraijin-migration",
+      "label": "Toraijin Migration from Korea",
+      "year": -500,
+      "description": "Continental immigrants from the Korean peninsula (toraijin, 'people who came across') arrived in waves on northern Kyushu, bringing rice, bronze, iron, and a different physical type — taller, with narrower faces. Modern genetic studies confirm a substantial population influx, not just cultural diffusion.",
+      "wikiSlug": "Toraijin",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pj-yayoi-bronze-iron",
+      "label": "Bronze and Iron Introduced",
+      "year": -300,
+      "description": "Bronze and iron arrived in Japan together via Korean and Chinese sources — unlike the Near East where bronze preceded iron by nearly two millennia. The Japanese assigned them different functions: bronze for ritual (bells, mirrors), iron for practical work (hoes, axes, weapons).",
+      "wikiSlug": "Bronze_Age",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-dotaku-bells",
+      "label": "Dotaku Bronze Bells",
+      "year": -150,
+      "description": "Elaborately decorated bronze bells (dotaku), some over a meter tall, were cast in the Kinai region and buried on hilltops or in remote locations — likely ritual objects connected to agricultural ceremonies. Most have no clappers and were never rung. Hundreds have been found, none with surviving inscriptions to explain them.",
+      "wikiSlug": "Dōtaku",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pj-yayoi-pottery",
+      "label": "Yayoi Pottery Style",
+      "year": -300,
+      "description": "Yayoi pottery — thin-walled, smooth-surfaced, often reddish-brown, made for cooking rice and storing grain — replaced the exuberant flame pots of the Jomon. The aesthetic shift from wild creativity to practical efficiency mirrored the broader transition from foraging to farming.",
+      "wikiSlug": "Yayoi_pottery",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-yayoi-warfare",
+      "label": "Yayoi Warfare",
+      "year": -200,
+      "description": "Skeletal evidence from Yayoi sites across Kyushu shows pervasive violence — arrowheads embedded in bone, sword cuts on skulls, decapitated bodies in ditches. Settlements grew defensive: ditches, palisades, watchtowers. The Jomon period had shown remarkably little organized violence; the Yayoi was drenched in it.",
+      "wikiSlug": "Yayoi_period",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pj-yoshinogari",
+      "label": "Yoshinogari Settlement",
+      "year": -100,
+      "description": "The largest known Yayoi settlement, in northern Kyushu, was a fortified moated town with watchtowers, raised-floor storehouses, and an elite burial precinct where leaders were interred in large jar coffins with bronze weapons and ornaments. Yoshinogari looks like a place that expected to be attacked — and was.",
+      "wikiSlug": "Yoshinogari_site",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-han-mirrors",
+      "label": "Han Bronze Mirrors",
+      "year": -50,
+      "description": "Chinese bronze mirrors of the Han dynasty appeared in elite Yayoi burials across Kyushu and western Honshu — prestige objects that signaled connection to the Chinese court. The mirrors were copied locally, with later Japanese imitations reproducing the Chinese cosmological designs without understanding their meaning.",
+      "wikiSlug": "Bronze_mirror",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-na-gold-seal",
+      "label": "Gold Seal of the King of Na",
+      "year": 57,
+      "description": "The Han Emperor Guangwu granted a gold seal to an envoy from the Kingdom of Na in Kyushu, the earliest documented diplomatic contact between Japan and China. In 1784, a farmer in northern Kyushu dug up a tiny gold seal that matched the Chinese historical description exactly.",
+      "wikiSlug": "King_of_Na_gold_seal",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-wa-hundred-kingdoms",
+      "label": "Wa: A Hundred Kingdoms",
+      "year": 100,
+      "description": "Chinese chronicles of the late Han period describe the islands of 'Wa' as a patchwork of over a hundred small kingdoms, constantly at war with each other. The description matches the archaeological evidence of fortified Yayoi settlements competing for the best paddy land.",
+      "wikiSlug": "Wa_(Japan)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-himiko",
+      "label": "Queen Himiko of Yamatai",
+      "year": 238,
+      "endYear": 248,
+      "description": "Shaman queen Himiko ruled the Yamatai confederation and sent envoys to the Chinese Wei dynasty in 238 CE. She is the first historically documented ruler of Japan, attended by a thousand female servants, communicating with the outside world through her younger brother — though every detail of her story is contested.",
+      "wikiSlug": "Himiko",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-wei-zhi",
+      "label": "Wei Zhi Account of Wa",
+      "year": 297,
+      "description": "The Wei Zhi (Records of Wei), a Chinese dynastic history compiled around 297 CE, contains the earliest detailed description of Japan — including the only surviving account of Queen Himiko, the geography of Wa, the customs of its people, and the tribute missions sent to the Wei court.",
+      "wikiSlug": "Wajinden",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pj-iyo-queen",
+      "label": "Iyo, Successor to Himiko",
+      "year": 248,
+      "description": "After Himiko's death (around 247 CE), over a hundred attendants were reportedly sacrificed and buried with her. A male successor was chosen but the people would not obey him; a thirteen-year-old girl named Iyo was installed as queen, and order was restored — at least in the Chinese chroniclers' telling.",
+      "wikiSlug": "Iyo_(empress)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-himiko-tomb",
+      "label": "Himiko's Tomb (Hashihaka)",
+      "year": 250,
+      "description": "The Hashihaka Kofun in Nara Prefecture, dated by ceramic typology to roughly 250 CE, is the leading candidate for Queen Himiko's tomb. Its keyhole shape and 280-meter length make it both one of the earliest large kofun and a possible bridge between Yamatai and the later Yamato state.",
+      "wikiSlug": "Hashihaka_Kofun",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-kofun-tombs",
+      "label": "First Keyhole-Shaped Kofun",
+      "year": 250,
+      "description": "Massive keyhole-shaped burial mounds (kofun) began appearing in the Kinai region — a circular mound joined to a trapezoidal platform, visible only from the air. The keyhole shape appears to be a uniquely Japanese invention; nothing like it exists in Korea, China, or anywhere else.",
+      "wikiSlug": "Kofun",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-haniwa",
+      "label": "Haniwa Clay Figures",
+      "year": 350,
+      "description": "Terracotta haniwa figures — warriors, horses, houses, dancers, musicians, shamans — were placed around the perimeters of kofun mounds, providing vivid evidence of Kofun-period dress, military equipment, and ritual life. Unlike Chinese tomb figurines, they stood outside the burial chamber, forming a guardian ring.",
+      "wikiSlug": "Haniwa",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-yamato-hegemony",
+      "label": "Yamato Court Consolidates Power",
+      "year": 350,
+      "description": "The Yamato clan, based in the Kinai region around modern Nara and Osaka, established political hegemony over much of Honshu and northern Kyushu — a network of subordinate clans bound by marriage alliances, ritual authority, and the threat of military force, with the sun goddess Amaterasu as their claimed divine ancestor.",
+      "wikiSlug": "Yamato_Kingdom",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-amaterasu-cult",
+      "label": "Cult of Amaterasu",
+      "year": 350,
+      "description": "The Yamato clan's claim of descent from the sun goddess Amaterasu became the religious foundation of imperial authority. The Ise Shrine, traditionally founded in this era, would house her sacred mirror — one of the three imperial regalia that legitimized the emperor's rule.",
+      "wikiSlug": "Amaterasu",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pj-uji-clans",
+      "label": "Uji Clan System",
+      "year": 400,
+      "description": "Yamato Japan was organized into uji — extended kinship groups claiming descent from a common ancestor god, often a kami of a specific place or function. The major uji (Soga, Mononobe, Nakatomi, Otomo) held hereditary court positions and competed for influence with the Yamato royal family.",
+      "wikiSlug": "Uji_(clan)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-be-system",
+      "label": "Be Occupational Groups",
+      "year": 400,
+      "description": "Below the uji aristocracy, the be system organized commoners into hereditary occupational groups — weavers, potters, scribes, smiths, salt-makers — attached to particular uji or to the royal court. Many be were originally Korean immigrants whose specialized skills made them economically essential.",
+      "wikiSlug": "Be_(Japanese_society)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-jimmu-myth",
+      "label": "Legend of Emperor Jimmu",
+      "year": -660,
+      "description": "Later Japanese chronicles claim Emperor Jimmu founded the imperial line in 660 BCE by descending from the sun goddess Amaterasu. The date is almost certainly fictitious — calculated to align with Chinese calendrical cycles — but the claim was politically essential, asserting that the emperor's authority predated all foreign influence.",
+      "wikiSlug": "Emperor_Jimmu",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-wani-writing",
+      "label": "Introduction of Chinese Writing",
+      "year": 405,
+      "description": "According to the much later Kojiki, a Korean scholar named Wani arrived from Baekje around 405 CE carrying the Confucian Analects and the Thousand Character Classic, introducing Chinese characters to the Yamato court. The story may be legendary, but the underlying reality — Chinese writing arrived via Korean intermediaries — is confirmed.",
+      "wikiSlug": "Wani_(scholar)",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pj-daisen-kofun",
+      "label": "Daisen Kofun Built",
+      "year": 450,
+      "description": "The Daisen Kofun near Osaka, traditionally attributed to Emperor Nintoku, is roughly 1,600 feet long and covers about 80 acres — larger than the base of the Great Pyramid at Giza by area, and the largest tomb in the world by surface area. An estimated 2,000 workers laboring for over fifteen years built it.",
+      "wikiSlug": "Daisen_Kofun",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pj-mounted-warriors",
+      "label": "Mounted Warriors and Horse Armor",
+      "year": 400,
+      "description": "Haniwa figures and grave goods document a major military shift in fifth-century Japan: the arrival of horses, riveted iron-plate armor, and mounted combat — all imported from Korea. The 'horse-rider theory' once held that conquering Korean cavalry founded the Yamato state; modern scholars favor cultural transfer over invasion.",
+      "wikiSlug": "Horse_culture_in_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pj-baekje-alliance",
+      "label": "Baekje-Yamato Alliance",
+      "year": 400,
+      "description": "Baekje, the southwestern of Korea's Three Kingdoms, became Yamato Japan's closest ally and most important source of continental technology. Baekje princes were sometimes raised at the Yamato court as honored hostages, and Baekje envoys carried craftsmen, scholars, and eventually Buddhism to Japan.",
+      "wikiSlug": "Baekje–Wa_relations",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-gaya-iron",
+      "label": "Gaya Iron Trade",
+      "year": 350,
+      "description": "The Gaya confederacy on the southern tip of Korea produced some of the finest iron in East Asia, and Gaya iron was exported to Japan in large quantities. Gaya served as a cultural bridge between Yamato Japan and the Korean kingdoms, with Japanese involvement in Gaya politics documented but contested.",
+      "wikiSlug": "Gaya_confederacy",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-mimana-controversy",
+      "label": "Mimana Controversy",
+      "year": 369,
+      "description": "The Nihon Shoki, compiled centuries later in 720 CE, claims Yamato Japan established a colonial outpost called Mimana in southern Korea around 369. Most modern Japanese and Korean scholars consider the claim exaggerated or fabricated — a later projection of imperial Japanese pretensions onto the Kofun era.",
+      "wikiSlug": "Mimana",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pj-baekje-artisans",
+      "label": "Korean Artisans and Technology Transfer",
+      "year": 500,
+      "description": "Waves of immigrants from Baekje and Gaya brought advanced skills in iron smelting, silk weaving, sueki stoneware production, horse breeding, and Chinese-style construction to the Yamato court. Some scholars estimate that as much as one-third of the aristocratic clans listed in later Japanese genealogies claimed Korean ancestry.",
+      "wikiSlug": "Toraijin",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-sueki-pottery",
+      "label": "Sueki Stoneware",
+      "year": 450,
+      "description": "Sueki, a hard high-fired gray stoneware introduced from Korea around 450 CE, replaced the softer earthenware Yayoi tradition for elite use. The wheel-thrown technique and reduction-firing kilns required specialized Korean craftsmen — a technological transfer that reshaped Japanese pottery for the next several centuries.",
+      "wikiSlug": "Sue_pottery",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-pj-iron-production",
+      "label": "Domestic Iron Production",
+      "year": 500,
+      "description": "Late Kofun Japan began producing iron domestically rather than importing it from Korea — bloomery furnaces in the Chugoku region of western Honshu, using local iron sand (satetsu), broke the dependence on Korean imports and enabled the rapid expansion of armored cavalry forces.",
+      "wikiSlug": "Tatara_(furnace)",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pj-kofun-decline",
+      "label": "Late Kofun Tomb Decline",
+      "year": 500,
+      "description": "Kofun construction declined sharply in the late fifth and early sixth centuries — tombs became smaller, fewer were built, and clan-mound competition gave way to a centralizing Yamato authority. The shift suggests political consolidation: the great families no longer needed monumental tombs to legitimize themselves.",
+      "wikiSlug": "Kofun_period",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-emperor-keitai",
+      "label": "Emperor Keitai",
+      "year": 507,
+      "endYear": 531,
+      "description": "Emperor Keitai (reigned 507-531 CE) is considered the first historically secure emperor of Japan — installed by court factions after the previous lineage failed, possibly an outsider from the Echizen province. The succession marks the moment Japanese imperial history starts to become verifiable rather than mythic.",
+      "wikiSlug": "Emperor_Keitai",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-iwai-rebellion",
+      "label": "Iwai Rebellion",
+      "year": 527,
+      "description": "Iwai, a powerful chieftain in northern Kyushu, rebelled against Yamato authority in 527 CE — possibly with Korean Silla backing. The revolt was crushed within two years, but the episode revealed how thin the Yamato grip on Kyushu still was, and how deeply local clans were entangled in Korean politics.",
+      "wikiSlug": "Iwai_rebellion",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pj-soga-rise",
+      "label": "Soga Clan Rises",
+      "year": 530,
+      "description": "The Soga clan, possibly of Korean immigrant descent, began their rise to power at the Yamato court in the early sixth century — building wealth from controlling foreign trade and Korean immigrant labor, marrying daughters into the imperial family, and positioning themselves to champion the new religion arriving from Baekje.",
+      "wikiSlug": "Soga_clan",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pj-buddhism-arrives",
+      "label": "Buddhism Arrives at the Yamato Court",
+      "year": 538,
+      "description": "King Seong of Baekje sent a golden Buddha statue and a set of Buddhist sutras to the Yamato court in 538 CE (some sources say 552) — the diplomatic gift that ended Japanese prehistory. The Soga clan championed the new religion; the Mononobe and Nakatomi opposed it. The religious-political crisis that followed would define the next century.",
+      "wikiSlug": "Buddhism_in_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    }
+  ]
+}

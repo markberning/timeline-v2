@@ -66,8 +66,8 @@
   "3": [
     {
       "matchText": "Kamakura Japan",
-      "targetTl": "ancient-japan",
-      "targetChapter": 6,
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
       "blurb": "The Ancient Japan narrative covers the Kamakura shogunate (1185\u20131333), the military government that defended Japan against the Yuan invasions and was, in part, broken by the cost of those defenses. The bakufu's mobilization of Kyushu samurai for the Hakata defense, the construction of the coastal stone wall between the two invasions, and the religious-political response to the typhoons all run through the Kamakura political institutions covered there."
     },
     {
@@ -78,13 +78,13 @@
     },
     {
       "matchText": "samurai",
-      "targetTl": "ancient-japan",
-      "targetChapter": 7,
+      "targetTl": "heian-japan",
+      "targetChapter": 6,
       "blurb": "The samurai military culture that defended Hakata Bay against the Yuan invasions had its formative period in the Heian-late and early Kamakura era. The Ancient Japan narrative covers the rise of the samurai class \u2014 the formal challenge-and-response duels, the elaborate armor traditions, the mounted-archer combat doctrine, all of which were shocked but not broken by the Mongol unit-tactics encounter at Hakata in 1274."
     },
     {
       "matchText": "Ise Shrine",
-      "targetTl": "ancient-japan",
+      "targetTl": "asuka-nara-japan",
       "targetChapter": 5,
       "blurb": "The Ise Shrine \u2014 the chief Shinto shrine, dedicated to Amaterasu the sun goddess, ancestor of the imperial line \u2014 was the religious focal point of the Japanese theological interpretation of the kamikaze typhoons. The Ancient Japan narrative covers Ise's foundational role in Japanese religion: the imperial-line ancestor cult, the shrine's periodic ritual reconstruction, and the central religious-political concept of Japan as the Land of the Gods that the kamikaze story would reinforce for the next six and a half centuries."
     }

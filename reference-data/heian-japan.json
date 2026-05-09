@@ -1,0 +1,721 @@
+{
+  "id": "heian-japan",
+  "label": "Heian Japan",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Heian_period",
+  "imageWikiSlug": "Byōdō-in",
+  "pitch": "For nearly four centuries (794–1185 CE), the Japanese imperial court at Heian-kyo (Kyoto) cultivated one of the most refined, self-absorbed, aesthetically obsessed, and literarily productive cultures in human history. Emperor Kammu founded a new capital modeled on Tang Chang'an, then watched as Japan stopped sending embassies to China and turned inward. The Fujiwara clan ran the country from behind the throne for two centuries through the trick of marrying daughters to emperors. The invention of kana — phonetic writing — freed Japanese from Chinese characters and triggered an explosion of vernacular literature, most of it written by women, including Murasaki Shikibu's Tale of Genji (~1010), arguably the world's first novel. Then the system that had produced beauty failed at governance: provincial warrior bands rose, the Hogen and Heiji disturbances brought samurai into the capital, and the Genpei War of 1180–1185 ended with the Taira fleet destroyed at Dannoura, the boy emperor Antoku drowned, and the Kamakura shogunate ascendant.\n\n🔑 Key Facts:\n• The Tale of Genji is over 1,000 pages long and follows three generations of a fictional imperial family\n• Heian-kyo's grid plan covered roughly 9 square miles, modeled on Chang'an but smaller\n• At Dannoura the imperial sword was lost to the sea and has never been recovered\n\n🤔 Why It Matters: The Heian court invented vernacular Japanese literature, codified the aesthetic vocabulary (mono no aware, miyabi) that still defines Japanese taste, and accidentally created the conditions for seven centuries of warrior government.\n\n🎲 Wild Card: Murasaki Shikibu wrote the world's first psychological novel at exactly the moment Leif Erikson was reaching North America and al-Haytham was inventing optical science in Cairo — three of human civilization's most distinctive achievements happening simultaneously without any of them knowing about the others.",
+  "countryIds": [
+    "392"
+  ],
+  "spans": [
+    {
+      "id": "span-heian-japan-early-heian",
+      "label": "Early Heian",
+      "startYear": 794,
+      "endYear": 894,
+      "wikiSlug": "Heian_period",
+      "description": "Emperor Kammu founded Heian-kyo on the Chang'an grid, Saicho and Kukai imported esoteric Buddhism from Tang China, and the court worked out the institutional shape of the new capital. The era closes with the cancellation of embassies to a collapsing Tang in 894."
+    },
+    {
+      "id": "span-heian-japan-fujiwara-peak",
+      "label": "Fujiwara Peak",
+      "startYear": 894,
+      "endYear": 1068,
+      "wikiSlug": "Fujiwara_clan",
+      "description": "With embassies cancelled and Chinese influence receding, the Fujiwara regents — climaxing under Michinaga around 1000 — controlled the throne through marriage politics while kana script and women's literature produced the Tale of Genji and the Pillow Book."
+    },
+    {
+      "id": "span-heian-japan-insei-period",
+      "label": "Insei Period",
+      "startYear": 1068,
+      "endYear": 1156,
+      "wikiSlug": "Cloistered_rule",
+      "description": "Retired emperors led by Shirakawa governed from Buddhist retirement quarters, bypassing the Fujiwara regency. Provincial warrior bands consolidated, shoen estates spread, and Pure Land Buddhism reached commoners."
+    },
+    {
+      "id": "span-heian-japan-disturbances",
+      "label": "Hogen-Heiji Disturbances",
+      "startYear": 1156,
+      "endYear": 1180,
+      "wikiSlug": "Hōgen_rebellion",
+      "description": "Two short, bloody court conflicts — the Hogen Disturbance of 1156 and the Heiji Disturbance of 1159 — brought Taira and Minamoto warriors into Kyoto's streets and ended with the Taira clan under Kiyomori controlling the capital."
+    },
+    {
+      "id": "span-heian-japan-genpei-war",
+      "label": "Genpei War",
+      "startYear": 1180,
+      "endYear": 1185,
+      "wikiSlug": "Genpei_War",
+      "description": "Minamoto no Yoritomo's eastern uprising and his brother Yoshitsune's audacious campaigns destroyed the Taira at Ichinotani, Yashima, and finally Dannoura — where the boy emperor Antoku drowned and the Heian court's political world ended."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-heian-emperor-kammu",
+      "label": "Emperor Kammu",
+      "year": 781,
+      "endYear": 806,
+      "description": "The reforming emperor who moved the capital first to Nagaoka and then to Heian-kyo in 794 to escape the political weight of Nara's Buddhist clergy, and who launched the Emishi campaigns that extended Yamato control into northern Honshu.",
+      "wikiSlug": "Emperor_Kanmu",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-kyo-founded",
+      "label": "Heian-kyo Founded",
+      "year": 794,
+      "description": "Kammu relocated the imperial capital to Heian-kyo, modeled on Tang Chang'an with a strict north-south grid, the Daigokuden audience hall at the head of Suzaku Avenue, and a planned area of roughly 9 square miles. Kyoto remained the imperial capital for over a thousand years.",
+      "wikiSlug": "Heian-kyō",
+      "tier": 1,
+      "tags": ["rulers"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-heian-emishi-campaigns",
+      "label": "Sakanoue no Tamuramaro and the Emishi",
+      "year": 797,
+      "endYear": 811,
+      "description": "Sakanoue no Tamuramaro, named Sei-i Taishogun (the title that would later become 'shogun'), led campaigns that pushed the frontier deep into northern Honshu and broke the organized resistance of the indigenous Emishi people.",
+      "wikiSlug": "Sakanoue_no_Tamuramaro",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-conscript-army-abolished",
+      "label": "Chinese-style Conscript Army Abolished",
+      "year": 792,
+      "description": "Kammu scrapped the Tang-modeled peasant conscript army, which had never worked well in Japan, and replaced it with a system of provincial warrior officials — a decision that would, two centuries later, produce a samurai class with no rival military authority.",
+      "wikiSlug": "Conscription_in_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-saicho-tendai",
+      "label": "Saicho Founds Tendai at Mount Hiei",
+      "year": 805,
+      "description": "After studying in Tang China, the monk Saicho established the Tendai school of Buddhism on Mount Hiei northeast of Kyoto, importing the Lotus Sutra-centered teaching that would dominate Japanese religious life for centuries.",
+      "wikiSlug": "Saichō",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-kukai-shingon",
+      "label": "Kukai Founds Shingon at Mount Koya",
+      "year": 816,
+      "description": "Kukai (posthumously Kobo Daishi), a polymath monk who had studied esoteric Buddhism at Chang'an, founded the Shingon school at Mount Koya south of the capital — the most thoroughly esoteric school of East Asian Buddhism, with mantras, mandalas, and elaborate ritual at its core.",
+      "wikiSlug": "Kūkai",
+      "tier": 1,
+      "tags": ["people", "writing"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-mt-hiei-temples",
+      "label": "Enryakuji Temple Complex on Mount Hiei",
+      "year": 805,
+      "description": "Saicho's Enryakuji on Mount Hiei grew over centuries into a self-governing monastic city of thousands of monks and tens of thousands of armed retainers — the largest and most politically powerful Buddhist institution in Japan.",
+      "wikiSlug": "Enryaku-ji",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-heian-mt-koya-temples",
+      "label": "Mount Koya Monastic Complex",
+      "year": 819,
+      "description": "Kukai consecrated the temple complex at Mount Koya in the Kii peninsula, designed as a three-dimensional mandala in the mountains and intended as the eastern counterpart to the great esoteric centers of Tang China.",
+      "wikiSlug": "Mount_Kōya",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-heian-esoteric-buddhism",
+      "label": "Esoteric Buddhism Reshapes Japanese Religion",
+      "year": 820,
+      "description": "Saicho's Tendai and Kukai's Shingon brought mikkyo (esoteric Buddhism) — mandalas, mantras, mudras, the doctrine that buddhahood is attainable in this life — into Japan, recasting the architecture, ritual, and visual culture of every major institution.",
+      "wikiSlug": "Vajrayana#Japan",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-kana-development",
+      "label": "Hiragana and Katakana Develop",
+      "year": 850,
+      "description": "Two phonetic syllabaries — hiragana, derived from cursive Chinese characters, and katakana, derived from character fragments — emerged from the older man'yogana system, allowing Japanese to be written natively for the first time.",
+      "wikiSlug": "Kana",
+      "tier": 1,
+      "tags": ["science"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-fujiwara-yoshifusa",
+      "label": "Fujiwara no Yoshifusa Becomes First Non-Imperial Regent",
+      "year": 858,
+      "description": "Fujiwara no Yoshifusa, grandfather of the child Emperor Seiwa, took the title sessho (regent for a child emperor) — the first non-imperial regent in Japanese history. The Fujiwara would hold the regency, in either sessho or kampaku form, for most of the next two centuries.",
+      "wikiSlug": "Fujiwara_no_Yoshifusa",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-marriage-politics",
+      "label": "Fujiwara Marriage Politics",
+      "year": 870,
+      "description": "The Fujiwara strategy was elegant and ruthless: marry daughters to emperors so that the next emperor would always be a Fujiwara grandson, making a Fujiwara grandfather or uncle the natural choice for regent. They controlled the throne without ever sitting on it.",
+      "wikiSlug": "Fujiwara_clan",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-engi-shiki",
+      "label": "Engishiki Codifies Shinto Shrines",
+      "year": 927,
+      "description": "The Engishiki ('Procedures of the Engi Era') codified ritual procedures, court protocol, and a list of more than 2,800 official Shinto shrines across Japan, fixing the institutional shape of state Shinto for centuries.",
+      "wikiSlug": "Engishiki",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-shinbutsu-shugo",
+      "label": "Shinbutsu-shugo Synthesis",
+      "year": 900,
+      "description": "Buddhism and Shinto interpenetrated until they were nearly inseparable — Buddhist temples maintained Shinto shrines on their grounds, Shinto kami were assigned Buddhist counterparts, and worshippers prayed at both without sensing any contradiction. This shinbutsu-shugo coexistence lasted until the Meiji forced separation in 1868.",
+      "wikiSlug": "Shinbutsu-shūgō",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-end-tang-embassies",
+      "label": "Embassies to Tang China Cease",
+      "year": 894,
+      "description": "Sugawara no Michizane recommended canceling the embassy to Tang China — the Tang was visibly collapsing and the voyages were dangerous — and the court agreed. Japan entered a period of cultural independence that would last for centuries.",
+      "wikiSlug": "Japanese_missions_to_Imperial_China",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-heian-sugawara-michizane",
+      "label": "Sugawara no Michizane Exiled and Deified",
+      "year": 901,
+      "description": "The scholar-politician was destroyed by Fujiwara intrigue, exiled to Kyushu, and died in despair in 903. After plagues and lightning strikes hit the capital, the court deified him as Tenjin, god of learning. Japanese students still pray at Tenjin shrines before exams.",
+      "wikiSlug": "Sugawara_no_Michizane",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-heian-kokin-wakashu",
+      "label": "Kokin Wakashu Poetry Anthology",
+      "year": 905,
+      "description": "The first imperial anthology of waka poetry, compiled by Ki no Tsurayuki and others on the order of Emperor Daigo. Its preface, written in vernacular kana rather than Chinese, was a literary manifesto: Japanese poetry was now a serious art with its own rules.",
+      "wikiSlug": "Kokin_Wakashū",
+      "tier": 2,
+      "tags": ["writing"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-tale-of-bamboo-cutter",
+      "label": "Tale of the Bamboo Cutter",
+      "year": 909,
+      "description": "The earliest surviving Japanese prose narrative tells of a tiny moon princess found inside a bamboo stalk by a poor woodcutter. Composed in late ninth or early tenth century kana, it is sometimes called the ancestor of Japanese fantasy fiction.",
+      "wikiSlug": "The_Tale_of_the_Bamboo_Cutter",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-tosa-diary",
+      "label": "Tosa Diary",
+      "year": 935,
+      "description": "Ki no Tsurayuki, governor of Tosa Province, wrote a diary of his return voyage to Kyoto in vernacular Japanese under the fiction that the writer was a woman, since serious diaries were supposed to be written in Chinese by men. The trick produced one of the foundational works of Japanese vernacular prose.",
+      "wikiSlug": "Tosa_Nikki",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-court-aesthetic",
+      "label": "Mono no Aware and Miyabi",
+      "year": 950,
+      "description": "Heian court culture refined a distinctive aesthetic vocabulary: mono no aware ('the pathos of things'), the bittersweet awareness of impermanence, and miyabi ('elegance'), the cultivated refinement that separated the court from everything outside it. These concepts still shape Japanese aesthetic criticism.",
+      "wikiSlug": "Mono_no_aware",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-junihitoe",
+      "label": "Junihitoe and Court Costume",
+      "year": 970,
+      "description": "Heian court women wore the junihitoe ('twelve-layer robe'), an elaborately layered ensemble in which the visible color combinations at sleeve-edge and neckline carried specific seasonal and emotional meaning. A woman's color sense was a measure of her cultivation.",
+      "wikiSlug": "Jūnihitoe",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-heian-fujiwara-michinaga",
+      "label": "Fujiwara no Michinaga",
+      "year": 995,
+      "endYear": 1027,
+      "description": "Michinaga dominated court politics for thirty-two years, married four daughters to emperors, and saw three grandsons become emperors in succession. His full-moon poem ('this world, I think, is indeed my world') is the textbook statement of Heian political dominance.",
+      "wikiSlug": "Fujiwara_no_Michinaga",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-michinaga-full-moon",
+      "label": "Michinaga's Full Moon Poem",
+      "year": 1018,
+      "description": "At the banquet celebrating the appointment of his third daughter as empress, Michinaga composed an extempore poem comparing himself to the full moon — 'like the full moon I shine, uncovered by any cloud.' The poem is the most quoted single statement of Heian Fujiwara power.",
+      "wikiSlug": "Fujiwara_no_Michinaga",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-sei-shonagon",
+      "label": "Sei Shonagon's Pillow Book",
+      "year": 1002,
+      "description": "Sei Shonagon, a sharp-tongued lady-in-waiting at the court of Empress Teishi, completed The Pillow Book — a collection of lists, anecdotes, observations, and opinions that essentially invented the zuihitsu essay form. She invented the listicle a thousand years before BuzzFeed.",
+      "wikiSlug": "The_Pillow_Book",
+      "tier": 1,
+      "tags": ["people", "writing"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-murasaki-shikibu",
+      "label": "Murasaki Shikibu",
+      "year": 978,
+      "endYear": 1014,
+      "description": "Lady-in-waiting at the court of Empress Shoshi (Michinaga's daughter), Murasaki Shikibu kept an acerbic diary and wrote The Tale of Genji — one of the most celebrated works of world literature.",
+      "wikiSlug": "Murasaki_Shikibu",
+      "tier": 1,
+      "tags": ["writing"],
+      "category": "people"
+    },
+    {
+      "id": "evt-heian-tale-of-genji",
+      "label": "The Tale of Genji",
+      "year": 1010,
+      "description": "Murasaki Shikibu completed The Tale of Genji — over a thousand pages, three generations, more than four hundred characters, and a sustained psychological realism that anticipates the European novel by seven centuries. Often called the world's first novel, with caveats.",
+      "wikiSlug": "The_Tale_of_Genji",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-pure-land-buddhism",
+      "label": "Pure Land Buddhism Spreads",
+      "year": 985,
+      "description": "Genshin's Ojoyoshu ('Essentials of Salvation') in 985 popularized the Pure Land teaching that calling on the name of Amida Buddha (the nembutsu) could secure rebirth in his Western Paradise. The doctrine reached commoners in a way previous Buddhist schools had not.",
+      "wikiSlug": "Pure_Land_Buddhism",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-mappo-doctrine",
+      "label": "Mappo Doctrine and the End of the Dharma",
+      "year": 1052,
+      "description": "Heian Buddhists calculated that 1052 marked the start of mappo, the Buddhist 'final age of the Dharma,' in which conventional religious practice would no longer work and only the easy path of nembutsu chanting could save anyone. Pure Land Buddhism gained urgency from this anxiety.",
+      "wikiSlug": "Mappō",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-byodoin",
+      "label": "Byodoin Phoenix Hall",
+      "year": 1053,
+      "description": "Fujiwara no Yorimichi converted his father Michinaga's villa at Uji into a temple. The Phoenix Hall, with bronze phoenix ornaments on its roof and a gilded Amida inside, was built as a representation of the Pure Land paradise. It is on the Japanese 10-yen coin.",
+      "wikiSlug": "Byōdō-in",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-heian-honen",
+      "label": "Honen and the Pure Land School",
+      "year": 1175,
+      "description": "The monk Honen left the establishment Tendai school on Mount Hiei to teach that pure faith in Amida Buddha — expressed through chanting the nembutsu — was the only effective religious practice in the age of mappo. He founded the Jodo-shu (Pure Land School), the first explicitly populist Buddhist order in Japan.",
+      "wikiSlug": "Hōnen",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-shoen-system",
+      "label": "Shoen Estate System",
+      "year": 1000,
+      "description": "Tax-exempt private estates (shoen) controlled by court nobles and major temples gradually swallowed the imperial public-land system. By the late Heian period, the shoen network supplied the wealth of every powerful institution and was the political base on which warrior bands later built.",
+      "wikiSlug": "Shōen",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-heian-bushidan-rise",
+      "label": "Provincial Warrior Bands (Bushidan) Rise",
+      "year": 950,
+      "description": "Across the tenth and eleventh centuries, provincial landholders organized armed retainers into kin-based bushidan ('warrior bands'). These were the institutional ancestors of the samurai — mounted archers and swordsmen who collected taxes, suppressed rebellions, and slowly accumulated independent power.",
+      "wikiSlug": "Samurai",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-former-nine-years-war",
+      "label": "Former Nine Years' War",
+      "year": 1051,
+      "endYear": 1062,
+      "description": "Minamoto no Yoriyoshi suppressed the Abe clan rebellion in northern Honshu, allied with the Kiyowara family, and emerged with twelve years of campaign experience and a network of loyal eastern warriors. The war established the Minamoto as the leading military house of eastern Japan.",
+      "wikiSlug": "Former_Nine_Years%27_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-later-three-years-war",
+      "label": "Later Three Years' War",
+      "year": 1083,
+      "endYear": 1087,
+      "description": "Minamoto no Yoshiie's campaign in northeastern Honshu against rival warrior factions further consolidated Minamoto authority in the east. The court refused to recognize it as an official war, so Yoshiie paid his retainers from his own pocket — buying their lasting loyalty.",
+      "wikiSlug": "Later_Three-Year_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-shirakawa-insei",
+      "label": "Shirakawa and the Insei System",
+      "year": 1086,
+      "description": "Emperor Shirakawa abdicated in 1086 but continued to rule from Buddhist retirement quarters as a 'cloistered emperor' (in), free from Fujiwara regents and ceremonial obligations. The insei system would dominate court politics for the next seventy years.",
+      "wikiSlug": "Cloistered_rule",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-emperor-shirakawa",
+      "label": "Emperor Shirakawa",
+      "year": 1073,
+      "endYear": 1129,
+      "description": "Reigned 1073–1086, then ruled as cloistered emperor until his death in 1129. The most politically active retired emperor in Japanese history and the architect of the insei system.",
+      "wikiSlug": "Emperor_Shirakawa",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-warrior-monks",
+      "label": "Sohei (Warrior Monks)",
+      "year": 1100,
+      "description": "Major Buddhist temples — especially Enryakuji on Mount Hiei and Kofukuji at Nara — fielded private armies of armed monks (sohei) who marched on Kyoto to enforce temple demands. Shirakawa famously complained that he could control everything except the Kamo River, the dice, and the monks of Mount Hiei.",
+      "wikiSlug": "Sōhei",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-genji-monogatari-emaki",
+      "label": "Genji Monogatari Emaki Picture Scrolls",
+      "year": 1130,
+      "description": "Illustrated handscrolls of selected Genji scenes painted in the courtly fukinuki yatai ('blown-off-roof') perspective, with figures rendered in the stylized hikime kagibana ('line eye, hook nose') convention. Among the earliest and finest surviving Japanese narrative paintings.",
+      "wikiSlug": "Tale_of_Genji_Scrolls",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-hogen-rebellion",
+      "label": "Hogen Disturbance",
+      "year": 1156,
+      "description": "A succession dispute within the imperial family spilled into armed conflict in the streets of Kyoto. Both sides recruited Taira and Minamoto warriors, and for the first time samurai fought in the sacred imperial capital. The pretense that the court could keep order without warriors was destroyed.",
+      "wikiSlug": "Hōgen_rebellion",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-heiji-rebellion",
+      "label": "Heiji Disturbance",
+      "year": 1159,
+      "description": "A second armed conflict three years after Hogen, ending with a decisive Taira victory under Kiyomori. The defeated Minamoto leader Yoshitomo was killed, and his sons Yoritomo and Yoshitsune were spared in a decision the Taira would spend twenty years regretting.",
+      "wikiSlug": "Heiji_rebellion",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-taira-kiyomori",
+      "label": "Taira no Kiyomori Dominates",
+      "year": 1167,
+      "endYear": 1181,
+      "description": "Kiyomori became Daijo-daijin (Grand Minister) in 1167 — the first warrior to hold the highest civilian office in Japan. He married his daughter to the emperor and saw his grandson Antoku enthroned as a child, exactly the Fujiwara playbook applied by a samurai house.",
+      "wikiSlug": "Taira_no_Kiyomori",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-fukuhara-capital",
+      "label": "Brief Move of Capital to Fukuhara",
+      "year": 1180,
+      "description": "Kiyomori briefly relocated the capital to Fukuhara (modern Kobe) to be closer to his Inland Sea trade networks with Song China — a commercial venture that enriched the Taira but appalled the Kyoto aristocracy. The court returned to Kyoto within months.",
+      "wikiSlug": "Fukuhara-kyō",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-heian-song-trade",
+      "label": "Song China Trade",
+      "year": 1170,
+      "description": "Kiyomori's Inland Sea ports handled growing maritime trade with Southern Song China — Chinese coins, ceramics, books, and Buddhist images flowing in, Japanese gold, sulfur, and lacquerware flowing out. The Heian court had cancelled official embassies in 894, but private merchants kept the connection alive.",
+      "wikiSlug": "Sino-Japanese_relations",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-heian-mochihito-call",
+      "label": "Prince Mochihito's Call to Arms",
+      "year": 1180,
+      "description": "The imperial Prince Mochihito, passed over for the throne by Kiyomori's machinations, issued a call to arms against the Taira in spring 1180. Mochihito was killed within weeks, but his proclamation gave Minamoto leaders the legal cover for rebellion.",
+      "wikiSlug": "Prince_Mochihito",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-genpei-war",
+      "label": "Genpei War",
+      "year": 1180,
+      "endYear": 1185,
+      "description": "Five years of war between the Minamoto (Genji) and Taira (Heike) clans across Japan, ending with the Taira destroyed and the Kamakura shogunate ascendant. The foundational epic of Japanese warrior culture and the hinge between Japan's classical and medieval eras.",
+      "wikiSlug": "Genpei_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-minamoto-yoritomo",
+      "label": "Minamoto no Yoritomo",
+      "year": 1147,
+      "endYear": 1199,
+      "description": "Spared as a child after the Heiji Disturbance and exiled to the Izu Peninsula for twenty years, Yoritomo raised the Minamoto banner in 1180, organized warriors from his eastern base at Kamakura, and after the Taira destruction in 1185 founded the Kamakura shogunate — Japan's first warrior government.",
+      "wikiSlug": "Minamoto_no_Yoritomo",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-minamoto-yoshitsune",
+      "label": "Minamoto no Yoshitsune",
+      "year": 1159,
+      "endYear": 1189,
+      "description": "Yoritomo's younger half-brother, the tactical genius of the Genpei War. His audacious cliff-charge at Ichinotani, his amphibious assault at Yashima, and his command at Dannoura made him a legend — and his subsequent fall to Yoritomo's jealousy made him Japan's archetypal tragic hero.",
+      "wikiSlug": "Minamoto_no_Yoshitsune",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-heian-kamakura-base",
+      "label": "Kamakura as Yoritomo's Base",
+      "year": 1180,
+      "description": "Yoritomo set up his headquarters at Kamakura, a small coastal town in eastern Japan near modern Tokyo, deliberately distant from the court intrigues of Kyoto. The choice fixed the location of Japan's first warrior government and made Kamakura a city of national consequence.",
+      "wikiSlug": "Kamakura",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-heian-battle-fujigawa",
+      "label": "Battle of Fujigawa",
+      "year": 1180,
+      "description": "The Taira army sent east to crush Yoritomo's uprising fled in panic from the sound of waterfowl taking off from a marsh, mistaking it for the approach of an overwhelming Minamoto force. The non-battle did more for Minamoto reputation than a victory would have.",
+      "wikiSlug": "Battle_of_Fujigawa",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-battle-kurikara",
+      "label": "Battle of Kurikara",
+      "year": 1183,
+      "description": "Minamoto no Yoshinaka, Yoritomo's cousin, drove the Taira army off a mountain pass by stampeding oxen with torches tied to their horns down on them at night. The victory opened the road to Kyoto and forced the Taira to flee the capital with the boy emperor.",
+      "wikiSlug": "Battle_of_Kurikara",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-battle-ichinotani",
+      "label": "Battle of Ichinotani",
+      "year": 1184,
+      "description": "Yoshitsune led a small force of mounted samurai down a near-vertical cliff face that the Taira had considered impassable, attacking their fortified position from behind. The Taira fled to their ships, leaving thousands dead on the beach.",
+      "wikiSlug": "Battle_of_Ichi-no-Tani",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-battle-yashima",
+      "label": "Battle of Yashima",
+      "year": 1185,
+      "description": "Yoshitsune crossed to Shikoku in a storm with a token force, attacked the Taira naval base at Yashima from the unguarded landward side at low tide, and burned the buildings before the Taira realized how few attackers there actually were. They fled west to Dannoura.",
+      "wikiSlug": "Battle_of_Yashima",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-battle-dannoura",
+      "label": "Battle of Dannoura",
+      "year": 1185,
+      "description": "On April 25, 1185, in the Shimonoseki Strait at the western tip of Honshu, the Minamoto fleet under Yoshitsune destroyed the Taira fleet. The boy Emperor Antoku was drowned by his grandmother to prevent capture. The sacred imperial sword was lost to the sea and never recovered.",
+      "wikiSlug": "Battle_of_Dan-no-ura",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-emperor-antoku-drowned",
+      "label": "Boy Emperor Antoku Drowned",
+      "year": 1185,
+      "description": "At Dannoura, the eight-year-old Emperor Antoku — Kiyomori's grandson — was taken by his grandmother Tokiko into the sea rather than be captured by the Minamoto. He drowned with the imperial sword in his arms. He is the only Japanese emperor known to have died in battle.",
+      "wikiSlug": "Emperor_Antoku",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-tale-of-heike",
+      "label": "Tale of the Heike",
+      "year": 1240,
+      "description": "Compiled in the early thirteenth century from earlier oral traditions, the Tale of the Heike is the great war epic of Japanese literature — a Buddhist meditation on impermanence woven into the story of the Taira's rise and fall. Its opening lines about the bells of Gion temple are memorized by every educated Japanese.",
+      "wikiSlug": "The_Tale_of_the_Heike",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-heian-yoshitsune-suicide",
+      "label": "Yoshitsune Hunted Down",
+      "year": 1189,
+      "description": "After winning the Genpei War, Yoshitsune was accused of insubordination by Yoritomo, hunted across northern Honshu, and committed suicide at the fort of Koromogawa. He was thirty. The Japanese tradition of sympathy for doomed noble losers (hogan-biiki, 'sympathy for the lieutenant') is named for his court title.",
+      "wikiSlug": "Minamoto_no_Yoshitsune",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-heian-kamakura-shogunate",
+      "label": "Kamakura Shogunate Founded",
+      "year": 1185,
+      "description": "After Dannoura, Yoritomo organized the warrior administrative apparatus that would later be formally titled the Kamakura bakufu (shogunate). It was Japan's first military government and the model for seven hundred years of warrior rule that followed.",
+      "wikiSlug": "Kamakura_shogunate",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-shogun-title",
+      "label": "Yoritomo Named Sei-i Taishogun",
+      "year": 1192,
+      "description": "Seven years after Dannoura, Yoritomo received the title Sei-i Taishogun ('barbarian-subduing great general') from the cloistered emperor Go-Shirakawa. The title — usually shortened to shogun — became the legal basis for warrior rule until 1868.",
+      "wikiSlug": "Shōgun",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-go-shirakawa",
+      "label": "Cloistered Emperor Go-Shirakawa",
+      "year": 1158,
+      "endYear": 1192,
+      "description": "Cloistered emperor through the entire Genpei War, Go-Shirakawa survived three different warrior strongmen (Kiyomori, Yoshinaka, Yoritomo), played them against each other, and kept the imperial institution alive through the most violent decade of Heian history.",
+      "wikiSlug": "Emperor_Go-Shirakawa",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-genji-clan",
+      "label": "Minamoto (Genji) Clan",
+      "year": 950,
+      "description": "Descended from a tenth-century imperial prince given the Minamoto surname when he was demoted to commoner status, the clan built its power in eastern Japan through the Former Nine Years' and Later Three Years' Wars. The Genpei War made them the dominant warrior house of medieval Japan.",
+      "wikiSlug": "Minamoto_clan",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-heian-heike-clan",
+      "label": "Taira (Heike) Clan",
+      "year": 950,
+      "description": "Descended from another tenth-century demoted imperial prince, the Taira built their power in western Japan through suppressing pirates in the Inland Sea. Under Kiyomori they briefly ran the country; after Dannoura they were essentially extinct as a political force.",
+      "wikiSlug": "Taira_clan",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-heian-taira-akushichibyoe",
+      "label": "Taira Refugees in the Mountains",
+      "year": 1185,
+      "description": "A handful of Taira survivors of Dannoura escaped into remote mountain valleys, where local tradition holds that their descendants lived in hiding for generations. Several mountain villages still claim Heike ancestry — the Taira tradition of doomed nobility folded into local folklore.",
+      "wikiSlug": "Heike_legend",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-heian-fujiwara-no-yorimichi",
+      "label": "Fujiwara no Yorimichi",
+      "year": 992,
+      "endYear": 1074,
+      "description": "Michinaga's eldest son, regent for over fifty years (1017–1068), and builder of the Byodoin Phoenix Hall in 1053. The last of the great Fujiwara regents — after Yorimichi, no Fujiwara daughter produced an heir, and the regency lost its grip on the throne.",
+      "wikiSlug": "Fujiwara_no_Yorimichi",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-heian-onmyodo",
+      "label": "Onmyodo Court Cosmology",
+      "year": 900,
+      "description": "Onmyodo ('the way of yin and yang'), a syncretic Heian discipline that combined Chinese cosmology, divination, geomancy, and Shinto-Buddhist ritual, governed everything from the placement of buildings to the timing of journeys at court. Court diviners like Abe no Seimei became legendary figures.",
+      "wikiSlug": "Onmyōdō",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-heian-abe-no-seimei",
+      "label": "Abe no Seimei",
+      "year": 921,
+      "endYear": 1005,
+      "description": "The most famous onmyoji (yin-yang master) of the Heian period and a real historical court official whose surviving documents include calendars and divination records. By the medieval period he had been folded into legend as a half-supernatural sorcerer.",
+      "wikiSlug": "Abe_no_Seimei",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "people"
+    }
+  ]
+}

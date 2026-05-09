@@ -140,7 +140,6 @@ const NARRATIVE_FILES: Record<string, string> = {
   'ancient-rome.md': 'ancient-rome',
   'zapotec-civilization.md': 'zapotec-civilization',
   'celtic-cultures.md': 'celtic-cultures',
-  'ancient-japan.md': 'ancient-japan',
   'xiongnu-huns.md': 'xiongnu-huns',
   'post-maurya-kingdoms.md': 'post-maurya-kingdoms',
   'han-dynasty.md': 'han-dynasty',
@@ -180,6 +179,9 @@ const NARRATIVE_FILES: Record<string, string> = {
   'japanese-economic-miracle.md': 'japanese-economic-miracle',
   'renaissance-italy.md': 'renaissance-italy',
   'ming-dynasty.md': 'ming-dynasty',
+  'prehistoric-japan.md': 'prehistoric-japan',
+  'asuka-nara-japan.md': 'asuka-nara-japan',
+  'heian-japan.md': 'heian-japan',
 }
 
 function slugify(title: string): string {
