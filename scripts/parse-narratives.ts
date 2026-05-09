@@ -161,9 +161,16 @@ const NARRATIVE_FILES: Record<string, string> = {
   'edo-japan.md': 'edo-japan',
   'gokturk-khaganate.md': 'gokturk-khaganate',
   'mali-empire.md': 'mali-empire',
+  'songhai-empire.md': 'songhai-empire',
   'tang-song-china.md': 'tang-song-china',
   'joseon-korea.md': 'joseon-korea',
   'medieval-india.md': 'medieval-india',
+  'meiji-japan.md': 'meiji-japan',
+  'yuan-dynasty.md': 'yuan-dynasty',
+  'inca-empire.md': 'inca-empire',
+  'timurid-empire.md': 'timurid-empire',
+  'delhi-sultanate.md': 'delhi-sultanate',
+  'late-medieval-europe.md': 'late-medieval-europe',
 }
 
 function slugify(title: string): string {

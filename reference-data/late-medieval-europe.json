@@ -1,0 +1,889 @@
+{
+  "id": "late-medieval-europe",
+  "label": "Late Medieval Europe",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Late_Middle_Ages",
+  "imageWikiSlug": "Black_Death",
+  "pitch": "From the Great Famine of 1315 to Columbus in 1492, late medieval Europe is the long crisis that ended the Middle Ages. The Black Death killed roughly a third of the continent in four years; the Hundred Years War broke France and remade English national identity; the Avignon Papacy and the Western Schism made the universal Church look like a corrupt joke; peasants revolted from Île-de-France to East Anglia to Florence; Joan of Arc was burned at nineteen and canonized five centuries later; Wycliffe and Hus rehearsed the Reformation a hundred years before Luther; the Italian city-states reinvented banking, painting, and the architecture of domes; and 1453 saw both the fall of Constantinople and the end of the Hundred Years War in the same year.\n\n🔑 Key Facts:\n• The Black Death of 1347–1351 killed an estimated 30–50% of Europe's population in four years and broke the manorial labor system permanently\n• The longbow at Crécy in 1346 demonstrated that disciplined infantry could destroy mounted chivalric cavalry, ending a thousand years of military tradition\n• The Council of Constance in 1417 ended the Western Schism by deposing all three rival popes and electing a new one — and burned Jan Hus alive after promising him safe conduct\n• Brunelleschi's dome on Florence Cathedral, finished in 1436, was the largest masonry dome built in Europe since the Pantheon and the symbolic launch of the Renaissance\n\n🤔 Why It Matters: The institutions and traumas of the Late Middle Ages — vernacular Bibles, gunpowder, the printing press, peasant rebellion, religious dissent, banking, perspective painting, the Reformation in embryo, the first European voyages around Africa and to the Americas — are the immediate ancestors of the early modern world. The Renaissance is not a break with this period; it is its product.\n\n🎲 Wild Card: The Black Death was not called the Black Death by anyone who lived through it. Contemporaries called it the Great Mortality, the Pestilence, or simply the Plague. The name 'Black Death' was popularized in nineteenth-century Scandinavian and German histories, and the 'black' likely referred to the metaphor of dread rather than to any actual symptom — gangrenous extremities are real but rare in bubonic plague, and contemporary descriptions emphasize the buboes (swellings), not blackness.",
+  "countryIds": [
+    "250",
+    "826",
+    "276",
+    "380",
+    "724",
+    "203"
+  ],
+  "spans": [
+    {
+      "id": "span-late-medieval-europe-famine-plague",
+      "label": "Famine and Plague",
+      "startYear": 1300,
+      "endYear": 1360,
+      "wikiSlug": "Crisis_of_the_Late_Middle_Ages",
+      "description": "The Little Ice Age cooled European summers after roughly 1300, and the Great Famine of 1315–1317 killed perhaps 10% of northern Europe's population. The Black Death arrived in 1347 and killed a third of the continent in four years, breaking the manorial labor system and triggering the wave of antisemitic pogroms that emptied Jewish communities from the Rhineland to Catalonia."
+    },
+    {
+      "id": "span-late-medieval-europe-hundred-years-war",
+      "label": "Hundred Years War",
+      "startYear": 1337,
+      "endYear": 1453,
+      "wikiSlug": "Hundred_Years%27_War",
+      "description": "England and France fought a series of related conflicts from 1337 to 1453 over the French succession and English continental holdings. The longbow destroyed French chivalric cavalry at Crécy (1346), Poitiers (1356), and Agincourt (1415); Joan of Arc reversed the trajectory at Orléans in 1429; French artillery ended the war at Castillon in 1453."
+    },
+    {
+      "id": "span-late-medieval-europe-schism",
+      "label": "The Schism Era",
+      "startYear": 1309,
+      "endYear": 1417,
+      "wikiSlug": "Western_Schism",
+      "description": "Pope Clement V relocated the papal court to Avignon in 1309 under French royal pressure; seven popes ruled from Avignon until Gregory XI returned to Rome in 1377. From 1378 to 1417, two and at one point three rival popes claimed the throne of Saint Peter simultaneously, splitting Latin Christendom and ending only at the Council of Constance in 1417."
+    },
+    {
+      "id": "span-late-medieval-europe-renaissance-threshold",
+      "label": "Late-Gothic and Early-Renaissance Threshold",
+      "startYear": 1380,
+      "endYear": 1480,
+      "wikiSlug": "Italian_Renaissance",
+      "description": "The Italian city-states began the early Renaissance under the Medici and the Visconti. Brunelleschi engineered the dome of Florence Cathedral; Donatello and Masaccio reinvented sculpture and painting; the van Eycks perfected oil painting in the Low Countries; Gutenberg's movable-type press collapsed the cost of books in the 1450s and made the Reformation possible."
+    },
+    {
+      "id": "span-late-medieval-europe-end-of-era",
+      "label": "End-of-Era Discoveries",
+      "startYear": 1453,
+      "endYear": 1500,
+      "wikiSlug": "Age_of_Discovery",
+      "description": "The Ottoman conquest of Constantinople ended the eastern Roman state in 1453. The Reconquista completed at Granada in 1492. Columbus reached the Caribbean later the same year. By 1500 the central institutions of medieval Europe — the cathedral, the manor, the universal church, the scholastic university — were giving way to the printing press, the nation-state, and the early modern Atlantic world."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-lme-little-ice-age",
+      "label": "Little Ice Age Begins",
+      "year": 1300,
+      "description": "After roughly three centuries of the Medieval Warm Period, European summers began to cool around 1300, beginning what climate historians call the Little Ice Age — a five-century cooling pulse that shortened growing seasons, expanded glaciers, and raised the demographic vulnerability of medieval agriculture.",
+      "wikiSlug": "Little_Ice_Age",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-lme-great-famine",
+      "label": "Great Famine",
+      "year": 1315,
+      "endYear": 1317,
+      "description": "Three consecutive summers of catastrophic rain rotted the harvest across northern Europe between 1315 and 1317, killing an estimated 10% of the population from the British Isles to the Polish plain — the largest demographic shock to Europe between the Plague of Justinian and the Black Death.",
+      "wikiSlug": "Great_Famine_of_1315%E2%80%931317",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-lme-cattle-plague",
+      "label": "Great Bovine Pestilence",
+      "year": 1319,
+      "description": "An unidentified cattle disease — probably rinderpest — swept through European herds between 1319 and 1320, killing the draft animals that had survived the Great Famine and compounding the agricultural collapse of the 1310s.",
+      "wikiSlug": "Great_Famine_of_1315%E2%80%931317",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-lme-dante-comedy",
+      "label": "Dante's Divine Comedy",
+      "year": 1308,
+      "endYear": 1320,
+      "description": "Dante Alighieri began The Divine Comedy around 1308 and finished it shortly before his death in 1321, writing the epic in vernacular Italian rather than Latin and effectively founding modern Italian literature.",
+      "wikiSlug": "Divine_Comedy",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-knights-templar-suppressed",
+      "label": "Knights Templar Suppressed",
+      "year": 1307,
+      "description": "King Philip IV of France arrested every Templar in his kingdom on Friday October 13, 1307, extracted confessions of heresy under torture, and pressured Pope Clement V to suppress the order in 1312. The Templars' last grand master Jacques de Molay was burned at the stake in 1314.",
+      "wikiSlug": "Knights_Templar",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-avignon-papacy",
+      "label": "Avignon Papacy Begins",
+      "year": 1309,
+      "description": "Pope Clement V relocated the papal court to Avignon in southern France in 1309 under French royal pressure, beginning a 68-year period in which seven successive popes ruled from Avignon rather than Rome.",
+      "wikiSlug": "Avignon_Papacy",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-edward-iii-claim",
+      "label": "Edward III's French Claim",
+      "year": 1337,
+      "description": "Edward III of England claimed the French throne through his mother Isabella in 1337, conventionally beginning the Hundred Years War. The dynastic claim was thin, but the underlying struggle was over English continental possessions, French royal authority over Gascony, and control of the Flemish wool trade.",
+      "wikiSlug": "Edward_III_of_England",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-hundred-years-war",
+      "label": "Hundred Years War",
+      "year": 1337,
+      "endYear": 1453,
+      "description": "England and France fought a series of related conflicts from 1337 to 1453 over the French succession and English continental holdings, a war that introduced the longbow, the cannon, professional standing armies, and the early forms of national identity.",
+      "wikiSlug": "Hundred_Years%27_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-battle-sluys",
+      "label": "Battle of Sluys",
+      "year": 1340,
+      "description": "Edward III's English fleet annihilated the French navy at Sluys off the Flemish coast on June 24, 1340, giving England command of the Channel for a generation and enabling the land campaigns of the next two decades.",
+      "wikiSlug": "Battle_of_Sluys",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-battle-crecy",
+      "label": "Battle of Crécy",
+      "year": 1346,
+      "description": "English longbowmen under Edward III destroyed the French chivalric cavalry at the Battle of Crécy on August 26, 1346, demonstrating that disciplined infantry firepower could break the mounted knight and changing European warfare.",
+      "wikiSlug": "Battle_of_Cr%C3%A9cy",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-calais-siege",
+      "label": "Siege of Calais",
+      "year": 1347,
+      "description": "After eleven months of siege following Crécy, the French port of Calais surrendered to Edward III in August 1347. England held Calais as a continental foothold until 1558.",
+      "wikiSlug": "Siege_of_Calais_(1346%E2%80%931347)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-black-death",
+      "label": "Black Death",
+      "year": 1347,
+      "endYear": 1351,
+      "description": "Bubonic plague spread from Mongol-besieged Caffa across Europe between 1347 and 1351, killing roughly a third of the continent's population in four years and permanently shattering the manorial labor system, the church's spiritual authority, and the social structure of medieval Europe.",
+      "wikiSlug": "Black_Death",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-lme-caffa-siege",
+      "label": "Mongol Siege of Caffa",
+      "year": 1346,
+      "description": "The Mongol khan Jani Beg besieged the Genoese trading post of Caffa in Crimea in 1346 and reportedly catapulted plague-infected corpses over the walls — one of the first attested uses of biological warfare and the conventional starting point of the Black Death's European phase.",
+      "wikiSlug": "Siege_of_Caffa",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-jewish-pogroms-1349",
+      "label": "Black Death Pogroms",
+      "year": 1349,
+      "description": "From late 1348 through 1349, mobs across the Rhineland, Alsace, Switzerland, and Catalonia massacred Jewish communities accused of poisoning wells to spread the plague. Strasbourg burned 900 Jews alive on February 14, 1349; Mainz, Cologne, Worms, and Frankfurt were emptied within months.",
+      "wikiSlug": "Black_Death_Jewish_persecutions",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-flagellants",
+      "label": "Flagellant Movement",
+      "year": 1349,
+      "description": "Bands of penitents called Flagellants roamed central Europe in 1348–1349 whipping themselves bloody in public processions to atone for the sins they believed had brought the plague. Pope Clement VI condemned the movement in October 1349.",
+      "wikiSlug": "Flagellant",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-statute-of-laborers",
+      "label": "Statute of Labourers",
+      "year": 1351,
+      "description": "Edward III's 1351 Statute of Labourers tried to fix English wages at pre-plague levels in response to the catastrophic post-Black Death labor shortage, criminalizing peasants who demanded higher wages or moved between manors. It mostly failed — wages roughly doubled by 1400.",
+      "wikiSlug": "Statute_of_Labourers_1351",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-battle-poitiers",
+      "label": "Battle of Poitiers",
+      "year": 1356,
+      "description": "Edward the Black Prince's English-Gascon army destroyed a French force three times its size at Poitiers on September 19, 1356, capturing King John II of France and forcing the temporary 1360 Treaty of Brétigny.",
+      "wikiSlug": "Battle_of_Poitiers",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-treaty-bretigny",
+      "label": "Treaty of Brétigny",
+      "year": 1360,
+      "description": "The Treaty of Brétigny in May 1360 ceded enormous territory in southwestern France to England in exchange for Edward III renouncing his French throne claim and releasing John II — a pause in the Hundred Years War that lasted only nine years before the French resumed the fight.",
+      "wikiSlug": "Treaty_of_Br%C3%A9tigny",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-jacquerie",
+      "label": "The Jacquerie",
+      "year": 1358,
+      "description": "French peasants rose against their lords in the Île-de-France region in May–June 1358, one of the largest peasant revolts of the Middle Ages, before being crushed by the assembled French nobility within four weeks.",
+      "wikiSlug": "Jacquerie",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-charles-v-france",
+      "label": "Charles V the Wise",
+      "year": 1364,
+      "endYear": 1380,
+      "description": "Charles V of France, a sickly, scholarly king with the brilliant general Bertrand du Guesclin at his side, recovered most of what France had lost at Brétigny through patient siege warfare and avoidance of pitched battles between 1369 and 1380.",
+      "wikiSlug": "Charles_V_of_France",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-return-to-rome",
+      "label": "Return to Rome",
+      "year": 1377,
+      "description": "Pope Gregory XI moved the papal court back from Avignon to Rome in January 1377 under pressure from Catherine of Siena and the deteriorating French political situation. He died fourteen months later, triggering the disputed conclave that produced the Western Schism.",
+      "wikiSlug": "Pope_Gregory_XI",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-western-schism",
+      "label": "Western Schism",
+      "year": 1378,
+      "endYear": 1417,
+      "description": "From 1378 to 1417, two and at one point three rival popes claimed the throne of Saint Peter simultaneously, splitting Latin Christendom and ending only at the Council of Constance in 1417.",
+      "wikiSlug": "Western_Schism",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-ciompi-revolt",
+      "label": "Ciompi Revolt",
+      "year": 1378,
+      "description": "Florentine wool-carders called the Ciompi seized control of the city government in July 1378, established the only direct rule by industrial workers in any major medieval city, and held power for six weeks before being overthrown by an alliance of guild masters and patricians.",
+      "wikiSlug": "Ciompi_Revolt",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-peasants-revolt",
+      "label": "English Peasants' Revolt",
+      "year": 1381,
+      "description": "Led by Wat Tyler and the radical priest John Ball, English peasants and townsmen marched on London in June 1381 to protest the poll tax and serfdom; the revolt was suppressed but the poll tax was abandoned.",
+      "wikiSlug": "Peasants%27_Revolt",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-john-ball",
+      "label": "John Ball",
+      "year": 1381,
+      "description": "The English priest John Ball preached an egalitarian gospel — 'When Adam delved and Eve span, who was then the gentleman?' — that helped ignite the Peasants' Revolt of 1381. He was hanged, drawn, and quartered at St Albans on July 15, 1381.",
+      "wikiSlug": "John_Ball_(priest)",
+      "tier": 3,
+      "tags": ["people", "religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-lme-john-wycliffe",
+      "label": "John Wycliffe",
+      "year": 1380,
+      "description": "The Oxford theologian John Wycliffe attacked papal authority, transubstantiation, clerical wealth, and the church's monopoly on scripture; his followers, called Lollards, produced the first complete English-language Bible around 1382.",
+      "wikiSlug": "John_Wycliffe",
+      "tier": 2,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-canterbury-tales",
+      "label": "Chaucer's Canterbury Tales",
+      "year": 1387,
+      "description": "Geoffrey Chaucer began The Canterbury Tales around 1387, a collection of stories told by pilgrims traveling to Thomas Becket's shrine that became the founding masterpiece of English vernacular literature.",
+      "wikiSlug": "The_Canterbury_Tales",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-battle-kosovo",
+      "label": "Battle of Kosovo",
+      "year": 1389,
+      "description": "Ottoman forces under Sultan Murad I defeated the Serbian-led Christian coalition at Kosovo Polje on June 15, 1389, eliminating the last major Balkan power capable of resisting Ottoman expansion. Both Murad and the Serbian prince Lazar were killed.",
+      "wikiSlug": "Battle_of_Kosovo",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-battle-nicopolis",
+      "label": "Battle of Nicopolis",
+      "year": 1396,
+      "description": "An Ottoman army under Sultan Bayezid I crushed the last great pan-European crusade at Nicopolis on the Danube on September 25, 1396, killing or capturing thousands of French and Hungarian knights and ending serious western intervention in the Balkans for a century.",
+      "wikiSlug": "Battle_of_Nicopolis",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-richard-ii-deposed",
+      "label": "Richard II Deposed",
+      "year": 1399,
+      "description": "Richard II of England, increasingly autocratic and unpopular, was deposed by his cousin Henry Bolingbroke in 1399 and probably starved to death in Pontefract Castle the next year. Henry took the throne as Henry IV — the first Lancastrian king and the trigger for the dynastic conflict that became the Wars of the Roses.",
+      "wikiSlug": "Richard_II_of_England",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-tamerlane-ankara",
+      "label": "Tamerlane Defeats Bayezid",
+      "year": 1402,
+      "description": "The Turco-Mongol warlord Timur defeated and captured the Ottoman Sultan Bayezid I at the Battle of Ankara on July 20, 1402, fragmenting the Ottoman Empire for a generation and giving the dying Byzantine Empire a half-century reprieve.",
+      "wikiSlug": "Battle_of_Ankara",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-battle-agincourt",
+      "label": "Battle of Agincourt",
+      "year": 1415,
+      "description": "Henry V's English army of perhaps 6,000 longbowmen and men-at-arms destroyed a French chivalric force three times its size at Agincourt on October 25, 1415, killing thousands of French nobles in a single afternoon and reopening the Hundred Years War on devastating terms for France.",
+      "wikiSlug": "Battle_of_Agincourt",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-henry-v",
+      "label": "Henry V",
+      "year": 1413,
+      "endYear": 1422,
+      "description": "Henry V of England, immortalized by Shakespeare, won Agincourt in 1415 and forced the Treaty of Troyes in 1420 making him heir to the French throne — only to die of dysentery in 1422 before he could inherit, leaving an infant son.",
+      "wikiSlug": "Henry_V_of_England",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-treaty-troyes",
+      "label": "Treaty of Troyes",
+      "year": 1420,
+      "description": "The Treaty of Troyes in May 1420 disinherited the Dauphin Charles, married Henry V to the French king's daughter Catherine of Valois, and recognized Henry as heir to the French throne — the high-water mark of English continental ambition.",
+      "wikiSlug": "Treaty_of_Troyes",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-jan-hus",
+      "label": "Jan Hus Burned",
+      "year": 1415,
+      "description": "The Czech reformer Jan Hus was burned alive at the Council of Constance on July 6, 1415 — despite holding a written safe-conduct from Emperor Sigismund — for refusing to recant his Wycliffite doctrines, igniting the Hussite Wars in Bohemia.",
+      "wikiSlug": "Jan_Hus",
+      "tier": 2,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-council-constance",
+      "label": "Council of Constance",
+      "year": 1417,
+      "description": "The Council of Constance (1414–1418) deposed the three rival popes of the Western Schism, elected the new Martin V, and burned Jan Hus — the most consequential church council of the Middle Ages and the high-water mark of conciliarism.",
+      "wikiSlug": "Council_of_Constance",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-hussite-wars",
+      "label": "Hussite Wars",
+      "year": 1419,
+      "endYear": 1434,
+      "description": "Jan Hus's Bohemian followers fought five papal-imperial crusades to a standstill between 1419 and 1434, defeating heavy cavalry with proto-Hussite war wagons and gunpowder field guns under the brilliant general Jan Žižka.",
+      "wikiSlug": "Hussite_Wars",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-joan-of-arc-orleans",
+      "label": "Joan of Arc at Orléans",
+      "year": 1429,
+      "description": "A teenage peasant girl from Domrémy claiming to hear the voices of Saints Catherine, Margaret, and Michael led French troops to break the English siege of Orléans on May 8, 1429, reversing the trajectory of the Hundred Years War.",
+      "wikiSlug": "Siege_of_Orl%C3%A9ans",
+      "tier": 1,
+      "tags": ["people", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-joan-burned",
+      "label": "Joan of Arc Burned",
+      "year": 1431,
+      "description": "Joan of Arc was burned at the stake at Rouen on May 30, 1431 by an English-controlled ecclesiastical court for heresy, witchcraft, and cross-dressing. She was nineteen. Her conviction was overturned in 1456 and she was canonized by Pope Benedict XV in 1920.",
+      "wikiSlug": "Joan_of_Arc",
+      "tier": 1,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-charles-vii-coronation",
+      "label": "Charles VII Crowned at Reims",
+      "year": 1429,
+      "description": "Joan of Arc led the Dauphin Charles to Reims Cathedral for his coronation as Charles VII on July 17, 1429 — the symbolic act that legitimized his kingship in the eyes of the French people and broke the Anglo-Burgundian dynastic claim.",
+      "wikiSlug": "Charles_VII_of_France",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-burgundian-civil-war",
+      "label": "Armagnac–Burgundian Civil War",
+      "year": 1407,
+      "endYear": 1435,
+      "description": "From the assassination of Louis of Orléans in 1407 through the Treaty of Arras in 1435, France was wracked by a civil war between the Armagnac party loyal to the Valois crown and the Burgundian party allied with England — the conflict that allowed Henry V's invasion to succeed.",
+      "wikiSlug": "Armagnac%E2%80%93Burgundian_Civil_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-philip-the-good",
+      "label": "Philip the Good of Burgundy",
+      "year": 1419,
+      "endYear": 1467,
+      "description": "Philip the Good ruled the composite Burgundian state — the duchy of Burgundy plus most of the modern Low Countries — from 1419 to 1467, switching sides from England to France in 1435 and patronizing the Flemish painters who reinvented oil painting.",
+      "wikiSlug": "Philip_the_Good",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-battle-castillon",
+      "label": "Battle of Castillon",
+      "year": 1453,
+      "description": "French artillery destroyed the last major English army in France at the Battle of Castillon on July 17, 1453, killing the English commander John Talbot, ending the Hundred Years War, and leaving England with only Calais on the continent.",
+      "wikiSlug": "Battle_of_Castillon",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-fall-constantinople",
+      "label": "Fall of Constantinople",
+      "year": 1453,
+      "description": "Ottoman cannons under Sultan Mehmed II breached the Theodosian Walls of Constantinople on May 29, 1453, ending the Roman Empire after 1,123 continuous years and sending Greek scholars fleeing west to Italy with the manuscripts that fueled the Renaissance.",
+      "wikiSlug": "Fall_of_Constantinople",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-medici-florence",
+      "label": "Medici of Florence",
+      "year": 1434,
+      "description": "Cosimo de' Medici returned from a year's exile to take effective control of Florence in 1434; the Medici family ruled — through the Medici Bank, papal alliances, and patronage of Brunelleschi, Donatello, and Botticelli — for most of the next three centuries, financing the early Italian Renaissance.",
+      "wikiSlug": "House_of_Medici",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-cosimo-medici",
+      "label": "Cosimo de' Medici",
+      "year": 1389,
+      "endYear": 1464,
+      "description": "Cosimo de' Medici, the founder of Medici political power in Florence, ran the largest bank in fifteenth-century Europe, financed the Council of Florence, patronized Brunelleschi and Donatello, and ruled the city without ever holding formal office.",
+      "wikiSlug": "Cosimo_de%27_Medici",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-lme-lorenzo-magnificent",
+      "label": "Lorenzo the Magnificent",
+      "year": 1469,
+      "endYear": 1492,
+      "description": "Lorenzo de' Medici ruled Florence from 1469 to 1492 as the most accomplished political and cultural patron of the early Renaissance, sponsoring Botticelli, Michelangelo, Pico della Mirandola, and Poliziano while letting his bank slide toward bankruptcy.",
+      "wikiSlug": "Lorenzo_de%27_Medici",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-lme-petrarch-humanism",
+      "label": "Petrarch and Early Humanism",
+      "year": 1336,
+      "description": "Francesco Petrarca — Petrarch — climbed Mont Ventoux in 1336 in what is conventionally called the first 'Renaissance' moment of self-conscious aesthetic appreciation of nature, and spent the next forty years rediscovering classical Latin manuscripts, writing sonnets to Laura, and inventing the cult of the individual that defines Renaissance humanism.",
+      "wikiSlug": "Petrarch",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-boccaccio-decameron",
+      "label": "Boccaccio's Decameron",
+      "year": 1353,
+      "description": "Giovanni Boccaccio finished the Decameron around 1353 — one hundred bawdy, satirical, and tender tales told by ten Florentines fleeing the Black Death in a country villa, the first major prose masterpiece in Italian.",
+      "wikiSlug": "The_Decameron",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-brunelleschi-dome",
+      "label": "Brunelleschi's Dome",
+      "year": 1436,
+      "description": "Filippo Brunelleschi's double-shell brick dome on Florence Cathedral, finished in 1436 after sixteen years of construction without exterior scaffolding, was the largest masonry dome built in Europe since the Pantheon and the symbolic launch of Renaissance engineering.",
+      "wikiSlug": "Florence_Cathedral",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lme-donatello",
+      "label": "Donatello",
+      "year": 1408,
+      "endYear": 1466,
+      "description": "Donatello reinvented European sculpture between roughly 1408 and 1466, producing the bronze David around 1440 — the first freestanding nude statue cast in Europe since antiquity — and the equestrian Gattamelata in Padua, the first such monument since the Romans.",
+      "wikiSlug": "Donatello",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lme-masaccio",
+      "label": "Masaccio's Frescoes",
+      "year": 1427,
+      "description": "Masaccio painted the Brancacci Chapel frescoes in Florence around 1424–1427 with rigorous linear perspective, modeled chiaroscuro figures, and emotional psychological depth — the founding moment of Renaissance painting. He died at twenty-six.",
+      "wikiSlug": "Masaccio",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lme-van-eyck",
+      "label": "Jan van Eyck",
+      "year": 1432,
+      "description": "Jan van Eyck completed the Ghent Altarpiece in 1432 and the Arnolfini Portrait in 1434, perfecting the oil painting technique that gave Northern Renaissance art its luminous depth and microscopic detail. He worked for Philip the Good of Burgundy as court painter and diplomat.",
+      "wikiSlug": "Jan_van_Eyck",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lme-bosch",
+      "label": "Hieronymus Bosch",
+      "year": 1490,
+      "description": "Hieronymus Bosch painted the Garden of Earthly Delights triptych around 1490–1510 in 's-Hertogenbosch, populating his canvases with grotesque hybrid creatures, theological visions, and proto-surrealist imagery without parallel in late-medieval art.",
+      "wikiSlug": "Hieronymus_Bosch",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lme-gutenberg-press",
+      "label": "Gutenberg Printing Press",
+      "year": 1450,
+      "description": "Johannes Gutenberg in Mainz developed movable-type printing in the 1440s; his 42-line Bible appeared around 1455. By 1500, presses had been set up in more than 200 European cities and had printed perhaps 20 million books, collapsing the cost of writing and making the Reformation possible.",
+      "wikiSlug": "Printing_press",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-lme-gutenberg-bible",
+      "label": "Gutenberg Bible",
+      "year": 1455,
+      "description": "Gutenberg's 42-line Latin Bible, printed at Mainz around 1455, was the first substantial book printed with movable type in Europe and the founding artifact of mass literacy. About 49 copies survive, in whole or in part.",
+      "wikiSlug": "Gutenberg_Bible",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-wars-of-roses",
+      "label": "Wars of the Roses",
+      "year": 1455,
+      "endYear": 1485,
+      "description": "The English houses of Lancaster and York fought a series of dynastic wars from 1455 to 1485 that destroyed most of the medieval English aristocracy, ended at Bosworth Field with Henry Tudor's victory, and inaugurated the Tudor dynasty.",
+      "wikiSlug": "Wars_of_the_Roses",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-bosworth-field",
+      "label": "Battle of Bosworth Field",
+      "year": 1485,
+      "description": "Henry Tudor defeated Richard III at Bosworth Field in Leicestershire on August 22, 1485, killing the last Plantagenet king in person on the battlefield and beginning 118 years of Tudor rule in England. Richard's bones were rediscovered under a Leicester car park in 2012.",
+      "wikiSlug": "Battle_of_Bosworth_Field",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-greenland-norse-end",
+      "label": "End of Norse Greenland",
+      "year": 1450,
+      "description": "The Norse settlements on Greenland, founded by Erik the Red around 985 CE, faded out of contact with Europe sometime between 1410 and 1500. The cooler climate of the Little Ice Age, the failing walrus-ivory market, and the limits of European cereal agriculture in subarctic fjords are the leading explanations.",
+      "wikiSlug": "Norse_colonization_of_North_America",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-hanseatic-league-peak",
+      "label": "Hanseatic League at Peak",
+      "year": 1370,
+      "description": "The Hanseatic League's victory over Denmark in the 1367–1370 war, sealed by the Treaty of Stralsund, gave the German trading confederation effective control of Baltic and North Sea commerce and a near-monopoly on the Skåne herring fisheries.",
+      "wikiSlug": "Hanseatic_League",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-medici-bank-collapse",
+      "label": "Medici Bank Collapse",
+      "year": 1494,
+      "description": "The Medici Bank, the largest bank in fifteenth-century Europe and the financial engine of Renaissance Florence, collapsed in 1494 under the weight of bad loans to Edward IV of England, mismanagement under Lorenzo's son Piero, and the French invasion that drove the Medici from Florence.",
+      "wikiSlug": "Medici_Bank",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-savonarola",
+      "label": "Savonarola in Florence",
+      "year": 1494,
+      "endYear": 1498,
+      "description": "The Dominican friar Girolamo Savonarola briefly ruled Florence as a theocratic republic from 1494 to 1498, organizing 'bonfires of the vanities' that burned books, paintings, mirrors, and cosmetics — until he was excommunicated by Alexander VI, hanged, and burned in the Piazza della Signoria.",
+      "wikiSlug": "Girolamo_Savonarola",
+      "tier": 3,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-french-italian-wars",
+      "label": "French Invasion of Italy",
+      "year": 1494,
+      "description": "Charles VIII of France invaded Italy in September 1494 with 25,000 troops and the largest siege artillery train in Europe, sweeping the peninsula in eight months and beginning the Italian Wars that defined European geopolitics for the next sixty-five years.",
+      "wikiSlug": "Italian_Wars",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-ferdinand-isabella",
+      "label": "Ferdinand and Isabella",
+      "year": 1469,
+      "endYear": 1504,
+      "description": "Ferdinand of Aragon and Isabella of Castile married in 1469, conjoining their kingdoms into the dynastic union that became Spain. Together they conquered Granada in 1492, expelled the Jews, established the Spanish Inquisition, and funded Columbus.",
+      "wikiSlug": "Catholic_Monarchs",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-spanish-inquisition",
+      "label": "Spanish Inquisition Founded",
+      "year": 1478,
+      "description": "Pope Sixtus IV authorized the Spanish Inquisition in 1478 at the request of Ferdinand and Isabella. Run by the Spanish crown rather than the papacy, it focused initially on conversos — Jewish converts to Christianity suspected of secretly practicing Judaism — and would not be abolished until 1834.",
+      "wikiSlug": "Spanish_Inquisition",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-fall-granada",
+      "label": "Fall of Granada",
+      "year": 1492,
+      "description": "Ferdinand of Aragon and Isabella of Castile accepted the surrender of the last Muslim ruler of Granada, Boabdil, on January 2, 1492, completing the 781-year Reconquista of the Iberian peninsula and ending Muslim political rule in western Europe.",
+      "wikiSlug": "Granada_War",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-jewish-expulsion-1492",
+      "label": "Spanish Jewish Expulsion",
+      "year": 1492,
+      "description": "The Alhambra Decree of March 31, 1492, ordered all Jews to convert or leave the kingdoms of Castile and Aragon by July 31, ending one of the largest and most culturally productive Jewish communities in medieval Europe and scattering Sephardic refugees to the Ottoman Empire, North Africa, the Netherlands, and Italy.",
+      "wikiSlug": "Alhambra_Decree",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-columbus-1492",
+      "label": "Columbus Reaches America",
+      "year": 1492,
+      "description": "Christopher Columbus, sailing under Castilian patronage, made landfall on a Bahamian island on October 12, 1492, opening the Atlantic exchange between Europe, Africa, and the Americas and conventionally marking the end of the Middle Ages.",
+      "wikiSlug": "Voyages_of_Christopher_Columbus",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-bartolomeu-dias",
+      "label": "Bartolomeu Dias Rounds the Cape",
+      "year": 1488,
+      "description": "The Portuguese navigator Bartolomeu Dias rounded the Cape of Good Hope at the southern tip of Africa in 1488, the first European to enter the Indian Ocean by sea and the proof that the long Portuguese probing of the African coast had finally found a route to Asia.",
+      "wikiSlug": "Bartolomeu_Dias",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-vasco-da-gama",
+      "label": "Vasco da Gama Reaches India",
+      "year": 1498,
+      "description": "Vasco da Gama's Portuguese fleet reached Calicut on the Malabar Coast on May 20, 1498, completing the first sea voyage from Europe to India and beginning the Portuguese maritime empire that would dominate the Indian Ocean for a century.",
+      "wikiSlug": "Vasco_da_Gama",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-treaty-tordesillas",
+      "label": "Treaty of Tordesillas",
+      "year": 1494,
+      "description": "Spain and Portugal signed the Treaty of Tordesillas on June 7, 1494, dividing all newly discovered lands outside Europe along a meridian about 1,100 miles west of Cape Verde — Portugal got the eastern half (which would include Brazil), Spain the western. The treaty was negotiated under papal mediation; no other European power agreed to it.",
+      "wikiSlug": "Treaty_of_Tordesillas",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-prince-henry-navigator",
+      "label": "Prince Henry the Navigator",
+      "year": 1418,
+      "description": "Henry, Duke of Viseu — known to history as Prince Henry the Navigator — sponsored the Portuguese exploration of the West African coast from his base at Sagres beginning around 1418, training generations of pilots and cartographers and triggering the Atlantic slave trade by 1444.",
+      "wikiSlug": "Prince_Henry_the_Navigator",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-printing-spreads",
+      "label": "Print Spreads Across Europe",
+      "year": 1480,
+      "description": "By 1480, presses had been set up in 110 European cities; by 1500, in over 200. Around 20 million books had been printed by 1500 — incunabula, the books of the printing press's first half-century. The cost of writing collapsed by an order of magnitude.",
+      "wikiSlug": "Incunable",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-malleus-maleficarum",
+      "label": "Malleus Maleficarum",
+      "year": 1486,
+      "description": "The Dominican inquisitor Heinrich Kramer published the Malleus Maleficarum ('Hammer of Witches') in 1486, a printed witch-hunter's manual that would help drive the European witch craze of the sixteenth and seventeenth centuries — a problem the medieval church had largely ignored.",
+      "wikiSlug": "Malleus_Maleficarum",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-sigismund-emperor",
+      "label": "Sigismund of Luxembourg",
+      "year": 1411,
+      "endYear": 1437,
+      "description": "Sigismund of Luxembourg, King of Hungary, of Bohemia, and Holy Roman Emperor from 1411 to 1437, convened the Council of Constance, betrayed Jan Hus, fought the losing crusade at Nicopolis, and presided over the late-medieval imperial state at its institutional weakest.",
+      "wikiSlug": "Sigismund,_Holy_Roman_Emperor",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lme-conciliarism",
+      "label": "Conciliarism",
+      "year": 1414,
+      "description": "The doctrine that a general council of the Church holds higher authority than the pope — conciliarism — peaked at the Councils of Constance (1414–1418) and Basel (1431–1449) before being decisively rejected by the papacy. It was the closest medieval Christianity ever came to constitutional reform.",
+      "wikiSlug": "Conciliarism",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lme-condottieri",
+      "label": "The Condottieri",
+      "year": 1380,
+      "description": "Italian city-states fought their fifteenth-century wars largely through condottieri — mercenary captains under contract — including Sir John Hawkwood, Bartolomeo Colleoni, and Federico da Montefeltro, professionalizing warfare and concentrating military expertise into a small caste of paid commanders.",
+      "wikiSlug": "Condottiero",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lme-italian-city-states",
+      "label": "Italian City-States",
+      "year": 1380,
+      "description": "By the late fourteenth century, northern and central Italy was dominated by five major regional powers — Milan, Venice, Florence, Naples, and the Papal States — whose roughly balanced rivalries (codified by the Peace of Lodi in 1454) produced the political space in which the early Renaissance flourished.",
+      "wikiSlug": "Italian_city-states",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lme-peace-of-lodi",
+      "label": "Peace of Lodi",
+      "year": 1454,
+      "description": "The Peace of Lodi in April 1454, followed by the Italic League the next year, ended a half-century of Italian warfare and created a balance-of-power system among the five major Italian states that lasted forty years until the French invasion of 1494.",
+      "wikiSlug": "Peace_of_Lodi",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lme-cusa",
+      "label": "Nicholas of Cusa",
+      "year": 1440,
+      "description": "The German cardinal-philosopher Nicholas of Cusa argued in De Docta Ignorantia (1440) that the universe is infinite and has no fixed center, anticipating Copernicus by a century while remaining a thoroughly conventional medieval theologian.",
+      "wikiSlug": "Nicholas_of_Cusa",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-lme-witch-hunts-begin",
+      "label": "Witch Hunts Codified",
+      "year": 1484,
+      "description": "Pope Innocent VIII issued the bull Summis desiderantes affectibus in 1484 authorizing inquisitorial action against witches in the Rhineland, the licensing document that legitimized two centuries of European witch-hunting and informed the Malleus Maleficarum.",
+      "wikiSlug": "Summis_desiderantes_affectibus",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    }
+  ]
+}
