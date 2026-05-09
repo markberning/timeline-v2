@@ -81,6 +81,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The Arab conquest of Syria and Egypt after Yarmouk stripped Byzantium of its two wealthiest provinces — the same provinces that Rome had acquired from the Ptolemaic and Seleucid kingdoms in the first century BCE and that had funded the empire ever since. For the first time since Augustus's conquest of Egypt, the eastern Mediterranean's richest agricultural land was under non-Roman rule."
+    },
+    {
+      "matchText": "Western Turks",
+      "targetTl": "gokturk-khaganate",
+      "targetChapter": 4,
+      "blurb": "The Western Turks Heraclius allied with were the western half of the Gokturk Khaganate — the same Turkic confederation that had earlier sent the embassy of Zemarchus to Justin II in 569 CE, opening the first direct diplomatic relationship between Constantinople and the steppe. From the Byzantine side it was a tactical alliance against Persia. From the Gokturk side it was one front in a global diplomacy that ran simultaneously to the Sasanian, Sui-Tang, and Sogdian commercial worlds."
     }
   ],
   "4": [
@@ -165,9 +171,21 @@
       "targetTl": "ancient-china",
       "targetChapter": 5,
       "blurb": "Chinese silk had been the defining luxury commodity of the ancient Mediterranean since at least the first century CE, when Roman senators were wearing fabric that had traveled six thousand miles from Chinese looms. Byzantine demand for Chinese silk was what made the Silk Road profitable and what made the silk-smuggling monks' mission so consequential — every bolt of domestic silk produced was a reduction in the gold flowing east."
+    },
+    {
+      "matchText": "Book of the Eparch",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The Northern Song court that was running Kaifeng's enormous urban economy in roughly the same century as the Book of the Eparch was solving the same regulatory problem at much greater scale: a million-person capital whose markets, guilds, and monopoly industries had to be administered by a literate bureaucracy. The Song state ran a paper-money system, a salt-and-tea monopoly, and government workshops that would have been instantly recognizable to a Constantinopolitan eparch — and the two empires sat at opposite ends of the same Silk Road economy."
     }
   ],
   "7": [
+    {
+      "matchText": "gold standard",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "The Byzantine bezant that anchored the medieval Mediterranean's gold standard for seven centuries was, structurally, downstream of West African gold — Saharan caravans pulled ingots out of the Bambuk and Bure mines, traded them through Sahelian middlemen to North African ports, and shipped them across the Mediterranean. Three centuries after Byzantine debasement broke the bezant, Mansa Musa's 1324 hajj would put so much Mali gold into the Cairo market that it depressed Mediterranean gold prices for a decade. The Mali Empire chapter on Mansa Musa is the inside view of where that gold actually came from."
+    },
     {
       "matchText": "Romanos IV Diogenes",
       "targetTl": "persian-empire",

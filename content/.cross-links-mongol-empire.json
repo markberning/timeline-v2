@@ -19,6 +19,12 @@
       "blurb": "The Han dynasty's heqin system — paying tribute in silk, grain, and imperial brides to keep the Xiongnu from raiding — was the settled world's most sophisticated answer to the steppe problem. It worked for generations by playing northern and southern Xiongnu factions against each other and buying off the strongest claimants. The Mongols experienced the same treatment from the Jin dynasty, and Genghis Khan understood the strategy well enough to refuse to be bought. He conquered the Jin instead."
     },
     {
+      "matchText": "Göktürk Khaganate in the sixth century",
+      "targetTl": "gokturk-khaganate",
+      "targetChapter": 7,
+      "blurb": "The Gokturk Khaganate that this paragraph mentions in passing as one of the brief steppe unifications was, in its second-khaganate phase under Bilge Kagan in the 720s, the closest pre-Mongol approach to a durable centralized steppe state — complete with literate inscriptions, a coherent ideology of Turkic identity, and a tribute-extracting administration. The Mongols inherited the same problems Bilge had failed to solve, and they got further mostly because they were willing to break the tribal loyalty system that had brought every previous steppe confederation down."
+    },
+    {
       "matchText": "Twelfth-century Renaissance in western Europe",
       "targetTl": "ancient-rome",
       "targetChapter": 10,
@@ -107,10 +113,22 @@
       "blurb": "The Mandate of Heaven — the Chinese theological doctrine that legitimate rule was conferred by the cosmic order on a single dynasty — had been the operating legitimating principle of every Chinese dynasty since the Zhou. The Zhou had invented it to justify overthrowing the Shang. The Qin had claimed it to unify China. The Han had inherited it from the Qin. Now Kublai Khan, a Mongol, was claiming it — which meant the cosmological order of Chinese civilization had to accommodate the possibility that non-Chinese dynasties could hold the Mandate. The Ming would later insist they had reclaimed it specifically because the Mongols had lost it."
     },
     {
+      "matchText": "The Song dynasty was ended",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "The Mongol annihilation of the Southern Song fleet at Yamen in 1279 is the climactic event of the Sui-Tang-Song narrative — the moment when 700 years of one of the world's most cosmopolitan, urbanized, paper-money-using, gunpowder-experimenting civilizations got brought to a hard stop on a beach near Macau. The Song minister walking into the sea with the child emperor on his back is the iconic image. From the Song side it was the end of a civilizational golden age; from the Mongol side it was just the last item on Kublai's to-do list."
+    },
+    {
       "matchText": "Siege of Xiangyang",
       "targetTl": "han-dynasty",
       "targetChapter": 8,
       "blurb": "Xiangyang on the Han River had been a strategic fortress since the Han dynasty, controlling the river route between northern and southern China. When Kublai's forces besieged it for six years in the 1260s and 1270s, they were fighting over the same strategic terrain that Han and later dynasties had fortified for centuries. The Han River was the dividing line between the agricultural north and the wealthier south — whoever held the crossing at Xiangyang controlled the connection between them."
+    },
+    {
+      "matchText": "kamikaze",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "Kublai's typhoon-wrecked invasions of 1274 and 1281 entered Japanese national mythology as proof that the gods themselves protected the islands from foreign conquerors. That same conviction, baked into samurai culture for three centuries, is part of the political background of the Tokugawa rise: the Sekigahara generation grew up on stories of divine wind and a Japan that had never been successfully invaded — a self-image that shaped how the Tokugawa eventually answered the Christian and European-trade question with Sakoku."
     },
     {
       "matchText": "largest naval operation in pre-modern history",
@@ -143,6 +161,18 @@
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 7,
       "blurb": "The post-Maurya fragmentation of India — the long period of regional kingdoms, Kushans, Guptas, and eventually the Delhi Sultanate — was ended by Babur's Mughal conquest in 1526. Babur traced his descent from both Timur and Genghis Khan, and his empire was institutionally Timurid-Mongol in its cavalry-based military organization and Persian-Chagatai in its court culture. The Mughal Empire would eventually govern more of the Indian subcontinent than any polity since Ashoka's Maurya."
+    },
+    {
+      "matchText": "Goryeo Korea",
+      "targetTl": "joseon-korea",
+      "targetChapter": 1,
+      "blurb": "The Goryeo kingdom that the Yuan was treating as a tributary in 1300 would limp on for another century before its general Yi Seong-gye finally overthrew it in 1392 and founded the Joseon dynasty — partly on the explicit grievance that Goryeo's pro-Yuan faction had compromised the kingdom's independence. The Joseon Korea narrative opens on that coup, with the Mongol-tributary century in the immediate background as the thing the new dynasty was reacting against."
+    },
+    {
+      "matchText": "Delhi Sultanate",
+      "targetTl": "medieval-india",
+      "targetChapter": 8,
+      "blurb": "The Delhi Sultanate the Ilkhanate was trading with had been founded in 1206 by Turkic generals from the Ghurid invasions that conclude the Medieval India narrative — the same Islamic eastward push that, three decades after the Mongol sack of Baghdad, was running the political show in northern India. Both states were post-conquest Turko-Persian sultanates governing settled Indian populations, and they spent the fourteenth century swapping refugees, scholars, and the occasional military emergency as the Mongols periodically threatened both."
     },
     {
       "matchText": "direct contact with most of them simultaneously",

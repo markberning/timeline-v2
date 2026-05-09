@@ -55,6 +55,12 @@
   ],
   "4": [
     {
+      "matchText": "would not project military power onto the continent again for nearly a thousand years",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "The thousand-year gap that this paragraph promises ends in 1592, when Toyotomi Hideyoshi launched the Imjin War — the largest amphibious invasion in East Asian history before World War II, with 158,000 Japanese troops landing on the Korean peninsula. The Joseon Korea narrative's Chapter 4 tells that war from the Korean side: turtle ships, Admiral Yi Sun-sin, scorched villages, and the long bitter end of an invasion that the Japanese could not win and could not bring themselves to leave."
+    },
+    {
       "matchText": "Ancient Korea, Chapters 6-7",
       "targetTl": "ancient-korea",
       "targetChapter": 6,
@@ -87,7 +93,14 @@
       "blurb": "Unified Silla's golden age produced Bulguksa Temple and the Seokguram Grotto, Buddhist masterpieces roughly contemporary with Todai-ji's Great Buddha. Both Korean and Japanese courts were investing enormous resources in monumental Buddhist architecture at the same historical moment."
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "matchText": "Tang Dynasty was in visible decline",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "The Tang decline that gave Sugawara no Michizane his excuse to cancel the China embassies is the central subject of Chapter 4 of the Sui-Tang-Song narrative — the An Lushan Rebellion of 755 had gutted the central government, and what looked from Heian-kyō like a once-towering civilization in distress was, from inside China, the start of the long unraveling that would end with the Tang collapse in 907. Japan's two centuries of cultural independence after 894 were partly the product of seeing the model up close as it broke."
+    }
+  ],
   "7": [
     {
       "matchText": "feudal transformation in Western Europe",
@@ -97,6 +110,12 @@
     }
   ],
   "8": [
+    {
+      "matchText": "Ashikaga and the Tokugawa",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "The Tokugawa shogunate that rounds out the seven-hundred-year arc of warrior rule in Japan is the subject of the Edo Japan narrative — and that book opens with the moment the Tokugawa actually win, on a battlefield called Sekigahara in October 1600. Everything Yoritomo set in motion at Kamakura ran for four centuries through the Ashikaga and the warring states period before Tokugawa Ieyasu finally locked the system down for two and a half more centuries of peace."
+    },
     {
       "matchText": "Goryeo dynasty was entering its own period of military government",
       "targetTl": "ancient-korea",
