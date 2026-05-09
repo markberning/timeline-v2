@@ -915,6 +915,113 @@
       "tier": 2,
       "tags": [],
       "category": "people"
+    },
+    {
+      "id": "evt-sheikh-safi-al-din",
+      "label": "Sheikh Safi al-Din",
+      "year": 1301,
+      "description": "Safi al-Din (1252–1334) founded the Safaviyya Sufi brotherhood in Ardabil — the order from which the Safavid dynasty takes its name and its claim to legitimacy. A Sunni Sufi of the Shafi'i school, he was a student of the Caspian mystic Sheikh Zahid Gilani and built the Ardabil order into one of the most influential Sufi establishments in the Iranian world. At his death the Safaviyya was a wealthy, politically connected organization whose transformation into a militant Shia dynasty would take two more centuries.",
+      "wikiSlug": "Safi-ad-din_Ardabili",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-junayd-militarization",
+      "label": "Sheikh Junayd Militarizes the Safaviyya",
+      "year": 1447,
+      "description": "Sheikh Junayd (r. 1447–1460) was the first Safavid leader to raise armies, marry into ruling houses, and actively seek political power. Under him the Safaviyya transformed from a devotional Sufi order into an armed political movement. He was killed in battle in 1460 fighting the rulers of Shirvan — but he had set the template of military-messianic leadership that his grandson Ismail would perfect.",
+      "wikiSlug": "Junayd_of_Ardabil",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-haydar-red-turban",
+      "label": "Haydar and the Red Turban",
+      "year": 1460,
+      "description": "Sheikh Haydar (r. 1460–1488) designed the distinctive twelve-pointed red headgear — commemorating the twelve Imams of Twelver Shia Islam — that gave his Turcoman followers the name Qizilbash ('red-heads'). The red turban was simultaneously a religious symbol, a military uniform, and a political badge of loyalty. Haydar died in battle in 1488, but the Qizilbash identity he created became the military backbone of his grandson Ismail's conquest of Iran.",
+      "wikiSlug": "Haydar_of_Ardabil",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muhaqqiq-al-karaki",
+      "label": "Muhaqqiq al-Karaki",
+      "year": 1532,
+      "description": "Ali ibn Abd al-Ali al-Karaki (d. 1534), known as Muhaqqiq al-Karaki or the 'Second Martyr,' was a Lebanese Shia jurist from Jabal Amil imported to Iran under Tahmasp I. He became the single most important architect of Safavid Shia jurisprudence, issuing the ruling that Friday prayers could be legitimately led by qualified jurists during the occultation of the Hidden Imam — a decision that gave the Safavid religious establishment its legal foundation and foreshadowed the later mujtahid system.",
+      "wikiSlug": "Ali_ibn_Abd_al-Ali_al-Karaki",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-pari-khan-khanum",
+      "label": "Pari Khan Khanum",
+      "year": 1576,
+      "description": "Pari Khan Khanum (c. 1548–1578), daughter of Shah Tahmasp I, was the most politically formidable woman of the Safavid period. After her father's death in 1576 she played a central role in the succession and is the most likely instigator of her brother Ismail II's death in 1577 — Ismail's attempted Sunni restoration was directly threatening the Shia establishment she had helped build. She was eventually executed by her nephew Muhammad Khudabanda's wife after his accession, a casualty of the Qizilbash factional wars she had navigated for years.",
+      "wikiSlug": "Pari_Khan_Khanum",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-saib-tabrizi",
+      "label": "Saib Tabrizi",
+      "year": 1640,
+      "description": "Muhammad Ali Saib Tabrizi (c. 1592–1676) was the foremost Persian poet of the Safavid era and the leading practitioner of Sabk-e Hindi (the 'Hindi Style'), an ornate and philosophically dense verse form cultivated simultaneously at the Safavid and Mughal courts. Remarkably prolific — his divan contains over 300,000 verses — he served as poet laureate (malik al-shu'ara) under Shah Abbas II. His technical brilliance and capacity for memorable single-line epigrams made him one of the most widely quoted Persian poets of his century, and his reputation has been rehabilitated by modern Iranian scholars.",
+      "wikiSlug": "Saib_Tabrizi",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-fatima-masumeh-shrine",
+      "label": "Fatima Masumeh Shrine at Qom",
+      "year": 1519,
+      "description": "The shrine of Fatima Masumeh — sister of the Eighth Imam Imam Reza, who died in Qom in 816 CE — was systematically expanded by the Safavids as the centerpiece of a second great Iranian pilgrimage city. Because Mecca, Medina, and the Iraqi Shia shrine cities were largely under Ottoman control and inaccessible, the Safavids developed Qom as the institutional home of Iranian Shia scholarship and the alternative Shia pilgrimage center. The shrine and the Qom hawza (seminary network) that grew around it trained the clerics who have governed Iran from the 1979 Revolution onward.",
+      "wikiSlug": "Fatimah_Masumeh_Shrine",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-madrasa-chahar-bagh",
+      "label": "Madrasa-ye Chahar Bagh",
+      "year": 1706,
+      "endYear": 1714,
+      "description": "The Madrasa-ye Chahar Bagh (Four Gardens School), commissioned by Sultan Husayn and completed in 1714, is the last great architectural achievement of the Safavid dynasty. Built along the main boulevard of Isfahan, its turquoise-and-gold tilework and elegant proportions match the finest buildings of Abbas I's era — an ironic contrast to the political collapse unfolding around it. The madrasa is still a functioning religious school today, one of the best-preserved examples of late Safavid architecture.",
+      "wikiSlug": "Chaharbagh_School",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-gulnabad",
+      "label": "Battle of Gulnabad",
+      "year": 1722,
+      "description": "On March 8, 1722, Mir Mahmud Hotak's Afghan army of roughly 20,000 Pashtun warriors met the Safavid imperial force east of Isfahan at Gulnabad. Despite outnumbering the Afghans and possessing cannons, the Safavid army collapsed in a single day — its troops poorly trained, poorly led, and poorly motivated. The cannons were captured, the imperial lines broke, and the road to Isfahan was opened. Gulnabad was the military proof of the dynasty's institutional rot: the most powerful state in the Middle East could not stop a tribal force less than half its size.",
+      "wikiSlug": "Battle_of_Gulnabad",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jean-chardin",
+      "label": "Jean Chardin's Travels in Persia",
+      "year": 1673,
+      "description": "The French jeweler Jean Chardin (1643–1713) made two extended visits to Safavid Iran (1664–1670 and 1671–1677), producing a ten-volume account — Voyages en Perse et autres lieux de l'Orient (published 1686) — that remains the most detailed European description of the late Safavid empire. Chardin observed the court of Soleyman I, documented commercial practice, popular religion, and court ceremony, and was unsparing in his assessment of the dynasty's political decay. A French Huguenot Protestant who later settled in England, his writings shaped European understanding of the Islamic world for the following century and are an indispensable primary source for historians of the period.",
+      "wikiSlug": "Jean_Chardin",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
     }
   ]
 }
