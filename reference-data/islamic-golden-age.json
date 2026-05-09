@@ -1,0 +1,1105 @@
+{
+  "id": "islamic-golden-age",
+  "label": "Islamic Golden Age",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "wikiSlug": "Islamic_Golden_Age",
+  "imageWikiSlug": "Alhambra",
+  "pitch": "While medieval Europe struggled through the Dark Ages, the Islamic world (661-1258) was experiencing one of history's greatest intellectual flowerings. The House of Wisdom in Baghdad attracted the greatest minds of the age, Al-Khwarizmi's Algebra invented the branch of mathematics we all studied in school, and Ibn Sina's Canon of Medicine remained the standard medical textbook for 600 years across both the Islamic world and Europe.\n\n🔑 Key Facts:\n• The Founding of Baghdad in 762 created the world's largest and most cosmopolitan city — a perfect circular metropolis designed from scratch\n• Harun al-Rashid presided over the Abbasid golden age and inspired the tales of One Thousand and One Nights\n• Ibn al-Haytham's Optics correctly explained how vision works and pioneered the experimental scientific method\n• The Mongol Sack of Baghdad in 1258 destroyed the House of Wisdom and conventionally marks the end of the Golden Age\n\n🤔 Why It Matters: Every time you use algebra, Arabic numerals, or the word 'algorithm' (named after Al-Khwarizmi himself), you are using Islamic Golden Age innovations. These scholars preserved and advanced Greek knowledge that would have otherwise been lost, making the European Renaissance possible.\n\n🎲 Wild Card: Saladin Recaptures Jerusalem from the Crusaders in 1187, but was so chivalrous that even his European enemies admired him — when Richard the Lionheart's horse was killed in battle, Saladin sent him two replacement horses.",
+  "countryIds": [
+    "368",
+    "364",
+    "760",
+    "818",
+    "724"
+  ],
+  "spans": [
+    {
+      "id": "span-islamic-golden-age-umayyad-caliphate",
+      "label": "Umayyad Caliphate",
+      "startYear": 661,
+      "endYear": 750,
+      "description": "The first hereditary Islamic dynasty ruled from Damascus, expanding the caliphate from Spain to Central Asia. The Dome of the Rock and the Great Mosque of Damascus were built during this period of rapid territorial and architectural expansion.",
+      "wikiSlug": "Umayyad_Caliphate"
+    },
+    {
+      "id": "span-islamic-golden-age-abbasid-caliphate",
+      "label": "Abbasid Caliphate",
+      "startYear": 750,
+      "endYear": 1258,
+      "description": "Ruling from the newly founded circular city of Baghdad, the Abbasids presided over the Islamic world's greatest intellectual flowering. The House of Wisdom, al-Khwarizmi's algebra, and Ibn Sina's medical canon all emerged before the Mongol sack of Baghdad ended the caliphate.",
+      "wikiSlug": "Abbasid_Caliphate"
+    },
+    {
+      "id": "span-islamic-golden-age-translation-movement",
+      "label": "Translation Movement",
+      "startYear": 750,
+      "endYear": 1000,
+      "description": "Scholars at the House of Wisdom systematically translated Greek, Persian, and Indian texts into Arabic, preserving and advancing ancient knowledge. This massive intellectual effort made Arabic the lingua franca of science and laid the foundations for later European scholarship.",
+      "wikiSlug": "Translation_movement"
+    },
+    {
+      "id": "span-islamic-golden-age-fatimid-caliphate",
+      "label": "Fatimid Caliphate",
+      "startYear": 909,
+      "endYear": 1171,
+      "description": "A rival Shia caliphate that conquered Egypt and founded Cairo as its capital, establishing Al-Azhar University as a premier center of Islamic learning. The Fatimids promoted religious tolerance and fostered trade networks across the Mediterranean.",
+      "wikiSlug": "Fatimid_Caliphate"
+    },
+    {
+      "id": "span-islamic-golden-age-crusader-era",
+      "label": "Crusader Era",
+      "startYear": 1096,
+      "endYear": 1258,
+      "description": "European Crusaders established states in the Levant, disrupting the Islamic political order until Saladin recaptured Jerusalem in 1187. The period ended with the Mongol destruction of Baghdad in 1258, conventionally marking the close of the Golden Age.",
+      "wikiSlug": "Crusades"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-muawiya-caliphate",
+      "label": "Muawiya I",
+      "year": 661,
+      "endYear": 680,
+      "description": "Muawiya I established the Umayyad Caliphate with Damascus as its capital, transforming the caliphate into a hereditary dynasty.",
+      "wikiSlug": "Muawiya_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sunni-shia-split",
+      "label": "Sunni-Shia Crystallization",
+      "year": 680,
+      "description": "The Battle of Karbala in 680 CE and its aftermath crystallized the Sunni-Shia divide, shaping Islamic politics and theology for centuries.",
+      "wikiSlug": "Battle_of_Karbala",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-quran-compilation",
+      "label": "Standardized Quran Text",
+      "year": 680,
+      "description": "Under the early caliphs, the Quran was compiled and standardized from oral and written sources, establishing the definitive text of Islam's holy book.",
+      "wikiSlug": "History_of_the_Quran",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dome-of-rock",
+      "label": "Dome of the Rock",
+      "year": 691,
+      "description": "The Dome of the Rock was completed in Jerusalem under Caliph Abd al-Malik, becoming one of the earliest masterpieces of Islamic architecture.",
+      "wikiSlug": "Dome_of_the_Rock",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-umayyad-conquest-spain",
+      "label": "Umayyad Conquest of Spain",
+      "year": 711,
+      "description": "Tariq ibn Ziyad led the Muslim conquest of the Iberian Peninsula, establishing Al-Andalus and beginning centuries of Islamic rule in Europe.",
+      "wikiSlug": "Umayyad_conquest_of_Hispania",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-great-mosque-damascus",
+      "label": "Great Mosque of Damascus",
+      "year": 715,
+      "description": "The Umayyad Mosque in Damascus was completed, featuring stunning mosaics and establishing the template for Islamic congregational mosque design.",
+      "wikiSlug": "Umayyad_Mosque",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-tours",
+      "label": "Battle of Tours",
+      "year": 732,
+      "description": "Charles Martel halted the northward advance of Muslim armies at Tours in central France, marking the furthest extent of Islamic expansion into Western Europe.",
+      "wikiSlug": "Battle_of_Tours",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-of-zab",
+      "label": "Battle of the Zab",
+      "year": 750,
+      "description": "Abbasid forces decisively defeated the last Umayyad caliph Marwan II at the Battle of the Great Zab river in modern Iraq, ending the Umayyad dynasty and clearing the way for Abbasid rule.",
+      "wikiSlug": "Battle_of_the_Zab",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abbasid-revolution",
+      "label": "Abbasid Revolution",
+      "year": 750,
+      "description": "The Abbasids overthrew the Umayyad Caliphate, shifting power eastward and ushering in the golden age of Islamic scholarship and culture.",
+      "wikiSlug": "Abbasid_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-of-talas",
+      "label": "Battle of Talas",
+      "year": 751,
+      "description": "Abbasid and Tang Chinese forces clashed at the Talas River in Central Asia. The Abbasid victory halted Chinese westward expansion, and captured Chinese papermakers transmitted papermaking technology to the Islamic world.",
+      "wikiSlug": "Battle_of_Talas",
+      "tier": 2,
+      "tags": [
+        "trade",
+        "science"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abu-al-abbas-saffah",
+      "label": "Abu al-Abbas as-Saffah",
+      "year": 750,
+      "endYear": 754,
+      "description": "Abu al-Abbas as-Saffah became the first Abbasid caliph, ordering the massacre of the Umayyad family to secure his new dynasty's grip on power.",
+      "wikiSlug": "As-Saffah",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-umayyad-emirate-cordoba",
+      "label": "Umayyad Emirate of Córdoba",
+      "year": 756,
+      "description": "Abd al-Rahman I, the sole surviving Umayyad prince, escaped the Abbasid massacre and established an independent emirate in Iberia, keeping the Umayyad flame alive in Córdoba for nearly three centuries.",
+      "wikiSlug": "Emirate_of_Córdoba",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-al-mansur-caliph",
+      "label": "Al-Mansur Founds the Abbasid State",
+      "year": 754,
+      "endYear": 775,
+      "description": "Caliph al-Mansur consolidated Abbasid power, executed the movement's military commander Abu Muslim to prevent a rival power base, and commissioned Baghdad as the new imperial capital.",
+      "wikiSlug": "Al-Mansur",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-founding-baghdad",
+      "label": "Founding of Baghdad",
+      "year": 762,
+      "description": "Caliph al-Mansur founded Baghdad as the new Abbasid capital, designing it as a perfect circular city that became the world's largest and most cosmopolitan metropolis.",
+      "wikiSlug": "Baghdad",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-round-city-design",
+      "label": "Round City of Baghdad",
+      "year": 762,
+      "description": "Al-Mansur's Baghdad was built as a perfect circle roughly 1.5 miles in diameter, with four axial gates, a grand central palace and mosque, and concentric residential rings — the first planned Islamic imperial capital.",
+      "wikiSlug": "Madinat_al-Salam",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ibn-al-muqaffa",
+      "label": "Ibn al-Muqaffa's Translations",
+      "year": 750,
+      "description": "Ibn al-Muqaffa translated major Sasanian Persian works — including the Kalila wa Dimna fable collection and chronicles of Persian kings — into Arabic, opening Pahlavi literary culture to the Islamic world.",
+      "wikiSlug": "Ibn_al-Muqaffa",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jabir-ibn-hayyan",
+      "label": "Jabir ibn Hayyan",
+      "year": 776,
+      "description": "Jabir ibn Hayyan pioneered systematic experimental methods in alchemy, developing distillation and crystallization techniques foundational to modern chemistry.",
+      "wikiSlug": "Jabir_ibn_Hayyan",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-harun-al-rashid",
+      "label": "Harun al-Rashid",
+      "year": 786,
+      "endYear": 809,
+      "description": "Harun al-Rashid presided over the Abbasid golden age, patronizing scholars and inspiring the tales of One Thousand and One Nights.",
+      "wikiSlug": "Harun_al-Rashid",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-charlemagne-harun-contact",
+      "label": "Charlemagne and Harun al-Rashid Exchange Embassies",
+      "year": 797,
+      "description": "Harun al-Rashid and Charlemagne exchanged diplomatic missions, including the famous gift of an elephant named Abul-Abbas — a startling symbol of Islamic sophistication reaching Frankish courts.",
+      "wikiSlug": "Abbasid%E2%80%93Carolingian_alliance",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-paper-production",
+      "label": "Paper Production Spreads",
+      "year": 794,
+      "description": "The first paper mill in the Islamic world was established in Baghdad, after the technology was acquired from Chinese prisoners, revolutionizing book production.",
+      "wikiSlug": "History_of_paper",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-hospital-system",
+      "label": "Bimaristan Hospital System",
+      "year": 805,
+      "description": "The first major public hospital (bimaristan) was established in Baghdad, offering free care to all patients and pioneering medical education and specialization.",
+      "wikiSlug": "Bimaristan",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muhtasib-trade",
+      "label": "Muhtasib Market System",
+      "year": 800,
+      "description": "The Islamic muhtasib system of market inspectors regulated trade quality, weights, and measures across the caliphate, establishing early consumer protection standards.",
+      "wikiSlug": "Muhtasib",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-bayt-al-hikma",
+      "label": "House of Wisdom",
+      "year": 813,
+      "description": "Caliph al-Ma'mun expanded the House of Wisdom (Bayt al-Hikma) in Baghdad into a major center for translating Greek, Persian, and Indian texts into Arabic.",
+      "wikiSlug": "House_of_Wisdom",
+      "tier": 1,
+      "tags": [
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-mamun-caliph",
+      "label": "Al-Ma'mun's Reign",
+      "year": 813,
+      "endYear": 833,
+      "description": "Caliph al-Ma'mun championed the Mu'tazilite theological school, commissioned astronomical observations, funded mass translation of Greek texts, and made the House of Wisdom the world's premier research institution.",
+      "wikiSlug": "Al-Ma'mun",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sindhind-astronomy",
+      "label": "Indian Sindhind Astronomy Translated",
+      "year": 771,
+      "description": "An Indian astronomical text (the Brahmasphutasiddhanta, called Sindhind in Arabic) was translated at the Abbasid court, introducing Indian numerical methods and trigonometry to Islamic scientists.",
+      "wikiSlug": "Zij_al-Sindhind",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-hunayn-ibn-ishaq",
+      "label": "Hunayn ibn Ishaq's Translation School",
+      "year": 830,
+      "description": "Hunayn ibn Ishaq led the most prolific translation enterprise of the Golden Age, rendering Galen, Hippocrates, Euclid, Ptolemy, and Aristotle into Arabic and Syriac with rigorous philological method.",
+      "wikiSlug": "Hunayn_ibn_Ishaq",
+      "tier": 2,
+      "tags": [
+        "people",
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-khwarizmi-algebra",
+      "label": "Al-Khwarizmi's Algebra",
+      "year": 820,
+      "description": "Al-Khwarizmi wrote Al-Kitab al-Mukhtasar, the foundational text of algebra that introduced systematic methods for solving linear and quadratic equations.",
+      "wikiSlug": "Muhammad_ibn_Musa_al-Khwarizmi",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-khwarizmi-algorithm",
+      "label": "Al-Khwarizmi and the Algorithm",
+      "year": 825,
+      "description": "Al-Khwarizmi wrote Kitab al-Jam' wa'l-Tafriq, a treatise on Hindu-Arabic numerals whose Latinized title Algoritmi gave the world the word 'algorithm.'",
+      "wikiSlug": "Muhammad_ibn_Musa_al-Khwarizmi",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-kindi",
+      "label": "Al-Kindi",
+      "year": 830,
+      "description": "Al-Kindi, the 'Philosopher of the Arabs,' pioneered the integration of Greek philosophy with Islamic theology and developed early cryptanalysis methods.",
+      "wikiSlug": "Al-Kindi",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mutazilite-mihna",
+      "label": "Mu'tazilite Mihna Inquisition",
+      "year": 833,
+      "description": "Caliph al-Ma'mun imposed the mihna, an inquisition testing scholars on the Mu'tazilite doctrine that the Quran was created rather than eternal. Ahmad ibn Hanbal's defiant refusal made him a hero of Sunni orthodoxy.",
+      "wikiSlug": "Mihna",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-al-battani",
+      "label": "Al-Battani's Astronomical Tables",
+      "year": 880,
+      "description": "Al-Battani produced highly accurate trigonometric tables and astronomical observations, computing the solar year to within two minutes of the modern value and introducing the sine function to replace the Greek chord.",
+      "wikiSlug": "Al-Battani",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-samarra-capital",
+      "label": "Samarra as Abbasid Capital",
+      "year": 836,
+      "endYear": 892,
+      "description": "Caliph al-Mu'tasim relocated the Abbasid capital to Samarra to house his Turkish slave-soldier (ghulam) corps away from Baghdad's fractious population, inadvertently giving the Turkic military commanders growing political power.",
+      "wikiSlug": "Samarra",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-great-mosque-samarra",
+      "label": "Great Mosque of Samarra",
+      "year": 848,
+      "description": "The Great Mosque of Samarra was completed with its iconic spiral minaret, the Malwiya Tower, making it the largest mosque in the world at the time.",
+      "wikiSlug": "Great_Mosque_of_Samarra",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-silk-road-peak",
+      "label": "Islamic Silk Road Networks",
+      "year": 850,
+      "description": "Islamic merchants and caravansaries dominated Silk Road trade, with Arabic becoming the lingua franca of commerce from Spain to Central Asia.",
+      "wikiSlug": "Silk_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-arabian-nights",
+      "label": "One Thousand and One Nights",
+      "year": 850,
+      "description": "The collection of stories known as One Thousand and One Nights took shape in Arabic during this period, drawing on Persian, Indian, and Arabic folk traditions.",
+      "wikiSlug": "One_Thousand_and_One_Nights",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-al-tabari-history",
+      "label": "Al-Tabari's History",
+      "year": 883,
+      "description": "Al-Tabari began his monumental History of the Prophets and Kings, a comprehensive chronicle of world history from creation to his own time.",
+      "wikiSlug": "Al-Tabari",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hanafi-law-school",
+      "label": "Hanafi Legal School Codified",
+      "year": 767,
+      "description": "Abu Hanifa's followers codified the Hanafi school of Islamic jurisprudence — the most widely followed legal tradition today — systematizing rational legal reasoning (ra'y) alongside hadith.",
+      "wikiSlug": "Hanafi",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-maliki-law-school",
+      "label": "Maliki Legal School",
+      "year": 795,
+      "description": "Malik ibn Anas's al-Muwatta, the earliest surviving Islamic legal text, codified the Medina-based Maliki school that would dominate North and West Africa for centuries.",
+      "wikiSlug": "Maliki",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-shafii-law-school",
+      "label": "Shafi'i Legal School",
+      "year": 820,
+      "description": "Al-Shafi'i formulated the Shafi'i school's systematic jurisprudence, establishing the usul al-fiqh (roots of law) methodology that grounded legal rulings in Quran, hadith, consensus, and analogy.",
+      "wikiSlug": "Shafi%27i",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hanbali-law-school",
+      "label": "Hanbali Legal School",
+      "year": 855,
+      "description": "Ahmad ibn Hanbal's defiance of the mihna inquisition elevated him to legal authority; his disciples codified the Hanbali school, the strictest of the four Sunni legal traditions.",
+      "wikiSlug": "Hanbali",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-rabia-al-adawiyya",
+      "label": "Rabia al-Adawiyya",
+      "year": 801,
+      "description": "Rabia al-Adawiyya, a freed slave woman from Basra, became the foundational figure of Sufi mysticism, articulating a theology of pure love for God unconditioned by fear of hell or hope of paradise.",
+      "wikiSlug": "Rabia_al-Adawiyya",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-al-hallaj",
+      "label": "Al-Hallaj Executed",
+      "year": 922,
+      "description": "The Sufi mystic al-Hallaj was crucified in Baghdad after declaring 'I am the Truth' (Ana al-Haqq), a statement the Abbasid authorities deemed blasphemy. His martyrdom became a defining moment in Sufi spirituality.",
+      "wikiSlug": "Al-Hallaj",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-al-razi-medicine",
+      "label": "Al-Razi's Medical Works",
+      "year": 900,
+      "description": "Al-Razi (Rhazes) wrote extensively on medicine, distinguishing smallpox from measles for the first time and compiling a vast medical encyclopedia.",
+      "wikiSlug": "Muhammad_ibn_Zakariya_al-Razi",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-sufism-growth",
+      "label": "Rise of Sufism",
+      "year": 900,
+      "description": "Sufi mysticism flourished across the Islamic world, with orders like the Qadiriyya spreading devotional practices and Islamic thought to new regions.",
+      "wikiSlug": "Sufism",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-fatimid-founding",
+      "label": "Fatimid Caliphate Founded",
+      "year": 909,
+      "description": "The Fatimid dynasty established a rival Shia caliphate in North Africa, later conquering Egypt and founding Cairo as their capital.",
+      "wikiSlug": "Fatimid_Caliphate",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-al-farabi",
+      "label": "Al-Farabi",
+      "year": 920,
+      "description": "Al-Farabi, known as the 'Second Teacher' after Aristotle, wrote influential works on political philosophy, logic, and music theory.",
+      "wikiSlug": "Al-Farabi",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-buyid-amirs",
+      "label": "Buyid Amirs Seize Baghdad",
+      "year": 945,
+      "description": "The Buyid dynasty, a Shia Iranian dynasty, captured Baghdad and reduced the Sunni Abbasid caliph to a figurehead, while retaining him as a symbol of religious legitimacy. The Abbasids would not recover real political power.",
+      "wikiSlug": "Buyid_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-umayyad-caliphate-cordoba",
+      "label": "Umayyad Caliphate of Córdoba",
+      "year": 929,
+      "description": "Abd al-Rahman III declared himself caliph at Córdoba, directly challenging both Abbasid and Fatimid legitimacy and making Al-Andalus a third pole of Islamic civilization at the height of its cultural brilliance.",
+      "wikiSlug": "Caliphate_of_Córdoba",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-madinat-al-zahra",
+      "label": "Madinat al-Zahra Palace City",
+      "year": 936,
+      "description": "Abd al-Rahman III built Madinat al-Zahra, a spectacular palace-city outside Córdoba, as a statement of Umayyad imperial grandeur rivaling Baghdad and Cairo.",
+      "wikiSlug": "Medina_Azahara",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-volga-trade-dirham",
+      "label": "Dirham Silver Floods Viking North",
+      "year": 900,
+      "description": "Millions of Islamic silver dirhams traveled north via the Volga River trade route, exchanged for furs and slaves with Scandinavian merchants. Enormous coin hoards found in Gotland attest to the scale of this commerce.",
+      "wikiSlug": "Volga_trade_route",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-fatimid-cairo",
+      "label": "Cairo Founded by Fatimids",
+      "year": 969,
+      "description": "The Fatimid general Jawhar al-Siqilli conquered Egypt and founded Cairo (al-Qahira, 'the Victorious') as the new Shia imperial capital, establishing it alongside Al-Azhar mosque-university.",
+      "wikiSlug": "Cairo",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cordoba-library",
+      "label": "Library of Córdoba",
+      "year": 961,
+      "description": "Caliph al-Hakam II expanded the Library of Córdoba to over 400,000 volumes, making it the largest library in medieval Europe.",
+      "wikiSlug": "Library_of_al-Hakam_II",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-great-mosque-cordoba",
+      "label": "Córdoba Mosque Expansions",
+      "year": 961,
+      "description": "The Great Mosque of Córdoba underwent successive expansions under Umayyad caliphs, culminating in al-Hakam II's addition of the stunning maqsura and mihrab with Byzantine-influenced mosaics — a masterpiece of Islamic architecture.",
+      "wikiSlug": "Mosque%E2%80%93Cathedral_of_Córdoba",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-arabic-numerals-spread",
+      "label": "Arabic Numerals Spread West",
+      "year": 976,
+      "description": "The Hindu-Arabic numeral system, refined by Islamic mathematicians, spread to Europe through Al-Andalus, eventually replacing Roman numerals in Western mathematics.",
+      "wikiSlug": "Arabic_numerals",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-azhar",
+      "label": "Al-Azhar University",
+      "year": 970,
+      "description": "Al-Azhar was founded in Fatimid Cairo, becoming one of the world's oldest continuously operating universities and a premier center of Islamic learning.",
+      "wikiSlug": "Al-Azhar_University",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-indian-ocean-trade",
+      "label": "Indian Ocean Trade Peak",
+      "year": 1000,
+      "description": "Muslim merchants dominated Indian Ocean trade routes connecting East Africa, Arabia, India, and China, spreading Islam and creating a vast commercial network.",
+      "wikiSlug": "Indian_Ocean_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ibn-al-haytham-optics",
+      "label": "Ibn al-Haytham's Optics",
+      "year": 1011,
+      "description": "Ibn al-Haytham wrote the Book of Optics, establishing the scientific method of experimentation and correctly explaining how vision works through light entering the eye.",
+      "wikiSlug": "Ibn_al-Haytham",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-firdawsi-shahnameh",
+      "label": "Firdawsi's Shahnameh",
+      "year": 1010,
+      "description": "Firdawsi completed the Shahnameh (Book of Kings), the Persian national epic of over 50,000 couplets recounting Iran's mythical and historical past.",
+      "wikiSlug": "Shahnameh",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ibn-sina-canon",
+      "label": "Ibn Sina's Canon of Medicine",
+      "year": 1025,
+      "description": "Ibn Sina (Avicenna) completed the Canon of Medicine, a medical encyclopedia that remained the standard textbook in European and Islamic universities for centuries.",
+      "wikiSlug": "Avicenna",
+      "tier": 2,
+      "tags": [
+        "people",
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-ibn-sina-philosophy",
+      "label": "Ibn Sina's Philosophy",
+      "year": 1020,
+      "description": "Ibn Sina's Kitab al-Shifa (Book of Healing) was a vast philosophical encyclopedia synthesizing Aristotle, Neoplatonism, and Islamic theology — his 'floating man' thought experiment anticipated modern debates about consciousness and the self.",
+      "wikiSlug": "The_Book_of_Healing",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-al-biruni",
+      "label": "Al-Biruni",
+      "year": 1030,
+      "description": "Al-Biruni wrote extensively on astronomy, mathematics, and comparative religion, and was among the first scholars to study Indian culture systematically.",
+      "wikiSlug": "Al-Biruni",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-al-biruni-india",
+      "label": "Al-Biruni's Kitab al-Hind",
+      "year": 1030,
+      "description": "Al-Biruni accompanied Mahmud of Ghazni's campaigns into India and produced Kitab al-Hind, a landmark comparative study of Indian science, religion, and customs — the first systematic outside account of the subcontinent.",
+      "wikiSlug": "Kitab_al-Hind",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-seljuk-conquest-baghdad",
+      "label": "Seljuks Dominate Baghdad",
+      "year": 1055,
+      "description": "The Seljuk Turks under Tughril Beg entered Baghdad, expelled the Buyid amirs, and assumed the title of sultan, becoming the new protectors of the (now largely ceremonial) Abbasid caliphate.",
+      "wikiSlug": "Seljuk_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nizam-al-mulk",
+      "label": "Nizam al-Mulk and the Nizamiyya",
+      "year": 1065,
+      "description": "Seljuk vizier Nizam al-Mulk founded the Nizamiyya madrasa network — the world's first state-funded university system — from Baghdad to Khorasan, institutionalizing Shafi'i jurisprudence and standardizing Islamic higher education.",
+      "wikiSlug": "Nizam_al-Mulk",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-omar-khayyam",
+      "label": "Omar Khayyam",
+      "year": 1070,
+      "description": "Omar Khayyam solved cubic equations geometrically and reformed the Persian calendar to remarkable accuracy, while composing the famous Rubaiyat poetry.",
+      "wikiSlug": "Omar_Khayyam",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-omar-khayyam-calendar",
+      "label": "Jalali Calendar Reform",
+      "year": 1079,
+      "description": "Omar Khayyam led the astronomical commission that produced the Jalali solar calendar for Sultan Malik-Shah I — more accurate than the Julian calendar and close to the modern Gregorian, with a year length accurate to within half a minute.",
+      "wikiSlug": "Solar_Hijri_calendar",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-al-ghazali",
+      "label": "Al-Ghazali",
+      "year": 1095,
+      "description": "Al-Ghazali wrote The Incoherence of the Philosophers, reconciling Islamic orthodoxy with Sufi mysticism and reshaping Islamic intellectual life.",
+      "wikiSlug": "Al-Ghazali",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-al-ghazali-ihya",
+      "label": "Al-Ghazali's Ihya Ulum al-Din",
+      "year": 1100,
+      "description": "Al-Ghazali's masterwork Ihya Ulum al-Din (Revival of the Religious Sciences) reconciled Sufi inner piety with orthodox Sunni practice, becoming the most widely read text in Islam after the Quran.",
+      "wikiSlug": "The_Revival_of_the_Religious_Sciences",
+      "tier": 3,
+      "tags": [
+        "writing",
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-first-crusade",
+      "label": "First Crusade",
+      "year": 1096,
+      "endYear": 1099,
+      "description": "European Crusaders captured Jerusalem in 1099, establishing Crusader states in the Levant and disrupting the Islamic political order.",
+      "wikiSlug": "First_Crusade",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ibn-tumart-almohad",
+      "label": "Almohad Movement Founded",
+      "year": 1121,
+      "description": "Ibn Tumart founded the purist Almohad movement in Morocco, which would eventually topple the Almoravid dynasty, dominate North Africa and Iberia, and briefly unify the western Islamic world under Berber leadership.",
+      "wikiSlug": "Almohad_Caliphate",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-al-idrisi-map",
+      "label": "Al-Idrisi's World Map",
+      "year": 1154,
+      "description": "Al-Idrisi created the Tabula Rogeriana, the most advanced world map of the medieval period, for King Roger II of Sicily.",
+      "wikiSlug": "Muhammad_al-Idrisi",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-ibn-tufayl-hayy",
+      "label": "Ibn Tufayl's Hayy ibn Yaqzan",
+      "year": 1160,
+      "description": "Ibn Tufayl wrote the philosophical novel Hayy ibn Yaqzan, whose protagonist raises himself from infancy on a desert island and discovers scientific and philosophical truths through reason alone — influencing Enlightenment thinkers including Locke and Defoe.",
+      "wikiSlug": "Hayy_ibn_Yaqdhan",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ibn-rushd",
+      "label": "Ibn Rushd (Averroes)",
+      "year": 1180,
+      "description": "Ibn Rushd wrote extensive commentaries on Aristotle that profoundly influenced both Islamic and European scholastic philosophy.",
+      "wikiSlug": "Averroes",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ibn-rushd-incoherence",
+      "label": "Ibn Rushd's Incoherence of the Incoherence",
+      "year": 1180,
+      "description": "Ibn Rushd systematically refuted al-Ghazali's attack on the philosophers in his Tahafut al-Tahafut, defending Aristotelian rationalism and triggering a centuries-long debate over faith and reason.",
+      "wikiSlug": "The_Incoherence_of_the_Incoherence",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-saladin",
+      "label": "Saladin Recaptures Jerusalem",
+      "year": 1187,
+      "description": "Saladin defeated the Crusaders at the Battle of Hattin and recaptured Jerusalem, earning renown for his chivalry even among his enemies.",
+      "wikiSlug": "Saladin",
+      "tier": 2,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-saladin-ayyubid",
+      "label": "Saladin Founds the Ayyubid Sultanate",
+      "year": 1171,
+      "description": "Saladin abolished the Fatimid Caliphate in Egypt and established the Ayyubid sultanate, reunifying Egypt and the Levant under Sunni rule and ending over two centuries of Fatimid Shia dominance.",
+      "wikiSlug": "Ayyubid_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nasir-al-din-al-tusi",
+      "label": "Nasir al-Din al-Tusi",
+      "year": 1201,
+      "endYear": 1274,
+      "description": "Al-Tusi invented the Tusi couple — a mathematical device showing that linear motion can arise from circular motions — correcting Ptolemaic astronomy and directly influencing Copernicus's heliocentric model two centuries later.",
+      "wikiSlug": "Nasir_al-Din_al-Tusi",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-ibn-al-nafis",
+      "label": "Ibn al-Nafis Discovers Pulmonary Circulation",
+      "year": 1242,
+      "description": "Ibn al-Nafis correctly described the pulmonary circulation of blood — from the heart to the lungs and back — refuting Galen's model that blood passed directly between the heart's chambers, three centuries before Harvey in Europe.",
+      "wikiSlug": "Ibn_al-Nafis",
+      "tier": 2,
+      "tags": [
+        "people",
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-maragha-observatory",
+      "label": "Maragha Observatory",
+      "year": 1259,
+      "description": "Al-Tusi convinced the Mongol Hulagu Khan to build the Maragha Observatory in northwest Iran, the most sophisticated astronomical institution of its day, salvaging the scientific legacy of Baghdad after the Mongol sack.",
+      "wikiSlug": "Maragheh_observatory",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-ismaili-fatimid",
+      "label": "Ismaili Fatimid Shia Doctrine",
+      "year": 910,
+      "description": "The Fatimid caliphs promoted Ismaili Shia Islam — a branch believing in an esoteric imam lineage through Ismail ibn Jafar — establishing a rival religious and political legitimacy that challenged Abbasid Sunni authority across the Islamic world.",
+      "wikiSlug": "Ismailism",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ash-ari-theology",
+      "label": "Ash'ari Theological School",
+      "year": 935,
+      "description": "Al-Ash'ari, a former Mu'tazilite, founded the Ash'ari school of Islamic theology that used rational argument to defend orthodox doctrine — becoming the dominant theological framework of Sunni Islam.",
+      "wikiSlug": "Ash%27ari",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-paper-samarkand",
+      "label": "Samarkand Paper Mill",
+      "year": 751,
+      "description": "Following the Battle of Talas, a paper mill was established in Samarkand, the first in the Islamic world, using techniques learned from captured Chinese craftsmen. The technology would spread westward to Baghdad, then to Egypt and Spain.",
+      "wikiSlug": "Samarkand_paper",
+      "tier": 3,
+      "tags": [
+        "trade",
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-aghlabid-sicily",
+      "label": "Aghlabid Conquest of Sicily",
+      "year": 827,
+      "endYear": 902,
+      "description": "The Aghlabid dynasty conquered Sicily over 75 years of intermittent warfare, making Palermo a major center of Islamic learning and creating a multi-cultural Norman-Arab-Byzantine synthesis that would outlast the caliphate.",
+      "wikiSlug": "Emirate_of_Sicily",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-al-masudi",
+      "label": "Al-Mas'udi's Universal History",
+      "year": 947,
+      "description": "Al-Mas'udi completed Muruj al-Dhahab (Meadows of Gold), a vast universal history and geography blending eyewitness travels from Spain to India with comparative cultural observation — earning him the title 'the Herodotus of the Arabs.'",
+      "wikiSlug": "Al-Masudi",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ibn-hauqal",
+      "label": "Ibn Hawqal's World Geography",
+      "year": 977,
+      "description": "Ibn Hawqal completed Surat al-Ard (Configuration of the Earth), a richly detailed economic geography of the Islamic world based on years of travel from Morocco to Central Asia, providing an unrivaled picture of 10th-century trade and cities.",
+      "wikiSlug": "Ibn_Hawqal",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ghaznavid-dynasty",
+      "label": "Ghaznavid Dynasty",
+      "year": 977,
+      "endYear": 1186,
+      "description": "Mahmud of Ghazni turned the Ghaznavid sultanate into a major power patronizing Persian literature — including Firdawsi's Shahnameh — while staging 17 raids into India that brought enormous plunder and began the Islamization of the subcontinent.",
+      "wikiSlug": "Ghaznavid_dynasty",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-almoravid-dynasty",
+      "label": "Almoravid Dynasty",
+      "year": 1040,
+      "endYear": 1147,
+      "description": "The Almoravid Berber dynasty swept from the western Sahara to control Morocco and Al-Andalus, briefly halting the Christian Reconquista and patronizing trade across the Sahara into sub-Saharan West Africa.",
+      "wikiSlug": "Almoravid_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ibn-hazm",
+      "label": "Ibn Hazm's Ring of the Dove",
+      "year": 1022,
+      "description": "Ibn Hazm of Córdoba wrote the Ring of the Dove, a celebrated treatise on love and lovers in Al-Andalus — one of the earliest systematic studies of romantic psychology and an influence on the European troubadour tradition.",
+      "wikiSlug": "The_Ring_of_the_Dove",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-third-crusade",
+      "label": "Third Crusade",
+      "year": 1189,
+      "endYear": 1192,
+      "description": "Richard I of England and Philip II of France led the Third Crusade to recapture Jerusalem after Saladin's 1187 victory. The campaign failed to retake Jerusalem but secured a coastal strip for the Crusader states under the Treaty of Jaffa.",
+      "wikiSlug": "Third_Crusade",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ibn-jubayr",
+      "label": "Ibn Jubayr's Pilgrimage Account",
+      "year": 1185,
+      "description": "Andalusian traveler Ibn Jubayr wrote a detailed account of his pilgrimage to Mecca and travels through the Crusader-held Levant and Sicily, providing a vivid portrait of Islamic urban life, trade, and tolerance in the twelfth century.",
+      "wikiSlug": "Ibn_Jubayr",
+      "tier": 3,
+      "tags": [
+        "writing",
+        "trade"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mongol-advance",
+      "label": "Mongol Advance into the Islamic World",
+      "year": 1219,
+      "description": "Genghis Khan's forces devastated Transoxiana and Khorasan, destroying the cities of Samarkand, Bukhara, and Merv and setting in motion the catastrophic Mongol disruption of the eastern Islamic world that would culminate in the sack of Baghdad.",
+      "wikiSlug": "Mongol_conquest_of_Khwarezmia",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mongol-sack-baghdad",
+      "label": "Mongol Sack of Baghdad",
+      "year": 1258,
+      "description": "Hulagu Khan's Mongol army destroyed Baghdad, killed the last Abbasid caliph, and devastated the House of Wisdom, conventionally ending the Islamic Golden Age.",
+      "wikiSlug": "Siege_of_Baghdad_(1258)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    }
+  ]
+}
