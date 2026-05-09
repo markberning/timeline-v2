@@ -1,0 +1,126 @@
+{
+  "1": [
+    {"eventId": "evt-osman-i", "matchText": "Osman I"},
+    {"eventId": "evt-sheikh-edebali", "matchText": "Edebali"},
+    {"eventId": "evt-battle-bapheus", "matchText": "Battle of Bapheus"},
+    {"eventId": "evt-orhan-i", "matchText": "Orhan"},
+    {"eventId": "evt-conquest-bursa", "matchText": "Bursa"},
+    {"eventId": "evt-first-ottoman-coinage", "matchText": "akçes"},
+    {"eventId": "evt-millet-system", "matchText": "millet system"},
+    {"eventId": "evt-conquest-gallipoli", "matchText": "Gallipoli"}
+  ],
+  "2": [
+    {"eventId": "evt-murad-i", "matchText": "Murad I"},
+    {"eventId": "evt-conquest-adrianople", "matchText": "Adrianople"},
+    {"eventId": "evt-janissary-corps", "matchText": "Janissary Corps"},
+    {"eventId": "evt-battle-kosovo", "matchText": "Battle of Kosovo"},
+    {"eventId": "evt-bayezid-i", "matchText": "Bayezid I"},
+    {"eventId": "evt-battle-nicopolis", "matchText": "Battle of Nicopolis"},
+    {"eventId": "evt-devshirme-system", "matchText": "devshirme"}
+  ],
+  "3": [
+    {"eventId": "evt-battle-ankara", "matchText": "Battle of Ankara"},
+    {"eventId": "evt-ottoman-interregnum", "matchText": "Interregnum"},
+    {"eventId": "evt-mehmed-i-reunification", "matchText": "Mehmed I"},
+    {"eventId": "evt-murad-ii", "matchText": "Murad II"},
+    {"eventId": "evt-battle-varna", "matchText": "Battle of Varna"}
+  ],
+  "4": [
+    {"eventId": "evt-mehmed-ii", "matchText": "Mehmed II"},
+    {"eventId": "evt-fall-constantinople", "matchText": "Fall of Constantinople"},
+    {"eventId": "evt-hagia-sophia-mosque", "matchText": "Hagia Sophia"},
+    {"eventId": "evt-topkapi-palace", "matchText": "Topkapı Palace"},
+    {"eventId": "evt-istanbul-grand-bazaar", "matchText": "Grand Bazaar"},
+    {"eventId": "evt-kanunname-mehmed", "matchText": "Kanunname"},
+    {"eventId": "evt-conquest-trebizond", "matchText": "Empire of Trebizond"},
+    {"eventId": "evt-fatih-mosque", "matchText": "Fatih Mosque Complex"}
+  ],
+  "5": [
+    {"eventId": "evt-sephardic-jews-welcomed", "matchText": "Sephardic Jews"},
+    {"eventId": "evt-selim-i", "matchText": "Selim I"},
+    {"eventId": "evt-battle-chaldiran", "matchText": "Battle of Chaldiran"},
+    {"eventId": "evt-conquest-egypt", "matchText": "Ridaniya"},
+    {"eventId": "evt-caliphate-claimed", "matchText": "Caliph of the Muslims"},
+    {"eventId": "evt-suleiman-i", "matchText": "Süleyman I"},
+    {"eventId": "evt-conquest-belgrade", "matchText": "Belgrade"},
+    {"eventId": "evt-battle-mohacs", "matchText": "Battle of Mohács"},
+    {"eventId": "evt-siege-vienna", "matchText": "First Siege of Vienna"},
+    {"eventId": "evt-conquest-baghdad", "matchText": "Baghdad"},
+    {"eventId": "evt-battle-preveza", "matchText": "Battle of Preveza"},
+    {"eventId": "evt-suleymaniye-mosque", "matchText": "Süleymaniye Mosque"},
+    {"eventId": "evt-selimiye-mosque", "matchText": "Selimiye Mosque"},
+    {"eventId": "evt-mimar-sinan", "matchText": "Mimar Sinan"},
+    {"eventId": "evt-hurrem-sultan", "matchText": "Hürrem Sultan"},
+    {"eventId": "evt-piri-reis-map", "matchText": "Piri Reis World Map"},
+    {"eventId": "evt-kanuni-law-code", "matchText": "Kanun-i Osmani"},
+    {"eventId": "evt-capitulations-france", "matchText": "Franco-Ottoman alliance"},
+    {"eventId": "evt-ebussuud-efendi", "matchText": "Ebussuud Efendi"},
+    {"eventId": "evt-barbarossa-admiral", "matchText": "Hayreddin Barbarossa"},
+    {"eventId": "evt-ulema-sheikh-ul-islam", "matchText": "Sheikh ul-Islam"}
+  ],
+  "6": [
+    {"eventId": "evt-janissary-corps", "matchText": "Janissaries"},
+    {"eventId": "evt-devshirme-system", "matchText": "devshirme"},
+    {"eventId": "evt-enderun-school", "matchText": "Enderun"},
+    {"eventId": "evt-millet-system", "matchText": "millet"},
+    {"eventId": "evt-sokollu-mehmed-pasha", "matchText": "Sokollu Mehmed Pasha"},
+    {"eventId": "evt-pargali-ibrahim-pasha", "matchText": "Pargalı Ibrahim Pasha"},
+    {"eventId": "evt-mimar-sinan", "matchText": "Mimar Sinan"}
+  ],
+  "7": [
+    {"eventId": "evt-hurrem-sultan", "matchText": "Hürrem Sultan"},
+    {"eventId": "evt-sultanate-of-women", "matchText": "Sultanate of Women"},
+    {"eventId": "evt-cage-system-succession", "matchText": "Cage system"},
+    {"eventId": "evt-sokollu-mehmed-pasha", "matchText": "Sokollu"},
+    {"eventId": "evt-nurbanu-sultan", "matchText": "Nurbanu Sultan"},
+    {"eventId": "evt-battle-lepanto", "matchText": "Battle of Lepanto"},
+    {"eventId": "evt-long-turkish-war", "matchText": "Long Turkish War"},
+    {"eventId": "evt-ahmed-mosque", "matchText": "Sultan Ahmed Mosque"},
+    {"eventId": "evt-koprutu-mehmed-pasha", "matchText": "Mehmed Köprülü"},
+    {"eventId": "evt-kara-mustafa-pasha", "matchText": "Kara Mustafa Pasha"}
+  ],
+  "8": [
+    {"eventId": "evt-siege-vienna-1683", "matchText": "Second Siege of Vienna"},
+    {"eventId": "evt-kara-mustafa-pasha", "matchText": "Kara Mustafa"},
+    {"eventId": "evt-treaty-karlowitz", "matchText": "Treaty of Karlowitz"},
+    {"eventId": "evt-lale-devri", "matchText": "Tulip Era"},
+    {"eventId": "evt-ibrahim-muteferrika-arabic-press", "matchText": "Ibrahim Müteferrika"},
+    {"eventId": "evt-patrona-halil-revolt", "matchText": "Patrona Halil revolt"}
+  ],
+  "9": [
+    {"eventId": "evt-selim-iii-new-order", "matchText": "Selim III"},
+    {"eventId": "evt-mahmud-ii-janissary-dissolution", "matchText": "Auspicious Incident"},
+    {"eventId": "evt-tanzimat-gulhane", "matchText": "Gülhane Hatt-ı Şerifi"},
+    {"eventId": "evt-treaty-kucuk-kaynarca", "matchText": "Treaty of Küçük Kaynarca"},
+    {"eventId": "evt-mustafa-resid-pasha", "matchText": "Mustafa Reşid Pasha"}
+  ],
+  "10": [
+    {"eventId": "evt-tanzimat-reforms", "matchText": "Tanzimat"},
+    {"eventId": "evt-crimean-war", "matchText": "Crimean War"},
+    {"eventId": "evt-hatt-i-humayun", "matchText": "Hatt-ı Hümayun"},
+    {"eventId": "evt-dolmabahce-palace", "matchText": "Dolmabahçe Palace"},
+    {"eventId": "evt-russo-turkish-war-1877", "matchText": "Russo-Turkish War of 1877"},
+    {"eventId": "evt-ottoman-constitution-1876", "matchText": "first Ottoman Constitution"},
+    {"eventId": "evt-abdulhamid-ii", "matchText": "Abdülhamid II"},
+    {"eventId": "evt-young-turk-revolution", "matchText": "Young Turk Revolution"}
+  ],
+  "11": [
+    {"eventId": "evt-balkan-wars", "matchText": "First Balkan War"},
+    {"eventId": "evt-wwi-ottoman-entry", "matchText": "First World War"},
+    {"eventId": "evt-gallipoli-campaign", "matchText": "Gallipoli Campaign"},
+    {"eventId": "evt-armenian-genocide", "matchText": "Armenian Genocide"},
+    {"eventId": "evt-mudros-armistice", "matchText": "Armistice of Mudros"},
+    {"eventId": "evt-enver-pasha", "matchText": "Enver Pasha"},
+    {"eventId": "evt-talaat-pasha", "matchText": "Talaat Pasha"},
+    {"eventId": "evt-mustafa-kemal", "matchText": "Mustafa Kemal"}
+  ],
+  "12": [
+    {"eventId": "evt-abolition-sultanate", "matchText": "sultanate was abolished"},
+    {"eventId": "evt-mustafa-kemal", "matchText": "Mustafa Kemal"},
+    {"eventId": "evt-millet-system", "matchText": "millet"},
+    {"eventId": "evt-suleymaniye-mosque", "matchText": "Süleymaniye"},
+    {"eventId": "evt-ahmed-mosque", "matchText": "Sultan Ahmed Mosque"},
+    {"eventId": "evt-mimar-sinan", "matchText": "Mimar Sinan"},
+    {"eventId": "evt-caliphate-claimed", "matchText": "Caliphate was abolished"}
+  ]
+}
