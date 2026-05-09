@@ -69,7 +69,7 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
       {/* Sheet */}
       <div
         ref={sheetRef}
-        className="fixed bottom-0 left-0 right-0 z-50 rounded-t-2xl shadow-lg max-h-[60vh] overflow-y-auto animate-slide-up"
+        className="fixed bottom-0 inset-x-0 mx-auto max-w-prose w-full z-50 rounded-t-2xl shadow-lg max-h-[60vh] overflow-y-auto animate-slide-up"
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)', backgroundColor: 'var(--surface)' }}
       >
         {/* Header bar: drag handle + close */}
