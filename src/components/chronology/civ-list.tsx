@@ -134,9 +134,25 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
     else rowEls.current.delete(id)
   }, [])
 
-  // Scroll to top when chain filter changes
+  // Save scroll position before entering chain mode; restore it when exiting.
+  // Entering a chain scrolls to top so the user sees the chain from its start.
+  const savedScrollTop = useRef<number | null>(null)
+  const prevSoloChainId = useRef<string | null>(soloChainId)
   useEffect(() => {
-    if (listRef.current) {
+    const prev = prevSoloChainId.current
+    prevSoloChainId.current = soloChainId
+    if (!listRef.current) return
+    if (!prev && soloChainId) {
+      // Entering chain mode: stash current scroll, jump to top
+      savedScrollTop.current = listRef.current.scrollTop
+      listRef.current.scrollTo({ top: 0, behavior: 'auto' })
+    } else if (prev && !soloChainId) {
+      // Exiting chain mode: restore prior scroll
+      const target = savedScrollTop.current ?? 0
+      listRef.current.scrollTo({ top: target, behavior: 'auto' })
+      savedScrollTop.current = null
+    } else if (prev && soloChainId && prev !== soloChainId) {
+      // Switching between chains: scroll to top of the new chain
       listRef.current.scrollTo({ top: 0, behavior: 'auto' })
     }
   }, [soloChainId, listRef])
