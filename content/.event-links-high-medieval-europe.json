@@ -1,0 +1,79 @@
+{
+  "1": [
+    { "eventId": "evt-hme-medieval-warm-period", "matchText": "Medieval Warm Period" },
+    { "eventId": "evt-hme-heavy-plow", "matchText": "heavy mouldboard plow" },
+    { "eventId": "evt-hme-three-field", "matchText": "three-field crop rotation" },
+    { "eventId": "evt-hme-horse-collar", "matchText": "rigid padded horse collar" },
+    { "eventId": "evt-hme-watermills", "matchText": "1086 Domesday survey" },
+    { "eventId": "evt-hme-population-boom", "matchText": "Europe's population at roughly 35" },
+    { "eventId": "evt-hme-urban-revival", "matchText": "Paris had perhaps 200,000 residents" },
+    { "eventId": "evt-hme-domesday-book", "matchText": "Domesday Book of 1086" },
+    { "eventId": "evt-hme-norman-conquest", "matchText": "William the Conqueror" }
+  ],
+  "2": [
+    { "eventId": "evt-hme-cluny-reform", "matchText": "abbey of Cluny" },
+    { "eventId": "evt-hme-gregory-vii", "matchText": "Gregory VII" },
+    { "eventId": "evt-hme-investiture-controversy", "matchText": "Investiture Controversy" },
+    { "eventId": "evt-hme-canossa", "matchText": "Canossa" },
+    { "eventId": "evt-hme-concordat-worms", "matchText": "Concordat of Worms" },
+    { "eventId": "evt-hme-great-schism-1054", "matchText": "Great Schism of 1054" }
+  ],
+  "3": [
+    { "eventId": "evt-hme-urban-clermont", "matchText": "Pope Urban II" },
+    { "eventId": "evt-hme-peoples-crusade", "matchText": "People's Crusade" },
+    { "eventId": "evt-hme-first-crusade", "matchText": "First Crusade" },
+    { "eventId": "evt-hme-jerusalem-1099", "matchText": "massacre at Jerusalem" },
+    { "eventId": "evt-hme-crusader-states", "matchText": "Crusader states" },
+    { "eventId": "evt-hme-second-crusade", "matchText": "Second Crusade" },
+    { "eventId": "evt-hme-saladin-1187", "matchText": "Saladin" },
+    { "eventId": "evt-hme-third-crusade", "matchText": "Third Crusade" },
+    { "eventId": "evt-hme-fourth-crusade", "matchText": "Fourth Crusade" },
+    { "eventId": "evt-hme-childrens-crusade", "matchText": "Children's Crusade" },
+    { "eventId": "evt-hme-inquisition-founded", "matchText": "medieval Inquisition" },
+    { "eventId": "evt-hme-frederick-barbarossa", "matchText": "Frederick Barbarossa" }
+  ],
+  "4": [
+    { "eventId": "evt-hme-champagne-fairs", "matchText": "Champagne fairs" },
+    { "eventId": "evt-hme-hanseatic-league", "matchText": "Hanseatic League" },
+    { "eventId": "evt-hme-italian-banking", "matchText": "Italian banking innovations" },
+    { "eventId": "evt-hme-venice-genoa", "matchText": "Venice and Genoa" },
+    { "eventId": "evt-hme-knights-templar", "matchText": "Knights Templar" }
+  ],
+  "5": [
+    { "eventId": "evt-hme-toledo-translation", "matchText": "translation movement" },
+    { "eventId": "evt-hme-bernard-clairvaux", "matchText": "Bernard of Clairvaux" },
+    { "eventId": "evt-hme-cistercians", "matchText": "Cistercian Order" },
+    { "eventId": "evt-hme-abelard-heloise", "matchText": "Peter Abelard" },
+    { "eventId": "evt-hme-hildegard", "matchText": "Hildegard of Bingen" },
+    { "eventId": "evt-hme-troubadours", "matchText": "troubadours" }
+  ],
+  "6": [
+    { "eventId": "evt-hme-saint-denis-gothic", "matchText": "Saint-Denis" },
+    { "eventId": "evt-hme-flying-buttress", "matchText": "flying buttress" },
+    { "eventId": "evt-hme-notre-dame", "matchText": "Notre-Dame de Paris" },
+    { "eventId": "evt-hme-chartres", "matchText": "Chartres Cathedral" },
+    { "eventId": "evt-hme-reims-amiens", "matchText": "Reims Cathedral" },
+    { "eventId": "evt-hme-sainte-chapelle", "matchText": "Sainte-Chapelle" },
+    { "eventId": "evt-hme-louis-ix-france", "matchText": "King Louis IX of France" }
+  ],
+  "7": [
+    { "eventId": "evt-hme-university-bologna", "matchText": "University of Bologna" },
+    { "eventId": "evt-hme-university-oxford", "matchText": "Oxford" },
+    { "eventId": "evt-hme-university-salamanca", "matchText": "Salamanca" },
+    { "eventId": "evt-hme-scholasticism", "matchText": "scholastic" },
+    { "eventId": "evt-hme-dominicans", "matchText": "Dominicans" },
+    { "eventId": "evt-hme-francis-of-assisi", "matchText": "Francis of Assisi" },
+    { "eventId": "evt-hme-aquinas", "matchText": "Thomas Aquinas" }
+  ],
+  "8": [
+    { "eventId": "evt-hme-bouvines", "matchText": "Battle of Bouvines" },
+    { "eventId": "evt-hme-magna-carta", "matchText": "Magna Carta" },
+    { "eventId": "evt-hme-simon-de-montfort-parliament", "matchText": "Simon de Montfort" },
+    { "eventId": "evt-hme-innocent-iii", "matchText": "Pope Innocent III" },
+    { "eventId": "evt-hme-fourth-lateran", "matchText": "Fourth Lateran Council" },
+    { "eventId": "evt-hme-las-navas-tolosa", "matchText": "Las Navas de Tolosa" },
+    { "eventId": "evt-hme-reconquista", "matchText": "Reconquista" },
+    { "eventId": "evt-hme-mongol-hungary-1241", "matchText": "Battle of Mohi" },
+    { "eventId": "evt-hme-marco-polo", "matchText": "Marco Polo" }
+  ]
+}

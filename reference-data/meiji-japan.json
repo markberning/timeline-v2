@@ -1,0 +1,755 @@
+{
+  "id": "meiji-japan",
+  "label": "Meiji Japan",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Meiji_era",
+  "imageWikiSlug": "Meiji_Emperor",
+  "pitch": "The Meiji Restoration of 1868 launched the fastest national transformation in history: within one generation, Japan went from samurai swords to steam engines, from feudal domains to a constitutional state, from sealed islands to a Pacific empire.",
+  "countryIds": ["392"],
+  "spans": [
+    {
+      "id": "span-meiji-restoration",
+      "label": "Meiji Restoration",
+      "startYear": 1868,
+      "endYear": 1877,
+      "wikiSlug": "Meiji_Restoration",
+      "description": "The Tokugawa shogunate fell, imperial rule was restored, the domains were abolished, the Iwakura Mission toured the West, and the conscript army defeated the last samurai uprising at Shiroyama in 1877."
+    },
+    {
+      "id": "span-meiji-modernization",
+      "label": "Industrial Revolution by Decree",
+      "startYear": 1872,
+      "endYear": 1890,
+      "wikiSlug": "Meiji_era",
+      "description": "The state built railways, telegraph, postal service, banks, and pilot factories; a constitution and a Diet were promulgated in 1889–90; zaibatsu took over the state enterprises."
+    },
+    {
+      "id": "span-meiji-empire",
+      "label": "Imperial Power",
+      "startYear": 1894,
+      "endYear": 1905,
+      "wikiSlug": "Empire_of_Japan",
+      "description": "Japan defeated Qing China in 1894–95, took Taiwan, then defeated Russia in 1904–05 — the first modern Asian victory over a European power. Tsushima made Admiral Tōgō a world-historical name."
+    },
+    {
+      "id": "span-meiji-late",
+      "label": "Annexation and Death",
+      "startYear": 1905,
+      "endYear": 1912,
+      "wikiSlug": "Meiji_era",
+      "description": "Japan annexed Korea in 1910, then the Meiji Emperor died in 1912; General Nogi committed ritual suicide following him to the grave. The era closed with Japan an industrial world power, militarism baked in for the next thirty-five years."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-perry-black-ships",
+      "label": "Perry's Black Ships",
+      "year": 1853,
+      "endYear": 1854,
+      "description": "Commodore Matthew Perry's US Navy steam frigates entered Edo Bay in July 1853, demanded Japan open to trade, and returned in 1854 with a larger fleet. The Treaty of Kanagawa ended sakoku and triggered the political crisis that destroyed the Tokugawa shogunate.",
+      "wikiSlug": "Perry_Expedition",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-harris-treaty",
+      "label": "Harris Treaty",
+      "year": 1858,
+      "description": "The Treaty of Amity and Commerce signed by US consul Townsend Harris and the shogunate in 1858 imposed extraterritoriality and 5% fixed tariffs on Japan. Britain, France, the Netherlands, and Russia signed near-identical Ansei Treaties within weeks — the unequal treaty regime that would humiliate Japan for forty years.",
+      "wikiSlug": "Treaty_of_Amity_and_Commerce_(United_States%E2%80%93Japan)",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-satcho-alliance",
+      "label": "Satsuma-Choshu Alliance",
+      "year": 1866,
+      "description": "The secret 1866 alliance between Satsuma and Choshu, brokered by the Tosa ronin Sakamoto Ryoma, was the coalition that overthrew the Tokugawa shogunate. The two southwestern domains had spent the late Edo period quietly modernizing their militaries with British and French weapons.",
+      "wikiSlug": "Satch%C5%8D_Alliance",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-taisei-hokan",
+      "label": "Taisei Hokan",
+      "year": 1867,
+      "description": "In November 1867 the fifteenth and last shogun, Tokugawa Yoshinobu, formally returned political authority to Emperor Meiji in the Taisei Hokan ('Restoration of Imperial Rule'). It was a calculated surrender he hoped would preserve him as constitutional minister; the Satsuma-Choshu faction refused to keep him.",
+      "wikiSlug": "Taisei_H%C5%8Dkan",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-meiji-restoration",
+      "label": "Meiji Restoration",
+      "year": 1868,
+      "description": "On January 3, 1868, a coalition of Satsuma, Choshu, Tosa, and Hizen officials proclaimed the restoration of direct imperial rule under the fifteen-year-old Emperor Meiji. The shogunate, after 265 years, was over.",
+      "wikiSlug": "Meiji_Restoration",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-emperor-meiji",
+      "label": "Emperor Meiji",
+      "year": 1852,
+      "endYear": 1912,
+      "description": "Mutsuhito, posthumously called Emperor Meiji, ascended the throne at fifteen in 1867 and reigned for forty-five years over the most rapid national modernization in history. He attended cabinet meetings, dressed in Western military uniform from 1872, and became the personal symbol of the new state.",
+      "wikiSlug": "Emperor_Meiji",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-charter-oath",
+      "label": "Charter Oath",
+      "year": 1868,
+      "description": "The five-article Charter Oath, issued April 1868, promised public assembly, abolition of class restrictions, and 'the seeking of knowledge throughout the world.' It was the founding document of the new state — programmatically the diametric opposite of the late Tokugawa program.",
+      "wikiSlug": "Charter_Oath",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-boshin-war",
+      "label": "Boshin War",
+      "year": 1868,
+      "endYear": 1869,
+      "description": "The Boshin War (Year of the Yang Earth Dragon War, January 1868–June 1869) was the civil war that completed the Tokugawa overthrow. Imperial forces broke the bakufu army at Toba-Fushimi, took Edo without a fight, and finally ran down the holdout naval Republic of Ezo at Hakodate.",
+      "wikiSlug": "Boshin_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tokyo-capital",
+      "label": "Tokyo Becomes Capital",
+      "year": 1868,
+      "description": "Edo was renamed Tokyo ('Eastern Capital') in September 1868 and became the new imperial capital, ending Kyoto's thousand-year run. The young emperor moved into the former shogun's castle — the symbolic transfer of sovereignty was complete.",
+      "wikiSlug": "Tokyo",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-yokohama-railway",
+      "label": "First Railway Opens",
+      "year": 1872,
+      "description": "Japan's first railway line opened October 14, 1872 between Tokyo's Shimbashi station and Yokohama, eighteen miles of British-built track. The emperor rode the inaugural train. Within twenty years the country had a national rail network.",
+      "wikiSlug": "Tokyo%E2%80%93Yokohama_railway",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-telegraph",
+      "label": "Telegraph System Built",
+      "year": 1869,
+      "description": "Japan's first telegraph line opened in 1869 between Tokyo and Yokohama. Within a decade, the network reached every prefectural capital — the nervous system of the new centralized state.",
+      "wikiSlug": "Telecommunications_in_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-postal-service",
+      "label": "Modern Postal Service",
+      "year": 1871,
+      "description": "Maejima Hisoka, returning from study in Britain, established Japan's modern postal service in 1871. Stamps, post offices, and uniform rates extended state communication infrastructure to every village.",
+      "wikiSlug": "Japan_Post",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-haihan-chiken",
+      "label": "Abolition of the Han System",
+      "year": 1871,
+      "description": "On July 14, 1871, the new government issued Haihan Chiken — the abolition of the 270-odd feudal domains and their replacement with prefectures under direct central administration. The daimyo were pensioned off in Tokyo. In a single edict, eight centuries of decentralized warrior rule ended.",
+      "wikiSlug": "Abolition_of_the_han_system",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-iwakura-mission",
+      "label": "Iwakura Mission",
+      "year": 1871,
+      "endYear": 1873,
+      "description": "From December 1871 to September 1873, half the senior Meiji government — Iwakura Tomomi, Okubo Toshimichi, Kido Takayoshi, Ito Hirobumi, plus 50 students — toured the United States and twelve European countries. They came back convinced that catch-up modernization was the only route to surviving the unequal treaties.",
+      "wikiSlug": "Iwakura_Mission",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-conscription",
+      "label": "Conscription Law",
+      "year": 1873,
+      "description": "The 1873 Conscription Law required three years of military service from every able-bodied male over twenty, regardless of class. It dissolved the samurai monopoly on bearing arms — the act that, more than any other, ended the warrior caste as a social fact.",
+      "wikiSlug": "Conscription_in_Japan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-land-tax-reform",
+      "label": "Land Tax Reform",
+      "year": 1873,
+      "description": "The 1873 Land Tax Reform replaced the variable rice-tax of the Edo period with a fixed cash tax of 3% of assessed land value, payable in money. It established private land titles, gave the state a stable revenue base for industrialization, and pushed millions of marginal farmers off the land.",
+      "wikiSlug": "Land_Tax_Reform_(Japan_1873)",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-samurai-stipends",
+      "label": "Abolition of Samurai Stipends",
+      "year": 1876,
+      "description": "In 1876 the government converted hereditary samurai stipends into one-time bonds, ended the right to wear the two swords (the haitorei edict), and effectively dissolved the legal samurai class. Roughly two million people lost their inherited income overnight.",
+      "wikiSlug": "Haitorei_edict",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-saigo-takamori",
+      "label": "Saigo Takamori",
+      "year": 1828,
+      "endYear": 1877,
+      "description": "Saigo Takamori, the Satsuma samurai who had led the imperial forces at Toba-Fushimi and taken Edo without a fight in 1868, became the most popular leader of the new state — and then resigned in 1873 over the Korea question, returned to Kagoshima, and led the Satsuma Rebellion to its destruction at Shiroyama.",
+      "wikiSlug": "Saig%C5%8D_Takamori",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "people"
+    },
+    {
+      "id": "evt-seikanron",
+      "label": "Seikanron Korea Debate",
+      "year": 1873,
+      "description": "The 1873 'Conquer Korea' debate split the Meiji government. Saigo Takamori and Itagaki Taisuke wanted to invade Korea over a diplomatic insult; the Iwakura Mission returnees vetoed the plan as suicidal. The hawks resigned. The expansion would come twenty years later, on the modernizers' schedule.",
+      "wikiSlug": "Seikanron",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-satsuma-rebellion",
+      "label": "Satsuma Rebellion",
+      "year": 1877,
+      "description": "From January to September 1877, Saigo Takamori led roughly 30,000 Satsuma samurai in the last and largest of the samurai uprisings against the Meiji government. The conscript army defeated them at Tabaruzaka and finally cornered Saigo at Shiroyama in Kagoshima, where he committed seppuku on September 24.",
+      "wikiSlug": "Satsuma_Rebellion",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-shiroyama",
+      "label": "Battle of Shiroyama",
+      "year": 1877,
+      "description": "On September 24, 1877, government conscripts under Yamagata Aritomo overwhelmed Saigo Takamori's last 400 samurai on Shiroyama hill in Kagoshima. Saigo, wounded, committed seppuku; his head was buried separately. The samurai era — 700 years of warrior politics — ended that morning.",
+      "wikiSlug": "Battle_of_Shiroyama",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tomioka-silk",
+      "label": "Tomioka Silk Mill",
+      "year": 1872,
+      "description": "The Tomioka Silk Mill opened in 1872 in Gunma Prefecture, equipped with French machinery and run by French engineer Paul Brunat. It was the flagship of the government's pilot-factory program — built to demonstrate, then sold off cheap once the technique was learned. Silk exports financed the early Meiji budget.",
+      "wikiSlug": "Tomioka_Silk_Mill",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-zaibatsu",
+      "label": "Rise of the Zaibatsu",
+      "year": 1880,
+      "description": "From the 1880s the government sold off its pilot factories cheaply to a small circle of politically connected merchant houses — Mitsui, Mitsubishi (founded by Iwasaki Yataro), Sumitomo, Yasuda — that became the zaibatsu industrial conglomerates dominating the Japanese economy until 1945.",
+      "wikiSlug": "Zaibatsu",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-yen-currency",
+      "label": "Yen Currency Established",
+      "year": 1871,
+      "description": "The New Currency Act of 1871 introduced the yen as a decimal currency replacing the Tokugawa-era ryo, mon, and bu. Modeled on the Mexican silver dollar, it integrated Japan into the international monetary system.",
+      "wikiSlug": "Japanese_yen",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-bank-of-japan",
+      "label": "Bank of Japan Founded",
+      "year": 1882,
+      "description": "Finance minister Matsukata Masayoshi founded the Bank of Japan in 1882 on the Belgian central-bank model. Matsukata's deflation policy of 1881–85 stabilized the yen and created the financial base for industrial expansion.",
+      "wikiSlug": "Bank_of_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-gold-standard",
+      "label": "Japan Adopts Gold Standard",
+      "year": 1897,
+      "description": "Using the Chinese war indemnity from the 1895 Treaty of Shimonoseki, Japan adopted the gold standard in 1897, joining the international financial system on the same terms as the European powers.",
+      "wikiSlug": "Gold_standard",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-okubo-toshimichi",
+      "label": "Okubo Toshimichi",
+      "year": 1830,
+      "endYear": 1878,
+      "description": "Okubo Toshimichi, the Satsuma samurai who served as home minister from 1873 to 1878, was the chief architect of early Meiji centralization — the Iwakura Mission's policy lead, the prosecutor of the Satsuma Rebellion against his old friend Saigo, and the founder of the developmentalist state. He was assassinated by disaffected samurai in 1878.",
+      "wikiSlug": "%C5%8Ckubo_Toshimichi",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kido-takayoshi",
+      "label": "Kido Takayoshi",
+      "year": 1833,
+      "endYear": 1877,
+      "description": "Kido Takayoshi, the Choshu intellectual who had drafted the Charter Oath and pushed through the abolition of the domains, was the third member of the early Meiji triumvirate alongside Saigo and Okubo. Worn out by overwork, he died of illness in 1877 just as the Satsuma Rebellion was being put down.",
+      "wikiSlug": "Kido_Takayoshi",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ito-hirobumi",
+      "label": "Ito Hirobumi",
+      "year": 1841,
+      "endYear": 1909,
+      "description": "Ito Hirobumi, a low-rank Choshu samurai who had stowed away to Britain in 1863, became Japan's first prime minister in 1885, the principal architect of the Meiji Constitution, and four-time premier. He was assassinated by a Korean nationalist at Harbin railway station in 1909.",
+      "wikiSlug": "It%C5%8D_Hirobumi",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-yamagata-aritomo",
+      "label": "Yamagata Aritomo",
+      "year": 1838,
+      "endYear": 1922,
+      "description": "Yamagata Aritomo, the Choshu samurai who had built the conscript army and commanded against the Satsuma Rebellion, became the architect of the Meiji military and of the genro oligarchy that wielded real power behind the constitutional facade. He served as prime minister twice and outlived almost every other Meiji founder.",
+      "wikiSlug": "Yamagata_Aritomo",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-genro",
+      "label": "The Genro Oligarchs",
+      "year": 1889,
+      "description": "The genro ('elder statesmen') were the unofficial council of senior Meiji founders — Ito, Yamagata, Inoue, Kuroda, Matsukata, Saigo Tsugumichi, Oyama — who selected prime ministers, vetoed cabinet decisions, and effectively governed Japan from outside the constitution they had written. The genro institution was Japan's actual oligarchy until the 1920s.",
+      "wikiSlug": "Genr%C5%8D",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-meiji-constitution",
+      "label": "Meiji Constitution",
+      "year": 1889,
+      "description": "Promulgated as a 'gift from the emperor' on February 11, 1889, the Meiji Constitution was drafted by Ito Hirobumi on the Prussian model after his European study tour. It created a bicameral Diet with limited suffrage, preserved imperial sovereignty, and reserved the army and navy as direct imperial commands outside cabinet control — the constitutional crack through which militarism would later flood.",
+      "wikiSlug": "Meiji_Constitution",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-diet-opens",
+      "label": "First Imperial Diet",
+      "year": 1890,
+      "description": "Japan's first parliament convened on November 29, 1890. The lower House of Representatives was elected by male taxpayers paying at least 15 yen in direct taxes — about 1% of the population, roughly 450,000 voters in a country of 40 million. The upper House of Peers was appointed.",
+      "wikiSlug": "Imperial_Diet_(Japan)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-freedom-movement",
+      "label": "Freedom and People's Rights Movement",
+      "year": 1874,
+      "description": "From 1874 the Jiyu Minken Undo ('Freedom and People's Rights Movement'), led by ex-samurai Itagaki Taisuke and others, demanded an elected national assembly and a written constitution. State pressure broke the movement, but the 1881 imperial promise of a constitution by 1890 was its direct concession.",
+      "wikiSlug": "Freedom_and_People%27s_Rights_Movement",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-itagaki-taisuke",
+      "label": "Itagaki Taisuke",
+      "year": 1837,
+      "endYear": 1919,
+      "description": "Itagaki Taisuke, a Tosa samurai and Boshin War general, founded the Liberal Party (Jiyuto) in 1881 and led the long campaign for parliamentary government. Stabbed by a fanatic in 1882, he is supposed to have shouted 'Itagaki may die, but liberty never!' — a line probably embellished but indispensable to Japanese constitutional folklore.",
+      "wikiSlug": "Itagaki_Taisuke",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-civil-code",
+      "label": "Meiji Civil Code",
+      "year": 1898,
+      "description": "The 1898 Meiji Civil Code, adapted from German and French models, established uniform national law for property, contracts, marriage, and inheritance. The 'household' (ie) system it codified institutionalized patriarchal family structures that lasted until 1947.",
+      "wikiSlug": "Civil_code_of_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-compulsory-education",
+      "label": "Universal Compulsory Education",
+      "year": 1872,
+      "description": "The Education Order of 1872 required four years of universal primary education for both sexes, organized in 53,760 elementary schools nationwide. By 1905 nearly 95% of children were enrolled. The system targeted, and achieved, the world's highest literacy rates by World War I.",
+      "wikiSlug": "Education_in_the_Empire_of_Japan",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-imperial-rescript",
+      "label": "Imperial Rescript on Education",
+      "year": 1890,
+      "description": "Issued October 30, 1890 over Emperor Meiji's signature, the Imperial Rescript on Education made loyalty to the throne and Confucian filial piety the moral foundation of Japanese schooling. Recited daily in every classroom for the next fifty-five years, it was the central text of the Meiji ideological project.",
+      "wikiSlug": "Imperial_Rescript_on_Education",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-state-shinto",
+      "label": "State Shinto Established",
+      "year": 1868,
+      "description": "From 1868 the Meiji government separated Shinto from Buddhism (shinbutsu bunri), placed Shinto shrines under government administration, and elevated emperor-veneration to a state cult. Yasukuni Shrine in Tokyo, founded in 1869 to enshrine the war dead, became the central institution of State Shinto.",
+      "wikiSlug": "State_Shinto",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-yasukuni-shrine",
+      "label": "Yasukuni Shrine Founded",
+      "year": 1869,
+      "description": "Yasukuni Shrine ('Pacifying the Nation') was founded in Tokyo in 1869 to enshrine the spirits of those who died fighting for the emperor — beginning with the Boshin War dead. It remains one of the most politically contentious religious sites in East Asia.",
+      "wikiSlug": "Yasukuni_Shrine",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-haibutsu-kishaku",
+      "label": "Haibutsu Kishaku Anti-Buddhist Movement",
+      "year": 1868,
+      "description": "The 1868 separation of Shinto and Buddhism triggered an anti-Buddhist iconoclasm — Haibutsu Kishaku ('abolish the Buddha, destroy Shakyamuni') — that destroyed thousands of temples, statues, and texts. Roughly 40,000 Buddhist temples disappeared in the first decade of Meiji rule.",
+      "wikiSlug": "Haibutsu_kishaku",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-christianity-legalized",
+      "label": "Christianity Legalized",
+      "year": 1873,
+      "description": "Under Western diplomatic pressure during the Iwakura Mission, the government quietly removed the public anti-Christian notice boards in 1873, ending the 250-year ban. Foreign missionaries returned, but actual conversions stayed below 1% of the population — Japanese Christianity remained a minority faith.",
+      "wikiSlug": "Christianity_in_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-fukuzawa-yukichi",
+      "label": "Fukuzawa Yukichi",
+      "year": 1835,
+      "endYear": 1901,
+      "description": "Fukuzawa Yukichi, founder of Keio University and Japan's most influential public intellectual, wrote An Encouragement of Learning (1872) and The Outline of Civilization (1875) — the books that taught the Meiji middle class what 'civilization' meant. He never held office; his face is on the 10,000-yen note.",
+      "wikiSlug": "Fukuzawa_Yukichi",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-natsume-soseki",
+      "label": "Natsume Soseki",
+      "year": 1867,
+      "endYear": 1916,
+      "description": "Natsume Soseki, Japan's greatest modern novelist, studied in London 1900–02, taught at Tokyo Imperial University, and wrote Kokoro, Botchan, and I Am a Cat. His work explored the psychological dislocation of Meiji modernization — the loneliness of being neither traditionally Japanese nor properly Western.",
+      "wikiSlug": "Natsume_S%C5%8Dseki",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kitasato",
+      "label": "Kitasato Shibasaburo",
+      "year": 1853,
+      "endYear": 1931,
+      "description": "Kitasato Shibasaburo, trained under Robert Koch in Berlin, co-discovered the plague bacillus in Hong Kong in 1894 and developed antitoxin therapy for tetanus and diphtheria. He founded Japan's Institute for Infectious Diseases — proof that Japanese science could now contribute, not just receive.",
+      "wikiSlug": "Kitasato_Shibasabur%C5%8D",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-ginza-brick",
+      "label": "Ginza Brick Town",
+      "year": 1872,
+      "description": "After a fire destroyed central Tokyo in 1872, the government rebuilt the Ginza district in Western brick and stone, with gas lamps, wide avenues, and arcaded sidewalks. Designed by Irish-British engineer Thomas Waters, it was the showcase district of bunmei kaika — 'civilization and enlightenment.'",
+      "wikiSlug": "Ginza",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-rokumeikan",
+      "label": "The Rokumeikan",
+      "year": 1883,
+      "description": "The Rokumeikan ('Deer Cry Pavilion') opened in Tokyo in 1883, designed by British architect Josiah Conder for the foreign minister Inoue Kaoru. Its evening balls — Japanese officials waltzing with their wives in Paris gowns — were calculated diplomacy aimed at convincing Western powers to revise the unequal treaties.",
+      "wikiSlug": "Rokumeikan",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-meiji-shrine",
+      "label": "Meiji Shrine Planned",
+      "year": 1912,
+      "description": "After Emperor Meiji's death in 1912, plans began for the Meiji Shrine in Yoyogi, Tokyo. Completed in 1920 with 100,000 trees donated from across Japan and the colonies, it became the largest Shinto shrine in the country and the architectural monument of the era.",
+      "wikiSlug": "Meiji_Shrine",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tokyo-imperial-university",
+      "label": "Tokyo Imperial University",
+      "year": 1877,
+      "description": "Tokyo Imperial University, founded in 1877 by merging existing schools, was modeled on German universities and became the training ground for the Meiji bureaucratic elite. By 1900 it had hired Western professors, sent Japanese scholars to Europe, and was producing original research in physics, medicine, and law.",
+      "wikiSlug": "University_of_Tokyo",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mori-arinori",
+      "label": "Mori Arinori",
+      "year": 1847,
+      "endYear": 1889,
+      "description": "Mori Arinori, the Satsuma diplomat and education minister, designed the centralized Meiji school system and the imperial-university structure. He was assassinated by a Shinto fanatic on the day the constitution was promulgated, accused of disrespecting the Ise Shrine — an early sign of how nationalist religion could turn on the modernizers.",
+      "wikiSlug": "Mori_Arinori",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-sino-japanese-war",
+      "label": "First Sino-Japanese War",
+      "year": 1894,
+      "endYear": 1895,
+      "description": "From August 1894 to April 1895, Japan defeated Qing China in a war fought primarily over Korea. Japanese armies overran Korea, took the Liaodong Peninsula and Port Arthur, and the modern Japanese navy destroyed the Chinese Beiyang fleet at the Yalu River. The first decisive defeat of a major Asian empire by another Asian power in the modern era.",
+      "wikiSlug": "First_Sino-Japanese_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-shimonoseki",
+      "label": "Treaty of Shimonoseki",
+      "year": 1895,
+      "description": "Signed April 17, 1895, the Treaty of Shimonoseki ceded Taiwan and the Liaodong Peninsula to Japan, recognized Korean independence (the prelude to Japanese domination), and imposed a 200-million-tael indemnity that funded Japan's gold standard and naval expansion. Russia, France, and Germany then forced Japan to give Liaodong back — the Triple Intervention that radicalized Japanese opinion.",
+      "wikiSlug": "Treaty_of_Shimonoseki",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-triple-intervention",
+      "label": "Triple Intervention",
+      "year": 1895,
+      "description": "Six days after Shimonoseki, Russia, France, and Germany forced Japan to return the Liaodong Peninsula to China. Russia then leased it for itself in 1898 and built the naval base at Port Arthur — the immediate provocation that produced the Russo-Japanese War nine years later.",
+      "wikiSlug": "Triple_Intervention",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-anglo-japanese-alliance",
+      "label": "Anglo-Japanese Alliance",
+      "year": 1902,
+      "description": "Signed January 30, 1902, the Anglo-Japanese Alliance was the first equal alliance between a European and an Asian power in modern history. Britain agreed to neutrality if Japan fought one power and intervention if Japan fought two — the diplomatic insurance that made the Russo-Japanese War possible.",
+      "wikiSlug": "Anglo-Japanese_Alliance",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russo-japanese-war",
+      "label": "Russo-Japanese War",
+      "year": 1904,
+      "endYear": 1905,
+      "description": "From February 1904 to September 1905, Japan defeated Imperial Russia in a war fought over Korea and Manchuria. The siege of Port Arthur, the Battle of Mukden (the largest land battle in history to that date), and the destruction of the Russian Baltic Fleet at Tsushima made Japan the first modern Asian power to defeat a European empire.",
+      "wikiSlug": "Russo-Japanese_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-port-arthur",
+      "label": "Siege of Port Arthur",
+      "year": 1904,
+      "endYear": 1905,
+      "description": "From August 1904 to January 1905, Japanese forces under General Nogi Maresuke besieged the Russian fortress at Port Arthur in Manchuria, taking it after roughly 60,000 Japanese casualties. Nogi lost both his sons in the siege; he committed suicide in 1912 to follow Emperor Meiji to the grave.",
+      "wikiSlug": "Siege_of_Port_Arthur",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-tsushima",
+      "label": "Battle of Tsushima",
+      "year": 1905,
+      "description": "On May 27–28, 1905, Admiral Togo Heihachiro destroyed the Russian Baltic Fleet in the Tsushima Strait between Japan and Korea, sinking or capturing 21 of 38 ships and losing only three torpedo boats. The most decisive naval engagement since Trafalgar — Japan's instant accession to great-power status.",
+      "wikiSlug": "Battle_of_Tsushima",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-admiral-togo",
+      "label": "Admiral Togo Heihachiro",
+      "year": 1848,
+      "endYear": 1934,
+      "description": "Admiral Togo Heihachiro, the Satsuma samurai who had trained in the British Royal Navy in the 1870s, commanded the Combined Fleet at the Yellow Sea (1904) and Tsushima (1905). Western press called him 'the Nelson of the East.' He lived to attend the 1922 Washington Naval Conference and to mentor an officer named Yamamoto Isoroku.",
+      "wikiSlug": "T%C5%8Dg%C5%8D_Heihachir%C5%8D",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "people"
+    },
+    {
+      "id": "evt-treaty-portsmouth",
+      "label": "Treaty of Portsmouth",
+      "year": 1905,
+      "description": "Mediated by US President Theodore Roosevelt at Portsmouth, New Hampshire, the September 1905 Treaty of Portsmouth ended the Russo-Japanese War. Japan got Korea, southern Sakhalin, and the Russian Liaodong lease, but no indemnity — triggering the Hibiya riots in Tokyo by nationalists who had expected more.",
+      "wikiSlug": "Treaty_of_Portsmouth",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-annex-korea",
+      "label": "Annexation of Korea",
+      "year": 1910,
+      "description": "After ten years of escalating control — protectorate (1905), residency-general under Ito Hirobumi, forced abdication of the Korean emperor (1907) — Japan formally annexed Korea on August 22, 1910, ending the 519-year Joseon dynasty. Thirty-five years of colonial rule followed, leaving wounds that still shape East Asian politics.",
+      "wikiSlug": "Japan%E2%80%93Korea_Treaty_of_1910",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ito-assassination",
+      "label": "Ito Hirobumi Assassinated",
+      "year": 1909,
+      "description": "On October 26, 1909, the Korean nationalist An Jung-geun shot and killed Ito Hirobumi at Harbin railway station in Manchuria. Ito was sixty-eight, traveling to meet a Russian envoy. His death removed the last senior voice for a softer Korea policy and accelerated formal annexation a year later.",
+      "wikiSlug": "Assassination_of_It%C5%8D_Hirobumi",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-meiji-death",
+      "label": "Death of Emperor Meiji",
+      "year": 1912,
+      "description": "Emperor Meiji died on July 30, 1912, aged fifty-nine, of complications from diabetes and uremia. His funeral procession in September was the first state ceremony broadcast by international press to the entire world. The era ended; the Taisho era began under his son.",
+      "wikiSlug": "Emperor_Meiji",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nogi-suicide",
+      "label": "General Nogi's Suicide",
+      "year": 1912,
+      "description": "On the evening of Emperor Meiji's funeral, September 13, 1912, General Nogi Maresuke and his wife Shizuko committed ritual junshi suicide at their Tokyo home — Nogi by seppuku, Shizuko by the dagger. Nogi had been waiting since 1877 to expiate the loss of a regimental banner at Kumamoto in the Satsuma Rebellion. Japan was shocked, divided, and finally moved.",
+      "wikiSlug": "Nogi_Maresuke",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-japanese-industrial-revolution",
+      "label": "Japanese Industrial Revolution",
+      "year": 1886,
+      "description": "From the late 1880s, Japanese industrial output surged: textile mills around Osaka, steelworks at Yawata (founded 1901, the first integrated mill in Asia), shipbuilding at Nagasaki and Kobe. By 1914 Japan was the world's largest silk exporter and the largest cotton-textile producer in Asia.",
+      "wikiSlug": "Japanese_industrial_revolution",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-yawata-steel",
+      "label": "Yawata Steel Works",
+      "year": 1901,
+      "description": "The Yawata Steel Works, opened in northern Kyushu in 1901 with German equipment, was the first integrated iron-and-steel mill in Asia. By 1913 it produced 80% of Japan's steel — a strategic asset deliberately built to make the navy and the railways independent of imports.",
+      "wikiSlug": "Yahata_Steel_Works",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mitsubishi",
+      "label": "Mitsubishi Founded",
+      "year": 1873,
+      "description": "Iwasaki Yataro, a low-rank Tosa samurai, founded Mitsubishi as a shipping company in 1873 — initially carrying government troops to put down samurai uprisings. Government contracts and discounted state assets turned it within a generation into a shipping, mining, banking, and shipbuilding empire.",
+      "wikiSlug": "Mitsubishi",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-treaty-revision",
+      "label": "Unequal Treaty Revision",
+      "year": 1899,
+      "description": "From 1894 (the Anglo-Japanese Commercial Treaty) through 1911, Japan negotiated the abolition of extraterritoriality and the recovery of full tariff autonomy from each Western power in turn. The thirty-year campaign to revise the unequal treaties — the original Meiji project — was finally complete on the eve of Emperor Meiji's death.",
+      "wikiSlug": "Unequal_treaty",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-japanese-emigration",
+      "label": "Meiji Emigration",
+      "year": 1885,
+      "description": "From 1885 the government licensed Japanese emigration, first to Hawaii's sugar plantations (sanctioned by the Hawaiian-Japanese Convention), then to California, Brazil, and Peru. Roughly 200,000 Japanese left for the Americas during the Meiji period, founding the diasporic communities that exist today.",
+      "wikiSlug": "Japanese_diaspora",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kokutai-ideology",
+      "label": "Kokutai National Essence",
+      "year": 1890,
+      "description": "Kokutai ('national essence' or 'national body') was the ideological doctrine asserting the unique sacred character of the Japanese state under an unbroken imperial line stretching back to the sun goddess Amaterasu. Codified in school textbooks after the Imperial Rescript on Education, it became the orthodoxy that the militarists of the 1930s would weaponize.",
+      "wikiSlug": "Kokutai",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    }
+  ]
+}

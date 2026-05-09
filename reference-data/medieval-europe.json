@@ -1,0 +1,872 @@
+{
+  "id": "medieval-europe",
+  "label": "Medieval Europe",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Middle_Ages",
+  "imageWikiSlug": "Notre-Dame_de_Paris",
+  "pitch": "From the deposition of the last western emperor in 476 to the printing press and Columbus in the 1490s, medieval Europe spans a thousand years that was neither dark nor static. Charlemagne briefly reassembled a Roman-shaped empire on Christmas Day 800; the Vikings raided, traded, and settled from Dublin to Kyiv; cathedrals climbed higher with flying buttresses and stained glass; universities were invented at Bologna and Paris; the Black Death killed a third of the continent; Joan of Arc rallied a broken France; and Constantinople finally fell to Ottoman cannons in 1453.\n\n🔑 Key Facts:\n• The Magna Carta (1215) established that even the king must obey the law, the seed of constitutional government\n• The agricultural revolution (heavy plow, three-field rotation, horse collar, watermills) more than doubled food production and powered the urban revival\n• The Hanseatic League linked Baltic and North Sea cities into a self-governing trading network from London to Novgorod\n• The Gutenberg printing press (c. 1450s) collapsed the cost of books and made the Reformation possible\n\n🤔 Why It Matters: Parliament, the jury trial, the university, the corporation, double-entry bookkeeping, the nation-state — most of the institutions of the modern West are medieval European inventions, not classical or Enlightenment ones.\n\n🎲 Wild Card: The Catholic Church never said the earth was flat — every educated medieval European knew it was a sphere, and Dante's Divine Comedy in 1320 maps Hell, Purgatory, and Paradise onto a perfectly spherical earth with the southern hemisphere as ocean. The flat-earth myth was invented by nineteenth-century writers trying to make medieval Christianity look stupid.",
+  "countryIds": [
+    "250",
+    "826",
+    "276",
+    "380",
+    "724"
+  ],
+  "spans": [
+    {
+      "id": "span-medieval-europe-late-antiquity",
+      "label": "Late Antiquity & Migration Period",
+      "startYear": 476,
+      "endYear": 800,
+      "wikiSlug": "Migration_Period",
+      "description": "Germanic kingdoms — Visigoths, Ostrogoths, Vandals, Franks, Lombards — replaced Roman provinces in the west. Justinian's Byzantine reconquest briefly restored Roman power in Italy and Africa before the Plague of Justinian and the Lombard invasion. Christianity spread from monasteries at Iona, Lindisfarne, and Monte Cassino, and Pope Gregory the Great dispatched Augustine of Canterbury to convert the English in 597."
+    },
+    {
+      "id": "span-medieval-europe-carolingian",
+      "label": "Carolingian Era",
+      "startYear": 800,
+      "endYear": 887,
+      "wikiSlug": "Carolingian_Empire",
+      "description": "Charlemagne was crowned Emperor of the Romans by Pope Leo III on Christmas Day 800, briefly reassembling most of western Christendom under a single Frankish ruler. The Carolingian Renaissance standardized Latin, copied classical texts in monasteries, and invented Carolingian minuscule — the script that became the basis of every later Roman typeface. The Treaty of Verdun (843) split the empire into the kingdoms that became France, Germany, and Italy."
+    },
+    {
+      "id": "span-medieval-europe-high-middle-ages",
+      "label": "High Middle Ages",
+      "startYear": 1000,
+      "endYear": 1300,
+      "wikiSlug": "High_Middle_Ages",
+      "description": "An agricultural revolution doubled European food production and powered an urban revival. The First Crusade took Jerusalem in 1099 and established Crusader states. Universities were founded at Bologna, Paris, Oxford, and Salamanca. Gothic cathedrals rose at Saint-Denis, Chartres, and Cologne. Magna Carta in 1215 limited royal power. Aquinas synthesized Aristotle with Christian theology. The Hanseatic League knit the Baltic into a single trading zone."
+    },
+    {
+      "id": "span-medieval-europe-late-middle-ages",
+      "label": "Late Middle Ages",
+      "startYear": 1300,
+      "endYear": 1453,
+      "wikiSlug": "Late_Middle_Ages",
+      "description": "The Black Death (1347–1351) killed roughly a third of Europe and broke the manorial labor system. The Hundred Years' War devastated France until Joan of Arc reversed it at Orléans in 1429. The Avignon Papacy and the Western Schism split the Church between rival popes. The Italian city-states began the early Renaissance under the Medici. The Ottoman Empire took Constantinople in 1453, ending the eastern Roman state."
+    },
+    {
+      "id": "span-medieval-europe-end-of-era",
+      "label": "End of an Era",
+      "startYear": 1453,
+      "endYear": 1500,
+      "wikiSlug": "Renaissance",
+      "description": "The Gutenberg press collapsed book prices in the 1450s and 1460s. The Reconquista completed at Granada in 1492. Columbus reached the Caribbean later the same year. By 1500 the central institutions of medieval Europe — the cathedral, the manor, the universal church, the scholastic university — were giving way to the printing press, the nation-state, and the early modern world."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-fall-romulus-augustulus",
+      "label": "Romulus Augustulus Deposed",
+      "year": 476,
+      "description": "The Germanic general Odoacer deposed the teenage emperor Romulus Augustulus and sent the western imperial regalia to Constantinople, the conventional end-date of the Western Roman Empire and the conventional start-date of medieval Europe.",
+      "wikiSlug": "Romulus_Augustulus",
+      "tier": 1,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-clovis-baptism",
+      "label": "Clovis Baptized",
+      "year": 496,
+      "description": "Clovis I, king of the Franks, was baptized as a Catholic Christian around 496, choosing Roman Catholicism over the Arian Christianity of his Germanic neighbors and laying the religious foundation of the future kingdom of France.",
+      "wikiSlug": "Clovis_I",
+      "tier": 2,
+      "tags": ["religion", "people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-theodoric-italy",
+      "label": "Theodoric the Great",
+      "year": 493,
+      "endYear": 526,
+      "description": "Theodoric the Great ruled Italy as Ostrogothic king from 493 to 526, governing competently through Roman institutions and employing Roman bureaucrats including the philosopher Boethius — until he had Boethius executed for treason.",
+      "wikiSlug": "Theodoric_the_Great",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-boethius-consolation",
+      "label": "Boethius's Consolation",
+      "year": 524,
+      "description": "Boethius wrote The Consolation of Philosophy in prison while awaiting execution by Theodoric. It became the most widely read philosophical work of the Middle Ages, translated into every European vernacular.",
+      "wikiSlug": "The_Consolation_of_Philosophy",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-benedict-of-nursia",
+      "label": "Benedict of Nursia",
+      "year": 529,
+      "description": "Benedict of Nursia founded the abbey of Monte Cassino around 529 and wrote the Rule of Saint Benedict, which became the template for monastic life in western Europe for the next thousand years.",
+      "wikiSlug": "Benedict_of_Nursia",
+      "tier": 2,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-justinian-reconquest",
+      "label": "Justinian's Reconquest",
+      "year": 533,
+      "endYear": 554,
+      "description": "Eastern Roman armies under Belisarius and Narses reconquered North Africa from the Vandals (533–534) and Italy from the Ostrogoths (535–554), briefly restoring Roman rule in the western Mediterranean before the Lombard invasion of 568 unraveled most of it.",
+      "wikiSlug": "Wars_of_Justinian_I",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-plague-justinian",
+      "label": "Plague of Justinian",
+      "year": 541,
+      "description": "Bubonic plague arrived in Constantinople in 541 and swept the Mediterranean in waves over two centuries, killing an estimated quarter of the eastern Mediterranean's population in the first wave and permanently weakening the late-antique state.",
+      "wikiSlug": "Plague_of_Justinian",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-lombard-invasion",
+      "label": "Lombard Invasion of Italy",
+      "year": 568,
+      "description": "The Lombards, the last Germanic people to migrate into the former Western Empire, invaded Italy in 568 and within four years held everything north of Rome and Ravenna, undoing most of Justinian's reconquest.",
+      "wikiSlug": "Lombards",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gregory-the-great",
+      "label": "Gregory the Great",
+      "year": 590,
+      "endYear": 604,
+      "description": "Pope Gregory I, the most consequential pope of the early medieval period, reorganized the western church, dispatched the Augustine mission to convert the Anglo-Saxons in 597, and established the model of papal authority over the Latin west.",
+      "wikiSlug": "Pope_Gregory_I",
+      "tier": 2,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-augustine-canterbury",
+      "label": "Augustine of Canterbury",
+      "year": 597,
+      "description": "Pope Gregory the Great sent the monk Augustine and forty companions to Britain in 596–597 to convert the pagan Anglo-Saxon kingdoms, beginning the Christianization of England and founding the see of Canterbury.",
+      "wikiSlug": "Augustine_of_Canterbury",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-iona-monastery",
+      "label": "Iona and Lindisfarne",
+      "year": 563,
+      "description": "Columba founded the monastery on the Scottish island of Iona in 563; Aidan founded Lindisfarne off the Northumbrian coast in 635. The two became the engines of Celtic Christian missionary work across northern Britain.",
+      "wikiSlug": "Iona_Abbey",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-charles-martel-tours",
+      "label": "Charles Martel at Tours",
+      "year": 732,
+      "description": "Charles Martel, the Frankish mayor of the palace, defeated an Umayyad Arab raiding force at the Battle of Tours in 732, conventionally regarded as the high-water mark of Muslim expansion into western Europe.",
+      "wikiSlug": "Battle_of_Tours",
+      "tier": 2,
+      "tags": ["wars", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-iconoclasm-controversy",
+      "label": "Iconoclasm Controversy",
+      "year": 726,
+      "description": "Byzantine emperor Leo III banned religious images in 726, beginning the Iconoclasm controversy that opened a deep theological rift with the Latin west, where popes continued to defend the use of icons.",
+      "wikiSlug": "Byzantine_Iconoclasm",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pippin-donation",
+      "label": "Donation of Pippin",
+      "year": 756,
+      "description": "Pippin the Short, Charles Martel's son and the first Carolingian king, donated conquered central Italian territory to Pope Stephen II in 756, creating the Papal States that would survive until 1870.",
+      "wikiSlug": "Donation_of_Pepin",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-charlemagne-coronation",
+      "label": "Charlemagne Crowned Emperor",
+      "year": 800,
+      "description": "Pope Leo III crowned Charlemagne Emperor of the Romans in St. Peter's Basilica on Christmas Day 800, the first time a Roman imperial title had been conferred in the west since 476 and the founding gesture of the medieval idea of a Christian Roman empire under the pope.",
+      "wikiSlug": "Coronation_of_Charlemagne",
+      "tier": 1,
+      "tags": ["religion", "rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-charlemagne-rule",
+      "label": "Charlemagne",
+      "year": 768,
+      "endYear": 814,
+      "description": "Charlemagne ruled the Franks from 768 to 814, reassembling most of western Christendom under a single Frankish kingdom, sponsoring the Carolingian Renaissance, and creating the institutional template every later European empire would imitate.",
+      "wikiSlug": "Charlemagne",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-carolingian-renaissance",
+      "label": "Carolingian Renaissance",
+      "year": 780,
+      "description": "Under Charlemagne and his successors, scholars at the Aachen palace school led by Alcuin of York standardized Latin, copied classical and Christian texts in monastery scriptoria, and developed Carolingian minuscule — the script that became the basis of every later Roman typeface.",
+      "wikiSlug": "Carolingian_Renaissance",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-treaty-verdun",
+      "label": "Treaty of Verdun",
+      "year": 843,
+      "description": "The three surviving grandsons of Charlemagne divided his empire by the Treaty of Verdun in 843 into West Francia (the future France), East Francia (the future Germany), and Middle Francia (a contested strip running from the Low Countries to Italy), the inheritance dispute that shaped the political map of Europe for the next millennium.",
+      "wikiSlug": "Treaty_of_Verdun",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-viking-raids-begin",
+      "label": "Viking Raids Begin",
+      "year": 793,
+      "description": "The Viking sack of the Lindisfarne monastery in 793 conventionally marks the start of the Viking Age in western Europe — three centuries of Scandinavian raiding, trading, and settlement that reshaped Britain, Ireland, France, and the lands east to Kyiv.",
+      "wikiSlug": "Vikings",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-danelaw",
+      "label": "The Danelaw",
+      "year": 878,
+      "description": "After Alfred the Great defeated the Viking Guthrum at Edington in 878, the resulting treaty divided England into Anglo-Saxon Wessex and Danish-ruled Danelaw, formalizing a Scandinavian zone in eastern England that left lasting imprints on English place names, law, and vocabulary.",
+      "wikiSlug": "Danelaw",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-alfred-great",
+      "label": "Alfred the Great",
+      "year": 871,
+      "endYear": 899,
+      "description": "Alfred, king of Wessex from 871 to 899, was the only Anglo-Saxon king to defeat the Vikings, codify English law, organize a defensive system of fortified burhs, and personally translate Latin classics into Old English.",
+      "wikiSlug": "Alfred_the_Great",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-rus-founded",
+      "label": "Rus' Founded",
+      "year": 862,
+      "description": "Scandinavian traders and warriors known as the Rus' established a polity centered on Novgorod and then Kyiv in the late ninth century, the founding of the medieval state that became the ancestor of Russia, Belarus, and Ukraine.",
+      "wikiSlug": "Kievan_Rus%27",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-otto-i-empire",
+      "label": "Otto I Crowned Emperor",
+      "year": 962,
+      "description": "Otto I of Saxony was crowned emperor by Pope John XII in Rome on February 2, 962, founding the Holy Roman Empire as a continuous institution that would survive until Napoleon dissolved it in 1806.",
+      "wikiSlug": "Otto_I,_Holy_Roman_Emperor",
+      "tier": 2,
+      "tags": ["rulers", "religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cluny-reform",
+      "label": "Cluny Founded",
+      "year": 910,
+      "description": "The abbey of Cluny in Burgundy, founded in 910, became the headquarters of the most important monastic reform movement of the central Middle Ages, eventually overseeing more than a thousand daughter houses across western Europe.",
+      "wikiSlug": "Cluny_Abbey",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-agricultural-revolution",
+      "label": "Medieval Agricultural Revolution",
+      "year": 1000,
+      "description": "Between roughly 900 and 1200, four innovations — the heavy mouldboard plow, the three-field crop rotation, the rigid horse collar, and watermills — more than doubled European food production and powered the urban revival of the High Middle Ages.",
+      "wikiSlug": "Medieval_Agricultural_Revolution",
+      "tier": 1,
+      "tags": ["trade"],
+      "category": "science"
+    },
+    {
+      "id": "evt-feudalism",
+      "label": "Feudalism",
+      "year": 1000,
+      "description": "Feudalism — the layered system of land grants in exchange for military service, formalized lord-vassal oaths, and seigneurial control over peasant labor on the manor — defined the political and economic structure of much of western Europe between roughly 900 and 1300.",
+      "wikiSlug": "Feudalism",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-leif-erikson-vinland",
+      "label": "Leif Erikson Reaches Vinland",
+      "year": 1000,
+      "description": "Around 1000, the Norse explorer Leif Erikson sailed from Greenland to a coast he called Vinland, almost certainly the site at L'Anse aux Meadows on Newfoundland — the first attested European arrival in the Americas, nearly five centuries before Columbus.",
+      "wikiSlug": "Leif_Erikson",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-great-schism",
+      "label": "Great Schism of 1054",
+      "year": 1054,
+      "description": "Mutual excommunications exchanged between the papal legate Cardinal Humbert and the Patriarch Michael Cerularius in Hagia Sophia formalized the split between the Roman Catholic and Eastern Orthodox churches that has not been healed since.",
+      "wikiSlug": "East%E2%80%93West_Schism",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-hastings",
+      "label": "Battle of Hastings",
+      "year": 1066,
+      "description": "Norman cavalry under William the Conqueror defeated King Harold II's Anglo-Saxon army at Hastings on October 14, 1066, ending Anglo-Saxon rule in England and transplanting a French-speaking aristocracy that reshaped English law, language, and landholding.",
+      "wikiSlug": "Battle_of_Hastings",
+      "tier": 1,
+      "tags": ["rulers"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-william-conqueror",
+      "label": "William the Conqueror",
+      "year": 1066,
+      "endYear": 1087,
+      "description": "William, Duke of Normandy, conquered England in 1066 and ruled until his death in 1087, building the Tower of London, commissioning the Domesday Book, and establishing Norman feudalism in England.",
+      "wikiSlug": "William_the_Conqueror",
+      "tier": 2,
+      "tags": ["people", "wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-domesday-book",
+      "label": "Domesday Book",
+      "year": 1086,
+      "description": "William the Conqueror's commissioners surveyed nearly every landholding in England in 1085–1086 and recorded the results in the Domesday Book, the most detailed administrative survey produced anywhere in medieval Europe.",
+      "wikiSlug": "Domesday_Book",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-investiture-controversy",
+      "label": "Investiture Controversy",
+      "year": 1076,
+      "description": "Pope Gregory VII and Holy Roman Emperor Henry IV fought a long contest over who could appoint bishops, climaxing in Henry's barefoot penance in the snow at Canossa in 1077 and the Concordat of Worms in 1122, which established the papacy as a power independent of secular rulers.",
+      "wikiSlug": "Investiture_Controversy",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-first-crusade",
+      "label": "First Crusade",
+      "year": 1096,
+      "endYear": 1099,
+      "description": "Pope Urban II preached the First Crusade at Clermont in November 1095; armies of European knights captured Jerusalem on July 15, 1099, established the Crusader states, and inaugurated four centuries of European intervention in the eastern Mediterranean.",
+      "wikiSlug": "First_Crusade",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-urban-clermont",
+      "label": "Urban II at Clermont",
+      "year": 1095,
+      "description": "Pope Urban II's sermon at the Council of Clermont on November 27, 1095, called western Christians to liberate Jerusalem from Muslim rule, launching the Crusades and reshaping the relationship between the papacy and European warfare.",
+      "wikiSlug": "Council_of_Clermont",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-crusader-states",
+      "label": "Crusader States",
+      "year": 1099,
+      "endYear": 1291,
+      "description": "Four Crusader states — the Kingdom of Jerusalem, the Principality of Antioch, the County of Edessa, and the County of Tripoli — were established in the Levant after the First Crusade and survived in increasingly reduced form until the fall of Acre in 1291.",
+      "wikiSlug": "Crusader_states",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-second-crusade",
+      "label": "Second Crusade",
+      "year": 1147,
+      "description": "Launched by Pope Eugene III after the Muslim recapture of the County of Edessa in 1144, the Second Crusade ended in failure at the siege of Damascus in 1148, weakening Crusader prestige in the Holy Land.",
+      "wikiSlug": "Second_Crusade",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-third-crusade",
+      "label": "Third Crusade",
+      "year": 1189,
+      "endYear": 1192,
+      "description": "Richard the Lionheart of England, Philip II of France, and Frederick Barbarossa of the Holy Roman Empire led the Third Crusade against Saladin after Jerusalem fell in 1187, achieving only a truce that allowed Christian pilgrims access to the city.",
+      "wikiSlug": "Third_Crusade",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-fourth-crusade",
+      "label": "Sack of Constantinople 1204",
+      "year": 1204,
+      "description": "The Fourth Crusade, diverted by Venetian financing and dynastic intrigue, sacked Christian Constantinople on April 13, 1204, installed a Latin emperor, and broke the Byzantine state for fifty-seven years.",
+      "wikiSlug": "Fourth_Crusade",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-reconquista",
+      "label": "Reconquista",
+      "year": 1085,
+      "endYear": 1492,
+      "description": "The long Christian reconquest of the Iberian peninsula from Muslim rule, conventionally beginning with the capture of Toledo in 1085 and ending with the fall of Granada to Ferdinand and Isabella on January 2, 1492.",
+      "wikiSlug": "Reconquista",
+      "tier": 2,
+      "tags": ["religion", "wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-toledo-translation",
+      "label": "Toledo Translation Movement",
+      "year": 1150,
+      "description": "After the Christian reconquest of Toledo in 1085, the city's surviving Arabic libraries became the principal channel through which Aristotle, Greek mathematics, Indian numerals, and the work of Islamic scholars like Avicenna and Averroes were translated into Latin and absorbed into European intellectual life.",
+      "wikiSlug": "Toledo_School_of_Translators",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-saint-denis-gothic",
+      "label": "Saint-Denis Begun",
+      "year": 1140,
+      "description": "Abbot Suger began rebuilding the choir of the abbey church of Saint-Denis outside Paris in 1140 with pointed arches, ribbed vaults, and large stained-glass windows, the conventional birth of Gothic architecture.",
+      "wikiSlug": "Basilica_of_Saint-Denis",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-notre-dame-paris",
+      "label": "Notre-Dame de Paris",
+      "year": 1163,
+      "description": "Construction of the Gothic cathedral of Notre-Dame de Paris began in 1163 under Bishop Maurice de Sully and continued for nearly two centuries, becoming the most famous example of medieval French Gothic.",
+      "wikiSlug": "Notre-Dame_de_Paris",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-chartres-cathedral",
+      "label": "Chartres Cathedral",
+      "year": 1194,
+      "description": "After fire destroyed most of the older church in 1194, Chartres Cathedral was rebuilt in the next quarter-century with revolutionary High Gothic engineering and a stained-glass program that survives largely intact.",
+      "wikiSlug": "Chartres_Cathedral",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cologne-cathedral",
+      "label": "Cologne Cathedral Begun",
+      "year": 1248,
+      "description": "Construction of Cologne Cathedral began in 1248 to house the relics of the Three Magi; the building was abandoned in the sixteenth century and not completed until the nineteenth, with the original medieval plans rediscovered and followed.",
+      "wikiSlug": "Cologne_Cathedral",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-university-bologna",
+      "label": "University of Bologna",
+      "year": 1088,
+      "description": "The University of Bologna, conventionally dated to 1088, was the first studium generale in Europe — a guild of students who hired their own professors, fined them for showing up late, and founded the institutional model of the medieval university.",
+      "wikiSlug": "University_of_Bologna",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-university-paris",
+      "label": "University of Paris",
+      "year": 1150,
+      "description": "The University of Paris emerged in the mid-twelfth century as Europe's leading center of theology and philosophy, organized as a corporation of masters and recognized by Pope Innocent III in 1215.",
+      "wikiSlug": "University_of_Paris",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-university-oxford",
+      "label": "University of Oxford",
+      "year": 1167,
+      "description": "Teaching at Oxford grew into a formal university after Henry II banned English students from studying at Paris in 1167; Oxford and its Cambridge offshoot became the dominant English-language universities of the Middle Ages.",
+      "wikiSlug": "University_of_Oxford",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-thomas-aquinas",
+      "label": "Thomas Aquinas",
+      "year": 1225,
+      "endYear": 1274,
+      "description": "The Dominican friar Thomas Aquinas synthesized Aristotelian philosophy with Christian theology in the Summa Theologiae (begun 1265), the masterwork of high medieval scholasticism and the official philosophical framework of Catholic theology to this day.",
+      "wikiSlug": "Thomas_Aquinas",
+      "tier": 1,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-abelard-heloise",
+      "label": "Abelard and Heloise",
+      "year": 1117,
+      "description": "Peter Abelard, the most controversial logician of the early twelfth century, taught the brilliant Heloise in Paris around 1117, fathered her child, was castrated by her uncle's hired men, and lived out his life in monastic exile while their letters became one of the great romantic correspondences in European literature.",
+      "wikiSlug": "Peter_Abelard",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-francis-of-assisi",
+      "label": "Francis of Assisi",
+      "year": 1209,
+      "description": "Francis of Assisi founded the Franciscan Order in 1209, embracing voluntary poverty, preaching to ordinary people in their own languages, and becoming one of the most beloved figures in Christian history.",
+      "wikiSlug": "Francis_of_Assisi",
+      "tier": 2,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-eleanor-aquitaine",
+      "label": "Eleanor of Aquitaine",
+      "year": 1122,
+      "endYear": 1204,
+      "description": "Eleanor of Aquitaine, queen of France and then queen of England, was the most politically powerful woman in twelfth-century Europe, mother of Richard the Lionheart and King John, and patron of the courtly love tradition that reshaped European literature.",
+      "wikiSlug": "Eleanor_of_Aquitaine",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-frederick-barbarossa",
+      "label": "Frederick Barbarossa",
+      "year": 1155,
+      "endYear": 1190,
+      "description": "Frederick I Barbarossa, Holy Roman Emperor from 1155, fought five Italian campaigns to assert imperial authority over the Lombard cities and drowned in 1190 crossing a river in Anatolia on the Third Crusade.",
+      "wikiSlug": "Frederick_Barbarossa",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-magna-carta",
+      "label": "Magna Carta",
+      "year": 1215,
+      "description": "Forced on King John of England by rebellious barons at Runnymede on June 15, 1215, Magna Carta established that the king was bound by law, that no free man could be imprisoned without lawful judgment, and that taxation required consent — the foundational text of the English constitutional tradition.",
+      "wikiSlug": "Magna_Carta",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-king-john-england",
+      "label": "King John",
+      "year": 1199,
+      "endYear": 1216,
+      "description": "John, king of England from 1199 to 1216, lost most of the English crown's continental possessions to Philip II of France, quarreled with Pope Innocent III, and was forced by his barons to seal Magna Carta in 1215.",
+      "wikiSlug": "John,_King_of_England",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-louis-ix-france",
+      "label": "Louis IX",
+      "year": 1226,
+      "endYear": 1270,
+      "description": "Louis IX of France led two crusades, codified French law, founded the Sainte-Chapelle to house the Crown of Thorns, and was canonized as Saint Louis in 1297 — the only French king to be made a saint.",
+      "wikiSlug": "Louis_IX_of_France",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mongol-hungary-1241",
+      "label": "Mongol Invasion of Hungary",
+      "year": 1241,
+      "description": "A Mongol army under Batu Khan and Subutai destroyed the Hungarian royal army at the Battle of Mohi on April 11, 1241, devastated central Europe, and turned back the next year only because of the death of the Great Khan Ögedei.",
+      "wikiSlug": "Mongol_invasion_of_Europe",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hanseatic-league",
+      "label": "Hanseatic League",
+      "year": 1241,
+      "description": "Lübeck and Hamburg signed a mutual defense agreement in 1241 that grew into the Hanseatic League, a self-governing trading network of more than a hundred north German and Baltic cities that dominated North Sea and Baltic commerce for the next three centuries.",
+      "wikiSlug": "Hanseatic_League",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-champagne-fairs",
+      "label": "Champagne Fairs",
+      "year": 1180,
+      "description": "Six annual fairs in the Champagne region of northern France became the principal commercial meeting point of medieval Europe between roughly 1150 and 1300, where Italian merchants exchanged silk, spices, and Mediterranean goods for Flemish cloth and northern raw materials.",
+      "wikiSlug": "Champagne_fairs",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-italian-banking",
+      "label": "Italian Banking",
+      "year": 1250,
+      "description": "Florentine and Sienese banking houses — the Bardi, the Peruzzi, and later the Medici — invented bills of exchange, double-entry bookkeeping, and the international branch banking that financed the kings and popes of Europe and made Florence the financial capital of the late Middle Ages.",
+      "wikiSlug": "History_of_banking",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-marco-polo",
+      "label": "Marco Polo",
+      "year": 1271,
+      "endYear": 1295,
+      "description": "The Venetian merchant Marco Polo traveled overland to the Mongol court of Kublai Khan in 1271, spent seventeen years in China, and on his return dictated The Travels of Marco Polo — the most influential European description of Asia for the next two centuries.",
+      "wikiSlug": "Marco_Polo",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-spinning-wheel",
+      "label": "Spinning Wheel in Europe",
+      "year": 1280,
+      "description": "The spinning wheel arrived in Europe from the Islamic world in the late thirteenth century, dramatically increasing textile production by making yarn-spinning roughly three times faster than the older drop spindle.",
+      "wikiSlug": "Spinning_wheel",
+      "tier": 3,
+      "tags": ["trade"],
+      "category": "science"
+    },
+    {
+      "id": "evt-dante-comedy",
+      "label": "Dante's Divine Comedy",
+      "year": 1308,
+      "endYear": 1320,
+      "description": "Dante Alighieri began The Divine Comedy around 1308 and finished it shortly before his death in 1321, writing the epic in vernacular Italian rather than Latin and effectively founding modern Italian literature.",
+      "wikiSlug": "Divine_Comedy",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-avignon-papacy",
+      "label": "Avignon Papacy",
+      "year": 1309,
+      "endYear": 1377,
+      "description": "Pope Clement V relocated the papal court to Avignon in 1309 under French royal pressure; seven popes ruled from Avignon until Gregory XI returned to Rome in 1377, beginning the papacy's long credibility crisis.",
+      "wikiSlug": "Avignon_Papacy",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-western-schism",
+      "label": "Western Schism",
+      "year": 1378,
+      "endYear": 1417,
+      "description": "From 1378 to 1417, two and at one point three rival popes claimed the throne of Saint Peter simultaneously, splitting Latin Christendom and ending only at the Council of Constance in 1417.",
+      "wikiSlug": "Western_Schism",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hundred-years-war",
+      "label": "Hundred Years' War",
+      "year": 1337,
+      "endYear": 1453,
+      "description": "England and France fought a series of related conflicts from 1337 to 1453 over the French succession and English continental holdings, a war that introduced the longbow, the cannon, professional standing armies, and the early forms of national identity.",
+      "wikiSlug": "Hundred_Years%27_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-crecy",
+      "label": "Battle of Crécy",
+      "year": 1346,
+      "description": "English longbowmen under Edward III destroyed the French chivalric cavalry at the Battle of Crécy on August 26, 1346, demonstrating that disciplined infantry firepower could break the mounted knight and changing European warfare.",
+      "wikiSlug": "Battle_of_Cr%C3%A9cy",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-black-death",
+      "label": "Black Death",
+      "year": 1347,
+      "endYear": 1351,
+      "description": "Bubonic plague spread from Mongol-besieged Caffa across Europe between 1347 and 1351, killing roughly a third of the continent's population in four years and permanently shattering the manorial labor system, the church's spiritual authority, and the social structure of medieval Europe.",
+      "wikiSlug": "Black_Death",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-jacquerie",
+      "label": "The Jacquerie",
+      "year": 1358,
+      "description": "French peasants rose against their lords in the Île-de-France region in May–June 1358, one of the largest peasant revolts of the Middle Ages, before being crushed by the assembled French nobility.",
+      "wikiSlug": "Jacquerie",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-peasants-revolt",
+      "label": "English Peasants' Revolt",
+      "year": 1381,
+      "description": "Led by Wat Tyler and the radical priest John Ball, English peasants and townsmen marched on London in June 1381 to protest the poll tax and serfdom; the revolt was suppressed but the poll tax was abandoned.",
+      "wikiSlug": "Peasants%27_Revolt",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-canterbury-tales",
+      "label": "Chaucer's Canterbury Tales",
+      "year": 1387,
+      "description": "Geoffrey Chaucer began The Canterbury Tales around 1387, a collection of stories told by pilgrims traveling to Thomas Becket's shrine that became the founding masterpiece of English vernacular literature.",
+      "wikiSlug": "The_Canterbury_Tales",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-wycliffe-hus",
+      "label": "Wycliffe and Hus",
+      "year": 1380,
+      "description": "John Wycliffe in England (d. 1384) and Jan Hus in Bohemia (burned at Constance in 1415) preached against papal authority, clerical wealth, and the church's monopoly on scripture, anticipating the sixteenth-century Reformation by more than a century.",
+      "wikiSlug": "John_Wycliffe",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-joan-of-arc",
+      "label": "Joan of Arc at Orléans",
+      "year": 1429,
+      "description": "A teenage peasant girl from Domrémy claiming to hear divine voices led French troops to break the English siege of Orléans on May 8, 1429, reversed the trajectory of the Hundred Years' War, and was burned at the stake by an English-controlled court in 1431.",
+      "wikiSlug": "Joan_of_Arc",
+      "tier": 1,
+      "tags": ["people", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-castillon",
+      "label": "Battle of Castillon",
+      "year": 1453,
+      "description": "French artillery destroyed the last major English army in France at the Battle of Castillon on July 17, 1453, ending the Hundred Years' War and leaving England with only Calais on the continent.",
+      "wikiSlug": "Battle_of_Castillon",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medici-florence",
+      "label": "Medici of Florence",
+      "year": 1434,
+      "description": "Cosimo de' Medici returned from exile to take effective control of Florence in 1434 and his family ruled — through the Medici Bank, papal alliances, and patronage of Brunelleschi, Donatello, and Botticelli — for most of the next three centuries, financing the early Italian Renaissance.",
+      "wikiSlug": "House_of_Medici",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-fall-constantinople",
+      "label": "Fall of Constantinople",
+      "year": 1453,
+      "description": "Ottoman cannons under Sultan Mehmed II breached the Theodosian Walls of Constantinople on May 29, 1453, ending the Roman Empire after 1,123 continuous years and sending Greek scholars fleeing west to Italy with the manuscripts that fueled the Renaissance.",
+      "wikiSlug": "Fall_of_Constantinople",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gutenberg-press",
+      "label": "Gutenberg Printing Press",
+      "year": 1450,
+      "description": "Johannes Gutenberg in Mainz developed movable-type printing in the 1440s; his 42-line Bible appeared around 1455. By 1500, presses had been set up in more than 200 European cities and had printed perhaps 20 million books, collapsing the cost of writing and making the Reformation possible.",
+      "wikiSlug": "Printing_press",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-reconquista-granada",
+      "label": "Fall of Granada",
+      "year": 1492,
+      "description": "Ferdinand of Aragon and Isabella of Castile accepted the surrender of the last Muslim ruler of Granada, Boabdil, on January 2, 1492, completing the 781-year Reconquista of the Iberian peninsula.",
+      "wikiSlug": "Granada_War",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-columbus-1492",
+      "label": "Columbus Reaches America",
+      "year": 1492,
+      "description": "Christopher Columbus, sailing under Castilian patronage, made landfall on a Bahamian island on October 12, 1492, opening the Atlantic exchange between Europe, Africa, and the Americas and conventionally marking the end of the Middle Ages.",
+      "wikiSlug": "Voyages_of_Christopher_Columbus",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jewish-expulsion-1492",
+      "label": "Spanish Jewish Expulsion",
+      "year": 1492,
+      "description": "The Alhambra Decree of March 31, 1492, ordered all Jews to convert or leave the kingdoms of Castile and Aragon by July 31, ending one of the largest and most culturally productive Jewish communities in medieval Europe.",
+      "wikiSlug": "Alhambra_Decree",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    }
+  ]
+}

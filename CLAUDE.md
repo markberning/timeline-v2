@@ -122,26 +122,27 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 - **The informal voice is the product** — don't sand it down
 
 ## Civilization Roadmap
-56 of 91 navigator TLs shipped. Narratives follow chain order from `reference-data/tl-chains.ts`.
+65 of 93 navigator TLs shipped. Narratives follow chain order from `reference-data/tl-chains.ts`. (medieval-europe omnibus split into 3 separate TLs — early/high/late.)
 
 **Mesopotamian Succession:** ✅ mesopotamia (13 ch) · ✅ assyrian-empire (8 ch) · ✅ islamic-golden-age (10 ch)
-**Indian Subcontinent:** ✅ indus-valley (10 ch) · ✅ vedic-period (8 ch) · ✅ maurya-empire (8 ch) · ✅ post-maurya-kingdoms (8 ch) · ✅ gupta-empire (8 ch) · ✅ medieval-india (8 ch) · delhi-sultanate · mughal-empire · modern-india
-**Chinese Dynasties:** ✅ ancient-china (8 ch) · ✅ shang-dynasty (8 ch) · ✅ zhou-dynasty (9 ch) · ✅ qin-dynasty (8 ch) · ✅ han-dynasty (8 ch) · ✅ six-dynasties (8 ch) · ✅ tang-song-china (9 ch) · yuan-dynasty · ming-dynasty · qing-dynasty · chinese-revolution · rise-of-china
+**Indian Subcontinent:** ✅ indus-valley (10 ch) · ✅ vedic-period (8 ch) · ✅ maurya-empire (8 ch) · ✅ post-maurya-kingdoms (8 ch) · ✅ gupta-empire (8 ch) · ✅ medieval-india (8 ch) · ✅ delhi-sultanate (8 ch) · mughal-empire · modern-india
+**Chinese Dynasties:** ✅ ancient-china (8 ch) · ✅ shang-dynasty (8 ch) · ✅ zhou-dynasty (9 ch) · ✅ qin-dynasty (8 ch) · ✅ han-dynasty (8 ch) · ✅ six-dynasties (8 ch) · ✅ tang-song-china (9 ch) · ✅ yuan-dynasty (8 ch) · ming-dynasty · qing-dynasty · chinese-revolution · rise-of-china
 **Nile Valley:** ✅ early-dynastic-egypt (8 ch) · ✅ old-kingdom-egypt (8 ch) · ✅ new-kingdom-egypt (9 ch) · ✅ late-egypt (8 ch)
 **Nubian Tradition:** ✅ ancient-nubia (8 ch) · ✅ kingdom-of-kush (8 ch) · ✅ kingdom-of-aksum (8 ch)
-**West African Empires:** ✅ mali-empire (8 ch) · songhai-empire
+**West African Empires:** ✅ mali-empire (8 ch) · ✅ songhai-empire (8 ch)
 **Persian Tradition:** ✅ elamite-civilization (8 ch) · ✅ persian-empire (10 ch) · ✅ safavid-persia (8 ch)
-**Andean:** ✅ early-andean-civilizations (8 ch) · ✅ andean-kingdoms (8 ch) · ✅ middle-horizon-empires (8 ch) · inca-empire
+**Andean:** ✅ early-andean-civilizations (8 ch) · ✅ andean-kingdoms (8 ch) · ✅ middle-horizon-empires (8 ch) · ✅ inca-empire (8 ch)
 **Mesoamerican:** ✅ olmec-civilization (8 ch) · ✅ maya-civilization (8 ch) · ✅ zapotec-civilization (8 ch) · ✅ teotihuacan (8 ch) · ✅ aztec-empire (8 ch)
 **Greco-Roman:** ✅ minoan-civilization (8 ch) · ✅ mycenaean-civilization (8 ch) · ✅ ancient-greece (8 ch) · ✅ ancient-rome (10 ch) · ✅ byzantine-empire (12 ch)
+**Western European:** ✅ early-medieval-europe (8 ch) · ✅ high-medieval-europe (8 ch) · ✅ late-medieval-europe (8 ch) · al-andalus · renaissance-italy · scientific-revolution · enlightenment · industrial-revolution
 **Korean Civilization:** ✅ ancient-korea (8 ch) · ✅ joseon-korea (8 ch) · korean-modern
 **Anatolian Succession:** ✅ hittite-empire (8 ch) · ✅ ottoman-empire (12 ch)
-**Central Asian Steppe:** ✅ scythians (8 ch) · ✅ xiongnu-huns (8 ch) · ✅ gokturk-khaganate (8 ch) · ✅ mongol-empire (9 ch) · timurid-empire
+**Central Asian Steppe:** ✅ scythians (8 ch) · ✅ xiongnu-huns (8 ch) · ✅ gokturk-khaganate (8 ch) · ✅ mongol-empire (9 ch) · ✅ timurid-empire (8 ch)
 **Northern European:** ✅ celtic-cultures (8 ch) · ✅ viking-age (8 ch)
-**Japanese Civilization:** ✅ ancient-japan (8 ch) · ✅ edo-japan (8 ch) · meiji-japan
+**Japanese Civilization:** ✅ ancient-japan (8 ch) · ✅ edo-japan (8 ch) · ✅ meiji-japan (8 ch) · japanese-economic-miracle
 **Standalone:** ✅ phoenicia (8 ch) · ✅ polynesian-voyagers (8 ch) · ✅ ancient-israel (8 ch) · ✅ carthage (8 ch)
 
-**Maps pending Gemini generation:** umayyad-caliphate, gupta-empire, byzantine-empire, aztec-empire, viking-age, mongol-empire, islamic-golden-age, ottoman-empire, safavid-persia, medieval-india, tang-song-china, edo-japan, joseon-korea, middle-horizon-empires, mali-empire, gokturk-khaganate
+**Maps pending Gemini generation:** umayyad-caliphate, gupta-empire, byzantine-empire, aztec-empire, viking-age, mongol-empire, islamic-golden-age, ottoman-empire, safavid-persia, medieval-india, tang-song-china, edo-japan, joseon-korea, middle-horizon-empires, mali-empire, gokturk-khaganate, delhi-sultanate, yuan-dynasty, meiji-japan, inca-empire, songhai-empire, timurid-empire, early-medieval-europe, high-medieval-europe, late-medieval-europe
 
 ## Color System
 - **Region-driven accent colors** in `src/lib/accent-colors.ts`: Near East = amber `#d97706`, Africa = rust `#b44d3b`, Asia = violet `#7c3aed`, Europe = blue `#1d4ed8`, Americas = green `#047857`.

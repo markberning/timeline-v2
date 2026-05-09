@@ -1,0 +1,294 @@
+{
+  "1": [
+    {
+      "eventId": "evt-lme-little-ice-age",
+      "matchText": "Little Ice Age"
+    },
+    {
+      "eventId": "evt-lme-great-famine",
+      "matchText": "Great Famine"
+    },
+    {
+      "eventId": "evt-lme-cattle-plague",
+      "matchText": "Great Bovine Pestilence"
+    },
+    {
+      "eventId": "evt-lme-dante-comedy",
+      "matchText": "Divine Comedy"
+    },
+    {
+      "eventId": "evt-lme-petrarch-humanism",
+      "matchText": "Petrarch"
+    },
+    {
+      "eventId": "evt-lme-knights-templar-suppressed",
+      "matchText": "Knights Templar"
+    },
+    {
+      "eventId": "evt-lme-avignon-papacy",
+      "matchText": "Avignon"
+    },
+    {
+      "eventId": "evt-lme-greenland-norse-end",
+      "matchText": "Norse colonists farmed cereals on Greenland"
+    }
+  ],
+  "2": [
+    {
+      "eventId": "evt-lme-black-death",
+      "matchText": "Black Death"
+    },
+    {
+      "eventId": "evt-lme-caffa-siege",
+      "matchText": "Caffa"
+    },
+    {
+      "eventId": "evt-lme-jewish-pogroms-1349",
+      "matchText": "pogroms"
+    },
+    {
+      "eventId": "evt-lme-flagellants",
+      "matchText": "Flagellants"
+    },
+    {
+      "eventId": "evt-lme-statute-of-laborers",
+      "matchText": "Statute of Labourers"
+    },
+    {
+      "eventId": "evt-lme-boccaccio-decameron",
+      "matchText": "Decameron"
+    }
+  ],
+  "3": [
+    {
+      "eventId": "evt-lme-hundred-years-war",
+      "matchText": "Hundred Years War"
+    },
+    {
+      "eventId": "evt-lme-edward-iii-claim",
+      "matchText": "Edward III"
+    },
+    {
+      "eventId": "evt-lme-battle-crecy",
+      "matchText": "Crécy"
+    },
+    {
+      "eventId": "evt-lme-calais-siege",
+      "matchText": "Calais"
+    },
+    {
+      "eventId": "evt-lme-battle-poitiers",
+      "matchText": "Poitiers"
+    },
+    {
+      "eventId": "evt-lme-treaty-bretigny",
+      "matchText": "Treaty of Brétigny"
+    },
+    {
+      "eventId": "evt-lme-charles-v-france",
+      "matchText": "Charles V the Wise"
+    },
+    {
+      "eventId": "evt-lme-burgundian-civil-war",
+      "matchText": "Burgundian"
+    },
+    {
+      "eventId": "evt-lme-henry-v",
+      "matchText": "Henry V"
+    },
+    {
+      "eventId": "evt-lme-battle-agincourt",
+      "matchText": "Agincourt"
+    },
+    {
+      "eventId": "evt-lme-treaty-troyes",
+      "matchText": "Treaty of Troyes"
+    },
+    {
+      "eventId": "evt-lme-joan-of-arc-orleans",
+      "matchText": "Joan of Arc"
+    },
+    {
+      "eventId": "evt-lme-charles-vii-coronation",
+      "matchText": "Charles VII"
+    },
+    {
+      "eventId": "evt-lme-joan-burned",
+      "matchText": "Rouen"
+    },
+    {
+      "eventId": "evt-lme-philip-the-good",
+      "matchText": "Philip the Good"
+    },
+    {
+      "eventId": "evt-lme-battle-castillon",
+      "matchText": "Castillon"
+    }
+  ],
+  "4": [
+    {
+      "eventId": "evt-lme-avignon-papacy",
+      "matchText": "Avignon Papacy"
+    },
+    {
+      "eventId": "evt-lme-return-to-rome",
+      "matchText": "He returned to Rome in January 1377"
+    },
+    {
+      "eventId": "evt-lme-western-schism",
+      "matchText": "Western Schism"
+    },
+    {
+      "eventId": "evt-lme-council-constance",
+      "matchText": "Council of Constance"
+    },
+    {
+      "eventId": "evt-lme-conciliarism",
+      "matchText": "conciliarism"
+    },
+    {
+      "eventId": "evt-lme-sigismund-emperor",
+      "matchText": "Sigismund"
+    }
+  ],
+  "5": [
+    {
+      "eventId": "evt-lme-john-wycliffe",
+      "matchText": "John Wycliffe"
+    },
+    {
+      "eventId": "evt-lme-jan-hus",
+      "matchText": "Jan Hus"
+    },
+    {
+      "eventId": "evt-lme-hussite-wars",
+      "matchText": "Hussite Wars"
+    }
+  ],
+  "6": [
+    {
+      "eventId": "evt-lme-jacquerie",
+      "matchText": "Jacquerie"
+    },
+    {
+      "eventId": "evt-lme-ciompi-revolt",
+      "matchText": "Ciompi"
+    },
+    {
+      "eventId": "evt-lme-peasants-revolt",
+      "matchText": "English Peasants"
+    },
+    {
+      "eventId": "evt-lme-john-ball",
+      "matchText": "John Ball"
+    }
+  ],
+  "7": [
+    {
+      "eventId": "evt-lme-italian-city-states",
+      "matchText": "Italian city-states"
+    },
+    {
+      "eventId": "evt-lme-peace-of-lodi",
+      "matchText": "Peace of Lodi"
+    },
+    {
+      "eventId": "evt-lme-medici-florence",
+      "matchText": "Medici"
+    },
+    {
+      "eventId": "evt-lme-cosimo-medici",
+      "matchText": "Cosimo de"
+    },
+    {
+      "eventId": "evt-lme-lorenzo-magnificent",
+      "matchText": "Lorenzo the Magnificent"
+    },
+    {
+      "eventId": "evt-lme-brunelleschi-dome",
+      "matchText": "Brunelleschi"
+    },
+    {
+      "eventId": "evt-lme-donatello",
+      "matchText": "Donatello"
+    },
+    {
+      "eventId": "evt-lme-masaccio",
+      "matchText": "Masaccio"
+    },
+    {
+      "eventId": "evt-lme-van-eyck",
+      "matchText": "van Eyck"
+    },
+    {
+      "eventId": "evt-lme-bosch",
+      "matchText": "Hieronymus Bosch"
+    },
+    {
+      "eventId": "evt-lme-gutenberg-press",
+      "matchText": "Gutenberg"
+    },
+    {
+      "eventId": "evt-lme-gutenberg-bible",
+      "matchText": "42-line Bible"
+    },
+    {
+      "eventId": "evt-lme-printing-spreads",
+      "matchText": "incunabula"
+    },
+    {
+      "eventId": "evt-lme-condottieri",
+      "matchText": "condottiere"
+    }
+  ],
+  "8": [
+    {
+      "eventId": "evt-lme-fall-constantinople",
+      "matchText": "fall of Constantinople"
+    },
+    {
+      "eventId": "evt-lme-wars-of-roses",
+      "matchText": "Wars of the Roses"
+    },
+    {
+      "eventId": "evt-lme-bosworth-field",
+      "matchText": "Bosworth Field"
+    },
+    {
+      "eventId": "evt-lme-ferdinand-isabella",
+      "matchText": "Catholic Monarchs"
+    },
+    {
+      "eventId": "evt-lme-fall-granada",
+      "matchText": "Granada War"
+    },
+    {
+      "eventId": "evt-lme-jewish-expulsion-1492",
+      "matchText": "Alhambra Decree"
+    },
+    {
+      "eventId": "evt-lme-columbus-1492",
+      "matchText": "Christopher Columbus"
+    },
+    {
+      "eventId": "evt-lme-bartolomeu-dias",
+      "matchText": "Bartolomeu Dias"
+    },
+    {
+      "eventId": "evt-lme-vasco-da-gama",
+      "matchText": "Vasco da Gama"
+    },
+    {
+      "eventId": "evt-lme-treaty-tordesillas",
+      "matchText": "Treaty of Tordesillas"
+    },
+    {
+      "eventId": "evt-lme-prince-henry-navigator",
+      "matchText": "Prince Henry the Navigator"
+    },
+    {
+      "eventId": "evt-lme-spanish-inquisition",
+      "matchText": "Moriscos"
+    }
+  ]
+}
