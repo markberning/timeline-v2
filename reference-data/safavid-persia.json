@@ -1,0 +1,920 @@
+{
+  "id": "safavid-persia",
+  "label": "Safavid Persia",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "wikiSlug": "Safavid_dynasty",
+  "imageWikiSlug": "Naqsh-e_Jahan_Square",
+  "pitch": "The Safavid dynasty (1501-1736) made Iran Shia Muslim — a transformation that defines Iranian identity to this day. Shah Ismail I declared the Shia State Conversion that reshaped Persia forever, Shah Abbas the Great turned Isfahan as Capital into one of the most beautiful cities on Earth (the saying went 'Isfahan is half the world'), and the Battle of Chaldiran against the Ottomans defined the Sunni-Shia geopolitical divide that persists today.\n\n🔑 Key Facts:\n• Naqsh-e Jahan Square in Isfahan is one of the largest public squares in the world and a masterpiece of urban planning\n• The Shah Mosque showcases the finest polychrome tilework in all of Islamic architecture\n• The Persian Silk Trade made Safavid silk one of the most valuable export commodities in Eurasian commerce\n• The Recapture of Hormuz from the Portuguese restored Persian control over lucrative Gulf trade routes\n\n🤔 Why It Matters: The Safavid conversion of Iran to Shia Islam created the religious identity that still defines the Islamic Republic of Iran and shapes Middle Eastern geopolitics — from the Iran-Iraq War to the rivalry with Saudi Arabia.\n\n🎲 Wild Card: Coffee House Culture became a major institution in Safavid cities, where poetry recitation, storytelling, and political gossip flowed as freely as the coffee — making Persia one of the birthplaces of the coffeehouse tradition that Starbucks would eventually commercialize.",
+  "countryIds": [
+    "364",
+    "368",
+    "4"
+  ],
+  "spans": [
+    {
+      "id": "span-safavid-persia-safavid-founding",
+      "label": "Founding & Consolidation",
+      "startYear": 1501,
+      "endYear": 1588,
+      "wikiSlug": "Safavid_dynasty",
+      "description": "Shah Ismail I conquered Persia and imposed Twelver Shia Islam as the state religion, forging a new national identity. The defeat at Chaldiran checked Safavid expansion, while Tahmasp I spent five decades defending the realm against Ottoman and Uzbek invasions."
+    },
+    {
+      "id": "span-safavid-persia-safavid-golden-age",
+      "label": "Golden Age",
+      "startYear": 1588,
+      "endYear": 1629,
+      "wikiSlug": "Abbas_I_of_Persia",
+      "description": "Shah Abbas the Great transformed Isfahan into one of the world's most magnificent cities, reformed the military, and recaptured territory from the Ottomans and Portuguese. Persian silk, carpets, and art reached their zenith under his patronage."
+    },
+    {
+      "id": "span-safavid-persia-safavid-decline",
+      "label": "Late Safavid Period",
+      "startYear": 1629,
+      "endYear": 1722,
+      "wikiSlug": "Safavid_dynasty",
+      "description": "Weak successors to Abbas the Great allowed the military to decay and religious orthodoxy to stifle cultural life. Sultan Husayn's passive rule provoked the Afghan invasion that captured Isfahan and ended effective Safavid power in 1722."
+    },
+    {
+      "id": "span-safavid-persia-afghan-interregnum",
+      "label": "Afghan Interregnum",
+      "startYear": 1722,
+      "endYear": 1729,
+      "wikiSlug": "Hotaki_dynasty",
+      "description": "Afghan Hotaki forces occupied Isfahan and controlled much of Persia after a devastating siege that killed tens of thousands. Their rule was marked by instability and brutality until Nader Qoli drove them out and restored order."
+    },
+    {
+      "id": "span-safavid-persia-afsharid-transition",
+      "label": "Afsharid Transition",
+      "startYear": 1729,
+      "endYear": 1736,
+      "wikiSlug": "Afsharid_dynasty",
+      "description": "Nader Qoli expelled the Afghan occupiers and briefly restored a Safavid puppet shah before deposing the dynasty entirely in 1736. His military brilliance reunified Persia and launched the Afsharid dynasty that succeeded the Safavids."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-shah-ismail-conquest",
+      "label": "Shah Ismail I",
+      "year": 1501,
+      "endYear": 1524,
+      "description": "Shah Ismail I conquered Tabriz and established the Safavid dynasty, declaring Twelver Shia Islam the state religion of Persia.",
+      "wikiSlug": "Ismail_I",
+      "tier": 1,
+      "tags": [
+        "people",
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-shia-conversion",
+      "label": "Shia State Conversion",
+      "year": 1501,
+      "description": "Ismail I mandated the conversion of Persia to Twelver Shia Islam, fundamentally reshaping Iranian religious identity for centuries to come.",
+      "wikiSlug": "Safavid_conversion_of_Iran_to_Shia_Islam",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-safavid-order-origins",
+      "label": "Safaviyya Sufi Order",
+      "year": 1501,
+      "description": "The Safavids derived their name and legitimacy from the Safaviyya Sufi order founded in Ardabil in the 14th century. Ismail I transformed this mystical brotherhood into a political and military force, claiming descent from Imam Ali to bolster his authority over both Sufi followers and Shia Muslims.",
+      "wikiSlug": "Safaviyya",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ismail-i-tabriz",
+      "label": "Capture of Tabriz",
+      "year": 1501,
+      "description": "At just 14 years old, Ismail I led his Qizilbash warriors to capture Tabriz from the Aq Qoyunlu confederation, immediately declaring it his capital and proclaiming Twelver Shia Islam the official religion of his new realm — a radical act in a region where most inhabitants were Sunni.",
+      "wikiSlug": "Ismail_I",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-iraqi-arab-conquest",
+      "label": "Safavid Conquest of Iraq",
+      "year": 1508,
+      "description": "Ismail I captured Baghdad and much of Iraq, bringing the Shia holy cities of Najaf and Karbala under Safavid control. The tombs of the Shia Imams at these sites became major pilgrimage destinations under active Safavid patronage, heightening the empire's religious prestige.",
+      "wikiSlug": "Safavid_dynasty",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-chaldiran",
+      "label": "Battle of Chaldiran",
+      "year": 1514,
+      "description": "The Safavids suffered a devastating defeat by the Ottomans at Chaldiran, establishing the Ottoman-Safavid border and demonstrating the superiority of gunpowder weapons.",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ottoman-uzbek-two-front",
+      "label": "Two-Front Safavid War",
+      "year": 1510,
+      "description": "Ismail I defeated and killed Uzbek leader Muhammad Shaybani at the Battle of Merv in 1510, briefly securing the eastern frontier. But the Ottoman threat from the west and continued Uzbek pressure from the east forced the early Safavids to fight a costly two-front war for most of the dynasty's first century.",
+      "wikiSlug": "Battle_of_Merv_(1510)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-qizilbash-military",
+      "label": "Qizilbash Military System",
+      "year": 1501,
+      "description": "The Qizilbash tribal warriors formed the core of the early Safavid military, combining Turkic martial traditions with Sufi religious devotion to the Shah.",
+      "wikiSlug": "Qizilbash",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-tahmasp-i",
+      "label": "Tahmasp I",
+      "year": 1524,
+      "endYear": 1576,
+      "description": "Shah Tahmasp I ruled for 52 years, the longest Safavid reign, defending Persia against Ottoman and Uzbek invasions while patronizing miniature painting.",
+      "wikiSlug": "Tahmasp_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-humayun-refuge",
+      "label": "Humayun at Tahmasp's Court",
+      "year": 1544,
+      "description": "Mughal Emperor Humayun, driven from India by his brothers, sought asylum at Tahmasp I's court in Qazvin. Tahmasp provided him with a 12,000-strong Safavid army to reclaim his throne, in exchange for Humayun's conversion (nominal) to Shia Islam and the cession of the strategic city of Kandahar — a bargain that entangled Safavid and Mughal ambitions for generations.",
+      "wikiSlug": "Humayun",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-capital-qazvin",
+      "label": "Capital Moved to Qazvin",
+      "year": 1548,
+      "description": "After repeated Ottoman raids left Tabriz exposed, Tahmasp I relocated the Safavid capital inland to Qazvin. The move reflected the strategic vulnerability of the northwestern frontier and helped the Safavids consolidate a more defensible core territory.",
+      "wikiSlug": "Qazvin",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tabriz-school-painting",
+      "label": "Tabriz School of Painting",
+      "year": 1525,
+      "description": "The Tabriz school of Persian miniature painting flourished under royal patronage, producing masterworks like the Shahnameh of Shah Tahmasp.",
+      "wikiSlug": "Tabriz_school_(painting)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-silk-trade-expansion",
+      "label": "Persian Silk Trade",
+      "year": 1540,
+      "description": "The Safavids established royal monopolies on silk production, making Persian silk one of the most valuable export commodities in Eurasian trade.",
+      "wikiSlug": "Persian_silk",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ardabil-carpet",
+      "label": "Ardabil Carpet",
+      "year": 1539,
+      "description": "The Ardabil Carpet — one of the world's oldest and finest surviving carpets — was commissioned for the Ardabil shrine, likely completed around 1539–40. Its intricate medallion design, more than 300 knots per square inch, and sheer scale (34 by 17 feet) made it the crown jewel of Safavid textile art, now housed in the Victoria and Albert Museum in London.",
+      "wikiSlug": "Ardabil_Carpet",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ottoman-safavid-peace",
+      "label": "Peace of Amasya",
+      "year": 1555,
+      "description": "The Treaty of Amasya ended decades of Ottoman-Safavid warfare, dividing the Caucasus and establishing a stable border between the two empires.",
+      "wikiSlug": "Peace_of_Amasya",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ismail-ii",
+      "label": "Ismail II and Sunni Reversal",
+      "year": 1576,
+      "endYear": 1577,
+      "description": "Shah Ismail II, son of Tahmasp, briefly attempted to reverse the Shia conversion — reinstating Sunni practices and persecuting Shia scholars — before dying (possibly poisoned) after just 18 months. The episode revealed how quickly the Shia establishment had become powerful enough to make such reversals violently dangerous.",
+      "wikiSlug": "Ismail_II",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-qizilbash-civil-wars",
+      "label": "Qizilbash Civil Wars",
+      "year": 1578,
+      "description": "After Tahmasp I's death, rival Qizilbash tribal factions plunged Persia into a decade of factional warfare over control of the young Shah Muhammad Khudabanda. The instability allowed the Ottomans to reconquer Azerbaijan and exposed the structural weakness of basing imperial power on tribal loyalty.",
+      "wikiSlug": "Qizilbash",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ottoman-safavid-war-1578",
+      "label": "Ottoman-Safavid War 1578",
+      "year": 1578,
+      "endYear": 1590,
+      "description": "Taking advantage of Safavid internal chaos, the Ottomans launched a major offensive that captured Tabriz, the Caucasus, and Azerbaijan. The resulting Treaty of Constantinople (1590) forced the Safavids to cede enormous territory — losses that Abbas I would spend his reign trying to reverse.",
+      "wikiSlug": "Ottoman%E2%80%93Safavid_War_(1578%E2%80%931590)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abbas-i",
+      "label": "Shah Abbas the Great",
+      "year": 1588,
+      "endYear": 1629,
+      "description": "Shah Abbas I transformed Persia into a major power, reforming the military, centralizing government, and making Isfahan one of the world's most magnificent cities.",
+      "wikiSlug": "Abbas_I_of_Persia",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ghulam-army",
+      "label": "Ghulam Army Reform",
+      "year": 1598,
+      "description": "Abbas I created a standing army of ghulam slave-soldiers loyal to the crown, breaking the power of the Qizilbash tribal chiefs.",
+      "wikiSlug": "Ghilman",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-allahverdi-khan",
+      "label": "Allahverdi Khan",
+      "year": 1595,
+      "description": "Allahverdi Khan, a Georgian ghulam slave who rose to become commander-in-chief of the Safavid army, exemplified Abbas I's policy of promoting talented outsiders over unreliable Qizilbash nobles. He reorganized the military, built the Si-o-se-pol bridge, and delivered key victories over the Ottomans and Portuguese — his career showing how the ghulam system could produce extraordinary loyalty and competence.",
+      "wikiSlug": "Allahverdi_Khan",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-isfahan-capital",
+      "label": "Isfahan as Capital",
+      "year": 1598,
+      "description": "Abbas I moved the capital to Isfahan and began a massive building program, creating the famous proverb 'Isfahan is half the world.'",
+      "wikiSlug": "Isfahan",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-imam-reza-shrine",
+      "label": "Imam Reza Shrine Expansion",
+      "year": 1590,
+      "description": "The Safavids lavishly expanded the Imam Reza shrine in Mashhad, making it the holiest site in Shia Iran and a major pilgrimage destination.",
+      "wikiSlug": "Imam_Reza_shrine",
+      "tier": 2,
+      "tags": [
+        "architecture"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-european-embassies",
+      "label": "European Diplomatic Missions",
+      "year": 1599,
+      "description": "Abbas I sent and received embassies to European courts, establishing diplomatic ties with Spain, England, and the Papacy to counter Ottoman power.",
+      "wikiSlug": "Persian_embassy_to_Europe_(1599%E2%80%931602)",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-naqsh-e-jahan",
+      "label": "Naqsh-e Jahan Square",
+      "year": 1602,
+      "description": "Abbas I constructed Naqsh-e Jahan Square in Isfahan, one of the largest public squares in the world and a masterpiece of Safavid urban planning.",
+      "wikiSlug": "Naqsh-e_Jahan_Square",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-allahverdi-khan-bridge",
+      "label": "Si-o-se-pol Bridge",
+      "year": 1602,
+      "description": "The Si-o-se-pol bridge with 33 arches was completed over the Zayanderud River in Isfahan, serving as both infrastructure and a social gathering space.",
+      "wikiSlug": "Si-o-se-pol",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-armenian-resettlement",
+      "label": "Armenian Resettlement",
+      "year": 1604,
+      "description": "Abbas I relocated tens of thousands of Armenians to New Julfa in Isfahan, creating a prosperous merchant community that dominated Safavid international trade.",
+      "wikiSlug": "New_Julfa",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-battle-sufiyan",
+      "label": "Battle of Sufiyan",
+      "year": 1605,
+      "description": "Abbas I won a decisive victory over the Ottomans at the Battle of Sufiyan near Tabriz, breaking years of Ottoman military dominance in the region and beginning the recovery of territories lost in the 1590 Treaty of Constantinople. The battle demonstrated that the reformed Safavid army with its ghulam core and artillery could match the feared Ottoman Janissaries.",
+      "wikiSlug": "Battle_of_Sufiyan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sheikh-lotfollah-mosque",
+      "label": "Sheikh Lotfollah Mosque",
+      "year": 1603,
+      "endYear": 1619,
+      "description": "The Sheikh Lotfollah Mosque, built on the eastern side of Naqsh-e Jahan Square, served as the private royal chapel of Abbas I. Its distinctive cream-colored dome that shifts from buff to pink at dawn and its interior tilework — with a mesmerizing sunburst ceiling — are considered the apex of Safavid decorative art. Unusually for a mosque, it has no minaret and no courtyard.",
+      "wikiSlug": "Sheikh_Lotfollah_Mosque",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-shah-mosque",
+      "label": "Shah Mosque",
+      "year": 1611,
+      "endYear": 1629,
+      "description": "The Shah Mosque (now Imam Mosque) was built on Naqsh-e Jahan Square, showcasing the finest polychrome tilework in Islamic architecture.",
+      "wikiSlug": "Shah_Mosque_(Isfahan)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ali-qapu-palace",
+      "label": "Ali Qapu Palace",
+      "year": 1597,
+      "description": "Ali Qapu — meaning 'Sublime Gate' — was the grand imperial palace fronting Naqsh-e Jahan Square in Isfahan. Its six-story tower with a wooden terrace overlooked the square and polo grounds, while its upper music room was decorated with elaborate plaster niches cut in the shapes of vessels, designed to enhance acoustics for court concerts.",
+      "wikiSlug": "Ali_Qapu",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-khwaju-bridge",
+      "label": "Khwaju Bridge",
+      "year": 1650,
+      "description": "The Khwaju Bridge, built under Shah Abbas II, combined function and ceremony: its lower level acted as a dam to raise the Zayanderud River for gardens and mills, while the upper promenade and teahouse rooms made it a pleasure ground for Isfahan's inhabitants. Together with the Si-o-se-pol, the two bridges became iconic symbols of Safavid Isfahan.",
+      "wikiSlug": "Khaju_Bridge",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mir-damad",
+      "label": "Mir Damad",
+      "year": 1600,
+      "description": "Mir Damad founded the School of Isfahan, a philosophical movement that synthesized Peripatetic, Illuminationist, and mystical traditions in Shia thought.",
+      "wikiSlug": "Mir_Damad",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-sheikh-bahai",
+      "label": "Sheikh Bahai",
+      "year": 1600,
+      "description": "Sheikh Bahai (Baha ad-Din al-Amili) was the polymath par excellence of the Safavid court — simultaneously a theologian, mathematician, astronomer, architect, and poet. He designed Isfahan's water-supply system, calculated the precise direction of the Shah Mosque's qibla orientation, and wrote influential religious treatises. His career embodied the Safavid fusion of science, religion, and state-building.",
+      "wikiSlug": "Baha%27_ad-Din_al-Amili",
+      "tier": 2,
+      "tags": [
+        "science",
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-reza-abbasi",
+      "label": "Reza Abbasi",
+      "year": 1610,
+      "description": "Court painter Reza Abbasi pioneered a new naturalistic style in Persian miniature painting, influencing Iranian art for generations.",
+      "wikiSlug": "Reza_Abbasi",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ottoman-safavid-war-1603",
+      "label": "Ottoman-Safavid War 1603",
+      "year": 1603,
+      "endYear": 1618,
+      "description": "Abbas I launched a major offensive to recapture territory lost in 1590, retaking Tabriz in 1603, then Yerevan and the Caucasus. The war ended with the Treaty of Nasuh Pasha (1612) and then a brief resumption resolved by the Treaty of Serav (1618), both of which largely restored the pre-1578 frontier — vindicating Abbas's military reforms.",
+      "wikiSlug": "Ottoman%E2%80%93Safavid_War_(1603%E2%80%931618)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-safavid-chronicles",
+      "label": "Tarikh-e Alam-ara",
+      "year": 1616,
+      "description": "Iskandar Beg Munshi completed the Tarikh-e Alam-ara-ye Abbasi, the most important primary source for Safavid history and Abbas I's reign.",
+      "wikiSlug": "Tarikh-e-Alam-Ara-ye-Abbasi",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-persian-carpet-trade",
+      "label": "Persian Carpet Industry",
+      "year": 1600,
+      "description": "Abbas I established royal carpet workshops in Isfahan, Kashan, and Kerman, elevating Persian carpet weaving to an internationally traded luxury art form.",
+      "wikiSlug": "Persian_carpet",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-recapture-hormuz",
+      "label": "Recapture of Hormuz",
+      "year": 1622,
+      "description": "Abbas I allied with the English East India Company to capture Hormuz from the Portuguese, restoring Persian control over lucrative Gulf trade routes.",
+      "wikiSlug": "Capture_of_Ormuz_(1622)",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-recovery-baghdad",
+      "label": "Recovery of Baghdad",
+      "year": 1623,
+      "description": "Abbas I captured Baghdad from the Ottomans in 1623, bringing the Shia holy cities of Najaf and Karbala back under Safavid rule. The conquest was deeply symbolic — Baghdad had been under Ottoman control since Suleiman the Magnificent took it in 1534 — and Abbas celebrated with lavish ceremonies at the Shia shrines.",
+      "wikiSlug": "Fall_of_Baghdad_(1624)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-dutch-east-india-company",
+      "label": "Dutch and English Trading Posts",
+      "year": 1617,
+      "description": "The English East India Company established a trading post at Jask in 1617, followed by the Dutch VOC. Abbas I actively courted both companies to bypass Ottoman-controlled overland routes and compete with Portuguese sea power. The EIC's naval assistance at Hormuz in 1622 was the direct payoff of this strategy.",
+      "wikiSlug": "East_India_Company",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mulla-sadra",
+      "label": "Mulla Sadra",
+      "year": 1640,
+      "description": "Mulla Sadra developed Transcendent Theosophy, one of the most influential philosophical systems in Islamic intellectual history.",
+      "wikiSlug": "Mulla_Sadra",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-chehel-sotoun",
+      "label": "Chehel Sotoun Palace",
+      "year": 1647,
+      "description": "The Chehel Sotoun pavilion palace was completed in Isfahan, famous for its hall of mirrors and historical wall paintings.",
+      "wikiSlug": "Chehel_Sotoun",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-safi-i",
+      "label": "Shah Safi I",
+      "year": 1629,
+      "endYear": 1642,
+      "description": "Shah Safi I, Abbas I's grandson, succeeded the great shah and immediately undermined the empire's foundations by massacring potential rivals — including able commanders and princes — and withdrawing into the harem. The trend of weak, court-isolated Safavid rulers effectively began with Safi.",
+      "wikiSlug": "Safi_of_Persia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-loss-of-baghdad",
+      "label": "Second Loss of Baghdad",
+      "year": 1638,
+      "description": "The Ottomans recaptured Baghdad in 1638 under Murad IV, ending Safavid control of the Shia holy cities. The resulting Treaty of Zuhab (or Qasr-e Shirin) established the Ottoman-Iranian border that has remained essentially unchanged to the present day — making it one of the most enduring borders in the Middle East.",
+      "wikiSlug": "Fall_of_Baghdad_(1638)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-zuhab",
+      "label": "Treaty of Zuhab",
+      "year": 1639,
+      "description": "The Treaty of Zuhab (Qasr-e Shirin) formally ended the Ottoman-Safavid wars over Iraq, fixing a border that has defined the Iran-Iraq boundary ever since. The Ottomans retained Baghdad and Mesopotamia; the Safavids kept Erivan (Armenia) and the Caucasus. The treaty marked a shift from active warfare to a more stable, if tense, coexistence.",
+      "wikiSlug": "Treaty_of_Zuhab",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abbas-ii",
+      "label": "Shah Abbas II",
+      "year": 1642,
+      "endYear": 1666,
+      "description": "Abbas II was the last strong Safavid ruler, defeating the Mughals to recover Kandahar in 1649 and completing major architectural projects in Isfahan including the Chehel Sotoun palace and the Khwaju Bridge. His reign was a brief Indian summer before the dynasty's decline accelerated under his successors.",
+      "wikiSlug": "Abbas_II_of_Persia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kandahar-campaigns",
+      "label": "Kandahar Campaigns",
+      "year": 1649,
+      "description": "The strategic fortress city of Kandahar changed hands repeatedly between the Safavids and Mughals — the Safavids taking it in 1622, the Mughals recapturing it in 1638, and Abbas II finally retaking it in 1649. The city controlled the main trade route between Persia and India, making it worth fighting over despite the ruinous cost of each campaign.",
+      "wikiSlug": "Mughal%E2%80%93Safavid_War_(1649%E2%80%9352)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-coffee-house-culture",
+      "label": "Coffee House Culture",
+      "year": 1550,
+      "description": "Coffee houses became major social institutions in Safavid cities, serving as venues for poetry recitation, storytelling, and political discussion.",
+      "wikiSlug": "Coffeehouses_of_the_Ottoman_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-majlisi-shia-orthodoxy",
+      "label": "Allama Majlisi",
+      "year": 1680,
+      "description": "Muhammad Baqir Majlisi compiled Bihar al-Anwar, a massive encyclopedia of Shia hadith, and enforced stricter religious orthodoxy under the late Safavids.",
+      "wikiSlug": "Muhammad_Baqir_Majlisi",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mujtahid-system",
+      "label": "Rise of the Mujtahid System",
+      "year": 1620,
+      "description": "Under the Safavids, senior Shia clerics known as mujtahids gradually claimed the right to interpret religious law independently, laying the groundwork for the marja-i taqlid ('source of emulation') system. This clerical hierarchy — which the Safavids initially promoted to legitimate their rule — would eventually develop the institutional independence that enabled the 1979 Islamic Revolution.",
+      "wikiSlug": "Marja",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-akhbari-usuli-debate",
+      "label": "Akhbari-Usuli Theological Debate",
+      "year": 1630,
+      "description": "A major theological controversy split Shia scholars: the Akhbaris argued that religious rulings should derive directly from the transmitted reports (akhbar) of the Imams, with no independent clerical reasoning; the Usulis insisted that trained jurists must apply rational interpretation (ijtihad). The eventual Usuli victory — completed in the 18th century — created the powerful clerical establishment that governs Iran today.",
+      "wikiSlug": "Akhbari",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-soleyman-i",
+      "label": "Shah Soleyman I",
+      "year": 1666,
+      "endYear": 1694,
+      "description": "Shah Soleyman I (born Sam Mirza) presided over a court consumed by harem intrigue and spent most of his reign drunk, according to chroniclers. He avoided military campaigns entirely, letting capable governors handle the provinces but doing nothing to arrest the slow decay of the imperial military or reverse the growing power of Shia clergy over government.",
+      "wikiSlug": "Suleiman_I_of_Persia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-shah-sultan-husayn",
+      "label": "Shah Sultan Husayn",
+      "year": 1694,
+      "endYear": 1722,
+      "description": "The last effective Safavid ruler, Sultan Husayn's weak governance and religious intolerance destabilized the empire and invited Afghan invasion.",
+      "wikiSlug": "Sultan_Husayn",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-georgian-armenian-ghulam",
+      "label": "Georgian and Armenian Ghulam Elite",
+      "year": 1605,
+      "description": "The Safavid ghulam system drew massively from Georgian and Armenian captives converted to Islam who were trained as soldiers, administrators, and courtiers. By the mid-17th century, Georgian-descended ghulams dominated the top of the Safavid bureaucracy — commanding armies, governing provinces, and serving as viziers. This created a state whose ruling class was largely ethnically distinct from its Persian-speaking population.",
+      "wikiSlug": "Caucasian_peoples_in_the_Safavid_army",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-shrine-cities-pilgrimage",
+      "label": "Shia Pilgrimage Networks",
+      "year": 1590,
+      "description": "The Safavids transformed Iran's religious geography by funding, expanding, and promoting shrines at Mashhad, Qom, and Ardabil. Because Mecca and Medina were under Ottoman (Sunni) control and often inaccessible to Shia pilgrims, the Safavids cultivated these Iranian holy sites as alternatives — making Mashhad, home of Imam Reza, effectively the Shia Mecca.",
+      "wikiSlug": "Mashhad",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-qom-seminary",
+      "label": "Qom Seminary System",
+      "year": 1630,
+      "description": "The Safavids systematically developed Qom as a center of Shia scholarship, attracting Arab clerics from Jabal Amil in Lebanon who brought deep Shia jurisprudential expertise to a Persian context. The Qom hawza (seminary network) they built became the institutional backbone of Shia learning — the same institution that trained Ayatollah Khomeini in the 20th century.",
+      "wikiSlug": "Qom",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-persian-poetry-safavid",
+      "label": "Hindi Style Persian Poetry",
+      "year": 1620,
+      "description": "The Safavid period gave rise to the 'Hindi Style' (Sabk-e Hindi) of Persian poetry — a highly ornate, conceptually dense form that flourished in both Iran and Mughal India. Poets like Saib Tabrizi produced intricate verse exploring paradox, melancholy, and philosophical themes. The style's cross-border popularity showed how Persian remained the literary lingua franca from Istanbul to Delhi.",
+      "wikiSlug": "Sabk-e_Hendi",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-qanat-irrigation",
+      "label": "Qanat Irrigation Systems",
+      "year": 1550,
+      "description": "The Safavids expanded Persia's ancient qanat irrigation systems, enabling agriculture in arid regions and supporting population growth.",
+      "wikiSlug": "Qanat",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-observatory-isfahan",
+      "label": "Isfahan Observatory",
+      "year": 1620,
+      "description": "Safavid astronomers maintained observatories in Isfahan, continuing the Islamic tradition of precise astronomical observation and calendar refinement.",
+      "wikiSlug": "Islamic_astronomy",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-gunpowder-adoption",
+      "label": "Gunpowder Weapons Adoption",
+      "year": 1598,
+      "description": "Abbas I modernized the Safavid military with muskets and cannon, training infantry units modeled partly on Ottoman Janissary formations.",
+      "wikiSlug": "Military_of_the_Safavid_dynasty",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-shah-name-writing",
+      "label": "Shahnameh of Shah Tahmasp",
+      "year": 1535,
+      "description": "The Shahnameh of Shah Tahmasp was completed, containing 258 miniature paintings and considered the greatest illustrated manuscript in Persian art.",
+      "wikiSlug": "Shahnameh_of_Shah_Tahmasp",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-bihar-al-anwar",
+      "label": "Bihar al-Anwar Compilation",
+      "year": 1688,
+      "description": "Allama Majlisi's Bihar al-Anwar ('Oceans of Lights') was an encyclopedic 110-volume compilation of Shia hadith (narrations attributed to the Prophet and the Imams). It systematized Shia religious knowledge in a way that had never been done before, giving the clerical class an authoritative textual foundation and cementing the Shia scholarly tradition's independence from Sunni Islamic learning.",
+      "wikiSlug": "Bihar_al-Anwar",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medical-texts",
+      "label": "Safavid Medical Texts",
+      "year": 1560,
+      "description": "Safavid physicians compiled and expanded on the Galenic-Islamic medical tradition, maintaining hospital complexes and medical teaching institutions.",
+      "wikiSlug": "Medieval_Islamic_medicine",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-isfahan-population",
+      "label": "Isfahan City Growth",
+      "year": 1620,
+      "description": "Under Abbas I, Isfahan grew to an estimated 500,000–600,000 inhabitants, making it one of the largest cities in the world and rivaling contemporary Istanbul, London, and Paris. The city contained 162 mosques, 48 religious schools, 1,802 caravanserais, and 273 public baths according to a Safavid census — a staggering urban infrastructure for a pre-industrial city.",
+      "wikiSlug": "Isfahan",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-caravanserai-network",
+      "label": "Royal Caravanserai Network",
+      "year": 1600,
+      "description": "Abbas I constructed a vast network of royal caravanserais along Persia's main trade routes — providing lodging, water, and security for merchants at roughly one day's journey apart. This infrastructure investment was both practical and political: it boosted trade revenues, promoted the silk monopoly, and brought distant provinces into tighter economic integration with the imperial center.",
+      "wikiSlug": "Caravanserai",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-battle-diu",
+      "label": "Battle of Bandar Abbas",
+      "year": 1615,
+      "description": "Safavid forces clashed with Portuguese garrisons along the Persian Gulf coast, beginning the campaign to expel European colonial traders from Iranian waters.",
+      "wikiSlug": "Anglo-Persian_capture_of_Ormuz",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-haft-rang-tiles",
+      "label": "Haft Rang Tilework",
+      "year": 1611,
+      "description": "Safavid architects perfected the haft rang ('seven-color') tile technique, firing painted polychrome tiles as single panels rather than assembling geometric mosaics from tiny individually colored pieces. This innovation dramatically accelerated construction of large buildings and enabled naturalistic floral and figural designs at monumental scale — covering the Shah Mosque, Sheikh Lotfollah, and dozens of other Safavid buildings in their characteristic blue-and-turquoise magnificence.",
+      "wikiSlug": "Haft-rangi",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-afghan-revolt",
+      "label": "Afghan Ghilzai Revolt",
+      "year": 1709,
+      "description": "The Ghilzai Afghans of Kandahar rose in revolt against heavy-handed Safavid rule in 1709, defeating and killing the Safavid governor. Led by Mir Wais Hotak, the rebellion established an independent Afghan power base that would within a decade launch the campaign that destroyed the Safavid dynasty entirely.",
+      "wikiSlug": "Mir_Wais_Hotak",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mir-mahmud-invasion",
+      "label": "Mir Mahmud's Invasion of Persia",
+      "year": 1721,
+      "description": "Mir Mahmud Hotaki, son of Mir Wais, launched a full-scale invasion of Persia in 1721 with an army of roughly 20,000 Afghan warriors. He defeated the Safavid army at the Battle of Gulnabad in March 1722 — an engagement so lopsided that it exposed the complete military rot of the late Safavid state — then marched on Isfahan.",
+      "wikiSlug": "Hotaki_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-afghan-siege-isfahan",
+      "label": "Afghan Siege of Isfahan",
+      "year": 1722,
+      "description": "Mir Mahmud Hotaki's Afghan forces besieged and captured Isfahan, ending effective Safavid rule after a devastating six-month siege.",
+      "wikiSlug": "Fall_of_Isfahan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-russian-ottoman-partition",
+      "label": "Russian and Ottoman Partition",
+      "year": 1722,
+      "description": "As the Safavid state collapsed, Russia and the Ottomans moved quickly to seize territory. Peter the Great launched the Russo-Persian War (1722–23), capturing the Caspian coast including Baku. The Ottomans simultaneously seized Georgia, Azerbaijan, and northwestern Persia. The two powers agreed to partition their gains in the Treaty of Constantinople (1724) — dividing Safavid territory between themselves while Afghans held the center.",
+      "wikiSlug": "Russo-Persian_War_(1722%E2%80%2323)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nader-shah-rise",
+      "label": "Nader Shah's Rise",
+      "year": 1729,
+      "description": "Nader Qoli expelled the Afghan occupiers and restored the last Safavid puppet shah before deposing the dynasty entirely in 1736.",
+      "wikiSlug": "Nader_Shah",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nader-expels-afghans",
+      "label": "Nader Expels Afghan Occupiers",
+      "year": 1729,
+      "description": "Nader Qoli Beg (later Nader Shah), a brilliant military commander from the Afshar tribe, assembled an army and defeated the Afghan Hotakis at the Battle of Damghan in 1729, then crushed them again at Murche-Khort. Within months he had expelled the Afghans from Iran entirely and restored Safavid rule under the puppet shah Tahmasp II — though real power rested with Nader.",
+      "wikiSlug": "Battle_of_Damghan_(1729)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-safavid-end",
+      "label": "End of Safavid Dynasty",
+      "year": 1736,
+      "description": "Nader Shah formally deposed the last Safavid puppet ruler, ending the 235-year dynasty that had shaped modern Iranian identity.",
+      "wikiSlug": "Safavid_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-twelver-shiism-doctrine",
+      "label": "Twelver Shia Doctrine Codified",
+      "year": 1502,
+      "description": "Twelver Shia Islam holds that there were twelve divinely guided Imams after the Prophet Muhammad, beginning with Ali and ending with the Hidden Imam Muhammad al-Mahdi who went into occultation in 874 CE. The Safavids declared this the state religion and used the doctrine of the Hidden Imam to argue that all legitimate sovereignty derived from the Imam's line — which they claimed as their own ancestors.",
+      "wikiSlug": "Twelver_Shia_Islam",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-arabic-shia-clerics",
+      "label": "Arab Shia Scholars Imported",
+      "year": 1502,
+      "description": "Since Persia was overwhelmingly Sunni in 1501, Ismail I had a major practical problem: there were very few Shia scholars in the country to run the new state religion. He solved this by importing Shia clerics from Jabal Amil (southern Lebanon) and Bahrain, paying them lavishly to settle in Persia and train a native Shia scholarly class. This seeding of foreign expertise was crucial to the conversion's success.",
+      "wikiSlug": "Shia_Islam_in_Lebanon",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-safavid-silk-road",
+      "label": "Safavid Control of Silk Road Routes",
+      "year": 1510,
+      "description": "By controlling Persia, the Safavids sat astride key Silk Road routes connecting the Mediterranean world to Central Asia and India. Silk exported overland through Ottoman territory was subject to punishing tariffs — a commercial weapon the Ottomans used against the Safavids. This forced Abbas I to develop maritime alternatives through the Persian Gulf and to court European trading companies as partners.",
+      "wikiSlug": "Silk_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-safavid-mughal-relations",
+      "label": "Safavid-Mughal Rivalry and Cultural Exchange",
+      "year": 1545,
+      "description": "The relationship between the Safavid and Mughal courts was simultaneously hostile (competing over Kandahar) and intensely culturally fertile. Persian was the court language of the Mughals; Safavid artists, architects, and poets migrated to Agra and Delhi bringing techniques in miniature painting, garden design, and poetry that became foundational to Mughal culture.",
+      "wikiSlug": "Mughal%E2%80%93Safavid_relations",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}
