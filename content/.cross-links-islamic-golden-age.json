@@ -1,0 +1,202 @@
+{
+  "1": [
+    {
+      "matchText": "Sasanian world they came from",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Khorasani Iranians who fueled the Abbasid revolution came from the eastern edge of what had been the Sasanian Empire — the world of Gundishapur, Zoroastrian fire temples, and Persian administrative culture. When they carried the Abbasid armies west in 747-750, they brought that cultural inheritance with them, and it reshaped the dynasty they put in power from the inside."
+    },
+    {
+      "matchText": "proximity to the old Sasanian heartland",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "The Sasanian capital at Ctesiphon had fallen to Arab armies in 637 CE. When al-Mansur chose the site for Baghdad in 762, he picked a location just north of Ctesiphon's ruins, deliberately inheriting the Sasanian imperial geography. The bricks of the old Sasanian palace — the great Taq Kasra arch — became building material for the new capital. The political succession was an architectural fact."
+    },
+    {
+      "matchText": "Paper had been invented in China several centuries earlier",
+      "targetTl": "han-dynasty",
+      "targetChapter": 7,
+      "blurb": "Papermaking was a Han-dynasty innovation that had been a Chinese monopoly for seven centuries before Talas. The captured craftsmen at Talas in 751 transmitted not just a useful craft but the most important information technology of the next thousand years — the technology that made the House of Wisdom's translation movement possible at the scale it actually achieved."
+    },
+    {
+      "matchText": "Battle of Talas",
+      "targetTl": "han-dynasty",
+      "targetChapter": 7,
+      "blurb": "The Battle of Talas in 751 was the only direct military encounter between the Abbasid Caliphate and Tang China, and it was a minor engagement on both sides — neither empire considered it decisive. But the technology transfer that followed (papermaking via captured craftsmen) reshaped Islamic intellectual culture more profoundly than any military campaign. The Tang generals who lost at Talas handed the Islamic world its most powerful intellectual tool."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "Gundishapur",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Academy of Gundishapur was the scientific institution the Abbasid translation movement inherited intact. Founded under Khosrow I as a multilingual research center where Greek, Indian, Persian, and Syriac medical texts were translated and compared, it sent its Christian physician families — the Bakhtshooa — into Abbasid service as personal physicians to the caliphs, carrying their Pahlavi medical handbooks with them. The House of Wisdom was partly Gundishapur relocated to Baghdad."
+    },
+    {
+      "matchText": "Brahmasphutasiddhanta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "Brahmagupta's Brahmasphutasiddhanta, composed in 628 CE at the Gupta-era observatory at Ujjain, was the text that introduced the Islamic world to the decimal place-value system with zero. When an Indian delegation brought it to al-Mansur's court in 771, they initiated a transmission that would run from al-Khwarizmi through Fibonacci to every calculator ever built. The mathematical achievement of Gupta India became the arithmetic of the modern world through Baghdad."
+    },
+    {
+      "matchText": "Kalila wa Dimna",
+      "targetTl": "gupta-empire",
+      "targetChapter": 3,
+      "blurb": "The Kalila wa Dimna that Ibn al-Muqaffa translated into Arabic was already a twice-translated text: it had begun as the Sanskrit Panchatantra in Gupta-era India, been translated into Pahlavi at the Sasanian court under Khosrow I, and now passed into Arabic. Its journey from Gupta court to Abbasid court across four languages and five centuries is one of the great book-migration stories of the ancient world."
+    }
+  ],
+  "3": [
+    {
+      "matchText": "decimal place-value system",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "The decimal place-value system with zero was a Gupta-era invention — worked out by Aryabhata in 499 CE and systematized by Brahmagupta in 628 CE. Al-Khwarizmi's genius was to take this Indian arithmetic and write the textbook that made it teachable to the entire Islamic world, from which it passed to Europe. The numbers every person on Earth uses today are Indian in origin, Islamic in transmission, and Latin in the naming."
+    },
+    {
+      "matchText": "Indian sine",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "The sine function was a Gupta mathematical invention — the jya (bowstring) of Aryabhata's trigonometry. It reached al-Battani via the Gundishapur transmission and the Sindhind translations, where al-Battani systematized it and made it the standard tool of Islamic astronomy. From al-Battani it traveled to Europe, where scribes misread the Arabic jaib for jaib (pocket) and produced the Latin sinus — and eventually the English word sine. A Sanskrit metaphor became the language of modern physics."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "han-dynasty",
+      "targetChapter": 7,
+      "blurb": "In 950 CE, while the Islamic world was completing its mathematical revolution under al-Khwarizmi and al-Battani, Tang-Song China was beginning its own mathematical and astronomical flowering — the Song dynasty's scientific tradition was a genuine peer to the Islamic one, operating independently with its own positional notation and algebraic methods. The two traditions developed their own achievements in parallel, with the Islamic world ahead in systematic algebraic theory and the Chinese ahead in certain engineering applications."
+    }
+  ],
+  "4": [
+    {
+      "matchText": "Sasanian inheritance",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The bimaristan hospital system was a Sasanian inheritance as direct as the vizier system. Gundishapur under Khosrow I had pioneered the teaching hospital — a medical institution that combined patient care with medical education — and the Bakhtshooa physician family that carried this tradition to Baghdad brought with them not just personal medical skill but an institutional model. Every Abbasid bimaristan was Gundishapur rebuilt in brick on the Tigris."
+    },
+    {
+      "matchText": "double-action suction pump",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Al-Jazari's double-action suction pump, completed in 1206, was more mechanically sophisticated than anything Roman engineers had produced, though the Romans were the ancient world's greatest hydraulic engineers. The Roman aqueduct tradition that al-Jazari's Islamic engineering context had partly inherited (through the Byzantine east) provided the engineering culture in which hydraulic problems were considered worth solving. Al-Jazari solved them at a higher level."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "wrote against Ibn Rushd at length but was unmistakably",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "The Latin Averroist tradition that built medieval European philosophy on Ibn Rushd's Aristotle commentaries was also building on the Roman cultural inheritance — the Roman church's institutional framework, the Latin language, the European university system that emerged from cathedral schools rooted in late Roman education. The Islamic philosophical achievement traveled from Cordoba to Paris through the Roman cultural infrastructure that had never disappeared."
+    },
+    {
+      "matchText": "built his Aristotelian commentaries directly on Ibn Rushd's",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "The Byzantine Macedonian Renaissance that Constantine VII and the Souda lexicon represented was a parallel to the Islamic philosophical synthesis happening at the same moment in Baghdad. Both civilizations were re-engaging with the Greek philosophical corpus — the Byzantines as cultural heirs of the tradition, the Islamic world as translators and extenders of it. The two projects barely communicated, but both were keeping Aristotle alive in the early medieval world."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "The Abbasid-Fatimid-Cordoban triangle was permanently shaped by its western neighbor: the Byzantine Empire, which shared a long frontier with the Abbasid Caliphate along the Taurus Mountains and competed for influence in Syria, Armenia, and the Caucasus. Byzantine gold funded Abbasid enemies; Abbasid silver funded Byzantine enemies. The two empires were, for five centuries, each other's most consequential neighbor — they fought more frequently than they traded, and they traded constantly."
+    },
+    {
+      "matchText": "Fatimid Caliphate at its peak",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "The Fatimid Caliphate's Mediterranean trade empire and Byzantium's trade empire were in constant commercial and political interaction — the Fatimids controlled Egypt's Red Sea route to India while Byzantium controlled the northern Mediterranean, and the two empires occasionally allied against Abbasid or Seljuk pressure. Byzantine mosaicists worked on the Great Mosque of Damascus; Byzantine technical knowledge fed into Fatimid architecture. The two empires were rivals who borrowed from each other constantly."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "Great Mosque of Cordoba",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "The columns inside the Great Mosque of Cordoba were recycled from Roman and Visigothic buildings — about 850 of them, mostly Roman granite and marble columns from the province of Hispania, reused with Islamic horseshoe arches on top. The mosque is literally built from the Roman material substrate of the Iberian Peninsula. Roman Baetica became the visual raw material of the most important Islamic building in the western Mediterranean."
+    },
+    {
+      "matchText": "Toledo School of Translators",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "The Toledo translation movement was the western counterpart to what the Byzantine encyclopedist Constantine VII was doing at the same moment in Constantinople: systematically collecting, organizing, and preserving the Greek intellectual inheritance. The difference was direction — the Byzantines were preserving Greek texts in Greek, while Toledo was translating Arabic texts (which were often themselves translations from Greek) into Latin. The two projects together kept the Greek intellectual tradition alive in both halves of the medieval Mediterranean."
+    }
+  ],
+  "8": [
+    {
+      "matchText": "Volga trade route",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "The dirham flood that powered the Viking Age ran on Islamic silver mined in Central Asia and struck in Baghdad. The Scandinavian merchants who paddled south through the Volga river system were, from the Abbasid perspective, a distant trading partner of the Caliphate's commercial periphery — fur and slave traders at the end of a very long supply chain. From the Viking perspective, the dirhams they carried home were the capital that funded longships, settlements in Iceland, and ultimately the Norse presence across the North Atlantic. The Islamic Golden Age funded the Viking Age."
+    },
+    {
+      "matchText": "Han dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 5,
+      "blurb": "The Silk Road trade system that the Abbasid Caliphate dominated in the eighth and ninth centuries was the same system the Han dynasty had helped develop a thousand years earlier. Han China and Abbasid Iraq were the two bookend empires of the Silk Road — separated by a millennium but connected by the same overland routes through Central Asia that carried silk west and silver east. The Islamic mercantile culture that ran the Silk Road in this period was culturally very different from the Han merchants who had opened it, but the routes themselves were continuous."
+    },
+    {
+      "matchText": "Swahili Coast of East Africa",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 6,
+      "blurb": "The East African coastal cities that Islamic Indian Ocean trade built — Mogadishu, Kilwa, Sofala — were the maritime successors to the overland trade networks that had connected sub-Saharan Africa to the Nile Valley and the Mediterranean in antiquity. The Nubian and Kushite kingdoms that had run the trans-African trade routes in the first millennium BCE were the predecessors of the Swahili Coast cities in the second millennium CE. The African commercial geography was continuous; the religion and language of the merchants changed."
+    }
+  ],
+  "9": [
+    {
+      "matchText": "Battle of Manzikert",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Manzikert in 1071 was the hinge event of Byzantine decline — the moment when the theme system that had held Anatolia for four centuries broke, and Turkic settlement began transforming the region. From the Byzantine perspective it was a catastrophe that set in motion the long deterioration ending in 1453. From the Islamic perspective it was the opening of Anatolia to Islam, a transformation that would eventually produce the Ottoman Empire as the most powerful Islamic state of the early modern world."
+    },
+    {
+      "matchText": "First Crusade",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "The First Crusade began as a response to a Byzantine call for help. Emperor Alexios I wanted Western mercenaries to help recover Anatolia from the Seljuks. What arrived instead was an army that operated according to its own agenda, established its own states in the Levant, and treated the Byzantine emperor as an obstacle as often as an ally. The First Crusade deepened the split between Latin and Greek Christendom while failing to solve the Byzantine strategic problem that had prompted it."
+    },
+    {
+      "matchText": "Nizam al-Mulk",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Nizam al-Mulk's Siyasatnama (Book of Government) was explicitly modeled on the Sasanian mirror-for-princes tradition — the political advice literature that Iranian court culture had produced for centuries, the same tradition that had circulated at Gundishapur and been translated by Ibn al-Muqaffa in the early Abbasid period. The Seljuk vizier running the eleventh-century Caliphate was still working from the same administrative playbook that Khosrow I had used five hundred years earlier."
+    },
+    {
+      "matchText": "Saladin formally abolished the Fatimid Caliphate",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 8,
+      "blurb": "Saladin's unification of Egypt and Syria under Ayyubid rule in the 1170s-1180s created an Islamic state that could finally mount a sustained strategic challenge to the Crusader states — and that used Byzantine diplomatic channels as part of its broader foreign policy. The Ayyubid-Byzantine relationship was one of careful mutual avoidance: neither wanted the other to gain in the Levant, but neither was strong enough to destroy the other's position."
+    }
+  ],
+  "10": [
+    {
+      "matchText": "Hulagu Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The sack of Baghdad in 1258 was, from the Mongol perspective, the completion of a strategic objective — the elimination of the Abbasid Caliphate as a political force and the opening of western Asia to Ilkhanate rule. Hulagu's campaign against Baghdad was militarily straightforward (the defenders were outnumbered and outmatched by siege engineers) and politically transformative: it ended the institution that had anchored Sunni political legitimacy for five centuries."
+    },
+    {
+      "matchText": "destruction of Baghdad in February 1258",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Mongol sack of Baghdad was one of the most consequential single events in medieval history — not primarily for the immediate casualties (devastating as those were) but for the institutional destruction. The libraries, the administrative networks, the manuscript collections that existed only in Baghdad were gone. What survived was what had already been transmitted westward to Toledo and Sicily, and what survived in the minds of scholars who fled. The Golden Age's knowledge infrastructure was more robust than it appeared: the texts that mattered most had already escaped."
+    },
+    {
+      "matchText": "Maragha Observatory",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "The Maragha Observatory was built under Mongol patronage within months of the sack of Baghdad — a fact that captures something essential about the relationship between the Mongol destruction and the Islamic intellectual tradition. The same political force that destroyed the House of Wisdom immediately became a patron of the astronomical science the House had fostered. The Mongols destroyed institutions but valued individual scholars; al-Tusi's survival and the Maragha project are the clearest example."
+    },
+    {
+      "matchText": "Mamluk Sultanate",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Mamluk victory at Ayn Jalut in 1260 was the first time a Mongol army had been defeated in the field and failed to regroup and return. It established the western limit of Mongol expansion in the Near East and ensured that Egypt and Syria would survive under Mamluk rule rather than become an Ilkhanate province. The consequence was the survival of the Islamic intellectual tradition in Cairo — al-Azhar continued, the Mamluk madrasas continued, and scholars from the destroyed eastern centers found refuge there."
+    },
+    {
+      "matchText": "Persian intellectual tradition continued under Mongol patronage",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "The cultural resilience that the Persian intellectual tradition showed under Mongol rule — with Rumi writing during the invasion itself and the Ilkhanid court becoming a center of Persian scholarship within two generations — is the same pattern that Persian Empire Ch 10 documents repeatedly: Iranian cultural tradition absorbing its conquerors. The Mongols destroyed more than Alexander and less than nothing could have, because the tradition they encountered was too deeply embedded to be permanently suppressed."
+    }
+  ]
+}
