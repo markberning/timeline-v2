@@ -1,0 +1,882 @@
+{
+  "1": [
+    {
+      "term": "Sengoku period",
+      "matchText": "Sengoku Jidai",
+      "wikiSlug": "Sengoku_period",
+      "type": "concept"
+    },
+    {
+      "term": "Daimyo",
+      "matchText": "daimyo",
+      "wikiSlug": "Daimyo",
+      "type": "concept"
+    },
+    {
+      "term": "Shogun",
+      "matchText": "shogun",
+      "wikiSlug": "Shogun",
+      "type": "concept"
+    },
+    {
+      "term": "Ashikaga shogunate",
+      "matchText": "Ashikaga shogunate",
+      "wikiSlug": "Ashikaga_shogunate",
+      "type": "concept"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Oda Nobunaga",
+      "matchText": "Oda Nobunaga",
+      "wikiSlug": "Oda_Nobunaga",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Nagashino",
+      "matchText": "Battle of Nagashino",
+      "wikiSlug": "Battle_of_Nagashino",
+      "type": "concept"
+    },
+    {
+      "term": "Arquebus",
+      "matchText": "arquebuses",
+      "wikiSlug": "Arquebus",
+      "type": "concept"
+    },
+    {
+      "term": "Honnō-ji Incident",
+      "matchText": "Honnō-ji Incident",
+      "wikiSlug": "Honn%C5%8D-ji_Incident",
+      "type": "concept"
+    },
+    {
+      "term": "Toyotomi Hideyoshi",
+      "matchText": "Toyotomi Hideyoshi",
+      "wikiSlug": "Toyotomi_Hideyoshi",
+      "type": "people"
+    },
+    {
+      "term": "Sword Hunt",
+      "matchText": "Sword Hunt",
+      "wikiSlug": "Sword_hunt",
+      "type": "concept"
+    },
+    {
+      "term": "Yi Sun-sin",
+      "matchText": "Yi Sun-sin",
+      "wikiSlug": "Yi_Sun-sin",
+      "type": "people"
+    },
+    {
+      "term": "Toyotomi Hideyori",
+      "matchText": "Toyotomi Hideyori",
+      "wikiSlug": "Toyotomi_Hideyori",
+      "type": "people"
+    },
+    {
+      "term": "Kanto region",
+      "matchText": "Kantō",
+      "wikiSlug": "Kant%C5%8D_region",
+      "type": "place"
+    },
+    {
+      "term": "Ishida Mitsunari",
+      "matchText": "Ishida Mitsunari",
+      "wikiSlug": "Ishida_Mitsunari",
+      "type": "people"
+    },
+    {
+      "term": "Edo",
+      "matchText": "Edo",
+      "wikiSlug": "Edo",
+      "type": "place"
+    },
+    {
+      "term": "Seppuku",
+      "matchText": "ritual suicide",
+      "wikiSlug": "Seppuku",
+      "type": "concept"
+    },
+    {
+      "term": "Osaka Castle",
+      "matchText": "Osaka Castle",
+      "wikiSlug": "Osaka_Castle",
+      "type": "place"
+    },
+    {
+      "term": "Yodo-dono",
+      "matchText": "Yodo-dono",
+      "wikiSlug": "Yodo-dono",
+      "type": "people"
+    },
+    {
+      "term": "William Adams (sailor)",
+      "matchText": "William Adams",
+      "wikiSlug": "William_Adams_(pilot)",
+      "type": "people"
+    }
+  ],
+  "2": [
+    {
+      "term": "Bakufu",
+      "matchText": "Bakufu",
+      "wikiSlug": "Sh%C5%8Dgun",
+      "type": "concept"
+    },
+    {
+      "term": "Han (administrative division)",
+      "matchText": "Han",
+      "wikiSlug": "Han_system",
+      "type": "concept"
+    },
+    {
+      "term": "Rōjū",
+      "matchText": "Rōjū",
+      "wikiSlug": "R%C5%8Dj%C5%AB",
+      "type": "concept"
+    },
+    {
+      "term": "Koku",
+      "matchText": "koku",
+      "wikiSlug": "Koku",
+      "type": "concept"
+    },
+    {
+      "term": "Tokugawa Three Houses",
+      "matchText": "Gosanke",
+      "wikiSlug": "Gosanke",
+      "type": "concept"
+    },
+    {
+      "term": "Fudai daimyo",
+      "matchText": "Fudai",
+      "wikiSlug": "Fudai_daimy%C5%8D",
+      "type": "concept"
+    },
+    {
+      "term": "Tozama daimyo",
+      "matchText": "Tozama",
+      "wikiSlug": "Tozama_daimy%C5%8D",
+      "type": "concept"
+    },
+    {
+      "term": "Satsuma Domain",
+      "matchText": "Satsuma",
+      "wikiSlug": "Satsuma_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Chōshū Domain",
+      "matchText": "Chōshū",
+      "wikiSlug": "Ch%C5%8Dsh%C5%AB_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Tōkaidō",
+      "matchText": "Tōkaidō",
+      "wikiSlug": "T%C5%8Dkaid%C5%8D_(road)",
+      "type": "place"
+    },
+    {
+      "term": "Nakasendō",
+      "matchText": "Nakasendō",
+      "wikiSlug": "Nakasend%C5%8D",
+      "type": "place"
+    },
+    {
+      "term": "Samurai",
+      "matchText": "samurai",
+      "wikiSlug": "Samurai",
+      "type": "concept"
+    },
+    {
+      "term": "Daishō",
+      "matchText": "daishō",
+      "wikiSlug": "Daish%C5%8D",
+      "type": "concept"
+    },
+    {
+      "term": "Burakumin",
+      "matchText": "burakumin",
+      "wikiSlug": "Burakumin",
+      "type": "people"
+    },
+    {
+      "term": "Eta (outcast)",
+      "matchText": "eta",
+      "wikiSlug": "Burakumin",
+      "type": "people"
+    },
+    {
+      "term": "Hinin",
+      "matchText": "hinin",
+      "wikiSlug": "Hinin",
+      "type": "people"
+    },
+    {
+      "term": "Buddhism in Japan",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism_in_Japan",
+      "type": "concept"
+    },
+    {
+      "term": "Shinto",
+      "matchText": "Shinto",
+      "wikiSlug": "Shinto",
+      "type": "concept"
+    },
+    {
+      "term": "Amaterasu",
+      "matchText": "Amaterasu",
+      "wikiSlug": "Amaterasu",
+      "type": "people"
+    },
+    {
+      "term": "Neo-Confucianism",
+      "matchText": "Neo-Confucianism",
+      "wikiSlug": "Neo-Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Zhu Xi",
+      "matchText": "Zhu Xi",
+      "wikiSlug": "Zhu_Xi",
+      "type": "people"
+    }
+  ],
+  "3": [
+    {
+      "term": "Francis Xavier",
+      "matchText": "Francis Xavier",
+      "wikiSlug": "Francis_Xavier",
+      "type": "people"
+    },
+    {
+      "term": "Society of Jesus",
+      "matchText": "Jesuits",
+      "wikiSlug": "Society_of_Jesus",
+      "type": "concept"
+    },
+    {
+      "term": "Nagasaki",
+      "matchText": "Nagasaki",
+      "wikiSlug": "Nagasaki",
+      "type": "place"
+    },
+    {
+      "term": "Kyushu",
+      "matchText": "Kyushu",
+      "wikiSlug": "Kyushu",
+      "type": "place"
+    },
+    {
+      "term": "Kakure Kirishitan",
+      "matchText": "Kakure Kirishitan",
+      "wikiSlug": "Kakure_Kirishitan",
+      "type": "concept"
+    },
+    {
+      "term": "Hara Castle",
+      "matchText": "Hara Castle",
+      "wikiSlug": "Hara_Castle",
+      "type": "place"
+    },
+    {
+      "term": "Dutch East India Company",
+      "matchText": "Dutch",
+      "wikiSlug": "Dutch_East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Macau",
+      "matchText": "Macau",
+      "wikiSlug": "Macau",
+      "type": "place"
+    },
+    {
+      "term": "Joseon",
+      "matchText": "Joseon Korea",
+      "wikiSlug": "Joseon",
+      "type": "concept"
+    },
+    {
+      "term": "Tsushima",
+      "matchText": "Tsushima",
+      "wikiSlug": "Tsushima_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Ryukyu Kingdom",
+      "matchText": "Ryukyu Kingdom",
+      "wikiSlug": "Ryukyu_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Hokkaido",
+      "matchText": "Hokkaido",
+      "wikiSlug": "Hokkaido",
+      "type": "place"
+    },
+    {
+      "term": "Ainu people",
+      "matchText": "Ainu",
+      "wikiSlug": "Ainu_people",
+      "type": "people"
+    },
+    {
+      "term": "Haijin",
+      "matchText": "haijin",
+      "wikiSlug": "Haijin",
+      "type": "concept"
+    },
+    {
+      "term": "Spanish Inquisition",
+      "matchText": "Spanish Inquisition",
+      "wikiSlug": "Spanish_Inquisition",
+      "type": "concept"
+    },
+    {
+      "term": "Anti-Christian edicts",
+      "matchText": "Bateren Tsuihōrei",
+      "wikiSlug": "Anti-Christian_edicts_in_Japan",
+      "type": "concept"
+    }
+  ],
+  "4": [
+    {
+      "term": "Genroku",
+      "matchText": "Genroku",
+      "wikiSlug": "Genroku",
+      "type": "concept"
+    },
+    {
+      "term": "Chōnin",
+      "matchText": "chōnin",
+      "wikiSlug": "Ch%C5%8Dnin",
+      "type": "concept"
+    },
+    {
+      "term": "Ukiyo",
+      "matchText": "Ukiyo",
+      "wikiSlug": "Ukiyo",
+      "type": "concept"
+    },
+    {
+      "term": "Yoshiwara",
+      "matchText": "Yoshiwara",
+      "wikiSlug": "Yoshiwara",
+      "type": "place"
+    },
+    {
+      "term": "Tayū",
+      "matchText": "tayū",
+      "wikiSlug": "Tay%C5%AB",
+      "type": "concept"
+    },
+    {
+      "term": "Onnagata",
+      "matchText": "onnagata",
+      "wikiSlug": "Onnagata",
+      "type": "concept"
+    },
+    {
+      "term": "Ichikawa Danjūrō",
+      "matchText": "Ichikawa Danjūrō",
+      "wikiSlug": "Ichikawa_Danj%C5%ABr%C5%8D",
+      "type": "people"
+    },
+    {
+      "term": "Mie (pose)",
+      "matchText": "mie",
+      "wikiSlug": "Mie_(pose)",
+      "type": "concept"
+    },
+    {
+      "term": "Sukeroku",
+      "matchText": "Sukeroku",
+      "wikiSlug": "Sukeroku",
+      "type": "concept"
+    },
+    {
+      "term": "Bunraku",
+      "matchText": "bunraku",
+      "wikiSlug": "Bunraku",
+      "type": "concept"
+    },
+    {
+      "term": "Shamisen",
+      "matchText": "shamisen",
+      "wikiSlug": "Shamisen",
+      "type": "concept"
+    },
+    {
+      "term": "The Love Suicides at Sonezaki",
+      "matchText": "The Love Suicides at Sonezaki",
+      "wikiSlug": "The_Love_Suicides_at_Sonezaki",
+      "type": "concept"
+    },
+    {
+      "term": "Ukiyo-e",
+      "matchText": "ukiyo-e",
+      "wikiSlug": "Ukiyo-e",
+      "type": "concept"
+    },
+    {
+      "term": "Woodblock printing in Japan",
+      "matchText": "Woodblock printing",
+      "wikiSlug": "Woodblock_printing_in_Japan",
+      "type": "concept"
+    },
+    {
+      "term": "Haiku",
+      "matchText": "haiku",
+      "wikiSlug": "Haiku",
+      "type": "concept"
+    },
+    {
+      "term": "Oku no Hosomichi",
+      "matchText": "Oku no Hosomichi",
+      "wikiSlug": "Oku_no_Hosomichi",
+      "type": "concept"
+    },
+    {
+      "term": "Ukiyo-zōshi",
+      "matchText": "ukiyo-zōshi",
+      "wikiSlug": "Ukiyo-z%C5%8Dshi",
+      "type": "concept"
+    },
+    {
+      "term": "Koban (coin)",
+      "matchText": "koban",
+      "wikiSlug": "Koban_(coin)",
+      "type": "concept"
+    },
+    {
+      "term": "Mitsui",
+      "matchText": "Mitsui",
+      "wikiSlug": "Mitsui",
+      "type": "concept"
+    },
+    {
+      "term": "Zaibatsu",
+      "matchText": "zaibatsu",
+      "wikiSlug": "Zaibatsu",
+      "type": "concept"
+    },
+    {
+      "term": "Osaka",
+      "matchText": "Osaka",
+      "wikiSlug": "Osaka",
+      "type": "place"
+    },
+    {
+      "term": "Kanrei region",
+      "matchText": "Kinai",
+      "wikiSlug": "Kinai",
+      "type": "place"
+    }
+  ],
+  "5": [
+    {
+      "term": "Akō Domain",
+      "matchText": "Akō",
+      "wikiSlug": "Ak%C5%8D_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Asano Naganori",
+      "matchText": "Asano Naganori",
+      "wikiSlug": "Asano_Naganori",
+      "type": "people"
+    },
+    {
+      "term": "Kira Yoshinaka",
+      "matchText": "Kira Yoshinaka",
+      "wikiSlug": "Kira_Yoshinaka",
+      "type": "people"
+    },
+    {
+      "term": "Ōishi Yoshio",
+      "matchText": "Ōishi Kuranosuke",
+      "wikiSlug": "%C5%8Cishi_Yoshio",
+      "type": "people"
+    },
+    {
+      "term": "Rōnin",
+      "matchText": "rōnin",
+      "wikiSlug": "R%C5%8Dnin",
+      "type": "concept"
+    },
+    {
+      "term": "Bushido",
+      "matchText": "bushido",
+      "wikiSlug": "Bushido",
+      "type": "concept"
+    },
+    {
+      "term": "Seppuku",
+      "matchText": "seppuku",
+      "wikiSlug": "Seppuku",
+      "type": "concept"
+    },
+    {
+      "term": "Sengaku-ji",
+      "matchText": "Sengakuji",
+      "wikiSlug": "Sengaku-ji",
+      "type": "place"
+    },
+    {
+      "term": "Chūshingura",
+      "matchText": "Kanadehon Chūshingura",
+      "wikiSlug": "Ch%C5%ABshingura",
+      "type": "concept"
+    },
+    {
+      "term": "Don Quixote",
+      "matchText": "Don Quixote",
+      "wikiSlug": "Don_Quixote",
+      "type": "concept"
+    },
+    {
+      "term": "Hagakure",
+      "matchText": "Hagakure",
+      "wikiSlug": "Hagakure",
+      "type": "concept"
+    }
+  ],
+  "6": [
+    {
+      "term": "Kanpō",
+      "matchText": "kanpō",
+      "wikiSlug": "Kamp%C5%8D",
+      "type": "concept"
+    },
+    {
+      "term": "Kaitai Shinsho",
+      "matchText": "Kaitai Shinsho",
+      "wikiSlug": "Kaitai_Shinsho",
+      "type": "concept"
+    },
+    {
+      "term": "Maeno Ryōtaku",
+      "matchText": "Maeno Ryōtaku",
+      "wikiSlug": "Maeno_Ry%C5%8Dtaku",
+      "type": "people"
+    },
+    {
+      "term": "Rangaku",
+      "matchText": "Rangaku",
+      "wikiSlug": "Rangaku",
+      "type": "concept"
+    },
+    {
+      "term": "Tokugawa Yoshimune",
+      "matchText": "Tokugawa Yoshimune",
+      "wikiSlug": "Tokugawa_Yoshimune",
+      "type": "people"
+    },
+    {
+      "term": "Oranda tsūji",
+      "matchText": "Nagasaki Dutch interpreters",
+      "wikiSlug": "Oranda_ts%C5%ABji",
+      "type": "concept"
+    },
+    {
+      "term": "Philipp Franz von Siebold",
+      "matchText": "Philipp Franz von Siebold",
+      "wikiSlug": "Philipp_Franz_von_Siebold",
+      "type": "people"
+    },
+    {
+      "term": "Shibukawa Shunkai",
+      "matchText": "Shibukawa Shunkai",
+      "wikiSlug": "Shibukawa_Shunkai",
+      "type": "people"
+    },
+    {
+      "term": "Inō Tadataka",
+      "matchText": "Inō Tadataka",
+      "wikiSlug": "In%C5%8D_Tadataka",
+      "type": "people"
+    },
+    {
+      "term": "Hiraga Gennai",
+      "matchText": "Hiraga Gennai",
+      "wikiSlug": "Hiraga_Gennai",
+      "type": "people"
+    },
+    {
+      "term": "Yokosuka",
+      "matchText": "Yokosuka",
+      "wikiSlug": "Yokosuka,_Kanagawa",
+      "type": "place"
+    },
+    {
+      "term": "European Enlightenment",
+      "matchText": "European Enlightenment",
+      "wikiSlug": "Age_of_Enlightenment",
+      "type": "concept"
+    },
+    {
+      "term": "First Opium War",
+      "matchText": "First Opium War",
+      "wikiSlug": "First_Opium_War",
+      "type": "concept"
+    }
+  ],
+  "7": [
+    {
+      "term": "Matsudaira Sadanobu",
+      "matchText": "Matsudaira Sadanobu",
+      "wikiSlug": "Matsudaira_Sadanobu",
+      "type": "people"
+    },
+    {
+      "term": "Mizuno Tadakuni",
+      "matchText": "Mizuno Tadakuni",
+      "wikiSlug": "Mizuno_Tadakuni",
+      "type": "people"
+    },
+    {
+      "term": "Ikki",
+      "matchText": "ikki",
+      "wikiSlug": "Ikki",
+      "type": "concept"
+    },
+    {
+      "term": "Tenmei famine",
+      "matchText": "Tenmei famine",
+      "wikiSlug": "Tenmei_famine",
+      "type": "concept"
+    },
+    {
+      "term": "Laki eruption",
+      "matchText": "Laki",
+      "wikiSlug": "Laki",
+      "type": "place"
+    },
+    {
+      "term": "Mount Asama",
+      "matchText": "Mount Asama",
+      "wikiSlug": "Mount_Asama",
+      "type": "place"
+    },
+    {
+      "term": "Tenpō famine",
+      "matchText": "Tenpō famine",
+      "wikiSlug": "Tenp%C5%8D_famine",
+      "type": "concept"
+    },
+    {
+      "term": "Ōshio Heihachirō",
+      "matchText": "Ōshio Heihachirō",
+      "wikiSlug": "%C5%8Cshio_Heihachir%C5%8D",
+      "type": "people"
+    },
+    {
+      "term": "Phaeton Incident",
+      "matchText": "Phaeton Incident",
+      "wikiSlug": "Phaeton_Incident",
+      "type": "concept"
+    },
+    {
+      "term": "Kokugaku",
+      "matchText": "Kokugaku",
+      "wikiSlug": "Kokugaku",
+      "type": "concept"
+    },
+    {
+      "term": "Motoori Norinaga",
+      "matchText": "Motoori Norinaga",
+      "wikiSlug": "Motoori_Norinaga",
+      "type": "people"
+    },
+    {
+      "term": "Industrial Revolution",
+      "matchText": "Industrial Revolution",
+      "wikiSlug": "Industrial_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Napoleonic Wars",
+      "matchText": "Napoleonic Wars",
+      "wikiSlug": "Napoleonic_Wars",
+      "type": "concept"
+    },
+    {
+      "term": "Hokusai",
+      "matchText": "Hokusai",
+      "wikiSlug": "Hokusai",
+      "type": "people"
+    },
+    {
+      "term": "Hiroshige",
+      "matchText": "Hiroshige",
+      "wikiSlug": "Hiroshige",
+      "type": "people"
+    },
+    {
+      "term": "Utamaro",
+      "matchText": "Utamaro",
+      "wikiSlug": "Kitagawa_Utamaro",
+      "type": "people"
+    }
+  ],
+  "8": [
+    {
+      "term": "Matthew C. Perry",
+      "matchText": "Matthew Calbraith Perry",
+      "wikiSlug": "Matthew_C._Perry",
+      "type": "people"
+    },
+    {
+      "term": "Millard Fillmore",
+      "matchText": "Millard Fillmore",
+      "wikiSlug": "Millard_Fillmore",
+      "type": "people"
+    },
+    {
+      "term": "Uraga, Kanagawa",
+      "matchText": "Uraga",
+      "wikiSlug": "Uraga,_Kanagawa",
+      "type": "place"
+    },
+    {
+      "term": "Steam frigate",
+      "matchText": "steam frigates",
+      "wikiSlug": "Steam_frigate",
+      "type": "concept"
+    },
+    {
+      "term": "Abe Masahiro",
+      "matchText": "Abe Masahiro",
+      "wikiSlug": "Abe_Masahiro",
+      "type": "people"
+    },
+    {
+      "term": "Convention of Kanagawa",
+      "matchText": "Treaty of Kanagawa",
+      "wikiSlug": "Convention_of_Kanagawa",
+      "type": "concept"
+    },
+    {
+      "term": "Townsend Harris",
+      "matchText": "Townsend Harris",
+      "wikiSlug": "Townsend_Harris",
+      "type": "people"
+    },
+    {
+      "term": "Unequal treaty",
+      "matchText": "unequal treaty regime",
+      "wikiSlug": "Unequal_treaty",
+      "type": "concept"
+    },
+    {
+      "term": "Emperor Kōmei",
+      "matchText": "Emperor Kōmei",
+      "wikiSlug": "Emperor_K%C5%8Dmei",
+      "type": "people"
+    },
+    {
+      "term": "Ii Naosuke",
+      "matchText": "Ii Naosuke",
+      "wikiSlug": "Ii_Naosuke",
+      "type": "people"
+    },
+    {
+      "term": "Yoshida Shōin",
+      "matchText": "Yoshida Shōin",
+      "wikiSlug": "Yoshida_Sh%C5%8Din",
+      "type": "people"
+    },
+    {
+      "term": "Namamugi Incident",
+      "matchText": "Namamugi Incident",
+      "wikiSlug": "Namamugi_Incident",
+      "type": "concept"
+    },
+    {
+      "term": "Sakamoto Ryōma",
+      "matchText": "Sakamoto Ryōma",
+      "wikiSlug": "Sakamoto_Ry%C5%8Dma",
+      "type": "people"
+    },
+    {
+      "term": "Tokugawa Yoshinobu",
+      "matchText": "Tokugawa Yoshinobu",
+      "wikiSlug": "Tokugawa_Yoshinobu",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Toba-Fushimi",
+      "matchText": "Toba-Fushimi",
+      "wikiSlug": "Battle_of_Toba%E2%80%93Fushimi",
+      "type": "concept"
+    },
+    {
+      "term": "Republic of Ezo",
+      "matchText": "Republic of Ezo",
+      "wikiSlug": "Republic_of_Ezo",
+      "type": "concept"
+    },
+    {
+      "term": "Enomoto Takeaki",
+      "matchText": "Enomoto Takeaki",
+      "wikiSlug": "Enomoto_Takeaki",
+      "type": "people"
+    },
+    {
+      "term": "Emperor Meiji",
+      "matchText": "Emperor Meiji",
+      "wikiSlug": "Emperor_Meiji",
+      "type": "people"
+    },
+    {
+      "term": "Charter Oath",
+      "matchText": "Charter Oath",
+      "wikiSlug": "Charter_Oath",
+      "type": "concept"
+    },
+    {
+      "term": "Fukuzawa Yukichi",
+      "matchText": "Fukuzawa Yukichi",
+      "wikiSlug": "Fukuzawa_Yukichi",
+      "type": "people"
+    },
+    {
+      "term": "Katsu Kaishū",
+      "matchText": "Katsu Kaishū",
+      "wikiSlug": "Katsu_Kaish%C5%AB",
+      "type": "people"
+    },
+    {
+      "term": "Kanrin Maru",
+      "matchText": "Kanrin Maru",
+      "wikiSlug": "Kanrin_Maru",
+      "type": "concept"
+    },
+    {
+      "term": "Keio University",
+      "matchText": "Keio University",
+      "wikiSlug": "Keio_University",
+      "type": "place"
+    },
+    {
+      "term": "Russo-Japanese War",
+      "matchText": "defeated Russia",
+      "wikiSlug": "Russo-Japanese_War",
+      "type": "concept"
+    },
+    {
+      "term": "Meiji Constitution",
+      "matchText": "Meiji Constitution",
+      "wikiSlug": "Meiji_Constitution",
+      "type": "concept"
+    }
+  ]
+}

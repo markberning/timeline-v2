@@ -1,0 +1,1073 @@
+{
+  "id": "joseon-korea",
+  "label": "Joseon Korea",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Joseon",
+  "imageWikiSlug": "Gyeongbokgung",
+  "pitch": "Korea's longest-lasting dynasty (1392-1897), Joseon built one of history's most sophisticated Confucian societies. King Sejong the Great invented Hangul so commoners could read — a radical act of democratization — while Admiral Yi Sun-sin deployed legendary turtle ships to destroy a Japanese invasion fleet and save the nation.\n\n🔑 Key Facts:\n• The Founding of Joseon in 1392 established a Neo-Confucian state ideology that shaped Korean culture for 500 years\n• Jang Yeong-sil's inventions under Sejong included the world's first standardized rain gauge, centuries before European equivalents\n• Gyeongbokgung Palace built in 1395 became the seat of power, and the Annals of the Joseon Dynasty are among the most comprehensive royal records in world history\n• The Imjin War devastated the peninsula but forged Korean national identity through resistance\n\n🤔 Why It Matters: Joseon's legacy lives on in modern Korea — from Hangul (still the Korean alphabet), to Confucian social values, to the fierce independence that defines both North and South Korea today.\n\n🎲 Wild Card: Heo Jun's Dongui Bogam, a medical encyclopedia compiled by 1610 and printed in 1613, was so comprehensive it became a UNESCO Memory of the World document — and traditional Korean medicine based on it is still practiced today.",
+  "countryIds": [
+    "410",
+    "408"
+  ],
+  "spans": [
+    {
+      "id": "span-joseon-korea-early-joseon",
+      "label": "Early Joseon",
+      "startYear": 1392,
+      "endYear": 1494,
+      "description": "The dynasty's foundational century saw the capital established at Hanyang (Seoul), Gyeongbokgung Palace built, and Neo-Confucianism adopted as state ideology. King Sejong the Great created Hangul and sponsored groundbreaking scientific inventions.",
+      "wikiSlug": "Early_Joseon_period"
+    },
+    {
+      "id": "span-joseon-korea-joseon-golden-age",
+      "label": "Joseon Golden Age",
+      "startYear": 1494,
+      "endYear": 1592,
+      "description": "Neo-Confucian scholarship flourished under philosophers like Yi Hwang and Yi I, while the Gyeongguk Daejeon law code governed the realm. Literati purges periodically destabilized the court, but the era was one of cultural and intellectual achievement.",
+      "wikiSlug": "Joseon"
+    },
+    {
+      "id": "span-joseon-korea-japanese-invasions",
+      "label": "Japanese Invasions Period",
+      "startYear": 1592,
+      "endYear": 1637,
+      "description": "Toyotomi Hideyoshi's invasion of 158,000 troops devastated the peninsula before Admiral Yi Sun-sin's naval victories and Ming Chinese aid turned the tide. Two subsequent Manchu invasions further ravaged Korea and forced submission to the Qing dynasty.",
+      "wikiSlug": "Japanese_invasions_of_Korea_(1592%E2%80%931598)"
+    },
+    {
+      "id": "span-joseon-korea-late-joseon",
+      "label": "Late Joseon",
+      "startYear": 1637,
+      "endYear": 1800,
+      "description": "Korea recovered from the invasions under strong monarchs like Yeongjo and Jeongjo, who pursued reform and cultural revival. The Silhak practical learning movement challenged orthodox Neo-Confucianism, and Hwaseong Fortress showcased innovative military architecture.",
+      "wikiSlug": "Joseon"
+    },
+    {
+      "id": "span-joseon-korea-joseon-decline",
+      "label": "Joseon Decline",
+      "startYear": 1800,
+      "endYear": 1910,
+      "description": "Internal corruption, Catholic persecutions, and strict isolationism left Korea unprepared for Western and Japanese pressure. The Donghak Peasant Revolution and unequal treaties eroded sovereignty until Japanese annexation formally ended the dynasty in 1910.",
+      "wikiSlug": "Korean_Empire"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-joseon-founding",
+      "label": "Founding of Joseon",
+      "year": 1392,
+      "description": "Yi Seong-gye overthrew the Goryeo dynasty and established the Joseon dynasty, which would rule Korea for over five centuries.",
+      "wikiSlug": "Joseon",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-wihwado-retreat",
+      "label": "Wihwado Retreat",
+      "year": 1388,
+      "description": "Sent by King U of Goryeo to invade Ming-controlled Manchuria, General Yi Seong-gye instead turned his army around at Wihwa Island in the Yalu River and marched on the capital Gaegyeong, seizing power and ending Goryeo rule four years later.",
+      "wikiSlug": "Wihwado_Retreat",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-taejo",
+      "label": "King Taejo",
+      "year": 1392,
+      "endYear": 1398,
+      "description": "Yi Seong-gye reigned as Taejo, the founding king who moved the capital to Hanyang (Seoul) and adopted Neo-Confucianism as state ideology.",
+      "wikiSlug": "Taejo_of_Joseon",
+      "tier": 2,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jeong-do-jeon",
+      "label": "Jeong Do-jeon",
+      "year": 1392,
+      "endYear": 1398,
+      "description": "Jeong Do-jeon was the chief Neo-Confucian ideologue of the Joseon founding, designing the new capital, drafting the dynasty's legal and philosophical code, and arguing that the king should be a moral figurehead while scholar-officials governed. Killed in 1398 by Taejo's son Yi Bang-won in the First Strife of Princes.",
+      "wikiSlug": "Jeong_Do-jeon",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-strife-of-princes",
+      "label": "Strife of Princes",
+      "year": 1398,
+      "endYear": 1400,
+      "description": "Yi Bang-won (later King Taejong) murdered his half-brothers and Jeong Do-jeon in 1398, then crushed his elder brother's revolt in 1400, consolidating royal authority and forcing Taejo into bitter abdication.",
+      "wikiSlug": "First_Strife_of_Princes",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hanyang-capital",
+      "label": "Hanyang Becomes Capital",
+      "year": 1394,
+      "description": "Taejo designated Hanyang (modern Seoul) as the new capital, beginning construction of palaces and city walls along the perimeter of the basin ringed by Mount Bugak, Mount Inwang, Mount Namsan, and Mount Naksan.",
+      "wikiSlug": "Seoul",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gyeongbokgung",
+      "label": "Gyeongbokgung Palace Built",
+      "year": 1395,
+      "description": "The main royal palace of Joseon was constructed in Hanyang, serving as the seat of government for two centuries until burned during the Imjin War.",
+      "wikiSlug": "Gyeongbokgung",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jongmyo-shrine",
+      "label": "Jongmyo Royal Shrine",
+      "year": 1395,
+      "description": "The Confucian royal ancestral shrine in Hanyang was built to house the spirit tablets of every Joseon king and queen. Annual ritual sacrifices accompanied by Jongmyo Jeryeak court music continued for five centuries and are now UNESCO Intangible Cultural Heritage.",
+      "wikiSlug": "Jongmyo",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-confucian-state",
+      "label": "Neo-Confucian State Ideology",
+      "year": 1394,
+      "description": "Joseon formally adopted Neo-Confucianism as the state philosophy, replacing Buddhism and reshaping Korean society around Confucian ethics and hierarchy.",
+      "wikiSlug": "Korean_Confucianism",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-korean-buddhism-suppression",
+      "label": "Buddhist Suppression",
+      "year": 1400,
+      "description": "Joseon systematically suppressed Buddhism, confiscating temple lands, dissolving most monasteries, banning monks from entering the capital, and stripping the Buddhist clergy of every trace of political influence it had enjoyed under Goryeo.",
+      "wikiSlug": "Korean_Buddhism",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-sungkyunkwan",
+      "label": "Sungkyunkwan Academy",
+      "year": 1398,
+      "description": "The national Confucian academy was established in Hanyang as the highest educational institution, training scholars for civil service. Its name means 'Hall of Perfecting Norms,' and it remains in continuous operation today.",
+      "wikiSlug": "Sungkyunkwan",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-changdeokgung",
+      "label": "Changdeokgung Palace",
+      "year": 1405,
+      "description": "Built as a secondary palace, Changdeokgung became famous for its Secret Garden and is now a UNESCO World Heritage Site. It served as the working palace for most of the Joseon dynasty after Gyeongbokgung was destroyed in 1592.",
+      "wikiSlug": "Changdeokgung",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-taejong",
+      "label": "King Taejong",
+      "year": 1400,
+      "endYear": 1418,
+      "description": "Taejong consolidated royal power by eliminating rival factions and reforming government administration, laying foundations for Joseon's golden age and the smooth succession of his son Sejong.",
+      "wikiSlug": "Taejong_of_Joseon",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-movable-type",
+      "label": "Metal Movable Type Printing",
+      "year": 1403,
+      "description": "Joseon cast bronze movable type for the Gyemija typeface, building on Korea's pioneering role in printing technology — a half century before Gutenberg's press in Europe.",
+      "wikiSlug": "Movable_type#Korea",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-annals-joseon",
+      "label": "Annals of the Joseon Dynasty",
+      "year": 1413,
+      "description": "Joseon began systematic compilation of the Veritable Records, kept by independent court historians forbidden from showing them to the king, eventually filling 1,893 volumes covering every reign from Taejo to Cheoljong — one of the most comprehensive dynastic histories in world history.",
+      "wikiSlug": "Annals_of_the_Joseon_dynasty",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sejong",
+      "label": "King Sejong the Great",
+      "year": 1418,
+      "endYear": 1450,
+      "description": "Sejong is regarded as Korea's greatest ruler, presiding over an era of cultural and scientific achievement including the creation of Hangul.",
+      "wikiSlug": "Sejong_the_Great",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hall-of-worthies",
+      "label": "Hall of Worthies",
+      "year": 1420,
+      "description": "Sejong revived and expanded the Jiphyeonjeon (Hall of Worthies), a royal research institute staffed with the brightest scholars of the kingdom, who collaborated on the Hangul project, calendar reform, the agricultural manual, and dozens of other state-sponsored books.",
+      "wikiSlug": "Hall_of_Worthies",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hangul",
+      "label": "Creation of Hangul",
+      "year": 1443,
+      "description": "King Sejong promulgated Hangul, a phonetic alphabet whose 28 letters were designed to mirror the shapes the mouth makes when speaking — making it one of the most linguistically scientific writing systems ever created.",
+      "wikiSlug": "Hangul",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hunminjeongeum",
+      "label": "Hunminjeongeum",
+      "year": 1446,
+      "description": "Sejong officially proclaimed the new alphabet in a brief preface, declaring that 'a wise man can acquaint himself with these letters before the morning is over; even a stupid man can learn them in the space of ten days.' The accompanying scholarly explanation is now UNESCO Memory of the World.",
+      "wikiSlug": "Hunminjeongeum",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jang-yeong-sil",
+      "label": "Jang Yeong-sil's Inventions",
+      "year": 1432,
+      "description": "Born a government slave for his expertise as a metallurgist, Jang Yeong-sil rose under Sejong's patronage to invent the rain gauge, the self-striking water clock Jagyeongnu, the first iron-printing-press parts, and a celestial globe for tracking the heavens.",
+      "wikiSlug": "Jang_Yeong-sil",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-rain-gauge",
+      "label": "World's First Rain Gauge",
+      "year": 1441,
+      "description": "Korea developed the cheugugi, a standardized bronze rain gauge distributed to every county for systematic precipitation measurement — over 200 years before European equivalents.",
+      "wikiSlug": "Cheugugi",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-jagyeongnu",
+      "label": "Jagyeongnu Water Clock",
+      "year": 1434,
+      "description": "Jang Yeong-sil's self-striking water clock used a system of brass balls, levers, and figurines to automatically announce the hours by gong, drum, and bell. It stood in the courtyard of Gyeongbokgung as the official state timekeeper.",
+      "wikiSlug": "Jagyeongnu",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-japanese-trade",
+      "label": "Treaty of Gyehae",
+      "year": 1443,
+      "description": "Joseon regulated Japanese trade through the Treaty of Gyehae, permitting the So clan of Tsushima to send 50 trading ships per year through the port of Busan and ending decades of unregulated wokou pirate raids on the southern coast.",
+      "wikiSlug": "Treaty_of_Gyehae",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jurchen-campaigns",
+      "label": "Sejong's Jurchen Campaigns",
+      "year": 1433,
+      "description": "Sejong dispatched generals Kim Jong-seo and Choe Yun-deok to drive Jurchen tribes north of the Tumen and Yalu rivers, establishing the Six Forts and Four Districts that fixed Korea's northern border at roughly its modern shape.",
+      "wikiSlug": "Six_Garrisons_and_Four_Forts",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-yangban-class",
+      "label": "Yangban Class",
+      "year": 1450,
+      "description": "The yangban — the Confucian scholar-gentry who passed the civil service exams — became Joseon's hereditary ruling class, exempted from taxes and military service, expected to live a life of literary cultivation, ritual propriety, and political faction-fighting.",
+      "wikiSlug": "Yangban",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-civil-service-exam",
+      "label": "Gwageo Civil Service Exam",
+      "year": 1450,
+      "description": "Joseon's gwageo exam tested mastery of the Chinese classics in three rounds, with the highest stages held in the king's presence. In theory open to most freeborn men; in practice almost exclusively passed by sons of yangban families with the resources for decades of study.",
+      "wikiSlug": "Gwageo",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nongsa-jikseol",
+      "label": "Nongsa Jikseol",
+      "year": 1429,
+      "description": "Sejong commissioned the Nongsa Jikseol, the first agricultural manual based on direct interviews with experienced Korean farmers rather than copied from Chinese sources, distributed to every magistrate to spread proven local techniques.",
+      "wikiSlug": "Nongsa_jikseol",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-seongjong",
+      "label": "King Seongjong",
+      "year": 1469,
+      "endYear": 1494,
+      "description": "Seongjong presided over a cultural golden age, completing the Grand Code for State Administration that codified Joseon's legal system and elevating the Sarim faction of provincial Confucian scholars into the central court.",
+      "wikiSlug": "Seongjong_of_Joseon",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-grand-code",
+      "label": "Gyeongguk Daejeon Law Code",
+      "year": 1485,
+      "description": "The comprehensive legal code was completed under Seongjong, establishing the administrative, fiscal, and ritual framework that governed Joseon for the next four centuries.",
+      "wikiSlug": "Gyeongguk_daejeon",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-literati-purges",
+      "label": "Literati Purges",
+      "year": 1498,
+      "endYear": 1545,
+      "description": "Four major purges of Neo-Confucian Sarim scholars by rival Hungu faction officials and by King Yeonsangun killed hundreds of literati and destabilized court politics for nearly half a century.",
+      "wikiSlug": "Korean_literati_purges",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-yeonsangun",
+      "label": "Yeonsangun",
+      "year": 1494,
+      "endYear": 1506,
+      "description": "Joseon's most notorious tyrant, Yeonsangun launched two literati purges, executed his own grandmother's relatives, turned Sungkyunkwan Academy into a private pleasure ground, and was finally deposed by a yangban coup that put his half-brother Jungjong on the throne.",
+      "wikiSlug": "Yeonsangun",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-yi-hwang",
+      "label": "Yi Hwang (Toegye)",
+      "year": 1501,
+      "endYear": 1570,
+      "description": "Yi Hwang, scholar name Toegye, was Korea's most influential Neo-Confucian philosopher, whose four-seven debate writings refined the metaphysics of li (principle) and gi (material force) and shaped East Asian intellectual thought for centuries. His face is on the 1,000-won note.",
+      "wikiSlug": "Yi_Hwang",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-yi-i",
+      "label": "Yi I (Yulgok)",
+      "year": 1536,
+      "endYear": 1584,
+      "description": "Philosopher and statesman Yi I, scholar name Yulgok, advocated for military preparedness (his ten-thousand-soldier proposal was famously rejected on the eve of the Imjin War), institutional reform, and a more pragmatic reading of Neo-Confucian metaphysics. His face is on the 5,000-won note.",
+      "wikiSlug": "Yi_I",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-shin-saimdang",
+      "label": "Shin Saimdang",
+      "year": 1504,
+      "endYear": 1551,
+      "description": "Shin Saimdang was celebrated as Korea's ideal woman and a renowned painter and calligrapher whose surviving grass-and-insect paintings rank among the finest of Joseon. Mother of Yi I; her face is on the 50,000-won note, the highest-denomination Korean banknote.",
+      "wikiSlug": "Shin_Saimdang",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-seowon-academies",
+      "label": "Seowon Private Academies",
+      "year": 1543,
+      "description": "The first seowon, a private Confucian academy for advanced study and ancestor worship of revered scholars, was founded at Sosu Seowon. The seowon network would eventually number over 600, becoming the institutional power base of the provincial Sarim literati and a UNESCO World Heritage site.",
+      "wikiSlug": "Seowon",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ginseng-trade",
+      "label": "Ginseng Export Trade",
+      "year": 1500,
+      "description": "Korean ginseng became a major export commodity to China and Japan, forming a cornerstone of Joseon's international trade and the foundation of merchant fortunes in Kaesong.",
+      "wikiSlug": "Korean_ginseng",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-imjin-war",
+      "label": "Imjin War",
+      "year": 1592,
+      "endYear": 1598,
+      "description": "Toyotomi Hideyoshi invaded Korea with roughly 158,000 troops armed with European matchlock muskets, devastating the peninsula before being repelled by a combination of Korean naval victories, Ming Chinese intervention, and Hideyoshi's death.",
+      "wikiSlug": "Japanese_invasions_of_Korea_(1592%E2%80%931598)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-yi-sun-sin",
+      "label": "Admiral Yi Sun-sin",
+      "year": 1545,
+      "endYear": 1598,
+      "description": "Yi Sun-sin was the Joseon naval commander whose innovations in ship design, gunnery, and tactics produced an unbroken string of victories over the Japanese fleet — including the legendary 13-against-133 victory at Myeongnyang — and saved Korea from conquest.",
+      "wikiSlug": "Yi_Sun-sin",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-turtle-ships",
+      "label": "Turtle Ships (Geobukseon)",
+      "year": 1592,
+      "description": "Yi Sun-sin's geobukseon were heavily armored warships with iron-spiked roofs to prevent boarding, dragon-head prows, and broadsides bristling with cannon — purpose-built to ram and shatter the lighter Japanese transports.",
+      "wikiSlug": "Turtle_ship",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-battle-hansan",
+      "label": "Battle of Hansan Island",
+      "year": 1592,
+      "description": "Yi Sun-sin's most famous open-water victory: using a crane-wing formation, the Joseon fleet destroyed 47 of 73 Japanese warships off Hansan Island, severing Hideyoshi's seaborne supply line and turning the war.",
+      "wikiSlug": "Battle_of_Hansan_Island",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-myeongnyang",
+      "label": "Battle of Myeongnyang",
+      "year": 1597,
+      "description": "Reinstated as admiral after a year of disgrace and given just 13 surviving ships, Yi Sun-sin lured a Japanese fleet of 133 vessels into the Myeongnyang Strait at the moment of strongest tidal current and destroyed 31 of them without losing a single Korean ship.",
+      "wikiSlug": "Battle_of_Myeongnyang",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-noryang",
+      "label": "Battle of Noryang",
+      "year": 1598,
+      "description": "The final naval battle of the Imjin War: a combined Joseon-Ming fleet under Yi Sun-sin and Chen Lin destroyed roughly half of the retreating Japanese fleet. Yi Sun-sin was struck by a stray bullet and died on deck, ordering his death concealed until the battle was won.",
+      "wikiSlug": "Battle_of_Noryang",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ming-intervention",
+      "label": "Ming Intervention",
+      "year": 1593,
+      "description": "The Ming dynasty sent over 40,000 troops under Li Rusong to expel the Japanese, recapturing Pyongyang in early 1593 and stalemating Hideyoshi's army. Ming participation cost the dynasty an enormous sum that contributed to its later collapse.",
+      "wikiSlug": "Ming_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-righteous-armies",
+      "label": "Righteous Army Resistance",
+      "year": 1592,
+      "description": "Korean civilian guerrilla forces known as Uibyeong (Righteous Armies), organized by yangban scholars, Buddhist monks, and farmers, harassed Japanese supply lines and held mountain fortresses across the country during and after the official military's collapse.",
+      "wikiSlug": "Righteous_army",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gwon-yul-haengju",
+      "label": "Battle of Haengju",
+      "year": 1593,
+      "description": "General Gwon Yul, with about 2,300 Koreans and a contingent of Buddhist monk-soldiers, defended the Haengju mountain fortress against roughly 30,000 Japanese troops, repelling nine assaults in a single day with the help of a primitive multi-rocket-launcher called the hwacha.",
+      "wikiSlug": "Siege_of_Haengju",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hwacha",
+      "label": "Hwacha Rocket Launcher",
+      "year": 1593,
+      "description": "The hwacha was a wheeled cart mounting 100 to 200 singijeon arrow-rockets fired in a single salvo. Used at Haengju and on city walls across Korea, it was one of the most effective gunpowder weapons of the sixteenth-century battlefield.",
+      "wikiSlug": "Hwacha",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-imjin-pottery-transfer",
+      "label": "Korean Potters Taken to Japan",
+      "year": 1598,
+      "description": "Retreating Japanese armies systematically captured Korean potters, weavers, papermakers, and printers, deporting an estimated 50,000 to 100,000 people. The kidnapped potters founded the Arita and Satsuma porcelain industries, transforming Japanese ceramics for centuries.",
+      "wikiSlug": "Japanese_invasions_of_Korea_(1592%E2%80%931598)",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-manchu-invasion-1627",
+      "label": "First Manchu Invasion",
+      "year": 1627,
+      "description": "The Later Jin dynasty invaded Joseon with 30,000 troops, forcing King Injo to flee Hanyang and accept brother-state status alongside Korea's existing tributary relationship with the Ming.",
+      "wikiSlug": "Later_Jin_invasion_of_Joseon",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-manchu-invasion-1636",
+      "label": "Second Manchu Invasion",
+      "year": 1636,
+      "description": "Hong Taiji, now styling himself Qing Emperor, invaded with 120,000 troops, trapping King Injo in the mountain fortress of Namhansanseong. After 47 days of siege, Injo surrendered at Samjeondo and ritually kowtowed to Hong Taiji nine times — a humiliation that scarred Korean political memory for centuries.",
+      "wikiSlug": "Qing_invasion_of_Joseon",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-namhansanseong",
+      "label": "Siege of Namhansanseong",
+      "year": 1636,
+      "description": "King Injo, his court, and 14,000 troops endured 47 days of siege at the Namhansanseong mountain fortress just southeast of Hanyang in the deep cold of late 1636 before capitulating to the Manchus. Now a UNESCO World Heritage site.",
+      "wikiSlug": "Namhansanseong",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-samjeondo-surrender",
+      "label": "Samjeondo Surrender",
+      "year": 1637,
+      "description": "Injo descended from Namhansanseong, dressed in white commoner's robes, and performed the sambae gugodu — three kneelings and nine prostrations — before Hong Taiji on the riverbank at Samjeondo. The Qing erected a stele commemorating the event that survives today on the south bank of the Han River.",
+      "wikiSlug": "Samjeondo_Monument",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sohyeon-prince",
+      "label": "Crown Prince Sohyeon",
+      "year": 1637,
+      "endYear": 1645,
+      "description": "Held hostage in Manchu Mukden and then Qing Beijing for eight years, Crown Prince Sohyeon befriended the Jesuit Adam Schall von Bell, learned Western astronomy and Catholicism, and returned to Korea in 1645 — only to die suddenly two months later, possibly poisoned by his father King Injo, who feared his foreign sympathies.",
+      "wikiSlug": "Crown_Prince_Sohyeon",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-heo-jun",
+      "label": "Heo Jun's Dongui Bogam",
+      "year": 1610,
+      "description": "Royal physician Heo Jun completed the Dongui Bogam (Treasured Mirror of Eastern Medicine) in 1610, an encyclopedic medical text in 25 volumes synthesizing Chinese and Korean medical knowledge. Printed in 1613 and named UNESCO Memory of the World; the practice tradition based on it survives today.",
+      "wikiSlug": "Dongui_Bogam",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-hermit-kingdom-policy",
+      "label": "Sea Ban Policy",
+      "year": 1640,
+      "description": "After the Manchu trauma, Joseon clamped down even harder on foreign contact, banning private overseas trade, restricting foreigners to Busan's Waegwan Japan-house, and earning the nickname 'Hermit Kingdom' that would stick for the next 250 years.",
+      "wikiSlug": "Hermit_kingdom",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-hendrick-hamel",
+      "label": "Hendrick Hamel Shipwreck",
+      "year": 1653,
+      "description": "Dutch sailor Hendrick Hamel and 35 crewmates from the Sperwer were shipwrecked on Jeju Island, held for 13 years in Joseon, escaped to Japan, and published the first detailed European account of Korea — a book that remained the West's best Korea source for two hundred years.",
+      "wikiSlug": "Hendrick_Hamel",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hyojong-northern-expedition",
+      "label": "King Hyojong's Northern Expedition",
+      "year": 1649,
+      "endYear": 1659,
+      "description": "Hyojong, who had been a hostage of the Qing alongside his elder brother Sohyeon, plotted a never-launched military expedition north against the Qing to avenge the Samjeondo humiliation. Joseon trained matchlockmen for a war that never came.",
+      "wikiSlug": "Hyojong_of_Joseon",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-silhak",
+      "label": "Silhak Practical Learning",
+      "year": 1670,
+      "description": "The Silhak movement emerged among scholars advocating practical reforms in agriculture, commerce, technology, and governance over the abstract metaphysical debates that had absorbed mainstream Neo-Confucianism for a century.",
+      "wikiSlug": "Silhak",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-yu-hyeong-won",
+      "label": "Yu Hyeong-won",
+      "year": 1622,
+      "endYear": 1673,
+      "description": "Yu Hyeong-won, the founding figure of Silhak, spent twenty years in rural retirement writing the Bangye Surok, a sweeping reform proposal advocating the redistribution of land, the abolition of slavery, and a meritocratic civil service open to all classes.",
+      "wikiSlug": "Yu_Hyeong-won",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jeong-yak-yong",
+      "label": "Jeong Yak-yong (Dasan)",
+      "year": 1762,
+      "endYear": 1836,
+      "description": "Jeong Yak-yong, scholar name Dasan, was the greatest Silhak polymath: he designed the pulley crane that lifted Hwaseong Fortress's stones, wrote 500 books on governance, ethics, and statecraft, and spent 18 years in exile after his Catholic ties were exposed.",
+      "wikiSlug": "Jeong_Yak-yong",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-park-ji-won",
+      "label": "Park Ji-won (Yeonam)",
+      "year": 1737,
+      "endYear": 1805,
+      "description": "Park Ji-won, scholar name Yeonam, accompanied a Korean embassy to Beijing in 1780 and wrote the Yeolha Ilgi (Jehol Diary), a 26-volume travelogue mixing journalism, satire, fiction, and impassioned argument for adopting Qing technology — a Joseon literary masterpiece.",
+      "wikiSlug": "Park_Ji-won_(scholar)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-faction-wars",
+      "label": "Faction Wars",
+      "year": 1575,
+      "endYear": 1762,
+      "description": "Joseon court politics fractured into permanent factional camps — Easterners and Westerners (1575), then Northerners and Southerners, then Old Doctrine (Noron) and Young Doctrine (Soron) — each group tracking philosophical lineages from Yi Hwang or Yi I and willing to destroy rivals over points of ritual.",
+      "wikiSlug": "Joseon_political_factions",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ritual-controversy",
+      "label": "Yesong Ritual Controversies",
+      "year": 1659,
+      "endYear": 1674,
+      "description": "Two debates over how long the dowager queen should mourn her stepson and grandson — points of pure Confucian ritual — split the court into Westerner and Southerner camps and resulted in executions, exiles, and the rise and fall of two government majorities.",
+      "wikiSlug": "Yesong",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-yeongjo",
+      "label": "King Yeongjo",
+      "year": 1724,
+      "endYear": 1776,
+      "description": "Yeongjo reigned for 52 years, the longest in Joseon history, pursuing a Tangpyeong (impartiality) policy of balanced faction appointments to end the factional bloodletting. Famously starved his own son, Crown Prince Sado, to death in a rice chest in 1762.",
+      "wikiSlug": "Yeongjo_of_Joseon",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-prince-sado",
+      "label": "Death of Crown Prince Sado",
+      "year": 1762,
+      "description": "King Yeongjo, after years of escalating conflict with his mentally ill heir, sealed Crown Prince Sado in a wooden rice chest in the courtyard of Changgyeonggung in summer heat for eight days until he died. The episode became one of the most psychologically scarring royal incidents in East Asian history.",
+      "wikiSlug": "Crown_Prince_Sado",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jeongjo",
+      "label": "King Jeongjo",
+      "year": 1776,
+      "endYear": 1800,
+      "description": "Jeongjo, son of the murdered Sado, pursued Enlightenment-style reforms, founded the Gyujanggak royal library, patronized Silhak scholars, and built Hwaseong Fortress at Suwon partly as a memorial to his father.",
+      "wikiSlug": "Jeongjo_of_Joseon",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gyujanggak",
+      "label": "Gyujanggak Royal Library",
+      "year": 1776,
+      "description": "Jeongjo established the Gyujanggak inside Changdeokgung Palace as a royal library and research institute, where talented officials of all factional backgrounds could be promoted on merit and the king could keep an intellectual establishment loyal to him personally.",
+      "wikiSlug": "Gyujanggak",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hwaseong",
+      "label": "Hwaseong Fortress",
+      "year": 1796,
+      "description": "King Jeongjo built the innovative Hwaseong Fortress at Suwon in just 33 months, using Jeong Yak-yong's pulley cranes to move massive stones and incorporating Western and Qing fortification techniques. Now a UNESCO World Heritage Site.",
+      "wikiSlug": "Hwaseong_Fortress",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jingyeong-painting",
+      "label": "True-View Landscape Painting",
+      "year": 1751,
+      "description": "Jeong Seon (1676-1759) pioneered jingyeong sansu, 'true-view landscape' — paintings of actual Korean mountains rather than imaginary Chinese scenes. His Album of Mount Geumgang and the masterwork Inwangjesaekdo (View of Mount Inwang After Rain) launched a distinctively Korean visual tradition.",
+      "wikiSlug": "Jeong_Seon",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kim-hong-do",
+      "label": "Kim Hong-do (Danwon)",
+      "year": 1745,
+      "endYear": 1806,
+      "description": "Kim Hong-do, scholar name Danwon, was the great genre painter of late Joseon, recording wrestling matches, schoolyards, blacksmiths, and tile-roof builders in lively ink. His scenes of commoner life are an unmatched visual record of eighteenth-century Korea.",
+      "wikiSlug": "Kim_Hong-do",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-shin-yun-bok",
+      "label": "Shin Yun-bok (Hyewon)",
+      "year": 1758,
+      "endYear": 1813,
+      "description": "Shin Yun-bok, scholar name Hyewon, painted the most daring genre scenes of the Joseon era — kisaeng entertainers, secret lovers in the moonlight, scholars at illicit parties — eventually being expelled from the royal painting academy for indecency.",
+      "wikiSlug": "Shin_Yun-bok",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-buncheong-baekja",
+      "label": "Joseon White Porcelain",
+      "year": 1500,
+      "description": "Joseon ceramic taste shifted from the elaborate Goryeo celadon and the rougher buncheong stoneware of the early dynasty toward austere white porcelain (baekja), prized for its plainness as a visual expression of Confucian moral purity.",
+      "wikiSlug": "Joseon_white_porcelain",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-catholic-introduction",
+      "label": "Catholicism Enters Korea",
+      "year": 1784,
+      "description": "Yi Seung-hun returned from a Beijing embassy as the first baptized Korean Catholic. Within a decade an underground church of several thousand had organized itself without any foreign missionaries — the only such case in Asian history.",
+      "wikiSlug": "Catholic_Church_in_Korea",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-catholic-persecution",
+      "label": "Catholic Persecutions",
+      "year": 1801,
+      "description": "Joseon launched the first major Catholic persecution after Jeongjo's death, executing 300 converts in the Sinyu Persecution of 1801 alone. Persecutions in 1839, 1846, and 1866 killed thousands more, including the first Korean priest Andrew Kim Taegon and nine French missionaries.",
+      "wikiSlug": "Sinyu_Persecution",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-sedo-jeongchi",
+      "label": "Sedo Politics",
+      "year": 1800,
+      "endYear": 1863,
+      "description": "After Jeongjo's death, the in-law clans of three child kings — first the Andong Kim, then the Pungyang Jo, then the Andong Kim again — ran the government as a private patronage system. Office sales, tax corruption, and rural misery exploded.",
+      "wikiSlug": "Sedo_politics",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hong-gyeong-rae",
+      "label": "Hong Gyeong-rae Rebellion",
+      "year": 1811,
+      "description": "Hong Gyeong-rae led a five-month peasant rebellion in northwestern Pyeongan Province against tax extortion and the regional discrimination that excluded northerners from high office. Crushed in spring 1812, it was the first sign that the Sedo system would push the country to revolt.",
+      "wikiSlug": "Hong_Gyeongnae",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-donghak",
+      "label": "Donghak Movement Founded",
+      "year": 1860,
+      "description": "Choe Je-u founded the Donghak (Eastern Learning) religious movement, blending Confucian, Buddhist, and shamanistic elements as an explicit alternative to the Catholic Seohak (Western Learning) sweeping the countryside.",
+      "wikiSlug": "Donghak",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-daewongun-regency",
+      "label": "Heungseon Daewongun's Regency",
+      "year": 1863,
+      "endYear": 1873,
+      "description": "Heungseon Daewongun, father of the boy King Gojong, ruled as regent for ten years, breaking the in-law clans, gutting most of the seowon academies, rebuilding Gyeongbokgung Palace, and enforcing the strictest isolationism in Joseon's history.",
+      "wikiSlug": "Heungseon_Daewongun",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-general-sherman",
+      "label": "General Sherman Incident",
+      "year": 1866,
+      "description": "An armed American merchant steamer, the General Sherman, sailed up the Taedong River to Pyongyang demanding trade and was burned to the waterline by local Koreans. The incident triggered the United States expedition to Korea five years later.",
+      "wikiSlug": "General_Sherman_incident",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-byeongin-yangyo",
+      "label": "French Campaign of 1866",
+      "year": 1866,
+      "description": "France retaliated for the execution of nine French missionaries by sending seven warships and 600 marines to Ganghwa Island. Repulsed by Joseon land forces after burning the Oegyujanggak royal archive, the French nonetheless looted 297 royal manuscripts that the Bibliotheque Nationale only began returning to Korea in 2011.",
+      "wikiSlug": "French_campaign_against_Korea",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-shinmiyangyo",
+      "label": "United States Expedition of 1871",
+      "year": 1871,
+      "description": "Five United States Navy warships under Rear Admiral John Rodgers seized two Joseon forts on Ganghwa Island in retaliation for the General Sherman, killing 243 Korean defenders to three American dead. Korea refused to negotiate; the Americans withdrew empty-handed.",
+      "wikiSlug": "United_States_expedition_to_Korea",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ganghwa-treaty",
+      "label": "Treaty of Ganghwa",
+      "year": 1876,
+      "description": "Five years after the American expedition was repulsed, Japan forced Korea to sign the Treaty of Ganghwa under the threat of Japanese gunboats — exactly mimicking what Commodore Perry had done to Japan in 1854. Three Korean ports were opened to Japanese trade and Korea was declared 'independent,' a diplomatic move designed to detach it from Qing China.",
+      "wikiSlug": "Japan%E2%80%93Korea_Treaty_of_1876",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-imo-incident",
+      "label": "Imo Incident",
+      "year": 1882,
+      "description": "Old-style Joseon soldiers, unpaid for over a year while Japanese-trained troops were given new uniforms, mutinied in Hanyang, attacked the Japanese legation, killed pro-Japanese officials, and briefly restored the Daewongun to power before Qing troops crushed the revolt.",
+      "wikiSlug": "Imo_Incident",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gapsin-coup",
+      "label": "Gapsin Coup",
+      "year": 1884,
+      "description": "Pro-Japanese reformers led by Kim Ok-gyun seized the palace, killed conservative ministers, and proclaimed a 14-point modernization program — only to be crushed by Qing troops three days later. The failed coup pushed Korea further into Japanese-Chinese rivalry.",
+      "wikiSlug": "Gapsin_Coup",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-donghak-rebellion",
+      "label": "Donghak Peasant Revolution",
+      "year": 1894,
+      "description": "Peasants under the Donghak preacher Jeon Bong-jun rose against corrupt officials in the southwest, defeating provincial forces and seizing Jeolla Province. The Joseon court called in Qing troops; Japan sent its own troops in response, and the Sino-Japanese War began.",
+      "wikiSlug": "Donghak_Peasant_Revolution",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sino-japanese-war",
+      "label": "First Sino-Japanese War",
+      "year": 1894,
+      "endYear": 1895,
+      "description": "Japan crushed Qing China in seven months of war fought largely on Korean and Manchurian soil, ending Chinese suzerainty over Korea after five centuries and announcing Japan as East Asia's new dominant power.",
+      "wikiSlug": "First_Sino-Japanese_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-gabo-reforms",
+      "label": "Gabo Reforms",
+      "year": 1894,
+      "description": "Sweeping Japanese-pressed modernization reforms abolished the yangban-commoner-slave class system, abolished the gwageo civil service exam, declared men and women equal in remarriage, and adopted a modern administrative cabinet.",
+      "wikiSlug": "Gabo_Reform",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-queen-min-assassination",
+      "label": "Assassination of Queen Min",
+      "year": 1895,
+      "description": "Japanese Minister Miura Goro orchestrated the murder of the pro-Russian Queen Min in Gyeongbokgung Palace before dawn on October 8, 1895. Sword-armed Japanese soshi assassins burst into the queen's quarters, killed her, and burned the body — provoking international outrage and pushing King Gojong toward Russia for protection.",
+      "wikiSlug": "Empress_Myeongseong",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-korean-empire",
+      "label": "Korean Empire Proclaimed",
+      "year": 1897,
+      "description": "After taking refuge in the Russian legation for a year, King Gojong returned to a new palace and proclaimed himself Emperor of the Daehan Jeguk (Korean Empire), formally repudiating Chinese suzerainty and asserting equal sovereignty among nations.",
+      "wikiSlug": "Korean_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russo-japanese-war",
+      "label": "Russo-Japanese War",
+      "year": 1904,
+      "endYear": 1905,
+      "description": "Japan crushed Imperial Russia in the first modern war won by an Asian power against a European one, fought largely over which empire would absorb Korea. The Treaty of Portsmouth gave Japan a free hand on the peninsula.",
+      "wikiSlug": "Russo-Japanese_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-eulsa-treaty",
+      "label": "Eulsa Treaty",
+      "year": 1905,
+      "description": "Japan forced the Eulsa Treaty on Korea, stripping it of foreign-policy sovereignty and installing a Japanese resident-general. Five Korean ministers signed under duress while Gojong refused; protests and suicides followed across the country.",
+      "wikiSlug": "Japan%E2%80%93Korea_Treaty_of_1905",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hague-mission",
+      "label": "Hague Secret Mission",
+      "year": 1907,
+      "description": "Gojong secretly dispatched three envoys to the Second Hague Peace Conference to denounce the Eulsa Treaty. They were denied a hearing on Japanese pressure; one envoy died at the Hague (probably suicide). Japan used the incident as pretext to depose Gojong.",
+      "wikiSlug": "Hague_Secret_Emissary_Affair",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-an-jung-geun",
+      "label": "An Jung-geun's Assassination of Ito",
+      "year": 1909,
+      "description": "Korean independence fighter An Jung-geun shot former Japanese Resident-General Ito Hirobumi three times at close range on the platform of Harbin railway station in October 1909. An was hanged five months later; he is now a hero in both Koreas.",
+      "wikiSlug": "An_Jung-geun",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-japan-annexation",
+      "label": "Japanese Annexation of Korea",
+      "year": 1910,
+      "description": "On August 22, 1910, Japan formally annexed Korea, ending the Joseon dynasty and the Korean Empire after 518 years of dynastic rule. Korea would be a Japanese colony for 35 years.",
+      "wikiSlug": "Japan%E2%80%93Korea_Treaty_of_1910",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kim-jeong-ho",
+      "label": "Kim Jeong-ho's Daedongyeojido",
+      "year": 1861,
+      "description": "Cartographer Kim Jeong-ho, a commoner who walked the country mapping it himself, produced the Daedongyeojido in 1861 — a 22-volume folding atlas that, when assembled, formed an 11-foot map of the Korean peninsula astonishingly accurate by modern standards.",
+      "wikiSlug": "Kim_Jeong-ho",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pansori",
+      "label": "Pansori Folk Opera",
+      "year": 1750,
+      "description": "Pansori, an unaccompanied solo singing-and-storytelling tradition performed by a single vocalist with a single drummer, emerged among commoner audiences in the southwest. The five surviving pansori epics, now UNESCO Intangible Cultural Heritage, are the great vernacular literature of Joseon.",
+      "wikiSlug": "Pansori",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sirhak-utopian",
+      "label": "Hong Dae-yong's Cosmology",
+      "year": 1766,
+      "description": "Silhak scholar Hong Dae-yong, after meeting Jesuit astronomers in Beijing, argued in his Damheonseo that the earth rotates on its axis once a day and that there might be intelligent beings on other worlds — an extraordinary leap in pre-telescopic Korean cosmology.",
+      "wikiSlug": "Hong_Dae-yong",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-nobi-system",
+      "label": "Nobi Slave System",
+      "year": 1500,
+      "description": "Roughly a third of the Joseon population was nobi (hereditary slaves), divided into government nobi who served palace or office and private nobi owned by yangban households. The system was gradually dismantled between 1801 (when government nobi were freed) and 1894 (the Gabo Reforms abolishing the institution).",
+      "wikiSlug": "Nobi",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-women-status",
+      "label": "Women in Confucian Joseon",
+      "year": 1500,
+      "description": "Joseon Confucianization sharply reduced women's legal status: the early-dynasty practice of equal inheritance and bilateral kinship gave way by the seventeenth century to patrilineal succession, banned remarriage for widows of yangban families, and the seclusion of women in the inner quarters of the home.",
+      "wikiSlug": "Women_in_Korea",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}

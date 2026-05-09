@@ -157,6 +157,13 @@ const NARRATIVE_FILES: Record<string, string> = {
   'islamic-golden-age.md': 'islamic-golden-age',
   'ottoman-empire.md': 'ottoman-empire',
   'safavid-persia.md': 'safavid-persia',
+  'middle-horizon-empires.md': 'middle-horizon-empires',
+  'edo-japan.md': 'edo-japan',
+  'gokturk-khaganate.md': 'gokturk-khaganate',
+  'mali-empire.md': 'mali-empire',
+  'tang-song-china.md': 'tang-song-china',
+  'joseon-korea.md': 'joseon-korea',
+  'medieval-india.md': 'medieval-india',
 }
 
 function slugify(title: string): string {

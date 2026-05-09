@@ -1,0 +1,906 @@
+{
+  "1": [
+    {
+      "term": "Sahel",
+      "matchText": "Sahel",
+      "wikiSlug": "Sahel",
+      "type": "place"
+    },
+    {
+      "term": "Sahara",
+      "matchText": "Sahara",
+      "wikiSlug": "Sahara",
+      "type": "place"
+    },
+    {
+      "term": "Niger River",
+      "matchText": "Niger",
+      "wikiSlug": "Niger_River",
+      "type": "place"
+    },
+    {
+      "term": "Inner Niger Delta",
+      "matchText": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Timbuktu",
+      "matchText": "Timbuktu",
+      "wikiSlug": "Timbuktu",
+      "type": "place"
+    },
+    {
+      "term": "Djenné",
+      "matchText": "Djenné",
+      "wikiSlug": "Djenné",
+      "type": "place"
+    },
+    {
+      "term": "Gao",
+      "matchText": "Gao",
+      "wikiSlug": "Gao",
+      "type": "place"
+    },
+    {
+      "term": "Niani",
+      "matchText": "Niani",
+      "wikiSlug": "Niani,_Guinea",
+      "type": "place"
+    },
+    {
+      "term": "Bambuk",
+      "matchText": "Bambuk",
+      "wikiSlug": "Bambuk",
+      "type": "place"
+    },
+    {
+      "term": "Bure",
+      "matchText": "Bure",
+      "wikiSlug": "Bure_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Taghaza",
+      "matchText": "Taghaza",
+      "wikiSlug": "Taghaza",
+      "type": "place"
+    },
+    {
+      "term": "Koumbi Saleh",
+      "matchText": "Koumbi Saleh",
+      "wikiSlug": "Koumbi_Saleh",
+      "type": "place"
+    },
+    {
+      "term": "Soninke",
+      "matchText": "Soninke",
+      "wikiSlug": "Soninke_people",
+      "type": "people"
+    },
+    {
+      "term": "al-Bakri",
+      "matchText": "al-Bakri",
+      "wikiSlug": "Abu_Ubayd_al-Bakri",
+      "type": "people"
+    },
+    {
+      "term": "Almoravid dynasty",
+      "matchText": "Almoravids",
+      "wikiSlug": "Almoravid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Almohad Caliphate",
+      "matchText": "Almohad Caliphate",
+      "wikiSlug": "Almohad_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Sosso",
+      "matchText": "Sosso",
+      "wikiSlug": "Sosso_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Sumanguru Kante",
+      "matchText": "Sumanguru Kante",
+      "wikiSlug": "Soumaoro_Kanté",
+      "type": "people"
+    },
+    {
+      "term": "Mande languages",
+      "matchText": "Mande",
+      "wikiSlug": "Mande_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Niger-Congo languages",
+      "matchText": "Niger-Congo",
+      "wikiSlug": "Niger–Congo_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Mandinka people",
+      "matchText": "Mandinka",
+      "wikiSlug": "Mandinka_people",
+      "type": "people"
+    },
+    {
+      "term": "Manden",
+      "matchText": "Manden",
+      "wikiSlug": "Manden",
+      "type": "place"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Wagadu",
+      "matchText": "Wagadu",
+      "wikiSlug": "Ghana_Empire",
+      "type": "concept"
+    }
+  ],
+  "2": [
+    {
+      "term": "Sundiata Keita",
+      "matchText": "Sundiata Keita",
+      "wikiSlug": "Sundiata_Keita",
+      "type": "people"
+    },
+    {
+      "term": "Mansa",
+      "matchText": "Mansa",
+      "wikiSlug": "Mansa_(title)",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Kirina",
+      "matchText": "Battle of Kirina",
+      "wikiSlug": "Battle_of_Kirina",
+      "type": "concept"
+    },
+    {
+      "term": "Kurukan Fuga",
+      "matchText": "Kurukan Fuga",
+      "wikiSlug": "Kouroukan_Fouga",
+      "type": "concept"
+    },
+    {
+      "term": "Manden Charter",
+      "matchText": "Manden Charter",
+      "wikiSlug": "Kouroukan_Fouga",
+      "type": "concept"
+    },
+    {
+      "term": "Wolof people",
+      "matchText": "Wolof",
+      "wikiSlug": "Wolof_people",
+      "type": "people"
+    },
+    {
+      "term": "Tukulor people",
+      "matchText": "Tukulor",
+      "wikiSlug": "Toucouleur_people",
+      "type": "people"
+    },
+    {
+      "term": "Bala Faseke Kouyate",
+      "matchText": "Bala Faseke Kouyate",
+      "wikiSlug": "Balla_Fasséké",
+      "type": "people"
+    },
+    {
+      "term": "Kouyate",
+      "matchText": "Kouyate",
+      "wikiSlug": "Kouyaté",
+      "type": "concept"
+    },
+    {
+      "term": "Epic of Sundiata",
+      "matchText": "Sundiata epic",
+      "wikiSlug": "Epic_of_Sundiata",
+      "type": "concept"
+    },
+    {
+      "term": "Griot",
+      "matchText": "jeli",
+      "wikiSlug": "Griot",
+      "type": "concept"
+    },
+    {
+      "term": "Magna Carta",
+      "matchText": "Magna Carta",
+      "wikiSlug": "Magna_Carta",
+      "type": "concept"
+    },
+    {
+      "term": "King John",
+      "matchText": "King John",
+      "wikiSlug": "John,_King_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Niani",
+      "matchText": "Niani",
+      "wikiSlug": "Niani,_Guinea",
+      "type": "place"
+    },
+    {
+      "term": "Sanankuya",
+      "matchText": "sanankuya",
+      "wikiSlug": "Sanankuya",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol Empire",
+      "wikiSlug": "Mongol_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Ögedei Khan",
+      "matchText": "Ögedei Khan",
+      "wikiSlug": "Ögedei_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Razia Sultana",
+      "matchText": "Razia Sultana",
+      "wikiSlug": "Razia_Sultana",
+      "type": "people"
+    },
+    {
+      "term": "Sultanate of Delhi",
+      "matchText": "Sultanate of Delhi",
+      "wikiSlug": "Delhi_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    }
+  ],
+  "3": [
+    {
+      "term": "African rice",
+      "matchText": "African rice",
+      "wikiSlug": "Oryza_glaberrima",
+      "type": "concept"
+    },
+    {
+      "term": "Pearl millet",
+      "matchText": "pearl millet",
+      "wikiSlug": "Pearl_millet",
+      "type": "concept"
+    },
+    {
+      "term": "Sorghum",
+      "matchText": "sorghum",
+      "wikiSlug": "Sorghum",
+      "type": "concept"
+    },
+    {
+      "term": "Fonio",
+      "matchText": "fonio",
+      "wikiSlug": "Fonio",
+      "type": "concept"
+    },
+    {
+      "term": "Bozo people",
+      "matchText": "Bozo",
+      "wikiSlug": "Bozo_people",
+      "type": "people"
+    },
+    {
+      "term": "Tsetse fly",
+      "matchText": "tsetse fly",
+      "wikiSlug": "Tsetse_fly",
+      "type": "concept"
+    },
+    {
+      "term": "Trypanosomiasis",
+      "matchText": "trypanosomiasis",
+      "wikiSlug": "African_trypanosomiasis",
+      "type": "concept"
+    },
+    {
+      "term": "Hajj",
+      "matchText": "hajj",
+      "wikiSlug": "Hajj",
+      "type": "concept"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Mansa Uli",
+      "matchText": "Mansa Uli",
+      "wikiSlug": "Mansa_Wali",
+      "type": "people"
+    },
+    {
+      "term": "Mansa Sakura",
+      "matchText": "Mansa Sakura",
+      "wikiSlug": "Sakura_of_Mali",
+      "type": "people"
+    },
+    {
+      "term": "Walata",
+      "matchText": "Walata",
+      "wikiSlug": "Oualata",
+      "type": "place"
+    },
+    {
+      "term": "Abu Bakr II",
+      "matchText": "Abu Bakr the Second",
+      "wikiSlug": "Abu_Bakr_II",
+      "type": "people"
+    },
+    {
+      "term": "al-Umari",
+      "matchText": "al-Umari",
+      "wikiSlug": "Shihab_al-Umari",
+      "type": "people"
+    },
+    {
+      "term": "Ibn Khaldun",
+      "matchText": "Ibn Khaldun",
+      "wikiSlug": "Ibn_Khaldun",
+      "type": "people"
+    },
+    {
+      "term": "Hadith",
+      "matchText": "hadith",
+      "wikiSlug": "Hadith",
+      "type": "concept"
+    },
+    {
+      "term": "Maliki school",
+      "matchText": "Maliki",
+      "wikiSlug": "Maliki_school",
+      "type": "concept"
+    }
+  ],
+  "4": [
+    {
+      "term": "Mansa Musa",
+      "matchText": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa",
+      "type": "people"
+    },
+    {
+      "term": "Hajj",
+      "matchText": "hajj",
+      "wikiSlug": "Hajj",
+      "type": "concept"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Sijilmasa",
+      "matchText": "Sijilmasa",
+      "wikiSlug": "Sijilmasa",
+      "type": "place"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluk",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "al-Nasir Muhammad",
+      "matchText": "al-Nasir Muhammad",
+      "wikiSlug": "Al-Nasir_Muhammad",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Ain Jalut",
+      "matchText": "Ain Jalut",
+      "wikiSlug": "Battle_of_Ain_Jalut",
+      "type": "concept"
+    },
+    {
+      "term": "Dinar",
+      "matchText": "dinar",
+      "wikiSlug": "Gold_dinar",
+      "type": "concept"
+    },
+    {
+      "term": "Dirham",
+      "matchText": "dirham",
+      "wikiSlug": "Dirham",
+      "type": "concept"
+    },
+    {
+      "term": "Catalan Atlas",
+      "matchText": "Catalan Atlas",
+      "wikiSlug": "Catalan_Atlas",
+      "type": "concept"
+    },
+    {
+      "term": "Abraham Cresques",
+      "matchText": "Abraham Cresques",
+      "wikiSlug": "Abraham_Cresques",
+      "type": "people"
+    },
+    {
+      "term": "Charles V of France",
+      "matchText": "Charles V of France",
+      "wikiSlug": "Charles_V_of_France",
+      "type": "people"
+    },
+    {
+      "term": "Medici family",
+      "matchText": "Medici",
+      "wikiSlug": "House_of_Medici",
+      "type": "concept"
+    },
+    {
+      "term": "Abu Ishaq al-Sahili",
+      "matchText": "Abu Ishaq al-Sahili",
+      "wikiSlug": "Abu_Es_Haq_es_Saheli",
+      "type": "people"
+    },
+    {
+      "term": "Granada",
+      "matchText": "Granada",
+      "wikiSlug": "Granada",
+      "type": "place"
+    },
+    {
+      "term": "Djinguereber Mosque",
+      "matchText": "Djinguereber Mosque",
+      "wikiSlug": "Djinguereber_Mosque",
+      "type": "concept"
+    },
+    {
+      "term": "Sudano-Sahelian architecture",
+      "matchText": "Sudano-Sahelian",
+      "wikiSlug": "Sudano-Sahelian_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Mansa Suleyman",
+      "matchText": "Mansa Suleyman",
+      "wikiSlug": "Mansa_Suleyman",
+      "type": "people"
+    },
+    {
+      "term": "Mossi",
+      "matchText": "Mossi",
+      "wikiSlug": "Mossi_people",
+      "type": "people"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    }
+  ],
+  "5": [
+    {
+      "term": "Tuareg",
+      "matchText": "Tuareg",
+      "wikiSlug": "Tuareg_people",
+      "type": "people"
+    },
+    {
+      "term": "Berber",
+      "matchText": "Berber",
+      "wikiSlug": "Berbers",
+      "type": "people"
+    },
+    {
+      "term": "Sankoré Madrasah",
+      "matchText": "Sankoré",
+      "wikiSlug": "Sankore_Madrasah",
+      "type": "concept"
+    },
+    {
+      "term": "Sidi Yahya Mosque",
+      "matchText": "Sidi Yahya",
+      "wikiSlug": "Sidi_Yahya_Mosque",
+      "type": "concept"
+    },
+    {
+      "term": "Madrasa",
+      "matchText": "madrasa",
+      "wikiSlug": "Madrasa",
+      "type": "concept"
+    },
+    {
+      "term": "Ijaza",
+      "matchText": "ijaza",
+      "wikiSlug": "Ijazah",
+      "type": "concept"
+    },
+    {
+      "term": "Quran",
+      "matchText": "Quran",
+      "wikiSlug": "Quran",
+      "type": "concept"
+    },
+    {
+      "term": "Fiqh",
+      "matchText": "fiqh",
+      "wikiSlug": "Fiqh",
+      "type": "concept"
+    },
+    {
+      "term": "Avicenna",
+      "matchText": "Avicennian",
+      "wikiSlug": "Avicenna",
+      "type": "people"
+    },
+    {
+      "term": "Ajami script",
+      "matchText": "Ajami",
+      "wikiSlug": "Ajami_script",
+      "type": "concept"
+    },
+    {
+      "term": "Ibn Battuta",
+      "matchText": "Ibn Battuta",
+      "wikiSlug": "Ibn_Battuta",
+      "type": "people"
+    },
+    {
+      "term": "Tangier",
+      "matchText": "Tangier",
+      "wikiSlug": "Tangier",
+      "type": "place"
+    },
+    {
+      "term": "Rihla",
+      "matchText": "Rihla",
+      "wikiSlug": "The_Rihla",
+      "type": "concept"
+    },
+    {
+      "term": "Marinid dynasty",
+      "matchText": "Marinid dynasty",
+      "wikiSlug": "Marinid_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Ramadan",
+      "matchText": "Ramadan",
+      "wikiSlug": "Ramadan",
+      "type": "concept"
+    },
+    {
+      "term": "Sonni Ali",
+      "matchText": "Sonni Ali",
+      "wikiSlug": "Sonni_Ali",
+      "type": "people"
+    },
+    {
+      "term": "Ahmed Baba",
+      "matchText": "Ahmed Baba al-Timbukti",
+      "wikiSlug": "Ahmad_Baba_al-Timbukti",
+      "type": "people"
+    },
+    {
+      "term": "Sanhaja",
+      "matchText": "Sanhaja",
+      "wikiSlug": "Sanhaja",
+      "type": "people"
+    },
+    {
+      "term": "Marrakesh",
+      "matchText": "Marrakesh",
+      "wikiSlug": "Marrakesh",
+      "type": "place"
+    }
+  ],
+  "6": [
+    {
+      "term": "Songhai people",
+      "matchText": "Songhai people",
+      "wikiSlug": "Songhai_people",
+      "type": "people"
+    },
+    {
+      "term": "Songhai Empire",
+      "matchText": "Songhai Empire",
+      "wikiSlug": "Songhai_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Gao",
+      "matchText": "Gao",
+      "wikiSlug": "Gao",
+      "type": "place"
+    },
+    {
+      "term": "Sonni Ali",
+      "matchText": "Sonni Ali",
+      "wikiSlug": "Sonni_Ali",
+      "type": "people"
+    },
+    {
+      "term": "Askia Muhammad",
+      "matchText": "Askia Muhammad",
+      "wikiSlug": "Askia_Muhammad_I",
+      "type": "people"
+    },
+    {
+      "term": "Aqit family",
+      "matchText": "Aqit",
+      "wikiSlug": "Aqit_family",
+      "type": "concept"
+    },
+    {
+      "term": "Tarikh al-Sudan",
+      "matchText": "Tarikh al-Sudan",
+      "wikiSlug": "Tarikh_al-Sudan",
+      "type": "concept"
+    },
+    {
+      "term": "Tarikh al-Fattash",
+      "matchText": "Tarikh al-Fattash",
+      "wikiSlug": "Tarikh_al-Fattash",
+      "type": "concept"
+    },
+    {
+      "term": "Reconquista",
+      "matchText": "Reconquista",
+      "wikiSlug": "Reconquista",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid puppet caliph",
+      "matchText": "Abbasid puppet caliph",
+      "wikiSlug": "Abbasid_Caliphate_of_Cairo",
+      "type": "concept"
+    },
+    {
+      "term": "al-Maghili",
+      "matchText": "al-Maghili",
+      "wikiSlug": "Muhammad_al-Maghili",
+      "type": "people"
+    },
+    {
+      "term": "Bambara people",
+      "matchText": "Bambara",
+      "wikiSlug": "Bambara_people",
+      "type": "people"
+    },
+    {
+      "term": "Mehmed II",
+      "matchText": "Mehmed II",
+      "wikiSlug": "Mehmed_II",
+      "type": "people"
+    },
+    {
+      "term": "Vasco da Gama",
+      "matchText": "Vasco da Gama",
+      "wikiSlug": "Vasco_da_Gama",
+      "type": "people"
+    },
+    {
+      "term": "Pachacuti",
+      "matchText": "Pachacuti",
+      "wikiSlug": "Pachacuti",
+      "type": "people"
+    }
+  ],
+  "7": [
+    {
+      "term": "Battle of Tondibi",
+      "matchText": "Tondibi",
+      "wikiSlug": "Battle_of_Tondibi",
+      "type": "concept"
+    },
+    {
+      "term": "Matchlock musket",
+      "matchText": "matchlock",
+      "wikiSlug": "Matchlock",
+      "type": "concept"
+    },
+    {
+      "term": "Ahmad al-Mansur",
+      "matchText": "Ahmad al-Mansur",
+      "wikiSlug": "Ahmad_al-Mansur",
+      "type": "people"
+    },
+    {
+      "term": "Saadi Sultanate",
+      "matchText": "Saadian dynasty",
+      "wikiSlug": "Saadi_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Alcácer Quibir",
+      "matchText": "Alcácer Quibir",
+      "wikiSlug": "Battle_of_Alcácer_Quibir",
+      "type": "concept"
+    },
+    {
+      "term": "Sebastian I of Portugal",
+      "matchText": "Sebastian I",
+      "wikiSlug": "Sebastian_I_of_Portugal",
+      "type": "people"
+    },
+    {
+      "term": "Spanish Habsburgs",
+      "matchText": "Spanish Habsburgs",
+      "wikiSlug": "Spanish_Habsburgs",
+      "type": "concept"
+    },
+    {
+      "term": "Elizabeth I",
+      "matchText": "Queen Elizabeth I",
+      "wikiSlug": "Elizabeth_I",
+      "type": "people"
+    },
+    {
+      "term": "Morisco",
+      "matchText": "morisco",
+      "wikiSlug": "Morisco",
+      "type": "concept"
+    },
+    {
+      "term": "Judar Pasha",
+      "matchText": "Judar Pasha",
+      "wikiSlug": "Judar_Pasha",
+      "type": "people"
+    },
+    {
+      "term": "Askia Ishaq II",
+      "matchText": "Askia Ishaq II",
+      "wikiSlug": "Askia_Ishaq_II",
+      "type": "people"
+    },
+    {
+      "term": "Arma people",
+      "matchText": "Arma",
+      "wikiSlug": "Arma_people",
+      "type": "people"
+    },
+    {
+      "term": "Alawite dynasty",
+      "matchText": "Alawites",
+      "wikiSlug": "Alaouite_dynasty",
+      "type": "concept"
+    }
+  ],
+  "8": [
+    {
+      "term": "Kangaba",
+      "matchText": "Kangaba",
+      "wikiSlug": "Kangaba",
+      "type": "place"
+    },
+    {
+      "term": "Kamabolon",
+      "matchText": "Kamabolon",
+      "wikiSlug": "Kamabolon",
+      "type": "concept"
+    },
+    {
+      "term": "Bambara kingdoms",
+      "matchText": "Bambara kingdoms",
+      "wikiSlug": "Bamana_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Segou",
+      "matchText": "Segou",
+      "wikiSlug": "Ségou",
+      "type": "place"
+    },
+    {
+      "term": "Kaabu",
+      "matchText": "Kaabu",
+      "wikiSlug": "Kaabu",
+      "type": "concept"
+    },
+    {
+      "term": "Nyancho",
+      "matchText": "Nyancho",
+      "wikiSlug": "Nyancho",
+      "type": "people"
+    },
+    {
+      "term": "Fula people",
+      "matchText": "Fula",
+      "wikiSlug": "Fula_people",
+      "type": "people"
+    },
+    {
+      "term": "Futa Jallon",
+      "matchText": "Futa Jallon",
+      "wikiSlug": "Imamate_of_Futa_Jallon",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Kansala",
+      "matchText": "Battle of Kansala",
+      "wikiSlug": "Battle_of_Kansala",
+      "type": "concept"
+    },
+    {
+      "term": "Niani",
+      "matchText": "Niani",
+      "wikiSlug": "Niani,_Guinea",
+      "type": "place"
+    },
+    {
+      "term": "al-Qaeda in the Islamic Maghreb",
+      "matchText": "al-Qaeda in the Islamic Maghreb",
+      "wikiSlug": "Al-Qaeda_in_the_Islamic_Maghreb",
+      "type": "concept"
+    },
+    {
+      "term": "Abdel Kader Haidara",
+      "matchText": "Abdel Kader Haidara",
+      "wikiSlug": "Abdel_Kader_Haidara",
+      "type": "people"
+    },
+    {
+      "term": "Bamako",
+      "matchText": "Bamako",
+      "wikiSlug": "Bamako",
+      "type": "place"
+    },
+    {
+      "term": "Ahmed Baba Institute",
+      "matchText": "Ahmed Baba Institute",
+      "wikiSlug": "Ahmed_Baba_Institute_of_Higher_Studies_and_Islamic_Research",
+      "type": "concept"
+    },
+    {
+      "term": "UNESCO Intangible Cultural Heritage",
+      "matchText": "Intangible Cultural Heritage of Humanity",
+      "wikiSlug": "UNESCO_Intangible_Cultural_Heritage_Lists",
+      "type": "concept"
+    },
+    {
+      "term": "René Caillié",
+      "matchText": "René Caillié",
+      "wikiSlug": "René_Caillié",
+      "type": "people"
+    },
+    {
+      "term": "Aurangzeb",
+      "matchText": "Aurangzeb",
+      "wikiSlug": "Aurangzeb",
+      "type": "people"
+    },
+    {
+      "term": "Potosí",
+      "matchText": "Potosí",
+      "wikiSlug": "Potosí",
+      "type": "place"
+    },
+    {
+      "term": "Iroquois Confederation",
+      "matchText": "Iroquois Confederation",
+      "wikiSlug": "Iroquois",
+      "type": "concept"
+    },
+    {
+      "term": "Köprülü viziers",
+      "matchText": "Köprülü viziers",
+      "wikiSlug": "Köprülü_family",
+      "type": "concept"
+    }
+  ]
+}

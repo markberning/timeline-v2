@@ -1,0 +1,728 @@
+{
+  "id": "middle-horizon-empires",
+  "label": "Middle Horizon Empires",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Tiwanaku",
+  "imageWikiSlug": "Gateway_of_the_Sun",
+  "pitch": "After the Moche, Nazca, and other Regional Development cultures faded around 500–600 CE, two highland states stepped into the gap and built the first pan-Andean empires: Tiwanaku on the shores of Lake Titicaca, and Wari in the central Peruvian highlands near modern Ayacucho. They were contemporaries, neighbors, and almost certainly rivals — and yet, despite four centuries of overlapping reach, archaeologists still cannot agree on whether they ever fought a war, signed an alliance, or even formally noticed one another.\n\n🔑 Key Facts:\n• Tiwanaku built the most sophisticated stone architecture in the pre-Columbian Americas at 12,500 feet, including the Gateway of the Sun and the Pumapunku platform with its precision-cut H-blocks weighing up to 130 tons\n• Wari invented the planned grid city in the Andes — rectangular administrative compounds laid out on a single template and replicated from coast to highlands, the direct ancestor of the Inca state\n• The two empires met at exactly one place: Cerro Baúl, a Wari frontier outpost in the Moquegua Valley with a Tiwanaku colony in plain sight downhill, where the only documented event was a peaceful brewery shutdown ceremony\n• Both empires collapsed almost simultaneously around 1000 CE, almost certainly because of a multi-decade drought that the high-altitude raised-field economy could not survive\n\n🤔 Why It Matters: Everything the Inca later built — the road system, the storehouses, the khipu accounting, the wamani provincial administration, the Quechua-Aymara linguistic geography — was built on Wari and Tiwanaku precedents. The Middle Horizon is where the Andean state was invented.\n\n🎲 Wild Card: At Cerro Baúl, the Wari elite held a final ritual feast as the site was abandoned, drank chicha from elaborate ceramic keros, smashed the cups against the brewery walls, and burned the building down. Then they walked away. Nobody is sure what they were commemorating, but archaeologists have reconstructed the entire ceremony from the smashed-cup debris.",
+  "countryIds": [
+    "604",
+    "68"
+  ],
+  "spans": [
+    {
+      "id": "span-mhe-tiwanaku-rise",
+      "label": "Tiwanaku Rising",
+      "startYear": 300,
+      "endYear": 600,
+      "wikiSlug": "Tiwanaku",
+      "description": "Tiwanaku grew from a regional Lake Titicaca center into the dominant power of the southern altiplano, building the Akapana, the Kalasasaya, and the early Pumapunku platform, perfecting raised-field (suka kollu) agriculture, and assembling the llama caravan network that would underwrite its later expansion."
+    },
+    {
+      "id": "span-mhe-wari-emergence",
+      "label": "Wari Emergence",
+      "startYear": 550,
+      "endYear": 700,
+      "wikiSlug": "Wari_Empire",
+      "description": "Wari coalesced in the Ayacucho basin from the local Huarpa tradition fused with imported Nazca polychrome ceramics and Tiwanaku Staff God iconography. The capital city of Huari grew to perhaps 40,000 people, organized around the planned rectangular compounds that would become the empire's signature."
+    },
+    {
+      "id": "span-mhe-double-empire",
+      "label": "The Two Empires Side by Side",
+      "startYear": 600,
+      "endYear": 900,
+      "wikiSlug": "Middle_Horizon",
+      "description": "Wari and Tiwanaku coexisted across the Andes for roughly three centuries, sharing a religious vocabulary inherited from Chavín but operating with different political models — Wari built planned administrative cities and a road network across central Peru, while Tiwanaku ran a colony-based economy radiating from the altiplano capital."
+    },
+    {
+      "id": "span-mhe-late-collapse",
+      "label": "Drought and Collapse",
+      "startYear": 900,
+      "endYear": 1100,
+      "wikiSlug": "Wari_Empire",
+      "description": "A multi-decade drought beginning around 900 CE undermined the high-altitude raised-field agriculture that fed the Tiwanaku core and the irrigation systems that fed the Wari provinces. Both capitals were abandoned by 1100 CE, ending the Middle Horizon and opening the fragmented Late Intermediate Period."
+    },
+    {
+      "id": "span-mhe-late-intermediate",
+      "label": "Late Intermediate Aftermath",
+      "startYear": 1000,
+      "endYear": 1400,
+      "wikiSlug": "Late_Intermediate_period",
+      "description": "After the imperial collapse, the Andes fragmented into smaller polities — the Chimú on the north coast, the Chancay on the central coast, the Aymara kingdoms around Lake Titicaca — that inherited Wari and Tiwanaku institutions in pieces, until the Inca reassembled the imperial template in the fifteenth century."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-mhe-regional-collapse",
+      "label": "Regional Development Collapse",
+      "year": 500,
+      "endYear": 600,
+      "description": "The Moche, Nazca, Lima, and Recuay cultures of the Regional Development Period all weakened or collapsed across the sixth century CE, opening the political vacuum that the highland states of Tiwanaku and Wari would step into.",
+      "wikiSlug": "Early_Intermediate_period",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mhe-vertical-archipelago",
+      "label": "Vertical Archipelago",
+      "year": 600,
+      "description": "The Andean strategy of planting colonies in distant ecological zones — coast, highlands, jungle — to give a single community access to all altitudinal products. Wari and Tiwanaku scaled the household-level practice to imperial level for the first time.",
+      "wikiSlug": "Vertical_archipelago",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-middle-horizon",
+      "label": "Middle Horizon Defined",
+      "year": 600,
+      "endYear": 1000,
+      "description": "The chronological label for the period when shared Wari and Tiwanaku iconography spread across most of the central Andes, sandwiched between the Early Intermediate Period (regional cultures) and the Late Intermediate Period (post-imperial fragmentation).",
+      "wikiSlug": "Middle_Horizon",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-city",
+      "label": "Tiwanaku Becomes a City",
+      "year": 500,
+      "description": "By 500 CE, the village of Tiwanaku on the southern shore of Lake Titicaca had grown into a planned urban center of 20,000–40,000 people at 12,500 feet elevation — one of the highest cities in human history.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-akapana",
+      "label": "Akapana Pyramid",
+      "year": 500,
+      "description": "The largest structure at Tiwanaku, a seven-tiered platform pyramid roughly 600 by 600 feet at the base and 60 feet tall, with an internal stone drainage system that channeled water through the building in a zigzag pattern mimicking mountain hydrology.",
+      "wikiSlug": "Akapana",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-kalasasaya",
+      "label": "Kalasasaya Temple",
+      "year": 500,
+      "description": "A walled rectangular ceremonial enclosure at Tiwanaku built from massive upright sandstone blocks, oriented to mark the equinox sunrises through a precisely placed gateway in its eastern wall.",
+      "wikiSlug": "Kalasasaya",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-gateway-of-sun",
+      "label": "Gateway of the Sun",
+      "year": 500,
+      "description": "A monolithic doorway carved from a single 10-ton block of andesite, its lintel showing the central Staff God flanked by 48 winged attendants — the most reproduced single image of pre-Inca Andean religious art.",
+      "wikiSlug": "Gateway_of_the_Sun",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-pumapunku",
+      "label": "Pumapunku Platform",
+      "year": 600,
+      "description": "A second platform at Tiwanaku, slightly south of the Akapana, built from precisely cut and interlocking H-shaped andesite blocks, some weighing over 130 tons. The masonry tolerances rival anything in the ancient world and have generated more pseudoscientific speculation than any other Andean site.",
+      "wikiSlug": "Pumapunku",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-suka-kollu",
+      "label": "Raised-Field Agriculture",
+      "year": 400,
+      "description": "Suka kollu raised-field agriculture turned the cold flood-prone Titicaca basin into one of the most productive zones in the Andes. Water in the surrounding channels absorbed solar heat by day and radiated it at night, raising platform temperatures by 2–3°C — enough to prevent the frost that would otherwise kill potatoes and quinoa at 12,500 feet.",
+      "wikiSlug": "Waru_Waru",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mhe-llama-caravans",
+      "label": "Llama Caravan Networks",
+      "year": 500,
+      "description": "Tiwanaku ran the largest llama caravan system the Andes had yet seen, moving freeze-dried potatoes, fish, copper, obsidian, and dried llama meat across hundreds of miles of altiplano. A single caravan could include 200–500 pack animals each carrying 60–80 pounds.",
+      "wikiSlug": "Llama",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-bennett-monolith",
+      "label": "Bennett Monolith",
+      "year": 600,
+      "description": "The largest carved stela at Tiwanaku, 24 feet tall, depicting a frontal figure holding a kero drinking cup in one hand and a snuff tablet in the other — connecting Tiwanaku ritual to the Andean traditions of chicha beer and visionary plant use.",
+      "wikiSlug": "Bennett_Monolith",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-colonies",
+      "label": "Tiwanaku Colonies",
+      "year": 600,
+      "endYear": 1000,
+      "description": "Tiwanaku planted colonies in the Moquegua Valley on the south coast, the Cochabamba Valley in modern Bolivia, and the Atacama Desert oases of northern Chile. The colonies retained Tiwanaku ceramics, dress, and burial practices for centuries — a vertical archipelago at imperial scale.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-religion",
+      "label": "Staff God Iconography",
+      "year": 500,
+      "description": "Tiwanaku revived the Staff God image first developed at Chavín de Huántar a thousand years earlier — a frontal figure holding paired staffs, with a radiating headdress of feline and serpent heads. The image spread with Tiwanaku influence and was inherited by Wari and eventually the Inca.",
+      "wikiSlug": "Staff_God",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-vilca-snuff",
+      "label": "Vilca and San Pedro Use",
+      "year": 500,
+      "description": "Tiwanaku and Wari elites consumed psychoactive plants in ritual contexts — vilca (Anadenanthera colubrina) snuff blown through bone tubes, and brews of the San Pedro cactus. Snuff trays and tubes are among the most common high-status grave goods.",
+      "wikiSlug": "Anadenanthera_colubrina",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-ayllu",
+      "label": "Ayllu Social System",
+      "year": 500,
+      "description": "Both Tiwanaku and Wari were built on the ayllu — the extended kinship group that owned land collectively, organized labor through reciprocal obligation, and venerated common ancestors. The ayllu was the basic Andean social unit from at least Chavín times through the Inca and into the colonial period.",
+      "wikiSlug": "Ayllu",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mhe-aymara-language",
+      "label": "Aymara Language Spread",
+      "year": 600,
+      "description": "Tiwanaku's expansion is the standard explanation for the modern distribution of Aymara-speaking communities around Lake Titicaca and across the southern altiplano. The link between Tiwanaku and Aymara is plausible but not certain — Tiwanaku left no writing, so the language they spoke is reconstructed from the geography of its successors.",
+      "wikiSlug": "Aymara_language",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mhe-wari-founded",
+      "label": "Wari Capital Founded",
+      "year": 550,
+      "description": "The city of Huari (the modern spelling Wari is used for the empire) emerged in the Ayacucho basin of the central Peruvian highlands around 550 CE, built on top of the older Huarpa culture and within view of the Quinua-Conchopata ceremonial sites that had hosted the founding generation.",
+      "wikiSlug": "Wari_culture",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-conchopata",
+      "label": "Conchopata Offerings",
+      "year": 600,
+      "description": "At Conchopata, near the future Wari capital, archaeologists have excavated dozens of giant ceramic urns ritually smashed in offering pits — each painted with Tiwanaku-style Staff God imagery, marking the moment when the Wari religious vocabulary was assembled.",
+      "wikiSlug": "Wari_culture",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-wari-grid-cities",
+      "label": "Wari Planned Cities",
+      "year": 600,
+      "description": "Wari invented the planned rectangular administrative compound and replicated it across its territory. The standardized layout — high enclosing walls, internal grid of patio groups, restricted access — looks like the work of a single planning office and is the direct ancestor of the Inca administrative city.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-pikillaqta",
+      "label": "Pikillaqta",
+      "year": 650,
+      "description": "The Wari administrative city in the Cusco basin, a planned grid of over 700 rectangular rooms inside a single perimeter wall covering more than 120 acres. Built on a template identical to other Wari outposts despite being a thousand miles from the capital — the clearest evidence of imperial central planning.",
+      "wikiSlug": "Pikillaqta",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-viracochapampa",
+      "label": "Viracochapampa",
+      "year": 700,
+      "description": "A Wari administrative center in the northern highlands above Huamachuco, built to the same rectangular template as Pikillaqta. Construction was apparently never finished, suggesting the imperial expansion ran out of momentum on the northern frontier.",
+      "wikiSlug": "Viracochapampa",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-azangaro",
+      "label": "Azángaro",
+      "year": 700,
+      "description": "A Wari administrative compound near the modern town of Huanta, with the standard rectangular plan in miniature — possibly a way-station on the road between the Wari capital and the northern frontier.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 4,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-wamani-system",
+      "label": "Wamani Provincial System",
+      "year": 650,
+      "description": "Wari divided its territory into wamanis — provinces administered from the planned grid cities. Each wamani sent labor tribute (mit'a) to the central state and received state-sponsored religious ceremonies in exchange. The system was inherited almost intact by the Inca.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mhe-wari-roads",
+      "label": "Wari Road Network",
+      "year": 700,
+      "description": "The first true Andean road network — paved, signposted with way-stations, designed for llama caravans and runners — built across central Peru between the Wari capital and the provincial cities. The Inca road system five centuries later followed many of the same routes.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-qollqa-storehouses",
+      "label": "Wari Storehouses",
+      "year": 700,
+      "description": "Wari administrative centers contained rows of small standardized storage rooms (qollqa) holding tribute goods — freeze-dried potatoes, dried llama meat, textiles, ceramics. The state stockpile model was inherited by the Inca, who scaled it to feed armies of thousands.",
+      "wikiSlug": "Qullqa",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-khipu-origins",
+      "label": "Khipu Origins",
+      "year": 700,
+      "description": "The earliest knotted-string khipu records yet found come from Wari sites, predating the famous Inca khipus by several centuries. Wari khipus had a different structural grammar — wrapped color-coded threads rather than knotted decimal numerals — but they are clearly the ancestor of the later Inca system.",
+      "wikiSlug": "Quipu",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mhe-quechua-spread",
+      "label": "Quechua Language Spread",
+      "year": 700,
+      "description": "The leading scholarly hypothesis is that Wari expansion is the reason Quechua became the dominant language family of the central Andes long before the Inca. The Inca later adopted Quechua and spread it further, but Wari did the original work.",
+      "wikiSlug": "Quechuan_languages",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mhe-wari-cosmopolitan",
+      "label": "Cosmopolitan Wari Style",
+      "year": 600,
+      "description": "Wari ceramics fused south-coast Nazca polychromy, highland Huarpa form, and altiplano Tiwanaku iconography. The resulting style was instantly recognizable across the central Andes and signaled imperial affiliation in the same way Roman terra sigillata signaled Roman provincial life.",
+      "wikiSlug": "Wari_culture",
+      "tier": 4,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-wari-mit-a",
+      "label": "Mit'a Labor Tribute",
+      "year": 650,
+      "description": "Wari and Tiwanaku both ran the empire on mit'a — the rotating communal labor obligation that ayllu communities owed to the central state. Mit'a built the roads, the storehouses, and the administrative centers, and the Inca later inherited the same system without changing the name.",
+      "wikiSlug": "Mit%27a",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mhe-wari-textile",
+      "label": "Wari Tunics",
+      "year": 700,
+      "description": "Wari elite tunics — finely woven tapestry shirts displaying highly abstracted Staff God figures stretched and compressed across the chest — are among the most technically sophisticated textiles ever produced. Many show deliberate stretch-and-distort effects that scholars compare to modern modernist abstraction.",
+      "wikiSlug": "Wari_culture",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-trephination-wari",
+      "label": "Wari Skull Surgery",
+      "year": 700,
+      "description": "Wari surgeons trephined skulls at survival rates of 70–80%, higher than any pre-modern medical tradition outside the Andes. The instruments and techniques continued the older Paracas tradition (Andean Kingdoms, Chapter 2) but Wari skull surgery shows greater standardization across sites.",
+      "wikiSlug": "Trepanning",
+      "tier": 4,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mhe-cerro-baul",
+      "label": "Cerro Baúl",
+      "year": 600,
+      "endYear": 1000,
+      "description": "A Wari frontier outpost on a flat-topped mesa in the Moquegua Valley, six miles from a Tiwanaku colony settlement in the same valley — the only place in the empire where the two contemporary states are documented in direct face-to-face contact.",
+      "wikiSlug": "Cerro_Bau%CC%81l",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-cerro-baul-brewery",
+      "label": "Cerro Baúl Brewery",
+      "year": 800,
+      "description": "Excavations at Cerro Baúl exposed a large industrial brewery producing chicha (corn and pepper-tree berry beer) at scale, with workshop areas for women weavers (the chicha-makers) and storage for elaborate kero drinking cups used in diplomatic feasts.",
+      "wikiSlug": "Cerro_Bau%CC%81l",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-smashing-cup-ceremony",
+      "label": "Smashing-the-Cup Ceremony",
+      "year": 1000,
+      "description": "When Cerro Baúl was abandoned around 1000 CE, the Wari elite held a final ritual feast, drank chicha from elaborate keros, smashed the cups against the brewery walls, and burned the building down. Archaeologists have reconstructed the entire ceremony from the smashed-cup debris.",
+      "wikiSlug": "Cerro_Bau%CC%81l",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-moquegua-coexistence",
+      "label": "Moquegua Coexistence",
+      "year": 700,
+      "description": "In the Moquegua Valley of southern Peru, Wari colonists at Cerro Baúl and Tiwanaku colonists at sites like Omo lived within sight of each other for roughly three centuries — apparently without warfare, intermarriage, or any of the cultural mixing one might expect from neighbors with shared religion.",
+      "wikiSlug": "Moquegua",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-pachacamac-wari",
+      "label": "Pachacamac Under Wari",
+      "year": 700,
+      "description": "The coastal oracle site of Pachacamac (Andean Kingdoms, Chapter 7) became a major Wari ceremonial center after 700 CE, hosting the first phase of the Wari-style temple architecture that would later be expanded by the Ichma and Inca. Pachacamac functioned continuously as an oracle for over 1,300 years.",
+      "wikiSlug": "Pachacamac",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-vilcashuaman",
+      "label": "Vilcashuaman Roots",
+      "year": 750,
+      "description": "The site that the Inca later developed into the major provincial center of Vilcashuaman began as a Wari administrative outpost — one of many cases where Inca imperial cities were built directly on Wari foundations.",
+      "wikiSlug": "Vilcashuam%C3%A1n",
+      "tier": 4,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-cajamarquilla",
+      "label": "Cajamarquilla",
+      "year": 700,
+      "description": "A massive Wari-influenced urban center in the Rímac Valley near modern Lima, covering over 400 acres with adobe walls and patio groups, second only to the Wari capital in size.",
+      "wikiSlug": "Cajamarquilla",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-honcopampa",
+      "label": "Honcopampa",
+      "year": 750,
+      "description": "A Wari administrative compound in the Callejón de Huaylas of the northern highlands, set into the older Recuay cultural landscape — evidence of Wari penetration into territory that the previous chapter (Andean Kingdoms, Chapter 7) covered as Recuay heartland.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 4,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-wari-elite-burials",
+      "label": "El Castillo de Huarmey",
+      "year": 800,
+      "description": "An undisturbed Wari elite mausoleum on the north-central coast, excavated in 2012, containing 58 high-status women in seated burials with thousands of luxury offerings — the richest pre-Inca burial assemblage ever found in Peru.",
+      "wikiSlug": "El_Castillo_de_Huarmey",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-women-weavers-status",
+      "label": "Women's Status in Wari",
+      "year": 800,
+      "description": "The Huarmey burial complex and the brewery workshops at Cerro Baúl together suggest that elite women in Wari society held substantial wealth and ritual authority — running the chicha production that made imperial feasting possible and sometimes commanding their own elaborate burials.",
+      "wikiSlug": "Wari_culture",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mhe-tiahuanaco-aging",
+      "label": "Tiwanaku Population Peak",
+      "year": 800,
+      "description": "Tiwanaku reached its peak population of 20,000–40,000 people sometime around 800 CE, supported by the surrounding raised-field zone covering perhaps 80,000 acres of altiplano floor — the most intensively engineered farmland in the pre-Columbian Americas.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-puma-iconography",
+      "label": "Puma and Condor Imagery",
+      "year": 600,
+      "description": "Tiwanaku and Wari art shared three central animal figures — the puma, the condor, and the snake — representing the three vertical zones of Andean cosmology (earth, sky, and underworld). The same triad would later appear in Inca religion under the names puma, kuntur, and amaru.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 4,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-ushnu-platforms",
+      "label": "Ushnu Platforms",
+      "year": 700,
+      "description": "The raised stone platform that the Inca later called an ushnu — a ceremonial stage from which the ruler addressed his assembled subjects — first appears in the central plazas of Wari administrative cities like Pikillaqta.",
+      "wikiSlug": "Ushnu",
+      "tier": 4,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-spondylus-trade",
+      "label": "Spondylus Trade Continues",
+      "year": 600,
+      "description": "The Spondylus shell trade network, running from Ecuadorian waters down the coast and up into the highlands since Chavín times, continued through the Middle Horizon. Spondylus appears in Tiwanaku and Wari elite burials at the same frequency as in Moche and Nazca contexts.",
+      "wikiSlug": "Spondylus",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mhe-bronze-metallurgy",
+      "label": "Tiwanaku Bronze",
+      "year": 700,
+      "description": "Tiwanaku metalworkers were the first in the Andes to produce true tin bronze (rather than the earlier arsenical bronze of the Moche), giving them a harder and more workable metal for both tools and ornaments.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-class-system",
+      "label": "Tiwanaku Class Hierarchy",
+      "year": 700,
+      "description": "Burial evidence at Tiwanaku shows a sharp distinction between a small elite buried with elaborate grave goods and a much larger laboring population — the first clearly stratified urban society on the Andean altiplano.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 4,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mhe-no-writing",
+      "label": "No Writing System",
+      "year": 600,
+      "description": "Neither Tiwanaku nor Wari developed a writing system. Everything historians know about the Middle Horizon is reconstructed from architecture, ceramics, textiles, burials, and the early Wari khipu — there are no king-lists, no chronicles, no inscriptions naming any individual ruler.",
+      "wikiSlug": "Pre-Columbian_writing",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-king-anonymous",
+      "label": "Anonymous Rulers",
+      "year": 700,
+      "description": "Not a single Tiwanaku or Wari ruler is known by name. Both empires lasted for over four centuries without leaving the name of any king behind — a fact that distinguishes the Andes from every other pre-modern empire of comparable scale.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mhe-drought-900",
+      "label": "Multi-Decade Drought",
+      "year": 900,
+      "endYear": 1100,
+      "description": "Ice cores from the Quelccaya glacier and lake-bed sediment cores from Lake Titicaca document a severe multi-decade drought beginning around 900 CE — almost certainly the trigger for the simultaneous collapse of both highland empires.",
+      "wikiSlug": "Quelccaya_Ice_Cap",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mhe-suka-kollu-collapse",
+      "label": "Raised-Field Abandonment",
+      "year": 1000,
+      "description": "As Lake Titicaca's level dropped during the 900–1100 CE drought, the raised-field system surrounding Tiwanaku lost its water supply and was abandoned. Without raised-field productivity, the city could no longer feed its population.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mhe-wari-abandonment",
+      "label": "Wari Capital Abandoned",
+      "year": 1000,
+      "description": "The city of Huari was abandoned around 1000 CE — not destroyed by invasion but deliberately walled off, with doorways blocked, plazas decommissioned, and the population dispersed to smaller settlements in the surrounding hills.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-abandonment",
+      "label": "Tiwanaku Abandoned",
+      "year": 1100,
+      "description": "Tiwanaku was abandoned slightly later than Wari, perhaps around 1100 CE. The monumental core was left intact rather than demolished — pilgrims still visited the Gateway of the Sun and the Akapana through the Late Intermediate Period and into the Inca era.",
+      "wikiSlug": "Tiwanaku",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mhe-late-intermediate-fragmentation",
+      "label": "Late Intermediate Fragmentation",
+      "year": 1000,
+      "endYear": 1400,
+      "description": "After the imperial collapse, the Andes broke into smaller polities — the Chimú on the north coast, the Chancay on the central coast, the Aymara kingdoms of the altiplano, the Killke-period chieftains in the Cusco basin — for roughly four centuries, until the Inca reassembled the imperial template after 1400.",
+      "wikiSlug": "Late_Intermediate_period",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mhe-chimu-rises",
+      "label": "Chimú Inherits Wari Coast",
+      "year": 900,
+      "description": "On the north coast, the Chimú kingdom rose from the post-Wari fragments and built the adobe city of Chan Chan into the largest pre-Columbian city in South America. Chimú irrigation engineering inherited Wari precedents.",
+      "wikiSlug": "Chim%C3%BA_culture",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mhe-chancay-culture",
+      "label": "Chancay Coastal Culture",
+      "year": 1000,
+      "endYear": 1450,
+      "description": "On the central coast of Peru, the Chancay culture produced distinctive painted textiles, dolls, and the unmistakable smiling-face Cuchimilco figurines. The Chancay were a smaller successor polity to the Wari coastal sphere.",
+      "wikiSlug": "Chancay_culture",
+      "tier": 4,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mhe-aymara-kingdoms",
+      "label": "Aymara Kingdoms",
+      "year": 1100,
+      "endYear": 1450,
+      "description": "Around Lake Titicaca, the Aymara-speaking communities reorganized into rival kingdoms — the Lupaqa, the Colla, the Pacajes — that fought each other for control of the altiplano grazing lands until the Inca conquered them all in the fifteenth century.",
+      "wikiSlug": "Aymara_kingdoms",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mhe-inca-build-on-wari",
+      "label": "Inca Inheritance",
+      "year": 1400,
+      "description": "When the Inca built their empire after 1400 CE, they consciously rebuilt on the Wari template — the road system, the storehouses, the wamani provincial structure, the mit'a labor tribute, the ushnu platforms, the khipu accounting. The Inca were the heirs of Wari, not its rediscovery.",
+      "wikiSlug": "Inca_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mhe-tiwanaku-inca-myth",
+      "label": "Tiwanaku in Inca Myth",
+      "year": 1450,
+      "description": "Inca origin stories brought to the Spanish by chroniclers like Cieza de León claimed that the founding ancestors of the Inca had emerged from islands in Lake Titicaca, near the ruins of Tiwanaku. The Inca consciously claimed Tiwanaku ancestry as a source of legitimacy.",
+      "wikiSlug": "Manco_C%C3%A1pac",
+      "tier": 4,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mhe-cieza-de-leon",
+      "label": "Cieza de León Visits Tiwanaku",
+      "year": 1549,
+      "description": "The Spanish chronicler Pedro Cieza de León visited the ruins of Tiwanaku in 1549 — already 450 years abandoned — and recorded the local Aymara residents saying the city had been built in a single night by giants, before the time of the Inca.",
+      "wikiSlug": "Pedro_Cieza_de_Le%C3%B3n",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mhe-bandelier-1894",
+      "label": "Bandelier Excavations",
+      "year": 1894,
+      "description": "Adolph Bandelier conducted some of the first systematic archaeological work at Tiwanaku in the 1890s, distinguishing it as a pre-Inca civilization rather than an Inca outpost. His work established Andean archaeology as a serious discipline.",
+      "wikiSlug": "Adolph_Bandelier",
+      "tier": 4,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mhe-tello-discovery",
+      "label": "Tello and the Wari Question",
+      "year": 1931,
+      "description": "Julio C. Tello, Peru's pioneering indigenous archaeologist, was the first to systematically study Wari ceramics and identify them as the product of a separate empire rather than a regional Tiwanaku style. Before Tello, the term Tiahuanaco was used for both empires.",
+      "wikiSlug": "Julio_C._Tello",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mhe-isbell-mcewen",
+      "label": "Modern Wari Excavations",
+      "year": 1980,
+      "endYear": 2010,
+      "description": "Modern Wari archaeology — particularly the work of William Isbell, Gordon McEwan, and Anita Cook — has reframed Wari as a true imperial state with a planned administrative system, not just a religious horizon. The reframing brought Wari into parity with Tiwanaku in scholarly recognition.",
+      "wikiSlug": "Wari_Empire",
+      "tier": 4,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mhe-erickson-raised-fields",
+      "label": "Erickson Raised-Field Revival",
+      "year": 1980,
+      "description": "In the 1980s, archaeologist Clark Erickson collaborated with Aymara communities near Lake Titicaca to rebuild the ancient suka kollu raised fields. Potato yields tripled compared to conventional farming — confirming that the ancient Tiwanaku agricultural system was three times more productive than modern dryland methods.",
+      "wikiSlug": "Waru_Waru",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mhe-cerro-baul-excavation",
+      "label": "Cerro Baúl Excavations",
+      "year": 1989,
+      "endYear": 2010,
+      "description": "Patrick Williams, Donna Nash, and their colleagues have excavated Cerro Baúl since the late 1980s, exposing the brewery, the ceremonial closure deposits, and the colony's relationship to the neighboring Tiwanaku settlement. The site has become the central case study for Wari-Tiwanaku interaction.",
+      "wikiSlug": "Cerro_Bau%CC%81l",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mhe-pumapunku-pseudoscience",
+      "label": "Pumapunku Pseudoscience",
+      "year": 1968,
+      "description": "Erich von Däniken's 1968 book Chariots of the Gods popularized the claim that the precision-cut stones of Pumapunku could not have been carved without modern tools — a claim that real masons have repeatedly demonstrated to be false using period stone, copper chisels, and patience. Pumapunku remains the most-cited site in pseudoarchaeology.",
+      "wikiSlug": "Pumapunku",
+      "tier": 4,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}

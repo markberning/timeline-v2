@@ -1,0 +1,606 @@
+{
+  "1": [
+    {
+      "term": "Moche",
+      "matchText": "Moche",
+      "wikiSlug": "Moche_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Nazca",
+      "matchText": "Nazca",
+      "wikiSlug": "Nazca_culture",
+      "type": "concept"
+    },
+    {
+      "term": "El Niño",
+      "matchText": "El Niño",
+      "wikiSlug": "El_Ni%C3%B1o",
+      "type": "concept"
+    },
+    {
+      "term": "Pampa Grande",
+      "matchText": "Pampa Grande",
+      "wikiSlug": "Pampa_Grande",
+      "type": "place"
+    },
+    {
+      "term": "Lima culture",
+      "matchText": "Lima",
+      "wikiSlug": "Lima_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Recuay",
+      "matchText": "Recuay",
+      "wikiSlug": "Recuay_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Middle Horizon",
+      "matchText": "Middle Horizon",
+      "wikiSlug": "Middle_Horizon",
+      "type": "concept"
+    },
+    {
+      "term": "Chavín",
+      "matchText": "Chavín",
+      "wikiSlug": "Chav%C3%ADn_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Tiwanaku",
+      "matchText": "Tiwanaku",
+      "wikiSlug": "Tiwanaku",
+      "type": "place"
+    },
+    {
+      "term": "Wari",
+      "matchText": "Wari",
+      "wikiSlug": "Wari_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Altiplano",
+      "matchText": "altiplano",
+      "wikiSlug": "Altiplano",
+      "type": "place"
+    },
+    {
+      "term": "Puna",
+      "matchText": "puna",
+      "wikiSlug": "Puna_grassland",
+      "type": "place"
+    },
+    {
+      "term": "Llama",
+      "matchText": "llamas",
+      "wikiSlug": "Llama",
+      "type": "concept"
+    },
+    {
+      "term": "Alpaca",
+      "matchText": "alpacas",
+      "wikiSlug": "Alpaca",
+      "type": "concept"
+    },
+    {
+      "term": "Vertical archipelago",
+      "matchText": "vertical archipelago",
+      "wikiSlug": "Vertical_archipelago",
+      "type": "concept"
+    },
+    {
+      "term": "Ayllu",
+      "matchText": "ayllu",
+      "wikiSlug": "Ayllu",
+      "type": "concept"
+    },
+    {
+      "term": "Khipu",
+      "matchText": "khipu",
+      "wikiSlug": "Quipu",
+      "type": "concept"
+    },
+    {
+      "term": "Quechua",
+      "matchText": "Quechua",
+      "wikiSlug": "Quechuan_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Coca",
+      "matchText": "coca",
+      "wikiSlug": "Coca",
+      "type": "concept"
+    },
+    {
+      "term": "Quinoa",
+      "matchText": "quinoa",
+      "wikiSlug": "Quinoa",
+      "type": "concept"
+    },
+    {
+      "term": "Tang Dynasty",
+      "matchText": "Tang Chinese",
+      "wikiSlug": "Tang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Maya Classic period",
+      "matchText": "Maya Classic period",
+      "wikiSlug": "Classic_Maya_collapse",
+      "type": "concept"
+    },
+    {
+      "term": "Teotihuacan",
+      "matchText": "Teotihuacan",
+      "wikiSlug": "Teotihuacan",
+      "type": "place"
+    }
+  ],
+  "2": [
+    {
+      "term": "Lake Titicaca",
+      "matchText": "Lake Titicaca",
+      "wikiSlug": "Lake_Titicaca",
+      "type": "place"
+    },
+    {
+      "term": "Andesite",
+      "matchText": "andesite",
+      "wikiSlug": "Andesite",
+      "type": "concept"
+    },
+    {
+      "term": "Akapana",
+      "matchText": "Akapana",
+      "wikiSlug": "Akapana",
+      "type": "place"
+    },
+    {
+      "term": "Apu",
+      "matchText": "apu",
+      "wikiSlug": "Apu_(god)",
+      "type": "concept"
+    },
+    {
+      "term": "Kalasasaya",
+      "matchText": "Kalasasaya",
+      "wikiSlug": "Kalasasaya",
+      "type": "place"
+    },
+    {
+      "term": "Gateway of the Sun",
+      "matchText": "Gateway of the Sun",
+      "wikiSlug": "Gateway_of_the_Sun",
+      "type": "place"
+    },
+    {
+      "term": "Staff God",
+      "matchText": "Staff God",
+      "wikiSlug": "Staff_God",
+      "type": "concept"
+    },
+    {
+      "term": "Raimondi Stele",
+      "matchText": "Raimondi Stele",
+      "wikiSlug": "Raimondi_Stela",
+      "type": "concept"
+    },
+    {
+      "term": "Wiracocha",
+      "matchText": "Wiracocha",
+      "wikiSlug": "Viracocha",
+      "type": "concept"
+    },
+    {
+      "term": "Pumapunku",
+      "matchText": "Pumapunku",
+      "wikiSlug": "Pumapunku",
+      "type": "place"
+    },
+    {
+      "term": "Erich von Däniken",
+      "matchText": "Erich von Däniken",
+      "wikiSlug": "Erich_von_D%C3%A4niken",
+      "type": "people"
+    },
+    {
+      "term": "Chuño",
+      "matchText": "chuño",
+      "wikiSlug": "Chu%C3%B1o",
+      "type": "concept"
+    },
+    {
+      "term": "Charqui",
+      "matchText": "charqui",
+      "wikiSlug": "Charqui",
+      "type": "concept"
+    },
+    {
+      "term": "Obsidian",
+      "matchText": "obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "Cochabamba",
+      "matchText": "Cochabamba",
+      "wikiSlug": "Cochabamba",
+      "type": "place"
+    },
+    {
+      "term": "Atacama Desert",
+      "matchText": "Atacama",
+      "wikiSlug": "Atacama_Desert",
+      "type": "place"
+    },
+    {
+      "term": "Suka kollu",
+      "matchText": "suka kollu",
+      "wikiSlug": "Waru_Waru",
+      "type": "concept"
+    },
+    {
+      "term": "Clark Erickson",
+      "matchText": "Clark Erickson",
+      "wikiSlug": "Clark_Erickson",
+      "type": "people"
+    }
+  ],
+  "3": [
+    {
+      "term": "Ayacucho",
+      "matchText": "Ayacucho",
+      "wikiSlug": "Ayacucho",
+      "type": "place"
+    },
+    {
+      "term": "Huarpa",
+      "matchText": "Huarpa",
+      "wikiSlug": "Huarpa_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Conchopata",
+      "matchText": "Conchopata",
+      "wikiSlug": "Conchopata",
+      "type": "place"
+    },
+    {
+      "term": "Pikillaqta",
+      "matchText": "Pikillaqta",
+      "wikiSlug": "Pikillaqta",
+      "type": "place"
+    },
+    {
+      "term": "Cusco",
+      "matchText": "Cusco",
+      "wikiSlug": "Cusco",
+      "type": "place"
+    },
+    {
+      "term": "Viracochapampa",
+      "matchText": "Viracochapampa",
+      "wikiSlug": "Viracochapampa",
+      "type": "place"
+    },
+    {
+      "term": "Cajamarquilla",
+      "matchText": "Cajamarquilla",
+      "wikiSlug": "Cajamarquilla",
+      "type": "place"
+    },
+    {
+      "term": "Wamani",
+      "matchText": "wamani",
+      "wikiSlug": "Wari_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mit'a",
+      "matchText": "mit'a",
+      "wikiSlug": "Mit%27a",
+      "type": "concept"
+    },
+    {
+      "term": "Castillo de Huarmey",
+      "matchText": "El Castillo de Huarmey",
+      "wikiSlug": "El_Castillo_de_Huarmey",
+      "type": "place"
+    },
+    {
+      "term": "Inca",
+      "matchText": "Inca",
+      "wikiSlug": "Inca_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Chang'an",
+      "matchText": "Chang'an",
+      "wikiSlug": "Chang%27an",
+      "type": "place"
+    }
+  ],
+  "4": [
+    {
+      "term": "Quechua",
+      "matchText": "Quechua",
+      "wikiSlug": "Quechuan_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Aymara",
+      "matchText": "Aymara",
+      "wikiSlug": "Aymara_language",
+      "type": "concept"
+    },
+    {
+      "term": "Vilca",
+      "matchText": "vilca",
+      "wikiSlug": "Anadenanthera_colubrina",
+      "type": "concept"
+    },
+    {
+      "term": "San Pedro cactus",
+      "matchText": "San Pedro",
+      "wikiSlug": "Echinopsis_pachanoi",
+      "type": "concept"
+    },
+    {
+      "term": "Kero",
+      "matchText": "kero drinking cups",
+      "wikiSlug": "Kero",
+      "type": "concept"
+    },
+    {
+      "term": "Moquegua",
+      "matchText": "Moquegua Valley",
+      "wikiSlug": "Moquegua",
+      "type": "place"
+    },
+    {
+      "term": "Cerro Baúl",
+      "matchText": "Cerro Baúl",
+      "wikiSlug": "Cerro_Bau%CC%81l",
+      "type": "place"
+    },
+    {
+      "term": "Julio C. Tello",
+      "matchText": "Julio C. Tello",
+      "wikiSlug": "Julio_C._Tello",
+      "type": "people"
+    }
+  ],
+  "5": [
+    {
+      "term": "Chicha",
+      "matchText": "chicha",
+      "wikiSlug": "Chicha",
+      "type": "concept"
+    },
+    {
+      "term": "Kero",
+      "matchText": "keros",
+      "wikiSlug": "Kero",
+      "type": "concept"
+    },
+    {
+      "term": "Omo",
+      "matchText": "Omo",
+      "wikiSlug": "Tiwanaku",
+      "type": "place"
+    }
+  ],
+  "6": [
+    {
+      "term": "Qhapaq Ñan",
+      "matchText": "Qhapaq Ñan",
+      "wikiSlug": "Qhapaq_%C3%91an",
+      "type": "concept"
+    },
+    {
+      "term": "Tambo",
+      "matchText": "tambos",
+      "wikiSlug": "Tambo_(Incan_structure)",
+      "type": "concept"
+    },
+    {
+      "term": "Qollqa",
+      "matchText": "qollqa",
+      "wikiSlug": "Qullqa",
+      "type": "concept"
+    },
+    {
+      "term": "Huánuco Pampa",
+      "matchText": "Huánuco Pampa",
+      "wikiSlug": "Hu%C3%A1nuco_Pampa",
+      "type": "place"
+    },
+    {
+      "term": "Khipukamayuq",
+      "matchText": "khipukamayuq",
+      "wikiSlug": "Khipu_kamayuq",
+      "type": "concept"
+    },
+    {
+      "term": "Gary Urton",
+      "matchText": "Gary Urton",
+      "wikiSlug": "Gary_Urton",
+      "type": "people"
+    },
+    {
+      "term": "Tocapu",
+      "matchText": "Tocapu",
+      "wikiSlug": "Tocapu",
+      "type": "concept"
+    }
+  ],
+  "7": [
+    {
+      "term": "Anadenanthera colubrina",
+      "matchText": "Anadenanthera colubrina",
+      "wikiSlug": "Anadenanthera_colubrina",
+      "type": "concept"
+    },
+    {
+      "term": "Echinopsis pachanoi",
+      "matchText": "Echinopsis pachanoi",
+      "wikiSlug": "Echinopsis_pachanoi",
+      "type": "concept"
+    },
+    {
+      "term": "Ayahuasca",
+      "matchText": "Ayahuasca",
+      "wikiSlug": "Ayahuasca",
+      "type": "concept"
+    },
+    {
+      "term": "Bennett Monolith",
+      "matchText": "Bennett Monolith",
+      "wikiSlug": "Bennett_Monolith",
+      "type": "concept"
+    },
+    {
+      "term": "Soma",
+      "matchText": "Soma",
+      "wikiSlug": "Soma_(drink)",
+      "type": "concept"
+    },
+    {
+      "term": "Eleusinian Mysteries",
+      "matchText": "Eleusinian Mysteries",
+      "wikiSlug": "Eleusinian_Mysteries",
+      "type": "concept"
+    },
+    {
+      "term": "Sacsayhuamán",
+      "matchText": "Sacsayhuamán",
+      "wikiSlug": "Sacsayhuam%C3%A1n",
+      "type": "place"
+    },
+    {
+      "term": "Coricancha",
+      "matchText": "Coricancha",
+      "wikiSlug": "Coricancha",
+      "type": "place"
+    },
+    {
+      "term": "Inti",
+      "matchText": "Inti",
+      "wikiSlug": "Inti",
+      "type": "concept"
+    },
+    {
+      "term": "Pachamama",
+      "matchText": "Pachamama",
+      "wikiSlug": "Pachamama",
+      "type": "concept"
+    }
+  ],
+  "8": [
+    {
+      "term": "Quelccaya Ice Cap",
+      "matchText": "Quelccaya Ice Cap",
+      "wikiSlug": "Quelccaya_Ice_Cap",
+      "type": "place"
+    },
+    {
+      "term": "Late Intermediate Period",
+      "matchText": "Late Intermediate Period",
+      "wikiSlug": "Late_Intermediate_period",
+      "type": "concept"
+    },
+    {
+      "term": "Chimú",
+      "matchText": "Chimú",
+      "wikiSlug": "Chim%C3%BA_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Chan Chan",
+      "matchText": "Chan Chan",
+      "wikiSlug": "Chan_Chan",
+      "type": "place"
+    },
+    {
+      "term": "Chancay culture",
+      "matchText": "Chancay",
+      "wikiSlug": "Chancay_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Aymara kingdoms",
+      "matchText": "Aymara kingdoms",
+      "wikiSlug": "Aymara_kingdoms",
+      "type": "concept"
+    },
+    {
+      "term": "Pachacuti",
+      "matchText": "Pachacuti",
+      "wikiSlug": "Pachacuti",
+      "type": "people"
+    },
+    {
+      "term": "Tupac Yupanqui",
+      "matchText": "Tupac Yupanqui",
+      "wikiSlug": "T%C3%BApac_Inca_Yupanqui",
+      "type": "people"
+    },
+    {
+      "term": "Huayna Capac",
+      "matchText": "Huayna Capac",
+      "wikiSlug": "Huayna_Capac",
+      "type": "people"
+    },
+    {
+      "term": "Francisco Pizarro",
+      "matchText": "Francisco Pizarro",
+      "wikiSlug": "Francisco_Pizarro",
+      "type": "people"
+    },
+    {
+      "term": "Atahualpa",
+      "matchText": "Atahualpa",
+      "wikiSlug": "Atahualpa",
+      "type": "people"
+    },
+    {
+      "term": "Machu Picchu",
+      "matchText": "Machu Picchu",
+      "wikiSlug": "Machu_Picchu",
+      "type": "place"
+    },
+    {
+      "term": "Pedro Cieza de León",
+      "matchText": "Pedro Cieza de León",
+      "wikiSlug": "Pedro_Cieza_de_Le%C3%B3n",
+      "type": "people"
+    },
+    {
+      "term": "Adolph Bandelier",
+      "matchText": "Adolph Bandelier",
+      "wikiSlug": "Adolph_Bandelier",
+      "type": "people"
+    },
+    {
+      "term": "William Isbell",
+      "matchText": "William Isbell",
+      "wikiSlug": "Wari_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Medieval Warm Period",
+      "matchText": "Medieval Warm Period",
+      "wikiSlug": "Medieval_Warm_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Song Dynasty",
+      "matchText": "Song Dynasty",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    }
+  ]
+}
