@@ -1,0 +1,960 @@
+{
+  "id": "renaissance-italy",
+  "label": "Renaissance Italy",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Italian_Renaissance",
+  "imageWikiSlug": "Mona_Lisa",
+  "pitch": "In a few crowded Italian city-states, art, science, and ruthless ambition collided to produce the most explosive burst of creativity in Western history. It starts with Dante's Divine Comedy reinventing literature in the vernacular and Giotto's Scrovegni Chapel breaking with flat Byzantine painting. Then Cosimo and Lorenzo de' Medici bankroll the golden age, Brunelleschi raises an impossible dome over Florence, Leonardo da Vinci paints the Mona Lisa, Michelangelo carves David and frescoes the Sistine Chapel, and Machiavelli's The Prince invents modern political science.\n\n🔑 Key Facts:\n• Brunelleschi's Dome on Florence Cathedral remains the largest brick masonry dome ever built — an engineering puzzle nobody thought solvable\n• The Medici Bank became Europe's largest financial institution and bankrolled the High Renaissance\n• The Sistine Chapel Ceiling took Michelangelo four years on scaffolding, painting Genesis scenes that redefined the human form in art\n• Brunelleschi's Linear Perspective revolutionized painting by showing artists how to depict three-dimensional space on flat surfaces\n\n🤔 Why It Matters: Renaissance innovations — perspective painting, vernacular literature, double-entry bookkeeping, Copernicus's heliocentric theory, Vesalius's anatomy, the Italian printing press — created the modern world. The very concept of 'Renaissance' (rebirth) shaped how Europeans saw themselves for the next four centuries.\n\n🎲 Wild Card: The Sack of Rome in 1527 by the Holy Roman Emperor's own unpaid mercenaries shocked all of Christendom and symbolically ended the High Renaissance — Pope Clement VII watched from a fortress as Lutheran Landsknechts looted St. Peter's Basilica.",
+  "countryIds": [
+    "380"
+  ],
+  "spans": [
+    {
+      "id": "span-renaissance-italy-trecento",
+      "label": "Trecento",
+      "startYear": 1300,
+      "endYear": 1400,
+      "wikiSlug": "Trecento",
+      "description": "Dante, Petrarch, and Boccaccio revived classical learning in vernacular Italian while Giotto pioneered naturalistic painting in Padua and Florence. The Black Death of 1348 killed roughly half of Florence's population, paradoxically concentrating wealth and accelerating the cultural shift."
+    },
+    {
+      "id": "span-renaissance-italy-quattrocento",
+      "label": "Quattrocento",
+      "startYear": 1400,
+      "endYear": 1500,
+      "wikiSlug": "Quattrocento",
+      "description": "Brunelleschi raised the impossible dome of Florence Cathedral, Donatello cast the first freestanding bronze nude since antiquity, Masaccio painted the first true perspective frescoes, and the Medici Bank bankrolled the explosion of patronage that produced the early Renaissance in Florence."
+    },
+    {
+      "id": "span-renaissance-italy-high-renaissance",
+      "label": "High Renaissance",
+      "startYear": 1490,
+      "endYear": 1527,
+      "wikiSlug": "High_Renaissance",
+      "description": "Leonardo, Michelangelo, and Raphael produced their greatest masterworks in Florence and Rome under papal and Medici patronage. The brief but extraordinary peak ran from roughly the start of Leonardo's Last Supper in 1495 to the Sack of Rome in 1527."
+    },
+    {
+      "id": "span-renaissance-italy-italian-wars",
+      "label": "Italian Wars",
+      "startYear": 1494,
+      "endYear": 1559,
+      "wikiSlug": "Italian_Wars",
+      "description": "France, Spain, and the Holy Roman Empire fought for control of the Italian peninsula in a series of devastating wars triggered by Charles VIII's 1494 invasion. The Peace of Cateau-Cambresis in 1559 confirmed Spanish Habsburg dominance and ended Italian political independence for three centuries."
+    },
+    {
+      "id": "span-renaissance-italy-cinquecento",
+      "label": "Late Renaissance & Counter-Reformation",
+      "startYear": 1530,
+      "endYear": 1600,
+      "wikiSlug": "Mannerism",
+      "description": "Mannerism, Venetian colorism under Titian and Tintoretto, the Council of Trent's Catholic counter-response to the Protestant Reformation, Palestrina's polyphonic mass, the birth of opera under Monteverdi, and Galileo's first conflicts with the Church."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-italian-city-states",
+      "label": "Italian City-State System",
+      "year": 1300,
+      "endYear": 1494,
+      "description": "Northern and central Italy contained roughly twenty independent city-states by 1400, with Venice, Genoa, Milan, Florence, the Papal States, and Naples emerging as the Five Powers formalized at the Peace of Lodi in 1454.",
+      "wikiSlug": "Italian_city-states",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-avignon-papacy-effect",
+      "label": "Avignon Papacy Empties Rome",
+      "year": 1309,
+      "endYear": 1377,
+      "description": "The papal court relocated to Avignon under French pressure for nearly seventy years, leaving Rome a depopulated medieval town of perhaps 20,000 people whose ancient monuments were quarried for stone.",
+      "wikiSlug": "Avignon_Papacy",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dante",
+      "label": "Dante Alighieri",
+      "year": 1265,
+      "endYear": 1321,
+      "description": "Florentine poet, writer, and philosopher whose Divine Comedy became the founding masterpiece of Italian literature and helped fix Tuscan as the literary language of Italy.",
+      "wikiSlug": "Dante_Alighieri",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-divine-comedy",
+      "label": "Dante's Divine Comedy",
+      "year": 1320,
+      "description": "Dante completed his epic vernacular poem structured as a guided tour through Hell, Purgatory, and Paradise. It became the most-read non-Biblical text of late medieval Europe and the founding masterpiece of Italian literature.",
+      "wikiSlug": "Divine_Comedy",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-giotto",
+      "label": "Giotto di Bondone",
+      "year": 1267,
+      "endYear": 1337,
+      "description": "Florentine painter and architect whose three-dimensional figures and emotional depth broke with flat Byzantine convention and pioneered Western pictorial naturalism a century before Brunelleschi codified perspective.",
+      "wikiSlug": "Giotto",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-scrovegni-chapel",
+      "label": "Giotto's Scrovegni Chapel",
+      "year": 1305,
+      "description": "Giotto completed his fresco cycle in the Scrovegni Chapel in Padua around 1305, depicting the lives of Mary and Christ with naturalistic figures, weight-bearing bodies, and psychological intensity unprecedented in European painting.",
+      "wikiSlug": "Scrovegni_Chapel",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-petrarch",
+      "label": "Petrarch",
+      "year": 1304,
+      "endYear": 1374,
+      "description": "Often called the father of humanism, Petrarch spent forty years rediscovering classical Latin manuscripts in monastery libraries, wrote vernacular love sonnets to Laura, and invented the cult of the individual genius that defined Renaissance humanism.",
+      "wikiSlug": "Petrarch",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-boccaccio-decameron",
+      "label": "Boccaccio's Decameron",
+      "year": 1353,
+      "description": "Giovanni Boccaccio completed the Decameron, a hundred bawdy and tender stories told by ten young Florentines fleeing the Black Death, using the plague as a framing device. It became the founding masterpiece of Italian prose.",
+      "wikiSlug": "The_Decameron",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-black-death-italy",
+      "label": "Black Death in Italy",
+      "year": 1348,
+      "description": "The plague reached Italy in early 1348 and killed perhaps a third of the population overall — Florence lost roughly 60% of its 100,000 inhabitants. The demographic shock paradoxically concentrated wealth and accelerated the cultural shift to come.",
+      "wikiSlug": "Black_Death_in_Italy",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-florin-currency",
+      "label": "The Florentine Florin",
+      "year": 1352,
+      "description": "By the mid-fourteenth century the gold florin had become the standard trade currency across Europe, underpinning Florentine banking dominance and providing a stable unit of account for international commerce.",
+      "wikiSlug": "Florin_(Italian_coin)",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-venetian-arsenal",
+      "label": "Venetian Arsenal at Peak",
+      "year": 1320,
+      "description": "The Venetian Arsenal employed thousands of workers and could assemble a galley in a single day at peak production, pioneering assembly-line manufacturing centuries before the Industrial Revolution and securing Venetian maritime supremacy.",
+      "wikiSlug": "Venetian_Arsenal",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-doge-venice",
+      "label": "Venetian Doge System",
+      "year": 1300,
+      "endYear": 1797,
+      "description": "Venice was governed by an oligarchy of merchant patricians through a ceremonial Doge and a series of councils of ascending exclusivity, a constitutional model so stable it survived nearly five centuries until Napoleon dissolved it in 1797.",
+      "wikiSlug": "Doge_of_Venice",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-visconti-milan",
+      "label": "Visconti Rule Milan",
+      "year": 1277,
+      "endYear": 1447,
+      "description": "The Visconti family dominated Milan for nearly two centuries, building the duchy into the most militarized of the major Italian states with a professional army and aggressive expansionist foreign policy.",
+      "wikiSlug": "Visconti_of_Milan",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-papal-schism-end",
+      "label": "End of the Western Schism",
+      "year": 1417,
+      "description": "The Council of Constance ended the Western Schism by electing Pope Martin V, reunifying the Catholic Church after nearly four decades of two and then three rival popes — and clearing the political space for the papacy's return to Rome as a Renaissance patron.",
+      "wikiSlug": "Council_of_Constance",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-baptistery-doors-competition",
+      "label": "Baptistery Doors Competition",
+      "year": 1401,
+      "description": "Lorenzo Ghiberti won the famous competition to design the bronze doors of the Florentine Baptistery, beating Brunelleschi. The dispute is conventionally cited as the symbolic launch of Renaissance art, though the doors are still firmly in the late-Gothic tradition.",
+      "wikiSlug": "Florence_Baptistery#The_doors",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-brunelleschi",
+      "label": "Filippo Brunelleschi",
+      "year": 1377,
+      "endYear": 1446,
+      "description": "Florentine goldsmith turned architect who designed the dome of Florence Cathedral, demonstrated mathematical linear perspective around 1413, and effectively founded Renaissance architecture as a discipline.",
+      "wikiSlug": "Filippo_Brunelleschi",
+      "tier": 1,
+      "tags": [
+        "people",
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-linear-perspective",
+      "label": "Brunelleschi's Linear Perspective",
+      "year": 1413,
+      "description": "Around 1413 Brunelleschi demonstrated the geometric system for representing three-dimensional space on a two-dimensional surface, codified in the 1430s by Leon Battista Alberti's De Pictura. Linear perspective defined Western painting for the next five centuries.",
+      "wikiSlug": "Perspective_(graphical)",
+      "tier": 1,
+      "tags": [
+        "science"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-florence-cathedral-dome",
+      "label": "Brunelleschi's Dome",
+      "year": 1436,
+      "description": "Brunelleschi completed the dome of Florence Cathedral after sixteen years of construction, building it without exterior scaffolding using a self-supporting double-shell brick design. It remains the largest brick masonry dome ever built.",
+      "wikiSlug": "Florence_Cathedral_dome",
+      "tier": 1,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-donatello",
+      "label": "Donatello",
+      "year": 1386,
+      "endYear": 1466,
+      "description": "Florentine sculptor whose work redefined European sculpture: the bronze David around 1440 was the first freestanding nude statue cast in Europe since classical antiquity, and his equestrian Gattamelata in Padua was the first such monument since the Romans.",
+      "wikiSlug": "Donatello",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-donatello-david",
+      "label": "Donatello's David",
+      "year": 1440,
+      "description": "Donatello completed his bronze David around 1440, the first freestanding nude sculpture cast in Europe since classical antiquity. The young Medici-commissioned work installed in the Palazzo Medici courtyard became the signature image of Florentine humanism.",
+      "wikiSlug": "David_(Donatello)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-masaccio",
+      "label": "Masaccio",
+      "year": 1401,
+      "endYear": 1428,
+      "description": "Florentine painter who applied rigorous Brunelleschian perspective to monumental fresco. He died at twenty-six, possibly poisoned, with most of his major work still ahead of him, but had already founded Renaissance painting.",
+      "wikiSlug": "Masaccio",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-brancacci-chapel",
+      "label": "Brancacci Chapel Frescoes",
+      "year": 1426,
+      "description": "Masaccio painted the Brancacci Chapel frescoes in Florence around 1424–1427 with rigorous perspective, modeled chiaroscuro figures, and emotional immediacy. The chapel was treated as an open-air school by Florentine painters for the rest of the century.",
+      "wikiSlug": "Brancacci_Chapel",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-masaccio-trinity",
+      "label": "Masaccio's Trinity",
+      "year": 1427,
+      "description": "Masaccio painted the Holy Trinity fresco in Santa Maria Novella around 1427, the first major painting to use rigorous one-point linear perspective. Visitors at the time reportedly believed the painted barrel vault was a real architectural opening in the wall.",
+      "wikiSlug": "Holy_Trinity_(Masaccio)",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-alberti",
+      "label": "Leon Battista Alberti",
+      "year": 1404,
+      "endYear": 1472,
+      "description": "Architect, theorist, mathematician, athlete, musician, and author — the prototype of the universal Renaissance Man. Alberti codified perspective theory in De Pictura and architectural theory in De Re Aedificatoria, the first printed architectural treatise since antiquity.",
+      "wikiSlug": "Leon_Battista_Alberti",
+      "tier": 2,
+      "tags": [
+        "people",
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-cosimo-medici",
+      "label": "Cosimo de' Medici Rules Florence",
+      "year": 1434,
+      "endYear": 1464,
+      "description": "Cosimo the Elder dominated Florentine politics for thirty years through soft power — careful constitutional manipulation, generous patronage, and cultivation of friendly magistrates — without ever holding formal monarchical title.",
+      "wikiSlug": "Cosimo_de%27_Medici",
+      "tier": 1,
+      "tags": [
+        "people",
+        "trade"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medici-bank",
+      "label": "Medici Bank at Peak",
+      "year": 1440,
+      "description": "Under Cosimo, the Medici Bank became the largest in Europe, with branches across the continent and a profitable papal banking concession. Banking wealth funded the Medici political and cultural project for three generations until Lorenzo's mismanagement broke it.",
+      "wikiSlug": "Medici_Bank",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-council-of-florence",
+      "label": "Council of Florence",
+      "year": 1438,
+      "endYear": 1439,
+      "description": "Cosimo de' Medici hosted the Council of Florence in 1438–1439, the great failed attempt at reunion between the Latin and Greek churches before Constantinople's fall. Greek scholars who attended brought manuscripts of classical Greek texts, accelerating the Italian rediscovery of ancient Greek literature.",
+      "wikiSlug": "Council_of_Florence",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-platonic-academy",
+      "label": "Platonic Academy of Florence",
+      "year": 1462,
+      "description": "Cosimo de' Medici sponsored Marsilio Ficino to translate Plato's complete dialogues into Latin between 1463 and 1483 — the first such Latin translation. The Florentine Platonic Academy revived Neoplatonist philosophy and shaped Renaissance humanism.",
+      "wikiSlug": "Platonic_Academy_(Florence)",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-greek-scholars-italy",
+      "label": "Greek Scholars Flee to Italy",
+      "year": 1453,
+      "description": "After Constantinople's fall in 1453, Greek scholars and clerics fled west — mostly to Italy — carrying manuscripts of classical Greek literature that fed into the Italian humanist movement. The most important manuscripts had actually arrived earlier through the Council of Florence.",
+      "wikiSlug": "Greek_scholars_in_the_Renaissance",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-printing-press-italy",
+      "label": "Printing Press Arrives in Italy",
+      "year": 1465,
+      "description": "German printers Conrad Sweynheym and Arnold Pannartz established Italy's first press at the Subiaco monastery in 1465, and within a decade Venice became Europe's leading center of book publishing.",
+      "wikiSlug": "Italian_Renaissance#Printing",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-aldine-press",
+      "label": "Aldine Press in Venice",
+      "year": 1495,
+      "description": "Aldus Manutius founded the Aldine Press in Venice and pioneered italic type, the small octavo format, and affordable pocket editions of Greek and Latin classics — making serious literature portable and affordable for the first time.",
+      "wikiSlug": "Aldine_Press",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lorenzo-medici",
+      "label": "Lorenzo the Magnificent",
+      "year": 1469,
+      "endYear": 1492,
+      "description": "Lorenzo de' Medici ruled Florence during its golden age with even less formal authority than Cosimo had used and even more cultural impact, sponsoring Botticelli, the young Michelangelo, Pico della Mirandola, and Poliziano while letting the Medici Bank slide toward bankruptcy.",
+      "wikiSlug": "Lorenzo_de%27_Medici",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pazzi-conspiracy",
+      "label": "Pazzi Conspiracy",
+      "year": 1478,
+      "description": "On Easter Sunday 1478, the rival Pazzi family with Pope Sixtus IV's tacit blessing tried to assassinate Lorenzo and Giuliano de' Medici during High Mass in Florence Cathedral. Giuliano was killed but Lorenzo escaped to consolidate his grip on the city.",
+      "wikiSlug": "Pazzi_conspiracy",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-botticelli",
+      "label": "Sandro Botticelli",
+      "year": 1445,
+      "endYear": 1510,
+      "description": "Florentine painter sponsored by Lorenzo de' Medici whose Birth of Venus and Primavera blended Christian Neoplatonism with classical mythology. He later fell under the influence of Savonarola and reportedly burned some of his own paintings.",
+      "wikiSlug": "Sandro_Botticelli",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-birth-of-venus",
+      "label": "Botticelli's Birth of Venus",
+      "year": 1485,
+      "description": "Botticelli painted The Birth of Venus around 1484–1486, depicting the goddess emerging from the sea on a scallop shell. It was the first large-scale female nude in Western art since classical antiquity and a key statement of Lorenzo's Neoplatonic court culture.",
+      "wikiSlug": "The_Birth_of_Venus",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pico-mirandola",
+      "label": "Pico's Oration on the Dignity of Man",
+      "year": 1486,
+      "description": "Giovanni Pico della Mirandola wrote his Oration on the Dignity of Man as a preface to 900 theses he proposed to defend in Rome — combining Christian, Greek, Hebrew, and (he believed) ancient Egyptian wisdom into a single perennial philosophy. The papacy condemned it.",
+      "wikiSlug": "Oration_on_the_Dignity_of_Man",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-savonarola",
+      "label": "Savonarola's Florence",
+      "year": 1494,
+      "endYear": 1498,
+      "description": "Dominican friar Girolamo Savonarola seized power in Florence after the Medici exile, organizing public Bonfires of the Vanities that burned books, paintings, and luxuries. He was excommunicated, tortured, hanged and burned in the same Piazza della Signoria where his bonfires had stood.",
+      "wikiSlug": "Girolamo_Savonarola",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-french-invasion",
+      "label": "French Invasion of Italy",
+      "year": 1494,
+      "description": "Charles VIII of France invaded Italy with 25,000 men and modern bronze field artillery to claim Naples, sweeping down the peninsula almost unopposed and shattering the balance of power. The invasion launched the Italian Wars that lasted sixty-five years.",
+      "wikiSlug": "Italian_War_of_1494%E2%80%931498",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-luca-pacioli",
+      "label": "Pacioli's Summa de Arithmetica",
+      "year": 1494,
+      "description": "Franciscan friar Luca Pacioli published the Summa de Arithmetica, the first printed textbook on double-entry bookkeeping, systematizing the accounting methods Italian merchants had developed over the previous two centuries.",
+      "wikiSlug": "Summa_de_arithmetica",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-leonardo-da-vinci",
+      "label": "Leonardo da Vinci",
+      "year": 1452,
+      "endYear": 1519,
+      "description": "Painter, engineer, anatomist, and inventor whose insatiable curiosity made him the archetype of the Renaissance polymath. He completed roughly twenty paintings in his lifetime but filled thousands of notebook pages with anatomical, hydraulic, and mechanical studies.",
+      "wikiSlug": "Leonardo_da_Vinci",
+      "tier": 1,
+      "tags": [
+        "people",
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-leonardo-notebooks",
+      "label": "Leonardo's Scientific Notebooks",
+      "year": 1490,
+      "description": "Leonardo filled thousands of pages of mirror-written notebooks with studies of anatomy, flight, hydraulics, optics, and military engineering. Almost none of it was published in his lifetime, so most of his proto-scientific insights had no influence on the later Scientific Revolution.",
+      "wikiSlug": "Leonardo_da_Vinci#Science_and_inventions",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-last-supper",
+      "label": "Leonardo's Last Supper",
+      "year": 1498,
+      "description": "Leonardo completed The Last Supper on a refectory wall in Milan around 1495–1498, painting on dry plaster rather than wet fresco. The experimental technique began to deteriorate within years of completion and the surviving image is largely the result of centuries of restoration.",
+      "wikiSlug": "The_Last_Supper_(Leonardo)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mona-lisa",
+      "label": "Leonardo's Mona Lisa",
+      "year": 1503,
+      "description": "Leonardo began the Mona Lisa around 1503, working on it for over a decade. The portrait of Lisa del Giocondo introduced sfumato — soft tonal transitions between light and shadow — and became, four centuries later, the most famous painting in the world.",
+      "wikiSlug": "Mona_Lisa",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sforza-milan",
+      "label": "Sforza Dynasty in Milan",
+      "year": 1450,
+      "endYear": 1535,
+      "description": "Mercenary captain Francesco Sforza seized Milan in 1450 after the Visconti line failed and founded a dynasty that patronized Leonardo da Vinci, Bramante, and Josquin des Prez, making Milan one of the leading Renaissance courts before falling to French and Spanish invaders.",
+      "wikiSlug": "House_of_Sforza",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-michelangelo",
+      "label": "Michelangelo",
+      "year": 1475,
+      "endYear": 1564,
+      "description": "Sculptor, painter, architect, and poet whose works including David, the Sistine Chapel ceiling, the Pietà, and St. Peter's dome defined the High Renaissance. He lived to nearly eighty-nine and was the first Western artist to have a biography published in his own lifetime.",
+      "wikiSlug": "Michelangelo",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-pieta",
+      "label": "Michelangelo's Pietà",
+      "year": 1499,
+      "description": "Michelangelo carved the Pietà for St. Peter's Basilica in Rome between 1498 and 1499, depicting the dead Christ across the lap of his unnaturally young mother Mary. He completed it at twenty-three and signed it on Mary's sash — the only work he ever signed.",
+      "wikiSlug": "Piet%C3%A0_(Michelangelo)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-david-statue",
+      "label": "Michelangelo's David",
+      "year": 1504,
+      "description": "Michelangelo completed his marble David in Florence in 1504, a 17-foot single-block masterpiece carved from a flawed slab that two earlier sculptors had abandoned. It became an enduring symbol of the Florentine Republic and was installed outside the Palazzo Vecchio.",
+      "wikiSlug": "David_(Michelangelo)",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-julius-ii",
+      "label": "Pope Julius II",
+      "year": 1503,
+      "endYear": 1513,
+      "description": "The Warrior Pope personally led armies to recover Papal States territory and commissioned the rebuilding of St. Peter's Basilica, the Sistine Chapel ceiling, and Raphael's Vatican frescoes — making Rome the center of High Renaissance art.",
+      "wikiSlug": "Pope_Julius_II",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-st-peters-basilica",
+      "label": "New St. Peter's Basilica Begun",
+      "year": 1506,
+      "description": "Pope Julius II laid the foundation stone for the new St. Peter's Basilica in 1506, designed initially by Bramante. The project consumed 120 years and contributions from Michelangelo, Maderno, and Bernini before consecration in 1626.",
+      "wikiSlug": "St._Peter%27s_Basilica",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bramante",
+      "label": "Donato Bramante",
+      "year": 1444,
+      "endYear": 1514,
+      "description": "Architect from Urbino who brought High Renaissance classicism to Rome under Julius II, designed the original plan for new St. Peter's, and built the Tempietto at San Pietro in Montorio — the perfect small classical temple that defined later Renaissance architectural ideals.",
+      "wikiSlug": "Donato_Bramante",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-sistine-chapel-ceiling",
+      "label": "Sistine Chapel Ceiling",
+      "year": 1512,
+      "description": "Michelangelo completed the Sistine Chapel ceiling frescoes for Pope Julius II between 1508 and 1512, painting nine scenes from Genesis across roughly 5,000 square feet of vaulting. He worked largely standing on scaffolding, not lying on his back as the popular myth claims.",
+      "wikiSlug": "Sistine_Chapel_ceiling",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-raphael",
+      "label": "Raphael",
+      "year": 1483,
+      "endYear": 1520,
+      "description": "Painter and architect from Urbino whose harmonious compositions, including The School of Athens, epitomized High Renaissance ideals of clarity and beauty. He died at thirty-seven on his own birthday — Good Friday — and was buried in the Pantheon.",
+      "wikiSlug": "Raphael",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-school-of-athens",
+      "label": "Raphael's School of Athens",
+      "year": 1511,
+      "description": "Raphael painted The School of Athens in the Vatican Stanze around 1509–1511, depicting ancient Greek philosophers in an idealized classical interior. Plato and Aristotle stand at the center, and Raphael painted his own face into the gathered crowd.",
+      "wikiSlug": "The_School_of_Athens",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cesare-borgia",
+      "label": "Cesare Borgia's Campaigns",
+      "year": 1499,
+      "endYear": 1503,
+      "description": "Cesare Borgia, son of Pope Alexander VI, carved out a personal state in the Romagna through brilliant military conquest and ruthless political assassination. He served as the model for Machiavelli's ideal prince and collapsed when his father unexpectedly died.",
+      "wikiSlug": "Cesare_Borgia",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-alexander-vi",
+      "label": "Pope Alexander VI Borgia",
+      "year": 1492,
+      "endYear": 1503,
+      "description": "Rodrigo Borgia became Pope Alexander VI through systematic bribery and wielded papal power for dynastic ambition, fathering at least seven illegitimate children including Cesare and Lucrezia Borgia in one of the most notorious pontificates in history.",
+      "wikiSlug": "Pope_Alexander_VI",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-machiavelli",
+      "label": "Niccolò Machiavelli",
+      "year": 1469,
+      "endYear": 1527,
+      "description": "Florentine diplomat, philosopher, and writer who served the post-Medici Florentine Republic for fourteen years before being tortured and exiled by the restored Medici. His political realism profoundly influenced Western political thought.",
+      "wikiSlug": "Niccol%C3%B2_Machiavelli",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-machiavelli-prince",
+      "label": "Machiavelli's The Prince",
+      "year": 1513,
+      "description": "Machiavelli wrote The Prince in 1513 in rural exile, dedicating it to the Medici in a failed attempt to win back political employment. It broke with the medieval mirror-of-princes tradition by analyzing political power as it actually operated rather than as it should ideally operate.",
+      "wikiSlug": "The_Prince",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-league-of-cambrai",
+      "label": "War of the League of Cambrai",
+      "year": 1508,
+      "endYear": 1516,
+      "description": "A coalition led by Pope Julius II including France, Spain, and the Holy Roman Empire fought to dismantle Venetian terra firma holdings, devastating northern Italy and weakening Venice but failing to end its independence.",
+      "wikiSlug": "War_of_the_League_of_Cambrai",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-of-marignano",
+      "label": "Battle of Marignano",
+      "year": 1515,
+      "description": "Francis I of France crushed the Swiss pikemen at Marignano with combined arms — heavy cavalry, gunpowder artillery, and German Landsknecht infantry — securing French control of Milan and ending Swiss reputation as Europe's invincible mercenaries.",
+      "wikiSlug": "Battle_of_Marignano",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-luther-95-theses",
+      "label": "Luther's 95 Theses",
+      "year": 1517,
+      "description": "Augustinian friar Martin Luther posted his 95 Theses challenging papal indulgences in Wittenberg on October 31, 1517. Within months, printed copies were circulating across Germany, sparking the Protestant Reformation that would split Western Christianity permanently.",
+      "wikiSlug": "Ninety-five_Theses",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-erasmus",
+      "label": "Erasmus's Christian Humanism",
+      "year": 1516,
+      "description": "Dutch scholar Erasmus of Rotterdam published his critical Greek New Testament in 1516 and his satirical In Praise of Folly in 1511 — works that prepared the intellectual ground for the Reformation while Erasmus himself stayed Catholic and condemned Luther's break.",
+      "wikiSlug": "Erasmus",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-titian",
+      "label": "Titian",
+      "year": 1488,
+      "endYear": 1576,
+      "description": "Tiziano Vecellio dominated Venetian painting for sixty years, painting popes, emperors, and the Habsburg Charles V. His mastery of color and free brushwork — visible up close, resolving at distance — defined the Venetian school against the Florentine emphasis on draftsmanship.",
+      "wikiSlug": "Titian",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-tintoretto",
+      "label": "Tintoretto",
+      "year": 1518,
+      "endYear": 1594,
+      "description": "Jacopo Robusti, called Tintoretto for his dyer father, dominated late-sixteenth-century Venetian painting with dramatic lighting, foreshortened figures, and prodigious output. His Scuola di San Rocco cycle is one of the great unified painting commissions in Western art.",
+      "wikiSlug": "Tintoretto",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-veronese",
+      "label": "Paolo Veronese",
+      "year": 1528,
+      "endYear": 1588,
+      "description": "Verona-born painter who specialized in vast colorful banquet scenes for Venetian patrons. The Inquisition tried him in 1573 over his Last Supper for including dwarfs, dogs, and Germans; he simply renamed the painting Feast in the House of Levi and kept the figures.",
+      "wikiSlug": "Paolo_Veronese",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-sack-of-rome",
+      "label": "Sack of Rome",
+      "year": 1527,
+      "description": "Mutinous unpaid troops of Holy Roman Emperor Charles V — many of them Lutheran Landsknechts — sacked Rome for eight days in May 1527, killing perhaps 10,000 inhabitants and looting the Vatican. The shock symbolically ended the High Renaissance.",
+      "wikiSlug": "Sack_of_Rome_(1527)",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-castiglione-courtier",
+      "label": "Castiglione's The Book of the Courtier",
+      "year": 1528,
+      "description": "Baldassare Castiglione published The Book of the Courtier in 1528, defining the ideal Renaissance gentleman with the quality called sprezzatura — making the difficult look effortless — and shaping European court culture for the next two centuries.",
+      "wikiSlug": "The_Book_of_the_Courtier",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-copernicus",
+      "label": "Copernicus's Heliocentric Theory",
+      "year": 1543,
+      "description": "Polish canon Nicolaus Copernicus published De revolutionibus orbium coelestium in 1543, proposing the sun-centered model of the solar system. He had studied at Italian universities including Bologna and Padua in the 1490s.",
+      "wikiSlug": "De_revolutionibus_orbium_coelestium",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-vesalius-anatomy",
+      "label": "Vesalius's De Humani Corporis Fabrica",
+      "year": 1543,
+      "description": "Andreas Vesalius published De Humani Corporis Fabrica at Padua in 1543 — based on actual cadaver dissection rather than received Galenic authority — correcting centuries of anatomical errors and founding modern anatomical science.",
+      "wikiSlug": "De_Humani_Corporis_Fabrica",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-council-of-trent",
+      "label": "Council of Trent",
+      "year": 1545,
+      "endYear": 1563,
+      "description": "The Catholic Church convened the Council of Trent in 1545–1563 to address Protestant critiques, reaffirming traditional doctrine, reforming clerical discipline, and defining the Counter-Reformation that would dominate Catholic culture for two centuries.",
+      "wikiSlug": "Council_of_Trent",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-vasari-lives",
+      "label": "Vasari's Lives of the Artists",
+      "year": 1550,
+      "description": "Painter Giorgio Vasari published Lives of the Most Excellent Painters, Sculptors, and Architects in 1550, the foundational text of art history and the source for most of what we know about the lives of Renaissance artists — though many of his anecdotes are unreliable.",
+      "wikiSlug": "Lives_of_the_Most_Excellent_Painters,_Sculptors,_and_Architects",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-uffizi-built",
+      "label": "Uffizi Built",
+      "year": 1560,
+      "description": "Vasari designed the Uffizi as administrative offices for Cosimo I de' Medici (the duke, not the founder), arranged in a U-shape opening toward the Arno River. It later became one of the world's greatest art museums.",
+      "wikiSlug": "Uffizi",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-peace-of-cateau-cambresis",
+      "label": "Peace of Cateau-Cambrésis",
+      "year": 1559,
+      "description": "The Peace of Cateau-Cambrésis ended the Italian Wars after sixty-five years of fighting, confirming Spanish Habsburg dominance over much of Italy and ending French ambitions on the peninsula. Italy would not be politically independent again until 1861.",
+      "wikiSlug": "Peace_of_Cateau-Cambr%C3%A9sis",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-palestrina",
+      "label": "Palestrina's Polyphony",
+      "year": 1562,
+      "description": "Roman composer Giovanni Pierluigi da Palestrina composed the Missa Papae Marcelli around 1562, perfecting Catholic polyphonic vocal writing in the wake of the Council of Trent's debates over whether polyphony obscured the sacred text.",
+      "wikiSlug": "Giovanni_Pierluigi_da_Palestrina",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-palladio",
+      "label": "Palladio's Villa Rotonda",
+      "year": 1567,
+      "description": "Andrea Palladio designed the Villa Rotonda near Vicenza around 1567 — a perfectly symmetrical building with four identical Ionic porticos, one on each face. It became the most imitated work in Western architecture, copied from Stowe to Monticello.",
+      "wikiSlug": "Villa_Capra_%22La_Rotonda%22",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-of-lepanto",
+      "label": "Battle of Lepanto",
+      "year": 1571,
+      "description": "A Holy League fleet led by Venice, Spain, and the Papal States destroyed the Ottoman navy off western Greece on October 7, 1571 — the last major battle fought between oar-powered fleets and the only one in which Cervantes lost the use of his left hand.",
+      "wikiSlug": "Battle_of_Lepanto",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-index-forbidden-books",
+      "label": "Index of Forbidden Books",
+      "year": 1559,
+      "description": "Pope Paul IV issued the Index Librorum Prohibitorum in 1559, the first comprehensive Catholic list of banned books. It governed Catholic reading for over four centuries until Pope Paul VI finally abolished it in 1966.",
+      "wikiSlug": "Index_Librorum_Prohibitorum",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-galileo-pisa",
+      "label": "Galileo at Pisa and Padua",
+      "year": 1589,
+      "endYear": 1610,
+      "description": "Galileo taught mathematics at Pisa from 1589 and at Padua from 1592, conducted his early experiments on falling bodies and the pendulum, and built his telescope at Padua in 1609 — the discoveries that would launch his fatal conflict with the Church.",
+      "wikiSlug": "Galileo_Galilei",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-monteverdi-orfeo",
+      "label": "Monteverdi's Orfeo",
+      "year": 1607,
+      "description": "Claudio Monteverdi composed L'Orfeo at the Mantuan court in 1607, conventionally cited as the first surviving opera worth listening to and the founding work of the genre that would shortly take over European musical theater.",
+      "wikiSlug": "L%27Orfeo",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-burckhardt-coined-renaissance",
+      "label": "The Word 'Renaissance' Coined",
+      "year": 1855,
+      "description": "French historian Jules Michelet introduced the term 'Renaissance' to describe the period in 1855, and Swiss historian Jacob Burckhardt's 1860 The Civilization of the Renaissance in Italy defined the modern concept. Italians of the time called the period the Rinascita.",
+      "wikiSlug": "The_Civilization_of_the_Renaissance_in_Italy",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    }
+  ]
+}

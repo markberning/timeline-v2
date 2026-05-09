@@ -1,0 +1,981 @@
+{
+  "id": "mughal-empire",
+  "label": "Mughal Empire",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Mughal_Empire",
+  "imageWikiSlug": "Taj_Mahal",
+  "pitch": "The Battle of Panipat in 1526 launched one of history's wealthiest empires when Babur smashed a far larger army with gunpowder and audacity. Akbar the Great pioneered religious tolerance centuries before Europe, Emperor Shah Jahan built the Taj Mahal as a monument to lost love, and at its peak the Mughal economy produced a quarter of global GDP.\n\nKey Facts:\n- Emperor Aurangzeb expanded the empire to its greatest extent but drained the treasury with the endless Deccan Wars\n- Fatehpur Sikri, built by Akbar, blended Hindu and Islamic architecture and was abandoned after just 14 years because it ran out of water\n- Mughal textile exports peaked when India dominated the global fabric market, driving early globalization\n- The Battle of Plassey in 1757 handed Bengal to the British East India Company and began the effective conquest of India\n\nWhy It Matters: The Mughal legacy lives on in South Asian architecture, cuisine, music, and the Urdu language. The empire's collapse directly enabled British colonization that reshaped the entire subcontinent.\n\nWild Card: Nader Shah sacked Delhi in 1739 and stole the Peacock Throne and the Koh-i-Noor diamond in a single raid. The diamond now sits in the British Crown Jewels, and multiple countries want it back.",
+  "countryIds": [
+    "356",
+    "586",
+    "50",
+    "4"
+  ],
+  "spans": [
+    {
+      "id": "span-mughal-empire-founding",
+      "label": "Founding (Babur and Humayun)",
+      "startYear": 1526,
+      "endYear": 1556,
+      "wikiSlug": "Mughal_Empire",
+      "description": "Babur conquered northern India with gunpowder artillery at Panipat, founding the Mughal dynasty. His son Humayun lost the throne to Sher Shah Suri, spent fifteen years in Persian exile under Shah Tahmasp, and reconquered Delhi only to die in a stairs accident months later."
+    },
+    {
+      "id": "span-mughal-empire-akbar",
+      "label": "Akbar's Empire",
+      "startYear": 1556,
+      "endYear": 1605,
+      "wikiSlug": "Akbar",
+      "description": "Akbar expanded the empire across most of the Indian subcontinent, abolished the jizya tax on Hindus, married Rajput princesses, founded the syncretic Din-i-Ilahi, and built Fatehpur Sikri. Court historian Abu'l Fazl wrote the Akbarnama; the painting workshop produced thousands of illustrated manuscripts."
+    },
+    {
+      "id": "span-mughal-empire-shah-jahan",
+      "label": "Shah Jahan and the Peacock Throne",
+      "startYear": 1605,
+      "endYear": 1658,
+      "wikiSlug": "Shah_Jahan",
+      "description": "Jahangir's painting-and-opium reign gave way to Shah Jahan's architectural golden age — the Taj Mahal, the Red Fort at Delhi, the new capital Shahjahanabad, and the gem-encrusted Peacock Throne. The reign ended in a war of succession that imprisoned Shah Jahan in Agra Fort."
+    },
+    {
+      "id": "span-mughal-empire-aurangzeb",
+      "label": "Aurangzeb",
+      "startYear": 1658,
+      "endYear": 1707,
+      "wikiSlug": "Aurangzeb",
+      "description": "Aurangzeb killed his brother Dara Shukoh, imprisoned his father, reimposed the jizya, and spent his last twenty-six years bogged down in the Deccan fighting the Marathas under Shivaji and his successors. Territorial peak; institutional exhaustion."
+    },
+    {
+      "id": "span-mughal-empire-long-decline",
+      "label": "The Long Decline",
+      "startYear": 1707,
+      "endYear": 1757,
+      "wikiSlug": "Mughal_Empire",
+      "description": "Successive succession wars, the breakaway of the Marathas, Sikhs, Hyderabad, Awadh, and Bengal, and Nader Shah's catastrophic 1739 sack of Delhi reduced the Mughal emperor to a powerless figurehead. Effective rule passed to regional powers and to the European trading companies."
+    },
+    {
+      "id": "span-mughal-empire-british-takeover",
+      "label": "The British Takeover",
+      "startYear": 1757,
+      "endYear": 1858,
+      "wikiSlug": "Company_rule_in_India",
+      "description": "Robert Clive's victory at Plassey in 1757 and the Diwani grant of 1765 transferred Bengal's revenue to the East India Company. Successive wars against Mysore, the Marathas, and the Sikhs handed effective control of the subcontinent to a chartered company. The 1857 Rebellion was the final convulsion; the British deposed the last Mughal emperor in 1858."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-mughal-babur",
+      "label": "Babur, first Mughal Emperor",
+      "year": 1526,
+      "endYear": 1530,
+      "description": "A fifth-generation descendant of Timur on his father's side and a Genghisid through his mother, Babur was driven from his ancestral Ferghana by the Uzbeks, captured Kabul in 1504, and turned south to conquer India. His memoir, the Baburnama, is one of the great autobiographies of world literature.",
+      "wikiSlug": "Babur",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-ferghana-loss",
+      "label": "Babur loses Ferghana to the Uzbeks",
+      "year": 1504,
+      "description": "Driven from his ancestral Ferghana Valley by Muhammad Shaybani Khan's Uzbek forces, the twenty-one-year-old Babur crossed the Hindu Kush and captured Kabul, which became his base for the next two decades.",
+      "wikiSlug": "Babur",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-kabul-base",
+      "label": "Babur captures Kabul",
+      "year": 1504,
+      "description": "Babur's seizure of Kabul gave him a defensible mountain capital with access to the Khyber Pass and the routes south into the Punjab. From Kabul he raided the Indus Valley and prepared the 1525-26 invasion of India.",
+      "wikiSlug": "Kabul",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-baburnama",
+      "label": "Baburnama written",
+      "year": 1530,
+      "description": "Babur's autobiography, written in Chagatai-Turkic, is a remarkably candid memoir describing his campaigns, romantic life, alcohol consumption, depressions, and detailed observations of the natural history of every region he passed through.",
+      "wikiSlug": "Baburnama",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mughal-first-panipat",
+      "label": "First Battle of Panipat",
+      "year": 1526,
+      "description": "Babur's army of roughly 12,000, equipped with Ottoman-style field artillery and matchlock musketeers behind a wagon-fort line, broke Ibrahim Lodi's force of perhaps 100,000 in a single morning. Ibrahim Lodi was killed; Babur entered Delhi unopposed and proclaimed himself Padshah.",
+      "wikiSlug": "First_Battle_of_Panipat",
+      "tier": 1,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-ibrahim-lodi",
+      "label": "Ibrahim Lodi killed at Panipat",
+      "year": 1526,
+      "description": "The last sultan of the Lodi dynasty, alienated from his nobles and overconfident in conventional cavalry tactics, was killed when his army broke against Babur's gunpowder line at Panipat. His death ended the Delhi Sultanate.",
+      "wikiSlug": "Ibrahim_Lodi",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-ustad-ali-quli",
+      "label": "Ustad Ali Quli's gunpowder corps",
+      "year": 1526,
+      "description": "Babur's Ottoman-trained gun-master Ustad Ali Quli imported the tabur cengi wagon-fort tactic from Anatolia. Several hundred matchlock musketeers and a few dozen field cannons gave the Mughals a decisive battlefield edge over the pre-gunpowder armies of north India.",
+      "wikiSlug": "Ottoman_military",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mughal-khanwa",
+      "label": "Battle of Khanwa",
+      "year": 1527,
+      "description": "Babur defeated a Rajput coalition under Rana Sanga of Mewar at Khanwa, securing the new Mughal foothold in north India and breaking the most serious Hindu military challenge to the dynasty for nearly a generation.",
+      "wikiSlug": "Battle_of_Khanwa",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-rana-sanga",
+      "label": "Rana Sanga of Mewar",
+      "year": 1509,
+      "endYear": 1528,
+      "description": "The Sisodia ruler of Mewar, leader of the Rajput coalition that opposed Babur after Panipat, died shortly after his defeat at Khanwa. His career bracketed the transition from Sultanate to Mughal rule.",
+      "wikiSlug": "Rana_Sanga",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-humayun",
+      "label": "Humayun",
+      "year": 1530,
+      "endYear": 1556,
+      "description": "Babur's son lost the empire to Sher Shah Suri in 1540, spent fifteen years in exile in Safavid Persia and Kabul, recovered Delhi in 1555, and died six months later when he tripped on the steps of his library carrying an armful of books.",
+      "wikiSlug": "Humayun",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-sher-shah-suri",
+      "label": "Sher Shah Suri",
+      "year": 1540,
+      "endYear": 1545,
+      "description": "An Afghan general from Bihar, Sher Shah defeated Humayun at Chausa (1539) and Kannauj (1540), drove him into exile, and ruled north India for five years as the Sur Sultanate. His revenue reforms and the modernization of the Grand Trunk Road were directly inherited by Akbar's administration.",
+      "wikiSlug": "Sher_Shah_Suri",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-chausa-kannauj",
+      "label": "Battles of Chausa and Kannauj",
+      "year": 1539,
+      "endYear": 1540,
+      "description": "Sher Shah Suri's two decisive victories over Humayun in 1539 and 1540 drove the second Mughal emperor out of India and reduced the dynasty to a Kabul-based exile court for fifteen years.",
+      "wikiSlug": "Battle_of_Kannauj",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-humayun-tahmasp",
+      "label": "Humayun at Shah Tahmasp's court",
+      "year": 1544,
+      "description": "Humayun spent the 1540s in Safavid exile. Shah Tahmasp lent him 12,000 soldiers and demanded — and got — public Shia observance and the cession of Kandahar. The Persian connection seeded Mughal painting and the Persianate court culture of Akbar's reign.",
+      "wikiSlug": "Humayun",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-humayun-tomb",
+      "label": "Humayun's Tomb built",
+      "year": 1572,
+      "description": "Commissioned by Humayun's widow Hamida Banu Begum, designed by the Persian architect Mirak Mirza Ghiyas, Humayun's Tomb in Delhi was the first great Mughal garden tomb. It became the architectural template for the Taj Mahal eighty years later.",
+      "wikiSlug": "Humayun%27s_Tomb",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mughal-second-panipat",
+      "label": "Second Battle of Panipat",
+      "year": 1556,
+      "description": "Akbar's regent Bairam Khan defeated the Hindu general Hemu, who had briefly seized Delhi after Humayun's death. The victory secured the throne for the thirteen-year-old Akbar and re-established Mughal control over north India.",
+      "wikiSlug": "Second_Battle_of_Panipat",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-hemu",
+      "label": "Hemu's brief reign at Delhi",
+      "year": 1556,
+      "description": "A Hindu general of the Sur Sultanate, Hemu seized Delhi in 1556 and proclaimed himself Vikramaditya. He was struck by an arrow at the Second Battle of Panipat, captured, and executed. His month-long reign was the last Hindu ruler at Delhi for three centuries.",
+      "wikiSlug": "Hemu",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-bairam-khan",
+      "label": "Bairam Khan, regent",
+      "year": 1556,
+      "endYear": 1560,
+      "description": "Akbar's Turkmen regent ruled the empire for the boy emperor's first four years, securing the dynasty after Humayun's death. Akbar dismissed him in 1560; Bairam Khan was assassinated en route to Mecca by an Afghan with a personal grudge.",
+      "wikiSlug": "Bairam_Khan",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-akbar",
+      "label": "Akbar the Great",
+      "year": 1556,
+      "endYear": 1605,
+      "description": "Akbar reigned for forty-nine years, expanded the empire across most of the subcontinent, abolished the jizya tax on non-Muslims, married Rajput princesses, founded the syncretic religion Din-i-Ilahi, and built Fatehpur Sikri. He was illiterate but ran one of the most sophisticated state administrations in the world.",
+      "wikiSlug": "Akbar",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-rajput-marriages",
+      "label": "Akbar's Rajput marriage alliances",
+      "year": 1562,
+      "description": "Akbar married the Kachhwaha princess of Amber (later mother of Jahangir) in 1562, beginning a decades-long policy of integrating Rajput princes into the Mughal nobility through marriage. Rajput rulers retained their kingdoms in exchange for military service and a daughter at the Mughal court.",
+      "wikiSlug": "Mughal-Rajput_relations",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-jizya-abolition",
+      "label": "Jizya abolished",
+      "year": 1564,
+      "description": "Akbar abolished the jizya, the per-capita tax on non-Muslim subjects that Islamic states traditionally collected. The abolition was central to his policy of integrating the Hindu majority into the Mughal state. Aurangzeb would reimpose it in 1679.",
+      "wikiSlug": "Jizya",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mughal-fatehpur-sikri",
+      "label": "Fatehpur Sikri built",
+      "year": 1571,
+      "endYear": 1585,
+      "description": "Akbar built this magnificent capital city near Agra, blending Hindu and Islamic architectural styles in red sandstone. It was abandoned after only fourteen years, primarily because of inadequate water supply, and stands today as one of the most intact early-modern royal cities in the world.",
+      "wikiSlug": "Fatehpur_Sikri",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mughal-akbar-conquests",
+      "label": "Akbar conquers Gujarat and Bengal",
+      "year": 1573,
+      "endYear": 1576,
+      "description": "Gujarat (1573) and Bengal (1576) gave the Mughal Empire access to the Arabian Sea ports and the Bay of Bengal — the textile-exporting heartland that made Mughal India one of the wealthiest states in the world.",
+      "wikiSlug": "Akbar",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-mansabdari",
+      "label": "Mansabdari system established",
+      "year": 1577,
+      "description": "Akbar formalized the mansabdari system: military-bureaucratic ranks numbered from 10 to 10,000, with each rank specifying a fixed number of cavalry and a fixed salary. The system created a centralized hierarchy that governed the empire's vast territory and replaced the older iqta land-grant tradition.",
+      "wikiSlug": "Mansabdari_system",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-din-i-ilahi",
+      "label": "Din-i-Ilahi founded",
+      "year": 1582,
+      "description": "Akbar promulgated Din-i-Ilahi (the Divine Faith), a syncretic order drawing from Islam, Hinduism, Christianity, Zoroastrianism, and Jainism. It never had more than a few dozen formal members, all courtiers, and disappeared at his death — but it scandalized orthodox Sunni clerics and inspired Shaikh Ahmad Sirhindi's reform movement.",
+      "wikiSlug": "Din-i-Ilahi",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mughal-ibadat-khana",
+      "label": "Ibadat Khana religious debates",
+      "year": 1575,
+      "description": "Akbar built the Ibadat Khana (House of Worship) at Fatehpur Sikri and convened religious debates on Thursday evenings, inviting Sunni clerics, Shia scholars, Hindu pandits, Jain monks, Parsi priests, and Portuguese Jesuits to argue in his presence. The debates fed his eventual founding of Din-i-Ilahi.",
+      "wikiSlug": "Ibadat_Khana",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mughal-abul-fazl",
+      "label": "Abu'l Fazl writes the Akbarnama",
+      "year": 1590,
+      "description": "Akbar's court historian Abu'l Fazl composed the Akbarnama, a three-volume chronicle of Akbar's reign, and the Ain-i-Akbari, a comprehensive survey of Mughal administration including detailed revenue, military, and provincial statistics. Aurangzeb's brother Dara Shukoh's son had Abu'l Fazl assassinated by Rajput bandits in 1602.",
+      "wikiSlug": "Akbarnama",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mughal-painting-workshop",
+      "label": "Akbar's painting workshop",
+      "year": 1560,
+      "endYear": 1605,
+      "description": "Akbar's atelier, founded under two refugee Tabriz painters Mir Sayyid Ali and Abd al-Samad, employed over a hundred artists who blended Persian, Indian, and European techniques. Output included the Hamzanama (1,400 illustrations), the Akbarnama paintings, and the founding generation of Mughal miniature painting.",
+      "wikiSlug": "Mughal_painting",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mughal-tansen",
+      "label": "Tansen at Akbar's court",
+      "year": 1500,
+      "endYear": 1586,
+      "description": "Tansen, one of the Nine Jewels of Akbar's court, is regarded as the father of Hindustani classical music. The court's blend of Persian and Indian musical traditions produced the raga-based system that defines north Indian classical music today.",
+      "wikiSlug": "Tansen",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-todar-mal",
+      "label": "Todar Mal's revenue settlement",
+      "year": 1582,
+      "description": "Akbar's finance minister Raja Todar Mal completed a comprehensive cadastral survey of agricultural land, fixed the standard land-revenue assessment at one-third of the gross produce, and standardized weights, measures, and the silver rupee. The system survived essentially unchanged into the British period.",
+      "wikiSlug": "Todar_Mal",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-grand-trunk-road",
+      "label": "Grand Trunk Road extended",
+      "year": 1556,
+      "description": "Sher Shah Suri's restoration of the Grand Trunk Road from Bengal to Kabul was extended and maintained by Akbar's administration, with caravanserais (rest-houses) at one-day intervals. The road became the spine of north Indian commerce and military movement for three centuries.",
+      "wikiSlug": "Grand_Trunk_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-jahangir",
+      "label": "Emperor Jahangir",
+      "year": 1605,
+      "endYear": 1627,
+      "description": "Akbar's son Jahangir was a wine-and-opium connoisseur who delegated much of the actual governance to his Persian wife Nur Jahan. His memoir, the Tuzuk-i-Jahangiri, is a major historical source. Mughal painting reached its peak during his reign.",
+      "wikiSlug": "Jahangir",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-nur-jahan",
+      "label": "Nur Jahan, de facto ruler",
+      "year": 1611,
+      "endYear": 1627,
+      "description": "Jahangir's twentieth and favorite wife, the Persian-born Mehr-un-Nissa, ran the empire in his name through the last decade of his reign. She issued imperial orders, struck coinage in her name, and led an armed rescue when Jahangir was captured in 1626 — the only Mughal empress to hold real political power.",
+      "wikiSlug": "Nur_Jahan",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-jahangir-painting",
+      "label": "Mughal painting at its peak",
+      "year": 1610,
+      "description": "Jahangir was the most discerning patron of painting in Mughal history. The court masters Mansur (animal and bird studies), Bishan Das (portraiture), and Abu'l Hasan produced naturalistic single-figure compositions and accurate ethnographic portraits unmatched in Persian or Ottoman painting.",
+      "wikiSlug": "Mughal_painting",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mughal-thomas-roe",
+      "label": "Sir Thomas Roe's embassy",
+      "year": 1615,
+      "description": "James I of England sent Thomas Roe to Jahangir's court 1615-19 as the first formal English ambassador to India. Roe negotiated commercial privileges for the East India Company and left a detailed journal of life at the Mughal court — the first sustained English-language description of the empire.",
+      "wikiSlug": "Thomas_Roe",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-east-india-company",
+      "label": "East India Company arrives",
+      "year": 1612,
+      "description": "After defeating a Portuguese fleet at the Battle of Swally, the English East India Company established its first factory at Surat in 1612. Over the next century the EIC built additional factories at Madras (1639), Bombay (1668), and Calcutta (1690), gradually shifting from trading post to political actor.",
+      "wikiSlug": "East_India_Company",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-sirhindi",
+      "label": "Ahmad Sirhindi and Islamic renewal",
+      "year": 1564,
+      "endYear": 1624,
+      "description": "Sheikh Ahmad Sirhindi of the Naqshbandi Sufi order led a sustained intellectual and political pushback against Akbar's syncretism, arguing for strict Sunni orthodoxy. He was briefly imprisoned by Jahangir but his Maktubat (Letters) shaped South Asian Sunni Islamic thought for the next four centuries.",
+      "wikiSlug": "Ahmad_Sirhindi",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mughal-shah-jahan",
+      "label": "Emperor Shah Jahan",
+      "year": 1628,
+      "endYear": 1658,
+      "description": "Jahangir's third son Khurram took the throne after killing his rival brothers. His thirty-year reign was the architectural climax of the Mughal Empire — the Taj Mahal, the Red Fort, the Jama Masjid, and the new capital Shahjahanabad. He died imprisoned by Aurangzeb in Agra Fort.",
+      "wikiSlug": "Shah_Jahan",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-mumtaz-mahal",
+      "label": "Mumtaz Mahal dies in childbirth",
+      "year": 1631,
+      "description": "Shah Jahan's chief consort Arjumand Banu Begum, known as Mumtaz Mahal, died at Burhanpur in the Deccan giving birth to her fourteenth child. Shah Jahan reportedly went into mourning for two years and emerged determined to build her tomb — the Taj Mahal.",
+      "wikiSlug": "Mumtaz_Mahal",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-taj-mahal",
+      "label": "Taj Mahal completed",
+      "year": 1653,
+      "description": "Built over twenty-two years by a workforce of perhaps 20,000 artisans under chief architect Ustad Ahmad Lahori, the white-marble mausoleum at Agra is the canonical masterpiece of Mughal architecture. The marble came from Makrana in Rajasthan; the inlaid semi-precious stones came from across Asia.",
+      "wikiSlug": "Taj_Mahal",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mughal-red-fort",
+      "label": "Red Fort of Delhi built",
+      "year": 1648,
+      "description": "Shah Jahan's red-sandstone fortress-palace at Delhi served as the Mughal imperial residence from 1648 until the dynasty's end in 1858. The Diwan-i-Khas at the Red Fort housed the Peacock Throne. The Lal Qila is now an Indian national symbol; the prime minister addresses the nation from its ramparts each Independence Day.",
+      "wikiSlug": "Red_Fort",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mughal-shahjahanabad",
+      "label": "Shahjahanabad founded",
+      "year": 1648,
+      "description": "Shah Jahan moved the capital from Agra to a new walled city at Delhi, named Shahjahanabad after himself. The city's broad bazaar street, Chandni Chowk, and its surrounding mahallas became the cultural and commercial heart of north India for the next two centuries. It is now Old Delhi.",
+      "wikiSlug": "Old_Delhi",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mughal-jama-masjid",
+      "label": "Jama Masjid of Delhi",
+      "year": 1656,
+      "description": "Shah Jahan's congregational mosque, built on a raised plinth across from the Red Fort, can hold 25,000 worshippers and remains India's largest mosque. The red-sandstone-and-white-marble courtyard is the architectural centerpiece of Old Delhi.",
+      "wikiSlug": "Jama_Masjid,_Delhi",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mughal-peacock-throne",
+      "label": "Peacock Throne commissioned",
+      "year": 1635,
+      "description": "Shah Jahan's gem-encrusted golden throne, completed in 1635, took seven years to build and was set with the Koh-i-Noor diamond and the Timur Ruby among hundreds of other stones. It was looted by Nader Shah in 1739 and broken up in Persia after Nader's assassination in 1747.",
+      "wikiSlug": "Peacock_Throne",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-koh-i-noor",
+      "label": "Koh-i-Noor diamond at the Mughal court",
+      "year": 1628,
+      "description": "The Koh-i-Noor (Mountain of Light) diamond entered the Mughal collection during Shah Jahan's reign and was set into the Peacock Throne. Nader Shah took it in 1739; it passed through Afghan and Sikh hands and was surrendered to the British in 1849. It now sits in the British Crown Jewels.",
+      "wikiSlug": "Koh-i-Noor",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-dara-shukoh",
+      "label": "Dara Shukoh",
+      "year": 1615,
+      "endYear": 1659,
+      "description": "Shah Jahan's eldest son and favorite was a Sufi scholar who translated the Upanishads into Persian as the Sirr-i-Akbar (the Greatest Secret), arguing for a synthesis of Hindu Vedanta and Sufi metaphysics. He was defeated by Aurangzeb at Samugarh in 1658, captured, paraded through Delhi in chains, and executed.",
+      "wikiSlug": "Dara_Shukoh",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-war-of-succession",
+      "label": "Mughal war of succession",
+      "year": 1657,
+      "endYear": 1659,
+      "description": "When Shah Jahan fell ill in 1657, his four sons fought a two-year civil war for the throne. Aurangzeb defeated Dara Shukoh at Samugarh (1658), imprisoned Shah Jahan in Agra Fort, and executed his three brothers. The succession was the bloodiest in Mughal history.",
+      "wikiSlug": "War_of_succession_(1657-1661)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-shah-jahan-imprisoned",
+      "label": "Shah Jahan imprisoned at Agra Fort",
+      "year": 1658,
+      "endYear": 1666,
+      "description": "Aurangzeb confined his father to a small apartment in the Musamman Burj of Agra Fort with a view of the Taj Mahal across the Yamuna. Shah Jahan lived under house arrest for eight years, attended by his daughter Jahanara, and died in 1666.",
+      "wikiSlug": "Shah_Jahan",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-aurangzeb",
+      "label": "Emperor Aurangzeb",
+      "year": 1658,
+      "endYear": 1707,
+      "description": "Shah Jahan's third son seized the throne in a civil war, ruled for forty-nine years, expanded the empire to its greatest extent, reimposed the jizya in 1679, and spent his last twenty-six years bogged down in the Deccan against the Marathas. Devout, austere, hard-working, and ultimately exhausted by the empire he had won.",
+      "wikiSlug": "Aurangzeb",
+      "tier": 1,
+      "tags": ["people", "wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-jizya-reimposed",
+      "label": "Jizya reimposed",
+      "year": 1679,
+      "description": "Aurangzeb reimposed the per-capita tax on non-Muslim subjects that Akbar had abolished in 1564. The reimposition signaled the empire's official return to Sunni orthodoxy and provoked widespread Hindu opposition, including a major Rajput revolt the following year.",
+      "wikiSlug": "Jizya",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mughal-shivaji",
+      "label": "Shivaji and the Maratha founding",
+      "year": 1630,
+      "endYear": 1680,
+      "description": "Shivaji Bhonsle, the founder of the Maratha kingdom, used hill-fort warfare and rapid cavalry raids to carve a Hindu kingdom out of the western Deccan. He was crowned Chhatrapati at Raigad in 1674. His descendants and lieutenants took over the Mughal Deccan after Aurangzeb's death.",
+      "wikiSlug": "Shivaji",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-shivaji-coronation",
+      "label": "Shivaji crowned Chhatrapati",
+      "year": 1674,
+      "description": "Shivaji's coronation at Raigad fort revived a Hindu sovereign title and established the formal Maratha kingdom. The ceremony was conducted by a Kashi Brahmin and explicitly framed as a restoration of Hindu rule against Mughal authority.",
+      "wikiSlug": "Coronation_of_Shivaji",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-deccan-wars",
+      "label": "Deccan Wars",
+      "year": 1681,
+      "endYear": 1707,
+      "description": "Aurangzeb spent his final twenty-six years personally commanding the southern campaigns, conquering the Bijapur Sultanate (1686) and Golconda Sultanate (1687), and grinding through endless siege warfare against the Marathas. The campaigns won territory but exhausted the treasury and broke the empire's institutional cohesion.",
+      "wikiSlug": "Mughal%E2%80%93Maratha_Wars",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-bijapur-golconda",
+      "label": "Bijapur and Golconda annexed",
+      "year": 1686,
+      "endYear": 1687,
+      "description": "Aurangzeb conquered the two great Deccan Sultanates of Bijapur (1686) and Golconda (1687), bringing the entire subcontinent except the southernmost tip and the Maratha hill country under Mughal rule. Golconda was famous for its diamond mines, including the Koh-i-Noor.",
+      "wikiSlug": "Adil_Shahi_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-sambhaji",
+      "label": "Sambhaji executed",
+      "year": 1689,
+      "description": "Aurangzeb captured Shivaji's son Sambhaji and had him tortured to death after he refused to convert to Islam. The execution radicalized the Maratha resistance and helped turn the Deccan war into the protracted, ungovernable insurgency that would consume the rest of Aurangzeb's reign.",
+      "wikiSlug": "Sambhaji",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-sikh-conflict",
+      "label": "Mughal-Sikh conflicts",
+      "year": 1675,
+      "description": "Aurangzeb's execution of the ninth Sikh Guru Tegh Bahadur in 1675 intensified Sikh resistance and led to the militarization of the Sikh community under his son, Guru Gobind Singh, who founded the Khalsa in 1699. The Mughal-Sikh wars would continue into the eighteenth century.",
+      "wikiSlug": "Mughal%E2%80%93Sikh_Wars",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-guru-gobind-singh",
+      "label": "Khalsa founded",
+      "year": 1699,
+      "description": "Guru Gobind Singh, the tenth Sikh Guru, founded the Khalsa — the militarized order of initiated Sikhs identified by the Five Ks (uncut hair, comb, steel bracelet, sword, and breeches) — at Anandpur on Baisakhi 1699. The Khalsa transformed the Sikh community into a martial brotherhood.",
+      "wikiSlug": "Khalsa",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mughal-fatawa-alamgiri",
+      "label": "Fatawa-i-Alamgiri compiled",
+      "year": 1675,
+      "description": "Aurangzeb commissioned a comprehensive compilation of Hanafi Sunni jurisprudence, completed by a panel of around five hundred scholars over a decade. The Fatawa-i-Alamgiri became the standard Islamic legal reference across South Asia and the Middle East and was still cited by British colonial courts in the nineteenth century.",
+      "wikiSlug": "Fatawa-e-Alamgiri",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mughal-badshahi-mosque",
+      "label": "Badshahi Mosque built",
+      "year": 1673,
+      "description": "Aurangzeb's vast red-sandstone mosque at Lahore, completed in 1673, can hold 100,000 worshippers in its courtyard and remained the largest mosque in the world for over three centuries. It was a deliberate architectural counterweight to Shah Jahan's Taj Mahal — power, not love, in stone.",
+      "wikiSlug": "Badshahi_Mosque",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mughal-textile-trade",
+      "label": "Mughal textile exports peak",
+      "year": 1700,
+      "description": "By 1700, Mughal India produced roughly a quarter of global GDP and dominated the world textile market, with cotton muslins, calicoes, and chintz from Bengal, Gujarat, and the Coromandel Coast exported to Europe, Africa, the Ottoman world, and Southeast Asia.",
+      "wikiSlug": "Muslin_trade_in_Bengal",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-bengal-muslin",
+      "label": "Bengal muslin",
+      "year": 1700,
+      "description": "Bengal muslin, woven so finely that an entire sari could be drawn through a finger ring, was the most prestigious textile in the early-modern world. Mughal-era Dhaka was the largest textile manufacturing city on the planet. British competition and forced underpricing destroyed the industry by 1820.",
+      "wikiSlug": "Dhakai_Muslin",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-spice-trade",
+      "label": "Mughal spice and indigo trade",
+      "year": 1615,
+      "description": "Indian exports of pepper, cardamom, cinnamon, and (above all) indigo dye drove European competition for Indian Ocean trade routes. Indigo from Gujarat and the Doab supplied most of the dye used in European textile production through the eighteenth century.",
+      "wikiSlug": "Spice_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-wootz-steel",
+      "label": "Mughal wootz steel",
+      "year": 1605,
+      "description": "Indian wootz steel, prized for its strength, sharpness, and watered-pattern surface, was exported across the Islamic world and Europe. Mughal-era armorers produced some of the finest bladed weapons of the era; the technique was lost in the nineteenth century and was only partially reconstructed by modern metallurgists.",
+      "wikiSlug": "Wootz_steel",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mughal-bahadur-shah-i",
+      "label": "Bahadur Shah I and the post-Aurangzeb succession",
+      "year": 1707,
+      "endYear": 1712,
+      "description": "Aurangzeb's third son Muazzam, ruling as Bahadur Shah I, won the war of succession after his father's death by killing two of his brothers. He reigned only five years, attempted a more conciliatory policy toward the Marathas and Rajputs, and died before he could stabilize the empire.",
+      "wikiSlug": "Bahadur_Shah_I",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-sayyid-brothers",
+      "label": "The Sayyid Brothers as kingmakers",
+      "year": 1713,
+      "endYear": 1720,
+      "description": "Two brothers from a Sayyid family of Barha — Hussain Ali Khan and Abdullah Khan — installed and deposed four Mughal emperors between 1713 and 1720, exposing the dynasty's complete loss of authority. Both were eventually killed by Mughal loyalists.",
+      "wikiSlug": "Sayyid_brothers",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-muhammad-shah",
+      "label": "Muhammad Shah",
+      "year": 1719,
+      "endYear": 1748,
+      "description": "Muhammad Shah Rangila (the Colorful) reigned for twenty-nine years through the empire's final fragmentation. Cultured, courtly, and ineffectual, he watched the Marathas, the Nizam of Hyderabad, the Nawab of Bengal, and Awadh slip out of imperial control, and lost Delhi itself to Nader Shah in 1739.",
+      "wikiSlug": "Muhammad_Shah",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-nizam-hyderabad",
+      "label": "Nizam of Hyderabad breaks away",
+      "year": 1724,
+      "description": "Asaf Jah I, formerly the Mughal viceroy of the Deccan, founded the autonomous Nizamate of Hyderabad in 1724 — nominally still acknowledging Mughal suzerainty but in practice fully independent. The Asaf Jahi dynasty ruled Hyderabad until India absorbed it in 1948.",
+      "wikiSlug": "Asaf_Jah_I",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-jantar-mantar",
+      "label": "Jantar Mantar observatories",
+      "year": 1724,
+      "description": "Maharaja Jai Singh II of Amber built five massive masonry astronomical observatories at Delhi, Jaipur, Ujjain, Mathura, and Varanasi, combining Islamic, Hindu, and European astronomical traditions. The instruments were precise to seconds of arc and remained in use into the nineteenth century.",
+      "wikiSlug": "Jantar_Mantar",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mughal-nader-shah",
+      "label": "Nader Shah sacks Delhi",
+      "year": 1739,
+      "description": "The Persian conqueror Nader Shah Afshar defeated the Mughal army at Karnal, occupied Delhi for fifty-seven days, and looted the Peacock Throne, the Koh-i-Noor diamond, and enough cash to suspend taxation in Iran for three years. The sack killed perhaps 20,000 to 30,000 Delhi residents and ended the empire as a great power.",
+      "wikiSlug": "Nader_Shah%27s_invasion_of_the_Mughal_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-karnal",
+      "label": "Battle of Karnal",
+      "year": 1739,
+      "description": "Nader Shah's smaller, gunpowder-equipped Persian army routed Muhammad Shah's Mughal force of perhaps 300,000 in a single afternoon at Karnal, north of Delhi. The Mughal field army was annihilated; the road to Delhi was open.",
+      "wikiSlug": "Battle_of_Karnal",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-third-panipat",
+      "label": "Third Battle of Panipat",
+      "year": 1761,
+      "description": "Ahmad Shah Durrani of Afghanistan defeated the Marathas in one of the largest and bloodiest battles of the eighteenth century. Maratha casualties of perhaps 60,000 to 100,000 temporarily checked their northern expansion but left the power vacuum that the British would shortly fill.",
+      "wikiSlug": "Third_Battle_of_Panipat",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-marathas-rise",
+      "label": "Maratha Confederacy rises",
+      "year": 1720,
+      "endYear": 1761,
+      "description": "Under the Peshwas, especially Baji Rao I and Madhav Rao I, the Maratha Confederacy expanded from the western Deccan to control most of central and northern India by 1758. The Marathas were the de facto inheritors of the Mughal Empire's territorial reach until their defeat at Panipat in 1761.",
+      "wikiSlug": "Maratha_Confederacy",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-bengal-nawabs",
+      "label": "Bengal becomes effectively independent",
+      "year": 1717,
+      "endYear": 1757,
+      "description": "Murshid Quli Khan, formerly the Mughal revenue official of Bengal, founded the autonomous Nawabate of Bengal in 1717. By the 1740s under Alivardi Khan, Bengal was an independent state in all but name — and the wealthiest province in Asia.",
+      "wikiSlug": "Nawab_of_Bengal",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-black-hole",
+      "label": "Black Hole of Calcutta",
+      "year": 1756,
+      "description": "When Siraj-ud-Daulah captured Calcutta from the East India Company, contemporary British accounts claimed 123 of 146 captured Britons died of suffocation overnight in a small cell. The numbers are almost certainly exaggerated — modern scholars suggest 18 to 43 deaths among 64 prisoners — but the story became central British justification for the conquest of Bengal.",
+      "wikiSlug": "Black_Hole_of_Calcutta",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-plassey",
+      "label": "Battle of Plassey",
+      "year": 1757,
+      "description": "Robert Clive's force of 3,000 East India Company soldiers defeated Siraj-ud-Daulah's 50,000-strong Bengal army at Plassey, primarily because Clive had bribed Bengal's senior commander Mir Jafar to defect. The battle transferred Bengal's revenue to the Company and is the conventional starting point of British India.",
+      "wikiSlug": "Battle_of_Plassey",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-mir-jafar",
+      "label": "Mir Jafar's betrayal",
+      "year": 1757,
+      "description": "Bengal's senior military commander Mir Jafar accepted Robert Clive's bribe to keep his troops out of the fighting at Plassey. After the battle Clive made him the new Nawab of Bengal — a puppet ruler whose name became synonymous with treachery in South Asian usage.",
+      "wikiSlug": "Mir_Jafar",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-buxar",
+      "label": "Battle of Buxar",
+      "year": 1764,
+      "description": "Hector Munro's East India Company force defeated a coalition of the Mughal emperor Shah Alam II, the Nawab of Awadh Shuja-ud-Daulah, and the Nawab of Bengal at Buxar. The victory completed what Plassey had begun and gave the Company unchallengeable military supremacy in eastern India.",
+      "wikiSlug": "Battle_of_Buxar",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-diwani",
+      "label": "Diwani of Bengal granted",
+      "year": 1765,
+      "description": "By the Treaty of Allahabad, the Mughal emperor Shah Alam II granted the East India Company the Diwani — the right to collect land revenue — over Bengal, Bihar, and Orissa. The Company now controlled the wealthiest province in the empire, paying a small tribute in return and ruling through the figurehead Nawab.",
+      "wikiSlug": "Treaty_of_Allahabad",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mughal-shah-alam",
+      "label": "Shah Alam II",
+      "year": 1759,
+      "endYear": 1806,
+      "description": "Shah Alam II reigned for forty-seven years as the Mughal emperor became progressively more powerless. He granted the Diwani to the Company in 1765, was blinded by an Afghan raider Ghulam Qadir in 1788, and died as a British pensioner. His name still appears on rupee coins minted into the early nineteenth century.",
+      "wikiSlug": "Shah_Alam_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-tipu-sultan",
+      "label": "Tipu Sultan and Mysore",
+      "year": 1750,
+      "endYear": 1799,
+      "description": "Tipu Sultan, the Tiger of Mysore, fought four Anglo-Mysore Wars against the East India Company between 1767 and 1799. He pioneered the military use of iron-cased rockets — a technology the British copied as the Congreve rocket — and was killed defending Seringapatam in 1799.",
+      "wikiSlug": "Tipu_Sultan",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-anglo-maratha-wars",
+      "label": "Anglo-Maratha Wars",
+      "year": 1775,
+      "endYear": 1818,
+      "description": "Three Anglo-Maratha Wars (1775-82, 1803-05, 1817-18) destroyed the Maratha Confederacy and gave the East India Company control of central and western India. The Company's victory at Assaye in 1803 (under Arthur Wellesley, the future Duke of Wellington) was the most important battle.",
+      "wikiSlug": "Anglo-Maratha_Wars",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-anglo-sikh-wars",
+      "label": "Anglo-Sikh Wars and the annexation of Punjab",
+      "year": 1845,
+      "endYear": 1849,
+      "description": "Two Anglo-Sikh Wars (1845-46, 1848-49) ended Ranjit Singh's Sikh Empire and brought the Punjab under British rule. The annexation included the surrender of the Koh-i-Noor diamond, which was set into the British crown.",
+      "wikiSlug": "Anglo-Sikh_Wars",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-mirza-ghalib",
+      "label": "Mirza Ghalib",
+      "year": 1797,
+      "endYear": 1869,
+      "description": "The greatest Urdu and Persian poet of the Mughal twilight lived through the 1857 uprising in besieged Delhi, watched the British reprisals destroy the city he loved, and recorded the catastrophe in letters and ghazals. His Urdu poetry remains beloved across South Asia.",
+      "wikiSlug": "Ghalib",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mughal-bahadur-shah-zafar",
+      "label": "Bahadur Shah Zafar, last Mughal emperor",
+      "year": 1837,
+      "endYear": 1857,
+      "description": "Akbar's eleventh-generation descendant Bahadur Shah II — pen name Zafar, an accomplished Urdu poet and Sufi devotee — held the Mughal throne as a Company pensioner. The 1857 rebels proclaimed him emperor of India; the British convicted him of treason, exiled him to Rangoon, and ended the dynasty.",
+      "wikiSlug": "Bahadur_Shah_II",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-1857-rebellion",
+      "label": "Indian Rebellion of 1857",
+      "year": 1857,
+      "description": "A rebellion of sepoys (Indian soldiers in Company service) at Meerut in May 1857 spread across north India. The rebels seized Delhi and proclaimed the eighty-two-year-old Bahadur Shah Zafar emperor. The British retook Delhi in September after a four-month siege, killing thousands of civilians in reprisals.",
+      "wikiSlug": "Indian_Rebellion_of_1857",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-greased-cartridges",
+      "label": "Greased cartridges spark the rebellion",
+      "year": 1857,
+      "description": "The trigger for the sepoy mutiny was the introduction of new Enfield rifle cartridges greased with a mix of cow and pig fat — offensive to both Hindu and Muslim soldiers, who had to bite the cartridges to load them. The cartridges were quickly withdrawn, but the damage to trust was already done.",
+      "wikiSlug": "Indian_Rebellion_of_1857",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-delhi-siege-1857",
+      "label": "Siege of Delhi",
+      "year": 1857,
+      "description": "British and loyal Indian forces besieged Delhi from June through September 1857, retook the city in five days of street fighting, and conducted systematic reprisals against the population. The Red Fort was looted; thousands of residents were killed or expelled.",
+      "wikiSlug": "Siege_of_Delhi",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mughal-dynasty-ended",
+      "label": "Mughal dynasty formally ended",
+      "year": 1858,
+      "description": "Bahadur Shah Zafar was tried by a military commission for treason, exiled to Rangoon (modern Yangon), and died there in 1862. His sons were summarily executed. The Government of India Act 1858 transferred power from the East India Company directly to the British Crown, ending both Company rule and the Mughal Empire.",
+      "wikiSlug": "Government_of_India_Act_1858",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mughal-urdu-language",
+      "label": "Urdu language matures",
+      "year": 1700,
+      "description": "Urdu (originally Hindavi or Rekhta) developed in the Mughal-era cities as a Persianate register of Hindi-Khariboli, written in Perso-Arabic script. It became the literary language of Delhi, Lucknow, and the Deccan from the early eighteenth century. Modern Pakistan's national language.",
+      "wikiSlug": "Urdu",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    }
+  ]
+}

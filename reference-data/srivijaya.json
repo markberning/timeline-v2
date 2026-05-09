@@ -1,0 +1,809 @@
+{
+  "id": "srivijaya",
+  "label": "Srivijaya",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Srivijaya",
+  "imageWikiSlug": "Borobudur",
+  "pitch": "Srivijaya (650–1377 CE) was Sumatra's maritime Buddhist empire, the invisible hand controlling the Strait of Malacca — the chokepoint between China and India that all Asian long-distance trade had to pass through. From its capital at Palembang, Srivijaya taxed merchants, harbored Buddhist monks, and projected naval power across an Indian Ocean world that ran from East Africa to southern China.\n\n🔑 Key Facts:\n• The Chinese pilgrim Yijing spent six months at Palembang in 671 and seven years total in the empire, describing more than 1,000 Buddhist monks studying there\n• The Bengali Buddhist master Atisha studied for twelve years at Srivijaya before carrying the dharma to Tibet, making the empire a crucial link in the global spread of Buddhism\n• Rajendra Chola's 1025 naval raid sacked Palembang and captured the king Sangrama Vijayottungavarman — the only confirmed pre-modern Indian transoceanic military expedition\n• Old Malay, the language of Srivijayan inscriptions, became the lingua franca of maritime Southeast Asia and the direct ancestor of modern Malay and Indonesian\n\n🤔 Why It Matters: Srivijaya is the lost civilization of Southeast Asia. French scholar George Coedès only proposed its identity from inscriptions in 1918 — for centuries before that, almost nothing about it was known to scholars outside Asia. Modern Malaysia and Indonesia, nations of more than 300 million people, trace their linguistic and maritime cultural roots to this empire.\n\n🎲 Wild Card: Almost nothing physical of Srivijaya survives at Palembang itself — no stone temple comparable to Borobudur, no royal palace, no statuary of the kings. Most of what we know comes from Chinese imperial records, Tamil inscriptions, Arab geographers, and a handful of stone inscriptions found scattered across Sumatra and the offshore islands.",
+  "countryIds": [
+    "360",
+    "458"
+  ],
+  "spans": [
+    {
+      "id": "span-srivijaya-rise",
+      "label": "Rise from Palembang",
+      "startYear": 650,
+      "endYear": 775,
+      "description": "Srivijaya emerged from the Musi River basin at Palembang in southeastern Sumatra under Dapunta Hyang Sri Jayanasa, conquered Bangka and Jambi, and rapidly seized control of the Strait of Malacca. Yijing's Chinese pilgrim accounts and the early Old Malay inscriptions provide the first hard evidence of the kingdom's existence.",
+      "wikiSlug": "Srivijaya"
+    },
+    {
+      "id": "span-srivijaya-golden",
+      "label": "Maritime Golden Age",
+      "startYear": 775,
+      "endYear": 1025,
+      "description": "Srivijaya monopolized the Strait of Malacca and the spice trade, became the foremost center of Mahayana Buddhist scholarship in Southeast Asia, and projected influence across the Indian Ocean. The Sailendra dynasty in central Java, possibly linked to the Srivijayan ruling line, built Borobudur during this period.",
+      "wikiSlug": "Srivijaya"
+    },
+    {
+      "id": "span-srivijaya-sailendra",
+      "label": "Sailendra Period in Java",
+      "startYear": 750,
+      "endYear": 850,
+      "description": "The Buddhist Sailendra dynasty ruled central Java in close dynastic and religious connection with Srivijaya. Their lavish patronage produced Borobudur, the world's largest Buddhist monument, and the surrounding temple complexes that constitute the densest concentration of monumental Buddhist architecture anywhere in Southeast Asia.",
+      "wikiSlug": "Sailendra"
+    },
+    {
+      "id": "span-srivijaya-chola-decline",
+      "label": "Chola Raids and Decline",
+      "startYear": 1025,
+      "endYear": 1200,
+      "description": "Rajendra Chola's naval raid of 1025 sacked Palembang, captured the Srivijayan king, and shattered the empire's monopoly grip on the Strait of Malacca. A second Chola expedition in 1068 confirmed the change. Power slowly shifted northward to Jambi (the Melayu kingdom) and the empire fragmented into competing port-states.",
+      "wikiSlug": "Chola_invasion_of_Srivijaya"
+    },
+    {
+      "id": "span-srivijaya-end",
+      "label": "Long End and Inheritance",
+      "startYear": 1200,
+      "endYear": 1377,
+      "description": "Javanese kingdoms — first Singhasari with the 1275 Pamalayu expedition, then Majapahit — picked off the surviving Srivijayan port-states one by one. Islam arrived from Aceh and spread south along the coast. Majapahit's 1377 sack of Palembang ended the dynasty, but Srivijaya's Malay language, maritime tradition, and trading geography were inherited by the Malacca Sultanate and the modern Malay world.",
+      "wikiSlug": "Majapahit"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-austronesian-expansion",
+      "label": "Austronesian Expansion",
+      "year": -1500,
+      "description": "Austronesian-speaking voyagers from Taiwan and the Philippines settled the Indonesian archipelago over centuries, bringing outrigger canoes, rice, and the maritime culture that would underpin every later Southeast Asian sea power. Their language family eventually spanned from Madagascar to Easter Island, the widest pre-modern linguistic dispersal in the world.",
+      "wikiSlug": "Austronesian_peoples",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-funan-kingdom",
+      "label": "Funan Kingdom",
+      "year": 100,
+      "endYear": 550,
+      "description": "Funan, an early Indianized state on the lower Mekong (modern southern Vietnam and Cambodia), was the first major Southeast Asian polity attested in Chinese sources. Its port at Oc Eo handled trade between India and China for centuries before Srivijaya's rise — and Funan's collapse in the mid-sixth century opened the regional vacuum that Srivijaya filled.",
+      "wikiSlug": "Funan",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-monsoon-trade",
+      "label": "Monsoon Trade Network",
+      "year": 200,
+      "description": "Maritime Southeast Asia's commerce ran on the seasonal reversal of monsoon winds: southwesterly winds from May to September carried ships east from India and the Middle East, northeasterly winds from November to March carried them home. The Strait of Malacca sat at the natural pivot point where ships had to wait for the wind to change, creating the demand for the harbor services Srivijaya would later monopolize.",
+      "wikiSlug": "Monsoon",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-han-china-trade",
+      "label": "Early Han-Era Trade with China",
+      "year": 100,
+      "description": "Han-dynasty Chinese records describe ships from the southern seas calling at Guangzhou with rhinoceros horn, ivory, pearls, and exotic woods. These early references to ports in modern Sumatra and Malaya are the first written evidence of the trade network Srivijaya would eventually dominate.",
+      "wikiSlug": "Han_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-indianization",
+      "label": "Indianization of Southeast Asia",
+      "year": 300,
+      "description": "Beginning around the early centuries CE, Sanskrit, Indic scripts, Hindu and Buddhist religion, and Indian political concepts spread across maritime Southeast Asia through merchants, monks, and Brahmin advisors. Local rulers adopted Sanskrit titles, Indian temple architecture, and the Indian-style legitimating cosmology — a cultural transfer comparable in scope to Romanization in the western Mediterranean, but driven by trade and prestige rather than conquest.",
+      "wikiSlug": "Greater_India",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-yijing-arrival",
+      "label": "Yijing Visits Srivijaya",
+      "year": 671,
+      "description": "The Chinese Buddhist monk Yijing stopped at the Srivijayan capital for six months on his outbound voyage to India, then returned for several years on his way home. He described more than 1,000 Buddhist monks studying at Palembang and recommended the city as a stopping place for any Chinese pilgrim heading to Nalanda — the earliest detailed eyewitness account of the empire.",
+      "wikiSlug": "Yijing_(monk)",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dapunta-hyang",
+      "label": "Dapunta Hyang Sri Jayanasa",
+      "year": 671,
+      "endYear": 700,
+      "description": "The first historically attested Srivijayan ruler, named in the Kedukan Bukit and Talang Tuwo inscriptions. Dapunta Hyang led the military expedition that established the empire's hold on Palembang, conquered Bangka and parts of southern Sumatra, and patronized Buddhist gardens and monasteries.",
+      "wikiSlug": "Dapunta_Hyang_Sri_Jayanasa",
+      "tier": 1,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kedukan-bukit",
+      "label": "Kedukan Bukit Inscription",
+      "year": 683,
+      "description": "Found on a hillside near Palembang, this small Old Malay inscription records a 683 CE military expedition led by Dapunta Hyang and is the earliest hard evidence of Srivijaya's existence. Without it, the empire would be even more invisible to history than it already is.",
+      "wikiSlug": "Kedukan_Bukit_inscription",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-talang-tuwo",
+      "label": "Talang Tuwo Inscription",
+      "year": 684,
+      "description": "Records the founding of a Buddhist garden by Dapunta Hyang at Palembang and includes Mahayana Buddhist devotional language — the earliest Buddhist text yet found in maritime Southeast Asia.",
+      "wikiSlug": "Talang_Tuwo_inscription",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kota-kapur",
+      "label": "Kota Kapur Inscription",
+      "year": 686,
+      "description": "Found on Bangka Island, this inscription threatens curses on anyone who rebels against Srivijaya and records a planned military campaign against Java — revealing the empire's ambition to extend control beyond Sumatra and the political mechanism of vassal oaths.",
+      "wikiSlug": "Kota_Kapur_inscription",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-telaga-batu",
+      "label": "Telaga Batu Inscription",
+      "year": 686,
+      "description": "A stone inscription at Palembang containing an elaborate oath of loyalty sworn by vassals to the Srivijayan king, threatening supernatural punishment for treason. It provides the clearest surviving evidence of the empire's political structure as a network of sworn allegiances rather than an administered territorial state.",
+      "wikiSlug": "Telaga_Batu_inscription",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-old-malay",
+      "label": "Old Malay as Lingua Franca",
+      "year": 680,
+      "description": "Srivijaya's inscriptions used Old Malay written in Pallava-derived scripts. The trading language spread along the routes the empire patrolled and became the maritime lingua franca of insular Southeast Asia — the direct ancestor of modern Malay and Indonesian, today spoken by more than 300 million people.",
+      "wikiSlug": "Old_Malay",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-palembang-capital",
+      "label": "Palembang as Capital",
+      "year": 682,
+      "description": "Palembang in southeastern Sumatra served as Srivijaya's primary capital for over four centuries — a riverine port city set inland on the Musi River, sheltered from naval attack but accessible to ocean-going ships through a navigable channel. The site has yielded almost no archaeological remains because the city was built almost entirely of perishable timber and bamboo.",
+      "wikiSlug": "Palembang",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-conquest-bangka",
+      "label": "Conquest of Bangka and Jambi",
+      "year": 685,
+      "description": "Srivijayan forces under Dapunta Hyang and his successors brought Bangka Island, the Jambi region of central Sumatra, and the Bukit Seguntang area under direct rule, locking down the southern entry to the Strait of Malacca and the Sunda Strait between Sumatra and Java.",
+      "wikiSlug": "Srivijaya",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-strait-malacca-control",
+      "label": "Control of the Strait of Malacca",
+      "year": 690,
+      "description": "Srivijaya consolidated control over the Strait of Malacca, the 600-mile choke point between Sumatra and the Malay Peninsula through which all sea trade between China and India had to pass. The empire's wealth and political identity rested on the toll-and-protection regime imposed on this single waterway.",
+      "wikiSlug": "Strait_of_Malacca",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-thalassocracy",
+      "label": "Srivijayan Thalassocracy",
+      "year": 700,
+      "description": "Srivijaya is the textbook case of a thalassocracy — a state whose power is exercised across water rather than across territory, through control of ports, sea lanes, and shipping rather than through standing armies and provincial governors. The empire's reach was always more about who paid tolls than about who lived inside fixed borders.",
+      "wikiSlug": "Thalassocracy",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-srivijayan-navy",
+      "label": "Srivijayan Naval Power",
+      "year": 700,
+      "description": "Srivijaya maintained a fleet of fast war canoes — outrigger vessels powered by oarsmen and lateen sails — that enforced the empire's tolls on passing merchants, hunted pirates in the straits, and projected force against rebellious vassals across the archipelago. The fleet's existence is referenced in Chinese, Arab, and Tamil sources but no contemporary Srivijayan depiction of a warship survives.",
+      "wikiSlug": "Srivijaya",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-shipbuilding",
+      "label": "Lashed-Lug Shipbuilding",
+      "year": 700,
+      "description": "Southeast Asian shipwrights built large ocean-going trading vessels using a distinctive lashed-lug technique — planks fastened to internal frames with vegetable-fiber cords through carved lugs rather than with iron nails. The Belitung shipwreck (a ninth-century Arab vessel found off Sumatra) and several Java Sea wrecks document this technology and the volume of trade it carried.",
+      "wikiSlug": "Maritime_Southeast_Asia",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-monsoon-navigation",
+      "label": "Monsoon Navigation Knowledge",
+      "year": 680,
+      "description": "Srivijayan sailors mastered the seasonal monsoon wind reversals that governed long-distance Indian Ocean and South China Sea voyages. The annual rhythm — outbound on one monsoon, home on the next — built waiting time into every long crossing, and the empire's ports prospered partly because traders had no choice but to lay over for months at a time.",
+      "wikiSlug": "Monsoon",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-yijing-pilgrimage",
+      "label": "Yijing's Seven Years in Srivijaya",
+      "year": 685,
+      "endYear": 695,
+      "description": "After studying at Nalanda, Yijing returned to Srivijaya for several extended stays totaling roughly seven years, translating Sanskrit Buddhist texts into Chinese and writing two major works on Buddhist practice and the geography of his pilgrimage. His account is the longest and most detailed surviving description of the empire from any outside observer.",
+      "wikiSlug": "Yijing_(monk)",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mahayana-center",
+      "label": "Mahayana Buddhist Center",
+      "year": 700,
+      "description": "Srivijaya became the foremost center of Mahayana and emerging Vajrayana Buddhist scholarship in Southeast Asia, attracting monks from China, India, Tibet, and Java for advanced study. Yijing recommended that Chinese pilgrims spend a year or two at Palembang before continuing to India, both to learn Sanskrit and to acclimatize to monastic life.",
+      "wikiSlug": "Mahayana",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-tang-tribute",
+      "label": "Tang Dynasty Tribute Missions",
+      "year": 695,
+      "description": "Srivijaya sent regular tribute missions to Tang China beginning in the 670s, securing diplomatic recognition, commercial privileges at Guangzhou, and access to the Chinese market. The tribute system was, in practice, a regulated trade arrangement: nominal political subordination in exchange for guaranteed merchant rights.",
+      "wikiSlug": "Tang_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-arab-traders",
+      "label": "Arab and Persian Traders",
+      "year": 800,
+      "description": "Arab and Persian merchants from the Abbasid Caliphate established trading communities at Srivijayan ports, exchanging West Asian glass, ceramics, and silver for spices, camphor, and aromatic woods. Arab geographers like Ibn Khurdadhbeh wrote of the kingdom they called Zabag — almost certainly Srivijaya — as fabulously wealthy.",
+      "wikiSlug": "Indian_Ocean_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-spice-trade",
+      "label": "Spice Trade Dominance",
+      "year": 800,
+      "description": "Srivijaya did not produce most spices itself, but it controlled the trans-shipment routes through which cloves and nutmeg from the eastern Indonesian islands (the Moluccas) reached Indian, Persian, and Chinese buyers. The empire took a cut at every transfer, making Palembang one of the wealthier cities in Asia despite producing almost no manufactured goods of its own.",
+      "wikiSlug": "Spice_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-camphor-trade",
+      "label": "Camphor and Aromatic Resins",
+      "year": 700,
+      "description": "Sumatran camphor, eaglewood (gaharu), benzoin, and dammar resin were prized luxury goods exported through Srivijayan ports to China, India, and the Arab world. Sumatran camphor in particular fetched extraordinarily high prices as a perfume base, fixative, and medicinal ingredient — a small bag of crystals could be worth its weight in silver.",
+      "wikiSlug": "Camphor",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-gold-from-interior",
+      "label": "Sumatran Gold",
+      "year": 750,
+      "description": "Gold panned from the rivers of central and western Sumatra moved through Srivijayan ports to international markets. The gold was a major component of the empire's purchasing power abroad and the source of the Old Malay phrase Suwarnabhumi (Sanskrit Suvarnadvipa), 'land of gold,' that Indian texts used to refer to the region.",
+      "wikiSlug": "Suvarnadvipa",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tamil-merchants",
+      "label": "Tamil Merchant Guilds",
+      "year": 900,
+      "description": "Tamil merchant guilds — most famously the Ainurruvar (the Five Hundred) and the Manigramam — operated trading houses at Srivijayan ports under the protection of both kingdoms. Tamil inscriptions found at Lobu Tua in northern Sumatra document a self-governing guild community trading from Tamil Nadu across the Bay of Bengal into the archipelago.",
+      "wikiSlug": "Ainurruvar",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-indian-ocean-network",
+      "label": "Indian Ocean Trade Network",
+      "year": 800,
+      "description": "Srivijayan merchants connected the Southeast Asian spice islands to the broader Indian Ocean network linking China, India, Persia, the Arabian Peninsula, and East Africa. By the ninth century, a single sailing season could bring goods from Guangzhou to Basra through a chain of ports in which Palembang was the central pivot.",
+      "wikiSlug": "Indian_Ocean_trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-belitung-shipwreck",
+      "label": "Belitung Shipwreck",
+      "year": 826,
+      "description": "An Arab dhow that sank off Belitung Island around 826 CE was discovered in 1998 carrying a cargo of more than 60,000 Tang Chinese ceramics, gold cups, and silver ingots. The wreck is direct physical evidence of the Tang–Srivijayan–Abbasid trade triangle that Chinese, Arab, and Tamil written sources had described.",
+      "wikiSlug": "Belitung_shipwreck",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-sailendra-dynasty",
+      "label": "Sailendra Dynasty",
+      "year": 750,
+      "endYear": 850,
+      "description": "The Buddhist Sailendra dynasty ruled central Java in close dynastic and religious connection with Srivijaya. The exact relationship between the two royal houses is debated — joint rule, parallel branches of one family, or political alliance — but the religious patronage and diplomatic correspondence flow steadily across the Java Sea throughout this century.",
+      "wikiSlug": "Sailendra",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-borobudur",
+      "label": "Borobudur Constructed",
+      "year": 780,
+      "endYear": 825,
+      "description": "The Sailendra dynasty built Borobudur in central Java, the largest Buddhist monument in the world — a massive stepped pyramid carved as a three-dimensional mandala, with more than 500 Buddha statues, 2,672 relief panels, and a circumambulatory path that walks the pilgrim through the entire Mahayana cosmos from desire to enlightenment.",
+      "wikiSlug": "Borobudur",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-prambanan",
+      "label": "Prambanan Temple Complex",
+      "year": 850,
+      "description": "The Hindu Prambanan complex was built in central Java by the Sanjaya dynasty, replacing Sailendra Buddhist patronage with a Shaivite alternative. The towering complex of Hindu shrines just east of Borobudur marks the transition of central Javanese politics away from the Srivijayan-aligned Buddhist court.",
+      "wikiSlug": "Prambanan",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muara-takus",
+      "label": "Muara Takus Temple",
+      "year": 800,
+      "description": "The Muara Takus Buddhist temple complex in central Sumatra is one of the few Srivijayan-era stone monuments to survive in any condition. Its distinctive brick stupas and modest scale suggest the empire's Sumatran heartland never invested in monumental religious architecture on the Javanese scale.",
+      "wikiSlug": "Muara_Takus",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bronze-buddhas",
+      "label": "Bronze Buddha Statues",
+      "year": 800,
+      "description": "Srivijayan and Sailendra-era artisans produced distinctive bronze Buddha and bodhisattva statues that synthesized Indian Gupta, Pala, and local Javanese-Sumatran styles. Examples found across Sumatra, the Malay Peninsula, and southern Thailand mark the geographic reach of the empire's religious culture.",
+      "wikiSlug": "Sailendra_art",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-sanskrit-buddhism",
+      "label": "Sanskrit Buddhist Scholarship",
+      "year": 800,
+      "description": "Srivijayan monasteries copied, translated, and produced original Sanskrit Buddhist texts — a labor that preserved scriptures later transmitted to Tibet, China, and Japan. The empire's role as a translation center was the reason Yijing recommended it as a stop-over for Chinese pilgrims learning Sanskrit grammar.",
+      "wikiSlug": "Sanskrit",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-balaputradeva",
+      "label": "King Balaputradeva",
+      "year": 850,
+      "description": "Balaputradeva, a Sailendra prince who became king of Srivijaya around 850 after Sailendra power collapsed in central Java, endowed a Buddhist monastery at Nalanda in northeastern India that he dedicated through an inscription requesting the prayers of King Devapala of the Pala dynasty. The Nalanda inscription is direct evidence of cross-Bay-of-Bengal religious patronage at the highest level of state.",
+      "wikiSlug": "Balaputradeva",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nalanda-monastery",
+      "label": "Nalanda Monastery Endowment",
+      "year": 860,
+      "description": "Srivijayan kings funded a Buddhist monastery and pilgrim hostel at Nalanda University in Bihar, the foremost Buddhist learning center in the medieval world. The endowment is documented in a copperplate grant from the Pala emperor Devapala — formal evidence of regular Indian-Sumatran intellectual exchange.",
+      "wikiSlug": "Nalanda",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-manjusri-vihara",
+      "label": "Manjusri Vihara at Bengal",
+      "year": 860,
+      "description": "A Srivijayan-funded Buddhist monastery dedicated to the bodhisattva Manjusri operated under the Pala kings of Bengal as a hostel for monks and merchants traveling between Sumatra and northern India. It is one of several recorded Srivijayan religious foundations on the Indian mainland.",
+      "wikiSlug": "Pala_Empire",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-arab-zabag",
+      "label": "Arab Geographers Describe Zabag",
+      "year": 870,
+      "description": "Arab geographers including Ibn Khurdadhbeh and the unnamed compiler of the Akhbar al-Sin wa-l-Hind described a fabulously wealthy 'Maharaja of Zabag' whose realm was almost certainly Srivijaya. Their accounts emphasize the king's gold reserves, the volume of trade in his ports, and the extraordinary fertility of the islands he ruled.",
+      "wikiSlug": "Ibn_Khordadbeh",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-srivijaya-attacks-mataram",
+      "label": "Srivijayan Attack on Java",
+      "year": 1016,
+      "description": "Srivijaya raided the Javanese kingdom of Mataram and sacked its capital, killing the king Dharmavamsa. The campaign briefly reasserted Sumatran dominance over central Java but the resulting chaos opened the door for the rival Javanese kingdom of Kahuripan under Airlangga to consolidate power on the island.",
+      "wikiSlug": "Mataram_Kingdom",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atisha-studies",
+      "label": "Atisha Studies in Srivijaya",
+      "year": 1012,
+      "endYear": 1024,
+      "description": "The Bengali Buddhist master Atisha sailed to Srivijaya around 1012 and studied for twelve years under the Srivijayan teacher Dharmakirti before returning to India and eventually traveling to Tibet, where he led the second wave of Tibetan Buddhist revival. The dharma transmission line of every modern Tibetan Buddhist school runs through this Sumatran detour.",
+      "wikiSlug": "Atisha",
+      "tier": 1,
+      "tags": [
+        "people",
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dharmakirti-srivijaya",
+      "label": "Dharmakirti of Srivijaya",
+      "year": 1012,
+      "description": "Atisha's principal teacher at Palembang was a Srivijayan abbot called Dharmakirti — a different person from the famous seventh-century Indian logician of the same name. The Srivijayan Dharmakirti's instruction in the Mahayana text Bodhicaryavatara and in mind-training (lojong) practices shaped the entire later Tibetan Buddhist curriculum.",
+      "wikiSlug": "Atisha",
+      "tier": 3,
+      "tags": [
+        "people",
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-song-trade",
+      "label": "Song Dynasty Trade Relations",
+      "year": 1003,
+      "description": "Srivijaya intensified trade with Song China after 1000 CE, sending tribute missions and receiving recognition as a key trading partner. Song customs records from Quanzhou and Guangzhou show steady Srivijayan ship arrivals carrying spices and resins through the late tenth and eleventh centuries.",
+      "wikiSlug": "Song_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-rajendra-chola",
+      "label": "Rajendra Chola I",
+      "year": 1014,
+      "endYear": 1044,
+      "description": "The Chola emperor whose 1025 naval expedition against Srivijaya was the only confirmed pre-modern Indian transoceanic military campaign. Rajendra had already crossed north India to the Ganges and built the new Chola capital at Gangaikonda Cholapuram before launching the fleet across the Bay of Bengal.",
+      "wikiSlug": "Rajendra_Chola_I",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-chola-raid-1025",
+      "label": "Chola Raid of 1025",
+      "year": 1025,
+      "description": "Rajendra Chola dispatched a war fleet across roughly 1,200 nautical miles of the Bay of Bengal to attack Srivijaya directly. The Chola force sacked Palembang, captured the king Sangrama Vijayottungavarman, looted the royal treasury, and attacked fourteen further tributary ports along the Malay Peninsula and the Sumatran coast — including Kedah, Lamuri, and Tambralinga.",
+      "wikiSlug": "Chola_invasion_of_Srivijaya",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sangrama-vijayottungavarman",
+      "label": "Sangrama Vijayottungavarman",
+      "year": 1025,
+      "description": "The Srivijayan Maharaja captured during Rajendra Chola's 1025 raid. The Chola inscriptions list him by the long Sanskrit name Sangrama Vijayottungavarman — 'the heroically victorious warrior in battle' — though no Srivijayan source records his fate after capture.",
+      "wikiSlug": "Sangrama_Vijayottungavarman",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-second-chola-raid",
+      "label": "Second Chola Raid",
+      "year": 1068,
+      "description": "A second Chola naval expedition under Virarajendra Chola raided Kedah and reasserted Tamil commercial primacy in the Strait. Srivijaya never recovered its monopoly position — afterward, Tamil merchant guilds operated more or less unimpeded across the eastern Indian Ocean for the next century.",
+      "wikiSlug": "Chola_invasion_of_Srivijaya",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jambi-capital-shift",
+      "label": "Capital Shifts to Jambi",
+      "year": 1088,
+      "description": "After the Chola raids, the political center of Srivijaya shifted from Palembang north to Jambi (the Melayu kingdom of Malayu-Dharmasraya) along the Batang Hari River. The change reflected both the disruption of Palembang and the rise of Jambi as an upriver source of Sumatran gold and forest products.",
+      "wikiSlug": "Melayu_Kingdom",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zhao-rugua",
+      "label": "Zhao Rugua's Trade Records",
+      "year": 1225,
+      "description": "The Song Chinese customs official Zhao Rugua, supervisor of the maritime trade office at Quanzhou, compiled the Zhu Fan Zhi (Description of Foreign Peoples), describing Srivijaya's still-substantial trade networks in the early thirteenth century — well after the Chola raids and well before the Javanese conquests.",
+      "wikiSlug": "Zhao_Rugua",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kediri-singhasari-rise",
+      "label": "Java's Kediri and Singhasari Rise",
+      "year": 1100,
+      "description": "The Javanese kingdoms of Kediri (1042–1222) and then Singhasari (1222–1292) consolidated power in eastern Java and began projecting force back across the Java Sea. Their growth marked the long inversion of Java-Sumatra dominance that had defined Southeast Asian politics since Borobudur.",
+      "wikiSlug": "Kediri_Kingdom",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pamalayu-1275",
+      "label": "Pamalayu Expedition",
+      "year": 1275,
+      "description": "The Javanese Singhasari king Kertanagara launched the Pamalayu expedition, a naval campaign against Jambi-based Srivijayan successor states in central Sumatra. Singhasari held the captured territories until the kingdom itself collapsed in 1292.",
+      "wikiSlug": "Pamalayu_expedition",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-yuan-attack-java",
+      "label": "Mongol Attack on Java",
+      "year": 1293,
+      "description": "Kublai Khan's Yuan dynasty sent a punitive fleet of perhaps 1,000 ships to Java to punish the Singhasari king Kertanagara — only to find on arrival that Kertanagara had already been killed in a coup. The Mongol force was outmaneuvered by the new Javanese leader Raden Wijaya, who used Yuan support to crush his rival before turning on the Mongols and driving them out of Java. Wijaya's victory founded the Majapahit empire.",
+      "wikiSlug": "Mongol_invasion_of_Java",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-islam-arrives-aceh",
+      "label": "Islam Arrives in Aceh",
+      "year": 1290,
+      "description": "Muslim merchants and Sufi missionaries from India and the Middle East began converting coastal communities at Pasai and Aceh in northern Sumatra in the late thirteenth century. The Muslim Pasai sultanate, founded around 1267, was the first formal Islamic state in maritime Southeast Asia, and its establishment opened the gradual century-long Islamization of the archipelago.",
+      "wikiSlug": "Pasai_Sultanate",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ibn-battuta-visits",
+      "label": "Ibn Battuta in Sumatra",
+      "year": 1345,
+      "description": "The Moroccan traveler Ibn Battuta stopped at the Pasai sultanate in northern Sumatra during his Asian travels and recorded a Muslim court of considerable elegance, with Arabic-language scholars and active trade with Bengal and southern India. By his visit the religious and political map of Sumatra had begun to look fundamentally different from Srivijayan times.",
+      "wikiSlug": "Ibn_Battuta",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-majapahit-rise",
+      "label": "Majapahit Empire Rises",
+      "year": 1293,
+      "endYear": 1500,
+      "description": "Founded by Raden Wijaya after his defeat of the Mongol expedition, the Majapahit empire dominated Java and projected influence across maritime Southeast Asia under its great prime minister Gajah Mada and king Hayam Wuruk. The empire's nagara-kretagama records its claimed authority over a vast roster of vassal ports stretching from Sumatra to New Guinea.",
+      "wikiSlug": "Majapahit",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-majapahit-conquest-1377",
+      "label": "Majapahit Conquers Palembang",
+      "year": 1377,
+      "description": "The Javanese Majapahit empire sacked the last Srivijayan remnant at Palembang under Hayam Wuruk's prime minister Gajah Mada, ending the dynasty after more than seven centuries. The fall is conventionally dated 1377 and marks the formal end of the Sumatran-based maritime empire.",
+      "wikiSlug": "Majapahit",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-parameswara",
+      "label": "Parameswara Founds Malacca",
+      "year": 1400,
+      "description": "A fugitive Palembang prince named Parameswara fled the Majapahit conquest and, after a decade of wandering, established a new port-city at Malacca on the Malay Peninsula around 1400. His new state, soon converted to Islam, inherited Srivijaya's geographic role as the Strait's dominant trading entrepot.",
+      "wikiSlug": "Parameswara_(king)",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-malacca-sultanate",
+      "label": "Malacca Sultanate",
+      "year": 1400,
+      "endYear": 1511,
+      "description": "The Malacca Sultanate, founded by Parameswara, became the dominant trading and political power of fifteenth-century maritime Southeast Asia and the institutional inheritor of Srivijaya's Malacca-Strait commercial geography. The sultanate's diplomatic relationship with Ming China — including the Zheng He treasure fleet visits — gave it a level of international recognition Srivijaya had only intermittently achieved.",
+      "wikiSlug": "Malacca_Sultanate",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-malay-language-survival",
+      "label": "Malay Language Survival",
+      "year": 1500,
+      "description": "Old Malay evolved through Classical Malay into the modern Malay and Indonesian languages, both descended from the trading lingua franca that Srivijayan ports had spread along the strait. Modern Malay-speakers number more than 300 million, making this one of the most demographically successful linguistic legacies of any pre-modern empire.",
+      "wikiSlug": "Malay_language",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-coedes-1918",
+      "label": "George Coedes Identifies Srivijaya",
+      "year": 1918,
+      "description": "The French scholar George Coedes recognized that several apparently disconnected references in Old Malay, Sanskrit, Tamil, Arabic, and Chinese sources all referred to the same lost maritime empire. His 1918 paper effectively reconstructed Srivijaya from inscriptions and external accounts — the first time the empire had a name in modern scholarship.",
+      "wikiSlug": "George_C%C5%93d%C3%A8s",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-bukit-seguntang",
+      "label": "Bukit Seguntang Sacred Hill",
+      "year": 700,
+      "description": "Bukit Seguntang, the small forested hill on the outskirts of modern Palembang, was a sacred site associated with the empire's founding myth — and one of the few Srivijayan-era archaeological zones still partially recognizable in the landscape today. Several stone Buddha images and inscriptions have been recovered there.",
+      "wikiSlug": "Bukit_Seguntang",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-kedah-port",
+      "label": "Kedah as Tributary Port",
+      "year": 800,
+      "description": "Kedah, on the Malay Peninsula's western coast, was Srivijaya's principal northern outpost — the eastern terminus for Indian Ocean traders coming up from India and the western waypoint for ships heading to China. The Bujang Valley archaeological complex preserves Hindu-Buddhist temples and Tamil inscriptions documenting the port's role.",
+      "wikiSlug": "Kedah",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tambralinga",
+      "label": "Tambralinga in Southern Thailand",
+      "year": 800,
+      "description": "Tambralinga, a Srivijayan tributary state on the Malay Peninsula's eastern coast in modern southern Thailand, controlled the trans-peninsular portage routes that allowed traders to bypass the long sail around Singapore. The kingdom's later Buddhist culture survived into the Sukhothai era.",
+      "wikiSlug": "Tambralinga",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-leiden-plates",
+      "label": "Leiden Copperplate Grant",
+      "year": 1005,
+      "description": "A set of copperplate grants now held in Leiden records that the Srivijayan king sponsored the construction of a Buddhist temple at Nagapattinam, a Chola port on the Tamil coast, for the use of pilgrims and merchants. Issued by Rajaraja Chola to confirm the grant, the plates document the diplomatic warmth that existed before the 1025 raid.",
+      "wikiSlug": "Larger_Leiden_grant",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-srivijaya-population-estimate",
+      "label": "Population and Scale",
+      "year": 900,
+      "description": "Modern estimates place the Srivijayan core population at perhaps a few hundred thousand at peak, with the broader maritime network — vassal port-states, foreign merchant communities, allied island chiefdoms — encompassing perhaps a million people. By comparison, contemporary Tang Chang'an held about a million within its city walls alone.",
+      "wikiSlug": "Srivijaya",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-bay-of-bengal-trade",
+      "label": "Bay of Bengal Trade Triangle",
+      "year": 800,
+      "description": "Srivijaya sat at the eastern apex of a Bay of Bengal trade triangle whose other corners were the Pala kingdom in Bengal and the Chola coast in Tamil Nadu. The triangle moved Buddhist monks, Sanskrit texts, Tamil merchants, Indian textiles, Sumatran spices, and Chinese ceramics in patterns that survived the political conflicts among the three powers.",
+      "wikiSlug": "Bay_of_Bengal",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tamil-inscription-lobu-tua",
+      "label": "Lobu Tua Tamil Inscription",
+      "year": 1088,
+      "description": "An 1088 CE Tamil inscription found at Lobu Tua in north-central Sumatra records a self-governing Tamil merchant guild operating under Srivijayan authority. It is direct epigraphic evidence of the cosmopolitan trading communities embedded in Srivijayan ports.",
+      "wikiSlug": "Lobu_Tua_inscription",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-srivijaya-fragmentation-1100s",
+      "label": "Twelfth-Century Fragmentation",
+      "year": 1150,
+      "description": "Through the twelfth century, Srivijaya gradually fragmented into competing port-states along the Sumatran and Malayan coasts — Jambi, Kedah, Lamuri, and others — each pursuing its own commercial relationships with China, India, and the Arab world. The empire became a memory of unified rule even as the trading network it had built continued to function.",
+      "wikiSlug": "Srivijaya",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-singhasari-1292-collapse",
+      "label": "Singhasari Collapses",
+      "year": 1292,
+      "description": "The Javanese Singhasari king Kertanagara was assassinated in a 1292 coup by the rival ruler Jayakatwang of Kediri — a year before Kublai Khan's Yuan fleet arrived to punish him for an earlier diplomatic insult. The chaos opened the way for the rise of Majapahit and dramatically reshuffled the balance of power across the archipelago.",
+      "wikiSlug": "Singhasari",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-suvarnabhumi",
+      "label": "Suvarnabhumi the Land of Gold",
+      "year": 800,
+      "description": "Indian Sanskrit texts referred to maritime Southeast Asia as Suvarnabhumi, 'the land of gold,' and Suvarnadvipa, 'the gold island.' The terms most often referred to Sumatra and the Srivijayan domain. The Sanskrit naming reflects the Indian-side perception of the region as a wealthy and culturally sophisticated trading partner rather than a frontier wilderness.",
+      "wikiSlug": "Suvarnabhumi",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    }
+  ]
+}

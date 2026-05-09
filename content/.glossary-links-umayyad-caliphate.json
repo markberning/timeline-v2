@@ -1,0 +1,840 @@
+{
+  "1": [
+    {
+      "term": "Arabian Peninsula",
+      "matchText": "Arabian Peninsula",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Empty Quarter",
+      "matchText": "Empty Quarter",
+      "wikiSlug": "Rub%27_al_Khali",
+      "type": "place"
+    },
+    {
+      "term": "Bedouin",
+      "matchText": "Bedouin",
+      "wikiSlug": "Bedouin",
+      "type": "concept"
+    },
+    {
+      "term": "Hijaz",
+      "matchText": "Hijaz",
+      "wikiSlug": "Hejaz",
+      "type": "place"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Yathrib",
+      "matchText": "Yathrib",
+      "wikiSlug": "Medina",
+      "type": "place"
+    },
+    {
+      "term": "Kaaba",
+      "matchText": "Kaaba",
+      "wikiSlug": "Kaaba",
+      "type": "place"
+    },
+    {
+      "term": "Quraysh",
+      "matchText": "Quraysh",
+      "wikiSlug": "Quraysh",
+      "type": "concept"
+    },
+    {
+      "term": "Banu Hashim",
+      "matchText": "Banu Hashim",
+      "wikiSlug": "Banu_Hashim",
+      "type": "concept"
+    },
+    {
+      "term": "Banu Umayya",
+      "matchText": "Banu Umayya",
+      "wikiSlug": "Banu_Umayya",
+      "type": "concept"
+    },
+    {
+      "term": "Hajj",
+      "matchText": "hajj",
+      "wikiSlug": "Hajj",
+      "type": "concept"
+    },
+    {
+      "term": "Lakhmids",
+      "matchText": "Lakhmids",
+      "wikiSlug": "Lakhmids",
+      "type": "concept"
+    },
+    {
+      "term": "Ghassanids",
+      "matchText": "Ghassanids",
+      "wikiSlug": "Ghassanids",
+      "type": "concept"
+    },
+    {
+      "term": "Sasanian Empire",
+      "matchText": "Sasanian Persian Empire",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Byzantine Empire",
+      "matchText": "Byzantine Empire",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Hanifs",
+      "matchText": "Hanifs",
+      "wikiSlug": "Hanif",
+      "type": "concept"
+    },
+    {
+      "term": "Aksum",
+      "matchText": "Aksum",
+      "wikiSlug": "Kingdom_of_Aksum",
+      "type": "concept"
+    }
+  ],
+  "2": [
+    {
+      "term": "Quran",
+      "matchText": "Quran",
+      "wikiSlug": "Quran",
+      "type": "concept"
+    },
+    {
+      "term": "Hira",
+      "matchText": "Hira",
+      "wikiSlug": "Cave_of_Hira",
+      "type": "place"
+    },
+    {
+      "term": "Gabriel",
+      "matchText": "Gabriel",
+      "wikiSlug": "Gabriel_in_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Khadija",
+      "matchText": "Khadija",
+      "wikiSlug": "Khadija_bint_Khuwaylid",
+      "type": "people"
+    },
+    {
+      "term": "Sura",
+      "matchText": "suras",
+      "wikiSlug": "Surah",
+      "type": "concept"
+    },
+    {
+      "term": "Hijra",
+      "matchText": "Hijra",
+      "wikiSlug": "Hijrah",
+      "type": "concept"
+    },
+    {
+      "term": "Umma",
+      "matchText": "Umma",
+      "wikiSlug": "Ummah",
+      "type": "concept"
+    },
+    {
+      "term": "Medina",
+      "matchText": "Medina",
+      "wikiSlug": "Medina",
+      "type": "place"
+    },
+    {
+      "term": "Abu Bakr",
+      "matchText": "Abu Bakr",
+      "wikiSlug": "Abu_Bakr",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Badr",
+      "matchText": "Battle of Badr",
+      "wikiSlug": "Battle_of_Badr",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Uhud",
+      "matchText": "Battle of Uhud",
+      "wikiSlug": "Battle_of_Uhud",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of the Trench",
+      "matchText": "Battle of the Trench",
+      "wikiSlug": "Battle_of_the_Trench",
+      "type": "concept"
+    },
+    {
+      "term": "Qibla",
+      "matchText": "qibla",
+      "wikiSlug": "Qibla",
+      "type": "concept"
+    },
+    {
+      "term": "Aisha",
+      "matchText": "Aisha",
+      "wikiSlug": "Aisha",
+      "type": "people"
+    },
+    {
+      "term": "Fatima",
+      "matchText": "Fatima",
+      "wikiSlug": "Fatima",
+      "type": "people"
+    },
+    {
+      "term": "Abu Talib",
+      "matchText": "Abu Talib",
+      "wikiSlug": "Abu_Talib_ibn_Abd_al-Muttalib",
+      "type": "people"
+    }
+  ],
+  "3": [
+    {
+      "term": "Caliph",
+      "matchText": "khalifa",
+      "wikiSlug": "Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Rashidun Caliphate",
+      "matchText": "Rashidun",
+      "wikiSlug": "Rashidun_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Ghadir Khumm",
+      "matchText": "Ghadir Khumm",
+      "wikiSlug": "Event_of_Ghadir_Khumm",
+      "type": "concept"
+    },
+    {
+      "term": "Khalid ibn al-Walid",
+      "matchText": "Khalid ibn al-Walid",
+      "wikiSlug": "Khalid_ibn_al-Walid",
+      "type": "people"
+    },
+    {
+      "term": "Ridda Wars",
+      "matchText": "Ridda Wars",
+      "wikiSlug": "Ridda_wars",
+      "type": "concept"
+    },
+    {
+      "term": "Musaylima",
+      "matchText": "Musaylima",
+      "wikiSlug": "Musaylima",
+      "type": "people"
+    },
+    {
+      "term": "Amir al-Muminin",
+      "matchText": "Amir al-Mu'minin",
+      "wikiSlug": "Amir_al-Mu%27minin",
+      "type": "concept"
+    },
+    {
+      "term": "Yarmouk River",
+      "matchText": "Yarmouk River",
+      "wikiSlug": "Yarmouk_River",
+      "type": "place"
+    },
+    {
+      "term": "Damascus",
+      "matchText": "Damascus",
+      "wikiSlug": "Damascus",
+      "type": "place"
+    },
+    {
+      "term": "Antioch",
+      "matchText": "Antioch",
+      "wikiSlug": "Antioch",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Sophronius",
+      "matchText": "Patriarch Sophronius",
+      "wikiSlug": "Sophronius_of_Jerusalem",
+      "type": "people"
+    },
+    {
+      "term": "Ctesiphon",
+      "matchText": "Ctesiphon",
+      "wikiSlug": "Ctesiphon",
+      "type": "place"
+    },
+    {
+      "term": "Yazdegerd III",
+      "matchText": "Yazdegerd III",
+      "wikiSlug": "Yazdegerd_III",
+      "type": "people"
+    },
+    {
+      "term": "Coptic Christians",
+      "matchText": "Coptic Christian population of Egypt",
+      "wikiSlug": "Copts",
+      "type": "concept"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "Diwan",
+      "matchText": "diwan",
+      "wikiSlug": "Diwan_(Caliphate_office)",
+      "type": "concept"
+    },
+    {
+      "term": "Kufa",
+      "matchText": "Kufa",
+      "wikiSlug": "Kufa",
+      "type": "place"
+    },
+    {
+      "term": "Basra",
+      "matchText": "Basra",
+      "wikiSlug": "Basra",
+      "type": "place"
+    },
+    {
+      "term": "Fustat",
+      "matchText": "Fustat",
+      "wikiSlug": "Fustat",
+      "type": "place"
+    },
+    {
+      "term": "Kairouan",
+      "matchText": "Kairouan",
+      "wikiSlug": "Kairouan",
+      "type": "place"
+    },
+    {
+      "term": "Battle of the Camel",
+      "matchText": "Battle of the Camel",
+      "wikiSlug": "Battle_of_the_Camel",
+      "type": "concept"
+    },
+    {
+      "term": "Najaf",
+      "matchText": "Najaf",
+      "wikiSlug": "Najaf",
+      "type": "place"
+    }
+  ],
+  "4": [
+    {
+      "term": "Yazid I",
+      "matchText": "Yazid",
+      "wikiSlug": "Yazid_I",
+      "type": "people"
+    },
+    {
+      "term": "Husayn ibn Ali",
+      "matchText": "Husayn",
+      "wikiSlug": "Husayn_ibn_Ali",
+      "type": "people"
+    },
+    {
+      "term": "Karbala",
+      "matchText": "Karbala",
+      "wikiSlug": "Karbala",
+      "type": "place"
+    },
+    {
+      "term": "Ashura",
+      "matchText": "Ashura",
+      "wikiSlug": "Day_of_Ashura",
+      "type": "concept"
+    },
+    {
+      "term": "Imam",
+      "matchText": "Imam",
+      "wikiSlug": "Imamah_(Shia_doctrine)",
+      "type": "concept"
+    },
+    {
+      "term": "Mahdi",
+      "matchText": "Mahdi",
+      "wikiSlug": "Mahdi",
+      "type": "concept"
+    },
+    {
+      "term": "Occultation",
+      "matchText": "occultation",
+      "wikiSlug": "Occultation_(Islam)",
+      "type": "concept"
+    },
+    {
+      "term": "Marja-i Taqlid",
+      "matchText": "marja-i taqlid",
+      "wikiSlug": "Marja%27",
+      "type": "concept"
+    },
+    {
+      "term": "Mujtahid",
+      "matchText": "mujtahids",
+      "wikiSlug": "Mujtahid",
+      "type": "concept"
+    },
+    {
+      "term": "Hadith",
+      "matchText": "hadith",
+      "wikiSlug": "Hadith",
+      "type": "concept"
+    },
+    {
+      "term": "Fiqh",
+      "matchText": "Hanafi",
+      "wikiSlug": "Hanafi",
+      "type": "concept"
+    },
+    {
+      "term": "Sunni Islam",
+      "matchText": "Sunni",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Ismaili",
+      "matchText": "Ismaili",
+      "wikiSlug": "Isma%27ilism",
+      "type": "concept"
+    },
+    {
+      "term": "Twelver",
+      "matchText": "Twelver",
+      "wikiSlug": "Twelver",
+      "type": "concept"
+    },
+    {
+      "term": "Zaydi",
+      "matchText": "Zaydi",
+      "wikiSlug": "Zaydism",
+      "type": "concept"
+    },
+    {
+      "term": "Aga Khan",
+      "matchText": "Aga Khan",
+      "wikiSlug": "Aga_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Husayniyya",
+      "matchText": "husayniyya",
+      "wikiSlug": "Husayniyya",
+      "type": "concept"
+    },
+    {
+      "term": "Hezbollah",
+      "matchText": "Hezbollah",
+      "wikiSlug": "Hezbollah",
+      "type": "concept"
+    }
+  ],
+  "5": [
+    {
+      "term": "Mu'awiya I",
+      "matchText": "Mu'awiya",
+      "wikiSlug": "Muawiya_I",
+      "type": "people"
+    },
+    {
+      "term": "Abu Sufyan",
+      "matchText": "Abu Sufyan",
+      "wikiSlug": "Abu_Sufyan_ibn_Harb",
+      "type": "people"
+    },
+    {
+      "term": "Abdullah ibn al-Zubayr",
+      "matchText": "Abdullah ibn al-Zubayr",
+      "wikiSlug": "Abdullah_ibn_al-Zubayr",
+      "type": "people"
+    },
+    {
+      "term": "John of Damascus",
+      "matchText": "John of Damascus",
+      "wikiSlug": "John_of_Damascus",
+      "type": "people"
+    },
+    {
+      "term": "Al-Hajjaj ibn Yusuf",
+      "matchText": "al-Hajjaj",
+      "wikiSlug": "Al-Hajjaj_ibn_Yusuf",
+      "type": "people"
+    },
+    {
+      "term": "Abd al-Malik ibn Marwan",
+      "matchText": "Abd al-Malik",
+      "wikiSlug": "Abd_al-Malik_ibn_Marwan",
+      "type": "people"
+    },
+    {
+      "term": "Pahlavi",
+      "matchText": "Pahlavi",
+      "wikiSlug": "Middle_Persian",
+      "type": "concept"
+    },
+    {
+      "term": "Dinar",
+      "matchText": "dinar",
+      "wikiSlug": "Gold_dinar",
+      "type": "concept"
+    },
+    {
+      "term": "Dirham",
+      "matchText": "dirham",
+      "wikiSlug": "Dirham",
+      "type": "concept"
+    },
+    {
+      "term": "Aniconism",
+      "matchText": "aniconism",
+      "wikiSlug": "Aniconism_in_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Mawla",
+      "matchText": "mawali",
+      "wikiSlug": "Mawla",
+      "type": "concept"
+    },
+    {
+      "term": "Marwan I",
+      "matchText": "Marwan I",
+      "wikiSlug": "Marwan_I",
+      "type": "people"
+    }
+  ],
+  "6": [
+    {
+      "term": "Al-Walid I",
+      "matchText": "al-Walid I",
+      "wikiSlug": "Al-Walid_I",
+      "type": "people"
+    },
+    {
+      "term": "Tariq ibn Ziyad",
+      "matchText": "Tariq ibn Ziyad",
+      "wikiSlug": "Tariq_ibn_Ziyad",
+      "type": "people"
+    },
+    {
+      "term": "Berber",
+      "matchText": "Berber",
+      "wikiSlug": "Berbers",
+      "type": "concept"
+    },
+    {
+      "term": "Gibraltar",
+      "matchText": "Gibraltar",
+      "wikiSlug": "Gibraltar",
+      "type": "place"
+    },
+    {
+      "term": "Visigoths",
+      "matchText": "Visigothic Kingdom",
+      "wikiSlug": "Visigothic_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Al-Andalus",
+      "matchText": "al-Andalus",
+      "wikiSlug": "Al-Andalus",
+      "type": "place"
+    },
+    {
+      "term": "Granada",
+      "matchText": "Granada",
+      "wikiSlug": "Emirate_of_Granada",
+      "type": "place"
+    },
+    {
+      "term": "Sind",
+      "matchText": "Sind",
+      "wikiSlug": "Sind_(Caliphate_province)",
+      "type": "place"
+    },
+    {
+      "term": "Indus Valley",
+      "matchText": "Indus Valley",
+      "wikiSlug": "Indus_River",
+      "type": "place"
+    },
+    {
+      "term": "Bukhara",
+      "matchText": "Bukhara",
+      "wikiSlug": "Bukhara",
+      "type": "place"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Sogdians",
+      "matchText": "Sogdian",
+      "wikiSlug": "Sogdia",
+      "type": "concept"
+    },
+    {
+      "term": "Theodosian Walls",
+      "matchText": "Theodosian Walls",
+      "wikiSlug": "Walls_of_Constantinople",
+      "type": "concept"
+    },
+    {
+      "term": "Greek fire",
+      "matchText": "Greek fire",
+      "wikiSlug": "Greek_fire",
+      "type": "concept"
+    },
+    {
+      "term": "Leo III",
+      "matchText": "Leo III",
+      "wikiSlug": "Leo_III_the_Isaurian",
+      "type": "people"
+    },
+    {
+      "term": "Charles Martel",
+      "matchText": "Charles Martel",
+      "wikiSlug": "Charles_Martel",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Talas",
+      "matchText": "Battle of Talas",
+      "wikiSlug": "Battle_of_Talas",
+      "type": "concept"
+    },
+    {
+      "term": "Ibn Sina",
+      "matchText": "Ibn Sina",
+      "wikiSlug": "Avicenna",
+      "type": "people"
+    },
+    {
+      "term": "Ferdowsi",
+      "matchText": "Ferdowsi",
+      "wikiSlug": "Ferdowsi",
+      "type": "people"
+    }
+  ],
+  "7": [
+    {
+      "term": "Temple Mount",
+      "matchText": "Temple Mount",
+      "wikiSlug": "Temple_Mount",
+      "type": "place"
+    },
+    {
+      "term": "Holy Sepulchre",
+      "matchText": "Holy Sepulchre",
+      "wikiSlug": "Church_of_the_Holy_Sepulchre",
+      "type": "place"
+    },
+    {
+      "term": "Night Journey",
+      "matchText": "Night Journey",
+      "wikiSlug": "Isra_and_Mi%27raj",
+      "type": "concept"
+    },
+    {
+      "term": "Mihrab",
+      "matchText": "mihrab",
+      "wikiSlug": "Mihrab",
+      "type": "concept"
+    },
+    {
+      "term": "Minbar",
+      "matchText": "minbar",
+      "wikiSlug": "Minbar",
+      "type": "concept"
+    },
+    {
+      "term": "Sahn",
+      "matchText": "sahn",
+      "wikiSlug": "Sahn",
+      "type": "concept"
+    },
+    {
+      "term": "Qusayr Amra",
+      "matchText": "Qusayr Amra",
+      "wikiSlug": "Qusayr_%27Amra",
+      "type": "place"
+    },
+    {
+      "term": "Mu'tazila",
+      "matchText": "Mu'tazila",
+      "wikiSlug": "Mu%27tazila",
+      "type": "concept"
+    },
+    {
+      "term": "Murji'a",
+      "matchText": "Murji'a",
+      "wikiSlug": "Murji%27ah",
+      "type": "concept"
+    },
+    {
+      "term": "Qadariyya",
+      "matchText": "Qadariyya",
+      "wikiSlug": "Qadariyya",
+      "type": "concept"
+    },
+    {
+      "term": "Sharia",
+      "matchText": "sharia",
+      "wikiSlug": "Sharia",
+      "type": "concept"
+    },
+    {
+      "term": "Fiqh",
+      "matchText": "fiqh",
+      "wikiSlug": "Fiqh",
+      "type": "concept"
+    },
+    {
+      "term": "Isnad",
+      "matchText": "isnad",
+      "wikiSlug": "Hadith_terminology",
+      "type": "concept"
+    },
+    {
+      "term": "Abu Hanifa",
+      "matchText": "Abu Hanifa",
+      "wikiSlug": "Abu_Hanifa",
+      "type": "people"
+    },
+    {
+      "term": "Malik ibn Anas",
+      "matchText": "Malik ibn Anas",
+      "wikiSlug": "Malik_ibn_Anas",
+      "type": "people"
+    },
+    {
+      "term": "Dhimmi",
+      "matchText": "dhimmi",
+      "wikiSlug": "Dhimmi",
+      "type": "concept"
+    },
+    {
+      "term": "Jizya",
+      "matchText": "jizya",
+      "wikiSlug": "Jizya",
+      "type": "concept"
+    },
+    {
+      "term": "People of the Book",
+      "matchText": "People of the Book",
+      "wikiSlug": "People_of_the_Book",
+      "type": "concept"
+    }
+  ],
+  "8": [
+    {
+      "term": "Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Abu Muslim",
+      "matchText": "Abu Muslim",
+      "wikiSlug": "Abu_Muslim",
+      "type": "people"
+    },
+    {
+      "term": "Marwan II",
+      "matchText": "Marwan II",
+      "wikiSlug": "Marwan_II",
+      "type": "people"
+    },
+    {
+      "term": "As-Saffah",
+      "matchText": "Abu al-Abbas as-Saffah",
+      "wikiSlug": "As-Saffah",
+      "type": "people"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Al-Mansur",
+      "matchText": "al-Mansur",
+      "wikiSlug": "Al-Mansur",
+      "type": "people"
+    },
+    {
+      "term": "Baghdad",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Barmakids",
+      "matchText": "Barmakids",
+      "wikiSlug": "Barmakids",
+      "type": "concept"
+    },
+    {
+      "term": "Abd al-Rahman I",
+      "matchText": "Abd al-Rahman I",
+      "wikiSlug": "Abd_al-Rahman_I",
+      "type": "people"
+    },
+    {
+      "term": "Cordoba",
+      "matchText": "Córdoba",
+      "wikiSlug": "C%C3%B3rdoba,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Hulagu Khan",
+      "matchText": "Hulagu Khan",
+      "wikiSlug": "Hulagu_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Fatimid Caliphate",
+      "matchText": "Fatimid Caliphate",
+      "wikiSlug": "Fatimid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Persian Literature",
+      "matchText": "Persian poetic tradition",
+      "wikiSlug": "Persian_literature",
+      "type": "concept"
+    }
+  ]
+}

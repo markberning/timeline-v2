@@ -1,0 +1,897 @@
+{
+  "id": "umayyad-caliphate",
+  "label": "Rashidun & Umayyad",
+  "type": "civilization",
+  "region": "middle-east",
+  "source": "curated",
+  "wikiSlug": "Umayyad_Caliphate",
+  "imageWikiSlug": "Dome_of_the_Rock",
+  "pitch": "In a single century (632–750 CE), Islam exploded out of the Arabian desert and built the largest contiguous empire in human history to that point — bigger than Rome at its peak, bigger than Han China at its maximum, stretching from the Atlantic coast of Morocco to the Indus River. The Rashidun Caliphs (Abu Bakr, Umar, Uthman, Ali) ran the lightning conquests that destroyed the Sassanid Persian Empire and stripped Egypt and Syria from the Byzantines. The Umayyad Caliphate (661–750) made Damascus the capital, built the Dome of the Rock, codified the gold dinar, lost the 717–718 Siege of Constantinople (saving Europe), and crashed in the Abbasid Revolution.\n\n🔑 Key Facts:\n• The Battle of Yarmouk (636) and the Battle of al-Qadisiyyah (636) destroyed Roman Syria and Sassanid Iraq within the same year\n• The Dome of the Rock, completed by Abd al-Malik in 691, is the oldest surviving piece of monumental Islamic architecture\n• The Karbala Massacre of 680 — the killing of Muhammad's grandson Husayn — created the Sunni-Shia split that still defines Middle Eastern geopolitics\n• Tariq ibn Ziyad's 711 invasion of Spain destroyed the Visigothic kingdom and put Muslim rulers in Iberia for the next 781 years\n\n🤔 Why It Matters: Every line on the modern map of the Middle East and North Africa traces back to these 118 years. The borders, the religion, the language of administration, the cultural orientation — all set in place by armies that started as desert tribesmen and ended as the rulers of a continent.\n\n🎲 Wild Card: When the Abbasids massacred the Umayyad family in 750, one prince — Abd al-Rahman, twenty years old — swam the Euphrates while archers shot at him from the bank, walked across North Africa for five years, and founded the independent Emirate of Córdoba in Spain. The Umayyad dynasty he restarted there would last another 270 years.",
+  "countryIds": [
+    "682",
+    "818",
+    "760",
+    "364",
+    "368",
+    "729",
+    "504",
+    "788",
+    "012",
+    "434",
+    "434",
+    "724"
+  ],
+  "spans": [
+    {
+      "id": "span-umayyad-caliphate-pre-islamic-arabia",
+      "label": "Pre-Islamic Arabia",
+      "startYear": 500,
+      "endYear": 610,
+      "wikiSlug": "Pre-Islamic_Arabia",
+      "description": "The Arabian Peninsula before Muhammad — Bedouin tribal society, the Quraysh tribe at Mecca, the Kaaba as a polytheistic pilgrimage site, the Hijaz caravan trade between Yemen and the Mediterranean, and Sasanian and Byzantine Arab clients (the Lakhmids and Ghassanids) on the northern frontier."
+    },
+    {
+      "id": "span-umayyad-caliphate-muhammad",
+      "label": "Muhammad's Lifetime",
+      "startYear": 610,
+      "endYear": 632,
+      "wikiSlug": "Muhammad",
+      "description": "Muhammad's revelations begin in 610 at the Hira cave near Mecca; he flees to Medina in 622 (the Hijra, year 1 of the Islamic calendar), wins the Battles of Badr and Uhud, conquers Mecca in 630, and dies in 632 with most of Arabia under Muslim rule."
+    },
+    {
+      "id": "span-umayyad-caliphate-rashidun",
+      "label": "Rashidun Caliphate",
+      "startYear": 632,
+      "endYear": 661,
+      "wikiSlug": "Rashidun_Caliphate",
+      "description": "The four 'rightly-guided' caliphs — Abu Bakr, Umar, Uthman, Ali — chosen by community consensus rather than dynastic succession. In thirty years, the Rashidun armies destroyed the Sassanid Empire, took Syria and Egypt from the Byzantines, codified the Quran, and ended in the civil war (the First Fitna) that killed Ali."
+    },
+    {
+      "id": "span-umayyad-caliphate-umayyad",
+      "label": "Umayyad Caliphate",
+      "startYear": 661,
+      "endYear": 750,
+      "wikiSlug": "Umayyad_Caliphate",
+      "description": "Mu'awiya I founded the first hereditary Islamic dynasty with Damascus as its capital. The Umayyads built the Dome of the Rock, conquered Spain and Sind in 711, failed at the 717–718 Siege of Constantinople, and turned Arab privilege into a structural problem they could not solve."
+    },
+    {
+      "id": "span-umayyad-caliphate-abbasid-revolution",
+      "label": "Abbasid Revolution",
+      "startYear": 747,
+      "endYear": 750,
+      "wikiSlug": "Abbasid_Revolution",
+      "description": "Abu Muslim raised the black banner in Khorasan in 747 on behalf of the Abbasid family. Within three years, the Umayyad army was destroyed at the Battle of the Zab, the last Umayyad caliph was hunted down in Egypt, and the surviving Umayyad princes were massacred at a Damascus banquet — except for Abd al-Rahman, who escaped to Spain."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-quraysh-mecca",
+      "label": "The Quraysh at Mecca",
+      "year": 500,
+      "description": "The Quraysh tribe controlled Mecca and the Kaaba sanctuary by the early sixth century, growing wealthy from the caravan trade between Yemen and the Mediterranean and from pilgrim traffic to the polytheistic shrine. Muhammad was born into the Quraysh's Banu Hashim clan around 570.",
+      "wikiSlug": "Quraysh",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pre-islamic-kaaba",
+      "label": "The Pre-Islamic Kaaba",
+      "year": 550,
+      "description": "Before Islam the Kaaba was a polytheistic sanctuary housing some 360 idols representing the gods of various Arabian tribes. The annual pilgrimage made Mecca the religious as well as the commercial hub of western Arabia, a status Muhammad would inherit and reorient toward monotheism.",
+      "wikiSlug": "Kaaba",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bedouin-society",
+      "label": "Bedouin Tribal Society",
+      "year": 550,
+      "description": "Pre-Islamic Arabia was structured around tribes and clans rather than territorial states, with collective honor, blood-vengeance, and the protection of guests as the dominant social institutions. Muhammad's revelations and the early caliphate had to negotiate with this tribal logic at every step.",
+      "wikiSlug": "Bedouin",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lakhmids-ghassanids",
+      "label": "Lakhmids and Ghassanids",
+      "year": 550,
+      "description": "On Arabia's northern frontier, two Arab buffer kingdoms served the great empires: the Lakhmids at al-Hira served Sasanian Persia, the Ghassanids in Syria served Byzantine Rome. Both were largely Christian, both fell apart in the early seventh century, and both had trained generations of Arab warriors in the warfare of the settled empires they would soon attack.",
+      "wikiSlug": "Lakhmids",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hijaz-trade",
+      "label": "Hijaz Caravan Trade",
+      "year": 570,
+      "description": "The caravan route through the Hijaz — connecting the spice ports of Yemen with the markets of Syria and Mesopotamia — was the economic backbone of pre-Islamic Mecca. The Quraysh organized two great annual caravans, the summer journey to Syria and the winter journey to Yemen, mentioned by name in the Quran.",
+      "wikiSlug": "Incense_trade_route",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muhammad-birth",
+      "label": "Muhammad",
+      "year": 570,
+      "endYear": 632,
+      "description": "Muhammad ibn Abdullah, born around 570 in Mecca to the Banu Hashim clan of the Quraysh, orphaned young and raised by his uncle Abu Talib. He worked as a caravan trader before his first revelation in 610 at the Hira cave, founded a new monotheistic religion, and by his death in 632 had united most of the Arabian Peninsula under Islam.",
+      "wikiSlug": "Muhammad",
+      "tier": 1,
+      "tags": [
+        "people",
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-hira-revelations",
+      "label": "Hira Cave Revelations",
+      "year": 610,
+      "description": "According to Islamic tradition, Muhammad received his first Quranic revelation in 610 in a cave on Mount Hira above Mecca, when the angel Gabriel commanded him to recite. The revelations continued for the next twenty-two years and were eventually compiled as the Quran.",
+      "wikiSlug": "Cave_of_Hira",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hijra-622",
+      "label": "The Hijra",
+      "year": 622,
+      "description": "In 622, facing escalating persecution from the Quraysh leadership in Mecca, Muhammad and his followers emigrated to Yathrib (renamed Medina). The Hijra became year 1 of the Islamic calendar — Islamic timekeeping starts not with Muhammad's birth or his first revelation but with the founding of the first Muslim political community.",
+      "wikiSlug": "Hijrah",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medina-charter",
+      "label": "Constitution of Medina",
+      "year": 622,
+      "description": "Shortly after the Hijra, Muhammad drafted the Constitution of Medina, a treaty among the Muslims, the Jews of Medina, and the existing Arab tribes that established Medina as a political community under Muhammad's arbitration. It is one of the earliest surviving written constitutions and the founding document of the first Islamic state.",
+      "wikiSlug": "Constitution_of_Medina",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-badr",
+      "label": "Battle of Badr",
+      "year": 624,
+      "description": "In 624 a small Muslim force from Medina ambushed a Meccan caravan and defeated the Meccan relief army at Badr in the Hijaz. The victory — outnumbered roughly three to one — was treated by the early community as divine confirmation of Muhammad's mission and the foundational military event of Islam.",
+      "wikiSlug": "Battle_of_Badr",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-uhud",
+      "label": "Battle of Uhud",
+      "year": 625,
+      "description": "The Meccan rematch the year after Badr, fought at Mount Uhud near Medina. The Muslims took heavy casualties — Muhammad himself was wounded — but the Meccans failed to capitalize and withdrew. Uhud is the founding cautionary battle of the Islamic tradition: even the prophet could lose, and discipline mattered.",
+      "wikiSlug": "Battle_of_Uhud",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-mecca",
+      "label": "Conquest of Mecca",
+      "year": 630,
+      "description": "In 630 Muhammad marched on Mecca with an army of 10,000 and entered the city essentially unopposed, the Quraysh leadership having calculated that resistance was hopeless. Muhammad declared a general amnesty, smashed the idols inside the Kaaba, and rededicated the sanctuary to monotheistic worship. Mecca has been Islam's holiest city ever since.",
+      "wikiSlug": "Conquest_of_Mecca",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muhammad-death",
+      "label": "Death of Muhammad",
+      "year": 632,
+      "description": "Muhammad died at Medina in June 632 after a brief illness, leaving no surviving son and no clear instructions for succession. The argument over who should lead the new Muslim community after him produced both the Rashidun caliphate and, eventually, the Sunni-Shia split that has defined Islam ever since.",
+      "wikiSlug": "Death_of_Muhammad",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-abu-bakr",
+      "label": "Abu Bakr",
+      "year": 632,
+      "endYear": 634,
+      "description": "Abu Bakr, Muhammad's father-in-law and one of his earliest followers, was elected the first caliph in 632 and reigned for two years. He held the new community together through the Ridda Wars — the revolts of Arab tribes who tried to leave the Muslim federation after Muhammad's death — and ordered the first systematic collection of Quranic verses.",
+      "wikiSlug": "Abu_Bakr",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ridda-wars",
+      "label": "Ridda Wars",
+      "year": 632,
+      "endYear": 633,
+      "description": "After Muhammad's death, much of Arabia attempted to secede from the Muslim federation, treating allegiance as a personal bond that died with the prophet. Abu Bakr's general Khalid ibn al-Walid crushed the rebellions across central and eastern Arabia in two years, locking the peninsula into the new state.",
+      "wikiSlug": "Ridda_wars",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-umar-caliph",
+      "label": "Umar ibn al-Khattab",
+      "year": 634,
+      "endYear": 644,
+      "description": "Umar, the second caliph, ran the most consequential decade of conquest in Islamic history. Under his rule the Arab armies destroyed the Sassanid Empire, took Syria and Egypt from the Byzantines, and built the administrative scaffolding — the diwan registry, the garrison-city system — that the caliphate would use for centuries. He was assassinated by a Persian slave in 644.",
+      "wikiSlug": "Umar",
+      "tier": 1,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-yarmouk",
+      "label": "Battle of Yarmouk",
+      "year": 636,
+      "description": "In August 636, the Arab commander Khalid ibn al-Walid lured the main Byzantine field army into difficult terrain along the Yarmouk River near the modern Syria-Jordan border and shattered it over six days of fighting. Yarmouk ended Roman power in Syria. Within two years Damascus, Antioch, and Jerusalem had all fallen.",
+      "wikiSlug": "Battle_of_the_Yarmuk",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-qadisiyyah",
+      "label": "Battle of al-Qadisiyyah",
+      "year": 636,
+      "description": "Three months after Yarmouk, an Arab army under Sa'd ibn Abi Waqqas defeated the main Sassanid field force under Rostam Farrokhzad in southern Iraq. The four-day battle ended in a sandstorm-driven Persian rout. Ctesiphon, the Sassanid capital, fell almost immediately afterward, and the Sassanid Empire began the province-by-province collapse that ended at Nihavand in 642.",
+      "wikiSlug": "Battle_of_al-Qadisiyyah",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-jerusalem-637",
+      "label": "Surrender of Jerusalem",
+      "year": 637,
+      "description": "Jerusalem surrendered to Caliph Umar in person in 637 after a brief siege, on terms that protected Christian shrines and allowed Jews to return after the Byzantine ban. The handover was negotiated by Patriarch Sophronius, and Umar's reported insistence on praying outside the Holy Sepulchre rather than inside it (to prevent later conversion to a mosque) is one of the foundational stories of Christian-Muslim coexistence in the city.",
+      "wikiSlug": "Siege_of_Jerusalem_(636%E2%80%93637)",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-egypt",
+      "label": "Arab Conquest of Egypt",
+      "year": 641,
+      "description": "Amr ibn al-As invaded Egypt in 639 with a small force, took the Babylon Fortress at the apex of the Nile delta in 641, and captured Alexandria itself in 642. The Coptic Christian population, exhausted by Byzantine theological persecution, did not resist. Egypt has been an Arabic-speaking Muslim country ever since.",
+      "wikiSlug": "Muslim_conquest_of_Egypt",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nihavand",
+      "label": "Battle of Nihavand",
+      "year": 642,
+      "description": "The Battle of Nihavand in the Zagros passes of western Iran destroyed the last major Sassanid field army and opened the Iranian plateau to Arab conquest. The Arabs called it the 'Victory of Victories.' The last Sassanid king, Yazdegerd III, fled east and was murdered at Merv in 651, ending the Persian Empire.",
+      "wikiSlug": "Battle_of_Nahavand",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-garrison-cities",
+      "label": "Kufa and Basra",
+      "year": 638,
+      "description": "Umar's administration founded the garrison cities of Kufa (in central Iraq) and Basra (near the Persian Gulf) in the late 630s as base camps for the Arab armies, deliberately separated from the existing Iraqi population. Both grew rapidly into major urban centers and became, over the next century, the political fault lines from which every Iraqi rebellion against the caliphate would launch.",
+      "wikiSlug": "Kufa",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-uthman-caliph",
+      "label": "Uthman ibn Affan",
+      "year": 644,
+      "endYear": 656,
+      "description": "Uthman, Muhammad's son-in-law and a member of the Umayyad clan of the Quraysh, was the third caliph. He oversaw the canonical codification of the Quran but was widely accused of nepotism — appointing Umayyad relatives to provincial governorships — and was murdered in his own house in Medina in 656 by rebels from Egypt. His killing began the First Fitna.",
+      "wikiSlug": "Uthman",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-quran-codification",
+      "label": "Uthmanic Quran Codification",
+      "year": 650,
+      "description": "Around 650, Caliph Uthman ordered the production of a single canonical text of the Quran from the surviving manuscripts and oral reciters, then had all variant copies destroyed to prevent doctrinal drift. The Uthmanic codex is the textual basis of every Quran in print today, and the standardization remains one of the most consequential editorial decisions in religious history.",
+      "wikiSlug": "History_of_the_Quran",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-ali-caliph",
+      "label": "Ali ibn Abi Talib",
+      "year": 656,
+      "endYear": 661,
+      "description": "Ali, Muhammad's cousin and son-in-law, became the fourth caliph after Uthman's murder in 656. His five-year reign was consumed by the First Fitna — civil war against Aisha, Talha, and al-Zubayr at the Battle of the Camel, then against Mu'awiya at Siffin. He was assassinated in 661 at the mosque in Kufa. Shia Muslims regard him as the rightful first successor to Muhammad and the First Imam.",
+      "wikiSlug": "Ali",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-first-fitna",
+      "label": "First Fitna",
+      "year": 656,
+      "endYear": 661,
+      "description": "The First Fitna (656–661) was the first Muslim civil war, triggered by Uthman's assassination and fought between Ali's supporters and his rivals. The Battle of the Camel (656), the Battle of Siffin (657), and the breakaway of the Kharijites all happened during the Fitna. It ended with Ali's assassination and Mu'awiya's establishment of the Umayyad Caliphate.",
+      "wikiSlug": "First_Fitna",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-siffin",
+      "label": "Battle of Siffin",
+      "year": 657,
+      "description": "Ali's forces met Mu'awiya's Syrian army at Siffin on the upper Euphrates in 657. After days of inconclusive fighting, Mu'awiya's troops raised Quran pages on their lance tips and called for arbitration; Ali accepted, alienating his more militant supporters who became the Kharijites. The arbitration that followed effectively legitimized Mu'awiya as Ali's equal.",
+      "wikiSlug": "Battle_of_Siffin",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kharijites",
+      "label": "The Kharijites",
+      "year": 657,
+      "description": "The Kharijites were the first sectarian breakaway in Islam, splitting from Ali after he agreed to arbitrate with Mu'awiya at Siffin. They held that any Muslim who committed a major sin had ceased to be a Muslim, and that the caliphate should go to the most pious individual regardless of lineage. A Kharijite assassinated Ali in 661.",
+      "wikiSlug": "Kharijites",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muawiya-founds-umayyad",
+      "label": "Mu'awiya I",
+      "year": 661,
+      "endYear": 680,
+      "description": "Mu'awiya, the Umayyad governor of Syria, founded the Umayyad Caliphate in 661 after Ali's assassination, making Damascus the capital and the caliphate hereditary. He was an able administrator who built the Arab navy, organized the bureaucracy on Byzantine lines, and named his son Yazid as successor — the dynastic move that triggered the Second Fitna and the Karbala crisis.",
+      "wikiSlug": "Muawiya_I",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-damascus-capital",
+      "label": "Damascus as Capital",
+      "year": 661,
+      "description": "Mu'awiya moved the seat of the caliphate from Medina to Damascus in 661, choosing the old Byzantine provincial capital as the working center of his empire. The bureaucratic continuity with Byzantine Syria — Greek-speaking civil servants, existing tax registers, Roman urban infrastructure — let the early Umayyads run their conquered territories without rebuilding the administrative state from scratch.",
+      "wikiSlug": "Damascus",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-karbala",
+      "label": "The Battle of Karbala",
+      "year": 680,
+      "description": "On 10 October 680, an Umayyad force under Yazid I's command surrounded and killed Muhammad's grandson Husayn ibn Ali — the son of Ali and Fatima — along with most of his family at Karbala in southern Iraq. Husayn was decapitated, his body trampled, and his women taken captive to Damascus. The killing made Husayn the central martyr of Shia Islam and is mourned annually on Ashura.",
+      "wikiSlug": "Battle_of_Karbala",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-husayn-ibn-ali",
+      "label": "Husayn ibn Ali",
+      "year": 680,
+      "description": "Husayn ibn Ali, grandson of the Prophet Muhammad and second son of Ali and Fatima, refused to recognize Yazid's caliphate and rode toward Kufa with a small entourage in 680. Trapped at Karbala, he was killed alongside his half-brother Abbas, his nephew Qasim, and most of his male relatives. His tomb at Karbala is one of the holiest pilgrimage sites in Shia Islam.",
+      "wikiSlug": "Husayn_ibn_Ali",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-sunni-shia-formation",
+      "label": "Sunni-Shia Split",
+      "year": 680,
+      "description": "Karbala in 680 crystallized the political division — over who should lead the community after Muhammad — into a permanent religious division. The Sunnis accepted the historical succession of Abu Bakr, Umar, Uthman, and the Umayyads. The Shia (literally 'partisans' of Ali) held that only Ali and his descendants through Husayn were rightful leaders, and that the caliphs and Umayyads were usurpers and martyr-killers.",
+      "wikiSlug": "Sunni%E2%80%93Shia_split",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-second-fitna",
+      "label": "Second Fitna",
+      "year": 680,
+      "endYear": 692,
+      "description": "The Second Fitna (680–692) was the second Muslim civil war, triggered by Husayn's killing and the simultaneous claim to the caliphate by Abdullah ibn al-Zubayr in Mecca. For most of a decade, ibn al-Zubayr ruled from Mecca as a rival caliph until the Umayyad general al-Hajjaj besieged the city, bombarded the Kaaba, and killed ibn al-Zubayr in 692.",
+      "wikiSlug": "Second_Fitna",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abd-al-malik",
+      "label": "Abd al-Malik ibn Marwan",
+      "year": 685,
+      "endYear": 705,
+      "description": "Abd al-Malik (ruled 685–705) was the great organizer of the Umayyad state. He won the Second Fitna, replaced Greek and Pahlavi with Arabic as the language of administration, issued the first purely Islamic gold dinar to replace Byzantine and Sassanid coinage, and built the Dome of the Rock in Jerusalem. The empire that emerged from his reign was recognizably Islamic in a way it had not been before.",
+      "wikiSlug": "Abd_al-Malik_ibn_Marwan",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-arabization-administration",
+      "label": "Arabic Administration",
+      "year": 695,
+      "description": "Around 695, Abd al-Malik decreed that the Umayyad bureaucracy must conduct its business in Arabic rather than the inherited languages of Greek (in Syria and Egypt) and Pahlavi (in Iraq and Iran). The shift took a generation to complete and required training a whole new class of Arabic-literate administrators, but it locked Arabic in as the language of the Middle East from then on.",
+      "wikiSlug": "Arabization",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gold-dinar",
+      "label": "The Gold Dinar",
+      "year": 696,
+      "description": "Abd al-Malik issued the first purely Islamic gold dinar in 696, replacing the Byzantine solidus and Sassanid drachm with coinage that bore Arabic inscriptions and no human images. The dinar standardized the imperial money supply, signaled Umayyad sovereign legitimacy, and would remain the gold currency of the Islamic world for the next four centuries.",
+      "wikiSlug": "Gold_dinar",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-dome-rock",
+      "label": "Dome of the Rock",
+      "year": 691,
+      "description": "Completed by Abd al-Malik in 691, the Dome of the Rock on the Temple Mount in Jerusalem is the oldest surviving piece of monumental Islamic architecture. Its octagonal plan, gilded dome, and Quranic inscriptions running around the inside arcade were a deliberate visual statement that Islam had inherited the holy sites of Judaism and Christianity and would now claim them.",
+      "wikiSlug": "Dome_of_the_Rock",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-great-mosque-damascus",
+      "label": "Great Mosque of Damascus",
+      "year": 715,
+      "description": "Caliph al-Walid I built the Great Mosque of Damascus between 706 and 715 on the site of a former Roman temple of Jupiter, then a Christian basilica of John the Baptist. It is the oldest surviving congregational mosque in the world that retains its original plan, and its mosaics — depicting an idealized paradise of cities and gardens — set the visual template for early Islamic religious architecture.",
+      "wikiSlug": "Umayyad_Mosque",
+      "tier": 1,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-aqsa-mosque",
+      "label": "Al-Aqsa Mosque",
+      "year": 705,
+      "description": "The Al-Aqsa Mosque on the Temple Mount in Jerusalem was completed under al-Walid I around 705, alongside the slightly older Dome of the Rock. Al-Aqsa is the congregational mosque of the Temple Mount complex; the Dome is a shrine over the rock from which Muhammad is said to have ascended on the Night Journey. Together they make Jerusalem the third-holiest city in Islam after Mecca and Medina.",
+      "wikiSlug": "Al-Aqsa_Mosque",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tariq-spain",
+      "label": "Tariq ibn Ziyad and the Conquest of Spain",
+      "year": 711,
+      "description": "In 711, Tariq ibn Ziyad — a Berber commander serving the Umayyad governor of North Africa — crossed the strait between Morocco and Spain with about 7,000 men and destroyed the Visigothic kingdom at the Battle of Guadalete. Within seven years, almost the entire Iberian Peninsula was under Muslim rule. The crossing point, Jabal Tariq ('Tariq's Mountain'), is the modern Gibraltar.",
+      "wikiSlug": "Tariq_ibn_Ziyad",
+      "tier": 1,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-battle-guadalete",
+      "label": "Battle of Guadalete",
+      "year": 711,
+      "description": "Tariq ibn Ziyad's small Berber-Arab army defeated and killed the Visigothic king Roderic at the Battle of Guadalete in southern Spain in July 711. The Visigothic state, weakened by recent succession crises, collapsed almost immediately. Within a single campaigning season, the Muslim forces had taken Toledo, the Visigothic capital.",
+      "wikiSlug": "Battle_of_Guadalete",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-sind-711",
+      "label": "Muhammad ibn al-Qasim in Sind",
+      "year": 711,
+      "description": "In the same year as Tariq's invasion of Spain, the seventeen-year-old Umayyad general Muhammad ibn al-Qasim led an expedition that conquered Sind (the lower Indus Valley, modern southeastern Pakistan), defeating the Hindu raja Dahir at the Battle of Aror. Sind became the easternmost Umayyad province and the first foothold of Islam on the Indian subcontinent.",
+      "wikiSlug": "Muhammad_ibn_al-Qasim",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-qutayba-transoxiana",
+      "label": "Qutayba ibn Muslim in Transoxiana",
+      "year": 712,
+      "description": "Qutayba ibn Muslim, Umayyad governor of Khorasan from 705 to 715, conquered Transoxiana — the region beyond the Oxus River, encompassing modern Uzbekistan, Tajikistan, and parts of Turkmenistan. His campaigns took Bukhara in 709 and Samarkand in 712, beginning the Islamization of Central Asia. He was killed in a mutiny by his own troops in 715.",
+      "wikiSlug": "Qutayba_ibn_Muslim",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-constantinople",
+      "label": "Siege of Constantinople",
+      "year": 717,
+      "endYear": 718,
+      "description": "From August 717 to August 718, Caliph Sulayman's brother Maslama besieged Constantinople with perhaps 80,000 troops and 1,800 ships in the largest pre-modern military operation ever launched against the city. The Theodosian Walls held, the Byzantine secret weapon Greek fire destroyed the Arab fleet, and a brutal winter killed thousands. Of 1,800 ships only five returned. Constantinople would never again face an Arab assault.",
+      "wikiSlug": "Siege_of_Constantinople_(717%E2%80%93718)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-tours",
+      "label": "Battle of Tours",
+      "year": 732,
+      "description": "On 10 October 732, an Umayyad raiding force under Abd al-Rahman al-Ghafiqi was defeated by the Frankish ruler Charles Martel near Tours, in central France. Tours has traditionally been credited with stopping the Arab advance into Europe; the modern view is more cautious — the raid was probably a probe rather than a serious invasion — but the battle did mark the high-water mark of Umayyad expansion into western Europe.",
+      "wikiSlug": "Battle_of_Tours",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mawali-discontent",
+      "label": "Mawali Discontent",
+      "year": 720,
+      "description": "The mawali — non-Arab Muslim converts, especially Persians, who had embraced Islam expecting full social equality — were treated as second-class citizens under Umayyad fiscal practice, paying the same land tax as non-Muslims and excluded from senior offices. Their growing resentment was the structural fault line that the Abbasid revolutionaries would eventually exploit to overthrow the dynasty.",
+      "wikiSlug": "Mawla",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-dhimmi-system",
+      "label": "Dhimmi System",
+      "year": 700,
+      "description": "Under the Umayyads the legal status of non-Muslim 'people of the book' — Christians, Jews, and Zoroastrians — was codified as the dhimmi arrangement: protection of life, property, and worship in exchange for the jizya head tax and acceptance of Muslim political supremacy. The framework was less restrictive than what most non-Christians experienced under contemporary Byzantium and would shape Islamic governance of religious minorities for the next thirteen centuries.",
+      "wikiSlug": "Dhimmi",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-early-hadith",
+      "label": "Early Hadith Collection",
+      "year": 720,
+      "description": "Through the late seventh and early eighth centuries, scholars in Medina, Kufa, and Damascus began systematically collecting the hadith — the reported sayings and actions of the Prophet Muhammad — which would become alongside the Quran the second source of Islamic religious law. The systematic compilations of the great collectors (Bukhari, Muslim) lay still a century in the future, but the source material was being gathered now.",
+      "wikiSlug": "Hadith",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-early-fiqh",
+      "label": "Early Sharia Jurisprudence",
+      "year": 730,
+      "description": "Under the late Umayyads, Islamic jurists in the garrison cities of Kufa and Medina began formalizing the methods by which religious law (sharia) could be derived from the Quran and the hadith. The schools of Abu Hanifa in Iraq and Malik ibn Anas in Medina trace back to this generation, though the four classical Sunni legal schools would not solidify until well after the Abbasid revolution.",
+      "wikiSlug": "Fiqh",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-qadariyya",
+      "label": "Qadariyya, Murji'a, Mu'tazila",
+      "year": 700,
+      "description": "Three theological currents emerged in the Umayyad century. The Qadariyya argued for human free will against the strong-predestinarian Umayyad establishment. The Murji'a deferred judgment on whether sinners were still Muslims (a politically convenient position for the dynasty). The Mu'tazila, emerging late in the period, became the rationalist school that the early Abbasids would briefly impose as state theology.",
+      "wikiSlug": "Qadariyya",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-umar-ii",
+      "label": "Umar II",
+      "year": 717,
+      "endYear": 720,
+      "description": "Umar II, an unusually pious Umayyad caliph, attempted in his three-year reign to fix the mawali discontent by ordering that non-Arab Muslims pay the same lower tax as Arabs and granting tax exemptions to recent converts. The reform was honest, popular among non-Arabs, and gutted Umayyad revenues. His successors quietly reversed it.",
+      "wikiSlug": "Umar_II",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hisham",
+      "label": "Hisham ibn Abd al-Malik",
+      "year": 724,
+      "endYear": 743,
+      "description": "Hisham (ruled 724–743) was the last competent Umayyad caliph, an austere administrator who consolidated the empire's finances and successfully fought defensive wars on multiple frontiers. After his death the dynasty unraveled in four years of succession chaos that gave the Abbasid revolutionaries their opening.",
+      "wikiSlug": "Hisham_ibn_Abd_al-Malik",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-late-umayyad-crisis",
+      "label": "Late Umayyad Fiscal Crisis",
+      "year": 740,
+      "description": "By the 740s the Umayyad state was structurally broken. Tax revenues from a converting population were declining (converts paid lower taxes), the cost of garrisoning the imperial frontiers was rising, the Berbers in North Africa had revolted, the Khorasani settlers were alienated, and the caliphal succession was in chaos. Every contradiction the Umayyads had built into their fiscal-imperial system was coming due at once.",
+      "wikiSlug": "Umayyad_Caliphate",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-abu-muslim",
+      "label": "Abu Muslim and the Khorasan Revolt",
+      "year": 747,
+      "description": "Abu Muslim, an obscure freedman of probably Persian origin, organized the Abbasid revolutionary network from a base in Merv in eastern Iran beginning around 747. He raised the black banner of the Abbasid family — descendants of the Prophet's uncle al-Abbas — and assembled a coalition of mawali, Alid sympathizers, and disgruntled Khorasani settlers that would shortly destroy the Umayyad state.",
+      "wikiSlug": "Abu_Muslim",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-battle-zab",
+      "label": "Battle of the Zab",
+      "year": 750,
+      "description": "On 25 January 750, the Abbasid army from Khorasan defeated the last Umayyad caliph Marwan II at the Great Zab river in northern Iraq. Marwan fled west across Syria and Egypt and was killed in a small Egyptian village a few months later. The Battle of the Zab ended the Umayyad Caliphate as a ruling dynasty.",
+      "wikiSlug": "Battle_of_the_Zab",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-banquet-massacre",
+      "label": "The Damascus Banquet Massacre",
+      "year": 750,
+      "description": "Shortly after the Abbasid victory, the new caliph Abu al-Abbas as-Saffah (literally 'the Bloodletter') invited the surviving Umayyad princes to a banquet at Damascus to negotiate their surrender, then had them all murdered at table. The Abbasids systematically hunted down Umayyad family members across the empire over the following years, even exhuming Umayyad tombs. One prince escaped.",
+      "wikiSlug": "As-Saffah",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abd-al-rahman-spain",
+      "label": "Abd al-Rahman I in Spain",
+      "year": 756,
+      "description": "Abd al-Rahman I, a twenty-year-old Umayyad prince, escaped the 750 massacre by swimming the Euphrates while Abbasid horsemen shot at him from the bank. After five years on the run across North Africa, he reached Spain and in 756 founded the independent Emirate of Córdoba — the Umayyad afterlife in al-Andalus that would last another 270 years.",
+      "wikiSlug": "Abd_al-Rahman_I",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-arab-conquest-overview",
+      "label": "The Arab Conquests",
+      "year": 634,
+      "endYear": 750,
+      "description": "Between 634 and 750, Arab armies built the largest contiguous empire in human history to that point, stretching about 5,000 miles from the Atlantic coast of Morocco to the Indus River. The empire was bigger by territory than Rome at its peak, the Achaemenid Persia of Darius, and Han China at its maximum — the previous record-holder. The conquest was rapid; conversion to Islam took centuries longer.",
+      "wikiSlug": "Early_Muslim_conquests",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medina",
+      "label": "Medina (Yathrib)",
+      "year": 622,
+      "description": "Medina — the city formerly called Yathrib, about 210 miles north of Mecca — was the first Muslim political community after the Hijra in 622. Muhammad arbitrated among its quarreling Arab and Jewish tribes, drafted the Constitution of Medina, and ran the new community from there for the rest of his life. Muhammad's tomb at the Mosque of the Prophet in Medina is the second-holiest site in Sunni Islam.",
+      "wikiSlug": "Medina",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mosque-of-prophet",
+      "label": "Mosque of the Prophet",
+      "year": 622,
+      "description": "Muhammad built the original Mosque of the Prophet at Medina shortly after the Hijra in 622 — a simple courtyard with a colonnaded portico that became the prototype for every congregational mosque thereafter. Muhammad lived in adjoining houses and was buried inside the complex when he died. The mosque has been continuously rebuilt and expanded ever since.",
+      "wikiSlug": "Prophet%27s_Mosque",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-yazid-i",
+      "label": "Yazid I",
+      "year": 680,
+      "endYear": 683,
+      "description": "Yazid I, Mu'awiya's son and the second Umayyad caliph, inherited the throne in 680 over the objections of much of the Muslim community. His three-year reign saw the killing of Husayn at Karbala, the start of the Second Fitna, and the bombardment of Mecca itself by his troops. He died in 683 with his caliphate already collapsing.",
+      "wikiSlug": "Yazid_I",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-twelver-imamate",
+      "label": "The Imamate Lineage",
+      "year": 700,
+      "description": "Out of the Karbala-shaped Shia community, two main lineages of imams developed during the Umayyad century. Twelver Shia — the largest branch today — count twelve imams from Ali through to the Twelfth Imam who went into occultation in 874. Ismaili Shia split off after the Sixth Imam Ja'far al-Sadiq (died 765), recognizing his elder son Isma'il rather than the line that produced the Twelfth.",
+      "wikiSlug": "Imamah_(Shia_doctrine)",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ali-first-imam",
+      "label": "Ali as First Imam",
+      "year": 661,
+      "description": "After the Karbala-driven crystallization of the Shia tradition, Ali ibn Abi Talib was retrospectively understood as the First Imam — not merely a caliph who had been bypassed by the others, but the divinely designated spiritual successor to Muhammad. The Imamate doctrine made the lineage of religious authority pass through Ali's bloodline rather than through community consensus.",
+      "wikiSlug": "Ali",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ashura",
+      "label": "Ashura Mourning",
+      "year": 680,
+      "description": "Ashura — the tenth day of the month of Muharram — became the central commemoration of Shia Islam after Husayn's killing in 680, observed annually with public processions, reenactments, and ritual mourning. The first organized Ashura observances developed within a generation of Karbala and have continued for thirteen centuries, most visibly today in Iran, Iraq, Lebanon, and Bahrain.",
+      "wikiSlug": "Day_of_Ashura",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-arab-navy",
+      "label": "The Arab Navy",
+      "year": 650,
+      "description": "Mu'awiya, while still governor of Syria, built the first Arab navy in the 640s and 650s using Egyptian and Syrian shipwrights and Coptic crews. The navy defeated the Byzantines at the Battle of the Masts in 655 and made the Mediterranean an Arab-contested sea for the first time. Without it, Spain in 711 and the siege of Constantinople in 717 would not have been possible.",
+      "wikiSlug": "Battle_of_the_Masts",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-rashidun-administration",
+      "label": "The Diwan System",
+      "year": 638,
+      "description": "Caliph Umar created the diwan — a registry of Arab Muslim warriors entitled to a share of the conquest revenues — around 638, formalizing the army's relationship to the state and codifying Arab privilege over the conquered population. The system worked while conquests kept producing new revenue; it broke when the conquests slowed and the converting population started demanding equal status.",
+      "wikiSlug": "Diwan_(Caliphate_office)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jizya-tax",
+      "label": "Jizya and Kharaj",
+      "year": 640,
+      "description": "Two taxes structured the Umayyad fiscal system. The jizya was a head tax paid by adult non-Muslim men in exchange for the dhimmi protection. The kharaj was a land tax originally tied to the religion of the cultivator. The system worked until non-Arabs started converting in numbers, at which point the religious-fiscal categories collapsed under their own contradictions.",
+      "wikiSlug": "Jizya",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-conquest-north-africa",
+      "label": "Conquest of North Africa",
+      "year": 670,
+      "description": "Arab armies pushed across North Africa in stages from the 640s to the 700s. Uqba ibn Nafi founded the new garrison city of Kairouan in modern Tunisia around 670. Carthage fell in 698. The Berber populations of the Maghreb fought back longer than anyone in the east — the most famous resistance leader was the warrior-queen Kahina, killed around 703 — but by 711 the entire North African coast was Umayyad territory and the launching pad for the conquest of Spain.",
+      "wikiSlug": "Muslim_conquest_of_the_Maghreb",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kairouan",
+      "label": "Kairouan",
+      "year": 670,
+      "description": "Uqba ibn Nafi founded Kairouan in modern Tunisia around 670 as the first major Arab garrison city in North Africa. The Great Mosque of Kairouan, established the same year and rebuilt many times, became the prototype North African mosque and Kairouan itself the religious capital of the Maghreb.",
+      "wikiSlug": "Kairouan",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-aisha",
+      "label": "Aisha bint Abi Bakr",
+      "year": 656,
+      "description": "Aisha, Muhammad's youngest wife and the daughter of Caliph Abu Bakr, became one of the major figures of the early Muslim community. After her husband's death she became a leading transmitter of hadith and a political player in her own right — opposing Ali at the Battle of the Camel in 656 and providing one of the foundational disagreements that set Sunni and Shia interpretive traditions on different paths.",
+      "wikiSlug": "Aisha",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-fatima",
+      "label": "Fatima al-Zahra",
+      "year": 632,
+      "description": "Fatima, Muhammad's daughter by Khadija and the wife of Ali, is one of the most venerated figures in Islam — especially in Shia tradition, where she is the matriarch of the imamate lineage that runs through her sons Hasan and Husayn. She died young, within months of her father, after a dispute with Abu Bakr over property rights that the Shia tradition treats as the first injustice of the post-Muhammad community.",
+      "wikiSlug": "Fatima",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-khadija",
+      "label": "Khadija bint Khuwaylid",
+      "year": 595,
+      "description": "Khadija, a wealthy Meccan widow and merchant, employed Muhammad as a caravan agent and proposed marriage to him around 595, when he was twenty-five and she was somewhere in her thirties or forties. She was the first person to accept Muhammad's revelations and the financial and emotional anchor of his early career. After her death in 619 — the 'Year of Sorrow' — Muhammad married multiple other wives.",
+      "wikiSlug": "Khadija_bint_Khuwaylid",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-zubaydah-pre-islamic",
+      "label": "The Year of the Elephant",
+      "year": 570,
+      "description": "Pre-Islamic Arab tradition records that around 570 — the year Muhammad was born — the Christian Aksumite governor of Yemen, Abraha, marched on Mecca with an army that included a war elephant, intending to destroy the Kaaba. The expedition collapsed. The Quran's Chapter 105 ('The Elephant') describes God scattering the army with flocks of birds dropping baked-clay missiles. Modern historians debate whether the campaign happened in the form described.",
+      "wikiSlug": "Year_of_the_Elephant",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-arabic-science-translation",
+      "label": "Early Translation Activity",
+      "year": 700,
+      "description": "Under the late Umayyads, the first translations of Greek, Persian, and Indian scientific and medical texts into Arabic began — typically by Christian or Jewish scholars working from Pahlavi or Syriac intermediaries. Khalid ibn Yazid, an Umayyad prince of the late seventh century, sponsored some of the earliest alchemy and medical translations. The systematic translation movement that would explode in Abbasid Baghdad had its quiet beginnings here.",
+      "wikiSlug": "Graeco-Arabic_translation_movement",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-arabic-script-vowels",
+      "label": "Arabic Script Reform",
+      "year": 705,
+      "description": "Under Abd al-Malik and al-Hajjaj, the Arabic script was reformed with the addition of dots to distinguish similar-looking consonants and short-vowel marks to fix pronunciation — innovations driven by the practical need to standardize the Quranic text after the Uthmanic codification. The reformed script remains the basis of modern Arabic.",
+      "wikiSlug": "Arabic_script",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mecca",
+      "label": "Mecca",
+      "year": 600,
+      "description": "Mecca, in the Hijaz region of western Arabia, was a caravan trading hub and the religious center of pre-Islamic Arabia thanks to the Kaaba. Muhammad was born there around 570 and conquered it in 630. After 630 it became Islam's holiest city — the qibla every Muslim faces in prayer and the destination of the annual hajj pilgrimage.",
+      "wikiSlug": "Mecca",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    }
+  ],
+  "chains": [],
+  "decisions": [],
+  "concepts": [],
+  "people": [],
+  "links": []
+}

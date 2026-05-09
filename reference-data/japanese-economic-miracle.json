@@ -1,0 +1,1071 @@
+{
+  "id": "japanese-economic-miracle",
+  "label": "Japanese Economic Miracle",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Japanese_economic_miracle",
+  "imageWikiSlug": "Tokyo_Tower",
+  "pitch": "Postwar Japan (1945–1991) reinvented itself from atomic rubble into the world's second-largest economy in roughly thirty years, then watched it all freeze in a deflationary haze for thirty more.\n\n🔑 Key Facts:\n• The Yoshida Doctrine traded military autonomy for the American security umbrella, freeing Japan to focus all resources on economic growth\n• Ikeda Hayato's Income Doubling Plan promised to double national income in ten years — Japan did it in seven\n• The Toyota Production System reinvented global manufacturing with just-in-time logistics and kaizen continuous improvement\n• At the 1989 bubble peak, the Tokyo Imperial Palace grounds were theoretically worth more than all the real estate in California\n\n🤔 Why It Matters: Japan proved that a defeated, occupied, atomic-bombed country could rebuild into an economic superpower in a single generation, and the developmentalist state model — a strong industrial ministry, lifetime employment, keiretsu networks, mass higher education — became the template every late-twentieth-century Asian miracle would copy.\n\n🎲 Wild Card: At the height of the bubble, Mitsubishi Estate paid $846 million for Rockefeller Center and a Tokyo speculator paid $82 million for a Van Gogh — peak symbolic moments of the only era when the world genuinely believed Japan was about to overtake the United States economically.",
+  "countryIds": [
+    "392"
+  ],
+  "spans": [
+    {
+      "id": "span-jem-occupation",
+      "label": "Allied Occupation",
+      "startYear": 1945,
+      "endYear": 1952,
+      "wikiSlug": "Occupation_of_Japan",
+      "description": "Under General MacArthur and the SCAP authority, Japan was demilitarized and democratized: a new constitution renouncing war, sweeping land reform, the dissolution of the zaibatsu, women's suffrage, and the Tokyo war crimes trials. The Korean War procurement boom ended the postwar slump and launched the recovery."
+    },
+    {
+      "id": "span-jem-yoshida-doctrine",
+      "label": "Yoshida Doctrine and 1955 System",
+      "startYear": 1952,
+      "endYear": 1960,
+      "wikiSlug": "Yoshida_Doctrine",
+      "description": "Prime Minister Yoshida Shigeru's strategy of minimal rearmament and total economic focus, combined with the LDP's emergence as the dominant party in 1955, set the political and strategic frame for the high-growth era. The 1960 Anpo crisis tested and confirmed the bargain."
+    },
+    {
+      "id": "span-jem-high-growth",
+      "label": "High-Growth Era",
+      "startYear": 1960,
+      "endYear": 1973,
+      "wikiSlug": "Japanese_economic_miracle",
+      "description": "Average annual GDP growth of nearly 10% under MITI's industrial guidance, the keiretsu system, the Toyota Production System, and the salaryman labor model. The 1964 Tokyo Olympics, the Shinkansen, and Expo '70 in Osaka announced the new Japan to the world."
+    },
+    {
+      "id": "span-jem-stable-growth",
+      "label": "Stable Growth and Trade Friction",
+      "startYear": 1973,
+      "endYear": 1985,
+      "wikiSlug": "Economy_of_Japan",
+      "description": "The 1973 oil shock ended the high-growth miracle but Japan adapted faster than any other industrial country, shifting toward energy efficiency and high-value-added exports. The country became 'Japan as Number One,' Toyota and Sony and Honda conquered global markets, and trade friction with the United States grew bitter."
+    },
+    {
+      "id": "span-jem-bubble",
+      "label": "The Bubble Years",
+      "startYear": 1985,
+      "endYear": 1991,
+      "wikiSlug": "Japanese_asset_price_bubble",
+      "description": "The 1985 Plaza Accord pushed the yen up sharply; the Bank of Japan cut interest rates to support exporters; the resulting flood of cheap credit fueled the largest asset bubble in postwar history. The Nikkei peaked at 38,957 in December 1989; the bubble's collapse over 1990–91 ended the miracle."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-jem-surrender",
+      "label": "Japan Surrenders",
+      "year": 1945,
+      "description": "Following the atomic bombings of Hiroshima (August 6) and Nagasaki (August 9) and the Soviet declaration of war, Emperor Hirohito broadcast the surrender speech on August 15, 1945 — the first time most Japanese had ever heard his voice. The formal surrender was signed aboard the USS Missouri in Tokyo Bay on September 2.",
+      "wikiSlug": "Surrender_of_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jem-macarthur-scap",
+      "label": "MacArthur and SCAP",
+      "year": 1945,
+      "endYear": 1951,
+      "description": "General Douglas MacArthur arrived at Atsugi airfield on August 30, 1945 as Supreme Commander for the Allied Powers (SCAP). He governed Japan effectively as a viceroy for nearly six years, retaining the emperor as a constitutional figurehead and using imperial authority to legitimize sweeping reforms — until President Truman fired him in April 1951 over Korean War policy disagreements.",
+      "wikiSlug": "Douglas_MacArthur",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-tokyo-trials",
+      "label": "Tokyo War Crimes Trials",
+      "year": 1946,
+      "endYear": 1948,
+      "description": "The International Military Tribunal for the Far East tried 28 senior Japanese leaders for crimes against peace, war crimes, and crimes against humanity. Seven defendants — including former Prime Minister Tojo Hideki — were sentenced to death and hanged in December 1948. Emperor Hirohito was deliberately not indicted, on MacArthur's judgment that prosecuting the emperor would make the occupation unworkable.",
+      "wikiSlug": "International_Military_Tribunal_for_the_Far_East",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-emperor-humanity",
+      "label": "Emperor's Humanity Declaration",
+      "year": 1946,
+      "description": "On New Year's Day 1946, Emperor Hirohito issued the Ningen Sengen ('Humanity Declaration'), explicitly renouncing the doctrine that the emperor was a living god (akitsumikami). The declaration was drafted in close consultation with SCAP and was central to the strategy of using the emperor as a constitutional figurehead while stripping him of any divine status that could legitimize a return to militarism.",
+      "wikiSlug": "Humanity_Declaration",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-jem-constitution",
+      "label": "1947 Constitution and Article 9",
+      "year": 1947,
+      "description": "Japan's new constitution, drafted in roughly a week by SCAP staff under Brigadier General Courtney Whitney in February 1946 and promulgated on November 3, 1946 to take effect May 3, 1947, established parliamentary democracy and a ceremonial emperor. Article 9 — the renunciation of war and of the maintenance of land, sea, and air forces — has never been amended and remains the constitutional foundation of postwar Japanese pacifism.",
+      "wikiSlug": "Constitution_of_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jem-article-9",
+      "label": "Article 9",
+      "year": 1947,
+      "description": "Article 9 of the 1947 constitution renounces war as a sovereign right of the nation and prohibits the maintenance of 'land, sea, and air forces, as well as other war potential.' It remains the only such clause in any major national constitution. Subsequent governments developed the Self-Defense Forces under the legal fiction that purely defensive forces are constitutional, but the article has never been amended despite repeated LDP attempts.",
+      "wikiSlug": "Article_9_of_the_Japanese_Constitution",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jem-land-reform",
+      "label": "Land Reform",
+      "year": 1947,
+      "endYear": 1949,
+      "description": "SCAP's land reform program forced absentee landlords to sell tenant-farmed land to the government at fixed prices, which then resold it to the tenants on long-term low-interest credit. Roughly 90% of Japanese tenant farmers became owner-occupiers within two years. The reform broke the rural landlord class, eliminated a key prewar conservative power base, and built a generation of small-farmer support for the LDP.",
+      "wikiSlug": "Land_reform_in_Japan",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-zaibatsu-dissolution",
+      "label": "Zaibatsu Dissolution",
+      "year": 1947,
+      "description": "SCAP ordered the breakup of the four great zaibatsu — Mitsui, Mitsubishi, Sumitomo, Yasuda — that had dominated the wartime economy. Holding companies were dissolved, founding families stripped of controlling stakes, and antitrust laws enacted. The dissolution was incomplete — by the early 1950s the same firms were reorganizing as horizontally federated keiretsu networks — but the family-controlled industrial dynasties of the prewar era never returned.",
+      "wikiSlug": "Zaibatsu",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-womens-suffrage",
+      "label": "Women's Suffrage",
+      "year": 1946,
+      "description": "Japanese women voted for the first time in the April 1946 general election, and 39 women were elected to the Diet — a higher percentage than would be reached again for over fifty years. Women's suffrage had been demanded by Japanese feminists since the 1920s; SCAP made it one of the earliest occupation reforms, and the right was enshrined in the 1947 constitution.",
+      "wikiSlug": "Women%27s_suffrage_in_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-dodge-line",
+      "label": "Dodge Line",
+      "year": 1949,
+      "description": "Detroit banker Joseph Dodge, sent by the Truman administration to stabilize Japan's hyperinflation, imposed an austerity program in early 1949: balanced budget, end of subsidies for state industries, and a single fixed exchange rate of 360 yen to the dollar. The shock crushed inflation and produced a brief recession, but the 360-yen rate undervalued the yen for the next twenty-two years and was the single most important policy supporting Japan's export-led growth.",
+      "wikiSlug": "Dodge_Line",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-korean-war-boom",
+      "label": "Korean War Procurement Boom",
+      "year": 1950,
+      "endYear": 1953,
+      "description": "The Korean War turned Japan into the United Nations command's primary supply base, generating roughly $2.3 billion in special procurement orders (tokuju) for trucks, ammunition, uniforms, repaired equipment, and services. Industrial production doubled between 1949 and 1951; the textile and engineering sectors were rebuilt at American expense. Yoshida Shigeru reportedly called the war 'a gift from the gods.'",
+      "wikiSlug": "Korean_War",
+      "tier": 1,
+      "tags": [
+        "wars"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-san-francisco-treaty",
+      "label": "Treaty of San Francisco",
+      "year": 1951,
+      "description": "Signed September 8, 1951 and effective April 28, 1952, the Treaty of San Francisco formally ended the war and the occupation, restoring Japanese sovereignty. The Soviet Union and the People's Republic of China were not signatories, leaving territorial disputes (Northern Territories, Senkaku, Takeshima) unresolved. Signed the same day, the U.S.-Japan Security Treaty bound Japan to a permanent American military alliance.",
+      "wikiSlug": "Treaty_of_San_Francisco",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-anpo-treaty",
+      "label": "U.S.-Japan Security Treaty",
+      "year": 1951,
+      "description": "The U.S.-Japan Security Treaty (Anpo) signed September 8, 1951 permitted American forces to remain in Japan indefinitely after the occupation ended, in exchange for an American defense commitment. Revised in 1960 over massive popular protest, it has remained the cornerstone of Japanese defense policy for over seventy years. American bases on Okinawa — under U.S. administration until 1972 — were the most controversial element and remain politically sensitive.",
+      "wikiSlug": "Treaty_of_Mutual_Cooperation_and_Security_Between_the_United_States_and_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jem-yoshida-shigeru",
+      "label": "Yoshida Shigeru",
+      "year": 1948,
+      "endYear": 1954,
+      "description": "Yoshida Shigeru (1878–1967), career diplomat and prewar liberal who had been imprisoned briefly by the wartime military police, served as prime minister 1946–47 and 1948–54. The architect of the Yoshida Doctrine — minimum rearmament, the American alliance as security umbrella, full economic focus — he set the strategic frame that defined Japanese policy for the next forty years. His grandson Aso Taro would become prime minister in 2008.",
+      "wikiSlug": "Shigeru_Yoshida",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-yoshida-doctrine",
+      "label": "Yoshida Doctrine",
+      "year": 1951,
+      "description": "Yoshida's strategic doctrine: minimum rearmament, the American alliance as security umbrella, all national resources directed at economic growth. The deal was simple — Japan accepted permanent American military presence and constitutional pacifism in exchange for unfettered access to American markets, technology, and security guarantees. The doctrine guided Japanese foreign policy from 1951 through the end of the Cold War.",
+      "wikiSlug": "Yoshida_Doctrine",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-self-defense-forces",
+      "label": "Self-Defense Forces Established",
+      "year": 1954,
+      "description": "The National Police Reserve created at MacArthur's order in 1950 (when American troops were deployed to Korea) was reorganized as the National Safety Force in 1952 and as the Japan Self-Defense Forces (JSDF) in July 1954. The JSDF was constructed under the legal fiction that purely defensive forces did not violate Article 9, with strict prohibitions on overseas deployment and on offensive weapons systems. The fiction has been steadily relaxed since.",
+      "wikiSlug": "Japan_Self-Defense_Forces",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jem-1955-system",
+      "label": "1955 System",
+      "year": 1955,
+      "description": "In November 1955 the Liberal Party and the Democratic Party merged into the Liberal Democratic Party (LDP), creating the dominant party that would govern Japan for thirty-eight consecutive years. The Japan Socialist Party reunified at the same time as the principal opposition. The 'one-and-a-half party system' that resulted gave Japan extraordinary political stability — and froze policy debates inside LDP factional politics rather than between parties.",
+      "wikiSlug": "1955_System",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-ldp",
+      "label": "Liberal Democratic Party",
+      "year": 1955,
+      "description": "The Liberal Democratic Party (Jiminto), the conservative big-tent party formed by the November 1955 merger, has held power continuously except for two brief intervals (1993–94 and 2009–12). LDP factions, organized around senior politicians and money flows, have functioned as the actual operating units of Japanese politics — premiership rotation among faction leaders, policy distribution through faction networks, scandal cycles within faction structures.",
+      "wikiSlug": "Liberal_Democratic_Party_(Japan)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-anpo-protests",
+      "label": "1960 Anpo Protests",
+      "year": 1960,
+      "description": "The 1960 revision of the U.S.-Japan Security Treaty triggered the largest mass protests in Japanese history: roughly 30 million Japanese signed petitions, hundreds of thousands surrounded the Diet, and a Tokyo University student named Kanba Michiko was crushed to death in clashes on June 15. Prime Minister Eisenhower's planned visit was cancelled. Prime Minister Kishi Nobusuke pushed the treaty through and resigned a month later. The crisis settled the basic shape of Japanese politics: the LDP would govern, but the alliance would not be expanded into open rearmament.",
+      "wikiSlug": "Anpo_protests",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jem-miti",
+      "label": "MITI",
+      "year": 1949,
+      "description": "The Ministry of International Trade and Industry, created in 1949 from the wartime Munitions Ministry, became the institutional brain of Japanese industrial policy. Through low-interest loans from the Japan Development Bank, foreign-currency licensing, technology import approvals, and informal 'administrative guidance,' MITI directed investment into target industries — steel and shipbuilding in the 1950s, autos and electronics in the 1960s, semiconductors in the 1970s. Renamed METI in 2001.",
+      "wikiSlug": "Ministry_of_International_Trade_and_Industry",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-keiretsu",
+      "label": "Keiretsu System",
+      "year": 1952,
+      "description": "The keiretsu networks that emerged after the zaibatsu dissolution were horizontally federated industrial groups — Mitsubishi, Mitsui, Sumitomo, Fuyo, Sanwa, Daiichi-Kangyo — each centered on a main bank, a general trading company, and dozens of manufacturing affiliates linked by cross-shareholdings. Vertical keiretsu (Toyota, Matsushita) organized supplier pyramids around an assembling firm. Both forms made hostile takeovers nearly impossible and tied Japanese banks to long-term industrial commitment.",
+      "wikiSlug": "Keiretsu",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-deming-prize",
+      "label": "Deming Prize",
+      "year": 1951,
+      "description": "The Deming Prize, established by the Japanese Union of Scientists and Engineers in 1951, honored W. Edwards Deming, the American statistician whose lectures on statistical quality control transformed Japanese manufacturing. Deming's methods — sampling-based quality assessment, continuous improvement, worker involvement in quality decisions — were adopted at Toyota, Nippon Steel, and Sony. The kaizen ('continuous improvement') culture that became Japan's manufacturing signature traces directly to the Deming-trained generation of the 1950s.",
+      "wikiSlug": "Deming_Prize",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-toyota-production",
+      "label": "Toyota Production System",
+      "year": 1955,
+      "description": "The Toyota Production System (TPS), developed primarily by engineer Ohno Taiichi at Toyota Motor between the late 1940s and the 1970s, combined just-in-time inventory (parts arrive exactly when needed), jidoka (any worker can stop the line for a defect), and kaizen (continuous improvement by frontline workers). It enabled Toyota to produce a high-quality vehicle with one-third the labor hours of American manufacturers. By 2000 it was the global standard for industrial manufacturing.",
+      "wikiSlug": "Toyota_Production_System",
+      "tier": 1,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-sony-transistor",
+      "label": "Sony Transistor Radio",
+      "year": 1955,
+      "description": "Sony (then still called Tokyo Tsushin Kogyo) released the TR-55 in 1955, Japan's first commercial transistor radio. Founders Ibuka Masaru and Morita Akio had licensed the transistor patent from Bell Labs in 1953 for $25,000. The pocket-sized transistor radio was the first Japanese consumer product to win mass acceptance in the American market, and it established the formula — license a foreign technology, miniaturize and improve it, undercut on price, win the global market — that would define Japanese consumer electronics for the next forty years.",
+      "wikiSlug": "Sony_TR-55",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-sony-walkman",
+      "label": "Sony Walkman",
+      "year": 1979,
+      "description": "The Sony Walkman TPS-L2, released in July 1979, was a portable cassette player with no recording capability — a deliberately simplified product that Sony executives initially feared would not sell. It sold over 200 million units across all variants, transformed how people listened to music, and gave Japan its first defining consumer-electronics icon. The Walkman model — a focused single-purpose portable device — was the direct ancestor of the iPod twenty-two years later.",
+      "wikiSlug": "Walkman",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-honda-motor",
+      "label": "Honda Motor",
+      "year": 1948,
+      "description": "Honda Motor Company was founded in October 1948 by Honda Soichiro, a self-taught engineer from rural Shizuoka who had bolted small surplus army engines onto bicycles to make Japan's first motorized two-wheelers. Honda became the world's largest motorcycle maker by 1959 and entered automobile production in 1963. The 1972 Honda Civic, designed for the U.S. market with low fuel consumption, was the breakthrough that established Japanese automakers as serious competitors in the American auto market.",
+      "wikiSlug": "Honda",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-honda-civic",
+      "label": "Honda Civic",
+      "year": 1972,
+      "description": "The first-generation Honda Civic, released in July 1972, was a small, fuel-efficient front-wheel-drive subcompact that arrived in the U.S. market just before the 1973 oil shock. American consumers, abruptly facing gas lines and quadrupled fuel prices, embraced the Civic and the Toyota Corolla as fuel-efficient alternatives to American big cars. By 1980, Japanese automakers held over 20% of the U.S. market and Detroit was in structural crisis.",
+      "wikiSlug": "Honda_Civic",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-soichiro-honda",
+      "label": "Honda Soichiro",
+      "year": 1973,
+      "description": "Honda Soichiro (1906–1991) founded Honda Motor in 1948 and stepped down as president in October 1973, refusing to follow the Japanese custom of allowing his son to inherit the company. Famous for hands-on engineering, public eccentricity, and contempt for bureaucratic ceremony, he was the prototype of the postwar maverick founder — alongside Sony's Morita Akio, the public face of Japanese industrial creativity to the outside world.",
+      "wikiSlug": "Soichiro_Honda",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-morita-akio",
+      "label": "Morita Akio",
+      "year": 1955,
+      "description": "Morita Akio (1921–1999), co-founder of Sony with the engineer Ibuka Masaru, was Sony's chief executive and the public face of Japanese consumer electronics in the United States. He moved his family to New York in 1963 to internationalize the company, championed the Walkman concept against internal opposition, and co-authored the 1989 polemic 'The Japan That Can Say No' with right-wing politician Ishihara Shintaro — a book that fueled American fears about Japanese economic power.",
+      "wikiSlug": "Akio_Morita",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-ikeda-hayato",
+      "label": "Ikeda Hayato",
+      "year": 1960,
+      "endYear": 1964,
+      "description": "Ikeda Hayato (1899–1965), Yoshida's protégé and Finance Minister 1949–52, became prime minister in July 1960 immediately after the Anpo crisis. He deliberately shifted political attention from divisive security debates to economic growth, launching the Income Doubling Plan in December 1960. His policy of 'low posture' — economic focus, ideological avoidance, salaryman appeal — defined LDP politics for a generation. He died of cancer in 1965, less than a year after retiring.",
+      "wikiSlug": "Hayato_Ikeda",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-income-doubling-plan",
+      "label": "Income Doubling Plan",
+      "year": 1960,
+      "description": "Announced by Ikeda Hayato in December 1960, the Income Doubling Plan (Shotoku Baizou Keikaku) committed the government to doubling per-capita real income within ten years through targeted infrastructure investment, education spending, and growth-friendly fiscal policy. National income actually doubled in seven years rather than ten. The plan's psychological impact may have been larger than its policy content — it announced that economic growth, not security or constitutional revision, was now the central project of the Japanese state.",
+      "wikiSlug": "Income_Doubling_Plan",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-tokyo-olympics",
+      "label": "1964 Tokyo Olympics",
+      "year": 1964,
+      "description": "The 1964 Summer Olympics opened in Tokyo on October 10, 1964 — the first Olympics held in Asia. The opening ceremony featured nineteen-year-old Sakai Yoshinori, born in Hiroshima on the day of the atomic bombing, lighting the Olympic flame as a symbol of postwar rebirth. The games were Japan's reintroduction to the international community, watched globally on the new medium of color television, and timed to coincide with the inauguration of the Tokaido Shinkansen.",
+      "wikiSlug": "1964_Summer_Olympics",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jem-shinkansen",
+      "label": "Tokaido Shinkansen",
+      "year": 1964,
+      "description": "The Tokaido Shinkansen between Tokyo and Osaka opened on October 1, 1964, nine days before the Olympics. The 320-mile line covered the journey at speeds up to 130 mph, cutting travel time from six hours to four. It was the world's first high-speed rail line and became the global model for high-speed rail; the Shinkansen network has carried over 10 billion passengers without a single fatal accident from train collision or derailment in sixty years of operation.",
+      "wikiSlug": "Shinkansen",
+      "tier": 1,
+      "tags": [
+        "architecture"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-tokyo-tower",
+      "label": "Tokyo Tower",
+      "year": 1958,
+      "description": "Tokyo Tower, completed in December 1958, is a 333-meter (1,092-foot) red-and-white lattice tower in central Tokyo modeled on the Eiffel Tower but thirteen meters taller. Designed as a broadcast antenna for the new television networks, it was the tallest free-standing structure in the world for less than a year (until the Tokyo Verandah Tower in 1959) and became the visual symbol of Tokyo's postwar recovery, much as the Eiffel Tower symbolized Belle Époque Paris.",
+      "wikiSlug": "Tokyo_Tower",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jem-expo-70",
+      "label": "Expo '70 Osaka",
+      "year": 1970,
+      "description": "Expo '70 in Osaka, the first World's Fair held in Asia, ran from March to September 1970 with the theme 'Progress and Harmony for Mankind.' Some 64.2 million visitors attended — more than half the population of Japan. The Tower of the Sun by sculptor Okamoto Taro became the lasting visual icon of the fair. Expo '70 was the symbolic terminus of the high-growth era: by 1973 the oil shock would end the era it celebrated.",
+      "wikiSlug": "Expo_%2770",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jem-tange-kenzo",
+      "label": "Tange Kenzo and Metabolism",
+      "year": 1960,
+      "description": "Tange Kenzo (1913–2005), Japan's most influential postwar architect, designed the Hiroshima Peace Memorial (1955), the Yoyogi National Gymnasium for the 1964 Olympics, and the master plan for Expo '70. He was the founding patron of the Metabolist movement (Kurokawa Kisho, Kikutake Kiyonori, Maki Fumihiko), which envisioned architecture as growable, adaptable, and modular — capsules, megastructures, floating cities. Metabolism was the most internationally recognized Japanese architectural movement of the twentieth century.",
+      "wikiSlug": "Kenzo_Tange",
+      "tier": 3,
+      "tags": [
+        "architecture"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-metabolism",
+      "label": "Metabolist Architecture",
+      "year": 1960,
+      "description": "The Metabolist movement, launched at the 1960 World Design Conference in Tokyo, proposed an architecture of biological growth — buildings as cellular structures that could expand, replace damaged parts, and adapt over time. Iconic projects included Kurokawa Kisho's 1972 Nakagin Capsule Tower in Ginza (140 stackable bedroom capsules; demolished 2022), Kikutake's Sky House, and Tange's Yamanashi Press and Broadcasting Center. The movement faded after the oil shock but its influence on later parametric and modular architecture is direct.",
+      "wikiSlug": "Metabolism_(architecture)",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jem-salaryman",
+      "label": "The Salaryman System",
+      "year": 1960,
+      "description": "The salaryman (sarariman) labor model — lifetime employment with a single firm, seniority-based pay, enterprise unions, and total identification of personal and corporate interest — became the dominant white-collar employment pattern in postwar Japan. Combined with the housewife (sengyo shufu) at home managing finances and child-rearing, it produced a gendered division of labor that supported the high-growth-era productivity surge while imposing severe costs on women's careers and on the salarymen themselves through karoshi (death from overwork).",
+      "wikiSlug": "Salaryman",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-juku-system",
+      "label": "Education Hell and Juku",
+      "year": 1965,
+      "description": "Postwar Japan's mass higher-education system funneled hierarchically from elementary school through cram schools (juku) into a tiered exam-defined university system, with admission to a top university (Tokyo, Kyoto, Hitotsubashi, Keio, Waseda) effectively determining lifetime career options. Juken jigoku ('examination hell') — the year of total exam preparation before university entrance — became a defining feature of Japanese adolescence. The juku industry by the 1980s was a several-billion-dollar private market parallel to the public school system.",
+      "wikiSlug": "Juku",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-pollution-crisis",
+      "label": "Minamata and Pollution Crisis",
+      "year": 1956,
+      "description": "Minamata disease — methylmercury poisoning of villagers around Minamata Bay in Kyushu, caused by industrial wastewater dumped by the Chisso Corporation — was officially recognized in May 1956 and ultimately killed over 1,700 people. Combined with itai-itai disease (cadmium poisoning in Toyama, 1968) and Yokkaichi asthma (sulfur dioxide air pollution, 1960s), the pollution crises of the high-growth era forced Japan to enact the world's strictest environmental laws (1970 Pollution Diet) and turn industrial competence toward emissions control.",
+      "wikiSlug": "Minamata_disease",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-okinawa-reversion",
+      "label": "Okinawa Reversion",
+      "year": 1972,
+      "description": "Okinawa, occupied by U.S. forces since 1945 and administered by the United States Civil Administration of the Ryukyu Islands, was returned to Japanese sovereignty on May 15, 1972. Negotiated by Prime Minister Sato Eisaku — who won the Nobel Peace Prize partly for the deal — the reversion left American military bases on the island intact. As of the bubble's end in 1991, Okinawa contained 75% of all American military facilities in Japan despite being 0.6% of Japanese land area. The Okinawa base burden remains the most contentious issue in U.S.-Japan relations.",
+      "wikiSlug": "Reversion_of_Okinawa",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-oil-crisis-1973",
+      "label": "1973 Oil Shock",
+      "year": 1973,
+      "description": "The October 1973 OPEC oil embargo — Arab oil producers' response to American support for Israel in the Yom Kippur War — quadrupled crude oil prices within months. Japan, importing 99% of its oil with roughly 80% from the Middle East, was hit harder than any other major industrial economy. GDP contracted in 1974 for the first time since the war. The 1973 oil shock ended the high-growth era; what followed was the more sober 'stable growth era' of 4–5% annual GDP gains.",
+      "wikiSlug": "1973_oil_crisis",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-stable-growth",
+      "label": "Stable Growth Era",
+      "year": 1975,
+      "description": "After the 1973 oil shock, Japan shifted from 10% annual GDP growth to a 'stable growth' (anteiseicho) regime of roughly 4–5% — still the fastest growth among advanced industrial economies. The shift was managed through aggressive energy efficiency investment (Japan halved its energy use per unit of GDP between 1973 and 1990), high-value-added export promotion (cars and electronics replaced steel and shipbuilding as the lead sectors), and what economists called gentei kasoku — a 'limited acceleration' of structural transformation.",
+      "wikiSlug": "Economy_of_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-japan-as-number-one",
+      "label": "Japan as Number One",
+      "year": 1979,
+      "description": "Harvard sociologist Ezra Vogel's 1979 book 'Japan as Number One: Lessons for America' argued that Japanese institutions — lifetime employment, MITI's industrial policy, mass higher education, low crime, social cohesion — represented a superior model that the United States needed to study and partly emulate. The book sold over a million copies in Japan and crystallized a brief American intellectual moment of treating Japan as a model rather than a competitor. The moment closed by the early 1990s.",
+      "wikiSlug": "Japan_as_Number_One",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jem-trade-friction",
+      "label": "U.S.-Japan Trade Friction",
+      "year": 1980,
+      "description": "Through the 1980s, escalating American trade deficits with Japan — peaking at $58 billion in 1987 — drove a series of bitter trade disputes. Voluntary export restraints on Japanese cars (1981), the Semiconductor Trade Agreement (1986), Super 301 designations (1989), and continuous Section 301 investigations defined the period. The friction was mostly political theater on the American side; Japan's trade surplus with the United States persisted regardless. But the episodes of Detroit autoworkers smashing Japanese cars on television, and the 1982 murder of Vincent Chin in Detroit by laid-off autoworkers who mistook him for Japanese, were genuine.",
+      "wikiSlug": "Japan%E2%80%93United_States_relations",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-semiconductors",
+      "label": "Semiconductor Dominance",
+      "year": 1986,
+      "description": "By 1986, Japanese semiconductor firms — NEC, Toshiba, Hitachi, Fujitsu — held over 50% of the global memory chip market, and American firms had largely retreated from DRAM production. The September 1986 U.S.-Japan Semiconductor Trade Agreement was the first time the United States demanded — and won — guaranteed market share inside Japan for American chips. Korean firms (Samsung, Hyundai) entered the DRAM market in the late 1980s; by the late 1990s they had displaced the Japanese.",
+      "wikiSlug": "Semiconductor_industry_in_Japan",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-nintendo-famicom",
+      "label": "Nintendo Famicom",
+      "year": 1983,
+      "description": "Nintendo's Family Computer (Famicom), released in Japan in July 1983 and as the Nintendo Entertainment System (NES) in North America in 1985, revived the global home video game industry after the 1983 American crash and established Japan's dominance of console gaming. Designer Miyamoto Shigeru's Super Mario Bros. (1985) sold over 40 million copies; the Famicom and NES together sold over 60 million units. Sega, Sony PlayStation, and Nintendo's later consoles built directly on this platform.",
+      "wikiSlug": "Nintendo_Entertainment_System",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-jem-anime-manga-global",
+      "label": "Anime and Manga Go Global",
+      "year": 1988,
+      "description": "Otomo Katsuhiro's 1988 animated film Akira — adapted from his manga of the same name — was the first Japanese animated feature to find a substantial Western adult audience and is conventionally cited as the start of the global anime wave. By the 2000s, manga and anime were Japan's largest cultural exports by revenue, with characters like Pokemon, Hello Kitty, and Studio Ghibli's catalog reaching cultural saturation in markets that knew nothing else about Japan.",
+      "wikiSlug": "Akira_(1988_film)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jem-murakami-haruki",
+      "label": "Murakami Haruki",
+      "year": 1987,
+      "description": "Murakami Haruki's 1987 novel Norwegian Wood (Noruwei no Mori) sold over 4 million copies in Japan within a few years, made him the dominant literary figure of the bubble generation, and launched his international career. His genre-blurring fiction — pop-cultural, jazz-soaked, melancholic, suspended between Japan and a stylized America — became the most globally read Japanese literary corpus of any era, and his work has been the perennial near-miss for the Nobel Prize for two decades.",
+      "wikiSlug": "Haruki_Murakami",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-oe-nobel",
+      "label": "Oe Kenzaburo Nobel Prize",
+      "year": 1994,
+      "description": "Novelist Oe Kenzaburo (1935–2023) won the Nobel Prize in Literature in 1994 — the second Japanese laureate after Kawabata Yasunari in 1968. His fiction, anchored by his life with his disabled son Hikari, dealt with the legacy of the war and the atomic bombings, the ethics of the postwar settlement, and the psychological cost of the economic miracle. He was a vocal opponent of constitutional revision and remained a prominent left-wing public intellectual until his death.",
+      "wikiSlug": "Kenzabur%C5%8D_%C5%8Ce",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-kurosawa-late",
+      "label": "Kurosawa's Late Career",
+      "year": 1980,
+      "description": "Director Kurosawa Akira (1910–1998), already an internationally celebrated figure for Rashomon (1950) and Seven Samurai (1954), produced his late masterpieces in the bubble era: Kagemusha (1980, Palme d'Or co-winner with Bob Fosse's All That Jazz, financed in part by George Lucas and Francis Ford Coppola), Ran (1985, his King Lear adaptation), and Dreams (1990). Kurosawa's late-career international acclaim was simultaneous with his domestic neglect — his films were considered too 'Western' inside Japan for most of his career.",
+      "wikiSlug": "Akira_Kurosawa",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-soka-gakkai",
+      "label": "Soka Gakkai and Komeito",
+      "year": 1964,
+      "description": "Soka Gakkai, a Nichiren Buddhist lay organization founded in 1930, surged in postwar membership under Ikeda Daisaku — claiming over 8 million households by 1980. In 1964 Soka Gakkai founded the Komeito ('Clean Government Party') as its political arm; Komeito has been a continuous coalition partner with the LDP since 1999. The organization's combination of religious enthusiasm, mass mobilization, and political power is unique in postwar Japan and resembles no Western or Korean parallel.",
+      "wikiSlug": "Soka_Gakkai",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-jem-women-workforce",
+      "label": "Women in the Workforce",
+      "year": 1985,
+      "description": "The 1985 Equal Employment Opportunity Law was the first formal step toward integrating women into the salaryman career track, but in practice Japanese firms used the 'two-track system' (sogoshoku and ippanshoku) to channel women into clerical positions with no promotion ladder. Female labor force participation reached parity with men only in the 2010s. The bubble era's 'Office Lady' (OL) — twenty-something single woman in an early-career clerical job, with concentrated discretionary spending — was a defining consumer demographic of late-1980s Japan.",
+      "wikiSlug": "Equal_Employment_Opportunity_Law",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-nakasone",
+      "label": "Nakasone Yasuhiro",
+      "year": 1982,
+      "endYear": 1987,
+      "description": "Nakasone Yasuhiro (1918–2019) served as prime minister 1982–87, the longest tenure of any LDP leader since Sato Eisaku. A self-styled 'presidential' premier with explicitly pro-American convictions ('Japan must become an unsinkable aircraft carrier for America'), he privatized Japan National Railways into JR Group (1987) and Nippon Telegraph and Telephone (NTT, 1985) — the largest privatizations in postwar Japan. His tenure spanned the Plaza Accord and the start of the bubble.",
+      "wikiSlug": "Yasuhiro_Nakasone",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-jr-privatization",
+      "label": "JR Privatization",
+      "year": 1987,
+      "description": "Japan National Railways, the state-owned railway monopoly that had operated the Shinkansen and the entire intercity rail network, was broken up and privatized on April 1, 1987 into six regional Japan Railways (JR) passenger companies plus JR Freight. The privatization eliminated 200,000 redundant positions, ended decades of accumulated operating losses, and produced what is widely considered the most efficient passenger rail system in the world. The Nakasone government considered it the model for further structural reform — though most never came.",
+      "wikiSlug": "Japan_Railways_Group",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-plaza-accord",
+      "label": "Plaza Accord",
+      "year": 1985,
+      "description": "On September 22, 1985, finance ministers of the G5 (United States, Japan, West Germany, France, United Kingdom) met at the Plaza Hotel in New York and agreed to coordinated intervention to push the U.S. dollar down — particularly against the Japanese yen and Deutsche Mark. The yen rose from 240 to 150 per dollar within twenty-eight months, sharply reducing the price competitiveness of Japanese exports. The Bank of Japan responded with aggressive interest rate cuts, and the resulting cheap-credit boom inflated the asset bubble that would burst in 1990–91.",
+      "wikiSlug": "Plaza_Accord",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-bubble-economy",
+      "label": "The Bubble Economy",
+      "year": 1986,
+      "endYear": 1991,
+      "description": "The Japanese asset bubble of 1986–91 was, by most measures, the largest financial bubble in postwar history. The Nikkei 225 stock index rose from 13,000 in early 1986 to a peak of 38,957 on December 29, 1989. Tokyo land prices roughly tripled in the same period; at peak valuation, the grounds of the Imperial Palace were notionally worth more than all real estate in California, and Japan's total stock market capitalization briefly exceeded America's despite an economy half its size. Banks lent freely against rising land collateral, creating the bad-loan overhang that would paralyze the economy for two decades.",
+      "wikiSlug": "Japanese_asset_price_bubble",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-bubble-peak",
+      "label": "Nikkei Peaks at 38,957",
+      "year": 1989,
+      "description": "On December 29, 1989, the last trading day of the year, the Nikkei 225 closed at 38,957.44 — the all-time high it would not approach again for over thirty years. Japan's stock market capitalization briefly exceeded America's despite a population less than half. The peak coincided with the change in imperial era from Showa to Heisei after Hirohito's January 1989 death. As of 2026 the Nikkei has only just clawed back to that level — meaning a generation of Japanese investors has effectively earned no equity returns in nominal yen for thirty-six years.",
+      "wikiSlug": "Japanese_asset_price_bubble",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-rockefeller-center",
+      "label": "Mitsubishi Buys Rockefeller Center",
+      "year": 1989,
+      "description": "On October 30, 1989, Mitsubishi Estate announced the purchase of a 51% stake in Rockefeller Group Inc. (owner of Rockefeller Center) for $846 million. The deal was the most symbolic of a wave of Japanese trophy purchases — Sony's $3.4 billion acquisition of Columbia Pictures the same year, Matsushita's $6.6 billion purchase of MCA in 1990, the Pebble Beach golf course bought by Minoru Isutani for $841 million in 1990. Most of these purchases lost money spectacularly. Mitsubishi sold the property at a $1.5 billion loss in 1996.",
+      "wikiSlug": "Rockefeller_Center",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-emperor-hirohito-death",
+      "label": "Emperor Hirohito Dies",
+      "year": 1989,
+      "description": "Emperor Hirohito died on January 7, 1989, age eighty-seven, after a fifteen-month decline from duodenal cancer. His sixty-three-year reign — the longest in Japanese imperial history — spanned militarism, total war, surrender, occupation, the economic miracle, and the bubble peak. His death ended the Showa era and inaugurated the Heisei era under his son Akihito. The Showa-Heisei transition was treated as a generational threshold: an era of recovery and growth giving way to an era whose character was not yet clear.",
+      "wikiSlug": "Hirohito",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-heisei-era",
+      "label": "Heisei Era Begins",
+      "year": 1989,
+      "description": "The Heisei era (heh-SAY, 'achieving peace') opened on January 8, 1989 with Akihito's accession and ran through April 30, 2019, when he became the first Japanese emperor to abdicate in 202 years. In retrospect, Heisei is the era of the Lost Decades: the bubble burst within thirty months of its start, and the entire era is characterized by stagnant GDP, deflation, demographic decline, and a national mood of slow contraction — the inverse of the Showa-era miracle.",
+      "wikiSlug": "Heisei",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-bubble-burst",
+      "label": "The Bubble Bursts",
+      "year": 1990,
+      "endYear": 1991,
+      "description": "The Bank of Japan, alarmed by speculation, raised the discount rate from 2.5% to 6.0% in five steps between May 1989 and August 1990. The Ministry of Finance imposed quantitative limits on real estate lending in March 1990. Both policies were designed to deflate the bubble gradually; both worked far faster than expected. The Nikkei fell 38% in 1990 alone. Land prices began falling in 1991 and continued falling for fifteen years. The fall produced trillions of yen in bad bank loans secured against now-worthless collateral, which the banking system spent the entire 1990s refusing to recognize.",
+      "wikiSlug": "Japanese_asset_price_bubble",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-lost-decade",
+      "label": "The Lost Decade",
+      "year": 1991,
+      "endYear": 2001,
+      "description": "The 1990s in Japan were characterized by stagnant growth (averaging around 1% annual GDP), persistent mild deflation, ballooning bank bad debt, and serial fiscal stimulus packages whose accumulated cost pushed Japanese government debt past 100% of GDP by 2000. The 'Lost Decade' eventually became 'Lost Decades' as the pattern continued through the 2000s and 2010s. Conventional explanations point to delayed bank cleanup, demographic decline, and the deflationary spiral that monetary policy could not break.",
+      "wikiSlug": "Lost_Decades",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-yamaichi-collapse",
+      "label": "Yamaichi Securities Collapse",
+      "year": 1997,
+      "description": "Yamaichi Securities, one of the four big Japanese securities firms, declared bankruptcy in November 1997 after concealing roughly 260 billion yen ($2 billion) in losses through tobashi schemes — moving losses to dummy companies. President Nozawa Shohei's tearful press conference apology became one of the defining images of the financial crisis. Yamaichi's failure, combined with the November bankruptcy of Hokkaido Takushoku Bank, ended any pretense that the bad-loan problem could be muddled through and triggered acute financial panic.",
+      "wikiSlug": "Yamaichi_Securities",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-kobe-earthquake",
+      "label": "Great Hanshin Earthquake",
+      "year": 1995,
+      "description": "On the morning of January 17, 1995, a magnitude 6.9 earthquake struck the Hanshin (Kobe-Osaka) region. Over 6,400 people died, most from collapsed older wooden houses; 80% of fatalities were in Kobe itself. The disaster exposed structural weaknesses in Japan's emergency response — the central government took 24 hours to dispatch the Self-Defense Forces, and yakuza relief networks beat official aid into the affected neighborhoods. The earthquake reframed Japanese awareness of seismic risk and accelerated retrofitting of older buildings nationwide.",
+      "wikiSlug": "Great_Hanshin_earthquake",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jem-aum-shinrikyo",
+      "label": "Aum Shinrikyo Subway Attack",
+      "year": 1995,
+      "description": "On the morning of March 20, 1995, members of the Aum Shinrikyo (AHM SHIN-ree-kyoh) doomsday cult released sarin nerve gas on five Tokyo subway trains converging on Kasumigaseki, the government district. Thirteen people were killed; over 6,000 were injured. The cult — founded in 1984 by Asahara Shoko, claiming roughly 10,000 members at peak, with bizarre fusions of yoga, Buddhism, Hindu apocalypticism, and Christian eschatology — was prosecuted across the next twenty years; Asahara and twelve associates were executed in July 2018. Coming two months after the Kobe earthquake, the attack contributed to a national mood of crisis and disillusion that defined the mid-1990s.",
+      "wikiSlug": "Tokyo_subway_sarin_attack",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-jem-asia-financial-crisis",
+      "label": "1997 Asian Financial Crisis",
+      "year": 1997,
+      "description": "The 1997–98 Asian financial crisis — beginning with the Thai baht devaluation in July 1997 and spreading to Indonesia, South Korea, Malaysia — hit Japanese banks already weakened by the bad-loan overhang. Japan's exposure through the lending of city banks to South Korean and Indonesian borrowers magnified the domestic financial crisis. Combined with the Yamaichi collapse and the consumption tax hike, the year produced Japan's deepest postwar recession and the formal end of the long-running pretense that the Lost Decade was about to lift.",
+      "wikiSlug": "1997_Asian_financial_crisis",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-demographic-crisis",
+      "label": "Demographic Crisis Visible",
+      "year": 1989,
+      "description": "Japan's total fertility rate dropped to 1.57 in 1989 — the '1.57 shock' that produced the first widespread public awareness of the aging-society problem. The fertility rate fell below the replacement level of 2.1 in the mid-1970s and has never recovered. By 1991 demographers were projecting that Japan's population would peak in the early 2000s and decline thereafter. The projections were correct: the population peaked in 2008 at 128 million and has been falling since. The demographic future of Japan was already legible in 1991; the political system did not act on it.",
+      "wikiSlug": "Demographics_of_Japan",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-tanaka-kakuei",
+      "label": "Tanaka Kakuei",
+      "year": 1972,
+      "endYear": 1974,
+      "description": "Tanaka Kakuei (1918–1993), self-made construction-industry magnate and former carpenter, served as prime minister 1972–74. His 'Plan for Remodeling the Japanese Archipelago' (Nihon Retto Kaizo Ron) directed massive infrastructure investment to rural districts, particularly his home prefecture of Niigata. Forced from office in late 1974 over campaign finance scandal and indicted in 1976 for accepting $2 million in Lockheed Aircraft bribes, he nevertheless remained the dominant LDP power broker through the 1980s — the 'shadow shogun' who picked premiers from his faction without holding office himself.",
+      "wikiSlug": "Kakuei_Tanaka",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-recruit-scandal",
+      "label": "Recruit Scandal",
+      "year": 1988,
+      "description": "The Recruit Scandal of 1988–89 implicated dozens of senior politicians — including Prime Minister Takeshita Noboru, Finance Minister Miyazawa Kiichi, and former Prime Minister Nakasone — in receiving pre-IPO shares of Recruit Cosmos at insider prices. Takeshita resigned in April 1989, Recruit chairman Ezoe Hiromasa was eventually convicted, and the scandal accelerated public disillusionment with LDP politics that would briefly cost the party power in 1993. The scandal coincided almost exactly with the Showa-Heisei transition.",
+      "wikiSlug": "Recruit_scandal",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-train-system",
+      "label": "The Train System",
+      "year": 1980,
+      "description": "Japan's commuter and intercity rail system, anchored by the JR network, the Tokyo Metro, the Osaka Subway, and dozens of private commuter lines, became one of the dense urban infrastructures most distinctively associated with postwar Japan. By the late 1980s the Tokyo metropolitan area moved roughly 12 million daily passengers by rail, with average punctuality measured in seconds rather than minutes. The Yamanote Line loop in Tokyo and the Marunouchi Line during morning rush represented urban density at scales the rest of the developed world had never managed.",
+      "wikiSlug": "Rail_transport_in_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jem-kawaii-culture",
+      "label": "Kawaii Culture",
+      "year": 1974,
+      "description": "Kawaii (kah-WAH-ee, 'cute') culture — the systematic aesthetic celebration of cuteness in design, fashion, language, and behavior — emerged in Japanese teen-girl handwriting and stationery in the 1970s and was commercialized at industrial scale by Sanrio (founded 1960; Hello Kitty launched 1974). By the 1990s, kawaii had become a defining Japanese aesthetic export, applied to consumer products, mascots, fashion, and eventually national branding (the Cool Japan policy of the 2000s).",
+      "wikiSlug": "Kawaii",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-japanese-cuisine",
+      "label": "Japanese Cuisine Globalizes",
+      "year": 1980,
+      "description": "Sushi, ramen, tempura, and other Japanese foods spread internationally through the 1970s and 1980s, becoming established mainstream cuisine in major Western cities by 1990. Kikkoman soy sauce factories were built in Wisconsin (1973) and the Netherlands (1997); the California roll, an American invention from the late 1960s, popularized sushi to American palates in the 1980s; ramen left Japan as instant noodles (Nissin, founded 1958) before colonizing global tastes as the artisanal noodle-soup boom of the 2000s. By 2013 washoku (traditional Japanese cuisine) was inscribed on UNESCO's intangible cultural heritage list.",
+      "wikiSlug": "Japanese_cuisine",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-baseball",
+      "label": "Japanese Baseball",
+      "year": 1950,
+      "description": "Professional baseball, introduced to Japan in the 1930s and reorganized into the two-league Nippon Professional Baseball (NPB) system in 1950, became Japan's dominant spectator sport. The Yomiuri Giants — owned by the conservative Yomiuri Shimbun — dominated the early postwar decades; high school baseball's annual Koshien tournament became a cultural institution; sluggers Oh Sadaharu (Tokyo Giants, 868 home runs) and Nagashima Shigeo became national icons. Japanese players began crossing to American Major League Baseball in the 1990s — Nomo Hideo joining the Dodgers in 1995 was the breakthrough.",
+      "wikiSlug": "Nippon_Professional_Baseball",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-tokyo-1990",
+      "label": "Tokyo at the Bubble Peak",
+      "year": 1989,
+      "description": "Tokyo at the bubble peak in 1989 was the clearest symbol of the era: highest commercial real-estate prices in the world; entire blocks of Ginza, Roppongi, and Akasaka turned into luxury hospitality districts; corporate-account dining costs that would astonish Western counterparts; the global headquarters of Sony, Toyota, and dozens of other multinationals; and a population of 12 million served by what was already the densest urban rail system anywhere. The view from the new 48-story Tokyo Metropolitan Government Building (Tange Kenzo, 1990) was the era's signature panorama.",
+      "wikiSlug": "Tokyo",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-vincent-chin",
+      "label": "Vincent Chin Murder",
+      "year": 1982,
+      "description": "Vincent Chin, a Chinese American draftsman in Detroit, was beaten to death on June 19, 1982 by two unemployed white autoworkers who reportedly mistook him for Japanese. His killers received probation and a $3,000 fine. The case galvanized Asian American civil rights organizing and became the iconic example of how anti-Japanese trade-friction rhetoric translated into violence against East Asian Americans. Chin's mother Lily moved to China in 2002, telling friends she could not bear to remain in the country that had killed her son.",
+      "wikiSlug": "Murder_of_Vincent_Chin",
+      "tier": 3,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-japan-german-comparison",
+      "label": "Japan and West Germany Compared",
+      "year": 1960,
+      "description": "Japan and West Germany — the two defeated Axis powers — became the two great postwar economic miracles, each reaching the world's third- and second-largest economies respectively by 1980. Both shared key features: foreign occupation that imposed democratic constitutions, dismantled militarist institutions, then ended within a decade leaving both countries inside the American security umbrella; export-led industrial growth driven by undervalued currencies (the 360-yen and the Deutsche Mark); strong industrial bank-lending traditions (the keiretsu and the Hausbank); and explicit postwar pacifism (Article 9 and Wehrmacht abolition). The Wirtschaftswunder (German economic miracle) and the Japanese miracle were the same phenomenon under different governance.",
+      "wikiSlug": "Wirtschaftswunder",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-korea-comparison",
+      "label": "South Korean Miracle Begins",
+      "year": 1965,
+      "description": "South Korea, governed by Park Chung-hee from 1961 to 1979, explicitly modeled its industrial policy on the Japanese developmentalist state — MITI's role taken by the Economic Planning Board, the keiretsu's role by the chaebol (Hyundai, Samsung, LG, Daewoo), the lifetime-employment salaryman culture replicated in modified form. The 1965 Treaty on Basic Relations between Japan and South Korea, normalizing diplomatic relations, came with $800 million in Japanese economic aid that helped fund Korean industrialization. The Korean miracle ran roughly twenty years behind the Japanese miracle and produced similar institutions.",
+      "wikiSlug": "Miracle_on_the_Han_River",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-yen-revaluation",
+      "label": "Yen Revaluation 1971",
+      "year": 1971,
+      "description": "The Bretton Woods system collapsed in August 1971 when President Nixon ended dollar-gold convertibility (the 'Nixon shock'). The Smithsonian Agreement in December 1971 revalued the yen from 360 to 308 per dollar — the first formal revaluation of the yen since 1949. The 1973 transition to floating rates pushed the yen further: by 1978 it was below 200 per dollar, by 1985 below 240, and after the Plaza Accord below 130. Each revaluation forced Japanese exporters to climb the value chain — from textiles to steel to autos to electronics to high-end machinery — to maintain competitiveness.",
+      "wikiSlug": "Nixon_shock",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-emperor-akihito",
+      "label": "Emperor Akihito",
+      "year": 1989,
+      "description": "Emperor Akihito (born 1933, reigned 1989–2019), son of Hirohito, was the first emperor to grow up under the postwar constitution — the first emperor never expected to be divine, never trained in ritual command, and married to a commoner (Empress Michiko, the daughter of a flour-milling industrialist, in 1959). His public emphasis on reconciliation with the victims of Japanese wartime aggression — particularly his 1992 visit to China, his 2005 visit to Saipan, his repeated apologies for wartime conduct — represented a deliberate softening of the imperial role consistent with the postwar settlement.",
+      "wikiSlug": "Akihito",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-kawabata-nobel",
+      "label": "Kawabata Nobel Prize",
+      "year": 1968,
+      "description": "Kawabata Yasunari (1899–1972) became Japan's first Nobel laureate in literature in October 1968, cited for 'his narrative mastery, which with great sensibility expresses the essence of the Japanese mind.' His novels Snow Country (1948), Thousand Cranes (1952), and The Sound of the Mountain (1954) established a postwar literary aesthetic of sparse observation and lyrical melancholy that defined twentieth-century Japanese high literature internationally. He committed suicide in April 1972, two years after his close friend Mishima Yukio's seppuku.",
+      "wikiSlug": "Yasunari_Kawabata",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-mishima-yukio",
+      "label": "Mishima Yukio's Suicide",
+      "year": 1970,
+      "description": "Novelist Mishima Yukio — internationally celebrated for The Temple of the Golden Pavilion (1956) and the Sea of Fertility tetralogy — committed seppuku on November 25, 1970, after attempting to incite a coup d'état at the Self-Defense Forces' Ichigaya headquarters in Tokyo. He was forty-five. His private Tatenokai militia and his political program — return of the emperor to ritual centrality, restoration of Article 9, repudiation of the postwar settlement — were marginal positions, but his death was the most public event of late-1960s Japanese conservative politics and resonated as the spectacular last assertion of the prewar samurai-suicide tradition.",
+      "wikiSlug": "Yukio_Mishima",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-japan-airlines-123",
+      "label": "Japan Airlines Flight 123",
+      "year": 1985,
+      "description": "Japan Airlines Flight 123, a Boeing 747 flying Tokyo to Osaka, suffered an aft pressure bulkhead failure on August 12, 1985, lost hydraulic control, and crashed into a ridge of Mount Osutaka in Gunma Prefecture, killing 520 of 524 people aboard. It remains the deadliest single-aircraft accident in aviation history. The cause was traced to a faulty Boeing repair seven years earlier. The disaster, occurring at the Plaza Accord-eve peak of national confidence, was an unwelcome reminder that even the most rigorously engineered Japanese systems could fail catastrophically.",
+      "wikiSlug": "Japan_Air_Lines_Flight_123",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jem-vending-machines",
+      "label": "Vending Machine Density",
+      "year": 1985,
+      "description": "By the mid-1980s, Japan had achieved the world's highest vending machine density — roughly one machine per 23 people, selling everything from drinks and cigarettes to hot meals, umbrellas, and (notoriously, in some neighborhoods) used schoolgirl underwear and adult magazines. The combination of low street crime (machines could be left unattended), high real-estate costs (favoring micro-retail formats), and the salaryman lifestyle (long hours, late-night needs, no time to shop) made the vending economy uniquely Japanese. By 2026 the count was around 4 million machines despite a falling population.",
+      "wikiSlug": "Vending_machine#Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-ohno-taiichi",
+      "label": "Ohno Taiichi",
+      "year": 1965,
+      "description": "Ohno Taiichi (1912–1990), Toyota engineer and the principal architect of the Toyota Production System, joined Toyota Motor in 1943 and rose to executive vice president by 1975. His insights — that overproduction is the master waste, that any worker should be able to halt the line for a defect (jidoka), that inventory is concealed dysfunction, that supply chains should pull from demand rather than push from forecast — became the global manufacturing consensus by 2000. His 1978 book Toyota Production System: Beyond Large-Scale Production translated the system for international audiences.",
+      "wikiSlug": "Taiichi_Ohno",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-sato-eisaku",
+      "label": "Sato Eisaku",
+      "year": 1964,
+      "endYear": 1972,
+      "description": "Sato Eisaku (1901–1975), brother of A-class war criminal turned LDP power broker Kishi Nobusuke, served as prime minister from November 1964 to July 1972 — the longest continuous term of any postwar Japanese prime minister. His tenure spanned Expo '70, the Okinawa reversion, and the Nixon shock; he won the 1974 Nobel Peace Prize for negotiating the reversion and for the Three Non-Nuclear Principles (no possession, no production, no introduction of nuclear weapons) — though we now know his government secretly accepted American nuclear weapons transit through Okinawa, which would have violated principle three.",
+      "wikiSlug": "Eisaku_Sato",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-fukuda-takeo",
+      "label": "Fukuda Doctrine",
+      "year": 1977,
+      "description": "Prime Minister Fukuda Takeo's August 1977 Manila speech — the Fukuda Doctrine — committed Japan to non-military regional engagement: no Japanese military role in Southeast Asia, 'heart-to-heart' diplomacy with ASEAN, economic aid as the primary instrument of regional policy. It was the formal articulation of the Yoshida Doctrine for Southeast Asia, an explicit promise that Japan would not return to the kind of regional dominance it had attempted under the prewar Greater East Asia Co-Prosperity Sphere. The doctrine remains the framework of Japan-ASEAN relations today.",
+      "wikiSlug": "Fukuda_Doctrine",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jem-public-broadcasting-nhk",
+      "label": "NHK and Television",
+      "year": 1953,
+      "description": "NHK (Nippon Hoso Kyokai), the public broadcaster founded in 1926 on the BBC model, began regular television broadcasting on February 1, 1953. By 1964, in time for the Tokyo Olympics, color television had been rolled out to most urban homes. Daily NHK news, the morning serial drama (asadora) and the year-end Kohaku Uta Gassen song competition became central rituals of national life. NHK's funding model — license fees collected directly from television-owning households — made it independent of both advertising and direct government appropriation, comparable to the BBC.",
+      "wikiSlug": "NHK",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-jem-osaka-1970",
+      "label": "Osaka and Kansai",
+      "year": 1970,
+      "description": "Osaka — Japan's second city and the historical center of the Kansai region — emerged in the postwar decades as a counterweight to Tokyo's increasing centralization. Osaka hosted Expo '70 and the 1990 International Garden Expo, was home to Panasonic (then Matsushita), Sharp, Daihatsu, and Suntory, and developed a distinctive cultural identity built around merchant entrepreneurialism, the Kansai dialect, manzai comedy, and a cuisine (okonomiyaki, takoyaki) culturally distinct from Tokyo's. The Kansai-Tokyo rivalry remained a defining feature of the postwar economic landscape.",
+      "wikiSlug": "Osaka",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-bank-of-japan-easing",
+      "label": "Bank of Japan Easing",
+      "year": 1986,
+      "description": "After the Plaza Accord, the Bank of Japan cut the official discount rate from 5.0% in January 1986 to 2.5% in February 1987 — the lowest level in postwar history at that point — to support exporters facing the rising yen. The cheap-credit boom that resulted was the proximate cause of the asset bubble. BOJ Governor Sumita Satoshi resisted tightening through 1988 under political pressure to maintain growth; his successor Mieno Yasushi finally raised rates aggressively from May 1989, which produced the bubble's collapse.",
+      "wikiSlug": "Bank_of_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-construction-state",
+      "label": "The Construction State",
+      "year": 1975,
+      "description": "From the 1960s through the 1990s, public-works construction spending became the LDP's primary instrument of rural economic redistribution and electoral patronage. By the 1990s, Japan was spending more on construction (8% of GDP) than the United States (1.5%), pouring concrete into rural prefectures whose populations were already declining. The 'doken kokka' ('construction state') — coined by political scientist Gavan McCormack — captured a system in which Tanaka Kakuei-style pork-barrel infrastructure and bid-rigging cartels (dango) defined the relationship between LDP politicians, the construction industry, and the regulatory bureaucracy.",
+      "wikiSlug": "Construction_industry_of_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-jem-amae-doi",
+      "label": "Doi Takeo and Amae",
+      "year": 1971,
+      "description": "Psychiatrist Doi Takeo's 1971 book Amae no Kozo (translated as The Anatomy of Dependence, 1973) argued that the Japanese concept of amae — non-verbal emotional dependence on others, originally derived from the mother-infant relationship — was the structuring principle of Japanese social relations and explained features of Japanese society that confused Western observers. The book became a defining text of nihonjinron (the postwar genre of theorizing about Japanese cultural uniqueness), which itself peaked in the bubble era as a kind of national self-explanation for international audiences.",
+      "wikiSlug": "Amae",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-jem-zengakuren-protests",
+      "label": "Zengakuren and Student Protests",
+      "year": 1968,
+      "description": "The 1968–69 Japanese student movement — peaking in the Tokyo University struggle, the Nihon University struggle, and a wave of barricaded campuses — was contemporary with the global 1968 student wave and was driven by similar issues: the Vietnam War, university reform, opposition to the U.S.-Japan alliance and to the planned 1970 Anpo treaty renewal. The movement collapsed after the 1969 Yasuda Hall siege at Tokyo University was crushed by riot police; some radicalized factions evolved into the United Red Army terrorist groups of the early 1970s.",
+      "wikiSlug": "Zengakuren",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-jem-bullet-train-network",
+      "label": "Shinkansen Network Expansion",
+      "year": 1975,
+      "description": "From the 1964 Tokyo-Osaka opening, the Shinkansen network expanded steadily: Sanyo Shinkansen to Hakata in 1975, Tohoku Shinkansen to Morioka in 1982, Joetsu to Niigata in 1982, Hokuriku to Nagano in 1997, Kyushu to Kagoshima in 2011, Hokkaido to Hakodate in 2016. By the bubble's end the network connected most major cities; by 2026 it carried over 420,000 passengers daily. Tanaka Kakuei's 1972 Plan for Remodeling the Japanese Archipelago committed the public investment that funded much of the late-twentieth-century network buildout.",
+      "wikiSlug": "Shinkansen",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    }
+  ]
+}

@@ -157,6 +157,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'islamic-golden-age.md': 'islamic-golden-age',
   'ottoman-empire.md': 'ottoman-empire',
   'safavid-persia.md': 'safavid-persia',
+  'umayyad-caliphate.md': 'umayyad-caliphate',
   'middle-horizon-empires.md': 'middle-horizon-empires',
   'edo-japan.md': 'edo-japan',
   'gokturk-khaganate.md': 'gokturk-khaganate',
@@ -170,9 +171,15 @@ const NARRATIVE_FILES: Record<string, string> = {
   'inca-empire.md': 'inca-empire',
   'timurid-empire.md': 'timurid-empire',
   'delhi-sultanate.md': 'delhi-sultanate',
+  'mughal-empire.md': 'mughal-empire',
   'late-medieval-europe.md': 'late-medieval-europe',
   'high-medieval-europe.md': 'high-medieval-europe',
   'early-medieval-europe.md': 'early-medieval-europe',
+  'srivijaya.md': 'srivijaya',
+  'korean-modern.md': 'korean-modern',
+  'japanese-economic-miracle.md': 'japanese-economic-miracle',
+  'renaissance-italy.md': 'renaissance-italy',
+  'ming-dynasty.md': 'ming-dynasty',
 }
 
 function slugify(title: string): string {
