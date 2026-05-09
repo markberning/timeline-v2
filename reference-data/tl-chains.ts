@@ -216,7 +216,9 @@ export const TL_CHAINS: TlChain[] = [
     shortLabel: 'W Europe',
     origins: 'After the fall of Rome, medieval Europe preserved fragments of classical learning in monasteries while developing feudalism, Gothic architecture, and the university system.',
     entries: [
-      { timelineId: 'medieval-europe', transition: 'The rediscovery of classical texts, combined with Italian city-state wealth from Mediterranean trade, ignited the Renaissance — a rebirth of art, humanism, and secular inquiry.' },
+      { timelineId: 'early-medieval-europe', transition: 'After Charlemagne and the Ottonian recovery, the year 1000 marked a turning point. Climate warming, agricultural innovation, and urban revival fueled three centuries of unprecedented growth — the High Middle Ages.' },
+      { timelineId: 'high-medieval-europe', transition: 'The Mongol shock of 1241 was the first crack in the High Medieval order. Famine, plague, and a hundred-year war between England and France would soon define a new era of crisis.' },
+      { timelineId: 'late-medieval-europe', transition: 'The fall of Constantinople in 1453, the completion of the Reconquista in 1492, and the Columbus voyage that same year closed the medieval era. The Italian city-states had already begun a Renaissance that would reshape European thought.' },
       { timelineId: 'renaissance-italy', transition: 'Renaissance humanism encouraged direct observation of nature, laying the groundwork for the Scientific Revolution that would transform how Europeans understood the physical world.' },
       { timelineId: 'scientific-revolution', transition: 'The new scientific thinking fueled the Enlightenment — a broad intellectual movement that applied reason to politics, religion, and social organization.' },
       { timelineId: 'enlightenment', transition: 'Enlightenment ideas about progress and applied science combined with new energy sources to launch the Industrial Revolution, which reshaped economies and societies worldwide.' },
