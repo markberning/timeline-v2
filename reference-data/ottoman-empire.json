@@ -1082,6 +1082,161 @@
       "tags": [
         "rulers"
       ]
+    },
+    {
+      "id": "evt-battle-bapheus",
+      "label": "Battle of Bapheus",
+      "year": 1302,
+      "description": "Osman I's first major open-field victory over a Byzantine army near modern İzmit, demonstrating the beylik's military potential and triggering Constantinople to hire the Catalan Company — making things worse.",
+      "wikiSlug": "Battle_of_Bapheus",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-pargali-ibrahim-pasha",
+      "label": "Pargalı Ibrahim Pasha — Grand Vizier",
+      "year": 1523,
+      "endYear": 1536,
+      "description": "Süleyman's closest friend and grand vizier for thirteen years, a Greek-born devshirme graduate who wielded near-sultanic power before being executed on Süleyman's order — a cautionary tale about the limits of imperial favoritism.",
+      "wikiSlug": "Pargal%C4%B1_Ibrahim_Pasha",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-sehzade-mosque",
+      "label": "Şehzade Mosque",
+      "year": 1548,
+      "description": "Mimar Sinan's first imperial mosque in Istanbul, built by Süleyman in memory of his deceased son Prince Mehmed. Its perfectly symmetrical central dome flanked by four half-domes established a new structural blueprint for Ottoman mosque design.",
+      "wikiSlug": "%C5%9Eehzade_Mosque",
+      "tier": 3,
+      "category": "architecture",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "evt-ebussuud-efendi",
+      "label": "Ebussuud Efendi — Sheikh ul-Islam",
+      "year": 1545,
+      "endYear": 1574,
+      "description": "Süleyman's chief religious jurist who spent decades harmonizing Ottoman secular kanun with sharia, providing the Kanun-i Osmani with Islamic legal legitimacy and enabling a single coherent legal framework across three continents.",
+      "wikiSlug": "Ebussuud_Efendi",
+      "tier": 2,
+      "category": "religion",
+      "tags": [
+        "writing",
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-koprutu-mehmed-pasha",
+      "label": "Köprülü Mehmed Pasha — Grand Vizier",
+      "year": 1656,
+      "endYear": 1661,
+      "description": "Albanian-born devshirme veteran appointed grand vizier at age eighty-one with sweeping emergency powers. His iron-fisted administration halted the mid-seventeenth-century institutional collapse and inaugurated a dynastic era of reform-minded grand viziers.",
+      "wikiSlug": "K%C3%B6pr%C3%BCl%C3%BC_Mehmed_Pasha",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-nurbanu-sultan",
+      "label": "Nurbanu Sultan — Valide Sultan",
+      "year": 1574,
+      "endYear": 1583,
+      "description": "Venetian-Greek noblewoman captured and brought to the imperial harem who became the favored consort of Selim II and the empire's first politically dominant valide sultan, corresponding directly with Catherine de' Medici on Ottoman foreign policy.",
+      "wikiSlug": "Nurbanu_Sultan",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-kara-mustafa-pasha",
+      "label": "Kara Mustafa Pasha — Grand Vizier",
+      "year": 1676,
+      "endYear": 1683,
+      "description": "Grand vizier who led the massive 1683 Ottoman army to Vienna, gambling on the empire's last major westward push. His catastrophic defeat ended three centuries of Ottoman westward expansion; he was strangled on the sultan's orders on Christmas Day 1683.",
+      "wikiSlug": "Kara_Mustafa_Pasha",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "wars",
+        "people"
+      ]
+    },
+    {
+      "id": "evt-treaty-kucuk-kaynarca",
+      "label": "Treaty of Küçük Kaynarca",
+      "year": 1774,
+      "description": "Humiliating peace ending the Russo-Turkish War of 1768–1774, under which the Ottomans ceded Black Sea territories, lost the Crimea, and accepted Russia as protector of their Orthodox Christian subjects — a provision invoked repeatedly to justify Russian intervention for the next century.",
+      "wikiSlug": "Treaty_of_K%C3%BC%C3%A7%C3%BCk_Kaynarca",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-mustafa-resid-pasha",
+      "label": "Mustafa Reşid Pasha — Tanzimat Architect",
+      "year": 1839,
+      "endYear": 1858,
+      "description": "Veteran Ottoman diplomat who served as ambassador in Paris and London before returning to draft and read the Gülhane Rescript in 1839, launching the Tanzimat reform era and serving repeatedly as grand vizier to drive its implementation.",
+      "wikiSlug": "Mustafa_Re%C5%9Fid_Pasha",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-enver-pasha",
+      "label": "Enver Pasha — War Minister",
+      "year": 1881,
+      "endYear": 1922,
+      "description": "One of the Three Pashas who effectively governed the empire in its final decade. As War Minister he forged the German alliance and launched the disastrous Caucasus campaign at Sarıkamış in 1914; he died fighting Soviet forces in Central Asia in 1922.",
+      "wikiSlug": "Enver_Pasha",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-talaat-pasha",
+      "label": "Talaat Pasha — Interior Minister",
+      "year": 1874,
+      "endYear": 1921,
+      "description": "Interior minister and most powerful of the Three Pashas, who as the chief administrator of the Armenian deportation orders in 1915 bore primary institutional responsibility for the genocide. He was assassinated in Berlin in 1921 by an Armenian survivor.",
+      "wikiSlug": "Talaat_Pasha",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-mustafa-kemal",
+      "label": "Mustafa Kemal (Atatürk)",
+      "year": 1881,
+      "endYear": 1938,
+      "description": "Ottoman divisional commander who repulsed the Allies at Gallipoli in 1915, led the Turkish nationalist war of independence against the Greek invasion (1919–1922), abolished the sultanate, and founded and reformed the Republic of Turkey — the most consequential figure of the Ottoman dissolution.",
+      "wikiSlug": "Mustafa_Kemal_Atat%C3%BCrk",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people",
+        "wars"
+      ]
     }
   ],
   "wikiSlug": "Ottoman_Empire"
