@@ -19,7 +19,11 @@ const SCROLL_END_MS = 300
 
 export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, onChainSolo }: CivListProps) {
   const rowEls = useRef<Map<string, HTMLDivElement>>(new Map())
-  const visualActiveId = useRef<string | null>(activeCivId)
+  // Init to null so the first applyVisualActive call after mount actually
+  // writes data-active to the DOM. Initializing to activeCivId would make
+  // applyVisualActive's prevId === newId guard short-circuit on mount,
+  // leaving the first row visually inactive until the user scrolls.
+  const visualActiveId = useRef<string | null>(null)
   const scrollEndTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const rafId = useRef<number>(0)
   // When an external source (bar tap) sets the active civ, suppress
@@ -39,8 +43,6 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
       .map(e => civById.get(e.timelineId))
       .filter((c): c is NavigatorTl => c !== undefined)
   }, [soloChain])
-
-  useEffect(() => { visualActiveId.current = activeCivId }, [activeCivId])
 
   const applyVisualActive = useCallback((newId: string | null) => {
     const prevId = visualActiveId.current
