@@ -171,6 +171,8 @@ const NARRATIVE_FILES: Record<string, string> = {
   'timurid-empire.md': 'timurid-empire',
   'delhi-sultanate.md': 'delhi-sultanate',
   'late-medieval-europe.md': 'late-medieval-europe',
+  'high-medieval-europe.md': 'high-medieval-europe',
+  'early-medieval-europe.md': 'early-medieval-europe',
 }
 
 function slugify(title: string): string {

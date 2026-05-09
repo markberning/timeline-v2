@@ -1,0 +1,1060 @@
+{
+  "id": "early-medieval-europe",
+  "label": "Early Medieval Europe",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Early_Middle_Ages",
+  "imageWikiSlug": "Coronation_of_Charlemagne",
+  "pitch": "From the deposition of the last western emperor in 476 to the threshold of the year 1000, early medieval Europe was the long crucible in which a Roman world dissolved into Germanic kingdoms, a Frankish chieftain named Charlemagne briefly reassembled a Roman-shaped empire on Christmas Day 800, and the 9th-century triple shock of Vikings, Magyars, and Saracens forced the continent to invent the castle, the mounted knight, and the proto-feudal contract. The period that nineteenth-century writers tarred as the 'Dark Ages' was in fact the formative half-millennium of Europe — when Catholicism replaced paganism north of the Alps, when Latin literacy survived in Irish monasteries on the rim of the Atlantic, when Carolingian scribes invented the lowercase script every later European book would use, and when the Ottonian dynasty stitched the German lands back together at Lechfeld in 955.\n\n🔑 Key Facts:\n• The Plague of Justinian (541) killed perhaps a quarter of the eastern Mediterranean's population and crippled the Byzantine reconquest of the west\n• Charlemagne's Carolingian Renaissance recopied the entire surviving corpus of Latin classical literature — without those copies, almost nothing of Cicero, Tacitus, or Livy would survive\n• The Treaty of Verdun in 843 split Charlemagne's empire into the kingdoms that became modern France, Germany, and Italy — a division that has shaped European politics ever since\n• Otto I's victory at Lechfeld in 955 ended the Magyar raids and made possible the eastern Christianization of Hungary, Poland, and the Rus'\n\n🤔 Why It Matters: Almost every modern European nation — France, Germany, Italy, England, Spain, Hungary, Poland, Russia — traces its constitutive identity to events in this 500-year span. The Catholic-Orthodox split, the Latin script, the parish system, the manor, the moral authority of the papacy: all early medieval inventions.\n\n🎲 Wild Card: The Catholic Church never said the earth was flat. Every educated medieval European knew it was a sphere — Bede in 8th-century Northumbria taught it, the Venerable Bede's textbooks taught it for the next thousand years, and Dante's Divine Comedy in 1320 maps Hell, Purgatory, and Paradise onto a perfectly spherical earth. The flat-earth myth was invented by nineteenth-century writers trying to make medieval Christianity look stupid.",
+  "countryIds": [
+    "250",
+    "276",
+    "380",
+    "724",
+    "826",
+    "40"
+  ],
+  "spans": [
+    {
+      "id": "span-emedieval-migration-period",
+      "label": "Late Antiquity & Migration Period",
+      "startYear": 476,
+      "endYear": 568,
+      "wikiSlug": "Migration_Period",
+      "description": "The Western Roman state ended in 476 and was replaced by Germanic successor kingdoms — Visigoths in Spain and southern Gaul, Ostrogoths in Italy, Vandals in North Africa, Franks in northern Gaul, and a sprinkle of smaller polities. Roman institutions, Latin literacy, and the Catholic church survived inside these kingdoms, often run by the same bishops and bureaucrats who had served the Empire."
+    },
+    {
+      "id": "span-emedieval-justinianic",
+      "label": "Justinianic & Post-Justinianic Crisis",
+      "startYear": 533,
+      "endYear": 700,
+      "wikiSlug": "Plague_of_Justinian",
+      "description": "Justinian's eastern Roman armies briefly reconquered North Africa (533) and Italy (535–554), but the Plague of Justinian (541) gutted the eastern Mediterranean, the Lombards seized most of Italy in 568, and the Arab conquests of the 630s permanently amputated the southern Mediterranean from Christendom. Western Europe spent the seventh century smaller, poorer, and more rural than at any point since the early Iron Age."
+    },
+    {
+      "id": "span-emedieval-carolingian",
+      "label": "Carolingian Era",
+      "startYear": 751,
+      "endYear": 887,
+      "wikiSlug": "Carolingian_Empire",
+      "description": "The Frankish mayor of the palace Pippin the Short deposed the last Merovingian king in 751 with papal sanction, founding the Carolingian dynasty. His son Charlemagne reassembled most of western Christendom under a single Frankish ruler and was crowned Emperor of the Romans by Pope Leo III on Christmas Day 800. The Treaty of Verdun (843) divided the empire into the kingdoms that would become France, Germany, and Italy."
+    },
+    {
+      "id": "span-emedieval-triple-shock",
+      "label": "The Triple Shock",
+      "startYear": 793,
+      "endYear": 955,
+      "wikiSlug": "Viking_Age",
+      "description": "From the late 8th to the mid-10th century, western Europe was hammered simultaneously by three external enemies: Vikings raiding from the North Sea and Baltic, Magyars galloping out of the Hungarian plain, and Saracen pirates raiding the western Mediterranean from Sicily and Spain. The proto-feudal response — castles, mounted knights, sworn personal allegiance, and the parceling of public authority into private hands — defined European political structure for the next four centuries."
+    },
+    {
+      "id": "span-emedieval-ottonian",
+      "label": "Ottonian Recovery",
+      "startYear": 919,
+      "endYear": 1024,
+      "wikiSlug": "Ottonian_dynasty",
+      "description": "The Saxon dukes Henry the Fowler and Otto I rebuilt the East Frankish kingdom into the Holy Roman Empire, defeated the Magyars decisively at Lechfeld in 955, sponsored the Cluniac monastic reform, and oversaw the Christianization of Hungary, Poland, Bohemia, and the Rus'. By the year 1000 western Europe was prepared for the urban and intellectual revolution of the High Middle Ages."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-fall-romulus-augustulus",
+      "label": "Romulus Augustulus Deposed",
+      "year": 476,
+      "description": "The Germanic general Odoacer deposed the teenage emperor Romulus Augustulus and sent the western imperial regalia to Constantinople, the conventional end of the Western Roman Empire and start of medieval Europe. Odoacer ruled Italy as king under nominal Eastern Roman suzerainty, and the Eastern emperor Zeno did not see the change as a 'fall' so much as an administrative consolidation.",
+      "wikiSlug": "Romulus_Augustulus",
+      "tier": 1,
+      "tags": ["wars", "rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-odoacer-italy",
+      "label": "Odoacer Rules Italy",
+      "year": 476,
+      "endYear": 493,
+      "description": "Odoacer, a Germanic general of Scirian or Hunnic background, ruled Italy as king from 476 until 493, governing through the surviving Roman Senate and bureaucracy. He was murdered at a banquet by Theodoric the Ostrogoth, who replaced him.",
+      "wikiSlug": "Odoacer",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-clovis-baptism",
+      "label": "Clovis Baptized",
+      "year": 496,
+      "description": "Clovis I, king of the Franks, was baptized as a Catholic Christian around 496 (the date is contested between 496 and 508), choosing Roman Catholicism over the Arian Christianity of his Visigothic and Ostrogothic neighbors. The choice gave the future Frankish kingdom the same religion as the Gallo-Roman bishops and the surviving Roman aristocracy of Gaul, and laid the religious foundation of the future kingdom of France.",
+      "wikiSlug": "Clovis_I",
+      "tier": 1,
+      "tags": ["religion", "people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-clovis-rule",
+      "label": "Clovis Unites the Franks",
+      "year": 481,
+      "endYear": 511,
+      "description": "Clovis I (ruled 481–511) united the previously fragmented Frankish tribes, defeated the last Roman commander Syagrius at Soissons in 486, conquered the Visigothic kingdom of Toulouse at Vouillé in 507, and fixed the Frankish capital at Paris. He founded the Merovingian dynasty that would rule Francia for the next 250 years.",
+      "wikiSlug": "Clovis_I",
+      "tier": 2,
+      "tags": ["people", "wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-vouille",
+      "label": "Battle of Vouillé",
+      "year": 507,
+      "description": "Clovis defeated and killed the Visigothic king Alaric II at the Battle of Vouillé near Poitiers in 507, conquering most of southern Gaul and pushing the Visigoths back across the Pyrenees into Spain. The battle established Frankish dominance in Gaul and effectively ended Visigothic rule north of the mountains.",
+      "wikiSlug": "Battle_of_Vouill%C3%A9",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-theodoric-italy",
+      "label": "Theodoric the Great",
+      "year": 493,
+      "endYear": 526,
+      "description": "Theodoric the Great ruled Italy as Ostrogothic king from 493 to 526, governing competently through the surviving Roman Senate and Roman bureaucrats, employing the philosopher Boethius and the senator Cassiodorus, and maintaining the legal fiction that he ruled as the Eastern Emperor's deputy. He had Boethius executed for treason in 524.",
+      "wikiSlug": "Theodoric_the_Great",
+      "tier": 2,
+      "tags": ["people", "rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-boethius-consolation",
+      "label": "Boethius's Consolation",
+      "year": 524,
+      "description": "Boethius wrote The Consolation of Philosophy in prison while awaiting execution by Theodoric. The book — a dialogue between Boethius and the personification of Philosophy on fortune, providence, and the nature of evil — became the most widely read philosophical work of the Middle Ages, translated into every European vernacular including Old English by King Alfred himself.",
+      "wikiSlug": "The_Consolation_of_Philosophy",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cassiodorus-vivarium",
+      "label": "Cassiodorus and Vivarium",
+      "year": 540,
+      "description": "Cassiodorus, the Roman senator who served Theodoric and his successors, retired around 540 and founded the monastery of Vivarium in southern Italy with a deliberately learned mission: to copy and preserve both Christian and pagan classical texts. His Institutions became the model for medieval monastic learning, and his copying program is one reason Latin literature survived the post-Roman centuries.",
+      "wikiSlug": "Cassiodorus",
+      "tier": 3,
+      "tags": ["people", "religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-vandal-kingdom-africa",
+      "label": "Vandal Kingdom of Africa",
+      "year": 439,
+      "endYear": 534,
+      "description": "The Vandals under Geiseric crossed from Spain to North Africa in 429 and captured Carthage in 439, founding a Germanic Arian Christian kingdom that controlled the richest grain provinces of the former Western Empire. Vandal pirate fleets dominated the western Mediterranean for nearly a century until Belisarius destroyed the kingdom in 533–534.",
+      "wikiSlug": "Vandal_Kingdom",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vandal-sack-rome",
+      "label": "Vandal Sack of Rome",
+      "year": 455,
+      "description": "The Vandal king Geiseric sailed from Carthage to Italy and sacked Rome in June 455, looting the city for two weeks and carrying off Empress Eudoxia and her daughters. The sack was thorough enough that the word 'vandalism' eventually entered European languages from this episode — though the connection is a 17th-century coinage.",
+      "wikiSlug": "Sack_of_Rome_(455)",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-visigothic-spain",
+      "label": "Visigothic Kingdom of Spain",
+      "year": 507,
+      "endYear": 711,
+      "description": "After the Frankish victory at Vouillé in 507 pushed them out of southern Gaul, the Visigoths consolidated their rule in the Iberian peninsula from their capital at Toledo, converted from Arian to Catholic Christianity in 589, and produced the most sophisticated law code of the western successor kingdoms — until the Islamic conquest destroyed the kingdom in 711.",
+      "wikiSlug": "Visigothic_Kingdom",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-recared-conversion",
+      "label": "Reccared Converts to Catholicism",
+      "year": 589,
+      "description": "King Reccared of the Visigoths formally renounced Arian Christianity and adopted Catholicism at the Third Council of Toledo in 589, ending the religious gulf between the Visigothic ruling class and the Hispano-Roman population they ruled. The conversion turned the Visigothic kingdom into the most Catholic state in the post-Roman West.",
+      "wikiSlug": "Reccared_I",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-isidore-seville",
+      "label": "Isidore of Seville",
+      "year": 615,
+      "description": "Bishop Isidore of Seville (c. 560–636) compiled the Etymologiae, a vast encyclopedia of secular and sacred knowledge in twenty books, sometime in the early seventh century. It became the most-copied reference work of the Middle Ages — every monastic library worth the name had one — and Isidore was eventually canonized as the patron saint of the internet by Pope John Paul II.",
+      "wikiSlug": "Isidore_of_Seville",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-justinian-reign",
+      "label": "Emperor Justinian I",
+      "year": 527,
+      "endYear": 565,
+      "description": "Justinian I ruled the Eastern Roman Empire from 527 to 565, codified Roman law in the Corpus Juris Civilis (which would become the foundation of every later European legal system), built Hagia Sophia in Constantinople, and launched the western reconquest that briefly restored Roman rule in North Africa and Italy.",
+      "wikiSlug": "Justinian_I",
+      "tier": 1,
+      "tags": ["people", "rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-justinian-reconquest",
+      "label": "Justinian's Reconquest",
+      "year": 533,
+      "endYear": 554,
+      "description": "Eastern Roman armies under Belisarius and Narses reconquered North Africa from the Vandals (533–534) and Italy from the Ostrogoths (535–554), briefly restoring Roman rule across the western Mediterranean. The campaigns were enormously expensive, devastated Italy, and proved unsustainable — most of Italy was lost again to the Lombards within fifteen years.",
+      "wikiSlug": "Wars_of_Justinian_I",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-corpus-juris-civilis",
+      "label": "Corpus Juris Civilis",
+      "year": 534,
+      "description": "Justinian's commission of jurists led by Tribonian compiled the entire body of Roman law into a single coherent corpus between 529 and 534 — the Code (imperial legislation), the Digest (juristic writings), the Institutes (a textbook for first-year law students), and the Novels (Justinian's own new laws). The Corpus would be lost in the West for five centuries, then rediscovered at Bologna around 1070 and become the foundation of every continental European legal system.",
+      "wikiSlug": "Corpus_Juris_Civilis",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-plague-justinian",
+      "label": "Plague of Justinian",
+      "year": 541,
+      "endYear": 549,
+      "description": "Bubonic plague arrived in Pelusium in Egypt in 541, reached Constantinople in 542, and swept the Mediterranean in waves over the next two centuries. The first wave killed an estimated quarter to a third of the eastern Mediterranean's population, crippled Justinian's western reconquest, depopulated cities across the Roman world, and is one of the structural reasons why the post-Justinianic West was so much smaller and poorer than the empire that had preceded it.",
+      "wikiSlug": "Plague_of_Justinian",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-lombard-invasion",
+      "label": "Lombard Invasion of Italy",
+      "year": 568,
+      "description": "The Lombards under King Alboin crossed the Alps in 568 and within four years held everything in Italy north of Rome and Ravenna. The invasion undid most of Justinian's reconquest, divided Italy into a patchwork of Lombard duchies, papal Rome, and Byzantine Ravenna, and produced the political geography of medieval Italy.",
+      "wikiSlug": "Lombards",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lombard-kingdom",
+      "label": "Lombard Kingdom of Italy",
+      "year": 568,
+      "endYear": 774,
+      "description": "The Lombards ruled most of Italy north of Rome from 568 until Charlemagne destroyed the kingdom in 774. They were the last Germanic people to invade the former Western Empire, converted from Arianism to Catholicism in the seventh century, codified the Edictum Rothari (the most extensive Germanic law code) in 643, and gave their name to Lombardy.",
+      "wikiSlug": "Kingdom_of_the_Lombards",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-benedict-of-nursia",
+      "label": "Benedict of Nursia",
+      "year": 529,
+      "description": "Benedict of Nursia founded the abbey of Monte Cassino in central Italy around 529 and wrote the Rule of Saint Benedict — a practical handbook for monastic life balancing prayer, manual labor, and study. The Rule became the template for monastic life in western Europe for the next thousand years and the institutional foundation of the European monastic copying tradition.",
+      "wikiSlug": "Benedict_of_Nursia",
+      "tier": 1,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-rule-of-benedict",
+      "label": "Rule of Saint Benedict",
+      "year": 530,
+      "description": "The Rule of Saint Benedict (composed around 530) prescribed a balanced day for monks — eight hours of prayer, six of work, four of reading — under the authority of an elected abbot, with vows of obedience, stability, and conversion of life. It became the universal Western monastic rule by the ninth century and is still followed today.",
+      "wikiSlug": "Rule_of_Saint_Benedict",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-monte-cassino",
+      "label": "Monte Cassino Founded",
+      "year": 529,
+      "description": "Benedict founded the monastery of Monte Cassino on a hilltop in central Italy in 529, on the site of an old Roman temple to Apollo. The monastery became the mother house of Western monasticism, was destroyed by the Lombards in 577 and rebuilt, and was famously bombed flat by the Allies in 1944 during the Italian campaign of World War II.",
+      "wikiSlug": "Monte_Cassino",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hagia-sophia-completed",
+      "label": "Hagia Sophia Completed",
+      "year": 537,
+      "description": "Justinian's architects Anthemius of Tralles and Isidore of Miletus completed the Church of the Holy Wisdom (Hagia Sophia) in Constantinople in just five years, dedicating it on December 27, 537. Its 105-foot dome on pendentives was the largest enclosed space in the world for nearly a thousand years and remained the model for monumental Christian architecture across the medieval Mediterranean.",
+      "wikiSlug": "Hagia_Sophia",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gregory-the-great",
+      "label": "Pope Gregory the Great",
+      "year": 590,
+      "endYear": 604,
+      "description": "Pope Gregory I (the Great), the most consequential pope of the early medieval period, reorganized the western church, asserted papal primacy over the western patriarchates, dispatched the Augustine mission to convert the Anglo-Saxons in 596, codified the liturgical chant that bears his name, and established the institutional model of the medieval papacy. He was the first pope to come from a monastic background.",
+      "wikiSlug": "Pope_Gregory_I",
+      "tier": 1,
+      "tags": ["people", "religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-gregorian-chant",
+      "label": "Gregorian Chant",
+      "year": 600,
+      "description": "Pope Gregory the Great is traditionally credited with codifying the unified plainsong repertoire that became known as Gregorian chant, the liturgical music of the western Latin church. Modern scholars are divided on how much Gregory personally contributed and how much was developed in the following two centuries by Carolingian cantors, but the attribution stuck and the music is still sung today.",
+      "wikiSlug": "Gregorian_chant",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-augustine-canterbury",
+      "label": "Augustine of Canterbury",
+      "year": 597,
+      "description": "Pope Gregory the Great sent the monk Augustine and forty companions to Britain in 596–597 to convert the pagan Anglo-Saxon kingdoms. Augustine landed in Kent, baptized King Æthelberht, and founded the see of Canterbury — beginning the Christianization of England that would be substantially complete within a century.",
+      "wikiSlug": "Augustine_of_Canterbury",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-iona-monastery",
+      "label": "Iona Monastery Founded",
+      "year": 563,
+      "description": "The Irish monk Columba founded the monastery on the small Hebridean island of Iona in 563, beginning the Celtic Christian missionary effort that would Christianize Pictish Scotland and northern England. Iona became the mother house of a distinctive Insular monastic culture that produced some of the most beautiful illuminated manuscripts in Christian history.",
+      "wikiSlug": "Iona_Abbey",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-lindisfarne-monastery",
+      "label": "Lindisfarne Founded",
+      "year": 635,
+      "description": "The Irish monk Aidan founded Lindisfarne on a tidal island off the Northumbrian coast in 635 at the invitation of King Oswald, becoming the cradle of northern English Christianity. The Lindisfarne Gospels, illuminated around 715, are one of the masterpieces of Insular art.",
+      "wikiSlug": "Lindisfarne",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-synod-whitby",
+      "label": "Synod of Whitby",
+      "year": 664,
+      "description": "King Oswiu of Northumbria convened the Synod of Whitby in 664 to decide whether the English church should follow the Celtic or Roman tradition for calculating Easter and tonsuring monks. He chose Rome, aligning the English church with continental Catholicism and Pope Gregory's Augustine-mission heritage rather than the Iona-Lindisfarne Celtic tradition.",
+      "wikiSlug": "Synod_of_Whitby",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bede-history",
+      "label": "Bede's Ecclesiastical History",
+      "year": 731,
+      "description": "The Northumbrian monk Bede the Venerable completed his Ecclesiastical History of the English People in 731 at the monastery of Jarrow. It is the foundational source for early Anglo-Saxon history, the first major work to use Anno Domini dating systematically, and one of the few seventh-century vernacular histories from anywhere in western Christendom.",
+      "wikiSlug": "Bede",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-anglo-saxon-heptarchy",
+      "label": "Anglo-Saxon Heptarchy",
+      "year": 600,
+      "endYear": 850,
+      "description": "From roughly 600 to 850, England was divided into seven major Anglo-Saxon kingdoms — Northumbria, Mercia, East Anglia, Wessex, Sussex, Essex, and Kent — with Northumbria dominating the seventh century, Mercia the eighth, and Wessex the ninth. The heptarchy was repeatedly reduced and reshaped by warfare among the kingdoms before the Vikings forced consolidation.",
+      "wikiSlug": "Heptarchy",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-merovingian-decline",
+      "label": "Merovingian Decline",
+      "year": 639,
+      "endYear": 751,
+      "description": "After the death of Dagobert I in 639, real power in the Frankish kingdom drifted from the Merovingian kings (mockingly called rois fainéants, 'do-nothing kings') to the hereditary mayors of the palace — chief stewards of the royal household. By the early eighth century the mayors of the palace from the Carolingian family ruled in all but name.",
+      "wikiSlug": "Merovingian_dynasty",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-arab-conquest-spain",
+      "label": "Arab Conquest of Spain",
+      "year": 711,
+      "endYear": 718,
+      "description": "An Arab-Berber army under Tariq ibn Ziyad crossed from Morocco in 711, destroyed the Visigothic king Roderic at the Battle of Guadalete, and within seven years had conquered nearly the entire Iberian peninsula. Most of Spain would remain under Muslim rule (al-Andalus) for the next eight centuries, with only a thin strip of Christian kingdoms surviving in the northern mountains.",
+      "wikiSlug": "Umayyad_conquest_of_Hispania",
+      "tier": 1,
+      "tags": ["wars", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-charles-martel-tours",
+      "label": "Charles Martel at Tours",
+      "year": 732,
+      "description": "Charles Martel, the Frankish mayor of the palace, defeated an Umayyad raiding force led by Abd al-Rahman al-Ghafiqi at the Battle of Tours (also called Poitiers) in October 732, conventionally regarded as the high-water mark of Muslim expansion into western Europe. Modern historians treat the battle as one of many checks rather than a single civilizational turning point, but it cemented Charles Martel's reputation and the Carolingian claim to the Frankish throne.",
+      "wikiSlug": "Battle_of_Tours",
+      "tier": 1,
+      "tags": ["wars", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-charles-martel",
+      "label": "Charles Martel",
+      "year": 718,
+      "endYear": 741,
+      "description": "Charles Martel ('the Hammer'), Frankish mayor of the palace from 718 until his death in 741, reunited Francia by force, defeated the Saxons, the Frisians, and the Arabs at Tours, and laid the institutional foundation for the Carolingian dynasty his son Pippin would formally crown.",
+      "wikiSlug": "Charles_Martel",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pippin-coup",
+      "label": "Pippin Crowned King",
+      "year": 751,
+      "description": "Pippin the Short, son of Charles Martel, deposed the last Merovingian king Childeric III in 751, sent him to a monastery, and had himself anointed king of the Franks with the explicit blessing of Pope Zachary — a coup justified by the new theory that 'whoever holds the power should be called king.' The papacy got a powerful military protector; the Carolingians got religious legitimacy.",
+      "wikiSlug": "Pepin_the_Short",
+      "tier": 2,
+      "tags": ["rulers", "religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pippin-donation",
+      "label": "Donation of Pippin",
+      "year": 756,
+      "description": "Pippin the Short conquered the Lombard-held strip of central Italy in 754–756 and donated the territory to Pope Stephen II rather than returning it to the Eastern Empire that had originally lost it, creating the Papal States. The donation gave the papacy its own temporal kingdom and a permanent reason to ally with the Franks against both the Lombards and the Byzantines.",
+      "wikiSlug": "Donation_of_Pepin",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-iconoclasm-controversy",
+      "label": "Iconoclasm Controversy",
+      "year": 726,
+      "endYear": 843,
+      "description": "Byzantine emperor Leo III banned religious images in 726, beginning the Iconoclasm controversy that opened a deep theological rift with the Latin west, where popes continued to defend the use of icons. The dispute was one of the structural reasons the papacy turned to the Franks for protection in the eighth century rather than relying on Constantinople.",
+      "wikiSlug": "Byzantine_Iconoclasm",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-charlemagne-rule",
+      "label": "Charlemagne",
+      "year": 768,
+      "endYear": 814,
+      "description": "Charlemagne ruled the Franks from 768 to 814, reassembling most of western Christendom under a single Frankish kingdom through 53 military campaigns — against the Lombards, the Saxons, the Avars, the Bavarians, the Bretons, and the Spanish March. He sponsored the Carolingian Renaissance, established a model of Christian kingship that every later European empire would imitate, and was crowned Emperor of the Romans in 800.",
+      "wikiSlug": "Charlemagne",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-charlemagne-saxon-wars",
+      "label": "Saxon Wars",
+      "year": 772,
+      "endYear": 804,
+      "description": "Charlemagne fought a brutal 32-year war to conquer and Christianize the pagan Saxons of northern Germany, including the massacre of 4,500 Saxon prisoners at Verden in 782 and the imposition of Christianity by edict on pain of death. The conquest extended Frankish (and Christian) authority to the Elbe and produced the eastern German bishoprics that survived into the modern era.",
+      "wikiSlug": "Saxon_Wars",
+      "tier": 2,
+      "tags": ["wars", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-charlemagne-lombard-conquest",
+      "label": "Conquest of the Lombards",
+      "year": 774,
+      "description": "Charlemagne destroyed the Lombard kingdom of Italy in 774, taking the Iron Crown of Lombardy at Pavia and adding 'King of the Lombards' to his Frankish title. The conquest secured the Papal States, ended two centuries of Lombard rule in northern Italy, and made Charlemagne the dominant ruler of western Christendom.",
+      "wikiSlug": "Lombards",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-charlemagne-avar-war",
+      "label": "Defeat of the Avars",
+      "year": 791,
+      "endYear": 803,
+      "description": "Between 791 and 803 Charlemagne's armies destroyed the Avar Khaganate, the steppe-nomad polity that had dominated the Hungarian plain for two centuries. The Frankish chronicler reports that the Avar treasure — accumulated over generations of tribute extracted from Constantinople — required fifteen ox-carts to haul back to Aachen.",
+      "wikiSlug": "Avars_(Carpathians)",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-charlemagne-coronation",
+      "label": "Charlemagne Crowned Emperor",
+      "year": 800,
+      "description": "Pope Leo III crowned Charlemagne Emperor of the Romans in St. Peter's Basilica on Christmas Day 800, the first time a Roman imperial title had been conferred in the west since 476. The coronation founded the medieval idea of a Christian Roman empire under papal sanction, deeply offended Constantinople (which considered the Roman emperorship its own monopoly), and shaped the relationship between popes and emperors for the next thousand years.",
+      "wikiSlug": "Coronation_of_Charlemagne",
+      "tier": 1,
+      "tags": ["religion", "rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-aachen-palace",
+      "label": "Aachen Palace Chapel",
+      "year": 805,
+      "description": "Charlemagne built his fixed capital and palace complex at Aachen in the late eighth century, with the octagonal Palatine Chapel — modeled on Justinian's San Vitale at Ravenna — consecrated in 805. The chapel still stands and contains Charlemagne's tomb. Aachen replaced the older Frankish itinerant kingship with a permanent imperial court.",
+      "wikiSlug": "Palatine_Chapel,_Aachen",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-carolingian-renaissance",
+      "label": "Carolingian Renaissance",
+      "year": 780,
+      "endYear": 850,
+      "description": "Under Charlemagne and his successors, scholars at the Aachen palace school led by Alcuin of York standardized Latin grammar, copied the entire surviving corpus of classical Latin literature in monastery scriptoria across the empire, and developed Carolingian minuscule — the elegant lowercase script that became the basis of every later Roman typeface, including the lowercase letters you are reading now.",
+      "wikiSlug": "Carolingian_Renaissance",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-alcuin-of-york",
+      "label": "Alcuin of York",
+      "year": 781,
+      "description": "Alcuin of York (c. 735–804), a Northumbrian scholar trained at York under the heirs of Bede, joined Charlemagne's court in 781 and became the leading intellectual of the Carolingian Renaissance. He directed the Aachen palace school, oversaw the reform of the Frankish liturgy, and pushed the development of Carolingian minuscule.",
+      "wikiSlug": "Alcuin",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "people"
+    },
+    {
+      "id": "evt-carolingian-minuscule",
+      "label": "Carolingian Minuscule",
+      "year": 800,
+      "description": "Carolingian minuscule, the clear lowercase script with separated letters and uniform letter-heights developed in late 8th-century Frankish scriptoria, replaced the cramped national hands of the post-Roman west and made manuscripts dramatically easier to read. Italian Renaissance humanists in the 1400s mistook Carolingian books for ancient Roman ones, copied the script — and Renaissance typesetters then turned it into roman type, the basis of every modern lowercase font.",
+      "wikiSlug": "Carolingian_minuscule",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-louis-the-pious",
+      "label": "Louis the Pious",
+      "year": 814,
+      "endYear": 840,
+      "description": "Louis the Pious, Charlemagne's only surviving legitimate son, inherited the entire empire in 814 and ruled it as one piece for 26 years. His later reign was riven by civil wars among his sons over the planned succession, foreshadowing the Treaty of Verdun and the permanent partition of the empire after his death.",
+      "wikiSlug": "Louis_the_Pious",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-treaty-verdun",
+      "label": "Treaty of Verdun",
+      "year": 843,
+      "description": "The three surviving grandsons of Charlemagne — Lothair, Louis the German, and Charles the Bald — divided his empire by the Treaty of Verdun in August 843 into West Francia (the future France), East Francia (the future Germany), and Middle Francia (a contested strip from the Low Countries through Lorraine to Italy). The partition is the deep structural origin of the political map of western Europe and the source of the millennial Franco-German dispute over Alsace and Lorraine.",
+      "wikiSlug": "Treaty_of_Verdun",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-strasbourg-oaths",
+      "label": "Oaths of Strasbourg",
+      "year": 842,
+      "description": "Louis the German and Charles the Bald exchanged sworn oaths of mutual support against their elder brother Lothair at Strasbourg in February 842, with each swearing in the other's vernacular so that both armies could understand. The Romance text of the oaths is the earliest surviving document in any language identifiably French rather than Latin.",
+      "wikiSlug": "Oaths_of_Strasbourg",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-viking-raids-begin",
+      "label": "Viking Raids Begin",
+      "year": 793,
+      "description": "The Viking sack of the Lindisfarne monastery on June 8, 793 conventionally marks the start of the Viking Age in western Europe — three centuries of Scandinavian raiding, trading, and settlement that reshaped Britain, Ireland, France, and the lands east to Kyiv. The Northumbrian scholar Alcuin, then at Charlemagne's court, wrote a famous letter of horror at the news.",
+      "wikiSlug": "Vikings",
+      "tier": 1,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-great-heathen-army",
+      "label": "Great Heathen Army",
+      "year": 865,
+      "endYear": 878,
+      "description": "A coalition of Danish Viking armies — the Great Heathen Army — landed in East Anglia in 865 and within a decade had destroyed three of the four major Anglo-Saxon kingdoms, killing the kings of Northumbria, East Anglia, and Mercia. Only Wessex under Alfred the Great survived to push back.",
+      "wikiSlug": "Great_Heathen_Army",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-alfred-great",
+      "label": "Alfred the Great",
+      "year": 871,
+      "endYear": 899,
+      "description": "Alfred, king of Wessex from 871 to 899, was the only Anglo-Saxon king to defeat the Vikings decisively. He won the Battle of Edington in 878, codified English law, organized a defensive system of fortified burhs, founded the English navy, and personally translated Latin classics including Boethius and Gregory the Great into Old English.",
+      "wikiSlug": "Alfred_the_Great",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-edington",
+      "label": "Battle of Edington",
+      "year": 878,
+      "description": "Alfred the Great defeated the Viking warlord Guthrum at the Battle of Edington in May 878, after months hiding in the Somerset marshes at Athelney. The victory forced Guthrum to accept baptism and led directly to the partition of England into Wessex and the Danelaw.",
+      "wikiSlug": "Battle_of_Edington",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-danelaw",
+      "label": "The Danelaw",
+      "year": 878,
+      "description": "After Alfred's victory at Edington, the resulting treaty divided England between Anglo-Saxon Wessex and Danish-ruled territory east and north of the Watling Street. The Danelaw left lasting imprints on English place names ending in -by, -thorpe, and -toft, on English law (the word 'law' itself is a Norse loan), and on English vocabulary (sky, leg, knife, them, are all Norse).",
+      "wikiSlug": "Danelaw",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-rollo-normandy",
+      "label": "Foundation of Normandy",
+      "year": 911,
+      "description": "King Charles the Simple of West Francia ceded the lower Seine valley to the Viking warlord Rollo in 911 by the Treaty of Saint-Clair-sur-Epte, on condition that Rollo accept baptism and stop raiding. The settlement became Normandy ('Land of the Northmen') and within a century would produce the Norman conquerors of England, southern Italy, and Sicily.",
+      "wikiSlug": "Rollo",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-rus-founded",
+      "label": "Rus' Founded",
+      "year": 862,
+      "description": "Scandinavian traders and warriors known as the Rus' established a polity centered first on Novgorod under the legendary leader Rurik in 862 and then on Kyiv after 882. It was the founding of the medieval state that became the ancestor of Russia, Belarus, and Ukraine, and the conduit for Viking trade with the Abbasid Caliphate down the Volga and Dnieper rivers.",
+      "wikiSlug": "Kievan_Rus%27",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-vladimir-conversion",
+      "label": "Vladimir Converts the Rus'",
+      "year": 988,
+      "description": "Grand Prince Vladimir of Kyiv accepted baptism in 988, married the Byzantine emperor's sister Anna, and made Eastern Orthodox Christianity the state religion of the Rus'. The conversion brought Russia into the Byzantine cultural sphere — the alphabet, the church architecture, the political ideology — rather than the Latin one, with consequences that have lasted to the present.",
+      "wikiSlug": "Christianization_of_Kievan_Rus%27",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-magyar-raids",
+      "label": "Magyar Raids",
+      "year": 899,
+      "endYear": 955,
+      "description": "The Magyars — a people of Finno-Ugric origin who had migrated from the Urals to the Hungarian plain in the 890s — launched devastating raids deep into Italy, Germany, and even northern France between 899 and 955. The Magyar raid was the eastern half of the ninth-century triple shock that drove the proto-feudal response in western Europe.",
+      "wikiSlug": "Hungarian_invasions_of_Europe",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-saracen-raids",
+      "label": "Saracen Raids",
+      "year": 827,
+      "endYear": 1000,
+      "description": "Muslim pirate fleets — called Saracens by Western chroniclers — raided the western Mediterranean from bases in Sicily (conquered from the Byzantines after 827) and the Provençal coast at Fraxinetum (established around 887). They sacked Rome in 846, kidnapped the abbot of Cluny in 972, and made the western Mediterranean a Muslim lake until the late tenth century.",
+      "wikiSlug": "Arab_raids_on_Italy",
+      "tier": 2,
+      "tags": ["wars", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-aghlabid-sicily",
+      "label": "Aghlabid Conquest of Sicily",
+      "year": 827,
+      "endYear": 902,
+      "description": "The Aghlabid emirs of Tunisia began the conquest of Byzantine Sicily in 827, taking Palermo in 831, Syracuse in 878, and Taormina in 902. Sicily would remain under Muslim rule for two centuries, becoming one of the most prosperous and culturally productive provinces of the medieval Mediterranean before the Norman conquest of the late eleventh century.",
+      "wikiSlug": "Muslim_conquest_of_Sicily",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sack-rome-846",
+      "label": "Saracen Sack of Rome 846",
+      "year": 846,
+      "description": "An Aghlabid Muslim raiding fleet sailed up the Tiber in August 846, sacked the basilicas of St. Peter and St. Paul outside the Aurelian Walls, and looted the tombs of the apostles. Pope Leo IV responded by enclosing the Vatican Hill in the Leonine Wall, finally completed in 852 — the first time St. Peter's was given fortified protection.",
+      "wikiSlug": "Sack_of_Rome_(846)",
+      "tier": 3,
+      "tags": ["wars", "religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-feudalism-emerges",
+      "label": "Proto-Feudal Order",
+      "year": 850,
+      "endYear": 1000,
+      "description": "The Frankish state's inability to defend its territories against the Vikings, Magyars, and Saracens forced public authority to fragment downward into private hands. Local strongmen built castles, granted land in exchange for military service from mounted knights, and converted their offices into hereditary fiefs. The package — the proto-feudal contract, the castle, the heavy cavalry knight, the manor — became the structural basis of west European political life until the rise of centralized monarchies in the late Middle Ages.",
+      "wikiSlug": "Feudalism",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-stirrup-knight",
+      "label": "Stirrup and Mounted Knight",
+      "year": 750,
+      "description": "The stirrup, introduced into western Europe via the steppe nomads of the Avars and Magyars in the seventh and eighth centuries, made it possible for a heavily armored warrior to sit firmly in the saddle while delivering the couched-lance charge that defined medieval cavalry warfare. The historian Lynn White Jr. argued in 1962 that the stirrup created feudalism; modern scholars treat the connection as much more diffuse but the technological enabler is real.",
+      "wikiSlug": "Stirrup",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-otto-i-rule",
+      "label": "Otto I the Great",
+      "year": 936,
+      "endYear": 973,
+      "description": "Otto I, son of Henry the Fowler and Duke of Saxony, became king of East Francia in 936, defeated the Magyars decisively at Lechfeld in 955, was crowned Emperor by Pope John XII in Rome in 962, and founded the Holy Roman Empire as a continuous institution that would last until Napoleon dissolved it in 1806.",
+      "wikiSlug": "Otto_I,_Holy_Roman_Emperor",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-battle-lechfeld",
+      "label": "Battle of Lechfeld",
+      "year": 955,
+      "description": "Otto I destroyed a major Magyar invasion force at the Battle of Lechfeld outside Augsburg on August 10, 955, killing the Magyar leadership and effectively ending the Magyar raids on western Europe. The victory consolidated Otto's authority over the German dukes and made the eventual Christianization and integration of Hungary possible.",
+      "wikiSlug": "Battle_of_Lechfeld",
+      "tier": 2,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-otto-i-empire",
+      "label": "Otto I Crowned Emperor",
+      "year": 962,
+      "description": "Otto I was crowned Emperor by Pope John XII in St. Peter's on February 2, 962, founding the Holy Roman Empire as a continuous institution. The coronation revived Charlemagne's imperial title after a 38-year vacancy and tied the German monarchy permanently to Italy and the papacy.",
+      "wikiSlug": "Holy_Roman_Empire",
+      "tier": 2,
+      "tags": ["rulers", "religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cluny-reform",
+      "label": "Cluny Founded",
+      "year": 910,
+      "description": "Duke William the Pious of Aquitaine founded the abbey of Cluny in Burgundy in 910 with an unusual charter: the abbey would be subject directly to the pope, free from all secular and even episcopal control. This freedom let Cluny pursue strict Benedictine reform, and within two centuries it oversaw a network of more than a thousand daughter houses across western Europe.",
+      "wikiSlug": "Cluny_Abbey",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-cluniac-reform",
+      "label": "Cluniac Reform",
+      "year": 950,
+      "description": "The Cluniac monastic reform movement of the tenth and eleventh centuries pushed for stricter observance of the Rule of Benedict, longer liturgical hours, freedom of monasteries from secular interference, and (later) celibacy of the parish clergy. Cluny's reformers became some of the most influential figures in eleventh-century European religious life, including Pope Gregory VII.",
+      "wikiSlug": "Cluniac_Reforms",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-conversion-hungary",
+      "label": "Conversion of Hungary",
+      "year": 1000,
+      "description": "Stephen I of Hungary was crowned Christian king of Hungary on Christmas Day 1000 with a crown sent by Pope Sylvester II, completing the Magyar conversion to Latin Catholicism rather than to Greek Orthodoxy. The choice tied Hungary permanently to the Latin west — the Hungarian alphabet is Latin, not Cyrillic — and is one of the structural facts of central European history.",
+      "wikiSlug": "Stephen_I_of_Hungary",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-conversion-poland",
+      "label": "Conversion of Poland",
+      "year": 966,
+      "description": "Mieszko I, founder of the Polish state, accepted baptism in 966 and married the Bohemian princess Doubrava, bringing Poland into Latin Christendom. As with Hungary, the choice between Rome and Constantinople determined which alphabet, which liturgy, and which civilizational sphere a new central European state would belong to.",
+      "wikiSlug": "Mieszko_I",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-millennial-fears",
+      "label": "Year 1000 Apocalypticism",
+      "year": 1000,
+      "description": "The approach of the year 1000 produced a wave of apocalyptic anxiety in some western Christian communities, with chroniclers reporting popular fears that the millennium of Christ's birth or the Resurrection would bring the end of the world. Modern scholars have argued for decades over how widespread the panic actually was — Jules Michelet popularized 'the terrors of the year 1000' in the 1830s, and recent historians treat the picture as overdrawn but not invented.",
+      "wikiSlug": "Christian_eschatology",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-leif-erikson-vinland",
+      "label": "Leif Erikson Reaches Vinland",
+      "year": 1000,
+      "description": "Around 1000, the Norse explorer Leif Erikson sailed from Greenland to a coast he called Vinland, almost certainly the site at L'Anse aux Meadows on Newfoundland — the first attested European arrival in the Americas, nearly five centuries before Columbus. The Norse settlement was abandoned within a few years.",
+      "wikiSlug": "Leif_Erikson",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-three-field-system",
+      "label": "Three-Field System Spreads",
+      "year": 800,
+      "endYear": 1000,
+      "description": "The three-field crop rotation — winter grain, spring grain, fallow — gradually replaced the two-field system across northern Europe between roughly 800 and 1000. Combined with the heavy mouldboard plow and the rigid horse collar, it dramatically increased the productivity of north European agriculture and powered the urban revival of the High Middle Ages.",
+      "wikiSlug": "Three-field_system",
+      "tier": 3,
+      "tags": ["trade"],
+      "category": "science"
+    },
+    {
+      "id": "evt-heavy-plow",
+      "label": "Heavy Mouldboard Plow",
+      "year": 800,
+      "description": "The heavy iron mouldboard plow, drawn by oxen and later horses, came into wide use across northern Europe in the early Middle Ages. Unlike the older Mediterranean scratch-plow, it could turn the heavy clay soils of the north European plain — a region that had been agriculturally marginal under the Romans and would become Europe's breadbasket as a direct consequence.",
+      "wikiSlug": "Plough",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-horse-collar",
+      "label": "Rigid Horse Collar",
+      "year": 850,
+      "description": "The rigid padded horse collar, transmitted into Europe from China and Central Asia in the early Middle Ages, allowed horses to pull a load with their shoulders rather than choking against an ox-yoke around their throats. Combined with iron horseshoes, it tripled the effective draft power of a working horse and underwrote the late-medieval agricultural revolution.",
+      "wikiSlug": "Horse_collar",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-watermills-spread",
+      "label": "Watermills Spread Across Europe",
+      "year": 900,
+      "description": "Watermills had existed in the Roman world but became ubiquitous across early medieval Europe, with the Domesday Book later recording over 6,000 mills in eleventh-century England alone. They ground grain, fulled cloth, sawed wood, and hammered iron — the first step toward Europe's harnessing of mechanical power that would culminate in the Industrial Revolution eight centuries later.",
+      "wikiSlug": "Watermill",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-asturias-survives",
+      "label": "Kingdom of Asturias",
+      "year": 718,
+      "endYear": 910,
+      "description": "Pelagius (Pelayo), a Visigothic noble who had escaped the Arab conquest, won a small skirmish at Covadonga in the northern Spanish mountains around 722 that the later Christian Reconquista would memorialize as its founding moment. The Kingdom of Asturias survived in the Cantabrian uplands as the seed of Christian Spain throughout the long Muslim-controlled centuries.",
+      "wikiSlug": "Kingdom_of_Asturias",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-reconquista-begins",
+      "label": "Reconquista Begins",
+      "year": 722,
+      "description": "The Battle of Covadonga in roughly 722, where the Visigothic survivor Pelayo defeated a small Muslim force in the northern Spanish mountains, conventionally marks the start of the Christian Reconquista of the Iberian peninsula — though it was a tiny skirmish at the time and the eight-century reconquest narrative was largely constructed afterward.",
+      "wikiSlug": "Battle_of_Covadonga",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-papal-states-founded",
+      "label": "Papal States",
+      "year": 756,
+      "endYear": 1870,
+      "description": "The territories Pippin the Short donated to Pope Stephen II in 754–756 became the Papal States, a strip of central Italy ruled directly by the popes from Rome to Ravenna. The Papal States gave the papacy temporal as well as spiritual authority and survived in some form until Italian unification finally absorbed them in 1870.",
+      "wikiSlug": "Papal_States",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-charles-the-bald",
+      "label": "Charles the Bald",
+      "year": 840,
+      "endYear": 877,
+      "description": "Charles the Bald, youngest son of Louis the Pious, ruled West Francia from 840 to 877 and was briefly crowned Emperor in 875. His reign was consumed by repeated Viking raids up the Seine and the Loire, including a six-month Viking siege of Paris in 845 that ended only when Charles paid the Vikings 7,000 pounds of silver to leave.",
+      "wikiSlug": "Charles_the_Bald",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-siege-paris-885",
+      "label": "Siege of Paris 885",
+      "year": 885,
+      "endYear": 886,
+      "description": "A Viking fleet of perhaps 700 ships and 30,000 men besieged Paris from November 885 until October 886, repulsed by Count Odo's defense of the fortified bridges across the Seine. Emperor Charles the Fat eventually paid the Vikings 700 pounds of silver to leave and gave them permission to ravage Burgundy instead — a humiliating settlement that contributed to his deposition the following year.",
+      "wikiSlug": "Siege_of_Paris_(885%E2%80%93886)",
+      "tier": 3,
+      "tags": ["wars"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-end-carolingian-empire",
+      "label": "End of the Carolingian Empire",
+      "year": 887,
+      "description": "Emperor Charles the Fat, the last Carolingian to briefly reunite the entire empire, was deposed in November 887 by his nephew Arnulf of Carinthia. His death the following January ended any serious attempt to keep Charlemagne's empire intact and confirmed the permanent fragmentation into the kingdoms that became France, Germany, Italy, Burgundy, and Provence.",
+      "wikiSlug": "Charles_the_Fat",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-henry-the-fowler",
+      "label": "Henry the Fowler",
+      "year": 919,
+      "endYear": 936,
+      "description": "Henry I the Fowler, Duke of Saxony, was elected king of East Francia in 919, founding the Ottonian (Saxon) dynasty that would rule Germany for the next century. He defeated the Magyars at the Battle of Riade in 933 and built a network of fortified burgs in Saxony that anchored the Ottonian recovery.",
+      "wikiSlug": "Henry_the_Fowler",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-otto-iii-rome",
+      "label": "Otto III in Rome",
+      "year": 996,
+      "endYear": 1002,
+      "description": "Otto III, the polyglot grandson of Otto I, was crowned Emperor in 996, fixed his capital in Rome, dreamed of restoring a literal Roman empire of the Christian world, and appointed the brilliant scholar-mathematician Gerbert of Aurillac as Pope Sylvester II. Otto died at twenty-one in 1002 with his project unfinished.",
+      "wikiSlug": "Otto_III,_Holy_Roman_Emperor",
+      "tier": 3,
+      "tags": ["rulers"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gerbert-aurillac",
+      "label": "Gerbert of Aurillac",
+      "year": 999,
+      "endYear": 1003,
+      "description": "Gerbert of Aurillac, who became Pope Sylvester II in 999, was the most learned man in tenth-century Latin Europe — he had studied mathematics and astronomy in the Christian-Muslim borderlands of Catalonia, introduced Hindu-Arabic numerals and the abacus to the Latin schools, and built astronomical instruments. His pontificate was a small intellectual flowering on the threshold of the High Middle Ages.",
+      "wikiSlug": "Pope_Sylvester_II",
+      "tier": 3,
+      "tags": ["people", "religion"],
+      "category": "science"
+    },
+    {
+      "id": "evt-bulgarian-conversion",
+      "label": "Conversion of Bulgaria",
+      "year": 864,
+      "description": "Khan Boris I of Bulgaria accepted baptism from Byzantine missionaries in 864, choosing Greek Orthodox Christianity over the Latin alternative offered by Pope Nicholas I. The Bulgarian conversion brought a major Slavic state into the Byzantine cultural sphere and produced the development of the Cyrillic alphabet by the disciples of Cyril and Methodius.",
+      "wikiSlug": "Christianization_of_Bulgaria",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-cyrillic-alphabet",
+      "label": "Cyrillic Alphabet",
+      "year": 893,
+      "description": "The disciples of the Byzantine missionary brothers Cyril and Methodius developed the Cyrillic alphabet in Bulgaria around 893, adapting Greek letters to record Slavic sounds. It became the script of every Slavic Orthodox Christian people — Russians, Ukrainians, Belarusians, Bulgarians, Serbs — and is the structural reason the Latin-Cyrillic line bisects modern Europe.",
+      "wikiSlug": "Cyrillic_script",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-anglo-saxon-chronicle",
+      "label": "Anglo-Saxon Chronicle Begins",
+      "year": 890,
+      "description": "King Alfred the Great's court began compiling the Anglo-Saxon Chronicle around 890, a year-by-year history of the English-speaking peoples written in Old English. Continuations were maintained at multiple monastic centers until the mid-twelfth century, making it the most extensive vernacular history produced anywhere in early medieval Europe.",
+      "wikiSlug": "Anglo-Saxon_Chronicle",
+      "tier": 3,
+      "tags": ["writing"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-beowulf-composed",
+      "label": "Beowulf Composed",
+      "year": 800,
+      "description": "The Old English epic poem Beowulf, telling the story of a Geatish hero who fights the monster Grendel and a dragon, was probably composed somewhere between 700 and 1000 — the dating remains contested. Its sole surviving manuscript dates from around 1000 and survived a 1731 fire by accident. It is the longest and greatest poem in Old English.",
+      "wikiSlug": "Beowulf",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-castle-emergence",
+      "label": "Emergence of the Castle",
+      "year": 900,
+      "endYear": 1000,
+      "description": "The first true castles — privately owned fortified residences serving both as homes and as instruments of local political control — appeared in Frankish territory in the late ninth and tenth centuries, originally as wooden motte-and-bailey structures. The castle is the architectural signature of the proto-feudal response to the Viking, Magyar, and Saracen raids and would dominate the European landscape until gunpowder artillery made it obsolete in the late fifteenth century.",
+      "wikiSlug": "Castle",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sutton-hoo",
+      "label": "Sutton Hoo Burial",
+      "year": 625,
+      "description": "An early Anglo-Saxon king, almost certainly Rædwald of East Anglia, was buried around 625 in a 90-foot ship beneath a great mound at Sutton Hoo in Suffolk. Excavated in 1939, the burial yielded the famous gilt-and-garnet helmet, gold belt buckle, sword, lyre, and Byzantine silverware — the richest find from early Anglo-Saxon England and proof of the period's vast trade connections.",
+      "wikiSlug": "Sutton_Hoo",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-book-of-kells",
+      "label": "Book of Kells",
+      "year": 800,
+      "description": "The Book of Kells, an illuminated gospel manuscript made around 800 either at Iona or at Kells in Ireland (probably both — work began at Iona and finished at Kells after Vikings forced the community to evacuate), is the most spectacular surviving example of Insular Celtic illumination. Its dense interlaced page borders and zoomorphic capital letters define the Insular style.",
+      "wikiSlug": "Book_of_Kells",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-arab-byzantine-trade",
+      "label": "Mediterranean Long-Distance Trade",
+      "year": 700,
+      "endYear": 1000,
+      "description": "Despite the religious fault line running through the Mediterranean after the Arab conquests, long-distance trade in luxury goods — Byzantine silk, Egyptian linen, Frankish swords, Saxon slaves, Slavic furs, Baltic amber, Indian spices, African gold — continued throughout the early Middle Ages, conducted largely by Jewish, Syrian, and Italian merchants. Venice, founded in lagoons by refugees from Lombard Italy, became the principal western terminus by the tenth century.",
+      "wikiSlug": "Medieval_trade_routes",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-venice-emerges",
+      "label": "Rise of Venice",
+      "year": 800,
+      "endYear": 1000,
+      "description": "Refugees from Lombard mainland Italy settled in the Venetian lagoon in the sixth and seventh centuries, and by the ninth and tenth centuries Venice had emerged as a self-governing maritime republic under nominal Byzantine suzerainty. By the year 1000 Venice was the dominant western trading link to Constantinople, the eastern Mediterranean, and the Islamic world.",
+      "wikiSlug": "Republic_of_Venice",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-frankish-swords",
+      "label": "Ulfberht Swords",
+      "year": 850,
+      "description": "Frankish smiths in the Rhineland produced exceptionally hard, well-tempered crucible-steel swords inscribed +VLFBERHT+ between roughly 800 and 1000. They were exported (often illegally — Carolingian capitularies tried to ban the trade) across northern Europe and became the most prized weapon of the Viking world; over 170 surviving examples have been catalogued.",
+      "wikiSlug": "Ulfberht_swords",
+      "tier": 3,
+      "tags": ["trade"],
+      "category": "trade"
+    }
+  ]
+}
