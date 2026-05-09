@@ -45,9 +45,9 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'ancient-israel', label: 'Ancient Israel', subtitle: "the Hebrew kingdoms and the First Temple", region: 'near-east', startYear: -1020, endYear: -586, hasContent: true },
   { id: 'persian-empire', label: 'Persian Empire', subtitle: "Iran's first world empire", region: 'near-east', startYear: -559, endYear: 651, hasContent: true },
   { id: 'umayyad-caliphate', label: 'Rashidun & Umayyad', subtitle: "Islam's century of conquest, Medina to Damascus", region: 'near-east', startYear: 632, endYear: 750 },
-  { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258 },
-  { id: 'ottoman-empire', label: 'Ottoman Empire', subtitle: "Turkey's six-century juggernaut", region: 'near-east', startYear: 1299, endYear: 1922 },
-  { id: 'safavid-persia', label: 'Safavid Persia', subtitle: "Iran's Shia revolution", region: 'near-east', startYear: 1501, endYear: 1736 },
+  { id: 'islamic-golden-age', label: 'Islamic Golden Age', subtitle: 'Baghdad to Córdoba, science and trade', region: 'near-east', startYear: 750, endYear: 1258, hasContent: true },
+  { id: 'ottoman-empire', label: 'Ottoman Empire', subtitle: "Turkey's six-century juggernaut", region: 'near-east', startYear: 1299, endYear: 1922, hasContent: true },
+  { id: 'safavid-persia', label: 'Safavid Persia', subtitle: "Iran's Shia revolution", region: 'near-east', startYear: 1501, endYear: 1736, hasContent: true },
 
   // ── AFRICA ──
   { id: 'ancient-nubia', label: 'Ancient Nubia', subtitle: 'upper Nile rival to Egypt', region: 'africa', startYear: -3800, endYear: -1070, hasContent: true },
