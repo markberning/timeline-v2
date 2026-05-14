@@ -6,3 +6,6 @@ out/
 .DS_Store
 tsconfig.tsbuildinfo
 public/offline/
+.env
+.env.local
+.env.*.local
