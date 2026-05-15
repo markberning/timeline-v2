@@ -50,6 +50,22 @@
       "endYear": 2010,
       "wikiSlug": "Economic_liberalisation_in_India",
       "description": "Finance Minister Manmohan Singh dismantled the License Raj amid a balance-of-payments crisis, opening India to foreign investment and global markets. The reforms fueled rapid GDP growth and India's rise as an IT and services powerhouse."
+    },
+    {
+      "id": "span-modern-india-mi-coalition",
+      "label": "Coalition Era",
+      "startYear": 1989,
+      "endYear": 2014,
+      "wikiSlug": "Politics_of_India",
+      "description": "A quarter-century of multiparty coalition governments, from the 1989 hung parliament through the NDA and UPA, during which no single party held an outright Lok Sabha majority."
+    },
+    {
+      "id": "span-modern-india-mi-modi-era",
+      "label": "Modi Era",
+      "startYear": 2014,
+      "endYear": 2026,
+      "wikiSlug": "Premiership_of_Narendra_Modi",
+      "description": "The return of single-party dominance under Narendra Modi's BJP, marked by demonetization, GST, the abrogation of Article 370, and a civilizational-nationalist reframing of Indian identity."
     }
   ],
   "events": [
@@ -58,115 +74,501 @@
       "label": "Sepoy Mutiny",
       "year": 1857,
       "endYear": 1858,
-      "description": "Indian soldiers rebelled against the British East India Company, triggering a widespread uprising that ended Company rule and led to direct Crown governance.",
+      "description": "Indian soldiers of the Bengal Army rebelled over greased rifle cartridges, igniting the largest armed challenge to British rule in 19th-century India and ending East India Company governance.",
       "wikiSlug": "Indian_Rebellion_of_1857",
       "tier": 1,
       "category": "wars",
       "tags": []
     },
     {
-      "id": "evt-mi-british-raj-begins",
-      "label": "British Raj established",
+      "id": "evt-mi-bahadur-shah-exiled",
+      "label": "Bahadur Shah Zafar Exiled",
       "year": 1858,
-      "description": "After the mutiny, the British Crown assumed direct control of India from the East India Company, beginning the era of the British Raj.",
-      "wikiSlug": "British_Raj",
+      "description": "The last Mughal emperor, made figurehead of the 1857 rebellion, was tried for treason and exiled to Rangoon, formally ending the 330-year Mughal line.",
+      "wikiSlug": "Bahadur_Shah_II",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-british-raj-begins",
+      "label": "British Raj Established",
+      "year": 1858,
+      "description": "The Government of India Act 1858 transferred Company territories to the Crown, created the Secretary of State for India, and made Queen Victoria sovereign of British India.",
+      "wikiSlug": "Government_of_India_Act_1858",
       "tier": 1,
       "category": "rulers",
       "tags": []
     },
     {
-      "id": "evt-mi-inc-founded",
-      "label": "Indian National Congress founded",
-      "year": 1885,
-      "description": "Educated Indians formed the Indian National Congress, which became the primary vehicle for the independence movement over the next six decades.",
-      "wikiSlug": "Indian_National_Congress",
+      "id": "evt-mi-penal-code",
+      "label": "Indian Penal Code Enacted",
+      "year": 1860,
+      "description": "Thomas Macaulay's codification of Indian criminal law on English lines became the governing criminal code, with amendments, until it was replaced in 2023.",
+      "wikiSlug": "Indian_Penal_Code",
+      "tier": 2,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-first-railway",
+      "label": "First Railway Line Opens",
+      "year": 1853,
+      "description": "The Bombay-to-Thane line opened the Indian railway network, which grew from zero to 25,000 miles by 1900, stitching the subcontinent into a single economic and political space.",
+      "wikiSlug": "Indian_Railways",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-suez-canal",
+      "label": "Suez Canal Shortens the India Route",
+      "year": 1869,
+      "description": "The Suez Canal cut the sea distance between Britain and India by roughly 4,500 miles, deepening colonial economic integration and accelerating the export economy.",
+      "wikiSlug": "Suez_Canal",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-victoria-empress",
+      "label": "Victoria Proclaimed Empress of India",
+      "year": 1876,
+      "description": "The Royal Titles Act made Queen Victoria Empress of India, formalizing the symbolic apex of the Raj and the durbar political theatre that came with it.",
+      "wikiSlug": "Empress_of_India",
       "tier": 2,
       "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-great-famine",
+      "label": "Great Famine of 1876-78",
+      "year": 1876,
+      "endYear": 1878,
+      "description": "A monsoon failure and laissez-faire colonial policy produced a famine that killed 5-10 million people across the Deccan and Madras while India remained a net food exporter.",
+      "wikiSlug": "Great_Famine_of_1876%E2%80%931878",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-brahmo-sati",
+      "label": "Brahmo Samaj and the Sati Ban",
+      "year": 1828,
+      "endYear": 1829,
+      "description": "Ram Mohan Roy's Brahmo Samaj combined Vedanta monotheism with social reform; his campaign produced the 1829 Company ban on sati, the immolation of widows.",
+      "wikiSlug": "Brahmo_Samaj",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-arya-samaj",
+      "label": "Arya Samaj Founded",
+      "year": 1875,
+      "description": "Dayananda Saraswati's Arya Samaj launched a Vedic-revivalist Hindu reform movement that shaped later cultural nationalism in northern India.",
+      "wikiSlug": "Arya_Samaj",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-inc-founded",
+      "label": "Indian National Congress Founded",
+      "year": 1885,
+      "description": "Seventy-two delegates convened by retired civil servant A. O. Hume founded the Congress as a moderate debating body; it became the vehicle of the freedom struggle.",
+      "wikiSlug": "Indian_National_Congress",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-taj-mahal-hotel",
+      "label": "Taj Mahal Palace Hotel Opens",
+      "year": 1903,
+      "description": "Jamsetji Tata's Bombay hotel became a symbol of Indian commercial ambition under the Raj and, a century later, a target of the 2008 Mumbai attacks.",
+      "wikiSlug": "Taj_Mahal_Palace_Hotel",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-tagore-nobel",
+      "label": "Rabindranath Tagore Wins the Nobel",
+      "year": 1913,
+      "description": "Tagore's self-translated Gitanjali won the Nobel Prize in Literature, the first to any non-European, a watershed for Indian cultural self-conception.",
+      "wikiSlug": "Rabindranath_Tagore",
+      "tier": 1,
+      "category": "writing",
       "tags": []
     },
     {
       "id": "evt-mi-partition-bengal",
       "label": "Partition of Bengal",
       "year": 1905,
-      "description": "The British partitioned Bengal along religious lines, sparking the Swadeshi movement and galvanizing nationalist sentiment across India.",
+      "endYear": 1911,
+      "description": "Curzon split Bengal along religious-demographic lines, triggering the Swadeshi mass movement; the partition was reversed in 1911.",
       "wikiSlug": "Partition_of_Bengal_(1905)",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-swadeshi",
+      "label": "Swadeshi Movement Begins",
+      "year": 1905,
+      "endYear": 1908,
+      "description": "The boycott of British goods and promotion of Indian-made substitutes was the first sustained mass mobilization of the nationalist period and the template for Gandhi's later campaigns.",
+      "wikiSlug": "Swadeshi_movement",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-muslim-league",
+      "label": "All-India Muslim League Founded",
+      "year": 1906,
+      "description": "Founded at Dhaka to lobby for separate Muslim political representation, the League would become the vehicle of the Pakistan movement.",
+      "wikiSlug": "All-India_Muslim_League",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-surat-split",
+      "label": "The Surat Congress Split",
+      "year": 1907,
+      "description": "Moderates and extremists came to blows on the conference floor over the Swadeshi resolution, splitting the Congress for nearly a decade.",
+      "wikiSlug": "Indian_National_Congress",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-morley-minto",
+      "label": "Morley-Minto Reforms",
+      "year": 1909,
+      "description": "The Indian Councils Act expanded legislative councils and introduced separate Muslim electorates, embedding communal representation in colonial constitutional structure.",
+      "wikiSlug": "Indian_Councils_Act_1909",
       "tier": 3,
       "category": "rulers",
       "tags": []
     },
     {
-      "id": "evt-mi-jallianwala-bagh",
-      "label": "Jallianwala Bagh massacre",
-      "year": 1919,
-      "description": "British troops fired on an unarmed crowd in Amritsar, killing hundreds and turning Indian public opinion decisively against colonial rule.",
-      "wikiSlug": "Jallianwala_Bagh_massacre",
+      "id": "evt-mi-capital-delhi",
+      "label": "Imperial Capital Moves to Delhi",
+      "year": 1911,
+      "description": "The capital was shifted from Calcutta to a new city south of Delhi, partly to escape Bengali nationalist agitation; New Delhi was built 1911-1931.",
+      "wikiSlug": "New_Delhi",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-ww1",
+      "label": "India in the First World War",
+      "year": 1914,
+      "endYear": 1918,
+      "description": "India sent 1.5 million soldiers and laborers to the war on the understanding that constitutional advance would follow British victory.",
+      "wikiSlug": "Indian_Army_during_World_War_I",
       "tier": 2,
       "category": "wars",
       "tags": []
     },
     {
+      "id": "evt-mi-lucknow-pact",
+      "label": "Lucknow Pact",
+      "year": 1916,
+      "description": "Congress and the Muslim League agreed a joint demand for self-government with reserved Muslim seats, the high-water mark of Hindu-Muslim political cooperation.",
+      "wikiSlug": "Lucknow_Pact",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rowlatt-act",
+      "label": "Rowlatt Act",
+      "year": 1919,
+      "description": "The extension of wartime detention-without-trial powers into peacetime triggered Gandhi's first nationwide hartal and the protests that led to Amritsar.",
+      "wikiSlug": "Rowlatt_Act",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-jallianwala-bagh",
+      "label": "Jallianwala Bagh Massacre",
+      "year": 1919,
+      "description": "General Dyer ordered 1,650 rounds fired into a trapped crowd at Amritsar; Congress counted at least 1,000 dead, ending British constitutional credibility with Indian nationalism.",
+      "wikiSlug": "Jallianwala_Bagh_massacre",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-goi-act-1919",
+      "label": "Government of India Act 1919",
+      "year": 1919,
+      "description": "The Montagu-Chelmsford reforms introduced provincial dyarchy and a partly elected legislature, judged inadequate by the radicalizing Congress.",
+      "wikiSlug": "Government_of_India_Act_1919",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-new-delhi-built",
+      "label": "New Delhi Inaugurated",
+      "year": 1931,
+      "description": "Lutyens and Baker's imperial capital was formally inaugurated, the architectural statement of a Raj that would last only sixteen more years.",
+      "wikiSlug": "New_Delhi",
+      "tier": 2,
+      "category": "architecture",
+      "tags": []
+    },
+    {
       "id": "evt-mi-gandhi-returns",
-      "label": "Gandhi returns to India",
+      "label": "Gandhi Returns to India",
       "year": 1915,
-      "description": "Mohandas Gandhi returned from South Africa and began organizing nonviolent resistance, transforming the independence movement into a mass campaign.",
+      "description": "Gandhi returned from twenty-one years in South Africa with the satyagraha method, an Indian-peasant self-presentation, and the khadi program.",
       "wikiSlug": "Mahatma_Gandhi",
       "tier": 1,
       "category": "people",
-      "tags": [
-        "rulers"
-      ]
+      "tags": []
+    },
+    {
+      "id": "evt-mi-champaran",
+      "label": "Champaran Satyagraha",
+      "year": 1917,
+      "description": "Gandhi's first Indian campaign, in support of Bihar's indigo tenant farmers, proved satyagraha could organize illiterate peasant populations.",
+      "wikiSlug": "Champaran_Satyagraha",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-khilafat",
+      "label": "Khilafat Movement",
+      "year": 1919,
+      "endYear": 1924,
+      "description": "The Indian Muslim campaign to preserve the Ottoman caliphate allied with Non-Cooperation to produce the only sustained unified Hindu-Muslim mass movement of the late Raj.",
+      "wikiSlug": "Khilafat_Movement",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
     },
     {
       "id": "evt-mi-non-cooperation",
       "label": "Non-Cooperation Movement",
       "year": 1920,
       "endYear": 1922,
-      "description": "Gandhi launched the Non-Cooperation Movement, urging Indians to boycott British goods, schools, and courts in a massive act of civil disobedience.",
-      "wikiSlug": "Non-cooperation_movement",
+      "description": "Gandhi's first national satyagraha boycotted British schools, courts, legislatures, honors, and goods, with Congress membership reaching two million.",
+      "wikiSlug": "Non-co-operation_movement",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-chauri-chaura",
+      "label": "Chauri Chaura Incident",
+      "year": 1922,
+      "description": "A Non-Cooperation crowd burned a police station and killed 22 policemen; Gandhi unilaterally called off the movement, a decision bitterly contested within Congress.",
+      "wikiSlug": "Chauri_Chaura_incident",
       "tier": 2,
       "category": "wars",
       "tags": []
     },
     {
+      "id": "evt-mi-rss-founded",
+      "label": "Rashtriya Swayamsevak Sangh Founded",
+      "year": 1925,
+      "description": "The RSS was founded at Nagpur as a Hindu-nationalist cultural organization; it would become the organizational core of the later Hindu-nationalist movement.",
+      "wikiSlug": "Rashtriya_Swayamsevak_Sangh",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-purna-swaraj",
+      "label": "Purna Swaraj Declaration",
+      "year": 1929,
+      "endYear": 1930,
+      "description": "The Lahore Congress declared complete independence the goal and set 26 January as Independence Day, later chosen as Republic Day.",
+      "wikiSlug": "Purna_Swaraj",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
       "id": "evt-mi-salt-march",
-      "label": "Salt March",
+      "label": "The Salt March",
       "year": 1930,
-      "description": "Gandhi led a 240-mile march to the sea to make salt in defiance of British tax laws, inspiring worldwide attention to Indian independence.",
+      "description": "Gandhi's theatrically engineered 240-mile walk to Dandi broke the British salt monopoly by mass civil defiance and brought world attention to the freedom struggle.",
       "wikiSlug": "Salt_March",
       "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-dharasana",
+      "label": "Dharasana Satyagraha",
+      "year": 1930,
+      "description": "Police systematically beat over 2,000 unresisting satyagrahis at the Dharasana salt works; Webb Miller's eyewitness dispatch shifted American opinion against the Raj.",
+      "wikiSlug": "Dharasana_Satyagraha",
+      "tier": 3,
       "category": "wars",
-      "tags": [
-        "people"
-      ]
+      "tags": []
+    },
+    {
+      "id": "evt-mi-round-table",
+      "label": "Round Table Conferences",
+      "year": 1930,
+      "endYear": 1932,
+      "description": "Three London conferences on India's constitutional future produced the Government of India Act 1935 but not the independence the Congress now demanded.",
+      "wikiSlug": "Round_Table_Conferences_(India)",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-poona-pact",
+      "label": "The Poona Pact",
+      "year": 1932,
+      "description": "Gandhi's fast forced Ambedkar to trade separate Dalit electorates for reserved seats within general constituencies, a substantive and unresolved disagreement.",
+      "wikiSlug": "Poona_Pact",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-goi-act-1935",
+      "label": "Government of India Act 1935",
+      "year": 1935,
+      "description": "The largest single piece of British colonial legislation created provincial autonomy with elected Indian ministries and framed Indian politics until 1947.",
+      "wikiSlug": "Government_of_India_Act_1935",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-congress-ministries",
+      "label": "Congress Provincial Ministries",
+      "year": 1937,
+      "endYear": 1939,
+      "description": "Congress won majorities in seven of eleven provinces and held office for 28 months, the future leaders' first sustained experience of executive government.",
+      "wikiSlug": "1937_Indian_provincial_elections",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-lahore-resolution",
+      "label": "Lahore Resolution",
+      "year": 1940,
+      "description": "The Muslim League called for 'Independent States' in the Muslim-majority regions of British India, the constitutional opening to Partition.",
+      "wikiSlug": "Lahore_Resolution",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-cripps-mission",
+      "label": "Cripps Mission",
+      "year": 1942,
+      "description": "Britain's wartime offer of post-war dominion status with a provincial opt-out was rejected by Congress; Gandhi called it 'a post-dated cheque on a failing bank.'",
+      "wikiSlug": "Cripps_Mission",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
     },
     {
       "id": "evt-mi-quit-india",
       "label": "Quit India Movement",
       "year": 1942,
-      "description": "Gandhi demanded an immediate end to British rule with the call 'Do or Die,' sparking mass protests despite harsh repression.",
-      "wikiSlug": "Quit_India_movement",
+      "description": "The Congress demanded immediate British withdrawal; the entire senior leadership was arrested within 24 hours and the resulting uprising was the most violent satyagraha.",
+      "wikiSlug": "Quit_India_Movement",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bose-ina",
+      "label": "Bose Leads the Indian National Army",
+      "year": 1943,
+      "endYear": 1945,
+      "description": "Subhas Chandra Bose reorganized the INA from Japanese-captured Indian POWs and led an Axis-supported invasion attempt at Imphal-Kohima in 1944.",
+      "wikiSlug": "Indian_National_Army",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bengal-famine",
+      "label": "Bengal Famine of 1943",
+      "year": 1943,
+      "endYear": 1944,
+      "description": "War policy, a cyclone, and the loss of Burmese rice imports produced a famine that killed 2-3 million people while India was a net food exporter.",
+      "wikiSlug": "Bengal_famine_of_1943",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-ina-trials",
+      "label": "The Red Fort INA Trials",
+      "year": 1945,
+      "endYear": 1946,
+      "description": "Court-martials of INA officers became a cause célèbre; the Royal Indian Navy mutinied in February 1946 and the British realized the army could no longer be relied on.",
+      "wikiSlug": "INA_trials",
       "tier": 2,
       "category": "wars",
       "tags": []
     },
     {
-      "id": "evt-mi-bose-ina",
-      "label": "Subhas Chandra Bose leads INA",
-      "year": 1943,
-      "description": "Bose organized the Indian National Army from POWs in Southeast Asia, fighting alongside Japan to liberate India from British rule.",
-      "wikiSlug": "Subhas_Chandra_Bose",
-      "tier": 3,
-      "category": "people",
-      "tags": [
-        "wars"
-      ]
+      "id": "evt-mi-cabinet-mission",
+      "label": "Cabinet Mission Plan",
+      "year": 1946,
+      "description": "Britain's proposed three-tier federation was accepted then repudiated by both Congress and the League, collapsing the last unitary settlement.",
+      "wikiSlug": "1946_Cabinet_Mission_to_India",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-direct-action-day",
+      "label": "Direct Action Day",
+      "year": 1946,
+      "description": "Jinnah's call to demonstrate Muslim resolve became the Great Calcutta Killings, a four-day communal riot that killed about 4,000 people.",
+      "wikiSlug": "Direct_Action_Day",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-mountbatten-plan",
+      "label": "The Mountbatten Plan",
+      "year": 1947,
+      "description": "The new Viceroy compressed the transfer-of-power schedule to ten weeks and set partition with the Punjab and Bengal divided along demographic lines.",
+      "wikiSlug": "Mountbatten_Plan",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-radcliffe-line",
+      "label": "The Radcliffe Line",
+      "year": 1947,
+      "description": "Cyril Radcliffe, who had never been to India, drew the Punjab and Bengal borders in five weeks; the award was published two days after independence.",
+      "wikiSlug": "Radcliffe_Line",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
     },
     {
       "id": "evt-mi-independence",
-      "label": "India gains independence",
+      "label": "India Gains Independence",
       "year": 1947,
-      "description": "India achieved independence from Britain on August 15, 1947, fulfilling decades of struggle but accompanied by the traumatic partition with Pakistan.",
-      "wikiSlug": "Indian_independence_movement",
+      "description": "At midnight on 15 August 1947 the British Raj ended; Nehru's 'Tryst with Destiny' speech consecrated the moment as the killing peaked in the Punjab.",
+      "wikiSlug": "Indian_independence",
       "tier": 1,
       "category": "rulers",
       "tags": []
@@ -175,338 +577,1215 @@
       "id": "evt-mi-partition",
       "label": "Partition of India",
       "year": 1947,
-      "description": "The subcontinent was divided into India and Pakistan along religious lines, triggering mass migration and communal violence that killed up to two million people.",
+      "endYear": 1948,
+      "description": "The division of British India killed 500,000-2 million people and displaced 15 million, the largest forced migration in human history outside war or famine.",
       "wikiSlug": "Partition_of_India",
       "tier": 1,
       "category": "wars",
-      "tags": [
-        "religion"
-      ]
+      "tags": []
+    },
+    {
+      "id": "evt-mi-integration-states",
+      "label": "Integration of the Princely States",
+      "year": 1947,
+      "endYear": 1949,
+      "description": "Patel and V. P. Menon secured the accession of 562 of 565 princely states through pressure, privy purses, and the threat of isolation.",
+      "wikiSlug": "Political_integration_of_India",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-kashmir-war-1947",
+      "label": "First Kashmir War",
+      "year": 1947,
+      "endYear": 1949,
+      "description": "Pashtun tribal irregulars invaded Kashmir; the Hindu Maharaja acceded to India in exchange for military intervention, leaving the territory divided along a UN ceasefire line.",
+      "wikiSlug": "Indo-Pakistani_War_of_1947%E2%80%931948",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-junagadh",
+      "label": "Junagadh Accession",
+      "year": 1947,
+      "endYear": 1948,
+      "description": "The Muslim Nawab of Hindu-majority Junagadh acceded to Pakistan; a 1948 plebiscite confirmed accession to India.",
+      "wikiSlug": "Junagadh_State",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-operation-polo",
+      "label": "Operation Polo",
+      "year": 1948,
+      "description": "The Indian Army occupied independent-minded Hyderabad in five days; associated communal violence killed tens of thousands.",
+      "wikiSlug": "Annexation_of_Hyderabad",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
     },
     {
       "id": "evt-mi-gandhi-assassination",
-      "label": "Gandhi assassinated",
+      "label": "Gandhi Assassinated",
       "year": 1948,
-      "description": "Mahatma Gandhi was shot dead by Hindu nationalist Nathuram Godse, plunging the newly independent nation into mourning.",
+      "description": "Nathuram Godse, a former RSS and Hindu Mahasabha member, shot Gandhi at a Birla House prayer meeting in revenge for the Partition-assets fast.",
       "wikiSlug": "Assassination_of_Mahatma_Gandhi",
       "tier": 1,
       "category": "people",
-      "tags": [
-        "religion"
-      ]
+      "tags": []
     },
     {
-      "id": "evt-mi-constitution",
-      "label": "Indian Constitution adopted",
-      "year": 1950,
-      "description": "India adopted the world's longest written constitution, establishing a sovereign democratic republic with fundamental rights and directive principles.",
-      "wikiSlug": "Constitution_of_India",
-      "tier": 1,
-      "category": "writing",
+      "id": "evt-mi-rss-banned",
+      "label": "RSS Banned After the Assassination",
+      "year": 1948,
+      "endYear": 1949,
+      "description": "The RSS was briefly banned after Gandhi's killing; the ban was lifted in 1949 on a commitment to remain a cultural organization.",
+      "wikiSlug": "Rashtriya_Swayamsevak_Sangh",
+      "tier": 3,
+      "category": "religion",
       "tags": []
     },
     {
       "id": "evt-mi-nehru-pm",
-      "label": "Nehru becomes first Prime Minister",
+      "label": "Nehru Becomes First Prime Minister",
       "year": 1947,
-      "description": "Jawaharlal Nehru became India's first prime minister, championing democratic socialism, secularism, and non-alignment in foreign policy.",
+      "description": "Nehru held the office continuously until his death in 1964, building secular democracy, planned development, and non-alignment.",
       "wikiSlug": "Jawaharlal_Nehru",
-      "tier": 2,
+      "tier": 1,
       "category": "rulers",
-      "tags": [
-        "people"
-      ]
+      "tags": []
     },
     {
       "id": "evt-mi-ambedkar-constitution",
-      "label": "Ambedkar drafts constitution",
-      "year": 1949,
-      "description": "B.R. Ambedkar, a Dalit leader and legal scholar, chaired the drafting committee that produced India's constitution, enshrining equality and social justice.",
+      "label": "Ambedkar Drafts the Constitution",
+      "year": 1947,
+      "endYear": 1949,
+      "description": "Nehru placed the Dalit jurist and Gandhi-critic B. R. Ambedkar at the head of the drafting committee, making the claim of full Dalit citizenship politically real.",
       "wikiSlug": "B._R._Ambedkar",
-      "tier": 3,
+      "tier": 1,
       "category": "people",
-      "tags": [
-        "writing"
-      ]
+      "tags": []
     },
     {
-      "id": "evt-mi-first-iit",
-      "label": "First IIT established",
+      "id": "evt-mi-constitution",
+      "label": "Indian Constitution Adopted",
+      "year": 1950,
+      "description": "The longest written constitution of any sovereign nation abolished untouchability, granted universal adult suffrage, and established a secular federal republic.",
+      "wikiSlug": "Constitution_of_India",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-first-election",
+      "label": "First General Election",
       "year": 1951,
-      "description": "India established the Indian Institute of Technology at Kharagpur, beginning a system of elite engineering schools that would produce global tech leaders.",
-      "wikiSlug": "Indian_Institutes_of_Technology",
-      "tier": 3,
-      "category": "science",
+      "endYear": 1952,
+      "description": "The first universal-franchise election of 173 million voters returned the Congress and demonstrated that mass democracy could function in conditions of mass illiteracy.",
+      "wikiSlug": "1951%E2%80%931952_Indian_general_election",
+      "tier": 2,
+      "category": "rulers",
       "tags": []
     },
     {
       "id": "evt-mi-five-year-plan",
-      "label": "First Five-Year Plan launched",
+      "label": "First Five-Year Plan Launched",
       "year": 1951,
-      "description": "Nehru launched India's first Five-Year Plan focused on agriculture and irrigation, beginning a tradition of Soviet-influenced economic planning.",
+      "description": "India committed to a Soviet-influenced model of state-led industrialization with public-sector heavy industry as the commanding heights.",
       "wikiSlug": "Five-Year_Plans_of_India",
-      "tier": 3,
+      "tier": 2,
       "category": "trade",
       "tags": []
     },
     {
-      "id": "evt-mi-sino-indian-war",
-      "label": "Sino-Indian War",
-      "year": 1962,
-      "description": "China launched a surprise attack across the Himalayan border, inflicting a humiliating defeat on India and shattering the era of Hindi-Chini bhai-bhai.",
-      "wikiSlug": "Sino-Indian_War",
-      "tier": 3,
-      "category": "wars",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-green-revolution",
-      "label": "Green Revolution begins",
-      "year": 1965,
-      "description": "India adopted high-yield wheat and rice varieties, transforming the country from a famine-prone nation into a food-surplus agricultural power.",
-      "wikiSlug": "Green_Revolution_in_India",
+      "id": "evt-mi-first-iit",
+      "label": "First IIT Established",
+      "year": 1951,
+      "description": "IIT Kharagpur founded the engineering-education infrastructure that would later staff Indian industry and Silicon Valley.",
+      "wikiSlug": "Indian_Institutes_of_Technology",
       "tier": 2,
       "category": "science",
       "tags": []
     },
     {
-      "id": "evt-mi-indira-pm",
-      "label": "Indira Gandhi becomes PM",
-      "year": 1966,
-      "description": "Indira Gandhi, Nehru's daughter, became prime minister and dominated Indian politics for nearly two decades with a mix of populism and authoritarianism.",
-      "wikiSlug": "Indira_Gandhi",
-      "tier": 2,
-      "category": "rulers",
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "id": "evt-mi-bangladesh-war",
-      "label": "Bangladesh Liberation War",
-      "year": 1971,
-      "description": "India intervened in the Pakistani civil war, helping East Pakistan achieve independence as Bangladesh in a decisive two-week military campaign.",
-      "wikiSlug": "Bangladesh_Liberation_War",
-      "tier": 2,
-      "category": "wars",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-nuclear-test-1974",
-      "label": "Smiling Buddha nuclear test",
-      "year": 1974,
-      "description": "India conducted its first nuclear weapon test at Pokhran, becoming the sixth nation to detonate a nuclear device.",
-      "wikiSlug": "Smiling_Buddha",
-      "tier": 3,
-      "category": "science",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-emergency",
-      "label": "The Emergency declared",
-      "year": 1975,
-      "endYear": 1977,
-      "description": "Indira Gandhi declared a state of emergency suspending civil liberties, jailing opponents, and censoring the press in India's darkest democratic hour.",
-      "wikiSlug": "The_Emergency_(India)",
-      "tier": 2,
-      "category": "rulers",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-golden-temple",
-      "label": "Operation Blue Star",
-      "year": 1984,
-      "description": "Indian troops stormed the Golden Temple in Amritsar to flush out Sikh militants, killing hundreds and deeply wounding the Sikh community.",
-      "wikiSlug": "Operation_Blue_Star",
-      "tier": 2,
-      "category": "wars",
-      "tags": [
-        "religion"
-      ]
-    },
-    {
-      "id": "evt-mi-indira-assassination",
-      "label": "Indira Gandhi assassinated",
-      "year": 1984,
-      "description": "Indira Gandhi was shot dead by her Sikh bodyguards in retaliation for Operation Blue Star, triggering anti-Sikh pogroms across northern India.",
-      "wikiSlug": "Assassination_of_Indira_Gandhi",
+      "id": "evt-mi-states-reorganisation",
+      "label": "States Reorganisation Act",
+      "year": 1956,
+      "description": "Internal state boundaries were redrawn along linguistic lines, defusing 1950s linguistic separatism and producing the federal structure that has held since.",
+      "wikiSlug": "States_Reorganisation_Act,_1956",
       "tier": 1,
       "category": "rulers",
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "id": "evt-mi-bhopal-disaster",
-      "label": "Bhopal gas disaster",
-      "year": 1984,
-      "description": "A toxic gas leak from a Union Carbide pesticide plant in Bhopal killed thousands and injured hundreds of thousands in the world's worst industrial accident.",
-      "wikiSlug": "Bhopal_disaster",
-      "tier": 3,
-      "category": "science",
       "tags": []
     },
     {
-      "id": "evt-mi-liberalization-1991",
-      "label": "Economic liberalization begins",
-      "year": 1991,
-      "description": "Finance Minister Manmohan Singh dismantled the License Raj, opening India's economy to foreign investment and global competition amid a balance-of-payments crisis.",
-      "wikiSlug": "Economic_liberalisation_in_India",
-      "tier": 1,
-      "category": "trade",
-      "tags": [
-        "rulers"
-      ]
-    },
-    {
-      "id": "evt-mi-babri-masjid",
-      "label": "Babri Masjid demolished",
-      "year": 1992,
-      "description": "Hindu nationalists demolished the Babri mosque in Ayodhya, sparking nationwide communal riots and reshaping Indian religious politics.",
-      "wikiSlug": "Demolition_of_the_Babri_Masjid",
+      "id": "evt-mi-ambedkar-buddhism",
+      "label": "Ambedkar's Buddhist Conversion",
+      "year": 1956,
+      "description": "Ambedkar converted to Buddhism with around half a million Dalit followers two months before his death, a structural rejection of the Hindu caste order.",
+      "wikiSlug": "Navayana",
       "tier": 2,
       "category": "religion",
       "tags": []
     },
     {
-      "id": "evt-mi-pokhran-ii",
-      "label": "Pokhran-II nuclear tests",
-      "year": 1998,
-      "description": "India conducted five nuclear weapons tests, declaring itself a nuclear weapons state and drawing international sanctions.",
-      "wikiSlug": "Pokhran-II",
-      "tier": 3,
-      "category": "science",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-it-boom",
-      "label": "IT boom and Bangalore rises",
-      "year": 2000,
-      "description": "India's information technology sector exploded, with Bangalore becoming a global outsourcing hub and Indian IT firms earning billions in revenue.",
-      "wikiSlug": "Information_technology_in_India",
-      "tier": 2,
-      "category": "trade",
-      "tags": [
-        "science"
-      ]
-    },
-    {
-      "id": "evt-mi-mumbai-attacks",
-      "label": "Mumbai terror attacks",
-      "year": 2008,
-      "description": "Pakistani militants launched coordinated attacks across Mumbai, killing 166 people over four days and bringing India and Pakistan to the brink of war.",
-      "wikiSlug": "2008_Mumbai_attacks",
-      "tier": 3,
-      "category": "wars",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-chandrayaan-1",
-      "label": "Chandrayaan-1 lunar mission",
-      "year": 2008,
-      "description": "India's first lunar probe discovered water molecules on the Moon's surface, establishing ISRO as a credible space agency on a shoestring budget.",
-      "wikiSlug": "Chandrayaan-1",
-      "tier": 3,
-      "category": "science",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-modi-pm",
-      "label": "Narendra Modi becomes PM",
-      "year": 2014,
-      "description": "BJP leader Narendra Modi won a commanding majority, promising economic development and Hindu nationalist governance.",
-      "wikiSlug": "Narendra_Modi",
-      "tier": 2,
-      "category": "rulers",
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "id": "evt-mi-mars-orbiter",
-      "label": "Mangalyaan reaches Mars",
-      "year": 2014,
-      "description": "India's Mars Orbiter Mission reached Martian orbit on its first attempt, making India the first Asian nation to reach Mars.",
-      "wikiSlug": "Mars_Orbiter_Mission",
-      "tier": 3,
-      "category": "science",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-demonetization",
-      "label": "Demonetization of banknotes",
-      "year": 2016,
-      "description": "Modi abruptly invalidated 86% of India's currency to combat corruption and black money, causing widespread economic disruption.",
-      "wikiSlug": "2016_Indian_banknote_demonetisation",
-      "tier": 3,
-      "category": "trade",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-chandrayaan-3",
-      "label": "Chandrayaan-3 lands on Moon",
-      "year": 2023,
-      "description": "India became the fourth country to land on the Moon and the first to land near the lunar south pole, a triumph for ISRO's low-cost approach.",
-      "wikiSlug": "Chandrayaan-3",
-      "tier": 2,
-      "category": "science",
-      "tags": []
-    },
-    {
-      "id": "evt-mi-tagore-nobel",
-      "label": "Rabindranath Tagore wins Nobel",
-      "year": 1913,
-      "description": "Poet Rabindranath Tagore became the first non-European to win the Nobel Prize in Literature for his deeply sensitive collection Gitanjali.",
-      "wikiSlug": "Rabindranath_Tagore",
-      "tier": 2,
-      "category": "people",
-      "tags": [
-        "writing"
-      ]
-    },
-    {
-      "id": "evt-mi-taj-mahal-hotel",
-      "label": "Taj Mahal Palace Hotel opened",
-      "year": 1903,
-      "description": "Jamsetji Tata opened the Taj Mahal Palace Hotel in Mumbai, one of India's first luxury hotels and a symbol of Indian enterprise.",
-      "wikiSlug": "Taj_Mahal_Palace_Hotel",
-      "tier": 3,
-      "category": "architecture",
-      "tags": [
-        "trade"
-      ]
-    },
-    {
-      "id": "evt-mi-new-delhi-built",
-      "label": "New Delhi inaugurated",
-      "year": 1931,
-      "description": "The British inaugurated New Delhi as India's capital, with Edwin Lutyens' grand imperial architecture replacing Calcutta as the seat of power.",
-      "wikiSlug": "New_Delhi",
-      "tier": 3,
-      "category": "architecture",
-      "tags": []
-    },
-    {
       "id": "evt-mi-iim-founded",
-      "label": "First IIM established",
+      "label": "First IIM Established",
       "year": 1961,
-      "description": "India established the Indian Institute of Management at Calcutta, building a network of business schools that trained India's corporate leaders.",
+      "description": "The Indian Institutes of Management were founded to build a managerial-education base for the planned economy.",
       "wikiSlug": "Indian_Institutes_of_Management",
       "tier": 3,
       "category": "science",
       "tags": []
     },
     {
-      "id": "evt-mi-ram-temple",
-      "label": "Ram Temple consecrated in Ayodhya",
-      "year": 2024,
-      "description": "PM Modi consecrated the Ram Mandir in Ayodhya on the site of the demolished Babri Masjid, capping a decades-long Hindu nationalist campaign.",
-      "wikiSlug": "Ram_Mandir",
+      "id": "evt-mi-goa-annexation",
+      "label": "Annexation of Goa",
+      "year": 1961,
+      "description": "The Indian Army ended 451 years of Portuguese rule in Goa in a 36-hour operation, completing the territorial decolonization of the subcontinent.",
+      "wikiSlug": "Annexation_of_Goa",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-non-aligned-movement",
+      "label": "Non-Aligned Movement Founded",
+      "year": 1961,
+      "description": "India, Yugoslavia, and Egypt constituted the Non-Aligned Movement at Belgrade, the institutional form of Nehruvian non-alignment.",
+      "wikiSlug": "Non-Aligned_Movement",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-sino-indian-war",
+      "label": "Sino-Indian War",
+      "year": 1962,
+      "description": "A PLA offensive overran Indian forward positions in days, destroyed the non-alignment doctrine's credibility, and broke Nehru politically.",
+      "wikiSlug": "Sino-Indian_War",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bhakra-nangal",
+      "label": "Bhakra Nangal Dam Completed",
+      "year": 1963,
+      "description": "Nehru's 'temple of modern India' was one of the world's highest gravity dams, the symbol of the planned-development era's infrastructure ambition.",
+      "wikiSlug": "Bhakra_Dam",
       "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-nehru-dies",
+      "label": "Nehru Dies",
+      "year": 1964,
+      "description": "Never fully recovered from the 1962 defeat, Nehru died after seventeen unbroken years as Prime Minister, ending the founding era.",
+      "wikiSlug": "Jawaharlal_Nehru",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-shastri-pm",
+      "label": "Shastri Becomes Prime Minister",
+      "year": 1964,
+      "description": "The soft-spoken UP politician chosen for his inoffensiveness launched the Green Revolution and led India through the 1965 war.",
+      "wikiSlug": "Lal_Bahadur_Shastri",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-green-revolution",
+      "label": "Green Revolution Begins",
+      "year": 1965,
+      "description": "Imported Mexican high-yielding wheat, fertilizer, and irrigation ended India's recurring famines and achieved cereal self-sufficiency by 1971.",
+      "wikiSlug": "Green_Revolution_in_India",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-war-1965",
+      "label": "Second Indo-Pakistani War",
+      "year": 1965,
+      "description": "A 17-day conventional war triggered by Pakistani infiltration of Kashmir ended in a stalemate settled at the Tashkent Conference.",
+      "wikiSlug": "Indo-Pakistani_War_of_1965",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-tashkent",
+      "label": "Tashkent Declaration",
+      "year": 1966,
+      "description": "The Soviet-brokered settlement returned captured territory; Shastri died of a heart attack hours after signing it.",
+      "wikiSlug": "Tashkent_Declaration",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-indira-pm",
+      "label": "Indira Gandhi Becomes Prime Minister",
+      "year": 1966,
+      "description": "The Congress Syndicate chose Nehru's daughter expecting a pliant figure they could control, one of the great miscalculations of post-independence politics.",
+      "wikiSlug": "Indira_Gandhi",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bank-nationalization",
+      "label": "Bank Nationalization",
+      "year": 1969,
+      "description": "Indira nationalized the fourteen largest private banks in an overnight ordinance, a massively popular move that split the Congress.",
+      "wikiSlug": "Nationalisation_of_banks_in_India",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-congress-split",
+      "label": "The Congress Split of 1969",
+      "year": 1969,
+      "description": "The Syndicate expelled Indira; her Congress (R) retained the larger share of MPs and won the political battle, remaking the party in her image.",
+      "wikiSlug": "Indian_National_Congress_(Requisitionists)",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-isro-founded",
+      "label": "ISRO Founded",
+      "year": 1969,
+      "description": "The Indian Space Research Organisation was established, beginning a low-cost space program that would later reach the Moon and Mars.",
+      "wikiSlug": "Indian_Space_Research_Organisation",
+      "tier": 2,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-garibi-hatao",
+      "label": "Garibi Hatao Landslide",
+      "year": 1971,
+      "description": "Indira's snap election on a single-issue 'Remove Poverty' campaign took 352 of 518 Lok Sabha seats, giving her a commanding majority.",
+      "wikiSlug": "1971_Indian_general_election",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bangladesh-war",
+      "label": "Bangladesh Liberation War",
+      "year": 1971,
+      "description": "Indian forces entered East Pakistan and accepted the surrender of 93,000 Pakistani troops in 13 days, creating independent Bangladesh.",
+      "wikiSlug": "Bangladesh_Liberation_War",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-privy-purses",
+      "label": "Abolition of Privy Purses",
+      "year": 1971,
+      "description": "The 26th Amendment abolished the constitutionally guaranteed pensions of the former princes, completing the break with the 1947 settlement.",
+      "wikiSlug": "Privy_Purse_in_India",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-nuclear-test-1974",
+      "label": "Smiling Buddha Nuclear Test",
+      "year": 1974,
+      "description": "India's first nuclear detonation made it the first weapons-capable state outside the original five and triggered Pakistani crash development.",
+      "wikiSlug": "Smiling_Buddha",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-kesavananda",
+      "label": "Kesavananda Bharati Judgment",
+      "year": 1973,
+      "description": "The Supreme Court ruled Parliament could not amend the Constitution's 'basic structure,' the doctrine that would later constrain executive overreach.",
+      "wikiSlug": "Kesavananda_Bharati_v._State_of_Kerala",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-jp-movement",
+      "label": "JP's Total Revolution",
+      "year": 1974,
+      "endYear": 1975,
+      "description": "Jayaprakash Narayan's mass agitation, including a call for police and army disobedience, was the immediate trigger for the Emergency.",
+      "wikiSlug": "Jayaprakash_Narayan",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-allahabad-verdict",
+      "label": "Allahabad Verdict Against Indira",
+      "year": 1975,
+      "description": "The Allahabad High Court voided Indira's 1971 election for electoral malpractice, the first time a sitting Indian PM was found guilty by a court.",
+      "wikiSlug": "State_of_Uttar_Pradesh_v._Raj_Narain",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-emergency",
+      "label": "The Emergency Declared",
+      "year": 1975,
+      "endYear": 1977,
+      "description": "Indira proclaimed a 21-month national emergency, jailing the opposition, censoring the press, and amending the Constitution to entrench executive power.",
+      "wikiSlug": "The_Emergency_(India)",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-sikkim",
+      "label": "Sikkim Joins India",
+      "year": 1975,
+      "description": "A referendum and constitutional amendment merged the Himalayan kingdom of Sikkim as India's 22nd state.",
+      "wikiSlug": "Annexation_of_Sikkim",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-42nd-amendment",
+      "label": "42nd Constitutional Amendment",
+      "year": 1976,
+      "description": "The 'mini-constitution' amendment restricted judicial review, added 'socialist' and 'secular' to the preamble, and entrenched emergency-era executive power.",
+      "wikiSlug": "Forty-second_Amendment_of_the_Constitution_of_India",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-sterilization",
+      "label": "Forced Sterilization Campaign",
+      "year": 1976,
+      "endYear": 1977,
+      "description": "Sanjay Gandhi's coercive family-planning campaign performed an estimated eight million sterilizations with at least 1,800 documented deaths.",
+      "wikiSlug": "Compulsory_sterilisation",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-aryabhata",
+      "label": "Aryabhata, India's First Satellite",
+      "year": 1975,
+      "description": "India launched its first satellite on a Soviet rocket, an early milestone of the ISRO program during the Emergency years.",
+      "wikiSlug": "Aryabhata_(satellite)",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-janata-formed",
+      "label": "Janata Party Formed",
+      "year": 1977,
+      "description": "Four opposition groups merged on an explicit anti-Emergency program to contest the 1977 election as a single vehicle.",
+      "wikiSlug": "Janata_Party",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-1977-election",
+      "label": "The 1977 Election",
+      "year": 1977,
+      "description": "The Janata Party won 295 seats and ended thirty years of unbroken Congress rule; Indira lost her own seat, and Indian democracy survived its first authoritarian interlude.",
+      "wikiSlug": "1977_Indian_general_election",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-44th-amendment",
+      "label": "44th Constitutional Amendment",
+      "year": 1978,
+      "description": "The Janata government narrowed emergency powers, made the right to life non-suspendable, and reversed most of the 42nd Amendment's executive entrenchment.",
+      "wikiSlug": "Forty-fourth_Amendment_of_the_Constitution_of_India",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-indira-returns",
+      "label": "Indira Returns to Power",
+      "year": 1980,
+      "description": "After the Janata coalition collapsed, Indira won 353 of 529 seats on the implicit promise that the Congress could at least manage the bureaucracy.",
+      "wikiSlug": "1980_Indian_general_election",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-sanjay-dies",
+      "label": "Sanjay Gandhi Dies",
+      "year": 1980,
+      "description": "Indira's chosen heir died in a small-plane crash, drawing the reluctant airline pilot Rajiv Gandhi into politics.",
+      "wikiSlug": "Sanjay_Gandhi",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bjp-founded",
+      "label": "Bharatiya Janata Party Founded",
+      "year": 1980,
+      "description": "The BJP was founded from the Jana Sangh wing of the collapsed Janata Party, the party that would dominate 21st-century Indian politics.",
+      "wikiSlug": "Bharatiya_Janata_Party",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-golden-temple",
+      "label": "Operation Blue Star",
+      "year": 1984,
+      "description": "The Indian Army's assault on the Golden Temple to remove the militant preacher Bhindranwale killed hundreds and left an unhealed wound in the Sikh community.",
+      "wikiSlug": "Operation_Blue_Star",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-indira-assassination",
+      "label": "Indira Gandhi Assassinated",
+      "year": 1984,
+      "description": "Two Sikh bodyguards shot Indira in revenge for Operation Blue Star, triggering the organized anti-Sikh pogrom in Delhi.",
+      "wikiSlug": "Assassination_of_Indira_Gandhi",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-anti-sikh-pogrom",
+      "label": "Anti-Sikh Pogrom",
+      "year": 1984,
+      "description": "Organized violence with Congress political coordination and police complicity killed at least 3,000 Sikhs in Delhi over three days.",
+      "wikiSlug": "1984_anti-Sikh_riots",
+      "tier": 1,
       "category": "religion",
-      "tags": [
-        "architecture"
-      ]
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bhopal-disaster",
+      "label": "Bhopal Gas Disaster",
+      "year": 1984,
+      "description": "The methyl isocyanate release at the Union Carbide plant was the worst single industrial accident in human history, killing 3,000 immediately and many thousands more over decades.",
+      "wikiSlug": "Bhopal_disaster",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rajiv-pm",
+      "label": "Rajiv Gandhi Becomes Prime Minister",
+      "year": 1984,
+      "description": "Rajiv was sworn in within hours of his mother's death and won 414 of 542 seats on sympathy voting, the largest single-party majority in any Indian election.",
+      "wikiSlug": "Rajiv_Gandhi",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-shah-bano",
+      "label": "Shah Bano Case",
+      "year": 1985,
+      "endYear": 1986,
+      "description": "The Rajiv government legislatively reversed a Supreme Court maintenance ruling, supplying the empirical anchor for the BJP's 'appeasement' critique of Congress secularism.",
+      "wikiSlug": "Shah_Bano_case",
+      "tier": 1,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-babri-unlocked",
+      "label": "Babri Masjid Unlocked",
+      "year": 1986,
+      "description": "A district court ordered the disputed Ayodhya mosque opened for Hindu worship, igniting six years of escalating mobilization on both sides.",
+      "wikiSlug": "Ayodhya_dispute",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bofors",
+      "label": "Bofors Scandal",
+      "year": 1987,
+      "description": "Alleged kickbacks in a Swedish howitzer contract politically destroyed the Rajiv government before any conviction was secured.",
+      "wikiSlug": "Bofors_scandal",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-ipkf",
+      "label": "IPKF in Sri Lanka",
+      "year": 1987,
+      "endYear": 1990,
+      "description": "India's peacekeeping deployment against the LTTE escalated to 80,000 troops and killed 1,200 Indian soldiers in a strategic failure.",
+      "wikiSlug": "Indian_Peace_Keeping_Force",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-mandal",
+      "label": "Mandal Commission Implemented",
+      "year": 1990,
+      "description": "V. P. Singh's announcement of 27% OBC reservations made the OBC vote a coherent bloc and produced the regional caste parties that dominated Hindi-belt politics.",
+      "wikiSlug": "Mandal_Commission",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rath-yatra",
+      "label": "Advani's Rath Yatra",
+      "year": 1990,
+      "description": "Advani's chariot procession calling for a Ram temple at Ayodhya generated communal violence and brought down the V. P. Singh government.",
+      "wikiSlug": "1990_Ram_Rath_Yatra",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rajiv-assassination",
+      "label": "Rajiv Gandhi Assassinated",
+      "year": 1991,
+      "description": "An LTTE suicide bomber killed Rajiv at a campaign rally near Madras, in revenge for the IPKF intervention in Sri Lanka.",
+      "wikiSlug": "Assassination_of_Rajiv_Gandhi",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rao-pm",
+      "label": "Narasimha Rao Becomes Prime Minister",
+      "year": 1991,
+      "description": "The unexpected choice, considered an ineffectual elder, would oversee the most consequential economic reforms in Indian history.",
+      "wikiSlug": "P._V._Narasimha_Rao",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bop-crisis",
+      "label": "The 1991 Balance-of-Payments Crisis",
+      "year": 1991,
+      "description": "Foreign reserves fell to three weeks of import cover; 47 tons of gold were airlifted to London and pledged to avert default.",
+      "wikiSlug": "1991_Indian_economic_crisis",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-liberalization-1991",
+      "label": "Economic Liberalization Begins",
+      "year": 1991,
+      "description": "Manmohan Singh's July 1991 budget devalued the rupee, abolished the License Raj, and opened India to foreign investment, ending the planned-economy era.",
+      "wikiSlug": "Economic_liberalisation_in_India",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-babri-masjid",
+      "label": "Babri Masjid Demolished",
+      "year": 1992,
+      "description": "About 150,000 BJP-VHP karsevaks demolished the 464-year-old mosque, triggering the worst Hindu-Muslim violence since Partition.",
+      "wikiSlug": "Demolition_of_the_Babri_Masjid",
+      "tier": 1,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-bombay-riots",
+      "label": "Bombay Riots and Bombings",
+      "year": 1992,
+      "endYear": 1993,
+      "description": "Communal riots killed over 900 people, mostly Muslim; the March 1993 retaliatory bombings killed 257 in the first major terror attack on Indian cities.",
+      "wikiSlug": "1992%E2%80%931993_Bombay_riots",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rao-term",
+      "label": "First Non-Nehru-Gandhi Full Term",
+      "year": 1991,
+      "endYear": 1996,
+      "description": "The Rao government became the first non-Nehru-Gandhi government to complete a full five-year term, then lost the 1996 election.",
+      "wikiSlug": "P._V._Narasimha_Rao",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-cable-tv",
+      "label": "Satellite Television Arrives",
+      "year": 1991,
+      "endYear": 1992,
+      "description": "The Gulf War and the arrival of satellite channels broke the state broadcasting monopoly and reshaped Indian public culture in the liberalization decade.",
+      "wikiSlug": "Television_in_India",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-coalition-era",
+      "label": "The Coalition Decade Begins",
+      "year": 1996,
+      "endYear": 1998,
+      "description": "Four prime ministers held office between 1996 and 1999 as no party could form a stable government and the BJP slowly built its alliance.",
+      "wikiSlug": "1996_Indian_general_election",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-nda-government",
+      "label": "Vajpayee and the NDA",
+      "year": 1998,
+      "endYear": 2004,
+      "description": "Vajpayee's National Democratic Alliance gave the BJP its first sustained central government, setting aside its core ideological issues for coalition support.",
+      "wikiSlug": "National_Democratic_Alliance",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-pokhran-ii",
+      "label": "Pokhran-II Nuclear Tests",
+      "year": 1998,
+      "description": "Five underground detonations made India formally nuclear-armed and triggered reciprocal Pakistani tests two weeks later.",
+      "wikiSlug": "Pokhran-II",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-kargil",
+      "label": "Kargil War",
+      "year": 1999,
+      "description": "Pakistani troops disguised as insurgents occupied Indian Himalayan posts; the Indian counter-offensive was the first nuclear-era Indo-Pakistani conflict.",
+      "wikiSlug": "Kargil_War",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-golden-quadrilateral",
+      "label": "Golden Quadrilateral Launched",
+      "year": 1999,
+      "endYear": 2006,
+      "description": "The 5,846-km highway network connecting the four major metros was the largest physical-infrastructure investment since the colonial railways.",
+      "wikiSlug": "Golden_Quadrilateral",
+      "tier": 2,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-it-boom",
+      "label": "IT Boom and Bangalore Rises",
+      "year": 2000,
+      "description": "Y2K-driven software contracts grew the Indian IT-services industry from $5 billion in 2000 to over $150 billion by 2020, making Bangalore the export-services hub.",
+      "wikiSlug": "Information_technology_in_India",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-parliament-attack",
+      "label": "2001 Parliament Attack",
+      "year": 2001,
+      "description": "A Jaish-e-Mohammed and Lashkar-e-Taiba attack on Parliament triggered a year-long Indo-Pakistani military standoff.",
+      "wikiSlug": "2001_Indian_Parliament_attack",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-new-states-2000",
+      "label": "Three New States Created",
+      "year": 2000,
+      "description": "Jharkhand, Chhattisgarh, and Uttarakhand were carved out, the largest internal reorganization since 1956.",
+      "wikiSlug": "States_and_union_territories_of_India",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-gujarat-2002",
+      "label": "2002 Gujarat Violence",
+      "year": 2002,
+      "description": "Anti-Muslim communal violence under Chief Minister Narendra Modi killed at least 1,000 people and shaped his political identity for fifteen years.",
+      "wikiSlug": "2002_Gujarat_riots",
+      "tier": 1,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-delhi-metro",
+      "label": "Delhi Metro Opens",
+      "year": 2002,
+      "description": "The first line of the Delhi Metro opened, the flagship of a wave of urban mass-transit construction across Indian cities.",
+      "wikiSlug": "Delhi_Metro",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-india-shining",
+      "label": "India Shining and the 2004 Upset",
+      "year": 2004,
+      "description": "The BJP's economic-reform campaign failed to reach the rural voter; the Congress-led UPA won and Manmohan Singh became Prime Minister.",
+      "wikiSlug": "2004_Indian_general_election",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-manmohan-pm",
+      "label": "Manmohan Singh Becomes Prime Minister",
+      "year": 2004,
+      "description": "The architect of the 1991 reforms became Prime Minister with Sonia Gandhi as Congress leader, the most coherent governing partnership of the post-1991 era.",
+      "wikiSlug": "Manmohan_Singh",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-mgnrega",
+      "label": "MGNREGA Enacted",
+      "year": 2005,
+      "description": "The rural-employment guarantee became the largest workfare program in human history by enrollment, providing a rural consumption floor in drought years.",
+      "wikiSlug": "Mahatma_Gandhi_National_Rural_Employment_Guarantee_Act,_2005",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rti-act",
+      "label": "Right to Information Act",
+      "year": 2005,
+      "description": "The sweeping freedom-of-information law became a foundational instrument of civil-society accountability, with six million requests filed annually by the mid-2010s.",
+      "wikiSlug": "Right_to_Information_Act,_2005",
+      "tier": 1,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-nuclear-deal",
+      "label": "Indo-US Civil Nuclear Agreement",
+      "year": 2008,
+      "description": "The deal acknowledged India's nuclear-weapons status outside the NPT and marked the US choosing India over Pakistan as its primary South Asian partner.",
+      "wikiSlug": "India%E2%80%93United_States_Civil_Nuclear_Agreement",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-mumbai-attacks",
+      "label": "Mumbai 26/11 Attacks",
+      "year": 2008,
+      "description": "Ten Lashkar-e-Taiba terrorists infiltrating by sea from Karachi killed 166 people across multiple targets in a 60-hour siege.",
+      "wikiSlug": "2008_Mumbai_attacks",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-chandrayaan-1",
+      "label": "Chandrayaan-1 Lunar Mission",
+      "year": 2008,
+      "description": "India's first lunar probe entered orbit and detected water on the Moon, the first space agency outside the major blocs to do so.",
+      "wikiSlug": "Chandrayaan-1",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-upa-reelected",
+      "label": "UPA Re-elected",
+      "year": 2009,
+      "description": "A stronger 2009 mandate, navigating the 2008 financial crisis with relative success, was read as endorsement of the UPA welfare-and-growth model.",
+      "wikiSlug": "2009_Indian_general_election",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-2g-scandal",
+      "label": "2G Spectrum Scandal",
+      "year": 2010,
+      "description": "A CAG report alleged Rs 1.76 lakh crore in below-market telecom-license allocations; the Supreme Court cancelled 122 licenses, defining UPA-2.",
+      "wikiSlug": "2G_spectrum_case",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-cwg-scandal",
+      "label": "Commonwealth Games Scandal",
+      "year": 2010,
+      "description": "Contract irregularities and cost overruns at the Delhi Commonwealth Games undermined the Congress's managerial-competence claim.",
+      "wikiSlug": "2010_Commonwealth_Games",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-anna-hazare",
+      "label": "Anna Hazare Movement",
+      "year": 2011,
+      "description": "Hazare's anti-corruption hunger strikes produced mass middle-class mobilization and spawned both the Aam Aadmi Party and the BJP's anti-corruption framing.",
+      "wikiSlug": "2011_Indian_anti-corruption_movement",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-nirbhaya",
+      "label": "Nirbhaya Protests",
+      "year": 2012,
+      "endYear": 2013,
+      "description": "The fatal Delhi gang rape produced nationwide protests and the 2013 criminal-law reforms on sexual violence.",
+      "wikiSlug": "2012_Delhi_gang_rape_and_murder",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-rupee-crisis",
+      "label": "The 2013 Rupee Crisis",
+      "year": 2013,
+      "description": "Growth fell to 4.7%, the rupee hit historical lows, and inflation stayed above 10%, ending the perception that the high-growth era would continue.",
+      "wikiSlug": "Indian_rupee",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-modi-pm",
+      "label": "Narendra Modi Becomes Prime Minister",
+      "year": 2014,
+      "description": "The BJP won the first single-party Lok Sabha majority since 1984, reducing the Congress to its worst-ever 44 seats.",
+      "wikiSlug": "Narendra_Modi",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-jan-dhan",
+      "label": "Jan Dhan and the JAM Trinity",
+      "year": 2014,
+      "description": "Bank accounts for 500 million unbanked Indians, combined with Aadhaar and mobile numbers, built the digital-welfare delivery infrastructure.",
+      "wikiSlug": "Pradhan_Mantri_Jan_Dhan_Yojana",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-swachh-bharat",
+      "label": "Swachh Bharat Mission Launched",
+      "year": 2014,
+      "description": "The national sanitation campaign built about 110 million toilets in five years, with real implementation gaps but substantial political symbolism.",
+      "wikiSlug": "Swachh_Bharat_Mission",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-mars-orbiter",
+      "label": "Mangalyaan Reaches Mars",
+      "year": 2014,
+      "description": "India's Mars Orbiter Mission was the first Asian mission to Mars and the first by any agency to succeed on its first attempt, at a fraction of comparable costs.",
+      "wikiSlug": "Mars_Orbiter_Mission",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-surgical-strikes",
+      "label": "Uri Attack and Surgical Strikes",
+      "year": 2016,
+      "description": "After the Uri attack killed 19 soldiers, India's first acknowledged cross-border strike signaled an end to the Manmohan-era policy of strategic restraint.",
+      "wikiSlug": "2016_Indian_Line_of_Control_strike",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-demonetization",
+      "label": "Demonetization of Banknotes",
+      "year": 2016,
+      "description": "Modi invalidated 86% of cash currency by value with five hours notice; 99.3% was redeposited, but digital payments adoption accelerated sharply.",
+      "wikiSlug": "2016_Indian_banknote_demonetisation",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-gst",
+      "label": "Goods and Services Tax",
+      "year": 2017,
+      "description": "The GST replaced a tangle of central and state indirect taxes with a single harmonized system, removing internal trade barriers between Indian states.",
+      "wikiSlug": "Goods_and_Services_Tax_(India)",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-aadhaar-judgment",
+      "label": "Aadhaar and the Privacy Judgment",
+      "year": 2017,
+      "endYear": 2018,
+      "description": "The Supreme Court affirmed a fundamental right to privacy and narrowed the permissible uses of the Aadhaar biometric-identity system.",
+      "wikiSlug": "Justice_K._S._Puttaswamy_(Retd.)_v._Union_of_India",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-doklam",
+      "label": "Doklam Standoff",
+      "year": 2017,
+      "description": "A 73-day Indo-Chinese military standoff at a tri-junction with Bhutan ended by mutual disengagement, prefiguring the 2020 Galwan clash.",
+      "wikiSlug": "2017_China%E2%80%93India_border_standoff",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-statue-unity",
+      "label": "Statue of Unity Unveiled",
+      "year": 2018,
+      "description": "The 182-metre statue of Vallabhbhai Patel, the world's tallest, became the signature monument of the Modi-era civilizational-nationalist program.",
+      "wikiSlug": "Statue_of_Unity",
+      "tier": 2,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-balakot",
+      "label": "Pulwama-Balakot Crisis",
+      "year": 2019,
+      "description": "After a suicide bombing killed 40 paramilitaries at Pulwama, Indian air strikes inside Pakistan were the first since 1971.",
+      "wikiSlug": "2019_Balakot_airstrike",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-modi-reelected",
+      "label": "Modi Re-elected",
+      "year": 2019,
+      "description": "A stronger 303-seat BJP majority gave Modi the authority to pursue the core Hindu-nationalist program the NDA coalition had partially blunted.",
+      "wikiSlug": "2019_Indian_general_election",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-article-370",
+      "label": "Article 370 Abrogated",
+      "year": 2019,
+      "description": "The abrogation of Kashmir's special status and its division into two Union Territories was accompanied by the longest internet shutdown by any democracy.",
+      "wikiSlug": "Revocation_of_the_special_status_of_Jammu_and_Kashmir",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-caa",
+      "label": "Citizenship Amendment Act",
+      "year": 2019,
+      "description": "The act offered expedited citizenship to non-Muslim refugees from three neighboring states, triggering the months-long Shaheen Bagh protests.",
+      "wikiSlug": "Citizenship_(Amendment)_Act,_2019",
+      "tier": 1,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-ayodhya-verdict",
+      "label": "Ayodhya Title Verdict",
+      "year": 2019,
+      "description": "The Supreme Court awarded the disputed Ayodhya site to the Ram temple trust and allotted an alternative parcel for a mosque, resolving the 70-year dispute.",
+      "wikiSlug": "2019_Supreme_Court_verdict_on_Ayodhya_dispute",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-shaheen-bagh",
+      "label": "Shaheen Bagh Protests",
+      "year": 2019,
+      "endYear": 2020,
+      "description": "The months-long sit-in led mainly by Muslim women became the defining symbol of opposition to the CAA-NRC framework before the COVID lockdown dispersed it.",
+      "wikiSlug": "Shaheen_Bagh_protest",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-covid",
+      "label": "COVID-19 Pandemic and Lockdown",
+      "year": 2020,
+      "endYear": 2021,
+      "description": "One of the world's most stringent lockdowns stranded tens of millions of migrant workers; the 2021 Delta wave produced an estimated 3-5 million excess deaths.",
+      "wikiSlug": "COVID-19_pandemic_in_India",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-galwan",
+      "label": "Galwan Valley Clash",
+      "year": 2020,
+      "description": "Hand-to-hand combat in Ladakh killed 20 Indian and at least 40 Chinese soldiers, the first lethal Indo-Chinese border engagement since 1975.",
+      "wikiSlug": "2020_China%E2%80%93India_skirmishes",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-farmers-protest",
+      "label": "Farmers' Protests and Repeal",
+      "year": 2020,
+      "endYear": 2021,
+      "description": "A fourteen-month encampment by Punjab and Haryana farmers forced the repeal of three agricultural laws, the largest Modi-era policy reversal.",
+      "wikiSlug": "2020%E2%80%932021_Indian_farmers%27_protest",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-fifth-economy",
+      "label": "India Becomes Fifth-Largest Economy",
+      "year": 2022,
+      "description": "India overtook the United Kingdom to become the world's fifth-largest economy by nominal GDP, sixteen years after the IT-driven acceleration began.",
+      "wikiSlug": "Economy_of_India",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-most-populous",
+      "label": "India Becomes Most Populous Nation",
+      "year": 2023,
+      "description": "India surpassed China to become the world's most populous nation, with a median age of 28 and an open demographic-dividend window.",
+      "wikiSlug": "Demographics_of_India",
+      "tier": 1,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-chandrayaan-3",
+      "label": "Chandrayaan-3 Lands on the Moon",
+      "year": 2023,
+      "description": "India's robotic lander touched down near the lunar south pole, the first agency to do so, at a total cost of about $75 million.",
+      "wikiSlug": "Chandrayaan-3",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-g20",
+      "label": "India's G20 Presidency",
+      "year": 2023,
+      "description": "India hosted the G20 summit and produced a consensus Delhi Declaration despite Russia-Ukraine tensions, the diplomatic high-water mark of the second term.",
+      "wikiSlug": "2023_G20_New_Delhi_summit",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-ram-temple",
+      "label": "Ram Temple Consecrated in Ayodhya",
+      "year": 2024,
+      "description": "Modi personally consecrated the Ram temple, completing the symbolic project the VHP had launched in 1986 and vindicating the BJP's long political bet.",
+      "wikiSlug": "Ram_Mandir",
+      "tier": 1,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-2024-election",
+      "label": "The 2024 General Election",
+      "year": 2024,
+      "description": "The BJP fell to 240 seats and lost its outright majority, requiring NDA coalition management for Modi's third term.",
+      "wikiSlug": "2024_Indian_general_election",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-modi-3",
+      "label": "Modi 3.0 Coalition Government",
+      "year": 2024,
+      "description": "The third Modi government operates under coalition constraints not faced since 1999, with major signature legislation deferred.",
+      "wikiSlug": "Third_Modi_ministry",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-aditya-l1",
+      "label": "Aditya-L1 Solar Mission",
+      "year": 2023,
+      "endYear": 2024,
+      "description": "India's first solar observatory reached the Sun-Earth L1 point, extending the low-cost ISRO program beyond the Moon and Mars.",
+      "wikiSlug": "Aditya-L1",
+      "tier": 2,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-upi-scale",
+      "label": "UPI Digital Payments at Scale",
+      "year": 2023,
+      "description": "Unified Payments Interface volume exceeded 10 billion monthly transactions, the world's largest real-time digital-payments system, accelerated by demonetization.",
+      "wikiSlug": "Unified_Payments_Interface",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-remittances",
+      "label": "Record Diaspora Remittances",
+      "year": 2023,
+      "description": "India received about $125 billion in remittances, the largest annual remittance receipt of any country in history, from a 32-million-strong diaspora.",
+      "wikiSlug": "Remittances_to_India",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-mi-atmanirbhar",
+      "label": "Atmanirbhar Bharat",
+      "year": 2020,
+      "description": "The self-reliance initiative reframed industrial and defense policy around indigenous capacity amid the strategic competition with China.",
+      "wikiSlug": "Atmanirbhar_Bharat",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
     }
   ]
 }

@@ -1,73 +1,672 @@
 {
   "1": [
-    {"eventId": "evt-mi-sepoy-mutiny", "matchText": "Sepoy Mutiny"},
-    {"eventId": "evt-mi-british-raj-begins", "matchText": "Government of India Act 1858"},
-    {"eventId": "evt-mi-tagore-nobel", "matchText": "Tagore Nobel Prize in Literature in 1913"},
-    {"eventId": "evt-mi-taj-mahal-hotel", "matchText": "Taj Mahal Palace Hotel"},
-    {"eventId": "evt-mi-inc-founded", "matchText": "Indian National Congress"}
+    {
+      "eventId": "evt-mi-sepoy-mutiny",
+      "matchText": "Sepoy Mutiny"
+    },
+    {
+      "eventId": "evt-mi-bahadur-shah-exiled",
+      "matchText": "Bahadur Shah Zafar"
+    },
+    {
+      "eventId": "evt-mi-british-raj-begins",
+      "matchText": "Government of India Act 1858"
+    },
+    {
+      "eventId": "evt-mi-penal-code",
+      "matchText": "Indian Penal Code"
+    },
+    {
+      "eventId": "evt-mi-first-railway",
+      "matchText": "Railways"
+    },
+    {
+      "eventId": "evt-mi-victoria-empress",
+      "matchText": "Empress of India"
+    },
+    {
+      "eventId": "evt-mi-great-famine",
+      "matchText": "famine of 1876"
+    },
+    {
+      "eventId": "evt-mi-brahmo-sati",
+      "matchText": "sati"
+    },
+    {
+      "eventId": "evt-mi-arya-samaj",
+      "matchText": "Brahmo Samaj"
+    },
+    {
+      "eventId": "evt-mi-inc-founded",
+      "matchText": "Indian National Congress"
+    },
+    {
+      "eventId": "evt-mi-tagore-nobel",
+      "matchText": "Tagore Nobel Prize in Literature in 1913"
+    }
   ],
   "2": [
-    {"eventId": "evt-mi-partition-bengal", "matchText": "Partition of Bengal"},
-    {"eventId": "evt-mi-new-delhi-built", "matchText": "New Delhi inaugurated in 1931"},
-    {"eventId": "evt-mi-jallianwala-bagh", "matchText": "Jallianwala Bagh massacre"}
+    {
+      "eventId": "evt-mi-partition-bengal",
+      "matchText": "Partition of Bengal"
+    },
+    {
+      "eventId": "evt-mi-swadeshi",
+      "matchText": "Swadeshi Movement"
+    },
+    {
+      "eventId": "evt-mi-muslim-league",
+      "matchText": "Muslim League"
+    },
+    {
+      "eventId": "evt-mi-surat-split",
+      "matchText": "Surat Congress"
+    },
+    {
+      "eventId": "evt-mi-morley-minto",
+      "matchText": "Government of India Act 1919"
+    },
+    {
+      "eventId": "evt-mi-capital-delhi",
+      "matchText": "New Delhi"
+    },
+    {
+      "eventId": "evt-mi-ww1",
+      "matchText": "First World War"
+    },
+    {
+      "eventId": "evt-mi-lucknow-pact",
+      "matchText": "Lucknow Pact"
+    },
+    {
+      "eventId": "evt-mi-rowlatt-act",
+      "matchText": "Rowlatt Act"
+    },
+    {
+      "eventId": "evt-mi-jallianwala-bagh",
+      "matchText": "Jallianwala Bagh massacre"
+    },
+    {
+      "eventId": "evt-mi-goi-act-1919",
+      "matchText": "Montagu-Chelmsford Reforms"
+    },
+    {
+      "eventId": "evt-mi-new-delhi-built",
+      "matchText": "New Delhi inaugurated in 1931"
+    }
   ],
   "3": [
-    {"eventId": "evt-mi-gandhi-returns", "matchText": "He returned to India in January 1915"},
-    {"eventId": "evt-mi-non-cooperation", "matchText": "Non-Cooperation Movement"},
-    {"eventId": "evt-mi-salt-march", "matchText": "Salt March"}
+    {
+      "eventId": "evt-mi-gandhi-returns",
+      "matchText": "returned to India in January 1915"
+    },
+    {
+      "eventId": "evt-mi-champaran",
+      "matchText": "Champaran agitation"
+    },
+    {
+      "eventId": "evt-mi-khilafat",
+      "matchText": "Khilafat Movement"
+    },
+    {
+      "eventId": "evt-mi-non-cooperation",
+      "matchText": "Non-Cooperation Movement"
+    },
+    {
+      "eventId": "evt-mi-chauri-chaura",
+      "matchText": "Chauri Chaura"
+    },
+    {
+      "eventId": "evt-mi-salt-march",
+      "matchText": "Salt March"
+    },
+    {
+      "eventId": "evt-mi-dharasana",
+      "matchText": "Dharasana"
+    },
+    {
+      "eventId": "evt-mi-round-table",
+      "matchText": "First Round Table Conference"
+    }
   ],
   "4": [
-    {"eventId": "evt-mi-quit-india", "matchText": "Quit India Resolution"},
-    {"eventId": "evt-mi-bose-ina", "matchText": "Indian National Army (INA)"}
+    {
+      "eventId": "evt-mi-goi-act-1935",
+      "matchText": "Government of India Act 1935"
+    },
+    {
+      "eventId": "evt-mi-congress-ministries",
+      "matchText": "Congress provincial ministries"
+    },
+    {
+      "eventId": "evt-mi-lahore-resolution",
+      "matchText": "Lahore Resolution"
+    },
+    {
+      "eventId": "evt-mi-cripps-mission",
+      "matchText": "Cripps Mission"
+    },
+    {
+      "eventId": "evt-mi-quit-india",
+      "matchText": "Quit India Resolution"
+    },
+    {
+      "eventId": "evt-mi-bose-ina",
+      "matchText": "Indian National Army"
+    },
+    {
+      "eventId": "evt-mi-bengal-famine",
+      "matchText": "Bengal Famine of 1943"
+    },
+    {
+      "eventId": "evt-mi-ina-trials",
+      "matchText": "INA trials"
+    },
+    {
+      "eventId": "evt-mi-cabinet-mission",
+      "matchText": "Cabinet Mission"
+    },
+    {
+      "eventId": "evt-mi-direct-action-day",
+      "matchText": "Direct Action Day"
+    }
   ],
   "5": [
-    {"eventId": "evt-mi-independence", "matchText": "India gains independence"},
-    {"eventId": "evt-mi-partition", "matchText": "Partition of India"},
-    {"eventId": "evt-mi-gandhi-assassination", "matchText": "Gandhi's assassination"}
+    {
+      "eventId": "evt-mi-mountbatten-plan",
+      "matchText": "Mountbatten"
+    },
+    {
+      "eventId": "evt-mi-rss-founded",
+      "matchText": "Rashtriya Swayamsevak Sangh"
+    },
+    {
+      "eventId": "evt-mi-radcliffe-line",
+      "matchText": "Radcliffe"
+    },
+    {
+      "eventId": "evt-mi-independence",
+      "matchText": "India gains independence"
+    },
+    {
+      "eventId": "evt-mi-partition",
+      "matchText": "Partition of India"
+    },
+    {
+      "eventId": "evt-mi-integration-states",
+      "matchText": "integration of the princely states"
+    },
+    {
+      "eventId": "evt-mi-kashmir-war-1947",
+      "matchText": "First Kashmir War"
+    },
+    {
+      "eventId": "evt-mi-junagadh",
+      "matchText": "Junagadh"
+    },
+    {
+      "eventId": "evt-mi-operation-polo",
+      "matchText": "Operation Polo"
+    },
+    {
+      "eventId": "evt-mi-gandhi-assassination",
+      "matchText": "Gandhi's assassination"
+    },
+    {
+      "eventId": "evt-mi-rss-banned",
+      "matchText": "RSS was banned"
+    }
   ],
   "6": [
-    {"eventId": "evt-mi-nehru-pm", "matchText": "Nehru becomes first Prime Minister"},
-    {"eventId": "evt-mi-ambedkar-constitution", "matchText": "Ambedkar"},
-    {"eventId": "evt-mi-constitution", "matchText": "Indian Constitution adopted in 1950"},
-    {"eventId": "evt-mi-five-year-plan", "matchText": "First Five-Year Plan launched in 1951"},
-    {"eventId": "evt-mi-first-iit", "matchText": "First IIT established in 1951"},
-    {"eventId": "evt-mi-iim-founded", "matchText": "Bombay 1958"},
-    {"eventId": "evt-mi-sino-indian-war", "matchText": "1962 Sino-Indian War"}
+    {
+      "eventId": "evt-mi-purna-swaraj",
+      "matchText": "Purna Swaraj"
+    },
+    {
+      "eventId": "evt-mi-poona-pact",
+      "matchText": "Poona Pact"
+    },
+    {
+      "eventId": "evt-mi-nehru-pm",
+      "matchText": "Nehru becomes first Prime Minister"
+    },
+    {
+      "eventId": "evt-mi-ambedkar-constitution",
+      "matchText": "Ambedkar"
+    },
+    {
+      "eventId": "evt-mi-constitution",
+      "matchText": "Indian Constitution adopted in 1950"
+    },
+    {
+      "eventId": "evt-mi-first-election",
+      "matchText": "universal adult suffrage"
+    },
+    {
+      "eventId": "evt-mi-five-year-plan",
+      "matchText": "First Five-Year Plan launched in 1951"
+    },
+    {
+      "eventId": "evt-mi-first-iit",
+      "matchText": "First IIT established in 1951"
+    },
+    {
+      "eventId": "evt-mi-states-reorganisation",
+      "matchText": "States Reorganisation Act 1956"
+    },
+    {
+      "eventId": "evt-mi-ambedkar-buddhism",
+      "matchText": "converted to Buddhism"
+    },
+    {
+      "eventId": "evt-mi-iim-founded",
+      "matchText": "Bombay 1958"
+    },
+    {
+      "eventId": "evt-mi-non-aligned-movement",
+      "matchText": "Non-Aligned Movement"
+    },
+    {
+      "eventId": "evt-mi-sino-indian-war",
+      "matchText": "1962 Sino-Indian War"
+    },
+    {
+      "eventId": "evt-mi-bhakra-nangal",
+      "matchText": "Bhakra Nangal"
+    },
+    {
+      "eventId": "evt-mi-nehru-dies",
+      "matchText": "died of a second stroke"
+    }
   ],
   "7": [
-    {"eventId": "evt-mi-green-revolution", "matchText": "Green Revolution begins in 1965"},
-    {"eventId": "evt-mi-indira-pm", "matchText": "Indira Gandhi becomes PM in 1966"},
-    {"eventId": "evt-mi-bangladesh-war", "matchText": "Bangladesh Liberation War"},
-    {"eventId": "evt-mi-nuclear-test-1974", "matchText": "Smiling Buddha nuclear test"}
+    {
+      "eventId": "evt-mi-shastri-pm",
+      "matchText": "Lal Bahadur Shastri"
+    },
+    {
+      "eventId": "evt-mi-green-revolution",
+      "matchText": "Green Revolution begins in 1965"
+    },
+    {
+      "eventId": "evt-mi-war-1965",
+      "matchText": "Second Indo-Pakistani War"
+    },
+    {
+      "eventId": "evt-mi-tashkent",
+      "matchText": "Tashkent Conference"
+    },
+    {
+      "eventId": "evt-mi-indira-pm",
+      "matchText": "Indira Gandhi becomes PM in 1966"
+    },
+    {
+      "eventId": "evt-mi-bank-nationalization",
+      "matchText": "Bank Nationalization"
+    },
+    {
+      "eventId": "evt-mi-congress-split",
+      "matchText": "Requisition"
+    },
+    {
+      "eventId": "evt-mi-garibi-hatao",
+      "matchText": "Garibi Hatao"
+    },
+    {
+      "eventId": "evt-mi-bangladesh-war",
+      "matchText": "Bangladesh Liberation War"
+    },
+    {
+      "eventId": "evt-mi-privy-purses",
+      "matchText": "Abolition of Privy Purses"
+    },
+    {
+      "eventId": "evt-mi-nuclear-test-1974",
+      "matchText": "Smiling Buddha nuclear test"
+    }
   ],
   "8": [
-    {"eventId": "evt-mi-emergency", "matchText": "Emergency declared in 1975"}
+    {
+      "eventId": "evt-mi-kesavananda",
+      "matchText": "Allahabad High Court"
+    },
+    {
+      "eventId": "evt-mi-jp-movement",
+      "matchText": "Jayaprakash Narayan"
+    },
+    {
+      "eventId": "evt-mi-allahabad-verdict",
+      "matchText": "electoral malpractice"
+    },
+    {
+      "eventId": "evt-mi-emergency",
+      "matchText": "Emergency declared in 1975"
+    },
+    {
+      "eventId": "evt-mi-sikkim",
+      "matchText": "Maintenance of Internal Security Act"
+    },
+    {
+      "eventId": "evt-mi-42nd-amendment",
+      "matchText": "42nd"
+    },
+    {
+      "eventId": "evt-mi-sterilization",
+      "matchText": "forced sterilization"
+    },
+    {
+      "eventId": "evt-mi-aryabhata",
+      "matchText": "Sanjay Gandhi"
+    },
+    {
+      "eventId": "evt-mi-janata-formed",
+      "matchText": "Janata Party"
+    },
+    {
+      "eventId": "evt-mi-1977-election",
+      "matchText": "March 1977 General Election"
+    }
   ],
   "9": [
-    {"eventId": "evt-mi-golden-temple", "matchText": "Operation Blue Star"},
-    {"eventId": "evt-mi-indira-assassination", "matchText": "two of Indira Gandhi's Sikh bodyguards"},
-    {"eventId": "evt-mi-bhopal-disaster", "matchText": "Bhopal disaster"}
+    {
+      "eventId": "evt-mi-44th-amendment",
+      "matchText": "44th Constitutional Amendment"
+    },
+    {
+      "eventId": "evt-mi-indira-returns",
+      "matchText": "1980 General Election"
+    },
+    {
+      "eventId": "evt-mi-sanjay-dies",
+      "matchText": "Sanjay Gandhi's death"
+    },
+    {
+      "eventId": "evt-mi-golden-temple",
+      "matchText": "Operation Blue Star"
+    },
+    {
+      "eventId": "evt-mi-indira-assassination",
+      "matchText": "Beant Singh"
+    },
+    {
+      "eventId": "evt-mi-anti-sikh-pogrom",
+      "matchText": "anti-Sikh pogrom"
+    },
+    {
+      "eventId": "evt-mi-bhopal-disaster",
+      "matchText": "Bhopal disaster"
+    },
+    {
+      "eventId": "evt-mi-rajiv-pm",
+      "matchText": "Rajiv Gandhi"
+    },
+    {
+      "eventId": "evt-mi-shah-bano",
+      "matchText": "Shah Bano case"
+    },
+    {
+      "eventId": "evt-mi-babri-unlocked",
+      "matchText": "Babri Masjid"
+    },
+    {
+      "eventId": "evt-mi-bofors",
+      "matchText": "Bofors scandal"
+    },
+    {
+      "eventId": "evt-mi-ipkf",
+      "matchText": "Indian Peace Keeping Force"
+    }
   ],
   "10": [
-    {"eventId": "evt-mi-liberalization-1991", "matchText": "Economic liberalization begins in 1991"},
-    {"eventId": "evt-mi-babri-masjid", "matchText": "Babri Masjid demolished"}
+    {
+      "eventId": "evt-mi-mandal",
+      "matchText": "Mandal Commission report"
+    },
+    {
+      "eventId": "evt-mi-rath-yatra",
+      "matchText": "Rath Yatra"
+    },
+    {
+      "eventId": "evt-mi-rajiv-assassination",
+      "matchText": "LTTE suicide bomber"
+    },
+    {
+      "eventId": "evt-mi-rao-pm",
+      "matchText": "P. V. Narasimha Rao"
+    },
+    {
+      "eventId": "evt-mi-bop-crisis",
+      "matchText": "three weeks of import cover"
+    },
+    {
+      "eventId": "evt-mi-liberalization-1991",
+      "matchText": "Economic liberalization begins in 1991"
+    },
+    {
+      "eventId": "evt-mi-babri-masjid",
+      "matchText": "Babri Masjid demolished"
+    },
+    {
+      "eventId": "evt-mi-bombay-riots",
+      "matchText": "Bombay riots"
+    },
+    {
+      "eventId": "evt-mi-rao-term",
+      "matchText": "first non-Nehru-Gandhi government in Indian history to do so"
+    }
   ],
   "11": [
-    {"eventId": "evt-mi-pokhran-ii", "matchText": "Pokhran-II nuclear tests"},
-    {"eventId": "evt-mi-it-boom", "matchText": "IT boom and Bangalore rises"}
+    {
+      "eventId": "evt-mi-coalition-era",
+      "matchText": "coalition politics"
+    },
+    {
+      "eventId": "evt-mi-nda-government",
+      "matchText": "National Democratic Alliance"
+    },
+    {
+      "eventId": "evt-mi-pokhran-ii",
+      "matchText": "Pokhran-II nuclear tests"
+    },
+    {
+      "eventId": "evt-mi-kargil",
+      "matchText": "Kargil War"
+    },
+    {
+      "eventId": "evt-mi-golden-quadrilateral",
+      "matchText": "Golden Quadrilateral"
+    },
+    {
+      "eventId": "evt-mi-it-boom",
+      "matchText": "IT boom and Bangalore rises"
+    },
+    {
+      "eventId": "evt-mi-new-states-2000",
+      "matchText": "PMGSY"
+    },
+    {
+      "eventId": "evt-mi-gujarat-2002",
+      "matchText": "2002 Gujarat communal violence"
+    },
+    {
+      "eventId": "evt-mi-india-shining",
+      "matchText": "India Shining"
+    }
   ],
   "12": [
-    {"eventId": "evt-mi-mumbai-attacks", "matchText": "Mumbai terror attacks"},
-    {"eventId": "evt-mi-chandrayaan-1", "matchText": "Chandrayaan-1 lunar mission"},
-    {"eventId": "evt-mi-modi-pm", "matchText": "Narendra Modi becomes PM"},
-    {"eventId": "evt-mi-mars-orbiter", "matchText": "Mangalyaan reaches Mars"}
+    {
+      "eventId": "evt-mi-manmohan-pm",
+      "matchText": "Manmohan Singh"
+    },
+    {
+      "eventId": "evt-mi-modi-pm",
+      "matchText": "Narendra Modi becomes PM"
+    },
+    {
+      "eventId": "evt-mi-bjp-founded",
+      "matchText": "Bharatiya Janata Party"
+    },
+    {
+      "eventId": "evt-mi-taj-mahal-hotel",
+      "matchText": "Taj Mahal Palace Hotel"
+    },
+    {
+      "eventId": "evt-mi-mgnrega",
+      "matchText": "Mahatma Gandhi National Rural Employment Guarantee Act"
+    },
+    {
+      "eventId": "evt-mi-rti-act",
+      "matchText": "Right to Information Act"
+    },
+    {
+      "eventId": "evt-mi-nuclear-deal",
+      "matchText": "Indo-US Civil Nuclear Agreement"
+    },
+    {
+      "eventId": "evt-mi-mumbai-attacks",
+      "matchText": "Mumbai terror attacks"
+    },
+    {
+      "eventId": "evt-mi-upa-reelected",
+      "matchText": "UPA's first term"
+    },
+    {
+      "eventId": "evt-mi-2g-scandal",
+      "matchText": "2G spectrum scandal"
+    },
+    {
+      "eventId": "evt-mi-cwg-scandal",
+      "matchText": "Commonwealth Games scandal"
+    },
+    {
+      "eventId": "evt-mi-anna-hazare",
+      "matchText": "Anna Hazare"
+    },
+    {
+      "eventId": "evt-mi-nirbhaya",
+      "matchText": "Lokpal Bill"
+    },
+    {
+      "eventId": "evt-mi-rupee-crisis",
+      "matchText": "rupee fell sharply against the dollar in mid-2013"
+    }
   ],
   "13": [
-    {"eventId": "evt-mi-demonetization", "matchText": "demonetization of banknotes"}
+    {
+      "eventId": "evt-mi-jan-dhan",
+      "matchText": "Jan Dhan Yojana"
+    },
+    {
+      "eventId": "evt-mi-swachh-bharat",
+      "matchText": "Swachh Bharat Abhiyan"
+    },
+    {
+      "eventId": "evt-mi-surgical-strikes",
+      "matchText": "Uri attack"
+    },
+    {
+      "eventId": "evt-mi-demonetization",
+      "matchText": "demonetization of banknotes"
+    },
+    {
+      "eventId": "evt-mi-gst",
+      "matchText": "Goods and Services Tax"
+    },
+    {
+      "eventId": "evt-mi-aadhaar-judgment",
+      "matchText": "Aadhaar"
+    },
+    {
+      "eventId": "evt-mi-doklam",
+      "matchText": "Doklam"
+    },
+    {
+      "eventId": "evt-mi-statue-unity",
+      "matchText": "Quadrilateral Security Dialogue"
+    },
+    {
+      "eventId": "evt-mi-balakot",
+      "matchText": "Balakot"
+    },
+    {
+      "eventId": "evt-mi-modi-reelected",
+      "matchText": "2019 General Election"
+    }
   ],
   "14": [
-    {"eventId": "evt-mi-chandrayaan-3", "matchText": "Chandrayaan-3 lands on Moon"},
-    {"eventId": "evt-mi-ram-temple", "matchText": "Ram Temple consecrated in Ayodhya"}
+    {
+      "eventId": "evt-mi-article-370",
+      "matchText": "abrogation of Article 370"
+    },
+    {
+      "eventId": "evt-mi-caa",
+      "matchText": "Citizenship Amendment Act"
+    },
+    {
+      "eventId": "evt-mi-ayodhya-verdict",
+      "matchText": "Supreme Court's November 2019 ruling"
+    },
+    {
+      "eventId": "evt-mi-shaheen-bagh",
+      "matchText": "Shaheen Bagh"
+    },
+    {
+      "eventId": "evt-mi-covid",
+      "matchText": "COVID-19 pandemic"
+    },
+    {
+      "eventId": "evt-mi-galwan",
+      "matchText": "Galwan Valley clash"
+    },
+    {
+      "eventId": "evt-mi-farmers-protest",
+      "matchText": "farmers' protests"
+    },
+    {
+      "eventId": "evt-mi-fifth-economy",
+      "matchText": "fifth largest by nominal GDP"
+    },
+    {
+      "eventId": "evt-mi-chandrayaan-1",
+      "matchText": "Chandrayaan-1 lunar mission"
+    },
+    {
+      "eventId": "evt-mi-mars-orbiter",
+      "matchText": "Mangalyaan reaches Mars"
+    },
+    {
+      "eventId": "evt-mi-chandrayaan-3",
+      "matchText": "Chandrayaan-3 lands on Moon"
+    },
+    {
+      "eventId": "evt-mi-g20",
+      "matchText": "G20 presidency"
+    },
+    {
+      "eventId": "evt-mi-ram-temple",
+      "matchText": "Ram Temple consecrated in Ayodhya"
+    },
+    {
+      "eventId": "evt-mi-2024-election",
+      "matchText": "2024 General Election"
+    }
   ],
-  "15": []
+  "15": [
+    {
+      "eventId": "evt-mi-modi-3",
+      "matchText": "Modi 3.0"
+    },
+    {
+      "eventId": "evt-mi-most-populous",
+      "matchText": "surpassed China in 2023"
+    },
+    {
+      "eventId": "evt-mi-remittances",
+      "matchText": "remittances exceeded $125 billion"
+    },
+    {
+      "eventId": "evt-mi-atmanirbhar",
+      "matchText": "Atmanirbhar Bharat"
+    }
+  ]
 }
