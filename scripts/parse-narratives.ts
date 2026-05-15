@@ -183,6 +183,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'asuka-nara-japan.md': 'asuka-nara-japan',
   'heian-japan.md': 'heian-japan',
   'modern-india.md': 'modern-india',
+  'qing-dynasty.md': 'qing-dynasty',
 }
 
 function slugify(title: string): string {

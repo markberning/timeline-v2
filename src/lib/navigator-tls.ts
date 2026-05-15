@@ -82,7 +82,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'tang-song-china', label: 'Sui, Tang & Song China', subtitle: "from Grand Canal to cosmopolitan peak", region: 'asia', startYear: 581, endYear: 1279, hasContent: true },
   { id: 'yuan-dynasty', label: 'Yuan Dynasty', subtitle: 'Mongol-ruled China', region: 'asia', startYear: 1271, endYear: 1368, hasContent: true },
   { id: 'ming-dynasty', label: 'Ming Dynasty', subtitle: 'Forbidden City and the treasure fleet', region: 'asia', startYear: 1368, endYear: 1644, hasContent: true },
-  { id: 'qing-dynasty', label: 'Qing Dynasty', subtitle: "China's last Manchu empire", region: 'asia', startYear: 1644, endYear: 1912 },
+  { id: 'qing-dynasty', label: 'Qing Dynasty', subtitle: "China's last Manchu empire", region: 'asia', startYear: 1644, endYear: 1912, hasContent: true },
   { id: 'chinese-revolution', label: 'Chinese Revolution', subtitle: 'Mao reshapes China', region: 'asia', startYear: 1912, endYear: 1976 },
   { id: 'rise-of-china', label: 'Rise of China', subtitle: "Deng's reforms to superpower", region: 'asia', startYear: 1976, endYear: 2024 },
 
