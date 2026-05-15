@@ -1,6 +1,8 @@
 # Map Prompts for Gemini
 
-One file per TL. Copy each prompt one at a time into Gemini. Save output as `public/maps/{civilization}/chapter-{N}.png` where `{civilization}` is the full TL id (e.g. `ancient-nubia`, not `nubia`). After all chapters for a TL are generated, run the non-destructive WebP conversion (keep the PNG originals) to produce `.webp` copies alongside the PNGs at quality 85. The reader loads `.webp` via the image probe in `src/components/chapter-accordion.tsx`.
+One file per TL. Map generation is **automated** — `node --env-file=.env.local scripts/generate-maps.mjs {tlId}` parses this file, splits it on `## Chapter N` headers, prepends the per-TL preamble, and calls the Gemini image API (`gemini-3-pro-image-preview`) once per chapter. Output is written to `public/maps/{tlId}/chapter-{N}.png` where `{tlId}` is the full TL id (e.g. `ancient-nubia`, not `nubia`). The script is idempotent (skips chapters that already exist) and resumable with `--chapter N`. After auditing the thumbnails and regenerating any bad chapters, run `node scripts/optimize-maps.mjs` to convert the PNGs to `.webp` at quality 85 — **this deletes the PNG originals** (the `.webp` is the only retained copy). The reader loads `.webp` via the image probe in `src/components/chapter-accordion.tsx`.
+
+This README documents the prompt **house style** the script relies on. The CRITICAL RULES block and lean spec below are still authoritative — the script injects them, and prompt quality still determines map quality.
 
 ---
 
@@ -156,51 +158,9 @@ That's it. If you find yourself writing a fourth annotation or an eighth site, c
 
 ---
 
----
-
 ## Per-TL files
 
-- [mesopotamia.md](mesopotamia.md) — 13 chapters (1–13)
-- [indus-valley.md](indus-valley.md) — 8 chapters (2, 4–10; Ch 1 and Ch 3 not drafted)
-- [ancient-nubia.md](ancient-nubia.md) — 8 chapters (1–8, first-run; see redo/ for rewrites)
-- [ancient-china.md](ancient-china.md) — 8 chapters (1–8, first-run; see redo/ for Ch 4/7/8 rewrites)
-- [elamite-civilization.md](elamite-civilization.md) — 8 chapters (1–8)
-- [early-dynastic-egypt.md](early-dynastic-egypt.md) — 8 chapters (1–8)
-- [kingdom-of-kush.md](kingdom-of-kush.md) — 8 chapters (1–8)
-- [persian-empire.md](persian-empire.md) — 10 chapters (1–10)
-- [early-andean-civilizations.md](early-andean-civilizations.md) — 8 chapters (1–8)
-- [old-kingdom-egypt.md](old-kingdom-egypt.md) — 8 chapters (1–8)
-- [minoan-civilization.md](minoan-civilization.md) — 8 chapters (1–8)
-- [ancient-korea.md](ancient-korea.md) — 8 chapters (1–8)
-- [assyrian-empire.md](assyrian-empire.md) — 8 chapters (1–8)
-- [hittite-empire.md](hittite-empire.md) — 8 chapters (1–8)
-- [mycenaean-civilization.md](mycenaean-civilization.md) — 8 chapters (1–8)
-- [shang-dynasty.md](shang-dynasty.md) — 8 chapters (1–8)
-- [olmec-civilization.md](olmec-civilization.md) — 8 chapters (1–8)
-- [new-kingdom-egypt.md](new-kingdom-egypt.md) — 9 chapters (1–9)
-- [vedic-period.md](vedic-period.md) — 7 chapters (1–3, 5–8; Ch 4 skipped — thematic, no geography)
-- [zhou-dynasty.md](zhou-dynasty.md) — 9 chapters (1–9)
-- [maurya-empire.md](maurya-empire.md) — 8 chapters (1–8)
-- [qin-dynasty.md](qin-dynasty.md) — 7 chapters (1–7; Ch 8 is a reflection chapter, no map)
-- [maya-civilization.md](maya-civilization.md) — 8 chapters (1–8)
-- [carthage.md](carthage.md) — 8 chapters (1–8; Ch 7 is thematic — trade routes and cultural sites)
-- [scythians.md](scythians.md) — 8 chapters (1–8; Ch 6–7 thematic — warrior culture regions and Pazyryk kurgan sites)
-- [ancient-rome.md](ancient-rome.md) — 10 chapters (1–10)
-- [kingdom-of-aksum.md](kingdom-of-aksum.md) — 8 chapters (1–8)
-- [six-dynasties.md](six-dynasties.md) — 8 chapters (1–8)
-- [ancestral-puebloans.md](ancestral-puebloans.md) — 8 chapters (1–8)
-- [ancient-japan.md](ancient-japan.md) — 8 chapters (1–8)
-- [andean-kingdoms.md](andean-kingdoms.md) — 8 chapters (1–8)
-- [celtic-cultures.md](celtic-cultures.md) — 8 chapters (1–8)
-- [han-dynasty.md](han-dynasty.md) — 8 chapters (1–8)
-- [post-maurya-kingdoms.md](post-maurya-kingdoms.md) — 8 chapters (1–8)
-- [gupta-empire.md](gupta-empire.md) — 8 chapters (1–8)
-- [teotihuacan.md](teotihuacan.md) — 8 chapters (1–8)
-- [xiongnu-huns.md](xiongnu-huns.md) — 8 chapters (1–8)
-- [viking-age.md](viking-age.md) — 8 chapters (1–8)
-- [zapotec-civilization.md](zapotec-civilization.md) — 8 chapters (1–8)
-- [byzantine-empire.md](byzantine-empire.md) — 12 chapters (1–12)
-- [mongol-empire.md](mongol-empire.md) — 9 chapters (1–9)
+One `{tlId}.md` per TL in this directory — the directory listing is the index (a hand-maintained list here drifted out of date and was removed). Chapter count per file = the number of `## Chapter N` headers; the generator derives it automatically. A few TLs intentionally skip map-less chapters (reflection/thematic chapters with no geography) — those are simply absent from that TL's prompt file.
 
 ## Redos
 

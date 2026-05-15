@@ -29,7 +29,7 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 9. **Write summary bullets** — `narratives/{tlId}.summaries.json`, 6–10 bullets per chapter. See WRITING-RULES.md for spec.
 10. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts. **Restart dev server after parse** — `lib/data.ts` caches in-memory.
 11. **Backward cross-cultural pass** — add cross-link entries to completed TLs pointing at chapters in the new TL.
-12. **Generate chapter maps** — Gemini with prompts from `map-prompts/{tlId}.md`. See `map-prompts/README.md` for rules. Optimize to `.webp` quality 85.
+12. **Generate chapter maps** — `node --env-file=.env.local scripts/generate-maps.mjs {tlId}` parses `map-prompts/{tlId}.md` and calls the Gemini image API (`gemini-3-pro-image-preview`) per chapter. Audit thumbnails, regen bad chapters with `--chapter N`, then `node scripts/optimize-maps.mjs` (PNG → WebP q85, deletes PNG originals). See `map-prompts/README.md` for prompt house style.
 13. **Review images** — `/review/{tlId}` (dev mode only)
 14. **Ship toggle** — flip `hasContent: true` in `src/lib/navigator-tls.ts`
 
@@ -60,18 +60,21 @@ src/
     chronology-data.ts          — sorted civs, chain lookup, lane-packing, year formatting
     accent-colors.ts            — region-driven accent colors with WCAG-safe variants
     categories.ts               — event category metadata (8 categories)
-    navigator-tls.ts            — 91 navigator TLs with hasContent flag (39 shipped)
+    navigator-tls.ts            — 95 navigator TLs with hasContent flag (76 shipped)
     globe2-data.ts              — 86 globe civs, 10 region groups, GLOBE_TO_READER mapping
     navigator-themes.ts         — Stone theme constants
     offline.ts                  — SW registration, download/delete/status store
 scripts/
   parse-narratives.ts           — markdown → JSON + offline manifests + search index
   enrich-events.ts              — Wikimedia API: thumbnails, extracts, captions
+  linkify.ts                    — link-curation helper
   build-static.mjs              — wraps `next build`, stashes dev-only routes
-  optimize-maps.mjs             — PNG → WebP converter for chapter maps
+  generate-maps.mjs             — parses map-prompts/{tlId}.md → Gemini image API per chapter
+  generate-maps-all-pending.mjs — batch wrapper: runs generate-maps over a pending TL list
+  optimize-maps.mjs             — PNG → WebP converter for chapter maps (deletes PNG originals)
 public/
   sw.js                         — service worker: network-first nav, cache-first assets, per-TL caches
-  search-index.json             — generated full-text search index (~4.1 MB)
+  search-index.json             — generated full-text search index (~9.7 MB)
 narratives/                     — chapter-based prose narratives (one .md per civ)
 reference-data/                 — TL JSON files from v1 (events, spans, chains)
 content/                        — curated link files + generated JSON
@@ -122,11 +125,11 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 - **The informal voice is the product** — don't sand it down
 
 ## Civilization Roadmap
-74 of 95 navigator TLs shipped. Narratives follow chain order from `reference-data/tl-chains.ts`. (medieval-europe omnibus split into early/high/late; ancient-japan omnibus split into prehistoric/asuka-nara/heian.)
+76 of 95 navigator TLs shipped. Narratives follow chain order from `reference-data/tl-chains.ts`. (medieval-europe omnibus split into early/high/late; ancient-japan omnibus split into prehistoric/asuka-nara/heian.)
 
 **Near East:** ✅ umayyad-caliphate (8 ch) → islamic-golden-age (links via Abbasid revolution)
 **Mesopotamian Succession:** ✅ mesopotamia (13 ch) · ✅ assyrian-empire (8 ch) · ✅ islamic-golden-age (10 ch)
-**Indian Subcontinent:** ✅ indus-valley (10 ch) · ✅ vedic-period (8 ch) · ✅ maurya-empire (8 ch) · ✅ post-maurya-kingdoms (8 ch) · ✅ gupta-empire (8 ch) · ✅ medieval-india (8 ch) · ✅ delhi-sultanate (8 ch) · ✅ mughal-empire (9 ch) · modern-india
+**Indian Subcontinent:** ✅ indus-valley (10 ch) · ✅ vedic-period (8 ch) · ✅ maurya-empire (8 ch) · ✅ post-maurya-kingdoms (8 ch) · ✅ gupta-empire (8 ch) · ✅ medieval-india (8 ch) · ✅ delhi-sultanate (8 ch) · ✅ mughal-empire (9 ch) · ✅ modern-india (15 ch)
 **Chinese Dynasties:** ✅ ancient-china (8 ch) · ✅ shang-dynasty (8 ch) · ✅ zhou-dynasty (9 ch) · ✅ qin-dynasty (8 ch) · ✅ han-dynasty (8 ch) · ✅ six-dynasties (8 ch) · ✅ tang-song-china (9 ch) · ✅ yuan-dynasty (8 ch) · ✅ ming-dynasty (8 ch) · qing-dynasty · chinese-revolution · rise-of-china
 **Nile Valley:** ✅ early-dynastic-egypt (8 ch) · ✅ old-kingdom-egypt (8 ch) · ✅ new-kingdom-egypt (9 ch) · ✅ late-egypt (8 ch)
 **Nubian Tradition:** ✅ ancient-nubia (8 ch) · ✅ kingdom-of-kush (8 ch) · ✅ kingdom-of-aksum (8 ch)

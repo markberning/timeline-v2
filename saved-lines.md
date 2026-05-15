@@ -4,7 +4,7 @@ Good lines the user wants to keep and reference later. Eventually this becomes a
 
 ---
 
-## From mesopotamia-rewrite.md — Chapter 1
+## From narratives/mesopotamia.md — Chapter 1
 
 > you can grow more grain per acre than almost anywhere else in the ancient world.
 

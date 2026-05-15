@@ -384,7 +384,7 @@ Keep it compact. Four valid shapes:
 3. **Audit each bullet for concreteness:** does it name a person, a date, a number, or a place? If not, rewrite or cut.
 4. **Check matchText alignment:** for each bullet, ask "does the narrative use this exact wording for the linkable nouns?" If not, adjust the bullet to match.
 5. **Run `npm run parse`** and confirm the file is picked up (watch for `No summaries found for {tlId}` warnings — that means the file path or TL id is wrong).
-6. **Restart `npm run dev`** (the parse cache is in-memory — see `feedback_parse_restart_dev`).
+6. **Restart `npm run dev`** (the parse cache is in-memory — see `feedback_server_restarts`).
 7. **View the collapsed chapter card on mobile** (or DevTools mobile mode) and confirm each bullet fits comfortably on two lines or fewer, and that the auto-injected links are the ones you expected.
 
 ### Exemplar bullets (keep these in your head while writing)
@@ -395,7 +395,7 @@ From `ancient-china.summaries.json` Ch 1:
 From `indus-valley.summaries.json` Ch 7:
 > "Mesopotamian texts call the Harappans Meluhha — a land across the sea — and Sargon of Akkad's inscriptions mention ships from Meluhha docking at his capital around 2350 BCE."
 
-From `mesopotamia-rewrite.summaries.json` Ch 3:
+From `mesopotamia.summaries.json` Ch 3:
 > "Around 3800 BCE, a settlement called Uruk began to grow faster than any community in human history had grown before — and within six hundred years it was the world's first real city, with 40,000 to 80,000 residents packed into six square kilometers."
 
 All three hit the same formula: **a specific place/person/thing + a concrete number or date + a jaw-dropping comparison or claim**, in one tight sentence, with the narrative's informal voice intact.

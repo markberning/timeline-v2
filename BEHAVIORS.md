@@ -64,7 +64,7 @@ Source of truth for how the reader app should behave. Update this when we change
 - **Whole-row tap**: tapping any `hasContent` row on home navigates to that civ.
 
 ## TL Navigator (`/navigator`)
-Custom-touch scrolling flow layout of 91 civilizations with diagonal gap-driven positioning.
+Custom-touch scrolling flow layout of all 95 navigator civilizations with diagonal gap-driven positioning.
 
 ### Layout
 - Fixed-position viewport, `height: 100svh`. Stone theme warm dark bg `#22201e`.
