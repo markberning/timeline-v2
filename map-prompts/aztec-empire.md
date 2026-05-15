@@ -286,8 +286,8 @@ The chapter title "Chapter 8: The End of the Fifth Sun" should appear at the top
 - Lake Texcoco
 - Popocatepetl (volcano on the route)
 
-**Two annotations — render each as a SEPARATE box:**
-- ANNOTATION A — a bold route arrow from Veracruz westward through Cempoala, Tlaxcala, Cholula, to Tenochtitlan: "Cortés's march — 200 miles, 6 months, converting enemies into allies"
-- ANNOTATION B — a short retreat arrow from Tenochtitlan westward along the Tlacopan causeway: "La Noche Triste, June 30–July 1, 1520 — half the Spanish force lost in one night"
+**Two annotations (render each as a separate box):**
+- A bold route arrow from Veracruz westward through Cempoala, Tlaxcala, Cholula, to Tenochtitlan, with the label: "Cortés's march — 200 miles, 6 months, converting enemies into allies"
+- A short retreat arrow from Tenochtitlan westward along the Tlacopan causeway, with the label: "La Noche Triste, June 30–July 1, 1520 — half the Spanish force lost in one night"
 
 **Style:** Landscape orientation, match series style.
