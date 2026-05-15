@@ -144,7 +144,7 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 **Japanese Civilization:** ✅ prehistoric-japan (8 ch) · ✅ asuka-nara-japan (8 ch) · ✅ heian-japan (8 ch) · ✅ edo-japan (8 ch) · ✅ meiji-japan (8 ch) · ✅ japanese-economic-miracle (8 ch)
 **Standalone:** ✅ phoenicia (8 ch) · ✅ polynesian-voyagers (8 ch) · ✅ ancient-israel (8 ch) · ✅ carthage (8 ch)
 
-**Maps pending Gemini generation:** gupta-empire, byzantine-empire, aztec-empire, viking-age, mongol-empire, islamic-golden-age, ottoman-empire, safavid-persia, medieval-india, tang-song-china, edo-japan, joseon-korea, middle-horizon-empires, mali-empire, gokturk-khaganate, delhi-sultanate, yuan-dynasty, meiji-japan, inca-empire, songhai-empire, timurid-empire, early-medieval-europe, high-medieval-europe, late-medieval-europe, mughal-empire, ming-dynasty, korean-modern, japanese-economic-miracle, umayyad-caliphate, renaissance-italy, srivijaya
+**Maps pending Gemini generation:** none — all shipped TLs have chapter maps. New TLs go through `scripts/generate-maps.mjs <tlId>` (gemini-3-pro-image-preview), audit, regen if needed, then `scripts/optimize-maps.mjs`.
 
 ## Color System
 - **Region-driven accent colors** in `src/lib/accent-colors.ts`: Near East = amber `#d97706`, Africa = rust `#b44d3b`, Asia = violet `#7c3aed`, Europe = blue `#1d4ed8`, Americas = green `#047857`.
