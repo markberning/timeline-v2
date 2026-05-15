@@ -159,6 +159,8 @@ function preprocessPrompt(prompt) {
     out.join('\n'),
     '',
     '**LABEL TEXT RULE (overrides everything else):** For every bulleted item in this prompt, render the label exactly as it appears in the bullet — nothing more. Do not invent descriptive text, do not add dates, do not append parenthetical explanations. The bullet text is the complete label.',
+    '',
+    '**NO DECORATIVE ELEMENTS:** Do not draw a compass rose, scale bar, legend, north arrow, latitude/longitude grid, inset map, secondary map panel, or any other cartographic decoration that this prompt does not explicitly request. Do not add a second map showing nearby regions or cultural diffusion. The only required text elements are the title bar, the bulleted labels, the listed region labels, and the single annotation specified above. Nothing else.',
   ].join('\n')
 }
 

@@ -96,7 +96,7 @@ Map of Samudragupta's empire at its first peak, ~335–375 CE. Wide view from th
 
 4 region labels (gray, orientation only):
 - Gupta directly administered core (shaded zone, Ganges plain from Punjab to Bengal)
-- Subordinate kingdoms — southern (Deccan and peninsular India, lighter shading)
+- Southern subordinate kingdoms (Deccan and peninsular India, lighter shading)
 - Himalayas (top edge)
 - Bay of Bengal (right edge)
 
