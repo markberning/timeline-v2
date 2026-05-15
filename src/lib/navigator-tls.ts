@@ -70,7 +70,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'medieval-india', label: 'Medieval India', subtitle: 'temple kingdoms and Hindu revival', region: 'asia', startYear: 550, endYear: 1206, hasContent: true },
   { id: 'delhi-sultanate', label: 'Delhi Sultanate', subtitle: 'Islam takes northern India', region: 'asia', startYear: 1206, endYear: 1526, hasContent: true },
   { id: 'mughal-empire', label: 'Mughal Empire', subtitle: 'Persianate India and the Taj Mahal', region: 'asia', startYear: 1526, endYear: 1857, hasContent: true },
-  { id: 'modern-india', label: 'Modern India', subtitle: 'Raj to republic', region: 'asia', startYear: 1857, endYear: 2024, isReal: true },
+  { id: 'modern-india', label: 'Modern India', subtitle: 'Raj to republic', region: 'asia', startYear: 1857, endYear: 2024, isReal: true, hasContent: true },
 
   // ── ASIA (East) ──
   { id: 'ancient-china', label: 'Ancient China', subtitle: 'Yellow River neolithic roots', region: 'asia', startYear: -7000, endYear: -1600, hasContent: true },
