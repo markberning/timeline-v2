@@ -17,6 +17,36 @@
       "targetTl": "kingdom-of-kush",
       "targetChapter": 1,
       "blurb": "While the Scythians were claiming the Pontic steppe, the Kingdom of Kush was establishing itself at Napata in Upper Nubia — an African kingdom that would soon conquer Egypt itself, producing the 25th Dynasty of pharaohs. Both civilizations were rising on the periphery of the 'civilized' world, and both would shock the settled empires they bordered."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "As the Scythians entered the Pontic steppe, the Assyrian Empire was at its terrifying height in Mesopotamia — the settled superpower whose lands the Scythians would soon be raiding."
+    },
+    {
+      "matchText": "Zhou dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 3,
+      "blurb": "At the far end of the steppe world, Western Zhou China was sliding toward collapse and its own nomad problem. The grasslands connected China and the Black Sea long before anyone could see the whole chain."
+    },
+    {
+      "matchText": "early Greek Dark Ages",
+      "targetTl": "ancient-greece",
+      "targetChapter": 1,
+      "blurb": "While the Scythians built a horse kingdom, Greece was climbing out of its Dark Age toward the polis — the civilization that would later write the Scythians into history as the archetypal barbarian."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 6,
+      "blurb": "In the Andes, Chavín de Huántar was beginning its rise — a religious civilization forming on the opposite side of the planet, in total mutual ignorance of the steppe."
+    },
+    {
+      "matchText": "Olmec civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 2,
+      "blurb": "In Mesoamerica the Olmec capital of San Lorenzo was at its peak — colossal heads and rubber-ball ritual, the 'mother culture,' contemporary with the first Scythians and just as unaware of them."
     }
   ],
   "2": [
@@ -49,18 +79,68 @@
       "targetTl": "new-kingdom-egypt",
       "targetChapter": 9,
       "blurb": "By the 620s BCE, Egypt under Psammetichus I had just reasserted its independence after decades of Assyrian domination — part of the same Late Period renaissance that would produce the last great flowering of pharaonic culture. The Scythians reaching Egypt's borders was one more shock in a century of upheaval for a civilization trying to rebuild itself after foreign rule."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 8,
+      "blurb": "The Scythian Near Eastern raids hit the Assyrian Empire in its final, overextended century — the Scythians were one of the pressures helping bring the superpower down by 612 BCE."
     }
   ],
-  "3": [],
+  "3": [
+    {
+      "matchText": "Cyrus the Great",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "While the Scythians consolidated their grass kingdom, Cyrus was assembling the Persian Empire — the superpower whose king Darius would soon march into the steppe and be humiliated."
+    },
+    {
+      "matchText": "Confucius",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 5,
+      "blurb": "The sixth century BCE is the Axial Age: as the Scythians traded with Greek colonies, Confucius was teaching in China and the Buddha preaching in India. The steppe produced no philosophers — it produced horses, gold, and a way of life that outlasted most Axial empires."
+    }
+  ],
   "4": [
     {
       "matchText": "ruler of the largest empire the world had ever seen",
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "Darius I built the most sophisticated administrative state the ancient world had produced — 23 satrapies connected by royal roads, relay riders, standardized coinage, and a multilingual bureaucracy. He carved his achievements into the cliff at Behistun for the world to see. None of it mattered on the steppe. The Scythians humiliated the King of Kings by refusing to fight and letting the empty grassland do the work."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "Darius's Scythian fiasco (513 BCE) falls right between the founding of the Roman Republic (509) and Marathon (490) — the Persian superpower made to look foolish by a people with no state at all."
+    },
+    {
+      "matchText": "Battle of Marathon",
+      "targetTl": "ancient-greece",
+      "targetChapter": 3,
+      "blurb": "A generation after Darius failed in the steppe, the same Persian war machine would fail again at Marathon — the Scythians had shown the empire's limits first."
     }
   ],
-  "5": [],
+  "5": [
+    {
+      "matchText": "classical period",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "The Scythian golden age overlaps the Athenian classical age — Pericles, the Parthenon, Plato. Greek writers idealized the Scythians as 'the most just of peoples,' a fantasy that says more about Greek self-doubt than about the steppe."
+    },
+    {
+      "matchText": "Warring States period",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 6,
+      "blurb": "At the same moment, China was tearing itself apart in the Warring States — while the Scythians, with no state to fracture, simply rode on."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "India was a generation away from its first great empire under the Mauryas — the settled world building ever-larger states as the Scythians kept theirs stateless by design."
+    }
+  ],
   "6": [
     {
       "matchText": "the founder of the Achaemenid Empire, the conqueror of Babylon",
@@ -73,6 +153,12 @@
       "targetTl": "shang-dynasty",
       "targetChapter": 5,
       "blurb": "Fu Hao, a consort of the Shang king Wu Ding, commanded armies of up to 13,000 soldiers around 1200 BCE and was buried with bronze weapons, jade ornaments, and sacrificial victims. Her tomb at Yinxu is one of the richest Shang burials ever found. Like the Scythian warrior women, Fu Hao challenges the assumption that ancient warfare was exclusively male — though her case was exceptional where Scythian women warriors were a recognized social category."
+    },
+    {
+      "matchText": "Fu Hao",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 4,
+      "blurb": "Scythian warrior-women have scattered parallels elsewhere — the Shang queen Fu Hao led armies around 1200 BCE — but nowhere else was female participation in war a broad cultural norm the way the steppe seems to have made it."
     }
   ],
   "7": [
@@ -87,6 +173,18 @@
       "targetTl": "vedic-period",
       "targetChapter": 2,
       "blurb": "The Vedic tradition preserved the Rigveda — over a thousand hymns totaling 10,000 verses — through purely oral transmission for over a millennium before anyone wrote them down. The memorization techniques were so precise that the text survived essentially unchanged. The Scythians made a similar choice to keep their knowledge oral, but unlike the Vedic Hindus, they left no literary descendants to eventually record what they knew."
+    },
+    {
+      "matchText": "Achaemenid Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 3,
+      "blurb": "The Pazyryk tombs are contemporary with the height of Achaemenid Persia and the Athenian golden age — and the Chinese silk inside them proves the steppe was already linking the two ends of Eurasia centuries before the 'Silk Road' had a name."
+    },
+    {
+      "matchText": "Warring States period",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 6,
+      "blurb": "Chinese silk in a Siberian tomb: while Warring States China fought itself, its luxury goods were already moving west along steppe networks the Scythians had run for centuries."
     }
   ],
   "8": [
