@@ -168,13 +168,13 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
       ref={sectionRef}
       id={`chapter-${chapter.number}`}
       className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}
-      style={{ scrollMarginTop: 'var(--reader-nav-h, 48px)' }}
+      style={{ scrollMarginTop: 'calc(var(--reader-nav-h, 48px) + var(--reader-minhdr-h, 0px))' }}
     >
       <div
         ref={headerRef}
         className="sticky z-10 transition-colors duration-[1200ms] -mx-8 px-8"
         style={{
-          top: 'var(--reader-nav-h, 48px)',
+          top: 'calc(var(--reader-nav-h, 48px) + var(--reader-minhdr-h, 0px))',
           backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)',
         }}
       >

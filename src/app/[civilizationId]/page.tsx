@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import { NarrativeReader } from '@/components/narrative-reader'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
-import { CollapsingCivBar } from '@/components/collapsing-civ-bar'
+import { MinCivHeader } from '@/components/min-civ-header'
 import { getChainsForTimeline, getChainPosition } from '../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
 import { getCivIconPath } from '@/lib/civ-icons'
@@ -54,11 +54,6 @@ export default async function CivilizationPage({ params }: PageProps) {
             <DarkModeToggle />
           </div>
         </div>
-        <CollapsingCivBar
-          label={narrative.label}
-          prev={prevTl ? { id: prevId!, label: prevTl.label, hasContent: !!prevTl.hasContent } : null}
-          next={nextTl ? { id: nextId!, label: nextTl.label, hasContent: !!nextTl.hasContent } : null}
-        />
       </div>
 
       <div className="pt-4 pb-8">
@@ -80,13 +75,16 @@ export default async function CivilizationPage({ params }: PageProps) {
         {currentTl?.subtitle && (
           <p className="text-[14px] text-foreground/55 mt-1 italic font-[family-name:var(--font-lora)] pl-[16.5px]">{currentTl.subtitle}</p>
         )}
-        {/* Chain prev/next now lives permanently in the pinned
-            CollapsingCivBar above, so it isn't duplicated here. */}
-        <div className="mb-6" />
-
-        {/* Marks the end of the scrollaway hero — when this passes under the
-            sticky nav, the civ name fades into CollapsingCivBar. */}
-        <div data-civ-hero-end aria-hidden="true" className="h-0" />
+        {/* Second sticky tier: a compact civ header that pins just BELOW
+            the unchanging nav line once the hero scrolls past it. Constant
+            height + real position:sticky, so the chapter header stacks
+            below it at a fixed offset and never jolts. Chain prev/next
+            lives here now (removed from the hero to avoid duplication). */}
+        <MinCivHeader
+          label={narrative.label}
+          prev={prevTl ? { id: prevId!, label: prevTl.label, hasContent: !!prevTl.hasContent } : null}
+          next={nextTl ? { id: nextId!, label: nextTl.label, hasContent: !!nextTl.hasContent } : null}
+        />
 
         <NarrativeReader civilizationId={civilizationId} chapters={narrative.chapters} events={narrative.events} glossary={narrative.glossary ?? []} crossLinks={narrative.crossLinks ?? []} />
       </div>
