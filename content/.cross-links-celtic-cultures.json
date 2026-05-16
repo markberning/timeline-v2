@@ -17,6 +17,24 @@
       "targetTl": "persian-empire",
       "targetChapter": 1,
       "blurb": "Cyrus the Great founded the Achaemenid Empire in 559 BCE, conquering the Medes, Lydians, and Babylonians to build the largest empire the world had yet seen. While the Hallstatt Celts were burying their chiefs with Greek wine and gold torcs, Cyrus was absorbing entire civilizations into a single administrative system — two completely different models of power in the same century."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "As Hallstatt chieftains were buried with their gold and wagons, Cyrus the Great was assembling the largest empire the world had yet seen. The Celts had no idea, and the Persians had never heard of them."
+    },
+    {
+      "matchText": "Greek Archaic period",
+      "targetTl": "ancient-greece",
+      "targetChapter": 2,
+      "blurb": "While the Celts worked salt and iron, the Greeks of the Archaic age were inventing the city-state, the law code, and the first experiments in citizen government — the civilization that would later define the Celts as 'barbarians.'"
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "The early Roman Republic was a small central-Italian polity when the Hallstatt Celts were at their height. Within four centuries Rome would conquer almost the entire Celtic world."
     }
   ],
   "2": [
@@ -25,6 +43,12 @@
       "targetTl": "ancient-greece",
       "targetChapter": 4,
       "blurb": "While Celtic artists were developing the swirling ambiguity of La Tene art around 450 BCE, Athens was in its golden age — Phidias sculpting the Parthenon, Sophocles writing tragedies, and Pericles leading the world's first democracy. Greek art pursued idealized naturalism; Celtic art pursued deliberate transformation. Two radically different ideas about what art is for."
+    },
+    {
+      "matchText": "Warring States period in China",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 6,
+      "blurb": "At the other end of Eurasia, Warring States China was casting bronze of extraordinary technical sophistication — ritual formalism where Celtic art chose flowing ambiguity. Three civilizations, three completely different ideas of what art is for."
     }
   ],
   "3": [
@@ -39,6 +63,24 @@
       "targetTl": "ancient-greece",
       "targetChapter": 8,
       "blurb": "Alexander the Great's conquests between 336 and 323 BCE created the Hellenistic world that the Celts would invade a generation later. When Celtic ambassadors told Alexander they feared nothing except the sky falling, they were speaking to the most powerful man alive — and apparently did not care. His successors' wars fragmented his empire and created the power vacuum the Celts exploited."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "The great Celtic expansion coincides with Alexander's conquests. The Celts were not erupting into a vacuum — they poured into a Mediterranean world thrown into upheaval by Macedon's sudden empire and its violent breakup."
+    },
+    {
+      "matchText": "Hellenistic kingdoms",
+      "targetTl": "ancient-greece",
+      "targetChapter": 8,
+      "blurb": "The post-Alexander Hellenistic kingdoms — wealthy, militarized, fighting each other — were exactly the kind of disordered world that let aggressive Celtic war-bands raid, extort, and hire themselves out as mercenaries."
+    },
+    {
+      "matchText": "Scythians",
+      "targetTl": "scythians",
+      "targetChapter": 2,
+      "blurb": "The parallel with the Scythians is exact: both were fringe peoples who erupted into the civilized world, terrified everyone, then settled into raiding, trading, and mercenary service."
     }
   ],
   "4": [
@@ -65,6 +107,24 @@
       "targetTl": "ancient-greece",
       "targetChapter": 5,
       "blurb": "The Battle of Thermopylae in 480 BCE, where Leonidas and his Spartans held the narrow pass against Xerxes' Persian army, became one of the defining moments of Greek identity. When the Celts invaded Greece in 279 BCE, they faced Greek defenders at the same pass and found the same mountain bypass the Persians had used."
+    },
+    {
+      "matchText": "Scythians",
+      "targetTl": "scythians",
+      "targetChapter": 5,
+      "blurb": "As the Celts sacked Rome and raided Delphi, the Scythians were in their golden age on the Pontic steppe, producing the Kul-Oba and Solokha goldwork — both peoples the 'barbarian other' the Mediterranean defined itself against."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 1,
+      "blurb": "While Celtic war-bands terrorized the Mediterranean by land, Carthage was building the maritime empire that would soon collide with Rome. Rome forged its identity against both."
+    },
+    {
+      "matchText": "Punic Wars",
+      "targetTl": "ancient-rome",
+      "targetChapter": 3,
+      "blurb": "Rome's identity was hammered out in opposition to the Gauls who sacked it and the Carthaginians who nearly destroyed it in the Punic Wars — the Celtic world would become its first great continental conquest."
     }
   ],
   "5": [
@@ -87,6 +147,18 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 7,
       "blurb": "During the Warring States period, Chinese states were developing the same things the Celtic oppida represented — larger fortified towns, standardized coinage, professional bureaucracies, and more formal political institutions. The Chinese path led to Qin unification. The Celtic path was cut short by Roman conquest. Two parallel experiments in state-building, one completed, one interrupted."
+    },
+    {
+      "matchText": "Qin unification",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 3,
+      "blurb": "China's path led to the Qin unification and a 2,000-year imperial tradition. The Celts were on a roughly similar urbanizing trajectory but were conquered by Rome before they could reach a comparable conclusion."
+    },
+    {
+      "matchText": "Scythians",
+      "targetTl": "scythians",
+      "targetChapter": 8,
+      "blurb": "The Scythians never took the urbanizing path at all — they stayed nomadic until the Sarmatians displaced them in the third century BCE. Three Iron Age peoples, three different relationships with the city."
     }
   ],
   "7": [
@@ -107,6 +179,12 @@
       "targetTl": "scythians",
       "targetChapter": 4,
       "blurb": "Vercingetorix's scorched-earth strategy against Caesar was essentially the same tactic the Scythians had used to humiliate Darius I of Persia 460 years earlier — burn the land, deny the enemy food, refuse to fight on their terms. Whether Vercingetorix knew about Darius's failed invasion is unknown, but he independently arrived at the steppe nomads' signature insight: superior armies can be defeated by the landscape itself."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 5,
+      "blurb": "The Gallic Wars gave Caesar the wealth, army, and prestige to destroy the Roman Republic itself. The Celts lost their freedom, and within two decades, so did the Romans."
     }
   ],
   "8": [

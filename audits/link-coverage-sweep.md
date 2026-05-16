@@ -29,8 +29,14 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 
 | TL | chapters | status | commit |
 |---|---|---|---|
-| viking-age | 8 | **DONE** (Ch1–8) | 6791a73, 52c83c9, +this |
-| _next: celtic-cultures, then roadmap chain order (excl. 6 US-history civs)_ | | pending | |
+| viking-age | 8 | **DONE** (Ch1–8) | 6791a73, 52c83c9, 7fcbf5b |
+| celtic-cultures | 8 | **DONE** | +this |
+| _next: roadmap chain order (excl. 6 US-history civs)_ | | pending | |
+
+> Benign-warning note: when a pre-existing cross-link has a longer matchText
+> covering the same span (e.g. "rise of the Persian Empire" vs my "Persian
+> Empire"), the redundant shorter entry no-ops with a "not found" warning.
+> Harmless — the link still renders via the longer entry. Not worth cleaning per-civ.
 
 ### viking-age note
 Norse-cosmology chapters (esp. Ch5) have many non-ASCII Old Norse terms

@@ -259,6 +259,12 @@
       "matchText": "horse gear",
       "wikiSlug": "Horse_tack",
       "type": "concept"
+    },
+    {
+      "term": "Chariot",
+      "matchText": "Celtic war chariot",
+      "wikiSlug": "Chariot",
+      "type": "concept"
     }
   ],
   "3": [
@@ -411,6 +417,12 @@
       "matchText": "Cenomani",
       "wikiSlug": "Cenomani_(Gaul)",
       "type": "people"
+    },
+    {
+      "term": "Brennus",
+      "matchText": "Brennus",
+      "wikiSlug": "Brennus_(4th_century_BC)",
+      "type": "people"
     }
   ],
   "4": [
@@ -533,6 +545,12 @@
       "matchText": "Gallic sack of Rome",
       "wikiSlug": "Battle_of_the_Allia",
       "type": "concept"
+    },
+    {
+      "term": "Senones",
+      "matchText": "Senones",
+      "wikiSlug": "Senones",
+      "type": "people"
     }
   ],
   "5": [
@@ -941,6 +959,18 @@
       "matchText": "Bourges",
       "wikiSlug": "Bourges",
       "type": "place"
+    },
+    {
+      "term": "Ptolemaic Kingdom",
+      "matchText": "late Ptolemaic period",
+      "wikiSlug": "Ptolemaic_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Hasmonean dynasty",
+      "matchText": "Hasmonean dynasty",
+      "wikiSlug": "Hasmonean_dynasty",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1117,6 +1147,30 @@
       "matchText": "Celtic language family",
       "wikiSlug": "Celtic_languages",
       "type": "concept"
+    },
+    {
+      "term": "Quechua",
+      "matchText": "Quechua",
+      "wikiSlug": "Quechua",
+      "type": "concept"
+    },
+    {
+      "term": "Anglesey",
+      "matchText": "Mona",
+      "wikiSlug": "Anglesey",
+      "type": "place"
+    },
+    {
+      "term": "Early Irish law",
+      "matchText": "Brehon laws",
+      "wikiSlug": "Early_Irish_law",
+      "type": "concept"
+    },
+    {
+      "term": "Cernunnos",
+      "matchText": "Cernunnos",
+      "wikiSlug": "Cernunnos",
+      "type": "people"
     }
   ]
 }
