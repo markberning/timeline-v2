@@ -32,9 +32,17 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   const savedScrollY = useRef(0)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
+  // Track the sticky nav height. It changes when CollapsingCivBar expands
+  // or collapses on scroll, so observe it rather than measuring once —
+  // keeps the chapter header pinned flush below the (possibly grown) nav.
   useEffect(() => {
     const nav = document.querySelector('[data-top-nav]') as HTMLElement | null
-    if (nav) setNavHeight(Math.ceil(nav.getBoundingClientRect().height))
+    if (!nav) return
+    const measure = () => setNavHeight(Math.ceil(nav.getBoundingClientRect().height))
+    measure()
+    const ro = new ResizeObserver(measure)
+    ro.observe(nav)
+    return () => ro.disconnect()
   }, [])
 
   // Track when the full-size map scrolls out of view
