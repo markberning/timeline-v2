@@ -433,6 +433,12 @@
       "matchText": "Linear B",
       "wikiSlug": "Linear_B",
       "type": "concept"
+    },
+    {
+      "term": "Treasury of Atreus",
+      "matchText": "Tomb of Agamemnon",
+      "wikiSlug": "Treasury_of_Atreus",
+      "type": "place"
     }
   ],
   "3": [
@@ -931,6 +937,18 @@
       "matchText": "Odyssey",
       "wikiSlug": "Odyssey",
       "type": "concept"
+    },
+    {
+      "term": "Ahhiyawa",
+      "matchText": "Ahhiyawa",
+      "wikiSlug": "Ahhiyawa",
+      "type": "concept"
+    },
+    {
+      "term": "Wilusa",
+      "matchText": "Wilusa",
+      "wikiSlug": "Wilusa",
+      "type": "place"
     }
   ],
   "6": [
@@ -1107,6 +1125,18 @@
       "matchText": "Homer",
       "wikiSlug": "Homer",
       "type": "people"
+    },
+    {
+      "term": "Carl Blegen",
+      "matchText": "Carl Blegen",
+      "wikiSlug": "Carl_Blegen",
+      "type": "people"
+    },
+    {
+      "term": "Boar's tusk helmet",
+      "matchText": "boar's tusk helmet",
+      "wikiSlug": "Boar%27s_tusk_helmet",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1247,6 +1277,18 @@
       "matchText": "Argolid",
       "wikiSlug": "Argolis",
       "type": "place"
+    },
+    {
+      "term": "Gla",
+      "matchText": "Fortress of Gla",
+      "wikiSlug": "Gla",
+      "type": "place"
+    },
+    {
+      "term": "Sea Peoples",
+      "matchText": "Tjeker",
+      "wikiSlug": "Sea_Peoples",
+      "type": "people"
     }
   ],
   "8": [
@@ -1483,6 +1525,12 @@
       "matchText": "Knossos",
       "wikiSlug": "Knossos",
       "type": "place"
+    },
+    {
+      "term": "Dorian invasion",
+      "matchText": "Dorian Migration",
+      "wikiSlug": "Dorian_invasion",
+      "type": "concept"
     }
   ]
 }

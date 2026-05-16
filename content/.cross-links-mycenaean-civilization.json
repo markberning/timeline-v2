@@ -31,6 +31,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 2,
       "blurb": "The Shang dynasty, contemporary with the Mycenaean palatial period, was building its own royal tombs at Anyang with bronze ritual vessels and human sacrifices. Both civilizations buried their elite with spectacular grave goods, but the Shang invested in bronze casting while the Mycenaeans invested in stone architecture."
+    },
+    {
+      "matchText": "Minoan",
+      "targetTl": "minoan-civilization",
+      "targetChapter": 4,
+      "blurb": "The palace-builders borrowed heavily from the Minoan golden age — frescoes, administration, luxury craft — but wrapped it around a fortress, not an open town."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 2,
+      "blurb": "Shaft-grave warrior aristocracies hoarding bronze and gold have parallels far afield — early Bronze Age China was building its own elite metal culture in total mutual ignorance."
     }
   ],
   "3": [
@@ -45,6 +57,12 @@
       "targetTl": "minoan-civilization",
       "targetChapter": 7,
       "blurb": "The Mycenaean conquest of Crete around 1450 BCE ended six centuries of Minoan palatial civilization. The student overthrew the teacher, but the Mycenaeans preserved and adapted Minoan administrative systems, writing technology, and religious practices rather than destroying them."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 8,
+      "blurb": "The Mycenaean takeover of Knossos put Greek-speakers in charge of a Minoan bureaucratic machine — administered writing for palace accounting, the same tool Mesopotamia had pioneered millennia earlier."
     }
   ],
   "4": [
@@ -71,6 +89,12 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 6,
       "blurb": "Nubian gold traveled through Egyptian intermediaries to reach the wider Mediterranean trade network. The Mycenaeans imported gold ultimately sourced from Nubian mines, part of the same international supply chain that moved copper from Cyprus, tin from central Asia, and amber from the Baltic."
+    },
+    {
+      "matchText": "New Kingdom Egypt",
+      "targetTl": "new-kingdom-egypt",
+      "targetChapter": 1,
+      "blurb": "Mycenaean pottery turns up across New Kingdom Egypt and the Levant — Greece plugged into the great Late Bronze Age exchange system that linked Thebes, Hattusa, and Mycenae."
     }
   ],
   "5": [
@@ -79,6 +103,12 @@
       "targetTl": "hittite-empire",
       "targetChapter": 5,
       "blurb": "Muwatalli II was the Hittite king who fought Ramesses II at the Battle of Kadesh. His treaty with a king of Wilusa named Alaksandu places the Hittites directly in the Trojan War story, documenting real diplomatic relations with the city Homer later immortalized."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 4,
+      "blurb": "The Trojan War tradition crystallized a real Late Bronze Age world of chariot armies and fortified citadels — the same military order that Assyria would later carry to its industrial extreme."
     }
   ],
   "7": [
@@ -99,6 +129,18 @@
       "targetTl": "hittite-empire",
       "targetChapter": 8,
       "blurb": "The desperate last letter from Ugarit's king, describing enemy ships at sea and an abandoned country, was written just before the city was sacked and permanently abandoned around 1185 BCE. It captures the cascading collapse of the Bronze Age international system in a single archaeological document."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 6,
+      "blurb": "The Bronze Age Collapse that destroyed Mycenae was a system-wide cascade — the same convulsion battered Elam, the Hittites, and the whole eastern Mediterranean within two generations."
+    },
+    {
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 7,
+      "blurb": "Mycenae, Hattusa, Ugarit — the great citadel-states fell almost together around 1200 BCE in one of history's worst systemic collapses."
     }
   ],
   "8": [
@@ -113,6 +155,18 @@
       "targetTl": "minoan-civilization",
       "targetChapter": 8,
       "blurb": "Arthur Evans excavated Knossos from 1900 onward, revealing the Minoan civilization that had been the Mycenaeans' teacher and predecessor. His discovery of Linear B tablets there set the stage for Michael Ventris's breakthrough decipherment half a century later."
+    },
+    {
+      "matchText": "Ancient Greece",
+      "targetTl": "ancient-greece",
+      "targetChapter": 1,
+      "blurb": "Out of the Mycenaean ruin came the Greek Dark Age — and from its oral memory of vanished citadels, the Homeric epics and the civilization of the polis would eventually be born."
+    },
+    {
+      "matchText": "Minoan",
+      "targetTl": "minoan-civilization",
+      "targetChapter": 8,
+      "blurb": "Both Bronze Age Aegean civilizations survived only as legend — the Minoans as Minos and the Labyrinth, the Mycenaeans as Agamemnon and Troy."
     }
   ]
 }

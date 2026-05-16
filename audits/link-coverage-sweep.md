@@ -36,7 +36,9 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | gokturk-khaganate | 8 | **DONE** (cross-civ focus) | 556d57c |
 | mongol-empire | 9 | **DONE** (cross + ~44 glossary) | 481de5a |
 | timurid-empire | 8 | **DONE** (cross 54 + glossary) | cb8dfac |
-| minoan-civilization | 8 | **DONE** (inline cross-refs + glossary) | +this |
+| minoan-civilization | 8 | **DONE** | f14d5f0 |
+| mycenaean-civilization | 8 | **DONE** | +this |
+| _next: ancient-greece (Greco-Roman chain), then roadmap order_ | | pending | |
 | _next: roadmap chain order (excl. 6 US-history civs)_ | | pending | |
 
 > Benign-warning note: when a pre-existing cross-link has a longer matchText
