@@ -1,213 +1,1212 @@
 {
   "1": [
-    {"term": "Magadha", "matchText": "Magadha", "wikiSlug": "Magadha", "type": "place"},
-    {"term": "Ganges plain", "matchText": "Ganges plain", "wikiSlug": "Indo-Gangetic_Plain", "type": "place"},
-    {"term": "Deccan plateau", "matchText": "Deccan plateau", "wikiSlug": "Deccan_Plateau", "type": "place"},
-    {"term": "Kshatriya", "matchText": "Kshatriya", "wikiSlug": "Kshatriya", "type": "concept"},
-    {"term": "Kautilya", "matchText": "Kautilya", "wikiSlug": "Chanakya", "type": "people"},
-    {"term": "Vishnugupta", "matchText": "Vishnugupta", "wikiSlug": "Chanakya", "type": "people"},
-    {"term": "Brahmin", "matchText": "Brahmin", "wikiSlug": "Brahmin", "type": "concept"},
-    {"term": "Taxila", "matchText": "Taxila", "wikiSlug": "Taxila", "type": "place"},
-    {"term": "Alexander of Macedon", "matchText": "Alexander of Macedon", "wikiSlug": "Alexander_the_Great", "type": "people"},
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "Indus valley", "matchText": "Indus valley", "wikiSlug": "Indus_River", "type": "place"},
-    {"term": "Dhana Nanda", "matchText": "Dhana Nanda", "wikiSlug": "Dhana_Nanda", "type": "people"},
-    {"term": "Maurya Empire", "matchText": "Maurya Empire", "wikiSlug": "Maurya_Empire", "type": "concept"},
-    {"term": "Pataliputra", "matchText": "Pataliputra", "wikiSlug": "Pataliputra", "type": "place"},
-    {"term": "Strabo", "matchText": "Strabo", "wikiSlug": "Strabo", "type": "people"},
-    {"term": "Arrian", "matchText": "Arrian", "wikiSlug": "Arrian", "type": "people"},
-    {"term": "Diodorus Siculus", "matchText": "Diodorus Siculus", "wikiSlug": "Diodorus_Siculus", "type": "people"},
-    {"term": "Susa", "matchText": "Susa", "wikiSlug": "Susa", "type": "place"},
-    {"term": "Ecbatana", "matchText": "Ecbatana", "wikiSlug": "Ecbatana", "type": "place"},
-    {"term": "Achaemenid Empire", "matchText": "Achaemenid Empire", "wikiSlug": "Achaemenid_Empire", "type": "concept"},
-    {"term": "Seleucid Empire", "matchText": "Seleucid Empire", "wikiSlug": "Seleucid_Empire", "type": "concept"},
-    {"term": "Hindu Kush", "matchText": "Hindu Kush", "wikiSlug": "Hindu_Kush", "type": "place"},
-    {"term": "Himalayas", "matchText": "Himalayas", "wikiSlug": "Himalayas", "type": "place"},
-    {"term": "karshapana", "matchText": "karshapana", "wikiSlug": "Karshapana", "type": "concept"},
-    {"term": "Bharuch", "matchText": "Bharuch", "wikiSlug": "Bharuch", "type": "place"},
-    {"term": "Gujarat", "matchText": "Gujarat", "wikiSlug": "Gujarat", "type": "place"},
-    {"term": "spice trade", "matchText": "spice trade", "wikiSlug": "Spice_trade", "type": "concept"},
-    {"term": "Indian Ocean trade", "matchText": "Indian Ocean trade", "wikiSlug": "Indian_Ocean_trade", "type": "concept"},
-    {"term": "wootz steel", "matchText": "wootz steel", "wikiSlug": "Wootz_steel", "type": "concept"},
-    {"term": "Shravanabelagola", "matchText": "Shravanabelagola", "wikiSlug": "Shravanabelagola", "type": "place"},
-    {"term": "santhara", "matchText": "santhara", "wikiSlug": "Santhara", "type": "concept"},
-    {"term": "Karnataka", "matchText": "Karnataka", "wikiSlug": "Karnataka", "type": "place"},
-    {"term": "Bindusara", "matchText": "Bindusara", "wikiSlug": "Bindusara", "type": "people"},
-    {"term": "Samnite Wars", "matchText": "Samnite Wars", "wikiSlug": "Samnite_Wars", "type": "concept"},
-    {"term": "Bay of Bengal", "matchText": "Bay of Bengal", "wikiSlug": "Bay_of_Bengal", "type": "place"}
+    {
+      "term": "Magadha",
+      "matchText": "Magadha",
+      "wikiSlug": "Magadha",
+      "type": "place"
+    },
+    {
+      "term": "Ganges plain",
+      "matchText": "Ganges plain",
+      "wikiSlug": "Indo-Gangetic_Plain",
+      "type": "place"
+    },
+    {
+      "term": "Deccan plateau",
+      "matchText": "Deccan plateau",
+      "wikiSlug": "Deccan_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Kshatriya",
+      "matchText": "Kshatriya",
+      "wikiSlug": "Kshatriya",
+      "type": "concept"
+    },
+    {
+      "term": "Kautilya",
+      "matchText": "Kautilya",
+      "wikiSlug": "Chanakya",
+      "type": "people"
+    },
+    {
+      "term": "Vishnugupta",
+      "matchText": "Vishnugupta",
+      "wikiSlug": "Chanakya",
+      "type": "people"
+    },
+    {
+      "term": "Brahmin",
+      "matchText": "Brahmin",
+      "wikiSlug": "Brahmin",
+      "type": "concept"
+    },
+    {
+      "term": "Taxila",
+      "matchText": "Taxila",
+      "wikiSlug": "Taxila",
+      "type": "place"
+    },
+    {
+      "term": "Alexander of Macedon",
+      "matchText": "Alexander of Macedon",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Indus valley",
+      "matchText": "Indus valley",
+      "wikiSlug": "Indus_River",
+      "type": "place"
+    },
+    {
+      "term": "Dhana Nanda",
+      "matchText": "Dhana Nanda",
+      "wikiSlug": "Dhana_Nanda",
+      "type": "people"
+    },
+    {
+      "term": "Maurya Empire",
+      "matchText": "Maurya Empire",
+      "wikiSlug": "Maurya_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Strabo",
+      "matchText": "Strabo",
+      "wikiSlug": "Strabo",
+      "type": "people"
+    },
+    {
+      "term": "Arrian",
+      "matchText": "Arrian",
+      "wikiSlug": "Arrian",
+      "type": "people"
+    },
+    {
+      "term": "Diodorus Siculus",
+      "matchText": "Diodorus Siculus",
+      "wikiSlug": "Diodorus_Siculus",
+      "type": "people"
+    },
+    {
+      "term": "Susa",
+      "matchText": "Susa",
+      "wikiSlug": "Susa",
+      "type": "place"
+    },
+    {
+      "term": "Ecbatana",
+      "matchText": "Ecbatana",
+      "wikiSlug": "Ecbatana",
+      "type": "place"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Seleucid Empire",
+      "matchText": "Seleucid Empire",
+      "wikiSlug": "Seleucid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Hindu Kush",
+      "matchText": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush",
+      "type": "place"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayas",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "karshapana",
+      "matchText": "karshapana",
+      "wikiSlug": "Karshapana",
+      "type": "concept"
+    },
+    {
+      "term": "Bharuch",
+      "matchText": "Bharuch",
+      "wikiSlug": "Bharuch",
+      "type": "place"
+    },
+    {
+      "term": "Gujarat",
+      "matchText": "Gujarat",
+      "wikiSlug": "Gujarat",
+      "type": "place"
+    },
+    {
+      "term": "spice trade",
+      "matchText": "spice trade",
+      "wikiSlug": "Spice_trade",
+      "type": "concept"
+    },
+    {
+      "term": "Indian Ocean trade",
+      "matchText": "Indian Ocean trade",
+      "wikiSlug": "Indian_Ocean_trade",
+      "type": "concept"
+    },
+    {
+      "term": "wootz steel",
+      "matchText": "wootz steel",
+      "wikiSlug": "Wootz_steel",
+      "type": "concept"
+    },
+    {
+      "term": "Shravanabelagola",
+      "matchText": "Shravanabelagola",
+      "wikiSlug": "Shravanabelagola",
+      "type": "place"
+    },
+    {
+      "term": "santhara",
+      "matchText": "santhara",
+      "wikiSlug": "Santhara",
+      "type": "concept"
+    },
+    {
+      "term": "Karnataka",
+      "matchText": "Karnataka",
+      "wikiSlug": "Karnataka",
+      "type": "place"
+    },
+    {
+      "term": "Bindusara",
+      "matchText": "Bindusara",
+      "wikiSlug": "Bindusara",
+      "type": "people"
+    },
+    {
+      "term": "Samnite Wars",
+      "matchText": "Samnite Wars",
+      "wikiSlug": "Samnite_Wars",
+      "type": "concept"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    }
   ],
   "2": [
-    {"term": "Arthashastra", "matchText": "Arthashastra", "wikiSlug": "Arthashastra", "type": "concept"},
-    {"term": "Kautilya", "matchText": "Kautilya", "wikiSlug": "Chanakya", "type": "people"},
-    {"term": "Machiavelli", "matchText": "Machiavelli", "wikiSlug": "Niccolò_Machiavelli", "type": "people"},
-    {"term": "The Prince", "matchText": "The Prince", "wikiSlug": "The_Prince", "type": "concept"},
-    {"term": "Han Feizi", "matchText": "Han Feizi", "wikiSlug": "Han_Fei", "type": "people"},
-    {"term": "Legalism", "matchText": "Legalism", "wikiSlug": "Legalism_(Chinese_philosophy)", "type": "concept"},
-    {"term": "Qin Shi Huang", "matchText": "Qin Shi Huang", "wikiSlug": "Qin_Shi_Huang", "type": "people"},
-    {"term": "R. Shamasastry", "matchText": "R. Shamasastry", "wikiSlug": "R._Shamasastry", "type": "people"},
-    {"term": "Mysore Oriental Library", "matchText": "Mysore Oriental Library", "wikiSlug": "Oriental_Research_Institute,_Mysore", "type": "place"},
-    {"term": "satrapy", "matchText": "satrapy", "wikiSlug": "Satrapy", "type": "concept"},
-    {"term": "Gandhara", "matchText": "Gandhara", "wikiSlug": "Gandhara", "type": "place"},
-    {"term": "Sudarshana Lake", "matchText": "Sudarshana Lake", "wikiSlug": "Sudarshana_Lake", "type": "place"},
-    {"term": "Uttarapatha", "matchText": "Uttarapatha", "wikiSlug": "Uttarapatha", "type": "concept"},
-    {"term": "Pataliputra", "matchText": "Pataliputra", "wikiSlug": "Pataliputra", "type": "place"},
-    {"term": "Taxila", "matchText": "Taxila", "wikiSlug": "Taxila", "type": "place"},
-    {"term": "varna", "matchText": "varna", "wikiSlug": "Varna_(Hinduism)", "type": "concept"},
-    {"term": "Sanskrit", "matchText": "Sanskrit", "wikiSlug": "Sanskrit", "type": "concept"},
-    {"term": "Megasthenes", "matchText": "Megasthenes", "wikiSlug": "Megasthenes", "type": "people"},
-    {"term": "Achaemenid", "matchText": "Achaemenid", "wikiSlug": "Achaemenid_Empire", "type": "concept"},
-    {"term": "Persian Royal Road", "matchText": "Persian Royal Road", "wikiSlug": "Royal_Road", "type": "concept"},
-    {"term": "Dujiangyan", "matchText": "Dujiangyan", "wikiSlug": "Dujiangyan", "type": "place"}
+    {
+      "term": "Arthashastra",
+      "matchText": "Arthashastra",
+      "wikiSlug": "Arthashastra",
+      "type": "concept"
+    },
+    {
+      "term": "Kautilya",
+      "matchText": "Kautilya",
+      "wikiSlug": "Chanakya",
+      "type": "people"
+    },
+    {
+      "term": "Machiavelli",
+      "matchText": "Machiavelli",
+      "wikiSlug": "Niccolò_Machiavelli",
+      "type": "people"
+    },
+    {
+      "term": "The Prince",
+      "matchText": "The Prince",
+      "wikiSlug": "The_Prince",
+      "type": "concept"
+    },
+    {
+      "term": "Han Feizi",
+      "matchText": "Han Feizi",
+      "wikiSlug": "Han_Fei",
+      "type": "people"
+    },
+    {
+      "term": "Legalism",
+      "matchText": "Legalism",
+      "wikiSlug": "Legalism_(Chinese_philosophy)",
+      "type": "concept"
+    },
+    {
+      "term": "Qin Shi Huang",
+      "matchText": "Qin Shi Huang",
+      "wikiSlug": "Qin_Shi_Huang",
+      "type": "people"
+    },
+    {
+      "term": "R. Shamasastry",
+      "matchText": "R. Shamasastry",
+      "wikiSlug": "R._Shamasastry",
+      "type": "people"
+    },
+    {
+      "term": "Mysore Oriental Library",
+      "matchText": "Mysore Oriental Library",
+      "wikiSlug": "Oriental_Research_Institute,_Mysore",
+      "type": "place"
+    },
+    {
+      "term": "satrapy",
+      "matchText": "satrapy",
+      "wikiSlug": "Satrapy",
+      "type": "concept"
+    },
+    {
+      "term": "Gandhara",
+      "matchText": "Gandhara",
+      "wikiSlug": "Gandhara",
+      "type": "place"
+    },
+    {
+      "term": "Sudarshana Lake",
+      "matchText": "Sudarshana Lake",
+      "wikiSlug": "Sudarshana_Lake",
+      "type": "place"
+    },
+    {
+      "term": "Uttarapatha",
+      "matchText": "Uttarapatha",
+      "wikiSlug": "Uttarapatha",
+      "type": "concept"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Taxila",
+      "matchText": "Taxila",
+      "wikiSlug": "Taxila",
+      "type": "place"
+    },
+    {
+      "term": "varna",
+      "matchText": "varna",
+      "wikiSlug": "Varna_(Hinduism)",
+      "type": "concept"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Megasthenes",
+      "matchText": "Megasthenes",
+      "wikiSlug": "Megasthenes",
+      "type": "people"
+    },
+    {
+      "term": "Achaemenid",
+      "matchText": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Persian Royal Road",
+      "matchText": "Persian Royal Road",
+      "wikiSlug": "Royal_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Dujiangyan",
+      "matchText": "Dujiangyan",
+      "wikiSlug": "Dujiangyan",
+      "type": "place"
+    }
   ],
   "3": [
-    {"term": "Bindusara", "matchText": "Bindusara", "wikiSlug": "Bindusara", "type": "people"},
-    {"term": "Amitraghata", "matchText": "Amitraghata", "wikiSlug": "Bindusara", "type": "concept"},
-    {"term": "Deccan", "matchText": "Deccan", "wikiSlug": "Deccan_Plateau", "type": "place"},
-    {"term": "Narmada River", "matchText": "Narmada River", "wikiSlug": "Narmada_River", "type": "place"},
-    {"term": "Cholas", "matchText": "Cholas", "wikiSlug": "Chola_dynasty", "type": "concept"},
-    {"term": "Pandyas", "matchText": "Pandyas", "wikiSlug": "Pandya_dynasty", "type": "concept"},
-    {"term": "Cheras", "matchText": "Cheras", "wikiSlug": "Chera_dynasty", "type": "concept"},
-    {"term": "Sri Lanka", "matchText": "Sri Lanka", "wikiSlug": "Sri_Lanka", "type": "place"},
-    {"term": "Deimachus", "matchText": "Deimachus", "wikiSlug": "Deimachus", "type": "people"},
-    {"term": "Antiochus I", "matchText": "Antiochus I", "wikiSlug": "Antiochus_I_Soter", "type": "people"},
-    {"term": "Ajivikas", "matchText": "Ajivikas", "wikiSlug": "Ajivika", "type": "concept"},
-    {"term": "niyati", "matchText": "niyati", "wikiSlug": "Ajivika", "type": "concept"},
-    {"term": "Makkhali Gosala", "matchText": "Makkhali Gosala", "wikiSlug": "Makkhali_Gosala", "type": "people"},
-    {"term": "Susima", "matchText": "Susima", "wikiSlug": "Susima", "type": "people"},
-    {"term": "Ashoka", "matchText": "Ashoka", "wikiSlug": "Ashoka", "type": "people"},
-    {"term": "Ujjain", "matchText": "Ujjain", "wikiSlug": "Ujjain", "type": "place"},
-    {"term": "Avanti", "matchText": "Avanti", "wikiSlug": "Avanti_(ancient_India)", "type": "place"},
-    {"term": "Mahavamsa", "matchText": "Mahavamsa", "wikiSlug": "Mahavamsa", "type": "concept"},
-    {"term": "Ashokavadana", "matchText": "Ashokavadana", "wikiSlug": "Ashokavadana", "type": "concept"},
-    {"term": "rajasuya", "matchText": "rajasuya", "wikiSlug": "Rajasuya", "type": "concept"},
-    {"term": "Pataliputra", "matchText": "Pataliputra", "wikiSlug": "Pataliputra", "type": "place"},
-    {"term": "Athenaeus", "matchText": "Athenaeus", "wikiSlug": "Athenaeus", "type": "people"}
+    {
+      "term": "Bindusara",
+      "matchText": "Bindusara",
+      "wikiSlug": "Bindusara",
+      "type": "people"
+    },
+    {
+      "term": "Amitraghata",
+      "matchText": "Amitraghata",
+      "wikiSlug": "Bindusara",
+      "type": "concept"
+    },
+    {
+      "term": "Deccan",
+      "matchText": "Deccan",
+      "wikiSlug": "Deccan_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Narmada River",
+      "matchText": "Narmada River",
+      "wikiSlug": "Narmada_River",
+      "type": "place"
+    },
+    {
+      "term": "Cholas",
+      "matchText": "Cholas",
+      "wikiSlug": "Chola_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Pandyas",
+      "matchText": "Pandyas",
+      "wikiSlug": "Pandya_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Cheras",
+      "matchText": "Cheras",
+      "wikiSlug": "Chera_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Sri Lanka",
+      "matchText": "Sri Lanka",
+      "wikiSlug": "Sri_Lanka",
+      "type": "place"
+    },
+    {
+      "term": "Deimachus",
+      "matchText": "Deimachus",
+      "wikiSlug": "Deimachus",
+      "type": "people"
+    },
+    {
+      "term": "Antiochus I",
+      "matchText": "Antiochus I",
+      "wikiSlug": "Antiochus_I_Soter",
+      "type": "people"
+    },
+    {
+      "term": "Ajivikas",
+      "matchText": "Ajivikas",
+      "wikiSlug": "Ajivika",
+      "type": "concept"
+    },
+    {
+      "term": "niyati",
+      "matchText": "niyati",
+      "wikiSlug": "Ajivika",
+      "type": "concept"
+    },
+    {
+      "term": "Makkhali Gosala",
+      "matchText": "Makkhali Gosala",
+      "wikiSlug": "Makkhali_Gosala",
+      "type": "people"
+    },
+    {
+      "term": "Susima",
+      "matchText": "Susima",
+      "wikiSlug": "Susima",
+      "type": "people"
+    },
+    {
+      "term": "Ashoka",
+      "matchText": "Ashoka",
+      "wikiSlug": "Ashoka",
+      "type": "people"
+    },
+    {
+      "term": "Ujjain",
+      "matchText": "Ujjain",
+      "wikiSlug": "Ujjain",
+      "type": "place"
+    },
+    {
+      "term": "Avanti",
+      "matchText": "Avanti",
+      "wikiSlug": "Avanti_(ancient_India)",
+      "type": "place"
+    },
+    {
+      "term": "Mahavamsa",
+      "matchText": "Mahavamsa",
+      "wikiSlug": "Mahavamsa",
+      "type": "concept"
+    },
+    {
+      "term": "Ashokavadana",
+      "matchText": "Ashokavadana",
+      "wikiSlug": "Ashokavadana",
+      "type": "concept"
+    },
+    {
+      "term": "rajasuya",
+      "matchText": "rajasuya",
+      "wikiSlug": "Rajasuya",
+      "type": "concept"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Athenaeus",
+      "matchText": "Athenaeus",
+      "wikiSlug": "Athenaeus",
+      "type": "people"
+    },
+    {
+      "term": "Bindusara",
+      "matchText": "Amitrochates",
+      "wikiSlug": "Bindusara",
+      "type": "people"
+    }
   ],
   "4": [
-    {"term": "Ashokavadana", "matchText": "Ashokavadana", "wikiSlug": "Ashokavadana", "type": "concept"},
-    {"term": "Mahavamsa", "matchText": "Mahavamsa", "wikiSlug": "Mahavamsa", "type": "concept"},
-    {"term": "Chandashoka", "matchText": "Chandashoka", "wikiSlug": "Ashoka", "type": "concept"},
-    {"term": "Ujjain", "matchText": "Ujjain", "wikiSlug": "Ujjain", "type": "place"},
-    {"term": "Avanti", "matchText": "Avanti", "wikiSlug": "Avanti_(ancient_India)", "type": "place"},
-    {"term": "Kalinga", "matchText": "Kalinga", "wikiSlug": "Kalinga_(historical_kingdom)", "type": "place"},
-    {"term": "Odisha", "matchText": "Odisha", "wikiSlug": "Odisha", "type": "place"},
-    {"term": "Bay of Bengal", "matchText": "Bay of Bengal", "wikiSlug": "Bay_of_Bengal", "type": "place"},
-    {"term": "Southeast Asia", "matchText": "Southeast Asia", "wikiSlug": "Southeast_Asia", "type": "place"},
-    {"term": "Arthashastra", "matchText": "Arthashastra", "wikiSlug": "Arthashastra", "type": "concept"},
-    {"term": "dhamma", "matchText": "dhamma", "wikiSlug": "Dharma", "type": "concept"},
-    {"term": "dharma", "matchText": "dharma", "wikiSlug": "Dharma", "type": "concept"},
-    {"term": "Prakrit", "matchText": "Prakrit", "wikiSlug": "Prakrit", "type": "concept"},
-    {"term": "upasaka", "matchText": "upasaka", "wikiSlug": "Upāsaka_and_Upāsikā", "type": "concept"},
-    {"term": "sangha", "matchText": "sangha", "wikiSlug": "Sangha", "type": "concept"},
-    {"term": "Qin Shi Huang", "matchText": "Qin Shi Huang", "wikiSlug": "Qin_Shi_Huang", "type": "people"},
-    {"term": "Battle of Changping", "matchText": "Battle of Changping", "wikiSlug": "Battle_of_Changping", "type": "concept"}
+    {
+      "term": "Ashokavadana",
+      "matchText": "Ashokavadana",
+      "wikiSlug": "Ashokavadana",
+      "type": "concept"
+    },
+    {
+      "term": "Mahavamsa",
+      "matchText": "Mahavamsa",
+      "wikiSlug": "Mahavamsa",
+      "type": "concept"
+    },
+    {
+      "term": "Chandashoka",
+      "matchText": "Chandashoka",
+      "wikiSlug": "Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Ujjain",
+      "matchText": "Ujjain",
+      "wikiSlug": "Ujjain",
+      "type": "place"
+    },
+    {
+      "term": "Avanti",
+      "matchText": "Avanti",
+      "wikiSlug": "Avanti_(ancient_India)",
+      "type": "place"
+    },
+    {
+      "term": "Kalinga",
+      "matchText": "Kalinga",
+      "wikiSlug": "Kalinga_(historical_kingdom)",
+      "type": "place"
+    },
+    {
+      "term": "Odisha",
+      "matchText": "Odisha",
+      "wikiSlug": "Odisha",
+      "type": "place"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Arthashastra",
+      "matchText": "Arthashastra",
+      "wikiSlug": "Arthashastra",
+      "type": "concept"
+    },
+    {
+      "term": "dhamma",
+      "matchText": "dhamma",
+      "wikiSlug": "Dharma",
+      "type": "concept"
+    },
+    {
+      "term": "dharma",
+      "matchText": "dharma",
+      "wikiSlug": "Dharma",
+      "type": "concept"
+    },
+    {
+      "term": "Prakrit",
+      "matchText": "Prakrit",
+      "wikiSlug": "Prakrit",
+      "type": "concept"
+    },
+    {
+      "term": "upasaka",
+      "matchText": "upasaka",
+      "wikiSlug": "Upāsaka_and_Upāsikā",
+      "type": "concept"
+    },
+    {
+      "term": "sangha",
+      "matchText": "sangha",
+      "wikiSlug": "Sangha",
+      "type": "concept"
+    },
+    {
+      "term": "Qin Shi Huang",
+      "matchText": "Qin Shi Huang",
+      "wikiSlug": "Qin_Shi_Huang",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Changping",
+      "matchText": "Battle of Changping",
+      "wikiSlug": "Battle_of_Changping",
+      "type": "concept"
+    }
   ],
   "5": [
-    {"term": "Edicts of Ashoka", "matchText": "Edicts of Ashoka", "wikiSlug": "Edicts_of_Ashoka", "type": "concept"},
-    {"term": "Prakrit", "matchText": "Prakrit", "wikiSlug": "Prakrit", "type": "concept"},
-    {"term": "Brahmi", "matchText": "Brahmi", "wikiSlug": "Brahmi_script", "type": "concept"},
-    {"term": "Kharosthi", "matchText": "Kharosthi", "wikiSlug": "Kharosthi", "type": "concept"},
-    {"term": "Greek", "matchText": "Greek", "wikiSlug": "Greek_language", "type": "concept"},
-    {"term": "Aramaic", "matchText": "Aramaic", "wikiSlug": "Aramaic_language", "type": "concept"},
-    {"term": "Devanagari", "matchText": "Devanagari", "wikiSlug": "Devanagari", "type": "concept"},
-    {"term": "Tamil", "matchText": "Tamil", "wikiSlug": "Tamil_script", "type": "concept"},
-    {"term": "dhamma", "matchText": "dhamma", "wikiSlug": "Dharma", "type": "concept"},
-    {"term": "Major Rock Edicts", "matchText": "Major Rock Edicts", "wikiSlug": "Edicts_of_Ashoka", "type": "concept"},
-    {"term": "Dhamma Mahamatras", "matchText": "Dhamma Mahamatras", "wikiSlug": "Edicts_of_Ashoka", "type": "concept"},
-    {"term": "Pillar Edicts", "matchText": "Pillar Edicts", "wikiSlug": "Pillars_of_Ashoka", "type": "concept"},
-    {"term": "Sarnath", "matchText": "Sarnath", "wikiSlug": "Sarnath", "type": "place"},
-    {"term": "Varanasi", "matchText": "Varanasi", "wikiSlug": "Varanasi", "type": "place"},
-    {"term": "Chunar sandstone", "matchText": "Chunar sandstone", "wikiSlug": "Chunar", "type": "place"},
-    {"term": "Res Gestae", "matchText": "Res Gestae", "wikiSlug": "Res_Gestae_Divi_Augusti", "type": "concept"},
-    {"term": "Augustus", "matchText": "Augustus", "wikiSlug": "Augustus", "type": "people"},
-    {"term": "Zoroastrianism", "matchText": "Zoroastrianism", "wikiSlug": "Zoroastrianism", "type": "concept"},
-    {"term": "Achaemenid Persians", "matchText": "Achaemenid Persians", "wikiSlug": "Achaemenid_Empire", "type": "concept"}
+    {
+      "term": "Edicts of Ashoka",
+      "matchText": "Edicts of Ashoka",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Prakrit",
+      "matchText": "Prakrit",
+      "wikiSlug": "Prakrit",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmi",
+      "matchText": "Brahmi",
+      "wikiSlug": "Brahmi_script",
+      "type": "concept"
+    },
+    {
+      "term": "Kharosthi",
+      "matchText": "Kharosthi",
+      "wikiSlug": "Kharosthi",
+      "type": "concept"
+    },
+    {
+      "term": "Greek",
+      "matchText": "Greek",
+      "wikiSlug": "Greek_language",
+      "type": "concept"
+    },
+    {
+      "term": "Aramaic",
+      "matchText": "Aramaic",
+      "wikiSlug": "Aramaic_language",
+      "type": "concept"
+    },
+    {
+      "term": "Devanagari",
+      "matchText": "Devanagari",
+      "wikiSlug": "Devanagari",
+      "type": "concept"
+    },
+    {
+      "term": "Tamil",
+      "matchText": "Tamil",
+      "wikiSlug": "Tamil_script",
+      "type": "concept"
+    },
+    {
+      "term": "dhamma",
+      "matchText": "dhamma",
+      "wikiSlug": "Dharma",
+      "type": "concept"
+    },
+    {
+      "term": "Major Rock Edicts",
+      "matchText": "Major Rock Edicts",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Dhamma Mahamatras",
+      "matchText": "Dhamma Mahamatras",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Pillar Edicts",
+      "matchText": "Pillar Edicts",
+      "wikiSlug": "Pillars_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Sarnath",
+      "matchText": "Sarnath",
+      "wikiSlug": "Sarnath",
+      "type": "place"
+    },
+    {
+      "term": "Varanasi",
+      "matchText": "Varanasi",
+      "wikiSlug": "Varanasi",
+      "type": "place"
+    },
+    {
+      "term": "Chunar sandstone",
+      "matchText": "Chunar sandstone",
+      "wikiSlug": "Chunar",
+      "type": "place"
+    },
+    {
+      "term": "Res Gestae",
+      "matchText": "Res Gestae",
+      "wikiSlug": "Res_Gestae_Divi_Augusti",
+      "type": "concept"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Zoroastrianism",
+      "matchText": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism",
+      "type": "concept"
+    },
+    {
+      "term": "Achaemenid Persians",
+      "matchText": "Achaemenid Persians",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Cyrus Cylinder",
+      "matchText": "Cyrus Cylinder",
+      "wikiSlug": "Cyrus_Cylinder",
+      "type": "concept"
+    }
   ],
   "6": [
-    {"term": "upasaka", "matchText": "upasaka", "wikiSlug": "Upāsaka_and_Upāsikā", "type": "concept"},
-    {"term": "stupas", "matchText": "stupas", "wikiSlug": "Stupa", "type": "concept"},
-    {"term": "Sanchi", "matchText": "Sanchi", "wikiSlug": "Sanchi", "type": "place"},
-    {"term": "Madhya Pradesh", "matchText": "Madhya Pradesh", "wikiSlug": "Madhya_Pradesh", "type": "place"},
-    {"term": "toranas", "matchText": "toranas", "wikiSlug": "Torana", "type": "concept"},
-    {"term": "pradakshina", "matchText": "pradakshina", "wikiSlug": "Pradakshina", "type": "concept"},
-    {"term": "sangha", "matchText": "sangha", "wikiSlug": "Sangha", "type": "concept"},
-    {"term": "Theravada", "matchText": "Theravada", "wikiSlug": "Theravada", "type": "concept"},
-    {"term": "Moggaliputta Tissa", "matchText": "Moggaliputta Tissa", "wikiSlug": "Moggaliputta-Tissa", "type": "people"},
-    {"term": "Pali Canon", "matchText": "Pali Canon", "wikiSlug": "Pāli_Canon", "type": "concept"},
-    {"term": "Pali", "matchText": "Pali", "wikiSlug": "Pali", "type": "concept"},
-    {"term": "Mahayana", "matchText": "Mahayana", "wikiSlug": "Mahayana", "type": "concept"},
-    {"term": "Constantine", "matchText": "Constantine", "wikiSlug": "Constantine_the_Great", "type": "people"},
-    {"term": "Mahinda", "matchText": "Mahinda", "wikiSlug": "Mahinda_(Buddhist_monk)", "type": "people"},
-    {"term": "Devanampiya Tissa", "matchText": "Devanampiya Tissa", "wikiSlug": "Devanampiya_Tissa", "type": "people"},
-    {"term": "Anuradhapura", "matchText": "Anuradhapura", "wikiSlug": "Anuradhapura", "type": "place"},
-    {"term": "Sanghamitta", "matchText": "Sanghamitta", "wikiSlug": "Sanghamitta", "type": "people"},
-    {"term": "Bodhi tree", "matchText": "Bodhi tree", "wikiSlug": "Bodhi_Tree", "type": "concept"},
-    {"term": "Bodh Gaya", "matchText": "Bodh Gaya", "wikiSlug": "Bodh_Gaya", "type": "place"},
-    {"term": "Dipavamsa", "matchText": "Dipavamsa", "wikiSlug": "Dipavamsa", "type": "concept"},
-    {"term": "Mahavamsa", "matchText": "Mahavamsa", "wikiSlug": "Mahavamsa", "type": "concept"},
-    {"term": "Gandhara", "matchText": "Gandhara", "wikiSlug": "Gandhara", "type": "place"},
-    {"term": "Kashmir", "matchText": "Kashmir", "wikiSlug": "Kashmir", "type": "place"},
-    {"term": "Bactria", "matchText": "Bactria", "wikiSlug": "Bactria", "type": "place"},
-    {"term": "Gandhara school", "matchText": "Gandhara school", "wikiSlug": "Greco-Buddhist_art", "type": "concept"},
-    {"term": "Dharma Wheel", "matchText": "Dharma Wheel", "wikiSlug": "Dharmachakra", "type": "concept"},
-    {"term": "Taxila", "matchText": "Taxila", "wikiSlug": "Taxila", "type": "place"},
-    {"term": "Jivaka", "matchText": "Jivaka", "wikiSlug": "Jīvaka", "type": "people"},
-    {"term": "Lumbini", "matchText": "Lumbini", "wikiSlug": "Lumbini", "type": "place"},
-    {"term": "Kushinagar", "matchText": "Kushinagar", "wikiSlug": "Kushinagar", "type": "place"},
-    {"term": "Barabar Caves", "matchText": "Barabar Caves", "wikiSlug": "Barabar_Caves", "type": "place"},
-    {"term": "Ajanta", "matchText": "Ajanta", "wikiSlug": "Ajanta_Caves", "type": "place"},
-    {"term": "Ellora", "matchText": "Ellora", "wikiSlug": "Ellora_Caves", "type": "place"},
-    {"term": "Sri Lanka", "matchText": "Sri Lanka", "wikiSlug": "Sri_Lanka", "type": "place"},
-    {"term": "Sarnath", "matchText": "Sarnath", "wikiSlug": "Sarnath", "type": "place"},
-    {"term": "Bihar", "matchText": "Bihar", "wikiSlug": "Bihar", "type": "place"}
+    {
+      "term": "upasaka",
+      "matchText": "upasaka",
+      "wikiSlug": "Upāsaka_and_Upāsikā",
+      "type": "concept"
+    },
+    {
+      "term": "stupas",
+      "matchText": "stupas",
+      "wikiSlug": "Stupa",
+      "type": "concept"
+    },
+    {
+      "term": "Sanchi",
+      "matchText": "Sanchi",
+      "wikiSlug": "Sanchi",
+      "type": "place"
+    },
+    {
+      "term": "Madhya Pradesh",
+      "matchText": "Madhya Pradesh",
+      "wikiSlug": "Madhya_Pradesh",
+      "type": "place"
+    },
+    {
+      "term": "toranas",
+      "matchText": "toranas",
+      "wikiSlug": "Torana",
+      "type": "concept"
+    },
+    {
+      "term": "pradakshina",
+      "matchText": "pradakshina",
+      "wikiSlug": "Pradakshina",
+      "type": "concept"
+    },
+    {
+      "term": "sangha",
+      "matchText": "sangha",
+      "wikiSlug": "Sangha",
+      "type": "concept"
+    },
+    {
+      "term": "Theravada",
+      "matchText": "Theravada",
+      "wikiSlug": "Theravada",
+      "type": "concept"
+    },
+    {
+      "term": "Moggaliputta Tissa",
+      "matchText": "Moggaliputta Tissa",
+      "wikiSlug": "Moggaliputta-Tissa",
+      "type": "people"
+    },
+    {
+      "term": "Pali Canon",
+      "matchText": "Pali Canon",
+      "wikiSlug": "Pāli_Canon",
+      "type": "concept"
+    },
+    {
+      "term": "Pali",
+      "matchText": "Pali",
+      "wikiSlug": "Pali",
+      "type": "concept"
+    },
+    {
+      "term": "Mahayana",
+      "matchText": "Mahayana",
+      "wikiSlug": "Mahayana",
+      "type": "concept"
+    },
+    {
+      "term": "Constantine",
+      "matchText": "Constantine",
+      "wikiSlug": "Constantine_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Mahinda",
+      "matchText": "Mahinda",
+      "wikiSlug": "Mahinda_(Buddhist_monk)",
+      "type": "people"
+    },
+    {
+      "term": "Devanampiya Tissa",
+      "matchText": "Devanampiya Tissa",
+      "wikiSlug": "Devanampiya_Tissa",
+      "type": "people"
+    },
+    {
+      "term": "Anuradhapura",
+      "matchText": "Anuradhapura",
+      "wikiSlug": "Anuradhapura",
+      "type": "place"
+    },
+    {
+      "term": "Sanghamitta",
+      "matchText": "Sanghamitta",
+      "wikiSlug": "Sanghamitta",
+      "type": "people"
+    },
+    {
+      "term": "Bodhi tree",
+      "matchText": "Bodhi tree",
+      "wikiSlug": "Bodhi_Tree",
+      "type": "concept"
+    },
+    {
+      "term": "Bodh Gaya",
+      "matchText": "Bodh Gaya",
+      "wikiSlug": "Bodh_Gaya",
+      "type": "place"
+    },
+    {
+      "term": "Dipavamsa",
+      "matchText": "Dipavamsa",
+      "wikiSlug": "Dipavamsa",
+      "type": "concept"
+    },
+    {
+      "term": "Mahavamsa",
+      "matchText": "Mahavamsa",
+      "wikiSlug": "Mahavamsa",
+      "type": "concept"
+    },
+    {
+      "term": "Gandhara",
+      "matchText": "Gandhara",
+      "wikiSlug": "Gandhara",
+      "type": "place"
+    },
+    {
+      "term": "Kashmir",
+      "matchText": "Kashmir",
+      "wikiSlug": "Kashmir",
+      "type": "place"
+    },
+    {
+      "term": "Bactria",
+      "matchText": "Bactria",
+      "wikiSlug": "Bactria",
+      "type": "place"
+    },
+    {
+      "term": "Gandhara school",
+      "matchText": "Gandhara school",
+      "wikiSlug": "Greco-Buddhist_art",
+      "type": "concept"
+    },
+    {
+      "term": "Dharma Wheel",
+      "matchText": "Dharma Wheel",
+      "wikiSlug": "Dharmachakra",
+      "type": "concept"
+    },
+    {
+      "term": "Taxila",
+      "matchText": "Taxila",
+      "wikiSlug": "Taxila",
+      "type": "place"
+    },
+    {
+      "term": "Jivaka",
+      "matchText": "Jivaka",
+      "wikiSlug": "Jīvaka",
+      "type": "people"
+    },
+    {
+      "term": "Lumbini",
+      "matchText": "Lumbini",
+      "wikiSlug": "Lumbini",
+      "type": "place"
+    },
+    {
+      "term": "Kushinagar",
+      "matchText": "Kushinagar",
+      "wikiSlug": "Kushinagar",
+      "type": "place"
+    },
+    {
+      "term": "Barabar Caves",
+      "matchText": "Barabar Caves",
+      "wikiSlug": "Barabar_Caves",
+      "type": "place"
+    },
+    {
+      "term": "Ajanta",
+      "matchText": "Ajanta",
+      "wikiSlug": "Ajanta_Caves",
+      "type": "place"
+    },
+    {
+      "term": "Ellora",
+      "matchText": "Ellora",
+      "wikiSlug": "Ellora_Caves",
+      "type": "place"
+    },
+    {
+      "term": "Sri Lanka",
+      "matchText": "Sri Lanka",
+      "wikiSlug": "Sri_Lanka",
+      "type": "place"
+    },
+    {
+      "term": "Sarnath",
+      "matchText": "Sarnath",
+      "wikiSlug": "Sarnath",
+      "type": "place"
+    },
+    {
+      "term": "Bihar",
+      "matchText": "Bihar",
+      "wikiSlug": "Bihar",
+      "type": "place"
+    },
+    {
+      "term": "Ajivika",
+      "matchText": "Ajivikas",
+      "wikiSlug": "Ajivika",
+      "type": "concept"
+    },
+    {
+      "term": "Yona",
+      "matchText": "Yona",
+      "wikiSlug": "Yona",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "Ashoka Chakra", "matchText": "Ashoka Chakra", "wikiSlug": "Ashoka_Chakra", "type": "concept"},
-    {"term": "Lion Capital", "matchText": "Lion Capital", "wikiSlug": "Lion_capital_of_Ashoka", "type": "concept"},
-    {"term": "Satyameva Jayate", "matchText": "Satyameva Jayate", "wikiSlug": "Satyameva_Jayate", "type": "concept"},
-    {"term": "Mundaka Upanishad", "matchText": "Mundaka Upanishad", "wikiSlug": "Mundaka_Upanishad", "type": "concept"},
-    {"term": "Chunar", "matchText": "Chunar", "wikiSlug": "Chunar", "type": "place"},
-    {"term": "Mirzapur", "matchText": "Mirzapur", "wikiSlug": "Mirzapur_district", "type": "place"},
-    {"term": "Uttar Pradesh", "matchText": "Uttar Pradesh", "wikiSlug": "Uttar_Pradesh", "type": "place"},
-    {"term": "Varanasi", "matchText": "Varanasi", "wikiSlug": "Varanasi", "type": "place"},
-    {"term": "Rampurva", "matchText": "Rampurva", "wikiSlug": "Rampurva", "type": "place"},
-    {"term": "Lauriya-Nandangarh", "matchText": "Lauriya-Nandangarh", "wikiSlug": "Lauriya_Nandangarh", "type": "place"},
-    {"term": "Terai", "matchText": "Terai", "wikiSlug": "Terai", "type": "place"},
-    {"term": "Sarnath", "matchText": "Sarnath", "wikiSlug": "Sarnath", "type": "place"},
-    {"term": "Sanchi", "matchText": "Sanchi", "wikiSlug": "Sanchi", "type": "place"},
-    {"term": "dharmachakra", "matchText": "dharmachakra", "wikiSlug": "Dharmachakra", "type": "concept"},
-    {"term": "Persepolis", "matchText": "Persepolis", "wikiSlug": "Persepolis", "type": "place"},
-    {"term": "Jawaharlal Nehru", "matchText": "Jawaharlal Nehru", "wikiSlug": "Jawaharlal_Nehru", "type": "people"},
-    {"term": "The Discovery of India", "matchText": "The Discovery of India", "wikiSlug": "The_Discovery_of_India", "type": "concept"},
-    {"term": "James Prinsep", "matchText": "James Prinsep", "wikiSlug": "James_Prinsep", "type": "people"},
-    {"term": "Asiatic Society", "matchText": "Asiatic Society of Bengal", "wikiSlug": "Asiatic_Society", "type": "concept"},
-    {"term": "Calcutta", "matchText": "Calcutta", "wikiSlug": "Kolkata", "type": "place"},
-    {"term": "Champollion", "matchText": "Champollion", "wikiSlug": "Jean-François_Champollion", "type": "people"},
-    {"term": "Rosetta Stone", "matchText": "Rosetta Stone", "wikiSlug": "Rosetta_Stone", "type": "concept"},
-    {"term": "Sarnath Archaeological Museum", "matchText": "Sarnath Archaeological Museum", "wikiSlug": "Sarnath_Museum", "type": "place"},
-    {"term": "Mahabharata", "matchText": "Mahabharata", "wikiSlug": "Mahabharata", "type": "concept"},
-    {"term": "Brahmi", "matchText": "Brahmi", "wikiSlug": "Brahmi_script", "type": "concept"},
-    {"term": "New Delhi", "matchText": "New Delhi", "wikiSlug": "New_Delhi", "type": "place"}
+    {
+      "term": "Ashoka Chakra",
+      "matchText": "Ashoka Chakra",
+      "wikiSlug": "Ashoka_Chakra",
+      "type": "concept"
+    },
+    {
+      "term": "Lion Capital",
+      "matchText": "Lion Capital",
+      "wikiSlug": "Lion_capital_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Satyameva Jayate",
+      "matchText": "Satyameva Jayate",
+      "wikiSlug": "Satyameva_Jayate",
+      "type": "concept"
+    },
+    {
+      "term": "Mundaka Upanishad",
+      "matchText": "Mundaka Upanishad",
+      "wikiSlug": "Mundaka_Upanishad",
+      "type": "concept"
+    },
+    {
+      "term": "Chunar",
+      "matchText": "Chunar",
+      "wikiSlug": "Chunar",
+      "type": "place"
+    },
+    {
+      "term": "Mirzapur",
+      "matchText": "Mirzapur",
+      "wikiSlug": "Mirzapur_district",
+      "type": "place"
+    },
+    {
+      "term": "Uttar Pradesh",
+      "matchText": "Uttar Pradesh",
+      "wikiSlug": "Uttar_Pradesh",
+      "type": "place"
+    },
+    {
+      "term": "Varanasi",
+      "matchText": "Varanasi",
+      "wikiSlug": "Varanasi",
+      "type": "place"
+    },
+    {
+      "term": "Rampurva",
+      "matchText": "Rampurva",
+      "wikiSlug": "Rampurva",
+      "type": "place"
+    },
+    {
+      "term": "Lauriya-Nandangarh",
+      "matchText": "Lauriya-Nandangarh",
+      "wikiSlug": "Lauriya_Nandangarh",
+      "type": "place"
+    },
+    {
+      "term": "Terai",
+      "matchText": "Terai",
+      "wikiSlug": "Terai",
+      "type": "place"
+    },
+    {
+      "term": "Sarnath",
+      "matchText": "Sarnath",
+      "wikiSlug": "Sarnath",
+      "type": "place"
+    },
+    {
+      "term": "Sanchi",
+      "matchText": "Sanchi",
+      "wikiSlug": "Sanchi",
+      "type": "place"
+    },
+    {
+      "term": "dharmachakra",
+      "matchText": "dharmachakra",
+      "wikiSlug": "Dharmachakra",
+      "type": "concept"
+    },
+    {
+      "term": "Persepolis",
+      "matchText": "Persepolis",
+      "wikiSlug": "Persepolis",
+      "type": "place"
+    },
+    {
+      "term": "Jawaharlal Nehru",
+      "matchText": "Jawaharlal Nehru",
+      "wikiSlug": "Jawaharlal_Nehru",
+      "type": "people"
+    },
+    {
+      "term": "The Discovery of India",
+      "matchText": "The Discovery of India",
+      "wikiSlug": "The_Discovery_of_India",
+      "type": "concept"
+    },
+    {
+      "term": "James Prinsep",
+      "matchText": "James Prinsep",
+      "wikiSlug": "James_Prinsep",
+      "type": "people"
+    },
+    {
+      "term": "Asiatic Society",
+      "matchText": "Asiatic Society of Bengal",
+      "wikiSlug": "Asiatic_Society",
+      "type": "concept"
+    },
+    {
+      "term": "Calcutta",
+      "matchText": "Calcutta",
+      "wikiSlug": "Kolkata",
+      "type": "place"
+    },
+    {
+      "term": "Champollion",
+      "matchText": "Champollion",
+      "wikiSlug": "Jean-François_Champollion",
+      "type": "people"
+    },
+    {
+      "term": "Rosetta Stone",
+      "matchText": "Rosetta Stone",
+      "wikiSlug": "Rosetta_Stone",
+      "type": "concept"
+    },
+    {
+      "term": "Sarnath Archaeological Museum",
+      "matchText": "Sarnath Archaeological Museum",
+      "wikiSlug": "Sarnath_Museum",
+      "type": "place"
+    },
+    {
+      "term": "Mahabharata",
+      "matchText": "Mahabharata",
+      "wikiSlug": "Mahabharata",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmi",
+      "matchText": "Brahmi",
+      "wikiSlug": "Brahmi_script",
+      "type": "concept"
+    },
+    {
+      "term": "New Delhi",
+      "matchText": "New Delhi",
+      "wikiSlug": "New_Delhi",
+      "type": "place"
+    }
   ],
   "8": [
-    {"term": "Dasharatha", "matchText": "Dasharatha", "wikiSlug": "Dasharatha_Maurya", "type": "people"},
-    {"term": "Barabar Caves", "matchText": "Barabar Caves", "wikiSlug": "Barabar_Caves", "type": "place"},
-    {"term": "Puranas", "matchText": "Puranas", "wikiSlug": "Puranas", "type": "concept"},
-    {"term": "Dhamma Mahamatras", "matchText": "Dhamma Mahamatras", "wikiSlug": "Edicts_of_Ashoka", "type": "concept"},
-    {"term": "Arthashastra", "matchText": "Arthashastra", "wikiSlug": "Arthashastra", "type": "concept"},
-    {"term": "Greco-Bactrian Kingdom", "matchText": "Greco-Bactrian Kingdom", "wikiSlug": "Greco-Bactrian_Kingdom", "type": "concept"},
-    {"term": "Demetrius I", "matchText": "Demetrius I", "wikiSlug": "Demetrius_I_of_Bactria", "type": "people"},
-    {"term": "Indo-Greek", "matchText": "Indo-Greek", "wikiSlug": "Indo-Greek_Kingdom", "type": "concept"},
-    {"term": "Brihadratha", "matchText": "Brihadratha", "wikiSlug": "Brihadratha_Maurya", "type": "people"},
-    {"term": "Pushyamitra Shunga", "matchText": "Pushyamitra Shunga", "wikiSlug": "Pushyamitra_Shunga", "type": "people"},
-    {"term": "Shunga dynasty", "matchText": "Shunga dynasty", "wikiSlug": "Shunga_Empire", "type": "concept"},
-    {"term": "Pataliputra", "matchText": "Pataliputra", "wikiSlug": "Pataliputra", "type": "place"},
-    {"term": "Uttarapatha", "matchText": "Uttarapatha", "wikiSlug": "Uttarapatha", "type": "concept"},
-    {"term": "Grand Trunk Road", "matchText": "Grand Trunk Road", "wikiSlug": "Grand_Trunk_Road", "type": "concept"},
-    {"term": "Devanagari", "matchText": "Devanagari", "wikiSlug": "Devanagari", "type": "concept"},
-    {"term": "Guptas", "matchText": "Guptas", "wikiSlug": "Gupta_Empire", "type": "concept"},
-    {"term": "Constitution of India", "matchText": "Constitution of India", "wikiSlug": "Constitution_of_India", "type": "concept"},
-    {"term": "Sanchi", "matchText": "Sanchi", "wikiSlug": "Sanchi", "type": "place"},
-    {"term": "Brahmi", "matchText": "Brahmi", "wikiSlug": "Brahmi_script", "type": "concept"}
+    {
+      "term": "Dasharatha",
+      "matchText": "Dasharatha",
+      "wikiSlug": "Dasharatha_Maurya",
+      "type": "people"
+    },
+    {
+      "term": "Barabar Caves",
+      "matchText": "Barabar Caves",
+      "wikiSlug": "Barabar_Caves",
+      "type": "place"
+    },
+    {
+      "term": "Puranas",
+      "matchText": "Puranas",
+      "wikiSlug": "Puranas",
+      "type": "concept"
+    },
+    {
+      "term": "Dhamma Mahamatras",
+      "matchText": "Dhamma Mahamatras",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Arthashastra",
+      "matchText": "Arthashastra",
+      "wikiSlug": "Arthashastra",
+      "type": "concept"
+    },
+    {
+      "term": "Greco-Bactrian Kingdom",
+      "matchText": "Greco-Bactrian Kingdom",
+      "wikiSlug": "Greco-Bactrian_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Demetrius I",
+      "matchText": "Demetrius I",
+      "wikiSlug": "Demetrius_I_of_Bactria",
+      "type": "people"
+    },
+    {
+      "term": "Indo-Greek",
+      "matchText": "Indo-Greek",
+      "wikiSlug": "Indo-Greek_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Brihadratha",
+      "matchText": "Brihadratha",
+      "wikiSlug": "Brihadratha_Maurya",
+      "type": "people"
+    },
+    {
+      "term": "Pushyamitra Shunga",
+      "matchText": "Pushyamitra Shunga",
+      "wikiSlug": "Pushyamitra_Shunga",
+      "type": "people"
+    },
+    {
+      "term": "Shunga dynasty",
+      "matchText": "Shunga dynasty",
+      "wikiSlug": "Shunga_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Uttarapatha",
+      "matchText": "Uttarapatha",
+      "wikiSlug": "Uttarapatha",
+      "type": "concept"
+    },
+    {
+      "term": "Grand Trunk Road",
+      "matchText": "Grand Trunk Road",
+      "wikiSlug": "Grand_Trunk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Devanagari",
+      "matchText": "Devanagari",
+      "wikiSlug": "Devanagari",
+      "type": "concept"
+    },
+    {
+      "term": "Guptas",
+      "matchText": "Guptas",
+      "wikiSlug": "Gupta_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Constitution of India",
+      "matchText": "Constitution of India",
+      "wikiSlug": "Constitution_of_India",
+      "type": "concept"
+    },
+    {
+      "term": "Sanchi",
+      "matchText": "Sanchi",
+      "wikiSlug": "Sanchi",
+      "type": "place"
+    },
+    {
+      "term": "Brahmi",
+      "matchText": "Brahmi",
+      "wikiSlug": "Brahmi_script",
+      "type": "concept"
+    }
   ]
 }
