@@ -1,179 +1,1026 @@
 {
   "1": [
-    { "term": "Rouran", "matchText": "Rouran", "wikiSlug": "Rouran_Khaganate", "type": "concept" },
-    { "term": "Xiongnu", "matchText": "Xiongnu", "wikiSlug": "Xiongnu", "type": "concept" },
-    { "term": "Xianbei", "matchText": "Xianbei", "wikiSlug": "Xianbei", "type": "concept" },
-    { "term": "Khagan", "matchText": "khagan", "wikiSlug": "Khagan", "type": "concept" },
-    { "term": "Altai Mountains", "matchText": "Altai Mountains", "wikiSlug": "Altai_Mountains", "type": "place" },
-    { "term": "Ashina clan", "matchText": "Ashina", "wikiSlug": "Ashina_tribe", "type": "concept" },
-    { "term": "Iron stirrup", "matchText": "iron stirrup", "wikiSlug": "Stirrup", "type": "concept" },
-    { "term": "Composite bow", "matchText": "composite bow", "wikiSlug": "Composite_bow", "type": "concept" },
-    { "term": "Tengri", "matchText": "Tengri", "wikiSlug": "Tengri", "type": "concept" },
-    { "term": "Eurasian steppe", "matchText": "Eurasian steppe", "wikiSlug": "Eurasian_Steppe", "type": "place" },
-    { "term": "Pastoral nomads", "matchText": "Pastoral nomads", "wikiSlug": "Pastoralism", "type": "concept" },
-    { "term": "Yurt", "matchText": "yurt", "wikiSlug": "Yurt", "type": "concept" },
-    { "term": "Bumin Qaghan", "matchText": "Bumin", "wikiSlug": "Bumin_Qaghan", "type": "people" },
-    { "term": "Asena", "matchText": "Asena", "wikiSlug": "Asena", "type": "concept" },
-    { "term": "Romulus and Remus", "matchText": "Romulus and Remus", "wikiSlug": "Romulus_and_Remus", "type": "people" },
-    { "term": "Bozkurt", "matchText": "Bozkurt", "wikiSlug": "Grey_Wolf_(symbol)", "type": "concept" },
-    { "term": "Western Wei", "matchText": "Western Wei", "wikiSlug": "Western_Wei", "type": "concept" },
-    { "term": "Tuoba", "matchText": "Tuoba", "wikiSlug": "Tuoba", "type": "concept" },
-    { "term": "Anagui", "matchText": "Anagui", "wikiSlug": "Yujiulu_Anagui", "type": "people" },
-    { "term": "Avars", "matchText": "Avars", "wikiSlug": "Pannonian_Avars", "type": "concept" },
-    { "term": "Yabghu", "matchText": "yabghu", "wikiSlug": "Yabghu", "type": "concept" },
-    { "term": "Justinian", "matchText": "Justinian", "wikiSlug": "Justinian_I", "type": "people" }
+    {
+      "term": "Rouran",
+      "matchText": "Rouran",
+      "wikiSlug": "Rouran_Khaganate",
+      "type": "concept"
+    },
+    {
+      "term": "Xiongnu",
+      "matchText": "Xiongnu",
+      "wikiSlug": "Xiongnu",
+      "type": "concept"
+    },
+    {
+      "term": "Xianbei",
+      "matchText": "Xianbei",
+      "wikiSlug": "Xianbei",
+      "type": "concept"
+    },
+    {
+      "term": "Khagan",
+      "matchText": "khagan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
+    },
+    {
+      "term": "Altai Mountains",
+      "matchText": "Altai Mountains",
+      "wikiSlug": "Altai_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Ashina clan",
+      "matchText": "Ashina",
+      "wikiSlug": "Ashina_tribe",
+      "type": "concept"
+    },
+    {
+      "term": "Iron stirrup",
+      "matchText": "iron stirrup",
+      "wikiSlug": "Stirrup",
+      "type": "concept"
+    },
+    {
+      "term": "Composite bow",
+      "matchText": "composite bow",
+      "wikiSlug": "Composite_bow",
+      "type": "concept"
+    },
+    {
+      "term": "Tengri",
+      "matchText": "Tengri",
+      "wikiSlug": "Tengri",
+      "type": "concept"
+    },
+    {
+      "term": "Eurasian steppe",
+      "matchText": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
+    },
+    {
+      "term": "Pastoral nomads",
+      "matchText": "Pastoral nomads",
+      "wikiSlug": "Pastoralism",
+      "type": "concept"
+    },
+    {
+      "term": "Yurt",
+      "matchText": "yurt",
+      "wikiSlug": "Yurt",
+      "type": "concept"
+    },
+    {
+      "term": "Bumin Qaghan",
+      "matchText": "Bumin",
+      "wikiSlug": "Bumin_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Asena",
+      "matchText": "Asena",
+      "wikiSlug": "Asena",
+      "type": "concept"
+    },
+    {
+      "term": "Romulus and Remus",
+      "matchText": "Romulus and Remus",
+      "wikiSlug": "Romulus_and_Remus",
+      "type": "people"
+    },
+    {
+      "term": "Bozkurt",
+      "matchText": "Bozkurt",
+      "wikiSlug": "Grey_Wolf_(symbol)",
+      "type": "concept"
+    },
+    {
+      "term": "Western Wei",
+      "matchText": "Western Wei",
+      "wikiSlug": "Western_Wei",
+      "type": "concept"
+    },
+    {
+      "term": "Tuoba",
+      "matchText": "Tuoba",
+      "wikiSlug": "Tuoba",
+      "type": "concept"
+    },
+    {
+      "term": "Anagui",
+      "matchText": "Anagui",
+      "wikiSlug": "Yujiulu_Anagui",
+      "type": "people"
+    },
+    {
+      "term": "Avars",
+      "matchText": "Avars",
+      "wikiSlug": "Pannonian_Avars",
+      "type": "concept"
+    },
+    {
+      "term": "Yabghu",
+      "matchText": "yabghu",
+      "wikiSlug": "Yabghu",
+      "type": "concept"
+    },
+    {
+      "term": "Justinian",
+      "matchText": "Justinian",
+      "wikiSlug": "Justinian_I",
+      "type": "people"
+    },
+    {
+      "term": "Yurt",
+      "matchText": "ger",
+      "wikiSlug": "Yurt",
+      "type": "concept"
+    },
+    {
+      "term": "Khagan",
+      "matchText": "qaghan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
+    },
+    {
+      "term": "Muqan Qaghan",
+      "matchText": "Muqan Qaghan",
+      "wikiSlug": "Muqan_Qaghan",
+      "type": "people"
+    }
   ],
   "2": [
-    { "term": "Orkhon Valley", "matchText": "Orkhon Valley", "wikiSlug": "Orkhon_Valley", "type": "place" },
-    { "term": "Khangai Mountains", "matchText": "Khangai Mountains", "wikiSlug": "Khangai_Mountains", "type": "place" },
-    { "term": "Khentii Mountains", "matchText": "Khentii Mountains", "wikiSlug": "Khentii_Mountains", "type": "place" },
-    { "term": "Karakorum", "matchText": "Karakorum", "wikiSlug": "Karakorum", "type": "place" },
-    { "term": "Otuken", "matchText": "Otuken", "wikiSlug": "%C3%96t%C3%BCken", "type": "place" },
-    { "term": "Bilge Kagan", "matchText": "Bilge Kagan", "wikiSlug": "Bilge_Qaghan", "type": "people" },
-    { "term": "Muqan Qaghan", "matchText": "Muqan Qaghan", "wikiSlug": "Muqan_Qaghan", "type": "people" },
-    { "term": "Khitan", "matchText": "Khitan", "wikiSlug": "Khitan_people", "type": "concept" },
-    { "term": "Liao Dynasty", "matchText": "Liao Dynasty", "wikiSlug": "Liao_dynasty", "type": "concept" },
-    { "term": "Yenisei Kyrgyz", "matchText": "Yenisei Kyrgyz", "wikiSlug": "Yenisei_Kyrgyz", "type": "concept" },
-    { "term": "Tieli", "matchText": "Tieli", "wikiSlug": "Tiele_people", "type": "concept" },
-    { "term": "Kurykan", "matchText": "Kurykan", "wikiSlug": "Kurykans", "type": "concept" },
-    { "term": "Northern Zhou", "matchText": "Northern Zhou", "wikiSlug": "Northern_Zhou", "type": "concept" },
-    { "term": "Northern Qi", "matchText": "Northern Qi", "wikiSlug": "Northern_Qi", "type": "concept" },
-    { "term": "Heqin", "matchText": "heqin", "wikiSlug": "Heqin", "type": "concept" },
-    { "term": "Sogdian", "matchText": "Sogdian", "wikiSlug": "Sogdia", "type": "concept" }
+    {
+      "term": "Orkhon Valley",
+      "matchText": "Orkhon Valley",
+      "wikiSlug": "Orkhon_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Khangai Mountains",
+      "matchText": "Khangai Mountains",
+      "wikiSlug": "Khangai_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Khentii Mountains",
+      "matchText": "Khentii Mountains",
+      "wikiSlug": "Khentii_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Karakorum",
+      "matchText": "Karakorum",
+      "wikiSlug": "Karakorum",
+      "type": "place"
+    },
+    {
+      "term": "Otuken",
+      "matchText": "Otuken",
+      "wikiSlug": "%C3%96t%C3%BCken",
+      "type": "place"
+    },
+    {
+      "term": "Bilge Kagan",
+      "matchText": "Bilge Kagan",
+      "wikiSlug": "Bilge_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Muqan Qaghan",
+      "matchText": "Muqan Qaghan",
+      "wikiSlug": "Muqan_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Khitan",
+      "matchText": "Khitan",
+      "wikiSlug": "Khitan_people",
+      "type": "concept"
+    },
+    {
+      "term": "Liao Dynasty",
+      "matchText": "Liao Dynasty",
+      "wikiSlug": "Liao_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Yenisei Kyrgyz",
+      "matchText": "Yenisei Kyrgyz",
+      "wikiSlug": "Yenisei_Kyrgyz",
+      "type": "concept"
+    },
+    {
+      "term": "Tieli",
+      "matchText": "Tieli",
+      "wikiSlug": "Tiele_people",
+      "type": "concept"
+    },
+    {
+      "term": "Kurykan",
+      "matchText": "Kurykan",
+      "wikiSlug": "Kurykans",
+      "type": "concept"
+    },
+    {
+      "term": "Northern Zhou",
+      "matchText": "Northern Zhou",
+      "wikiSlug": "Northern_Zhou",
+      "type": "concept"
+    },
+    {
+      "term": "Northern Qi",
+      "matchText": "Northern Qi",
+      "wikiSlug": "Northern_Qi",
+      "type": "concept"
+    },
+    {
+      "term": "Heqin",
+      "matchText": "heqin",
+      "wikiSlug": "Heqin",
+      "type": "concept"
+    },
+    {
+      "term": "Sogdian",
+      "matchText": "Sogdian",
+      "wikiSlug": "Sogdia",
+      "type": "concept"
+    }
   ],
   "3": [
-    { "term": "Sogdian", "matchText": "Sogdian", "wikiSlug": "Sogdia", "type": "concept" },
-    { "term": "Transoxiana", "matchText": "Transoxiana", "wikiSlug": "Transoxiana", "type": "place" },
-    { "term": "Oxus River", "matchText": "Oxus River", "wikiSlug": "Amu_Darya", "type": "place" },
-    { "term": "Jaxartes River", "matchText": "Jaxartes River", "wikiSlug": "Syr_Darya", "type": "place" },
-    { "term": "Indo-European", "matchText": "Indo-European", "wikiSlug": "Indo-European_languages", "type": "concept" },
-    { "term": "Turkic languages", "matchText": "Turkic family", "wikiSlug": "Turkic_languages", "type": "concept" },
-    { "term": "Mongolic languages", "matchText": "Mongolic languages", "wikiSlug": "Mongolic_languages", "type": "concept" },
-    { "term": "Tungusic languages", "matchText": "Tungusic", "wikiSlug": "Tungusic_languages", "type": "concept" },
-    { "term": "Altaic", "matchText": "Altaic", "wikiSlug": "Altaic_languages", "type": "concept" },
-    { "term": "Bukhara", "matchText": "Bukhara", "wikiSlug": "Bukhara", "type": "place" },
-    { "term": "Samarkand", "matchText": "Samarkand", "wikiSlug": "Samarkand", "type": "place" },
-    { "term": "Achaemenid", "matchText": "Achaemenid", "wikiSlug": "Achaemenid_Empire", "type": "concept" },
-    { "term": "Alexander the Great", "matchText": "Alexander the Great", "wikiSlug": "Alexander_the_Great", "type": "people" },
-    { "term": "Chang'an", "matchText": "Chang'an", "wikiSlug": "Chang%27an", "type": "place" },
-    { "term": "Luoyang", "matchText": "Luoyang", "wikiSlug": "Luoyang", "type": "place" },
-    { "term": "Dunhuang", "matchText": "Dunhuang", "wikiSlug": "Dunhuang", "type": "place" },
-    { "term": "Turfan", "matchText": "Turfan", "wikiSlug": "Turpan", "type": "place" },
-    { "term": "Kucha", "matchText": "Kucha", "wikiSlug": "Kucha", "type": "place" },
-    { "term": "Khotan", "matchText": "Khotan", "wikiSlug": "Hotan", "type": "place" },
-    { "term": "Kashgar", "matchText": "Kashgar", "wikiSlug": "Kashgar", "type": "place" },
-    { "term": "Suyab", "matchText": "Suyab", "wikiSlug": "Suyab", "type": "place" },
-    { "term": "Aramaic", "matchText": "Aramaic alphabet", "wikiSlug": "Aramaic_alphabet", "type": "concept" },
-    { "term": "Khusrau I", "matchText": "Khusrau I", "wikiSlug": "Khosrow_I", "type": "people" },
-    { "term": "Maniakh", "matchText": "Maniakh", "wikiSlug": "Maniakh", "type": "people" }
+    {
+      "term": "Sogdian",
+      "matchText": "Sogdian",
+      "wikiSlug": "Sogdia",
+      "type": "concept"
+    },
+    {
+      "term": "Transoxiana",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Oxus River",
+      "matchText": "Oxus River",
+      "wikiSlug": "Amu_Darya",
+      "type": "place"
+    },
+    {
+      "term": "Jaxartes River",
+      "matchText": "Jaxartes River",
+      "wikiSlug": "Syr_Darya",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic languages",
+      "matchText": "Turkic family",
+      "wikiSlug": "Turkic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Mongolic languages",
+      "matchText": "Mongolic languages",
+      "wikiSlug": "Mongolic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Tungusic languages",
+      "matchText": "Tungusic",
+      "wikiSlug": "Tungusic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Altaic",
+      "matchText": "Altaic",
+      "wikiSlug": "Altaic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Bukhara",
+      "matchText": "Bukhara",
+      "wikiSlug": "Bukhara",
+      "type": "place"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Achaemenid",
+      "matchText": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Alexander the Great",
+      "matchText": "Alexander the Great",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Chang'an",
+      "matchText": "Chang'an",
+      "wikiSlug": "Chang%27an",
+      "type": "place"
+    },
+    {
+      "term": "Luoyang",
+      "matchText": "Luoyang",
+      "wikiSlug": "Luoyang",
+      "type": "place"
+    },
+    {
+      "term": "Dunhuang",
+      "matchText": "Dunhuang",
+      "wikiSlug": "Dunhuang",
+      "type": "place"
+    },
+    {
+      "term": "Turfan",
+      "matchText": "Turfan",
+      "wikiSlug": "Turpan",
+      "type": "place"
+    },
+    {
+      "term": "Kucha",
+      "matchText": "Kucha",
+      "wikiSlug": "Kucha",
+      "type": "place"
+    },
+    {
+      "term": "Khotan",
+      "matchText": "Khotan",
+      "wikiSlug": "Hotan",
+      "type": "place"
+    },
+    {
+      "term": "Kashgar",
+      "matchText": "Kashgar",
+      "wikiSlug": "Kashgar",
+      "type": "place"
+    },
+    {
+      "term": "Suyab",
+      "matchText": "Suyab",
+      "wikiSlug": "Suyab",
+      "type": "place"
+    },
+    {
+      "term": "Aramaic",
+      "matchText": "Aramaic alphabet",
+      "wikiSlug": "Aramaic_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Khusrau I",
+      "matchText": "Khusrau I",
+      "wikiSlug": "Khosrow_I",
+      "type": "people"
+    },
+    {
+      "term": "Maniakh",
+      "matchText": "Maniakh",
+      "wikiSlug": "Maniakh",
+      "type": "people"
+    },
+    {
+      "term": "Sephardic Jews",
+      "matchText": "Sephardic Jews",
+      "wikiSlug": "Sephardic_Jews",
+      "type": "people"
+    },
+    {
+      "term": "Hanseatic League",
+      "matchText": "Hanseatic League",
+      "wikiSlug": "Hanseatic_League",
+      "type": "concept"
+    }
   ],
   "4": [
-    { "term": "Hephthalites", "matchText": "Hephthalites", "wikiSlug": "Hephthalite_Empire", "type": "concept" },
-    { "term": "White Huns", "matchText": "White Huns", "wikiSlug": "Hephthalite_Empire", "type": "concept" },
-    { "term": "Peroz I", "matchText": "Peroz I", "wikiSlug": "Peroz_I", "type": "people" },
-    { "term": "Bactria", "matchText": "Bactria", "wikiSlug": "Bactria", "type": "place" },
-    { "term": "Khusrau I", "matchText": "Khusrau I", "wikiSlug": "Khosrow_I", "type": "people" },
-    { "term": "Sasanian", "matchText": "Sasanian", "wikiSlug": "Sasanian_Empire", "type": "concept" },
-    { "term": "Justin II", "matchText": "Justin II", "wikiSlug": "Justin_II", "type": "people" },
-    { "term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place" },
-    { "term": "Caucasus", "matchText": "Caucasus", "wikiSlug": "Caucasus", "type": "place" },
-    { "term": "Tian Shan", "matchText": "Tian Shan", "wikiSlug": "Tian_Shan", "type": "place" },
-    { "term": "Maniakh", "matchText": "Maniakh", "wikiSlug": "Maniakh", "type": "people" },
-    { "term": "Zemarchus", "matchText": "Zemarchus", "wikiSlug": "Zemarchus", "type": "people" },
-    { "term": "Menander Protector", "matchText": "Menander Protector", "wikiSlug": "Menander_Protector", "type": "people" },
-    { "term": "Kam (shaman)", "matchText": "kam", "wikiSlug": "Shamanism", "type": "concept" },
-    { "term": "Kumis", "matchText": "kumis", "wikiSlug": "Kumis", "type": "concept" },
-    { "term": "Lombards", "matchText": "Lombards", "wikiSlug": "Lombards", "type": "concept" },
-    { "term": "Visigothic kingdom", "matchText": "Visigothic kingdom", "wikiSlug": "Visigothic_Kingdom", "type": "concept" },
-    { "term": "Muhammad", "matchText": "Muhammad", "wikiSlug": "Muhammad", "type": "people" }
+    {
+      "term": "Hephthalites",
+      "matchText": "Hephthalites",
+      "wikiSlug": "Hephthalite_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "White Huns",
+      "matchText": "White Huns",
+      "wikiSlug": "Hephthalite_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Peroz I",
+      "matchText": "Peroz I",
+      "wikiSlug": "Peroz_I",
+      "type": "people"
+    },
+    {
+      "term": "Bactria",
+      "matchText": "Bactria",
+      "wikiSlug": "Bactria",
+      "type": "place"
+    },
+    {
+      "term": "Khusrau I",
+      "matchText": "Khusrau I",
+      "wikiSlug": "Khosrow_I",
+      "type": "people"
+    },
+    {
+      "term": "Sasanian",
+      "matchText": "Sasanian",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Justin II",
+      "matchText": "Justin II",
+      "wikiSlug": "Justin_II",
+      "type": "people"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Tian Shan",
+      "matchText": "Tian Shan",
+      "wikiSlug": "Tian_Shan",
+      "type": "place"
+    },
+    {
+      "term": "Maniakh",
+      "matchText": "Maniakh",
+      "wikiSlug": "Maniakh",
+      "type": "people"
+    },
+    {
+      "term": "Zemarchus",
+      "matchText": "Zemarchus",
+      "wikiSlug": "Zemarchus",
+      "type": "people"
+    },
+    {
+      "term": "Menander Protector",
+      "matchText": "Menander Protector",
+      "wikiSlug": "Menander_Protector",
+      "type": "people"
+    },
+    {
+      "term": "Kam (shaman)",
+      "matchText": "kam",
+      "wikiSlug": "Shamanism",
+      "type": "concept"
+    },
+    {
+      "term": "Kumis",
+      "matchText": "kumis",
+      "wikiSlug": "Kumis",
+      "type": "concept"
+    },
+    {
+      "term": "Lombards",
+      "matchText": "Lombards",
+      "wikiSlug": "Lombards",
+      "type": "concept"
+    },
+    {
+      "term": "Visigothic kingdom",
+      "matchText": "Visigothic kingdom",
+      "wikiSlug": "Visigothic_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Muhammad",
+      "matchText": "Muhammad",
+      "wikiSlug": "Muhammad",
+      "type": "people"
+    },
+    {
+      "term": "Pannonian Avars",
+      "matchText": "Avars",
+      "wikiSlug": "Pannonian_Avars",
+      "type": "people"
+    }
   ],
   "5": [
-    { "term": "Taspar Qaghan", "matchText": "Taspar Qaghan", "wikiSlug": "Taspar_Qaghan", "type": "people" },
-    { "term": "Lateral succession", "matchText": "lateral succession", "wikiSlug": "Agnatic_seniority", "type": "concept" },
-    { "term": "Tardu", "matchText": "Tardu", "wikiSlug": "Tardu", "type": "people" },
-    { "term": "Sui Dynasty", "matchText": "Sui Dynasty", "wikiSlug": "Sui_dynasty", "type": "concept" },
-    { "term": "Yang Jian", "matchText": "Yang Jian", "wikiSlug": "Emperor_Wen_of_Sui", "type": "people" },
-    { "term": "Emperor Yang of Sui", "matchText": "Emperor Yang of Sui", "wikiSlug": "Emperor_Yang_of_Sui", "type": "people" },
-    { "term": "Grand Canal", "matchText": "Grand Canal", "wikiSlug": "Grand_Canal_(China)", "type": "place" },
-    { "term": "Shibi Qaghan", "matchText": "Shibi", "wikiSlug": "Shibi_Qaghan", "type": "people" },
-    { "term": "Yanmen Pass", "matchText": "Yanmen Pass", "wikiSlug": "Yanmen_Pass", "type": "place" },
-    { "term": "Tang Dynasty", "matchText": "Tang Dynasty", "wikiSlug": "Tang_dynasty", "type": "concept" },
-    { "term": "Li Yuan", "matchText": "Li Yuan", "wikiSlug": "Emperor_Gaozu_of_Tang", "type": "people" },
-    { "term": "Xuanwu Gate Incident", "matchText": "Xuanwu Gate Incident", "wikiSlug": "Xuanwu_Gate_Incident", "type": "concept" },
-    { "term": "Tang Taizong", "matchText": "Tang Taizong", "wikiSlug": "Emperor_Taizong_of_Tang", "type": "people" },
-    { "term": "Li Jing", "matchText": "Li Jing", "wikiSlug": "Li_Jing_(Tang_dynasty)", "type": "people" },
-    { "term": "Illig Qaghan", "matchText": "Illig Qaghan", "wikiSlug": "Illig_Qaghan", "type": "people" },
-    { "term": "Mandate of Heaven", "matchText": "Mandate of Heaven", "wikiSlug": "Mandate_of_Heaven", "type": "concept" },
-    { "term": "Su Dingfang", "matchText": "Su Dingfang", "wikiSlug": "Su_Dingfang", "type": "people" },
-    { "term": "Ashina Helu", "matchText": "Ashina Helu", "wikiSlug": "Ashina_Helu", "type": "people" }
+    {
+      "term": "Taspar Qaghan",
+      "matchText": "Taspar Qaghan",
+      "wikiSlug": "Taspar_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Lateral succession",
+      "matchText": "lateral succession",
+      "wikiSlug": "Agnatic_seniority",
+      "type": "concept"
+    },
+    {
+      "term": "Tardu",
+      "matchText": "Tardu",
+      "wikiSlug": "Tardu",
+      "type": "people"
+    },
+    {
+      "term": "Sui Dynasty",
+      "matchText": "Sui Dynasty",
+      "wikiSlug": "Sui_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Yang Jian",
+      "matchText": "Yang Jian",
+      "wikiSlug": "Emperor_Wen_of_Sui",
+      "type": "people"
+    },
+    {
+      "term": "Emperor Yang of Sui",
+      "matchText": "Emperor Yang of Sui",
+      "wikiSlug": "Emperor_Yang_of_Sui",
+      "type": "people"
+    },
+    {
+      "term": "Grand Canal",
+      "matchText": "Grand Canal",
+      "wikiSlug": "Grand_Canal_(China)",
+      "type": "place"
+    },
+    {
+      "term": "Shibi Qaghan",
+      "matchText": "Shibi",
+      "wikiSlug": "Shibi_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Yanmen Pass",
+      "matchText": "Yanmen Pass",
+      "wikiSlug": "Yanmen_Pass",
+      "type": "place"
+    },
+    {
+      "term": "Tang Dynasty",
+      "matchText": "Tang Dynasty",
+      "wikiSlug": "Tang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Li Yuan",
+      "matchText": "Li Yuan",
+      "wikiSlug": "Emperor_Gaozu_of_Tang",
+      "type": "people"
+    },
+    {
+      "term": "Xuanwu Gate Incident",
+      "matchText": "Xuanwu Gate Incident",
+      "wikiSlug": "Xuanwu_Gate_Incident",
+      "type": "concept"
+    },
+    {
+      "term": "Tang Taizong",
+      "matchText": "Tang Taizong",
+      "wikiSlug": "Emperor_Taizong_of_Tang",
+      "type": "people"
+    },
+    {
+      "term": "Li Jing",
+      "matchText": "Li Jing",
+      "wikiSlug": "Li_Jing_(Tang_dynasty)",
+      "type": "people"
+    },
+    {
+      "term": "Illig Qaghan",
+      "matchText": "Illig Qaghan",
+      "wikiSlug": "Illig_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Su Dingfang",
+      "matchText": "Su Dingfang",
+      "wikiSlug": "Su_Dingfang",
+      "type": "people"
+    },
+    {
+      "term": "Ashina Helu",
+      "matchText": "Ashina Helu",
+      "wikiSlug": "Ashina_Helu",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Talas",
+      "matchText": "Battle of Talas",
+      "wikiSlug": "Battle_of_Talas",
+      "type": "concept"
+    }
   ],
   "6": [
-    { "term": "Wei Zheng", "matchText": "Wei Zheng", "wikiSlug": "Wei_Zheng", "type": "people" },
-    { "term": "Confucian", "matchText": "Confucian", "wikiSlug": "Confucianism", "type": "concept" },
-    { "term": "Ordos region", "matchText": "Ordos region", "wikiSlug": "Ordos_Plateau", "type": "place" },
-    { "term": "Anxi Protectorate", "matchText": "Anxi Protectorate", "wikiSlug": "Protectorate_General_to_Pacify_the_West", "type": "concept" },
-    { "term": "Beiting Protectorate", "matchText": "Beiting Protectorate", "wikiSlug": "Beiting_Protectorate", "type": "concept" },
-    { "term": "Dzungaria", "matchText": "Dzungaria", "wikiSlug": "Dzungaria", "type": "place" },
-    { "term": "Kucha", "matchText": "Kucha", "wikiSlug": "Kucha", "type": "place" },
-    { "term": "Khotan", "matchText": "Khotan", "wikiSlug": "Hotan", "type": "place" },
-    { "term": "Kashgar", "matchText": "Kashgar", "wikiSlug": "Kashgar", "type": "place" },
-    { "term": "Pamirs", "matchText": "Pamirs", "wikiSlug": "Pamir_Mountains", "type": "place" },
-    { "term": "Sogdiana", "matchText": "Sogdiana", "wikiSlug": "Sogdia", "type": "place" },
-    { "term": "Sogdian musicians", "matchText": "Sogdian musicians", "wikiSlug": "Sogdia", "type": "concept" },
-    { "term": "Tibetan Empire", "matchText": "Tibetan Empire", "wikiSlug": "Tibetan_Empire", "type": "concept" },
-    { "term": "Songtsen Gampo", "matchText": "Songtsen Gampo", "wikiSlug": "Songtsen_Gampo", "type": "people" },
-    { "term": "Empress Wu Zetian", "matchText": "Empress Wu Zetian", "wikiSlug": "Wu_Zetian", "type": "people" },
-    { "term": "Ashide Wenfu", "matchText": "Ashide Wenfu", "wikiSlug": "Ashide_Wenfu", "type": "people" },
-    { "term": "Kutlugh", "matchText": "Kutlugh", "wikiSlug": "Ilterish_Qaghan", "type": "people" }
+    {
+      "term": "Wei Zheng",
+      "matchText": "Wei Zheng",
+      "wikiSlug": "Wei_Zheng",
+      "type": "people"
+    },
+    {
+      "term": "Confucian",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Ordos region",
+      "matchText": "Ordos region",
+      "wikiSlug": "Ordos_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Anxi Protectorate",
+      "matchText": "Anxi Protectorate",
+      "wikiSlug": "Protectorate_General_to_Pacify_the_West",
+      "type": "concept"
+    },
+    {
+      "term": "Beiting Protectorate",
+      "matchText": "Beiting Protectorate",
+      "wikiSlug": "Beiting_Protectorate",
+      "type": "concept"
+    },
+    {
+      "term": "Dzungaria",
+      "matchText": "Dzungaria",
+      "wikiSlug": "Dzungaria",
+      "type": "place"
+    },
+    {
+      "term": "Kucha",
+      "matchText": "Kucha",
+      "wikiSlug": "Kucha",
+      "type": "place"
+    },
+    {
+      "term": "Khotan",
+      "matchText": "Khotan",
+      "wikiSlug": "Hotan",
+      "type": "place"
+    },
+    {
+      "term": "Kashgar",
+      "matchText": "Kashgar",
+      "wikiSlug": "Kashgar",
+      "type": "place"
+    },
+    {
+      "term": "Pamirs",
+      "matchText": "Pamirs",
+      "wikiSlug": "Pamir_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Sogdiana",
+      "matchText": "Sogdiana",
+      "wikiSlug": "Sogdia",
+      "type": "place"
+    },
+    {
+      "term": "Sogdian musicians",
+      "matchText": "Sogdian musicians",
+      "wikiSlug": "Sogdia",
+      "type": "concept"
+    },
+    {
+      "term": "Tibetan Empire",
+      "matchText": "Tibetan Empire",
+      "wikiSlug": "Tibetan_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Songtsen Gampo",
+      "matchText": "Songtsen Gampo",
+      "wikiSlug": "Songtsen_Gampo",
+      "type": "people"
+    },
+    {
+      "term": "Empress Wu Zetian",
+      "matchText": "Empress Wu Zetian",
+      "wikiSlug": "Wu_Zetian",
+      "type": "people"
+    },
+    {
+      "term": "Ashide Wenfu",
+      "matchText": "Ashide Wenfu",
+      "wikiSlug": "Ashide_Wenfu",
+      "type": "people"
+    },
+    {
+      "term": "Kutlugh",
+      "matchText": "Kutlugh",
+      "wikiSlug": "Ilterish_Qaghan",
+      "type": "people"
+    }
   ],
   "7": [
-    { "term": "Pei Xingjian", "matchText": "Pei Xingjian", "wikiSlug": "Pei_Xingjian", "type": "people" },
-    { "term": "Ilterish Qaghan", "matchText": "Ilterish Qaghan", "wikiSlug": "Ilterish_Qaghan", "type": "people" },
-    { "term": "Tonyukuk", "matchText": "Tonyukuk", "wikiSlug": "Tonyukuk", "type": "people" },
-    { "term": "Tonyukuk Inscription", "matchText": "Tonyukuk Inscription", "wikiSlug": "Tonyukuk", "type": "concept" },
-    { "term": "Buddhism", "matchText": "Buddhism", "wikiSlug": "Buddhism", "type": "concept" },
-    { "term": "Manichaeism", "matchText": "Manichaeism", "wikiSlug": "Manichaeism", "type": "concept" },
-    { "term": "Kapaghan Qaghan", "matchText": "Kapaghan", "wikiSlug": "Kapaghan_Qaghan", "type": "people" },
-    { "term": "Bayirku", "matchText": "Bayirku", "wikiSlug": "Bayegu", "type": "concept" },
-    { "term": "Kul Tigin", "matchText": "Kul Tigin", "wikiSlug": "Kul_Tigin", "type": "people" },
-    { "term": "Bilge Kagan", "matchText": "Bilge", "wikiSlug": "Bilge_Qaghan", "type": "people" },
-    { "term": "Orkhon Inscriptions", "matchText": "Orkhon Inscriptions", "wikiSlug": "Orkhon_inscriptions", "type": "concept" },
-    { "term": "Old Turkic script", "matchText": "Old Turkic script", "wikiSlug": "Old_Turkic_script", "type": "concept" },
-    { "term": "Augustus", "matchText": "Augustus", "wikiSlug": "Augustus", "type": "people" },
-    { "term": "Buyruq Chor", "matchText": "Buyruq Chor", "wikiSlug": "Bilge_Qaghan", "type": "people" },
-    { "term": "Umayyad Caliphate", "matchText": "Umayyad Caliphate", "wikiSlug": "Umayyad_Caliphate", "type": "concept" },
-    { "term": "Abbasid Revolution", "matchText": "Abbasid Revolution", "wikiSlug": "Abbasid_Revolution", "type": "concept" },
-    { "term": "Bede", "matchText": "Bede", "wikiSlug": "Bede", "type": "people" }
+    {
+      "term": "Pei Xingjian",
+      "matchText": "Pei Xingjian",
+      "wikiSlug": "Pei_Xingjian",
+      "type": "people"
+    },
+    {
+      "term": "Ilterish Qaghan",
+      "matchText": "Ilterish Qaghan",
+      "wikiSlug": "Ilterish_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Tonyukuk",
+      "matchText": "Tonyukuk",
+      "wikiSlug": "Tonyukuk",
+      "type": "people"
+    },
+    {
+      "term": "Tonyukuk Inscription",
+      "matchText": "Tonyukuk Inscription",
+      "wikiSlug": "Tonyukuk",
+      "type": "concept"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Manichaeism",
+      "matchText": "Manichaeism",
+      "wikiSlug": "Manichaeism",
+      "type": "concept"
+    },
+    {
+      "term": "Kapaghan Qaghan",
+      "matchText": "Kapaghan",
+      "wikiSlug": "Kapaghan_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Bayirku",
+      "matchText": "Bayirku",
+      "wikiSlug": "Bayegu",
+      "type": "concept"
+    },
+    {
+      "term": "Kul Tigin",
+      "matchText": "Kul Tigin",
+      "wikiSlug": "Kul_Tigin",
+      "type": "people"
+    },
+    {
+      "term": "Bilge Kagan",
+      "matchText": "Bilge",
+      "wikiSlug": "Bilge_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Orkhon Inscriptions",
+      "matchText": "Orkhon Inscriptions",
+      "wikiSlug": "Orkhon_inscriptions",
+      "type": "concept"
+    },
+    {
+      "term": "Old Turkic script",
+      "matchText": "Old Turkic script",
+      "wikiSlug": "Old_Turkic_script",
+      "type": "concept"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Buyruq Chor",
+      "matchText": "Buyruq Chor",
+      "wikiSlug": "Bilge_Qaghan",
+      "type": "people"
+    },
+    {
+      "term": "Umayyad Caliphate",
+      "matchText": "Umayyad Caliphate",
+      "wikiSlug": "Umayyad_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Revolution",
+      "matchText": "Abbasid Revolution",
+      "wikiSlug": "Abbasid_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Bede",
+      "matchText": "Bede",
+      "wikiSlug": "Bede",
+      "type": "people"
+    }
   ],
   "8": [
-    { "term": "Ozmish", "matchText": "Ozmish", "wikiSlug": "Ozmish_Khagan", "type": "people" },
-    { "term": "Bomei Qaghan", "matchText": "Bomei", "wikiSlug": "Second_Turkic_Khaganate", "type": "people" },
-    { "term": "Kutluk Bilge", "matchText": "Kutluk Bilge", "wikiSlug": "Kutluk_Bilge_Kol_Khagan", "type": "people" },
-    { "term": "Uyghur Khaganate", "matchText": "Uyghur Khaganate", "wikiSlug": "Uyghur_Khaganate", "type": "concept" },
-    { "term": "Karabalghasun", "matchText": "Karabalghasun", "wikiSlug": "Karabalgasun", "type": "place" },
-    { "term": "Manichaeism", "matchText": "Manichaeism", "wikiSlug": "Manichaeism", "type": "concept" },
-    { "term": "An Lushan Rebellion", "matchText": "An Lushan Rebellion", "wikiSlug": "An_Lushan_Rebellion", "type": "concept" },
-    { "term": "Kingdom of Qocho", "matchText": "Kingdom of Qocho", "wikiSlug": "Kingdom_of_Qocho", "type": "concept" },
-    { "term": "Karluks", "matchText": "Karluks", "wikiSlug": "Karluks", "type": "concept" },
-    { "term": "Battle of Talas", "matchText": "Battle of Talas", "wikiSlug": "Battle_of_Talas", "type": "concept" },
-    { "term": "Abbasid Caliphate", "matchText": "Abbasid Caliphate", "wikiSlug": "Abbasid_Caliphate", "type": "concept" },
-    { "term": "Gao Xianzhi", "matchText": "Gao Xianzhi", "wikiSlug": "Gao_Xianzhi", "type": "people" },
-    { "term": "Karakhanid Khanate", "matchText": "Karakhanid Khanate", "wikiSlug": "Kara-Khanid_Khanate", "type": "concept" },
-    { "term": "Khazar Khaganate", "matchText": "Khazar Khaganate", "wikiSlug": "Khazars", "type": "concept" },
-    { "term": "Sviatoslav", "matchText": "Sviatoslav", "wikiSlug": "Sviatoslav_I", "type": "people" },
-    { "term": "Bulgars", "matchText": "Bulgars", "wikiSlug": "Bulgars", "type": "concept" },
-    { "term": "Asparuh", "matchText": "Asparuh", "wikiSlug": "Asparuh_of_Bulgaria", "type": "people" },
-    { "term": "First Bulgarian Empire", "matchText": "First Bulgarian Empire", "wikiSlug": "First_Bulgarian_Empire", "type": "concept" },
-    { "term": "Pechenegs", "matchText": "Pechenegs", "wikiSlug": "Pechenegs", "type": "concept" },
-    { "term": "Cumans", "matchText": "Cumans", "wikiSlug": "Cumans", "type": "concept" },
-    { "term": "Tatars", "matchText": "Tatars", "wikiSlug": "Tatars", "type": "concept" },
-    { "term": "Seljuks", "matchText": "Seljuks", "wikiSlug": "Seljuk_Empire", "type": "concept" },
-    { "term": "Tughril Beg", "matchText": "Tughril Beg", "wikiSlug": "Tughril", "type": "people" },
-    { "term": "Battle of Manzikert", "matchText": "Battle of Manzikert", "wikiSlug": "Battle_of_Manzikert", "type": "concept" },
-    { "term": "Sultanate of Rum", "matchText": "Sultanate of Rum", "wikiSlug": "Sultanate_of_Rum", "type": "concept" },
-    { "term": "Osman I", "matchText": "Osman I", "wikiSlug": "Osman_I", "type": "people" },
-    { "term": "Ottoman dynasty", "matchText": "Ottoman dynasty", "wikiSlug": "Ottoman_dynasty", "type": "concept" },
-    { "term": "Genghis Khan", "matchText": "Genghis Khan", "wikiSlug": "Genghis_Khan", "type": "people" },
-    { "term": "Uyghur script", "matchText": "Uyghur script", "wikiSlug": "Old_Uyghur_alphabet", "type": "concept" }
+    {
+      "term": "Ozmish",
+      "matchText": "Ozmish",
+      "wikiSlug": "Ozmish_Khagan",
+      "type": "people"
+    },
+    {
+      "term": "Bomei Qaghan",
+      "matchText": "Bomei",
+      "wikiSlug": "Second_Turkic_Khaganate",
+      "type": "people"
+    },
+    {
+      "term": "Kutluk Bilge",
+      "matchText": "Kutluk Bilge",
+      "wikiSlug": "Kutluk_Bilge_Kol_Khagan",
+      "type": "people"
+    },
+    {
+      "term": "Uyghur Khaganate",
+      "matchText": "Uyghur Khaganate",
+      "wikiSlug": "Uyghur_Khaganate",
+      "type": "concept"
+    },
+    {
+      "term": "Karabalghasun",
+      "matchText": "Karabalghasun",
+      "wikiSlug": "Karabalgasun",
+      "type": "place"
+    },
+    {
+      "term": "Manichaeism",
+      "matchText": "Manichaeism",
+      "wikiSlug": "Manichaeism",
+      "type": "concept"
+    },
+    {
+      "term": "An Lushan Rebellion",
+      "matchText": "An Lushan Rebellion",
+      "wikiSlug": "An_Lushan_Rebellion",
+      "type": "concept"
+    },
+    {
+      "term": "Kingdom of Qocho",
+      "matchText": "Kingdom of Qocho",
+      "wikiSlug": "Kingdom_of_Qocho",
+      "type": "concept"
+    },
+    {
+      "term": "Karluks",
+      "matchText": "Karluks",
+      "wikiSlug": "Karluks",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Talas",
+      "matchText": "Battle of Talas",
+      "wikiSlug": "Battle_of_Talas",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Gao Xianzhi",
+      "matchText": "Gao Xianzhi",
+      "wikiSlug": "Gao_Xianzhi",
+      "type": "people"
+    },
+    {
+      "term": "Karakhanid Khanate",
+      "matchText": "Karakhanid Khanate",
+      "wikiSlug": "Kara-Khanid_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Khazar Khaganate",
+      "matchText": "Khazar Khaganate",
+      "wikiSlug": "Khazars",
+      "type": "concept"
+    },
+    {
+      "term": "Sviatoslav",
+      "matchText": "Sviatoslav",
+      "wikiSlug": "Sviatoslav_I",
+      "type": "people"
+    },
+    {
+      "term": "Bulgars",
+      "matchText": "Bulgars",
+      "wikiSlug": "Bulgars",
+      "type": "concept"
+    },
+    {
+      "term": "Asparuh",
+      "matchText": "Asparuh",
+      "wikiSlug": "Asparuh_of_Bulgaria",
+      "type": "people"
+    },
+    {
+      "term": "First Bulgarian Empire",
+      "matchText": "First Bulgarian Empire",
+      "wikiSlug": "First_Bulgarian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Pechenegs",
+      "matchText": "Pechenegs",
+      "wikiSlug": "Pechenegs",
+      "type": "concept"
+    },
+    {
+      "term": "Cumans",
+      "matchText": "Cumans",
+      "wikiSlug": "Cumans",
+      "type": "concept"
+    },
+    {
+      "term": "Tatars",
+      "matchText": "Tatars",
+      "wikiSlug": "Tatars",
+      "type": "concept"
+    },
+    {
+      "term": "Seljuks",
+      "matchText": "Seljuks",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Tughril Beg",
+      "matchText": "Tughril Beg",
+      "wikiSlug": "Tughril",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Manzikert",
+      "matchText": "Battle of Manzikert",
+      "wikiSlug": "Battle_of_Manzikert",
+      "type": "concept"
+    },
+    {
+      "term": "Sultanate of Rum",
+      "matchText": "Sultanate of Rum",
+      "wikiSlug": "Sultanate_of_Rum",
+      "type": "concept"
+    },
+    {
+      "term": "Osman I",
+      "matchText": "Osman I",
+      "wikiSlug": "Osman_I",
+      "type": "people"
+    },
+    {
+      "term": "Ottoman dynasty",
+      "matchText": "Ottoman dynasty",
+      "wikiSlug": "Ottoman_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Uyghur script",
+      "matchText": "Uyghur script",
+      "wikiSlug": "Old_Uyghur_alphabet",
+      "type": "concept"
+    }
   ]
 }

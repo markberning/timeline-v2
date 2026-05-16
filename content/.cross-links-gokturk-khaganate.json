@@ -17,6 +17,36 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
       "blurb": "The Türk founding in 552 is almost exactly contemporary with Justinian's high-water mark in Byzantium — Hagia Sophia consecrated 537, the Pandects of Roman law completed 533, the reconquest of Italy and North Africa in progress. Justinian's general Belisarius was fighting the Ostrogoths in Italy in the same years that Bumin was destroying the Rouran in Mongolia, and within twenty years Türk and Byzantine envoys would be walking each other's courts in person via Maniakh's embassy."
+    },
+    {
+      "matchText": "Romulus and Remus",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "The wolf-suckled twin founders are not unique to the Türks — Rome told the same of Romulus and Remus eight centuries earlier. The motif independently gave both peoples a usable myth of fierce, survivor bloodlines fit to found an empire."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Sasanian Persia under Khusrau I was at its height, and would be the Türks' ally-then-enemy within a few years — the steppe and the Iranian superpower entangled from the start."
+    },
+    {
+      "matchText": "Northern Zhou",
+      "targetTl": "six-dynasties",
+      "targetChapter": 8,
+      "blurb": "Northern China was split between the Northern Zhou and Northern Qi — soon to be reunified by the Sui, the dynasty the Türks would spend a century manipulating."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 8,
+      "blurb": "On the Indian subcontinent the Gupta Empire was in its final decline as the Türk Khaganate rose — the classical order giving way across Eurasia at once."
+    },
+    {
+      "matchText": "Mayan civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "In Mesoamerica the Maya were at their classical peak, simultaneous with everything in Eurasia and entirely unconnected to it."
     }
   ],
   "2": [
@@ -37,6 +67,30 @@
       "targetTl": "xiongnu-huns",
       "targetChapter": 3,
       "blurb": "The 200,000 bolts of silk per year that Muqan extracted from the divided Chinese north was the largest tribute payment China had made to the steppe since the Han dynasty's heqin treaties seven centuries earlier. The Türks were deliberately replicating the Xiongnu-Han relationship — silk for peace, with the steppe empire dictating terms — but at a higher scale and with the added sophistication of moving the silk westward through the Sogdian merchant network for resale in Persian and Byzantine markets."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "By 575 the Türk Khaganate was the largest political unit in Eurasia — dwarfing a Byzantium straining under the financial overstretch Justinian's reconquests had caused."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Sasanian Persia under Khusrau I was at its peak just as the Türk realm reached its maximum extent — two giants sharing a volatile border."
+    },
+    {
+      "matchText": "Tiwanaku and Wari",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "In the Andes the Tiwanaku and Wari states were emerging — the Türks touched everything in Eurasia but never the Americas, where parallel empires rose unconnected."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 8,
+      "blurb": "The Gupta Empire had collapsed into successor states by the time the Türk realm peaked — India's classical age ending as the steppe's apex began."
     }
   ],
   "3": [
@@ -57,6 +111,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "Khusrau I's decision to close the Persian market to Sogdian silk in 568 and then to poison the Türk envoys who came to negotiate is documented in Persian and Byzantine sources but rarely highlighted in Sasanian historical memory. From the Persian perspective it was state-protective economic policy; from the Türk perspective it was a casus belli that pushed the alliance into open hostility and led directly to Maniakh's mission to Constantinople — one of the more consequential Sasanian foreign policy errors of the entire dynasty."
+    },
+    {
+      "matchText": "Phoenicians",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "The Sogdian merchant network had a deep precedent: the Phoenicians ran a similar Mediterranean-wide commercial diaspora 1,200 years earlier — though never at the Constantinople-to-Chang'an scale of the Sogdians."
+    },
+    {
+      "matchText": "Armenian merchants of New Julfa",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "A millennium later the Armenian merchants of New Julfa under Safavid Persia would build a strikingly similar state-aligned commercial diaspora — the same structure the Sogdians pioneered for the Türks."
     }
   ],
   "4": [
@@ -77,6 +143,12 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 1,
       "blurb": "Muhammad was born in Mecca in 570, two years after Maniakh's embassy reached Constantinople. The world that Muhammad would transform with the Islamic conquests starting in the 630s was the same world the Türks had just stitched together diplomatically: a Sasanian Persian Empire, a Byzantine Roman Empire, a Türk khaganate, and the Sogdian merchant network connecting them all. Within a century the Arab armies would erase two of those four players (Sasanian) and slowly digest the third (Sogdiana) on their way to Transoxiana."
+    },
+    {
+      "matchText": "Sui Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The Sui reunification of China (589) was a generation away — the dynasty whose successor, the Tang, would ultimately conquer the Türk Khaganate."
     }
   ],
   "5": [
@@ -97,6 +169,18 @@
       "targetTl": "tang-song-china",
       "targetChapter": 1,
       "blurb": "The Tang Dynasty founded in 618 with humiliating Türk help would become the dominant Eurasian power of the seventh and eighth centuries — the largest Chinese empire by territorial extent for the next thousand years, the most cosmopolitan capital city in the world at Chang'an, the patron of the An Shi mid-Tang cultural peak. Every Tang military and cultural success against the Türks across the next century was, in part, a deliberate effort to expunge the founding debt to Shibi's khaganate that nobody at court wanted to remember."
+    },
+    {
+      "matchText": "Muhammad's flight from Mecca to Medina",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Tang conquest of the Türks (630) is contemporary with the Hijra (622) and the early Islamic conquests — the Sasanian and Türk empires falling within a decade of each other to new powers rising east and west."
+    },
+    {
+      "matchText": "Sasanian Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Arab destruction of Sasanian Persia and the Tang destruction of the Türk Empire happened in the same span — two great pre-modern empires toppling within ten years."
     }
   ],
   "6": [
