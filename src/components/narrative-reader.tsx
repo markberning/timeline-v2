@@ -50,6 +50,10 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
   const [activeGlossary, setActiveGlossary] = useState<GlossaryEntry | null>(null)
   const [activeCrossLink, setActiveCrossLink] = useState<CrossLink | null>(null)
   const [openChapter, setOpenChapter] = useState<number | null>(null)
+  // Chapters whose summary is twirled open on the summary page. Lifted up
+  // here (not local to ChapterAccordion) so the swipe-back gesture can
+  // close them instead of navigating home.
+  const [openSummaries, setOpenSummaries] = useState<Set<number>>(() => new Set())
   const [savedProgress, setSavedProgress] = useState<ReadingProgress | null>(null)
   const [resumeDismissed, setResumeDismissed] = useState(false)
   const pendingScrollPct = useRef<number | null>(null)
@@ -64,6 +68,12 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
   useEffect(() => {
     localStorage.setItem('last-viewed-civ', civilizationId)
   }, [civilizationId])
+
+  // Opening a full chapter supersedes the summary view — drop any twirled
+  // summaries so swipe-back can't get out of sync.
+  useEffect(() => {
+    if (openChapter !== null) setOpenSummaries(s => (s.size ? new Set() : s))
+  }, [openChapter])
 
   // Load saved progress on mount + handle search highlight
   useEffect(() => {
@@ -321,7 +331,13 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     const dx = t.clientX - s.x
     const dy = t.clientY - s.y
     if (dx > 80 && Math.abs(dx) > Math.abs(dy) * 1.5) {
-      router.push('/')
+      // If any chapter summaries are twirled open, a swipe-back just closes
+      // them and stays on the summary page; otherwise it goes home.
+      if (openSummaries.size > 0) {
+        setOpenSummaries(new Set())
+      } else {
+        router.push('/')
+      }
     }
   }
 
@@ -375,6 +391,13 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               onExpand={() => setOpenChapter(ch.number)}
               onCollapse={() => setOpenChapter(null)}
               onReadNext={() => next && setOpenChapter(next.number)}
+              summaryOpen={openSummaries.has(ch.number)}
+              onToggleSummary={() => setOpenSummaries(prev => {
+                const n = new Set(prev)
+                if (n.has(ch.number)) n.delete(ch.number)
+                else n.add(ch.number)
+                return n
+              })}
               suppressScrollOnOpen={hasHighlight}
             />
           )

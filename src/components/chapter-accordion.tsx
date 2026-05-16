@@ -15,14 +15,15 @@ interface ChapterAccordionProps {
   onExpand: () => void
   onCollapse: () => void
   onReadNext: () => void
+  summaryOpen: boolean
+  onToggleSummary: () => void
   suppressScrollOnOpen?: boolean
 }
 
-export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, nextChapterTitle, onExpand, onCollapse, onReadNext, suppressScrollOnOpen }: ChapterAccordionProps) {
+export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, nextChapterTitle, onExpand, onCollapse, onReadNext, summaryOpen, onToggleSummary, suppressScrollOnOpen }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
-  const [summaryOpen, setSummaryOpen] = useState(false)
   const headerRef = useRef<HTMLDivElement>(null)
   const sectionRef = useRef<HTMLElement>(null)
   const mapRef = useRef<HTMLDivElement>(null)
@@ -79,7 +80,6 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   }
 
   function expand() {
-    setSummaryOpen(false)
     onExpand()
   }
 
@@ -126,7 +126,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     const moved = Math.abs(dx) > 10 || Math.abs(dy) > 10
     if (!moved) {
       if (open) collapse()
-      else setSummaryOpen(!summaryOpen)
+      else onToggleSummary()
       return
     }
     if (!open) return
