@@ -17,6 +17,30 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 10,
       "blurb": "Founded in Mongol Persia in 1259, the Maragha observatory was a state-funded, staffed, instrument-equipped research institution whose astronomers built the Tusi couple, the exact geometric device that reappears in Copernicus three centuries later. Whether the knowledge travelled or was reinvented is one of the live questions of this whole story."
+    },
+    {
+      "matchText": "Renaissance Italy",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 7,
+      "blurb": "The Scientific Revolution grew straight out of the late Renaissance — the same humanist recovery of ancient texts, now turned on nature instead of rhetoric."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Song China had movable type, gunpowder, the compass, advanced mathematics — and no Scientific Revolution. The puzzle of why Europe and not Song China runs through this whole story."
+    },
+    {
+      "matchText": "Ancient Greece",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "The world the revolution overthrew was Aristotle's — Greek natural philosophy, transmitted for two thousand years as settled authority."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Ptolemy's Roman-era astronomy was the system Copernicus dethroned — the cosmos as the classical world had left it."
     }
   ],
   "3": [
@@ -25,6 +49,18 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 3,
       "blurb": "The ninth-century Baghdad astronomer al-Battani measured the length of the year to within two minutes of the modern value. Copernicus cited him by name dozens of times, and Tycho Brahe used his observations as the baseline for his own — the line from al-Battani to the new astronomy is direct, not a European cold start."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 5,
+      "blurb": "Tycho's data-obsessed naked-eye astronomy was being matched, unconnected, by late-Ming and earlier Chinese and Timurid observatories — accurate observation was not uniquely European."
+    },
+    {
+      "matchText": "Timurid Empire",
+      "targetTl": "timurid-empire",
+      "targetChapter": 7,
+      "blurb": "Ulugh Beg's Samarkand observatory had produced star tables of Tycho-like precision two centuries earlier — the European breakthrough was what came after the data, not the data itself."
     }
   ],
   "5": [
@@ -33,6 +69,12 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
       "blurb": "Around 1011 in Cairo, Ibn al-Haytham wrote the Book of Optics, proving vision works by light entering the eye and pioneering controlled experiment to settle the question. The European route to the telescope, and to Kepler's and Newton's optics, ran through his work — the lens was standing on Cairo's shoulders."
+    },
+    {
+      "matchText": "Renaissance Italy",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Galileo worked inside the Italian city-state world the Renaissance built — Medici patronage and all, which is also what made his trial possible."
     }
   ],
   "7": [
@@ -65,6 +107,18 @@
       "targetTl": "ancient-greece",
       "targetChapter": 8,
       "blurb": "The Mouseion and Library of Alexandria, founded under the Ptolemies around 295 BCE, housed and funded scholars to pursue knowledge — in effect the world's first state-funded research institution. It is the deepest precedent for the scientific society, and also the thing the Royal Society differs from: Alexandria died with its dynasty; the Society was built to outlive any patron."
+    },
+    {
+      "matchText": "Ancient Greece",
+      "targetTl": "ancient-greece",
+      "targetChapter": 8,
+      "blurb": "The 'Republic of Letters' consciously revived the Hellenistic ideal of an international learned community — Alexandria's library reborn as a continent-wide correspondence network."
+    },
+    {
+      "matchText": "Renaissance Italy",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 2,
+      "blurb": "Its model was the humanist letter-network the Italian Renaissance had pioneered, now scaled up and turned to natural knowledge."
     }
   ],
   "20": [
@@ -73,6 +127,28 @@
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "The Song dynasty is the civilization economic historians return to as the closest pre-modern analog to an industrial society, and its own chapter runs the debate — incomplete markets, missing institutions, Mongol disruption, scholar-gentry priorities — over why it did not spark an industrial revolution six centuries before Britain. That is the Needham Question, argued from the other side."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The 'Why Europe?' question only sharpens against Song China: more advanced in 1100, it produced no Principia. The answer lies in institutions and competition, not raw cleverness."
+    }
+  ],
+  "12": [
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 9,
+      "blurb": "The mechanical, mathematized worldview built here is the direct intellectual ancestor of the Industrial Revolution's confidence that nature is an engine to be harnessed."
+    }
+  ],
+  "19": [
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 4,
+      "blurb": "What the revolution left out — and what it enabled — flows directly into the Enlightenment's project of applying the new method to society itself."
     }
   ]
 }
