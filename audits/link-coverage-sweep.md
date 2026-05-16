@@ -18,8 +18,11 @@ concepts, no cap) across **all 89 shipped civs**, chapter by chapter, using the
 6. **Commit per civ immediately**, file-scoped; `git pull --rebase` before push.
 
 ## Coordination (anti-clobber)
-- **Excluded (other instance):** mississippian-culture, early-american-republic,
-  antebellum-america, reconstruction, roaring-twenties, civil-rights-era. Do NOT touch.
+- **Excluded (other instance, IN PROGRESS):** the 5 newly-added Germanic civs
+  (tlIds TBD — confirm before touching anything Germanic/new). Do NOT touch until shipped.
+- **NOW IN SCOPE (shipped 2026-05-16 by other instance):** mississippian-culture,
+  early-american-republic, antebellum-america, reconstruction, roaring-twenties,
+  civil-rights-era — add to sweep queue (do when reaching the Americas/US chain).
 - Never stage `public/search-index.json` or `CLAUDE.md` (other instance owns).
 - Never `git add -A` / `commit -a` / `checkout`/`reset` the tree. Stage exact files only.
 - `content/<tlId>.json` is gitignored (build artifact) — never commit it.
@@ -54,7 +57,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | post-maurya-kingdoms | 8 | **DONE** | fdfefda |
 | gupta-empire | 8 | **DONE** (pre-existing malformed cross) | f03e13d |
 | medieval-india | 8 | **DONE** | c3b2810 |
-| delhi-sultanate | 8 | **DONE** | +this |
+| delhi-sultanate | 8 | **DONE** | 6bb8df5 |
+| mughal-empire | 9 | **DONE** | +this |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
 | _next: scientific-revolution (20ch), enlightenment (20ch), industrial-revolution (20ch)_ | | pending | |
@@ -87,3 +91,9 @@ _(table filled as the sweep proceeds; one row per civ)_
 > mongol-empire has many PRE-EXISTING malformed cross-link matchTexts
 > (full-sentence fragments that never match) — flagged for a future
 > cross-link-repair pass; not my regressions, left as-is.
+
+
+## Pending-sweep queue additions
+- US-history chain (now shipped, owe a sweep): mississippian-culture,
+  early-american-republic, antebellum-america, reconstruction, roaring-twenties,
+  civil-rights-era. PENDING SWEEP — newly shipped US civs.
