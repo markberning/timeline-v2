@@ -41,7 +41,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | ancient-greece | 8 | **DONE** (cross + Greek-vocab glossary) | 42c4be9 |
 | ancient-rome | 10 | **DONE** | 319c994 |
 | byzantine-empire | 12 | **DONE** | 4ccf60e |
-| early-medieval-europe | 8 | **DONE** (cross-civ + glossary) | +this |
+| early-medieval-europe | 8 | **DONE** | 8596786 |
+| high-medieval-europe | 8 | **DONE** (dense cross + glossary) | +this |
 | _Greco-Roman chain COMPLETE; next: roadmap order_ | | pending | |
 | _next: byzantine-empire, then roadmap order_ | | pending | |
 | _next: ancient-greece (Greco-Roman chain), then roadmap order_ | | pending | |

@@ -4,7 +4,7 @@
       "matchText": "Tale of Genji",
       "targetTl": "heian-japan",
       "targetChapter": 8,
-      "blurb": "While the rural aristocrats of northern France were largely illiterate and getting their letters dictated by clerks, the Heian court of early-eleventh-century Japan was producing The Tale of Genji \u2014 the world's first psychological novel, written by the woman court official Murasaki Shikibu around 1010. The same century in which European elites were just relearning Latin literacy was the high point of Heian Japanese vernacular literature, written and largely consumed by women of the imperial court."
+      "blurb": "While the rural aristocrats of northern France were largely illiterate and getting their letters dictated by clerks, the Heian court of early-eleventh-century Japan was producing The Tale of Genji — the world's first psychological novel, written by the woman court official Murasaki Shikibu around 1010. The same century in which European elites were just relearning Latin literacy was the high point of Heian Japanese vernacular literature, written and largely consumed by women of the imperial court."
     },
     {
       "matchText": "Norse settle Greenland",
@@ -16,13 +16,37 @@
       "matchText": "Cahokia",
       "targetTl": "mongol-empire",
       "targetChapter": 1,
-      "blurb": "While European cities were quietly doubling and the Mongol steppe was producing Genghis Khan's grandparents, the Mississippi-valley city of Cahokia was hitting its early-twelfth-century peak with perhaps 20,000 residents \u2014 the largest pre-Columbian city north of Mexico. The High Medieval cross-Eurasian convergence had a parallel in the pre-Columbian Americas that European chroniclers would not see for another four hundred years."
+      "blurb": "While European cities were quietly doubling and the Mongol steppe was producing Genghis Khan's grandparents, the Mississippi-valley city of Cahokia was hitting its early-twelfth-century peak with perhaps 20,000 residents — the largest pre-Columbian city north of Mexico. The High Medieval cross-Eurasian convergence had a parallel in the pre-Columbian Americas that European chroniclers would not see for another four hundred years."
     },
     {
       "matchText": "Postclassic Maya kingdoms",
       "targetTl": "maya-civilization",
       "targetChapter": 6,
-      "blurb": "While European cities were rebuilding, Postclassic Maya kingdoms in the Yucat\u00e1n under Chich\u00e9n Itz\u00e1 and later Mayap\u00e1n were continuing the long Maya cultural tradition that had survived the southern-lowland collapse of the eighth and ninth centuries. The Postclassic Maya world was contemporary with everything in this volume, and like medieval Europe was a constellation of city-states under shifting regional hegemonies."
+      "blurb": "While European cities were rebuilding, Postclassic Maya kingdoms in the Yucatán under Chichén Itzá and later Mayapán were continuing the long Maya cultural tradition that had survived the southern-lowland collapse of the eighth and ninth centuries. The Postclassic Maya world was contemporary with everything in this volume, and like medieval Europe was a constellation of city-states under shifting regional hegemonies."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 7,
+      "blurb": "The European take-off after 1000 begins where the Viking Age ends — the raids over, the north Christianized, the energy turning inward to land, plows, and population."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "Europe's medieval boom was real but provincial next to Song China — the wealthiest, most urban, most technologically advanced society on earth at exactly this moment."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "The Latin West rose in the shadow of a Byzantium still at its Macedonian height — the Greek empire the cultural and economic senior partner for now."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "While Europe took off, the Classic Maya were collapsing — opposite trajectories on opposite sides of an ocean neither knew the other crossed."
     }
   ],
   "2": [
@@ -36,7 +60,7 @@
       "matchText": "Hagia Sophia",
       "targetTl": "byzantine-empire",
       "targetChapter": 2,
-      "blurb": "The Hagia Sophia in Constantinople \u2014 Justinian's sixth-century cathedral, the largest interior space in Christendom for nearly a thousand years \u2014 was the building in which Cardinal Humbert laid the bull of excommunication on the altar in July 1054. The same building would be sacked by the Fourth Crusade in 1204, converted to a mosque after 1453, made a museum in 1934, and converted back to a mosque in 2020."
+      "blurb": "The Hagia Sophia in Constantinople — Justinian's sixth-century cathedral, the largest interior space in Christendom for nearly a thousand years — was the building in which Cardinal Humbert laid the bull of excommunication on the altar in July 1054. The same building would be sacked by the Fourth Crusade in 1204, converted to a mosque after 1453, made a museum in 1934, and converted back to a mosque in 2020."
     },
     {
       "matchText": "Eastern Orthodox Church",
@@ -48,13 +72,25 @@
       "matchText": "Cordoban caliphate",
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
-      "blurb": "The Cordoba of the tenth century had been the cultural capital of Islamic civilization in the West under the Umayyad caliphate of al-Andalus \u2014 a city with public lighting, paved streets, and the largest library in Europe. The 1031 collapse of the Cordoban caliphate fragmented al-Andalus into the small Taifa kingdoms that the Christian Reconquista would shortly start picking off."
+      "blurb": "The Cordoba of the tenth century had been the cultural capital of Islamic civilization in the West under the Umayyad caliphate of al-Andalus — a city with public lighting, paved streets, and the largest library in Europe. The 1031 collapse of the Cordoban caliphate fragmented al-Andalus into the small Taifa kingdoms that the Christian Reconquista would shortly start picking off."
     },
     {
       "matchText": "al-Andalus",
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
-      "blurb": "Al-Andalus \u2014 the Islamic civilization of the Iberian peninsula \u2014 had been politically fragmenting since the 1031 collapse of the Cordoban caliphate, and the Christian advance south from Toledo (1085) onward was rolling back centuries of Islamic urban civilization. The Toledo translation movement (Chapter 5) was the immediate cultural consequence: as Arabic libraries became Christian property, the entire eastern half of the Greek philosophical tradition was finally translated into Latin."
+      "blurb": "Al-Andalus — the Islamic civilization of the Iberian peninsula — had been politically fragmenting since the 1031 collapse of the Cordoban caliphate, and the Christian advance south from Toledo (1085) onward was rolling back centuries of Islamic urban civilization. The Toledo translation movement (Chapter 5) was the immediate cultural consequence: as Arabic libraries became Christian property, the entire eastern half of the Greek philosophical tradition was finally translated into Latin."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "The papal-imperial struggle had no Byzantine parallel — there church answered to emperor; the western separation of the two swords is the structural root of European political pluralism."
+    },
+    {
+      "matchText": "Medieval India",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "Contemporary India was a mosaic of regional kingdoms with no centralizing church-state contest — the European pope-vs-emperor fight was a peculiarly western institution."
     }
   ],
   "3": [
@@ -68,25 +104,31 @@
       "matchText": "Constantinople",
       "targetTl": "byzantine-empire",
       "targetChapter": 9,
-      "blurb": "The Byzantine perspective on the Fourth Crusade is covered in the Catastrophe of 1204 chapter \u2014 the city that had stood for over eight centuries against every Persian, Arab, Bulgarian, and Russian assault was sacked by Christian crusaders for three days in April 1204. The Byzantine empire fragmented into three Greek successor states (Nicaea, Trebizond, Epirus) and the Latin Empire of Constantinople; Michael VIII recovered the city in 1261, but the empire never recovered its former territory or strength."
+      "blurb": "The Byzantine perspective on the Fourth Crusade is covered in the Catastrophe of 1204 chapter — the city that had stood for over eight centuries against every Persian, Arab, Bulgarian, and Russian assault was sacked by Christian crusaders for three days in April 1204. The Byzantine empire fragmented into three Greek successor states (Nicaea, Trebizond, Epirus) and the Latin Empire of Constantinople; Michael VIII recovered the city in 1261, but the empire never recovered its former territory or strength."
     },
     {
       "matchText": "Saladin",
       "targetTl": "islamic-golden-age",
       "targetChapter": 9,
-      "blurb": "Saladin's recapture of Jerusalem in 1187 came from the Ayyubid sultanate that had unified Egypt and Syria after the Fatimid collapse \u2014 and that was simultaneously fighting the Seljuk eclipse on its eastern frontier. The Crusades from the Islamic side were one of several pressures on the late-Abbasid Islamic world, and the late-medieval Islamic strategic priority was always the Mongol threat from the east, not the Crusader threat from the west."
+      "blurb": "Saladin's recapture of Jerusalem in 1187 came from the Ayyubid sultanate that had unified Egypt and Syria after the Fatimid collapse — and that was simultaneously fighting the Seljuk eclipse on its eastern frontier. The Crusades from the Islamic side were one of several pressures on the late-Abbasid Islamic world, and the late-medieval Islamic strategic priority was always the Mongol threat from the east, not the Crusader threat from the west."
     },
     {
       "matchText": "Mamluks",
       "targetTl": "mongol-empire",
       "targetChapter": 5,
-      "blurb": "The Mamluk Sultanate of Egypt that took the last Crusader stronghold at Acre in 1291 was the same Mamluk Sultanate that had stopped the Mongol westward advance at Ayn Jalut in 1260 \u2014 the only major army to defeat the Mongols in a thirteenth-century field battle. The Mamluks ended both the Crusader presence in the Levant and the Mongol threat to Egypt within thirty years."
+      "blurb": "The Mamluk Sultanate of Egypt that took the last Crusader stronghold at Acre in 1291 was the same Mamluk Sultanate that had stopped the Mongol westward advance at Ayn Jalut in 1260 — the only major army to defeat the Mongols in a thirteenth-century field battle. The Mamluks ended both the Crusader presence in the Levant and the Mongol threat to Egypt within thirty years."
     },
     {
       "matchText": "Norman kingdom in Sicily",
       "targetTl": "viking-age",
       "targetChapter": 7,
-      "blurb": "The Normans who supplied Bohemond of Taranto and his Norman-Sicilian contingent to the First Crusade were the descendants of the Viking adventurers who had taken southern Italy and Sicily from the Byzantines and the Muslims through the eleventh century. The Norman afterlife of the Viking Age \u2014 Sicily, England, Antioch \u2014 runs through the Crusades as one of its central armed forces."
+      "blurb": "The Normans who supplied Bohemond of Taranto and his Norman-Sicilian contingent to the First Crusade were the descendants of the Viking adventurers who had taken southern Italy and Sicily from the Byzantines and the Muslims through the eleventh century. The Norman afterlife of the Viking Age — Sicily, England, Antioch — runs through the Crusades as one of its central armed forces."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "The Crusades that began as a Byzantine appeal for mercenaries ended, in 1204, with the Fourth Crusade sacking Constantinople itself — the rescue mission devoured its patron."
     }
   ],
   "4": [
@@ -94,31 +136,43 @@
       "matchText": "Indian Ocean trading system",
       "targetTl": "medieval-india",
       "targetChapter": 5,
-      "blurb": "The Indian Ocean commercial network that Italian merchants tapped into through the Mamluk-controlled Red Sea routes had as its eastern anchor the Chola maritime empire \u2014 the dominant naval power in the Bay of Bengal between 985 and 1120, with naval campaigns reaching Sumatra, Sri Lanka, and the Malay peninsula. The Italian commercial revolution was joining a much older Indian Ocean trading system, not inventing one."
+      "blurb": "The Indian Ocean commercial network that Italian merchants tapped into through the Mamluk-controlled Red Sea routes had as its eastern anchor the Chola maritime empire — the dominant naval power in the Bay of Bengal between 985 and 1120, with naval campaigns reaching Sumatra, Sri Lanka, and the Malay peninsula. The Italian commercial revolution was joining a much older Indian Ocean trading system, not inventing one."
     },
     {
       "matchText": "Yuan",
       "targetTl": "mongol-empire",
       "targetChapter": 8,
-      "blurb": "The Pax Mongolica of the late thirteenth and early fourteenth centuries \u2014 the security across the entire Eurasian land mass made possible by Mongol political unification \u2014 was what let Marco Polo travel from Venice to the Yuan court without serious obstruction. The same continental security that opened Asian trade to European merchants also moved the Black Death plague west out of central Asia by the same Mongol-protected trade corridors in the 1340s."
+      "blurb": "The Pax Mongolica of the late thirteenth and early fourteenth centuries — the security across the entire Eurasian land mass made possible by Mongol political unification — was what let Marco Polo travel from Venice to the Yuan court without serious obstruction. The same continental security that opened Asian trade to European merchants also moved the Black Death plague west out of central Asia by the same Mongol-protected trade corridors in the 1340s."
     },
     {
       "matchText": "jiaozi",
       "targetTl": "tang-song-china",
       "targetChapter": 6,
-      "blurb": "The Song dynasty's eleventh-century jiaozi notes were the first widely circulating government-issued paper currency in human history, anchoring an economy that ran on deep credit markets, large-scale state-guaranteed merchant guilds, and the most sophisticated commercial system in the world before the seventeenth century. Western Europe would not have widely circulating paper money until the eighteenth century \u2014 a measure of how far the Italian commercial revolution still had to go."
+      "blurb": "The Song dynasty's eleventh-century jiaozi notes were the first widely circulating government-issued paper currency in human history, anchoring an economy that ran on deep credit markets, large-scale state-guaranteed merchant guilds, and the most sophisticated commercial system in the world before the seventeenth century. Western Europe would not have widely circulating paper money until the eighteenth century — a measure of how far the Italian commercial revolution still had to go."
     },
     {
       "matchText": "Geniza documents",
       "targetTl": "islamic-golden-age",
       "targetChapter": 8,
-      "blurb": "The Cairo Geniza \u2014 the storage chamber of the Ben Ezra synagogue in old Cairo \u2014 accidentally preserved nine centuries of discarded Hebrew and Arabic documents, including thousands of eleventh- and twelfth-century commercial papers. The Geniza shows Jewish merchants conducting trade with India, Spain, Sicily, and Yemen using exactly the kind of credit instruments and partnership arrangements the Italians would adopt two centuries later."
+      "blurb": "The Cairo Geniza — the storage chamber of the Ben Ezra synagogue in old Cairo — accidentally preserved nine centuries of discarded Hebrew and Arabic documents, including thousands of eleventh- and twelfth-century commercial papers. The Geniza shows Jewish merchants conducting trade with India, Spain, Sicily, and Yemen using exactly the kind of credit instruments and partnership arrangements the Italians would adopt two centuries later."
     },
     {
       "matchText": "West African gold",
       "targetTl": "mali-empire",
       "targetChapter": 1,
-      "blurb": "While the Italian banking houses were perfecting the bill of exchange in the late thirteenth century, the western Sahel was producing the founding mansas of the Mali Empire \u2014 Sundiata's victory over Sumanguru of Sosso around 1235 established the Malian state that would eventually channel two-thirds of medieval Eurasian gold supply through Timbuktu. The Mediterranean trading economy the Italians were running ran on West African gold; Mali was its source."
+      "blurb": "While the Italian banking houses were perfecting the bill of exchange in the late thirteenth century, the western Sahel was producing the founding mansas of the Mali Empire — Sundiata's victory over Sumanguru of Sosso around 1235 established the Malian state that would eventually channel two-thirds of medieval Eurasian gold supply through Timbuktu. The Mediterranean trading economy the Italians were running ran on West African gold; Mali was its source."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Europe's commercial revolution — bills of exchange, banking, fairs — reinvented tools Song China already ran at far greater scale, including the world's first paper money."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "The same generation, the trans-Saharan gold of Mali was feeding the very bullion that made European high finance possible."
     }
   ],
   "5": [
@@ -138,25 +192,37 @@
       "matchText": "Almagest",
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
-      "blurb": "Ptolemy's second-century Almagest had been preserved through the early-medieval centuries by the Islamic translation movement at Baghdad and Cordoba \u2014 and the Latin version Gerard of Cremona produced at Toledo in the late twelfth century was translated from the Arabic, not from a surviving Greek manuscript. Most of the classical mathematics the Latin West recovered in the twelfth-century Renaissance arrived through this Arabic-to-Latin pipeline."
+      "blurb": "Ptolemy's second-century Almagest had been preserved through the early-medieval centuries by the Islamic translation movement at Baghdad and Cordoba — and the Latin version Gerard of Cremona produced at Toledo in the late twelfth century was translated from the Arabic, not from a surviving Greek manuscript. Most of the classical mathematics the Latin West recovered in the twelfth-century Renaissance arrived through this Arabic-to-Latin pipeline."
     },
     {
       "matchText": "Vedanta",
       "targetTl": "medieval-india",
       "targetChapter": 7,
-      "blurb": "While Aquinas was working on the Summa, the great Vedanta synthesizers of medieval India \u2014 Ramanuja in the early twelfth century, Madhva in the thirteenth \u2014 were building parallel philosophical systems around the Upanishads and the question of how revealed religious truth could be reconciled with rigorous reasoning. The Christian, Islamic, Jewish, and Vedantic synthesis projects of the High Middle Ages were four parallel responses to the same general intellectual problem."
+      "blurb": "While Aquinas was working on the Summa, the great Vedanta synthesizers of medieval India — Ramanuja in the early twelfth century, Madhva in the thirteenth — were building parallel philosophical systems around the Upanishads and the question of how revealed religious truth could be reconciled with rigorous reasoning. The Christian, Islamic, Jewish, and Vedantic synthesis projects of the High Middle Ages were four parallel responses to the same general intellectual problem."
     },
     {
       "matchText": "Zhu Xi",
       "targetTl": "tang-song-china",
       "targetChapter": 8,
-      "blurb": "Zhu Xi, the great Song dynasty Neo-Confucian philosopher who died within a century of Aquinas, attempted the same kind of project \u2014 systematizing a textual tradition into a coherent philosophical theology \u2014 in a culture that had no contact with Latin Europe. His reading of the Confucian classics became the official philosophical framework of Chinese imperial civilization for the next seven centuries; Aquinas's reading became Catholicism's official philosophy for the same general arc."
+      "blurb": "Zhu Xi, the great Song dynasty Neo-Confucian philosopher who died within a century of Aquinas, attempted the same kind of project — systematizing a textual tradition into a coherent philosophical theology — in a culture that had no contact with Latin Europe. His reading of the Confucian classics became the official philosophical framework of Chinese imperial civilization for the next seven centuries; Aquinas's reading became Catholicism's official philosophy for the same general arc."
     },
     {
       "matchText": "Eleanor of Aquitaine",
       "targetTl": "byzantine-empire",
       "targetChapter": 8,
-      "blurb": "Eleanor of Aquitaine personally accompanied her first husband Louis VII of France on the Second Crusade and met the Byzantine Emperor Manuel I Komnenos at Constantinople in 1147 \u2014 one of the cross-cultural encounters that fed the courtly love tradition the troubadours were already developing. Her literary patronage and her direct experience of Byzantine and Levantine court culture were two channels by which eastern themes entered European vernacular literature."
+      "blurb": "Eleanor of Aquitaine personally accompanied her first husband Louis VII of France on the Second Crusade and met the Byzantine Emperor Manuel I Komnenos at Constantinople in 1147 — one of the cross-cultural encounters that fed the courtly love tradition the troubadours were already developing. Her literary patronage and her direct experience of Byzantine and Levantine court culture were two channels by which eastern themes entered European vernacular literature."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "The Twelfth-Century Renaissance ran on recovered classical and Arabic learning — Roman law from Justinian's Byzantine codification, Aristotle via Toledo and Sicily."
+    },
+    {
+      "matchText": "Medieval India",
+      "targetTl": "medieval-india",
+      "targetChapter": 6,
+      "blurb": "India's own scholastic and temple-building golden age was unfolding in parallel, equally sophisticated and equally unaware of the Latin schools."
     }
   ],
   "6": [
@@ -164,31 +230,43 @@
       "matchText": "Brihadeeswarar at Thanjavur",
       "targetTl": "medieval-india",
       "targetChapter": 6,
-      "blurb": "The Brihadeeswarar temple at Thanjavur, completed by Rajaraja Chola in 1010, was one of the most ambitious stone structures in the world at its construction \u2014 a 216-foot tower over a 96-foot-square sanctum, carved from a single granite massif. The South Indian temple-cities of the Chola, Hoysala, and Vijayanagara periods produced figural-sculpture programs more visually elaborate than anything Gothic, but used continuous carved figuration where Gothic used skeletal stone-and-glass."
+      "blurb": "The Brihadeeswarar temple at Thanjavur, completed by Rajaraja Chola in 1010, was one of the most ambitious stone structures in the world at its construction — a 216-foot tower over a 96-foot-square sanctum, carved from a single granite massif. The South Indian temple-cities of the Chola, Hoysala, and Vijayanagara periods produced figural-sculpture programs more visually elaborate than anything Gothic, but used continuous carved figuration where Gothic used skeletal stone-and-glass."
     },
     {
       "matchText": "Yingxian wooden pagoda",
       "targetTl": "tang-song-china",
       "targetChapter": 6,
-      "blurb": "The Yingxian wooden pagoda of 1056 \u2014 220 feet tall, the oldest surviving wooden tower in the world \u2014 was being built in Liao-controlled northern China at exactly the moment the Romanesque cathedrals of western Europe were going up. Chinese sacred architecture used dougong bracket construction in timber to achieve heights and spans that Gothic stone construction matched only in the next century, with completely different structural logic."
+      "blurb": "The Yingxian wooden pagoda of 1056 — 220 feet tall, the oldest surviving wooden tower in the world — was being built in Liao-controlled northern China at exactly the moment the Romanesque cathedrals of western Europe were going up. Chinese sacred architecture used dougong bracket construction in timber to achieve heights and spans that Gothic stone construction matched only in the next century, with completely different structural logic."
     },
     {
       "matchText": "Postclassic",
       "targetTl": "maya-civilization",
       "targetChapter": 6,
-      "blurb": "The Postclassic Maya capitals at Chich\u00e9n Itz\u00e1 and later Mayap\u00e1n were operating in roughly the same period as the Gothic cathedral boom in northern Europe. Postclassic Maya monumental architecture continued the long Mesoamerican pyramid-and-plaza tradition, with elaborate stone carving and astronomical alignment but very different theological priorities than the Gothic cathedral's program."
+      "blurb": "The Postclassic Maya capitals at Chichén Itzá and later Mayapán were operating in roughly the same period as the Gothic cathedral boom in northern Europe. Postclassic Maya monumental architecture continued the long Mesoamerican pyramid-and-plaza tradition, with elaborate stone carving and astronomical alignment but very different theological priorities than the Gothic cathedral's program."
     },
     {
       "matchText": "Crown of Thorns",
       "targetTl": "byzantine-empire",
       "targetChapter": 9,
-      "blurb": "The Crown of Thorns Louis IX bought in 1238 to enshrine in Sainte-Chapelle came from the Latin Emperor Baldwin II of Constantinople, who had pawned it in Venice to cover his perpetually bankrupt regime. The relic trade between the post-1204 Latin Empire and the great churches of western Europe was one of the unintended commercial consequences of the Fourth Crusade \u2014 and explains why the great relic collections of medieval France are mostly material that crusaders looted from the Hagia Sophia in 1204."
+      "blurb": "The Crown of Thorns Louis IX bought in 1238 to enshrine in Sainte-Chapelle came from the Latin Emperor Baldwin II of Constantinople, who had pawned it in Venice to cover his perpetually bankrupt regime. The relic trade between the post-1204 Latin Empire and the great churches of western Europe was one of the unintended commercial consequences of the Fourth Crusade — and explains why the great relic collections of medieval France are mostly material that crusaders looted from the Hagia Sophia in 1204."
     },
     {
       "matchText": "Three Magi",
       "targetTl": "ancient-rome",
       "targetChapter": 9,
-      "blurb": "The relics of the Three Magi housed at Cologne Cathedral after 1164 \u2014 taken from Milan by Frederick Barbarossa's chancellor \u2014 were the most important pilgrimage relics in the Holy Roman Empire. The Magi tradition itself goes back to Constantine's mother Helena and the late-Roman cult of New Testament relics that the medieval Latin West inherited and elaborated."
+      "blurb": "The relics of the Three Magi housed at Cologne Cathedral after 1164 — taken from Milan by Frederick Barbarossa's chancellor — were the most important pilgrimage relics in the Holy Roman Empire. The Magi tradition itself goes back to Constantine's mother Helena and the late-Roman cult of New Testament relics that the medieval Latin West inherited and elaborated."
+    },
+    {
+      "matchText": "Medieval India",
+      "targetTl": "medieval-india",
+      "targetChapter": 6,
+      "blurb": "South India was raising its own colossal temple complexes in the same centuries as the Gothic cathedrals — two unconnected stone-and-faith building booms."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "Mesoamerica's monumental architecture continued in the Postclassic Maya world, a third independent tradition of sacred monumental building."
     }
   ],
   "7": [
@@ -196,37 +274,37 @@
       "matchText": "Averroes",
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
-      "blurb": "Averroes's Aristotelian commentaries became more influential in Christian Europe than they were in the Islamic world after his death \u2014 the so-called Latin Averroists at Paris pushed his readings of Aristotle into territory Aquinas wrote a treatise to refute. Aristotelian rationalism was the project the Islamic, Jewish, and Christian high-medieval theological synthesists were each building, and the medieval Mediterranean was the connected intellectual ecology in which they were reading each other."
+      "blurb": "Averroes's Aristotelian commentaries became more influential in Christian Europe than they were in the Islamic world after his death — the so-called Latin Averroists at Paris pushed his readings of Aristotle into territory Aquinas wrote a treatise to refute. Aristotelian rationalism was the project the Islamic, Jewish, and Christian high-medieval theological synthesists were each building, and the medieval Mediterranean was the connected intellectual ecology in which they were reading each other."
     },
     {
       "matchText": "Maimonides",
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
-      "blurb": "Maimonides's Guide for the Perplexed was composed in Arabic in Cairo around 1190, translated into Hebrew within decades, and translated into Latin shortly after \u2014 and Aquinas was reading it by the 1260s. The intellectual borders of medieval Latin Christendom, medieval Islamic civilization, and the medieval Jewish diaspora were porous in the High Middle Ages in a way later periods would not match."
+      "blurb": "Maimonides's Guide for the Perplexed was composed in Arabic in Cairo around 1190, translated into Hebrew within decades, and translated into Latin shortly after — and Aquinas was reading it by the 1260s. The intellectual borders of medieval Latin Christendom, medieval Islamic civilization, and the medieval Jewish diaspora were porous in the High Middle Ages in a way later periods would not match."
     },
     {
       "matchText": "Albertus Magnus",
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
-      "blurb": "Albertus Magnus \u2014 Aquinas's teacher at Paris and Cologne \u2014 was the first major Christian thinker to engage seriously with the recently translated Aristotle. His comprehensive commentaries on the entire Aristotelian corpus drew heavily on Avicenna's eleventh-century Islamic readings, demonstrating how directly the European recovery of Aristotle ran through the Islamic Golden Age's earlier commentary tradition."
+      "blurb": "Albertus Magnus — Aquinas's teacher at Paris and Cologne — was the first major Christian thinker to engage seriously with the recently translated Aristotle. His comprehensive commentaries on the entire Aristotelian corpus drew heavily on Avicenna's eleventh-century Islamic readings, demonstrating how directly the European recovery of Aristotle ran through the Islamic Golden Age's earlier commentary tradition."
     },
     {
       "matchText": "madrasas",
       "targetTl": "islamic-golden-age",
       "targetChapter": 5,
-      "blurb": "The Islamic madrasa system that the Seljuk wazir Nizam al-Mulk built across the Sunni world in the eleventh century \u2014 the Nizamiyya colleges of Baghdad, Nishapur, Damascus, and elsewhere \u2014 preceded the European medieval university by roughly a century and shared some structural similarities (state-protected residential learning institutions with formal credentialing). The European university was not derived from the madrasa, but the two were among several roughly contemporary inventions of formal credentialed learning institutions across the High Medieval world."
+      "blurb": "The Islamic madrasa system that the Seljuk wazir Nizam al-Mulk built across the Sunni world in the eleventh century — the Nizamiyya colleges of Baghdad, Nishapur, Damascus, and elsewhere — preceded the European medieval university by roughly a century and shared some structural similarities (state-protected residential learning institutions with formal credentialing). The European university was not derived from the madrasa, but the two were among several roughly contemporary inventions of formal credentialed learning institutions across the High Medieval world."
     },
     {
       "matchText": "Aristotle",
       "targetTl": "ancient-greece",
       "targetChapter": 8,
-      "blurb": "The Aristotle that the medieval universities were systematically integrating into Christian theology had been working in Athens twelve centuries earlier, in the Macedonian court of Philip II and the brief Athenian flourishing under Alexander the Great's tutor. The high-medieval scholastic Aristotle is heavily filtered through Late Antique commentators (Porphyry, Themistius), Islamic commentators (Avicenna, Averroes), and Latin translators \u2014 but the source text is the same one Aristotle's own students copied down at the Lyceum."
+      "blurb": "The Aristotle that the medieval universities were systematically integrating into Christian theology had been working in Athens twelve centuries earlier, in the Macedonian court of Philip II and the brief Athenian flourishing under Alexander the Great's tutor. The high-medieval scholastic Aristotle is heavily filtered through Late Antique commentators (Porphyry, Themistius), Islamic commentators (Avicenna, Averroes), and Latin translators — but the source text is the same one Aristotle's own students copied down at the Lyceum."
     },
     {
       "matchText": "Frederick II",
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
-      "blurb": "Frederick II Hohenstaufen \u2014 Holy Roman Emperor, contemporary king of Sicily, founder of the University of Naples in 1224 \u2014 was the most cosmopolitan European ruler of his generation, a personal patron of Arab and Jewish scholars at his Sicilian court and famously excommunicated four times for being insufficiently hostile to Islam. His Sicilian-Naples cultural milieu was one of the principal channels by which Islamic and Greek scholarship flowed into the Latin universities."
+      "blurb": "Frederick II Hohenstaufen — Holy Roman Emperor, contemporary king of Sicily, founder of the University of Naples in 1224 — was the most cosmopolitan European ruler of his generation, a personal patron of Arab and Jewish scholars at his Sicilian court and famously excommunicated four times for being insufficiently hostile to Islam. His Sicilian-Naples cultural milieu was one of the principal channels by which Islamic and Greek scholarship flowed into the Latin universities."
     }
   ],
   "8": [
@@ -234,31 +312,31 @@
       "matchText": "Innocent III",
       "targetTl": "byzantine-empire",
       "targetChapter": 9,
-      "blurb": "The same Pope Innocent III who summoned the Fourth Lateran Council in 1215 and brought King John to heel had explicitly forbidden the Fourth Crusade's attack on Christian Constantinople in 1204 \u2014 and had no power to stop it. The conditional approval he gave the Latin Empire after the fact was as far as the medieval papacy ever got toward institutionally healing the Greek-Catholic schism, which by 1215 was permanent in popular memory."
+      "blurb": "The same Pope Innocent III who summoned the Fourth Lateran Council in 1215 and brought King John to heel had explicitly forbidden the Fourth Crusade's attack on Christian Constantinople in 1204 — and had no power to stop it. The conditional approval he gave the Latin Empire after the fact was as far as the medieval papacy ever got toward institutionally healing the Greek-Catholic schism, which by 1215 was permanent in popular memory."
     },
     {
       "matchText": "Almohad",
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
-      "blurb": "The Almohad caliphate's Berber Islamic regime that was destroyed at Las Navas de Tolosa in 1212 had been the regime that drove Maimonides into exile from Cordoba (Chapter 5) and the regime that produced the great Andalusian philosopher Averroes (Chapter 5 and Chapter 7). The Almohad collapse opened Iberia to rapid Christian advance and dispersed the Andalusian Islamic intellectual tradition into Cairo, the Maghreb, and Christian Spain \u2014 where it continued feeding the European university curriculum for another century."
+      "blurb": "The Almohad caliphate's Berber Islamic regime that was destroyed at Las Navas de Tolosa in 1212 had been the regime that drove Maimonides into exile from Cordoba (Chapter 5) and the regime that produced the great Andalusian philosopher Averroes (Chapter 5 and Chapter 7). The Almohad collapse opened Iberia to rapid Christian advance and dispersed the Andalusian Islamic intellectual tradition into Cairo, the Maghreb, and Christian Spain — where it continued feeding the European university curriculum for another century."
     },
     {
       "matchText": "Reconquista",
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
-      "blurb": "The Reconquista's high-medieval phase \u2014 Toledo 1085, Las Navas 1212, C\u00f3rdoba 1236, Seville 1248 \u2014 was simultaneously a military conquest and the absorption of centuries of Islamic urban civilization. The Toledo translation movement of Chapter 5 was the most consequential single cultural consequence: as Arabic libraries became Christian property, the entire eastern half of the Greek philosophical tradition was finally translated into Latin and the European twelfth-century Renaissance became possible."
+      "blurb": "The Reconquista's high-medieval phase — Toledo 1085, Las Navas 1212, Córdoba 1236, Seville 1248 — was simultaneously a military conquest and the absorption of centuries of Islamic urban civilization. The Toledo translation movement of Chapter 5 was the most consequential single cultural consequence: as Arabic libraries became Christian property, the entire eastern half of the Greek philosophical tradition was finally translated into Latin and the European twelfth-century Renaissance became possible."
     },
     {
       "matchText": "Genghis Khan",
       "targetTl": "mongol-empire",
       "targetChapter": 2,
-      "blurb": "The Genghis Khan who unified the Mongol steppe in the early thirteenth century was the grandfather of the Batu Khan and the great-grandfather of the Kublai Khan and the H\u00fcleg\u00fc Khan whose campaigns shaped the second half of the High Medieval European century. The Mongol shock that reached Hungary and Poland in 1241 was one ripple from the steppe political revolution of 1206; the Mongol arrival is best understood from inside the Mongol expansion narrative."
+      "blurb": "The Genghis Khan who unified the Mongol steppe in the early thirteenth century was the grandfather of the Batu Khan and the great-grandfather of the Kublai Khan and the Hülegü Khan whose campaigns shaped the second half of the High Medieval European century. The Mongol shock that reached Hungary and Poland in 1241 was one ripple from the steppe political revolution of 1206; the Mongol arrival is best understood from inside the Mongol expansion narrative."
     },
     {
       "matchText": "Tatar Yoke",
       "targetTl": "mongol-empire",
       "targetChapter": 7,
-      "blurb": "The Mongol overlordship of Rus' that lasted nominally until 1480 was administered through the western khanate of the Mongol Empire \u2014 the Golden Horde, founded by Batu Khan after his return from the European campaign. The Tatar Yoke reoriented Russian politics decisively away from the Byzantine cultural sphere and into the eastern, steppe-oriented orbit, with consequences still visible in the political geography of 2026."
+      "blurb": "The Mongol overlordship of Rus' that lasted nominally until 1480 was administered through the western khanate of the Mongol Empire — the Golden Horde, founded by Batu Khan after his return from the European campaign. The Tatar Yoke reoriented Russian politics decisively away from the Byzantine cultural sphere and into the eastern, steppe-oriented orbit, with consequences still visible in the political geography of 2026."
     },
     {
       "matchText": "Kublai Khan",
@@ -270,25 +348,37 @@
       "matchText": "Mamluk Sultanate",
       "targetTl": "mongol-empire",
       "targetChapter": 5,
-      "blurb": "The Mamluks who stopped the Mongol westward advance at Ayn Jalut in September 1260 \u2014 the only major army to defeat the Mongols in a thirteenth-century field battle \u2014 were a slave-soldier regime that had taken Egypt from the Ayyubid dynasty just nine years earlier. Their victory saved Egypt and the surviving Crusader states for another generation and fixed the Mongol western frontier roughly along the Euphrates."
+      "blurb": "The Mamluks who stopped the Mongol westward advance at Ayn Jalut in September 1260 — the only major army to defeat the Mongols in a thirteenth-century field battle — were a slave-soldier regime that had taken Egypt from the Ayyubid dynasty just nine years earlier. Their victory saved Egypt and the surviving Crusader states for another generation and fixed the Mongol western frontier roughly along the Euphrates."
     },
     {
       "matchText": "Prester John",
       "targetTl": "kingdom-of-aksum",
       "targetChapter": 8,
-      "blurb": "The Prester John legend that obsessed thirteenth-century western European diplomats \u2014 the search for a powerful Christian king somewhere east or south of the Islamic world who could be persuaded to ally against the Mamluks \u2014 was vaguely groping toward the Christian Ethiopian state that had survived the Aksumite collapse and the Solomonic dynasty that came to power in 1270. Real Ethiopian-European diplomatic contact would not begin until the Portuguese embassy of 1493, but the Prester John myth that drew the Latin West toward Africa was a real European geopolitical theme of this period."
+      "blurb": "The Prester John legend that obsessed thirteenth-century western European diplomats — the search for a powerful Christian king somewhere east or south of the Islamic world who could be persuaded to ally against the Mamluks — was vaguely groping toward the Christian Ethiopian state that had survived the Aksumite collapse and the Solomonic dynasty that came to power in 1270. Real Ethiopian-European diplomatic contact would not begin until the Portuguese embassy of 1493, but the Prester John myth that drew the Latin West toward Africa was a real European geopolitical theme of this period."
     },
     {
       "matchText": "Persia",
       "targetTl": "safavid-persia",
       "targetChapter": 1,
-      "blurb": "The Mongol Ilkhanate that ruled Persia from the 1250s would convert to Islam in 1295 and dissolve into successor states in the 1330s \u2014 the political vacuum that gave the Safaviyya Sufi order at Ardabil room to grow into what would eventually become Safavid Persia. The structural conditions that produced sixteenth-century Iran were already being laid in the late thirteenth century by the Mongol arrival the Latin West had encountered and then ignored."
+      "blurb": "The Mongol Ilkhanate that ruled Persia from the 1250s would convert to Islam in 1295 and dissolve into successor states in the 1330s — the political vacuum that gave the Safaviyya Sufi order at Ardabil room to grow into what would eventually become Safavid Persia. The structural conditions that produced sixteenth-century Iran were already being laid in the late thirteenth century by the Mongol arrival the Latin West had encountered and then ignored."
     },
     {
       "matchText": "Polynesian voyaging",
       "targetTl": "polynesian-voyagers",
       "targetChapter": 6,
-      "blurb": "While the Mongols were storming Hungary and Aquinas was lecturing at Paris, Polynesian voyagers were completing the most extraordinary maritime expansion in human history \u2014 reaching Aotearoa (New Zealand) and Rapa Nui (Easter Island) in roughly the thirteenth or fourteenth centuries. The High Medieval European century was simultaneously the closing decades of the great Polynesian voyaging tradition at the opposite end of the world."
+      "blurb": "While the Mongols were storming Hungary and Aquinas was lecturing at Paris, Polynesian voyagers were completing the most extraordinary maritime expansion in human history — reaching Aotearoa (New Zealand) and Rapa Nui (Easter Island) in roughly the thirteenth or fourteenth centuries. The High Medieval European century was simultaneously the closing decades of the great Polynesian voyaging tradition at the opposite end of the world."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Just as Magna Carta and parliaments were inventing constraints on European kings, the Mongol shock smashed into Rus', Poland, and Hungary — the high medieval order meeting the steepest external test of the age."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Beyond Europe's horizon, Mali, Aksum's heirs, the Andes, and the Pacific were running parallel histories the medieval West never saw."
     }
   ]
 }

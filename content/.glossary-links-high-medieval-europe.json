@@ -1,223 +1,1386 @@
 {
   "1": [
-    { "term": "Medieval Warm Period", "matchText": "Medieval Warm Period", "wikiSlug": "Medieval_Warm_Period", "type": "concept" },
-    { "term": "Domesday Book", "matchText": "Domesday Book", "wikiSlug": "Domesday_Book", "type": "concept" },
-    { "term": "Heavy mouldboard plow", "matchText": "heavy mouldboard plow", "wikiSlug": "Plough", "type": "concept" },
-    { "term": "Three-field rotation", "matchText": "three-field crop rotation", "wikiSlug": "Three-field_system", "type": "concept" },
-    { "term": "Horse collar", "matchText": "rigid padded horse collar", "wikiSlug": "Horse_collar", "type": "concept" },
-    { "term": "Watermill", "matchText": "watermill", "wikiSlug": "Watermill", "type": "concept" },
-    { "term": "Post mill", "matchText": "post mill", "wikiSlug": "Post_mill", "type": "concept" },
-    { "term": "Little Ice Age", "matchText": "Little Ice Age", "wikiSlug": "Little_Ice_Age", "type": "concept" },
-    { "term": "Greenland Norse", "matchText": "Norse settle Greenland", "wikiSlug": "Norse_colonization_of_North_America", "type": "concept" },
-    { "term": "Cahokia", "matchText": "Cahokia", "wikiSlug": "Cahokia", "type": "place" },
-    { "term": "Tale of Genji", "matchText": "Tale of Genji", "wikiSlug": "The_Tale_of_Genji", "type": "concept" },
-    { "term": "Murasaki Shikibu", "matchText": "Murasaki Shikibu", "wikiSlug": "Murasaki_Shikibu", "type": "people" },
-    { "term": "Song dynasty", "matchText": "Song dynasty", "wikiSlug": "Song_dynasty", "type": "concept" },
-    { "term": "Heian period", "matchText": "Heian court", "wikiSlug": "Heian_period", "type": "concept" },
-    { "term": "Avicenna", "matchText": "Avicenna", "wikiSlug": "Avicenna", "type": "people" },
-    { "term": "Feudalism", "matchText": "feudalism", "wikiSlug": "Feudalism", "type": "concept" },
-    { "term": "Manor", "matchText": "manor", "wikiSlug": "Manorialism", "type": "concept" },
-    { "term": "Serf", "matchText": "serf", "wikiSlug": "Serfdom", "type": "concept" },
-    { "term": "Ostsiedlung", "matchText": "Ostsiedlung", "wikiSlug": "Ostsiedlung", "type": "concept" },
-    { "term": "Medieval commune", "matchText": "commune", "wikiSlug": "Medieval_commune", "type": "concept" },
-    { "term": "William the Conqueror", "matchText": "William the Conqueror", "wikiSlug": "William_the_Conqueror", "type": "people" },
-    { "term": "Cassiodorus", "matchText": "Cassiodorus", "wikiSlug": "Cassiodorus", "type": "people" }
+    {
+      "term": "Medieval Warm Period",
+      "matchText": "Medieval Warm Period",
+      "wikiSlug": "Medieval_Warm_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Domesday Book",
+      "matchText": "Domesday Book",
+      "wikiSlug": "Domesday_Book",
+      "type": "concept"
+    },
+    {
+      "term": "Heavy mouldboard plow",
+      "matchText": "heavy mouldboard plow",
+      "wikiSlug": "Plough",
+      "type": "concept"
+    },
+    {
+      "term": "Three-field rotation",
+      "matchText": "three-field crop rotation",
+      "wikiSlug": "Three-field_system",
+      "type": "concept"
+    },
+    {
+      "term": "Horse collar",
+      "matchText": "rigid padded horse collar",
+      "wikiSlug": "Horse_collar",
+      "type": "concept"
+    },
+    {
+      "term": "Watermill",
+      "matchText": "watermill",
+      "wikiSlug": "Watermill",
+      "type": "concept"
+    },
+    {
+      "term": "Post mill",
+      "matchText": "post mill",
+      "wikiSlug": "Post_mill",
+      "type": "concept"
+    },
+    {
+      "term": "Little Ice Age",
+      "matchText": "Little Ice Age",
+      "wikiSlug": "Little_Ice_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Greenland Norse",
+      "matchText": "Norse settle Greenland",
+      "wikiSlug": "Norse_colonization_of_North_America",
+      "type": "concept"
+    },
+    {
+      "term": "Cahokia",
+      "matchText": "Cahokia",
+      "wikiSlug": "Cahokia",
+      "type": "place"
+    },
+    {
+      "term": "Tale of Genji",
+      "matchText": "Tale of Genji",
+      "wikiSlug": "The_Tale_of_Genji",
+      "type": "concept"
+    },
+    {
+      "term": "Murasaki Shikibu",
+      "matchText": "Murasaki Shikibu",
+      "wikiSlug": "Murasaki_Shikibu",
+      "type": "people"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song dynasty",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Heian period",
+      "matchText": "Heian court",
+      "wikiSlug": "Heian_period",
+      "type": "concept"
+    },
+    {
+      "term": "Avicenna",
+      "matchText": "Avicenna",
+      "wikiSlug": "Avicenna",
+      "type": "people"
+    },
+    {
+      "term": "Feudalism",
+      "matchText": "feudalism",
+      "wikiSlug": "Feudalism",
+      "type": "concept"
+    },
+    {
+      "term": "Manor",
+      "matchText": "manor",
+      "wikiSlug": "Manorialism",
+      "type": "concept"
+    },
+    {
+      "term": "Serf",
+      "matchText": "serf",
+      "wikiSlug": "Serfdom",
+      "type": "concept"
+    },
+    {
+      "term": "Ostsiedlung",
+      "matchText": "Ostsiedlung",
+      "wikiSlug": "Ostsiedlung",
+      "type": "concept"
+    },
+    {
+      "term": "Medieval commune",
+      "matchText": "commune",
+      "wikiSlug": "Medieval_commune",
+      "type": "concept"
+    },
+    {
+      "term": "William the Conqueror",
+      "matchText": "William the Conqueror",
+      "wikiSlug": "William_the_Conqueror",
+      "type": "people"
+    },
+    {
+      "term": "Cassiodorus",
+      "matchText": "Cassiodorus",
+      "wikiSlug": "Cassiodorus",
+      "type": "people"
+    },
+    {
+      "term": "Horse collar",
+      "matchText": "rigid horse collar",
+      "wikiSlug": "Horse_collar",
+      "type": "concept"
+    }
   ],
   "2": [
-    { "term": "Cluny", "matchText": "Cluny", "wikiSlug": "Cluny_Abbey", "type": "place" },
-    { "term": "Cluniac reform", "matchText": "Cluniac model", "wikiSlug": "Cluniac_Reforms", "type": "concept" },
-    { "term": "Investiture Controversy", "matchText": "Investiture Controversy", "wikiSlug": "Investiture_Controversy", "type": "concept" },
-    { "term": "Pope Gregory VII", "matchText": "Gregory VII", "wikiSlug": "Pope_Gregory_VII", "type": "people" },
-    { "term": "Henry IV", "matchText": "Henry IV", "wikiSlug": "Henry_IV,_Holy_Roman_Emperor", "type": "people" },
-    { "term": "Canossa", "matchText": "Canossa", "wikiSlug": "Walk_to_Canossa", "type": "place" },
-    { "term": "Concordat of Worms", "matchText": "Concordat of Worms", "wikiSlug": "Concordat_of_Worms", "type": "concept" },
-    { "term": "Dictatus Papae", "matchText": "Dictatus Papae", "wikiSlug": "Dictatus_papae", "type": "concept" },
-    { "term": "Simony", "matchText": "simony", "wikiSlug": "Simony", "type": "concept" },
-    { "term": "Clerical celibacy", "matchText": "clerical celibacy", "wikiSlug": "Clerical_celibacy", "type": "concept" },
-    { "term": "College of Cardinals", "matchText": "College of Cardinals", "wikiSlug": "College_of_Cardinals", "type": "concept" },
-    { "term": "Pope Leo IX", "matchText": "Pope Leo IX", "wikiSlug": "Pope_Leo_IX", "type": "people" },
-    { "term": "Pope Nicholas II", "matchText": "Pope Nicholas II", "wikiSlug": "Pope_Nicholas_II", "type": "people" },
-    { "term": "Hildebrand of Sovana", "matchText": "Hildebrand of Sovana", "wikiSlug": "Pope_Gregory_VII", "type": "people" },
-    { "term": "Holy Roman Emperor", "matchText": "Holy Roman Emperor", "wikiSlug": "Holy_Roman_Empire", "type": "concept" },
-    { "term": "Matilda of Tuscany", "matchText": "Countess Matilda of Tuscany", "wikiSlug": "Matilda_of_Tuscany", "type": "people" },
-    { "term": "Excommunication", "matchText": "excommunicated", "wikiSlug": "Excommunication", "type": "concept" },
-    { "term": "Antipope", "matchText": "antipope", "wikiSlug": "Antipope", "type": "concept" },
-    { "term": "Canon law", "matchText": "canon law", "wikiSlug": "Canon_law_of_the_Catholic_Church", "type": "concept" },
-    { "term": "Eastern Orthodox Church", "matchText": "Eastern Orthodox Church", "wikiSlug": "Eastern_Orthodox_Church", "type": "concept" },
-    { "term": "Roman Catholic Church", "matchText": "Roman Catholic Church", "wikiSlug": "Catholic_Church", "type": "concept" },
-    { "term": "Hagia Sophia", "matchText": "Hagia Sophia", "wikiSlug": "Hagia_Sophia", "type": "place" },
-    { "term": "Filioque", "matchText": "filioque", "wikiSlug": "Filioque", "type": "concept" },
-    { "term": "Battle of Manzikert", "matchText": "Manzikert", "wikiSlug": "Battle_of_Manzikert", "type": "concept" }
+    {
+      "term": "Cluny",
+      "matchText": "Cluny",
+      "wikiSlug": "Cluny_Abbey",
+      "type": "place"
+    },
+    {
+      "term": "Cluniac reform",
+      "matchText": "Cluniac model",
+      "wikiSlug": "Cluniac_Reforms",
+      "type": "concept"
+    },
+    {
+      "term": "Investiture Controversy",
+      "matchText": "Investiture Controversy",
+      "wikiSlug": "Investiture_Controversy",
+      "type": "concept"
+    },
+    {
+      "term": "Pope Gregory VII",
+      "matchText": "Gregory VII",
+      "wikiSlug": "Pope_Gregory_VII",
+      "type": "people"
+    },
+    {
+      "term": "Henry IV",
+      "matchText": "Henry IV",
+      "wikiSlug": "Henry_IV,_Holy_Roman_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Canossa",
+      "matchText": "Canossa",
+      "wikiSlug": "Walk_to_Canossa",
+      "type": "place"
+    },
+    {
+      "term": "Concordat of Worms",
+      "matchText": "Concordat of Worms",
+      "wikiSlug": "Concordat_of_Worms",
+      "type": "concept"
+    },
+    {
+      "term": "Dictatus Papae",
+      "matchText": "Dictatus Papae",
+      "wikiSlug": "Dictatus_papae",
+      "type": "concept"
+    },
+    {
+      "term": "Simony",
+      "matchText": "simony",
+      "wikiSlug": "Simony",
+      "type": "concept"
+    },
+    {
+      "term": "Clerical celibacy",
+      "matchText": "clerical celibacy",
+      "wikiSlug": "Clerical_celibacy",
+      "type": "concept"
+    },
+    {
+      "term": "College of Cardinals",
+      "matchText": "College of Cardinals",
+      "wikiSlug": "College_of_Cardinals",
+      "type": "concept"
+    },
+    {
+      "term": "Pope Leo IX",
+      "matchText": "Pope Leo IX",
+      "wikiSlug": "Pope_Leo_IX",
+      "type": "people"
+    },
+    {
+      "term": "Pope Nicholas II",
+      "matchText": "Pope Nicholas II",
+      "wikiSlug": "Pope_Nicholas_II",
+      "type": "people"
+    },
+    {
+      "term": "Hildebrand of Sovana",
+      "matchText": "Hildebrand of Sovana",
+      "wikiSlug": "Pope_Gregory_VII",
+      "type": "people"
+    },
+    {
+      "term": "Holy Roman Emperor",
+      "matchText": "Holy Roman Emperor",
+      "wikiSlug": "Holy_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Matilda of Tuscany",
+      "matchText": "Countess Matilda of Tuscany",
+      "wikiSlug": "Matilda_of_Tuscany",
+      "type": "people"
+    },
+    {
+      "term": "Excommunication",
+      "matchText": "excommunicated",
+      "wikiSlug": "Excommunication",
+      "type": "concept"
+    },
+    {
+      "term": "Antipope",
+      "matchText": "antipope",
+      "wikiSlug": "Antipope",
+      "type": "concept"
+    },
+    {
+      "term": "Canon law",
+      "matchText": "canon law",
+      "wikiSlug": "Canon_law_of_the_Catholic_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Eastern Orthodox Church",
+      "matchText": "Eastern Orthodox Church",
+      "wikiSlug": "Eastern_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Roman Catholic Church",
+      "matchText": "Roman Catholic Church",
+      "wikiSlug": "Catholic_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "place"
+    },
+    {
+      "term": "Filioque",
+      "matchText": "filioque",
+      "wikiSlug": "Filioque",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Manzikert",
+      "matchText": "Manzikert",
+      "wikiSlug": "Battle_of_Manzikert",
+      "type": "concept"
+    },
+    {
+      "term": "Seljuk Empire",
+      "matchText": "Seljuk Turks",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Pope Innocent III",
+      "matchText": "Innocent III",
+      "wikiSlug": "Pope_Innocent_III",
+      "type": "people"
+    }
   ],
   "3": [
-    { "term": "Council of Clermont", "matchText": "Clermont", "wikiSlug": "Council_of_Clermont", "type": "place" },
-    { "term": "Pope Urban II", "matchText": "Pope Urban II", "wikiSlug": "Pope_Urban_II", "type": "people" },
-    { "term": "Deus vult", "matchText": "Deus vult", "wikiSlug": "Deus_vult", "type": "concept" },
-    { "term": "Peter the Hermit", "matchText": "Peter the Hermit", "wikiSlug": "Peter_the_Hermit", "type": "people" },
-    { "term": "Walter Sans Avoir", "matchText": "Walter Sans Avoir", "wikiSlug": "Walter_Sans_Avoir", "type": "people" },
-    { "term": "Godfrey of Bouillon", "matchText": "Godfrey of Bouillon", "wikiSlug": "Godfrey_of_Bouillon", "type": "people" },
-    { "term": "Bohemond of Taranto", "matchText": "Bohemond of Taranto", "wikiSlug": "Bohemond_I_of_Antioch", "type": "people" },
-    { "term": "Alexios I Komnenos", "matchText": "Alexios I Komnenos", "wikiSlug": "Alexios_I_Komnenos", "type": "people" },
-    { "term": "Antioch", "matchText": "Antioch", "wikiSlug": "Antioch", "type": "place" },
-    { "term": "Saladin", "matchText": "Saladin", "wikiSlug": "Saladin", "type": "people" },
-    { "term": "Ayyubid dynasty", "matchText": "Ayyubid", "wikiSlug": "Ayyubid_dynasty", "type": "concept" },
-    { "term": "Battle of Hattin", "matchText": "Horns of Hattin", "wikiSlug": "Battle_of_Hattin", "type": "concept" },
-    { "term": "Richard the Lionheart", "matchText": "Richard the Lionheart", "wikiSlug": "Richard_I_of_England", "type": "people" },
-    { "term": "Frederick Barbarossa", "matchText": "Frederick Barbarossa", "wikiSlug": "Frederick_Barbarossa", "type": "people" },
-    { "term": "Battle of Arsuf", "matchText": "Battle of Arsuf", "wikiSlug": "Battle_of_Arsuf", "type": "concept" },
-    { "term": "Mamluk Sultanate", "matchText": "Mamluks", "wikiSlug": "Mamluk_Sultanate", "type": "concept" },
-    { "term": "Acre", "matchText": "Acre", "wikiSlug": "Acre,_Israel", "type": "place" },
-    { "term": "Outremer", "matchText": "Outremer", "wikiSlug": "Outremer", "type": "concept" },
-    { "term": "Doge of Venice", "matchText": "Doge of Venice", "wikiSlug": "Doge_of_Venice", "type": "concept" },
-    { "term": "Enrico Dandolo", "matchText": "Enrico Dandolo", "wikiSlug": "Enrico_Dandolo", "type": "people" },
-    { "term": "Latin Empire", "matchText": "Latin Empire of Constantinople", "wikiSlug": "Latin_Empire", "type": "concept" },
-    { "term": "Albigensian Crusade", "matchText": "Albigensian Crusade", "wikiSlug": "Albigensian_Crusade", "type": "concept" },
-    { "term": "Cathars", "matchText": "Cathars", "wikiSlug": "Catharism", "type": "concept" },
-    { "term": "Ibn al-Athir", "matchText": "Ibn al-Athir", "wikiSlug": "Ali_ibn_al-Athir", "type": "people" }
+    {
+      "term": "Council of Clermont",
+      "matchText": "Clermont",
+      "wikiSlug": "Council_of_Clermont",
+      "type": "place"
+    },
+    {
+      "term": "Pope Urban II",
+      "matchText": "Pope Urban II",
+      "wikiSlug": "Pope_Urban_II",
+      "type": "people"
+    },
+    {
+      "term": "Deus vult",
+      "matchText": "Deus vult",
+      "wikiSlug": "Deus_vult",
+      "type": "concept"
+    },
+    {
+      "term": "Peter the Hermit",
+      "matchText": "Peter the Hermit",
+      "wikiSlug": "Peter_the_Hermit",
+      "type": "people"
+    },
+    {
+      "term": "Walter Sans Avoir",
+      "matchText": "Walter Sans Avoir",
+      "wikiSlug": "Walter_Sans_Avoir",
+      "type": "people"
+    },
+    {
+      "term": "Godfrey of Bouillon",
+      "matchText": "Godfrey of Bouillon",
+      "wikiSlug": "Godfrey_of_Bouillon",
+      "type": "people"
+    },
+    {
+      "term": "Bohemond of Taranto",
+      "matchText": "Bohemond of Taranto",
+      "wikiSlug": "Bohemond_I_of_Antioch",
+      "type": "people"
+    },
+    {
+      "term": "Alexios I Komnenos",
+      "matchText": "Alexios I Komnenos",
+      "wikiSlug": "Alexios_I_Komnenos",
+      "type": "people"
+    },
+    {
+      "term": "Antioch",
+      "matchText": "Antioch",
+      "wikiSlug": "Antioch",
+      "type": "place"
+    },
+    {
+      "term": "Saladin",
+      "matchText": "Saladin",
+      "wikiSlug": "Saladin",
+      "type": "people"
+    },
+    {
+      "term": "Ayyubid dynasty",
+      "matchText": "Ayyubid",
+      "wikiSlug": "Ayyubid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Hattin",
+      "matchText": "Horns of Hattin",
+      "wikiSlug": "Battle_of_Hattin",
+      "type": "concept"
+    },
+    {
+      "term": "Richard the Lionheart",
+      "matchText": "Richard the Lionheart",
+      "wikiSlug": "Richard_I_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Frederick Barbarossa",
+      "matchText": "Frederick Barbarossa",
+      "wikiSlug": "Frederick_Barbarossa",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Arsuf",
+      "matchText": "Battle of Arsuf",
+      "wikiSlug": "Battle_of_Arsuf",
+      "type": "concept"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluks",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Acre",
+      "matchText": "Acre",
+      "wikiSlug": "Acre,_Israel",
+      "type": "place"
+    },
+    {
+      "term": "Outremer",
+      "matchText": "Outremer",
+      "wikiSlug": "Outremer",
+      "type": "concept"
+    },
+    {
+      "term": "Doge of Venice",
+      "matchText": "Doge of Venice",
+      "wikiSlug": "Doge_of_Venice",
+      "type": "concept"
+    },
+    {
+      "term": "Enrico Dandolo",
+      "matchText": "Enrico Dandolo",
+      "wikiSlug": "Enrico_Dandolo",
+      "type": "people"
+    },
+    {
+      "term": "Latin Empire",
+      "matchText": "Latin Empire of Constantinople",
+      "wikiSlug": "Latin_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Albigensian Crusade",
+      "matchText": "Albigensian Crusade",
+      "wikiSlug": "Albigensian_Crusade",
+      "type": "concept"
+    },
+    {
+      "term": "Cathars",
+      "matchText": "Cathars",
+      "wikiSlug": "Catharism",
+      "type": "concept"
+    },
+    {
+      "term": "Ibn al-Athir",
+      "matchText": "Ibn al-Athir",
+      "wikiSlug": "Ali_ibn_al-Athir",
+      "type": "people"
+    },
+    {
+      "term": "Kingdom of Jerusalem",
+      "matchText": "Kingdom of Jerusalem",
+      "wikiSlug": "Kingdom_of_Jerusalem",
+      "type": "concept"
+    },
+    {
+      "term": "County of Edessa",
+      "matchText": "County of Edessa",
+      "wikiSlug": "County_of_Edessa",
+      "type": "concept"
+    },
+    {
+      "term": "Bernard of Clairvaux",
+      "matchText": "Bernard of Clairvaux",
+      "wikiSlug": "Bernard_of_Clairvaux",
+      "type": "people"
+    },
+    {
+      "term": "Philip II of France",
+      "matchText": "Philip II Augustus",
+      "wikiSlug": "Philip_II_of_France",
+      "type": "people"
+    }
   ],
   "4": [
-    { "term": "Champagne fairs", "matchText": "Champagne fairs", "wikiSlug": "Champagne_fairs", "type": "concept" },
-    { "term": "Hanseatic League", "matchText": "Hanseatic League", "wikiSlug": "Hanseatic_League", "type": "concept" },
-    { "term": "Lübeck", "matchText": "Lübeck", "wikiSlug": "L%C3%BCbeck", "type": "place" },
-    { "term": "Bruges", "matchText": "Bruges", "wikiSlug": "Bruges", "type": "place" },
-    { "term": "Novgorod", "matchText": "Novgorod", "wikiSlug": "Veliky_Novgorod", "type": "place" },
-    { "term": "Bardi family", "matchText": "Bardi", "wikiSlug": "Bardi_family", "type": "concept" },
-    { "term": "Peruzzi family", "matchText": "Peruzzi", "wikiSlug": "Peruzzi", "type": "concept" },
-    { "term": "Medici family", "matchText": "Medici", "wikiSlug": "House_of_Medici", "type": "concept" },
-    { "term": "Bill of exchange", "matchText": "bill of exchange", "wikiSlug": "Bill_of_exchange", "type": "concept" },
-    { "term": "Double-entry bookkeeping", "matchText": "double-entry bookkeeping", "wikiSlug": "Double-entry_bookkeeping", "type": "concept" },
-    { "term": "Luca Pacioli", "matchText": "Luca Pacioli", "wikiSlug": "Luca_Pacioli", "type": "people" },
-    { "term": "Florin", "matchText": "florins", "wikiSlug": "Florin", "type": "concept" },
-    { "term": "Usury", "matchText": "usury", "wikiSlug": "Usury", "type": "concept" },
-    { "term": "Lex mercatoria", "matchText": "lex mercatoria", "wikiSlug": "Lex_mercatoria", "type": "concept" },
-    { "term": "Commenda", "matchText": "commenda", "wikiSlug": "Commenda", "type": "concept" },
-    { "term": "Suftaja", "matchText": "suftaja", "wikiSlug": "Suftaja", "type": "concept" },
-    { "term": "Hawala", "matchText": "hawala", "wikiSlug": "Hawala", "type": "concept" },
-    { "term": "Cairo Geniza", "matchText": "Geniza documents", "wikiSlug": "Cairo_Geniza", "type": "concept" },
-    { "term": "Knights Templar", "matchText": "Knights Templar", "wikiSlug": "Knights_Templar", "type": "concept" },
-    { "term": "Hugues de Payens", "matchText": "Hugues de Payens", "wikiSlug": "Hugues_de_Payens", "type": "people" },
-    { "term": "Jacques de Molay", "matchText": "Jacques de Molay", "wikiSlug": "Jacques_de_Molay", "type": "people" },
-    { "term": "Knights Hospitaller", "matchText": "Knights Hospitaller", "wikiSlug": "Knights_Hospitaller", "type": "concept" },
-    { "term": "Jiaozi", "matchText": "jiaozi", "wikiSlug": "Jiaozi_(currency)", "type": "concept" },
-    { "term": "Bourgeoisie", "matchText": "bourgeoisie", "wikiSlug": "Bourgeoisie", "type": "concept" }
+    {
+      "term": "Champagne fairs",
+      "matchText": "Champagne fairs",
+      "wikiSlug": "Champagne_fairs",
+      "type": "concept"
+    },
+    {
+      "term": "Hanseatic League",
+      "matchText": "Hanseatic League",
+      "wikiSlug": "Hanseatic_League",
+      "type": "concept"
+    },
+    {
+      "term": "Lübeck",
+      "matchText": "Lübeck",
+      "wikiSlug": "L%C3%BCbeck",
+      "type": "place"
+    },
+    {
+      "term": "Bruges",
+      "matchText": "Bruges",
+      "wikiSlug": "Bruges",
+      "type": "place"
+    },
+    {
+      "term": "Novgorod",
+      "matchText": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod",
+      "type": "place"
+    },
+    {
+      "term": "Bardi family",
+      "matchText": "Bardi",
+      "wikiSlug": "Bardi_family",
+      "type": "concept"
+    },
+    {
+      "term": "Peruzzi family",
+      "matchText": "Peruzzi",
+      "wikiSlug": "Peruzzi",
+      "type": "concept"
+    },
+    {
+      "term": "Medici family",
+      "matchText": "Medici",
+      "wikiSlug": "House_of_Medici",
+      "type": "concept"
+    },
+    {
+      "term": "Bill of exchange",
+      "matchText": "bill of exchange",
+      "wikiSlug": "Bill_of_exchange",
+      "type": "concept"
+    },
+    {
+      "term": "Double-entry bookkeeping",
+      "matchText": "double-entry bookkeeping",
+      "wikiSlug": "Double-entry_bookkeeping",
+      "type": "concept"
+    },
+    {
+      "term": "Luca Pacioli",
+      "matchText": "Luca Pacioli",
+      "wikiSlug": "Luca_Pacioli",
+      "type": "people"
+    },
+    {
+      "term": "Florin",
+      "matchText": "florins",
+      "wikiSlug": "Florin",
+      "type": "concept"
+    },
+    {
+      "term": "Usury",
+      "matchText": "usury",
+      "wikiSlug": "Usury",
+      "type": "concept"
+    },
+    {
+      "term": "Lex mercatoria",
+      "matchText": "lex mercatoria",
+      "wikiSlug": "Lex_mercatoria",
+      "type": "concept"
+    },
+    {
+      "term": "Commenda",
+      "matchText": "commenda",
+      "wikiSlug": "Commenda",
+      "type": "concept"
+    },
+    {
+      "term": "Suftaja",
+      "matchText": "suftaja",
+      "wikiSlug": "Suftaja",
+      "type": "concept"
+    },
+    {
+      "term": "Hawala",
+      "matchText": "hawala",
+      "wikiSlug": "Hawala",
+      "type": "concept"
+    },
+    {
+      "term": "Cairo Geniza",
+      "matchText": "Geniza documents",
+      "wikiSlug": "Cairo_Geniza",
+      "type": "concept"
+    },
+    {
+      "term": "Knights Templar",
+      "matchText": "Knights Templar",
+      "wikiSlug": "Knights_Templar",
+      "type": "concept"
+    },
+    {
+      "term": "Hugues de Payens",
+      "matchText": "Hugues de Payens",
+      "wikiSlug": "Hugues_de_Payens",
+      "type": "people"
+    },
+    {
+      "term": "Jacques de Molay",
+      "matchText": "Jacques de Molay",
+      "wikiSlug": "Jacques_de_Molay",
+      "type": "people"
+    },
+    {
+      "term": "Knights Hospitaller",
+      "matchText": "Knights Hospitaller",
+      "wikiSlug": "Knights_Hospitaller",
+      "type": "concept"
+    },
+    {
+      "term": "Jiaozi",
+      "matchText": "jiaozi",
+      "wikiSlug": "Jiaozi_(currency)",
+      "type": "concept"
+    },
+    {
+      "term": "Bourgeoisie",
+      "matchText": "bourgeoisie",
+      "wikiSlug": "Bourgeoisie",
+      "type": "concept"
+    },
+    {
+      "term": "Champagne fairs",
+      "matchText": "Provins",
+      "wikiSlug": "Champagne_fairs",
+      "type": "concept"
+    },
+    {
+      "term": "Mudarabah",
+      "matchText": "mudaraba",
+      "wikiSlug": "Mudarabah",
+      "type": "concept"
+    }
   ],
   "5": [
-    { "term": "Toledo", "matchText": "Toledo", "wikiSlug": "Toledo,_Spain", "type": "place" },
-    { "term": "Gerard of Cremona", "matchText": "Gerard of Cremona", "wikiSlug": "Gerard_of_Cremona", "type": "people" },
-    { "term": "Almagest", "matchText": "Almagest", "wikiSlug": "Almagest", "type": "concept" },
-    { "term": "Avicenna", "matchText": "Avicenna", "wikiSlug": "Avicenna", "type": "people" },
-    { "term": "Averroes", "matchText": "Averroes", "wikiSlug": "Averroes", "type": "people" },
-    { "term": "Maimonides", "matchText": "Maimonides", "wikiSlug": "Maimonides", "type": "people" },
-    { "term": "Corpus Juris Civilis", "matchText": "Corpus Juris Civilis", "wikiSlug": "Corpus_Juris_Civilis", "type": "concept" },
-    { "term": "Irnerius", "matchText": "Irnerius", "wikiSlug": "Irnerius", "type": "people" },
-    { "term": "Decretum Gratiani", "matchText": "Decretum", "wikiSlug": "Decretum_Gratiani", "type": "concept" },
-    { "term": "Anselm of Canterbury", "matchText": "Anselm of Canterbury", "wikiSlug": "Anselm_of_Canterbury", "type": "people" },
-    { "term": "Ontological argument", "matchText": "ontological argument", "wikiSlug": "Ontological_argument", "type": "concept" },
-    { "term": "Cur Deus Homo", "matchText": "Cur Deus Homo", "wikiSlug": "Cur_Deus_Homo", "type": "concept" },
-    { "term": "Peter Abelard", "matchText": "Peter Abelard", "wikiSlug": "Peter_Abelard", "type": "people" },
-    { "term": "Heloise", "matchText": "Heloise", "wikiSlug": "H%C3%A9lo%C3%AFse", "type": "people" },
-    { "term": "Sic et Non", "matchText": "Sic et Non", "wikiSlug": "Sic_et_Non", "type": "concept" },
-    { "term": "Bernard of Clairvaux", "matchText": "Bernard of Clairvaux", "wikiSlug": "Bernard_of_Clairvaux", "type": "people" },
-    { "term": "Cistercians", "matchText": "Cistercian", "wikiSlug": "Cistercians", "type": "concept" },
-    { "term": "Hildegard of Bingen", "matchText": "Hildegard of Bingen", "wikiSlug": "Hildegard_of_Bingen", "type": "people" },
-    { "term": "Scivias", "matchText": "Scivias", "wikiSlug": "Scivias", "type": "concept" },
-    { "term": "Troubadours", "matchText": "troubadours", "wikiSlug": "Troubadour", "type": "concept" },
-    { "term": "Chrétien de Troyes", "matchText": "Chrétien de Troyes", "wikiSlug": "Chr%C3%A9tien_de_Troyes", "type": "people" },
-    { "term": "Geoffrey of Monmouth", "matchText": "Geoffrey of Monmouth", "wikiSlug": "Geoffrey_of_Monmouth", "type": "people" },
-    { "term": "Holy Grail", "matchText": "Holy Grail", "wikiSlug": "Holy_Grail", "type": "concept" },
-    { "term": "Al-Ghazali", "matchText": "Al-Ghazali", "wikiSlug": "Al-Ghazali", "type": "people" },
-    { "term": "Eleanor of Aquitaine", "matchText": "Eleanor of Aquitaine", "wikiSlug": "Eleanor_of_Aquitaine", "type": "people" }
+    {
+      "term": "Toledo",
+      "matchText": "Toledo",
+      "wikiSlug": "Toledo,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Gerard of Cremona",
+      "matchText": "Gerard of Cremona",
+      "wikiSlug": "Gerard_of_Cremona",
+      "type": "people"
+    },
+    {
+      "term": "Almagest",
+      "matchText": "Almagest",
+      "wikiSlug": "Almagest",
+      "type": "concept"
+    },
+    {
+      "term": "Avicenna",
+      "matchText": "Avicenna",
+      "wikiSlug": "Avicenna",
+      "type": "people"
+    },
+    {
+      "term": "Averroes",
+      "matchText": "Averroes",
+      "wikiSlug": "Averroes",
+      "type": "people"
+    },
+    {
+      "term": "Maimonides",
+      "matchText": "Maimonides",
+      "wikiSlug": "Maimonides",
+      "type": "people"
+    },
+    {
+      "term": "Corpus Juris Civilis",
+      "matchText": "Corpus Juris Civilis",
+      "wikiSlug": "Corpus_Juris_Civilis",
+      "type": "concept"
+    },
+    {
+      "term": "Irnerius",
+      "matchText": "Irnerius",
+      "wikiSlug": "Irnerius",
+      "type": "people"
+    },
+    {
+      "term": "Decretum Gratiani",
+      "matchText": "Decretum",
+      "wikiSlug": "Decretum_Gratiani",
+      "type": "concept"
+    },
+    {
+      "term": "Anselm of Canterbury",
+      "matchText": "Anselm of Canterbury",
+      "wikiSlug": "Anselm_of_Canterbury",
+      "type": "people"
+    },
+    {
+      "term": "Ontological argument",
+      "matchText": "ontological argument",
+      "wikiSlug": "Ontological_argument",
+      "type": "concept"
+    },
+    {
+      "term": "Cur Deus Homo",
+      "matchText": "Cur Deus Homo",
+      "wikiSlug": "Cur_Deus_Homo",
+      "type": "concept"
+    },
+    {
+      "term": "Peter Abelard",
+      "matchText": "Peter Abelard",
+      "wikiSlug": "Peter_Abelard",
+      "type": "people"
+    },
+    {
+      "term": "Heloise",
+      "matchText": "Heloise",
+      "wikiSlug": "H%C3%A9lo%C3%AFse",
+      "type": "people"
+    },
+    {
+      "term": "Sic et Non",
+      "matchText": "Sic et Non",
+      "wikiSlug": "Sic_et_Non",
+      "type": "concept"
+    },
+    {
+      "term": "Bernard of Clairvaux",
+      "matchText": "Bernard of Clairvaux",
+      "wikiSlug": "Bernard_of_Clairvaux",
+      "type": "people"
+    },
+    {
+      "term": "Cistercians",
+      "matchText": "Cistercian",
+      "wikiSlug": "Cistercians",
+      "type": "concept"
+    },
+    {
+      "term": "Hildegard of Bingen",
+      "matchText": "Hildegard of Bingen",
+      "wikiSlug": "Hildegard_of_Bingen",
+      "type": "people"
+    },
+    {
+      "term": "Scivias",
+      "matchText": "Scivias",
+      "wikiSlug": "Scivias",
+      "type": "concept"
+    },
+    {
+      "term": "Troubadours",
+      "matchText": "troubadours",
+      "wikiSlug": "Troubadour",
+      "type": "concept"
+    },
+    {
+      "term": "Chrétien de Troyes",
+      "matchText": "Chrétien de Troyes",
+      "wikiSlug": "Chr%C3%A9tien_de_Troyes",
+      "type": "people"
+    },
+    {
+      "term": "Geoffrey of Monmouth",
+      "matchText": "Geoffrey of Monmouth",
+      "wikiSlug": "Geoffrey_of_Monmouth",
+      "type": "people"
+    },
+    {
+      "term": "Holy Grail",
+      "matchText": "Holy Grail",
+      "wikiSlug": "Holy_Grail",
+      "type": "concept"
+    },
+    {
+      "term": "Al-Ghazali",
+      "matchText": "Al-Ghazali",
+      "wikiSlug": "Al-Ghazali",
+      "type": "people"
+    },
+    {
+      "term": "Eleanor of Aquitaine",
+      "matchText": "Eleanor of Aquitaine",
+      "wikiSlug": "Eleanor_of_Aquitaine",
+      "type": "people"
+    },
+    {
+      "term": "Avicenna",
+      "matchText": "Ibn Sina",
+      "wikiSlug": "Avicenna",
+      "type": "people"
+    },
+    {
+      "term": "Averroes",
+      "matchText": "Ibn Rushd",
+      "wikiSlug": "Averroes",
+      "type": "people"
+    },
+    {
+      "term": "Gratian",
+      "matchText": "Gratian",
+      "wikiSlug": "Gratian_(jurist)",
+      "type": "people"
+    },
+    {
+      "term": "Courtly love",
+      "matchText": "fin'amor",
+      "wikiSlug": "Courtly_love",
+      "type": "concept"
+    },
+    {
+      "term": "Minnesang",
+      "matchText": "Minnesänger",
+      "wikiSlug": "Minnesang",
+      "type": "concept"
+    }
   ],
   "6": [
-    { "term": "Saint-Denis", "matchText": "Saint-Denis", "wikiSlug": "Basilica_of_Saint-Denis", "type": "place" },
-    { "term": "Abbot Suger", "matchText": "Suger", "wikiSlug": "Suger", "type": "people" },
-    { "term": "Romanesque", "matchText": "Romanesque", "wikiSlug": "Romanesque_architecture", "type": "concept" },
-    { "term": "Pointed arch", "matchText": "pointed arch", "wikiSlug": "Ogive", "type": "concept" },
-    { "term": "Ribbed vault", "matchText": "ribbed vault", "wikiSlug": "Rib_vault", "type": "concept" },
-    { "term": "Flying buttress", "matchText": "flying buttress", "wikiSlug": "Flying_buttress", "type": "concept" },
-    { "term": "Notre-Dame de Paris", "matchText": "Notre-Dame de Paris", "wikiSlug": "Notre-Dame_de_Paris", "type": "place" },
-    { "term": "Chartres Cathedral", "matchText": "Chartres", "wikiSlug": "Chartres_Cathedral", "type": "place" },
-    { "term": "Reims Cathedral", "matchText": "Reims Cathedral", "wikiSlug": "Reims_Cathedral", "type": "place" },
-    { "term": "Amiens Cathedral", "matchText": "Amiens Cathedral", "wikiSlug": "Amiens_Cathedral", "type": "place" },
-    { "term": "Beauvais Cathedral", "matchText": "Beauvais Cathedral", "wikiSlug": "Beauvais_Cathedral", "type": "place" },
-    { "term": "Sainte-Chapelle", "matchText": "Sainte-Chapelle", "wikiSlug": "Sainte-Chapelle", "type": "place" },
-    { "term": "Cologne Cathedral", "matchText": "Cologne Cathedral", "wikiSlug": "Cologne_Cathedral", "type": "place" },
-    { "term": "Salisbury Cathedral", "matchText": "Salisbury Cathedral", "wikiSlug": "Salisbury_Cathedral", "type": "place" },
-    { "term": "Stained glass", "matchText": "stained-glass", "wikiSlug": "Stained_glass", "type": "concept" },
-    { "term": "Gothic architecture", "matchText": "Gothic architecture", "wikiSlug": "Gothic_architecture", "type": "concept" },
-    { "term": "Rose window", "matchText": "rose window", "wikiSlug": "Rose_window", "type": "concept" },
-    { "term": "Gargoyle", "matchText": "gargoyles", "wikiSlug": "Gargoyle", "type": "concept" },
-    { "term": "Chartres labyrinth", "matchText": "labyrinth inset", "wikiSlug": "Chartres_Cathedral_labyrinth", "type": "concept" },
-    { "term": "Crown of Thorns", "matchText": "Crown of Thorns", "wikiSlug": "Crown_of_thorns", "type": "concept" },
-    { "term": "Three Magi", "matchText": "Three Magi", "wikiSlug": "Biblical_Magi", "type": "concept" },
-    { "term": "Master mason", "matchText": "master mason", "wikiSlug": "Master_mason", "type": "concept" },
-    { "term": "Villard de Honnecourt", "matchText": "Villard de Honnecourt", "wikiSlug": "Villard_de_Honnecourt", "type": "people" },
-    { "term": "Brihadeeswarar Temple", "matchText": "Brihadeeswarar at Thanjavur", "wikiSlug": "Brihadeeswarar_Temple", "type": "place" },
-    { "term": "Yingxian wooden pagoda", "matchText": "Yingxian wooden pagoda", "wikiSlug": "Pagoda_of_Fogong_Temple", "type": "place" }
+    {
+      "term": "Saint-Denis",
+      "matchText": "Saint-Denis",
+      "wikiSlug": "Basilica_of_Saint-Denis",
+      "type": "place"
+    },
+    {
+      "term": "Abbot Suger",
+      "matchText": "Suger",
+      "wikiSlug": "Suger",
+      "type": "people"
+    },
+    {
+      "term": "Romanesque",
+      "matchText": "Romanesque",
+      "wikiSlug": "Romanesque_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Pointed arch",
+      "matchText": "pointed arch",
+      "wikiSlug": "Ogive",
+      "type": "concept"
+    },
+    {
+      "term": "Ribbed vault",
+      "matchText": "ribbed vault",
+      "wikiSlug": "Rib_vault",
+      "type": "concept"
+    },
+    {
+      "term": "Flying buttress",
+      "matchText": "flying buttress",
+      "wikiSlug": "Flying_buttress",
+      "type": "concept"
+    },
+    {
+      "term": "Notre-Dame de Paris",
+      "matchText": "Notre-Dame de Paris",
+      "wikiSlug": "Notre-Dame_de_Paris",
+      "type": "place"
+    },
+    {
+      "term": "Chartres Cathedral",
+      "matchText": "Chartres",
+      "wikiSlug": "Chartres_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Reims Cathedral",
+      "matchText": "Reims Cathedral",
+      "wikiSlug": "Reims_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Amiens Cathedral",
+      "matchText": "Amiens Cathedral",
+      "wikiSlug": "Amiens_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Beauvais Cathedral",
+      "matchText": "Beauvais Cathedral",
+      "wikiSlug": "Beauvais_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Sainte-Chapelle",
+      "matchText": "Sainte-Chapelle",
+      "wikiSlug": "Sainte-Chapelle",
+      "type": "place"
+    },
+    {
+      "term": "Cologne Cathedral",
+      "matchText": "Cologne Cathedral",
+      "wikiSlug": "Cologne_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Salisbury Cathedral",
+      "matchText": "Salisbury Cathedral",
+      "wikiSlug": "Salisbury_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Stained glass",
+      "matchText": "stained-glass",
+      "wikiSlug": "Stained_glass",
+      "type": "concept"
+    },
+    {
+      "term": "Gothic architecture",
+      "matchText": "Gothic architecture",
+      "wikiSlug": "Gothic_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Rose window",
+      "matchText": "rose window",
+      "wikiSlug": "Rose_window",
+      "type": "concept"
+    },
+    {
+      "term": "Gargoyle",
+      "matchText": "gargoyles",
+      "wikiSlug": "Gargoyle",
+      "type": "concept"
+    },
+    {
+      "term": "Chartres labyrinth",
+      "matchText": "labyrinth inset",
+      "wikiSlug": "Chartres_Cathedral_labyrinth",
+      "type": "concept"
+    },
+    {
+      "term": "Crown of Thorns",
+      "matchText": "Crown of Thorns",
+      "wikiSlug": "Crown_of_thorns",
+      "type": "concept"
+    },
+    {
+      "term": "Three Magi",
+      "matchText": "Three Magi",
+      "wikiSlug": "Biblical_Magi",
+      "type": "concept"
+    },
+    {
+      "term": "Master mason",
+      "matchText": "master mason",
+      "wikiSlug": "Master_mason",
+      "type": "concept"
+    },
+    {
+      "term": "Villard de Honnecourt",
+      "matchText": "Villard de Honnecourt",
+      "wikiSlug": "Villard_de_Honnecourt",
+      "type": "people"
+    },
+    {
+      "term": "Brihadeeswarar Temple",
+      "matchText": "Brihadeeswarar at Thanjavur",
+      "wikiSlug": "Brihadeeswarar_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Yingxian wooden pagoda",
+      "matchText": "Yingxian wooden pagoda",
+      "wikiSlug": "Pagoda_of_Fogong_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Rayonnant",
+      "matchText": "Rayonnant",
+      "wikiSlug": "Rayonnant",
+      "type": "concept"
+    },
+    {
+      "term": "Flamboyant architecture",
+      "matchText": "Flamboyant",
+      "wikiSlug": "Flamboyant_architecture",
+      "type": "concept"
+    }
   ],
   "7": [
-    { "term": "University of Bologna", "matchText": "University of Bologna", "wikiSlug": "University_of_Bologna", "type": "concept" },
-    { "term": "Notre-Dame cathedral school", "matchText": "cathedral school of Notre-Dame", "wikiSlug": "University_of_Paris", "type": "concept" },
-    { "term": "Oxford", "matchText": "Oxford", "wikiSlug": "University_of_Oxford", "type": "place" },
-    { "term": "Cambridge", "matchText": "Cambridge", "wikiSlug": "University_of_Cambridge", "type": "place" },
-    { "term": "Salamanca", "matchText": "Salamanca", "wikiSlug": "University_of_Salamanca", "type": "place" },
-    { "term": "Salerno", "matchText": "Salerno", "wikiSlug": "Schola_Medica_Salernitana", "type": "place" },
-    { "term": "Trivium", "matchText": "trivium", "wikiSlug": "Trivium", "type": "concept" },
-    { "term": "Quadrivium", "matchText": "quadrivium", "wikiSlug": "Quadrivium", "type": "concept" },
-    { "term": "Disputation", "matchText": "disputation", "wikiSlug": "Disputation", "type": "concept" },
-    { "term": "Scholasticism", "matchText": "scholastic", "wikiSlug": "Scholasticism", "type": "concept" },
-    { "term": "Mendicant orders", "matchText": "mendicant orders", "wikiSlug": "Mendicant_orders", "type": "concept" },
-    { "term": "Dominicans", "matchText": "Dominicans", "wikiSlug": "Dominican_Order", "type": "concept" },
-    { "term": "Franciscans", "matchText": "Franciscan Order", "wikiSlug": "Franciscans", "type": "concept" },
-    { "term": "Dominic of Caleruega", "matchText": "Dominic of Caleruega", "wikiSlug": "Dominic", "type": "people" },
-    { "term": "Francis of Assisi", "matchText": "Francis of Assisi", "wikiSlug": "Francis_of_Assisi", "type": "people" },
-    { "term": "Albertus Magnus", "matchText": "Albertus Magnus", "wikiSlug": "Albertus_Magnus", "type": "people" },
-    { "term": "Thomas Aquinas", "matchText": "Thomas Aquinas", "wikiSlug": "Thomas_Aquinas", "type": "people" },
-    { "term": "Summa Theologiae", "matchText": "Summa Theologiae", "wikiSlug": "Summa_Theologica", "type": "concept" },
-    { "term": "Bonaventure", "matchText": "Bonaventure", "wikiSlug": "Bonaventure", "type": "people" },
-    { "term": "Averroes", "matchText": "Averroes", "wikiSlug": "Averroes", "type": "people" },
-    { "term": "Latin Averroists", "matchText": "Latin Averroists", "wikiSlug": "Averroism", "type": "concept" },
-    { "term": "Siger of Brabant", "matchText": "Siger of Brabant", "wikiSlug": "Siger_of_Brabant", "type": "people" },
-    { "term": "Maimonides", "matchText": "Maimonides", "wikiSlug": "Maimonides", "type": "people" },
-    { "term": "Trotula", "matchText": "Trotula", "wikiSlug": "Trotula", "type": "people" },
-    { "term": "Master of arts", "matchText": "master's degree", "wikiSlug": "Master%27s_degree", "type": "concept" }
+    {
+      "term": "University of Bologna",
+      "matchText": "University of Bologna",
+      "wikiSlug": "University_of_Bologna",
+      "type": "concept"
+    },
+    {
+      "term": "Notre-Dame cathedral school",
+      "matchText": "cathedral school of Notre-Dame",
+      "wikiSlug": "University_of_Paris",
+      "type": "concept"
+    },
+    {
+      "term": "Oxford",
+      "matchText": "Oxford",
+      "wikiSlug": "University_of_Oxford",
+      "type": "place"
+    },
+    {
+      "term": "Cambridge",
+      "matchText": "Cambridge",
+      "wikiSlug": "University_of_Cambridge",
+      "type": "place"
+    },
+    {
+      "term": "Salamanca",
+      "matchText": "Salamanca",
+      "wikiSlug": "University_of_Salamanca",
+      "type": "place"
+    },
+    {
+      "term": "Salerno",
+      "matchText": "Salerno",
+      "wikiSlug": "Schola_Medica_Salernitana",
+      "type": "place"
+    },
+    {
+      "term": "Trivium",
+      "matchText": "trivium",
+      "wikiSlug": "Trivium",
+      "type": "concept"
+    },
+    {
+      "term": "Quadrivium",
+      "matchText": "quadrivium",
+      "wikiSlug": "Quadrivium",
+      "type": "concept"
+    },
+    {
+      "term": "Disputation",
+      "matchText": "disputation",
+      "wikiSlug": "Disputation",
+      "type": "concept"
+    },
+    {
+      "term": "Scholasticism",
+      "matchText": "scholastic",
+      "wikiSlug": "Scholasticism",
+      "type": "concept"
+    },
+    {
+      "term": "Mendicant orders",
+      "matchText": "mendicant orders",
+      "wikiSlug": "Mendicant_orders",
+      "type": "concept"
+    },
+    {
+      "term": "Dominicans",
+      "matchText": "Dominicans",
+      "wikiSlug": "Dominican_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Franciscans",
+      "matchText": "Franciscan Order",
+      "wikiSlug": "Franciscans",
+      "type": "concept"
+    },
+    {
+      "term": "Dominic of Caleruega",
+      "matchText": "Dominic of Caleruega",
+      "wikiSlug": "Dominic",
+      "type": "people"
+    },
+    {
+      "term": "Francis of Assisi",
+      "matchText": "Francis of Assisi",
+      "wikiSlug": "Francis_of_Assisi",
+      "type": "people"
+    },
+    {
+      "term": "Albertus Magnus",
+      "matchText": "Albertus Magnus",
+      "wikiSlug": "Albertus_Magnus",
+      "type": "people"
+    },
+    {
+      "term": "Thomas Aquinas",
+      "matchText": "Thomas Aquinas",
+      "wikiSlug": "Thomas_Aquinas",
+      "type": "people"
+    },
+    {
+      "term": "Summa Theologiae",
+      "matchText": "Summa Theologiae",
+      "wikiSlug": "Summa_Theologica",
+      "type": "concept"
+    },
+    {
+      "term": "Bonaventure",
+      "matchText": "Bonaventure",
+      "wikiSlug": "Bonaventure",
+      "type": "people"
+    },
+    {
+      "term": "Averroes",
+      "matchText": "Averroes",
+      "wikiSlug": "Averroes",
+      "type": "people"
+    },
+    {
+      "term": "Latin Averroists",
+      "matchText": "Latin Averroists",
+      "wikiSlug": "Averroism",
+      "type": "concept"
+    },
+    {
+      "term": "Siger of Brabant",
+      "matchText": "Siger of Brabant",
+      "wikiSlug": "Siger_of_Brabant",
+      "type": "people"
+    },
+    {
+      "term": "Maimonides",
+      "matchText": "Maimonides",
+      "wikiSlug": "Maimonides",
+      "type": "people"
+    },
+    {
+      "term": "Trotula",
+      "matchText": "Trotula",
+      "wikiSlug": "Trotula",
+      "type": "people"
+    },
+    {
+      "term": "Master of arts",
+      "matchText": "master's degree",
+      "wikiSlug": "Master%27s_degree",
+      "type": "concept"
+    },
+    {
+      "term": "Irnerius",
+      "matchText": "Irnerius",
+      "wikiSlug": "Irnerius",
+      "type": "people"
+    },
+    {
+      "term": "Franciscans",
+      "matchText": "Order of Friars Minor",
+      "wikiSlug": "Franciscans",
+      "type": "concept"
+    },
+    {
+      "term": "The Guide for the Perplexed",
+      "matchText": "Guide for the Perplexed",
+      "wikiSlug": "The_Guide_for_the_Perplexed",
+      "type": "concept"
+    }
   ],
   "8": [
-    { "term": "Magna Carta", "matchText": "Magna Carta", "wikiSlug": "Magna_Carta", "type": "concept" },
-    { "term": "Runnymede", "matchText": "Runnymede", "wikiSlug": "Runnymede", "type": "place" },
-    { "term": "King John of England", "matchText": "King John of England", "wikiSlug": "John,_King_of_England", "type": "people" },
-    { "term": "Philip II of France", "matchText": "Philip II", "wikiSlug": "Philip_II_of_France", "type": "people" },
-    { "term": "Battle of Bouvines", "matchText": "Battle of Bouvines", "wikiSlug": "Battle_of_Bouvines", "type": "concept" },
-    { "term": "Pope Innocent III", "matchText": "Pope Innocent III", "wikiSlug": "Pope_Innocent_III", "type": "people" },
-    { "term": "Interdict", "matchText": "interdict", "wikiSlug": "Interdict", "type": "concept" },
-    { "term": "Stephen Langton", "matchText": "Stephen Langton", "wikiSlug": "Stephen_Langton", "type": "people" },
-    { "term": "Habeas corpus", "matchText": "habeas corpus", "wikiSlug": "Habeas_corpus", "type": "concept" },
-    { "term": "Henry III of England", "matchText": "Henry III", "wikiSlug": "Henry_III_of_England", "type": "people" },
-    { "term": "William Marshal", "matchText": "William Marshal", "wikiSlug": "William_Marshal,_1st_Earl_of_Pembroke", "type": "people" },
-    { "term": "Edward I", "matchText": "Edward I", "wikiSlug": "Edward_I_of_England", "type": "people" },
-    { "term": "Simon de Montfort", "matchText": "Simon de Montfort", "wikiSlug": "Simon_de_Montfort,_6th_Earl_of_Leicester", "type": "people" },
-    { "term": "Cortes", "matchText": "Cortes", "wikiSlug": "Cortes_of_Le%C3%B3n", "type": "concept" },
-    { "term": "Estates-General", "matchText": "Estates-General", "wikiSlug": "Estates_General_(France)", "type": "concept" },
-    { "term": "Golden Bull of 1222", "matchText": "Golden Bull of 1222", "wikiSlug": "Golden_Bull_of_1222", "type": "concept" },
-    { "term": "Fourth Lateran Council", "matchText": "Fourth Lateran Council", "wikiSlug": "Fourth_Council_of_the_Lateran", "type": "concept" },
-    { "term": "Transubstantiation", "matchText": "transubstantiation", "wikiSlug": "Transubstantiation", "type": "concept" },
-    { "term": "Boniface VIII", "matchText": "Pope Boniface VIII", "wikiSlug": "Pope_Boniface_VIII", "type": "people" },
-    { "term": "Reconquista", "matchText": "Reconquista", "wikiSlug": "Reconquista", "type": "concept" },
-    { "term": "Las Navas de Tolosa", "matchText": "Las Navas de Tolosa", "wikiSlug": "Battle_of_Las_Navas_de_Tolosa", "type": "concept" },
-    { "term": "Almohad", "matchText": "Almohad", "wikiSlug": "Almohad_Caliphate", "type": "concept" },
-    { "term": "Ferdinand III of Castile", "matchText": "Ferdinand III of Castile", "wikiSlug": "Ferdinand_III_of_Castile", "type": "people" },
-    { "term": "Emirate of Granada", "matchText": "Emirate of Granada", "wikiSlug": "Emirate_of_Granada", "type": "concept" },
-    { "term": "Mudéjar", "matchText": "Mudéjars", "wikiSlug": "Mud%C3%A9jar", "type": "concept" },
-    { "term": "Genghis Khan", "matchText": "Genghis Khan", "wikiSlug": "Genghis_Khan", "type": "people" },
-    { "term": "Batu Khan", "matchText": "Batu Khan", "wikiSlug": "Batu_Khan", "type": "people" },
-    { "term": "Subutai", "matchText": "Subutai", "wikiSlug": "Subutai", "type": "people" },
-    { "term": "Battle of Legnica", "matchText": "Battle of Legnica", "wikiSlug": "Battle_of_Legnica", "type": "concept" },
-    { "term": "Battle of Mohi", "matchText": "Battle of Mohi", "wikiSlug": "Battle_of_Mohi", "type": "concept" },
-    { "term": "Béla IV", "matchText": "Béla IV", "wikiSlug": "B%C3%A9la_IV_of_Hungary", "type": "people" },
-    { "term": "Ögedei Khan", "matchText": "Ögedei", "wikiSlug": "%C3%96gedei_Khan", "type": "people" },
-    { "term": "Hülegü Khan", "matchText": "Hülegü Khan", "wikiSlug": "H%C3%BClegu_Khan", "type": "people" },
-    { "term": "Battle of Ayn Jalut", "matchText": "Ayn Jalut", "wikiSlug": "Battle_of_Ain_Jalut", "type": "concept" },
-    { "term": "Marco Polo", "matchText": "Marco Polo", "wikiSlug": "Marco_Polo", "type": "people" },
-    { "term": "Kublai Khan", "matchText": "Kublai Khan", "wikiSlug": "Kublai_Khan", "type": "people" }
+    {
+      "term": "Magna Carta",
+      "matchText": "Magna Carta",
+      "wikiSlug": "Magna_Carta",
+      "type": "concept"
+    },
+    {
+      "term": "Runnymede",
+      "matchText": "Runnymede",
+      "wikiSlug": "Runnymede",
+      "type": "place"
+    },
+    {
+      "term": "King John of England",
+      "matchText": "King John of England",
+      "wikiSlug": "John,_King_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Philip II of France",
+      "matchText": "Philip II",
+      "wikiSlug": "Philip_II_of_France",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Bouvines",
+      "matchText": "Battle of Bouvines",
+      "wikiSlug": "Battle_of_Bouvines",
+      "type": "concept"
+    },
+    {
+      "term": "Pope Innocent III",
+      "matchText": "Pope Innocent III",
+      "wikiSlug": "Pope_Innocent_III",
+      "type": "people"
+    },
+    {
+      "term": "Interdict",
+      "matchText": "interdict",
+      "wikiSlug": "Interdict",
+      "type": "concept"
+    },
+    {
+      "term": "Stephen Langton",
+      "matchText": "Stephen Langton",
+      "wikiSlug": "Stephen_Langton",
+      "type": "people"
+    },
+    {
+      "term": "Habeas corpus",
+      "matchText": "habeas corpus",
+      "wikiSlug": "Habeas_corpus",
+      "type": "concept"
+    },
+    {
+      "term": "Henry III of England",
+      "matchText": "Henry III",
+      "wikiSlug": "Henry_III_of_England",
+      "type": "people"
+    },
+    {
+      "term": "William Marshal",
+      "matchText": "William Marshal",
+      "wikiSlug": "William_Marshal,_1st_Earl_of_Pembroke",
+      "type": "people"
+    },
+    {
+      "term": "Edward I",
+      "matchText": "Edward I",
+      "wikiSlug": "Edward_I_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Simon de Montfort",
+      "matchText": "Simon de Montfort",
+      "wikiSlug": "Simon_de_Montfort,_6th_Earl_of_Leicester",
+      "type": "people"
+    },
+    {
+      "term": "Cortes",
+      "matchText": "Cortes",
+      "wikiSlug": "Cortes_of_Le%C3%B3n",
+      "type": "concept"
+    },
+    {
+      "term": "Estates-General",
+      "matchText": "Estates-General",
+      "wikiSlug": "Estates_General_(France)",
+      "type": "concept"
+    },
+    {
+      "term": "Golden Bull of 1222",
+      "matchText": "Golden Bull of 1222",
+      "wikiSlug": "Golden_Bull_of_1222",
+      "type": "concept"
+    },
+    {
+      "term": "Fourth Lateran Council",
+      "matchText": "Fourth Lateran Council",
+      "wikiSlug": "Fourth_Council_of_the_Lateran",
+      "type": "concept"
+    },
+    {
+      "term": "Transubstantiation",
+      "matchText": "transubstantiation",
+      "wikiSlug": "Transubstantiation",
+      "type": "concept"
+    },
+    {
+      "term": "Boniface VIII",
+      "matchText": "Pope Boniface VIII",
+      "wikiSlug": "Pope_Boniface_VIII",
+      "type": "people"
+    },
+    {
+      "term": "Reconquista",
+      "matchText": "Reconquista",
+      "wikiSlug": "Reconquista",
+      "type": "concept"
+    },
+    {
+      "term": "Las Navas de Tolosa",
+      "matchText": "Las Navas de Tolosa",
+      "wikiSlug": "Battle_of_Las_Navas_de_Tolosa",
+      "type": "concept"
+    },
+    {
+      "term": "Almohad",
+      "matchText": "Almohad",
+      "wikiSlug": "Almohad_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Ferdinand III of Castile",
+      "matchText": "Ferdinand III of Castile",
+      "wikiSlug": "Ferdinand_III_of_Castile",
+      "type": "people"
+    },
+    {
+      "term": "Emirate of Granada",
+      "matchText": "Emirate of Granada",
+      "wikiSlug": "Emirate_of_Granada",
+      "type": "concept"
+    },
+    {
+      "term": "Mudéjar",
+      "matchText": "Mudéjars",
+      "wikiSlug": "Mud%C3%A9jar",
+      "type": "concept"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Batu Khan",
+      "matchText": "Batu Khan",
+      "wikiSlug": "Batu_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Subutai",
+      "matchText": "Subutai",
+      "wikiSlug": "Subutai",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Legnica",
+      "matchText": "Battle of Legnica",
+      "wikiSlug": "Battle_of_Legnica",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Mohi",
+      "matchText": "Battle of Mohi",
+      "wikiSlug": "Battle_of_Mohi",
+      "type": "concept"
+    },
+    {
+      "term": "Béla IV",
+      "matchText": "Béla IV",
+      "wikiSlug": "B%C3%A9la_IV_of_Hungary",
+      "type": "people"
+    },
+    {
+      "term": "Ögedei Khan",
+      "matchText": "Ögedei",
+      "wikiSlug": "%C3%96gedei_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Hülegü Khan",
+      "matchText": "Hülegü Khan",
+      "wikiSlug": "H%C3%BClegu_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Ayn Jalut",
+      "matchText": "Ayn Jalut",
+      "wikiSlug": "Battle_of_Ain_Jalut",
+      "type": "concept"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Model Parliament",
+      "matchText": "Model Parliament",
+      "wikiSlug": "Model_Parliament",
+      "type": "concept"
+    },
+    {
+      "term": "Avignon Papacy",
+      "matchText": "Avignon Papacy",
+      "wikiSlug": "Avignon_Papacy",
+      "type": "concept"
+    },
+    {
+      "term": "Mozarabs",
+      "matchText": "Mozarabs",
+      "wikiSlug": "Mozarabs",
+      "type": "people"
+    },
+    {
+      "term": "James I of Aragon",
+      "matchText": "James I of Aragon",
+      "wikiSlug": "James_I_of_Aragon",
+      "type": "people"
+    }
   ]
 }
