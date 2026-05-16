@@ -1,0 +1,1676 @@
+{
+ "id": "dai-viet",
+ "label": "Đại Việt",
+ "type": "civilization",
+ "region": "asia",
+ "source": "curated",
+ "wikiSlug": "%C4%90%E1%BA%A1i_Vi%E1%BB%87t",
+ "imageWikiSlug": "One_Pillar_Pagoda",
+ "pitch": "In 938 Ngô Quyền ended a thousand years of Chinese rule with stakes hidden in a tidal river, and Đại Việt began an eight-century run as one of the most resilient states in Asia: it beat the Mongols three times, threw off a twenty-year Ming occupation, and marched 800 miles south to swallow Champa and the Mekong, ending in 1804 as the unified country called Việt Nam.",
+ "spans": [
+  {
+   "id": "span-daiviet-bac-thuoc",
+   "label": "Chinese Domination (Bắc thuộc)",
+   "startYear": -111,
+   "endYear": 938,
+   "wikiSlug": "Chinese_domination_of_Vietnam",
+   "description": "From the Han conquest of 111 BCE to 938 CE the Red River delta was ruled by successive Chinese dynasties, acquiring the Confucian-bureaucratic and Buddhist culture it would later turn against China; punctuated by the revolts of the Trưng Sisters and others."
+  },
+  {
+   "id": "span-daiviet-early-dynasties",
+   "label": "Ngô–Đinh–Early Lê & Lý",
+   "startYear": 938,
+   "endYear": 1225,
+   "wikiSlug": "L%C3%BD_dynasty",
+   "description": "Independence won at Bạch Đằng (938); after the warlord interregnum the Đinh, Early Lê, and the long Buddhist Lý dynasty built the institutions of a sovereign state — Thăng Long, the examinations, the academy — and defeated a Song invasion."
+  },
+  {
+   "id": "span-daiviet-tran",
+   "label": "The Trần Dynasty",
+   "startYear": 1225,
+   "endYear": 1400,
+   "wikiSlug": "Tr%E1%BA%A7n_dynasty",
+   "description": "The Trần repelled three Mongol invasions (1258, 1285, 1287–88), produced Trần Hưng Đạo and the Bạch Đằng victory of 1288, founded the Trúc Lâm Zen school and the first national history, then declined amid Cham wars and fiscal crisis."
+  },
+  {
+   "id": "span-daiviet-ho-ming-le",
+   "label": "Hồ, Ming Occupation & the Lê Founding",
+   "startYear": 1400,
+   "endYear": 1497,
+   "wikiSlug": "L%C3%AA_dynasty",
+   "description": "The reformist Hồ dynasty fell to a Ming invasion and a twenty-year occupation; Lê Lợi's Lam Sơn war of liberation founded the Later Lê, whose golden age under Lê Thánh Tông built the classic Confucian Vietnamese state and destroyed Vijaya in 1471."
+  },
+  {
+   "id": "span-daiviet-partition",
+   "label": "Mạc, Restoration & the Trịnh–Nguyễn Partition",
+   "startYear": 1497,
+   "endYear": 1771,
+   "wikiSlug": "Tr%E1%BB%8Bnh%E2%80%93Nguy%E1%BB%85n_War",
+   "description": "Mạc usurpation and Lê restoration gave way to two centuries of de facto partition between the Trịnh north and the Nguyễn south behind a puppet Lê emperor, while the nam tiến absorbed Champa and the Mekong delta."
+  },
+  {
+   "id": "span-daiviet-tayson-nguyen",
+   "label": "Tây Sơn & the Nguyễn Founding",
+   "startYear": 1771,
+   "endYear": 1804,
+   "wikiSlug": "Nguy%E1%BB%85n_dynasty",
+   "description": "The Tây Sơn rebellion swept away the Trịnh, the Nguyễn lords, and the Lê dynasty and crushed Siamese and Qing invasions; Nguyễn Ánh's victory in 1802 founded the Nguyễn dynasty and the unified country named Việt Nam in 1804."
+  }
+ ],
+ "events": [
+  {
+   "id": "evt-daiviet-dong-son",
+   "label": "The Đông Sơn bronze culture",
+   "year": -600,
+   "description": "The Đông Sơn culture of the Red River valley produced the great bronze drums that became the enduring emblem of a distinct pre-Chinese Vietnamese identity. Their wet-rice, bronze-working society is the archaeological substrate beneath every later dynasty.",
+   "wikiSlug": "%C4%90%C3%B4ng_S%C6%A1n_culture",
+   "tier": 2,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-daiviet-van-lang",
+   "label": "Văn Lang and the Hùng kings",
+   "year": -700,
+   "description": "Vietnamese tradition holds that the Hồng Bàng line of Hùng kings ruled a kingdom called Văn Lang for millennia before China. The chronology is legendary national myth rather than documented history, but the Hùng kings remain the symbolic origin of the nation.",
+   "wikiSlug": "H%E1%BB%93ng_B%C3%A0ng_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-au-lac",
+   "label": "Âu Lạc and the Cổ Loa citadel",
+   "year": -257,
+   "description": "An Dương Vương is said to have unified the Âu Việt and Lạc Việt into Âu Lạc and built the great spiral ramparts of Cổ Loa near modern Hanoi — the earliest large fortification in Vietnam and a real archaeological site behind a legend-wrapped king.",
+   "wikiSlug": "C%E1%BB%95_Loa_Citadel",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-trieu-da",
+   "label": "Triệu Đà annexes Âu Lạc into Nanyue",
+   "year": -179,
+   "description": "The Qin-renegade warlord Triệu Đà (Zhao Tuo) absorbed Âu Lạc into his kingdom of Nanyue. Whether Nanyue counts as a Vietnamese dynasty or a foreign conquest is itself a long-running historiographical argument.",
+   "wikiSlug": "Zhao_Tuo",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-han-conquest",
+   "label": "Han China conquers Nanyue",
+   "year": -111,
+   "description": "The Han emperor Wu destroyed Nanyue and absorbed the Red River delta into the Chinese empire, beginning what Vietnamese tradition calls the thousand years of northern domination (Bắc thuộc).",
+   "wikiSlug": "Han_conquest_of_Nanyue",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-sinicization",
+   "label": "A thousand years of Sinicization",
+   "year": 100,
+   "description": "Under Chinese rule the delta acquired Chinese administration, the Chinese writing system (chữ Hán), Confucian schooling, Mahayana Buddhism, and intensive bureaucratic statecraft. Vietnam absorbed the Chinese model so deeply it would later use it to resist China itself.",
+   "wikiSlug": "Chinese_domination_of_Vietnam",
+   "tier": 1,
+   "tags": [],
+   "category": "writing",
+   "endYear": 900
+  },
+  {
+   "id": "evt-daiviet-trung-sisters",
+   "label": "The Trưng Sisters' rebellion",
+   "year": 40,
+   "description": "Trưng Trắc and Trưng Nhị led a revolt that briefly expelled the Han and established an independent realm, 40–43 CE, before the general Ma Yuan crushed it. They are the foundational heroines of Vietnamese resistance, though the surviving record is thin and later heavily mythologized.",
+   "wikiSlug": "Trung_sisters",
+   "tier": 1,
+   "tags": [],
+   "category": "wars",
+   "endYear": 43
+  },
+  {
+   "id": "evt-daiviet-ba-trieu",
+   "label": "Lady Triệu's revolt",
+   "year": 248,
+   "description": "Triệu Thị Trinh (Bà Triệu) led another anti-Chinese uprising in 248 CE. Like the Trưng Sisters she became a durable symbol of defiance; the famous quotation attributed to her is almost certainly a later literary attribution.",
+   "wikiSlug": "Lady_Tri%E1%BB%87u",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-buddhism-arrives",
+   "label": "Buddhism reaches the delta",
+   "year": 180,
+   "description": "By the late 2nd century the Red River port of Luy Lâu was an early Buddhist center, with Indian and Central Asian monks arriving by sea. Mahayana Buddhism, filtered through China, became the dominant religion of the independent dynasties.",
+   "wikiSlug": "Buddhism_in_Vietnam",
+   "tier": 2,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-ly-bi",
+   "label": "Lý Bí and the kingdom of Vạn Xuân",
+   "year": 544,
+   "description": "Lý Bí drove out the Liang governor and proclaimed the short-lived state of Vạn Xuân (\"Ten Thousand Springs\"), the first time a local ruler used a full imperial-style independence claim. It was reconquered within decades.",
+   "wikiSlug": "L%C3%BD_N%C3%AD_B%C3%AD",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 602
+  },
+  {
+   "id": "evt-daiviet-annam",
+   "label": "The Tang Annam Protectorate",
+   "year": 679,
+   "description": "The Tang reorganized the territory as Annam (An Nam đô hộ phủ), \"the Pacified South\" — the name the Chinese and later the French would use for centuries, and a word the Vietnamese themselves never embraced.",
+   "wikiSlug": "Annam_(Tang_protectorate)",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-phung-hung",
+   "label": "The revolts of Mai Thúc Loan and Phùng Hưng",
+   "year": 722,
+   "description": "Eighth-century uprisings under Mai Thúc Loan (722) and Phùng Hưng (c. 791) showed Tang control fraying. Each briefly held the capital before collapse, rehearsing the independence to come.",
+   "wikiSlug": "Mai_Th%C3%BAc_Loan",
+   "tier": 3,
+   "tags": [],
+   "category": "wars",
+   "endYear": 791
+  },
+  {
+   "id": "evt-daiviet-khuc-family",
+   "label": "The Khúc family's autonomy",
+   "year": 905,
+   "description": "As the Tang collapsed, the Khúc family took control of Annam as de facto autonomous governors, the soft hinge between a thousand years of Chinese rule and full independence.",
+   "wikiSlug": "Kh%C3%BAc_family",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 938
+  },
+  {
+   "id": "evt-daiviet-red-river-rice",
+   "label": "The Red River wet-rice base",
+   "year": 100,
+   "description": "The flood-fed Red River delta, like the Mekong for the Khmer, gave Vietnam an unusually rich and dense rice economy. Controlling its dikes and harvest was the material basis of every dynasty in this story.",
+   "wikiSlug": "Red_River_Delta",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-bach-dang-938",
+   "label": "The Battle of Bạch Đằng, 938",
+   "year": 938,
+   "description": "Ngô Quyền defeated a Southern Han invasion fleet by planting iron-tipped stakes in the Bạch Đằng river bed, timing the battle to the tide so the trapped ships were destroyed as the water fell. It is the founding military legend of Vietnamese independence.",
+   "wikiSlug": "Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(938)",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-ngo-quyen",
+   "label": "Ngô Quyền founds the Ngô dynasty",
+   "year": 939,
+   "description": "Ngô Quyền proclaimed himself king in 939, ending a thousand years of Chinese rule. Vietnamese historians treat 938–939 as the true birth of the nation-state.",
+   "wikiSlug": "Ng%C3%B4_Quy%E1%BB%81n",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-12-warlords",
+   "label": "The Anarchy of the Twelve Warlords",
+   "year": 944,
+   "description": "After Ngô Quyền's death the country fragmented among twelve regional warlords (Loạn 12 sứ quân), a generation of disunity that nearly aborted independence at birth.",
+   "wikiSlug": "Anarchy_of_the_12_Warlords",
+   "tier": 2,
+   "tags": [],
+   "category": "wars",
+   "endYear": 968
+  },
+  {
+   "id": "evt-daiviet-dinh-bo-linh",
+   "label": "Đinh Bộ Lĩnh reunifies the country",
+   "year": 968,
+   "description": "Đinh Bộ Lĩnh defeated the warlords, founded the Đinh dynasty, named the state Đại Cồ Việt, and took the title emperor — a deliberate claim of equality with China rather than vassalage.",
+   "wikiSlug": "%C4%90inh_B%E1%BB%99_L%C4%A9nh",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-hoa-lu",
+   "label": "The capital at Hoa Lư",
+   "year": 968,
+   "description": "The Đinh and Early Lê ruled from Hoa Lư, a fortress capital ringed by limestone karst mountains — a defensible mountain stronghold chosen for security in a still-fragile state.",
+   "wikiSlug": "Hoa_L%C6%B0",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-dinh-assassination",
+   "label": "The assassination of Đinh Tiên Hoàng",
+   "year": 979,
+   "description": "Emperor Đinh Tiên Hoàng and his heir were assassinated in 979, throwing the young state into a succession crisis just as the Song dynasty prepared to invade.",
+   "wikiSlug": "%C4%90inh_B%E1%BB%99_L%C4%A9nh",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-le-hoan",
+   "label": "Lê Hoàn founds the Early Lê dynasty",
+   "year": 980,
+   "description": "The regent and general Lê Hoàn took the throne in 980 with the dowager's backing, founding the Early Lê dynasty in time to meet the Song head-on.",
+   "wikiSlug": "L%C3%AA_Ho%C3%A0n",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-song-981",
+   "label": "Lê Hoàn repels the Song invasion of 981",
+   "year": 981,
+   "description": "Lê Hoàn defeated a Song invasion on land and at a second Battle of Bạch Đằng, securing recognition of Đại Cồ Việt and proving 938 was no fluke.",
+   "wikiSlug": "Song%E2%80%93%C4%90%E1%BA%A1i_C%E1%BB%93_Vi%E1%BB%87t_War",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-champa-982",
+   "label": "Lê Hoàn's campaign against Champa",
+   "year": 982,
+   "description": "Lê Hoàn sacked the Cham capital Indrapura in 982, the first major Vietnamese strike south — the opening move of the nam tiến that runs through this whole history (Chapter 11).",
+   "wikiSlug": "Champa",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-tribute-song",
+   "label": "The tribute settlement with Song China",
+   "year": 986,
+   "description": "Đại Việt accepted nominal tributary status toward the Song while remaining fully self-governing — the durable diplomatic formula that let a small neighbor manage a giant one for nine centuries.",
+   "wikiSlug": "Tributary_system_of_China",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-monk-advisers",
+   "label": "Buddhist monks as the first statesmen",
+   "year": 980,
+   "description": "Learned monks such as Khuông Việt and Vạn Hạnh served as senior court advisers, because in a barely-literate new state the monasteries held the administrative and diplomatic expertise.",
+   "wikiSlug": "V%E1%BA%A1n_H%E1%BA%A1nh",
+   "tier": 3,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-le-long-dinh",
+   "label": "The collapse of the Early Lê",
+   "year": 1005,
+   "description": "The cruel and short reign of Lê Long Đĩnh ended the Early Lê in disorder, opening the way for the court official Lý Công Uẩn and the long Lý dynasty.",
+   "wikiSlug": "L%C3%AA_Long_%C4%90%C4%A9nh",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1009
+  },
+  {
+   "id": "evt-daiviet-ly-thai-to",
+   "label": "Lý Thái Tổ founds the Lý dynasty",
+   "year": 1009,
+   "description": "Backed by the Buddhist establishment, the official Lý Công Uẩn took the throne in 1009 as Lý Thái Tổ, beginning Vietnam's first long, stable dynasty (over two centuries).",
+   "wikiSlug": "L%C3%BD_Th%C3%A1i_T%E1%BB%95",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-thang-long",
+   "label": "The move to Thăng Long, 1010",
+   "year": 1010,
+   "description": "Lý Thái Tổ moved the capital from mountain-locked Hoa Lư to Đại La on the Red River and renamed it Thăng Long, \"Ascending Dragon\" — modern Hanoi. His Edict on the Transfer argued the open plain suited a state confident enough to face outward, not hide.",
+   "wikiSlug": "Hanoi",
+   "tier": 1,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-ly-thai-tong",
+   "label": "Lý Thái Tông",
+   "year": 1028,
+   "description": "The second Lý emperor consolidated the dynasty, codified law, and expanded the bureaucratic and ritual machinery of a centralized state.",
+   "wikiSlug": "L%C3%BD_Th%C3%A1i_T%C3%B4ng",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1054
+  },
+  {
+   "id": "evt-daiviet-one-pillar",
+   "label": "The One Pillar Pagoda",
+   "year": 1049,
+   "description": "Built by Lý Thái Tông as a wooden lotus rising from a single stone pillar in a pond, the Chùa Một Cột is the signature monument of the Buddhist Lý state and an enduring national emblem.",
+   "wikiSlug": "One_Pillar_Pagoda",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-temple-literature",
+   "label": "The Temple of Literature founded",
+   "year": 1070,
+   "description": "Lý Thánh Tông built the Văn Miếu in Thăng Long, a Confucian temple to Confucius — the first institutional foothold of the scholar-official ideology that would eventually displace Buddhism from the state.",
+   "wikiSlug": "Temple_of_Literature,_Hanoi",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-quoc-tu-giam",
+   "label": "The Imperial Academy, 1076",
+   "year": 1076,
+   "description": "The Quốc Tử Giám, attached to the Temple of Literature, was Vietnam's first university, training the mandarins who ran the state by the book — three centuries before any European university existed in the region.",
+   "wikiSlug": "Imperial_Academy_(Vietnam)",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-first-exam",
+   "label": "The first civil service examination, 1075",
+   "year": 1075,
+   "description": "The Lý held Vietnam's first Confucian-style examination to recruit officials by merit, importing the Chinese meritocratic model that would define Vietnamese governance for 850 years.",
+   "wikiSlug": "Imperial_examination_in_Vietnam",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-ly-thuong-kiet",
+   "label": "The general Lý Thường Kiệt",
+   "year": 1075,
+   "description": "A eunuch-general of extraordinary ability, Lý Thường Kiệt commanded the wars against both Song China and Champa and is, with Trần Hưng Đạo, one of the two supreme military figures of pre-modern Vietnam.",
+   "wikiSlug": "L%C3%BD_Th%C6%B0%E1%BB%9Dng_Ki%E1%BB%87t",
+   "tier": 2,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-nam-quoc",
+   "label": "\"Nam quốc sơn hà,\" the independence poem",
+   "year": 1077,
+   "description": "The four-line poem declaring that \"the mountains and rivers of the Southern country\" belong to the Southern emperor by Heaven's decree, recited to the troops at the Như Nguyệt front, is often called Vietnam's first declaration of independence.",
+   "wikiSlug": "Nam_qu%E1%BB%91c_s%C6%A1n_h%C3%A0",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-ly-buddhism",
+   "label": "State Buddhism and the Thiền schools",
+   "year": 1010,
+   "description": "The Lý state was Buddhist to its core, patronizing Thiền (Zen) lineages, building thousands of pagodas, and giving monasteries land and tax exemption — the religious order the later Confucians would resent and dismantle.",
+   "wikiSlug": "Thi%E1%BB%81n_Buddhism",
+   "tier": 2,
+   "tags": [],
+   "category": "religion",
+   "endYear": 1225
+  },
+  {
+   "id": "evt-daiviet-ly-dikes",
+   "label": "The Red River dike system",
+   "year": 1108,
+   "description": "The Lý organized large-scale dike and embankment works (notably the Cơ Xá dike, 1108) to control the Red River's catastrophic floods — the hydraulic statecraft that, as for the Khmer, tied legitimacy to water management.",
+   "wikiSlug": "Red_River_Delta",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-daiviet-ly-nhan-tong",
+   "label": "The long reign of Lý Nhân Tông",
+   "year": 1072,
+   "description": "Reigning over half a century, Lý Nhân Tông presided over the dynasty's golden age: the academy, the examinations, and the victorious war with Song.",
+   "wikiSlug": "L%C3%BD_Nh%C3%A2n_T%C3%B4ng",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1127
+  },
+  {
+   "id": "evt-daiviet-ly-decline",
+   "label": "The decline of the Lý and the rise of the Trần",
+   "year": 1210,
+   "description": "A weak late-Lý court fell under the control of the Trần clan, whose strongman Trần Thủ Độ engineered the dynasty's end through a marriage and a coup.",
+   "wikiSlug": "Tr%E1%BA%A7n_Th%E1%BB%A7_%C4%90%E1%BB%99",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1225
+  },
+  {
+   "id": "evt-daiviet-yongzhou",
+   "label": "Lý Thường Kiệt's pre-emptive strike, 1075",
+   "year": 1075,
+   "description": "Learning the Song planned to invade, Lý Thường Kiệt struck first, leading an army and fleet across the border and storming the Song city of Yongzhou — a rare case of a small state pre-emptively invading a superpower.",
+   "wikiSlug": "L%C3%BD%E2%80%93Song_War",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-nhu-nguyet",
+   "label": "The Battle of the Như Nguyệt River, 1077",
+   "year": 1077,
+   "description": "Lý Thường Kiệt halted the Song counter-invasion on the Như Nguyệt (Cầu) River line, fought it to a standstill, and negotiated a withdrawal — securing independence and the disputed frontier.",
+   "wikiSlug": "L%C3%BD%E2%80%93Song_War",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-song-frontier",
+   "label": "The negotiated Song frontier",
+   "year": 1084,
+   "description": "Post-war negotiations fixed the Đại Việt–Song border and reopened frontier trade markets, settling the northern frontier on terms that held, roughly, for centuries.",
+   "wikiSlug": "L%C3%BD%E2%80%93Song_War",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-ly-champa",
+   "label": "The Lý wars with Champa",
+   "year": 1069,
+   "description": "Lý emperors repeatedly campaigned against Champa, the Austronesian-speaking Hindu kingdom on the central coast, extracting territory and tribute — the slow start of the Vietnamese push south.",
+   "wikiSlug": "Champa",
+   "tier": 2,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1220
+  },
+  {
+   "id": "evt-daiviet-champa-cession",
+   "label": "Champa cedes its northern provinces",
+   "year": 1069,
+   "description": "After a Lý campaign captured the Cham king, Champa ceded three northern provinces (around modern Quảng Bình–Quảng Trị), the first major southward extension of Vietnamese territory.",
+   "wikiSlug": "Champa",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-van-don",
+   "label": "The port of Vân Đồn opens, 1149",
+   "year": 1149,
+   "description": "The Lý opened Vân Đồn, an island port on the northeast coast, as Vietnam's first major international trading station, plugging Đại Việt into the maritime commerce that linked Song China, Champa, and the Srivijaya world.",
+   "wikiSlug": "V%C3%A2n_%C4%90%E1%BB%93n_District",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-maritime-trade",
+   "label": "Maritime trade and the river navy",
+   "year": 1150,
+   "description": "Đại Việt built its military and commercial power on rivers and coast: war-junk fleets, riverine logistics, and seaborne trade in ceramics and silk with China and Southeast Asia.",
+   "wikiSlug": "History_of_Vietnam",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-khmer-triangle",
+   "label": "The Đại Việt–Champa–Khmer triangle",
+   "year": 1145,
+   "description": "Đại Việt, Champa, and the Khmer Empire fought a chronic three-way war on the mainland; Suryavarman II of Angkor invaded Đại Việt in the 1120s–1140s, the Khmer side of the same conflict.",
+   "wikiSlug": "Champa",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-ceramics",
+   "label": "The Đại Việt ceramics industry",
+   "year": 1175,
+   "description": "Lý–Trần kilns produced fine glazed stoneware exported across maritime Southeast Asia, a major Vietnamese contribution to the regional trade economy and a marker of its craft sophistication.",
+   "wikiSlug": "Vietnamese_ceramics",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-ly-chieu-hoang",
+   "label": "Lý Chiêu Hoàng, the last Lý monarch",
+   "year": 1224,
+   "description": "The Lý line ended with the child-empress Lý Chiêu Hoàng, the only reigning empress in Vietnamese history, married off at age seven to Trần Cảnh.",
+   "wikiSlug": "L%C3%BD_Chi%C3%AAu_Ho%C3%A0ng",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-tran-transfer",
+   "label": "Trần Thủ Độ engineers the dynastic transfer, 1225",
+   "year": 1225,
+   "description": "The clan strongman Trần Thủ Độ arranged the boy-husband Trần Cảnh's accession and the Lý abdication, transferring the throne to the Trần without a battle — then liquidated the surviving Lý.",
+   "wikiSlug": "Tr%E1%BA%A7n_Th%E1%BB%A7_%C4%90%E1%BB%99",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-tran-founded",
+   "label": "The Trần dynasty founded, 1225",
+   "year": 1225,
+   "description": "Trần Cảnh became Trần Thái Tông, founding a dynasty that would beat the Mongols three times and rank among the most consequential in Vietnamese history.",
+   "wikiSlug": "Tr%E1%BA%A7n_dynasty",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-tran-purge",
+   "label": "Trần Thủ Độ's purge of the Lý",
+   "year": 1232,
+   "description": "To secure the new dynasty Trần Thủ Độ exterminated the Lý clan and forced Lý descendants to change their surname — a brutal consolidation typical of contested Vietnamese successions.",
+   "wikiSlug": "Tr%E1%BA%A7n_Th%E1%BB%A7_%C4%90%E1%BB%99",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-retired-emperor",
+   "label": "The retired-emperor system",
+   "year": 1258,
+   "description": "The Trần institutionalized abdication: an emperor would step back as senior \"retired emperor\" (Thái thượng hoàng) while training his successor, producing unusually smooth Trần successions in a culture where succession was usually lethal.",
+   "wikiSlug": "Tr%E1%BA%A7n_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-mongol-1258",
+   "label": "The first Mongol invasion, 1258",
+   "year": 1258,
+   "description": "A Mongol army drove into the Red River delta and briefly took Thăng Long; the Trần traded space for time, let disease and heat wear the invaders down, and counter-attacked at Đông Bộ Đầu to expel them.",
+   "wikiSlug": "First_Mongol_invasion_of_%C4%90%E1%BA%A1i_Vi%E1%BB%87t",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-yuan-tribute",
+   "label": "The tribute-and-defiance balance with the Yuan",
+   "year": 1262,
+   "description": "Between invasions the Trần sent tribute to Kublai Khan's Yuan while refusing the demands that mattered — a personal imperial visit, a census, troops — buying time without surrendering sovereignty.",
+   "wikiSlug": "Yuan_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-dien-hong",
+   "label": "The Diên Hồng conference, 1284",
+   "year": 1284,
+   "description": "Facing the second Mongol invasion, the retired emperor summoned the elders of the realm to the Diên Hồng palace and asked whether to fight or submit; their roared answer to fight became the founding image of Vietnamese popular resolve.",
+   "wikiSlug": "Di%C3%AAn_H%E1%BB%93ng_conference",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-hich-tuong-si",
+   "label": "\"Hịch tướng sĩ,\" the Proclamation to the Officers",
+   "year": 1284,
+   "description": "Trần Hưng Đạo's exhortation to his commanders, urging them to shame and duty before the Mongol war, is one of the most famous texts in Vietnamese literature and military culture.",
+   "wikiSlug": "H%E1%BB%8Bch_t%C6%B0%E1%BB%9Bng_s%C4%A9",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-mongol-1285",
+   "label": "The second Mongol invasion, 1285",
+   "year": 1285,
+   "description": "A massive Yuan army under prince Toghan, coordinated with a force under Sogetu from Champa, overran much of the country before Trần counter-offensives at Hàm Tử, Chương Dương, and Tây Kết destroyed it.",
+   "wikiSlug": "Second_Mongol_invasion_of_%C4%90%E1%BA%A1i_Vi%E1%BB%87t",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-tran-hung-dao",
+   "label": "Trần Hưng Đạo appointed supreme commander",
+   "year": 1285,
+   "description": "Prince Trần Quốc Tuấn, Trần Hưng Đạo, took overall command against the Mongols; his fighting-withdrawal strategy and mobilization of the populace defined the Vietnamese way of war.",
+   "wikiSlug": "Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o",
+   "tier": 1,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-tran-nhan-tong",
+   "label": "Trần Nhân Tông, the warrior-monk emperor",
+   "year": 1278,
+   "description": "Trần Nhân Tông led the realm through the second and third Mongol wars, then abdicated to become a monk and found the Trúc Lâm Zen school — a Vietnamese fusion of kingship and Buddhism.",
+   "wikiSlug": "Tr%E1%BA%A7n_Nh%C3%A2n_T%C3%B4ng",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1308
+  },
+  {
+   "id": "evt-daiviet-su-ky",
+   "label": "Lê Văn Hưu's Đại Việt sử ký, 1272",
+   "year": 1272,
+   "description": "Lê Văn Hưu completed the Đại Việt sử ký, Vietnam's first formal national history, asserting a continuous Vietnamese dynastic line independent of and equal to China's.",
+   "wikiSlug": "%C4%90%E1%BA%A1i_Vi%E1%BB%87t_s%E1%BB%AD_k%C3%BD",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-chu-nom",
+   "label": "The chữ Nôm vernacular script",
+   "year": 1280,
+   "description": "Scholars adapted Chinese characters to write spoken Vietnamese (chữ Nôm), enabling a vernacular literature distinct from classical Chinese — a slow assertion of cultural independence in writing itself.",
+   "wikiSlug": "Ch%E1%BB%AF_N%C3%B4m",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-mongol-1287",
+   "label": "The third Mongol invasion, 1287–88",
+   "year": 1287,
+   "description": "Kublai Khan launched a third invasion built around a seaborne supply fleet; the Trần let the army exhaust itself and targeted the vulnerable fleet instead.",
+   "wikiSlug": "Third_Mongol_invasion_of_%C4%90%E1%BA%A1i_Vi%E1%BB%87t",
+   "tier": 1,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1288
+  },
+  {
+   "id": "evt-daiviet-bach-dang-1288",
+   "label": "The Battle of Bạch Đằng, 1288",
+   "year": 1288,
+   "description": "Trần Hưng Đạo repeated Ngô Quyền's 938 trick at colossal scale: stakes hidden in the Bạch Đằng river bed, the battle timed to the tide, and the entire Yuan fleet annihilated as the water dropped — the decisive end of the Mongol threat.",
+   "wikiSlug": "Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288)",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-binh-thu",
+   "label": "Trần Hưng Đạo's military treatise",
+   "year": 1288,
+   "description": "Trần Hưng Đạo set down his doctrine of mobile defense, popular mobilization, and exploiting terrain and time against a stronger enemy — a text studied in Vietnamese military thought ever since.",
+   "wikiSlug": "Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-daiviet-hung-dao-cult",
+   "label": "The deification of Trần Hưng Đạo",
+   "year": 1300,
+   "description": "After his death in 1300 Trần Hưng Đạo was worshipped as Đức Thánh Trần, a protective deity with temples nationwide — a rare case of a documented general becoming a popular god.",
+   "wikiSlug": "Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o",
+   "tier": 2,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-truc-lam",
+   "label": "The Trúc Lâm Zen school",
+   "year": 1299,
+   "description": "Trần Nhân Tông founded the Trúc Lâm (\"Bamboo Grove\") school, the first distinctively Vietnamese Buddhist lineage, fusing Thiền practice with the prestige of an abdicated emperor.",
+   "wikiSlug": "Tr%C3%BAc_L%C3%A2m",
+   "tier": 2,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-che-bong-nga",
+   "label": "Chế Bồng Nga's Cham counter-offensive",
+   "year": 1371,
+   "description": "The Cham king Chế Bồng Nga (Po Binasuor) turned the tables, sacking Thăng Long itself in 1371 and raiding it again in 1377 and 1383 — Champa's last and most dangerous resurgence.",
+   "wikiSlug": "Po_Binasuor",
+   "tier": 2,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1390
+  },
+  {
+   "id": "evt-daiviet-tran-due-tong",
+   "label": "King Trần Duệ Tông killed at Vijaya, 1377",
+   "year": 1377,
+   "description": "A Vietnamese invasion of Champa ended in catastrophe when Trần Duệ Tông was killed before Vijaya — a humiliation that helped discredit the late Trần.",
+   "wikiSlug": "Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-che-bong-nga-death",
+   "label": "The death of Chế Bồng Nga, 1390",
+   "year": 1390,
+   "description": "Chế Bồng Nga was killed by gunfire in a river battle in 1390; with him died Champa's ability to threaten the north, and the long Vietnamese advance south resumed for good.",
+   "wikiSlug": "Po_Binasuor",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-tran-decline",
+   "label": "The decline of the Trần",
+   "year": 1369,
+   "description": "Late-Trần courts were weakened by Cham wars, factional murder, fiscal crisis, and a swelling class of estate-holding aristocrats — the disorder the official Hồ Quý Ly would exploit.",
+   "wikiSlug": "Tr%E1%BA%A7n_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1400
+  },
+  {
+   "id": "evt-daiviet-confucian-rise",
+   "label": "The rise of the Confucian scholar-officials",
+   "year": 1370,
+   "description": "A new class of examination-trained Confucian scholars, hostile to the land-rich Buddhist monasteries and aristocratic estates, began pushing the state toward the Confucian model that would triumph under the Lê.",
+   "wikiSlug": "Confucianism",
+   "tier": 3,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-pho-minh",
+   "label": "Trần religious architecture",
+   "year": 1305,
+   "description": "Trần-era temple complexes such as Phổ Minh, with its great stupa, expressed the dynasty's Trúc Lâm Buddhism in stone and brick before the Confucian turn moved patronage elsewhere.",
+   "wikiSlug": "Tr%E1%BA%A7n_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-ho-quy-ly-rise",
+   "label": "Hồ Quý Ly seizes power",
+   "year": 1395,
+   "description": "The reformist official Hồ Quý Ly accumulated total control over the dying Trần court, ruling as regent before taking the throne outright.",
+   "wikiSlug": "H%E1%BB%93_Qu%C3%BD_Ly",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1400
+  },
+  {
+   "id": "evt-daiviet-ho-dynasty",
+   "label": "Hồ Quý Ly founds the Hồ dynasty, 1400",
+   "year": 1400,
+   "description": "Hồ Quý Ly deposed the Trần and founded the Hồ dynasty, renaming the state Đại Ngu and launching a sweeping reform program in a desperate few years.",
+   "wikiSlug": "H%E1%BB%93_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1407
+  },
+  {
+   "id": "evt-daiviet-ho-reforms",
+   "label": "The Hồ reforms",
+   "year": 1400,
+   "description": "Hồ Quý Ly issued the world's early state paper money, capped landholdings and slaveholding, expanded examinations, promoted chữ Nôm, and standardized weights — radical measures that alienated the elite without time to take root.",
+   "wikiSlug": "H%E1%BB%93_Qu%C3%BD_Ly",
+   "tier": 2,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-daiviet-ho-citadel",
+   "label": "The Citadel of the Hồ Dynasty",
+   "year": 1397,
+   "description": "The massive dressed-stone Tây Đô citadel, built in months, is the best-preserved monument of the era and a UNESCO World Heritage Site — an engineering marvel of a regime that barely lasted.",
+   "wikiSlug": "Citadel_of_the_H%E1%BB%93_Dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-ming-invasion",
+   "label": "The Ming invasion, 1406–07",
+   "year": 1406,
+   "description": "Using the pretext of restoring the Trần, the Yongle Ming launched a huge invasion, captured the Hồ emperors, and annexed the country outright.",
+   "wikiSlug": "Ming%E2%80%93H%E1%BB%93_War",
+   "tier": 1,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1407
+  },
+  {
+   "id": "evt-daiviet-ming-occupation",
+   "label": "The Ming occupation (Jiaozhi)",
+   "year": 1407,
+   "description": "For twenty years Đại Việt was a Ming province, Jiaozhi, under direct Chinese administration — the only full reconquest of Vietnam after 939, and a deliberate attempt to erase its separate identity.",
+   "wikiSlug": "Fourth_Era_of_Northern_Domination",
+   "tier": 1,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1427
+  },
+  {
+   "id": "evt-daiviet-ming-suppression",
+   "label": "Ming cultural suppression",
+   "year": 1407,
+   "description": "The Ming deported scholars and artisans to China, burned or confiscated Vietnamese books and records, and imposed Ming dress and customs — cultural destruction that erased much of the early documentary record.",
+   "wikiSlug": "Fourth_Era_of_Northern_Domination",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-lam-son",
+   "label": "The Lam Sơn uprising begins, 1418",
+   "year": 1418,
+   "description": "The landowner Lê Lợi raised the Lam Sơn revolt in the Thanh Hóa hills, surviving years of near-annihilation through guerrilla war before turning to the offensive.",
+   "wikiSlug": "Lam_S%C6%A1n_uprising",
+   "tier": 1,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1427
+  },
+  {
+   "id": "evt-daiviet-nguyen-trai",
+   "label": "Nguyễn Trãi, the strategist",
+   "year": 1420,
+   "description": "The scholar Nguyễn Trãi became Lê Lợi's chief strategist and propagandist, waging a war of letters and persuasion alongside the military campaign — one of Vietnam's towering literary and political figures.",
+   "wikiSlug": "Nguy%E1%BB%85n_Tr%C3%A3i",
+   "tier": 1,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-tot-dong",
+   "label": "The Battle of Tốt Động – Chúc Động, 1426",
+   "year": 1426,
+   "description": "A Lam Sơn ambush destroyed a major Ming field army near Thăng Long, the turning point from guerrilla survival to strategic offensive.",
+   "wikiSlug": "Lam_S%C6%A1n_uprising",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-chi-lang",
+   "label": "The Battle of Chi Lăng – Xương Giang, 1427",
+   "year": 1427,
+   "description": "Lê Lợi's forces annihilated the Ming relief army at the Chi Lăng pass, killing its commander and forcing the besieged Ming garrison to negotiate withdrawal.",
+   "wikiSlug": "Battle_of_Chi_L%C4%83ng_%E2%80%93_X%C6%B0%C6%A1ng_Giang",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-binh-ngo",
+   "label": "The \"Bình Ngô đại cáo,\" 1428",
+   "year": 1428,
+   "description": "Nguyễn Trãi's \"Great Proclamation upon the Pacification of the Wu\" announced victory and independence in ringing classical prose; it is regarded as Vietnam's second declaration of independence and a masterpiece of the language.",
+   "wikiSlug": "B%C3%ACnh_Ng%C3%B4_%C4%91%E1%BA%A1i_c%C3%A1o",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-le-loi",
+   "label": "Lê Lợi founds the Later Lê dynasty, 1428",
+   "year": 1428,
+   "description": "Lê Lợi took the throne as Lê Thái Tổ, founding the Later Lê — nominally the longest dynasty in Vietnamese history (1428–1789, with interruptions).",
+   "wikiSlug": "L%C3%AA_L%E1%BB%A3i",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-le-thai-to-rule",
+   "label": "Lê Thái Tổ's consolidation",
+   "year": 1428,
+   "description": "Lê Thái Tổ rebuilt a war-ruined country, redistributed land to soldiers, and restored the examination state — while purging the comrades he feared.",
+   "wikiSlug": "L%C3%AA_L%E1%BB%A3i",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1433
+  },
+  {
+   "id": "evt-daiviet-nguyen-trai-death",
+   "label": "The execution of Nguyễn Trãi, 1442",
+   "year": 1442,
+   "description": "Nguyễn Trãi was executed with three generations of his family over the suspicious death of a young emperor (the Lệ Chi Viên affair); he was posthumously exonerated decades later, a famous miscarriage of dynastic justice.",
+   "wikiSlug": "Nguy%E1%BB%85n_Tr%C3%A3i",
+   "tier": 2,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-le-thanh-tong",
+   "label": "The reign of Lê Thánh Tông",
+   "year": 1460,
+   "description": "Lê Thánh Tông's 37-year reign is the conventional golden age: administrative, legal, military, and cultural reforms that set the template for the next four centuries.",
+   "wikiSlug": "L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1497
+  },
+  {
+   "id": "evt-daiviet-hong-duc-code",
+   "label": "The Hồng Đức legal code",
+   "year": 1483,
+   "description": "The Lê Code (Quốc triều hình luật) was a sophisticated body of law notable for, among other things, real property and inheritance rights for women — unusually protective by the standards of contemporary East Asian law.",
+   "wikiSlug": "L%C3%AA_Code",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-admin-reform",
+   "label": "The provincial administrative reform",
+   "year": 1466,
+   "description": "Lê Thánh Tông abolished the great aristocratic commands and reorganized the country into thirteen regular provinces run by examination-recruited officials — a centralized bureaucratic state on the Ming model.",
+   "wikiSlug": "L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-confucian-state",
+   "label": "The Confucian state triumphant",
+   "year": 1463,
+   "description": "Under Lê Thánh Tông the Confucian scholar-bureaucracy decisively displaced Buddhism from the center of the state; the monasteries lost their political role and Vietnam became, at the top, a Confucian polity.",
+   "wikiSlug": "Confucianism_in_Vietnam",
+   "tier": 2,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-hong-duc-map",
+   "label": "The Hồng Đức cadastral survey and maps",
+   "year": 1490,
+   "description": "A nationwide land survey and the Hồng Đức maps recorded the realm's geography and taxable land in detail — statecraft as information, and the basis of Lê fiscal power.",
+   "wikiSlug": "L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-daiviet-toan-thu",
+   "label": "The Đại Việt sử ký toàn thư",
+   "year": 1479,
+   "description": "Ngô Sĩ Liên compiled the Complete Annals of Đại Việt, the comprehensive official history that, in its later printed form, is the single most important narrative source for pre-modern Vietnam.",
+   "wikiSlug": "%C4%90%E1%BA%A1i_Vi%E1%BB%87t_s%E1%BB%AD_k%C3%BD_to%C3%A0n_th%C6%B0",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-tao-dan",
+   "label": "The Tao Đàn poetry society",
+   "year": 1495,
+   "description": "Lê Thánh Tông presided over the Tao Đàn, a court society of twenty-eight poet-officials, the institutional peak of classical Vietnamese literary culture.",
+   "wikiSlug": "L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
+   "tier": 3,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-vijaya-1471",
+   "label": "The conquest of Vijaya, 1471",
+   "year": 1471,
+   "description": "Lê Thánh Tông stormed and destroyed the Cham capital Vijaya, killing or deporting tens of thousands and reducing Champa to a small client rump — effectively the end of Champa as a power and the great leap of the nam tiến (Chapter 11).",
+   "wikiSlug": "Cham%E2%80%93Vietnamese_War_(1471)",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-lan-xang",
+   "label": "The campaign into Lan Xang",
+   "year": 1479,
+   "description": "Lê Thánh Tông's armies drove west into the Lao kingdom of Lan Xang, the high-water mark of Đại Việt's land power before the dynasty's long decline.",
+   "wikiSlug": "L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-population-growth",
+   "label": "Agricultural and demographic expansion",
+   "year": 1470,
+   "description": "Lê land policy, dike maintenance, and the opening of newly conquered southern land drove population growth that, over the next centuries, would supply the settlers of the nam tiến.",
+   "wikiSlug": "L%C3%AA_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-post-thanh-tong",
+   "label": "The post-golden-age decline",
+   "year": 1497,
+   "description": "After Lê Thánh Tông a run of weak, short-lived, and violent reigns hollowed out the Lê state within a generation of its peak.",
+   "wikiSlug": "L%C3%AA_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1527
+  },
+  {
+   "id": "evt-daiviet-mac-dang-dung",
+   "label": "Mạc Đăng Dung usurps the throne, 1527",
+   "year": 1527,
+   "description": "The general Mạc Đăng Dung deposed the Lê and founded the Mạc dynasty, triggering sixty-five years of civil war over the legitimate throne.",
+   "wikiSlug": "M%E1%BA%A1c_%C4%90%C4%83ng_Dung",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-mac-ming",
+   "label": "The Mạc submission to Ming China, 1540",
+   "year": 1540,
+   "description": "To forestall a Ming invasion exploiting the succession crisis, Mạc Đăng Dung formally submitted to the Ming and ceded border land — a humiliation that Lê propaganda used against the Mạc for centuries.",
+   "wikiSlug": "M%E1%BA%A1c_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-le-restoration",
+   "label": "The Lê Restoration, 1533",
+   "year": 1533,
+   "description": "The loyalist general Nguyễn Kim proclaimed a Lê prince emperor in the south, founding the \"Revival Lê\" — restored in name but, from the start, a puppet of the warlords who fought for him.",
+   "wikiSlug": "L%C3%AA_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-trinh-kiem",
+   "label": "Trịnh Kiểm and the rise of the Trịnh",
+   "year": 1545,
+   "description": "On Nguyễn Kim's death his son-in-law Trịnh Kiểm seized control of the Lê-loyalist cause, founding the line of Trịnh lords who would rule the north behind a Lê figurehead.",
+   "wikiSlug": "Tr%E1%BB%8Bnh_Ki%E1%BB%83m",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-nguyen-hoang",
+   "label": "Nguyễn Hoàng goes south, 1558",
+   "year": 1558,
+   "description": "Distrusted by his Trịnh in-laws, Nguyễn Hoàng obtained the governorship of remote Thuận Hóa in the far south and quietly built an autonomous power base — the seed of the Trịnh–Nguyễn split and of southern Vietnam.",
+   "wikiSlug": "Nguy%E1%BB%85n_Ho%C3%A0ng",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-le-mac-war",
+   "label": "The Lê–Mạc civil war",
+   "year": 1545,
+   "description": "Decades of war between the Mạc in the north and the Lê-Trịnh forces from the south devastated the delta before the Mạc capital fell.",
+   "wikiSlug": "L%C3%AA%E2%80%93M%E1%BA%A1c_War",
+   "tier": 2,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1592
+  },
+  {
+   "id": "evt-daiviet-trinh-tung",
+   "label": "Trịnh Tùng takes Thăng Long, 1592",
+   "year": 1592,
+   "description": "Trịnh Tùng captured Thăng Long and broke the main Mạc line, reuniting the north under a restored Lê emperor who was, in reality, his prisoner-puppet.",
+   "wikiSlug": "Tr%E1%BB%8Bnh_T%C3%B9ng",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-mac-caobang",
+   "label": "The Mạc remnant at Cao Bằng",
+   "year": 1593,
+   "description": "Under Ming protection a Mạc rump survived in the far-northern uplands of Cao Bằng for another eighty-odd years, a lingering reminder of the contested throne.",
+   "wikiSlug": "M%E1%BA%A1c_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1677
+  },
+  {
+   "id": "evt-daiviet-nguyen-binh-khiem",
+   "label": "Nguyễn Bỉnh Khiêm, the scholar-prophet",
+   "year": 1535,
+   "description": "The most celebrated scholar of the age, Nguyễn Bỉnh Khiêm, served and then withdrew from the Mạc court; his oracular verses (the Sấm Trạng Trình) became legendary, including advice said to have set Nguyễn Hoàng on his road south.",
+   "wikiSlug": "Nguy%E1%BB%85n_B%E1%BB%89nh_Khi%C3%AAm",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-civil-war-devastation",
+   "label": "The cost of the dynastic wars",
+   "year": 1570,
+   "description": "Two generations of Mạc–Lê and intra-loyalist warfare wrecked the northern economy and population, the grim backdrop to the partition that followed.",
+   "wikiSlug": "L%C3%AA%E2%80%93M%E1%BA%A1c_War",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-le-figurehead",
+   "label": "The Lê emperor as sacred figurehead",
+   "year": 1600,
+   "description": "From the Restoration on, the Lê emperor reigned but did not rule: a legitimating relic kept on the throne while Trịnh and Nguyễn lords held real power — a uniquely durable Vietnamese fiction.",
+   "wikiSlug": "Revival_L%C3%AA_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-trinh-lords",
+   "label": "The Trịnh lords rule the North (Đàng Ngoài)",
+   "year": 1600,
+   "description": "The Trịnh lords (chúa Trịnh) governed the north — Đàng Ngoài, \"the Outer Region\" — as hereditary military dictators ruling in the puppet Lê emperor's name from Thăng Long.",
+   "wikiSlug": "Tr%E1%BB%8Bnh_lords",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1787
+  },
+  {
+   "id": "evt-daiviet-nguyen-lords",
+   "label": "The Nguyễn lords rule the South (Đàng Trong)",
+   "year": 1600,
+   "description": "The Nguyễn lords (chúa Nguyễn) ruled the south — Đàng Trong, \"the Inner Region\" — as a de facto independent state from Phú Xuân (Huế), still nominally Lê subjects.",
+   "wikiSlug": "Nguy%E1%BB%85n_lords",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1777
+  },
+  {
+   "id": "evt-daiviet-trinh-nguyen-war",
+   "label": "The Trịnh–Nguyễn War, 1627–1672",
+   "year": 1627,
+   "description": "Seven major Trịnh offensives over forty-five years failed to break the Nguyễn south; the war ended not in victory but in exhaustion and a de facto partition of the country.",
+   "wikiSlug": "Tr%E1%BB%8Bnh%E2%80%93Nguy%E1%BB%85n_War",
+   "tier": 1,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1672
+  },
+  {
+   "id": "evt-daiviet-nguyen-walls",
+   "label": "The Nguyễn defensive walls",
+   "year": 1631,
+   "description": "The Nguyễn held the south behind the great earthen ramparts around Đồng Hới (the Trường Dục and Nhật Lệ/\"Thầy\" walls), fortifications strong enough to stop the larger northern armies cold.",
+   "wikiSlug": "%C4%90%E1%BB%93ng_H%E1%BB%9Bi_Wall",
+   "tier": 3,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-european-arms",
+   "label": "European firearms and the war",
+   "year": 1640,
+   "description": "The Dutch VOC allied with the Trịnh and the Portuguese supplied the Nguyễn with cannon and gun-casting expertise; the partition was fought partly with European artillery, plugging Vietnam into the global arms trade.",
+   "wikiSlug": "Trịnh%E2%80%93Nguy%E1%BB%85n_War",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-de-rhodes",
+   "label": "Alexandre de Rhodes and chữ Quốc ngữ",
+   "year": 1651,
+   "description": "Jesuit missionaries, systematized by Alexandre de Rhodes whose dictionary and catechism were printed in 1651, devised a Latin-alphabet script for Vietnamese (chữ Quốc ngữ) — eventually, centuries later, the national writing system.",
+   "wikiSlug": "Alexandre_de_Rhodes",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-hoi-an",
+   "label": "Hội An, the international port",
+   "year": 1620,
+   "description": "Under the Nguyễn, Hội An (Faifo) became one of Southeast Asia's great trading ports, with permanent Japanese and Chinese quarters and European traders — the commercial engine of the southern state.",
+   "wikiSlug": "H%E1%BB%99i_An",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-christianity",
+   "label": "Christianity arrives and is persecuted",
+   "year": 1615,
+   "description": "Catholic missions won substantial conversions in both regions; periodic persecution by Trịnh and Nguyễn courts began a long, fraught Christian presence that later became a pretext for French intervention.",
+   "wikiSlug": "Catholic_Church_in_Vietnam",
+   "tier": 2,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-1672-truce",
+   "label": "The 1672 truce and de facto partition",
+   "year": 1672,
+   "description": "After 1672 the two sides stopped fighting along a fortified line near the Gianh River; for the next century Vietnam was two states under one fictional emperor.",
+   "wikiSlug": "Tr%E1%BB%8Bnh%E2%80%93Nguy%E1%BB%85n_War",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-cochinchina-tonkin",
+   "label": "\"Tonkin\" and \"Cochinchina\"",
+   "year": 1650,
+   "description": "European traders named the Trịnh north \"Tonkin\" and the Nguyễn south \"Cochinchina,\" terms that stuck for three centuries and signal how the outside world already saw two Vietnams.",
+   "wikiSlug": "Tonkin",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-cultural-divergence",
+   "label": "North–South cultural divergence",
+   "year": 1650,
+   "description": "A century of separation produced lasting differences in dialect, cuisine, religion, and temperament between north and south — a divide that would echo into the twentieth century.",
+   "wikiSlug": "%C4%90%C3%A0ng_Trong",
+   "tier": 3,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-trinh-reforms",
+   "label": "Trịnh administration of the north",
+   "year": 1660,
+   "description": "The mature Trịnh state ran a sophisticated dual government (the Lê court for ritual, the Trịnh chancellery for power), restored examinations, and stabilized the north after the Mạc wars.",
+   "wikiSlug": "Tr%E1%BB%8Bnh_lords",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-nam-tien",
+   "label": "The nam tiến, the \"march to the south\"",
+   "year": 1500,
+   "description": "Over eight centuries Vietnam's center of gravity migrated roughly 800 miles south from the Red River delta to the Mekong, absorbing Champa and the Khmer Mekong delta — the single largest fact in the shape of modern Vietnam.",
+   "wikiSlug": "Nam_ti%E1%BA%BFn",
+   "tier": 1,
+   "tags": [],
+   "category": "trade",
+   "endYear": 1757
+  },
+  {
+   "id": "evt-daiviet-cham-language",
+   "label": "Champa and the language gap",
+   "year": 1471,
+   "description": "The Cham spoke an Austronesian language, the seafaring island family of Malay and Polynesian — utterly unrelated to Austroasiatic Vietnamese, as far apart as English and a Malay sailor. The conquest of Champa was the absorption of a genuinely distinct people, not a dialect group.",
+   "wikiSlug": "Chams",
+   "tier": 2,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-champa-rump",
+   "label": "Champa reduced to Panduranga",
+   "year": 1471,
+   "description": "After 1471 Champa survived only as the small southern principality of Panduranga, a tributary that the Nguyễn lords would whittle away over the next two centuries (the polity formally ended in 1832).",
+   "wikiSlug": "Panduranga_(Champa)",
+   "tier": 2,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1832
+  },
+  {
+   "id": "evt-daiviet-cham-diaspora",
+   "label": "The Cham diaspora and cultural absorption",
+   "year": 1471,
+   "description": "Cham refugees scattered to Cambodia, Hainan, and the Malay world; those who remained were absorbed, leaving Cham Hindu and Muslim communities and a deep substrate in southern Vietnamese culture.",
+   "wikiSlug": "Chams",
+   "tier": 3,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-nguyen-southward",
+   "label": "The Nguyễn lords drive south",
+   "year": 1611,
+   "description": "The Nguyễn lords annexed the remaining Cham territories in stages (1611, 1653, 1692–93), converting frontier into province as fast as settlers and garrisons could hold it.",
+   "wikiSlug": "Nguy%E1%BB%85n_lords",
+   "tier": 2,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1693
+  },
+  {
+   "id": "evt-daiviet-prey-nokor",
+   "label": "Vietnamese settlement at Prey Nokor (Saigon)",
+   "year": 1623,
+   "description": "A Nguyễn lord obtained Cambodian permission to settle and tax the trading post of Prey Nokor; within decades it was Vietnamese Sài Gòn, the hinge of the Mekong frontier.",
+   "wikiSlug": "Ho_Chi_Minh_City",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-minh-huong",
+   "label": "The Minh Hương: Ming refugees settle the south",
+   "year": 1679,
+   "description": "Thousands of Ming loyalist refugees fleeing the Manchu conquest of China were resettled by the Nguyễn in the lower Mekong, where they founded towns and cleared land — Chinese settlers as agents of Vietnamese expansion.",
+   "wikiSlug": "Minh_H%C6%B0%C6%A1ng",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-mac-cuu",
+   "label": "Mạc Cửu and Hà Tiên",
+   "year": 1708,
+   "description": "The Chinese émigré Mạc Cửu developed the Gulf-of-Thailand port of Hà Tiên and then placed it under Nguyễn protection, extending Vietnamese reach to the far southwestern coast by accretion rather than conquest.",
+   "wikiSlug": "M%E1%BA%A1c_C%E1%BB%ADu",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-mekong-1757",
+   "label": "The acquisition of the Mekong Delta, 1757",
+   "year": 1757,
+   "description": "By 1757 a weakened Cambodia, squeezed between Siam and Vietnam, had ceded the entire lower Mekong delta to the Nguyễn — completing the nam tiến and giving Vietnam its modern southern shape.",
+   "wikiSlug": "Nam_ti%E1%BA%BFn",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-cambodia-pressed",
+   "label": "Cambodia between Siam and Vietnam",
+   "year": 1700,
+   "description": "Post-Angkor Cambodia spent the 17th–18th centuries as a buffer fought over by Siam and the Nguyễn, repeatedly partitioned and reduced — the Khmer side of the same southward pressure.",
+   "wikiSlug": "History_of_Cambodia",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-delta-rice",
+   "label": "The Mekong frontier breadbasket",
+   "year": 1700,
+   "description": "Vietnamese and Chinese settlers turned the lower Mekong's wetlands into one of mainland Asia's great rice surpluses, the agricultural reward that made the nam tiến self-reinforcing.",
+   "wikiSlug": "Mekong_Delta",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-frontier-society",
+   "label": "The frontier society of Đàng Trong",
+   "year": 1650,
+   "description": "The southern frontier bred a more fluid, commercial, ethnically mixed society — Viet, Cham, Khmer, Chinese, upland peoples — markedly unlike the dense Confucian villages of the Red River north.",
+   "wikiSlug": "%C4%90%C3%A0ng_Trong",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-tay-son-revolt",
+   "label": "The Tây Sơn brothers rise, 1771",
+   "year": 1771,
+   "description": "Three brothers from Tây Sơn village — Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ — led a peasant revolt against the corrupt late Nguyễn regime that became the largest upheaval in Vietnamese history.",
+   "wikiSlug": "T%C3%A2y_S%C6%A1n_dynasty",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-nguyen-fall",
+   "label": "The fall of the Nguyễn lords, 1777",
+   "year": 1777,
+   "description": "The Tây Sơn destroyed the Nguyễn lordship and killed most of the family; a teenage survivor, Nguyễn Ánh, escaped to begin a quarter-century fight back (Chapter 13).",
+   "wikiSlug": "T%C3%A2y_S%C6%A1n_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-rach-gam",
+   "label": "The Battle of Rạch Gầm–Xoài Mút, 1785",
+   "year": 1785,
+   "description": "Nguyễn Huệ ambushed and annihilated a Siamese fleet and army invited in by Nguyễn Ánh, one of the most decisive battles in Vietnamese history and a check on Siamese expansion.",
+   "wikiSlug": "Battle_of_R%E1%BA%A1ch_G%E1%BA%A7m%E2%80%93Xo%C3%A0i_M%C3%BAt",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-tay-son-thang-long",
+   "label": "The Tây Sơn take Thăng Long, 1786",
+   "year": 1786,
+   "description": "Nguyễn Huệ marched north under the slogan of \"restoring the Lê,\" smashed the Trịnh, and ended two centuries of Trịnh rule almost overnight.",
+   "wikiSlug": "T%C3%A2y_S%C6%A1n_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-le-end",
+   "label": "The end of the Lê dynasty, 1789",
+   "year": 1789,
+   "description": "The last Lê emperor fled to China and begged a Qing army to restore him; with his flight the 360-year Later Lê line — and the imperial fiction it embodied — finally ended.",
+   "wikiSlug": "L%C3%AA_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-qing-invasion",
+   "label": "The Qing invasion, 1788",
+   "year": 1788,
+   "description": "A large Qing army occupied Thăng Long to reinstate the Lê puppet, the last Chinese attempt to decide who ruled Vietnam.",
+   "wikiSlug": "Qing_invasion_of_%C4%90%E1%BA%A1i_Vi%E1%BB%87t",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-quang-trung",
+   "label": "Nguyễn Huệ becomes Emperor Quang Trung",
+   "year": 1788,
+   "description": "Nguyễn Huệ proclaimed himself Emperor Quang Trung and marched north to confront the Qing — a commoner-general turned emperor, the antithesis of the dynastic principle.",
+   "wikiSlug": "Quang_Trung",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-dong-da",
+   "label": "The Battle of Ngọc Hồi–Đống Đa, 1789",
+   "year": 1789,
+   "description": "In a lightning Tết (New Year) campaign Quang Trung destroyed the Qing army at Ngọc Hồi and Đống Đa and retook Thăng Long in days — the most celebrated battlefield victory in Vietnamese memory.",
+   "wikiSlug": "Battle_of_Ng%E1%BB%8Dc_H%E1%BB%93i_%E2%80%93_%C4%90%E1%BB%91ng_%C4%90a",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-daiviet-quang-trung-reforms",
+   "label": "Quang Trung's reforms",
+   "year": 1789,
+   "description": "Quang Trung promoted chữ Nôm for official use, reformed taxation and the military, and planned land and education reform — an ambitious modernizing program cut short by his sudden death in 1792.",
+   "wikiSlug": "Quang_Trung",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-quang-trung-death",
+   "label": "The death of Quang Trung, 1792",
+   "year": 1792,
+   "description": "Quang Trung died suddenly at about forty, leaving a child heir and a fragile regime; the Tây Sơn unraveled within a decade, the classic fate of a state built on one man.",
+   "wikiSlug": "Quang_Trung",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-pigneau",
+   "label": "Nguyễn Ánh, Pigneau de Béhaine, and the French",
+   "year": 1787,
+   "description": "Nguyễn Ánh rebuilt his cause in the south with help from the French bishop Pigneau de Béhaine, who recruited French officers, ships, and arms — a fateful first deep European entanglement in Vietnamese power.",
+   "wikiSlug": "Pigneau_de_Behaine",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-tay-son-collapse",
+   "label": "The collapse of the Tây Sơn",
+   "year": 1793,
+   "description": "Fratricidal division among the surviving Tây Sơn leaders and Nguyễn Ánh's methodical southern resurgence ground the regime down through the 1790s.",
+   "wikiSlug": "T%C3%A2y_S%C6%A1n_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "wars",
+   "endYear": 1802
+  },
+  {
+   "id": "evt-daiviet-tay-son-historiography",
+   "label": "The contested memory of the Tây Sơn",
+   "year": 1800,
+   "description": "The victorious Nguyễn cast the Tây Sơn as rebels and usurpers; modern Vietnamese historiography reveres them, especially Quang Trung, as national heroes — a reminder that the dynasty that wins writes the record.",
+   "wikiSlug": "T%C3%A2y_S%C6%A1n_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-gia-long",
+   "label": "Nguyễn Ánh defeats the Tây Sơn and becomes Gia Long, 1802",
+   "year": 1802,
+   "description": "Nguyễn Ánh took Thăng Long in 1802 and proclaimed himself Emperor Gia Long, founding the Nguyễn dynasty and ending three decades of war.",
+   "wikiSlug": "Gia_Long",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-nguyen-dynasty",
+   "label": "The Nguyễn dynasty and the Huế capital",
+   "year": 1802,
+   "description": "The Nguyễn made Phú Xuân (Huế) the imperial capital, ruling for the first time a single state stretching the whole length of modern Vietnam, from the China border to the Cà Mau point.",
+   "wikiSlug": "Nguy%E1%BB%85n_dynasty",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers",
+   "endYear": 1945
+  },
+  {
+   "id": "evt-daiviet-vietnam-name",
+   "label": "The country is named \"Việt Nam,\" 1804",
+   "year": 1804,
+   "description": "Gia Long asked the Qing to recognize his realm as \"Nam Việt\"; the Qing, wary of the old Nanyue connotation, granted the inverted form \"Việt Nam\" in 1804 — the first official use of the modern name.",
+   "wikiSlug": "Names_of_Vietnam",
+   "tier": 1,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-unification",
+   "label": "The first full north–south unification",
+   "year": 1802,
+   "description": "For the first time one government ruled continuously from Lạng Sơn to the Mekong — the political payoff of eight centuries of independence and the nam tiến, and the geographic Vietnam recognizable today.",
+   "wikiSlug": "Nguy%E1%BB%85n_dynasty",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-daiviet-hue-citadel",
+   "label": "The Citadel of Huế",
+   "year": 1804,
+   "description": "Gia Long began the vast Huế citadel and imperial city, built on a French Vauban-style star plan by Vietnamese labor — Confucian capital and European fortress engineering fused, and now a UNESCO site.",
+   "wikiSlug": "Imperial_City,_Hu%E1%BA%BF",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-daiviet-gia-long-code",
+   "label": "The Gia Long Code",
+   "year": 1815,
+   "description": "The Nguyễn legal code, closely modeled on the Qing code, rolled back the distinctive Lê-era protections (notably for women) in favor of strict Chinese-style Confucian orthodoxy.",
+   "wikiSlug": "Gia_Long_Code",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-confucian-restoration",
+   "label": "The hard Confucian restoration",
+   "year": 1802,
+   "description": "The early Nguyễn entrenched an austere Confucian orthodoxy, restricted Christianity and Buddhism, and looked to Beijing as the cultural model — the conservative closing key of the Đại Việt era.",
+   "wikiSlug": "Nguy%E1%BB%85n_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-daiviet-french-seed",
+   "label": "The French connection sown",
+   "year": 1802,
+   "description": "The French officers and arms that helped Gia Long win, and the Catholic communities his successors persecuted, became the pretext and the bridgehead for the French conquest that ended Vietnamese independence within sixty years.",
+   "wikiSlug": "French_conquest_of_Vietnam",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-daiviet-dai-viet-ends",
+   "label": "The end of \"Đại Việt\"",
+   "year": 1804,
+   "description": "With the new dynasty, the new capital, and the new name, the thousand-year arc that began at Bạch Đằng in 938 closes; what follows is the story of modern Vietnam.",
+   "wikiSlug": "History_of_Vietnam",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-daiviet-legacy",
+   "label": "The shape of a nation",
+   "year": 1804,
+   "description": "The Đại Việt millennium left modern Vietnam its defining features: a fiercely independent identity forged against China, the Confucian state, the long thin nam tiến geography, and the north–south tension still legible today.",
+   "wikiSlug": "History_of_Vietnam",
+   "tier": 2,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-daiviet-forward",
+   "label": "Toward the colonial century",
+   "year": 1804,
+   "description": "Within decades French gunboats would exploit the Christian question and the French debt of gratitude to begin the conquest of Vietnam — the subject of the next chain in this history.",
+   "wikiSlug": "French_Indochina",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  }
+ ]
+}

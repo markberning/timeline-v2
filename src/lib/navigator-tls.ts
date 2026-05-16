@@ -105,7 +105,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'korean-modern', label: 'Modern Korea', subtitle: 'colonization, war, and split', region: 'asia', startYear: 1910, endYear: 2024, hasContent: true },
   { id: 'srivijaya', label: 'Srivijaya', subtitle: "Sumatra's maritime Buddhist empire", region: 'asia', startYear: 650, endYear: 1377, hasContent: true },
   { id: 'khmer-empire', label: 'Khmer Empire', subtitle: "Cambodia's Angkor Wat builders", region: 'asia', startYear: 802, endYear: 1431, hasContent: true },
-  { id: 'dai-viet', label: 'Đại Việt', subtitle: "Vietnam's thousand-year independence", region: 'asia', startYear: 939, endYear: 1804 },
+  { id: 'dai-viet', label: 'Đại Việt', subtitle: "Vietnam's thousand-year independence", region: 'asia', startYear: 939, endYear: 1804, hasContent: true },
   { id: 'majapahit', label: 'Majapahit', subtitle: "Java's golden age archipelago empire", region: 'asia', startYear: 1293, endYear: 1527 },
 
   // ── EUROPE ──
