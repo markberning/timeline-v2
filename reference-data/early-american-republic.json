@@ -1,0 +1,2736 @@
+{
+  "id": "early-american-republic",
+  "label": "Early American Republic",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "History_of_the_United_States_(1789%E2%80%931849)",
+  "imageWikiSlug": "Alexander_Hamilton",
+  "countryIds": [
+    "840"
+  ],
+  "mapViewBox": "85 35 45 40",
+  "pitch": "The gunsmoke of Yorktown has barely cleared when a new crisis begins: how do you actually run a country built on the idea that nobody should have too much power? The answer nearly tears the republic apart before it's a decade old.\n\nFrom 1783 to 1815, a handful of brilliant, flawed, feuding men invent American democracy in real time. Washington sets precedents by instinct. Hamilton builds a financial system so audacious it enrages half the country. Jefferson preaches small government — then doubles the nation's size with a handshake and a check. Adams signs laws that criminalize criticizing the president. And the whole experiment nearly ends when Britain burns the White House to the ground.\n\n🔑 Key Facts:\n• The Articles of Confederation were so weak that Congress couldn't even collect taxes — Shays' Rebellion proved the government couldn't keep order in its own states\n• Hamilton's financial plan assumed $75 million in state debts, created a national bank, and restored American credit — in exchange for moving the capital to a mosquito swamp on the Potomac\n• The Louisiana Purchase doubled the nation's size for about three cents an acre, but Jefferson had to abandon his own strict-constructionist principles to do it\n• The War of 1812 ended in a draw, but Andrew Jackson's victory at New Orleans — fought two weeks after the peace treaty was signed — made Americans feel they'd won a second independence\n\n🤔 Why It Matters: Every institution Americans take for granted — the presidency, the Supreme Court, the two-party system, judicial review, the peaceful transfer of power — was improvised during these 32 years. The founders didn't follow a blueprint; they argued, compromised, and sometimes betrayed their own principles. The decisions made in Philadelphia parlors and Virginia dining rooms still shape American life today.\n\n🎲 Wild Card: When the British burned Washington in 1814, First Lady Dolley Madison refused to flee until she'd cut Gilbert Stuart's full-length portrait of George Washington from its frame and smuggled it out. The painting hangs in the White House today — the only object that has been there since 1800.",
+  "spans": [
+    {
+      "id": "span-early-am-republic-confederation",
+      "label": "Confederation Era",
+      "startYear": 1783,
+      "endYear": 1789,
+      "wikiSlug": "Articles_of_Confederation",
+      "details": [
+        {
+          "label": "Background",
+          "text": "After independence, the thirteen states were bound only by the Articles of Confederation — a deliberately weak compact that gave Congress no power to tax, no executive to enforce laws, and no courts to resolve disputes between states."
+        },
+        {
+          "label": "What Happened",
+          "text": "Shays' Rebellion in 1786 — farmers storming Massachusetts courthouses over debt — shocked the nation's leaders into action. Delegates convened in Philadelphia in 1787 and, behind closed doors, scrapped the Articles entirely and drafted the Constitution."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Confederation Era proved that winning independence was easier than building a nation. The failure of the Articles forced a fundamental rethinking of how sovereignty, liberty, and union could coexist — a debate that still echoes in American politics."
+        }
+      ]
+    },
+    {
+      "id": "span-early-am-republic-federalist-era",
+      "label": "Federalist Era",
+      "startYear": 1789,
+      "endYear": 1800,
+      "wikiSlug": "Federalist_Era",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The Constitution created a framework, but the new federal government had no precedents, no bureaucracy, and no money. Everything Washington and Congress did in 1789 set a template — from cabinet departments to the two-term tradition."
+        },
+        {
+          "label": "What Happened",
+          "text": "Hamilton built a financial system from scratch: national bank, federal assumption of state debts, and a tariff structure. Jefferson and Madison opposed him at every step, and by the mid-1790s two rival parties — Federalists and Democratic-Republicans — had crystallized around the dispute."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Federalist Era answered whether a republic could govern itself in peacetime. It also created America's first ideological fault line: strong central government versus states' rights, a tension that would define every political era to follow."
+        }
+      ]
+    },
+    {
+      "id": "span-early-am-republic-jeffersonian",
+      "label": "Jeffersonian Era",
+      "startYear": 1800,
+      "endYear": 1815,
+      "wikiSlug": "Jeffersonian_democracy",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Jefferson's election in 1800 was the first peaceful transfer of power between rival parties in modern history — a milestone that was far from guaranteed. Federalists feared the Democratic-Republicans would dismantle the federal institutions Hamilton had built."
+        },
+        {
+          "label": "What Happened",
+          "text": "Jefferson doubled the nation's size with the Louisiana Purchase in 1803, then sent Lewis and Clark to map it. The War of 1812 — sparked by British impressment of American sailors — nearly ended in disaster before Andrew Jackson's victory at New Orleans turned it into a rallying triumph."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Jeffersonian Era showed that the republic could survive a change in governing philosophy and a second war with Britain. It also planted the seeds of American expansionism and the westward drive that would define the next half-century."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-shays-rebellion",
+      "label": "Shays' Rebellion",
+      "year": 1786,
+      "endYear": 1787,
+      "description": "Debt-ridden Massachusetts farmers led by Daniel Shays took up arms against state courts that were seizing their property. The federal government under the Articles of Confederation was powerless to respond, proving the need for a stronger central government.",
+      "wikiSlug": "Shays%27_Rebellion",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-constitutional-convention",
+      "label": "Constitutional Convention",
+      "year": 1787,
+      "description": "Fifty-five delegates met in Philadelphia, ostensibly to fix the Articles of Confederation. Behind closed doors, with windows nailed shut in the summer heat, they wrote an entirely new constitution with a stronger federal government, separation of powers, and a system of checks and balances.",
+      "wikiSlug": "Constitutional_Convention_(United_States)",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-constitution",
+      "label": "U.S. Constitution ratified",
+      "year": 1788,
+      "description": "The Constitution established a federal government with separation of powers and checks and balances. It remains the oldest written national constitution still in use.",
+      "wikiSlug": "United_States_Constitution",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-federalist-papers",
+      "label": "Federalist Papers published",
+      "year": 1788,
+      "description": "Hamilton, Madison, and Jay published 85 essays arguing for ratification of the Constitution. The Federalist Papers remain the most authoritative commentary on the American constitutional system.",
+      "wikiSlug": "The_Federalist_Papers",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-washington-president",
+      "label": "Washington inaugurated as President",
+      "year": 1789,
+      "endYear": 1797,
+      "description": "George Washington was unanimously elected the first President, setting precedents for the office including a peaceful transfer of power. His voluntary retirement after two terms became a lasting tradition.",
+      "wikiSlug": "Presidency_of_George_Washington",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-hamilton-treasury",
+      "label": "Hamilton's financial system",
+      "year": 1790,
+      "description": "Alexander Hamilton established a national bank, federal assumption of state debts, and an excise tax. His financial system gave the young republic economic credibility and a functioning government.",
+      "wikiSlug": "Alexander_Hamilton",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-bill-of-rights",
+      "label": "Bill of Rights ratified",
+      "year": 1791,
+      "description": "The first ten amendments guaranteed fundamental freedoms including speech, religion, press, and the right to bear arms. They addressed Anti-Federalist concerns about federal overreach.",
+      "wikiSlug": "United_States_Bill_of_Rights",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-haitian-revolution",
+      "label": "Haitian Revolution",
+      "year": 1791,
+      "endYear": 1804,
+      "description": "The only successful large-scale slave revolt in history established Haiti as the first free Black republic. It terrified Southern slaveholders and directly influenced Napoleon's decision to sell Louisiana — his Caribbean empire had collapsed.",
+      "wikiSlug": "Haitian_Revolution",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cotton-gin",
+      "label": "Eli Whitney's cotton gin",
+      "year": 1794,
+      "description": "Whitney's machine could clean 50 pounds of cotton per day, making short-staple cotton hugely profitable. The invention entrenched slavery in the Southern economy — cotton production grew from 3,000 bales in 1790 to 4.5 million by 1860.",
+      "wikiSlug": "Cotton_gin",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-whiskey-rebellion",
+      "label": "Whiskey Rebellion",
+      "year": 1794,
+      "description": "Western Pennsylvania farmers revolted against Hamilton's excise tax on whiskey. Washington personally led 13,000 militia to suppress the uprising — the first test of federal authority under the Constitution.",
+      "wikiSlug": "Whiskey_Rebellion",
+      "tier": 3,
+      "tags": [
+        "trade",
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-adams-president",
+      "label": "John Adams presidency",
+      "year": 1797,
+      "endYear": 1801,
+      "description": "Adams inherited a quasi-war with France and deepening partisan divisions. He avoided full-scale war through diplomacy but signed the controversial Alien and Sedition Acts. His peaceful transfer of power to Jefferson in 1801 proved the republic could survive a change of ruling party.",
+      "wikiSlug": "Presidency_of_John_Adams",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-alien-sedition-acts",
+      "label": "Alien and Sedition Acts",
+      "year": 1798,
+      "description": "President Adams signed four laws that criminalized 'false, scandalous, and malicious' criticism of the government and gave the president power to deport non-citizens. The acts provoked a constitutional crisis and helped doom Adams's reelection.",
+      "wikiSlug": "Alien_and_Sedition_Acts",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-white-house",
+      "label": "White House completed",
+      "year": 1800,
+      "description": "John Adams became the first president to occupy the Executive Mansion in the new capital of Washington, D.C. The building — designed by Irish-born architect James Hoban — was largely built by enslaved laborers.",
+      "wikiSlug": "White_House",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-jefferson-president",
+      "label": "Jefferson elected President",
+      "year": 1801,
+      "endYear": 1809,
+      "description": "Thomas Jefferson's election marked the first peaceful transfer of power between opposing parties. His presidency championed agrarian democracy and limited federal government.",
+      "wikiSlug": "Thomas_Jefferson",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-interchangeable-parts",
+      "label": "Whitney's interchangeable parts",
+      "year": 1801,
+      "description": "Eli Whitney demonstrated muskets assembled from interchangeable parts to President Adams and Congress. Though his initial demonstration may have been staged, the concept revolutionized manufacturing and laid the groundwork for the American system of mass production.",
+      "wikiSlug": "Interchangeable_parts",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-barbary-war",
+      "label": "First Barbary War",
+      "year": 1801,
+      "endYear": 1805,
+      "description": "The United States fought the Barbary States of North Africa to end tribute payments and protect American merchant ships. The war gave the young republic its first overseas military victory and the Marine Corps hymn its famous line 'to the shores of Tripoli.'",
+      "wikiSlug": "First_Barbary_War",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cane-ridge",
+      "label": "Cane Ridge Revival",
+      "year": 1801,
+      "description": "An estimated 20,000 people gathered in rural Kentucky for a week-long camp meeting that ignited the Second Great Awakening. The revival democratized American religion, spawning new denominations and fueling reform movements from temperance to abolition.",
+      "wikiSlug": "Cane_Ridge_Revival",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-marbury-v-madison",
+      "label": "Marbury v. Madison",
+      "year": 1803,
+      "description": "Chief Justice John Marshall established the principle of judicial review — the Supreme Court's power to strike down laws that violate the Constitution. This case made the judiciary a co-equal branch of government and remains the foundation of American constitutional law.",
+      "wikiSlug": "Marbury_v._Madison",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-louisiana-purchase",
+      "label": "Louisiana Purchase",
+      "year": 1803,
+      "description": "Jefferson purchased 828,000 square miles from France for $15 million, doubling the size of the United States. It was the largest land deal in history and opened the West to expansion.",
+      "wikiSlug": "Louisiana_Purchase",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-lewis-clark",
+      "label": "Lewis and Clark Expedition",
+      "year": 1804,
+      "endYear": 1806,
+      "description": "Meriwether Lewis and William Clark explored the newly acquired western territory to the Pacific Ocean. Their expedition mapped the route and established American claims to the Oregon Country.",
+      "wikiSlug": "Lewis_and_Clark_Expedition",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-steamboat-fulton",
+      "label": "Fulton's steamboat Clermont",
+      "year": 1807,
+      "description": "Robert Fulton's Clermont made the first commercially successful steamboat voyage, traveling 150 miles up the Hudson River in 32 hours. Steamboats transformed river transportation and opened the interior to rapid commerce.",
+      "wikiSlug": "North_River_Steamboat",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-war-1812",
+      "label": "War of 1812",
+      "year": 1812,
+      "endYear": 1815,
+      "description": "The United States fought Britain over trade restrictions and impressment of American sailors. The war ended in a draw but cemented American sovereignty and national identity.",
+      "wikiSlug": "War_of_1812",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-ghent",
+      "label": "Treaty of Ghent",
+      "year": 1814,
+      "description": "American and British diplomats signed a peace treaty in Belgium that ended the War of 1812 with no territorial changes. News traveled so slowly that Andrew Jackson's famous victory at New Orleans was fought two weeks after peace had already been agreed.",
+      "wikiSlug": "Treaty_of_Ghent",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-stamp-act",
+      "label": "Stamp Act",
+      "year": 1765,
+      "description": "Parliament taxed printed paper in the colonies, from newspapers to legal documents to playing cards. The objection was not the cost but the principle: a free people could only be taxed by a legislature in which they had a voice, compressed into the slogan 'no taxation without representation.'",
+      "wikiSlug": "Stamp_Act_1765",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-boston-massacre",
+      "label": "Boston Massacre",
+      "year": 1770,
+      "description": "British soldiers fired into a jeering, snowball-throwing Boston crowd and killed five men. The colonists turned the street confrontation into propaganda against imperial rule.",
+      "wikiSlug": "Boston_Massacre",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-boston-tea-party",
+      "label": "Boston Tea Party",
+      "year": 1773,
+      "description": "Members of the Sons of Liberty, some disguised as Native men, boarded three ships in Boston Harbor and threw 342 chests of British tea into the water rather than let the taxed cargo be landed. Britain's furious response, the Intolerable Acts, closed the port and rewrote the Massachusetts charter.",
+      "wikiSlug": "Boston_Tea_Party",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-intolerable-acts",
+      "label": "Intolerable Acts",
+      "year": 1774,
+      "description": "Parliament's punitive laws closed the port of Boston until the tea was paid for and transferred decisions from Massachusetts's elected bodies to Crown-controlled officials. The acts gave the quarreling colonies a common enemy and produced the First Continental Congress.",
+      "wikiSlug": "Intolerable_Acts",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-continental-congress",
+      "label": "First Continental Congress",
+      "year": 1774,
+      "description": "An improvised, self-appointed assembly with no legal authority, thirteen delegations met in Philadelphia, agreed to act together, and enforced a shared trade boycott against Britain.",
+      "wikiSlug": "Continental_Congress",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lexington-concord",
+      "label": "Lexington and Concord",
+      "year": 1775,
+      "description": "British troops and Massachusetts militia exchanged fire, turning a constitutional argument into a war. For more than a year the colonies fought while still formally claiming to be loyal subjects.",
+      "wikiSlug": "Battles_of_Lexington_and_Concord",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-common-sense",
+      "label": "Paine's Common Sense",
+      "year": 1776,
+      "description": "Thomas Paine's ferociously plain-spoken pamphlet argued that monarchy was absurd and the colonies should declare independence. It sold over 100,000 copies in a population of 2.5 million and moved public opinion from reconciliation toward independence.",
+      "wikiSlug": "Common_Sense_(pamphlet)",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-declaration-independence",
+      "label": "Declaration of Independence",
+      "year": 1776,
+      "description": "Drafted mainly by Thomas Jefferson and adopted by the Continental Congress, the Declaration asserted that 'all men are created equal' and that government rests on the consent of the governed. The sentence the man who wrote it contradicted by owning more than one hundred enslaved people is the spine of the early republic's story.",
+      "wikiSlug": "United_States_Declaration_of_Independence",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-thomas-paine",
+      "label": "Thomas Paine arrives in America",
+      "year": 1774,
+      "description": "An unsuccessful English corset-maker and customs officer, Paine arrived nearly penniless with a letter from Benjamin Franklin and a gift for plain, furious prose that would transform the independence debate.",
+      "wikiSlug": "Thomas_Paine",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-thomas-jefferson",
+      "label": "Thomas Jefferson drafts the Declaration",
+      "year": 1776,
+      "description": "A thirty-three-year-old Virginia planter and lawyer already famous in Virginia as a political pamphleteer, Jefferson was handed the pen because his colleagues considered him the best prose stylist in the room.",
+      "wikiSlug": "Thomas_Jefferson",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-battle-saratoga",
+      "label": "Battle of Saratoga",
+      "year": 1777,
+      "description": "An entire British army of around 6,000 men under General John Burgoyne was surrounded and surrendered in upstate New York. Saratoga was the proof France wanted that the Americans could actually win.",
+      "wikiSlug": "Battles_of_Saratoga",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-franco-american-alliance",
+      "label": "Franco-American Alliance",
+      "year": 1778,
+      "description": "France signed a formal alliance with the United States, committing the two countries to fight Britain together, neither making a separate peace. It converted a colonial rebellion into a global war and was the single most decisive event of the Revolution.",
+      "wikiSlug": "Treaty_of_Alliance_(1778)",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-marquis-lafayette",
+      "label": "Lafayette joins the Continental Army",
+      "year": 1777,
+      "description": "A French aristocrat barely twenty years old and immensely rich, the Marquis de Lafayette paid his own way to America, served without pay, and became so close to the childless Washington that the two treated each other as father and son.",
+      "wikiSlug": "Gilbert_du_Motier,_Marquis_de_Lafayette",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-valley-forge",
+      "label": "Valley Forge winter encampment",
+      "year": 1777,
+      "endYear": 1778,
+      "description": "The Continental Army's brutal winter camp where Baron von Steuben drilled a brave but untrained mass into a force that could march in step, form a battle line, and maneuver as a unit instead of an armed crowd.",
+      "wikiSlug": "Valley_Forge",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-von-steuben-drill",
+      "label": "Von Steuben's drill manual",
+      "year": 1778,
+      "description": "A former officer in the Prussian army, Baron von Steuben drilled the Continental Army in person and through a manual he wrote, transforming its battlefield discipline.",
+      "wikiSlug": "Friedrich_Wilhelm_von_Steuben",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-southern-campaign",
+      "label": "British Southern Campaign",
+      "year": 1778,
+      "endYear": 1781,
+      "description": "Britain shifted its main effort to the southern colonies on the theory that Loyalists were more numerous there. It became a brutal internal war of neighbor against neighbor, and it turned partly on the tens of thousands of enslaved people who fled to British lines on the promise of freedom.",
+      "wikiSlug": "Southern_theater_of_the_American_Revolutionary_War",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-yorktown",
+      "label": "Siege of Yorktown",
+      "year": 1781,
+      "description": "A French fleet shut the sea door at Chesapeake Bay while Washington's and Rochambeau's armies shut the land door, trapping General Cornwallis. His surrender of roughly eight thousand men broke Britain's political will to continue the war.",
+      "wikiSlug": "Siege_of_Yorktown",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-paris-1783",
+      "label": "Treaty of Paris",
+      "year": 1783,
+      "description": "Franklin, Adams, and Jay quietly disobeyed their own government's instructions and negotiated separately with Britain. The treaty recognized full American independence and set the western boundary at the Mississippi River, roughly doubling the territory.",
+      "wikiSlug": "Treaty_of_Paris_(1783)",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-loyalist-exile",
+      "label": "Loyalist exodus",
+      "year": 1783,
+      "description": "Somewhere on the order of sixty thousand to a hundred thousand colonists who had stayed loyal to the Crown left the United States permanently for Canada, Britain, or the Caribbean, one of the largest forced political exoduses of the eighteenth century.",
+      "wikiSlug": "Loyalist_(American_Revolution)",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-pennsylvania-gradual-abolition",
+      "label": "Pennsylvania gradual abolition law",
+      "year": 1780,
+      "description": "The first gradual abolition law freed no one already enslaved; it declared children born to enslaved mothers technically free but bound to serve the mother's owner until age twenty-eight. It set the slow Northern pattern that ended slavery over decades.",
+      "wikiSlug": "Gradual_Abolition_Act_of_1780",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-sullivan-campaign",
+      "label": "Sullivan Campaign",
+      "year": 1779,
+      "description": "Washington ordered General John Sullivan to destroy the Iroquois ability to make war: the campaign systematically burned roughly forty Iroquois towns, orchards, and winter food stores, driving thousands of refugees into a deadly winter. The Iroquois named Washington 'Town Destroyer.'",
+      "wikiSlug": "Sullivan_Expedition",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-newburgh-conspiracy",
+      "label": "Newburgh Conspiracy",
+      "year": 1783,
+      "description": "Anonymous papers circulated among unpaid Continental officers hinting that the army should refuse to disband or even march on Congress. Washington walked into the meeting unannounced and, fumbling for his spectacles, talked the mutiny down without a shot.",
+      "wikiSlug": "Newburgh_Conspiracy",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-washington-resigns-commission",
+      "label": "Washington resigns his commission",
+      "year": 1783,
+      "description": "With the war won and his prestige absolute, Washington went to Congress, formally surrendered his commission as commander-in-chief, and went home to his farm. He gave up power voluntarily when he could almost certainly have kept it, establishing that in this republic the soldier serves the state and steps aside.",
+      "wikiSlug": "George_Washington",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-articles-confederation",
+      "label": "Articles of Confederation ratified",
+      "year": 1781,
+      "description": "The first written framework of government for the United States was a treaty of friendship among thirteen small countries: no president, no national courts, one vote per state, and amendment requiring unanimous consent. The weakness was deliberate, designed by men terrified of recreating a distant, coercive central power.",
+      "wikiSlug": "Articles_of_Confederation",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-land-ordinance-1785",
+      "label": "Land Ordinance of 1785",
+      "year": 1785,
+      "description": "It set up the system for surveying and selling western territory: a grid of square six-mile townships subdivided into thirty-six one-mile sections, with one section per township reserved to fund public schools. The Confederation's surveyors drew the country's literal shape.",
+      "wikiSlug": "Land_Ordinance_of_1785",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-northwest-ordinance",
+      "label": "Northwest Ordinance",
+      "year": 1787,
+      "description": "It created a template by which a western territory would pass through stages and be admitted to the Union as a fully equal state, not a permanent colony, and it banned slavery in the entire Northwest Territory, drawing the first federal line between where slavery could and could not go.",
+      "wikiSlug": "Northwest_Ordinance",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-barbary-captives",
+      "label": "Barbary states seize American sailors",
+      "year": 1785,
+      "description": "With no navy and no money to pay tribute, the independent United States could not protect its merchant sailors from the North African Barbary states, who seized ships and held crews for ransom or enslaved them.",
+      "wikiSlug": "Barbary_pirates",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-philadelphia-convention",
+      "label": "Philadelphia Convention",
+      "year": 1787,
+      "description": "Fifty-five men met in the building where independence had been declared, closed the windows in the heat, swore themselves to secrecy, and over four months wrote an entirely new framework of government with no legal authority to do so.",
+      "wikiSlug": "Constitutional_Convention_(United_States)",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-james-madison",
+      "label": "Madison's Virginia Plan",
+      "year": 1787,
+      "description": "A small, frail, brilliant Virginian who had read deeply in the history of failed confederations, James Madison arrived best prepared with a worked-out plan for a strong national government of three checking branches and a theory that a large republic is safer because so many factions check each other.",
+      "wikiSlug": "James_Madison",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-great-compromise",
+      "label": "The Great Compromise",
+      "year": 1787,
+      "description": "Brokered by Roger Sherman of Connecticut, it gave Congress two houses: a House of Representatives apportioned by population and a Senate with two seats per state. It used bicameralism to balance states against each other and saved the deadlocked Convention.",
+      "wikiSlug": "Connecticut_Compromise",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-three-fifths-clause",
+      "label": "Three-Fifths Clause",
+      "year": 1787,
+      "description": "Each enslaved person was counted as three-fifths of a person for apportioning representation and direct taxes. It did not make enslaved people partly free; it gave slaveholding states extra seats in Congress and extra electoral votes in proportion to the human beings they held in bondage.",
+      "wikiSlug": "Three-fifths_Compromise",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-slave-trade-clause",
+      "label": "Slave-trade clause",
+      "year": 1787,
+      "description": "A constitutional clause forbade Congress from banning the Atlantic slave trade for twenty years, until 1808, the price of South Carolina and Georgia joining at all.",
+      "wikiSlug": "Slave_Trade_Clause",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-electoral-college",
+      "label": "The Electoral College",
+      "year": 1787,
+      "description": "A deliberately indirect, anti-majoritarian device: each state gets electors equal to its total seats in Congress and decides for itself how to pick them, and the electors, not voters directly, cast the votes for president.",
+      "wikiSlug": "United_States_Electoral_College",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-the-presidency",
+      "label": "Invention of the Presidency",
+      "year": 1787,
+      "description": "The Convention built, almost from nothing, a single elected chief executive serving a fixed four-year term, commander of the military but unable to declare war, able to veto laws subject to override, and removable by impeachment. Every power was fenced by a counter-power held elsewhere.",
+      "wikiSlug": "President_of_the_United_States",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-the-federalist",
+      "label": "The Federalist published",
+      "year": 1788,
+      "description": "Under the shared pen name 'Publius,' Hamilton, Madison, and Jay wrote eighty-five newspaper essays for popular persuasion. They were get-out-the-vote campaign documents and remain the deepest explanation of how the constitutional machine was meant to work.",
+      "wikiSlug": "The_Federalist_Papers",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-anti-federalists",
+      "label": "Anti-Federalist opposition",
+      "year": 1788,
+      "description": "Opponents of the Constitution argued a large republic with a strong central government would slide toward tyranny and demanded a written list of protected liberties. They lost the war but extracted the Bill of Rights as the price.",
+      "wikiSlug": "Anti-Federalism",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-virginia-ratification",
+      "label": "Virginia ratifies the Constitution",
+      "year": 1788,
+      "description": "The largest state ratified narrowly, 89 to 79, after a ferocious debate between Madison for the Constitution and the Revolutionary orator Patrick Henry against it.",
+      "wikiSlug": "History_of_the_United_States_Constitution",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-patrick-henry",
+      "label": "Patrick Henry opposes ratification",
+      "year": 1788,
+      "description": "Virginia's most famous Revolutionary orator, whose 'give me liberty or give me death' speech had helped push the colony toward war in 1775, turned the same thunder against a national government he feared would swallow the states.",
+      "wikiSlug": "Patrick_Henry",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-federalist-no-10",
+      "label": "Federalist No. 10",
+      "year": 1787,
+      "description": "Madison's argument that a large republic controls faction better than a small one, because over a huge territory so many competing interests arise that no single faction can easily seize a permanent majority. It is the intellectual core of the American experiment.",
+      "wikiSlug": "Federalist_No._10",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-federalist-no-51",
+      "label": "Federalist No. 51",
+      "year": 1788,
+      "description": "Madison's answer to the objection that the people running government may not be good men: arrange the offices so each official's ambition checks every other's. 'Ambition must be made to counteract ambition,' because 'if men were angels, no government would be necessary.'",
+      "wikiSlug": "Federalist_No._51",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-washington-inauguration",
+      "label": "Washington's first inauguration",
+      "year": 1789,
+      "description": "On April 30, 1789, Washington took the oath on a balcony in New York City for a job no human being had ever held. Chosen unanimously by the Electoral College, he knew every single thing he did would set a precedent.",
+      "wikiSlug": "First_inauguration_of_George_Washington",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-first-cabinet",
+      "label": "Washington's first Cabinet",
+      "year": 1789,
+      "description": "The Constitution did not mention a cabinet; Washington created one by appointing and regularly consulting Jefferson at State, Hamilton at Treasury, Knox at War, and Randolph as Attorney General. Governing through a council of chosen department heads is a Washington invention, not a constitutional command.",
+      "wikiSlug": "Cabinet_of_the_United_States",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-title-fight",
+      "label": "The presidential title fight",
+      "year": 1789,
+      "description": "Some senators, led by Vice President John Adams, wanted a grand title like 'His Highness the President.' Washington let the plain 'Mr. President' win, because a republican chief magistrate addressed like a monarch starts becoming one.",
+      "wikiSlug": "President_of_the_United_States",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-judiciary-act-1789",
+      "label": "Judiciary Act of 1789",
+      "year": 1789,
+      "description": "It built a whole branch of government the Constitution had barely sketched: it set the Supreme Court's size, created lower federal courts, and defined the cases the Court could hear. One provision would later be struck down in the case that invented judicial review.",
+      "wikiSlug": "Judiciary_Act_of_1789",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-first-federal-congress",
+      "label": "First Federal Congress",
+      "year": 1789,
+      "endYear": 1791,
+      "description": "Doing work so foundational historians call it a second constitutional convention, it created the executive departments, passed revenue laws giving the government an actual income, sent out the Bill of Rights, and passed the Judiciary Act.",
+      "wikiSlug": "1st_United_States_Congress",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-report-public-credit",
+      "label": "Report on Public Credit",
+      "year": 1790,
+      "description": "Hamilton's audacious plan to fund the debt at par, paying old IOUs at full face value, on the reasoning that a government that always pays in full can always borrow cheaply in the next emergency.",
+      "wikiSlug": "First_Report_on_the_Public_Credit",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-assumption",
+      "label": "Federal assumption of state debts",
+      "year": 1790,
+      "description": "Hamilton proposed the federal government take over and pay the states' war debts as well as its own, deliberately attaching the financial self-interest of a nation-spanning creditor class to the survival of the national government.",
+      "wikiSlug": "Assumption_(political_term)",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-compromise-of-1790",
+      "label": "The Compromise of 1790",
+      "year": 1790,
+      "description": "At a single private dinner hosted by Jefferson, Madison agreed to let assumption pass and Hamilton agreed to put the permanent capital on the Potomac. The financial system and the capital's location were traded for each other over a meal.",
+      "wikiSlug": "Compromise_of_1790",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-bank-united-states",
+      "label": "First Bank of the United States",
+      "year": 1791,
+      "description": "A national bank, partly government-owned, to hold federal money, issue a stable currency, and lend to government and business. It provoked the first great constitutional fight over the limits of federal power, strict versus loose construction.",
+      "wikiSlug": "First_Bank_of_the_United_States",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-report-manufactures",
+      "label": "Report on Manufactures",
+      "year": 1791,
+      "description": "Hamilton's most radical state paper argued the federal government should deliberately build American industry from scratch with protective tariffs and subsidies. Congress declined most of it, but it became the blueprint for Clay's later American System.",
+      "wikiSlug": "Report_on_Manufactures",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-first-party-system",
+      "label": "Birth of the first party system",
+      "year": 1792,
+      "description": "By the early 1790s the founders had sorted into Federalists around Hamilton, favoring strong central government and commerce, and Democratic-Republicans around Jefferson and Madison, favoring states' rights and agriculture. The framers had not wanted parties; they formed anyway.",
+      "wikiSlug": "First_Party_System",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-french-revolution-splits-america",
+      "label": "The French Revolution splits America",
+      "year": 1793,
+      "description": "The French Revolution turned foreign policy into partisan passion: Democratic-Republicans saw France as the embattled sister republic, Federalists saw bloody anarchy and championed orderly Britain. Each side believed the other was selling the republic to a foreign tyranny.",
+      "wikiSlug": "French_Revolution",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-citizen-genet",
+      "label": "Citizen Genêt affair",
+      "year": 1793,
+      "description": "The French Republic's minister Edmond-Charles Genêt began recruiting Americans into privateering ventures on American soil, appealing directly to the public over the government's head, an open challenge to whether the United States controlled its own foreign policy.",
+      "wikiSlug": "Citizen_Gen%C3%AAt_Affair",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-neutrality-proclamation",
+      "label": "Proclamation of Neutrality",
+      "year": 1793,
+      "description": "Washington declared the United States would take neither side in the European war and forbade citizens from participating. The precedent that the president leads in foreign affairs largely dates from this unilateral act.",
+      "wikiSlug": "Proclamation_of_Neutrality",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jays-treaty",
+      "label": "Jay's Treaty",
+      "year": 1795,
+      "description": "John Jay's treaty with Britain got the British forts on American soil evacuated and avoided a war the country could not afford, but conceded almost everything else and won nothing on impressment. It triggered the most violent partisan eruption of the era and hardened the two parties into permanent machines.",
+      "wikiSlug": "Jay_Treaty",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-pinckneys-treaty",
+      "label": "Pinckney's Treaty",
+      "year": 1795,
+      "description": "The American envoy to a distracted, declining Spain came away with almost everything: it fixed the southwestern boundary and guaranteed American farmers the right to ship crops down the Mississippi through Spanish-held New Orleans, the lifeline of the western economy.",
+      "wikiSlug": "Pinckney%27s_Treaty",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-farewell-address",
+      "label": "Washington's Farewell Address",
+      "year": 1796,
+      "description": "Released to a newspaper rather than delivered aloud, Washington's open letter warned against the 'spirit of party' and 'permanent alliances' with Europe. It shaped American foreign policy for over a century, written by a man watching the partisan split he feared.",
+      "wikiSlug": "George_Washington%27s_Farewell_Address",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-democratic-republicans",
+      "label": "Democratic-Republican Party forms",
+      "year": 1792,
+      "description": "Built around Jefferson and Madison, favoring states' rights, agriculture, France, and a narrow reading of federal power, the party was the ancestor of today's Democratic Party (not today's Republicans). It proved the machinery could absorb deep organized disagreement without breaking.",
+      "wikiSlug": "Democratic-Republican_Party",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-quasi-war",
+      "label": "Quasi-War with France",
+      "year": 1798,
+      "endYear": 1800,
+      "description": "An undeclared naval conflict, never formally a war: France, furious over Jay's Treaty, seized American merchant ships in large numbers, and the small U.S. Navy fought back at sea.",
+      "wikiSlug": "Quasi-War",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-xyz-affair",
+      "label": "XYZ Affair",
+      "year": 1798,
+      "description": "French intermediaries, named in the dispatches only X, Y, and Z, demanded a bribe and a loan before talks could begin. When Adams released the dispatches, 'Millions for defense, but not one cent for tribute' swept the country and the Federalists won big.",
+      "wikiSlug": "XYZ_Affair",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-naturalization-act",
+      "label": "Naturalization Act of 1798",
+      "year": 1798,
+      "description": "It raised the residency required to become a citizen from five to fourteen years, aimed squarely at immigrants, who tended to vote Republican.",
+      "wikiSlug": "Naturalization_Act_of_1798",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-sedition-act",
+      "label": "The Sedition Act",
+      "year": 1798,
+      "description": "It made it a federal crime to write or speak 'false, scandalous, and malicious' statements against the government. In practice it was used to jail Republican newspaper editors and a Republican congressman, eight years after the First Amendment was ratified.",
+      "wikiSlug": "Alien_and_Sedition_Acts",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-kentucky-virginia-resolutions",
+      "label": "Kentucky and Virginia Resolutions",
+      "year": 1798,
+      "endYear": 1799,
+      "description": "Secretly written by Jefferson and Madison and passed by friendly state legislatures, they argued a state may declare a federal law void within its borders. This is the doctrine of nullification, drawn first in the cause of free speech and later, fatefully, in the cause of slavery.",
+      "wikiSlug": "Kentucky_and_Virginia_Resolutions",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-adams-peace-mission",
+      "label": "Adams sends a peace commission to France",
+      "year": 1799,
+      "description": "Over the open opposition of his own party and at fatal political cost, Adams sent a new peace commission to Paris, ended the Quasi-War by negotiation, and prevented a war that would have been wildly popular but might have ruined the republic.",
+      "wikiSlug": "Presidency_of_John_Adams",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-election-1800",
+      "label": "Election of 1800",
+      "year": 1800,
+      "description": "A campaign of genuine viciousness ended with the party controlling the presidency, Congress, and the courts losing to a party it had called traitors and atheists, and then handing over power. Measured against all of recorded history, the peaceful transfer was one of the rarest things that had ever happened.",
+      "wikiSlug": "1800_United_States_presidential_election",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jefferson-burr-tie",
+      "label": "The Jefferson–Burr tie",
+      "year": 1801,
+      "description": "A constitutional flaw let Jefferson and his running mate Aaron Burr tie with identical electoral votes, throwing the election into a House still controlled by defeated Federalists. The deadlock broke after thirty-six ballots, largely because Hamilton waged a private campaign against Burr.",
+      "wikiSlug": "1800_United_States_presidential_election",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-twelfth-amendment",
+      "label": "Twelfth Amendment",
+      "year": 1804,
+      "description": "It required electors to cast separate, labeled votes for president and vice president, patching the structural bug that nearly crashed the machine in 1801.",
+      "wikiSlug": "Twelfth_Amendment_to_the_United_States_Constitution",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-jefferson-first-inaugural",
+      "label": "Jefferson's first inaugural address",
+      "year": 1801,
+      "description": "Into the uncertain quiet, Jefferson said 'We are all republicans, we are all federalists,' asserting both parties operated within one constitutional consensus and the loser need not fear the winner. It is the founding statement of the idea of a loyal opposition.",
+      "wikiSlug": "First_inauguration_of_Thomas_Jefferson",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-aaron-burr",
+      "label": "Aaron Burr",
+      "year": 1801,
+      "description": "A brilliant, charming, and slippery New York politician put on the Republican ticket to help carry that crucial state, Burr nearly stole the presidency in the 1801 deadlock and four years later killed Hamilton in a duel.",
+      "wikiSlug": "Aaron_Burr",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-john-marshall",
+      "label": "John Marshall becomes Chief Justice",
+      "year": 1801,
+      "description": "A Virginia Federalist and Revolutionary War veteran named Chief Justice by Adams in his last weeks, Marshall would plant a strong Federalist mind in the one branch elections could not sweep out and invent judicial review.",
+      "wikiSlug": "John_Marshall",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-midnight-judges",
+      "label": "The midnight judges",
+      "year": 1801,
+      "description": "The lame-duck Federalist Congress created a batch of new judgeships and Adams filled them in his last hours to entrench Federalist control of the judiciary. One undelivered commission produced Marbury v. Madison.",
+      "wikiSlug": "Midnight_Judges_Act",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jeffersonian-retrenchment",
+      "label": "Jeffersonian retrenchment",
+      "year": 1801,
+      "description": "Jefferson walked to his own inauguration, slashed the federal budget, shrank the army and navy, let the Sedition Act expire, pardoned its prisoners, and repealed the internal taxes including the whiskey excise, changing the register of government to deliberate, frugal smallness.",
+      "wikiSlug": "Jeffersonian_democracy",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-new-orleans-port-crisis",
+      "label": "Spain suspends the New Orleans deposit",
+      "year": 1802,
+      "description": "When Spain suspended the Americans' right to deposit goods at New Orleans, the West was enraged and war talk spread, because every western farmer floated his crops down the Mississippi to be loaded at that port.",
+      "wikiSlug": "Right_of_deposit",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-louisiana-strict-construction",
+      "label": "Jefferson abandons strict construction",
+      "year": 1803,
+      "description": "By his own strict-constructionist principles, Jefferson believed the Purchase required a constitutional amendment, but he swallowed his doctrine and justified it under the treaty power. The strict-constructionist president performed the largest loose-construction act in the country's history.",
+      "wikiSlug": "Strict_constructionism",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sacagawea",
+      "label": "Sacagawea guides Lewis and Clark",
+      "year": 1805,
+      "description": "A teenaged Shoshone woman captured as a child and sold, traveling with a French trader and her own infant, Sacagawea's interpreting and diplomacy with mountain nations repeatedly kept the expedition alive.",
+      "wikiSlug": "Sacagawea",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-monticello",
+      "label": "Monticello",
+      "year": 1809,
+      "description": "Jefferson's famous house, built and run on the labor of the more than six hundred people he enslaved over his life, and the setting of the contested question of his relationship with Sally Hemings.",
+      "wikiSlug": "Monticello",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-sally-hemings",
+      "label": "The Sally Hemings question",
+      "year": 1802,
+      "description": "Published in Jefferson's lifetime and used against him politically, the claim that he fathered children with the enslaved Sally Hemings was denied for two centuries as slander. A 1998 DNA study plus the documentary record led the institution that runs Monticello and most historians to conclude Jefferson was the father.",
+      "wikiSlug": "Sally_Hemings",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-second-slavery",
+      "label": "The Second Slavery",
+      "year": 1800,
+      "endYear": 1820,
+      "description": "Not the colonial institution slowly fading but a new, modern, expanding, brutally profitable system integrated into the global industrial economy, that the cotton gin made possible exactly when slavery had looked vulnerable.",
+      "wikiSlug": "Slavery_in_the_United_States",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-eli-whitney",
+      "label": "Eli Whitney",
+      "year": 1793,
+      "description": "A Connecticut-born tinkerer visiting a Georgia plantation, Whitney built the cotton gin and later championed interchangeable parts, two inventions that reorganized the American economy in opposite moral directions.",
+      "wikiSlug": "Eli_Whitney",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-domestic-slave-trade",
+      "label": "The domestic slave trade",
+      "year": 1800,
+      "endYear": 1860,
+      "description": "On the order of a million enslaved people were forcibly moved from the Upper South to the cotton frontier of the Deep South, marched in coffles chained at the neck, sold as ordinary commerce with families broken up by sale. 'Sold down the river' comes from exactly this.",
+      "wikiSlug": "Slave_trade_in_the_United_States",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-1808-slave-trade-ban",
+      "label": "Atlantic slave trade banned",
+      "year": 1808,
+      "description": "Congress banned the importation of enslaved people from Africa effective January 1, 1808, the earliest constitutionally possible date. It ended American participation in the Atlantic trade but, because the enslaved population grew by natural increase, functioned in the economy like a protective tariff on American-born enslaved people.",
+      "wikiSlug": "Act_Prohibiting_Importation_of_Slaves",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cotton-kingdom",
+      "label": "The Cotton Kingdom",
+      "year": 1815,
+      "endYear": 1860,
+      "description": "By 1820 the single most dynamic sector of the American economy was slave-grown cotton for the world's factories, the cotton frontier moving relentlessly southwest into Alabama, Mississippi, Louisiana, and eventually Texas.",
+      "wikiSlug": "King_Cotton",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-second-great-awakening",
+      "label": "Second Great Awakening",
+      "year": 1800,
+      "endYear": 1820,
+      "description": "A wave of intense religious revival shifted American Protestantism away from Calvinist predestination toward the idea that any individual could choose salvation. Its social fuse was reform: temperance, public education, prison reform, and, most explosively, abolitionism.",
+      "wikiSlug": "Second_Great_Awakening",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-ame-church",
+      "label": "African Methodist Episcopal Church founded",
+      "year": 1816,
+      "description": "Richard Allen, a formerly enslaved Methodist preacher pulled from his knees and ordered to a segregated gallery while praying, walked out and founded the first fully independent Black denomination in the United States.",
+      "wikiSlug": "African_Methodist_Episcopal_Church",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-disestablishment",
+      "label": "Disestablishment of state churches",
+      "year": 1800,
+      "endYear": 1833,
+      "description": "Over these decades the states, one by one, ended tax support and legal privilege for any denomination (Massachusetts last, in 1833), producing a society in which religion was entirely voluntary, an institutional invention running opposite to the European norm.",
+      "wikiSlug": "Separation_of_church_and_state_in_the_United_States",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-slaters-mill",
+      "label": "Slater's Mill",
+      "year": 1790,
+      "description": "Samuel Slater, a British mechanic, slipped out of England disguised as a farm laborer with the spinning machinery memorized in his head and rebuilt it in Rhode Island. American industrialization began as industrial espionage.",
+      "wikiSlug": "Slater_Mill",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-erie-canal",
+      "label": "Erie Canal begun",
+      "year": 1817,
+      "description": "New York began digging a man-made waterway across the state linking the Hudson and the Atlantic to the Great Lakes. When it opened it cut shipping costs to the interior by roughly ninety percent and pulled the West economically toward the Northern seaboard.",
+      "wikiSlug": "Erie_Canal",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lancaster-turnpike",
+      "label": "Lancaster Turnpike",
+      "year": 1795,
+      "description": "A privately built toll road running about sixty miles from Philadelphia to Lancaster proved people would pay to use a good hard road and touched off a wave of turnpike building.",
+      "wikiSlug": "Lancaster_Turnpike",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-napoleonic-wars",
+      "label": "The Napoleonic Wars squeeze American shipping",
+      "year": 1803,
+      "endYear": 1815,
+      "description": "The continent-spanning death struggle between Napoleon's France, dominating the land, and Britain, dominating the sea, crushed neutral American commerce as each power tried to strangle the other's trade.",
+      "wikiSlug": "Napoleonic_Wars",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-impressment",
+      "label": "British impressment of American sailors",
+      "year": 1805,
+      "endYear": 1812,
+      "description": "The British Navy stopped American ships at sea and seized sailors it claimed were British subjects, forcing them into its service. Thousands of genuine American citizens were taken; to Americans it was a direct assault on national sovereignty.",
+      "wikiSlug": "Impressment",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-chesapeake-leopard",
+      "label": "Chesapeake–Leopard affair",
+      "year": 1807,
+      "description": "The British warship Leopard demanded to search the U.S. Navy frigate Chesapeake for deserters, opened fire when refused, killed and wounded American sailors, and removed four men, an attack on a naval vessel in peacetime.",
+      "wikiSlug": "Chesapeake%E2%80%93Leopard_affair",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-embargo-1807",
+      "label": "Embargo of 1807",
+      "year": 1807,
+      "description": "Rather than fight, Jefferson banned virtually all American ships from sailing to foreign ports, betting economic pain would force respect for American rights. It devastated Americans far more than Britain, left grass growing on idle wharves, and was repealed as a near-total failure.",
+      "wikiSlug": "Embargo_Act_of_1807",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-war-hawks",
+      "label": "The War Hawks",
+      "year": 1810,
+      "description": "A new generation of young, aggressive, mostly Southern and Western congressmen led by Henry Clay argued submission was destroying national honor and that war with Britain might also let the United States seize Canada and end British support for Native resistance.",
+      "wikiSlug": "War_Hawk",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-henry-clay",
+      "label": "Henry Clay enters Congress",
+      "year": 1811,
+      "description": "A charismatic, hard-drinking frontier lawyer and planter from Kentucky in his early thirties, already Speaker of the House and the most magnetic orator of his generation, Clay dominates the last third of this book and the next.",
+      "wikiSlug": "Henry_Clay",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-tecumseh",
+      "label": "Tecumseh's confederacy",
+      "year": 1808,
+      "endYear": 1813,
+      "description": "A Shawnee war leader, Tecumseh built a pan-Indian movement on a radical argument: no single chief could sell land because it belonged to all Native peoples in common, and the only defense was for the nations to unite and stop selling.",
+      "wikiSlug": "Tecumseh",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-tenskwatawa",
+      "label": "Tenskwatawa, the Prophet",
+      "year": 1805,
+      "description": "Tecumseh's brother, called the Prophet after a dramatic religious vision, preached a spiritual revival, a return to Native ways and rejection of American goods and whiskey, from a base at Prophetstown on the Tippecanoe River.",
+      "wikiSlug": "Tenskwatawa",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-battle-tippecanoe",
+      "label": "Battle of Tippecanoe",
+      "year": 1811,
+      "description": "While Tecumseh was away recruiting, territorial governor William Henry Harrison marched on Prophetstown and fought the Prophet's followers, then burned the town. Tactically inconclusive, it convinced Americans the British in Canada were arming the confederacy.",
+      "wikiSlug": "Battle_of_Tippecanoe",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-william-henry-harrison",
+      "label": "William Henry Harrison",
+      "year": 1811,
+      "description": "The territorial governor who fought at Tippecanoe and would ride the fame of that single battle, decades later, all the way to the presidency under the slogan 'Tippecanoe and Tyler too.'",
+      "wikiSlug": "William_Henry_Harrison",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-declaration-war-1812",
+      "label": "Declaration of War on Britain",
+      "year": 1812,
+      "description": "A divided Congress declared war on Britain by an unusually close vote, often described as the closest margin on any American declaration of a major war, the commercial Northeast mostly opposing the 'maritime rights' war while the agrarian West and South supported it.",
+      "wikiSlug": "War_of_1812",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-canada-invasions",
+      "label": "The failed Canada invasions",
+      "year": 1812,
+      "description": "The opening strategy to conquer Canada, which the War Hawks had promised would be easy, was a fiasco: bungled invasions collapsed, an American army surrendered Detroit without much of a fight, and Canada was never conquered.",
+      "wikiSlug": "Invasion_of_Canada_(1812)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-burning-washington",
+      "label": "The burning of Washington",
+      "year": 1814,
+      "description": "A British force scattered American militia at Bladensburg, marched unopposed into the capital, ate the dinner laid out in the President's House, and burned it and the Capitol. Dolley Madison had a portrait of Washington cut from its frame and carried out.",
+      "wikiSlug": "Burning_of_Washington",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-lake-erie",
+      "label": "Battle of Lake Erie",
+      "year": 1813,
+      "description": "Oliver Hazard Perry, not yet thirty, built and manned a fleet from scratch on the frontier lake and captured an entire British squadron, reporting it in the line 'We have met the enemy and they are ours.'",
+      "wikiSlug": "Battle_of_Lake_Erie",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-thames",
+      "label": "Battle of the Thames",
+      "year": 1813,
+      "description": "Control of Lake Erie let Harrison invade Canada from the west and win this battle, in which Tecumseh was killed, shattering the pan-Indian confederacy and ending the prospect of an organized Native barrier east of the Mississippi.",
+      "wikiSlug": "Battle_of_the_Thames",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-creek-war",
+      "label": "The Creek War",
+      "year": 1813,
+      "endYear": 1814,
+      "description": "A civil war within the Creek nation between an accommodationist faction and the militant Red Sticks, which American forces entered on the anti-Red Stick side.",
+      "wikiSlug": "Creek_War",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-horseshoe-bend",
+      "label": "Battle of Horseshoe Bend",
+      "year": 1814,
+      "description": "Frontier militia under Andrew Jackson crushed the Red Sticks, then imposed a treaty stripping the Creeks, allies and enemies alike, of a vast territory and opening the future cotton lands of Alabama and Mississippi.",
+      "wikiSlug": "Battle_of_Horseshoe_Bend_(1814)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-plattsburgh",
+      "label": "Battle of Plattsburgh",
+      "year": 1814,
+      "description": "An American naval victory on Lake Champlain stopped Britain's main invasion from Canada cold and convinced the British command the war was not worth the cost.",
+      "wikiSlug": "Battle_of_Plattsburgh",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-new-orleans",
+      "label": "Battle of New Orleans",
+      "year": 1815,
+      "description": "A large British army assaulting Andrew Jackson's fortified position was shattered, suffering roughly two thousand casualties against a few dozen American, fought two weeks after the Treaty of Ghent had already ended the war. It manufactured a national hero and a myth.",
+      "wikiSlug": "Battle_of_New_Orleans",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-andrew-jackson",
+      "label": "Andrew Jackson",
+      "year": 1815,
+      "description": "A Tennessee planter and general, 'Old Hickory,' the man who beat the British at New Orleans and broke the Creeks; his entire later political rise, the populist tide that ends this book and dominates the next, runs straight out of New Orleans.",
+      "wikiSlug": "Andrew_Jackson",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-hartford-convention",
+      "label": "Hartford Convention",
+      "year": 1814,
+      "endYear": 1815,
+      "description": "New England Federalist delegates met secretly and flirted with nullification and even leaving the Union. Its demands arrived in Washington alongside news of the Ghent peace and New Orleans victory, making it look like treason and effectively killing the Federalist Party.",
+      "wikiSlug": "Hartford_Convention",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-era-good-feelings",
+      "label": "The Era of Good Feelings",
+      "year": 1815,
+      "endYear": 1824,
+      "description": "With the Federalists dead, the Democratic-Republicans had the field to themselves and James Monroe won essentially unopposed. The name is half-true and half-irony: confident nationalist calm over an unresolved, loading slavery question.",
+      "wikiSlug": "Era_of_Good_Feelings",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-james-monroe",
+      "label": "James Monroe elected President",
+      "year": 1816,
+      "endYear": 1824,
+      "description": "A Virginian of the founding generation, a Revolutionary officer and Jefferson's protégé, Monroe was the last of the Virginia founders to hold the office, winning in 1816 and again in 1820 essentially unopposed.",
+      "wikiSlug": "James_Monroe",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-american-system",
+      "label": "Clay's American System",
+      "year": 1816,
+      "description": "Henry Clay packaged a deliberately interlocking mechanism: a protective tariff to shield Northern industry and raise money, a national bank for stable currency, and federally funded internal improvements. It was Hamilton's vision resurrected by Hamilton's old enemies.",
+      "wikiSlug": "American_System_(economic_plan)",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-second-bank",
+      "label": "Second Bank of the United States",
+      "year": 1816,
+      "description": "Chartered because the War of 1812's finances had been a catastrophe without a national bank, the same Jeffersonian Republicans who had let the first Bank die in 1811 now reversed themselves and re-created the institution.",
+      "wikiSlug": "Second_Bank_of_the_United_States",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-mcculloch-v-maryland",
+      "label": "McCulloch v. Maryland",
+      "year": 1819,
+      "description": "Marshall's ruling held Congress could charter a bank under the 'necessary and proper' clause (the doctrine of implied powers, Hamilton's old argument) and that 'the power to tax involves the power to destroy,' so no state could tax a federal instrument.",
+      "wikiSlug": "McCulloch_v._Maryland",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-gibbons-v-ogden",
+      "label": "Gibbons v. Ogden",
+      "year": 1824,
+      "description": "The Marshall Court ruled the federal power over interstate commerce was broad and overrode conflicting state grants, striking down a state-granted steamboat monopoly and clearing the inland waters for open competition.",
+      "wikiSlug": "Gibbons_v._Ogden",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-monroe-doctrine",
+      "label": "The Monroe Doctrine",
+      "year": 1823,
+      "description": "Monroe declared the American continents closed to new European colonization and warned the United States would treat European recolonization as hostile. In 1823 it was a bold statement riding on the British Navy's power; it became a real pillar only decades later.",
+      "wikiSlug": "Monroe_Doctrine",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-panic-1819",
+      "label": "Panic of 1819",
+      "year": 1819,
+      "description": "The young republic's first great boom-and-bust crisis: easy credit fueled a speculative land boom, the Bank abruptly tightened credit, the bubble burst, farms were foreclosed by the thousands, and a deep popular suspicion of banks set in.",
+      "wikiSlug": "Panic_of_1819",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-missouri-crisis",
+      "label": "The Missouri Crisis",
+      "year": 1819,
+      "description": "Missouri applied for statehood as a slave state; a New York congressman's amendment to end slavery there passed the House on a stark sectional vote, and the country suddenly saw its deepest fault line ran not between parties but between North and South.",
+      "wikiSlug": "Missouri_Compromise",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-missouri-compromise",
+      "label": "Missouri Compromise",
+      "year": 1820,
+      "description": "Engineered largely by Henry Clay: Missouri admitted as a slave state, Maine as a free state to keep the Senate balanced, and slavery forbidden forever north of latitude 36°30′ in the rest of the Louisiana territory. It postponed the explosion for over thirty years.",
+      "wikiSlug": "Missouri_Compromise",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-fire-bell-in-the-night",
+      "label": "Jefferson's 'fire bell in the night' letter",
+      "year": 1820,
+      "description": "In a private letter to John Holmes, Jefferson wrote that the Missouri controversy 'like a fire bell in the night, awakened and filled me with terror. I considered it at once as the knell of the Union.' It is the pivot of the whole chain.",
+      "wikiSlug": "Thomas_Jefferson",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-election-1824",
+      "label": "Election of 1824",
+      "year": 1824,
+      "description": "Four candidates all calling themselves Republicans split the field; Jackson won the most popular and electoral votes but not a majority, throwing the election into the House.",
+      "wikiSlug": "1824_United_States_presidential_election",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-corrupt-bargain",
+      "label": "The 'corrupt bargain'",
+      "year": 1825,
+      "description": "Clay threw his support to John Quincy Adams, who was elected and then made Clay his Secretary of State. Jackson's supporters called it a backroom theft of an election; no documentary proof of a quid pro quo ever surfaced, but it handed Jackson a four-year grievance and a mass movement.",
+      "wikiSlug": "Corrupt_bargain",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-john-quincy-adams",
+      "label": "John Quincy Adams presidency",
+      "year": 1825,
+      "endYear": 1829,
+      "description": "Son of the second president, a brilliant, cold, experienced New England diplomat, his single term was a frustrated failure: an ambitious nationalist program rejected by a hostile Congress and an anti-elite country.",
+      "wikiSlug": "John_Quincy_Adams",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-adams-jefferson-deaths",
+      "label": "Deaths of Adams and Jefferson",
+      "year": 1826,
+      "description": "On July 4, 1826, the fiftieth anniversary to the day of the Declaration, Thomas Jefferson and John Adams both died within hours of each other. Adams's last words were that 'Thomas Jefferson survives,' not knowing Jefferson had died hours earlier.",
+      "wikiSlug": "John_Adams",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-election-1828",
+      "label": "Election of 1828",
+      "year": 1828,
+      "description": "Andrew Jackson swept into the presidency on a wave of expanded white-male suffrage, mass political organization, and the claim that government should answer to the common man rather than a gentlemanly elite, the threshold of mass democracy.",
+      "wikiSlug": "1828_United_States_presidential_election",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-universal-white-male-suffrage",
+      "label": "Universal white male suffrage spreads",
+      "year": 1820,
+      "endYear": 1828,
+      "description": "State after state dropped the property requirement to vote until something close to universal white male suffrage was the norm, a broader popular franchise than any other large state on earth, even as it pointedly excluded every woman and almost every Black American.",
+      "wikiSlug": "Suffrage_in_the_United_States",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-george-whitefield-first-awakening",
+      "label": "The First Great Awakening's legacy",
+      "year": 1740,
+      "description": "A wave of fiery emotional preaching associated with the traveling English evangelist George Whitefield crossed the colonies in the 1740s and then faded; the Second Great Awakening was its much larger successor.",
+      "wikiSlug": "First_Great_Awakening",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-richard-allen",
+      "label": "Richard Allen",
+      "year": 1816,
+      "description": "A formerly enslaved Methodist preacher in Philadelphia, pulled up from his knees and ordered to a segregated gallery while praying, Allen walked out and founded the African Methodist Episcopal Church, for two centuries one of the most important institutions in Black American life.",
+      "wikiSlug": "Richard_Allen_(bishop)",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-john-adams-diplomat",
+      "label": "John Adams, first minister to Britain",
+      "year": 1785,
+      "description": "Sent to London as the first United States minister, Adams was received coldly and could get no concessions because everyone knew Congress could not make the states honor a treaty anyway, a humiliation that exposed the Confederation's weakness.",
+      "wikiSlug": "John_Adams",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-benjamin-franklin",
+      "label": "Benjamin Franklin in Paris",
+      "year": 1783,
+      "description": "The printer, scientist, and elder statesman, in his late seventies, America's celebrated minister in Paris and one of the three negotiators who quietly disobeyed Congress to win a better treaty alone than France would have allowed.",
+      "wikiSlug": "Benjamin_Franklin",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-the-republic-gamble",
+      "label": "The republican gamble",
+      "year": 1776,
+      "description": "Every large republic in recorded history had rotted into tyranny, faction, or civil war, and the accepted theory, associated with Montesquieu, held that a republic could only survive in a small territory. A continental republic was, by the best political science of the day, a contradiction in terms.",
+      "wikiSlug": "Republicanism_in_the_United_States",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-judicial-review",
+      "label": "Judicial review established",
+      "year": 1803,
+      "description": "When an ordinary law conflicts with the Constitution, the Constitution wins and the courts must say so. Reasoned into existence by Marshall in a minor patronage dispute, it was close to unique in the world: Britain ran on parliamentary supremacy and no court could void an Act of Parliament.",
+      "wikiSlug": "Judicial_review_in_the_United_States",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-salutary-neglect",
+      "label": "Salutary neglect ends",
+      "year": 1763,
+      "description": "For most of the colonial period Britain governed loosely, each colony taxing itself through its own assembly. That ended after 1763, when Britain, deep in debt from the Seven Years' War, decided the colonies should help pay for their own defense.",
+      "wikiSlug": "Salutary_neglect",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-seven-years-war",
+      "label": "The French and Indian War",
+      "year": 1754,
+      "endYear": 1763,
+      "description": "Britain's enormous, expensive war against France for control of North America, known in America as the French and Indian War. Its debts drove the British government to tax the colonies and started the imperial crisis.",
+      "wikiSlug": "French_and_Indian_War",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-townshend-duties",
+      "label": "Townshend duties",
+      "year": 1767,
+      "description": "Parliament's taxes on imported goods like glass, paint, and tea, part of the series of post-1763 levies the colonists resisted on the constitutional principle, not the cost.",
+      "wikiSlug": "Townshend_Acts",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-puritans",
+      "label": "Puritan New England",
+      "year": 1620,
+      "description": "New England was settled originally by strict Protestants who left England to build communities run on a severe Calvinist religion in which church membership, public morals, and town government were tightly bound together, the world the Second Great Awakening would later overturn.",
+      "wikiSlug": "Puritans",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-southern-plantations",
+      "label": "The Southern plantation economy",
+      "year": 1700,
+      "description": "The southern colonies were dominated by large agricultural estates growing tobacco and rice for export and running on the labor of enslaved Africans and their American-born descendants, an economy that the cotton revolution would massively expand.",
+      "wikiSlug": "Plantations_in_the_American_South",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-iroquois-confederacy",
+      "label": "The Iroquois Confederacy",
+      "year": 1776,
+      "description": "Also called the Haudenosaunee, a league of six Native nations in what is now upstate New York that had governed itself for centuries by a consensus council, one of the oldest and most sophisticated political unions on the continent, shattered when the Revolution split its members.",
+      "wikiSlug": "Iroquois",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-treaty-power",
+      "label": "The treaty power justifies Louisiana",
+      "year": 1803,
+      "description": "The Constitution's explicit grant to the president, with Senate approval, to make treaties with foreign nations. Jefferson argued buying Louisiana was simply a treaty with France, even though 'treaties' had never been imagined to mean swallowing half a continent.",
+      "wikiSlug": "Treaty_Clause",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-bladensburg-races",
+      "label": "The Bladensburg Races",
+      "year": 1814,
+      "description": "A British force scattered a hastily assembled American militia just outside Washington in a rout so complete it was mockingly called 'the Bladensburg Races,' leaving the capital open to be burned.",
+      "wikiSlug": "Battle_of_Bladensburg",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-dolley-madison-portrait",
+      "label": "Dolley Madison saves the Washington portrait",
+      "year": 1814,
+      "description": "The president's wife stayed in the President's House until the British were nearly upon it and had a large full-length portrait of George Washington cut from its frame and carried out so the enemy could not parade it as a trophy.",
+      "wikiSlug": "Dolley_Madison",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-oliver-hazard-perry",
+      "label": "Oliver Hazard Perry",
+      "year": 1813,
+      "description": "A Navy officer not yet thirty who built and manned a fleet from scratch on a frontier lake and won the Battle of Lake Erie, scrawling the news in a field note whose opening line entered American memory.",
+      "wikiSlug": "Oliver_Hazard_Perry",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-madison-presidency",
+      "label": "Madison's presidency",
+      "year": 1809,
+      "endYear": 1817,
+      "description": "Jefferson handed the foreign crisis to his closest ally, the chief architect of the Constitution himself, now operating the machine he had designed under an international crisis it had never been built for and drifting toward a war he did not want.",
+      "wikiSlug": "Presidency_of_James_Madison",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-prophetstown",
+      "label": "Prophetstown",
+      "year": 1808,
+      "description": "The base on the Tippecanoe River from which Tecumseh and the Prophet built a pan-Indian confederacy and religious revival, the most serious organized challenge to American westward expansion the country had yet faced.",
+      "wikiSlug": "Prophetstown_State_Park",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-fraudulent-land-treaties",
+      "label": "Fraudulent land-cession treaties",
+      "year": 1805,
+      "endYear": 1812,
+      "description": "American officials found a few cooperative chiefs, often plied with goods or alcohol, and treated their signatures as binding whole peoples, even though land was held collectively and a sale needed broad consent the signers had no right to give.",
+      "wikiSlug": "Treaty_of_Fort_Wayne_(1809)",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-marbury-commission",
+      "label": "William Marbury's undelivered commission",
+      "year": 1801,
+      "description": "One midnight-judge commission, for a justice of the peace named William Marbury, was signed but not delivered before Jefferson took office; Jefferson's Secretary of State refused to deliver it, and Marbury sued, producing the case that invented judicial review.",
+      "wikiSlug": "Marbury_v._Madison",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-status-quo-ante-bellum",
+      "label": "Status quo ante bellum",
+      "year": 1814,
+      "description": "The Treaty of Ghent ended the war on the basis of 'the state in which things were before the war': no territory changed hands and not one stated American grievance, including impressment, was even mentioned. 'Nothing changed' nonetheless changed everything in American self-perception.",
+      "wikiSlug": "Status_quo_ante_bellum",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-red-sticks",
+      "label": "The Red Sticks",
+      "year": 1813,
+      "description": "The militant faction within the Creek nation, named for the red-painted war clubs that were their symbol, crushed by Andrew Jackson at Horseshoe Bend in a civil war inside the larger War of 1812.",
+      "wikiSlug": "Red_Sticks",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-william-crawford",
+      "label": "William Crawford",
+      "year": 1824,
+      "description": "Monroe's Treasury secretary and the early favorite of the party establishment in the 1824 race, partly disabled by a stroke during the campaign.",
+      "wikiSlug": "William_H._Crawford",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-state-banks",
+      "label": "The state-bank boom",
+      "year": 1816,
+      "endYear": 1819,
+      "description": "A swarm of loosely regulated locally chartered private banks issued their own paper money with little oversight, fueling the speculative land boom that burst in the Panic of 1819.",
+      "wikiSlug": "Wildcat_banking",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-holy-alliance",
+      "label": "The Holy Alliance threat",
+      "year": 1823,
+      "description": "The bloc of conservative monarchies (Russia, Prussia, Austria) that claimed a right to crush liberal revolutions in Europe and might extend that principle to help Spain reconquer its lost American colonies, the threat the Monroe Doctrine answered.",
+      "wikiSlug": "Holy_Alliance",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence",
+      "label": "Latin American independence",
+      "year": 1820,
+      "description": "By the early 1820s the Spanish empire in the Americas was collapsing and most of Latin America had won independence, much of it explicitly inspired by the American and French revolutions, with leaders like Simón Bolívar citing the United States as proof a colony could become a republic.",
+      "wikiSlug": "Spanish_American_wars_of_independence",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-loyal-opposition",
+      "label": "The loyal opposition",
+      "year": 1801,
+      "description": "The idea that you can lose an election, oppose the government with everything you have, and still be a legitimate participant rather than a traitor to be crushed. The American system acquired it, in practice, in 1801, the single thing most distinguishing a working republic from the failed ones.",
+      "wikiSlug": "Loyal_opposition",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-shoshone",
+      "label": "The Shoshone",
+      "year": 1805,
+      "description": "A Native people of the Rocky Mountain and Great Basin region; Sacagawea, born among them and captured as a child, used her ability to interpret and negotiate with mountain nations to keep the Lewis and Clark expedition alive.",
+      "wikiSlug": "Shoshone",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-comte-de-rochambeau",
+      "label": "Rochambeau's French army",
+      "year": 1780,
+      "description": "The professional general commanding the roughly 5,000 French regulars sent to fight alongside the Americans, whose army joined Washington's to shut the land door at Yorktown.",
+      "wikiSlug": "Jean-Baptiste_Donatien_de_Vimeur,_comte_de_Rochambeau",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-black-soldiers-revolution",
+      "label": "Black soldiers in the Revolution",
+      "year": 1779,
+      "description": "Both sides used the promise of freedom as a weapon; tens of thousands of enslaved Americans fled to British lines, the largest emancipation in North America before the Civil War, while Patriots more reluctantly enlisted Black soldiers with promises sometimes kept and often not.",
+      "wikiSlug": "African_Americans_in_the_Revolutionary_War",
+      "tier": 3,
+      "category": "people"
+    }
+  ],
+  "story": {
+    "title": "The Early American Republic",
+    "subtitle": "From a failed experiment to a continental nation, 1783–1815",
+    "paths": [
+      {
+        "id": "republic",
+        "label": "Building the Republic",
+        "color": "#0d9488",
+        "icon": "📜",
+        "description": "How a loose confederation of bickering states forged a constitution, built a government from scratch, and doubled the nation's size — all while arguing about whether they'd created a nation or a mistake.",
+        "nodes": [
+          {
+            "id": "rep-shays",
+            "eventId": "evt-shays-rebellion",
+            "narrative": "The Revolution is over. America has won its independence. And the country is falling apart.\n\n1786. The Articles of Confederation have created a national government so weak it can't collect taxes, regulate trade, or raise an army. Each state prints its own currency. Interstate commerce is chaos. The national debt from the Revolution goes unpaid.\n\nIn western Massachusetts, the crisis hits home. Farmers who fought in the Revolution are drowning in debt. Courts are seizing their farms. The state legislature — dominated by Boston merchants — refuses to help. So Daniel Shays, a decorated Continental Army captain, does what Americans do when government fails them: he rebels.\n\nShays and 1,500 armed farmers shut down courthouses to stop foreclosures. When they march on the federal arsenal at Springfield in January 1787, a privately funded militia scatters them with cannon fire. Four rebels die. Shays flees to Vermont.\n\nThe rebellion is crushed, but the message is received. George Washington, watching from Mount Vernon, writes: 'There are combustibles in every State which a spark might set fire to.' If the federal government can't maintain order in Massachusetts, the entire experiment in self-governance is doomed.\n\nShays' Rebellion doesn't just expose the Articles' weakness — it provides the urgency that drives the Constitutional Convention. The founders need a crisis to justify starting over, and Daniel Shays has just given them one.",
+            "quiz": [
+              {
+                "question": "Why couldn't the federal government respond to Shays' Rebellion?",
+                "options": [
+                  "The Articles of Confederation gave it no power to raise an army or collect taxes",
+                  "The president vetoed military intervention",
+                  "Britain blocked any federal response",
+                  "The Supreme Court ruled it unconstitutional"
+                ],
+                "answerIndex": 0,
+                "explanation": "Under the Articles of Confederation, the federal government had no power to tax, raise troops, or intervene in state affairs."
+              },
+              {
+                "question": "What were the Massachusetts farmers rebelling against?",
+                "options": [
+                  "British taxation",
+                  "Military conscription",
+                  "Courts seizing their farms for unpaid debts",
+                  "A new federal land tax"
+                ],
+                "answerIndex": 2,
+                "explanation": "Debt-ridden farmers were losing their property to court-ordered foreclosures, while the state legislature refused relief."
+              },
+              {
+                "question": "What was Daniel Shays's background before leading the rebellion?",
+                "options": [
+                  "A British loyalist who switched sides",
+                  "A wealthy plantation owner",
+                  "A Boston newspaper editor",
+                  "A decorated captain in the Continental Army"
+                ],
+                "answerIndex": 3,
+                "explanation": "Shays had served with distinction in the Revolution, fighting at Bunker Hill, Saratoga, and Stony Point."
+              },
+              {
+                "question": "What was the most significant consequence of Shays' Rebellion?",
+                "options": [
+                  "It ended debtor imprisonment in Massachusetts",
+                  "It convinced Britain to attack again",
+                  "It freed farmers from their debts",
+                  "It created the urgency for the Constitutional Convention"
+                ],
+                "answerIndex": 3,
+                "explanation": "The rebellion proved the Articles of Confederation couldn't maintain order, giving reformers the crisis they needed to push for a new constitution."
+              }
+            ]
+          },
+          {
+            "id": "rep-convention",
+            "eventId": "evt-constitutional-convention",
+            "narrative": "Shays' Rebellion has proven that the Articles of Confederation are a dead letter. Now the question is whether the states will fix the problem — or whether the experiment ends here.\n\n1787. Fifty-five delegates arrive in Philadelphia, ostensibly to revise the Articles. Behind the locked doors of the Pennsylvania State House, with windows nailed shut against eavesdroppers in the sweltering summer heat, they do something far more radical: they throw out the Articles entirely and write a new constitution from scratch.\n\nThe debates are brutal. Virginia's James Madison arrives with a detailed plan for a strong national government — representation by population. Small states like New Jersey revolt: they'll walk out before accepting a system where Virginia and Pennsylvania dominate. For weeks the convention teeters on collapse.\n\nRoger Sherman of Connecticut brokers the Great Compromise: a House of Representatives apportioned by population and a Senate with two members per state. It saves the convention. But the ugliest bargain follows — the Three-Fifths Compromise counts each enslaved person as three-fifths of a free person for representation, giving slaveholding states outsized power.\n\nBenjamin Franklin, 81 years old and so frail he's carried to sessions in a sedan chair, provides the closing wisdom. Asked what the convention has created, he replies: 'A republic, madam — if you can keep it.' The challenge of keeping it begins immediately.",
+            "quiz": [
+              {
+                "question": "What was the original stated purpose of the Constitutional Convention?",
+                "options": [
+                  "To write a new constitution",
+                  "To declare independence from Britain",
+                  "To revise the Articles of Confederation",
+                  "To elect a new president"
+                ],
+                "answerIndex": 2,
+                "explanation": "The delegates were officially called to revise the Articles of Confederation — instead they scrapped them entirely."
+              },
+              {
+                "question": "What did the Great Compromise create?",
+                "options": [
+                  "The Electoral College",
+                  "The Bill of Rights",
+                  "A bicameral legislature with the House by population and equal state representation in the Senate",
+                  "The Supreme Court"
+                ],
+                "answerIndex": 2,
+                "explanation": "Roger Sherman's Great Compromise gave large states proportional representation in the House and small states equal votes in the Senate."
+              },
+              {
+                "question": "Why were the windows of the convention hall nailed shut?",
+                "options": [
+                  "To keep out summer insects",
+                  "To prevent eavesdroppers from hearing the secret debates",
+                  "The building was under renovation",
+                  "To keep the room warm in winter"
+                ],
+                "answerIndex": 1,
+                "explanation": "The delegates agreed to strict secrecy, nailing windows shut despite the Philadelphia summer heat to prevent anyone from overhearing."
+              },
+              {
+                "question": "What was Benjamin Franklin's famous reply about what the convention had created?",
+                "options": [
+                  "'A perfect union'",
+                  "'A democracy for all'",
+                  "'A new nation, under God'",
+                  "'A republic, madam — if you can keep it'"
+                ],
+                "answerIndex": 3,
+                "explanation": "Franklin's quip to Elizabeth Willing Powel acknowledged that the republic's survival depended on its citizens, not just its Constitution."
+              }
+            ]
+          },
+          {
+            "id": "rep-constitution",
+            "eventId": "evt-constitution",
+            "narrative": "The convention has produced a document — but now it must survive the most bruising political fight in American history. Ratification requires nine of thirteen states, and the opposition is fierce.\n\nThe Anti-Federalists are formidable. Patrick Henry thunders that the Constitution is a blueprint for tyranny. George Mason, who attended the convention but refused to sign, warns that without a bill of rights, the new government will be indistinguishable from the one they overthrew. In New York, Governor George Clinton organizes opposition that threatens to keep the largest commercial state out of the union.\n\nThe Federalists fight back with the most influential series of political essays ever written. Alexander Hamilton, James Madison, and John Jay publish 85 Federalist Papers under the pseudonym 'Publius,' arguing that the Constitution's structure itself protects liberty. Hamilton writes 51 of them at a nearly superhuman pace.\n\nThe ratification battle is razor-close. In Massachusetts, it passes by 19 votes. In Virginia, by 10. In New York — Hamilton's home state — by just 3. On June 21, 1788, New Hampshire becomes the ninth state to ratify, and the Constitution takes effect.\n\nIt is a framework, not a finished product. The founders know this. They've built in an amendment process precisely because they know future generations will need to fix what they got wrong. The first ten amendments — the Bill of Rights — are already being demanded as the price of ratification.",
+            "quiz": [
+              {
+                "question": "How many of the 85 Federalist Papers did Alexander Hamilton write?",
+                "options": [
+                  "About 20",
+                  "About 30",
+                  "All 85",
+                  "51"
+                ],
+                "answerIndex": 3,
+                "explanation": "Hamilton wrote 51 of the 85 essays — an astonishing output that helped swing New York toward ratification."
+              },
+              {
+                "question": "Which state ratified by the narrowest margin?",
+                "options": [
+                  "Virginia, by 10 votes",
+                  "Massachusetts, by 19 votes",
+                  "New York, by just 3 votes",
+                  "New Hampshire, by 7 votes"
+                ],
+                "answerIndex": 2,
+                "explanation": "New York ratified by a margin of only 3 votes — Hamilton's Federalist Papers and personal lobbying were crucial."
+              },
+              {
+                "question": "Why did George Mason refuse to sign the Constitution?",
+                "options": [
+                  "He wanted a monarchy instead",
+                  "He thought it was too weak",
+                  "It lacked a bill of rights protecting individual liberties",
+                  "He opposed the presidency"
+                ],
+                "answerIndex": 2,
+                "explanation": "Mason insisted that without explicit protections for individual rights, the new government would become tyrannical."
+              },
+              {
+                "question": "How many states needed to ratify for the Constitution to take effect?",
+                "options": [
+                  "All 13",
+                  "7 of 13",
+                  "10 of 13",
+                  "9 of 13"
+                ],
+                "answerIndex": 3,
+                "explanation": "Nine of the thirteen states needed to ratify. New Hampshire became the ninth on June 21, 1788."
+              }
+            ]
+          },
+          {
+            "id": "rep-washington",
+            "eventId": "evt-washington-president",
+            "narrative": "The Constitution exists on paper — now someone must bring it to life. The nation turns to the one man everyone trusts.\n\nApril 30, 1789. George Washington takes the oath of office on the balcony of Federal Hall in New York City. He is the unanimous choice of the Electoral College — the only president in American history to achieve this. His hands are shaking. He knows that every single thing he does will set a precedent.\n\nAnd he is right. Washington insists on being called 'Mr. President,' rejecting grander titles like 'His Highness' or 'Your Excellency.' He assembles the first Cabinet — Jefferson at State, Hamilton at Treasury, Knox at War. He establishes that the president can remove appointees without Senate approval. He issues the first presidential veto.\n\nBut Washington's greatest challenge is holding the country together as Hamilton and Jefferson tear it apart. Hamilton wants a powerful central government, a national bank, and an industrial economy. Jefferson wants states' rights, agrarian democracy, and strict limits on federal power. Their feud creates the first political parties — Hamilton's Federalists and Jefferson's Democratic-Republicans.\n\nWashington tries to stand above the fray, but the divisions cut deep. By his second term, he's exhausted. In 1796, he voluntarily steps down — the most consequential decision of his presidency. The peaceful transfer of power to John Adams, unbroken for over two centuries, begins here.",
+            "quiz": [
+              {
+                "question": "Why is Washington's inauguration unique in American history?",
+                "options": [
+                  "He was the youngest president",
+                  "He was inaugurated in Philadelphia",
+                  "He served three terms",
+                  "He was unanimously elected by the Electoral College"
+                ],
+                "answerIndex": 3,
+                "explanation": "Washington is the only president ever elected unanimously by the Electoral College — both times he ran."
+              },
+              {
+                "question": "What philosophical divide shaped Washington's presidency?",
+                "options": [
+                  "North vs. South over slavery",
+                  "Civilians vs. the military",
+                  "Hamilton's strong federal government vs. Jefferson's states' rights",
+                  "Federalists vs. the Supreme Court"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Hamilton-Jefferson rivalry over the scope of federal power created the first political parties and defined American politics."
+              },
+              {
+                "question": "What title did Washington choose for the president?",
+                "options": [
+                  "'Your Excellency'",
+                  "'His Highness the President'",
+                  "'Commander-in-Chief'",
+                  "'Mr. President'"
+                ],
+                "answerIndex": 3,
+                "explanation": "Washington rejected grander titles, establishing the simple 'Mr. President' that endures today."
+              },
+              {
+                "question": "What was the most important precedent Washington set by retiring?",
+                "options": [
+                  "That presidents must be over 50",
+                  "Peaceful transfer of power and a two-term tradition",
+                  "That the vice president cannot succeed the president",
+                  "That Cabinet members must resign with the president"
+                ],
+                "answerIndex": 1,
+                "explanation": "Washington's voluntary retirement established the tradition of peaceful power transfer and the two-term limit later codified in the 22nd Amendment."
+              }
+            ]
+          },
+          {
+            "id": "rep-hamilton",
+            "eventId": "evt-hamilton-treasury",
+            "narrative": "Washington has set the tone for the presidency, but the nation he leads is drowning in debt — and his brash young Treasury Secretary has a plan that will either rescue or wreck the republic.\n\n1790. The United States owes $75 million from the Revolution. States are printing worthless currency. Foreign creditors are walking away. Alexander Hamilton, the 35-year-old Treasury Secretary — an immigrant orphan from the Caribbean who talked his way into Washington's inner circle — proposes something radical.\n\nThe federal government will assume all state war debts. It will charter a national bank. It will impose excise taxes to pay for everything. The idea is breathtaking in its ambition: bind the states together through shared financial obligation, and make the wealthy invested in the government's success by tying their fortunes to federal bonds.\n\nJefferson and Madison are horrified. They see Hamilton building an American aristocracy of bankers and merchants. The plan, they argue, rewards Northern speculators who bought up depreciated war bonds from soldiers for pennies on the dollar. The deadlock threatens to shatter the government in its infancy.\n\nThe breakthrough happens over dinner. Jefferson invites Hamilton and Madison to his home. Hamilton agrees to move the national capital from New York to a site on the Potomac River — closer to the agrarian South. In exchange, Jefferson and Madison support Hamilton's financial plan.\n\nIt works. American credit is restored almost overnight. European investors pour money into federal bonds. The economy stabilizes. But the philosophical divide — big government vs. small, commerce vs. agriculture, Hamilton vs. Jefferson — will define American politics for the next 250 years.",
+            "quiz": [
+              {
+                "question": "What deal resolved the deadlock over Hamilton's financial plan?",
+                "options": [
+                  "Hamilton agreed to lower taxes on Southern farmers",
+                  "Jefferson agreed to support a national army",
+                  "Hamilton agreed to move the capital to the Potomac in exchange for support of his plan",
+                  "Madison agreed to dissolve the Democratic-Republican Party"
+                ],
+                "answerIndex": 2,
+                "explanation": "At a famous dinner, Hamilton traded the capital's location for Jefferson and Madison's support of his financial system."
+              },
+              {
+                "question": "Why did Jefferson oppose Hamilton's financial plan?",
+                "options": [
+                  "He thought it would bankrupt the country",
+                  "He wanted to keep the capital in New York",
+                  "He believed it created an aristocracy of bankers that favored Northern speculators over farmers",
+                  "He wanted to default on the war debts"
+                ],
+                "answerIndex": 2,
+                "explanation": "Jefferson saw Hamilton's system as enriching Northern merchants and speculators at the expense of Southern agrarian interests."
+              },
+              {
+                "question": "What was Hamilton's background before becoming Treasury Secretary?",
+                "options": [
+                  "A Virginia plantation owner",
+                  "An immigrant orphan from the Caribbean",
+                  "A Boston merchant prince",
+                  "A Philadelphia lawyer"
+                ],
+                "answerIndex": 1,
+                "explanation": "Hamilton was born in the Caribbean, orphaned as a child, and rose through sheer brilliance and force of will."
+              },
+              {
+                "question": "How did Hamilton's plan bind the states together?",
+                "options": [
+                  "By requiring states to share militias",
+                  "By creating a national religion",
+                  "By having the federal government assume all state war debts",
+                  "By abolishing state currencies"
+                ],
+                "answerIndex": 2,
+                "explanation": "Federal assumption of state debts meant every state was invested in the national government's financial success."
+              }
+            ]
+          },
+          {
+            "id": "rep-bill-of-rights",
+            "eventId": "evt-bill-of-rights",
+            "narrative": "Hamilton's financial system has stabilized the economy, but a deeper question remains: what protections do individual citizens have against the very government they have just empowered?\n\n1791. The Constitution has been in effect for barely two years, and already the Anti-Federalists' warnings feel prophetic. Patrick Henry thunders that the document is a recipe for tyranny — a powerful central government with no explicit guarantee of individual rights. George Mason, who helped write the Constitution but refused to sign it, warns that without protections, the new government will become the thing they fought a revolution to escape.\n\nJames Madison initially dismisses the idea of a bill of rights. The structure of government itself, he argues, is the best protection for liberty. But the ratification fight changes his mind. Several states ratify only on the explicit promise that amendments will follow. Madison, now a Virginia congressman, drafts seventeen amendments drawn from state constitutions, English common law, and Enlightenment philosophy.\n\nCongress whittles the seventeen down to twelve and sends them to the states. Ten are ratified. They guarantee freedoms that Americans will argue over for centuries: speech, religion, press, assembly, the right to bear arms, protection against unreasonable searches, the right to a jury trial, and protection against cruel and unusual punishment.\n\nThe Bill of Rights transforms the Constitution from a blueprint for government into a shield for the governed. Jefferson writes from Paris: 'A bill of rights is what the people are entitled to against every government on earth.' The American experiment now has both an engine and a brake.",
+            "quiz": [
+              {
+                "question": "Why did James Madison initially oppose a bill of rights?",
+                "options": [
+                  "He believed the Constitution's structure itself protected liberty",
+                  "He thought it would make the government too weak",
+                  "He wanted to wait for a second constitutional convention",
+                  "He believed rights were already protected by state laws"
+                ],
+                "answerIndex": 0,
+                "explanation": "Madison argued that the separation of powers and checks and balances built into the Constitution were sufficient protection."
+              },
+              {
+                "question": "How many amendments did Madison originally propose?",
+                "options": [
+                  "10",
+                  "17",
+                  "12",
+                  "25"
+                ],
+                "answerIndex": 1,
+                "explanation": "Madison drafted 17 amendments. Congress reduced them to 12, and the states ratified 10 — the Bill of Rights."
+              },
+              {
+                "question": "Which of the following is NOT protected by the First Amendment?",
+                "options": [
+                  "Freedom of speech",
+                  "Freedom of religion",
+                  "The right to bear arms",
+                  "Freedom of the press"
+                ],
+                "answerIndex": 2,
+                "explanation": "The right to bear arms is protected by the Second Amendment, not the First."
+              },
+              {
+                "question": "What role did Anti-Federalist opposition play in creating the Bill of Rights?",
+                "options": [
+                  "They blocked ratification until amendments were promised",
+                  "They wrote the amendments themselves",
+                  "Several states ratified only on the condition that a bill of rights would follow",
+                  "They had no influence — Madison always planned the amendments"
+                ],
+                "answerIndex": 2,
+                "explanation": "Anti-Federalist pressure forced the promise of amendments as a condition of ratification in several key states."
+              }
+            ]
+          },
+          {
+            "id": "rep-louisiana",
+            "eventId": "evt-louisiana-purchase",
+            "narrative": "The Bill of Rights has secured individual liberty and the Constitution has survived its first turbulent decade. Now Jefferson — the champion of limited government — faces a temptation that will force him to abandon his own principles.\n\n1803. Napoleon Bonaparte offers to sell the entire Louisiana Territory — 828,000 square miles stretching from the Mississippi River to the Rocky Mountains — for $15 million. That works out to about three cents an acre. It is the greatest real estate bargain in human history.\n\nThe problem: nothing in the Constitution explicitly authorizes the president to purchase foreign territory. Jefferson, who spent years attacking Hamilton for reading powers into the Constitution that weren't there, must now do exactly the same thing — or pass up the deal of the millennium.\n\nHe wrestles with it. He drafts a constitutional amendment. Then he throws the draft away. Napoleon might change his mind at any moment. Jefferson swallows his principles and signs the deal.\n\nWhy is Napoleon selling? Because the Haitian Revolution has destroyed his Caribbean empire. He's lost 50,000 soldiers trying to retake the island. He needs cash for his European wars. And he'd rather strengthen America than let Britain seize the territory.\n\nThe Louisiana Purchase doubles the size of the United States overnight. It secures control of the Mississippi River and the port of New Orleans, lifelines for western farmers. It opens the way for Lewis and Clark to map a route to the Pacific. And it sets the precedent that the federal government can act boldly when opportunity demands — even if the Constitution doesn't explicitly say so.\n\nJefferson's three-cent acres will become all or part of fifteen future states.",
+            "quiz": [
+              {
+                "question": "Why did Jefferson hesitate to make the Louisiana Purchase?",
+                "options": [
+                  "He thought the price was too high",
+                  "He feared war with Spain",
+                  "The Constitution didn't explicitly authorize the president to buy foreign territory",
+                  "Congress had already rejected the idea"
+                ],
+                "answerIndex": 2,
+                "explanation": "Jefferson, a strict constructionist, agonized over acting without explicit constitutional authority — but ultimately chose pragmatism."
+              },
+              {
+                "question": "What event in the Caribbean directly led Napoleon to sell Louisiana?",
+                "options": [
+                  "A British naval blockade",
+                  "The Haitian Revolution destroyed his Caribbean empire",
+                  "A hurricane destroyed French ports",
+                  "Spain reclaimed the territory"
+                ],
+                "answerIndex": 1,
+                "explanation": "Napoleon lost 50,000 soldiers trying to retake Haiti, abandoning his dreams of a Western Hemisphere empire."
+              },
+              {
+                "question": "What critical waterway did the Purchase secure for American farmers?",
+                "options": [
+                  "The Hudson River",
+                  "The Great Lakes",
+                  "The Chesapeake Bay",
+                  "The Mississippi River and the port of New Orleans"
+                ],
+                "answerIndex": 3,
+                "explanation": "Control of the Mississippi and New Orleans was vital — western farmers depended on the river to ship their goods to market."
+              },
+              {
+                "question": "How many future states would be carved from the Louisiana Territory?",
+                "options": [
+                  "5",
+                  "10",
+                  "15",
+                  "20"
+                ],
+                "answerIndex": 2,
+                "explanation": "All or part of 15 future states were carved from the 828,000 square miles of the Louisiana Purchase."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crises",
+        "label": "The First Crises",
+        "color": "#ef4444",
+        "icon": "⚡",
+        "description": "A tax revolt, an undeclared naval war, laws criminalizing free speech, a Supreme Court power grab, pirates on the Barbary Coast, and the British burning the White House. Follow the crises that tested whether the new republic could survive its own contradictions.",
+        "nodes": [
+          {
+            "id": "cr-whiskey",
+            "eventId": "evt-whiskey-rebellion",
+            "narrative": "Hamilton's financial system has saved the economy — but the farmers on the western frontier are paying the price, and they're reaching for their muskets.\n\n1794. Hamilton's excise tax on whiskey hits western Pennsylvania like a sledgehammer. For frontier farmers, whiskey isn't a luxury — it's currency. Their grain is too bulky to ship across the mountains, so they distill it. A horse can carry four bushels of grain or 24 bushels' worth of whiskey. The tax falls hardest on the people least able to pay it.\n\nResistance begins with petitions and escalates to violence. Tax collectors are tarred and feathered. A federal marshal serving writs is attacked. When 500 armed rebels march on the home of the regional tax inspector and burn it to the ground, the crisis reaches the president's desk.\n\nWashington's response is extraordinary. He personally leads 13,000 militia — larger than any army he commanded during the Revolution — across the Appalachians to crush the rebellion. It is the first and only time a sitting president has commanded troops in the field.\n\nThe rebels melt away. There is no battle. Two men are convicted of treason; Washington pardons both. The point has been made: the federal government under the Constitution, unlike under the Articles, can enforce its laws. The question Shays' Rebellion raised has been answered.\n\nBut the political cost is steep. Western farmers flock to Jefferson's Democratic-Republicans, deepening the partisan divide that Hamilton and Jefferson have already carved into American politics.",
+            "quiz": [
+              {
+                "question": "Why was whiskey so important to western frontier farmers?",
+                "options": [
+                  "It was their primary drink",
+                  "They used it as medicine",
+                  "It served as currency because grain was too bulky to ship across the mountains",
+                  "British merchants demanded it as payment"
+                ],
+                "answerIndex": 2,
+                "explanation": "Distilling grain into whiskey made it compact and valuable enough to transport over the Appalachians — it was essentially liquid currency."
+              },
+              {
+                "question": "What made Washington's response to the Whiskey Rebellion historically unique?",
+                "options": [
+                  "He negotiated a compromise with the rebels",
+                  "He declared martial law for the first time",
+                  "He personally led 13,000 troops — the only sitting president to command in the field",
+                  "He asked Congress to repeal the tax"
+                ],
+                "answerIndex": 2,
+                "explanation": "Washington personally marched at the head of an army larger than anything he'd commanded in the Revolution."
+              },
+              {
+                "question": "How did the Whiskey Rebellion differ from Shays' Rebellion in outcome?",
+                "options": [
+                  "Both rebellions succeeded",
+                  "This time the federal government had the power to enforce its laws",
+                  "The rebels won concessions",
+                  "Congress sided with the rebels"
+                ],
+                "answerIndex": 1,
+                "explanation": "Under the Constitution, unlike under the Articles of Confederation, the federal government could raise an army and enforce its laws."
+              },
+              {
+                "question": "What happened to the two men convicted of treason?",
+                "options": [
+                  "They were executed",
+                  "They fled to Canada",
+                  "Washington pardoned both of them",
+                  "They were imprisoned for life"
+                ],
+                "answerIndex": 2,
+                "explanation": "Washington pardoned both convicted rebels — demonstrating federal power while showing mercy."
+              }
+            ]
+          },
+          {
+            "id": "cr-adams",
+            "eventId": "evt-adams-president",
+            "narrative": "Washington has retired, and the man who replaces him inherits a government tearing itself apart — with a foreign crisis on top.\n\n1797. John Adams takes office as the second president, and the situation is dire. France, furious that the United States signed a trade treaty with Britain, is seizing American ships. In the 'XYZ Affair,' French diplomats demand a $250,000 bribe and a $10 million loan before they'll even negotiate. When the dispatches are published, Americans are enraged. 'Millions for defense, but not one cent for tribute!' becomes the rallying cry.\n\nHamilton and the Federalists are itching for war. They see a chance to build a professional army, expand federal power, and crush Jefferson's pro-French Democratic-Republicans. Adams has a different instinct. He sends a new diplomatic mission to Paris, and in 1800 the Convention of Mortefontaine ends the Quasi-War without a single land battle.\n\nAdams's decision for peace is courageous — and politically fatal. His own party turns against him. Hamilton, who privately despises Adams, works behind the scenes to undermine his reelection. The Federalists split.\n\nBut Adams's greatest crisis is still to come. In the heat of the Quasi-War, he signs the Alien and Sedition Acts — laws that will test whether the First Amendment means anything at all. Adams later calls his decision to avoid full-scale war 'the most disinterested action of my life.' History agrees. But the Sedition Act will haunt his legacy forever.",
+            "quiz": [
+              {
+                "question": "What was the XYZ Affair?",
+                "options": [
+                  "A spy ring in Philadelphia",
+                  "French diplomats demanded bribes before they would negotiate with American envoys",
+                  "A British plot to assassinate Adams",
+                  "A trade scandal involving Hamilton"
+                ],
+                "answerIndex": 1,
+                "explanation": "French agents (called X, Y, and Z in the published dispatches) demanded $250,000 in bribes and a $10 million loan."
+              },
+              {
+                "question": "Why was Adams's decision to pursue peace with France politically costly?",
+                "options": [
+                  "The public wanted war with France",
+                  "It violated the Constitution",
+                  "His own Federalist Party, led by Hamilton, wanted war and turned against him",
+                  "Jefferson supported the war effort"
+                ],
+                "answerIndex": 2,
+                "explanation": "Hamilton and war-hawk Federalists saw the crisis as an opportunity to expand federal power, and they turned on Adams when he chose diplomacy."
+              },
+              {
+                "question": "What did Adams later call his decision to avoid war with France?",
+                "options": [
+                  "'My greatest mistake'",
+                  "'A necessary evil'",
+                  "'The most disinterested action of my life'",
+                  "'The end of the Federalist Party'"
+                ],
+                "answerIndex": 2,
+                "explanation": "Adams knew peace would cost him reelection but believed it was right — and called it the most selfless act of his career."
+              },
+              {
+                "question": "How did the Quasi-War with France end?",
+                "options": [
+                  "A decisive naval battle",
+                  "French invasion of the United States",
+                  "The Convention of Mortefontaine ended it diplomatically in 1800",
+                  "Britain intervened on America's behalf"
+                ],
+                "answerIndex": 2,
+                "explanation": "Adams sent diplomats to Paris, and the Convention of Mortefontaine ended hostilities without a full-scale war."
+              }
+            ]
+          },
+          {
+            "id": "cr-sedition",
+            "eventId": "evt-alien-sedition-acts",
+            "narrative": "Adams has averted war with France, but in the process he has signed laws that threaten the very freedoms the Revolution was fought to protect.\n\n1798. With anti-French hysteria at a fever pitch, the Federalist-controlled Congress passes four laws known collectively as the Alien and Sedition Acts. The Alien Acts give the president power to deport any non-citizen deemed 'dangerous.' The Naturalization Act extends the residency requirement for citizenship from five to fourteen years — conveniently targeting Irish and French immigrants who tend to vote for Jefferson.\n\nBut the Sedition Act is the bombshell. It criminalizes 'false, scandalous, and malicious' statements about the president or Congress. In plain English: criticize the government and go to jail.\n\nThe crackdown is immediate. Twenty-five people are arrested. Newspaper editors are prosecuted for writing op-eds. Congressman Matthew Lyon of Vermont is jailed for writing a letter that accused Adams of 'ridiculous pomp.' He wins reelection from his cell.\n\nJefferson and Madison fight back in secret. They draft the Kentucky and Virginia Resolutions, arguing that states can nullify unconstitutional federal laws. It's a dangerous doctrine — one that will resurface before the Civil War — but in 1798 it's the only weapon they have.\n\nThe Sedition Act expires on the last day of Adams's presidency — March 3, 1801 — by design. The Federalists made sure it couldn't be used against them. But the damage is done. Adams loses the 1800 election. The Alien and Sedition Acts become a cautionary tale about what happens when fear overrides the Bill of Rights.",
+            "quiz": [
+              {
+                "question": "What did the Sedition Act make illegal?",
+                "options": [
+                  "Owning foreign newspapers",
+                  "Traveling to France",
+                  "'False, scandalous, and malicious' criticism of the president or Congress",
+                  "Voting against the Federalist Party"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Sedition Act criminalized criticism of the government — a direct assault on First Amendment protections."
+              },
+              {
+                "question": "What happened to Congressman Matthew Lyon under the Sedition Act?",
+                "options": [
+                  "He fled to France",
+                  "He was expelled from Congress",
+                  "He was jailed for criticizing Adams — and won reelection from his cell",
+                  "He recanted and supported Adams"
+                ],
+                "answerIndex": 2,
+                "explanation": "Lyon was convicted for writing a letter critical of Adams's 'ridiculous pomp' and served four months in jail while his constituents reelected him."
+              },
+              {
+                "question": "Why did the Sedition Act expire on March 3, 1801?",
+                "options": [
+                  "The Supreme Court struck it down",
+                  "The Federalists designed it to expire before it could be used against them if they lost power",
+                  "Jefferson repealed it immediately",
+                  "A constitutional amendment overrode it"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Federalists wrote the expiration date into the law so it couldn't be turned against them if they lost the next election."
+              },
+              {
+                "question": "How did Jefferson and Madison respond to the Alien and Sedition Acts?",
+                "options": [
+                  "They filed a lawsuit in the Supreme Court",
+                  "They organized public protests",
+                  "They secretly drafted the Kentucky and Virginia Resolutions arguing states could nullify unconstitutional laws",
+                  "They supported the acts publicly but opposed them privately"
+                ],
+                "answerIndex": 2,
+                "explanation": "Jefferson and Madison anonymously authored the Kentucky and Virginia Resolutions, introducing the controversial doctrine of state nullification."
+              }
+            ]
+          },
+          {
+            "id": "cr-marbury",
+            "eventId": "evt-marbury-v-madison",
+            "narrative": "The Sedition Act is dead, Jefferson is president, and now the Supreme Court makes its most audacious power grab in American history — and nobody can stop it.\n\n1803. The case seems minor. William Marbury, a Federalist appointee, wants his commission as a justice of the peace. Adams signed it, but Jefferson's Secretary of State — James Madison — refuses to deliver it. Marbury sues.\n\nChief Justice John Marshall faces an impossible dilemma. If he orders Madison to deliver the commission, Jefferson will simply ignore the order, proving the Court is powerless. If he sides with Madison, the Federalist judiciary surrenders to the Democratic-Republicans.\n\nMarshall's solution is a masterpiece of political judo. He rules that Marbury has a right to his commission — but then declares that the law Marbury used to bring the case is itself unconstitutional. The Supreme Court, Marshall announces, has the power to strike down any law that violates the Constitution.\n\nJefferson can't object. He won the case. Marbury doesn't get his commission. But in losing, Marshall has claimed the most important power any court in the world has ever held: judicial review.\n\nNo one fully grasps the implications in 1803. But Marshall has just made the Supreme Court a co-equal branch of government. Every major constitutional battle for the next two centuries — from Dred Scott to Brown v. Board to Roe v. Wade — flows from this moment. The judiciary is no longer the 'least dangerous branch.' It is the final arbiter of what the Constitution means.",
+            "quiz": [
+              {
+                "question": "What power did Marbury v. Madison establish for the Supreme Court?",
+                "options": [
+                  "The power to impeach the president",
+                  "The power to declare war",
+                  "Judicial review — the power to strike down unconstitutional laws",
+                  "The power to appoint federal judges"
+                ],
+                "answerIndex": 2,
+                "explanation": "Marshall established that the Supreme Court has the final say on whether a law violates the Constitution."
+              },
+              {
+                "question": "Why was Marshall's ruling considered political genius?",
+                "options": [
+                  "He sided with both parties simultaneously",
+                  "He gave Jefferson the outcome he wanted while claiming a far greater power for the Court",
+                  "He avoided making any ruling at all",
+                  "He delayed the case until Adams could intervene"
+                ],
+                "answerIndex": 1,
+                "explanation": "By ruling against Marbury on the surface, Marshall prevented Jefferson from defying the Court — while establishing judicial review."
+              },
+              {
+                "question": "What was the original dispute in the case?",
+                "options": [
+                  "Whether slavery was constitutional",
+                  "Whether the president could veto Supreme Court decisions",
+                  "Whether William Marbury should receive his judicial commission",
+                  "Whether Congress could create new courts"
+                ],
+                "answerIndex": 2,
+                "explanation": "Marbury sued because Jefferson's Secretary of State refused to deliver his commission as justice of the peace."
+              },
+              {
+                "question": "Alexander Hamilton called the judiciary the 'least dangerous branch.' How did Marshall change that?",
+                "options": [
+                  "By creating a judicial police force",
+                  "By making the Court a co-equal branch with the power to invalidate laws",
+                  "By expanding the number of justices",
+                  "By giving judges lifetime military commands"
+                ],
+                "answerIndex": 1,
+                "explanation": "Judicial review transformed the Court from a passive interpreter into the final arbiter of constitutional meaning."
+              }
+            ]
+          },
+          {
+            "id": "cr-barbary",
+            "eventId": "evt-barbary-war",
+            "narrative": "Marshall has empowered the judiciary at home, but thousands of miles away, the young republic faces a very different kind of test — pirates.\n\n1801. For decades, the Barbary States of North Africa — Tripoli, Algiers, Tunis, and Morocco — have demanded tribute from any nation whose ships sail the Mediterranean. European powers pay up. Under the Articles of Confederation, the United States paid too — over $1 million, about one-tenth of the entire federal budget.\n\nJefferson refuses to keep paying. When the Pasha of Tripoli declares war by chopping down the American flagpole at his palace, Jefferson sends the Navy.\n\nThe war is a proving ground for the young American military. In 1803, the USS Philadelphia runs aground in Tripoli's harbor and its crew is captured. Lieutenant Stephen Decatur leads a raiding party into the harbor at night, boards the ship, and burns it to prevent the enemy from using it. British Admiral Horatio Nelson calls it 'the most bold and daring act of the age.'\n\nThe war drags on until 1805, when a combined naval blockade and an overland assault by a tiny force of Marines and mercenaries force Tripoli to terms. The Marines' march across the Libyan desert — 'to the shores of Tripoli' — enters the Marine Corps hymn.\n\nThe First Barbary War is small, but its significance is large. The United States has projected military power overseas for the first time, refused to pay tribute to extortionists, and proven that the new navy can fight. For a country less than twenty years old, it's a statement.",
+            "quiz": [
+              {
+                "question": "How did the Pasha of Tripoli declare war on the United States?",
+                "options": [
+                  "By sinking an American warship",
+                  "By sending a formal declaration to Congress",
+                  "By chopping down the American flagpole at his palace",
+                  "By capturing the American ambassador"
+                ],
+                "answerIndex": 2,
+                "explanation": "In the Barbary tradition, cutting down a nation's flagpole was a declaration of war."
+              },
+              {
+                "question": "What did Lieutenant Stephen Decatur do to the captured USS Philadelphia?",
+                "options": [
+                  "Negotiated its return through diplomacy",
+                  "Led a night raid to board and burn it so the enemy couldn't use it",
+                  "Paid ransom to recover it",
+                  "Launched a full naval assault to recapture it"
+                ],
+                "answerIndex": 1,
+                "explanation": "Decatur's night raid to burn the Philadelphia was called 'the most bold and daring act of the age' by Admiral Nelson."
+              },
+              {
+                "question": "What phrase in the Marine Corps hymn comes from the Barbary Wars?",
+                "options": [
+                  "'From the halls of Montezuma'",
+                  "'To the shores of Tripoli'",
+                  "'In the air, on land, and sea'",
+                  "'First to fight for right and freedom'"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Marines' march across the Libyan desert to attack Tripoli gave the hymn its famous second line."
+              },
+              {
+                "question": "Why was the First Barbary War significant for the young republic?",
+                "options": [
+                  "It doubled the nation's territory",
+                  "It ended European colonialism in Africa",
+                  "It was the first time the U.S. projected military power overseas",
+                  "It established the U.S. Army"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Barbary War proved the young nation could project military force internationally and refuse to pay tribute."
+              }
+            ]
+          },
+          {
+            "id": "cr-1812",
+            "eventId": "evt-war-1812",
+            "narrative": "The republic has faced down pirates and internal rebellions. Now it must survive a rematch with the most powerful empire on earth.\n\n1812. Britain is at war with Napoleon, and it's squeezing the United States in the process. The Royal Navy stops American ships and 'impresses' — kidnaps — American sailors, forcing them to serve on British warships. Britain supplies weapons to Native American nations fighting American expansion. Trade restrictions strangle American commerce.\n\nPresident James Madison, pressured by 'War Hawks' in Congress like Henry Clay and John C. Calhoun, asks for a declaration of war. The vote is the closest war vote in American history — 79 to 49 in the House.\n\nThe war goes badly at first. An American invasion of Canada fails spectacularly. The British burn Washington, D.C., in August 1814 — the president and first lady flee the capital as the White House, the Capitol, and the Treasury go up in flames. Dolley Madison saves Gilbert Stuart's portrait of George Washington by cutting it from its frame.\n\nBut the Americans rally. Fort McHenry withstands a 25-hour British bombardment, inspiring Francis Scott Key to write 'The Star-Spangled Banner.' Andrew Jackson's ragtag army destroys a professional British force at the Battle of New Orleans in January 1815 — two weeks after the Treaty of Ghent has already ended the war, though neither side knows it yet.\n\nThe War of 1812 ends in a draw on paper. But it ends something larger: the question of whether the American republic can survive. No European power will seriously threaten American sovereignty again. The Era of Good Feelings begins.",
+            "quiz": [
+              {
+                "question": "What practice of the British Navy was a major cause of the War of 1812?",
+                "options": [
+                  "Blockading American ports",
+                  "Impressing (kidnapping) American sailors to serve on British warships",
+                  "Attacking American fishing boats",
+                  "Refusing to trade with American merchants"
+                ],
+                "answerIndex": 1,
+                "explanation": "Impressment — the forcible conscription of American sailors — was a direct assault on American sovereignty and a key cause of the war."
+              },
+              {
+                "question": "What happened when the British attacked Washington, D.C.?",
+                "options": [
+                  "The American army repelled them",
+                  "They burned the White House, Capitol, and Treasury while the president fled",
+                  "They occupied the city for a year",
+                  "A hurricane drove them off"
+                ],
+                "answerIndex": 1,
+                "explanation": "The British burned major government buildings in August 1814 — one of the most humiliating moments in American history."
+              },
+              {
+                "question": "What inspired Francis Scott Key to write 'The Star-Spangled Banner'?",
+                "options": [
+                  "The burning of Washington",
+                  "Jackson's victory at New Orleans",
+                  "Fort McHenry withstanding a 25-hour British bombardment",
+                  "The signing of the Treaty of Ghent"
+                ],
+                "answerIndex": 2,
+                "explanation": "Key watched the bombardment from a British ship and saw the American flag still flying at dawn — inspiring the national anthem."
+              },
+              {
+                "question": "Why was the Battle of New Orleans ironic?",
+                "options": [
+                  "It was fought between two American generals",
+                  "It was fought two weeks after the peace treaty had already been signed",
+                  "The British won but didn't realize it",
+                  "It was fought on French territory"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Treaty of Ghent was signed on December 24, 1814, but news traveled so slowly that Jackson fought — and won — on January 8, 1815."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "explorers",
+        "label": "Inventors & Explorers",
+        "color": "#22c55e",
+        "icon": "🧭",
+        "description": "The cotton gin, interchangeable parts, a steamboat that changed everything, and an expedition to the edge of the known world. Follow the inventors and explorers who transformed a coastal republic into a continental power.",
+        "nodes": [
+          {
+            "id": "ex-cotton-gin",
+            "eventId": "evt-cotton-gin",
+            "narrative": "The republic is barely a decade old, and a Yale graduate tinkering on a Georgia plantation is about to reshape the American economy — in ways he never intended.\n\n1794. Eli Whitney has a problem he thinks he can solve. Short-staple cotton grows well across the South, but its sticky green seeds are almost impossible to remove by hand. A worker can clean about one pound per day. It takes all day. The labor makes cotton barely profitable.\n\nWhitney builds a simple machine: a wooden cylinder with wire hooks that pull cotton fiber through a mesh screen, leaving the seeds behind. His cotton gin — short for 'engine' — can clean 50 pounds of cotton in a single day. He patents it in 1794.\n\nThe effect is instantaneous and catastrophic. Cotton becomes wildly profitable overnight. Southern planters tear out their tobacco and indigo fields and plant cotton horizon to horizon. But who will pick it? The gin cleans cotton, but it doesn't harvest it. That still requires backbreaking hand labor.\n\nThe demand for enslaved workers explodes. In 1790, the South has about 700,000 enslaved people and produces 3,000 bales of cotton. By 1860: nearly 4 million enslaved people and 4.5 million bales — three-quarters of the world's supply. Cotton becomes America's most valuable export. Northern mills spin it. New York banks finance it. British factories weave it.\n\nWhitney invents a machine to save labor. Instead, he creates the economic engine that makes slavery the foundation of the American economy. It's the most consequential unintended consequence in American history.",
+            "quiz": [
+              {
+                "question": "What problem did the cotton gin solve?",
+                "options": [
+                  "Planting cotton seeds more efficiently",
+                  "Spinning cotton into thread",
+                  "Removing sticky seeds from short-staple cotton fiber",
+                  "Transporting cotton to Northern mills"
+                ],
+                "answerIndex": 2,
+                "explanation": "The gin's wire hooks pulled cotton fiber through a mesh screen, separating it from the seeds that made hand-cleaning so tedious."
+              },
+              {
+                "question": "How did the cotton gin affect the institution of slavery?",
+                "options": [
+                  "It reduced the need for enslaved labor",
+                  "It had no effect on slavery",
+                  "It massively increased demand for enslaved labor to harvest the now-profitable crop",
+                  "It led directly to abolition"
+                ],
+                "answerIndex": 2,
+                "explanation": "The gin made cotton hugely profitable but didn't mechanize harvesting — driving demand for enslaved workers from 700,000 to nearly 4 million."
+              },
+              {
+                "question": "What is 'gin' short for?",
+                "options": [
+                  "Engine",
+                  "Generator",
+                  "Ginning (a term for cleaning cotton)",
+                  "It's Whitney's middle name"
+                ],
+                "answerIndex": 0,
+                "explanation": "Cotton gin is short for 'cotton engine' — Whitney's simple but revolutionary machine."
+              },
+              {
+                "question": "What share of the world's cotton did the American South produce by 1860?",
+                "options": [
+                  "About a quarter",
+                  "About half",
+                  "Nearly all of it",
+                  "About three-quarters"
+                ],
+                "answerIndex": 3,
+                "explanation": "By 1860, the South produced about three-quarters of the world's cotton supply — 4.5 million bales annually."
+              }
+            ]
+          },
+          {
+            "id": "ex-interchangeable",
+            "eventId": "evt-interchangeable-parts",
+            "narrative": "Whitney's cotton gin has transformed the South. Now he's about to plant the seed of an idea that will transform the North — even if his own demonstration is a bit of a con.\n\n1801. Eli Whitney is broke. His cotton gin patent has been pirated by every planter in the South, and he's spent years in fruitless lawsuits. He needs a new revenue stream. He promises the federal government 10,000 muskets in two years — an insane commitment for a man with no factory and no experience making weapons.\n\nWhitney's revolutionary pitch: instead of having a master craftsman hand-file each musket as a unique work of art, he'll make standardized parts that any worker can assemble. A broken lock can be replaced with any other lock. A damaged barrel swaps out in minutes. No skilled gunsmiths needed.\n\nIn January 1801, Whitney demonstrates before President Adams and members of Congress. He lays out piles of musket parts, randomly selects components, and assembles working firearms. The audience is astonished.\n\nHistorians now believe the demonstration was partly staged — Whitney may have pre-fitted the parts. He delivers the 10,000 muskets eight years late. But the idea is genuine, and it catches fire. The federal armories at Springfield and Harpers Ferry develop true interchangeable parts over the following decades.\n\nThe result is the 'American system of manufacturing' — mass production using interchangeable parts and specialized machines. It will make everything from clocks to sewing machines to, eventually, automobiles. Whitney doesn't invent the factory. But he sells the dream of it.",
+            "quiz": [
+              {
+                "question": "Why was Whitney broke despite inventing the cotton gin?",
+                "options": [
+                  "He sold the patent too cheaply",
+                  "The gin didn't work as advertised",
+                  "Southern planters pirated his design and he lost years in fruitless lawsuits",
+                  "He gambled away his fortune"
+                ],
+                "answerIndex": 2,
+                "explanation": "The gin was so simple to copy that planters built their own, and Southern courts were unsympathetic to Whitney's patent claims."
+              },
+              {
+                "question": "What was revolutionary about Whitney's musket manufacturing concept?",
+                "options": [
+                  "He used steam power to make them faster",
+                  "Standardized interchangeable parts that any worker could assemble",
+                  "He invented a new type of gunpowder",
+                  "He hired enslaved workers to reduce costs"
+                ],
+                "answerIndex": 1,
+                "explanation": "Instead of hand-crafted unique weapons, Whitney proposed standardized parts — a broken component could be swapped with any identical replacement."
+              },
+              {
+                "question": "What broader manufacturing revolution did interchangeable parts enable?",
+                "options": [
+                  "The cotton trade",
+                  "The American system of mass production",
+                  "The assembly line",
+                  "The steel industry"
+                ],
+                "answerIndex": 1,
+                "explanation": "The 'American system of manufacturing' used interchangeable parts and specialized machines to mass-produce everything from clocks to firearms."
+              },
+              {
+                "question": "How many muskets did Whitney promise the government, and how late was he?",
+                "options": [
+                  "5,000 muskets, 3 years late",
+                  "10,000 muskets, 8 years late",
+                  "20,000 muskets, 2 years late",
+                  "1,000 muskets, on time"
+                ],
+                "answerIndex": 1,
+                "explanation": "Whitney promised 10,000 muskets in two years but delivered them eight years late — the concept was easier to pitch than to execute."
+              }
+            ]
+          },
+          {
+            "id": "ex-lewis-clark",
+            "eventId": "evt-lewis-clark",
+            "narrative": "Whitney's interchangeable parts are reshaping manufacturing in the East. Meanwhile, Jefferson has just bought 828,000 square miles of territory that no American has ever mapped — and he needs someone to go look at it.\n\n1804. Meriwether Lewis, Jefferson's personal secretary, and William Clark, a frontier soldier, set out from Camp Dubois near St. Louis with about 45 men — soldiers, hunters, interpreters, and Clark's enslaved man York. Their mission: find a water route to the Pacific Ocean, document the plants, animals, and peoples of the West, and establish American claims to the territory.\n\nThe journey is staggering. They paddle and portage up the Missouri River, cross the Rocky Mountains on horseback, and canoe down the Columbia to the Pacific. They cover over 8,000 miles in 28 months. They encounter grizzly bears, nearly starve in the Bitterroot Mountains, and survive only because a Shoshone woman named Sacagawea — carrying her infant son — guides them, translates, and vouches for their peaceful intentions to suspicious tribes.\n\nThey reach the Pacific in November 1805. Clark carves into a tree: 'William Clark December 3rd 1805. By land from the U. States in 1804 & 1805.'\n\nThe expedition returns to St. Louis in September 1806 to a heroes' welcome — most had assumed they were dead. They bring back 178 new plant species, 122 new animal species, and detailed maps of territory that will become a dozen states.\n\nLewis and Clark don't find the hoped-for water route to the Pacific — it doesn't exist. But they prove that an overland crossing is possible, and they establish the American claim to the Oregon Country. The West is no longer a rumor. It's a destination.",
+            "quiz": [
+              {
+                "question": "Why was Sacagawea essential to the expedition's success?",
+                "options": [
+                  "She provided the expedition's funding",
+                  "She guided, translated, and vouched for the explorers' peaceful intentions to Native tribes",
+                  "She was the expedition's mapmaker",
+                  "She negotiated the Louisiana Purchase"
+                ],
+                "answerIndex": 1,
+                "explanation": "Sacagawea's presence with her infant son signaled peaceful intent, and her knowledge of languages and terrain proved invaluable."
+              },
+              {
+                "question": "How far did Lewis and Clark travel on their expedition?",
+                "options": [
+                  "About 2,000 miles",
+                  "About 5,000 miles",
+                  "Over 8,000 miles",
+                  "About 15,000 miles"
+                ],
+                "answerIndex": 2,
+                "explanation": "The expedition covered over 8,000 miles round-trip in 28 months — from St. Louis to the Pacific and back."
+              },
+              {
+                "question": "What did the expedition fail to find?",
+                "options": [
+                  "The Rocky Mountains",
+                  "An all-water route to the Pacific Ocean",
+                  "Any new plant or animal species",
+                  "The Mississippi River"
+                ],
+                "answerIndex": 1,
+                "explanation": "Jefferson hoped for a 'Northwest Passage' — a continuous water route to the Pacific — but the Rocky Mountains proved this was impossible."
+              },
+              {
+                "question": "How many new species did Lewis and Clark document?",
+                "options": [
+                  "About 50 plant and 30 animal species",
+                  "178 plant and 122 animal species",
+                  "Over 500 total species",
+                  "About 20 plant and 10 animal species"
+                ],
+                "answerIndex": 1,
+                "explanation": "The expedition documented 178 new plant species and 122 new animal species — an enormous contribution to natural science."
+              }
+            ]
+          },
+          {
+            "id": "ex-steamboat",
+            "eventId": "evt-steamboat-fulton",
+            "narrative": "Lewis and Clark have proven you can cross the continent on foot, by horse, and by canoe. But Robert Fulton is about to prove you can go upstream — and it will change everything.\n\n1807. For all of human history, river travel has been a one-way affair. You can float downstream easily enough, but going upstream means poling, rowing, or hauling your boat with ropes from shore. A flatboat from Pittsburgh to New Orleans takes about six weeks. The return trip — upstream — takes four to five months, if you bother at all. Most boatmen sell their vessels for lumber and walk home.\n\nRobert Fulton, an American artist-turned-engineer, has been obsessing over steam power for years. Working with a British-built engine, he constructs the North River Steamboat — later nicknamed the Clermont. On August 17, 1807, the boat chugs up the Hudson River from New York City to Albany: 150 miles in 32 hours.\n\nOnlookers are stunned. Some think the boat is on fire. Others predict it will explode. It doesn't. And the world changes.\n\nWithin a decade, steamboats are churning up and down the Mississippi, the Ohio, and every navigable river in America. The trip from New Orleans to Louisville drops from three months to two weeks. Goods, people, and ideas now flow both ways. The interior of the continent — all those acres Jefferson just bought — is suddenly accessible.\n\nFulton doesn't invent the steamboat — others built prototypes before him. But he builds the first one that actually makes money. And in America, that's what counts.",
+            "quiz": [
+              {
+                "question": "What fundamental problem did the steamboat solve for river commerce?",
+                "options": [
+                  "Rivers were too shallow for large boats",
+                  "Going upstream was impossibly slow — taking months vs. weeks downstream",
+                  "Pirates controlled the major rivers",
+                  "There were no bridges to cross rivers"
+                ],
+                "answerIndex": 1,
+                "explanation": "Before steamboats, floating downstream was easy but the return upstream took months — most boatmen simply walked home."
+              },
+              {
+                "question": "What was significant about Fulton's achievement compared to earlier steamboat attempts?",
+                "options": [
+                  "He invented the steam engine",
+                  "He was the first to try a steamboat",
+                  "He built the first commercially successful steamboat",
+                  "He received a government contract"
+                ],
+                "answerIndex": 2,
+                "explanation": "Others built prototypes, but Fulton's was the first to actually turn a profit — proving the technology was commercially viable."
+              },
+              {
+                "question": "How long did the Clermont take to travel 150 miles up the Hudson River?",
+                "options": [
+                  "3 days",
+                  "One week",
+                  "32 hours",
+                  "12 hours"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Clermont made the 150-mile journey from New York City to Albany in 32 hours — astonishing for upstream travel."
+              },
+              {
+                "question": "How did steamboats connect to the Louisiana Purchase?",
+                "options": [
+                  "They made the interior Jefferson bought suddenly accessible for two-way commerce",
+                  "Jefferson used a steamboat to negotiate the purchase",
+                  "Steamboats carried the purchase money to France",
+                  "They had no connection"
+                ],
+                "answerIndex": 0,
+                "explanation": "Steamboats transformed the vast Louisiana Territory from inaccessible wilderness into commercially viable land by enabling upstream river travel."
+              }
+            ]
+          },
+          {
+            "id": "ex-1812-tech",
+            "eventId": "evt-war-1812",
+            "narrative": "Fulton's steamboat has connected the interior. Whitney's gin and interchangeable parts have transformed agriculture and manufacturing. Now the War of 1812 forces the young republic to put all its innovations to the ultimate test.\n\n1812. When war breaks out with Britain, the United States has a tiny navy of 17 ships against the Royal Navy's 600. American factories are primitive. The national army numbers barely 12,000 men. On paper, this contest should be over in weeks.\n\nBut American technology and ingenuity level the playing field in surprising ways. The USS Constitution — 'Old Ironsides' — defeats the HMS Guerriere in a ship-to-ship battle that stuns the world. British cannonballs literally bounce off her oak hull, reinforced with a copper bottom designed by Paul Revere's foundry.\n\nOn the Great Lakes, American shipbuilders construct an entire fleet from scratch in the wilderness. Oliver Hazard Perry builds nine warships at Erie, Pennsylvania, from green timber cut from the surrounding forests. His fleet defeats the British at the Battle of Lake Erie, giving America control of the crucial waterway. Perry's famous dispatch reads: 'We have met the enemy and they are ours.'\n\nEven in defeat, innovation shows. When the British burn Washington, the Americans rebuild faster than anyone expects — a testament to the growing industrial capacity of the young nation. And Whitney's armories at Springfield keep producing muskets with interchangeable parts, ensuring the army never runs out of weapons.\n\nThe War of 1812 proves that American innovation isn't just about comfort and commerce — it's a strategic advantage. The industrial foundation being laid in these years will, within fifty years, make the United States a manufacturing superpower.",
+            "quiz": [
+              {
+                "question": "Why was the USS Constitution nicknamed 'Old Ironsides'?",
+                "options": [
+                  "She was built from iron plates",
+                  "British cannonballs bounced off her reinforced oak hull",
+                  "Her crew wore iron armor",
+                  "She was the oldest ship in the Navy"
+                ],
+                "answerIndex": 1,
+                "explanation": "Her thick live-oak hull and copper bottom (from Paul Revere's foundry) were so tough that cannonballs seemed to bounce off — earning the nickname."
+              },
+              {
+                "question": "What was remarkable about the American fleet on the Great Lakes?",
+                "options": [
+                  "It was captured from the British",
+                  "It was built from scratch in the wilderness using green timber from surrounding forests",
+                  "It was made of iron",
+                  "It was powered by steam engines"
+                ],
+                "answerIndex": 1,
+                "explanation": "Perry built nine warships at Erie from freshly cut timber — an extraordinary feat of frontier engineering."
+              },
+              {
+                "question": "What was Oliver Hazard Perry's famous dispatch after the Battle of Lake Erie?",
+                "options": [
+                  "'Don't give up the ship'",
+                  "'I have not yet begun to fight'",
+                  "'We have met the enemy and they are ours'",
+                  "'Damn the torpedoes, full speed ahead'"
+                ],
+                "answerIndex": 2,
+                "explanation": "Perry's message — 'We have met the enemy and they are ours' — became one of the most famous dispatches in naval history."
+              },
+              {
+                "question": "How did American industrial innovation provide a strategic advantage during the war?",
+                "options": [
+                  "Steam-powered warships dominated the British fleet",
+                  "Whitney's armories with interchangeable parts kept the army supplied with muskets",
+                  "American railroads moved troops faster than British ships",
+                  "Telegraph communications coordinated American strategy"
+                ],
+                "answerIndex": 1,
+                "explanation": "Whitney's system of interchangeable parts meant muskets could be mass-produced and repaired in the field — a crucial advantage."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

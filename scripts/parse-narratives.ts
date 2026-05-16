@@ -196,6 +196,9 @@ const NARRATIVE_FILES: Record<string, string> = {
   'kievan-rus.md': 'kievan-rus',
   'russian-empire.md': 'russian-empire',
   'soviet-union.md': 'soviet-union',
+  'mississippian-culture.md': 'mississippian-culture',
+  'early-american-republic.md': 'early-american-republic',
+  'antebellum-america.md': 'antebellum-america',
 }
 
 function slugify(title: string): string {

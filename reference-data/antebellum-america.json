@@ -1,0 +1,2906 @@
+{
+  "id": "antebellum-america",
+  "label": "Antebellum America",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Antebellum_South",
+  "imageWikiSlug": "Frederick_Douglass",
+  "pitch": "In 1815, Americans celebrate the end of the War of 1812 with a surge of nationalist pride. By 1861, they are shooting each other. The Antebellum era is the story of how a young republic tears itself apart — expanding relentlessly westward while the cancer of slavery metastasizes with every new territory.\n\n🔑 Key Facts:\n• The Indian Removal Act forced over 60,000 Native Americans from their ancestral lands; the Cherokee Trail of Tears alone killed 4,000 people on a brutal winter march\n• The Missouri Compromise drew an imaginary line across the continent at 36°30' — slavery below, freedom above — a deal Thomas Jefferson called 'a fire bell in the night'\n• Frederick Douglass escaped slavery and became the most powerful orator in America, his Narrative selling 30,000 copies in five years and exposing slavery's horrors to a shocked Northern audience\n• Harriet Tubman made 13 trips back into slave territory, personally leading about 70 people to freedom through the Underground Railroad, never losing a single passenger\n\n🤔 Why It Matters: Every tension that would explode in the Civil War was built during these 46 years. The Missouri Compromise postponed the crisis. The Compromise of 1850 papered over it. The Kansas-Nebraska Act shredded the paper. And John Brown's raid at Harpers Ferry lit the fuse. Meanwhile, reform movements from abolition to women's suffrage to temperance proved that ordinary Americans could reshape their society from below — a tradition that continues to define the country.\n\n🎲 Wild Card: When South Carolina threatened to nullify federal tariffs in 1832, President Andrew Jackson — a slaveholder from Tennessee — privately told a senator: 'If one drop of blood be shed there in defiance of the laws of the United States, I will hang the first man of them I can get my hands upon to the first tree I can find.' The crisis was resolved peacefully, but Jackson's willingness to use federal force against a state foreshadowed the argument that would consume the nation three decades later.",
+  "countryIds": [
+    "840"
+  ],
+  "mapViewBox": "85 35 45 40",
+  "spans": [
+    {
+      "id": "span-antebellum-america-era-good-feelings",
+      "label": "Era of Good Feelings",
+      "startYear": 1815,
+      "endYear": 1828,
+      "wikiSlug": "Missouri_Compromise",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The War of 1812 ended in a stalemate that nonetheless felt like victory to Americans. With the Federalist Party collapsed and no credible opposition, President Monroe presided over a rare moment of one-party national consensus and surging economic confidence."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Missouri Compromise of 1820 admitted Missouri as a slave state and Maine as free, drawing a dividing line at 36°30' latitude. The Monroe Doctrine (1823) declared the Western Hemisphere closed to European colonization, establishing American diplomatic independence."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The era's harmony was always more illusion than reality. The Missouri Compromise revealed that slavery was an unresolved fault line beneath national unity — Thomas Jefferson called it a 'fire bell in the night,' warning the Union could not survive it indefinitely."
+        }
+      ]
+    },
+    {
+      "id": "span-antebellum-america-jacksonian-democracy",
+      "label": "Jacksonian Democracy",
+      "startYear": 1828,
+      "endYear": 1845,
+      "wikiSlug": "Jacksonian_democracy",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Andrew Jackson's 1828 election broke the hold of the Virginia and Massachusetts elite on the presidency, bringing frontier populism to Washington. The expansion of white male suffrage — eliminating property requirements — had already transformed American politics."
+        },
+        {
+          "label": "What Happened",
+          "text": "Jackson vetoed the national bank, forced the removal of Native Americans via the Trail of Tears, and nearly provoked armed secession during the Nullification Crisis. Reform movements — abolition, temperance, women's rights — swept the North while Nat Turner's 1831 rebellion hardened Southern slavery laws."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Jacksonian democracy expanded political participation for white men while systematically narrowing rights for Black Americans and Native peoples. The era crystallized the sectional divide: a reforming, industrializing North versus a slave-labor South increasingly defensive about its way of life."
+        }
+      ]
+    },
+    {
+      "id": "span-antebellum-america-manifest-destiny-crisis",
+      "label": "Manifest Destiny & Crisis",
+      "startYear": 1845,
+      "endYear": 1861,
+      "wikiSlug": "Kansas–Nebraska_Act",
+      "details": [
+        {
+          "label": "Background",
+          "text": "The annexation of Texas in 1845 and the subsequent Mexican-American War delivered a vast western empire to the United States. Every acre of new territory immediately posed the same explosive question: would slavery expand into it?"
+        },
+        {
+          "label": "What Happened",
+          "text": "The Compromise of 1850 and the Kansas-Nebraska Act (1854) tried to manage the crisis through popular sovereignty, but 'Bleeding Kansas' showed that compromise had run out. The Dred Scott ruling (1857) declared Congress powerless to restrict slavery, John Brown's Harpers Ferry raid electrified both sides, and Lincoln's election in 1860 triggered Southern secession."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Each attempted political settlement of slavery only deepened the crisis. The antebellum era ends not with compromise but with Fort Sumter — proof that forty-six years of evasion had made the conflict irresolvable by any means short of war."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-ame-church",
+      "label": "AME Church founded",
+      "year": 1816,
+      "description": "Richard Allen founded the African Methodist Episcopal Church in Philadelphia, the first independent Black denomination in America. It became a cornerstone of African American community life, education, and political organizing for generations.",
+      "wikiSlug": "African_Methodist_Episcopal_Church",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-missouri-compromise",
+      "label": "Missouri Compromise",
+      "year": 1820,
+      "description": "Congress drew a line at 36°30' latitude — slavery permitted below, free above. The compromise held the Union together for three decades but, as Thomas Jefferson warned, tolled 'like a fire bell in the night.'",
+      "wikiSlug": "Missouri_Compromise",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-monroe-doctrine",
+      "label": "Monroe Doctrine",
+      "year": 1823,
+      "description": "President Monroe declared the Western Hemisphere closed to European colonization. The doctrine became a cornerstone of American foreign policy for two centuries.",
+      "wikiSlug": "Monroe_Doctrine",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lowell-mills",
+      "label": "Lowell textile mills open",
+      "year": 1823,
+      "description": "The first large-scale factory complex in America employed thousands of young women — the 'mill girls' — and pioneered industrial manufacturing. Lowell became a model for American industrialization and a symbol of the new market economy.",
+      "wikiSlug": "Lowell_mills",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-erie-canal",
+      "label": "Erie Canal completed",
+      "year": 1825,
+      "description": "The 363-mile canal connected the Great Lakes to the Atlantic via the Hudson River, slashing freight costs by 90%. It made New York City the nation's commercial capital.",
+      "wikiSlug": "Erie_Canal",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-andrew-jackson",
+      "label": "Andrew Jackson elected President",
+      "year": 1829,
+      "endYear": 1837,
+      "description": "Jackson's election marked the rise of mass democracy and the common man in American politics. He founded the Democratic Party, waged war on the national bank, and presided over Indian Removal — one of America's darkest chapters.",
+      "wikiSlug": "Andrew_Jackson",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-indian-removal",
+      "label": "Indian Removal Act",
+      "year": 1830,
+      "description": "Andrew Jackson signed legislation forcing the removal of Native Americans from their southeastern homelands. The resulting Trail of Tears killed thousands of Cherokee, Choctaw, and other peoples.",
+      "wikiSlug": "Indian_Removal_Act",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-first-railroad",
+      "label": "Baltimore & Ohio Railroad opens",
+      "year": 1830,
+      "description": "America's first commercial railroad began passenger service, launching the railroad boom that would knit the continent together. By 1860 the nation had 30,000 miles of track, transforming commerce and settlement patterns.",
+      "wikiSlug": "Baltimore_and_Ohio_Railroad",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-second-great-awakening",
+      "label": "Second Great Awakening peaks",
+      "year": 1830,
+      "description": "Evangelical revival meetings swept across America, fueling reform movements including abolition, temperance, and women's suffrage. Religious fervor shaped American social and political life for decades.",
+      "wikiSlug": "Second_Great_Awakening",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mormon-church",
+      "label": "Joseph Smith founds Mormon Church",
+      "year": 1830,
+      "description": "Smith published the Book of Mormon and organized the Church of Christ (later Latter-day Saints) in upstate New York. The movement would survive persecution, migrate west, and grow into one of the only major world religions founded in America.",
+      "wikiSlug": "The_Church_of_Jesus_Christ_of_Latter-day_Saints",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-nat-turner",
+      "label": "Nat Turner's Rebellion",
+      "year": 1831,
+      "description": "Nat Turner led the most significant slave rebellion in American history in Virginia, killing about 60 whites. The revolt terrified the South and led to harsher slave codes.",
+      "wikiSlug": "Nat_Turner%27s_slave_rebellion",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nullification-crisis",
+      "label": "Nullification Crisis",
+      "year": 1832,
+      "endYear": 1833,
+      "description": "South Carolina declared federal tariffs null and void, threatening secession over economic policy. President Jackson responded with a Force Bill authorizing military action, and a compromise tariff defused the crisis — but the precedent of state defiance foreshadowed the secession crisis of 1860.",
+      "wikiSlug": "Nullification_crisis",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-telegraph-morse",
+      "label": "Morse demonstrates telegraph",
+      "year": 1844,
+      "description": "Samuel Morse sent the first telegraph message, 'What hath God wrought,' from Washington to Baltimore. The telegraph revolutionized communication and connected the expanding nation.",
+      "wikiSlug": "Electrical_telegraph",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-texas-annexation",
+      "label": "Texas annexed",
+      "year": 1845,
+      "description": "The United States annexed the Republic of Texas after a decade of independence from Mexico. The annexation delighted expansionists but enraged Mexico, directly triggering the Mexican-American War and adding a vast new slave territory to the Union.",
+      "wikiSlug": "Texas_annexation",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-frederick-douglass",
+      "label": "Frederick Douglass's Narrative",
+      "year": 1845,
+      "description": "The formerly enslaved Douglass published his autobiography, exposing slavery's brutality to a shocked Northern audience. He became the most powerful African American voice of the century and published the influential newspaper The North Star.",
+      "wikiSlug": "Frederick_Douglass",
+      "tier": 1,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-mexican-american-war",
+      "label": "Mexican-American War",
+      "year": 1846,
+      "endYear": 1848,
+      "description": "The U.S. defeated Mexico and acquired California, Nevada, Utah, and most of the Southwest. The new territory reignited the bitter debate over the expansion of slavery.",
+      "wikiSlug": "Mexican%E2%80%93American_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-seneca-falls",
+      "label": "Seneca Falls Convention",
+      "year": 1848,
+      "description": "The first women's rights convention in America produced the Declaration of Sentiments, demanding equality including the right to vote. It launched the organized women's suffrage movement.",
+      "wikiSlug": "Seneca_Falls_Convention",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-washington-monument",
+      "label": "Washington Monument cornerstone laid",
+      "year": 1848,
+      "description": "The cornerstone was laid for the 555-foot marble obelisk honoring George Washington. Construction stalled during the Civil War, and the monument was not completed until 1884 — the two-toned marble marking the interruption.",
+      "wikiSlug": "Washington_Monument",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-california-gold-rush",
+      "label": "California Gold Rush",
+      "year": 1849,
+      "description": "The discovery of gold at Sutter's Mill brought 300,000 settlers to California in a few years. It accelerated westward expansion and California's admission as a free state.",
+      "wikiSlug": "California_Gold_Rush",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-compromise-1850",
+      "label": "Compromise of 1850",
+      "year": 1850,
+      "description": "Henry Clay's omnibus deal admitted California as a free state but imposed the hated Fugitive Slave Act, requiring Northerners to return escaped enslaved people. It was the last great compromise before the war.",
+      "wikiSlug": "Compromise_of_1850",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-harriet-tubman",
+      "label": "Harriet Tubman's Underground Railroad",
+      "year": 1850,
+      "description": "Tubman escaped slavery and returned South 13 times, leading about 70 people to freedom through the Underground Railroad. Known as 'Moses,' she never lost a single passenger — and the Fugitive Slave Act made every trip a death-defying mission.",
+      "wikiSlug": "Harriet_Tubman",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-sojourner-truth",
+      "label": "Sojourner Truth's 'Ain't I a Woman?'",
+      "year": 1851,
+      "description": "The formerly enslaved preacher delivered her famous speech at the Women's Convention in Akron, Ohio, linking the causes of abolition and women's rights with unforgettable eloquence. She became one of the most powerful voices for equality in American history.",
+      "wikiSlug": "Sojourner_Truth",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-uncle-toms-cabin",
+      "label": "Uncle Tom's Cabin published",
+      "year": 1852,
+      "description": "Harriet Beecher Stowe's novel dramatized the horrors of slavery and sold 300,000 copies in its first year. Lincoln reportedly said she was 'the little woman who wrote the book that started this great war.'",
+      "wikiSlug": "Uncle_Tom%27s_Cabin",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kansas-nebraska",
+      "label": "Kansas-Nebraska Act",
+      "year": 1854,
+      "description": "Stephen Douglas's act repealed the Missouri Compromise line and let settlers in new territories vote on slavery — 'popular sovereignty.' It shattered the Whig Party, birthed the Republican Party, and triggered a guerrilla war in Kansas that foreshadowed the Civil War.",
+      "wikiSlug": "Kansas%E2%80%93Nebraska_Act",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-bleeding-kansas",
+      "label": "Bleeding Kansas",
+      "year": 1856,
+      "description": "Pro-slavery and anti-slavery settlers waged a guerrilla war across Kansas Territory after the Kansas-Nebraska Act let residents vote on slavery. Over 50 people were killed in raids, massacres, and skirmishes — a rehearsal for the Civil War that would engulf the nation five years later.",
+      "wikiSlug": "Bleeding_Kansas",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-panic-1857",
+      "label": "Panic of 1857",
+      "year": 1857,
+      "description": "A financial crisis triggered by the collapse of the Ohio Life Insurance and Trust Company spread across the Northern economy while the cotton-dependent South weathered it relatively well. Southerners cited their resilience as proof that the slave economy was superior — reinforcing the dangerous delusion that secession was economically viable.",
+      "wikiSlug": "Panic_of_1857",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-dred-scott",
+      "label": "Dred Scott decision",
+      "year": 1857,
+      "description": "The Supreme Court ruled that African Americans could not be citizens and that Congress could not ban slavery in territories. The decision inflamed sectional tensions and hastened the Civil War.",
+      "wikiSlug": "Dred_Scott_v._Sandford",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-john-brown",
+      "label": "John Brown's raid on Harpers Ferry",
+      "year": 1859,
+      "description": "Brown and 21 men seized the federal arsenal at Harpers Ferry, hoping to arm enslaved people for a revolt. U.S. Marines under Robert E. Lee captured him; Brown was hanged but became a martyr to the abolitionist cause.",
+      "wikiSlug": "John_Brown%27s_raid_on_Harpers_Ferry",
+      "tier": 1,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-lincoln-president",
+      "label": "Abraham Lincoln elected",
+      "year": 1860,
+      "endYear": 1861,
+      "description": "Lincoln's election on an anti-slavery platform triggered the secession of Southern states. He took office facing the dissolution of the Union — within weeks of his inauguration, Confederate guns opened fire on Fort Sumter.",
+      "wikiSlug": "Abraham_Lincoln",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-transcontinental-telegraph",
+      "label": "Transcontinental telegraph completed",
+      "year": 1861,
+      "description": "The telegraph line spanning the continent from coast to coast was completed in October 1861, rendering the Pony Express obsolete after just 18 months. Instant communication across 2,000 miles transformed military strategy, commerce, and governance — and gave Lincoln a direct wire to his generals.",
+      "wikiSlug": "First_transcontinental_telegraph",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-ab-three-fifths-clause",
+      "label": "Three-Fifths Compromise",
+      "year": 1787,
+      "description": "The Constitution counted each enslaved person as three-fifths of a person for apportioning seats in the House and votes in the Electoral College, inflating the political power of slaveholding states without giving the enslaved any voice. Slavery was not merely tolerated by the constitutional structure; it was rewarded by it.",
+      "wikiSlug": "Three-fifths_Compromise",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-fugitive-slave-clause",
+      "label": "Fugitive Slave Clause",
+      "year": 1787,
+      "description": "Article IV of the Constitution guaranteed the return of people who escaped bondage across state lines, writing slavery into the founding document without using the word. It was the constitutional seed of the explosive Fugitive Slave Act of 1850.",
+      "wikiSlug": "Fugitive_Slave_Clause",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-1808-slave-trade-ban",
+      "label": "Atlantic slave trade banned",
+      "year": 1808,
+      "description": "The Constitution's twenty-year protection of the Atlantic slave trade expired and the United States banned further importation of enslaved people from Africa. Rather than shrinking slavery, the ban transformed it: with no new arrivals from Africa, a vast internal slave trade developed to feed the cotton boom.",
+      "wikiSlug": "Act_Prohibiting_Importation_of_Slaves",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-cotton-gin",
+      "label": "Cotton gin patented",
+      "year": 1793,
+      "description": "Eli Whitney patented a simple device that mechanically separated cotton fiber from its sticky seeds, the bottleneck task that had taken a person a full day to clean a single pound by hand. It rescued and supercharged American slavery just as it might have begun to decline, and triggered the British industrial explosion.",
+      "wikiSlug": "Cotton_gin",
+      "tier": 1,
+      "category": "science"
+    },
+    {
+      "id": "evt-ab-kentucky-virginia-resolutions",
+      "label": "Kentucky and Virginia Resolutions",
+      "year": 1798,
+      "description": "Secretly written by Thomas Jefferson and James Madison to protest the Alien and Sedition Acts, these resolutions argued that the states, as parties to the constitutional compact, could judge federal overreach. Jefferson's Kentucky Resolution used the word 'nullification' and seeded the doctrine South Carolina would aim at slavery.",
+      "wikiSlug": "Kentucky_and_Virginia_Resolutions",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-white-manhood-suffrage",
+      "label": "White manhood suffrage spreads",
+      "year": 1800,
+      "endYear": 1828,
+      "description": "Between roughly 1800 and 1828 almost every state tore up its property and taxpaying requirements for white men, producing close to universal white manhood suffrage by Jackson's election — the most democratic electorate in the world, and one that simultaneously stripped free Black men of the vote.",
+      "wikiSlug": "Jacksonian_democracy",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-jeffersons-fire-bell",
+      "label": "Jefferson's 'fire bell in the night'",
+      "year": 1820,
+      "description": "The seventy-six-year-old Thomas Jefferson, who had written 'all men are created equal,' called the Missouri crisis 'a fire bell in the night' that 'awakened and filled me with terror,' because he could already hear in it the breakup of the country.",
+      "wikiSlug": "Missouri_Compromise",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-slave-narratives",
+      "label": "The slave narratives",
+      "year": 1830,
+      "endYear": 1860,
+      "description": "Book-length autobiographies by people who escaped slavery, of which Frederick Douglass's 1845 Narrative is the most famous. Thousands more were dictated, smuggled out, or published by abolitionist societies, making it possible to write the history of slavery from inside it.",
+      "wikiSlug": "Slave_narrative",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-wpa-slave-narratives",
+      "label": "WPA ex-slave narratives",
+      "year": 1936,
+      "endYear": 1938,
+      "description": "Under the New Deal's Federal Writers' Project, interviewers recorded the testimony of more than two thousand of the last living people who had been enslaved, then in their eighties and nineties — the largest body of first-person testimony from formerly enslaved Americans in existence.",
+      "wikiSlug": "Slave_Narrative_Collection",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-corrupt-bargain",
+      "label": "The 'Corrupt Bargain' of 1824",
+      "year": 1824,
+      "endYear": 1825,
+      "description": "Jackson won the most popular and electoral votes in 1824 but, with no majority, lost the presidency when the House chose John Quincy Adams, who made kingmaker Henry Clay his secretary of state. Jackson's people called it the 'Corrupt Bargain' and rode the grievance into the White House in 1828.",
+      "wikiSlug": "1824_United_States_presidential_election",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-democratic-party-founded",
+      "label": "Democratic Party founded",
+      "year": 1828,
+      "description": "Built largely by the New York operator Martin Van Buren around Andrew Jackson, the Democratic Party is generally reckoned the oldest continuously operating political party in the world, with an unusually unbroken institutional line back to the Jacksonians.",
+      "wikiSlug": "Democratic_Party_(United_States)",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-second-bank-us",
+      "label": "Second Bank of the United States",
+      "year": 1816,
+      "endYear": 1836,
+      "description": "A hybrid national bank, partly government-owned but run by private directors under the Philadelphia aristocrat Nicholas Biddle. It held federal money, made loans, and regulated every other bank by demanding gold for their notes — a privately run central bank Jackson would destroy.",
+      "wikiSlug": "Second_Bank_of_the_United_States",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-bank-veto",
+      "label": "Jackson vetoes the Bank",
+      "year": 1832,
+      "description": "Jackson vetoed the early recharter of the Second Bank not on narrow constitutional grounds but on the ground that it was bad for the country and unjust to the common man, transforming the veto from a rare legal check into a routine policy weapon.",
+      "wikiSlug": "Bank_War",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-pet-banks",
+      "label": "Removal of the deposits to 'pet banks'",
+      "year": 1833,
+      "description": "Treating his 1832 landslide as a mandate, Jackson ordered federal money removed from the Bank and deposited into politically friendly state banks his opponents nicknamed the 'pet banks,' firing two treasury secretaries who refused before Roger Taney carried it out.",
+      "wikiSlug": "Bank_War",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-specie-circular",
+      "label": "Specie Circular",
+      "year": 1836,
+      "description": "Jackson's executive order requiring that public land be paid for in gold or silver rather than banknotes. It forced a run on the banks the land boom had inflated and helped trigger the financial collapse that became the Panic of 1837.",
+      "wikiSlug": "Specie_Circular",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-panic-1837",
+      "label": "Panic of 1837",
+      "year": 1837,
+      "endYear": 1843,
+      "description": "A financial collapse followed by a depression lasting into the 1840s, with banks failing and businesses closing. Jackson's successor Martin Van Buren held the bag for a crisis whose fuse the Bank War had helped light.",
+      "wikiSlug": "Panic_of_1837",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-spoils-system",
+      "label": "The spoils system",
+      "year": 1829,
+      "description": "Jackson removed federal officeholders on a scale no president had before, replacing them with party loyalists on the open principle that rotation in office was democratic. 'To the victor belong the spoils' made federal jobs the currency of party politics for half a century.",
+      "wikiSlug": "Spoils_system",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-petticoat-affair",
+      "label": "The Petticoat affair",
+      "year": 1830,
+      "endYear": 1831,
+      "description": "The wives of Jackson's cabinet snubbed Peggy Eaton, the secretary of war's wife. Jackson's furious defense of her paralyzed and blew apart his cabinet, made John C. Calhoun his enemy, and elevated the bachelor Van Buren as his heir.",
+      "wikiSlug": "Petticoat_affair",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-martin-van-buren",
+      "label": "Martin Van Buren",
+      "year": 1837,
+      "endYear": 1841,
+      "description": "Jackson's most trusted political organizer and builder of the Democratic Party machinery, hand-picked as his successor and elected in 1836. His presidency was largely consumed by the Panic of 1837, the economic catastrophe whose fuse Jackson had lit.",
+      "wikiSlug": "Martin_Van_Buren",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-tariff-of-abominations",
+      "label": "Tariff of Abominations",
+      "year": 1828,
+      "description": "A steep protective tariff whose Southern opponents named it the 'Tariff of Abominations.' The South saw it as a system by which the industrializing North got rich at the agricultural South's expense, a sectional robbery a Northern majority enforced.",
+      "wikiSlug": "Tariff_of_Abominations",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-sc-exposition-protest",
+      "label": "South Carolina Exposition and Protest",
+      "year": 1828,
+      "description": "Calhoun, then vice president, secretly wrote this anonymous document laying out the doctrine of nullification: that a single state could declare a federal law null and void within its borders, with secession as the final resort.",
+      "wikiSlug": "South_Carolina_Exposition_and_Protest",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-ordinance-of-nullification",
+      "label": "Ordinance of Nullification",
+      "year": 1832,
+      "description": "A special South Carolina convention declared the federal tariffs of 1828 and 1832 null and void within the state as of February 1833, forbidding collection of the duties and threatening secession if the federal government tried to force it.",
+      "wikiSlug": "Nullification_crisis",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-force-bill",
+      "label": "The Force Bill",
+      "year": 1833,
+      "description": "At Jackson's request, Congress explicitly authorized the president to use the army and navy to collect the tariff in South Carolina. The slaveholding general moved warships toward Charleston, prepared to invade a slave state to keep it in the Union.",
+      "wikiSlug": "Force_Bill",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-jackson-nullification-proclamation",
+      "label": "Proclamation to South Carolina",
+      "year": 1832,
+      "description": "Jackson's proclamation demolished the compact theory in plain language: the Constitution formed a government, not a league, operated directly on citizens, and 'disunion by armed force is treason.' He laid down the position the Union would fight a war for in 1861.",
+      "wikiSlug": "Nullification_crisis",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-compromise-tariff-1833",
+      "label": "Compromise Tariff of 1833",
+      "year": 1833,
+      "description": "Brokered by Henry Clay, the great compromiser, this lowered the duties gradually over ten years and let South Carolina claim victory. The state rescinded its nullification of the tariff and then defiantly nullified the Force Bill instead, saving the doctrine for the next fight.",
+      "wikiSlug": "Tariff_of_1833",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-cherokee-nation-v-georgia",
+      "label": "Cherokee Nation v. Georgia",
+      "year": 1831,
+      "description": "The Supreme Court under John Marshall dodged, ruling that the Cherokee Nation was not a 'foreign nation' with standing to sue but a 'domestic dependent nation,' a new category, a nation under U.S. guardianship.",
+      "wikiSlug": "Cherokee_Nation_v._Georgia",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-worcester-v-georgia",
+      "label": "Worcester v. Georgia",
+      "year": 1832,
+      "description": "The Supreme Court ruled squarely that Georgia's laws had no force inside Cherokee territory and federal authority over Indian affairs was exclusive. The Cherokee won at the highest court in the land, and Jackson did nothing to enforce it.",
+      "wikiSlug": "Worcester_v._Georgia",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-sequoyah-syllabary",
+      "label": "Sequoyah's Cherokee syllabary",
+      "year": 1821,
+      "description": "Over about a decade ending in the early 1820s, the Cherokee scholar Sequoyah devised a syllabary for the Cherokee language so well matched to it that it could be learned in weeks, lifting Cherokee literacy past that of many white neighbors.",
+      "wikiSlug": "Cherokee_syllabary",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-cherokee-phoenix",
+      "label": "Cherokee Phoenix newspaper",
+      "year": 1828,
+      "description": "The Cherokee Nation published a bilingual newspaper, the Cherokee Phoenix, and adopted a written constitution in 1827 modeled on the United States', with an elected legislature and a court system — meeting every standard of 'civilization' the dominant culture professed.",
+      "wikiSlug": "Cherokee_Phoenix",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-treaty-new-echota",
+      "label": "Treaty of New Echota",
+      "year": 1835,
+      "description": "A small unauthorized faction of the Cherokee, the Treaty Party, signed away the nation's eastern lands. The elected government under John Ross rejected it as fraudulent, delivering a petition of some sixteen thousand signatures, but the U.S. ratified it by a single Senate vote.",
+      "wikiSlug": "Treaty_of_New_Echota",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-trail-of-tears",
+      "label": "The Trail of Tears",
+      "year": 1838,
+      "endYear": 1839,
+      "description": "The U.S. Army under General Winfield Scott rounded up roughly sixteen thousand Cherokee at gunpoint and marched them about 800 miles west through a savage winter. Around 4,000 died of dysentery, exposure, and starvation in the stockades and on the road.",
+      "wikiSlug": "Trail_of_Tears",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-john-ross",
+      "label": "Principal Chief John Ross",
+      "year": 1838,
+      "description": "The elected Principal Chief of the Cherokee Nation who rejected the Treaty of New Echota as fraudulent and led the constitutional fight against removal, delivering to the Senate a petition against it signed by the great majority of the nation.",
+      "wikiSlug": "John_Ross_(Cherokee_chief)",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-second-seminole-war",
+      "label": "Second Seminole War",
+      "year": 1835,
+      "endYear": 1842,
+      "description": "The Seminole of Florida fought rather than be removed, in the longest, costliest Indian war in U.S. history to that point — about seven years, some 1,500 soldier deaths, and $30–40 million. The leader Osceola was seized in 1837 under a flag of truce.",
+      "wikiSlug": "Second_Seminole_War",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-osceola",
+      "label": "Osceola",
+      "year": 1837,
+      "description": "The Seminole war leader who fought removal in the Florida swamps and was seized in 1837 after being lured to a parley under a flag of truce, dying in prison. A remnant of Seminoles was never removed, which is why there is a Seminole Nation in Florida today.",
+      "wikiSlug": "Osceola",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-steamboats",
+      "label": "Steamboats on the rivers",
+      "year": 1820,
+      "endYear": 1860,
+      "description": "Boats driven by steam engines turned the Mississippi–Ohio river system from a one-way downstream chute into a two-way highway, making the entire watershed a single integrated market where cargo and people moved upstream as easily as down.",
+      "wikiSlug": "Steamboats_of_the_Mississippi",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-ab-mill-girls",
+      "label": "The Lowell mill girls",
+      "year": 1820,
+      "endYear": 1845,
+      "description": "Rather than import a permanent industrial working class, the Lowell mills recruited young unmarried New England farm women, housed them in supervised boarding houses, paid cash wages, and worked them twelve-plus hours a day at the looms before strikes and wage cuts ended the system.",
+      "wikiSlug": "Lowell_mill_girls",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-pony-express",
+      "label": "The Pony Express",
+      "year": 1860,
+      "endYear": 1861,
+      "description": "A celebrated relay of fast horseback riders that carried mail across roughly 1,900 miles between Missouri and California in about ten days. It operated for only about eighteen months before the telegraph wire it had been racing simply abolished the need for it.",
+      "wikiSlug": "Pony_Express",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-railroad-network-1860",
+      "label": "The Northern railroad network",
+      "year": 1860,
+      "description": "By 1860 the country had roughly 30,000 miles of track, the largest network in the world, running overwhelmingly east–west within the North and tying the Midwest's farms to Northeastern cities — physically wiring the free states into one economic unit.",
+      "wikiSlug": "History_of_rail_transportation_in_the_United_States",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-ab-great-famine-immigration",
+      "label": "Irish Famine immigration",
+      "year": 1845,
+      "endYear": 1855,
+      "description": "After the Great Famine began in 1845, over a million desperately poor, overwhelmingly Catholic Irish refugees crowded into Northeastern cities and took the hardest and lowest-paid work, building the physical country and provoking the first organized nativism.",
+      "wikiSlug": "Great_Famine_(Ireland)",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-know-nothings",
+      "label": "The Know-Nothings",
+      "year": 1854,
+      "endYear": 1856,
+      "description": "The American Party, universally called the Know-Nothings, grew from secret nativist lodges into one of the largest parties in the country, before the slavery question proved more powerful than the immigration question and split it North against South.",
+      "wikiSlug": "Know_Nothing",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-king-cotton-speech",
+      "label": "Hammond's 'Cotton is King' speech",
+      "year": 1858,
+      "description": "Senator James Henry Hammond of South Carolina told the North it dared not make war on the South because 'Cotton is king,' boasting that if the South stopped supplying cotton England 'would topple headlong and carry the whole civilized world with her.'",
+      "wikiSlug": "James_Henry_Hammond",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-planter-class",
+      "label": "The planter class",
+      "year": 1830,
+      "endYear": 1860,
+      "description": "A tiny minority of Southern whites who owned twenty or more enslaved people controlled the South completely through monopolized offices, credit, pulpits, press, and courts, and by offering poor whites the guarantee that the bottom was reserved by race for the enslaved.",
+      "wikiSlug": "Planter_class",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-cotton-kingdom-expansion",
+      "label": "The Cotton Kingdom's westward push",
+      "year": 1820,
+      "endYear": 1860,
+      "description": "Because intensive cotton monoculture exhausts soil within decades, the plantation economy moved continuously west and southwest into the 'Black Belt' of Alabama and Mississippi. A slave system that could not expand was, to the planters, a slave system being slowly strangled.",
+      "wikiSlug": "King_Cotton",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-first-great-awakening",
+      "label": "First Great Awakening",
+      "year": 1730,
+      "endYear": 1745,
+      "description": "A revival of fervent, conversion-centered preaching that swept the American colonies, whose most famous voice was the New England theologian Jonathan Edwards. It broke the authority of established churches and taught that a direct, personal experience of God mattered more than an ordained minister.",
+      "wikiSlug": "First_Great_Awakening",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-ab-charles-finney",
+      "label": "Charles Grandison Finney's revivals",
+      "year": 1825,
+      "endYear": 1835,
+      "description": "A lawyer turned preacher who ran enormous, theatrically staged revival meetings in the Burned-Over District, perfecting the multi-day meeting, the public altar call, and the 'anxious bench' — a deliberate machinery of social pressure that made conversion a public event.",
+      "wikiSlug": "Charles_Grandison_Finney",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-ab-book-of-mormon",
+      "label": "The Book of Mormon published",
+      "year": 1830,
+      "description": "Joseph Smith reported visions and the recovery of an ancient scripture, published it as the Book of Mormon, and organized the Church of Jesus Christ of Latter-day Saints, claiming to be a restoration of the original church through continuing revelation to a living prophet.",
+      "wikiSlug": "Book_of_Mormon",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-mormon-migration",
+      "label": "The Mormon migration to Salt Lake",
+      "year": 1846,
+      "endYear": 1847,
+      "description": "After Joseph Smith's murder by a mob at Carthage in 1844, Brigham Young led an organized exodus of tens of thousands roughly 1,300 miles west to the Great Salt Lake valley, then remote Mexican territory, where they founded Salt Lake City.",
+      "wikiSlug": "Mormon_pioneers",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-ab-oneida-community",
+      "label": "The Oneida Community",
+      "year": 1848,
+      "endYear": 1881,
+      "description": "A utopian commune in New York that practiced communal property and a system of 'complex marriage,' supporting itself by manufacturing animal traps and silverware. When the experiment collapsed it reorganized as Oneida Limited, a tableware brand that outlived its utopia.",
+      "wikiSlug": "Oneida_Community",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-transcendentalism",
+      "label": "Transcendentalism",
+      "year": 1836,
+      "endYear": 1850,
+      "description": "A homegrown philosophy centered in Concord around Ralph Waldo Emerson and Henry David Thoreau, holding that truth and moral law are known through the individual's own conscience, with the sharp political edge that an unjust law has no claim on you.",
+      "wikiSlug": "Transcendentalism",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-civil-disobedience",
+      "label": "Thoreau's 'Civil Disobedience'",
+      "year": 1849,
+      "description": "Jailed for refusing to pay a tax he said funded slavery and the Mexican War, Thoreau turned the experience into an essay arguing that breaking an unjust law is the highest civic duty — an argument that, through Gandhi, became a working political technology a century later.",
+      "wikiSlug": "Civil_Disobedience_(Thoreau)",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-temperance-movement",
+      "label": "The temperance movement",
+      "year": 1826,
+      "endYear": 1860,
+      "description": "The largest reform movement of the era by sheer numbers, against staggering levels of drinking. It shifted from urging moderation to demanding total abstinence to demanding legal prohibition, and trained millions, many of them women, in mass moral organizing.",
+      "wikiSlug": "Temperance_movement_in_the_United_States",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-maine-law",
+      "label": "Maine prohibition law",
+      "year": 1851,
+      "description": "Maine passed the first statewide prohibition law, an outright ban on the manufacture and sale of liquor, copied by a dozen states within a few years — most proving hard to enforce and repealed within a decade, an early rehearsal of national Prohibition.",
+      "wikiSlug": "Maine_law",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-dorothea-dix",
+      "label": "Dorothea Dix's asylum reform",
+      "year": 1843,
+      "endYear": 1850,
+      "description": "A Massachusetts schoolteacher who toured jails and almshouses documenting the conditions in which the mentally ill were kept — chained, caged, freezing — and presented state legislatures with devastating reports that shamed many into building public asylums.",
+      "wikiSlug": "Dorothea_Dix",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-horace-mann-common-school",
+      "label": "Horace Mann and the common school",
+      "year": 1837,
+      "endYear": 1848,
+      "description": "As secretary of the Massachusetts board of education, Horace Mann championed tax-supported, free, publicly controlled schooling open to all children as the 'great equalizer' — the direct ancestor of American public education.",
+      "wikiSlug": "Horace_Mann",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-grimke-sisters",
+      "label": "The Grimké sisters",
+      "year": 1837,
+      "description": "Sarah and Angelina Grimké, from a South Carolina slaveholding family, lectured against slavery to mixed audiences and answered the storm over women speaking in public with explicit women's-rights arguments years before there was a movement to carry them.",
+      "wikiSlug": "Grimk%C3%A9_sisters",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-declaration-of-sentiments",
+      "label": "Declaration of Sentiments",
+      "year": 1848,
+      "description": "Drafted by Elizabeth Cady Stanton as a line-by-line rewrite of the Declaration of Independence — 'all men and women are created equal' — its most controversial plank was the demand for woman suffrage, not won nationally for seventy-two years.",
+      "wikiSlug": "Declaration_of_Sentiments",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-world-antislavery-convention",
+      "label": "World Anti-Slavery Convention",
+      "year": 1840,
+      "description": "When the London convention refused to seat the women in the American delegation, Lucretia Mott and Elizabeth Cady Stanton resolved on the spot to hold a convention for the rights of women — the seed of Seneca Falls eight years later.",
+      "wikiSlug": "World_Anti-Slavery_Convention",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-second-middle-passage",
+      "label": "The Second Middle Passage",
+      "year": 1808,
+      "endYear": 1860,
+      "description": "Between 1808 and 1860, on the order of one million enslaved people were forcibly moved from the Upper South to the cotton and sugar regions of the Deep South, sold away and marched in chained coffles — a continuous, institutionalized engine for shattering families, run for profit.",
+      "wikiSlug": "Slavery_in_the_United_States",
+      "tier": 1,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-necessary-evil-to-positive-good",
+      "label": "'Necessary evil' to 'positive good'",
+      "year": 1837,
+      "description": "Across the antebellum decades the enslavers' defense of slavery inverted from a conceded 'necessary evil' to Calhoun's declaration of it as a 'positive good,' divinely sanctioned and the foundation of a superior society — the hinge that made compromise impossible.",
+      "wikiSlug": "Slavery_as_a_positive_good_in_the_United_States",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-spirituals",
+      "label": "The spirituals",
+      "year": 1820,
+      "endYear": 1860,
+      "description": "An autonomous enslaved religious life produced spirituals that were simultaneously worship, endurance, and, in attested cases, coded communication — songs like 'Wade in the Water' carrying surface meanings while signaling escape, sung in the open because they sounded only pious.",
+      "wikiSlug": "Spiritual_(music)",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-ab-george-fitzhugh",
+      "label": "George Fitzhugh's proslavery sociology",
+      "year": 1854,
+      "description": "The sociologist George Fitzhugh argued in widely read books that the enslaved Black Southerner was better cared for than the Northern factory 'wage slave' and that free-labor society itself was the failed experiment — the 'positive good' doctrine pushed to its extreme.",
+      "wikiSlug": "George_Fitzhugh",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-walkers-appeal",
+      "label": "Walker's Appeal",
+      "year": 1829,
+      "description": "David Walker, a free Black man in Boston, published a pamphlet of furious brilliance denouncing slavery as a crime against God and coming close to calling for armed self-liberation. Southern states made possession a crime and put a price on his head.",
+      "wikiSlug": "David_Walker_(abolitionist)",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-the-liberator",
+      "label": "The Liberator launched",
+      "year": 1831,
+      "description": "William Lloyd Garrison launched his newspaper on January 1, 1831 with the declaration 'I will not equivocate... and I will be heard,' making immediatism — immediate, uncompensated abolition — a movement that reframed slavery as a sin, not an inheritance.",
+      "wikiSlug": "The_Liberator_(newspaper)",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-american-colonization-society",
+      "label": "American Colonization Society and Liberia",
+      "year": 1822,
+      "description": "The gradualist scheme to send freed Black Americans 'back' to Africa bought land on the West African coast and settled several thousand there in a colony that became the independent country of Liberia, whose capital Monrovia is named for President James Monroe.",
+      "wikiSlug": "American_Colonization_Society",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-underground-railroad",
+      "label": "The Underground Railroad",
+      "year": 1830,
+      "endYear": 1860,
+      "description": "The popular name for the loose, secret, illegal network of routes, safe houses, and helpers that aided enslaved people escaping to the free states and Canada. Probably tens of thousands escaped — a living refutation of the claim that the enslaved were content.",
+      "wikiSlug": "Underground_Railroad",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-gag-rule",
+      "label": "The gag rule",
+      "year": 1836,
+      "endYear": 1844,
+      "description": "The proslavery House majority passed standing rules automatically tabling all antislavery petitions without discussion. Former president John Quincy Adams fought it for eight years, teaching Northerners that defending slavery now meant suppressing white people's civil liberties.",
+      "wikiSlug": "Gag_rule",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-elijah-lovejoy",
+      "label": "Murder of Elijah Lovejoy",
+      "year": 1837,
+      "description": "An abolitionist editor in Alton, Illinois, was shot dead by a proslavery mob defending its right to destroy his press, becoming the movement's first widely mourned martyr and converting many Northerners to alarm that slavery's defenders would kill free speech.",
+      "wikiSlug": "Elijah_Parish_Lovejoy",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-manifest-destiny-coined",
+      "label": "'Manifest Destiny' coined",
+      "year": 1845,
+      "description": "The New York editor John O'Sullivan wrote that it was 'our manifest destiny to overspread the continent allotted by Providence,' naming a belief Americans already acted on: a doctrine of racial entitlement to a continent dressed in the language of Providence and freedom.",
+      "wikiSlug": "Manifest_destiny",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-texas-revolution",
+      "label": "Texas Revolution",
+      "year": 1835,
+      "endYear": 1836,
+      "description": "American settlers and some Tejanos rose against the centralizing Mexican dictator Santa Anna, fighting partly to keep the enslaved labor Mexico had abolished. Texas became the independent Lone Star Republic in 1836 and immediately asked to join the United States.",
+      "wikiSlug": "Texas_Revolution",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-the-alamo",
+      "label": "The Alamo",
+      "year": 1836,
+      "description": "Santa Anna's army besieged and overran a small mission-fort in San Antonio, killing its roughly two hundred defenders to the last man, among them James Bowie and Davy Crockett, turning the defeat into the rallying myth 'Remember the Alamo.'",
+      "wikiSlug": "Battle_of_the_Alamo",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-battle-san-jacinto",
+      "label": "Battle of San Jacinto",
+      "year": 1836,
+      "description": "A Texan force under Sam Houston overran Santa Anna's unprepared army in a furious assault traditionally said to have lasted only about eighteen minutes, and captured Santa Anna himself, who signed away the war.",
+      "wikiSlug": "Battle_of_San_Jacinto",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-oregon-treaty",
+      "label": "Oregon Treaty",
+      "year": 1846,
+      "description": "After expansionists demanded all of Oregon up to 54°40′ with the slogan 'Fifty-Four Forty or Fight,' Polk's administration quietly split the Oregon Country at the 49th parallel without a shot, settling for half of free territory while provoking war over slave-or-contested land.",
+      "wikiSlug": "Oregon_Treaty",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-james-k-polk",
+      "label": "James K. Polk",
+      "year": 1845,
+      "endYear": 1849,
+      "description": "The expansionist who won the presidency in 1844 on a platform of taking both Texas and Oregon, then manufactured a casus belli to seize California and the Southwest from Mexico — the president who delivered Manifest Destiny and the slavery crisis with it.",
+      "wikiSlug": "James_K._Polk",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-spot-resolutions",
+      "label": "Lincoln's Spot Resolutions",
+      "year": 1847,
+      "description": "Freshman Whig congressman Abraham Lincoln demanded that Polk identify the exact spot on American soil where American blood had supposedly first been shed — Congress probing whether it had been maneuvered out of its own war power by a false premise.",
+      "wikiSlug": "Spot_Resolutions",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-wilmot-proviso",
+      "label": "The Wilmot Proviso",
+      "year": 1846,
+      "description": "An amendment proposing that slavery be prohibited in any territory acquired from Mexico. It never became law but permanently reframed national politics as a question about slavery in the territories, splitting votes along sectional rather than party lines.",
+      "wikiSlug": "Wilmot_Proviso",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-veracruz-mexico-city",
+      "label": "Scott's Veracruz–Mexico City campaign",
+      "year": 1847,
+      "description": "General Winfield Scott landed an army by sea at Veracruz and marched roughly 260 miles up to Mexico City along Cortés's old corridor, winning every major engagement cut loose from his supply base — a feat Wellington reportedly called the most brilliant campaign of the age.",
+      "wikiSlug": "Mexico_City_campaign",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-treaty-guadalupe-hidalgo",
+      "label": "Treaty of Guadalupe Hidalgo",
+      "year": 1848,
+      "description": "Mexico ceded California, Nevada, Utah, most of Arizona and New Mexico, and parts of Colorado and Wyoming — roughly half its national territory — for fifteen million dollars. Every square mile arrived stamped with the Wilmot Proviso's unanswered question.",
+      "wikiSlug": "Treaty_of_Guadalupe_Hidalgo",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-fugitive-slave-act-1850",
+      "label": "Fugitive Slave Act of 1850",
+      "year": 1850,
+      "description": "A drastic law that denied accused fugitives a jury trial, paid commissioners more to rule a person enslaved than free, and compelled ordinary Northerners to assist in captures — the mechanism by which the Compromise of 1850 backfired and radicalized the North.",
+      "wikiSlug": "Fugitive_Slave_Act_of_1850",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-personal-liberty-laws",
+      "label": "Personal liberty laws",
+      "year": 1850,
+      "endYear": 1860,
+      "description": "Northern state statutes designed to obstruct the federal Fugitive Slave Act by forbidding state officials and jails from assisting captures, guaranteeing accused fugitives a jury trial, and penalizing kidnapping — withholding the state's machinery from federal slave-catching.",
+      "wikiSlug": "Personal_liberty_laws",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-clay-webster-calhoun-exit",
+      "label": "Death of Clay, Webster, and Calhoun",
+      "year": 1850,
+      "endYear": 1852,
+      "description": "The three titans who had held the Union together by deal-making made their final stand in the 1850 Senate debate and were dead within two years — Calhoun in 1850, Clay and Webster in 1852 — just as the deal-making stopped working.",
+      "wikiSlug": "Compromise_of_1850",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-john-c-calhoun",
+      "label": "John C. Calhoun",
+      "year": 1828,
+      "endYear": 1850,
+      "description": "The 'cast-iron man' of South Carolina who began as a fervent nationalist and became the architect of the South's constitutional theology, building the doctrines of nullification, secession, and slavery as a 'positive good' until his death in 1850.",
+      "wikiSlug": "John_C._Calhoun",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-stephen-douglas",
+      "label": "Stephen A. Douglas",
+      "year": 1850,
+      "endYear": 1861,
+      "description": "The compact, ferociously ambitious Illinois senator who pushed the Compromise of 1850 through and then wrote the Kansas-Nebraska Act, reopening the slavery question on purpose in pursuit of a railroad and the presidency.",
+      "wikiSlug": "Stephen_A._Douglas",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-republican-party-founded",
+      "label": "Republican Party founded",
+      "year": 1854,
+      "description": "Out of the wreckage of the Whigs, antislavery Whigs, Democrats, and Free Soilers formed a new party around a single principle: not abolition where slavery existed, but absolute prohibition of its expansion into any territory — directly incompatible with the planters' economic logic.",
+      "wikiSlug": "Republican_Party_(United_States)",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-whig-party-collapse",
+      "label": "Collapse of the Whig Party",
+      "year": 1854,
+      "endYear": 1856,
+      "description": "Already weakened, the Whig Party split North from South over the Kansas-Nebraska Act and simply disintegrated as a national party within two years — one of the few times in American history a major party has died.",
+      "wikiSlug": "Whig_Party_(United_States)",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-border-ruffians",
+      "label": "The Border Ruffians",
+      "year": 1855,
+      "endYear": 1856,
+      "description": "Pro-slavery Missourians who poured across the border into Kansas solely to vote in territorial elections with no residency checks, then went home, swamping the actual settlers and installing a fraudulent pro-slavery legislature.",
+      "wikiSlug": "Border_Ruffian",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-sack-of-lawrence",
+      "label": "The Sack of Lawrence",
+      "year": 1856,
+      "description": "Pro-slavery forces sacked the free-state town of Lawrence, Kansas, one of the opening acts of the guerrilla war the newspapers named 'Bleeding Kansas,' answered days later by John Brown's Pottawatomie killings.",
+      "wikiSlug": "Sacking_of_Lawrence",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-pottawatomie-massacre",
+      "label": "Pottawatomie Massacre",
+      "year": 1856,
+      "description": "In retaliation for the sack of Lawrence, the fanatical abolitionist John Brown led a party that dragged five pro-slavery settlers from their homes along Pottawatomie Creek and hacked them to death — a deliberately terrifying act of retributive butchery.",
+      "wikiSlug": "Pottawatomie_massacre",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-caning-of-sumner",
+      "label": "The caning of Charles Sumner",
+      "year": 1856,
+      "description": "Representative Preston Brooks of South Carolina beat Senator Charles Sumner nearly to death with a heavy cane on the Senate floor after Sumner's antislavery speech. The North made Sumner a martyr; the South sent Brooks replacement canes inscribed 'Hit him again.'",
+      "wikiSlug": "Caning_of_Charles_Sumner",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-lincoln-douglas-debates",
+      "label": "Lincoln–Douglas debates",
+      "year": 1858,
+      "description": "Seven long, substantive, widely reprinted set-piece arguments before huge crowds during the Illinois Senate race. Lincoln lost the seat but became a national figure and forced Douglas into the Freeport Doctrine that split the Democratic Party.",
+      "wikiSlug": "Lincoln%E2%80%93Douglas_debates",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-house-divided-speech",
+      "label": "Lincoln's 'House Divided' speech",
+      "year": 1858,
+      "description": "Accepting his party's Senate nomination, Lincoln declared 'A house divided against itself cannot stand,' an analysis that the country could not endure permanently half slave and half free — not a call for abolition but for containment that would put slavery in 'ultimate extinction.'",
+      "wikiSlug": "Lincoln%27s_House_Divided_Speech",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-marbury-v-madison",
+      "label": "Marbury v. Madison",
+      "year": 1803,
+      "description": "The case that established the Supreme Court's power of judicial review and the first time it struck down an act of Congress. Dred Scott in 1857 was only the second time the Court used that power to void a major federal statute.",
+      "wikiSlug": "Marbury_v._Madison",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-freeport-doctrine",
+      "label": "The Freeport Doctrine",
+      "year": 1858,
+      "description": "Pressed on how popular sovereignty could survive Dred Scott, Douglas answered that settlers could exclude slavery by simply refusing to pass the local slave codes that made it enforceable. The answer kept his Senate seat but enraged the South and split his party.",
+      "wikiSlug": "Freeport_Doctrine",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-roger-taney",
+      "label": "Chief Justice Roger B. Taney",
+      "year": 1857,
+      "description": "The aged Maryland defender of slavery who, as Jackson's treasury secretary, had carried out the removal of the Bank's deposits, and who as chief justice wrote the Dred Scott opinion that no Black person could be a citizen and Congress could not ban slavery in a territory.",
+      "wikiSlug": "Roger_B._Taney",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-democratic-party-split-1860",
+      "label": "The Democratic Party splits",
+      "year": 1860,
+      "description": "The last surviving national party tore in half when Southern delegates demanded a federal slave code and Douglas's Northern Democrats refused. It ran two candidates — Douglas and Breckinridge — handing the election to Lincoln.",
+      "wikiSlug": "1860_Democratic_National_Conventions",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-election-of-1860",
+      "label": "The election of 1860",
+      "year": 1860,
+      "description": "A four-way race in which Lincoln won the presidency with about 40 percent of the popular vote and a clear Electoral College majority without carrying or appearing on the ballot in most of the South — the trigger the South had announced it would not accept.",
+      "wikiSlug": "1860_United_States_presidential_election",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-secession-declarations",
+      "label": "Declarations of the causes of secession",
+      "year": 1860,
+      "endYear": 1861,
+      "description": "Official statements adopted by the secession conventions of South Carolina, Mississippi, Georgia, and Texas explaining, for the record, exactly why they were leaving — overwhelmingly and explicitly about slavery, in the secessionists' own contemporaneous words.",
+      "wikiSlug": "Declaration_of_the_Immediate_Causes_Which_Induce_and_Justify_the_Secession_of_South_Carolina_from_the_Federal_Union",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-south-carolina-secedes",
+      "label": "South Carolina secedes",
+      "year": 1860,
+      "description": "The state that had rehearsed this in 1832 seceded first, on December 20, 1860, weeks after Lincoln's election and months before he would take office, citing the protection of slavery and the Fugitive Slave Act.",
+      "wikiSlug": "South_Carolina_in_the_American_Civil_War",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-confederate-states-formed",
+      "label": "Confederate States of America formed",
+      "year": 1861,
+      "description": "At Montgomery in February 1861 seven seceded Deep South states formed a new country with a constitution modeled on the U.S. one but with slavery explicitly and permanently protected, and Jefferson Davis of Mississippi as president.",
+      "wikiSlug": "Confederate_States_of_America",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-crittenden-compromise",
+      "label": "The Crittenden Compromise",
+      "year": 1861,
+      "description": "The last compromise attempt: constitutional amendments restoring the Missouri line to the Pacific with slavery guaranteed below it forever. It failed because Lincoln and the Republicans would not surrender the territorial principle they had just won an election on.",
+      "wikiSlug": "Crittenden_Compromise",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-fort-sumter",
+      "label": "The firing on Fort Sumter",
+      "year": 1861,
+      "description": "Lincoln announced he would send provisions only to the starving garrison and notified South Carolina in advance, putting the choice to start a war on the Confederacy. On April 12, 1861, Confederate guns opened fire and the war came.",
+      "wikiSlug": "Battle_of_Fort_Sumter",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-second-secession-wave",
+      "label": "The second wave of secession",
+      "year": 1861,
+      "description": "Virginia, Arkansas, Tennessee, and North Carolina, which had refused to secede over Lincoln's election, seceded over his call for 75,000 troops. Virginia brought the Confederacy its greatest industrial capacity and Robert E. Lee.",
+      "wikiSlug": "Confederate_States_of_America",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-border-states",
+      "label": "The border states held",
+      "year": 1861,
+      "description": "Delaware, Maryland, Kentucky, and Missouri were slave states that did not secede, and holding them was decisive to the war's outcome — the single biggest reason the early Union war aim was 'preserve the Union,' not end slavery.",
+      "wikiSlug": "Border_states_(American_Civil_War)",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-first-bull-run",
+      "label": "First Battle of Bull Run",
+      "year": 1861,
+      "description": "The first major battle, fought near Washington before crowds of picnicking civilians, ended in a Union rout and panicked flight, shattering the fantasy on both sides that the war would be a brief, glorious affair settled in one campaign.",
+      "wikiSlug": "First_Battle_of_Bull_Run",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-battle-of-shiloh",
+      "label": "Battle of Shiloh",
+      "year": 1862,
+      "description": "A two-day battle in Tennessee with roughly 23,000 casualties, whose combined losses exceeded the combat casualties of the Revolution, the War of 1812, and the Mexican War put together — the first sign of the war's true scale.",
+      "wikiSlug": "Battle_of_Shiloh",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-battle-of-antietam",
+      "label": "Battle of Antietam",
+      "year": 1862,
+      "description": "The bloodiest single day in American history, with about 23,000 men killed, wounded, or missing in roughly twelve hours. Tactically a draw, it gave Lincoln the battlefield success he needed to issue the Emancipation Proclamation from strength.",
+      "wikiSlug": "Battle_of_Antietam",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-minie-ball",
+      "label": "The rifled musket and minié ball",
+      "year": 1855,
+      "description": "A conical bullet whose hollow base expanded into a rifled barrel, giving the standard infantry weapon an accurate killing range of 300 to 500 yards. The tactics did not change to match it, producing the war's industrialized slaughter.",
+      "wikiSlug": "Mini%C3%A9_ball",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-ab-emancipation-proclamation",
+      "label": "Emancipation Proclamation",
+      "year": 1863,
+      "description": "A war measure under Lincoln's commander-in-chief authority that declared free all enslaved people in areas still in rebellion, turning every advancing Union army into an army of liberation and making European intervention for the Confederacy politically impossible.",
+      "wikiSlug": "Emancipation_Proclamation",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-battle-of-gettysburg",
+      "label": "Battle of Gettysburg",
+      "year": 1863,
+      "description": "The largest battle ever fought in North America and the bloodiest of the war, roughly 50,000 casualties across three days, climaxing in Pickett's Charge — the rifled-musket-versus-Napoleonic-tactics massacre at the war's most famous moment.",
+      "wikiSlug": "Battle_of_Gettysburg",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-siege-of-vicksburg",
+      "label": "Siege of Vicksburg",
+      "year": 1863,
+      "description": "The Confederate fortress city surrendered to Ulysses S. Grant after a long siege, giving the Union complete control of the Mississippi River and splitting the Confederacy in two — the western half of the turning point week of July 1863.",
+      "wikiSlug": "Siege_of_Vicksburg",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-gettysburg-address",
+      "label": "The Gettysburg Address",
+      "year": 1863,
+      "description": "In about two minutes and 270 words Lincoln reframed the war as a test of whether a nation 'dedicated to the proposition that all men are created equal' could endure, and recast the founding promise of 1776 as 'a new birth of freedom.'",
+      "wikiSlug": "Gettysburg_Address",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-usct",
+      "label": "United States Colored Troops",
+      "year": 1863,
+      "endYear": 1865,
+      "description": "Roughly 180,000 to 200,000 Black men served in the U.S. Army by the war's end, about a tenth of it — the war's moral hinge, permanently destroying the proslavery argument that Black men were incapable of citizenship and self-liberation.",
+      "wikiSlug": "United_States_Colored_Troops",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-fort-wagner",
+      "label": "Assault on Fort Wagner",
+      "year": 1863,
+      "description": "The 54th Massachusetts Infantry, one of the first Black regiments, led a doomed evening charge across open sand against a fortified earthwork, taking catastrophic losses while pressing the attack home — courage that did more than any argument to make Black military service respected.",
+      "wikiSlug": "Second_Battle_of_Fort_Wagner",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-richmond-bread-riot",
+      "label": "Richmond bread riot",
+      "year": 1863,
+      "description": "A crowd of several hundred, mostly working-class women unable to feed their families as Confederate prices soared, marched on the capital and seized bread until President Jefferson Davis personally confronted the mob — the Confederacy's own civilians in revolt against wartime privation.",
+      "wikiSlug": "Richmond_Bread_Riot",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-new-york-draft-riots",
+      "label": "New York City draft riots",
+      "year": 1863,
+      "description": "Working-class mobs, many Irish immigrants enraged by a draft they could not buy their way out of, burned New York for days and turned with horrific violence on Black New Yorkers — the largest civil insurrection in American history apart from the war itself.",
+      "wikiSlug": "New_York_City_draft_riots",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-shermans-march",
+      "label": "Sherman's March to the Sea",
+      "year": 1864,
+      "description": "After capturing Atlanta, General William Tecumseh Sherman cut loose from his supply lines and marched about 285 miles across Georgia to Savannah, deliberately destroying railroads, factories, and food across a swath sixty miles wide — total war made explicit.",
+      "wikiSlug": "Sherman%27s_March_to_the_Sea",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-overland-campaign",
+      "label": "Grant's Overland Campaign",
+      "year": 1864,
+      "description": "Grant abandoned the search for a decisive battle and applied continuous, grinding attrition against Lee in Virginia — the Wilderness, Spotsylvania's 'Bloody Angle,' and Cold Harbor — refusing to retreat after the bloodletting on the cold logic that the Union could replace its dead and the Confederacy could not.",
+      "wikiSlug": "Overland_Campaign",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-election-of-1864",
+      "label": "The election of 1864",
+      "year": 1864,
+      "description": "In the fourth year of a civil war the United States held a free, on-time presidential election the opposition could have won on a platform of ending the war. Sherman's capture of Atlanta turned opinion and Lincoln won re-election, carried by soldiers' votes.",
+      "wikiSlug": "1864_United_States_presidential_election",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-ab-thirteenth-amendment",
+      "label": "Thirteenth Amendment",
+      "year": 1865,
+      "description": "The constitutional amendment abolishing slavery everywhere in the country, permanently, beyond the reach of any president, court, or state. Lincoln spent enormous capital pushing it through the House in January 1865; it was ratified after his death in December.",
+      "wikiSlug": "Thirteenth_Amendment_to_the_United_States_Constitution",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-appomattox",
+      "label": "Surrender at Appomattox",
+      "year": 1865,
+      "description": "On April 9, 1865, Lee surrendered to Grant at Appomattox Court House on deliberately generous terms — the Confederate soldiers paroled and sent home rather than imprisoned or charged with treason — terms Grant chose to begin reconciliation rather than punishment.",
+      "wikiSlug": "Battle_of_Appomattox_Court_House",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-lincoln-assassination",
+      "label": "Assassination of Lincoln",
+      "year": 1865,
+      "description": "Five days after Appomattox, Abraham Lincoln was shot at Ford's Theatre by the actor and Confederate sympathizer John Wilkes Booth and died the next morning — the first assassination of an American president, at almost the exact moment of Union victory.",
+      "wikiSlug": "Assassination_of_Abraham_Lincoln",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-ulysses-grant",
+      "label": "Ulysses S. Grant",
+      "year": 1863,
+      "endYear": 1865,
+      "description": "A West Point graduate clerking in his family's leather store when the war began, whose one rare talent was a refusal to stop attacking after a bloody day — exactly what a war of material attrition required. He took Vicksburg, then was brought east to finish it.",
+      "wikiSlug": "Ulysses_S._Grant",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-robert-e-lee",
+      "label": "Robert E. Lee",
+      "year": 1861,
+      "endYear": 1865,
+      "description": "The U.S. Army's most respected officer, who had captured John Brown at Harpers Ferry, was offered field command of the Union armies, declined it, and went with Virginia to command the Confederate army for four years.",
+      "wikiSlug": "Robert_E._Lee",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-civil-war-death-toll",
+      "label": "The Civil War death toll",
+      "year": 1865,
+      "description": "The most careful modern reconstruction puts military deaths at roughly 750,000, with a range of about 650,000 to 850,000 — more Americans than died in the Revolution, both World Wars, Korea, and Vietnam combined, about 2.5 percent of the entire population.",
+      "wikiSlug": "American_Civil_War_casualties",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-mound-builder-myth",
+      "label": "The Mound Builder Myth",
+      "year": 1838,
+      "description": "Even as removal was executed, white Americans stood before the great earthen mounds the Southeastern nations' Mississippian ancestors had raised and insisted no Indian could have built them — a fantasy that conveniently denied the deported nations any ancient claim to the ground.",
+      "wikiSlug": "Mound_Builders",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ab-nauvoo",
+      "label": "Nauvoo, Illinois",
+      "year": 1839,
+      "endYear": 1846,
+      "description": "The substantial Mormon city built on the Mississippi in Illinois, whose growth and unity frightened non-Mormon neighbors. It was at the jail in nearby Carthage that Joseph Smith was murdered by a mob in 1844.",
+      "wikiSlug": "Nauvoo,_Illinois",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ab-shakers",
+      "label": "The Shakers",
+      "year": 1830,
+      "endYear": 1860,
+      "description": "A religious commune that practiced celibacy, communal property, gender-balanced leadership, and an ecstatic dancing worship that gave them their name, surviving by adopting orphans and converting outsiders since they had no children of their own.",
+      "wikiSlug": "Shakers",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-ab-new-harmony",
+      "label": "New Harmony",
+      "year": 1825,
+      "endYear": 1829,
+      "description": "A secular utopian community in Indiana founded by the Welsh industrialist and socialist Robert Owen as a model cooperative settlement. Like most such experiments, it failed within a few years.",
+      "wikiSlug": "New_Harmony,_Indiana",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ab-richmond-confederate-capital",
+      "label": "Richmond, the Confederate capital",
+      "year": 1861,
+      "endYear": 1865,
+      "description": "The Confederacy moved its capital to Richmond, Virginia, barely a hundred miles from Washington — home of the Tredegar Iron Works, effectively the only Southern facility able to cast heavy cannon and armor at scale. The war's eastern theater became a four-year struggle over the ground between the two capitals.",
+      "wikiSlug": "Richmond_in_the_American_Civil_War",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ab-jefferson-davis",
+      "label": "Jefferson Davis",
+      "year": 1861,
+      "endYear": 1865,
+      "description": "A former U.S. senator and secretary of war from Mississippi who became the only president of the Confederate States of America, presiding over a constitution that protected slavery explicitly and permanently.",
+      "wikiSlug": "Jefferson_Davis",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-james-buchanan",
+      "label": "President James Buchanan",
+      "year": 1857,
+      "endYear": 1861,
+      "description": "The Northern Democrat sympathetic to the South who took the position that secession was unconstitutional but that the federal government had no power to coerce a state back — a doctrine of total inaction through the paralyzed secession winter.",
+      "wikiSlug": "James_Buchanan",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-pickets-charge",
+      "label": "Pickett's Charge",
+      "year": 1863,
+      "description": "A frontal assault by some 12,500 Confederate infantry across three-quarters of a mile of open ground against entrenched Union riflemen and artillery on the third day at Gettysburg — annihilated, after which Lee never invaded the North again.",
+      "wikiSlug": "Pickett%27s_Charge",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-william-lloyd-garrison",
+      "label": "William Lloyd Garrison",
+      "year": 1831,
+      "endYear": 1865,
+      "description": "The Boston printer who made immediatism a movement, was uncompromising to the point of publicly burning a copy of the Constitution as 'a covenant with death,' and was dragged through Boston streets with a rope by an anti-abolition mob.",
+      "wikiSlug": "William_Lloyd_Garrison",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-harpers-ferry-arsenal",
+      "label": "The federal arsenal at Harpers Ferry",
+      "year": 1859,
+      "description": "The federal weapons arsenal in Virginia that John Brown's band of about twenty-one men raided in October 1859, intending to seize its weapons, arm the enslaved, and ignite a general uprising. A detachment of U.S. Marines under Colonel Robert E. Lee stormed it.",
+      "wikiSlug": "Harpers_Ferry_Armory",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-ab-coverture",
+      "label": "The doctrine of coverture",
+      "year": 1828,
+      "endYear": 1860,
+      "description": "The legal doctrine under which a married woman's identity was 'covered' by her husband's: she could not own property, keep wages, sign a binding contract, or sue in her own name, because in law she was not a distinct person but a part of him.",
+      "wikiSlug": "Coverture",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-ab-gang-and-task-system",
+      "label": "The gang and task systems",
+      "year": 1820,
+      "endYear": 1860,
+      "description": "The two systems under which most enslaved people labored: the gang system, large groups driven through synchronized labor dawn to dark under a wage-paid overseer's whip, and the task system, a daily quota after which a worker was in principle free, common in the rice districts.",
+      "wikiSlug": "Slavery_in_the_United_States",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-ab-aboliton-mob-violence",
+      "label": "Anti-abolition mob violence",
+      "year": 1834,
+      "endYear": 1838,
+      "description": "Through the 1830s Northern mobs broke up abolitionist meetings, attacked Black neighborhoods, and assaulted speakers — violence that radicalized by backlash, making the abolitionists look less like fanatics and more like the only people willing to be assaulted for a principle.",
+      "wikiSlug": "Anti-abolitionism",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-sam-houston",
+      "label": "Sam Houston",
+      "year": 1836,
+      "description": "The Texan general who overran Santa Anna's unprepared army at San Jacinto in a single furious assault and captured Santa Anna himself, becoming the first president of the independent Lone Star Republic.",
+      "wikiSlug": "Sam_Houston",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-santa-anna",
+      "label": "Antonio López de Santa Anna",
+      "year": 1835,
+      "endYear": 1848,
+      "description": "The centralizing Mexican dictator who overran the Alamo and executed surrendered prisoners at Goliad, was captured at San Jacinto, and returned to lead Mexico's defense in the war that lost it half its national territory.",
+      "wikiSlug": "Antonio_L%C3%B3pez_de_Santa_Anna",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-davy-crockett",
+      "label": "Davy Crockett",
+      "year": 1836,
+      "description": "A celebrated backwoods hunter and former Tennessee congressman whose tall-tale persona had made him a household name before he died with the roughly two hundred defenders of the Alamo.",
+      "wikiSlug": "Davy_Crockett",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-zachary-taylor",
+      "label": "General Zachary Taylor",
+      "year": 1846,
+      "endYear": 1847,
+      "description": "The general Polk ordered to march across the disputed Nueces strip to the Rio Grande to provoke a shot, who then won a string of battles in northern Mexico culminating at Buena Vista, making him a national hero and a future president.",
+      "wikiSlug": "Zachary_Taylor",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-bear-flag-revolt",
+      "label": "The Bear Flag Revolt",
+      "year": 1846,
+      "description": "A band of American settlers in Mexican California declared an independent 'California Republic' under a hastily made flag bearing a grizzly bear, a tiny revolt quickly absorbed into the U.S. war effort that secured California.",
+      "wikiSlug": "California_Republic",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-ab-henry-clay",
+      "label": "Henry Clay, the Great Compromiser",
+      "year": 1820,
+      "endYear": 1852,
+      "description": "The Kentucky senator who brokered the Missouri Compromise, the Compromise Tariff of 1833, and the Compromise of 1850 — the 'Great Compromiser' whose deal-making held the Union together until it stopped working.",
+      "wikiSlug": "Henry_Clay",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-daniel-webster",
+      "label": "Daniel Webster",
+      "year": 1850,
+      "description": "Massachusetts's greatest orator and a fierce Union man who made his final stand in the 1850 Senate debate over the Compromise, dying in 1852 with the founding generation's deal-makers just as the deals stopped holding.",
+      "wikiSlug": "Daniel_Webster",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-john-breckinridge",
+      "label": "John C. Breckinridge",
+      "year": 1860,
+      "description": "The sitting vice president who ran for the Southern Democrats in 1860 on a platform of a federal slave code for all territories, one of the two halves the split Democratic Party broke into, handing the election to Lincoln.",
+      "wikiSlug": "John_C._Breckinridge",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-john-bell",
+      "label": "John Bell and the Constitutional Union Party",
+      "year": 1860,
+      "description": "A wealthy former senator and slaveholder from Tennessee who ran in 1860 for the Constitutional Union Party — old Whigs and conservatives trying to ignore slavery entirely and run on 'the Constitution and the Union' to hold the border together.",
+      "wikiSlug": "John_Bell_(Tennessee_politician)",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-ab-forty-niners",
+      "label": "The forty-niners",
+      "year": 1849,
+      "description": "On the order of 300,000 people who poured into California within a few years of the 1848 gold strike by ship around South America, across the Isthmus of Panama, or overland — a population the size of a major Eastern city assembling from the whole world in under two years.",
+      "wikiSlug": "California_Gold_Rush",
+      "tier": 3,
+      "category": "trade"
+    }
+  ],
+  "story": {
+    "title": "Antebellum America: The Road to Civil War",
+    "paths": [
+      {
+        "id": "destiny",
+        "label": "Manifest Destiny",
+        "color": "#d97706",
+        "icon": "🗺️",
+        "description": "From the Monroe Doctrine to Bleeding Kansas, follow the relentless westward expansion that doubled the nation's size — and doubled its problems. Every new territory forced the question: slave or free?",
+        "nodes": [
+          {
+            "id": "md-monroe",
+            "eventId": "evt-monroe-doctrine",
+            "narrative": "December 1823. President James Monroe stands before Congress and draws a line across the Atlantic Ocean. The Western Hemisphere, he declares, is no longer open for European colonization. Any attempt by a European power to extend its system to any portion of this hemisphere will be viewed as a threat to the peace and safety of the United States.\n\nThe audacity is breathtaking. The United States is a modest republic of fewer than ten million people, with a tiny navy and no standing army to speak of. Britain and France have empires that span the globe. And yet Monroe is telling them to stay out of an entire hemisphere.\n\nThe doctrine works — partly because the British Royal Navy, which dominates the seas, has its own reasons to keep European rivals out of the Americas. Monroe's bluff becomes policy, and his words become gospel. For the next two centuries, the Monroe Doctrine will justify everything from blocking European colonialism to invading Latin American nations.\n\nBut the doctrine contains a deeper idea: this hemisphere belongs to us. The continent is America's destiny. And if the continent is America's destiny, then the question becomes unavoidable — will the new territories be slave or free?",
+            "quiz": [
+              {
+                "question": "Why was the Monroe Doctrine considered audacious when it was announced?",
+                "options": [
+                  "It declared war on Britain",
+                  "The U.S. lacked the military power to enforce it against European empires",
+                  "It violated the Constitution",
+                  "Congress had not been consulted"
+                ],
+                "answerIndex": 1,
+                "explanation": "The U.S. had a tiny navy and no standing army, yet was telling the world's great powers to stay out of the entire Western Hemisphere."
+              },
+              {
+                "question": "Which nation's navy actually helped enforce the Monroe Doctrine in practice?",
+                "options": [
+                  "France",
+                  "Spain",
+                  "Russia",
+                  "Britain"
+                ],
+                "answerIndex": 3,
+                "explanation": "Britain's Royal Navy dominated the seas and had its own commercial reasons to keep European rivals out of the Americas."
+              },
+              {
+                "question": "What deeper question did westward expansion force Americans to confront?",
+                "options": [
+                  "Whether to form alliances with Native nations",
+                  "Whether new territories would permit slavery",
+                  "Whether to build a transcontinental railroad",
+                  "Whether to establish a national religion"
+                ],
+                "answerIndex": 1,
+                "explanation": "Every new piece of territory acquired under Manifest Destiny forced the explosive question: would it enter the Union as a slave state or a free state?"
+              },
+              {
+                "question": "How long did the Monroe Doctrine remain a cornerstone of American foreign policy?",
+                "options": [
+                  "Until the Civil War",
+                  "Until World War I",
+                  "About 50 years",
+                  "Nearly two centuries"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Monroe Doctrine shaped American foreign policy for nearly 200 years, justifying interventions across the hemisphere."
+              }
+            ]
+          },
+          {
+            "id": "md-erie",
+            "eventId": "evt-erie-canal",
+            "transition": "Monroe has declared the hemisphere America's domain. Now the nation needs the infrastructure to claim it.",
+            "narrative": "October 26, 1825. Governor DeWitt Clinton stands on a barge at the western end of the Erie Canal and pours a cask of Lake Erie water into the Atlantic Ocean at New York Harbor. He calls it 'the Wedding of the Waters' — the marriage of the Great Lakes to the sea.\n\nThe canal is an engineering marvel: 363 miles of hand-dug waterway, 83 locks, and 18 aqueducts that carry boats over rivers. It took eight years and $7 million to build — the most expensive public works project in American history to that point. Critics called it 'Clinton's Ditch' and mocked it as an impossible boondoggle.\n\nThey are not laughing now. Freight costs from Buffalo to New York City plummet by 90 percent. Grain from Ohio farms can now reach Eastern markets in days instead of weeks. Towns along the canal — Syracuse, Rochester, Buffalo — explode into cities. New York City, already the nation's largest port, becomes its undisputed commercial capital.\n\nThe canal does something else, too: it proves that massive infrastructure can open the interior. If a ditch through upstate New York can transform the economy, what might a railroad do? The infrastructure revolution that will knit a continent together — and make westward expansion inevitable — has begun.",
+            "quiz": [
+              {
+                "question": "What ceremony did Governor Clinton perform at the canal's completion?",
+                "options": [
+                  "He broke a bottle of champagne on the first barge",
+                  "He poured Lake Erie water into the Atlantic — 'the Wedding of the Waters'",
+                  "He lit a bonfire visible from both ends of the canal",
+                  "He signed the canal charter on board a ship"
+                ],
+                "answerIndex": 1,
+                "explanation": "Clinton symbolically married the Great Lakes to the Atlantic by pouring a cask of Lake Erie water into New York Harbor."
+              },
+              {
+                "question": "By how much did the Erie Canal reduce freight costs?",
+                "options": [
+                  "About 50 percent",
+                  "About 25 percent",
+                  "About 75 percent",
+                  "About 90 percent"
+                ],
+                "answerIndex": 3,
+                "explanation": "The canal slashed freight costs by roughly 90 percent, transforming the economics of shipping goods from the interior."
+              },
+              {
+                "question": "What was the broader significance of the Erie Canal for westward expansion?",
+                "options": [
+                  "It proved that massive infrastructure could open the interior to settlement and commerce",
+                  "It was primarily a military defense project",
+                  "It connected the Mississippi River to the East Coast",
+                  "It was the first canal in the world"
+                ],
+                "answerIndex": 0,
+                "explanation": "The canal demonstrated that large-scale infrastructure investment could transform the economy and open new regions to settlement — setting the stage for the railroad boom."
+              },
+              {
+                "question": "What derisive nickname did critics give the Erie Canal project?",
+                "options": [
+                  "'The Great Swamp'",
+                  "'Clinton's Ditch'",
+                  "'The Money Pit'",
+                  "'DeWitt's Folly'"
+                ],
+                "answerIndex": 1,
+                "explanation": "Skeptics mocked the ambitious canal project as 'Clinton's Ditch,' doubting it could ever be completed or be economically viable."
+              }
+            ]
+          },
+          {
+            "id": "md-removal",
+            "eventId": "evt-indian-removal",
+            "transition": "The canals and roads are opening the interior. But the land is not empty — and the people already living there stand in the way.",
+            "narrative": "May 28, 1830. President Andrew Jackson signs the Indian Removal Act into law. The legislation authorizes the federal government to negotiate treaties — the word is a cruel euphemism — with Native nations in the Southeast, exchanging their ancestral lands for territory west of the Mississippi.\n\nThe Cherokee have tried everything to resist. They have adopted a written constitution, published a bilingual newspaper, built schools and churches, and taken their case to the Supreme Court. In Worcester v. Georgia, Chief Justice John Marshall rules in their favor: Georgia has no authority over Cherokee lands. Jackson's response is legendary — and possibly apocryphal: 'John Marshall has made his decision; now let him enforce it.'\n\nEnforcement never comes. Between 1831 and 1838, the Five Civilized Tribes — Cherokee, Chickasaw, Choctaw, Creek, and Seminole — are driven from their homes. The Cherokee removal of 1838 is the most devastating: 16,000 people forced to march over a thousand miles in the dead of winter. Roughly 4,000 die on what survivors call Nunna daul Tsuny — 'the trail where they cried.'\n\nThe Trail of Tears opens millions of acres to white settlement and cotton cultivation. It also establishes a pattern that will repeat across the continent for the next sixty years: American expansion means Indigenous dispossession. Manifest Destiny has a body count.",
+            "quiz": [
+              {
+                "question": "How did the Cherokee resist removal before being forced out?",
+                "options": [
+                  "They declared war on the United States",
+                  "They adopted a constitution, published a newspaper, and won a Supreme Court case",
+                  "They signed voluntary removal treaties",
+                  "They allied with Britain against the U.S."
+                ],
+                "answerIndex": 1,
+                "explanation": "The Cherokee adopted Western institutions and won Worcester v. Georgia at the Supreme Court — but Jackson refused to enforce the ruling."
+              },
+              {
+                "question": "What does the Cherokee name 'Nunna daul Tsuny' mean?",
+                "options": [
+                  "'The long march'",
+                  "'The stolen homeland'",
+                  "'The trail where they cried'",
+                  "'The winter of sorrow'"
+                ],
+                "answerIndex": 2,
+                "explanation": "Survivors named the forced march 'Nunna daul Tsuny' — 'the trail where they cried' — known in English as the Trail of Tears."
+              },
+              {
+                "question": "Why did Jackson's response to Worcester v. Georgia matter for the balance of power in America?",
+                "options": [
+                  "It showed the president could ignore the Supreme Court when politically convenient",
+                  "It proved the Court was the most powerful branch",
+                  "It led to Jackson's impeachment",
+                  "It strengthened tribal sovereignty permanently"
+                ],
+                "answerIndex": 0,
+                "explanation": "Jackson's refusal to enforce the ruling demonstrated that the Supreme Court had no enforcement mechanism — the president could ignore it with impunity."
+              },
+              {
+                "question": "Approximately how many Cherokee died on the Trail of Tears?",
+                "options": [
+                  "About 400",
+                  "About 1,000",
+                  "About 4,000",
+                  "About 10,000"
+                ],
+                "answerIndex": 2,
+                "explanation": "Roughly 4,000 of the 16,000 Cherokee forced to march died from cold, disease, and starvation during the winter removal of 1838."
+              }
+            ]
+          },
+          {
+            "id": "md-mexican-war",
+            "eventId": "evt-mexican-american-war",
+            "transition": "The Southeast is cleared. Now the nation turns its appetite toward the Southwest — and a war with Mexico.",
+            "narrative": "April 1846. American troops under General Zachary Taylor are camped on the Rio Grande, in territory that Mexico considers its own. When Mexican cavalry attacks an American patrol, President James K. Polk tells Congress that 'American blood has been shed on American soil.' It is the pretext he has been looking for.\n\nThe war that follows is a military mismatch. American forces invade on three fronts: Taylor drives south into northern Mexico, Colonel Stephen Kearny marches west to seize New Mexico and California, and General Winfield Scott launches an amphibious assault on Veracruz and fights his way inland to Mexico City. In September 1847, U.S. Marines storm the fortress of Chapultepec and raise the Stars and Stripes over the Halls of Montezuma.\n\nThe Treaty of Guadalupe Hidalgo, signed in February 1848, is breathtaking in scope. Mexico cedes over 500,000 square miles — California, Nevada, Utah, and most of Arizona, New Mexico, and Colorado — in exchange for $15 million. The United States now stretches from sea to shining sea.\n\nBut a young congressman from Illinois named Abraham Lincoln rises in the House to challenge Polk's justification for the war, demanding to know the exact 'spot' where American blood was shed. And an obscure amendment by Representative David Wilmot — proposing to ban slavery from any territory acquired from Mexico — passes the House but fails in the Senate. The Wilmot Proviso never becomes law, but it crystallizes the question that will tear the nation apart: will the new territories be slave or free?",
+            "quiz": [
+              {
+                "question": "What was the Wilmot Proviso, and why did it matter?",
+                "options": [
+                  "A treaty with Mexico banning future wars",
+                  "A proposal to ban slavery in territory acquired from Mexico, crystallizing the sectional crisis",
+                  "A plan to share the new territories equally between North and South",
+                  "An amendment requiring Mexico to pay reparations"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Wilmot Proviso proposed banning slavery from all territory taken from Mexico. Though it never passed the Senate, it forced the slavery question into every territorial debate."
+              },
+              {
+                "question": "How much territory did the U.S. acquire from Mexico in the Treaty of Guadalupe Hidalgo?",
+                "options": [
+                  "About 100,000 square miles",
+                  "About 250,000 square miles",
+                  "About 500,000 square miles",
+                  "About 800,000 square miles"
+                ],
+                "answerIndex": 2,
+                "explanation": "Mexico ceded over 500,000 square miles — including California, Nevada, Utah, and most of the modern Southwest."
+              },
+              {
+                "question": "Which future president challenged the justification for the war while serving in Congress?",
+                "options": [
+                  "James Buchanan",
+                  "Ulysses S. Grant",
+                  "Abraham Lincoln",
+                  "Andrew Johnson"
+                ],
+                "answerIndex": 2,
+                "explanation": "Congressman Abraham Lincoln challenged President Polk with his 'Spot Resolutions,' demanding proof that the initial skirmish had occurred on American soil."
+              },
+              {
+                "question": "Why did the Mexican-American War accelerate the coming of the Civil War?",
+                "options": [
+                  "It bankrupted the federal government",
+                  "It weakened the U.S. military",
+                  "Every acre of new territory reignited the explosive debate over slavery's expansion",
+                  "Mexico allied with the Confederacy"
+                ],
+                "answerIndex": 2,
+                "explanation": "The vast new territories forced Americans to confront whether slavery would expand westward — the question that ultimately proved unanswerable without war."
+              }
+            ]
+          },
+          {
+            "id": "md-gold",
+            "eventId": "evt-california-gold-rush",
+            "transition": "The ink on the Treaty of Guadalupe Hidalgo is barely dry when something glitters in a California millrace — and the world changes.",
+            "narrative": "January 24, 1848. James W. Marshall spots something shining in the tailrace of Sutter's Mill in Coloma, California. He picks it up, bites it, hammers it flat. It bends but does not break. It is gold.\n\nWithin months, the news spreads around the world. By 1849, over 80,000 'forty-niners' have descended on California — from New England, from the Deep South, from China, from Chile, from Australia. San Francisco transforms from a sleepy village of 200 into a boomtown of 36,000 in two years. Men who arrived with nothing strike it rich overnight. Others die of disease, violence, or despair.\n\nThe Gold Rush is the greatest mass migration in American history to that point. It accelerates everything: California's population explodes, towns spring up overnight, the demand for transcontinental transportation becomes urgent. And because California enters the Union as a free state in 1850 — tipping the balance in the Senate — it forces the Compromise of 1850 and the hated Fugitive Slave Act.\n\nThe human cost is staggering. California's Native population drops from an estimated 150,000 to 30,000 within a decade as miners invade their lands and the state government funds militias to exterminate them. The Gold Rush fulfills the promise of Manifest Destiny — and reveals its horror.",
+            "quiz": [
+              {
+                "question": "Why did California's admission as a free state trigger a national crisis?",
+                "options": [
+                  "It gave free states a majority in the Senate, threatening the South's ability to block anti-slavery legislation",
+                  "California refused to join the Union",
+                  "Gold was discovered on federal land",
+                  "Mexico protested the admission"
+                ],
+                "answerIndex": 0,
+                "explanation": "California's admission as a free state broke the careful Senate balance between slave and free states, forcing the Compromise of 1850."
+              },
+              {
+                "question": "What happened to California's Native population during the Gold Rush?",
+                "options": [
+                  "It grew as tribes joined the gold rush",
+                  "It remained stable",
+                  "It dropped from roughly 150,000 to 30,000 within a decade",
+                  "Natives were relocated to reservations peacefully"
+                ],
+                "answerIndex": 2,
+                "explanation": "California's Indigenous population was devastated — dropping from an estimated 150,000 to 30,000 through violence, disease, and state-funded extermination campaigns."
+              },
+              {
+                "question": "How quickly did San Francisco grow during the Gold Rush?",
+                "options": [
+                  "From 200 to 36,000 in about two years",
+                  "From 5,000 to 50,000 in a decade",
+                  "From 1,000 to 10,000 in five years",
+                  "It grew slowly over 20 years"
+                ],
+                "answerIndex": 0,
+                "explanation": "San Francisco exploded from a sleepy village of about 200 people to a boomtown of 36,000 in roughly two years."
+              },
+              {
+                "question": "What compromise did California's statehood force Congress to adopt?",
+                "options": [
+                  "The Missouri Compromise",
+                  "The Compromise of 1850",
+                  "The Kansas-Nebraska Act",
+                  "The Wilmot Proviso"
+                ],
+                "answerIndex": 1,
+                "explanation": "California's free-state admission forced the Compromise of 1850, which included the Fugitive Slave Act — a deal that satisfied no one for long."
+              }
+            ]
+          },
+          {
+            "id": "md-railroad",
+            "eventId": "evt-first-railroad",
+            "transition": "Gold rushers need to get west — fast. The technology that will stitch the continent together is already chugging down its first tracks.",
+            "narrative": "May 24, 1830. A horse-drawn car rolls along thirteen miles of track outside Baltimore. It does not look like a revolution. The Baltimore and Ohio Railroad's first section is modest — a demonstration that iron rails and flanged wheels can move goods and people more reliably than muddy roads.\n\nBut the revolution comes fast. By 1835, there are over 1,000 miles of track in the United States. By 1840, there are 3,000. By 1850, 9,000. And by 1860, the nation has 30,000 miles of railroad — more than the rest of the world combined. The railroad does not just connect cities; it creates them. Chicago, which does not exist when the B&O opens, becomes the nation's railroad hub and one of the fastest-growing cities on earth.\n\nThe railroad also transforms the slavery debate. Southern planters want transcontinental routes through slave territory. Northern industrialists want routes through free states. Stephen Douglas's Kansas-Nebraska Act of 1854 — which opens Kansas to slavery to secure a northern transcontinental route through Chicago — will shatter the last sectional compromise and ignite a guerrilla war.\n\nIron rails are binding the continent together geographically. But politically, they are pulling it apart.",
+            "quiz": [
+              {
+                "question": "How many miles of railroad did the United States have by 1860?",
+                "options": [
+                  "About 5,000 miles",
+                  "About 10,000 miles",
+                  "About 30,000 miles",
+                  "About 50,000 miles"
+                ],
+                "answerIndex": 2,
+                "explanation": "By 1860, the U.S. had roughly 30,000 miles of railroad — more than the rest of the world combined."
+              },
+              {
+                "question": "How did the railroad debate connect to the slavery crisis?",
+                "options": [
+                  "Enslaved people built all the railroads",
+                  "Railroads were used exclusively to transport cotton",
+                  "Competition over transcontinental routes through slave vs. free territory led to the Kansas-Nebraska Act",
+                  "The South had more railroads than the North"
+                ],
+                "answerIndex": 2,
+                "explanation": "Stephen Douglas opened Kansas to slavery partly to secure a northern railroad route through Chicago — shattering the Missouri Compromise in the process."
+              },
+              {
+                "question": "What city, which barely existed when the B&O opened, became the nation's railroad hub?",
+                "options": [
+                  "St. Louis",
+                  "Chicago",
+                  "Cincinnati",
+                  "Denver"
+                ],
+                "answerIndex": 1,
+                "explanation": "Chicago barely existed when the B&O Railroad opened in 1830 but became the nation's railroad hub and one of the fastest-growing cities on earth."
+              },
+              {
+                "question": "What made the Baltimore & Ohio Railroad historically significant?",
+                "options": [
+                  "It was the longest railroad in the world",
+                  "It was the first railroad to use steam engines",
+                  "It was America's first commercial railroad, launching a transportation revolution",
+                  "It connected the East Coast to California"
+                ],
+                "answerIndex": 2,
+                "explanation": "The B&O was America's first commercial railroad, demonstrating the viability of rail transportation and launching the railroad boom that transformed the nation."
+              }
+            ]
+          },
+          {
+            "id": "md-kansas-nebraska",
+            "eventId": "evt-kansas-nebraska",
+            "transition": "The railroad debate forces open Pandora's box. Stephen Douglas is about to destroy the last compromise holding the Union together.",
+            "narrative": "May 30, 1854. President Franklin Pierce signs the Kansas-Nebraska Act into law, and a political earthquake rips across the nation. Senator Stephen Douglas of Illinois has done the unthinkable: he has repealed the Missouri Compromise line that has kept the peace for 34 years.\n\nDouglas's reasoning is pragmatic. He wants a transcontinental railroad through the northern route — through Chicago, his political base. To win Southern votes, he offers a deal: let the settlers of Kansas and Nebraska decide for themselves whether to allow slavery. He calls it 'popular sovereignty.' Critics call it a betrayal.\n\nThe reaction is volcanic. Anti-slavery Northerners are outraged. The Whig Party, already fractured, disintegrates. In its place rises a new political force: the Republican Party, founded explicitly to oppose the expansion of slavery. Abraham Lincoln, a retired lawyer in Springfield, Illinois, is drawn back into politics by the act's passage.\n\nMeanwhile, in Kansas, 'popular sovereignty' means mob rule. Pro-slavery 'Border Ruffians' from Missouri flood across the border to stuff ballot boxes. Free-state settlers establish a rival government. The territory descends into guerrilla warfare that earns it the name 'Bleeding Kansas.' Douglas has opened a door that cannot be closed. The road to civil war now runs straight through the Kansas prairie.",
+            "quiz": [
+              {
+                "question": "What compromise did the Kansas-Nebraska Act effectively destroy?",
+                "options": [
+                  "The Compromise of 1850",
+                  "The Three-Fifths Compromise",
+                  "The Missouri Compromise of 1820",
+                  "The Hartford Convention agreement"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Kansas-Nebraska Act repealed the Missouri Compromise line at 36°30', which had maintained the fragile peace between North and South for 34 years."
+              },
+              {
+                "question": "What new political party was born as a direct result of the Kansas-Nebraska Act?",
+                "options": [
+                  "The Democratic Party",
+                  "The Know-Nothing Party",
+                  "The Free Soil Party",
+                  "The Republican Party"
+                ],
+                "answerIndex": 3,
+                "explanation": "The Republican Party was founded in 1854 explicitly to oppose the expansion of slavery — a direct response to the Kansas-Nebraska Act."
+              },
+              {
+                "question": "Why did Stephen Douglas support allowing settlers to vote on slavery in the territories?",
+                "options": [
+                  "He was morally opposed to slavery",
+                  "He needed Southern votes to secure a northern transcontinental railroad route",
+                  "He wanted to end slavery gradually",
+                  "The Supreme Court ordered it"
+                ],
+                "answerIndex": 1,
+                "explanation": "Douglas needed Southern congressional support for his preferred northern railroad route through Chicago — 'popular sovereignty' was the price."
+              },
+              {
+                "question": "What happened in Kansas after the act passed?",
+                "options": [
+                  "Peaceful elections determined slavery's status",
+                  "The territory voted unanimously against slavery",
+                  "Pro-slavery and anti-slavery settlers waged guerrilla warfare — 'Bleeding Kansas'",
+                  "Congress intervened and imposed a solution"
+                ],
+                "answerIndex": 2,
+                "explanation": "Rather than producing orderly democracy, 'popular sovereignty' led to vote fraud, violence, and a guerrilla war that foreshadowed the Civil War."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slavery",
+        "label": "The Slavery Crisis",
+        "color": "#dc2626",
+        "icon": "⛓️",
+        "description": "From the Missouri Compromise to Lincoln's election, trace how the fight over slavery escalated from political bargain to guerrilla war to the breaking point. Eight events. Forty years. One inevitable collision.",
+        "nodes": [
+          {
+            "id": "sc-missouri",
+            "eventId": "evt-missouri-compromise",
+            "narrative": "February 1820. The nation is fourteen months into a crisis that has consumed Congress, paralyzed legislation, and exposed a fault line that runs through the heart of the republic. The question is simple: will Missouri enter the Union as a slave state or a free state?\n\nThe numbers matter. There are eleven free states and eleven slave states, giving the South an equal vote in the Senate. If Missouri enters as a free state, the balance tips. If it enters as a slave state, the North faces a creeping expansion of the institution it increasingly abhors.\n\nHenry Clay of Kentucky engineers a solution: Missouri enters as a slave state, but Maine is carved off from Massachusetts as a free state, preserving the balance. And a line is drawn across the map at 36°30' latitude — slavery permitted south of the line, forbidden north of it. The Missouri Compromise passes, and Congress exhales.\n\nBut Thomas Jefferson, now 77 years old at Monticello, hears the news and shudders. 'This momentous question, like a fire bell in the night, awakened and filled me with terror,' he writes. 'I considered it at once as the knell of the Union.' Jefferson sees what others refuse to acknowledge: the compromise does not solve the problem. It merely draws a line on a map and prays that Americans will respect it. They will not.",
+            "quiz": [
+              {
+                "question": "Why did Thomas Jefferson call the Missouri crisis 'a fire bell in the night'?",
+                "options": [
+                  "He was alarmed that the compromise failed",
+                  "He believed it revealed a fundamental conflict over slavery that would eventually destroy the Union",
+                  "He opposed Missouri's statehood entirely",
+                  "He thought the compromise was too generous to the North"
+                ],
+                "answerIndex": 1,
+                "explanation": "Jefferson recognized that the crisis exposed an irreconcilable divide over slavery — the compromise merely delayed the inevitable reckoning."
+              },
+              {
+                "question": "What was the key mechanism of the Missouri Compromise?",
+                "options": [
+                  "It abolished slavery in all new territories",
+                  "It drew a line at 36°30' — slavery permitted south, forbidden north",
+                  "It gave each new state a popular vote on slavery",
+                  "It required all new states to be free states"
+                ],
+                "answerIndex": 1,
+                "explanation": "The compromise drew an east-west line across the Louisiana Territory at 36°30' latitude — slavery was legal below and forbidden above."
+              },
+              {
+                "question": "Why was Senate balance between slave and free states so important?",
+                "options": [
+                  "The Senate controlled military appointments",
+                  "Equal representation meant the South could block any legislation threatening slavery",
+                  "The Senate elected the president at that time",
+                  "Only senators could propose constitutional amendments"
+                ],
+                "answerIndex": 1,
+                "explanation": "With equal numbers of slave and free states, the South could block any bill threatening slavery — tipping the balance would strip this veto power."
+              },
+              {
+                "question": "Which state was carved off from Massachusetts to maintain the balance?",
+                "options": [
+                  "Vermont",
+                  "Connecticut",
+                  "Maine",
+                  "New Hampshire"
+                ],
+                "answerIndex": 2,
+                "explanation": "Maine was separated from Massachusetts and admitted as a free state to balance Missouri's admission as a slave state."
+              }
+            ]
+          },
+          {
+            "id": "sc-nat-turner",
+            "eventId": "evt-nat-turner",
+            "transition": "The Missouri Compromise draws lines on maps. But enslaved people do not read congressional legislation — they dream of freedom.",
+            "narrative": "August 21, 1831. In the predawn darkness of Southampton County, Virginia, an enslaved preacher named Nat Turner gathers six trusted followers and begins a rebellion that will terrorize the South and transform the debate over slavery forever.\n\nTurner is no ordinary enslaved man. He can read and write. He has visions — divine signs, he believes, calling him to strike against the institution that holds his people in bondage. A solar eclipse in February convinces him the time has come. He plans meticulously and strikes without warning.\n\nFor two days, Turner's band — which swells to over 50 — moves from plantation to plantation, killing approximately 60 white men, women, and children. It is the most lethal slave revolt in American history. The Virginia militia mobilizes, and Turner is eventually captured after hiding in the woods for two months. He is tried, convicted, and hanged.\n\nThe aftermath is catastrophic for enslaved people across the South. White mobs kill over 200 Black people — many with no connection to the revolt. Virginia briefly debates abolishing slavery, then slams the door shut permanently. New laws make it illegal to teach enslaved people to read. The free Black community is crushed under new restrictions. The South, terrified, transforms from a society that apologizes for slavery into one that defends it as a 'positive good.' Turner's rebellion does not free a single person permanently — but it shatters the myth that enslaved people are content.",
+            "quiz": [
+              {
+                "question": "How did the South's defense of slavery change after Nat Turner's rebellion?",
+                "options": [
+                  "Southern states began gradual emancipation",
+                  "The South shifted from apologizing for slavery to defending it as a 'positive good'",
+                  "Southern states offered better conditions to enslaved people",
+                  "The South agreed to the Missouri Compromise line"
+                ],
+                "answerIndex": 1,
+                "explanation": "After Turner's revolt, the South abandoned its earlier discomfort with slavery and began aggressively defending it as a moral and economic good."
+              },
+              {
+                "question": "What convinced Nat Turner that the time for rebellion had come?",
+                "options": [
+                  "He received weapons from abolitionists",
+                  "A solar eclipse that he interpreted as a divine sign",
+                  "He read about the Haitian Revolution",
+                  "His family was about to be sold"
+                ],
+                "answerIndex": 1,
+                "explanation": "Turner interpreted a solar eclipse in February 1831 as a divine sign that God was calling him to strike against slavery."
+              },
+              {
+                "question": "What was one immediate consequence of Turner's rebellion for enslaved and free Black communities?",
+                "options": [
+                  "New laws made it illegal to teach enslaved people to read",
+                  "Slavery was abolished in Virginia",
+                  "The Underground Railroad was established",
+                  "Congress passed new civil rights legislation"
+                ],
+                "answerIndex": 0,
+                "explanation": "In the terrified aftermath, Southern states passed laws making it illegal to teach enslaved people to read — literacy was now seen as a weapon."
+              },
+              {
+                "question": "Why is Turner's rebellion significant despite its military failure?",
+                "options": [
+                  "It freed thousands of enslaved people",
+                  "It proved enslaved people could organize an army",
+                  "It shattered the myth that enslaved people were content with their condition",
+                  "It led directly to the Civil War"
+                ],
+                "answerIndex": 2,
+                "explanation": "Though militarily unsuccessful, the rebellion destroyed the self-serving Southern myth that enslaved people were happy and content with their lot."
+              }
+            ]
+          },
+          {
+            "id": "sc-douglass",
+            "eventId": "evt-frederick-douglass",
+            "transition": "Turner spoke with violence. Now a new voice rises — one that speaks with the power of lived experience and razor-sharp intellect.",
+            "narrative": "May 1845. A slender volume appears in Boston bookshops with a long title: Narrative of the Life of Frederick Douglass, an American Slave, Written by Himself. Those last three words are the point. He wrote it himself. An enslaved man who was never supposed to learn to read has produced the most devastating indictment of slavery in American literature.\n\nDouglass describes being separated from his mother as an infant, watching his aunt whipped until blood ran down her back, and fighting the slave-breaker Edward Covey in a two-hour brawl that restored his sense of manhood. The Narrative sells 11,000 copies in four months and 30,000 within five years — numbers that rival popular novels.\n\nBut the book is also an act of extraordinary courage. By publishing his real name and identifying his former owners, Douglass makes himself a target for recapture under the Fugitive Slave Act. He flees to England for two years, where British abolitionists raise funds to purchase his freedom.\n\nDouglass returns to America a legally free man and launches The North Star newspaper from Rochester, New York. He becomes the most powerful African American voice of the nineteenth century — an orator so commanding that skeptics refuse to believe he was ever enslaved. His very existence demolishes the racist argument that Black people are intellectually inferior. As Douglass himself writes: 'Once you learn to read, you will be forever free.'",
+            "quiz": [
+              {
+                "question": "Why were the words 'Written by Himself' crucial in the Narrative's title?",
+                "options": [
+                  "They were a marketing strategy",
+                  "They proved a formerly enslaved man could write — demolishing claims of Black intellectual inferiority",
+                  "Publishers required them for legal reasons",
+                  "They distinguished it from other books with similar titles"
+                ],
+                "answerIndex": 1,
+                "explanation": "Those three words proved that an enslaved man had mastered written English at a literary level — destroying the racist argument used to justify slavery."
+              },
+              {
+                "question": "Why did publishing the Narrative put Douglass in personal danger?",
+                "options": [
+                  "The book criticized the president",
+                  "He revealed his real name and former owners, making himself a target for recapture under the Fugitive Slave Act",
+                  "He included military secrets",
+                  "It was considered obscene literature"
+                ],
+                "answerIndex": 1,
+                "explanation": "By naming himself and his owners, Douglass made it easy for slave catchers to identify and recapture him — he had to flee to England for safety."
+              },
+              {
+                "question": "What was The North Star?",
+                "options": [
+                  "A constellation used by escaping enslaved people",
+                  "Douglass's abolitionist newspaper, published from Rochester, New York",
+                  "A novel Douglass wrote after his Narrative",
+                  "An anti-slavery political party"
+                ],
+                "answerIndex": 1,
+                "explanation": "Douglass founded The North Star newspaper in Rochester, making it one of the most influential abolitionist publications in America."
+              },
+              {
+                "question": "How did Douglass secure his legal freedom?",
+                "options": [
+                  "He won a lawsuit in federal court",
+                  "The Emancipation Proclamation freed him",
+                  "British abolitionists raised funds to purchase his freedom while he was in England",
+                  "He escaped to Canada"
+                ],
+                "answerIndex": 2,
+                "explanation": "While Douglass was lecturing in England to avoid recapture, British supporters raised the money to buy his freedom from his former owner."
+              }
+            ]
+          },
+          {
+            "id": "sc-tubman",
+            "eventId": "evt-harriet-tubman",
+            "transition": "Douglass fights slavery with words. Another formerly enslaved person fights it with footsteps — walking back into danger again and again.",
+            "narrative": "1850. The Fugitive Slave Act has just been signed into law. Federal marshals can now pursue escaped enslaved people into free states, and anyone who helps them faces heavy fines and imprisonment. For the roughly 50,000 formerly enslaved people living in the North, nowhere in America is safe.\n\nHarriet Tubman does not run further north. She runs south.\n\nBorn Araminta Ross on a Maryland plantation, Tubman escaped slavery in 1849 by walking nearly 90 miles to freedom in Pennsylvania. Most people who escape never look back. Tubman looks back thirteen times. Over the next decade, she returns to the Eastern Shore of Maryland again and again, leading approximately 70 people — including her elderly parents — to freedom through the Underground Railroad.\n\nShe travels by night, navigating by the North Star. She carries a pistol — not for slave catchers, but for any passenger who loses nerve and wants to turn back. A returning fugitive could betray the entire network. 'You'll be free or die,' she tells the wavering. No one turns back. She never loses a single passenger.\n\nSlave owners post a $40,000 bounty for her capture — an enormous sum in an era when a skilled worker earns $1 a day. They never collect. Tubman's contemporaries call her 'Moses,' and the name fits. She is leading her people out of bondage, one midnight journey at a time.",
+            "quiz": [
+              {
+                "question": "Why did the Fugitive Slave Act make Tubman's missions even more dangerous?",
+                "options": [
+                  "It banned travel between states",
+                  "Federal marshals could now pursue escaped enslaved people into free states, and anyone helping them faced prison",
+                  "It doubled the penalties for escaping",
+                  "It required enslaved people to carry identification papers"
+                ],
+                "answerIndex": 1,
+                "explanation": "The 1850 Fugitive Slave Act made helping escaped enslaved people a federal crime and allowed slave catchers to operate in free states — nowhere was safe."
+              },
+              {
+                "question": "Why did Tubman carry a pistol on her rescue missions?",
+                "options": [
+                  "To fight off slave catchers",
+                  "For hunting food during the journey",
+                  "To prevent anyone from turning back and betraying the network",
+                  "For personal protection in the wilderness"
+                ],
+                "answerIndex": 2,
+                "explanation": "Tubman carried the pistol to ensure no passenger lost nerve and turned back — a returning fugitive could expose the entire Underground Railroad network."
+              },
+              {
+                "question": "How many people did Tubman personally lead to freedom?",
+                "options": [
+                  "About 300",
+                  "About 70",
+                  "About 150",
+                  "About 500"
+                ],
+                "answerIndex": 1,
+                "explanation": "Over thirteen missions, Tubman personally guided approximately 70 people to freedom — including her own elderly parents."
+              },
+              {
+                "question": "What was the bounty posted for Tubman's capture?",
+                "options": [
+                  "$5,000",
+                  "$40,000",
+                  "$100,000",
+                  "$10,000"
+                ],
+                "answerIndex": 1,
+                "explanation": "Slave owners posted a $40,000 reward — an enormous fortune when a skilled worker earned about $1 a day."
+              }
+            ]
+          },
+          {
+            "id": "sc-uncle-tom",
+            "eventId": "evt-uncle-toms-cabin",
+            "transition": "Tubman saves people one journey at a time. But a novelist in Maine is about to change millions of minds with a single book.",
+            "narrative": "March 20, 1852. The first edition of Uncle Tom's Cabin rolls off the press in Boston. Within a year, it sells 300,000 copies in the United States alone — an astonishing number in a nation of 23 million. Harriet Beecher Stowe, a minister's wife from Maine, has written the most influential novel in American history.\n\nStowe has never lived in the South. But she has lived in Cincinnati, across the Ohio River from slave-state Kentucky, and she has listened to the stories of formerly enslaved people who crossed that river to freedom. She has watched slave catchers drag people back in chains. And when the Fugitive Slave Act passes in 1850, requiring Northerners to participate in returning escaped enslaved people, her rage boils over.\n\nThe novel follows the enslaved Tom through a series of owners, culminating in his murder by the sadistic Simon Legree. It makes slavery personal — not a political abstraction but a human catastrophe. Northern readers who had been indifferent to slavery as a Southern problem suddenly see enslaved people as mothers, fathers, and children with whom they can identify.\n\nThe South is furious. Pro-slavery writers publish dozens of counter-novels defending the institution. Southern states ban the book. But the damage is done. When Abraham Lincoln reportedly meets Stowe during the Civil War, he says: 'So you are the little woman who wrote the book that started this great war.' Whether the quote is apocryphal or not, the sentiment is real. Uncle Tom's Cabin does not cause the Civil War — but it makes the war thinkable.",
+            "quiz": [
+              {
+                "question": "What personal experience fueled Stowe's writing of Uncle Tom's Cabin?",
+                "options": [
+                  "She was enslaved herself",
+                  "She grew up on a Southern plantation",
+                  "Living in Cincinnati, she witnessed slavery across the Ohio River and heard stories from escaped enslaved people",
+                  "She traveled through the Deep South as a journalist"
+                ],
+                "answerIndex": 2,
+                "explanation": "Stowe lived in Cincinnati, directly across the river from slave-state Kentucky, where she encountered the reality of slavery firsthand."
+              },
+              {
+                "question": "How did Uncle Tom's Cabin change Northern attitudes toward slavery?",
+                "options": [
+                  "It provided legal arguments against slavery",
+                  "It made slavery personal — transforming it from a political abstraction into a human catastrophe readers could identify with",
+                  "It organized boycotts of Southern goods",
+                  "It proposed a specific plan for emancipation"
+                ],
+                "answerIndex": 1,
+                "explanation": "The novel's power lay in making readers identify with enslaved characters as human beings — mothers, fathers, children — not abstractions."
+              },
+              {
+                "question": "What specific legislation drove Stowe to write the novel?",
+                "options": [
+                  "The Missouri Compromise",
+                  "The Kansas-Nebraska Act",
+                  "The Fugitive Slave Act of 1850",
+                  "The Indian Removal Act"
+                ],
+                "answerIndex": 2,
+                "explanation": "The Fugitive Slave Act, which required Northerners to help return escaped enslaved people, outraged Stowe and drove her to write the novel."
+              },
+              {
+                "question": "How many copies did Uncle Tom's Cabin sell in its first year?",
+                "options": [
+                  "About 50,000",
+                  "About 100,000",
+                  "About 300,000",
+                  "About 1 million"
+                ],
+                "answerIndex": 2,
+                "explanation": "The novel sold roughly 300,000 copies in the U.S. in its first year — a massive bestseller in a nation of 23 million people."
+              }
+            ]
+          },
+          {
+            "id": "sc-dred-scott",
+            "eventId": "evt-dred-scott",
+            "transition": "Stowe moves hearts. But the Supreme Court is about to move the law — in the most devastating ruling in its history.",
+            "narrative": "March 6, 1857. Chief Justice Roger B. Taney reads the majority opinion in Dred Scott v. Sandford, and the words land like a bomb. An enslaved man named Dred Scott has sued for his freedom, arguing that because his owner had taken him to live in free territories, he was legally free. Taney's answer is a masterpiece of judicial cruelty.\n\nFirst, Taney rules that no person of African descent — enslaved or free — can be a citizen of the United States. They are, he writes, 'so far inferior that they had no rights which the white man was bound to respect.' Second, he rules that Congress has no power to ban slavery in the territories. The Missouri Compromise, already repealed by the Kansas-Nebraska Act, was unconstitutional all along.\n\nThe ruling is supposed to settle the slavery question once and for all. It does the opposite. Northern opinion explodes. The Republican Party, barely three years old, surges in popularity. Abraham Lincoln, debating Stephen Douglas for an Illinois Senate seat in 1858, hammers the decision relentlessly: 'A house divided against itself cannot stand. I believe this government cannot endure permanently half slave and half free.'\n\nTaney has handed the South a total legal victory — and in doing so, he has convinced millions of Northerners that the slave power controls the Supreme Court and will stop at nothing to expand slavery everywhere. The political center collapses. Compromise becomes impossible. Two years after Dred Scott, John Brown will march on Harpers Ferry.",
+            "quiz": [
+              {
+                "question": "What was the core constitutional claim in Taney's Dred Scott ruling?",
+                "options": [
+                  "States could nullify federal laws",
+                  "Slavery was unconstitutional",
+                  "African Americans could not be citizens, and Congress had no power to ban slavery in territories",
+                  "The president could free enslaved people by executive order"
+                ],
+                "answerIndex": 2,
+                "explanation": "Taney ruled both that African Americans had 'no rights which the white man was bound to respect' and that Congress lacked the power to restrict slavery in the territories."
+              },
+              {
+                "question": "Why did the ruling backfire on the South politically?",
+                "options": [
+                  "It convinced millions of Northerners that the 'slave power' controlled the courts and would never stop expanding slavery",
+                  "It freed Dred Scott and set a precedent",
+                  "Southern states rejected the ruling",
+                  "It weakened the Democratic Party in the South"
+                ],
+                "answerIndex": 0,
+                "explanation": "The total legal victory radicalized the North — confirming fears that a 'slave power conspiracy' controlled the federal government and courts."
+              },
+              {
+                "question": "What famous Lincoln quote emerged from the political fallout of Dred Scott?",
+                "options": [
+                  "'Four score and seven years ago'",
+                  "'Government of the people, by the people, for the people'",
+                  "'A house divided against itself cannot stand'",
+                  "'With malice toward none'"
+                ],
+                "answerIndex": 2,
+                "explanation": "Lincoln's 'House Divided' speech directly addressed the impossibility of the nation remaining 'half slave and half free' after the Dred Scott ruling."
+              },
+              {
+                "question": "What happened to the political center after the Dred Scott decision?",
+                "options": [
+                  "A new centrist party formed",
+                  "It collapsed — compromise between North and South became impossible",
+                  "Both sides agreed to abide by the ruling",
+                  "Congress passed new compromise legislation"
+                ],
+                "answerIndex": 1,
+                "explanation": "The ruling destroyed the remaining middle ground. Moderates were swept aside as both sides hardened their positions."
+              }
+            ]
+          },
+          {
+            "id": "sc-john-brown",
+            "eventId": "evt-john-brown",
+            "transition": "The courts have spoken. The compromises have failed. One man decides that words and laws are not enough — only blood will end slavery.",
+            "narrative": "October 16, 1859. At 10:30 p.m., a grim-faced old man with a flowing white beard leads 21 followers — including three of his sons and five Black men — across the Potomac River to the federal arsenal at Harpers Ferry, Virginia. John Brown's plan is audacious to the point of madness: seize the arsenal's 100,000 weapons, arm enslaved people throughout the region, and spark a revolution that will destroy slavery from within.\n\nThe first hours go perfectly. Brown's men capture the arsenal, the armory, and several hostages, including Colonel Lewis Washington, a great-grandnephew of the first president. But the enslaved population does not rise. Brown has told almost no one of his plans. By morning, the town militia has pinned his force inside the engine house.\n\nThe next day, a company of U.S. Marines arrives under the command of Colonel Robert E. Lee — a man who will soon lead armies of his own. Lieutenant J.E.B. Stuart — another future Confederate general — approaches under a flag of truce and demands surrender. Brown refuses. The Marines batter down the door in three minutes. Brown is wounded and captured.\n\nAt his trial, Brown transforms from a failed revolutionary into a prophet. His final speech is electrifying: 'If it is deemed necessary that I should forfeit my life for the furtherance of the ends of justice, and mingle my blood further with the blood of my children and with the blood of millions in this slave country whose rights are disregarded by wicked, cruel, and unjust enactments, I say, let it be done.' He is hanged on December 2, 1859. Church bells toll across the North. Soldiers sing 'John Brown's Body' as they march to war two years later.",
+            "quiz": [
+              {
+                "question": "Why did Brown's plan to spark a slave uprising fail?",
+                "options": [
+                  "The arsenal was empty",
+                  "He had told almost no enslaved people about the plan, so they did not rise",
+                  "The weapons were too old to use",
+                  "Federal troops arrived before he could distribute arms"
+                ],
+                "answerIndex": 1,
+                "explanation": "Brown kept his plans secret from the very people he hoped would rise up — without advance knowledge, enslaved people in the area had no way to join the revolt."
+              },
+              {
+                "question": "Which two future Confederate generals were involved in Brown's capture?",
+                "options": [
+                  "Stonewall Jackson and James Longstreet",
+                  "Robert E. Lee and J.E.B. Stuart",
+                  "P.G.T. Beauregard and Braxton Bragg",
+                  "Nathan Bedford Forrest and Joseph Johnston"
+                ],
+                "answerIndex": 1,
+                "explanation": "Colonel Robert E. Lee commanded the Marines, and Lieutenant J.E.B. Stuart delivered the surrender demand — both would become legendary Confederate commanders."
+              },
+              {
+                "question": "How did John Brown's execution transform him?",
+                "options": [
+                  "It exposed him as a fraud",
+                  "It turned him from a failed revolutionary into a martyr — 'John Brown's Body' became a Union marching song",
+                  "It ended the abolitionist movement",
+                  "It convinced the South to compromise"
+                ],
+                "answerIndex": 1,
+                "explanation": "Brown's eloquent final speech and dignified death made him a martyr to the abolitionist cause — Union soldiers would march to war singing 'John Brown's Body.'"
+              },
+              {
+                "question": "What was Brown's specific plan at Harpers Ferry?",
+                "options": [
+                  "Assassinate Virginia's governor",
+                  "Destroy the federal arsenal to weaken the government",
+                  "Seize 100,000 weapons and arm enslaved people to spark a revolution",
+                  "Hold hostages to negotiate the end of slavery"
+                ],
+                "answerIndex": 2,
+                "explanation": "Brown planned to capture the arsenal's weapons and distribute them to enslaved people, triggering an armed uprising that would spread across the South."
+              }
+            ]
+          },
+          {
+            "id": "sc-lincoln",
+            "eventId": "evt-lincoln-president",
+            "transition": "Brown is dead. His body lies in the grave. But the fire he lit cannot be extinguished. And now the nation faces an election.",
+            "narrative": "November 6, 1860. The results come in by telegraph, and the South's worst nightmare becomes reality. Abraham Lincoln has been elected the sixteenth President of the United States — without carrying a single Southern state. In ten Southern states, his name did not even appear on the ballot.\n\nLincoln is no abolitionist. He has said repeatedly that he will not touch slavery where it already exists — only prevent its expansion into new territories. But the South does not hear the nuance. They hear the Republican platform. They remember 'A house divided.' They see John Brown's ghost.\n\nSouth Carolina does not wait for Lincoln to take office. On December 20, 1860, just six weeks after the election, it becomes the first state to secede. Mississippi, Florida, Alabama, Georgia, Louisiana, and Texas follow within weeks. By February 1861, the Confederate States of America has a constitution, a president (Jefferson Davis), and a capital (Montgomery, Alabama). The Union is dissolving in real time.\n\nLincoln watches from Springfield, Illinois, powerless until his March inauguration. In his inaugural address, he makes one last appeal: 'We are not enemies, but friends. We must not be enemies. Though passion may have strained, it must not break our bonds of affection.' The South is not listening. Six weeks later, Confederate batteries open fire on Fort Sumter. The war that Jefferson had feared, that the Missouri Compromise had delayed, that every compromise since had failed to prevent — the war that Nat Turner and Frederick Douglass and John Brown had made inevitable — has begun.",
+            "quiz": [
+              {
+                "question": "What made Lincoln's election particularly alarming to the South?",
+                "options": [
+                  "He promised to abolish slavery immediately",
+                  "He won without carrying a single Southern state — his name wasn't even on ten Southern ballots",
+                  "He had served as a general in the Mexican-American War",
+                  "He was supported by John Brown's followers"
+                ],
+                "answerIndex": 1,
+                "explanation": "Lincoln won the presidency without a single Southern electoral vote — proving the South could lose control of the federal government entirely on the strength of Northern population growth."
+              },
+              {
+                "question": "What was Lincoln's actual position on slavery when elected?",
+                "options": [
+                  "He planned to abolish slavery nationwide immediately",
+                  "He supported slavery's expansion",
+                  "He opposed slavery's expansion into new territories but pledged not to touch it where it existed",
+                  "He had no stated position on slavery"
+                ],
+                "answerIndex": 2,
+                "explanation": "Lincoln's position was containment, not abolition — he would prevent slavery's expansion but not interfere with it in existing slave states."
+              },
+              {
+                "question": "How quickly did secession follow Lincoln's election?",
+                "options": [
+                  "South Carolina seceded six weeks after the election — seven states left before Lincoln even took office",
+                  "Secession began after Lincoln's inauguration",
+                  "It took over a year for the first state to secede",
+                  "Only one state had seceded by inauguration day"
+                ],
+                "answerIndex": 0,
+                "explanation": "South Carolina seceded on December 20, 1860 — just six weeks after the election — and six more states followed before Lincoln was inaugurated on March 4, 1861."
+              },
+              {
+                "question": "What was Lincoln's final appeal for peace in his inaugural address?",
+                "options": [
+                  "'Give me liberty or give me death'",
+                  "'A house divided against itself cannot stand'",
+                  "'We are not enemies, but friends. We must not be enemies.'",
+                  "'With malice toward none, with charity for all'"
+                ],
+                "answerIndex": 2,
+                "explanation": "Lincoln's inaugural address pleaded for reconciliation: 'We are not enemies, but friends' — but by then, seven states had already left the Union."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reform",
+        "label": "Reform & Revolution",
+        "color": "#7c3aed",
+        "icon": "✊",
+        "description": "Preachers, mill girls, escaped slaves, and suffragists — ordinary Americans demanding change. From the Second Great Awakening to Bleeding Kansas, follow the reform movements that remade the nation from below.",
+        "nodes": [
+          {
+            "id": "rr-awakening",
+            "eventId": "evt-second-great-awakening",
+            "narrative": "The 1820s and 1830s. A wave of religious revival sweeps across America unlike anything since the Great Awakening of the 1740s. In forest clearings and canvas tents from Kentucky to New York, preachers deliver sermons so electrifying that listeners collapse, speak in tongues, and weep for hours.\n\nBut the Second Great Awakening is not just about saving souls. It carries a revolutionary idea: that every individual has the power to achieve spiritual perfection — and that society itself can be perfected. If sin can be eliminated from the human heart, why not from human institutions? Why not from slavery? From alcohol? From the oppression of women?\n\nCharles Grandison Finney, the revival's greatest preacher, holds mass meetings in upstate New York that draw tens of thousands. He insists that conversion must lead to social action. His converts fan out across the country and build the organizational infrastructure of American reform: abolition societies, temperance leagues, women's groups, schools for the poor.\n\nThe 'Burned-Over District' of upstate New York — so called because the fire of revival has swept through so many times — becomes the incubator of American reform. The women's rights movement, the abolitionist movement, utopian communities, and new religions all trace their roots to this religious earthquake. The Second Great Awakening teaches Americans that they have a moral obligation not just to save themselves but to save their society.",
+            "quiz": [
+              {
+                "question": "What revolutionary social idea did the Second Great Awakening popularize?",
+                "options": [
+                  "That the government should establish an official church",
+                  "That if individuals could achieve spiritual perfection, society's institutions — including slavery — could be perfected too",
+                  "That America should become a theocracy",
+                  "That religion should stay out of politics"
+                ],
+                "answerIndex": 1,
+                "explanation": "The revival's perfectionist theology taught that if sin could be eliminated from the heart, it could be eliminated from institutions — fueling abolition, temperance, and women's rights."
+              },
+              {
+                "question": "What was the 'Burned-Over District'?",
+                "options": [
+                  "An area destroyed by wildfires",
+                  "A region in upstate New York so frequently swept by revival movements that it became the incubator of American reform",
+                  "A battlefield from the War of 1812",
+                  "A plantation district in Virginia"
+                ],
+                "answerIndex": 1,
+                "explanation": "Upstate New York was called the 'Burned-Over District' because religious revivals swept through it so intensely and repeatedly — spawning reform movements, new religions, and utopian communities."
+              },
+              {
+                "question": "Who was Charles Grandison Finney?",
+                "options": [
+                  "A politician who supported Indian Removal",
+                  "The revival's greatest preacher, who insisted that conversion must lead to social action",
+                  "The founder of the Mormon Church",
+                  "A Southern preacher who defended slavery"
+                ],
+                "answerIndex": 1,
+                "explanation": "Finney was the revival's most influential preacher, whose insistence that faith required social activism launched a generation of reformers."
+              },
+              {
+                "question": "Which major movements trace their roots to the Second Great Awakening?",
+                "options": [
+                  "The industrial revolution and railroad expansion",
+                  "Abolition, temperance, women's rights, and utopian communities",
+                  "The Monroe Doctrine and Manifest Destiny",
+                  "Southern secession and states' rights"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Awakening's perfectionist theology fueled virtually every major reform movement of the antebellum era — abolition, temperance, women's suffrage, and communal experiments."
+              }
+            ]
+          },
+          {
+            "id": "rr-ame",
+            "eventId": "evt-ame-church",
+            "transition": "The Awakening tells Americans they can perfect society. For Black Americans, that project begins with building institutions of their own.",
+            "narrative": "April 1816. In a rented room in Philadelphia, Richard Allen convenes the founding conference of the African Methodist Episcopal Church — the first fully independent Black denomination in America. Allen, a formerly enslaved man who purchased his own freedom, has been fighting for this moment for decades.\n\nAllen was a licensed Methodist preacher, popular with both Black and white congregations. But in 1792, while kneeling in prayer at St. George's Methodist Church in Philadelphia, he and fellow Black worshippers were physically dragged from their knees by white ushers and told to move to the gallery. Allen walked out and never went back.\n\nThe AME Church is not just a place of worship. It is a declaration of independence. In a nation that denies Black people education, political rights, and basic dignity, the church becomes a school, a mutual aid society, a political organizing center, and a refuge. AME congregations establish some of the first schools for Black children. They shelter freedom seekers on the Underground Railroad. They produce community leaders who will shape the abolitionist movement.\n\nBy the Civil War, the AME Church has grown from Allen's small Philadelphia congregation to hundreds of churches across the free states. After emancipation, it will expand explosively into the South, building churches and schools wherever formerly enslaved people gather. Richard Allen's walk out of St. George's Church is one of the foundational acts of Black self-determination in American history.",
+            "quiz": [
+              {
+                "question": "What incident prompted Richard Allen to leave the Methodist Church and found the AME?",
+                "options": [
+                  "He was denied ordination because of his race",
+                  "He and other Black worshippers were physically dragged from their knees during prayer and told to sit in the gallery",
+                  "The church refused to condemn slavery",
+                  "He had a theological disagreement with Methodist doctrine"
+                ],
+                "answerIndex": 1,
+                "explanation": "White ushers at St. George's Methodist Church physically pulled Allen and other Black congregants off their knees during prayer and ordered them to the balcony."
+              },
+              {
+                "question": "Why was the AME Church significant beyond its religious mission?",
+                "options": [
+                  "It was the largest denomination in America",
+                  "It served as a school, mutual aid society, political organizing center, and Underground Railroad station",
+                  "It was the first church to oppose the Mexican-American War",
+                  "It was supported by the federal government"
+                ],
+                "answerIndex": 1,
+                "explanation": "In a society that denied Black people institutions of their own, the AME Church became school, shelter, political headquarters, and community center all in one."
+              },
+              {
+                "question": "How did Richard Allen gain his own freedom?",
+                "options": [
+                  "He escaped via the Underground Railroad",
+                  "He was freed by the Emancipation Proclamation",
+                  "He purchased his own freedom",
+                  "A court ruling freed him"
+                ],
+                "answerIndex": 2,
+                "explanation": "Allen saved enough money to purchase his freedom from his owner — then spent the rest of his life building institutions for Black self-determination."
+              },
+              {
+                "question": "What happened to the AME Church after the Civil War?",
+                "options": [
+                  "It declined as members joined integrated churches",
+                  "It expanded explosively into the South, building churches and schools for formerly enslaved people",
+                  "It merged with the Methodist Church",
+                  "It became a political party"
+                ],
+                "answerIndex": 1,
+                "explanation": "After emancipation, the AME Church surged into the South, establishing churches and schools wherever formerly enslaved communities formed."
+              }
+            ]
+          },
+          {
+            "id": "rr-seneca",
+            "eventId": "evt-seneca-falls",
+            "transition": "Black Americans are building their own institutions. Now women — many of them veterans of the abolition movement — demand their own liberation.",
+            "narrative": "July 19, 1848. Three hundred people — mostly women, but also about 40 men — crowd into the Wesleyan Chapel in Seneca Falls, New York. They are here for the first women's rights convention in American history, organized by Elizabeth Cady Stanton and Lucretia Mott. What happens over the next two days will launch a revolution that takes 72 years to achieve its central goal.\n\nStanton reads the Declaration of Sentiments — modeled deliberately on the Declaration of Independence. 'We hold these truths to be self-evident,' she begins, 'that all men and women are created equal.' The document lists eighteen grievances against the 'tyranny' of men over women, from denying women the right to vote and own property to closing off access to higher education and the professions.\n\nThe most controversial resolution is the ninth: demanding the right to vote. Even Mott thinks it goes too far. The resolution nearly fails until Frederick Douglass — the only prominent man willing to support it — rises and argues passionately that the right to vote is the foundation of all other rights. The resolution passes by a narrow margin.\n\nThe convention is widely mocked. Newspapers call the women 'Amazons' and 'old maids.' Ministers cite Scripture to prove women's inferiority. But Stanton and her allies are undeterred. The next year, they hold conventions in Ohio, Indiana, and Massachusetts. A movement is born. It will take until 1920 — 72 years after Seneca Falls — for American women to win the vote. None of the women who signed the Declaration of Sentiments will live to cast a ballot.",
+            "quiz": [
+              {
+                "question": "Why did the organizers model the Declaration of Sentiments on the Declaration of Independence?",
+                "options": [
+                  "They couldn't think of another format",
+                  "To draw a deliberate parallel between women's oppression and colonial tyranny — if 'all men are created equal,' then all men AND women are created equal",
+                  "Thomas Jefferson's family asked them to",
+                  "The convention was held on July 4th"
+                ],
+                "answerIndex": 1,
+                "explanation": "By echoing Jefferson's language and adding 'and women,' Stanton forced Americans to confront the contradiction between their founding ideals and the reality of women's exclusion."
+              },
+              {
+                "question": "Who was the crucial male ally who saved the suffrage resolution from defeat?",
+                "options": [
+                  "Abraham Lincoln",
+                  "William Lloyd Garrison",
+                  "Frederick Douglass",
+                  "Henry Clay"
+                ],
+                "answerIndex": 2,
+                "explanation": "Frederick Douglass, the only prominent man to support the controversial voting resolution, argued that suffrage was the foundation of all other rights — his support helped it pass narrowly."
+              },
+              {
+                "question": "How long did it take from the Seneca Falls Convention for American women to win the right to vote?",
+                "options": [
+                  "About 30 years",
+                  "About 72 years",
+                  "About 50 years",
+                  "About 100 years"
+                ],
+                "answerIndex": 1,
+                "explanation": "It took 72 years — from 1848 to 1920, when the Nineteenth Amendment was ratified. None of the original signers of the Declaration of Sentiments lived to vote."
+              },
+              {
+                "question": "What was the most controversial demand at the Seneca Falls Convention?",
+                "options": [
+                  "The right to own property",
+                  "Access to higher education",
+                  "The right to vote",
+                  "Equal pay for equal work"
+                ],
+                "answerIndex": 2,
+                "explanation": "Even organizer Lucretia Mott thought demanding the vote went too far — the resolution nearly failed and passed only by a narrow margin."
+              }
+            ]
+          },
+          {
+            "id": "rr-sojourner",
+            "eventId": "evt-sojourner-truth",
+            "transition": "White women demand their rights. But a formerly enslaved woman stands up to remind them — and the world — that the fight for equality cannot be divided.",
+            "narrative": "May 1851. The Women's Convention in Akron, Ohio, is growing heated. Male ministers have taken the floor to argue that women are too delicate and too intellectually feeble for the rough world of politics. One invokes the superiority of male intellect. Another argues that Christ was a man, which proves God intended male supremacy.\n\nThen Sojourner Truth rises. She is tall, gaunt, and magnificent — a formerly enslaved woman from New York who has been preaching abolition and women's rights across the country. Some white women in the audience object to her speaking, worried that associating women's rights with abolition will hurt their cause. The convention president, Frances Gage, lets her speak anyway.\n\nTruth's speech — later reconstructed from memory and possibly embellished by Gage — demolishes every argument the ministers have made. She has plowed fields. She has planted crops. She has borne thirteen children and watched most of them sold into slavery. 'And ain't I a woman?' she asks after each declaration. She has done the work of any man and suffered more than most. Where was the chivalry then? Where was the delicacy?\n\nTruth's genius is in linking the two great liberation movements of her era. She refuses to let white women's rights and Black freedom be separated. She insists that justice is indivisible — that you cannot fight for one kind of equality while accepting another kind of oppression. It is a message that will echo through every liberation movement for the next two centuries.",
+            "quiz": [
+              {
+                "question": "What arguments were male ministers making that Truth demolished?",
+                "options": [
+                  "That women should focus on temperance instead of voting",
+                  "That women were too delicate and intellectually inferior for politics — claims her life of hard labor and suffering disproved",
+                  "That the Constitution prohibited women's rights",
+                  "That women's rights were a European idea"
+                ],
+                "answerIndex": 1,
+                "explanation": "Ministers argued women were too delicate for public life — Truth's account of plowing fields, bearing children, and surviving slavery made their claims absurd."
+              },
+              {
+                "question": "Why did some white women at the convention object to Truth speaking?",
+                "options": [
+                  "She was not a member of the organization",
+                  "They feared associating women's rights with abolition would hurt their cause",
+                  "She had not been invited",
+                  "They disagreed with her theology"
+                ],
+                "answerIndex": 1,
+                "explanation": "Some white women worried that linking women's rights to abolition — and having a Black woman as a spokesperson — would alienate potential supporters."
+              },
+              {
+                "question": "What was Sojourner Truth's revolutionary insight about liberation movements?",
+                "options": [
+                  "That each group should fight separately for its own rights",
+                  "That men were the real enemy",
+                  "That justice is indivisible — you cannot fight for one kind of equality while accepting another kind of oppression",
+                  "That legal reform was more important than moral persuasion"
+                ],
+                "answerIndex": 2,
+                "explanation": "Truth insisted that women's rights and Black freedom could not be separated — a principle of intersectional justice that would influence liberation movements for centuries."
+              },
+              {
+                "question": "What made Truth's personal story so powerful as an argument for women's equality?",
+                "options": [
+                  "She had a college education",
+                  "She had held political office",
+                  "Her life of hard labor and suffering proved that claims about women's 'delicacy' were absurd fantasies",
+                  "She had led a slave rebellion"
+                ],
+                "answerIndex": 2,
+                "explanation": "Truth's life — plowing, planting, bearing children, watching them sold — made the ministers' claims about female delicacy look ridiculous."
+              }
+            ]
+          },
+          {
+            "id": "rr-lowell",
+            "eventId": "evt-lowell-mills",
+            "transition": "Truth and Stanton fight for rights in convention halls. But in the factories of New England, working women are discovering a different kind of power — the power to organize.",
+            "narrative": "The 1820s through the 1840s. In Lowell, Massachusetts, Francis Cabot Lowell's textile mills are humming — and the women inside them are about to change the meaning of American labor.\n\nThe Lowell system is supposed to be enlightened capitalism. Young women from New England farms — the 'mill girls' — come to Lowell for wages that are better than anything available in rural life. They live in company-run boardinghouses with strict moral supervision. They attend lectures, publish a literary magazine called The Lowell Offering, and send money home to their families. It is, the owners say, a model of benevolent industry.\n\nThe reality is harsher. The women work twelve to fourteen hours a day, six days a week, tending power looms in deafening, lint-filled rooms. As competition intensifies, the owners speed up the machines, cut wages, and pack more looms per worker. In 1834, the mill girls do something unprecedented: they walk out on strike — one of the first organized labor actions by women in American history.\n\nThe 1834 strike fails. So does a second walkout in 1836. But in 1845, the mill girls organize the Lowell Female Labor Reform Association and petition the Massachusetts legislature for a ten-hour workday. Their petition — signed by thousands — produces the first government investigation of labor conditions in American history. The legislature does nothing. But the mill girls have proven that working women can organize, speak publicly, and demand their rights. They are the grandmothers of the American labor movement.",
+            "quiz": [
+              {
+                "question": "What was the 'Lowell system' supposed to demonstrate?",
+                "options": [
+                  "That enslaved labor was more efficient",
+                  "That industry could be humane — offering young women wages, housing, and cultural activities in a model factory town",
+                  "That women were better workers than men",
+                  "That New England could compete with British textiles"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Lowell system was designed to show that American industry could be enlightened — offering farm girls wages, supervised housing, and cultural enrichment."
+              },
+              {
+                "question": "What happened when mill owners cut wages and sped up the machines?",
+                "options": [
+                  "Workers quietly accepted the changes",
+                  "The mills shut down",
+                  "The mill girls staged one of the first organized labor strikes by women in American history",
+                  "The government intervened immediately"
+                ],
+                "answerIndex": 2,
+                "explanation": "In 1834, the mill girls walked out in one of the first organized strikes by women — a radical act in an era when women were expected to be silent and obedient."
+              },
+              {
+                "question": "What was the historical significance of the Lowell Female Labor Reform Association's petition?",
+                "options": [
+                  "It won the ten-hour workday immediately",
+                  "It produced the first government investigation of labor conditions in American history",
+                  "It led to a nationwide strike",
+                  "It resulted in women gaining the right to vote"
+                ],
+                "answerIndex": 1,
+                "explanation": "Though the legislature took no action, the petition produced the first official government investigation into factory working conditions — setting a precedent for labor reform."
+              },
+              {
+                "question": "What was The Lowell Offering?",
+                "options": [
+                  "A wage bonus for productive workers",
+                  "A literary magazine written and published by the mill girls themselves",
+                  "A company propaganda newsletter",
+                  "A petition for better working conditions"
+                ],
+                "answerIndex": 1,
+                "explanation": "The Lowell Offering was a literary magazine written by the mill girls — proof that factory workers were intelligent, articulate women, not mere 'hands.'"
+              }
+            ]
+          },
+          {
+            "id": "rr-bleeding",
+            "eventId": "evt-bleeding-kansas",
+            "transition": "Reform movements have demanded change through petitions, speeches, and strikes. In Kansas, the argument turns violent — and ordinary settlers become soldiers in a war over slavery's future.",
+            "narrative": "May 1856. A posse of pro-slavery Missourians rides into Lawrence, Kansas, and destroys the Free State Hotel, smashes the printing presses of two anti-slavery newspapers, and loots private homes. The 'Sack of Lawrence' is the opening salvo of Bleeding Kansas — and the proof that democracy has failed.\n\nThe Kansas-Nebraska Act promised that settlers would decide slavery's fate through popular sovereignty. What it produces instead is organized fraud and guerrilla warfare. Thousands of 'Border Ruffians' from Missouri cross into Kansas to stuff ballot boxes, then go home. Free-state settlers refuse to recognize the resulting pro-slavery legislature and set up their own rival government. Kansas has two capitals, two legislatures, and two constitutions.\n\nThree days after the Sack of Lawrence, a grim abolitionist named John Brown leads a midnight raid on pro-slavery settlers along Pottawatomie Creek. His band drags five men from their cabins and hacks them to death with broadswords. It is the first deliberate political murder of the slavery crisis, and it escalates the conflict into open war.\n\nOver the next four years, over 50 people are killed in Kansas. Armed bands roam the prairies. Farms are burned. Families flee. Senator Charles Sumner of Massachusetts, who delivers a speech condemning 'The Crime Against Kansas,' is beaten nearly to death with a metal-tipped cane on the floor of the Senate by South Carolina congressman Preston Brooks. The attack — and the South's celebration of Brooks as a hero — convinces many Northerners that the slaveholding class will stop at nothing. Bleeding Kansas is the Civil War in miniature.",
+            "quiz": [
+              {
+                "question": "Who were the 'Border Ruffians' and what did they do?",
+                "options": [
+                  "Union soldiers who patrolled the Kansas-Missouri border",
+                  "Pro-slavery Missourians who crossed into Kansas to stuff ballot boxes and intimidate free-state settlers",
+                  "Native American warriors defending their territory",
+                  "Federal marshals enforcing the Fugitive Slave Act"
+                ],
+                "answerIndex": 1,
+                "explanation": "Thousands of pro-slavery Missourians flooded into Kansas during elections to cast fraudulent votes, then returned home — making 'popular sovereignty' a sham."
+              },
+              {
+                "question": "What happened to Senator Charles Sumner after his speech about Kansas?",
+                "options": [
+                  "He was censured by the Senate",
+                  "He was elected president",
+                  "He was beaten nearly to death on the Senate floor with a metal-tipped cane by a Southern congressman",
+                  "He was arrested for inciting violence"
+                ],
+                "answerIndex": 2,
+                "explanation": "South Carolina congressman Preston Brooks beat Sumner so severely that he could not return to the Senate for three years — and the South celebrated Brooks as a hero."
+              },
+              {
+                "question": "What did John Brown do at Pottawatomie Creek?",
+                "options": [
+                  "He established a free-state settlement",
+                  "He led a raid that killed five pro-slavery settlers — the first deliberate political murders of the slavery crisis",
+                  "He organized an election for the free-state legislature",
+                  "He negotiated a ceasefire between the factions"
+                ],
+                "answerIndex": 1,
+                "explanation": "Brown's men dragged five pro-slavery settlers from their cabins and killed them with broadswords — a shocking escalation that transformed the conflict into open war."
+              },
+              {
+                "question": "Why is Bleeding Kansas sometimes called 'the Civil War in miniature'?",
+                "options": [
+                  "It involved the same generals who fought the Civil War",
+                  "It lasted four years like the Civil War",
+                  "It showed that the slavery question could not be resolved peacefully — democracy, compromise, and law had all failed",
+                  "It used the same weapons as the Civil War"
+                ],
+                "answerIndex": 2,
+                "explanation": "Bleeding Kansas proved that neither popular sovereignty nor congressional compromise could resolve the slavery question — the violence foreshadowed the full-scale war to come."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

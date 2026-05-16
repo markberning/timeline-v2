@@ -1,0 +1,835 @@
+{
+  "id": "mississippian-culture",
+  "label": "Mississippian",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Mississippian_culture",
+  "imageWikiSlug": "Monks_Mound",
+  "pitch": "Between roughly 800 and 1600 CE, Native peoples in the river valleys of eastern North America built a civilization of cities, flat-topped earthen pyramids, hereditary sacred rulers, and a sacred art that spanned half a continent — without metal tools, draft animals, the wheel, or writing. Their capital, Cahokia, was the largest city in what is now the United States and would not be matched until Philadelphia around 1800. When white Americans found the mounds they invented a racist myth that a vanished non-Indian race built them, because the truth indicted what the United States was doing to the descendants of the actual builders.\n\n🔑 Key Facts:\n• Monks Mound at Cahokia covers about 14 acres at its base — a larger footprint than the Great Pyramid of Giza — and was raised one basket-load of earth at a time\n• Cahokia held perhaps 10,000–15,000 people in its core (30,000–40,000 in greater Cahokia) around 1100 CE, in the same league as medieval London\n• The Southeastern Ceremonial Complex spread a shared falcon-warrior, cross-in-circle, and serpent iconography from Oklahoma to Georgia across unrelated language families\n• The Spiro Great Mortuary, the richest trove of perishable Mississippian art ever found, was tunneled into and dynamited by commercial relic diggers in the 1930s\n\n🤔 Why It Matters: The Mississippian world proves complex, monument-building, hierarchical society arose independently in North America on a flooding-river-and-maize base — and that the 'mound builders did not vanish.' Their descendants are citizens of sovereign nations, including the Muscogee, Chickasaw, Choctaw, Cherokee, and Caddo, today.\n\n🎲 Wild Card: The man hired by the Smithsonian to prove a vanished race built the mounds, Cyrus Thomas, started a believer and ended his 1894 report by stating flatly that American Indians built them — he was hired to confirm the myth and instead, honestly, killed it.",
+  "countryIds": [
+    "236"
+  ],
+  "spans": [
+    {
+      "id": "span-mississippian-culture-woodland-background",
+      "label": "Archaic & Woodland Background",
+      "startYear": -1700,
+      "endYear": 800,
+      "wikiSlug": "Woodland_period",
+      "description": "Long before maize farming, foragers at Poverty Point raised vast earthworks, woodland peoples domesticated the native Eastern Agricultural Complex crops, and the Adena and Hopewell cultures built burial mounds, geometric earthworks, and a continent-spanning prestige exchange in the Ohio and Mississippi valleys."
+    },
+    {
+      "id": "span-mississippian-culture-emergence",
+      "label": "The Mississippian Emergence",
+      "startYear": 800,
+      "endYear": 1050,
+      "wikiSlug": "Mississippian_culture",
+      "description": "Improved cold-tolerant flint maize grown intensively on rich floodplains produced a storable surplus that funded population growth, hereditary rank, platform mounds, plazas, shell-tempered pottery, and a shared art-religion — the recognizable Mississippian package — across the river valleys of the eastern and southeastern United States."
+    },
+    {
+      "id": "span-mississippian-culture-cahokian-florescence",
+      "label": "Cahokian Florescence",
+      "startYear": 1050,
+      "endYear": 1200,
+      "wikiSlug": "Cahokia",
+      "description": "Around 1050 CE Cahokia on the American Bottom was deliberately and rapidly reorganized into the largest city in the ancient United States, with Monks Mound, the engineered Grand Plaza, Woodhenge, and a population in the league of medieval London, the dominant center of a continent-wide ceremonial and exchange world."
+    },
+    {
+      "id": "span-mississippian-culture-regional-world",
+      "label": "The Regional Mississippian World",
+      "startYear": 1100,
+      "endYear": 1450,
+      "wikiSlug": "Mississippian_culture",
+      "description": "Dozens of independent, often hostile chiefdoms — Moundville, Etowah, Spiro, and many more — shared a way of life, the Southeastern Ceremonial Complex, the chunkey game, and a non-market prestige exchange network, while Cahokia declined and the central Mississippi heartland emptied into the 'Vacant Quarter.'"
+    },
+    {
+      "id": "span-mississippian-culture-spanish-storm",
+      "label": "The Spanish Storm & Shatter Zone",
+      "startYear": 1539,
+      "endYear": 1700,
+      "wikiSlug": "Hernando_de_Soto",
+      "description": "Hernando de Soto's 1539–1543 entrada marched through still-functioning paramount chiefdoms and recorded them in the act of destroying them; Old World epidemic disease in virgin-soil populations then collapsed the Mississippian world into a depopulated, slave-raided 'shatter zone.'"
+    },
+    {
+      "id": "span-mississippian-culture-heirs",
+      "label": "Coalescence & the Mound Builders' Heirs",
+      "startYear": 1600,
+      "endYear": 2000,
+      "wikiSlug": "Coalescent_society",
+      "description": "Survivors coalesced into new multi-ethnic confederacies — the Muscogee, Chickasaw, Choctaw, Cherokee, Caddo, and others; the Mound Builder Myth was demolished by Cyrus Thomas in 1894, and NAGPRA, UNESCO recognition, and descendant-led archaeology reframed the story around the living nations."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-miss-poverty-point-built",
+      "label": "Poverty Point Earthworks",
+      "year": -1500,
+      "endYear": -1100,
+      "description": "Hunter-gatherers in northeastern Louisiana built Poverty Point, a vast complex of concentric earthen ridges and large mounds whose Mound A holds a famously large volume of earth, all carried in baskets, more than two thousand years before Cahokia.",
+      "wikiSlug": "Poverty_Point",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-poverty-point-mound-a",
+      "label": "Mound A at Poverty Point",
+      "year": -1300,
+      "description": "The biggest mound at Poverty Point, Mound A, holds a most-cited modeled estimate on the order of 238,000 cubic yards of fill, enough to bury a football field roughly 50 yards deep, moved one basket at a time by foragers.",
+      "wikiSlug": "Poverty_Point",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-eastern-agricultural-complex",
+      "label": "Eastern Agricultural Complex",
+      "year": -2000,
+      "endYear": -1000,
+      "description": "Woodland peoples independently domesticated their own native plants — goosefoot, sumpweed, little barley, erect knotweed, maygrass, a thick-walled squash, and the sunflower — making eastern North America one of the few places humans invented agriculture.",
+      "wikiSlug": "Eastern_Agricultural_Complex",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-adena-culture",
+      "label": "Adena Culture",
+      "year": -800,
+      "endYear": 100,
+      "description": "Centered on the Ohio valley, the Adena were Woodland-period people whose signature was the conical burial mound, an important person interred in a log tomb covered with a growing heap of earth over generations of added burials.",
+      "wikiSlug": "Adena_culture",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-grave-creek-mound",
+      "label": "Grave Creek Mound",
+      "year": -100,
+      "description": "The Grave Creek Mound in present-day West Virginia, the largest surviving Adena burial mound, stands about 62 feet high and roughly 240 feet across, a cone of earth raised entirely by basket over generations of accumulating burials.",
+      "wikiSlug": "Grave_Creek_Mound",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-hopewell-tradition",
+      "label": "Hopewell Culture",
+      "year": -100,
+      "endYear": 500,
+      "description": "Centered in the Ohio valley, the Hopewell built geometric earthworks of staggering scale and precision — perfect circles, squares, and octagons — some aligned to the moon's 18.6-year standstill cycle, one of the genuine wonders of ancient North America.",
+      "wikiSlug": "Hopewell_tradition",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-newark-earthworks",
+      "label": "Newark Earthworks",
+      "year": 100,
+      "description": "The Newark Earthworks in Ohio originally covered more than four square miles, laid out as connected circles, an octagon, and a square in surveyed geometry so exact it implies a unit of measure and a survey method.",
+      "wikiSlug": "Newark_Earthworks",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-great-serpent-mound",
+      "label": "Great Serpent Mound",
+      "year": 300,
+      "description": "A quarter-mile-long earthen snake in Ohio containing no burials, the Great Serpent Mound appears to have been a purely ceremonial monument with its head aligned to the summer solstice sunset, a sacred image written into the landscape.",
+      "wikiSlug": "Serpent_Mound",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-hopewell-interaction-sphere",
+      "label": "Hopewell Interaction Sphere",
+      "year": 200,
+      "description": "A continent-spanning non-market web through which obsidian from the Rockies, marine shell from the Gulf, copper from the Great Lakes, mica from the Appalachians, and grizzly bear teeth flowed to the Ohio ceremonial centers by gift and exchange.",
+      "wikiSlug": "Hopewell_tradition#Hopewell_exchange_system",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-miss-maize-arrives-east",
+      "label": "Maize Reaches the Eastern Woodlands",
+      "year": 200,
+      "description": "Traces of maize, bred over thousands of years in Mexico from teosinte, appear in the eastern woodlands by around 200 CE in the Hopewell era, but for centuries it was a minor garnish alongside the native Eastern Agricultural Complex crops.",
+      "wikiSlug": "Maize#Spread",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-flint-corn-revolution",
+      "label": "Cold-Tolerant Flint Corn",
+      "year": 900,
+      "description": "Centuries of local selection finally bred a hardy, productive flint corn that matured fast enough for the short northern season and stored well, so intensive floodplain maize farming generated a storable surplus that paid for everything that followed.",
+      "wikiSlug": "Flint_corn",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-package-emerges",
+      "label": "The Mississippian Package",
+      "year": 900,
+      "endYear": 1050,
+      "description": "Across the river valleys, unrelated peoples adopted the same bundle: platform mounds and plazas, intensive maize agriculture, shell-tempered pottery, ranked chiefdoms, the chunkey game, and a shared art-religion system.",
+      "wikiSlug": "Mississippian_culture",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-shell-tempered-pottery",
+      "label": "Shell-Tempered Pottery",
+      "year": 950,
+      "description": "Mississippian potters mixed crushed mussel shell into clay, a genuine technical advance that produced thinner, stronger vessels resistant to thermal shock, so a shell-tempered potsherd is a quick field signal of a Mississippian site.",
+      "wikiSlug": "Mississippian_culture_pottery",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-cahokia-big-bang",
+      "label": "Cahokia's Big Bang",
+      "year": 1050,
+      "description": "Within perhaps one to two decades around 1050 CE, the American Bottom was deliberately and rapidly reorganized — villages cleared, ground re-planned, population surged in, and monumental construction began — founding Cahokia rather than growing it.",
+      "wikiSlug": "Cahokia",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-monks-mound",
+      "label": "Monks Mound",
+      "year": 1100,
+      "description": "A flat-topped earthen pyramid rising in four terraces to about 100 feet with a base covering roughly 14 acres — a larger footprint than the Great Pyramid of Giza — containing on the order of 22 million cubic feet of earth carried basket by basket.",
+      "wikiSlug": "Monks_Mound",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-grand-plaza",
+      "label": "The Grand Plaza",
+      "year": 1075,
+      "description": "Roughly 50 acres of public space at the foot of Monks Mound, deliberately engineered flat by cutting down high spots and filling low ones, a monumental act of basket labor that leaves no monument.",
+      "wikiSlug": "Cahokia#Grand_Plaza",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-woodhenge",
+      "label": "Cahokia Woodhenge",
+      "year": 1100,
+      "description": "A series of large circles of upright red cedar posts west of Monks Mound, rebuilt several times at increasing diameter, that worked by sightline as a fixed solar calendar marking the equinoxes and solstices.",
+      "wikiSlug": "Cahokia_Woodhenge",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-mound-72",
+      "label": "Mound 72 Burials",
+      "year": 1050,
+      "description": "A modest-looking burial mound on Cahokia's edge holding a central pair of bodies on a bed of roughly 20,000 marine-shell disc beads shaped like a bird, plus mass burials whose interpretation as human sacrifice is contested and significantly revised.",
+      "wikiSlug": "Mound_72",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-cahokia-palisade",
+      "label": "The Cahokia Palisade",
+      "year": 1175,
+      "description": "After the city's peak the Cahokians built a massive defensive wall of close-set timber posts studded with bastions around the sacred core, costing an estimated 20,000 large logs and rebuilt at least three times, a loud signal of social stress.",
+      "wikiSlug": "Cahokia#Stockade",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-rattlesnake-causeway",
+      "label": "Rattlesnake Causeway",
+      "year": 1100,
+      "description": "A raised earthen avenue running south from the Grand Plaza, putting Cahokia's sacred geography into a deliberate line on the ground rather than leaving it scattered.",
+      "wikiSlug": "Cahokia",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-ramey-incised",
+      "label": "Ramey Incised Pottery",
+      "year": 1100,
+      "description": "A distinctive fine ceremonial pottery whose cosmological motifs were cut into the wet clay before firing, branded ware distributed outward from Cahokia through the same hierarchy the mounds expressed.",
+      "wikiSlug": "Cahokia",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-miss-emerald-site",
+      "label": "The Emerald Site",
+      "year": 1100,
+      "description": "An acropolis of mounds a few miles east of Cahokia that appears to have functioned as a pilgrimage and ceremonial destination, drawing people in from the countryside on a ritual schedule.",
+      "wikiSlug": "Emerald_Mound_(Illinois)",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-mass-feasting",
+      "label": "Grand Plaza Mass Feasting",
+      "year": 1100,
+      "description": "Borrow pits reused as trash middens hold the unmistakable debris of very large gatherings — quantities of deer — direct physical evidence of mass feasting on the Grand Plaza, the chief's surplus converted into political glue.",
+      "wikiSlug": "Cahokia",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-miss-east-st-louis-group",
+      "label": "East St. Louis Mound Group",
+      "year": 1100,
+      "description": "A large mound complex just across Cahokia Creek, the second-biggest in the region, part of the same metropolitan cluster that pushes greater Cahokia's population estimate toward 30,000–40,000.",
+      "wikiSlug": "Cahokia",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-big-mound-st-louis",
+      "label": "The Big Mound, St. Louis",
+      "year": 1862,
+      "description": "St. Louis was so thick with mounds its nickname was 'Mound City'; the colossal riverfront Big Mound, roughly 300 feet long and 30 feet high, was leveled in the 1860s and carted off as construction fill, burials included.",
+      "wikiSlug": "Big_Mound_(St._Louis)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-moundville",
+      "label": "Moundville",
+      "year": 1120,
+      "endYear": 1450,
+      "description": "A planned ceremonial city on the Black Warrior River in Alabama with more than 29 mounds around a rectangular plaza, enclosed by a palisade, that did its greatest work after Cahokia's decline.",
+      "wikiSlug": "Moundville_Archaeological_Site",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-moundville-palette",
+      "label": "The Moundville Stone Palette",
+      "year": 1300,
+      "description": "A famous engraved disc-shaped stone tablet from Moundville carrying a central hand-and-eye motif ringed by a border of intertwined rattlesnakes, one of the signature objects of the whole Mississippian tradition.",
+      "wikiSlug": "Moundville_Archaeological_Site",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-miss-etowah",
+      "label": "Etowah",
+      "year": 1250,
+      "description": "A Mississippian center on the Etowah River in northern Georgia dominated by a platform mound over 60 feet tall, still a powerful chiefdom when the Spanish came through.",
+      "wikiSlug": "Etowah_Indian_Mounds",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-rogan-plates",
+      "label": "The Rogan Plates",
+      "year": 1885,
+      "description": "Embossed copper plates from Etowah's Mound C, each hammered into the image of a winged falcon-costumed Birdman dancer, named for John Rogan, the Smithsonian field assistant who excavated them in the early 1880s during Cyrus Thomas's survey.",
+      "wikiSlug": "Etowah_Indian_Mounds",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-spiro-mounds",
+      "label": "Spiro and the Great Mortuary",
+      "year": 1300,
+      "description": "On the Arkansas River in eastern Oklahoma, Spiro's Craig Mound held the Great Mortuary, a dry sealed chamber that preserved the single richest assemblage of perishable Mississippian art ever found.",
+      "wikiSlug": "Spiro_Mounds",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-pocola-looting",
+      "label": "The Pocola Mining Company Looting",
+      "year": 1935,
+      "description": "In the early 1930s commercial relic diggers leased Spiro's Craig Mound, tunneled into the Great Mortuary, sold its contents, and used dynamite on the mound, annihilating irreplaceable scientific context for cash.",
+      "wikiSlug": "Spiro_Mounds#Looting",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-miss-southeastern-ceremonial-complex",
+      "label": "Southeastern Ceremonial Complex",
+      "year": 1200,
+      "description": "The 'Southern Cult,' a recurring set of sacred images — falcon-warrior, forked-eye, cross-in-circle, bilobed arrow, chunkey player, serpents — executed in shell, copper, and pottery from Oklahoma to Georgia, a pictorial scripture for a world with no writing.",
+      "wikiSlug": "Southeastern_Ceremonial_Complex",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-birdman",
+      "label": "The Birdman",
+      "year": 1200,
+      "description": "The central figure of Mississippian sacred art: a human in falcon costume with spread wings, a forked eye marking, a war club, and a severed head, a warrior-hero of the Above World engraved on shell and hammered into copper.",
+      "wikiSlug": "Southeastern_Ceremonial_Complex",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-chunkey",
+      "label": "The Chunkey Game",
+      "year": 1100,
+      "description": "A continent-wide shared sport in which a polished stone disk was rolled down a long packed-earth court while players hurled poles to land where it would stop, watched by crowds and the focus of enormous, sometimes catastrophic gambling.",
+      "wikiSlug": "Chunkey",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-miss-birger-figurine",
+      "label": "The Birger Figurine",
+      "year": 1150,
+      "description": "A carved red stone figure only a few inches tall from a Cahokia-area site, depicting a kneeling woman with serpent and gourd-vine imagery, showing how deep the sacred ran into everyday Mississippian life.",
+      "wikiSlug": "Cahokia",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-miss-mill-creek-hoes",
+      "label": "Mill Creek Chert Hoes",
+      "year": 1150,
+      "description": "Chert hoe blades quarried at Mill Creek in southern Illinois, the era's premier farming tool, traded out across hundreds of miles through the non-market prestige and tribute network.",
+      "wikiSlug": "Mill_Creek_chert",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-miss-cahokia-decline",
+      "label": "Cahokia's Unraveling",
+      "year": 1200,
+      "endYear": 1400,
+      "description": "A gradual century-and-a-half drain — neighborhoods abandoned, mound construction stopped, population fell away — driven by a convergence of stress, depletion, flooding, climate, and the inherent fragility of a paramount chiefdom, with no single dated catastrophe.",
+      "wikiSlug": "Cahokia#Decline",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-vacant-quarter",
+      "label": "The Vacant Quarter",
+      "year": 1450,
+      "description": "By around 1450 a large region of the central Mississippi and lower Ohio valley heartland had been substantially depopulated, its people moving out to the edges, one of the genuine puzzles of late prehistory.",
+      "wikiSlug": "Vacant_Quarter",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-little-ice-age",
+      "label": "The Little Ice Age Onset",
+      "year": 1250,
+      "description": "Cahokia's decline ran into the onset of the Little Ice Age, a multi-century cooling associated in mid-continental North America with more frequent and severe drought and shorter, less reliable growing seasons after roughly 1200 CE.",
+      "wikiSlug": "Little_Ice_Age",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-natchez-people",
+      "label": "The Natchez",
+      "year": 1700,
+      "description": "A people of the lower Mississippi whom French colonists lived alongside in the early 1700s, still organized around a sacred paramount chief, temple, mounds, ranked classes, and sun symbolism — the only living Mississippian-style society anyone with a notebook ever saw.",
+      "wikiSlug": "Natchez_people",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-miss-le-page-du-pratz",
+      "label": "Antoine-Simon Le Page du Pratz",
+      "year": 1758,
+      "description": "A French planter and naturalist who lived in the Natchez region from about 1718 to 1734, learned the language and customs, and published a detailed History of Louisiana, the single richest eyewitness account of any Mississippian-tradition society.",
+      "wikiSlug": "Antoine-Simon_Le_Page_du_Pratz",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-miss-great-sun",
+      "label": "The Great Sun",
+      "year": 1720,
+      "description": "The Natchez paramount ruler, a hereditary monarch regarded as a living embodiment of the sun, carried on a litter, served with ritual deference, who each morning emerged to salute the rising sun, his celestial relative.",
+      "wikiSlug": "Natchez_people#Great_Sun",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-miss-natchez-class-system",
+      "label": "The Natchez Class Puzzle",
+      "year": 1720,
+      "description": "Society divided into Suns, Nobles, Honoreds, and the commoner 'Stinkards,' with required class exogamy and matrilineal rank descent that arithmetically should have washed the classes out within generations — a century-old unsolved anthropological problem.",
+      "wikiSlug": "Natchez_people#Social_structure",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-miss-grand-village-natchez",
+      "label": "Grand Village of the Natchez",
+      "year": 1700,
+      "description": "The principal Natchez town on St. Catherine Creek, excavated and found to confirm the French accounts directly — a temple mound and the Great Sun's residence mound flanking the plaza in the right places and of the right kind.",
+      "wikiSlug": "Grand_Village_of_the_Natchez",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-natchez-revolt",
+      "label": "The Natchez Revolt",
+      "year": 1729,
+      "description": "After years of French land seizure, the Natchez overran Fort Rosalie in a coordinated 1729 attack killing more than two hundred colonists; the annihilating French and Choctaw response over 1730–1731 broke them as a people.",
+      "wikiSlug": "Natchez_revolt",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-natchez-deportation",
+      "label": "Deportation of the Natchez",
+      "year": 1731,
+      "description": "Several hundred Natchez captives, including a Great Sun and members of the ruling lineage, were shipped to the French Caribbean sugar colony of Saint-Domingue and sold into plantation slavery, the deliberate erasure of the leadership by deportation.",
+      "wikiSlug": "Natchez_people#Diaspora",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-de-soto-entrada",
+      "label": "The De Soto Entrada",
+      "year": 1539,
+      "endYear": 1543,
+      "description": "Hernando de Soto landed on Florida's Gulf coast in 1539 with roughly six hundred soldiers, horses, herds of pigs, and war dogs, and marched a brutal four-year looping course through the still-functioning Mississippian world.",
+      "wikiSlug": "Hernando_de_Soto",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-hernando-de-soto",
+      "label": "Hernando de Soto",
+      "year": 1542,
+      "description": "The Spanish conquistador who had grown rich helping conquer the Inca Empire, came to North America expecting another Peru, and died on the Mississippi in 1542 with his expedition broken and gold-less.",
+      "wikiSlug": "Hernando_de_Soto",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-miss-gentleman-of-elvas",
+      "label": "The Gentleman of Elvas",
+      "year": 1557,
+      "description": "An anonymous Portuguese member of the de Soto expedition whose account, published in 1557, is generally treated as a sober and relatively reliable narrative of the entrada.",
+      "wikiSlug": "Hernando_de_Soto",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-miss-garcilaso-de-la-vega",
+      "label": "Garcilaso de la Vega, El Inca",
+      "year": 1605,
+      "description": "The son of a Spanish conquistador and an Inca noblewoman who wrote the most vivid and most quoted account of the entrada, La Florida del Inca, decades later from secondhand survivor testimony — by scholarly consensus the least reliable of the four chronicles.",
+      "wikiSlug": "Garcilaso_de_la_Vega_(chronicler)",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-miss-lady-of-cofitachequi",
+      "label": "The Lady of Cofitachequi",
+      "year": 1540,
+      "description": "The female paramount ruler of a powerful chiefdom in what is now South Carolina who met de Soto carried on a litter with diplomatic gifts of freshwater pearls, and whom he repaid by taking hostage as a guide.",
+      "wikiSlug": "Cofitachequi",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-miss-coosa-chiefdom",
+      "label": "The Chiefdom of Coosa",
+      "year": 1540,
+      "description": "A powerful paramount polity spanning parts of present-day Georgia, Alabama, and Tennessee, described by the chroniclers as populous and well-ordered; its ruler was seized and dragged along as a hostage.",
+      "wikiSlug": "Coosa_chiefdom",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-miss-tascalusa",
+      "label": "Chief Tascalusa",
+      "year": 1540,
+      "description": "A famously tall and imposing paramount chief in what is now Alabama who outwardly submitted, was taken hostage, and led the Spanish toward his fortified town of Mabila and into a trap.",
+      "wikiSlug": "Tuskaloosa",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-miss-battle-of-mabila",
+      "label": "The Battle of Mabila",
+      "year": 1540,
+      "description": "In October 1540 warriors concealed in Tascalusa's fortified town of Mabila attacked de Soto's army inside the palisade; one of the bloodiest engagements ever recorded between Europeans and Native Americans, after which the entrada never recovered.",
+      "wikiSlug": "Battle_of_Mabila",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-casqui-pacaha",
+      "label": "Casqui and Pacaha",
+      "year": 1541,
+      "description": "Two neighboring rival paramount chiefs in the Arkansas region whom de Soto played against each other, allying with Casqui in a raid on Pacaha and erecting a Christian cross on a mound, the divide-and-use logic of conquest in miniature.",
+      "wikiSlug": "Casqui",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-miss-quigualtam",
+      "label": "Chief Quigualtam",
+      "year": 1542,
+      "description": "The paramount chief of a powerful Mississippi River polity said to have sent the broken Spanish expedition a message of flat defiance, refusing to come to them and telling them to come to him instead.",
+      "wikiSlug": "Quigualtam",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-miss-virgin-soil-epidemics",
+      "label": "The Virgin-Soil Epidemics",
+      "year": 1550,
+      "endYear": 1700,
+      "description": "Old World crowd diseases — smallpox above all — swept virgin-soil Mississippian populations with no immune adults, killing planters, leaders, and warriors in the same season, the principal engine that collapsed the Mississippian world.",
+      "wikiSlug": "Virgin_soil_epidemic",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-shatter-zone",
+      "label": "The Shatter Zone",
+      "year": 1650,
+      "description": "The devastated, depopulated, violently reorganizing region left in the wake of disease and gun-fueled colonial slave raiding, as armed favored nations raided weaker disease-thinned groups to sell people into colonial slavery.",
+      "wikiSlug": "Mississippian_culture#Collapse",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-coalescence",
+      "label": "Coalescence",
+      "year": 1650,
+      "endYear": 1750,
+      "description": "Remnant communities merged across old language and ethnic lines into new, larger, deliberately multi-ethnic confederacies — the bridge between the Mississippian world and the historic Native nations of the Southeast.",
+      "wikiSlug": "Coalescent_society",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-miss-muscogee-creek-confederacy",
+      "label": "Muscogee (Creek) Confederacy",
+      "year": 1700,
+      "description": "An alliance of dozens of towns of varied origin built by survivors of the shattered chiefdoms, one of the principal mound builders' heirs descending directly through the people who lived through the catastrophe.",
+      "wikiSlug": "Muscogee",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-miss-cherokee-nation",
+      "label": "The Cherokee",
+      "year": 1700,
+      "description": "The coalescent Native nation of the southern Appalachians, with its own government and written constitution, one of the five large treaty-holding nations the United States expelled from the Southeast.",
+      "wikiSlug": "Cherokee",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-miss-jefferson-rivanna-dig",
+      "label": "Jefferson's Rivanna Excavation",
+      "year": 1784,
+      "description": "Thomas Jefferson cut a trench through the side of a Virginia mound to read its layers, a remarkably early stratigraphic excavation, and correctly concluded the mound was built by the ancestors of the region's Native peoples. Almost nobody listened.",
+      "wikiSlug": "Notes_on_the_State_of_Virginia",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-indian-removal-act",
+      "label": "Indian Removal Act",
+      "year": 1830,
+      "description": "The 1830 federal law authorizing the expulsion of the Cherokee, Muscogee, Chickasaw, Choctaw, and Seminole from the Southeast and their forced thousand-mile march west, the result the Mound Builder Myth supplied a moral alibi for.",
+      "wikiSlug": "Indian_Removal_Act",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-trail-of-tears",
+      "label": "The Trail of Tears",
+      "year": 1838,
+      "description": "The forced removal march on which thousands of Southeastern nation members died of exposure, hunger, and disease, executed while Americans stood in front of the mounds insisting no Indian could have built them.",
+      "wikiSlug": "Trail_of_Tears",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-miss-squier-davis-survey",
+      "label": "Ancient Monuments of the Mississippi Valley",
+      "year": 1848,
+      "description": "The Smithsonian's inaugural 1848 scholarly volume by Ephraim Squier and Edwin Davis, who mapped more than two hundred mound sites in precise scale drawings that became the primary record after most were plowed away.",
+      "wikiSlug": "Ancient_Monuments_of_the_Mississippi_Valley",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-miss-smithsonian-founded",
+      "label": "Smithsonian Institution Founded",
+      "year": 1846,
+      "description": "The federally chartered research and museum organization founded in 1846 with a bequest from the British scientist James Smithson, whose Bureau of Ethnology would settle the mound question.",
+      "wikiSlug": "Smithsonian_Institution",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-cyrus-thomas-report",
+      "label": "Cyrus Thomas's 1894 Report",
+      "year": 1894,
+      "description": "Hired a believer to resolve the mound question, Cyrus Thomas systematically excavated and compared sites, then stated without hedging in his enormous 1894 Bureau of Ethnology report that the mounds were built by the ancestors of American Indians.",
+      "wikiSlug": "Cyrus_Thomas_(entomologist)",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-cahokia-unesco",
+      "label": "Cahokia Named a UNESCO Site",
+      "year": 1982,
+      "description": "Cahokia Mounds, having survived narrowly amid postwar suburbs, a drive-in theater, and a highway cut, was named a UNESCO World Heritage Site in 1982, placed on the same global list as the Pyramids and the Parthenon.",
+      "wikiSlug": "Cahokia",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-poverty-point-unesco",
+      "label": "Poverty Point Named a UNESCO Site",
+      "year": 2014,
+      "description": "Poverty Point, the roughly 3,000-year-old forager-built earthworks, became a UNESCO World Heritage Site in 2014.",
+      "wikiSlug": "Poverty_Point",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-miss-nagpra",
+      "label": "NAGPRA",
+      "year": 1990,
+      "description": "The 1990 Native American Graves Protection and Repatriation Act requiring museums and federal agencies to return Native human remains and sacred objects, giving descendant nations legal standing over their ancestors and objects, including at Cahokia and Moundville.",
+      "wikiSlug": "Native_American_Graves_Protection_and_Repatriation_Act",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-miss-lidar-archaeology",
+      "label": "LIDAR Mound Survey",
+      "year": 2010,
+      "description": "Airborne LIDAR sweeps a laser from an aircraft and digitally removes the forest canopy to reveal intact mounds and whole site layouts standing under forest where no one had looked, plus plowed-down ghost outlines of others.",
+      "wikiSlug": "Lidar#Archaeology",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-mound-72-reanalysis",
+      "label": "Mound 72 Re-analysis",
+      "year": 2016,
+      "description": "Recent re-analysis of the Mound 72 skeletons revised earlier accounts substantially — the central 'Birdman' pair includes a female, dismantling the dramatic two-men storytelling — showing how the discipline corrects itself.",
+      "wikiSlug": "Mound_72",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-eastern-woodlands",
+      "label": "The Eastern Woodlands",
+      "year": -3000,
+      "description": "The near-continuous deciduous and mixed forest from the Atlantic to the prairies, actively managed for thousands of years with low fires to clear the understory and favor nut trees, a worked landscape long before a farmed one.",
+      "wikiSlug": "Eastern_Woodlands",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-american-bottom",
+      "label": "The American Bottom",
+      "year": 1000,
+      "description": "An unusually wide, fertile, well-watered stretch of Mississippi bottomland directly across from modern St. Louis, refreshed by spring floods, where the largest city in the ancient United States was built because the dirt was that good.",
+      "wikiSlug": "American_Bottom",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-miss-paramount-chief-cahokia",
+      "label": "Cahokia's Paramount Chief",
+      "year": 1100,
+      "description": "The supreme hereditary ruler at the top of Cahokia's ranked society, his house and principal temple raised a hundred feet above the city on Monks Mound, a hierarchy frozen in earth.",
+      "wikiSlug": "Cahokia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-miss-chiefly-cycling",
+      "label": "Chiefly Cycling",
+      "year": 1300,
+      "description": "The recurring pattern by which a powerful chief pulls towns into a paramount chiefdom that overreaches, cracks on a bad succession or harvest, fragments, and reforms elsewhere within a generation or two — Mississippian political history as churn.",
+      "wikiSlug": "Chiefdom",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
