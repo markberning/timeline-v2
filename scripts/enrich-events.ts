@@ -61,11 +61,31 @@ function saveCache(cache: EnrichmentCache): void {
 }
 
 async function fetchJson(url: string): Promise<unknown> {
-  const res = await fetch(url, {
-    headers: { 'User-Agent': USER_AGENT },
-  })
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`)
-  return res.json()
+  // Wikipedia/Commons rate-limit (HTTP 429) and occasionally 5xx under load.
+  // A single transient failure must not abort an 85-TL parse run, so retry
+  // transient errors with exponential backoff before giving up.
+  const MAX_ATTEMPTS = 5
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    let res: Response
+    try {
+      res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
+    } catch (err) {
+      if (attempt === MAX_ATTEMPTS) throw err
+      await new Promise(r => setTimeout(r, 1000 * 2 ** attempt))
+      continue
+    }
+    if (res.ok) return res.json()
+    const transient = res.status === 429 || res.status >= 500
+    if (!transient || attempt === MAX_ATTEMPTS) {
+      throw new Error(`HTTP ${res.status}: ${url}`)
+    }
+    const retryAfter = Number(res.headers.get('retry-after'))
+    const waitMs = Number.isFinite(retryAfter) && retryAfter > 0
+      ? retryAfter * 1000
+      : 1000 * 2 ** attempt
+    await new Promise(r => setTimeout(r, waitMs))
+  }
+  throw new Error(`HTTP retries exhausted: ${url}`)
 }
 
 /** Batch-fetch Commons thumbnail URLs. Up to 50 filenames per request. */

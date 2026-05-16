@@ -191,6 +191,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'majapahit.md': 'majapahit',
   'scientific-revolution.md': 'scientific-revolution',
   'enlightenment.md': 'enlightenment',
+  'industrial-revolution.md': 'industrial-revolution',
 }
 
 function slugify(title: string): string {
