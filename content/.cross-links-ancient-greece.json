@@ -17,6 +17,30 @@
       "targetTl": "shang-dynasty",
       "targetChapter": 3,
       "blurb": "The Shang dynasty developed Chinese writing through oracle bone divination around 1200 BCE, roughly contemporary with the Mycenaean Linear B tablets. Both writing systems served palace bureaucracies, but Chinese writing survived its dynasty's fall while Linear B died with the Mycenaean palaces."
+    },
+    {
+      "matchText": "Mycenaean",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 7,
+      "blurb": "Greek history opens in the rubble of the Mycenaean collapse — the Dark Age after the citadels fell, from which the polis world would slowly emerge."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "The Greeks were latecomers: cities, writing, and kingship were already ancient in Mesopotamia when Greece was still villages of subsistence farmers."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 3,
+      "blurb": "The single most consequential Greek borrowing was the alphabet — adapted from the Phoenician script, vowels added, and turned into the writing system of European literacy."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "At the other end of Eurasia, Bronze Age China under the Shang had its own script and ritual-bronze elite — civilization arising independently while Greece was in its dark age."
     }
   ],
   "2": [
@@ -31,6 +55,12 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 7,
       "blurb": "The Zhou Dynasty's Warring States period was producing its own political fragmentation and intellectual ferment at the same time Athens was inventing democracy. Confucius, like Solon, sought institutional solutions to social crisis — but Confucius looked to restored ritual hierarchy while Solon expanded political participation."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "As Athens experimented with citizen government, the Persian Empire was perfecting the opposite model — a vast multi-ethnic bureaucratic monarchy run by satraps and the King's roads."
     }
   ],
   "3": [
@@ -45,6 +75,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 3,
       "blurb": "Darius I responded to the Ionian Revolt by sending the punitive expedition that was defeated at Marathon. From the Persian perspective, Greece was a minor frontier problem — a handful of small cities on the western fringe of an empire stretching from Egypt to the Indus."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "The Persian Wars pit the young Greek poleis against the superpower Cyrus and Darius had built — the largest empire the world had yet seen, stopped at Marathon and Salamis."
     }
   ],
   "4": [],
@@ -119,6 +155,18 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 11,
       "blurb": "The Mouseion is the deepest precedent for the scientific society — and the thing the Royal Society pointedly differs from: Alexandria died with its dynasty, the Society was built to outlive any patron (Scientific Revolution Ch 11)."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Alexander's invasion of the Indus directly triggered the Maurya Empire: Chandragupta rose in the vacuum the Macedonians left, building India's first great empire on the Greek frontier."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 3,
+      "blurb": "The Hellenistic kingdoms were swallowed one by one by Rome — Greek culture conquered its conqueror, but Greek political independence ended on Roman terms."
     }
   ]
 }

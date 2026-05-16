@@ -37,7 +37,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | mongol-empire | 9 | **DONE** (cross + ~44 glossary) | 481de5a |
 | timurid-empire | 8 | **DONE** (cross 54 + glossary) | cb8dfac |
 | minoan-civilization | 8 | **DONE** | f14d5f0 |
-| mycenaean-civilization | 8 | **DONE** | +this |
+| mycenaean-civilization | 8 | **DONE** | 3505232 |
+| ancient-greece | 8 | **DONE** (cross + Greek-vocab glossary) | +this |
 | _next: ancient-greece (Greco-Roman chain), then roadmap order_ | | pending | |
 | _next: roadmap chain order (excl. 6 US-history civs)_ | | pending | |
 
