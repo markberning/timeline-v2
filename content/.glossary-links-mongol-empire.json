@@ -131,6 +131,42 @@
       "matchText": "Tengri",
       "wikiSlug": "Tengri",
       "type": "concept"
+    },
+    {
+      "term": "Toghrul (Wang Khan)",
+      "matchText": "Toghrul",
+      "wikiSlug": "Toghrul",
+      "type": "people"
+    },
+    {
+      "term": "Wang Khan",
+      "matchText": "Wang Khan",
+      "wikiSlug": "Wang_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Merkit",
+      "matchText": "Merkit",
+      "wikiSlug": "Merkit",
+      "type": "people"
+    },
+    {
+      "term": "Saladin",
+      "matchText": "Ayyubid sultan Saladin",
+      "wikiSlug": "Saladin",
+      "type": "people"
+    },
+    {
+      "term": "Pala Empire",
+      "matchText": "Pala dynasty",
+      "wikiSlug": "Pala_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltec",
+      "wikiSlug": "Toltec",
+      "type": "concept"
     }
   ],
   "2": [
@@ -210,6 +246,36 @@
       "term": "Khwarezmian Empire",
       "matchText": "Khwarezmian Empire",
       "wikiSlug": "Khwarazmian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Onon River",
+      "matchText": "Onon River",
+      "wikiSlug": "Onon_River",
+      "type": "place"
+    },
+    {
+      "term": "Qasar",
+      "matchText": "Khasar",
+      "wikiSlug": "Qasar",
+      "type": "people"
+    },
+    {
+      "term": "Jochi",
+      "matchText": "Jochi",
+      "wikiSlug": "Jochi",
+      "type": "people"
+    },
+    {
+      "term": "Muqali",
+      "matchText": "Mukhali",
+      "wikiSlug": "Muqali",
+      "type": "people"
+    },
+    {
+      "term": "Jin dynasty",
+      "matchText": "Jin dynasty",
+      "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)",
       "type": "concept"
     }
   ],
@@ -315,6 +381,66 @@
       "matchText": "Karakorum",
       "wikiSlug": "Karakorum",
       "type": "place"
+    },
+    {
+      "term": "Western Xia",
+      "matchText": "Xi Xia",
+      "wikiSlug": "Western_Xia",
+      "type": "concept"
+    },
+    {
+      "term": "Tangut people",
+      "matchText": "Tangut",
+      "wikiSlug": "Tangut_people",
+      "type": "people"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Merv",
+      "matchText": "Merv",
+      "wikiSlug": "Merv",
+      "type": "place"
+    },
+    {
+      "term": "Nishapur",
+      "matchText": "Nishapur",
+      "wikiSlug": "Nishapur",
+      "type": "place"
+    },
+    {
+      "term": "Herat",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Otrar",
+      "matchText": "Otrar",
+      "wikiSlug": "Otrar",
+      "type": "place"
+    },
+    {
+      "term": "Tolui",
+      "matchText": "Tolui",
+      "wikiSlug": "Tolui",
+      "type": "people"
+    },
+    {
+      "term": "The Secret History of the Mongols",
+      "matchText": "Secret History",
+      "wikiSlug": "The_Secret_History_of_the_Mongols",
+      "type": "concept"
+    },
+    {
+      "term": "Fire lance",
+      "matchText": "fire-lance",
+      "wikiSlug": "Fire_lance",
+      "type": "concept"
     }
   ],
   "4": [
@@ -406,6 +532,24 @@
       "term": "Mandate of Heaven",
       "matchText": "Mandate of Heaven",
       "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Cumans",
+      "matchText": "Cumans",
+      "wikiSlug": "Cumans",
+      "type": "people"
+    },
+    {
+      "term": "Order of Assassins",
+      "matchText": "Nizari Ismaili Assassins",
+      "wikiSlug": "Order_of_Assassins",
       "type": "concept"
     }
   ],
@@ -505,6 +649,24 @@
       "matchText": "Tigris",
       "wikiSlug": "Tigris",
       "type": "place"
+    },
+    {
+      "term": "Maragheh observatory",
+      "matchText": "Maragheh Observatory",
+      "wikiSlug": "Maragheh_observatory",
+      "type": "place"
+    },
+    {
+      "term": "Mamluk",
+      "matchText": "Mamluks",
+      "wikiSlug": "Mamluk",
+      "type": "concept"
+    },
+    {
+      "term": "Qutuz",
+      "matchText": "Qutuz",
+      "wikiSlug": "Qutuz",
+      "type": "people"
     }
   ],
   "6": [
@@ -584,6 +746,48 @@
       "term": "Marco Polo",
       "matchText": "Marco Polo",
       "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Golden Horde",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "concept"
+    },
+    {
+      "term": "Chagatai Khanate",
+      "matchText": "Chagatai Khanate",
+      "wikiSlug": "Chagatai_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Dadu",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Giovanni da Pian del Carpine",
+      "matchText": "John of Plano Carpini",
+      "wikiSlug": "Giovanni_da_Pian_del_Carpine",
+      "type": "people"
+    },
+    {
+      "term": "William of Rubruck",
+      "matchText": "William of Rubruck",
+      "wikiSlug": "William_of_Rubruck",
       "type": "people"
     }
   ],
@@ -695,6 +899,48 @@
       "matchText": "Tarim Basin",
       "wikiSlug": "Tarim_Basin",
       "type": "place"
+    },
+    {
+      "term": "Yuan dynasty",
+      "matchText": "Yuan dynasty",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Semu",
+      "matchText": "Semu",
+      "wikiSlug": "Semu",
+      "type": "concept"
+    },
+    {
+      "term": "Nasir al-Din al-Tusi",
+      "matchText": "Nasir al-Din al-Tusi",
+      "wikiSlug": "Nasir_al-Din_al-Tusi",
+      "type": "people"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluk Sultanate",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Republic of Venice",
+      "matchText": "Republic of Venice",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "concept"
+    },
+    {
+      "term": "Kamakura shogunate",
+      "matchText": "Kamakura shogunate",
+      "wikiSlug": "Kamakura_shogunate",
+      "type": "concept"
+    },
+    {
+      "term": "Goryeo",
+      "matchText": "Goryeo Korea",
+      "wikiSlug": "Goryeo",
+      "type": "concept"
     }
   ],
   "8": [
@@ -775,6 +1021,12 @@
       "matchText": "Crimea",
       "wikiSlug": "Crimea",
       "type": "place"
+    },
+    {
+      "term": "Hongwu Emperor",
+      "matchText": "Hongwu Emperor",
+      "wikiSlug": "Hongwu_Emperor",
+      "type": "people"
     }
   ],
   "9": [
@@ -872,6 +1124,18 @@
       "term": "Char-bagh (Persian garden)",
       "matchText": "char-bagh",
       "wikiSlug": "Chahar_Bagh",
+      "type": "concept"
+    },
+    {
+      "term": "Hundred Years' War",
+      "matchText": "Hundred Years' War",
+      "wikiSlug": "Hundred_Years%27_War",
+      "type": "concept"
+    },
+    {
+      "term": "Khmer Empire",
+      "matchText": "Khmer Empire",
+      "wikiSlug": "Khmer_Empire",
       "type": "concept"
     }
   ]

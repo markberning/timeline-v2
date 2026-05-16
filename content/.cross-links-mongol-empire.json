@@ -29,6 +29,30 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "In 1162, the year of Temüjin's birth, the successor states of the Western Roman Empire were emerging from the early medieval period into what historians call the Twelfth-century Renaissance — Gothic cathedrals going up, universities forming in Bologna and Paris, Aristotle's works being retranslated from Arabic. The Mongol invasions of Poland and Hungary in 1241 briefly threatened to put all of that under steppe domination. They were stopped by Ögedei's death, not by any European military force."
+    },
+    {
+      "matchText": "Twelfth-century Renaissance",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Temüjin was born (1162) just as western Europe was in its Twelfth-century Renaissance — cathedral schools, recovered Aristotle, the first universities. Two civilizations climbing at once, neither aware the other existed."
+    },
+    {
+      "matchText": "Komnenian dynasty",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 8,
+      "blurb": "The Komnenian emperors had revived Byzantium to a last bright peak in the same generation — the empire the Mongols' westward shockwave would help fatally destabilize."
+    },
+    {
+      "matchText": "Southern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "Southern Song China was running a brilliant economic and technological golden age behind its Huai River line — the richest target on earth, which the Mongols would spend 45 years conquering."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 2,
+      "blurb": "In the Andes the Chimú were raising their vast adobe capital at Chan Chan — an empire as unaware of the steppe as the steppe was of it."
     }
   ],
   "2": [
@@ -203,6 +227,12 @@
       "targetTl": "kievan-rus",
       "targetChapter": 12,
       "blurb": "Told from the Rus' side, the Yoke was less a uniform occupation than a fork in the road. The Kievan Rus' narrative makes Alexander Nevsky's strategic choice — submit to the Mongols rather than resist them and risk Catholic conquest from the West — the pivot of the whole story, and traces the three divergent successor trajectories the Horde's indirect rule produced: Moscow and Russia, Galicia-Volhynia and Ukraine, Lithuania and Belarus. The yarlik patent that confirmed princes in Sarai is where modern Russia's political DNA begins."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "A diminished Palaiologan Byzantium was one node in the Mongol-era trade web — Constantinople now a commercial hinge between the Golden Horde, Venice, and the Ilkhanate rather than a great power."
     }
   ],
   "8": [
@@ -261,6 +291,18 @@
       "targetTl": "ming-dynasty",
       "targetChapter": 1,
       "blurb": "The Ming dynasty that succeeded the Yuan in 1368 — and that this paragraph treats as the demographic-political beneficiary of Mongol-period upheaval — gets its own TL. The Ming Dynasty TL covers Hongwu's anti-Mongol founding rhetoric, the institutional carry-over from the Yuan despite that rhetoric, and the long arc of bureaucratic restoration that defined Chinese governance for the next 276 years."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "The Mongol-era Eurasian exchange ran parallel to Mali's golden age in West Africa — Mansa Musa's gold and the Silk Road's silver were two halves of a fourteenth-century world economy that never quite touched."
+    },
+    {
+      "matchText": "Aztec consolidation",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "As the Mongol order frayed, the Aztecs were consolidating central Mexico — a new empire rising in the Americas exactly as the largest Old World empire dissolved."
     }
   ]
 }

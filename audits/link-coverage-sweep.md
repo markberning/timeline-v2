@@ -33,7 +33,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | celtic-cultures | 8 | **DONE** | 23619c7 |
 | scythians | 8 | **DONE** (cross-civ focus) | 1bbd2e3 |
 | xiongnu-huns | 8 | **DONE** (cross-civ focus) | 1aebfc0 |
-| gokturk-khaganate | 8 | **DONE** (cross-civ focus) | +this |
+| gokturk-khaganate | 8 | **DONE** (cross-civ focus) | 556d57c |
+| mongol-empire | 9 | **DONE** (cross + ~44 glossary) | +this |
 | _next: roadmap chain order (excl. 6 US-history civs)_ | | pending | |
 
 > Benign-warning note: when a pre-existing cross-link has a longer matchText
@@ -56,3 +57,7 @@ ASCII proper nouns were the focus (cross-link coverage roughly doubled per ch).
   reference-data slug-repair pass later.
 
 _(table filled as the sweep proceeds; one row per civ)_
+
+> mongol-empire has many PRE-EXISTING malformed cross-link matchTexts
+> (full-sentence fragments that never match) — flagged for a future
+> cross-link-repair pass; not my regressions, left as-is.
