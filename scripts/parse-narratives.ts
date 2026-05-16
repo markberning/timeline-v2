@@ -192,6 +192,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'scientific-revolution.md': 'scientific-revolution',
   'enlightenment.md': 'enlightenment',
   'industrial-revolution.md': 'industrial-revolution',
+  'al-andalus.md': 'al-andalus',
 }
 
 function slugify(title: string): string {

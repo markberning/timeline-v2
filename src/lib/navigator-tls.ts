@@ -118,7 +118,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'early-medieval-europe', label: 'Early Medieval Europe', subtitle: 'fall of Rome to Charlemagne, then the Viking-Magyar-Saracen shock', region: 'europe', startYear: 476, endYear: 1000, hasContent: true },
   { id: 'high-medieval-europe', label: 'High Medieval Europe', subtitle: 'urban revival, Crusades, cathedrals, universities', region: 'europe', startYear: 1000, endYear: 1300, hasContent: true },
   { id: 'late-medieval-europe', label: 'Late Medieval Europe', subtitle: 'Black Death, Hundred Years War, end of an era', region: 'europe', startYear: 1300, endYear: 1500, hasContent: true },
-  { id: 'al-andalus', label: 'Al-Andalus', subtitle: "Islamic Spain's seven-century flowering", region: 'europe', startYear: 711, endYear: 1492 },
+  { id: 'al-andalus', label: 'Al-Andalus', subtitle: "Islamic Spain's seven-century flowering", region: 'europe', startYear: 711, endYear: 1492, hasContent: true },
   { id: 'viking-age', label: 'Viking Age', subtitle: "Scandinavia's raiders, traders, and settlers", region: 'europe', startYear: 793, endYear: 1066, hasContent: true },
   { id: 'kievan-rus', label: "Kievan Rus'", subtitle: "east Slavic river kingdoms before Russia", region: 'europe', startYear: 882, endYear: 1240 },
   { id: 'renaissance-italy', label: 'Renaissance Italy', subtitle: 'the city-state art revival', region: 'europe', startYear: 1300, endYear: 1600, hasContent: true },

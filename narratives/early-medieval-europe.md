@@ -43,7 +43,7 @@ The Germanic peoples who took over the West were not a single group. They were a
 
 A short roster, because the names matter:
 
-The **Visigoths** (VIH-zee-goths, "Western Goths") had crossed the Danube into Roman territory as refugees in 376, defeated the eastern emperor Valens at Adrianople in 378, sacked Rome in 410, and eventually settled in southern Gaul and Spain, where they founded a Visigothic kingdom that lasted until the Arab conquest of 711.
+The **Visigoths** (VIH-zee-goths, "Western Goths") had crossed the Danube into Roman territory as refugees in 376, defeated the eastern emperor Valens at Adrianople in 378, sacked Rome in 410, and eventually settled in southern Gaul and Spain, where they founded a Visigothic kingdom that lasted until the Arab conquest of 711 (the conquest, and the eight-century Islamic civilization that followed it, is its own narrative, al-Andalus).
 
 The **Ostrogoths** (OS-troh-goths, "Eastern Goths") followed somewhat later and ended up in Italy, where their king Theodoric ruled from 493 to 526.
 
