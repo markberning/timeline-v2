@@ -1,196 +1,1134 @@
 {
   "1": [
-    {"term": "Magadha", "matchText": "Magadha", "wikiSlug": "Magadha", "type": "place"},
-    {"term": "Shungas", "matchText": "Shungas", "wikiSlug": "Shunga_Empire", "type": "concept"},
-    {"term": "Satavahanas", "matchText": "Satavahanas", "wikiSlug": "Satavahana_dynasty", "type": "concept"},
-    {"term": "Indo-Greeks", "matchText": "Indo-Greeks", "wikiSlug": "Indo-Greek_Kingdom", "type": "concept"},
-    {"term": "Sakas", "matchText": "Sakas", "wikiSlug": "Indo-Scythians", "type": "concept"},
-    {"term": "Kushans", "matchText": "Kushans", "wikiSlug": "Kushan_Empire", "type": "concept"},
-    {"term": "Kanishka", "matchText": "Kanishka", "wikiSlug": "Kanishka", "type": "people"},
-    {"term": "Mahayana", "matchText": "Mahayana", "wikiSlug": "Mahayana", "type": "concept"},
-    {"term": "bodhisattva", "matchText": "bodhisattvas", "wikiSlug": "Bodhisattva", "type": "concept"},
-    {"term": "Gandharan school", "matchText": "Gandharan school", "wikiSlug": "Greco-Buddhist_art", "type": "concept"},
-    {"term": "Sasanian Empire", "matchText": "Sasanian Empire", "wikiSlug": "Sasanian_Empire", "type": "concept"},
-    {"term": "Western Kshatrapas", "matchText": "Western Kshatrapas", "wikiSlug": "Western_Satraps", "type": "concept"},
-    {"term": "Vakatakas", "matchText": "Vakatakas", "wikiSlug": "Vakataka_dynasty", "type": "concept"},
-    {"term": "Lichchhavi", "matchText": "Lichchhavi", "wikiSlug": "Licchavi_republic", "type": "concept"},
-    {"term": "gana-sangha", "matchText": "gana-sangha", "wikiSlug": "Gana_sangha", "type": "concept"},
-    {"term": "Vaishali", "matchText": "Vaishali", "wikiSlug": "Vaishali_(ancient_city)", "type": "place"},
-    {"term": "Gupta era", "matchText": "Gupta era", "wikiSlug": "Gupta_Era", "type": "concept"},
-    {"term": "Pataliputra", "matchText": "Pataliputra", "wikiSlug": "Pataliputra", "type": "place"},
-    {"term": "Bihar", "matchText": "Bihar", "wikiSlug": "Bihar", "type": "place"},
-    {"term": "Yuezhi", "matchText": "Yuezhi", "wikiSlug": "Yuezhi", "type": "concept"},
-    {"term": "Fourth Buddhist Council", "matchText": "Fourth Buddhist Council", "wikiSlug": "Fourth_Buddhist_council", "type": "concept"},
-    {"term": "Gandhara", "matchText": "Gandhara", "wikiSlug": "Gandhara", "type": "place"},
-    {"term": "Ujjain", "matchText": "Ujjain", "wikiSlug": "Ujjain", "type": "place"},
-    {"term": "Saka era", "matchText": "Saka era", "wikiSlug": "Indian_national_calendar", "type": "concept"},
-    {"term": "Gujarat", "matchText": "Gujarat", "wikiSlug": "Gujarat", "type": "place"}
+    {
+      "term": "Magadha",
+      "matchText": "Magadha",
+      "wikiSlug": "Magadha",
+      "type": "place"
+    },
+    {
+      "term": "Shungas",
+      "matchText": "Shungas",
+      "wikiSlug": "Shunga_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Satavahanas",
+      "matchText": "Satavahanas",
+      "wikiSlug": "Satavahana_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Indo-Greeks",
+      "matchText": "Indo-Greeks",
+      "wikiSlug": "Indo-Greek_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Sakas",
+      "matchText": "Sakas",
+      "wikiSlug": "Indo-Scythians",
+      "type": "concept"
+    },
+    {
+      "term": "Kushans",
+      "matchText": "Kushans",
+      "wikiSlug": "Kushan_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Kanishka",
+      "matchText": "Kanishka",
+      "wikiSlug": "Kanishka",
+      "type": "people"
+    },
+    {
+      "term": "Mahayana",
+      "matchText": "Mahayana",
+      "wikiSlug": "Mahayana",
+      "type": "concept"
+    },
+    {
+      "term": "bodhisattva",
+      "matchText": "bodhisattvas",
+      "wikiSlug": "Bodhisattva",
+      "type": "concept"
+    },
+    {
+      "term": "Gandharan school",
+      "matchText": "Gandharan school",
+      "wikiSlug": "Greco-Buddhist_art",
+      "type": "concept"
+    },
+    {
+      "term": "Sasanian Empire",
+      "matchText": "Sasanian Empire",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Western Kshatrapas",
+      "matchText": "Western Kshatrapas",
+      "wikiSlug": "Western_Satraps",
+      "type": "concept"
+    },
+    {
+      "term": "Vakatakas",
+      "matchText": "Vakatakas",
+      "wikiSlug": "Vakataka_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Lichchhavi",
+      "matchText": "Lichchhavi",
+      "wikiSlug": "Licchavi_republic",
+      "type": "concept"
+    },
+    {
+      "term": "gana-sangha",
+      "matchText": "gana-sangha",
+      "wikiSlug": "Gana_sangha",
+      "type": "concept"
+    },
+    {
+      "term": "Vaishali",
+      "matchText": "Vaishali",
+      "wikiSlug": "Vaishali_(ancient_city)",
+      "type": "place"
+    },
+    {
+      "term": "Gupta era",
+      "matchText": "Gupta era",
+      "wikiSlug": "Gupta_Era",
+      "type": "concept"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Bihar",
+      "matchText": "Bihar",
+      "wikiSlug": "Bihar",
+      "type": "place"
+    },
+    {
+      "term": "Yuezhi",
+      "matchText": "Yuezhi",
+      "wikiSlug": "Yuezhi",
+      "type": "concept"
+    },
+    {
+      "term": "Fourth Buddhist Council",
+      "matchText": "Fourth Buddhist Council",
+      "wikiSlug": "Fourth_Buddhist_council",
+      "type": "concept"
+    },
+    {
+      "term": "Gandhara",
+      "matchText": "Gandhara",
+      "wikiSlug": "Gandhara",
+      "type": "place"
+    },
+    {
+      "term": "Ujjain",
+      "matchText": "Ujjain",
+      "wikiSlug": "Ujjain",
+      "type": "place"
+    },
+    {
+      "term": "Saka era",
+      "matchText": "Saka era",
+      "wikiSlug": "Indian_national_calendar",
+      "type": "concept"
+    },
+    {
+      "term": "Gujarat",
+      "matchText": "Gujarat",
+      "wikiSlug": "Gujarat",
+      "type": "place"
+    },
+    {
+      "term": "Kanva dynasty",
+      "matchText": "Kanvas",
+      "wikiSlug": "Kanva_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Indo-Parthian Kingdom",
+      "matchText": "Indo-Parthians",
+      "wikiSlug": "Indo-Parthian_Kingdom",
+      "type": "concept"
+    }
   ],
   "2": [
-    {"term": "Triveni Sangam", "matchText": "Triveni Sangam", "wikiSlug": "Triveni_Sangam,_Prayagraj", "type": "place"},
-    {"term": "Pillars of Ashoka", "matchText": "Pillars of Ashoka", "wikiSlug": "Pillars_of_Ashoka", "type": "concept"},
-    {"term": "Harishena", "matchText": "Harishena", "wikiSlug": "Harishena", "type": "people"},
-    {"term": "prasabhoddharana", "matchText": "prasabhoddharana", "wikiSlug": "Samudragupta", "type": "concept"},
-    {"term": "digvijaya", "matchText": "digvijaya", "wikiSlug": "Digvijaya", "type": "concept"},
-    {"term": "Dakshinapatha", "matchText": "Dakshinapatha", "wikiSlug": "Daksinapatha", "type": "concept"},
-    {"term": "graha-moksha-anugraha", "matchText": "graha-moksha-anugraha", "wikiSlug": "Samudragupta", "type": "concept"},
-    {"term": "dinara", "matchText": "dinara", "wikiSlug": "Coinage_of_the_Gupta_Empire", "type": "concept"},
-    {"term": "ashvamedha", "matchText": "ashvamedha", "wikiSlug": "Ashvamedha", "type": "concept"},
-    {"term": "vina", "matchText": "vina", "wikiSlug": "Veena", "type": "concept"},
-    {"term": "Tumburu", "matchText": "Tumburu", "wikiSlug": "Tumburu", "type": "people"},
-    {"term": "Allahabad Pillar", "matchText": "Allahabad Pillar", "wikiSlug": "Allahabad_Pillar", "type": "concept"},
-    {"term": "Ganges", "matchText": "Ganges", "wikiSlug": "Ganges", "type": "place"},
-    {"term": "Yamuna", "matchText": "Yamuna", "wikiSlug": "Yamuna", "type": "place"},
-    {"term": "Brahmaputra", "matchText": "Brahmaputra", "wikiSlug": "Brahmaputra_River", "type": "place"},
-    {"term": "Hindu Kush", "matchText": "Hindu Kush", "wikiSlug": "Hindu_Kush", "type": "place"},
-    {"term": "Sri Lanka", "matchText": "Sinhala", "wikiSlug": "Sri_Lanka", "type": "place"},
-    {"term": "Arthashastra", "matchText": "Arthashastra", "wikiSlug": "Arthashastra", "type": "concept"}
+    {
+      "term": "Triveni Sangam",
+      "matchText": "Triveni Sangam",
+      "wikiSlug": "Triveni_Sangam,_Prayagraj",
+      "type": "place"
+    },
+    {
+      "term": "Pillars of Ashoka",
+      "matchText": "Pillars of Ashoka",
+      "wikiSlug": "Pillars_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Harishena",
+      "matchText": "Harishena",
+      "wikiSlug": "Harishena",
+      "type": "people"
+    },
+    {
+      "term": "prasabhoddharana",
+      "matchText": "prasabhoddharana",
+      "wikiSlug": "Samudragupta",
+      "type": "concept"
+    },
+    {
+      "term": "digvijaya",
+      "matchText": "digvijaya",
+      "wikiSlug": "Digvijaya",
+      "type": "concept"
+    },
+    {
+      "term": "Dakshinapatha",
+      "matchText": "Dakshinapatha",
+      "wikiSlug": "Daksinapatha",
+      "type": "concept"
+    },
+    {
+      "term": "graha-moksha-anugraha",
+      "matchText": "graha-moksha-anugraha",
+      "wikiSlug": "Samudragupta",
+      "type": "concept"
+    },
+    {
+      "term": "dinara",
+      "matchText": "dinara",
+      "wikiSlug": "Coinage_of_the_Gupta_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "ashvamedha",
+      "matchText": "ashvamedha",
+      "wikiSlug": "Ashvamedha",
+      "type": "concept"
+    },
+    {
+      "term": "vina",
+      "matchText": "vina",
+      "wikiSlug": "Veena",
+      "type": "concept"
+    },
+    {
+      "term": "Tumburu",
+      "matchText": "Tumburu",
+      "wikiSlug": "Tumburu",
+      "type": "people"
+    },
+    {
+      "term": "Allahabad Pillar",
+      "matchText": "Allahabad Pillar",
+      "wikiSlug": "Allahabad_Pillar",
+      "type": "concept"
+    },
+    {
+      "term": "Ganges",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Yamuna",
+      "matchText": "Yamuna",
+      "wikiSlug": "Yamuna",
+      "type": "place"
+    },
+    {
+      "term": "Brahmaputra",
+      "matchText": "Brahmaputra",
+      "wikiSlug": "Brahmaputra_River",
+      "type": "place"
+    },
+    {
+      "term": "Hindu Kush",
+      "matchText": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush",
+      "type": "place"
+    },
+    {
+      "term": "Sri Lanka",
+      "matchText": "Sinhala",
+      "wikiSlug": "Sri_Lanka",
+      "type": "place"
+    },
+    {
+      "term": "Arthashastra",
+      "matchText": "Arthashastra",
+      "wikiSlug": "Arthashastra",
+      "type": "concept"
+    }
   ],
   "3": [
-    {"term": "Vikramaditya", "matchText": "Vikramaditya", "wikiSlug": "Chandragupta_II", "type": "concept"},
-    {"term": "Devichandraguptam", "matchText": "Devichandraguptam", "wikiSlug": "Devichandraguptam", "type": "concept"},
-    {"term": "Vishakhadatta", "matchText": "Vishakhadatta", "wikiSlug": "Vishakhadatta", "type": "people"},
-    {"term": "Rudrasimha III", "matchText": "Rudrasimha III", "wikiSlug": "Rudrasimha_III", "type": "people"},
-    {"term": "Bharuch", "matchText": "Bharuch", "wikiSlug": "Bharuch", "type": "place"},
-    {"term": "Arabian Sea", "matchText": "Arabian Sea", "wikiSlug": "Arabian_Sea", "type": "place"},
-    {"term": "Mahakala temple", "matchText": "Mahakala", "wikiSlug": "Mahakaleshwar_Jyotirlinga", "type": "place"},
-    {"term": "jyotirlinga", "matchText": "jyotirlingas", "wikiSlug": "Jyotirlinga", "type": "concept"},
-    {"term": "Navaratnas", "matchText": "Navaratnas", "wikiSlug": "Navaratnas", "type": "concept"},
-    {"term": "Prabhavatigupta", "matchText": "Prabhavatigupta", "wikiSlug": "Prabhavatigupta", "type": "people"},
-    {"term": "Rudrasena II", "matchText": "Rudrasena II", "wikiSlug": "Rudrasena_II", "type": "people"},
-    {"term": "Vakataka dynasty", "matchText": "Vakataka dynasty", "wikiSlug": "Vakataka_dynasty", "type": "concept"},
-    {"term": "Varaha", "matchText": "Varaha panel", "wikiSlug": "Udayagiri_Caves", "type": "concept"},
-    {"term": "phosphorus", "matchText": "high phosphorus content", "wikiSlug": "Iron_pillar_of_Delhi#Composition", "type": "concept"},
-    {"term": "Quwwat-ul-Islam mosque", "matchText": "Quwwat-ul-Islam mosque", "wikiSlug": "Quwwat-ul-Islam_mosque", "type": "place"},
-    {"term": "Qutb Minar complex", "matchText": "Qutb Minar complex", "wikiSlug": "Qutb_complex", "type": "place"},
-    {"term": "Malwa", "matchText": "Malwa", "wikiSlug": "Malwa", "type": "place"},
-    {"term": "Gujarat", "matchText": "Gujarat", "wikiSlug": "Gujarat", "type": "place"},
-    {"term": "Pataliputra", "matchText": "Pataliputra", "wikiSlug": "Pataliputra", "type": "place"},
-    {"term": "Konkan", "matchText": "Konkan", "wikiSlug": "Konkan", "type": "place"}
+    {
+      "term": "Vikramaditya",
+      "matchText": "Vikramaditya",
+      "wikiSlug": "Chandragupta_II",
+      "type": "concept"
+    },
+    {
+      "term": "Devichandraguptam",
+      "matchText": "Devichandraguptam",
+      "wikiSlug": "Devichandraguptam",
+      "type": "concept"
+    },
+    {
+      "term": "Vishakhadatta",
+      "matchText": "Vishakhadatta",
+      "wikiSlug": "Vishakhadatta",
+      "type": "people"
+    },
+    {
+      "term": "Rudrasimha III",
+      "matchText": "Rudrasimha III",
+      "wikiSlug": "Rudrasimha_III",
+      "type": "people"
+    },
+    {
+      "term": "Bharuch",
+      "matchText": "Bharuch",
+      "wikiSlug": "Bharuch",
+      "type": "place"
+    },
+    {
+      "term": "Arabian Sea",
+      "matchText": "Arabian Sea",
+      "wikiSlug": "Arabian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Mahakala temple",
+      "matchText": "Mahakala",
+      "wikiSlug": "Mahakaleshwar_Jyotirlinga",
+      "type": "place"
+    },
+    {
+      "term": "jyotirlinga",
+      "matchText": "jyotirlingas",
+      "wikiSlug": "Jyotirlinga",
+      "type": "concept"
+    },
+    {
+      "term": "Navaratnas",
+      "matchText": "Navaratnas",
+      "wikiSlug": "Navaratnas",
+      "type": "concept"
+    },
+    {
+      "term": "Prabhavatigupta",
+      "matchText": "Prabhavatigupta",
+      "wikiSlug": "Prabhavatigupta",
+      "type": "people"
+    },
+    {
+      "term": "Rudrasena II",
+      "matchText": "Rudrasena II",
+      "wikiSlug": "Rudrasena_II",
+      "type": "people"
+    },
+    {
+      "term": "Vakataka dynasty",
+      "matchText": "Vakataka dynasty",
+      "wikiSlug": "Vakataka_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Varaha",
+      "matchText": "Varaha panel",
+      "wikiSlug": "Udayagiri_Caves",
+      "type": "concept"
+    },
+    {
+      "term": "phosphorus",
+      "matchText": "high phosphorus content",
+      "wikiSlug": "Iron_pillar_of_Delhi#Composition",
+      "type": "concept"
+    },
+    {
+      "term": "Quwwat-ul-Islam mosque",
+      "matchText": "Quwwat-ul-Islam mosque",
+      "wikiSlug": "Quwwat-ul-Islam_mosque",
+      "type": "place"
+    },
+    {
+      "term": "Qutb Minar complex",
+      "matchText": "Qutb Minar complex",
+      "wikiSlug": "Qutb_complex",
+      "type": "place"
+    },
+    {
+      "term": "Malwa",
+      "matchText": "Malwa",
+      "wikiSlug": "Malwa",
+      "type": "place"
+    },
+    {
+      "term": "Gujarat",
+      "matchText": "Gujarat",
+      "wikiSlug": "Gujarat",
+      "type": "place"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Konkan",
+      "matchText": "Konkan",
+      "wikiSlug": "Konkan",
+      "type": "place"
+    }
   ],
   "4": [
-    {"term": "Prakrit", "matchText": "Prakrit", "wikiSlug": "Prakrit", "type": "concept"},
-    {"term": "Pali", "matchText": "Pali", "wikiSlug": "Pali", "type": "concept"},
-    {"term": "Panini", "matchText": "Panini", "wikiSlug": "Pāṇini", "type": "people"},
-    {"term": "Sanskrit", "matchText": "Sanskrit", "wikiSlug": "Sanskrit", "type": "concept"},
-    {"term": "mahakavya", "matchText": "mahakavya", "wikiSlug": "Mahakavya", "type": "concept"},
-    {"term": "khandakavya", "matchText": "khandakavya", "wikiSlug": "Khandakavya", "type": "concept"},
-    {"term": "Shakuntala", "matchText": "Shakuntala", "wikiSlug": "Abhijñānaśākuntalam", "type": "concept"},
-    {"term": "gandharva rite", "matchText": "gandharva", "wikiSlug": "Gandharva_marriage", "type": "concept"},
-    {"term": "Bharata", "matchText": "Bharata", "wikiSlug": "Bharata_(Ramayana)", "type": "people"},
-    {"term": "William Jones", "matchText": "William Jones", "wikiSlug": "William_Jones_(philologist)", "type": "people"},
-    {"term": "Asiatic Society of Bengal", "matchText": "Asiatic Society of Bengal", "wikiSlug": "Asiatic_Society", "type": "concept"},
-    {"term": "Goethe", "matchText": "Goethe", "wikiSlug": "Johann_Wolfgang_von_Goethe", "type": "people"},
-    {"term": "nagaraka", "matchText": "nagaraka", "wikiSlug": "Kama_Sutra", "type": "concept"},
-    {"term": "kama", "matchText": "kama", "wikiSlug": "Kama", "type": "concept"},
-    {"term": "dharma", "matchText": "dharma", "wikiSlug": "Dharma", "type": "concept"},
-    {"term": "artha", "matchText": "artha", "wikiSlug": "Artha", "type": "concept"},
-    {"term": "moksha", "matchText": "moksha", "wikiSlug": "Moksha", "type": "concept"},
-    {"term": "Kalila wa-Dimna", "matchText": "Kalila wa-Dimna", "wikiSlug": "Kalila_wa-Dimna", "type": "concept"},
-    {"term": "rasa", "matchText": "rasa", "wikiSlug": "Rasa_(aesthetics)", "type": "concept"},
-    {"term": "Wilhelm von Humboldt", "matchText": "Wilhelm von Humboldt", "wikiSlug": "Wilhelm_von_Humboldt", "type": "people"},
-    {"term": "Sapir-Whorf hypothesis", "matchText": "Sapir-Whorf hypothesis", "wikiSlug": "Linguistic_relativity", "type": "concept"},
-    {"term": "Mahabharata", "matchText": "Mahabharata", "wikiSlug": "Mahabharata", "type": "concept"},
-    {"term": "Solar Dynasty", "matchText": "Solar Dynasty", "wikiSlug": "Ikshvaku_dynasty", "type": "concept"},
-    {"term": "Ramayana", "matchText": "Ramayana", "wikiSlug": "Ramayana", "type": "concept"},
-    {"term": "Kartikeya", "matchText": "Kartikeya", "wikiSlug": "Kartikeya", "type": "people"}
+    {
+      "term": "Prakrit",
+      "matchText": "Prakrit",
+      "wikiSlug": "Prakrit",
+      "type": "concept"
+    },
+    {
+      "term": "Pali",
+      "matchText": "Pali",
+      "wikiSlug": "Pali",
+      "type": "concept"
+    },
+    {
+      "term": "Panini",
+      "matchText": "Panini",
+      "wikiSlug": "Pāṇini",
+      "type": "people"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "mahakavya",
+      "matchText": "mahakavya",
+      "wikiSlug": "Mahakavya",
+      "type": "concept"
+    },
+    {
+      "term": "khandakavya",
+      "matchText": "khandakavya",
+      "wikiSlug": "Khandakavya",
+      "type": "concept"
+    },
+    {
+      "term": "Shakuntala",
+      "matchText": "Shakuntala",
+      "wikiSlug": "Abhijñānaśākuntalam",
+      "type": "concept"
+    },
+    {
+      "term": "gandharva rite",
+      "matchText": "gandharva",
+      "wikiSlug": "Gandharva_marriage",
+      "type": "concept"
+    },
+    {
+      "term": "Bharata",
+      "matchText": "Bharata",
+      "wikiSlug": "Bharata_(Ramayana)",
+      "type": "people"
+    },
+    {
+      "term": "William Jones",
+      "matchText": "William Jones",
+      "wikiSlug": "William_Jones_(philologist)",
+      "type": "people"
+    },
+    {
+      "term": "Asiatic Society of Bengal",
+      "matchText": "Asiatic Society of Bengal",
+      "wikiSlug": "Asiatic_Society",
+      "type": "concept"
+    },
+    {
+      "term": "Goethe",
+      "matchText": "Goethe",
+      "wikiSlug": "Johann_Wolfgang_von_Goethe",
+      "type": "people"
+    },
+    {
+      "term": "nagaraka",
+      "matchText": "nagaraka",
+      "wikiSlug": "Kama_Sutra",
+      "type": "concept"
+    },
+    {
+      "term": "kama",
+      "matchText": "kama",
+      "wikiSlug": "Kama",
+      "type": "concept"
+    },
+    {
+      "term": "dharma",
+      "matchText": "dharma",
+      "wikiSlug": "Dharma",
+      "type": "concept"
+    },
+    {
+      "term": "artha",
+      "matchText": "artha",
+      "wikiSlug": "Artha",
+      "type": "concept"
+    },
+    {
+      "term": "moksha",
+      "matchText": "moksha",
+      "wikiSlug": "Moksha",
+      "type": "concept"
+    },
+    {
+      "term": "Kalila wa-Dimna",
+      "matchText": "Kalila wa-Dimna",
+      "wikiSlug": "Kalila_wa-Dimna",
+      "type": "concept"
+    },
+    {
+      "term": "rasa",
+      "matchText": "rasa",
+      "wikiSlug": "Rasa_(aesthetics)",
+      "type": "concept"
+    },
+    {
+      "term": "Wilhelm von Humboldt",
+      "matchText": "Wilhelm von Humboldt",
+      "wikiSlug": "Wilhelm_von_Humboldt",
+      "type": "people"
+    },
+    {
+      "term": "Sapir-Whorf hypothesis",
+      "matchText": "Sapir-Whorf hypothesis",
+      "wikiSlug": "Linguistic_relativity",
+      "type": "concept"
+    },
+    {
+      "term": "Mahabharata",
+      "matchText": "Mahabharata",
+      "wikiSlug": "Mahabharata",
+      "type": "concept"
+    },
+    {
+      "term": "Solar Dynasty",
+      "matchText": "Solar Dynasty",
+      "wikiSlug": "Ikshvaku_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ramayana",
+      "matchText": "Ramayana",
+      "wikiSlug": "Ramayana",
+      "type": "concept"
+    },
+    {
+      "term": "Kartikeya",
+      "matchText": "Kartikeya",
+      "wikiSlug": "Kartikeya",
+      "type": "people"
+    },
+    {
+      "term": "Vatsyayana",
+      "matchText": "Vatsyayana",
+      "wikiSlug": "Vatsyayana",
+      "type": "people"
+    },
+    {
+      "term": "Vishnu Sharma",
+      "matchText": "Vishnu Sharma",
+      "wikiSlug": "Vishnu_Sharma",
+      "type": "people"
+    },
+    {
+      "term": "Bhartrihari",
+      "matchText": "Bhartrihari",
+      "wikiSlug": "Bhartrihari",
+      "type": "people"
+    }
   ],
   "5": [
-    {"term": "Hindu-Arabic numeral system", "matchText": "Hindu-Arabic numeral system", "wikiSlug": "Hindu%E2%80%93Arabic_numeral_system", "type": "concept"},
-    {"term": "Brahmi numerals", "matchText": "Brahmi numerals", "wikiSlug": "Brahmi_numerals", "type": "concept"},
-    {"term": "Brahmagupta", "matchText": "Brahmagupta", "wikiSlug": "Brahmagupta", "type": "people"},
-    {"term": "Brahmasphutasiddhanta", "matchText": "Brahmasphutasiddhanta", "wikiSlug": "Brahmasphutasiddhanta", "type": "concept"},
-    {"term": "Kusumapura", "matchText": "Kusumapura", "wikiSlug": "Kusumapura", "type": "place"},
-    {"term": "sidereal year", "matchText": "sidereal year", "wikiSlug": "Sidereal_year", "type": "concept"},
-    {"term": "Rahu", "matchText": "Rahu", "wikiSlug": "Rahu", "type": "concept"},
-    {"term": "Copernicus", "matchText": "Copernicus", "wikiSlug": "Nicolaus_Copernicus", "type": "people"},
-    {"term": "jya", "matchText": "jya", "wikiSlug": "Jya,_koti-jya_and_utkrama-jya", "type": "concept"},
-    {"term": "Archimedes", "matchText": "Archimedes", "wikiSlug": "Archimedes", "type": "people"},
-    {"term": "Vedic astronomy", "matchText": "Vedic astronomy", "wikiSlug": "Indian_astronomy", "type": "concept"},
-    {"term": "Jyotisha", "matchText": "Jyotisha", "wikiSlug": "Jyotisha", "type": "concept"},
-    {"term": "Vedangas", "matchText": "Vedangas", "wikiSlug": "Vedanga", "type": "concept"},
-    {"term": "Gundishapur", "matchText": "Gundishapur", "wikiSlug": "Academy_of_Gondishapur", "type": "place"},
-    {"term": "Pahlavi", "matchText": "Pahlavi", "wikiSlug": "Middle_Persian", "type": "concept"},
-    {"term": "tridosha", "matchText": "tridosha", "wikiSlug": "Dosha", "type": "concept"},
-    {"term": "Ayurveda", "matchText": "Ayurveda", "wikiSlug": "Ayurveda", "type": "concept"},
-    {"term": "wootz steel", "matchText": "wootz steel", "wikiSlug": "Wootz_steel", "type": "concept"},
-    {"term": "Damascus blades", "matchText": "Damascus blades", "wikiSlug": "Damascus_steel", "type": "concept"},
-    {"term": "Joseph Constantine Carpue", "matchText": "Joseph Constantine Carpue", "wikiSlug": "Joseph_Carpue", "type": "people"}
+    {
+      "term": "Hindu-Arabic numeral system",
+      "matchText": "Hindu-Arabic numeral system",
+      "wikiSlug": "Hindu%E2%80%93Arabic_numeral_system",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmi numerals",
+      "matchText": "Brahmi numerals",
+      "wikiSlug": "Brahmi_numerals",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmagupta",
+      "matchText": "Brahmagupta",
+      "wikiSlug": "Brahmagupta",
+      "type": "people"
+    },
+    {
+      "term": "Brahmasphutasiddhanta",
+      "matchText": "Brahmasphutasiddhanta",
+      "wikiSlug": "Brahmasphutasiddhanta",
+      "type": "concept"
+    },
+    {
+      "term": "Kusumapura",
+      "matchText": "Kusumapura",
+      "wikiSlug": "Kusumapura",
+      "type": "place"
+    },
+    {
+      "term": "sidereal year",
+      "matchText": "sidereal year",
+      "wikiSlug": "Sidereal_year",
+      "type": "concept"
+    },
+    {
+      "term": "Rahu",
+      "matchText": "Rahu",
+      "wikiSlug": "Rahu",
+      "type": "concept"
+    },
+    {
+      "term": "Copernicus",
+      "matchText": "Copernicus",
+      "wikiSlug": "Nicolaus_Copernicus",
+      "type": "people"
+    },
+    {
+      "term": "jya",
+      "matchText": "jya",
+      "wikiSlug": "Jya,_koti-jya_and_utkrama-jya",
+      "type": "concept"
+    },
+    {
+      "term": "Archimedes",
+      "matchText": "Archimedes",
+      "wikiSlug": "Archimedes",
+      "type": "people"
+    },
+    {
+      "term": "Vedic astronomy",
+      "matchText": "Vedic astronomy",
+      "wikiSlug": "Indian_astronomy",
+      "type": "concept"
+    },
+    {
+      "term": "Jyotisha",
+      "matchText": "Jyotisha",
+      "wikiSlug": "Jyotisha",
+      "type": "concept"
+    },
+    {
+      "term": "Vedangas",
+      "matchText": "Vedangas",
+      "wikiSlug": "Vedanga",
+      "type": "concept"
+    },
+    {
+      "term": "Gundishapur",
+      "matchText": "Gundishapur",
+      "wikiSlug": "Academy_of_Gondishapur",
+      "type": "place"
+    },
+    {
+      "term": "Pahlavi",
+      "matchText": "Pahlavi",
+      "wikiSlug": "Middle_Persian",
+      "type": "concept"
+    },
+    {
+      "term": "tridosha",
+      "matchText": "tridosha",
+      "wikiSlug": "Dosha",
+      "type": "concept"
+    },
+    {
+      "term": "Ayurveda",
+      "matchText": "Ayurveda",
+      "wikiSlug": "Ayurveda",
+      "type": "concept"
+    },
+    {
+      "term": "wootz steel",
+      "matchText": "wootz steel",
+      "wikiSlug": "Wootz_steel",
+      "type": "concept"
+    },
+    {
+      "term": "Damascus blades",
+      "matchText": "Damascus blades",
+      "wikiSlug": "Damascus_steel",
+      "type": "concept"
+    },
+    {
+      "term": "Joseph Constantine Carpue",
+      "matchText": "Joseph Constantine Carpue",
+      "wikiSlug": "Joseph_Carpue",
+      "type": "people"
+    }
   ],
   "6": [
-    {"term": "stupa", "matchText": "stupas", "wikiSlug": "Stupa", "type": "concept"},
-    {"term": "chaitya", "matchText": "chaityas", "wikiSlug": "Chaitya", "type": "concept"},
-    {"term": "shikhara", "matchText": "shikhara", "wikiSlug": "Shikhara", "type": "concept"},
-    {"term": "Mount Meru", "matchText": "Mount Meru", "wikiSlug": "Mount_Meru", "type": "concept"},
-    {"term": "garbha-griha", "matchText": "garbha-griha", "wikiSlug": "Garbhagriha", "type": "concept"},
-    {"term": "Nagara style", "matchText": "Nagara", "wikiSlug": "Nagara_architecture", "type": "concept"},
-    {"term": "Dravida style", "matchText": "Dravida", "wikiSlug": "Dravidian_architecture", "type": "concept"},
-    {"term": "Varaha", "matchText": "Varaha", "wikiSlug": "Varaha", "type": "concept"},
-    {"term": "Dashavatara", "matchText": "ten avatars of Vishnu", "wikiSlug": "Dashavatara", "type": "concept"},
-    {"term": "Devi Mahatmya", "matchText": "Devi Mahatmya", "wikiSlug": "Devi_Mahatmya", "type": "concept"},
-    {"term": "Durga", "matchText": "Durga", "wikiSlug": "Durga", "type": "concept"},
-    {"term": "Mahishasura", "matchText": "Mahishasura", "wikiSlug": "Mahishasura", "type": "concept"},
-    {"term": "Yogacara", "matchText": "Yogacara", "wikiSlug": "Yogachara", "type": "concept"},
-    {"term": "Vijnanavada", "matchText": "Vijnanavada", "wikiSlug": "Yogachara", "type": "concept"},
-    {"term": "pramana", "matchText": "pramana", "wikiSlug": "Pramana", "type": "concept"},
-    {"term": "Nalanda", "matchText": "Nalanda", "wikiSlug": "Nalanda", "type": "place"},
-    {"term": "Vaishnavism", "matchText": "Vaishnavism", "wikiSlug": "Vaishnavism", "type": "concept"},
-    {"term": "Shaivism", "matchText": "Shaivism", "wikiSlug": "Shaivism", "type": "concept"},
-    {"term": "Shaktism", "matchText": "Shaktism", "wikiSlug": "Shaktism", "type": "concept"},
-    {"term": "lingam", "matchText": "lingams", "wikiSlug": "Lingam", "type": "concept"},
-    {"term": "Bhakti tradition", "matchText": "Bhakti", "wikiSlug": "Bhakti_movement", "type": "concept"},
-    {"term": "Jataka tales", "matchText": "Jataka tales", "wikiSlug": "Jataka_tales", "type": "concept"},
-    {"term": "Foguoji", "matchText": "Foguoji", "wikiSlug": "Faxian#Record_of_Buddhist_Kingdoms", "type": "concept"},
-    {"term": "White Horse Temple", "matchText": "White Horse Temple", "wikiSlug": "White_Horse_Temple", "type": "place"},
-    {"term": "Luoyang", "matchText": "Luoyang", "wikiSlug": "Luoyang", "type": "place"},
-    {"term": "Taklamakan Desert", "matchText": "Taklamakan Desert", "wikiSlug": "Taklamakan_Desert", "type": "place"},
-    {"term": "Bodh Gaya", "matchText": "Bodh Gaya", "wikiSlug": "Bodh_Gaya", "type": "place"},
-    {"term": "Parama Bhagavata", "matchText": "Parama Bhagavata", "wikiSlug": "Bhagavatism", "type": "concept"}
+    {
+      "term": "stupa",
+      "matchText": "stupas",
+      "wikiSlug": "Stupa",
+      "type": "concept"
+    },
+    {
+      "term": "chaitya",
+      "matchText": "chaityas",
+      "wikiSlug": "Chaitya",
+      "type": "concept"
+    },
+    {
+      "term": "shikhara",
+      "matchText": "shikhara",
+      "wikiSlug": "Shikhara",
+      "type": "concept"
+    },
+    {
+      "term": "Mount Meru",
+      "matchText": "Mount Meru",
+      "wikiSlug": "Mount_Meru",
+      "type": "concept"
+    },
+    {
+      "term": "garbha-griha",
+      "matchText": "garbha-griha",
+      "wikiSlug": "Garbhagriha",
+      "type": "concept"
+    },
+    {
+      "term": "Nagara style",
+      "matchText": "Nagara",
+      "wikiSlug": "Nagara_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Dravida style",
+      "matchText": "Dravida",
+      "wikiSlug": "Dravidian_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Varaha",
+      "matchText": "Varaha",
+      "wikiSlug": "Varaha",
+      "type": "concept"
+    },
+    {
+      "term": "Dashavatara",
+      "matchText": "ten avatars of Vishnu",
+      "wikiSlug": "Dashavatara",
+      "type": "concept"
+    },
+    {
+      "term": "Devi Mahatmya",
+      "matchText": "Devi Mahatmya",
+      "wikiSlug": "Devi_Mahatmya",
+      "type": "concept"
+    },
+    {
+      "term": "Durga",
+      "matchText": "Durga",
+      "wikiSlug": "Durga",
+      "type": "concept"
+    },
+    {
+      "term": "Mahishasura",
+      "matchText": "Mahishasura",
+      "wikiSlug": "Mahishasura",
+      "type": "concept"
+    },
+    {
+      "term": "Yogacara",
+      "matchText": "Yogacara",
+      "wikiSlug": "Yogachara",
+      "type": "concept"
+    },
+    {
+      "term": "Vijnanavada",
+      "matchText": "Vijnanavada",
+      "wikiSlug": "Yogachara",
+      "type": "concept"
+    },
+    {
+      "term": "pramana",
+      "matchText": "pramana",
+      "wikiSlug": "Pramana",
+      "type": "concept"
+    },
+    {
+      "term": "Nalanda",
+      "matchText": "Nalanda",
+      "wikiSlug": "Nalanda",
+      "type": "place"
+    },
+    {
+      "term": "Vaishnavism",
+      "matchText": "Vaishnavism",
+      "wikiSlug": "Vaishnavism",
+      "type": "concept"
+    },
+    {
+      "term": "Shaivism",
+      "matchText": "Shaivism",
+      "wikiSlug": "Shaivism",
+      "type": "concept"
+    },
+    {
+      "term": "Shaktism",
+      "matchText": "Shaktism",
+      "wikiSlug": "Shaktism",
+      "type": "concept"
+    },
+    {
+      "term": "lingam",
+      "matchText": "lingams",
+      "wikiSlug": "Lingam",
+      "type": "concept"
+    },
+    {
+      "term": "Bhakti tradition",
+      "matchText": "Bhakti",
+      "wikiSlug": "Bhakti_movement",
+      "type": "concept"
+    },
+    {
+      "term": "Jataka tales",
+      "matchText": "Jataka tales",
+      "wikiSlug": "Jataka_tales",
+      "type": "concept"
+    },
+    {
+      "term": "Foguoji",
+      "matchText": "Foguoji",
+      "wikiSlug": "Faxian#Record_of_Buddhist_Kingdoms",
+      "type": "concept"
+    },
+    {
+      "term": "White Horse Temple",
+      "matchText": "White Horse Temple",
+      "wikiSlug": "White_Horse_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Luoyang",
+      "matchText": "Luoyang",
+      "wikiSlug": "Luoyang",
+      "type": "place"
+    },
+    {
+      "term": "Taklamakan Desert",
+      "matchText": "Taklamakan Desert",
+      "wikiSlug": "Taklamakan_Desert",
+      "type": "place"
+    },
+    {
+      "term": "Bodh Gaya",
+      "matchText": "Bodh Gaya",
+      "wikiSlug": "Bodh_Gaya",
+      "type": "place"
+    },
+    {
+      "term": "Parama Bhagavata",
+      "matchText": "Parama Bhagavata",
+      "wikiSlug": "Bhagavatism",
+      "type": "concept"
+    },
+    {
+      "term": "Bagh Caves",
+      "matchText": "Bagh caves",
+      "wikiSlug": "Bagh_Caves",
+      "type": "place"
+    }
   ],
   "7": [
-    {"term": "Hephthalites", "matchText": "Hephthalites", "wikiSlug": "Hephthalite_Empire", "type": "concept"},
-    {"term": "Huna", "matchText": "Huna", "wikiSlug": "Huna_people", "type": "concept"},
-    {"term": "Attila", "matchText": "Attila", "wikiSlug": "Attila", "type": "people"},
-    {"term": "Bhitari pillar inscription", "matchText": "Bhitari pillar inscription", "wikiSlug": "Bhitari_pillar_inscription", "type": "concept"},
-    {"term": "Sudarshana Lake", "matchText": "Sudarshana Lake", "wikiSlug": "Sudarshana_Lake", "type": "place"},
-    {"term": "Junagadh inscription", "matchText": "Junagadh inscription", "wikiSlug": "Junagadh_rock_inscription_of_Rudradaman", "type": "concept"},
-    {"term": "Mandasor", "matchText": "Mandasor", "wikiSlug": "Mandsaur", "type": "place"},
-    {"term": "Aulikara dynasty", "matchText": "Aulikara dynasty", "wikiSlug": "Aulikara", "type": "concept"},
-    {"term": "Maitrakas", "matchText": "Maitrakas", "wikiSlug": "Maitraka_dynasty", "type": "concept"},
-    {"term": "Maukharis", "matchText": "Maukharis", "wikiSlug": "Maukhari_dynasty", "type": "concept"},
-    {"term": "Bahram V", "matchText": "Bahram V", "wikiSlug": "Bahram_V", "type": "people"},
-    {"term": "Yazdegerd II", "matchText": "Yazdegerd II", "wikiSlug": "Yazdegerd_II", "type": "people"},
-    {"term": "Xuanzang", "matchText": "Xuanzang", "wikiSlug": "Xuanzang", "type": "people"},
-    {"term": "Rajatarangini", "matchText": "Rajatarangini", "wikiSlug": "Rajatarangini", "type": "concept"},
-    {"term": "Kalhana", "matchText": "Kalhana", "wikiSlug": "Kalhana", "type": "people"},
-    {"term": "Cosmas Indicopleustes", "matchText": "Cosmas Indicopleustes", "wikiSlug": "Cosmas_Indicopleustes", "type": "people"},
-    {"term": "Eran", "matchText": "Eran inscription", "wikiSlug": "Eran", "type": "place"},
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "Pushyamitras", "matchText": "Pushyamitras", "wikiSlug": "Pushyamitra_Shunga", "type": "concept"}
+    {
+      "term": "Hephthalites",
+      "matchText": "Hephthalites",
+      "wikiSlug": "Hephthalite_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Huna",
+      "matchText": "Huna",
+      "wikiSlug": "Huna_people",
+      "type": "concept"
+    },
+    {
+      "term": "Attila",
+      "matchText": "Attila",
+      "wikiSlug": "Attila",
+      "type": "people"
+    },
+    {
+      "term": "Bhitari pillar inscription",
+      "matchText": "Bhitari pillar inscription",
+      "wikiSlug": "Bhitari_pillar_inscription",
+      "type": "concept"
+    },
+    {
+      "term": "Sudarshana Lake",
+      "matchText": "Sudarshana Lake",
+      "wikiSlug": "Sudarshana_Lake",
+      "type": "place"
+    },
+    {
+      "term": "Junagadh inscription",
+      "matchText": "Junagadh inscription",
+      "wikiSlug": "Junagadh_rock_inscription_of_Rudradaman",
+      "type": "concept"
+    },
+    {
+      "term": "Mandasor",
+      "matchText": "Mandasor",
+      "wikiSlug": "Mandsaur",
+      "type": "place"
+    },
+    {
+      "term": "Aulikara dynasty",
+      "matchText": "Aulikara dynasty",
+      "wikiSlug": "Aulikara",
+      "type": "concept"
+    },
+    {
+      "term": "Maitrakas",
+      "matchText": "Maitrakas",
+      "wikiSlug": "Maitraka_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Maukharis",
+      "matchText": "Maukharis",
+      "wikiSlug": "Maukhari_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Bahram V",
+      "matchText": "Bahram V",
+      "wikiSlug": "Bahram_V",
+      "type": "people"
+    },
+    {
+      "term": "Yazdegerd II",
+      "matchText": "Yazdegerd II",
+      "wikiSlug": "Yazdegerd_II",
+      "type": "people"
+    },
+    {
+      "term": "Xuanzang",
+      "matchText": "Xuanzang",
+      "wikiSlug": "Xuanzang",
+      "type": "people"
+    },
+    {
+      "term": "Rajatarangini",
+      "matchText": "Rajatarangini",
+      "wikiSlug": "Rajatarangini",
+      "type": "concept"
+    },
+    {
+      "term": "Kalhana",
+      "matchText": "Kalhana",
+      "wikiSlug": "Kalhana",
+      "type": "people"
+    },
+    {
+      "term": "Cosmas Indicopleustes",
+      "matchText": "Cosmas Indicopleustes",
+      "wikiSlug": "Cosmas_Indicopleustes",
+      "type": "people"
+    },
+    {
+      "term": "Eran",
+      "matchText": "Eran inscription",
+      "wikiSlug": "Eran",
+      "type": "place"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Pushyamitras",
+      "matchText": "Pushyamitras",
+      "wikiSlug": "Pushyamitra_Shunga",
+      "type": "concept"
+    },
+    {
+      "term": "Nalanda",
+      "matchText": "Nalanda",
+      "wikiSlug": "Nalanda",
+      "type": "place"
+    },
+    {
+      "term": "Alchon Huns",
+      "matchText": "White Huns",
+      "wikiSlug": "Alchon_Huns",
+      "type": "people"
+    }
   ],
   "8": [
-    {"term": "sati", "matchText": "sati", "wikiSlug": "Sati_(practice)", "type": "concept"},
-    {"term": "Bhanugupta", "matchText": "Bhanugupta", "wikiSlug": "Bhanugupta", "type": "people"},
-    {"term": "Vishnugupta", "matchText": "Vishnugupta", "wikiSlug": "Vishnugupta_(Gupta_king)", "type": "people"},
-    {"term": "Harsha", "matchText": "Harsha", "wikiSlug": "Harsha", "type": "people"},
-    {"term": "Chalukyas", "matchText": "Chalukyas", "wikiSlug": "Badami_Chalukya_dynasty", "type": "concept"},
-    {"term": "Pallavas", "matchText": "Pallavas", "wikiSlug": "Pallava_dynasty", "type": "concept"},
-    {"term": "Mahabalipuram", "matchText": "Mahabalipuram", "wikiSlug": "Mahabalipuram", "type": "place"},
-    {"term": "Funan", "matchText": "Funan", "wikiSlug": "Funan", "type": "concept"},
-    {"term": "Champa", "matchText": "Champa", "wikiSlug": "Champa", "type": "concept"},
-    {"term": "Srivijaya", "matchText": "Srivijaya", "wikiSlug": "Srivijaya", "type": "concept"},
-    {"term": "Borobudur", "matchText": "Borobudur", "wikiSlug": "Borobudur", "type": "place"},
-    {"term": "Angkor Wat", "matchText": "Angkor Wat", "wikiSlug": "Angkor_Wat", "type": "place"},
-    {"term": "al-Khwarizmi", "matchText": "al-Khwarizmi", "wikiSlug": "Muhammad_ibn_Musa_al-Khwarizmi", "type": "people"},
-    {"term": "Bakhtiyar Khilji", "matchText": "Bakhtiyar Khilji", "wikiSlug": "Bakhtiyar_Khilji", "type": "people"},
-    {"term": "Delhi Sultanate", "matchText": "Delhi Sultanate", "wikiSlug": "Delhi_Sultanate", "type": "concept"},
-    {"term": "Khmer Empire", "matchText": "Khmer Empire", "wikiSlug": "Khmer_Empire", "type": "concept"},
-    {"term": "Vikramashila", "matchText": "Vikramashila", "wikiSlug": "Vikramashila", "type": "place"},
-    {"term": "Vallabhi", "matchText": "Vallabhi", "wikiSlug": "Vallabhi", "type": "place"},
-    {"term": "Indianization", "matchText": "Indianization", "wikiSlug": "Indianization", "type": "concept"},
-    {"term": "Khajuraho", "matchText": "Khajuraho", "wikiSlug": "Khajuraho_Group_of_Monuments", "type": "place"},
-    {"term": "Pagan kingdom", "matchText": "Pagan", "wikiSlug": "Pagan_Kingdom", "type": "concept"},
-    {"term": "Theravada", "matchText": "Theravada", "wikiSlug": "Theravada", "type": "concept"},
-    {"term": "Maukharis", "matchText": "Maukharis", "wikiSlug": "Maukhari_dynasty", "type": "concept"}
+    {
+      "term": "sati",
+      "matchText": "sati",
+      "wikiSlug": "Sati_(practice)",
+      "type": "concept"
+    },
+    {
+      "term": "Bhanugupta",
+      "matchText": "Bhanugupta",
+      "wikiSlug": "Bhanugupta",
+      "type": "people"
+    },
+    {
+      "term": "Vishnugupta",
+      "matchText": "Vishnugupta",
+      "wikiSlug": "Vishnugupta_(Gupta_king)",
+      "type": "people"
+    },
+    {
+      "term": "Harsha",
+      "matchText": "Harsha",
+      "wikiSlug": "Harsha",
+      "type": "people"
+    },
+    {
+      "term": "Chalukyas",
+      "matchText": "Chalukyas",
+      "wikiSlug": "Badami_Chalukya_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Pallavas",
+      "matchText": "Pallavas",
+      "wikiSlug": "Pallava_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Mahabalipuram",
+      "matchText": "Mahabalipuram",
+      "wikiSlug": "Mahabalipuram",
+      "type": "place"
+    },
+    {
+      "term": "Funan",
+      "matchText": "Funan",
+      "wikiSlug": "Funan",
+      "type": "concept"
+    },
+    {
+      "term": "Champa",
+      "matchText": "Champa",
+      "wikiSlug": "Champa",
+      "type": "concept"
+    },
+    {
+      "term": "Srivijaya",
+      "matchText": "Srivijaya",
+      "wikiSlug": "Srivijaya",
+      "type": "concept"
+    },
+    {
+      "term": "Borobudur",
+      "matchText": "Borobudur",
+      "wikiSlug": "Borobudur",
+      "type": "place"
+    },
+    {
+      "term": "Angkor Wat",
+      "matchText": "Angkor Wat",
+      "wikiSlug": "Angkor_Wat",
+      "type": "place"
+    },
+    {
+      "term": "al-Khwarizmi",
+      "matchText": "al-Khwarizmi",
+      "wikiSlug": "Muhammad_ibn_Musa_al-Khwarizmi",
+      "type": "people"
+    },
+    {
+      "term": "Bakhtiyar Khilji",
+      "matchText": "Bakhtiyar Khilji",
+      "wikiSlug": "Bakhtiyar_Khilji",
+      "type": "people"
+    },
+    {
+      "term": "Delhi Sultanate",
+      "matchText": "Delhi Sultanate",
+      "wikiSlug": "Delhi_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Khmer Empire",
+      "matchText": "Khmer Empire",
+      "wikiSlug": "Khmer_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Vikramashila",
+      "matchText": "Vikramashila",
+      "wikiSlug": "Vikramashila",
+      "type": "place"
+    },
+    {
+      "term": "Vallabhi",
+      "matchText": "Vallabhi",
+      "wikiSlug": "Vallabhi",
+      "type": "place"
+    },
+    {
+      "term": "Indianization",
+      "matchText": "Indianization",
+      "wikiSlug": "Indianization",
+      "type": "concept"
+    },
+    {
+      "term": "Khajuraho",
+      "matchText": "Khajuraho",
+      "wikiSlug": "Khajuraho_Group_of_Monuments",
+      "type": "place"
+    },
+    {
+      "term": "Pagan kingdom",
+      "matchText": "Pagan",
+      "wikiSlug": "Pagan_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Theravada",
+      "matchText": "Theravada",
+      "wikiSlug": "Theravada",
+      "type": "concept"
+    },
+    {
+      "term": "Maukharis",
+      "matchText": "Maukharis",
+      "wikiSlug": "Maukhari_dynasty",
+      "type": "concept"
+    }
   ]
 }

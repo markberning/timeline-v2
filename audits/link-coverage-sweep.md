@@ -51,7 +51,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | indus-valley | 10 | **DONE** | d52cdb4 |
 | vedic-period | 8 | **DONE** | 0dcf350 |
 | maurya-empire | 8 | **DONE** | 39ed1b3 |
-| post-maurya-kingdoms | 8 | **DONE** | +this |
+| post-maurya-kingdoms | 8 | **DONE** | fdfefda |
+| gupta-empire | 8 | **DONE** (note: pre-existing malformed cross matchTexts, like mongol-empire) | +this |
 | _Western European chain COMPLETE_ | | | |
 | _next: scientific-revolution (20ch), enlightenment (20ch), industrial-revolution (20ch)_ | | pending | |
 | _Greco-Roman chain COMPLETE; next: roadmap order_ | | pending | |
