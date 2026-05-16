@@ -1,0 +1,1991 @@
+{
+  "id": "chinese-revolution",
+  "label": "Chinese Revolution",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Chinese_revolution",
+  "imageWikiSlug": "Tiananmen_Square",
+  "pitch": "The Wuchang Uprising of 1911 toppled 2,000 years of imperial rule, but what followed was even more dramatic: Sun Yat-sen proclaimed a republic, Chiang Kai-shek and Mao Zedong fought a decades-long civil war for China's soul, and The Long March forged the Communist movement that would reshape the world's most populous nation.\n\n🔑 Key Facts:\n• The May Fourth Movement of 1919 ignited a nationwide awakening of anti-imperialism and modernization that radicalized an entire generation\n• The Nanjing Massacre saw Japanese forces kill an estimated 200,000-300,000 civilians in one of WWII's worst atrocities\n• People's Republic Founded in 1949 when Mao declared 'The Chinese people have stood up' from Tiananmen\n• The Great Leap Forward caused a famine killing an estimated 15-55 million people, the deadliest man-made disaster in history\n\n🤔 Why It Matters: The Chinese revolution created the political system that governs 1.4 billion people today. The Cultural Revolution's scars, the Communist Party's grip on power, and China's rise as a superpower all trace directly to this turbulent era.\n\n🎲 Wild Card: During the Xi'an Incident, Chiang Kai-shek was kidnapped by his own generals and forced to stop fighting the Communists and unite against Japan — a twist of fate that may have saved the Communist Party from destruction.",
+  "countryIds": [
+    "156"
+  ],
+  "spans": [
+    {
+      "id": "span-chinese-revolution-republic",
+      "label": "Republic of China",
+      "startYear": 1911,
+      "endYear": 1928,
+      "wikiSlug": "Republic_of_China_(1912%E2%80%931949)",
+      "description": "The Xinhai Revolution toppled 2,000 years of imperial rule, but the new republic quickly fractured into warlord territories. Sun Yat-sen's nationalist movement and the founding of the Chinese Communist Party set the stage for decades of revolutionary struggle."
+    },
+    {
+      "id": "span-chinese-revolution-nanjing-decade",
+      "label": "Nanjing Decade",
+      "startYear": 1928,
+      "endYear": 1937,
+      "wikiSlug": "Nanjing_decade",
+      "description": "Chiang Kai-shek's Nationalist government nominally reunified China and pursued modernization from its capital in Nanjing. Simultaneously, Chiang waged extermination campaigns against the Communists, who survived the Long March to establish a base in Yan'an."
+    },
+    {
+      "id": "span-chinese-revolution-sino-japanese",
+      "label": "Second Sino-Japanese War",
+      "startYear": 1937,
+      "endYear": 1945,
+      "wikiSlug": "Second_Sino-Japanese_War",
+      "description": "Japan's full-scale invasion devastated China, killing an estimated 15-20 million Chinese including the Nanjing Massacre's 200,000-300,000 victims. Nationalists and Communists formed a fragile united front, but the war exhausted the Nationalist government while the CCP expanded in the countryside."
+    },
+    {
+      "id": "span-chinese-revolution-civil-war",
+      "label": "Chinese Civil War",
+      "startYear": 1945,
+      "endYear": 1949,
+      "wikiSlug": "Chinese_Civil_War",
+      "description": "The Nationalists and Communists resumed full-scale civil war after Japan's surrender, with Mao's forces using guerrilla tactics and land reform to win peasant support. By 1949 the Communists had swept the mainland, and Chiang Kai-shek retreated to Taiwan."
+    },
+    {
+      "id": "span-chinese-revolution-prc-mao",
+      "label": "Mao's China",
+      "startYear": 1949,
+      "endYear": 1976,
+      "wikiSlug": "Mao_Zedong%27s_China",
+      "description": "Mao transformed China through radical campaigns including land reform, the Great Leap Forward famine that killed tens of millions, and the Cultural Revolution's decade of political upheaval. China became a nuclear power and opened relations with the U.S., but at enormous human cost."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-wuchang-uprising",
+      "label": "Wuchang Uprising",
+      "year": 1911,
+      "description": "A military revolt in Wuchang sparked the Xinhai Revolution, leading to the collapse of the Qing dynasty and 2,000 years of imperial rule.",
+      "wikiSlug": "Wuchang_Uprising",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sun-yat-sen",
+      "label": "Sun Yat-sen",
+      "year": 1914.13,
+      "endYear": 1925,
+      "description": "The 'Father of the Nation' founded the Republic of China and developed the Three Principles of the People guiding Chinese nationalism.",
+      "wikiSlug": "Sun_Yat-sen",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-republic-proclaimed",
+      "label": "Republic of China Proclaimed",
+      "year": 1912,
+      "description": "Sun Yat-sen was inaugurated as provisional president, establishing Asia's first republic after the abdication of the last Qing emperor.",
+      "wikiSlug": "Republic_of_China_(1912%E2%80%931949)",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-yuan-shikai",
+      "label": "Yuan Shikai Seizes Power",
+      "year": 1912,
+      "endYear": 1916,
+      "description": "Military strongman Yuan Shikai became president, then briefly declared himself emperor before his death plunged China into warlord chaos.",
+      "wikiSlug": "Yuan_Shikai",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-warlord-era",
+      "label": "Warlord Era",
+      "year": 1916,
+      "endYear": 1928,
+      "description": "China fragmented into territories ruled by competing military warlords, with constant warfare and political instability.",
+      "wikiSlug": "Warlord_era",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-new-culture",
+      "label": "New Culture Movement",
+      "year": 1915,
+      "description": "Intellectuals led by Chen Duxiu attacked Confucian tradition and promoted science, democracy, and vernacular Chinese writing.",
+      "wikiSlug": "New_Culture_Movement",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-may-fourth",
+      "label": "May Fourth Movement",
+      "year": 1919,
+      "description": "Student protests against the Treaty of Versailles ignited a nationwide movement for modernization, anti-imperialism, and cultural reform.",
+      "wikiSlug": "May_Fourth_Movement",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ccp-founded",
+      "label": "Chinese Communist Party Founded",
+      "year": 1921,
+      "description": "The CCP was founded in Shanghai with Soviet support, beginning as a small group of intellectuals including the young Mao Zedong.",
+      "wikiSlug": "Chinese_Communist_Party",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-lu-xun",
+      "label": "Lu Xun",
+      "year": 1914.21,
+      "endYear": 1936,
+      "description": "China's greatest modern writer used sharp satire in works like 'The True Story of Ah Q' to critique traditional society and inspire revolution.",
+      "wikiSlug": "Lu_Xun",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-northern-expedition",
+      "label": "Northern Expedition",
+      "year": 1926,
+      "endYear": 1928,
+      "description": "The Nationalist army marched north to defeat the warlords and reunify China under the Kuomintang government.",
+      "wikiSlug": "Northern_Expedition",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-chiang-kai-shek",
+      "label": "Chiang Kai-shek",
+      "year": 1914.29,
+      "endYear": 1975,
+      "description": "Chiang led the Nationalist government, fought Japan, and lost the civil war to the Communists before retreating to Taiwan.",
+      "wikiSlug": "Chiang_Kai-shek",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-shanghai-massacre",
+      "label": "Shanghai Massacre",
+      "year": 1927,
+      "description": "Chiang Kai-shek turned against his Communist allies, massacring thousands of CCP members and union workers in Shanghai.",
+      "wikiSlug": "Shanghai_massacre",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nanjing-capital",
+      "label": "Nanjing as National Capital",
+      "year": 1928,
+      "description": "The Nationalists established Nanjing as the capital of a nominally reunified China, beginning a decade of modernization efforts.",
+      "wikiSlug": "Nanjing",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mao-zedong",
+      "label": "Mao Zedong",
+      "year": 1893,
+      "endYear": 1976,
+      "description": "Mao led the Communist revolution to victory and ruled the People's Republic, transforming China through radical campaigns at enormous human cost.",
+      "wikiSlug": "Mao_Zedong",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-long-march",
+      "label": "The Long March",
+      "year": 1934,
+      "endYear": 1935,
+      "description": "The Red Army's 6,000-mile retreat from Nationalist encirclement became a founding myth of Communist China, with Mao emerging as leader.",
+      "wikiSlug": "Long_March",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-xian-incident",
+      "label": "Xi'an Incident",
+      "year": 1936,
+      "description": "Chiang Kai-shek was kidnapped by his own generals and forced to form a united front with the Communists against Japan.",
+      "wikiSlug": "Xi%27an_Incident",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-marco-polo-bridge",
+      "label": "Marco Polo Bridge Incident",
+      "year": 1937,
+      "description": "A skirmish near Beijing escalated into full-scale war between China and Japan, beginning eight years of devastating conflict.",
+      "wikiSlug": "Marco_Polo_Bridge_Incident",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nanjing-massacre",
+      "label": "Nanjing Massacre",
+      "year": 1937,
+      "description": "Japanese forces killed an estimated 200,000-300,000 civilians and prisoners of war in one of the worst atrocities of World War II.",
+      "wikiSlug": "Nanjing_Massacre",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-yenan-period",
+      "label": "Yan'an Soviet Base",
+      "year": 1936,
+      "endYear": 1947,
+      "description": "The CCP established its base in Yan'an, developing revolutionary ideology, land reform, and guerrilla tactics that would win the civil war.",
+      "wikiSlug": "Yan%27an",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-mao-talks-literature",
+      "label": "Yan'an Talks on Literature",
+      "year": 1942,
+      "description": "Mao's talks established that art and literature must serve the revolution and the masses, defining cultural policy for decades.",
+      "wikiSlug": "Yan%27an_Talks",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-prc-founded",
+      "label": "People's Republic Founded",
+      "year": 1949,
+      "description": "Mao proclaimed the People's Republic of China from Tiananmen, declaring 'The Chinese people have stood up' after decades of war and humiliation.",
+      "wikiSlug": "Chinese_Communist_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-land-reform",
+      "label": "Land Reform Campaign",
+      "year": 1950,
+      "description": "The CCP redistributed land from landlords to peasants, executing an estimated one to two million landlords in the process.",
+      "wikiSlug": "Chinese_land_reform",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-korean-war",
+      "label": "China Enters Korean War",
+      "year": 1950,
+      "endYear": 1953,
+      "description": "China sent hundreds of thousands of 'volunteers' to fight UN forces in Korea, establishing the PRC as a military power at enormous cost.",
+      "wikiSlug": "Chinese_people%27s_volunteer_army",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-hundred-flowers",
+      "label": "Hundred Flowers Campaign",
+      "year": 1956,
+      "description": "Mao invited intellectuals to criticize the government, then cracked down on those who spoke out in the Anti-Rightist Campaign.",
+      "wikiSlug": "Hundred_Flowers_Campaign",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-great-leap-forward",
+      "label": "Great Leap Forward",
+      "year": 1958,
+      "endYear": 1962,
+      "description": "Mao's campaign to rapidly industrialize through collectivization caused the Great Chinese Famine, killing an estimated 15-55 million people.",
+      "wikiSlug": "Great_Leap_Forward",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-sino-soviet-split",
+      "label": "Sino-Soviet Split",
+      "year": 1960,
+      "description": "Ideological and geopolitical tensions caused a dramatic rupture between China and the Soviet Union, reshaping Cold War dynamics.",
+      "wikiSlug": "Sino-Soviet_split",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cultural-revolution",
+      "label": "Cultural Revolution",
+      "year": 1966,
+      "endYear": 1976,
+      "description": "Mao launched a decade of political upheaval, mobilizing Red Guards to purge 'capitalist roaders' and destroy traditional culture.",
+      "wikiSlug": "Cultural_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-red-guards",
+      "label": "Red Guard Movement",
+      "year": 1966,
+      "description": "Millions of radicalized students formed Red Guard units, attacking teachers, intellectuals, and cultural heritage sites across China.",
+      "wikiSlug": "Red_Guards",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-little-red-book",
+      "label": "Quotations from Chairman Mao",
+      "year": 1964,
+      "description": "The Little Red Book became the most printed book of the 20th century, with over a billion copies distributed as Mao's cult of personality peaked.",
+      "wikiSlug": "Quotations_from_Chairman_Mao_Tse-tung",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-zhou-enlai",
+      "label": "Zhou Enlai",
+      "year": 1898,
+      "endYear": 1976,
+      "description": "China's longtime premier served as a moderating force, managing foreign policy and attempting to limit the Cultural Revolution's worst excesses.",
+      "wikiSlug": "Zhou_Enlai",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nixon-china",
+      "label": "Nixon Visits China",
+      "year": 1972,
+      "description": "President Nixon's visit to Beijing opened US-China relations, a dramatic diplomatic realignment that reshaped the Cold War balance of power.",
+      "wikiSlug": "1972_Nixon_visit_to_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-un-seat",
+      "label": "PRC Takes UN Seat",
+      "year": 1971,
+      "description": "The People's Republic replaced Taiwan at the United Nations, gaining the permanent Security Council seat.",
+      "wikiSlug": "United_Nations_General_Assembly_Resolution_2758",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-nuclear-test",
+      "label": "First Chinese Nuclear Test",
+      "year": 1964,
+      "description": "China detonated its first atomic bomb, becoming the fifth nuclear power and asserting strategic independence from both superpowers.",
+      "wikiSlug": "596_(nuclear_test)",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-tiananmen-1976",
+      "label": "Tiananmen Incident of 1976",
+      "year": 1976,
+      "description": "Mourners for Zhou Enlai gathered in Tiananmen Square in a protest that foreshadowed the end of radical Maoism.",
+      "wikiSlug": "Tiananmen_Incident_(1976)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-mao-death",
+      "label": "Death of Mao Zedong",
+      "year": 1976,
+      "description": "Mao's death ended an era of revolutionary upheaval and opened the way for Deng Xiaoping's economic reforms.",
+      "wikiSlug": "Death_and_state_funeral_of_Mao_Zedong",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-soong-sisters",
+      "label": "Soong Sisters",
+      "year": 1914.37,
+      "endYear": 1971,
+      "description": "The three Soong sisters married into China's most powerful families, shaping Republican-era politics, finance, and revolution.",
+      "wikiSlug": "Soong_sisters",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-barefoot-doctors",
+      "label": "Barefoot Doctors Program",
+      "year": 1968,
+      "description": "China trained millions of rural health workers, dramatically expanding basic medical care and doubling life expectancy within a generation.",
+      "wikiSlug": "Barefoot_doctor",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-great-hall",
+      "label": "Great Hall of the People",
+      "year": 1959,
+      "description": "Built in just ten months as one of the Ten Great Buildings, the Great Hall became the seat of China's legislature on Tiananmen Square.",
+      "wikiSlug": "Great_Hall_of_the_People",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-three-gorges-plan",
+      "label": "Yangtze River Flood Control",
+      "year": 1954,
+      "description": "Catastrophic Yangtze floods killed over 30,000 people, prompting massive dam-building and flood control infrastructure projects.",
+      "wikiSlug": "1954_Yangtze_floods",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-simplified-characters",
+      "label": "Simplified Chinese Characters",
+      "year": 1956,
+      "description": "The PRC promulgated simplified Chinese characters to boost literacy rates, fundamentally changing the written language.",
+      "wikiSlug": "Simplified_Chinese_characters",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-destroy-temples",
+      "label": "Destruction of Religious Sites",
+      "year": 1966,
+      "description": "Red Guards destroyed thousands of temples, churches, and mosques during the Cultural Revolution's campaign against the 'Four Olds.'",
+      "wikiSlug": "Destroy_the_Four_Olds",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-anti-religion",
+      "label": "State Atheism Enforced",
+      "year": 1949,
+      "description": "The CCP promoted atheism and restricted religious practice, nationalizing church properties and expelling foreign missionaries.",
+      "wikiSlug": "Irreligion_in_China",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-cr-tongmenghui",
+      "label": "Tongmenghui Founded",
+      "year": 1905,
+      "description": "Sun Yat-sen merged rival anti-Qing societies into the Revolutionary Alliance in Tokyo in 1905, the organizational ancestor of the Kuomintang.",
+      "wikiSlug": "Tongmenghui",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-three-principles",
+      "label": "Three Principles of the People",
+      "year": 1906,
+      "description": "Sun Yat-sen's program — nationalism, democracy, and people's livelihood — became the founding ideology of Republican China.",
+      "wikiSlug": "Three_Principles_of_the_People",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-qing-abdication",
+      "label": "Abdication of the Qing",
+      "year": 1912,
+      "description": "The six-year-old Puyi abdicated in February 1912, ending 268 years of Qing rule and 2,000 years of imperial government in China.",
+      "wikiSlug": "Xinhai_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-kmt-founded-1912",
+      "label": "Kuomintang Founded",
+      "year": 1912,
+      "description": "Song Jiaoren rebuilt the revolutionary movement as the Kuomintang (Nationalist Party) to contest China's first parliamentary elections.",
+      "wikiSlug": "Kuomintang",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-song-jiaoren",
+      "label": "Assassination of Song Jiaoren",
+      "year": 1913,
+      "description": "The KMT's parliamentary leader, poised to become premier, was shot at Shanghai station in 1913 in a killing widely traced to Yuan Shikai's circle.",
+      "wikiSlug": "Song_Jiaoren",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-second-revolution",
+      "label": "The Second Revolution",
+      "year": 1913,
+      "description": "KMT-aligned provinces rose against Yuan Shikai in 1913; the revolt was crushed in months and Sun Yat-sen fled into exile.",
+      "wikiSlug": "Second_Revolution_(Republic_of_China)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-twenty-one-demands",
+      "label": "The Twenty-One Demands",
+      "year": 1915,
+      "description": "Japan presented secret ultimatum demands in 1915 that would have made China a Japanese protectorate; Yuan's partial acceptance became a lasting national humiliation.",
+      "wikiSlug": "Twenty-One_Demands",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-yuan-monarchy",
+      "label": "Yuan Shikai's Empire",
+      "year": 1915,
+      "endYear": 1916,
+      "description": "Yuan Shikai had himself proclaimed emperor in late 1915; the scheme collapsed within months under nationwide revolt.",
+      "wikiSlug": "Empire_of_China_(1915%E2%80%931916)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-national-protection-war",
+      "label": "National Protection War",
+      "year": 1915,
+      "endYear": 1916,
+      "description": "Yunnan and southern provinces rose against Yuan's monarchy in 1915-16; his death in June 1916 ended the regime and opened the warlord era.",
+      "wikiSlug": "National_Protection_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-beiyang-army",
+      "label": "The Beiyang Army Splits",
+      "year": 1916,
+      "description": "Yuan Shikai's modern Beiyang Army fragmented after his death into rival cliques whose generals carved China into private military domains.",
+      "wikiSlug": "Beiyang_Army",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-zhili-anhui-cliques",
+      "label": "The Warlord Cliques",
+      "year": 1916,
+      "endYear": 1928,
+      "description": "The Zhili, Anhui, and Fengtian cliques fought repeated wars for control of the Beijing government and its foreign-recognized legitimacy.",
+      "wikiSlug": "Warlord_era",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-zhang-zuolin",
+      "label": "Zhang Zuolin and the Fengtian Clique",
+      "year": 1916,
+      "endYear": 1928,
+      "description": "The ex-bandit Zhang Zuolin ruled Manchuria as the Fengtian warlord under increasing Japanese influence until his 1928 assassination by Japanese officers.",
+      "wikiSlug": "Zhang_Zuolin",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-manchu-restoration-1917",
+      "label": "The Manchu Restoration Attempt",
+      "year": 1917,
+      "description": "The warlord Zhang Xun briefly reinstalled the boy Puyi on the throne for twelve days in July 1917 before being driven out.",
+      "wikiSlug": "Manchu_Restoration",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-china-wwi",
+      "label": "China Enters World War I",
+      "year": 1917,
+      "description": "China declared war on Germany in 1917 and sent some 140,000 laborers to the Western Front, expecting a seat at the peace table.",
+      "wikiSlug": "China_during_World_War_I",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-rival-governments",
+      "label": "Beijing versus Guangzhou",
+      "year": 1917,
+      "endYear": 1928,
+      "description": "Sun Yat-sen set up a rival southern government in Guangzhou against the warlord-run Beijing regime, splitting China's claimed sovereignty.",
+      "wikiSlug": "Constitutional_Protection_Movement",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-treaty-port-industry",
+      "label": "The Treaty-Port Economy",
+      "year": 1912,
+      "endYear": 1937,
+      "description": "Foreign-run treaty ports like Shanghai became islands of modern industry, banking, and a Chinese commercial middle class amid a collapsing countryside.",
+      "wikiSlug": "Treaty_ports",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-yan-fu-translations",
+      "label": "Yan Fu and Social Darwinism",
+      "year": 1898,
+      "endYear": 1921,
+      "description": "Yan Fu's translations of Huxley and Spencer injected 'survival of the fittest' into Chinese thought, framing reform as a struggle for national survival.",
+      "wikiSlug": "Yan_Fu",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-rural-crisis",
+      "label": "The Rural Crisis",
+      "year": 1912,
+      "endYear": 1949,
+      "description": "Tenancy, debt, landlordism, and recurring famine ground down the peasant majority and supplied the social fuel for revolution.",
+      "wikiSlug": "Economic_history_of_China_(1912%E2%80%931949)",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-missionary-colleges",
+      "label": "Missionary Schools and Colleges",
+      "year": 1912,
+      "endYear": 1949,
+      "description": "Christian missionary schools, colleges, and hospitals trained a Westernized elite even as anti-imperial feeling turned against them.",
+      "wikiSlug": "Protestant_missions_in_China",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-cr-new-youth",
+      "label": "New Youth Magazine",
+      "year": 1915,
+      "endYear": 1926,
+      "description": "Chen Duxiu's journal New Youth became the platform of the New Culture Movement, championing 'Mr. Science' and 'Mr. Democracy' against Confucian tradition.",
+      "wikiSlug": "New_Youth_(magazine)",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-hu-shi-vernacular",
+      "label": "The Vernacular Language Revolution",
+      "year": 1917,
+      "description": "Hu Shi led the push to write in everyday spoken Chinese instead of classical literary language, making mass literacy and a new literature possible.",
+      "wikiSlug": "Hu_Shih",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-versailles-shandong",
+      "label": "The Shandong Decision",
+      "year": 1919,
+      "description": "The Versailles peace conference handed Germany's former Shandong concessions to Japan rather than back to China, igniting the May Fourth protests.",
+      "wikiSlug": "Shandong_Problem",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-li-dazhao",
+      "label": "Li Dazhao and Chinese Marxism",
+      "year": 1918,
+      "endYear": 1927,
+      "description": "The Peking University librarian Li Dazhao was the first major Chinese intellectual to embrace Bolshevism and mentored the young Mao Zedong.",
+      "wikiSlug": "Li_Dazhao",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-comintern-agents",
+      "label": "The Comintern Comes to China",
+      "year": 1920,
+      "endYear": 1927,
+      "description": "Soviet Comintern agents organized scattered Marxist study circles into a disciplined party and steered its early strategy from Moscow.",
+      "wikiSlug": "Comintern",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-kmt-reorganization",
+      "label": "The Kuomintang Reorganized",
+      "year": 1923,
+      "endYear": 1924,
+      "description": "With Soviet help Sun Yat-sen rebuilt the KMT as a Leninist mass party with a party army, the model both Nationalists and Communists would use.",
+      "wikiSlug": "Kuomintang",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-anti-christian-movement",
+      "label": "The Anti-Christian Movement",
+      "year": 1922,
+      "endYear": 1927,
+      "description": "Student nationalists attacked Christianity and mission schools as instruments of imperialism, fusing anti-religion and anti-foreign feeling.",
+      "wikiSlug": "Anti-Christian_Movement_(China)",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-cr-science-metaphysics",
+      "label": "The Science and Philosophy of Life Debate",
+      "year": 1923,
+      "description": "A 1923 public debate over whether science could guide human life crystallized the New Culture faith that science would save China.",
+      "wikiSlug": "Science_and_metaphysics_debate",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cr-woman-question",
+      "label": "The Woman Question",
+      "year": 1919,
+      "endYear": 1930,
+      "description": "May Fourth intellectuals attacked arranged marriage and footbinding and made women's emancipation a central revolutionary theme.",
+      "wikiSlug": "Feminism_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-sun-joffe",
+      "label": "The Sun-Joffe Manifesto",
+      "year": 1923,
+      "description": "Sun Yat-sen and Soviet envoy Adolph Joffe agreed in 1923 on Soviet aid to the KMT, opening the alliance with the Communists.",
+      "wikiSlug": "Sun%E2%80%93Joffe_Manifesto",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-whampoa",
+      "label": "Whampoa Military Academy",
+      "year": 1924,
+      "description": "The Soviet-funded Whampoa Academy, commanded by Chiang Kai-shek with Zhou Enlai as political head, trained the officer corps of both later armies.",
+      "wikiSlug": "Whampoa_Military_Academy",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-first-united-front",
+      "label": "The First United Front",
+      "year": 1924,
+      "endYear": 1927,
+      "description": "Communists joined the KMT as individuals from 1924, a Soviet-brokered alliance to defeat the warlords that ended in betrayal in 1927.",
+      "wikiSlug": "First_United_Front",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-sun-death",
+      "label": "Death of Sun Yat-sen",
+      "year": 1925,
+      "description": "Sun Yat-sen died of cancer in 1925, leaving the KMT without its unifying figure and opening a succession struggle Chiang Kai-shek would win.",
+      "wikiSlug": "Sun_Yat-sen",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-may-thirtieth",
+      "label": "The May Thirtieth Movement",
+      "year": 1925,
+      "description": "British police killing protesters in Shanghai in 1925 set off nationwide strikes and boycotts that swelled both KMT and Communist ranks.",
+      "wikiSlug": "May_Thirtieth_Movement",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-zhongshan-incident",
+      "label": "The Canton Coup",
+      "year": 1926,
+      "description": "Chiang Kai-shek's 1926 'Zhongshan Incident' purge curbed Communist and Soviet influence inside the KMT while keeping the alliance alive for the campaign north.",
+      "wikiSlug": "Canton_Coup",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-peasant-movement",
+      "label": "The Peasant Movement",
+      "year": 1925,
+      "endYear": 1927,
+      "description": "Communist organizers built peasant associations in the countryside; Mao's 1927 Hunan report argued the peasantry, not the workers, was the revolution's engine.",
+      "wikiSlug": "Mao_Zedong",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-shanghai-uprising-1927",
+      "label": "The Shanghai Workers' Uprising",
+      "year": 1927,
+      "description": "Communist-led workers seized Shanghai for the advancing Nationalist army in March 1927, weeks before Chiang turned on them.",
+      "wikiSlug": "Shanghai_insurrection_of_1927",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-borodin",
+      "label": "Mikhail Borodin",
+      "year": 1923,
+      "endYear": 1927,
+      "description": "The Comintern's chief agent Mikhail Borodin reorganized the KMT and advised its leadership until expelled after the 1927 split.",
+      "wikiSlug": "Mikhail_Borodin",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-wuhan-split",
+      "label": "The Collapse of the United Front",
+      "year": 1927,
+      "description": "After Chiang's Shanghai purge the rival left-KMT government at Wuhan also expelled the Communists by mid-1927, ending the First United Front.",
+      "wikiSlug": "Wuhan_Nationalist_Government",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-autumn-harvest",
+      "label": "Nanchang and the Autumn Harvest Uprising",
+      "year": 1927,
+      "description": "Failed Communist revolts at Nanchang, in the Hunan countryside, and at Canton in 1927 pushed the survivors toward rural base-building.",
+      "wikiSlug": "Autumn_Harvest_Uprising",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-reunification-1928",
+      "label": "The Northern Expedition Completed",
+      "year": 1928,
+      "description": "Nationalist armies took Beijing in 1928 and won the nominal allegiance of the northern warlords, reunifying China on paper under Nanjing.",
+      "wikiSlug": "Northern_Expedition",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-jiangxi-soviet",
+      "label": "The Jiangxi Soviet",
+      "year": 1931,
+      "endYear": 1934,
+      "description": "Mao and Zhu De built a rural Communist state in the Jiangxi mountains, proclaiming the Chinese Soviet Republic in 1931 with Mao as chairman.",
+      "wikiSlug": "Chinese_Soviet_Republic",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-zhu-de",
+      "label": "Zhu De and the Red Army",
+      "year": 1928,
+      "endYear": 1976,
+      "description": "The defecting officer Zhu De co-founded the Red Army with Mao and developed the guerrilla doctrine of trading space for time.",
+      "wikiSlug": "Zhu_De",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-encirclement-campaigns",
+      "label": "The Encirclement Campaigns",
+      "year": 1930,
+      "endYear": 1934,
+      "description": "Chiang launched five successive offensives against the Jiangxi Soviet; the first four failed before a blockhouse strategy strangled it in 1934.",
+      "wikiSlug": "Encirclement_Campaigns",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-mukden-incident",
+      "label": "The Mukden Incident",
+      "year": 1931,
+      "description": "Japanese officers staged a railway bombing in 1931 as pretext to seize Manchuria, creating the puppet state Manchukuo under the ex-emperor Puyi.",
+      "wikiSlug": "Mukden_Incident",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-nanjing-decade",
+      "label": "The Nanjing Decade",
+      "year": 1928,
+      "endYear": 1937,
+      "description": "Chiang's Nationalist government built railways, a central bank, and a unified currency while never controlling much of the country it claimed.",
+      "wikiSlug": "Nanjing_decade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-new-life-movement",
+      "label": "The New Life Movement",
+      "year": 1934,
+      "description": "Chiang's 1934 campaign blended Confucian morality, Christianity, and military discipline to remake citizens' behavior from the top down.",
+      "wikiSlug": "New_Life_Movement",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-cr-futian-incident",
+      "label": "The Futian Incident",
+      "year": 1930,
+      "endYear": 1931,
+      "description": "A bloody internal purge in the Jiangxi Soviet in 1930-31 foreshadowed the violence of later Maoist campaigns against suspected enemies within.",
+      "wikiSlug": "Futian_incident",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-fifth-campaign",
+      "label": "The Fifth Encirclement",
+      "year": 1933,
+      "endYear": 1934,
+      "description": "Chiang's blockhouse-and-blockade strategy, advised by German officers, finally broke the Jiangxi Soviet and forced the 1934 breakout.",
+      "wikiSlug": "Encirclement_Campaigns",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-xiang-river",
+      "label": "The Battle of Xiang River",
+      "year": 1934,
+      "description": "The Red Army lost more than half its strength forcing the Xiang River in late 1934, discrediting the leadership that ran the retreat.",
+      "wikiSlug": "Battle_of_the_Xiang_River",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-zunyi-conference",
+      "label": "The Zunyi Conference",
+      "year": 1935,
+      "description": "At Zunyi in January 1935 Mao Zedong won effective control of the Communist Party and army, the turning point of his rise.",
+      "wikiSlug": "Zunyi_Conference",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-luding-bridge",
+      "label": "Crossing the Dadu River",
+      "year": 1935,
+      "description": "The contested storming of the chained Luding Bridge over the Dadu River became the central heroic legend of the Long March.",
+      "wikiSlug": "Battle_of_Luding_Bridge",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-grasslands",
+      "label": "The Snow Mountains and the Grasslands",
+      "year": 1935,
+      "description": "The Red Army crossed glaciated passes and a deadly high marsh, losing thousands to cold, altitude, and starvation.",
+      "wikiSlug": "Long_March",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-zhang-guotao-split",
+      "label": "The Split with Zhang Guotao",
+      "year": 1935,
+      "description": "Mao's column broke from the larger force of his rival Zhang Guotao in 1935; Zhang's army was later wrecked, leaving Mao unchallenged.",
+      "wikiSlug": "Zhang_Guotao",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-december-ninth",
+      "label": "The December 9th Movement",
+      "year": 1935,
+      "description": "Beijing students marched in December 1935 demanding resistance to Japan, reviving mass nationalist agitation and pressuring Chiang.",
+      "wikiSlug": "December_9th_Movement",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-edgar-snow",
+      "label": "Red Star Over China",
+      "year": 1936,
+      "endYear": 1937,
+      "description": "The American journalist Edgar Snow's reporting from Yan'an gave the Communists a sympathetic global image and a heroic Long March narrative.",
+      "wikiSlug": "Red_Star_Over_China",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-second-united-front",
+      "label": "The Second United Front",
+      "year": 1937,
+      "endYear": 1945,
+      "description": "After the Xi'an Incident Nationalists and Communists formed an uneasy alliance against Japan that held, barely, through the war.",
+      "wikiSlug": "Second_United_Front",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-battle-shanghai-1937",
+      "label": "The Battle of Shanghai",
+      "year": 1937,
+      "description": "Three months of urban fighting in 1937 destroyed Chiang's best divisions but proved China would not surrender quickly.",
+      "wikiSlug": "Battle_of_Shanghai",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-fall-of-wuhan",
+      "label": "The Fall of Wuhan",
+      "year": 1938,
+      "description": "After Wuhan fell in 1938 the Nationalist government retreated to Chongqing for a long war of attrition deep in the interior.",
+      "wikiSlug": "Battle_of_Wuhan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-yellow-river-flood-1938",
+      "label": "The 1938 Yellow River Flood",
+      "year": 1938,
+      "description": "Nationalist forces breached the Yellow River dikes to slow the Japanese, drowning hundreds of thousands of Chinese and displacing millions.",
+      "wikiSlug": "1938_Yellow_River_flood",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-taierzhuang",
+      "label": "The Battle of Taierzhuang",
+      "year": 1938,
+      "description": "A rare major Chinese victory in 1938 punctured the myth of Japanese invincibility and lifted morale for the long war.",
+      "wikiSlug": "Battle_of_Taierzhuang",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-eighth-route-army",
+      "label": "The Eighth Route Army",
+      "year": 1937,
+      "endYear": 1945,
+      "description": "The Communists' renamed Red Army waged rural guerrilla war behind Japanese lines, expanding party-run base areas across the north.",
+      "wikiSlug": "Eighth_Route_Army",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-wang-jingwei",
+      "label": "The Wang Jingwei Regime",
+      "year": 1940,
+      "endYear": 1945,
+      "description": "The senior Nationalist Wang Jingwei defected to head a Japanese-sponsored collaborationist government in Nanjing from 1940.",
+      "wikiSlug": "Wang_Jingwei",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-hundred-regiments",
+      "label": "The Hundred Regiments Offensive",
+      "year": 1940,
+      "description": "A large 1940 Communist offensive damaged Japanese infrastructure but drew brutal reprisals and a shift back to careful guerrilla strategy.",
+      "wikiSlug": "Hundred_Regiments_Offensive",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-new-fourth-army-incident",
+      "label": "The New Fourth Army Incident",
+      "year": 1941,
+      "description": "Nationalist troops ambushed their Communist allies in 1941, effectively ending real cooperation while the United Front survived only on paper.",
+      "wikiSlug": "New_Fourth_Army_incident",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-chongqing-bombing",
+      "label": "The Bombing of Chongqing",
+      "year": 1938,
+      "endYear": 1943,
+      "description": "Years of Japanese air raids on the wartime capital killed tens of thousands of civilians in one of history's first sustained terror-bombing campaigns.",
+      "wikiSlug": "Bombing_of_Chongqing",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-burma-road",
+      "label": "The Burma Road and Foreign Aid",
+      "year": 1938,
+      "endYear": 1942,
+      "description": "China's overland lifeline through Burma carried Allied supplies until Japan cut it in 1942, after which aid had to be flown over the Himalayas.",
+      "wikiSlug": "Burma_Road",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-pacific-alliance",
+      "label": "China Joins the Allies",
+      "year": 1941,
+      "endYear": 1945,
+      "description": "After Pearl Harbor China became a formal Allied power; US General Stilwell arrived to run a frustrating advisory mission to Chiang.",
+      "wikiSlug": "China_Burma_India_Theater",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-yenan-rectification",
+      "label": "The Yan'an Rectification Movement",
+      "year": 1942,
+      "endYear": 1944,
+      "description": "Mao's 1942-44 campaign of study, confession, and purge disciplined the party around his leadership and his version of ideology.",
+      "wikiSlug": "Yan%27an_Rectification_Movement",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-mao-zedong-thought",
+      "label": "Mao Zedong Thought",
+      "year": 1945,
+      "description": "The 1945 Seventh Party Congress enshrined 'Mao Zedong Thought' in the party constitution, fusing Marxism with Chinese rural revolution.",
+      "wikiSlug": "Maoism",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-henan-famine",
+      "label": "The Henan Famine",
+      "year": 1942,
+      "endYear": 1943,
+      "description": "Drought, war, and Nationalist grain requisitioning killed an estimated two to three million people in Henan and shattered the regime's rural support.",
+      "wikiSlug": "Chinese_famine_of_1942%E2%80%931943",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-mass-line",
+      "label": "The Mass Line and Rent Reduction",
+      "year": 1937,
+      "endYear": 1945,
+      "description": "In its base areas the party cut rents and interest instead of seizing land, winning peasant loyalty without alienating the war effort.",
+      "wikiSlug": "Mass_line",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-operation-ichigo",
+      "label": "Operation Ichigo",
+      "year": 1944,
+      "description": "Japan's massive 1944 offensive smashed Nationalist armies across central and southern China, exposing the regime's wartime decay.",
+      "wikiSlug": "Operation_Ichigo",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-cairo-conference",
+      "label": "The Cairo Conference",
+      "year": 1943,
+      "description": "Chiang met Roosevelt and Churchill in 1943; the unequal treaties were formally abolished and China was promised great-power status.",
+      "wikiSlug": "Cairo_Conference",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-dixie-mission",
+      "label": "The Dixie Mission",
+      "year": 1944,
+      "description": "A 1944 US military and diplomatic mission to Yan'an reported the Communists looked more disciplined and effective than the Nationalists.",
+      "wikiSlug": "Dixie_Mission",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-japan-surrender-1945",
+      "label": "Japan's Surrender",
+      "year": 1945,
+      "description": "Japan surrendered in August 1945; a Soviet blitz overran Manchuria and handed its arsenals and a strategic foothold to the Communists.",
+      "wikiSlug": "Surrender_of_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-wartime-inflation",
+      "label": "Wartime Hyperinflation",
+      "year": 1942,
+      "endYear": 1949,
+      "description": "Runaway money-printing to fund the war destroyed savings and the salaried middle class, fatally corroding Nationalist legitimacy.",
+      "wikiSlug": "Chinese_Civil_War",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-chongqing-negotiations",
+      "label": "The Chongqing Negotiations",
+      "year": 1945,
+      "description": "Mao flew to Chongqing in 1945 for US-brokered talks with Chiang; the resulting agreement collapsed within months into open war.",
+      "wikiSlug": "Double_Tenth_Agreement",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-marshall-mission",
+      "label": "The Marshall Mission",
+      "year": 1946,
+      "endYear": 1947,
+      "description": "US General George Marshall's year-long effort to broker a coalition government failed, and Washington largely disengaged.",
+      "wikiSlug": "Marshall_Mission",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-civil-war-resumes",
+      "label": "The Civil War Resumes",
+      "year": 1946,
+      "description": "Full-scale war returned in 1946; Nationalists held the cities and railways while Communists controlled the countryside and grew.",
+      "wikiSlug": "Chinese_Civil_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-land-reform-1947",
+      "label": "The Outline Land Law",
+      "year": 1947,
+      "description": "The 1947 land law turned the war into a social revolution, redistributing landlord holdings and binding millions of peasants to the Communist cause.",
+      "wikiSlug": "Land_reform_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-liaoshen",
+      "label": "The Liaoshen Campaign",
+      "year": 1948,
+      "description": "Lin Biao's forces destroyed the Nationalists' best armies in Manchuria in 1948, decisively tipping the war.",
+      "wikiSlug": "Liaoshen_campaign",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-huaihai",
+      "label": "The Huaihai Campaign",
+      "year": 1948,
+      "endYear": 1949,
+      "description": "The vast 1948-49 Huaihai battle annihilated the Nationalists' central China armies and opened the road to the Yangtze.",
+      "wikiSlug": "Huaihai_campaign",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-pingjin",
+      "label": "The Pingjin Campaign",
+      "year": 1948,
+      "endYear": 1949,
+      "description": "Beijing surrendered without a fight in early 1949 as the Communists took the north China plain.",
+      "wikiSlug": "Pingjin_campaign",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-gold-yuan",
+      "label": "The Gold Yuan Collapse",
+      "year": 1948,
+      "description": "A botched 1948 currency reform wiped out remaining urban savings and broke the last middle-class faith in the Nationalist state.",
+      "wikiSlug": "Gold_yuan",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-crossing-yangtze",
+      "label": "Crossing the Yangtze",
+      "year": 1949,
+      "description": "The Communists forced the Yangtze in April 1949 and took the Nationalist capital Nanjing; the regime fled south, then to Taiwan.",
+      "wikiSlug": "Yangtze_River_Crossing_campaign",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-kmt-taiwan",
+      "label": "The Retreat to Taiwan",
+      "year": 1949,
+      "description": "Chiang's government, two million followers, the gold reserve, and the imperial art collection withdrew to Taiwan, freezing the civil war unresolved.",
+      "wikiSlug": "Retreat_of_the_Republic_of_China_to_Taiwan",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-cppcc",
+      "label": "New Democracy and the United Front",
+      "year": 1949,
+      "description": "The 1949 political consultative conference let minor parties and non-Communists co-found the new state under firm party control.",
+      "wikiSlug": "Chinese_People%27s_Political_Consultative_Conference",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-common-program",
+      "label": "The Common Program",
+      "year": 1949,
+      "description": "The provisional 1949 constitution promised a multi-class 'New Democracy' and a mixed economy before the rapid turn to socialism.",
+      "wikiSlug": "Common_Program",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-sino-soviet-treaty",
+      "label": "The Sino-Soviet Treaty",
+      "year": 1950,
+      "description": "Mao spent two months in Moscow to secure a 1950 alliance and loans from Stalin, anchoring China in the Soviet bloc.",
+      "wikiSlug": "Sino-Soviet_Treaty_of_Friendship,_Alliance_and_Mutual_Assistance",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-marriage-law-1950",
+      "label": "The Marriage Law of 1950",
+      "year": 1950,
+      "description": "The new state banned arranged marriage and concubinage and granted women divorce rights, one of the revolution's most consequential social changes.",
+      "wikiSlug": "Marriage_Law_of_the_People%27s_Republic_of_China",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-suppress-counterrevolutionaries",
+      "label": "Suppression of Counterrevolutionaries",
+      "year": 1950,
+      "endYear": 1953,
+      "description": "A 1950-53 campaign executed hundreds of thousands of alleged former Nationalists, bandits, and 'class enemies' to consolidate the new order.",
+      "wikiSlug": "Campaign_to_Suppress_Counterrevolutionaries",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-three-anti-five-anti",
+      "label": "The Three-Anti and Five-Anti Campaigns",
+      "year": 1951,
+      "endYear": 1952,
+      "description": "Campaigns against corruption and private business in 1951-52 broke the urban capitalist class and brought commerce under state control.",
+      "wikiSlug": "Three-anti_and_five-anti_campaigns",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-tibet-1951",
+      "label": "The Annexation of Tibet",
+      "year": 1950,
+      "endYear": 1951,
+      "description": "The PLA entered Tibet in 1950; the 1951 Seventeen Point Agreement formalized Chinese sovereignty over the long-autonomous region.",
+      "wikiSlug": "Seventeen_Point_Agreement",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-xinjiang-1949",
+      "label": "The Incorporation of Xinjiang",
+      "year": 1949,
+      "description": "The PLA entered Xinjiang in 1949, ending its semi-independence and beginning Han settlement and military colonization of the northwest.",
+      "wikiSlug": "Incorporation_of_Xinjiang_into_the_People%27s_Republic_of_China",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-thought-reform",
+      "label": "Thought Reform of Intellectuals",
+      "year": 1951,
+      "endYear": 1952,
+      "description": "Universities and professionals were put through study, confession, and self-criticism to remold the old educated class.",
+      "wikiSlug": "Thought_reform_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-resist-america",
+      "label": "Resist America, Aid Korea",
+      "year": 1950,
+      "endYear": 1953,
+      "description": "A vast home-front mobilization around the Korean War welded patriotism to the new regime and justified domestic crackdowns.",
+      "wikiSlug": "Resist_America,_Aid_Korea_campaign",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-first-five-year-plan",
+      "label": "The First Five-Year Plan",
+      "year": 1953,
+      "endYear": 1957,
+      "description": "A Soviet-style 1953-57 plan poured investment into heavy industry, building the heavy-industrial core of the new economy.",
+      "wikiSlug": "Five-year_plans_of_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-156-projects",
+      "label": "The Soviet 156 Projects",
+      "year": 1953,
+      "endYear": 1960,
+      "description": "Soviet engineers and blueprints built scores of large factories and trained a generation of Chinese technicians before the 1960 rupture.",
+      "wikiSlug": "156_projects",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cr-collectivization-1955",
+      "label": "Agricultural Collectivization",
+      "year": 1953,
+      "endYear": 1956,
+      "description": "Peasants were pushed from mutual-aid teams into collective farms by 1956, undoing land reform's private plots within a few years.",
+      "wikiSlug": "Agricultural_collectivization_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-1954-constitution",
+      "label": "The 1954 Constitution",
+      "year": 1954,
+      "description": "China's first PRC constitution created the National People's Congress and a formal state structure under party supremacy.",
+      "wikiSlug": "1954_Constitution_of_the_People%27s_Republic_of_China",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-gao-gang",
+      "label": "The Gao Gang Affair",
+      "year": 1953,
+      "endYear": 1955,
+      "description": "The 1953-54 purge of the powerful regional leaders Gao Gang and Rao Shushi was the first major elite power struggle of the new state.",
+      "wikiSlug": "Gao_Gang",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-socialist-transformation",
+      "label": "The Socialist Transformation of Industry",
+      "year": 1955,
+      "endYear": 1956,
+      "description": "By 1956 nearly all remaining private firms were absorbed into joint state-private enterprises, ending the mixed economy.",
+      "wikiSlug": "Socialist_transformation_of_private_industry_and_commerce",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-pinyin",
+      "label": "Pinyin and the Common Speech",
+      "year": 1956,
+      "endYear": 1958,
+      "description": "The state promoted simplified characters, a standard national spoken language, and the pinyin romanization system to drive mass literacy.",
+      "wikiSlug": "Pinyin",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-de-stalinization-shock",
+      "label": "The De-Stalinization Shock",
+      "year": 1956,
+      "description": "Khrushchev's 1956 secret speech against Stalin's cult unsettled Mao and pushed him to seek a distinctively Chinese road to socialism.",
+      "wikiSlug": "On_the_Ten_Major_Relationships",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-anti-rightist",
+      "label": "The Anti-Rightist Campaign",
+      "year": 1957,
+      "endYear": 1959,
+      "description": "After inviting criticism in the Hundred Flowers, Mao reversed course in 1957 and labeled some 550,000 intellectuals 'rightists', silencing dissent for two decades.",
+      "wikiSlug": "Anti-Rightist_Campaign",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-peoples-communes",
+      "label": "The People's Communes",
+      "year": 1958,
+      "description": "In 1958 the countryside was reorganized into giant communes that pooled land, labor, tools, and even cooking, abolishing private life.",
+      "wikiSlug": "People%27s_commune",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-backyard-furnaces",
+      "label": "The Backyard Furnaces",
+      "year": 1958,
+      "description": "Tens of millions melted pots and tools in crude village furnaces to hit steel targets, producing mostly useless metal and neglecting the harvest.",
+      "wikiSlug": "Great_Leap_Forward",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cr-grain-exaggeration",
+      "label": "The Sputnik Fields",
+      "year": 1958,
+      "description": "Officials reported wildly inflated grain yields; the state then requisitioned grain against the fake figures, leaving villages with nothing.",
+      "wikiSlug": "Great_Chinese_Famine",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-four-pests",
+      "label": "The Four Pests Campaign",
+      "year": 1958,
+      "description": "A campaign to exterminate sparrows removed a check on insects, worsening the crop collapse — a textbook case of ecological backfire.",
+      "wikiSlug": "Four_Pests_campaign",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cr-lushan-conference",
+      "label": "The Lushan Conference",
+      "year": 1959,
+      "description": "When Defense Minister Peng Dehuai privately criticized the Leap in 1959, Mao destroyed him, ensuring no official dared report the famine.",
+      "wikiSlug": "Lushan_Conference",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-taiwan-strait-1958",
+      "label": "The Second Taiwan Strait Crisis",
+      "year": 1958,
+      "description": "Heavy shelling of the Nationalist-held islands of Quemoy in 1958 brought China and the US close to nuclear confrontation.",
+      "wikiSlug": "Second_Taiwan_Strait_Crisis",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-tibet-uprising-1959",
+      "label": "The 1959 Tibetan Uprising",
+      "year": 1959,
+      "description": "A failed Lhasa revolt in 1959 ended Tibetan autonomy and sent the Dalai Lama into permanent exile in India.",
+      "wikiSlug": "1959_Tibetan_uprising",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-mao-steps-back",
+      "label": "Mao Steps Back",
+      "year": 1959,
+      "description": "Mao gave up the state chairmanship to Liu Shaoqi in 1959, a handover that set up the later clash over the famine and reform.",
+      "wikiSlug": "Liu_Shaoqi",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-great-famine",
+      "label": "The Great Chinese Famine",
+      "year": 1959,
+      "endYear": 1961,
+      "description": "The Leap caused history's deadliest famine; scholarly estimates of excess deaths run from roughly 15 to 45 million, with most around 30 million.",
+      "wikiSlug": "Great_Chinese_Famine",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-xinyang-incident",
+      "label": "The Xinyang Incident",
+      "year": 1960,
+      "description": "In one Henan prefecture roughly a million people starved in 1959-60 while granaries stayed locked, a case that exposed the famine's man-made core.",
+      "wikiSlug": "Xinyang_incident",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-seven-thousand-cadres",
+      "label": "The Seven Thousand Cadres Conference",
+      "year": 1962,
+      "description": "At a huge 1962 work conference Liu Shaoqi blamed the disaster largely on policy, not weather, openly straining his relationship with Mao.",
+      "wikiSlug": "Seven_Thousand_Cadres_Conference",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-liu-deng-recovery",
+      "label": "The Liu-Deng Recovery",
+      "year": 1961,
+      "endYear": 1965,
+      "description": "Liu Shaoqi and Deng Xiaoping rolled back the communes, restored private plots and markets, and pulled the economy back from collapse.",
+      "wikiSlug": "Liu_Shaoqi",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-sino-soviet-rupture",
+      "label": "The Soviet Advisors Withdraw",
+      "year": 1960,
+      "description": "Moscow abruptly pulled all advisers and blueprints in 1960, halting hundreds of projects and deepening China's isolation.",
+      "wikiSlug": "Sino-Soviet_split",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-sino-indian-war",
+      "label": "The Sino-Indian War",
+      "year": 1962,
+      "description": "A short, sharp 1962 Himalayan border war humiliated India and asserted China's frontier claims while it was still reeling from the famine.",
+      "wikiSlug": "Sino-Indian_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-socialist-education",
+      "label": "The Socialist Education Movement",
+      "year": 1963,
+      "endYear": 1965,
+      "description": "Mao's 1963-65 rural rectification campaign against 'capitalist' backsliding became a rehearsal for the assault on the party itself.",
+      "wikiSlug": "Socialist_Education_Movement",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-learn-from-dazhai",
+      "label": "Learn from Dazhai",
+      "year": 1964,
+      "description": "Mao held up the model brigade Dazhai and the Daqing oilfield as proof that self-reliant socialist zeal could replace expertise and aid.",
+      "wikiSlug": "Dazhai",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-hai-rui-play",
+      "label": "The Dismissal of Hai Rui",
+      "year": 1961,
+      "endYear": 1965,
+      "description": "A historical play read as a coded defense of the purged Peng Dehuai; its 1965 denunciation was the opening shot of the Cultural Revolution.",
+      "wikiSlug": "Hai_Rui_Dismissed_from_Office",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-lei-feng",
+      "label": "Learn from Lei Feng",
+      "year": 1963,
+      "description": "The cult of a selfless model soldier, promoted by Lin Biao from 1963, primed the population for total devotion to Mao.",
+      "wikiSlug": "Lei_Feng",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-lin-biao-cult",
+      "label": "Lin Biao and the Mao Cult",
+      "year": 1964,
+      "endYear": 1971,
+      "description": "Defense Minister Lin Biao turned the army into the engine of Mao worship and rose as Mao's anointed successor.",
+      "wikiSlug": "Lin_Biao",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-may-16-circular",
+      "label": "The May 16 Circular",
+      "year": 1966,
+      "description": "Mao's 1966 directive declared enemies had infiltrated the party and created the Cultural Revolution Group that ran the purge.",
+      "wikiSlug": "May_16_Notification",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-big-character-posters",
+      "label": "The Big-Character Posters",
+      "year": 1966,
+      "description": "Mass handwritten wall posters, beginning at Peking University in 1966, became the medium of denunciation and factional war.",
+      "wikiSlug": "Big-character_poster",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-tiananmen-rallies",
+      "label": "The Tiananmen Rallies",
+      "year": 1966,
+      "description": "Mao reviewed millions of Red Guards in eight 1966 Tiananmen rallies, unleashing students nationwide against authority.",
+      "wikiSlug": "Red_Guards",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-liu-shaoqi-death",
+      "label": "The Fall of Liu Shaoqi",
+      "year": 1966,
+      "endYear": 1969,
+      "description": "China's head of state was denounced as the 'top capitalist roader', tortured, and left to die in prison in 1969.",
+      "wikiSlug": "Liu_Shaoqi",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-wuhan-incident",
+      "label": "The Wuhan Incident",
+      "year": 1967,
+      "description": "A 1967 military-backed revolt against central radicals nearly tipped the Cultural Revolution into open civil war.",
+      "wikiSlug": "Wuhan_incident",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-down-to-countryside",
+      "label": "Down to the Countryside",
+      "year": 1968,
+      "endYear": 1978,
+      "description": "From 1968 some 17 million urban youth were sent to villages, dispersing the Red Guards and creating a 'lost generation'.",
+      "wikiSlug": "Down_to_the_Countryside_Movement",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-cleansing-class-ranks",
+      "label": "Cleansing the Class Ranks",
+      "year": 1968,
+      "endYear": 1969,
+      "description": "The least-known and deadliest phase, a 1968-69 bureaucratic purge that killed on the order of a million people.",
+      "wikiSlug": "Cleansing_the_Class_Ranks",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-ninth-congress",
+      "label": "The Ninth Party Congress",
+      "year": 1969,
+      "description": "The 1969 congress declared the Cultural Revolution a victory and wrote Lin Biao into the constitution as Mao's successor.",
+      "wikiSlug": "9th_National_Congress_of_the_Chinese_Communist_Party",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-shanghai-commune",
+      "label": "The Shanghai January Storm",
+      "year": 1967,
+      "description": "Radicals seized the Shanghai government in early 1967; the experiment was reined into army-led 'revolutionary committees'.",
+      "wikiSlug": "January_Storm",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-zhenbao-island",
+      "label": "The Zhenbao Island Clash",
+      "year": 1969,
+      "description": "A 1969 border battle with the USSR brought the two powers near war and pushed China toward an opening to the United States.",
+      "wikiSlug": "Sino-Soviet_border_conflict",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-cr-lin-biao-incident",
+      "label": "The Lin Biao Incident",
+      "year": 1971,
+      "description": "Mao's chosen heir allegedly plotted a coup and died in a 1971 plane crash fleeing to the USSR, gutting faith in the whole movement.",
+      "wikiSlug": "Lin_Biao",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-ping-pong",
+      "label": "Ping-Pong Diplomacy",
+      "year": 1971,
+      "description": "A 1971 table-tennis exchange signaled the secret thaw that led to Kissinger's visit and the US opening.",
+      "wikiSlug": "Ping-pong_diplomacy",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cr-gang-of-four",
+      "label": "The Gang of Four",
+      "year": 1973,
+      "endYear": 1976,
+      "description": "Jiang Qing and three Shanghai radicals formed the faction that ran the late Cultural Revolution and fought the moderates over the succession.",
+      "wikiSlug": "Gang_of_Four",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-criticize-lin-confucius",
+      "label": "Criticize Lin, Criticize Confucius",
+      "year": 1973,
+      "endYear": 1974,
+      "description": "A 1973-74 campaign nominally against Lin Biao and Confucius was a coded radical attack on the moderate Zhou Enlai.",
+      "wikiSlug": "Criticize_Lin,_Criticize_Confucius",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cr-deng-rehabilitated",
+      "label": "The Return of Deng Xiaoping",
+      "year": 1973,
+      "endYear": 1975,
+      "description": "Twice-purged Deng Xiaoping was brought back to run the government and push the Four Modernizations before the radicals ousted him again.",
+      "wikiSlug": "Deng_Xiaoping",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cr-four-modernizations",
+      "label": "The Four Modernizations",
+      "year": 1975,
+      "description": "Zhou Enlai's 1975 program of modernizing agriculture, industry, defense, and science became the blueprint for the post-Mao era.",
+      "wikiSlug": "Four_Modernizations",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cr-tangshan-earthquake",
+      "label": "The Tangshan Earthquake",
+      "year": 1976,
+      "description": "A 1976 quake killed on the order of a quarter-million people and, by tradition, seemed to foretell the fall of the dynasty as Mao lay dying.",
+      "wikiSlug": "1976_Tangshan_earthquake",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-cr-gang-of-four-arrest",
+      "label": "The Arrest of the Gang of Four",
+      "year": 1976,
+      "description": "Weeks after Mao's death Hua Guofeng arrested Jiang Qing and her allies, ending the Cultural Revolution and opening the way to Deng.",
+      "wikiSlug": "Gang_of_Four",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
