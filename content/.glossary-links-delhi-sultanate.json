@@ -1,253 +1,1470 @@
 {
   "1": [
-    {"term": "Sultan", "matchText": "Sultan", "wikiSlug": "Sultan", "type": "concept"},
-    {"term": "Mamluk", "matchText": "mamluks", "wikiSlug": "Mamluk", "type": "concept"},
-    {"term": "Ghurid dynasty", "matchText": "Ghurid", "wikiSlug": "Ghurid_dynasty", "type": "concept"},
-    {"term": "Muhammad of Ghor", "matchText": "Muhammad of Ghor", "wikiSlug": "Muhammad_of_Ghor", "type": "people"},
-    {"term": "Abbasid Caliphate", "matchText": "Abbasid", "wikiSlug": "Abbasid_Caliphate", "type": "concept"},
-    {"term": "Khorasan", "matchText": "Khorasan", "wikiSlug": "Greater_Khorasan", "type": "place"},
-    {"term": "Khwarazmian Empire", "matchText": "Khwarazmians", "wikiSlug": "Khwarazmian_Empire", "type": "concept"},
-    {"term": "Tulunids", "matchText": "Tulunids", "wikiSlug": "Tulunid_dynasty", "type": "concept"},
-    {"term": "Ghaznavid dynasty", "matchText": "Ghaznavid", "wikiSlug": "Ghaznavid_dynasty", "type": "concept"},
-    {"term": "Lahore", "matchText": "Lahore", "wikiSlug": "Lahore", "type": "place"},
-    {"term": "Yamuna river", "matchText": "Yamuna", "wikiSlug": "Yamuna", "type": "place"},
-    {"term": "Ganges", "matchText": "Ganges", "wikiSlug": "Ganges", "type": "place"},
-    {"term": "Khyber Pass", "matchText": "Khyber Pass", "wikiSlug": "Khyber_Pass", "type": "place"},
-    {"term": "Doab", "matchText": "Doab", "wikiSlug": "Ganga-Yamuna_Doab", "type": "place"},
-    {"term": "Mahabharata", "matchText": "Mahabharata", "wikiSlug": "Mahabharata", "type": "concept"},
-    {"term": "Indraprastha", "matchText": "Indraprastha", "wikiSlug": "Indraprastha", "type": "place"},
-    {"term": "Tomara dynasty", "matchText": "Tomara", "wikiSlug": "Tomara_dynasty", "type": "concept"},
-    {"term": "Chauhans of Ajmer", "matchText": "Chauhans of Ajmer", "wikiSlug": "Chahamanas_of_Shakambhari", "type": "concept"},
-    {"term": "Prithviraj Chauhan", "matchText": "Prithviraj Chauhan", "wikiSlug": "Prithviraj_Chauhan", "type": "people"},
-    {"term": "Mehrauli", "matchText": "Mehrauli", "wikiSlug": "Mehrauli", "type": "place"},
-    {"term": "Naskhi calligraphy", "matchText": "Naskhi", "wikiSlug": "Naskh_(script)", "type": "concept"},
-    {"term": "Muqarnas", "matchText": "muqarnas", "wikiSlug": "Muqarnas", "type": "concept"},
-    {"term": "Mahmud of Ghazni", "matchText": "Mahmud of Ghazni", "wikiSlug": "Mahmud_of_Ghazni", "type": "people"},
-    {"term": "Chandragupta II", "matchText": "Chandragupta II", "wikiSlug": "Chandragupta_II", "type": "people"},
-    {"term": "Genghis Khan", "matchText": "Genghis Khan", "wikiSlug": "Genghis_Khan", "type": "people"},
-    {"term": "Kurultai", "matchText": "kurultai", "wikiSlug": "Kurultai", "type": "concept"},
-    {"term": "Innocent III", "matchText": "Innocent III", "wikiSlug": "Pope_Innocent_III", "type": "people"},
-    {"term": "Ayyubid Sultanate", "matchText": "Ayyubid Sultanate", "wikiSlug": "Ayyubid_dynasty", "type": "concept"},
-    {"term": "Mali Empire", "matchText": "Mali Empire", "wikiSlug": "Mali_Empire", "type": "concept"},
-    {"term": "Sundiata Keita", "matchText": "Sundiata Keita", "wikiSlug": "Sundiata_Keita", "type": "people"},
-    {"term": "Ibn al-Arabi", "matchText": "Ibn al-Arabi", "wikiSlug": "Ibn_Arabi", "type": "people"}
+    {
+      "term": "Sultan",
+      "matchText": "Sultan",
+      "wikiSlug": "Sultan",
+      "type": "concept"
+    },
+    {
+      "term": "Mamluk",
+      "matchText": "mamluks",
+      "wikiSlug": "Mamluk",
+      "type": "concept"
+    },
+    {
+      "term": "Ghurid dynasty",
+      "matchText": "Ghurid",
+      "wikiSlug": "Ghurid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Muhammad of Ghor",
+      "matchText": "Muhammad of Ghor",
+      "wikiSlug": "Muhammad_of_Ghor",
+      "type": "people"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Khwarazmian Empire",
+      "matchText": "Khwarazmians",
+      "wikiSlug": "Khwarazmian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Tulunids",
+      "matchText": "Tulunids",
+      "wikiSlug": "Tulunid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ghaznavid dynasty",
+      "matchText": "Ghaznavid",
+      "wikiSlug": "Ghaznavid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Lahore",
+      "matchText": "Lahore",
+      "wikiSlug": "Lahore",
+      "type": "place"
+    },
+    {
+      "term": "Yamuna river",
+      "matchText": "Yamuna",
+      "wikiSlug": "Yamuna",
+      "type": "place"
+    },
+    {
+      "term": "Ganges",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Khyber Pass",
+      "matchText": "Khyber Pass",
+      "wikiSlug": "Khyber_Pass",
+      "type": "place"
+    },
+    {
+      "term": "Doab",
+      "matchText": "Doab",
+      "wikiSlug": "Ganga-Yamuna_Doab",
+      "type": "place"
+    },
+    {
+      "term": "Mahabharata",
+      "matchText": "Mahabharata",
+      "wikiSlug": "Mahabharata",
+      "type": "concept"
+    },
+    {
+      "term": "Indraprastha",
+      "matchText": "Indraprastha",
+      "wikiSlug": "Indraprastha",
+      "type": "place"
+    },
+    {
+      "term": "Tomara dynasty",
+      "matchText": "Tomara",
+      "wikiSlug": "Tomara_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Chauhans of Ajmer",
+      "matchText": "Chauhans of Ajmer",
+      "wikiSlug": "Chahamanas_of_Shakambhari",
+      "type": "concept"
+    },
+    {
+      "term": "Prithviraj Chauhan",
+      "matchText": "Prithviraj Chauhan",
+      "wikiSlug": "Prithviraj_Chauhan",
+      "type": "people"
+    },
+    {
+      "term": "Mehrauli",
+      "matchText": "Mehrauli",
+      "wikiSlug": "Mehrauli",
+      "type": "place"
+    },
+    {
+      "term": "Naskhi calligraphy",
+      "matchText": "Naskhi",
+      "wikiSlug": "Naskh_(script)",
+      "type": "concept"
+    },
+    {
+      "term": "Muqarnas",
+      "matchText": "muqarnas",
+      "wikiSlug": "Muqarnas",
+      "type": "concept"
+    },
+    {
+      "term": "Mahmud of Ghazni",
+      "matchText": "Mahmud of Ghazni",
+      "wikiSlug": "Mahmud_of_Ghazni",
+      "type": "people"
+    },
+    {
+      "term": "Chandragupta II",
+      "matchText": "Chandragupta II",
+      "wikiSlug": "Chandragupta_II",
+      "type": "people"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Kurultai",
+      "matchText": "kurultai",
+      "wikiSlug": "Kurultai",
+      "type": "concept"
+    },
+    {
+      "term": "Innocent III",
+      "matchText": "Innocent III",
+      "wikiSlug": "Pope_Innocent_III",
+      "type": "people"
+    },
+    {
+      "term": "Ayyubid Sultanate",
+      "matchText": "Ayyubid Sultanate",
+      "wikiSlug": "Ayyubid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Mali Empire",
+      "matchText": "Mali Empire",
+      "wikiSlug": "Mali_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Sundiata Keita",
+      "matchText": "Sundiata Keita",
+      "wikiSlug": "Sundiata_Keita",
+      "type": "people"
+    },
+    {
+      "term": "Ibn al-Arabi",
+      "matchText": "Ibn al-Arabi",
+      "wikiSlug": "Ibn_Arabi",
+      "type": "people"
+    }
   ],
   "2": [
-    {"term": "Razia Sultana", "matchText": "Razia", "wikiSlug": "Razia_Sultana", "type": "people"},
-    {"term": "Minhaj-i Siraj", "matchText": "Minhaj-i Siraj", "wikiSlug": "Minhaj-i-Siraj", "type": "people"},
-    {"term": "Tabaqat-i Nasiri", "matchText": "Tabaqat-i Nasiri", "wikiSlug": "Tabaqat-i_Nasiri", "type": "concept"},
-    {"term": "Purdah", "matchText": "purdah", "wikiSlug": "Purdah", "type": "concept"},
-    {"term": "Shajar al-Durr", "matchText": "Shajar al-Durr", "wikiSlug": "Shajar_al-Durr", "type": "people"},
-    {"term": "Wu Zetian", "matchText": "Wu Zetian", "wikiSlug": "Wu_Zetian", "type": "people"},
-    {"term": "Boudicca", "matchText": "Boudicca", "wikiSlug": "Boudica", "type": "people"},
-    {"term": "Hatshepsut", "matchText": "Hatshepsut", "wikiSlug": "Hatshepsut", "type": "people"},
-    {"term": "Bhatinda", "matchText": "Bhatinda", "wikiSlug": "Bathinda", "type": "place"},
-    {"term": "Kaithal", "matchText": "Kaithal", "wikiSlug": "Kaithal", "type": "place"},
-    {"term": "Balban", "matchText": "Balban", "wikiSlug": "Ghiyas_ud_din_Balban", "type": "people"},
-    {"term": "Sasanian Empire", "matchText": "Sasanian", "wikiSlug": "Sasanian_Empire", "type": "concept"},
-    {"term": "Zilullah", "matchText": "Zilullah", "wikiSlug": "Caliphate", "type": "concept"},
-    {"term": "Barid", "matchText": "barid", "wikiSlug": "Barid", "type": "concept"},
-    {"term": "Doab", "matchText": "Doab", "wikiSlug": "Ganga-Yamuna_Doab", "type": "place"},
-    {"term": "Mewat", "matchText": "Mewat", "wikiSlug": "Mewat", "type": "place"},
-    {"term": "Multan", "matchText": "Multan", "wikiSlug": "Multan", "type": "place"},
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "Indus river", "matchText": "Indus", "wikiSlug": "Indus_River", "type": "place"},
-    {"term": "Khwarazm", "matchText": "Khwarazmian", "wikiSlug": "Khwarazmian_Empire", "type": "concept"},
-    {"term": "Chagatai Khanate", "matchText": "Chagatai khanate", "wikiSlug": "Chagatai_Khanate", "type": "concept"},
-    {"term": "Sunam", "matchText": "Sunam", "wikiSlug": "Sunam", "type": "place"},
-    {"term": "Mamluk Sultanate of Egypt", "matchText": "Mamluk Sultanate of Egypt", "wikiSlug": "Mamluk_Sultanate", "type": "concept"},
-    {"term": "Yuan Dynasty", "matchText": "Yuan Dynasty", "wikiSlug": "Yuan_dynasty", "type": "concept"},
-    {"term": "Kublai Khan", "matchText": "Kublai Khan", "wikiSlug": "Kublai_Khan", "type": "people"},
-    {"term": "Crusader states", "matchText": "Crusader states", "wikiSlug": "Crusader_states", "type": "concept"}
+    {
+      "term": "Razia Sultana",
+      "matchText": "Razia",
+      "wikiSlug": "Razia_Sultana",
+      "type": "people"
+    },
+    {
+      "term": "Minhaj-i Siraj",
+      "matchText": "Minhaj-i Siraj",
+      "wikiSlug": "Minhaj-i-Siraj",
+      "type": "people"
+    },
+    {
+      "term": "Tabaqat-i Nasiri",
+      "matchText": "Tabaqat-i Nasiri",
+      "wikiSlug": "Tabaqat-i_Nasiri",
+      "type": "concept"
+    },
+    {
+      "term": "Purdah",
+      "matchText": "purdah",
+      "wikiSlug": "Purdah",
+      "type": "concept"
+    },
+    {
+      "term": "Shajar al-Durr",
+      "matchText": "Shajar al-Durr",
+      "wikiSlug": "Shajar_al-Durr",
+      "type": "people"
+    },
+    {
+      "term": "Wu Zetian",
+      "matchText": "Wu Zetian",
+      "wikiSlug": "Wu_Zetian",
+      "type": "people"
+    },
+    {
+      "term": "Boudicca",
+      "matchText": "Boudicca",
+      "wikiSlug": "Boudica",
+      "type": "people"
+    },
+    {
+      "term": "Hatshepsut",
+      "matchText": "Hatshepsut",
+      "wikiSlug": "Hatshepsut",
+      "type": "people"
+    },
+    {
+      "term": "Bhatinda",
+      "matchText": "Bhatinda",
+      "wikiSlug": "Bathinda",
+      "type": "place"
+    },
+    {
+      "term": "Kaithal",
+      "matchText": "Kaithal",
+      "wikiSlug": "Kaithal",
+      "type": "place"
+    },
+    {
+      "term": "Balban",
+      "matchText": "Balban",
+      "wikiSlug": "Ghiyas_ud_din_Balban",
+      "type": "people"
+    },
+    {
+      "term": "Sasanian Empire",
+      "matchText": "Sasanian",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Zilullah",
+      "matchText": "Zilullah",
+      "wikiSlug": "Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Barid",
+      "matchText": "barid",
+      "wikiSlug": "Barid",
+      "type": "concept"
+    },
+    {
+      "term": "Doab",
+      "matchText": "Doab",
+      "wikiSlug": "Ganga-Yamuna_Doab",
+      "type": "place"
+    },
+    {
+      "term": "Mewat",
+      "matchText": "Mewat",
+      "wikiSlug": "Mewat",
+      "type": "place"
+    },
+    {
+      "term": "Multan",
+      "matchText": "Multan",
+      "wikiSlug": "Multan",
+      "type": "place"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Indus river",
+      "matchText": "Indus",
+      "wikiSlug": "Indus_River",
+      "type": "place"
+    },
+    {
+      "term": "Khwarazm",
+      "matchText": "Khwarazmian",
+      "wikiSlug": "Khwarazmian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Chagatai Khanate",
+      "matchText": "Chagatai khanate",
+      "wikiSlug": "Chagatai_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Sunam",
+      "matchText": "Sunam",
+      "wikiSlug": "Sunam",
+      "type": "place"
+    },
+    {
+      "term": "Mamluk Sultanate of Egypt",
+      "matchText": "Mamluk Sultanate of Egypt",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Yuan Dynasty",
+      "matchText": "Yuan Dynasty",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Crusader states",
+      "matchText": "Crusader states",
+      "wikiSlug": "Crusader_states",
+      "type": "concept"
+    },
+    {
+      "term": "Iqta",
+      "matchText": "iqta",
+      "wikiSlug": "Iqta",
+      "type": "concept"
+    }
   ],
   "3": [
-    {"term": "Khalji dynasty", "matchText": "Khalji dynasty", "wikiSlug": "Khalji_dynasty", "type": "concept"},
-    {"term": "Alauddin Khalji", "matchText": "Alauddin Khalji", "wikiSlug": "Alauddin_Khalji", "type": "people"},
-    {"term": "Jalaluddin Khalji", "matchText": "Jalaluddin Khalji", "wikiSlug": "Jalal-ud-din_Khalji", "type": "people"},
-    {"term": "Ziauddin Barani", "matchText": "Ziauddin Barani", "wikiSlug": "Ziauddin_Barani", "type": "people"},
-    {"term": "Devagiri", "matchText": "Devagiri", "wikiSlug": "Daulatabad_Fort", "type": "place"},
-    {"term": "Kara", "matchText": "Kara", "wikiSlug": "Kara,_Uttar_Pradesh", "type": "place"},
-    {"term": "Chagatai Khanate", "matchText": "Chagatai khanate", "wikiSlug": "Chagatai_Khanate", "type": "concept"},
-    {"term": "Battle of Kili", "matchText": "Battle of Kili", "wikiSlug": "Battle_of_Kili", "type": "concept"},
-    {"term": "Siri Fort", "matchText": "Siri", "wikiSlug": "Siri_Fort", "type": "place"},
-    {"term": "Mamluk Egypt", "matchText": "Mamluk Egypt", "wikiSlug": "Mamluk_Sultanate", "type": "concept"},
-    {"term": "Battle of Ain Jalut", "matchText": "Ain Jalut", "wikiSlug": "Battle_of_Ain_Jalut", "type": "concept"},
-    {"term": "Ranthambore Fort", "matchText": "Ranthambore", "wikiSlug": "Ranthambore_Fort", "type": "place"},
-    {"term": "Chittor Fort", "matchText": "Chittor", "wikiSlug": "Chittorgarh_Fort", "type": "place"},
-    {"term": "Padmini", "matchText": "Padmini", "wikiSlug": "Padmavati_(film)", "type": "concept"},
-    {"term": "Jauhar", "matchText": "jauhar", "wikiSlug": "Jauhar", "type": "concept"},
-    {"term": "Malik Kafur", "matchText": "Malik Kafur", "wikiSlug": "Malik_Kafur", "type": "people"},
-    {"term": "Yadavas of Devagiri", "matchText": "Yadavas of Devagiri", "wikiSlug": "Seuna_(Yadava)_dynasty", "type": "concept"},
-    {"term": "Kakatiyas of Warangal", "matchText": "Kakatiyas of Warangal", "wikiSlug": "Kakatiya_dynasty", "type": "concept"},
-    {"term": "Hoysalas", "matchText": "Hoysalas of Dwarasamudra", "wikiSlug": "Hoysala_Empire", "type": "concept"},
-    {"term": "Pandya dynasty", "matchText": "Pandya", "wikiSlug": "Pandya_dynasty", "type": "concept"},
-    {"term": "Madurai", "matchText": "Madurai", "wikiSlug": "Madurai", "type": "place"},
-    {"term": "Koh-i-Noor", "matchText": "Koh-i-Noor", "wikiSlug": "Koh-i-Noor", "type": "concept"},
-    {"term": "Maund", "matchText": "maund", "wikiSlug": "Maund", "type": "concept"},
-    {"term": "Ilkhanate", "matchText": "Mongol Ilkhanate", "wikiSlug": "Ilkhanate", "type": "concept"},
-    {"term": "Ghazan Khan", "matchText": "Ghazan Khan", "wikiSlug": "Ghazan", "type": "people"},
-    {"term": "Mansa Musa", "matchText": "Mansa Musa", "wikiSlug": "Mansa_Musa", "type": "people"},
-    {"term": "Osman I", "matchText": "Osman I", "wikiSlug": "Osman_I", "type": "people"},
-    {"term": "Marco Polo", "matchText": "Marco Polo", "wikiSlug": "Marco_Polo", "type": "people"},
-    {"term": "Black Death", "matchText": "Black Death", "wikiSlug": "Black_Death", "type": "concept"}
+    {
+      "term": "Khalji dynasty",
+      "matchText": "Khalji dynasty",
+      "wikiSlug": "Khalji_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Alauddin Khalji",
+      "matchText": "Alauddin Khalji",
+      "wikiSlug": "Alauddin_Khalji",
+      "type": "people"
+    },
+    {
+      "term": "Jalaluddin Khalji",
+      "matchText": "Jalaluddin Khalji",
+      "wikiSlug": "Jalal-ud-din_Khalji",
+      "type": "people"
+    },
+    {
+      "term": "Ziauddin Barani",
+      "matchText": "Ziauddin Barani",
+      "wikiSlug": "Ziauddin_Barani",
+      "type": "people"
+    },
+    {
+      "term": "Devagiri",
+      "matchText": "Devagiri",
+      "wikiSlug": "Daulatabad_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Kara",
+      "matchText": "Kara",
+      "wikiSlug": "Kara,_Uttar_Pradesh",
+      "type": "place"
+    },
+    {
+      "term": "Chagatai Khanate",
+      "matchText": "Chagatai khanate",
+      "wikiSlug": "Chagatai_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Kili",
+      "matchText": "Battle of Kili",
+      "wikiSlug": "Battle_of_Kili",
+      "type": "concept"
+    },
+    {
+      "term": "Siri Fort",
+      "matchText": "Siri",
+      "wikiSlug": "Siri_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Mamluk Egypt",
+      "matchText": "Mamluk Egypt",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Ain Jalut",
+      "matchText": "Ain Jalut",
+      "wikiSlug": "Battle_of_Ain_Jalut",
+      "type": "concept"
+    },
+    {
+      "term": "Ranthambore Fort",
+      "matchText": "Ranthambore",
+      "wikiSlug": "Ranthambore_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Chittor Fort",
+      "matchText": "Chittor",
+      "wikiSlug": "Chittorgarh_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Padmini",
+      "matchText": "Padmini",
+      "wikiSlug": "Padmavati_(film)",
+      "type": "concept"
+    },
+    {
+      "term": "Jauhar",
+      "matchText": "jauhar",
+      "wikiSlug": "Jauhar",
+      "type": "concept"
+    },
+    {
+      "term": "Malik Kafur",
+      "matchText": "Malik Kafur",
+      "wikiSlug": "Malik_Kafur",
+      "type": "people"
+    },
+    {
+      "term": "Yadavas of Devagiri",
+      "matchText": "Yadavas of Devagiri",
+      "wikiSlug": "Seuna_(Yadava)_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kakatiyas of Warangal",
+      "matchText": "Kakatiyas of Warangal",
+      "wikiSlug": "Kakatiya_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Hoysalas",
+      "matchText": "Hoysalas of Dwarasamudra",
+      "wikiSlug": "Hoysala_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Pandya dynasty",
+      "matchText": "Pandya",
+      "wikiSlug": "Pandya_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Madurai",
+      "matchText": "Madurai",
+      "wikiSlug": "Madurai",
+      "type": "place"
+    },
+    {
+      "term": "Koh-i-Noor",
+      "matchText": "Koh-i-Noor",
+      "wikiSlug": "Koh-i-Noor",
+      "type": "concept"
+    },
+    {
+      "term": "Maund",
+      "matchText": "maund",
+      "wikiSlug": "Maund",
+      "type": "concept"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Mongol Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Ghazan Khan",
+      "matchText": "Ghazan Khan",
+      "wikiSlug": "Ghazan",
+      "type": "people"
+    },
+    {
+      "term": "Mansa Musa",
+      "matchText": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa",
+      "type": "people"
+    },
+    {
+      "term": "Osman I",
+      "matchText": "Osman I",
+      "wikiSlug": "Osman_I",
+      "type": "people"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    }
   ],
   "4": [
-    {"term": "Tughlaq dynasty", "matchText": "Tughlaq dynasty", "wikiSlug": "Tughlaq_dynasty", "type": "concept"},
-    {"term": "Ghazi Malik", "matchText": "Ghazi Malik", "wikiSlug": "Ghiyath_al-Din_Tughluq", "type": "people"},
-    {"term": "Tughlaqabad", "matchText": "Tughlaqabad", "wikiSlug": "Tughlaqabad_Fort", "type": "place"},
-    {"term": "Nizamuddin Auliya", "matchText": "Nizamuddin Auliya", "wikiSlug": "Nizamuddin_Auliya", "type": "people"},
-    {"term": "Afghanpur", "matchText": "Afghanpur", "wikiSlug": "Afghanpur", "type": "place"},
-    {"term": "Muhammad bin Tughlaq", "matchText": "Muhammad bin Tughlaq", "wikiSlug": "Muhammad_bin_Tughluq", "type": "people"},
-    {"term": "Ibn Battuta", "matchText": "Ibn Battuta", "wikiSlug": "Ibn_Battuta", "type": "people"},
-    {"term": "Qadi", "matchText": "qadi", "wikiSlug": "Qadi", "type": "concept"},
-    {"term": "Daulatabad", "matchText": "Daulatabad", "wikiSlug": "Daulatabad_Fort", "type": "place"},
-    {"term": "Khurasan", "matchText": "Khurasan", "wikiSlug": "Greater_Khorasan", "type": "place"},
-    {"term": "Bahmani Sultanate", "matchText": "Bahmani Sultanate", "wikiSlug": "Bahmani_Sultanate", "type": "concept"},
-    {"term": "Vijayanagara", "matchText": "Vijayanagara", "wikiSlug": "Vijayanagara_Empire", "type": "concept"},
-    {"term": "Bengal Sultanate", "matchText": "Bengal Sultanate", "wikiSlug": "Bengal_Sultanate", "type": "concept"},
-    {"term": "Tungabhadra", "matchText": "Tungabhadra", "wikiSlug": "Tungabhadra_River", "type": "place"},
-    {"term": "Firuz Shah Tughlaq", "matchText": "Firuz Shah Tughlaq", "wikiSlug": "Firuz_Shah_Tughlaq", "type": "people"},
-    {"term": "West Yamuna Canal", "matchText": "West Yamuna Canal", "wikiSlug": "West_Yamuna_Canal", "type": "concept"},
-    {"term": "Akbar", "matchText": "Akbar", "wikiSlug": "Akbar", "type": "people"},
-    {"term": "Hisar", "matchText": "Hisar", "wikiSlug": "Hisar,_Haryana", "type": "place"},
-    {"term": "Jaunpur", "matchText": "Jaunpur", "wikiSlug": "Jaunpur,_Uttar_Pradesh", "type": "place"},
-    {"term": "Firuzabad", "matchText": "Firuzabad", "wikiSlug": "Firoz_Shah_Kotla", "type": "place"},
-    {"term": "Ashoka", "matchText": "Ashoka", "wikiSlug": "Ashoka", "type": "people"},
-    {"term": "Brahmi script", "matchText": "Brahmi", "wikiSlug": "Brahmi_script", "type": "concept"},
-    {"term": "James Prinsep", "matchText": "James Prinsep", "wikiSlug": "James_Prinsep", "type": "people"},
-    {"term": "Jizya", "matchText": "jizya", "wikiSlug": "Jizya", "type": "concept"},
-    {"term": "Dhimmi", "matchText": "dhimmi", "wikiSlug": "Dhimmi", "type": "concept"},
-    {"term": "Little Ice Age", "matchText": "Little Ice Age", "wikiSlug": "Little_Ice_Age", "type": "concept"},
-    {"term": "Hundred Years' War", "matchText": "Hundred Years' War", "wikiSlug": "Hundred_Years%27_War", "type": "concept"},
-    {"term": "Ming Dynasty", "matchText": "Ming", "wikiSlug": "Ming_dynasty", "type": "concept"}
+    {
+      "term": "Tughlaq dynasty",
+      "matchText": "Tughlaq dynasty",
+      "wikiSlug": "Tughlaq_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ghazi Malik",
+      "matchText": "Ghazi Malik",
+      "wikiSlug": "Ghiyath_al-Din_Tughluq",
+      "type": "people"
+    },
+    {
+      "term": "Tughlaqabad",
+      "matchText": "Tughlaqabad",
+      "wikiSlug": "Tughlaqabad_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Nizamuddin Auliya",
+      "matchText": "Nizamuddin Auliya",
+      "wikiSlug": "Nizamuddin_Auliya",
+      "type": "people"
+    },
+    {
+      "term": "Afghanpur",
+      "matchText": "Afghanpur",
+      "wikiSlug": "Afghanpur",
+      "type": "place"
+    },
+    {
+      "term": "Muhammad bin Tughlaq",
+      "matchText": "Muhammad bin Tughlaq",
+      "wikiSlug": "Muhammad_bin_Tughluq",
+      "type": "people"
+    },
+    {
+      "term": "Ibn Battuta",
+      "matchText": "Ibn Battuta",
+      "wikiSlug": "Ibn_Battuta",
+      "type": "people"
+    },
+    {
+      "term": "Qadi",
+      "matchText": "qadi",
+      "wikiSlug": "Qadi",
+      "type": "concept"
+    },
+    {
+      "term": "Daulatabad",
+      "matchText": "Daulatabad",
+      "wikiSlug": "Daulatabad_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Khurasan",
+      "matchText": "Khurasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Bahmani Sultanate",
+      "matchText": "Bahmani Sultanate",
+      "wikiSlug": "Bahmani_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Vijayanagara",
+      "matchText": "Vijayanagara",
+      "wikiSlug": "Vijayanagara_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Bengal Sultanate",
+      "matchText": "Bengal Sultanate",
+      "wikiSlug": "Bengal_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Tungabhadra",
+      "matchText": "Tungabhadra",
+      "wikiSlug": "Tungabhadra_River",
+      "type": "place"
+    },
+    {
+      "term": "Firuz Shah Tughlaq",
+      "matchText": "Firuz Shah Tughlaq",
+      "wikiSlug": "Firuz_Shah_Tughlaq",
+      "type": "people"
+    },
+    {
+      "term": "West Yamuna Canal",
+      "matchText": "West Yamuna Canal",
+      "wikiSlug": "West_Yamuna_Canal",
+      "type": "concept"
+    },
+    {
+      "term": "Akbar",
+      "matchText": "Akbar",
+      "wikiSlug": "Akbar",
+      "type": "people"
+    },
+    {
+      "term": "Hisar",
+      "matchText": "Hisar",
+      "wikiSlug": "Hisar,_Haryana",
+      "type": "place"
+    },
+    {
+      "term": "Jaunpur",
+      "matchText": "Jaunpur",
+      "wikiSlug": "Jaunpur,_Uttar_Pradesh",
+      "type": "place"
+    },
+    {
+      "term": "Firuzabad",
+      "matchText": "Firuzabad",
+      "wikiSlug": "Firoz_Shah_Kotla",
+      "type": "place"
+    },
+    {
+      "term": "Ashoka",
+      "matchText": "Ashoka",
+      "wikiSlug": "Ashoka",
+      "type": "people"
+    },
+    {
+      "term": "Brahmi script",
+      "matchText": "Brahmi",
+      "wikiSlug": "Brahmi_script",
+      "type": "concept"
+    },
+    {
+      "term": "James Prinsep",
+      "matchText": "James Prinsep",
+      "wikiSlug": "James_Prinsep",
+      "type": "people"
+    },
+    {
+      "term": "Jizya",
+      "matchText": "jizya",
+      "wikiSlug": "Jizya",
+      "type": "concept"
+    },
+    {
+      "term": "Dhimmi",
+      "matchText": "dhimmi",
+      "wikiSlug": "Dhimmi",
+      "type": "concept"
+    },
+    {
+      "term": "Little Ice Age",
+      "matchText": "Little Ice Age",
+      "wikiSlug": "Little_Ice_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Hundred Years' War",
+      "matchText": "Hundred Years' War",
+      "wikiSlug": "Hundred_Years%27_War",
+      "type": "concept"
+    },
+    {
+      "term": "Ming Dynasty",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Daulatabad Fort",
+      "matchText": "Devagiri",
+      "wikiSlug": "Daulatabad_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Bahmani Sultanate",
+      "matchText": "Alauddin Bahman Shah",
+      "wikiSlug": "Bahmani_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Bidar",
+      "matchText": "Bidar",
+      "wikiSlug": "Bidar",
+      "type": "place"
+    }
   ],
   "5": [
-    {"term": "Timur", "matchText": "Timur", "wikiSlug": "Timur", "type": "people"},
-    {"term": "Tamerlane", "matchText": "Tamerlane", "wikiSlug": "Timur", "type": "people"},
-    {"term": "Transoxiana", "matchText": "Transoxiana", "wikiSlug": "Transoxiana", "type": "place"},
-    {"term": "Sharaf al-Din Ali Yazdi", "matchText": "Sharaf al-Din Ali Yazdi", "wikiSlug": "Sharaf_ad-Din_Ali_Yazdi", "type": "people"},
-    {"term": "Zafarnama", "matchText": "Zafarnama", "wikiSlug": "Zafarnama_(Yazdi_biography)", "type": "concept"},
-    {"term": "Battle of Loni", "matchText": "Loni", "wikiSlug": "Loni,_Uttar_Pradesh", "type": "place"},
-    {"term": "Samarkand", "matchText": "Samarkand", "wikiSlug": "Samarkand", "type": "place"},
-    {"term": "Babur", "matchText": "Babur", "wikiSlug": "Babur", "type": "people"},
-    {"term": "Sayyid dynasty", "matchText": "Sayyid dynasty", "wikiSlug": "Sayyid_dynasty", "type": "concept"},
-    {"term": "Khizr Khan", "matchText": "Khizr Khan", "wikiSlug": "Khizr_Khan", "type": "people"},
-    {"term": "Sharqi dynasty", "matchText": "Sharqi", "wikiSlug": "Sharqi_dynasty", "type": "concept"},
-    {"term": "Adina Mosque", "matchText": "Adina Mosque", "wikiSlug": "Adina_Mosque", "type": "place"},
-    {"term": "Atala Mosque", "matchText": "Atala Mosque", "wikiSlug": "Atala_Masjid", "type": "place"},
-    {"term": "Ilyas Shahi dynasty", "matchText": "Ilyas Shahi", "wikiSlug": "Ilyas_Shahi_dynasty", "type": "concept"},
-    {"term": "Chittagong", "matchText": "Chittagong", "wikiSlug": "Chittagong", "type": "place"},
-    {"term": "Mandu", "matchText": "Mandu", "wikiSlug": "Mandav", "type": "place"},
-    {"term": "Jahaz Mahal", "matchText": "Jahaz Mahal", "wikiSlug": "Jahaz_Mahal,_Mandu", "type": "place"},
-    {"term": "Hoshang Shah's Tomb", "matchText": "Hoshang Shah's Tomb", "wikiSlug": "Hoshang_Shah%27s_Tomb", "type": "place"},
-    {"term": "Cambay", "matchText": "Cambay", "wikiSlug": "Khambhat", "type": "place"},
-    {"term": "Champaner-Pavagadh", "matchText": "Champaner-Pavagadh", "wikiSlug": "Champaner-Pavagadh_Archaeological_Park", "type": "place"},
-    {"term": "Mahmud Gawan", "matchText": "Mahmud Gawan", "wikiSlug": "Mahmud_Gawan", "type": "people"},
-    {"term": "Bidar", "matchText": "Bidar", "wikiSlug": "Bidar", "type": "place"},
-    {"term": "Vijayanagara Empire", "matchText": "Vijayanagara", "wikiSlug": "Vijayanagara_Empire", "type": "concept"},
-    {"term": "Krishnadevaraya", "matchText": "Krishnadevaraya", "wikiSlug": "Krishnadevaraya", "type": "people"},
-    {"term": "Hampi", "matchText": "Hampi", "wikiSlug": "Hampi", "type": "place"},
-    {"term": "Mehmed II", "matchText": "Mehmed II", "wikiSlug": "Mehmed_the_Conqueror", "type": "people"},
-    {"term": "Sejong", "matchText": "Sejong", "wikiSlug": "Sejong_the_Great", "type": "people"},
-    {"term": "Zheng He", "matchText": "Zheng He", "wikiSlug": "Zheng_He", "type": "people"},
-    {"term": "Pachacuti", "matchText": "Pachacuti", "wikiSlug": "Pachacuti", "type": "people"}
+    {
+      "term": "Timur",
+      "matchText": "Timur",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Tamerlane",
+      "matchText": "Tamerlane",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Transoxiana",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Sharaf al-Din Ali Yazdi",
+      "matchText": "Sharaf al-Din Ali Yazdi",
+      "wikiSlug": "Sharaf_ad-Din_Ali_Yazdi",
+      "type": "people"
+    },
+    {
+      "term": "Zafarnama",
+      "matchText": "Zafarnama",
+      "wikiSlug": "Zafarnama_(Yazdi_biography)",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Loni",
+      "matchText": "Loni",
+      "wikiSlug": "Loni,_Uttar_Pradesh",
+      "type": "place"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Babur",
+      "matchText": "Babur",
+      "wikiSlug": "Babur",
+      "type": "people"
+    },
+    {
+      "term": "Sayyid dynasty",
+      "matchText": "Sayyid dynasty",
+      "wikiSlug": "Sayyid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Khizr Khan",
+      "matchText": "Khizr Khan",
+      "wikiSlug": "Khizr_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Sharqi dynasty",
+      "matchText": "Sharqi",
+      "wikiSlug": "Sharqi_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Adina Mosque",
+      "matchText": "Adina Mosque",
+      "wikiSlug": "Adina_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Atala Mosque",
+      "matchText": "Atala Mosque",
+      "wikiSlug": "Atala_Masjid",
+      "type": "place"
+    },
+    {
+      "term": "Ilyas Shahi dynasty",
+      "matchText": "Ilyas Shahi",
+      "wikiSlug": "Ilyas_Shahi_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Chittagong",
+      "matchText": "Chittagong",
+      "wikiSlug": "Chittagong",
+      "type": "place"
+    },
+    {
+      "term": "Mandu",
+      "matchText": "Mandu",
+      "wikiSlug": "Mandav",
+      "type": "place"
+    },
+    {
+      "term": "Jahaz Mahal",
+      "matchText": "Jahaz Mahal",
+      "wikiSlug": "Jahaz_Mahal,_Mandu",
+      "type": "place"
+    },
+    {
+      "term": "Hoshang Shah's Tomb",
+      "matchText": "Hoshang Shah's Tomb",
+      "wikiSlug": "Hoshang_Shah%27s_Tomb",
+      "type": "place"
+    },
+    {
+      "term": "Cambay",
+      "matchText": "Cambay",
+      "wikiSlug": "Khambhat",
+      "type": "place"
+    },
+    {
+      "term": "Champaner-Pavagadh",
+      "matchText": "Champaner-Pavagadh",
+      "wikiSlug": "Champaner-Pavagadh_Archaeological_Park",
+      "type": "place"
+    },
+    {
+      "term": "Mahmud Gawan",
+      "matchText": "Mahmud Gawan",
+      "wikiSlug": "Mahmud_Gawan",
+      "type": "people"
+    },
+    {
+      "term": "Bidar",
+      "matchText": "Bidar",
+      "wikiSlug": "Bidar",
+      "type": "place"
+    },
+    {
+      "term": "Vijayanagara Empire",
+      "matchText": "Vijayanagara",
+      "wikiSlug": "Vijayanagara_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Krishnadevaraya",
+      "matchText": "Krishnadevaraya",
+      "wikiSlug": "Krishnadevaraya",
+      "type": "people"
+    },
+    {
+      "term": "Hampi",
+      "matchText": "Hampi",
+      "wikiSlug": "Hampi",
+      "type": "place"
+    },
+    {
+      "term": "Mehmed II",
+      "matchText": "Mehmed II",
+      "wikiSlug": "Mehmed_the_Conqueror",
+      "type": "people"
+    },
+    {
+      "term": "Sejong",
+      "matchText": "Sejong",
+      "wikiSlug": "Sejong_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Zheng He",
+      "matchText": "Zheng He",
+      "wikiSlug": "Zheng_He",
+      "type": "people"
+    },
+    {
+      "term": "Pachacuti",
+      "matchText": "Pachacuti",
+      "wikiSlug": "Pachacuti",
+      "type": "people"
+    },
+    {
+      "term": "Padmavat",
+      "matchText": "Padmavat",
+      "wikiSlug": "Padmavat",
+      "type": "concept"
+    },
+    {
+      "term": "Malik Muhammad Jayasi",
+      "matchText": "Malik Muhammad Jayasi",
+      "wikiSlug": "Malik_Muhammad_Jayasi",
+      "type": "people"
+    }
   ],
   "6": [
-    {"term": "Bhakti movement", "matchText": "Bhakti", "wikiSlug": "Bhakti_movement", "type": "concept"},
-    {"term": "Sufism", "matchText": "Sufism", "wikiSlug": "Sufism", "type": "concept"},
-    {"term": "Sikhism", "matchText": "Sikhism", "wikiSlug": "Sikhism", "type": "concept"},
-    {"term": "Tariqa", "matchText": "tariqas", "wikiSlug": "Tariqa", "type": "concept"},
-    {"term": "Chishti Order", "matchText": "Chishti", "wikiSlug": "Chishti_Order", "type": "concept"},
-    {"term": "Suhrawardi Order", "matchText": "Suhrawardi", "wikiSlug": "Suhrawardiyya", "type": "concept"},
-    {"term": "Naqshbandi Order", "matchText": "Naqshbandi", "wikiSlug": "Naqshbandi", "type": "concept"},
-    {"term": "Qadiri Order", "matchText": "Qadiri", "wikiSlug": "Qadiriyya", "type": "concept"},
-    {"term": "Moinuddin Chishti", "matchText": "Moinuddin Chishti", "wikiSlug": "Moinuddin_Chishti", "type": "people"},
-    {"term": "Ajmer Dargah", "matchText": "Dargah Sharif of Ajmer", "wikiSlug": "Ajmer_Sharif_Dargah", "type": "place"},
-    {"term": "Urs", "matchText": "Urs", "wikiSlug": "Urs", "type": "concept"},
-    {"term": "Sama (devotional music)", "matchText": "sama", "wikiSlug": "Sama_(Sufism)", "type": "concept"},
-    {"term": "Khanqah", "matchText": "khanqah", "wikiSlug": "Khanqah", "type": "concept"},
-    {"term": "Nizamuddin Auliya", "matchText": "Nizamuddin Auliya", "wikiSlug": "Nizamuddin_Auliya", "type": "people"},
-    {"term": "Amir Khusrau", "matchText": "Amir Khusrau", "wikiSlug": "Amir_Khusrow", "type": "people"},
-    {"term": "Qawwali", "matchText": "qawwali", "wikiSlug": "Qawwali", "type": "concept"},
-    {"term": "Nusrat Fateh Ali Khan", "matchText": "Nusrat Fateh Ali Khan", "wikiSlug": "Nusrat_Fateh_Ali_Khan", "type": "people"},
-    {"term": "Raga", "matchText": "raga", "wikiSlug": "Raga", "type": "concept"},
-    {"term": "Sitar", "matchText": "sitar", "wikiSlug": "Sitar", "type": "concept"},
-    {"term": "Tabla", "matchText": "tabla", "wikiSlug": "Tabla", "type": "concept"},
-    {"term": "Hindustani classical music", "matchText": "Hindustani classical music", "wikiSlug": "Hindustani_classical_music", "type": "concept"},
-    {"term": "Alvar", "matchText": "Alvar", "wikiSlug": "Alvars", "type": "concept"},
-    {"term": "Nayanar", "matchText": "Nayanar", "wikiSlug": "Nayanars", "type": "concept"},
-    {"term": "Kabir", "matchText": "Kabir", "wikiSlug": "Kabir", "type": "people"},
-    {"term": "Doha (poetry)", "matchText": "dohas", "wikiSlug": "Doha_(poetry)", "type": "concept"},
-    {"term": "Ravidas", "matchText": "Ravidas", "wikiSlug": "Ravidas", "type": "people"},
-    {"term": "Mirabai", "matchText": "Mirabai", "wikiSlug": "Meera", "type": "people"},
-    {"term": "Tulsidas", "matchText": "Tulsidas", "wikiSlug": "Tulsidas", "type": "people"},
-    {"term": "Surdas", "matchText": "Surdas", "wikiSlug": "Surdas", "type": "people"},
-    {"term": "Ramcharitmanas", "matchText": "Ramcharitmanas", "wikiSlug": "Ramcharitmanas", "type": "concept"},
-    {"term": "Guru Nanak", "matchText": "Guru Nanak", "wikiSlug": "Guru_Nanak", "type": "people"},
-    {"term": "Langar", "matchText": "langar", "wikiSlug": "Langar_(Sikhism)", "type": "concept"},
-    {"term": "Adi Granth", "matchText": "Adi Granth", "wikiSlug": "Guru_Granth_Sahib", "type": "concept"},
-    {"term": "Hindavi", "matchText": "Hindavi", "wikiSlug": "Hindi%E2%80%93Urdu_controversy", "type": "concept"},
-    {"term": "Khariboli", "matchText": "Khariboli", "wikiSlug": "Khariboli_dialect", "type": "concept"}
+    {
+      "term": "Bhakti movement",
+      "matchText": "Bhakti",
+      "wikiSlug": "Bhakti_movement",
+      "type": "concept"
+    },
+    {
+      "term": "Sufism",
+      "matchText": "Sufism",
+      "wikiSlug": "Sufism",
+      "type": "concept"
+    },
+    {
+      "term": "Sikhism",
+      "matchText": "Sikhism",
+      "wikiSlug": "Sikhism",
+      "type": "concept"
+    },
+    {
+      "term": "Tariqa",
+      "matchText": "tariqas",
+      "wikiSlug": "Tariqa",
+      "type": "concept"
+    },
+    {
+      "term": "Chishti Order",
+      "matchText": "Chishti",
+      "wikiSlug": "Chishti_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Suhrawardi Order",
+      "matchText": "Suhrawardi",
+      "wikiSlug": "Suhrawardiyya",
+      "type": "concept"
+    },
+    {
+      "term": "Naqshbandi Order",
+      "matchText": "Naqshbandi",
+      "wikiSlug": "Naqshbandi",
+      "type": "concept"
+    },
+    {
+      "term": "Qadiri Order",
+      "matchText": "Qadiri",
+      "wikiSlug": "Qadiriyya",
+      "type": "concept"
+    },
+    {
+      "term": "Moinuddin Chishti",
+      "matchText": "Moinuddin Chishti",
+      "wikiSlug": "Moinuddin_Chishti",
+      "type": "people"
+    },
+    {
+      "term": "Ajmer Dargah",
+      "matchText": "Dargah Sharif of Ajmer",
+      "wikiSlug": "Ajmer_Sharif_Dargah",
+      "type": "place"
+    },
+    {
+      "term": "Urs",
+      "matchText": "Urs",
+      "wikiSlug": "Urs",
+      "type": "concept"
+    },
+    {
+      "term": "Sama (devotional music)",
+      "matchText": "sama",
+      "wikiSlug": "Sama_(Sufism)",
+      "type": "concept"
+    },
+    {
+      "term": "Khanqah",
+      "matchText": "khanqah",
+      "wikiSlug": "Khanqah",
+      "type": "concept"
+    },
+    {
+      "term": "Nizamuddin Auliya",
+      "matchText": "Nizamuddin Auliya",
+      "wikiSlug": "Nizamuddin_Auliya",
+      "type": "people"
+    },
+    {
+      "term": "Amir Khusrau",
+      "matchText": "Amir Khusrau",
+      "wikiSlug": "Amir_Khusrow",
+      "type": "people"
+    },
+    {
+      "term": "Qawwali",
+      "matchText": "qawwali",
+      "wikiSlug": "Qawwali",
+      "type": "concept"
+    },
+    {
+      "term": "Nusrat Fateh Ali Khan",
+      "matchText": "Nusrat Fateh Ali Khan",
+      "wikiSlug": "Nusrat_Fateh_Ali_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Raga",
+      "matchText": "raga",
+      "wikiSlug": "Raga",
+      "type": "concept"
+    },
+    {
+      "term": "Sitar",
+      "matchText": "sitar",
+      "wikiSlug": "Sitar",
+      "type": "concept"
+    },
+    {
+      "term": "Tabla",
+      "matchText": "tabla",
+      "wikiSlug": "Tabla",
+      "type": "concept"
+    },
+    {
+      "term": "Hindustani classical music",
+      "matchText": "Hindustani classical music",
+      "wikiSlug": "Hindustani_classical_music",
+      "type": "concept"
+    },
+    {
+      "term": "Alvar",
+      "matchText": "Alvar",
+      "wikiSlug": "Alvars",
+      "type": "concept"
+    },
+    {
+      "term": "Nayanar",
+      "matchText": "Nayanar",
+      "wikiSlug": "Nayanars",
+      "type": "concept"
+    },
+    {
+      "term": "Kabir",
+      "matchText": "Kabir",
+      "wikiSlug": "Kabir",
+      "type": "people"
+    },
+    {
+      "term": "Doha (poetry)",
+      "matchText": "dohas",
+      "wikiSlug": "Doha_(poetry)",
+      "type": "concept"
+    },
+    {
+      "term": "Ravidas",
+      "matchText": "Ravidas",
+      "wikiSlug": "Ravidas",
+      "type": "people"
+    },
+    {
+      "term": "Mirabai",
+      "matchText": "Mirabai",
+      "wikiSlug": "Meera",
+      "type": "people"
+    },
+    {
+      "term": "Tulsidas",
+      "matchText": "Tulsidas",
+      "wikiSlug": "Tulsidas",
+      "type": "people"
+    },
+    {
+      "term": "Surdas",
+      "matchText": "Surdas",
+      "wikiSlug": "Surdas",
+      "type": "people"
+    },
+    {
+      "term": "Ramcharitmanas",
+      "matchText": "Ramcharitmanas",
+      "wikiSlug": "Ramcharitmanas",
+      "type": "concept"
+    },
+    {
+      "term": "Guru Nanak",
+      "matchText": "Guru Nanak",
+      "wikiSlug": "Guru_Nanak",
+      "type": "people"
+    },
+    {
+      "term": "Langar",
+      "matchText": "langar",
+      "wikiSlug": "Langar_(Sikhism)",
+      "type": "concept"
+    },
+    {
+      "term": "Adi Granth",
+      "matchText": "Adi Granth",
+      "wikiSlug": "Guru_Granth_Sahib",
+      "type": "concept"
+    },
+    {
+      "term": "Hindavi",
+      "matchText": "Hindavi",
+      "wikiSlug": "Hindi%E2%80%93Urdu_controversy",
+      "type": "concept"
+    },
+    {
+      "term": "Khariboli",
+      "matchText": "Khariboli",
+      "wikiSlug": "Khariboli_dialect",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "Lodi dynasty", "matchText": "Lodi dynasty", "wikiSlug": "Lodi_dynasty", "type": "concept"},
-    {"term": "Bahlul Lodi", "matchText": "Bahlul Lodi", "wikiSlug": "Bahlul_Khan_Lodi", "type": "people"},
-    {"term": "Pashtun", "matchText": "Pashtun", "wikiSlug": "Pashtuns", "type": "concept"},
-    {"term": "Sirhind", "matchText": "Sirhind", "wikiSlug": "Sirhind-Fategarh", "type": "place"},
-    {"term": "Sharqi dynasty", "matchText": "Sharqi", "wikiSlug": "Sharqi_dynasty", "type": "concept"},
-    {"term": "Sikandar Lodi", "matchText": "Sikandar Lodi", "wikiSlug": "Sikandar_Lodi", "type": "people"},
-    {"term": "Agra", "matchText": "Agra", "wikiSlug": "Agra", "type": "place"},
-    {"term": "Akbar", "matchText": "Akbar", "wikiSlug": "Akbar", "type": "people"},
-    {"term": "Shah Jahan", "matchText": "Shah Jahan", "wikiSlug": "Shah_Jahan", "type": "people"},
-    {"term": "Taj Mahal", "matchText": "Taj Mahal", "wikiSlug": "Taj_Mahal", "type": "place"},
-    {"term": "Ibrahim Lodi", "matchText": "Ibrahim Lodi", "wikiSlug": "Ibrahim_Lodi", "type": "people"},
-    {"term": "Daulat Khan Lodi", "matchText": "Daulat Khan Lodi", "wikiSlug": "Daulat_Khan_Lodi", "type": "people"},
-    {"term": "Babur", "matchText": "Babur", "wikiSlug": "Babur", "type": "people"},
-    {"term": "Kabul", "matchText": "Kabul", "wikiSlug": "Kabul", "type": "place"},
-    {"term": "Lodi Gardens", "matchText": "Lodi Gardens", "wikiSlug": "Lodi_Gardens", "type": "place"},
-    {"term": "Humayun's Tomb", "matchText": "Humayun's Tomb", "wikiSlug": "Humayun%27s_Tomb", "type": "place"},
-    {"term": "Mandu", "matchText": "Mandu", "wikiSlug": "Mandav", "type": "place"},
-    {"term": "Hampi", "matchText": "Hampi", "wikiSlug": "Hampi", "type": "place"},
-    {"term": "Krishnadevaraya", "matchText": "Krishnadevaraya", "wikiSlug": "Krishnadevaraya", "type": "people"},
-    {"term": "Battle of Talikota", "matchText": "Talikota", "wikiSlug": "Battle_of_Talikota", "type": "concept"},
-    {"term": "Mewar", "matchText": "Mewar", "wikiSlug": "Mewar", "type": "place"},
-    {"term": "Vijayanagara", "matchText": "Vijayanagara", "wikiSlug": "Vijayanagara_Empire", "type": "concept"},
-    {"term": "Amuktamalyada", "matchText": "Amuktamalyada", "wikiSlug": "Amuktamalyada", "type": "concept"},
-    {"term": "Telugu", "matchText": "Telugu", "wikiSlug": "Telugu_language", "type": "concept"},
-    {"term": "Mughal Empire", "matchText": "Mughal Empire", "wikiSlug": "Mughal_Empire", "type": "concept"},
-    {"term": "Janissary", "matchText": "Janissary", "wikiSlug": "Janissaries", "type": "concept"},
-    {"term": "Krishna river", "matchText": "Krishna river", "wikiSlug": "Krishna_River", "type": "place"}
+    {
+      "term": "Lodi dynasty",
+      "matchText": "Lodi dynasty",
+      "wikiSlug": "Lodi_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Bahlul Lodi",
+      "matchText": "Bahlul Lodi",
+      "wikiSlug": "Bahlul_Khan_Lodi",
+      "type": "people"
+    },
+    {
+      "term": "Pashtun",
+      "matchText": "Pashtun",
+      "wikiSlug": "Pashtuns",
+      "type": "concept"
+    },
+    {
+      "term": "Sirhind",
+      "matchText": "Sirhind",
+      "wikiSlug": "Sirhind-Fategarh",
+      "type": "place"
+    },
+    {
+      "term": "Sharqi dynasty",
+      "matchText": "Sharqi",
+      "wikiSlug": "Sharqi_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Sikandar Lodi",
+      "matchText": "Sikandar Lodi",
+      "wikiSlug": "Sikandar_Lodi",
+      "type": "people"
+    },
+    {
+      "term": "Agra",
+      "matchText": "Agra",
+      "wikiSlug": "Agra",
+      "type": "place"
+    },
+    {
+      "term": "Akbar",
+      "matchText": "Akbar",
+      "wikiSlug": "Akbar",
+      "type": "people"
+    },
+    {
+      "term": "Shah Jahan",
+      "matchText": "Shah Jahan",
+      "wikiSlug": "Shah_Jahan",
+      "type": "people"
+    },
+    {
+      "term": "Taj Mahal",
+      "matchText": "Taj Mahal",
+      "wikiSlug": "Taj_Mahal",
+      "type": "place"
+    },
+    {
+      "term": "Ibrahim Lodi",
+      "matchText": "Ibrahim Lodi",
+      "wikiSlug": "Ibrahim_Lodi",
+      "type": "people"
+    },
+    {
+      "term": "Daulat Khan Lodi",
+      "matchText": "Daulat Khan Lodi",
+      "wikiSlug": "Daulat_Khan_Lodi",
+      "type": "people"
+    },
+    {
+      "term": "Babur",
+      "matchText": "Babur",
+      "wikiSlug": "Babur",
+      "type": "people"
+    },
+    {
+      "term": "Kabul",
+      "matchText": "Kabul",
+      "wikiSlug": "Kabul",
+      "type": "place"
+    },
+    {
+      "term": "Lodi Gardens",
+      "matchText": "Lodi Gardens",
+      "wikiSlug": "Lodi_Gardens",
+      "type": "place"
+    },
+    {
+      "term": "Humayun's Tomb",
+      "matchText": "Humayun's Tomb",
+      "wikiSlug": "Humayun%27s_Tomb",
+      "type": "place"
+    },
+    {
+      "term": "Mandu",
+      "matchText": "Mandu",
+      "wikiSlug": "Mandav",
+      "type": "place"
+    },
+    {
+      "term": "Hampi",
+      "matchText": "Hampi",
+      "wikiSlug": "Hampi",
+      "type": "place"
+    },
+    {
+      "term": "Krishnadevaraya",
+      "matchText": "Krishnadevaraya",
+      "wikiSlug": "Krishnadevaraya",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Talikota",
+      "matchText": "Talikota",
+      "wikiSlug": "Battle_of_Talikota",
+      "type": "concept"
+    },
+    {
+      "term": "Mewar",
+      "matchText": "Mewar",
+      "wikiSlug": "Mewar",
+      "type": "place"
+    },
+    {
+      "term": "Vijayanagara",
+      "matchText": "Vijayanagara",
+      "wikiSlug": "Vijayanagara_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Amuktamalyada",
+      "matchText": "Amuktamalyada",
+      "wikiSlug": "Amuktamalyada",
+      "type": "concept"
+    },
+    {
+      "term": "Telugu",
+      "matchText": "Telugu",
+      "wikiSlug": "Telugu_language",
+      "type": "concept"
+    },
+    {
+      "term": "Mughal Empire",
+      "matchText": "Mughal Empire",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Janissary",
+      "matchText": "Janissary",
+      "wikiSlug": "Janissaries",
+      "type": "concept"
+    },
+    {
+      "term": "Krishna river",
+      "matchText": "Krishna river",
+      "wikiSlug": "Krishna_River",
+      "type": "place"
+    },
+    {
+      "term": "First Battle of Panipat",
+      "matchText": "First Battle of Panipat",
+      "wikiSlug": "First_Battle_of_Panipat",
+      "type": "concept"
+    }
   ],
   "8": [
-    {"term": "First Battle of Panipat", "matchText": "First Battle of", "wikiSlug": "First_Battle_of_Panipat", "type": "concept"},
-    {"term": "Babur", "matchText": "Babur", "wikiSlug": "Babur", "type": "people"},
-    {"term": "Ibrahim Lodi", "matchText": "Ibrahim Lodi", "wikiSlug": "Ibrahim_Lodi", "type": "people"},
-    {"term": "Battle of Chaldiran", "matchText": "Chaldiran", "wikiSlug": "Battle_of_Chaldiran", "type": "concept"},
-    {"term": "Battle of Mohacs", "matchText": "Battle of Mohacs", "wikiSlug": "Battle_of_Moh%C3%A1cs", "type": "concept"},
-    {"term": "Matchlock", "matchText": "matchlock", "wikiSlug": "Matchlock", "type": "concept"},
-    {"term": "Wagenburg", "matchText": "wagenburg", "wikiSlug": "Wagon_fort", "type": "concept"},
-    {"term": "Humayun", "matchText": "Humayun", "wikiSlug": "Humayun", "type": "people"},
-    {"term": "Padshah", "matchText": "Padshah", "wikiSlug": "Padishah", "type": "concept"},
-    {"term": "Rana Sanga", "matchText": "Rana Sanga", "wikiSlug": "Rana_Sanga", "type": "people"},
-    {"term": "Battle of Khanwa", "matchText": "Battle of Khanwa", "wikiSlug": "Battle_of_Khanwa", "type": "concept"},
-    {"term": "Sher Shah Suri", "matchText": "Sher Shah Suri", "wikiSlug": "Sher_Shah_Suri", "type": "people"},
-    {"term": "Mansabdari", "matchText": "mansabdari", "wikiSlug": "Mansabdar", "type": "concept"},
-    {"term": "Suba", "matchText": "suba", "wikiSlug": "Subah", "type": "concept"},
-    {"term": "Sarkar", "matchText": "sarkar", "wikiSlug": "Sarkar_(unit)", "type": "concept"},
-    {"term": "Pargana", "matchText": "pargana", "wikiSlug": "Pargana", "type": "concept"},
-    {"term": "East India Company", "matchText": "East India Company", "wikiSlug": "East_India_Company", "type": "concept"},
-    {"term": "Akbar", "matchText": "Akbar", "wikiSlug": "Akbar", "type": "people"},
-    {"term": "Mirza Ghalib", "matchText": "Mirza Ghalib", "wikiSlug": "Ghalib", "type": "people"},
-    {"term": "Ajmer Dargah", "matchText": "Ajmer", "wikiSlug": "Ajmer_Sharif_Dargah", "type": "place"},
-    {"term": "Fatehpur Sikri", "matchText": "Fatehpur Sikri", "wikiSlug": "Fatehpur_Sikri", "type": "place"},
-    {"term": "Rekhta", "matchText": "Rekhta", "wikiSlug": "Rekhta", "type": "concept"},
-    {"term": "Marathas", "matchText": "Marathas", "wikiSlug": "Maratha_Empire", "type": "concept"},
-    {"term": "Hindutva", "matchText": "Hindutva", "wikiSlug": "Hindutva", "type": "concept"},
-    {"term": "Suleiman the Magnificent", "matchText": "Suleiman the Magnificent", "wikiSlug": "Suleiman_the_Magnificent", "type": "people"},
-    {"term": "Charles V", "matchText": "Charles V", "wikiSlug": "Charles_V,_Holy_Roman_Emperor", "type": "people"},
-    {"term": "Martin Luther", "matchText": "Martin Luther", "wikiSlug": "Martin_Luther", "type": "people"},
-    {"term": "Protestant Reformation", "matchText": "Protestant Reformation", "wikiSlug": "Reformation", "type": "concept"},
-    {"term": "Inca Empire", "matchText": "Inca Empire", "wikiSlug": "Inca_Empire", "type": "concept"},
-    {"term": "Magellan", "matchText": "Ferdinand Magellan", "wikiSlug": "Ferdinand_Magellan", "type": "people"}
+    {
+      "term": "First Battle of Panipat",
+      "matchText": "First Battle of",
+      "wikiSlug": "First_Battle_of_Panipat",
+      "type": "concept"
+    },
+    {
+      "term": "Babur",
+      "matchText": "Babur",
+      "wikiSlug": "Babur",
+      "type": "people"
+    },
+    {
+      "term": "Ibrahim Lodi",
+      "matchText": "Ibrahim Lodi",
+      "wikiSlug": "Ibrahim_Lodi",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Chaldiran",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Mohacs",
+      "matchText": "Battle of Mohacs",
+      "wikiSlug": "Battle_of_Moh%C3%A1cs",
+      "type": "concept"
+    },
+    {
+      "term": "Matchlock",
+      "matchText": "matchlock",
+      "wikiSlug": "Matchlock",
+      "type": "concept"
+    },
+    {
+      "term": "Wagenburg",
+      "matchText": "wagenburg",
+      "wikiSlug": "Wagon_fort",
+      "type": "concept"
+    },
+    {
+      "term": "Humayun",
+      "matchText": "Humayun",
+      "wikiSlug": "Humayun",
+      "type": "people"
+    },
+    {
+      "term": "Padshah",
+      "matchText": "Padshah",
+      "wikiSlug": "Padishah",
+      "type": "concept"
+    },
+    {
+      "term": "Rana Sanga",
+      "matchText": "Rana Sanga",
+      "wikiSlug": "Rana_Sanga",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Khanwa",
+      "matchText": "Battle of Khanwa",
+      "wikiSlug": "Battle_of_Khanwa",
+      "type": "concept"
+    },
+    {
+      "term": "Sher Shah Suri",
+      "matchText": "Sher Shah Suri",
+      "wikiSlug": "Sher_Shah_Suri",
+      "type": "people"
+    },
+    {
+      "term": "Mansabdari",
+      "matchText": "mansabdari",
+      "wikiSlug": "Mansabdar",
+      "type": "concept"
+    },
+    {
+      "term": "Suba",
+      "matchText": "suba",
+      "wikiSlug": "Subah",
+      "type": "concept"
+    },
+    {
+      "term": "Sarkar",
+      "matchText": "sarkar",
+      "wikiSlug": "Sarkar_(unit)",
+      "type": "concept"
+    },
+    {
+      "term": "Pargana",
+      "matchText": "pargana",
+      "wikiSlug": "Pargana",
+      "type": "concept"
+    },
+    {
+      "term": "East India Company",
+      "matchText": "East India Company",
+      "wikiSlug": "East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Akbar",
+      "matchText": "Akbar",
+      "wikiSlug": "Akbar",
+      "type": "people"
+    },
+    {
+      "term": "Mirza Ghalib",
+      "matchText": "Mirza Ghalib",
+      "wikiSlug": "Ghalib",
+      "type": "people"
+    },
+    {
+      "term": "Ajmer Dargah",
+      "matchText": "Ajmer",
+      "wikiSlug": "Ajmer_Sharif_Dargah",
+      "type": "place"
+    },
+    {
+      "term": "Fatehpur Sikri",
+      "matchText": "Fatehpur Sikri",
+      "wikiSlug": "Fatehpur_Sikri",
+      "type": "place"
+    },
+    {
+      "term": "Rekhta",
+      "matchText": "Rekhta",
+      "wikiSlug": "Rekhta",
+      "type": "concept"
+    },
+    {
+      "term": "Marathas",
+      "matchText": "Marathas",
+      "wikiSlug": "Maratha_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Hindutva",
+      "matchText": "Hindutva",
+      "wikiSlug": "Hindutva",
+      "type": "concept"
+    },
+    {
+      "term": "Suleiman the Magnificent",
+      "matchText": "Suleiman the Magnificent",
+      "wikiSlug": "Suleiman_the_Magnificent",
+      "type": "people"
+    },
+    {
+      "term": "Charles V",
+      "matchText": "Charles V",
+      "wikiSlug": "Charles_V,_Holy_Roman_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Martin Luther",
+      "matchText": "Martin Luther",
+      "wikiSlug": "Martin_Luther",
+      "type": "people"
+    },
+    {
+      "term": "Protestant Reformation",
+      "matchText": "Protestant Reformation",
+      "wikiSlug": "Reformation",
+      "type": "concept"
+    },
+    {
+      "term": "Inca Empire",
+      "matchText": "Inca Empire",
+      "wikiSlug": "Inca_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Magellan",
+      "matchText": "Ferdinand Magellan",
+      "wikiSlug": "Ferdinand_Magellan",
+      "type": "people"
+    }
   ]
 }

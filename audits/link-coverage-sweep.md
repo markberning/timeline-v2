@@ -53,7 +53,9 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | maurya-empire | 8 | **DONE** | 39ed1b3 |
 | post-maurya-kingdoms | 8 | **DONE** | fdfefda |
 | gupta-empire | 8 | **DONE** (pre-existing malformed cross) | f03e13d |
-| medieval-india | 8 | **DONE** | +this |
+| medieval-india | 8 | **DONE** | c3b2810 |
+| delhi-sultanate | 8 | **DONE** | +this |
+| _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
 | _next: scientific-revolution (20ch), enlightenment (20ch), industrial-revolution (20ch)_ | | pending | |
 | _Greco-Roman chain COMPLETE; next: roadmap order_ | | pending | |
