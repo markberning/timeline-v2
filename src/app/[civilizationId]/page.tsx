@@ -53,6 +53,42 @@ export default async function CivilizationPage({ params }: PageProps) {
             <DarkModeToggle />
           </div>
         </div>
+        {/* Minimal sticky civ identity — prev · civ · next, always pinned */}
+        <div className="flex items-center justify-between gap-3 mt-1.5 text-[11px] leading-tight">
+          <div className="flex-1 min-w-0">
+            {prevTl && (
+              prevTl.hasContent ? (
+                <a href={`/${prevId}`} className="flex items-center gap-1 min-w-0 hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
+                  <span className="shrink-0">←</span>
+                  <span className="truncate">{prevTl.label}</span>
+                </a>
+              ) : (
+                <div className="flex items-center gap-1 min-w-0 text-foreground/35">
+                  <span className="shrink-0">←</span>
+                  <span className="truncate">{prevTl.label}</span>
+                </div>
+              )
+            )}
+          </div>
+          <div className="shrink-0 max-w-[44%] text-center">
+            <span className="block truncate font-semibold font-[family-name:var(--font-lora)] text-foreground/80">{narrative.label}</span>
+          </div>
+          <div className="flex-1 min-w-0">
+            {nextTl && (
+              nextTl.hasContent ? (
+                <a href={`/${nextId}`} className="flex items-center justify-end gap-1 min-w-0 hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
+                  <span className="truncate">{nextTl.label}</span>
+                  <span className="shrink-0">→</span>
+                </a>
+              ) : (
+                <div className="flex items-center justify-end gap-1 min-w-0 text-foreground/35">
+                  <span className="truncate">{nextTl.label}</span>
+                  <span className="shrink-0">→</span>
+                </div>
+              )
+            )}
+          </div>
+        </div>
       </div>
 
       <div className="pt-4 pb-8">

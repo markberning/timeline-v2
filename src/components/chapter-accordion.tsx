@@ -209,8 +209,27 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                     {words.length > 0 && words.join(' ') + ' '}
                     <span className="whitespace-nowrap">
                       {last}
-                      <span className={`inline-block text-foreground/50 font-bold transition-transform duration-200 ml-1.5 ${summaryOpen ? 'rotate-90 translate-x-1' : ''}`} style={{ fontSize: 'calc(var(--ch-title) * 1.2)' }}>
-                        &#x203A;
+                      <span
+                        className={`inline-flex items-center justify-center align-middle ml-2 transition-all duration-200 ${summaryOpen ? 'rotate-90 text-white shadow-sm' : 'text-foreground/50'}`}
+                        style={{
+                          width: 'calc(var(--ch-title) * 1.4)',
+                          height: 'calc(var(--ch-title) * 1.4)',
+                          borderRadius: '9999px',
+                          backgroundColor: summaryOpen ? 'var(--accent)' : 'transparent',
+                        }}
+                      >
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="3"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          style={{ width: '55%', height: '55%' }}
+                          aria-hidden="true"
+                        >
+                          <polyline points="9 6 15 12 9 18" />
+                        </svg>
                       </span>
                     </span>
                   </>
