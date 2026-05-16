@@ -123,7 +123,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'kievan-rus', label: "Kievan Rus'", subtitle: "east Slavic river kingdoms before Russia", region: 'europe', startYear: 882, endYear: 1240 },
   { id: 'renaissance-italy', label: 'Renaissance Italy', subtitle: 'the city-state art revival', region: 'europe', startYear: 1300, endYear: 1600, hasContent: true },
   { id: 'scientific-revolution', label: 'Scientific Revolution', subtitle: 'Galileo to Newton', region: 'europe', startYear: 1543, endYear: 1687, hasContent: true },
-  { id: 'enlightenment', label: 'Enlightenment', subtitle: 'reason takes the throne', region: 'europe', startYear: 1685, endYear: 1815 },
+  { id: 'enlightenment', label: 'Enlightenment', subtitle: 'reason takes the throne', region: 'europe', startYear: 1685, endYear: 1815, hasContent: true },
   { id: 'russian-empire', label: 'Russian Empire', subtitle: "the Romanovs' eastern colossus", region: 'europe', startYear: 1721, endYear: 1917 },
   { id: 'industrial-revolution', label: 'Industrial Revolution', subtitle: 'steam, factories, and cities', region: 'europe', startYear: 1760, endYear: 1900 },
   { id: 'soviet-union', label: 'Soviet Union', subtitle: "communism's superpower experiment", region: 'europe', startYear: 1922, endYear: 1991 },

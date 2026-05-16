@@ -190,6 +190,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'dai-viet.md': 'dai-viet',
   'majapahit.md': 'majapahit',
   'scientific-revolution.md': 'scientific-revolution',
+  'enlightenment.md': 'enlightenment',
 }
 
 function slugify(title: string): string {

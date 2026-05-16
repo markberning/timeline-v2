@@ -1,0 +1,2468 @@
+{
+  "id": "enlightenment",
+  "label": "Enlightenment",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Age_of_Enlightenment",
+  "imageWikiSlug": "Voltaire",
+  "pitch": "Newton’s Principia rewrote the laws of the universe, Locke’s Two Treatises declared that governments serve the people (not the other way around), and Voltaire’s Lettres philosophiques dared France to embrace reason over dogma. This intellectual earthquake shook every throne in Europe and gave birth to the modern world.\n\n🔑 Key Facts:\n• Montesquieu’s Spirit of the Laws invented the separation of powers into executive, legislative, and judicial branches — the blueprint behind the US Constitution Ratified in 1788\n• The Encyclopédie Published by Diderot and d’Alembert attempted to compile all human knowledge into a single work\n• The Declaration of Independence enshrined Lockean ideals of life, liberty, and the pursuit of happiness\n• Smith’s Wealth of Nations founded modern economics with arguments for free markets and the division of labor\n\n🤔 Why It Matters: Nearly every modern democracy, constitution, human rights declaration, and scientific institution traces its intellectual DNA back to this era — from the French Revolution Begins to the abolition of slavery.\n\n🎲 Wild Card: Lavoisier’s Chemical Revolution laid the foundations of modern chemistry, but the French Revolution he helped inspire sent him to the guillotine during the Reign of Terror — the judge reportedly said ‘The Republic has no need of scientists.’",
+  "countryIds": [
+    "250",
+    "826",
+    "276"
+  ],
+  "spans": [
+    {
+      "id": "span-enlightenment-early-enlightenment",
+      "label": "Early Enlightenment",
+      "startYear": 1685,
+      "endYear": 1730,
+      "description": "Newton's Principia and Locke's Two Treatises laid the intellectual foundations of modern science and political philosophy. The Glorious Revolution and English Bill of Rights demonstrated that rational governance could replace absolutism.",
+      "wikiSlug": "Age_of_Enlightenment#Early"
+    },
+    {
+      "id": "span-enlightenment-high-enlightenment",
+      "label": "High Enlightenment",
+      "startYear": 1730,
+      "endYear": 1780,
+      "description": "Voltaire, Montesquieu, Rousseau, and the Encyclopedists challenged religious dogma and absolute monarchy. The separation of powers, social contract theory, and free-market economics were all articulated during this period.",
+      "wikiSlug": "Age_of_Enlightenment"
+    },
+    {
+      "id": "span-enlightenment-late-enlightenment",
+      "label": "Late Enlightenment & Revolutions",
+      "startYear": 1780,
+      "endYear": 1815,
+      "description": "Enlightenment ideas exploded into political action through the American, French, and Haitian Revolutions. The period ended with Napoleon's defeat and the Congress of Vienna's attempt to restore the old order.",
+      "wikiSlug": "Age_of_Enlightenment#Late"
+    },
+    {
+      "id": "span-enlightenment-french-revolution",
+      "label": "French Revolution",
+      "startYear": 1789,
+      "endYear": 1799,
+      "description": "The Enlightenment's most radical political experiment toppled the French monarchy, proclaimed universal rights, and descended into the Reign of Terror before Napoleon's coup ended the Republic.",
+      "wikiSlug": "French_Revolution"
+    },
+    {
+      "id": "span-enlightenment-napoleonic-era",
+      "label": "Napoleonic Era",
+      "startYear": 1799,
+      "endYear": 1815,
+      "description": "Napoleon spread Enlightenment legal reforms across Europe through conquest while establishing authoritarian rule. His Napoleonic Code enshrined equality before the law in dozens of countries.",
+      "wikiSlug": "Napoleonic_era"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-edict-nantes-revoked",
+      "label": "Revocation of the Edict of Nantes",
+      "year": 1685,
+      "description": "Louis XIV stripped France's Protestants of toleration; ~200,000 Huguenots fled, seeding the Enlightenment's cross-border network of refugees and presses.",
+      "wikiSlug": "Edict_of_Fontainebleau",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-louis-xiv",
+      "label": "Louis XIV",
+      "year": 1643,
+      "endYear": 1715,
+      "description": "The Sun King's Versailles absolutism became the Enlightenment's standard model of the arbitrary power reason should replace.",
+      "wikiSlug": "Louis_XIV",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-versailles-palace",
+      "label": "Palace of Versailles",
+      "year": 1682,
+      "description": "Louis XIV's colossal palace turned the nobility into courtiers and symbolized the absolute monarchy the Revolution would storm.",
+      "wikiSlug": "Palace_of_Versailles",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-huguenot-diaspora",
+      "label": "The Huguenot Diaspora",
+      "year": 1685,
+      "description": "Exiled French Protestants carried a vivid first-hand case against absolutism into England, the Dutch Republic, and Prussia.",
+      "wikiSlug": "Huguenots",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-spinoza-treatise",
+      "label": "Spinoza's Theologico-Political Treatise",
+      "year": 1670,
+      "description": "Spinoza argued the Bible was a composite human document and defended free thought, becoming the underground root of the Radical Enlightenment.",
+      "wikiSlug": "Tractatus_Theologico-Politicus",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-newton-principia",
+      "label": "Newton's Principia",
+      "year": 1687,
+      "description": "Newton showed one law governs apple and Moon alike, the gift the Enlightenment turned on throne and altar.",
+      "wikiSlug": "Philosophiæ_Naturalis_Principia_Mathematica",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-clockwork-universe",
+      "label": "The Clockwork Universe",
+      "year": 1687,
+      "description": "The model of a lawful, decodable cosmic mechanism became the century's master image for nature, society, and mind.",
+      "wikiSlug": "Mechanical_philosophy",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-glorious-revolution",
+      "label": "Glorious Revolution",
+      "year": 1688,
+      "description": "Parliament deposed James II and hired William and Mary on written terms, the Enlightenment's favorite real-world example.",
+      "wikiSlug": "Glorious_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-english-bill-rights",
+      "label": "English Bill of Rights",
+      "year": 1689,
+      "description": "A statute the monarch had to accept as a condition of ruling, putting a king on an enforceable leash.",
+      "wikiSlug": "Bill_of_Rights_1689",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-locke-treatises",
+      "label": "Locke's Two Treatises of Government",
+      "year": 1689,
+      "description": "Locke argued government is a revocable contract for protecting natural rights, and revolution is legitimate when it breaks.",
+      "wikiSlug": "Two_Treatises_of_Government",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-locke-toleration",
+      "label": "Locke's Letter Concerning Toleration",
+      "year": 1689,
+      "description": "Locke argued the state cannot coerce belief and should stay out of religion, prying church apart from state.",
+      "wikiSlug": "A_Letter_Concerning_Toleration",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-locke-essay",
+      "label": "Locke's Essay Concerning Human Understanding",
+      "year": 1690,
+      "description": "The mind begins as blank paper and all knowledge comes from experience, the seed of the idea of progress.",
+      "wikiSlug": "An_Essay_Concerning_Human_Understanding",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-john-locke",
+      "label": "John Locke",
+      "year": 1632,
+      "endYear": 1704,
+      "description": "Physician-philosopher whose fingerprints are on the American Declaration, modern empiricism, and the secular state.",
+      "wikiSlug": "John_Locke",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-bayle-dictionary",
+      "label": "Bayle's Historical and Critical Dictionary",
+      "year": 1697,
+      "description": "Bayle hid heresy in footnotes and argued atheists could be moral, becoming \"the arsenal of the Enlightenment\".",
+      "wikiSlug": "Pierre_Bayle",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pierre-bayle",
+      "label": "Pierre Bayle",
+      "year": 1647,
+      "endYear": 1706,
+      "description": "Huguenot exile in Rotterdam who pioneered deniable subversion under censorship.",
+      "wikiSlug": "Pierre_Bayle",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-republic-of-letters",
+      "label": "The Republic of Letters",
+      "year": 1700,
+      "description": "An uncentralized international web of salons, journals, and correspondence that no single state could decapitate.",
+      "wikiSlug": "Republic_of_Letters",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-coffeehouse-culture",
+      "label": "The Coffeehouse",
+      "year": 1700,
+      "description": "The \"penny university\" where any literate man could read the papers and argue across rank over caffeine, not beer.",
+      "wikiSlug": "English_coffeehouses_in_the_17th_and_18th_centuries",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-cafe-procope",
+      "label": "Café Procope",
+      "year": 1686,
+      "description": "The Paris café that became a haunt of philosophes and Encyclopédistes.",
+      "wikiSlug": "Café_Procope",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-paris-salons",
+      "label": "The Paris Salons",
+      "year": 1730,
+      "description": "Women-run drawing-room gatherings that were the Enlightenment's unlicensed universities and editorial workshops.",
+      "wikiSlug": "Salon_(gathering)",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-clandestine-book-trade",
+      "label": "The Clandestine Book Trade",
+      "year": 1750,
+      "description": "A professional smuggling industry moved banned books across borders faster than censors could react.",
+      "wikiSlug": "Livres_philosophiques",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-the-philosophes",
+      "label": "The Philosophes",
+      "year": 1751,
+      "description": "Writers and public intellectuals who aimed critical reason at society for a general reading public.",
+      "wikiSlug": "Philosophes",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-peak",
+      "label": "The Atlantic Slave Trade at its Peak",
+      "year": 1700,
+      "description": "The trade reached its highest volume during the very decades of the declarations of rights.",
+      "wikiSlug": "Atlantic_slave_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-newton-popularized",
+      "label": "Voltaire's Elements of Newton",
+      "year": 1738,
+      "description": "Voltaire and du Châtelet's clear French Newton helped kill Descartes's vortices and spread the clockwork model.",
+      "wikiSlug": "Elements_of_the_Philosophy_of_Newton",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-du-chatelet",
+      "label": "Émilie du Châtelet",
+      "year": 1706,
+      "endYear": 1749,
+      "description": "Mathematician who produced the standard French Principia and original physics while barred by sex from every academy.",
+      "wikiSlug": "Émilie_du_Châtelet",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-descartes-vortices",
+      "label": "Descartes's Vortices",
+      "year": 1644,
+      "description": "Descartes's plenum of swirling fluid was the common-sense rival Newtonian gravitation had to defeat.",
+      "wikiSlug": "Vortex",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-gravesande-demonstrations",
+      "label": "Dutch Demonstration Physics",
+      "year": 1720,
+      "description": "'s Gravesande's paying lecture-demonstrations turned Newtonian law into public theater.",
+      "wikiSlug": "Willem_Gravesande",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-pope-essay-on-man",
+      "label": "Pope's Essay on Man",
+      "year": 1733,
+      "description": "Alexander Pope versified Enlightenment optimism; his Newton couplet is the literal source of the age's \"light\".",
+      "wikiSlug": "An_Essay_on_Man",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-voltaire",
+      "label": "Voltaire",
+      "year": 1694,
+      "endYear": 1778,
+      "description": "The Enlightenment's celebrity face, who smuggled subversion inside delight and turned fame into a check on power.",
+      "wikiSlug": "Voltaire",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-voltaire-bastille",
+      "label": "Voltaire Beaten and Bastilled",
+      "year": 1726,
+      "description": "Cudgelled by a nobleman's servants then jailed for seeking redress, Voltaire learned privilege outranked justice.",
+      "wikiSlug": "Bastille",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-voltaire-lettres",
+      "label": "Voltaire's Lettres philosophiques",
+      "year": 1734,
+      "description": "Praise of English liberty that was, by silent arithmetic, an indictment of France; burned by the hangman.",
+      "wikiSlug": "Letters_on_the_English",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-voltaire-cirey",
+      "label": "Cirey with du Châtelet",
+      "year": 1734,
+      "endYear": 1749,
+      "description": "A private academy of two near a border where Voltaire and du Châtelet did physics, philosophy, and poetry.",
+      "wikiSlug": "Émilie_du_Châtelet",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lisbon-earthquake",
+      "label": "The Lisbon Earthquake",
+      "year": 1755,
+      "description": "A Sunday-morning catastrophe that killed tens of thousands and shook faith in a benevolently engineered cosmos.",
+      "wikiSlug": "1755_Lisbon_earthquake",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-voltaire-candide",
+      "label": "Candide",
+      "year": 1759,
+      "description": "Voltaire's savage comic novel against philosophical optimism, with the era's plainest line on slavery and sugar.",
+      "wikiSlug": "Candide",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-calas-affair",
+      "label": "Voltaire and the Calas Affair",
+      "year": 1762,
+      "endYear": 1765,
+      "description": "Voltaire turned fame into a publicity-and-litigation machine to overturn a judicial murder, inventing the modern public intellectual.",
+      "wikiSlug": "Jean_Calas",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-voltaire-toleration",
+      "label": "Voltaire's Treatise on Toleration",
+      "year": 1763,
+      "description": "Built around the Calas case, with the war-cry écrasez l'infâme against fanaticism allied to state power.",
+      "wikiSlug": "Treatise_on_Toleration",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-ferney",
+      "label": "Voltaire at Ferney",
+      "year": 1759,
+      "description": "An estate minutes from the Swiss border made him the untouchable \"innkeeper of Europe\".",
+      "wikiSlug": "Ferney-Voltaire",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-persian-letters",
+      "label": "Montesquieu's Persian Letters",
+      "year": 1721,
+      "description": "Fictional Persian travelers made France look like an absurd foreign custom, the root move of social science.",
+      "wikiSlug": "Persian_Letters",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-montesquieu",
+      "label": "Montesquieu",
+      "year": 1689,
+      "endYear": 1755,
+      "description": "Bordeaux judge who turned politics into a comparative science.",
+      "wikiSlug": "Montesquieu",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-montesquieu-spirit",
+      "label": "Montesquieu's Spirit of the Laws",
+      "year": 1748,
+      "description": "Twenty years' work arguing laws fit their society's conditions, and that power must check power.",
+      "wikiSlug": "The_Spirit_of_the_Laws",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-separation-of-powers",
+      "label": "The Separation of Powers",
+      "year": 1748,
+      "description": "The engineering idea that a constitution stays free if legislative, executive, and judicial powers block each other.",
+      "wikiSlug": "Separation_of_powers",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-climate-theory",
+      "label": "Montesquieu's Climate Theory",
+      "year": 1748,
+      "description": "The book's most criticized chapter, an ancestor of pseudo-scientific climate-and-race determinism.",
+      "wikiSlug": "The_Spirit_of_the_Laws",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-encyclopedie",
+      "label": "The Encyclopédie",
+      "year": 1751,
+      "endYear": 1772,
+      "description": "A 28-volume map of all knowledge engineered to rewire how readers thought about authority.",
+      "wikiSlug": "Encyclopédie",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-diderot",
+      "label": "Denis Diderot",
+      "year": 1713,
+      "endYear": 1784,
+      "description": "Printer's son who held the Encyclopédie together almost alone and wrote materialist philosophy.",
+      "wikiSlug": "Denis_Diderot",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-dalembert",
+      "label": "Jean le Rond d'Alembert",
+      "year": 1717,
+      "endYear": 1783,
+      "description": "Foundling mathematician who co-edited the Encyclopédie and wrote its Preliminary Discourse.",
+      "wikiSlug": "Jean_le_Rond_d'Alembert",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-preliminary-discourse",
+      "label": "The Preliminary Discourse",
+      "year": 1751,
+      "description": "D'Alembert's essay placing theology inside one human, evidence-based tree of knowledge.",
+      "wikiSlug": "Preliminary_Discourse_to_the_Encyclopedia_of_Diderot",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-encyclopedie-suppressed",
+      "label": "The Encyclopédie Suppressed",
+      "year": 1759,
+      "description": "Condemned by Church and council and Indexed; d'Alembert quit and Diderot carried on.",
+      "wikiSlug": "Encyclopédie",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-malesherbes",
+      "label": "Malesherbes Protects the Encyclopédie",
+      "year": 1751,
+      "description": "The king's chief censor shielded the work, proof the Enlightenment had friends inside the machine.",
+      "wikiSlug": "Chrétien_Guillaume_de_Lamoignon_de_Malesherbes",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-arts-and-crafts-plates",
+      "label": "The Encyclopédie Plates",
+      "year": 1762,
+      "description": "Hundreds of engravings dignifying crafts as real knowledge, a political statement disguised as a diagram.",
+      "wikiSlug": "Encyclopédie",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-rousseau",
+      "label": "Jean-Jacques Rousseau",
+      "year": 1712,
+      "endYear": 1778,
+      "description": "The insider-outsider who turned the Enlightenment's method against the Enlightenment and seeded Romanticism.",
+      "wikiSlug": "Jean-Jacques_Rousseau",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-rousseau-first-discourse",
+      "label": "Rousseau's Discourse on the Arts and Sciences",
+      "year": 1750,
+      "description": "Won fame arguing that the progress of civilization had corrupted morals.",
+      "wikiSlug": "Discourse_on_the_Arts_and_Sciences",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-rousseau-inequality",
+      "label": "Rousseau's Discourse on Inequality",
+      "year": 1755,
+      "description": "Located the fall of humanity in the first enclosure of private property.",
+      "wikiSlug": "Discourse_on_Inequality",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-rousseau-social-contract",
+      "label": "Rousseau's Social Contract",
+      "year": 1762,
+      "description": "\"Man is born free, and everywhere he is in chains\"; sovereignty belongs to the people and cannot be given away.",
+      "wikiSlug": "The_Social_Contract",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-general-will",
+      "label": "The General Will",
+      "year": 1762,
+      "description": "The citizen's will aimed at the common good, the source of both popular sovereignty and \"forced to be free\".",
+      "wikiSlug": "General_will",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-rousseau-emile",
+      "label": "Rousseau's Émile",
+      "year": 1762,
+      "description": "A treatise-novel arguing the child is naturally good and deformed by society.",
+      "wikiSlug": "Emile,_or_On_Education",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-rousseau-confessions",
+      "label": "Rousseau's Confessions",
+      "year": 1782,
+      "description": "The first modern autobiography, making the authentic inner self the seat of truth.",
+      "wikiSlug": "Confessions_(Rousseau)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-scottish-enlightenment",
+      "label": "The Scottish Enlightenment",
+      "year": 1740,
+      "endYear": 1790,
+      "description": "A poor country's cheap universities produced the Enlightenment's calmer, deeper twin.",
+      "wikiSlug": "Scottish_Enlightenment",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hume",
+      "label": "David Hume",
+      "year": 1711,
+      "endYear": 1776,
+      "description": "The movement's most rigorous philosopher, who turned skeptical empiricism on reason itself.",
+      "wikiSlug": "David_Hume",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-hume-treatise",
+      "label": "Hume's Treatise of Human Nature",
+      "year": 1739,
+      "description": "Hume's youthful masterwork, that we live by habit and custom, not proof.",
+      "wikiSlug": "A_Treatise_of_Human_Nature",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hume-enquiry",
+      "label": "Hume's Enquiry",
+      "year": 1748,
+      "description": "A cleaner restatement of Hume's empiricism and the problem of causation.",
+      "wikiSlug": "An_Enquiry_Concerning_Human_Understanding",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-stadial-history",
+      "label": "Conjectural History",
+      "year": 1760,
+      "description": "The Scots' theory that a society's whole structure follows from its mode of subsistence, ancestor of sociology.",
+      "wikiSlug": "Conjectural_history",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-adam-ferguson",
+      "label": "Adam Ferguson's Civil Society",
+      "year": 1767,
+      "description": "An Essay on the History of Civil Society, a founding text of sociology.",
+      "wikiSlug": "Adam_Ferguson",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-select-society",
+      "label": "The Select Society",
+      "year": 1754,
+      "description": "The Edinburgh debating club where the Scottish elite argued improvement.",
+      "wikiSlug": "The_Select_Society",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-hutton-deep-time",
+      "label": "Hutton's Theory of the Earth",
+      "year": 1788,
+      "description": "Hutton argued ordinary processes imply an unimaginably old Earth, opening deep geological time.",
+      "wikiSlug": "James_Hutton",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-mercantilism",
+      "label": "Mercantilism",
+      "year": 1700,
+      "description": "The bullion-hoarding, zero-sum doctrine of the absolutist states that Smith demolished.",
+      "wikiSlug": "Mercantilism",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-physiocrats",
+      "label": "The Physiocrats",
+      "year": 1758,
+      "description": "Quesnay's school treated the economy as a natural system and coined laissez-faire.",
+      "wikiSlug": "Physiocracy",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-quesnay-tableau",
+      "label": "Quesnay's Tableau économique",
+      "year": 1758,
+      "description": "A royal physician's diagram of wealth circulating like blood through the social body.",
+      "wikiSlug": "François_Quesnay",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-turgot-reforms",
+      "label": "Turgot's Reforms",
+      "year": 1774,
+      "endYear": 1776,
+      "description": "A Physiocrat minister's liberalization destroyed by privileged interests, foreshadowing 1789.",
+      "wikiSlug": "Anne_Robert_Jacques_Turgot",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-smith-moral-sentiments",
+      "label": "Smith's Theory of Moral Sentiments",
+      "year": 1759,
+      "description": "Morality from sympathy and an inner impartial spectator, the half needed to read Smith correctly.",
+      "wikiSlug": "The_Theory_of_Moral_Sentiments",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-adam-smith",
+      "label": "Smith's Wealth of Nations",
+      "year": 1776,
+      "description": "Redefined wealth as production, founding modern economics on the division of labor.",
+      "wikiSlug": "The_Wealth_of_Nations",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-adam-smith-person",
+      "label": "Adam Smith",
+      "year": 1723,
+      "endYear": 1790,
+      "description": "The Edinburgh moral philosopher who attacked businessmen and chartered monopolies as fiercely as bad government.",
+      "wikiSlug": "Adam_Smith",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-division-of-labor",
+      "label": "The Division of Labor",
+      "year": 1776,
+      "description": "Specialization breeds productivity; the pin factory is the Industrial Revolution's intellectual charter.",
+      "wikiSlug": "Division_of_labour",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-invisible-hand",
+      "label": "The Invisible Hand",
+      "year": 1776,
+      "description": "Spontaneous order: a coordinated outcome that is the product of human action but not of human design.",
+      "wikiSlug": "Invisible_hand",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-deism",
+      "label": "Deism",
+      "year": 1700,
+      "description": "Belief in a rational creator who set the world-machine running and then stepped back, the century's middle position.",
+      "wikiSlug": "Deism",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-design-argument",
+      "label": "The Argument from Design",
+      "year": 1700,
+      "description": "A cosmic mechanism implies a cosmic designer, the deists' fortress until Hume.",
+      "wikiSlug": "Teleological_argument",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-biblical-criticism",
+      "label": "Biblical Criticism",
+      "year": 1700,
+      "description": "Applying scholarly philology to scripture and finding the human seams.",
+      "wikiSlug": "Historical_criticism",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hume-miracles",
+      "label": "Hume's Of Miracles",
+      "year": 1748,
+      "description": "No testimony can ever outweigh the uniform experience that is a law of nature.",
+      "wikiSlug": "Of_Miracles",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-hume-dialogues",
+      "label": "Hume's Dialogues Concerning Natural Religion",
+      "year": 1779,
+      "description": "Published after his death, it dismantled the design argument from inside.",
+      "wikiSlug": "Dialogues_Concerning_Natural_Religion",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-la-mettrie",
+      "label": "La Mettrie's Man a Machine",
+      "year": 1747,
+      "description": "The boldest early statement that the human being, mind included, is purely physical.",
+      "wikiSlug": "Julien_Offray_de_La_Mettrie",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-holbach-system",
+      "label": "d'Holbach's System of Nature",
+      "year": 1770,
+      "description": "The century's bluntest atheist materialism: only matter in motion, no God, no soul, no purpose.",
+      "wikiSlug": "The_System_of_Nature",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-holbach-salon",
+      "label": "d'Holbach's Salon",
+      "year": 1760,
+      "description": "The radical Enlightenment's command post, a twice-weekly dinner of the boldest minds in France.",
+      "wikiSlug": "Baron_d'Holbach",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-helvetius",
+      "label": "Helvétius's De l'esprit",
+      "year": 1758,
+      "description": "A materialist account of mind and education so scandalous it was publicly burned.",
+      "wikiSlug": "Claude_Adrien_Helvétius",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-condillac",
+      "label": "Condillac's Sensationalism",
+      "year": 1754,
+      "description": "Pushed Locke further: all mental life is transformed sensation.",
+      "wikiSlug": "Étienne_Bonnot_de_Condillac",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-materialism",
+      "label": "Enlightenment Materialism",
+      "year": 1750,
+      "description": "The claim, fought over inside the movement, that mind and morality need no God.",
+      "wikiSlug": "Materialism",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-frederick-great-enlightened",
+      "label": "Frederick the Great's Reforms",
+      "year": 1740,
+      "endYear": 1786,
+      "description": "Abolished torture and corresponded with Voltaire while keeping serfdom for the army.",
+      "wikiSlug": "Frederick_the_Great",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-sanssouci",
+      "label": "Sanssouci",
+      "year": 1747,
+      "description": "Frederick's Potsdam palace where he hosted Voltaire and played the flute.",
+      "wikiSlug": "Sanssouci",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-catherine-great-enlightened",
+      "label": "Catherine the Great's Enlightened Rule",
+      "year": 1762,
+      "endYear": 1796,
+      "description": "Bought the philosophes' loyalty while extending and intensifying serfdom.",
+      "wikiSlug": "Catherine_the_Great",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-diderot-catherine",
+      "label": "Catherine Buys Diderot's Library",
+      "year": 1765,
+      "description": "She funded his daughter's dowry and paid him to keep his own books, the age's grandest patronage gesture.",
+      "wikiSlug": "Denis_Diderot",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pugachev-rebellion",
+      "label": "The Pugachev Rebellion",
+      "year": 1773,
+      "endYear": 1775,
+      "description": "A massive Cossack-and-peasant rising that pushed Catherine toward repression.",
+      "wikiSlug": "Pugachev's_Rebellion",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-joseph-ii-reforms",
+      "label": "Joseph II's Reforms",
+      "year": 1780,
+      "endYear": 1790,
+      "description": "Abolished serfdom and rationalized law by decree across the Habsburg lands, the cleanest test of reform from above and its clearest failure.",
+      "wikiSlug": "Joseph_II,_Holy_Roman_Emperor",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-enlightened-absolutism",
+      "label": "Enlightened Absolutism",
+      "year": 1750,
+      "description": "The forty-year experiment in reforming society by capturing the despot instead of overthrowing him.",
+      "wikiSlug": "Enlightened_absolutism",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-radishchev-journey",
+      "label": "Radishchev's Journey",
+      "year": 1790,
+      "description": "A travelogue exposing serfdom that got its author exiled to Siberia.",
+      "wikiSlug": "Alexander_Radishchev",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-lessing",
+      "label": "Gotthold Ephraim Lessing",
+      "year": 1729,
+      "endYear": 1781,
+      "description": "Germany's leading playwright-critic and Mendelssohn's friend across the deepest religious divide.",
+      "wikiSlug": "Gotthold_Ephraim_Lessing",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-lessing-nathan",
+      "label": "Lessing's Nathan the Wise",
+      "year": 1779,
+      "description": "The ring parable: true religion is shown in loving conduct, not doctrine.",
+      "wikiSlug": "Nathan_the_Wise",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mendelssohn",
+      "label": "Moses Mendelssohn",
+      "year": 1729,
+      "endYear": 1786,
+      "description": "Self-taught Jewish philosopher who founded Jewish modernity and argued faith's compatibility with reason.",
+      "wikiSlug": "Moses_Mendelssohn",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-mendelssohn-jerusalem",
+      "label": "Mendelssohn's Jerusalem",
+      "year": 1783,
+      "description": "Argued for the separation of religion from state coercion and Judaism as compatible with citizenship.",
+      "wikiSlug": "Moses_Mendelssohn",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-jew-bill",
+      "label": "The \"Jew Bill\"",
+      "year": 1753,
+      "description": "A British naturalization measure passed and repealed within months under public uproar.",
+      "wikiSlug": "Jewish_Naturalisation_Act_1753",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-kant",
+      "label": "Immanuel Kant",
+      "year": 1724,
+      "endYear": 1804,
+      "description": "The Age of Reason's greatest philosopher, who fixed exactly how far reason can go.",
+      "wikiSlug": "Immanuel_Kant",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-kant-what-is-enlightenment",
+      "label": "Kant's What Is Enlightenment?",
+      "year": 1784,
+      "description": "Enlightenment as humanity's emergence from self-incurred immaturity, with the motto Sapere aude.",
+      "wikiSlug": "Immanuel_Kant",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kant-critique",
+      "label": "Kant's Critique of Pure Reason",
+      "year": 1781,
+      "description": "The mind structures experience; metaphysics beyond possible experience is permanently out of bounds.",
+      "wikiSlug": "Critique_of_Pure_Reason",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-aufklarung",
+      "label": "The German Aufklärung",
+      "year": 1750,
+      "endYear": 1804,
+      "description": "The German Enlightenment ran in a professorial key, reconciling reason, faith, and the inner moral life.",
+      "wikiSlug": "Age_of_Enlightenment",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-berlinische-monatsschrift",
+      "label": "The Berlinische Monatsschrift",
+      "year": 1783,
+      "description": "The Berlin magazine whose essay contest produced Kant's definition of enlightenment.",
+      "wikiSlug": "Berlinische_Monatsschrift",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-the-half-light",
+      "label": "The Enlightenment's Exclusions",
+      "year": 1770,
+      "description": "Tested against its own conduct, the universalism failed across slavery, race, and women.",
+      "wikiSlug": "Age_of_Enlightenment",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-wollstonecraft",
+      "label": "Wollstonecraft's Vindication",
+      "year": 1792,
+      "description": "If reason is universal, women's subjection is exactly the irrational tyranny the movement existed to attack.",
+      "wikiSlug": "A_Vindication_of_the_Rights_of_Woman",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mary-wollstonecraft",
+      "label": "Mary Wollstonecraft",
+      "year": 1759,
+      "endYear": 1797,
+      "description": "Used the Enlightenment's own logic as a crowbar against the exclusion of women.",
+      "wikiSlug": "Mary_Wollstonecraft",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-olympe-de-gouges",
+      "label": "Olympe de Gouges",
+      "year": 1748,
+      "endYear": 1793,
+      "description": "Wrote the Declaration of the Rights of Woman and was guillotined in the Terror.",
+      "wikiSlug": "Olympe_de_Gouges",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-de-gouges-declaration",
+      "label": "Declaration of the Rights of Woman",
+      "year": 1791,
+      "description": "De Gouges rewrote the 1789 Declaration to include women, point for point.",
+      "wikiSlug": "Declaration_of_the_Rights_of_Woman_and_of_the_Female_Citizen",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-linnaeus-taxonomy",
+      "label": "Linnaeus's Systema Naturae",
+      "year": 1735,
+      "description": "Nested kingdoms, genera, and species, the era's emblem of orderly knowledge, later turned on humanity.",
+      "wikiSlug": "Systema_Naturae",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-scientific-racism",
+      "label": "The Invention of Scientific Racism",
+      "year": 1750,
+      "description": "Classification turned into hierarchy, recasting old prejudice in the prestige language of natural science.",
+      "wikiSlug": "Scientific_racism",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-radical-enlightenment",
+      "label": "The Radical Enlightenment",
+      "year": 1700,
+      "description": "A materialist, democratic, anti-slavery current traced to Spinoza, against a compromising Moderate Enlightenment.",
+      "wikiSlug": "Radical_Enlightenment",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-no-taxation",
+      "label": "No Taxation Without Representation",
+      "year": 1765,
+      "description": "Locke's Two Treatises applied to a colonial customs dispute.",
+      "wikiSlug": "No_taxation_without_representation",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-american-revolution",
+      "label": "American Revolution",
+      "year": 1775,
+      "endYear": 1783,
+      "description": "Provincial colonists built a working government from Locke and Montesquieu as an engineering manual.",
+      "wikiSlug": "American_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-paine-common-sense",
+      "label": "Paine's Common Sense",
+      "year": 1776,
+      "description": "A plain-prose case for independence and against monarchy that sold in unmatched numbers.",
+      "wikiSlug": "Common_Sense_(pamphlet)",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-declaration-independence",
+      "label": "Declaration of Independence",
+      "year": 1776,
+      "description": "Locke versified for eternity, by a committee whose draftsman enslaved hundreds.",
+      "wikiSlug": "United_States_Declaration_of_Independence",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-us-constitution",
+      "label": "US Constitution",
+      "year": 1788,
+      "description": "Montesquieu built: separated powers set deliberately against one another.",
+      "wikiSlug": "United_States_Constitution",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-federalist-papers",
+      "label": "The Federalist Papers",
+      "year": 1788,
+      "description": "Newspaper essays defending the Constitution as applied political science: \"If men were angels...\".",
+      "wikiSlug": "The_Federalist_Papers",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-us-bill-of-rights",
+      "label": "US Bill of Rights",
+      "year": 1791,
+      "description": "Ten amendments writing Lockean rights into enforceable law.",
+      "wikiSlug": "United_States_Bill_of_Rights",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-franklin",
+      "label": "Benjamin Franklin",
+      "year": 1706,
+      "endYear": 1790,
+      "description": "Printer, scientist, and diplomat, the Enlightenment's American embodiment.",
+      "wikiSlug": "Benjamin_Franklin",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-franklin-electricity",
+      "label": "Franklin's Electricity Experiments",
+      "year": 1752,
+      "description": "The kite experiment and lightning rod, science as useful public knowledge.",
+      "wikiSlug": "Kite_experiment",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-jefferson",
+      "label": "Thomas Jefferson",
+      "year": 1743,
+      "endYear": 1826,
+      "description": "Wrote \"all men are created equal\" and enslaved more than six hundred people.",
+      "wikiSlug": "Thomas_Jefferson",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-madison",
+      "label": "James Madison",
+      "year": 1751,
+      "endYear": 1836,
+      "description": "Federalist architect who built the Constitution on the assumption that men are not angels.",
+      "wikiSlug": "James_Madison",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-lafayette",
+      "label": "The Marquis de Lafayette",
+      "year": 1757,
+      "endYear": 1834,
+      "description": "Fought for the Americans, returned a convert, and helped draft the French Declaration.",
+      "wikiSlug": "Gilbert_du_Motier,_Marquis_de_Lafayette",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-french-fiscal-crisis",
+      "label": "The French Bankruptcy",
+      "year": 1788,
+      "description": "War debt the state could not service because it could not tax the privileged orders.",
+      "wikiSlug": "Financial_crisis_of_the_French_monarchy",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-estates-general",
+      "label": "The Estates-General",
+      "year": 1789,
+      "description": "Convened to save royal finances, it became the body that dissolved royal sovereignty.",
+      "wikiSlug": "Estates-General_of_1789",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cahiers-doleances",
+      "label": "The Cahiers de Doléances",
+      "year": 1789,
+      "description": "Notebooks of grievances, a snapshot of a society that had absorbed a vocabulary of rights.",
+      "wikiSlug": "Cahier_de_doléances",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-sieyes-third-estate",
+      "label": "Sieyès's What Is the Third Estate?",
+      "year": 1789,
+      "description": "\"What is the Third Estate? Everything.\" The Revolution in three beats.",
+      "wikiSlug": "Emmanuel_Joseph_Sieyès",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tennis-court-oath",
+      "label": "The Tennis Court Oath",
+      "year": 1789,
+      "description": "The Third Estate declared itself the National Assembly and swore not to disband until France had a constitution.",
+      "wikiSlug": "Tennis_Court_Oath",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-french-revolution",
+      "label": "Storming of the Bastille",
+      "year": 1789,
+      "description": "The thing power could not stop; the abstraction \"the people are sovereign\" became an armed crowd.",
+      "wikiSlug": "Storming_of_the_Bastille",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-great-fear",
+      "label": "The Great Fear",
+      "year": 1789,
+      "description": "Peasants burned the manor rolls; the Assembly abolished feudalism in a single night.",
+      "wikiSlug": "Great_Fear",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abolition-feudalism",
+      "label": "The Night of 4 August",
+      "year": 1789,
+      "description": "The society of orders dismantled in one delirious sitting.",
+      "wikiSlug": "August_Decrees",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-declaration-rights-man",
+      "label": "Declaration of the Rights of Man",
+      "year": 1789,
+      "description": "The Enlightenment's century distilled to a single page of statute, addressed to all humanity.",
+      "wikiSlug": "Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-louis-xvi",
+      "label": "Louis XVI",
+      "year": 1774,
+      "endYear": 1792,
+      "description": "The king who convened the Estates-General to save his finances and lost his sovereignty and his head.",
+      "wikiSlug": "Louis_XVI",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-women-march-versailles",
+      "label": "The Women's March on Versailles",
+      "year": 1789,
+      "description": "A Parisian crowd of women forced the royal family back to the city.",
+      "wikiSlug": "Women's_March_on_Versailles",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-civil-constitution-clergy",
+      "label": "Civil Constitution of the Clergy",
+      "year": 1790,
+      "description": "Subordinating the Church to the state, the measure that split the Revolution from Catholic France.",
+      "wikiSlug": "Civil_Constitution_of_the_Clergy",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-french-republic",
+      "label": "The French Republic",
+      "year": 1792,
+      "description": "The monarchy fell and a Republic was proclaimed under invasion and internal revolt.",
+      "wikiSlug": "French_First_Republic",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-louis-xvi-executed",
+      "label": "Execution of Louis XVI",
+      "year": 1793,
+      "description": "The sacred body of kingship decapitated by vote in a public square.",
+      "wikiSlug": "Execution_of_Louis_XVI",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-committee-public-safety",
+      "label": "The Committee of Public Safety",
+      "year": 1793,
+      "endYear": 1794,
+      "description": "The emergency executive that ran the Terror.",
+      "wikiSlug": "Committee_of_Public_Safety",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-reign-terror",
+      "label": "The Reign of Terror",
+      "year": 1793,
+      "endYear": 1794,
+      "description": "Robespierre's enforcement of virtue: perhaps seventeen thousand executed, the machine consuming its own.",
+      "wikiSlug": "Reign_of_Terror",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-robespierre",
+      "label": "Maximilien Robespierre",
+      "year": 1758,
+      "endYear": 1794,
+      "description": "A sincere disciple of Rousseau who built and was destroyed by the Republic of Virtue.",
+      "wikiSlug": "Maximilien_Robespierre",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-vendee",
+      "label": "The War in the Vendée",
+      "year": 1793,
+      "description": "A counter-revolutionary Catholic peasant uprising turned civil war.",
+      "wikiSlug": "War_in_the_Vendée",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-condorcet-progress",
+      "label": "Condorcet's Sketch of Progress",
+      "year": 1795,
+      "description": "The most optimistic Enlightenment book, written by a man hiding from the Revolution that killed him.",
+      "wikiSlug": "Sketch_for_a_Historical_Picture_of_the_Progress_of_the_Human_Mind",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-condorcet",
+      "label": "The Marquis de Condorcet",
+      "year": 1743,
+      "endYear": 1794,
+      "description": "The last original philosophe, an early advocate of rights for women and the enslaved.",
+      "wikiSlug": "Marquis_de_Condorcet",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-lavoisier-chemistry",
+      "label": "Lavoisier's Chemical Revolution",
+      "year": 1789,
+      "description": "Founded modern chemistry by naming oxygen and disproving phlogiston.",
+      "wikiSlug": "Antoine_Lavoisier",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-lavoisier-executed",
+      "label": "The Guillotine for the Chemist",
+      "year": 1794,
+      "description": "The Republic executed its greatest living scientist; \"a hundred years might not produce another like it\".",
+      "wikiSlug": "Antoine_Lavoisier",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-supreme-being",
+      "label": "Festival of the Supreme Being",
+      "year": 1794,
+      "description": "Robespierre's deist civic religion installed by decree at the height of the Terror.",
+      "wikiSlug": "Cult_of_the_Supreme_Being",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-thermidor",
+      "label": "The Thermidorian Reaction",
+      "year": 1794,
+      "description": "Robespierre guillotined; the machine reached its own operators.",
+      "wikiSlug": "Thermidorian_Reaction",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-saint-domingue",
+      "label": "Saint-Domingue",
+      "year": 1789,
+      "description": "The most profitable colony on Earth, run on the lethal exploitation of half a million enslaved people.",
+      "wikiSlug": "Saint-Domingue",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-haitian-revolution",
+      "label": "Haitian Revolution",
+      "year": 1791,
+      "endYear": 1804,
+      "description": "A thirteen-year war that took \"all men are born free\" at its word with arms in hand.",
+      "wikiSlug": "Haitian_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-toussaint-louverture",
+      "label": "Toussaint Louverture",
+      "year": 1743,
+      "endYear": 1803,
+      "description": "Born enslaved, became one of the age's foremost generals, died in a French prison cell.",
+      "wikiSlug": "Toussaint_Louverture",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-france-abolishes-slavery-1794",
+      "label": "France Abolishes Slavery",
+      "year": 1794,
+      "description": "A real act driven largely by Black resistance, reversed by Napoleon eight years later.",
+      "wikiSlug": "Law_of_4_February_1794",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-dessalines",
+      "label": "Jean-Jacques Dessalines",
+      "year": 1758,
+      "endYear": 1806,
+      "description": "Declared Haitian independence in 1804.",
+      "wikiSlug": "Jean-Jacques_Dessalines",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-haiti-independence",
+      "label": "Haitian Independence",
+      "year": 1804,
+      "description": "The first nation created by a successful revolt of the enslaved.",
+      "wikiSlug": "Haiti",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-haiti-indemnity",
+      "label": "The Haiti Indemnity",
+      "year": 1825,
+      "description": "France extorted payment from the formerly enslaved to compensate their former enslavers.",
+      "wikiSlug": "Haiti_indemnity_controversy",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-equiano",
+      "label": "Olaudah Equiano",
+      "year": 1745,
+      "endYear": 1797,
+      "description": "The formerly enslaved writer whose bestselling memoir armed the abolition movement.",
+      "wikiSlug": "Olaudah_Equiano",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-wilberforce",
+      "label": "William Wilberforce",
+      "year": 1759,
+      "endYear": 1833,
+      "description": "The parliamentary campaigner of one of history's first mass moral-political movements.",
+      "wikiSlug": "William_Wilberforce",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-brookes-diagram",
+      "label": "The Slave Ship Brookes",
+      "year": 1788,
+      "description": "The diagram that made the trade's arithmetic unavoidable.",
+      "wikiSlug": "Brooks_(ship)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-abolition-slave-trade",
+      "label": "British Slave Trade Abolished",
+      "year": 1807,
+      "description": "Britain abolished the Atlantic slave trade after decades of campaigning.",
+      "wikiSlug": "Slave_Trade_Act_1807",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-napoleon-coup",
+      "label": "The Coup of 18 Brumaire",
+      "year": 1799,
+      "description": "The Revolution's child ended the Republic.",
+      "wikiSlug": "Coup_of_18_Brumaire",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-napoleon-emperor",
+      "label": "Napoleon Crowned Emperor",
+      "year": 1804,
+      "description": "He took the crown and set it on his own head, owing his sovereignty to no church.",
+      "wikiSlug": "Napoleon",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-napoleon",
+      "label": "Napoleon Bonaparte",
+      "year": 1769,
+      "endYear": 1821,
+      "description": "The Enlightenment's executor and undertaker, who spread its reforms by conquest and ruled as the power it taught Europe to refuse.",
+      "wikiSlug": "Napoleon",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-napoleonic-code",
+      "label": "The Napoleonic Code",
+      "year": 1804,
+      "description": "A single rational civil law, the direct ancestor of dozens of legal systems.",
+      "wikiSlug": "Napoleonic_Code",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-metric-system",
+      "label": "The Metric System",
+      "year": 1795,
+      "description": "The Revolution's rational, universal measurement derived from nature, not a king's forearm.",
+      "wikiSlug": "History_of_the_metric_system",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-slavery-reimposed-1802",
+      "label": "Napoleon Reimposes Slavery",
+      "year": 1802,
+      "description": "The Code's equality stopped at the color line and the ocean.",
+      "wikiSlug": "Law_of_20_May_1802",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-romanticism",
+      "label": "Romanticism",
+      "year": 1800,
+      "description": "Nature, feeling, and the authentic self against the cold rational individual, the great reaction.",
+      "wikiSlug": "Romanticism",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-herder",
+      "label": "Johann Gottfried Herder",
+      "year": 1744,
+      "endYear": 1803,
+      "description": "Argued each people has its own incommensurable genius, against a single ladder of civilization.",
+      "wikiSlug": "Johann_Gottfried_Herder",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-goethe",
+      "label": "Johann Wolfgang von Goethe",
+      "year": 1749,
+      "endYear": 1832,
+      "description": "Made feeling and organic nation a banner of the German reaction.",
+      "wikiSlug": "Johann_Wolfgang_von_Goethe",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-nationalism-rise",
+      "label": "The Rise of Nationalism",
+      "year": 1806,
+      "description": "Resistance to French domination fused with Romanticism into modern nationalism.",
+      "wikiSlug": "Nationalism",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-retreat-moscow",
+      "label": "The Retreat from Moscow",
+      "year": 1812,
+      "description": "The catastrophe that destroyed the Grande Armée and the spell.",
+      "wikiSlug": "French_invasion_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-waterloo",
+      "label": "Battle of Waterloo",
+      "year": 1815,
+      "description": "The old monarchies beat Napoleon for good but could not put the ideas back in the books.",
+      "wikiSlug": "Battle_of_Waterloo",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-congress-vienna",
+      "label": "Congress of Vienna",
+      "year": 1815,
+      "description": "The victors tried to restore the world of before and failed at the only level that mattered.",
+      "wikiSlug": "Congress_of_Vienna",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-burke-reflections",
+      "label": "Burke's Reflections on the Revolution",
+      "year": 1790,
+      "description": "The conservative count: rational redesign dissolves the bonds that hold humans together.",
+      "wikiSlug": "Reflections_on_the_Revolution_in_France",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-paine-rights-of-man",
+      "label": "Paine's Rights of Man",
+      "year": 1791,
+      "description": "Paine's reply to Burke, defending the Revolution and universal rights.",
+      "wikiSlug": "Rights_of_Man",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-counter-enlightenment",
+      "label": "The Counter-Enlightenment",
+      "year": 1790,
+      "description": "The current that defined itself against the Age of Reason.",
+      "wikiSlug": "Counter-Enlightenment",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-dialectic-enlightenment",
+      "label": "The Dialectic of Enlightenment",
+      "year": 1944,
+      "description": "Adorno and Horkheimer: reason that recognizes no authority becomes reason as domination.",
+      "wikiSlug": "Dialectic_of_Enlightenment",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-enlightenment-legacy",
+      "label": "The Enlightenment's Unfinished Argument",
+      "year": 1815,
+      "description": "Not achievements or crimes but an argument with itself the modern world is still inside.",
+      "wikiSlug": "Age_of_Enlightenment",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-beccaria",
+      "label": "Cesare Beccaria",
+      "year": 1738,
+      "endYear": 1794,
+      "description": "The Milanese jurist who founded modern criminal-law reform.",
+      "wikiSlug": "Cesare_Beccaria",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-beccaria-crimes",
+      "label": "Beccaria's On Crimes and Punishments",
+      "year": 1764,
+      "description": "Argued against torture and the death penalty and moved law across Europe.",
+      "wikiSlug": "On_Crimes_and_Punishments",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-gibbon-decline",
+      "label": "Gibbon's Decline and Fall",
+      "year": 1776,
+      "description": "The age's monument of skeptical, secular history-writing.",
+      "wikiSlug": "The_History_of_the_Decline_and_Fall_of_the_Roman_Empire",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-johnson-dictionary",
+      "label": "Johnson's Dictionary",
+      "year": 1755,
+      "description": "The English Enlightenment's great one-man ordering of a language.",
+      "wikiSlug": "A_Dictionary_of_the_English_Language",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-buffon-histoire",
+      "label": "Buffon's Histoire Naturelle",
+      "year": 1749,
+      "description": "A vast natural history that quietly stretched the age of the Earth.",
+      "wikiSlug": "Histoire_Naturelle",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-priestley-oxygen",
+      "label": "Priestley Isolates Oxygen",
+      "year": 1774,
+      "description": "A dissenting minister's gas chemistry feeding Lavoisier's revolution.",
+      "wikiSlug": "Joseph_Priestley",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-jenner-vaccine",
+      "label": "Jenner's Smallpox Vaccine",
+      "year": 1796,
+      "description": "Enlightenment empiricism turned on disease, the first vaccine.",
+      "wikiSlug": "Smallpox_vaccine",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-james-watt-steam",
+      "label": "Watt's Steam Engine",
+      "year": 1769,
+      "description": "The invention that would power the Industrial Revolution this chain hands off to.",
+      "wikiSlug": "Watt_steam_engine",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-east-india-company-trade",
+      "label": "East India Company Takes Bengal",
+      "year": 1757,
+      "description": "Plassey gave the Company Bengal, the extraction Adam Smith condemned.",
+      "wikiSlug": "Battle_of_Plassey",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-british-museum",
+      "label": "British Museum Founded",
+      "year": 1753,
+      "description": "The world's first public national museum, the Enlightenment ideal of universal knowledge.",
+      "wikiSlug": "British_Museum",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-pantheon-paris",
+      "label": "The Panthéon",
+      "year": 1790,
+      "description": "A church converted by the Revolution into a secular temple to great citizens.",
+      "wikiSlug": "Panthéon",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mozart",
+      "label": "Mozart",
+      "year": 1756,
+      "endYear": 1791,
+      "description": "Operas that critiqued aristocratic privilege at the Enlightenment's height.",
+      "wikiSlug": "Wolfgang_Amadeus_Mozart",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-marriage-of-figaro",
+      "label": "The Marriage of Figaro",
+      "year": 1784,
+      "description": "Beaumarchais's play, banned then staged, mocking aristocratic privilege on the eve of revolution.",
+      "wikiSlug": "The_Marriage_of_Figaro_(play)",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-french-directory",
+      "label": "The Directory",
+      "year": 1795,
+      "endYear": 1799,
+      "description": "The weak, corrupt regime between the Terror and Napoleon.",
+      "wikiSlug": "French_Directory",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-jacobins",
+      "label": "The Jacobin Club",
+      "year": 1789,
+      "description": "The radical network that drove the Revolution leftward.",
+      "wikiSlug": "Jacobin",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sans-culottes",
+      "label": "The Sans-culottes",
+      "year": 1792,
+      "description": "The militant Paris working people who pushed the Revolution into the streets.",
+      "wikiSlug": "Sans-culottes",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-danton",
+      "label": "Georges Danton",
+      "year": 1759,
+      "endYear": 1794,
+      "description": "Revolutionary orator consumed by the Terror he had helped unleash.",
+      "wikiSlug": "Georges_Danton",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-marat",
+      "label": "Jean-Paul Marat",
+      "year": 1743,
+      "endYear": 1793,
+      "description": "The radical journalist whose assassination became a revolutionary icon.",
+      "wikiSlug": "Jean-Paul_Marat",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-fontenelle-plurality",
+      "label": "Fontenelle's Plurality of Worlds",
+      "year": 1686,
+      "description": "An elegant bestseller that taught a wide public to think in Copernican, many-worlds terms.",
+      "wikiSlug": "Conversations_on_the_Plurality_of_Worlds",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-toland-deism",
+      "label": "Toland's Christianity Not Mysterious",
+      "year": 1696,
+      "description": "An early, notorious argument that nothing in religion is above reason.",
+      "wikiSlug": "John_Toland",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-shaftesbury",
+      "label": "Shaftesbury's Characteristics",
+      "year": 1711,
+      "description": "Argued for an innate moral sense, the precursor of Smith's sympathy.",
+      "wikiSlug": "Anthony_Ashley-Cooper,_3rd_Earl_of_Shaftesbury",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-collins-freethinking",
+      "label": "Collins's Discourse of Free-thinking",
+      "year": 1713,
+      "description": "A defiant manifesto for the right to reason about religion without limit.",
+      "wikiSlug": "Anthony_Collins_(philosopher)",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mandeville-fable",
+      "label": "Mandeville's Fable of the Bees",
+      "year": 1714,
+      "description": "\"Private vices, public benefits\", the scandalous paradox Smith would discipline.",
+      "wikiSlug": "The_Fable_of_the_Bees",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-vico-new-science",
+      "label": "Vico's New Science",
+      "year": 1725,
+      "description": "A lone Neapolitan's cyclical philosophy of history, against the universal-reason grain.",
+      "wikiSlug": "Giambattista_Vico",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hume-history",
+      "label": "Hume's History of England",
+      "year": 1754,
+      "endYear": 1762,
+      "description": "Hume's actual bestseller, secular narrative history for a mass readership.",
+      "wikiSlug": "The_History_of_England_(Hume)",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-rousseau-julie",
+      "label": "Rousseau's Julie",
+      "year": 1761,
+      "description": "A sentimental bestseller that helped invent the Romantic cult of feeling.",
+      "wikiSlug": "Julie,_or_the_New_Heloise",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-raynal-deux-indes",
+      "label": "Raynal's History of the Two Indies",
+      "year": 1770,
+      "description": "A vast, much-banned indictment of colonialism and slavery, partly written by Diderot.",
+      "wikiSlug": "Guillaume_Thomas_Raynal",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-herschel-uranus",
+      "label": "Herschel Discovers Uranus",
+      "year": 1781,
+      "description": "The first planet found with a telescope, Enlightenment astronomy as public wonder.",
+      "wikiSlug": "William_Herschel",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-montgolfier-balloon",
+      "label": "The Montgolfier Balloon",
+      "year": 1783,
+      "description": "The first human flight, science as mass spectacle on the eve of revolution.",
+      "wikiSlug": "Montgolfier_brothers",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-marriage-of-figaro2",
+      "label": "Beaumarchais's Figaro Banned",
+      "year": 1784,
+      "description": "A comedy mocking aristocratic privilege, suppressed then staged to acclaim.",
+      "wikiSlug": "Pierre_Beaumarchais",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mesmer-commission",
+      "label": "The Royal Commission on Mesmerism",
+      "year": 1784,
+      "description": "Franklin and Lavoisier debunked animal magnetism, reason policing pseudoscience.",
+      "wikiSlug": "Franz_Mesmer",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-de-stael",
+      "label": "Germaine de Staël",
+      "year": 1766,
+      "endYear": 1817,
+      "description": "Salon hostess and writer who bridged the Enlightenment and Romanticism and defied Napoleon.",
+      "wikiSlug": "Germaine_de_Staël",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-richard-price",
+      "label": "Price's Sermon on the Revolution",
+      "year": 1789,
+      "description": "A dissenting minister's praise of 1789 that provoked Burke's Reflections.",
+      "wikiSlug": "Richard_Price",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-france-american-war",
+      "label": "France Joins the American War",
+      "year": 1778,
+      "description": "The intervention that won American independence and helped bankrupt France.",
+      "wikiSlug": "France_in_the_American_Revolutionary_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-war-first-coalition",
+      "label": "War with the Monarchies",
+      "year": 1792,
+      "description": "Revolutionary France at war with monarchies that read the Declaration as their death sentence.",
+      "wikiSlug": "War_of_the_First_Coalition",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-godwin-justice",
+      "label": "Godwin's Political Justice",
+      "year": 1793,
+      "description": "The Enlightenment pushed to philosophical anarchism, by Wollstonecraft's future husband.",
+      "wikiSlug": "Political_Justice",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-concordat-1801",
+      "label": "The Concordat of 1801",
+      "year": 1801,
+      "description": "Napoleon's settlement with the Pope, reason making peace with the Church it had fought.",
+      "wikiSlug": "Concordat_of_1801",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-malthus-population",
+      "label": "Malthus's Essay on Population",
+      "year": 1798,
+      "description": "The pessimist's reply to Condorcet's progress, a hinge toward the next book in the chain.",
+      "wikiSlug": "An_Essay_on_the_Principle_of_Population",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-german-idealism",
+      "label": "German Idealism",
+      "year": 1794,
+      "description": "Fichte, Schelling, and Hegel built vast systems out of the opening Kant had made.",
+      "wikiSlug": "German_idealism",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-emilie-institutions",
+      "label": "Du Châtelet's Institutions de physique",
+      "year": 1740,
+      "description": "Her textbook synthesizing Newton and Leibniz, original physics under her own name.",
+      "wikiSlug": "Institutions_de_Physique",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 - **Dev**: `npm run dev` → localhost:3000. Dev server keeps the dev-only api routes and dynamic review pages for local image curation.
 
 ## Content Pipeline
-0. **Pull v1 reference data + expand to target density** — check `~/projects/personal/timeline/src/data/{tlId}.json`, copy to `reference-data/{tlId}.json`. Target **60-70 events** across all 8 categories. Verify the `label` field matches `navigator-tls.ts`.
+0. **Pull v1 reference data + expand to target density** — check `~/projects/personal/timeline/src/data/{tlId}.json`, copy to `reference-data/{tlId}.json`. **Hard target: 10–15 events per chapter** (e.g. a 20-chapter TL ⇒ ~200–220 events), spread across all 8 categories. The event pool is reused across chapters, so events can be unique-per-chapter or linked from multiple chapters via forward/back references during link curation. Verify the `label` field matches `navigator-tls.ts`.
 1. **Write narrative** — Claude drafts the chapter-based prose. Apply all writing rules in `WRITING-RULES.md`.
 2. **Audit** using the 5-persona system in `.claude/skills/audit-narrative.md`
 3. **Fix** audit findings from `audits/{tlId}.audit.md`
