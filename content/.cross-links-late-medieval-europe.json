@@ -29,6 +29,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The medieval European framework — including the Latin language used by every educated person, the Catholic Church inherited from late-antique Christianity, the city-state structure of northern Italy descended from Roman municipal law, and the persistent idea of imperial restoration — all trace back to the Roman world that ended in the West in 476. The Late Middle Ages are the period when those Roman inheritances were finally being supplemented or replaced by genuinely new institutions: the printing press, the gunpowder army, the maritime empire, the national vernacular literature."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 8,
+      "blurb": "The late-medieval crisis opens where the Viking warm period closed — the climate that powered the medieval boom turning against Europe."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "As western Europe's boom ended, Byzantium was in its Palaiologan death-spiral — the same fourteenth-century contraction, further along."
     }
   ],
   "2": [
@@ -49,6 +61,24 @@
       "targetTl": "polynesian-voyagers",
       "targetChapter": 7,
       "blurb": "While Europe was dying of the Black Death, the Polynesian voyaging society was reaching its medieval climax: Easter Island had been settled by 1200, New Zealand by 1280, and the eastern-Polynesian moai-building culture was at full development. The recent genetic evidence of South American sweet potato varieties on Polynesian islands also suggests trans-Pacific contact with the Andean kingdoms in this period — a separate strand of fourteenth-century intercontinental contact that the European-centric textbooks usually omit."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "The Black Death rode the Mongol trade routes out of Central Asia — the Pax Mongolica's final, lethal gift to the connected world."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "As plague gutted Christendom, a small Anatolian beylik was beginning the rise that would end at the walls of Constantinople."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "The plague reached the Islamic world and West Africa too — Mali's Mansa Sulayman ruled through the same pandemic that emptied Europe."
     }
   ],
   "3": [
@@ -75,6 +105,24 @@
       "targetTl": "tang-song-china",
       "targetChapter": 9,
       "blurb": "The Ming dynasty was founded by Zhu Yuanzhang in 1368 — right in the middle of the Hundred Years War. Zhu was a peasant-turned-warlord who overthrew the Mongol Yuan and founded the largest peasant-revolt success in world history. The Ming voyages of Zheng He from 1405 to 1433 — fleets of hundreds of ships ranging across the Indian Ocean to East Africa, with ships several times larger than the Portuguese caravels — coincided exactly with Henry V's Agincourt campaign and Joan of Arc's adolescence."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "While England and France bled each other for a century, the Ottomans were swallowing the Balkans — the real winner of the late-medieval wars was further east."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 2,
+      "blurb": "In the same century, the Aztecs were rising from vassals to hegemons of central Mexico — parallel state-building an ocean away."
+    },
+    {
+      "matchText": "Safavid order",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "In Persia the Safavid order was still a Sufi brotherhood, a century from the throne — the slow fuse of the next great Islamic empire."
     }
   ],
   "4": [
@@ -89,6 +137,18 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "The Sufi orders that flourished across the Islamic world in the post-Mongol fourteenth and fifteenth centuries — including the Safaviyya order at Ardabil that would shortly produce the Safavid dynasty in Iran in 1501 — provide a striking parallel to the late medieval European reform movements. Both Christian and Islamic religious institutions were generating reformist popular movements outside the established hierarchies in roughly the same period. The Safavid order's chapter 1 covers the militarization of the Safaviyya in the late fourteenth and fifteenth centuries that ran in parallel with the Avignon and Schism crises."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "The papal schism that split Latin Christendom mirrored the fragmentation that had already crippled the Orthodox Byzantine world after 1204."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Both the Latin Church and the Mongol order were splintering into rival claimants in the same century — universal authority dissolving across Eurasia."
     }
   ],
   "5": [
@@ -109,6 +169,18 @@
       "targetTl": "medieval-india",
       "targetChapter": 6,
       "blurb": "The Indian bhakti devotional movement of the late medieval period — Kabir, Mirabai, the early Sikh community under Guru Nanak (born 1469) — produced its own regional reform traditions that paralleled the European Wycliffite-Hussite movements. Both rejected institutional intermediaries between believer and divine, both used vernacular language to reach lay audiences, both attacked the wealth and political alignment of the established religious institutions. The medieval-India chapter 6 covers the bhakti emergence in detail."
+    },
+    {
+      "matchText": "Medieval India",
+      "targetTl": "medieval-india",
+      "targetChapter": 6,
+      "blurb": "The Wycliffe-Hus reform impulse had no Indian parallel — but India's own devotional movements were reshaping religion in the same era, bottom-up rather than against a papacy."
+    },
+    {
+      "matchText": "Safavid order",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The militant Hussite movement and the militant Safavid Sufi order were near-contemporary examples of religion arming itself into a political-military force."
     }
   ],
   "6": [
@@ -137,6 +209,18 @@
       "targetTl": "renaissance-italy",
       "targetChapter": 1,
       "blurb": "The Italian Renaissance this chapter has been sketching gets its own full TL: the patchwork of competing city-states, the Medici cultural project, the perspectival revolution in painting, the High Renaissance triumvirate, the Venetian sea-empire, and the Counter-Reformation that closed the era. The Renaissance Italy TL is the inside view of the cultural moment whose outer crust the late-medieval European story has only touched."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "The Renaissance the late Middle Ages was incubating defined itself by reaching back past the medieval to imperial Rome — the antiquity it consciously revived."
+    },
+    {
+      "matchText": "Medieval India",
+      "targetTl": "medieval-india",
+      "targetChapter": 6,
+      "blurb": "Italy's humanist recovery of classical texts ran parallel to continued Sanskrit and Persian learning in India — two literary high cultures, mutually invisible."
     }
   ],
   "8": [
@@ -205,6 +289,30 @@
       "targetTl": "mughal-empire",
       "targetChapter": 1,
       "blurb": "Babur's victory at Panipat in 1526 happened in the same world-historical pivot decade as Cortés at Tenochtitlan, Magellan's circumnavigation, Luther's Reformation, and Charles V's Habsburg consolidation. The Mughal founding is the South Asian regional manifestation of the same gunpowder-and-globalization revolution that ended the European Middle Ages — same technology, same kind of small-army-defeats-large-army outcome, same hinge year."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 6,
+      "blurb": "1453 is the hinge: Constantinople falls, the Ottomans inherit the Roman mantle (Kayser-i Rum), and the medieval world formally ends."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "The Ottoman sultan claiming to be Caesar closed a circle the Romans opened — the Roman idea outliving every Roman state."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "1492 opens the door the Aztecs and Inca would fall through within a generation — the European expansion the late Middle Ages launched."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 6,
+      "blurb": "As Europe turned outward by sea, Mali was being eaten by Songhai — the Atlantic route would soon bypass the trans-Saharan gold trade entirely."
     }
   ]
 }
