@@ -43,7 +43,9 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | byzantine-empire | 12 | **DONE** | 4ccf60e |
 | early-medieval-europe | 8 | **DONE** | 8596786 |
 | high-medieval-europe | 8 | **DONE** | 16da4dd |
-| late-medieval-europe | 8 | **DONE** (dense cross + glossary) | +this |
+| late-medieval-europe | 8 | **DONE** | b2dd12b |
+| renaissance-italy | 8 | **DONE** (cross + glossary) | +this |
+| _next: scientific-revolution (20ch), enlightenment (20ch), industrial-revolution (20ch)_ | | pending | |
 | _Greco-Roman chain COMPLETE; next: roadmap order_ | | pending | |
 | _next: byzantine-empire, then roadmap order_ | | pending | |
 | _next: ancient-greece (Greco-Roman chain), then roadmap order_ | | pending | |
