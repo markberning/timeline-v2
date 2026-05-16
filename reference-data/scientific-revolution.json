@@ -1,0 +1,809 @@
+{
+  "id": "scientific-revolution",
+  "label": "Scientific Revolution",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Scientific_revolution",
+  "imageWikiSlug": "Isaac_Newton",
+  "pitch": "When Copernicus published De Revolutionibus in 1543, he lit a fuse that would blow apart two thousand years of received wisdom. Within a century and a half, Kepler replaced perfect circles with ellipses, Galileo's telescope revealed moons orbiting Jupiter, Harvey traced the circulation of the blood, Boyle's air pump made the vacuum real, microscopes uncovered an invisible kingdom of life, and Newton's Principia bound the heavens and the Earth under one set of laws. The method these thinkers built — test your beliefs against evidence, not authority — became the engine of the modern world.",
+  "countryIds": ["826", "380", "250", "276", "616", "528"],
+  "spans": [
+    {
+      "id": "span-scientific-revolution-old-cosmos",
+      "label": "The Aristotelian World",
+      "startYear": 1543,
+      "endYear": 1572,
+      "description": "Copernicus and Vesalius published in the same year, 1543, quietly challenging the two great ancient authorities — Ptolemy in the heavens and Galen in the body. For a generation the old geocentric, Aristotelian cosmos still held.",
+      "wikiSlug": "Aristotelian_physics"
+    },
+    {
+      "id": "span-scientific-revolution-cracks",
+      "label": "Cracks in the Spheres",
+      "startYear": 1572,
+      "endYear": 1610,
+      "description": "Tycho Brahe's new star of 1572 and comet of 1577 proved the heavens were neither unchanging nor made of crystalline spheres. Kepler turned Tycho's data into the laws of planetary motion just as the telescope was invented.",
+      "wikiSlug": "Tycho_Brahe"
+    },
+    {
+      "id": "span-scientific-revolution-galilean-era",
+      "label": "The Galilean Era",
+      "startYear": 1610,
+      "endYear": 1642,
+      "description": "Galileo's telescopic discoveries provided direct evidence for heliocentrism, Harvey demonstrated the circulation of the blood, and Bacon and Descartes formalized rival methods of inquiry. The era closed with Galileo under house arrest and Galileo and Descartes both dead.",
+      "wikiSlug": "Galileo_Galilei"
+    },
+    {
+      "id": "span-scientific-revolution-mechanical-philosophy",
+      "label": "The Mechanical Philosophy",
+      "startYear": 1642,
+      "endYear": 1670,
+      "description": "Descartes, Boyle, Pascal, and Huygens replaced Aristotle's living cosmos with a universe of matter in motion. The Royal Society and the Académie des Sciences made experimental science a permanent institution for the first time.",
+      "wikiSlug": "Mechanical_philosophy"
+    },
+    {
+      "id": "span-scientific-revolution-newtonian-synthesis",
+      "label": "The Newtonian Synthesis",
+      "startYear": 1670,
+      "endYear": 1704,
+      "description": "Newton's Principia unified celestial and terrestrial mechanics under universal gravitation, Leibniz independently built the calculus, and Leeuwenhoek's microscopes revealed a living world too small to see. The new science became the model for all knowledge.",
+      "wikiSlug": "Newtonian_mechanics"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-copernicus-heliocentrism",
+      "label": "Copernicus publishes De Revolutionibus",
+      "year": 1543,
+      "description": "Nicolaus Copernicus published On the Revolutions of the Heavenly Spheres, placing the Sun, not the Earth, at the center of the cosmos. Published as he lay dying, with an unsigned preface calling it a mere calculating device, it quietly challenged the Ptolemaic system that had stood for fourteen centuries.",
+      "wikiSlug": "De_revolutionibus_orbium_coelestium",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-vesalius-anatomy",
+      "label": "Vesalius publishes De Humani Corporis Fabrica",
+      "year": 1543,
+      "description": "Andreas Vesalius published his landmark anatomy with detailed illustrations from his own human dissections. It corrected roughly two hundred errors in Galen, whose authority had governed medicine for some fourteen centuries.",
+      "wikiSlug": "De_humani_corporis_fabrica",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-index-librorum",
+      "label": "Index of Forbidden Books established",
+      "year": 1559,
+      "description": "Pope Paul IV issued the Index Librorum Prohibitorum, the Catholic Church's official list of banned books. Copernicus' work was added in 1616 and Galileo's Dialogue in 1633; the Index was not abolished until 1966.",
+      "wikiSlug": "Index_Librorum_Prohibitorum",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-mercator-projection",
+      "label": "Mercator projection map",
+      "year": 1569,
+      "description": "Gerardus Mercator published a world map whose cylindrical projection let sailors plot a constant compass bearing as a straight line. It became the foundation of European ocean navigation for centuries.",
+      "wikiSlug": "Mercator_projection",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tycho-supernova",
+      "label": "Tycho Brahe's new star",
+      "year": 1572,
+      "description": "Tycho Brahe observed a brilliant new star (a supernova) in Cassiopeia and proved it lay far beyond the Moon. This shattered the Aristotelian doctrine that the heavens were perfect and unchanging.",
+      "wikiSlug": "SN_1572",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-brahe-observatory",
+      "label": "Tycho Brahe builds Uraniborg",
+      "year": 1576,
+      "description": "With royal funding, Tycho Brahe built Uraniborg, Europe's most advanced observatory and research institute, on the Danish island of Hven. His instruments produced the most precise naked-eye observations ever recorded.",
+      "wikiSlug": "Uraniborg",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-tycho-comet",
+      "label": "The Great Comet of 1577",
+      "year": 1577,
+      "description": "Tycho Brahe showed the great comet of 1577 moved freely through the region the planets were thought to occupy. Comets passing through them meant the solid crystalline spheres of ancient astronomy could not exist.",
+      "wikiSlug": "Great_Comet_of_1577",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-gregorian-calendar",
+      "label": "Gregorian calendar adopted",
+      "year": 1582,
+      "description": "Pope Gregory XIII reformed the Julian calendar, which had drifted ten days from the solar year. Protestant and Orthodox countries resisted for centuries, but the Gregorian calendar eventually became the global civil standard.",
+      "wikiSlug": "Gregorian_calendar",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "science"
+    },
+    {
+      "id": "evt-stevin-decimals",
+      "label": "Stevin popularizes decimal fractions",
+      "year": 1585,
+      "description": "The Flemish engineer Simon Stevin published De Thiende, arguing that decimal fractions should replace clumsy common fractions in all calculation. He also demonstrated that two unequal weights fall at the same speed, years before Galileo.",
+      "wikiSlug": "Simon_Stevin",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kepler-mysterium",
+      "label": "Kepler's Mysterium Cosmographicum",
+      "year": 1596,
+      "description": "Johannes Kepler published the first openly Copernican book since Copernicus, arguing the planetary orbits were nested inside the five regular solids. The geometry was wrong, but it committed Europe's finest mathematician to the Sun-centered universe.",
+      "wikiSlug": "Mysterium_Cosmographicum",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-gresham-college",
+      "label": "Gresham College founded",
+      "year": 1597,
+      "description": "Gresham College opened in London with professors lecturing publicly in English, not Latin, on astronomy and geometry for merchants and navigators. Its meetings became the seedbed of the future Royal Society.",
+      "wikiSlug": "Gresham_College",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-giordano-bruno",
+      "label": "Giordano Bruno burned at the stake",
+      "year": 1600,
+      "description": "The Roman Inquisition burned the friar Giordano Bruno in Rome after an eight-year trial. Among his heresies was the claim that the universe was infinite and filled with countless inhabited worlds; he became a lasting symbol of inquiry crushed by authority.",
+      "wikiSlug": "Giordano_Bruno",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-gilbert-magnetism",
+      "label": "Gilbert's De Magnete",
+      "year": 1600,
+      "description": "William Gilbert published De Magnete, the first major work of experimental physical science, showing the Earth itself is a giant magnet. He coined the word electricity and rejected explanation by ancient authority.",
+      "wikiSlug": "De_Magnete",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-dutch-east-india-trade",
+      "label": "Dutch East India Company founded",
+      "year": 1602,
+      "description": "The VOC became the world's first publicly traded company, funding the Dutch maritime boom that bankrolled lens-grinders, instrument makers, and natural philosophers across the seventeenth-century Netherlands.",
+      "wikiSlug": "Dutch_East_India_Company",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-galileo-falling-bodies",
+      "label": "Galileo's law of falling bodies",
+      "year": 1604,
+      "description": "Working with inclined planes at Padua, Galileo found that falling bodies accelerate uniformly and that distance grows as the square of the time. It was the first mathematical law of terrestrial motion, contradicting Aristotle directly.",
+      "wikiSlug": "Equations_for_a_falling_body",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-telescope-invention",
+      "label": "The telescope invented",
+      "year": 1608,
+      "description": "The Dutch spectacle-maker Hans Lippershey filed the first known patent for a telescope. Within a year the instrument would be turned on the sky and transform astronomy forever.",
+      "wikiSlug": "History_of_the_telescope",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kepler-laws",
+      "label": "Kepler's first two laws of planetary motion",
+      "year": 1609,
+      "description": "In Astronomia Nova, Johannes Kepler announced that planets travel in ellipses with the Sun at one focus, sweeping equal areas in equal times. After six years fighting the orbit of Mars, he replaced two thousand years of perfect circles.",
+      "wikiSlug": "Kepler%27s_laws_of_planetary_motion",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-galileo-telescope",
+      "label": "Galileo's Sidereus Nuncius",
+      "year": 1610,
+      "description": "Galileo published The Starry Messenger, reporting four moons orbiting Jupiter, mountains on the Moon, and countless unseen stars. It was the first scientific work based on telescopic observation and made him famous across Europe.",
+      "wikiSlug": "Sidereus_Nuncius",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-galileo-venus-phases",
+      "label": "Galileo observes the phases of Venus",
+      "year": 1610,
+      "description": "Galileo found that Venus shows a full cycle of phases like the Moon, which is impossible in the Ptolemaic system but predicted by a Sun-centered one. It was the single strongest piece of telescopic evidence for Copernicus.",
+      "wikiSlug": "Phases_of_Venus",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-galileo-sunspots",
+      "label": "Galileo's Letters on Sunspots",
+      "year": 1613,
+      "description": "Galileo published his telescopic studies of sunspots, arguing the Sun itself was blemished and rotating. It was his first work to openly endorse Copernicus in print and drew the first warnings from the Church.",
+      "wikiSlug": "Letters_on_Sunspots",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-napier-logarithms",
+      "label": "Napier invents logarithms",
+      "year": 1614,
+      "description": "John Napier published his description of logarithms, turning multiplication into addition. The tables transformed astronomy, navigation, and engineering and were called the calculation revolution of the age.",
+      "wikiSlug": "John_Napier",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-galileo-1616-admonition",
+      "label": "The Church declares heliocentrism heretical",
+      "year": 1616,
+      "description": "A panel of theologians judged the motion of the Earth formally heretical. Cardinal Bellarmine privately warned Galileo not to hold or defend the idea, and Copernicus' book was suspended pending correction.",
+      "wikiSlug": "Galileo_affair",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-thirty-years-war",
+      "label": "Thirty Years' War",
+      "year": 1618,
+      "endYear": 1648,
+      "description": "Europe's most destructive religious war killed perhaps a third of the German population and disrupted scholarship across the continent — Kepler among its refugees. The Peace of Westphalia in 1648 established the modern principle of state sovereignty.",
+      "wikiSlug": "Thirty_Years%27_War",
+      "tier": 2,
+      "tags": ["religion"],
+      "category": "wars"
+    },
+    {
+      "id": "evt-bacon-novum-organum",
+      "label": "Bacon's Novum Organum",
+      "year": 1620,
+      "description": "Francis Bacon published Novum Organum, arguing that knowledge must be built up from systematic observation and experiment, not deduced from ancient authority. His vision of organized, useful science became the charter of the Royal Society.",
+      "wikiSlug": "Novum_Organum",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-snell-refraction",
+      "label": "Snell's law of refraction",
+      "year": 1621,
+      "description": "The Dutch astronomer Willebrord Snellius found the mathematical law governing how light bends when it passes between media. It made lens design a science and underpinned every later optical instrument.",
+      "wikiSlug": "Snell%27s_law",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kepler-rudolphine-tables",
+      "label": "Kepler's Rudolphine Tables",
+      "year": 1627,
+      "description": "Kepler published planetary tables based on Tycho's data and his own elliptical laws, dozens of times more accurate than anything before. Their successful prediction of a 1631 transit of Mercury was a triumph for the new astronomy.",
+      "wikiSlug": "Rudolphine_Tables",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-harvey-circulation",
+      "label": "Harvey describes the circulation of blood",
+      "year": 1628,
+      "description": "William Harvey published De Motu Cordis, proving by measurement and experiment that the heart pumps blood in a continuous circuit through the body. It overturned Galen's model that had governed medicine for fourteen centuries.",
+      "wikiSlug": "William_Harvey",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-galileo-dialogue",
+      "label": "Galileo's Dialogue Concerning the Two Chief World Systems",
+      "year": 1632,
+      "description": "Galileo published a witty dialogue that demolished the Earth-centered system and put the pope's argument in the mouth of a fool named Simplicio. It triggered his summons to Rome the following year.",
+      "wikiSlug": "Dialogue_Concerning_the_Two_Chief_World_Systems",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-galileo-trial",
+      "label": "Galileo's trial by the Inquisition",
+      "year": 1633,
+      "description": "The Roman Inquisition tried Galileo for defending heliocentrism, forced him to recant on his knees, and condemned him to house arrest for life. The trial became the founding legend of the conflict between science and religious authority.",
+      "wikiSlug": "Galileo_affair",
+      "tier": 1,
+      "tags": ["religion"],
+      "category": "people"
+    },
+    {
+      "id": "evt-descartes-method",
+      "label": "Descartes' Discourse on the Method",
+      "year": 1637,
+      "description": "René Descartes published the Discourse on the Method, rebuilding all knowledge on systematic doubt and reason from the single certainty 'I think, therefore I am.' It set the rationalist program for modern philosophy and science.",
+      "wikiSlug": "Discourse_on_the_Method",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-descartes-geometry",
+      "label": "Descartes' analytic geometry",
+      "year": 1637,
+      "description": "An appendix to the Discourse, La Géométrie, fused algebra and geometry through coordinates, letting curves be written as equations. It made the calculus possible a generation later.",
+      "wikiSlug": "La_G%C3%A9om%C3%A9trie",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-galileo-two-new-sciences",
+      "label": "Galileo's Two New Sciences",
+      "year": 1638,
+      "description": "Smuggled out of house arrest to a Dutch printer, Galileo's last book founded the science of mechanics — the strength of materials and the mathematics of motion. Newton built directly on it.",
+      "wikiSlug": "Two_New_Sciences",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pascaline",
+      "label": "Pascal builds a calculating machine",
+      "year": 1642,
+      "description": "The nineteen-year-old Blaise Pascal built the Pascaline, a geared machine that added and subtracted, to help his tax-official father. It was one of the first mechanical calculators.",
+      "wikiSlug": "Pascal%27s_calculator",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-english-civil-war",
+      "label": "English Civil War",
+      "year": 1642,
+      "endYear": 1651,
+      "description": "War between Parliament and Charles I ended in the king's execution and a short-lived republic. The upheaval scattered English natural philosophers into the informal groups that would coalesce into the Royal Society.",
+      "wikiSlug": "English_Civil_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-torricelli-barometer",
+      "label": "Torricelli invents the barometer",
+      "year": 1643,
+      "description": "Evangelista Torricelli, Galileo's last assistant, showed that air pressure holds up a column of mercury and that empty space sits above it. He created the first sustained vacuum and the first barometer.",
+      "wikiSlug": "Evangelista_Torricelli",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-louis-xiv",
+      "label": "Reign of Louis XIV, the Sun King",
+      "year": 1643,
+      "endYear": 1715,
+      "description": "Louis XIV ruled France for seventy-two years, the longest reign in European history. His minister Colbert founded the Académie des Sciences and put the French state behind organized research.",
+      "wikiSlug": "Louis_XIV",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pascal-puy-de-dome",
+      "label": "Pascal's Puy de Dôme experiment",
+      "year": 1648,
+      "description": "Following Pascal's design, his brother-in-law carried a barometer up the Puy de Dôme volcano and watched the mercury fall with altitude. It proved air has weight and that the vacuum is real, against Aristotle's 'nature abhors a vacuum.'",
+      "wikiSlug": "Blaise_Pascal",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-hobbes-leviathan",
+      "label": "Hobbes publishes Leviathan",
+      "year": 1651,
+      "description": "Thomas Hobbes applied the mechanical philosophy to politics, deriving the state from matter, motion, and self-interest. It showed the new science reaching beyond nature into human affairs.",
+      "wikiSlug": "Leviathan_(Hobbes_book)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pascal-fermat-probability",
+      "label": "Pascal and Fermat found probability theory",
+      "year": 1654,
+      "description": "In an exchange of letters about a gambling problem, Blaise Pascal and Pierre de Fermat created the mathematics of probability — the first rigorous tool for reasoning about uncertainty.",
+      "wikiSlug": "Problem_of_points",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-guericke-magdeburg",
+      "label": "The Magdeburg hemispheres",
+      "year": 1654,
+      "description": "Otto von Guericke pumped the air from two joined copper hemispheres and harnessed teams of horses that could not pull them apart. The public spectacle proved the power of the vacuum and atmospheric pressure.",
+      "wikiSlug": "Magdeburg_hemispheres",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-huygens-pendulum-clock",
+      "label": "Huygens' pendulum clock",
+      "year": 1656,
+      "description": "Christiaan Huygens built the first pendulum clock, cutting timekeeping error from minutes to seconds a day. Accurate time made precise astronomy and physics experiments possible for the first time.",
+      "wikiSlug": "Pendulum_clock",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-huygens-saturn",
+      "label": "Huygens explains Saturn's rings",
+      "year": 1659,
+      "description": "Christiaan Huygens, using a better telescope, discovered Saturn's moon Titan and showed Saturn was encircled by a flat ring. He solved a puzzle that had baffled Galileo for half a century.",
+      "wikiSlug": "Systema_Saturnium",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-charles-ii-restoration",
+      "label": "Restoration of Charles II",
+      "year": 1660,
+      "endYear": 1685,
+      "description": "Charles II returned from exile to restore the English monarchy. He chartered and lent his name to the Royal Society, making royal patronage of science fashionable.",
+      "wikiSlug": "Charles_II_of_England",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-royal-society",
+      "label": "The Royal Society founded",
+      "year": 1660,
+      "description": "Twelve men in London formed a society 'for the improving of natural knowledge by experiment.' Chartered by Charles II in 1662, it became the world's first enduring scientific institution and the model for all that followed.",
+      "wikiSlug": "Royal_Society",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-malpighi-capillaries",
+      "label": "Malpighi discovers capillaries",
+      "year": 1661,
+      "description": "Using a microscope on a frog's lung, Marcello Malpighi saw the tiny vessels linking arteries to veins. He supplied the one missing link Harvey could not see and completed the proof of blood circulation.",
+      "wikiSlug": "Marcello_Malpighi",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-boyle-sceptical-chymist",
+      "label": "Boyle's The Sceptical Chymist",
+      "year": 1661,
+      "description": "Robert Boyle attacked the ancient four elements and alchemical secrecy, arguing matter is made of corpuscles and that chemistry must be public and experimental. The book is a founding text of modern chemistry.",
+      "wikiSlug": "The_Sceptical_Chymist",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-boyle-law",
+      "label": "Boyle's law published",
+      "year": 1662,
+      "description": "Working with Robert Hooke and a new air pump, Robert Boyle showed that the pressure of a gas varies inversely with its volume. It was one of the first quantitative laws produced by deliberate laboratory experiment.",
+      "wikiSlug": "Boyle%27s_law",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-royal-society-journal",
+      "label": "First scientific journals",
+      "year": 1665,
+      "description": "The Journal des sçavans in Paris and the Royal Society's Philosophical Transactions in London began publishing dated, attributed reports of new findings. Peer-reviewed publication and priority dating were born.",
+      "wikiSlug": "Philosophical_Transactions_of_the_Royal_Society",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hooke-micrographia",
+      "label": "Hooke publishes Micrographia",
+      "year": 1665,
+      "description": "Robert Hooke's Micrographia revealed the microscopic world in stunning fold-out engravings — the compound eye of a fly, the structure of cork, where he coined the word 'cell.' It was the first scientific bestseller.",
+      "wikiSlug": "Micrographia",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-great-fire-london",
+      "label": "Great Fire of London",
+      "year": 1666,
+      "description": "Fire destroyed most of the medieval City of London. Its scientist-architects, Christopher Wren and Robert Hooke, surveyed and rebuilt it, turning the Royal Society's circle into the planners of a new capital.",
+      "wikiSlug": "Great_Fire_of_London",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-newton-annus-mirabilis",
+      "label": "Newton's plague years",
+      "year": 1666,
+      "description": "Sent home from Cambridge by the plague, the twenty-three-year-old Isaac Newton invented calculus, split white light with a prism, and conceived universal gravitation in roughly eighteen months — his annus mirabilis.",
+      "wikiSlug": "Annus_mirabilis_(Newton)",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-academie-sciences",
+      "label": "French Académie des Sciences founded",
+      "year": 1666,
+      "description": "Louis XIV's minister Colbert founded the Académie des Sciences in Paris as a salaried state institution. Where the Royal Society was a private club, the Académie made the scientist a paid servant of the state.",
+      "wikiSlug": "French_Academy_of_Sciences",
+      "tier": 2,
+      "tags": ["rulers"],
+      "category": "science"
+    },
+    {
+      "id": "evt-newton-reflecting-telescope",
+      "label": "Newton's reflecting telescope",
+      "year": 1668,
+      "description": "Isaac Newton built a telescope using a curved mirror instead of a lens, sidestepping the color distortion of refractors. The device won him election to the Royal Society and his first public fame.",
+      "wikiSlug": "Newtonian_telescope",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-redi-spontaneous-generation",
+      "label": "Redi disproves spontaneous generation",
+      "year": 1668,
+      "description": "Francesco Redi showed with covered and uncovered meat that maggots come from fly eggs, not rotting matter. It was a model controlled experiment against an ancient belief, though the debate ran on for two centuries.",
+      "wikiSlug": "Francesco_Redi",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pascal-pensees",
+      "label": "Pascal's Pensées published",
+      "year": 1670,
+      "description": "Published after his early death, Pascal's Pensées wrestled with what the new infinite, silent universe meant for faith — 'the eternal silence of these infinite spaces frightens me.' Science had unsettled the soul as well as the cosmos.",
+      "wikiSlug": "Pens%C3%A9es",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-newton-optics",
+      "label": "Newton's theory of color",
+      "year": 1672,
+      "description": "Newton sent the Royal Society his prism experiments proving white light is a mixture of fixed colors. The bruising dispute with Robert Hooke that followed soured Newton on publication for decades.",
+      "wikiSlug": "Opticks",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-leibniz-calculus",
+      "label": "Leibniz develops the calculus",
+      "year": 1675,
+      "description": "Gottfried Wilhelm Leibniz developed his own version of the calculus with the elegant notation still taught today. His independent path led to the most poisonous priority dispute in the history of science.",
+      "wikiSlug": "Gottfried_Wilhelm_Leibniz",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-greenwich-observatory",
+      "label": "Royal Observatory, Greenwich founded",
+      "year": 1675,
+      "description": "Charles II founded the Greenwich observatory to fix the stars accurately enough to solve the longitude problem for navigators. It eventually defined the prime meridian and the world's time.",
+      "wikiSlug": "Royal_Observatory,_Greenwich",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-roemer-light-speed",
+      "label": "Rømer measures the speed of light",
+      "year": 1676,
+      "description": "Timing eclipses of Jupiter's moons, the Danish astronomer Ole Rømer showed light travels at a finite speed. It was the first measurement of one of the fundamental constants of nature.",
+      "wikiSlug": "R%C3%B8mer%27s_determination_of_the_speed_of_light",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-leeuwenhoek-microorganisms",
+      "label": "Leeuwenhoek discovers microorganisms",
+      "year": 1676,
+      "description": "Antonie van Leeuwenhoek, a self-taught Delft draper, used handmade single-bead microscopes to see bacteria and protozoa — 'animalcules' — for the first time. He revealed an entire living world nobody knew existed.",
+      "wikiSlug": "Antonie_van_Leeuwenhoek",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-spinoza-ethics",
+      "label": "Spinoza's Ethics",
+      "year": 1677,
+      "description": "Published after his death, Baruch Spinoza's Ethics pushed the mechanical philosophy to its limit, identifying God with nature itself. It made plain how radical, and how dangerous, the new worldview could be.",
+      "wikiSlug": "Ethics_(Spinoza_book)",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-hooke-law",
+      "label": "Hooke's law of elasticity",
+      "year": 1678,
+      "description": "Robert Hooke published the law that the extension of a spring is proportional to the force on it, first hidden in an anagram. The polymath curator of the Royal Society also proposed an inverse-square law of gravity.",
+      "wikiSlug": "Hooke%27s_law",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-huygens-wave-theory",
+      "label": "Huygens' wave theory of light",
+      "year": 1678,
+      "description": "Christiaan Huygens proposed that light travels as waves, directly opposing Newton's particle view. The dispute over the nature of light ran unresolved for more than two centuries.",
+      "wikiSlug": "Huygens%E2%80%93Fresnel_principle",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-newton-principia",
+      "label": "Newton's Principia published",
+      "year": 1687,
+      "description": "Funded and goaded by Edmond Halley, Isaac Newton published the Principia, deriving Kepler's laws from three laws of motion and a single universal force of gravity. It unified the heavens and the Earth and is often called the greatest scientific book ever written.",
+      "wikiSlug": "Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+      "tier": 1,
+      "tags": ["people"],
+      "category": "science"
+    },
+    {
+      "id": "evt-glorious-revolution",
+      "label": "The Glorious Revolution",
+      "year": 1688,
+      "description": "Parliament deposed James II and installed William and Mary under constitutional limits. The settlement, defended by Newton's friend John Locke, tied the new science to a new politics of consent and reason.",
+      "wikiSlug": "Glorious_Revolution",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-locke-essay",
+      "label": "Locke's Essay Concerning Human Understanding",
+      "year": 1689,
+      "description": "John Locke argued that the mind begins as a blank slate and all knowledge comes from experience. His empiricism turned Newton's method into a theory of the human mind and seeded the Enlightenment.",
+      "wikiSlug": "An_Essay_Concerning_Human_Understanding",
+      "tier": 2,
+      "tags": ["people"],
+      "category": "writing"
+    },
+    {
+      "id": "evt-salem-witch-trials",
+      "label": "Salem witch trials",
+      "year": 1692,
+      "description": "Twenty people were executed for witchcraft in Massachusetts in the same decade Newton's Principia was being read in London. The era of the Scientific Revolution was also an era of witch-hunts — the new reason had not yet won.",
+      "wikiSlug": "Salem_witch_trials",
+      "tier": 3,
+      "tags": ["religion"],
+      "category": "religion"
+    },
+    {
+      "id": "evt-bank-of-england",
+      "label": "Bank of England founded",
+      "year": 1694,
+      "description": "Created to fund a war against France, the Bank of England pioneered government debt and paper money. The financial revolution and the scientific revolution were the twin engines of British power.",
+      "wikiSlug": "Bank_of_England",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-newton-mint",
+      "label": "Newton runs the Royal Mint",
+      "year": 1696,
+      "description": "Isaac Newton left Cambridge to become Warden, then Master, of the Royal Mint, overseeing the Great Recoinage and personally hunting counterfeiters. The era's greatest scientist spent his last thirty years as a civil servant.",
+      "wikiSlug": "Isaac_Newton",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "trade"
+    },
+    {
+      "id": "evt-savery-steam-engine",
+      "label": "Savery's steam pump patented",
+      "year": 1698,
+      "description": "Thomas Savery patented a steam-powered pump to drain mines, the first commercial device to turn heat into work. It was the seed from which the Industrial Revolution would grow.",
+      "wikiSlug": "Thomas_Savery",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-newton-opticks",
+      "label": "Newton publishes Opticks",
+      "year": 1704,
+      "description": "After Hooke's death, Newton finally published Opticks in plain English, modeling how to reason from experiment to theory. With it and the Principia, the Newtonian method became the template for all science.",
+      "wikiSlug": "Opticks",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-newton-knighted",
+      "label": "Newton knighted by Queen Anne",
+      "year": 1705,
+      "description": "Queen Anne knighted Isaac Newton, the first scientist ever knighted, though the honor owed as much to a Cambridge parliamentary election as to his work. When he died in 1727 he was buried in Westminster Abbey like a king.",
+      "wikiSlug": "Isaac_Newton",
+      "tier": 3,
+      "tags": ["people"],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-keplers-third-law",
+      "label": "Kepler's Harmonices Mundi and the third law",
+      "year": 1619,
+      "description": "In The Harmony of the World, a book hunting for the cosmos's musical and geometric harmonies, Kepler buried his third law: the square of a planet's orbital period is proportional to the cube of its distance from the Sun. Newton later derived gravity itself from it.",
+      "wikiSlug": "Harmonice_Mundi",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-republic-of-letters",
+      "label": "The Republic of Letters",
+      "year": 1635,
+      "description": "Centered on the Paris friar Marin Mersenne, who relayed findings among scholars across Europe, the Republic of Letters was a borderless correspondence network whose one rule was that a claim travels on its argument, not its author's rank. It was the social precondition for the scientific societies.",
+      "wikiSlug": "Republic_of_Letters",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-cassini-solar-system-scale",
+      "label": "Cassini measures the scale of the solar system",
+      "year": 1672,
+      "description": "Giovanni Cassini and Jean Richer observed Mars from Paris and French Guiana at once, and from its tiny parallax shift triangulated the distance to Mars and the size of the whole solar system. The numbers were staggering: the Sun lay tens of millions of miles away.",
+      "wikiSlug": "Giovanni_Domenico_Cassini",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    }
+  ]
+}

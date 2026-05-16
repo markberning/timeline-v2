@@ -69,6 +69,12 @@
       "targetTl": "han-dynasty",
       "targetChapter": 7,
       "blurb": "In 950 CE, while the Islamic world was completing its mathematical revolution under al-Khwarizmi and al-Battani, Tang-Song China was beginning its own mathematical and astronomical flowering — the Song dynasty's scientific tradition was a genuine peer to the Islamic one, operating independently with its own positional notation and algebraic methods. The two traditions developed their own achievements in parallel, with the Islamic world ahead in systematic algebraic theory and the Chinese ahead in certain engineering applications."
+    },
+    {
+      "matchText": "cited al-Battani by name",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 2,
+      "blurb": "al-Battani is not just a name in Copernicus: Copernicus cited him repeatedly, Tycho Brahe used his observations as a baseline, and Kepler built on Tycho. The line from this Baghdad astronomer to the Scientific Revolution is direct (Scientific Revolution Ch 2-4)."
     }
   ],
   "4": [
@@ -83,6 +89,30 @@
       "targetTl": "ancient-rome",
       "targetChapter": 7,
       "blurb": "Al-Jazari's double-action suction pump, completed in 1206, was more mechanically sophisticated than anything Roman engineers had produced, though the Romans were the ancient world's greatest hydraulic engineers. The Roman aqueduct tradition that al-Jazari's Islamic engineering context had partly inherited (through the Byzantine east) provided the engineering culture in which hydraulic problems were considered worth solving. Al-Jazari solved them at a higher level."
+    },
+    {
+      "matchText": "pulmonary circulation",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 8,
+      "blurb": "Ibn al-Nafis described the lesser circulation around 1242, three centuries before William Harvey proved the full circulation of the blood by measurement in 1628. His Arabic text lay unread in Europe until 1924, so Harvey owed him nothing — the same truth found twice (Scientific Revolution Ch 8)."
+    },
+    {
+      "matchText": "six centuries before the Royal Society",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 7,
+      "blurb": "Ibn al-Haytham articulated the experimental method — subject every claim, even revered authority, to test — six centuries before Bacon's Novum Organum and the Royal Society's motto said the same thing (Scientific Revolution Ch 7 and Ch 11)."
+    },
+    {
+      "matchText": "cogito ergo sum",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 7,
+      "blurb": "Ibn Sina's floating man reached the structure of Descartes' cogito six centuries early; the European arrival was independent but not unprecedented (Scientific Revolution Ch 7)."
+    },
+    {
+      "matchText": "double-action suction pump",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 9,
+      "blurb": "Al-Jazari's 1206 suction pump implied a working command of vacuum that European theory would not articulate until Torricelli, Pascal, and Guericke four centuries later (Scientific Revolution Ch 9)."
     }
   ],
   "5": [
@@ -233,6 +263,12 @@
       "targetTl": "yuan-dynasty",
       "targetChapter": 1,
       "blurb": "The Yuan dynasty under Kublai was the eastern half of the same Mongol political project that had destroyed Baghdad in 1258 — and the Pax Mongolica it ran from Khanbaliq enabled exactly the kind of cross-Asian intellectual traffic that brought Chinese astronomers to Maragha and Persian astronomers to the Yuan observatory at Khanbaliq. The Mongol moment was simultaneously catastrophic for the Abbasid center and generative for the cross-Eurasian scientific network that emerged in its place."
+    },
+    {
+      "matchText": "Tusi couple",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 2,
+      "blurb": "The Tusi couple is the exact geometric device that reappears in Copernicus three centuries later; whether the knowledge travelled or was reinvented is one of the live questions of the Scientific Revolution (Scientific Revolution Ch 1-2)."
     }
   ]
 }

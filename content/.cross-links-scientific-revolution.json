@@ -1,0 +1,78 @@
+{
+  "1": [
+    {
+      "matchText": "Aristarchus of Samos",
+      "targetTl": "ancient-greece",
+      "targetChapter": 8,
+      "blurb": "In Hellenistic Alexandria around 270 BCE, the Greek astronomer Aristarchus of Samos had already proposed that the Earth orbits the Sun — eighteen centuries before Copernicus, and with no way to prove it. It was the right answer arriving two millennia early, and it was set aside, a reminder that being correct is not enough without the evidence and the instruments to compel assent."
+    },
+    {
+      "matchText": "Shen Kuo",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "In the Northern Song, the polymath Shen Kuo tested claims by direct observation, recognized fossil seashells in mountains as old seabeds, and described magnetic declination in 1088 — an empirical, authority-doubting temper centuries before Bacon. The Needham Question (Chapter 20) asks why this did not become a self-sustaining scientific revolution there."
+    },
+    {
+      "matchText": "Maragha observatory",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Founded in Mongol Persia in 1259, the Maragha observatory was a state-funded, staffed, instrument-equipped research institution whose astronomers built the Tusi couple, the exact geometric device that reappears in Copernicus three centuries later. Whether the knowledge travelled or was reinvented is one of the live questions of this whole story."
+    }
+  ],
+  "3": [
+    {
+      "matchText": "al-Battani",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "The ninth-century Baghdad astronomer al-Battani measured the length of the year to within two minutes of the modern value. Copernicus cited him by name dozens of times, and Tycho Brahe used his observations as the baseline for his own — the line from al-Battani to the new astronomy is direct, not a European cold start."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Ibn al-Haytham",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Around 1011 in Cairo, Ibn al-Haytham wrote the Book of Optics, proving vision works by light entering the eye and pioneering controlled experiment to settle the question. The European route to the telescope, and to Kepler's and Newton's optics, ran through his work — the lens was standing on Cairo's shoulders."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "Ibn Sina",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Around 1020 the Persian philosopher Ibn Sina ran his floating man thought experiment: a sensationless, suspended mind would still have to affirm its own existence. Descartes reached the structurally identical point — I think, therefore I am — six centuries later, an arrival the reference chain records as independent but not unprecedented."
+    }
+  ],
+  "8": [
+    {
+      "matchText": "Ibn al-Nafis",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Around 1242 in Cairo, the physician Ibn al-Nafis denied Galen's porous heart-wall and correctly described the passage of blood through the lungs — pulmonary circulation, three centuries before Harvey. His Arabic text lay unread in Europe until 1924, so Harvey owed him nothing: the same truth, found twice, a civilization apart."
+    }
+  ],
+  "9": [
+    {
+      "matchText": "al-Jazari",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "The engineer al-Jazari, working in the Artuqid court around 1206, built a double-action suction pump whose design implied a working command of vacuum and atmospheric pressure that European theory would not articulate until Torricelli and Pascal four centuries later."
+    }
+  ],
+  "11": [
+    {
+      "matchText": "Library of Alexandria",
+      "targetTl": "ancient-greece",
+      "targetChapter": 8,
+      "blurb": "The Mouseion and Library of Alexandria, founded under the Ptolemies around 295 BCE, housed and funded scholars to pursue knowledge — in effect the world's first state-funded research institution. It is the deepest precedent for the scientific society, and also the thing the Royal Society differs from: Alexandria died with its dynasty; the Society was built to outlive any patron."
+    }
+  ],
+  "20": [
+    {
+      "matchText": "Needham Question",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The Song dynasty is the civilization economic historians return to as the closest pre-modern analog to an industrial society, and its own chapter runs the debate — incomplete markets, missing institutions, Mongol disruption, scholar-gentry priorities — over why it did not spark an industrial revolution six centuries before Britain. That is the Needham Question, argued from the other side."
+    }
+  ]
+}
