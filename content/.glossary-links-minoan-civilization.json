@@ -289,6 +289,12 @@
       "matchText": "Harappans",
       "wikiSlug": "Indus_Valley_civilisation",
       "type": "people"
+    },
+    {
+      "term": "Petsofas",
+      "matchText": "Petsofas",
+      "wikiSlug": "Petsofas",
+      "type": "place"
     }
   ],
   "3": [
@@ -440,6 +446,12 @@
       "term": "Malta",
       "matchText": "Malta",
       "wikiSlug": "Malta",
+      "type": "place"
+    },
+    {
+      "term": "Knossos",
+      "matchText": "Knossos",
+      "wikiSlug": "Knossos",
       "type": "place"
     }
   ],
@@ -775,6 +787,30 @@
       "matchText": "Peloponnesian War",
       "wikiSlug": "Peloponnesian_War",
       "type": "concept"
+    },
+    {
+      "term": "Cyclades",
+      "matchText": "Cyclades",
+      "wikiSlug": "Cyclades",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Anemospilia",
+      "matchText": "Anemospilia",
+      "wikiSlug": "Anemospilia",
+      "type": "place"
     }
   ],
   "6": [
@@ -1073,6 +1109,12 @@
       "matchText": "Subminoan period",
       "wikiSlug": "Sub-Minoan_pottery",
       "type": "concept"
+    },
+    {
+      "term": "Ugarit",
+      "matchText": "Ugarit",
+      "wikiSlug": "Ugarit",
+      "type": "place"
     }
   ],
   "8": [
@@ -1219,6 +1261,18 @@
       "matchText": "Dictaean Cave",
       "wikiSlug": "Psychro_Cave",
       "type": "place"
+    },
+    {
+      "term": "Minotaur",
+      "matchText": "Minotaur",
+      "wikiSlug": "Minotaur",
+      "type": "concept"
+    },
+    {
+      "term": "Daedalus",
+      "matchText": "Daedalus",
+      "wikiSlug": "Daedalus",
+      "type": "people"
     }
   ]
 }

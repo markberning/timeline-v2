@@ -35,7 +35,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | xiongnu-huns | 8 | **DONE** (cross-civ focus) | 1aebfc0 |
 | gokturk-khaganate | 8 | **DONE** (cross-civ focus) | 556d57c |
 | mongol-empire | 9 | **DONE** (cross + ~44 glossary) | 481de5a |
-| timurid-empire | 8 | **DONE** (cross 54 + glossary) | +this |
+| timurid-empire | 8 | **DONE** (cross 54 + glossary) | cb8dfac |
+| minoan-civilization | 8 | **DONE** (inline cross-refs + glossary) | +this |
 | _next: roadmap chain order (excl. 6 US-history civs)_ | | pending | |
 
 > Benign-warning note: when a pre-existing cross-link has a longer matchText

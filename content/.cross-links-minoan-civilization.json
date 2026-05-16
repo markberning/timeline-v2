@@ -43,6 +43,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 3,
       "blurb": "The evolution from accounting tools to writing happened independently in Mesopotamia, the Indus Valley, and Crete. In Sumer, clay tokens became cuneiform; on Crete, seal stones became Cretan hieroglyphs and then Linear A. Both sequences show the same pattern: bureaucratic need driving script invention."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "Minoan religion was strikingly populist — gods on mountaintops anyone could climb to — unlike Mesopotamia, where the divine was mediated through a temple bureaucracy at the heart of the city."
+    },
+    {
+      "matchText": "Early Dynastic Egypt",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 6,
+      "blurb": "In Egypt the gods lived in stone temples that were effectively the pharaoh's private domain; on Crete the sacred was open-air and broadly accessible. Two opposite theologies of access."
     }
   ],
   "4": [
@@ -51,6 +63,24 @@
       "targetTl": "indus-valley",
       "targetChapter": 4,
       "blurb": "The Indus Valley cities of Mohenjo-daro and Harappa built covered brick sewers, household toilets connected to public drains, and the Great Bath, all without any evidence of contact with Crete. Two civilizations thousands of miles apart independently decided that urban sanitation was worth serious engineering investment, while Egypt and Mesopotamia apparently did not."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 4,
+      "blurb": "The only Bronze Age plumbing rivaling the Minoans' was the Indus Valley's — Mohenjo-daro's covered sewers and Great Bath. Two civilizations a continent apart independently deciding clean cities were worth the engineering."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "Where Mesopotamian and Egyptian pantheons were male-topped, Minoan religion foregrounded a goddess of nature, mountains, and sea — though Inanna/Ishtar shows the Near East had its own queen of heaven."
+    },
+    {
+      "matchText": "Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "The next European civilization to match Minoan sanitation engineering would be Rome — its Cloaca Maxima draining the Forum — more than a thousand years later."
     }
   ],
   "5": [
@@ -93,6 +123,12 @@
       "targetTl": "early-dynastic-egypt",
       "targetChapter": 8,
       "blurb": "The Sea Peoples raids that hammered the eastern Mediterranean around 1200 BCE were recorded most vividly in the temple inscriptions of Ramesses III. Egypt survived, badly weakened, but the wave of destruction that accompanied the Sea Peoples' migrations contributed to the collapse of every palatial civilization in the Aegean, including the remnants of Minoan Crete."
+    },
+    {
+      "matchText": "Mycenaeans",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 1,
+      "blurb": "After ~1450 BCE the clerks at Knossos were writing Linear B — in Greek. The Minoans had been absorbed or supplanted by the Mycenaeans, the warrior civilization of the Greek mainland."
     }
   ],
   "8": [
