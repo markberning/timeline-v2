@@ -130,7 +130,7 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 **Near East:** ✅ umayyad-caliphate (8 ch) → islamic-golden-age (links via Abbasid revolution)
 **Mesopotamian Succession:** ✅ mesopotamia (13 ch) · ✅ assyrian-empire (8 ch) · ✅ islamic-golden-age (10 ch)
 **Indian Subcontinent:** ✅ indus-valley (10 ch) · ✅ vedic-period (8 ch) · ✅ maurya-empire (8 ch) · ✅ post-maurya-kingdoms (8 ch) · ✅ gupta-empire (8 ch) · ✅ medieval-india (8 ch) · ✅ delhi-sultanate (8 ch) · ✅ mughal-empire (9 ch) · ✅ modern-india (15 ch)
-**Chinese Dynasties:** ✅ ancient-china (8 ch) · ✅ shang-dynasty (8 ch) · ✅ zhou-dynasty (9 ch) · ✅ qin-dynasty (8 ch) · ✅ han-dynasty (8 ch) · ✅ six-dynasties (8 ch) · ✅ tang-song-china (9 ch) · ✅ yuan-dynasty (8 ch) · ✅ ming-dynasty (8 ch) · qing-dynasty · chinese-revolution · rise-of-china
+**Chinese Dynasties:** ✅ ancient-china (8 ch) · ✅ shang-dynasty (8 ch) · ✅ zhou-dynasty (9 ch) · ✅ qin-dynasty (8 ch) · ✅ han-dynasty (8 ch) · ✅ six-dynasties (8 ch) · ✅ tang-song-china (9 ch) · ✅ yuan-dynasty (8 ch) · ✅ ming-dynasty (8 ch) · ✅ qing-dynasty (13 ch) · ✅ chinese-revolution (15 ch) · ✅ rise-of-china (15 ch)
 **Nile Valley:** ✅ early-dynastic-egypt (8 ch) · ✅ old-kingdom-egypt (8 ch) · ✅ new-kingdom-egypt (9 ch) · ✅ late-egypt (8 ch)
 **Nubian Tradition:** ✅ ancient-nubia (8 ch) · ✅ kingdom-of-kush (8 ch) · ✅ kingdom-of-aksum (8 ch)
 **West African Empires:** ✅ mali-empire (8 ch) · ✅ songhai-empire (8 ch)
@@ -139,7 +139,7 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 **Mesoamerican:** ✅ olmec-civilization (8 ch) · ✅ maya-civilization (8 ch) · ✅ zapotec-civilization (8 ch) · ✅ teotihuacan (8 ch) · ✅ aztec-empire (8 ch)
 **Greco-Roman:** ✅ minoan-civilization (8 ch) · ✅ mycenaean-civilization (8 ch) · ✅ ancient-greece (8 ch) · ✅ ancient-rome (10 ch) · ✅ byzantine-empire (12 ch)
 **Western European:** ✅ early-medieval-europe (8 ch) · ✅ high-medieval-europe (8 ch) · ✅ late-medieval-europe (8 ch) · ✅ renaissance-italy (8 ch) · ✅ scientific-revolution (20 ch) · ✅ enlightenment (20 ch) · ✅ industrial-revolution (20 ch) — completes the Western European Ideas chain · ✅ al-andalus (18 ch) — Islamic Iberia 711–1492 + the Morisco afterlife; standalone (not in a chain)
-**SE Asian Maritime:** ✅ srivijaya (8 ch) · khmer-empire · dai-viet · majapahit
+**SE Asian Maritime:** ✅ srivijaya (8 ch) · ✅ khmer-empire (10 ch) · ✅ dai-viet (13 ch) · ✅ majapahit (10 ch)
 **Korean Civilization:** ✅ ancient-korea (8 ch) · ✅ joseon-korea (8 ch) · ✅ korean-modern (8 ch)
 **Anatolian Succession:** ✅ hittite-empire (8 ch) · ✅ ottoman-empire (12 ch)
 **Central Asian Steppe:** ✅ scythians (8 ch) · ✅ xiongnu-huns (8 ch) · ✅ gokturk-khaganate (8 ch) · ✅ mongol-empire (9 ch) · ✅ timurid-empire (8 ch)
@@ -147,6 +147,8 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 **Russian Civilization:** ✅ kievan-rus (12 ch) · ✅ russian-empire (20 ch) · ✅ soviet-union (20 ch) — chain: Rus' 882–1240 → Empire 1721–1917 → USSR 1922–1991
 **Japanese Civilization:** ✅ prehistoric-japan (8 ch) · ✅ asuka-nara-japan (8 ch) · ✅ heian-japan (8 ch) · ✅ edo-japan (8 ch) · ✅ meiji-japan (8 ch) · ✅ japanese-economic-miracle (8 ch)
 **Standalone:** ✅ phoenicia (8 ch) · ✅ polynesian-voyagers (8 ch) · ✅ ancient-israel (8 ch) · ✅ carthage (8 ch)
+
+**Remaining (6, all North American):** mississippian-culture · early-american-republic · antebellum-america · reconstruction · roaring-twenties · civil-rights-era — these are the only TLs left without `hasContent: true` in `navigator-tls.ts` (the authoritative source; the ✅ marks above can lag behind it).
 
 **Maps pending Gemini generation:** none — all shipped TLs have chapter maps. New TLs go through `scripts/generate-maps.mjs <tlId>` (gemini-3-pro-image-preview), audit, regen if needed, then `scripts/optimize-maps.mjs`.
 
