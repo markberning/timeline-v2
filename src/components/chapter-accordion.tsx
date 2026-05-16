@@ -23,27 +23,12 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
   const [summaryOpen, setSummaryOpen] = useState(false)
-  // Measured page-nav height used for sticky header top + scroll offset.
-  const [navHeight, setNavHeight] = useState(48)
   const headerRef = useRef<HTMLDivElement>(null)
   const sectionRef = useRef<HTMLElement>(null)
   const mapRef = useRef<HTMLDivElement>(null)
   const [mapScrolledPast, setMapScrolledPast] = useState(false)
   const savedScrollY = useRef(0)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
-
-  // Track the sticky nav height. It changes when CollapsingCivBar expands
-  // or collapses on scroll, so observe it rather than measuring once —
-  // keeps the chapter header pinned flush below the (possibly grown) nav.
-  useEffect(() => {
-    const nav = document.querySelector('[data-top-nav]') as HTMLElement | null
-    if (!nav) return
-    const measure = () => setNavHeight(Math.ceil(nav.getBoundingClientRect().height))
-    measure()
-    const ro = new ResizeObserver(measure)
-    ro.observe(nav)
-    return () => ro.disconnect()
-  }, [])
 
   // Track when the full-size map scrolls out of view
   useEffect(() => {
@@ -84,7 +69,7 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
   function collapse() {
     onCollapse()
     setJustCollapsed(true)
-    // Scroll the section (which has scrollMarginTop: navHeight) so the
+    // Scroll the section (which has scrollMarginTop: --reader-nav-h) so the
     // chapter header lands just below the sticky top nav rather than
     // flush to y=0 behind it.
     requestAnimationFrame(() => {
@@ -183,13 +168,13 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
       ref={sectionRef}
       id={`chapter-${chapter.number}`}
       className={`border-b border-foreground/10 last:border-b-0 ${hidden ? 'hidden' : ''}`}
-      style={{ scrollMarginTop: `${navHeight}px` }}
+      style={{ scrollMarginTop: 'var(--reader-nav-h, 48px)' }}
     >
       <div
         ref={headerRef}
         className="sticky z-10 transition-colors duration-[1200ms] -mx-8 px-8"
         style={{
-          top: `${navHeight}px`,
+          top: 'var(--reader-nav-h, 48px)',
           backgroundColor: justCollapsed ? 'color-mix(in srgb, var(--accent) 15%, var(--background))' : 'var(--background)',
         }}
       >
