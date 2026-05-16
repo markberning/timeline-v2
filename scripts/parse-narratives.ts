@@ -185,6 +185,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'modern-india.md': 'modern-india',
   'qing-dynasty.md': 'qing-dynasty',
   'chinese-revolution.md': 'chinese-revolution',
+  'rise-of-china.md': 'rise-of-china',
 }
 
 function slugify(title: string): string {

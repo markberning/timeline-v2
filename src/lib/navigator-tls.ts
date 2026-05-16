@@ -84,7 +84,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'ming-dynasty', label: 'Ming Dynasty', subtitle: 'Forbidden City and the treasure fleet', region: 'asia', startYear: 1368, endYear: 1644, hasContent: true },
   { id: 'qing-dynasty', label: 'Qing Dynasty', subtitle: "China's last Manchu empire", region: 'asia', startYear: 1644, endYear: 1912, hasContent: true },
   { id: 'chinese-revolution', label: 'Chinese Revolution', subtitle: 'Mao reshapes China', region: 'asia', startYear: 1912, endYear: 1976, hasContent: true },
-  { id: 'rise-of-china', label: 'Rise of China', subtitle: "Deng's reforms to superpower", region: 'asia', startYear: 1976, endYear: 2024 },
+  { id: 'rise-of-china', label: 'Rise of China', subtitle: "Deng's reforms to superpower", region: 'asia', startYear: 1976, endYear: 2024, hasContent: true },
 
   // ── ASIA (Steppe) ──
   { id: 'scythians', label: 'Scythians', subtitle: "gold-clad horse nomads of the Pontic steppe", region: 'asia', startYear: -800, endYear: -200, hasContent: true },

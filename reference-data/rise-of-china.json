@@ -1,0 +1,1801 @@
+{
+  "id": "rise-of-china",
+  "label": "Rise of Modern China",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Reform_and_opening-up",
+  "imageWikiSlug": "Shanghai",
+  "pitch": "When Reform and Opening-Up begins in 1978, China was poorer per capita than most of sub-Saharan Africa. Then Deng Xiaoping becomes paramount leader and turned a fishing village into the Shenzhen Special Economic Zone — and within 40 years, 800 million people escaped poverty. The Tiananmen Square protests of 1989 showed the limits of political reform, but China joins the WTO in 2001 turbocharging the economic miracle.\n\n🔑 Key Facts:\n• The Hong Kong handover in 1997 ended 156 years of British colonial rule under a 'one country, two systems' promise — a promise tested by the Hong Kong protests of 2019\n• Xi Jinping becomes president in 2013 and launches the Belt and Road Initiative launched, the most ambitious global infrastructure program since the Marshall Plan\n• China becomes world's second-largest economy in 2010, surpassing Japan — a position unimaginable just three decades earlier\n• The Three Gorges Dam completed in 2006 became the world's largest power station, displacing over a million people\n\n🤔 Why It Matters: China's rise from poverty to superpower in a single generation reshaped global trade, challenged American hegemony, and raised the defining geopolitical question of our era: can an authoritarian state lead the world economy?\n\n🎲 Wild Card: When Alibaba founded by Jack Ma started in 1999, Jack Ma was an English teacher who had been rejected from 30 jobs including KFC — his company is now one of the largest on Earth, and the Presidential term limits removed in 2018 let Xi rule indefinitely.",
+  "countryIds": [
+    "156"
+  ],
+  "spans": [
+    {
+      "id": "span-rise-of-china-roc-deng-era",
+      "label": "Deng Xiaoping Era",
+      "startYear": 1978,
+      "endYear": 1992,
+      "wikiSlug": "Deng_Xiaoping",
+      "description": "Deng Xiaoping launched Reform and Opening-Up, creating Special Economic Zones and dismantling collective farming to ignite market-driven growth. The Tiananmen Square crackdown in 1989 set the limits of political reform while economic liberalization continued."
+    },
+    {
+      "id": "span-rise-of-china-roc-jiang-era",
+      "label": "Jiang Zemin Era",
+      "startYear": 1993,
+      "endYear": 2003,
+      "wikiSlug": "Jiang_Zemin",
+      "description": "Jiang Zemin deepened market reforms, oversaw the Hong Kong and Macau handovers, and secured China's entry into the WTO. State-owned enterprise restructuring displaced millions of workers while positioning China as the world's factory."
+    },
+    {
+      "id": "span-rise-of-china-roc-hu-era",
+      "label": "Hu Jintao Era",
+      "startYear": 2003,
+      "endYear": 2012,
+      "wikiSlug": "Hu_Jintao",
+      "description": "China's GDP surpassed Japan's as double-digit growth transformed the country into the world's second-largest economy. The 2008 Beijing Olympics showcased China's modernization, while high-speed rail and space programs signaled technological ambition."
+    },
+    {
+      "id": "span-rise-of-china-roc-xi-era",
+      "label": "Xi Jinping Era",
+      "startYear": 2012,
+      "endYear": 2024,
+      "wikiSlug": "Xi_Jinping",
+      "description": "Xi Jinping centralized power, removed presidential term limits, and launched the Belt and Road Initiative to project Chinese influence globally. A sweeping anti-corruption campaign, the crackdown on Hong Kong, and rising US-China tensions defined the era."
+    },
+    {
+      "id": "span-rise-of-china-roc-economic-boom",
+      "label": "China's Economic Boom",
+      "startYear": 2001,
+      "endYear": 2015,
+      "wikiSlug": "Chinese_economic_reform",
+      "description": "WTO accession supercharged export-driven growth, lifting hundreds of millions out of poverty and making China the world's manufacturing hub. Massive infrastructure investment in high-speed rail, cities, and ports reshaped the physical landscape of the country."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-roc-reform-opening",
+      "label": "Reform and Opening-Up begins",
+      "year": 1978,
+      "description": "Deng Xiaoping launched sweeping economic reforms at the Third Plenum, shifting China from central planning toward market-oriented growth.",
+      "wikiSlug": "Reform_and_opening-up",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-roc-deng-paramount",
+      "label": "Deng Xiaoping becomes paramount leader",
+      "year": 1978,
+      "description": "Deng Xiaoping consolidated power as China's de facto leader, sidelining Hua Guofeng and steering the country toward pragmatic modernization.",
+      "wikiSlug": "Deng_Xiaoping",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-roc-sez-shenzhen",
+      "label": "Shenzhen Special Economic Zone",
+      "year": 1980,
+      "description": "China established Shenzhen as its first Special Economic Zone, offering tax incentives and market freedoms that transformed a fishing village into a megacity.",
+      "wikiSlug": "Shenzhen",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-one-child",
+      "label": "One-Child Policy enacted",
+      "year": 1980,
+      "description": "The Chinese government introduced the one-child policy to curb population growth, a measure that would shape demographics for decades.",
+      "wikiSlug": "One-child_policy",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-household-responsibility",
+      "label": "Household Responsibility System",
+      "year": 1981,
+      "description": "Agricultural decollectivization allowed rural families to farm their own plots, dramatically boosting food production and rural incomes.",
+      "wikiSlug": "Household_responsibility_system",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-democracy-wall",
+      "label": "Democracy Wall movement",
+      "year": 1978,
+      "endYear": 1979,
+      "description": "Activists posted political critiques on a wall in Beijing, briefly testing the limits of free expression before the government shut it down.",
+      "wikiSlug": "Democracy_Wall",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-sino-vietnamese-war",
+      "label": "Sino-Vietnamese War",
+      "year": 1979,
+      "description": "China launched a brief punitive invasion of Vietnam in response to Vietnam's overthrow of the Khmer Rouge in Cambodia.",
+      "wikiSlug": "Sino-Vietnamese_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-xiamen-sez",
+      "label": "Xiamen and Zhuhai SEZs opened",
+      "year": 1980,
+      "description": "Additional Special Economic Zones in Xiamen and Zhuhai expanded the experiment in market economics along China's southeastern coast.",
+      "wikiSlug": "Special_economic_zones_of_China",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-joint-declaration",
+      "label": "Sino-British Joint Declaration",
+      "year": 1984,
+      "description": "China and Britain agreed that Hong Kong would return to Chinese sovereignty in 1997 under a 'one country, two systems' framework.",
+      "wikiSlug": "Sino-British_Joint_Declaration",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-shanghai-stock",
+      "label": "Shanghai Stock Exchange reopens",
+      "year": 1990,
+      "description": "The Shanghai Stock Exchange resumed trading after a 41-year closure, signaling China's embrace of capital markets.",
+      "wikiSlug": "Shanghai_Stock_Exchange",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-tiananmen",
+      "label": "Tiananmen Square protests",
+      "year": 1989,
+      "description": "Pro-democracy demonstrations in Beijing were crushed by military force on June 4, killing hundreds to thousands and drawing global condemnation.",
+      "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-southern-tour",
+      "label": "Deng's Southern Tour",
+      "year": 1992,
+      "description": "Deng Xiaoping toured southern China to reinvigorate economic reform after a conservative backlash, declaring that markets and socialism were compatible.",
+      "wikiSlug": "Deng_Xiaoping%27s_southern_tour",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-roc-three-gorges-start",
+      "label": "Three Gorges Dam construction begins",
+      "year": 1994,
+      "description": "China broke ground on the world's largest hydroelectric dam, a massive infrastructure project that displaced over a million people.",
+      "wikiSlug": "Three_Gorges_Dam",
+      "tier": 2,
+      "category": "architecture",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "evt-roc-hong-kong-handover",
+      "label": "Hong Kong handover",
+      "year": 1997,
+      "description": "Britain returned sovereignty of Hong Kong to China, ending 156 years of colonial rule under the 'one country, two systems' arrangement.",
+      "wikiSlug": "Handover_of_Hong_Kong",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-jiang-zemin",
+      "label": "Jiang Zemin consolidates power",
+      "year": 1993,
+      "description": "Jiang Zemin assumed the presidency and pursued market reforms while maintaining strict Communist Party control over politics.",
+      "wikiSlug": "Jiang_Zemin",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-roc-falun-gong",
+      "label": "Falun Gong crackdown",
+      "year": 1999,
+      "description": "The Chinese government banned Falun Gong after a mass demonstration in Beijing, launching a sustained campaign of persecution against practitioners.",
+      "wikiSlug": "Persecution_of_Falun_Gong",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-macau-handover",
+      "label": "Macau handover",
+      "year": 1999,
+      "description": "Portugal transferred sovereignty of Macau to China, ending over 400 years of European colonial presence on Chinese soil.",
+      "wikiSlug": "Handover_of_Macau",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-wto",
+      "label": "China joins the WTO",
+      "year": 2001,
+      "description": "China's accession to the World Trade Organization integrated it into the global trading system, turbocharging export-driven growth.",
+      "wikiSlug": "China_and_the_World_Trade_Organization",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-shenzhou-5",
+      "label": "Shenzhou 5 — first Chinese astronaut",
+      "year": 2003,
+      "description": "Yang Liwei became China's first person in space, making China the third country to independently launch a crewed spaceflight.",
+      "wikiSlug": "Shenzhou_5",
+      "tier": 2,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-roc-hu-jintao",
+      "label": "Hu Jintao becomes president",
+      "year": 2003,
+      "description": "Hu Jintao succeeded Jiang Zemin, promoting a 'harmonious society' while overseeing China's rise as the world's factory.",
+      "wikiSlug": "Hu_Jintao",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-roc-beijing-olympics",
+      "label": "Beijing Summer Olympics",
+      "year": 2008,
+      "description": "China hosted the 2008 Olympics, showcasing its modernization with landmarks like the Bird's Nest stadium and a spectacular opening ceremony.",
+      "wikiSlug": "2008_Summer_Olympics",
+      "tier": 2,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-sichuan-earthquake",
+      "label": "Sichuan earthquake",
+      "year": 2008,
+      "description": "A devastating 7.9-magnitude earthquake killed nearly 70,000 people in Sichuan province, exposing shoddy school construction.",
+      "wikiSlug": "2008_Sichuan_earthquake",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-high-speed-rail",
+      "label": "High-speed rail network launched",
+      "year": 2008,
+      "description": "China opened its first high-speed rail line between Beijing and Tianjin, beginning a massive expansion that created the world's largest HSR network.",
+      "wikiSlug": "High-speed_rail_in_China",
+      "tier": 2,
+      "category": "science",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-roc-confucius-institutes",
+      "label": "Confucius Institutes expand globally",
+      "year": 2004,
+      "description": "China began establishing Confucius Institutes at universities worldwide to promote Chinese language and culture as soft power tools.",
+      "wikiSlug": "Confucius_Institute",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-second-largest-economy",
+      "label": "China becomes world's second-largest economy",
+      "year": 2010,
+      "description": "China's GDP surpassed Japan's, making it the world's second-largest economy after the United States.",
+      "wikiSlug": "Economy_of_China",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-xi-jinping",
+      "label": "Xi Jinping becomes president",
+      "year": 2012,
+      "description": "Xi Jinping assumed the presidency and rapidly centralized power, launching an anti-corruption campaign and asserting a more nationalist vision.",
+      "wikiSlug": "Xi_Jinping",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-roc-anti-corruption",
+      "label": "Anti-corruption campaign",
+      "year": 2013,
+      "description": "Xi Jinping launched a sweeping anti-corruption drive that purged over a million officials, consolidating his authority within the Party.",
+      "wikiSlug": "Anti-corruption_campaign_under_Xi_Jinping",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-belt-and-road",
+      "label": "Belt and Road Initiative launched",
+      "year": 2013,
+      "description": "Xi Jinping announced an ambitious global infrastructure and investment program spanning Asia, Africa, and Europe to expand Chinese economic influence.",
+      "wikiSlug": "Belt_and_Road_Initiative",
+      "tier": 1,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-south-china-sea",
+      "label": "South China Sea island-building",
+      "year": 2014,
+      "description": "China constructed artificial islands with military installations in disputed South China Sea waters, escalating territorial tensions with neighbors.",
+      "wikiSlug": "China%27s_man-made_islands_in_the_Spratly_Islands",
+      "tier": 2,
+      "category": "wars",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "evt-roc-aiib",
+      "label": "AIIB established",
+      "year": 2015,
+      "description": "China founded the Asian Infrastructure Investment Bank as an alternative to Western-led financial institutions, attracting 57 founding members.",
+      "wikiSlug": "Asian_Infrastructure_Investment_Bank",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-stock-crash",
+      "label": "Chinese stock market crash",
+      "year": 2015,
+      "description": "Chinese stock markets lost a third of their value in a month, wiping out trillions in wealth and exposing fragilities in the financial system.",
+      "wikiSlug": "2015–2016_Chinese_stock_market_turbulence",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-term-limits-removed",
+      "label": "Presidential term limits removed",
+      "year": 2018,
+      "description": "The National People's Congress abolished presidential term limits, allowing Xi Jinping to rule indefinitely and marking a return to strongman politics.",
+      "wikiSlug": "2018_Chinese_constitutional_amendment",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-trade-war",
+      "label": "US–China trade war begins",
+      "year": 2018,
+      "description": "The United States imposed tariffs on hundreds of billions of dollars in Chinese goods, sparking a trade war that disrupted global supply chains.",
+      "wikiSlug": "China–United_States_trade_war",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-hong-kong-protests",
+      "label": "Hong Kong protests",
+      "year": 2019,
+      "description": "Millions of Hong Kong residents protested an extradition bill, escalating into a broader pro-democracy movement met with increasing force.",
+      "wikiSlug": "2019–2020_Hong_Kong_protests",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-uyghur-camps",
+      "label": "Uyghur detention camps exposed",
+      "year": 2018,
+      "description": "Reports revealed China's mass internment of Uyghur Muslims in Xinjiang, drawing international accusations of genocide and human rights abuses.",
+      "wikiSlug": "Uyghur_genocide",
+      "tier": 2,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-covid-wuhan",
+      "label": "COVID-19 emerges in Wuhan",
+      "year": 2020,
+      "description": "A novel coronavirus emerged in Wuhan, leading to a global pandemic and prompting China's strict zero-COVID lockdown policies.",
+      "wikiSlug": "COVID-19_pandemic_in_mainland_China",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-national-security-law",
+      "label": "Hong Kong National Security Law",
+      "year": 2020,
+      "description": "Beijing imposed a sweeping national security law on Hong Kong, effectively ending the territory's political autonomy and silencing dissent.",
+      "wikiSlug": "Hong_Kong_national_security_law",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-space-station",
+      "label": "Tiangong space station completed",
+      "year": 2022,
+      "description": "China completed its Tiangong space station, becoming only the third country to operate a permanently crewed orbital laboratory.",
+      "wikiSlug": "Tiangong_space_station",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-liu-xiaobo",
+      "label": "Liu Xiaobo wins Nobel Peace Prize",
+      "year": 2010,
+      "description": "Imprisoned dissident Liu Xiaobo was awarded the Nobel Peace Prize for his nonviolent struggle for human rights, enraging the Chinese government.",
+      "wikiSlug": "Liu_Xiaobo",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "evt-roc-charter-08",
+      "label": "Charter 08 published",
+      "year": 2008,
+      "description": "Liu Xiaobo and other intellectuals published Charter 08, a manifesto calling for political reforms, free expression, and an independent judiciary in China.",
+      "wikiSlug": "Charter_08",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-roc-jack-ma-alibaba",
+      "label": "Alibaba founded by Jack Ma",
+      "year": 1999,
+      "description": "Jack Ma founded Alibaba in his Hangzhou apartment, building it into one of the world's largest e-commerce companies.",
+      "wikiSlug": "Alibaba_Group",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "trade"
+      ]
+    },
+    {
+      "id": "evt-roc-three-gorges-complete",
+      "label": "Three Gorges Dam completed",
+      "year": 2006,
+      "description": "The Three Gorges Dam was completed on the Yangtze River, becoming the world's largest power station by installed capacity.",
+      "wikiSlug": "Three_Gorges_Dam",
+      "tier": 2,
+      "category": "architecture",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "evt-roc-hua-guofeng",
+      "label": "Hua Guofeng's Interregnum",
+      "year": 1976,
+      "endYear": 1978,
+      "description": "Mao's anointed successor Hua Guofeng arrested the Gang of Four but clung to Maoist orthodoxy with the 'Two Whatevers', leaving him no answer to a country desperate for change.",
+      "wikiSlug": "Hua_Guofeng",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-deng-third-return",
+      "label": "Deng Xiaoping's Third Return",
+      "year": 1977,
+      "description": "Purged twice under Mao, Deng was rehabilitated in 1977 and within two years out-maneuvered Hua Guofeng to become China's paramount leader without ever taking the top title.",
+      "wikiSlug": "Deng_Xiaoping",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-gaokao-restored",
+      "label": "The College Entrance Exam Restored",
+      "year": 1977,
+      "description": "The national university entrance examination, abolished in the Cultural Revolution, was restored in 1977, reopening higher education on merit to a lost generation overnight.",
+      "wikiSlug": "Gaokao",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-truth-criterion",
+      "label": "The Practice Criterion Debate",
+      "year": 1978,
+      "description": "A 1978 essay arguing 'practice is the sole criterion of truth' was the coded ideological weapon that broke Maoist orthodoxy and cleared the road for reform.",
+      "wikiSlug": "Boluan_Fanzheng",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-boluan-fanzheng",
+      "label": "Boluan Fanzheng: Reversing the Verdicts",
+      "year": 1977,
+      "endYear": 1982,
+      "description": "The party systematically reversed Cultural Revolution verdicts, rehabilitating millions of purged officials and intellectuals and restoring the institutions Mao had smashed.",
+      "wikiSlug": "Boluan_Fanzheng",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-wei-jingsheng",
+      "label": "Wei Jingsheng and the Fifth Modernization",
+      "year": 1978,
+      "endYear": 1979,
+      "description": "The electrician Wei Jingsheng demanded democracy as a necessary 'Fifth Modernization' on Democracy Wall; his long imprisonment marked the hard limit of permitted dissent.",
+      "wikiSlug": "Wei_Jingsheng",
+      "tier": 2,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-resolution-history",
+      "label": "The Resolution on Party History",
+      "year": 1981,
+      "description": "The 1981 verdict that Mao was '70 percent right, 30 percent wrong' let the party repudiate the Cultural Revolution without repudiating itself.",
+      "wikiSlug": "Resolution_on_Certain_Questions_in_the_History_of_Our_Party_Since_the_Founding_of_the_People%27s_Republic_of_China",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-gang-four-trial",
+      "label": "The Trial of the Gang of Four",
+      "year": 1980,
+      "endYear": 1981,
+      "description": "The televised 1980-81 trial of Jiang Qing and the radicals closed the Cultural Revolution as official history and pinned its crimes on a defeated faction.",
+      "wikiSlug": "Gang_of_Four",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-deng-doctrine",
+      "label": "Seek Truth from Facts",
+      "year": 1978,
+      "description": "Deng's pragmatism, summed up as 'seek truth from facts' and 'it doesn't matter if a cat is black or white as long as it catches mice', replaced ideological purity as the test of policy.",
+      "wikiSlug": "Deng_Xiaoping_Theory",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-xiaogang-contract",
+      "label": "The Xiaogang Secret Contract",
+      "year": 1978,
+      "description": "Eighteen starving farmers in Xiaogang village secretly divided collective land among households in 1978, risking execution; the harvest tripled and the model spread nationwide.",
+      "wikiSlug": "Xiaogang,_Anhui",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-rural-boom",
+      "label": "The Rural Income Boom",
+      "year": 1979,
+      "endYear": 1984,
+      "description": "Decollectivization and higher procurement prices roughly doubled rural incomes in six years, the fastest mass poverty reduction in the early reform era.",
+      "wikiSlug": "Economic_history_of_China_(1949%E2%80%93present)",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-township-enterprises",
+      "label": "Township and Village Enterprises",
+      "year": 1984,
+      "endYear": 1996,
+      "description": "Rural collective factories outside the plan grew explosively, absorbing surplus farm labor and proving market production could outperform state industry.",
+      "wikiSlug": "Township_and_village_enterprises",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-hu-yaobang",
+      "label": "Hu Yaobang, the Liberal Reformer",
+      "year": 1980,
+      "endYear": 1987,
+      "description": "As party general secretary Hu Yaobang drove rehabilitations and openness; his tolerance of dissent made him the reform camp's standard-bearer and got him purged in 1987.",
+      "wikiSlug": "Hu_Yaobang",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-zhao-ziyang",
+      "label": "Zhao Ziyang and the Reform Engine",
+      "year": 1980,
+      "endYear": 1989,
+      "description": "The technocrat Zhao Ziyang ran economic policy as premier and party chief, championing market reform until his fall over Tiananmen.",
+      "wikiSlug": "Zhao_Ziyang",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-special-zone-law",
+      "label": "The Joint Venture Law",
+      "year": 1979,
+      "description": "China's first law permitting foreign-Chinese joint ventures (1979) created the legal channel through which foreign capital and technology entered the economy.",
+      "wikiSlug": "Chinese_economic_reform",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-deng-us-1979",
+      "label": "Normalization with the United States",
+      "year": 1979,
+      "description": "Full US-China diplomatic relations and Deng's 1979 American tour aligned China with the West against the USSR and opened the door to trade and technology.",
+      "wikiSlug": "China%E2%80%93United_States_relations",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-sino-soviet-thaw",
+      "label": "The Sino-Soviet Normalization",
+      "year": 1989,
+      "description": "Gorbachev's 1989 Beijing summit ended three decades of Sino-Soviet hostility, just as the USSR itself entered terminal crisis.",
+      "wikiSlug": "Sino-Soviet_relations",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-shekou-model",
+      "label": "The Shekou Industrial Zone",
+      "year": 1979,
+      "description": "The Shekou zone near Shenzhen pioneered labor contracts, bonuses, and the slogan 'time is money, efficiency is life' — capitalist practice rebranded as reform.",
+      "wikiSlug": "Shekou",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-coastal-cities-1984",
+      "label": "Fourteen Coastal Cities Opened",
+      "year": 1984,
+      "description": "In 1984 fourteen coastal cities from Dalian to Guangzhou were opened to foreign investment, extending the SEZ experiment along the whole seaboard.",
+      "wikiSlug": "Open_coastal_cities",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-overseas-chinese-capital",
+      "label": "Overseas Chinese Capital",
+      "year": 1980,
+      "endYear": 1995,
+      "description": "Hong Kong, Taiwanese, and diaspora investors supplied the bulk of early foreign capital and factory know-how, pouring into the southern zones.",
+      "wikiSlug": "Overseas_Chinese",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-shenzhen-speed",
+      "label": "Shenzhen Speed",
+      "year": 1982,
+      "endYear": 1985,
+      "description": "A skyscraper rising at a floor every few days made 'Shenzhen speed' the slogan for the breakneck transformation of a fishing region into a city of millions.",
+      "wikiSlug": "Shenzhen",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-roc-anti-spiritual-pollution",
+      "label": "The Anti-Spiritual-Pollution Campaign",
+      "year": 1983,
+      "description": "A 1983 conservative backlash against Western 'spiritual pollution' was reined in within months — an early skirmish in the recurring fight over how far opening could go.",
+      "wikiSlug": "Anti-Spiritual_Pollution_Campaign",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-special-zone-debate",
+      "label": "Is Shenzhen Capitalist?",
+      "year": 1985,
+      "description": "Hardliners attacked the zones as capitalist enclaves; the question of whether reform was betraying socialism shadowed every step of the 1980s.",
+      "wikiSlug": "Special_economic_zones_of_China",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-baoshan-steel",
+      "label": "Baoshan Steel and Foreign Technology",
+      "year": 1985,
+      "description": "The Japanese-aided Baoshan steel complex in Shanghai showed reform's other track: importing whole modern industrial plants to leapfrog decades of development.",
+      "wikiSlug": "Baowu",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-urban-reform-1984",
+      "label": "The Urban Economic Reform",
+      "year": 1984,
+      "description": "The 1984 decision extended reform from farms to cities and state factories, granting enterprises autonomy and profit retention — far harder than rural reform.",
+      "wikiSlug": "Chinese_economic_reform",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-dual-price-system",
+      "label": "The Dual-Track Price System",
+      "year": 1985,
+      "endYear": 1993,
+      "description": "Goods had a low planned price and a high market price at once; the gap created the era's defining fortune and its defining grievance — official profiteering.",
+      "wikiSlug": "Dual-track_price_system",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-guandao",
+      "label": "Official Profiteering",
+      "year": 1985,
+      "endYear": 1989,
+      "description": "Cadres and their children bought at the planned price and sold at the market price ('guandao'), the visible corruption that fed public anger before 1989.",
+      "wikiSlug": "Corruption_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-1988-inflation",
+      "label": "The 1988 Inflation Panic",
+      "year": 1988,
+      "description": "An attempt to free prices triggered double-digit inflation and panic bank runs and buying, forcing a retreat and discrediting the reformers' timing.",
+      "wikiSlug": "Chinese_economic_reform",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-1986-student-protests",
+      "label": "The 1986 Student Protests",
+      "year": 1986,
+      "endYear": 1987,
+      "description": "Student demonstrations for democracy in late 1986 led directly to Hu Yaobang's 1987 ouster for being too soft on 'bourgeois liberalization'.",
+      "wikiSlug": "1986_Chinese_student_demonstrations",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-fang-lizhi",
+      "label": "Fang Lizhi, the Dissident Scientist",
+      "year": 1986,
+      "endYear": 1990,
+      "description": "The astrophysicist Fang Lizhi openly argued science required democracy and human rights, making him the intellectual figurehead the party most feared.",
+      "wikiSlug": "Fang_Lizhi",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-culture-fever",
+      "label": "The Culture Fever",
+      "year": 1985,
+      "endYear": 1989,
+      "description": "A wave of translation, debate, and self-examination — books, salons, the TV essay 'River Elegy' — asked whether Chinese tradition itself blocked modernization.",
+      "wikiSlug": "Chinese_intellectualism",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-river-elegy",
+      "label": "River Elegy",
+      "year": 1988,
+      "description": "The 1988 television series 'River Elegy' attacked Chinese tradition as a closed inland culture and was watched by hundreds of millions before being banned after 1989.",
+      "wikiSlug": "River_Elegy",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-special-economic-debate",
+      "label": "Price Reform Stalls",
+      "year": 1988,
+      "description": "After the inflation panic, the leadership split between accelerating the market and a conservative 'rectification', and froze — the standoff that set the stage for 1989.",
+      "wikiSlug": "Chinese_economic_reform",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-hu-yaobang-death",
+      "label": "The Death of Hu Yaobang",
+      "year": 1989,
+      "description": "The death of the purged liberal Hu Yaobang in April 1989 became the pretext for mass mourning that turned into the largest protest movement in PRC history.",
+      "wikiSlug": "Hu_Yaobang",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-hunger-strike",
+      "label": "The Tiananmen Hunger Strike",
+      "year": 1989,
+      "description": "A student hunger strike in May 1989, timed to Gorbachev's visit, won mass public sympathy and humiliated the leadership before the world's cameras.",
+      "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-zhao-ziyang-fall",
+      "label": "The Fall of Zhao Ziyang",
+      "year": 1989,
+      "description": "Party chief Zhao Ziyang, who opposed force and went to plead with the students, was purged and held under house arrest until his death in 2005.",
+      "wikiSlug": "Zhao_Ziyang",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-martial-law-1989",
+      "label": "Martial Law and the June Fourth Crackdown",
+      "year": 1989,
+      "description": "The army cleared central Beijing by force on the night of June 3-4, 1989; the death toll, hidden by the state, is estimated from several hundred to well over a thousand.",
+      "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-tank-man",
+      "label": "Tank Man",
+      "year": 1989,
+      "description": "An unidentified man halting a column of tanks on Chang'an Avenue became the most reproduced image of the era and is censored inside China to this day.",
+      "wikiSlug": "Tank_Man",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-li-peng",
+      "label": "Li Peng, the Hardliner",
+      "year": 1989,
+      "description": "Premier Li Peng, who declared martial law and defended the crackdown, became the public face of the hard line and a lasting target of popular loathing.",
+      "wikiSlug": "Li_Peng",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-1989-sanctions",
+      "label": "Sanctions and Isolation",
+      "year": 1989,
+      "endYear": 1992,
+      "description": "Western arms embargoes and frozen relations isolated China after June 1989, briefly threatening the entire opening before economics overrode outrage.",
+      "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-pudong",
+      "label": "The Opening of Pudong",
+      "year": 1990,
+      "description": "The decision to build a new financial district on the Shanghai marshland of Pudong became the visual symbol of the post-1989 economic relaunch.",
+      "wikiSlug": "Pudong",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-roc-socialist-market-economy",
+      "label": "The Socialist Market Economy",
+      "year": 1992,
+      "description": "The 1992 Party Congress formally adopted a 'socialist market economy', ending the question of whether markets were ideologically permissible.",
+      "wikiSlug": "Socialist_market_economy",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-xiahai",
+      "label": "Xiahai: Jumping into the Sea",
+      "year": 1992,
+      "endYear": 1996,
+      "description": "After the Southern Tour, officials and academics quit secure posts to 'jump into the sea' of private business, a cultural turn toward money-making.",
+      "wikiSlug": "Chinese_economic_reform",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-tax-reform-1994",
+      "label": "The 1994 Fiscal Reform",
+      "year": 1994,
+      "description": "Zhu Rongji's 1994 tax-sharing reform recentralized revenue to Beijing, the fiscal machinery that funded the next two decades of state power and infrastructure.",
+      "wikiSlug": "Tax-sharing_reform_of_China_in_1994",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-deng-death",
+      "label": "The Death of Deng Xiaoping",
+      "year": 1997,
+      "description": "Deng died in February 1997, months before the Hong Kong handover he had designed; the reforms continued without him, the proof his system could outlive its founder.",
+      "wikiSlug": "Deng_Xiaoping",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-taiwan-strait-1995",
+      "label": "The Third Taiwan Strait Crisis",
+      "year": 1995,
+      "endYear": 1996,
+      "description": "China fired missiles near Taiwan before its 1996 election; US carriers intervened, exposing China's military weakness and triggering a long modernization drive.",
+      "wikiSlug": "Third_Taiwan_Strait_Crisis",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-special-1992-consensus",
+      "label": "The 1992 Consensus",
+      "year": 1992,
+      "description": "An ambiguous formula that both sides agreed there was 'one China' while disagreeing what that meant became the fragile basis of cross-strait stability.",
+      "wikiSlug": "1992_Consensus",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-asian-financial-crisis",
+      "label": "The Asian Financial Crisis",
+      "year": 1997,
+      "endYear": 1998,
+      "description": "By not devaluing the yuan while its neighbors' economies collapsed, China won regional credibility and contrasted its stability with the volatility of open markets.",
+      "wikiSlug": "1997_Asian_financial_crisis",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-soe-reform",
+      "label": "The Great State-Sector Layoffs",
+      "year": 1997,
+      "endYear": 2003,
+      "description": "Zhu Rongji's 'grasp the big, release the small' restructuring laid off tens of millions of state workers, ending the socialist 'iron rice bowl' of guaranteed jobs.",
+      "wikiSlug": "Chinese_economic_reform",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-zhu-rongji",
+      "label": "Zhu Rongji, the Economic Czar",
+      "year": 1998,
+      "endYear": 2003,
+      "description": "Premier Zhu Rongji pushed the painful SOE, banking, and WTO reforms, the technocrat who made China's market turn irreversible.",
+      "wikiSlug": "Zhu_Rongji",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-housing-reform",
+      "label": "The End of Allocated Housing",
+      "year": 1998,
+      "description": "Abolishing state-allocated housing in 1998 created a private property market that became the main store of household wealth and the economy's biggest engine and risk.",
+      "wikiSlug": "Real_estate_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-belgrade-embassy",
+      "label": "The Belgrade Embassy Bombing",
+      "year": 1999,
+      "description": "The US bombing of China's Belgrade embassy in 1999 triggered furious nationalist protests and hardened a generation's suspicion of American intentions.",
+      "wikiSlug": "United_States_bombing_of_the_Chinese_embassy_in_Belgrade",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-three-represents",
+      "label": "The Three Represents",
+      "year": 2001,
+      "description": "Jiang Zemin's doctrine admitting private entrepreneurs into the Communist Party formally reconciled the party with the capitalist class it now depended on.",
+      "wikiSlug": "Three_Represents",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-yangtze-floods-1998",
+      "label": "The 1998 Yangtze Floods",
+      "year": 1998,
+      "description": "Catastrophic 1998 floods killed thousands and accelerated the case for the Three Gorges Dam and a vast flood-control and reforestation program.",
+      "wikiSlug": "1998_China_floods",
+      "tier": 3,
+      "tags": [
+        "science"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-roc-sars",
+      "label": "The SARS Epidemic",
+      "year": 2003,
+      "description": "Initial concealment of the 2003 SARS outbreak became a national scandal and a rehearsed warning about information control and epidemics that 2020 would echo.",
+      "wikiSlug": "Severe_acute_respiratory_syndrome",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-wen-jiabao",
+      "label": "Wen Jiabao, the People's Premier",
+      "year": 2003,
+      "endYear": 2013,
+      "description": "Premier Wen Jiabao cultivated a populist image while presiding over the boom, the inequality, and the stimulus that defined the Hu-Wen decade.",
+      "wikiSlug": "Wen_Jiabao",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-migrant-workers",
+      "label": "The Migrant-Worker Economy",
+      "year": 2000,
+      "endYear": 2015,
+      "description": "Some 200-300 million rural migrants, denied urban benefits by the hukou registration system, built and staffed the export factories — the human engine of the boom.",
+      "wikiSlug": "Migration_in_China",
+      "tier": 1,
+      "tags": [
+        "trade"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-harmonious-society",
+      "label": "The Harmonious Society",
+      "year": 2004,
+      "description": "Hu Jintao's 'harmonious society' acknowledged that breakneck growth had produced dangerous inequality, pollution, and unrest — and prescribed mostly slogans.",
+      "wikiSlug": "Harmonious_Society",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-wto-boom",
+      "label": "The Export Juggernaut",
+      "year": 2002,
+      "endYear": 2008,
+      "description": "After WTO entry exports roughly quadrupled in six years, China ran enormous trade surpluses and became the indispensable workshop of the global economy.",
+      "wikiSlug": "Economy_of_China",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-abolish-ag-tax",
+      "label": "The Agricultural Tax Abolished",
+      "year": 2006,
+      "description": "Ending the millennia-old tax on farmers in 2006 was a populist landmark, formally closing the era in which the countryside subsidized the city.",
+      "wikiSlug": "Agriculture_in_China",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-inequality",
+      "label": "The Widening Gap",
+      "year": 2003,
+      "endYear": 2012,
+      "description": "The reform boom produced one of the world's fastest rises in inequality, a coastal-inland and urban-rural chasm that became the regime's central social anxiety.",
+      "wikiSlug": "Income_inequality_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-shenzhou-7",
+      "label": "China's First Spacewalk",
+      "year": 2008,
+      "description": "The 2008 Shenzhou 7 spacewalk advanced a methodical crewed space program that would build a station and land on the Moon's far side within a decade.",
+      "wikiSlug": "Shenzhou_7",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-tibet-2008",
+      "label": "The 2008 Tibet Unrest",
+      "year": 2008,
+      "description": "Riots in Lhasa and a protest-dogged Olympic torch relay put the Tibet question on the world stage in the run-up to the Games.",
+      "wikiSlug": "2008_Tibetan_unrest",
+      "tier": 2,
+      "tags": [
+        "religion"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-melamine-milk",
+      "label": "The Tainted Milk Scandal",
+      "year": 2008,
+      "description": "Melamine-laced infant formula sickened 300,000 babies and became the symbol of a growth model that had outrun safety, regulation, and trust.",
+      "wikiSlug": "2008_Chinese_milk_scandal",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-birds-nest",
+      "label": "The Bird's Nest and the New Beijing",
+      "year": 2008,
+      "description": "The Bird's Nest stadium, the Water Cube, and a rebuilt Beijing turned the 2008 Olympics into a coming-out spectacle of national arrival.",
+      "wikiSlug": "Beijing_National_Stadium",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-roc-gfc-2008",
+      "label": "The Global Financial Crisis Hits",
+      "year": 2008,
+      "endYear": 2009,
+      "description": "The 2008 Western crash collapsed Chinese exports and shut tens of thousands of factories, briefly threatening the social bargain of jobs-for-stability.",
+      "wikiSlug": "Great_Recession_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-four-trillion",
+      "label": "The Four-Trillion-Yuan Stimulus",
+      "year": 2008,
+      "endYear": 2009,
+      "description": "A colossal 2008-09 stimulus, mostly debt-financed infrastructure and property, pulled the world economy along but left a mountain of local-government debt.",
+      "wikiSlug": "Chinese_economic_stimulus_program",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-export-collapse-2009",
+      "label": "The 2009 Export Collapse",
+      "year": 2009,
+      "description": "A roughly 20 percent fall in exports and tens of millions of migrant job losses in 2009 forced the pivot from exports toward investment-led growth.",
+      "wikiSlug": "Great_Recession_in_China",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-jasmine-2011",
+      "label": "The Jasmine Scare",
+      "year": 2011,
+      "description": "Anonymous online calls for Arab-Spring-style 'Jasmine' gatherings in 2011 produced almost no protesters but a huge preemptive crackdown that revealed elite anxiety.",
+      "wikiSlug": "2011_Chinese_pro-democracy_protests",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-ai-weiwei",
+      "label": "The Detention of Ai Weiwei",
+      "year": 2011,
+      "description": "The 2011 disappearance of the artist Ai Weiwei, who had documented the Sichuan school deaths, signaled a hardening line on celebrity dissent.",
+      "wikiSlug": "Ai_Weiwei",
+      "tier": 3,
+      "tags": [
+        "writing"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-wenzhou-crash",
+      "label": "The Wenzhou High-Speed Rail Crash",
+      "year": 2011,
+      "description": "A 2011 bullet-train collision and the rushed burial of a carriage became a viral parable about speed, cover-up, and the costs of the growth model.",
+      "wikiSlug": "Wenzhou_train_collision",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-weibo-era",
+      "label": "The Weibo Moment",
+      "year": 2010,
+      "endYear": 2013,
+      "description": "For a few years microblogs created an unprecedented semi-public square where scandals and official lies could be exposed before censorship caught up.",
+      "wikiSlug": "Sina_Weibo",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-ghost-cities",
+      "label": "Ghost Cities and the Property Engine",
+      "year": 2010,
+      "endYear": 2015,
+      "description": "Debt-fueled construction produced empty districts and a property sector that became a quarter of the economy — its greatest growth driver and deepest fragility.",
+      "wikiSlug": "Under-occupied_developments_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-roc-bo-xilai",
+      "label": "Bo Xilai and the Chongqing Model",
+      "year": 2007,
+      "endYear": 2012,
+      "description": "The charismatic Chongqing boss Bo Xilai built a populist 'red culture' and crime-crackdown machine and a power base that frightened the leadership.",
+      "wikiSlug": "Bo_Xilai",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-wang-lijun",
+      "label": "The Wang Lijun Incident",
+      "year": 2012,
+      "description": "Bo's police chief fled to a US consulate in 2012 with evidence that his patron's wife had murdered a British businessman, detonating the affair.",
+      "wikiSlug": "Wang_Lijun_incident",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-bo-xilai-fall",
+      "label": "The Fall of Bo Xilai",
+      "year": 2012,
+      "endYear": 2013,
+      "description": "Bo's purge and life sentence was the largest elite scandal in decades and the cleared path for Xi Jinping's uncontested rise.",
+      "wikiSlug": "Bo_Xilai",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-leadership-2012",
+      "label": "The 18th Party Congress",
+      "year": 2012,
+      "description": "The 2012 congress installed Xi Jinping as party leader amid open elite anxiety about corruption, inequality, and a model running out of room.",
+      "wikiSlug": "18th_National_Congress_of_the_Chinese_Communist_Party",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-tigers-flies",
+      "label": "Tigers and Flies",
+      "year": 2013,
+      "endYear": 2017,
+      "description": "Xi's anti-graft drive jailed retired security chief Zhou Yongkang, generals, and over a million officials, simultaneously cleaning house and destroying rivals.",
+      "wikiSlug": "Anti-corruption_campaign_under_Xi_Jinping",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-chinese-dream",
+      "label": "The Chinese Dream",
+      "year": 2012,
+      "description": "Xi's signature slogan, the 'great rejuvenation of the Chinese nation' by mid-century, fused national pride to party rule and the century-of-humiliation memory.",
+      "wikiSlug": "Chinese_Dream",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-document-9",
+      "label": "Document No. 9",
+      "year": 2013,
+      "description": "A 2013 internal directive forbade promoting constitutional democracy, civil society, and press freedom — the ideological blueprint of the Xi era.",
+      "wikiSlug": "Document_Number_Nine",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-709-crackdown",
+      "label": "The 709 Lawyers Crackdown",
+      "year": 2015,
+      "description": "The July 2015 roundup of rights lawyers gutted the small legal-activist community that had tried to use the regime's own courts against it.",
+      "wikiSlug": "709_crackdown",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-two-child",
+      "label": "The End of the One-Child Policy",
+      "year": 2015,
+      "endYear": 2016,
+      "description": "After 35 years the one-child policy was scrapped in 2015 as China confronted a shrinking workforce and aging it could no longer ignore.",
+      "wikiSlug": "Two-child_policy",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-xi-core",
+      "label": "Xi Named the Core",
+      "year": 2016,
+      "description": "The party designated Xi its 'core' leader in 2016, a status Hu Jintao never held, formalizing the most concentrated personal power since Mao.",
+      "wikiSlug": "Xi_Jinping",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-pla-reform",
+      "label": "The PLA Overhaul",
+      "year": 2015,
+      "endYear": 2017,
+      "description": "Xi restructured the military into joint theater commands, purged its top brass, and reoriented it from a land army toward power projection at sea and in space.",
+      "wikiSlug": "People%27s_Liberation_Army",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-poverty-alleviation",
+      "label": "The Targeted Poverty Campaign",
+      "year": 2013,
+      "endYear": 2020,
+      "description": "A vast 'targeted poverty alleviation' drive that Beijing declared in 2020 had eliminated extreme rural poverty — a real achievement and a contested statistic.",
+      "wikiSlug": "Poverty_alleviation_in_China",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-made-in-china-2025",
+      "label": "Made in China 2025",
+      "year": 2015,
+      "description": "An industrial plan to dominate robotics, chips, electric vehicles, and aerospace by 2025 became the explicit target of the American response.",
+      "wikiSlug": "Made_in_China_2025",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-tech-giants",
+      "label": "The Platform Economy",
+      "year": 2010,
+      "endYear": 2020,
+      "description": "Alibaba, Tencent, and a generation of platforms built a near-cashless, app-mediated economy that for a decade was the freest and most dynamic part of Chinese life.",
+      "wikiSlug": "Big_Tech_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-mobile-payments",
+      "label": "The Cashless Leap",
+      "year": 2014,
+      "endYear": 2019,
+      "description": "QR-code payment by phone went from novelty to near-universal in five years, leapfrogging cards and putting daily commerce on two private super-apps.",
+      "wikiSlug": "Mobile_payments_in_China",
+      "tier": 3,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-surveillance-state",
+      "label": "The Surveillance State",
+      "year": 2015,
+      "endYear": 2020,
+      "description": "Hundreds of millions of cameras, facial recognition, and big-data policing built the most comprehensive domestic surveillance system in history.",
+      "wikiSlug": "Mass_surveillance_in_China",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-social-credit",
+      "label": "The Social Credit System",
+      "year": 2014,
+      "endYear": 2020,
+      "description": "A patchwork of blacklists and scoring schemes, less the unified dystopia of Western imagination but a real apparatus of behavioral control and exclusion.",
+      "wikiSlug": "Social_Credit_System",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-change-moon",
+      "label": "The Chang'e Lunar Program",
+      "year": 2013,
+      "endYear": 2019,
+      "description": "China landed rovers on the Moon, including the first ever on its far side in 2019, and returned lunar samples — a methodical bid for first-rank space power.",
+      "wikiSlug": "Chang%27e_4",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-bri-debt",
+      "label": "The Belt and Road and Its Critics",
+      "year": 2013,
+      "endYear": 2020,
+      "description": "Ports, railways, and power plants across Eurasia and Africa extended Chinese influence and drew charges of 'debt-trap diplomacy' the evidence only partly supports.",
+      "wikiSlug": "Belt_and_Road_Initiative",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-hambantota",
+      "label": "The Hambantota Port Lease",
+      "year": 2017,
+      "description": "Sri Lanka's 99-year lease of a Chinese-built port after a debt default became the global symbol, fair or not, of Belt and Road risk.",
+      "wikiSlug": "Hambantota_International_Port",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-umbrella-2014",
+      "label": "The Umbrella Movement",
+      "year": 2014,
+      "description": "A 79-day occupation of central Hong Kong demanding genuine universal suffrage failed to win concessions but radicalized a generation.",
+      "wikiSlug": "2014_Hong_Kong_protests",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-causeway-booksellers",
+      "label": "The Causeway Bay Booksellers",
+      "year": 2015,
+      "endYear": 2016,
+      "description": "Five Hong Kong booksellers who sold gossipy titles on China's leaders vanished into mainland custody in 2015-16, shattering the 'two systems' firewall.",
+      "wikiSlug": "Causeway_Bay_Books_disappearances",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-hk-exodus",
+      "label": "The Hong Kong Exodus",
+      "year": 2020,
+      "endYear": 2023,
+      "description": "After the security law, a wave of Hong Kongers emigrated on a British visa scheme, draining the city of much of its dissenting professional class.",
+      "wikiSlug": "Hong_Kong_outflow_of_residents_(2020%E2%80%93present)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-tsai-ing-wen",
+      "label": "Tsai Ing-wen and the Taiwan Pivot",
+      "year": 2016,
+      "description": "Taiwan's 2016 election of the independence-leaning Tsai Ing-wen ended cross-strait detente and fed a cycle of pressure and counter-pressure.",
+      "wikiSlug": "Tsai_Ing-wen",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-sunflower-2014",
+      "label": "The Sunflower Movement",
+      "year": 2014,
+      "description": "Taiwanese students occupying the legislature against a 2014 trade pact with Beijing turned the island's politics decisively against integration.",
+      "wikiSlug": "Sunflower_Student_Movement",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-ma-xi-2015",
+      "label": "The Ma-Xi Summit",
+      "year": 2015,
+      "description": "The first meeting of leaders from the two sides since 1949, in Singapore in 2015, marked the high-water mark of cross-strait engagement before the freeze.",
+      "wikiSlug": "Ma%E2%80%93Xi_meeting",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-taiwan-pressure",
+      "label": "Military Pressure on Taiwan",
+      "year": 2016,
+      "endYear": 2022,
+      "description": "Record warplane incursions and exercises around Taiwan became routine as Beijing abandoned patience and Washington deepened arms support.",
+      "wikiSlug": "Chinese_military_activity_around_Taiwan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-huawei-meng",
+      "label": "Huawei and the Meng Wanzhou Affair",
+      "year": 2018,
+      "endYear": 2021,
+      "description": "The 2018 Canadian arrest of Huawei's CFO on US sanctions charges, and China's hostage-style detention of two Canadians, marked the shift to open technological warfare.",
+      "wikiSlug": "Meng_Wanzhou",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-chip-war",
+      "label": "The Chip War",
+      "year": 2019,
+      "endYear": 2022,
+      "description": "US export controls cutting China off from advanced semiconductors and the tools to make them became the central front of the rivalry.",
+      "wikiSlug": "United_States%E2%80%93China_trade_war",
+      "tier": 2,
+      "tags": [
+        "trade"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-wolf-warrior",
+      "label": "Wolf-Warrior Diplomacy",
+      "year": 2019,
+      "endYear": 2022,
+      "description": "A combative new diplomatic style, named for an action-movie franchise, traded soft-power patience for aggressive nationalism, often counterproductively.",
+      "wikiSlug": "Wolf_warrior_diplomacy",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-roc-hague-2016",
+      "label": "The South China Sea Ruling",
+      "year": 2016,
+      "description": "An international tribunal rejected China's expansive sea claims in 2016; Beijing ignored the ruling and kept militarizing its artificial islands.",
+      "wikiSlug": "Philippines_v._China",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-galwan-2020",
+      "label": "The Galwan Valley Clash",
+      "year": 2020,
+      "description": "A 2020 hand-to-hand Himalayan border clash killed soldiers on both sides and pushed India decisively toward the United States — an echo of 1962.",
+      "wikiSlug": "2020%E2%80%932021_China%E2%80%93India_skirmishes",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-quad-aukus",
+      "label": "The Quad and AUKUS",
+      "year": 2017,
+      "endYear": 2021,
+      "description": "The revived US-Japan-India-Australia Quad and the AUKUS submarine pact were the hard-power architecture of containing Chinese power in the Indo-Pacific.",
+      "wikiSlug": "Quadrilateral_Security_Dialogue",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-decoupling",
+      "label": "Decoupling and De-Risking",
+      "year": 2018,
+      "endYear": 2023,
+      "description": "Tariffs, investment screening, and supply-chain 'de-risking' began unwinding the economic integration that had defined the previous thirty years.",
+      "wikiSlug": "China%E2%80%93United_States_trade_war",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-li-wenliang",
+      "label": "The Death of Li Wenliang",
+      "year": 2020,
+      "description": "The Wuhan doctor silenced for warning of the new virus, then killed by it in February 2020, became a national symbol of the cost of suppressing the truth.",
+      "wikiSlug": "Li_Wenliang",
+      "tier": 2,
+      "tags": [
+        "science"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-wuhan-lockdown",
+      "label": "The Wuhan Lockdown",
+      "year": 2020,
+      "description": "The unprecedented 76-day sealing of an 11-million city in early 2020 was both a brutal containment success and a template for permanent emergency power.",
+      "wikiSlug": "COVID-19_lockdown_in_Wuhan",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-zero-covid",
+      "label": "The Zero-COVID Policy",
+      "year": 2020,
+      "endYear": 2022,
+      "description": "Years of mass testing, snap lockdowns, and quarantine kept death tolls low at first but isolated China, battered the economy, and exhausted the public.",
+      "wikiSlug": "Zero-COVID",
+      "tier": 1,
+      "tags": [
+        "rulers"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-shanghai-lockdown",
+      "label": "The Shanghai Lockdown",
+      "year": 2022,
+      "description": "The two-month 2022 lockdown of 25 million people in China's richest city, with food shortages and forced separations, broke much of the public's patience.",
+      "wikiSlug": "COVID-19_pandemic_in_Shanghai",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-white-paper",
+      "label": "The White Paper Protests",
+      "year": 2022,
+      "description": "After a deadly locked-down apartment fire, blank-paper protests spread across cities in November 2022 — the broadest open defiance since 1989.",
+      "wikiSlug": "2022_COVID-19_protests_in_China",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-roc-zero-covid-end",
+      "label": "The Abrupt Reopening",
+      "year": 2022,
+      "endYear": 2023,
+      "description": "Zero-COVID was abandoned almost overnight in December 2022 with no preparation, producing a vast, undercounted wave of deaths over the following months.",
+      "wikiSlug": "Zero-COVID",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-roc-third-term",
+      "label": "Xi's Third Term",
+      "year": 2022,
+      "description": "The 2022 congress gave Xi a norm-breaking third term and a stacked leadership, and ended with his predecessor Hu Jintao led from the stage on camera.",
+      "wikiSlug": "20th_National_Congress_of_the_Chinese_Communist_Party",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-roc-evergrande",
+      "label": "The Property Crisis",
+      "year": 2021,
+      "endYear": 2024,
+      "description": "The default of the developer Evergrande in 2021 cracked the debt-and-property model that had driven a quarter of GDP, with no clear replacement engine.",
+      "wikiSlug": "2020%E2%80%932023_Chinese_property_sector_crisis",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-common-prosperity",
+      "label": "Common Prosperity and the Tech Crackdown",
+      "year": 2020,
+      "endYear": 2022,
+      "description": "A regulatory assault that scrapped Ant Group's IPO and humbled Alibaba, Didi, and the tutoring industry signaled the party reclaiming primacy over private capital.",
+      "wikiSlug": "Common_prosperity",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-demographic-decline",
+      "label": "The Population Turns Down",
+      "year": 2022,
+      "description": "China's population began shrinking in 2022, decades earlier than once forecast, raising the question of whether it will grow old before it grows rich.",
+      "wikiSlug": "Demographics_of_China",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-roc-youth-unemployment",
+      "label": "The Post-COVID Malaise",
+      "year": 2023,
+      "endYear": 2024,
+      "description": "Record youth unemployment, a stalled property sector, and waning confidence ended the assumption of perpetual fast growth that had underpinned the social bargain.",
+      "wikiSlug": "Economy_of_China",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-roc-great-rejuvenation",
+      "label": "Toward 2049",
+      "year": 2021,
+      "endYear": 2024,
+      "description": "With centenary goals for 2049 and a frozen succession, the regime's bet is that national rejuvenation under one-party rule can substitute for the growth that bought consent.",
+      "wikiSlug": "Chinese_Dream",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
