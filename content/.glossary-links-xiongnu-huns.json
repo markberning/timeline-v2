@@ -221,6 +221,12 @@
       "matchText": "Ashoka",
       "wikiSlug": "Ashoka",
       "type": "people"
+    },
+    {
+      "term": "Modu Chanyu",
+      "matchText": "Modu",
+      "wikiSlug": "Modu_Chanyu",
+      "type": "people"
     }
   ],
   "2": [
@@ -1133,6 +1139,12 @@
       "matchText": "Gupta Empire",
       "wikiSlug": "Gupta_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Hephthalites",
+      "matchText": "Hephthalite",
+      "wikiSlug": "Hephthalites",
+      "type": "people"
     }
   ],
   "8": [
@@ -1272,6 +1284,12 @@
       "term": "Danube limes",
       "matchText": "Danube limes",
       "wikiSlug": "Limes_(Roman_Empire)",
+      "type": "concept"
+    },
+    {
+      "term": "Rouran Khaganate",
+      "matchText": "Rouran",
+      "wikiSlug": "Rouran_Khaganate",
       "type": "concept"
     }
   ]

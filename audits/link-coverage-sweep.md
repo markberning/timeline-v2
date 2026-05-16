@@ -31,7 +31,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 |---|---|---|---|
 | viking-age | 8 | **DONE** (Ch1–8) | 6791a73, 52c83c9, 7fcbf5b |
 | celtic-cultures | 8 | **DONE** | 23619c7 |
-| scythians | 8 | **DONE** (cross-civ focus) | +this |
+| scythians | 8 | **DONE** (cross-civ focus) | 1bbd2e3 |
+| xiongnu-huns | 8 | **DONE** (cross-civ focus) | +this |
 | _next: roadmap chain order (excl. 6 US-history civs)_ | | pending | |
 
 > Benign-warning note: when a pre-existing cross-link has a longer matchText

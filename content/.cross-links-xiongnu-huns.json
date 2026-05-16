@@ -23,6 +23,30 @@
       "targetTl": "maurya-empire",
       "targetChapter": 5,
       "blurb": "While the Xiongnu were organizing on the Mongolian steppe, Ashoka was ruling an Indian empire stretching from Afghanistan to Bengal and carving his edicts of nonviolence into rock pillars. The Maurya and Xiongnu empires were exact contemporaries and exact opposites — one built on dharma, the other on arrows."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "As the Xiongnu coalesced on the eastern steppe, the Roman Republic was consolidating Italy — both building the power that would define their corner of the world, neither aware the other existed."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 5,
+      "blurb": "India's Maurya Empire was at its height under Ashoka while the steppe pieces fell into place for Modu's nomadic empire — two utterly different answers to the problem of organizing a continent."
+    },
+    {
+      "matchText": "Warring States period",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 6,
+      "blurb": "China was in the final bloody phase of the Warring States — the chaos that would produce the Qin and then the Han, the settled superpower the Xiongnu were about to rival."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "At the western edge of the known world, Alexander's successor kingdoms were carving up his empire — the Hellenistic age, contemporary with the first stirrings of the Xiongnu."
     }
   ],
   "2": [
@@ -43,6 +67,30 @@
       "targetTl": "carthage",
       "targetChapter": 7,
       "blurb": "Hannibal's crossing of the Alps and his rampage through Italy nearly destroyed Rome. While Modu was building a steppe empire in Mongolia, Carthage was fighting for Mediterranean supremacy 5,000 miles away. Both were challenging the dominant power in their region at exactly the same moment — and neither knew the other existed."
+    },
+    {
+      "matchText": "Qin dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 7,
+      "blurb": "Modu seized power in 209 BCE — the very year the Qin dynasty collapsed into the civil war that birthed the Han. Steppe and sown were convulsing in the same instant."
+    },
+    {
+      "matchText": "Han dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "Out of the Qin collapse rose the Han — the empire that would spend the next century locked in a tribute-and-war relationship with Modu's Xiongnu."
+    },
+    {
+      "matchText": "Second Punic War",
+      "targetTl": "ancient-rome",
+      "targetChapter": 3,
+      "blurb": "While China fought for survival against itself, Rome fought for survival against Hannibal — and neither noticed the empire forming on the Mongolian grass."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 6,
+      "blurb": "Rome and Carthage were locked in the war that would decide the western Mediterranean, oblivious to the nomadic superpower rising at the other end of Eurasia."
     }
   ],
   "3": [
@@ -57,6 +105,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "Darius I's invasion of Scythian territory around 513 BCE ended in humiliation — the Scythians refused to fight, retreated endlessly, and nearly starved the Persian army. But the Persians never paid systematic tribute the way Han China paid the Xiongnu. China's heqin system was unique in the ancient world: the richest civilization on earth formally buying peace from nomads it called barbarians."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 8,
+      "blurb": "As Han China bought peace from the Xiongnu with the heqin marriages, Rome was erasing Carthage from the earth (146 BCE) — two superpowers, two opposite ways of handling a rival."
+    },
+    {
+      "matchText": "Maurya dynasty",
+      "targetTl": "maurya-empire",
+      "targetChapter": 8,
+      "blurb": "India's Maurya Empire was fading just as the heqin system strained — the great classical states all entering transitions at once."
     }
   ],
   "4": [
@@ -71,6 +131,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 5,
       "blurb": "While Emperor Wu was sending cavalry across the Gobi Desert to break the Xiongnu, the Roman Republic was tearing itself apart in civil wars — Marius vs. Sulla, Pompey vs. Caesar. Both empires were at peak military ambition, expanding in opposite directions along routes that would eventually become the Silk Road."
+    },
+    {
+      "matchText": "late Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 4,
+      "blurb": "Emperor Wu's cavalry wars against the Xiongnu run parallel to the late Roman Republic's Mediterranean conquests — Rome expanding by infantry and engineering, China by cavalry and logistics, both unknowingly building toward the Silk Road."
     }
   ],
   "5": [
@@ -79,6 +145,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 7,
       "blurb": "Augustus transformed Rome from a dying republic into an empire that would last five centuries. At the same moment, the Xiongnu were splitting into rival factions and Huhanye was bowing to the Han emperor. Both ends of Eurasia were reorganizing themselves around single-ruler imperial systems — and both would eventually face the same problem of frontier nomads they couldn't permanently defeat."
+    },
+    {
+      "matchText": "early Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "The Xiongnu fractured during the span from the late Roman Republic to Augustus's Principate — the two great empires at either end of Eurasia near their peaks, both fighting frontier nomads."
+    },
+    {
+      "matchText": "Trajan",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Rome reached its greatest extent under Trajan while the Northern Xiongnu were being driven west — the Silk Road linking two empires that never grasped each other's scale."
     }
   ],
   "6": [
@@ -93,6 +171,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "Adrianople in 378 CE was a catastrophe on the scale of Cannae — a Roman emperor killed, an army destroyed, and the military prestige of Rome shattered. The chain of causation ran directly from the Hunnic invasion of the Pontic steppe to the Gothic refugees to the disaster at Adrianople. The Huns hadn't even fought Rome yet, and they'd already destabilized the empire."
+    },
+    {
+      "matchText": "Sassanid Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Hunnic arrival in Europe (~370 CE) fell in Rome's twilight, with Sassanid Persia as Rome's great eastern rival — the steppe sending shockwaves into a fragmenting classical world."
+    },
+    {
+      "matchText": "Northern and Southern dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 3,
+      "blurb": "In China the same steppe pressure had already shattered the north into 'barbarian' kingdoms — including the Xiongnu-descended Han Zhao — while Chinese dynasties clung to the south."
     }
   ],
   "7": [
@@ -101,6 +191,30 @@
       "targetTl": "persian-empire",
       "targetChapter": 10,
       "blurb": "The Sassanid Persian Empire was Rome's great eastern rival for four centuries, and in 441 CE their war with Constantinople gave Attila his opening to ravage the Balkans. The Persians and the Huns were both extracting wealth from the Roman Empire simultaneously — from opposite directions."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Attila's campaigns fell in the last decades of the Western Roman Empire, which would formally end just 23 years after his death."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "While the West collapsed, the Eastern Roman Empire thrived behind Constantinople's Theodosian Walls — the half of Rome that the Huns could not crack."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 4,
+      "blurb": "In Mesoamerica the great city of Teotihuacan was at its height — the classical world fragmenting under steppe pressure in the Old World while a metropolis peaked, unconnected, in the New."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 7,
+      "blurb": "In the very decade Attila devastated Gaul, the Gupta emperor Skandagupta was repulsing the first Hephthalite incursion on India. Two empires under steppe pressure at once — the West fell, India held a generation longer."
     }
   ],
   "8": [
@@ -121,6 +235,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The Western Roman Empire formally ended in 476 CE when the Germanic general Odoacer deposed the last emperor — just twenty-three years after Attila's death. The Huns didn't destroy Rome directly, but they set the Germanic migrations in motion that eventually did. The chain runs from Modu's steppe empire to Attila's European empire to the end of Rome."
+    },
+    {
+      "matchText": "Northern Wei dynasty",
+      "targetTl": "six-dynasties",
+      "targetChapter": 6,
+      "blurb": "As the Hunnic Empire dissolved, the Xianbei Northern Wei was unifying northern China — a 'barbarian' dynasty that would become more Chinese than the Chinese."
+    },
+    {
+      "matchText": "Gokturks",
+      "targetTl": "gokturk-khaganate",
+      "targetChapter": 1,
+      "blurb": "The grassland conveyor belt kept running: the Rouran held Mongolia, and the Gokturks were about to displace them — the same template Modu invented in 209 BCE, outliving every empire that used it."
     }
   ]
 }
