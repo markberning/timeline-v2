@@ -148,9 +148,9 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'inca-empire', label: 'Inca Empire', subtitle: "the Andes' road-builders", region: 'americas', startYear: 1438, endYear: 1533, hasContent: true },
   { id: 'early-american-republic', label: 'Early US Republic', subtitle: 'the new nation finds its feet', region: 'americas', startYear: 1776, endYear: 1828, hasContent: true },
   { id: 'antebellum-america', label: 'Antebellum America', subtitle: 'expansion and the slavery crisis', region: 'americas', startYear: 1828, endYear: 1865, hasContent: true },
-  { id: 'reconstruction', label: 'Reconstruction', subtitle: 'the South after the Civil War', region: 'americas', startYear: 1865, endYear: 1877 },
-  { id: 'roaring-twenties', label: 'Roaring Twenties', subtitle: 'jazz, autos, and the boom', region: 'americas', startYear: 1918, endYear: 1929 },
-  { id: 'civil-rights-era', label: 'Civil Rights Era', subtitle: 'the Black freedom struggle', region: 'americas', startYear: 1954, endYear: 1968 },
+  { id: 'reconstruction', label: 'Reconstruction', subtitle: 'the South after the Civil War', region: 'americas', startYear: 1865, endYear: 1877, hasContent: true },
+  { id: 'roaring-twenties', label: 'Roaring Twenties', subtitle: 'jazz, autos, and the boom', region: 'americas', startYear: 1918, endYear: 1929, hasContent: true },
+  { id: 'civil-rights-era', label: 'Civil Rights Era', subtitle: 'the Black freedom struggle', region: 'americas', startYear: 1954, endYear: 1968, hasContent: true },
 ]
 
 export const TIME_MIN = -7000

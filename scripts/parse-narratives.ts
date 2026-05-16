@@ -199,6 +199,9 @@ const NARRATIVE_FILES: Record<string, string> = {
   'mississippian-culture.md': 'mississippian-culture',
   'early-american-republic.md': 'early-american-republic',
   'antebellum-america.md': 'antebellum-america',
+  'reconstruction.md': 'reconstruction',
+  'roaring-twenties.md': 'roaring-twenties',
+  'civil-rights-era.md': 'civil-rights-era',
 }
 
 function slugify(title: string): string {

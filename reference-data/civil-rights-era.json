@@ -1,0 +1,2372 @@
+{
+  "id": "civil-rights-era",
+  "label": "Civil Rights Era",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Civil_rights_movement",
+  "imageWikiSlug": "March_on_Washington_for_Jobs_and_Freedom",
+  "pitch": "In 1865 the Constitution freed four million people and promised them citizenship and the vote. Within a single generation the white South had clawed almost all of it back, and the federal government let it happen. The Civil Rights Era is the story of how, ninety years later, ordinary Black Americans — and the organizers, lawyers, preachers, students, and grandmothers behind the famous names — forced the country to keep the promise it had broken. It is the Second Reconstruction.\n\n🔑 Key Facts:\n• Brown v. Board of Education (1954) overturned the 'separate but equal' doctrine the Supreme Court had blessed in 1896 — but it took federal troops, a decade of mass protest, and hundreds of lives to make it real\n• The Montgomery Bus Boycott lasted 381 days and was organized by a network of Black churches and women's clubs long before a 26-year-old preacher named Martin Luther King Jr. became its voice\n• The Civil Rights Act of 1964 and the Voting Rights Act of 1965 were the most important laws since Reconstruction — and both required breaking the longest filibuster in Senate history and the spine of the segregationist South\n• Within two years of the Voting Rights Act, Black registration in Mississippi went from under 7 percent to nearly 60 percent\n\n🤔 Why It Matters: This movement rewrote American law and proved that disciplined mass nonviolence by people with everything to lose could defeat an entrenched system the federal government had spent ninety years accommodating. Its tactics and language were borrowed by liberation movements from South Africa to Northern Ireland to the streets of 2020. And its unfinished business — economic inequality, segregated cities, contested voting rights — is still the country's central argument.\n\n🎲 Wild Card: When 14-year-old Emmett Till was lynched in Mississippi in 1955 and his killers acquitted in 67 minutes, it was his mother Mamie's decision to hold an open-casket funeral and let *Jet* magazine photograph her son's mutilated body that turned a private atrocity into a national reckoning. Tens of thousands filed past the casket; the movement's foot soldiers would later say they marched because they had seen that photograph.",
+  "countryIds": [
+    "840"
+  ],
+  "mapViewBox": "70 30 55 35",
+  "spans": [
+    {
+      "id": "span-civil-rights-era-runway",
+      "label": "The Long Runway",
+      "startYear": 1929,
+      "endYear": 1954,
+      "wikiSlug": "African-American_history",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Reconstruction's promise of citizenship and the vote had been crushed by 1877 and replaced by Jim Crow segregation and disfranchisement. The Great Depression hit Black America hardest; the New Deal helped unevenly and often along segregated lines."
+        },
+        {
+          "label": "What Happened",
+          "text": "The second Great Migration carried millions north to wartime factory jobs. The Double-V campaign, the Tuskegee Airmen, A. Philip Randolph's threatened march, and Truman's 1948 desegregation of the military pushed civil rights onto the national agenda, while the NAACP's lawyers built the case-by-case attack on segregation that would reach the Supreme Court."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The legal and political groundwork laid between the Depression and 1954 was the runway. Charles Hamilton Houston and Thurgood Marshall's litigation strategy turned the courts into a weapon, setting up the decision that opened the era."
+        }
+      ]
+    },
+    {
+      "id": "span-civil-rights-era-brown-montgomery",
+      "label": "Brown and the Boycott",
+      "startYear": 1954,
+      "endYear": 1960,
+      "wikiSlug": "Brown_v._Board_of_Education",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Brown v. Board of Education declared school segregation unconstitutional in 1954, and the white South answered with Massive Resistance and the Southern Manifesto."
+        },
+        {
+          "label": "What Happened",
+          "text": "The murder of Emmett Till, the Montgomery Bus Boycott, the rise of Martin Luther King Jr. and the SCLC, the Little Rock Nine, and the first weak federal civil rights acts since Reconstruction defined the movement's opening phase."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Brown was a legal earthquake with almost no immediate enforcement. The boycott proved that organized mass action by ordinary Black people, rooted in the church, could win where the courts alone could not."
+        }
+      ]
+    },
+    {
+      "id": "span-civil-rights-era-direct-action",
+      "label": "The Direct-Action Years",
+      "startYear": 1960,
+      "endYear": 1963,
+      "wikiSlug": "Civil_rights_movement",
+      "details": [
+        {
+          "label": "Background",
+          "text": "A new generation of students, impatient with the pace of litigation, took the struggle into the streets and lunch counters."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Greensboro and Nashville sit-ins, the founding of SNCC, the Freedom Rides, the Albany Movement's failure, James Meredith at Ole Miss, the Birmingham campaign and the Children's Crusade, the church bombing, Medgar Evers's murder, and the March on Washington carried the movement to its moral peak."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "Direct action put bodies on the line in front of television cameras, forcing a reluctant federal government to choose sides and making civil rights the central question of national politics."
+        }
+      ]
+    },
+    {
+      "id": "span-civil-rights-era-legislative-breakthrough",
+      "label": "The Legislative Breakthrough",
+      "startYear": 1963,
+      "endYear": 1965,
+      "wikiSlug": "Civil_Rights_Act_of_1964",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Kennedy's assassination handed the civil rights bill to Lyndon Johnson, a Texan who turned all his Senate mastery to passing it."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Civil Rights Act of 1964 broke the longest filibuster in Senate history. Freedom Summer, the murder of Chaney, Goodman, and Schwerner, the Mississippi Freedom Democratic Party challenge, Selma and Bloody Sunday, and the Voting Rights Act of 1965 followed in barely two years."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "These were the most consequential laws since Reconstruction. They dismantled de jure segregation and re-enfranchised the Black South, redeeming the Fourteenth and Fifteenth Amendments after nearly a century of betrayal."
+        }
+      ]
+    },
+    {
+      "id": "span-civil-rights-era-black-power",
+      "label": "Watts, Black Power, and the Turn North",
+      "startYear": 1965,
+      "endYear": 1968,
+      "wikiSlug": "Black_Power_movement",
+      "details": [
+        {
+          "label": "Background",
+          "text": "Days after the Voting Rights Act, Watts exploded, exposing the limits of laws that did not touch poverty, police violence, or the segregated Northern city."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Chicago Freedom Movement, the birth of the Black Power slogan on the Meredith March, the radicalization of SNCC and CORE, Malcolm X's assassination, the Black Panther Party, COINTELPRO, the Newark and Detroit uprisings, the Kerner Report, King's turn against the Vietnam War and toward economic justice, the Poor People's Campaign, and his assassination in Memphis."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The post-1965 years exposed how much the legal victories had not changed. The movement fractured over strategy, ideology, and a war, and King died trying to take it from civil rights to economic justice."
+        }
+      ]
+    },
+    {
+      "id": "span-civil-rights-era-aftermath",
+      "label": "The Second Reconstruction's Afterlife",
+      "startYear": 1968,
+      "endYear": 1975,
+      "wikiSlug": "Civil_rights_movement",
+      "details": [
+        {
+          "label": "Background",
+          "text": "King's death, the 1968 riots, and Nixon's Southern Strategy closed the movement's heroic phase and opened the era of backlash."
+        },
+        {
+          "label": "What Happened",
+          "text": "The Fair Housing Act, Loving v. Virginia, the busing battles of Green and Swann, the Philadelphia Plan and Griggs, affirmative action, Shirley Chisholm's presidential run, and the long argument over what the movement had and had not won."
+        },
+        {
+          "label": "The Bigger Picture",
+          "text": "The Second Reconstruction, unlike the first, was not violently overthrown — but its gains were narrowed, its memory sanitized, and its economic agenda abandoned. The arc back to 1865 frames the whole story."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-cre-great-depression-black",
+      "label": "Depression Hits Black America First",
+      "year": 1932.0,
+      "description": "The Great Depression devastated Black Americans, who were fired before white workers under a 'last hired, first fired' rule and excluded from many relief programs. Black unemployment in some cities exceeded 50 percent.",
+      "wikiSlug": "Great_Depression",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-new-deal-mixed",
+      "label": "The New Deal's Mixed Record",
+      "year": 1935.0,
+      "description": "New Deal programs delivered real relief but were often administered along segregated lines, and key labor and Social Security laws excluded farm and domestic workers, the categories most Black Southerners worked in. The shift of Black voters from Republican to Democrat began here.",
+      "wikiSlug": "New_Deal",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-naacp-founded-context",
+      "label": "The NAACP's Long Campaign",
+      "year": 1930.0,
+      "description": "The National Association for the Advancement of Colored People, founded in 1909, built a national legal and lobbying machine. By the 1930s it had committed to a deliberate, decades-long courtroom assault on segregation.",
+      "wikiSlug": "NAACP",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-houston-strategy",
+      "label": "Charles Hamilton Houston's Legal Strategy",
+      "year": 1935.0,
+      "description": "Howard Law School dean Charles Hamilton Houston designed the strategy to dismantle segregation by attacking 'separate but equal' where it was most expensive to maintain: graduate and professional schools. He trained the lawyers, including Thurgood Marshall, who would win Brown.",
+      "wikiSlug": "Charles_Hamilton_Houston",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-second-great-migration",
+      "label": "The Second Great Migration Begins",
+      "year": 1940.0,
+      "description": "Wartime industrial jobs pulled a second, larger wave of Black Southerners north and west. Roughly five million people moved between 1940 and 1970, reshaping the cities the Northern movement would later confront.",
+      "wikiSlug": "Second_Great_Migration_(African_American)",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-randolph-march-threat",
+      "label": "Randolph's Threatened March, 1941",
+      "year": 1941.5,
+      "description": "Labor leader A. Philip Randolph threatened a mass march on Washington in 1941 unless defense industries desegregated. To prevent it, Roosevelt issued Executive Order 8802 banning discrimination in defense work and creating the Fair Employment Practice Committee.",
+      "wikiSlug": "A._Philip_Randolph",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-fepc",
+      "label": "The Fair Employment Practice Committee",
+      "year": 1941.55,
+      "description": "The FEPC was the first federal agency since Reconstruction charged with attacking racial discrimination in employment. Weak and underfunded, it nonetheless established a federal precedent and was killed by a Southern filibuster in 1946.",
+      "wikiSlug": "Fair_Employment_Practice_Committee",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-double-v",
+      "label": "The Double-V Campaign",
+      "year": 1942.1,
+      "description": "The Black press, led by the Pittsburgh Courier, launched the Double-V campaign: victory over fascism abroad and victory over racism at home. It framed Black wartime service as a claim on full citizenship.",
+      "wikiSlug": "Double_V_campaign",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-tuskegee-airmen",
+      "label": "The Tuskegee Airmen",
+      "year": 1943.0,
+      "description": "The all-Black fighter pilots trained at Tuskegee, Alabama flew combat missions in Europe with a distinguished record, refuting the military's official position that Black men lacked the aptitude to fly.",
+      "wikiSlug": "Tuskegee_Airmen",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-1943-riots",
+      "label": "The 1943 Riots",
+      "year": 1943.5,
+      "description": "Wartime racial violence erupted in Detroit, Harlem, and Mobile as Black migration, housing shortages, and job competition collided with white resistance. The Detroit riot killed 34 people and required federal troops.",
+      "wikiSlug": "1943_Detroit_race_riot",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-smith-v-allwright",
+      "label": "Smith v. Allwright",
+      "year": 1944.3,
+      "description": "The Supreme Court struck down the all-white Democratic primary in Texas, ruling that excluding Black voters from the only election that mattered in the one-party South violated the Fifteenth Amendment. It was one of the NAACP's most important pre-Brown wins.",
+      "wikiSlug": "Smith_v._Allwright",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-gaines",
+      "label": "Missouri ex rel. Gaines v. Canada",
+      "year": 1938.9,
+      "description": "The Supreme Court ruled that Missouri could not deny a Black applicant a legal education by offering to pay his tuition out of state. It was the first major crack in the graduate-school segregation wall the NAACP was attacking.",
+      "wikiSlug": "Missouri_ex_rel._Gaines_v._Canada",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-sweatt",
+      "label": "Sweatt v. Painter",
+      "year": 1950.45,
+      "description": "The Supreme Court ruled that a hastily created Black law school in Texas was not equal to the University of Texas, attacking intangible factors like reputation and faculty. With McLaurin, it set the doctrinal stage for Brown.",
+      "wikiSlug": "Sweatt_v._Painter",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-mclaurin",
+      "label": "McLaurin v. Oklahoma State Regents",
+      "year": 1950.46,
+      "description": "The Supreme Court ruled that a Black graduate student forced to sit in a roped-off section of classrooms was being denied equal education, undermining the logic of 'separate but equal' from within.",
+      "wikiSlug": "McLaurin_v._Oklahoma_State_Regents",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-jackie-robinson",
+      "label": "Jackie Robinson Breaks the Color Line",
+      "year": 1947.3,
+      "description": "Jackie Robinson integrated Major League Baseball with the Brooklyn Dodgers, becoming one of the most visible Black Americans in the country and a daily public test of integration's promise.",
+      "wikiSlug": "Jackie_Robinson",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-truman-military",
+      "label": "Truman Desegregates the Military",
+      "year": 1948.55,
+      "description": "President Harry Truman issued Executive Order 9981 ordering equal treatment and opportunity in the armed forces, beginning the desegregation of the largest federal institution. He acted partly under pressure from Randolph and the Black vote.",
+      "wikiSlug": "Executive_Order_9981",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-to-secure-rights",
+      "label": "To Secure These Rights",
+      "year": 1947.8,
+      "description": "Truman's civil rights committee issued a landmark report condemning segregation and lynching and recommending federal action. It put civil rights on the national Democratic agenda and helped split the party.",
+      "wikiSlug": "To_Secure_These_Rights",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-dixiecrats",
+      "label": "The Dixiecrat Revolt",
+      "year": 1948.6,
+      "description": "Southern Democrats walked out of the 1948 convention over a civil rights plank and ran Strom Thurmond as a States' Rights 'Dixiecrat.' It was an early signal that the white South's loyalty to the Democratic Party was conditional on segregation.",
+      "wikiSlug": "Dixiecrat",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-shelley-v-kraemer",
+      "label": "Shelley v. Kraemer",
+      "year": 1948.35,
+      "description": "The Supreme Court ruled that courts could not enforce racially restrictive covenants, the private contracts that barred Black families from white neighborhoods. Enforcement gaps meant housing segregation persisted by other means.",
+      "wikiSlug": "Shelley_v._Kraemer",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-thurgood-marshall",
+      "label": "Thurgood Marshall",
+      "year": 1940.0,
+      "endYear": 1961.0,
+      "description": "As head of the NAACP Legal Defense Fund, Marshall argued and won the cases that dismantled legal segregation, including Brown. He later became the first Black justice of the Supreme Court.",
+      "wikiSlug": "Thurgood_Marshall",
+      "tier": 1,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-ldf-doll-study",
+      "label": "The Clark Doll Studies",
+      "year": 1947.0,
+      "description": "Psychologists Kenneth and Mamie Clark's experiments, in which Black children preferred white dolls, were cited by the Supreme Court in Brown as evidence that segregation harmed children's self-image. It was an early, contested use of social science in constitutional law.",
+      "wikiSlug": "Doll_experiments",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-brown-v-board",
+      "label": "Brown v. Board of Education",
+      "year": 1954.37,
+      "description": "A unanimous Supreme Court ruled that segregated public schools were inherently unequal and unconstitutional, overturning the 1896 'separate but equal' doctrine of Plessy v. Ferguson. It was the legal hinge of the entire era.",
+      "wikiSlug": "Brown_v._Board_of_Education",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-earl-warren",
+      "label": "Chief Justice Earl Warren",
+      "year": 1953.8,
+      "endYear": 1969.5,
+      "description": "Earl Warren, appointed chief justice in 1953, forged the unanimous Brown decision and led a Court that became, for two decades, an active engine of civil rights and civil liberties.",
+      "wikiSlug": "Earl_Warren",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-brown-ii",
+      "label": "Brown II and 'All Deliberate Speed'",
+      "year": 1955.4,
+      "description": "In its 1955 implementation ruling the Court ordered desegregation 'with all deliberate speed,' a deliberately vague phrase the South read as permission to delay indefinitely. Enforcement would take federal troops and a decade of protest.",
+      "wikiSlug": "Brown_v._Board_of_Education",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-southern-manifesto",
+      "label": "The Southern Manifesto",
+      "year": 1956.2,
+      "description": "Nearly every Southern member of Congress signed a 1956 manifesto denouncing Brown and pledging resistance. It gave Massive Resistance the cover of official legitimacy.",
+      "wikiSlug": "Southern_Manifesto",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-massive-resistance",
+      "label": "Massive Resistance",
+      "year": 1956.5,
+      "description": "Virginia and other Southern states adopted laws to defund or close any school that integrated, and in Prince Edward County closed public schools entirely for five years rather than desegregate. It was Jim Crow's organized counterattack.",
+      "wikiSlug": "Massive_resistance",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-white-citizens-councils",
+      "label": "The White Citizens' Councils",
+      "year": 1955.0,
+      "description": "Founded after Brown, the Councils used economic pressure, firing and evicting Black activists, rather than open violence. They were called the 'uptown Klan' and spread across the South.",
+      "wikiSlug": "White_Citizens%27_Council",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-emmett-till",
+      "label": "The Murder of Emmett Till",
+      "year": 1955.64,
+      "description": "Fourteen-year-old Emmett Till, visiting from Chicago, was abducted, tortured, and murdered in Mississippi for allegedly offending a white woman. His killers were acquitted by an all-white jury in 67 minutes and later confessed for money.",
+      "wikiSlug": "Murder_of_Emmett_Till",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-mamie-till",
+      "label": "Mamie Till and the Open Casket",
+      "year": 1955.66,
+      "description": "Mamie Till-Mobley insisted on an open-casket funeral and let the Black press photograph her son's mutilated body. The images, seen by millions, turned a Mississippi lynching into a national moral crisis.",
+      "wikiSlug": "Mamie_Till",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-baton-rouge-boycott",
+      "label": "The Baton Rouge Bus Boycott",
+      "year": 1953.45,
+      "description": "A 1953 boycott of segregated buses in Baton Rouge, Louisiana, organized by T. J. Jemison, pioneered the carpool system and the mass-meeting model that Montgomery would adopt two years later.",
+      "wikiSlug": "Baton_Rouge_bus_boycott",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-rosa-parks",
+      "label": "Rosa Parks",
+      "year": 1955.92,
+      "description": "Rosa Parks, a longtime NAACP secretary and trained activist, refused to give up her bus seat in Montgomery on December 1, 1955. Her arrest, far from a spontaneous act of tired feet, was the catalyst the local movement had been waiting for.",
+      "wikiSlug": "Rosa_Parks",
+      "tier": 1,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-claudette-colvin",
+      "label": "Claudette Colvin",
+      "year": 1955.2,
+      "description": "Fifteen-year-old Claudette Colvin was arrested for refusing to give up her bus seat nine months before Parks. Movement leaders chose not to build a case around her, a decision that reveals how carefully the boycott was engineered.",
+      "wikiSlug": "Claudette_Colvin",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-montgomery-boycott",
+      "label": "The Montgomery Bus Boycott",
+      "year": 1955.95,
+      "endYear": 1956.95,
+      "description": "Montgomery's Black population boycotted city buses for 381 days, organized through churches and the Women's Political Council and sustained by an elaborate volunteer carpool. It was the movement's first sustained mass victory.",
+      "wikiSlug": "Montgomery_bus_boycott",
+      "tier": 1,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-mia",
+      "label": "The Montgomery Improvement Association",
+      "year": 1955.93,
+      "description": "The MIA was created to run the boycott and chose the new 26-year-old pastor Martin Luther King Jr. as its president, partly because he was too new in town to have made enemies. It launched his public career.",
+      "wikiSlug": "Montgomery_Improvement_Association",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-jo-ann-robinson",
+      "label": "Jo Ann Robinson and the Women's Political Council",
+      "year": 1955.94,
+      "description": "Jo Ann Robinson and the Women's Political Council mimeographed and distributed tens of thousands of boycott leaflets overnight after Parks's arrest. The boycott's logistics were largely women's work.",
+      "wikiSlug": "Jo_Ann_Robinson",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-mlk",
+      "label": "Martin Luther King Jr.",
+      "year": 1955.93,
+      "endYear": 1968.27,
+      "description": "King became the movement's most powerful orator and symbol, articulating a philosophy of nonviolent direct action drawn from the Black church, Gandhi, and the Social Gospel. His later turn to economic justice and the Vietnam War complicated the sanitized memory.",
+      "wikiSlug": "Martin_Luther_King_Jr.",
+      "tier": 1,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-browder-v-gayle",
+      "label": "Browder v. Gayle",
+      "year": 1956.85,
+      "description": "The Supreme Court affirmed a ruling that bus segregation was unconstitutional, the legal victory that actually ended the Montgomery boycott. It established that Brown's logic extended beyond schools.",
+      "wikiSlug": "Browder_v._Gayle",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-sclc-founded",
+      "label": "The SCLC Is Founded",
+      "year": 1957.1,
+      "description": "King and other Black ministers founded the Southern Christian Leadership Conference in 1957 to coordinate nonviolent campaigns through the network of Black churches. The church was the movement's organizational engine.",
+      "wikiSlug": "Southern_Christian_Leadership_Conference",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-bayard-rustin",
+      "label": "Bayard Rustin",
+      "year": 1956.3,
+      "endYear": 1963.65,
+      "description": "Bayard Rustin, a Quaker pacifist and brilliant organizer, taught King Gandhian nonviolence and engineered the March on Washington. As an openly gay man with a Communist past, he was kept in the background.",
+      "wikiSlug": "Bayard_Rustin",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-ella-baker",
+      "label": "Ella Baker",
+      "year": 1957.5,
+      "endYear": 1965.0,
+      "description": "Ella Baker, a veteran organizer who ran the SCLC's early operations, distrusted charismatic leadership and championed grassroots, participatory democracy. She midwifed SNCC and shaped the movement's bottom-up wing.",
+      "wikiSlug": "Ella_Baker",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-tallahassee-boycott",
+      "label": "The Tallahassee Bus Boycott",
+      "year": 1956.4,
+      "description": "Inspired by Montgomery, Black residents of Tallahassee, Florida boycotted segregated buses through 1956, one of several parallel local movements that showed Montgomery was a model, not an exception.",
+      "wikiSlug": "Tallahassee_bus_boycott",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-autherine-lucy",
+      "label": "Autherine Lucy at Alabama",
+      "year": 1956.1,
+      "description": "Autherine Lucy became the first Black student admitted to the University of Alabama in 1956, was met by riots, and was expelled within days on a pretext. It showed how fragile court-ordered integration was without enforcement.",
+      "wikiSlug": "Autherine_Lucy",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-little-rock-nine",
+      "label": "The Little Rock Nine",
+      "year": 1957.7,
+      "description": "Nine Black students integrated Little Rock's Central High School after Governor Orval Faubus used the National Guard to block them. President Eisenhower sent the 101st Airborne to enforce the court order, the first federal troops sent South for Black rights since Reconstruction.",
+      "wikiSlug": "Little_Rock_Nine",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-faubus",
+      "label": "Governor Orval Faubus",
+      "year": 1957.68,
+      "description": "Arkansas governor Orval Faubus called out the National Guard to block desegregation at Little Rock, manufacturing a constitutional crisis and a template for Southern governors performing defiance for white voters.",
+      "wikiSlug": "Orval_Faubus",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-eisenhower-101st",
+      "label": "Eisenhower Sends the 101st Airborne",
+      "year": 1957.72,
+      "description": "A reluctant President Eisenhower federalized the Arkansas Guard and deployed the 101st Airborne to escort the Little Rock Nine, establishing that the federal government would, when forced, use the army to enforce court orders.",
+      "wikiSlug": "Dwight_D._Eisenhower",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-civil-rights-act-1957",
+      "label": "The Civil Rights Act of 1957",
+      "year": 1957.65,
+      "description": "The first federal civil rights law since Reconstruction created a Civil Rights Commission and a Justice Department division but was gutted by Southern senators into near-meaninglessness. Senate leader Lyndon Johnson engineered the watered-down compromise.",
+      "wikiSlug": "Civil_Rights_Act_of_1957",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-civil-rights-act-1960",
+      "label": "The Civil Rights Act of 1960",
+      "year": 1960.35,
+      "description": "A second weak law added federal oversight of voting records but again failed to dismantle the machinery of disfranchisement. The toothlessness of the 1957 and 1960 acts pushed the movement toward direct action.",
+      "wikiSlug": "Civil_Rights_Act_of_1960",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-strom-thurmond-filibuster",
+      "label": "Thurmond's 24-Hour Filibuster",
+      "year": 1957.63,
+      "description": "Senator Strom Thurmond held the floor for 24 hours and 18 minutes against the 1957 act, the longest one-man filibuster in Senate history. A filibuster is the tactic of talking a bill to death to block a vote.",
+      "wikiSlug": "Strom_Thurmond",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-greensboro-sit-ins",
+      "label": "The Greensboro Sit-Ins",
+      "year": 1960.09,
+      "description": "Four Black college students sat at a whites-only Woolworth's lunch counter in Greensboro, North Carolina, refusing to leave. Within two months sit-ins had spread to dozens of cities, launching the student phase of the movement.",
+      "wikiSlug": "Greensboro_sit-ins",
+      "tier": 1,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-nashville-movement",
+      "label": "The Nashville Sit-In Movement",
+      "year": 1960.15,
+      "description": "Nashville students trained by James Lawson in nonviolent discipline ran the most organized sit-in campaign and desegregated the city's lunch counters. It produced a generation of leaders including Diane Nash and John Lewis.",
+      "wikiSlug": "Nashville_sit-ins",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-james-lawson",
+      "label": "James Lawson's Nonviolence Workshops",
+      "year": 1959.8,
+      "description": "James Lawson, a divinity student who had studied Gandhi in India, ran the workshops that trained Nashville's students in the theory and practice of nonviolent resistance. He was the movement's leading tactical theologian.",
+      "wikiSlug": "James_Lawson_(activist)",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-sncc-founded",
+      "label": "SNCC Is Founded",
+      "year": 1960.3,
+      "description": "At a conference convened by Ella Baker, students formed the Student Nonviolent Coordinating Committee as an independent, decentralized organization. SNCC became the movement's boldest and most radical organizing force.",
+      "wikiSlug": "Student_Nonviolent_Coordinating_Committee",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-core",
+      "label": "CORE and the Sit-In Tradition",
+      "year": 1960.0,
+      "description": "The Congress of Racial Equality, founded in 1942 and committed to interracial nonviolent direct action, had pioneered sit-ins in the 1940s and now helped lead the Freedom Rides. It was one of the era's 'Big Five' organizations.",
+      "wikiSlug": "Congress_of_Racial_Equality",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-diane-nash",
+      "label": "Diane Nash",
+      "year": 1960.16,
+      "endYear": 1965.2,
+      "description": "Diane Nash, a Nashville student leader, helped found SNCC, kept the Freedom Rides alive when CORE wanted to stop, and helped conceive the Selma voting-rights campaign. She was one of the movement's most fearless strategists.",
+      "wikiSlug": "Diane_Nash",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-john-lewis",
+      "label": "John Lewis",
+      "year": 1961.4,
+      "endYear": 1965.2,
+      "description": "John Lewis, a SNCC founder and chairman, was beaten on the Freedom Rides and had his skull fractured on Bloody Sunday at Selma. He embodied the movement's nonviolent discipline and its physical cost.",
+      "wikiSlug": "John_Lewis",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-boynton-v-virginia",
+      "label": "Boynton v. Virginia",
+      "year": 1960.95,
+      "description": "The Supreme Court ruled that segregation in interstate bus terminals was illegal. CORE designed the Freedom Rides specifically to test whether the federal government would enforce this ruling in the Deep South.",
+      "wikiSlug": "Boynton_v._Virginia",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-freedom-rides",
+      "label": "The Freedom Rides",
+      "year": 1961.36,
+      "description": "Interracial volunteers rode buses into the Deep South to test desegregation of terminals, deliberately inviting the violence that would force federal intervention. They were beaten, firebombed, and jailed by the hundreds.",
+      "wikiSlug": "Freedom_Riders",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-anniston-bus",
+      "label": "The Anniston Bus Burning",
+      "year": 1961.37,
+      "description": "A white mob in Anniston, Alabama firebombed a Freedom Ride bus and beat the riders as they escaped. The photograph of the burning bus circled the world and exposed the violence the movement was provoking by design.",
+      "wikiSlug": "Freedom_Riders",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-kennedys-civil-rights",
+      "label": "The Kennedys and Civil Rights",
+      "year": 1961.4,
+      "description": "President John F. Kennedy and Attorney General Robert Kennedy treated civil rights initially as a political liability and a Cold War embarrassment, intervening reluctantly and pressing activists to slow down. Their hand was repeatedly forced by movement crises.",
+      "wikiSlug": "John_F._Kennedy",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-albany-movement",
+      "label": "The Albany Movement",
+      "year": 1962.0,
+      "description": "The 1961–62 campaign in Albany, Georgia failed: a shrewd sheriff avoided televised brutality and made mass arrests without spectacle. The defeat taught the SCLC to choose targets where the violence would be visible.",
+      "wikiSlug": "Albany_Movement",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-laurie-pritchett",
+      "label": "Sheriff Laurie Pritchett's Strategy",
+      "year": 1962.05,
+      "description": "Albany's police chief Laurie Pritchett studied King's methods, arrested protesters without visible violence, and arranged King's bail to deny the movement a martyr. He proved nonviolent direct action could be neutralized by disciplined restraint.",
+      "wikiSlug": "Laurie_Pritchett",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-james-meredith-ole-miss",
+      "label": "James Meredith at Ole Miss",
+      "year": 1962.75,
+      "description": "Air Force veteran James Meredith integrated the University of Mississippi under federal court order in 1962. A white riot killed two people and required some 30,000 federal troops and marshals to suppress.",
+      "wikiSlug": "James_Meredith",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-ross-barnett",
+      "label": "Governor Ross Barnett's Defiance",
+      "year": 1962.73,
+      "description": "Mississippi governor Ross Barnett personally blocked Meredith's registration and inflamed the mob, the most extreme gubernatorial defiance since Faubus. The Ole Miss riot showed Massive Resistance shading into insurrection.",
+      "wikiSlug": "Ross_Barnett",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-birmingham-campaign",
+      "label": "The Birmingham Campaign",
+      "year": 1963.29,
+      "description": "The SCLC chose Birmingham, the most segregated city in America, precisely because its police commissioner would supply televised brutality. Project C deliberately filled the jails and provoked the confrontation.",
+      "wikiSlug": "Birmingham_campaign",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-bull-connor",
+      "label": "'Bull' Connor's Fire Hoses",
+      "year": 1963.34,
+      "description": "Birmingham public safety commissioner Eugene 'Bull' Connor turned fire hoses and police dogs on child marchers. The images, broadcast nationally and worldwide, did more than any speech to force federal civil rights legislation.",
+      "wikiSlug": "Bull_Connor",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-childrens-crusade",
+      "label": "The Children's Crusade",
+      "year": 1963.35,
+      "description": "When adult volunteers ran low, Birmingham organizers sent thousands of schoolchildren to march and be arrested. Filling the jails with children was a calculated and controversial tactic that broke the campaign open.",
+      "wikiSlug": "Children%27s_Crusade_(1963)",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-letter-birmingham",
+      "label": "Letter from Birmingham Jail",
+      "year": 1963.3,
+      "description": "Written in the margins of a newspaper in solitary confinement, King's open letter answered white moderate clergy and laid out the moral case for civil disobedience and the impatience of 'wait.' It became the era's central text.",
+      "wikiSlug": "Letter_from_Birmingham_Jail",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-kennedy-civil-rights-speech",
+      "label": "Kennedy's Civil Rights Address",
+      "year": 1963.45,
+      "description": "Forced by Birmingham and the Alabama schoolhouse-door standoff, Kennedy delivered a televised speech framing civil rights as a moral issue and proposing the bill that became the Civil Rights Act of 1964.",
+      "wikiSlug": "Report_to_the_American_People_on_Civil_Rights",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-medgar-evers",
+      "label": "The Murder of Medgar Evers",
+      "year": 1963.45,
+      "description": "Mississippi NAACP field secretary Medgar Evers was shot in his driveway hours after Kennedy's speech. His assassin was acquitted by two hung juries and not convicted until 1994, a 31-year emblem of Mississippi impunity.",
+      "wikiSlug": "Medgar_Evers",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-march-on-washington",
+      "label": "The March on Washington",
+      "year": 1963.63,
+      "description": "Some 250,000 people gathered at the Lincoln Memorial on August 28, 1963, in a march for 'Jobs and Freedom' conceived by A. Philip Randolph and organized by Bayard Rustin. It was the movement's moral high-water mark.",
+      "wikiSlug": "March_on_Washington_for_Jobs_and_Freedom",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-i-have-a-dream",
+      "label": "'I Have a Dream'",
+      "year": 1963.64,
+      "description": "King's closing speech at the march, its famous passage largely improvised, became the most quoted American speech of the century, and later the cornerstone of a sanitized memory that erased his radicalism.",
+      "wikiSlug": "I_Have_a_Dream",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-a-philip-randolph-march",
+      "label": "A. Philip Randolph",
+      "year": 1963.6,
+      "description": "Randolph, the elder statesman of the Black labor movement who had threatened a march in 1941, finally convened the 1963 March on Washington, insisting that economic justice ('Jobs') stand alongside civil rights ('Freedom').",
+      "wikiSlug": "A._Philip_Randolph",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-16th-street-bombing",
+      "label": "The 16th Street Baptist Church Bombing",
+      "year": 1963.71,
+      "description": "Klansmen bombed a Birmingham church on a Sunday morning, killing four girls: Addie Mae Collins, Denise McNair, Carole Robertson, and Cynthia Wesley. The murder of children stripped away any remaining doubt about the stakes.",
+      "wikiSlug": "16th_Street_Baptist_Church_bombing",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-jfk-assassination",
+      "label": "The Kennedy Assassination",
+      "year": 1963.89,
+      "description": "Kennedy's murder in Dallas put Lyndon Johnson, a Texan with unmatched Senate skill, in the White House. Johnson immediately committed his presidency to passing the stalled civil rights bill as a memorial.",
+      "wikiSlug": "Assassination_of_John_F._Kennedy",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-lbj",
+      "label": "Lyndon B. Johnson",
+      "year": 1963.89,
+      "endYear": 1969.05,
+      "description": "Johnson used total command of the Senate to pass the Civil Rights and Voting Rights Acts and the Great Society, then watched the Vietnam War destroy his coalition and presidency. His role is the era's central paradox.",
+      "wikiSlug": "Lyndon_B._Johnson",
+      "tier": 1,
+      "category": "rulers",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-civil-rights-act-1964",
+      "label": "The Civil Rights Act of 1964",
+      "year": 1964.5,
+      "description": "The landmark law banned segregation in public accommodations and discrimination in employment by race, color, religion, sex, or national origin, and authorized the federal government to sue. It dismantled de jure segregation.",
+      "wikiSlug": "Civil_Rights_Act_of_1964",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-1964-filibuster",
+      "label": "The 54-Day Filibuster and Cloture",
+      "year": 1964.45,
+      "description": "Southern senators filibustered the 1964 bill for 54 working days. The Senate broke it by invoking cloture, the rule ending debate, for the first time ever on a civil rights bill, with crucial Republican votes.",
+      "wikiSlug": "Civil_Rights_Act_of_1964",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-everett-dirksen",
+      "label": "Dirksen and the Republican Votes",
+      "year": 1964.46,
+      "description": "Senate Republican leader Everett Dirksen delivered the votes that broke the filibuster, declaring civil rights 'an idea whose time has come.' Passage required a bipartisan coalition against the Southern Democratic bloc.",
+      "wikiSlug": "Everett_Dirksen",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-heart-of-atlanta",
+      "label": "Heart of Atlanta Motel v. United States",
+      "year": 1964.95,
+      "description": "The Supreme Court unanimously upheld the public-accommodations title of the 1964 act under the Commerce Clause, closing off the constitutional challenge the South had counted on. The law would stand.",
+      "wikiSlug": "Heart_of_Atlanta_Motel,_Inc._v._United_States",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-freedom-summer",
+      "label": "Freedom Summer",
+      "year": 1964.5,
+      "description": "Roughly a thousand mostly white Northern volunteers joined SNCC organizers in Mississippi to register voters and run Freedom Schools, deliberately drawing national attention to the most violent state in the South.",
+      "wikiSlug": "Freedom_Summer",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-chaney-goodman-schwerner",
+      "label": "Chaney, Goodman, and Schwerner",
+      "year": 1964.47,
+      "description": "Three Freedom Summer workers, James Chaney, Andrew Goodman, and Michael Schwerner, were abducted and murdered by Klansmen and police in Mississippi. The six-week search and the involvement of two white Northerners brought unprecedented federal attention.",
+      "wikiSlug": "Murders_of_Chaney,_Goodman,_and_Schwerner",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-mfdp",
+      "label": "The Mississippi Freedom Democratic Party",
+      "year": 1964.62,
+      "description": "Locked out of the all-white state party, Black Mississippians built the MFDP and sent a rival delegation to challenge the seating of the regular Democrats at the 1964 Atlantic City convention.",
+      "wikiSlug": "Mississippi_Freedom_Democratic_Party",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-fannie-lou-hamer",
+      "label": "Fannie Lou Hamer",
+      "year": 1964.63,
+      "description": "A Mississippi sharecropper beaten for trying to register, Fannie Lou Hamer testified for the MFDP on national television: 'Is this America?' Her speech, which Johnson tried to bury, embodied the movement's grassroots core.",
+      "wikiSlug": "Fannie_Lou_Hamer",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-atlantic-city-1964",
+      "label": "The Atlantic City Compromise",
+      "year": 1964.64,
+      "description": "Johnson and liberal allies offered the MFDP two at-large seats; the party rejected the token deal. For many SNCC activists, Atlantic City was the moment they stopped believing the system could be worked from inside.",
+      "wikiSlug": "1964_Democratic_National_Convention",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-mlk-nobel",
+      "label": "King Wins the Nobel Peace Prize",
+      "year": 1964.83,
+      "description": "At 35 the youngest laureate to that point, King accepted the 1964 Nobel Peace Prize as a trustee for the movement's foot soldiers. International prestige raised his profile and the FBI's hostility in equal measure.",
+      "wikiSlug": "Martin_Luther_King_Jr.",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-fbi-king-letter",
+      "label": "The FBI's War on King",
+      "year": 1964.9,
+      "description": "J. Edgar Hoover's FBI wiretapped King, compiled tapes of his private life, and mailed him an anonymous letter widely read as urging him to commit suicide. It was COINTELPRO's most notorious operation.",
+      "wikiSlug": "FBI%E2%80%93King_suicide_letter",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-j-edgar-hoover",
+      "label": "J. Edgar Hoover",
+      "year": 1956.0,
+      "endYear": 1971.0,
+      "description": "FBI director J. Edgar Hoover regarded the movement as a Communist front and King as a personal enemy, running surveillance and disruption operations against it for over a decade. He is the era's chief antagonist inside the federal government.",
+      "wikiSlug": "J._Edgar_Hoover",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-cointelpro",
+      "label": "COINTELPRO",
+      "year": 1956.5,
+      "endYear": 1971.0,
+      "description": "The FBI's Counter Intelligence Program infiltrated, discredited, and disrupted civil rights and Black Power organizations, escalating from surveillance to provocation and, in the Panther case, complicity in killings.",
+      "wikiSlug": "COINTELPRO",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-24th-amendment",
+      "label": "The 24th Amendment Bans the Poll Tax",
+      "year": 1964.1,
+      "description": "Ratified in 1964, the 24th Amendment outlawed the poll tax in federal elections. A poll tax was a fee required to vote, used across the South to price poor Black citizens out of the franchise.",
+      "wikiSlug": "Twenty-fourth_Amendment_to_the_United_States_Constitution",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-malcolm-x",
+      "label": "Malcolm X",
+      "year": 1954.0,
+      "endYear": 1965.14,
+      "description": "Malcolm X, the Nation of Islam's most electrifying spokesman, articulated Black self-defense, separatism, and pride as a militant alternative to integrationist nonviolence. His critique shaped the coming generation more than his organization ever did.",
+      "wikiSlug": "Malcolm_X",
+      "tier": 1,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-nation-of-islam",
+      "label": "The Nation of Islam",
+      "year": 1955.0,
+      "endYear": 1965.0,
+      "description": "Under Elijah Muhammad the Nation of Islam preached Black separatism, self-discipline, and economic self-sufficiency from a heterodox religious base. It was the most visible institutional rejection of the integrationist program.",
+      "wikiSlug": "Nation_of_Islam",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-malcolm-break",
+      "label": "Malcolm X Breaks with the Nation",
+      "year": 1964.2,
+      "description": "Silenced and disillusioned, Malcolm X left the Nation of Islam in 1964, made the hajj to Mecca, embraced orthodox Sunni Islam, and began moving toward a human-rights internationalism just as he was killed.",
+      "wikiSlug": "Malcolm_X",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-malcolm-assassination",
+      "label": "The Assassination of Malcolm X",
+      "year": 1965.14,
+      "description": "Malcolm X was shot dead in a Harlem ballroom by Nation of Islam gunmen in February 1965. His Autobiography, published months later, made him a posthumous icon of Black radicalism.",
+      "wikiSlug": "Assassination_of_Malcolm_X",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-autobiography-malcolm-x",
+      "label": "The Autobiography of Malcolm X",
+      "year": 1965.8,
+      "description": "Co-written with Alex Haley and published after his death, the Autobiography became one of the most influential American books of the century and a foundational text of Black Power.",
+      "wikiSlug": "The_Autobiography_of_Malcolm_X",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-selma-campaign",
+      "label": "The Selma Voting-Rights Campaign",
+      "year": 1965.15,
+      "description": "SNCC and the SCLC chose Selma, Alabama, where almost no Black citizens were registered, to dramatize disfranchisement and force a federal voting-rights law. It was strategy, not accident, that the violence happened there.",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-jimmie-lee-jackson",
+      "label": "The Killing of Jimmie Lee Jackson",
+      "year": 1965.13,
+      "description": "Jimmie Lee Jackson, a young deacon, was shot by an Alabama state trooper during a night march in Marion. His death was the immediate spark for the Selma-to-Montgomery march.",
+      "wikiSlug": "Jimmie_Lee_Jackson",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-bloody-sunday",
+      "label": "Bloody Sunday",
+      "year": 1965.18,
+      "description": "On March 7, 1965, state troopers and a posse beat marchers, including John Lewis, on the Edmund Pettus Bridge. Broadcast that night, the footage produced the national revulsion that the campaign had been designed to elicit.",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "tier": 1,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-turnaround-tuesday",
+      "label": "'Turnaround Tuesday'",
+      "year": 1965.19,
+      "description": "Two days later King led a second march to the bridge, then turned the column around rather than defy a federal injunction, an injunction being a court order to stop an action. The decision angered SNCC and exposed the strategy fault lines.",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-selma-montgomery-march",
+      "label": "The March to Montgomery",
+      "year": 1965.21,
+      "description": "Under federal protection, thousands completed the 54-mile march from Selma to the Alabama capitol, where King delivered the 'How Long? Not Long' speech. It was the movement's last great unified triumph.",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-viola-liuzzo",
+      "label": "The Murder of Viola Liuzzo",
+      "year": 1965.22,
+      "description": "Viola Liuzzo, a white Detroit volunteer ferrying marchers, was shot dead by Klansmen, one of whom was an FBI informant. The FBI then smeared her reputation, a stark illustration of the bureau's hostility.",
+      "wikiSlug": "Viola_Liuzzo",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-lbj-we-shall-overcome",
+      "label": "Johnson's 'We Shall Overcome' Speech",
+      "year": 1965.2,
+      "description": "Eight days after Bloody Sunday, Johnson addressed Congress, called disfranchisement a national wrong, and adopted the movement's anthem, telling the country 'we shall overcome.' He then sent up the voting-rights bill.",
+      "wikiSlug": "We_Shall_Overcome_(speech)",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-voting-rights-act",
+      "label": "The Voting Rights Act of 1965",
+      "year": 1965.62,
+      "description": "The act suspended literacy tests and sent federal examiners to register voters, with a preclearance rule freezing election-law changes in covered states. It finally enforced the Fifteenth Amendment, 95 years after its ratification.",
+      "wikiSlug": "Voting_Rights_Act_of_1965",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-vra-impact",
+      "label": "The Voting Rights Act Transforms the South",
+      "year": 1967.0,
+      "description": "Black registration in Mississippi rose from under 7 percent to nearly 60 percent within two years, and thousands of Black officials were elected over the next decade. It was the era's most measurable structural change.",
+      "wikiSlug": "Voting_Rights_Act_of_1965",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-watts-uprising",
+      "label": "The Watts Uprising",
+      "year": 1965.62,
+      "description": "Five days after the Voting Rights Act, six days of unrest in the Watts section of Los Angeles left 34 dead. It signaled that Southern legal victories had not touched the segregated, over-policed Northern city.",
+      "wikiSlug": "Watts_riots",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-moynihan-report",
+      "label": "The Moynihan Report",
+      "year": 1965.6,
+      "description": "Daniel Patrick Moynihan's leaked government report on the Black family ignited a bitter fight over whether to emphasize structural racism or family structure. It reframed the debate just as the movement turned north.",
+      "wikiSlug": "The_Negro_Family:_The_Case_for_National_Action",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-great-society",
+      "label": "The Great Society and the War on Poverty",
+      "year": 1965.4,
+      "description": "Johnson's Great Society created Medicare, Medicaid, Head Start, food stamps, and federal aid to schools, cutting poverty sharply. Its anti-poverty agencies became contested terrain between Washington and local Black activists.",
+      "wikiSlug": "Great_Society",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-chicago-freedom-movement",
+      "label": "The Chicago Freedom Movement",
+      "year": 1966.5,
+      "description": "King brought the SCLC north in 1966 to attack housing segregation and slum conditions in Chicago. Marches into white neighborhoods drew mobs more violent than anything in the South, and the campaign produced no comparable victory.",
+      "wikiSlug": "Chicago_Freedom_Movement",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-open-housing",
+      "label": "The Chicago Open-Housing Marches",
+      "year": 1966.6,
+      "description": "Marchers in Marquette Park and Gage Park were stoned by white crowds; King said he had never seen mobs as hostile as in Chicago. The North's de facto segregation proved harder to dramatize than the South's de jure system.",
+      "wikiSlug": "Chicago_Freedom_Movement",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-meredith-march",
+      "label": "The Meredith March Against Fear",
+      "year": 1966.45,
+      "description": "After James Meredith was shot on a solo march through Mississippi, the major organizations continued it. The march became the public stage on which Black Power was born.",
+      "wikiSlug": "March_Against_Fear",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-black-power-slogan",
+      "label": "'Black Power'",
+      "year": 1966.46,
+      "description": "On the Meredith March, SNCC chairman Stokely Carmichael led the chant 'Black Power,' instantly polarizing the movement and the press. The slogan crystallized a turn from integration toward self-determination.",
+      "wikiSlug": "Black_Power",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-stokely-carmichael",
+      "label": "Stokely Carmichael",
+      "year": 1966.4,
+      "endYear": 1968.0,
+      "description": "Stokely Carmichael (later Kwame Ture), a Freedom Rider and SNCC chairman, popularized Black Power and pushed SNCC toward Black self-organization and away from interracial nonviolence.",
+      "wikiSlug": "Stokely_Carmichael",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-sncc-radicalizes",
+      "label": "SNCC Expels Its White Members",
+      "year": 1966.9,
+      "description": "SNCC voted in 1966–67 to become a Black-led organization and ask white members to organize in white communities. The split with the interracial liberal coalition was now formal.",
+      "wikiSlug": "Student_Nonviolent_Coordinating_Committee",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-lowndes-county",
+      "label": "The Lowndes County Freedom Organization",
+      "year": 1966.0,
+      "description": "SNCC organizers in Lowndes County, Alabama built an independent Black political party whose ballot symbol, a black panther, was borrowed by Oakland militants. It modeled Black political self-determination.",
+      "wikiSlug": "Lowndes_County_Freedom_Organization",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-black-panther-party",
+      "label": "The Black Panther Party",
+      "year": 1966.79,
+      "description": "Huey Newton and Bobby Seale founded the Black Panther Party in Oakland in 1966, pairing armed copwatching with a Ten-Point Program and survival programs. It became the era's most mythologized and most surveilled organization.",
+      "wikiSlug": "Black_Panther_Party",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-panther-breakfast",
+      "label": "The Panthers' Free Breakfast Program",
+      "year": 1969.0,
+      "description": "The Panthers fed tens of thousands of children daily through Free Breakfast for Children, the survival program Hoover called the greatest internal threat to the country. The community programs, not the guns, frightened the FBI most.",
+      "wikiSlug": "Free_Breakfast_for_Children",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-fred-hampton",
+      "label": "The Killing of Fred Hampton",
+      "year": 1969.93,
+      "description": "Chicago police, acting on FBI intelligence and with an informant in place, killed Panther leader Fred Hampton in his bed in a predawn raid in 1969. It became the clearest case of COINTELPRO complicity in a death.",
+      "wikiSlug": "Fred_Hampton",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-newark-1967",
+      "label": "The Newark Uprising",
+      "year": 1967.5,
+      "description": "Six days of unrest in Newark in July 1967, triggered by a police beating, killed 26 people. It was one of the largest of the more than 150 disorders that swept American cities in the 'long hot summer' of 1967.",
+      "wikiSlug": "1967_Newark_riots",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-detroit-1967",
+      "label": "The Detroit Uprising",
+      "year": 1967.55,
+      "description": "The July 1967 Detroit rebellion left 43 dead and required federal paratroopers, the deadliest urban uprising of the decade. It made unmistakable that the crisis was national and economic, not just Southern and legal.",
+      "wikiSlug": "1967_Detroit_riot",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-kerner-commission",
+      "label": "The Kerner Commission Report",
+      "year": 1968.15,
+      "description": "Johnson's commission concluded the country was 'moving toward two societies, one black, one white, separate and unequal,' and blamed white racism. Johnson, stung, largely shelved its recommendations.",
+      "wikiSlug": "Kerner_Commission",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-loving-v-virginia",
+      "label": "Loving v. Virginia",
+      "year": 1967.46,
+      "description": "The Supreme Court struck down state bans on interracial marriage, ruling for Richard and Mildred Loving. It removed one of the last explicit legal pillars of white supremacy.",
+      "wikiSlug": "Loving_v._Virginia",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-thurgood-marshall-scotus",
+      "label": "Thurgood Marshall Joins the Supreme Court",
+      "year": 1967.7,
+      "description": "Johnson appointed Thurgood Marshall, the lawyer who had won Brown, as the first Black Supreme Court justice in 1967. The man who had argued the cases would now help decide them.",
+      "wikiSlug": "Thurgood_Marshall",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-mlk-vietnam",
+      "label": "King's 'Beyond Vietnam' Speech",
+      "year": 1967.28,
+      "description": "At Riverside Church, King condemned the Vietnam War and named the United States 'the greatest purveyor of violence in the world today,' linking racism, militarism, and poverty. The press, the White House, and many allies turned on him.",
+      "wikiSlug": "Beyond_Vietnam:_A_Time_to_Break_Silence",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-vietnam-burden",
+      "label": "The Disproportionate Burden of Vietnam",
+      "year": 1966.0,
+      "endYear": 1968.0,
+      "description": "Black soldiers, often without the deferments available to college-bound white men, died in Vietnam at rates well above their share of the population early in the war. The war drained money and moral focus from the domestic agenda.",
+      "wikiSlug": "African_Americans_in_the_Vietnam_War",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-muhammad-ali",
+      "label": "Muhammad Ali Refuses Induction",
+      "year": 1967.32,
+      "description": "Heavyweight champion Muhammad Ali refused the draft on religious and political grounds and was stripped of his title and convicted. He became the most famous figure linking the Black freedom struggle to the antiwar movement.",
+      "wikiSlug": "Muhammad_Ali",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-poor-peoples-campaign",
+      "label": "The Poor People's Campaign",
+      "year": 1968.3,
+      "description": "King's last project aimed to bring a multiracial poor people's encampment to Washington to demand an economic bill of rights. It marked his explicit shift from civil rights to economic justice and class.",
+      "wikiSlug": "Poor_People%27s_Campaign",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-memphis-sanitation-strike",
+      "label": "The Memphis Sanitation Strike",
+      "year": 1968.2,
+      "description": "Memphis Black sanitation workers struck under the banner 'I Am a Man' after two were crushed in a garbage truck. King went to support them, fusing civil rights, labor, and economic dignity in his final campaign.",
+      "wikiSlug": "Memphis_sanitation_strike",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-mountaintop-speech",
+      "label": "'I've Been to the Mountaintop'",
+      "year": 1968.26,
+      "description": "On April 3, 1968, King delivered his last speech in Memphis, ending with a near-premonition of his death. He was assassinated the next evening.",
+      "wikiSlug": "I%27ve_Been_to_the_Mountaintop",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-mlk-assassination",
+      "label": "The Assassination of Martin Luther King Jr.",
+      "year": 1968.27,
+      "description": "King was shot dead on the balcony of the Lorraine Motel in Memphis on April 4, 1968. He was 39. His death broke the movement's center and triggered the largest wave of urban unrest in American history.",
+      "wikiSlug": "Assassination_of_Martin_Luther_King_Jr.",
+      "tier": 1,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-holy-week-uprising",
+      "label": "The Holy Week Uprising",
+      "year": 1968.28,
+      "description": "King's murder set off unrest in more than 100 cities; Washington, Baltimore, and Chicago burned, and federal troops occupied the capital. It was the largest single wave of civil disorder since the Civil War.",
+      "wikiSlug": "King_assassination_riots",
+      "tier": 2,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-lorraine-motel",
+      "label": "The Lorraine Motel",
+      "year": 1968.27,
+      "description": "The Memphis motel where King was killed became, decades later, the National Civil Rights Museum, the era's central site of memory and a focus of debate over how the movement is remembered.",
+      "wikiSlug": "National_Civil_Rights_Museum",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-fair-housing-act",
+      "label": "The Fair Housing Act of 1968",
+      "year": 1968.28,
+      "description": "Passed within a week of King's assassination after years of stalling, the Fair Housing Act banned discrimination in the sale and rental of housing. It was the last major civil rights statute of the era.",
+      "wikiSlug": "Civil_Rights_Act_of_1968",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-rfk-assassination",
+      "label": "The Assassination of Robert Kennedy",
+      "year": 1968.43,
+      "description": "Robert Kennedy, who had announced King's death to a Black crowd in Indianapolis and was campaigning on poverty and racial reconciliation, was assassinated in June 1968. His death deepened the year's sense of collapse.",
+      "wikiSlug": "Assassination_of_Robert_F._Kennedy",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-resurrection-city",
+      "label": "Resurrection City",
+      "year": 1968.42,
+      "description": "After King's death, the Poor People's Campaign built a tent encampment, Resurrection City, on the National Mall. Rain, disorganization, and grief made it a dispiriting coda, and it was cleared by police.",
+      "wikiSlug": "Poor_People%27s_Campaign",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-1968-election",
+      "label": "The 1968 Election",
+      "year": 1968.84,
+      "description": "Richard Nixon won a three-way race against Hubert Humphrey and the segregationist George Wallace, whose 13 percent showed the size of the white backlash vote Nixon set out to capture.",
+      "wikiSlug": "1968_United_States_presidential_election",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-george-wallace",
+      "label": "George Wallace",
+      "year": 1963.1,
+      "endYear": 1972.4,
+      "description": "Alabama governor George Wallace, who proclaimed 'segregation forever' and stood in the schoolhouse door, ran nationally in 1964, 1968, and 1972, proving the backlash had a Northern as well as a Southern audience.",
+      "wikiSlug": "George_Wallace",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-southern-strategy",
+      "label": "Nixon's Southern Strategy",
+      "year": 1968.85,
+      "description": "Nixon courted disaffected white Southern and ethnic voters with coded appeals to 'law and order' and opposition to busing, completing the regional party realignment Brown and the Civil Rights Act had begun.",
+      "wikiSlug": "Southern_strategy",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-green-v-county",
+      "label": "Green v. County School Board",
+      "year": 1968.4,
+      "description": "The Supreme Court ruled in 1968 that 'freedom of choice' plans were not enough and that school boards had an affirmative duty to dismantle dual systems 'root and branch.' It finally put teeth in Brown, fourteen years late.",
+      "wikiSlug": "Green_v._County_School_Board_of_New_Kent_County",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-swann-busing",
+      "label": "Swann v. Charlotte-Mecklenburg",
+      "year": 1971.31,
+      "description": "The Supreme Court unanimously upheld court-ordered busing to integrate schools. Busing became the most explosive issue of the 1970s, igniting white resistance in Boston and across the North.",
+      "wikiSlug": "Swann_v._Charlotte-Mecklenburg_Board_of_Education",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-boston-busing",
+      "label": "The Boston Busing Crisis",
+      "year": 1974.7,
+      "description": "Court-ordered busing in Boston in 1974–75 met sustained white violence, showing that the de facto segregation of the Northern city was as fiercely defended as the South's had been.",
+      "wikiSlug": "Desegregation_busing_in_Boston",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-milliken-v-bradley",
+      "label": "Milliken v. Bradley",
+      "year": 1974.55,
+      "description": "The Supreme Court ruled 5–4 that busing could not cross city–suburb lines absent proof of deliberate suburban segregation. The decision effectively walled off the white suburbs and capped school integration.",
+      "wikiSlug": "Milliken_v._Bradley",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-griggs-v-duke",
+      "label": "Griggs v. Duke Power Co.",
+      "year": 1971.18,
+      "description": "The Supreme Court ruled that employment practices that screen out Black workers and are not job-related violate the 1964 act even without discriminatory intent. 'Disparate impact' became a key civil rights legal tool.",
+      "wikiSlug": "Griggs_v._Duke_Power_Co.",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-philadelphia-plan",
+      "label": "The Philadelphia Plan",
+      "year": 1969.7,
+      "description": "The Nixon administration's 1969 Philadelphia Plan imposed minority hiring goals on federally funded construction, an early form of affirmative action. Affirmative action's complicated political paternity began here.",
+      "wikiSlug": "Philadelphia_Plan",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-affirmative-action",
+      "label": "Executive Order 11246 and Affirmative Action",
+      "year": 1965.71,
+      "description": "Johnson's 1965 order required federal contractors to take 'affirmative action' against discrimination, the policy lineage that would dominate the next half-century's argument over how to remedy centuries of exclusion.",
+      "wikiSlug": "Executive_Order_11246",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-shirley-chisholm",
+      "label": "Shirley Chisholm Runs for President",
+      "year": 1972.4,
+      "description": "Shirley Chisholm, the first Black woman in Congress, ran for the Democratic presidential nomination in 1972, 'unbought and unbossed.' Her campaign marked Black political power moving from protest to electoral ambition.",
+      "wikiSlug": "Shirley_Chisholm",
+      "tier": 2,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-congressional-black-caucus",
+      "label": "The Congressional Black Caucus",
+      "year": 1971.05,
+      "description": "Thirteen Black members of Congress formed the Congressional Black Caucus in 1971 to act as a collective force. It institutionalized the electoral power the Voting Rights Act had created.",
+      "wikiSlug": "Congressional_Black_Caucus",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-gary-convention",
+      "label": "The Gary Convention",
+      "year": 1972.2,
+      "description": "The 1972 National Black Political Convention in Gary, Indiana drew thousands to debate a Black political agenda. It captured both the new electoral confidence and the ideological splits left by Black Power.",
+      "wikiSlug": "1972_National_Black_Political_Convention",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-angela-davis",
+      "label": "Angela Davis",
+      "year": 1970.7,
+      "endYear": 1972.45,
+      "description": "Communist and activist Angela Davis became a global cause after being charged in a courthouse shootout and acquitted in 1972. Her case linked the Black freedom struggle, the prison movement, and the international left.",
+      "wikiSlug": "Angela_Davis",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-attica",
+      "label": "The Attica Prison Uprising",
+      "year": 1971.71,
+      "description": "The 1971 Attica uprising and its bloody suppression, in which the state killed dozens, made prisons a front in the Black freedom struggle and an emblem of the era's unfinished radical agenda.",
+      "wikiSlug": "Attica_Prison_uprising",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-black-liberation-theology",
+      "label": "Black Liberation Theology",
+      "year": 1969.5,
+      "description": "Theologian James Cone published 'Black Theology and Black Power,' arguing the gospel demanded the liberation of the oppressed. It gave the church wing of Black Power an intellectual framework.",
+      "wikiSlug": "Black_theology",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-black-church-engine",
+      "label": "The Black Church as the Movement's Engine",
+      "year": 1956.0,
+      "description": "The independent Black church supplied the movement's buildings, money, mass meetings, music, and a leadership class beyond white economic control. It was the single most important institution of the freedom struggle.",
+      "wikiSlug": "Black_church",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-highlander",
+      "label": "The Highlander Folk School",
+      "year": 1955.5,
+      "description": "The Highlander Folk School in Tennessee trained activists, including Rosa Parks, and helped spread 'We Shall Overcome.' Citizenship Schools growing from it taught literacy and the franchise across the South.",
+      "wikiSlug": "Highlander_Research_and_Education_Center",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-septima-clark",
+      "label": "Septima Clark and the Citizenship Schools",
+      "year": 1961.5,
+      "description": "Septima Clark built the Citizenship School program that taught tens of thousands of Black Southerners to read well enough to register and vote. King called her the 'mother of the movement'; she is one of its great unsung architects.",
+      "wikiSlug": "Septima_Poinsette_Clark",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-freedom-songs",
+      "label": "The Freedom Songs",
+      "year": 1962.5,
+      "description": "Adapted from spirituals and labor songs, freedom songs like 'We Shall Overcome' and 'Ain't Gonna Let Nobody Turn Me Around' held mass meetings together and steadied marchers facing violence. The movement sang itself into being.",
+      "wikiSlug": "Music_of_the_civil_rights_movement",
+      "tier": 2,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-sncc-freedom-singers",
+      "label": "The SNCC Freedom Singers",
+      "year": 1962.8,
+      "description": "The SNCC Freedom Singers toured the country performing freedom songs to raise money and tell the movement's story. Music was an organizing tool, not a soundtrack.",
+      "wikiSlug": "Freedom_Singers",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-motown",
+      "label": "Motown Records",
+      "year": 1959.04,
+      "description": "Berry Gordy's Motown, founded in Detroit in 1959, built a Black-owned cultural empire whose 'Sound of Young America' crossed the color line on the radio while the streets were still segregated.",
+      "wikiSlug": "Motown",
+      "tier": 2,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-sam-cooke",
+      "label": "Sam Cooke's 'A Change Is Gonna Come'",
+      "year": 1964.95,
+      "description": "Moved by Dylan and by being turned away from a segregated motel, Sam Cooke recorded 'A Change Is Gonna Come,' released after his death in 1964. It became an enduring anthem of the freedom struggle.",
+      "wikiSlug": "A_Change_Is_Gonna_Come",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-nina-simone",
+      "label": "Nina Simone's 'Mississippi Goddam'",
+      "year": 1964.0,
+      "description": "After the Birmingham church bombing, Nina Simone wrote 'Mississippi Goddam,' a furious break with the movement's patient public voice. Her music gave the rising anger an art form.",
+      "wikiSlug": "Mississippi_Goddam",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-television",
+      "label": "Television and the Movement",
+      "year": 1963.0,
+      "description": "Network television, which reached most American homes by the early 1960s, carried Birmingham's dogs and Selma's clubs into living rooms nationwide. The movement's strategists understood and exploited the new medium with precision.",
+      "wikiSlug": "Civil_rights_movement_in_popular_culture",
+      "tier": 2,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-jet-magazine",
+      "label": "Jet, the Defender, and the Black Press",
+      "year": 1955.65,
+      "description": "Jet magazine, the Chicago Defender, and the Pittsburgh Courier carried news white papers ignored, including the Till photographs, and connected a national Black readership long before television. The Black press was the movement's nervous system.",
+      "wikiSlug": "Jet_(magazine)",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-mississippi-freedom-schools",
+      "label": "The Freedom Schools",
+      "year": 1964.52,
+      "description": "Freedom Summer's Freedom Schools taught Black Mississippi children Black history, civics, and the literacy the state's schools deliberately withheld. They were a parallel education system built by the movement.",
+      "wikiSlug": "Freedom_Schools",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-cooper-v-aaron",
+      "label": "Cooper v. Aaron",
+      "year": 1958.7,
+      "description": "Responding to Little Rock, a unanimous Supreme Court declared in 1958 that no state official could nullify a federal constitutional ruling, echoing the supremacy battles of Reconstruction and the 1830s.",
+      "wikiSlug": "Cooper_v._Aaron",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-bombingham",
+      "label": "'Bombingham' and Klan Terror",
+      "year": 1958.0,
+      "endYear": 1965.0,
+      "description": "Birmingham saw so many unsolved bombings of Black homes and churches that it was nicknamed 'Bombingham.' Klan and police terror was a sustained campaign, not a series of isolated incidents.",
+      "wikiSlug": "Birmingham,_Alabama",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-urban-renewal",
+      "label": "Urban Renewal and 'Negro Removal'",
+      "year": 1960.0,
+      "description": "Federal urban-renewal and highway programs bulldozed thriving Black neighborhoods in cities across the country, a process James Baldwin called 'Negro removal.' The segregated landscape was built by policy, not accident.",
+      "wikiSlug": "Urban_renewal",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-interstate-highways",
+      "label": "Highways Through Black Neighborhoods",
+      "year": 1956.46,
+      "description": "The 1956 Interstate Highway Act funded expressways routinely routed through Black districts, displacing hundreds of thousands and hardening residential segregation. The physical city was a civil rights battlefield.",
+      "wikiSlug": "Interstate_Highway_System",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-redlining",
+      "label": "Redlining and the Segregated Landscape",
+      "year": 1950.0,
+      "description": "Federally backed mortgage maps marked Black neighborhoods in red as ineligible for loans, channeling postwar wealth to white suburbs and locking Black families out of the era's great asset boom. De facto segregation had a paper trail.",
+      "wikiSlug": "Redlining",
+      "tier": 2,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-hud-weaver",
+      "label": "HUD and Robert Weaver",
+      "year": 1966.0,
+      "description": "Johnson created the Department of Housing and Urban Development in 1965 and named Robert Weaver its head, the first Black member of a presidential cabinet, even as federal housing policy kept reinforcing segregation.",
+      "wikiSlug": "Robert_C._Weaver",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-de-jure-de-facto",
+      "label": "De Jure Versus De Facto Segregation",
+      "year": 1965.0,
+      "description": "The South's segregation was de jure, written into law and beatable in court; the North's was de facto, produced by housing, lending, and policing without a statute to strike down. The distinction explains why the movement stalled when it went north.",
+      "wikiSlug": "Racial_segregation_in_the_United_States",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-economic-boycott-weapon",
+      "label": "The Boycott as Economic Weapon",
+      "year": 1960.5,
+      "description": "From Montgomery's buses to 'Don't Buy Where You Can't Work' and Operation Breadbasket, the movement repeatedly used Black consumer and labor power as leverage. Economics, not only morality, moved segregationist business.",
+      "wikiSlug": "Operation_Breadbasket",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-jesse-jackson",
+      "label": "Jesse Jackson and Operation Breadbasket",
+      "year": 1966.7,
+      "description": "Jesse Jackson ran the SCLC's Operation Breadbasket, pressuring companies to hire and bank with Black communities. He carried the economic-justice strand of King's program into the 1970s.",
+      "wikiSlug": "Jesse_Jackson",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-african-decolonization",
+      "label": "African Decolonization",
+      "year": 1960.0,
+      "description": "Seventeen African nations became independent in 1960 alone. The global retreat of white colonial rule shamed Cold War America and gave Black Americans an internationalist frame for their own struggle.",
+      "wikiSlug": "Decolonisation_of_Africa",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-cold-war-pressure",
+      "label": "The Cold War and Civil Rights",
+      "year": 1957.0,
+      "description": "Soviet propaganda made Little Rock and Birmingham global embarrassments, and the State Department itself argued that segregation was a Cold War liability. Geopolitics quietly pushed reluctant presidents toward action.",
+      "wikiSlug": "Cold_War",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-baldwin-fire",
+      "label": "James Baldwin's 'The Fire Next Time'",
+      "year": 1963.05,
+      "description": "James Baldwin's 1963 book-length essay forced white readers to feel the psychic cost of American racism. It made him the era's most influential literary witness and a bridge between the movement and Black radicalism.",
+      "wikiSlug": "The_Fire_Next_Time",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-ralph-abernathy",
+      "label": "Ralph Abernathy",
+      "year": 1955.93,
+      "endYear": 1968.4,
+      "description": "Ralph Abernathy was King's closest friend and lieutenant and led the SCLC after his death, carrying the Poor People's Campaign through Resurrection City. He embodied the movement's continuity and its decline.",
+      "wikiSlug": "Ralph_Abernathy",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-roy-wilkins",
+      "label": "Roy Wilkins and the NAACP",
+      "year": 1955.0,
+      "endYear": 1968.0,
+      "description": "Roy Wilkins led the NAACP through the era, championing the legal and legislative strategy and clashing with the direct-action and Black Power wings. He represented the movement's institutional, gradualist center.",
+      "wikiSlug": "Roy_Wilkins",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-whitney-young",
+      "label": "Whitney Young and the Urban League",
+      "year": 1961.0,
+      "endYear": 1969.0,
+      "description": "Whitney Young led the National Urban League, working the corporate and government inside track for jobs and his 'domestic Marshall Plan.' He was the movement's negotiator with white power.",
+      "wikiSlug": "Whitney_Young",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-james-farmer",
+      "label": "James Farmer and CORE",
+      "year": 1961.35,
+      "endYear": 1966.0,
+      "description": "James Farmer, who launched the Freedom Rides as CORE's director, was one of the 'Big Six' leaders. CORE's later turn toward Black Power tracked the movement's broader radicalization.",
+      "wikiSlug": "James_Farmer",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-bob-moses",
+      "label": "Bob Moses in Mississippi",
+      "year": 1961.6,
+      "endYear": 1964.6,
+      "description": "Bob Moses ran SNCC's Mississippi voter project, a slow, dangerous, grassroots campaign that built the local leadership behind Freedom Summer and the MFDP. He embodied Ella Baker's leaderless model.",
+      "wikiSlug": "Bob_Moses_(activist)",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-medgar-evers-naacp",
+      "label": "The Mississippi NAACP Network",
+      "year": 1955.0,
+      "endYear": 1963.0,
+      "description": "Medgar Evers, Amzie Moore, Aaron Henry, and other local NAACP leaders kept an organizing infrastructure alive in the most dangerous state for years before the students arrived. The famous campaigns rested on this hidden base.",
+      "wikiSlug": "Medgar_Evers",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-daisy-bates",
+      "label": "Daisy Bates and Little Rock",
+      "year": 1957.69,
+      "description": "Daisy Bates, head of the Arkansas NAACP and a newspaper publisher, guided and protected the Little Rock Nine through the crisis. The era's local women leaders rarely got the era's headlines.",
+      "wikiSlug": "Daisy_Bates_(activist)",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-pauli-murray",
+      "label": "Pauli Murray",
+      "year": 1956.0,
+      "endYear": 1965.0,
+      "description": "Pauli Murray, lawyer, poet, and theorist, coined 'Jane Crow' for the double bind of Black women, and her legal arguments shaped both civil rights and sex-discrimination law. She is among the movement's most underrecognized intellects.",
+      "wikiSlug": "Pauli_Murray",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-dorothy-height",
+      "label": "Dorothy Height",
+      "year": 1957.0,
+      "endYear": 1968.0,
+      "description": "Dorothy Height led the National Council of Negro Women and was the lone woman among the era's recognized 'leaders,' though kept off the March on Washington program. Women organized the movement and were largely written out of its memory.",
+      "wikiSlug": "Dorothy_Height",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-women-of-the-movement",
+      "label": "The Women Who Ran the Movement",
+      "year": 1962.0,
+      "description": "Ella Baker, Septima Clark, Fannie Lou Hamer, Diane Nash, Jo Ann Robinson, Daisy Bates, and thousands of unnamed women supplied most of the movement's day-to-day organizing while men took the podiums. Recovering them has reshaped the field.",
+      "wikiSlug": "Women_in_the_civil_rights_movement",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-poll-tax-literacy",
+      "label": "Poll Taxes and Literacy Tests",
+      "year": 1954.0,
+      "description": "Poll taxes, literacy tests, grandfather clauses, and 'understanding' clauses were the machinery the white South had built after Reconstruction to strip Black citizens of the vote the Fifteenth Amendment guaranteed. Dismantling it was the era's central legal project.",
+      "wikiSlug": "Voter_suppression_in_the_United_States",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-jim-crow-system",
+      "label": "The Jim Crow System",
+      "year": 1954.0,
+      "description": "Jim Crow was the comprehensive legal and customary regime of segregation, disfranchisement, and racial terror the white South constructed after the 1877 collapse of Reconstruction. The era's target was this system, not isolated prejudice.",
+      "wikiSlug": "Jim_Crow_laws",
+      "tier": 1,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-plessy-ferguson",
+      "label": "The Shadow of Plessy v. Ferguson",
+      "year": 1954.1,
+      "description": "The 1896 Plessy v. Ferguson ruling had blessed 'separate but equal,' giving Jim Crow its constitutional cover for 58 years. Brown's first task was to bury Plessy.",
+      "wikiSlug": "Plessy_v._Ferguson",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-14th-15th-amendments",
+      "label": "The Broken Promise of the 14th and 15th Amendments",
+      "year": 1954.05,
+      "description": "Reconstruction's Fourteenth and Fifteenth Amendments had guaranteed equal protection and the vote in 1868 and 1870, then been nullified in practice by 1900. The civil rights movement was, in legal terms, the campaign to finally enforce them.",
+      "wikiSlug": "Reconstruction_Amendments",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-second-reconstruction",
+      "label": "The 'Second Reconstruction'",
+      "year": 1965.0,
+      "description": "Historians call the movement the Second Reconstruction: a second federal attempt to make Black Americans equal citizens, ninety years after the first was abandoned. The framing is the spine that ties the era back to 1865–77.",
+      "wikiSlug": "Civil_rights_movement",
+      "tier": 1,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-mlk-memory",
+      "label": "The Sanitizing of King's Memory",
+      "year": 1983.0,
+      "description": "After his death King was reduced in popular memory to a single dream and a federal holiday, his radicalism on war, poverty, and capitalism largely erased. Contested memory is itself part of the era's history.",
+      "wikiSlug": "Martin_Luther_King_Jr._Day",
+      "tier": 2,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-fall-of-saigon",
+      "label": "The Fall of Saigon",
+      "year": 1975.32,
+      "description": "Saigon fell in April 1975, ending the war that had drained the Great Society, split the movement, and broken Lyndon Johnson. Its end closes the era's long aftermath.",
+      "wikiSlug": "Fall_of_Saigon",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-voting-rights-1970",
+      "label": "The 1970 Voting Rights Extension",
+      "year": 1970.5,
+      "description": "Congress renewed and broadened the Voting Rights Act in 1970, and the Supreme Court upheld it, signaling that the era's keystone law would survive the backlash even as busing and affirmative action drew fire.",
+      "wikiSlug": "Voting_Rights_Act_of_1965",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-26th-amendment",
+      "label": "The 26th Amendment",
+      "year": 1971.5,
+      "description": "The 1971 amendment lowering the voting age to 18, driven by the argument that those drafted for Vietnam should vote, extended the era's franchise expansion to the young.",
+      "wikiSlug": "Twenty-sixth_Amendment_to_the_United_States_Constitution",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-orangeburg-massacre",
+      "label": "The Orangeburg Massacre",
+      "year": 1968.13,
+      "description": "Police killed three Black students at South Carolina State in February 1968, one of the deadliest and least remembered campus shootings of the era. It prefigured the militarized response to campus protest.",
+      "wikiSlug": "Orangeburg_massacre",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-jackson-state",
+      "label": "The Jackson State Killings",
+      "year": 1970.36,
+      "description": "Police killed two students at the historically Black Jackson State College in 1970, days after Kent State, but with a fraction of the national attention. The disparity itself made a point.",
+      "wikiSlug": "Jackson_State_killings",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-kent-state",
+      "label": "Kent State",
+      "year": 1970.35,
+      "description": "The National Guard's killing of four antiwar students at Kent State in 1970 fused the era's strands of protest, repression, and a war that had consumed the reform agenda.",
+      "wikiSlug": "Kent_State_shootings",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-busing-national",
+      "label": "Busing Goes National",
+      "year": 1972.0,
+      "description": "By 1972 court-ordered busing had become the country's most divisive racial issue, with Nixon and Wallace running against it and Northern cities resisting as fiercely as the South ever had.",
+      "wikiSlug": "Desegregation_busing",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-ocean-hill",
+      "label": "The Ocean Hill–Brownsville Crisis",
+      "year": 1968.7,
+      "description": "A 1968 fight over community control of schools in a Black Brooklyn district pitted Black parents against a largely Jewish teachers' union, fracturing the Black–liberal alliance in the North.",
+      "wikiSlug": "Ocean_Hill%E2%80%93Brownsville",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-poor-peoples-economic",
+      "label": "An Economic Bill of Rights",
+      "year": 1968.25,
+      "description": "King's final demand was a federal guarantee of jobs or income, decent housing, and an end to poverty for all races. That the movement ended on an economic, not legal, agenda is the heart of its unfinished business.",
+      "wikiSlug": "Poor_People%27s_Campaign",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-civil-rights-act-1968-indian",
+      "label": "The Indian Civil Rights Act",
+      "year": 1968.29,
+      "description": "Title II of the 1968 act extended most Bill of Rights protections to Native Americans under tribal government, a reminder that the era's legislation reached beyond the Black–white axis.",
+      "wikiSlug": "Indian_Civil_Rights_Act_of_1968",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-chicano-movement",
+      "label": "The Chicano and Other Movements",
+      "year": 1965.8,
+      "description": "The Black freedom struggle's tactics and language were taken up by Chicano, Native American, women's, and gay liberation movements, making it the template for a generation of American rights activism.",
+      "wikiSlug": "Chicano_Movement",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-stonewall",
+      "label": "The Stonewall Uprising",
+      "year": 1969.46,
+      "description": "The 1969 Stonewall rebellion in New York, often dated to the modern gay-rights movement, drew directly on the civil rights era's model of protest and is part of its long downstream reach.",
+      "wikiSlug": "Stonewall_riots",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-poor-peoples-mule-train",
+      "label": "The Mule Train",
+      "year": 1968.41,
+      "description": "A wagon train of mule-drawn carts carried poor Southerners to Resurrection City, a deliberate image meant to drag rural Black poverty into the national eye. The era's symbolism was conscious to the end.",
+      "wikiSlug": "Poor_People%27s_Campaign",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-emmett-till-confession",
+      "label": "The Look Magazine Confession",
+      "year": 1956.0,
+      "description": "Months after their acquittal, Till's killers sold a full confession to Look magazine, protected by double jeopardy. The open impunity was itself a recruiting poster for the movement.",
+      "wikiSlug": "Murder_of_Emmett_Till",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-prayer-pilgrimage",
+      "label": "The Prayer Pilgrimage for Freedom",
+      "year": 1957.4,
+      "description": "A 1957 gathering at the Lincoln Memorial, where King gave his 'Give Us the Ballot' speech, rehearsed the March on Washington six years early and put voting at the center of the agenda.",
+      "wikiSlug": "Prayer_Pilgrimage_for_Freedom",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-youth-march",
+      "label": "The Youth Marches for Integrated Schools",
+      "year": 1958.8,
+      "description": "Two large student marches on Washington in 1958–59 for school integration showed young people moving to the front of the movement just before the sit-ins began.",
+      "wikiSlug": "Youth_March_for_Integrated_Schools",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-jackie-robinson-naacp",
+      "label": "Black Athletes and the Movement",
+      "year": 1968.78,
+      "description": "From Jackie Robinson to the 1968 Olympic raised-fist protest by Tommie Smith and John Carlos, Black athletes became visible fronts of the struggle, and were punished for it.",
+      "wikiSlug": "1968_Olympics_Black_Power_salute",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-deacons-for-defense",
+      "label": "The Deacons for Defense",
+      "year": 1965.0,
+      "description": "Armed Black men in Louisiana formed the Deacons for Defense to protect activists and communities from Klan attack, a reminder that armed self-defense coexisted with nonviolence throughout the rural movement.",
+      "wikiSlug": "Deacons_for_Defense_and_Justice",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-robert-f-williams",
+      "label": "Robert F. Williams and 'Negroes With Guns'",
+      "year": 1962.6,
+      "description": "NAACP organizer Robert F. Williams armed his North Carolina chapter against the Klan and wrote 'Negroes With Guns,' a text that influenced the Panthers. The armed tradition predates Black Power by years.",
+      "wikiSlug": "Robert_F._Williams",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-mississippi-burning-trial",
+      "label": "The Federal Mississippi Burning Trial",
+      "year": 1967.78,
+      "description": "In 1967 a federal jury convicted seven men of civil rights violations in the Chaney–Goodman–Schwerner murders, the first such conviction in Mississippi. The state itself did not prosecute for murder until 2005.",
+      "wikiSlug": "Murders_of_Chaney,_Goodman,_and_Schwerner",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-cambridge-maryland",
+      "label": "The Cambridge Movement",
+      "year": 1963.5,
+      "description": "Gloria Richardson led a militant campaign in Cambridge, Maryland that demanded jobs and housing as well as desegregation and refused to disavow self-defense, prefiguring the movement's coming turn.",
+      "wikiSlug": "Gloria_Richardson",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-st-augustine",
+      "label": "The St. Augustine Movement",
+      "year": 1964.4,
+      "description": "Brutal violence against demonstrators in St. Augustine, Florida in mid-1964 helped push the Civil Rights Act over the finish line, a late, less-remembered companion to Birmingham.",
+      "wikiSlug": "St._Augustine_movement",
+      "tier": 3,
+      "category": "wars"
+    },
+    {
+      "id": "evt-cre-bevel-childrens",
+      "label": "James Bevel and Strategy",
+      "year": 1963.33,
+      "endYear": 1965.2,
+      "description": "James Bevel conceived the Birmingham Children's Crusade and helped initiate the Selma campaign, one of the movement's most inventive and least-credited strategists.",
+      "wikiSlug": "James_Bevel",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-andrew-young",
+      "label": "Andrew Young",
+      "year": 1961.0,
+      "endYear": 1968.4,
+      "description": "Andrew Young was a key SCLC negotiator and strategist who later became a congressman and UN ambassador, embodying the movement's path into electoral and diplomatic power.",
+      "wikiSlug": "Andrew_Young",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-coretta-scott-king",
+      "label": "Coretta Scott King",
+      "year": 1955.93,
+      "endYear": 1969.0,
+      "description": "Coretta Scott King was an activist in her own right who pushed her husband on peace and economic justice and, after his death, fought to keep the radical King from being erased. She built and partly contested his memory.",
+      "wikiSlug": "Coretta_Scott_King",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-poor-march-abernathy",
+      "label": "Resurrection City Cleared",
+      "year": 1968.46,
+      "description": "After six weeks, police cleared Resurrection City and arrested Abernathy, ending the Poor People's Campaign without the breakthrough King had envisioned. The economic phase of the movement stalled at the start.",
+      "wikiSlug": "Poor_People%27s_Campaign",
+      "tier": 3,
+      "category": "trade"
+    },
+    {
+      "id": "evt-cre-watts-aftermath",
+      "label": "The McCone Commission",
+      "year": 1965.95,
+      "description": "California's official inquiry into Watts blamed rioters and downplayed structural causes, a contrast with the later Kerner Report that showed how contested the meaning of the uprisings was.",
+      "wikiSlug": "Watts_riots",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-naacp-ldf-split",
+      "label": "The LDF and the Litigation Front",
+      "year": 1956.0,
+      "endYear": 1971.0,
+      "description": "The NAACP Legal Defense Fund, the courtroom arm Marshall built, kept winning the cases, from Brown through Green and Swann, that turned street victories into enforceable law. Litigation was a parallel campaign, not a relic.",
+      "wikiSlug": "NAACP_Legal_Defense_and_Educational_Fund",
+      "tier": 2,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-social-science-law",
+      "label": "Social Science in the Courtroom",
+      "year": 1954.36,
+      "description": "Brown's reliance on psychology and sociology opened a lasting argument over whether courts should decide constitutional questions on social-science evidence, a methodological legacy of the era.",
+      "wikiSlug": "Brown_v._Board_of_Education",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-voter-reg-data",
+      "label": "Measuring the Movement",
+      "year": 1968.0,
+      "description": "Registration statistics, the number of Black elected officials, school-integration percentages, and poverty rates became the era's hard evidence, the data by which its real, partial success can be judged.",
+      "wikiSlug": "Voting_Rights_Act_of_1965",
+      "tier": 3,
+      "category": "science"
+    },
+    {
+      "id": "evt-cre-elijah-muhammad",
+      "label": "Elijah Muhammad",
+      "year": 1955.0,
+      "endYear": 1968.0,
+      "description": "Elijah Muhammad led the Nation of Islam for decades, building a disciplined Black religious and economic organization whose theology and separatism set it sharply apart from the Christian-rooted movement.",
+      "wikiSlug": "Elijah_Muhammad",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-white-clergy",
+      "label": "White Clergy and the Movement",
+      "year": 1965.2,
+      "description": "White priests, rabbis, nuns, and ministers, like Abraham Joshua Heschel marching at Selma, joined at real cost, while King's 'Letter' had been addressed to white clergy who urged patience. Religion sat on both sides of the line.",
+      "wikiSlug": "Abraham_Joshua_Heschel",
+      "tier": 3,
+      "category": "religion"
+    },
+    {
+      "id": "evt-cre-naacp-membership-surge",
+      "label": "The Postwar NAACP Surge",
+      "year": 1946.0,
+      "description": "NAACP membership grew roughly tenfold during World War II, building the dues-paying mass base and local chapter network that the postwar campaigns would mobilize.",
+      "wikiSlug": "NAACP",
+      "tier": 3,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-isaac-woodard",
+      "label": "The Blinding of Isaac Woodard",
+      "year": 1946.15,
+      "description": "Returning Black veteran Isaac Woodard was beaten and blinded by South Carolina police in 1946. The case helped move Truman toward civil rights and showed Black servicemen would not return quietly to Jim Crow.",
+      "wikiSlug": "Isaac_Woodard",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-cicero-riot",
+      "label": "The Cicero Race Riot",
+      "year": 1951.55,
+      "description": "A white mob in Cicero, Illinois drove out a Black family in 1951, a Northern reminder that segregation by violence was not a Southern monopoly years before the movement turned north.",
+      "wikiSlug": "Cicero_race_riot_of_1951",
+      "tier": 3,
+      "category": "architecture"
+    },
+    {
+      "id": "evt-cre-poll-watch-1960-election",
+      "label": "The Black Vote and the 1960 Election",
+      "year": 1960.85,
+      "description": "Kennedy's call to Coretta Scott King while King was jailed helped swing Black votes in a razor-thin election, demonstrating that the re-enfranchising Black electorate could now decide presidencies.",
+      "wikiSlug": "1960_United_States_presidential_election",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-freedom-vote-1963",
+      "label": "The Mississippi Freedom Vote",
+      "year": 1963.8,
+      "description": "A 1963 mock election in Mississippi drew some 80,000 disfranchised Black votes, proving the desire to vote was overwhelming and laying the groundwork for Freedom Summer and the MFDP.",
+      "wikiSlug": "Freedom_Vote",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-march-on-washington-program",
+      "label": "The Big Six",
+      "year": 1963.62,
+      "description": "The March on Washington was led by the 'Big Six': Randolph, King, Wilkins, Young, Farmer, and SNCC's John Lewis, whose speech was censored on the day for being too radical, a small sign of the coming split.",
+      "wikiSlug": "March_on_Washington_for_Jobs_and_Freedom",
+      "tier": 2,
+      "category": "people"
+    },
+    {
+      "id": "evt-cre-prathia-hall",
+      "label": "Prathia Hall and the Unsung",
+      "year": 1962.7,
+      "description": "SNCC field secretary Prathia Hall, whose 'I have a dream' prayer King reportedly heard before his own speech, stands for the hundreds of local organizers history nearly lost. The movement was made of them.",
+      "wikiSlug": "Prathia_Hall",
+      "tier": 3,
+      "category": "people",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-eyes-on-the-prize",
+      "label": "Contested Memory and the Record",
+      "year": 1987.0,
+      "description": "From the documentary 'Eyes on the Prize' to a vast archive of oral histories, FBI files, and SNCC papers, the era is one of the best-documented in American history, which is exactly why its sanitized memory is contested.",
+      "wikiSlug": "Eyes_on_the_Prize",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-richard-russell",
+      "label": "Richard Russell and the Filibuster Bloc",
+      "year": 1964.4,
+      "description": "Georgia senator Richard Russell, the chamber's most respected parliamentarian and the man who had taught Johnson the Senate, led the roughly eighteen Southern Democrats against the 1964 act. He organized them into three rotating platoons so the filibuster could run around the clock for weeks without exhausting his bloc.",
+      "wikiSlug": "Richard_Russell_Jr.",
+      "tier": 2,
+      "category": "rulers",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-cloture-vote-1964",
+      "label": "The 1964 Cloture Vote",
+      "year": 1964.44,
+      "description": "On June 10, 1964, after roughly two months of filibuster, the Senate invoked cloture on a civil rights bill for the first time in history, 71 to 29, four votes past the two-thirds then required. A dying Senator Clair Engle, unable to speak, voted aye by pointing to his eye. The bill passed nine days later.",
+      "wikiSlug": "Civil_Rights_Act_of_1964",
+      "tier": 2,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-civil-rights-cases-commerce",
+      "label": "The Commerce Clause Hook",
+      "year": 1964.95,
+      "description": "Because the Supreme Court's 1883 Civil Rights Cases had held that the Fourteenth Amendment restrained only governments, not private businesses, Congress grounded the 1964 act's public-accommodations title in the Commerce Clause instead. Heart of Atlanta Motel v. United States (1964) upheld that reasoning unanimously, shutting the private-business loophole the South had counted on for eighty years.",
+      "wikiSlug": "Civil_Rights_Cases",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-howard-smith-sex-amendment",
+      "label": "The 'Sex' Amendment",
+      "year": 1964.13,
+      "description": "Virginia segregationist Representative Howard Smith added 'sex' to the 1964 act's employment title on the House floor, an amendment usually read as an attempt to make the bill ridiculous enough to fail. It passed, the bill survived, and a sabotage attempt became the foundation of American sex-discrimination law. Smith's exact motive is still debated.",
+      "wikiSlug": "Howard_W._Smith",
+      "tier": 3,
+      "category": "writing",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-monroe-williams-exile",
+      "label": "The Monroe Stand and Williams's Exile",
+      "year": 1961.5,
+      "description": "When a Klan motorcade attacked a Black doctor's home in Monroe, North Carolina, in 1957, Robert F. Williams's armed NAACP members fired back and drove it off, proving organized Black self-defense worked. The national NAACP suspended him; in 1961 he was charged with kidnapping and fled to Cuba and then China, broadcasting 'Radio Free Dixie' until the charges were dropped and he returned in 1969.",
+      "wikiSlug": "Robert_F._Williams",
+      "tier": 3,
+      "category": "wars",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-bandung-conference",
+      "label": "The Bandung Conference",
+      "year": 1955.3,
+      "description": "The 1955 Bandung Conference gathered the leaders of newly independent and soon-to-be-independent African and Asian states, crystallizing the non-aligned, mostly non-white world the United States and the Soviet Union were competing to court. American segregation, broadcast to exactly these audiences as Soviet propaganda, became a standing Cold War liability.",
+      "wikiSlug": "Bandung_Conference",
+      "tier": 3,
+      "category": "rulers"
+    },
+    {
+      "id": "evt-cre-church-committee",
+      "label": "The Church Committee Exposes COINTELPRO",
+      "year": 1975.8,
+      "description": "In 1975 and 1976 the Senate's Church Committee investigated and published the FBI's COINTELPRO operations in detail, converting what had been suspicion into documented fact: forged letters, paid informants, planted press smears, and the campaign to 'neutralize' Black movement leaders, including the anonymous letter mailed to King.",
+      "wikiSlug": "Church_Committee",
+      "tier": 3,
+      "category": "writing"
+    },
+    {
+      "id": "evt-cre-black-mayors-1973",
+      "label": "The First Black Mayors of Major Cities",
+      "year": 1973.8,
+      "description": "The Voting Rights Act's enfranchisement converted into office: in 1973 Maynard Jackson was elected the first Black mayor of Atlanta and Coleman Young the first Black mayor of Detroit, in some cases governing the very cities that had burned. Unlike busing, an officeholder was not a remedy a later court could narrow.",
+      "wikiSlug": "Maynard_Jackson",
+      "tier": 3,
+      "category": "rulers",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-mahalia-jackson-march",
+      "label": "Mahalia Jackson at the March",
+      "year": 1963.635,
+      "description": "Mahalia Jackson, the most famous gospel voice in America and a friend who had sung at movement events for years, sang at the March on Washington and, by the account of King's aide Clarence Jones, called out 'Tell them about the dream' as King spoke, prompting the improvised passage that became the century's most quoted speech.",
+      "wikiSlug": "Mahalia_Jackson",
+      "tier": 3,
+      "category": "religion",
+      "tags": ["people"]
+    },
+    {
+      "id": "evt-cre-northern-ireland-civil-rights",
+      "label": "The Movement as Global Template",
+      "year": 1968.9,
+      "description": "The Northern Ireland Civil Rights Association, founded in 1967 to protest anti-Catholic discrimination, explicitly modeled itself on the American movement and sang 'We Shall Overcome'; South Africa's ANC youth drew on the same nonviolent model before abandoning it after the 1960 Sharpeville massacre. The movement became the tactical grammar of liberation struggles worldwide.",
+      "wikiSlug": "Northern_Ireland_Civil_Rights_Association",
+      "tier": 3,
+      "category": "rulers"
+    }
+  ]
+}
