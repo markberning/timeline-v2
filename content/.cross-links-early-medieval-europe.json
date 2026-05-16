@@ -23,6 +23,30 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
       "blurb": "Cassiodorus is one of the bridging figures between late-antique Constantinople and the new western successor kingdoms — a Roman senatorial-class minister who served Theodoric while corresponding politically with Constantinople, then retired to a southern Italian monastery where he set up the program of preserving classical pagan literature alongside Christian scripture. Byzantine Empire Ch 1 covers the eastern half of the late-antique synthesis Cassiodorus inherited."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "As the western empire dissolved into Germanic kingdoms, the eastern half carried on intact from Constantinople — the Roman state did not fall in 476, it relocated."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "While the West fragmented, Sassanid Persia was at its height — the great power the surviving eastern Romans would exhaust themselves fighting."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 8,
+      "blurb": "India's Gupta golden age was ending under Hun pressure in the same generation the western Roman order collapsed — the classical world unravelling across Eurasia."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 4,
+      "blurb": "In Mesoamerica the Classic Maya were at their apogee, utterly unconnected to the Roman collapse — a reminder that 'the fall of civilization' was a local European event."
     }
   ],
   "2": [
@@ -43,6 +67,18 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
       "blurb": "The long Roman-Persian war that consumed both Justinian's last decade and his successors' resources is one of the structural reasons the Plague of Justinian was so devastating — the eastern empire was already burning through its men and treasure on the Persian frontier when the plague arrived. The Byzantine Empire narrative's third chapter treats the Roman-Persian wars and their exhaustion of both empires before the Arab onslaught."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 8,
+      "blurb": "Justinian's plague and reconquest coincide with Gupta India's final fragmentation — pandemic and political collapse hitting both ends of Eurasia."
+    },
+    {
+      "matchText": "Sui dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "As Justinian tried to restore Rome, China was about to be reunified by the Sui after centuries of division — the eastern superpower reassembling as the western one shattered."
     }
   ],
   "3": [
@@ -69,6 +105,12 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 1,
       "blurb": "The Islamic Golden Age narrative's first chapter covers the rise of Islam in seventh-century Arabia, the post-Muhammad expansion under the Rashidun and Umayyad caliphs, and the geopolitical wave that broke the eastern Mediterranean Christian world between 632 and 700. The Christian missionary infrastructure described in this chapter — Benedict, Gregory, Bede — was being built in western Europe at exactly the same decades the Arab armies were destroying the Byzantine and Sasanian-Persian states in the east."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "The Christianization of the West proceeded under the long shadow of Constantinople, whose theology, missions, and prestige set the terms even where the pope acted independently."
     }
   ],
   "4": [
@@ -101,6 +143,18 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 1,
       "blurb": "Islamic Golden Age Ch 1 covers the Abbasid Revolution of 750 from the Muslim side — the overthrow of the Umayyad caliphs, the foundation of Baghdad as the new Abbasid capital, and the survival of one Umayyad prince who escaped to Spain to found the Cordoban emirate. The Abbasid civil wars are one of the structural reasons the Umayyad northward expansion into Latin Europe paused after Tours."
+    },
+    {
+      "matchText": "al-Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "The Iberian loss of 711 opens al-Andalus — nearly eight centuries of Islamic Spain beginning where the Visigothic kingdom ended at the Guadalete."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Byzantium was fighting the same Arab wave on its own frontier — the Umayyad surge hit Constantinople and the Pyrenees in the same generation."
     }
   ],
   "5": [
@@ -147,6 +201,18 @@
       "targetTl": "maya-civilization",
       "targetChapter": 7,
       "blurb": "The Classic Maya collapse of the southern lowlands — Tikal, Palenque, Calakmul, and dozens of smaller cities all losing their court populations between roughly 800 and 900 — coincided almost exactly with the Carolingian breakup. Maya Civilization Ch 7 covers the collapse from inside the Maya world: the long drought, the warfare, the political fragmentation, and the lasting question of why an entire civilizational core abandoned itself in one century. The Carolingian disintegration is the Eurasian-side counterpart."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "As the Carolingian inheritance split at Verdun, the Abbasid Caliphate ran the richest, most learned state on earth from Baghdad — Charlemagne's heirs were provincial by comparison."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "The Macedonian Renaissance was reviving Byzantium just as Carolingian Europe fractured — the Greek east waxing as the Latin west waned."
     }
   ],
   "7": [
@@ -191,6 +257,18 @@
       "targetTl": "maya-civilization",
       "targetChapter": 7,
       "blurb": "Maya Civilization Ch 7 covers the long Maya Classic collapse of the southern lowlands during the same decades the European triple shock was unfolding — Tikal, Palenque, Calakmul, and dozens of smaller cities all losing their court populations between roughly 800 and 900. The synchronized civilizational stress on three continents in the same century is one of the structural mysteries of the medieval period."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 2,
+      "blurb": "The Viking shock that broke over Carolingian Europe is the western end of the same Norse explosion — the raids, the Danelaw, Rollo's Normandy."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "The triple shock that battered Europe coincides with the An Lushan catastrophe gutting Tang China — both classical orders reeling from mobile force at once."
     }
   ],
   "8": [
@@ -235,6 +313,18 @@
       "targetTl": "polynesian-voyagers",
       "targetChapter": 7,
       "blurb": "Polynesian Voyagers Ch 7 covers the eastern Pacific dispersal of the late Polynesian voyaging period — voyagers reaching Easter Island around 900–1000, Hawaii substantially settled by 800, and New Zealand reached during the next two centuries. The Polynesian maritime expansion is the parallel oceanic civilizational project of the early medieval period: settling perhaps a quarter of the planet's surface in double-hulled outrigger canoes during exactly the centuries the European Atlantic was being knit together by Viking longships and Frankish coastal kingdoms."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "The Ottonian recovery and the Christianization of the north are the same process the Norse story tells from inside — Scandinavia entering Latin Christendom."
+    },
+    {
+      "matchText": "Polynesian voyagers",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 3,
+      "blurb": "Around the year 1000, as Ottonian Europe stabilized, Polynesians were completing the settlement of the remotest Pacific — Easter Island, New Zealand — the opposite edge of the human world."
     }
   ]
 }
