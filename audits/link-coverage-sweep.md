@@ -47,7 +47,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | renaissance-italy | 8 | **DONE** | ad23d3b |
 | scientific-revolution | 20 | **DONE** | 88c507f |
 | enlightenment | 20 | **DONE** | 3476a12 |
-| industrial-revolution | 20 | **DONE** (cross top-up) | +this |
+| industrial-revolution | 20 | **DONE** | ad2ebf5 |
+| indus-valley | 10 | **DONE** (cross top-up) | +this |
 | _Western European chain COMPLETE_ | | | |
 | _next: scientific-revolution (20ch), enlightenment (20ch), industrial-revolution (20ch)_ | | pending | |
 | _Greco-Roman chain COMPLETE; next: roadmap order_ | | pending | |

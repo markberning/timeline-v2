@@ -1,248 +1,1396 @@
 {
   "1": [
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "Lahore", "matchText": "Lahore", "wikiSlug": "Lahore", "type": "place"},
-    {"term": "Pakistan", "matchText": "Pakistan", "wikiSlug": "Pakistan", "type": "place"},
-    {"term": "Rakhal Das Banerji", "matchText": "Rakhal Das Banerji", "wikiSlug": "Rakhal_Das_Banerji", "type": "people"},
-    {"term": "Archaeological Survey of India", "matchText": "Archaeological Survey of India", "wikiSlug": "Archaeological_Survey_of_India", "type": "concept"},
-    {"term": "Sindh", "matchText": "Sindh", "wikiSlug": "Sindh", "type": "place"},
-    {"term": "John Marshall", "matchText": "John Marshall", "wikiSlug": "John_Marshall_(archaeologist)", "type": "people"},
-    {"term": "Bronze Age", "matchText": "Bronze Age", "wikiSlug": "Bronze_Age", "type": "concept"},
-    {"term": "Egypt", "matchText": "Egypt", "wikiSlug": "Ancient_Egypt", "type": "place"},
-    {"term": "Mesopotamia", "matchText": "Mesopotamia", "wikiSlug": "Mesopotamia", "type": "place"},
-    {"term": "cuneiform", "matchText": "cuneiform", "wikiSlug": "Cuneiform", "type": "concept"},
-    {"term": "Indus River", "matchText": "Indus River", "wikiSlug": "Indus_River", "type": "place"},
-    {"term": "Mount Kailash", "matchText": "Mount Kailash", "wikiSlug": "Mount_Kailash", "type": "place"},
-    {"term": "Himalayas", "matchText": "Himalayas", "wikiSlug": "Himalayas", "type": "place"},
-    {"term": "Arabian Sea", "matchText": "Arabian Sea", "wikiSlug": "Arabian_Sea", "type": "place"},
-    {"term": "Karachi", "matchText": "Karachi", "wikiSlug": "Karachi", "type": "place"},
-    {"term": "Jhelum", "matchText": "Jhelum", "wikiSlug": "Jhelum_River", "type": "place"},
-    {"term": "Chenab", "matchText": "Chenab", "wikiSlug": "Chenab_River", "type": "place"},
-    {"term": "Ravi", "matchText": "Ravi", "wikiSlug": "Ravi_River", "type": "place"},
-    {"term": "Beas", "matchText": "Beas", "wikiSlug": "Beas_River", "type": "place"},
-    {"term": "Sutlej", "matchText": "Sutlej", "wikiSlug": "Sutlej", "type": "place"},
-    {"term": "monsoon", "matchText": "monsoon", "wikiSlug": "Monsoon", "type": "concept"},
-    {"term": "Makran", "matchText": "Makran", "wikiSlug": "Makran", "type": "place"},
-    {"term": "Balochistan", "matchText": "Balochistan", "wikiSlug": "Balochistan", "type": "place"},
-    {"term": "Haryana", "matchText": "Haryana", "wikiSlug": "Haryana", "type": "place"},
-    {"term": "Rajasthan", "matchText": "Rajasthan", "wikiSlug": "Rajasthan", "type": "place"},
-    {"term": "Gujarat", "matchText": "Gujarat", "wikiSlug": "Gujarat", "type": "place"},
-    {"term": "Afghanistan", "matchText": "Afghanistan", "wikiSlug": "Afghanistan", "type": "place"},
-    {"term": "Sarasvati", "matchText": "Sarasvati", "wikiSlug": "Sarasvati_River", "type": "place"},
-    {"term": "Vedic hymns", "matchText": "Vedic hymns", "wikiSlug": "Vedas", "type": "concept"},
-    {"term": "Sanskrit", "matchText": "Sanskrit", "wikiSlug": "Sanskrit", "type": "language"},
-    {"term": "Indo-Aryan peoples", "matchText": "Indo-Aryan", "wikiSlug": "Indo-Aryan_peoples", "type": "people"},
-    {"term": "Indus script", "matchText": "Indus script", "wikiSlug": "Indus_script", "type": "concept"},
-    {"term": "Sargon of Akkad", "matchText": "Sargons", "wikiSlug": "Sargon_of_Akkad", "type": "people"},
-    {"term": "Hammurabi", "matchText": "Hammurabis", "wikiSlug": "Hammurabi", "type": "people"},
-    {"term": "Nebuchadnezzar II", "matchText": "Nebuchadnezzars", "wikiSlug": "Nebuchadnezzar_II", "type": "people"}
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Lahore",
+      "matchText": "Lahore",
+      "wikiSlug": "Lahore",
+      "type": "place"
+    },
+    {
+      "term": "Pakistan",
+      "matchText": "Pakistan",
+      "wikiSlug": "Pakistan",
+      "type": "place"
+    },
+    {
+      "term": "Rakhal Das Banerji",
+      "matchText": "Rakhal Das Banerji",
+      "wikiSlug": "Rakhal_Das_Banerji",
+      "type": "people"
+    },
+    {
+      "term": "Archaeological Survey of India",
+      "matchText": "Archaeological Survey of India",
+      "wikiSlug": "Archaeological_Survey_of_India",
+      "type": "concept"
+    },
+    {
+      "term": "Sindh",
+      "matchText": "Sindh",
+      "wikiSlug": "Sindh",
+      "type": "place"
+    },
+    {
+      "term": "John Marshall",
+      "matchText": "John Marshall",
+      "wikiSlug": "John_Marshall_(archaeologist)",
+      "type": "people"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Egypt",
+      "matchText": "Egypt",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "cuneiform",
+      "matchText": "cuneiform",
+      "wikiSlug": "Cuneiform",
+      "type": "concept"
+    },
+    {
+      "term": "Indus River",
+      "matchText": "Indus River",
+      "wikiSlug": "Indus_River",
+      "type": "place"
+    },
+    {
+      "term": "Mount Kailash",
+      "matchText": "Mount Kailash",
+      "wikiSlug": "Mount_Kailash",
+      "type": "place"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayas",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "Arabian Sea",
+      "matchText": "Arabian Sea",
+      "wikiSlug": "Arabian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Karachi",
+      "matchText": "Karachi",
+      "wikiSlug": "Karachi",
+      "type": "place"
+    },
+    {
+      "term": "Jhelum",
+      "matchText": "Jhelum",
+      "wikiSlug": "Jhelum_River",
+      "type": "place"
+    },
+    {
+      "term": "Chenab",
+      "matchText": "Chenab",
+      "wikiSlug": "Chenab_River",
+      "type": "place"
+    },
+    {
+      "term": "Ravi",
+      "matchText": "Ravi",
+      "wikiSlug": "Ravi_River",
+      "type": "place"
+    },
+    {
+      "term": "Beas",
+      "matchText": "Beas",
+      "wikiSlug": "Beas_River",
+      "type": "place"
+    },
+    {
+      "term": "Sutlej",
+      "matchText": "Sutlej",
+      "wikiSlug": "Sutlej",
+      "type": "place"
+    },
+    {
+      "term": "monsoon",
+      "matchText": "monsoon",
+      "wikiSlug": "Monsoon",
+      "type": "concept"
+    },
+    {
+      "term": "Makran",
+      "matchText": "Makran",
+      "wikiSlug": "Makran",
+      "type": "place"
+    },
+    {
+      "term": "Balochistan",
+      "matchText": "Balochistan",
+      "wikiSlug": "Balochistan",
+      "type": "place"
+    },
+    {
+      "term": "Haryana",
+      "matchText": "Haryana",
+      "wikiSlug": "Haryana",
+      "type": "place"
+    },
+    {
+      "term": "Rajasthan",
+      "matchText": "Rajasthan",
+      "wikiSlug": "Rajasthan",
+      "type": "place"
+    },
+    {
+      "term": "Gujarat",
+      "matchText": "Gujarat",
+      "wikiSlug": "Gujarat",
+      "type": "place"
+    },
+    {
+      "term": "Afghanistan",
+      "matchText": "Afghanistan",
+      "wikiSlug": "Afghanistan",
+      "type": "place"
+    },
+    {
+      "term": "Sarasvati",
+      "matchText": "Sarasvati",
+      "wikiSlug": "Sarasvati_River",
+      "type": "place"
+    },
+    {
+      "term": "Vedic hymns",
+      "matchText": "Vedic hymns",
+      "wikiSlug": "Vedas",
+      "type": "concept"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "language"
+    },
+    {
+      "term": "Indo-Aryan peoples",
+      "matchText": "Indo-Aryan",
+      "wikiSlug": "Indo-Aryan_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Indus script",
+      "matchText": "Indus script",
+      "wikiSlug": "Indus_script",
+      "type": "concept"
+    },
+    {
+      "term": "Sargon of Akkad",
+      "matchText": "Sargons",
+      "wikiSlug": "Sargon_of_Akkad",
+      "type": "people"
+    },
+    {
+      "term": "Hammurabi",
+      "matchText": "Hammurabis",
+      "wikiSlug": "Hammurabi",
+      "type": "people"
+    },
+    {
+      "term": "Nebuchadnezzar II",
+      "matchText": "Nebuchadnezzars",
+      "wikiSlug": "Nebuchadnezzar_II",
+      "type": "people"
+    }
   ],
   "2": [
-    {"term": "Neolithic", "matchText": "Neolithic", "wikiSlug": "Neolithic", "type": "concept"},
-    {"term": "Kachi Plain", "matchText": "Kachi Plain", "wikiSlug": "Kacchi_Plain", "type": "place"},
-    {"term": "Balochistan", "matchText": "Balochistan", "wikiSlug": "Balochistan", "type": "place"},
-    {"term": "Bolan Pass", "matchText": "Bolan Pass", "wikiSlug": "Bolan_Pass", "type": "place"},
-    {"term": "Iranian plateau", "matchText": "Iranian plateau", "wikiSlug": "Iranian_plateau", "type": "place"},
-    {"term": "emmer wheat", "matchText": "emmer wheat", "wikiSlug": "Emmer", "type": "concept"},
-    {"term": "Fertile Crescent", "matchText": "Fertile Crescent", "wikiSlug": "Fertile_Crescent", "type": "place"},
-    {"term": "barley", "matchText": "barley", "wikiSlug": "Barley", "type": "concept"},
-    {"term": "Yellow River", "matchText": "Yellow River", "wikiSlug": "Yellow_River", "type": "place"},
-    {"term": "foxtail millet", "matchText": "foxtail", "wikiSlug": "Foxtail_millet", "type": "concept"},
-    {"term": "broomcorn millet", "matchText": "broomcorn millet", "wikiSlug": "Proso_millet", "type": "concept"},
-    {"term": "Yangtze", "matchText": "Yangtze", "wikiSlug": "Yangtze", "type": "place"},
-    {"term": "bow drill", "matchText": "bow drills", "wikiSlug": "Bow_drill", "type": "concept"},
-    {"term": "flint", "matchText": "flint", "wikiSlug": "Flint", "type": "concept"},
-    {"term": "terracotta", "matchText": "Terracotta", "wikiSlug": "Terracotta", "type": "concept"},
-    {"term": "mother goddess figurines", "matchText": "mother goddess figurines", "wikiSlug": "Mother_goddess", "type": "concept"},
-    {"term": "Thar Desert", "matchText": "Thar Desert", "wikiSlug": "Thar_Desert", "type": "place"},
-    {"term": "Ghaggar-Hakra", "matchText": "Ghaggar-Hakra", "wikiSlug": "Ghaggar-Hakra_River", "type": "place"}
+    {
+      "term": "Neolithic",
+      "matchText": "Neolithic",
+      "wikiSlug": "Neolithic",
+      "type": "concept"
+    },
+    {
+      "term": "Kachi Plain",
+      "matchText": "Kachi Plain",
+      "wikiSlug": "Kacchi_Plain",
+      "type": "place"
+    },
+    {
+      "term": "Balochistan",
+      "matchText": "Balochistan",
+      "wikiSlug": "Balochistan",
+      "type": "place"
+    },
+    {
+      "term": "Bolan Pass",
+      "matchText": "Bolan Pass",
+      "wikiSlug": "Bolan_Pass",
+      "type": "place"
+    },
+    {
+      "term": "Iranian plateau",
+      "matchText": "Iranian plateau",
+      "wikiSlug": "Iranian_plateau",
+      "type": "place"
+    },
+    {
+      "term": "emmer wheat",
+      "matchText": "emmer wheat",
+      "wikiSlug": "Emmer",
+      "type": "concept"
+    },
+    {
+      "term": "Fertile Crescent",
+      "matchText": "Fertile Crescent",
+      "wikiSlug": "Fertile_Crescent",
+      "type": "place"
+    },
+    {
+      "term": "barley",
+      "matchText": "barley",
+      "wikiSlug": "Barley",
+      "type": "concept"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "foxtail millet",
+      "matchText": "foxtail",
+      "wikiSlug": "Foxtail_millet",
+      "type": "concept"
+    },
+    {
+      "term": "broomcorn millet",
+      "matchText": "broomcorn millet",
+      "wikiSlug": "Proso_millet",
+      "type": "concept"
+    },
+    {
+      "term": "Yangtze",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze",
+      "type": "place"
+    },
+    {
+      "term": "bow drill",
+      "matchText": "bow drills",
+      "wikiSlug": "Bow_drill",
+      "type": "concept"
+    },
+    {
+      "term": "flint",
+      "matchText": "flint",
+      "wikiSlug": "Flint",
+      "type": "concept"
+    },
+    {
+      "term": "terracotta",
+      "matchText": "Terracotta",
+      "wikiSlug": "Terracotta",
+      "type": "concept"
+    },
+    {
+      "term": "mother goddess figurines",
+      "matchText": "mother goddess figurines",
+      "wikiSlug": "Mother_goddess",
+      "type": "concept"
+    },
+    {
+      "term": "Thar Desert",
+      "matchText": "Thar Desert",
+      "wikiSlug": "Thar_Desert",
+      "type": "place"
+    },
+    {
+      "term": "Ghaggar-Hakra",
+      "matchText": "Ghaggar-Hakra",
+      "wikiSlug": "Ghaggar-Hakra_River",
+      "type": "place"
+    }
   ],
   "3": [
-    {"term": "Early Harappan", "matchText": "Early Harappan", "wikiSlug": "Indus_Valley_Civilisation", "type": "concept"},
-    {"term": "Harappa", "matchText": "Harappa", "wikiSlug": "Harappa", "type": "place"},
-    {"term": "Ravi River", "matchText": "Ravi River", "wikiSlug": "Ravi_River", "type": "place"},
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "Indus script", "matchText": "Indus script", "wikiSlug": "Indus_script", "type": "concept"},
-    {"term": "Sindh", "matchText": "Sindh", "wikiSlug": "Sindh", "type": "place"},
-    {"term": "citadel", "matchText": "citadel", "wikiSlug": "Citadel", "type": "concept"},
-    {"term": "Kalibangan", "matchText": "Kalibangan", "wikiSlug": "Kalibangan", "type": "place"},
-    {"term": "Rajasthan", "matchText": "Rajasthan", "wikiSlug": "Rajasthan", "type": "place"},
-    {"term": "Ghaggar-Hakra", "matchText": "Ghaggar-Hakra", "wikiSlug": "Ghaggar-Hakra_River", "type": "place"},
-    {"term": "plow", "matchText": "plow", "wikiSlug": "Plough", "type": "concept"},
-    {"term": "Mature Harappan", "matchText": "Mature Harappan", "wikiSlug": "Indus_Valley_Civilisation", "type": "concept"}
+    {
+      "term": "Early Harappan",
+      "matchText": "Early Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "concept"
+    },
+    {
+      "term": "Harappa",
+      "matchText": "Harappa",
+      "wikiSlug": "Harappa",
+      "type": "place"
+    },
+    {
+      "term": "Ravi River",
+      "matchText": "Ravi River",
+      "wikiSlug": "Ravi_River",
+      "type": "place"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Indus script",
+      "matchText": "Indus script",
+      "wikiSlug": "Indus_script",
+      "type": "concept"
+    },
+    {
+      "term": "Sindh",
+      "matchText": "Sindh",
+      "wikiSlug": "Sindh",
+      "type": "place"
+    },
+    {
+      "term": "citadel",
+      "matchText": "citadel",
+      "wikiSlug": "Citadel",
+      "type": "concept"
+    },
+    {
+      "term": "Kalibangan",
+      "matchText": "Kalibangan",
+      "wikiSlug": "Kalibangan",
+      "type": "place"
+    },
+    {
+      "term": "Rajasthan",
+      "matchText": "Rajasthan",
+      "wikiSlug": "Rajasthan",
+      "type": "place"
+    },
+    {
+      "term": "Ghaggar-Hakra",
+      "matchText": "Ghaggar-Hakra",
+      "wikiSlug": "Ghaggar-Hakra_River",
+      "type": "place"
+    },
+    {
+      "term": "plow",
+      "matchText": "plow",
+      "wikiSlug": "Plough",
+      "type": "concept"
+    },
+    {
+      "term": "Mature Harappan",
+      "matchText": "Mature Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "concept"
+    }
   ],
   "4": [
-    {"term": "Sutkagan Dor", "matchText": "Sutkagan Dor", "wikiSlug": "Sutkagen-dor", "type": "place"},
-    {"term": "Makran", "matchText": "Makran", "wikiSlug": "Makran", "type": "place"},
-    {"term": "Uttar Pradesh", "matchText": "Uttar Pradesh", "wikiSlug": "Uttar_Pradesh", "type": "place"},
-    {"term": "Shortughai", "matchText": "Shortughai", "wikiSlug": "Shortugai", "type": "place"},
-    {"term": "Lothal", "matchText": "Lothal", "wikiSlug": "Lothal", "type": "place"},
-    {"term": "Mature Harappan", "matchText": "Mature Harappan", "wikiSlug": "Indus_Valley_Civilisation", "type": "concept"},
-    {"term": "Early Dynastic Sumer", "matchText": "Early Dynastic", "wikiSlug": "Early_Dynastic_Period_(Mesopotamia)", "type": "concept"},
-    {"term": "Tigris", "matchText": "Tigris", "wikiSlug": "Tigris", "type": "place"},
-    {"term": "Euphrates", "matchText": "Euphrates", "wikiSlug": "Euphrates", "type": "place"},
-    {"term": "Old Kingdom", "matchText": "Old Kingdom", "wikiSlug": "Old_Kingdom_of_Egypt", "type": "concept"},
-    {"term": "Great Pyramids of Giza", "matchText": "Great Pyramids at Giza", "wikiSlug": "Giza_pyramid_complex", "type": "place"},
-    {"term": "Liangzhu culture", "matchText": "Liangzhu", "wikiSlug": "Liangzhu_culture", "type": "concept"},
-    {"term": "Hongshan culture", "matchText": "Hongshan", "wikiSlug": "Hongshan_culture", "type": "concept"},
-    {"term": "Longshan culture", "matchText": "Longshan", "wikiSlug": "Longshan_culture", "type": "concept"},
-    {"term": "Mohenjo-daro", "matchText": "Mohenjo-daro", "wikiSlug": "Mohenjo-daro", "type": "place"},
-    {"term": "Dholavira", "matchText": "Dholavira", "wikiSlug": "Dholavira", "type": "place"},
-    {"term": "chert", "matchText": "chert", "wikiSlug": "Chert", "type": "concept"},
-    {"term": "steatite", "matchText": "steatite", "wikiSlug": "Soapstone", "type": "concept"},
-    {"term": "Indus script", "matchText": "Indus script", "wikiSlug": "Indus_script", "type": "concept"},
-    {"term": "Minoan Crete", "matchText": "Minoan Crete", "wikiSlug": "Minoan_civilization", "type": "concept"},
-    {"term": "bronze", "matchText": "bronze", "wikiSlug": "Bronze", "type": "concept"}
+    {
+      "term": "Sutkagan Dor",
+      "matchText": "Sutkagan Dor",
+      "wikiSlug": "Sutkagen-dor",
+      "type": "place"
+    },
+    {
+      "term": "Makran",
+      "matchText": "Makran",
+      "wikiSlug": "Makran",
+      "type": "place"
+    },
+    {
+      "term": "Uttar Pradesh",
+      "matchText": "Uttar Pradesh",
+      "wikiSlug": "Uttar_Pradesh",
+      "type": "place"
+    },
+    {
+      "term": "Shortughai",
+      "matchText": "Shortughai",
+      "wikiSlug": "Shortugai",
+      "type": "place"
+    },
+    {
+      "term": "Lothal",
+      "matchText": "Lothal",
+      "wikiSlug": "Lothal",
+      "type": "place"
+    },
+    {
+      "term": "Mature Harappan",
+      "matchText": "Mature Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "concept"
+    },
+    {
+      "term": "Early Dynastic Sumer",
+      "matchText": "Early Dynastic",
+      "wikiSlug": "Early_Dynastic_Period_(Mesopotamia)",
+      "type": "concept"
+    },
+    {
+      "term": "Tigris",
+      "matchText": "Tigris",
+      "wikiSlug": "Tigris",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Old Kingdom",
+      "matchText": "Old Kingdom",
+      "wikiSlug": "Old_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Great Pyramids of Giza",
+      "matchText": "Great Pyramids at Giza",
+      "wikiSlug": "Giza_pyramid_complex",
+      "type": "place"
+    },
+    {
+      "term": "Liangzhu culture",
+      "matchText": "Liangzhu",
+      "wikiSlug": "Liangzhu_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Hongshan culture",
+      "matchText": "Hongshan",
+      "wikiSlug": "Hongshan_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Longshan culture",
+      "matchText": "Longshan",
+      "wikiSlug": "Longshan_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Mohenjo-daro",
+      "matchText": "Mohenjo-daro",
+      "wikiSlug": "Mohenjo-daro",
+      "type": "place"
+    },
+    {
+      "term": "Dholavira",
+      "matchText": "Dholavira",
+      "wikiSlug": "Dholavira",
+      "type": "place"
+    },
+    {
+      "term": "chert",
+      "matchText": "chert",
+      "wikiSlug": "Chert",
+      "type": "concept"
+    },
+    {
+      "term": "steatite",
+      "matchText": "steatite",
+      "wikiSlug": "Soapstone",
+      "type": "concept"
+    },
+    {
+      "term": "Indus script",
+      "matchText": "Indus script",
+      "wikiSlug": "Indus_script",
+      "type": "concept"
+    },
+    {
+      "term": "Minoan Crete",
+      "matchText": "Minoan Crete",
+      "wikiSlug": "Minoan_civilization",
+      "type": "concept"
+    },
+    {
+      "term": "bronze",
+      "matchText": "bronze",
+      "wikiSlug": "Bronze",
+      "type": "concept"
+    }
   ],
   "5": [
-    {"term": "Sindh", "matchText": "Sindh", "wikiSlug": "Sindh", "type": "place"},
-    {"term": "Citadel Mound", "matchText": "Citadel Mound", "wikiSlug": "Mohenjo-daro", "type": "place"},
-    {"term": "Great Bath", "matchText": "Great Bath", "wikiSlug": "Great_Bath,_Mohenjo-daro", "type": "place"},
-    {"term": "granary", "matchText": "granary", "wikiSlug": "Granary", "type": "concept"},
-    {"term": "soak pits", "matchText": "soak pits", "wikiSlug": "Cesspit", "type": "concept"},
-    {"term": "Ravi River", "matchText": "Ravi River", "wikiSlug": "Ravi_River", "type": "place"},
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "carnelian", "matchText": "carnelian", "wikiSlug": "Carnelian", "type": "concept"},
-    {"term": "lapis lazuli", "matchText": "lapis lazuli", "wikiSlug": "Lapis_lazuli", "type": "concept"},
-    {"term": "agate", "matchText": "agate", "wikiSlug": "Agate", "type": "concept"},
-    {"term": "Rann of Kutch", "matchText": "Rann of Kutch", "wikiSlug": "Rann_of_Kutch", "type": "place"},
-    {"term": "gypsum", "matchText": "gypsum", "wikiSlug": "Gypsum", "type": "concept"},
-    {"term": "Indus script", "matchText": "Indus script", "wikiSlug": "Indus_script", "type": "concept"},
-    {"term": "Haryana", "matchText": "Haryana", "wikiSlug": "Haryana", "type": "place"},
-    {"term": "ancient DNA", "matchText": "ancient DNA", "wikiSlug": "Ancient_DNA", "type": "concept"},
-    {"term": "Eurasian steppe", "matchText": "Eurasian steppe", "wikiSlug": "Eurasian_Steppe", "type": "place"},
-    {"term": "Indo-Aryan migration", "matchText": "Indo-Aryan migrants", "wikiSlug": "Indo-Aryan_migrations", "type": "concept"},
-    {"term": "Vedas", "matchText": "Vedas", "wikiSlug": "Vedas", "type": "concept"},
-    {"term": "Gulf of Khambhat", "matchText": "Gulf of Khambhat", "wikiSlug": "Gulf_of_Khambhat", "type": "place"},
-    {"term": "dockyard", "matchText": "dockyard", "wikiSlug": "Shipyard", "type": "concept"},
-    {"term": "sluice gate", "matchText": "sluice gate", "wikiSlug": "Sluice", "type": "concept"},
-    {"term": "shell bangles", "matchText": "shell bangles", "wikiSlug": "Shell_bangle", "type": "concept"}
+    {
+      "term": "Sindh",
+      "matchText": "Sindh",
+      "wikiSlug": "Sindh",
+      "type": "place"
+    },
+    {
+      "term": "Citadel Mound",
+      "matchText": "Citadel Mound",
+      "wikiSlug": "Mohenjo-daro",
+      "type": "place"
+    },
+    {
+      "term": "Great Bath",
+      "matchText": "Great Bath",
+      "wikiSlug": "Great_Bath,_Mohenjo-daro",
+      "type": "place"
+    },
+    {
+      "term": "granary",
+      "matchText": "granary",
+      "wikiSlug": "Granary",
+      "type": "concept"
+    },
+    {
+      "term": "soak pits",
+      "matchText": "soak pits",
+      "wikiSlug": "Cesspit",
+      "type": "concept"
+    },
+    {
+      "term": "Ravi River",
+      "matchText": "Ravi River",
+      "wikiSlug": "Ravi_River",
+      "type": "place"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "carnelian",
+      "matchText": "carnelian",
+      "wikiSlug": "Carnelian",
+      "type": "concept"
+    },
+    {
+      "term": "lapis lazuli",
+      "matchText": "lapis lazuli",
+      "wikiSlug": "Lapis_lazuli",
+      "type": "concept"
+    },
+    {
+      "term": "agate",
+      "matchText": "agate",
+      "wikiSlug": "Agate",
+      "type": "concept"
+    },
+    {
+      "term": "Rann of Kutch",
+      "matchText": "Rann of Kutch",
+      "wikiSlug": "Rann_of_Kutch",
+      "type": "place"
+    },
+    {
+      "term": "gypsum",
+      "matchText": "gypsum",
+      "wikiSlug": "Gypsum",
+      "type": "concept"
+    },
+    {
+      "term": "Indus script",
+      "matchText": "Indus script",
+      "wikiSlug": "Indus_script",
+      "type": "concept"
+    },
+    {
+      "term": "Haryana",
+      "matchText": "Haryana",
+      "wikiSlug": "Haryana",
+      "type": "place"
+    },
+    {
+      "term": "ancient DNA",
+      "matchText": "ancient DNA",
+      "wikiSlug": "Ancient_DNA",
+      "type": "concept"
+    },
+    {
+      "term": "Eurasian steppe",
+      "matchText": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
+    },
+    {
+      "term": "Indo-Aryan migration",
+      "matchText": "Indo-Aryan migrants",
+      "wikiSlug": "Indo-Aryan_migrations",
+      "type": "concept"
+    },
+    {
+      "term": "Vedas",
+      "matchText": "Vedas",
+      "wikiSlug": "Vedas",
+      "type": "concept"
+    },
+    {
+      "term": "Gulf of Khambhat",
+      "matchText": "Gulf of Khambhat",
+      "wikiSlug": "Gulf_of_Khambhat",
+      "type": "place"
+    },
+    {
+      "term": "dockyard",
+      "matchText": "dockyard",
+      "wikiSlug": "Shipyard",
+      "type": "concept"
+    },
+    {
+      "term": "sluice gate",
+      "matchText": "sluice gate",
+      "wikiSlug": "Sluice",
+      "type": "concept"
+    },
+    {
+      "term": "shell bangles",
+      "matchText": "shell bangles",
+      "wikiSlug": "Shell_bangle",
+      "type": "concept"
+    }
   ],
   "6": [
-    {"term": "pharaoh", "matchText": "pharaohs", "wikiSlug": "Pharaoh", "type": "concept"},
-    {"term": "Nile", "matchText": "Nile", "wikiSlug": "Nile", "type": "place"},
-    {"term": "diorite", "matchText": "diorite", "wikiSlug": "Diorite", "type": "concept"},
-    {"term": "Shang dynasty", "matchText": "Shang dynasty", "wikiSlug": "Shang_dynasty", "type": "concept"},
-    {"term": "oracle bones", "matchText": "oracle bone inscriptions", "wikiSlug": "Oracle_bone_script", "type": "concept"},
-    {"term": "Minoan Crete", "matchText": "Minoan Crete", "wikiSlug": "Minoan_civilization", "type": "concept"},
-    {"term": "Venice", "matchText": "Venice", "wikiSlug": "Republic_of_Venice", "type": "place"},
-    {"term": "Florence", "matchText": "Florence", "wikiSlug": "Republic_of_Florence", "type": "place"},
-    {"term": "Athens", "matchText": "Athens", "wikiSlug": "Classical_Athens", "type": "place"},
-    {"term": "Royal Tombs of Ur", "matchText": "Royal Tombs of Ur", "wikiSlug": "Royal_Cemetery_at_Ur", "type": "place"},
-    {"term": "lugal", "matchText": "lugal", "wikiSlug": "Lugal", "type": "concept"},
-    {"term": "Longshan culture", "matchText": "Longshan", "wikiSlug": "Longshan_culture", "type": "concept"},
-    {"term": "Priest-King", "matchText": "Priest-King", "wikiSlug": "Priest-King_(sculpture)", "type": "concept"},
-    {"term": "steatite", "matchText": "steatite", "wikiSlug": "Soapstone", "type": "concept"},
-    {"term": "trefoil", "matchText": "trefoil", "wikiSlug": "Trefoil", "type": "concept"},
-    {"term": "zebu", "matchText": "zebu", "wikiSlug": "Zebu", "type": "concept"},
-    {"term": "aurochs", "matchText": "aurochs", "wikiSlug": "Aurochs", "type": "concept"},
-    {"term": "Indus script", "matchText": "Indus script", "wikiSlug": "Indus_script", "type": "concept"},
-    {"term": "logo-syllabic", "matchText": "logo-syllabic", "wikiSlug": "Logogram", "type": "concept"},
-    {"term": "Rosetta Stone", "matchText": "Rosetta Stone", "wikiSlug": "Rosetta_Stone", "type": "concept"},
-    {"term": "Dravidian languages", "matchText": "Dravidian", "wikiSlug": "Dravidian_languages", "type": "language"},
-    {"term": "Epic of Gilgamesh", "matchText": "Epic of Gilgamesh", "wikiSlug": "Epic_of_Gilgamesh", "type": "concept"},
-    {"term": "Book of the Dead", "matchText": "Egyptian Book of the Dead", "wikiSlug": "Book_of_the_Dead", "type": "concept"},
-    {"term": "Hebrew Bible", "matchText": "Hebrew Bible", "wikiSlug": "Hebrew_Bible", "type": "concept"}
+    {
+      "term": "pharaoh",
+      "matchText": "pharaohs",
+      "wikiSlug": "Pharaoh",
+      "type": "concept"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "diorite",
+      "matchText": "diorite",
+      "wikiSlug": "Diorite",
+      "type": "concept"
+    },
+    {
+      "term": "Shang dynasty",
+      "matchText": "Shang dynasty",
+      "wikiSlug": "Shang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "oracle bones",
+      "matchText": "oracle bone inscriptions",
+      "wikiSlug": "Oracle_bone_script",
+      "type": "concept"
+    },
+    {
+      "term": "Minoan Crete",
+      "matchText": "Minoan Crete",
+      "wikiSlug": "Minoan_civilization",
+      "type": "concept"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "place"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "wikiSlug": "Republic_of_Florence",
+      "type": "place"
+    },
+    {
+      "term": "Athens",
+      "matchText": "Athens",
+      "wikiSlug": "Classical_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Royal Tombs of Ur",
+      "matchText": "Royal Tombs of Ur",
+      "wikiSlug": "Royal_Cemetery_at_Ur",
+      "type": "place"
+    },
+    {
+      "term": "lugal",
+      "matchText": "lugal",
+      "wikiSlug": "Lugal",
+      "type": "concept"
+    },
+    {
+      "term": "Longshan culture",
+      "matchText": "Longshan",
+      "wikiSlug": "Longshan_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Priest-King",
+      "matchText": "Priest-King",
+      "wikiSlug": "Priest-King_(sculpture)",
+      "type": "concept"
+    },
+    {
+      "term": "steatite",
+      "matchText": "steatite",
+      "wikiSlug": "Soapstone",
+      "type": "concept"
+    },
+    {
+      "term": "trefoil",
+      "matchText": "trefoil",
+      "wikiSlug": "Trefoil",
+      "type": "concept"
+    },
+    {
+      "term": "zebu",
+      "matchText": "zebu",
+      "wikiSlug": "Zebu",
+      "type": "concept"
+    },
+    {
+      "term": "aurochs",
+      "matchText": "aurochs",
+      "wikiSlug": "Aurochs",
+      "type": "concept"
+    },
+    {
+      "term": "Indus script",
+      "matchText": "Indus script",
+      "wikiSlug": "Indus_script",
+      "type": "concept"
+    },
+    {
+      "term": "logo-syllabic",
+      "matchText": "logo-syllabic",
+      "wikiSlug": "Logogram",
+      "type": "concept"
+    },
+    {
+      "term": "Rosetta Stone",
+      "matchText": "Rosetta Stone",
+      "wikiSlug": "Rosetta_Stone",
+      "type": "concept"
+    },
+    {
+      "term": "Dravidian languages",
+      "matchText": "Dravidian",
+      "wikiSlug": "Dravidian_languages",
+      "type": "language"
+    },
+    {
+      "term": "Epic of Gilgamesh",
+      "matchText": "Epic of Gilgamesh",
+      "wikiSlug": "Epic_of_Gilgamesh",
+      "type": "concept"
+    },
+    {
+      "term": "Book of the Dead",
+      "matchText": "Egyptian Book of the Dead",
+      "wikiSlug": "Book_of_the_Dead",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "Persian Gulf", "matchText": "Persian Gulf", "wikiSlug": "Persian_Gulf", "type": "place"},
-    {"term": "Arabian Peninsula", "matchText": "Arabian Peninsula", "wikiSlug": "Arabian_Peninsula", "type": "place"},
-    {"term": "Ur", "matchText": "Ur", "wikiSlug": "Ur", "type": "place"},
-    {"term": "Nippur", "matchText": "Nippur", "wikiSlug": "Nippur", "type": "place"},
-    {"term": "Lagash", "matchText": "Lagash", "wikiSlug": "Lagash", "type": "place"},
-    {"term": "cuneiform", "matchText": "cuneiform", "wikiSlug": "Cuneiform", "type": "concept"},
-    {"term": "Meluhha", "matchText": "Meluhha", "wikiSlug": "Meluhha", "type": "place"},
-    {"term": "Sargon of Akkad", "matchText": "Sargon of Akkad", "wikiSlug": "Sargon_of_Akkad", "type": "people"},
-    {"term": "Arabian Sea", "matchText": "Arabian Sea", "wikiSlug": "Arabian_Sea", "type": "place"},
-    {"term": "Bahrain", "matchText": "Bahrain", "wikiSlug": "Bahrain", "type": "place"},
-    {"term": "Oman", "matchText": "Oman", "wikiSlug": "Oman", "type": "place"},
-    {"term": "tin", "matchText": "tin", "wikiSlug": "Tin", "type": "concept"},
-    {"term": "Amu Darya", "matchText": "Amu Darya", "wikiSlug": "Amu_Darya", "type": "place"},
-    {"term": "lapis lazuli", "matchText": "lapis lazuli", "wikiSlug": "Lapis_lazuli", "type": "concept"},
-    {"term": "Badakhshan", "matchText": "Badakhshan", "wikiSlug": "Badakhshan", "type": "place"},
-    {"term": "carnelian", "matchText": "carnelian", "wikiSlug": "Carnelian", "type": "concept"},
-    {"term": "cotton", "matchText": "cotton", "wikiSlug": "Cotton", "type": "concept"},
-    {"term": "Gossypium arboreum", "matchText": "Gossypium arboreum", "wikiSlug": "Gossypium_arboreum", "type": "concept"},
-    {"term": "ivory", "matchText": "ivory", "wikiSlug": "Ivory", "type": "concept"},
-    {"term": "Dancing Girl", "matchText": "Dancing Girl", "wikiSlug": "Dancing_Girl_(sculpture)", "type": "concept"},
-    {"term": "lost-wax casting", "matchText": "lost-wax process", "wikiSlug": "Lost-wax_casting", "type": "concept"},
-    {"term": "Pachisi", "matchText": "Pachisi", "wikiSlug": "Pachisi", "type": "concept"}
+    {
+      "term": "Persian Gulf",
+      "matchText": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf",
+      "type": "place"
+    },
+    {
+      "term": "Arabian Peninsula",
+      "matchText": "Arabian Peninsula",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Ur",
+      "matchText": "Ur",
+      "wikiSlug": "Ur",
+      "type": "place"
+    },
+    {
+      "term": "Nippur",
+      "matchText": "Nippur",
+      "wikiSlug": "Nippur",
+      "type": "place"
+    },
+    {
+      "term": "Lagash",
+      "matchText": "Lagash",
+      "wikiSlug": "Lagash",
+      "type": "place"
+    },
+    {
+      "term": "cuneiform",
+      "matchText": "cuneiform",
+      "wikiSlug": "Cuneiform",
+      "type": "concept"
+    },
+    {
+      "term": "Meluhha",
+      "matchText": "Meluhha",
+      "wikiSlug": "Meluhha",
+      "type": "place"
+    },
+    {
+      "term": "Sargon of Akkad",
+      "matchText": "Sargon of Akkad",
+      "wikiSlug": "Sargon_of_Akkad",
+      "type": "people"
+    },
+    {
+      "term": "Arabian Sea",
+      "matchText": "Arabian Sea",
+      "wikiSlug": "Arabian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Bahrain",
+      "matchText": "Bahrain",
+      "wikiSlug": "Bahrain",
+      "type": "place"
+    },
+    {
+      "term": "Oman",
+      "matchText": "Oman",
+      "wikiSlug": "Oman",
+      "type": "place"
+    },
+    {
+      "term": "tin",
+      "matchText": "tin",
+      "wikiSlug": "Tin",
+      "type": "concept"
+    },
+    {
+      "term": "Amu Darya",
+      "matchText": "Amu Darya",
+      "wikiSlug": "Amu_Darya",
+      "type": "place"
+    },
+    {
+      "term": "lapis lazuli",
+      "matchText": "lapis lazuli",
+      "wikiSlug": "Lapis_lazuli",
+      "type": "concept"
+    },
+    {
+      "term": "Badakhshan",
+      "matchText": "Badakhshan",
+      "wikiSlug": "Badakhshan",
+      "type": "place"
+    },
+    {
+      "term": "carnelian",
+      "matchText": "carnelian",
+      "wikiSlug": "Carnelian",
+      "type": "concept"
+    },
+    {
+      "term": "cotton",
+      "matchText": "cotton",
+      "wikiSlug": "Cotton",
+      "type": "concept"
+    },
+    {
+      "term": "Gossypium arboreum",
+      "matchText": "Gossypium arboreum",
+      "wikiSlug": "Gossypium_arboreum",
+      "type": "concept"
+    },
+    {
+      "term": "ivory",
+      "matchText": "ivory",
+      "wikiSlug": "Ivory",
+      "type": "concept"
+    },
+    {
+      "term": "Dancing Girl",
+      "matchText": "Dancing Girl",
+      "wikiSlug": "Dancing_Girl_(sculpture)",
+      "type": "concept"
+    },
+    {
+      "term": "lost-wax casting",
+      "matchText": "lost-wax process",
+      "wikiSlug": "Lost-wax_casting",
+      "type": "concept"
+    },
+    {
+      "term": "Pachisi",
+      "matchText": "Pachisi",
+      "wikiSlug": "Pachisi",
+      "type": "concept"
+    },
+    {
+      "term": "Lost-wax casting",
+      "matchText": "cire perdue",
+      "wikiSlug": "Lost-wax_casting",
+      "type": "concept"
+    },
+    {
+      "term": "Entrepôt",
+      "matchText": "entrepôt",
+      "wikiSlug": "Entrepôt",
+      "type": "concept"
+    }
   ],
   "8": [
-    {"term": "bitumen", "matchText": "bitumen", "wikiSlug": "Bitumen", "type": "concept"},
-    {"term": "Citadel Mound", "matchText": "Citadel Mound", "wikiSlug": "Mohenjo-daro", "type": "place"},
-    {"term": "Hinduism", "matchText": "Hinduism", "wikiSlug": "Hinduism", "type": "concept"},
-    {"term": "Ganges", "matchText": "Ganges", "wikiSlug": "Ganges", "type": "place"},
-    {"term": "kunda", "matchText": "kundas", "wikiSlug": "Kund_(water_body)", "type": "concept"},
-    {"term": "Buddhism", "matchText": "Buddhist", "wikiSlug": "Buddhism", "type": "concept"},
-    {"term": "Jainism", "matchText": "Jainism", "wikiSlug": "Jainism", "type": "concept"},
-    {"term": "steatite", "matchText": "steatite", "wikiSlug": "Soapstone", "type": "concept"},
-    {"term": "Pashupati Seal", "matchText": "Pashupati Seal", "wikiSlug": "Pashupati_seal", "type": "concept"},
-    {"term": "padmasana", "matchText": "padmasana", "wikiSlug": "Padmasana", "type": "concept"},
-    {"term": "yoga", "matchText": "yoga", "wikiSlug": "Yoga", "type": "concept"},
-    {"term": "Shiva", "matchText": "Shiva", "wikiSlug": "Shiva", "type": "concept"},
-    {"term": "lingam", "matchText": "lingam", "wikiSlug": "Lingam", "type": "concept"},
-    {"term": "Devi", "matchText": "Devi", "wikiSlug": "Devi", "type": "concept"},
-    {"term": "Durga", "matchText": "Durga", "wikiSlug": "Durga", "type": "concept"},
-    {"term": "Lakshmi", "matchText": "Lakshmi", "wikiSlug": "Lakshmi", "type": "concept"},
-    {"term": "shakti", "matchText": "shakti", "wikiSlug": "Shakti", "type": "concept"},
-    {"term": "Vedic religion", "matchText": "Vedic religion", "wikiSlug": "Historical_Vedic_religion", "type": "concept"},
-    {"term": "yajna", "matchText": "yajna", "wikiSlug": "Yajna", "type": "concept"},
-    {"term": "ghee", "matchText": "ghee", "wikiSlug": "Ghee", "type": "concept"},
-    {"term": "Royal Tombs of Ur", "matchText": "Royal Tombs of Ur", "wikiSlug": "Royal_Cemetery_at_Ur", "type": "place"}
+    {
+      "term": "bitumen",
+      "matchText": "bitumen",
+      "wikiSlug": "Bitumen",
+      "type": "concept"
+    },
+    {
+      "term": "Citadel Mound",
+      "matchText": "Citadel Mound",
+      "wikiSlug": "Mohenjo-daro",
+      "type": "place"
+    },
+    {
+      "term": "Hinduism",
+      "matchText": "Hinduism",
+      "wikiSlug": "Hinduism",
+      "type": "concept"
+    },
+    {
+      "term": "Ganges",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "kunda",
+      "matchText": "kundas",
+      "wikiSlug": "Kund_(water_body)",
+      "type": "concept"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhist",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Jainism",
+      "matchText": "Jainism",
+      "wikiSlug": "Jainism",
+      "type": "concept"
+    },
+    {
+      "term": "steatite",
+      "matchText": "steatite",
+      "wikiSlug": "Soapstone",
+      "type": "concept"
+    },
+    {
+      "term": "Pashupati Seal",
+      "matchText": "Pashupati Seal",
+      "wikiSlug": "Pashupati_seal",
+      "type": "concept"
+    },
+    {
+      "term": "padmasana",
+      "matchText": "padmasana",
+      "wikiSlug": "Padmasana",
+      "type": "concept"
+    },
+    {
+      "term": "yoga",
+      "matchText": "yoga",
+      "wikiSlug": "Yoga",
+      "type": "concept"
+    },
+    {
+      "term": "Shiva",
+      "matchText": "Shiva",
+      "wikiSlug": "Shiva",
+      "type": "concept"
+    },
+    {
+      "term": "lingam",
+      "matchText": "lingam",
+      "wikiSlug": "Lingam",
+      "type": "concept"
+    },
+    {
+      "term": "Devi",
+      "matchText": "Devi",
+      "wikiSlug": "Devi",
+      "type": "concept"
+    },
+    {
+      "term": "Durga",
+      "matchText": "Durga",
+      "wikiSlug": "Durga",
+      "type": "concept"
+    },
+    {
+      "term": "Lakshmi",
+      "matchText": "Lakshmi",
+      "wikiSlug": "Lakshmi",
+      "type": "concept"
+    },
+    {
+      "term": "shakti",
+      "matchText": "shakti",
+      "wikiSlug": "Shakti",
+      "type": "concept"
+    },
+    {
+      "term": "Vedic religion",
+      "matchText": "Vedic religion",
+      "wikiSlug": "Historical_Vedic_religion",
+      "type": "concept"
+    },
+    {
+      "term": "yajna",
+      "matchText": "yajna",
+      "wikiSlug": "Yajna",
+      "type": "concept"
+    },
+    {
+      "term": "ghee",
+      "matchText": "ghee",
+      "wikiSlug": "Ghee",
+      "type": "concept"
+    },
+    {
+      "term": "Royal Tombs of Ur",
+      "matchText": "Royal Tombs of Ur",
+      "wikiSlug": "Royal_Cemetery_at_Ur",
+      "type": "place"
+    },
+    {
+      "term": "Kalibangan",
+      "matchText": "Kalibangan",
+      "wikiSlug": "Kalibangan",
+      "type": "place"
+    }
   ],
   "9": [
-    {"term": "4.2 kiloyear event", "matchText": "4.2 kiloyear event", "wikiSlug": "4.2-kiloyear_event", "type": "concept"},
-    {"term": "Akkadian Empire", "matchText": "Akkadian Empire", "wikiSlug": "Akkadian_Empire", "type": "concept"},
-    {"term": "Sargon of Akkad", "matchText": "Sargon", "wikiSlug": "Sargon_of_Akkad", "type": "people"},
-    {"term": "Old Kingdom", "matchText": "Old Kingdom", "wikiSlug": "Old_Kingdom_of_Egypt", "type": "concept"},
-    {"term": "Liangzhu culture", "matchText": "Liangzhu", "wikiSlug": "Liangzhu_culture", "type": "concept"},
-    {"term": "Yu the Great", "matchText": "Yu the Great", "wikiSlug": "Yu_the_Great", "type": "people"},
-    {"term": "Xia dynasty", "matchText": "Xia Dynasty", "wikiSlug": "Xia_dynasty", "type": "concept"},
-    {"term": "Jishi Gorge", "matchText": "Jishi Gorge", "wikiSlug": "Jishi_Gorge", "type": "place"},
-    {"term": "Yamuna", "matchText": "Yamuna", "wikiSlug": "Yamuna", "type": "place"},
-    {"term": "Ganges", "matchText": "Ganges", "wikiSlug": "Ganges", "type": "place"},
-    {"term": "Third Dynasty of Ur", "matchText": "Third Dynasty of Ur", "wikiSlug": "Third_Dynasty_of_Ur", "type": "concept"},
-    {"term": "doab", "matchText": "doab", "wikiSlug": "Doab", "type": "concept"},
-    {"term": "Mortimer Wheeler", "matchText": "Mortimer Wheeler", "wikiSlug": "Mortimer_Wheeler", "type": "people"},
-    {"term": "Aryan invasion theory", "matchText": "\"Aryan invasion\" theory", "wikiSlug": "Indo-Aryan_migrations", "type": "concept"},
-    {"term": "Cemetery H culture", "matchText": "Cemetery H culture", "wikiSlug": "Cemetery_H_culture", "type": "concept"},
-    {"term": "cremation", "matchText": "cremation", "wikiSlug": "Cremation", "type": "concept"},
-    {"term": "pipal tree", "matchText": "pipal trees", "wikiSlug": "Ficus_religiosa", "type": "concept"},
-    {"term": "Indo-Aryan peoples", "matchText": "Indo-Aryan", "wikiSlug": "Indo-Aryan_peoples", "type": "people"},
-    {"term": "Bactrian camel", "matchText": "Bactrian camel", "wikiSlug": "Bactrian_camel", "type": "concept"}
+    {
+      "term": "4.2 kiloyear event",
+      "matchText": "4.2 kiloyear event",
+      "wikiSlug": "4.2-kiloyear_event",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian Empire",
+      "matchText": "Akkadian Empire",
+      "wikiSlug": "Akkadian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Sargon of Akkad",
+      "matchText": "Sargon",
+      "wikiSlug": "Sargon_of_Akkad",
+      "type": "people"
+    },
+    {
+      "term": "Old Kingdom",
+      "matchText": "Old Kingdom",
+      "wikiSlug": "Old_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Liangzhu culture",
+      "matchText": "Liangzhu",
+      "wikiSlug": "Liangzhu_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Yu the Great",
+      "matchText": "Yu the Great",
+      "wikiSlug": "Yu_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Xia dynasty",
+      "matchText": "Xia Dynasty",
+      "wikiSlug": "Xia_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Jishi Gorge",
+      "matchText": "Jishi Gorge",
+      "wikiSlug": "Jishi_Gorge",
+      "type": "place"
+    },
+    {
+      "term": "Yamuna",
+      "matchText": "Yamuna",
+      "wikiSlug": "Yamuna",
+      "type": "place"
+    },
+    {
+      "term": "Ganges",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Third Dynasty of Ur",
+      "matchText": "Third Dynasty of Ur",
+      "wikiSlug": "Third_Dynasty_of_Ur",
+      "type": "concept"
+    },
+    {
+      "term": "doab",
+      "matchText": "doab",
+      "wikiSlug": "Doab",
+      "type": "concept"
+    },
+    {
+      "term": "Mortimer Wheeler",
+      "matchText": "Mortimer Wheeler",
+      "wikiSlug": "Mortimer_Wheeler",
+      "type": "people"
+    },
+    {
+      "term": "Aryan invasion theory",
+      "matchText": "\"Aryan invasion\" theory",
+      "wikiSlug": "Indo-Aryan_migrations",
+      "type": "concept"
+    },
+    {
+      "term": "Cemetery H culture",
+      "matchText": "Cemetery H culture",
+      "wikiSlug": "Cemetery_H_culture",
+      "type": "concept"
+    },
+    {
+      "term": "cremation",
+      "matchText": "cremation",
+      "wikiSlug": "Cremation",
+      "type": "concept"
+    },
+    {
+      "term": "pipal tree",
+      "matchText": "pipal trees",
+      "wikiSlug": "Ficus_religiosa",
+      "type": "concept"
+    },
+    {
+      "term": "Indo-Aryan peoples",
+      "matchText": "Indo-Aryan",
+      "wikiSlug": "Indo-Aryan_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Bactrian camel",
+      "matchText": "Bactrian camel",
+      "wikiSlug": "Bactrian_camel",
+      "type": "concept"
+    }
   ],
   "10": [
-    {"term": "Eurasian steppe", "matchText": "Eurasian steppe", "wikiSlug": "Eurasian_Steppe", "type": "place"},
-    {"term": "Hindu Kush", "matchText": "Hindu Kush", "wikiSlug": "Hindu_Kush", "type": "place"},
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "Indo-Aryan peoples", "matchText": "Indo-Aryans", "wikiSlug": "Indo-Aryan_peoples", "type": "people"},
-    {"term": "Sanskrit", "matchText": "Sanskrit", "wikiSlug": "Sanskrit", "type": "language"},
-    {"term": "Indo-European languages", "matchText": "Indo-European language", "wikiSlug": "Indo-European_languages", "type": "language"},
-    {"term": "Indo-Iranian languages", "matchText": "Indo-Iranian", "wikiSlug": "Indo-Iranian_languages", "type": "language"},
-    {"term": "Achaemenid Empire", "matchText": "Achaemenid Empire", "wikiSlug": "Achaemenid_Empire", "type": "concept"},
-    {"term": "chariot", "matchText": "chariot", "wikiSlug": "Chariot", "type": "concept"},
-    {"term": "Mitanni", "matchText": "Mitanni", "wikiSlug": "Mitanni", "type": "people"},
-    {"term": "Mitra", "matchText": "Mitra", "wikiSlug": "Mitra", "type": "concept"},
-    {"term": "Varuna", "matchText": "Varuna", "wikiSlug": "Varuna", "type": "concept"},
-    {"term": "Rigveda", "matchText": "Rigveda", "wikiSlug": "Rigveda", "type": "concept"},
-    {"term": "Indra", "matchText": "Indra", "wikiSlug": "Indra", "type": "concept"},
-    {"term": "Agni", "matchText": "Agni", "wikiSlug": "Agni", "type": "concept"},
-    {"term": "yajna", "matchText": "yajna", "wikiSlug": "Yajna", "type": "concept"},
-    {"term": "varna", "matchText": "varna", "wikiSlug": "Varna_(Hinduism)", "type": "concept"},
-    {"term": "Brahmin", "matchText": "Brahmins", "wikiSlug": "Brahmin", "type": "concept"},
-    {"term": "Kshatriya", "matchText": "Kshatriyas", "wikiSlug": "Kshatriya", "type": "concept"},
-    {"term": "Vaishya", "matchText": "Vaishyas", "wikiSlug": "Vaishya", "type": "concept"},
-    {"term": "Shudra", "matchText": "Shudras", "wikiSlug": "Shudra", "type": "concept"},
-    {"term": "caste system", "matchText": "caste", "wikiSlug": "Caste_system_in_India", "type": "concept"},
-    {"term": "Dravidian languages", "matchText": "Dravidian", "wikiSlug": "Dravidian_languages", "type": "language"},
-    {"term": "pipal tree", "matchText": "pipal tree", "wikiSlug": "Ficus_religiosa", "type": "concept"},
-    {"term": "Nandi", "matchText": "Nandi", "wikiSlug": "Nandi_(Hinduism)", "type": "concept"},
-    {"term": "Upanishads", "matchText": "Upanishads", "wikiSlug": "Upanishads", "type": "concept"},
-    {"term": "Mahabharata", "matchText": "Mahabharata", "wikiSlug": "Mahabharata", "type": "concept"},
-    {"term": "Ramayana", "matchText": "Ramayana", "wikiSlug": "Ramayana", "type": "concept"},
-    {"term": "Maurya Empire", "matchText": "Maurya Empire", "wikiSlug": "Maurya_Empire", "type": "concept"},
-    {"term": "Mughal Empire", "matchText": "Mughal Empire", "wikiSlug": "Mughal_Empire", "type": "concept"},
-    {"term": "British Raj", "matchText": "British Raj", "wikiSlug": "British_Raj", "type": "concept"}
+    {
+      "term": "Eurasian steppe",
+      "matchText": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
+    },
+    {
+      "term": "Hindu Kush",
+      "matchText": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush",
+      "type": "place"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Indo-Aryan peoples",
+      "matchText": "Indo-Aryans",
+      "wikiSlug": "Indo-Aryan_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "language"
+    },
+    {
+      "term": "Indo-European languages",
+      "matchText": "Indo-European language",
+      "wikiSlug": "Indo-European_languages",
+      "type": "language"
+    },
+    {
+      "term": "Indo-Iranian languages",
+      "matchText": "Indo-Iranian",
+      "wikiSlug": "Indo-Iranian_languages",
+      "type": "language"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "chariot",
+      "matchText": "chariot",
+      "wikiSlug": "Chariot",
+      "type": "concept"
+    },
+    {
+      "term": "Mitanni",
+      "matchText": "Mitanni",
+      "wikiSlug": "Mitanni",
+      "type": "people"
+    },
+    {
+      "term": "Mitra",
+      "matchText": "Mitra",
+      "wikiSlug": "Mitra",
+      "type": "concept"
+    },
+    {
+      "term": "Varuna",
+      "matchText": "Varuna",
+      "wikiSlug": "Varuna",
+      "type": "concept"
+    },
+    {
+      "term": "Rigveda",
+      "matchText": "Rigveda",
+      "wikiSlug": "Rigveda",
+      "type": "concept"
+    },
+    {
+      "term": "Indra",
+      "matchText": "Indra",
+      "wikiSlug": "Indra",
+      "type": "concept"
+    },
+    {
+      "term": "Agni",
+      "matchText": "Agni",
+      "wikiSlug": "Agni",
+      "type": "concept"
+    },
+    {
+      "term": "yajna",
+      "matchText": "yajna",
+      "wikiSlug": "Yajna",
+      "type": "concept"
+    },
+    {
+      "term": "varna",
+      "matchText": "varna",
+      "wikiSlug": "Varna_(Hinduism)",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmin",
+      "matchText": "Brahmins",
+      "wikiSlug": "Brahmin",
+      "type": "concept"
+    },
+    {
+      "term": "Kshatriya",
+      "matchText": "Kshatriyas",
+      "wikiSlug": "Kshatriya",
+      "type": "concept"
+    },
+    {
+      "term": "Vaishya",
+      "matchText": "Vaishyas",
+      "wikiSlug": "Vaishya",
+      "type": "concept"
+    },
+    {
+      "term": "Shudra",
+      "matchText": "Shudras",
+      "wikiSlug": "Shudra",
+      "type": "concept"
+    },
+    {
+      "term": "caste system",
+      "matchText": "caste",
+      "wikiSlug": "Caste_system_in_India",
+      "type": "concept"
+    },
+    {
+      "term": "Dravidian languages",
+      "matchText": "Dravidian",
+      "wikiSlug": "Dravidian_languages",
+      "type": "language"
+    },
+    {
+      "term": "pipal tree",
+      "matchText": "pipal tree",
+      "wikiSlug": "Ficus_religiosa",
+      "type": "concept"
+    },
+    {
+      "term": "Nandi",
+      "matchText": "Nandi",
+      "wikiSlug": "Nandi_(Hinduism)",
+      "type": "concept"
+    },
+    {
+      "term": "Upanishads",
+      "matchText": "Upanishads",
+      "wikiSlug": "Upanishads",
+      "type": "concept"
+    },
+    {
+      "term": "Mahabharata",
+      "matchText": "Mahabharata",
+      "wikiSlug": "Mahabharata",
+      "type": "concept"
+    },
+    {
+      "term": "Ramayana",
+      "matchText": "Ramayana",
+      "wikiSlug": "Ramayana",
+      "type": "concept"
+    },
+    {
+      "term": "Maurya Empire",
+      "matchText": "Maurya Empire",
+      "wikiSlug": "Maurya_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mughal Empire",
+      "matchText": "Mughal Empire",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "British Raj",
+      "matchText": "British Raj",
+      "wikiSlug": "British_Raj",
+      "type": "concept"
+    }
   ]
 }
