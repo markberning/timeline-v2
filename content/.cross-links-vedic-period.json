@@ -23,6 +23,24 @@
       "targetTl": "shang-dynasty",
       "targetChapter": 5,
       "blurb": "The Shang dynasty was building chariot armies at roughly the same time the Indo-Aryans were composing hymns celebrating chariot warfare. Whether the Chinese chariot was independently invented or transmitted from the West via the steppe is debated, but the timing is remarkably close — chariot technology transformed warfare on both sides of Asia simultaneously."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 5,
+      "blurb": "The Vedic peoples moved into a land the great Indus cities had already emptied — they inherited the ruins, not the civilization, and remembered none of it."
+    },
+    {
+      "matchText": "Mycenaean",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 2,
+      "blurb": "The same centuries that brought chariot aristocracies to India brought them to Greece — Vedic raja and Mycenaean wanax are branches of one Indo-European warrior culture."
+    },
+    {
+      "matchText": "New Kingdom Egypt",
+      "targetTl": "new-kingdom-egypt",
+      "targetChapter": 1,
+      "blurb": "The horse-and-chariot revolution that defined the Vedic elite was remaking warfare everywhere at once — including New Kingdom Egypt's chariot armies."
     }
   ],
   "2": [
@@ -31,6 +49,12 @@
       "targetTl": "hittite-empire",
       "targetChapter": 5,
       "blurb": "The Battle of Kadesh in 1274 BCE between the Hittites and Ramesses II of Egypt was the largest chariot battle in history — roughly 5,000 chariots on each side. It is roughly contemporary with the Battle of the Ten Kings described in the Rigveda, making both among the oldest battles described in any literature."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "The Vedas are oral, memorized, vowel-perfect — and they describe a world with no cities, the photographic negative of the silent, urban, literate Indus."
     }
   ],
   "3": [
@@ -45,14 +69,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "China's iron technology developed later than India's but advanced faster — by the 5th century BCE, Chinese foundries were producing cast iron using blast furnaces, a technique Europe would not master for another two thousand years. India was smelting iron earlier, but China industrialized it first."
-    }
-  ],
-  "4": [
+    },
     {
-      "matchText": "colonial administration",
-      "targetTl": "indus-valley",
-      "targetChapter": 1,
-      "blurb": "The same British colonial administration that rigidified the caste system through census classification was also the institution that accidentally discovered the Indus Valley Civilization — when railway workers digging ballast in the 1850s unearthed ancient bricks at Harappa. Colonial archaeology and colonial sociology were reshaping Indian history simultaneously, often in distorting ways."
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 6,
+      "blurb": "Vedic fire sacrifice and the Hittite state cult share Indo-European bones — ritual as the technology that binds gods, kings, and people."
     }
   ],
   "4": [
@@ -95,6 +117,12 @@
       "targetTl": "new-kingdom-egypt",
       "targetChapter": 1,
       "blurb": "Egypt had been building monumental architecture for two and a half millennia by the time India's second urbanization began around 600 BCE. The New Kingdom pharaohs ruled an empire stretching from Nubia to Syria — making India's cityless millennium between the Harappan decline and the Gangetic cities all the more striking in comparison."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "As the sixteen mahajanapadas consolidated toward empire, the Achaemenid Persians were annexing the Indus — the first great outside power to reach into the subcontinent."
     }
   ],
   "7": [
@@ -123,6 +151,12 @@
       "targetTl": "indus-valley",
       "targetChapter": 6,
       "blurb": "The Indus script, used across the Harappan civilization for over six centuries, remains undeciphered — and when it died out around 1700 BCE, the subcontinent entered a millennium-long writing gap. The Brahmi script that finally appeared around the 3rd century BCE has no demonstrable connection to the Indus script, making India unique among ancient civilizations in having two completely separate writing traditions."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "India arrived at the doorstep of empire — Magadha, the Mauryas — by the same road Mesopotamia had walked two millennia earlier: from competing kingdoms to a single throne."
     }
   ]
 }
