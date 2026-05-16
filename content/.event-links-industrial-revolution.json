@@ -1,0 +1,207 @@
+{
+  "1": [
+    {"eventId": "evt-great-divergence", "matchText": "the Great Divergence"},
+    {"eventId": "evt-india-deindustrialization", "matchText": "dominant exporter of cotton textiles"},
+    {"eventId": "evt-spinning-jenny", "matchText": "spinning jenny"},
+    {"eventId": "evt-adam-smith-wealth", "matchText": "Wealth of Nations"},
+    {"eventId": "evt-royal-society-of-arts", "matchText": "Royal Society"}
+  ],
+  "2": [
+    {"eventId": "evt-agricultural-revolution", "matchText": "Agricultural Revolution"},
+    {"eventId": "evt-bakewell-breeding", "matchText": "Robert Bakewell"},
+    {"eventId": "evt-enclosure-acts", "matchText": "enclosure"},
+    {"eventId": "evt-allen-high-wage-economy", "matchText": "high-wage economy"},
+    {"eventId": "evt-bank-of-england-matures", "matchText": "financial system in the world"},
+    {"eventId": "evt-patent-system", "matchText": "patent system"},
+    {"eventId": "evt-atlantic-trade-system", "matchText": "Atlantic empire"},
+    {"eventId": "evt-industrious-revolution", "matchText": "Industrious Revolution"},
+    {"eventId": "evt-mokyr-debate", "matchText": "Why Britain"}
+  ],
+  "3": [
+    {"eventId": "evt-flying-shuttle", "matchText": "flying shuttle"},
+    {"eventId": "evt-spinning-jenny", "matchText": "spinning jenny"},
+    {"eventId": "evt-water-frame", "matchText": "water frame"},
+    {"eventId": "evt-spinning-mule", "matchText": "spinning mule"},
+    {"eventId": "evt-cromford-mill", "matchText": "Cromford"},
+    {"eventId": "evt-arkwright-factory-system", "matchText": "Arkwright's genius"},
+    {"eventId": "evt-manchester-cottonopolis", "matchText": "Cottonopolis"},
+    {"eventId": "evt-cotton-gin", "matchText": "cotton gin"},
+    {"eventId": "evt-handloom-weavers-decline", "matchText": "hand-weavers of Bengal"}
+  ],
+  "4": [
+    {"eventId": "evt-savery-engine", "matchText": "Thomas Savery"},
+    {"eventId": "evt-newcomen-engine", "matchText": "Thomas Newcomen"},
+    {"eventId": "evt-watt-condenser-idea", "matchText": "separate condenser"},
+    {"eventId": "evt-watt-boulton-partnership", "matchText": "Boulton"},
+    {"eventId": "evt-watt-rotary-motion", "matchText": "rotary motion"},
+    {"eventId": "evt-watt-horsepower", "matchText": "horsepower"},
+    {"eventId": "evt-watt-steam-engine", "matchText": "James Watt"},
+    {"eventId": "evt-lunar-society", "matchText": "Birmingham manufacturer"}
+  ],
+  "5": [
+    {"eventId": "evt-darby-coke-smelting", "matchText": "Abraham Darby"},
+    {"eventId": "evt-coalbrookdale-ironworks", "matchText": "Coalbrookdale"},
+    {"eventId": "evt-iron-bridge", "matchText": "world's first great iron bridge"},
+    {"eventId": "evt-cort-puddling", "matchText": "Henry Cort"},
+    {"eventId": "evt-davy-lamp", "matchText": "Humphry Davy"},
+    {"eventId": "evt-maudslay-lathe", "matchText": "Henry Maudslay"},
+    {"eventId": "evt-whitworth-standards", "matchText": "Joseph Whitworth"},
+    {"eventId": "evt-nasmyth-steam-hammer", "matchText": "James Nasmyth"},
+    {"eventId": "evt-coal-deep-mining", "matchText": "firedamp"},
+    {"eventId": "evt-bramah-press", "matchText": "Joseph Bramah"}
+  ],
+  "6": [
+    {"eventId": "evt-clock-time-discipline", "matchText": "time discipline"},
+    {"eventId": "evt-women-factory-labor", "matchText": "women and children"},
+    {"eventId": "evt-robert-owen-new-lanark", "matchText": "New Lanark"},
+    {"eventId": "evt-factory-towns", "matchText": "mill town"},
+    {"eventId": "evt-methodist-movement", "matchText": "Methodist revival"},
+    {"eventId": "evt-sunday-schools", "matchText": "Sunday School"}
+  ],
+  "7": [
+    {"eventId": "evt-bridgewater-canal", "matchText": "Bridgewater Canal"},
+    {"eventId": "evt-canal-mania", "matchText": "Canal Mania"},
+    {"eventId": "evt-navvies", "matchText": "navvies"}
+  ],
+  "8": [
+    {"eventId": "evt-trevithick-locomotive", "matchText": "Richard Trevithick"},
+    {"eventId": "evt-stockton-darlington", "matchText": "Stockton"},
+    {"eventId": "evt-rainhill-trials", "matchText": "Rainhill Trials"},
+    {"eventId": "evt-stephenson-rocket", "matchText": "Rocket"},
+    {"eventId": "evt-liverpool-manchester", "matchText": "Liverpool"},
+    {"eventId": "evt-railway-mania", "matchText": "Railway Mania"},
+    {"eventId": "evt-brunel-great-western", "matchText": "Great Western Railway"},
+    {"eventId": "evt-ss-great-britain", "matchText": "Great Britain"},
+    {"eventId": "evt-railway-time", "matchText": "railway time"}
+  ],
+  "9": [
+    {"eventId": "evt-adam-smith-wealth", "matchText": "Adam Smith"},
+    {"eventId": "evt-ricardo-political-economy", "matchText": "David Ricardo"},
+    {"eventId": "evt-anti-corn-law-league", "matchText": "Anti-Corn Law League"},
+    {"eventId": "evt-corn-laws-repeal", "matchText": "repealed the Corn Laws"},
+    {"eventId": "evt-irish-famine", "matchText": "Irish Famine"},
+    {"eventId": "evt-great-exhibition", "matchText": "Great Exhibition of 1851"},
+    {"eventId": "evt-crystal-palace", "matchText": "Crystal Palace"},
+    {"eventId": "evt-urbanization-majority", "matchText": "more people lived in towns"},
+    {"eventId": "evt-cobden-bright-free-trade", "matchText": "Richard Cobden"}
+  ],
+  "10": [
+    {"eventId": "evt-engels-condition", "matchText": "Condition of the Working Class in England"},
+    {"eventId": "evt-cholera-epidemics", "matchText": "cholera"},
+    {"eventId": "evt-snow-cholera", "matchText": "John Snow"},
+    {"eventId": "evt-chadwick-sanitary-report", "matchText": "Edwin Chadwick"},
+    {"eventId": "evt-public-health-act-1848", "matchText": "Public Health Act"},
+    {"eventId": "evt-great-stink", "matchText": "Great Stink"},
+    {"eventId": "evt-bazalgette-sewers", "matchText": "Joseph Bazalgette"},
+    {"eventId": "evt-life-expectancy-turn", "matchText": "Living standards finally rise"}
+  ],
+  "11": [
+    {"eventId": "evt-luddites", "matchText": "Luddites"},
+    {"eventId": "evt-frame-breaking-act", "matchText": "capital crime"},
+    {"eventId": "evt-peterloo", "matchText": "Peterloo Massacre"},
+    {"eventId": "evt-six-acts", "matchText": "Six Acts"},
+    {"eventId": "evt-swing-riots", "matchText": "Swing Riots"},
+    {"eventId": "evt-combination-acts", "matchText": "Combination Acts"},
+    {"eventId": "evt-trade-unions-legalized", "matchText": "repealed in 1824"},
+    {"eventId": "evt-tolpuddle-martyrs", "matchText": "Tolpuddle Martyrs"},
+    {"eventId": "evt-handloom-weavers-decline", "matchText": "handloom weavers"},
+    {"eventId": "evt-power-loom", "matchText": "power loom"}
+  ],
+  "12": [
+    {"eventId": "evt-reform-act-1832", "matchText": "Great Reform Act of 1832"},
+    {"eventId": "evt-chartism", "matchText": "Chartism"},
+    {"eventId": "evt-peoples-charter", "matchText": "People's Charter"},
+    {"eventId": "evt-feargus-oconnor", "matchText": "Feargus O'Connor"},
+    {"eventId": "evt-kennington-common", "matchText": "Kennington Common"},
+    {"eventId": "evt-reform-act-1867", "matchText": "Reform Acts of 1867"}
+  ],
+  "13": [
+    {"eventId": "evt-sadler-report", "matchText": "Michael Sadler"},
+    {"eventId": "evt-factory-act-1833", "matchText": "Factory Act of 1833"},
+    {"eventId": "evt-mines-act-1842", "matchText": "Mines and Collieries Act"},
+    {"eventId": "evt-ten-hours-act", "matchText": "Ten Hours Act"},
+    {"eventId": "evt-shaftesbury-reform", "matchText": "Lord Shaftesbury"},
+    {"eventId": "evt-clapham-sect", "matchText": "Clapham Sect"},
+    {"eventId": "evt-wilberforce-abolitionist", "matchText": "William Wilberforce"},
+    {"eventId": "evt-abolition-slave-trade", "matchText": "slave trade in 1807"},
+    {"eventId": "evt-slavery-abolition-1833", "matchText": "slavery itself across the empire in 1833"},
+    {"eventId": "evt-dickens-oliver-twist", "matchText": "Oliver Twist"},
+    {"eventId": "evt-carlyle-chartism", "matchText": "Condition of England Question"},
+    {"eventId": "evt-disraeli-two-nations", "matchText": "two nations"},
+    {"eventId": "evt-mayhew-london-labour", "matchText": "Henry Mayhew"}
+  ],
+  "14": [
+    {"eventId": "evt-malthus-population", "matchText": "Thomas Malthus"},
+    {"eventId": "evt-poor-law-1834", "matchText": "New Poor Law"},
+    {"eventId": "evt-irish-famine", "matchText": "Irish Famine"},
+    {"eventId": "evt-bentham-utilitarianism", "matchText": "Jeremy Bentham"},
+    {"eventId": "evt-mill-on-liberty", "matchText": "On Liberty"},
+    {"eventId": "evt-cooperative-movement", "matchText": "Rochdale Pioneers"},
+    {"eventId": "evt-communist-manifesto", "matchText": "Communist Manifesto"},
+    {"eventId": "evt-marx-capital", "matchText": "Karl Marx"},
+    {"eventId": "evt-revolutions-1848", "matchText": "revolution swept the Continent"},
+    {"eventId": "evt-marx-engels-partnership", "matchText": "Friedrich Engels"},
+    {"eventId": "evt-mill-principles-political-economy", "matchText": "John Stuart Mill"}
+  ],
+  "15": [
+    {"eventId": "evt-continental-blockade-tech-transfer", "matchText": "British technology crosses the Channel"},
+    {"eventId": "evt-cockerill-seraing", "matchText": "Seraing"},
+    {"eventId": "evt-list-national-system", "matchText": "Friedrich List"},
+    {"eventId": "evt-zollverein", "matchText": "Zollverein"},
+    {"eventId": "evt-krupp-essen", "matchText": "Krupp works at Essen"}
+  ],
+  "16": [
+    {"eventId": "evt-slater-mill", "matchText": "Samuel Slater"},
+    {"eventId": "evt-lowell-system", "matchText": "Lowell system"},
+    {"eventId": "evt-american-system-manufactures", "matchText": "American System of Manufactures"},
+    {"eventId": "evt-eli-whitney-interchangeable", "matchText": "interchangeable"},
+    {"eventId": "evt-american-civil-war-cotton", "matchText": "American Civil War"},
+    {"eventId": "evt-us-industrial-takeoff", "matchText": "Lancashire Cotton Famine"},
+    {"eventId": "evt-us-largest-economy", "matchText": "largest economy on the planet"}
+  ],
+  "17": [
+    {"eventId": "evt-second-industrial-revolution", "matchText": "Second Industrial Revolution"},
+    {"eventId": "evt-bessemer-process", "matchText": "Henry Bessemer"},
+    {"eventId": "evt-perkin-mauveine", "matchText": "William Perkin"},
+    {"eventId": "evt-german-chemical-industry", "matchText": "German chemical industry"},
+    {"eventId": "evt-faraday-induction", "matchText": "Michael Faraday"},
+    {"eventId": "evt-edison-incandescent-lamp", "matchText": "Thomas Edison"},
+    {"eventId": "evt-pearl-street-station", "matchText": "Pearl Street station"},
+    {"eventId": "evt-tesla-ac-system", "matchText": "alternating current"},
+    {"eventId": "evt-benz-automobile", "matchText": "Karl Benz"},
+    {"eventId": "evt-thermodynamics", "matchText": "thermodynamics"},
+    {"eventId": "evt-assembly-line-precursor", "matchText": "moving assembly line"}
+  ],
+  "18": [
+    {"eventId": "evt-long-depression", "matchText": "Long Depression"},
+    {"eventId": "evt-bismarck-welfare", "matchText": "Bismarck's Germany invented"},
+    {"eventId": "evt-limited-liability-act", "matchText": "limited liability"},
+    {"eventId": "evt-carnegie-steel", "matchText": "Andrew Carnegie"},
+    {"eventId": "evt-standard-oil-trust", "matchText": "Standard Oil"},
+    {"eventId": "evt-sherman-antitrust", "matchText": "antitrust law"},
+    {"eventId": "evt-taylor-scientific-management", "matchText": "Frederick Taylor"},
+    {"eventId": "evt-meiji-restoration", "matchText": "Meiji"},
+    {"eventId": "evt-japan-state-industry", "matchText": "zaibatsu"},
+    {"eventId": "evt-germany-overtakes-britain", "matchText": "German steel, chemical, and electrical output"},
+    {"eventId": "evt-us-largest-economy", "matchText": "largest economy on Earth"}
+  ],
+  "19": [
+    {"eventId": "evt-india-deindustrialization", "matchText": "deindustrialized India"},
+    {"eventId": "evt-opium-wars", "matchText": "Opium Wars"},
+    {"eventId": "evt-scramble-for-africa", "matchText": "Scramble for Africa"},
+    {"eventId": "evt-maxim-gun", "matchText": "Maxim gun"},
+    {"eventId": "evt-transatlantic-cable", "matchText": "submarine telegraph cable"},
+    {"eventId": "evt-gold-standard-international", "matchText": "international gold standard"},
+    {"eventId": "evt-refrigerated-shipping", "matchText": "refrigerated meat shipped across oceans"},
+    {"eventId": "evt-arrhenius-greenhouse", "matchText": "Svante Arrhenius"},
+    {"eventId": "evt-fossil-carbon-legacy", "matchText": "carbon ledger and the colonial ledger"},
+    {"eventId": "evt-statue-of-liberty", "matchText": "largest voluntary migration"}
+  ],
+  "20": [
+    {"eventId": "evt-pomeranz-california-school", "matchText": "Kenneth Pomeranz"},
+    {"eventId": "evt-allen-high-wage-economy", "matchText": "Robert Allen"},
+    {"eventId": "evt-mokyr-debate", "matchText": "Joel Mokyr"},
+    {"eventId": "evt-great-divergence", "matchText": "Great Divergence"},
+    {"eventId": "evt-fossil-carbon-legacy", "matchText": "the carbon"}
+  ]
+}
