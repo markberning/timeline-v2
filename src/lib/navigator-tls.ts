@@ -106,7 +106,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'srivijaya', label: 'Srivijaya', subtitle: "Sumatra's maritime Buddhist empire", region: 'asia', startYear: 650, endYear: 1377, hasContent: true },
   { id: 'khmer-empire', label: 'Khmer Empire', subtitle: "Cambodia's Angkor Wat builders", region: 'asia', startYear: 802, endYear: 1431, hasContent: true },
   { id: 'dai-viet', label: 'Đại Việt', subtitle: "Vietnam's thousand-year independence", region: 'asia', startYear: 939, endYear: 1804, hasContent: true },
-  { id: 'majapahit', label: 'Majapahit', subtitle: "Java's golden age archipelago empire", region: 'asia', startYear: 1293, endYear: 1527 },
+  { id: 'majapahit', label: 'Majapahit', subtitle: "Java's golden age archipelago empire", region: 'asia', startYear: 1293, endYear: 1527, hasContent: true },
 
   // ── EUROPE ──
   { id: 'minoan-civilization', label: 'Minoan', subtitle: "Crete's bull-leaping palace culture", region: 'europe', startYear: -7000, endYear: -1100, hasContent: true },

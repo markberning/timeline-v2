@@ -188,6 +188,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'rise-of-china.md': 'rise-of-china',
   'khmer-empire.md': 'khmer-empire',
   'dai-viet.md': 'dai-viet',
+  'majapahit.md': 'majapahit',
 }
 
 function slugify(title: string): string {
