@@ -125,7 +125,7 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 - **The informal voice is the product** — don't sand it down
 
 ## Civilization Roadmap
-89 of 95 navigator TLs shipped. Narratives follow chain order from `reference-data/tl-chains.ts`. (medieval-europe omnibus split into early/high/late; ancient-japan omnibus split into prehistoric/asuka-nara/heian.)
+89 of 100 navigator TLs shipped. Narratives follow chain order from `reference-data/tl-chains.ts`. (medieval-europe omnibus split into early/high/late; ancient-japan omnibus split into prehistoric/asuka-nara/heian; the Northern European chain gained a 5-TL Germanic sub-chain bridging the old 50 BCE–793 CE gap.)
 
 **Near East:** ✅ umayyad-caliphate (8 ch) → islamic-golden-age (links via Abbasid revolution)
 **Mesopotamian Succession:** ✅ mesopotamia (13 ch) · ✅ assyrian-empire (8 ch) · ✅ islamic-golden-age (10 ch)
@@ -143,14 +143,14 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 **Korean Civilization:** ✅ ancient-korea (8 ch) · ✅ joseon-korea (8 ch) · ✅ korean-modern (8 ch)
 **Anatolian Succession:** ✅ hittite-empire (8 ch) · ✅ ottoman-empire (12 ch)
 **Central Asian Steppe:** ✅ scythians (8 ch) · ✅ xiongnu-huns (8 ch) · ✅ gokturk-khaganate (8 ch) · ✅ mongol-empire (9 ch) · ✅ timurid-empire (8 ch)
-**Northern European:** ✅ celtic-cultures (8 ch) · ✅ viking-age (8 ch)
+**Northern European:** ✅ celtic-cultures (8 ch) · 🚧 germanic-tribes · 🚧 the-goths · 🚧 migration-period · 🚧 anglo-saxon-england · 🚧 vendel-scandinavia · ✅ viking-age (8 ch) — 🚧 = spine laid (navigator entry, chain transitions, reference-data skeleton), narrative pending. Chain order: celtic → germanic-tribes → the-goths → migration-period → anglo-saxon-england → vendel-scandinavia → viking-age.
 **Russian Civilization:** ✅ kievan-rus (12 ch) · ✅ russian-empire (20 ch) · ✅ soviet-union (20 ch) — chain: Rus' 882–1240 → Empire 1721–1917 → USSR 1922–1991
 **Japanese Civilization:** ✅ prehistoric-japan (8 ch) · ✅ asuka-nara-japan (8 ch) · ✅ heian-japan (8 ch) · ✅ edo-japan (8 ch) · ✅ meiji-japan (8 ch) · ✅ japanese-economic-miracle (8 ch)
 **Standalone:** ✅ phoenicia (8 ch) · ✅ polynesian-voyagers (8 ch) · ✅ ancient-israel (8 ch) · ✅ carthage (8 ch)
 
-**Remaining (6, all North American):** mississippian-culture · early-american-republic · antebellum-america · reconstruction · roaring-twenties · civil-rights-era — these are the only TLs left without `hasContent: true` in `navigator-tls.ts` (the authoritative source; the ✅ marks above can lag behind it).
+**Remaining (11):** *North American (6):* mississippian-culture · early-american-republic · antebellum-america · reconstruction · roaring-twenties · civil-rights-era. *Germanic sub-chain (5, spine laid):* germanic-tribes · the-goths · migration-period · anglo-saxon-england · vendel-scandinavia. These are the only TLs left without `hasContent: true` in `navigator-tls.ts` (the authoritative source; the ✅ marks above can lag behind it).
 
-**Maps pending Gemini generation:** none — all shipped TLs have chapter maps. New TLs go through `scripts/generate-maps.mjs <tlId>` (gemini-3-pro-image-preview), audit, regen if needed, then `scripts/optimize-maps.mjs`.
+**Maps pending Gemini generation:** the 5 Germanic sub-chain TLs once their narratives are written (maps are pipeline step 12, post-narrative). All other shipped TLs have chapter maps. New TLs go through `scripts/generate-maps.mjs <tlId>` (gemini-3-pro-image-preview), audit, regen if needed, then `scripts/optimize-maps.mjs`.
 
 ## Color System
 - **Region-driven accent colors** in `src/lib/accent-colors.ts`: Near East = amber `#d97706`, Africa = rust `#b44d3b`, Asia = violet `#7c3aed`, Europe = blue `#1d4ed8`, Americas = green `#047857`.

@@ -195,7 +195,12 @@ export const TL_CHAINS: TlChain[] = [
     shortLabel: 'N Europe',
     origins: 'Before the Romans reached northern Europe, Celtic-speaking peoples had built a sophisticated Iron Age civilization across the continent — with salt mines, hilltop fortresses, and an artistic tradition that rivaled anything in the Mediterranean.',
     entries: [
-      { timelineId: 'celtic-cultures', transition: 'Roman conquest destroyed Celtic political independence in Gaul and Britain, but Celtic culture survived on the fringes — in Ireland, Scotland, and Wales. Centuries later, Scandinavian raiders burst from the same northern edge of Europe.' },
+      { timelineId: 'celtic-cultures', transition: 'Roman conquest destroyed Celtic political independence in Gaul and Britain, but the legions stopped at the Rhine and the Danube. Beyond those rivers lived the peoples Rome could never digest — the Germanic tribes who would spend four centuries as the empire\'s most dangerous frontier.' },
+      { timelineId: 'germanic-tribes', transition: 'For four centuries the Germanic peoples raided, traded, and served as Rome\'s auxiliaries without ever toppling it. Then one confederation, remembering an origin across the Baltic, moved south and east in a body — the Goths, who would do what no German had done before: kill an emperor and sack Rome itself.' },
+      { timelineId: 'the-goths', transition: 'The Gothic breakthrough at Adrianople in 378 cracked the dam. Behind them came the Huns who had set them moving, and behind the Huns a whole continent of peoples in motion — Vandals, Suebi, Burgundians, Lombards — pouring across a Western Empire that no longer had the strength to stop them.' },
+      { timelineId: 'migration-period', transition: 'As the Vandals took Carthage and the Lombards took Italy, a quieter migration crossed the cold North Sea. Angles, Saxons, and Jutes settled a Britain the legions had abandoned, and over three centuries turned it into a patchwork of warring English kingdoms.' },
+      { timelineId: 'anglo-saxon-england', transition: 'By 700 the English kingdoms were Christian, literate, and consolidating under Mercia. But the decisive change was happening unseen in the Scandinavian homeland, where the boat-grave aristocracy of the Vendel age was perfecting the one technology that would change everything: the sailing ship.' },
+      { timelineId: 'vendel-scandinavia', transition: 'The sail reached Scandinavia, and with it the range to strike anywhere on the North Sea and return the same season. In 793 the first longships came out of that Vendel-age world and fell on Lindisfarne — and the Viking Age began.' },
       { timelineId: 'viking-age' },
     ],
   },
@@ -314,8 +319,10 @@ export const TL_CHAINS: TlChain[] = [
 //   Chains 2 existing orphans + 1 new TL
 //
 // Northern European — IMPLEMENTED as 'northern-european'
-//   celtic-cultures → viking-age (+ medieval-scandinavia planned)
-//   Theme: pre-Christian northern Europe, raids, settlement, conversion
+//   celtic-cultures → germanic-tribes → the-goths → migration-period
+//     → anglo-saxon-england → vendel-scandinavia → viking-age
+//   Germanic sub-chain (5 TLs) bridges the old 50 BCE–793 CE gap
+//   Theme: pre-Christian northern Europe, Rome's frontier, migrations, raids, conversion
 //
 // Western European Extended (expand existing chain or parallel track)
 //   Option A: Prepend holy-roman-empire → medieval-europe (already in Ideas chain)
