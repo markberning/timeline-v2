@@ -1,0 +1,109 @@
+{
+  "1": [
+    { "eventId": "evt-mp-huns-europe", "matchText": "Huns" },
+    { "eventId": "evt-mp-hunnic-society", "matchText": "Hunnic Society and Warfare" },
+    { "eventId": "evt-mp-gothic-refugees", "matchText": "Gothic Refugees Flood the Empire" },
+    { "eventId": "evt-mp-pontic-steppe-goths", "matchText": "The Huns Shatter the Greuthungi Goths" },
+    { "eventId": "evt-mp-adrianople", "matchText": "Battle of Adrianople" },
+    { "eventId": "evt-mp-theodosius-foedus", "matchText": "Theodosius Makes Peace with the Goths" },
+    { "eventId": "evt-mp-stilicho", "matchText": "Stilicho Commands the Western Army" },
+    { "eventId": "evt-mp-rhine-crossing", "matchText": "Crossing of the Rhine" }
+  ],
+  "2": [
+    { "eventId": "evt-mp-radagaisus", "matchText": "Radagaisus Invades Italy" },
+    { "eventId": "evt-mp-rhine-crossing", "matchText": "The Crossing of the Rhine" },
+    { "eventId": "evt-mp-vandals-gaul", "matchText": "Vandals, Suebi, and Alans Enter Gaul" },
+    { "eventId": "evt-mp-constantine-iii", "matchText": "Constantine III" },
+    { "eventId": "evt-mp-britain-abandoned", "matchText": "Rome Abandons Britain" },
+    { "eventId": "evt-mp-stilicho", "matchText": "Stilicho" },
+    { "eventId": "evt-mp-vandals-hispania", "matchText": "The Vandals Cross into Hispania" }
+  ],
+  "3": [
+    { "eventId": "evt-mp-federate-system", "matchText": "The Federate System Shapes the West" },
+    { "eventId": "evt-mp-burgundians", "matchText": "The Burgundian Kingdom on the Rhine" },
+    { "eventId": "evt-mp-visigoths-aquitaine", "matchText": "Visigoths Settled in Aquitaine" },
+    { "eventId": "evt-mp-alans-dispersed", "matchText": "The Alans Disperse into Hispania and Africa" },
+    { "eventId": "evt-mp-suebi-gallaecia", "matchText": "The Suebi Kingdom in Gallaecia" },
+    { "eventId": "evt-mp-vandals-hispania", "matchText": "Vandals Cross into Hispania" },
+    { "eventId": "evt-mp-annona-collapse", "matchText": "The Collapse of the Grain Fleet" },
+    { "eventId": "evt-mp-urban-contraction", "matchText": "Cities Shrink Across the West" }
+  ],
+  "4": [
+    { "eventId": "evt-mp-geiseric-africa", "matchText": "Geiseric Leads the Vandals into Africa" },
+    { "eventId": "evt-mp-vandal-hippo", "matchText": "Siege of Hippo Regius" },
+    { "eventId": "evt-mp-carthage-taken", "matchText": "The Vandals Take Carthage" },
+    { "eventId": "evt-mp-vandal-fleet", "matchText": "The Vandal Navy Dominates the Western Mediterranean" },
+    { "eventId": "evt-mp-vandal-grain-trade", "matchText": "The Vandals Control North African Grain" },
+    { "eventId": "evt-mp-sack-455", "matchText": "The Vandals Sack Rome" },
+    { "eventId": "evt-mp-annona-collapse", "matchText": "Collapse of the Grain Fleet" },
+    { "eventId": "evt-mp-vandal-culture", "matchText": "Vandal Court Culture in Carthage" }
+  ],
+  "5": [
+    { "eventId": "evt-mp-attila-rises", "matchText": "Attila Becomes King of the Huns" },
+    { "eventId": "evt-mp-bleda-killed", "matchText": "Attila Kills His Brother Bleda" },
+    { "eventId": "evt-mp-eastern-tribute", "matchText": "Attila Extracts Tribute from Constantinople" },
+    { "eventId": "evt-mp-hunnic-court", "matchText": "The Hunnic Court at the Theiss" },
+    { "eventId": "evt-mp-priscus-embassy", "matchText": "Priscus" },
+    { "eventId": "evt-mp-attila-gaul", "matchText": "Attila Invades Gaul" },
+    { "eventId": "evt-mp-catalaunian", "matchText": "Battle of the Catalaunian Plains" },
+    { "eventId": "evt-mp-theodoric-i-dies", "matchText": "Theodoric I Dies at the Catalaunian Plains" },
+    { "eventId": "evt-mp-attila-italy", "matchText": "Attila Invades Italy" },
+    { "eventId": "evt-mp-pope-leo-attila", "matchText": "Pope Leo I Meets Attila" },
+    { "eventId": "evt-mp-attila-death", "matchText": "Attila Dies" },
+    { "eventId": "evt-mp-nedao", "matchText": "Battle of Nedao" }
+  ],
+  "6": [
+    { "eventId": "evt-mp-aetius", "matchText": "Aetius" },
+    { "eventId": "evt-mp-valentinian-murdered", "matchText": "Valentinian III Murdered" },
+    { "eventId": "evt-mp-shadow-emperors", "matchText": "The Shadow Emperors of the West" },
+    { "eventId": "evt-mp-ricimer", "matchText": "Ricimer Controls the Western Court" },
+    { "eventId": "evt-mp-majorian", "matchText": "Majorian" },
+    { "eventId": "evt-mp-soissons", "matchText": "Domain of Soissons" },
+    { "eventId": "evt-mp-romulus-augustulus", "matchText": "Romulus Augustulus Deposed" },
+    { "eventId": "evt-mp-odoacer", "matchText": "Odoacer Rules Italy" },
+    { "eventId": "evt-mp-nepos-exile", "matchText": "Julius Nepos" }
+  ],
+  "7": [
+    { "eventId": "evt-mp-clovis-rises", "matchText": "Clovis Unites the Franks" },
+    { "eventId": "evt-mp-soissons-battle", "matchText": "Battle of Soissons" },
+    { "eventId": "evt-mp-clovis-baptism", "matchText": "The Baptism of Clovis" },
+    { "eventId": "evt-mp-clovis-church-alliance", "matchText": "The Frankish Church Alliance" },
+    { "eventId": "evt-mp-vouille", "matchText": "Battle of Vouille" },
+    { "eventId": "evt-mp-lex-salica", "matchText": "The Lex Salica Codified" },
+    { "eventId": "evt-mp-breviary-alaric", "matchText": "The Breviary of Alaric" },
+    { "eventId": "evt-mp-gundobad-law", "matchText": "Gundobad and Burgundian Law" },
+    { "eventId": "evt-mp-theodoric-ostrogoths", "matchText": "Theodoric the Great Conquers Italy" },
+    { "eventId": "evt-mp-theodoric-overlord", "matchText": "Theodoric as Overlord of the West" },
+    { "eventId": "evt-mp-boethius", "matchText": "Boethius and the Consolation of Philosophy" },
+    { "eventId": "evt-mp-arian-controversy", "matchText": "The Arian-Catholic Fault Line in Successor Kingdoms" },
+    { "eventId": "evt-mp-visigothic-conversion", "matchText": "The Visigothic Conversion to Catholicism" }
+  ],
+  "8": [
+    { "eventId": "evt-mp-justinian-ambition", "matchText": "Justinian Declares the Reconquest" },
+    { "eventId": "evt-mp-corpus-juris", "matchText": "The Corpus Juris Civilis" },
+    { "eventId": "evt-mp-vandal-war-533", "matchText": "Belisarius Destroys the Vandal Kingdom" },
+    { "eventId": "evt-mp-belisarius-north-africa", "matchText": "Belisarius Lands in North Africa" },
+    { "eventId": "evt-mp-vandal-kingdom-end", "matchText": "The Vandal Kingdom Extinguished" },
+    { "eventId": "evt-mp-gothic-war-italy", "matchText": "The Gothic War Begins in Italy" },
+    { "eventId": "evt-mp-belisarius-rome", "matchText": "Belisarius Takes and Holds Rome" },
+    { "eventId": "evt-mp-narses-gothic-war", "matchText": "Narses Ends the Gothic War" },
+    { "eventId": "evt-mp-pragmatic-sanction", "matchText": "The Pragmatic Sanction" },
+    { "eventId": "evt-mp-nika-riots", "matchText": "The Nika Riots" },
+    { "eventId": "evt-mp-theodora", "matchText": "Theodora" },
+    { "eventId": "evt-mp-hagia-sophia", "matchText": "Justinian Builds the Hagia Sophia" },
+    { "eventId": "evt-mp-cost-of-italy", "matchText": "The Human Cost of the Gothic War" }
+  ],
+  "9": [
+    { "eventId": "evt-mp-dust-veil-536", "matchText": "The Dust Veil of 536" },
+    { "eventId": "evt-mp-536-dendro", "matchText": "Tree Ring Evidence of 536 Climate Collapse" },
+    { "eventId": "evt-mp-plague-justinian", "matchText": "The Plague of Justinian" },
+    { "eventId": "evt-mp-plague-spread", "matchText": "The Plague Spreads to the West" },
+    { "eventId": "evt-mp-lombards-italy", "matchText": "The Lombards Invade Italy" },
+    { "eventId": "evt-mp-alboin", "matchText": "Alboin Leads the Lombards" },
+    { "eventId": "evt-mp-lombard-pavia", "matchText": "Pavia Becomes the Lombard Capital" },
+    { "eventId": "evt-mp-lombard-pannonia", "matchText": "The Lombards in Pannonia" },
+    { "eventId": "evt-mp-post-roman-west", "matchText": "The Post-Roman West Takes Shape" },
+    { "eventId": "evt-mp-church-as-continuity", "matchText": "The Church as Administrative Continuity" },
+    { "eventId": "evt-mp-monasticism-west", "matchText": "Western Monasticism Expands" }
+  ]
+}
