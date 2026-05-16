@@ -5,6 +5,12 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 20,
       "blurb": "The Scientific Revolution is the book this one is handed from. Over twenty chapters it traces how Copernicus, Kepler, Galileo, Bacon, Descartes, Boyle, and finally Newton built a method for producing knowledge that did not depend on authority. Its last chapter asks why that machine locked into place in Europe, and explicitly hands the new science forward to the generation that would turn it into a theory of politics and progress."
+    },
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 20,
+      "blurb": "The Enlightenment is the Scientific Revolution's heir: take the method that cracked the heavens and turn it on God, government, and society itself."
     }
   ],
   "3": [
@@ -21,6 +27,18 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 3,
       "blurb": "The mathematics Newton's system rested on was not a European invention. The decimal place-value numerals came from India, and algebra was developed and named in Abbasid Baghdad, alongside the precise astronomical tables later astronomers built on. The Enlightenment preached Newton as if light had switched on in one English orchard; the raw material had been assembled, over centuries, somewhere else."
+    },
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 1,
+      "blurb": "Newton is the Enlightenment's patron saint — the proof that human reason could read the mind of God in equations, which every philosophe then tried to extend to everything."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The philosophes idealized Confucian China as a society governed by merit and reason rather than priests and birth — a useful mirror, half-understood, for European self-criticism."
     }
   ],
   "6": [
@@ -59,6 +77,24 @@
       "targetTl": "ancient-greece",
       "targetChapter": 4,
       "blurb": "The materialist idea that the universe is atoms moving in void, with no intervening personal god, was argued by the Greek atomists Democritus and Leucippus in the fifth century BCE and transmitted to Rome in the poem of Lucretius. The Enlightenment's boldest atheists were, knowingly, reviving a two-thousand-year-old position, not inventing one."
+    },
+    {
+      "matchText": "Renaissance Italy",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 2,
+      "blurb": "The Enlightenment's anticlericalism extended a line of humanist text-criticism the Italian Renaissance began — applied now not to Latin grammar but to scripture itself."
+    },
+    {
+      "matchText": "Ancient Greece",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "The deists' 'religion of reason' reached back past Christianity to a classical, Greek ideal of natural philosophy and civic virtue."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "European writers held up Mughal Akbar's experiments in religious tolerance as evidence that confessional uniformity was neither necessary nor universal."
     }
   ],
   "12": [
@@ -95,6 +131,22 @@
       "targetTl": "mughal-empire",
       "targetChapter": 8,
       "blurb": "The same global war that bankrupted the French monarchy and triggered 1789 was, on the other side of the world, the war in which Britain lost thirteen American colonies and consolidated its Indian empire through the East India Company. The rights-of-man decade was also the decade of the largest European imperial acquisition; the two halves of the contradiction Chapter 18 detonates were running at once."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 17,
+      "blurb": "Voltaire's great popular cause was Newtonianism — he and Émilie du Châtelet brought the new physics to a French public that had been clinging to Cartesian vortices."
+    }
+  ],
+  "17": [
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 20,
+      "blurb": "The Jacobin attempt to rebuild society on pure reason — the revolutionary calendar, the Cult of the Supreme Being — is the Scientific Revolution's rationalism pushed to, and past, its breaking point."
     }
   ]
 }
