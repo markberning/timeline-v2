@@ -175,6 +175,18 @@
     {
       "eventId": "evt-norse-greenland",
       "matchText": "Greenland"
+    },
+    {
+      "eventId": "evt-settlement-iceland",
+      "matchText": "Iceland"
+    },
+    {
+      "eventId": "evt-vinland",
+      "matchText": "Vinland"
+    },
+    {
+      "eventId": "evt-norse-sun-compass",
+      "matchText": "sun compass"
     }
   ],
   "4": [
@@ -247,6 +259,10 @@
     {
       "eventId": "evt-thorgeir-lawspeaker",
       "matchText": "Thorgeirr Ljosvetningagodi"
+    },
+    {
+      "eventId": "evt-harald-bluetooth",
+      "matchText": "Harald Bluetooth"
     }
   ],
   "6": [
@@ -311,6 +327,14 @@
     {
       "eventId": "evt-cnut-great",
       "matchText": "Cnut"
+    },
+    {
+      "eventId": "evt-trelleborg-fortress",
+      "matchText": "ring fortresses"
+    },
+    {
+      "eventId": "evt-harald-bluetooth",
+      "matchText": "Harald Bluetooth"
     }
   ],
   "8": [
@@ -333,6 +357,14 @@
     {
       "eventId": "evt-william-conqueror-normandy",
       "matchText": "Battle of Hastings"
+    },
+    {
+      "eventId": "evt-stamford-bridge",
+      "matchText": "Stamford Bridge"
+    },
+    {
+      "eventId": "evt-harald-hardrada",
+      "matchText": "Hardrada"
     }
   ]
 }

@@ -711,6 +711,12 @@
       "matchText": "sunstone",
       "wikiSlug": "Sunstone_(medieval)",
       "type": "concept"
+    },
+    {
+      "term": "Naddodd",
+      "matchText": "Naddodd",
+      "wikiSlug": "Naddodd",
+      "type": "people"
     }
   ],
   "4": [
@@ -821,6 +827,48 @@
       "matchText": "Harald Hardrada",
       "wikiSlug": "Harald_Hardrada",
       "type": "people"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Michael III",
+      "matchText": "Michael III",
+      "wikiSlug": "Michael_III",
+      "type": "people"
+    },
+    {
+      "term": "Photius",
+      "matchText": "Photius",
+      "wikiSlug": "Photius_I_of_Constantinople",
+      "type": "people"
+    },
+    {
+      "term": "Basil II",
+      "matchText": "Basil II",
+      "wikiSlug": "Basil_II",
+      "type": "people"
+    },
+    {
+      "term": "Itil",
+      "matchText": "Itil",
+      "wikiSlug": "Itil",
+      "type": "place"
+    },
+    {
+      "term": "Volga Bulgaria",
+      "matchText": "Bulghar",
+      "wikiSlug": "Volga_Bulgaria",
+      "type": "place"
+    },
+    {
+      "term": "Liao dynasty",
+      "matchText": "Liao dynasty",
+      "wikiSlug": "Liao_dynasty",
+      "type": "concept"
     }
   ],
   "5": [
@@ -955,6 +1003,18 @@
       "matchText": "seidr",
       "wikiSlug": "Sei%C3%B0r",
       "type": "concept"
+    },
+    {
+      "term": "Cluniac Reforms",
+      "matchText": "Cluniac monastic reform",
+      "wikiSlug": "Cluniac_Reforms",
+      "type": "concept"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltec",
+      "wikiSlug": "Toltec",
+      "type": "concept"
     }
   ],
   "6": [
@@ -1047,6 +1107,18 @@
       "matchText": "Ferdowsi",
       "wikiSlug": "Ferdowsi",
       "type": "people"
+    },
+    {
+      "term": "Ferdowsi",
+      "matchText": "classical Persian poetry",
+      "wikiSlug": "Ferdowsi",
+      "type": "concept"
+    },
+    {
+      "term": "Sanskrit literature",
+      "matchText": "Sanskrit court poetry",
+      "wikiSlug": "Sanskrit_literature",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1114,6 +1186,12 @@
       "term": "Fyrd",
       "matchText": "fyrd",
       "wikiSlug": "Fyrd",
+      "type": "concept"
+    },
+    {
+      "term": "Western Chalukya Empire",
+      "matchText": "Western Chalukya",
+      "wikiSlug": "Western_Chalukya_Empire",
       "type": "concept"
     }
   ],
@@ -1183,6 +1261,30 @@
       "matchText": "Yaroslav the Wise",
       "wikiSlug": "Yaroslav_the_Wise",
       "type": "people"
+    },
+    {
+      "term": "Almoravid dynasty",
+      "matchText": "Almoravid",
+      "wikiSlug": "Almoravid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Chola dynasty",
+      "matchText": "Chola dynasty",
+      "wikiSlug": "Chola_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Manzikert",
+      "matchText": "Battle of Manzikert",
+      "wikiSlug": "Battle_of_Manzikert",
+      "type": "concept"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltec",
+      "wikiSlug": "Toltec",
+      "type": "concept"
     }
   ]
 }

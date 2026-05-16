@@ -29,8 +29,14 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 
 | TL | chapters | status | commit |
 |---|---|---|---|
-| viking-age | 8 | Ch1–2 done; Ch3–8 pending | 6791a73 (Ch1) |
-| _next: viking-age Ch3–8, then roadmap order (excl. 6 US-history civs)_ | | pending | |
+| viking-age | 8 | **DONE** (Ch1–8) | 6791a73, 52c83c9, +this |
+| _next: celtic-cultures, then roadmap chain order (excl. 6 US-history civs)_ | | pending | |
+
+### viking-age note
+Norse-cosmology chapters (esp. Ch5) have many non-ASCII Old Norse terms
+(Ragnarök, Mjölnir, seiðr, Æsir, blót…) intentionally NOT linked: matchText
+ASCII rule + author already inline-defines them. Cross-civ + events + clean
+ASCII proper nouns were the focus (cross-link coverage roughly doubled per ch).
 
 ### Method refinements learned
 - Event apply must dedupe on **(eventId, matchText) pair**, not eventId alone —

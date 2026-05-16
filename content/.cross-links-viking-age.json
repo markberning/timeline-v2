@@ -105,6 +105,12 @@
       "targetTl": "scythians",
       "targetChapter": 3,
       "blurb": "The Oseberg ship burial — two high-status women interred in a decorated ship with sacrificial attendants and extraordinary grave goods — echoes the Scythian kurgan burials of the Pontic steppe a millennium earlier. Both traditions buried elite individuals with their possessions, sacrificial animals, and sometimes human companions. Ship burials and kurgan burials are the two great Iron Age traditions of taking your wealth with you into death, and they appear to reflect a shared steppe-and-northern-European understanding of what the afterlife required."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "Iceland's Althing and its Grágás law code — government by assembly and recited law, with no king — is the closest medieval analogue to the early Roman Republic's instinct that power must be plural and answerable, not vested in one ruler."
     }
   ],
   "4": [
@@ -155,6 +161,30 @@
       "targetTl": "kievan-rus",
       "targetChapter": 8,
       "blurb": "What happened to this Norse-founded trading state after Harald Hardrada's era? Told from the Rus' side: Yaroslav the Wise's rota succession system — the lestvitsa, where the throne rotated among brothers rather than passing father to son — turned out to be a machine for producing civil war, and the resulting fragmentation eventually broke the unified Rus' polity that had supplied the Guard's eastern recruiting pipeline. The structural cause of the collapse was a succession rule, not an invasion."
+    },
+    {
+      "matchText": "Macedonian Renaissance",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "The silver and slaves the Rus' funneled south arrived in a Constantinople at its medieval height — the Macedonian Renaissance, a Byzantine flowering of art, scholarship, and reconquest. The Norse rivermen were feeding the richest court in Christendom."
+    },
+    {
+      "matchText": "Buyid dynasty",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The dirhams flowing up the Russian rivers were minted in a Persian world where the Shia Buyids held Baghdad and kept the Abbasid caliph as a figurehead — the political reality behind the silver that paid for Viking longships."
+    },
+    {
+      "matchText": "Samanid dynasty",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Much of the silver reached Scandinavia from Samanid Central Asia, where Bukhara rivaled Baghdad as a center of Persian letters. The Viking economy was plugged into a Eurasian system most Norse never saw."
+    },
+    {
+      "matchText": "Mayan",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "As Norse traders worked the rivers, the Maya world was passing through its Postclassic transition — the old southern cities gone, new powers like Chichen Itza rising in the Yucatán."
     }
   ],
   "5": [
@@ -175,6 +205,24 @@
       "targetTl": "celtic-cultures",
       "targetChapter": 8,
       "blurb": "Olaf Tryggvason's forced Christianization of Norway echoed, in reverse, the Roman suppression of druidism in Britain and Gaul. The Romans had used military force to destroy the druidic sacred sites at Anglesey in 60 CE and ban the druid orders as a matter of state policy. Four centuries later, Olaf was doing the same thing to Norse paganism — destroying temples, killing recalcitrant pagan chieftains, and threatening mutilation for refusal to baptize. The mechanics of top-down religious suppression were identical across the centuries."
+    },
+    {
+      "matchText": "Song dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "The Norse conversion window coincides with the founding of Song China (960) — soon the wealthiest, most administratively sophisticated state on earth, as Scandinavia was only just acquiring writing and territorial kingship."
+    },
+    {
+      "matchText": "Fatimid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "While Norse kings were being baptized for diplomatic respectability, the Shia Fatimid Caliphate ruled Cairo at the height of its power — one of three rival caliphates in an Islamic world far richer and more urban than Christian Europe."
+    },
+    {
+      "matchText": "Buyid",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "In Persia the Buyids still ran Baghdad behind a puppet caliph — the eastern political backdrop to the same generation that Christianized the north."
     }
   ],
   "6": [
@@ -195,6 +243,18 @@
       "targetTl": "xiongnu-huns",
       "targetChapter": 6,
       "blurb": "The Norse heroic poems preserved in the Codex Regius include the story of Atli — Attila the Hun — and his destruction of the Burgundian kingdom, the same events that produced the German Nibelungenlied. Attila's campaigns through Europe in the 440s CE had passed through and shattered the same Germanic world that would later produce the Norse. The Huns who terrified Roman Europe left their mark in Germanic legendary tradition, and those legends traveled north with the Germanic migrations to become Norse myth."
+    },
+    {
+      "matchText": "Tang and Song Chinese poetic traditions",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "While skalds memorized dense court verse, China was in the greatest age of its lyric poetry — Li Bai, Du Fu, later Su Shi — written, anthologized, and central to the examination elite. Two opposite media: Norse oral runic memory vs. Chinese literary canon."
+    },
+    {
+      "matchText": "Arabic poetic golden age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "The Abbasid court sustained an Arabic poetic golden age exactly as the Eddic poems were taking shape — both elite traditions, but one written into a vast scholarly civilization, the other carried in memory on the rim of Christendom."
     }
   ],
   "7": [
@@ -215,6 +275,30 @@
       "targetTl": "scythians",
       "targetChapter": 8,
       "blurb": "The Khazar Khaganate that controlled the lower Volga trade route — and whose destruction by Svyatoslav in 968 redirected Norse commercial networks — was the last major steppe successor state in a lineage going back through the Huns to the Scythians. The Khazars controlled the same Pontic steppe that the Scythians had dominated a millennium earlier. When Svyatoslav destroyed Khazaria, he was ending the last remnant of the great Eurasian steppe commercial system that the Scythians had first organized."
+    },
+    {
+      "matchText": "Song dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "As Cnut welded together a North Sea empire, Northern Song China was becoming the wealthiest single state on earth — a centralized, paper-money, civil-service civilization that makes Cnut's personal-union realm look like the improvisation it was."
+    },
+    {
+      "matchText": "Seljuk Turk",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The same decades saw the Seljuk Turks beginning their sweep across Persia and toward Anatolia — the steppe-to-empire trajectory playing out at the other end of the Norse trade world."
+    },
+    {
+      "matchText": "Fatimid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Fatimid Egypt was at the height of its power and wealth while Scandinavia was still consolidating its first real kingdoms — a reminder of how marginal the Viking world was in global terms."
+    },
+    {
+      "matchText": "Han dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "The 'pay the raiders to leave' logic of Danegeld had a deep precedent: a thousand years earlier Han China had bought off the Xiongnu the same way, and learned the same lesson about what tribute does and doesn't buy."
     }
   ],
   "8": [
@@ -235,6 +319,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 4,
       "blurb": "Yaroslav the Wise's Russkaya Pravda law code, his Saint Sophia Cathedral modeled on Hagia Sophia, and his dynastic marriages across Christian Europe placed Kievan Rus in 1050 as a peer of the western European kingdoms in the Roman-derived political order. The Norse warrior elite that had founded Kievan Rus had, within six generations, produced a Christian monarch building Roman-style basilicas, issuing written law codes, and marrying his daughters to the kings of France and Hungary. The longship had become a cathedral."
+    },
+    {
+      "matchText": "Northern Song dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The year the Viking Age ended, Northern Song China was at its commercial and demographic peak — the contrast between the world the Vikings exited and the world's actual center of gravity could hardly be sharper."
+    },
+    {
+      "matchText": "Seljuk Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Five years after Hastings, the Seljuks would shatter Byzantine power at Manzikert (1071), opening the road to the Crusades — the medieval world the Viking Age fed into."
     }
   ]
 }
