@@ -120,13 +120,13 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'late-medieval-europe', label: 'Late Medieval Europe', subtitle: 'Black Death, Hundred Years War, end of an era', region: 'europe', startYear: 1300, endYear: 1500, hasContent: true },
   { id: 'al-andalus', label: 'Al-Andalus', subtitle: "Islamic Spain's seven-century flowering", region: 'europe', startYear: 711, endYear: 1492, hasContent: true },
   { id: 'viking-age', label: 'Viking Age', subtitle: "Scandinavia's raiders, traders, and settlers", region: 'europe', startYear: 793, endYear: 1066, hasContent: true },
-  { id: 'kievan-rus', label: "Kievan Rus'", subtitle: "east Slavic river kingdoms before Russia", region: 'europe', startYear: 882, endYear: 1240 },
+  { id: 'kievan-rus', label: "Kievan Rus'", subtitle: "east Slavic river kingdoms before Russia", region: 'europe', startYear: 882, endYear: 1240, hasContent: true },
   { id: 'renaissance-italy', label: 'Renaissance Italy', subtitle: 'the city-state art revival', region: 'europe', startYear: 1300, endYear: 1600, hasContent: true },
   { id: 'scientific-revolution', label: 'Scientific Revolution', subtitle: 'Galileo to Newton', region: 'europe', startYear: 1543, endYear: 1687, hasContent: true },
   { id: 'enlightenment', label: 'Enlightenment', subtitle: 'reason takes the throne', region: 'europe', startYear: 1685, endYear: 1815, hasContent: true },
-  { id: 'russian-empire', label: 'Russian Empire', subtitle: "the Romanovs' eastern colossus", region: 'europe', startYear: 1721, endYear: 1917 },
+  { id: 'russian-empire', label: 'Russian Empire', subtitle: "the Romanovs' eastern colossus", region: 'europe', startYear: 1721, endYear: 1917, hasContent: true },
   { id: 'industrial-revolution', label: 'Industrial Revolution', subtitle: 'steam, factories, and cities', region: 'europe', startYear: 1760, endYear: 1900, hasContent: true },
-  { id: 'soviet-union', label: 'Soviet Union', subtitle: "communism's superpower experiment", region: 'europe', startYear: 1922, endYear: 1991 },
+  { id: 'soviet-union', label: 'Soviet Union', subtitle: "communism's superpower experiment", region: 'europe', startYear: 1922, endYear: 1991, hasContent: true },
 
   // ── AMERICAS & OCEANIA ──
   { id: 'early-andean-civilizations', label: 'Early Andean', subtitle: "Peru's pre-Inca temple builders", region: 'americas', startYear: -3500, endYear: -200, hasContent: true },

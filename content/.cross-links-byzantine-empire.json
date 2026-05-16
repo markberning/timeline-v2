@@ -117,7 +117,7 @@
   ],
   "5": [
     {
-      "matchText": "Byzantine and Slavic worlds",
+      "matchText": "Norse confederation centered on the Dnieper River",
       "targetTl": "viking-age",
       "targetChapter": 3,
       "blurb": "The Norse-Rus traders and raiders who moved along the Dnieper river routes between Scandinavia and Constantinople were the conduit through which Byzantine material culture and Orthodox Christianity reached the Slavic world. The Varangian Guard that Basil II recruited from the same Norse-Rus populations was the military expression of a trading relationship that had been building for two centuries."
@@ -145,6 +145,36 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "Vladimir's baptism in 988 transformed the Norse-Rus state that Oleg and Igor had built along the Dnieper into a Byzantine cultural tributary. The same Norse warriors who had raided Constantinople in 860 and 941 were now the empire's elite bodyguard, and their ruler had married into the imperial family. The Viking Age's relationship with Byzantium ended not in conquest but in conversion."
+    },
+    {
+      "matchText": "the single most consequential religious transition in Eastern European history",
+      "targetTl": "kievan-rus",
+      "targetChapter": 6,
+      "blurb": "Told from the Rus' side, the conversion was not a finished Byzantine achievement but the start of a long institutional negotiation. The Kievan Rus' narrative covers what 988 actually required to stick: a Metropolitanate of Kyiv, the Church of the Tithes endowment, and the arrival of Cyrillic and Old Church Slavonic via Bulgarian — not Greek — clergy. By 1051, under Yaroslav, the Rus' church installed its first Metropolitan without Constantinople's approval, asserting autonomy within two generations of the baptism."
+    },
+    {
+      "matchText": "agreed to convert to Orthodox Christianity as a condition of the marriage",
+      "targetTl": "kievan-rus",
+      "targetChapter": 6,
+      "blurb": "Told from the Rus' side, the bargain was not Vladimir politely converting in exchange for a bride. After Vladimir had already shipped Basil II the 6,000 warriors that saved his throne, the emperor stalled on delivering his sister Anna — so Vladimir besieged the Byzantine Crimean city of Chersonesus to force the marriage through. The conversion of 988 was extracted under military coercion running in both directions."
+    },
+    {
+      "matchText": "the Rus' as a whole remained pagan, and their relationship to Byzantium remained transactional",
+      "targetTl": "kievan-rus",
+      "targetChapter": 4,
+      "blurb": "Told from the Rus' side, the relationship was already religiously porous for decades before 988. The Kievan Rus' narrative tracks the incremental Christianization: the 907 and 911 trade treaties, the Greek-fire defeat of Igor's fleet in 941, the 945 treaty whose oath split pagan and Christian Rus', and Olga's own baptism in Constantinople around 957 — after which she even approached the Latin West for a bishop. 'Transactional' undersells a century of deepening entanglement."
+    },
+    {
+      "matchText": "6,000 Norse-Rus warriors",
+      "targetTl": "kievan-rus",
+      "targetChapter": 6,
+      "blurb": "Told from the Rus' side, the Guard's founding cohort was the military half of the 988 conversion bargain. The Kievan Rus' narrative gives Vladimir's leverage in full: he sent the troops first, then besieged Chersonesus to force Basil II to actually hand over the porphyrogenita bride Anna. The most prestigious bodyguard corps in the medieval world began as collateral in a coerced Rus'-Byzantine treaty."
+    },
+    {
+      "matchText": "an internal Byzantine rebellion",
+      "targetTl": "kievan-rus",
+      "targetChapter": 6,
+      "blurb": "The rebellion was Bardas Phokas's revolt of the Anatolian military aristocracy, and it nearly cost Basil II his throne. The 6,000 Rus' and Varangian warriors Vladimir sent crushed it — which is precisely why Basil conceded the unprecedented gift of a porphyrogenita (born-in-the-purple) bride. Told from the Rus' side, the Kievan Rus' narrative makes this rescue, and the coercion behind it, the hinge of the 988 conversion."
     }
   ],
   "6": [

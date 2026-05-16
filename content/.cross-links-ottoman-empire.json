@@ -285,6 +285,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The 1833 treaty that made the Ottoman Empire effectively a Russian protectorate — with Russia controlling Bosphorus access — would have been unimaginable to any sultan from Mehmed II to Süleyman. The empire that had controlled the Bosphorus as its central strategic asset for four centuries was now dependent on a Christian power to prevent its own collapse. The contrast with the Rome of Constantine, which had built Constantinople specifically to control these straits, could not be sharper."
+    },
+    {
+      "matchText": "Russia, under Empress Catherine the Great, had defeated the Ottomans repeatedly",
+      "targetTl": "russian-empire",
+      "targetChapter": 8,
+      "blurb": "The Russian side of this treaty is told in full in the Russian Empire narrative. Catherine's Turkish wars were a deliberate strategic project — the drive to the Black Sea, the annexation of Crimea, and the construction of a southern empire managed by Potemkin. The 'protect Orthodox Christians' clause that the Ottomans here treat as a devastating concession was engineered on the Russian side as a permanent lever for intervention, exactly as it would later be used."
+    },
+    {
+      "matchText": "Russian recognition as protector of Ottoman Orthodox Christians",
+      "targetTl": "russian-empire",
+      "targetChapter": 13,
+      "blurb": "Watch where this clause leads. The Russian Empire narrative shows Nicholas I invoking this exact provision from the 1774 treaty as the pretext for the Crimean War in 1853 — the claim to protect Orthodox access to the holy sites of Jerusalem. The 'recurring observation' the Ottoman side makes here becomes, in the Russian telling, the lever that detonated the war that exposed Russia's own backwardness."
     }
   ],
   "10": [
@@ -317,6 +329,24 @@
       "targetTl": "meiji-japan",
       "targetChapter": 5,
       "blurb": "The Meiji Restoration is the structural comparison the Ottoman case is usually measured against — the non-Western state response to European industrial-imperial pressure that worked. Japan's 1889 Meiji Constitution and the Ottoman Constitution of 1876 were drafted within thirteen years of each other, both deliberately modeled on European parliamentary documents, both attempts to give a centralizing modernizing autocracy a constitutional veneer. The Japanese version stuck. The Ottoman one was suspended within two years and was not restored until 1908."
+    },
+    {
+      "matchText": "to Tsar Nicholas I of Russia, describing the Ottoman Empire as a dying patient",
+      "targetTl": "russian-empire",
+      "targetChapter": 13,
+      "blurb": "The irony runs both ways. The Russian Empire narrative makes the Crimean War the audit that exposed Russia's own backwardness — the war that broke the autocracy's central claim and forced the Emancipation of 1861. The tsar who privately diagnosed the Ottoman Empire as the dying patient of Europe presided over a state his own educated class was beginning to describe in exactly the same terms; both 'sick' empires were reading the same war as the moment the diagnosis came due."
+    },
+    {
+      "matchText": "Russia ceded territory and was prohibited from maintaining a Black Sea fleet",
+      "targetTl": "russian-empire",
+      "targetChapter": 13,
+      "blurb": "The two narratives read the same war as opposite turning points. Here the Crimean War is a qualified Ottoman victory that won admission to the Concert of Europe. The Russian Empire narrative treats the identical war as the defining catastrophe — the humiliation that shattered the regime's self-image and made Alexander II's Great Reforms and the Emancipation of 1861 unavoidable. Same Treaty of Paris, two civilizations turning on it in opposite directions."
+    },
+    {
+      "matchText": "The Russians took most of Bulgaria, the Ottoman Caucasus, and substantial portions of eastern Anatolia",
+      "targetTl": "russian-empire",
+      "targetChapter": 15,
+      "blurb": "The Russian Empire narrative does not give this war its own chapter — it falls in the gap of the early 1880s — but the Russian side belongs to the post-Emancipation generation. The 1877–78 war was a real military achievement under Alexander II, won by the army the Great Reforms had rebuilt, and it ran alongside the revolutionary climate this stretch of the Russian story tracks: a foreign victory that distracted from, and ultimately could not substitute for, internal reform."
     }
   ],
   "11": [

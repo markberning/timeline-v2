@@ -233,7 +233,8 @@ export const TL_CHAINS: TlChain[] = [
     shortLabel: 'Russia',
     origins: 'The Russian state traces its origins to the medieval Kievan Rus\', a federation of Slavic tribes united by Varangian rulers. Mongol domination from the 13th to 15th centuries shaped Russian political culture before the Muscovite tsars consolidated power.',
     entries: [
-      { timelineId: 'russian-empire', transition: 'The Russian Empire collapsed in the revolutions of 1917. The Bolsheviks seized power and built the Soviet Union — a communist superpower that would reshape the 20th century.' },
+      { timelineId: 'kievan-rus', transition: 'Kyiv fell to the Mongols in 1240, and the Rus\' lands spent two centuries under the Golden Horde. Power drifted north to Moscow, whose grand princes shook off Mongol overlordship, gathered the Russian lands, and took the title of tsar. Out of that Muscovite core, Peter the Great forged the Russian Empire.' },
+      { timelineId: 'russian-empire', transition: 'The Russian Empire collapsed in the revolutions of 1917. The Bolsheviks seized power and built the Soviet Union, a communist superpower that would reshape the 20th century.' },
       { timelineId: 'soviet-union' },
     ],
   },

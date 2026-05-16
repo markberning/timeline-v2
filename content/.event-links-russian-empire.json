@@ -1,0 +1,966 @@
+{
+  "1": [
+    {
+      "eventId": "evt-peter-great",
+      "matchText": "Peter the Great"
+    },
+    {
+      "eventId": "evt-st-petersburg-founded",
+      "matchText": "It built St Petersburg"
+    },
+    {
+      "eventId": "evt-mir-commune",
+      "matchText": "tribute-owing peasants"
+    },
+    {
+      "eventId": "evt-decembrist-revolt",
+      "matchText": "a December morning in 1825"
+    },
+    {
+      "eventId": "evt-tolstoy-war-peace",
+      "matchText": "War and Peace"
+    },
+    {
+      "eventId": "evt-mendeleev-periodic-table",
+      "matchText": "the periodic table of the elements"
+    },
+    {
+      "eventId": "evt-streltsy-uprising-1682",
+      "matchText": "torn apart on the spears of the streltsy"
+    }
+  ],
+  "2": [
+    {
+      "eventId": "evt-peter-great",
+      "matchText": "Peter the Great"
+    },
+    {
+      "eventId": "evt-streltsy-uprising-1682",
+      "matchText": "they stormed the Kremlin"
+    },
+    {
+      "eventId": "evt-sophia-regency",
+      "matchText": "ruling in the brothers' names from 1682"
+    },
+    {
+      "eventId": "evt-vasily-golitsyn",
+      "matchText": "Prince Vasily Golitsyn"
+    },
+    {
+      "eventId": "evt-treaty-nerchinsk",
+      "matchText": "Treaty of Nerchinsk"
+    },
+    {
+      "eventId": "evt-azov-campaigns",
+      "matchText": "Azov campaigns"
+    },
+    {
+      "eventId": "evt-russian-navy-founded",
+      "matchText": "no navy worth the name"
+    },
+    {
+      "eventId": "evt-grand-embassy",
+      "matchText": "He left the country, in disguise, to learn a trade"
+    }
+  ],
+  "3": [
+    {
+      "eventId": "evt-grand-embassy",
+      "matchText": "Grand Embassy"
+    },
+    {
+      "eventId": "evt-streltsy-revolt-1698",
+      "matchText": "the streltsy had revolted again"
+    },
+    {
+      "eventId": "evt-great-northern-war",
+      "matchText": "Great Northern War"
+    },
+    {
+      "eventId": "evt-battle-narva-1700",
+      "matchText": "Battle of Narva"
+    },
+    {
+      "eventId": "evt-st-petersburg-founded",
+      "matchText": "founded a city"
+    },
+    {
+      "eventId": "evt-peterhof-palace",
+      "matchText": "the great pleasure-palace of"
+    },
+    {
+      "eventId": "evt-ivan-mazepa",
+      "matchText": "the hetman Ivan Mazepa"
+    },
+    {
+      "eventId": "evt-battle-poltava",
+      "matchText": "Poltava"
+    },
+    {
+      "eventId": "evt-pruth-campaign",
+      "matchText": "Pruth River campaign"
+    },
+    {
+      "eventId": "evt-battle-gangut",
+      "matchText": "won its first major fleet victory over the Swedes at"
+    },
+    {
+      "eventId": "evt-treaty-nystad",
+      "matchText": "Treaty of Nystad"
+    }
+  ],
+  "4": [
+    {
+      "eventId": "evt-governing-senate",
+      "matchText": "Governing Senate"
+    },
+    {
+      "eventId": "evt-twelve-colleges",
+      "matchText": "the Colleges"
+    },
+    {
+      "eventId": "evt-table-of-ranks",
+      "matchText": "Table of Ranks"
+    },
+    {
+      "eventId": "evt-soul-tax",
+      "matchText": "soul tax"
+    },
+    {
+      "eventId": "evt-beard-tax",
+      "matchText": "beard tax"
+    },
+    {
+      "eventId": "evt-orthodox-church-reform",
+      "matchText": "Holy Synod"
+    },
+    {
+      "eventId": "evt-old-believers",
+      "matchText": "Old Believers"
+    },
+    {
+      "eventId": "evt-julian-calendar-reform",
+      "matchText": "He reformed the calendar"
+    },
+    {
+      "eventId": "evt-civil-script",
+      "matchText": "civil script"
+    },
+    {
+      "eventId": "evt-vedomosti-newspaper",
+      "matchText": "the first Russian printed newspaper"
+    },
+    {
+      "eventId": "evt-russian-academy-sciences",
+      "matchText": "Russian Academy of Sciences"
+    },
+    {
+      "eventId": "evt-alexei-petrovich",
+      "matchText": "his own son Alexei tortured"
+    }
+  ],
+  "5": [
+    {
+      "eventId": "evt-catherine-i",
+      "matchText": "Catherine I"
+    },
+    {
+      "eventId": "evt-menshikov-fall",
+      "matchText": "Menshikov fell"
+    },
+    {
+      "eventId": "evt-peter-ii",
+      "matchText": "Peter II"
+    },
+    {
+      "eventId": "evt-conditions-1730",
+      "matchText": "Conditions"
+    },
+    {
+      "eventId": "evt-bironovshchina",
+      "matchText": "Bironovshchina"
+    },
+    {
+      "eventId": "evt-ivan-vi",
+      "matchText": "Ivan VI"
+    },
+    {
+      "eventId": "evt-elizabeth-coup-1741",
+      "matchText": "the period's most theatrical coup"
+    },
+    {
+      "eventId": "evt-moscow-university",
+      "matchText": "Moscow University"
+    },
+    {
+      "eventId": "evt-lomonosov",
+      "matchText": "Mikhail Lomonosov"
+    },
+    {
+      "eventId": "evt-bartolomeo-rastrelli",
+      "matchText": "Bartolomeo Rastrelli"
+    },
+    {
+      "eventId": "evt-winter-palace",
+      "matchText": "Winter Palace"
+    },
+    {
+      "eventId": "evt-catherine-palace",
+      "matchText": "Catherine Palace"
+    },
+    {
+      "eventId": "evt-seven-years-war",
+      "matchText": "Seven Years' War"
+    },
+    {
+      "eventId": "evt-battle-kunersdorf",
+      "matchText": "Kunersdorf"
+    },
+    {
+      "eventId": "evt-peter-iii",
+      "matchText": "Peter III"
+    },
+    {
+      "eventId": "evt-manifesto-nobility-freedom",
+      "matchText": "Manifesto on the Freedom of the Nobility"
+    }
+  ],
+  "6": [
+    {
+      "eventId": "evt-catherine-great",
+      "matchText": "Catherine the Great"
+    },
+    {
+      "eventId": "evt-catherine-coup-1762",
+      "matchText": "Catherine's coup of 1762"
+    },
+    {
+      "eventId": "evt-hermitage-founded",
+      "matchText": "Hermitage"
+    },
+    {
+      "eventId": "evt-smolny-institute",
+      "matchText": "the Smolny Institute"
+    },
+    {
+      "eventId": "evt-dashkova-academy",
+      "matchText": "Princess Yekaterina Dashkova"
+    },
+    {
+      "eventId": "evt-nakaz-instruction",
+      "matchText": "the Nakaz"
+    },
+    {
+      "eventId": "evt-legislative-commission",
+      "matchText": "Legislative Commission"
+    }
+  ],
+  "7": [
+    {
+      "eventId": "evt-pugachev-rebellion",
+      "matchText": "Pugachev's Rebellion"
+    },
+    {
+      "eventId": "evt-emancipation-serfs",
+      "matchText": "Russia abolished it in 1861"
+    },
+    {
+      "eventId": "evt-demidov-urals-industry",
+      "matchText": "the empire of the Demidovs"
+    },
+    {
+      "eventId": "evt-charter-nobility",
+      "matchText": "Charter to the Nobility"
+    },
+    {
+      "eventId": "evt-charter-towns",
+      "matchText": "Charter to the Towns"
+    },
+    {
+      "eventId": "evt-radishchev-journey",
+      "matchText": "A Journey from St Petersburg to Moscow"
+    },
+    {
+      "eventId": "evt-novikov-publishing",
+      "matchText": "Nikolai Novikov"
+    }
+  ],
+  "8": [
+    {
+      "eventId": "evt-russo-turkish-1768",
+      "matchText": "Russo-Turkish War"
+    },
+    {
+      "eventId": "evt-battle-chesma",
+      "matchText": "Chesma"
+    },
+    {
+      "eventId": "evt-treaty-kuchuk-kainarji",
+      "matchText": "Treaty of Kuchuk-Kainarji"
+    },
+    {
+      "eventId": "evt-annexation-crimea",
+      "matchText": "annexed Crimea"
+    },
+    {
+      "eventId": "evt-potemkin",
+      "matchText": "Grigory Potemkin"
+    },
+    {
+      "eventId": "evt-novorossiya-settlement",
+      "matchText": "Novorossiya"
+    },
+    {
+      "eventId": "evt-suvorov",
+      "matchText": "Alexander Suvorov"
+    },
+    {
+      "eventId": "evt-siege-izmail",
+      "matchText": "Izmail"
+    },
+    {
+      "eventId": "evt-partition-poland",
+      "matchText": "Partitions of Poland"
+    },
+    {
+      "eventId": "evt-kosciuszko-uprising",
+      "matchText": "national uprising under"
+    },
+    {
+      "eventId": "evt-third-partition-poland",
+      "matchText": "the final, third partition"
+    },
+    {
+      "eventId": "evt-russian-america",
+      "matchText": "Russian America"
+    }
+  ],
+  "9": [
+    {
+      "eventId": "evt-paul-i",
+      "matchText": "Paul I"
+    },
+    {
+      "eventId": "evt-pauline-succession-law",
+      "matchText": "Pauline Law of Succession"
+    },
+    {
+      "eventId": "evt-suvorov-italian-campaign",
+      "matchText": "a brilliant, brutal campaign through Italy and across the Alps"
+    },
+    {
+      "eventId": "evt-assassination-paul",
+      "matchText": "assassination of Paul I"
+    },
+    {
+      "eventId": "evt-alexander-i",
+      "matchText": "Alexander I"
+    },
+    {
+      "eventId": "evt-la-harpe",
+      "matchText": "de La Harpe"
+    },
+    {
+      "eventId": "evt-speransky-reforms",
+      "matchText": "Mikhail Speransky"
+    },
+    {
+      "eventId": "evt-state-council-1810",
+      "matchText": "State Council"
+    },
+    {
+      "eventId": "evt-battle-austerlitz",
+      "matchText": "Austerlitz"
+    },
+    {
+      "eventId": "evt-battle-friedland",
+      "matchText": "beaten again at Friedland"
+    },
+    {
+      "eventId": "evt-treaty-tilsit",
+      "matchText": "Treaty of Tilsit"
+    },
+    {
+      "eventId": "evt-finland-autonomy-1809",
+      "matchText": "a war with Sweden"
+    },
+    {
+      "eventId": "evt-bessarabia-1812",
+      "matchText": "a war with the Ottomans took"
+    }
+  ],
+  "10": [
+    {
+      "eventId": "evt-napoleon-invasion",
+      "matchText": "Napoleon Bonaparte"
+    },
+    {
+      "eventId": "evt-barclay-de-tolly",
+      "matchText": "Barclay de Tolly"
+    },
+    {
+      "eventId": "evt-battle-borodino",
+      "matchText": "Borodino"
+    },
+    {
+      "eventId": "evt-kutuzov",
+      "matchText": "Mikhail Kutuzov"
+    },
+    {
+      "eventId": "evt-burning-moscow",
+      "matchText": "burning of Moscow"
+    },
+    {
+      "eventId": "evt-berezina-crossing",
+      "matchText": "crossing of the"
+    },
+    {
+      "eventId": "evt-war-sixth-coalition",
+      "matchText": "campaign of 1813"
+    },
+    {
+      "eventId": "evt-battle-leipzig",
+      "matchText": "Battle of Leipzig"
+    }
+  ],
+  "11": [
+    {
+      "eventId": "evt-congress-vienna",
+      "matchText": "Congress of Vienna"
+    },
+    {
+      "eventId": "evt-congress-poland",
+      "matchText": "Congress Poland"
+    },
+    {
+      "eventId": "evt-holy-alliance",
+      "matchText": "Holy Alliance"
+    },
+    {
+      "eventId": "evt-1848-gendarme",
+      "matchText": "gendarme of Europe"
+    },
+    {
+      "eventId": "evt-military-colonies",
+      "matchText": "military colonies"
+    },
+    {
+      "eventId": "evt-bellingshausen-antarctica",
+      "matchText": "Bellingshausen"
+    },
+    {
+      "eventId": "evt-decembrist-societies",
+      "matchText": "secret discussion societies"
+    },
+    {
+      "eventId": "evt-decembrist-revolt",
+      "matchText": "Decembrist revolt"
+    },
+    {
+      "eventId": "evt-decembrist-exile-siberia",
+      "matchText": "exiled to hard labor and settlement in Siberia"
+    }
+  ],
+  "12": [
+    {
+      "eventId": "evt-nicholas-i",
+      "matchText": "Nicholas I"
+    },
+    {
+      "eventId": "evt-official-nationality",
+      "matchText": "Official Nationality"
+    },
+    {
+      "eventId": "evt-third-section",
+      "matchText": "Third Section"
+    },
+    {
+      "eventId": "evt-digest-laws",
+      "matchText": "Digest of Laws"
+    },
+    {
+      "eventId": "evt-november-uprising",
+      "matchText": "November Uprising"
+    },
+    {
+      "eventId": "evt-pushkin",
+      "matchText": "Alexander Pushkin"
+    },
+    {
+      "eventId": "evt-pushkin-eugene-onegin",
+      "matchText": "Eugene Onegin"
+    },
+    {
+      "eventId": "evt-pushkin-duel",
+      "matchText": "He died in 1837 at thirty-seven, of wounds from a duel"
+    },
+    {
+      "eventId": "evt-lermontov",
+      "matchText": "Mikhail Lermontov"
+    },
+    {
+      "eventId": "evt-gogol-dead-souls",
+      "matchText": "Dead Souls"
+    },
+    {
+      "eventId": "evt-slavophiles-westernizers",
+      "matchText": "Slavophiles versus Westernizers"
+    },
+    {
+      "eventId": "evt-petrashevsky-circle",
+      "matchText": "Petrashevsky Circle"
+    }
+  ],
+  "13": [
+    {
+      "eventId": "evt-crimean-war",
+      "matchText": "The Crimean War"
+    },
+    {
+      "eventId": "evt-siege-sevastopol",
+      "matchText": "siege of Sevastopol"
+    },
+    {
+      "eventId": "evt-pirogov-field-surgery",
+      "matchText": "Nikolai Pirogov"
+    },
+    {
+      "eventId": "evt-sevastopol-sketches",
+      "matchText": "Sevastopol Sketches"
+    },
+    {
+      "eventId": "evt-moscow-petersburg-railway",
+      "matchText": "a single line between the two capitals"
+    },
+    {
+      "eventId": "evt-alexander-ii",
+      "matchText": "Alexander II"
+    },
+    {
+      "eventId": "evt-treaty-paris-1856",
+      "matchText": "Treaty of Paris"
+    }
+  ],
+  "14": [
+    {
+      "eventId": "evt-alexander-ii",
+      "matchText": "Alexander II"
+    },
+    {
+      "eventId": "evt-emancipation-serfs",
+      "matchText": "Emancipation of the Serfs"
+    },
+    {
+      "eventId": "evt-bezdna-unrest",
+      "matchText": "the village of Bezdna"
+    },
+    {
+      "eventId": "evt-mir-commune",
+      "matchText": "village commune"
+    },
+    {
+      "eventId": "evt-zemstvo-reform",
+      "matchText": "zemstvo reform"
+    },
+    {
+      "eventId": "evt-judicial-reform-1864",
+      "matchText": "judicial reform"
+    },
+    {
+      "eventId": "evt-military-reform-milyutin",
+      "matchText": "military reforms of war minister Dmitry Milyutin"
+    },
+    {
+      "eventId": "evt-women-higher-education",
+      "matchText": "the first higher education courses for women in Russia"
+    }
+  ],
+  "15": [
+    {
+      "eventId": "evt-turgenev-fathers-sons",
+      "matchText": "Fathers and Sons"
+    },
+    {
+      "eventId": "evt-chernyshevsky-what-to-do",
+      "matchText": "What Is to Be Done"
+    },
+    {
+      "eventId": "evt-narodnik-movement",
+      "matchText": "Narodism"
+    },
+    {
+      "eventId": "evt-herzen-bell",
+      "matchText": "The Bell"
+    },
+    {
+      "eventId": "evt-land-and-liberty",
+      "matchText": "Land and Liberty"
+    },
+    {
+      "eventId": "evt-peoples-will",
+      "matchText": "The People's Will"
+    },
+    {
+      "eventId": "evt-karakozov-attempt",
+      "matchText": "Karakozov"
+    },
+    {
+      "eventId": "evt-vera-zasulich",
+      "matchText": "Vera Zasulich"
+    },
+    {
+      "eventId": "evt-nechaev-affair",
+      "matchText": "Sergei Nechaev"
+    },
+    {
+      "eventId": "evt-trial-193",
+      "matchText": "Trial of the 193"
+    },
+    {
+      "eventId": "evt-winter-palace-bombing",
+      "matchText": "Winter Palace bombing"
+    },
+    {
+      "eventId": "evt-loris-melikov-constitution",
+      "matchText": "Loris-Melikov constitution"
+    },
+    {
+      "eventId": "evt-assassination-alexander-ii",
+      "matchText": "assassination of Alexander II"
+    },
+    {
+      "eventId": "evt-church-spilled-blood",
+      "matchText": "Church of the Savior on Spilled Blood"
+    }
+  ],
+  "16": [
+    {
+      "eventId": "evt-tolstoy-war-peace",
+      "matchText": "War and Peace"
+    },
+    {
+      "eventId": "evt-tolstoy-anna-karenina",
+      "matchText": "Anna Karenina"
+    },
+    {
+      "eventId": "evt-tolstoy-excommunication",
+      "matchText": "excommunication of Tolstoy"
+    },
+    {
+      "eventId": "evt-tolstoy-death-1910",
+      "matchText": "When he died in 1910"
+    },
+    {
+      "eventId": "evt-dostoevsky-crime-punishment",
+      "matchText": "Crime and Punishment"
+    },
+    {
+      "eventId": "evt-dostoevsky-demons",
+      "matchText": "Demons"
+    },
+    {
+      "eventId": "evt-dostoevsky",
+      "matchText": "The Brothers Karamazov"
+    },
+    {
+      "eventId": "evt-chekhov",
+      "matchText": "Anton Chekhov"
+    },
+    {
+      "eventId": "evt-chekhov-cherry-orchard",
+      "matchText": "The Cherry Orchard"
+    },
+    {
+      "eventId": "evt-moscow-art-theatre",
+      "matchText": "Moscow Art Theatre"
+    },
+    {
+      "eventId": "evt-the-five-composers",
+      "matchText": "The Mighty Handful"
+    },
+    {
+      "eventId": "evt-mussorgsky-boris",
+      "matchText": "Boris Godunov"
+    },
+    {
+      "eventId": "evt-tchaikovsky",
+      "matchText": "Pyotr Tchaikovsky"
+    },
+    {
+      "eventId": "evt-tchaikovsky-1812-overture",
+      "matchText": "1812 Overture"
+    },
+    {
+      "eventId": "evt-repin-peredvizhniki",
+      "matchText": "Wanderers"
+    },
+    {
+      "eventId": "evt-tretyakov-gallery",
+      "matchText": "Pavel Tretyakov"
+    },
+    {
+      "eventId": "evt-mendeleev-table-1869",
+      "matchText": "the periodic table"
+    },
+    {
+      "eventId": "evt-lobachevsky-geometry",
+      "matchText": "non-Euclidean geometry"
+    },
+    {
+      "eventId": "evt-pavlov-experiments",
+      "matchText": "conditioned reflexes"
+    },
+    {
+      "eventId": "evt-tsiolkovsky",
+      "matchText": "Konstantin Tsiolkovsky"
+    }
+  ],
+  "17": [
+    {
+      "eventId": "evt-caucasian-war",
+      "matchText": "Caucasian War"
+    },
+    {
+      "eventId": "evt-imam-shamil",
+      "matchText": "Imam Shamil"
+    },
+    {
+      "eventId": "evt-circassian-genocide",
+      "matchText": "Circassians"
+    },
+    {
+      "eventId": "evt-fall-tashkent",
+      "matchText": "Tashkent"
+    },
+    {
+      "eventId": "evt-khiva-campaign-1873",
+      "matchText": "Khanate of Khiva"
+    },
+    {
+      "eventId": "evt-conquest-of-merv",
+      "matchText": "the oasis of"
+    },
+    {
+      "eventId": "evt-panjdeh-incident",
+      "matchText": "Panjdeh incident"
+    },
+    {
+      "eventId": "evt-vladivostok-founded",
+      "matchText": "Vladivostok"
+    },
+    {
+      "eventId": "evt-alaska-purchase",
+      "matchText": "sold Alaska to the United States"
+    },
+    {
+      "eventId": "evt-trans-siberian",
+      "matchText": "Trans-Siberian Railway"
+    },
+    {
+      "eventId": "evt-russification",
+      "matchText": "russification"
+    },
+    {
+      "eventId": "evt-ems-ukaz",
+      "matchText": "Ems Ukaz"
+    },
+    {
+      "eventId": "evt-shevchenko",
+      "matchText": "Taras Shevchenko"
+    },
+    {
+      "eventId": "evt-pale-of-settlement",
+      "matchText": "Pale of Settlement"
+    },
+    {
+      "eventId": "evt-pogroms-1881",
+      "matchText": "pogroms"
+    }
+  ],
+  "18": [
+    {
+      "eventId": "evt-alexander-iii",
+      "matchText": "Alexander III"
+    },
+    {
+      "eventId": "evt-pobedonostsev",
+      "matchText": "Konstantin Pobedonostsev"
+    },
+    {
+      "eventId": "evt-counter-reforms",
+      "matchText": "Counter-Reforms"
+    },
+    {
+      "eventId": "evt-okhrana-secret-police",
+      "matchText": "Okhrana"
+    },
+    {
+      "eventId": "evt-witte-industrialization",
+      "matchText": "Witte's industrialization program"
+    },
+    {
+      "eventId": "evt-gold-standard-1897",
+      "matchText": "gold standard"
+    },
+    {
+      "eventId": "evt-baku-oil",
+      "matchText": "Baku oil"
+    },
+    {
+      "eventId": "evt-famine-1891",
+      "matchText": "Great Famine of 1891"
+    },
+    {
+      "eventId": "evt-emancipation-of-labour",
+      "matchText": "Emancipation of Labour"
+    },
+    {
+      "eventId": "evt-rsdlp-founded",
+      "matchText": "Russian Social Democratic Labour Party"
+    },
+    {
+      "eventId": "evt-rsdlp-split-1903",
+      "matchText": "the party split"
+    },
+    {
+      "eventId": "evt-lenin-rise",
+      "matchText": "Lenin"
+    },
+    {
+      "eventId": "evt-socialist-revolutionaries",
+      "matchText": "Socialist Revolutionary Party"
+    }
+  ],
+  "19": [
+    {
+      "eventId": "evt-nicholas-ii",
+      "matchText": "Nicholas II"
+    },
+    {
+      "eventId": "evt-khodynka-tragedy",
+      "matchText": "Khodynka"
+    },
+    {
+      "eventId": "evt-russo-japanese-war",
+      "matchText": "Russo-Japanese War"
+    },
+    {
+      "eventId": "evt-siege-port-arthur",
+      "matchText": "Port Arthur"
+    },
+    {
+      "eventId": "evt-battle-mukden",
+      "matchText": "Battle of Mukden"
+    },
+    {
+      "eventId": "evt-battle-tsushima",
+      "matchText": "Battle of Tsushima"
+    },
+    {
+      "eventId": "evt-treaty-portsmouth",
+      "matchText": "Treaty of Portsmouth"
+    },
+    {
+      "eventId": "evt-bloody-sunday",
+      "matchText": "Bloody Sunday"
+    },
+    {
+      "eventId": "evt-1905-revolution",
+      "matchText": "Revolution of 1905"
+    },
+    {
+      "eventId": "evt-potemkin-mutiny",
+      "matchText": "the crew of the Black Sea battleship"
+    },
+    {
+      "eventId": "evt-st-petersburg-soviet",
+      "matchText": "St Petersburg Soviet"
+    },
+    {
+      "eventId": "evt-october-manifesto",
+      "matchText": "October Manifesto"
+    },
+    {
+      "eventId": "evt-moscow-uprising-1905",
+      "matchText": "December uprising"
+    },
+    {
+      "eventId": "evt-fundamental-laws-1906",
+      "matchText": "Fundamental Laws of 1906"
+    },
+    {
+      "eventId": "evt-kadets-founded",
+      "matchText": "Kadet"
+    },
+    {
+      "eventId": "evt-third-duma",
+      "matchText": "third Duma"
+    },
+    {
+      "eventId": "evt-stolypin-reforms",
+      "matchText": "Stolypin's land reforms"
+    },
+    {
+      "eventId": "evt-stolypin-assassination",
+      "matchText": "Stolypin was shot dead at the Kiev opera"
+    },
+    {
+      "eventId": "evt-rasputin",
+      "matchText": "Grigori Rasputin"
+    },
+    {
+      "eventId": "evt-alexei-hemophilia",
+      "matchText": "hemophilia"
+    },
+    {
+      "eventId": "evt-tercentenary-1913",
+      "matchText": "Romanov Tercentenary"
+    }
+  ],
+  "20": [
+    {
+      "eventId": "evt-russia-enters-wwi",
+      "matchText": "First World War"
+    },
+    {
+      "eventId": "evt-petrograd-renamed",
+      "matchText": "Petrograd"
+    },
+    {
+      "eventId": "evt-battle-tannenberg",
+      "matchText": "Battle of Tannenberg"
+    },
+    {
+      "eventId": "evt-brusilov-offensive",
+      "matchText": "Brusilov offensive"
+    },
+    {
+      "eventId": "evt-nicholas-takes-command",
+      "matchText": "he personally took command of the army at the front"
+    },
+    {
+      "eventId": "evt-zemgor-war-industries",
+      "matchText": "War Industry Committees"
+    },
+    {
+      "eventId": "evt-murder-rasputin",
+      "matchText": "murdered Rasputin"
+    },
+    {
+      "eventId": "evt-february-revolution",
+      "matchText": "February Revolution"
+    },
+    {
+      "eventId": "evt-order-no-1",
+      "matchText": "Order No. 1"
+    },
+    {
+      "eventId": "evt-provisional-government",
+      "matchText": "Provisional Government"
+    },
+    {
+      "eventId": "evt-abdication-nicholas-ii",
+      "matchText": "abdication"
+    }
+  ]
+}

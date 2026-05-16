@@ -1,0 +1,3301 @@
+{
+  "id": "soviet-union",
+  "label": "Soviet Union",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Soviet_Union",
+  "imageWikiSlug": "Kremlin_Senate",
+  "pitch": "The October Revolution of 1917 created the world's first socialist state, and the Dissolution of the USSR in 1991 ended it — seventy-four years that reshaped every corner of the globe. In between came the Battle of Stalingrad, where the Red Army broke Nazi Germany's back, and Sputnik launched, which ignited the Space Race and terrified the West.\n\n🔑 Key Facts:\n• Stalin consolidates power after Lenin's death and launches the First Five-Year Plan, industrializing at breakneck speed while the Great Purge eliminated anyone who might oppose him\n• The Holodomor famine killed millions of Ukrainians as grain was seized for export — a man-made catastrophe still debated as genocide\n• Gagarin orbits Earth in 1961, making the Soviet Union the first nation to put a human in space\n• Gorbachev leads USSR from 1985, launching reforms meant to save the system that instead accelerated its collapse\n\n🤔 Why It Matters: The Soviet experiment proved that a command economy could industrialize at staggering speed — and that the human cost of doing so without freedom or accountability can be almost incomprehensible.\n\n🎲 Wild Card: The Chernobyl disaster in 1986 released more radiation than both atomic bombs combined, and some historians argue it did more to destroy public faith in the Soviet system than any political movement ever could.",
+  "countryIds": [
+    "804",
+    "398"
+  ],
+  "spans": [
+    {
+      "id": "span-soviet-union-su-revolution",
+      "label": "Russian Revolution & Civil War",
+      "startYear": 1917,
+      "endYear": 1922,
+      "description": "The Bolsheviks seized power in the October Revolution and fought a devastating civil war against White armies and foreign interventionists. Lenin established the world's first socialist state while millions died from war, famine, and disease.",
+      "wikiSlug": "Russian_Revolution"
+    },
+    {
+      "id": "span-soviet-union-su-nep-era",
+      "label": "NEP & Succession Struggle",
+      "startYear": 1921,
+      "endYear": 1928,
+      "description": "The New Economic Policy revived a shattered economy through limited markets while the Bolshevik old guard fought a bitter succession struggle after Lenin's death that Stalin slowly won.",
+      "wikiSlug": "New_Economic_Policy"
+    },
+    {
+      "id": "span-soviet-union-su-stalin-era",
+      "label": "Stalin Era",
+      "startYear": 1924,
+      "endYear": 1953,
+      "description": "Stalin industrialized the USSR at breakneck speed through Five-Year Plans while enforcing totalitarian control through purges, forced collectivization, and the Gulag system. The era encompassed both the Holodomor famine and victory over Nazi Germany.",
+      "wikiSlug": "Stalin_era"
+    },
+    {
+      "id": "span-soviet-union-su-great-terror",
+      "label": "The Great Terror",
+      "startYear": 1936,
+      "endYear": 1938,
+      "description": "The Moscow show trials and the NKVD's mass operations executed close to 700,000 people and sent millions to the Gulag, decimating the Party, the army, and ordinary citizens alike.",
+      "wikiSlug": "Great_Purge"
+    },
+    {
+      "id": "span-soviet-union-su-wwii",
+      "label": "Great Patriotic War",
+      "startYear": 1941,
+      "endYear": 1945,
+      "description": "The Soviet Union bore the brunt of World War II in Europe, suffering over 27 million deaths. The Red Army's victories at Stalingrad and Kursk turned the tide and led to the capture of Berlin.",
+      "wikiSlug": "Eastern_Front_(World_War_II)"
+    },
+    {
+      "id": "span-soviet-union-su-early-cold-war",
+      "label": "Early Cold War",
+      "startYear": 1945,
+      "endYear": 1953,
+      "description": "Postwar reconstruction, the Sovietization of Eastern Europe, the Berlin Blockade, and the first Soviet atomic bomb hardened the wartime alliance into a global confrontation.",
+      "wikiSlug": "Cold_War"
+    },
+    {
+      "id": "span-soviet-union-su-khrushchev-thaw",
+      "label": "Khrushchev Thaw",
+      "startYear": 1953,
+      "endYear": 1964,
+      "description": "Khrushchev denounced Stalin's crimes, released political prisoners, and pursued peaceful coexistence with the West. The USSR launched Sputnik and put Gagarin in space, but also crushed the Hungarian Revolution and faced the Cuban Missile Crisis.",
+      "wikiSlug": "Khrushchev_Thaw"
+    },
+    {
+      "id": "span-soviet-union-su-brezhnev-stagnation",
+      "label": "Era of Stagnation",
+      "startYear": 1964,
+      "endYear": 1985,
+      "description": "Under Brezhnev's conservative leadership, the Soviet economy stagnated while military spending soared. The invasion of Afghanistan became a costly quagmire, and the crushing of the Prague Spring demonstrated Moscow's grip on Eastern Europe.",
+      "wikiSlug": "Era_of_Stagnation"
+    },
+    {
+      "id": "span-soviet-union-su-perestroika",
+      "label": "Perestroika & Glasnost",
+      "startYear": 1985,
+      "endYear": 1991,
+      "description": "Gorbachev's reforms of economic restructuring and political openness were intended to revitalize the Soviet system but instead unleashed forces that tore it apart. The Chernobyl disaster, the fall of the Berlin Wall, and the dissolution of the USSR all occurred within this six-year span.",
+      "wikiSlug": "Perestroika"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-su-february-revolution",
+      "label": "February Revolution",
+      "year": 1917.125,
+      "description": "Mass protests and military mutinies forced Tsar Nicholas II to abdicate, ending three centuries of Romanov rule and establishing a Provisional Government.",
+      "wikiSlug": "February_Revolution",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-october-revolution",
+      "label": "October Revolution",
+      "year": 1912.0,
+      "description": "The Bolsheviks under Lenin seized power from the Provisional Government, establishing the world's first socialist state.",
+      "wikiSlug": "October_Revolution",
+      "tier": 1,
+      "category": "wars",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-su-lenin",
+      "label": "Lenin leads Soviet state",
+      "year": 1922.0,
+      "endYear": 1924,
+      "description": "Vladimir Lenin served as head of the Soviet state, implementing war communism and later the New Economic Policy to stabilize the devastated economy.",
+      "wikiSlug": "Vladimir_Lenin",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-treaty-brest-litovsk",
+      "label": "Treaty of Brest-Litovsk",
+      "year": 1918,
+      "description": "Soviet Russia signed a separate peace with the Central Powers, ceding vast territories including Ukraine and the Baltics to exit World War I.",
+      "wikiSlug": "Treaty_of_Brest-Litovsk",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-civil-war",
+      "label": "Russian Civil War",
+      "year": 1917.83,
+      "endYear": 1922.83,
+      "description": "The Red Army fought White forces, foreign interventionists, and nationalist movements in a devastating civil war that killed millions.",
+      "wikiSlug": "Russian_Civil_War",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-ussr-founded",
+      "label": "USSR officially established",
+      "year": 1922,
+      "description": "Russia, Ukraine, Belarus, and the Transcaucasian republics formally united as the Union of Soviet Socialist Republics.",
+      "wikiSlug": "Treaty_on_the_Creation_of_the_USSR",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-nep",
+      "label": "New Economic Policy",
+      "year": 1921,
+      "description": "Lenin introduced the NEP, allowing limited private enterprise and market mechanisms to revive the war-ravaged economy.",
+      "wikiSlug": "New_Economic_Policy",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-lenin-death",
+      "label": "Death of Lenin",
+      "year": 1924,
+      "description": "Lenin died after a series of strokes, triggering a power struggle among Bolshevik leaders that Stalin would eventually win.",
+      "wikiSlug": "Death_and_state_funeral_of_Vladimir_Lenin",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-stalin-rise",
+      "label": "Stalin consolidates power",
+      "year": 1924,
+      "endYear": 1929,
+      "description": "Joseph Stalin outmaneuvered rivals Trotsky, Zinoviev, and Bukharin to become the undisputed leader of the Soviet Union.",
+      "wikiSlug": "Joseph_Stalin",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-trotsky-exile",
+      "label": "Trotsky exiled",
+      "year": 1929,
+      "description": "Leon Trotsky was expelled from the Soviet Union after losing the power struggle with Stalin, eventually settling in Mexico where he was assassinated in 1940.",
+      "wikiSlug": "Leon_Trotsky",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-su-five-year-plan",
+      "label": "First Five-Year Plan",
+      "year": 1928,
+      "endYear": 1932,
+      "description": "Stalin launched rapid industrialization through centralized economic planning, transforming the USSR from an agrarian society into an industrial power.",
+      "wikiSlug": "First_five-year_plan_(Soviet_Union)",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-collectivization",
+      "label": "Forced collectivization",
+      "year": 1929,
+      "endYear": 1933,
+      "description": "Stalin forced peasants onto collective farms, destroying the kulak class and causing massive disruption to Soviet agriculture.",
+      "wikiSlug": "Collectivization_in_the_Soviet_Union",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-holodomor",
+      "label": "Holodomor famine",
+      "year": 1932,
+      "endYear": 1933,
+      "description": "A catastrophic man-made famine devastated Ukraine, killing millions as grain was seized for export and industrialization.",
+      "wikiSlug": "Holodomor",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-socialist-realism",
+      "label": "Socialist Realism declared",
+      "year": 1932,
+      "description": "The state mandated Socialist Realism as the only acceptable artistic style, suppressing avant-garde movements and placing art under party control.",
+      "wikiSlug": "Socialist_realism",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-moscow-metro",
+      "label": "Moscow Metro opens",
+      "year": 1935,
+      "description": "The first line of the Moscow Metro opened, showcasing lavish underground stations as monuments to Soviet achievement and worker prosperity.",
+      "wikiSlug": "Moscow_Metro",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-great-purge",
+      "label": "Great Purge",
+      "year": 1936,
+      "endYear": 1938,
+      "description": "Stalin's campaign of political repression executed or imprisoned hundreds of thousands, including most Old Bolsheviks and senior military officers.",
+      "wikiSlug": "Great_Purge",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-molotov-ribbentrop",
+      "label": "Molotov-Ribbentrop Pact",
+      "year": 1939,
+      "description": "The USSR and Nazi Germany signed a non-aggression pact with secret protocols dividing Eastern Europe into spheres of influence.",
+      "wikiSlug": "Molotov–Ribbentrop_Pact",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-su-winter-war",
+      "label": "Winter War with Finland",
+      "year": 1939,
+      "endYear": 1940,
+      "description": "The Soviet invasion of Finland exposed Red Army weaknesses despite eventual territorial gains, emboldening Hitler's plans to invade.",
+      "wikiSlug": "Winter_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-barbarossa",
+      "label": "Operation Barbarossa",
+      "year": 1941,
+      "description": "Nazi Germany launched the largest military invasion in history against the Soviet Union, advancing deep into Soviet territory before being halted.",
+      "wikiSlug": "Operation_Barbarossa",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-stalingrad",
+      "label": "Battle of Stalingrad",
+      "year": 1942,
+      "endYear": 1943,
+      "description": "The Soviet victory at Stalingrad destroyed an entire German army and marked the turning point of World War II on the Eastern Front.",
+      "wikiSlug": "Battle_of_Stalingrad",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kursk",
+      "label": "Battle of Kursk",
+      "year": 1943,
+      "description": "The largest tank battle in history ended in decisive Soviet victory, permanently shifting the strategic initiative to the Red Army.",
+      "wikiSlug": "Battle_of_Kursk",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-berlin-captured",
+      "label": "Red Army captures Berlin",
+      "year": 1945,
+      "description": "Soviet forces stormed Berlin in a brutal final battle, ending the European theater of World War II.",
+      "wikiSlug": "Battle_of_Berlin",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-nuclear-bomb",
+      "label": "First Soviet nuclear test",
+      "year": 1949,
+      "description": "The USSR detonated its first atomic bomb, ending America's nuclear monopoly and launching the arms race that defined the Cold War.",
+      "wikiSlug": "Soviet_atomic_bomb_project",
+      "tier": 2,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-stalin-death",
+      "label": "Death of Stalin",
+      "year": 1953,
+      "description": "Stalin's death ended three decades of totalitarian rule and initiated a power struggle won by Nikita Khrushchev.",
+      "wikiSlug": "Death_and_state_funeral_of_Joseph_Stalin",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-khrushchev",
+      "label": "Khrushchev leads USSR",
+      "year": 1953,
+      "endYear": 1964,
+      "description": "Nikita Khrushchev pursued de-Stalinization, denouncing his predecessor's cult of personality while pursuing peaceful coexistence with the West.",
+      "wikiSlug": "Nikita_Khrushchev",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-secret-speech",
+      "label": "Khrushchev's Secret Speech",
+      "year": 1956,
+      "description": "Khrushchev denounced Stalin's crimes at the 20th Party Congress, shocking the communist world and beginning the process of de-Stalinization.",
+      "wikiSlug": "On_the_Cult_of_Personality_and_Its_Consequences",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-hungarian-revolt",
+      "label": "Hungarian Revolution crushed",
+      "year": 1956,
+      "description": "Soviet tanks suppressed Hungary's anti-communist uprising, killing thousands and demonstrating Moscow's determination to maintain its Eastern European empire.",
+      "wikiSlug": "Hungarian_Revolution_of_1956",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-sputnik",
+      "label": "Sputnik launched",
+      "year": 1957,
+      "description": "The USSR launched the first artificial satellite, stunning the world and igniting the Space Race with the United States.",
+      "wikiSlug": "Sputnik_1",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gagarin",
+      "label": "Gagarin orbits Earth",
+      "year": 1961,
+      "description": "Yuri Gagarin became the first human in space aboard Vostok 1, cementing Soviet leadership in the early Space Race.",
+      "wikiSlug": "Yuri_Gagarin",
+      "tier": 2,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-gulag-literature",
+      "label": "Solzhenitsyn's One Day in the Life of Ivan Denisovich",
+      "year": 1962,
+      "description": "Alexander Solzhenitsyn published his groundbreaking novella about Gulag life, the first such account permitted in the Soviet Union.",
+      "wikiSlug": "One_Day_in_the_Life_of_Ivan_Denisovich",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-brezhnev",
+      "label": "Brezhnev leads USSR",
+      "year": 1964,
+      "endYear": 1982,
+      "description": "Leonid Brezhnev led the Soviet Union through a period of military buildup and economic stagnation, reasserting conservative communist orthodoxy.",
+      "wikiSlug": "Leonid_Brezhnev",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-prague-spring",
+      "label": "Prague Spring crushed",
+      "year": 1968,
+      "description": "Soviet-led Warsaw Pact forces invaded Czechoslovakia to end liberalizing reforms, establishing the Brezhnev Doctrine of limited sovereignty.",
+      "wikiSlug": "Prague_Spring",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-orthodox-church",
+      "label": "State atheism and church persecution",
+      "year": 1929,
+      "description": "The 1929 Law on Religious Associations severely restricted the Russian Orthodox Church, banning religious education and confiscating church property.",
+      "wikiSlug": "Persecution_of_Christians_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-su-church-revival",
+      "label": "Wartime church revival",
+      "year": 1943,
+      "description": "Stalin permitted the reopening of churches and election of a patriarch to rally patriotic support during World War II.",
+      "wikiSlug": "Russian_Orthodox_Church",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-su-afghanistan",
+      "label": "Soviet invasion of Afghanistan",
+      "year": 1979,
+      "endYear": 1989,
+      "description": "The Soviet military intervened in Afghanistan, beginning a decade-long quagmire that drained resources and undermined Soviet prestige worldwide.",
+      "wikiSlug": "Soviet–Afghan_War",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-palace-soviets",
+      "label": "Palace of the Soviets planned",
+      "year": 1931,
+      "description": "Stalin approved plans for a massive Palace of the Soviets topped by a giant Lenin statue. The project was never completed due to war and engineering problems.",
+      "wikiSlug": "Palace_of_the_Soviets",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-seven-sisters",
+      "label": "Seven Sisters skyscrapers",
+      "year": 1947,
+      "endYear": 1953,
+      "description": "Seven monumental Stalinist skyscrapers were built across Moscow, defining the city's skyline with imposing wedding-cake Gothic architecture.",
+      "wikiSlug": "Seven_Sisters_(Moscow)",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gorbachev",
+      "label": "Gorbachev leads USSR",
+      "year": 1985,
+      "endYear": 1991,
+      "description": "Mikhail Gorbachev launched perestroika and glasnost reforms to revitalize the Soviet system, inadvertently accelerating its collapse.",
+      "wikiSlug": "Mikhail_Gorbachev",
+      "tier": 1,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-chernobyl",
+      "label": "Chernobyl disaster",
+      "year": 1986,
+      "description": "A catastrophic reactor explosion at Chernobyl released massive radiation across Europe, exposing the dangers of Soviet secrecy and mismanagement.",
+      "wikiSlug": "Chernobyl_disaster",
+      "tier": 1,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-berlin-wall-falls",
+      "label": "Berlin Wall falls",
+      "year": 1989,
+      "description": "East Germany opened the Berlin Wall as Soviet-bloc communism collapsed across Eastern Europe in a wave of peaceful revolutions.",
+      "wikiSlug": "Fall_of_the_Berlin_Wall",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-dissolution",
+      "label": "Dissolution of the USSR",
+      "year": 1991,
+      "description": "The Soviet Union formally dissolved on December 26, ending 74 years of communist rule and the Cold War bipolar world order.",
+      "wikiSlug": "Dissolution_of_the_Soviet_Union",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-comecon",
+      "label": "COMECON established",
+      "year": 1949,
+      "description": "The Council for Mutual Economic Assistance was created to coordinate economic planning among Soviet-aligned states as a counter to the Marshall Plan.",
+      "wikiSlug": "Comecon",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-lysenko",
+      "label": "Lysenko's pseudoscience dominates",
+      "year": 1948,
+      "description": "Trofim Lysenko's rejection of genetics became official Soviet doctrine, setting back Soviet biology and agriculture for decades.",
+      "wikiSlug": "Lysenkoism",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-eisenstein",
+      "label": "Eisenstein's Battleship Potemkin",
+      "year": 1925,
+      "description": "Sergei Eisenstein's revolutionary film pioneered montage editing techniques and became one of the most influential films in cinema history.",
+      "wikiSlug": "Battleship_Potemkin",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-bloody-sunday-1905",
+      "label": "Revolution of 1905",
+      "year": 1905,
+      "description": "Troops fired on peaceful petitioners outside the Winter Palace on Bloody Sunday, sparking strikes, mutinies, and the first soviets — a dress rehearsal for 1917.",
+      "wikiSlug": "Revolution_of_1905",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-lena-massacre",
+      "label": "Lena goldfields massacre",
+      "year": 1912,
+      "description": "Imperial troops shot striking gold miners in Siberia, reviving the labour movement and radicalizing a new generation of workers after years of reaction.",
+      "wikiSlug": "Lena_massacre",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-lenin-april-theses",
+      "label": "Lenin returns and the April Theses",
+      "year": 1917.3,
+      "description": "Smuggled through Germany in a sealed train, Lenin reached Petrograd and called for 'all power to the soviets,' no support for the Provisional Government, and immediate peace.",
+      "wikiSlug": "April_Theses",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-july-days",
+      "label": "The July Days",
+      "year": 1917.5,
+      "description": "Armed demonstrations in Petrograd were crushed by the Provisional Government, which branded Lenin a German agent and forced the Bolshevik leadership underground.",
+      "wikiSlug": "July_Days",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kornilov-affair",
+      "label": "Kornilov affair",
+      "year": 1917.65,
+      "description": "General Kornilov's attempted march on Petrograd failed when Kerensky armed the Bolsheviks to stop him, fatally discrediting the Provisional Government.",
+      "wikiSlug": "Kornilov_affair",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-storming-winter-palace",
+      "label": "Storming of the Winter Palace",
+      "year": 1917.83,
+      "description": "Red Guards and revolutionary sailors seized the Winter Palace and arrested the Provisional Government, the symbolic climax of the Bolshevik takeover.",
+      "wikiSlug": "Storming_of_the_Winter_Palace",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-decree-on-peace-land",
+      "label": "Decrees on Peace and Land",
+      "year": 1917.85,
+      "description": "The new Soviet government's first decrees called for an immediate end to the war and abolished private landownership, redistributing estates to the peasantry.",
+      "wikiSlug": "Decree_on_Land",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-cheka-founded",
+      "label": "The Cheka founded",
+      "year": 1917.95,
+      "description": "Felix Dzerzhinsky's All-Russian Extraordinary Commission became the regime's secret police, the institutional ancestor of the GPU, NKVD, and KGB.",
+      "wikiSlug": "Cheka",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-constituent-assembly",
+      "label": "Constituent Assembly dissolved",
+      "year": 1918.05,
+      "description": "After the Bolsheviks lost the only free election to the Socialist Revolutionaries, Red Guards shut down the Constituent Assembly after a single day's sitting.",
+      "wikiSlug": "Russian_Constituent_Assembly",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-romanov-execution",
+      "label": "Execution of the Romanovs",
+      "year": 1918.5,
+      "description": "Bolshevik guards shot Tsar Nicholas II, his wife, and their five children in a Yekaterinburg cellar to deny the Whites a living monarch.",
+      "wikiSlug": "Execution_of_the_Romanov_family",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-czech-legion",
+      "label": "Czechoslovak Legion revolt",
+      "year": 1918.4,
+      "description": "Sixty thousand Czech and Slovak ex-POWs seized the Trans-Siberian Railway, igniting full-scale civil war and triggering Allied intervention.",
+      "wikiSlug": "Czechoslovak_Legion",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-war-communism",
+      "label": "War Communism",
+      "year": 1918,
+      "endYear": 1921,
+      "description": "The regime nationalized industry, banned private trade, and requisitioned grain at gunpoint to feed the Red Army, hollowing out the economy.",
+      "wikiSlug": "War_communism",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-red-terror",
+      "label": "The Red Terror",
+      "year": 1918.7,
+      "endYear": 1922,
+      "description": "After an assassination attempt on Lenin, the Cheka launched mass arrests, hostage-taking, and summary executions of 'class enemies' across Soviet territory.",
+      "wikiSlug": "Red_Terror",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-red-army-founded",
+      "label": "Trotsky builds the Red Army",
+      "year": 1918.1,
+      "description": "As war commissar, Trotsky forged a disciplined five-million-man Red Army from scratch, conscripting former tsarist officers under political commissars.",
+      "wikiSlug": "Red_Army",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-allied-intervention",
+      "label": "Allied intervention in Russia",
+      "year": 1918.6,
+      "endYear": 1920,
+      "description": "British, French, American, and Japanese troops landed at Archangel, Murmansk, and Vladivostok to support the Whites and reopen the Eastern Front.",
+      "wikiSlug": "Allied_intervention_in_the_Russian_Civil_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-comintern-founded",
+      "label": "Comintern founded",
+      "year": 1919,
+      "description": "The Communist International was created in Moscow to coordinate world revolution and bind foreign communist parties to Soviet leadership.",
+      "wikiSlug": "Communist_International",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-polish-soviet-war",
+      "label": "Polish–Soviet War",
+      "year": 1919.5,
+      "endYear": 1921,
+      "description": "The Red Army's drive on Warsaw to spread revolution westward collapsed at the 'Miracle on the Vistula,' fixing the USSR's western border for two decades.",
+      "wikiSlug": "Polish–Soviet_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-makhno-greens",
+      "label": "Makhno's anarchists and the Greens",
+      "year": 1919,
+      "endYear": 1921,
+      "description": "Nestor Makhno's Black Army and scattered 'Green' peasant insurgents fought both Reds and Whites in Ukraine, resisting requisitioning and conscription.",
+      "wikiSlug": "Makhnovshchina",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-white-defeat-crimea",
+      "label": "Wrangel evacuates Crimea",
+      "year": 1920.85,
+      "description": "The last major White army under Wrangel was driven into the sea at Crimea, and over 150,000 soldiers and civilians sailed into permanent exile.",
+      "wikiSlug": "Pyotr_Wrangel",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-russian-famine-1921",
+      "label": "Russian famine of 1921–22",
+      "year": 1921,
+      "endYear": 1922,
+      "description": "Drought and the wreckage of War Communism produced a famine that killed around five million; Western relief, led by Hoover's ARA, fed millions.",
+      "wikiSlug": "Russian_famine_of_1921–1922",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kronstadt",
+      "label": "Kronstadt rebellion",
+      "year": 1921.2,
+      "description": "Sailors of the once-loyal Kronstadt naval base rose demanding 'soviets without communists'; the revolt was crushed across the ice, ending hopes of inner-party democracy.",
+      "wikiSlug": "Kronstadt_rebellion",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-ban-on-factions",
+      "label": "Ban on factions",
+      "year": 1921.25,
+      "description": "The 10th Party Congress outlawed organized opposition within the Bolshevik Party, a rule Stalin would later wield to destroy every rival.",
+      "wikiSlug": "10th_Congress_of_the_Russian_Communist_Party_(Bolsheviks)",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-lenin-testament",
+      "label": "Lenin's Testament",
+      "year": 1923,
+      "description": "In dictated notes Lenin warned the Party that Stalin had concentrated 'unlimited authority' and should be removed as General Secretary — a document the leadership suppressed.",
+      "wikiSlug": "Lenin's_Testament",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-stalin-gensec",
+      "label": "Stalin becomes General Secretary",
+      "year": 1922.3,
+      "description": "Appointed to the seemingly dull post of General Secretary, Stalin used control of appointments to pack the Party apparatus with loyalists.",
+      "wikiSlug": "General_Secretary_of_the_Communist_Party_of_the_Soviet_Union",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-socialism-one-country",
+      "label": "Socialism in One Country",
+      "year": 1924.7,
+      "description": "Stalin and Bukharin advanced the doctrine that the USSR could build socialism alone, breaking with Trotsky's theory of permanent world revolution.",
+      "wikiSlug": "Socialism_in_one_country",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-united-opposition",
+      "label": "Defeat of the United Opposition",
+      "year": 1927,
+      "description": "Trotsky, Zinoviev, and Kamenev were expelled from the Party for organizing against Stalin, ending open opposition within the Bolshevik ranks.",
+      "wikiSlug": "Left_Opposition",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-bukharin-fall",
+      "label": "Defeat of the Right Opposition",
+      "year": 1929.3,
+      "description": "Bukharin, Rykov, and Tomsky, who defended the NEP and gradualism, were broken by Stalin, clearing the way for forced collectivization.",
+      "wikiSlug": "Nikolai_Bukharin",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-dekulakization",
+      "label": "Dekulakization",
+      "year": 1930,
+      "endYear": 1933,
+      "description": "Some two million peasants branded 'kulaks' were shot, deported to special settlements, or stripped of property in a campaign to break village resistance.",
+      "wikiSlug": "Dekulakization",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-famine-1932",
+      "label": "Soviet famine of 1930–33",
+      "year": 1930,
+      "endYear": 1933,
+      "description": "Beyond Ukraine, collectivization-driven famine devastated Kazakhstan, the Volga, and the North Caucasus, killing several million more.",
+      "wikiSlug": "Soviet_famine_of_1930–1933",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kazakh-famine",
+      "label": "Kazakh famine and sedentarization",
+      "year": 1931,
+      "endYear": 1933,
+      "description": "Forced settlement of nomadic herders and livestock seizure killed roughly 1.5 million Kazakhs, around a third of the population.",
+      "wikiSlug": "Kazakh_famine_of_1930–1933",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-magnitogorsk",
+      "label": "Magnitogorsk steel city built",
+      "year": 1929,
+      "endYear": 1935,
+      "description": "A vast steel complex and instant city rose from the Ural steppe, the flagship of Stalinist industrialization, partly built with Gulag and shock-worker labour.",
+      "wikiSlug": "Magnitogorsk",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-dnieper-dam",
+      "label": "Dnieper Hydroelectric Dam opens",
+      "year": 1932,
+      "description": "Europe's largest hydroelectric station, built with American engineering help, became a showpiece of the First Five-Year Plan and electrification.",
+      "wikiSlug": "Dnieper_Hydroelectric_Station",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-second-five-year-plan",
+      "label": "Second and Third Five-Year Plans",
+      "year": 1933,
+      "endYear": 1941,
+      "description": "Further plans expanded heavy industry, railways, and armaments, lifting the USSR to the world's second-largest industrial economy by 1940.",
+      "wikiSlug": "Second_five-year_plan_(Soviet_Union)",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gulag-system",
+      "label": "The Gulag system expands",
+      "year": 1930,
+      "endYear": 1953,
+      "description": "The Main Camp Administration ran a continent-wide network of forced-labour camps that processed roughly eighteen million prisoners over its lifetime.",
+      "wikiSlug": "Gulag",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-white-sea-canal",
+      "label": "White Sea–Baltic Canal",
+      "year": 1933,
+      "description": "Dug largely by hand by some 100,000 Gulag prisoners, the canal cost tens of thousands of lives and became a propaganda monument to 're-forging.'",
+      "wikiSlug": "White_Sea–Baltic_Canal",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-stakhanovite",
+      "label": "The Stakhanovite movement",
+      "year": 1935,
+      "description": "Miner Alexei Stakhanov's record coal output launched a propaganda cult of shock-workers, used to ratchet up production norms across the economy.",
+      "wikiSlug": "Stakhanovite_movement",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-1936-constitution",
+      "label": "The Stalin Constitution",
+      "year": 1936,
+      "description": "The 1936 'most democratic constitution in the world' guaranteed sweeping rights on paper even as the Great Terror was beginning in practice.",
+      "wikiSlug": "1936_Soviet_Constitution",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kirov-murder",
+      "label": "Assassination of Kirov",
+      "year": 1934.9,
+      "description": "The murder of Leningrad party boss Sergei Kirov, possibly arranged by Stalin himself, became the pretext for the spiraling purges.",
+      "wikiSlug": "Sergei_Kirov",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-moscow-trials",
+      "label": "The Moscow show trials",
+      "year": 1936,
+      "endYear": 1938,
+      "description": "Old Bolsheviks including Zinoviev, Kamenev, and Bukharin confessed to fantastical conspiracies in scripted public trials before being shot.",
+      "wikiSlug": "Moscow_trials",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-yezhovshchina",
+      "label": "The Yezhovshchina and NKVD mass operations",
+      "year": 1937,
+      "endYear": 1938,
+      "description": "Under NKVD chief Yezhov, quota-driven 'mass operations' executed roughly 700,000 people, including the 'kulak' Order 00447 and national operations.",
+      "wikiSlug": "Great_Purge",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-army-purge",
+      "label": "Purge of the Red Army",
+      "year": 1937.5,
+      "description": "Marshal Tukhachevsky and the bulk of the senior officer corps were executed, gutting Soviet command on the eve of war.",
+      "wikiSlug": "Case_of_Trotskyist_Anti-Soviet_Military_Organization",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-spanish-civil-war-aid",
+      "label": "Soviet aid to Republican Spain",
+      "year": 1936.6,
+      "endYear": 1939,
+      "description": "The USSR sent tanks, aircraft, advisers, and the International Brigades to the Spanish Republic, gaining gold reserves and combat experience.",
+      "wikiSlug": "Soviet_Union_in_the_Spanish_Civil_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-khalkhin-gol",
+      "label": "Battle of Khalkhin Gol",
+      "year": 1939.5,
+      "description": "Zhukov's decisive victory over Japan in Mongolia secured the Soviet Far East and steered Tokyo toward a 'southern' war against the West.",
+      "wikiSlug": "Battles_of_Khalkhin_Gol",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-poland-partition-1939",
+      "label": "Soviet invasion of Poland",
+      "year": 1939.7,
+      "description": "Per the secret protocol, the Red Army occupied eastern Poland, annexing western Ukraine and Belorussia weeks after the German attack.",
+      "wikiSlug": "Soviet_invasion_of_Poland",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-katyn-massacre",
+      "label": "Katyn massacre",
+      "year": 1940.3,
+      "description": "The NKVD shot some 22,000 Polish officers and intellectuals; the USSR blamed the Nazis until admitting guilt under Gorbachev in 1990.",
+      "wikiSlug": "Katyn_massacre",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-baltic-annexation",
+      "label": "Annexation of the Baltic states",
+      "year": 1940.6,
+      "description": "Estonia, Latvia, and Lithuania were occupied and incorporated as Soviet republics, followed by mass deportations of their elites.",
+      "wikiSlug": "Occupation_of_the_Baltic_states",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-trotsky-assassination",
+      "label": "Assassination of Trotsky",
+      "year": 1940.65,
+      "description": "An NKVD agent killed the exiled Trotsky with an ice axe in Mexico City, eliminating Stalin's last great rival.",
+      "wikiSlug": "Assassination_of_Leon_Trotsky",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "rulers"
+      ]
+    },
+    {
+      "id": "evt-su-siege-leningrad",
+      "label": "Siege of Leningrad",
+      "year": 1941.7,
+      "endYear": 1944,
+      "description": "A 900-day blockade starved roughly a million Leningraders to death; the city held out, supplied only by the frozen 'Road of Life' across Lake Ladoga.",
+      "wikiSlug": "Siege_of_Leningrad",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-battle-moscow",
+      "label": "Battle of Moscow",
+      "year": 1941.85,
+      "endYear": 1942,
+      "description": "Siberian divisions and winter halted the Wehrmacht at the gates of Moscow, the first major defeat of the German army and the end of blitzkrieg in the East.",
+      "wikiSlug": "Battle_of_Moscow",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-industry-evacuation",
+      "label": "Wartime evacuation of industry",
+      "year": 1941.6,
+      "description": "Over 1,500 factories were dismantled and shipped east of the Urals, where they were reassembled and out-produced Germany in tanks and aircraft.",
+      "wikiSlug": "Soviet_economy_during_World_War_II",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-lend-lease",
+      "label": "Lend-Lease to the USSR",
+      "year": 1941.9,
+      "endYear": 1945,
+      "description": "American trucks, locomotives, aircraft, and food via the Arctic and Persian corridors materially sustained the Red Army's offensives.",
+      "wikiSlug": "Lend-Lease",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-order-227",
+      "label": "Order No. 227 — 'Not One Step Back'",
+      "year": 1942.6,
+      "description": "Stalin's directive forbidding retreat created blocking detachments and penal battalions, hardening Soviet defence at Stalingrad.",
+      "wikiSlug": "Order_No._227",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-operation-bagration",
+      "label": "Operation Bagration",
+      "year": 1944.5,
+      "description": "A massive Belorussian offensive destroyed Germany's Army Group Centre and carried the Red Army to the gates of Warsaw.",
+      "wikiSlug": "Operation_Bagration",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-deportations-1944",
+      "label": "Deportation of the Chechens and Crimean Tatars",
+      "year": 1944.2,
+      "description": "Whole nations — Chechens, Ingush, Crimean Tatars, Kalmyks, Volga Germans — were branded collaborators and deported east, with enormous death tolls.",
+      "wikiSlug": "Population_transfer_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-yalta-conference",
+      "label": "Yalta Conference",
+      "year": 1945.1,
+      "description": "Stalin, Roosevelt, and Churchill set the postwar order, conceding Soviet dominance over much of Eastern Europe in exchange for entry into the Pacific war.",
+      "wikiSlug": "Yalta_Conference",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-potsdam-conference",
+      "label": "Potsdam Conference",
+      "year": 1945.55,
+      "description": "With Truman and a new Britain at the table, the Allies' wartime unity frayed over Poland, reparations, and Germany — the Cold War's opening act.",
+      "wikiSlug": "Potsdam_Conference",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-japan-war",
+      "label": "Soviet invasion of Manchuria",
+      "year": 1945.6,
+      "description": "Days before Japan's surrender, the Red Army overran Manchuria and the Kuril Islands, extending Soviet reach into East Asia.",
+      "wikiSlug": "Soviet_invasion_of_Manchuria",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-great-patriotic-war-cost",
+      "label": "The cost of the Great Patriotic War",
+      "year": 1945.5,
+      "description": "Some 27 million Soviet citizens died and vast swathes of the western USSR lay in ruins, a trauma that shaped Soviet politics for generations.",
+      "wikiSlug": "World_War_II_casualties_of_the_Soviet_Union",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-zhdanovshchina",
+      "label": "The Zhdanovshchina",
+      "year": 1946,
+      "endYear": 1948,
+      "description": "Andrei Zhdanov's cultural crackdown disciplined writers, composers, and scientists, attacking Akhmatova, Zoshchenko, Shostakovich, and Prokofiev for 'formalism.'",
+      "wikiSlug": "Zhdanov_Doctrine",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-sovietization-eastern-europe",
+      "label": "Sovietization of Eastern Europe",
+      "year": 1945,
+      "endYear": 1948,
+      "description": "Through coalition governments, rigged elections, and coups like Czechoslovakia's in 1948, communist parties seized power across the Soviet bloc.",
+      "wikiSlug": "Eastern_Bloc",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-iron-curtain",
+      "label": "The Iron Curtain descends",
+      "year": 1946.2,
+      "description": "Churchill's Fulton speech named the line dividing Soviet-dominated Eastern Europe from the West, crystallizing the Cold War in public imagination.",
+      "wikiSlug": "Iron_Curtain",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-berlin-blockade",
+      "label": "Berlin Blockade and Airlift",
+      "year": 1948.5,
+      "endYear": 1949,
+      "description": "Stalin sealed off West Berlin's land routes; a year-long Western airlift supplied the city and forced him to back down — the first Cold War crisis.",
+      "wikiSlug": "Berlin_Blockade",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-tito-split",
+      "label": "Tito–Stalin split",
+      "year": 1948.4,
+      "description": "Yugoslavia's break with Moscow proved the bloc was not monolithic and triggered purges of 'Titoists' across Eastern Europe.",
+      "wikiSlug": "Tito–Stalin_split",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-doctors-plot",
+      "label": "The Doctors' Plot",
+      "year": 1953.05,
+      "description": "Stalin's last campaign accused mostly Jewish Kremlin physicians of a murder conspiracy, signalling a planned new terror cut short by his death.",
+      "wikiSlug": "Doctors'_plot",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-beria-fall",
+      "label": "Arrest and execution of Beria",
+      "year": 1953.5,
+      "description": "Secret-police chief Lavrentiy Beria, briefly a reformer, was arrested in a Kremlin coup and shot, ending the threat of NKVD rule.",
+      "wikiSlug": "Lavrentiy_Beria",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-gulag-released",
+      "label": "Gulag amnesties and the Thaw begins",
+      "year": 1953.7,
+      "endYear": 1956,
+      "description": "Mass releases and rehabilitations emptied much of the camp system as the post-Stalin leadership dismantled the worst of the terror.",
+      "wikiSlug": "Khrushchev_Thaw",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-warsaw-pact",
+      "label": "Warsaw Pact founded",
+      "year": 1955,
+      "description": "In response to West Germany joining NATO, the USSR formalized its Eastern European military alliance, the bloc's collective-defence framework.",
+      "wikiSlug": "Warsaw_Pact",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-virgin-lands",
+      "label": "Virgin Lands Campaign",
+      "year": 1954,
+      "endYear": 1963,
+      "description": "Khrushchev plowed up tens of millions of hectares of Kazakh and Siberian steppe to boost grain output; early gains gave way to dust storms and erosion.",
+      "wikiSlug": "Virgin_Lands_campaign",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-poznan-1956",
+      "label": "Polish October",
+      "year": 1956.55,
+      "description": "Worker unrest in Poznań brought reform-communist Gomułka to power in Poland, a crisis Khrushchev defused short of invasion.",
+      "wikiSlug": "Polish_October",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-sino-soviet-split",
+      "label": "Sino-Soviet split",
+      "year": 1960,
+      "endYear": 1969,
+      "description": "Ideological rivalry with Mao's China shattered the communist world's unity, culminating in border clashes on the Ussuri River in 1969.",
+      "wikiSlug": "Sino-Soviet_split",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-u2-incident",
+      "label": "U-2 incident",
+      "year": 1960.35,
+      "description": "Soviet missiles downed an American spy plane and captured pilot Gary Powers, wrecking the Paris summit and hardening Cold War tensions.",
+      "wikiSlug": "1960_U-2_incident",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-laika",
+      "label": "Laika and the first space dog",
+      "year": 1957.85,
+      "description": "Sputnik 2 carried the dog Laika into orbit, the first living creature in space, foreshadowing crewed flight.",
+      "wikiSlug": "Laika",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-luna-2",
+      "label": "Luna program reaches the Moon",
+      "year": 1959.7,
+      "description": "Luna 2 became the first craft to reach the Moon and Luna 3 photographed its far side, extending the Soviet lead in space.",
+      "wikiSlug": "Luna_2",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-tereshkova",
+      "label": "Tereshkova, first woman in space",
+      "year": 1963.45,
+      "description": "Valentina Tereshkova orbited Earth 48 times aboard Vostok 6, a propaganda triumph two decades ahead of the West.",
+      "wikiSlug": "Valentina_Tereshkova",
+      "tier": 3,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-leonov-spacewalk",
+      "label": "First spacewalk",
+      "year": 1965.2,
+      "description": "Alexei Leonov left his Voskhod 2 capsule for the first walk in open space, narrowly surviving a swollen suit on re-entry.",
+      "wikiSlug": "Alexei_Leonov",
+      "tier": 3,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-korolev",
+      "label": "Korolev, the Chief Designer",
+      "year": 1957,
+      "endYear": 1966,
+      "description": "Sergei Korolev, a Gulag survivor whose identity was a state secret, masterminded the R-7 rocket, Sputnik, and Gagarin's flight.",
+      "wikiSlug": "Sergei_Korolev",
+      "tier": 3,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-berlin-wall-built",
+      "label": "Berlin Wall built",
+      "year": 1961.6,
+      "description": "To stop the haemorrhage of refugees to the West, East Germany walled off West Berlin overnight, the Cold War's starkest symbol.",
+      "wikiSlug": "Berlin_Wall",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-cuban-missile-crisis",
+      "label": "Cuban Missile Crisis",
+      "year": 1962.8,
+      "description": "Khrushchev's secret missiles in Cuba brought the superpowers to the brink of nuclear war before a deal traded withdrawal for a US pledge and Jupiter missiles.",
+      "wikiSlug": "Cuban_Missile_Crisis",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-test-ban-treaty",
+      "label": "Partial Nuclear Test Ban Treaty",
+      "year": 1963.6,
+      "description": "Chastened by the Cuban crisis, Moscow, Washington, and London banned atmospheric nuclear testing, an early arms-control milestone.",
+      "wikiSlug": "Partial_Nuclear_Test_Ban_Treaty",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-tsar-bomba",
+      "label": "Tsar Bomba detonated",
+      "year": 1961.8,
+      "description": "The USSR tested the largest nuclear device ever exploded, a 50-megaton hydrogen bomb, a show of force amid the Berlin crisis.",
+      "wikiSlug": "Tsar_Bomba",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-khrushchev-ouster",
+      "label": "Khrushchev ousted",
+      "year": 1964.8,
+      "description": "Brezhnev and the Presidium removed Khrushchev in a bloodless coup, blaming his erratic 'hare-brained schemes' and ending the Thaw.",
+      "wikiSlug": "Nikita_Khrushchev",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-kosygin-reform",
+      "label": "Kosygin economic reform",
+      "year": 1965.7,
+      "description": "Premier Kosygin's cautious attempt to introduce profit and decentralization into the planned economy was stifled by conservatives after the Prague Spring.",
+      "wikiSlug": "1965_Soviet_economic_reform",
+      "tier": 3,
+      "category": "trade",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-brezhnev-doctrine",
+      "label": "The Brezhnev Doctrine",
+      "year": 1968.8,
+      "description": "Moscow asserted the right to intervene wherever socialism was 'threatened,' the formal justification for the invasion of Czechoslovakia.",
+      "wikiSlug": "Brezhnev_Doctrine",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-ussuri-clash",
+      "label": "Sino-Soviet border conflict",
+      "year": 1969.2,
+      "description": "Armed clashes over Zhenbao Island on the Ussuri River brought the two communist giants close to all-out war and pushed China toward the US.",
+      "wikiSlug": "Sino-Soviet_border_conflict",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-salt-i",
+      "label": "SALT I and détente",
+      "year": 1972.3,
+      "description": "Nixon's Moscow summit produced the SALT I arms-limitation accords and the ABM Treaty, the high-water mark of superpower détente.",
+      "wikiSlug": "Strategic_Arms_Limitation_Talks",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-helsinki-accords",
+      "label": "Helsinki Accords",
+      "year": 1975.6,
+      "description": "Moscow won recognition of postwar borders but signed human-rights clauses that dissidents and Helsinki Watch groups would turn against the regime.",
+      "wikiSlug": "Helsinki_Accords",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-apollo-soyuz",
+      "label": "Apollo–Soyuz Test Project",
+      "year": 1975.55,
+      "description": "American and Soviet spacecraft docked in orbit, a symbolic handshake that capped the détente era of cooperation.",
+      "wikiSlug": "Apollo–Soyuz",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-salt-ii",
+      "label": "SALT II signed and stalled",
+      "year": 1979.5,
+      "description": "Brezhnev and Carter signed SALT II in Vienna, but the US Senate shelved it after the invasion of Afghanistan ended détente.",
+      "wikiSlug": "SALT_II",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-baikal-amur",
+      "label": "Baikal–Amur Mainline begun",
+      "year": 1974,
+      "endYear": 1984,
+      "description": "A 2,700-mile Siberian railway, the Brezhnev era's flagship 'project of the century,' was built at vast cost and chronic delay.",
+      "wikiSlug": "Baikal–Amur_Mainline",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-sakharov-hbomb",
+      "label": "Sakharov and the hydrogen bomb",
+      "year": 1953.55,
+      "description": "Physicist Andrei Sakharov helped design the Soviet H-bomb, then became the regime's most prominent dissident and a Nobel Peace laureate.",
+      "wikiSlug": "Andrei_Sakharov",
+      "tier": 2,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-sakharov-exile",
+      "label": "Sakharov exiled to Gorky",
+      "year": 1980.05,
+      "description": "After protesting the Afghan invasion, the dissident physicist was banished to the closed city of Gorky until Gorbachev recalled him in 1986.",
+      "wikiSlug": "Andrei_Sakharov",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-samizdat",
+      "label": "Samizdat and the dissident movement",
+      "year": 1965,
+      "endYear": 1986,
+      "description": "Banned literature copied by hand and typewriter circulated underground, sustaining a culture of dissent against censorship.",
+      "wikiSlug": "Samizdat",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-sinyavsky-daniel",
+      "label": "Sinyavsky–Daniel trial",
+      "year": 1966.1,
+      "description": "Two writers were jailed for publishing 'anti-Soviet' fiction abroad, a trial that galvanized the modern dissident movement.",
+      "wikiSlug": "Sinyavsky–Daniel_trial",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-gulag-archipelago",
+      "label": "The Gulag Archipelago published",
+      "year": 1973.9,
+      "description": "Solzhenitsyn's monumental exposé of the camp system, published in Paris, led to his expulsion from the USSR in 1974.",
+      "wikiSlug": "The_Gulag_Archipelago",
+      "tier": 2,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-pasternak-zhivago",
+      "label": "Pasternak's Doctor Zhivago and the Nobel",
+      "year": 1958.8,
+      "description": "Boris Pasternak's novel, banned at home but a Western sensation, won the Nobel Prize he was forced to decline under state pressure.",
+      "wikiSlug": "Doctor_Zhivago_(novel)",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-bulgakov-master",
+      "label": "The Master and Margarita published",
+      "year": 1967,
+      "description": "Mikhail Bulgakov's satirical masterpiece, written in secret in the 1930s, finally appeared in censored form, an instant underground classic.",
+      "wikiSlug": "The_Master_and_Margarita",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-shostakovich-5th",
+      "label": "Shostakovich's Fifth Symphony",
+      "year": 1937.85,
+      "description": "After Stalin's press condemned his opera, Shostakovich answered with a 'Soviet artist's reply to just criticism' that became a coded act of survival.",
+      "wikiSlug": "Symphony_No._5_(Shostakovich)",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-prokofiev",
+      "label": "Prokofiev returns to the USSR",
+      "year": 1936.4,
+      "description": "Composer Sergei Prokofiev resettled in Moscow, producing 'Peter and the Wolf' and the 'Alexander Nevsky' score before falling under the 1948 ban.",
+      "wikiSlug": "Sergei_Prokofiev",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-eisenstein-nevsky",
+      "label": "Eisenstein's Alexander Nevsky",
+      "year": 1938.9,
+      "description": "Eisenstein's patriotic epic of a medieval victory over Teutonic knights mobilized anti-German sentiment on the eve of war.",
+      "wikiSlug": "Alexander_Nevsky_(film)",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-soviet-chess",
+      "label": "Soviet chess dominance",
+      "year": 1948,
+      "endYear": 1972,
+      "description": "State-backed training made the USSR the chess superpower; Botvinnik, Tal, Petrosian, and Spassky held the world title until Fischer's 1972 upset.",
+      "wikiSlug": "Soviet_chess_school",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-bolshoi-ballet",
+      "label": "The Bolshoi Ballet as cultural weapon",
+      "year": 1956,
+      "endYear": 1970,
+      "description": "Touring stars like Galina Ulanova and the Bolshoi made Soviet ballet a prestige export and a soft-power asset of the Cold War.",
+      "wikiSlug": "Bolshoi_Ballet",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-nureyev-defection",
+      "label": "Nureyev defects",
+      "year": 1961.4,
+      "description": "Ballet star Rudolf Nureyev's leap to freedom at a Paris airport became the era's most famous artistic defection.",
+      "wikiSlug": "Rudolf_Nureyev",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-vdnkh",
+      "label": "VDNKh exhibition complex",
+      "year": 1939,
+      "description": "Moscow's grandiose Exhibition of Achievements of the National Economy showcased Soviet plenty in monumental pavilions and golden fountains.",
+      "wikiSlug": "Exhibition_of_Achievements_of_National_Economy",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-khrushchyovka",
+      "label": "Khrushchyovka mass housing",
+      "year": 1957,
+      "endYear": 1970,
+      "description": "Prefabricated five-storey apartment blocks were thrown up nationwide, finally giving millions of families their own flats after decades of communal living.",
+      "wikiSlug": "Khrushchyovka",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-ostankino-tower",
+      "label": "Ostankino Tower completed",
+      "year": 1967.8,
+      "description": "At 1,772 feet (540 m), Moscow's TV tower was briefly the world's tallest free-standing structure, a monument to Soviet broadcasting.",
+      "wikiSlug": "Ostankino_Tower",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-lenin-mausoleum",
+      "label": "Lenin's Mausoleum",
+      "year": 1930,
+      "description": "The granite tomb on Red Square enshrined Lenin's embalmed body as a secular relic, the centre of a state cult of the founder.",
+      "wikiSlug": "Lenin's_Mausoleum",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-cathedral-christ-saviour",
+      "label": "Cathedral of Christ the Saviour dynamited",
+      "year": 1931.9,
+      "description": "Moscow's largest church was blown up to clear ground for the never-built Palace of the Soviets, a symbol of militant atheism.",
+      "wikiSlug": "Cathedral_of_Christ_the_Saviour",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-su-league-militant-godless",
+      "label": "League of Militant Godless",
+      "year": 1925,
+      "endYear": 1947,
+      "description": "A state-backed mass movement of anti-religious propaganda, closing churches and mosques and ridiculing belief through the press and museums.",
+      "wikiSlug": "League_of_Militant_Atheists",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-su-khrushchev-antireligion",
+      "label": "Khrushchev's anti-religious campaign",
+      "year": 1959,
+      "endYear": 1964,
+      "description": "Even amid the Thaw, Khrushchev closed thousands of churches and harassed clergy, the last great wave of state atheist persecution.",
+      "wikiSlug": "USSR_anti-religious_campaign_(1958–1964)",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-su-jewish-emigration",
+      "label": "Refuseniks and Jewish emigration",
+      "year": 1970,
+      "endYear": 1989,
+      "description": "Soviet Jews barred from emigrating to Israel became an international human-rights cause linked to US trade through the Jackson–Vanik amendment.",
+      "wikiSlug": "Refusenik",
+      "tier": 3,
+      "category": "religion",
+      "tags": []
+    },
+    {
+      "id": "evt-su-anti-cosmopolitan",
+      "label": "Anti-cosmopolitan campaign",
+      "year": 1948.7,
+      "endYear": 1953,
+      "description": "A late-Stalinist drive against 'rootless cosmopolitans' targeted Soviet Jewish intellectuals, including the murder of actor Solomon Mikhoels.",
+      "wikiSlug": "Rootless_cosmopolitan",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-novocherkassk",
+      "label": "Novocherkassk massacre",
+      "year": 1962.45,
+      "description": "Troops fired on workers protesting price rises and wage cuts; the killing was hushed up for thirty years, exposing the limits of the Thaw.",
+      "wikiSlug": "Novocherkassk_massacre",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-cuba-alliance",
+      "label": "Alliance with Castro's Cuba",
+      "year": 1960.5,
+      "description": "Moscow took on Cuba as a client, subsidizing its sugar economy and gaining a forward base 90 miles from Florida.",
+      "wikiSlug": "Cuba–Soviet_Union_relations",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-vietnam-aid",
+      "label": "Soviet support for North Vietnam",
+      "year": 1965,
+      "endYear": 1975,
+      "description": "SAMs, MiGs, and aid to Hanoi made Vietnam a proxy battleground and a drain that the US, not the USSR, paid most dearly for.",
+      "wikiSlug": "Soviet_Union–Vietnam_relations",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-andropov",
+      "label": "Andropov leads USSR",
+      "year": 1982.8,
+      "endYear": 1984.1,
+      "description": "The former KGB chief launched anti-corruption and discipline drives but died after fifteen months, an aborted attempt to reform from within.",
+      "wikiSlug": "Yuri_Andropov",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-chernenko",
+      "label": "Chernenko leads USSR",
+      "year": 1984.1,
+      "endYear": 1985.2,
+      "description": "The ailing Brezhnev-era apparatchik's brief, inert rule marked the dead end of the Soviet gerontocracy.",
+      "wikiSlug": "Konstantin_Chernenko",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-brezhnev-death",
+      "label": "Death of Brezhnev",
+      "year": 1982.85,
+      "description": "Brezhnev's death after eighteen years ended the Era of Stagnation and opened the rapid succession of dying leaders.",
+      "wikiSlug": "Leonid_Brezhnev",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-kal-007",
+      "label": "Korean Air Lines Flight 007 shot down",
+      "year": 1983.65,
+      "description": "Soviet fighters destroyed a strayed airliner with 269 aboard, a propaganda catastrophe at the nadir of US-Soviet relations.",
+      "wikiSlug": "Korean_Air_Lines_Flight_007",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-able-archer",
+      "label": "The Able Archer war scare",
+      "year": 1983.85,
+      "description": "A NATO command exercise was misread in Moscow as cover for a first strike, one of the Cold War's closest brushes with nuclear war.",
+      "wikiSlug": "Able_Archer_83",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-olympics-1980",
+      "label": "Moscow 1980 Olympics boycott",
+      "year": 1980.55,
+      "description": "The US led a 65-nation boycott of the Moscow Games over Afghanistan; the USSR retaliated by boycotting Los Angeles in 1984.",
+      "wikiSlug": "1980_Summer_Olympics_boycott",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-economy-decline",
+      "label": "The stagnating command economy",
+      "year": 1975,
+      "endYear": 1985,
+      "description": "Falling growth, oil-price dependence, shortages, and a vast military burden left the planned economy unable to deliver consumer goods.",
+      "wikiSlug": "Economy_of_the_Soviet_Union",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gorbachev-elected",
+      "label": "Gorbachev becomes General Secretary",
+      "year": 1985.2,
+      "description": "At 54 the youngest Politburo member, Gorbachev took power determined to modernize a sclerotic system without abandoning socialism.",
+      "wikiSlug": "Mikhail_Gorbachev",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-anti-alcohol",
+      "label": "Anti-alcohol campaign",
+      "year": 1985.4,
+      "description": "Gorbachev's drive to curb drinking cut vodka output but slashed budget revenue and bred resentment, an early misstep.",
+      "wikiSlug": "Soviet_anti-alcohol_campaign",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-perestroika-policy",
+      "label": "Perestroika launched",
+      "year": 1986.3,
+      "description": "Restructuring legalized cooperatives and limited private enterprise, loosening but destabilizing the planned economy.",
+      "wikiSlug": "Perestroika",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-glasnost-policy",
+      "label": "Glasnost and the opening of the press",
+      "year": 1986.6,
+      "description": "Openness lifted censorship, exposed Stalin's crimes and present failures, and unleashed a torrent of criticism the Party could not control.",
+      "wikiSlug": "Glasnost",
+      "tier": 2,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-sakharov-recall",
+      "label": "Sakharov recalled from exile",
+      "year": 1986.95,
+      "description": "Gorbachev personally invited the dissident physicist back to Moscow, a signal moment of glasnost and political rehabilitation.",
+      "wikiSlug": "Andrei_Sakharov",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-congress-peoples-deputies",
+      "label": "First Congress of People's Deputies",
+      "year": 1989.3,
+      "description": "Televised semi-free elections produced a parliament where reformers and nationalists openly challenged the Party for the first time.",
+      "wikiSlug": "Congress_of_People's_Deputies_of_the_Soviet_Union",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-baltic-way",
+      "label": "The Baltic Way and independence drives",
+      "year": 1989.65,
+      "description": "Two million people joined hands across Estonia, Latvia, and Lithuania demanding independence, the vanguard of the nationalities crisis.",
+      "wikiSlug": "Baltic_Way",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-nagorno-karabakh",
+      "label": "Nagorno-Karabakh conflict erupts",
+      "year": 1988.15,
+      "description": "An Armenian-Azerbaijani dispute over the enclave spiralled into pogroms and ethnic war, the first deadly tear in the Soviet federation.",
+      "wikiSlug": "First_Nagorno-Karabakh_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-armenian-earthquake",
+      "label": "Spitak earthquake",
+      "year": 1988.95,
+      "description": "A devastating quake killed tens of thousands in Armenia; glasnost-era openness brought unprecedented appeals for foreign aid.",
+      "wikiSlug": "1988_Armenian_earthquake",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-tbilisi-massacre",
+      "label": "Tbilisi April 9 tragedy",
+      "year": 1989.27,
+      "description": "Soviet troops killed peaceful Georgian demonstrators with sharpened spades and gas, radicalizing the independence movement.",
+      "wikiSlug": "April_9_tragedy",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-afghan-withdrawal",
+      "label": "Withdrawal from Afghanistan",
+      "year": 1989.1,
+      "description": "The last Soviet soldier crossed the Friendship Bridge home, ending a war that cost 15,000 Soviet lives and shattered military prestige.",
+      "wikiSlug": "Soviet–Afghan_War",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-revolutions-1989",
+      "label": "The Revolutions of 1989",
+      "year": 1989.8,
+      "description": "From Poland's Solidarity to Romania's bloody overthrow of Ceaușescu, the Eastern Bloc fell as Gorbachev declined to send in the tanks.",
+      "wikiSlug": "Revolutions_of_1989",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-german-reunification",
+      "label": "German reunification",
+      "year": 1990.75,
+      "description": "Gorbachev accepted a reunified Germany inside NATO, the symbolic burial of the postwar Soviet position in Europe.",
+      "wikiSlug": "German_reunification",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-article-6-repealed",
+      "label": "Party monopoly abolished",
+      "year": 1990.15,
+      "description": "The repeal of Article 6 ended the Communist Party's constitutional monopoly on power, formally legalizing political pluralism.",
+      "wikiSlug": "Article_6_of_the_1977_Soviet_Constitution",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gorbachev-president",
+      "label": "Gorbachev becomes Soviet President",
+      "year": 1990.2,
+      "description": "A new executive presidency concentrated power outside the Party, but the office could not arrest the Union's disintegration.",
+      "wikiSlug": "President_of_the_Soviet_Union",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-yeltsin-russia",
+      "label": "Yeltsin and Russian sovereignty",
+      "year": 1990.45,
+      "description": "Boris Yeltsin's election to lead Russia and its declaration of sovereignty created a rival power centre that eclipsed Gorbachev.",
+      "wikiSlug": "Boris_Yeltsin",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-vilnius-january",
+      "label": "January Events in Vilnius",
+      "year": 1991.04,
+      "description": "Soviet troops storming the Vilnius TV tower killed fourteen Lithuanians, a crackdown that backfired and discredited Moscow further.",
+      "wikiSlug": "January_Events_(Lithuania)",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-union-referendum",
+      "label": "Union preservation referendum",
+      "year": 1991.2,
+      "description": "Most voters backed a 'renewed federation,' but six republics boycotted and the proposed New Union Treaty never took effect.",
+      "wikiSlug": "1991_Soviet_Union_referendum",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-august-coup",
+      "label": "The August Coup",
+      "year": 1991.62,
+      "description": "Hardliners detained Gorbachev and declared a state of emergency; Yeltsin's defiance atop a tank on live TV broke the putsch in three days.",
+      "wikiSlug": "1991_Soviet_coup_d'état_attempt",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-party-banned",
+      "label": "Communist Party suspended",
+      "year": 1991.65,
+      "description": "After the failed coup, Yeltsin banned the Party on Russian soil and Gorbachev resigned as General Secretary, ending its 74-year rule.",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-baltic-independence",
+      "label": "Baltic independence recognized",
+      "year": 1991.7,
+      "description": "In the coup's wake the State Council recognized Estonia, Latvia, and Lithuania, the first republics to leave the Union for good.",
+      "wikiSlug": "Restoration_of_Independence_of_Lithuania",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-belovezha",
+      "label": "Belovezha Accords",
+      "year": 1991.93,
+      "description": "The leaders of Russia, Ukraine, and Belarus secretly met to declare the USSR dissolved and create the Commonwealth of Independent States.",
+      "wikiSlug": "Belovezha_Accords",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gorbachev-resigns",
+      "label": "Gorbachev resigns",
+      "year": 1991.98,
+      "description": "On Christmas Day Gorbachev resigned and the red flag came down over the Kremlin, the formal end of the Soviet Union.",
+      "wikiSlug": "Mikhail_Gorbachev",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-zinoviev-letter",
+      "label": "Kollontai and the Workers' Opposition",
+      "year": 1921.3,
+      "description": "Alexandra Kollontai's Workers' Opposition demanded trade-union control of industry; its defeat marked the eclipse of inner-party democracy and women's radicalism.",
+      "wikiSlug": "Workers'_Opposition",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-women-zhenotdel",
+      "label": "The Zhenotdel and early women's policy",
+      "year": 1919.7,
+      "endYear": 1930,
+      "description": "The Party's women's department promoted female literacy, easy divorce, and legal abortion, radical gains later partly rolled back under Stalin.",
+      "wikiSlug": "Zhenotdel",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-korenizatsiya",
+      "label": "Korenizatsiya nationalities policy",
+      "year": 1923,
+      "endYear": 1933,
+      "description": "Early Soviet 'nativization' promoted local languages and cadres in the republics, a policy reversed as Stalin centralized Russian dominance.",
+      "wikiSlug": "Korenizatsiya",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gosplan",
+      "label": "Gosplan and the planned economy",
+      "year": 1921.6,
+      "description": "The State Planning Committee built the apparatus of central planning that would direct the entire economy through input-output targets.",
+      "wikiSlug": "Gosplan",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-electrification-goelro",
+      "label": "GOELRO electrification plan",
+      "year": 1920.9,
+      "description": "Lenin's slogan 'communism is Soviet power plus electrification' launched a national grid plan, the template for later central planning.",
+      "wikiSlug": "GOELRO_plan",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-rapallo-treaty",
+      "label": "Treaty of Rapallo",
+      "year": 1922.3,
+      "description": "Soviet Russia and Weimar Germany, the two pariahs of Versailles, restored relations and began secret military cooperation.",
+      "wikiSlug": "Treaty_of_Rapallo_(1922)",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-recognition-1924",
+      "label": "Western recognition of the USSR",
+      "year": 1924.2,
+      "description": "Britain, Italy, France, and others extended diplomatic recognition, ending the new state's near-total isolation.",
+      "wikiSlug": "Foreign_relations_of_the_Soviet_Union",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-us-recognition-1933",
+      "label": "US recognizes the Soviet Union",
+      "year": 1933.9,
+      "description": "Roosevelt's administration finally established diplomatic relations with Moscow, sixteen years after the revolution.",
+      "wikiSlug": "Soviet_Union–United_States_relations",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-tehran-conference",
+      "label": "Tehran Conference",
+      "year": 1943.9,
+      "description": "The first Big Three summit set the second front and postwar spheres, with Stalin negotiating from the strength of Stalingrad and Kursk.",
+      "wikiSlug": "Tehran_Conference",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-warsaw-uprising",
+      "label": "The Red Army halts at Warsaw",
+      "year": 1944.6,
+      "description": "Soviet forces paused on the Vistula while the Nazis crushed the Warsaw Uprising, a fateful act that doomed non-communist Poland.",
+      "wikiSlug": "Warsaw_Uprising",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-marshall-plan-rejected",
+      "label": "USSR rejects the Marshall Plan",
+      "year": 1947.5,
+      "description": "Moscow forbade itself and its satellites from accepting American aid, hardening the economic division of Europe.",
+      "wikiSlug": "Marshall_Plan",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-cominform",
+      "label": "Cominform established",
+      "year": 1947.7,
+      "description": "A new bureau bound European communist parties to Moscow's line, formalizing the bloc's ideological discipline against the West.",
+      "wikiSlug": "Cominform",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-east-germany-founded",
+      "label": "Founding of East Germany",
+      "year": 1949.8,
+      "description": "The German Democratic Republic was proclaimed in the Soviet zone, completing the partition of Germany and Europe.",
+      "wikiSlug": "East_Germany",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-east-german-uprising",
+      "label": "East German uprising",
+      "year": 1953.45,
+      "description": "Soviet tanks crushed a workers' revolt in East Berlin, the first armed challenge to communist rule in the bloc.",
+      "wikiSlug": "Uprising_of_1953_in_East_Germany",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-korean-war-role",
+      "label": "Soviet role in the Korean War",
+      "year": 1950.5,
+      "endYear": 1953,
+      "description": "Stalin armed North Korea and sent MiGs and pilots covertly, while keeping the USSR formally out of the war.",
+      "wikiSlug": "Soviet_Union_in_the_Korean_War",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-suez-1956",
+      "label": "Soviet pressure in the Suez Crisis",
+      "year": 1956.85,
+      "description": "Moscow's nuclear threats over Suez, coinciding with the Hungarian invasion, raised its standing in the decolonizing world.",
+      "wikiSlug": "Suez_Crisis",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-aswan-dam",
+      "label": "Soviet aid builds the Aswan Dam",
+      "year": 1960.7,
+      "endYear": 1970,
+      "description": "Funding and engineering for Egypt's Aswan High Dam showcased Soviet influence across the postcolonial Middle East.",
+      "wikiSlug": "Aswan_Dam",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-venera-venus",
+      "label": "Venera probes reach Venus",
+      "year": 1970.95,
+      "description": "Venera 7 made the first soft landing and data return from another planet's surface, a Soviet planetary first.",
+      "wikiSlug": "Venera_7",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-salyut-station",
+      "label": "Salyut, the first space station",
+      "year": 1971.3,
+      "description": "Salyut 1 became humanity's first orbital station, opening the long-duration spaceflight programme the USSR would dominate.",
+      "wikiSlug": "Salyut_1",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-mir-station",
+      "label": "Mir space station launched",
+      "year": 1986.15,
+      "description": "The modular Mir station, occupied for fifteen years, was a rare late-Soviet technological triumph amid economic decline.",
+      "wikiSlug": "Mir",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kapitsa-landau",
+      "label": "Soviet physics: Landau and Kapitsa",
+      "year": 1962.5,
+      "description": "Nobel laureates Lev Landau and Pyotr Kapitsa exemplified a world-class theoretical physics tradition that thrived despite political constraints.",
+      "wikiSlug": "Lev_Landau",
+      "tier": 3,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-aral-sea",
+      "label": "The shrinking of the Aral Sea",
+      "year": 1960,
+      "endYear": 1990,
+      "description": "Diversion of rivers for cotton irrigation desiccated the world's fourth-largest lake, a slow-motion ecological catastrophe.",
+      "wikiSlug": "Aral_Sea",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kyshtym-disaster",
+      "label": "Kyshtym nuclear disaster",
+      "year": 1957.7,
+      "description": "A waste-tank explosion at the secret Mayak plutonium plant contaminated a vast Urals region; the accident was concealed for decades.",
+      "wikiSlug": "Kyshtym_disaster",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-shukhov-tower",
+      "label": "Shukhov radio tower",
+      "year": 1922.4,
+      "description": "Vladimir Shukhov's hyperboloid steel tower broadcast Soviet radio nationwide, an icon of constructivist engineering.",
+      "wikiSlug": "Shukhov_Tower",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-constructivism",
+      "label": "Constructivism and the Soviet avant-garde",
+      "year": 1920,
+      "endYear": 1932,
+      "description": "Tatlin, Rodchenko, Melnikov, and El Lissitzky forged a revolutionary art and architecture before Socialist Realism shut it down.",
+      "wikiSlug": "Constructivism_(art)",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-motherland-calls",
+      "label": "The Motherland Calls monument",
+      "year": 1967.7,
+      "description": "The colossal Stalingrad statue, briefly the world's tallest, became the supreme monument to the Great Patriotic War's sacrifice.",
+      "wikiSlug": "The_Motherland_Calls",
+      "tier": 3,
+      "category": "architecture",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gorky-socialist-realism",
+      "label": "Maxim Gorky and the writers' union",
+      "year": 1934.6,
+      "description": "Gorky presided over the first Soviet Writers' Congress that enshrined Socialist Realism and bound literature to the Party.",
+      "wikiSlug": "Maxim_Gorky",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-mayakovsky-death",
+      "label": "Death of Mayakovsky",
+      "year": 1930.3,
+      "description": "The revolution's foremost poet shot himself, his suicide read as the despair of the avant-garde under tightening control.",
+      "wikiSlug": "Vladimir_Mayakovsky",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-akhmatova-mandelstam",
+      "label": "Akhmatova and Mandelstam under terror",
+      "year": 1938.3,
+      "description": "Osip Mandelstam died in transit to the Gulag for a poem mocking Stalin, while Anna Akhmatova wrote 'Requiem' in secret memory of the purges.",
+      "wikiSlug": "Osip_Mandelstam",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-quiet-don",
+      "label": "Sholokhov's And Quiet Flows the Don",
+      "year": 1940.7,
+      "description": "Mikhail Sholokhov's Cossack epic, later a Nobel winner, was the showcase novel of approved Socialist Realism.",
+      "wikiSlug": "And_Quiet_Flows_the_Don",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-tarkovsky",
+      "label": "Tarkovsky's Andrei Rublev",
+      "year": 1966.7,
+      "description": "Andrei Tarkovsky's meditative masterpiece, shelved by censors for years, marked the heights and constraints of late-Soviet cinema.",
+      "wikiSlug": "Andrei_Rublev_(film)",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-vysotsky",
+      "label": "Vysotsky and the bards",
+      "year": 1970,
+      "endYear": 1980,
+      "description": "Singer-poet Vladimir Vysotsky's gravelly, semi-banned guitar songs voiced the disenchantment of the Brezhnev generation.",
+      "wikiSlug": "Vladimir_Vysotsky",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-solzhenitsyn-expelled",
+      "label": "Solzhenitsyn deported",
+      "year": 1974.15,
+      "description": "Stripped of citizenship and flown to West Germany, Solzhenitsyn became the most famous symbol of the regime's intolerance of dissent.",
+      "wikiSlug": "Aleksandr_Solzhenitsyn",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-sakharov-nobel",
+      "label": "Sakharov wins the Nobel Peace Prize",
+      "year": 1975.85,
+      "description": "Barred from collecting it, Sakharov's award turned the dissident movement into a global cause and embarrassed Moscow.",
+      "wikiSlug": "Andrei_Sakharov",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-helsinki-watch",
+      "label": "The Moscow Helsinki Group",
+      "year": 1976.4,
+      "description": "Activists formed a group to monitor Soviet compliance with the Helsinki human-rights pledges, despite arrests and camp sentences.",
+      "wikiSlug": "Moscow_Helsinki_Group",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-psychiatry-abuse",
+      "label": "Punitive psychiatry against dissent",
+      "year": 1970,
+      "endYear": 1986,
+      "description": "Critics were diagnosed with 'sluggish schizophrenia' and confined to special psychiatric hospitals, a notorious tool of repression.",
+      "wikiSlug": "Political_abuse_of_psychiatry_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-prokhanov-stagnation-life",
+      "label": "Everyday life in the Brezhnev era",
+      "year": 1970,
+      "endYear": 1982,
+      "description": "Queues, the deficit economy, blat connections, and a flourishing black market defined ordinary Soviet life behind the official optimism.",
+      "wikiSlug": "Shortage_economy",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-1977-constitution",
+      "label": "The Brezhnev Constitution",
+      "year": 1977.7,
+      "description": "A new constitution declared 'developed socialism' achieved and enshrined the Party's leading role in Article 6.",
+      "wikiSlug": "1977_Soviet_Constitution",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-detente-collapse",
+      "label": "The collapse of détente",
+      "year": 1979.95,
+      "description": "Afghanistan, the SS-20 missile deployment, and Reagan's hard line ended the détente decade and launched the 'Second Cold War.'",
+      "wikiSlug": "Cold_War_(1979–1985)",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-sdi-pressure",
+      "label": "Reagan, SDI and the arms-race squeeze",
+      "year": 1983.2,
+      "description": "Reagan's 'Star Wars' missile-defence plan and military buildup pressured a Soviet economy that could no longer afford to keep pace.",
+      "wikiSlug": "Strategic_Defense_Initiative",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-geneva-reykjavik",
+      "label": "Geneva and Reykjavik summits",
+      "year": 1986.8,
+      "description": "Gorbachev and Reagan's near-deal to abolish nuclear weapons at Reykjavik reframed superpower relations even after it collapsed over SDI.",
+      "wikiSlug": "Reykjavík_Summit",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-inf-treaty",
+      "label": "The INF Treaty",
+      "year": 1987.95,
+      "description": "Gorbachev and Reagan signed the first treaty to abolish an entire class of nuclear missiles, the breakthrough of the late Cold War.",
+      "wikiSlug": "Intermediate-Range_Nuclear_Forces_Treaty",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-new-thinking",
+      "label": "Gorbachev's 'New Thinking'",
+      "year": 1988.6,
+      "description": "At the UN Gorbachev renounced the Brezhnev Doctrine and the class-struggle basis of foreign policy, freeing Eastern Europe to choose.",
+      "wikiSlug": "New_Political_Thinking",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-stalin-rehab-debate",
+      "label": "Glasnost reckoning with the Stalin past",
+      "year": 1988.3,
+      "description": "Memorial and the press exposed the scale of the terror and famine, demolishing the regime's legitimating myths.",
+      "wikiSlug": "Memorial_(society)",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-coal-strikes-1989",
+      "label": "The 1989 miners' strikes",
+      "year": 1989.55,
+      "description": "Half a million coal miners struck across the USSR, the largest labour unrest since the 1920s and a sign the workers had abandoned the system.",
+      "wikiSlug": "1989_Soviet_miners'_strikes",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-economic-collapse-1991",
+      "label": "Economic collapse of 1990–91",
+      "year": 1990.9,
+      "endYear": 1991,
+      "description": "Plummeting output, empty shelves, hyperinflation, and the breakdown of central control made the Union ungovernable by 1991.",
+      "wikiSlug": "Economic_history_of_the_Russian_Federation",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-novo-ogarevo",
+      "label": "The Novo-Ogaryovo process",
+      "year": 1991.4,
+      "description": "Gorbachev's negotiations for a looser New Union Treaty, due to be signed in August, were the trigger for the hardliners' coup.",
+      "wikiSlug": "New_Union_Treaty",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-ukraine-referendum",
+      "label": "Ukrainian independence referendum",
+      "year": 1991.92,
+      "description": "Over 90 percent of Ukrainians voted for independence, removing the keystone republic and making the Union's survival impossible.",
+      "wikiSlug": "1991_Ukrainian_independence_referendum",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-alma-ata-protocol",
+      "label": "Alma-Ata Protocol",
+      "year": 1991.96,
+      "description": "Eleven republics formally constituted the Commonwealth of Independent States and declared the USSR had ceased to exist.",
+      "wikiSlug": "Alma-Ata_Protocol",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-flag-down",
+      "label": "The red flag lowered over the Kremlin",
+      "year": 1991.99,
+      "description": "On 26 December the Supreme Soviet voted itself and the Union out of existence, ending the seventy-four-year Soviet experiment.",
+      "wikiSlug": "Dissolution_of_the_Soviet_Union",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kollontai-diplomat",
+      "label": "Kollontai, the first woman ambassador",
+      "year": 1923.5,
+      "description": "Alexandra Kollontai became the world's first female ambassador, a symbol of the revolution's early — and contested — gender radicalism.",
+      "wikiSlug": "Alexandra_Kollontai",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-pioneers-komsomol",
+      "label": "Pioneers and the Komsomol",
+      "year": 1922.7,
+      "description": "Mass youth organizations enrolled nearly every Soviet child and young adult, the regime's central instrument of political socialization.",
+      "wikiSlug": "Komsomol",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-likbez-literacy",
+      "label": "The Likbez literacy campaign",
+      "year": 1920,
+      "endYear": 1940,
+      "description": "A sweeping drive raised adult literacy from roughly a quarter to the great majority, one of the regime's most durable achievements.",
+      "wikiSlug": "Likbez",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-stalin-cult",
+      "label": "The Stalin cult of personality",
+      "year": 1929.95,
+      "endYear": 1953,
+      "description": "Stalin's 50th birthday inaugurated a pervasive cult of the 'Father of Nations' saturating art, education, and public space.",
+      "wikiSlug": "Stalin's_cult_of_personality",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-wartime-propaganda",
+      "label": "Wartime mobilization and propaganda",
+      "year": 1942.2,
+      "description": "Posters, the Sovinformburo, war correspondents like Vasily Grossman, and appeals to Russian patriotism rallied a society for total war.",
+      "wikiSlug": "Soviet_World_War_II_propaganda",
+      "tier": 3,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-grossman-life-fate",
+      "label": "Grossman's Life and Fate suppressed",
+      "year": 1961.15,
+      "description": "The KGB 'arrested' the manuscript of Vasily Grossman's great war novel, which equated Nazism and Stalinism; it surfaced in the West decades later.",
+      "wikiSlug": "Life_and_Fate",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-kgb-founded",
+      "label": "The KGB established",
+      "year": 1954.2,
+      "description": "The Committee for State Security consolidated the post-Stalin secret police, the regime's eyes, ears, and instrument of control until 1991.",
+      "wikiSlug": "KGB",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-powers-exchange",
+      "label": "Spy exchanges and the Glienicke Bridge",
+      "year": 1962.1,
+      "description": "The swap of pilot Gary Powers for KGB agent Rudolf Abel typified the espionage shadow-war that ran beneath superpower diplomacy.",
+      "wikiSlug": "Glienicke_Bridge",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-cosmonaut-deaths",
+      "label": "Soyuz 1 and the cost of the space race",
+      "year": 1967.3,
+      "description": "Cosmonaut Vladimir Komarov died when Soyuz 1's parachute failed, a disaster the rushed lunar-race programme tried to bury.",
+      "wikiSlug": "Soyuz_1",
+      "tier": 3,
+      "category": "science",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-n1-rocket-failure",
+      "label": "The N1 moon rocket fails",
+      "year": 1969.55,
+      "description": "Four explosive failures of the giant N1 booster doomed the secret Soviet crewed lunar programme, ceding the Moon to Apollo.",
+      "wikiSlug": "N1_(rocket)",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-six-day-war-break",
+      "label": "Break with Israel over the Six-Day War",
+      "year": 1967.45,
+      "description": "Moscow severed relations with Israel and rearmed Egypt and Syria, deepening its commitment to the Arab states in the Cold War Middle East.",
+      "wikiSlug": "Soviet_Union–Israel_relations",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-ostpolitik",
+      "label": "Ostpolitik and the German treaties",
+      "year": 1970.6,
+      "description": "West Germany's recognition of postwar borders in the Moscow and Warsaw Treaties was a major détente-era diplomatic gain for Brezhnev.",
+      "wikiSlug": "Ostpolitik",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-tv-consumer",
+      "label": "Television, fridges and the consumer promise",
+      "year": 1965,
+      "endYear": 1975,
+      "description": "Brezhnev's social contract traded political quiescence for rising wages, TVs, and refrigerators, a bargain that frayed as growth slowed.",
+      "wikiSlug": "Consumer_goods_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-oil-windfall",
+      "label": "The Siberian oil windfall",
+      "year": 1973.5,
+      "description": "West Siberian oil and the 1970s price boom bankrolled the late-Brezhnev economy and masked its structural decay until prices crashed.",
+      "wikiSlug": "Petroleum_industry_in_Russia",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-grain-imports",
+      "label": "The great grain deal",
+      "year": 1972.6,
+      "description": "Massive secret Soviet purchases of American wheat — the 'great grain robbery' — exposed the chronic failure of collectivized agriculture.",
+      "wikiSlug": "Russian_grain_robbery",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-food-program-1982",
+      "label": "The 1982 Food Programme",
+      "year": 1982.4,
+      "description": "Brezhnev's last major initiative threw resources at chronic food shortages with little effect, emblematic of the stagnant economy.",
+      "wikiSlug": "Agriculture_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-chernobyl-cover-up",
+      "label": "The Chernobyl cover-up and glasnost test",
+      "year": 1986.32,
+      "description": "Days of official silence after the explosion discredited the system and became, for many, the decisive argument for genuine openness.",
+      "wikiSlug": "Chernobyl_disaster",
+      "tier": 2,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-rust-landing",
+      "label": "Mathias Rust lands on Red Square",
+      "year": 1987.4,
+      "description": "A West German teenager flew a light plane through Soviet air defences to Red Square, handing Gorbachev a pretext to purge the military brass.",
+      "wikiSlug": "Mathias_Rust",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-cooperative-law",
+      "label": "Law on Cooperatives",
+      "year": 1988.4,
+      "description": "Legalizing private cooperatives created the first legal Soviet entrepreneurs, the seedbed of a post-Soviet market economy.",
+      "wikiSlug": "Law_on_Cooperatives_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-baku-january",
+      "label": "Black January in Baku",
+      "year": 1990.06,
+      "description": "The army's bloody crackdown in Azerbaijan's capital killed scores and pushed yet another republic decisively toward secession.",
+      "wikiSlug": "Black_January",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-shatalin-500-days",
+      "label": "The 500 Days Programme abandoned",
+      "year": 1990.7,
+      "description": "Gorbachev's retreat from a radical market-transition plan left the economy adrift between plan and market, accelerating the collapse.",
+      "wikiSlug": "500_Days_Programme",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-shevardnadze-resigns",
+      "label": "Shevardnadze warns of dictatorship",
+      "year": 1990.96,
+      "description": "Foreign Minister Shevardnadze resigned dramatically, warning that 'dictatorship is coming' — a public sign of the regime's terminal split.",
+      "wikiSlug": "Eduard_Shevardnadze",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-yeltsin-russian-president",
+      "label": "Yeltsin elected Russian President",
+      "year": 1991.45,
+      "description": "Russia's first popular presidential election gave Yeltsin a democratic mandate Gorbachev never had, sealing the shift of power.",
+      "wikiSlug": "1991_Russian_presidential_election",
+      "tier": 2,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-zhukov",
+      "label": "Marshal Zhukov, victor of the war",
+      "year": 1945.35,
+      "description": "Georgy Zhukov, who took Berlin and accepted Germany's surrender, became the war's emblematic commander before Stalin sidelined him.",
+      "wikiSlug": "Georgy_Zhukov",
+      "tier": 3,
+      "category": "people",
+      "tags": [
+        "wars"
+      ]
+    },
+    {
+      "id": "evt-su-malenkov-interregnum",
+      "label": "Malenkov and the collective leadership",
+      "year": 1953.3,
+      "description": "Georgy Malenkov briefly led the post-Stalin collective leadership, favouring consumer goods before Khrushchev outmanoeuvred him.",
+      "wikiSlug": "Georgy_Malenkov",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-anti-party-group",
+      "label": "Defeat of the Anti-Party Group",
+      "year": 1957.5,
+      "description": "Khrushchev survived a Presidium move to oust him by appealing to the Central Committee, consolidating his rule until 1964.",
+      "wikiSlug": "Anti-Party_Group",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-women-workforce",
+      "label": "Women in the Soviet workforce",
+      "year": 1950,
+      "endYear": 1980,
+      "description": "Women made up over half the labour force in a 'double burden' of paid work and unpaid domestic labour, a defining social fact of the system.",
+      "wikiSlug": "Women_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-healthcare",
+      "label": "The Semashko health system",
+      "year": 1937,
+      "endYear": 1980,
+      "description": "A universal, centrally planned health system raised life expectancy dramatically before stagnating and declining in the late Soviet decades.",
+      "wikiSlug": "Healthcare_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-internal-passports",
+      "label": "Internal passports and the propiska",
+      "year": 1932.95,
+      "description": "Reintroduced passports and residence permits bound peasants to the land and citizens to cities, a core mechanism of social control.",
+      "wikiSlug": "Propiska_in_the_Soviet_Union",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-sport",
+      "label": "Olympic sport as Cold War contest",
+      "year": 1952.5,
+      "endYear": 1988,
+      "description": "From its 1952 Olympic debut the USSR built a state sports machine that turned medals into proof of socialist superiority.",
+      "wikiSlug": "Soviet_Union_at_the_Olympics",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-shostakovich-leningrad",
+      "label": "Shostakovich's Leningrad Symphony",
+      "year": 1942.5,
+      "description": "Premiered in the besieged city and broadcast over German lines, the Seventh Symphony became the musical emblem of Soviet resistance.",
+      "wikiSlug": "Symphony_No._7_(Shostakovich)",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-bulgakov-banned",
+      "label": "Bulgakov silenced under Stalin",
+      "year": 1929.7,
+      "description": "Mikhail Bulgakov's plays were banned and he begged Stalin in vain to be allowed to emigrate, a parable of the artist under terror.",
+      "wikiSlug": "Mikhail_Bulgakov",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-eisenstein-ivan",
+      "label": "Eisenstein's Ivan the Terrible banned",
+      "year": 1946.6,
+      "description": "Part II of Eisenstein's epic was shelved when Stalin saw its tyrant as a mirror, a late case of the artist crushed by the dictator.",
+      "wikiSlug": "Ivan_the_Terrible_(film)",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-thaw-literature",
+      "label": "Ehrenburg's The Thaw",
+      "year": 1954.5,
+      "description": "Ilya Ehrenburg's novel gave the post-Stalin cultural loosening its name, opening a cautious decade of literary experiment.",
+      "wikiSlug": "The_Thaw_(novel)",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-novy-mir",
+      "label": "Novy Mir and Tvardovsky",
+      "year": 1958,
+      "endYear": 1970,
+      "description": "Under editor Tvardovsky the journal Novy Mir pushed the limits of permitted literature, publishing Solzhenitsyn before being reined in.",
+      "wikiSlug": "Novy_Mir",
+      "tier": 3,
+      "category": "writing",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-bukharin-rehabilitated",
+      "label": "Rehabilitation of the purge victims",
+      "year": 1988.5,
+      "description": "Bukharin and other show-trial victims were posthumously cleared, a glasnost reckoning that voided the Stalinist past's legitimacy.",
+      "wikiSlug": "Nikolai_Bukharin",
+      "tier": 3,
+      "category": "rulers",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-popular-fronts",
+      "label": "Popular fronts in the republics",
+      "year": 1988.8,
+      "description": "Mass nationalist movements — Sąjūdis, Rukh, the Baltic fronts — turned glasnost into organized drives for sovereignty and independence.",
+      "wikiSlug": "Popular_Front_(Soviet_Union)",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-fergana-pogroms",
+      "label": "Ethnic violence in Central Asia",
+      "year": 1989.45,
+      "description": "Pogroms in the Fergana Valley and the 1990 Osh riots showed the nationalities crisis spreading deep into Soviet Central Asia.",
+      "wikiSlug": "1989_Fergana_riots",
+      "tier": 3,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-gorbachev-nobel",
+      "label": "Gorbachev wins the Nobel Peace Prize",
+      "year": 1990.8,
+      "description": "Honoured abroad for ending the Cold War, Gorbachev was increasingly besieged at home, a poignant index of his isolation.",
+      "wikiSlug": "Mikhail_Gorbachev",
+      "tier": 3,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-stalin-name-change",
+      "label": "De-Stalinization of the map",
+      "year": 1961.85,
+      "description": "Stalin's body was removed from the Mausoleum and Stalingrad renamed Volgograd, the physical erasure of the dictator's cult.",
+      "wikiSlug": "De-Stalinization",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-vlasov-army",
+      "label": "Vlasov and Soviet collaboration",
+      "year": 1944.8,
+      "description": "Captured general Andrei Vlasov's German-sponsored 'Russian Liberation Army' exposed the regime's wartime fault lines; he was hanged in 1946.",
+      "wikiSlug": "Andrey_Vlasov",
+      "tier": 3,
+      "category": "wars",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "evt-su-repatriation-1945",
+      "label": "Forced repatriation and the filtration camps",
+      "year": 1945.7,
+      "description": "Millions of returning POWs and Ostarbeiter were screened, and many sent straight to the Gulag as suspected traitors.",
+      "wikiSlug": "Operation_Keelhaul",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-currency-reform-1947",
+      "label": "1947 currency reform and end of rationing",
+      "year": 1947.95,
+      "description": "A confiscatory currency reform wiped out wartime savings even as bread rationing ended, a harsh route to postwar stabilization.",
+      "wikiSlug": "1947_Soviet_monetary_reform",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-postwar-reconstruction",
+      "label": "Postwar reconstruction",
+      "year": 1946,
+      "endYear": 1952,
+      "description": "The Fourth Five-Year Plan rebuilt shattered industry and cities with extraordinary speed, partly on reparations and prison labour.",
+      "wikiSlug": "Fourth_five-year_plan_(Soviet_Union)",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-china-alliance",
+      "label": "Sino-Soviet Treaty of Alliance",
+      "year": 1950.15,
+      "description": "Stalin and Mao signed a thirty-year alliance, briefly uniting the communist world before ideological rivalry tore it apart.",
+      "wikiSlug": "Sino-Soviet_Treaty_of_Friendship,_Alliance_and_Mutual_Assistance",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-austrian-treaty",
+      "label": "Austrian State Treaty",
+      "year": 1955.4,
+      "description": "Soviet agreement to withdraw from a neutral Austria signalled the post-Stalin leadership's willingness to ease Cold War tensions.",
+      "wikiSlug": "Austrian_State_Treaty",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-sovnarkhoz",
+      "label": "Khrushchev's sovnarkhoz reform",
+      "year": 1957.4,
+      "description": "Decentralizing industry into regional councils disrupted planning without solving its problems, one of Khrushchev's reversed experiments.",
+      "wikiSlug": "Sovnarkhoz",
+      "tier": 3,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-kennedy-vienna",
+      "label": "The Vienna summit",
+      "year": 1961.45,
+      "description": "Khrushchev's combative meeting with Kennedy hardened both sides ahead of the Berlin Wall and the Cuban crisis.",
+      "wikiSlug": "Vienna_summit",
+      "tier": 3,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-tambov-rebellion",
+      "label": "The Tambov rebellion",
+      "year": 1920.7,
+      "endYear": 1921,
+      "description": "The largest peasant insurgency against grain requisitioning, in the black-earth region south of Moscow, drew in tens of thousands of fighters and was suppressed by the Red Army under Tukhachevsky with artillery, the burning of villages, mass hostage-taking, the internment of insurgents' families in concentration camps, and one of the first documented uses of poison gas by a state against its own rural population.",
+      "wikiSlug": "Tambov_Rebellion",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-american-relief-administration",
+      "label": "The American Relief Administration feeds the famine",
+      "year": 1921.7,
+      "endYear": 1923,
+      "description": "During the 1921-22 famine the Soviet government publicly admitted the catastrophe and accepted large-scale foreign relief, above all from the American Relief Administration run by the future U.S. president Herbert Hoover, which at its peak fed something like ten million people a day, a sharp contrast with the denied and concealed famine of 1932-33.",
+      "wikiSlug": "American_Relief_Administration",
+      "tier": 2,
+      "category": "trade",
+      "tags": []
+    },
+    {
+      "id": "evt-su-international-brigades",
+      "label": "The International Brigades in Spain",
+      "year": 1936.8,
+      "endYear": 1938,
+      "description": "Organized through the Comintern, tens of thousands of Communist, socialist, and antifascist volunteers from across Europe and the Americas, including Americans in the Lincoln Battalion, came to fight for the Spanish Republic against the fascist-backed military coup the USSR was arming the Republic to resist.",
+      "wikiSlug": "International_Brigades",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-hunger-plan",
+      "label": "The Nazi Hunger Plan",
+      "year": 1941.4,
+      "description": "Drafted before Operation Barbarossa, the German Hunger Plan deliberately calculated the death by starvation of tens of millions of Soviet civilians to feed the German army and Reich, the written evidence that the war in the East was designed as a war of racial annihilation rather than a conventional campaign.",
+      "wikiSlug": "Hunger_Plan",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-soviet-pow-deaths",
+      "label": "Mass death of Soviet POWs in German captivity",
+      "year": 1941.8,
+      "endYear": 1945,
+      "description": "Of the roughly five to five and a half million Soviet soldiers captured over the war, around three million died in German captivity, the majority deliberately starved, frozen, and worked to death in the first winter of 1941-42, one of the largest and least-remembered mass killings of the war and a death rate vastly worse than that of Western Allied prisoners.",
+      "wikiSlug": "German_atrocities_committed_against_Soviet_prisoners_of_war",
+      "tier": 1,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-red-army-rape-1945",
+      "label": "Red Army mass rape and pillage in 1944-45",
+      "year": 1945.0,
+      "description": "As the Red Army rolled through East Prussia, Poland, Hungary, and into Germany, its troops committed mass rape and pillage against German civilians and the civilians of countries being liberated, an atrocity suppressed for decades by the Soviet state and now established in the historical record.",
+      "wikiSlug": "Rape_during_the_occupation_of_Germany",
+      "tier": 2,
+      "category": "wars",
+      "tags": []
+    },
+    {
+      "id": "evt-su-jewish-antifascist-committee",
+      "label": "Destruction of the Jewish Anti-Fascist Committee",
+      "year": 1948.0,
+      "endYear": 1952,
+      "description": "Created by the regime during the war to rally Jewish opinion abroad behind the Soviet cause, the Jewish Anti-Fascist Committee was dissolved once the war was won, its leading members arrested in the anti-cosmopolitan campaign, and thirteen of them shot on a single night in August 1952 in what became known as the Night of the Murdered Poets.",
+      "wikiSlug": "Jewish_Anti-Fascist_Committee",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-richard-sorge",
+      "label": "Richard Sorge's Tokyo intelligence",
+      "year": 1941.7,
+      "description": "Richard Sorge, a German Communist working as a journalist in Tokyo while secretly a Soviet agent with access to German embassy traffic and Japanese intentions, confirmed that Japan would strike south rather than north, intelligence that let Stalin transfer fresh Siberian divisions to save Moscow in the winter of 1941.",
+      "wikiSlug": "Richard_Sorge",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    },
+    {
+      "id": "evt-su-klaus-fuchs-espionage",
+      "label": "Klaus Fuchs and atomic espionage",
+      "year": 1945.0,
+      "endYear": 1949,
+      "description": "The Soviet atomic program under Igor Kurchatov was genuine science significantly accelerated by espionage, most famously by Klaus Fuchs, a German-born physicist on the Anglo-American bomb project who passed detailed design information to Moscow, a documented case confirmed in both Soviet and Western archives.",
+      "wikiSlug": "Klaus_Fuchs",
+      "tier": 2,
+      "category": "science",
+      "tags": []
+    },
+    {
+      "id": "evt-su-eurocommunism",
+      "label": "Eurocommunism breaks with Moscow",
+      "year": 1968.7,
+      "description": "The crushing of the Prague Spring shattered Soviet Communism's credibility among the large Italian and French Communist parties Moscow most wanted to influence; in revulsion they broke publicly with Moscow and developed Eurocommunism, an explicitly democratic, anti-interventionist Communism, costing the USSR the Western European left it had once led.",
+      "wikiSlug": "Eurocommunism",
+      "tier": 2,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-chronicle-current-events",
+      "label": "The Chronicle of Current Events",
+      "year": 1968.0,
+      "endYear": 1982,
+      "description": "The long-running samizdat human-rights bulletin recorded each arrest, search, and trial in flat, sourced, unemotional prose from 1968 to 1982, a deliberately dry factual register that was harder to dismiss as propaganda and that documented the regime's own lawbreaking.",
+      "wikiSlug": "Chronicle_of_Current_Events",
+      "tier": 2,
+      "category": "writing",
+      "tags": []
+    },
+    {
+      "id": "evt-su-solidarity-poland",
+      "label": "The Solidarity movement in Poland",
+      "year": 1980.7,
+      "endYear": 1989,
+      "description": "Born in the 1980 Gdansk shipyard strikes, the independent trade union and mass movement Solidarity was banned and driven underground under martial law in 1981 but never destroyed; legalized in 1989, it won a landslide in semi-free elections, the opening act of the Revolutions of 1989.",
+      "wikiSlug": "Solidarity_(Polish_trade_union)",
+      "tier": 1,
+      "category": "rulers",
+      "tags": []
+    },
+    {
+      "id": "evt-su-raphael-lemkin-genocide",
+      "label": "Raphael Lemkin and the genocide concept",
+      "year": 1944.0,
+      "endYear": 1953,
+      "description": "Raphael Lemkin, the Polish-Jewish jurist who coined the word genocide in 1944 and drove the drafting of the 1948 UN Genocide Convention, argued in a 1953 address that the Soviet destruction of the Ukrainian nation was a classic case of what he meant by the term, which is why his name carries weight in the Holodomor genocide dispute.",
+      "wikiSlug": "Raphael_Lemkin",
+      "tier": 2,
+      "category": "people",
+      "tags": []
+    }
+  ]
+}

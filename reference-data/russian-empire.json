@@ -1,0 +1,3207 @@
+{
+  "id": "russian-empire",
+  "label": "Russian Empire",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Russian_Empire",
+  "imageWikiSlug": "Winter_Palace",
+  "pitch": "Peter the Great hauled Russia into the modern era by sheer force of will, founding St. Petersburg Founded on a frozen swamp as his 'window to Europe.' Catherine the Great expanded the empire from Poland to the Pacific, while Napoleon's Invasion of Russia ended in one of history's most catastrophic military disasters.\n\n🔑 Key Facts:\n• The Treaty of Nystad in 1721 formally established the Russian Empire after Peter crushed Sweden at the Battle of Poltava\n• Emancipation of the Serfs in 1861 freed 23 million people — the most sweeping social reform in Russian history\n• Mendeleev's Periodic Table organized the chemical elements and predicted ones not yet discovered\n• The Trans-Siberian Railway connected Moscow to Vladivostok across 5,700 miles, the longest railway on Earth\n\n🤔 Why It Matters: The tensions between imperial grandeur and mass poverty that defined the Russian Empire led directly to the February Revolution of 1917 — and the communist experiment that shaped the entire 20th century.\n\n🎲 Wild Card: Alexander Pushkin, the father of Russian literature, died at age 37 in a duel over his wife's honor — and Tchaikovsky composed the 1812 Overture to celebrate Russia defeating Napoleon, complete with real cannon fire.",
+  "countryIds": [
+    "804",
+    "616"
+  ],
+  "spans": [
+    {
+      "id": "span-russian-empire-petrine-era",
+      "label": "Petrine Era",
+      "startYear": 1721,
+      "endYear": 1762,
+      "wikiSlug": "Russian_Empire#Petrine_era",
+      "description": "Peter the Great's victory over Sweden established Russia as a European power, and his reforms modernized the military, government, and culture. His successors consolidated these gains while palace coups and court intrigues marked the era's political instability."
+    },
+    {
+      "id": "span-russian-empire-petrine-prehistory",
+      "label": "Peter's Rise",
+      "startYear": 1682,
+      "endYear": 1721,
+      "wikiSlug": "Peter_the_Great",
+      "description": "Before the empire was proclaimed, the young Peter survived a palace bloodbath, toured Europe in disguise, crushed the Streltsy, and waged the Great Northern War against Sweden to break Russia out of its isolation."
+    },
+    {
+      "id": "span-russian-empire-catherinian-era",
+      "label": "Catherinian Era",
+      "startYear": 1762,
+      "endYear": 1801,
+      "wikiSlug": "Russian_Empire#Catherinian_era",
+      "description": "Catherine the Great expanded the empire through the Partitions of Poland and wars with the Ottoman Empire while patronizing Enlightenment ideas. She crushed Pugachev's massive peasant revolt and strengthened serfdom even as she corresponded with Voltaire."
+    },
+    {
+      "id": "span-russian-empire-napoleonic-reaction",
+      "label": "Napoleonic & Reactionary Era",
+      "startYear": 1801,
+      "endYear": 1855,
+      "wikiSlug": "Russian_Empire#19th_century",
+      "description": "Russia defeated Napoleon's 1812 invasion and emerged as Europe's conservative enforcer under Nicholas I, suppressing liberal movements at home and abroad. The Decembrist Revolt was crushed, and defeat in the Crimean War exposed the empire's urgent need for reform."
+    },
+    {
+      "id": "span-russian-empire-great-reforms",
+      "label": "Great Reforms Era",
+      "startYear": 1855,
+      "endYear": 1881,
+      "wikiSlug": "Great_Reforms",
+      "description": "Alexander II emancipated 23 million serfs and modernized the judiciary, military, and local government in Russia's most sweeping reforms. His assassination by revolutionaries in 1881 ended the reform era and ushered in decades of reactionary rule."
+    },
+    {
+      "id": "span-russian-empire-late-empire",
+      "label": "Late Imperial Period",
+      "startYear": 1881,
+      "endYear": 1917,
+      "wikiSlug": "Russian_Empire#Late_Imperial_Russia",
+      "description": "Rapid industrialization and the Trans-Siberian Railway modernized the economy, but autocratic rule and mass poverty fueled revolutionary movements. Defeat by Japan in 1905, the failed Revolution of 1905, and World War I led to the February Revolution that toppled the Romanovs."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-peter-great",
+      "label": "Peter the Great",
+      "year": 1682,
+      "endYear": 1725,
+      "description": "Peter I transformed Russia into a European power through sweeping military, administrative, and cultural reforms, including founding St. Petersburg.",
+      "wikiSlug": "Peter_the_Great",
+      "tier": 1,
+      "tags": [
+        "people",
+        "wars"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-st-petersburg-founded",
+      "label": "St. Petersburg Founded",
+      "year": 1703,
+      "description": "Peter the Great founded St. Petersburg as his 'window to Europe,' building a modern capital on marshy land at enormous human cost.",
+      "wikiSlug": "Saint_Petersburg",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-battle-poltava",
+      "label": "Battle of Poltava",
+      "year": 1709,
+      "description": "Peter the Great decisively defeated Charles XII of Sweden, establishing Russia as a major European military power.",
+      "wikiSlug": "Battle_of_Poltava",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-nystad",
+      "label": "Treaty of Nystad",
+      "year": 1721,
+      "description": "Russia gained the Baltic provinces from Sweden, and Peter assumed the title of Emperor, formally establishing the Russian Empire.",
+      "wikiSlug": "Treaty_of_Nystad",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russian-academy-sciences",
+      "label": "Russian Academy of Sciences",
+      "year": 1724,
+      "description": "Peter the Great founded the Academy of Sciences in St. Petersburg, importing European scholars to modernize Russian learning.",
+      "wikiSlug": "Russian_Academy_of_Sciences",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-anna-empress",
+      "label": "Empress Anna",
+      "year": 1730,
+      "endYear": 1740,
+      "description": "Empress Anna restored autocratic power after a brief experiment with aristocratic constitutionalism, relying heavily on German advisors.",
+      "wikiSlug": "Anna_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-elizabeth-empress",
+      "label": "Empress Elizabeth",
+      "year": 1741,
+      "endYear": 1762,
+      "description": "Elizabeth seized power in a coup and presided over a cultural flowering, founding Moscow University and commissioning the Winter Palace.",
+      "wikiSlug": "Elizabeth_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-moscow-university",
+      "label": "Moscow University Founded",
+      "year": 1755,
+      "description": "Russia's first university was established in Moscow on the initiative of scientist Mikhail Lomonosov, becoming a center of Russian intellectual life.",
+      "wikiSlug": "Moscow_State_University",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-catherine-great",
+      "label": "Catherine the Great",
+      "year": 1762,
+      "endYear": 1796,
+      "description": "Catherine II expanded the empire, modernized governance, and patronized the arts while maintaining serfdom and crushing the Pugachev rebellion.",
+      "wikiSlug": "Catherine_the_Great",
+      "tier": 1,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pugachev-rebellion",
+      "label": "Pugachev's Rebellion",
+      "year": 1773,
+      "endYear": 1775,
+      "description": "Cossack leader Yemelyan Pugachev led the largest peasant revolt in Russian history, terrifying the nobility and hardening Catherine's conservative policies.",
+      "wikiSlug": "Pugachev%27s_Rebellion",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-partition-poland",
+      "label": "Partitions of Poland",
+      "year": 1772,
+      "endYear": 1795,
+      "description": "Russia, Prussia, and Austria dismembered Poland in three partitions, with Russia gaining the largest share of territory and population.",
+      "wikiSlug": "Partitions_of_Poland",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-winter-palace",
+      "label": "Winter Palace Completed",
+      "year": 1762,
+      "description": "Rastrelli completed the baroque Winter Palace in St. Petersburg, which served as the official residence of Russian emperors until 1917.",
+      "wikiSlug": "Winter_Palace",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-hermitage-founded",
+      "label": "Hermitage Collection Founded",
+      "year": 1764,
+      "description": "Catherine the Great began acquiring art collections that became the Hermitage Museum, one of the world's largest and oldest museums.",
+      "wikiSlug": "Hermitage_Museum",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-alexander-i",
+      "label": "Alexander I",
+      "year": 1801,
+      "endYear": 1825,
+      "description": "Alexander I began as a liberal reformer but became increasingly conservative after defeating Napoleon and shaping the post-war European order.",
+      "wikiSlug": "Alexander_I_of_Russia",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-napoleon-invasion",
+      "label": "Napoleon's Invasion of Russia",
+      "year": 1812,
+      "description": "Napoleon invaded with 600,000 troops but was devastated by Russian scorched-earth tactics and the brutal winter, losing over 400,000 men.",
+      "wikiSlug": "French_invasion_of_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-borodino",
+      "label": "Battle of Borodino",
+      "year": 1812,
+      "description": "The bloodiest single day of the Napoleonic Wars, Borodino was a pyrrhic victory for Napoleon that failed to break Russian resistance.",
+      "wikiSlug": "Battle_of_Borodino",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-decembrist-revolt",
+      "label": "Decembrist Revolt",
+      "year": 1825,
+      "description": "Liberal army officers staged an unsuccessful uprising demanding constitutional reform, which was crushed by Nicholas I and led to decades of repression.",
+      "wikiSlug": "Decembrist_revolt",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nicholas-i",
+      "label": "Nicholas I",
+      "year": 1825,
+      "endYear": 1855,
+      "description": "Nicholas I imposed strict censorship and autocratic control, earning the title 'Gendarme of Europe' for suppressing liberal movements.",
+      "wikiSlug": "Nicholas_I_of_Russia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pushkin",
+      "label": "Alexander Pushkin",
+      "year": 1799,
+      "endYear": 1837,
+      "description": "Pushkin founded modern Russian literature with works like Eugene Onegin, creating a literary language that shaped Russian cultural identity.",
+      "wikiSlug": "Alexander_Pushkin",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-crimean-war",
+      "label": "Crimean War",
+      "year": 1853,
+      "endYear": 1856,
+      "description": "Russia's defeat by Britain, France, and the Ottoman Empire exposed the empire's military backwardness and spurred the Great Reforms.",
+      "wikiSlug": "Crimean_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-emancipation-serfs",
+      "label": "Emancipation of the Serfs",
+      "year": 1861,
+      "description": "Alexander II freed over 23 million serfs, the most significant social reform in Russian history, though implementation left peasants impoverished.",
+      "wikiSlug": "Emancipation_reform_of_1861",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-alexander-ii",
+      "label": "Alexander II",
+      "year": 1855,
+      "endYear": 1881,
+      "description": "The 'Tsar Liberator' enacted sweeping reforms including emancipation, judicial reform, and local self-government before his assassination.",
+      "wikiSlug": "Alexander_II_of_Russia",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-tolstoy-war-peace",
+      "label": "Tolstoy's War and Peace",
+      "year": 1869,
+      "description": "Leo Tolstoy published War and Peace, an epic novel of the Napoleonic invasion that is considered one of the greatest works of world literature.",
+      "wikiSlug": "War_and_Peace",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-dostoevsky",
+      "label": "Dostoevsky's Brothers Karamazov",
+      "year": 1880,
+      "description": "Fyodor Dostoevsky published his final novel, exploring faith, doubt, and the Russian soul in what is considered his masterpiece.",
+      "wikiSlug": "The_Brothers_Karamazov",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-trans-siberian",
+      "label": "Trans-Siberian Railway",
+      "year": 1891,
+      "endYear": 1916,
+      "description": "Construction of the world's longest railway connected Moscow to Vladivostok, opening Siberia to settlement and trade.",
+      "wikiSlug": "Trans-Siberian_Railway",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-witte-industrialization",
+      "label": "Witte's Industrialization Program",
+      "year": 1893,
+      "description": "Finance Minister Sergei Witte launched rapid industrialization through foreign investment, protective tariffs, and railway expansion.",
+      "wikiSlug": "Sergei_Witte",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "trade"
+    },
+    {
+      "id": "evt-russo-japanese-war",
+      "label": "Russo-Japanese War",
+      "year": 1904,
+      "endYear": 1905,
+      "description": "Japan's shocking defeat of Russia exposed imperial weakness and contributed directly to the 1905 Revolution.",
+      "wikiSlug": "Russo-Japanese_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-1905-revolution",
+      "label": "Revolution of 1905",
+      "year": 1905,
+      "description": "Bloody Sunday and subsequent strikes forced Nicholas II to concede the October Manifesto, creating Russia's first parliament (Duma).",
+      "wikiSlug": "Russian_Revolution_of_1905",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nicholas-ii",
+      "label": "Nicholas II",
+      "year": 1894,
+      "endYear": 1917,
+      "description": "Russia's last tsar presided over industrial growth, military defeats, and growing revolutionary unrest that ended the Romanov dynasty.",
+      "wikiSlug": "Nicholas_II_of_Russia",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-february-revolution",
+      "label": "February Revolution",
+      "year": 1917,
+      "description": "Mass protests and military mutinies forced Nicholas II to abdicate, ending over 300 years of Romanov rule and the Russian Empire.",
+      "wikiSlug": "February_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-mendeleev-periodic-table",
+      "label": "Mendeleev's Periodic Table",
+      "year": 1869,
+      "description": "Dmitri Mendeleev organized the chemical elements into a periodic table, predicting the properties of yet-undiscovered elements.",
+      "wikiSlug": "Dmitri_Mendeleev",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-pavlov-experiments",
+      "label": "Pavlov's Conditioned Reflex",
+      "year": 1897,
+      "description": "Ivan Pavlov began experiments on conditioned reflexes in dogs, founding the field of behavioral psychology.",
+      "wikiSlug": "Ivan_Pavlov",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-orthodox-church-reform",
+      "label": "Peter's Church Reforms",
+      "year": 1721,
+      "description": "Peter the Great abolished the Patriarchate and placed the Russian Orthodox Church under state control through the Holy Synod.",
+      "wikiSlug": "Most_Holy_Synod",
+      "tier": 3,
+      "tags": [
+        "rulers"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-old-believers",
+      "label": "Old Believers Persecution",
+      "year": 1685,
+      "description": "The Old Believers, who rejected 17th-century church reforms, faced ongoing persecution, with many fleeing to Siberia and remote frontiers.",
+      "wikiSlug": "Old_Believers",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-st-isaacs",
+      "label": "St. Isaac's Cathedral",
+      "year": 1818,
+      "endYear": 1858,
+      "description": "Construction of St. Isaac's Cathedral in St. Petersburg created one of the world's largest Orthodox cathedrals and an icon of imperial grandeur.",
+      "wikiSlug": "Saint_Isaac%27s_Cathedral",
+      "tier": 3,
+      "tags": [
+        "religion"
+      ],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-fur-trade",
+      "label": "Siberian Fur Trade",
+      "year": 1730,
+      "description": "Russian fur traders pushed across Siberia to Alaska, with fur becoming a major export that financed imperial expansion.",
+      "wikiSlug": "Russian_fur_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-chekhov",
+      "label": "Anton Chekhov",
+      "year": 1860,
+      "endYear": 1904,
+      "description": "Chekhov revolutionized the short story and modern drama with works like The Cherry Orchard that captured the decline of the Russian gentry.",
+      "wikiSlug": "Anton_Chekhov",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tchaikovsky",
+      "label": "Tchaikovsky",
+      "year": 1840,
+      "endYear": 1893,
+      "description": "Pyotr Tchaikovsky composed Swan Lake, The Nutcracker, and the 1812 Overture, becoming Russia's most internationally celebrated composer.",
+      "wikiSlug": "Pyotr_Ilyich_Tchaikovsky",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-stolypin-reforms",
+      "label": "Stolypin's Land Reforms",
+      "year": 1906,
+      "description": "Prime Minister Stolypin attempted to create a class of independent peasant farmers, but his assassination in 1911 cut short the reforms.",
+      "wikiSlug": "Stolypin_reform",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-streltsy-uprising-1682",
+      "label": "Streltsy Uprising of 1682",
+      "year": 1682,
+      "description": "A bloody revolt of the Moscow musketeer guard cut down Naryshkin relatives before the boy Peter's eyes, installing the regency of his half-sister Sophia.",
+      "wikiSlug": "Moscow_uprising_of_1682",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-sophia-regency",
+      "label": "Regency of Sophia Alekseyevna",
+      "year": 1682,
+      "endYear": 1689,
+      "description": "Peter's ambitious half-sister Sophia ruled as regent through her favorite Vasily Golitsyn until Peter ousted her and confined her to a convent.",
+      "wikiSlug": "Sophia_Alekseyevna",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-azov-campaigns",
+      "label": "Azov Campaigns",
+      "year": 1695,
+      "endYear": 1696,
+      "description": "Peter's drive to seize the Ottoman fortress of Azov on the Don gave Russia its first warm-water foothold and convinced him Russia needed a navy.",
+      "wikiSlug": "Azov_campaigns_(1695%E2%80%931696)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-grand-embassy",
+      "label": "The Grand Embassy",
+      "year": 1697,
+      "endYear": 1698,
+      "description": "Peter toured Western Europe semi-incognito, working in Dutch and English shipyards and recruiting hundreds of foreign specialists for Russia.",
+      "wikiSlug": "Grand_Embassy_of_Peter_the_Great",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-streltsy-revolt-1698",
+      "label": "Streltsy Revolt and Mass Executions",
+      "year": 1698,
+      "description": "Peter rushed home to crush a mutiny of the streltsy, personally overseeing brutal interrogations and mass executions that destroyed the old guard corps.",
+      "wikiSlug": "Streltsy_uprising_of_1698",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-beard-tax",
+      "label": "The Beard Tax",
+      "year": 1698,
+      "description": "Peter ordered courtiers' beards shaved and imposed a tax on those who kept them, a small but symbolic war on Muscovite tradition.",
+      "wikiSlug": "Beard_tax",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-great-northern-war",
+      "label": "The Great Northern War",
+      "year": 1700,
+      "endYear": 1721,
+      "description": "Russia's two-decade struggle with Sweden for Baltic supremacy, opening with the disaster at Narva and ending with Russia as the dominant northern power.",
+      "wikiSlug": "Great_Northern_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-narva-1700",
+      "label": "Battle of Narva",
+      "year": 1700,
+      "description": "Charles XII's small Swedish army routed a much larger Russian force, a humiliation that drove Peter to rebuild his army from scratch.",
+      "wikiSlug": "Battle_of_Narva_(1700)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-peterhof-palace",
+      "label": "Peterhof Palace Begun",
+      "year": 1714,
+      "description": "Peter began the seaside palace and cascading fountains of Peterhof, conceived as a Russian answer to Versailles.",
+      "wikiSlug": "Peterhof_Palace",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-table-of-ranks",
+      "label": "Table of Ranks",
+      "year": 1722,
+      "description": "Peter's Table of Ranks tied noble status to state service, opening careers to merit and binding the gentry permanently to the bureaucracy and army.",
+      "wikiSlug": "Table_of_Ranks",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-twelve-colleges",
+      "label": "The Twelve Colleges",
+      "year": 1718,
+      "description": "Peter replaced the old prikaz offices with European-style administrative colleges, creating Russia's first functional ministries.",
+      "wikiSlug": "Collegium_(ministry)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-governing-senate",
+      "label": "Governing Senate Established",
+      "year": 1711,
+      "description": "Peter created the Senate as the empire's supreme administrative and judicial body, governing in the tsar's absence at war.",
+      "wikiSlug": "Governing_Senate",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-soul-tax",
+      "label": "The Soul Tax",
+      "year": 1718,
+      "endYear": 1724,
+      "description": "Peter's poll tax on every male 'soul' financed the army and tightened serfdom by registering peasants to their landlords.",
+      "wikiSlug": "Poll_tax_(Russian_Empire)",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-russian-navy-founded",
+      "label": "The Imperial Russian Navy",
+      "year": 1696,
+      "description": "Peter built Russia's first navy from nothing, founding shipyards and a fleet that won command of the Baltic by the war's end.",
+      "wikiSlug": "Imperial_Russian_Navy",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-gangut",
+      "label": "Battle of Gangut",
+      "year": 1714,
+      "description": "Russia's young navy beat the Swedes off the Hanko peninsula, its first major naval victory and proof Peter's fleet could fight.",
+      "wikiSlug": "Battle_of_Gangut",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-pruth-campaign",
+      "label": "The Pruth River Campaign",
+      "year": 1711,
+      "description": "Peter's army was surrounded by the Ottomans on the Pruth and escaped only by surrendering Azov, a sobering check on his ambitions.",
+      "wikiSlug": "Pruth_River_Campaign",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-julian-calendar-reform",
+      "label": "Calendar and New Year Reform",
+      "year": 1700,
+      "description": "Peter moved the Russian new year to 1 January and adopted the year count from Christ's birth, aligning Russia with Europe's calendar.",
+      "wikiSlug": "Adoption_of_the_Gregorian_calendar",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-vedomosti-newspaper",
+      "label": "First Russian Newspaper",
+      "year": 1703,
+      "description": "Peter launched Vedomosti, Russia's first printed newspaper, to spread official news and war reports to a reading public.",
+      "wikiSlug": "Vedomosti_(1703)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-civil-script",
+      "label": "The Civil Script Reform",
+      "year": 1708,
+      "description": "Peter simplified the Cyrillic alphabet into a streamlined 'civil script' for secular printing, separating worldly books from church type.",
+      "wikiSlug": "Russian_alphabet",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-catherine-i",
+      "label": "Catherine I",
+      "year": 1725,
+      "endYear": 1727,
+      "description": "Peter's widow, a former Livonian servant, was raised to the throne by the Guards and Menshikov, opening the age of palace coups.",
+      "wikiSlug": "Catherine_I_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-menshikov-fall",
+      "label": "Fall of Menshikov",
+      "year": 1727,
+      "description": "Peter's all-powerful favorite Alexander Menshikov was stripped of office and exiled to Siberia after losing the court struggle under Peter II.",
+      "wikiSlug": "Alexander_Danilovich_Menshikov",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-peter-ii",
+      "label": "Peter II",
+      "year": 1727,
+      "endYear": 1730,
+      "description": "Peter the Great's young grandson reigned briefly under court factions, moving the capital back to Moscow before dying of smallpox at fourteen.",
+      "wikiSlug": "Peter_II_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-conditions-1730",
+      "label": "The Conditions of 1730",
+      "year": 1730,
+      "description": "Aristocrats tried to make Anna a constitutional monarch by imposing limiting 'Conditions,' which she publicly tore up to restore autocracy.",
+      "wikiSlug": "Conditions_(history)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-bironovshchina",
+      "label": "The Bironovshchina",
+      "year": 1730,
+      "endYear": 1740,
+      "description": "Anna's reign was dominated by her Baltic German favorite Ernst Biron, whose secret-police rule became a byword for foreign-driven repression.",
+      "wikiSlug": "Ernst_Johann_von_Biron",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-war-polish-succession",
+      "label": "War of the Polish Succession",
+      "year": 1733,
+      "endYear": 1738,
+      "description": "Russia intervened in Poland to install its preferred king, asserting the dominance over Polish affairs that would lead to partition.",
+      "wikiSlug": "War_of_the_Polish_Succession",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-russo-turkish-1735",
+      "label": "Russo-Turkish War of 1735",
+      "year": 1735,
+      "endYear": 1739,
+      "description": "Russia campaigned into Crimea and the steppe against the Ottomans and their Tatar vassals, retaking Azov by the Treaty of Belgrade.",
+      "wikiSlug": "Russo-Turkish_War_(1735%E2%80%931739)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-ivan-vi",
+      "label": "The Infant Ivan VI",
+      "year": 1740,
+      "endYear": 1741,
+      "description": "A baby emperor under a regency, Ivan VI was deposed within a year, imprisoned for life, and killed decades later trying to free him.",
+      "wikiSlug": "Ivan_VI_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-elizabeth-coup-1741",
+      "label": "Elizabeth's Palace Coup",
+      "year": 1741,
+      "description": "Peter the Great's daughter Elizabeth seized the throne in a midnight Guards coup, deposing the infant Ivan VI and his German regents.",
+      "wikiSlug": "Elizabeth_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-russo-swedish-1741",
+      "label": "Russo-Swedish War of 1741",
+      "year": 1741,
+      "endYear": 1743,
+      "description": "Sweden's bid to reverse Nystad failed badly, and the Treaty of Abo pushed the Russian border further into Finland.",
+      "wikiSlug": "Russo-Swedish_War_(1741%E2%80%931743)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-lomonosov",
+      "label": "Mikhail Lomonosov",
+      "year": 1741,
+      "endYear": 1765,
+      "description": "A fisherman's son turned polymath, Lomonosov advanced chemistry, physics, grammar, and history and championed a national Russian science.",
+      "wikiSlug": "Mikhail_Lomonosov",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "science"
+    },
+    {
+      "id": "evt-bering-expedition",
+      "label": "The Great Northern Expedition",
+      "year": 1733,
+      "endYear": 1743,
+      "description": "Vitus Bering's state-funded expeditions charted Siberia's coasts and the strait to Alaska, extending Russian reach across the North Pacific.",
+      "wikiSlug": "Great_Northern_Expedition",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-bartolomeo-rastrelli",
+      "label": "Rastrelli's Baroque",
+      "year": 1740,
+      "endYear": 1762,
+      "description": "Court architect Bartolomeo Rastrelli gave Elizabethan Russia its lavish blue-and-gold baroque style at the Winter Palace and Catherine Palace.",
+      "wikiSlug": "Bartolomeo_Rastrelli",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-catherine-palace",
+      "label": "The Catherine Palace",
+      "year": 1756,
+      "description": "Rastrelli completed the rococo Catherine Palace at Tsarskoye Selo, famed for its gilded façade and the legendary Amber Room.",
+      "wikiSlug": "Catherine_Palace",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-seven-years-war",
+      "label": "Russia in the Seven Years' War",
+      "year": 1756,
+      "endYear": 1763,
+      "description": "Russian armies battered Prussia and briefly occupied Berlin, only for the new tsar Peter III to abandon the gains in his admiration for Frederick.",
+      "wikiSlug": "Seven_Years%27_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-kunersdorf",
+      "label": "Battle of Kunersdorf",
+      "year": 1759,
+      "description": "A Russian-Austrian army shattered Frederick the Great's Prussians, the lowest point of the Prussian war effort.",
+      "wikiSlug": "Battle_of_Kunersdorf",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-peter-iii",
+      "label": "Peter III",
+      "year": 1762,
+      "description": "Peter III's brief reign freed the nobility from compulsory service but his pro-Prussian policies and erratic rule led to his overthrow.",
+      "wikiSlug": "Peter_III_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-manifesto-nobility-freedom",
+      "label": "Manifesto on Freedom of the Nobility",
+      "year": 1762,
+      "description": "Peter III released nobles from obligatory state service, ending the Petrine bargain while leaving their power over serfs intact.",
+      "wikiSlug": "Manifesto_on_Freedom_of_the_Nobility",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-catherine-coup-1762",
+      "label": "Catherine's Coup of 1762",
+      "year": 1762,
+      "description": "Catherine, backed by the Guards and the Orlov brothers, overthrew her husband Peter III, who was killed days later in captivity.",
+      "wikiSlug": "Catherine_the_Great",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nakaz-instruction",
+      "label": "Catherine's Nakaz",
+      "year": 1767,
+      "description": "Catherine's grand 'Instruction' to a legislative commission borrowed openly from Montesquieu and Beccaria, an Enlightenment showpiece that changed little.",
+      "wikiSlug": "Nakaz",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-legislative-commission",
+      "label": "The Legislative Commission",
+      "year": 1767,
+      "endYear": 1768,
+      "description": "Catherine convened deputies from across society to draft a new law code; the talking shop produced no code but mapped Russia's grievances.",
+      "wikiSlug": "Legislative_Commission",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russo-turkish-1768",
+      "label": "Russo-Turkish War of 1768",
+      "year": 1768,
+      "endYear": 1774,
+      "description": "Catherine's first Turkish war crushed Ottoman fleets and armies, ending in the landmark Treaty of Kuchuk-Kainarji.",
+      "wikiSlug": "Russo-Turkish_War_(1768%E2%80%931774)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-chesma",
+      "label": "Battle of Chesma",
+      "year": 1770,
+      "description": "A Russian Baltic fleet sailed into the Aegean and annihilated the Ottoman navy at Chesma, a stunning projection of Russian power.",
+      "wikiSlug": "Battle_of_Chesma",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-kuchuk-kainarji",
+      "label": "Treaty of Kuchuk-Kainarji",
+      "year": 1774,
+      "description": "Russia won Black Sea ports, navigation rights, and a claim to protect Ottoman Christians, opening the long 'Eastern Question.'",
+      "wikiSlug": "Treaty_of_K%C3%BC%C3%A7%C3%BCk_Kaynarca",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-first-partition-poland",
+      "label": "First Partition of Poland",
+      "year": 1772,
+      "description": "Russia, Prussia, and Austria each carved a slice from the Polish-Lithuanian Commonwealth, beginning the country's erasure from the map.",
+      "wikiSlug": "First_Partition_of_Poland",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-charter-nobility",
+      "label": "Charter to the Nobility",
+      "year": 1785,
+      "description": "Catherine codified noble privileges into a charter, freeing the gentry from taxation and corporal punishment and entrenching their estate power.",
+      "wikiSlug": "Charter_to_the_Nobility",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-charter-towns",
+      "label": "Charter to the Towns",
+      "year": 1785,
+      "description": "Catherine granted town-dwellers a self-governing structure of estates and guilds, an attempt to nurture a Russian urban middle class.",
+      "wikiSlug": "Catherine_the_Great",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-provincial-reform-1775",
+      "label": "Provincial Reform of 1775",
+      "year": 1775,
+      "description": "Shaken by Pugachev, Catherine reorganized the empire into uniform provinces and districts, tightening central control over the countryside.",
+      "wikiSlug": "Governorate_(Russia)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-annexation-crimea",
+      "label": "Annexation of Crimea",
+      "year": 1783,
+      "description": "Catherine annexed the Crimean Khanate, securing the Black Sea coast and founding Sevastopol as a great naval base.",
+      "wikiSlug": "Annexation_of_Crimea_by_the_Russian_Empire_(1783)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-potemkin",
+      "label": "Grigory Potemkin",
+      "year": 1774,
+      "endYear": 1791,
+      "description": "Catherine's lover and viceroy of the south built Black Sea cities and the fleet, lending his name to the legend of the 'Potemkin village.'",
+      "wikiSlug": "Grigory_Potemkin",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-novorossiya-settlement",
+      "label": "Settlement of Novorossiya",
+      "year": 1764,
+      "endYear": 1796,
+      "description": "Catherine colonized the conquered Black Sea steppe with Russian, Ukrainian, and foreign settlers, founding Odessa, Kherson, and Yekaterinoslav.",
+      "wikiSlug": "Novorossiya",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-russo-turkish-1787",
+      "label": "Russo-Turkish War of 1787",
+      "year": 1787,
+      "endYear": 1792,
+      "description": "A second Turkish war confirmed Russian control of the northern Black Sea coast, sealed by the Treaty of Jassy.",
+      "wikiSlug": "Russo-Turkish_War_(1787%E2%80%931792)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-ochakov",
+      "label": "Siege of Ochakov",
+      "year": 1788,
+      "description": "Potemkin's army stormed the Ottoman fortress of Ochakov after a long, costly siege, opening the Dnieper estuary to Russia.",
+      "wikiSlug": "Siege_of_Ochakov_(1788)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-izmail",
+      "label": "Storming of Izmail",
+      "year": 1790,
+      "description": "Suvorov's assault on the supposedly impregnable Danube fortress of Izmail became the most celebrated feat of Catherine's Turkish wars.",
+      "wikiSlug": "Siege_of_Izmail",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-suvorov",
+      "label": "Alexander Suvorov",
+      "year": 1770,
+      "endYear": 1800,
+      "description": "Russia's greatest general never lost a battle, from the Turkish wars to the Polish suppression to his epic 1799 march across the Alps.",
+      "wikiSlug": "Alexander_Suvorov",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-radishchev-journey",
+      "label": "Radishchev's Journey",
+      "year": 1790,
+      "description": "Alexander Radishchev's A Journey from St Petersburg to Moscow exposed serfdom's cruelty; Catherine exiled him to Siberia for it.",
+      "wikiSlug": "Alexander_Radishchev",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-novikov-publishing",
+      "label": "Nikolai Novikov and the Press",
+      "year": 1769,
+      "endYear": 1792,
+      "description": "Satirist and publisher Novikov built an Enlightenment publishing network until Catherine, fearing Freemasonry and dissent, jailed him.",
+      "wikiSlug": "Nikolay_Novikov",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-kosciuszko-uprising",
+      "label": "Kosciuszko Uprising",
+      "year": 1794,
+      "description": "Tadeusz Kosciuszko led a doomed Polish national rising against Russian and Prussian control, ending with Suvorov's storm of Warsaw's Praga.",
+      "wikiSlug": "Ko%C5%9Bciuszko_Uprising",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-third-partition-poland",
+      "label": "Third Partition of Poland",
+      "year": 1795,
+      "description": "The final partition wiped the Polish-Lithuanian Commonwealth off the map, with Russia absorbing Lithuania, Belarus, and western Ukraine.",
+      "wikiSlug": "Third_Partition_of_Poland",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-russian-america",
+      "label": "Russian America Founded",
+      "year": 1784,
+      "description": "Grigory Shelikhov established the first permanent Russian settlement on Kodiak Island, anchoring the fur empire in Alaska.",
+      "wikiSlug": "Russian_America",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-paul-i",
+      "label": "Paul I",
+      "year": 1796,
+      "endYear": 1801,
+      "description": "Catherine's resentful son reversed her policies, drilled the army to Prussian standards, and alienated the elite before his murder.",
+      "wikiSlug": "Paul_I_of_Russia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pauline-succession-law",
+      "label": "Pauline Law of Succession",
+      "year": 1797,
+      "description": "Paul replaced Peter's chaotic 'choose your heir' rule with strict male-line primogeniture, ending the era of palace coups by women.",
+      "wikiSlug": "Pauline_Laws",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-suvorov-italian-campaign",
+      "label": "Suvorov's Italian and Swiss Campaign",
+      "year": 1799,
+      "description": "Suvorov drove the French from Italy then led an extraordinary fighting retreat over the Alps, Russia's debut in the wars against revolutionary France.",
+      "wikiSlug": "Italian_and_Swiss_expedition",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-assassination-paul",
+      "label": "Assassination of Paul I",
+      "year": 1801,
+      "description": "Court conspirators strangled Paul in his bedroom and put his son Alexander on the throne, the last successful palace coup of the empire.",
+      "wikiSlug": "Assassination_of_Paul_I",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-speransky-reforms",
+      "label": "Speransky's Reform Plans",
+      "year": 1809,
+      "description": "Mikhail Speransky drew up sweeping plans for a rule-of-law state and elected assemblies; only the advisory State Council survived.",
+      "wikiSlug": "Mikhail_Speransky",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-state-council-1810",
+      "label": "State Council Established",
+      "year": 1810,
+      "description": "Alexander I created the State Council on Speransky's design as the empire's top advisory legislative body, a cautious half-step toward reform.",
+      "wikiSlug": "State_Council_(Russian_Empire)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russo-persian-1804",
+      "label": "Russo-Persian War of 1804",
+      "year": 1804,
+      "endYear": 1813,
+      "description": "Russia's conquest of the Transcaucasian khanates was ratified by the Treaty of Gulistan, bringing much of modern Azerbaijan into the empire.",
+      "wikiSlug": "Russo-Persian_War_(1804%E2%80%931813)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-austerlitz",
+      "label": "Battle of Austerlitz",
+      "year": 1805,
+      "description": "Napoleon crushed the combined Russian and Austrian armies in his masterpiece victory, exposing the limits of Alexander's coalition.",
+      "wikiSlug": "Battle_of_Austerlitz",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-tilsit",
+      "label": "Treaty of Tilsit",
+      "year": 1807,
+      "description": "After defeat at Friedland, Alexander met Napoleon on a raft and allied with France, joining the Continental System against Britain.",
+      "wikiSlug": "Treaties_of_Tilsit",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-finnish-war",
+      "label": "The Finnish War",
+      "year": 1808,
+      "endYear": 1809,
+      "description": "Russia conquered Finland from Sweden, creating the autonomous Grand Duchy of Finland under the tsar as grand duke.",
+      "wikiSlug": "Finnish_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-bessarabia-1812",
+      "label": "Annexation of Bessarabia",
+      "year": 1812,
+      "description": "The Treaty of Bucharest ended a Turkish war on the eve of Napoleon's invasion, adding Bessarabia to the empire.",
+      "wikiSlug": "Treaty_of_Bucharest_(1812)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-burning-moscow",
+      "label": "The Burning of Moscow",
+      "year": 1812,
+      "description": "Fires gutted Moscow as Napoleon occupied an empty city, leaving the Grande Armee without shelter or supplies before its catastrophic retreat.",
+      "wikiSlug": "Fire_of_Moscow_(1812)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-berezina-crossing",
+      "label": "Crossing of the Berezina",
+      "year": 1812,
+      "description": "The desperate, freezing river crossing in November shattered what remained of Napoleon's Grande Armee on its retreat from Russia.",
+      "wikiSlug": "Battle_of_Berezina",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kutuzov",
+      "label": "Field Marshal Kutuzov",
+      "year": 1812,
+      "description": "Mikhail Kutuzov, the wily one-eyed commander, traded space for time against Napoleon and became the national hero of 1812.",
+      "wikiSlug": "Mikhail_Kutuzov",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-war-sixth-coalition",
+      "label": "The Campaign in Europe",
+      "year": 1813,
+      "endYear": 1814,
+      "description": "Russian armies pursued Napoleon across Germany and France, with Alexander I entering Paris at the head of the victorious allies.",
+      "wikiSlug": "War_of_the_Sixth_Coalition",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-leipzig",
+      "label": "Battle of Leipzig",
+      "year": 1813,
+      "description": "The vast 'Battle of the Nations' near Leipzig broke Napoleon's grip on Germany, with Russia fielding the largest allied contingent.",
+      "wikiSlug": "Battle_of_Leipzig",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-congress-vienna",
+      "label": "Congress of Vienna",
+      "year": 1814,
+      "endYear": 1815,
+      "description": "Alexander I helped redraw Europe's map, securing 'Congress Poland' under the tsar and casting Russia as a great-power arbiter.",
+      "wikiSlug": "Congress_of_Vienna",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-holy-alliance",
+      "label": "The Holy Alliance",
+      "year": 1815,
+      "description": "Alexander's mystical pact with Austria and Prussia bound the monarchs to defend Christian monarchy and crush revolution across Europe.",
+      "wikiSlug": "Holy_Alliance",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-congress-poland",
+      "label": "Congress Poland",
+      "year": 1815,
+      "description": "The Kingdom of Poland was created in personal union with the tsar, granted a constitution that successive emperors steadily hollowed out.",
+      "wikiSlug": "Congress_Poland",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-military-colonies",
+      "label": "The Military Colonies",
+      "year": 1816,
+      "endYear": 1857,
+      "description": "Arakcheyev's scheme settled soldiers as regimented farmer-troops; the harsh discipline made the colonies notorious and revolt-prone.",
+      "wikiSlug": "Military_settlement",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-bellingshausen-antarctica",
+      "label": "Bellingshausen Reaches Antarctica",
+      "year": 1820,
+      "description": "A Russian naval expedition under Bellingshausen and Lazarev became among the first to sight the Antarctic continent.",
+      "wikiSlug": "First_Russian_Antarctic_Expedition",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-decembrist-societies",
+      "label": "The Decembrist Secret Societies",
+      "year": 1816,
+      "endYear": 1825,
+      "description": "Officers who had seen Europe formed secret societies debating constitutions and the abolition of serfdom, the seedbed of the 1825 revolt.",
+      "wikiSlug": "Decembrist_revolt",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-third-section",
+      "label": "The Third Section",
+      "year": 1826,
+      "description": "Nicholas I created the Third Section political police and Gendarme corps to surveil and suppress dissent across the empire.",
+      "wikiSlug": "Third_Section_of_His_Imperial_Majesty%27s_Own_Chancellery",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russo-persian-1826",
+      "label": "Russo-Persian War of 1826",
+      "year": 1826,
+      "endYear": 1828,
+      "description": "Russia's victory and the Treaty of Turkmenchay annexed Armenia and confirmed dominance over the Caucasus frontier with Persia.",
+      "wikiSlug": "Russo-Persian_War_(1826%E2%80%931828)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-russo-turkish-1828",
+      "label": "Russo-Turkish War of 1828",
+      "year": 1828,
+      "endYear": 1829,
+      "description": "The Treaty of Adrianople gave Russia Black Sea coast and Danube mouths and advanced its claim as protector of Balkan Christians.",
+      "wikiSlug": "Russo-Turkish_War_(1828%E2%80%931829)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-november-uprising",
+      "label": "Polish November Uprising",
+      "year": 1830,
+      "endYear": 1831,
+      "description": "A Polish national revolt against Russian rule was crushed, after which Nicholas I abolished the Polish constitution and army.",
+      "wikiSlug": "November_Uprising",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-official-nationality",
+      "label": "Official Nationality Doctrine",
+      "year": 1833,
+      "description": "Education minister Uvarov defined the regime's creed as 'Orthodoxy, Autocracy, Nationality,' the ideological pillar of Nicholas I's Russia.",
+      "wikiSlug": "Orthodoxy,_Autocracy,_and_Nationality",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-digest-laws",
+      "label": "The Digest of Laws",
+      "year": 1832,
+      "description": "Speransky's commission codified centuries of Russian statutes into the Digest of Laws, the empire's working legal framework until 1917.",
+      "wikiSlug": "Complete_Collection_of_Laws_of_the_Russian_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-gogol-dead-souls",
+      "label": "Gogol's Dead Souls",
+      "year": 1842,
+      "description": "Nikolai Gogol's satirical novel of a swindler buying dead serfs skewered provincial Russia and shaped the realist tradition.",
+      "wikiSlug": "Dead_Souls",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pushkin-eugene-onegin",
+      "label": "Pushkin's Eugene Onegin",
+      "year": 1833,
+      "description": "Pushkin's verse novel of love, boredom, and a fatal duel set the template for the Russian novel and the language itself.",
+      "wikiSlug": "Eugene_Onegin",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pushkin-duel",
+      "label": "Death of Pushkin",
+      "year": 1837,
+      "description": "Russia's national poet was mortally wounded in a duel defending his wife's honor, a loss the country mourned as a public catastrophe.",
+      "wikiSlug": "Alexander_Pushkin",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lermontov",
+      "label": "Mikhail Lermontov",
+      "year": 1840,
+      "description": "Lermontov's A Hero of Our Time created the brooding 'superfluous man'; like Pushkin, he died young in a duel a year later.",
+      "wikiSlug": "Mikhail_Lermontov",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-slavophiles-westernizers",
+      "label": "Slavophiles versus Westernizers",
+      "year": 1840,
+      "endYear": 1860,
+      "description": "Russia's intelligentsia split over whether the country should follow a unique Orthodox-communal path or modernize on the Western model.",
+      "wikiSlug": "Slavophilia",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-petrashevsky-circle",
+      "label": "The Petrashevsky Circle",
+      "year": 1849,
+      "description": "Nicholas I's police broke up a discussion circle of socialist intellectuals; among those condemned and reprieved was the young Dostoevsky.",
+      "wikiSlug": "Petrashevsky_Circle",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-1848-gendarme",
+      "label": "Gendarme of Europe",
+      "year": 1849,
+      "description": "Nicholas I sent an army to crush the Hungarian revolution for Austria, sealing Russia's reputation as Europe's reactionary policeman.",
+      "wikiSlug": "Hungarian_Revolution_of_1848",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-caucasian-war",
+      "label": "The Caucasian War",
+      "year": 1817,
+      "endYear": 1864,
+      "description": "A half-century of brutal mountain warfare subdued the North Caucasus, marked by mass deportation of the Circassians.",
+      "wikiSlug": "Caucasian_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-imam-shamil",
+      "label": "Imam Shamil's Resistance",
+      "year": 1834,
+      "endYear": 1859,
+      "description": "The Avar imam Shamil united Dagestan and Chechnya in a quarter-century holy war against Russian conquest before his capture at Gunib.",
+      "wikiSlug": "Imam_Shamil",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-siege-sevastopol",
+      "label": "Siege of Sevastopol",
+      "year": 1854,
+      "endYear": 1855,
+      "description": "The year-long allied siege of Russia's main Black Sea base became the symbol of the Crimean War and of imperial military failure.",
+      "wikiSlug": "Siege_of_Sevastopol_(1854%E2%80%931855)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-paris-1856",
+      "label": "Treaty of Paris",
+      "year": 1856,
+      "description": "Defeat in the Crimean War forced Russia to accept the demilitarization of the Black Sea, a humiliation that drove the Great Reforms.",
+      "wikiSlug": "Treaty_of_Paris_(1856)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-zemstvo-reform",
+      "label": "The Zemstvo Reform",
+      "year": 1864,
+      "description": "Alexander II created elected district and provincial assemblies that ran schools, roads, and hospitals, Russia's first taste of local self-rule.",
+      "wikiSlug": "Zemstvo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-judicial-reform-1864",
+      "label": "Judicial Reform of 1864",
+      "year": 1864,
+      "description": "Russia adopted public jury trials, an independent bar, and judges with tenure, transplanting modern Western courts into the autocracy.",
+      "wikiSlug": "Judicial_reform_of_Alexander_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-military-reform-milyutin",
+      "label": "Milyutin's Military Reforms",
+      "year": 1874,
+      "description": "War minister Dmitry Milyutin replaced 25-year conscription of serfs with universal short-term service, creating a modern reserve army.",
+      "wikiSlug": "Dmitry_Milyutin",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-january-uprising",
+      "label": "Polish January Uprising",
+      "year": 1863,
+      "endYear": 1864,
+      "description": "A Polish national insurrection was crushed and answered with intensified russification of Poland and the western provinces.",
+      "wikiSlug": "January_Uprising",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-conquest-turkestan",
+      "label": "Conquest of Turkestan",
+      "year": 1865,
+      "endYear": 1885,
+      "description": "Russian armies absorbed Tashkent, the Bukharan and Khivan khanates, and the Kokand region, planting the empire across Central Asia.",
+      "wikiSlug": "Russian_conquest_of_Turkestan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-fall-tashkent",
+      "label": "Fall of Tashkent",
+      "year": 1865,
+      "description": "General Chernyaev seized Tashkent with a tiny force, the breakthrough that opened Central Asia to Russian conquest.",
+      "wikiSlug": "Siege_of_Tashkent_(1865)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-khiva-campaign-1873",
+      "label": "Khivan Campaign of 1873",
+      "year": 1873,
+      "description": "Converging Russian columns crossed the desert to subdue the Khanate of Khiva, reducing it to a Russian protectorate.",
+      "wikiSlug": "Khivan_campaign_of_1873",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-alaska-purchase",
+      "label": "Sale of Alaska",
+      "year": 1867,
+      "description": "Russia sold Alaska to the United States for $7.2 million, unloading an unprofitable, indefensible colony far from St Petersburg.",
+      "wikiSlug": "Alaska_Purchase",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-amur-annexation",
+      "label": "Annexation of the Amur",
+      "year": 1858,
+      "endYear": 1860,
+      "description": "The treaties of Aigun and Peking gave Russia the Amur and Pacific coast from a weakened Qing China, and Vladivostok was founded.",
+      "wikiSlug": "Convention_of_Peking",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-narodnik-movement",
+      "label": "The Narodnik Movement",
+      "year": 1874,
+      "description": "Idealistic students 'went to the people,' fanning into the villages to rouse the peasantry to revolution, only to be rebuffed and arrested.",
+      "wikiSlug": "Narodniks",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-land-and-liberty",
+      "label": "Land and Liberty",
+      "year": 1876,
+      "endYear": 1879,
+      "description": "The revolutionary society Land and Liberty organized agitation and terror before splitting into a propagandist and a terrorist wing.",
+      "wikiSlug": "Land_and_Liberty_(Russia)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-peoples-will",
+      "label": "The People's Will",
+      "year": 1879,
+      "endYear": 1881,
+      "description": "A small terrorist organization made the assassination of Alexander II its mission after several failed attempts on his life.",
+      "wikiSlug": "Narodnaya_Volya",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-russo-turkish-1877",
+      "label": "Russo-Turkish War of 1877",
+      "year": 1877,
+      "endYear": 1878,
+      "description": "Russia's Balkan war freed Bulgaria and the Treaty of San Stefano, scaled back by the Congress of Berlin, advanced its Pan-Slav role.",
+      "wikiSlug": "Russo-Turkish_War_(1877%E2%80%931878)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-plevna",
+      "label": "Siege of Plevna",
+      "year": 1877,
+      "description": "Osman Pasha's stubborn defense of Plevna stalled the Russian Balkan offensive for months before the fortress finally fell.",
+      "wikiSlug": "Siege_of_Plevna",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-congress-berlin",
+      "label": "Congress of Berlin",
+      "year": 1878,
+      "description": "The great powers rolled back Russia's San Stefano gains, a diplomatic check that embittered Pan-Slav opinion against Europe.",
+      "wikiSlug": "Congress_of_Berlin",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-assassination-alexander-ii",
+      "label": "Assassination of Alexander II",
+      "year": 1881,
+      "description": "A People's Will bomb on a St Petersburg embankment killed the Tsar Liberator on the very day he had approved a modest reform.",
+      "wikiSlug": "Assassination_of_Alexander_II_of_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-alexander-iii",
+      "label": "Alexander III",
+      "year": 1881,
+      "endYear": 1894,
+      "description": "The 'Tsar Peacemaker' reversed his father's reforms, enforced russification, and ruled by uncompromising autocracy and the police.",
+      "wikiSlug": "Alexander_III_of_Russia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pobedonostsev",
+      "label": "Pobedonostsev's Reaction",
+      "year": 1880,
+      "endYear": 1905,
+      "description": "The arch-conservative Procurator of the Holy Synod tutored two tsars and steered the state toward militant Orthodoxy and repression.",
+      "wikiSlug": "Konstantin_Pobedonostsev",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-counter-reforms",
+      "label": "The Counter-Reforms",
+      "year": 1889,
+      "endYear": 1892,
+      "description": "Alexander III curbed the zemstvos, restricted the courts, and installed 'land captains' to police the peasantry, undoing Great Reform gains.",
+      "wikiSlug": "Counter-reforms_of_Alexander_III",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russification",
+      "label": "Russification",
+      "year": 1881,
+      "endYear": 1914,
+      "description": "The state pressed Russian language, schooling, and Orthodoxy on Poles, Finns, Balts, Ukrainians, and others, breeding nationalist backlash.",
+      "wikiSlug": "Russification",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-pale-of-settlement",
+      "label": "The Pale of Settlement",
+      "year": 1791,
+      "endYear": 1917,
+      "description": "Most of the empire's millions of Jews were confined to a western 'Pale,' subject to quotas, expulsions, and recurring violence.",
+      "wikiSlug": "Pale_of_Settlement",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-pogroms-1881",
+      "label": "Anti-Jewish Pogroms",
+      "year": 1881,
+      "endYear": 1884,
+      "description": "Waves of pogroms swept the southwest after Alexander II's murder, triggering mass Jewish emigration and the May Laws of restriction.",
+      "wikiSlug": "Anti-Jewish_pogroms_in_the_Russian_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-famine-1891",
+      "label": "The Great Famine of 1891",
+      "year": 1891,
+      "endYear": 1892,
+      "description": "Crop failure across the Volga killed hundreds of thousands, discredited the regime's relief effort, and radicalized a generation.",
+      "wikiSlug": "Russian_famine_of_1891%E2%80%931892",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-church-spilled-blood",
+      "label": "Church of the Savior on Blood",
+      "year": 1883,
+      "endYear": 1907,
+      "description": "Built on the spot where Alexander II was killed, the lavishly mosaicked church revived a deliberately Russian medieval style.",
+      "wikiSlug": "Church_of_the_Savior_on_Blood",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-gold-standard-1897",
+      "label": "Russia Adopts the Gold Standard",
+      "year": 1897,
+      "description": "Witte put the ruble on gold, stabilizing the currency and drawing the foreign capital that fueled the 1890s industrial boom.",
+      "wikiSlug": "Sergei_Witte",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-baku-oil",
+      "label": "The Baku Oil Boom",
+      "year": 1880,
+      "endYear": 1905,
+      "description": "Baku grew into one of the world's great oil fields, drawing the Nobels and Rothschilds and a militant new industrial proletariat.",
+      "wikiSlug": "Baku",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-emancipation-of-labour",
+      "label": "Emancipation of Labour Group",
+      "year": 1883,
+      "description": "Plekhanov's exile group introduced Marxism into the Russian revolutionary movement, the ideological root of the future RSDLP.",
+      "wikiSlug": "Emancipation_of_Labour",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-rsdlp-founded",
+      "label": "Founding of the RSDLP",
+      "year": 1898,
+      "description": "Russian Marxists founded the Social Democratic Labour Party, which split in 1903 into Lenin's Bolsheviks and the Mensheviks.",
+      "wikiSlug": "Russian_Social_Democratic_Labour_Party",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-rsdlp-split-1903",
+      "label": "Bolshevik-Menshevik Split",
+      "year": 1903,
+      "description": "At its second congress the RSDLP fractured over party organization into Lenin's hard 'Bolsheviks' and the broader 'Mensheviks.'",
+      "wikiSlug": "Bolsheviks",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-socialist-revolutionaries",
+      "label": "The Socialist Revolutionary Party",
+      "year": 1902,
+      "description": "The SRs fused Narodnik agrarian socialism with a feared terrorist Combat Organization, becoming the peasants' revolutionary party.",
+      "wikiSlug": "Socialist_Revolutionary_Party",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lenin-rise",
+      "label": "The Rise of Lenin",
+      "year": 1895,
+      "endYear": 1917,
+      "description": "Vladimir Ulyanov, radicalized by his brother's execution, built and led the Bolshevik faction from exile toward revolution.",
+      "wikiSlug": "Vladimir_Lenin",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-tolstoy-anna-karenina",
+      "label": "Tolstoy's Anna Karenina",
+      "year": 1877,
+      "description": "Tolstoy's tragic novel of adultery and a society in flux confirmed him as the towering figure of Russian realism.",
+      "wikiSlug": "Anna_Karenina",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tolstoy-excommunication",
+      "label": "Tolstoy Excommunicated",
+      "year": 1901,
+      "description": "The Holy Synod excommunicated Leo Tolstoy for his radical Christian anarchism, making the novelist a moral rival to the church and state.",
+      "wikiSlug": "Leo_Tolstoy",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-dostoevsky-crime-punishment",
+      "label": "Dostoevsky's Crime and Punishment",
+      "year": 1866,
+      "description": "Dostoevsky's psychological novel of a student murderer probed conscience and redemption in the slums of St Petersburg.",
+      "wikiSlug": "Crime_and_Punishment",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-turgenev-fathers-sons",
+      "label": "Turgenev's Fathers and Sons",
+      "year": 1862,
+      "description": "Turgenev's novel introduced the nihilist Bazarov and named the generational rift between liberal fathers and radical sons.",
+      "wikiSlug": "Fathers_and_Sons_(novel)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-the-five-composers",
+      "label": "The Mighty Handful",
+      "year": 1860,
+      "endYear": 1881,
+      "description": "Balakirev, Mussorgsky, Borodin, Rimsky-Korsakov, and Cui forged a self-consciously Russian national school of classical music.",
+      "wikiSlug": "The_Five_(composers)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-repin-peredvizhniki",
+      "label": "The Wanderers",
+      "year": 1870,
+      "endYear": 1900,
+      "description": "The Peredvizhniki painters, led by Ilya Repin, broke from the academy to depict Russian peasant life and social injustice.",
+      "wikiSlug": "Peredvizhniki",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-tretyakov-gallery",
+      "label": "The Tretyakov Gallery",
+      "year": 1856,
+      "description": "Merchant Pavel Tretyakov began collecting Russian art and gave the nation its great gallery of national painting in Moscow.",
+      "wikiSlug": "Tretyakov_Gallery",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-lobachevsky-geometry",
+      "label": "Lobachevsky's Non-Euclidean Geometry",
+      "year": 1829,
+      "description": "Kazan mathematician Nikolai Lobachevsky published a consistent non-Euclidean geometry, a foundational shift in modern mathematics.",
+      "wikiSlug": "Nikolai_Lobachevsky",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mendeleev-table-1869",
+      "label": "Publication of the Periodic Table",
+      "year": 1869,
+      "description": "Mendeleev presented his periodic system to the Russian Chemical Society, leaving gaps for elements he correctly predicted.",
+      "wikiSlug": "Periodic_table",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-popov-radio",
+      "label": "Popov's Radio Receiver",
+      "year": 1895,
+      "description": "Alexander Popov demonstrated an early radio receiver in St Petersburg, a Russian claim to the invention of wireless telegraphy.",
+      "wikiSlug": "Alexander_Stepanovich_Popov",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-tsiolkovsky",
+      "label": "Tsiolkovsky's Rocketry",
+      "year": 1903,
+      "description": "The deaf schoolteacher Konstantin Tsiolkovsky published the rocket equation and the theory of spaceflight, founding astronautics.",
+      "wikiSlug": "Konstantin_Tsiolkovsky",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-bloody-sunday",
+      "label": "Bloody Sunday",
+      "year": 1905,
+      "description": "Troops fired on a peaceful procession of workers petitioning the tsar, shattering popular faith in the autocracy and igniting 1905.",
+      "wikiSlug": "Bloody_Sunday_(1905)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-mukden",
+      "label": "Battle of Mukden",
+      "year": 1905,
+      "description": "The largest land battle before WWI ended in a costly Russian defeat in Manchuria, deepening the 1905 crisis.",
+      "wikiSlug": "Battle_of_Mukden",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-tsushima",
+      "label": "Battle of Tsushima",
+      "year": 1905,
+      "description": "Japan annihilated the Russian Baltic Fleet after its voyage halfway around the world, a humiliation that forced peace.",
+      "wikiSlug": "Battle_of_Tsushima",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-treaty-portsmouth",
+      "label": "Treaty of Portsmouth",
+      "year": 1905,
+      "description": "Mediated by Theodore Roosevelt, the treaty ended the Russo-Japanese War and ceded southern Sakhalin and Port Arthur's lease to Japan.",
+      "wikiSlug": "Treaty_of_Portsmouth",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-potemkin-mutiny",
+      "label": "Mutiny on the Potemkin",
+      "year": 1905,
+      "description": "The crew of the battleship Potemkin rose against their officers, the most famous military mutiny of the 1905 Revolution.",
+      "wikiSlug": "Battleship_Potemkin_uprising",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-october-manifesto",
+      "label": "The October Manifesto",
+      "year": 1905,
+      "description": "Facing a general strike, Nicholas II promised civil liberties and an elected legislative Duma, splitting the opposition and saving the throne.",
+      "wikiSlug": "October_Manifesto",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-st-petersburg-soviet",
+      "label": "The St Petersburg Soviet",
+      "year": 1905,
+      "description": "Striking workers formed a council, or 'soviet,' to coordinate the revolution, a model that would return decisively in 1917.",
+      "wikiSlug": "Saint_Petersburg_Soviet",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-moscow-uprising-1905",
+      "label": "Moscow December Uprising",
+      "year": 1905,
+      "description": "An armed workers' rising in Moscow's Presnya district was crushed by artillery, the bloody end of the 1905 Revolution.",
+      "wikiSlug": "Moscow_uprising_of_1905",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-fundamental-laws-1906",
+      "label": "The Fundamental Laws of 1906",
+      "year": 1906,
+      "description": "Issued before the first Duma met, the constitution preserved the tsar as 'autocrat' and his veto, gutting the October promises.",
+      "wikiSlug": "Russian_Constitution_of_1906",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-first-duma",
+      "label": "The First State Duma",
+      "year": 1906,
+      "description": "Russia's first elected parliament demanded radical reform and was dissolved by Nicholas II after just ten weeks.",
+      "wikiSlug": "State_Duma_(Russian_Empire)",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-stolypin-agrarian-reform",
+      "label": "The Stolypin Wager on the Strong",
+      "year": 1906,
+      "endYear": 1911,
+      "description": "Stolypin let peasants leave the commune for consolidated private farms, betting that prosperous farmers would stabilize the regime.",
+      "wikiSlug": "Stolypin_reform",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-stolypin-assassination",
+      "label": "Assassination of Stolypin",
+      "year": 1911,
+      "description": "Russia's last strong reforming minister was shot at the Kiev opera in the tsar's presence, removing the regime's ablest defender.",
+      "wikiSlug": "Pyotr_Stolypin",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-rasputin",
+      "label": "Rasputin at Court",
+      "year": 1905,
+      "endYear": 1916,
+      "description": "The Siberian 'holy man' Grigori Rasputin, who seemed to ease the heir's hemophilia, gained a hold over the empress that scandalized Russia.",
+      "wikiSlug": "Grigori_Rasputin",
+      "tier": 2,
+      "tags": [
+        "people"
+      ],
+      "category": "religion"
+    },
+    {
+      "id": "evt-alexei-hemophilia",
+      "label": "The Tsarevich's Hemophilia",
+      "year": 1904,
+      "description": "Heir Alexei's hemophilia, hidden from the public, drove the imperial family's isolation and dependence on Rasputin.",
+      "wikiSlug": "Alexei_Nikolaevich,_Tsarevich_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-lena-massacre",
+      "label": "The Lena Goldfields Massacre",
+      "year": 1912,
+      "description": "Troops shot striking gold miners in Siberia, reigniting the labor militancy that had simmered since 1905.",
+      "wikiSlug": "Lena_massacre",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-tercentenary-1913",
+      "label": "Romanov Tercentenary",
+      "year": 1913,
+      "description": "Lavish celebrations of 300 years of Romanov rule projected confidence even as the dynasty's foundations were crumbling.",
+      "wikiSlug": "Tercentenary_of_the_Romanov_dynasty",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-russia-enters-wwi",
+      "label": "Russia Enters World War I",
+      "year": 1914,
+      "description": "Mobilization in defense of Serbia plunged Russia into a war that would strain the empire's economy and loyalty to the breaking point.",
+      "wikiSlug": "Eastern_Front_(World_War_I)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-battle-tannenberg",
+      "label": "Battle of Tannenberg",
+      "year": 1914,
+      "description": "An entire Russian army was encircled and destroyed in East Prussia, an early catastrophe that set the war's grim tone for Russia.",
+      "wikiSlug": "Battle_of_Tannenberg",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-great-retreat-1915",
+      "label": "The Great Retreat of 1915",
+      "year": 1915,
+      "description": "German offensives drove Russia out of Poland and the western provinces amid shell shortages and a flood of refugees.",
+      "wikiSlug": "Great_Retreat_(Russian)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-nicholas-takes-command",
+      "label": "Nicholas II Takes Command",
+      "year": 1915,
+      "description": "The tsar took personal command of the army, tying himself to every defeat and leaving the inept government to the empress and Rasputin.",
+      "wikiSlug": "Nicholas_II_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-brusilov-offensive",
+      "label": "The Brusilov Offensive",
+      "year": 1916,
+      "description": "Russia's most successful WWI campaign smashed the Austro-Hungarian front but bled the army of irreplaceable men.",
+      "wikiSlug": "Brusilov_offensive",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-murder-rasputin",
+      "label": "Murder of Rasputin",
+      "year": 1916,
+      "description": "Aristocratic conspirators led by Prince Yusupov killed Rasputin in a desperate bid to save the monarchy from disgrace.",
+      "wikiSlug": "Assassination_of_Grigori_Rasputin",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-petrograd-renamed",
+      "label": "St Petersburg Becomes Petrograd",
+      "year": 1914,
+      "description": "The capital's German-sounding name was Russified to Petrograd at the war's outbreak, a small sign of wartime nationalism.",
+      "wikiSlug": "Saint_Petersburg",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-february-revolution-petrograd",
+      "label": "The Petrograd Rising",
+      "year": 1917,
+      "description": "Bread riots and a mutiny of the garrison swept the capital in late February, leaving the regime with no loyal force to defend it.",
+      "wikiSlug": "February_Revolution",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-abdication-nicholas-ii",
+      "label": "Abdication of Nicholas II",
+      "year": 1917,
+      "description": "Pressed by his generals and the Duma, Nicholas II abdicated for himself and his son aboard the imperial train, ending Romanov rule.",
+      "wikiSlug": "Nicholas_II_of_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-provisional-government",
+      "label": "The Provisional Government",
+      "year": 1917,
+      "description": "A liberal Provisional Government and the Petrograd Soviet emerged from the wreckage of the empire in an uneasy 'dual power.'",
+      "wikiSlug": "Russian_Provisional_Government",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-kazan-cathedral",
+      "label": "Kazan Cathedral",
+      "year": 1811,
+      "description": "Voronikhin's colonnaded cathedral on Nevsky Prospekt became a national shrine, later housing Kutuzov's tomb and captured French banners.",
+      "wikiSlug": "Kazan_Cathedral,_Saint_Petersburg",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bronze-horseman-statue",
+      "label": "The Bronze Horseman",
+      "year": 1782,
+      "description": "Catherine unveiled Falconet's equestrian monument to Peter the Great, the granite-mounted symbol of imperial St Petersburg.",
+      "wikiSlug": "Bronze_Horseman",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-smolny-institute",
+      "label": "The Smolny Institute",
+      "year": 1764,
+      "description": "Catherine founded the Smolny Institute, Russia's first state school for noble girls, an Enlightenment experiment in female education.",
+      "wikiSlug": "Smolny_Institute",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-dashkova-academy",
+      "label": "Princess Dashkova and the Academy",
+      "year": 1783,
+      "description": "Yekaterina Dashkova became the first woman to head the Academy of Sciences and founded the Russian Academy for the national language.",
+      "wikiSlug": "Yekaterina_Dashkova",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-karamzin-history",
+      "label": "Karamzin's History of the Russian State",
+      "year": 1818,
+      "description": "Nikolai Karamzin's monumental History gave educated Russia its national narrative and modernized the literary language.",
+      "wikiSlug": "Nikolay_Karamzin",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-belinsky-criticism",
+      "label": "Belinsky and Literary Criticism",
+      "year": 1840,
+      "description": "Vissarion Belinsky made literary criticism a moral and political force, defining the socially engaged role of Russian letters.",
+      "wikiSlug": "Vissarion_Belinsky",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-herzen-bell",
+      "label": "Herzen's The Bell",
+      "year": 1857,
+      "description": "Exiled in London, Alexander Herzen's uncensored journal The Bell was smuggled into Russia and shaped reform-era debate.",
+      "wikiSlug": "Alexander_Herzen",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-chernyshevsky-what-to-do",
+      "label": "Chernyshevsky's What Is to Be Done?",
+      "year": 1863,
+      "description": "Written from prison, this didactic novel became the bible of the radical intelligentsia and a model of the 'new people.'",
+      "wikiSlug": "What_Is_to_Be_Done%3F_(novel)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-bakunin-anarchism",
+      "label": "Bakunin and Russian Anarchism",
+      "year": 1860,
+      "endYear": 1876,
+      "description": "Mikhail Bakunin, the great theorist of revolutionary anarchism, battled Marx for the soul of the international socialist movement.",
+      "wikiSlug": "Mikhail_Bakunin",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-kropotkin",
+      "label": "Kropotkin's Anarchism",
+      "year": 1872,
+      "endYear": 1917,
+      "description": "Prince Pyotr Kropotkin renounced his title to become the world's leading theorist of communist anarchism and mutual aid.",
+      "wikiSlug": "Peter_Kropotkin",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-nechaev-affair",
+      "label": "The Nechaev Affair",
+      "year": 1869,
+      "description": "Sergei Nechaev's ruthless 'Catechism of a Revolutionary' and murder of a follower exposed the dark fanaticism of the underground.",
+      "wikiSlug": "Sergey_Nechayev",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-trial-193",
+      "label": "The Trial of the 193",
+      "year": 1877,
+      "endYear": 1878,
+      "description": "A mass show trial of arrested Narodniks backfired, generating sympathy for the revolutionaries and martyrs for the cause.",
+      "wikiSlug": "Trial_of_the_193",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-vera-zasulich",
+      "label": "Acquittal of Vera Zasulich",
+      "year": 1878,
+      "description": "A jury acquitted Vera Zasulich for shooting a St Petersburg governor, a sensational verdict that alarmed the autocracy.",
+      "wikiSlug": "Vera_Zasulich",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-khodynka-tragedy",
+      "label": "The Khodynka Tragedy",
+      "year": 1896,
+      "description": "A stampede at Nicholas II's coronation festival killed over a thousand, an ill-omened start the new tsar failed to grasp.",
+      "wikiSlug": "Khodynka_Tragedy",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-boxer-rebellion-russia",
+      "label": "Russia in the Boxer Rebellion",
+      "year": 1900,
+      "description": "Russia sent troops into the international force in China and occupied Manchuria, deepening the rivalry with Japan toward war.",
+      "wikiSlug": "Russian_invasion_of_Manchuria",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-siege-port-arthur",
+      "label": "Siege of Port Arthur",
+      "year": 1904,
+      "endYear": 1905,
+      "description": "The long siege and surrender of Russia's Pacific fortress was the defining land struggle of the Russo-Japanese War.",
+      "wikiSlug": "Siege_of_Port_Arthur",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-kadets-founded",
+      "label": "The Kadet Party",
+      "year": 1905,
+      "description": "The Constitutional Democrats became the leading liberal party of the Dumas, championing a parliamentary monarchy and the rule of law.",
+      "wikiSlug": "Constitutional_Democratic_Party",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-octobrists-founded",
+      "label": "The Octobrist Party",
+      "year": 1905,
+      "description": "Moderate landowners and businessmen who accepted the October Manifesto formed the Octobrists, the pivotal party of the third Duma.",
+      "wikiSlug": "Union_of_17_October",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-third-duma",
+      "label": "The Third Duma",
+      "year": 1907,
+      "endYear": 1912,
+      "description": "Elected on Stolypin's restricted franchise, the conservative third Duma was the only one to serve its full five-year term.",
+      "wikiSlug": "State_Duma_(Russian_Empire)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-gorky-mother",
+      "label": "Gorky's The Mother",
+      "year": 1906,
+      "description": "Maxim Gorky's novel of a worker's revolutionary awakening became a foundational text of socialist literature.",
+      "wikiSlug": "The_Mother_(Gorky_novel)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-chekhov-cherry-orchard",
+      "label": "Chekhov's The Cherry Orchard",
+      "year": 1904,
+      "description": "Chekhov's last play, premiered at the Moscow Art Theatre, mourned a gentry estate sold off as old Russia gave way to the new.",
+      "wikiSlug": "The_Cherry_Orchard",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-moscow-art-theatre",
+      "label": "The Moscow Art Theatre",
+      "year": 1898,
+      "description": "Stanislavski and Nemirovich-Danchenko founded a theatre whose naturalistic 'system' of acting transformed world drama.",
+      "wikiSlug": "Moscow_Art_Theatre",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ballets-russes",
+      "label": "Diaghilev's Ballets Russes",
+      "year": 1909,
+      "description": "Sergei Diaghilev's company brought Russian ballet, music, and design to Paris, dazzling Europe with Stravinsky and Nijinsky.",
+      "wikiSlug": "Ballets_Russes",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-silver-age-poetry",
+      "label": "The Silver Age",
+      "year": 1890,
+      "endYear": 1917,
+      "description": "A brilliant flowering of Symbolist and modernist poetry and philosophy from Blok to Akhmatova marked Russian culture's last imperial age.",
+      "wikiSlug": "Silver_Age_of_Russian_Poetry",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-faberge-eggs",
+      "label": "The Faberge Imperial Eggs",
+      "year": 1885,
+      "endYear": 1917,
+      "description": "Carl Faberge's jeweled Easter eggs for the Romanovs became the glittering emblem of the dynasty's doomed opulence.",
+      "wikiSlug": "F%C3%A0berge_egg",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-first-railway-1837",
+      "label": "Russia's First Railway",
+      "year": 1837,
+      "description": "The short Tsarskoye Selo line opened as Russia's first public railway, the modest start of an eventual continental network.",
+      "wikiSlug": "Tsarskoye_Selo_Railway",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-moscow-petersburg-railway",
+      "label": "The Moscow-St Petersburg Railway",
+      "year": 1851,
+      "description": "The dead-straight line between the two capitals, built under Nicholas I, was Russia's first major long-distance railway.",
+      "wikiSlug": "Saint_Petersburg%E2%80%93Moscow_Railway",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-vladivostok-founded",
+      "label": "Founding of Vladivostok",
+      "year": 1860,
+      "description": "Russia founded Vladivostok, 'Ruler of the East,' as the Pacific naval base that anchored its Far Eastern ambitions.",
+      "wikiSlug": "Vladivostok",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-russian-geographical-society",
+      "label": "The Russian Geographical Society",
+      "year": 1845,
+      "description": "Founded under Nicholas I, the society sponsored the great expeditions of Przhevalsky and others that mapped inner Asia.",
+      "wikiSlug": "Russian_Geographical_Society",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-pulkovo-observatory",
+      "label": "Pulkovo Observatory",
+      "year": 1839,
+      "description": "Opened near St Petersburg as one of the world's finest observatories, Pulkovo made Russia a center of nineteenth-century astronomy.",
+      "wikiSlug": "Pulkovo_Observatory",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-sechenov-physiology",
+      "label": "Sechenov and Russian Physiology",
+      "year": 1863,
+      "description": "Ivan Sechenov's Reflexes of the Brain founded objective Russian physiology and prepared the ground for Pavlov's work.",
+      "wikiSlug": "Ivan_Sechenov",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-mechnikov-immunity",
+      "label": "Mechnikov and Immunity",
+      "year": 1882,
+      "description": "Ilya Mechnikov discovered phagocytes and the cellular theory of immunity, later sharing a Nobel Prize for the work.",
+      "wikiSlug": "%C3%89lie_Metchnikoff",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-uniate-suppression-1839",
+      "label": "Suppression of the Uniate Church",
+      "year": 1839,
+      "description": "Nicholas I forcibly absorbed millions of Greek Catholic Uniates in the western provinces into the Orthodox Church.",
+      "wikiSlug": "Synod_of_Polotsk",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-optina-pustyn",
+      "label": "The Elders of Optina",
+      "year": 1820,
+      "endYear": 1917,
+      "description": "The Optina monastery's revered 'elders' drew pilgrims including Gogol, Dostoevsky, and Tolstoy, a center of Orthodox spiritual revival.",
+      "wikiSlug": "Optina_Monastery",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-seraphim-sarov",
+      "label": "Canonization of Seraphim of Sarov",
+      "year": 1903,
+      "description": "Nicholas II personally pressed for the canonization of the beloved monk Seraphim of Sarov, fusing the dynasty with popular piety.",
+      "wikiSlug": "Seraphim_of_Sarov",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-decembrist-exile-siberia",
+      "label": "The Decembrists in Siberia",
+      "year": 1826,
+      "endYear": 1856,
+      "description": "Condemned Decembrists were sent to Siberian hard labor, where some wives followed them, becoming icons of principled sacrifice.",
+      "wikiSlug": "Decembrist_revolt",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-cossack-hosts",
+      "label": "The Cossack Hosts",
+      "year": 1721,
+      "endYear": 1917,
+      "description": "Self-governing Cossack communities became the empire's hereditary frontier cavalry, guarding borders and policing internal unrest.",
+      "wikiSlug": "Cossacks",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-time-of-reforms-press",
+      "label": "Relaxation of Censorship",
+      "year": 1865,
+      "description": "Alexander II's press statute eased pre-publication censorship, opening a livelier era of journalism and public debate.",
+      "wikiSlug": "Censorship_in_the_Russian_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-university-statute-1863",
+      "label": "The Liberal University Statute",
+      "year": 1863,
+      "description": "Alexander II's statute granted universities self-government and academic freedom, briefly making them engines of new ideas.",
+      "wikiSlug": "University_statute_of_1863",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-women-higher-education",
+      "label": "Higher Courses for Women",
+      "year": 1878,
+      "description": "The Bestuzhev Courses in St Petersburg opened university-level education to women, a milestone amid the era's reform ferment.",
+      "wikiSlug": "Bestuzhev_Courses",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-kovalevskaya",
+      "label": "Sofya Kovalevskaya",
+      "year": 1888,
+      "description": "Kovalevskaya became the first woman to hold a modern university chair in mathematics, winning the Bordin Prize for her work on rotation.",
+      "wikiSlug": "Sofya_Kovalevskaya",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-russian-american-company",
+      "label": "The Russian-American Company",
+      "year": 1799,
+      "description": "Paul I chartered a monopoly trading company to run Russia's Alaskan colony, the empire's only joint-stock colonial venture.",
+      "wikiSlug": "Russian-American_Company",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-circassian-genocide",
+      "label": "The Circassian Expulsion",
+      "year": 1864,
+      "description": "The end of the Caucasian War saw the mass deportation and death of hundreds of thousands of Circassians driven into the Ottoman Empire.",
+      "wikiSlug": "Circassian_genocide",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-conquest-of-merv",
+      "label": "Annexation of Merv",
+      "year": 1884,
+      "description": "Russia's seizure of the Turkmen oasis of Merv brought its frontier to Afghanistan and nearly triggered war with Britain.",
+      "wikiSlug": "Russian_conquest_of_Central_Asia",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-panjdeh-incident",
+      "label": "The Panjdeh Incident",
+      "year": 1885,
+      "description": "A clash with Afghan forces near Panjdeh brought Russia and Britain to the brink of war over the Central Asian frontier.",
+      "wikiSlug": "Panjdeh_incident",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-aviation-sikorsky",
+      "label": "Sikorsky's Giant Aircraft",
+      "year": 1913,
+      "description": "Igor Sikorsky built the world's first four-engine airliner and heavy bomber, a high point of late imperial Russian engineering.",
+      "wikiSlug": "Igor_Sikorsky",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-zubatov-unions",
+      "label": "Police Unions and Gapon",
+      "year": 1901,
+      "endYear": 1905,
+      "description": "The secret police sponsored tame 'police unions'; one led by Father Gapon slipped its leash and triggered Bloody Sunday.",
+      "wikiSlug": "Georgy_Gapon",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-fourth-duma",
+      "label": "The Fourth Duma",
+      "year": 1912,
+      "endYear": 1917,
+      "description": "The empire's last parliament drifted into open confrontation with the crown during the war before helping to topple it in 1917.",
+      "wikiSlug": "State_Duma_(Russian_Empire)",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-beilis-trial",
+      "label": "The Beilis Blood Libel Trial",
+      "year": 1913,
+      "description": "The state's prosecution of Menahem Beilis on a medieval blood-libel charge, ending in acquittal, exposed official antisemitism to the world.",
+      "wikiSlug": "Beilis_trial",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-zemgor-war-industries",
+      "label": "Zemgor and the War Industry Committees",
+      "year": 1915,
+      "description": "Public bodies organized to supply the failing war effort became centers of organized opposition to the discredited government.",
+      "wikiSlug": "Zemgor",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-order-no-1",
+      "label": "Order No. 1",
+      "year": 1917,
+      "description": "The Petrograd Soviet's Order No. 1 put soldiers' committees over the officers, fatally undermining the old army's discipline.",
+      "wikiSlug": "Order_No._1",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-glinka-opera",
+      "label": "Glinka's A Life for the Tsar",
+      "year": 1836,
+      "description": "Mikhail Glinka's opera, premiered before Nicholas I, founded the Russian national operatic tradition.",
+      "wikiSlug": "A_Life_for_the_Tsar",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-mussorgsky-boris",
+      "label": "Mussorgsky's Boris Godunov",
+      "year": 1874,
+      "description": "Modest Mussorgsky's stark historical opera, drawn from Pushkin, became a landmark of the Russian national school.",
+      "wikiSlug": "Boris_Godunov_(opera)",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tchaikovsky-1812-overture",
+      "label": "The 1812 Overture",
+      "year": 1882,
+      "description": "Tchaikovsky's cannon-blasting overture, commissioned for the Moscow cathedral, turned the 1812 victory into a patriotic spectacle.",
+      "wikiSlug": "1812_Overture",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-tolstoy-death-1910",
+      "label": "The Death of Tolstoy",
+      "year": 1910,
+      "description": "The aged Tolstoy fled his estate to live as a wanderer and died at a remote railway station, his passing a global event.",
+      "wikiSlug": "Leo_Tolstoy",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-griboyedov-woe-from-wit",
+      "label": "Griboyedov's Woe from Wit",
+      "year": 1825,
+      "description": "Banned for decades but read in manuscript, this verse comedy savaged Moscow society and seeded Russian speech with proverbs.",
+      "wikiSlug": "Woe_from_Wit",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-demidov-urals-industry",
+      "label": "The Demidov Ural Ironworks",
+      "year": 1702,
+      "endYear": 1800,
+      "description": "Peter backed the Demidov family's Ural iron and weapons empire, briefly making Russia the world's leading iron producer.",
+      "wikiSlug": "Demidov_family",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-nizhny-novgorod-fair",
+      "label": "The Nizhny Novgorod Fair",
+      "year": 1817,
+      "endYear": 1917,
+      "description": "The great annual fair on the Volga became the empire's commercial crossroads, linking European Russia with Asia.",
+      "wikiSlug": "Nizhny_Novgorod_Fair",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-st-petersburg-imperial-academy-arts",
+      "label": "The Imperial Academy of Arts",
+      "year": 1757,
+      "description": "Founded under Elizabeth, the Academy of Arts trained generations of Russian painters, sculptors, and architects on European models.",
+      "wikiSlug": "Imperial_Academy_of_Arts",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-admiralty-building",
+      "label": "The Admiralty",
+      "year": 1823,
+      "description": "Zakharov's golden-spired Admiralty became the focal point of St Petersburg's classical skyline and the heart of the navy.",
+      "wikiSlug": "Admiralty,_Saint_Petersburg",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-general-staff-building",
+      "label": "The General Staff Arch",
+      "year": 1829,
+      "description": "Rossi's vast curved General Staff building and triumphal arch enclosed Palace Square, monumentalizing the victory over Napoleon.",
+      "wikiSlug": "General_Staff_Building_(Saint_Petersburg)",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-bolshoi-theatre",
+      "label": "The Bolshoi Theatre",
+      "year": 1825,
+      "description": "Moscow's Bolshoi Theatre opened as the great stage of imperial Russian ballet and opera.",
+      "wikiSlug": "Bolshoi_Theatre",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-mariinsky-theatre",
+      "label": "The Mariinsky Theatre",
+      "year": 1860,
+      "description": "St Petersburg's Mariinsky became the home of imperial ballet, where Petipa created Swan Lake and Sleeping Beauty.",
+      "wikiSlug": "Mariinsky_Theatre",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-trans-siberian-completion",
+      "label": "Completion of the Trans-Siberian",
+      "year": 1916,
+      "description": "The final Khabarovsk bridge closed the all-Russian route from Moscow to the Pacific, the empire's last great engineering feat.",
+      "wikiSlug": "Trans-Siberian_Railway",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-chinese-eastern-railway",
+      "label": "The Chinese Eastern Railway",
+      "year": 1903,
+      "description": "Russia's railway shortcut across Manchuria projected its power into China and fed the collision with Japan.",
+      "wikiSlug": "Chinese_Eastern_Railway",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-mir-commune",
+      "label": "The Peasant Commune",
+      "year": 1721,
+      "endYear": 1906,
+      "description": "The mir, a self-governing village commune that periodically redistributed land, organized peasant life and frustrated reformers.",
+      "wikiSlug": "Obshchina",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-fonvizin-minor",
+      "label": "Fonvizin's The Minor",
+      "year": 1782,
+      "description": "Denis Fonvizin's comedy The Minor mocked the ignorant provincial gentry, a milestone of the Russian stage.",
+      "wikiSlug": "Denis_Fonvizin",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-przhevalsky-expeditions",
+      "label": "Przhevalsky's Asian Expeditions",
+      "year": 1870,
+      "endYear": 1885,
+      "description": "Nikolai Przhevalsky's expeditions across Mongolia and Tibet mapped inner Asia and brought the wild horse to science.",
+      "wikiSlug": "Nikolay_Przhevalsky",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-karakozov-attempt",
+      "label": "Karakozov's Attempt on Alexander II",
+      "year": 1866,
+      "description": "A lone radical's pistol shot at the tsar shocked the regime into reaction and the first wave of revolutionary repression.",
+      "wikiSlug": "Dmitry_Karakozov",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-winter-palace-bombing",
+      "label": "The Winter Palace Bombing",
+      "year": 1880,
+      "description": "A People's Will bomb tore through the Winter Palace dining room, missing the tsar but proving the regime could be struck at its heart.",
+      "wikiSlug": "Winter_Palace_bombing",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-okhrana-secret-police",
+      "label": "The Okhrana",
+      "year": 1881,
+      "endYear": 1917,
+      "description": "Alexander III's expanded secret police, the Okhrana, ran informers and agents provocateurs against the revolutionary underground.",
+      "wikiSlug": "Okhrana",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-pan-slavism",
+      "label": "The Rise of Pan-Slavism",
+      "year": 1858,
+      "endYear": 1878,
+      "description": "The idea that Russia should lead and liberate the Slavic peoples shaped public opinion and drove intervention in the Balkans.",
+      "wikiSlug": "Pan-Slavism",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-stolypin-necktie",
+      "label": "Stolypin's Field Courts-Martial",
+      "year": 1906,
+      "endYear": 1907,
+      "description": "Summary military courts hanged thousands of revolutionaries; the noose became grimly known as 'Stolypin's necktie.'",
+      "wikiSlug": "Pyotr_Stolypin",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-resettlement-siberia-stolypin",
+      "label": "Siberian Resettlement",
+      "year": 1906,
+      "endYear": 1914,
+      "description": "Stolypin's program moved millions of land-hungry peasants east on the Trans-Siberian to colonize and stabilize Siberia.",
+      "wikiSlug": "Stolypin_reform",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-ems-ukaz",
+      "label": "The Ems Ukaz",
+      "year": 1876,
+      "description": "Alexander II's secret decree banning Ukrainian-language publishing aimed to suppress a distinct Ukrainian national culture.",
+      "wikiSlug": "Ems_Ukaz",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-shevchenko",
+      "label": "Taras Shevchenko",
+      "year": 1840,
+      "endYear": 1861,
+      "description": "The poet Taras Shevchenko, exiled for his verse, became the founding voice of modern Ukrainian national consciousness.",
+      "wikiSlug": "Taras_Shevchenko",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-finland-autonomy-1809",
+      "label": "The Grand Duchy of Finland",
+      "year": 1809,
+      "description": "Finland kept its Lutheran church, Swedish laws, and own diet under the tsar, the empire's most autonomous and best-governed land.",
+      "wikiSlug": "Grand_Duchy_of_Finland",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-iskra-newspaper",
+      "label": "Lenin's Iskra",
+      "year": 1900,
+      "description": "The émigré paper Iskra ('Spark') built the underground network and ideological line that became Bolshevism.",
+      "wikiSlug": "Iskra",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-pravda-founded",
+      "label": "Founding of Pravda",
+      "year": 1912,
+      "description": "The Bolsheviks launched the legal daily Pravda to reach workers, building the press machine of the future ruling party.",
+      "wikiSlug": "Pravda",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-war-economy-collapse",
+      "label": "The Wartime Economic Collapse",
+      "year": 1916,
+      "endYear": 1917,
+      "description": "Inflation, transport breakdown, and bread shortages in the cities turned war-weariness into the revolutionary mood of February.",
+      "wikiSlug": "Russian_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-treaty-nerchinsk",
+      "label": "Treaty of Nerchinsk",
+      "year": 1689,
+      "description": "Negotiated under Sophia's regency by Vasily Golitsyn's government, Russia's first treaty with China fixed the far-eastern Amur border and was among the earliest treaties a European-style state signed with the Qing on roughly equal terms.",
+      "wikiSlug": "Treaty_of_Nerchinsk",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-vasily-golitsyn",
+      "label": "Vasily Golitsyn",
+      "year": 1682,
+      "endYear": 1689,
+      "description": "Sophia Alekseyevna's chief minister and probable lover, a westernizing intellectual who negotiated the Eternal Peace with Poland and the Treaty of Nerchinsk with China but led two disastrous expeditions against the Crimean Tatars, and was exiled to the Arctic when Peter overthrew Sophia in 1689.",
+      "wikiSlug": "Vasily_Golitsyn_(born_1643)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-ivan-mazepa",
+      "label": "Ivan Mazepa",
+      "year": 1708,
+      "endYear": 1709,
+      "description": "The elected Cossack hetman and long-trusted ally of Peter the Great who, seeing Cossack autonomy shrinking, defected to Charles XII of Sweden for an independent Ukraine, brought far fewer men than promised, lost at Poltava, and was anathematized by the Russian church for two centuries as the archetypal traitor.",
+      "wikiSlug": "Ivan_Mazepa",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-alexei-petrovich",
+      "label": "Tsarevich Alexei Petrovich",
+      "year": 1718,
+      "description": "Peter the Great's eldest son and heir, who opposed his father's reforms and fled abroad before being lured back, tortured, condemned, and dying in prison under circumstances the regime never honestly explained, one of the darkest episodes of Peter's reign.",
+      "wikiSlug": "Alexei_Petrovich,_Tsarevich_of_Russia",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-battle-friedland",
+      "label": "Battle of Friedland",
+      "year": 1807,
+      "description": "Napoleon's decisive defeat of the Russian army that, after Austerlitz, forced Alexander I to the negotiating table and produced the Treaty of Tilsit.",
+      "wikiSlug": "Battle_of_Friedland",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "wars"
+    },
+    {
+      "id": "evt-la-harpe",
+      "label": "Frederic-Cesar de La Harpe",
+      "year": 1784,
+      "endYear": 1795,
+      "description": "The Swiss republican tutor Catherine the Great hired for the young Alexander I, who instructed the future autocrat for over a decade in natural rights, the rule of law, and the wrongness of slavery, shaping the reformist hopes of Alexander's early reign.",
+      "wikiSlug": "Fr%C3%A9d%C3%A9ric-C%C3%A9sar_de_La_Harpe",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-barclay-de-tolly",
+      "label": "Barclay de Tolly",
+      "year": 1812,
+      "description": "The methodical Russian war minister of Scottish emigre descent who commanded the main army at the start of Napoleon's invasion and devised the deeply unpopular but decisive strategy of trading space for time, retreating and scorching the earth before being replaced by Kutuzov.",
+      "wikiSlug": "Michael_Andreas_Barclay_de_Tolly",
+      "tier": 2,
+      "tags": [
+        "wars"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-pirogov-field-surgery",
+      "label": "Pirogov and Field Surgery",
+      "year": 1855,
+      "description": "The Russian surgeon Nikolai Pirogov, working in the siege of Sevastopol, founded battlefield triage in Russia and pioneered the first large-scale use of ether anesthesia under fire.",
+      "wikiSlug": "Nikolay_Pirogov",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-sevastopol-sketches",
+      "label": "Tolstoy's Sevastopol Sketches",
+      "year": 1855,
+      "description": "Leo Tolstoy, then a junior artillery officer in the siege of Sevastopol, turned what he saw into an unsparing piece of war reporting that made his name and that the censor never fully grasped as an indictment.",
+      "wikiSlug": "Sevastopol_Sketches",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-bezdna-unrest",
+      "label": "The Bezdna Unrest",
+      "year": 1861,
+      "description": "The most notorious of the post-Emancipation peasant disturbances: villagers at Bezdna gathered around a man who claimed the real golden charter freed them completely, refused to disperse, and were fired on by troops, scores killed for not believing the emancipation they had been handed was the real one.",
+      "wikiSlug": "Bezdna_unrest",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-dostoevsky-demons",
+      "label": "Dostoevsky's Demons",
+      "year": 1872,
+      "description": "Dostoevsky's savage novel of revolutionary nihilism, built around the real Nechaev murder case, by a man who had himself been a radical and recoiled.",
+      "wikiSlug": "Demons_(Dostoevsky_novel)",
+      "tier": 3,
+      "tags": [
+        "people"
+      ],
+      "category": "writing"
+    },
+    {
+      "id": "evt-loris-melikov-constitution",
+      "label": "The Loris-Melikov Project",
+      "year": 1880,
+      "endYear": 1881,
+      "description": "Mikhail Loris-Melikov, the Armenian-born general who headed Alexander II's emergency Supreme Commission, paired repression with a cautious proposal to include elected representatives in reviewing legislation, the smallest crack toward national representation, which the tsar approved on the morning of his assassination and which Alexander III then buried.",
+      "wikiSlug": "Mikhail_Loris-Melikov",
+      "tier": 2,
+      "tags": [
+        "rulers"
+      ],
+      "category": "people"
+    },
+    {
+      "id": "evt-trotsky-1905-soviet",
+      "label": "Trotsky and the 1905 Soviet",
+      "year": 1905,
+      "description": "The young revolutionary Leon Trotsky led the St Petersburg Soviet in its last weeks after its first chairman was arrested, an early appearance of the figure who would help run the state that followed the empire.",
+      "wikiSlug": "Leon_Trotsky",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}

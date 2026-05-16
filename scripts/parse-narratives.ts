@@ -193,6 +193,9 @@ const NARRATIVE_FILES: Record<string, string> = {
   'enlightenment.md': 'enlightenment',
   'industrial-revolution.md': 'industrial-revolution',
   'al-andalus.md': 'al-andalus',
+  'kievan-rus.md': 'kievan-rus',
+  'russian-empire.md': 'russian-empire',
+  'soviet-union.md': 'soviet-union',
 }
 
 function slugify(title: string): string {

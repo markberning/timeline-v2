@@ -109,6 +109,18 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 16,
       "blurb": "Marx saw himself as doing for society what Newton had done for the heavens — finding the underlying law that explained the visible motion. Chapter 16 of the Scientific Revolution covers the method and ambition that made that analogy possible: the idea, born from Copernicus through Newton, that hidden laws govern the world and that patient reasoning can reveal them, a template Marx applied to capitalism with world-historical consequences."
+    },
+    {
+      "matchText": "more human beings would live, kill, die, and be governed under regimes claiming his name",
+      "targetTl": "soviet-union",
+      "targetChapter": 7,
+      "blurb": "This is the theory; the Soviet Union is the institutional test of it at full scale. The Soviet narrative is the most consequential experiment ever run on Marx's argument — where the command economy actually performed (the furnace of forced industrialization in Chapter 7) and where it produced mass famine (the war on the village in Chapter 6). The book written in the British Museum reading room is here given a state, an army, and a body count."
+    },
+    {
+      "matchText": "roughly a million people starved to death inside the United Kingdom",
+      "targetTl": "soviet-union",
+      "targetChapter": 6,
+      "blurb": "The Irish Famine is one bookend of a long argument; the Soviet famine is the other. The Soviet narrative covers the man-made famine of 1932–33, in which grain was extracted by force from starving regions under Marxist command ideology — the mirror image of the laissez-faire neglect that let grain be exported from a starving Ireland. Two famines, one from the doctrine that the state must not act and one from the doctrine that it must control everything, frame the entire debate this chapter describes."
     }
   ],
   "17": [
@@ -137,6 +149,24 @@
       "targetTl": "rise-of-china",
       "targetChapter": 1,
       "blurb": "Japan proved that a non-Western state could industrialize from a standing start by rebuilding its institutions rather than just buying machines — a lesson the twentieth century's greatest latecomers studied carefully. The Rise of China series covers how China absorbed and applied that lesson across the Maoist and reform-era decades, eventually producing the largest manufacturing economy on Earth."
+    },
+    {
+      "matchText": "compressed Britain's century of industrialization into about three decades",
+      "targetTl": "russian-empire",
+      "targetChapter": 18,
+      "blurb": "There is a European parallel to the Japanese case, and it is the one that failed. The Russian Empire narrative gives Sergei Witte's program of the 1890s a full chapter — state-directed, foreign-capital-financed, railway-spine industrialization, the Meiji pattern attempted in Europe. Russia got the factories and the railways but refused the institutional reform that made the Japanese version durable, and the gap between the two outcomes is one of the sharpest lessons in latecomer industrialization."
+    },
+    {
+      "matchText": "two decades of falling prices, collapsing farm incomes",
+      "targetTl": "russian-empire",
+      "targetChapter": 18,
+      "blurb": "The same global grain-price collapse had a fourth victim this chapter does not name. In Russia, the Long Depression's plunging prices helped produce the catastrophic famine of 1891–92 — covered in the Russian Empire narrative — which discredited the autocracy's competence and drove a generation of Russian intellectuals toward Marxism. The Long Depression is thus a direct causal thread running from the industrial economy's crisis into the Russian revolutionary movement."
+    },
+    {
+      "matchText": "a three-step developmental model later copied across Asia",
+      "targetTl": "soviet-union",
+      "targetChapter": 7,
+      "blurb": "The Soviet Union pushed this state-directed crash-industrialization model to its most extreme conclusion. The Soviet narrative covers the Five-Year Plans and Magnitogorsk — the same build-it-from-above logic as Meiji, but compressed into a single decade and achieved by adding camp labor as a planned economic input, something Meiji never did. It is the model of this chapter taken to the edge of what coercion can extract from a population."
     }
   ],
   "19": [
@@ -177,6 +207,12 @@
       "targetTl": "rise-of-china",
       "targetChapter": 1,
       "blurb": "Japan showed that deliberate, state-directed industrialization could compress a century of development into a generation — and the lesson was not lost. The Rise of China covers how the twentieth century's greatest industrial latecomer took that playbook, adapted it through revolution and reform, and built the manufacturing economy that now shapes the world the Industrial Revolution started making in 1760."
+    },
+    {
+      "matchText": "the rival faiths of liberal capitalism and Marxist socialism",
+      "targetTl": "soviet-union",
+      "targetChapter": 7,
+      "blurb": "Of the two rival faiths this book hands forward, the Soviet Union is the most consequential test of the Marxist one — the moment the theory of Chapter 14 was handed a state. The Soviet narrative is the direct institutional heir of that argument: what command socialism became when it controlled a continent, where its planned furnace genuinely performed, and where it produced famine and the camps. It is the half of the divided, armed planet that ran the experiment to its end."
     }
   ]
 }
