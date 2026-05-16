@@ -17,6 +17,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 3,
       "blurb": "Mesopotamian cities had been thriving for three millennia by the time Rome was founded. Sumerian writing, Babylonian law, and Assyrian military organization were all ancient achievements that Rome would eventually absorb — filtered through Greek and Hellenistic intermediaries."
+    },
+    {
+      "matchText": "Mycenaean",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 7,
+      "blurb": "The Aeneas legend ties Rome's origin to the fall of Troy — the Mycenaean Bronze Age world whose collapse Rome claimed as its founding myth."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 3,
+      "blurb": "The Phoenicians were already sailing the Mediterranean and seeding colonies — including the Carthage that would nearly destroy Rome — while Rome was a village."
     }
   ],
   "2": [
@@ -99,6 +111,12 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 2,
       "blurb": "Ptolemy's geocentric system and Galen's physiology dominated for over a millennium until 1543, when Copernicus and Vesalius opened the assault in the same year (Scientific Revolution Ch 2; Galen finished off in Ch 8)."
+    },
+    {
+      "matchText": "Ancient Israel",
+      "targetTl": "ancient-israel",
+      "targetChapter": 8,
+      "blurb": "Roman Judaea's revolts and the destruction of the Second Temple (70 CE) are the violent hinge between the ancient Israelite world and the Jewish diaspora."
     }
   ],
   "8": [
@@ -127,6 +145,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 8,
       "blurb": "The Sassanid Empire under Shapur I captured Emperor Valerian in 260 CE and carved a triumph relief at Naqsh-e Rostam showing the Roman emperor on his knees. The Sassanids were a more ideologically driven and militarily organized enemy than the Parthians had been, adding eastern pressure to an already crumbling western frontier."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Constantine's new capital on the Bosphorus would outlive the western empire by a thousand years — the Roman state continued, Greek-speaking, as Byzantium."
     }
   ],
   "10": [
@@ -135,6 +159,12 @@
       "targetTl": "ancient-greece",
       "targetChapter": 6,
       "blurb": "The Gallic sack of Rome in 390 BCE was the last time a foreign enemy had taken the city before Alaric's Visigoths in 410 CE — an eight-hundred-year gap that made the Visigothic sack psychologically devastating even though it was relatively restrained by ancient standards."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "476 ended the western empire, not Rome: the eastern half went on as the Byzantine Empire, still calling itself Roman, for another millennium."
     }
   ]
 }
