@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
+import { useState, useEffect, useLayoutEffect, useRef, useMemo } from 'react'
 
 const REGION_COLORS: Record<string, string> = {
   'near-east': '#d97706',
@@ -122,9 +122,13 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
     })
   }, [])
 
-  // Focus input on mount
-  useEffect(() => {
-    requestAnimationFrame(() => inputRef.current?.focus())
+  // Focus the input synchronously on mount. `autoFocus` on the input handles
+  // the gesture case (the overlay mounts from a tap, so React focuses it during
+  // the commit triggered by that tap — iOS Safari only raises the keyboard for
+  // focus inside the gesture). This layout-effect is the fallback for any
+  // non-gesture open. Deferring with rAF/setTimeout breaks the gesture link.
+  useLayoutEffect(() => {
+    inputRef.current?.focus()
   }, [])
 
   // Debounced search
@@ -173,6 +177,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
           <input
             ref={inputRef}
             type="text"
+            autoFocus
             value={query}
             onChange={e => setQuery(e.target.value)}
             placeholder="Search all civilizations..."
