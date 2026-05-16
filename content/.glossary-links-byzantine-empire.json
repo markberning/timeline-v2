@@ -1,275 +1,1700 @@
 {
   "1": [
-    {"term": "Romaioi", "matchText": "Romaioi", "wikiSlug": "Romaioi", "type": "concept"},
-    {"term": "Basileus", "matchText": "Basileus", "wikiSlug": "Basileus", "type": "concept"},
-    {"term": "Byzantion", "matchText": "Byzantion", "wikiSlug": "Byzantium", "type": "place"},
-    {"term": "Tetrarchy", "matchText": "Tetrarchy", "wikiSlug": "Tetrarchy", "type": "concept"},
-    {"term": "Diocletian", "matchText": "Diocletian", "wikiSlug": "Diocletian", "type": "people"},
-    {"term": "Battle of the Milvian Bridge", "matchText": "Battle of the Milvian Bridge", "wikiSlug": "Battle_of_the_Milvian_Bridge", "type": "concept"},
-    {"term": "Maxentius", "matchText": "Maxentius", "wikiSlug": "Maxentius", "type": "people"},
-    {"term": "Chi-Rho", "matchText": "Chi-Rho", "wikiSlug": "Chi_Rho", "type": "concept"},
-    {"term": "Licinius", "matchText": "Licinius", "wikiSlug": "Licinius", "type": "people"},
-    {"term": "Edict of Milan", "matchText": "Edict of Milan", "wikiSlug": "Edict_of_Milan", "type": "concept"},
-    {"term": "Nicene Creed", "matchText": "Nicene Creed", "wikiSlug": "Nicene_Creed", "type": "concept"},
-    {"term": "Athanasius", "matchText": "Athanasius", "wikiSlug": "Athanasius_of_Alexandria", "type": "people"},
-    {"term": "Arianism", "matchText": "Arians", "wikiSlug": "Arianism", "type": "concept"},
-    {"term": "Bosporus", "matchText": "Bosporus", "wikiSlug": "Bosporus", "type": "place"},
-    {"term": "Golden Horn", "matchText": "Golden Horn", "wikiSlug": "Golden_Horn", "type": "place"},
-    {"term": "Circus Maximus", "matchText": "Circus Maximus", "wikiSlug": "Circus_Maximus", "type": "place"},
-    {"term": "Helena", "matchText": "Helena", "wikiSlug": "Helena_(empress)", "type": "people"},
-    {"term": "Arcadius", "matchText": "Arcadius", "wikiSlug": "Arcadius", "type": "people"},
-    {"term": "Honorius", "matchText": "Honorius", "wikiSlug": "Honorius_(emperor)", "type": "people"},
-    {"term": "Monophysites", "matchText": "Monophysites", "wikiSlug": "Miaphysitism", "type": "concept"},
-    {"term": "Chalcedonian Definition", "matchText": "Chalcedonian Definition", "wikiSlug": "Chalcedonian_Definition", "type": "concept"},
-    {"term": "Coptic Orthodox Church", "matchText": "Coptic Orthodox Church", "wikiSlug": "Coptic_Orthodox_Church", "type": "concept"},
-    {"term": "Acacian Schism", "matchText": "Acacian Schism", "wikiSlug": "Acacian_schism", "type": "concept"},
-    {"term": "Vandals", "matchText": "Vandals", "wikiSlug": "Vandals", "type": "people"},
-    {"term": "Visigoths", "matchText": "Visigoths", "wikiSlug": "Visigoths", "type": "people"},
-    {"term": "Anno Mundi", "matchText": "Anno Mundi", "wikiSlug": "Anno_Mundi", "type": "concept"}
+    {
+      "term": "Romaioi",
+      "matchText": "Romaioi",
+      "wikiSlug": "Romaioi",
+      "type": "concept"
+    },
+    {
+      "term": "Basileus",
+      "matchText": "Basileus",
+      "wikiSlug": "Basileus",
+      "type": "concept"
+    },
+    {
+      "term": "Byzantion",
+      "matchText": "Byzantion",
+      "wikiSlug": "Byzantium",
+      "type": "place"
+    },
+    {
+      "term": "Tetrarchy",
+      "matchText": "Tetrarchy",
+      "wikiSlug": "Tetrarchy",
+      "type": "concept"
+    },
+    {
+      "term": "Diocletian",
+      "matchText": "Diocletian",
+      "wikiSlug": "Diocletian",
+      "type": "people"
+    },
+    {
+      "term": "Battle of the Milvian Bridge",
+      "matchText": "Battle of the Milvian Bridge",
+      "wikiSlug": "Battle_of_the_Milvian_Bridge",
+      "type": "concept"
+    },
+    {
+      "term": "Maxentius",
+      "matchText": "Maxentius",
+      "wikiSlug": "Maxentius",
+      "type": "people"
+    },
+    {
+      "term": "Chi-Rho",
+      "matchText": "Chi-Rho",
+      "wikiSlug": "Chi_Rho",
+      "type": "concept"
+    },
+    {
+      "term": "Licinius",
+      "matchText": "Licinius",
+      "wikiSlug": "Licinius",
+      "type": "people"
+    },
+    {
+      "term": "Edict of Milan",
+      "matchText": "Edict of Milan",
+      "wikiSlug": "Edict_of_Milan",
+      "type": "concept"
+    },
+    {
+      "term": "Nicene Creed",
+      "matchText": "Nicene Creed",
+      "wikiSlug": "Nicene_Creed",
+      "type": "concept"
+    },
+    {
+      "term": "Athanasius",
+      "matchText": "Athanasius",
+      "wikiSlug": "Athanasius_of_Alexandria",
+      "type": "people"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arians",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Bosporus",
+      "matchText": "Bosporus",
+      "wikiSlug": "Bosporus",
+      "type": "place"
+    },
+    {
+      "term": "Golden Horn",
+      "matchText": "Golden Horn",
+      "wikiSlug": "Golden_Horn",
+      "type": "place"
+    },
+    {
+      "term": "Circus Maximus",
+      "matchText": "Circus Maximus",
+      "wikiSlug": "Circus_Maximus",
+      "type": "place"
+    },
+    {
+      "term": "Helena",
+      "matchText": "Helena",
+      "wikiSlug": "Helena_(empress)",
+      "type": "people"
+    },
+    {
+      "term": "Arcadius",
+      "matchText": "Arcadius",
+      "wikiSlug": "Arcadius",
+      "type": "people"
+    },
+    {
+      "term": "Honorius",
+      "matchText": "Honorius",
+      "wikiSlug": "Honorius_(emperor)",
+      "type": "people"
+    },
+    {
+      "term": "Monophysites",
+      "matchText": "Monophysites",
+      "wikiSlug": "Miaphysitism",
+      "type": "concept"
+    },
+    {
+      "term": "Chalcedonian Definition",
+      "matchText": "Chalcedonian Definition",
+      "wikiSlug": "Chalcedonian_Definition",
+      "type": "concept"
+    },
+    {
+      "term": "Coptic Orthodox Church",
+      "matchText": "Coptic Orthodox Church",
+      "wikiSlug": "Coptic_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Acacian Schism",
+      "matchText": "Acacian Schism",
+      "wikiSlug": "Acacian_schism",
+      "type": "concept"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    },
+    {
+      "term": "Visigoths",
+      "matchText": "Visigoths",
+      "wikiSlug": "Visigoths",
+      "type": "people"
+    },
+    {
+      "term": "Anno Mundi",
+      "matchText": "Anno Mundi",
+      "wikiSlug": "Anno_Mundi",
+      "type": "concept"
+    },
+    {
+      "term": "Arius",
+      "matchText": "Arius",
+      "wikiSlug": "Arius",
+      "type": "people"
+    },
+    {
+      "term": "True Cross",
+      "matchText": "True Cross",
+      "wikiSlug": "True_Cross",
+      "type": "concept"
+    },
+    {
+      "term": "Dyophysitism",
+      "matchText": "Dyophysites",
+      "wikiSlug": "Dyophysitism",
+      "type": "concept"
+    },
+    {
+      "term": "Syriac Orthodox Church",
+      "matchText": "Syriac Orthodox Church",
+      "wikiSlug": "Syriac_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Armenian Apostolic Church",
+      "matchText": "Armenian Apostolic Church",
+      "wikiSlug": "Armenian_Apostolic_Church",
+      "type": "concept"
+    }
   ],
   "2": [
-    {"term": "Excubitors", "matchText": "Excubitors", "wikiSlug": "Excubitors", "type": "concept"},
-    {"term": "Anastasius I", "matchText": "Anastasius I", "wikiSlug": "Anastasius_I_(emperor)", "type": "people"},
-    {"term": "Procopius", "matchText": "Procopius of Caesarea", "wikiSlug": "Procopius", "type": "people"},
-    {"term": "chariot factions", "matchText": "factions", "wikiSlug": "Circus_factions", "type": "concept"},
-    {"term": "Blues and Greens", "matchText": "Blues and Greens", "wikiSlug": "Circus_factions", "type": "concept"},
-    {"term": "Tribonian", "matchText": "Tribonian", "wikiSlug": "Tribonian", "type": "people"},
-    {"term": "Codex", "matchText": "Codex", "wikiSlug": "Codex_Justinianus", "type": "concept"},
-    {"term": "Digest", "matchText": "Digest", "wikiSlug": "Digest_(Roman_law)", "type": "concept"},
-    {"term": "Anthemius of Tralles", "matchText": "Anthemius of Tralles", "wikiSlug": "Anthemius_of_Tralles", "type": "people"},
-    {"term": "Isidore of Miletus", "matchText": "Isidore of Miletus", "wikiSlug": "Isidore_of_Miletus", "type": "people"},
-    {"term": "pendentive", "matchText": "pendentive", "wikiSlug": "Pendentive", "type": "concept"},
-    {"term": "Vandal Kingdom", "matchText": "Vandal Kingdom", "wikiSlug": "Vandal_Kingdom", "type": "concept"},
-    {"term": "Ostrogothic Kingdom", "matchText": "Ostrogothic Kingdom", "wikiSlug": "Ostrogothic_Kingdom", "type": "concept"},
-    {"term": "Theodoric the Great", "matchText": "Theodoric the Great", "wikiSlug": "Theodoric_the_Great", "type": "people"},
-    {"term": "Boethius", "matchText": "Boethius", "wikiSlug": "Boethius", "type": "people"},
-    {"term": "Totila", "matchText": "Totila", "wikiSlug": "Totila", "type": "people"},
-    {"term": "Khosrow I", "matchText": "Khosrow I", "wikiSlug": "Khosrow_I", "type": "people"},
-    {"term": "bubonic plague", "matchText": "bubonic plague", "wikiSlug": "Bubonic_plague", "type": "concept"},
-    {"term": "Tyrian purple", "matchText": "Tyrian purple", "wikiSlug": "Tyrian_purple", "type": "concept"},
-    {"term": "Nestorian Christians", "matchText": "Nestorian Christian monks", "wikiSlug": "Church_of_the_East", "type": "concept"},
-    {"term": "foederati", "matchText": "foederati", "wikiSlug": "Foederati", "type": "concept"},
-    {"term": "Belisarius", "matchText": "Belisarius", "wikiSlug": "Belisarius", "type": "people"},
-    {"term": "Lombards", "matchText": "Lombards", "wikiSlug": "Lombards", "type": "people"}
+    {
+      "term": "Excubitors",
+      "matchText": "Excubitors",
+      "wikiSlug": "Excubitors",
+      "type": "concept"
+    },
+    {
+      "term": "Anastasius I",
+      "matchText": "Anastasius I",
+      "wikiSlug": "Anastasius_I_(emperor)",
+      "type": "people"
+    },
+    {
+      "term": "Procopius",
+      "matchText": "Procopius of Caesarea",
+      "wikiSlug": "Procopius",
+      "type": "people"
+    },
+    {
+      "term": "chariot factions",
+      "matchText": "factions",
+      "wikiSlug": "Circus_factions",
+      "type": "concept"
+    },
+    {
+      "term": "Blues and Greens",
+      "matchText": "Blues and Greens",
+      "wikiSlug": "Circus_factions",
+      "type": "concept"
+    },
+    {
+      "term": "Tribonian",
+      "matchText": "Tribonian",
+      "wikiSlug": "Tribonian",
+      "type": "people"
+    },
+    {
+      "term": "Codex",
+      "matchText": "Codex",
+      "wikiSlug": "Codex_Justinianus",
+      "type": "concept"
+    },
+    {
+      "term": "Digest",
+      "matchText": "Digest",
+      "wikiSlug": "Digest_(Roman_law)",
+      "type": "concept"
+    },
+    {
+      "term": "Anthemius of Tralles",
+      "matchText": "Anthemius of Tralles",
+      "wikiSlug": "Anthemius_of_Tralles",
+      "type": "people"
+    },
+    {
+      "term": "Isidore of Miletus",
+      "matchText": "Isidore of Miletus",
+      "wikiSlug": "Isidore_of_Miletus",
+      "type": "people"
+    },
+    {
+      "term": "pendentive",
+      "matchText": "pendentive",
+      "wikiSlug": "Pendentive",
+      "type": "concept"
+    },
+    {
+      "term": "Vandal Kingdom",
+      "matchText": "Vandal Kingdom",
+      "wikiSlug": "Vandal_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Ostrogothic Kingdom",
+      "matchText": "Ostrogothic Kingdom",
+      "wikiSlug": "Ostrogothic_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Theodoric the Great",
+      "matchText": "Theodoric the Great",
+      "wikiSlug": "Theodoric_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Boethius",
+      "matchText": "Boethius",
+      "wikiSlug": "Boethius",
+      "type": "people"
+    },
+    {
+      "term": "Totila",
+      "matchText": "Totila",
+      "wikiSlug": "Totila",
+      "type": "people"
+    },
+    {
+      "term": "Khosrow I",
+      "matchText": "Khosrow I",
+      "wikiSlug": "Khosrow_I",
+      "type": "people"
+    },
+    {
+      "term": "bubonic plague",
+      "matchText": "bubonic plague",
+      "wikiSlug": "Bubonic_plague",
+      "type": "concept"
+    },
+    {
+      "term": "Tyrian purple",
+      "matchText": "Tyrian purple",
+      "wikiSlug": "Tyrian_purple",
+      "type": "concept"
+    },
+    {
+      "term": "Nestorian Christians",
+      "matchText": "Nestorian Christian monks",
+      "wikiSlug": "Church_of_the_East",
+      "type": "concept"
+    },
+    {
+      "term": "foederati",
+      "matchText": "foederati",
+      "wikiSlug": "Foederati",
+      "type": "concept"
+    },
+    {
+      "term": "Belisarius",
+      "matchText": "Belisarius",
+      "wikiSlug": "Belisarius",
+      "type": "people"
+    },
+    {
+      "term": "Lombards",
+      "matchText": "Lombards",
+      "wikiSlug": "Lombards",
+      "type": "people"
+    },
+    {
+      "term": "Digest (Roman law)",
+      "matchText": "Pandects",
+      "wikiSlug": "Digest_(Roman_law)",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Taginae",
+      "matchText": "Battle of Taginae",
+      "wikiSlug": "Battle_of_Taginae",
+      "type": "concept"
+    },
+    {
+      "term": "Ravenna",
+      "matchText": "Ravenna",
+      "wikiSlug": "Ravenna",
+      "type": "place"
+    }
   ],
   "3": [
-    {"term": "Maurice", "matchText": "Maurice", "wikiSlug": "Maurice_(emperor)", "type": "people"},
-    {"term": "Strategikon", "matchText": "Strategikon", "wikiSlug": "Strategikon_of_Maurice", "type": "concept"},
-    {"term": "Phocas", "matchText": "Phocas", "wikiSlug": "Phocas", "type": "people"},
-    {"term": "Khosrow II", "matchText": "Khosrow II", "wikiSlug": "Khosrow_II", "type": "people"},
-    {"term": "Avars", "matchText": "Avar", "wikiSlug": "Avars", "type": "people"},
-    {"term": "Ctesiphon", "matchText": "Ctesiphon", "wikiSlug": "Ctesiphon", "type": "place"},
-    {"term": "Western Turks", "matchText": "Western Turks", "wikiSlug": "Western_Turkic_Khaganate", "type": "people"},
-    {"term": "Khazars", "matchText": "Khazars", "wikiSlug": "Khazars", "type": "people"},
-    {"term": "Adur Gushnasp", "matchText": "Adur Gushnasp", "wikiSlug": "Adur_Gushnasp", "type": "place"},
-    {"term": "Church of the Holy Sepulchre", "matchText": "Church of the Holy Sepulchre", "wikiSlug": "Church_of_the_Holy_Sepulchre", "type": "place"},
-    {"term": "Marian veneration", "matchText": "Marian veneration", "wikiSlug": "Marian_devotions", "type": "concept"},
-    {"term": "Khalid ibn al-Walid", "matchText": "Khalid ibn al-Walid", "wikiSlug": "Khalid_ibn_al-Walid", "type": "people"},
-    {"term": "jizya", "matchText": "jizya", "wikiSlug": "Jizya", "type": "concept"},
-    {"term": "Caliph Umar", "matchText": "the Caliph", "wikiSlug": "Umar", "type": "people"},
-    {"term": "strategos", "matchText": "strategos", "wikiSlug": "Strategos", "type": "concept"},
-    {"term": "military lands", "matchText": "military lands", "wikiSlug": "Strateia", "type": "concept"},
-    {"term": "Monothelitism", "matchText": "Monothelitism", "wikiSlug": "Monothelitism", "type": "concept"},
-    {"term": "Umayyad Caliphate", "matchText": "Umayyad Caliphate", "wikiSlug": "Umayyad_Caliphate", "type": "concept"},
-    {"term": "dynatoi", "matchText": "dynatoi", "wikiSlug": "Dynatoi", "type": "concept"},
-    {"term": "exarch", "matchText": "Exarch", "wikiSlug": "Exarch", "type": "concept"},
-    {"term": "Slavs", "matchText": "Slavs", "wikiSlug": "Slavic_peoples", "type": "people"},
-    {"term": "Yarmouk River", "matchText": "Yarmouk River", "wikiSlug": "Yarmouk_River", "type": "place"}
+    {
+      "term": "Maurice",
+      "matchText": "Maurice",
+      "wikiSlug": "Maurice_(emperor)",
+      "type": "people"
+    },
+    {
+      "term": "Strategikon",
+      "matchText": "Strategikon",
+      "wikiSlug": "Strategikon_of_Maurice",
+      "type": "concept"
+    },
+    {
+      "term": "Phocas",
+      "matchText": "Phocas",
+      "wikiSlug": "Phocas",
+      "type": "people"
+    },
+    {
+      "term": "Khosrow II",
+      "matchText": "Khosrow II",
+      "wikiSlug": "Khosrow_II",
+      "type": "people"
+    },
+    {
+      "term": "Avars",
+      "matchText": "Avar",
+      "wikiSlug": "Avars",
+      "type": "people"
+    },
+    {
+      "term": "Ctesiphon",
+      "matchText": "Ctesiphon",
+      "wikiSlug": "Ctesiphon",
+      "type": "place"
+    },
+    {
+      "term": "Western Turks",
+      "matchText": "Western Turks",
+      "wikiSlug": "Western_Turkic_Khaganate",
+      "type": "people"
+    },
+    {
+      "term": "Khazars",
+      "matchText": "Khazars",
+      "wikiSlug": "Khazars",
+      "type": "people"
+    },
+    {
+      "term": "Adur Gushnasp",
+      "matchText": "Adur Gushnasp",
+      "wikiSlug": "Adur_Gushnasp",
+      "type": "place"
+    },
+    {
+      "term": "Church of the Holy Sepulchre",
+      "matchText": "Church of the Holy Sepulchre",
+      "wikiSlug": "Church_of_the_Holy_Sepulchre",
+      "type": "place"
+    },
+    {
+      "term": "Marian veneration",
+      "matchText": "Marian veneration",
+      "wikiSlug": "Marian_devotions",
+      "type": "concept"
+    },
+    {
+      "term": "Khalid ibn al-Walid",
+      "matchText": "Khalid ibn al-Walid",
+      "wikiSlug": "Khalid_ibn_al-Walid",
+      "type": "people"
+    },
+    {
+      "term": "jizya",
+      "matchText": "jizya",
+      "wikiSlug": "Jizya",
+      "type": "concept"
+    },
+    {
+      "term": "Caliph Umar",
+      "matchText": "the Caliph",
+      "wikiSlug": "Umar",
+      "type": "people"
+    },
+    {
+      "term": "strategos",
+      "matchText": "strategos",
+      "wikiSlug": "Strategos",
+      "type": "concept"
+    },
+    {
+      "term": "military lands",
+      "matchText": "military lands",
+      "wikiSlug": "Strateia",
+      "type": "concept"
+    },
+    {
+      "term": "Monothelitism",
+      "matchText": "Monothelitism",
+      "wikiSlug": "Monothelitism",
+      "type": "concept"
+    },
+    {
+      "term": "Umayyad Caliphate",
+      "matchText": "Umayyad Caliphate",
+      "wikiSlug": "Umayyad_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "dynatoi",
+      "matchText": "dynatoi",
+      "wikiSlug": "Dynatoi",
+      "type": "concept"
+    },
+    {
+      "term": "exarch",
+      "matchText": "Exarch",
+      "wikiSlug": "Exarch",
+      "type": "concept"
+    },
+    {
+      "term": "Slavs",
+      "matchText": "Slavs",
+      "wikiSlug": "Slavic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Yarmouk River",
+      "matchText": "Yarmouk River",
+      "wikiSlug": "Yarmouk_River",
+      "type": "place"
+    },
+    {
+      "term": "Plague of Justinian",
+      "matchText": "Plague of Justinian",
+      "wikiSlug": "Plague_of_Justinian",
+      "type": "concept"
+    },
+    {
+      "term": "Theme (Byzantine district)",
+      "matchText": "themes",
+      "wikiSlug": "Theme_(Byzantine_district)",
+      "type": "concept"
+    },
+    {
+      "term": "Amr ibn al-As",
+      "matchText": "Amr ibn al-As",
+      "wikiSlug": "Amr_ibn_al-As",
+      "type": "people"
+    }
   ],
   "4": [
-    {"term": "Kallinikos of Heliopolis", "matchText": "Kallinikos", "wikiSlug": "Callinicus_of_Heliopolis", "type": "people"},
-    {"term": "Leo III", "matchText": "Leo III", "wikiSlug": "Leo_III_the_Isaurian", "type": "people"},
-    {"term": "icon", "matchText": "icon", "wikiSlug": "Icon", "type": "concept"},
-    {"term": "Hodegetria", "matchText": "Hodegetria", "wikiSlug": "Hodegetria", "type": "concept"},
-    {"term": "acheiropoieta", "matchText": "acheiropoieta", "wikiSlug": "Acheiropoieta", "type": "concept"},
-    {"term": "iconodule", "matchText": "iconodule", "wikiSlug": "Iconodulism", "type": "concept"},
-    {"term": "veneration vs worship", "matchText": "veneration", "wikiSlug": "Veneration", "type": "concept"},
-    {"term": "Constantine V Kopronymos", "matchText": "Constantine V", "wikiSlug": "Constantine_V", "type": "people"},
-    {"term": "Charles Martel", "matchText": "Charles Martel", "wikiSlug": "Charles_Martel", "type": "people"},
-    {"term": "Battle of Tours", "matchText": "Battle of Tours", "wikiSlug": "Battle_of_Tours", "type": "concept"},
-    {"term": "Pepin the Short", "matchText": "Pepin the Short", "wikiSlug": "Pepin_the_Short", "type": "people"},
-    {"term": "Papal States", "matchText": "Papal States", "wikiSlug": "Papal_States", "type": "concept"},
-    {"term": "Holy Roman Empire", "matchText": "Holy Roman Empire", "wikiSlug": "Holy_Roman_Empire", "type": "concept"},
-    {"term": "Charlemagne", "matchText": "Charlemagne", "wikiSlug": "Charlemagne", "type": "people"},
-    {"term": "Stoudios Monastery", "matchText": "Stoudios Monastery", "wikiSlug": "Stoudios_Monastery", "type": "place"},
-    {"term": "Constantine VI", "matchText": "Constantine VI", "wikiSlug": "Constantine_VI", "type": "people"},
-    {"term": "Synod of Constantinople", "matchText": "Synod of Constantinople", "wikiSlug": "Synod_of_Constantinople_(815)", "type": "concept"},
-    {"term": "Theophilos", "matchText": "Theophilos", "wikiSlug": "Theophilos_(emperor)", "type": "people"},
-    {"term": "Liutprand of Cremona", "matchText": "Liutprand of Cremona", "wikiSlug": "Liutprand_of_Cremona", "type": "people"},
-    {"term": "Michael III", "matchText": "Michael III", "wikiSlug": "Michael_III", "type": "people"},
-    {"term": "Empress Theodora (regent)", "matchText": "Empress Theodora", "wikiSlug": "Theodora_(empress,_wife_of_Theophilos)", "type": "people"},
-    {"term": "Sunday of Orthodoxy", "matchText": "Sunday of Orthodoxy", "wikiSlug": "Triumph_of_Orthodoxy", "type": "concept"}
+    {
+      "term": "Kallinikos of Heliopolis",
+      "matchText": "Kallinikos",
+      "wikiSlug": "Callinicus_of_Heliopolis",
+      "type": "people"
+    },
+    {
+      "term": "Leo III",
+      "matchText": "Leo III",
+      "wikiSlug": "Leo_III_the_Isaurian",
+      "type": "people"
+    },
+    {
+      "term": "icon",
+      "matchText": "icon",
+      "wikiSlug": "Icon",
+      "type": "concept"
+    },
+    {
+      "term": "Hodegetria",
+      "matchText": "Hodegetria",
+      "wikiSlug": "Hodegetria",
+      "type": "concept"
+    },
+    {
+      "term": "acheiropoieta",
+      "matchText": "acheiropoieta",
+      "wikiSlug": "Acheiropoieta",
+      "type": "concept"
+    },
+    {
+      "term": "iconodule",
+      "matchText": "iconodule",
+      "wikiSlug": "Iconodulism",
+      "type": "concept"
+    },
+    {
+      "term": "veneration vs worship",
+      "matchText": "veneration",
+      "wikiSlug": "Veneration",
+      "type": "concept"
+    },
+    {
+      "term": "Constantine V Kopronymos",
+      "matchText": "Constantine V",
+      "wikiSlug": "Constantine_V",
+      "type": "people"
+    },
+    {
+      "term": "Charles Martel",
+      "matchText": "Charles Martel",
+      "wikiSlug": "Charles_Martel",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Tours",
+      "matchText": "Battle of Tours",
+      "wikiSlug": "Battle_of_Tours",
+      "type": "concept"
+    },
+    {
+      "term": "Pepin the Short",
+      "matchText": "Pepin the Short",
+      "wikiSlug": "Pepin_the_Short",
+      "type": "people"
+    },
+    {
+      "term": "Papal States",
+      "matchText": "Papal States",
+      "wikiSlug": "Papal_States",
+      "type": "concept"
+    },
+    {
+      "term": "Holy Roman Empire",
+      "matchText": "Holy Roman Empire",
+      "wikiSlug": "Holy_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Charlemagne",
+      "matchText": "Charlemagne",
+      "wikiSlug": "Charlemagne",
+      "type": "people"
+    },
+    {
+      "term": "Stoudios Monastery",
+      "matchText": "Stoudios Monastery",
+      "wikiSlug": "Stoudios_Monastery",
+      "type": "place"
+    },
+    {
+      "term": "Constantine VI",
+      "matchText": "Constantine VI",
+      "wikiSlug": "Constantine_VI",
+      "type": "people"
+    },
+    {
+      "term": "Synod of Constantinople",
+      "matchText": "Synod of Constantinople",
+      "wikiSlug": "Synod_of_Constantinople_(815)",
+      "type": "concept"
+    },
+    {
+      "term": "Theophilos",
+      "matchText": "Theophilos",
+      "wikiSlug": "Theophilos_(emperor)",
+      "type": "people"
+    },
+    {
+      "term": "Liutprand of Cremona",
+      "matchText": "Liutprand of Cremona",
+      "wikiSlug": "Liutprand_of_Cremona",
+      "type": "people"
+    },
+    {
+      "term": "Michael III",
+      "matchText": "Michael III",
+      "wikiSlug": "Michael_III",
+      "type": "people"
+    },
+    {
+      "term": "Empress Theodora (regent)",
+      "matchText": "Empress Theodora",
+      "wikiSlug": "Theodora_(empress,_wife_of_Theophilos)",
+      "type": "people"
+    },
+    {
+      "term": "Sunday of Orthodoxy",
+      "matchText": "Sunday of Orthodoxy",
+      "wikiSlug": "Triumph_of_Orthodoxy",
+      "type": "concept"
+    }
   ],
   "5": [
-    {"term": "Photius", "matchText": "Photius", "wikiSlug": "Photius_I_of_Constantinople", "type": "people"},
-    {"term": "Filioque", "matchText": "Filioque", "wikiSlug": "Filioque", "type": "concept"},
-    {"term": "Glagolitic script", "matchText": "Glagolitic script", "wikiSlug": "Glagolitic_script", "type": "concept"},
-    {"term": "Cyrillic alphabet", "matchText": "Cyrillic alphabet", "wikiSlug": "Cyrillic_script", "type": "concept"},
-    {"term": "Old Church Slavonic", "matchText": "Old Church Slavonic", "wikiSlug": "Old_Church_Slavonic", "type": "concept"},
-    {"term": "Great Moravia", "matchText": "Great Moravia", "wikiSlug": "Great_Moravia", "type": "place"},
-    {"term": "Basil I the Macedonian", "matchText": "Basil I", "wikiSlug": "Basil_I", "type": "people"},
-    {"term": "minuscule script", "matchText": "minuscule", "wikiSlug": "Greek_minuscule", "type": "concept"},
-    {"term": "Romanos I Lekapenos", "matchText": "Romanos I", "wikiSlug": "Romanos_I_Lekapenos", "type": "people"},
-    {"term": "Nikephoros II Phokas", "matchText": "Nikephoros II Phokas", "wikiSlug": "Nikephoros_II", "type": "people"},
-    {"term": "Theophano (empress)", "matchText": "Theophano", "wikiSlug": "Theophano_(10th-century_empress)", "type": "people"},
-    {"term": "First Bulgarian Empire", "matchText": "First Bulgarian Empire", "wikiSlug": "First_Bulgarian_Empire", "type": "concept"},
-    {"term": "Boulgaroktonos", "matchText": "Boulgaroktonos", "wikiSlug": "Basil_II", "type": "concept"},
-    {"term": "Vladimir of Kyiv", "matchText": "Vladimir", "wikiSlug": "Vladimir_the_Great", "type": "people"},
-    {"term": "Primary Chronicle", "matchText": "Primary Chronicle", "wikiSlug": "Primary_Chronicle", "type": "concept"},
-    {"term": "Third Rome", "matchText": "Third Rome", "wikiSlug": "Third_Rome", "type": "concept"},
-    {"term": "Harald Hardrada", "matchText": "Harald Hardrada", "wikiSlug": "Harald_Hardrada", "type": "people"},
-    {"term": "Norman Conquest", "matchText": "Norman Conquest", "wikiSlug": "Norman_conquest_of_England", "type": "concept"}
+    {
+      "term": "Photius",
+      "matchText": "Photius",
+      "wikiSlug": "Photius_I_of_Constantinople",
+      "type": "people"
+    },
+    {
+      "term": "Filioque",
+      "matchText": "Filioque",
+      "wikiSlug": "Filioque",
+      "type": "concept"
+    },
+    {
+      "term": "Glagolitic script",
+      "matchText": "Glagolitic script",
+      "wikiSlug": "Glagolitic_script",
+      "type": "concept"
+    },
+    {
+      "term": "Cyrillic alphabet",
+      "matchText": "Cyrillic alphabet",
+      "wikiSlug": "Cyrillic_script",
+      "type": "concept"
+    },
+    {
+      "term": "Old Church Slavonic",
+      "matchText": "Old Church Slavonic",
+      "wikiSlug": "Old_Church_Slavonic",
+      "type": "concept"
+    },
+    {
+      "term": "Great Moravia",
+      "matchText": "Great Moravia",
+      "wikiSlug": "Great_Moravia",
+      "type": "place"
+    },
+    {
+      "term": "Basil I the Macedonian",
+      "matchText": "Basil I",
+      "wikiSlug": "Basil_I",
+      "type": "people"
+    },
+    {
+      "term": "minuscule script",
+      "matchText": "minuscule",
+      "wikiSlug": "Greek_minuscule",
+      "type": "concept"
+    },
+    {
+      "term": "Romanos I Lekapenos",
+      "matchText": "Romanos I",
+      "wikiSlug": "Romanos_I_Lekapenos",
+      "type": "people"
+    },
+    {
+      "term": "Nikephoros II Phokas",
+      "matchText": "Nikephoros II Phokas",
+      "wikiSlug": "Nikephoros_II",
+      "type": "people"
+    },
+    {
+      "term": "Theophano (empress)",
+      "matchText": "Theophano",
+      "wikiSlug": "Theophano_(10th-century_empress)",
+      "type": "people"
+    },
+    {
+      "term": "First Bulgarian Empire",
+      "matchText": "First Bulgarian Empire",
+      "wikiSlug": "First_Bulgarian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Boulgaroktonos",
+      "matchText": "Boulgaroktonos",
+      "wikiSlug": "Basil_II",
+      "type": "concept"
+    },
+    {
+      "term": "Vladimir of Kyiv",
+      "matchText": "Vladimir",
+      "wikiSlug": "Vladimir_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Primary Chronicle",
+      "matchText": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle",
+      "type": "concept"
+    },
+    {
+      "term": "Third Rome",
+      "matchText": "Third Rome",
+      "wikiSlug": "Third_Rome",
+      "type": "concept"
+    },
+    {
+      "term": "Harald Hardrada",
+      "matchText": "Harald Hardrada",
+      "wikiSlug": "Harald_Hardrada",
+      "type": "people"
+    },
+    {
+      "term": "Norman Conquest",
+      "matchText": "Norman Conquest",
+      "wikiSlug": "Norman_conquest_of_England",
+      "type": "concept"
+    },
+    {
+      "term": "Macedonian Renaissance",
+      "matchText": "Macedonian Renaissance",
+      "wikiSlug": "Macedonian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "John I Tzimiskes",
+      "matchText": "John I Tzimiskes",
+      "wikiSlug": "John_I_Tzimiskes",
+      "type": "people"
+    }
   ],
   "6": [
-    {"term": "proskynesis", "matchText": "proskynesis", "wikiSlug": "Proskynesis", "type": "concept"},
-    {"term": "loros", "matchText": "loros", "wikiSlug": "Loros", "type": "concept"},
-    {"term": "stemma", "matchText": "stemma", "wikiSlug": "Stemma_(crown)", "type": "concept"},
-    {"term": "parakoimomenos", "matchText": "parakoimomenos", "wikiSlug": "Parakoimomenos", "type": "concept"},
-    {"term": "eunuchs", "matchText": "eunuchs", "wikiSlug": "Eunuchs_in_the_Byzantine_Empire", "type": "concept"},
-    {"term": "kathisma", "matchText": "kathisma", "wikiSlug": "Kathisma_church", "type": "concept"},
-    {"term": "Book of the Eparch", "matchText": "Book of the Eparch", "wikiSlug": "Book_of_the_Eparch", "type": "concept"},
-    {"term": "follis", "matchText": "follis", "wikiSlug": "Follis", "type": "concept"},
-    {"term": "nomisma", "matchText": "nomisma", "wikiSlug": "Solidus_(coin)", "type": "concept"},
-    {"term": "De Ceremoniis", "matchText": "De Ceremoniis", "wikiSlug": "De_Ceremoniis", "type": "concept"},
-    {"term": "Porphyrios the charioteer", "matchText": "Porphyrios", "wikiSlug": "Porphyrius_(charioteer)", "type": "people"},
-    {"term": "Mount Athos", "matchText": "Mount Athos", "wikiSlug": "Mount_Athos", "type": "place"},
-    {"term": "Athanasios the Athonite", "matchText": "Athanasios the Athonite", "wikiSlug": "Athanasius_of_Athos", "type": "people"},
-    {"term": "Divine Liturgy", "matchText": "Divine Liturgy", "wikiSlug": "Divine_Liturgy", "type": "concept"},
-    {"term": "John Chrysostom", "matchText": "John Chrysostom", "wikiSlug": "John_Chrysostom", "type": "people"},
-    {"term": "Serpent Column", "matchText": "Serpent Column", "wikiSlug": "Serpent_Column", "type": "concept"},
-    {"term": "Theotokos", "matchText": "Theotokos", "wikiSlug": "Theotokos", "type": "concept"},
-    {"term": "murex snail", "matchText": "murex sea-snail", "wikiSlug": "Murex", "type": "concept"},
-    {"term": "Neorion harbor", "matchText": "Neorion", "wikiSlug": "Neorion", "type": "place"},
-    {"term": "blattai", "matchText": "blattai", "wikiSlug": "Blatta_(color)", "type": "concept"},
-    {"term": "stratiotika ktemata", "matchText": "stratiotika ktemata", "wikiSlug": "Strateia", "type": "concept"},
-    {"term": "Carolingian Renaissance", "matchText": "Carolingian Renaissance", "wikiSlug": "Carolingian_Renaissance", "type": "concept"}
+    {
+      "term": "proskynesis",
+      "matchText": "proskynesis",
+      "wikiSlug": "Proskynesis",
+      "type": "concept"
+    },
+    {
+      "term": "loros",
+      "matchText": "loros",
+      "wikiSlug": "Loros",
+      "type": "concept"
+    },
+    {
+      "term": "stemma",
+      "matchText": "stemma",
+      "wikiSlug": "Stemma_(crown)",
+      "type": "concept"
+    },
+    {
+      "term": "parakoimomenos",
+      "matchText": "parakoimomenos",
+      "wikiSlug": "Parakoimomenos",
+      "type": "concept"
+    },
+    {
+      "term": "eunuchs",
+      "matchText": "eunuchs",
+      "wikiSlug": "Eunuchs_in_the_Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "kathisma",
+      "matchText": "kathisma",
+      "wikiSlug": "Kathisma_church",
+      "type": "concept"
+    },
+    {
+      "term": "Book of the Eparch",
+      "matchText": "Book of the Eparch",
+      "wikiSlug": "Book_of_the_Eparch",
+      "type": "concept"
+    },
+    {
+      "term": "follis",
+      "matchText": "follis",
+      "wikiSlug": "Follis",
+      "type": "concept"
+    },
+    {
+      "term": "nomisma",
+      "matchText": "nomisma",
+      "wikiSlug": "Solidus_(coin)",
+      "type": "concept"
+    },
+    {
+      "term": "De Ceremoniis",
+      "matchText": "De Ceremoniis",
+      "wikiSlug": "De_Ceremoniis",
+      "type": "concept"
+    },
+    {
+      "term": "Porphyrios the charioteer",
+      "matchText": "Porphyrios",
+      "wikiSlug": "Porphyrius_(charioteer)",
+      "type": "people"
+    },
+    {
+      "term": "Mount Athos",
+      "matchText": "Mount Athos",
+      "wikiSlug": "Mount_Athos",
+      "type": "place"
+    },
+    {
+      "term": "Athanasios the Athonite",
+      "matchText": "Athanasios the Athonite",
+      "wikiSlug": "Athanasius_of_Athos",
+      "type": "people"
+    },
+    {
+      "term": "Divine Liturgy",
+      "matchText": "Divine Liturgy",
+      "wikiSlug": "Divine_Liturgy",
+      "type": "concept"
+    },
+    {
+      "term": "John Chrysostom",
+      "matchText": "John Chrysostom",
+      "wikiSlug": "John_Chrysostom",
+      "type": "people"
+    },
+    {
+      "term": "Serpent Column",
+      "matchText": "Serpent Column",
+      "wikiSlug": "Serpent_Column",
+      "type": "concept"
+    },
+    {
+      "term": "Theotokos",
+      "matchText": "Theotokos",
+      "wikiSlug": "Theotokos",
+      "type": "concept"
+    },
+    {
+      "term": "murex snail",
+      "matchText": "murex sea-snail",
+      "wikiSlug": "Murex",
+      "type": "concept"
+    },
+    {
+      "term": "Neorion harbor",
+      "matchText": "Neorion",
+      "wikiSlug": "Neorion",
+      "type": "place"
+    },
+    {
+      "term": "blattai",
+      "matchText": "blattai",
+      "wikiSlug": "Blatta_(color)",
+      "type": "concept"
+    },
+    {
+      "term": "stratiotika ktemata",
+      "matchText": "stratiotika ktemata",
+      "wikiSlug": "Strateia",
+      "type": "concept"
+    },
+    {
+      "term": "Carolingian Renaissance",
+      "matchText": "Carolingian Renaissance",
+      "wikiSlug": "Carolingian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Liutprand of Cremona",
+      "matchText": "Liutprand of Cremona",
+      "wikiSlug": "Liutprand_of_Cremona",
+      "type": "people"
+    },
+    {
+      "term": "Michael Psellos",
+      "matchText": "Michael Psellos",
+      "wikiSlug": "Michael_Psellos",
+      "type": "people"
+    },
+    {
+      "term": "Monastery of Stoudios",
+      "matchText": "Stoudios Monastery",
+      "wikiSlug": "Monastery_of_Stoudios",
+      "type": "place"
+    }
   ],
   "7": [
-    {"term": "nomisma debasement", "matchText": "nomisma", "wikiSlug": "Debasement_of_the_Byzantine_solidus", "type": "concept"},
-    {"term": "Zoe Porphyrogennita", "matchText": "Zoe Porphyrogennita", "wikiSlug": "Zoe_Porphyrogenneta", "type": "people"},
-    {"term": "Michael Cerularius", "matchText": "Michael Cerularius", "wikiSlug": "Michael_Cerularius", "type": "people"},
-    {"term": "Cardinal Humbert", "matchText": "Cardinal Humbert", "wikiSlug": "Humbert_of_Silva_Candida", "type": "people"},
-    {"term": "bull of excommunication", "matchText": "bull of excommunication", "wikiSlug": "East%E2%80%93West_Schism", "type": "concept"},
-    {"term": "Seljuks", "matchText": "Seljuks", "wikiSlug": "Seljuk_dynasty", "type": "people"},
-    {"term": "Alp Arslan", "matchText": "Alp Arslan", "wikiSlug": "Alp_Arslan", "type": "people"},
-    {"term": "Romanos IV Diogenes", "matchText": "Romanos IV Diogenes", "wikiSlug": "Romanos_IV_Diogenes", "type": "people"},
-    {"term": "Andronikos Doukas", "matchText": "Andronikos Doukas", "wikiSlug": "Andronikos_Doukas_(megas_domestikos)", "type": "people"},
-    {"term": "Sultanate of Rum", "matchText": "Sultanate of Rum", "wikiSlug": "Sultanate_of_Rum", "type": "concept"},
-    {"term": "Turkmen", "matchText": "Turkmen", "wikiSlug": "Turkmens", "type": "people"},
-    {"term": "Photian Schism", "matchText": "Photian Schism", "wikiSlug": "Photian_schism", "type": "concept"},
-    {"term": "Michael Psellos", "matchText": "Michael Psellos", "wikiSlug": "Michael_Psellos", "type": "people"},
-    {"term": "Chronographia", "matchText": "Chronographia", "wikiSlug": "Chronographia_(Psellos)", "type": "concept"},
-    {"term": "John Italos", "matchText": "John Italos", "wikiSlug": "John_Italos", "type": "people"},
-    {"term": "dynatoi", "matchText": "dynatoi", "wikiSlug": "Dynatoi", "type": "concept"}
+    {
+      "term": "nomisma debasement",
+      "matchText": "nomisma",
+      "wikiSlug": "Debasement_of_the_Byzantine_solidus",
+      "type": "concept"
+    },
+    {
+      "term": "Zoe Porphyrogennita",
+      "matchText": "Zoe Porphyrogennita",
+      "wikiSlug": "Zoe_Porphyrogenneta",
+      "type": "people"
+    },
+    {
+      "term": "Michael Cerularius",
+      "matchText": "Michael Cerularius",
+      "wikiSlug": "Michael_Cerularius",
+      "type": "people"
+    },
+    {
+      "term": "Cardinal Humbert",
+      "matchText": "Cardinal Humbert",
+      "wikiSlug": "Humbert_of_Silva_Candida",
+      "type": "people"
+    },
+    {
+      "term": "bull of excommunication",
+      "matchText": "bull of excommunication",
+      "wikiSlug": "East%E2%80%93West_Schism",
+      "type": "concept"
+    },
+    {
+      "term": "Seljuks",
+      "matchText": "Seljuks",
+      "wikiSlug": "Seljuk_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Alp Arslan",
+      "matchText": "Alp Arslan",
+      "wikiSlug": "Alp_Arslan",
+      "type": "people"
+    },
+    {
+      "term": "Romanos IV Diogenes",
+      "matchText": "Romanos IV Diogenes",
+      "wikiSlug": "Romanos_IV_Diogenes",
+      "type": "people"
+    },
+    {
+      "term": "Andronikos Doukas",
+      "matchText": "Andronikos Doukas",
+      "wikiSlug": "Andronikos_Doukas_(megas_domestikos)",
+      "type": "people"
+    },
+    {
+      "term": "Sultanate of Rum",
+      "matchText": "Sultanate of Rum",
+      "wikiSlug": "Sultanate_of_Rum",
+      "type": "concept"
+    },
+    {
+      "term": "Turkmen",
+      "matchText": "Turkmen",
+      "wikiSlug": "Turkmens",
+      "type": "people"
+    },
+    {
+      "term": "Photian Schism",
+      "matchText": "Photian Schism",
+      "wikiSlug": "Photian_schism",
+      "type": "concept"
+    },
+    {
+      "term": "Michael Psellos",
+      "matchText": "Michael Psellos",
+      "wikiSlug": "Michael_Psellos",
+      "type": "people"
+    },
+    {
+      "term": "Chronographia",
+      "matchText": "Chronographia",
+      "wikiSlug": "Chronographia_(Psellos)",
+      "type": "concept"
+    },
+    {
+      "term": "John Italos",
+      "matchText": "John Italos",
+      "wikiSlug": "John_Italos",
+      "type": "people"
+    },
+    {
+      "term": "dynatoi",
+      "matchText": "dynatoi",
+      "wikiSlug": "Dynatoi",
+      "type": "concept"
+    }
   ],
   "8": [
-    {"term": "Anna Dalassene", "matchText": "Anna Dalassene", "wikiSlug": "Anna_Dalassene", "type": "people"},
-    {"term": "Irene Doukaina", "matchText": "Irene Doukaina", "wikiSlug": "Irene_Doukaina", "type": "people"},
-    {"term": "Pechenegs", "matchText": "Pechenegs", "wikiSlug": "Pechenegs", "type": "people"},
-    {"term": "Chrysobull", "matchText": "Chrysobull", "wikiSlug": "Chrysobull", "type": "concept"},
-    {"term": "Robert Guiscard", "matchText": "Robert Guiscard", "wikiSlug": "Robert_Guiscard", "type": "people"},
-    {"term": "Bohemond of Taranto", "matchText": "Bohemond of Taranto", "wikiSlug": "Bohemond_I_of_Antioch", "type": "people"},
-    {"term": "Council of Clermont", "matchText": "Council of Clermont", "wikiSlug": "Council_of_Clermont", "type": "concept"},
-    {"term": "plenary indulgence", "matchText": "plenary indulgence", "wikiSlug": "Plenary_indulgence", "type": "concept"},
-    {"term": "Kingdom of Jerusalem", "matchText": "Kingdom of Jerusalem", "wikiSlug": "Kingdom_of_Jerusalem", "type": "concept"},
-    {"term": "Kalojohannes", "matchText": "Kalojohannes", "wikiSlug": "John_II_Komnenos", "type": "people"},
-    {"term": "Manuel I Komnenos", "matchText": "Manuel I Komnenos", "wikiSlug": "Manuel_I_Komnenos", "type": "people"},
-    {"term": "Frederick Barbarossa", "matchText": "Frederick Barbarossa", "wikiSlug": "Frederick_I_Holy_Roman_Emperor", "type": "people"},
-    {"term": "Kilij Arslan II", "matchText": "Kilij Arslan II", "wikiSlug": "Kilij_Arslan_II", "type": "people"},
-    {"term": "Andronikos I Komnenos", "matchText": "Andronikos I Komnenos", "wikiSlug": "Andronikos_I_Komnenos", "type": "people"},
-    {"term": "Angelos dynasty", "matchText": "Angelos", "wikiSlug": "Angelos_dynasty", "type": "concept"},
-    {"term": "Alexiad", "matchText": "Alexiad", "wikiSlug": "Alexiad", "type": "concept"},
-    {"term": "hyperpyron", "matchText": "hyperpyron", "wikiSlug": "Hyperpyron", "type": "concept"},
-    {"term": "Peoples Crusade", "matchText": "People's Crusade", "wikiSlug": "People's_Crusade", "type": "concept"},
-    {"term": "Godfrey of Bouillon", "matchText": "Godfrey of Bouillon", "wikiSlug": "Godfrey_of_Bouillon", "type": "people"}
+    {
+      "term": "Anna Dalassene",
+      "matchText": "Anna Dalassene",
+      "wikiSlug": "Anna_Dalassene",
+      "type": "people"
+    },
+    {
+      "term": "Irene Doukaina",
+      "matchText": "Irene Doukaina",
+      "wikiSlug": "Irene_Doukaina",
+      "type": "people"
+    },
+    {
+      "term": "Pechenegs",
+      "matchText": "Pechenegs",
+      "wikiSlug": "Pechenegs",
+      "type": "people"
+    },
+    {
+      "term": "Chrysobull",
+      "matchText": "Chrysobull",
+      "wikiSlug": "Chrysobull",
+      "type": "concept"
+    },
+    {
+      "term": "Robert Guiscard",
+      "matchText": "Robert Guiscard",
+      "wikiSlug": "Robert_Guiscard",
+      "type": "people"
+    },
+    {
+      "term": "Bohemond of Taranto",
+      "matchText": "Bohemond of Taranto",
+      "wikiSlug": "Bohemond_I_of_Antioch",
+      "type": "people"
+    },
+    {
+      "term": "Council of Clermont",
+      "matchText": "Council of Clermont",
+      "wikiSlug": "Council_of_Clermont",
+      "type": "concept"
+    },
+    {
+      "term": "plenary indulgence",
+      "matchText": "plenary indulgence",
+      "wikiSlug": "Plenary_indulgence",
+      "type": "concept"
+    },
+    {
+      "term": "Kingdom of Jerusalem",
+      "matchText": "Kingdom of Jerusalem",
+      "wikiSlug": "Kingdom_of_Jerusalem",
+      "type": "concept"
+    },
+    {
+      "term": "Kalojohannes",
+      "matchText": "Kalojohannes",
+      "wikiSlug": "John_II_Komnenos",
+      "type": "people"
+    },
+    {
+      "term": "Manuel I Komnenos",
+      "matchText": "Manuel I Komnenos",
+      "wikiSlug": "Manuel_I_Komnenos",
+      "type": "people"
+    },
+    {
+      "term": "Frederick Barbarossa",
+      "matchText": "Frederick Barbarossa",
+      "wikiSlug": "Frederick_I_Holy_Roman_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Kilij Arslan II",
+      "matchText": "Kilij Arslan II",
+      "wikiSlug": "Kilij_Arslan_II",
+      "type": "people"
+    },
+    {
+      "term": "Andronikos I Komnenos",
+      "matchText": "Andronikos I Komnenos",
+      "wikiSlug": "Andronikos_I_Komnenos",
+      "type": "people"
+    },
+    {
+      "term": "Angelos dynasty",
+      "matchText": "Angelos",
+      "wikiSlug": "Angelos_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Alexiad",
+      "matchText": "Alexiad",
+      "wikiSlug": "Alexiad",
+      "type": "concept"
+    },
+    {
+      "term": "hyperpyron",
+      "matchText": "hyperpyron",
+      "wikiSlug": "Hyperpyron",
+      "type": "concept"
+    },
+    {
+      "term": "Peoples Crusade",
+      "matchText": "People's Crusade",
+      "wikiSlug": "People's_Crusade",
+      "type": "concept"
+    },
+    {
+      "term": "Godfrey of Bouillon",
+      "matchText": "Godfrey of Bouillon",
+      "wikiSlug": "Godfrey_of_Bouillon",
+      "type": "people"
+    },
+    {
+      "term": "County of Edessa",
+      "matchText": "County of Edessa",
+      "wikiSlug": "County_of_Edessa",
+      "type": "concept"
+    }
   ],
   "9": [
-    {"term": "Enrico Dandolo", "matchText": "Enrico Dandolo", "wikiSlug": "Enrico_Dandolo", "type": "people"},
-    {"term": "Zara (Zadar)", "matchText": "Zara", "wikiSlug": "Zadar", "type": "place"},
-    {"term": "Innocent III", "matchText": "Innocent III", "wikiSlug": "Pope_Innocent_III", "type": "people"},
-    {"term": "Boniface of Montferrat", "matchText": "Boniface of Montferrat", "wikiSlug": "Boniface_of_Montferrat", "type": "people"},
-    {"term": "Alexios IV Angelos", "matchText": "Alexios IV Angelos", "wikiSlug": "Alexios_IV_Angelos", "type": "people"},
-    {"term": "Alexios V Mourtzouphlos", "matchText": "Alexios V Mourtzouphlos", "wikiSlug": "Alexios_V_Doukas", "type": "people"},
-    {"term": "Niketas Choniates", "matchText": "Niketas Choniates", "wikiSlug": "Niketas_Choniates", "type": "people"},
-    {"term": "Baldwin of Flanders", "matchText": "Baldwin of Flanders", "wikiSlug": "Baldwin_I_of_Constantinople", "type": "people"},
-    {"term": "Duchy of Athens", "matchText": "Duchy of Athens", "wikiSlug": "Duchy_of_Athens", "type": "concept"},
-    {"term": "Principality of Achaea", "matchText": "Principality of Achaea", "wikiSlug": "Principality_of_Achaea", "type": "concept"},
-    {"term": "Theodore I Laskaris", "matchText": "Theodore I Laskaris", "wikiSlug": "Theodore_I_Laskaris", "type": "people"},
-    {"term": "Empire of Trebizond", "matchText": "Empire of Trebizond", "wikiSlug": "Empire_of_Trebizond", "type": "concept"},
-    {"term": "Despotate of Epirus", "matchText": "Despotate of Epirus", "wikiSlug": "Despotate_of_Epirus", "type": "concept"},
-    {"term": "Michael VIII Palaiologos", "matchText": "Michael VIII Palaiologos", "wikiSlug": "Michael_VIII_Palaiologos", "type": "people"},
-    {"term": "Union of Lyons", "matchText": "Union of Lyons", "wikiSlug": "Second_Council_of_Lyon", "type": "concept"},
-    {"term": "Sicilian Vespers", "matchText": "Sicilian Vespers", "wikiSlug": "Sicilian_Vespers", "type": "concept"},
-    {"term": "Charles of Anjou", "matchText": "Charles of Anjou", "wikiSlug": "Charles_of_Anjou", "type": "people"},
-    {"term": "Saladin", "matchText": "Saladin", "wikiSlug": "Saladin", "type": "people"},
-    {"term": "Osman Bey", "matchText": "Osman", "wikiSlug": "Osman_I", "type": "people"},
-    {"term": "Ottoman Beylik", "matchText": "Ottoman Beylik", "wikiSlug": "Ottoman_dynasty", "type": "concept"},
-    {"term": "Pala d'Oro", "matchText": "Pala d'Oro", "wikiSlug": "Pala_d'Oro", "type": "concept"},
-    {"term": "Crown of Thorns", "matchText": "Crown of Thorns", "wikiSlug": "Crown_of_Thorns", "type": "concept"}
+    {
+      "term": "Enrico Dandolo",
+      "matchText": "Enrico Dandolo",
+      "wikiSlug": "Enrico_Dandolo",
+      "type": "people"
+    },
+    {
+      "term": "Zara (Zadar)",
+      "matchText": "Zara",
+      "wikiSlug": "Zadar",
+      "type": "place"
+    },
+    {
+      "term": "Innocent III",
+      "matchText": "Innocent III",
+      "wikiSlug": "Pope_Innocent_III",
+      "type": "people"
+    },
+    {
+      "term": "Boniface of Montferrat",
+      "matchText": "Boniface of Montferrat",
+      "wikiSlug": "Boniface_of_Montferrat",
+      "type": "people"
+    },
+    {
+      "term": "Alexios IV Angelos",
+      "matchText": "Alexios IV Angelos",
+      "wikiSlug": "Alexios_IV_Angelos",
+      "type": "people"
+    },
+    {
+      "term": "Alexios V Mourtzouphlos",
+      "matchText": "Alexios V Mourtzouphlos",
+      "wikiSlug": "Alexios_V_Doukas",
+      "type": "people"
+    },
+    {
+      "term": "Niketas Choniates",
+      "matchText": "Niketas Choniates",
+      "wikiSlug": "Niketas_Choniates",
+      "type": "people"
+    },
+    {
+      "term": "Baldwin of Flanders",
+      "matchText": "Baldwin of Flanders",
+      "wikiSlug": "Baldwin_I_of_Constantinople",
+      "type": "people"
+    },
+    {
+      "term": "Duchy of Athens",
+      "matchText": "Duchy of Athens",
+      "wikiSlug": "Duchy_of_Athens",
+      "type": "concept"
+    },
+    {
+      "term": "Principality of Achaea",
+      "matchText": "Principality of Achaea",
+      "wikiSlug": "Principality_of_Achaea",
+      "type": "concept"
+    },
+    {
+      "term": "Theodore I Laskaris",
+      "matchText": "Theodore I Laskaris",
+      "wikiSlug": "Theodore_I_Laskaris",
+      "type": "people"
+    },
+    {
+      "term": "Empire of Trebizond",
+      "matchText": "Empire of Trebizond",
+      "wikiSlug": "Empire_of_Trebizond",
+      "type": "concept"
+    },
+    {
+      "term": "Despotate of Epirus",
+      "matchText": "Despotate of Epirus",
+      "wikiSlug": "Despotate_of_Epirus",
+      "type": "concept"
+    },
+    {
+      "term": "Michael VIII Palaiologos",
+      "matchText": "Michael VIII Palaiologos",
+      "wikiSlug": "Michael_VIII_Palaiologos",
+      "type": "people"
+    },
+    {
+      "term": "Union of Lyons",
+      "matchText": "Union of Lyons",
+      "wikiSlug": "Second_Council_of_Lyon",
+      "type": "concept"
+    },
+    {
+      "term": "Sicilian Vespers",
+      "matchText": "Sicilian Vespers",
+      "wikiSlug": "Sicilian_Vespers",
+      "type": "concept"
+    },
+    {
+      "term": "Charles of Anjou",
+      "matchText": "Charles of Anjou",
+      "wikiSlug": "Charles_of_Anjou",
+      "type": "people"
+    },
+    {
+      "term": "Saladin",
+      "matchText": "Saladin",
+      "wikiSlug": "Saladin",
+      "type": "people"
+    },
+    {
+      "term": "Osman Bey",
+      "matchText": "Osman",
+      "wikiSlug": "Osman_I",
+      "type": "people"
+    },
+    {
+      "term": "Ottoman Beylik",
+      "matchText": "Ottoman Beylik",
+      "wikiSlug": "Ottoman_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Pala d'Oro",
+      "matchText": "Pala d'Oro",
+      "wikiSlug": "Pala_d'Oro",
+      "type": "concept"
+    },
+    {
+      "term": "Crown of Thorns",
+      "matchText": "Crown of Thorns",
+      "wikiSlug": "Crown_of_Thorns",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Klokotnitsa",
+      "matchText": "Battle of Klokotnitsa",
+      "wikiSlug": "Battle_of_Klokotnitsa",
+      "type": "concept"
+    },
+    {
+      "term": "John III Doukas Vatatzes",
+      "matchText": "John III Doukas Vatatzes",
+      "wikiSlug": "John_III_Doukas_Vatatzes",
+      "type": "people"
+    }
   ],
   "10": [
-    {"term": "Andronikos II Palaiologos", "matchText": "Andronikos II Palaiologos", "wikiSlug": "Andronikos_II_Palaiologos", "type": "people"},
-    {"term": "Galata", "matchText": "Galata", "wikiSlug": "Galata", "type": "place"},
-    {"term": "Almogavars", "matchText": "Almogavars", "wikiSlug": "Almogavars", "type": "people"},
-    {"term": "Roger de Flor", "matchText": "Roger de Flor", "wikiSlug": "Roger_de_Flor", "type": "people"},
-    {"term": "Catalan Vengeance", "matchText": "Catalan Vengeance", "wikiSlug": "Catalan_Company", "type": "concept"},
-    {"term": "Andronikos III", "matchText": "Andronikos III", "wikiSlug": "Andronikos_III_Palaiologos", "type": "people"},
-    {"term": "John V Palaiologos", "matchText": "John V Palaiologos", "wikiSlug": "John_V_Palaiologos", "type": "people"},
-    {"term": "Zealots of Thessalonica", "matchText": "Zealot", "wikiSlug": "Zealots_(Byzantine_party)", "type": "concept"},
-    {"term": "Hesychasm", "matchText": "Hesychasm", "wikiSlug": "Hesychasm", "type": "concept"},
-    {"term": "Jesus Prayer", "matchText": "Jesus Prayer", "wikiSlug": "Jesus_Prayer", "type": "concept"},
-    {"term": "uncreated energies", "matchText": "uncreated energies", "wikiSlug": "Essence%E2%80%93energies_distinction", "type": "concept"},
-    {"term": "Gregory Palamas", "matchText": "Gregory Palamas", "wikiSlug": "Gregory_Palamas", "type": "people"},
-    {"term": "Barlaam of Calabria", "matchText": "Barlaam", "wikiSlug": "Barlaam_of_Seminara", "type": "people"},
-    {"term": "Philokalia", "matchText": "Philokalia", "wikiSlug": "Philokalia", "type": "concept"},
-    {"term": "Gemistos Plethon", "matchText": "Gemistos Plethon", "wikiSlug": "Gemistus_Pletho", "type": "people"},
-    {"term": "Stefan Dusan", "matchText": "Stefan Dušan", "wikiSlug": "Stefan_Du%C5%A1an", "type": "people"},
-    {"term": "Despotate of the Morea", "matchText": "Despotate of the Morea", "wikiSlug": "Despotate_of_the_Morea", "type": "concept"},
-    {"term": "Ottoman vassal", "matchText": "Ottoman vassal", "wikiSlug": "Byzantine%E2%80%93Ottoman_wars", "type": "concept"},
-    {"term": "Battle of Varna", "matchText": "Battle of Varna", "wikiSlug": "Battle_of_Varna_(1444)", "type": "concept"},
-    {"term": "Chora Church", "matchText": "Chora Church", "wikiSlug": "Kariye_Mosque", "type": "place"},
-    {"term": "Timur (Tamerlane)", "matchText": "Tamerlane", "wikiSlug": "Timur", "type": "people"},
-    {"term": "Bayezid I", "matchText": "Bayezid I", "wikiSlug": "Bayezid_I", "type": "people"},
-    {"term": "Black Death", "matchText": "Black Death", "wikiSlug": "Black_Death", "type": "concept"}
+    {
+      "term": "Andronikos II Palaiologos",
+      "matchText": "Andronikos II Palaiologos",
+      "wikiSlug": "Andronikos_II_Palaiologos",
+      "type": "people"
+    },
+    {
+      "term": "Galata",
+      "matchText": "Galata",
+      "wikiSlug": "Galata",
+      "type": "place"
+    },
+    {
+      "term": "Almogavars",
+      "matchText": "Almogavars",
+      "wikiSlug": "Almogavars",
+      "type": "people"
+    },
+    {
+      "term": "Roger de Flor",
+      "matchText": "Roger de Flor",
+      "wikiSlug": "Roger_de_Flor",
+      "type": "people"
+    },
+    {
+      "term": "Catalan Vengeance",
+      "matchText": "Catalan Vengeance",
+      "wikiSlug": "Catalan_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Andronikos III",
+      "matchText": "Andronikos III",
+      "wikiSlug": "Andronikos_III_Palaiologos",
+      "type": "people"
+    },
+    {
+      "term": "John V Palaiologos",
+      "matchText": "John V Palaiologos",
+      "wikiSlug": "John_V_Palaiologos",
+      "type": "people"
+    },
+    {
+      "term": "Zealots of Thessalonica",
+      "matchText": "Zealot",
+      "wikiSlug": "Zealots_(Byzantine_party)",
+      "type": "concept"
+    },
+    {
+      "term": "Hesychasm",
+      "matchText": "Hesychasm",
+      "wikiSlug": "Hesychasm",
+      "type": "concept"
+    },
+    {
+      "term": "Jesus Prayer",
+      "matchText": "Jesus Prayer",
+      "wikiSlug": "Jesus_Prayer",
+      "type": "concept"
+    },
+    {
+      "term": "uncreated energies",
+      "matchText": "uncreated energies",
+      "wikiSlug": "Essence%E2%80%93energies_distinction",
+      "type": "concept"
+    },
+    {
+      "term": "Gregory Palamas",
+      "matchText": "Gregory Palamas",
+      "wikiSlug": "Gregory_Palamas",
+      "type": "people"
+    },
+    {
+      "term": "Barlaam of Calabria",
+      "matchText": "Barlaam",
+      "wikiSlug": "Barlaam_of_Seminara",
+      "type": "people"
+    },
+    {
+      "term": "Philokalia",
+      "matchText": "Philokalia",
+      "wikiSlug": "Philokalia",
+      "type": "concept"
+    },
+    {
+      "term": "Gemistos Plethon",
+      "matchText": "Gemistos Plethon",
+      "wikiSlug": "Gemistus_Pletho",
+      "type": "people"
+    },
+    {
+      "term": "Stefan Dusan",
+      "matchText": "Stefan Dušan",
+      "wikiSlug": "Stefan_Du%C5%A1an",
+      "type": "people"
+    },
+    {
+      "term": "Despotate of the Morea",
+      "matchText": "Despotate of the Morea",
+      "wikiSlug": "Despotate_of_the_Morea",
+      "type": "concept"
+    },
+    {
+      "term": "Ottoman vassal",
+      "matchText": "Ottoman vassal",
+      "wikiSlug": "Byzantine%E2%80%93Ottoman_wars",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Varna",
+      "matchText": "Battle of Varna",
+      "wikiSlug": "Battle_of_Varna_(1444)",
+      "type": "concept"
+    },
+    {
+      "term": "Chora Church",
+      "matchText": "Chora Church",
+      "wikiSlug": "Kariye_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Timur (Tamerlane)",
+      "matchText": "Tamerlane",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Bayezid I",
+      "matchText": "Bayezid I",
+      "wikiSlug": "Bayezid_I",
+      "type": "people"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    },
+    {
+      "term": "Serbian Empire",
+      "matchText": "Serbian Empire",
+      "wikiSlug": "Serbian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Hesychasm",
+      "matchText": "uncreated divine light",
+      "wikiSlug": "Hesychasm",
+      "type": "concept"
+    }
   ],
   "11": [
-    {"term": "John VIII Palaiologos", "matchText": "John VIII Palaiologos", "wikiSlug": "John_VIII_Palaiologos", "type": "people"},
-    {"term": "Bessarion", "matchText": "Bessarion", "wikiSlug": "Bessarion", "type": "people"},
-    {"term": "Mark of Ephesus", "matchText": "Mark of Ephesus", "wikiSlug": "Mark_of_Ephesus", "type": "people"},
-    {"term": "Mehmed II", "matchText": "Mehmed II", "wikiSlug": "Mehmed_II", "type": "people"},
-    {"term": "Rumeli Hisari", "matchText": "Rumeli Hisarı", "wikiSlug": "Rumelihisarı", "type": "place"},
-    {"term": "Orban (cannon founder)", "matchText": "Orban", "wikiSlug": "Orban_(cannon_founder)", "type": "people"},
-    {"term": "Giovanni Giustiniani Longo", "matchText": "Giovanni Giustiniani Longo", "wikiSlug": "Giovanni_Giustiniani", "type": "people"},
-    {"term": "George Sphrantzes", "matchText": "George Sphrantzes", "wikiSlug": "George_Sphrantzes", "type": "people"},
-    {"term": "Janissaries", "matchText": "Janissaries", "wikiSlug": "Janissaries", "type": "concept"},
-    {"term": "devshirme", "matchText": "devshirme", "wikiSlug": "Dev%C5%9Firme", "type": "concept"},
-    {"term": "Loukas Notaras", "matchText": "Loukas Notaras", "wikiSlug": "Loukas_Notaras", "type": "people"},
-    {"term": "Patriarch Gennadios II", "matchText": "Patriarch Gennadios II", "wikiSlug": "Gennadius_II", "type": "people"},
-    {"term": "George Scholarios", "matchText": "George Scholarios", "wikiSlug": "Gennadius_II", "type": "people"},
-    {"term": "Zoe Palaiologina", "matchText": "Zoe Palaiologina", "wikiSlug": "Sophia_Palaiologina", "type": "people"},
-    {"term": "Ivan III of Moscow", "matchText": "Ivan III of Moscow", "wikiSlug": "Ivan_III_of_Russia", "type": "people"},
-    {"term": "Trebiond David Komnenos", "matchText": "David Komnenos", "wikiSlug": "David_Megas_Komnenos", "type": "people"},
-    {"term": "bashi-bazouks", "matchText": "bashi-bazouks", "wikiSlug": "Bashi-bazouk", "type": "concept"},
-    {"term": "Saint Romanus Gate", "matchText": "Saint Romanus Gate", "wikiSlug": "Saint_Romanus_Gate", "type": "place"}
+    {
+      "term": "John VIII Palaiologos",
+      "matchText": "John VIII Palaiologos",
+      "wikiSlug": "John_VIII_Palaiologos",
+      "type": "people"
+    },
+    {
+      "term": "Bessarion",
+      "matchText": "Bessarion",
+      "wikiSlug": "Bessarion",
+      "type": "people"
+    },
+    {
+      "term": "Mark of Ephesus",
+      "matchText": "Mark of Ephesus",
+      "wikiSlug": "Mark_of_Ephesus",
+      "type": "people"
+    },
+    {
+      "term": "Mehmed II",
+      "matchText": "Mehmed II",
+      "wikiSlug": "Mehmed_II",
+      "type": "people"
+    },
+    {
+      "term": "Rumeli Hisari",
+      "matchText": "Rumeli Hisarı",
+      "wikiSlug": "Rumelihisarı",
+      "type": "place"
+    },
+    {
+      "term": "Orban (cannon founder)",
+      "matchText": "Orban",
+      "wikiSlug": "Orban_(cannon_founder)",
+      "type": "people"
+    },
+    {
+      "term": "Giovanni Giustiniani Longo",
+      "matchText": "Giovanni Giustiniani Longo",
+      "wikiSlug": "Giovanni_Giustiniani",
+      "type": "people"
+    },
+    {
+      "term": "George Sphrantzes",
+      "matchText": "George Sphrantzes",
+      "wikiSlug": "George_Sphrantzes",
+      "type": "people"
+    },
+    {
+      "term": "Janissaries",
+      "matchText": "Janissaries",
+      "wikiSlug": "Janissaries",
+      "type": "concept"
+    },
+    {
+      "term": "devshirme",
+      "matchText": "devshirme",
+      "wikiSlug": "Dev%C5%9Firme",
+      "type": "concept"
+    },
+    {
+      "term": "Loukas Notaras",
+      "matchText": "Loukas Notaras",
+      "wikiSlug": "Loukas_Notaras",
+      "type": "people"
+    },
+    {
+      "term": "Patriarch Gennadios II",
+      "matchText": "Patriarch Gennadios II",
+      "wikiSlug": "Gennadius_II",
+      "type": "people"
+    },
+    {
+      "term": "George Scholarios",
+      "matchText": "George Scholarios",
+      "wikiSlug": "Gennadius_II",
+      "type": "people"
+    },
+    {
+      "term": "Zoe Palaiologina",
+      "matchText": "Zoe Palaiologina",
+      "wikiSlug": "Sophia_Palaiologina",
+      "type": "people"
+    },
+    {
+      "term": "Ivan III of Moscow",
+      "matchText": "Ivan III of Moscow",
+      "wikiSlug": "Ivan_III_of_Russia",
+      "type": "people"
+    },
+    {
+      "term": "Trebiond David Komnenos",
+      "matchText": "David Komnenos",
+      "wikiSlug": "David_Megas_Komnenos",
+      "type": "people"
+    },
+    {
+      "term": "bashi-bazouks",
+      "matchText": "bashi-bazouks",
+      "wikiSlug": "Bashi-bazouk",
+      "type": "concept"
+    },
+    {
+      "term": "Saint Romanus Gate",
+      "matchText": "Saint Romanus Gate",
+      "wikiSlug": "Saint_Romanus_Gate",
+      "type": "place"
+    },
+    {
+      "term": "Filioque",
+      "matchText": "Filioque",
+      "wikiSlug": "Filioque",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Varna",
+      "matchText": "Battle of Varna",
+      "wikiSlug": "Battle_of_Varna",
+      "type": "concept"
+    },
+    {
+      "term": "John Hunyadi",
+      "matchText": "John Hunyadi",
+      "wikiSlug": "John_Hunyadi",
+      "type": "people"
+    },
+    {
+      "term": "Despotate of the Morea",
+      "matchText": "Despotate of the Morea",
+      "wikiSlug": "Despotate_of_the_Morea",
+      "type": "concept"
+    },
+    {
+      "term": "Empire of Trebizond",
+      "matchText": "Trebizond",
+      "wikiSlug": "Empire_of_Trebizond",
+      "type": "concept"
+    }
   ],
   "12": [
-    {"term": "Manuel Chrysoloras", "matchText": "Manuel Chrysoloras", "wikiSlug": "Manuel_Chrysoloras", "type": "people"},
-    {"term": "Biblioteca Marciana", "matchText": "Biblioteca Marciana", "wikiSlug": "Biblioteca_Nazionale_Marciana", "type": "place"},
-    {"term": "Florentine Platonic Academy", "matchText": "Florentine Platonic Academy", "wikiSlug": "Platonic_Academy_(Florence)", "type": "concept"},
-    {"term": "Marsilio Ficino", "matchText": "Marsilio Ficino", "wikiSlug": "Marsilio_Ficino", "type": "people"},
-    {"term": "Aldus Manutius", "matchText": "Aldus Manutius", "wikiSlug": "Aldus_Manutius", "type": "people"},
-    {"term": "Rum millet", "matchText": "Rum millet", "wikiSlug": "Millet_(Ottoman_Empire)", "type": "concept"},
-    {"term": "Tsar", "matchText": "Tsar", "wikiSlug": "Tsar", "type": "concept"},
-    {"term": "Patriarchate of Moscow", "matchText": "Patriarchate of Moscow", "wikiSlug": "Russian_Orthodox_Church", "type": "concept"},
-    {"term": "Philotheus of Pskov", "matchText": "Philotheus of Pskov", "wikiSlug": "Filofei", "type": "people"},
-    {"term": "double-headed eagle", "matchText": "double-headed eagle", "wikiSlug": "Double-headed_eagle", "type": "concept"},
-    {"term": "Mimar Sinan", "matchText": "Mimar Sinan", "wikiSlug": "Mimar_Sinan", "type": "people"},
-    {"term": "Critobulus of Imbros", "matchText": "Critobulus of Imbros", "wikiSlug": "Critobulus", "type": "people"},
-    {"term": "Kayser-i Rum", "matchText": "Kayser-i Rûm", "wikiSlug": "Caesar_of_Rome_(Ottoman)", "type": "concept"},
-    {"term": "Greek-Turkish population exchange", "matchText": "Greek-Turkish population exchange", "wikiSlug": "Convention_Concerning_the_Exchange_of_Greek_and_Turkish_Populations", "type": "concept"},
-    {"term": "autocephalous", "matchText": "autocephalous", "wikiSlug": "Autocephaly", "type": "concept"},
-    {"term": "Cosimo de Medici", "matchText": "Cosimo de' Medici", "wikiSlug": "Cosimo_de'_Medici", "type": "people"},
-    {"term": "John Argyropoulos", "matchText": "John Argyropoulos", "wikiSlug": "John_Argyropoulos", "type": "people"},
-    {"term": "Demetrius Chalcondyles", "matchText": "Demetrius Chalcondyles", "wikiSlug": "Demetrius_Chalcondyles", "type": "people"}
+    {
+      "term": "Manuel Chrysoloras",
+      "matchText": "Manuel Chrysoloras",
+      "wikiSlug": "Manuel_Chrysoloras",
+      "type": "people"
+    },
+    {
+      "term": "Biblioteca Marciana",
+      "matchText": "Biblioteca Marciana",
+      "wikiSlug": "Biblioteca_Nazionale_Marciana",
+      "type": "place"
+    },
+    {
+      "term": "Florentine Platonic Academy",
+      "matchText": "Florentine Platonic Academy",
+      "wikiSlug": "Platonic_Academy_(Florence)",
+      "type": "concept"
+    },
+    {
+      "term": "Marsilio Ficino",
+      "matchText": "Marsilio Ficino",
+      "wikiSlug": "Marsilio_Ficino",
+      "type": "people"
+    },
+    {
+      "term": "Aldus Manutius",
+      "matchText": "Aldus Manutius",
+      "wikiSlug": "Aldus_Manutius",
+      "type": "people"
+    },
+    {
+      "term": "Rum millet",
+      "matchText": "Rum millet",
+      "wikiSlug": "Millet_(Ottoman_Empire)",
+      "type": "concept"
+    },
+    {
+      "term": "Tsar",
+      "matchText": "Tsar",
+      "wikiSlug": "Tsar",
+      "type": "concept"
+    },
+    {
+      "term": "Patriarchate of Moscow",
+      "matchText": "Patriarchate of Moscow",
+      "wikiSlug": "Russian_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Philotheus of Pskov",
+      "matchText": "Philotheus of Pskov",
+      "wikiSlug": "Filofei",
+      "type": "people"
+    },
+    {
+      "term": "double-headed eagle",
+      "matchText": "double-headed eagle",
+      "wikiSlug": "Double-headed_eagle",
+      "type": "concept"
+    },
+    {
+      "term": "Mimar Sinan",
+      "matchText": "Mimar Sinan",
+      "wikiSlug": "Mimar_Sinan",
+      "type": "people"
+    },
+    {
+      "term": "Critobulus of Imbros",
+      "matchText": "Critobulus of Imbros",
+      "wikiSlug": "Critobulus",
+      "type": "people"
+    },
+    {
+      "term": "Kayser-i Rum",
+      "matchText": "Kayser-i Rûm",
+      "wikiSlug": "Caesar_of_Rome_(Ottoman)",
+      "type": "concept"
+    },
+    {
+      "term": "Greek-Turkish population exchange",
+      "matchText": "Greek-Turkish population exchange",
+      "wikiSlug": "Convention_Concerning_the_Exchange_of_Greek_and_Turkish_Populations",
+      "type": "concept"
+    },
+    {
+      "term": "autocephalous",
+      "matchText": "autocephalous",
+      "wikiSlug": "Autocephaly",
+      "type": "concept"
+    },
+    {
+      "term": "Cosimo de Medici",
+      "matchText": "Cosimo de' Medici",
+      "wikiSlug": "Cosimo_de'_Medici",
+      "type": "people"
+    },
+    {
+      "term": "John Argyropoulos",
+      "matchText": "John Argyropoulos",
+      "wikiSlug": "John_Argyropoulos",
+      "type": "people"
+    },
+    {
+      "term": "Demetrius Chalcondyles",
+      "matchText": "Demetrius Chalcondyles",
+      "wikiSlug": "Demetrius_Chalcondyles",
+      "type": "people"
+    },
+    {
+      "term": "Third Rome",
+      "matchText": "Third Rome",
+      "wikiSlug": "Third_Rome",
+      "type": "concept"
+    },
+    {
+      "term": "Sophia Palaiologina",
+      "matchText": "Zoe Palaiologina",
+      "wikiSlug": "Sophia_Palaiologina",
+      "type": "people"
+    },
+    {
+      "term": "Ivan III of Russia",
+      "matchText": "Ivan III of Moscow",
+      "wikiSlug": "Ivan_III_of_Russia",
+      "type": "people"
+    },
+    {
+      "term": "Gennadius Scholarius",
+      "matchText": "Patriarch Gennadios II",
+      "wikiSlug": "Gennadius_Scholarius",
+      "type": "people"
+    }
   ]
 }

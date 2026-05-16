@@ -29,6 +29,24 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The barbarian migrations that shattered the western empire in the fifth century are the central drama of Ancient Rome's final chapter. From Byzantium's perspective these were events happening in a peripheral region — painful to watch but not fatal to the eastern court, which had better walls, more money, and shorter frontiers."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Byzantium did not begin — it continued. This is the Roman Empire after the western half fell, Greek-speaking, Christian, and still calling itself Roman."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "For three centuries the Sassanid Persian Empire was Byzantium's mirror-rival — two superpowers bleeding each other white until Islam swallowed one and gutted the other."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "The story ends in 1453 when an Ottoman cannon breaches the Theodosian Walls — but the Ottomans would also inherit and continue much of the Byzantine imperial template."
     }
   ],
   "2": [
@@ -55,6 +73,30 @@
       "targetTl": "phoenicia",
       "targetChapter": 4,
       "blurb": "Tyrian purple was a Phoenician invention — the city of Tyre had built its wealth on murex-dye workshops that produced the color no plant could match. Byzantine emperors inherited the Phoenician craft wholesale, including the workshops, the terminology, and the social rules reserving purple for royal use. When Byzantium fell, the formula for the deepest purple was lost."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Justinian's reconquest aimed to restore the empire of Augustus — Italy, Africa, the Mediterranean as a Roman lake — for the last time it would ever be attempted."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 5,
+      "blurb": "Justinian's monks smuggled silkworms out of the East, breaking China's monopoly — the same sericulture secret a Chinese civilization had guarded for millennia."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "Byzantine purple — the imperial dye — was the Phoenician murex industry, still running on the same Levantine coast two thousand years on."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "The Hagia Sophia Justinian raised would become, nine centuries later, the model and the mosque of the Ottoman sultans."
     }
   ],
   "3": [
@@ -87,6 +129,18 @@
       "targetTl": "gokturk-khaganate",
       "targetChapter": 4,
       "blurb": "The Western Turks Heraclius allied with were the western half of the Gokturk Khaganate — the same Turkic confederation that had earlier sent the embassy of Zemarchus to Justin II in 569 CE, opening the first direct diplomatic relationship between Constantinople and the steppe. From the Byzantine side it was a tactical alliance against Persia. From the Gokturk side it was one front in a global diplomacy that ran simultaneously to the Sasanian, Sui-Tang, and Sogdian commercial worlds."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 12,
+      "blurb": "The Arab conquest stripped Byzantium of Syria and Egypt in a decade — the same Mesopotamian-Levantine heartland that had been civilization's core since Sumer."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 6,
+      "blurb": "The theme system — soldier-farmers holding land for service — prefigured the logic the Ottomans would systematize in the timar and devshirme."
     }
   ],
   "4": [
@@ -175,6 +229,12 @@
       "targetTl": "kievan-rus",
       "targetChapter": 6,
       "blurb": "The rebellion was Bardas Phokas's revolt of the Anatolian military aristocracy, and it nearly cost Basil II his throne. The 6,000 Rus' and Varangian warriors Vladimir sent crushed it — which is precisely why Basil conceded the unprecedented gift of a porphyrogenita (born-in-the-purple) bride. Told from the Rus' side, the Kievan Rus' narrative makes this rescue, and the coercion behind it, the hinge of the 988 conversion."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 6,
+      "blurb": "The Macedonian emperors' court ceremonial and administrative machine is the apparatus the Ottomans would later absorb almost wholesale."
     }
   ],
   "6": [
@@ -233,6 +293,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The Great Schism formalized a separation that had been building since the fifth century — when Latin Rome and Greek Constantinople had begun developing distinct liturgical practices, distinct theological sensibilities, and distinct political relationships. The Schism of 1054 transformed what had been a family quarrel into two permanently separate Christian communions."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "The Komnenian restoration faced a new eastern enemy — the Seljuk Turks — where the Sassanid Persians had once stood, the eastern frontier never quiet for long."
     }
   ],
   "8": [
@@ -305,6 +371,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "Kosovo (1389) eliminated the Serbian kingdom that had been Byzantium's most powerful Balkan neighbor and most dangerous potential rival. Stefan Dušan had briefly threatened to absorb Byzantium entirely; his successor state was too weak to resist the Ottomans but also too strong to be a Byzantine satellite. The same Ottoman expansion that was squeezing Constantinople was simultaneously destroying every other Balkan power that might have helped it survive."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "The Palaiologan twilight is Rome's longest sunset — Constantine's Christian capital surviving 1,100 years after he founded it, now a city-state pretending to be an empire."
     }
   ],
   "11": [
@@ -351,6 +423,12 @@
       "targetTl": "hittite-empire",
       "targetChapter": 8,
       "blurb": "The Anatolian Greeks expelled in 1923 were the last remnant of a Greek-speaking presence in western Anatolia that predated even the Hittites. Greek colonies at Miletus, Ephesus, and Smyrna had been established by the eighth century BCE — over 2,700 years before the expulsion. The Greek-Turkish population exchange ended one of the longest continuous civilizational presences in any region on Earth."
+    },
+    {
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 8,
+      "blurb": "Byzantium's afterlife — its law, liturgy, and 'Third Rome' idea passing to Russia — is the deepest example of an empire outliving itself through inheritance, like Hatti's echoes in Iron Age Anatolia."
     }
   ]
 }
