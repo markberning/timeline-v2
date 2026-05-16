@@ -80,40 +80,12 @@ export default async function CivilizationPage({ params }: PageProps) {
         {currentTl?.subtitle && (
           <p className="text-[14px] text-foreground/55 mt-1 italic font-[family-name:var(--font-lora)] pl-[16.5px]">{currentTl.subtitle}</p>
         )}
-        {chain && pos && pos.index !== -1 && (
-          <div className="flex items-center justify-between text-[13px] text-foreground/40 mt-3 mb-6">
-            <div>
-              {prevTl ? (
-                prevTl.hasContent ? (
-                  <a href={`/${prevId}`} className="hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
-                    ← {prevTl.label}
-                  </a>
-                ) : (
-                  <span className="opacity-50">← {prevTl.label}</span>
-                )
-              ) : (
-                <span className="italic opacity-50">{chain.shortLabel} chain</span>
-              )}
-            </div>
-            <div>
-              {nextTl ? (
-                nextTl.hasContent ? (
-                  <a href={`/${nextId}`} className="hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
-                    {nextTl.label} →
-                  </a>
-                ) : (
-                  <span className="opacity-50">{nextTl.label} →</span>
-                )
-              ) : (
-                <span className="italic opacity-50">{chain.shortLabel} chain</span>
-              )}
-            </div>
-          </div>
-        )}
-        {(!chain || !pos || pos.index === -1) && <div className="mb-6" />}
+        {/* Chain prev/next now lives permanently in the pinned
+            CollapsingCivBar above, so it isn't duplicated here. */}
+        <div className="mb-6" />
 
         {/* Marks the end of the scrollaway hero — when this passes under the
-            sticky nav, CollapsingCivBar expands. */}
+            sticky nav, the civ name fades into CollapsingCivBar. */}
         <div data-civ-hero-end aria-hidden="true" className="h-0" />
 
         <NarrativeReader civilizationId={civilizationId} chapters={narrative.chapters} events={narrative.events} glossary={narrative.glossary ?? []} crossLinks={narrative.crossLinks ?? []} />
