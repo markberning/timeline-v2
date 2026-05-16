@@ -1,297 +1,1584 @@
 {
   "1": [
-    {"term": "Arnold Toynbee", "matchText": "Arnold Toynbee", "wikiSlug": "Arnold_Toynbee", "type": "person"},
-    {"term": "Great Divergence", "matchText": "the Great Divergence", "wikiSlug": "Great_Divergence", "type": "concept"},
-    {"term": "Royal Society", "matchText": "the Royal Society", "wikiSlug": "Royal_Society", "type": "organization"},
-    {"term": "Scottish Enlightenment", "matchText": "the Scottish Enlightenment", "wikiSlug": "Scottish_Enlightenment", "type": "concept"},
-    {"term": "Adam Smith", "matchText": "Adam Smith", "wikiSlug": "Adam_Smith", "type": "person"},
-    {"term": "Wealth of Nations", "matchText": "Wealth of Nations", "wikiSlug": "The_Wealth_of_Nations", "type": "work"},
-    {"term": "Spinning jenny", "matchText": "the spinning jenny", "wikiSlug": "Spinning_jenny", "type": "technology"},
-    {"term": "Pax Romana", "matchText": "the Pax Romana", "wikiSlug": "Pax_Romana", "type": "concept"},
-    {"term": "David Hume", "matchText": "David Hume", "wikiSlug": "David_Hume", "type": "person"},
-    {"term": "Factory", "matchText": "A factory", "wikiSlug": "Factory", "type": "concept"},
-    {"term": "Coal", "matchText": "burning coal", "wikiSlug": "Coal", "type": "concept"}
+    {
+      "term": "Arnold Toynbee",
+      "matchText": "Arnold Toynbee",
+      "wikiSlug": "Arnold_Toynbee",
+      "type": "person"
+    },
+    {
+      "term": "Great Divergence",
+      "matchText": "the Great Divergence",
+      "wikiSlug": "Great_Divergence",
+      "type": "concept"
+    },
+    {
+      "term": "Royal Society",
+      "matchText": "the Royal Society",
+      "wikiSlug": "Royal_Society",
+      "type": "organization"
+    },
+    {
+      "term": "Scottish Enlightenment",
+      "matchText": "the Scottish Enlightenment",
+      "wikiSlug": "Scottish_Enlightenment",
+      "type": "concept"
+    },
+    {
+      "term": "Adam Smith",
+      "matchText": "Adam Smith",
+      "wikiSlug": "Adam_Smith",
+      "type": "person"
+    },
+    {
+      "term": "Wealth of Nations",
+      "matchText": "Wealth of Nations",
+      "wikiSlug": "The_Wealth_of_Nations",
+      "type": "work"
+    },
+    {
+      "term": "Spinning jenny",
+      "matchText": "the spinning jenny",
+      "wikiSlug": "Spinning_jenny",
+      "type": "technology"
+    },
+    {
+      "term": "Pax Romana",
+      "matchText": "the Pax Romana",
+      "wikiSlug": "Pax_Romana",
+      "type": "concept"
+    },
+    {
+      "term": "David Hume",
+      "matchText": "David Hume",
+      "wikiSlug": "David_Hume",
+      "type": "person"
+    },
+    {
+      "term": "Factory",
+      "matchText": "A factory",
+      "wikiSlug": "Factory",
+      "type": "concept"
+    },
+    {
+      "term": "Coal",
+      "matchText": "burning coal",
+      "wikiSlug": "Coal",
+      "type": "concept"
+    }
   ],
   "2": [
-    {"term": "Agricultural Revolution", "matchText": "the Agricultural Revolution", "wikiSlug": "British_Agricultural_Revolution", "type": "concept"},
-    {"term": "Robert Bakewell", "matchText": "Robert Bakewell", "wikiSlug": "Robert_Bakewell_(agriculturalist)", "type": "person"},
-    {"term": "Enclosure", "matchText": "enclosure", "wikiSlug": "Enclosure", "type": "concept"},
-    {"term": "Robert Allen", "matchText": "Robert Allen", "wikiSlug": "Robert_C._Allen", "type": "person"},
-    {"term": "High-wage economy thesis", "matchText": "the high-wage economy", "wikiSlug": "High_wage_economy", "type": "concept"},
-    {"term": "Patent system", "matchText": "a patent system", "wikiSlug": "History_of_patent_law", "type": "concept"},
-    {"term": "Proto-industrialization", "matchText": "proto-industrialization", "wikiSlug": "Proto-industrialization", "type": "concept"},
-    {"term": "Four-field crop rotation", "matchText": "four-field crop rotation", "wikiSlug": "Crop_rotation", "type": "concept"},
-    {"term": "Richard Arkwright", "matchText": "Richard Arkwright", "wikiSlug": "Richard_Arkwright", "type": "person"},
-    {"term": "James Watt", "matchText": "James Watt", "wikiSlug": "James_Watt", "type": "person"},
-    {"term": "Joint-stock company", "matchText": "joint-stock companies", "wikiSlug": "Joint-stock_company", "type": "concept"}
+    {
+      "term": "Agricultural Revolution",
+      "matchText": "the Agricultural Revolution",
+      "wikiSlug": "British_Agricultural_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Robert Bakewell",
+      "matchText": "Robert Bakewell",
+      "wikiSlug": "Robert_Bakewell_(agriculturalist)",
+      "type": "person"
+    },
+    {
+      "term": "Enclosure",
+      "matchText": "enclosure",
+      "wikiSlug": "Enclosure",
+      "type": "concept"
+    },
+    {
+      "term": "Robert Allen",
+      "matchText": "Robert Allen",
+      "wikiSlug": "Robert_C._Allen",
+      "type": "person"
+    },
+    {
+      "term": "High-wage economy thesis",
+      "matchText": "the high-wage economy",
+      "wikiSlug": "High_wage_economy",
+      "type": "concept"
+    },
+    {
+      "term": "Patent system",
+      "matchText": "a patent system",
+      "wikiSlug": "History_of_patent_law",
+      "type": "concept"
+    },
+    {
+      "term": "Proto-industrialization",
+      "matchText": "proto-industrialization",
+      "wikiSlug": "Proto-industrialization",
+      "type": "concept"
+    },
+    {
+      "term": "Four-field crop rotation",
+      "matchText": "four-field crop rotation",
+      "wikiSlug": "Crop_rotation",
+      "type": "concept"
+    },
+    {
+      "term": "Richard Arkwright",
+      "matchText": "Richard Arkwright",
+      "wikiSlug": "Richard_Arkwright",
+      "type": "person"
+    },
+    {
+      "term": "James Watt",
+      "matchText": "James Watt",
+      "wikiSlug": "James_Watt",
+      "type": "person"
+    },
+    {
+      "term": "Joint-stock company",
+      "matchText": "joint-stock companies",
+      "wikiSlug": "Joint-stock_company",
+      "type": "concept"
+    }
   ],
   "3": [
-    {"term": "Spinning", "matchText": "spinning", "wikiSlug": "Spinning_(textiles)", "type": "technology"},
-    {"term": "Loom", "matchText": "a loom", "wikiSlug": "Loom", "type": "technology"},
-    {"term": "Proto-industrialization", "matchText": "is called proto-industrialization", "wikiSlug": "Proto-industrialization", "type": "concept"},
-    {"term": "John Kay", "matchText": "John Kay", "wikiSlug": "John_Kay_(flying_shuttle)", "type": "person"},
-    {"term": "Flying shuttle", "matchText": "the flying shuttle", "wikiSlug": "Flying_shuttle", "type": "technology"},
-    {"term": "James Hargreaves", "matchText": "James Hargreaves", "wikiSlug": "James_Hargreaves", "type": "person"},
-    {"term": "Spinning jenny", "matchText": "the spinning jenny", "wikiSlug": "Spinning_jenny", "type": "technology"},
-    {"term": "Water frame", "matchText": "the water frame", "wikiSlug": "Water_frame", "type": "technology"},
-    {"term": "Samuel Crompton", "matchText": "Samuel Crompton", "wikiSlug": "Samuel_Crompton", "type": "person"},
-    {"term": "Spinning mule", "matchText": "the spinning mule", "wikiSlug": "Spinning_mule", "type": "technology"},
-    {"term": "Cromford", "matchText": "Cromford", "wikiSlug": "Cromford", "type": "place"},
-    {"term": "Manchester", "matchText": "One Lancashire town, Manchester", "wikiSlug": "Manchester", "type": "place"},
-    {"term": "Cotton gin", "matchText": "the cotton gin", "wikiSlug": "Cotton_gin", "type": "technology"},
-    {"term": "Eli Whitney", "matchText": "Eli Whitney", "wikiSlug": "Eli_Whitney", "type": "person"},
-    {"term": "Power loom", "matchText": "the power loom", "wikiSlug": "Power_loom", "type": "technology"}
+    {
+      "term": "Spinning",
+      "matchText": "spinning",
+      "wikiSlug": "Spinning_(textiles)",
+      "type": "technology"
+    },
+    {
+      "term": "Loom",
+      "matchText": "a loom",
+      "wikiSlug": "Loom",
+      "type": "technology"
+    },
+    {
+      "term": "Proto-industrialization",
+      "matchText": "is called proto-industrialization",
+      "wikiSlug": "Proto-industrialization",
+      "type": "concept"
+    },
+    {
+      "term": "John Kay",
+      "matchText": "John Kay",
+      "wikiSlug": "John_Kay_(flying_shuttle)",
+      "type": "person"
+    },
+    {
+      "term": "Flying shuttle",
+      "matchText": "the flying shuttle",
+      "wikiSlug": "Flying_shuttle",
+      "type": "technology"
+    },
+    {
+      "term": "James Hargreaves",
+      "matchText": "James Hargreaves",
+      "wikiSlug": "James_Hargreaves",
+      "type": "person"
+    },
+    {
+      "term": "Spinning jenny",
+      "matchText": "the spinning jenny",
+      "wikiSlug": "Spinning_jenny",
+      "type": "technology"
+    },
+    {
+      "term": "Water frame",
+      "matchText": "the water frame",
+      "wikiSlug": "Water_frame",
+      "type": "technology"
+    },
+    {
+      "term": "Samuel Crompton",
+      "matchText": "Samuel Crompton",
+      "wikiSlug": "Samuel_Crompton",
+      "type": "person"
+    },
+    {
+      "term": "Spinning mule",
+      "matchText": "the spinning mule",
+      "wikiSlug": "Spinning_mule",
+      "type": "technology"
+    },
+    {
+      "term": "Cromford",
+      "matchText": "Cromford",
+      "wikiSlug": "Cromford",
+      "type": "place"
+    },
+    {
+      "term": "Manchester",
+      "matchText": "One Lancashire town, Manchester",
+      "wikiSlug": "Manchester",
+      "type": "place"
+    },
+    {
+      "term": "Cotton gin",
+      "matchText": "the cotton gin",
+      "wikiSlug": "Cotton_gin",
+      "type": "technology"
+    },
+    {
+      "term": "Eli Whitney",
+      "matchText": "Eli Whitney",
+      "wikiSlug": "Eli_Whitney",
+      "type": "person"
+    },
+    {
+      "term": "Power loom",
+      "matchText": "the power loom",
+      "wikiSlug": "Power_loom",
+      "type": "technology"
+    }
   ],
   "4": [
-    {"term": "Steam engine", "matchText": "the steam engine", "wikiSlug": "Steam_engine", "type": "technology"},
-    {"term": "Thomas Savery", "matchText": "Thomas Savery", "wikiSlug": "Thomas_Savery", "type": "person"},
-    {"term": "Thomas Newcomen", "matchText": "Thomas Newcomen", "wikiSlug": "Thomas_Newcomen", "type": "person"},
-    {"term": "Newcomen engine", "matchText": "The Newcomen engine", "wikiSlug": "Newcomen_atmospheric_engine", "type": "technology"},
-    {"term": "James Watt", "matchText": "James Watt", "wikiSlug": "James_Watt", "type": "person"},
-    {"term": "Separate condenser", "matchText": "the separate condenser", "wikiSlug": "Watt_steam_engine", "type": "technology"},
-    {"term": "Matthew Boulton", "matchText": "Matthew Boulton", "wikiSlug": "Matthew_Boulton", "type": "person"},
-    {"term": "Boulton & Watt", "matchText": "Boulton & Watt", "wikiSlug": "Boulton_and_Watt", "type": "organization"},
-    {"term": "Rotary motion", "matchText": "smooth rotary motion", "wikiSlug": "Rotary_motion", "type": "technology"},
-    {"term": "Horsepower", "matchText": "the horsepower", "wikiSlug": "Horsepower", "type": "concept"},
-    {"term": "University of Glasgow", "matchText": "the University of Glasgow", "wikiSlug": "University_of_Glasgow", "type": "organization"},
-    {"term": "John Roebuck", "matchText": "the ironmaster John Roebuck", "wikiSlug": "John_Roebuck", "type": "person"}
+    {
+      "term": "Steam engine",
+      "matchText": "the steam engine",
+      "wikiSlug": "Steam_engine",
+      "type": "technology"
+    },
+    {
+      "term": "Thomas Savery",
+      "matchText": "Thomas Savery",
+      "wikiSlug": "Thomas_Savery",
+      "type": "person"
+    },
+    {
+      "term": "Thomas Newcomen",
+      "matchText": "Thomas Newcomen",
+      "wikiSlug": "Thomas_Newcomen",
+      "type": "person"
+    },
+    {
+      "term": "Newcomen engine",
+      "matchText": "The Newcomen engine",
+      "wikiSlug": "Newcomen_atmospheric_engine",
+      "type": "technology"
+    },
+    {
+      "term": "James Watt",
+      "matchText": "James Watt",
+      "wikiSlug": "James_Watt",
+      "type": "person"
+    },
+    {
+      "term": "Separate condenser",
+      "matchText": "the separate condenser",
+      "wikiSlug": "Watt_steam_engine",
+      "type": "technology"
+    },
+    {
+      "term": "Matthew Boulton",
+      "matchText": "Matthew Boulton",
+      "wikiSlug": "Matthew_Boulton",
+      "type": "person"
+    },
+    {
+      "term": "Boulton & Watt",
+      "matchText": "Boulton & Watt",
+      "wikiSlug": "Boulton_and_Watt",
+      "type": "organization"
+    },
+    {
+      "term": "Rotary motion",
+      "matchText": "smooth rotary motion",
+      "wikiSlug": "Rotary_motion",
+      "type": "technology"
+    },
+    {
+      "term": "Horsepower",
+      "matchText": "the horsepower",
+      "wikiSlug": "Horsepower",
+      "type": "concept"
+    },
+    {
+      "term": "University of Glasgow",
+      "matchText": "the University of Glasgow",
+      "wikiSlug": "University_of_Glasgow",
+      "type": "organization"
+    },
+    {
+      "term": "John Roebuck",
+      "matchText": "the ironmaster John Roebuck",
+      "wikiSlug": "John_Roebuck",
+      "type": "person"
+    }
   ],
   "5": [
-    {"term": "Black Country", "matchText": "the Black Country", "wikiSlug": "Black_Country", "type": "place"},
-    {"term": "Charcoal smelting", "matchText": "iron had been smelted from its ore using charcoal", "wikiSlug": "Bloomery", "type": "technology"},
-    {"term": "Coalbrookdale", "matchText": "Coalbrookdale", "wikiSlug": "Coalbrookdale", "type": "place"},
-    {"term": "Abraham Darby", "matchText": "Abraham Darby", "wikiSlug": "Abraham_Darby_I", "type": "person"},
-    {"term": "Coke (fuel)", "matchText": "smelting iron using coke", "wikiSlug": "Coke_(fuel)", "type": "technology"},
-    {"term": "Cast iron", "matchText": "brittle cast iron", "wikiSlug": "Cast_iron", "type": "technology"},
-    {"term": "Wrought iron", "matchText": "tough, malleable wrought iron", "wikiSlug": "Wrought_iron", "type": "technology"},
-    {"term": "Henry Cort", "matchText": "Henry Cort", "wikiSlug": "Henry_Cort", "type": "person"},
-    {"term": "Puddling process", "matchText": "the puddling process", "wikiSlug": "Puddling_(metallurgy)", "type": "technology"},
-    {"term": "Firedamp", "matchText": "firedamp", "wikiSlug": "Firedamp", "type": "concept"},
-    {"term": "Humphry Davy", "matchText": "Humphry Davy", "wikiSlug": "Humphry_Davy", "type": "person"},
-    {"term": "Safety lamp", "matchText": "the safety lamp", "wikiSlug": "Davy_lamp", "type": "technology"},
-    {"term": "Machine tool", "matchText": "the machine tool", "wikiSlug": "Machine_tool", "type": "technology"},
-    {"term": "Henry Maudslay", "matchText": "Henry Maudslay", "wikiSlug": "Henry_Maudslay", "type": "person"},
-    {"term": "Joseph Whitworth", "matchText": "Joseph Whitworth", "wikiSlug": "Joseph_Whitworth", "type": "person"},
-    {"term": "Iron Bridge", "matchText": "the world's first great iron bridge", "wikiSlug": "The_Iron_Bridge", "type": "place"},
-    {"term": "River Severn", "matchText": "the gorge of the River Severn", "wikiSlug": "River_Severn", "type": "place"}
+    {
+      "term": "Black Country",
+      "matchText": "the Black Country",
+      "wikiSlug": "Black_Country",
+      "type": "place"
+    },
+    {
+      "term": "Charcoal smelting",
+      "matchText": "iron had been smelted from its ore using charcoal",
+      "wikiSlug": "Bloomery",
+      "type": "technology"
+    },
+    {
+      "term": "Coalbrookdale",
+      "matchText": "Coalbrookdale",
+      "wikiSlug": "Coalbrookdale",
+      "type": "place"
+    },
+    {
+      "term": "Abraham Darby",
+      "matchText": "Abraham Darby",
+      "wikiSlug": "Abraham_Darby_I",
+      "type": "person"
+    },
+    {
+      "term": "Coke (fuel)",
+      "matchText": "smelting iron using coke",
+      "wikiSlug": "Coke_(fuel)",
+      "type": "technology"
+    },
+    {
+      "term": "Cast iron",
+      "matchText": "brittle cast iron",
+      "wikiSlug": "Cast_iron",
+      "type": "technology"
+    },
+    {
+      "term": "Wrought iron",
+      "matchText": "tough, malleable wrought iron",
+      "wikiSlug": "Wrought_iron",
+      "type": "technology"
+    },
+    {
+      "term": "Henry Cort",
+      "matchText": "Henry Cort",
+      "wikiSlug": "Henry_Cort",
+      "type": "person"
+    },
+    {
+      "term": "Puddling process",
+      "matchText": "the puddling process",
+      "wikiSlug": "Puddling_(metallurgy)",
+      "type": "technology"
+    },
+    {
+      "term": "Firedamp",
+      "matchText": "firedamp",
+      "wikiSlug": "Firedamp",
+      "type": "concept"
+    },
+    {
+      "term": "Humphry Davy",
+      "matchText": "Humphry Davy",
+      "wikiSlug": "Humphry_Davy",
+      "type": "person"
+    },
+    {
+      "term": "Safety lamp",
+      "matchText": "the safety lamp",
+      "wikiSlug": "Davy_lamp",
+      "type": "technology"
+    },
+    {
+      "term": "Machine tool",
+      "matchText": "the machine tool",
+      "wikiSlug": "Machine_tool",
+      "type": "technology"
+    },
+    {
+      "term": "Henry Maudslay",
+      "matchText": "Henry Maudslay",
+      "wikiSlug": "Henry_Maudslay",
+      "type": "person"
+    },
+    {
+      "term": "Joseph Whitworth",
+      "matchText": "Joseph Whitworth",
+      "wikiSlug": "Joseph_Whitworth",
+      "type": "person"
+    },
+    {
+      "term": "Iron Bridge",
+      "matchText": "the world's first great iron bridge",
+      "wikiSlug": "The_Iron_Bridge",
+      "type": "place"
+    },
+    {
+      "term": "River Severn",
+      "matchText": "the gorge of the River Severn",
+      "wikiSlug": "River_Severn",
+      "type": "place"
+    }
   ],
   "6": [
-    {"term": "Time discipline", "matchText": "time discipline", "wikiSlug": "Industrial_discipline", "type": "concept"},
-    {"term": "Workhouse", "matchText": "pauper apprentices", "wikiSlug": "Workhouse", "type": "organization"},
-    {"term": "Saint Monday", "matchText": "Saint Monday", "wikiSlug": "Saint_Monday", "type": "concept"},
-    {"term": "Robert Owen", "matchText": "Robert Owen", "wikiSlug": "Robert_Owen", "type": "person"},
-    {"term": "New Lanark", "matchText": "New Lanark", "wikiSlug": "New_Lanark", "type": "place"},
-    {"term": "New Harmony, Indiana", "matchText": "New Harmony in Indiana", "wikiSlug": "New_Harmony,_Indiana", "type": "place"},
-    {"term": "Owenites", "matchText": "the Owenites", "wikiSlug": "Owenism", "type": "organization"},
-    {"term": "Michael Sadler", "matchText": "Michael Sadler", "wikiSlug": "Michael_Thomas_Sadler", "type": "person"},
-    {"term": "Cottage industry", "matchText": "the pre-industrial worker", "wikiSlug": "Cottage_industry", "type": "concept"},
-    {"term": "John Locke", "matchText": "on Locke and the blank slate", "wikiSlug": "John_Locke", "type": "person"},
-    {"term": "Industrial Revolution child labour", "matchText": "cotton dust, crawling under running machinery", "wikiSlug": "Child_labour_in_the_Industrial_Revolution", "type": "concept"}
+    {
+      "term": "Time discipline",
+      "matchText": "time discipline",
+      "wikiSlug": "Industrial_discipline",
+      "type": "concept"
+    },
+    {
+      "term": "Workhouse",
+      "matchText": "pauper apprentices",
+      "wikiSlug": "Workhouse",
+      "type": "organization"
+    },
+    {
+      "term": "Saint Monday",
+      "matchText": "Saint Monday",
+      "wikiSlug": "Saint_Monday",
+      "type": "concept"
+    },
+    {
+      "term": "Robert Owen",
+      "matchText": "Robert Owen",
+      "wikiSlug": "Robert_Owen",
+      "type": "person"
+    },
+    {
+      "term": "New Lanark",
+      "matchText": "New Lanark",
+      "wikiSlug": "New_Lanark",
+      "type": "place"
+    },
+    {
+      "term": "New Harmony, Indiana",
+      "matchText": "New Harmony in Indiana",
+      "wikiSlug": "New_Harmony,_Indiana",
+      "type": "place"
+    },
+    {
+      "term": "Owenites",
+      "matchText": "the Owenites",
+      "wikiSlug": "Owenism",
+      "type": "organization"
+    },
+    {
+      "term": "Michael Sadler",
+      "matchText": "Michael Sadler",
+      "wikiSlug": "Michael_Thomas_Sadler",
+      "type": "person"
+    },
+    {
+      "term": "Cottage industry",
+      "matchText": "the pre-industrial worker",
+      "wikiSlug": "Cottage_industry",
+      "type": "concept"
+    },
+    {
+      "term": "John Locke",
+      "matchText": "on Locke and the blank slate",
+      "wikiSlug": "John_Locke",
+      "type": "person"
+    },
+    {
+      "term": "Industrial Revolution child labour",
+      "matchText": "cotton dust, crawling under running machinery",
+      "wikiSlug": "Child_labour_in_the_Industrial_Revolution",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "Turnpike trust", "matchText": "the turnpike trusts", "wikiSlug": "Turnpike_trust", "type": "organization"},
-    {"term": "Thomas Telford", "matchText": "Thomas Telford", "wikiSlug": "Thomas_Telford", "type": "person"},
-    {"term": "John McAdam", "matchText": "John McAdam", "wikiSlug": "John_Loudon_McAdam", "type": "person"},
-    {"term": "Duke of Bridgewater", "matchText": "the Duke of Bridgewater", "wikiSlug": "Francis_Egerton,_1st_Duke_of_Bridgewater", "type": "person"},
-    {"term": "James Brindley", "matchText": "the engineer James Brindley", "wikiSlug": "James_Brindley", "type": "person"},
-    {"term": "Bridgewater Canal", "matchText": "The Bridgewater Canal", "wikiSlug": "Bridgewater_Canal", "type": "place"},
-    {"term": "Canal Mania", "matchText": "Canal Mania", "wikiSlug": "Canal_Mania", "type": "event"},
-    {"term": "Navvy", "matchText": "itinerant labourers called navvies", "wikiSlug": "Navvy", "type": "concept"},
-    {"term": "River Irwell", "matchText": "the valley of the River Irwell", "wikiSlug": "River_Irwell", "type": "place"},
-    {"term": "Macadam (road surface)", "matchText": "macadam", "wikiSlug": "Macadam", "type": "technology"},
-    {"term": "Worsley", "matchText": "his pits at Worsley", "wikiSlug": "Worsley", "type": "place"}
+    {
+      "term": "Turnpike trust",
+      "matchText": "the turnpike trusts",
+      "wikiSlug": "Turnpike_trust",
+      "type": "organization"
+    },
+    {
+      "term": "Thomas Telford",
+      "matchText": "Thomas Telford",
+      "wikiSlug": "Thomas_Telford",
+      "type": "person"
+    },
+    {
+      "term": "John McAdam",
+      "matchText": "John McAdam",
+      "wikiSlug": "John_Loudon_McAdam",
+      "type": "person"
+    },
+    {
+      "term": "Duke of Bridgewater",
+      "matchText": "the Duke of Bridgewater",
+      "wikiSlug": "Francis_Egerton,_1st_Duke_of_Bridgewater",
+      "type": "person"
+    },
+    {
+      "term": "James Brindley",
+      "matchText": "the engineer James Brindley",
+      "wikiSlug": "James_Brindley",
+      "type": "person"
+    },
+    {
+      "term": "Bridgewater Canal",
+      "matchText": "The Bridgewater Canal",
+      "wikiSlug": "Bridgewater_Canal",
+      "type": "place"
+    },
+    {
+      "term": "Canal Mania",
+      "matchText": "Canal Mania",
+      "wikiSlug": "Canal_Mania",
+      "type": "event"
+    },
+    {
+      "term": "Navvy",
+      "matchText": "itinerant labourers called navvies",
+      "wikiSlug": "Navvy",
+      "type": "concept"
+    },
+    {
+      "term": "River Irwell",
+      "matchText": "the valley of the River Irwell",
+      "wikiSlug": "River_Irwell",
+      "type": "place"
+    },
+    {
+      "term": "Macadam (road surface)",
+      "matchText": "macadam",
+      "wikiSlug": "Macadam",
+      "type": "technology"
+    },
+    {
+      "term": "Worsley",
+      "matchText": "his pits at Worsley",
+      "wikiSlug": "Worsley",
+      "type": "place"
+    }
   ],
   "8": [
-    {"term": "Richard Trevithick", "matchText": "Richard Trevithick", "wikiSlug": "Richard_Trevithick", "type": "person"},
-    {"term": "George Stephenson", "matchText": "George Stephenson", "wikiSlug": "George_Stephenson", "type": "person"},
-    {"term": "Stockton and Darlington Railway", "matchText": "Stockton & Darlington Railway", "wikiSlug": "Stockton_and_Darlington_Railway", "type": "organization"},
-    {"term": "Rainhill Trials", "matchText": "the Rainhill Trials", "wikiSlug": "Rainhill_Trials", "type": "event"},
-    {"term": "Rocket (locomotive)", "matchText": "the Rocket", "wikiSlug": "Stephenson's_Rocket", "type": "technology"},
-    {"term": "Liverpool and Manchester Railway", "matchText": "The Liverpool & Manchester Railway", "wikiSlug": "Liverpool_and_Manchester_Railway", "type": "organization"},
-    {"term": "William Huskisson", "matchText": "William Huskisson", "wikiSlug": "William_Huskisson", "type": "person"},
-    {"term": "Railway Mania", "matchText": "Railway Mania", "wikiSlug": "Railway_Mania", "type": "event"},
-    {"term": "Isambard Kingdom Brunel", "matchText": "Isambard Kingdom Brunel", "wikiSlug": "Isambard_Kingdom_Brunel", "type": "person"},
-    {"term": "Great Western Railway", "matchText": "the Great Western Railway", "wikiSlug": "Great_Western_Railway", "type": "organization"},
-    {"term": "Railway time", "matchText": "railway time", "wikiSlug": "Railway_time", "type": "concept"}
+    {
+      "term": "Richard Trevithick",
+      "matchText": "Richard Trevithick",
+      "wikiSlug": "Richard_Trevithick",
+      "type": "person"
+    },
+    {
+      "term": "George Stephenson",
+      "matchText": "George Stephenson",
+      "wikiSlug": "George_Stephenson",
+      "type": "person"
+    },
+    {
+      "term": "Stockton and Darlington Railway",
+      "matchText": "Stockton & Darlington Railway",
+      "wikiSlug": "Stockton_and_Darlington_Railway",
+      "type": "organization"
+    },
+    {
+      "term": "Rainhill Trials",
+      "matchText": "the Rainhill Trials",
+      "wikiSlug": "Rainhill_Trials",
+      "type": "event"
+    },
+    {
+      "term": "Rocket (locomotive)",
+      "matchText": "the Rocket",
+      "wikiSlug": "Stephenson's_Rocket",
+      "type": "technology"
+    },
+    {
+      "term": "Liverpool and Manchester Railway",
+      "matchText": "The Liverpool & Manchester Railway",
+      "wikiSlug": "Liverpool_and_Manchester_Railway",
+      "type": "organization"
+    },
+    {
+      "term": "William Huskisson",
+      "matchText": "William Huskisson",
+      "wikiSlug": "William_Huskisson",
+      "type": "person"
+    },
+    {
+      "term": "Railway Mania",
+      "matchText": "Railway Mania",
+      "wikiSlug": "Railway_Mania",
+      "type": "event"
+    },
+    {
+      "term": "Isambard Kingdom Brunel",
+      "matchText": "Isambard Kingdom Brunel",
+      "wikiSlug": "Isambard_Kingdom_Brunel",
+      "type": "person"
+    },
+    {
+      "term": "Great Western Railway",
+      "matchText": "the Great Western Railway",
+      "wikiSlug": "Great_Western_Railway",
+      "type": "organization"
+    },
+    {
+      "term": "Railway time",
+      "matchText": "railway time",
+      "wikiSlug": "Railway_time",
+      "type": "concept"
+    }
   ],
   "9": [
-    {"term": "Adam Smith", "matchText": "Adam Smith", "wikiSlug": "Adam_Smith", "type": "person"},
-    {"term": "Division of labour", "matchText": "the division of labour", "wikiSlug": "Division_of_labour", "type": "concept"},
-    {"term": "Laissez-faire", "matchText": "laissez-faire", "wikiSlug": "Laissez-faire", "type": "concept"},
-    {"term": "David Ricardo", "matchText": "David Ricardo", "wikiSlug": "David_Ricardo", "type": "person"},
-    {"term": "Comparative advantage", "matchText": "comparative advantage", "wikiSlug": "Comparative_advantage", "type": "concept"},
-    {"term": "Free trade", "matchText": "free trade", "wikiSlug": "Free_trade", "type": "concept"},
-    {"term": "Corn Laws", "matchText": "the Corn Laws", "wikiSlug": "Corn_Laws", "type": "event"},
-    {"term": "Anti-Corn Law League", "matchText": "the Anti-Corn Law League", "wikiSlug": "Anti-Corn_Law_League", "type": "organization"},
-    {"term": "Richard Cobden", "matchText": "Richard Cobden", "wikiSlug": "Richard_Cobden", "type": "person"},
-    {"term": "John Bright", "matchText": "John Bright", "wikiSlug": "John_Bright", "type": "person"},
-    {"term": "Irish Famine", "matchText": "the Irish Famine", "wikiSlug": "Great_Famine_(Ireland)", "type": "event"},
-    {"term": "Robert Peel", "matchText": "the Prime Minister Robert Peel", "wikiSlug": "Robert_Peel", "type": "person"},
-    {"term": "Great Exhibition of 1851", "matchText": "the Great Exhibition of 1851", "wikiSlug": "Great_Exhibition", "type": "event"},
-    {"term": "Crystal Palace", "matchText": "the Crystal Palace", "wikiSlug": "Crystal_Palace", "type": "place"},
-    {"term": "Joseph Paxton", "matchText": "Joseph Paxton", "wikiSlug": "Joseph_Paxton", "type": "person"}
+    {
+      "term": "Adam Smith",
+      "matchText": "Adam Smith",
+      "wikiSlug": "Adam_Smith",
+      "type": "person"
+    },
+    {
+      "term": "Division of labour",
+      "matchText": "the division of labour",
+      "wikiSlug": "Division_of_labour",
+      "type": "concept"
+    },
+    {
+      "term": "Laissez-faire",
+      "matchText": "laissez-faire",
+      "wikiSlug": "Laissez-faire",
+      "type": "concept"
+    },
+    {
+      "term": "David Ricardo",
+      "matchText": "David Ricardo",
+      "wikiSlug": "David_Ricardo",
+      "type": "person"
+    },
+    {
+      "term": "Comparative advantage",
+      "matchText": "comparative advantage",
+      "wikiSlug": "Comparative_advantage",
+      "type": "concept"
+    },
+    {
+      "term": "Free trade",
+      "matchText": "free trade",
+      "wikiSlug": "Free_trade",
+      "type": "concept"
+    },
+    {
+      "term": "Corn Laws",
+      "matchText": "the Corn Laws",
+      "wikiSlug": "Corn_Laws",
+      "type": "event"
+    },
+    {
+      "term": "Anti-Corn Law League",
+      "matchText": "the Anti-Corn Law League",
+      "wikiSlug": "Anti-Corn_Law_League",
+      "type": "organization"
+    },
+    {
+      "term": "Richard Cobden",
+      "matchText": "Richard Cobden",
+      "wikiSlug": "Richard_Cobden",
+      "type": "person"
+    },
+    {
+      "term": "John Bright",
+      "matchText": "John Bright",
+      "wikiSlug": "John_Bright",
+      "type": "person"
+    },
+    {
+      "term": "Irish Famine",
+      "matchText": "the Irish Famine",
+      "wikiSlug": "Great_Famine_(Ireland)",
+      "type": "event"
+    },
+    {
+      "term": "Robert Peel",
+      "matchText": "the Prime Minister Robert Peel",
+      "wikiSlug": "Robert_Peel",
+      "type": "person"
+    },
+    {
+      "term": "Great Exhibition of 1851",
+      "matchText": "the Great Exhibition of 1851",
+      "wikiSlug": "Great_Exhibition",
+      "type": "event"
+    },
+    {
+      "term": "Crystal Palace",
+      "matchText": "the Crystal Palace",
+      "wikiSlug": "Crystal_Palace",
+      "type": "place"
+    },
+    {
+      "term": "Joseph Paxton",
+      "matchText": "Joseph Paxton",
+      "wikiSlug": "Joseph_Paxton",
+      "type": "person"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing Dynasty",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    }
   ],
   "10": [
-    {"term": "Back-to-back house", "matchText": "back-to-back houses", "wikiSlug": "Back-to-back_house", "type": "concept"},
-    {"term": "Friedrich Engels", "matchText": "Friedrich Engels", "wikiSlug": "Friedrich_Engels", "type": "person"},
-    {"term": "The Condition of the Working Class in England", "matchText": "The Condition of the Working Class in England", "wikiSlug": "The_Condition_of_the_Working_Class_in_England", "type": "work"},
-    {"term": "Cholera", "matchText": "cholera", "wikiSlug": "Cholera", "type": "concept"},
-    {"term": "John Snow", "matchText": "John Snow", "wikiSlug": "John_Snow", "type": "person"},
-    {"term": "Epidemiology", "matchText": "a founding moment of modern epidemiology", "wikiSlug": "Epidemiology", "type": "concept"},
-    {"term": "Edwin Chadwick", "matchText": "Edwin Chadwick", "wikiSlug": "Edwin_Chadwick", "type": "person"},
-    {"term": "Public Health Act 1848", "matchText": "the first Public Health Act in 1848", "wikiSlug": "Public_Health_Act_1848", "type": "event"},
-    {"term": "Great Stink", "matchText": "the Great Stink of 1858", "wikiSlug": "Great_Stink", "type": "event"},
-    {"term": "Joseph Bazalgette", "matchText": "Joseph Bazalgette", "wikiSlug": "Joseph_Bazalgette", "type": "person"},
-    {"term": "Standard-of-living debate", "matchText": "the standard-of-living question", "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation", "type": "concept"},
-    {"term": "Leeds", "matchText": "Manchester, Leeds, Glasgow", "wikiSlug": "Leeds", "type": "place"}
+    {
+      "term": "Back-to-back house",
+      "matchText": "back-to-back houses",
+      "wikiSlug": "Back-to-back_house",
+      "type": "concept"
+    },
+    {
+      "term": "Friedrich Engels",
+      "matchText": "Friedrich Engels",
+      "wikiSlug": "Friedrich_Engels",
+      "type": "person"
+    },
+    {
+      "term": "The Condition of the Working Class in England",
+      "matchText": "The Condition of the Working Class in England",
+      "wikiSlug": "The_Condition_of_the_Working_Class_in_England",
+      "type": "work"
+    },
+    {
+      "term": "Cholera",
+      "matchText": "cholera",
+      "wikiSlug": "Cholera",
+      "type": "concept"
+    },
+    {
+      "term": "John Snow",
+      "matchText": "John Snow",
+      "wikiSlug": "John_Snow",
+      "type": "person"
+    },
+    {
+      "term": "Epidemiology",
+      "matchText": "a founding moment of modern epidemiology",
+      "wikiSlug": "Epidemiology",
+      "type": "concept"
+    },
+    {
+      "term": "Edwin Chadwick",
+      "matchText": "Edwin Chadwick",
+      "wikiSlug": "Edwin_Chadwick",
+      "type": "person"
+    },
+    {
+      "term": "Public Health Act 1848",
+      "matchText": "the first Public Health Act in 1848",
+      "wikiSlug": "Public_Health_Act_1848",
+      "type": "event"
+    },
+    {
+      "term": "Great Stink",
+      "matchText": "the Great Stink of 1858",
+      "wikiSlug": "Great_Stink",
+      "type": "event"
+    },
+    {
+      "term": "Joseph Bazalgette",
+      "matchText": "Joseph Bazalgette",
+      "wikiSlug": "Joseph_Bazalgette",
+      "type": "person"
+    },
+    {
+      "term": "Standard-of-living debate",
+      "matchText": "the standard-of-living question",
+      "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation",
+      "type": "concept"
+    },
+    {
+      "term": "Leeds",
+      "matchText": "Manchester, Leeds, Glasgow",
+      "wikiSlug": "Leeds",
+      "type": "place"
+    }
   ],
   "11": [
-    {"term": "Luddite", "matchText": "The original Luddites", "wikiSlug": "Luddite", "type": "concept"},
-    {"term": "Ned Ludd", "matchText": "a youth named Ned Ludd", "wikiSlug": "Ned_Ludd", "type": "person"},
-    {"term": "Lord Byron", "matchText": "the poet Lord Byron", "wikiSlug": "Lord_Byron", "type": "person"},
-    {"term": "Peterloo Massacre", "matchText": "the Peterloo Massacre", "wikiSlug": "Peterloo_Massacre", "type": "event"},
-    {"term": "Six Acts", "matchText": "the Six Acts", "wikiSlug": "Six_Acts", "type": "event"},
-    {"term": "Swing Riots", "matchText": "the Swing Riots", "wikiSlug": "Captain_Swing", "type": "event"},
-    {"term": "Combination Acts", "matchText": "the Combination Acts", "wikiSlug": "Combination_Acts_1799_and_1800", "type": "event"},
-    {"term": "Tolpuddle Martyrs", "matchText": "The Tolpuddle Martyrs", "wikiSlug": "Tolpuddle_Martyrs", "type": "event"},
-    {"term": "Transportation (punishment)", "matchText": "sentenced to transportation", "wikiSlug": "Penal_transportation", "type": "concept"},
-    {"term": "Handloom weavers", "matchText": "the handloom weavers", "wikiSlug": "Handloom_weavers'_misery", "type": "concept"},
-    {"term": "St Peter's Field", "matchText": "St Peter's Field in Manchester", "wikiSlug": "St._Peter%27s_Field,_Manchester", "type": "place"},
-    {"term": "Battle of Waterloo", "matchText": "the recent battle of Waterloo", "wikiSlug": "Battle_of_Waterloo", "type": "event"}
+    {
+      "term": "Luddite",
+      "matchText": "The original Luddites",
+      "wikiSlug": "Luddite",
+      "type": "concept"
+    },
+    {
+      "term": "Ned Ludd",
+      "matchText": "a youth named Ned Ludd",
+      "wikiSlug": "Ned_Ludd",
+      "type": "person"
+    },
+    {
+      "term": "Lord Byron",
+      "matchText": "the poet Lord Byron",
+      "wikiSlug": "Lord_Byron",
+      "type": "person"
+    },
+    {
+      "term": "Peterloo Massacre",
+      "matchText": "the Peterloo Massacre",
+      "wikiSlug": "Peterloo_Massacre",
+      "type": "event"
+    },
+    {
+      "term": "Six Acts",
+      "matchText": "the Six Acts",
+      "wikiSlug": "Six_Acts",
+      "type": "event"
+    },
+    {
+      "term": "Swing Riots",
+      "matchText": "the Swing Riots",
+      "wikiSlug": "Captain_Swing",
+      "type": "event"
+    },
+    {
+      "term": "Combination Acts",
+      "matchText": "the Combination Acts",
+      "wikiSlug": "Combination_Acts_1799_and_1800",
+      "type": "event"
+    },
+    {
+      "term": "Tolpuddle Martyrs",
+      "matchText": "The Tolpuddle Martyrs",
+      "wikiSlug": "Tolpuddle_Martyrs",
+      "type": "event"
+    },
+    {
+      "term": "Transportation (punishment)",
+      "matchText": "sentenced to transportation",
+      "wikiSlug": "Penal_transportation",
+      "type": "concept"
+    },
+    {
+      "term": "Handloom weavers",
+      "matchText": "the handloom weavers",
+      "wikiSlug": "Handloom_weavers'_misery",
+      "type": "concept"
+    },
+    {
+      "term": "St Peter's Field",
+      "matchText": "St Peter's Field in Manchester",
+      "wikiSlug": "St._Peter%27s_Field,_Manchester",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Waterloo",
+      "matchText": "the recent battle of Waterloo",
+      "wikiSlug": "Battle_of_Waterloo",
+      "type": "event"
+    }
   ],
   "12": [
-    {"term": "Rotten borough", "matchText": "rotten boroughs", "wikiSlug": "Rotten_and_pocket_boroughs", "type": "concept"},
-    {"term": "Great Reform Act 1832", "matchText": "the Great Reform Act of 1832", "wikiSlug": "Reform_Act_1832", "type": "event"},
-    {"term": "Chartism", "matchText": "Chartism", "wikiSlug": "Chartism", "type": "concept"},
-    {"term": "People's Charter", "matchText": "the People's Charter", "wikiSlug": "People's_Charter", "type": "work"},
-    {"term": "Feargus O'Connor", "matchText": "Feargus O'Connor", "wikiSlug": "Feargus_O'Connor", "type": "person"},
-    {"term": "Northern Star (newspaper)", "matchText": "the Northern Star", "wikiSlug": "Northern_Star_(1837–1852)", "type": "organization"},
-    {"term": "Reform Act 1867", "matchText": "the Reform Acts of 1867 and 1884", "wikiSlug": "Reform_Act_1867", "type": "event"},
-    {"term": "Kennington Common", "matchText": "Kennington Common", "wikiSlug": "Kennington_Park", "type": "place"},
-    {"term": "Secret ballot", "matchText": "the secret ballot in 1872", "wikiSlug": "Ballot_Act_1872", "type": "event"}
+    {
+      "term": "Rotten borough",
+      "matchText": "rotten boroughs",
+      "wikiSlug": "Rotten_and_pocket_boroughs",
+      "type": "concept"
+    },
+    {
+      "term": "Great Reform Act 1832",
+      "matchText": "the Great Reform Act of 1832",
+      "wikiSlug": "Reform_Act_1832",
+      "type": "event"
+    },
+    {
+      "term": "Chartism",
+      "matchText": "Chartism",
+      "wikiSlug": "Chartism",
+      "type": "concept"
+    },
+    {
+      "term": "People's Charter",
+      "matchText": "the People's Charter",
+      "wikiSlug": "People's_Charter",
+      "type": "work"
+    },
+    {
+      "term": "Feargus O'Connor",
+      "matchText": "Feargus O'Connor",
+      "wikiSlug": "Feargus_O'Connor",
+      "type": "person"
+    },
+    {
+      "term": "Northern Star (newspaper)",
+      "matchText": "the Northern Star",
+      "wikiSlug": "Northern_Star_(1837–1852)",
+      "type": "organization"
+    },
+    {
+      "term": "Reform Act 1867",
+      "matchText": "the Reform Acts of 1867 and 1884",
+      "wikiSlug": "Reform_Act_1867",
+      "type": "event"
+    },
+    {
+      "term": "Kennington Common",
+      "matchText": "Kennington Common",
+      "wikiSlug": "Kennington_Park",
+      "type": "place"
+    },
+    {
+      "term": "Secret ballot",
+      "matchText": "the secret ballot in 1872",
+      "wikiSlug": "Ballot_Act_1872",
+      "type": "event"
+    }
   ],
   "13": [
-    {"term": "Parliamentary inquiry", "matchText": "the parliamentary inquiry", "wikiSlug": "Select_committee_(United_Kingdom)", "type": "concept"},
-    {"term": "Michael Sadler", "matchText": "a committee chaired by Michael Sadler", "wikiSlug": "Michael_Thomas_Sadler", "type": "person"},
-    {"term": "Factory Act 1833", "matchText": "the Factory Act of 1833", "wikiSlug": "Factory_Act_1833", "type": "event"},
-    {"term": "Factory inspectors", "matchText": "paid factory inspectors", "wikiSlug": "Factory_Acts", "type": "concept"},
-    {"term": "Mines and Collieries Act 1842", "matchText": "The 1842 Mines and Collieries Act", "wikiSlug": "Mines_and_Collieries_Act_1842", "type": "event"},
-    {"term": "Ten Hours Act", "matchText": "the Ten Hours Act of 1847", "wikiSlug": "Ten_Hours_Act", "type": "event"},
-    {"term": "Evangelical Christianity", "matchText": "evangelical Christianity", "wikiSlug": "Evangelical_Christianity_in_Britain", "type": "concept"},
-    {"term": "Lord Shaftesbury", "matchText": "Lord Shaftesbury", "wikiSlug": "Anthony_Ashley-Cooper,_7th_Earl_of_Shaftesbury", "type": "person"},
-    {"term": "Clapham Sect", "matchText": "The Clapham Sect", "wikiSlug": "Clapham_Sect", "type": "organization"},
-    {"term": "William Wilberforce", "matchText": "William Wilberforce", "wikiSlug": "William_Wilberforce", "type": "person"},
-    {"term": "Charles Dickens", "matchText": "Charles Dickens", "wikiSlug": "Charles_Dickens", "type": "person"},
-    {"term": "Oliver Twist", "matchText": "Oliver Twist", "wikiSlug": "Oliver_Twist", "type": "work"},
-    {"term": "Elizabeth Gaskell", "matchText": "Elizabeth Gaskell", "wikiSlug": "Elizabeth_Gaskell", "type": "person"},
-    {"term": "Thomas Carlyle", "matchText": "Thomas Carlyle", "wikiSlug": "Thomas_Carlyle", "type": "person"},
-    {"term": "Benjamin Disraeli", "matchText": "Benjamin Disraeli", "wikiSlug": "Benjamin_Disraeli", "type": "person"},
-    {"term": "Abolition of the slave trade", "matchText": "the abolition of the British slave trade in 1807", "wikiSlug": "Slave_Trade_Act_1807", "type": "event"}
+    {
+      "term": "Parliamentary inquiry",
+      "matchText": "the parliamentary inquiry",
+      "wikiSlug": "Select_committee_(United_Kingdom)",
+      "type": "concept"
+    },
+    {
+      "term": "Michael Sadler",
+      "matchText": "a committee chaired by Michael Sadler",
+      "wikiSlug": "Michael_Thomas_Sadler",
+      "type": "person"
+    },
+    {
+      "term": "Factory Act 1833",
+      "matchText": "the Factory Act of 1833",
+      "wikiSlug": "Factory_Act_1833",
+      "type": "event"
+    },
+    {
+      "term": "Factory inspectors",
+      "matchText": "paid factory inspectors",
+      "wikiSlug": "Factory_Acts",
+      "type": "concept"
+    },
+    {
+      "term": "Mines and Collieries Act 1842",
+      "matchText": "The 1842 Mines and Collieries Act",
+      "wikiSlug": "Mines_and_Collieries_Act_1842",
+      "type": "event"
+    },
+    {
+      "term": "Ten Hours Act",
+      "matchText": "the Ten Hours Act of 1847",
+      "wikiSlug": "Ten_Hours_Act",
+      "type": "event"
+    },
+    {
+      "term": "Evangelical Christianity",
+      "matchText": "evangelical Christianity",
+      "wikiSlug": "Evangelical_Christianity_in_Britain",
+      "type": "concept"
+    },
+    {
+      "term": "Lord Shaftesbury",
+      "matchText": "Lord Shaftesbury",
+      "wikiSlug": "Anthony_Ashley-Cooper,_7th_Earl_of_Shaftesbury",
+      "type": "person"
+    },
+    {
+      "term": "Clapham Sect",
+      "matchText": "The Clapham Sect",
+      "wikiSlug": "Clapham_Sect",
+      "type": "organization"
+    },
+    {
+      "term": "William Wilberforce",
+      "matchText": "William Wilberforce",
+      "wikiSlug": "William_Wilberforce",
+      "type": "person"
+    },
+    {
+      "term": "Charles Dickens",
+      "matchText": "Charles Dickens",
+      "wikiSlug": "Charles_Dickens",
+      "type": "person"
+    },
+    {
+      "term": "Oliver Twist",
+      "matchText": "Oliver Twist",
+      "wikiSlug": "Oliver_Twist",
+      "type": "work"
+    },
+    {
+      "term": "Elizabeth Gaskell",
+      "matchText": "Elizabeth Gaskell",
+      "wikiSlug": "Elizabeth_Gaskell",
+      "type": "person"
+    },
+    {
+      "term": "Thomas Carlyle",
+      "matchText": "Thomas Carlyle",
+      "wikiSlug": "Thomas_Carlyle",
+      "type": "person"
+    },
+    {
+      "term": "Benjamin Disraeli",
+      "matchText": "Benjamin Disraeli",
+      "wikiSlug": "Benjamin_Disraeli",
+      "type": "person"
+    },
+    {
+      "term": "Abolition of the slave trade",
+      "matchText": "the abolition of the British slave trade in 1807",
+      "wikiSlug": "Slave_Trade_Act_1807",
+      "type": "event"
+    }
   ],
   "14": [
-    {"term": "Thomas Malthus", "matchText": "Thomas Malthus", "wikiSlug": "Thomas_Robert_Malthus", "type": "person"},
-    {"term": "New Poor Law", "matchText": "the New Poor Law of 1834", "wikiSlug": "Poor_Law_Amendment_Act_1834", "type": "event"},
-    {"term": "Irish Famine", "matchText": "the Irish Famine of the 1840s", "wikiSlug": "Great_Famine_(Ireland)", "type": "event"},
-    {"term": "Jeremy Bentham", "matchText": "Jeremy Bentham", "wikiSlug": "Jeremy_Bentham", "type": "person"},
-    {"term": "Utilitarianism", "matchText": "utilitarianism", "wikiSlug": "Utilitarianism", "type": "concept"},
-    {"term": "John Stuart Mill", "matchText": "John Stuart Mill", "wikiSlug": "John_Stuart_Mill", "type": "person"},
-    {"term": "On Liberty", "matchText": "On Liberty", "wikiSlug": "On_Liberty", "type": "work"},
-    {"term": "Rochdale Pioneers", "matchText": "the Rochdale Pioneers", "wikiSlug": "Rochdale_Pioneers", "type": "organization"},
-    {"term": "Karl Marx", "matchText": "Karl Marx", "wikiSlug": "Karl_Marx", "type": "person"},
-    {"term": "Communist Manifesto", "matchText": "the Communist Manifesto", "wikiSlug": "The_Communist_Manifesto", "type": "work"},
-    {"term": "Capital (Marx)", "matchText": "Marx's Capital", "wikiSlug": "Das_Kapital", "type": "work"},
-    {"term": "British Museum", "matchText": "reading in the British Museum", "wikiSlug": "British_Museum", "type": "place"},
-    {"term": "Classical political economy", "matchText": "classical political economy", "wikiSlug": "Classical_economics", "type": "concept"},
-    {"term": "Bengal Famine of 1770", "matchText": "the Bengal Famine of 1770", "wikiSlug": "Bengal_famine_of_1770", "type": "event"},
-    {"term": "Christian socialism", "matchText": "a tradition of Christian socialism", "wikiSlug": "Christian_socialism", "type": "concept"}
+    {
+      "term": "Thomas Malthus",
+      "matchText": "Thomas Malthus",
+      "wikiSlug": "Thomas_Robert_Malthus",
+      "type": "person"
+    },
+    {
+      "term": "New Poor Law",
+      "matchText": "the New Poor Law of 1834",
+      "wikiSlug": "Poor_Law_Amendment_Act_1834",
+      "type": "event"
+    },
+    {
+      "term": "Irish Famine",
+      "matchText": "the Irish Famine of the 1840s",
+      "wikiSlug": "Great_Famine_(Ireland)",
+      "type": "event"
+    },
+    {
+      "term": "Jeremy Bentham",
+      "matchText": "Jeremy Bentham",
+      "wikiSlug": "Jeremy_Bentham",
+      "type": "person"
+    },
+    {
+      "term": "Utilitarianism",
+      "matchText": "utilitarianism",
+      "wikiSlug": "Utilitarianism",
+      "type": "concept"
+    },
+    {
+      "term": "John Stuart Mill",
+      "matchText": "John Stuart Mill",
+      "wikiSlug": "John_Stuart_Mill",
+      "type": "person"
+    },
+    {
+      "term": "On Liberty",
+      "matchText": "On Liberty",
+      "wikiSlug": "On_Liberty",
+      "type": "work"
+    },
+    {
+      "term": "Rochdale Pioneers",
+      "matchText": "the Rochdale Pioneers",
+      "wikiSlug": "Rochdale_Pioneers",
+      "type": "organization"
+    },
+    {
+      "term": "Karl Marx",
+      "matchText": "Karl Marx",
+      "wikiSlug": "Karl_Marx",
+      "type": "person"
+    },
+    {
+      "term": "Communist Manifesto",
+      "matchText": "the Communist Manifesto",
+      "wikiSlug": "The_Communist_Manifesto",
+      "type": "work"
+    },
+    {
+      "term": "Capital (Marx)",
+      "matchText": "Marx's Capital",
+      "wikiSlug": "Das_Kapital",
+      "type": "work"
+    },
+    {
+      "term": "British Museum",
+      "matchText": "reading in the British Museum",
+      "wikiSlug": "British_Museum",
+      "type": "place"
+    },
+    {
+      "term": "Classical political economy",
+      "matchText": "classical political economy",
+      "wikiSlug": "Classical_economics",
+      "type": "concept"
+    },
+    {
+      "term": "Bengal Famine of 1770",
+      "matchText": "the Bengal Famine of 1770",
+      "wikiSlug": "Bengal_famine_of_1770",
+      "type": "event"
+    },
+    {
+      "term": "Christian socialism",
+      "matchText": "a tradition of Christian socialism",
+      "wikiSlug": "Christian_socialism",
+      "type": "concept"
+    }
   ],
   "15": [
-    {"term": "John Cockerill", "matchText": "John Cockerill", "wikiSlug": "John_Cockerill_(industrialist)", "type": "person"},
-    {"term": "Seraing", "matchText": "Seraing", "wikiSlug": "Seraing", "type": "place"},
-    {"term": "Friedrich List", "matchText": "Friedrich List", "wikiSlug": "Friedrich_List", "type": "person"},
-    {"term": "Infant industry argument", "matchText": "infant industries", "wikiSlug": "Infant_industry_argument", "type": "concept"},
-    {"term": "Zollverein", "matchText": "The Zollverein", "wikiSlug": "Zollverein", "type": "organization"},
-    {"term": "Krupp", "matchText": "Krupp", "wikiSlug": "Krupp", "type": "organization"},
-    {"term": "Ruhr", "matchText": "a small Ruhr foundry", "wikiSlug": "Ruhr", "type": "place"},
-    {"term": "Industrial espionage", "matchText": "smuggled drawings, and reverse-engineered machines", "wikiSlug": "Industrial_espionage", "type": "concept"},
-    {"term": "BASF", "matchText": "firms like BASF and Bayer", "wikiSlug": "BASF", "type": "organization"},
-    {"term": "Liège", "matchText": "near Liège", "wikiSlug": "Li%C3%A8ge", "type": "place"}
+    {
+      "term": "John Cockerill",
+      "matchText": "John Cockerill",
+      "wikiSlug": "John_Cockerill_(industrialist)",
+      "type": "person"
+    },
+    {
+      "term": "Seraing",
+      "matchText": "Seraing",
+      "wikiSlug": "Seraing",
+      "type": "place"
+    },
+    {
+      "term": "Friedrich List",
+      "matchText": "Friedrich List",
+      "wikiSlug": "Friedrich_List",
+      "type": "person"
+    },
+    {
+      "term": "Infant industry argument",
+      "matchText": "infant industries",
+      "wikiSlug": "Infant_industry_argument",
+      "type": "concept"
+    },
+    {
+      "term": "Zollverein",
+      "matchText": "The Zollverein",
+      "wikiSlug": "Zollverein",
+      "type": "organization"
+    },
+    {
+      "term": "Krupp",
+      "matchText": "Krupp",
+      "wikiSlug": "Krupp",
+      "type": "organization"
+    },
+    {
+      "term": "Ruhr",
+      "matchText": "a small Ruhr foundry",
+      "wikiSlug": "Ruhr",
+      "type": "place"
+    },
+    {
+      "term": "Industrial espionage",
+      "matchText": "smuggled drawings, and reverse-engineered machines",
+      "wikiSlug": "Industrial_espionage",
+      "type": "concept"
+    },
+    {
+      "term": "BASF",
+      "matchText": "firms like BASF and Bayer",
+      "wikiSlug": "BASF",
+      "type": "organization"
+    },
+    {
+      "term": "Liège",
+      "matchText": "near Liège",
+      "wikiSlug": "Li%C3%A8ge",
+      "type": "place"
+    }
   ],
   "16": [
-    {"term": "Samuel Slater", "matchText": "Samuel Slater", "wikiSlug": "Samuel_Slater", "type": "person"},
-    {"term": "Lowell system", "matchText": "The Lowell system", "wikiSlug": "Lowell_system", "type": "concept"},
-    {"term": "American System of Manufactures", "matchText": "the American System of Manufactures", "wikiSlug": "American_system_of_manufacturing", "type": "concept"},
-    {"term": "Interchangeable parts", "matchText": "they were interchangeable", "wikiSlug": "Interchangeable_parts", "type": "technology"},
-    {"term": "Springfield Armory", "matchText": "Springfield and Harpers Ferry", "wikiSlug": "Springfield_Armory", "type": "place"},
-    {"term": "American Civil War", "matchText": "the American Civil War", "wikiSlug": "American_Civil_War", "type": "event"},
-    {"term": "Lancashire Cotton Famine", "matchText": "the Lancashire Cotton Famine", "wikiSlug": "Cotton_Famine", "type": "event"},
-    {"term": "Henry Ford", "matchText": "Henry Ford's moving assembly line", "wikiSlug": "Henry_Ford", "type": "person"},
-    {"term": "Harpers Ferry", "matchText": "Harpers Ferry", "wikiSlug": "Harpers_Ferry,_West_Virginia", "type": "place"},
-    {"term": "Rhode Island", "matchText": "rebuilt it from memory in Rhode Island", "wikiSlug": "Rhode_Island", "type": "place"},
-    {"term": "Abraham Lincoln", "matchText": "President Lincoln", "wikiSlug": "Abraham_Lincoln", "type": "person"}
+    {
+      "term": "Samuel Slater",
+      "matchText": "Samuel Slater",
+      "wikiSlug": "Samuel_Slater",
+      "type": "person"
+    },
+    {
+      "term": "Lowell system",
+      "matchText": "The Lowell system",
+      "wikiSlug": "Lowell_system",
+      "type": "concept"
+    },
+    {
+      "term": "American System of Manufactures",
+      "matchText": "the American System of Manufactures",
+      "wikiSlug": "American_system_of_manufacturing",
+      "type": "concept"
+    },
+    {
+      "term": "Interchangeable parts",
+      "matchText": "they were interchangeable",
+      "wikiSlug": "Interchangeable_parts",
+      "type": "technology"
+    },
+    {
+      "term": "Springfield Armory",
+      "matchText": "Springfield and Harpers Ferry",
+      "wikiSlug": "Springfield_Armory",
+      "type": "place"
+    },
+    {
+      "term": "American Civil War",
+      "matchText": "the American Civil War",
+      "wikiSlug": "American_Civil_War",
+      "type": "event"
+    },
+    {
+      "term": "Lancashire Cotton Famine",
+      "matchText": "the Lancashire Cotton Famine",
+      "wikiSlug": "Cotton_Famine",
+      "type": "event"
+    },
+    {
+      "term": "Henry Ford",
+      "matchText": "Henry Ford's moving assembly line",
+      "wikiSlug": "Henry_Ford",
+      "type": "person"
+    },
+    {
+      "term": "Harpers Ferry",
+      "matchText": "Harpers Ferry",
+      "wikiSlug": "Harpers_Ferry,_West_Virginia",
+      "type": "place"
+    },
+    {
+      "term": "Rhode Island",
+      "matchText": "rebuilt it from memory in Rhode Island",
+      "wikiSlug": "Rhode_Island",
+      "type": "place"
+    },
+    {
+      "term": "Abraham Lincoln",
+      "matchText": "President Lincoln",
+      "wikiSlug": "Abraham_Lincoln",
+      "type": "person"
+    }
   ],
   "17": [
-    {"term": "First Industrial Revolution", "matchText": "the First Industrial Revolution", "wikiSlug": "Industrial_Revolution", "type": "concept"},
-    {"term": "Second Industrial Revolution", "matchText": "the Second Industrial Revolution", "wikiSlug": "Second_Industrial_Revolution", "type": "concept"},
-    {"term": "Henry Bessemer", "matchText": "Henry Bessemer", "wikiSlug": "Henry_Bessemer", "type": "person"},
-    {"term": "Bessemer process", "matchText": "blowing air through molten iron", "wikiSlug": "Bessemer_process", "type": "technology"},
-    {"term": "Skyscraper", "matchText": "the steel-framed skyscraper", "wikiSlug": "Skyscraper", "type": "concept"},
-    {"term": "William Perkin", "matchText": "William Perkin", "wikiSlug": "William_Henry_Perkin", "type": "person"},
-    {"term": "Synthetic dye", "matchText": "the first artificial dye from coal tar", "wikiSlug": "Mauveine", "type": "technology"},
-    {"term": "Michael Faraday", "matchText": "Michael Faraday", "wikiSlug": "Michael_Faraday", "type": "person"},
-    {"term": "Electromagnetic induction", "matchText": "discovery of electromagnetic induction", "wikiSlug": "Electromagnetic_induction", "type": "concept"},
-    {"term": "Thomas Edison", "matchText": "Thomas Edison", "wikiSlug": "Thomas_Edison", "type": "person"},
-    {"term": "Pearl Street station", "matchText": "his Pearl Street station in Manhattan", "wikiSlug": "Pearl_Street_Station", "type": "place"},
-    {"term": "Nikola Tesla", "matchText": "Nikola Tesla", "wikiSlug": "Nikola_Tesla", "type": "person"},
-    {"term": "George Westinghouse", "matchText": "George Westinghouse", "wikiSlug": "George_Westinghouse", "type": "person"},
-    {"term": "Alternating current", "matchText": "alternating current", "wikiSlug": "Alternating_current", "type": "technology"},
-    {"term": "Internal combustion engine", "matchText": "the internal combustion engine", "wikiSlug": "Internal_combustion_engine", "type": "technology"},
-    {"term": "Karl Benz", "matchText": "Karl Benz", "wikiSlug": "Karl_Benz", "type": "person"},
-    {"term": "Rudolf Diesel", "matchText": "Rudolf Diesel's", "wikiSlug": "Rudolf_Diesel", "type": "person"},
-    {"term": "Thermodynamics", "matchText": "the science of thermodynamics", "wikiSlug": "Thermodynamics", "type": "concept"},
-    {"term": "Nikolaus Otto", "matchText": "Nikolaus Otto's four-stroke engine", "wikiSlug": "Nikolaus_Otto", "type": "person"}
+    {
+      "term": "First Industrial Revolution",
+      "matchText": "the First Industrial Revolution",
+      "wikiSlug": "Industrial_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Second Industrial Revolution",
+      "matchText": "the Second Industrial Revolution",
+      "wikiSlug": "Second_Industrial_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Henry Bessemer",
+      "matchText": "Henry Bessemer",
+      "wikiSlug": "Henry_Bessemer",
+      "type": "person"
+    },
+    {
+      "term": "Bessemer process",
+      "matchText": "blowing air through molten iron",
+      "wikiSlug": "Bessemer_process",
+      "type": "technology"
+    },
+    {
+      "term": "Skyscraper",
+      "matchText": "the steel-framed skyscraper",
+      "wikiSlug": "Skyscraper",
+      "type": "concept"
+    },
+    {
+      "term": "William Perkin",
+      "matchText": "William Perkin",
+      "wikiSlug": "William_Henry_Perkin",
+      "type": "person"
+    },
+    {
+      "term": "Synthetic dye",
+      "matchText": "the first artificial dye from coal tar",
+      "wikiSlug": "Mauveine",
+      "type": "technology"
+    },
+    {
+      "term": "Michael Faraday",
+      "matchText": "Michael Faraday",
+      "wikiSlug": "Michael_Faraday",
+      "type": "person"
+    },
+    {
+      "term": "Electromagnetic induction",
+      "matchText": "discovery of electromagnetic induction",
+      "wikiSlug": "Electromagnetic_induction",
+      "type": "concept"
+    },
+    {
+      "term": "Thomas Edison",
+      "matchText": "Thomas Edison",
+      "wikiSlug": "Thomas_Edison",
+      "type": "person"
+    },
+    {
+      "term": "Pearl Street station",
+      "matchText": "his Pearl Street station in Manhattan",
+      "wikiSlug": "Pearl_Street_Station",
+      "type": "place"
+    },
+    {
+      "term": "Nikola Tesla",
+      "matchText": "Nikola Tesla",
+      "wikiSlug": "Nikola_Tesla",
+      "type": "person"
+    },
+    {
+      "term": "George Westinghouse",
+      "matchText": "George Westinghouse",
+      "wikiSlug": "George_Westinghouse",
+      "type": "person"
+    },
+    {
+      "term": "Alternating current",
+      "matchText": "alternating current",
+      "wikiSlug": "Alternating_current",
+      "type": "technology"
+    },
+    {
+      "term": "Internal combustion engine",
+      "matchText": "the internal combustion engine",
+      "wikiSlug": "Internal_combustion_engine",
+      "type": "technology"
+    },
+    {
+      "term": "Karl Benz",
+      "matchText": "Karl Benz",
+      "wikiSlug": "Karl_Benz",
+      "type": "person"
+    },
+    {
+      "term": "Rudolf Diesel",
+      "matchText": "Rudolf Diesel's",
+      "wikiSlug": "Rudolf_Diesel",
+      "type": "person"
+    },
+    {
+      "term": "Thermodynamics",
+      "matchText": "the science of thermodynamics",
+      "wikiSlug": "Thermodynamics",
+      "type": "concept"
+    },
+    {
+      "term": "Nikolaus Otto",
+      "matchText": "Nikolaus Otto's four-stroke engine",
+      "wikiSlug": "Nikolaus_Otto",
+      "type": "person"
+    }
   ],
   "18": [
-    {"term": "Long Depression", "matchText": "the Long Depression", "wikiSlug": "Long_Depression", "type": "event"},
-    {"term": "Modern corporation", "matchText": "the modern corporation", "wikiSlug": "Corporation", "type": "concept"},
-    {"term": "Joint-stock company", "matchText": "the joint-stock company", "wikiSlug": "Joint-stock_company", "type": "concept"},
-    {"term": "Limited liability", "matchText": "limited liability", "wikiSlug": "Limited_liability", "type": "concept"},
-    {"term": "Vertical integration", "matchText": "vertically integrated", "wikiSlug": "Vertical_integration", "type": "concept"},
-    {"term": "Andrew Carnegie", "matchText": "Andrew Carnegie", "wikiSlug": "Andrew_Carnegie", "type": "person"},
-    {"term": "John D. Rockefeller", "matchText": "John D. Rockefeller", "wikiSlug": "John_D._Rockefeller", "type": "person"},
-    {"term": "Standard Oil", "matchText": "Standard Oil", "wikiSlug": "Standard_Oil", "type": "organization"},
-    {"term": "Antitrust law", "matchText": "the first antitrust law in 1890", "wikiSlug": "Sherman_Antitrust_Act", "type": "event"},
-    {"term": "Frederick Taylor", "matchText": "Frederick Taylor", "wikiSlug": "Frederick_Winslow_Taylor", "type": "person"},
-    {"term": "Scientific management", "matchText": "scientific management", "wikiSlug": "Scientific_management", "type": "concept"},
-    {"term": "Meiji government", "matchText": "the Meiji government", "wikiSlug": "Meiji_Restoration", "type": "event"},
-    {"term": "Zaibatsu", "matchText": "the zaibatsu", "wikiSlug": "Zaibatsu", "type": "organization"},
-    {"term": "Matsukata deflation", "matchText": "the savage Matsukata deflation", "wikiSlug": "Matsukata_Masayoshi", "type": "event"},
-    {"term": "Otto von Bismarck", "matchText": "Bismarck's Germany", "wikiSlug": "Otto_von_Bismarck", "type": "person"},
-    {"term": "Trust (monopoly)", "matchText": "the American trust", "wikiSlug": "Corporate_trust", "type": "concept"}
+    {
+      "term": "Long Depression",
+      "matchText": "the Long Depression",
+      "wikiSlug": "Long_Depression",
+      "type": "event"
+    },
+    {
+      "term": "Modern corporation",
+      "matchText": "the modern corporation",
+      "wikiSlug": "Corporation",
+      "type": "concept"
+    },
+    {
+      "term": "Joint-stock company",
+      "matchText": "the joint-stock company",
+      "wikiSlug": "Joint-stock_company",
+      "type": "concept"
+    },
+    {
+      "term": "Limited liability",
+      "matchText": "limited liability",
+      "wikiSlug": "Limited_liability",
+      "type": "concept"
+    },
+    {
+      "term": "Vertical integration",
+      "matchText": "vertically integrated",
+      "wikiSlug": "Vertical_integration",
+      "type": "concept"
+    },
+    {
+      "term": "Andrew Carnegie",
+      "matchText": "Andrew Carnegie",
+      "wikiSlug": "Andrew_Carnegie",
+      "type": "person"
+    },
+    {
+      "term": "John D. Rockefeller",
+      "matchText": "John D. Rockefeller",
+      "wikiSlug": "John_D._Rockefeller",
+      "type": "person"
+    },
+    {
+      "term": "Standard Oil",
+      "matchText": "Standard Oil",
+      "wikiSlug": "Standard_Oil",
+      "type": "organization"
+    },
+    {
+      "term": "Antitrust law",
+      "matchText": "the first antitrust law in 1890",
+      "wikiSlug": "Sherman_Antitrust_Act",
+      "type": "event"
+    },
+    {
+      "term": "Frederick Taylor",
+      "matchText": "Frederick Taylor",
+      "wikiSlug": "Frederick_Winslow_Taylor",
+      "type": "person"
+    },
+    {
+      "term": "Scientific management",
+      "matchText": "scientific management",
+      "wikiSlug": "Scientific_management",
+      "type": "concept"
+    },
+    {
+      "term": "Meiji government",
+      "matchText": "the Meiji government",
+      "wikiSlug": "Meiji_Restoration",
+      "type": "event"
+    },
+    {
+      "term": "Zaibatsu",
+      "matchText": "the zaibatsu",
+      "wikiSlug": "Zaibatsu",
+      "type": "organization"
+    },
+    {
+      "term": "Matsukata deflation",
+      "matchText": "the savage Matsukata deflation",
+      "wikiSlug": "Matsukata_Masayoshi",
+      "type": "event"
+    },
+    {
+      "term": "Otto von Bismarck",
+      "matchText": "Bismarck's Germany",
+      "wikiSlug": "Otto_von_Bismarck",
+      "type": "person"
+    },
+    {
+      "term": "Trust (monopoly)",
+      "matchText": "the American trust",
+      "wikiSlug": "Corporate_trust",
+      "type": "concept"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    }
   ],
   "19": [
-    {"term": "Mass consumption", "matchText": "the first mass-consumption society", "wikiSlug": "Mass_consumption", "type": "concept"},
-    {"term": "First globalization", "matchText": "the first globalization", "wikiSlug": "Globalization", "type": "concept"},
-    {"term": "Submarine telegraph cable", "matchText": "the submarine telegraph cable", "wikiSlug": "Transatlantic_telegraph_cable", "type": "technology"},
-    {"term": "Gold standard", "matchText": "the international gold standard", "wikiSlug": "Gold_standard", "type": "concept"},
-    {"term": "Demographic transition", "matchText": "the demographic transition", "wikiSlug": "Demographic_transition", "type": "concept"},
-    {"term": "Opium Wars", "matchText": "the Opium Wars", "wikiSlug": "Opium_Wars", "type": "event"},
-    {"term": "Maxim gun", "matchText": "the Maxim gun", "wikiSlug": "Maxim_gun", "type": "technology"},
-    {"term": "Svante Arrhenius", "matchText": "Svante Arrhenius", "wikiSlug": "Svante_Arrhenius", "type": "person"},
-    {"term": "Anthropocene", "matchText": "the Anthropocene", "wikiSlug": "Anthropocene", "type": "concept"},
-    {"term": "Scramble for Africa", "matchText": "carved up nearly the entire continent of Africa", "wikiSlug": "Scramble_for_Africa", "type": "event"},
-    {"term": "Deindustrialization of India", "matchText": "deindustrialized India", "wikiSlug": "Deindustrialisation_in_India", "type": "concept"},
-    {"term": "Quinine", "matchText": "quinine", "wikiSlug": "Quinine", "type": "technology"},
-    {"term": "Climate change", "matchText": "doubling the carbon dioxide in the air would warm the planet", "wikiSlug": "Climate_change", "type": "concept"}
+    {
+      "term": "Mass consumption",
+      "matchText": "the first mass-consumption society",
+      "wikiSlug": "Mass_consumption",
+      "type": "concept"
+    },
+    {
+      "term": "First globalization",
+      "matchText": "the first globalization",
+      "wikiSlug": "Globalization",
+      "type": "concept"
+    },
+    {
+      "term": "Submarine telegraph cable",
+      "matchText": "the submarine telegraph cable",
+      "wikiSlug": "Transatlantic_telegraph_cable",
+      "type": "technology"
+    },
+    {
+      "term": "Gold standard",
+      "matchText": "the international gold standard",
+      "wikiSlug": "Gold_standard",
+      "type": "concept"
+    },
+    {
+      "term": "Demographic transition",
+      "matchText": "the demographic transition",
+      "wikiSlug": "Demographic_transition",
+      "type": "concept"
+    },
+    {
+      "term": "Opium Wars",
+      "matchText": "the Opium Wars",
+      "wikiSlug": "Opium_Wars",
+      "type": "event"
+    },
+    {
+      "term": "Maxim gun",
+      "matchText": "the Maxim gun",
+      "wikiSlug": "Maxim_gun",
+      "type": "technology"
+    },
+    {
+      "term": "Svante Arrhenius",
+      "matchText": "Svante Arrhenius",
+      "wikiSlug": "Svante_Arrhenius",
+      "type": "person"
+    },
+    {
+      "term": "Anthropocene",
+      "matchText": "the Anthropocene",
+      "wikiSlug": "Anthropocene",
+      "type": "concept"
+    },
+    {
+      "term": "Scramble for Africa",
+      "matchText": "carved up nearly the entire continent of Africa",
+      "wikiSlug": "Scramble_for_Africa",
+      "type": "event"
+    },
+    {
+      "term": "Deindustrialization of India",
+      "matchText": "deindustrialized India",
+      "wikiSlug": "Deindustrialisation_in_India",
+      "type": "concept"
+    },
+    {
+      "term": "Quinine",
+      "matchText": "quinine",
+      "wikiSlug": "Quinine",
+      "type": "technology"
+    },
+    {
+      "term": "Climate change",
+      "matchText": "doubling the carbon dioxide in the air would warm the planet",
+      "wikiSlug": "Climate_change",
+      "type": "concept"
+    }
   ],
   "20": [
-    {"term": "California School (economic history)", "matchText": "The California School", "wikiSlug": "California_school_(economic_history)", "type": "concept"},
-    {"term": "Kenneth Pomeranz", "matchText": "Kenneth Pomeranz", "wikiSlug": "Kenneth_Pomeranz", "type": "person"},
-    {"term": "Robert Allen", "matchText": "Robert Allen argues", "wikiSlug": "Robert_C._Allen", "type": "person"},
-    {"term": "Joel Mokyr", "matchText": "Joel Mokyr", "wikiSlug": "Joel_Mokyr", "type": "person"},
-    {"term": "Standard-of-living debate", "matchText": "the standard-of-living debate", "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation", "type": "concept"},
-    {"term": "Yangzi delta", "matchText": "the Yangzi delta", "wikiSlug": "Yangtze_River_Delta", "type": "place"},
-    {"term": "Great Divergence", "matchText": "the Great Divergence of Chapter 1", "wikiSlug": "Great_Divergence", "type": "concept"},
-    {"term": "Welfare state", "matchText": "redistribution and the welfare state", "wikiSlug": "Welfare_state", "type": "concept"}
+    {
+      "term": "California School (economic history)",
+      "matchText": "The California School",
+      "wikiSlug": "California_school_(economic_history)",
+      "type": "concept"
+    },
+    {
+      "term": "Kenneth Pomeranz",
+      "matchText": "Kenneth Pomeranz",
+      "wikiSlug": "Kenneth_Pomeranz",
+      "type": "person"
+    },
+    {
+      "term": "Robert Allen",
+      "matchText": "Robert Allen argues",
+      "wikiSlug": "Robert_C._Allen",
+      "type": "person"
+    },
+    {
+      "term": "Joel Mokyr",
+      "matchText": "Joel Mokyr",
+      "wikiSlug": "Joel_Mokyr",
+      "type": "person"
+    },
+    {
+      "term": "Standard-of-living debate",
+      "matchText": "the standard-of-living debate",
+      "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation",
+      "type": "concept"
+    },
+    {
+      "term": "Yangzi delta",
+      "matchText": "the Yangzi delta",
+      "wikiSlug": "Yangtze_River_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Great Divergence",
+      "matchText": "the Great Divergence of Chapter 1",
+      "wikiSlug": "Great_Divergence",
+      "type": "concept"
+    },
+    {
+      "term": "Welfare state",
+      "matchText": "redistribution and the welfare state",
+      "wikiSlug": "Welfare_state",
+      "type": "concept"
+    }
   ]
 }

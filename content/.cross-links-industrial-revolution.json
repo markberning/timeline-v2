@@ -41,6 +41,30 @@
       "targetTl": "enlightenment",
       "targetChapter": 9,
       "blurb": "Edinburgh and Glasgow in the later 1700s produced David Hume, Adam Smith, and James Watt's intellectual circle in one extraordinary burst — philosophy, economics, and science fused into a culture that thought improvement was both possible and good. Chapter 9 of the Enlightenment covers that Scottish explosion and its connection to the practical, optimistic mindset that would celebrate rather than suppress the industrial inventor."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 20,
+      "blurb": "The Industrial Revolution is where Enlightenment confidence — that nature is a mechanism reason can master — stops being philosophy and starts being factories."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 8,
+      "blurb": "In 1700 Mughal India was the world's manufacturing superpower, producing a quarter of global output in textiles. Why Britain and not India is one of history's hardest questions."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Rome had water power, large workshops, and engineering genius but no industrial take-off — proof that sophistication alone doesn't start a revolution."
+    },
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 16,
+      "blurb": "The steam engine was not a gift of pure science — but the Newtonian conviction that the world is law-governed machinery is its deep cultural precondition."
     }
   ],
   "2": [
@@ -49,6 +73,12 @@
       "targetTl": "mughal-empire",
       "targetChapter": 8,
       "blurb": "The wage-gap argument for why Britain industrialized first depends on the comparison: a Lancashire spinner's wages were many times higher than a Bengal weaver's. Chapter 8 of the Mughal Empire shows what those Bengal weavers actually produced — the finest muslin and cotton cloth in the world — and the commercial sophistication that made them the planet's dominant textile force before the machines arrived."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 8,
+      "blurb": "Britain's preconditions — cheap coal, dear labor, protected markets — are exactly what Mughal India, richer but differently structured, lacked."
     }
   ],
   "3": [
@@ -57,6 +87,12 @@
       "targetTl": "mughal-empire",
       "targetChapter": 8,
       "blurb": "The weavers of Bengal were the world's finest cotton craftspeople — their muslins were so light contemporaries compared them to 'woven air.' Chapter 8 of the Mughal Empire traces the industry that Lancashire's power looms would systematically dismantle, reducing Bengal from the world's greatest textile exporter to a supplier of raw fibre for the mills that had ruined it."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 8,
+      "blurb": "Cotton was the spark, and the cotton was Indian: British industrialization began as import-substitution against Mughal textile supremacy."
     }
   ],
   "5": [
@@ -73,6 +109,12 @@
       "targetTl": "enlightenment",
       "targetChapter": 2,
       "blurb": "The idea that human character is shaped by environment rather than fixed at birth — that people are, as Locke argued, formed by experience — was one of the Enlightenment's most radical exports. Chapter 2 of the Enlightenment covers Locke's blank-slate theory and its political consequences, the same idea Robert Owen absorbed and aimed at the factory, arguing that the industrial poor were made degraded by their conditions, not born that way."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 2,
+      "blurb": "Factory time-discipline — the clock replacing the sun — is the Enlightenment's rationalized order imposed on the human body and day."
     }
   ],
   "9": [
@@ -81,6 +123,12 @@
       "targetTl": "qing-dynasty",
       "targetChapter": 4,
       "blurb": "In 1793 the Qianlong emperor famously dismissed a British diplomatic mission and its industrial goods, declaring that China possessed all things and had no need of British manufactures. Chapter 4 of the Qing Dynasty covers that encounter and the deep confidence — and deep vulnerability — behind it: a court that saw no reason to engage with the industrial world that was about to force its way in."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 10,
+      "blurb": "'The Workshop of the World' is Adam Smith's division of labor realized at national scale — The Wealth of Nations made flesh in Manchester."
     }
   ],
   "13": [
@@ -89,6 +137,12 @@
       "targetTl": "enlightenment",
       "targetChapter": 18,
       "blurb": "The Clapham Sect's campaign against slavery was the most successful moral crusade of the age, abolishing the slave trade in 1807 and slavery itself across the empire in 1833 — and inventing in the process the template of mass petition, consumer boycott, and parliamentary lobby that every reform movement after it copied. Chapter 18 of the Enlightenment covers the contradiction at the heart of an age of reason that took decades too long to resolve it."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 18,
+      "blurb": "The factory-reform conscience drew directly on Enlightenment rights talk — the same vocabulary, now turned on the conditions the machine age created."
     }
   ],
   "14": [
@@ -121,6 +175,12 @@
       "targetTl": "soviet-union",
       "targetChapter": 6,
       "blurb": "The Irish Famine is one bookend of a long argument; the Soviet famine is the other. The Soviet narrative covers the man-made famine of 1932–33, in which grain was extracted by force from starving regions under Marxist command ideology — the mirror image of the laissez-faire neglect that let grain be exported from a starving Ireland. Two famines, one from the doctrine that the state must not act and one from the doctrine that it must control everything, frame the entire debate this chapter describes."
+    },
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 16,
+      "blurb": "The theoretical argument over industrialization's costs and benefits is the Scientific Revolution's quantifying habit applied to human welfare."
     }
   ],
   "17": [
@@ -167,6 +227,18 @@
       "targetTl": "soviet-union",
       "targetChapter": 7,
       "blurb": "The Soviet Union pushed this state-directed crash-industrialization model to its most extreme conclusion. The Soviet narrative covers the Five-Year Plans and Magnitogorsk — the same build-it-from-above logic as Meiji, but compressed into a single decade and achieved by adding camp labor as a planned economic input, something Meiji never did. It is the model of this chapter taken to the edge of what coercion can extract from a population."
+    },
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 1,
+      "blurb": "Industrialization's flip side was deindustrialization elsewhere: British machine cloth gutted the Indian handloom economy, a central grievance of the modern Indian story."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 8,
+      "blurb": "The new industrial powers rose as the old manufacturing giants — above all Mughal India — were knocked out of the global market they had dominated."
     }
   ],
   "19": [
@@ -213,6 +285,12 @@
       "targetTl": "soviet-union",
       "targetChapter": 7,
       "blurb": "Of the two rival faiths this book hands forward, the Soviet Union is the most consequential test of the Marxist one — the moment the theory of Chapter 14 was handed a state. The Soviet narrative is the direct institutional heir of that argument: what command socialism became when it controlled a continent, where its planned furnace genuinely performed, and where it produced famine and the camps. It is the half of the divided, armed planet that ran the experiment to its end."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 9,
+      "blurb": "The final argument loops back to the Enlightenment: was the machine age the fulfillment of the project of reason and progress, or its refutation?"
     }
   ]
 }
