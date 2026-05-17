@@ -173,6 +173,8 @@ function preprocessPrompt(prompt) {
     '',
     '**FRAME RULE (failed on half the last run — obey literally):** Draw NO border, outline, frame, rectangle, box, or hairline anywhere on the image except the single title header bar at the very top. The map and its water must BLEED OFF all four outer edges of the image — top (beside the title bar), left, right, and bottom. Never enclose the map in a rectangle. If you are about to draw any thin line around the map perimeter, do not draw it.',
     '',
+    '**ONE TITLE, ONE BAR:** Render the chapter title text EXACTLY ONCE, only inside a single header bar that spans the FULL width of the image across the very top. Never draw a second title, a floating title box, or a separately boxed chapter number anywhere on the image. The header bar is full-width — not a small floating rectangle.',
+    '',
     '**WATER IS LIGHT BLUE:** Every sea, bay, lake, and river is light blue. Never render water as gray, cream, tan, sepia, parchment, or white. Land is beige/tan; desert is pale yellow.',
     '',
     '**NO DECORATIVE ELEMENTS:** Do not draw a compass rose, scale bar, legend, north arrow, latitude/longitude grid, inset map, secondary map panel, or any other cartographic decoration that this prompt does not explicitly request. Do not add a second map showing nearby regions or cultural diffusion. The only required text elements are the title bar, the bulleted labels, the listed region labels, and the single annotation specified. Nothing else.',

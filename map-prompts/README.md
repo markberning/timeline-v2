@@ -27,7 +27,7 @@ Paste this block at the top of every prompt, before the chapter-title directive,
 
 ---
 
-The chapter title "Chapter N: <Title>" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. Draw NO border, outline, frame, rectangle, or hairline anywhere else — the map and its water must bleed off all four outer edges (top beside the title bar, left, right, bottom). Never enclose the map in a rectangle. (Frame violations were the most common failure in the 2026-05 audit — ~50% on the first re-canary run.)
+The chapter title "Chapter N: <Title>" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. Draw NO border, outline, frame, rectangle, or hairline anywhere else — the map and its water must bleed off all four outer edges (top beside the title bar, left, right, bottom). Never enclose the map in a rectangle. Render the chapter title **exactly once**, only inside that single full-width header bar — never a second title, a floating title box, or a separately boxed chapter number. (Frame violations were the most common failure in the 2026-05 audit — ~50% on the first re-canary run; the re-canary also showed a recurring duplicate/boxed-title failure.)
 ```
 
 **Swap in the chapter number and title on the last line.** Do not paraphrase the rules block — use the exact wording above, because Gemini tends to follow literal directives more reliably than paraphrased ones.
