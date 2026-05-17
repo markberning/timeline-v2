@@ -343,7 +343,7 @@
     {
       "term": "Subiaco",
       "matchText": "Subiaco",
-      "wikiSlug": "Sacro_Speco",
+      "wikiSlug": "Abbey_of_Saint_Scholastica,_Subiaco",
       "type": "place"
     },
     {
@@ -361,8 +361,9 @@
     {
       "term": "Hospitality",
       "matchText": "hospitality",
-      "wikiSlug": "Hospitality_in_the_Bible",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The duty to welcome and care for travelers and strangers. In early monastic life this was a sacred obligation — the Rule of Benedict commanded that every guest be received as if he were Christ himself."
     },
     {
       "term": "Scriptorium",
@@ -543,7 +544,7 @@
     {
       "term": "Anointing of kings",
       "matchText": "anointed with holy oil",
-      "wikiSlug": "Anointing_of_kings",
+      "wikiSlug": "Holy_anointing_oil",
       "type": "concept"
     },
     {
@@ -751,13 +752,13 @@
     {
       "term": "Judith of Bavaria",
       "matchText": "Judith of Bavaria",
-      "wikiSlug": "Judith_of_Bavaria_(empress)",
+      "wikiSlug": "Judith_of_Bavaria_(died_843)",
       "type": "people"
     },
     {
       "term": "Field of Lies",
       "matchText": "Field of Lies",
-      "wikiSlug": "Battle_of_the_Field_of_Lies",
+      "wikiSlug": "Field_of_Lies",
       "type": "concept"
     },
     {

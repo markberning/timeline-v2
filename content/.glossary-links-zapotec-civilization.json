@@ -3,7 +3,7 @@
     {
       "term": "Valley of Oaxaca",
       "matchText": "Valley of Oaxaca",
-      "wikiSlug": "Central_Valleys_of_Oaxaca",
+      "wikiSlug": "Oaxaca_Valley",
       "type": "place"
     },
     {
@@ -123,7 +123,7 @@
     {
       "term": "Etla Valley",
       "matchText": "Etla",
-      "wikiSlug": "Etla_(municipality)",
+      "wikiSlug": "Villa_de_Etla",
       "type": "place"
     },
     {
@@ -167,8 +167,9 @@
     {
       "term": "Disembedded capital",
       "matchText": "disembedded capital",
-      "wikiSlug": "Disembedded_capital",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A capital city built on purpose in neutral, previously unsettled ground rather than growing out of an existing town, so no single rival community could claim it as its own. Monte Albán is the classic example."
     },
     {
       "term": "Richard Blanton",
@@ -263,7 +264,7 @@
     {
       "term": "Danzantes",
       "matchText": "Danzantes",
-      "wikiSlug": "Danzantes,_Monte_Albán",
+      "wikiSlug": "Monte_Alb%C3%A1n",
       "type": "concept"
     },
     {
@@ -659,7 +660,7 @@
     {
       "term": "Jaguar symbolism",
       "matchText": "jaguar was the supreme symbol of royal power",
-      "wikiSlug": "Jaguar_in_Mesoamerican_cultures",
+      "wikiSlug": "Jaguars_in_Mesoamerican_cultures",
       "type": "concept"
     },
     {
@@ -921,8 +922,9 @@
     {
       "term": "Death god (Mesoamerican)",
       "matchText": "Mixtec death god",
-      "wikiSlug": "Death_gods_(Mesoamerican)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A skeletal deity of death and the underworld in Mixtec religion, the people of highland Oaxaca who later reused Zapotec tombs. He turns up in their finest goldwork, like the gold-and-turquoise pendant buried in Tomb 7."
     },
     {
       "term": "Mongol conquests",
@@ -1085,8 +1087,9 @@
     {
       "term": "Museo de las Culturas de Oaxaca",
       "matchText": "Museo de las Culturas de Oaxaca",
-      "wikiSlug": "Museo_de_las_Culturas_de_Oaxaca",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A museum in Oaxaca City, Mexico, set inside a former colonial convent next to the Santo Domingo church. It displays the gold and turquoise treasures excavated from Tomb 7 at Monte Albán."
     },
     {
       "term": "Cochineal dye",
@@ -1109,7 +1112,7 @@
     {
       "term": "Juchitán",
       "matchText": "Juchitán",
-      "wikiSlug": "Heroica_Ciudad_de_Juchitán_de_Zaragoza",
+      "wikiSlug": "Juchit%C3%A1n_de_Zaragoza",
       "type": "place"
     }
   ]

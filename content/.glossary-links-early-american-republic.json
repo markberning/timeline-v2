@@ -1099,8 +1099,9 @@
     {
       "term": "Citizen (revolutionary title)",
       "matchText": "Citizen",
-      "wikiSlug": "Citizen_(title)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A revolutionary title of address used in place of \"Mr.\" or \"Sir\" during the French Revolution, meant to signal that everyone was an equal under the new republic. Its use in 1790s America marked someone as a strong supporter of the French cause."
     },
     {
       "term": "Privateer",
@@ -1659,8 +1660,9 @@
     {
       "term": "Sold down the river",
       "matchText": "sold down the river",
-      "wikiSlug": "Down_the_river_(idiom)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "An American phrase meaning to be sent to a worse fate with no way back. It comes literally from enslaved people being sold from the Upper South down the Mississippi River to the brutal cotton and sugar plantations of the Deep South."
     },
     {
       "term": "Alabama",
@@ -1909,7 +1911,7 @@
     {
       "term": "Native American revitalization movement",
       "matchText": "a return to Native ways",
-      "wikiSlug": "Native_American_revitalization_movements",
+      "wikiSlug": "Revitalization_movement",
       "type": "religion"
     },
     {

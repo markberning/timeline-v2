@@ -130,6 +130,27 @@ reader exposure before spending money.**
     lint-links 0 ERROR. **Triage principle: link only to a specifically
     on-subject article; DROP rather than dump a term on the giant main
     article.**
+  - ☑ **CORPUS-WIDE PARALLEL PASS COMPLETE (2026-05-17).** Remaining ~90
+    civs done via: centralized rate-safe Wikipedia prefetch → 12 parallel
+    judgment subagents (subject-correct retarget vs DROP) → central
+    validate+canonicalize (force-DROP non-live) → recovery pass. Then the
+    **authored-definition mechanism** (events-style): instead of dropping a
+    term with no good Wikipedia page, an authored house-voice blurb is written
+    (`definition` field; `wikiSlug` may be ""→ parse synthesizes an opaque
+    `def:` token; glossary-sheet renders the blurb, no wiki link). ~257
+    retargeted to subject-verified live articles; **193 authored blurbs**
+    (2 subagent rounds) replacing what would have been lost links; **0 dropped
+    / de-linked**. Bug found+fixed mid-run: the bulk apply loop silently
+    skipped 24 tail-alphabet civs (bash arithmetic fault in the wrapper, not
+    the apply logic) → re-applied cleanly. **Final: `lint-links --strict`
+    101 civs · 0 ERROR corpus-wide** (1888 WARN = pre-existing unrelated
+    sentence-like cross-link warnings). Infra: `parse-narratives.ts`,
+    `types.ts`, `glossary-sheet.tsx`, `lint-links.ts` (G2; relaxed: an entry
+    is valid with either a real wikiSlug OR a definition). **Cross-session
+    canonical split (confirmed): authored `definition` = the answer for
+    GLOSSARY "no good page"; `.glossary-slug-waivers`/broad-parent = for
+    EVENTS. CLAUDE.md to be updated once by the goryeo-korea session (owns the
+    pipeline section) — do NOT dual-author.** **#1 status: ☑ DONE.**
   - ☑ `ottoman-empire` (16 dead): 15 retargeted (mostly people/terms with
     malformed slugs — Orban_(cannon_founder)→Orbán_(ironmaster),
     Caesar_of_Rome_(Ottoman)→Ottoman_claim_to_Roman_succession, Hahambaşı→
@@ -149,7 +170,7 @@ user); then #11 build/data audit or #13 image liveness (both free).
 
 | # | Item | Traces to | Volume (known/sampled) | Status |
 |---|------|-----------|------------------------|--------|
-| 1 | Dead wikiSlugs corpus-wide | lint-links slug check (prebuild uses `--no-slugs`) | **SWEPT: 577 refs · 543 unique · 93/100 civs** (`audits/dead-slugs-2026-05-17.txt`) | ◐ |
+| 1 | Dead wikiSlugs corpus-wide | lint-links slug check (prebuild uses `--no-slugs`) | **DONE: 543 unique resolved → ~257 retargeted + 193 authored blurbs, 0 dropped; corpus 0-ERROR** | ☑ |
 | 2 | Parser-dropped-link **classifier** (detection only) | pipeline-audit debt #1 | classifier un-built; raw `--contention` ≈2211 is un-triaged, not a worklist | ☐ |
 | 11 | Build/data audit (Track 3) | `memory/project_corpus_audit_plan` | parse/data-shape integrity corpus-wide | ☐ |
 | 13 | Image **liveness** (dead Commons thumbnails) | gap on review; `feedback_image_quality` | unknown; HTTP HEAD over enriched manifest | ☐ |

@@ -245,8 +245,9 @@
     {
       "term": "Clark Erickson",
       "matchText": "Clark Erickson",
-      "wikiSlug": "Clark_Erickson",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "An archaeologist who, in the 1980s, worked with Aymara farming communities near Huatta to rebuild ancient raised-field (suka kollu) plots using traditional techniques — showing how productive the old methods still were."
     }
   ],
   "3": [
@@ -259,8 +260,9 @@
     {
       "term": "Huarpa",
       "matchText": "Huarpa",
-      "wikiSlug": "Huarpa_culture",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A regional Andean culture that settled the Ayacucho basin for centuries before Wari, known mainly from its distinctive painted pottery and a scatter of small and medium villages."
     },
     {
       "term": "Conchopata",
@@ -433,7 +435,7 @@
     {
       "term": "Khipukamayuq",
       "matchText": "khipukamayuq",
-      "wikiSlug": "Khipu_kamayuq",
+      "wikiSlug": "Quipu",
       "type": "concept"
     },
     {
@@ -539,7 +541,7 @@
     {
       "term": "Late Intermediate Period",
       "matchText": "Late Intermediate Period",
-      "wikiSlug": "Late_Intermediate_period",
+      "wikiSlug": "Periodization_of_pre-Columbian_Peru",
       "type": "concept"
     },
     {

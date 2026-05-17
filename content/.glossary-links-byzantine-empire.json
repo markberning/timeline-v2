@@ -591,7 +591,7 @@
     {
       "term": "Synod of Constantinople",
       "matchText": "Synod of Constantinople",
-      "wikiSlug": "Synod_of_Constantinople_(815)",
+      "wikiSlug": "Council_of_Constantinople_(815)",
       "type": "concept"
     },
     {
@@ -615,7 +615,7 @@
     {
       "term": "Empress Theodora (regent)",
       "matchText": "Empress Theodora",
-      "wikiSlug": "Theodora_(empress,_wife_of_Theophilos)",
+      "wikiSlug": "Theodora_(wife_of_Theophilos)",
       "type": "people"
     },
     {
@@ -695,7 +695,7 @@
     {
       "term": "Theophano (empress)",
       "matchText": "Theophano",
-      "wikiSlug": "Theophano_(10th-century_empress)",
+      "wikiSlug": "Theophano_(born_Anastaso)",
       "type": "people"
     },
     {
@@ -775,8 +775,9 @@
     {
       "term": "stemma",
       "matchText": "stemma",
-      "wikiSlug": "Stemma_(crown)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The Byzantine emperor's crown — an arched, jeweled cap set with precious stones, with strings of pearls dangling down beside the wearer's face. Part of the formal imperial regalia."
     },
     {
       "term": "parakoimomenos",
@@ -793,8 +794,9 @@
     {
       "term": "kathisma",
       "matchText": "kathisma",
-      "wikiSlug": "Kathisma_church",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The emperor's private viewing box at the Constantinople hippodrome, linked by a hidden staircase to the Great Palace so he could watch the chariot races and slip in and out without facing the crowd."
     },
     {
       "term": "Book of the Eparch",
@@ -817,7 +819,7 @@
     {
       "term": "Porphyrios the charioteer",
       "matchText": "Porphyrios",
-      "wikiSlug": "Porphyrius_(charioteer)",
+      "wikiSlug": "Porphyrius_the_Charioteer",
       "type": "people"
     },
     {
@@ -859,8 +861,9 @@
     {
       "term": "blattai",
       "matchText": "blattai",
-      "wikiSlug": "Blatta_(color)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The deepest grades of purple silk, a state monopoly reserved for the emperor's use. It was colored with murex purple, a costly dye made using techniques the Byzantines inherited from the Phoenicians."
     },
     {
       "term": "Liutprand of Cremona",
@@ -891,13 +894,13 @@
     {
       "term": "nomisma debasement",
       "matchText": "nomisma",
-      "wikiSlug": "Debasement_of_the_Byzantine_solidus",
+      "wikiSlug": "Solidus",
       "type": "concept"
     },
     {
       "term": "Zoe Porphyrogennita",
       "matchText": "Zoe Porphyrogennita",
-      "wikiSlug": "Zoe_Porphyrogenneta",
+      "wikiSlug": "Zoe_Porphyrogenita",
       "type": "people"
     },
     {
@@ -939,7 +942,7 @@
     {
       "term": "Andronikos Doukas",
       "matchText": "Andronikos Doukas",
-      "wikiSlug": "Andronikos_Doukas_(megas_domestikos)",
+      "wikiSlug": "Andronikos_Doukas_(cousin_of_Michael_VII)",
       "type": "people"
     },
     {
@@ -1055,7 +1058,7 @@
     {
       "term": "Frederick Barbarossa",
       "matchText": "Frederick Barbarossa",
-      "wikiSlug": "Frederick_I_Holy_Roman_Emperor",
+      "wikiSlug": "Frederick_Barbarossa",
       "type": "people"
     },
     {
@@ -1299,7 +1302,7 @@
     {
       "term": "Zealots of Thessalonica",
       "matchText": "Zealot",
-      "wikiSlug": "Zealots_(Byzantine_party)",
+      "wikiSlug": "Zealots_of_Thessalonica",
       "type": "concept"
     },
     {
@@ -1433,7 +1436,7 @@
     {
       "term": "Orban (cannon founder)",
       "matchText": "Orban",
-      "wikiSlug": "Orban_(cannon_founder)",
+      "wikiSlug": "Orb%C3%A1n_(ironmaster)",
       "type": "people"
     },
     {
@@ -1505,7 +1508,7 @@
     {
       "term": "Saint Romanus Gate",
       "matchText": "Saint Romanus Gate",
-      "wikiSlug": "Saint_Romanus_Gate",
+      "wikiSlug": "Walls_of_Constantinople",
       "type": "place"
     },
     {
@@ -1541,7 +1544,7 @@
     {
       "term": "Battle of Varna",
       "matchText": "Battle of Varna",
-      "wikiSlug": "Battle_of_Varna_(1444)",
+      "wikiSlug": "Battle_of_Varna",
       "type": "concept"
     }
   ],
@@ -1621,7 +1624,7 @@
     {
       "term": "Kayser-i Rum",
       "matchText": "Kayser-i Rûm",
-      "wikiSlug": "Caesar_of_Rome_(Ottoman)",
+      "wikiSlug": "Ottoman_claim_to_Roman_succession",
       "type": "concept"
     },
     {

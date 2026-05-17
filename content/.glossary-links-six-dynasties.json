@@ -301,7 +301,7 @@
     {
       "term": "Wang Meng",
       "matchText": "Wang Meng",
-      "wikiSlug": "Wang_Meng_(Eastern_Jin)",
+      "wikiSlug": "Wang_Meng_(Former_Qin)",
       "type": "people"
     },
     {
@@ -373,7 +373,7 @@
     {
       "term": "Xie family",
       "matchText": "Xie family",
-      "wikiSlug": "Xie_clan",
+      "wikiSlug": "Xie_clan_of_Chen_Commandery",
       "type": "people"
     },
     {
@@ -465,7 +465,7 @@
     {
       "term": "Zhaoling Mausoleum",
       "matchText": "Zhaoling Mausoleum",
-      "wikiSlug": "Zhaoling_Mausoleum_(Tang_dynasty)",
+      "wikiSlug": "Zhao_Mausoleum_(Tang_dynasty)",
       "type": "place"
     },
     {
@@ -837,8 +837,9 @@
     {
       "term": "Shipin",
       "matchText": "Shipin",
-      "wikiSlug": "Shipin",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A sixth-century work of literary criticism by Zhong Rong, its title meaning \"Gradations of Poets.\" It ranked Chinese poets into tiers, placing Cao Zhi at the very top."
     },
     {
       "term": "Wenxuan",
@@ -903,7 +904,7 @@
     {
       "term": "Daming calendar",
       "matchText": "Daming calendar",
-      "wikiSlug": "Daming_Calendar",
+      "wikiSlug": "Zu_Chongzhi",
       "type": "concept"
     },
     {

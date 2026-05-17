@@ -75,8 +75,9 @@
     {
       "term": "twenty military ranks",
       "matchText": "twenty military ranks",
-      "wikiSlug": "Twenty_Ranks_of_Merit",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A merit ladder that replaced the old hereditary nobility: instead of being born into status, you climbed through twenty grades by earning them in war, mostly by collecting enemy heads in battle."
     },
     {
       "term": "county system",
@@ -245,8 +246,9 @@
     {
       "term": "Xiang Yan",
       "matchText": "Xiang Yan",
-      "wikiSlug": "Xiang_Yan",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "The last great general of the state of Chu, who killed himself rather than surrender as Qin armies crushed his kingdom in the final wars of unification."
     },
     {
       "term": "Three August Ones",
@@ -349,7 +351,7 @@
     {
       "term": "ban liang coin",
       "matchText": "ban liang",
-      "wikiSlug": "Ban_liang",
+      "wikiSlug": "Banliang",
       "type": "concept"
     },
     {
@@ -667,8 +669,9 @@
     {
       "term": "Chunyu Yue",
       "matchText": "Chunyu Yue",
-      "wikiSlug": "Chunyu_Yue",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "A Qin court scholar who publicly argued that the empire should bring back the old Zhou system of handing out lands to relatives, warning that ruling everything from the center was a dangerous break with tradition."
     },
     {
       "term": "Book of Songs",
@@ -795,8 +798,9 @@
     {
       "term": "Shaqiu",
       "matchText": "Shaqiu",
-      "wikiSlug": "Shaqiu_Palace",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A spot near the coast in what is now Hebei province in northern China, site of the \"Sand Dune Palace,\" where the First Emperor fell fatally ill while touring his empire."
     },
     {
       "term": "Hebei province",
@@ -861,14 +865,15 @@
     {
       "term": "Zhang River",
       "matchText": "Zhang River",
-      "wikiSlug": "Zhang_River_(Hebei)",
+      "wikiSlug": "Zhang_River",
       "type": "place"
     },
     {
       "term": "Wujiang River",
       "matchText": "Wujiang River",
-      "wikiSlug": "Wujiang_(Anhui)",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A river in eastern China where the defeated warlord Xiang Yu was finally cornered with the last of his cavalry and chose to die rather than flee across it."
     },
     {
       "term": "Jiangdong",
@@ -903,8 +908,9 @@
     {
       "term": "Hong Canal",
       "matchText": "Hong Canal",
-      "wikiSlug": "Hong_Canal",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A waterway in central China that briefly served as the agreed dividing line in the war between Chu and Han, with Chu taking the eastern side and Han the west before fighting resumed."
     },
     {
       "term": "Ziying",
@@ -915,8 +921,9 @@
     {
       "term": "Xiang Yu's grandmother",
       "matchText": "Xiang Yan",
-      "wikiSlug": "Xiang_Yan",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "The last great general of the state of Chu and grandfather of the later warlord Xiang Yu; he killed himself rather than surrender as Qin conquered his kingdom."
     }
   ],
   "8": [
@@ -1025,7 +1032,7 @@
     {
       "term": "Rebellion of Seven Kingdoms",
       "matchText": "Rebellion of the Seven Kingdoms",
-      "wikiSlug": "Rebellion_of_the_Seven_Kingdoms",
+      "wikiSlug": "Rebellion_of_the_Seven_States",
       "type": "concept"
     },
     {

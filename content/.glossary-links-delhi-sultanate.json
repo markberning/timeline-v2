@@ -555,8 +555,9 @@
     {
       "term": "Afghanpur",
       "matchText": "Afghanpur",
-      "wikiSlug": "Afghanpur",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A village just outside Delhi where Jauna Khan built a wooden welcome pavilion for his returning father, Sultan Ghiyath al-Din Tughlaq, in 1325. The structure collapsed on the sultan, killing him — an \"accident\" many suspected was arranged."
     },
     {
       "term": "Muhammad bin Tughlaq",
@@ -621,7 +622,7 @@
     {
       "term": "West Yamuna Canal",
       "matchText": "West Yamuna Canal",
-      "wikiSlug": "West_Yamuna_Canal",
+      "wikiSlug": "Yamuna",
       "type": "concept"
     },
     {
@@ -815,13 +816,13 @@
     {
       "term": "Jahaz Mahal",
       "matchText": "Jahaz Mahal",
-      "wikiSlug": "Jahaz_Mahal,_Mandu",
+      "wikiSlug": "Mandu,_Madhya_Pradesh",
       "type": "place"
     },
     {
       "term": "Hoshang Shah's Tomb",
       "matchText": "Hoshang Shah's Tomb",
-      "wikiSlug": "Hoshang_Shah%27s_Tomb",
+      "wikiSlug": "Mandu,_Madhya_Pradesh",
       "type": "place"
     },
     {
@@ -1373,7 +1374,7 @@
     {
       "term": "Sarkar",
       "matchText": "sarkar",
-      "wikiSlug": "Sarkar_(unit)",
+      "wikiSlug": "Sarkar_(administrative_division)",
       "type": "concept"
     },
     {

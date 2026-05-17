@@ -405,7 +405,7 @@
     {
       "term": "Sutkagan Dor",
       "matchText": "Sutkagan Dor",
-      "wikiSlug": "Sutkagen-dor",
+      "wikiSlug": "Sutkagan_Dor",
       "type": "place"
     },
     {
@@ -659,8 +659,9 @@
     {
       "term": "shell bangles",
       "matchText": "shell bangles",
-      "wikiSlug": "Shell_bangle",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Bracelets carved from sea shells, a specialty luxury good of Indus cities — crafted in workshops and shipped by sea alongside carnelian beads and copper tools to Mesopotamia and the Persian Gulf."
     }
   ],
   "6": [
@@ -983,8 +984,9 @@
     {
       "term": "kunda",
       "matchText": "kundas",
-      "wikiSlug": "Kund_(water_body)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Stepped temple tanks holding sacred water for ritual bathing in Hinduism — purpose-built pools where, like bathing in the holy rivers, a devotee can perform one of the faith's most important acts."
     },
     {
       "term": "Buddhism",
@@ -1135,7 +1137,7 @@
     {
       "term": "Jishi Gorge",
       "matchText": "Jishi Gorge",
-      "wikiSlug": "Jishi_Gorge",
+      "wikiSlug": "Jishi_Gorge_outburst_flood",
       "type": "place"
     },
     {

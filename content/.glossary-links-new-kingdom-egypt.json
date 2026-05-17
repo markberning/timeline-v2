@@ -403,8 +403,9 @@
     {
       "term": "golden flies",
       "matchText": "golden flies",
-      "wikiSlug": "Order_of_the_Golden_Fly",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Egypt's military decoration for valor in battle — fly-shaped pendants worn in gold. Finding them in a tomb signaled that the person had been honored for real wartime service, not just ceremony."
     }
   ],
   "4": [
@@ -617,7 +618,7 @@
     {
       "term": "Amun priesthood",
       "matchText": "Amun priesthood",
-      "wikiSlug": "Priesthood_of_ancient_Egypt",
+      "wikiSlug": "Amun",
       "type": "concept"
     },
     {
@@ -953,7 +954,7 @@
     {
       "term": "Amurru",
       "matchText": "Amurru",
-      "wikiSlug": "Amurru_(kingdom)",
+      "wikiSlug": "Amurru_kingdom",
       "type": "place"
     },
     {

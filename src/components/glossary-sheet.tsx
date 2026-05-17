@@ -75,14 +75,18 @@ export function GlossarySheet({ entry, onClose, onInnerLinkClick }: GlossaryShee
           </span>
           <h3 className="text-lg font-bold mt-1">{entry.term}</h3>
 
-          {entry.wikiExtract && (
+          {entry.definition ? (
+            <p className="mt-3 leading-relaxed text-[0.95em] text-foreground/80">
+              {entry.definition}
+            </p>
+          ) : entry.wikiExtract && (
             <p
               className="mt-3 leading-relaxed text-[0.95em] text-foreground/80"
               dangerouslySetInnerHTML={{ __html: entry.wikiExtract }}
             />
           )}
 
-          {entry.wikiSlug && (
+          {entry.wikiSlug && !entry.wikiSlug.startsWith('def:') && (
             <a
               href={`https://en.wikipedia.org/wiki/${entry.wikiSlug}`}
               target="_blank"

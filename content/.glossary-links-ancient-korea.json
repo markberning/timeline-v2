@@ -215,7 +215,7 @@
     {
       "term": "Bipahyeong donggeom",
       "matchText": "slender bronze dagger",
-      "wikiSlug": "Korean_bronze_dagger",
+      "wikiSlug": "Liaoning_bronze_dagger_culture",
       "type": "concept"
     },
     {
@@ -433,7 +433,7 @@
     {
       "term": "Mahan",
       "matchText": "Mahan",
-      "wikiSlug": "Mahan_(Korea)",
+      "wikiSlug": "Mahan_confederacy",
       "type": "concept"
     },
     {
@@ -525,8 +525,9 @@
     {
       "term": "Mountain fortress",
       "matchText": "sansong",
-      "wikiSlug": "Sanseong",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Korean mountain fortresses: stone walls built along the ridgelines of strategic peaks, designed to shelter entire populations during an invasion and to control the mountain passes any attacking army had to pass through."
     },
     {
       "term": "Former Qin",
@@ -621,8 +622,9 @@
     {
       "term": "Sabi",
       "matchText": "Sabi",
-      "wikiSlug": "Sabi_(Baekje)",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "The third and final capital of the Korean kingdom of Baekje, on the site of modern Buyeo. Baekje moved its capital here in 538 CE after losing earlier capitals to military pressure from Goguryeo."
     }
   ],
   "5": [
@@ -653,8 +655,9 @@
     {
       "term": "Gwanmi Fortress",
       "matchText": "Gwanmi",
-      "wikiSlug": "Gwanmi_Castle",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A Baekje fortress captured by Goguryeo during its southern campaigns. Its fall let Goguryeo take the Baekje king's younger brother as a hostage."
     },
     {
       "term": "Visigoths",
@@ -889,7 +892,7 @@
     {
       "term": "Baekje Incense Burner",
       "matchText": "Baekje Incense Burner",
-      "wikiSlug": "Baekje_Gilt-bronze_Incense_Burner",
+      "wikiSlug": "Gilt-bronze_Incense_Burner_of_Baekje",
       "type": "concept"
     },
     {
@@ -907,7 +910,7 @@
     {
       "term": "Idu writing",
       "matchText": "Idu",
-      "wikiSlug": "Idu_(Korean)",
+      "wikiSlug": "Idu_script",
       "type": "concept"
     },
     {
@@ -1005,8 +1008,9 @@
     {
       "term": "Nakhwaam",
       "matchText": "Nakhwaam",
-      "wikiSlug": "Nakhwaam",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A cliff at Baekje's fallen capital whose name means the \"Rock of the Falling Flowers.\" Korean tradition says three thousand Baekje court women threw themselves from it rather than be captured by the conquering armies."
     },
     {
       "term": "Yeon Namsaeng",
@@ -1023,14 +1027,16 @@
     {
       "term": "Maeso Fortress",
       "matchText": "Maeso Fortress",
-      "wikiSlug": "Silla%27s_war_of_unification",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "One of the key battle sites where Silla forces defeated Tang Chinese armies and drove them northward, helping end Tang control over the Korean peninsula."
     },
     {
       "term": "Kibolpo",
       "matchText": "Kibolpo",
-      "wikiSlug": "Battle_of_Gibeolpo",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A battle site where Silla forces defeated Tang Chinese armies and pushed them north, part of Silla's successful war to expel Tang power from Korea."
     },
     {
       "term": "Taedong River",
@@ -1053,8 +1059,9 @@
     {
       "term": "Silla-Tang alliance",
       "matchText": "alliance with Tang China",
-      "wikiSlug": "Silla%27s_war_of_unification",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The military partnership Silla struck with Tang dynasty China to destroy its rivals Baekje (660 CE) and Goguryeo (668 CE). Once those kingdoms fell, Silla turned on Tang and drove the Chinese off the peninsula."
     },
     {
       "term": "Geumgwan Gaya",

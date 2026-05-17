@@ -117,7 +117,7 @@
     {
       "term": "Kush",
       "matchText": "Kush",
-      "wikiSlug": "Kush_(Hebrew_Bible)",
+      "wikiSlug": "Kingdom_of_Kush",
       "type": "place"
     },
     {
@@ -335,7 +335,7 @@
     {
       "term": "Early Dynastic Sumer",
       "matchText": "Sumerian city-states",
-      "wikiSlug": "Early_Dynastic_period_(Mesopotamia)",
+      "wikiSlug": "Early_Dynastic_Period_(Mesopotamia)",
       "type": "concept"
     },
     {
@@ -397,7 +397,7 @@
     {
       "term": "Third Cataract of the Nile",
       "matchText": "Third Cataract",
-      "wikiSlug": "Third_Cataract_of_the_Nile",
+      "wikiSlug": "Cataracts_of_the_Nile",
       "type": "place"
     },
     {
@@ -427,7 +427,7 @@
     {
       "term": "Shimao",
       "matchText": "Shimao",
-      "wikiSlug": "Shimao_(archaeological_site)",
+      "wikiSlug": "Shimao",
       "type": "place"
     },
     {
@@ -561,7 +561,7 @@
     {
       "term": "Second Cataract of the Nile",
       "matchText": "Second Cataract",
-      "wikiSlug": "Second_Cataract_of_the_Nile",
+      "wikiSlug": "Cataracts_of_the_Nile",
       "type": "place"
     },
     {
@@ -823,7 +823,7 @@
     {
       "term": "Fourth Cataract of the Nile",
       "matchText": "Fourth Cataract",
-      "wikiSlug": "Fourth_Cataract_of_the_Nile",
+      "wikiSlug": "Cataracts_of_the_Nile",
       "type": "place"
     },
     {
@@ -1043,8 +1043,9 @@
     {
       "term": "Kap (Ancient Egyptian school)",
       "matchText": "kap",
-      "wikiSlug": "Kap_(Ancient_Egyptian_school)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "An ancient Egyptian system named after the royal nursery, where the children of the king were raised alongside elite foreign hostages so those hostages would grow up loyal to Egypt and its culture."
     },
     {
       "term": "Heqanefer",
@@ -1145,7 +1146,7 @@
     {
       "term": "Panehesy",
       "matchText": "Panehsy",
-      "wikiSlug": "Panehesy_(viceroy_of_Kush)",
+      "wikiSlug": "Panehesy",
       "type": "people"
     },
     {

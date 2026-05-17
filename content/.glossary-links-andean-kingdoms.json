@@ -45,7 +45,7 @@
     {
       "term": "Ceja de selva",
       "matchText": "ceja de selva",
-      "wikiSlug": "Yunga_(Peru)",
+      "wikiSlug": "Yungas",
       "type": "place"
     },
     {
@@ -69,7 +69,7 @@
     {
       "term": "Vertical archipelago",
       "matchText": "vertical archipelago",
-      "wikiSlug": "Verticality_(Andes)",
+      "wikiSlug": "Vertical_archipelago",
       "type": "concept"
     },
     {
@@ -135,7 +135,7 @@
     {
       "term": "Cupisnique",
       "matchText": "Cupisnique",
-      "wikiSlug": "Cupisnique_culture",
+      "wikiSlug": "Cupisnique",
       "type": "concept"
     },
     {
@@ -239,8 +239,9 @@
     {
       "term": "Mummy bundle",
       "matchText": "mummy bundles",
-      "wikiSlug": "Mummy_bundle",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A burial method on the coast of ancient Peru: the body was placed seated and knees-to-chest, then wrapped in layer after layer of cloth, the outer wrappings often being beautifully embroidered textiles."
     },
     {
       "term": "Peru",
@@ -263,8 +264,9 @@
     {
       "term": "Egyptian linen",
       "matchText": "Egyptian linen production",
-      "wikiSlug": "Ancient_Egyptian_retextilos",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The making of cloth from flax fibers, an ancient Egyptian craft refined to a high level by the time of the Old Kingdom pyramids around 2600 BCE. Fine linen clothed both the living and the wrapped dead."
     },
     {
       "term": "Chinese silk",
@@ -301,7 +303,7 @@
     {
       "term": "Apu",
       "matchText": "apu",
-      "wikiSlug": "Apu_(deity)",
+      "wikiSlug": "Apu_(god)",
       "type": "concept"
     },
     {
@@ -349,8 +351,9 @@
     {
       "term": "Nazca River",
       "matchText": "Nazca River",
-      "wikiSlug": "Nazca_River",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A river on the south coast of Peru that runs dry on the surface for most of the year, flowing above ground only briefly in the rainy season and otherwise traveling underground."
     },
     {
       "term": "Ica Valley",
@@ -391,7 +394,7 @@
     {
       "term": "Ojos",
       "matchText": "ojos",
-      "wikiSlug": "Puquio_(Nazca)",
+      "wikiSlug": "Puquios",
       "type": "concept"
     },
     {
@@ -453,8 +456,9 @@
     {
       "term": "Lambayeque Valley",
       "matchText": "Lambayeque",
-      "wikiSlug": "Lambayeque_Valley",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A river valley on the north coast of Peru, near modern Trujillo, one of the desert valleys where the Moche civilization flourished by farming with irrigation canals."
     },
     {
       "term": "Jequetepeque Valley",
@@ -477,7 +481,7 @@
     {
       "term": "Cupisnique culture",
       "matchText": "Cupisnique",
-      "wikiSlug": "Cupisnique_culture",
+      "wikiSlug": "Cupisnique",
       "type": "concept"
     },
     {
@@ -561,7 +565,7 @@
     {
       "term": "Negative painting",
       "matchText": "negative painting",
-      "wikiSlug": "Resist_(arts)",
+      "wikiSlug": "Resist",
       "type": "concept"
     }
   ],
@@ -581,8 +585,9 @@
     {
       "term": "Lambayeque Valley",
       "matchText": "Lambayeque Valley",
-      "wikiSlug": "Lambayeque_Valley",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A river valley on the north coast of Peru, near modern Trujillo, home to major Moche sites including the looted pyramid where the rich royal tombs of Sipán were found."
     },
     {
       "term": "Turquoise",
@@ -659,8 +664,9 @@
     {
       "term": "Pectoral",
       "matchText": "pectoral",
-      "wikiSlug": "Pectoral_(armor)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A large ornamental chest piece, worn over the breast and hung from the neck or shoulders, often made of precious metal or beads and a marker of high rank in Moche elite burials."
     },
     {
       "term": "Tomb robbery",
@@ -879,7 +885,7 @@
     {
       "term": "Cordillera Negra",
       "matchText": "Cordillera Negra",
-      "wikiSlug": "Cordillera_Negra_(Peru)",
+      "wikiSlug": "Cordillera_Negra",
       "type": "place"
     },
     {
@@ -1025,13 +1031,14 @@
     {
       "term": "Huarpa culture",
       "matchText": "Huarpa",
-      "wikiSlug": "Huarpa",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A modest highland farming culture of the Ayacucho basin in central Peru. The powerful Wari state grew directly out of these local communities."
     },
     {
       "term": "Suka kollus",
       "matchText": "suka kollus",
-      "wikiSlug": "Raised-field_agriculture",
+      "wikiSlug": "Waru_Waru",
       "type": "concept"
     },
     {

@@ -167,7 +167,7 @@
     {
       "term": "Triveni Sangam",
       "matchText": "Triveni Sangam",
-      "wikiSlug": "Triveni_Sangam,_Prayagraj",
+      "wikiSlug": "Triveni_Sangam",
       "type": "place"
     },
     {
@@ -197,7 +197,7 @@
     {
       "term": "Dakshinapatha",
       "matchText": "Dakshinapatha",
-      "wikiSlug": "Daksinapatha",
+      "wikiSlug": "Dakshinapatha",
       "type": "concept"
     },
     {
@@ -209,8 +209,9 @@
     {
       "term": "dinara",
       "matchText": "dinara",
-      "wikiSlug": "Coinage_of_the_Gupta_Empire",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The Gupta gold coin, widely considered the most beautiful currency ever struck in India. Its name was borrowed from the Roman denarius, which reached India through Indian Ocean trade."
     },
     {
       "term": "ashvamedha",
@@ -417,8 +418,9 @@
     {
       "term": "khandakavya",
       "matchText": "khandakavya",
-      "wikiSlug": "Khandakavya",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A genre of classical Sanskrit poetry: the long lyric poem, as opposed to the grand court epic (mahakavya). Kalidasa was a master of the form."
     },
     {
       "term": "Shakuntala",
@@ -671,7 +673,7 @@
     {
       "term": "Joseph Constantine Carpue",
       "matchText": "Joseph Constantine Carpue",
-      "wikiSlug": "Joseph_Carpue",
+      "wikiSlug": "Joseph_Constantine_Carpue",
       "type": "people"
     }
   ],
@@ -885,7 +887,7 @@
     {
       "term": "Bhitari pillar inscription",
       "matchText": "Bhitari pillar inscription",
-      "wikiSlug": "Bhitari_pillar_inscription",
+      "wikiSlug": "Bhitari_pillar_inscription_of_Skandagupta",
       "type": "concept"
     },
     {
@@ -1013,7 +1015,7 @@
     {
       "term": "Vishnugupta",
       "matchText": "Vishnugupta",
-      "wikiSlug": "Vishnugupta_(Gupta_king)",
+      "wikiSlug": "Vishnugupta_(Gupta_Empire)",
       "type": "people"
     },
     {
@@ -1025,7 +1027,7 @@
     {
       "term": "Chalukyas",
       "matchText": "Chalukyas",
-      "wikiSlug": "Badami_Chalukya_dynasty",
+      "wikiSlug": "Chalukya_dynasty",
       "type": "concept"
     },
     {

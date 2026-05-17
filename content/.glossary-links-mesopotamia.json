@@ -227,7 +227,7 @@
     {
       "term": "White Temple of Uruk",
       "matchText": "White Temple at Uruk",
-      "wikiSlug": "White_Temple_of_Uruk",
+      "wikiSlug": "Anu_ziggurat",
       "type": "place"
     },
     {
@@ -731,7 +731,7 @@
     {
       "term": "Sumerian Temple Hymns",
       "matchText": "Sumerian Temple Hymns",
-      "wikiSlug": "Sumerian_Temple_Hymns",
+      "wikiSlug": "Enheduanna",
       "type": "concept"
     },
     {
@@ -1339,7 +1339,7 @@
     {
       "term": "Processional Way",
       "matchText": "Processional Way",
-      "wikiSlug": "Processional_Way_of_Babylon",
+      "wikiSlug": "Ishtar_Gate",
       "type": "place"
     },
     {
@@ -1377,8 +1377,9 @@
     {
       "term": "Northwest Palace",
       "matchText": "Northwest Palace",
-      "wikiSlug": "Northwest_Palace",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "The grand royal palace King Ashurnasirpal II built at Nimrud in the 9th century BCE, its rooms lined with carved limestone relief panels showing military campaigns, royal hunts, and winged protective spirits."
     },
     {
       "term": "Austen Henry Layard",
@@ -1517,7 +1518,7 @@
     {
       "term": "Palace Without Rival",
       "matchText": "Palace Without Rival",
-      "wikiSlug": "Southwest_Palace_(Nineveh)",
+      "wikiSlug": "Sennacherib",
       "type": "place"
     },
     {
@@ -1589,7 +1590,7 @@
     {
       "term": "Descent of Inanna",
       "matchText": "Descent of Inanna",
-      "wikiSlug": "Inanna%27s_Descent_to_the_Underworld",
+      "wikiSlug": "Descent_of_Inanna_into_the_Underworld",
       "type": "concept"
     },
     {
@@ -1717,7 +1718,7 @@
     {
       "term": "Processional Way",
       "matchText": "Processional Way",
-      "wikiSlug": "Processional_Way_of_Babylon",
+      "wikiSlug": "Ishtar_Gate",
       "type": "place"
     },
     {

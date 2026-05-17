@@ -197,8 +197,9 @@
     {
       "term": "Rajyashri",
       "matchText": "Rajyashri",
-      "wikiSlug": "Rajyashri",
-      "type": "person"
+      "wikiSlug": "",
+      "type": "person",
+      "definition": "The older sister of the north Indian king Harsha. Her marriage to the Maukhari king Grahavarman of Kannauj tied her family's Pushyabhuti dynasty to the Maukharis across the upper Ganges plain."
     },
     {
       "term": "Grahavarman",
@@ -215,7 +216,7 @@
     {
       "term": "Banabhatta",
       "matchText": "Banabhatta",
-      "wikiSlug": "Bana_Bhatta",
+      "wikiSlug": "B%C4%81%E1%B9%87abha%E1%B9%AD%E1%B9%ADa",
       "type": "person"
     },
     {
@@ -627,7 +628,7 @@
     {
       "term": "Sulayman al-Tajir",
       "matchText": "Sulayman al-Tajir",
-      "wikiSlug": "Sulayman_al-Tajir",
+      "wikiSlug": "Sulaiman_al-Tajir",
       "type": "person"
     },
     {
@@ -845,7 +846,7 @@
     {
       "term": "Cauvery delta",
       "matchText": "Cauvery delta",
-      "wikiSlug": "Kaveri_delta",
+      "wikiSlug": "Kaveri",
       "type": "place"
     },
     {
@@ -881,7 +882,7 @@
     {
       "term": "Ainurruvar",
       "matchText": "Ainurruvar",
-      "wikiSlug": "Ayyavole_Five_Hundred",
+      "wikiSlug": "Five_Hundred_Lords_of_Ayyavole",
       "type": "concept"
     },
     {
@@ -1445,8 +1446,9 @@
     {
       "term": "Tarikh al-Hind",
       "matchText": "Tarikh al-Hind",
-      "wikiSlug": "Indica_(Al-Biruni_book)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The short name for al-Biruni's eleventh-century study of India, fully titled \"Book of Verifying What India Has.\" It's a detailed scholarly account of Indian science, religion, and customs by a visiting Muslim polymath."
     },
     {
       "term": "Seljuk",
@@ -1535,7 +1537,7 @@
     {
       "term": "Tabaqat-i Nasiri",
       "matchText": "Tabaqat-i Nasiri",
-      "wikiSlug": "Tabakat-i_Nasiri",
+      "wikiSlug": "Tabaqat-i_Nasiri",
       "type": "concept"
     },
     {

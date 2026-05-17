@@ -373,7 +373,7 @@
     {
       "term": "Time discipline",
       "matchText": "time discipline",
-      "wikiSlug": "Industrial_discipline",
+      "wikiSlug": "E._P._Thompson",
       "type": "concept"
     },
     {
@@ -433,7 +433,7 @@
     {
       "term": "Industrial Revolution child labour",
       "matchText": "cotton dust, crawling under running machinery",
-      "wikiSlug": "Child_labour_in_the_Industrial_Revolution",
+      "wikiSlug": "Child_labour_in_the_British_Industrial_Revolution",
       "type": "concept"
     }
   ],
@@ -459,7 +459,7 @@
     {
       "term": "Duke of Bridgewater",
       "matchText": "the Duke of Bridgewater",
-      "wikiSlug": "Francis_Egerton,_1st_Duke_of_Bridgewater",
+      "wikiSlug": "Francis_Egerton,_3rd_Duke_of_Bridgewater",
       "type": "person"
     },
     {
@@ -735,8 +735,9 @@
     {
       "term": "Standard-of-living debate",
       "matchText": "standard-of-living question",
-      "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The long-running argument among historians over whether ordinary workers' lives got better or worse during early industrialization. \"Optimists\" say wages and conditions rose; \"pessimists\" say they fell first."
     },
     {
       "term": "Leeds",
@@ -779,7 +780,7 @@
     {
       "term": "Combination Acts",
       "matchText": "Combination Acts",
-      "wikiSlug": "Combination_Acts_1799_and_1800",
+      "wikiSlug": "Combination_Act_1799",
       "type": "event"
     },
     {
@@ -797,7 +798,7 @@
     {
       "term": "St Peter's Field",
       "matchText": "St Peter's Field in Manchester",
-      "wikiSlug": "St._Peter%27s_Field,_Manchester",
+      "wikiSlug": "Peterloo_Massacre",
       "type": "place"
     },
     {
@@ -847,7 +848,7 @@
     {
       "term": "Northern Star (newspaper)",
       "matchText": "Northern Star",
-      "wikiSlug": "Northern_Star_(1837–1852)",
+      "wikiSlug": "Northern_Star_(Chartist_newspaper)",
       "type": "organization"
     },
     {
@@ -903,7 +904,7 @@
     {
       "term": "Evangelical Christianity",
       "matchText": "evangelical Christianity",
-      "wikiSlug": "Evangelical_Christianity_in_Britain",
+      "wikiSlug": "Evangelicalism",
       "type": "concept"
     },
     {
@@ -957,8 +958,9 @@
     {
       "term": "Standard-of-living debate",
       "matchText": "the standard-of-living debate",
-      "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The unsettled historical argument over whether the Industrial Revolution improved or worsened ordinary people's lives in its early decades, with \"optimist\" and \"pessimist\" camps still trading statistics."
     }
   ],
   "14": [
@@ -1395,7 +1397,7 @@
     {
       "term": "Handloom weavers",
       "matchText": "the handloom weavers",
-      "wikiSlug": "Handloom_weavers'_misery",
+      "wikiSlug": "Loom",
       "type": "concept"
     },
     {
@@ -1409,8 +1411,9 @@
     {
       "term": "California School (economic history)",
       "matchText": "California School",
-      "wikiSlug": "California_school_(economic_history)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A group of economic historians, many at University of California campuses, who argue that around 1750 the most advanced parts of China were roughly level with the most advanced parts of Europe, so Britain's industrial lead came later and for specific reasons."
     },
     {
       "term": "Kenneth Pomeranz",

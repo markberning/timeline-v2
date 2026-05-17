@@ -175,7 +175,7 @@
     {
       "term": "privilège",
       "matchText": "grant a",
-      "wikiSlug": "Book_censorship_in_France",
+      "wikiSlug": "Censorship_in_France",
       "type": "concept"
     }
   ],
@@ -327,7 +327,7 @@
     {
       "term": "tree of knowledge",
       "matchText": "a \"tree of knowledge",
-      "wikiSlug": "Tree_of_knowledge_(Encyclopédie)",
+      "wikiSlug": "Figurative_system_of_human_knowledge",
       "type": "concept"
     },
     {
@@ -621,7 +621,7 @@
     {
       "term": "the ring parable",
       "matchText": "its famous \"ring parable",
-      "wikiSlug": "The_Ring_(parable)",
+      "wikiSlug": "Nathan_the_Wise",
       "type": "concept"
     },
     {
@@ -729,7 +729,7 @@
     {
       "term": "the Third Estate",
       "matchText": "the Third Estate",
-      "wikiSlug": "The_Third_Estate",
+      "wikiSlug": "Estates_of_the_realm",
       "type": "concept"
     },
     {
@@ -831,8 +831,9 @@
     {
       "term": "careers open to talent",
       "matchText": "careers open to talent",
-      "wikiSlug": "Careers_open_to_talent",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The revolutionary idea that government and military posts should go to whoever is most able, not to whoever was born noble. France's revolution scrapped birth as the qualification for office, opening the door for outsiders to rise."
     },
     {
       "term": "Pope Pius VII",

@@ -233,7 +233,7 @@
     {
       "term": "oxidation (firing)",
       "matchText": "oxidizing",
-      "wikiSlug": "Oxidizing_and_reducing_atmosphere",
+      "wikiSlug": "Reducing_atmosphere",
       "type": "concept"
     },
     {
@@ -245,8 +245,9 @@
     {
       "term": "Kemet",
       "matchText": "kemet",
-      "wikiSlug": "Kemet_(ancient_Egypt)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The ancient Egyptians' own name for their country, meaning \"the black land\" — a reference to the dark, fertile silt the Nile spread across its floodplain every year when it flooded."
     },
     {
       "term": "burnishing",
@@ -457,7 +458,7 @@
     {
       "term": "Tomb 100",
       "matchText": "Tomb 100",
-      "wikiSlug": "Tomb_100",
+      "wikiSlug": "Hierakonpolis",
       "type": "place"
     },
     {
@@ -475,8 +476,9 @@
     {
       "term": "smiting pose",
       "matchText": "smiting pose",
-      "wikiSlug": "Smiting_pose",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A classic image of Egyptian power: the ruler standing tall with one arm raised, club or mace in hand, about to strike down kneeling enemies. It became royal art's standard way of showing the king as conqueror."
     },
     {
       "term": "faience",
@@ -493,7 +495,7 @@
     {
       "term": "sewn-plank boat",
       "matchText": "sewn-plank boats",
-      "wikiSlug": "Plank_(boat_building)",
+      "wikiSlug": "Sewn_boat",
       "type": "concept"
     },
     {
@@ -579,7 +581,7 @@
     {
       "term": "Tomb U-j",
       "matchText": "Tomb U-j",
-      "wikiSlug": "Tomb_U-j",
+      "wikiSlug": "Umm_El_Qa%27ab",
       "type": "place"
     },
     {
@@ -663,7 +665,7 @@
     {
       "term": "Followers of Horus",
       "matchText": "Followers of Horus",
-      "wikiSlug": "Followers_of_Horus",
+      "wikiSlug": "Horus",
       "type": "concept"
     },
     {
@@ -675,7 +677,7 @@
     {
       "term": "niched-facade architecture",
       "matchText": "niched-palace facade",
-      "wikiSlug": "Recessed_niche",
+      "wikiSlug": "Serekh",
       "type": "concept"
     },
     {
@@ -883,7 +885,7 @@
     {
       "term": "funerary enclosure",
       "matchText": "funerary enclosures",
-      "wikiSlug": "Funerary_enclosure",
+      "wikiSlug": "Shunet_El_Zebib",
       "type": "concept"
     },
     {
@@ -1253,7 +1255,7 @@
     {
       "term": "Apophis (serpent)",
       "matchText": "Apophis",
-      "wikiSlug": "Apophis_(deity)",
+      "wikiSlug": "Apophis",
       "type": "concept"
     },
     {

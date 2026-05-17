@@ -561,8 +561,9 @@
     {
       "term": "Suftaja",
       "matchText": "suftaja",
-      "wikiSlug": "Suftaja",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A medieval Islamic financial instrument: a written order to pay a sum in another city, letting merchants move money across long distances without hauling coin — the direct ancestor of the modern bill of exchange."
     },
     {
       "term": "Hawala",
@@ -919,7 +920,7 @@
     {
       "term": "Chartres labyrinth",
       "matchText": "labyrinth",
-      "wikiSlug": "Chartres_Cathedral_labyrinth",
+      "wikiSlug": "Chartres_Cathedral",
       "type": "concept"
     },
     {

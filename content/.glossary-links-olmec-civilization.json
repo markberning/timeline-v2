@@ -227,7 +227,7 @@
     {
       "term": "Mesoamerican archaeology",
       "matchText": "Mesoamerican archaeologists",
-      "wikiSlug": "Mesoamerican_archaeology",
+      "wikiSlug": "Mesoamerica",
       "type": "concept"
     },
     {
@@ -569,7 +569,7 @@
     {
       "term": "Valley of Oaxaca",
       "matchText": "Valley of Oaxaca",
-      "wikiSlug": "Central_Valleys_of_Oaxaca",
+      "wikiSlug": "Oaxaca_Valley",
       "type": "place"
     },
     {
@@ -629,8 +629,9 @@
     {
       "term": "pectoral",
       "matchText": "pectorals",
-      "wikiSlug": "Pectoral_(ancient_jewelry)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Ornaments worn on the chest, hung from cords around the neck. Among the Olmec, polished magnetite mirrors served as pectorals that caught and flashed sunlight as a sign of elite status."
     },
     {
       "term": "cacao beans as currency",
@@ -655,7 +656,7 @@
     {
       "term": "Tonalá basin",
       "matchText": "Tonalá basin",
-      "wikiSlug": "Tonalá_River_(Tabasco)",
+      "wikiSlug": "Tonal%C3%A1_River",
       "type": "place"
     },
     {

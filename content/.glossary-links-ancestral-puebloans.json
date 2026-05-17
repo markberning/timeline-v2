@@ -75,7 +75,7 @@
     {
       "term": "Basketmaker",
       "matchText": "Basketmaker",
-      "wikiSlug": "Basketmaker_II_Era",
+      "wikiSlug": "Basketmaker_culture",
       "type": "concept"
     },
     {
@@ -143,7 +143,7 @@
     {
       "term": "Basketmaker II",
       "matchText": "Basketmaker II",
-      "wikiSlug": "Basketmaker_II_Era",
+      "wikiSlug": "Basketmaker_culture",
       "type": "concept"
     },
     {
@@ -179,8 +179,9 @@
     {
       "term": "cribbed log roof",
       "matchText": "cribbed log roof",
-      "wikiSlug": "Cribbing_(construction)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A self-supporting ceiling built by stacking logs in a square, with each layer rotated and offset inward so the opening narrows as it rises — sturdy enough to roof a pit house with no central support."
     },
     {
       "term": "turkey domestication",
@@ -221,8 +222,9 @@
     {
       "term": "emergence cosmology",
       "matchText": "emergence cosmology",
-      "wikiSlug": "Emergence_(mythology)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The belief, central to Ancestral Puebloan religion, that humans came into this world by emerging upward from earlier worlds below — the idea the sipapu hole in a kiva floor symbolizes."
     },
     {
       "term": "iron oxide",
@@ -435,7 +437,7 @@
     {
       "term": "copper bell",
       "matchText": "Copper bells",
-      "wikiSlug": "Mesoamerican_metallurgy",
+      "wikiSlug": "Metallurgy_in_pre-Columbian_Mesoamerica",
       "type": "concept"
     },
     {
@@ -495,7 +497,7 @@
     {
       "term": "great kiva",
       "matchText": "great kivas",
-      "wikiSlug": "Great_kiva",
+      "wikiSlug": "Kiva",
       "type": "concept"
     },
     {
@@ -507,7 +509,7 @@
     {
       "term": "Charles Di Peso",
       "matchText": "Charles Di Peso",
-      "wikiSlug": "Charles_Di_Peso",
+      "wikiSlug": "Charles_C._Di_Peso",
       "type": "people"
     },
     {
@@ -575,7 +577,7 @@
     {
       "term": "San Mateo Mountains",
       "matchText": "San Mateo",
-      "wikiSlug": "San_Mateo_Mountains_(New_Mexico)",
+      "wikiSlug": "San_Mateo_Mountains_(Cibola_County,_New_Mexico)",
       "type": "place"
     },
     {
@@ -679,7 +681,7 @@
     {
       "term": "Mesa Verde Black-on-White",
       "matchText": "Mesa Verde Black-on-White",
-      "wikiSlug": "Ancestral_Pueblo_pottery",
+      "wikiSlug": "Pueblo_pottery",
       "type": "concept"
     },
     {
@@ -837,8 +839,9 @@
     {
       "term": "aggregation",
       "matchText": "aggregation",
-      "wikiSlug": "Settlement_pattern",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The shift, around the mid-1200s, where scattered families pulled together into fewer, larger, more defensible settlements — a clear sign communities were responding to a growing threat."
     },
     {
       "term": "Arizona State University",
@@ -989,7 +992,7 @@
     {
       "term": "Tewa",
       "matchText": "Tewa",
-      "wikiSlug": "Tewa_peoples",
+      "wikiSlug": "Tewa",
       "type": "people"
     },
     {

@@ -459,13 +459,13 @@
     {
       "term": "Eugenius",
       "matchText": "Eugenius",
-      "wikiSlug": "Eugenius_(emperor)",
+      "wikiSlug": "Eugenius",
       "type": "people"
     },
     {
       "term": "Arbogast",
       "matchText": "Arbogast",
-      "wikiSlug": "Arbogast_(general)",
+      "wikiSlug": "Arbogast_(magister_militum)",
       "type": "people"
     },
     {
@@ -583,8 +583,9 @@
     {
       "term": "Hospitalitas",
       "matchText": "hospitalitas",
-      "wikiSlug": "Hospitalitas",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The old Roman billeting system, literally \"hospitality,\" that spread the cost of housing soldiers onto civilian landowners. It was the legal framework used to settle the Visigoths inside the empire by giving them a share of Roman estates."
     },
     {
       "term": "Attila",
@@ -851,8 +852,9 @@
     {
       "term": "Alexander the Scissors",
       "matchText": "Alexander",
-      "wikiSlug": "Alexander_(logothetes)",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "Alexander the Great, the Macedonian king (336–323 BCE) whose lightning conquests built one of history's largest empires. The Gothic historian Jordanes compared the Gothic king Ermanaric to him, the kind of flattery that makes modern scholars doubt the boast."
     },
     {
       "term": "Taginae",
@@ -869,8 +871,9 @@
     {
       "term": "Pragmatic Sanction of 554",
       "matchText": "Pragmatic Sanction",
-      "wikiSlug": "Pragmatic_Sanction_of_552",
-      "type": "event"
+      "wikiSlug": "",
+      "type": "event",
+      "definition": "Emperor Justinian's 554 CE decree that reimposed Roman law across Italy after the Gothic War, handed pre-war estates back to their old owners, and wiped out the Ostrogothic legal system as if the Gothic kingdom had never existed."
     }
   ]
 }

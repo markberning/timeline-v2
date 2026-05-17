@@ -675,7 +675,7 @@
     {
       "term": "Zafarnama (Yazdi)",
       "matchText": "Yazdi's Zafarnama",
-      "wikiSlug": "Zafarnama_(Yazdi_book)",
+      "wikiSlug": "Zafarnama_(Yazdi_biography)",
       "type": "concept"
     }
   ],
@@ -725,7 +725,7 @@
     {
       "term": "Banna'i tilework",
       "matchText": "banna'i tilework",
-      "wikiSlug": "Banna%27i_technique",
+      "wikiSlug": "Banna%27i",
       "type": "concept"
     },
     {
@@ -1053,8 +1053,9 @@
     {
       "term": "Vasily Vyatkin",
       "matchText": "Vasily Vyatkin",
-      "wikiSlug": "Vasily_Vyatkin",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "Vasily Vyatkin was a Russian archaeologist who in 1908 rediscovered and began excavating the lost site of Ulugh Beg's great astronomical observatory near Samarkand, whose location had been forgotten for centuries."
     },
     {
       "term": "Trigonometry",
@@ -1157,7 +1158,7 @@
     {
       "term": "Battle of Merv (1510)",
       "matchText": "Battle of Merv",
-      "wikiSlug": "Battle_of_Merv_(1510)",
+      "wikiSlug": "Battle_of_Merv",
       "type": "event"
     },
     {

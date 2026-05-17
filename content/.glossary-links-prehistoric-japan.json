@@ -463,7 +463,7 @@
     {
       "term": "Yamatai",
       "matchText": "Yamatai",
-      "wikiSlug": "Yamatai-koku",
+      "wikiSlug": "Yamatai",
       "type": "place"
     },
     {
@@ -487,8 +487,9 @@
     {
       "term": "Iyo",
       "matchText": "Iyo",
-      "wikiSlug": "Iyo_(empress)",
-      "type": "person"
+      "wikiSlug": "",
+      "type": "person",
+      "definition": "A young female relative of the shaman queen Himiko who, according to Chinese records, was made ruler of the Yamatai polity around 280 CE to end the chaos that followed Himiko's death."
     },
     {
       "term": "Hashihaka Kofun",
@@ -609,8 +610,9 @@
     {
       "term": "Be system",
       "matchText": "be",
-      "wikiSlug": "Be_(Japanese_society)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "An early Japanese system of hereditary occupational groups, where families were organized into units that supplied a specific service or craft (such as potters, weavers, or scribes) to the ruling elite."
     },
     {
       "term": "Mononobe clan",
@@ -651,7 +653,7 @@
     {
       "term": "Egami Namio",
       "matchText": "Egami Namio",
-      "wikiSlug": "Namio_Egami",
+      "wikiSlug": "Egami_Namio",
       "type": "person"
     },
     {

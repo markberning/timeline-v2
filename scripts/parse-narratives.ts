@@ -27,6 +27,7 @@ interface GlossaryLink {
   matchText: string
   wikiSlug: string
   type: string
+  definition?: string // authored house-voice blurb; when set, wikiSlug may be ""
 }
 
 interface GlossaryEntry {
@@ -35,6 +36,7 @@ interface GlossaryEntry {
   type: string
   wikiExtract?: string
   thumbnailUrl?: string
+  definition?: string // authored blurb (events-style); shown instead of wikiExtract
 }
 
 interface CrossLinkCurated {
@@ -366,17 +368,30 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
     console.log(`  Curated cross-links: ${totalCross} across ${Object.keys(curatedCrossLinks).length} chapters`)
   }
 
-  // Collect unique glossary slugs and enrich them
+  // Normalize blurb-only links: an authored `definition` with no wikiSlug gets
+  // a stable opaque `def:<slug>` token. This token rides the existing
+  // data-wiki-slug plumbing untouched (reader maps by it); glossary-sheet and
+  // lint know `def:` means "authored, no Wikipedia link".
   const allGlossaryLinks = Object.values(glossaryLinks).flat()
-  const glossarySlugs = [...new Set(allGlossaryLinks.map(l => l.wikiSlug).filter(Boolean))]
+  const defToken = (s: string) => 'def:' + s.toLowerCase().normalize('NFD')
+    .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+  for (const link of allGlossaryLinks) {
+    if ((!link.wikiSlug || !link.wikiSlug.trim()) && link.definition && link.definition.trim()) {
+      link.wikiSlug = defToken(link.term || link.matchText)
+    }
+  }
+
+  // Collect unique REAL glossary slugs and enrich them (def: tokens skip Wikipedia)
+  const glossarySlugs = [...new Set(allGlossaryLinks.map(l => l.wikiSlug)
+    .filter(s => s && !s.startsWith('def:')))]
   const glossaryEnrichment = glossarySlugs.length > 0
     ? await enrichGlossary(glossarySlugs, forceRefresh)
     : new Map()
 
-  // Build glossary entries keyed by slug (term comes from first link using that slug)
+  // Build glossary entries keyed by slug/def-token (first link using it wins)
   const glossaryEntries: Record<string, GlossaryEntry> = {}
   for (const link of allGlossaryLinks) {
-    if (glossaryEntries[link.wikiSlug]) continue
+    if (!link.wikiSlug || glossaryEntries[link.wikiSlug]) continue
     const enriched = glossaryEnrichment.get(link.wikiSlug)
     glossaryEntries[link.wikiSlug] = {
       term: link.term,
@@ -384,6 +399,7 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
       type: link.type,
       wikiExtract: enriched?.wikiExtract,
       thumbnailUrl: enriched?.thumbnailUrl,
+      definition: link.definition?.trim() || undefined,
     }
   }
 

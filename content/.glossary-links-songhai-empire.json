@@ -63,8 +63,9 @@
     {
       "term": "Bure goldfield",
       "matchText": "Bure",
-      "wikiSlug": "Bure_(region)",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "Bure was a major West African goldfield, paired with nearby Bambuk, that fed the western trans-Saharan trade. It was the gold heartland the Mali Empire built its wealth on, lying west of Songhai's territory."
     },
     {
       "term": "Taghaza",
@@ -93,8 +94,9 @@
     {
       "term": "Sorko",
       "matchText": "Sorko",
-      "wikiSlug": "Sorko_people",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "The Sorko were a specialized river-dwelling Songhai people who lived in stilt villages along the Niger and made their living fishing for catfish, perch, and tilapia, which they smoked and traded inland."
     },
     {
       "term": "Tuareg",
@@ -409,7 +411,7 @@
     {
       "term": "Mesufa Berbers",
       "matchText": "Mesufa Berber",
-      "wikiSlug": "Mesufa",
+      "wikiSlug": "Massufa",
       "type": "people"
     }
   ],
@@ -837,7 +839,7 @@
     {
       "term": "Abd al-Malik",
       "matchText": "Abd al-Malik",
-      "wikiSlug": "Abd_Al-Malik_of_Morocco",
+      "wikiSlug": "Abu_Marwan_Abd_al-Malik_I_Saadi",
       "type": "people"
     }
   ],

@@ -169,7 +169,7 @@
     {
       "term": "Imperial examination in Vietnam",
       "matchText": "civil service examination",
-      "wikiSlug": "Imperial_examination_in_Vietnam",
+      "wikiSlug": "Confucian_court_examination_system_in_Vietnam",
       "type": "concept"
     },
     {
@@ -181,7 +181,7 @@
     {
       "term": "Confucianism in Vietnam",
       "matchText": "Confucian scholar-bureaucracy",
-      "wikiSlug": "Confucianism_in_Vietnam",
+      "wikiSlug": "Vietnamese_Confucianism",
       "type": "concept"
     }
   ],
@@ -269,8 +269,9 @@
     {
       "term": "Diên Hồng conference",
       "matchText": "Diên Hồng conference",
-      "wikiSlug": "Di%C3%AAn_H%E1%BB%93ng_conference",
-      "type": "event"
+      "wikiSlug": "",
+      "type": "event",
+      "definition": "A 1285 gathering where the Trần court summoned the kingdom's elders to ask, in effect, whether Đại Việt should fight or surrender to the invading Mongols. The answer was to fight — a famous moment of collective resolve."
     },
     {
       "term": "Chữ Nôm",
@@ -383,8 +384,9 @@
     {
       "term": "Lê Code",
       "matchText": "Hồng Đức Code",
-      "wikiSlug": "L%C3%AA_Code",
-      "type": "writing"
+      "wikiSlug": "",
+      "type": "writing",
+      "definition": "The landmark legal code issued under Lê Thánh Tông in 15th-century Đại Việt, notable for its relatively strong protections for women's property and inheritance rights — protections later rulers would roll back."
     },
     {
       "term": "Đại Việt sử ký toàn thư",
@@ -401,7 +403,7 @@
     {
       "term": "Confucianism in Vietnam",
       "matchText": "Confucian scholar-bureaucracy",
-      "wikiSlug": "Confucianism_in_Vietnam",
+      "wikiSlug": "Vietnamese_Confucianism",
       "type": "concept"
     }
   ],
@@ -633,8 +635,9 @@
     {
       "term": "Gia Long Code",
       "matchText": "new legal code",
-      "wikiSlug": "Gia_Long_Code",
-      "type": "writing"
+      "wikiSlug": "",
+      "type": "writing",
+      "definition": "The Gia Long Code, the law code adopted by the early Nguyễn dynasty. Closely modeled on China's Manchu Qing code, it imposed strict Confucian orthodoxy and stripped away the older Lê-era legal protections for women."
     },
     {
       "term": "French conquest of Vietnam",

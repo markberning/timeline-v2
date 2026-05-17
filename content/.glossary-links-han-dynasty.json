@@ -105,8 +105,9 @@
     {
       "term": "Wu River",
       "matchText": "Wu River",
-      "wikiSlug": "Wu_River_(Anhui)",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A river in eastern China where the warlord Xiang Yu was cornered after fleeing with the last of his cavalry. Trapped against it in 202 BCE, he refused a boatman's offer to ferry him to safety and died there."
     },
     {
       "term": "Commandery",
@@ -173,8 +174,9 @@
     {
       "term": "Kingdom of Wu",
       "matchText": "kingdom of Wu",
-      "wikiSlug": "Wu_(Han_dynasty)",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A semi-autonomous kingdom on China's southeastern coast under the early Han, made rich by salt monopolies and copper mining — wealth that let it bankroll a revolt against the central government."
     },
     {
       "term": "Chao Cuo",
@@ -537,8 +539,9 @@
     {
       "term": "Ren An",
       "matchText": "Ren An",
-      "wikiSlug": "Ren_An",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "A friend of the Han historian Sima Qian. The famous letter Sima Qian wrote him explained why he chose the humiliation of castration over suicide: he had to live to finish his history of China."
     },
     {
       "term": "Sima Tan",
@@ -579,7 +582,7 @@
     {
       "term": "Old Text versus New Text",
       "matchText": "Old Text versus New Text controversy",
-      "wikiSlug": "Old_Texts_and_New_Texts",
+      "wikiSlug": "Old_Text_School",
       "type": "concept"
     },
     {
@@ -653,8 +656,9 @@
     {
       "term": "Shi Xian",
       "matchText": "Shi Xian",
-      "wikiSlug": "Shi_Xian_(eunuch)",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "A powerful palace eunuch in the early years of the Western Han's decline. He controlled who could reach the emperor and what news the emperor heard, setting the template for eunuch dominance that later wrecked the dynasty."
     },
     {
       "term": "Wang family",
@@ -969,7 +973,7 @@
     {
       "term": "Zhang Lu",
       "matchText": "Zhang Lu",
-      "wikiSlug": "Zhang_Lu_(warlord)",
+      "wikiSlug": "Zhang_Lu_(Han_dynasty)",
       "type": "people"
     },
     {
@@ -1005,7 +1009,7 @@
     {
       "term": "Ma Rong",
       "matchText": "Ma Rong",
-      "wikiSlug": "Ma_Rong_(scholar)",
+      "wikiSlug": "Ma_Rong",
       "type": "people"
     },
     {
@@ -1017,7 +1021,7 @@
     {
       "term": "Partisan Prohibitions",
       "matchText": "Partisan Prohibitions",
-      "wikiSlug": "Partisan_Prohibitions",
+      "wikiSlug": "Disasters_of_the_Partisan_Prohibitions",
       "type": "concept"
     },
     {
@@ -1109,8 +1113,9 @@
     {
       "term": "Mafeisan",
       "matchText": "mafeisan",
-      "wikiSlug": "Mafeisan",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "An anesthetic powder — its name roughly means \"cannabis boiling powder\" — credited to the physician Hua Tuo, who used it to knock patients unconscious so he could perform surgery."
     },
     {
       "term": "Liu Bei",

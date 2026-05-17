@@ -177,7 +177,7 @@ for (const tl of tls) {
   let chs: Map<string, { title: string; body: string }>
   try { chs = chapters(tl) } catch { add(tl, '-', 'narrative', 'ERROR', 'no narrative file'); continue }
 
-  const gloss = loadJson<Record<string, { matchText: string; wikiSlug: string }[]>>(join(CONTENT, `.glossary-links-${tl}.json`)) ?? {}
+  const gloss = loadJson<Record<string, { matchText: string; wikiSlug: string; definition?: string }[]>>(join(CONTENT, `.glossary-links-${tl}.json`)) ?? {}
   const ev = loadJson<Record<string, { eventId: string; matchText: string }[]>>(join(CONTENT, `.event-links-${tl}.json`)) ?? {}
   const cx = loadJson<Record<string, { matchText: string; targetTl: string; targetChapter: number }[]>>(join(CONTENT, `.cross-links-${tl}.json`)) ?? {}
 
@@ -190,10 +190,17 @@ for (const tl of tls) {
       const k = g.matchText.toLowerCase()
       if (seen.has(k)) add(tl, ch, 'glossary', 'WARN', `duplicate glossary matchText ${JSON.stringify(g.matchText)} (only first links)`)
       seen.add(k)
-      if (!g.wikiSlug || /\s/.test(g.wikiSlug)) add(tl, ch, 'glossary', 'ERROR', `bad wikiSlug ${JSON.stringify(g.wikiSlug)} for ${JSON.stringify(g.matchText)}`)
-      else { slugSet.add(g.wikiSlug); slugRefs.push({ slug: g.wikiSlug, tl, ch }) }
-      const decoded = decodeURIComponent(g.wikiSlug.replace(/_/g, ' '))
-      if (GENERIC_SLUGS.has(decoded)) add(tl, ch, 'glossary', 'WARN', `generic slug "${g.wikiSlug}" — verify the Wikipedia lead image is the right culture`)
+      const hasSlug = g.wikiSlug && !/\s/.test(g.wikiSlug) && !g.wikiSlug.startsWith('def:')
+      const hasDef = !!(g.definition && g.definition.trim())
+      if (hasSlug) {
+        // real Wikipedia slug — dead-check it
+        slugSet.add(g.wikiSlug); slugRefs.push({ slug: g.wikiSlug, tl, ch })
+        const decoded = decodeURIComponent(g.wikiSlug.replace(/_/g, ' '))
+        if (GENERIC_SLUGS.has(decoded)) add(tl, ch, 'glossary', 'WARN', `generic slug "${g.wikiSlug}" — verify the Wikipedia lead image is the right culture`)
+      } else if (!hasDef) {
+        // neither a usable wikiSlug NOR an authored blurb → unusable entry
+        add(tl, ch, 'glossary', 'ERROR', `glossary entry needs a wikiSlug or a definition: ${JSON.stringify(g.matchText)}`)
+      } // else: authored-blurb entry (def: token or empty slug + definition) — valid, no Wikipedia check
     }
   }
   for (const [ch, arr] of Object.entries(ev)) {

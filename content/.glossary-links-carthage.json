@@ -361,7 +361,7 @@
     {
       "term": "Mago the agronomist",
       "matchText": "Mago",
-      "wikiSlug": "Mago_(agriculture)",
+      "wikiSlug": "Mago_(agricultural_writer)",
       "type": "people"
     },
     {
@@ -445,7 +445,7 @@
     {
       "term": "Crimissus River",
       "matchText": "Crimissus",
-      "wikiSlug": "Crimissus",
+      "wikiSlug": "Battle_of_the_Crimissus",
       "type": "place"
     },
     {
@@ -501,7 +501,7 @@
     {
       "term": "Xanthippus",
       "matchText": "Xanthippus",
-      "wikiSlug": "Xanthippus_(Carthaginian_general)",
+      "wikiSlug": "Xanthippus_(Spartan_commander)",
       "type": "people"
     },
     {
@@ -1121,7 +1121,7 @@
     {
       "term": "Mago agricultural treatise",
       "matchText": "agricultural treatise",
-      "wikiSlug": "Mago_(agriculture)",
+      "wikiSlug": "Mago_(agricultural_writer)",
       "type": "concept"
     },
     {
@@ -1145,8 +1145,9 @@
     {
       "term": "Punic faith",
       "matchText": "Punic faith",
-      "wikiSlug": "Punic_faith",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A Roman proverb (fides Punica) meaning treachery or dishonesty. The Romans used \"Punic faith\" as a slur for the Carthaginians — a hostile stereotype supplied by Carthage's enemies, not a neutral description."
     },
     {
       "term": "Phoenician alphabet",

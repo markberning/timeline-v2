@@ -15,8 +15,9 @@
     {
       "term": "aguada",
       "matchText": "aguadas",
-      "wikiSlug": "Aguada_(reservoir)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Seasonal lakes scattered across the Maya lowlands, where rainwater pooled in natural depressions. They held water for part of the year but were unreliable, drying up between rains."
     },
     {
       "term": "Guatemala",
@@ -191,8 +192,9 @@
     {
       "term": "bajos",
       "matchText": "bajos",
-      "wikiSlug": "Bajo_(geography)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Large seasonal swamps in the Maya lowlands that flooded in the wet season and dried out in the dry one. When managed, they could store water and serve as farmland."
     },
     {
       "term": "corbel arch",
@@ -209,7 +211,7 @@
     {
       "term": "lime mortar",
       "matchText": "lime mortar",
-      "wikiSlug": "Lime_morite",
+      "wikiSlug": "Lime_mortar",
       "type": "concept"
     },
     {
@@ -343,7 +345,7 @@
     {
       "term": "Naranjo",
       "matchText": "Naranjo",
-      "wikiSlug": "Naranjo_(Maya_city)",
+      "wikiSlug": "Naranjo",
       "type": "place"
     },
     {
@@ -501,7 +503,7 @@
     {
       "term": "jade mosaic death mask",
       "matchText": "jade mosaic death mask",
-      "wikiSlug": "Mask_of_Pakal",
+      "wikiSlug": "Jade_mask_of_Pakal",
       "type": "concept"
     },
     {
@@ -555,8 +557,9 @@
     {
       "term": "Hieroglyphic Stairway",
       "matchText": "Hieroglyphic Stairway",
-      "wikiSlug": "Hieroglyphic_Stairway",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A monumental inscribed staircase at the Maya city of Copán, carved with over 2,000 glyphs. It's the longest surviving Maya text, a single staircase that doubles as a written history."
     },
     {
       "term": "Quiriguá",
@@ -591,7 +594,7 @@
     {
       "term": "Naranjo",
       "matchText": "Naranjo",
-      "wikiSlug": "Naranjo_(Maya_city)",
+      "wikiSlug": "Naranjo",
       "type": "place"
     },
     {
@@ -707,8 +710,9 @@
     {
       "term": "Governor's Palace",
       "matchText": "Governor's Palace",
-      "wikiSlug": "Governor%27s_Palace_(Uxmal)",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A long, low building set atop a massive platform at the Maya city of Uxmal. It's widely considered the single finest piece of architecture in all of pre-Columbian America."
     },
     {
       "term": "Toniná",
@@ -793,7 +797,7 @@
     {
       "term": "Postclassic",
       "matchText": "Postclassic",
-      "wikiSlug": "Postclassic_Maya",
+      "wikiSlug": "Mesoamerican_chronology",
       "type": "concept"
     },
     {
@@ -805,8 +809,9 @@
     {
       "term": "Great Ball Court",
       "matchText": "Great Ball Court",
-      "wikiSlug": "Great_Ball_Court",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "The largest Mesoamerican ball court ever built, at Chichén Itzá — roughly 545 feet (166 meters) long. It hosted the ritual Mesoamerican ball game played with a heavy rubber ball."
     },
     {
       "term": "Temple of the Warriors",
@@ -871,8 +876,9 @@
     {
       "term": "Xiu dynasty",
       "matchText": "Xiu",
-      "wikiSlug": "Xiu_dynasty",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "One of the noble Maya families in the League of Mayapán. The Xiu eventually led a revolt against the ruling Cocom dynasty, helping bring the league down."
     },
     {
       "term": "Mérida",
@@ -955,7 +961,7 @@
     {
       "term": "solar evaporation",
       "matchText": "solar evaporation",
-      "wikiSlug": "Solar_evaporation_pond",
+      "wikiSlug": "Salt_evaporation_pond",
       "type": "concept"
     },
     {
@@ -1193,7 +1199,7 @@
     {
       "term": "Champotón",
       "matchText": "Champotón",
-      "wikiSlug": "Battle_of_Champotón",
+      "wikiSlug": "Champot%C3%B3n,_Campeche",
       "type": "place"
     },
     {
@@ -1313,7 +1319,7 @@
     {
       "term": "Great Maya Revolt",
       "matchText": "Great Maya Revolt of 1546",
-      "wikiSlug": "Great_Maya_Revolt",
+      "wikiSlug": "Spanish_conquest_of_the_Maya",
       "type": "concept"
     },
     {

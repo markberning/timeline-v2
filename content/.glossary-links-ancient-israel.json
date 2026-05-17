@@ -737,7 +737,7 @@
     {
       "term": "Tekoa",
       "matchText": "Tekoa",
-      "wikiSlug": "Tekoa_(biblical)",
+      "wikiSlug": "Tekoa_(ancient_town)",
       "type": "place"
     },
     {
@@ -889,8 +889,9 @@
     {
       "term": "siege of Samaria",
       "matchText": "siege of Samaria",
-      "wikiSlug": "Siege_of_Samaria_(724%E2%80%93722_BC)",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The three-year Assyrian blockade of Samaria, capital of the northern kingdom of Israel, from 724 to 722 BCE. Its fall ended that kingdom and sent much of its population into exile."
     },
     {
       "term": "Gilead",

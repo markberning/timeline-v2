@@ -40,10 +40,11 @@ export interface TlSpan {
 
 export interface GlossaryEntry {
   term: string
-  wikiSlug: string
+  wikiSlug: string // a real Wikipedia slug, OR an opaque `def:<slug>` token for authored-blurb entries
   type: string
   wikiExtract?: string
   thumbnailUrl?: string
+  definition?: string // authored house-voice blurb (events-style); shown instead of wikiExtract
 }
 
 export interface CrossLink {

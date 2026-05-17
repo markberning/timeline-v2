@@ -603,7 +603,7 @@
     {
       "term": "Marius and Sulla",
       "matchText": "Marius and Sulla",
-      "wikiSlug": "Marius%E2%80%93Sulla_civil_wars",
+      "wikiSlug": "Sulla%27s_civil_war",
       "type": "concept"
     },
     {
@@ -617,8 +617,9 @@
     {
       "term": "Lateral succession",
       "matchText": "lateral succession",
-      "wikiSlug": "Lateral_succession",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A way of passing down rule where the title goes sideways between brothers or cousins instead of straight from father to son. It keeps experienced adults in charge but breeds lots of rival claimants."
     },
     {
       "term": "Huhanye Chanyu",
@@ -665,8 +666,9 @@
     {
       "term": "Bi Chanyu",
       "matchText": "Bi Chanyu",
-      "wikiSlug": "Bi_(Xiongnu_ruler)",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "The Xiongnu leader who in 48 CE broke away to form the Southern Xiongnu, submitting to China's Han dynasty and settling his people as frontier guards in the Ordos region in exchange for grain and goods."
     },
     {
       "term": "Ordos region",
@@ -743,7 +745,7 @@
     {
       "term": "Liu Yuan",
       "matchText": "Liu Yuan",
-      "wikiSlug": "Liu_Yuan_(emperor)",
+      "wikiSlug": "Liu_Yuan_(Han-Zhao)",
       "type": "people"
     },
     {
@@ -901,8 +903,9 @@
     {
       "term": "Bronze cauldron",
       "matchText": "bronze cauldrons",
-      "wikiSlug": "Hunnic_cauldron",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Large cast-bronze cooking and ritual vessels used by steppe nomads. Examples found across Central Asia and Eastern Europe resemble Xiongnu metalwork from Mongolia, hinting at cultural connections across the steppe."
     },
     {
       "term": "Hungary",

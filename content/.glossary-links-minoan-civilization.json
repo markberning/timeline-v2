@@ -57,7 +57,7 @@
     {
       "term": "Mesara",
       "matchText": "Mesara",
-      "wikiSlug": "Mesara_plain",
+      "wikiSlug": "Messara_Plain",
       "type": "place"
     },
     {
@@ -185,7 +185,7 @@
     {
       "term": "Mesara plain",
       "matchText": "Mesara plain",
-      "wikiSlug": "Mesara_plain",
+      "wikiSlug": "Messara_Plain",
       "type": "place"
     },
     {
@@ -549,14 +549,16 @@
     {
       "term": "Sacral knot",
       "matchText": "sacral knot",
-      "wikiSlug": "Sacral_knot",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A knotted scarf or band of cloth worn at the back of the neck in Minoan art, thought to carry religious meaning. It shows up so often on figures and as a standalone symbol that scholars treat it as a sacred emblem."
     },
     {
       "term": "Isopata Ring",
       "matchText": "Isopata Ring",
-      "wikiSlug": "Isopata_ring",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A gold signet ring found in a tomb near Knossos, showing four women dancing ecstatically in a flower-filled meadow while a small figure floats down from the sky — likely a god appearing to mortals."
     },
     {
       "term": "Inanna",
@@ -597,13 +599,13 @@
     {
       "term": "Galatas",
       "matchText": "Galatas",
-      "wikiSlug": "Galatas_(Crete)",
+      "wikiSlug": "Galatas_Palace",
       "type": "place"
     },
     {
       "term": "Petras",
       "matchText": "Petras",
-      "wikiSlug": "Petras,_Crete",
+      "wikiSlug": "Petras",
       "type": "place"
     },
     {
@@ -773,8 +775,9 @@
     {
       "term": "Canaanite jars",
       "matchText": "Canaanite jars",
-      "wikiSlug": "Canaanite_jar",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A distinctive pottery shipping container used all over the ancient Near East — basically the standard freight vessel for moving oil, wine, and other goods by sea, including in trade between the Levant and Minoan Crete."
     },
     {
       "term": "Peloponnesian War",
@@ -1083,13 +1086,14 @@
     {
       "term": "Boxer Rhyton",
       "matchText": "Boxer Rhyton",
-      "wikiSlug": "Boxer_vase",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A carved black-stone ritual pouring vessel found at Hagia Triada on Crete, decorated with lively scenes of boxers and bull-leapers — a showpiece of Minoan stone-carving and sporting imagery."
     },
     {
       "term": "Subminoan period",
       "matchText": "Subminoan period",
-      "wikiSlug": "Sub-Minoan_pottery",
+      "wikiSlug": "Minoan_chronology",
       "type": "concept"
     },
     {

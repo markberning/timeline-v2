@@ -191,7 +191,7 @@
     {
       "term": "Red Staircase",
       "matchText": "the Red Staircase",
-      "wikiSlug": "Red_Staircase",
+      "wikiSlug": "Palace_of_Facets",
       "type": "place"
     },
     {
@@ -227,7 +227,7 @@
     {
       "term": "Preobrazhenskoye",
       "matchText": "Preobrazhenskoye",
-      "wikiSlug": "Preobrazhenskoye_(Moscow)",
+      "wikiSlug": "Preobrazhenskoye_District",
       "type": "place"
     },
     {
@@ -355,7 +355,7 @@
     {
       "term": "Saxony-Poland",
       "matchText": "Saxony-Poland",
-      "wikiSlug": "Polish–Saxon_union",
+      "wikiSlug": "Personal_union_of_Poland_and_Saxony",
       "type": "place"
     },
     {
@@ -471,7 +471,7 @@
     {
       "term": "census",
       "matchText": "censuses",
-      "wikiSlug": "Russian_census_(Imperial)",
+      "wikiSlug": "Russian_Empire_census",
       "type": "concept"
     },
     {
@@ -1179,7 +1179,7 @@
     {
       "term": "abdicated",
       "matchText": "Napoleon abdicated",
-      "wikiSlug": "Abdication_of_Napoleon_I",
+      "wikiSlug": "Napoleon%27s_first_abdication",
       "type": "concept"
     },
     {
@@ -1241,7 +1241,7 @@
     {
       "term": "military colonies",
       "matchText": "the military colonies",
-      "wikiSlug": "Military_settlement_(Russia)",
+      "wikiSlug": "Military_settlement",
       "type": "institution"
     },
     {
@@ -1307,7 +1307,7 @@
     {
       "term": "Senate Square",
       "matchText": "the Senate Square",
-      "wikiSlug": "Senate_Square,_Saint_Petersburg",
+      "wikiSlug": "Senate_Square_(Saint_Petersburg)",
       "type": "place"
     },
     {
@@ -1425,8 +1425,9 @@
     {
       "term": "Jerusalem",
       "matchText": "Jerusalem",
-      "wikiSlug": "Status_Quo_(Holy_Land_sites)",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "The ancient holy city in the Levant, sacred to Jews, Christians, and Muslims. In the 1850s it sat under Ottoman rule, and a quarrel over which Christians controlled its holy sites helped spark the Crimean War."
     },
     {
       "term": "Bethlehem",
@@ -1559,7 +1560,7 @@
     {
       "term": "redemption payments",
       "matchText": "redemption payments",
-      "wikiSlug": "Redemption_payments",
+      "wikiSlug": "Emancipation_reform_of_1861",
       "type": "concept"
     },
     {
@@ -1571,7 +1572,7 @@
     {
       "term": "Great Reforms",
       "matchText": "the Great Reforms",
-      "wikiSlug": "Great_Reforms_(Russia)",
+      "wikiSlug": "Government_reforms_of_Alexander_II_of_Russia",
       "type": "concept"
     },
     {
@@ -1663,8 +1664,9 @@
     {
       "term": "Black Repartition",
       "matchText": "Black Repartition",
-      "wikiSlug": "Black_Repartition",
-      "type": "institution"
+      "wikiSlug": "",
+      "type": "institution",
+      "definition": "A Russian revolutionary group of the early 1880s, led by Georgi Plekhanov, that broke from the terrorist wing and favored patient propaganda among the people instead of assassination. The name refers to redistributing land to the peasants."
     },
     {
       "term": "Plekhanov",
@@ -1879,8 +1881,9 @@
     {
       "term": "land captain",
       "matchText": "the \"land captain",
-      "wikiSlug": "Zemsky_nachalnik",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "An appointed government official created under Alexander III, drawn from the gentry, who held wide administrative and judicial power over the peasants. The post clawed back much of the personal freedom peasants had won when serfdom was abolished in 1861."
     },
     {
       "term": "Meiji Japan",
@@ -2093,7 +2096,7 @@
     {
       "term": "War Industry Committees",
       "matchText": "the War Industry Committees",
-      "wikiSlug": "War_Industries_Committee",
+      "wikiSlug": "War_Industry_Committee",
       "type": "institution"
     },
     {
