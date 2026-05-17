@@ -1,70 +1,128 @@
 {
- "1": [
-  {
-   "matchText": "the Ming dynasty fell",
-   "targetTl": "ming-dynasty",
-   "targetChapter": 8,
-   "blurb": "The Ming dynasty's final decades brought fiscal collapse, Little Ice Age crop failures, and peasant rebellion; in April 1644 the rebel Li Zicheng took Beijing and the last Ming emperor, the Chongzhen Emperor, hanged himself on Coal Hill behind the palace, ending 276 years of the last ethnically Han imperial dynasty and creating the vacuum the Manchus walked into."
-  },
-  {
-   "matchText": "the Mongol decimal army",
-   "targetTl": "mongol-empire",
-   "targetChapter": 2,
-   "blurb": "Genghis Khan reorganized the steppe tribes into a decimal army (units of 10, 100, 1,000, 10,000) that cut across old clan loyalties and fused military and social structure, the same fusion Nurhaci's Eight Banners achieved four centuries later, and the instrument with which the Mongols conquered the very north-China territory the Manchus would take."
-  }
- ],
- "2": [
-  {
-   "matchText": "the Mughal empire under Aurangzeb",
-   "targetTl": "mughal-empire",
-   "targetChapter": 7,
-   "blurb": "Aurangzeb pushed the Mughal Empire to its maximum territorial extent in the late 17th century through relentless campaigning in the Deccan, but the overextension, religious-policy reversals, and fiscal strain of his reign began the imperial unraveling, making him the rough Indian contemporary and structural mirror of Kangxi's expanding Qing."
-  },
-  {
-   "matchText": "the walls of Vienna in 1683",
-   "targetTl": "ottoman-empire",
-   "targetChapter": 8,
-   "blurb": "The Ottoman siege of Vienna in 1683 ended in catastrophic defeat by a Habsburg-Polish relief army, beginning the long Ottoman territorial retreat in Europe; it is the same generation in which the Qing, Mughals, and Ottomans all stood near their maximum extent just before Europe's accelerating divergence."
-  }
- ],
- "5": [
-  {
-   "matchText": "forced labor",
-   "targetTl": "inca-empire",
-   "targetChapter": 8,
-   "blurb": "Potosí, in the former Inca heartland of highland Bolivia, became the largest silver mine in the world under Spanish colonial rule, worked through the brutal mit'a forced-labor draft adapted from Inca corvée; a large share of its silver crossed the Pacific via the Manila galleons to China, financing the Qing world-system described here."
-  }
- ],
- "6": [
-  {
-   "matchText": "grew the poppy that broke China",
-   "targetTl": "modern-india",
-   "targetChapter": 1,
-   "blurb": "The same chartered East India Company that ruled and taxed Bengal ran a monopoly on opium cultivation in India and auctioned the drug to private 'country traders' who smuggled it into China; the Indian opium revenue was a structural pillar of British India's finances, tying the Qing collapse directly to the colonial economy of the subcontinent."
-  }
- ],
- "10": [
-  {
-   "matchText": "Japan, after 1868",
-   "targetTl": "meiji-japan",
-   "targetChapter": 1,
-   "blurb": "The Meiji Restoration of 1868 overthrew the Tokugawa shogunate and rebuilt Japan's state, army, economy, law, and schools wholesale on Western lines; running in the very same decades as Qing Self-Strengthening, it is the controlled experiment that exposed the fatal flaw in 'Chinese learning as the base, Western learning for use.'"
-  }
- ],
- "11": [
-  {
-   "matchText": "handed it to Japanese influence",
-   "targetTl": "korean-modern",
-   "targetChapter": 1,
-   "blurb": "Japan's victory over China in 1895 ended the centuries-old Sino-Korean tributary relationship and pulled Korea into the Japanese sphere, the first step on the road to the 1905 protectorate and the 1910 annexation that began Korea's colonial period."
-  }
- ],
- "13": [
-  {
-   "matchText": "running back over two thousand years to the first emperor",
-   "targetTl": "qin-dynasty",
-   "targetChapter": 2,
-   "blurb": "Qin Shi Huang unified the warring states in 221 BCE and created the office of 'emperor' (huangdi) and the centralized bureaucratic imperial system; the institution Puyi's 1912 abdication ended ran, with dynastic interruptions, in an unbroken line of descent from that founding."
-  }
- ]
+  "1": [
+    {
+      "matchText": "the Ming dynasty fell",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Ming dynasty's final decades brought fiscal collapse, Little Ice Age crop failures, and peasant rebellion; in April 1644 the rebel Li Zicheng took Beijing and the last Ming emperor, the Chongzhen Emperor, hanged himself on Coal Hill behind the palace, ending 276 years of the last ethnically Han imperial dynasty and creating the vacuum the Manchus walked into."
+    },
+    {
+      "matchText": "the Mongol decimal army",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Genghis Khan reorganized the steppe tribes into a decimal army (units of 10, 100, 1,000, 10,000) that cut across old clan loyalties and fused military and social structure, the same fusion Nurhaci's Eight Banners achieved four centuries later, and the instrument with which the Mongols conquered the very north-China territory the Manchus would take."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Manchu conquest is where the Ming story ended — a northern frontier people taking all China when the native dynasty rotted, the Yuan pattern again."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "the Mughal empire under Aurangzeb",
+      "targetTl": "mughal-empire",
+      "targetChapter": 7,
+      "blurb": "Aurangzeb pushed the Mughal Empire to its maximum territorial extent in the late 17th century through relentless campaigning in the Deccan, but the overextension, religious-policy reversals, and fiscal strain of his reign began the imperial unraveling, making him the rough Indian contemporary and structural mirror of Kangxi's expanding Qing."
+    },
+    {
+      "matchText": "the walls of Vienna in 1683",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "The Ottoman siege of Vienna in 1683 ended in catastrophic defeat by a Habsburg-Polish relief army, beginning the long Ottoman territorial retreat in Europe; it is the same generation in which the Qing, Mughals, and Ottomans all stood near their maximum extent just before Europe's accelerating divergence."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 7,
+      "blurb": "Kangxi's long reign is contemporary with Aurangzeb's — two vast early-modern Asian land empires at their maximum extent, both about to strain."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "Qing, Mughal, Ottoman: the three great early-modern Islamic-and-Confucian gunpowder empires, all peaking in the 17th–18th centuries."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "forced labor",
+      "targetTl": "inca-empire",
+      "targetChapter": 8,
+      "blurb": "Potosí, in the former Inca heartland of highland Bolivia, became the largest silver mine in the world under Spanish colonial rule, worked through the brutal mit'a forced-labor draft adapted from Inca corvée; a large share of its silver crossed the Pacific via the Manila galleons to China, financing the Qing world-system described here."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 8,
+      "blurb": "The Qing world-system — tribute, frontier management, a closed trade regime — was the East Asian order the European maritime powers would crack, as they cracked the Inca."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "grew the poppy that broke China",
+      "targetTl": "modern-india",
+      "targetChapter": 1,
+      "blurb": "The same chartered East India Company that ruled and taxed Bengal ran a monopoly on opium cultivation in India and auctioned the drug to private 'country traders' who smuggled it into China; the Indian opium revenue was a structural pillar of British India's finances, tying the Qing collapse directly to the colonial economy of the subcontinent."
+    },
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 1,
+      "blurb": "The cracks in the Qing mandate opened just as the British were consolidating India — the two great Asian civilizations entering the colonial century together."
+    }
+  ],
+  "10": [
+    {
+      "matchText": "Japan, after 1868",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The Meiji Restoration of 1868 overthrew the Tokugawa shogunate and rebuilt Japan's state, army, economy, law, and schools wholesale on Western lines; running in the very same decades as Qing Self-Strengthening, it is the controlled experiment that exposed the fatal flaw in 'Chinese learning as the base, Western learning for use.'"
+    },
+    {
+      "matchText": "Meiji Japan",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Self-Strengthening was China's attempt at what Meiji Japan did — and its failure, against Japan's success, is the great comparative lesson of modern East Asia."
+    }
+  ],
+  "11": [
+    {
+      "matchText": "handed it to Japanese influence",
+      "targetTl": "korean-modern",
+      "targetChapter": 1,
+      "blurb": "Japan's victory over China in 1895 ended the centuries-old Sino-Korean tributary relationship and pulled Korea into the Japanese sphere, the first step on the road to the 1905 protectorate and the 1910 annexation that began Korea's colonial period."
+    },
+    {
+      "matchText": "Meiji Japan",
+      "targetTl": "meiji-japan",
+      "targetChapter": 7,
+      "blurb": "The 1895 catastrophe was defeat by Japan — Meiji's victory over the Qing announced the reversal of the millennia-old East Asian order."
+    }
+  ],
+  "13": [
+    {
+      "matchText": "running back over two thousand years to the first emperor",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 2,
+      "blurb": "Qin Shi Huang unified the warring states in 221 BCE and created the office of 'emperor' (huangdi) and the centralized bureaucratic imperial system; the institution Puyi's 1912 abdication ended ran, with dynastic interruptions, in an unbroken line of descent from that founding."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 1,
+      "blurb": "The Opium Wars forced China into the unequal-treaty system India was already living under — the same European commercial imperialism, a generation apart."
+    }
+  ],
+  "12": [
+    {
+      "matchText": "Chinese Revolution",
+      "targetTl": "chinese-revolution",
+      "targetChapter": 1,
+      "blurb": "The Boxer disaster and the last failed reforms are the direct prologue to 1911 — the Qing collapse the revolutionary story begins from."
+    }
+  ]
 }
