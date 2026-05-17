@@ -2,7 +2,7 @@
 
 One file per TL. Map generation is **automated** — `node --env-file=.env.local scripts/generate-maps.mjs {tlId}` parses this file, splits it on `## Chapter N` headers, prepends the per-TL preamble, and calls the Gemini image API (`gemini-3-pro-image-preview`) once per chapter. Output is written to `public/maps/{tlId}/chapter-{N}.png` where `{tlId}` is the full TL id (e.g. `ancient-nubia`, not `nubia`). The script is idempotent (skips chapters that already exist) and resumable with `--chapter N`. After auditing the thumbnails and regenerating any bad chapters, run `node scripts/optimize-maps.mjs` to convert the PNGs to `.webp` at quality 85 — **this deletes the PNG originals** (the `.webp` is the only retained copy). The reader loads `.webp` via the image probe in `src/components/chapter-accordion.tsx`.
 
-This README documents the prompt **house style** the script relies on. The CRITICAL RULES block and lean spec below are still authoritative — the script injects them, and prompt quality still determines map quality.
+This README documents the prompt **house style**. The CRITICAL RULES block and lean spec below are authoritative. As of 2026-05, `generate-maps.mjs` `preprocessPrompt()` also **auto-injects the global defect-prevention rules** (duplicate-label, no modern political geography, no compass words, no ornamental glyphs, frame, water) into *every* chapter prompt at generation time — so even older prompt files that lack the block get them on regen. New/redo prompts must still paste the CRITICAL RULES block, since per-prompt literal directives are followed more reliably than the global injection alone.
 
 ---
 
@@ -15,12 +15,15 @@ Paste this block at the top of every prompt, before the chapter-title directive,
 ```
 **CRITICAL RULES — read carefully before drawing:**
 
-1. **Draw each label exactly once.** Do not repeat any city name, region name, river name, or annotation anywhere on the map. If you see an opportunity to put the same label in two places, choose only one.
+1. **Draw each label exactly once.** Do not repeat any city name, region name, river name, or annotation anywhere on the map. If you see an opportunity to put the same label in two places, choose only one. **Long rivers are the single most frequent failure** — a long river (Nile, Yellow River, Niger, Volga, Euphrates, Tigris, Ganges, Danube, Mississippi) gets ONE label along its course, never a second copy near another bend.
 2. **Spell every label exactly as written in this prompt.** Do not invent words. Do not abbreviate. Do not generate any word that is not in the prompt text. (On prior runs Gemini invented words like "cononniat", "reachit", and "Kushi" — do not do this.)
 3. **Include the exact site name on every label.** The site name is the word or phrase before the first parenthesis or em-dash. Never drop a site name. If this prompt says "Aniba / Miam (the Viceroy's capital)", the rendered label must begin with "Aniba / Miam" — not just "The Viceroy's capital".
 4. **North is at the top of the map. East is to the right.** Place every location according to its real-world geography in this orientation. Do not rotate or tilt the map.
 5. **All water is light blue.** Seas, bays, lakes, and rivers are rendered in light blue. Do not render water as tan, cream, or white. Deserts are pale yellow. Land is beige/tan. River floodplains are soft green.
 6. **Do not invent any labels, annotations, sites, or features that are not in this prompt.** If it is not in the prompt, do not draw it.
+7. **No modern political geography.** Do not draw modern country names (PAKISTAN, IRAN, IRAQ, TURKEY, INDIA, AFGHANISTAN, EGYPT, MEXICO, CHILE, etc.) or any modern national border lines, solid or dotted. This is a historical map.
+8. **No compass words as labels.** Never print the words North, South, East, West (or the letters N/S/E/W) anywhere on the image. Orientation is north-up by convention only; it must not appear as rendered text.
+9. **No ornamental glyphs.** No decorative star, four-point sparkle, twinkle, compass-rose flourish, or corner ornament. A stray sparkle has repeatedly appeared in the bottom-right corner on prior runs — do not draw it.
 
 ---
 

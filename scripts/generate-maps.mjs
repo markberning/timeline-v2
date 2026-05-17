@@ -154,13 +154,37 @@ function preprocessPrompt(prompt) {
     touchedSiteList = true
     return `${m[1]}${m[2].trim()}`
   })
-  if (!touchedSiteList) return prompt
+
+  // Global defect-prevention rules — injected into EVERY chapter prompt
+  // (regardless of site-bullet shape), so older prompt files that lack the
+  // README CRITICAL RULES block (e.g. mesopotamia, indus-valley) still get
+  // them on regen. Each rule targets a recurring failure found in the
+  // 2026-05 corpus map audit (see audits/map-audit.md).
+  const globalRules = [
+    '**DUPLICATE-LABEL RULE (the #1 corpus defect):** Draw every city, region, sea, and river label EXACTLY ONCE. Long rivers are the most frequent failure: a long river (for example the Nile, Yellow River, Niger, Volga, Euphrates, Tigris, Ganges, Danube, Mississippi) gets ONE label along its course and never a second copy near another bend. Never repeat any annotation text anywhere.',
+    '',
+    '**NO MODERN POLITICAL GEOGRAPHY:** This is a historical map. Do not draw modern country names (for example PAKISTAN, IRAN, IRAQ, TURKEY, INDIA, AFGHANISTAN, EGYPT, MEXICO, CHILE) and do not draw any modern national border lines, solid or dotted. Show only the regions, sites, and labels named in this prompt.',
+    '',
+    '**NO COMPASS WORDS AS LABELS:** Do not print the words North, South, East, or West, or the single letters N, S, E, W, anywhere on the image. The map is north-up by convention only; orientation must never appear as rendered text.',
+    '',
+    '**NO ORNAMENTAL GLYPHS:** Do not add any decorative star, four-point sparkle, twinkle, compass-rose flourish, or corner ornament anywhere. A stray sparkle has repeatedly appeared in the bottom-right corner on prior runs — do not draw it or any other ornament.',
+    '',
+    '**FRAME RULE:** The chapter-title header bar is the ONLY bordered element. The map geography extends fully edge-to-edge on the left, right, and bottom — no rectangular frame, box, or border around the map on those three sides.',
+    '',
+    '**WATER IS LIGHT BLUE:** Every sea, bay, lake, and river is light blue. Never render water as gray, cream, tan, sepia, parchment, or white. Land is beige/tan; desert is pale yellow.',
+    '',
+    '**NO DECORATIVE ELEMENTS:** Do not draw a compass rose, scale bar, legend, north arrow, latitude/longitude grid, inset map, secondary map panel, or any other cartographic decoration that this prompt does not explicitly request. Do not add a second map showing nearby regions or cultural diffusion. The only required text elements are the title bar, the bulleted labels, the listed region labels, and the single annotation specified. Nothing else.',
+  ].join('\n')
+
+  if (!touchedSiteList) {
+    return [prompt, '', globalRules].join('\n')
+  }
   return [
     out.join('\n'),
     '',
     '**LABEL TEXT RULE (overrides everything else):** For every bulleted item in this prompt, render the label exactly as it appears in the bullet — nothing more. Do not invent descriptive text, do not add dates, do not append parenthetical explanations. The bullet text is the complete label.',
     '',
-    '**NO DECORATIVE ELEMENTS:** Do not draw a compass rose, scale bar, legend, north arrow, latitude/longitude grid, inset map, secondary map panel, or any other cartographic decoration that this prompt does not explicitly request. Do not add a second map showing nearby regions or cultural diffusion. The only required text elements are the title bar, the bulleted labels, the listed region labels, and the single annotation specified above. Nothing else.',
+    globalRules,
   ].join('\n')
 }
 
