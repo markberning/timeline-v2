@@ -66,7 +66,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | qin-dynasty | 8 | **DONE** | 9766b20 |
 | han-dynasty | 8 | **DONE** | 50d7a8e |
 | six-dynasties | 8 | **DONE** | 0a094b9 |
-| tang-song-china | 9 | **DONE** (pre-existing malformed cross) | +this |
+| tang-song-china | 9 | **DONE** (pre-existing malformed cross) | ccde888 |
+| yuan-dynasty | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
