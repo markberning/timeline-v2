@@ -1,19 +1,636 @@
 {
   "1": [
-    { "term": "Eurasian steppe", "matchText": "Eurasian steppe", "wikiSlug": "Eurasian_Steppe", "type": "concept" },
-    { "term": "Orkhon", "matchText": "Orkhon", "wikiSlug": "Orkhon_River", "type": "concept" },
-    { "term": "Ötüken", "matchText": "Ötüken", "wikiSlug": "Ötüken", "type": "concept" },
-    { "term": "Tiele", "matchText": "Tiele", "wikiSlug": "Tiele_people", "type": "people" },
-    { "term": "Ashina", "matchText": "Ashina", "wikiSlug": "Ashina_(tribe)", "type": "people" },
-    { "term": "Karluks", "matchText": "Karluks", "wikiSlug": "Karluks", "type": "people" },
-    { "term": "Basmyl", "matchText": "Basmyl", "wikiSlug": "Basmyls", "type": "people" },
-    { "term": "Qutlugh Bilge Köl", "matchText": "Qutlugh Bilge Köl", "wikiSlug": "Qutlugh_Bilge_Köl_Qaghan", "type": "person" },
-    { "term": "Özmiş", "matchText": "Özmiş", "wikiSlug": "Özmiş_Qaghan", "type": "person" },
-    { "term": "Bayanchur Khan", "matchText": "Bayanchur Khan", "wikiSlug": "Bayanchur_Khan", "type": "person" },
-    { "term": "Ordu-Baliq", "matchText": "Ordu-Baliq", "wikiSlug": "Ordu-Baliq", "type": "concept" },
-    { "term": "Toquz Oghuz", "matchText": "Toquz Oghuz", "wikiSlug": "Toquz_Oghuz", "type": "people" },
-    { "term": "qaghan", "matchText": "qaghan", "wikiSlug": "Khagan", "type": "concept" },
-    { "term": "Abbasid Revolution", "matchText": "Abbasid Revolution", "wikiSlug": "Abbasid_Revolution", "type": "concept" },
-    { "term": "Battle of Talas", "matchText": "Battle of Talas", "wikiSlug": "Battle_of_Talas", "type": "concept" }
+    {
+      "term": "Eurasian steppe",
+      "matchText": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "concept"
+    },
+    {
+      "term": "Orkhon",
+      "matchText": "Orkhon",
+      "wikiSlug": "Orkhon_River",
+      "type": "concept"
+    },
+    {
+      "term": "Ötüken",
+      "matchText": "Ötüken",
+      "wikiSlug": "Ötüken",
+      "type": "concept"
+    },
+    {
+      "term": "Tiele",
+      "matchText": "Tiele",
+      "wikiSlug": "Tiele_people",
+      "type": "people"
+    },
+    {
+      "term": "Ashina",
+      "matchText": "Ashina",
+      "wikiSlug": "Ashina_(tribe)",
+      "type": "people"
+    },
+    {
+      "term": "Karluks",
+      "matchText": "Karluks",
+      "wikiSlug": "Karluks",
+      "type": "people"
+    },
+    {
+      "term": "Basmyl",
+      "matchText": "Basmyl",
+      "wikiSlug": "Basmyls",
+      "type": "people"
+    },
+    {
+      "term": "Qutlugh Bilge Köl",
+      "matchText": "Qutlugh Bilge Köl",
+      "type": "person",
+      "definition": "The Yaglakar-clan leader who overthrew the Second Türk Khaganate and proclaimed the Uyghur Khaganate on the Orkhon in 744, taking the title qaghan. He died in 747; his son Bayanchur built the state he had founded. No dedicated English Wikipedia article exists for him."
+    },
+    {
+      "term": "Özmiş",
+      "matchText": "Özmiş",
+      "wikiSlug": "Özmiş_Qaghan",
+      "type": "person"
+    },
+    {
+      "term": "Bayanchur Khan",
+      "matchText": "Bayanchur Khan",
+      "wikiSlug": "Bayanchur_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Ordu-Baliq",
+      "matchText": "Ordu-Baliq",
+      "wikiSlug": "Ordu-Baliq",
+      "type": "concept"
+    },
+    {
+      "term": "Toquz Oghuz",
+      "matchText": "Toquz Oghuz",
+      "wikiSlug": "Toquz_Oghuz",
+      "type": "people"
+    },
+    {
+      "term": "qaghan",
+      "matchText": "qaghan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Revolution",
+      "matchText": "Abbasid Revolution",
+      "wikiSlug": "Abbasid_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Talas",
+      "matchText": "Battle of Talas",
+      "wikiSlug": "Battle_of_Talas",
+      "type": "concept"
+    }
+  ],
+  "2": [
+    {
+      "term": "Chang'an",
+      "matchText": "Chang'an",
+      "wikiSlug": "Chang'an",
+      "type": "concept"
+    },
+    {
+      "term": "An Lushan",
+      "matchText": "An Lushan",
+      "wikiSlug": "An_Lushan",
+      "type": "person"
+    },
+    {
+      "term": "Yang Guifei",
+      "matchText": "Yang Guifei",
+      "wikiSlug": "Yang_Guifei",
+      "type": "person"
+    },
+    {
+      "term": "Sogdian",
+      "matchText": "an Iranian-speaking Silk Road trading people",
+      "type": "people",
+      "definition": "An Iranian-speaking people of the oasis cities of Samarkand and Bukhara (in modern Uzbekistan) whose caravan networks were the commercial nervous system of Inner Asia. Sogdians served as merchants, scribes, financiers, and diplomats across the steppe world for centuries."
+    },
+    {
+      "term": "Luoyang",
+      "matchText": "Luoyang",
+      "wikiSlug": "Luoyang",
+      "type": "concept"
+    },
+    {
+      "term": "horse-and-silk trade",
+      "matchText": "horse-and-silk trade",
+      "type": "concept",
+      "definition": "The structured exchange through which the Uyghurs drove herds of steppe horses to the Tang frontier and received back large quantities of silk at a fixed rate they set. Because silk functioned as currency across Inner Asia, this converted the steppe's surplus commodity into universal wealth and drained the Tang treasury for decades."
+    },
+    {
+      "term": "Princess Ningguo",
+      "matchText": "Princess Ningguo",
+      "wikiSlug": "Princess_Ningguo",
+      "type": "person"
+    },
+    {
+      "term": "Baghdad",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Inner Asia",
+      "matchText": "Inner Asia",
+      "wikiSlug": "Inner_Asia",
+      "type": "concept"
+    }
+  ],
+  "3": [
+    {
+      "term": "Tengrism",
+      "matchText": "Tengrism",
+      "wikiSlug": "Tengrism",
+      "type": "concept"
+    },
+    {
+      "term": "Tengri",
+      "matchText": "Tengri",
+      "wikiSlug": "Tengri",
+      "type": "concept"
+    },
+    {
+      "term": "Manichaeism",
+      "matchText": "Manichaeism",
+      "wikiSlug": "Manichaeism",
+      "type": "concept"
+    },
+    {
+      "term": "Mani",
+      "matchText": "prophet named",
+      "wikiSlug": "Mani_(prophet)",
+      "type": "person"
+    },
+    {
+      "term": "Sasanian Persia",
+      "matchText": "Sasanian Persia",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Zoroaster",
+      "matchText": "Zoroaster",
+      "wikiSlug": "Zoroaster",
+      "type": "person"
+    },
+    {
+      "term": "Zoroastrianism",
+      "matchText": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism",
+      "type": "concept"
+    },
+    {
+      "term": "Electi",
+      "matchText": "Electi",
+      "type": "concept",
+      "definition": "The elite clerical class of Manichaeism, called the 'elect' — full initiates who renounced meat, sex, property, and labor, and whose austere practice was believed to release trapped particles of Light from matter. They were supported by a larger class of lay followers called 'hearers.'"
+    },
+    {
+      "term": "Sogdian alphabet",
+      "matchText": "Sogdian alphabet",
+      "wikiSlug": "Sogdian_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Old Uyghur alphabet",
+      "matchText": "Old Uyghur alphabet",
+      "wikiSlug": "Old_Uyghur_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol script",
+      "matchText": "Mongol script",
+      "wikiSlug": "Mongolian_script",
+      "type": "concept"
+    },
+    {
+      "term": "Karabalgasun inscription",
+      "matchText": "Karabalgasun inscription",
+      "wikiSlug": "Karabalgasun_inscription",
+      "type": "concept"
+    },
+    {
+      "term": "Bögü Khan",
+      "matchText": "Bögü Khan",
+      "wikiSlug": "Bögü_Qaghan",
+      "type": "person"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "concept"
+    },
+    {
+      "term": "Bukhara",
+      "matchText": "Bukhara",
+      "wikiSlug": "Bukhara",
+      "type": "concept"
+    }
+  ],
+  "4": [
+    {
+      "term": "Yenisei Kyrgyz",
+      "matchText": "Yenisei Kyrgyz",
+      "wikiSlug": "Yenisei_Kyrgyz",
+      "type": "people"
+    },
+    {
+      "term": "jut",
+      "matchText": "the steppe's specific terror, when ice seals the grass and the herds starve standing in it",
+      "type": "concept",
+      "definition": "A catastrophic winter event on the Eurasian steppe, when ice crusts seal the grass beneath and livestock cannot graze, causing mass die-offs within days. A single severe jut could wipe out the herds that were a nomad army's horses, food supply, and currency all at once — the specific vulnerability a fixed-capital empire could not survive the way a dispersed nomadic one might."
+    },
+    {
+      "term": "Gansu corridor",
+      "matchText": "Gansu corridor",
+      "wikiSlug": "Hexi_Corridor",
+      "type": "concept"
+    },
+    {
+      "term": "Tarim",
+      "matchText": "Tarim",
+      "wikiSlug": "Tarim_Basin",
+      "type": "concept"
+    },
+    {
+      "term": "Külüg Bagha",
+      "matchText": "Külüg Bagha",
+      "type": "person",
+      "definition": "A Uyghur military commander who, having lost out in the palace killing-cycle of the 830s, defected to the Yenisei Kyrgyz and guided their army south onto the Uyghur heartland. His betrayal was the proximate trigger of the 840 sack of Ordu-Baliq — a reminder that steppe empires as often died from within as from without."
+    },
+    {
+      "term": "Huichang persecution",
+      "matchText": "Huichang persecution",
+      "wikiSlug": "Great_Anti-Buddhist_Persecution",
+      "type": "concept"
+    },
+    {
+      "term": "crisis of Samarra",
+      "matchText": "soldier-dominated crisis of Samarra",
+      "type": "concept",
+      "wikiSlug": "Anarchy_at_Samarra"
+    }
+  ],
+  "5": [
+    {
+      "term": "Ganzhou Uyghur Kingdom",
+      "matchText": "Ganzhou Uyghur Kingdom",
+      "wikiSlug": "Ganzhou_Uyghur_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Kingdom of Qocho",
+      "matchText": "Kingdom of Qocho",
+      "wikiSlug": "Kingdom_of_Qocho",
+      "type": "concept"
+    },
+    {
+      "term": "Nestorian Christian",
+      "matchText": "Nestorian Christian",
+      "wikiSlug": "Church_of_the_East",
+      "type": "concept"
+    },
+    {
+      "term": "Bezeklik Thousand Buddha Caves",
+      "matchText": "Bezeklik Thousand Buddha Caves",
+      "wikiSlug": "Bezeklik_Thousand_Buddha_Caves",
+      "type": "concept"
+    },
+    {
+      "term": "Tocharian",
+      "matchText": "Tocharian",
+      "wikiSlug": "Tocharian_languages",
+      "type": "people"
+    },
+    {
+      "term": "Old Uyghur alphabet",
+      "matchText": "Old Uyghur alphabet",
+      "wikiSlug": "Old_Uyghur_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "karez",
+      "matchText": "karez",
+      "wikiSlug": "Qanat",
+      "type": "concept"
+    },
+    {
+      "term": "qanat",
+      "matchText": "qanat",
+      "wikiSlug": "Qanat",
+      "type": "concept"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "the dynasty that reunified the country in 960, two centuries after the Tang's collapse",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Wang Yande",
+      "matchText": "Wang Yande",
+      "type": "person",
+      "definition": "A Song Chinese diplomat who visited the Uyghur Kingdom of Qocho in 981–984 and left a detailed written account of what he saw: irrigated fields, Buddhist monasteries, libraries, and a literate court. His report is one of the clearest eyewitness portraits of a nomad people who had, within two or three generations, become a settled agrarian civilization."
+    },
+    {
+      "term": "idiqut",
+      "matchText": "idiqut",
+      "wikiSlug": "Idiqut",
+      "type": "concept"
+    },
+    {
+      "term": "ortoq",
+      "matchText": "ortoq",
+      "type": "concept",
+      "definition": "A Central Asian capital-pooling trade partnership in which investors — merchants, nobles, even rulers — entrusted silver or silk to a traveling merchant and shared the profits on the caravan's return. The Uyghurs of Qocho ran ortoq networks across the Silk Road; when the Mongol Empire emerged it adopted the institution empire-wide as the *ortogh*, the commercial system that tied the Mongols' vast territories into a single trade network."
+    }
+  ],
+  "6": [
+    {
+      "term": "Kara-Khanid Khanate",
+      "matchText": "Kara-Khanid Khanate",
+      "wikiSlug": "Kara-Khanid_Khanate",
+      "type": "people"
+    },
+    {
+      "term": "Kashgar",
+      "matchText": "Kashgar",
+      "wikiSlug": "Kashgar",
+      "type": "concept"
+    },
+    {
+      "term": "Balasagun",
+      "matchText": "Balasagun",
+      "definition": "A major Kara-Khanid capital in the Chu valley of what is now Kyrgyzstan — one of the twin seats of the dynasty alongside Kashgar on the western Tarim. It stood at the crossroads of the Silk Road routes connecting China to Transoxiana and was a center of Turkic-Islamic scholarship, the city where Yusuf Khass Hajib composed the Kutadgu Bilig.",
+      "type": "concept"
+    },
+    {
+      "term": "Samanids",
+      "matchText": "Samanids",
+      "wikiSlug": "Samanid_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Transoxiana",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "concept"
+    },
+    {
+      "term": "Satuq Bughra Khan",
+      "matchText": "Satuq Bughra Khan",
+      "wikiSlug": "Sultan_Satuq_Bughra_Khan",
+      "type": "person"
+    },
+    {
+      "term": "ghilman",
+      "matchText": "ghilman",
+      "definition": "Slave soldiers in the Abbasid Caliphate and its successor states — young men, often Turkic, purchased or taken as boys, trained from childhood as professional cavalry, and highly loyal to their masters rather than to any tribe or homeland. The ghilman system produced many of the most effective armies of the medieval Islamic world, and was the route by which individual Turks converted to Islam long before any Turkic state did.",
+      "type": "concept"
+    },
+    {
+      "term": "mamluks",
+      "matchText": "mamluks",
+      "wikiSlug": "Mamluk",
+      "type": "concept"
+    },
+    {
+      "term": "Ghaznavids",
+      "matchText": "Ghaznavids",
+      "wikiSlug": "Ghaznavids",
+      "type": "people"
+    },
+    {
+      "term": "Kutadgu Bilig",
+      "matchText": "Kutadgu Bilig",
+      "wikiSlug": "Kutadgu_Bilig",
+      "type": "concept"
+    },
+    {
+      "term": "Yusuf Khass Hajib",
+      "matchText": "Yusuf Khass Hajib",
+      "wikiSlug": "Yusuf_Balasaguni",
+      "type": "person"
+    },
+    {
+      "term": "Dīwān Lughāt al-Turk",
+      "matchText": "Dīwān Lughāt al-Turk",
+      "wikiSlug": "Dīwān_Lughāt_al-Turk",
+      "type": "concept"
+    },
+    {
+      "term": "Mahmud al-Kashgari",
+      "matchText": "Mahmud al-Kashgari",
+      "wikiSlug": "Mahmud_al-Kashgari",
+      "type": "person"
+    },
+    {
+      "term": "Seljuks",
+      "matchText": "Seljuks",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "people"
+    },
+    {
+      "term": "dual-kaghanate",
+      "matchText": "a layered, deliberately divided system of senior and junior khans over an eastern and a western realm",
+      "definition": "The Kara-Khanid constitutional arrangement in which supreme authority was divided between a senior (Great) Khan ruling the eastern realm from Kashgar and a junior (Subordinate) Khan ruling the west from Balasagun or Samarkand. The system distributed legitimacy across the ruling family to prevent coups, but it also made collective decision-making nearly impossible and left the khanate vulnerable to being picked off vassal-by-vassal by a more unified power — exactly what the Qara-Khitai and then the Mongols did.",
+      "type": "concept"
+    },
+    {
+      "term": "Manzikert",
+      "matchText": "Manzikert",
+      "wikiSlug": "Battle_of_Manzikert",
+      "type": "concept"
+    }
+  ],
+  "7": [
+    {
+      "term": "Qara-Khitai",
+      "matchText": "Qara-Khitai",
+      "wikiSlug": "Qara_Khitai",
+      "type": "people"
+    },
+    {
+      "term": "Liao dynasty",
+      "matchText": "Liao dynasty",
+      "wikiSlug": "Liao_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Khitan",
+      "matchText": "Khitan",
+      "wikiSlug": "Khitan_people",
+      "type": "people"
+    },
+    {
+      "term": "Jurchen",
+      "matchText": "Jurchen",
+      "wikiSlug": "Jurchen_people",
+      "type": "people"
+    },
+    {
+      "term": "Jin dynasty",
+      "matchText": "Jin dynasty",
+      "wikiSlug": "Jin_dynasty_(1115–1234)",
+      "type": "people"
+    },
+    {
+      "term": "Yelü Dashi",
+      "matchText": "Yelü Dashi",
+      "wikiSlug": "Yelü_Dashi",
+      "type": "person"
+    },
+    {
+      "term": "jinshi",
+      "matchText": "jinshi",
+      "wikiSlug": "Jinshi_(imperial_examination)",
+      "type": "concept"
+    },
+    {
+      "term": "Gurkhan",
+      "matchText": "Gurkhan",
+      "definition": "A steppe title meaning roughly 'universal khan' or 'khan of khans' — a claim to supreme suzerainty over other rulers rather than merely a single people. Yelü Dashi adopted it in 1132 to announce that the Qara-Khitai stood above the Kara-Khanid khans, the Khwarazm-Shahs, and the other vassal rulers who paid them tribute. It is a deliberate echo of the steppe's most prestigious honorifics, self-consciously positioning a Chinese-style refugee dynasty as the rightful ruler of the Inner Asian world.",
+      "type": "concept"
+    },
+    {
+      "term": "Ahmad Sanjar",
+      "matchText": "Ahmad Sanjar",
+      "wikiSlug": "Ahmad_Sanjar",
+      "type": "person"
+    },
+    {
+      "term": "Battle of Qatwan",
+      "matchText": "Battle of Qatwan",
+      "wikiSlug": "Battle_of_Qatwan",
+      "type": "concept"
+    },
+    {
+      "term": "indirect rule",
+      "matchText": "indirect rule and light, regular taxation",
+      "definition": "The Qara-Khitai governing principle of leaving local dynasties — Kara-Khanid khans, Khwarazmian amirs, the Qocho idiqut — in place as tribute-paying vassals supervised by resident commissioners, rather than annexing their territory and installing Qara-Khitai governors. It minimized the cost of garrisoning a vast empire and preserved the tax-paying population's loyalty, but left the center dependent on the cooperation of proud subordinates who could defect the moment the Gurkhans looked weak.",
+      "type": "concept"
+    },
+    {
+      "term": "Khwarazm-Shahs",
+      "matchText": "Khwarazm-Shahs",
+      "wikiSlug": "Khwarazmian_Empire",
+      "type": "people"
+    },
+    {
+      "term": "idiqut",
+      "matchText": "idiqut",
+      "definition": "The title taken by the rulers of the Uyghur Kingdom of Qocho from roughly the tenth century onward — literally something like 'holy fortune' or 'sacred majesty' in Old Uyghur. It replaced the steppe title qaghan and signaled the transformation of a nomadic imperial lineage into a settled agrarian-mercantile kingship. The idiqut of Qocho held the position when the Qara-Khitai absorbed the kingdom, and it was an idiqut — Barchuq — who made the pivotal decision to submit voluntarily to Genghis Khan in 1209.",
+      "type": "concept"
+    },
+    {
+      "term": "Juvayni",
+      "matchText": "Juvayni",
+      "definition": "Ata-Malik Juvayni (1226–1283), a Persian-speaking administrator who served the Mongol Empire and wrote the Ta'rikh-i-Jahan-Gusha ('History of the World Conqueror'), one of the most important primary sources for the Mongol conquests, the Qara-Khitai, and the Khwarazmian Empire. He had access to Mongol court records and the memories of survivors, making him the fullest — if sometimes toadying — account of the late Qara-Khitai period that this chapter relies on.",
+      "type": "person"
+    },
+    {
+      "term": "Prester John",
+      "matchText": "Prester John",
+      "wikiSlug": "Prester_John",
+      "type": "concept"
+    },
+    {
+      "term": "Almohads",
+      "matchText": "Almohads",
+      "wikiSlug": "Almohad_Caliphate",
+      "type": "people"
+    }
+  ],
+  "8": [
+    {
+      "term": "Temüjin",
+      "matchText": "Temüjin",
+      "wikiSlug": "Genghis_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Naiman",
+      "matchText": "Naiman",
+      "wikiSlug": "Naimans",
+      "type": "people"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Onon River",
+      "matchText": "Onon River",
+      "wikiSlug": "Onon_River",
+      "type": "concept"
+    },
+    {
+      "term": "idiqut",
+      "matchText": "idiqut",
+      "definition": "The royal title used by the rulers of the Uyghur Kingdom of Qocho — the Buddhist oasis successor state in the Tarim. Unlike the grand title qaghan of the old khaganate, idiqut was the title of a settled king: a merchant-ruler who governed irrigated fields and caravan routes rather than a confederation of horse-archer tribes.",
+      "type": "concept"
+    },
+    {
+      "term": "Barchuq",
+      "matchText": "Barchuq",
+      "wikiSlug": "Barchuq_Art_Tegin",
+      "type": "person"
+    },
+    {
+      "term": "Küchlüg",
+      "matchText": "Küchlüg",
+      "wikiSlug": "Küchlüg",
+      "type": "person"
+    },
+    {
+      "term": "Jebe",
+      "matchText": "Jebe",
+      "wikiSlug": "Jebe",
+      "type": "person"
+    },
+    {
+      "term": "Pamirs",
+      "matchText": "Pamirs",
+      "wikiSlug": "Pamir_Mountains",
+      "type": "concept"
+    },
+    {
+      "term": "Old Uyghur alphabet",
+      "matchText": "Old Uyghur alphabet",
+      "wikiSlug": "Old_Uyghur_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Tatatonga",
+      "matchText": "Tatatonga",
+      "wikiSlug": "Tata-tonga",
+      "type": "person"
+    },
+    {
+      "term": "ortogh",
+      "matchText": "ortogh",
+      "definition": "The Mongol Empire's empire-wide version of the Uyghur ortoq merchant partnership — a capital-pooling arrangement in which investors (often the khan himself) backed long-distance traders, who carried the money across Central Asia and returned the profits. The Mongols adopted both the institution and the word wholesale from the oasis Uyghurs of Qocho.",
+      "type": "concept"
+    }
   ]
 }
