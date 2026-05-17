@@ -173,6 +173,12 @@
       "matchText": "Greece",
       "wikiSlug": "Greece",
       "type": "place"
+    },
+    {
+      "term": "Alaca Höyük",
+      "matchText": "Alaca Höyük",
+      "wikiSlug": "Alaca_Höyük",
+      "type": "place"
     }
   ],
   "2": [
@@ -635,6 +641,12 @@
       "matchText": "Arinna",
       "wikiSlug": "Arinna",
       "type": "place"
+    },
+    {
+      "term": "Yazılıkaya",
+      "matchText": "Yazılıkaya",
+      "wikiSlug": "Yazılıkaya",
+      "type": "place"
     }
   ],
   "5": [
@@ -1079,6 +1091,12 @@
       "matchText": "earthquake",
       "wikiSlug": "Earthquake",
       "type": "concept"
+    },
+    {
+      "term": "Tudhaliya IV",
+      "matchText": "Tudhaliya IV",
+      "wikiSlug": "Tudhaliya_IV",
+      "type": "people"
     }
   ],
   "8": [
@@ -1237,6 +1255,18 @@
       "matchText": "logograms",
       "wikiSlug": "Logogram",
       "type": "concept"
+    },
+    {
+      "term": "Bedřich Hrozný",
+      "matchText": "Bedřich Hrozný",
+      "wikiSlug": "Bedřich_Hrozný",
+      "type": "people"
+    },
+    {
+      "term": "Amarna",
+      "matchText": "Tell el-Amarna",
+      "wikiSlug": "Amarna",
+      "type": "place"
     }
   ]
 }

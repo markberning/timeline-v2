@@ -11,6 +11,18 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 2,
       "blurb": "The Old Assyrian merchants who established the karum trade colonies across Anatolia around 1950 BCE were based at Assur on the Tigris. Their 23,000 cuneiform tablets from Kanesh are one of the richest archives of ancient commercial activity ever found."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Anatolia's first great empire prefigures its last — the Hittites and the Ottomans both built world powers from the same Anatolian plateau."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 2,
+      "blurb": "The Hittites rose alongside Old Assyrian merchant colonies — Anatolia's entry into history runs through Assyrian trade tablets at Kanesh."
     }
   ],
   "2": [
@@ -25,6 +37,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 3,
       "blurb": "While the Hittite Old Kingdom was struggling through palace assassinations, China's Shang dynasty was at its height, working bronze and developing oracle bone script. The two civilizations developed in total isolation from each other, on opposite ends of the Eurasian landmass."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Hittite kingship and law were Mesopotamian-modeled — cuneiform, treaties, and divine sanction imported and adapted from the southern civilization."
+    },
+    {
+      "matchText": "Minoan Civilization",
+      "targetTl": "minoan-civilization",
+      "targetChapter": 4,
+      "blurb": "The early Hittite state shared the eastern-Mediterranean Bronze Age world with Minoan Crete — palace economies and long-distance trade, loosely linked."
     }
   ],
   "3": [
@@ -47,6 +71,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 2,
       "blurb": "The Mesopotamian mythology that the Hittites absorbed included creation stories, divine succession narratives, and ritual traditions stretching back to the Sumerians. The Hurro-Hittite Song of Kumarbi drew on these traditions and transmitted them westward toward the Aegean, where they influenced Greek mythology."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "The Hittite 'Thousand Gods' pantheon absorbed Mesopotamian, Hurrian, and Anatolian deities — a syncretism as deliberate as Sumer's god-lists."
     }
   ],
   "5": [
@@ -63,6 +93,12 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 5,
       "blurb": "Nubian goods on the Uluburun ship demonstrate that the Late Bronze Age trade network reached deep into Africa. Nubia was a major supplier of gold, ebony, and exotic materials to Egypt, and through Egypt to the broader Mediterranean trading system the Hittites participated in."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "The Bronze Age 'club of great kings' — Hatti, Egypt, Babylon, Mitanni — ran on Mesopotamian-style diplomacy, the Amarna correspondence its archive."
     }
   ],
   "7": [
@@ -109,6 +145,18 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 4,
       "blurb": "The massive winged bulls and carved relief panels of the Assyrian palaces at Nimrud drew on artistic traditions that ran through the Neo-Hittite portal sculptures back to the lions and sphinxes of Hattusa itself -- a chain of artistic influence spanning five centuries."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 4,
+      "blurb": "The Hittite collapse left a vacuum the Neo-Assyrians and the neo-Hittite states filled — Anatolia's Bronze-to-Iron transition."
+    },
+    {
+      "matchText": "Minoan Civilization",
+      "targetTl": "minoan-civilization",
+      "targetChapter": 8,
+      "blurb": "Hatti, like Minoan Crete, vanished in the Bronze Age Collapse and survived only as scattered memory until archaeology recovered it."
     }
   ]
 }
