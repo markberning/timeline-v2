@@ -101,7 +101,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'meiji-japan', label: 'Meiji Japan', subtitle: 'Japan races to industrialize', region: 'asia', startYear: 1868, endYear: 1912, hasContent: true },
   { id: 'japanese-economic-miracle', label: 'Japanese Economic Miracle', subtitle: "postwar Japan's boom", region: 'asia', startYear: 1945, endYear: 1991, hasContent: true },
   { id: 'ancient-korea', label: 'Ancient Korea', subtitle: 'mythic Korea to Silla unification', region: 'asia', startYear: -2333, endYear: 935, hasContent: true },
-  { id: 'goryeo-korea', label: 'Goryeo Korea', subtitle: 'the dynasty that named Korea', region: 'asia', startYear: 918, endYear: 1392, hasContent: false },
+  { id: 'goryeo-korea', label: 'Goryeo Korea', subtitle: 'the dynasty that named Korea', region: 'asia', startYear: 918, endYear: 1392, hasContent: true },
   { id: 'joseon-korea', label: 'Joseon Korea', subtitle: "Confucian Korea's long dynasty", region: 'asia', startYear: 1392, endYear: 1910, hasContent: true },
   { id: 'korean-modern', label: 'Modern Korea', subtitle: 'colonization, war, and split', region: 'asia', startYear: 1910, endYear: 2024, hasContent: true },
   { id: 'srivijaya', label: 'Srivijaya', subtitle: "Sumatra's maritime Buddhist empire", region: 'asia', startYear: 650, endYear: 1377, hasContent: true },

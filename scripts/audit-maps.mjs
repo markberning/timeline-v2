@@ -9,10 +9,16 @@
 // never a silent pass — that is the entire point of the gate.
 //
 // Acceptance criteria are verbatim from memory
-// feedback_dont_over_generalize_defect_rules (locked over 3 user corrections):
-// modern reference geography / repeated correct rivers / province outlines are
-// NOT defects; only garble/wrong-location/adjacent-dup/caption-3x/compass-words/
-// frame-or-title-chrome/illegible/non-blue-water are.
+// feedback_dont_over_generalize_defect_rules (locked over 4 user corrections):
+// modern reference geography / repeated correct rivers / province outlines /
+// a thin faint reader-invisible edge line are NOT defects; only garble/
+// wrong-location/adjacent-dup/caption-3x/compass-words/PICTURE-frame-or-title-
+// chrome/illegible/non-blue-water are. 4th correction (2026-05-17,
+// goryeo-korea trial): the old blanket "any border/box/frame/hairline" clause
+// over-generalized — Gemini draws a stochastic ~1px edge line ~50% of rolls;
+// failing every one forced ~75 re-rolls/waivers across the 17. A hairline
+// edge flush to the image border is NOT a frame; only a thick/ornamental/
+// boxed/matted picture-frame enclosure (or a border inside the map) FAILs.
 //
 // MAP WAIVER (2026-05-17): the frame/hairline defect is real but Gemini draws
 // it stochastically (~50%), so chasing a clean roll burns billable image
@@ -65,13 +71,14 @@ These are NOT defects — do not fail for any of them:
 - Faint MODERN country or region outlines or labels used as an orientation aid (welcome — they help the reader place the location).
 - Any period or modern reference geography.
 - Minor extra labels that are correct and not requested.
+- A thin, faint edge line flush to the image border (reader-invisible at phone size), as long as the map content still bleeds to all four edges. This is a stochastic rendering artifact, NOT a picture frame — do not fail for it.
 
 These ARE defects — FAIL if ANY is present:
 - Garbled, invented, or misspelled text anywhere (letters added/dropped/doubled; words not derivable from the prompt).
 - A feature placed in the wrong real-world location, or a label that contradicts the prompt's facts.
 - The SAME label stamped twice adjacent / touching / stacked, OR any caption or annotation repeated 3+ times.
 - The words North/South/East/West, or single letters N/S/E/W, rendered anywhere as map text.
-- Any border/box/frame/hairline around the map (the map must bleed off all four edges) EXCEPT the single full-width title bar at the very top; OR no title bar; OR a second/floating/boxed title; OR an ornamental star/sparkle/compass-rose/corner glyph.
+- A thick, ornamental, boxed, or matted frame that visually encloses the map like a picture frame (the map content must bleed off all four edges); OR any border/box/divider line INSIDE the map area; OR no title bar at all; OR a second/floating/boxed title; OR an ornamental star/sparkle/compass-rose/corner glyph. (A thin faint edge line flush to the image border is NOT a frame — see the not-defects list above.)
 - Water rendered gray, cream, tan, sepia, parchment, or white (sea/lake/river must be light blue).
 - Content illegible at reading size.
 

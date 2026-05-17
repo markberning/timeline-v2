@@ -292,9 +292,10 @@ The chapter title "Chapter 7: The Son-in-Law Nation" should appear at the top in
 **SPECIFIC REMINDERS for this chapter:**
 - On the prior run the map was enclosed in a black hairline border on all four sides. Draw NO border, frame, rectangle, outline, or hairline anywhere except the full-width title header bar at the very top. The map and ALL water must bleed fully off the left, right, and bottom edges.
 - The island site label is EXACTLY "Tamna" — nothing more. On the prior run Gemini invented the extra text "(under Yuan commandery control)" on the Tamna label. Do NOT add it. Render only the literal site names and the one annotation listed in this prompt; invent no parenthetical, no extra annotation, and no words that are not written in this prompt.
+- The site label is EXACTLY "Ssangseong Commandery" — nothing more. On the prior run Gemini invented the extra text "(amputated territory)" on the Ssangseong Commandery label, pulling the word from the scene-setting sentence. Do NOT add "amputated", "(amputated territory)", or any parenthetical to the Ssangseong Commandery label.
 - Spell every body of water EXACTLY as written: "Korea Strait" (letter for letter), "Yellow Sea", "East Sea". On the prior run the strait was garbled as "Kored Strait" — do not add, drop, or swap any letter in "Korea Strait".
 
-Map of Goryeo as a Yuan son-in-law state: the amputated territories and the forced invasion fleets sailing for Japan.
+Map of Goryeo as a Yuan son-in-law state: the territories annexed by the Yuan and the forced invasion fleets sailing for Japan.
 
 5 sites, name-only labels:
 - Gaegyeong — center-west, the capital (the court returns from Ganghwa in 1270)
