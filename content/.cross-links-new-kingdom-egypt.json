@@ -17,6 +17,24 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 3,
       "blurb": "The kingdom of Kerma at the Third Cataract was growing into a sophisticated state during the Middle Kingdom — with its own monumental architecture, elaborate burial customs, and long-distance trade. Senusret III's chain of frontier fortresses was a direct response to Kerma's rising power."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 8,
+      "blurb": "The New Kingdom is Egypt as an imperial superpower — a peer of the great Mesopotamian empires in the first true age of international diplomacy."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 3,
+      "blurb": "New Kingdom power rested on conquered Nubian gold — the southern colony that funded the empire and would one day rule Egypt in turn."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 6,
+      "blurb": "By now the Indus was long gone; Egypt's imperial age belongs to the Bronze Age world the Indus never reached."
     }
   ],
   "2": [
@@ -37,6 +55,24 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 4,
       "blurb": "When the Middle Kingdom collapsed and the Hyksos seized the Delta, the Kerma kingdom exploited the power vacuum to expand northward, absorbing the abandoned Egyptian frontier fortresses. The Hyksos and Kerma even coordinated against Thebes, squeezing the last independent Egyptian rulers from both directions."
+    },
+    {
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 2,
+      "blurb": "The Hyksos shock that ended the Middle Kingdom brought the chariot — the same military revolution remaking Hatti and the whole Bronze Age Near East."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "The war-chariot that the Hyksos forced on Egypt was, in the same centuries, transforming warfare as far as Shang China."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 4,
+      "blurb": "Egypt's expulsion of the Hyksos came with renewed conquest of Nubia — liberation in the north, subjugation in the south."
     }
   ],
   "3": [
@@ -51,6 +87,12 @@
       "targetTl": "hittite-empire",
       "targetChapter": 3,
       "blurb": "As Thutmose I was reaching the Euphrates and establishing Egypt as a Near Eastern superpower in the 1490s BCE, the Hittite Old Kingdom was consolidating power in Anatolia. The two empires were on a collision course that would climax at Kadesh two centuries later."
+    },
+    {
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 3,
+      "blurb": "Liberated, imperial Egypt now collided with the other Bronze Age great powers — above all the rising Hittite Empire in Anatolia."
     }
   ],
   "4": [],
@@ -92,6 +134,24 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 4,
       "blurb": "While Amenhotep III was building Luxor Temple and exchanging diplomatic letters with Babylon, the Initial Period temple-builders of coastal Peru were constructing massive U-shaped ceremonial complexes — an ocean and a world away from the Bronze Age diplomatic circuit."
+    },
+    {
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 5,
+      "blurb": "Amenhotep III's golden age is the Amarna-letters world — Egypt, Hatti, Babylon, Mitanni as a club of great kings exchanging gold and brides."
+    },
+    {
+      "matchText": "Mycenaean Civilization",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 4,
+      "blurb": "Mycenaean Greece was a junior player in this same diplomatic-trade system — pottery and envoys moving between Thebes, Hattusa, and Mycenae."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 4,
+      "blurb": "While Egypt ran Bronze Age superpower diplomacy, the Andes were on a wholly separate track — a reminder the 'world system' was only half the world."
     }
   ],
   "7": [
@@ -114,6 +174,12 @@
       "targetTl": "hittite-empire",
       "targetChapter": 7,
       "blurb": "Hattusili III came to the Hittite throne through a coup against his nephew. The peace treaty he signed with Ramesses II in 1259 BCE ended decades of war — both empires recognized they needed each other more than they needed Syria. The alliance held until the Hittite Empire was destroyed by the Bronze Age Collapse."
+    },
+    {
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 5,
+      "blurb": "Ramesses II's reign is defined by Kadesh and the world's first surviving peace treaty — with the Hittite Empire, the other Bronze Age superpower."
     }
   ],
   "9": [
@@ -134,6 +200,12 @@
       "targetTl": "kingdom-of-kush",
       "targetChapter": 4,
       "blurb": "The fragmentation that followed the New Kingdom's collapse eventually led to the Kushite conquest of Egypt — the Twenty-Fifth Dynasty of Nubian pharaohs who ruled the same country that had once colonized their ancestors. Five centuries of Egyptian cultural colonialism in Nubia had produced kings who felt entitled to rule Egypt itself."
+    },
+    {
+      "matchText": "Mycenaean Civilization",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 7,
+      "blurb": "The same catastrophe that battered Ramesses III erased Mycenaean Greece — one systemic collapse across the whole eastern Mediterranean."
     }
   ]
 }

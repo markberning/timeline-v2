@@ -643,6 +643,12 @@
       "matchText": "Assyria",
       "wikiSlug": "Assyria",
       "type": "place"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
     }
   ],
   "6": [
@@ -911,6 +917,12 @@
       "matchText": "golden death mask",
       "wikiSlug": "Mask_of_Tutankhamun",
       "type": "concept"
+    },
+    {
+      "term": "Ramesses I",
+      "matchText": "Paramessu",
+      "wikiSlug": "Ramesses_I",
+      "type": "people"
     }
   ],
   "8": [
@@ -1190,6 +1202,18 @@
       "term": "cedar",
       "matchText": "cedar",
       "wikiSlug": "Cedrus_libani",
+      "type": "concept"
+    },
+    {
+      "term": "Deir el-Medina",
+      "matchText": "Deir el-Medina",
+      "wikiSlug": "Deir_el-Medina",
+      "type": "place"
+    },
+    {
+      "term": "Amurru kingdom",
+      "matchText": "Amurru",
+      "wikiSlug": "Amurru_kingdom",
       "type": "concept"
     }
   ]
