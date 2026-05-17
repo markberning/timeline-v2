@@ -114,6 +114,16 @@ reader exposure before spending money.**
   131 + 386 are inline-triage work using each glossary entry's `matchText`
   context. Status stays ◐.
 
+  **Phase 2 inline triage — per-civ chunks (worst-first). Workflow:
+  `scripts/triage-civ-slugs.mjs <civ>` (search + snippet, rate-safe) → human
+  subject decision → `audits/slug-decisions/<civ>.json` → 
+  `scripts/apply-slug-decisions.mjs <civ>` → `lint-links --tl=<civ> --strict`
+  (0 ERROR gate). Decisions files are the durable record.**
+  - ☑ `polynesian-voyagers` (20 dead): 17 retargeted to subject-verified
+    articles, 3 dropped (Alaloa / Andrew Sharp the navigation-skeptic /
+    Makaliʻi canoe — no Wikipedia article exists; narrative inline-defines
+    them). lint-links 0 ERROR. **Remaining still-dead corpus-wide: ~497.**
+
 **Next economical step:** decide #1 remediation approach (see options put to
 user); then #11 build/data audit or #13 image liveness (both free).
 
