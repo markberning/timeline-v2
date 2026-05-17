@@ -29,6 +29,12 @@
       "targetTl": "tang-song-china",
       "targetChapter": 4,
       "blurb": "Gao Xianzhi's defeat at Talas in 751 was a minor border affair from Baghdad's perspective but a hinge moment for the Tang. Four years later the An Lushan Rebellion broke out and the Tang central government effectively collapsed, ending Chinese expansion into Central Asia for centuries. The same Karluk Turkic defection that handed the Abbasids the battlefield is part of why the Tang never came back west — and Chapter 4 of the Sui-Tang-Song narrative is the inside view of that collapse."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Abbasid revolution moved Islam's center to Iraq and Persianized it — the Sassanid administrative-cultural tradition reborn under a caliph."
     }
   ],
   "2": [
@@ -49,6 +55,18 @@
       "targetTl": "gupta-empire",
       "targetChapter": 3,
       "blurb": "The Kalila wa Dimna that Ibn al-Muqaffa translated into Arabic was already a twice-translated text: it had begun as the Sanskrit Panchatantra in Gupta-era India, been translated into Pahlavi at the Sasanian court under Khosrow I, and now passed into Arabic. Its journey from Gupta court to Abbasid court across four languages and five centuries is one of the great book-migration stories of the ancient world."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The House of Wisdom's translation movement recovered Greek and Persian science — Sassanid Jundishapur was its direct model and seedbed."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "Indian mathematics and astronomy — Gupta-era place value and the sciences — flowed into Baghdad and were transformed there."
     }
   ],
   "3": [
@@ -75,6 +93,12 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 2,
       "blurb": "al-Battani is not just a name in Copernicus: Copernicus cited him repeatedly, Tycho Brahe used his observations as a baseline, and Kepler built on Tycho. The line from this Baghdad astronomer to the Scientific Revolution is direct (Scientific Revolution Ch 2-4)."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "Al-Khwarizmi's numerals and algebra built on the Indian decimal system the Gupta golden age had produced — the 'Arabic' numerals are Indian."
     }
   ],
   "4": [
@@ -113,6 +137,18 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 9,
       "blurb": "Al-Jazari's 1206 suction pump implied a working command of vacuum that European theory would not articulate until Torricelli, Pascal, and Guericke four centuries later (Scientific Revolution Ch 9)."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Islamic medicine and optics absorbed and surpassed the Greek inheritance Byzantium had preserved — knowledge flowing east then back west."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Much of the medical and engineering tradition was Sassanid Persian in origin — Jundishapur's hospitals scaled up under the Abbasids."
     }
   ],
   "5": [
@@ -193,6 +229,18 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 6,
       "blurb": "The East African coastal cities that Islamic Indian Ocean trade built — Mogadishu, Kilwa, Sofala — were the maritime successors to the overland trade networks that had connected sub-Saharan Africa to the Nile Valley and the Mediterranean in antiquity. The Nubian and Kushite kingdoms that had run the trans-African trade routes in the first millennium BCE were the predecessors of the Swahili Coast cities in the second millennium CE. The African commercial geography was continuous; the religion and language of the merchants changed."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "The dirham flood that funded the Abbasid economy is the same silver river that ran up the Russian rivers into Norse hoards — one Eurasian system."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 5,
+      "blurb": "Abbasid trade reached Tang China by sea and Silk Road — reconnecting the network the Han first opened."
     }
   ],
   "9": [
@@ -225,6 +273,18 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 8,
       "blurb": "Saladin's unification of Egypt and Syria under Ayyubid rule in the 1170s-1180s created an Islamic state that could finally mount a sustained strategic challenge to the Crusader states — and that used Byzantine diplomatic channels as part of its broader foreign policy. The Ayyubid-Byzantine relationship was one of careful mutual avoidance: neither wanted the other to gain in the Levant, but neither was strong enough to destroy the other's position."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "The Seljuk eclipse and the Crusades hit the Abbasid world and Byzantium together — the 11th-century crisis of the eastern Mediterranean."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "The Seljuk Turks who eclipsed the caliph re-Persianized the east — the Sassanid-style sultanate behind a figurehead caliph."
     }
   ],
   "10": [
@@ -269,6 +329,12 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 2,
       "blurb": "The Tusi couple is the exact geometric device that reappears in Copernicus three centuries later; whether the knowledge travelled or was reinvented is one of the live questions of the Scientific Revolution (Scientific Revolution Ch 1-2)."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongol sack of Baghdad (1258) — the caliph rolled in a carpet and trampled — is the apocalyptic end of the Abbasid golden age."
     }
   ]
 }

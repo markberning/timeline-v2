@@ -101,6 +101,12 @@
       "matchText": "al-Ya'qubi",
       "wikiSlug": "Ahmad_ibn_Abi_Yaqub",
       "type": "people"
+    },
+    {
+      "term": "Abu Muslim Khorasani",
+      "matchText": "Abu Muslim",
+      "wikiSlug": "Abu_Muslim_Khorasani",
+      "type": "people"
     }
   ],
   "2": [
@@ -199,6 +205,12 @@
       "matchText": "Sindhind",
       "wikiSlug": "Zij_al-Sindhind",
       "type": "concept"
+    },
+    {
+      "term": "House of Wisdom",
+      "matchText": "House of Wisdom",
+      "wikiSlug": "House_of_Wisdom",
+      "type": "place"
     }
   ],
   "3": [
@@ -273,6 +285,12 @@
       "matchText": "Tycho Brahe",
       "wikiSlug": "Tycho_Brahe",
       "type": "people"
+    },
+    {
+      "term": "Al-Khwarizmi",
+      "matchText": "Muhammad ibn Musa al-Khwarizmi",
+      "wikiSlug": "Al-Khwarizmi",
+      "type": "people"
     }
   ],
   "4": [
@@ -346,6 +364,12 @@
       "term": "Al-Hakim bi-Amr Allah",
       "matchText": "al-Hakim bi-Amr Allah",
       "wikiSlug": "Al-Hakim_bi-Amr_Allah",
+      "type": "people"
+    },
+    {
+      "term": "Al-Razi",
+      "matchText": "Rhazes",
+      "wikiSlug": "Al-Razi",
       "type": "people"
     }
   ],
@@ -666,6 +690,12 @@
       "term": "Periplus of the Erythraean Sea",
       "matchText": "Periplus of the Erythraean Sea",
       "wikiSlug": "Periplus_of_the_Erythraean_Sea",
+      "type": "concept"
+    },
+    {
+      "term": "Lateen",
+      "matchText": "lateen",
+      "wikiSlug": "Lateen",
       "type": "concept"
     }
   ],
