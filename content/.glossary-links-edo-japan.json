@@ -119,6 +119,12 @@
       "matchText": "William Adams",
       "wikiSlug": "William_Adams_(pilot)",
       "type": "people"
+    },
+    {
+      "term": "Battle of Sekigahara",
+      "matchText": "Sekigahara",
+      "wikiSlug": "Battle_of_Sekigahara",
+      "type": "concept"
     }
   ],
   "2": [
@@ -247,6 +253,12 @@
       "matchText": "Zhu Xi",
       "wikiSlug": "Zhu_Xi",
       "type": "people"
+    },
+    {
+      "term": "Sankin-kōtai",
+      "matchText": "Buke Shohatto",
+      "wikiSlug": "Sankin-kōtai",
+      "type": "concept"
     }
   ],
   "3": [
@@ -344,6 +356,12 @@
       "term": "Anti-Christian edicts",
       "matchText": "Bateren Tsuihōrei",
       "wikiSlug": "Anti-Christian_edicts_in_Japan",
+      "type": "concept"
+    },
+    {
+      "term": "Sakoku",
+      "matchText": "Sakoku",
+      "wikiSlug": "Sakoku",
       "type": "concept"
     }
   ],
@@ -546,6 +564,12 @@
       "term": "Hagakure",
       "matchText": "Hagakure",
       "wikiSlug": "Hagakure",
+      "type": "concept"
+    },
+    {
+      "term": "Forty-seven rōnin",
+      "matchText": "Edo Castle",
+      "wikiSlug": "Forty-seven_rōnin",
       "type": "concept"
     }
   ],

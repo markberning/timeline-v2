@@ -98,7 +98,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | ottoman-empire | 12 | **DONE** Anatolian chain COMPLETE | b7863b3 |
 | prehistoric-japan | 8 | **DONE** | f89cf87 |
 | asuka-nara-japan | 8 | **DONE** | 1bf8465 |
-| heian-japan | 8 | **DONE** | +this |
+| heian-japan | 8 | **DONE** | 402a953 |
+| edo-japan | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
