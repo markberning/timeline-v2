@@ -153,7 +153,8 @@ export const TL_CHAINS: TlChain[] = [
     shortLabel: 'Korea',
     origins: 'The Korean peninsula was home to Bronze Age kingdoms from around 700 BCE. The mythical founder Dangun is said to have established Gojoseon in 2333 BCE, but archaeological evidence points to the Three Kingdoms period as the first era of major state formation.',
     entries: [
-      { timelineId: 'ancient-korea', transition: 'The Goryeo dynasty unified the peninsula in 936 CE, but Mongol invasions weakened it. In 1392, General Yi Seong-gye overthrew Goryeo and founded the Joseon dynasty.' },
+      { timelineId: 'ancient-korea', transition: 'Unified Silla\'s long peace decayed into the civil wars of the Later Three Kingdoms. Out of that chaos the maritime lord Wang Geon founded Goryeo in 918 and reunified the peninsula by 936 — the dynasty that gave Korea the name the world still uses.' },
+      { timelineId: 'goryeo-korea', transition: 'Goryeo survived three Khitan invasions and nearly thirty years of Mongol war, then a century as a Mongol son-in-law state. When the Yuan collapsed, the Neo-Confucian literati broke the old aristocracy, and in 1392 the general Yi Seong-gye seized the throne and founded the Joseon dynasty.' },
       { timelineId: 'joseon-korea', transition: 'Japanese colonization from 1910 to 1945, followed by the Korean War, left the peninsula divided. South Korea\'s transformation from war-ravaged poverty to technological powerhouse is one of the modern era\'s most dramatic stories.' },
       { timelineId: 'korean-modern' },
     ],

@@ -119,6 +119,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'minoan-civilization.md': 'minoan-civilization',
   'old-kingdom-egypt.md': 'old-kingdom-egypt',
   'ancient-korea.md': 'ancient-korea',
+  'goryeo-korea.md': 'goryeo-korea',
   'assyrian-empire.md': 'assyrian-empire',
   'hittite-empire.md': 'hittite-empire',
   'mycenaean-civilization.md': 'mycenaean-civilization',

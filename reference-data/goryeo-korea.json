@@ -1,0 +1,1136 @@
+{
+  "id": "goryeo-korea",
+  "label": "Goryeo Korea",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "Goryeo",
+  "imageWikiSlug": "Tripitaka_Koreana",
+  "pitch": "Goryeo gave Korea the name the world still uses. Founded by a maritime lord who bound 29 warlord clans by marriage, it built a Confucian bureaucratic state, repelled three Khitan invasions, perfected jade-green inlaid celadon, and carved the most complete Buddhist canon on Earth — 81,258 woodblocks that survive today.\n\n🔑 Key Facts:\n• Seo Hui talked the northern border to the Yalu River in 993 without a battle, then Gang Gam-chan annihilated a 100,000-man Khitan army at Gwiju in 1019\n• A 1170 military coup reduced kings to puppets; the Choe house then ran a hereditary military dictatorship for 60 years\n• The court resisted the Mongols from Ganghwa Island for nearly 30 years before becoming a Yuan 'son-in-law nation'\n• The Jikji was printed with movable metal type in 1377 — 78 years before Gutenberg\n\n🤔 Why It Matters: Goryeo forged the bureaucratic-aristocratic, Buddhist, and finally Neo-Confucian foundations that the 500-year Joseon dynasty inherited — and survived the single most destructive invasion in Korean history with its civilization's memory intact.\n\n🎲 Wild Card: General Yi Seong-gye was ordered to invade Ming China in 1388; he marched to the border, turned his whole army around, seized the government, and four years later founded the dynasty that ruled Korea until 1910.",
+  "countryIds": [
+    "410",
+    "408"
+  ],
+  "spans": [
+    {
+      "id": "span-goryeo-korea-founding",
+      "label": "Founding & Unification",
+      "startYear": 901,
+      "endYear": 943,
+      "description": "Wang Geon, a maritime lord of Songak, overthrew the tyrant Gung Ye in 918, outlasted Later Baekje, and peacefully absorbed a dying Silla in 935 — reunifying the peninsula under Goryeo by 936.",
+      "wikiSlug": "Later_Three_Kingdoms"
+    },
+    {
+      "id": "span-goryeo-korea-bureaucratic",
+      "label": "The Bureaucratic State & the Khitan Wars",
+      "startYear": 943,
+      "endYear": 1086,
+      "description": "Gwangjong and Seongjong forged a Confucian bureaucratic monarchy out of a confederation of warlords, while three Khitan (Liao) invasions were turned back by diplomacy and the crushing victory at Gwiju.",
+      "wikiSlug": "Goryeo%E2%80%93Khitan_War"
+    },
+    {
+      "id": "span-goryeo-korea-aristocratic",
+      "label": "The Aristocratic Golden Age",
+      "startYear": 1086,
+      "endYear": 1170,
+      "description": "An age of inlaid celadon, world trade, and the Samguk Sagi — rotting from within through the Yi Ja-gyeom coup, Myocheong's revolt, and the festering contempt for the military officer class.",
+      "wikiSlug": "Goryeo"
+    },
+    {
+      "id": "span-goryeo-korea-military",
+      "label": "The Military Rule Era",
+      "startYear": 1170,
+      "endYear": 1270,
+      "description": "The 1170 coup massacred the civil officials and reduced kings to puppets; the Choe house ran a hereditary military dictatorship through private armies, even as it resisted the Mongols from Ganghwa Island.",
+      "wikiSlug": "Goryeo_military_regime"
+    },
+    {
+      "id": "span-goryeo-korea-yuan",
+      "label": "The Son-in-Law Nation",
+      "startYear": 1270,
+      "endYear": 1351,
+      "description": "A century as a Mongol in-law state: Yuan princess-queens, 'Chung-' kings raised at Dadu, forced fleets against Japan, and the channel through which Neo-Confucianism entered Korea.",
+      "wikiSlug": "Goryeo_under_Mongol_rule"
+    },
+    {
+      "id": "span-goryeo-korea-fall",
+      "label": "Reform, Collapse & the Birth of Joseon",
+      "startYear": 1351,
+      "endYear": 1392,
+      "description": "Gongmin's anti-Yuan reforms and Sin Don's land revolution unraveled; Red Turbans and pirates battered the realm; Yi Seong-gye turned his army around at Wihwa Island and founded Joseon in 1392.",
+      "wikiSlug": "Goryeo"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-goryeo-001",
+      "label": "Gyeon Hwon Founds Later Baekje",
+      "year": 892,
+      "description": "A peasant-born general, Gyeon Hwon, carved a kingdom out of Silla's collapsing southwest, reviving the name of the long-dead Baekje state and opening the Later Three Kingdoms war.",
+      "wikiSlug": "Gyeon_Hwon",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-002",
+      "label": "Gung Ye Proclaims Later Goguryeo",
+      "year": 901,
+      "description": "A one-eyed ex-monk and former bandit, Gung Ye, declared himself king of a northern state he called Later Goguryeo (later Taebong), claiming to be the future Buddha Maitreya.",
+      "wikiSlug": "Gung_Ye",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-003",
+      "label": "Wang Geon Founds Goryeo",
+      "year": 918,
+      "description": "Gung Ye's paranoid tyranny pushed his own generals to revolt; they enthroned the maritime lord Wang Geon, who took the reign name Taejo and named his kingdom Goryeo — a deliberate claim on the glory of ancient Goguryeo.",
+      "wikiSlug": "Taejo_of_Goryeo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-004",
+      "label": "The Capital Moves to Kaesong",
+      "year": 919,
+      "description": "Taejo moved his capital from Gung Ye's Cheorwon to his own power base of Songak, renamed Gaegyeong (modern Kaesong) — a merchant city that would anchor the dynasty for 470 years.",
+      "wikiSlug": "Kaesong",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-005",
+      "label": "Pyongyang Rebuilt as the Western Capital",
+      "year": 922,
+      "description": "Taejo resettled and fortified the ruined city of Pyongyang as a 'Western Capital,' the springboard for a lifelong policy of northward expansion toward the old Goguryeo lands.",
+      "wikiSlug": "Pyongyang",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-006",
+      "label": "Balhae Falls; Refugees Flood South",
+      "year": 926,
+      "description": "The Khitan destroyed Balhae, the Manchurian successor to Goguryeo. Taejo welcomed tens of thousands of Balhae refugees — including the crown prince — treating their kingdom's fall as a wound to be avenged.",
+      "wikiSlug": "Balhae",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-007",
+      "label": "Disaster at the Battle of Gongsan",
+      "year": 927,
+      "description": "Gyeon Hwon's Later Baekje army ambushed Taejo near Daegu; Goryeo's general Sin Sung-gyeom died wearing the king's armor as a decoy so Taejo could escape — the dynasty's near-death moment.",
+      "wikiSlug": "Battle_of_Gongsan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-008",
+      "label": "Turning Point at the Battle of Gochang",
+      "year": 930,
+      "description": "Goryeo's victory at Gochang (Andong) broke the deadlock with Later Baekje and brought a wave of regional warlords over to Taejo's side.",
+      "wikiSlug": "Battle_of_Gochang",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-009",
+      "label": "Silla Surrenders Peacefully",
+      "year": 935,
+      "description": "The last Silla king, Gyeongsun, judged resistance hopeless and handed his thousand-year kingdom to Goryeo intact. Taejo married into the Silla royal house and treated its aristocracy with conspicuous honor.",
+      "wikiSlug": "Gyeongsun_of_Silla",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-010",
+      "label": "Gyeon Hwon Defects to His Enemy",
+      "year": 935,
+      "description": "Deposed and imprisoned by his own son Singeom, the aged founder of Later Baekje escaped and submitted to Taejo — then guided the campaign that destroyed the kingdom he had built.",
+      "wikiSlug": "Gyeon_Hwon",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-011",
+      "label": "Unification: the Battle of Iljiwon",
+      "year": 936,
+      "description": "At Iljiwon (Seonsan) Goryeo annihilated Later Baekje's army, reuniting the Korean peninsula under one ruler for the first time since Silla's decline.",
+      "wikiSlug": "Later_Three_Kingdoms",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-012",
+      "label": "Stipend Land Binds the Warlords",
+      "year": 940,
+      "description": "Taejo granted 'merit land' (yeokbunjeon) to the warlords and officers who had backed him, converting a coalition of armed magnates into a landed founding aristocracy — and storing up trouble for his heirs.",
+      "wikiSlug": "Goryeo",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-013",
+      "label": "Taejo's Ten Injunctions",
+      "year": 943,
+      "description": "On his deathbed Taejo left ten political-religious commandments to his successors: revere Buddhism but limit the monasteries, distrust the southwest, study the Chinese classics but keep Korean ways — a constitution in miniature.",
+      "wikiSlug": "Ten_Injunctions",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-014",
+      "label": "The Marriage-Alliance Web",
+      "year": 943,
+      "description": "Taejo took 29 wives from powerful clans across the peninsula, fathering 25 sons and 9 daughters. The web bound the kingdom together — and guaranteed a generation of murderous succession disputes.",
+      "wikiSlug": "Taejo_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-015",
+      "label": "Wanggyu's Rebellion",
+      "year": 945,
+      "description": "The first fruit of the marriage web: the magnate Wanggyu, grandfather of two princes, plotted to seize the throne amid the chaotic reigns of Taejo's first two short-lived successors.",
+      "wikiSlug": "Hyejong_of_Goryeo",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-016",
+      "label": "Gwangjong Takes the Throne",
+      "year": 949,
+      "description": "Taejo's son Gwangjong, watching his brothers die in coup and counter-coup, resolved to break the founding aristocracy's grip and rule as an autocrat on the Chinese model.",
+      "wikiSlug": "Gwangjong_of_Goryeo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-017",
+      "label": "The Slave Review Act",
+      "year": 956,
+      "description": "Gwangjong's Slave Review Act freed people the warlords had illegally enslaved during the wars — restoring them to taxpaying commoner status and gutting the magnates' private manpower at a stroke.",
+      "wikiSlug": "Gwangjong_of_Goryeo",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-018",
+      "label": "The Civil Service Examination Begins",
+      "year": 958,
+      "description": "On the advice of the Later Zhou defector Ssang Gi, Gwangjong instituted the gwageo examination: office by tested knowledge of the Confucian classics rather than by birth — the spine of the Korean state for a thousand years.",
+      "wikiSlug": "Gwageo",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-019",
+      "label": "Gwangjong Proclaims Himself Emperor",
+      "year": 960,
+      "description": "Gwangjong adopted an imperial title, his own era names, and color-graded official robes, styling Kaesong an 'Imperial Capital' — Goryeo behaving as a self-contained celestial empire.",
+      "wikiSlug": "Gwangjong_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-020",
+      "label": "The Purge of the Merit Subjects",
+      "year": 960,
+      "description": "Behind the reforms came terror: Gwangjong executed or exiled much of the founding warlord class on charges of treason, a bloodbath that left the throne supreme but the elite traumatized.",
+      "wikiSlug": "Gwangjong_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-021",
+      "label": "The Jeonsigwa Land System",
+      "year": 976,
+      "description": "Gyeongjong's Jeonsigwa system tied land-revenue rights to bureaucratic rank rather than to birth, financing the new officialdom — though hereditary loopholes would slowly hollow it out.",
+      "wikiSlug": "Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-022",
+      "label": "Choe Seungno's 28-Point Memorial",
+      "year": 982,
+      "description": "The scholar Choe Seungno handed King Seongjong a sweeping critique of the previous reigns and a blueprint for Confucian government: a founding document of the Korean bureaucratic state.",
+      "wikiSlug": "Choe_Seungno",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-023",
+      "label": "The Twelve Mok Provinces",
+      "year": 983,
+      "description": "Seongjong planted twelve provincial governors (mok) across the realm, the first time the central state reached past the capital region into the countryside in a permanent, salaried way.",
+      "wikiSlug": "Seongjong_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-024",
+      "label": "The Gukjagam National Academy",
+      "year": 992,
+      "description": "Seongjong founded the Gukjagam, the state Confucian university that trained the scholar-officials who would sit the gwageo and run the ministries.",
+      "wikiSlug": "Gukjagam",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-025",
+      "label": "Korea's First Coinage",
+      "year": 996,
+      "description": "Seongjong minted iron 'geonwon jungbo' coins, an early and largely unsuccessful attempt to monetize an economy that kept running on rice and cloth for centuries.",
+      "wikiSlug": "Korean_won",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-026",
+      "label": "The Three Chancelleries and Six Ministries",
+      "year": 998,
+      "description": "Goryeo adapted the Tang–Song central government — chancelleries to deliberate and draft, six ministries to execute — but bent it around a hereditary aristocratic council, a distinctly Korean hybrid.",
+      "wikiSlug": "Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-027",
+      "label": "Gangjo's Coup",
+      "year": 1009,
+      "description": "The general Gangjo deposed and killed King Mokjong and enthroned Hyeonjong — a regicide the Khitan emperor would seize on as the pretext for invasion.",
+      "wikiSlug": "Hyeonjong_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-028",
+      "label": "The Thousand-Li Wall",
+      "year": 1033,
+      "description": "After the Khitan wars Goryeo built a stone rampart across the northern frontier from the Yalu's mouth to the east coast — a 600-mile border wall sealing the won-back north.",
+      "wikiSlug": "Cheolli_Jangseong_(Goryeo)",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-029",
+      "label": "Munjong's Golden Age Opens",
+      "year": 1046,
+      "description": "The long reign of Munjong — orderly, prosperous, culturally radiant — became the benchmark by which Goryeo measured every later age of decline.",
+      "wikiSlug": "Munjong_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-030",
+      "label": "The Jeonsigwa Revised Again",
+      "year": 1067,
+      "description": "Repeated re-issues of the land-rank system show the state fighting a losing battle against aristocratic families converting revenue grants into permanent private estates.",
+      "wikiSlug": "Goryeo",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-031",
+      "label": "The First Khitan Invasion",
+      "year": 993,
+      "description": "The Liao general Xiao Sunning crossed the Yalu with a vast army, demanding Goryeo abandon its Song alliance and submit to the Khitan empire.",
+      "wikiSlug": "Goryeo%E2%80%93Khitan_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-032",
+      "label": "Seo Hui Talks the Border to the Yalu",
+      "year": 993,
+      "description": "Instead of fighting, the envoy Seo Hui out-argued Xiao Sunning face to face — conceding nominal submission while extracting Khitan recognition of Goryeo's right to the lands up to the Yalu River.",
+      "wikiSlug": "Seo_Hui",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-033",
+      "label": "The Six Garrison Settlements",
+      "year": 994,
+      "description": "Goryeo fortified the Gangdong Six Stations east of the Yalu, converting Seo Hui's diplomacy into a permanent, walled northern frontier.",
+      "wikiSlug": "Seo_Hui",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-034",
+      "label": "The Second Khitan Invasion",
+      "year": 1010,
+      "description": "The Liao emperor Shengzong personally led 400,000 men, sacked Kaesong, and burned the palace; King Hyeonjong fled to the far south at Naju before a negotiated Khitan withdrawal.",
+      "wikiSlug": "Goryeo%E2%80%93Khitan_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-035",
+      "label": "The First Tripitaka Koreana Begun",
+      "year": 1011,
+      "description": "Believing the Buddha would shield the kingdom, Hyeonjong vowed and began carving the entire Buddhist canon onto woodblocks — a state act of faith against the Khitan terror.",
+      "wikiSlug": "Tripitaka_Koreana",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-goryeo-036",
+      "label": "The Third Khitan Invasion",
+      "year": 1018,
+      "description": "Liao sent 100,000 troops under Xiao Baeya to punish Goryeo's failure to deliver on its submission; this time Goryeo was ready.",
+      "wikiSlug": "Goryeo%E2%80%93Khitan_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-037",
+      "label": "Gang Gam-chan's Victory at Gwiju",
+      "year": 1019,
+      "description": "The 71-year-old scholar-general Gang Gam-chan trapped the retreating Khitan army at Gwiju and annihilated it — barely a few thousand of 100,000 escaped. The Khitan never invaded again.",
+      "wikiSlug": "Battle_of_Gwiju",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-038",
+      "label": "A Century of Peace",
+      "year": 1020,
+      "description": "After Gwiju, Goryeo balanced formal tribute to Liao against deep trade and cultural ties to Song, buying a hundred years of security through triangular diplomacy.",
+      "wikiSlug": "Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-039",
+      "label": "Arab Merchants at Kaesong",
+      "year": 1024,
+      "description": "Arab and Persian traders ('Daesik') are recorded reaching the Goryeo court with mercury, spices, and ivory — the encounters through which the name 'Korea' entered the wider world's vocabulary.",
+      "wikiSlug": "Kaesong",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-040",
+      "label": "The Heungwangsa Temple Complex",
+      "year": 1067,
+      "description": "Munjong poured state wealth into vast monasteries such as Heungwangsa near the capital — the fusion of royal power and Buddhist spectacle that the Ten Injunctions had warned against.",
+      "wikiSlug": "Goryeo",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-041",
+      "label": "The First Tripitaka Completed",
+      "year": 1087,
+      "description": "Seventy-six years of carving produced the first complete Korean Buddhist canon — a triumph of organization that also proved Goryeo could mobilize a kingdom for a single project.",
+      "wikiSlug": "Tripitaka_Koreana",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-042",
+      "label": "Uicheon Returns from Song",
+      "year": 1086,
+      "description": "A royal prince turned monk, Uicheon, came home from study in Song China with thousands of texts and a mission to heal Korean Buddhism's bitter doctrinal feuds.",
+      "wikiSlug": "Uicheon",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-goryeo-043",
+      "label": "The Cheontae School Founded",
+      "year": 1097,
+      "description": "Uicheon established the Cheontae (Tiantai) school to reconcile Korea's scripture-focused and meditation-focused Buddhist traditions — a unification that did not outlive him.",
+      "wikiSlug": "Cheontae",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-goryeo-044",
+      "label": "The Haedong Tongbo Coinage",
+      "year": 1102,
+      "description": "Another minting push under Sukjong issued 'Haedong tongbo' coins and even silver 'eunbyeong' vases as currency — used mostly by the state and merchants, ignored by the rice-and-cloth countryside.",
+      "wikiSlug": "Korean_won",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-045",
+      "label": "Yun Gwan's Jurchen Campaign",
+      "year": 1107,
+      "description": "General Yun Gwan led a special 'Extraordinary Military Corps' north against the rising Jurchen, building Nine Forts in the northeast — then abandoning them within two years as indefensible.",
+      "wikiSlug": "Yun_Gwan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-046",
+      "label": "The Jurchen Found the Jin Empire",
+      "year": 1115,
+      "description": "The Jurchen tribes Goryeo had despised as 'barbarians' founded the Jin empire, crushed Liao, and by 1126 forced Goryeo to acknowledge Jin overlordship — a humiliation the elite swallowed.",
+      "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-047",
+      "label": "A Song Envoy Describes Goryeo",
+      "year": 1123,
+      "description": "Xu Jing's illustrated report on his embassy to Kaesong gives a vivid outsider's portrait of Goryeo's wealth, ritual, and the celadon he admired as 'the first under heaven.'",
+      "wikiSlug": "Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-048",
+      "label": "Yi Ja-gyeom's Coup",
+      "year": 1126,
+      "description": "The in-law magnate Yi Ja-gyeom, whose daughters had married the king, tried to seize the throne outright; the fighting burned the palace and exposed how rotten aristocratic government had become.",
+      "wikiSlug": "Yi_Ja-gyeom",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-049",
+      "label": "Myocheong's Rebellion",
+      "year": 1135,
+      "description": "The geomancer-monk Myocheong urged moving the capital to Pyongyang, declaring an empire, and attacking Jin; rebuffed, he revolted, and the kingdom split over its own identity.",
+      "wikiSlug": "Myocheong",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-050",
+      "label": "Kim Bu-sik Crushes the Revolt",
+      "year": 1136,
+      "description": "The Confucian statesman-historian Kim Bu-sik led the year-long siege that destroyed Myocheong's Pyongyang regime — a victory of the cautious, Silla-rooted, pro-Jin establishment.",
+      "wikiSlug": "Kim_Bu-sik",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-051",
+      "label": "The Samguk Sagi",
+      "year": 1145,
+      "description": "Kim Bu-sik compiled the Samguk Sagi, the oldest surviving Korean history — invaluable, and pointedly Silla-centered and Confucian in a way that shaped how Koreans saw their own past.",
+      "wikiSlug": "Samguk_Sagi",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-052",
+      "label": "The Celadon Apex",
+      "year": 1146,
+      "description": "Twelfth-century kilns perfected sanggam inlaid celadon — designs incised and filled with white and black slip under a jade-green glaze — the most prized luxury good in East Asia.",
+      "wikiSlug": "Korean_pottery_and_porcelain",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-053",
+      "label": "Goryeo Paper, the World's Finest",
+      "year": 1100,
+      "description": "Goryeo's mulberry-bark paper (hanji) was so durable and lustrous that Song China imported it as the best paper on Earth — a craft refined to a technology and a major export.",
+      "wikiSlug": "Hanji",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-goryeo-054",
+      "label": "The Sky Watchers",
+      "year": 1100,
+      "description": "Goryeo's astronomical bureau kept systematic records of eclipses, comets, and sunspots; the dense observational logs preserved in the later Goryeosa remain useful to astronomers today.",
+      "wikiSlug": "Korean_astronomy",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-goryeo-055",
+      "label": "Uijong's Pleasure Pavilions",
+      "year": 1157,
+      "description": "King Uijong lavished the treasury on gardens, pavilions, and Buddhist festivals while military officers, barred from honor and pay, stood guard in the rain — the spark drying out.",
+      "wikiSlug": "Uijong_of_Goryeo",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-056",
+      "label": "The Military Coup of 1170",
+      "year": 1170,
+      "description": "At a royal outing, officers led by Jeong Jung-bu massacred the civil officials, deposed Uijong, and seized the state — ending two centuries of civilian aristocratic rule.",
+      "wikiSlug": "Goryeo_military_regime",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-057",
+      "label": "Kim Bo-dang's Failed Restoration",
+      "year": 1173,
+      "description": "A loyalist counter-coup to restore Uijong collapsed; the deposed king was murdered, his spine reportedly broken — proof the soldiers would not give power back.",
+      "wikiSlug": "Goryeo_military_regime",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-058",
+      "label": "Jo Wi-chong's Pyongyang Revolt",
+      "year": 1174,
+      "description": "A general in the Western Capital rose against the junta; the multi-year war to crush him showed the new regime's authority reached only as far as its armies.",
+      "wikiSlug": "Goryeo_military_regime",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-059",
+      "label": "Gyeong Dae-seung and the Dobang",
+      "year": 1179,
+      "description": "The strongman Gyeong Dae-seung built the Dobang, a private bodyguard corps that became the real seat of power — government by household army, the template for what followed.",
+      "wikiSlug": "Goryeo_military_regime",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-060",
+      "label": "The Rise of Yi Ui-min",
+      "year": 1183,
+      "description": "A butcher's son risen through the army, Yi Ui-min, clawed to the top of the junta — vivid evidence that in military-rule Goryeo, low birth was no longer a ceiling.",
+      "wikiSlug": "Yi_Ui-min",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-061",
+      "label": "Choe Chungheon Seizes Power",
+      "year": 1196,
+      "description": "Choe Chungheon killed Yi Ui-min and ended the chaotic strongman churn, founding a stable hereditary military dictatorship that would rule Goryeo for sixty years behind puppet kings.",
+      "wikiSlug": "Choe_Chungheon",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-062",
+      "label": "Manjeok's Slave Uprising",
+      "year": 1198,
+      "description": "A palace slave named Manjeok plotted a slave revolt in the capital itself, arguing that since low-born men now ruled, 'are generals and ministers born to their rank?' — betrayed and drowned before it began.",
+      "wikiSlug": "Manjeok",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-063",
+      "label": "The Age of Peasant Revolt",
+      "year": 1199,
+      "description": "Famine, exploitation, and the collapse of legitimate authority set off a decade of regional risings — Gyeongju, Unmun, Jinju — that the junta drowned in blood.",
+      "wikiSlug": "Goryeo_military_regime",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-064",
+      "label": "The Gyojeong Dogam",
+      "year": 1209,
+      "description": "Choe Chungheon ruled not as king but through the Gyojeong Dogam, a personal control agency that taxed, policed, and appointed — the dynasty's real government for half a century.",
+      "wikiSlug": "Choe_Chungheon",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-065",
+      "label": "The Choe Dictatorship Becomes Hereditary",
+      "year": 1219,
+      "description": "Choe Chungheon died and power passed smoothly to his son Choe U — a private military house now inherited the state as if it were an estate.",
+      "wikiSlug": "Choe_U",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-066",
+      "label": "First Contact with the Mongols",
+      "year": 1219,
+      "description": "Goryeo and a Mongol army cooperated to wipe out Khitan remnants who had fled into Korea — and the Mongols presented the bill: crushing annual 'tribute' and overbearing envoys.",
+      "wikiSlug": "Mongol_invasions_of_Korea",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-067",
+      "label": "The Murder That Meant War",
+      "year": 1225,
+      "description": "The Mongol envoy Jegüü was killed on the border under murky circumstances; the Mongols broke relations and, six years later, came back as an invading army.",
+      "wikiSlug": "Mongol_invasions_of_Korea",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-068",
+      "label": "The First Mongol Invasion",
+      "year": 1231,
+      "description": "Ögedei's general Sartai poured into Goryeo, smashing through the north; the court bought a withdrawal with tribute and Mongol overseers it had no intention of obeying.",
+      "wikiSlug": "Mongol_invasions_of_Korea",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-069",
+      "label": "The Court Flees to Ganghwa Island",
+      "year": 1232,
+      "description": "Choe U moved the king, court, and capital to Ganghwa, a tidal island the Mongol cavalry could not reach — committing Goryeo to decades of resistance while the mainland burned.",
+      "wikiSlug": "Ganghwa_Island",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-070",
+      "label": "Sartai Killed at Cheoin",
+      "year": 1232,
+      "description": "During the second invasion the Mongol commander Sartai was shot dead by the monk Kim Yun-hu and a band of peasants and slaves at a small fortress south of the capital — and the Mongols withdrew again.",
+      "wikiSlug": "Battle_of_Cheoin",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-071",
+      "label": "The Original Tripitaka Burns",
+      "year": 1232,
+      "description": "Mongol troops burned the woodblocks of the first Tripitaka Koreana, destroying seventy years of work and, to Goryeo eyes, defiling the kingdom's spiritual shield.",
+      "wikiSlug": "Tripitaka_Koreana",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-goryeo-072",
+      "label": "The First Metal-Type Printing",
+      "year": 1234,
+      "description": "The court text Sangjeong Gogeum Yemun was printed on Ganghwa with cast-metal movable type — the earliest documented use of the technology anywhere, two centuries before Gutenberg.",
+      "wikiSlug": "Movable_type",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-goryeo-073",
+      "label": "The Tripitaka Koreana Re-Carved",
+      "year": 1236,
+      "description": "On Ganghwa, Goryeo vowed and began carving the canon again — 81,258 woodblocks completed by 1251, the world's most complete and accurate Buddhist canon, surviving today at Haeinsa.",
+      "wikiSlug": "Tripitaka_Koreana",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-074",
+      "label": "Emergency Remedies of Folk Medicine",
+      "year": 1236,
+      "description": "Compiled on besieged Ganghwa, the Hyangyak Gugeupbang catalogued native Korean herbal cures — the oldest surviving Korean medical text, born of a kingdom cut off from Chinese drugs by war.",
+      "wikiSlug": "Traditional_Korean_medicine",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-goryeo-075",
+      "label": "Hwangnyongsa Pagoda Destroyed",
+      "year": 1238,
+      "description": "The Mongols burned the nine-story wooden pagoda of Hwangnyongsa at Gyeongju, the tallest structure in East Asia and a 600-year-old symbol of Korean Buddhist civilization.",
+      "wikiSlug": "Hwangnyongsa",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-goryeo-076",
+      "label": "The Catastrophe of 1254",
+      "year": 1254,
+      "description": "In a single campaign Mongol forces took over 200,000 captives and left the countryside, in the chronicle's words, ash and bone — the human cost of the island court's defiance.",
+      "wikiSlug": "Mongol_invasions_of_Korea",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-077",
+      "label": "The Choe Dictatorship Falls",
+      "year": 1258,
+      "description": "After sixty years, the last Choe dictator was assassinated by his own subordinates; with the war faction broken, Goryeo could finally sue for peace.",
+      "wikiSlug": "Goryeo_military_regime",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-078",
+      "label": "The Crown Prince Meets Kublai",
+      "year": 1259,
+      "description": "Goryeo's heir submitted in person — and chose to back Kublai in the Mongol succession war. Kublai won, and remembered: Goryeo would be a privileged vassal, not an erased one.",
+      "wikiSlug": "Wonjong_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-079",
+      "label": "The Court Returns to the Mainland",
+      "year": 1270,
+      "description": "King Wonjong abandoned Ganghwa and returned the capital to Kaesong, formally ending a century of military rule and a generation of island resistance.",
+      "wikiSlug": "Wonjong_of_Goryeo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-080",
+      "label": "The Sambyeolcho Rebellion",
+      "year": 1270,
+      "description": "The elite Sambyeolcho patrol corps refused to surrender, enthroned their own king, and fought on from Ganghwa to Jindo to Jeju before Goryeo–Mongol forces annihilated them in 1273.",
+      "wikiSlug": "Sambyeolcho_Rebellion",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-081",
+      "label": "The Son-in-Law Nation Begins",
+      "year": 1274,
+      "description": "King Chungnyeol married a daughter of Kublai Khan; for a century Goryeo kings would be Yuan imperial sons-in-law, raised at the Mongol court and reigning by Mongol leave.",
+      "wikiSlug": "Goryeo_under_Mongol_rule",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-082",
+      "label": "The First Invasion of Japan",
+      "year": 1274,
+      "description": "Forced to build the fleet and supply the troops, Goryeo carried the first Mongol invasion of Japan to Hakata Bay, where a storm wrecked the armada — a ruinous, involuntary war.",
+      "wikiSlug": "Mongol_invasions_of_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-083",
+      "label": "The Field Branch for Japan",
+      "year": 1280,
+      "description": "The Yuan planted a 'Branch Secretariat for the Eastern Expedition' (Jeongdong Haengseong) in Goryeo — a permanent organ of Mongol oversight that long outlived the Japan campaigns.",
+      "wikiSlug": "Goryeo_under_Mongol_rule",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-084",
+      "label": "The Second Invasion and the Kamikaze",
+      "year": 1281,
+      "description": "A second, larger fleet sailed against Japan with Goryeo ships and men; a typhoon — the 'divine wind' — destroyed it, drowning tens of thousands and gutting Goryeo's coast and treasury.",
+      "wikiSlug": "Mongol_invasions_of_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-085",
+      "label": "The Ssangseong Commandery",
+      "year": 1258,
+      "description": "The northeast around Hwaju was carved off and ruled directly by the Yuan through the Ssangseong Commandery — a hundred-year amputation of Korean territory.",
+      "wikiSlug": "Ssangseong_Prefecture",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-086",
+      "label": "Tamna Becomes a Mongol Horse Pasture",
+      "year": 1273,
+      "description": "Jeju Island (Tamna) was placed under direct Mongol administration as an imperial horse ranch — herds, herders, and a Mongol stamp on the island that outlasted the dynasty.",
+      "wikiSlug": "Tamna",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-087",
+      "label": "Iryeon Compiles the Samguk Yusa",
+      "year": 1281,
+      "description": "Under Mongol domination the monk Iryeon gathered the myths, Buddhist tales, and the Dangun foundation legend into the Samguk Yusa — a defiant assertion of a distinct Korean origin.",
+      "wikiSlug": "Samguk_Yusa",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-088",
+      "label": "Yi Seung-hyu's Jewang Ungi",
+      "year": 1287,
+      "description": "The poet Yi Seung-hyu set Korean history in verse, again starting from Dangun — another scholar answering subjugation with a story of ancient, independent Korean nationhood.",
+      "wikiSlug": "Yi_Seung-hyu",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-089",
+      "label": "An Hyang Brings Neo-Confucianism",
+      "year": 1290,
+      "description": "Returning from the Yuan capital, the scholar An Hyang introduced Zhu Xi's Neo-Confucianism to Goryeo — the intellectual bomb that would, a century on, blow up the dynasty itself.",
+      "wikiSlug": "An_Hyang",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-goryeo-090",
+      "label": "Chungseon's Reform Attempt",
+      "year": 1298,
+      "description": "King Chungseon tried to curb the great estates and the in-law cliques; checkmated by Yuan and aristocracy alike, he withdrew to Dadu — a pattern of stillborn reform that would repeat.",
+      "wikiSlug": "Chungseon_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-091",
+      "label": "The Manggwondang Academy in Dadu",
+      "year": 1314,
+      "description": "Chungseon endowed the Manggwondang study hall in the Yuan capital, where Goryeo and Chinese scholars met — a hothouse that sent Neo-Confucian ideas streaming back to Korea.",
+      "wikiSlug": "Chungseon_of_Goryeo",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-092",
+      "label": "The Tribute of Bodies",
+      "year": 1342,
+      "description": "Beyond gold, ginseng, and falcons, the Yuan demanded 'tribute women' and eunuchs; some rose to power in Dadu, but the gongnyeo levies were a generational trauma the chronicles record with shame.",
+      "wikiSlug": "Goryeo_under_Mongol_rule",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-093",
+      "label": "Gongmin Takes the Throne",
+      "year": 1351,
+      "description": "Raised a hostage at the crumbling Yuan court, King Gongmin returned determined to break the Mongol grip while the empire that imposed it was visibly dying.",
+      "wikiSlug": "Gongmin_of_Goryeo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-094",
+      "label": "Gongmin's Anti-Yuan Revolution",
+      "year": 1356,
+      "description": "Gongmin purged the pro-Yuan Gi clan, abolished the Mongol oversight organs, and sent armies to retake the Ssangseong Commandery — recovering the lost northeast in a single bold year.",
+      "wikiSlug": "Gongmin_of_Goryeo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-095",
+      "label": "The House of Yi Joins Goryeo",
+      "year": 1356,
+      "description": "Reclaiming the northeast won Gongmin the allegiance of the frontier warlord Yi Ja-chun and his son Yi Seong-gye — the family that would end the dynasty.",
+      "wikiSlug": "Yi_Ja-chun",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-096",
+      "label": "The Red Turbans Invade",
+      "year": 1359,
+      "description": "Chinese Red Turban rebels, smashed by the Yuan, spilled into Korea; in 1361 they sacked Kaesong itself and Gongmin fled south to Andong before Goryeo's generals retook the capital.",
+      "wikiSlug": "Red_Turban_invasions_of_Korea",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-097",
+      "label": "Sin Don's Rise",
+      "year": 1365,
+      "description": "Grief-stricken by his queen's death, Gongmin handed reform to the low-born monk Sin Don, an outsider with no clan estates to protect and nothing to lose.",
+      "wikiSlug": "Sin_Don",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-098",
+      "label": "The Land and Slave Reform",
+      "year": 1366,
+      "description": "Sin Don's Directorate of Land and Slaves returned seized estates to their owners and illegally bound people to freedom — wildly popular below, and a death sentence among the aristocracy he robbed.",
+      "wikiSlug": "Sin_Don",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-099",
+      "label": "Gongmin Assassinated",
+      "year": 1374,
+      "description": "Sin Don was purged in 1371 and Gongmin murdered in 1374 by his own attendants; reform from the top had failed, and the dynasty's last chance died with the king.",
+      "wikiSlug": "Gongmin_of_Goryeo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-100",
+      "label": "Choe Yeong Beats Back the Pirates",
+      "year": 1376,
+      "description": "Japanese wokou pirates raided ever deeper, even threatening the capital; the incorruptible old general Choe Yeong's victory at Hongsan made him the dynasty's sword and conscience.",
+      "wikiSlug": "Choe_Yeong",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-goryeo-101",
+      "label": "The Jikji: Movable Metal Type",
+      "year": 1377,
+      "description": "Monks at Heungdeoksa in Cheongju printed the Jikji with movable metal type — the oldest such book that survives, produced 78 years before Gutenberg's Bible.",
+      "wikiSlug": "Jikji",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-goryeo-102",
+      "label": "Choe Mu-seon's Gunpowder Bureau",
+      "year": 1377,
+      "description": "After prying the gunpowder formula from a Chinese trader, Choe Mu-seon got the court to found a Firearms Directorate — Korea's first cannon, built to kill pirates.",
+      "wikiSlug": "Choe_Mu-seon",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-goryeo-103",
+      "label": "Cannon at Jinpo, Slaughter at Hwangsan",
+      "year": 1380,
+      "description": "Choe Mu-seon's cannon burned the wokou fleet at Jinpo; the pirates stranded ashore were destroyed by Yi Seong-gye at Hwangsan — the victory that made him a national hero.",
+      "wikiSlug": "Battle_of_Hwangsan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-104",
+      "label": "The Wihwa Island Turnaround",
+      "year": 1388,
+      "description": "Ordered to invade Ming-held Liaodong, Yi Seong-gye marched to the Yalu, judged the war suicidal, turned his army around, seized the capital, and made himself the power behind the throne.",
+      "wikiSlug": "Wihwado_Retreat",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-goryeo-105",
+      "label": "The Gwajeon Land Law",
+      "year": 1391,
+      "description": "Yi Seong-gye and the radical Neo-Confucians burned the old land registers and redistributed revenue rights — destroying the aristocracy's economic base and funding the regime that would replace it.",
+      "wikiSlug": "Gwajeon_Law",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-goryeo-106",
+      "label": "Jeong Mong-ju Murdered; Joseon Founded",
+      "year": 1392,
+      "description": "When the loyalist scholar Jeong Mong-ju refused to abandon Goryeo, Yi Seong-gye's son had him clubbed to death on Seonjuk Bridge; months later Yi Seong-gye took the throne as Taejo of Joseon.",
+      "wikiSlug": "Taejo_of_Joseon",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-goryeo-107",
+      "label": "Jeong Do-jeon and the New Order",
+      "year": 1392,
+      "description": "The revolutionary Neo-Confucian Jeong Do-jeon, who had argued a dynasty losing the people's trust forfeits the right to rule, became the architect of the Joseon state — Goryeo's afterlife was its replacement.",
+      "wikiSlug": "Jeong_Do-jeon",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}
