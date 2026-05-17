@@ -203,6 +203,10 @@ Each TL should find the structure that fits its subject. Mesopotamia has 3,500 y
 
 **Each narrative should attempt a fresh perspective.** Don't repeat the same structural approach from TL to TL.
 
+### Chapter count = narrative movements (no template, no cap)
+
+Before writing, build a **narrative-movement map**: list the distinct dramatic movements the civilization's story actually has — its rises, crises, transformations, collapses, afterlives. **The chapter count is the number of those movements**, derived from the story, never from a civ-type template ("classical ⇒ ~8–10") and never from "take the heavier of two numbers." There is **no upper cap** — if the full story needs 22 chapters, it gets 22; if it needs 8, it gets 8. The only failure modes are a chapter that isn't *about* a real movement (padding) and a movement crammed into half a chapter (compression). The movement map + a one-line throughline per chapter is approved by the user before drafting (a pipeline gate, even in no-stop mode). This pairs with the enforced 10–15-events-per-chapter density: movements set how many chapters, density sets how much each carries.
+
 ---
 
 ## Rule: Kill "we met" / "whom we meet" phrasing in cross-references

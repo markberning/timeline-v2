@@ -17,22 +17,31 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 - **Dev**: `npm run dev` → localhost:3000. Dev server keeps the dev-only api routes and dynamic review pages for local image curation.
 
 ## Content Pipeline
-0. **Pull v1 reference data + expand to target density** — check `~/projects/personal/timeline/src/data/{tlId}.json`, copy to `reference-data/{tlId}.json`. **Hard target: 10–15 events per chapter** (e.g. a 20-chapter TL ⇒ ~200–220 events), spread across all 8 categories. The event pool is reused across chapters, so events can be unique-per-chapter or linked from multiple chapters via forward/back references during link curation. Verify the `label` field matches `navigator-tls.ts`.
+
+**The pipeline is gated, not advised.** Quality bars are enforced by scripts that
+fail the build/ship, because shipping 100 civs on agent diligence required a
+post-hoc corpus link sweep + corpus map regen. See `audits/pipeline-audit.md`.
+Gate scripts: `npm run gate` (lint:links --strict + lint-density --strict, wired
+into `prebuild`); `scripts/link-coverage.ts`; `scripts/maps-build.mjs` (lint →
+gen → vision-QA → regen); `scripts/ship-check.mjs` (blocks the ship toggle).
+
+0. **Pull v1 reference data + expand to target density** — check `~/projects/personal/timeline/src/data/{tlId}.json`, copy to `reference-data/{tlId}.json`. **Hard target: 10–15 events per chapter** (e.g. a 20-chapter TL ⇒ ~200–220 events), spread across all 8 categories — *enforced* by `lint-density.ts` (new civs get zero tolerance; not grandfathered). The event pool is reused across chapters. Verify the `label` field matches `navigator-tls.ts`.
+0.5. **Narrative-movement map (GATE — user-approved before writing)** — list the distinct dramatic movements the civilization's story has (rise / crisis / transformation / collapse / afterlife …). **Chapter count = number of movements**, NOT a civ-type template and NOT "take the heavier option." No artificial cap — story length drives structure. Get the chapter list + one-line throughline per chapter approved by the user before drafting. This gate holds even in no-stop mode.
 1. **Write narrative** — Claude drafts the chapter-based prose. Apply all writing rules in `WRITING-RULES.md`.
-2. **Audit** using the 5-persona system in `.claude/skills/audit-narrative.md`
-3. **Fix** audit findings from `audits/{tlId}.audit.md`
-4. **Reconcile** — add events/terms from narrative missing from reference data
-5. **Register** — add `'{tlId}.md': '{tlId}'` to `NARRATIVE_FILES` in `scripts/parse-narratives.ts`
-6. **Curate event links** — `content/.event-links-{tlId}.json`. **matchText must be plain ASCII with word-character boundaries** — no bold wrappers, no trailing parens, no leading/trailing punctuation. Parse uses `\b(escaped)\b` regex.
-7. **Curate glossary links** — `content/.glossary-links-{tlId}.json`, format `[{term, matchText, wikiSlug, type}]`. Target ~20–35 per chapter.
-8. **Curate cross-civ links** — `content/.cross-links-{tlId}.json` per chapter with `{matchText, targetTl, targetChapter, blurb}`.
-9. **Write summary bullets** — `narratives/{tlId}.summaries.json`, 6–10 bullets per chapter. See WRITING-RULES.md for spec.
-9b. **Lint links** — `npm run lint:links --tl={tlId}` before ship. Catches dead wikiSlugs (live Wikipedia check, cached), matchText not present in the chapter body (the parser silently drops these — it also now warns), non-ASCII/punctuation/sentence-like/chapter-title-fragment matchText, dupes, and generic image-risk slugs. `--strict` exits non-zero on ERROR. Fix all ERRORs before parse.
-10. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts. **Restart dev server after parse** — `lib/data.ts` caches in-memory.
-11. **Backward cross-cultural pass** — add cross-link entries to completed TLs pointing at chapters in the new TL.
-12. **Generate chapter maps** — `node --env-file=.env.local scripts/generate-maps.mjs {tlId}` parses `map-prompts/{tlId}.md` and calls the Gemini image API (`gemini-3-pro-image-preview`) per chapter. Audit thumbnails, regen bad chapters with `--chapter N`, then `node scripts/optimize-maps.mjs` (PNG → WebP q85, deletes PNG originals). See `map-prompts/README.md` for prompt house style.
-13. **Review images** — `/review/{tlId}` (dev mode only)
-14. **Ship toggle** — flip `hasContent: true` in `src/lib/navigator-tls.ts`
+2. **Audit** using the 5-persona system in `.claude/skills/audit-narrative.md`. Report-only, but Persona-D WEAK/REWRITE grades and Persona-E backward findings are **ship-blocking** (enforced at step 14, not optional).
+3. **Fix** audit findings from `audits/{tlId}.audit.md`. **Must-fix (blocks ship): all factual/citation errors, all readability-breaking definition/source-intro gaps, and EVERY Persona-D WEAK/REWRITE chapter + every "no" build-dependency boundary** (chapter flow is a hard gate, not "one structural note, defer the rest").
+4. **Reconcile** — add events/terms from narrative missing from reference data.
+5. **Register** — add `'{tlId}.md': '{tlId}'` to `NARRATIVE_FILES` in `scripts/parse-narratives.ts`.
+6. **Curate event links** — `content/.event-links-{tlId}.json`. matchText: verbatim plain substring, no `**bold**`-spanning, no leading/trailing punctuation; Unicode word-boundary (`(?<![\p{L}\p{N}_])…`).
+7. **Curate glossary + cross-civ links** — `.glossary-links-{tlId}.json`, `.cross-links-{tlId}.json`. **Bar: proper nouns + concepts, no cap** (skip modern country names / universal basics). The old "~10–14 event / ~8–12 glossary / ~14–18 cross per TL" and "~20–35 glossary per chapter" numbers are RETIRED — they were the under-production target that caused the sweep.
+7b. **Link-coverage (GATE)** — `tsx scripts/link-coverage.ts --tl={tlId} --strict`. Every author-bolded-but-unlinked term must be linked or waived in `content/.link-waivers-{tlId}.json`. Pass B (proper nouns) is advisory.
+8. **Write summary bullets** — `narratives/{tlId}.summaries.json`, 6–10 bullets per chapter. See WRITING-RULES.md.
+9. **Lint links (GATE)** — `npm run lint:links --tl={tlId} --strict` must pass (0 ERROR). `--contention` (opt-in) shows what the parser will silently drop. This is also wired into `prebuild` corpus-wide.
+10. **Enrich events** — `npm run parse` (runs the gate first). **Restart dev server after parse** — `lib/data.ts` caches in-memory.
+11. **Backward cross-cultural pass (GATE — mandatory, not deferred)** — apply every Persona-E backward finding into the reference TLs' `.cross-links-*.json` (or ledger it with a reason); `npm run lint:links --strict` must pass for **every reference TL touched**.
+12. **Generate + QA maps (GATE)** — `node --env-file=.env.local scripts/maps-build.mjs {tlId}`: lints the prompt, generates, runs the vision-model QA gate (`audit-maps.mjs`, locked acceptance criteria), auto-regens failures (≤3 rounds), then optimizes. Manual `generate-maps.mjs` + thumbnail eyeball is no longer the gate. See `map-prompts/README.md`.
+13. **Review images** — `/review/{tlId}` (dev mode only).
+14. **Ship toggle (GATE)** — `node scripts/ship-check.mjs {tlId}` must pass, THEN flip `hasContent: true` in `src/lib/navigator-tls.ts`. ship-check verifies: maps exist 1:1 with chapters + QA-passed, links 0-ERROR, coverage triaged, density in band, no Persona-D WEAK/REWRITE, backward pass done.
 
 ## File Structure
 ```

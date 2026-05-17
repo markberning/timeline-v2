@@ -9,7 +9,7 @@ Audit a chapter-format narrative document with four parallel persona subagents a
 
 This skill exists because human-in-the-loop debugging of every chapter is unsustainable across 100+ TLs. The personas catch four categories of failure: empty claims and undefined terms (Newcomer), content that smells made up (Skeptic), weak storytelling (Story Editor), and missed cross-cultural connections (Cross-Cultural Reviewer). See `WRITING-RULES.md` for the writing rules these personas enforce.
 
-**This is a report-only audit.** No fixes are applied. The user reads the report and decides what to change.
+**This is a report-only audit** — the audit itself applies no fixes. But two of its outputs are **ship gates**, enforced by the pipeline (CLAUDE.md steps 3, 11, 14 + `scripts/ship-check.mjs`), not left to discretion: (1) every Persona-D **WEAK/REWRITE** chapter and every Persona-D "no" **build-dependency** boundary is must-fix and blocks `hasContent: true`; (2) every Persona-E **backward** cross-cultural finding must be applied (or ledgered with a reason) before ship — it is no longer deferrable. Everything else is triaged editorially.
 
 ## Instructions
 
@@ -109,7 +109,7 @@ After surfacing the summary, provide an honest editorial assessment:
 - **Lower priority**: valid but diminishing returns (minor formatting, borderline flags, things that would make the prose heavy if all fixed)
 - **Skip**: findings that are noise or would actively harm the narrative
 
-For backward cross-cultural findings specifically, recommend whether to apply them now or defer to a separate pass after the new TL is finalized. The default is: defer, then do a surgical pass inserting terse cross-reference parentheticals into the reference TL — not restructuring its prose.
+Backward cross-cultural findings are **mandatory before ship, not deferrable** (CLAUDE.md step 11 is a gate). Every backward finding is either applied — a surgical pass inserting terse cross-reference parentheticals / `.cross-links-*.json` entries into the reference TL, not restructuring its prose — or recorded in the audit's deferred section **with an explicit reason**. "Repeatedly deferred / low-urgency enrichment" is no longer an acceptable disposition; that policy is what left the corpus needing a sweep.
 
 The goal is to help the user triage efficiently rather than treating all findings as equal. The audit catches everything; the editorial judgment decides what matters.
 
@@ -338,9 +338,11 @@ For each chapter:
 - <1-3 specific structural issues, each with: the problem, where it occurs, and what the fix would look like (not the exact words, but the structural change needed)>
 
 **Momentum map:** <one line indicating where the chapter's energy is — e.g., "Strong open, sags in the middle (paragraphs 3-5 are an achievement list), strong close" or "Flat throughout — no peaks">
+
+**Build dependency:** <yes / weak / no — does this chapter depend on and advance from the previous one (does it *build*, not just *follow* in time)? For Chapter 1, judge whether it sets up the arc. A "no" is a ship-blocking structural defect, same as a WEAK grade.>
 ```
 
-If a chapter is STRONG with no significant issues, you may keep "What doesn't work" to a single minor note.
+If a chapter is STRONG with no significant issues, you may keep "What doesn't work" to a single minor note. **Never soften a WEAK/REWRITE grade or a "no" build-dependency to keep the report positive — those are the ship gates.**
 
 At the end, add a brief **Overall assessment** (3-5 sentences): how does the document work as a whole? Is there a consistent voice? Do the chapters build on each other? Is there a sense of forward motion across the full arc? What's the single biggest thing that would improve the document?
 
@@ -357,7 +359,7 @@ Read the entire file using the Read tool before beginning your evaluation.
 
 ## Persona E — Cross-Cultural Reviewer
 
-This persona is unique among the audit personas because it needs to read **both** the file being audited **and** all completed reference TL files. It produces two reports: a **forward report** (what the audited TL is missing) and a **backward report** (what previously-completed TLs should add now that this new TL exists).
+This persona is unique among the audit personas because it needs to read **both** the file being audited **and** all completed reference TL files. It produces two reports: a **forward report** (what the audited TL is missing) and a **backward report** (what previously-completed TLs should add now that this new TL exists). **The backward report is a mandatory pre-ship pass (CLAUDE.md step 11 gate), not optional enrichment** — be exhaustive and specific (quote the exact reference-TL passage and the chapter to point at), because every item must be applied or ledgered with a reason before the new TL can ship.
 
 **Reference files:** Pass the paths to all completed chapter-format rewrites (e.g., `mesopotamia-rewrite.md`). As more TLs are completed, pass all of them. The persona needs the full text of each to identify specific passages for cross-referencing.
 
