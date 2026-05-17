@@ -91,12 +91,6 @@
       "type": "concept"
     },
     {
-      "term": "La Tene culture",
-      "matchText": "La Tene",
-      "wikiSlug": "La_T%C3%A8ne_culture",
-      "type": "concept"
-    },
-    {
       "term": "Ambrones",
       "matchText": "Ambrones",
       "wikiSlug": "Ambrones",
@@ -113,12 +107,6 @@
       "matchText": "southern Scandinavia",
       "wikiSlug": "Scandinavia",
       "type": "place"
-    },
-    {
-      "term": "Proto-Germanic language",
-      "matchText": "Proto-Germanic",
-      "wikiSlug": "Proto-Germanic_language",
-      "type": "concept"
     },
     {
       "term": "Germanic languages",
@@ -153,12 +141,6 @@
       "type": "people"
     },
     {
-      "term": "Marian reforms",
-      "matchText": "Marian reforms",
-      "wikiSlug": "Marian_reforms",
-      "type": "concept"
-    },
-    {
       "term": "Battle of Aquae Sextiae",
       "matchText": "Battle of Aquae Sextiae",
       "wikiSlug": "Battle_of_Aquae_Sextiae",
@@ -183,12 +165,6 @@
       "type": "people"
     },
     {
-      "term": "Rhone",
-      "matchText": "Rhone river",
-      "wikiSlug": "Rh%C3%B4ne",
-      "type": "place"
-    },
-    {
       "term": "Aix-en-Provence",
       "matchText": "Aix-en-Provence",
       "wikiSlug": "Aix-en-Provence",
@@ -204,12 +180,6 @@
       "term": "Consul",
       "matchText": "consul",
       "wikiSlug": "Roman_consul",
-      "type": "concept"
-    },
-    {
-      "term": "Roman legions",
-      "matchText": "Roman legions",
-      "wikiSlug": "Roman_legion",
       "type": "concept"
     },
     {
@@ -291,12 +261,6 @@
       "matchText": "conquest of Gaul",
       "wikiSlug": "Gallic_Wars",
       "type": "event"
-    },
-    {
-      "term": "Transalpine Gaul",
-      "matchText": "Transalpine Gaul",
-      "wikiSlug": "Gallia_Transalpina",
-      "type": "place"
     },
     {
       "term": "Gauls",
@@ -391,12 +355,6 @@
       "type": "people"
     },
     {
-      "term": "Hermannsdenkmal",
-      "matchText": "heroic Hermann",
-      "wikiSlug": "Hermannsdenkmal",
-      "type": "concept"
-    },
-    {
       "term": "Osnabrück",
       "matchText": "Osnabrück",
       "wikiSlug": "Osnabr%C3%BCck",
@@ -415,12 +373,6 @@
       "matchText": "Tacitus",
       "wikiSlug": "Tacitus",
       "type": "people"
-    },
-    {
-      "term": "Germania (book)",
-      "matchText": "the Germania",
-      "wikiSlug": "Germania_(book)",
-      "type": "concept"
     },
     {
       "term": "Comitatus",
@@ -456,12 +408,6 @@
       "term": "Bog body",
       "matchText": "bog deposits",
       "wikiSlug": "Bog_body",
-      "type": "concept"
-    },
-    {
-      "term": "Stoicism",
-      "matchText": "Stoic",
-      "wikiSlug": "Stoicism",
       "type": "concept"
     },
     {
@@ -575,12 +521,6 @@
       "type": "concept"
     },
     {
-      "term": "Germanic law",
-      "matchText": "Germanic law",
-      "wikiSlug": "Germanic_law",
-      "type": "concept"
-    },
-    {
       "term": "North Italic scripts",
       "matchText": "North Italic",
       "wikiSlug": "Old_Italic_script",
@@ -594,7 +534,7 @@
     },
     {
       "term": "Roman trade with Germanic peoples",
-      "matchText": "Roman trade",
+      "matchText": "ran both ways",
       "wikiSlug": "Roman_trade_with_the_Germanic_peoples",
       "type": "concept"
     }
@@ -765,12 +705,6 @@
       "type": "place"
     },
     {
-      "term": "Vandals",
-      "matchText": "Vandals",
-      "wikiSlug": "Vandals",
-      "type": "people"
-    },
-    {
       "term": "Illyrian Emperors",
       "matchText": "soldier-emperors from the Balkans",
       "wikiSlug": "Illyrian_Emperors",
@@ -840,13 +774,13 @@
     },
     {
       "term": "Gothic alphabet",
-      "matchText": "Gothic alphabet",
+      "matchText": "invented an alphabet",
       "wikiSlug": "Gothic_alphabet",
       "type": "concept"
     },
     {
       "term": "Gothic Bible",
-      "matchText": "Gothic Bible",
+      "matchText": "Bible in their own language",
       "wikiSlug": "Gothic_Bible",
       "type": "concept"
     },
@@ -876,15 +810,9 @@
     },
     {
       "term": "Stilicho",
-      "matchText": "Germanic officers held senior commands",
+      "matchText": "structurally dependent",
       "wikiSlug": "Stilicho",
       "type": "people"
-    },
-    {
-      "term": "Nydam boat",
-      "matchText": "Nydam boat",
-      "wikiSlug": "Nydam_Boat",
-      "type": "concept"
     },
     {
       "term": "Foederati",
@@ -920,21 +848,9 @@
     },
     {
       "term": "Viking Age",
-      "matchText": "Vikings",
+      "matchText": "Viking Age",
       "wikiSlug": "Viking_Age",
       "type": "concept"
-    },
-    {
-      "term": "Western Roman Empire",
-      "matchText": "ended the Western Roman Empire",
-      "wikiSlug": "Western_Roman_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Essex",
-      "matchText": "Essex",
-      "wikiSlug": "Essex",
-      "type": "place"
     }
   ]
 }

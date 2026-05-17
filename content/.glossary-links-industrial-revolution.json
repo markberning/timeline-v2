@@ -1,12 +1,6 @@
 {
   "1": [
     {
-      "term": "Arnold Toynbee",
-      "matchText": "Arnold Toynbee",
-      "wikiSlug": "Arnold_Toynbee",
-      "type": "person"
-    },
-    {
       "term": "Great Divergence",
       "matchText": "the Great Divergence",
       "wikiSlug": "Great_Divergence",
@@ -56,15 +50,9 @@
     },
     {
       "term": "Factory",
-      "matchText": "A factory",
+      "matchText": "factory",
       "wikiSlug": "Factory",
       "type": "concept"
-    },
-    {
-      "term": "Spinning jenny",
-      "matchText": "the spinning jenny",
-      "wikiSlug": "Spinning_jenny",
-      "type": "technology"
     }
   ],
   "2": [
@@ -94,7 +82,7 @@
     },
     {
       "term": "High-wage economy thesis",
-      "matchText": "the high-wage economy",
+      "matchText": "high-wage economy",
       "wikiSlug": "High_wage_economy",
       "type": "concept"
     },
@@ -132,15 +120,9 @@
     },
     {
       "term": "Loom",
-      "matchText": "a loom",
+      "matchText": "loom",
       "wikiSlug": "Loom",
       "type": "technology"
-    },
-    {
-      "term": "Proto-industrialization",
-      "matchText": "is called proto-industrialization",
-      "wikiSlug": "Proto-industrialization",
-      "type": "concept"
     },
     {
       "term": "John Kay",
@@ -150,7 +132,7 @@
     },
     {
       "term": "Flying shuttle",
-      "matchText": "the flying shuttle",
+      "matchText": "flying shuttle",
       "wikiSlug": "Flying_shuttle",
       "type": "technology"
     },
@@ -174,7 +156,7 @@
     },
     {
       "term": "Spinning mule",
-      "matchText": "the spinning mule",
+      "matchText": "spinning mule",
       "wikiSlug": "Spinning_mule",
       "type": "technology"
     },
@@ -186,13 +168,13 @@
     },
     {
       "term": "Manchester",
-      "matchText": "One Lancashire town, Manchester",
+      "matchText": "Manchester",
       "wikiSlug": "Manchester",
       "type": "place"
     },
     {
       "term": "Cotton gin",
-      "matchText": "the cotton gin",
+      "matchText": "cotton gin",
       "wikiSlug": "Cotton_gin",
       "type": "technology"
     },
@@ -242,7 +224,7 @@
     },
     {
       "term": "Separate condenser",
-      "matchText": "the separate condenser",
+      "matchText": "separate condenser",
       "wikiSlug": "Watt_steam_engine",
       "type": "technology"
     },
@@ -260,13 +242,13 @@
     },
     {
       "term": "Rotary motion",
-      "matchText": "smooth rotary motion",
+      "matchText": "rotary motion",
       "wikiSlug": "Rotary_motion",
       "type": "technology"
     },
     {
       "term": "Horsepower",
-      "matchText": "the horsepower",
+      "matchText": "horsepower",
       "wikiSlug": "Horsepower",
       "type": "concept"
     },
@@ -292,7 +274,7 @@
     },
     {
       "term": "Charcoal smelting",
-      "matchText": "iron had been smelted from its ore using charcoal",
+      "matchText": "charcoal",
       "wikiSlug": "Bloomery",
       "type": "technology"
     },
@@ -310,19 +292,19 @@
     },
     {
       "term": "Coke (fuel)",
-      "matchText": "smelting iron using coke",
+      "matchText": "coke",
       "wikiSlug": "Coke_(fuel)",
       "type": "technology"
     },
     {
       "term": "Cast iron",
-      "matchText": "brittle cast iron",
+      "matchText": "cast iron",
       "wikiSlug": "Cast_iron",
       "type": "technology"
     },
     {
       "term": "Wrought iron",
-      "matchText": "tough, malleable wrought iron",
+      "matchText": "wrought iron",
       "wikiSlug": "Wrought_iron",
       "type": "technology"
     },
@@ -334,7 +316,7 @@
     },
     {
       "term": "Puddling process",
-      "matchText": "the puddling process",
+      "matchText": "puddling",
       "wikiSlug": "Puddling_(metallurgy)",
       "type": "technology"
     },
@@ -352,13 +334,13 @@
     },
     {
       "term": "Safety lamp",
-      "matchText": "the safety lamp",
+      "matchText": "safety lamp",
       "wikiSlug": "Davy_lamp",
       "type": "technology"
     },
     {
       "term": "Machine tool",
-      "matchText": "the machine tool",
+      "matchText": "machine tool",
       "wikiSlug": "Machine_tool",
       "type": "technology"
     },
@@ -396,7 +378,7 @@
     },
     {
       "term": "Workhouse",
-      "matchText": "pauper apprentices",
+      "matchText": "workhouses",
       "wikiSlug": "Workhouse",
       "type": "organization"
     },
@@ -426,7 +408,7 @@
     },
     {
       "term": "Owenites",
-      "matchText": "the Owenites",
+      "matchText": "Owenites",
       "wikiSlug": "Owenism",
       "type": "organization"
     },
@@ -458,7 +440,7 @@
   "7": [
     {
       "term": "Turnpike trust",
-      "matchText": "the turnpike trusts",
+      "matchText": "turnpike trusts",
       "wikiSlug": "Turnpike_trust",
       "type": "organization"
     },
@@ -500,7 +482,7 @@
     },
     {
       "term": "Navvy",
-      "matchText": "itinerant labourers called navvies",
+      "matchText": "navvies",
       "wikiSlug": "Navvy",
       "type": "concept"
     },
@@ -550,7 +532,7 @@
     },
     {
       "term": "Rainhill Trials",
-      "matchText": "the Rainhill Trials",
+      "matchText": "Rainhill Trials",
       "wikiSlug": "Rainhill_Trials",
       "type": "event"
     },
@@ -562,7 +544,7 @@
     },
     {
       "term": "Liverpool and Manchester Railway",
-      "matchText": "The Liverpool & Manchester Railway",
+      "matchText": "Liverpool & Manchester Railway",
       "wikiSlug": "Liverpool_and_Manchester_Railway",
       "type": "organization"
     },
@@ -606,7 +588,7 @@
     },
     {
       "term": "Division of labour",
-      "matchText": "the division of labour",
+      "matchText": "division of labour",
       "wikiSlug": "Division_of_labour",
       "type": "concept"
     },
@@ -642,7 +624,7 @@
     },
     {
       "term": "Anti-Corn Law League",
-      "matchText": "the Anti-Corn Law League",
+      "matchText": "Anti-Corn Law League",
       "wikiSlug": "Anti-Corn_Law_League",
       "type": "organization"
     },
@@ -657,12 +639,6 @@
       "matchText": "John Bright",
       "wikiSlug": "John_Bright",
       "type": "person"
-    },
-    {
-      "term": "Irish Famine",
-      "matchText": "the Irish Famine",
-      "wikiSlug": "Great_Famine_(Ireland)",
-      "type": "event"
     },
     {
       "term": "Robert Peel",
@@ -746,7 +722,7 @@
     },
     {
       "term": "Great Stink",
-      "matchText": "the Great Stink of 1858",
+      "matchText": "Great Stink",
       "wikiSlug": "Great_Stink",
       "type": "event"
     },
@@ -758,7 +734,7 @@
     },
     {
       "term": "Standard-of-living debate",
-      "matchText": "the standard-of-living question",
+      "matchText": "standard-of-living question",
       "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation",
       "type": "concept"
     },
@@ -772,7 +748,7 @@
   "11": [
     {
       "term": "Luddite",
-      "matchText": "The original Luddites",
+      "matchText": "Luddites",
       "wikiSlug": "Luddite",
       "type": "concept"
     },
@@ -790,31 +766,31 @@
     },
     {
       "term": "Peterloo Massacre",
-      "matchText": "the Peterloo Massacre",
+      "matchText": "Peterloo Massacre",
       "wikiSlug": "Peterloo_Massacre",
       "type": "event"
     },
     {
       "term": "Swing Riots",
-      "matchText": "the Swing Riots",
+      "matchText": "Swing Riots",
       "wikiSlug": "Captain_Swing",
       "type": "event"
     },
     {
       "term": "Combination Acts",
-      "matchText": "the Combination Acts",
+      "matchText": "Combination Acts",
       "wikiSlug": "Combination_Acts_1799_and_1800",
       "type": "event"
     },
     {
       "term": "Tolpuddle Martyrs",
-      "matchText": "The Tolpuddle Martyrs",
+      "matchText": "Tolpuddle Martyrs",
       "wikiSlug": "Tolpuddle_Martyrs",
       "type": "event"
     },
     {
       "term": "Transportation (punishment)",
-      "matchText": "sentenced to transportation",
+      "matchText": "transportation",
       "wikiSlug": "Penal_transportation",
       "type": "concept"
     },
@@ -846,7 +822,7 @@
     },
     {
       "term": "Great Reform Act 1832",
-      "matchText": "the Great Reform Act of 1832",
+      "matchText": "Great Reform Act of 1832",
       "wikiSlug": "Reform_Act_1832",
       "type": "event"
     },
@@ -858,7 +834,7 @@
     },
     {
       "term": "People's Charter",
-      "matchText": "the People's Charter",
+      "matchText": "People's Charter",
       "wikiSlug": "People's_Charter",
       "type": "work"
     },
@@ -870,7 +846,7 @@
     },
     {
       "term": "Northern Star (newspaper)",
-      "matchText": "the Northern Star",
+      "matchText": "Northern Star",
       "wikiSlug": "Northern_Star_(1837–1852)",
       "type": "organization"
     },
@@ -902,38 +878,26 @@
   "13": [
     {
       "term": "Parliamentary inquiry",
-      "matchText": "the parliamentary inquiry",
+      "matchText": "parliamentary inquiry",
       "wikiSlug": "Select_committee_(United_Kingdom)",
       "type": "concept"
     },
     {
-      "term": "Michael Sadler",
-      "matchText": "a committee chaired by Michael Sadler",
-      "wikiSlug": "Michael_Thomas_Sadler",
-      "type": "person"
-    },
-    {
       "term": "Factory Act 1833",
-      "matchText": "the Factory Act of 1833",
+      "matchText": "Factory Act of 1833",
       "wikiSlug": "Factory_Act_1833",
       "type": "event"
     },
     {
       "term": "Factory inspectors",
-      "matchText": "paid factory inspectors",
+      "matchText": "factory inspectors",
       "wikiSlug": "Factory_Acts",
       "type": "concept"
     },
     {
       "term": "Mines and Collieries Act 1842",
-      "matchText": "The 1842 Mines and Collieries Act",
+      "matchText": "Mines and Collieries Act",
       "wikiSlug": "Mines_and_Collieries_Act_1842",
-      "type": "event"
-    },
-    {
-      "term": "Ten Hours Act",
-      "matchText": "the Ten Hours Act of 1847",
-      "wikiSlug": "Ten_Hours_Act",
       "type": "event"
     },
     {
@@ -947,12 +911,6 @@
       "matchText": "Lord Shaftesbury",
       "wikiSlug": "Anthony_Ashley-Cooper,_7th_Earl_of_Shaftesbury",
       "type": "person"
-    },
-    {
-      "term": "Clapham Sect",
-      "matchText": "The Clapham Sect",
-      "wikiSlug": "Clapham_Sect",
-      "type": "organization"
     },
     {
       "term": "William Wilberforce",
@@ -1011,18 +969,6 @@
       "type": "person"
     },
     {
-      "term": "New Poor Law",
-      "matchText": "the New Poor Law of 1834",
-      "wikiSlug": "Poor_Law_Amendment_Act_1834",
-      "type": "event"
-    },
-    {
-      "term": "Irish Famine",
-      "matchText": "the Irish Famine of the 1840s",
-      "wikiSlug": "Great_Famine_(Ireland)",
-      "type": "event"
-    },
-    {
       "term": "Jeremy Bentham",
       "matchText": "Jeremy Bentham",
       "wikiSlug": "Jeremy_Bentham",
@@ -1047,26 +993,8 @@
       "type": "work"
     },
     {
-      "term": "Rochdale Pioneers",
-      "matchText": "the Rochdale Pioneers",
-      "wikiSlug": "Rochdale_Pioneers",
-      "type": "organization"
-    },
-    {
-      "term": "Karl Marx",
-      "matchText": "Karl Marx",
-      "wikiSlug": "Karl_Marx",
-      "type": "person"
-    },
-    {
-      "term": "Communist Manifesto",
-      "matchText": "the Communist Manifesto",
-      "wikiSlug": "The_Communist_Manifesto",
-      "type": "work"
-    },
-    {
       "term": "Capital (Marx)",
-      "matchText": "Marx's Capital",
+      "matchText": "Capital",
       "wikiSlug": "Das_Kapital",
       "type": "work"
     },
@@ -1127,12 +1055,6 @@
       "type": "concept"
     },
     {
-      "term": "Zollverein",
-      "matchText": "The Zollverein",
-      "wikiSlug": "Zollverein",
-      "type": "organization"
-    },
-    {
       "term": "Krupp",
       "matchText": "Krupp",
       "wikiSlug": "Krupp",
@@ -1165,40 +1087,10 @@
       "type": "person"
     },
     {
-      "term": "Lowell system",
-      "matchText": "The Lowell system",
-      "wikiSlug": "Lowell_system",
-      "type": "concept"
-    },
-    {
-      "term": "American System of Manufactures",
-      "matchText": "the American System of Manufactures",
-      "wikiSlug": "American_system_of_manufacturing",
-      "type": "concept"
-    },
-    {
-      "term": "Interchangeable parts",
-      "matchText": "they were interchangeable",
-      "wikiSlug": "Interchangeable_parts",
-      "type": "technology"
-    },
-    {
       "term": "Springfield Armory",
       "matchText": "Springfield and Harpers Ferry",
       "wikiSlug": "Springfield_Armory",
       "type": "place"
-    },
-    {
-      "term": "American Civil War",
-      "matchText": "the American Civil War",
-      "wikiSlug": "American_Civil_War",
-      "type": "event"
-    },
-    {
-      "term": "Lancashire Cotton Famine",
-      "matchText": "the Lancashire Cotton Famine",
-      "wikiSlug": "Cotton_Famine",
-      "type": "event"
     },
     {
       "term": "Henry Ford",
@@ -1228,7 +1120,7 @@
   "17": [
     {
       "term": "First Industrial Revolution",
-      "matchText": "the First Industrial Revolution",
+      "matchText": "First Industrial Revolution",
       "wikiSlug": "Industrial_Revolution",
       "type": "concept"
     },
@@ -1252,7 +1144,7 @@
     },
     {
       "term": "Skyscraper",
-      "matchText": "the steel-framed skyscraper",
+      "matchText": "skyscraper",
       "wikiSlug": "Skyscraper",
       "type": "concept"
     },
@@ -1312,7 +1204,7 @@
     },
     {
       "term": "Internal combustion engine",
-      "matchText": "the internal combustion engine",
+      "matchText": "internal combustion engine",
       "wikiSlug": "Internal_combustion_engine",
       "type": "technology"
     },
@@ -1327,12 +1219,6 @@
       "matchText": "Rudolf Diesel's",
       "wikiSlug": "Rudolf_Diesel",
       "type": "person"
-    },
-    {
-      "term": "Thermodynamics",
-      "matchText": "the science of thermodynamics",
-      "wikiSlug": "Thermodynamics",
-      "type": "concept"
     },
     {
       "term": "Nikolaus Otto",
@@ -1356,13 +1242,13 @@
     },
     {
       "term": "Modern corporation",
-      "matchText": "the modern corporation",
+      "matchText": "modern corporation",
       "wikiSlug": "Corporation",
       "type": "concept"
     },
     {
       "term": "Joint-stock company",
-      "matchText": "the joint-stock company",
+      "matchText": "joint-stock company",
       "wikiSlug": "Joint-stock_company",
       "type": "concept"
     },
@@ -1397,12 +1283,6 @@
       "type": "organization"
     },
     {
-      "term": "Antitrust law",
-      "matchText": "the first antitrust law in 1890",
-      "wikiSlug": "Sherman_Antitrust_Act",
-      "type": "event"
-    },
-    {
       "term": "Frederick Taylor",
       "matchText": "Frederick Taylor",
       "wikiSlug": "Frederick_Winslow_Taylor",
@@ -1415,20 +1295,8 @@
       "type": "concept"
     },
     {
-      "term": "Meiji government",
-      "matchText": "the Meiji government",
-      "wikiSlug": "Meiji_Restoration",
-      "type": "event"
-    },
-    {
-      "term": "Zaibatsu",
-      "matchText": "the zaibatsu",
-      "wikiSlug": "Zaibatsu",
-      "type": "organization"
-    },
-    {
       "term": "Matsukata deflation",
-      "matchText": "the savage Matsukata deflation",
+      "matchText": "Matsukata deflation",
       "wikiSlug": "Matsukata_Masayoshi",
       "type": "event"
     },
@@ -1440,7 +1308,7 @@
     },
     {
       "term": "Trust (monopoly)",
-      "matchText": "the American trust",
+      "matchText": "trust",
       "wikiSlug": "Corporate_trust",
       "type": "concept"
     },
@@ -1454,13 +1322,13 @@
   "19": [
     {
       "term": "Mass consumption",
-      "matchText": "the first mass-consumption society",
+      "matchText": "mass-consumption society",
       "wikiSlug": "Mass_consumption",
       "type": "concept"
     },
     {
       "term": "First globalization",
-      "matchText": "the first globalization",
+      "matchText": "first globalization",
       "wikiSlug": "Globalization",
       "type": "concept"
     },
@@ -1472,27 +1340,15 @@
     },
     {
       "term": "Gold standard",
-      "matchText": "the international gold standard",
+      "matchText": "international gold standard",
       "wikiSlug": "Gold_standard",
       "type": "concept"
     },
     {
       "term": "Demographic transition",
-      "matchText": "the demographic transition",
+      "matchText": "demographic transition",
       "wikiSlug": "Demographic_transition",
       "type": "concept"
-    },
-    {
-      "term": "Opium Wars",
-      "matchText": "the Opium Wars",
-      "wikiSlug": "Opium_Wars",
-      "type": "event"
-    },
-    {
-      "term": "Maxim gun",
-      "matchText": "the Maxim gun",
-      "wikiSlug": "Maxim_gun",
-      "type": "technology"
     },
     {
       "term": "Svante Arrhenius",
@@ -1502,7 +1358,7 @@
     },
     {
       "term": "Anthropocene",
-      "matchText": "the Anthropocene",
+      "matchText": "Anthropocene",
       "wikiSlug": "Anthropocene",
       "type": "concept"
     },
@@ -1552,7 +1408,7 @@
   "20": [
     {
       "term": "California School (economic history)",
-      "matchText": "The California School",
+      "matchText": "California School",
       "wikiSlug": "California_school_(economic_history)",
       "type": "concept"
     },
@@ -1560,12 +1416,6 @@
       "term": "Kenneth Pomeranz",
       "matchText": "Kenneth Pomeranz",
       "wikiSlug": "Kenneth_Pomeranz",
-      "type": "person"
-    },
-    {
-      "term": "Robert Allen",
-      "matchText": "Robert Allen argues",
-      "wikiSlug": "Robert_C._Allen",
       "type": "person"
     },
     {

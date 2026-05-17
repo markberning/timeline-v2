@@ -79,12 +79,6 @@
       "type": "people"
     },
     {
-      "term": "Kurultai",
-      "matchText": "kurultai",
-      "wikiSlug": "Kurultai",
-      "type": "concept"
-    },
-    {
       "term": "Mongolia",
       "matchText": "Mongolia",
       "wikiSlug": "Mongolia",
@@ -107,18 +101,6 @@
       "matchText": "Lake Baikal",
       "wikiSlug": "Lake_Baikal",
       "type": "place"
-    },
-    {
-      "term": "Mounted archery",
-      "matchText": "mounted archery",
-      "wikiSlug": "Mounted_archery",
-      "type": "concept"
-    },
-    {
-      "term": "Tengri",
-      "matchText": "Tengri",
-      "wikiSlug": "Tengri",
-      "type": "concept"
     },
     {
       "term": "Toghrul (Wang Khan)",
@@ -359,12 +341,6 @@
       "type": "people"
     },
     {
-      "term": "Transoxiana",
-      "matchText": "Transoxiana",
-      "wikiSlug": "Transoxiana",
-      "type": "place"
-    },
-    {
       "term": "Juvayni",
       "matchText": "Juvayni",
       "wikiSlug": "Ata-Malik_Juvayni",
@@ -375,12 +351,6 @@
       "matchText": "Jalal ad-Din Mingburnu",
       "wikiSlug": "Jalal_ad-Din_Mingburnu",
       "type": "people"
-    },
-    {
-      "term": "Karakorum",
-      "matchText": "Karakorum",
-      "wikiSlug": "Karakorum",
-      "type": "place"
     },
     {
       "term": "Western Xia",
@@ -475,12 +445,6 @@
       "type": "concept"
     },
     {
-      "term": "Chagatai Khanate",
-      "matchText": "Chagatai Khanate",
-      "wikiSlug": "Chagatai_Khanate",
-      "type": "concept"
-    },
-    {
       "term": "Riazan",
       "matchText": "Riazan",
       "wikiSlug": "Ryazan",
@@ -511,28 +475,10 @@
       "type": "concept"
     },
     {
-      "term": "Volga Bulgars",
-      "matchText": "Volga Bulgars",
-      "wikiSlug": "Volga_Bulgaria",
-      "type": "people"
-    },
-    {
       "term": "Russia",
       "matchText": "Russian principalities",
       "wikiSlug": "Kievan_Rus%27",
       "type": "place"
-    },
-    {
-      "term": "Ilkhanate",
-      "matchText": "Ilkhanate",
-      "wikiSlug": "Ilkhanate",
-      "type": "concept"
-    },
-    {
-      "term": "Mandate of Heaven",
-      "matchText": "Mandate of Heaven",
-      "wikiSlug": "Mandate_of_Heaven",
-      "type": "concept"
     },
     {
       "term": "Kublai Khan",
@@ -883,12 +829,6 @@
       "type": "concept"
     },
     {
-      "term": "Paiza (travel pass)",
-      "matchText": "paiza tablets",
-      "wikiSlug": "Paiza",
-      "type": "concept"
-    },
-    {
       "term": "Yam postal system",
       "matchText": "Yam relay system",
       "wikiSlug": "Yam_(route)",
@@ -997,12 +937,6 @@
       "matchText": "Zhu Yuanzhang",
       "wikiSlug": "Hongwu_Emperor",
       "type": "people"
-    },
-    {
-      "term": "Ming dynasty",
-      "matchText": "Ming dynasty",
-      "wikiSlug": "Ming_dynasty",
-      "type": "concept"
     },
     {
       "term": "Yellow River",

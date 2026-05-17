@@ -115,12 +115,6 @@
       "type": "concept"
     },
     {
-      "term": "Abbasid Caliphate",
-      "matchText": "Abbasid Caliphate at its high tide",
-      "wikiSlug": "Abbasid_Caliphate",
-      "type": "concept"
-    },
-    {
       "term": "Richard Wagner",
       "matchText": "Wagner",
       "wikiSlug": "Richard_Wagner",
@@ -641,22 +635,10 @@
       "type": "concept"
     },
     {
-      "term": "Place-name suffix -by",
-      "matchText": "ending in -by",
-      "wikiSlug": "By_(place_name_element)",
-      "type": "concept"
-    },
-    {
       "term": "Harald Fairhair",
       "matchText": "Harald Fairhair",
       "wikiSlug": "Harald_Fairhair",
       "type": "people"
-    },
-    {
-      "term": "Thingvellir",
-      "matchText": "Thingvellir",
-      "wikiSlug": "%C3%9Eingvellir",
-      "type": "place"
     },
     {
       "term": "Lawspeaker",
@@ -665,22 +647,10 @@
       "type": "concept"
     },
     {
-      "term": "Gragas law code",
-      "matchText": "Gragas",
-      "wikiSlug": "Gr%C3%A1g%C3%A1s",
-      "type": "concept"
-    },
-    {
       "term": "Knarr",
       "matchText": "knarr",
       "wikiSlug": "Knarr",
       "type": "concept"
-    },
-    {
-      "term": "Reykjavik",
-      "matchText": "Reykjavik",
-      "wikiSlug": "Reykjav%C3%ADk",
-      "type": "place"
     },
     {
       "term": "Erik the Red",
@@ -698,12 +668,6 @@
       "term": "Skraelings",
       "matchText": "Skraelings",
       "wikiSlug": "Skr%C3%A6ling",
-      "type": "concept"
-    },
-    {
-      "term": "Landnamabók",
-      "matchText": "Landnamabók",
-      "wikiSlug": "Landn%C3%A1mab%C3%B3k",
       "type": "concept"
     },
     {
@@ -927,12 +891,6 @@
       "type": "concept"
     },
     {
-      "term": "Mjolnir",
-      "matchText": "Mjolnir",
-      "wikiSlug": "Mj%C3%B6lnir",
-      "type": "concept"
-    },
-    {
       "term": "Freyr",
       "matchText": "Freyr",
       "wikiSlug": "Freyr",
@@ -948,18 +906,6 @@
       "term": "Loki",
       "matchText": "Loki",
       "wikiSlug": "Loki",
-      "type": "concept"
-    },
-    {
-      "term": "Ragnarok",
-      "matchText": "Ragnarok",
-      "wikiSlug": "Ragnar%C3%B6k",
-      "type": "concept"
-    },
-    {
-      "term": "Blot",
-      "matchText": "blot",
-      "wikiSlug": "Bl%C3%B3t",
       "type": "concept"
     },
     {
@@ -985,18 +931,6 @@
       "matchText": "Nidaros Cathedral",
       "wikiSlug": "Nidaros_Cathedral",
       "type": "place"
-    },
-    {
-      "term": "Utiseta",
-      "matchText": "utiseta",
-      "wikiSlug": "Útiseta",
-      "type": "concept"
-    },
-    {
-      "term": "Seidr",
-      "matchText": "seidr",
-      "wikiSlug": "Sei%C3%B0r",
-      "type": "concept"
     },
     {
       "term": "Cluniac Reforms",
@@ -1025,12 +959,6 @@
       "type": "concept"
     },
     {
-      "term": "Rök runestone",
-      "matchText": "Rok runestone",
-      "wikiSlug": "R%C3%B6k_runestone",
-      "type": "concept"
-    },
-    {
       "term": "Jelling Stone",
       "matchText": "Jelling Stone",
       "wikiSlug": "Jelling_stones",
@@ -1038,14 +966,8 @@
     },
     {
       "term": "Berezan runestone",
-      "matchText": "Berezan runestone",
+      "matchText": "Berezan' runestone",
       "wikiSlug": "Berezan%27_runestone",
-      "type": "concept"
-    },
-    {
-      "term": "Dróttkvætt",
-      "matchText": "drott kvaett",
-      "wikiSlug": "Dr%C3%B3ttkv%C3%A6tt",
       "type": "concept"
     },
     {
@@ -1058,30 +980,6 @@
       "term": "Egil's Saga",
       "matchText": "Egil's Saga",
       "wikiSlug": "Egil%27s_Saga",
-      "type": "concept"
-    },
-    {
-      "term": "Höfudlausn",
-      "matchText": "Hofudlausn",
-      "wikiSlug": "H%C3%B6fu%C3%B0lausn",
-      "type": "concept"
-    },
-    {
-      "term": "Voluspá",
-      "matchText": "Voluspa",
-      "wikiSlug": "V%C3%B6lusp%C3%A1",
-      "type": "concept"
-    },
-    {
-      "term": "Hávamál",
-      "matchText": "Havamal",
-      "wikiSlug": "H%C3%A1vam%C3%A1l",
-      "type": "concept"
-    },
-    {
-      "term": "Njal's Saga",
-      "matchText": "Njal's Saga",
-      "wikiSlug": "Nj%C3%A1ls_saga",
       "type": "concept"
     },
     {
@@ -1117,12 +1015,6 @@
   ],
   "7": [
     {
-      "term": "Aethelred II",
-      "matchText": "Aethelred II",
-      "wikiSlug": "%C3%86thelred_the_Unready",
-      "type": "people"
-    },
-    {
       "term": "Emma of Normandy",
       "matchText": "Emma of Normandy",
       "wikiSlug": "Emma_of_Normandy",
@@ -1150,12 +1042,6 @@
       "term": "North Sea Empire",
       "matchText": "North Sea Empire",
       "wikiSlug": "North_Sea_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Battle of Brunanburh",
-      "matchText": "Battle of Brunanburh",
-      "wikiSlug": "Battle_of_Brunanburh",
       "type": "concept"
     },
     {

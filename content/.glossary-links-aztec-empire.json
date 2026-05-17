@@ -7,12 +7,6 @@
       "type": "place"
     },
     {
-      "term": "Bernal Diaz del Castillo",
-      "matchText": "Bernal Diaz del Castillo",
-      "wikiSlug": "Bernal_D%C3%ADaz_del_Castillo",
-      "type": "people"
-    },
-    {
       "term": "Tenochtitlan",
       "matchText": "Tenochtitlan",
       "wikiSlug": "Tenochtitlan",
@@ -35,12 +29,6 @@
       "matchText": "Florentine Codex",
       "wikiSlug": "Florentine_Codex",
       "type": "concept"
-    },
-    {
-      "term": "Bernardino de Sahagun",
-      "matchText": "Bernardino de Sahagun",
-      "wikiSlug": "Bernardino_de_Sahag%C3%BAn",
-      "type": "people"
     },
     {
       "term": "Nahuatl",
@@ -137,12 +125,6 @@
       "matchText": "Postclassic",
       "wikiSlug": "Mesoamerican_chronology",
       "type": "concept"
-    },
-    {
-      "term": "Popocatepetl",
-      "matchText": "Popocatepetl",
-      "wikiSlug": "Popocat%C3%A9petl",
-      "type": "place"
     },
     {
       "term": "Cocoxtli",
@@ -256,7 +238,7 @@
     },
     {
       "term": "Valley of Mexico",
-      "matchText": "Valley of Mexico",
+      "matchText": "Basin of Mexico",
       "wikiSlug": "Valley_of_Mexico",
       "type": "place"
     },
@@ -333,12 +315,6 @@
       "matchText": "cochineal",
       "wikiSlug": "Cochineal",
       "type": "concept"
-    },
-    {
-      "term": "Albarradon de Nezahualcoyotl",
-      "matchText": "Albarradon de Nezahualcoyotl",
-      "wikiSlug": "Albarrad%C3%B3n_de_Nezahualc%C3%B3yotl",
-      "type": "place"
     },
     {
       "term": "New Fire Ceremony",
@@ -817,12 +793,6 @@
       "type": "concept"
     },
     {
-      "term": "Purepecha",
-      "matchText": "Purepecha",
-      "wikiSlug": "Pur%C3%A9pecha_people",
-      "type": "people"
-    },
-    {
       "term": "Tzintzuntzan",
       "matchText": "Tzintzuntzan",
       "wikiSlug": "Tzintzuntzan_(Mesoamerican_site)",
@@ -883,18 +853,6 @@
       "type": "concept"
     },
     {
-      "term": "Lake Patzcuaro",
-      "matchText": "Lake Patzcuaro",
-      "wikiSlug": "Lake_P%C3%A1tzcuaro",
-      "type": "place"
-    },
-    {
-      "term": "Michoacan",
-      "matchText": "Michoacan",
-      "wikiSlug": "Michoac%C3%A1n",
-      "type": "place"
-    },
-    {
       "term": "Inca Empire",
       "matchText": "Inca Empire",
       "wikiSlug": "Inca_Empire",
@@ -911,12 +869,6 @@
       "matchText": "National Museum of Anthropology",
       "wikiSlug": "National_Museum_of_Anthropology_(Mexico)",
       "type": "place"
-    },
-    {
-      "term": "Nezahualcoyotl",
-      "matchText": "Nezahualcoyotl",
-      "wikiSlug": "Nezahualcoyotl",
-      "type": "people"
     },
     {
       "term": "Veracruz",
@@ -938,12 +890,6 @@
     }
   ],
   "8": [
-    {
-      "term": "Hernan Cortes",
-      "matchText": "Hernan Cortes",
-      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
-      "type": "people"
-    },
     {
       "term": "Totonac",
       "matchText": "Totonac",
@@ -987,22 +933,10 @@
       "type": "people"
     },
     {
-      "term": "Panfilo de Narvaez",
-      "matchText": "Panfilo de Narvaez",
-      "wikiSlug": "P%C3%A1nfilo_de_Narv%C3%A1ez",
-      "type": "people"
-    },
-    {
       "term": "Pedro de Alvarado",
       "matchText": "Pedro de Alvarado",
       "wikiSlug": "Pedro_de_Alvarado",
       "type": "people"
-    },
-    {
-      "term": "Iztaccíhuatl",
-      "matchText": "Iztaccihuatl",
-      "wikiSlug": "Iztacc%C3%ADhuatl",
-      "type": "place"
     },
     {
       "term": "Brigantines",
@@ -1015,12 +949,6 @@
       "matchText": "Smallpox",
       "wikiSlug": "Smallpox",
       "type": "concept"
-    },
-    {
-      "term": "Cuauhtemoc",
-      "matchText": "Cuauhtemoc",
-      "wikiSlug": "Cuauht%C3%A9moc",
-      "type": "people"
     },
     {
       "term": "Cantares Mexicanos",
@@ -1039,12 +967,6 @@
       "matchText": "ticitl",
       "wikiSlug": "Aztec_medicine",
       "type": "concept"
-    },
-    {
-      "term": "Zocalo",
-      "matchText": "Zocalo",
-      "wikiSlug": "Z%C3%B3calo",
-      "type": "place"
     },
     {
       "term": "Protestant Reformation",

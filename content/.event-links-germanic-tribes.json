@@ -1,31 +1,29 @@
 {
   "1": [
     {"eventId":"evt-gt-jastorf","matchText":"Jastorf culture"},
-    {"eventId":"evt-gt-germanic-languages","matchText":"Proto-Germanic Language Diverges"},
-    {"eventId":"evt-gt-cimbri-migration","matchText":"Cimbri and Teutones Migrate"},
+    {"eventId":"evt-gt-cimbri-migration","matchText":"moving nation"},
     {"eventId":"evt-gt-ambrones","matchText":"Ambrones"},
     {"eventId":"evt-gt-iron-age-origins","matchText":"Iron Age"},
-    {"eventId":"evt-gt-north-sea-flood-push","matchText":"North Sea floods"},
+    {"eventId":"evt-gt-north-sea-flood-push","matchText":"flood of the North Sea"},
     {"eventId":"evt-gt-terror-cimbricus","matchText":"terror Cimbricus"},
     {"eventId":"evt-gt-caesar-commentarii","matchText":"Commentarii de Bello Gallico"}
   ],
   "2": [
     {"eventId":"evt-gt-noreia","matchText":"Battle of Noreia"},
     {"eventId":"evt-gt-arausio","matchText":"Battle of Arausio"},
-    {"eventId":"evt-gt-marius-reforms","matchText":"Marius Reforms the Roman Army"},
+    {"eventId":"evt-gt-marius-reforms","matchText":"rebuild and retrain the army"},
     {"eventId":"evt-gt-marius-consulships","matchText":"consul five years in a row"},
     {"eventId":"evt-gt-aquae-sextiae","matchText":"Battle of Aquae Sextiae"},
     {"eventId":"evt-gt-vercellae","matchText":"Battle of Vercellae"},
-    {"eventId":"evt-gt-cimbri-in-spain","matchText":"Cimbri wandered into Spain"},
+    {"eventId":"evt-gt-cimbri-in-spain","matchText":"wandered into Spain"},
     {"eventId":"evt-gt-carbo-failure","matchText":"Gnaeus Papirius Carbo"}
   ],
   "3": [
     {"eventId":"evt-gt-ariovistus","matchText":"Ariovistus"},
     {"eventId":"evt-gt-suebi-confederation","matchText":"Suebi"},
-    {"eventId":"evt-gt-caesar-ariovistus","matchText":"Caesar Defeats Ariovistus"},
-    {"eventId":"evt-gt-rhine-frontier","matchText":"Rhine Becomes Rome's Frontier"},
-    {"eventId":"evt-gt-caesar-rhine-crossing","matchText":"Caesar's Rhine Bridge"},
-    {"eventId":"evt-gt-germanic-ethnographic-line","matchText":"Caesar's Gaul-Germania Distinction"},
+    {"eventId":"evt-gt-caesar-ariovistus","matchText":"Ariovistus fled"},
+    {"eventId":"evt-gt-rhine-frontier","matchText":"the Rhine line"},
+    {"eventId":"evt-gt-germanic-ethnographic-line","matchText":"sharp ethnographic boundary"},
     {"eventId":"evt-gt-germanic-farming","matchText":"demonstrably farmed"}
   ],
   "4": [
@@ -41,14 +39,14 @@
     {"eventId":"evt-gt-germanicus","matchText":"Germanicus"},
     {"eventId":"evt-gt-tiberius-recalls-germanicus","matchText":"recalled Germanicus"},
     {"eventId":"evt-gt-arminius-death","matchText":"killed around 21 CE by members of his own people"},
-    {"eventId":"evt-gt-roman-provincial-plan","matchText":"Rome's Plan to Provincialize Germania"}
+    {"eventId":"evt-gt-roman-provincial-plan","matchText":"poured armies into the country"}
   ],
   "5": [
-    {"eventId":"evt-gt-tacitus-germania","matchText":"Tacitus Writes Germania"},
+    {"eventId":"evt-gt-tacitus-germania","matchText":"book about the Germani"},
     {"eventId":"evt-gt-comitatus","matchText":"comitatus"},
-    {"eventId":"evt-gt-germanic-assembly","matchText":"Germanic Thing Assembly"},
-    {"eventId":"evt-gt-germanic-kingship","matchText":"Germanic Kingship"},
-    {"eventId":"evt-gt-germanic-paganism","matchText":"Germanic Polytheism"},
+    {"eventId":"evt-gt-germanic-assembly","matchText":"clashing their weapons"},
+    {"eventId":"evt-gt-germanic-kingship","matchText":"Germanic peoples had kings"},
+    {"eventId":"evt-gt-germanic-paganism","matchText":"Germani were polytheists"},
     {"eventId":"evt-gt-tacitus-nerthus","matchText":"Nerthus"},
     {"eventId":"evt-gt-tacitus-mercury-mars","matchText":"Mercury, Mars, and Hercules"},
     {"eventId":"evt-gt-bog-deposits","matchText":"bog deposits"},
@@ -59,14 +57,13 @@
   "6": [
     {"eventId":"evt-gt-limes","matchText":"Limes Germanicus"},
     {"eventId":"evt-gt-amber-road","matchText":"Amber Road"},
-    {"eventId":"evt-gt-roman-trade-goods","matchText":"Roman Luxury Goods Cross the Frontier"},
-    {"eventId":"evt-gt-germanic-auxilia","matchText":"Germanic Auxiliaries"},
+    {"eventId":"evt-gt-roman-trade-goods","matchText":"manufactured wealth of the empire"},
+    {"eventId":"evt-gt-germanic-auxilia","matchText":"Roman army recruited Germani"},
     {"eventId":"evt-gt-elder-futhark","matchText":"Elder Futhark"},
-    {"eventId":"evt-gt-germanic-oral-culture","matchText":"Germanic Oral Memory"},
-    {"eventId":"evt-gt-runic-inscriptions-function","matchText":"Runes as Ritual and Ownership Marks"},
-    {"eventId":"evt-gt-germanic-prestige-economy","matchText":"Roman Silver Prestige Economy"},
-    {"eventId":"evt-gt-slave-trade-frontier","matchText":"Germanic Slave Trade"},
-    {"eventId":"evt-gt-mead-hall-culture","matchText":"Germanic Mead-Hall"}
+    {"eventId":"evt-gt-germanic-oral-culture","matchText":"law was carried in the heads"},
+    {"eventId":"evt-gt-runic-inscriptions-function","matchText":"used for marking ownership"},
+    {"eventId":"evt-gt-germanic-prestige-economy","matchText":"grew rich on Roman silver"},
+    {"eventId":"evt-gt-slave-trade-frontier","matchText":"war captives sold across"}
   ],
   "7": [
     {"eventId":"evt-gt-marcomannic-wars","matchText":"Marcomannic Wars"},
@@ -99,23 +96,20 @@
     {"eventId":"evt-gt-constantine","matchText":"Constantine"},
     {"eventId":"evt-gt-battle-strasbourg","matchText":"Battle of Strasbourg"},
     {"eventId":"evt-gt-foederati","matchText":"foederati"},
-    {"eventId":"evt-gt-germanic-generals","matchText":"Germanic Generals"},
+    {"eventId":"evt-gt-germanic-generals","matchText":"Germanic names commanding Roman"},
     {"eventId":"evt-gt-council-nicaea","matchText":"Council of Nicaea"},
     {"eventId":"evt-gt-ulfilas-arian-mission","matchText":"Ulfilas"},
     {"eventId":"evt-gt-arianism-spread","matchText":"Arianism"},
-    {"eventId":"evt-gt-gothic-bible","matchText":"Gothic Bible"},
+    {"eventId":"evt-gt-gothic-bible","matchText":"give the Goths a Bible"},
     {"eventId":"evt-gt-huns-approach","matchText":"Huns"},
     {"eventId":"evt-gt-gothic-danube-crossing-375","matchText":"Gothic Crossing of the Danube"},
-    {"eventId":"evt-gt-julian-apostate","matchText":"Julian"},
-    {"eventId":"evt-gt-nydam-boat","matchText":"Nydam Boat"}
+    {"eventId":"evt-gt-julian-apostate","matchText":"Julian"}
   ],
   "10": [
-    {"eventId":"evt-gt-germanic-language-heritage","matchText":"Germanic Languages Shape Modern Europe"},
+    {"eventId":"evt-gt-germanic-language-heritage","matchText":"their languages are why"},
     {"eventId":"evt-gt-frankish-inheritance","matchText":"Charlemagne"},
-    {"eventId":"evt-gt-saxon-settlement-england","matchText":"Saxons of the north German coast"},
+    {"eventId":"evt-gt-saxon-settlement-england","matchText":"north German and Danish coast"},
     {"eventId":"evt-gt-angles-jutes","matchText":"Angles and Jutes"},
-    {"eventId":"evt-gt-germanic-migration-mechanism","matchText":"recurring mechanism"},
-    {"eventId":"evt-gt-hermannsdenkmal","matchText":"heroic Hermann"},
-    {"eventId":"evt-gt-germanic-nationalism-19c","matchText":"nineteenth-century German nationalists"}
+    {"eventId":"evt-gt-germanic-migration-mechanism","matchText":"four centuries of friction"}
   ]
 }

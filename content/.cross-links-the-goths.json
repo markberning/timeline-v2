@@ -33,12 +33,6 @@
       "targetTl": "ancient-rome",
       "targetChapter": 5,
       "blurb": "The Roman writers who reported the death of Decius at Abritus reached instinctively for Cannae — Hannibal's destruction of the largest Roman army ever fielded in 216 BCE — as the only available frame for a defeat of that magnitude. The comparison was doing precise work: not a bad defeat but the worst kind, the kind Rome named its catastrophes after. That both catastrophes were ultimately survived says something true about how Rome worked, and that Adrianople broke the pattern says something true about how Rome had changed."
-    },
-    {
-      "matchText": "Xiongnu-Huns",
-      "targetTl": "xiongnu-huns",
-      "targetChapter": 6,
-      "blurb": "The Gothic storm was set off by the Huns — the steppe shock that pushed the Goths across the Danube and into the empire."
     }
   ],
   "4": [
@@ -89,7 +83,7 @@
       "blurb": "The Hunnic arrival of 375 that shattered the Greuthungi and drove the Tervingi to the Danube was not an isolated Gothic catastrophe. It was the opening shock of the whole Migration Period — the decades-long cascade of displacement, invasion, and kingdom-founding that unmade the western Roman Empire. The Goths crossing the Danube in 376 were the first domino; the Vandals crossing the Rhine in 406, the Burgundians, the Alans, the Suebi all followed the same basic logic: the Huns were pushing, and the only safe direction was west and into Rome."
     },
     {
-      "matchText": "Xiongnu-Huns",
+      "matchText": "came out of the eastern steppe",
       "targetTl": "xiongnu-huns",
       "targetChapter": 6,
       "blurb": "'The year the world ended' is the Hunnic arrival — the same Attila-era cataclysm seen from the Gothic side."
@@ -109,7 +103,7 @@
       "blurb": "Roman writers who described Adrianople reached for Cannae as the only frame large enough for the disaster, and Cannae was Hannibal of Carthage's masterpiece — the encirclement and annihilation of the largest Roman army ever fielded in a single afternoon in 216 BCE. The comparison was precise: not merely a bad defeat but a battle where the tactical execution was perfect and the Roman dead were uncountable. At Adrianople as at Cannae, a barbarian commander had turned Roman discipline into a weapon against itself."
     },
     {
-      "matchText": "Ancient Rome",
+      "matchText": "what the Roman Empire was",
       "targetTl": "ancient-rome",
       "targetChapter": 8,
       "blurb": "Adrianople (378) — an emperor and his army destroyed by Goths — is the wound the Roman crisis never recovered from."
@@ -129,7 +123,7 @@
       "blurb": "The Gaul who sacked Rome in 390 BCE was Brennus of the Senones, the event that became Rome's foundational trauma and the model against which every later sack was measured. When Augustine wrote The City of God in direct response to the Gothic sack of 410, he was engaging an eight-hundred-year-old Roman wound that the Gauls had opened. The Celts who terrified Rome in 390 BCE and the Goths who finally repeated the feat in 410 CE bracket the entire history of the Roman world."
     },
     {
-      "matchText": "Ancient Rome",
+      "matchText": "robbed and humiliated",
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "'The unthinkable' is Alaric's sack of Rome (410) — the first time the city had fallen in 800 years, the psychological end of the empire."
@@ -155,13 +149,13 @@
       "blurb": "The Visigothic Kingdom of Toledo that survived Vouille and retreated into Spain outlasted every other Gothic state by a century and a half. It eventually converted to Catholicism, built a sophisticated ecclesiastical and legal culture, and dominated the Iberian Peninsula until 711 — when an Umayyad-led army from North Africa crossed the strait and ended it in a campaign of startling speed. The Gothic story in Spain is the opening chapter of the story that Iberian book covers."
     },
     {
-      "matchText": "Al-Andalus",
+      "matchText": "Arab and Berber army in 711",
       "targetTl": "al-andalus",
       "targetChapter": 1,
       "blurb": "The Visigothic kingdom in the west endured until 711 — when the Umayyad conquest that opens al-Andalus erased it in a single campaign."
     },
     {
-      "matchText": "Early Medieval Europe",
+      "matchText": "first enduring barbarian successor",
       "targetTl": "early-medieval-europe",
       "targetChapter": 1,
       "blurb": "The Gothic kingdoms are the founding generation of post-Roman Europe — the Germanic successor states the medieval west grew from."
@@ -175,7 +169,7 @@
       "blurb": "Theodoric the Great had been raised as a child hostage in Constantinople, the greatest Roman city still standing, and the eastern empire he had absorbed in his youth shaped his entire vision of Gothic-Roman governance. The dual state he built in Italy — Roman civil administration, Gothic military command, a king who restored aqueducts and sponsored philosophers — was a conscious echo of the eastern model. The irony is that the very empire that educated him eventually sent an army to destroy everything he built."
     },
     {
-      "matchText": "Byzantine Empire",
+      "matchText": "a Constantinople plot",
       "targetTl": "byzantine-empire",
       "targetChapter": 2,
       "blurb": "Theodoric's brilliant Ostrogothic Italy was destroyed by Justinian's reconquest — Byzantium devouring the most Roman of the Germanic kingdoms."

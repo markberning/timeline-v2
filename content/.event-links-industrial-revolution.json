@@ -13,9 +13,7 @@
     {"eventId": "evt-allen-high-wage-economy", "matchText": "high-wage economy"},
     {"eventId": "evt-bank-of-england-matures", "matchText": "financial system in the world"},
     {"eventId": "evt-patent-system", "matchText": "patent system"},
-    {"eventId": "evt-atlantic-trade-system", "matchText": "Atlantic empire"},
-    {"eventId": "evt-industrious-revolution", "matchText": "Industrious Revolution"},
-    {"eventId": "evt-mokyr-debate", "matchText": "Why Britain"}
+    {"eventId": "evt-atlantic-trade-system", "matchText": "Atlantic empire"}
   ],
   "3": [
     {"eventId": "evt-flying-shuttle", "matchText": "flying shuttle"},
@@ -53,10 +51,7 @@
   "6": [
     {"eventId": "evt-clock-time-discipline", "matchText": "time discipline"},
     {"eventId": "evt-women-factory-labor", "matchText": "women and children"},
-    {"eventId": "evt-robert-owen-new-lanark", "matchText": "New Lanark"},
-    {"eventId": "evt-factory-towns", "matchText": "mill town"},
-    {"eventId": "evt-methodist-movement", "matchText": "Methodist revival"},
-    {"eventId": "evt-sunday-schools", "matchText": "Sunday School"}
+    {"eventId": "evt-robert-owen-new-lanark", "matchText": "New Lanark"}
   ],
   "7": [
     {"eventId": "evt-bridgewater-canal", "matchText": "Bridgewater Canal"},
@@ -93,7 +88,7 @@
     {"eventId": "evt-public-health-act-1848", "matchText": "Public Health Act"},
     {"eventId": "evt-great-stink", "matchText": "Great Stink"},
     {"eventId": "evt-bazalgette-sewers", "matchText": "Joseph Bazalgette"},
-    {"eventId": "evt-life-expectancy-turn", "matchText": "Living standards finally rise"}
+    {"eventId": "evt-life-expectancy-turn", "matchText": "real wages"}
   ],
   "11": [
     {"eventId": "evt-luddites", "matchText": "Luddites"},
@@ -144,7 +139,7 @@
     {"eventId": "evt-mill-principles-political-economy", "matchText": "John Stuart Mill"}
   ],
   "15": [
-    {"eventId": "evt-continental-blockade-tech-transfer", "matchText": "British technology crosses the Channel"},
+    {"eventId": "evt-continental-blockade-tech-transfer", "matchText": "William Cockerill"},
     {"eventId": "evt-cockerill-seraing", "matchText": "Seraing"},
     {"eventId": "evt-list-national-system", "matchText": "Friedrich List"},
     {"eventId": "evt-zollverein", "matchText": "Zollverein"},
@@ -188,20 +183,18 @@
   "19": [
     {"eventId": "evt-india-deindustrialization", "matchText": "deindustrialized India"},
     {"eventId": "evt-opium-wars", "matchText": "Opium Wars"},
-    {"eventId": "evt-scramble-for-africa", "matchText": "Scramble for Africa"},
     {"eventId": "evt-maxim-gun", "matchText": "Maxim gun"},
     {"eventId": "evt-transatlantic-cable", "matchText": "submarine telegraph cable"},
     {"eventId": "evt-gold-standard-international", "matchText": "international gold standard"},
     {"eventId": "evt-refrigerated-shipping", "matchText": "refrigerated meat shipped across oceans"},
     {"eventId": "evt-arrhenius-greenhouse", "matchText": "Svante Arrhenius"},
     {"eventId": "evt-fossil-carbon-legacy", "matchText": "carbon ledger and the colonial ledger"},
-    {"eventId": "evt-statue-of-liberty", "matchText": "largest voluntary migration"}
+    {"eventId": "evt-statue-of-liberty", "matchText": "largest voluntary"}
   ],
   "20": [
     {"eventId": "evt-pomeranz-california-school", "matchText": "Kenneth Pomeranz"},
     {"eventId": "evt-allen-high-wage-economy", "matchText": "Robert Allen"},
     {"eventId": "evt-mokyr-debate", "matchText": "Joel Mokyr"},
-    {"eventId": "evt-great-divergence", "matchText": "Great Divergence"},
     {"eventId": "evt-fossil-carbon-legacy", "matchText": "the carbon"}
   ]
 }

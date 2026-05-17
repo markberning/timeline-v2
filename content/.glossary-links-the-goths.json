@@ -62,7 +62,7 @@
     },
     {
       "term": "Poland",
-      "matchText": "modern Poland",
+      "matchText": "what is now Poland",
       "wikiSlug": "Poland",
       "type": "place"
     },
@@ -77,12 +77,6 @@
       "matchText": "Scandinavia",
       "wikiSlug": "Scandinavia",
       "type": "place"
-    },
-    {
-      "term": "Roman Empire",
-      "matchText": "Roman Empire",
-      "wikiSlug": "Roman_Empire",
-      "type": "concept"
     },
     {
       "term": "Berig",
@@ -139,12 +133,6 @@
       "matchText": "Danube",
       "wikiSlug": "Danube",
       "type": "place"
-    },
-    {
-      "term": "Alans",
-      "matchText": "Alan",
-      "wikiSlug": "Alans",
-      "type": "group"
     },
     {
       "term": "Eurasian steppe",
@@ -307,12 +295,6 @@
       "type": "place"
     },
     {
-      "term": "Constantine I",
-      "matchText": "Constantine I",
-      "wikiSlug": "Constantine_I",
-      "type": "people"
-    },
-    {
       "term": "Black Sea",
       "matchText": "Black Sea",
       "wikiSlug": "Black_Sea",
@@ -367,12 +349,6 @@
       "matchText": "Philostorgius",
       "wikiSlug": "Philostorgius",
       "type": "people"
-    },
-    {
-      "term": "Constantinople",
-      "matchText": "Constantinople",
-      "wikiSlug": "Constantinople",
-      "type": "place"
     },
     {
       "term": "Athanaric",
@@ -437,12 +413,6 @@
       "type": "people"
     },
     {
-      "term": "Alavivus",
-      "matchText": "Alavivus",
-      "wikiSlug": "Alavivus",
-      "type": "people"
-    },
-    {
       "term": "Ammianus Marcellinus",
       "matchText": "Ammianus Marcellinus",
       "wikiSlug": "Ammianus_Marcellinus",
@@ -473,12 +443,6 @@
       "matchText": "Gratian",
       "wikiSlug": "Gratian",
       "type": "people"
-    },
-    {
-      "term": "Ravenna",
-      "matchText": "Ravenna",
-      "wikiSlug": "Ravenna",
-      "type": "place"
     },
     {
       "term": "Alaric I",
@@ -585,12 +549,6 @@
       "type": "place"
     },
     {
-      "term": "Busento River",
-      "matchText": "river Busento",
-      "wikiSlug": "Busento",
-      "type": "place"
-    },
-    {
       "term": "Cosentia",
       "matchText": "Cosentia",
       "wikiSlug": "Cosenza",
@@ -669,12 +627,6 @@
       "matchText": "Franks",
       "wikiSlug": "Franks",
       "type": "group"
-    },
-    {
-      "term": "Vouille",
-      "matchText": "Vouille",
-      "wikiSlug": "Battle_of_Vouill%C3%A9",
-      "type": "place"
     },
     {
       "term": "Septimania",
@@ -770,7 +722,7 @@
     },
     {
       "term": "Pope John I",
-      "matchText": "Pope John I",
+      "matchText": "John I",
       "wikiSlug": "Pope_John_I",
       "type": "people"
     },

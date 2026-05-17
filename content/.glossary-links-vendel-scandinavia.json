@@ -37,12 +37,6 @@
       "type": "concept"
     },
     {
-      "term": "Ragnarök",
-      "matchText": "Ragnarok",
-      "wikiSlug": "Ragnarök",
-      "type": "concept"
-    },
-    {
       "term": "Justinian I",
       "matchText": "plague of Justinian",
       "wikiSlug": "Plague_of_Justinian",
@@ -68,12 +62,6 @@
     }
   ],
   "2": [
-    {
-      "term": "Lake Mälaren",
-      "matchText": "Lake Malaren",
-      "wikiSlug": "Lake_Mälaren",
-      "type": "place"
-    },
     {
       "term": "Uppland",
       "matchText": "Uppland",
@@ -106,14 +94,8 @@
     },
     {
       "term": "Ship burial",
-      "matchText": "ship burial",
+      "matchText": "ship-burial",
       "wikiSlug": "Ship_burial",
-      "type": "concept"
-    },
-    {
-      "term": "Cloisonné",
-      "matchText": "cloisonne",
-      "wikiSlug": "Cloisonné",
       "type": "concept"
     },
     {
@@ -164,12 +146,6 @@
       "term": "Scyldings",
       "matchText": "Scyldings",
       "wikiSlug": "Scyldings",
-      "type": "people"
-    },
-    {
-      "term": "Hrólf Kraki",
-      "matchText": "Hrolf Kraki",
-      "wikiSlug": "Hrólf_Kraki",
       "type": "people"
     },
     {
@@ -235,18 +211,6 @@
       "type": "people"
     },
     {
-      "term": "Njörd",
-      "matchText": "Njord",
-      "wikiSlug": "Njörðr",
-      "type": "people"
-    },
-    {
-      "term": "Blót",
-      "matchText": "blot",
-      "wikiSlug": "Blót",
-      "type": "concept"
-    },
-    {
       "term": "Adam of Bremen",
       "matchText": "Adam of Bremen",
       "wikiSlug": "Adam_of_Bremen",
@@ -275,21 +239,9 @@
       "matchText": "Temple at Uppsala",
       "wikiSlug": "Temple_at_Uppsala",
       "type": "place"
-    },
-    {
-      "term": "Votive deposit",
-      "matchText": "votive deposits",
-      "wikiSlug": "Votive_deposit",
-      "type": "concept"
     }
   ],
   "5": [
-    {
-      "term": "Helgö",
-      "matchText": "Helgo",
-      "wikiSlug": "Helgö",
-      "type": "place"
-    },
     {
       "term": "Gandhara",
       "matchText": "Gandhara-Swat",
@@ -301,12 +253,6 @@
       "matchText": "Coptic",
       "wikiSlug": "Coptic_Christianity",
       "type": "concept"
-    },
-    {
-      "term": "Grobiņa",
-      "matchText": "Grobina",
-      "wikiSlug": "Grobiņa",
-      "type": "place"
     },
     {
       "term": "Frisians",
@@ -386,12 +332,6 @@
       "term": "Hamwic",
       "matchText": "Hamwic",
       "wikiSlug": "Hamwic",
-      "type": "place"
-    },
-    {
-      "term": "Åhus",
-      "matchText": "Ahus",
-      "wikiSlug": "Åhus",
       "type": "place"
     },
     {
@@ -491,12 +431,6 @@
       "matchText": "petty kingdoms",
       "wikiSlug": "Petty_kingdoms_of_Norway",
       "type": "concept"
-    },
-    {
-      "term": "Saxon Wars",
-      "matchText": "Saxon Wars",
-      "wikiSlug": "Saxon_Wars",
-      "type": "concept"
     }
   ],
   "8": [
@@ -504,12 +438,6 @@
       "term": "Ohthere of Hålogaland",
       "matchText": "Ohthere",
       "wikiSlug": "Ohthere_of_Hålogaland",
-      "type": "people"
-    },
-    {
-      "term": "Sámi people",
-      "matchText": "Sami",
-      "wikiSlug": "Sámi_people",
       "type": "people"
     },
     {
@@ -523,12 +451,6 @@
       "matchText": "Lindisfarne",
       "wikiSlug": "Lindisfarne",
       "type": "place"
-    },
-    {
-      "term": "Viking raid on Lindisfarne",
-      "matchText": "raiders fell on the monastery of Lindisfarne",
-      "wikiSlug": "Viking_raid_on_Lindisfarne",
-      "type": "concept"
     },
     {
       "term": "Alfred the Great",

@@ -240,6 +240,10 @@ The chapter title "Chapter 6: Songhai Begins to Eat Mali" should appear at the t
 
 **Apply the MALI EMPIRE ORIENTATION RULES above.**
 
+**SPECIFIC REMINDERS for this chapter:**
+- The river label must read exactly **"Niger River"**. NEVER label the river with a city name. On prior runs the Niger River was wrongly labeled "Djenné" — do not do this.
+- "Djenné" is a CITY — it appears only as a single site dot/label inland on the Niger Bend. It must never be used as the river's label and must not appear twice.
+
 Map of West Africa in the late fifteenth century for Chapter 6, showing the Songhai Empire absorbing Mali's eastern territories.
 
 5 sites, name-only labels:
