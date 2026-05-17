@@ -53,11 +53,22 @@ reader exposure before spending money.**
   `medieval-europe` refs intentionally left — decorative `aria-hidden` img, no
   link, icon file still exists; cosmetic, not a defect. No orphan narratives;
   old `public/maps/ancient-japan/` already gone (CLAUDE.md claim verified).
-- **#14 ◐ detection done, remediation pending.** Map-count vs chapter-count
-  corpus-wide: 2 real defects — `qin-dynasty` ch8 has no map (maps 1–7 only);
-  `vedic-period` ch4 has no map (mid-series gap: 1,2,3,5,6,7,8). Fix =
-  regenerate 2 maps via the **G4 Gemini pipeline (billable)** —
-  **awaiting greenlight**, not auto-run (economy directive).
+- **#14 ☑ DONE — 0 genuine defects, $0 spent.** Naive map-count vs
+  chapter-count flagged 2 TLs: `qin-dynasty` ch8, `vedic-period` ch4. Both are
+  **intentional non-geographic chapters**, not gaps: `vedic-period.md` already
+  carries the explicit *"No map for this chapter"* directive for ch4 ("The
+  Caste Question"); `qin-dynasty` ch8 ("Fifteen Years That Built Two Thousand"
+  — an institutional-legacy synthesis chapter) is legitimately the same case
+  but the directive was never written, so it read as a silent gap. Fixed for
+  free: added the explicit Chapter 8 "No map" block to
+  `map-prompts/qin-dynasty.md` mirroring the vedic convention (commit pending).
+  No image generation — the economical answer was *don't spend*. **Method
+  refinement (durable):** a raw count check false-positives on intentional
+  skips; #14's reusable detector must assert "every map-prompts chapter that
+  has a real prompt (not a `No map` directive) has a `chapter-N.webp`", not
+  "chapter count == file count". Under that definition the corpus is clean (the
+  naive pass would have flagged *any* TL with file<chapter; only these 2
+  appeared, and both are intentional).
 - `goryeo-korea` registered w/o maps = the in-progress pipeline trial (maps are
   step 12); expected WIP, not a defect.
 
@@ -74,7 +85,7 @@ network pass — existing `lint-links.ts` script).
 | 2 | Parser-dropped-link **classifier** (detection only) | pipeline-audit debt #1 | classifier un-built; raw `--contention` ≈2211 is un-triaged, not a worklist | ☐ |
 | 11 | Build/data audit (Track 3) | `memory/project_corpus_audit_plan` | parse/data-shape integrity corpus-wide | ☐ |
 | 13 | Image **liveness** (dead Commons thumbnails) | gap on review; `feedback_image_quality` | unknown; HTTP HEAD over enriched manifest | ☐ |
-| 14 | Map↔chapter **count** integrity | gap on review; medieval-europe / ancient-japan splits | per-civ map count vs chapter count | ◐ |
+| 14 | Map↔chapter **count** integrity | gap on review; medieval-europe / ancient-japan splits | per-civ map count vs chapter count | ☑ |
 | 15 | Superseded split-TL artifact sweep | CLAUDE.md (stale `reference-data/medieval-europe.json`, old `public/maps/ancient-japan/`) | deterministic disk diff vs live `NARRATIVE_FILES` | ☑ |
 
 These have zero marginal cost and surface real bugs. There is no reason to hold

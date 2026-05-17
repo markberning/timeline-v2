@@ -320,3 +320,11 @@ The chapter title "Chapter 7: The Collapse" should appear at the top of the map 
 - A separate arrow from the south toward Xianyang, labeled: "Liu Bang's route — peasant constable, arrives first, spares the city. The future Han Emperor Gaozu."
 
 **Style:** Landscape orientation, match the Zhou Dynasty / Shang Dynasty map style.
+
+---
+
+## Chapter 8 — Fifteen Years That Built Two Thousand
+
+This chapter is thematic — it argues that the Qin's fifteen-year span produced the institutional template (standardized script, the commandery-and-county system, the legal code, the road network, unified weights/measures/currency) that the Han and every later dynasty inherited for two millennia. It is an argument about institutional legacy, not tied to a specific campaign, frontier, or geography.
+
+**No map for this chapter.** A geographic map would not serve the chapter's content. Skip Chapter 8.
