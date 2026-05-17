@@ -104,7 +104,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | mesopotamia | 13 | **DONE** | 038e41b |
 | assyrian-empire | 8 | **DONE** | 4b0f04d |
 | phoenicia | 8 | **DONE** | 1becad1 |
-| carthage | 8 | **DONE** | +this |
+| carthage | 8 | **DONE** | 70c9111 |
+| ancient-israel | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

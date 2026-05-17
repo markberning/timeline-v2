@@ -11,6 +11,12 @@
       "targetTl": "new-kingdom-egypt",
       "targetChapter": 9,
       "blurb": "Merneptah was the aging son of Ramesses II who inherited an empire already under pressure from the Sea Peoples and Libyan raiders. His victory stele — the one that casually mentions 'Israel is laid waste' — was really about advertising Egyptian power during the Bronze Age endgame, not about the Israelites specifically. They got one line. Egypt got a propaganda monument."
+    },
+    {
+      "matchText": "Hittite Empire",
+      "targetTl": "hittite-empire",
+      "targetChapter": 7,
+      "blurb": "Israel emerged in the Bronze Age Collapse's aftermath — a highland people coalescing in the power vacuum the Hittite fall left in the Levant."
     }
   ],
   "2": [
@@ -33,6 +39,18 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 2,
       "blurb": "Around 950 BCE, while Solomon was building his Temple with a few thousand laborers, the Zhou dynasty governed through a feudal network of hereditary lords spread across a territory roughly forty times larger. The Zhou 'Mandate of Heaven' — the idea that rulers govern by divine permission that can be revoked — was a strikingly parallel concept to the Israelite covenant theology that would develop over the next few centuries."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "Solomon's temple and trade were built in partnership with Hiram's Tyre — Israelite kingship leaning on Phoenician craft and ships."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 2,
+      "blurb": "The united monarchy's sacral kingship is contemporary with the Zhou ritual state — two unconnected experiments in god-sanctioned rule."
     }
   ],
   "4": [
@@ -55,6 +73,12 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 5,
       "blurb": "The Battle of Qarqar in 853 BCE was the largest military engagement in the Iron Age Near East — a coalition of twelve Levantine kings threw everything they had at Shalmaneser III's Assyrian war machine on the Orontes River. The coalition held, buying the small kingdoms another generation of independence. Ahab's 2,000 chariots were the largest contingent in the allied army, a detail the Bible never mentions because the biblical writers didn't care about military achievements."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "The prophets' war on Baal worship is a war against Phoenician religion — Jezebel's Tyrian cult the great internal enemy."
     }
   ],
   "6": [
@@ -69,6 +93,12 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 5,
       "blurb": "Sargon II took the Assyrian name meaning 'legitimate king' — ironic for a probable usurper. He finished what Shalmaneser V started at Samaria and built himself a brand-new capital at Khorsabad, a city so enormous it was abandoned the moment he died. The man who erased the northern Kingdom of Israel from the map spent more time on his palace than on any of his conquests."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 6,
+      "blurb": "The fall of Israel (722 BCE) was the Assyrian war-machine in action — the northern kingdom deported and erased as imperial policy."
     }
   ],
   "7": [
@@ -83,6 +113,12 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 8,
       "blurb": "The Assyrian collapse was breathtakingly fast — the empire that had dominated the Near East for over a century disintegrated in barely fifteen years. Nineveh fell to a Babylonian-Median coalition in 612 BCE, and the last Assyrian army was destroyed at Harran in 609. Josiah's fatal attempt to block Pharaoh Necho at Megiddo was a side effect of this collapse: Necho was rushing north to prop up Assyria's remnants against Babylon."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 8,
+      "blurb": "Judah survived Assyria's collapse — Hezekiah's gamble paying off as Nineveh fell, buying the southern kingdom another century."
     }
   ],
   "8": [
@@ -103,6 +139,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "Hammurabi's law code, carved onto a black diorite stele around 1750 BCE, was the ancient world's most famous legal monument — 282 laws covering everything from property disputes to medical malpractice. The Ten Commandments share the concept of divine-sourced law carved in stone, but where Hammurabi legislated commercial regulations, the Decalogue legislated ethics. Same medium, fundamentally different ambition."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 12,
+      "blurb": "The end of the kingdom is Nebuchadnezzar's Babylon — the exile that, paradoxically, forged Judaism out of a destroyed monarchy."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Cyrus's Persia ended the exile — the empire whose tolerance policy let the Judeans return and rebuild, reshaping the religion permanently."
     }
   ]
 }
