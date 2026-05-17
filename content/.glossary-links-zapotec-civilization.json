@@ -417,6 +417,18 @@
       "matchText": "stelae",
       "wikiSlug": "Stele",
       "type": "concept"
+    },
+    {
+      "term": "Monte Albán",
+      "matchText": "Danzantes",
+      "wikiSlug": "Monte_Albán",
+      "type": "concept"
+    },
+    {
+      "term": "Cascajal Block",
+      "matchText": "Cascajal Block",
+      "wikiSlug": "Cascajal_Block",
+      "type": "concept"
     }
   ],
   "4": [
@@ -970,6 +982,12 @@
       "term": "Juchitán",
       "matchText": "Juchitán",
       "wikiSlug": "Heroica_Ciudad_de_Juchitán_de_Zaragoza",
+      "type": "place"
+    },
+    {
+      "term": "Mitla",
+      "matchText": "Mitla",
+      "wikiSlug": "Mitla",
       "type": "place"
     }
   ],

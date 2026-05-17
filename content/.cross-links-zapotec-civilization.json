@@ -11,6 +11,18 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 4,
       "blurb": "While the Zapotec were developing chiefdoms in the Valley of Oaxaca around 900 BCE, the Chavín culture was emerging in the Peruvian Andes — a religious movement centered on the temple complex at Chavín de Huántar that unified distant communities through shared art and ritual. Two highland civilizations on opposite sides of the Americas, both building complexity through religion rather than conquest, with no knowledge of each other."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 2,
+      "blurb": "The Zapotec emerged in Oaxaca's valleys in the Olmec era — one of the regional cultures that took the Gulf-coast template and made it their own."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 4,
+      "blurb": "Monte Albán's hilltop founding is the Zapotec version of the early-statehood leap — a defensible ceremonial center pulling a region together."
     }
   ],
   "2": [
@@ -19,6 +31,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "Around the same time the Zapotec were leveling Monte Albán's summit, Darius I of Persia was constructing the monumental terrace at Persepolis — a massive stone platform carved from a mountainside to support an imperial palace complex. Both projects required moving hundreds of thousands of tons of rock, but Persepolis had the resources of an empire stretching from Egypt to India. The Zapotec did it with one valley."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Monte Albán began as a 'disembedded capital' — a neutral central seat for a confederation, a trick of statecraft Persia also used with its royal cities."
     }
   ],
   "3": [
@@ -39,6 +57,18 @@
       "targetTl": "vedic-period",
       "targetChapter": 7,
       "blurb": "The Brahmi script, ancestor of virtually every South and Southeast Asian writing system, emerged in India around the same centuries the Zapotec were developing their script in Oaxaca. Both were innovations by complex societies that needed to move beyond oral memory, arriving independently at the same solution on opposite sides of the world."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 7,
+      "blurb": "The Danzantes carry the earliest writing and calendar in Mesoamerica's highlands — the notation tradition the Olmec began, now in Zapotec hands."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 6,
+      "blurb": "Zapotec writing emerged to serve war and rulership — like early Chinese script, a technology of power before it was a technology of literature."
     }
   ],
   "4": [
@@ -61,6 +91,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "While the Classic Zapotec world was at its cultural peak painting tomb murals and carving genealogical stelae, the Western Roman Empire was collapsing — Rome sacked in 410 CE, the last emperor deposed in 476 CE. Two civilizations on opposite sides of the Atlantic, one falling as the other flourished, with no knowledge of each other's existence."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 4,
+      "blurb": "Classic Monte Albán perfected the divine-rulership-and-sacrifice complex the Olmec had seeded across Mesoamerica."
     }
   ],
   "6": [
@@ -97,6 +133,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "While the Spanish were conquering the Zapotec, the Ottoman Empire under Suleiman the Magnificent ruled the former eastern provinces of Rome — a reminder that 1521 was not just the year Mesoamerica fell but the year the Ottoman Turks were besieging Belgrade and reshaping the map of Europe and the Middle East."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 1,
+      "blurb": "The Zapotec survived conquest as a living people — an unusually unbroken thread back to the Olmec-era origins of Mesoamerican civilization."
     }
   ]
 }
