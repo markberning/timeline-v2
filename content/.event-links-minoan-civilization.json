@@ -1,20 +1,19 @@
 {
   "1": [
-    {"eventId":"evt-early-minoan-settlement","matchText":"By about 2700 BCE, when the Bronze Age arrived on Crete"}
+    {"eventId":"evt-early-minoan-settlement","matchText":"Bronze Age arrived on Crete"}
   ],
   "2": [
-    {"eventId":"evt-vasiliki-ware","matchText":"Vasiliki"},
     {"eventId":"evt-olive-vine-cultivation","matchText":"olive and vine cultivation"},
     {"eventId":"evt-tholos-tombs-mesara","matchText":"tholos"},
-    {"eventId":"evt-early-bronze-working","matchText":"Cretan metalworkers were smelting copper by around 2700 BCE"},
+    {"eventId":"evt-early-bronze-working","matchText":"smelting copper"},
     {"eventId":"evt-mochlos-settlement","matchText":"Mochlos"},
     {"eventId":"evt-prepalatial-seals","matchText":"seal stones"},
     {"eventId":"evt-peak-sanctuaries","matchText":"peak sanctuaries"}
   ],
   "3": [
     {"eventId":"evt-first-palaces","matchText":"three enormous building projects began simultaneously"},
-    {"eventId":"evt-phaistos-palace","matchText":"Palace of Phaistos"},
-    {"eventId":"evt-malia-palace","matchText":"Palace of Malia"},
+    {"eventId":"evt-phaistos-palace","matchText":"overlooking the Mesara plain"},
+    {"eventId":"evt-malia-palace","matchText":"unique relationship"},
     {"eventId":"evt-cretan-hieroglyphs","matchText":"Cretan hieroglyphs"},
     {"eventId":"evt-linear-a","matchText":"Linear A"},
     {"eventId":"evt-kamares-ware","matchText":"Kamares ware"},
@@ -24,8 +23,8 @@
   ],
   "4": [
     {"eventId":"evt-earthquake-destruction","matchText":"a massive earthquake struck Crete"},
-    {"eventId":"evt-knossos-palace","matchText":"Palace of Knossos was the largest Bronze Age structure in Europe"},
-    {"eventId":"evt-throne-room","matchText":"Throne Room of Knossos is the oldest throne room in Europe"},
+    {"eventId":"evt-knossos-palace","matchText":"largest Bronze Age structure in Europe"},
+    {"eventId":"evt-throne-room","matchText":"oldest throne room in Europe"},
     {"eventId":"evt-indoor-plumbing","matchText":"Minoan palaces had indoor plumbing"},
     {"eventId":"evt-bull-leaping","matchText":"Bull-Leaping Fresco"},
     {"eventId":"evt-minoan-frescoes","matchText":"Minoan frescoes"},
@@ -55,10 +54,10 @@
     {"eventId":"evt-anemospilia-temple","matchText":"Anemospilia"}
   ],
   "6": [
-    {"eventId":"evt-thera-eruption","matchText":"one of the largest volcanic eruptions in human history"}
+    {"eventId":"evt-thera-eruption","matchText":"largest volcanic eruptions in human history"}
   ],
   "7": [
-    {"eventId":"evt-palace-destruction","matchText":"every major Minoan palace except Knossos was destroyed"},
+    {"eventId":"evt-palace-destruction","matchText":"every major Minoan palace except Knossos"},
     {"eventId":"evt-mycenaean-takeover","matchText":"Mycenaeans had taken over"},
     {"eventId":"evt-linear-b-knossos","matchText":"Linear B"},
     {"eventId":"evt-warrior-graves","matchText":"Warrior graves"},

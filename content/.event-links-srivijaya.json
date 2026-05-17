@@ -16,7 +16,7 @@
     {"eventId":"evt-telaga-batu","matchText":"Telaga Batu Inscription"},
     {"eventId":"evt-kota-kapur","matchText":"Kota Kapur Inscription"},
     {"eventId":"evt-conquest-bangka","matchText":"Bangka Island"},
-    {"eventId":"evt-strait-malacca-control","matchText":"Srivijaya consolidated control"},
+    {"eventId":"evt-strait-malacca-control","matchText":"southern entrances to the Strait"},
     {"eventId":"evt-tang-tribute","matchText":"tribute missions to"},
     {"eventId":"evt-old-malay","matchText":"Old Malay stone inscriptions"}
   ],
@@ -42,17 +42,14 @@
   "5": [
     {"eventId":"evt-spice-trade","matchText":"Cloves"},
     {"eventId":"evt-camphor-trade","matchText":"Camphor"},
-    {"eventId":"evt-gold-from-interior","matchText":"gold panned from the rivers"},
+    {"eventId":"evt-gold-from-interior","matchText":"panned from the rivers"},
     {"eventId":"evt-tamil-inscription-lobu-tua","matchText":"Lobu Tua"},
     {"eventId":"evt-balaputradeva","matchText":"Balaputradeva"},
     {"eventId":"evt-nalanda-monastery","matchText":"Buddhist monastery at"},
     {"eventId":"evt-manjusri-vihara","matchText":"Manjusri Vihara"},
     {"eventId":"evt-belitung-shipwreck","matchText":"Belitung"},
-    {"eventId":"evt-shipbuilding","matchText":"lashed-lug"},
     {"eventId":"evt-indian-ocean-network","matchText":"Indian Ocean trade network"},
-    {"eventId":"evt-sanskrit-buddhism","matchText":"translation"},
-    {"eventId":"evt-kedah-port","matchText":"Kedah"},
-    {"eventId":"evt-tambralinga","matchText":"Tambralinga"}
+    {"eventId":"evt-kedah-port","matchText":"Kedah"}
   ],
   "6": [
     {"eventId":"evt-rajendra-chola","matchText":"Rajendra Chola I"},

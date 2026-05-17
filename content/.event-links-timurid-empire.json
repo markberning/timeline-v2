@@ -12,14 +12,12 @@
   "2": [
     {"eventId":"evt-skull-towers","matchText":"skull pyramid"},
     {"eventId":"evt-tokhtamysh-wars","matchText":"Tokhtamysh"},
-    {"eventId":"evt-timur-religious-policy","matchText":"Timur was a Sunni Muslim"},
     {"eventId":"evt-mongol-line-myth","matchText":"title Khan"}
   ],
   "3": [
     {"eventId":"evt-conquest-persia","matchText":"first phase of the Persian conquest"},
     {"eventId":"evt-baghdad-sacks","matchText":"Timur attacked Baghdad in October 1393"},
     {"eventId":"evt-sayyid-puppet-caliph","matchText":"Sayyid line"},
-    {"eventId":"evt-zafarnama","matchText":"Yazdi's Zafarnama"},
     {"eventId":"evt-isfahan-massacre","matchText":"Isfahan massacre of 1387"},
     {"eventId":"evt-deportation-craftsmen","matchText":"spare and deport the population's skilled craftsmen"}
   ],
@@ -45,7 +43,7 @@
     {"eventId":"evt-khalil-sultan","matchText":"Khalil Sultan"},
     {"eventId":"evt-pir-muhammad","matchText":"Pir Muhammad"},
     {"eventId":"evt-shah-rukh-reign","matchText":"Shah Rukh"},
-    {"eventId":"evt-pasha-of-rum","matchText":"the Aq Qoyunlu and Kara Qoyunlu Turkmen confederations recaptured most of western Persia"}
+    {"eventId":"evt-pasha-of-rum","matchText":"Aq Qoyunlu and Kara Qoyunlu"}
   ],
   "6": [
     {"eventId":"evt-herat-capital","matchText":"kept Herat as his capital"},
@@ -82,7 +80,7 @@
     {"eventId":"evt-uzbek-conquest","matchText":"Muhammad Shaybani"},
     {"eventId":"evt-uzbek-shaybanid-rise","matchText":"Uzbek conquest of Timurid territories"},
     {"eventId":"evt-babur-birth","matchText":"Zahir-ud-Din Muhammad Babur"},
-    {"eventId":"evt-babur-flight","matchText":"Babur's Flight"},
+    {"eventId":"evt-babur-flight","matchText":"ancestral Central Asian territories"},
     {"eventId":"evt-babur-kabul","matchText":"Kabul became his base for the next twenty-two years"},
     {"eventId":"evt-baburnama","matchText":"Baburnama"},
     {"eventId":"evt-babur-mughal-founding","matchText":"First Battle of Panipat"},

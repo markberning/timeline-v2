@@ -261,12 +261,6 @@
       "type": "concept"
     },
     {
-      "term": "Stucco",
-      "matchText": "stucco",
-      "wikiSlug": "Stucco",
-      "type": "concept"
-    },
-    {
       "term": "Danzantes",
       "matchText": "Danzantes",
       "wikiSlug": "Danzantes,_Monte_Albán",
@@ -443,6 +437,12 @@
       "matchText": "Pyramid of the Sun",
       "wikiSlug": "Pyramid_of_the_Sun",
       "type": "place"
+    },
+    {
+      "term": "Stucco",
+      "matchText": "cut stone and stucco",
+      "wikiSlug": "Stucco",
+      "type": "concept"
     },
     {
       "term": "Talud-tablero",
@@ -809,12 +809,6 @@
       "type": "concept"
     },
     {
-      "term": "Zaachila",
-      "matchText": "Zaachila",
-      "wikiSlug": "Zaachila_(archaeological_site)",
-      "type": "place"
-    },
-    {
       "term": "Deforestation",
       "matchText": "deforestation",
       "wikiSlug": "Deforestation",
@@ -878,7 +872,7 @@
     },
     {
       "term": "Chichén Itzá",
-      "matchText": "Chichén Itz",
+      "matchText": "Chichén Itzá",
       "wikiSlug": "Chichen_Itza",
       "type": "place"
     },

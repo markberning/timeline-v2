@@ -59,6 +59,12 @@
       "matchText": "late Han",
       "wikiSlug": "Han_dynasty",
       "type": "concept"
+    },
+    {
+      "term": "Crown prince",
+      "matchText": "crown prince",
+      "wikiSlug": "Crown_prince",
+      "type": "concept"
     }
   ],
   "2": [
@@ -67,12 +73,6 @@
       "matchText": "Beiping",
       "wikiSlug": "Beijing",
       "type": "place"
-    },
-    {
-      "term": "Crown prince",
-      "matchText": "crown prince",
-      "wikiSlug": "Crown_prince",
-      "type": "concept"
     },
     {
       "term": "Yangtze River",
@@ -334,7 +334,7 @@
     },
     {
       "term": "Potosi",
-      "matchText": "Potos",
+      "matchText": "Potosí",
       "wikiSlug": "Potos%C3%AD",
       "type": "place"
     },

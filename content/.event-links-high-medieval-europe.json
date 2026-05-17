@@ -11,7 +11,7 @@
     { "eventId": "evt-hme-norman-conquest", "matchText": "William the Conqueror" }
   ],
   "2": [
-    { "eventId": "evt-hme-cluny-reform", "matchText": "abbey of Cluny" },
+    { "eventId": "evt-hme-cluny-reform", "matchText": "Cluny" },
     { "eventId": "evt-hme-gregory-vii", "matchText": "Gregory VII" },
     { "eventId": "evt-hme-investiture-controversy", "matchText": "Investiture Controversy" },
     { "eventId": "evt-hme-canossa", "matchText": "Canossa" },
@@ -36,7 +36,7 @@
     { "eventId": "evt-hme-champagne-fairs", "matchText": "Champagne fairs" },
     { "eventId": "evt-hme-hanseatic-league", "matchText": "Hanseatic League" },
     { "eventId": "evt-hme-italian-banking", "matchText": "Italian banking innovations" },
-    { "eventId": "evt-hme-venice-genoa", "matchText": "Venice and Genoa" },
+    { "eventId": "evt-hme-venice-genoa", "matchText": "Italian maritime cities" },
     { "eventId": "evt-hme-knights-templar", "matchText": "Knights Templar" }
   ],
   "5": [
@@ -73,7 +73,7 @@
     { "eventId": "evt-hme-fourth-lateran", "matchText": "Fourth Lateran Council" },
     { "eventId": "evt-hme-las-navas-tolosa", "matchText": "Las Navas de Tolosa" },
     { "eventId": "evt-hme-reconquista", "matchText": "Reconquista" },
-    { "eventId": "evt-hme-mongol-hungary-1241", "matchText": "Battle of Mohi" },
+    { "eventId": "evt-hme-mongol-hungary-1241", "matchText": "Mohi" },
     { "eventId": "evt-hme-marco-polo", "matchText": "Marco Polo" }
   ]
 }

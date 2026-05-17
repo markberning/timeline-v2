@@ -41,12 +41,12 @@
   "5": [
     {"eventId":"evt-aksum-kaleb","matchText":"Kaleb"},
     {"eventId":"evt-aksum-dhu-nuwas","matchText":"Dhu Nuwas"},
-    {"eventId":"evt-aksum-yemen-conquest","matchText":"Aksumite conquest of Yemen"},
+    {"eventId":"evt-aksum-yemen-conquest","matchText":"The invasion succeeded"},
     {"eventId":"evt-aksum-sumyafa-ashwa","matchText":"Sumyafa Ashwa"},
     {"eventId":"evt-aksum-abraha","matchText":"Abraha"},
     {"eventId":"evt-aksum-byzantine-alliance","matchText":"Justinian I"},
     {"eventId":"evt-aksum-cosmas","matchText":"Cosmas Indicopleustes"},
-    {"eventId":"evt-aksum-sasanid-yemen","matchText":"Sasanian Persians conquered Yemen"},
+    {"eventId":"evt-aksum-sasanid-yemen","matchText":"Persian conquest"},
     {"eventId":"evt-aksum-kaleb-abdication","matchText":"Kaleb eventually abdicated"},
     {"eventId":"evt-aksum-wa-za-eb-gebeaz","matchText":"Gebre Meskel"}
   ],
@@ -59,13 +59,13 @@
     {"eventId":"evt-aksum-yared","matchText":"Saint Yared"},
     {"eventId":"evt-aksum-aksumite-liturgy","matchText":"Ge'ez liturgical tradition"},
     {"eventId":"evt-aksum-monasteries","matchText":"monasteries"},
-    {"eventId":"evt-aksum-manuscript-illumination","matchText":"illuminated manuscripts"}
+    {"eventId":"evt-aksum-manuscript-illumination","matchText":"illuminated gospel books"}
   ],
   "7": [
     {"eventId":"evt-aksum-first-hijra","matchText":"First Hijra"},
     {"eventId":"evt-aksum-najashi","matchText":"Ashama ibn Abjar"},
     {"eventId":"evt-aksum-islamic-rise","matchText":"Arab conquest of Egypt"},
-    {"eventId":"evt-aksum-adulis-destroyed","matchText":"Adulis was destroyed"},
+    {"eventId":"evt-aksum-adulis-destroyed","matchText":"Adulis never recovered"},
     {"eventId":"evt-aksum-last-coinage","matchText":"last Aksumite coins"},
     {"eventId":"evt-aksum-dahlak-islands","matchText":"Dahlak Islands"},
     {"eventId":"evt-aksum-highland-retreat","matchText":"retreated into the Ethiopian highlands"},

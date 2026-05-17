@@ -653,12 +653,6 @@
       "type": "people"
     },
     {
-      "term": "Khalsa",
-      "matchText": "Khalsa",
-      "wikiSlug": "Khalsa",
-      "type": "concept"
-    },
-    {
       "term": "Khuldabad",
       "matchText": "Khuldabad",
       "wikiSlug": "Khuldabad",
@@ -684,6 +678,12 @@
     }
   ],
   "7": [
+    {
+      "term": "Khalsa",
+      "matchText": "Khalsa",
+      "wikiSlug": "Khalsa",
+      "type": "concept"
+    },
     {
       "term": "Peshwa",
       "matchText": "Peshwas",

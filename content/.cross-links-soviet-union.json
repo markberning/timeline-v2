@@ -23,12 +23,6 @@
       "targetTl": "russian-empire",
       "targetChapter": 20,
       "blurb": "The Soviet Union is the Russian Empire's explosion and reconstruction — the contradictions of the old autocracy detonating into a new kind of state."
-    },
-    {
-      "matchText": "Enlightenment",
-      "targetTl": "enlightenment",
-      "targetChapter": 19,
-      "blurb": "Bolshevism was the Enlightenment project at its most extreme — reason and history weaponized to rebuild society from blueprints."
     }
   ],
   "2": [
@@ -79,18 +73,6 @@
       "targetTl": "modern-india",
       "targetChapter": 6,
       "blurb": "While Europe froze into two blocs, Nehru's India led the Non-Aligned Movement with Tito and Nasser, a third pole of post-colonial states that took neither NATO nor Warsaw Pact membership yet accepted Soviet industrial collaboration. The modern-India narrative tells the story of that sophisticated triangulation from Delhi's side."
-    },
-    {
-      "matchText": "Korean modern",
-      "targetTl": "korean-modern",
-      "targetChapter": 2,
-      "blurb": "The Iron Curtain's first hot war was Korea — the Soviet-armed North against the US-backed South, the Cold War's template conflict."
-    },
-    {
-      "matchText": "Rise of China",
-      "targetTl": "rise-of-china",
-      "targetChapter": 1,
-      "blurb": "The other great communist revolution — Mao's China — was both the USSR's ideological sibling and, after the split, its rival."
     }
   ],
   "16": [
@@ -118,17 +100,5 @@
     }
   ],
   "20": [
-    {
-      "matchText": "Rise of China",
-      "targetTl": "rise-of-china",
-      "targetChapter": 1,
-      "blurb": "The USSR's collapse left China as the surviving communist giant — the system the Soviets pioneered, outlived by the model they once mentored."
-    },
-    {
-      "matchText": "Russian Empire",
-      "targetTl": "russian-empire",
-      "targetChapter": 1,
-      "blurb": "1991 closed the circle: the Soviet collapse re-posed the imperial problem — how to hold the largest country on earth together."
-    }
   ]
 }

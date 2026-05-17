@@ -85,12 +85,6 @@
       "type": "concept"
     },
     {
-      "term": "Quattrocento",
-      "matchText": "Quattrocento",
-      "wikiSlug": "Quattrocento",
-      "type": "concept"
-    },
-    {
       "term": "Tuscan",
       "matchText": "Tuscan hills",
       "wikiSlug": "Tuscany",
@@ -274,7 +268,7 @@
     },
     {
       "term": "Pietà",
-      "matchText": "Piet",
+      "matchText": "Pietà",
       "wikiSlug": "Piet%C3%A0",
       "type": "concept"
     },
@@ -347,12 +341,6 @@
       "type": "place"
     },
     {
-      "term": "Chiaroscuro",
-      "matchText": "chiaroscuro",
-      "wikiSlug": "Chiaroscuro",
-      "type": "concept"
-    },
-    {
       "term": "Contrapposto",
       "matchText": "contrapposto",
       "wikiSlug": "Contrapposto",
@@ -362,12 +350,6 @@
       "term": "Pope Sixtus IV",
       "matchText": "Sixtus IV",
       "wikiSlug": "Pope_Sixtus_IV",
-      "type": "people"
-    },
-    {
-      "term": "Pope Leo X",
-      "matchText": "Leo X",
-      "wikiSlug": "Pope_Leo_X",
       "type": "people"
     },
     {
@@ -456,6 +438,12 @@
     }
   ],
   "4": [
+    {
+      "term": "Pope Leo X",
+      "matchText": "Leo X",
+      "wikiSlug": "Pope_Leo_X",
+      "type": "people"
+    },
     {
       "term": "Sfumato",
       "matchText": "sfumato",

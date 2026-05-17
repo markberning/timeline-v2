@@ -10,7 +10,6 @@
     {"eventId":"evt-ming-lijia-system","matchText":"lijia"},
     {"eventId":"evt-ming-eunuch-system","matchText":"Twenty-Four Departments of the imperial household staff"},
     {"eventId":"evt-ming-empress-ma","matchText":"Empress Ma"},
-    {"eventId":"evt-ming-haijin-policy","matchText":"Haijin"},
     {"eventId":"evt-ming-tax-system","matchText":"tax assessment"},
     {"eventId":"evt-ming-ming-army","matchText":"weisuo"},
     {"eventId":"evt-ming-frontier-defense","matchText":"Nine Frontier Garrisons"}
@@ -32,7 +31,8 @@
     {"eventId":"evt-ming-zheng-he","matchText":"Zheng He"},
     {"eventId":"evt-ming-treasure-ships","matchText":"treasure ships"},
     {"eventId":"evt-ming-malindi-giraffe","matchText":"giraffe"},
-    {"eventId":"evt-ming-voyages-end","matchText":"Zheng He himself died at sea"}
+    {"eventId":"evt-ming-voyages-end","matchText":"Zheng He himself died at sea"},
+    {"eventId":"evt-ming-haijin-policy","matchText":"Haijin"}
   ],
   "4": [
     {"eventId":"evt-ming-wang-zhen","matchText":"Wang Zhen"},

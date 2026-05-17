@@ -2,7 +2,7 @@
   "1": [
     {
       "term": "Chavín de Huántar",
-      "matchText": "Chavín de Huántar pilgrimage center",
+      "matchText": "Chavín de Huántar",
       "wikiSlug": "Chavín_de_Huántar",
       "type": "place"
     },
@@ -277,12 +277,6 @@
       "matchText": "Pacific",
       "wikiSlug": "Pacific_Ocean",
       "type": "place"
-    },
-    {
-      "term": "Ayllu",
-      "matchText": "ayllu",
-      "wikiSlug": "Ayllu",
-      "type": "concept"
     },
     {
       "term": "Ayllu",
@@ -1200,12 +1194,6 @@
       "term": "Anchovy fishery",
       "matchText": "anchovy fishery",
       "wikiSlug": "Peruvian_anchoveta",
-      "type": "concept"
-    },
-    {
-      "term": "Humboldt Current",
-      "matchText": "Humboldt Current",
-      "wikiSlug": "Humboldt_Current",
       "type": "concept"
     }
   ]

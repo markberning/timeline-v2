@@ -91,12 +91,6 @@
       "type": "place"
     },
     {
-      "term": "Upper Egypt",
-      "matchText": "Upper Egypt",
-      "wikiSlug": "Upper_Egypt",
-      "type": "place"
-    },
-    {
       "term": "First Cataract",
       "matchText": "First Cataract",
       "wikiSlug": "Cataracts_of_the_Nile",
@@ -497,21 +491,9 @@
       "type": "concept"
     },
     {
-      "term": "Taweret",
-      "matchText": "Taweret",
-      "wikiSlug": "Taweret",
-      "type": "concept"
-    },
-    {
       "term": "sewn-plank boat",
       "matchText": "sewn-plank boats",
       "wikiSlug": "Plank_(boat_building)",
-      "type": "concept"
-    },
-    {
-      "term": "papyrus",
-      "matchText": "papyrus",
-      "wikiSlug": "Papyrus",
       "type": "concept"
     },
     {
@@ -835,12 +817,6 @@
       "matchText": "Faiyum",
       "wikiSlug": "Faiyum",
       "type": "place"
-    },
-    {
-      "term": "Horus name",
-      "matchText": "Horus name",
-      "wikiSlug": "Horus_name",
-      "type": "concept"
     }
   ],
   "6": [
@@ -1133,12 +1109,6 @@
       "matchText": "Abydos king list",
       "wikiSlug": "Abydos_King_List",
       "type": "concept"
-    },
-    {
-      "term": "Step Pyramid",
-      "matchText": "Step Pyramid",
-      "wikiSlug": "Pyramid_of_Djoser",
-      "type": "place"
     },
     {
       "term": "rammed earth",

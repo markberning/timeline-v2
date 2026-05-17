@@ -861,12 +861,6 @@
       "type": "people"
     },
     {
-      "term": "Boeotia",
-      "matchText": "Boeotia",
-      "wikiSlug": "Boeotia",
-      "type": "place"
-    },
-    {
       "term": "Hermes",
       "matchText": "Hermes",
       "wikiSlug": "Hermes",
@@ -880,6 +874,12 @@
     }
   ],
   "6": [
+    {
+      "term": "Boeotia",
+      "matchText": "Boeotia",
+      "wikiSlug": "Boeotia",
+      "type": "place"
+    },
     {
       "term": "King's Peace",
       "matchText": "Peace of Antalcidas",

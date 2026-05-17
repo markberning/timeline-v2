@@ -19,7 +19,6 @@
     {"eventId":"evt-6d-war-eight-princes","matchText":"War of the Eight Princes"},
     {"eventId":"evt-6d-liu-yuan-han-zhao","matchText":"Liu Yuan"},
     {"eventId":"evt-6d-disaster-yongjia","matchText":"Disaster of Yongjia"},
-    {"eventId":"evt-6d-great-migration","matchText":"Great Southward Migration"},
     {"eventId":"evt-6d-eastern-jin-founded","matchText":"Eastern Jin"}
   ],
   "3": [
@@ -28,6 +27,7 @@
     {"eventId":"evt-6d-northern-wei","matchText":"Northern Wei"}
   ],
   "4": [
+    {"eventId":"evt-6d-great-migration","matchText":"Great Southward Migration"},
     {"eventId":"evt-6d-wang-dao","matchText":"Wang Dao"},
     {"eventId":"evt-6d-wang-xizhi","matchText":"Wang Xizhi"},
     {"eventId":"evt-6d-orchid-pavilion","matchText":"Orchid Pavilion Preface"},
@@ -54,7 +54,7 @@
     {"eventId":"evt-6d-yungang-grottoes","matchText":"Yungang Grottoes"},
     {"eventId":"evt-6d-longmen-grottoes","matchText":"Longmen Grottoes"},
     {"eventId":"evt-6d-emperor-xiaowen","matchText":"Emperor Xiaowen"},
-    {"eventId":"evt-6d-northern-wei-capital-move","matchText":"moved the capital from Datong to Luoyang"},
+    {"eventId":"evt-6d-northern-wei-capital-move","matchText":"capital from Datong"},
     {"eventId":"evt-6d-shaolin-monastery","matchText":"Shaolin Monastery"},
     {"eventId":"evt-6d-yongning-pagoda","matchText":"Yongning Pagoda"},
     {"eventId":"evt-6d-six-garrison-rebellions","matchText":"Six Garrison Rebellions"},

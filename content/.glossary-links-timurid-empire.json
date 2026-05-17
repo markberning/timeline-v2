@@ -497,12 +497,6 @@
       "type": "people"
     },
     {
-      "term": "Zafarnama (Yazdi)",
-      "matchText": "Yazdi's Zafarnama",
-      "wikiSlug": "Zafarnama_(Yazdi_book)",
-      "type": "concept"
-    },
-    {
       "term": "Maurya Empire",
       "matchText": "Maurya Empire",
       "wikiSlug": "Maurya_Empire",
@@ -620,7 +614,7 @@
     },
     {
       "term": "Stefan Lazarević",
-      "matchText": "Stefan Lazarevi",
+      "matchText": "Stefan Lazarević",
       "wikiSlug": "Stefan_Lazarevi%C4%87",
       "type": "people"
     },
@@ -679,9 +673,9 @@
       "type": "concept"
     },
     {
-      "term": "Sayyid dynasty",
-      "matchText": "Sayyid dynasty",
-      "wikiSlug": "Sayyid_dynasty",
+      "term": "Zafarnama (Yazdi)",
+      "matchText": "Yazdi's Zafarnama",
+      "wikiSlug": "Zafarnama_(Yazdi_book)",
       "type": "concept"
     }
   ],
@@ -798,6 +792,12 @@
       "term": "Sasanian Empire",
       "matchText": "Sasanian Empire",
       "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Western Schism",
+      "matchText": "Catholic Schism",
+      "wikiSlug": "Western_Schism",
       "type": "concept"
     }
   ],
@@ -956,12 +956,6 @@
       "term": "Vijayanagara Empire",
       "matchText": "Vijayanagara Empire",
       "wikiSlug": "Vijayanagara_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Western Schism",
-      "matchText": "Catholic Schism",
-      "wikiSlug": "Western_Schism",
       "type": "concept"
     }
   ],
