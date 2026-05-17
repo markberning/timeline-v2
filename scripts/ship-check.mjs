@@ -48,6 +48,12 @@ check('map QA passed (no MAP-FAILURES artifact)', () => {
     throw new Error(`MAP-FAILURES-${tlId}.txt present — vision QA gate failed; resolve + re-run maps-build`)
   return 'clean'
 })
+check('event-popup QA passed (no EVENT-FAILURES artifact)', () => {
+  const p = join(ROOT, `EVENT-FAILURES-${tlId}.txt`)
+  if (existsSync(p) && readFileSync(p, 'utf8').trim())
+    throw new Error(`EVENT-FAILURES-${tlId}.txt present — popup coherence gate (G10) failed; resolve + re-run audit-events`)
+  return 'clean'
+})
 
 // 3. Links 0-ERROR (G2).
 check('lint:links --strict', () => { sh('npx', ['tsx', 'scripts/lint-links.ts', `--tl=${tlId}`, '--strict']); return '0 ERROR' })

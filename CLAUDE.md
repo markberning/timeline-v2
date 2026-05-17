@@ -38,10 +38,11 @@ gen → vision-QA → regen); `scripts/ship-check.mjs` (blocks the ship toggle).
 8. **Write summary bullets** — `narratives/{tlId}.summaries.json`, 6–10 bullets per chapter. See WRITING-RULES.md.
 9. **Lint links (GATE)** — `npm run lint:links --tl={tlId} --strict` must pass (0 ERROR). `--contention` (opt-in) shows what the parser will silently drop. This is also wired into `prebuild` corpus-wide.
 10. **Enrich events** — `npm run parse` (runs the gate first). **Restart dev server after parse** — `lib/data.ts` caches in-memory.
+10b. **Audit event popups (GATE — G10)** — `node --env-file=.env.local scripts/audit-events.mjs {tlId}`: Stage 1 text-coherence on every event (label/description vs wikiExtract/wikiSlug — wrong/redirected/off-subject page), Stage 2 vision on every event with a photo (image↔caption↔subject). Fail-closed; writes `EVENT-FAILURES-{tlId}.txt` on any FAIL. Fix via wikiSlug correction, link→eventId fix, `content/.image-overrides.json` / `.caption-overrides.json`, then re-run until clean.
 11. **Backward cross-cultural pass (GATE — mandatory, not deferred)** — apply every Persona-E backward finding into the reference TLs' `.cross-links-*.json` (or ledger it with a reason); `npm run lint:links --strict` must pass for **every reference TL touched**.
 12. **Generate + QA maps (GATE)** — `node --env-file=.env.local scripts/maps-build.mjs {tlId}`: lints the prompt, generates, runs the vision-model QA gate (`audit-maps.mjs`, locked acceptance criteria), auto-regens failures (≤3 rounds), then optimizes. Manual `generate-maps.mjs` + thumbnail eyeball is no longer the gate. See `map-prompts/README.md`.
 13. **Review images** — `/review/{tlId}` (dev mode only).
-14. **Ship toggle (GATE)** — `node scripts/ship-check.mjs {tlId}` must pass, THEN flip `hasContent: true` in `src/lib/navigator-tls.ts`. ship-check verifies: maps exist 1:1 with chapters + QA-passed, links 0-ERROR, coverage triaged, density in band, no Persona-D WEAK/REWRITE, backward pass done.
+14. **Ship toggle (GATE)** — `node scripts/ship-check.mjs {tlId}` must pass, THEN flip `hasContent: true` in `src/lib/navigator-tls.ts`. ship-check verifies: maps exist 1:1 with chapters + QA-passed, event popups QA-passed (G10), links 0-ERROR, coverage triaged, density in band, no Persona-D WEAK/REWRITE, backward pass done.
 
 ## File Structure
 ```
