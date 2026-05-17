@@ -13,6 +13,7 @@
 | G7 backward cross-civ | audit skill "default defer" → mandatory; CLAUDE.md step 11 gate | 5d75789 |
 | G8 chapter-count rigor | narrative-movement map, user-approved, no cap, no no-stop bypass | 5d75789 |
 | G9 ship-check | `scripts/ship-check.mjs` (`npm run ship:check <tl>`) gates hasContent | 94aa637 |
+| G10 event-popup coherence | `scripts/audit-events.mjs` (2-stage: text every event + vision imaged); CLAUDE.md 10b; ship-check artifact | a40b979 |
 
 **Two large pre-existing-debt findings surfaced during the rewrite (NOT pipeline
 defects; separate remediation, user's call — they do not block the 17):**
