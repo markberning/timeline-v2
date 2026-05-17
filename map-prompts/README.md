@@ -21,13 +21,13 @@ Paste this block at the top of every prompt, before the chapter-title directive,
 4. **North is at the top of the map. East is to the right.** Place every location according to its real-world geography in this orientation. Do not rotate or tilt the map.
 5. **All water is light blue.** Seas, bays, lakes, and rivers are rendered in light blue. Do not render water as tan, cream, or white. Deserts are pale yellow. Land is beige/tan. River floodplains are soft green.
 6. **Do not invent any labels, annotations, sites, or features that are not in this prompt.** If it is not in the prompt, do not draw it.
-7. **No modern political geography.** Do not draw modern country names (PAKISTAN, IRAN, IRAQ, TURKEY, INDIA, AFGHANISTAN, EGYPT, MEXICO, CHILE, etc.) or any modern national border lines, solid or dotted. This is a historical map.
+7. **No modern political geography.** Do not draw modern country names (PAKISTAN, IRAN, TURKEY, INDIA, JAPAN, CHINA, KOREA, EGYPT, MEXICO, etc.) **or any boundary / border / administrative / prefecture / province / internal-division lines** (solid, dotted, or dashed). The only lines are coastlines, the named rivers, and the single annotation. This is a historical map.
 8. **No compass words as labels.** Never print the words North, South, East, West (or the letters N/S/E/W) anywhere on the image. Orientation is north-up by convention only; it must not appear as rendered text.
 9. **No ornamental glyphs.** No decorative star, four-point sparkle, twinkle, compass-rose flourish, or corner ornament. A stray sparkle has repeatedly appeared in the bottom-right corner on prior runs — do not draw it.
 
 ---
 
-The chapter title "Chapter N: <Title>" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. The left, right, and bottom edges of the image have NO border or frame — the map geography extends fully to all three of those edges, edge-to-edge. Do not draw a rectangular frame around the map on the left, right, or bottom sides.
+The chapter title "Chapter N: <Title>" should appear at the top of the map image, centered, in a clean serif font, inside a header bar that spans the full width of the image. The header bar is the ONLY bordered element of the image. Draw NO border, outline, frame, rectangle, or hairline anywhere else — the map and its water must bleed off all four outer edges (top beside the title bar, left, right, bottom). Never enclose the map in a rectangle. (Frame violations were the most common failure in the 2026-05 audit — ~50% on the first re-canary run.)
 ```
 
 **Swap in the chapter number and title on the last line.** Do not paraphrase the rules block — use the exact wording above, because Gemini tends to follow literal directives more reliably than paraphrased ones.
