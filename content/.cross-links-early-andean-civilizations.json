@@ -5,6 +5,12 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 1,
       "blurb": "Ancient Nubia faced the same archaeological silence as the Andes — a complex civilization known almost entirely from dirt, bones, and architecture because it developed no writing system until the Meroitic script appeared around 200 BCE. The Nubians built Africa's first indigenous city-state south of Egypt, traded across half a continent, and produced some of the most massive royal tombs in the ancient world, all without leaving a single written sentence for the first two thousand years of their history."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "The Andes, like Nubia, built complex society on a vertical patchwork of ecological zones — civilization as the management of altitude and aridity."
     }
   ],
   "2": [
@@ -31,6 +37,24 @@
       "targetTl": "early-dynastic-egypt",
       "targetChapter": 4,
       "blurb": "While the Norte Chico was building its first coastal temples, the Nile Valley was on the verge of political unification — the predynastic kings of Abydos were consolidating Upper Egypt by force, inventing hieroglyphic writing, and producing the ceremonial palettes that would culminate in the Narmer Palette. Egypt was about to become a state. Peru was building temples without one."
+    },
+    {
+      "matchText": "Early Dynastic Egypt",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 3,
+      "blurb": "Coastal Peru's first temple-mounds are its Naqada moment — monumental religion before the state, the same threshold predynastic Egypt crossed."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 2,
+      "blurb": "Like the Indus, early Andean civilization grew from deep village roots into something monumental — a pristine origin with no outside model."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "Caral and its peers are the Andean Uruk — the first cities, arising independently of the Old World entirely."
     }
   ],
   "3": [
@@ -69,6 +93,24 @@
       "targetTl": "mesopotamia",
       "targetChapter": 2,
       "blurb": "The Caral quipu fragments, if correctly identified, push the knotted-string recording technology back to about 2600 BCE — nearly contemporary with the earliest cuneiform accounting tablets at Uruk. Both civilizations needed to record quantitative information beyond what human memory could manage. Mesopotamia solved it with marks on clay. The Andes solved it with knots on string."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 4,
+      "blurb": "Caral — monumental, planned, apparently warless and writingless — is the Andes' Mohenjo-daro, a great city built on a wholly different logic than Sumer's."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "Caral was raising pyramids while Sumer raised ziggurats, in total mutual ignorance — civilization invented twice."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 2,
+      "blurb": "Add China's independent Neolithic-to-state climb and the Andes makes at least the fourth fully pristine civilization on Earth."
     }
   ],
   "4": [
@@ -91,6 +133,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "The Shang Dynasty's bronze-casting tradition at Anyang produced ritual vessels of a technical quality unmatched anywhere in the ancient world — massive tripod cauldrons and wine vessels cast in piece-molds, decorated with the taotie mask motif that is China's equivalent of the Andean fanged face. Two civilizations on opposite sides of the Pacific were independently developing elaborate supernatural-face iconography at the same time."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 9,
+      "blurb": "The U-shaped ceremonial centers are the Andean equivalent of the Mesopotamian temple-economy — religion organizing labor and surplus."
     }
   ],
   "7": [
@@ -105,6 +153,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "The Chavin Horizon is exactly contemporary with the Chinese Warring States period and the philosophy of Confucius and Laozi — the era when Chinese intellectual traditions were being founded that would shape East Asian civilization for the next two millennia. The Andes were doing their own version of cultural unification at the same time, through pilgrimage and prestige art rather than philosophy and statecraft."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 8,
+      "blurb": "The Chavín horizon spread a shared art-and-cult vocabulary the way Elam and its neighbors shared a Near Eastern visual world — influence without empire."
     }
   ],
   "8": [
