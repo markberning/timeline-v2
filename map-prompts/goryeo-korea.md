@@ -52,6 +52,9 @@ The chapter title "Chapter 1: The Maritime Lord Who Made a Kingdom" should appea
 
 **Apply the GORYEO KOREA ORIENTATION RULES above.**
 
+**SPECIFIC REMINDERS for this chapter:**
+- On the prior run a black outline/frame surrounded the entire map on the left, right, and bottom edges. There must be NO such line. Render the four outer edges of the IMAGE as bare map and water: sea or land pixels must touch the leftmost pixel column, the rightmost pixel column, and the bottom pixel row of the image. There is NO line, stroke, rule, hairline, margin, padding, or color band anywhere between the map and the image edge. The ONLY bordered element in the whole image is the full-width title header bar at the very top. If you are about to draw any thin line near an edge or around the map, do not.
+
 Map of the Korean peninsula during the Later Three Kingdoms, showing Wang Geon's unification of Korea under Goryeo by 936.
 
 5 sites, name-only labels:
@@ -64,8 +67,8 @@ Map of the Korean peninsula during the Later Three Kingdoms, showing Wang Geon's
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- Khitan Liao Empire (north, across the Yalu)
-- Later Baekje (southwest)
+- Khitan Liao Empire
+- Later Baekje
 
 One annotation: arrows converging from Cheorwon, Wansanju, and Gyeongju onto Gaegyeong — label: "Wang Geon reunifies the peninsula under Goryeo, 936"
 
@@ -102,8 +105,8 @@ Map of unified Goryeo showing the new Confucian bureaucratic state radiating out
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- the Twelve Mok provinces (across the interior)
-- Khitan Liao Empire (north, across the Yalu)
+- the Twelve Mok provinces
+- Khitan Liao Empire
 
 One annotation: lines radiating from Gaegyeong out to Pyongyang, Gyeongju, Naju, and Cheorwon — label: "Seongjong plants twelve provincial governors, 983 — the central state reaches the countryside"
 
@@ -128,6 +131,9 @@ The chapter title "Chapter 3: The Khitan Storm" should appear at the top inside 
 
 **Apply the GORYEO KOREA ORIENTATION RULES above.**
 
+**SPECIFIC REMINDERS for this chapter:**
+- This map has FAILED twice for a thin black frame/hairline around the map. There must be NO such line. Render the four outer edges of the IMAGE as bare map and water: sea or land pixels must touch the leftmost pixel column, the rightmost pixel column, and the bottom pixel row of the image. There is NO line, stroke, rule, hairline, margin, padding, or color band anywhere between the map and the image edge, and none around the map. The ONLY bordered element in the whole image is the full-width title header bar at the very top. If you are about to draw any thin line near an edge or enclosing the map, do not.
+
 Map of the three Khitan invasions and the northern frontier Goryeo won and walled.
 
 5 sites, name-only labels:
@@ -140,8 +146,8 @@ Map of the three Khitan invasions and the northern frontier Goryeo won and walle
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- Khitan Liao Empire (north, across the Yalu)
-- Song China (west, across the Yellow Sea)
+- Khitan Liao Empire
+- Song China
 
 One annotation: a thick arrow from the Khitan Liao Empire southeast across the Yalu to Gaegyeong, then a broken retreating arrow destroyed at Gwiju — label: "Khitan invade three times; routed at Gwiju, 1019"
 
@@ -178,8 +184,8 @@ Map of the aristocratic golden age — its trade port and celadon kilns — and 
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- Jurchen Jin Empire (north, across the Yalu)
-- Song China (west, across the Yellow Sea)
+- Jurchen Jin Empire
+- Song China
 
 One annotation: an arrow from Gaegyeong northwest to Pyongyang — label: "Kim Bu-sik crushes Myocheong's Pyongyang revolt, 1135–36"
 
@@ -216,8 +222,8 @@ Map of the 1170 military coup and the wave of slave and peasant revolts under th
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- the Mongol steppe (far north, first contact 1219)
-- Jin Empire (north, across the Yalu)
+- the Mongol steppe
+- Jin Empire
 
 One annotation: arrows of revolt rising from Gyeongju, Unmun, and Jinju toward Gaegyeong — label: "A decade of slave and peasant risings, drowned by the junta, 1198–1202"
 
@@ -242,6 +248,9 @@ The chapter title "Chapter 6: The Mongol Cataclysm" should appear at the top ins
 
 **Apply the GORYEO KOREA ORIENTATION RULES above.**
 
+**SPECIFIC REMINDERS for this chapter:**
+- On the prior run a black hairline border framed the map on the left, right, and bottom edges. Draw NO border, frame, rectangle, outline, or hairline on any of those edges or around the whole map. The ONLY bordered element is the full-width title header bar at the very top. The map and ALL water must bleed fully off the left, right, and bottom edges with no margin and no line.
+
 Map of the Mongol war: the court's flight to Ganghwa Island and the Sambyeolcho's fighting retreat to the southern islands.
 
 5 sites, name-only labels:
@@ -254,8 +263,8 @@ Map of the Mongol war: the court's flight to Ganghwa Island and the Sambyeolcho'
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- Mongol Empire (north, across the Yalu)
-- Korea Strait (south)
+- Mongol Empire
+- Korea Strait
 
 One annotation: an arrow from Gaegyeong west to Ganghwa Island, then a separate dashed line from Ganghwa Island south to Jindo and on to Jeju Island — label: "Court flees to Ganghwa, 1232; the Sambyeolcho fight on to Jeju, 1270–73"
 
@@ -280,6 +289,11 @@ The chapter title "Chapter 7: The Son-in-Law Nation" should appear at the top in
 
 **Apply the GORYEO KOREA ORIENTATION RULES above.**
 
+**SPECIFIC REMINDERS for this chapter:**
+- On the prior run the map was enclosed in a black hairline border on all four sides. Draw NO border, frame, rectangle, outline, or hairline anywhere except the full-width title header bar at the very top. The map and ALL water must bleed fully off the left, right, and bottom edges.
+- The island site label is EXACTLY "Tamna" — nothing more. On the prior run Gemini invented the extra text "(under Yuan commandery control)" on the Tamna label. Do NOT add it. Render only the literal site names and the one annotation listed in this prompt; invent no parenthetical, no extra annotation, and no words that are not written in this prompt.
+- Spell every body of water EXACTLY as written: "Korea Strait" (letter for letter), "Yellow Sea", "East Sea". On the prior run the strait was garbled as "Kored Strait" — do not add, drop, or swap any letter in "Korea Strait".
+
 Map of Goryeo as a Yuan son-in-law state: the amputated territories and the forced invasion fleets sailing for Japan.
 
 5 sites, name-only labels:
@@ -292,8 +306,8 @@ Map of Goryeo as a Yuan son-in-law state: the amputated territories and the forc
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- Yuan Empire (north and west)
-- Japan (southeast, across the Korea Strait — the invasion target)
+- Yuan Empire
+- Japan
 
 One annotation: an arrow from Happo southeast across the Korea Strait toward Japan, breaking apart at sea — label: "Forced fleets sail against Japan, 1274 & 1281 — wrecked by the kamikaze typhoons"
 
@@ -330,8 +344,8 @@ Map of the dynasty's last years: Red Turban and pirate scourges, and Yi Seong-gy
 4 region labels (gray, orientation only):
 - Yellow Sea
 - East Sea
-- Ming China (west, demanding the northern lands)
-- Japan (southeast — the wokou pirate raiders)
+- Ming China
+- Japan
 
 One annotation: an arrow from Wihwa Island turning back southeast to Gaegyeong — label: "Yi Seong-gye turns his army around at Wihwa, 1388 — founds Joseon, 1392"
 

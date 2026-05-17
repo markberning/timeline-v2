@@ -14,6 +14,15 @@
 // NOT defects; only garble/wrong-location/adjacent-dup/caption-3x/compass-words/
 // frame-or-title-chrome/illegible/non-blue-water are.
 //
+// MAP WAIVER (2026-05-17): the frame/hairline defect is real but Gemini draws
+// it stochastically (~50%), so chasing a clean roll burns billable image
+// generations. A human (the "reasonably fine" authority) may waive a specific
+// chapter in content/.map-waivers-<tlId>.json ({ "<chapterNumber>": "reason" })
+// — the chapter then PASSES without a vision call. Use ONLY for a borderline
+// frame/cosmetic case a person has eyeballed and judged reader-acceptable;
+// never for garble/wrong-geography. Mirrors G3 .link-waivers / G10
+// .event-slug-waivers / G12 .glossary-slug-waivers.
+//
 // Usage:
 //   GEMINI_API_KEY=... node scripts/audit-maps.mjs <tlId>
 //   ... node scripts/audit-maps.mjs <tlId> --chapter 3
@@ -97,7 +106,14 @@ if (chapters.length === 0) { console.error(`No "## Chapter N" sections in ${prom
 const mapDir = `public/maps/${tlId}`
 const ai = new GoogleGenAI({ apiKey })
 
+// Human-adjudicated borderline maps: { "<chapterNumber>": "reason" }. A waived
+// chapter PASSES without spending a vision call (also clears the 429 risk).
+const mapWaiverPath = `content/.map-waivers-${tlId}.json`
+const mapWaivers = existsSync(mapWaiverPath) ? JSON.parse(readFileSync(mapWaiverPath, 'utf8')) : {}
+
 async function auditChapter(ch) {
+  const waived = mapWaivers[String(ch.number)]
+  if (waived) return { ch: ch.number, verdict: 'PASS', defects: [], notes: `waived: ${waived}` }
   const webp = join(mapDir, `chapter-${ch.number}.webp`)
   const png = join(mapDir, `chapter-${ch.number}.png`)
   const file = existsSync(webp) ? webp : existsSync(png) ? png : null
