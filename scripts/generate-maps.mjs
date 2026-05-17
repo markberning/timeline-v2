@@ -169,7 +169,7 @@ function preprocessPrompt(prompt) {
     '',
     '**SPELL LABELS EXACTLY:** Render every label spelled EXACTLY as written in this prompt, including long transliterated place names. Do not add, drop, double, or alter letters (on a prior run "Shikanoshima" became "Shikanoshimia" — never mutate names like that). Invent no words that are not in this prompt.',
     '',
-    '**NO ANACHRONISTIC MODERN GEOGRAPHY:** Do not put modern country names or modern national borders on a map of a pre-modern era — they did not exist yet (e.g. never "PAKISTAN", "IRAN", "BELIZE", "NIGERIA", "NEPAL" on an ancient or medieval map). Period-appropriate internal outlines (the provinces, states, kingdoms, or regions of the era actually depicted) ARE acceptable and normal. Show the regions, sites, and labels named in this prompt on a clean period-appropriate basemap.',
+    '**GEOGRAPHY MUST BE CORRECT AND READABLE:** Place every feature in its correct real-world location. Faint modern country/region outlines or labels are WELCOME as orientation aids — they help the reader place where on Earth this is. Period-appropriate AND modern reference geography are both fine. The only geography defects are invented or misspelled place names, features in the wrong location, or labels that contradict the prompt facts. Do not garble or hallucinate names.',
     '',
     '**NO COMPASS WORDS AS LABELS:** Do not print the words North, South, East, or West, or the single letters N, S, E, W, anywhere on the image. The map is north-up by convention only; orientation must never appear as rendered text.',
     '',
