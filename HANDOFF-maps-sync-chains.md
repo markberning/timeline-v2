@@ -1,3 +1,13 @@
+> **⚠️ SUPERSEDED 2026-05-17 — HISTORICAL RECORD ONLY.** This track's 4 items
+> are complete (kept below for history). The concurrent-session warning is
+> resolved (that session finished). Audit Tracks 2/3 are no longer gated.
+> The 17-civ backlog is now the LOCKED roster `audits/phase-1.5-roster.md`
+> (no longer "the user's call; nothing built"). The manual map workflow here
+> is retired — maps go through the **G4 gate** `scripts/maps-build.mjs`. The
+> locked map acceptance-criteria table is still valid (encoded in
+> `audit-maps.mjs`). Authority: **CLAUDE.md "Content Pipeline"** +
+> `audits/pipeline-audit.md`.
+
 # HANDOFF — Maps / Production-Line Sync / Chain Wiring track
 
 _Cold-start brief. As of 2026-05-16. Branch `main`. Latest commit on this track: `d193d50`._

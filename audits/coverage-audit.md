@@ -1,5 +1,11 @@
 # Corpus-Wide Coverage & Chain-Integrity Audit
 
+> **✅ RESOLVED 2026-05-17.** §3 consistency drift is fixed in CLAUDE.md
+> (100/100, Remaining (0), 🚧 cleared); Recommended Actions 1/2/6/7/8 are done
+> (chains wired in `tl-chains.ts`; wars → Phase 2). The §1/§4 gap findings are
+> still live and feed the LOCKED roster `audits/phase-1.5-roster.md` — do NOT
+> re-run the "refresh CLAUDE.md" action; this is a frozen diagnosis.
+
 **Date:** 2026-05-16
 **Scope:** `reference-data/tl-chains.ts`, `src/lib/navigator-tls.ts`, `reference-data/{tlId}.json`, `CLAUDE.md` roadmap
 **Method:** Chain handoff years use the **declared `startYear`/`endYear` in `navigator-tls.ts`** (the authoritative editorial span). Raw event-year min/max in the JSON files is unreliable for span detection because most TLs carry archaeological-discovery and modern-legacy "outlier" events (e.g. `indus-valley` events span -7000 to a 1920s rediscovery). A 4th–96th-percentile "core" event range was computed as a cross-check and is cited where it materially disagrees with the declared span.

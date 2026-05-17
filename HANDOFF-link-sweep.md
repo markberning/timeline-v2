@@ -1,3 +1,13 @@
+> **⚠️ SUPERSEDED 2026-05-17 — HISTORICAL RECORD ONLY.** The link sweep is
+> complete (lint:links 0 ERROR corpus-wide) and its tooling is now gated
+> (`/tmp/lsweep.py` → committed `scripts/link-coverage.ts` G3; per-TL link
+> targets retired; `npm run gate` in `prebuild` is G2). The "17 new civs" are
+> now the LOCKED roster `audits/phase-1.5-roster.md`. The cross-warning below
+> about the root `HANDOFF.md` is itself stale — root `HANDOFF.md` is now the
+> current cold-start brief. Authority for building: **CLAUDE.md "Content
+> Pipeline"** + `audits/pipeline-audit.md`. Only still-live item here: the
+> term-precision sweep pointer (`audits/term-precision-sweep.md`).
+
 # HANDOFF — link-coverage sweep & pipeline hardening
 
 _2026-05-16. Cold-start brief for the link-sweep / pipeline track. (Root `HANDOFF.md`

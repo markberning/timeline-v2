@@ -14,8 +14,9 @@ to the 17 as proposed; the four open scoping questions resolve to their proposed
 defaults (Africa = 5 TLs incl. benin-and-ife; ethiopian-empire 1137–1855;
 mainland-southeast-asia as one TL; slot 17 = haudenosaunee; parked overflow
 unused). First build = pipeline trial on one civ. Nothing
-built; none in `navigator-tls.ts` yet. Per-civ build follows the agreed workflow
-in root `HANDOFF.md`; chapter/event counts get OK'd before writing.
+built; none in `navigator-tls.ts` yet. Per-civ build follows the gated
+**CLAUDE.md "Content Pipeline"** (steps 0–14); the chapter list + throughlines
+get OK'd before writing (step 0.5 / G8 gate).
 
 Date: 2026-05-16. Lane: maps/sync/chains (audits/ in-lane, safe to commit).
 
@@ -102,4 +103,5 @@ hold the count at 17.
 
 CRITICAL first (#1 Mesopotamian bridge), then the HIGH chain-bridges
 (#2–6) and the Atlantic chain (#7–9), then Africa (#10–14), then #15–17.
-Per-civ pipeline = root `HANDOFF.md` §"The per-civ workflow".
+Per-civ pipeline = the gated **CLAUDE.md "Content Pipeline"** (steps 0–14);
+`HANDOFF.md` is the cold-start brief that points at it.

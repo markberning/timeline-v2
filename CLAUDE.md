@@ -85,6 +85,17 @@ scripts/
   generate-maps.mjs             — parses map-prompts/{tlId}.md → Gemini image API per chapter
   generate-maps-all-pending.mjs — batch wrapper: runs generate-maps over a pending TL list
   optimize-maps.mjs             — PNG → WebP converter for chapter maps (deletes PNG originals)
+  lint-links.ts                 — G2 link validator (--strict gate; --contention opt-in)
+  lint-density.ts               — G1 events/chapter gate (10–15, baseline-grandfathered)
+  link-coverage.ts              — G3 bolded-but-unlinked detector (Pass A gated)
+  lint-map-prompt.mjs           — G4 pre-gen prompt guard
+  audit-maps.mjs                — G4 vision-model map QA (fail-closed)
+  maps-build.mjs                — G4 orchestrator: lint→gen→QA→auto-regen→optimize
+  audit-events.mjs              — G10 event-popup coherence (text + vision)
+  audit-crosslinks.mjs          — G11 cross-link sheet coherence (text)
+  audit-glossary.mjs            — G12 glossary sheet coherence (text)
+  ship-check.mjs                — G5+G9 aggregate gate before hasContent: true
+  repair-links.ts               — deterministic parser-dropped-link recovery
 public/
   sw.js                         — service worker: network-first nav, cache-first assets, per-TL caches
   search-index.json             — generated full-text search index (~9.7 MB)
@@ -165,7 +176,7 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 
 **Remaining (0):** all 100 navigator TLs have `hasContent: true`. The next work is the ~17 new TLs (not yet added to `navigator-tls.ts`).
 
-**Maps:** all 100 shipped TLs have chapter maps. The 2026-05 corpus map audit + full regen (Tier 0 Japan, Tier 1 mesopotamia/indus-valley full-series, Tier 2 blockers, Tier 3 ~150 majors, Pass-1 re-roll) is COMPLETE — the whole corpus passes the locked acceptance criteria (see `audits/map-audit.md`; criteria in memory `feedback_dont_over_generalize_defect_rules`). `generate-maps.mjs` `preprocessPrompt()` auto-injects the hardened global rules; new/split TLs: `scripts/generate-maps.mjs <tlId>` → audit → `scripts/optimize-maps.mjs`.
+**Maps:** all 100 shipped TLs have chapter maps. The 2026-05 corpus map audit + full regen (Tier 0 Japan, Tier 1 mesopotamia/indus-valley full-series, Tier 2 blockers, Tier 3 ~150 majors, Pass-1 re-roll) is COMPLETE — the whole corpus passes the locked acceptance criteria (see `audits/map-audit.md`; criteria in memory `feedback_dont_over_generalize_defect_rules`). `generate-maps.mjs` `preprocessPrompt()` auto-injects the hardened global rules. New/split TLs now go through the **G4 gate**: `node --env-file=.env.local scripts/maps-build.mjs <tlId>` (lint-prompt → generate → vision-QA → auto-regen ≤3 → optimize). The old manual `generate-maps.mjs → eyeball → optimize-maps.mjs` loop is retired (see Content Pipeline step 12).
 
 ## Color System
 - **Region-driven accent colors** in `src/lib/accent-colors.ts`: Near East = amber `#d97706`, Africa = rust `#b44d3b`, Asia = violet `#7c3aed`, Europe = blue `#1d4ed8`, Americas = green `#047857`.
