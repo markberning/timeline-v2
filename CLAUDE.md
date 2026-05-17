@@ -189,13 +189,22 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 ## Session Conventions
 At the end of every task or set of changes, always provide a **Changes made this pass** section.
 
-## Git — PUBLISH GATE (overrides the global "always push" instruction)
+## Git — PUBLISH POLICY (ask-gate LIFTED 2026-05-17)
 `git push` and `npx wrangler deploy` PUBLISH to stuffhappened.com (Cloudflare
-auto-deploys `main`). Multiple concurrent sessions publishing caused recurring
-prod regressions (whole civ groups vanishing).
+auto-deploys `main`). Multiple concurrent **same-tree** sessions publishing once
+caused recurring prod regressions (whole civ groups vanishing).
 
-**Rule for ALL sessions:** commit locally freely and often — but **NEVER
-`git push`, push any branch, or `wrangler deploy` without the user's explicit
-say-so for that specific push.** "Always commit and push" (global instruction)
-is overridden here: commit yes, publish only on the user's word. This holds
-even in no-stop / autonomous modes. Staging branches/tags count as publishing.
+**Current rule:** **publish when ship-ready, no need to ask.** Commit locally
+throughout; when a civ/merge has passed the full gated pipeline (ship-check
+CLEAR + the `build-static.mjs` shipped-page guard green), flip `hasContent`,
+merge to `main`, run the clean atomic `rm -rf out && npm run build && npx
+wrangler deploy`, and push — autonomously. The user removed the *ask*, not the
+gates: never publish a gate-failing or half-built state.
+
+**Why it's safe to publish unattended now:** concurrent work runs in isolated
+git **worktrees** (the-17 → `feat/the-17`, remediation → `chore/corpus-
+remediation`), never concurrent same-tree sessions; and the shipped-page guard
+makes a stale/partial build structurally undeployable. Those replace the old
+serialize-under-explicit-approval gate. (A legacy settings.json PreToolUse hook
+may still hard-block pushes — clear/relax it before the first unattended
+publish.)
