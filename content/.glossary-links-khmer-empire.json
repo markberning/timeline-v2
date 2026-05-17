@@ -1,754 +1,772 @@
 {
- "1": [
-  {
-   "term": "Mekong",
-   "matchText": "Mekong",
-   "wikiSlug": "Mekong",
-   "type": "place"
-  },
-  {
-   "term": "Tonlé Sap",
-   "matchText": "Tonlé Sap",
-   "wikiSlug": "Tonl%C3%A9_Sap",
-   "type": "place"
-  },
-  {
-   "term": "Monsoon",
-   "matchText": "monsoon",
-   "wikiSlug": "Monsoon",
-   "type": "concept"
-  },
-  {
-   "term": "Mon–Khmer languages",
-   "matchText": "Mon-Khmer",
-   "wikiSlug": "Austroasiatic_languages",
-   "type": "language"
-  },
-  {
-   "term": "Austroasiatic",
-   "matchText": "Austroasiatic",
-   "wikiSlug": "Austroasiatic_languages",
-   "type": "language"
-  },
-  {
-   "term": "Austronesian peoples",
-   "matchText": "Austronesian",
-   "wikiSlug": "Austronesian_peoples",
-   "type": "people"
-  },
-  {
-   "term": "Funan",
-   "matchText": "Funan",
-   "wikiSlug": "Funan",
-   "type": "place"
-  },
-  {
-   "term": "Oc Eo",
-   "matchText": "Oc Eo",
-   "wikiSlug": "Oc_Eo",
-   "type": "place"
-  },
-  {
-   "term": "Han dynasty",
-   "matchText": "Han Chinese",
-   "wikiSlug": "Han_dynasty",
-   "type": "dynasty"
-  },
-  {
-   "term": "Sanskrit",
-   "matchText": "Sanskrit",
-   "wikiSlug": "Sanskrit",
-   "type": "language"
-  },
-  {
-   "term": "Shiva",
-   "matchText": "Shiva",
-   "wikiSlug": "Shiva",
-   "type": "deity"
-  },
-  {
-   "term": "Vishnu",
-   "matchText": "Vishnu",
-   "wikiSlug": "Vishnu",
-   "type": "deity"
-  },
-  {
-   "term": "Hinduism",
-   "matchText": "Hindu",
-   "wikiSlug": "Hinduism",
-   "type": "religion"
-  },
-  {
-   "term": "Buddhism",
-   "matchText": "Buddhism",
-   "wikiSlug": "Buddhism",
-   "type": "religion"
-  },
-  {
-   "term": "Indianisation",
-   "matchText": "Indianization",
-   "wikiSlug": "Indianisation",
-   "type": "concept"
-  },
-  {
-   "term": "Naga",
-   "matchText": "naga",
-   "wikiSlug": "Nāga",
-   "type": "concept"
-  },
-  {
-   "term": "Chenla",
-   "matchText": "Chenla",
-   "wikiSlug": "Chenla",
-   "type": "place"
-  },
-  {
-   "term": "Khmer language",
-   "matchText": "Khmer language",
-   "wikiSlug": "Khmer_language",
-   "type": "language"
-  },
-  {
-   "term": "Sambor Prei Kuk",
-   "matchText": "Sambor Prei Kuk",
-   "wikiSlug": "Sambor_Prei_Kuk",
-   "type": "place"
-  },
-  {
-   "term": "Shailendra dynasty",
-   "matchText": "Sailendra",
-   "wikiSlug": "Shailendra_dynasty",
-   "type": "dynasty"
-  }
- ],
- "2": [
-  {
-   "term": "Jayavarman II",
-   "matchText": "Jayavarman II",
-   "wikiSlug": "Jayavarman_II",
-   "type": "person"
-  },
-  {
-   "term": "Phnom Kulen",
-   "matchText": "Phnom Kulen",
-   "wikiSlug": "Phnom_Kulen",
-   "type": "place"
-  },
-  {
-   "term": "Devaraja",
-   "matchText": "devaraja",
-   "wikiSlug": "Devaraja",
-   "type": "concept"
-  },
-  {
-   "term": "Chakravartin",
-   "matchText": "chakravartin",
-   "wikiSlug": "Chakravartin",
-   "type": "concept"
-  },
-  {
-   "term": "Sdok Kok Thom inscription",
-   "matchText": "Sdok Kok Thom inscription",
-   "wikiSlug": "Sdok_Kok_Thom_Inscription",
-   "type": "writing"
-  },
-  {
-   "term": "Lingam",
-   "matchText": "linga",
-   "wikiSlug": "Lingam",
-   "type": "concept"
-  },
-  {
-   "term": "Harihara",
-   "matchText": "Harihara",
-   "wikiSlug": "Harihara",
-   "type": "deity"
-  },
-  {
-   "term": "Hariharalaya",
-   "matchText": "Hariharalaya",
-   "wikiSlug": "Hariharalaya",
-   "type": "place"
-  },
-  {
-   "term": "Indravarman I",
-   "matchText": "Indravarman I",
-   "wikiSlug": "Indravarman_I",
-   "type": "person"
-  },
-  {
-   "term": "Baray",
-   "matchText": "baray",
-   "wikiSlug": "Baray",
-   "type": "concept"
-  },
-  {
-   "term": "Bakong",
-   "matchText": "Bakong",
-   "wikiSlug": "Bakong",
-   "type": "place"
-  },
-  {
-   "term": "Pharaoh",
-   "matchText": "pharaohs",
-   "wikiSlug": "Pharaoh",
-   "type": "concept"
-  },
-  {
-   "term": "Maya rulers",
-   "matchText": "k'uhul ajaw",
-   "wikiSlug": "Maya_rulers",
-   "type": "concept"
-  },
-  {
-   "term": "Sacred king",
-   "matchText": "divine kingship",
-   "wikiSlug": "Sacred_king",
-   "type": "concept"
-  }
- ],
- "3": [
-  {
-   "term": "Yasovarman I",
-   "matchText": "Yasovarman I",
-   "wikiSlug": "Yasovarman_I",
-   "type": "person"
-  },
-  {
-   "term": "Yasodharapura",
-   "matchText": "Yasodharapura",
-   "wikiSlug": "Yasodharapura",
-   "type": "place"
-  },
-  {
-   "term": "Angkor",
-   "matchText": "Angkor",
-   "wikiSlug": "Angkor",
-   "type": "place"
-  },
-  {
-   "term": "Phnom Bakheng",
-   "matchText": "Phnom Bakheng",
-   "wikiSlug": "Phnom_Bakheng",
-   "type": "place"
-  },
-  {
-   "term": "Mount Meru",
-   "matchText": "Mount Meru",
-   "wikiSlug": "Mount_Meru",
-   "type": "concept"
-  },
-  {
-   "term": "East Baray",
-   "matchText": "East Baray",
-   "wikiSlug": "East_Baray",
-   "type": "place"
-  },
-  {
-   "term": "West Baray",
-   "matchText": "West Baray",
-   "wikiSlug": "West_Baray",
-   "type": "place"
-  },
-  {
-   "term": "Koh Ker",
-   "matchText": "Koh Ker",
-   "wikiSlug": "Koh_Ker",
-   "type": "place"
-  },
-  {
-   "term": "Banteay Srei",
-   "matchText": "Banteay Srei",
-   "wikiSlug": "Banteay_Srei",
-   "type": "place"
-  },
-  {
-   "term": "André Malraux",
-   "matchText": "André Malraux",
-   "wikiSlug": "André_Malraux",
-   "type": "person"
-  },
-  {
-   "term": "East Mebon",
-   "matchText": "East Mebon",
-   "wikiSlug": "East_Mebon",
-   "type": "place"
-  },
-  {
-   "term": "Bernard-Philippe Groslier",
-   "matchText": "Bernard-Philippe Groslier",
-   "wikiSlug": "Bernard-Philippe_Groslier",
-   "type": "person"
-  },
-  {
-   "term": "Primogeniture",
-   "matchText": "primogeniture",
-   "wikiSlug": "Primogeniture",
-   "type": "concept"
-  }
- ],
- "4": [
-  {
-   "term": "Suryavarman I",
-   "matchText": "Suryavarman I",
-   "wikiSlug": "Suryavarman_I",
-   "type": "person"
-  },
-  {
-   "term": "Lavo Kingdom",
-   "matchText": "Lavo",
-   "wikiSlug": "Lavo_Kingdom",
-   "type": "place"
-  },
-  {
-   "term": "Lopburi",
-   "matchText": "Lopburi",
-   "wikiSlug": "Lopburi",
-   "type": "place"
-  },
-  {
-   "term": "Song dynasty",
-   "matchText": "Song dynasty",
-   "wikiSlug": "Song_dynasty",
-   "type": "dynasty"
-  },
-  {
-   "term": "Imperial examination",
-   "matchText": "written examination",
-   "wikiSlug": "Imperial_examination",
-   "type": "concept"
-  },
-  {
-   "term": "Udayadityavarman II",
-   "matchText": "Udayadityavarman II",
-   "wikiSlug": "Udayadityavarman_II",
-   "type": "person"
-  },
-  {
-   "term": "Baphuon",
-   "matchText": "Baphuon",
-   "wikiSlug": "Baphuon",
-   "type": "place"
-  },
-  {
-   "term": "Preah Vihear Temple",
-   "matchText": "Preah Vihear",
-   "wikiSlug": "Preah_Vihear_Temple",
-   "type": "place"
-  },
-  {
-   "term": "Dângrêk Mountains",
-   "matchText": "Dangrek",
-   "wikiSlug": "Dângrêk_Mountains",
-   "type": "place"
-  }
- ],
- "5": [
-  {
-   "term": "Suryavarman II",
-   "matchText": "Suryavarman II",
-   "wikiSlug": "Suryavarman_II",
-   "type": "person"
-  },
-  {
-   "term": "Garuda",
-   "matchText": "Garuda",
-   "wikiSlug": "Garuda",
-   "type": "deity"
-  },
-  {
-   "term": "Angkor Wat",
-   "matchText": "Angkor Wat",
-   "wikiSlug": "Angkor_Wat",
-   "type": "place"
-  },
-  {
-   "term": "Champa",
-   "matchText": "Champa",
-   "wikiSlug": "Champa",
-   "type": "place"
-  },
-  {
-   "term": "Đại Việt",
-   "matchText": "Dai Viet",
-   "wikiSlug": "Đại_Việt",
-   "type": "place"
-  },
-  {
-   "term": "Song dynasty",
-   "matchText": "Song",
-   "wikiSlug": "Song_dynasty",
-   "type": "dynasty"
-  },
-  {
-   "term": "Vishnu",
-   "matchText": "Vishnu",
-   "wikiSlug": "Vishnu",
-   "type": "deity"
-  },
-  {
-   "term": "Mount Meru",
-   "matchText": "Mount Meru",
-   "wikiSlug": "Mount_Meru",
-   "type": "concept"
-  },
-  {
-   "term": "Samudra manthana",
-   "matchText": "Churning of the Sea of Milk",
-   "wikiSlug": "Samudra_manthana",
-   "type": "concept"
-  },
-  {
-   "term": "Mahabharata",
-   "matchText": "Mahabharata",
-   "wikiSlug": "Mahabharata",
-   "type": "writing"
-  },
-  {
-   "term": "Bas-relief",
-   "matchText": "bas-relief",
-   "wikiSlug": "Relief",
-   "type": "concept"
-  },
-  {
-   "term": "Gothic cathedral",
-   "matchText": "Gothic cathedrals",
-   "wikiSlug": "Gothic_architecture",
-   "type": "concept"
-  },
-  {
-   "term": "Hagia Sophia",
-   "matchText": "Hagia Sophia",
-   "wikiSlug": "Hagia_Sophia",
-   "type": "place"
-  }
- ],
- "6": [
-  {
-   "term": "Champa",
-   "matchText": "Champa",
-   "wikiSlug": "Champa",
-   "type": "place"
-  },
-  {
-   "term": "Chams",
-   "matchText": "Cham",
-   "wikiSlug": "Chams",
-   "type": "people"
-  },
-  {
-   "term": "Austronesian languages",
-   "matchText": "Austronesian",
-   "wikiSlug": "Austronesian_languages",
-   "type": "language"
-  },
-  {
-   "term": "Cham–Khmer War",
-   "matchText": "sack",
-   "wikiSlug": "Cham–Khmer_War",
-   "type": "event"
-  },
-  {
-   "term": "Tonlé Sap",
-   "matchText": "Tonlé Sap",
-   "wikiSlug": "Tonl%C3%A9_Sap",
-   "type": "place"
-  },
-  {
-   "term": "Jayavarman VII",
-   "matchText": "Jayavarman VII",
-   "wikiSlug": "Jayavarman_VII",
-   "type": "person"
-  },
-  {
-   "term": "Bayon",
-   "matchText": "Bayon",
-   "wikiSlug": "Bayon",
-   "type": "place"
-  },
-  {
-   "term": "Yasodharapura",
-   "matchText": "Yasodharapura",
-   "wikiSlug": "Yasodharapura",
-   "type": "place"
-  }
- ],
- "7": [
-  {
-   "term": "Jayavarman VII",
-   "matchText": "Jayavarman VII",
-   "wikiSlug": "Jayavarman_VII",
-   "type": "person"
-  },
-  {
-   "term": "Mahayana",
-   "matchText": "Mahayana",
-   "wikiSlug": "Mahayana",
-   "type": "religion"
-  },
-  {
-   "term": "Bodhisattva",
-   "matchText": "bodhisattva",
-   "wikiSlug": "Bodhisattva",
-   "type": "concept"
-  },
-  {
-   "term": "Theravada",
-   "matchText": "Theravada",
-   "wikiSlug": "Theravada",
-   "type": "religion"
-  },
-  {
-   "term": "Angkor Thom",
-   "matchText": "Angkor Thom",
-   "wikiSlug": "Angkor_Thom",
-   "type": "place"
-  },
-  {
-   "term": "Bayon",
-   "matchText": "Bayon",
-   "wikiSlug": "Bayon",
-   "type": "place"
-  },
-  {
-   "term": "Avalokiteśvara",
-   "matchText": "Avalokiteshvara",
-   "wikiSlug": "Avalokiteśvara",
-   "type": "deity"
-  },
-  {
-   "term": "Ta Prohm",
-   "matchText": "Ta Prohm",
-   "wikiSlug": "Ta_Prohm",
-   "type": "place"
-  },
-  {
-   "term": "Preah Khan",
-   "matchText": "Preah Khan",
-   "wikiSlug": "Preah_Khan",
-   "type": "place"
-  },
-  {
-   "term": "Neak Pean",
-   "matchText": "Neak Pean",
-   "wikiSlug": "Neak_Pean",
-   "type": "place"
-  },
-  {
-   "term": "Corvée",
-   "matchText": "corvée",
-   "wikiSlug": "Corvée",
-   "type": "concept"
-  },
-  {
-   "term": "Champa",
-   "matchText": "Champa",
-   "wikiSlug": "Champa",
-   "type": "place"
-  }
- ],
- "8": [
-  {
-   "term": "Jayavarman VIII",
-   "matchText": "Jayavarman VIII",
-   "wikiSlug": "Jayavarman_VIII",
-   "type": "person"
-  },
-  {
-   "term": "Iconoclasm",
-   "matchText": "iconoclasm",
-   "wikiSlug": "Iconoclasm",
-   "type": "concept"
-  },
-  {
-   "term": "Theravada",
-   "matchText": "Theravada Buddhism",
-   "wikiSlug": "Theravada",
-   "type": "religion"
-  },
-  {
-   "term": "Zhou Daguan",
-   "matchText": "Zhou Daguan",
-   "wikiSlug": "Zhou_Daguan",
-   "type": "person"
-  },
-  {
-   "term": "Yuan dynasty",
-   "matchText": "Yuan",
-   "wikiSlug": "Yuan_dynasty",
-   "type": "dynasty"
-  },
-  {
-   "term": "Kublai Khan",
-   "matchText": "Kublai Khan",
-   "wikiSlug": "Kublai_Khan",
-   "type": "person"
-  },
-  {
-   "term": "Marco Polo",
-   "matchText": "Marco Polo",
-   "wikiSlug": "Marco_Polo",
-   "type": "person"
-  },
-  {
-   "term": "Ibn Battuta",
-   "matchText": "Ibn Battuta",
-   "wikiSlug": "Ibn_Battuta",
-   "type": "person"
-  },
-  {
-   "term": "Slavery",
-   "matchText": "slaves",
-   "wikiSlug": "Slavery",
-   "type": "concept"
-  },
-  {
-   "term": "Tonlé Sap",
-   "matchText": "Tonlé Sap",
-   "wikiSlug": "Tonl%C3%A9_Sap",
-   "type": "place"
-  },
-  {
-   "term": "Pali",
-   "matchText": "Pali",
-   "wikiSlug": "Pali",
-   "type": "language"
-  },
-  {
-   "term": "Sanskrit",
-   "matchText": "Sanskrit",
-   "wikiSlug": "Sanskrit",
-   "type": "language"
-  }
- ],
- "9": [
-  {
-   "term": "Tai peoples",
-   "matchText": "Tai",
-   "wikiSlug": "Tai_peoples",
-   "type": "people"
-  },
-  {
-   "term": "Sukhothai Kingdom",
-   "matchText": "Sukhothai",
-   "wikiSlug": "Sukhothai_Kingdom",
-   "type": "place"
-  },
-  {
-   "term": "Ayutthaya Kingdom",
-   "matchText": "Ayutthaya",
-   "wikiSlug": "Ayutthaya_Kingdom",
-   "type": "place"
-  },
-  {
-   "term": "Chao Phraya River",
-   "matchText": "Chao Phraya",
-   "wikiSlug": "Chao_Phraya_River",
-   "type": "place"
-  },
-  {
-   "term": "Phnom Penh",
-   "matchText": "Phnom Penh",
-   "wikiSlug": "Phnom_Penh",
-   "type": "place"
-  },
-  {
-   "term": "Longvek",
-   "matchText": "Lovek",
-   "wikiSlug": "Longvek",
-   "type": "place"
-  },
-  {
-   "term": "Theravada",
-   "matchText": "Theravada",
-   "wikiSlug": "Theravada",
-   "type": "religion"
-  },
-  {
-   "term": "Ang Chan I",
-   "matchText": "Ang Chan",
-   "wikiSlug": "Ang_Chan_I",
-   "type": "person"
-  }
- ],
- "10": [
-  {
-   "term": "Bernard-Philippe Groslier",
-   "matchText": "Bernard-Philippe Groslier",
-   "wikiSlug": "Bernard-Philippe_Groslier",
-   "type": "person"
-  },
-  {
-   "term": "Dendrochronology",
-   "matchText": "tree-ring",
-   "wikiSlug": "Dendrochronology",
-   "type": "concept"
-  },
-  {
-   "term": "Societal collapse",
-   "matchText": "collapse",
-   "wikiSlug": "Societal_collapse",
-   "type": "concept"
-  },
-  {
-   "term": "Henri Mouhot",
-   "matchText": "Henri Mouhot",
-   "wikiSlug": "Henri_Mouhot",
-   "type": "person"
-  },
-  {
-   "term": "Diogo do Couto",
-   "matchText": "Diogo do Couto",
-   "wikiSlug": "Diogo_do_Couto",
-   "type": "person"
-  },
-  {
-   "term": "École française d'Extrême-Orient",
-   "matchText": "École française d'Extrême-Orient",
-   "wikiSlug": "École_française_d'Extrême-Orient",
-   "type": "concept"
-  },
-  {
-   "term": "Anastylosis",
-   "matchText": "anastylosis",
-   "wikiSlug": "Anastylosis",
-   "type": "concept"
-  },
-  {
-   "term": "André Malraux",
-   "matchText": "André Malraux",
-   "wikiSlug": "André_Malraux",
-   "type": "person"
-  },
-  {
-   "term": "Khmer Rouge",
-   "matchText": "Khmer Rouge",
-   "wikiSlug": "Khmer_Rouge",
-   "type": "concept"
-  },
-  {
-   "term": "Flag of Cambodia",
-   "matchText": "Cambodian flag",
-   "wikiSlug": "Flag_of_Cambodia",
-   "type": "concept"
-  },
-  {
-   "term": "World Heritage Site",
-   "matchText": "UNESCO World Heritage Site",
-   "wikiSlug": "World_Heritage_Site",
-   "type": "concept"
-  },
-  {
-   "term": "Lidar",
-   "matchText": "LiDAR",
-   "wikiSlug": "Lidar",
-   "type": "concept"
-  },
-  {
-   "term": "Preah Vihear Temple",
-   "matchText": "Preah Vihear",
-   "wikiSlug": "Preah_Vihear_Temple",
-   "type": "place"
-  }
- ]
+  "1": [
+    {
+      "term": "Mekong",
+      "matchText": "Mekong",
+      "wikiSlug": "Mekong",
+      "type": "place"
+    },
+    {
+      "term": "Tonlé Sap",
+      "matchText": "Tonlé Sap",
+      "wikiSlug": "Tonl%C3%A9_Sap",
+      "type": "place"
+    },
+    {
+      "term": "Monsoon",
+      "matchText": "monsoon",
+      "wikiSlug": "Monsoon",
+      "type": "concept"
+    },
+    {
+      "term": "Mon–Khmer languages",
+      "matchText": "Mon-Khmer",
+      "wikiSlug": "Austroasiatic_languages",
+      "type": "language"
+    },
+    {
+      "term": "Austroasiatic",
+      "matchText": "Austroasiatic",
+      "wikiSlug": "Austroasiatic_languages",
+      "type": "language"
+    },
+    {
+      "term": "Austronesian peoples",
+      "matchText": "Austronesian",
+      "wikiSlug": "Austronesian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Funan",
+      "matchText": "Funan",
+      "wikiSlug": "Funan",
+      "type": "place"
+    },
+    {
+      "term": "Oc Eo",
+      "matchText": "Oc Eo",
+      "wikiSlug": "Oc_Eo",
+      "type": "place"
+    },
+    {
+      "term": "Han dynasty",
+      "matchText": "Han Chinese",
+      "wikiSlug": "Han_dynasty",
+      "type": "dynasty"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "language"
+    },
+    {
+      "term": "Shiva",
+      "matchText": "Shiva",
+      "wikiSlug": "Shiva",
+      "type": "deity"
+    },
+    {
+      "term": "Vishnu",
+      "matchText": "Vishnu",
+      "wikiSlug": "Vishnu",
+      "type": "deity"
+    },
+    {
+      "term": "Hinduism",
+      "matchText": "Hindu",
+      "wikiSlug": "Hinduism",
+      "type": "religion"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "religion"
+    },
+    {
+      "term": "Indianisation",
+      "matchText": "Indianization",
+      "wikiSlug": "Indianisation",
+      "type": "concept"
+    },
+    {
+      "term": "Naga",
+      "matchText": "naga",
+      "wikiSlug": "Nāga",
+      "type": "concept"
+    },
+    {
+      "term": "Chenla",
+      "matchText": "Chenla",
+      "wikiSlug": "Chenla",
+      "type": "place"
+    },
+    {
+      "term": "Khmer language",
+      "matchText": "Khmer language",
+      "wikiSlug": "Khmer_language",
+      "type": "language"
+    },
+    {
+      "term": "Sambor Prei Kuk",
+      "matchText": "Sambor Prei Kuk",
+      "wikiSlug": "Sambor_Prei_Kuk",
+      "type": "place"
+    },
+    {
+      "term": "Shailendra dynasty",
+      "matchText": "Sailendra",
+      "wikiSlug": "Shailendra_dynasty",
+      "type": "dynasty"
+    }
+  ],
+  "2": [
+    {
+      "term": "Jayavarman II",
+      "matchText": "Jayavarman II",
+      "wikiSlug": "Jayavarman_II",
+      "type": "person"
+    },
+    {
+      "term": "Phnom Kulen",
+      "matchText": "Phnom Kulen",
+      "wikiSlug": "Phnom_Kulen",
+      "type": "place"
+    },
+    {
+      "term": "Devaraja",
+      "matchText": "devaraja",
+      "wikiSlug": "Devaraja",
+      "type": "concept"
+    },
+    {
+      "term": "Chakravartin",
+      "matchText": "chakravartin",
+      "wikiSlug": "Chakravartin",
+      "type": "concept"
+    },
+    {
+      "term": "Sdok Kok Thom inscription",
+      "matchText": "Sdok Kok Thom inscription",
+      "wikiSlug": "Sdok_Kok_Thom_Inscription",
+      "type": "writing"
+    },
+    {
+      "term": "Lingam",
+      "matchText": "linga",
+      "wikiSlug": "Lingam",
+      "type": "concept"
+    },
+    {
+      "term": "Harihara",
+      "matchText": "Harihara",
+      "wikiSlug": "Harihara",
+      "type": "deity"
+    },
+    {
+      "term": "Hariharalaya",
+      "matchText": "Hariharalaya",
+      "wikiSlug": "Hariharalaya",
+      "type": "place"
+    },
+    {
+      "term": "Indravarman I",
+      "matchText": "Indravarman I",
+      "wikiSlug": "Indravarman_I",
+      "type": "person"
+    },
+    {
+      "term": "Baray",
+      "matchText": "baray",
+      "wikiSlug": "Baray",
+      "type": "concept"
+    },
+    {
+      "term": "Bakong",
+      "matchText": "Bakong",
+      "wikiSlug": "Bakong",
+      "type": "place"
+    },
+    {
+      "term": "Pharaoh",
+      "matchText": "pharaohs",
+      "wikiSlug": "Pharaoh",
+      "type": "concept"
+    },
+    {
+      "term": "Maya rulers",
+      "matchText": "k'uhul ajaw",
+      "wikiSlug": "Maya_rulers",
+      "type": "concept"
+    },
+    {
+      "term": "Sacred king",
+      "matchText": "divine kingship",
+      "wikiSlug": "Sacred_king",
+      "type": "concept"
+    }
+  ],
+  "3": [
+    {
+      "term": "Yasovarman I",
+      "matchText": "Yasovarman I",
+      "wikiSlug": "Yasovarman_I",
+      "type": "person"
+    },
+    {
+      "term": "Yasodharapura",
+      "matchText": "Yasodharapura",
+      "wikiSlug": "Yasodharapura",
+      "type": "place"
+    },
+    {
+      "term": "Angkor",
+      "matchText": "Angkor",
+      "wikiSlug": "Angkor",
+      "type": "place"
+    },
+    {
+      "term": "Phnom Bakheng",
+      "matchText": "Phnom Bakheng",
+      "wikiSlug": "Phnom_Bakheng",
+      "type": "place"
+    },
+    {
+      "term": "Mount Meru",
+      "matchText": "Mount Meru",
+      "wikiSlug": "Mount_Meru",
+      "type": "concept"
+    },
+    {
+      "term": "East Baray",
+      "matchText": "East Baray",
+      "wikiSlug": "East_Baray",
+      "type": "place"
+    },
+    {
+      "term": "West Baray",
+      "matchText": "West Baray",
+      "wikiSlug": "West_Baray",
+      "type": "place"
+    },
+    {
+      "term": "Koh Ker",
+      "matchText": "Koh Ker",
+      "wikiSlug": "Koh_Ker",
+      "type": "place"
+    },
+    {
+      "term": "Banteay Srei",
+      "matchText": "Banteay Srei",
+      "wikiSlug": "Banteay_Srei",
+      "type": "place"
+    },
+    {
+      "term": "André Malraux",
+      "matchText": "André Malraux",
+      "wikiSlug": "André_Malraux",
+      "type": "person"
+    },
+    {
+      "term": "East Mebon",
+      "matchText": "East Mebon",
+      "wikiSlug": "East_Mebon",
+      "type": "place"
+    },
+    {
+      "term": "Bernard-Philippe Groslier",
+      "matchText": "Bernard-Philippe Groslier",
+      "wikiSlug": "Bernard-Philippe_Groslier",
+      "type": "person"
+    },
+    {
+      "term": "Primogeniture",
+      "matchText": "primogeniture",
+      "wikiSlug": "Primogeniture",
+      "type": "concept"
+    }
+  ],
+  "4": [
+    {
+      "term": "Suryavarman I",
+      "matchText": "Suryavarman I",
+      "wikiSlug": "Suryavarman_I",
+      "type": "person"
+    },
+    {
+      "term": "Lavo Kingdom",
+      "matchText": "Lavo",
+      "wikiSlug": "Lavo_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Lopburi",
+      "matchText": "Lopburi",
+      "wikiSlug": "Lopburi",
+      "type": "place"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song dynasty",
+      "wikiSlug": "Song_dynasty",
+      "type": "dynasty"
+    },
+    {
+      "term": "Imperial examination",
+      "matchText": "written examination",
+      "wikiSlug": "Imperial_examination",
+      "type": "concept"
+    },
+    {
+      "term": "Udayadityavarman II",
+      "matchText": "Udayadityavarman II",
+      "wikiSlug": "Udayadityavarman_II",
+      "type": "person"
+    },
+    {
+      "term": "Baphuon",
+      "matchText": "Baphuon",
+      "wikiSlug": "Baphuon",
+      "type": "place"
+    },
+    {
+      "term": "Preah Vihear Temple",
+      "matchText": "Preah Vihear",
+      "wikiSlug": "Preah_Vihear_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Dângrêk Mountains",
+      "matchText": "Dangrek",
+      "wikiSlug": "Dângrêk_Mountains",
+      "type": "place"
+    }
+  ],
+  "5": [
+    {
+      "term": "Suryavarman II",
+      "matchText": "Suryavarman II",
+      "wikiSlug": "Suryavarman_II",
+      "type": "person"
+    },
+    {
+      "term": "Garuda",
+      "matchText": "Garuda",
+      "wikiSlug": "Garuda",
+      "type": "deity"
+    },
+    {
+      "term": "Angkor Wat",
+      "matchText": "Angkor Wat",
+      "wikiSlug": "Angkor_Wat",
+      "type": "place"
+    },
+    {
+      "term": "Champa",
+      "matchText": "Champa",
+      "wikiSlug": "Champa",
+      "type": "place"
+    },
+    {
+      "term": "Đại Việt",
+      "matchText": "Dai Viet",
+      "wikiSlug": "Đại_Việt",
+      "type": "place"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "dynasty"
+    },
+    {
+      "term": "Vishnu",
+      "matchText": "Vishnu",
+      "wikiSlug": "Vishnu",
+      "type": "deity"
+    },
+    {
+      "term": "Mount Meru",
+      "matchText": "Mount Meru",
+      "wikiSlug": "Mount_Meru",
+      "type": "concept"
+    },
+    {
+      "term": "Samudra manthana",
+      "matchText": "Churning of the Sea of Milk",
+      "wikiSlug": "Samudra_manthana",
+      "type": "concept"
+    },
+    {
+      "term": "Mahabharata",
+      "matchText": "Mahabharata",
+      "wikiSlug": "Mahabharata",
+      "type": "writing"
+    },
+    {
+      "term": "Bas-relief",
+      "matchText": "bas-relief",
+      "wikiSlug": "Relief",
+      "type": "concept"
+    },
+    {
+      "term": "Gothic cathedral",
+      "matchText": "Gothic cathedrals",
+      "wikiSlug": "Gothic_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "place"
+    },
+    {
+      "term": "Angkor Wat",
+      "matchText": "Angkor Wat",
+      "wikiSlug": "Angkor_Wat",
+      "type": "place"
+    }
+  ],
+  "6": [
+    {
+      "term": "Champa",
+      "matchText": "Champa",
+      "wikiSlug": "Champa",
+      "type": "place"
+    },
+    {
+      "term": "Chams",
+      "matchText": "Cham",
+      "wikiSlug": "Chams",
+      "type": "people"
+    },
+    {
+      "term": "Austronesian languages",
+      "matchText": "Austronesian",
+      "wikiSlug": "Austronesian_languages",
+      "type": "language"
+    },
+    {
+      "term": "Cham–Khmer War",
+      "matchText": "sack",
+      "wikiSlug": "Cham–Khmer_War",
+      "type": "event"
+    },
+    {
+      "term": "Tonlé Sap",
+      "matchText": "Tonlé Sap",
+      "wikiSlug": "Tonl%C3%A9_Sap",
+      "type": "place"
+    },
+    {
+      "term": "Jayavarman VII",
+      "matchText": "Jayavarman VII",
+      "wikiSlug": "Jayavarman_VII",
+      "type": "person"
+    },
+    {
+      "term": "Bayon",
+      "matchText": "Bayon",
+      "wikiSlug": "Bayon",
+      "type": "place"
+    },
+    {
+      "term": "Yasodharapura",
+      "matchText": "Yasodharapura",
+      "wikiSlug": "Yasodharapura",
+      "type": "place"
+    }
+  ],
+  "7": [
+    {
+      "term": "Jayavarman VII",
+      "matchText": "Jayavarman VII",
+      "wikiSlug": "Jayavarman_VII",
+      "type": "person"
+    },
+    {
+      "term": "Mahayana",
+      "matchText": "Mahayana",
+      "wikiSlug": "Mahayana",
+      "type": "religion"
+    },
+    {
+      "term": "Bodhisattva",
+      "matchText": "bodhisattva",
+      "wikiSlug": "Bodhisattva",
+      "type": "concept"
+    },
+    {
+      "term": "Theravada",
+      "matchText": "Theravada",
+      "wikiSlug": "Theravada",
+      "type": "religion"
+    },
+    {
+      "term": "Angkor Thom",
+      "matchText": "Angkor Thom",
+      "wikiSlug": "Angkor_Thom",
+      "type": "place"
+    },
+    {
+      "term": "Bayon",
+      "matchText": "Bayon",
+      "wikiSlug": "Bayon",
+      "type": "place"
+    },
+    {
+      "term": "Avalokiteśvara",
+      "matchText": "Avalokiteshvara",
+      "wikiSlug": "Avalokiteśvara",
+      "type": "deity"
+    },
+    {
+      "term": "Ta Prohm",
+      "matchText": "Ta Prohm",
+      "wikiSlug": "Ta_Prohm",
+      "type": "place"
+    },
+    {
+      "term": "Preah Khan",
+      "matchText": "Preah Khan",
+      "wikiSlug": "Preah_Khan",
+      "type": "place"
+    },
+    {
+      "term": "Neak Pean",
+      "matchText": "Neak Pean",
+      "wikiSlug": "Neak_Pean",
+      "type": "place"
+    },
+    {
+      "term": "Corvée",
+      "matchText": "corvée",
+      "wikiSlug": "Corvée",
+      "type": "concept"
+    },
+    {
+      "term": "Champa",
+      "matchText": "Champa",
+      "wikiSlug": "Champa",
+      "type": "place"
+    },
+    {
+      "term": "Devaraja",
+      "matchText": "devaraja",
+      "wikiSlug": "Devaraja",
+      "type": "concept"
+    },
+    {
+      "term": "Jayavarman VII",
+      "matchText": "Jayavarman VII",
+      "wikiSlug": "Jayavarman_VII",
+      "type": "people"
+    }
+  ],
+  "8": [
+    {
+      "term": "Jayavarman VIII",
+      "matchText": "Jayavarman VIII",
+      "wikiSlug": "Jayavarman_VIII",
+      "type": "person"
+    },
+    {
+      "term": "Iconoclasm",
+      "matchText": "iconoclasm",
+      "wikiSlug": "Iconoclasm",
+      "type": "concept"
+    },
+    {
+      "term": "Theravada",
+      "matchText": "Theravada Buddhism",
+      "wikiSlug": "Theravada",
+      "type": "religion"
+    },
+    {
+      "term": "Zhou Daguan",
+      "matchText": "Zhou Daguan",
+      "wikiSlug": "Zhou_Daguan",
+      "type": "person"
+    },
+    {
+      "term": "Yuan dynasty",
+      "matchText": "Yuan",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "dynasty"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "person"
+    },
+    {
+      "term": "Ibn Battuta",
+      "matchText": "Ibn Battuta",
+      "wikiSlug": "Ibn_Battuta",
+      "type": "person"
+    },
+    {
+      "term": "Slavery",
+      "matchText": "slaves",
+      "wikiSlug": "Slavery",
+      "type": "concept"
+    },
+    {
+      "term": "Tonlé Sap",
+      "matchText": "Tonlé Sap",
+      "wikiSlug": "Tonl%C3%A9_Sap",
+      "type": "place"
+    },
+    {
+      "term": "Pali",
+      "matchText": "Pali",
+      "wikiSlug": "Pali",
+      "type": "language"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "language"
+    }
+  ],
+  "9": [
+    {
+      "term": "Tai peoples",
+      "matchText": "Tai",
+      "wikiSlug": "Tai_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Sukhothai Kingdom",
+      "matchText": "Sukhothai",
+      "wikiSlug": "Sukhothai_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Ayutthaya Kingdom",
+      "matchText": "Ayutthaya",
+      "wikiSlug": "Ayutthaya_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Chao Phraya River",
+      "matchText": "Chao Phraya",
+      "wikiSlug": "Chao_Phraya_River",
+      "type": "place"
+    },
+    {
+      "term": "Phnom Penh",
+      "matchText": "Phnom Penh",
+      "wikiSlug": "Phnom_Penh",
+      "type": "place"
+    },
+    {
+      "term": "Longvek",
+      "matchText": "Lovek",
+      "wikiSlug": "Longvek",
+      "type": "place"
+    },
+    {
+      "term": "Theravada",
+      "matchText": "Theravada",
+      "wikiSlug": "Theravada",
+      "type": "religion"
+    },
+    {
+      "term": "Ang Chan I",
+      "matchText": "Ang Chan",
+      "wikiSlug": "Ang_Chan_I",
+      "type": "person"
+    }
+  ],
+  "10": [
+    {
+      "term": "Bernard-Philippe Groslier",
+      "matchText": "Bernard-Philippe Groslier",
+      "wikiSlug": "Bernard-Philippe_Groslier",
+      "type": "person"
+    },
+    {
+      "term": "Dendrochronology",
+      "matchText": "tree-ring",
+      "wikiSlug": "Dendrochronology",
+      "type": "concept"
+    },
+    {
+      "term": "Societal collapse",
+      "matchText": "collapse",
+      "wikiSlug": "Societal_collapse",
+      "type": "concept"
+    },
+    {
+      "term": "Henri Mouhot",
+      "matchText": "Henri Mouhot",
+      "wikiSlug": "Henri_Mouhot",
+      "type": "person"
+    },
+    {
+      "term": "Diogo do Couto",
+      "matchText": "Diogo do Couto",
+      "wikiSlug": "Diogo_do_Couto",
+      "type": "person"
+    },
+    {
+      "term": "École française d'Extrême-Orient",
+      "matchText": "École française d'Extrême-Orient",
+      "wikiSlug": "École_française_d'Extrême-Orient",
+      "type": "concept"
+    },
+    {
+      "term": "Anastylosis",
+      "matchText": "anastylosis",
+      "wikiSlug": "Anastylosis",
+      "type": "concept"
+    },
+    {
+      "term": "André Malraux",
+      "matchText": "André Malraux",
+      "wikiSlug": "André_Malraux",
+      "type": "person"
+    },
+    {
+      "term": "Khmer Rouge",
+      "matchText": "Khmer Rouge",
+      "wikiSlug": "Khmer_Rouge",
+      "type": "concept"
+    },
+    {
+      "term": "Flag of Cambodia",
+      "matchText": "Cambodian flag",
+      "wikiSlug": "Flag_of_Cambodia",
+      "type": "concept"
+    },
+    {
+      "term": "World Heritage Site",
+      "matchText": "UNESCO World Heritage Site",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
+    },
+    {
+      "term": "Lidar",
+      "matchText": "LiDAR",
+      "wikiSlug": "Lidar",
+      "type": "concept"
+    },
+    {
+      "term": "Preah Vihear Temple",
+      "matchText": "Preah Vihear",
+      "wikiSlug": "Preah_Vihear_Temple",
+      "type": "place"
+    }
+  ]
 }

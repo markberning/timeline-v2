@@ -114,7 +114,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | kievan-rus | 12 | **DONE** | 6cfc802 |
 | russian-empire | 20 | **DONE** | fda0f87 |
 | soviet-union | 20 | **DONE** Russian chain COMPLETE | 6a7b875 |
-| dai-viet | ~14 | **DONE** (cross-only; Viet diacritics block ASCII glossary) | +this |
+| dai-viet | ~14 | **DONE** (cross-only) | 9e45d67 |
+| khmer-empire | 10 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
