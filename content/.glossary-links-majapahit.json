@@ -1,230 +1,260 @@
 {
- "1": [
-  {
-   "term": "Java",
-   "matchText": "Java",
-   "wikiSlug": "Java",
-   "type": "place"
-  },
-  {
-   "term": "Monsoon",
-   "matchText": "two monsoons",
-   "wikiSlug": "Monsoon",
-   "type": "concept"
-  },
-  {
-   "term": "Srivijaya",
-   "matchText": "Srivijaya",
-   "wikiSlug": "Srivijaya",
-   "type": "place"
-  },
-  {
-   "term": "Sanskrit",
-   "matchText": "Sanskrit",
-   "wikiSlug": "Sanskrit",
-   "type": "concept"
-  },
-  {
-   "term": "Hinduism",
-   "matchText": "Hinduism",
-   "wikiSlug": "Hinduism",
-   "type": "concept"
-  },
-  {
-   "term": "Shiva",
-   "matchText": "Shiva",
-   "wikiSlug": "Shiva",
-   "type": "person"
-  },
-  {
-   "term": "Mahayana Buddhism",
-   "matchText": "Mahayana Buddhism",
-   "wikiSlug": "Mahayana",
-   "type": "concept"
-  },
-  {
-   "term": "Old Javanese",
-   "matchText": "Old Javanese",
-   "wikiSlug": "Old_Javanese",
-   "type": "concept"
-  },
-  {
-   "term": "Stupa",
-   "matchText": "stupas",
-   "wikiSlug": "Stupa",
-   "type": "concept"
-  },
-  {
-   "term": "Charlemagne",
-   "matchText": "Charlemagne",
-   "wikiSlug": "Charlemagne",
-   "type": "person"
-  },
-  {
-   "term": "Java Sea",
-   "matchText": "Java Sea",
-   "wikiSlug": "Java_Sea",
-   "type": "place"
-  }
- ],
- "2": [
-  {
-   "term": "Mongol Empire",
-   "matchText": "Mongol Empire",
-   "wikiSlug": "Mongol_Empire",
-   "type": "concept"
-  },
-  {
-   "term": "Genghis Khan",
-   "matchText": "Genghis Khan",
-   "wikiSlug": "Genghis_Khan",
-   "type": "person"
-  },
-  {
-   "term": "Kamikaze (typhoon)",
-   "matchText": "kamikaze",
-   "wikiSlug": "Kamikaze",
-   "type": "concept"
-  },
-  {
-   "term": "History of the Yuan",
-   "matchText": "official History of the Yuan",
-   "wikiSlug": "History_of_Yuan",
-   "type": "concept"
-  }
- ],
- "3": [
-  {
-   "term": "Mojokerto",
-   "matchText": "Mojokerto",
-   "wikiSlug": "Mojokerto_Regency",
-   "type": "place"
-  },
-  {
-   "term": "Regnal name",
-   "matchText": "regnal name",
-   "wikiSlug": "Regnal_name",
-   "type": "concept"
-  }
- ],
- "5": [
-  {
-   "term": "Bali",
-   "matchText": "Bali",
-   "wikiSlug": "Bali",
-   "type": "place"
-  },
-  {
-   "term": "Sunda Kingdom",
-   "matchText": "kingdom of West Java",
-   "wikiSlug": "Sunda_Kingdom",
-   "type": "place"
-  },
-  {
-   "term": "Singapore",
-   "matchText": "old Singapore",
-   "wikiSlug": "History_of_Singapore",
-   "type": "place"
-  }
- ],
- "6": [
-  {
-   "term": "The Buddha",
-   "matchText": "the Buddha",
-   "wikiSlug": "Gautama_Buddha",
-   "type": "person"
-  },
-  {
-   "term": "Mughal Empire",
-   "matchText": "Mughal",
-   "wikiSlug": "Mughal_Empire",
-   "type": "dynasty"
-  },
-  {
-   "term": "Thalassocracy",
-   "matchText": "thalassocracy",
-   "wikiSlug": "Thalassocracy",
-   "type": "concept"
-  }
- ],
- "7": [
-  {
-   "term": "Maluku Islands",
-   "matchText": "Maluku",
-   "wikiSlug": "Maluku_Islands",
-   "type": "place"
-  },
-  {
-   "term": "Borneo",
-   "matchText": "Borneo",
-   "wikiSlug": "Borneo",
-   "type": "place"
-  },
-  {
-   "term": "Sumatra",
-   "matchText": "Sumatra",
-   "wikiSlug": "Sumatra",
-   "type": "place"
-  },
-  {
-   "term": "Surabaya",
-   "matchText": "Surabaya",
-   "wikiSlug": "Surabaya",
-   "type": "place"
-  }
- ],
- "8": [
-  {
-   "term": "Apanage",
-   "matchText": "apanage",
-   "wikiSlug": "Appanage",
-   "type": "concept"
-  }
- ],
- "9": [
-  {
-   "term": "Ming dynasty",
-   "matchText": "Ming dynasty",
-   "wikiSlug": "Ming_dynasty",
-   "type": "dynasty"
-  },
-  {
-   "term": "Indian Ocean",
-   "matchText": "Indian Ocean",
-   "wikiSlug": "Indian_Ocean",
-   "type": "place"
-  },
-  {
-   "term": "Gujarat",
-   "matchText": "Gujarati",
-   "wikiSlug": "Gujarat",
-   "type": "place"
-  },
-  {
-   "term": "Sultanate",
-   "matchText": "sultanate",
-   "wikiSlug": "Sultanate",
-   "type": "concept"
-  }
- ],
- "10": [
-  {
-   "term": "Dutch East Indies",
-   "matchText": "Dutch East Indies",
-   "wikiSlug": "Dutch_East_Indies",
-   "type": "place"
-  },
-  {
-   "term": "Pancasila",
-   "matchText": "coat of arms",
-   "wikiSlug": "National_emblem_of_Indonesia",
-   "type": "concept"
-  },
-  {
-   "term": "Lombok",
-   "matchText": "Lombok",
-   "wikiSlug": "Lombok",
-   "type": "place"
-  }
- ]
+  "1": [
+    {
+      "term": "Java",
+      "matchText": "Java",
+      "wikiSlug": "Java",
+      "type": "place"
+    },
+    {
+      "term": "Monsoon",
+      "matchText": "two monsoons",
+      "wikiSlug": "Monsoon",
+      "type": "concept"
+    },
+    {
+      "term": "Srivijaya",
+      "matchText": "Srivijaya",
+      "wikiSlug": "Srivijaya",
+      "type": "place"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Hinduism",
+      "matchText": "Hinduism",
+      "wikiSlug": "Hinduism",
+      "type": "concept"
+    },
+    {
+      "term": "Shiva",
+      "matchText": "Shiva",
+      "wikiSlug": "Shiva",
+      "type": "person"
+    },
+    {
+      "term": "Mahayana Buddhism",
+      "matchText": "Mahayana Buddhism",
+      "wikiSlug": "Mahayana",
+      "type": "concept"
+    },
+    {
+      "term": "Old Javanese",
+      "matchText": "Old Javanese",
+      "wikiSlug": "Old_Javanese",
+      "type": "concept"
+    },
+    {
+      "term": "Stupa",
+      "matchText": "stupas",
+      "wikiSlug": "Stupa",
+      "type": "concept"
+    },
+    {
+      "term": "Charlemagne",
+      "matchText": "Charlemagne",
+      "wikiSlug": "Charlemagne",
+      "type": "person"
+    },
+    {
+      "term": "Java Sea",
+      "matchText": "Java Sea",
+      "wikiSlug": "Java_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Pararaton",
+      "matchText": "Pararaton",
+      "wikiSlug": "Pararaton",
+      "type": "concept"
+    }
+  ],
+  "2": [
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol Empire",
+      "wikiSlug": "Mongol_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Kamikaze (typhoon)",
+      "matchText": "kamikaze",
+      "wikiSlug": "Kamikaze",
+      "type": "concept"
+    },
+    {
+      "term": "History of the Yuan",
+      "matchText": "official History of the Yuan",
+      "wikiSlug": "History_of_Yuan",
+      "type": "concept"
+    }
+  ],
+  "3": [
+    {
+      "term": "Mojokerto",
+      "matchText": "Mojokerto",
+      "wikiSlug": "Mojokerto_Regency",
+      "type": "place"
+    },
+    {
+      "term": "Regnal name",
+      "matchText": "regnal name",
+      "wikiSlug": "Regnal_name",
+      "type": "concept"
+    }
+  ],
+  "5": [
+    {
+      "term": "Bali",
+      "matchText": "Bali",
+      "wikiSlug": "Bali",
+      "type": "place"
+    },
+    {
+      "term": "Sunda Kingdom",
+      "matchText": "kingdom of West Java",
+      "wikiSlug": "Sunda_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Singapore",
+      "matchText": "old Singapore",
+      "wikiSlug": "History_of_Singapore",
+      "type": "place"
+    },
+    {
+      "term": "Palapa oath",
+      "matchText": "Palapa Oath",
+      "wikiSlug": "Palapa_oath",
+      "type": "people"
+    }
+  ],
+  "6": [
+    {
+      "term": "The Buddha",
+      "matchText": "the Buddha",
+      "wikiSlug": "Gautama_Buddha",
+      "type": "person"
+    },
+    {
+      "term": "Mughal Empire",
+      "matchText": "Mughal",
+      "wikiSlug": "Mughal_Empire",
+      "type": "dynasty"
+    },
+    {
+      "term": "Thalassocracy",
+      "matchText": "thalassocracy",
+      "wikiSlug": "Thalassocracy",
+      "type": "concept"
+    },
+    {
+      "term": "Nagarakretagama",
+      "matchText": "Nagarakretagama",
+      "wikiSlug": "Nagarakretagama",
+      "type": "concept"
+    },
+    {
+      "term": "Hayam Wuruk",
+      "matchText": "Rajasanagara",
+      "wikiSlug": "Hayam_Wuruk",
+      "type": "people"
+    }
+  ],
+  "7": [
+    {
+      "term": "Maluku Islands",
+      "matchText": "Maluku",
+      "wikiSlug": "Maluku_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Borneo",
+      "matchText": "Borneo",
+      "wikiSlug": "Borneo",
+      "type": "place"
+    },
+    {
+      "term": "Sumatra",
+      "matchText": "Sumatra",
+      "wikiSlug": "Sumatra",
+      "type": "place"
+    },
+    {
+      "term": "Surabaya",
+      "matchText": "Surabaya",
+      "wikiSlug": "Surabaya",
+      "type": "place"
+    }
+  ],
+  "8": [
+    {
+      "term": "Apanage",
+      "matchText": "apanage",
+      "wikiSlug": "Appanage",
+      "type": "concept"
+    }
+  ],
+  "9": [
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming dynasty",
+      "wikiSlug": "Ming_dynasty",
+      "type": "dynasty"
+    },
+    {
+      "term": "Indian Ocean",
+      "matchText": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean",
+      "type": "place"
+    },
+    {
+      "term": "Gujarat",
+      "matchText": "Gujarati",
+      "wikiSlug": "Gujarat",
+      "type": "place"
+    },
+    {
+      "term": "Sultanate",
+      "matchText": "sultanate",
+      "wikiSlug": "Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Demak Sultanate",
+      "matchText": "Demak",
+      "wikiSlug": "Demak_Sultanate",
+      "type": "concept"
+    }
+  ],
+  "10": [
+    {
+      "term": "Dutch East Indies",
+      "matchText": "Dutch East Indies",
+      "wikiSlug": "Dutch_East_Indies",
+      "type": "place"
+    },
+    {
+      "term": "Pancasila",
+      "matchText": "coat of arms",
+      "wikiSlug": "National_emblem_of_Indonesia",
+      "type": "concept"
+    },
+    {
+      "term": "Lombok",
+      "matchText": "Lombok",
+      "wikiSlug": "Lombok",
+      "type": "place"
+    }
+  ]
 }
