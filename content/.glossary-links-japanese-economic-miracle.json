@@ -107,6 +107,12 @@
       "matchText": "State Shinto",
       "wikiSlug": "State_Shinto",
       "type": "concept"
+    },
+    {
+      "term": "Zaibatsu",
+      "matchText": "Mitsui",
+      "wikiSlug": "Zaibatsu",
+      "type": "concept"
     }
   ],
   "2": [
@@ -210,6 +216,12 @@
       "term": "Italian Christian Democrats",
       "matchText": "Italy's Christian Democrats",
       "wikiSlug": "Christian_Democracy_(Italy)",
+      "type": "concept"
+    },
+    {
+      "term": "Yoshida Doctrine",
+      "matchText": "Yoshida Doctrine",
+      "wikiSlug": "Yoshida_Doctrine",
       "type": "concept"
     }
   ],
@@ -345,6 +357,12 @@
       "matchText": "Singapore",
       "wikiSlug": "Singapore",
       "type": "place"
+    },
+    {
+      "term": "Keiretsu",
+      "matchText": "Fuyo",
+      "wikiSlug": "Keiretsu",
+      "type": "concept"
     }
   ],
   "4": [
@@ -746,6 +764,12 @@
       "term": "Japanese Red Army",
       "matchText": "Japanese Red Army",
       "wikiSlug": "Japanese_Red_Army",
+      "type": "concept"
+    },
+    {
+      "term": "Aum Shinrikyo",
+      "matchText": "Aum Shinrikyo Subway Attack",
+      "wikiSlug": "Aum_Shinrikyo",
       "type": "concept"
     }
   ],
