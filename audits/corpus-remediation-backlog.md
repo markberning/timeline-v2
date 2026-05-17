@@ -21,8 +21,9 @@ passes. Corrected:
 - **Tier E** — genuinely defer; low yield.
 
 Still **separate from the 17-civ build and the goryeo-korea trial.** Status
-legend: ☐ not started · ◐ in progress · ☑ done. **Item IDs (1–12) are stable**
-— other docs cross-reference them; tiers regroup, IDs don't move.
+legend: ☐ not started · ◐ in progress · ☑ done. **Item IDs are stable** (1–12
+original; 13–16 added 2026-05-17 — gaps found on review) — other docs
+cross-reference them; tiers regroup, IDs don't move.
 
 **Sequencing principle.** Within Tier B: cheap/deterministic text first
 (batched, moderate cost), then vision (highest cost — sample or prioritize,
@@ -44,9 +45,17 @@ reader exposure before spending money.**
 | 1 | Dead wikiSlugs corpus-wide | lint-links slug check (prebuild uses `--no-slugs`) | mali-empire alone had 1 (Ahmed_Baba 404) → likely dozens+ | ☐ |
 | 2 | Parser-dropped-link **classifier** (detection only) | pipeline-audit debt #1 | classifier un-built; raw `--contention` ≈2211 is un-triaged, not a worklist | ☐ |
 | 11 | Build/data audit (Track 3) | `memory/project_corpus_audit_plan` | parse/data-shape integrity corpus-wide | ☐ |
+| 13 | Image **liveness** (dead Commons thumbnails) | gap on review; `feedback_image_quality` | unknown; HTTP HEAD over enriched manifest | ☐ |
+| 14 | Map↔chapter **count** integrity | gap on review; medieval-europe / ancient-japan splits | per-civ map count vs chapter count | ☐ |
+| 15 | Superseded split-TL artifact sweep | CLAUDE.md (stale `reference-data/medieval-europe.json`, old `public/maps/ancient-japan/`) | deterministic disk diff vs live `NARRATIVE_FILES` | ☐ |
 
 These have zero marginal cost and surface real bugs. There is no reason to hold
-them behind the billable decision — do them first, independently.
+them behind the billable decision — do them first, independently. **#13–15 are
+distinct failure modes no gate covers**: #1 catches dead *slugs* and G10-vision
+catches image↔caption *coherence*, but neither checks whether the image URL
+actually *loads* (#13); #9 is the *billable* map-quality re-QA, not the *free*
+"every chapter has exactly one map, no orphans" check (#14); and nothing sweeps
+the split-TL leftovers CLAUDE.md flags by hand (#15).
 
 ## Tier B — Billable model passes (explicit go/no-go required)
 
@@ -55,6 +64,7 @@ them behind the billable decision — do them first, independently.
 | 3 | G10 event-popup coherence retro | **$ text** / $$$ vision | **HIGH** | ☐ |
 | 4 | G12 glossary coherence retro | $$ text-only | MED | ☐ |
 | 5 | G11 cross-link coherence retro (Part B) | $$ text-only | MED | ☐ |
+| 16 | Backward/reciprocal cross-link retro on the 100 | $$ text-only (pairs with #5) | MED | ☐ |
 | 7 | G3 link-coverage retro | curation (post-detect) | MED | ☐ |
 
 **#3 is mostly cheap — that is the headline, not a footnote.** G10 Stage-1
@@ -148,6 +158,48 @@ sanity corpus-wide. Free, deterministic; scope TBD but run it with Tier A.
 no coherence gate (currently only the 5-persona narrative audit touches it).
 Build `audit-summaries.mjs` as a **forward gate for the 17**; the 100-civ retro
 is then a downstream run. Dual value is why this is not LOW.
+
+**13. Image liveness (Tier A).** Distinct from #1 (slug 404s) and from
+G10-vision (image↔caption coherence): an enriched event can carry a Commons
+thumbnail URL that simply 404s, rendering as a broken-image icon no matter how
+good the caption is. Method: HTTP HEAD every image URL in the enriched manifest
+corpus-wide; every non-200 is a reader-facing break. Free, deterministic,
+batched. `feedback_image_quality` already flags Commons thumbnails as
+unreliable — liveness was never swept.
+
+**14. Map↔chapter count integrity (Tier A).** `ship-check` enforces 1:1
+map:chapter for *new* civs; the 100 predate it and the `medieval-europe` →
+early/high/late and `ancient-japan` → prehistoric/asuka-nara/heian splits can
+silently orphan or drop a map on renumber. Method: per-civ, count
+`public/maps/{tlId}/chapter-*.webp` vs parsed chapter count; flag any mismatch.
+Free — this is NOT #9 (#9 is the billable *quality* re-QA; this is the free
+*existence* check).
+
+**15. Superseded split-TL artifact sweep (Tier A).** CLAUDE.md tracks stale
+on-disk leftovers by hand (`reference-data/medieval-europe.json` "slated for
+deletion"; old `public/maps/ancient-japan/` "removed"). Method: deterministic
+diff of `reference-data/*.json`, `public/maps/*`, `narratives/*` against the
+live `NARRATIVE_FILES` / `navigator-tls.ts` set; anything orphaned is dead
+weight (and a search-index/offline-manifest risk). Free; pairs with #11.
+
+**16. Backward/reciprocal cross-link retro (Tier B).** Pipeline step 11 (the
+Persona-E backward pass — apply each cross-link into the *referenced* TL's
+`.cross-links-*.json`) is a gate for the 17; the 100 predate it. #5 only checks
+forward blurb-coherence (Part B); whether the 100's cross-links are reciprocal
+where they should be is unaudited. Text-only, run with #5 (shared traversal of
+the 3355 links).
+
+---
+
+## Scope boundary (not an item — recorded so it doesn't fall between docs)
+
+§3 of `audits/coverage-audit.md` (the stale "89/100 / Remaining (8)" drift) was
+fixed once but nothing *prevents that class recurring*: there is no recurring
+consistency check that `navigator-tls.ts` ↔ `CLAUDE.md` roadmap ↔
+`tl-chains.ts` stay in agreement. That is a **forward gate / pipeline concern,
+not corpus remediation** — it belongs in `audits/pipeline-audit.md`, not here.
+Logged only so the boundary is explicit and the regression-guard idea isn't
+lost in the gap between the two trackers.
 
 ---
 
