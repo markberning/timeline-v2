@@ -17,6 +17,18 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 5,
       "blurb": "The Hundred Schools of Thought -- Confucianism, Daoism, Mohism, Legalism and dozens more -- flourished during the Zhou era precisely because political fragmentation meant competing courts sponsored competing thinkers. Legalism, the philosophy that built Qin's war machine, emerged from the same intellectual ferment it would eventually try to destroy."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 5,
+      "blurb": "Qin's Legalist statecraft was forged in the Warring States crucible the late Zhou produced — the Hundred Schools debate over 'which philosophy actually works' settled by conquest."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Qin's centralized, anti-aristocratic, bureaucratic state is China's answer to the same problem Achaemenid Persia solved with satrapies — how to run a continent."
     }
   ],
   "2": [
@@ -25,6 +37,18 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 7,
       "blurb": "Xunzi, the Confucian philosopher who taught both Li Si and Han Feizi, broke with Mencius by arguing that human nature was innately selfish and required strong institutions to become moral. His two most brilliant students took his premises and built the state that tried to destroy Confucianism. The irony is foundational to the Qin story."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 7,
+      "blurb": "The First Emperor ended the Zhou world for good — abolishing the feudal order the Legalists and Confucians had argued over for centuries."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "Qin's unification is the Longshan warlord story's final act: from hundreds of polities to one empire, by force."
     }
   ],
   "3": [
@@ -39,6 +63,12 @@
       "targetTl": "mycenaean-civilization",
       "targetChapter": 8,
       "blurb": "The Roman Republic at the time of Qin's unification (221 BCE) had just consolidated control over the Italian peninsula. Rome would not become an empire for another two centuries. When it did, it used many of the same tools Qin had used -- roads, standardized law, provincial governors -- but never unified its subjects' writing systems. That difference helps explain why China reassembled after fragmentation and Europe did not."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 7,
+      "blurb": "One script, one law, one axle-width: Qin imposed by fiat the standardization the fragmented Zhou states never could."
     }
   ],
   "4": [
@@ -53,6 +83,12 @@
       "targetTl": "mycenaean-civilization",
       "targetChapter": 7,
       "blurb": "The Roman Empire's Hadrian's Wall and the Qin Great Wall served similar strategic purposes -- not as impassable barriers but as platforms for military operations, supply chains for frontier garrisons, and signaling networks. But the Romans built their frontier defenses over centuries; the Qin built theirs in roughly a decade."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "The Great Wall fused the rammed-earth defensive walls northern Chinese states had built since Longshan into a single imperial frontier."
     }
   ],
   "5": [
@@ -67,6 +103,12 @@
       "targetTl": "shang-dynasty",
       "targetChapter": 3,
       "blurb": "The Shang dynasty had buried actual human sacrifices with their kings -- hundreds of people killed and interred alongside the royal dead. The Qin substituted clay for flesh, which was a moral improvement, but the scale of the substitution (8,000 figures in full battle order) tells you what the First Emperor expected the afterlife to require."
+    },
+    {
+      "matchText": "Early Dynastic Egypt",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 3,
+      "blurb": "The Terracotta Army is a tomb-cult on the scale only a god-king commands — China's answer to the pyramid-builders' bid for immortality."
     }
   ],
   "6": [
@@ -81,6 +123,12 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 7,
       "blurb": "Ashurbanipal, the last great Assyrian king, combined sophisticated bureaucratic administration with a personal library of cuneiform texts on omens, exorcisms, and magical healing. Like the First Emperor, he married administrative rationalism with genuine religious conviction -- the combination was not unusual in ancient rulers, but the scale of resources both committed to it was."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 7,
+      "blurb": "Burning the books was Legalism's war on the Hundred Schools — the Zhou intellectual flowering deliberately torched to secure the new order."
     }
   ],
   "7": [
