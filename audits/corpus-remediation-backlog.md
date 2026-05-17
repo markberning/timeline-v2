@@ -122,7 +122,14 @@ reader exposure before spending money.**
   - ☑ `polynesian-voyagers` (20 dead): 17 retargeted to subject-verified
     articles, 3 dropped (Alaloa / Andrew Sharp the navigation-skeptic /
     Makaliʻi canoe — no Wikipedia article exists; narrative inline-defines
-    them). lint-links 0 ERROR. **Remaining still-dead corpus-wide: ~497.**
+    them). lint-links 0 ERROR.
+  - ☑ `teotihuacan` (16 dead): 11 retargeted (Sierra_de_las_Navajas→
+    Obsidian_use_in_Mesoamerica, Epiclassic→Mesoamerican_Epiclassic_Period,
+    etc.), 5 dropped (San Juan river / underworld / Cerro Gordo / Thin Orange /
+    Atetelco — only passing mentions exist; narrative inline-defines).
+    lint-links 0 ERROR. **Triage principle: link only to a specifically
+    on-subject article; DROP rather than dump a term on the giant main
+    article.** **Remaining still-dead corpus-wide: ~481.**
 
 **Next economical step:** decide #1 remediation approach (see options put to
 user); then #11 build/data audit or #13 image liveness (both free).
