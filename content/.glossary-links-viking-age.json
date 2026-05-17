@@ -817,12 +817,6 @@
       "type": "concept"
     },
     {
-      "term": "Khazar Khaganate",
-      "matchText": "Khazar Khaganate",
-      "wikiSlug": "Khazar_Khaganate",
-      "type": "concept"
-    },
-    {
       "term": "Harald Hardrada",
       "matchText": "Harald Hardrada",
       "wikiSlug": "Harald_Hardrada",
@@ -1192,6 +1186,12 @@
       "term": "Western Chalukya Empire",
       "matchText": "Western Chalukya",
       "wikiSlug": "Western_Chalukya_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Khazar Khaganate",
+      "matchText": "Khazar Khaganate",
+      "wikiSlug": "Khazar_Khaganate",
       "type": "concept"
     }
   ],

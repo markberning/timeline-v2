@@ -79,12 +79,6 @@
       "type": "people"
     },
     {
-      "term": "Tumen",
-      "matchText": "tumen",
-      "wikiSlug": "Tumen_(unit)",
-      "type": "concept"
-    },
-    {
       "term": "Kurultai",
       "matchText": "kurultai",
       "wikiSlug": "Kurultai",
@@ -101,12 +95,6 @@
       "matchText": "Göktürk Khaganate",
       "wikiSlug": "G%C3%B6kt%C3%BCrk_Khaganate",
       "type": "concept"
-    },
-    {
-      "term": "Onon River",
-      "matchText": "Onon River",
-      "wikiSlug": "Onon_River",
-      "type": "place"
     },
     {
       "term": "Altai Mountains",
@@ -277,6 +265,24 @@
       "matchText": "Jin dynasty",
       "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)",
       "type": "concept"
+    },
+    {
+      "term": "Tumen",
+      "matchText": "tumen",
+      "wikiSlug": "Tumen_(unit)",
+      "type": "concept"
+    },
+    {
+      "term": "Onon River",
+      "matchText": "Onon River",
+      "wikiSlug": "Onon_River",
+      "type": "place"
+    },
+    {
+      "term": "Mukhali",
+      "matchText": "Mukhali",
+      "wikiSlug": "Mukhali",
+      "type": "people"
     }
   ],
   "3": [
@@ -362,12 +368,6 @@
       "term": "Juvayni",
       "matchText": "Juvayni",
       "wikiSlug": "Ata-Malik_Juvayni",
-      "type": "people"
-    },
-    {
-      "term": "Mukhali",
-      "matchText": "Mukhali",
-      "wikiSlug": "Mukhali",
       "type": "people"
     },
     {
@@ -634,7 +634,7 @@
     },
     {
       "term": "Hülegü Khan",
-      "matchText": "Hülegü",
+      "matchText": "Hüleg",
       "wikiSlug": "Hulagu_Khan",
       "type": "people"
     },
@@ -737,12 +737,6 @@
       "type": "place"
     },
     {
-      "term": "Semu people",
-      "matchText": "Semu",
-      "wikiSlug": "Semu_people",
-      "type": "people"
-    },
-    {
       "term": "Marco Polo",
       "matchText": "Marco Polo",
       "wikiSlug": "Marco_Polo",
@@ -789,6 +783,12 @@
       "matchText": "William of Rubruck",
       "wikiSlug": "William_of_Rubruck",
       "type": "people"
+    },
+    {
+      "term": "Christopher Columbus",
+      "matchText": "Christopher Columbus",
+      "wikiSlug": "Christopher_Columbus",
+      "type": "people"
     }
   ],
   "7": [
@@ -830,7 +830,7 @@
     },
     {
       "term": "Öljaitü",
-      "matchText": "Öljaitü",
+      "matchText": "ljait",
       "wikiSlug": "Oljeitu",
       "type": "people"
     },
@@ -941,6 +941,18 @@
       "matchText": "Goryeo Korea",
       "wikiSlug": "Goryeo",
       "type": "concept"
+    },
+    {
+      "term": "Semu people",
+      "matchText": "Semu",
+      "wikiSlug": "Semu_people",
+      "type": "people"
+    },
+    {
+      "term": "Crimea",
+      "matchText": "Crimea",
+      "wikiSlug": "Crimea",
+      "type": "place"
     }
   ],
   "8": [
@@ -1017,12 +1029,6 @@
       "type": "concept"
     },
     {
-      "term": "Crimea",
-      "matchText": "Crimea",
-      "wikiSlug": "Crimea",
-      "type": "place"
-    },
-    {
       "term": "Hongwu Emperor",
       "matchText": "Hongwu Emperor",
       "wikiSlug": "Hongwu_Emperor",
@@ -1089,12 +1095,6 @@
       "matchText": "Qing",
       "wikiSlug": "Qing_dynasty",
       "type": "concept"
-    },
-    {
-      "term": "Christopher Columbus",
-      "matchText": "Christopher Columbus",
-      "wikiSlug": "Christopher_Columbus",
-      "type": "people"
     },
     {
       "term": "Gunpowder",

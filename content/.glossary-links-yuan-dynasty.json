@@ -38,7 +38,7 @@
     },
     {
       "term": "Hülegü",
-      "matchText": "Hülegü",
+      "matchText": "Hüleg",
       "wikiSlug": "Hulagu_Khan",
       "type": "people"
     },
@@ -148,7 +148,7 @@
     },
     {
       "term": "Önggüd",
-      "matchText": "Önggüd",
+      "matchText": "nggüd",
       "wikiSlug": "%C3%96ng%C3%BCt",
       "type": "people"
     },
@@ -222,7 +222,7 @@
     },
     {
       "term": "Tetsuhō",
-      "matchText": "tetsuhō",
+      "matchText": "tetsuh",
       "wikiSlug": "Mongol_invasions_of_Japan",
       "type": "concept"
     },
@@ -497,12 +497,6 @@
       "type": "place"
     },
     {
-      "term": "Hyperinflation",
-      "matchText": "hyperinflation",
-      "wikiSlug": "Hyperinflation",
-      "type": "concept"
-    },
-    {
       "term": "Genoa",
       "matchText": "Genoese",
       "wikiSlug": "Republic_of_Genoa",
@@ -577,9 +571,9 @@
       "type": "concept"
     },
     {
-      "term": "Paiza",
-      "matchText": "paiza",
-      "wikiSlug": "Paiza",
+      "term": "Hyperinflation",
+      "matchText": "hyperinflation",
+      "wikiSlug": "Hyperinflation",
       "type": "concept"
     }
   ],
@@ -652,7 +646,7 @@
     },
     {
       "term": "Da Ming Lü",
-      "matchText": "Da Ming Lü",
+      "matchText": "Da Ming L",
       "wikiSlug": "Great_Ming_Code",
       "type": "concept"
     },
@@ -678,6 +672,12 @@
       "term": "White Lotus",
       "matchText": "White Lotus Society",
       "wikiSlug": "White_Lotus",
+      "type": "concept"
+    },
+    {
+      "term": "Paiza",
+      "matchText": "paiza",
+      "wikiSlug": "Paiza",
       "type": "concept"
     }
   ]

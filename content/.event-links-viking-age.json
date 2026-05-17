@@ -1,370 +1,106 @@
 {
   "1": [
-    {
-      "eventId": "evt-norse-clinker-ships",
-      "matchText": "clinker-built"
-    },
-    {
-      "eventId": "evt-oseberg-ship-burial",
-      "matchText": "Oseberg ship"
-    },
-    {
-      "eventId": "evt-norse-longhouse",
-      "matchText": "longhouse"
-    },
-    {
-      "eventId": "evt-rune-stones",
-      "matchText": "Rök runestone"
-    },
-    {
-      "eventId": "evt-birka-trade",
-      "matchText": "Birka"
-    },
-    {
-      "eventId": "evt-lindisfarne-raid",
-      "matchText": "Lindisfarne"
-    },
-    {
-      "eventId": "evt-great-heathen-army",
-      "matchText": "Great Heathen Army"
-    },
-    {
-      "eventId": "evt-william-conqueror-normandy",
-      "matchText": "Battle of Hastings"
-    },
-    {
-      "eventId": "evt-hedeby-trade",
-      "matchText": "Hedeby"
-    },
-    {
-      "eventId": "evt-dublin-founded",
-      "matchText": "Dublin"
-    },
-    {
-      "eventId": "evt-settlement-iceland",
-      "matchText": "Iceland"
-    },
-    {
-      "eventId": "evt-norse-greenland",
-      "matchText": "Greenland"
-    },
-    {
-      "eventId": "evt-lanse-aux-meadows",
-      "matchText": "Newfoundland"
-    },
-    {
-      "eventId": "evt-ladby-ship-burial",
-      "matchText": "Ladby ship"
-    },
-    {
-      "eventId": "evt-dublin-slave-trade",
-      "matchText": "slave trade"
-    },
-    {
-      "eventId": "evt-volga-trade-route",
-      "matchText": "Volga"
-    },
-    {
-      "eventId": "evt-runestone-memorial-tradition",
-      "matchText": "runes"
-    },
-    {
-      "eventId": "evt-charlemagne-coastal-defense",
-      "matchText": "Charlemagne"
-    }
+    {"eventId":"evt-norse-clinker-ships","matchText":"clinker-built"},
+    {"eventId":"evt-oseberg-ship-burial","matchText":"Oseberg ship"},
+    {"eventId":"evt-norse-longhouse","matchText":"longhouse"},
+    {"eventId":"evt-birka-trade","matchText":"Birka"},
+    {"eventId":"evt-lindisfarne-raid","matchText":"Lindisfarne"},
+    {"eventId":"evt-great-heathen-army","matchText":"Great Heathen Army"},
+    {"eventId":"evt-william-conqueror-normandy","matchText":"Battle of Hastings"},
+    {"eventId":"evt-hedeby-trade","matchText":"Hedeby"},
+    {"eventId":"evt-dublin-founded","matchText":"Dublin"},
+    {"eventId":"evt-settlement-iceland","matchText":"Iceland"},
+    {"eventId":"evt-norse-greenland","matchText":"Greenland"},
+    {"eventId":"evt-lanse-aux-meadows","matchText":"Newfoundland"},
+    {"eventId":"evt-ladby-ship-burial","matchText":"Ladby ship"},
+    {"eventId":"evt-dublin-slave-trade","matchText":"slave trade"},
+    {"eventId":"evt-volga-trade-route","matchText":"Volga"},
+    {"eventId":"evt-runestone-memorial-tradition","matchText":"runes"},
+    {"eventId":"evt-charlemagne-coastal-defense","matchText":"Charlemagne"}
   ],
   "2": [
-    {
-      "eventId": "evt-lindisfarne-raid",
-      "matchText": "Raid on Lindisfarne"
-    },
-    {
-      "eventId": "evt-iona-raids",
-      "matchText": "Iona"
-    },
-    {
-      "eventId": "evt-iona-second-raid",
-      "matchText": "Second Sack of Iona"
-    },
-    {
-      "eventId": "evt-charlemagne-coastal-defense",
-      "matchText": "Charlemagne"
-    },
-    {
-      "eventId": "evt-dublin-founded",
-      "matchText": "Dublin"
-    },
-    {
-      "eventId": "evt-paris-siege-845",
-      "matchText": "sacked Paris on Easter Sunday"
-    },
-    {
-      "eventId": "evt-hamburg-sacked",
-      "matchText": "Hamburg"
-    },
-    {
-      "eventId": "evt-hastein-mediterranean",
-      "matchText": "Hastein"
-    },
-    {
-      "eventId": "evt-great-heathen-army",
-      "matchText": "mycel haethen here"
-    },
-    {
-      "eventId": "evt-hedeby-trade",
-      "matchText": "Hedeby"
-    },
-    {
-      "eventId": "evt-birka-trade",
-      "matchText": "Birka"
-    },
-    {
-      "eventId": "evt-oseberg-ship-burial",
-      "matchText": "Oseberg ship"
-    },
-    {
-      "eventId": "evt-great-heathen-army",
-      "matchText": "Great Heathen Army"
-    }
+    {"eventId":"evt-lindisfarne-raid","matchText":"Raid on Lindisfarne"},
+    {"eventId":"evt-iona-raids","matchText":"Iona"},
+    {"eventId":"evt-iona-second-raid","matchText":"Second Sack of Iona"},
+    {"eventId":"evt-charlemagne-coastal-defense","matchText":"Charlemagne"},
+    {"eventId":"evt-dublin-founded","matchText":"Dublin"},
+    {"eventId":"evt-paris-siege-845","matchText":"sacked Paris on Easter Sunday"},
+    {"eventId":"evt-hamburg-sacked","matchText":"Hamburg"},
+    {"eventId":"evt-hastein-mediterranean","matchText":"Hastein"},
+    {"eventId":"evt-great-heathen-army","matchText":"mycel haethen here"},
+    {"eventId":"evt-hedeby-trade","matchText":"Hedeby"},
+    {"eventId":"evt-birka-trade","matchText":"Birka"},
+    {"eventId":"evt-oseberg-ship-burial","matchText":"Oseberg ship"},
+    {"eventId":"evt-great-heathen-army","matchText":"Great Heathen Army"},
+    {"eventId":"evt-waterford-limerick-wexford","matchText":"Limerick"}
   ],
   "3": [
-    {
-      "eventId": "evt-battle-edington",
-      "matchText": "Battle of Edington"
-    },
-    {
-      "eventId": "evt-treaty-wedmore",
-      "matchText": "Treaty of Wedmore"
-    },
-    {
-      "eventId": "evt-danelaw-established",
-      "matchText": "Danelaw Established"
-    },
-    {
-      "eventId": "evt-hafrsfjord",
-      "matchText": "Battle of Hafrsfjord"
-    },
-    {
-      "eventId": "evt-settlement-iceland",
-      "matchText": "Landnam"
-    },
-    {
-      "eventId": "evt-ingolfr-arnarson",
-      "matchText": "Ingolfr Arnarson"
-    },
-    {
-      "eventId": "evt-althing-founded",
-      "matchText": "Althing"
-    },
-    {
-      "eventId": "evt-aud-the-deep-minded",
-      "matchText": "Aud the Deep-Minded"
-    },
-    {
-      "eventId": "evt-floki-vilgerdarson",
-      "matchText": "Floki Vilgerdarson"
-    },
-    {
-      "eventId": "evt-vinland",
-      "matchText": "Leif Erikson"
-    },
-    {
-      "eventId": "evt-lanse-aux-meadows",
-      "matchText": "L'Anse aux Meadows"
-    },
-    {
-      "eventId": "evt-norse-greenland",
-      "matchText": "Greenland"
-    },
-    {
-      "eventId": "evt-settlement-iceland",
-      "matchText": "Iceland"
-    },
-    {
-      "eventId": "evt-vinland",
-      "matchText": "Vinland"
-    },
-    {
-      "eventId": "evt-norse-sun-compass",
-      "matchText": "sun compass"
-    }
+    {"eventId":"evt-battle-edington","matchText":"Battle of Edington"},
+    {"eventId":"evt-treaty-wedmore","matchText":"Treaty of Wedmore"},
+    {"eventId":"evt-danelaw-established","matchText":"Danelaw Established"},
+    {"eventId":"evt-hafrsfjord","matchText":"Battle of Hafrsfjord"},
+    {"eventId":"evt-settlement-iceland","matchText":"Landnam"},
+    {"eventId":"evt-ingolfr-arnarson","matchText":"Ingolfr Arnarson"},
+    {"eventId":"evt-althing-founded","matchText":"Althing"},
+    {"eventId":"evt-aud-the-deep-minded","matchText":"Aud the Deep-Minded"},
+    {"eventId":"evt-floki-vilgerdarson","matchText":"Floki Vilgerdarson"},
+    {"eventId":"evt-vinland","matchText":"Leif Erikson"},
+    {"eventId":"evt-lanse-aux-meadows","matchText":"L'Anse aux Meadows"},
+    {"eventId":"evt-norse-greenland","matchText":"Greenland"},
+    {"eventId":"evt-settlement-iceland","matchText":"Iceland"},
+    {"eventId":"evt-vinland","matchText":"Vinland"},
+    {"eventId":"evt-norse-sun-compass","matchText":"sun compass"}
   ],
   "4": [
-    {
-      "eventId": "evt-rurik-novgorod",
-      "matchText": "Rurik Founds Novgorod"
-    },
-    {
-      "eventId": "evt-oleg-of-kiev",
-      "matchText": "Oleg Moves Capital to Kiev"
-    },
-    {
-      "eventId": "evt-volga-trade-route",
-      "matchText": "Volga route"
-    },
-    {
-      "eventId": "evt-rus-attack-constantinople",
-      "matchText": "Rus fleet of about 200 ships"
-    },
-    {
-      "eventId": "evt-igor-constantinople-raid",
-      "matchText": "Igor of Kiev"
-    },
-    {
-      "eventId": "evt-olga-of-kiev",
-      "matchText": "Olga"
-    },
-    {
-      "eventId": "evt-varangian-guard",
-      "matchText": "Varangian Guard"
-    },
-    {
-      "eventId": "evt-vladimir-converts-rus",
-      "matchText": "Vladimir"
-    }
+    {"eventId":"evt-rurik-novgorod","matchText":"Rurik Founds Novgorod"},
+    {"eventId":"evt-oleg-of-kiev","matchText":"Oleg Moves Capital to Kiev"},
+    {"eventId":"evt-volga-trade-route","matchText":"Volga route"},
+    {"eventId":"evt-rus-attack-constantinople","matchText":"Rus fleet of about 200 ships"},
+    {"eventId":"evt-igor-constantinople-raid","matchText":"Igor of Kiev"},
+    {"eventId":"evt-olga-of-kiev","matchText":"Olga"},
+    {"eventId":"evt-varangian-guard","matchText":"Varangian Guard"},
+    {"eventId":"evt-vladimir-converts-rus","matchText":"Vladimir"}
   ],
   "5": [
-    {
-      "eventId": "evt-norse-blot-sacrifice",
-      "matchText": "blot"
-    },
-    {
-      "eventId": "evt-disablot-midwinter",
-      "matchText": "Disablot Midwinter Festival"
-    },
-    {
-      "eventId": "evt-temple-at-uppsala",
-      "matchText": "Great Heathen Temple at Uppsala"
-    },
-    {
-      "eventId": "evt-conversion-denmark-bluetooth",
-      "matchText": "Harald Bluetooth"
-    },
-    {
-      "eventId": "evt-jelling-stones",
-      "matchText": "Jelling Stones"
-    },
-    {
-      "eventId": "evt-battle-svolder",
-      "matchText": "Battle of Svolder"
-    },
-    {
-      "eventId": "evt-olaf-ii-norway",
-      "matchText": "Olaf Haraldsson"
-    },
-    {
-      "eventId": "evt-stiklestad",
-      "matchText": "Battle of Stiklestad"
-    },
-    {
-      "eventId": "evt-thorgeir-lawspeaker",
-      "matchText": "Thorgeirr Ljosvetningagodi"
-    },
-    {
-      "eventId": "evt-harald-bluetooth",
-      "matchText": "Harald Bluetooth"
-    }
+    {"eventId":"evt-norse-blot-sacrifice","matchText":"blot"},
+    {"eventId":"evt-disablot-midwinter","matchText":"Disablot Midwinter Festival"},
+    {"eventId":"evt-temple-at-uppsala","matchText":"Great Heathen Temple at Uppsala"},
+    {"eventId":"evt-conversion-denmark-bluetooth","matchText":"Harald Bluetooth"},
+    {"eventId":"evt-jelling-stones","matchText":"Jelling Stones"},
+    {"eventId":"evt-battle-svolder","matchText":"Battle of Svolder"},
+    {"eventId":"evt-olaf-ii-norway","matchText":"Olaf Haraldsson"},
+    {"eventId":"evt-stiklestad","matchText":"Battle of Stiklestad"},
+    {"eventId":"evt-thorgeir-lawspeaker","matchText":"Thorgeirr Ljosvetningagodi"},
+    {"eventId":"evt-harald-bluetooth","matchText":"Harald Bluetooth"},
+    {"eventId":"evt-norse-mythology-eddas","matchText":"Poetic Edda"}
   ],
   "6": [
-    {
-      "eventId": "evt-younger-futhark",
-      "matchText": "Younger Futhark"
-    },
-    {
-      "eventId": "evt-rune-stones",
-      "matchText": "Rok runestone"
-    },
-    {
-      "eventId": "evt-runestone-memorial-tradition",
-      "matchText": "runestones"
-    },
-    {
-      "eventId": "evt-skaldic-poetry",
-      "matchText": "skaldic poetry"
-    },
-    {
-      "eventId": "evt-egil-skallagrimsson",
-      "matchText": "Egill Skallagrimsson"
-    },
-    {
-      "eventId": "evt-norse-mythology-eddas",
-      "matchText": "Poetic Edda"
-    }
+    {"eventId":"evt-younger-futhark","matchText":"Younger Futhark"},
+    {"eventId":"evt-rune-stones","matchText":"Rok runestone"},
+    {"eventId":"evt-runestone-memorial-tradition","matchText":"runestones"},
+    {"eventId":"evt-skaldic-poetry","matchText":"skaldic poetry"},
+    {"eventId":"evt-egil-skallagrimsson","matchText":"Egill Skallagrimsson"},
+    {"eventId":"evt-rune-stones","matchText":"Rök runestone"}
   ],
   "7": [
-    {
-      "eventId": "evt-hedeby-trade",
-      "matchText": "Hedeby Trading Center"
-    },
-    {
-      "eventId": "evt-dublin-founded",
-      "matchText": "Viking Dublin Founded"
-    },
-    {
-      "eventId": "evt-trelleborg-fortress",
-      "matchText": "Trelleborg"
-    },
-    {
-      "eventId": "evt-danegeld-ethelred",
-      "matchText": "Danegeld"
-    },
-    {
-      "eventId": "evt-battle-maldon",
-      "matchText": "Battle of Maldon"
-    },
-    {
-      "eventId": "evt-waterford-limerick-wexford",
-      "matchText": "Limerick"
-    },
-    {
-      "eventId": "evt-st-brice-massacre",
-      "matchText": "St. Brice's Day Massacre"
-    },
-    {
-      "eventId": "evt-sweyn-forkbeard-england",
-      "matchText": "Sweyn Forkbeard"
-    },
-    {
-      "eventId": "evt-cnut-great",
-      "matchText": "Cnut"
-    },
-    {
-      "eventId": "evt-trelleborg-fortress",
-      "matchText": "ring fortresses"
-    },
-    {
-      "eventId": "evt-harald-bluetooth",
-      "matchText": "Harald Bluetooth"
-    }
+    {"eventId":"evt-hedeby-trade","matchText":"Hedeby Trading Center"},
+    {"eventId":"evt-dublin-founded","matchText":"Viking Dublin Founded"},
+    {"eventId":"evt-trelleborg-fortress","matchText":"Trelleborg"},
+    {"eventId":"evt-danegeld-ethelred","matchText":"Danegeld"},
+    {"eventId":"evt-battle-maldon","matchText":"Battle of Maldon"},
+    {"eventId":"evt-st-brice-massacre","matchText":"St. Brice's Day Massacre"},
+    {"eventId":"evt-sweyn-forkbeard-england","matchText":"Sweyn Forkbeard"},
+    {"eventId":"evt-cnut-great","matchText":"Cnut"},
+    {"eventId":"evt-trelleborg-fortress","matchText":"ring fortresses"},
+    {"eventId":"evt-harald-bluetooth","matchText":"Harald Bluetooth"}
   ],
   "8": [
-    {
-      "eventId": "evt-rollo-normandy",
-      "matchText": "Rollo Granted Normandy"
-    },
-    {
-      "eventId": "evt-tostig-godwinson",
-      "matchText": "Tostig Godwinson"
-    },
-    {
-      "eventId": "evt-harald-hardrada",
-      "matchText": "Harald Hardrada"
-    },
-    {
-      "eventId": "evt-stamford-bridge",
-      "matchText": "Battle of Stamford Bridge"
-    },
-    {
-      "eventId": "evt-william-conqueror-normandy",
-      "matchText": "Battle of Hastings"
-    },
-    {
-      "eventId": "evt-stamford-bridge",
-      "matchText": "Stamford Bridge"
-    },
-    {
-      "eventId": "evt-harald-hardrada",
-      "matchText": "Hardrada"
-    }
+    {"eventId":"evt-rollo-normandy","matchText":"Rollo Granted Normandy"},
+    {"eventId":"evt-tostig-godwinson","matchText":"Tostig Godwinson"},
+    {"eventId":"evt-harald-hardrada","matchText":"Harald Hardrada"},
+    {"eventId":"evt-stamford-bridge","matchText":"Battle of Stamford Bridge"},
+    {"eventId":"evt-william-conqueror-normandy","matchText":"Battle of Hastings"},
+    {"eventId":"evt-stamford-bridge","matchText":"Stamford Bridge"},
+    {"eventId":"evt-harald-hardrada","matchText":"Hardrada"}
   ]
 }

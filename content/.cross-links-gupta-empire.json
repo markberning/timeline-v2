@@ -13,12 +13,6 @@
       "blurb": "The Post-Maurya Kingdoms narrative covers the five centuries between the Maurya collapse and the Gupta rise — the Indo-Greeks, Sakas, Kushans, and Satavahanas who filled the political vacuum. The Guptas would eventually absorb or outlast all of them. The 'long pause' that looks like a dark age from the Gupta story looks like a complex, creative period from inside."
     },
     {
-      "matchText": "Sasanian Empire in Iran",
-      "targetTl": "persian-empire",
-      "targetChapter": 9,
-      "blurb": "The Sasanian dynasty had just overthrown the Parthians in 224 CE when the Guptas were forming in Magadha. The two great Eurasian empires that would define the 4th and 5th centuries were rising simultaneously on opposite ends of the Iranian plateau, and they maintained vigorous commercial and intellectual exchange throughout the Gupta golden age."
-    },
-    {
       "matchText": "Three Kingdoms",
       "targetTl": "han-dynasty",
       "targetChapter": 8,
@@ -47,6 +41,12 @@
       "targetTl": "vedic-period",
       "targetChapter": 7,
       "blurb": "The Gupta 'classical' synthesis canonized a Brahmanical-Sanskrit order whose roots run straight back to the late Vedic world."
+    },
+    {
+      "matchText": "Nagarjuna",
+      "targetTl": "post-maurya-kingdoms",
+      "targetChapter": 5,
+      "blurb": "Nagarjuna's Madhyamaka philosophy — developed in the post-Maurya period — was the foundation on which Gupta-era Buddhist thinkers like Asanga and Vasubandhu built their Yogacara synthesis. The great Buddhist philosophical school of the Gupta age was in direct dialogue with Nagarjuna's logic, even as Yogacara reached conclusions Nagarjuna had not."
     }
   ],
   "2": [
@@ -61,12 +61,6 @@
       "targetTl": "maurya-empire",
       "targetChapter": 8,
       "blurb": "The Maurya collapse described in Chapter 8 is partly an administrative story: the empire's direct-control bureaucracy was crushingly expensive, and the treasury couldn't sustain it after Ashoka's death. Samudragupta's digvijaya system — tribute networks rather than annexed territory — was a conscious or unconscious solution to exactly this problem."
-    },
-    {
-      "matchText": "Roman Empire had been exhausting its silver supply",
-      "targetTl": "ancient-rome",
-      "targetChapter": 7,
-      "blurb": "The Roman Empire's centuries-long silver drain into India — documented by Pliny the Elder's complaint that 50 million sesterces per year went east for spices and luxury goods — was one of the economic pressures on the late Roman economy. From the Indian side, that same bullion flow was what made the Arabian Sea ports worth conquering and helped fund the Gupta golden age."
     },
     {
       "matchText": "Tang dynasty",
@@ -101,16 +95,16 @@
       "blurb": "The Sakas had ruled western India since roughly the 1st century BCE, surviving through the Kushan period and into the Gupta era as the Western Kshatrapas. Chandragupta II's war against them ended a dynasty that had outlasted both the Mauryas and the Kushans — over four centuries of continuous Saka presence in Gujarat and Malwa, finally absorbed."
     },
     {
-      "matchText": "Pliny the Elder",
-      "targetTl": "ancient-rome",
-      "targetChapter": 6,
-      "blurb": "Pliny the Elder's complaint that Rome was hemorrhaging silver to India — writing in the 1st century CE — documents the Indian Ocean trade that made the western ports so strategically valuable. The Roman bullion that flowed through Bharuch and the other Kshatrapa ports was the same revenue stream Chandragupta II seized when he conquered the Western Kshatrapas around 409 CE."
-    },
-    {
       "matchText": "Post-Maurya Kingdoms",
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 3,
       "blurb": "Chandragupta II's defeat of the Western Satraps finally cleared out the last steppe-derived powers the post-Maurya centuries had let entrench in the west."
+    },
+    {
+      "matchText": "Roman Empire had been exhausting its silver supply",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "The Roman Empire's centuries-long silver drain into India — documented by Pliny the Elder's complaint that 50 million sesterces per year went east for spices and luxury goods — was one of the economic pressures on the late Roman economy. From the Indian side, that same bullion flow was what made the Arabian Sea ports worth conquering and helped fund the Gupta golden age."
     }
   ],
   "4": [
@@ -149,6 +143,12 @@
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 1,
       "blurb": "The cosmopolitan, multi-script world of the post-Maurya centuries fed directly into the Gupta classical flowering."
+    },
+    {
+      "matchText": "Pliny the Elder",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Pliny the Elder's complaint that Rome was hemorrhaging silver to India — writing in the 1st century CE — documents the Indian Ocean trade that made the western ports so strategically valuable. The Roman bullion that flowed through Bharuch and the other Kshatrapa ports was the same revenue stream Chandragupta II seized when he conquered the Western Kshatrapas around 409 CE."
     }
   ],
   "5": [
@@ -187,26 +187,26 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "Aryabhata's astronomy circulated into the Sassanid Persian world, one node in a Eurasian exchange of mathematical ideas centuries before it reached Europe."
+    },
+    {
+      "matchText": "Sasanian Empire in Iran",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Sasanian dynasty had just overthrown the Parthians in 224 CE when the Guptas were forming in Magadha. The two great Eurasian empires that would define the 4th and 5th centuries were rising simultaneously on opposite ends of the Iranian plateau, and they maintained vigorous commercial and intellectual exchange throughout the Gupta golden age."
+    },
+    {
+      "matchText": "Sasanian Empire in Iran",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Sasanian Empire had been fighting the Hephthalites on its own eastern frontier since the 420s CE — the same threat the Guptas now faced from the other side. The Sasanian-Hephthalite conflicts and the Gupta-Hephthalite conflicts were two faces of the same Central Asian pressure on the settled civilizations of Eurasia's middle tier."
     }
   ],
   "6": [
-    {
-      "matchText": "missionary activity",
-      "targetTl": "maurya-empire",
-      "targetChapter": 6,
-      "blurb": "Ashoka's Buddhist missions to Sri Lanka, the Greek kingdoms, and Southeast Asia in the 3rd century BCE were the first wave of Indian cultural export. The Gupta-age Indianization of Southeast Asia — the second, more durable wave — built on the trading networks and Buddhist institutional presence that Ashoka's missions had established two centuries earlier."
-    },
     {
       "matchText": "White Horse Temple at Luoyang",
       "targetTl": "han-dynasty",
       "targetChapter": 6,
       "blurb": "The White Horse Temple at Luoyang — where Indian and Central Asian monks began translating Buddhist texts into Chinese under the Han emperor Ming — was the eastern terminus of the same Buddhist transmission network that Faxian was trying to correct. He traveled west to get original Sanskrit texts because the intermediary Central Asian translations used at Luoyang were of uncertain accuracy."
-    },
-    {
-      "matchText": "Nagarjuna",
-      "targetTl": "post-maurya-kingdoms",
-      "targetChapter": 5,
-      "blurb": "Nagarjuna's Madhyamaka philosophy — developed in the post-Maurya period — was the foundation on which Gupta-era Buddhist thinkers like Asanga and Vasubandhu built their Yogacara synthesis. The great Buddhist philosophical school of the Gupta age was in direct dialogue with Nagarjuna's logic, even as Yogacara reached conclusions Nagarjuna had not."
     },
     {
       "matchText": "Post-Maurya Kingdoms Ch 6",
@@ -227,12 +227,6 @@
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 4,
       "blurb": "The Hephthalites were following the same route into India that the Sakas and Kushans had used five centuries earlier — through the passes of the Hindu Kush into the upper Indus valley. Every Central Asian nomadic people that had pressed into India in the previous five centuries had eventually been absorbed into Indian culture. The Hephthalites followed the same arc, but not before first nearly destroying the Gupta state."
-    },
-    {
-      "matchText": "Sasanian Empire in Iran",
-      "targetTl": "persian-empire",
-      "targetChapter": 9,
-      "blurb": "The Sasanian Empire had been fighting the Hephthalites on its own eastern frontier since the 420s CE — the same threat the Guptas now faced from the other side. The Sasanian-Hephthalite conflicts and the Gupta-Hephthalite conflicts were two faces of the same Central Asian pressure on the settled civilizations of Eurasia's middle tier."
     },
     {
       "matchText": "Sudarshana Lake",
@@ -313,6 +307,12 @@
       "targetTl": "gokturk-khaganate",
       "targetChapter": 4,
       "blurb": "The Hephthalites who finished the Guptas were themselves soon crushed between the Sasanians and the rising Gokturk Khaganate — the steppe conveyor belt running on."
+    },
+    {
+      "matchText": "missionary activity",
+      "targetTl": "maurya-empire",
+      "targetChapter": 6,
+      "blurb": "Ashoka's Buddhist missions to Sri Lanka, the Greek kingdoms, and Southeast Asia in the 3rd century BCE were the first wave of Indian cultural export. The Gupta-age Indianization of Southeast Asia — the second, more durable wave — built on the trading networks and Buddhist institutional presence that Ashoka's missions had established two centuries earlier."
     }
   ]
 }

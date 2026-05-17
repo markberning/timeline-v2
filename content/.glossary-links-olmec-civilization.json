@@ -140,7 +140,7 @@
     },
     {
       "term": "El Manatí",
-      "matchText": "El Manatí",
+      "matchText": "El Manat",
       "wikiSlug": "El_Manatí",
       "type": "place"
     }
@@ -243,12 +243,6 @@
       "type": "place"
     },
     {
-      "term": "stingray spine",
-      "matchText": "stingray spines",
-      "wikiSlug": "Stingray",
-      "type": "concept"
-    },
-    {
       "term": "Mesoamerican archaeology",
       "matchText": "Mesoamerican archaeologists",
       "wikiSlug": "Mesoamerican_archaeology",
@@ -294,6 +288,18 @@
       "term": "basalt",
       "matchText": "basalt",
       "wikiSlug": "Basalt",
+      "type": "concept"
+    },
+    {
+      "term": "shamanic practice",
+      "matchText": "shamanic practice",
+      "wikiSlug": "Shamanism",
+      "type": "concept"
+    },
+    {
+      "term": "hectares",
+      "matchText": "hectares",
+      "wikiSlug": "Hectare",
       "type": "concept"
     }
   ],
@@ -505,12 +511,6 @@
       "type": "concept"
     },
     {
-      "term": "shamanic practice",
-      "matchText": "shamanic practice",
-      "wikiSlug": "Shamanism",
-      "type": "concept"
-    },
-    {
       "term": "oracle bones",
       "matchText": "oracle bones",
       "wikiSlug": "Oracle_bone",
@@ -550,6 +550,12 @@
       "term": "Maya art",
       "matchText": "Maya art",
       "wikiSlug": "Maya_art",
+      "type": "concept"
+    },
+    {
+      "term": "stingray spine",
+      "matchText": "stingray spines",
+      "wikiSlug": "Stingray",
       "type": "concept"
     }
   ],
@@ -812,12 +818,6 @@
       "term": "conical mound",
       "matchText": "conical mound",
       "wikiSlug": "Pyramid",
-      "type": "concept"
-    },
-    {
-      "term": "hectares",
-      "matchText": "hectares",
-      "wikiSlug": "Hectare",
       "type": "concept"
     }
   ],

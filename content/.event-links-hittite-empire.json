@@ -1,282 +1,84 @@
 {
   "1": [
-    {
-      "eventId": "evt-hatti-civilization",
-      "matchText": "Hattians"
-    },
-    {
-      "eventId": "evt-alacahoyuk-tombs",
-      "matchText": "sun disc standards"
-    },
-    {
-      "eventId": "evt-assyrian-trading-colonies",
-      "matchText": "network of trading colonies across Anatolia"
-    },
-    {
-      "eventId": "evt-hittite-cuneiform",
-      "matchText": "adapting Mesopotamian cuneiform to write their Indo-European language"
-    }
+    {"eventId":"evt-hatti-civilization","matchText":"Hattians"},
+    {"eventId":"evt-alacahoyuk-tombs","matchText":"sun disc standards"},
+    {"eventId":"evt-assyrian-trading-colonies","matchText":"network of trading colonies across Anatolia"},
+    {"eventId":"evt-hittite-cuneiform","matchText":"adapting Mesopotamian cuneiform to write their Indo-European language"}
   ],
   "2": [
-    {
-      "eventId": "evt-anitta-of-kussara",
-      "matchText": "Anitta"
-    },
-    {
-      "eventId": "evt-hattusili-i",
-      "matchText": "Hattusili I"
-    },
-    {
-      "eventId": "evt-hattusa-capital",
-      "matchText": "one of the largest fortified cities in the ancient Near East"
-    },
-    {
-      "eventId": "evt-lions-gate",
-      "matchText": "Lions Gate"
-    },
-    {
-      "eventId": "evt-conquest-aleppo",
-      "matchText": "capturing the wealthy city of Aleppo"
-    },
-    {
-      "eventId": "evt-mursili-i",
-      "matchText": "Mursili I"
-    },
-    {
-      "eventId": "evt-sack-of-babylon",
-      "matchText": "sack of Babylon by Mursili I ended the First Babylonian Dynasty"
-    },
-    {
-      "eventId": "evt-tawananna-institution",
-      "matchText": "Tawananna"
-    },
-    {
-      "eventId": "evt-telepinu-ruler",
-      "matchText": "Telipinu"
-    },
-    {
-      "eventId": "evt-telepinu-edict",
-      "matchText": "Edict of Telipinu"
-    },
-    {
-      "eventId": "evt-kaska-raids",
-      "matchText": "Kaska"
-    }
+    {"eventId":"evt-anitta-of-kussara","matchText":"Anitta"},
+    {"eventId":"evt-hattusili-i","matchText":"Hattusili I"},
+    {"eventId":"evt-hattusa-capital","matchText":"one of the largest fortified cities in the ancient Near East"},
+    {"eventId":"evt-lions-gate","matchText":"Lions Gate"},
+    {"eventId":"evt-conquest-aleppo","matchText":"capturing the wealthy city of Aleppo"},
+    {"eventId":"evt-mursili-i","matchText":"Mursili I"},
+    {"eventId":"evt-sack-of-babylon","matchText":"sack of Babylon by Mursili I ended the First Babylonian Dynasty"},
+    {"eventId":"evt-tawananna-institution","matchText":"Tawananna"},
+    {"eventId":"evt-telepinu-ruler","matchText":"Telipinu"},
+    {"eventId":"evt-telepinu-edict","matchText":"Edict of Telipinu"},
+    {"eventId":"evt-kaska-raids","matchText":"Kaska"}
   ],
   "3": [
-    {
-      "eventId": "evt-tudhaliya-i",
-      "matchText": "Tudhaliya I"
-    },
-    {
-      "eventId": "evt-kizzuwatna-treaty",
-      "matchText": "Kizzuwatna"
-    },
-    {
-      "eventId": "evt-suppiluliuma-i",
-      "matchText": "Suppiluliuma I"
-    },
-    {
-      "eventId": "evt-conquest-mitanni",
-      "matchText": "devastating campaign against Mitanni"
-    },
-    {
-      "eventId": "evt-arzawa-campaigns",
-      "matchText": "Arzawa"
-    },
-    {
-      "eventId": "evt-amarna-letters",
-      "matchText": "Amarna Letters"
-    },
-    {
-      "eventId": "evt-zannanza-affair",
-      "matchText": "Zannanza"
-    },
-    {
-      "eventId": "evt-plague-hatti",
-      "matchText": "Great Plague of Hatti"
-    },
-    {
-      "eventId": "evt-mursili-ii",
-      "matchText": "Mursili II"
-    },
-    {
-      "eventId": "evt-plague-prayers",
-      "matchText": "Plague Prayers"
-    },
-    {
-      "eventId": "evt-hittite-vassal-treaties",
-      "matchText": "vassal treaties with clear mutual obligations"
-    }
+    {"eventId":"evt-tudhaliya-i","matchText":"Tudhaliya I"},
+    {"eventId":"evt-kizzuwatna-treaty","matchText":"Kizzuwatna"},
+    {"eventId":"evt-suppiluliuma-i","matchText":"Suppiluliuma I"},
+    {"eventId":"evt-conquest-mitanni","matchText":"devastating campaign against Mitanni"},
+    {"eventId":"evt-arzawa-campaigns","matchText":"Arzawa"},
+    {"eventId":"evt-amarna-letters","matchText":"Amarna Letters"},
+    {"eventId":"evt-zannanza-affair","matchText":"Zannanza"},
+    {"eventId":"evt-plague-hatti","matchText":"Great Plague of Hatti"},
+    {"eventId":"evt-mursili-ii","matchText":"Mursili II"},
+    {"eventId":"evt-plague-prayers","matchText":"Plague Prayers"},
+    {"eventId":"evt-hittite-vassal-treaties","matchText":"vassal treaties with clear mutual obligations"}
   ],
   "4": [
-    {
-      "eventId": "evt-thousand-gods",
-      "matchText": "Thousand Gods of Hatti"
-    },
-    {
-      "eventId": "evt-storm-god-hatti",
-      "matchText": "Storm God of Hatti"
-    },
-    {
-      "eventId": "evt-hurrian-religion",
-      "matchText": "Hurrian influence on Hittite religion was transformative"
-    },
-    {
-      "eventId": "evt-kumarbi-cycle",
-      "matchText": "Song of Kumarbi"
-    },
-    {
-      "eventId": "evt-yazilikaya",
-      "matchText": "Yazilikaya"
-    },
-    {
-      "eventId": "evt-hittite-spring-festival",
-      "matchText": "AN.TAH.SUM"
-    },
-    {
-      "eventId": "evt-tawananna-institution",
-      "matchText": "Tawananna"
-    },
-    {
-      "eventId": "evt-tudhaliya-iv",
-      "matchText": "Tudhaliya IV"
-    }
+    {"eventId":"evt-thousand-gods","matchText":"Thousand Gods of Hatti"},
+    {"eventId":"evt-storm-god-hatti","matchText":"Storm God of Hatti"},
+    {"eventId":"evt-hurrian-religion","matchText":"Hurrian influence on Hittite religion was transformative"},
+    {"eventId":"evt-kumarbi-cycle","matchText":"Song of Kumarbi"},
+    {"eventId":"evt-yazilikaya","matchText":"Yazilikaya"},
+    {"eventId":"evt-hittite-spring-festival","matchText":"AN.TAH.SUM"},
+    {"eventId":"evt-tawananna-institution","matchText":"Tawananna"},
+    {"eventId":"evt-tudhaliya-iv","matchText":"Tudhaliya IV"}
   ],
   "5": [
-    {
-      "eventId": "evt-battle-kadesh",
-      "matchText": "largest chariot battle in ancient history"
-    },
-    {
-      "eventId": "evt-muwatalli-ii",
-      "matchText": "Muwatalli II"
-    },
-    {
-      "eventId": "evt-tarhuntassa-capital",
-      "matchText": "Tarhuntassa"
-    },
-    {
-      "eventId": "evt-hattusili-iii",
-      "matchText": "Hattusili III"
-    },
-    {
-      "eventId": "evt-hattusili-iii-apology",
-      "matchText": "Apology of Hattusili III"
-    },
-    {
-      "eventId": "evt-peace-treaty",
-      "matchText": "Egyptian-Hittite Peace Treaty"
-    },
-    {
-      "eventId": "evt-puduhepa",
-      "matchText": "Queen Puduhepa"
-    },
-    {
-      "eventId": "evt-royal-marriage-egypt",
-      "matchText": "royal marriage"
-    },
-    {
-      "eventId": "evt-hittite-chariot",
-      "matchText": "three-man chariot"
-    }
+    {"eventId":"evt-battle-kadesh","matchText":"largest chariot battle in ancient history"},
+    {"eventId":"evt-muwatalli-ii","matchText":"Muwatalli II"},
+    {"eventId":"evt-tarhuntassa-capital","matchText":"Tarhuntassa"},
+    {"eventId":"evt-hattusili-iii","matchText":"Hattusili III"},
+    {"eventId":"evt-hattusili-iii-apology","matchText":"Apology of Hattusili III"},
+    {"eventId":"evt-peace-treaty","matchText":"Egyptian-Hittite Peace Treaty"},
+    {"eventId":"evt-puduhepa","matchText":"Queen Puduhepa"},
+    {"eventId":"evt-royal-marriage-egypt","matchText":"royal marriage"}
   ],
   "6": [
-    {
-      "eventId": "evt-uluburun-shipwreck",
-      "matchText": "Uluburun shipwreck"
-    },
-    {
-      "eventId": "evt-ugarit-trade",
-      "matchText": "Ugarit"
-    },
-    {
-      "eventId": "evt-tin-trade",
-      "matchText": "tin trade that made bronze possible"
-    },
-    {
-      "eventId": "evt-kikkuli-horse",
-      "matchText": "Kikkuli"
-    },
-    {
-      "eventId": "evt-hittite-law-code",
-      "matchText": "Hittite laws"
-    },
-    {
-      "eventId": "evt-tudhaliya-iv-laws",
-      "matchText": "revised version of the law code"
-    },
-    {
-      "eventId": "evt-iron-smelting",
-      "matchText": "iron smelting"
-    },
-    {
-      "eventId": "evt-hittite-chariot",
-      "matchText": "three-man chariot"
-    }
+    {"eventId":"evt-uluburun-shipwreck","matchText":"Uluburun shipwreck"},
+    {"eventId":"evt-ugarit-trade","matchText":"Ugarit"},
+    {"eventId":"evt-kikkuli-horse","matchText":"Kikkuli"},
+    {"eventId":"evt-hittite-law-code","matchText":"Hittite laws"},
+    {"eventId":"evt-tudhaliya-iv-laws","matchText":"revised version of the law code"},
+    {"eventId":"evt-iron-smelting","matchText":"iron smelting"},
+    {"eventId":"evt-hittite-chariot","matchText":"three-man chariot"},
+    {"eventId":"evt-hittite-chariot","matchText":"three-man chariot"}
   ],
   "7": [
-    {
-      "eventId": "evt-sea-peoples-threat",
-      "matchText": "Sea Peoples"
-    },
-    {
-      "eventId": "evt-famine-letters",
-      "matchText": "desperate letters from the empire's final years"
-    },
-    {
-      "eventId": "evt-suppiluliuma-ii",
-      "matchText": "Suppiluliuma II"
-    },
-    {
-      "eventId": "evt-naval-battle-alashiya",
-      "matchText": "naval victory off the coast of Alashiya"
-    },
-    {
-      "eventId": "evt-fall-hattusa",
-      "matchText": "Hattusa burned"
-    },
-    {
-      "eventId": "evt-kurunta-bronze-tablet",
-      "matchText": "Kurunta"
-    },
-    {
-      "eventId": "evt-battle-nihriya",
-      "matchText": "increasingly aggressive Assyrians"
-    }
+    {"eventId":"evt-sea-peoples-threat","matchText":"Sea Peoples"},
+    {"eventId":"evt-famine-letters","matchText":"desperate letters from the empire's final years"},
+    {"eventId":"evt-suppiluliuma-ii","matchText":"Suppiluliuma II"},
+    {"eventId":"evt-naval-battle-alashiya","matchText":"naval victory off the coast of Alashiya"},
+    {"eventId":"evt-fall-hattusa","matchText":"Hattusa burned"},
+    {"eventId":"evt-kurunta-bronze-tablet","matchText":"Kurunta"},
+    {"eventId":"evt-battle-nihriya","matchText":"increasingly aggressive Assyrians"},
+    {"eventId":"evt-tin-trade","matchText":"tin trade that made bronze possible"}
   ],
   "8": [
-    {
-      "eventId": "evt-carchemish-state",
-      "matchText": "Carchemish"
-    },
-    {
-      "eventId": "evt-luwian-hieroglyphs",
-      "matchText": "Luwian hieroglyphic script"
-    },
-    {
-      "eventId": "evt-samal-zincirli",
-      "matchText": "Sam'al"
-    },
-    {
-      "eventId": "evt-tell-halaf-guzana",
-      "matchText": "Tell Halaf"
-    },
-    {
-      "eventId": "evt-tabal-kingdom",
-      "matchText": "Tabal"
-    },
-    {
-      "eventId": "evt-neo-hittite-sculpture",
-      "matchText": "monumental sculpture"
-    },
-    {
-      "eventId": "evt-assyrian-conquest-neo-hittite",
-      "matchText": "Carchemish fell in 717 BCE"
-    },
-    {
-      "eventId": "evt-royal-archive",
-      "matchText": "over 30,000 cuneiform tablets"
-    }
+    {"eventId":"evt-carchemish-state","matchText":"Carchemish"},
+    {"eventId":"evt-luwian-hieroglyphs","matchText":"Luwian hieroglyphic script"},
+    {"eventId":"evt-samal-zincirli","matchText":"Sam'al"},
+    {"eventId":"evt-tell-halaf-guzana","matchText":"Tell Halaf"},
+    {"eventId":"evt-tabal-kingdom","matchText":"Tabal"},
+    {"eventId":"evt-neo-hittite-sculpture","matchText":"monumental sculpture"},
+    {"eventId":"evt-assyrian-conquest-neo-hittite","matchText":"Carchemish fell in 717 BCE"},
+    {"eventId":"evt-royal-archive","matchText":"over 30,000 cuneiform tablets"}
   ]
 }

@@ -121,21 +121,8 @@
       "blurb": "Its model was the humanist letter-network the Italian Renaissance had pioneered, now scaled up and turned to natural knowledge."
     }
   ],
-  "20": [
-    {
-      "matchText": "Needham Question",
-      "targetTl": "tang-song-china",
-      "targetChapter": 6,
-      "blurb": "The Song dynasty is the civilization economic historians return to as the closest pre-modern analog to an industrial society, and its own chapter runs the debate — incomplete markets, missing institutions, Mongol disruption, scholar-gentry priorities — over why it did not spark an industrial revolution six centuries before Britain. That is the Needham Question, argued from the other side."
-    },
-    {
-      "matchText": "Tang-Song China",
-      "targetTl": "tang-song-china",
-      "targetChapter": 6,
-      "blurb": "The 'Why Europe?' question only sharpens against Song China: more advanced in 1100, it produced no Principia. The answer lies in institutions and competition, not raw cleverness."
-    }
-  ],
-  "12": [
+  "12": [],
+  "13": [
     {
       "matchText": "Industrial Revolution",
       "targetTl": "industrial-revolution",
@@ -149,6 +136,20 @@
       "targetTl": "enlightenment",
       "targetChapter": 4,
       "blurb": "What the revolution left out — and what it enabled — flows directly into the Enlightenment's project of applying the new method to society itself."
+    }
+  ],
+  "20": [
+    {
+      "matchText": "Needham Question",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The Song dynasty is the civilization economic historians return to as the closest pre-modern analog to an industrial society, and its own chapter runs the debate — incomplete markets, missing institutions, Mongol disruption, scholar-gentry priorities — over why it did not spark an industrial revolution six centuries before Britain. That is the Needham Question, argued from the other side."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The 'Why Europe?' question only sharpens against Song China: more advanced in 1100, it produced no Principia. The answer lies in institutions and competition, not raw cleverness."
     }
   ]
 }

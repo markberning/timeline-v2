@@ -53,6 +53,12 @@
       "targetTl": "andean-kingdoms",
       "targetChapter": 2,
       "blurb": "In the Andes the Chimú were raising their vast adobe capital at Chan Chan — an empire as unaware of the steppe as the steppe was of it."
+    },
+    {
+      "matchText": "direct contact with most of them simultaneously",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "The Goryeo kingdom of Korea was one of the closest states to the Mongol heartland and one of the first outside China to feel the empire's weight. Mongol invasions of the Korean peninsula began in 1231 and continued intermittently for three decades until Goryeo submitted as a vassal state in 1259 — the same year Möngke Khan died. For the rest of the Mongol period, Goryeo was directly integrated into the Yuan system: Goryeo kings married Mongol princesses, Korean soldiers and sailors crewed the invasion fleets sent against Japan, and Korean scholars had access to the largest library network in East Asia."
     }
   ],
   "2": [
@@ -139,6 +145,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 12,
       "blurb": "The Abbasid Caliphate that Hülegü destroyed in 1258 had been founded by a revolution against the Umayyad dynasty — a revolution whose base of support was in the Persian-speaking eastern provinces that felt marginalized by Arab-dominated Umayyad rule. The early Abbasid court was consciously Mesopotamian-Persian in its cultural orientation, drawing on Sassanid administrative models and building Baghdad as a deliberate echo of the great Persian round cities. The Mongols ended the civilization that had itself been built on the ruins of earlier Mesopotamian civilizations."
+    },
+    {
+      "matchText": "Copernican revolution three centuries later",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Nasir al-Din al-Tusi's Maragheh Observatory sat on the intellectual tradition that the Persian world had maintained through the Islamic golden age — the translation of Greek astronomical texts into Arabic, their elaboration by Islamic mathematicians, and the compilation of increasingly accurate observational tables. The Zij-i Ilkhani extended a tradition that ran from Ptolemy through the Abbasid House of Wisdom to Maragheh, and from Maragheh eventually to Copernicus. The Mongol destruction of Baghdad was partially compensated by the Mongol creation of Maragheh — the same patrons who burned one library built a better observatory."
     }
   ],
   "6": [
@@ -181,24 +193,6 @@
   ],
   "7": [
     {
-      "matchText": "Copernican revolution three centuries later",
-      "targetTl": "persian-empire",
-      "targetChapter": 9,
-      "blurb": "Nasir al-Din al-Tusi's Maragheh Observatory sat on the intellectual tradition that the Persian world had maintained through the Islamic golden age — the translation of Greek astronomical texts into Arabic, their elaboration by Islamic mathematicians, and the compilation of increasingly accurate observational tables. The Zij-i Ilkhani extended a tradition that ran from Ptolemy through the Abbasid House of Wisdom to Maragheh, and from Maragheh eventually to Copernicus. The Mongol destruction of Baghdad was partially compensated by the Mongol creation of Maragheh — the same patrons who burned one library built a better observatory."
-    },
-    {
-      "matchText": "Genoese trading colony of Caffa",
-      "targetTl": "ancient-rome",
-      "targetChapter": 8,
-      "blurb": "Caffa in Crimea — the Genoese trading colony that functioned as the western terminus of the Mongol Silk Road — was built on a site that had been a Greek colonial settlement since antiquity and a Roman provincial outpost for centuries. The Italian merchants who traded there in the thirteenth century were, in a sense, the distant successors of Roman commercial networks in the Black Sea. The Pax Mongolica reactivated a Eurasian commercial geography that the fall of Rome had disrupted, and it used Italian merchants — heirs to Roman commercial tradition — as its western operators."
-    },
-    {
-      "matchText": "Timurid empire",
-      "targetTl": "maurya-empire",
-      "targetChapter": 1,
-      "blurb": "Timur's conquests in the 1390s briefly extended into the Indian subcontinent — his 1398 sack of Delhi was one of the most devastating events in medieval Indian history, killing tens of thousands and destabilizing the Delhi Sultanate for a generation. The Timurid-Mongol tradition would return to India permanently when Babur, Timur's great-great-great-grandson, founded the Mughal Empire in 1526. The Indian subcontinent that the Maurya had first unified under a single empire would eventually be reunified again under rulers tracing their lineage to Genghis Khan."
-    },
-    {
       "matchText": "Chagatai legacy fed into the eventual Mughal Empire of India",
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 7,
@@ -215,12 +209,6 @@
       "targetTl": "medieval-india",
       "targetChapter": 8,
       "blurb": "The Delhi Sultanate the Ilkhanate was trading with had been founded in 1206 by Turkic generals from the Ghurid invasions that conclude the Medieval India narrative — the same Islamic eastward push that, three decades after the Mongol sack of Baghdad, was running the political show in northern India. Both states were post-conquest Turko-Persian sultanates governing settled Indian populations, and they spent the fourteenth century swapping refugees, scholars, and the occasional military emergency as the Mongols periodically threatened both."
-    },
-    {
-      "matchText": "direct contact with most of them simultaneously",
-      "targetTl": "ancient-korea",
-      "targetChapter": 8,
-      "blurb": "The Goryeo kingdom of Korea was one of the closest states to the Mongol heartland and one of the first outside China to feel the empire's weight. Mongol invasions of the Korean peninsula began in 1231 and continued intermittently for three decades until Goryeo submitted as a vassal state in 1259 — the same year Möngke Khan died. For the rest of the Mongol period, Goryeo was directly integrated into the Yuan system: Goryeo kings married Mongol princesses, Korean soldiers and sailors crewed the invasion fleets sent against Japan, and Korean scholars had access to the largest library network in East Asia."
     },
     {
       "matchText": "The Golden Horde governed Russia through what later Russian historians called the",
@@ -253,6 +241,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The Black Death killed perhaps a third of Europe's population between 1347 and 1351 — a demographic catastrophe on a scale that dwarfed the fall of Rome. It arrived in Europe through the Mongol-built commercial infrastructure: the Genoese colony at Caffa, the maritime routes that connected Crimea to Sicily and Genoa. The pandemic reshaped European labor markets, weakened serfdom, accelerated the dissolution of feudal structures, and contributed to the social upheavals that would produce the Renaissance. The Mongol trade network's most consequential export to Europe was not silk or paper. It was plague."
+    },
+    {
+      "matchText": "Genoese trading colony of Caffa",
+      "targetTl": "ancient-rome",
+      "targetChapter": 8,
+      "blurb": "Caffa in Crimea — the Genoese trading colony that functioned as the western terminus of the Mongol Silk Road — was built on a site that had been a Greek colonial settlement since antiquity and a Roman provincial outpost for centuries. The Italian merchants who traded there in the thirteenth century were, in a sense, the distant successors of Roman commercial networks in the Black Sea. The Pax Mongolica reactivated a Eurasian commercial geography that the fall of Rome had disrupted, and it used Italian merchants — heirs to Roman commercial tradition — as its western operators."
     }
   ],
   "9": [
@@ -303,6 +297,12 @@
       "targetTl": "aztec-empire",
       "targetChapter": 1,
       "blurb": "As the Mongol order frayed, the Aztecs were consolidating central Mexico — a new empire rising in the Americas exactly as the largest Old World empire dissolved."
+    },
+    {
+      "matchText": "Timurid empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Timur's conquests in the 1390s briefly extended into the Indian subcontinent — his 1398 sack of Delhi was one of the most devastating events in medieval Indian history, killing tens of thousands and destabilizing the Delhi Sultanate for a generation. The Timurid-Mongol tradition would return to India permanently when Babur, Timur's great-great-great-grandson, founded the Mughal Empire in 1526. The Indian subcontinent that the Maurya had first unified under a single empire would eventually be reunified again under rulers tracing their lineage to Genghis Khan."
     }
   ]
 }

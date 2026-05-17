@@ -119,6 +119,12 @@
       "matchText": "Proto-Germanic",
       "wikiSlug": "Proto-Germanic_language",
       "type": "concept"
+    },
+    {
+      "term": "Germanic languages",
+      "matchText": "Germanic languages",
+      "wikiSlug": "Germanic_languages",
+      "type": "concept"
     }
   ],
   "2": [
@@ -667,12 +673,6 @@
       "type": "place"
     },
     {
-      "term": "Foederati",
-      "matchText": "foederati",
-      "wikiSlug": "Foederati",
-      "type": "concept"
-    },
-    {
       "term": "Smallpox",
       "matchText": "probably smallpox",
       "wikiSlug": "Smallpox",
@@ -775,6 +775,24 @@
       "matchText": "soldier-emperors from the Balkans",
       "wikiSlug": "Illyrian_Emperors",
       "type": "people"
+    },
+    {
+      "term": "Anglo-Saxons",
+      "matchText": "Anglo-Saxon England",
+      "wikiSlug": "Anglo-Saxons",
+      "type": "people"
+    },
+    {
+      "term": "Charlemagne",
+      "matchText": "empire of Charlemagne",
+      "wikiSlug": "Charlemagne",
+      "type": "people"
+    },
+    {
+      "term": "France",
+      "matchText": "give France its name",
+      "wikiSlug": "France",
+      "type": "place"
     }
   ],
   "9": [
@@ -867,21 +885,21 @@
       "matchText": "Nydam boat",
       "wikiSlug": "Nydam_Boat",
       "type": "concept"
-    }
-  ],
-  "10": [
+    },
+    {
+      "term": "Foederati",
+      "matchText": "foederati",
+      "wikiSlug": "Foederati",
+      "type": "concept"
+    },
     {
       "term": "Migration Period",
       "matchText": "Migration Period",
       "wikiSlug": "Migration_Period",
       "type": "event"
-    },
-    {
-      "term": "Anglo-Saxons",
-      "matchText": "Anglo-Saxon England",
-      "wikiSlug": "Anglo-Saxons",
-      "type": "people"
-    },
+    }
+  ],
+  "10": [
     {
       "term": "Angles",
       "matchText": "Angles",
@@ -901,12 +919,6 @@
       "type": "concept"
     },
     {
-      "term": "Germanic languages",
-      "matchText": "Germanic languages",
-      "wikiSlug": "Germanic_languages",
-      "type": "concept"
-    },
-    {
       "term": "Viking Age",
       "matchText": "Vikings",
       "wikiSlug": "Viking_Age",
@@ -919,21 +931,9 @@
       "type": "concept"
     },
     {
-      "term": "Charlemagne",
-      "matchText": "empire of Charlemagne",
-      "wikiSlug": "Charlemagne",
-      "type": "people"
-    },
-    {
       "term": "Essex",
       "matchText": "Essex",
       "wikiSlug": "Essex",
-      "type": "place"
-    },
-    {
-      "term": "France",
-      "matchText": "give France its name",
-      "wikiSlug": "France",
       "type": "place"
     }
   ]

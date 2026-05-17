@@ -323,12 +323,6 @@
       "type": "concept"
     },
     {
-      "term": "Hamzanama",
-      "matchText": "Hamzanama",
-      "wikiSlug": "Hamzanama",
-      "type": "concept"
-    },
-    {
       "term": "Sikandra",
       "matchText": "Sikandra",
       "wikiSlug": "Akbar%27s_tomb",
@@ -461,6 +455,12 @@
       "matchText": "Mehr-un-Nissa",
       "wikiSlug": "Nur_Jahan",
       "type": "people"
+    },
+    {
+      "term": "Hamzanama",
+      "matchText": "Hamzanama",
+      "wikiSlug": "Hamzanama",
+      "type": "concept"
     }
   ],
   "5": [
@@ -659,12 +659,6 @@
       "type": "concept"
     },
     {
-      "term": "Guru Gobind Singh",
-      "matchText": "Guru Gobind Singh",
-      "wikiSlug": "Guru_Gobind_Singh",
-      "type": "people"
-    },
-    {
       "term": "Khuldabad",
       "matchText": "Khuldabad",
       "wikiSlug": "Khuldabad",
@@ -781,10 +775,10 @@
       "type": "people"
     },
     {
-      "term": "Doctrine of Lapse",
-      "matchText": "Doctrine of Lapse",
-      "wikiSlug": "Doctrine_of_lapse",
-      "type": "concept"
+      "term": "Guru Gobind Singh",
+      "matchText": "Guru Gobind Singh",
+      "wikiSlug": "Guru_Gobind_Singh",
+      "type": "people"
     }
   ],
   "8": [
@@ -888,12 +882,6 @@
       "term": "Sikh Empire",
       "matchText": "Sikh Empire",
       "wikiSlug": "Sikh_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Permanent Settlement",
-      "matchText": "Permanent Settlement",
-      "wikiSlug": "Permanent_Settlement",
       "type": "concept"
     },
     {
@@ -1005,6 +993,18 @@
       "matchText": "Khooni Darwaza",
       "wikiSlug": "Khooni_Darwaza",
       "type": "place"
+    },
+    {
+      "term": "Doctrine of Lapse",
+      "matchText": "Doctrine of Lapse",
+      "wikiSlug": "Doctrine_of_lapse",
+      "type": "concept"
+    },
+    {
+      "term": "Permanent Settlement",
+      "matchText": "Permanent Settlement",
+      "wikiSlug": "Permanent_Settlement",
+      "type": "concept"
     }
   ]
 }

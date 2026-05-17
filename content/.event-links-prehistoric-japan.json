@@ -1,238 +1,73 @@
 {
   "1": [
-    {
-      "eventId": "evt-pj-odai-yamamoto",
-      "matchText": "Odai Yamamoto"
-    },
-    {
-      "eventId": "evt-pj-incipient-jomon-pottery",
-      "matchText": "fired clay vessels"
-    },
-    {
-      "eventId": "evt-pj-pleistocene-holocene",
-      "matchText": "11,700 BCE"
-    },
-    {
-      "eventId": "evt-pj-jomon-genetics",
-      "matchText": "Jomon people"
-    },
-    {
-      "eventId": "evt-pj-shell-middens",
-      "matchText": "Omori Shell Mounds"
-    }
+    {"eventId":"evt-pj-odai-yamamoto","matchText":"Odai Yamamoto"},
+    {"eventId":"evt-pj-incipient-jomon-pottery","matchText":"fired clay vessels"},
+    {"eventId":"evt-pj-pleistocene-holocene","matchText":"11,700 BCE"},
+    {"eventId":"evt-pj-jomon-genetics","matchText":"Jomon people"},
+    {"eventId":"evt-pj-shell-middens","matchText":"Omori Shell Mounds"}
   ],
   "2": [
-    {
-      "eventId": "evt-pj-pit-dwellings",
-      "matchText": "tateana-jukyo"
-    },
-    {
-      "eventId": "evt-pj-sannai-maruyama",
-      "matchText": "Sannai-Maruyama"
-    },
-    {
-      "eventId": "evt-pj-obsidian-trade",
-      "matchText": "obsidian"
-    },
-    {
-      "eventId": "evt-pj-jomon-jade",
-      "matchText": "Itoigawa"
-    },
-    {
-      "eventId": "evt-pj-chestnut-management",
-      "matchText": "managing chestnut groves"
-    },
-    {
-      "eventId": "evt-pj-flame-pottery",
-      "matchText": "kaen-doki"
-    },
-    {
-      "eventId": "evt-pj-dogu-figurines",
-      "matchText": "dogu"
-    },
-    {
-      "eventId": "evt-pj-shakoki-dogu",
-      "matchText": "shakoki-dogu"
-    },
-    {
-      "eventId": "evt-pj-earliest-lacquerware",
-      "matchText": "Urushi"
-    },
-    {
-      "eventId": "evt-pj-jomon-dogs",
-      "matchText": "dog burials"
-    }
+    {"eventId":"evt-pj-pit-dwellings","matchText":"tateana-jukyo"},
+    {"eventId":"evt-pj-sannai-maruyama","matchText":"Sannai-Maruyama"},
+    {"eventId":"evt-pj-obsidian-trade","matchText":"obsidian"},
+    {"eventId":"evt-pj-jomon-jade","matchText":"Itoigawa"},
+    {"eventId":"evt-pj-chestnut-management","matchText":"managing chestnut groves"},
+    {"eventId":"evt-pj-flame-pottery","matchText":"kaen-doki"},
+    {"eventId":"evt-pj-dogu-figurines","matchText":"dogu"},
+    {"eventId":"evt-pj-shakoki-dogu","matchText":"shakoki-dogu"},
+    {"eventId":"evt-pj-earliest-lacquerware","matchText":"Urushi"},
+    {"eventId":"evt-pj-jomon-dogs","matchText":"dog burials"},
+    {"eventId":"evt-pj-late-jomon-cooling","matchText":"climatic cooling"}
   ],
   "3": [
-    {
-      "eventId": "evt-pj-late-jomon-cooling",
-      "matchText": "climatic cooling"
-    },
-    {
-      "eventId": "evt-pj-stone-circles",
-      "matchText": "stone circles"
-    },
-    {
-      "eventId": "evt-pj-final-jomon-ritual",
-      "matchText": "intensification of ritual"
-    },
-    {
-      "eventId": "evt-pj-shakoki-dogu",
-      "matchText": "shakoki-dogu"
-    }
+    {"eventId":"evt-pj-stone-circles","matchText":"stone circles"},
+    {"eventId":"evt-pj-final-jomon-ritual","matchText":"intensification of ritual"},
+    {"eventId":"evt-pj-shakoki-dogu","matchText":"shakoki-dogu"}
   ],
   "4": [
-    {
-      "eventId": "evt-pj-yayoi-rice",
-      "matchText": "wet-rice agriculture"
-    },
-    {
-      "eventId": "evt-pj-toraijin-migration",
-      "matchText": "toraijin"
-    },
-    {
-      "eventId": "evt-pj-itazuke-paddies",
-      "matchText": "Itazuke"
-    },
-    {
-      "eventId": "evt-pj-yayoi-pottery",
-      "matchText": "Yayoi pottery"
-    },
-    {
-      "eventId": "evt-pj-yayoi-bronze-iron",
-      "matchText": "bronze and iron tools"
-    },
-    {
-      "eventId": "evt-pj-dotaku-bells",
-      "matchText": "dotaku"
-    }
+    {"eventId":"evt-pj-yayoi-rice","matchText":"wet-rice agriculture"},
+    {"eventId":"evt-pj-toraijin-migration","matchText":"toraijin"},
+    {"eventId":"evt-pj-itazuke-paddies","matchText":"Itazuke"},
+    {"eventId":"evt-pj-yayoi-pottery","matchText":"Yayoi pottery"},
+    {"eventId":"evt-pj-yayoi-bronze-iron","matchText":"bronze and iron tools"},
+    {"eventId":"evt-pj-dotaku-bells","matchText":"dotaku"},
+    {"eventId":"evt-pj-yayoi-warfare","matchText":"evidence of violent death"}
   ],
   "5": [
-    {
-      "eventId": "evt-pj-wa-hundred-kingdoms",
-      "matchText": "over a hundred small kingdoms"
-    },
-    {
-      "eventId": "evt-pj-yoshinogari",
-      "matchText": "Yoshinogari"
-    },
-    {
-      "eventId": "evt-pj-yayoi-warfare",
-      "matchText": "evidence of violent death"
-    },
-    {
-      "eventId": "evt-pj-han-mirrors",
-      "matchText": "Chinese bronze mirrors"
-    },
-    {
-      "eventId": "evt-pj-na-gold-seal",
-      "matchText": "Gold Seal of the King of Na"
-    }
+    {"eventId":"evt-pj-wa-hundred-kingdoms","matchText":"over a hundred small kingdoms"},
+    {"eventId":"evt-pj-yoshinogari","matchText":"Yoshinogari"},
+    {"eventId":"evt-pj-han-mirrors","matchText":"Chinese bronze mirrors"},
+    {"eventId":"evt-pj-na-gold-seal","matchText":"Gold Seal of the King of Na"},
+    {"eventId":"evt-pj-wani-writing","matchText":"Chinese characters"}
   ],
   "6": [
-    {
-      "eventId": "evt-pj-himiko",
-      "matchText": "Himiko"
-    },
-    {
-      "eventId": "evt-pj-wei-zhi",
-      "matchText": "Wei Zhi"
-    },
-    {
-      "eventId": "evt-pj-iyo-queen",
-      "matchText": "Iyo"
-    },
-    {
-      "eventId": "evt-pj-himiko-tomb",
-      "matchText": "Hashihaka Kofun"
-    }
+    {"eventId":"evt-pj-himiko","matchText":"Himiko"},
+    {"eventId":"evt-pj-wei-zhi","matchText":"Wei Zhi"},
+    {"eventId":"evt-pj-iyo-queen","matchText":"Iyo"},
+    {"eventId":"evt-pj-himiko-tomb","matchText":"Hashihaka Kofun"},
+    {"eventId":"evt-pj-kofun-tombs","matchText":"keyhole-shaped burial mounds"}
   ],
   "7": [
-    {
-      "eventId": "evt-pj-kofun-tombs",
-      "matchText": "keyhole-shaped burial mounds"
-    },
-    {
-      "eventId": "evt-pj-daisen-kofun",
-      "matchText": "Daisen Kofun"
-    },
-    {
-      "eventId": "evt-pj-yamato-hegemony",
-      "matchText": "Yamato clan"
-    },
-    {
-      "eventId": "evt-pj-amaterasu-cult",
-      "matchText": "Amaterasu"
-    },
-    {
-      "eventId": "evt-pj-jimmu-myth",
-      "matchText": "Emperor Jimmu"
-    },
-    {
-      "eventId": "evt-pj-haniwa",
-      "matchText": "haniwa"
-    },
-    {
-      "eventId": "evt-pj-uji-clans",
-      "matchText": "uji"
-    },
-    {
-      "eventId": "evt-pj-be-system",
-      "matchText": "be"
-    },
-    {
-      "eventId": "evt-pj-baekje-alliance",
-      "matchText": "Baekje"
-    },
-    {
-      "eventId": "evt-pj-gaya-iron",
-      "matchText": "Gaya"
-    },
-    {
-      "eventId": "evt-pj-mimana-controversy",
-      "matchText": "Mimana"
-    },
-    {
-      "eventId": "evt-pj-mounted-warriors",
-      "matchText": "horse-rider theory"
-    }
+    {"eventId":"evt-pj-daisen-kofun","matchText":"Daisen Kofun"},
+    {"eventId":"evt-pj-yamato-hegemony","matchText":"Yamato clan"},
+    {"eventId":"evt-pj-amaterasu-cult","matchText":"Amaterasu"},
+    {"eventId":"evt-pj-jimmu-myth","matchText":"Emperor Jimmu"},
+    {"eventId":"evt-pj-haniwa","matchText":"haniwa"},
+    {"eventId":"evt-pj-uji-clans","matchText":"uji"},
+    {"eventId":"evt-pj-be-system","matchText":"be"},
+    {"eventId":"evt-pj-baekje-alliance","matchText":"Baekje"},
+    {"eventId":"evt-pj-gaya-iron","matchText":"Gaya"},
+    {"eventId":"evt-pj-mimana-controversy","matchText":"Mimana"},
+    {"eventId":"evt-pj-mounted-warriors","matchText":"horse-rider theory"}
   ],
   "8": [
-    {
-      "eventId": "evt-pj-kofun-decline",
-      "matchText": "Kofun construction"
-    },
-    {
-      "eventId": "evt-pj-sueki-pottery",
-      "matchText": "sueki"
-    },
-    {
-      "eventId": "evt-pj-iron-production",
-      "matchText": "Bloomery furnaces"
-    },
-    {
-      "eventId": "evt-pj-emperor-keitai",
-      "matchText": "Emperor Keitai"
-    },
-    {
-      "eventId": "evt-pj-iwai-rebellion",
-      "matchText": "Iwai rebellion"
-    },
-    {
-      "eventId": "evt-pj-soga-rise",
-      "matchText": "Soga clan"
-    },
-    {
-      "eventId": "evt-pj-baekje-artisans",
-      "matchText": "Korean immigrants"
-    },
-    {
-      "eventId": "evt-pj-wani-writing",
-      "matchText": "Chinese characters"
-    },
-    {
-      "eventId": "evt-pj-buddhism-arrives",
-      "matchText": "golden Buddha statue and a set of Buddhist sutras"
-    }
+    {"eventId":"evt-pj-kofun-decline","matchText":"Kofun construction"},
+    {"eventId":"evt-pj-sueki-pottery","matchText":"sueki"},
+    {"eventId":"evt-pj-iron-production","matchText":"Bloomery furnaces"},
+    {"eventId":"evt-pj-emperor-keitai","matchText":"Emperor Keitai"},
+    {"eventId":"evt-pj-iwai-rebellion","matchText":"Iwai rebellion"},
+    {"eventId":"evt-pj-soga-rise","matchText":"Soga clan"},
+    {"eventId":"evt-pj-baekje-artisans","matchText":"Korean immigrants"},
+    {"eventId":"evt-pj-buddhism-arrives","matchText":"golden Buddha statue and a set of Buddhist sutras"}
   ]
 }

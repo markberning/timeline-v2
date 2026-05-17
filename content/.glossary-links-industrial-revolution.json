@@ -61,10 +61,10 @@
       "type": "concept"
     },
     {
-      "term": "Coal",
-      "matchText": "burning coal",
-      "wikiSlug": "Coal",
-      "type": "concept"
+      "term": "Spinning jenny",
+      "matchText": "the spinning jenny",
+      "wikiSlug": "Spinning_jenny",
+      "type": "technology"
     }
   ],
   "2": [
@@ -105,12 +105,6 @@
       "type": "concept"
     },
     {
-      "term": "Proto-industrialization",
-      "matchText": "proto-industrialization",
-      "wikiSlug": "Proto-industrialization",
-      "type": "concept"
-    },
-    {
       "term": "Four-field crop rotation",
       "matchText": "four-field crop rotation",
       "wikiSlug": "Crop_rotation",
@@ -127,12 +121,6 @@
       "matchText": "James Watt",
       "wikiSlug": "James_Watt",
       "type": "person"
-    },
-    {
-      "term": "Joint-stock company",
-      "matchText": "joint-stock companies",
-      "wikiSlug": "Joint-stock_company",
-      "type": "concept"
     }
   ],
   "3": [
@@ -171,12 +159,6 @@
       "matchText": "James Hargreaves",
       "wikiSlug": "James_Hargreaves",
       "type": "person"
-    },
-    {
-      "term": "Spinning jenny",
-      "matchText": "the spinning jenny",
-      "wikiSlug": "Spinning_jenny",
-      "type": "technology"
     },
     {
       "term": "Water frame",
@@ -221,10 +203,10 @@
       "type": "person"
     },
     {
-      "term": "Power loom",
-      "matchText": "the power loom",
-      "wikiSlug": "Power_loom",
-      "type": "technology"
+      "term": "Proto-industrialization",
+      "matchText": "proto-industrialization",
+      "wikiSlug": "Proto-industrialization",
+      "type": "concept"
     }
   ],
   "4": [
@@ -539,6 +521,12 @@
       "matchText": "his pits at Worsley",
       "wikiSlug": "Worsley",
       "type": "place"
+    },
+    {
+      "term": "Joint-stock company",
+      "matchText": "joint-stock companies",
+      "wikiSlug": "Joint-stock_company",
+      "type": "concept"
     }
   ],
   "8": [
@@ -807,12 +795,6 @@
       "type": "event"
     },
     {
-      "term": "Six Acts",
-      "matchText": "the Six Acts",
-      "wikiSlug": "Six_Acts",
-      "type": "event"
-    },
-    {
       "term": "Swing Riots",
       "matchText": "the Swing Riots",
       "wikiSlug": "Captain_Swing",
@@ -837,12 +819,6 @@
       "type": "concept"
     },
     {
-      "term": "Handloom weavers",
-      "matchText": "the handloom weavers",
-      "wikiSlug": "Handloom_weavers'_misery",
-      "type": "concept"
-    },
-    {
       "term": "St Peter's Field",
       "matchText": "St Peter's Field in Manchester",
       "wikiSlug": "St._Peter%27s_Field,_Manchester",
@@ -853,6 +829,12 @@
       "matchText": "the recent battle of Waterloo",
       "wikiSlug": "Battle_of_Waterloo",
       "type": "event"
+    },
+    {
+      "term": "Power loom",
+      "matchText": "the power loom",
+      "wikiSlug": "Power_loom",
+      "type": "technology"
     }
   ],
   "12": [
@@ -908,6 +890,12 @@
       "term": "Secret ballot",
       "matchText": "the secret ballot in 1872",
       "wikiSlug": "Ballot_Act_1872",
+      "type": "event"
+    },
+    {
+      "term": "Six Acts",
+      "matchText": "the Six Acts",
+      "wikiSlug": "Six_Acts",
       "type": "event"
     }
   ],
@@ -1007,6 +995,12 @@
       "matchText": "the abolition of the British slave trade in 1807",
       "wikiSlug": "Slave_Trade_Act_1807",
       "type": "event"
+    },
+    {
+      "term": "Standard-of-living debate",
+      "matchText": "the standard-of-living debate",
+      "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation",
+      "type": "concept"
     }
   ],
   "14": [
@@ -1099,6 +1093,12 @@
       "matchText": "a tradition of Christian socialism",
       "wikiSlug": "Christian_socialism",
       "type": "concept"
+    },
+    {
+      "term": "Welfare state",
+      "matchText": "redistribution and the welfare state",
+      "wikiSlug": "Welfare_state",
+      "type": "concept"
     }
   ],
   "15": [
@@ -1149,12 +1149,6 @@
       "matchText": "smuggled drawings, and reverse-engineered machines",
       "wikiSlug": "Industrial_espionage",
       "type": "concept"
-    },
-    {
-      "term": "BASF",
-      "matchText": "firms like BASF and Bayer",
-      "wikiSlug": "BASF",
-      "type": "organization"
     },
     {
       "term": "Liège",
@@ -1345,6 +1339,12 @@
       "matchText": "Nikolaus Otto's four-stroke engine",
       "wikiSlug": "Nikolaus_Otto",
       "type": "person"
+    },
+    {
+      "term": "BASF",
+      "matchText": "firms like BASF and Bayer",
+      "wikiSlug": "BASF",
+      "type": "organization"
     }
   ],
   "18": [
@@ -1529,6 +1529,24 @@
       "matchText": "doubling the carbon dioxide in the air would warm the planet",
       "wikiSlug": "Climate_change",
       "type": "concept"
+    },
+    {
+      "term": "Coal",
+      "matchText": "burning coal",
+      "wikiSlug": "Coal",
+      "type": "concept"
+    },
+    {
+      "term": "Handloom weavers",
+      "matchText": "the handloom weavers",
+      "wikiSlug": "Handloom_weavers'_misery",
+      "type": "concept"
+    },
+    {
+      "term": "Great Divergence",
+      "matchText": "the Great Divergence of Chapter 1",
+      "wikiSlug": "Great_Divergence",
+      "type": "concept"
     }
   ],
   "20": [
@@ -1557,28 +1575,10 @@
       "type": "person"
     },
     {
-      "term": "Standard-of-living debate",
-      "matchText": "the standard-of-living debate",
-      "wikiSlug": "Standard_of_living_of_the_United_Kingdom_during_industrialisation",
-      "type": "concept"
-    },
-    {
       "term": "Yangzi delta",
       "matchText": "the Yangzi delta",
       "wikiSlug": "Yangtze_River_Delta",
       "type": "place"
-    },
-    {
-      "term": "Great Divergence",
-      "matchText": "the Great Divergence of Chapter 1",
-      "wikiSlug": "Great_Divergence",
-      "type": "concept"
-    },
-    {
-      "term": "Welfare state",
-      "matchText": "redistribution and the welfare state",
-      "wikiSlug": "Welfare_state",
-      "type": "concept"
     }
   ]
 }

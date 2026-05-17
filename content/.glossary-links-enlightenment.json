@@ -1,184 +1,894 @@
 {
   "1": [
-    { "term": "Aristotle", "matchText": "Aristotle", "wikiSlug": "Aristotle", "type": "person" },
-    { "term": "superstition", "matchText": "superstition", "wikiSlug": "Superstition", "type": "concept" },
-    { "term": "tolerance", "matchText": "tolerance", "wikiSlug": "Toleration", "type": "concept" },
-    { "term": "Scientific Revolution", "matchText": "Scientific Revolution", "wikiSlug": "Scientific_revolution", "type": "concept" },
-    { "term": "reason", "matchText": "Reason", "wikiSlug": "Reason", "type": "concept" },
-    { "term": "absolute monarchs", "matchText": "absolute monarchs", "wikiSlug": "Absolute_monarchy", "type": "concept" },
-    { "term": "the secular state", "matchText": "the secular state", "wikiSlug": "Secular_state", "type": "concept" },
-    { "term": "universalism", "matchText": "universalism", "wikiSlug": "Universality_(philosophy)", "type": "concept" },
-    { "term": "censorship", "matchText": "censorship offices", "wikiSlug": "Censorship", "type": "concept" }
+    {
+      "term": "Aristotle",
+      "matchText": "Aristotle",
+      "wikiSlug": "Aristotle",
+      "type": "person"
+    },
+    {
+      "term": "superstition",
+      "matchText": "superstition",
+      "wikiSlug": "Superstition",
+      "type": "concept"
+    },
+    {
+      "term": "tolerance",
+      "matchText": "tolerance",
+      "wikiSlug": "Toleration",
+      "type": "concept"
+    },
+    {
+      "term": "Scientific Revolution",
+      "matchText": "Scientific Revolution",
+      "wikiSlug": "Scientific_revolution",
+      "type": "concept"
+    },
+    {
+      "term": "reason",
+      "matchText": "Reason",
+      "wikiSlug": "Reason",
+      "type": "concept"
+    },
+    {
+      "term": "absolute monarchs",
+      "matchText": "absolute monarchs",
+      "wikiSlug": "Absolute_monarchy",
+      "type": "concept"
+    },
+    {
+      "term": "the secular state",
+      "matchText": "the secular state",
+      "wikiSlug": "Secular_state",
+      "type": "concept"
+    },
+    {
+      "term": "universalism",
+      "matchText": "universalism",
+      "wikiSlug": "Universality_(philosophy)",
+      "type": "concept"
+    },
+    {
+      "term": "censorship",
+      "matchText": "censorship offices",
+      "wikiSlug": "Censorship",
+      "type": "concept"
+    }
   ],
   "2": [
-    { "term": "lettre de cachet", "matchText": "lettre de cachet", "wikiSlug": "Lettre_de_cachet", "type": "concept" },
-    { "term": "Charles I", "matchText": "Charles I", "wikiSlug": "Charles_I_of_England", "type": "person" },
-    { "term": "William of Orange", "matchText": "William of Orange", "wikiSlug": "William_III_of_England", "type": "person" },
-    { "term": "Whigs", "matchText": "powerful Whig politicians", "wikiSlug": "Whigs_(British_political_party)", "type": "concept" },
-    { "term": "state of nature", "matchText": "state of nature", "wikiSlug": "State_of_nature", "type": "concept" },
-    { "term": "natural rights", "matchText": "natural rights", "wikiSlug": "Natural_rights_and_legal_rights", "type": "concept" },
-    { "term": "social contract", "matchText": "It is a", "wikiSlug": "Social_contract", "type": "concept" },
-    { "term": "tabula rasa", "matchText": "tabula rasa", "wikiSlug": "Tabula_rasa", "type": "concept" },
-    { "term": "empiricism", "matchText": "empiricism", "wikiSlug": "Empiricism", "type": "concept" },
-    { "term": "Thomas Hobbes", "matchText": "Thomas Hobbes", "wikiSlug": "Thomas_Hobbes", "type": "person" },
-    { "term": "Dutch Republic", "matchText": "the Dutch Republic", "wikiSlug": "Dutch_Republic", "type": "place" },
-    { "term": "progress", "matchText": "the entire Enlightenment idea of", "wikiSlug": "Idea_of_Progress", "type": "concept" }
+    {
+      "term": "lettre de cachet",
+      "matchText": "lettre de cachet",
+      "wikiSlug": "Lettre_de_cachet",
+      "type": "concept"
+    },
+    {
+      "term": "Charles I",
+      "matchText": "Charles I",
+      "wikiSlug": "Charles_I_of_England",
+      "type": "person"
+    },
+    {
+      "term": "William of Orange",
+      "matchText": "William of Orange",
+      "wikiSlug": "William_III_of_England",
+      "type": "person"
+    },
+    {
+      "term": "Whigs",
+      "matchText": "powerful Whig politicians",
+      "wikiSlug": "Whigs_(British_political_party)",
+      "type": "concept"
+    },
+    {
+      "term": "state of nature",
+      "matchText": "state of nature",
+      "wikiSlug": "State_of_nature",
+      "type": "concept"
+    },
+    {
+      "term": "natural rights",
+      "matchText": "natural rights",
+      "wikiSlug": "Natural_rights_and_legal_rights",
+      "type": "concept"
+    },
+    {
+      "term": "social contract",
+      "matchText": "It is a",
+      "wikiSlug": "Social_contract",
+      "type": "concept"
+    },
+    {
+      "term": "tabula rasa",
+      "matchText": "tabula rasa",
+      "wikiSlug": "Tabula_rasa",
+      "type": "concept"
+    },
+    {
+      "term": "empiricism",
+      "matchText": "empiricism",
+      "wikiSlug": "Empiricism",
+      "type": "concept"
+    },
+    {
+      "term": "Thomas Hobbes",
+      "matchText": "Thomas Hobbes",
+      "wikiSlug": "Thomas_Hobbes",
+      "type": "person"
+    },
+    {
+      "term": "Dutch Republic",
+      "matchText": "the Dutch Republic",
+      "wikiSlug": "Dutch_Republic",
+      "type": "place"
+    },
+    {
+      "term": "progress",
+      "matchText": "the entire Enlightenment idea of",
+      "wikiSlug": "Idea_of_Progress",
+      "type": "concept"
+    }
   ],
   "3": [
-    { "term": "Marie-Thérèse Geoffrin", "matchText": "Marie-Thérèse Geoffrin", "wikiSlug": "Marie_Thérèse_Rodet_Geoffrin", "type": "person" },
-    { "term": "Julie de Lespinasse", "matchText": "Julie de Lespinasse", "wikiSlug": "Julie_de_Lespinasse", "type": "person" },
-    { "term": "Robert Darnton", "matchText": "Robert Darnton", "wikiSlug": "Robert_Darnton", "type": "person" },
-    { "term": "Rotterdam", "matchText": "Rotterdam", "wikiSlug": "Rotterdam", "type": "place" },
-    { "term": "Lloyd's", "matchText": "Lloyd's", "wikiSlug": "Lloyd's_of_London", "type": "concept" },
-    { "term": "Edinburgh", "matchText": "from Edinburgh to Naples", "wikiSlug": "Edinburgh", "type": "place" },
-    { "term": "the Old Regime", "matchText": "the Old Regime", "wikiSlug": "Ancien_Régime", "type": "concept" },
-    { "term": "privilège", "matchText": "grant a", "wikiSlug": "Book_censorship_in_France", "type": "concept" }
+    {
+      "term": "Marie-Thérèse Geoffrin",
+      "matchText": "Marie-Thérèse Geoffrin",
+      "wikiSlug": "Marie_Thérèse_Rodet_Geoffrin",
+      "type": "person"
+    },
+    {
+      "term": "Julie de Lespinasse",
+      "matchText": "Julie de Lespinasse",
+      "wikiSlug": "Julie_de_Lespinasse",
+      "type": "person"
+    },
+    {
+      "term": "Robert Darnton",
+      "matchText": "Robert Darnton",
+      "wikiSlug": "Robert_Darnton",
+      "type": "person"
+    },
+    {
+      "term": "Rotterdam",
+      "matchText": "Rotterdam",
+      "wikiSlug": "Rotterdam",
+      "type": "place"
+    },
+    {
+      "term": "Lloyd's",
+      "matchText": "Lloyd's",
+      "wikiSlug": "Lloyd's_of_London",
+      "type": "concept"
+    },
+    {
+      "term": "Edinburgh",
+      "matchText": "from Edinburgh to Naples",
+      "wikiSlug": "Edinburgh",
+      "type": "place"
+    },
+    {
+      "term": "the Old Regime",
+      "matchText": "the Old Regime",
+      "wikiSlug": "Ancien_Régime",
+      "type": "concept"
+    },
+    {
+      "term": "privilège",
+      "matchText": "grant a",
+      "wikiSlug": "Book_censorship_in_France",
+      "type": "concept"
+    }
   ],
   "4": [
-    { "term": "René Descartes", "matchText": "René Descartes", "wikiSlug": "René_Descartes", "type": "person" },
-    { "term": "action at a distance", "matchText": "action at a distance", "wikiSlug": "Action_at_a_distance", "type": "concept" },
-    { "term": "inverse-square law", "matchText": "inverse-square law", "wikiSlug": "Inverse-square_law", "type": "concept" },
-    { "term": "Leiden", "matchText": "at Leiden", "wikiSlug": "Leiden_University", "type": "place" },
-    { "term": "orrery", "matchText": "brass orreries", "wikiSlug": "Orrery", "type": "concept" },
-    { "term": "Newtonianism", "matchText": "Newtonianism", "wikiSlug": "Newtonianism", "type": "concept" },
-    { "term": "Leibniz", "matchText": "the search for the Newton of something else", "wikiSlug": "Gottfried_Wilhelm_Leibniz", "type": "person" }
+    {
+      "term": "René Descartes",
+      "matchText": "René Descartes",
+      "wikiSlug": "René_Descartes",
+      "type": "person"
+    },
+    {
+      "term": "action at a distance",
+      "matchText": "action at a distance",
+      "wikiSlug": "Action_at_a_distance",
+      "type": "concept"
+    },
+    {
+      "term": "inverse-square law",
+      "matchText": "inverse-square law",
+      "wikiSlug": "Inverse-square_law",
+      "type": "concept"
+    },
+    {
+      "term": "Leiden",
+      "matchText": "at Leiden",
+      "wikiSlug": "Leiden_University",
+      "type": "place"
+    },
+    {
+      "term": "orrery",
+      "matchText": "brass orreries",
+      "wikiSlug": "Orrery",
+      "type": "concept"
+    },
+    {
+      "term": "Newtonianism",
+      "matchText": "Newtonianism",
+      "wikiSlug": "Newtonianism",
+      "type": "concept"
+    },
+    {
+      "term": "Leibniz",
+      "matchText": "the search for the Newton of something else",
+      "wikiSlug": "Gottfried_Wilhelm_Leibniz",
+      "type": "person"
+    }
   ],
   "5": [
-    { "term": "the Bastille", "matchText": "the royal fortress-prison in Paris", "wikiSlug": "Bastille", "type": "place" },
-    { "term": "Chevalier de Rohan", "matchText": "the Chevalier de Rohan", "wikiSlug": "Chevalier_de_Rohan", "type": "person" },
-    { "term": "Pangloss", "matchText": "his idiotically optimistic tutor Pangloss", "wikiSlug": "Pangloss", "type": "person" },
-    { "term": "philosophical optimism", "matchText": "philosophical optimism", "wikiSlug": "Best_of_all_possible_worlds", "type": "concept" },
-    { "term": "the Inquisition", "matchText": "the Inquisition", "wikiSlug": "Inquisition", "type": "concept" },
-    { "term": "Surinam", "matchText": "the Dutch sugar colony of Surinam", "wikiSlug": "Surinam_(Dutch_colony)", "type": "place" },
-    { "term": "broken on the wheel", "matchText": "broken on the wheel", "wikiSlug": "Breaking_wheel", "type": "concept" },
-    { "term": "Toulouse", "matchText": "in Toulouse", "wikiSlug": "Toulouse", "type": "place" }
+    {
+      "term": "the Bastille",
+      "matchText": "the royal fortress-prison in Paris",
+      "wikiSlug": "Bastille",
+      "type": "place"
+    },
+    {
+      "term": "Chevalier de Rohan",
+      "matchText": "the Chevalier de Rohan",
+      "wikiSlug": "Chevalier_de_Rohan",
+      "type": "person"
+    },
+    {
+      "term": "Pangloss",
+      "matchText": "his idiotically optimistic tutor Pangloss",
+      "wikiSlug": "Pangloss",
+      "type": "person"
+    },
+    {
+      "term": "philosophical optimism",
+      "matchText": "philosophical optimism",
+      "wikiSlug": "Best_of_all_possible_worlds",
+      "type": "concept"
+    },
+    {
+      "term": "the Inquisition",
+      "matchText": "the Inquisition",
+      "wikiSlug": "Inquisition",
+      "type": "concept"
+    },
+    {
+      "term": "Surinam",
+      "matchText": "the Dutch sugar colony of Surinam",
+      "wikiSlug": "Surinam_(Dutch_colony)",
+      "type": "place"
+    },
+    {
+      "term": "broken on the wheel",
+      "matchText": "broken on the wheel",
+      "wikiSlug": "Breaking_wheel",
+      "type": "concept"
+    },
+    {
+      "term": "Toulouse",
+      "matchText": "in Toulouse",
+      "wikiSlug": "Toulouse",
+      "type": "place"
+    }
   ],
   "6": [
-    { "term": "parlement", "matchText": "the parlement of Bordeaux", "wikiSlug": "Parlement", "type": "concept" },
-    { "term": "Safavid Persia", "matchText": "the Safavid Persian empire", "wikiSlug": "Safavid_Iran", "type": "place" },
-    { "term": "Isfahan", "matchText": "Isfahan", "wikiSlug": "Isfahan", "type": "place" },
-    { "term": "Orientalism", "matchText": "real Orientalist fantasy", "wikiSlug": "Orientalism", "type": "concept" },
-    { "term": "despotism", "matchText": "despotisms", "wikiSlug": "Despotism", "type": "concept" },
-    { "term": "civic virtue", "matchText": "civic virtue", "wikiSlug": "Civic_virtue", "type": "concept" },
-    { "term": "social science", "matchText": "the foundation of social science", "wikiSlug": "Social_science", "type": "concept" },
-    { "term": "Philadelphia", "matchText": "a group of men in Philadelphia", "wikiSlug": "Constitutional_Convention_(United_States)", "type": "place" }
+    {
+      "term": "parlement",
+      "matchText": "the parlement of Bordeaux",
+      "wikiSlug": "Parlement",
+      "type": "concept"
+    },
+    {
+      "term": "Safavid Persia",
+      "matchText": "the Safavid Persian empire",
+      "wikiSlug": "Safavid_Iran",
+      "type": "place"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Orientalism",
+      "matchText": "real Orientalist fantasy",
+      "wikiSlug": "Orientalism",
+      "type": "concept"
+    },
+    {
+      "term": "despotism",
+      "matchText": "despotisms",
+      "wikiSlug": "Despotism",
+      "type": "concept"
+    },
+    {
+      "term": "civic virtue",
+      "matchText": "civic virtue",
+      "wikiSlug": "Civic_virtue",
+      "type": "concept"
+    },
+    {
+      "term": "social science",
+      "matchText": "the foundation of social science",
+      "wikiSlug": "Social_science",
+      "type": "concept"
+    },
+    {
+      "term": "Philadelphia",
+      "matchText": "a group of men in Philadelphia",
+      "wikiSlug": "Constitutional_Convention_(United_States)",
+      "type": "place"
+    }
   ],
   "7": [
-    { "term": "tree of knowledge", "matchText": "a \"tree of knowledge\"", "wikiSlug": "Tree_of_knowledge_(Encyclopédie)", "type": "concept" },
-    { "term": "Index of forbidden books", "matchText": "the Index of forbidden books", "wikiSlug": "Index_Librorum_Prohibitorum", "type": "concept" },
-    { "term": "theology", "matchText": "Theology is placed", "wikiSlug": "Theology", "type": "concept" },
-    { "term": "metaphysics", "matchText": "a point of metaphysics", "wikiSlug": "Metaphysics", "type": "concept" },
-    { "term": "cross-references", "matchText": "the cross-references", "wikiSlug": "Cross-reference", "type": "concept" },
-    { "term": "stocking-frame", "matchText": "a stocking-frame", "wikiSlug": "Stocking_frame", "type": "concept" }
+    {
+      "term": "tree of knowledge",
+      "matchText": "a \"tree of knowledge",
+      "wikiSlug": "Tree_of_knowledge_(Encyclopédie)",
+      "type": "concept"
+    },
+    {
+      "term": "Index of forbidden books",
+      "matchText": "the Index of forbidden books",
+      "wikiSlug": "Index_Librorum_Prohibitorum",
+      "type": "concept"
+    },
+    {
+      "term": "theology",
+      "matchText": "Theology is placed",
+      "wikiSlug": "Theology",
+      "type": "concept"
+    },
+    {
+      "term": "metaphysics",
+      "matchText": "a point of metaphysics",
+      "wikiSlug": "Metaphysics",
+      "type": "concept"
+    },
+    {
+      "term": "cross-references",
+      "matchText": "the cross-references",
+      "wikiSlug": "Cross-reference",
+      "type": "concept"
+    },
+    {
+      "term": "stocking-frame",
+      "matchText": "a stocking-frame",
+      "wikiSlug": "Stocking_frame",
+      "type": "concept"
+    }
   ],
   "8": [
-    { "term": "Geneva", "matchText": "the independent Calvinist city-republic of Geneva", "wikiSlug": "Republic_of_Geneva", "type": "place" },
-    { "term": "noble savage", "matchText": "a noble savage", "wikiSlug": "Noble_savage", "type": "concept" },
-    { "term": "popular sovereignty", "matchText": "popular sovereignty", "wikiSlug": "Popular_sovereignty", "type": "concept" },
-    { "term": "private property", "matchText": "Private property creates inequality", "wikiSlug": "Private_property", "type": "concept" },
-    { "term": "autobiography", "matchText": "the first modern autobiography", "wikiSlug": "Autobiography", "type": "concept" },
-    { "term": "authenticity", "matchText": "the realm of", "wikiSlug": "Authenticity_(philosophy)", "type": "concept" },
-    { "term": "Old Regime", "matchText": "a chip the size of the Old Regime", "wikiSlug": "Ancien_Régime", "type": "concept" }
+    {
+      "term": "Geneva",
+      "matchText": "the independent Calvinist city-republic of Geneva",
+      "wikiSlug": "Republic_of_Geneva",
+      "type": "place"
+    },
+    {
+      "term": "noble savage",
+      "matchText": "a noble savage",
+      "wikiSlug": "Noble_savage",
+      "type": "concept"
+    },
+    {
+      "term": "popular sovereignty",
+      "matchText": "popular sovereignty",
+      "wikiSlug": "Popular_sovereignty",
+      "type": "concept"
+    },
+    {
+      "term": "private property",
+      "matchText": "Private property creates inequality",
+      "wikiSlug": "Private_property",
+      "type": "concept"
+    },
+    {
+      "term": "autobiography",
+      "matchText": "the first modern autobiography",
+      "wikiSlug": "Autobiography",
+      "type": "concept"
+    },
+    {
+      "term": "authenticity",
+      "matchText": "the realm of",
+      "wikiSlug": "Authenticity_(philosophy)",
+      "type": "concept"
+    },
+    {
+      "term": "Old Regime",
+      "matchText": "a chip the size of the Old Regime",
+      "wikiSlug": "Ancien_Régime",
+      "type": "concept"
+    }
   ],
   "9": [
-    { "term": "Presbyterian church", "matchText": "its own Presbyterian church", "wikiSlug": "Church_of_Scotland", "type": "concept" },
-    { "term": "Act of Union 1707", "matchText": "its 1707 union with England", "wikiSlug": "Acts_of_Union_1707", "type": "concept" },
-    { "term": "causation", "matchText": "the causal link", "wikiSlug": "Causality", "type": "concept" },
-    { "term": "induction", "matchText": "the future will resemble the past", "wikiSlug": "Problem_of_induction", "type": "concept" },
-    { "term": "John Millar", "matchText": "John Millar", "wikiSlug": "John_Millar_(philosopher)", "type": "person" },
-    { "term": "Lord Kames", "matchText": "Lord Kames", "wikiSlug": "Henry_Home,_Lord_Kames", "type": "person" },
-    { "term": "Ibn Khaldun", "matchText": "Ibn Khaldun", "wikiSlug": "Ibn_Khaldun", "type": "person" },
-    { "term": "deep time", "matchText": "Deep time", "wikiSlug": "Deep_time", "type": "concept" },
-    { "term": "sociology", "matchText": "the ancestor of sociology", "wikiSlug": "Sociology", "type": "concept" }
+    {
+      "term": "Presbyterian church",
+      "matchText": "its own Presbyterian church",
+      "wikiSlug": "Church_of_Scotland",
+      "type": "concept"
+    },
+    {
+      "term": "Act of Union 1707",
+      "matchText": "its 1707 union with England",
+      "wikiSlug": "Acts_of_Union_1707",
+      "type": "concept"
+    },
+    {
+      "term": "causation",
+      "matchText": "the causal link",
+      "wikiSlug": "Causality",
+      "type": "concept"
+    },
+    {
+      "term": "induction",
+      "matchText": "the future will resemble the past",
+      "wikiSlug": "Problem_of_induction",
+      "type": "concept"
+    },
+    {
+      "term": "John Millar",
+      "matchText": "John Millar",
+      "wikiSlug": "John_Millar_(philosopher)",
+      "type": "person"
+    },
+    {
+      "term": "Lord Kames",
+      "matchText": "Lord Kames",
+      "wikiSlug": "Henry_Home,_Lord_Kames",
+      "type": "person"
+    },
+    {
+      "term": "Ibn Khaldun",
+      "matchText": "Ibn Khaldun",
+      "wikiSlug": "Ibn_Khaldun",
+      "type": "person"
+    },
+    {
+      "term": "deep time",
+      "matchText": "Deep time",
+      "wikiSlug": "Deep_time",
+      "type": "concept"
+    },
+    {
+      "term": "sociology",
+      "matchText": "the ancestor of sociology",
+      "wikiSlug": "Sociology",
+      "type": "concept"
+    }
   ],
   "10": [
-    { "term": "bullion", "matchText": "hoard bullion", "wikiSlug": "Bullion", "type": "concept" },
-    { "term": "laissez-faire", "matchText": "laissez-faire", "wikiSlug": "Laissez-faire", "type": "concept" },
-    { "term": "François Quesnay", "matchText": "François Quesnay", "wikiSlug": "François_Quesnay", "type": "person" },
-    { "term": "sympathy", "matchText": "human morality arises from", "wikiSlug": "Empathy", "type": "concept" },
-    { "term": "impartial spectator", "matchText": "an \"impartial spectator\"", "wikiSlug": "The_Theory_of_Moral_Sentiments", "type": "concept" },
-    { "term": "productivity", "matchText": "the master key to national wealth is", "wikiSlug": "Productivity", "type": "concept" },
-    { "term": "spontaneous order", "matchText": "spontaneous order", "wikiSlug": "Spontaneous_order", "type": "concept" },
-    { "term": "Battle of Plassey", "matchText": "its 1757 victory at Plassey", "wikiSlug": "Battle_of_Plassey", "type": "concept" }
+    {
+      "term": "bullion",
+      "matchText": "hoard bullion",
+      "wikiSlug": "Bullion",
+      "type": "concept"
+    },
+    {
+      "term": "laissez-faire",
+      "matchText": "laissez-faire",
+      "wikiSlug": "Laissez-faire",
+      "type": "concept"
+    },
+    {
+      "term": "François Quesnay",
+      "matchText": "François Quesnay",
+      "wikiSlug": "François_Quesnay",
+      "type": "person"
+    },
+    {
+      "term": "sympathy",
+      "matchText": "human morality arises from",
+      "wikiSlug": "Empathy",
+      "type": "concept"
+    },
+    {
+      "term": "impartial spectator",
+      "matchText": "an \"impartial spectator",
+      "wikiSlug": "The_Theory_of_Moral_Sentiments",
+      "type": "concept"
+    },
+    {
+      "term": "productivity",
+      "matchText": "the master key to national wealth is",
+      "wikiSlug": "Productivity",
+      "type": "concept"
+    },
+    {
+      "term": "spontaneous order",
+      "matchText": "spontaneous order",
+      "wikiSlug": "Spontaneous_order",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Plassey",
+      "matchText": "its 1757 victory at Plassey",
+      "wikiSlug": "Battle_of_Plassey",
+      "type": "concept"
+    }
   ],
   "11": [
-    { "term": "atheism", "matchText": "open, militant", "wikiSlug": "Atheism", "type": "concept" },
-    { "term": "the watchmaker analogy", "matchText": "A watch implies a watchmaker", "wikiSlug": "Watchmaker_analogy", "type": "concept" },
-    { "term": "Cārvāka", "matchText": "The materialist Cārvāka school", "wikiSlug": "Charvaka", "type": "concept" },
-    { "term": "Lucretius", "matchText": "the ancient atomists Lucretius had transmitted", "wikiSlug": "Lucretius", "type": "person" },
-    { "term": "Akbar", "matchText": "The Mughal emperor Akbar", "wikiSlug": "Akbar", "type": "person" },
-    { "term": "jizya", "matchText": "abolished the", "wikiSlug": "Jizya", "type": "concept" },
-    { "term": "Helvétius", "matchText": "the most uncompromising books of the age", "wikiSlug": "Claude_Adrien_Helvétius", "type": "person" }
+    {
+      "term": "atheism",
+      "matchText": "open, militant",
+      "wikiSlug": "Atheism",
+      "type": "concept"
+    },
+    {
+      "term": "the watchmaker analogy",
+      "matchText": "A watch implies a watchmaker",
+      "wikiSlug": "Watchmaker_analogy",
+      "type": "concept"
+    },
+    {
+      "term": "Cārvāka",
+      "matchText": "The materialist Cārvāka school",
+      "wikiSlug": "Charvaka",
+      "type": "concept"
+    },
+    {
+      "term": "Lucretius",
+      "matchText": "the ancient atomists Lucretius had transmitted",
+      "wikiSlug": "Lucretius",
+      "type": "person"
+    },
+    {
+      "term": "Akbar",
+      "matchText": "The Mughal emperor Akbar",
+      "wikiSlug": "Akbar",
+      "type": "person"
+    },
+    {
+      "term": "jizya",
+      "matchText": "abolished the",
+      "wikiSlug": "Jizya",
+      "type": "concept"
+    },
+    {
+      "term": "Helvétius",
+      "matchText": "the most uncompromising books of the age",
+      "wikiSlug": "Claude_Adrien_Helvétius",
+      "type": "person"
+    }
   ],
   "12": [
-    { "term": "serfdom", "matchText": "He left serfdom", "wikiSlug": "Serfdom", "type": "concept" },
-    { "term": "Silesia", "matchText": "the rich province of Silesia", "wikiSlug": "Silesia", "type": "place" },
-    { "term": "St. Petersburg", "matchText": "brought him to St. Petersburg", "wikiSlug": "Saint_Petersburg", "type": "place" },
-    { "term": "the Habsburg lands", "matchText": "the Habsburg lands", "wikiSlug": "Habsburg_monarchy", "type": "place" },
-    { "term": "Radishchev", "matchText": "the writer Radishchev", "wikiSlug": "Alexander_Radishchev", "type": "person" },
-    { "term": "the Austrian Netherlands", "matchText": "the Austrian Netherlands", "wikiSlug": "Austrian_Netherlands", "type": "place" },
-    { "term": "the Nakaz", "matchText": "an Instruction", "wikiSlug": "Nakaz", "type": "concept" }
+    {
+      "term": "serfdom",
+      "matchText": "He left serfdom",
+      "wikiSlug": "Serfdom",
+      "type": "concept"
+    },
+    {
+      "term": "Silesia",
+      "matchText": "the rich province of Silesia",
+      "wikiSlug": "Silesia",
+      "type": "place"
+    },
+    {
+      "term": "St. Petersburg",
+      "matchText": "brought him to St. Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "the Habsburg lands",
+      "matchText": "the Habsburg lands",
+      "wikiSlug": "Habsburg_monarchy",
+      "type": "place"
+    },
+    {
+      "term": "Radishchev",
+      "matchText": "the writer Radishchev",
+      "wikiSlug": "Alexander_Radishchev",
+      "type": "person"
+    },
+    {
+      "term": "the Austrian Netherlands",
+      "matchText": "the Austrian Netherlands",
+      "wikiSlug": "Austrian_Netherlands",
+      "type": "place"
+    },
+    {
+      "term": "the Nakaz",
+      "matchText": "an Instruction",
+      "wikiSlug": "Nakaz",
+      "type": "concept"
+    },
+    {
+      "term": "the Ancien Régime",
+      "matchText": "a society of orders",
+      "wikiSlug": "Ancien_Régime",
+      "type": "concept"
+    }
   ],
   "13": [
-    { "term": "ghetto", "matchText": "a Dessau ghetto", "wikiSlug": "Jewish_ghettos_in_Europe", "type": "concept" },
-    { "term": "Königsberg", "matchText": "the remote Prussian city of Königsberg", "wikiSlug": "Königsberg", "type": "place" },
-    { "term": "the ring parable", "matchText": "its famous \"ring parable\"", "wikiSlug": "The_Ring_(parable)", "type": "concept" },
-    { "term": "rationalism", "matchText": "the rationalists", "wikiSlug": "Rationalism", "type": "concept" },
-    { "term": "phenomena and noumena", "matchText": "the noumena", "wikiSlug": "Noumenon", "type": "concept" },
-    { "term": "Jewish emancipation", "matchText": "a founding figure of Jewish modernity", "wikiSlug": "Jewish_emancipation", "type": "concept" }
+    {
+      "term": "ghetto",
+      "matchText": "a Dessau ghetto",
+      "wikiSlug": "Jewish_ghettos_in_Europe",
+      "type": "concept"
+    },
+    {
+      "term": "Königsberg",
+      "matchText": "the remote Prussian city of Königsberg",
+      "wikiSlug": "Königsberg",
+      "type": "place"
+    },
+    {
+      "term": "the ring parable",
+      "matchText": "its famous \"ring parable",
+      "wikiSlug": "The_Ring_(parable)",
+      "type": "concept"
+    },
+    {
+      "term": "rationalism",
+      "matchText": "the rationalists",
+      "wikiSlug": "Rationalism",
+      "type": "concept"
+    },
+    {
+      "term": "phenomena and noumena",
+      "matchText": "the noumena",
+      "wikiSlug": "Noumenon",
+      "type": "concept"
+    },
+    {
+      "term": "Jewish emancipation",
+      "matchText": "a founding figure of Jewish modernity",
+      "wikiSlug": "Jewish_emancipation",
+      "type": "concept"
+    }
   ],
   "14": [
-    { "term": "Carolina", "matchText": "the slave colony of Carolina", "wikiSlug": "Province_of_Carolina", "type": "place" },
-    { "term": "Royal African Company", "matchText": "the Royal African Company", "wikiSlug": "Royal_African_Company", "type": "concept" },
-    { "term": "Carl Linnaeus", "matchText": "among them Linnaeus", "wikiSlug": "Carl_Linnaeus", "type": "person" },
-    { "term": "feminism", "matchText": "one of the founding texts of modern feminism", "wikiSlug": "Feminism", "type": "concept" },
-    { "term": "John Millar", "matchText": "the Scot Millar", "wikiSlug": "John_Millar_(philosopher)", "type": "person" },
-    { "term": "Radical Enlightenment", "matchText": "the radical, literal universalists", "wikiSlug": "Radical_Enlightenment", "type": "concept" }
+    {
+      "term": "Carolina",
+      "matchText": "the slave colony of Carolina",
+      "wikiSlug": "Province_of_Carolina",
+      "type": "place"
+    },
+    {
+      "term": "Royal African Company",
+      "matchText": "the Royal African Company",
+      "wikiSlug": "Royal_African_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Carl Linnaeus",
+      "matchText": "among them Linnaeus",
+      "wikiSlug": "Carl_Linnaeus",
+      "type": "person"
+    },
+    {
+      "term": "feminism",
+      "matchText": "one of the founding texts of modern feminism",
+      "wikiSlug": "Feminism",
+      "type": "concept"
+    },
+    {
+      "term": "John Millar",
+      "matchText": "the Scot Millar",
+      "wikiSlug": "John_Millar_(philosopher)",
+      "type": "person"
+    },
+    {
+      "term": "Radical Enlightenment",
+      "matchText": "the radical, literal universalists",
+      "wikiSlug": "Radical_Enlightenment",
+      "type": "concept"
+    }
   ],
   "15": [
-    { "term": "colonial assemblies", "matchText": "a tradition of elected colonial assemblies", "wikiSlug": "Colonial_government_in_the_Thirteen_Colonies", "type": "concept" },
-    { "term": "Thomas Paine", "matchText": "Thomas Paine", "wikiSlug": "Thomas_Paine", "type": "person" },
-    { "term": "republic", "matchText": "a durable republic over a large territory", "wikiSlug": "Republic", "type": "concept" },
-    { "term": "George Washington", "matchText": "served as a general under Washington", "wikiSlug": "George_Washington", "type": "person" },
-    { "term": "checks and balances", "matchText": "with overlapping checks", "wikiSlug": "Separation_of_powers", "type": "concept" },
-    { "term": "ratification", "matchText": "written to argue for ratification", "wikiSlug": "History_of_the_United_States_Constitution", "type": "concept" }
+    {
+      "term": "colonial assemblies",
+      "matchText": "a tradition of elected colonial assemblies",
+      "wikiSlug": "Colonial_government_in_the_Thirteen_Colonies",
+      "type": "concept"
+    },
+    {
+      "term": "Thomas Paine",
+      "matchText": "Thomas Paine",
+      "wikiSlug": "Thomas_Paine",
+      "type": "person"
+    },
+    {
+      "term": "republic",
+      "matchText": "a durable republic over a large territory",
+      "wikiSlug": "Republic",
+      "type": "concept"
+    },
+    {
+      "term": "George Washington",
+      "matchText": "served as a general under Washington",
+      "wikiSlug": "George_Washington",
+      "type": "person"
+    },
+    {
+      "term": "checks and balances",
+      "matchText": "with overlapping checks",
+      "wikiSlug": "Separation_of_powers",
+      "type": "concept"
+    },
+    {
+      "term": "ratification",
+      "matchText": "written to argue for ratification",
+      "wikiSlug": "History_of_the_United_States_Constitution",
+      "type": "concept"
+    }
   ],
   "16": [
-    { "term": "the First Estate", "matchText": "The First Estate", "wikiSlug": "Estates_of_the_realm", "type": "concept" },
-    { "term": "the Third Estate", "matchText": "the Third Estate", "wikiSlug": "The_Third_Estate", "type": "concept" },
-    { "term": "abbé Sieyès", "matchText": "the abbé", "wikiSlug": "Emmanuel_Joseph_Sieyès", "type": "person" },
-    { "term": "the National Assembly", "matchText": "the National Assembly", "wikiSlug": "National_Constituent_Assembly_(France)", "type": "concept" },
-    { "term": "feudal dues", "matchText": "their feudal dues", "wikiSlug": "Feudalism", "type": "concept" },
-    { "term": "the Ancien Régime", "matchText": "a society of orders", "wikiSlug": "Ancien_Régime", "type": "concept" }
+    {
+      "term": "the First Estate",
+      "matchText": "The First Estate",
+      "wikiSlug": "Estates_of_the_realm",
+      "type": "concept"
+    },
+    {
+      "term": "the Third Estate",
+      "matchText": "the Third Estate",
+      "wikiSlug": "The_Third_Estate",
+      "type": "concept"
+    },
+    {
+      "term": "abbé Sieyès",
+      "matchText": "the abb",
+      "wikiSlug": "Emmanuel_Joseph_Sieyès",
+      "type": "person"
+    },
+    {
+      "term": "the National Assembly",
+      "matchText": "the National Assembly",
+      "wikiSlug": "National_Constituent_Assembly_(France)",
+      "type": "concept"
+    },
+    {
+      "term": "feudal dues",
+      "matchText": "their feudal dues",
+      "wikiSlug": "Feudalism",
+      "type": "concept"
+    }
   ],
   "17": [
-    { "term": "the Convention", "matchText": "tried by the Convention", "wikiSlug": "National_Convention", "type": "concept" },
-    { "term": "the guillotine", "matchText": "the guillotine working daily", "wikiSlug": "Guillotine", "type": "concept" },
-    { "term": "the Revolutionary Tribunal", "matchText": "The Revolutionary Tribunal", "wikiSlug": "Revolutionary_Tribunal", "type": "concept" },
-    { "term": "Lagrange", "matchText": "the mathematician Lagrange's verdict", "wikiSlug": "Joseph-Louis_Lagrange", "type": "person" },
-    { "term": "phlogiston", "matchText": "overthrown phlogiston", "wikiSlug": "Phlogiston_theory", "type": "concept" },
-    { "term": "oxygen", "matchText": "named oxygen", "wikiSlug": "Oxygen", "type": "concept" }
+    {
+      "term": "the Convention",
+      "matchText": "tried by the Convention",
+      "wikiSlug": "National_Convention",
+      "type": "concept"
+    },
+    {
+      "term": "the guillotine",
+      "matchText": "the guillotine working daily",
+      "wikiSlug": "Guillotine",
+      "type": "concept"
+    },
+    {
+      "term": "the Revolutionary Tribunal",
+      "matchText": "The Revolutionary Tribunal",
+      "wikiSlug": "Revolutionary_Tribunal",
+      "type": "concept"
+    },
+    {
+      "term": "Lagrange",
+      "matchText": "the mathematician Lagrange's verdict",
+      "wikiSlug": "Joseph-Louis_Lagrange",
+      "type": "person"
+    },
+    {
+      "term": "phlogiston",
+      "matchText": "overthrown phlogiston",
+      "wikiSlug": "Phlogiston_theory",
+      "type": "concept"
+    },
+    {
+      "term": "oxygen",
+      "matchText": "named oxygen",
+      "wikiSlug": "Oxygen",
+      "type": "concept"
+    }
   ],
   "18": [
-    { "term": "Hispaniola", "matchText": "the Caribbean island of Hispaniola", "wikiSlug": "Hispaniola", "type": "place" },
-    { "term": "sugar plantation", "matchText": "the systematic, lethal exploitation", "wikiSlug": "Plantation_economy", "type": "concept" },
-    { "term": "Quakers", "matchText": "Quaker organizers", "wikiSlug": "Quakers_in_the_abolition_movement", "type": "concept" },
-    { "term": "the indemnity", "matchText": "payment demanded", "wikiSlug": "Haiti_indemnity_controversy", "type": "concept" },
-    { "term": "abolitionism", "matchText": "A serious abolition movement", "wikiSlug": "Abolitionism", "type": "concept" }
+    {
+      "term": "Hispaniola",
+      "matchText": "the Caribbean island of Hispaniola",
+      "wikiSlug": "Hispaniola",
+      "type": "place"
+    },
+    {
+      "term": "sugar plantation",
+      "matchText": "the systematic, lethal exploitation",
+      "wikiSlug": "Plantation_economy",
+      "type": "concept"
+    },
+    {
+      "term": "Quakers",
+      "matchText": "Quaker organizers",
+      "wikiSlug": "Quakers_in_the_abolition_movement",
+      "type": "concept"
+    },
+    {
+      "term": "the indemnity",
+      "matchText": "payment demanded",
+      "wikiSlug": "Haiti_indemnity_controversy",
+      "type": "concept"
+    },
+    {
+      "term": "abolitionism",
+      "matchText": "A serious abolition movement",
+      "wikiSlug": "Abolitionism",
+      "type": "concept"
+    }
   ],
   "19": [
-    { "term": "Corsica", "matchText": "A minor nobleman from Corsica", "wikiSlug": "Corsica", "type": "place" },
-    { "term": "careers open to talent", "matchText": "careers open to talent", "wikiSlug": "Careers_open_to_talent", "type": "concept" },
-    { "term": "Pope Pius VII", "matchText": "from the Pope's hands", "wikiSlug": "Pope_Pius_VII", "type": "person" },
-    { "term": "civil law", "matchText": "the civil law of dozens of countries", "wikiSlug": "Civil_law_(legal_system)", "type": "concept" },
-    { "term": "nationalism", "matchText": "the beginnings of modern", "wikiSlug": "Nationalism", "type": "concept" },
-    { "term": "the Grande Armée", "matchText": "destroyed the Grande Armée", "wikiSlug": "Grande_Armée", "type": "concept" }
+    {
+      "term": "Corsica",
+      "matchText": "A minor nobleman from Corsica",
+      "wikiSlug": "Corsica",
+      "type": "place"
+    },
+    {
+      "term": "careers open to talent",
+      "matchText": "careers open to talent",
+      "wikiSlug": "Careers_open_to_talent",
+      "type": "concept"
+    },
+    {
+      "term": "Pope Pius VII",
+      "matchText": "from the Pope's hands",
+      "wikiSlug": "Pope_Pius_VII",
+      "type": "person"
+    },
+    {
+      "term": "civil law",
+      "matchText": "the civil law of dozens of countries",
+      "wikiSlug": "Civil_law_(legal_system)",
+      "type": "concept"
+    },
+    {
+      "term": "nationalism",
+      "matchText": "the beginnings of modern",
+      "wikiSlug": "Nationalism",
+      "type": "concept"
+    },
+    {
+      "term": "the Grande Armée",
+      "matchText": "destroyed the Grande Armée",
+      "wikiSlug": "Grande_Armée",
+      "type": "concept"
+    }
   ],
   "20": [
-    { "term": "consent of the governed", "matchText": "the consent of the governed", "wikiSlug": "Consent_of_the_governed", "type": "concept" },
-    { "term": "Edmund Burke", "matchText": "Edmund Burke", "wikiSlug": "Edmund_Burke", "type": "person" },
-    { "term": "Dialectic of Enlightenment", "matchText": "in 1944 in the shadow of Nazism", "wikiSlug": "Dialectic_of_Enlightenment", "type": "concept" },
-    { "term": "postcolonialism", "matchText": "The postcolonial count", "wikiSlug": "Postcolonialism", "type": "concept" },
-    { "term": "the civilizing mission", "matchText": "the civilizing-mission justification of empire", "wikiSlug": "Civilizing_mission", "type": "concept" }
+    {
+      "term": "consent of the governed",
+      "matchText": "the consent of the governed",
+      "wikiSlug": "Consent_of_the_governed",
+      "type": "concept"
+    },
+    {
+      "term": "Edmund Burke",
+      "matchText": "Edmund Burke",
+      "wikiSlug": "Edmund_Burke",
+      "type": "person"
+    },
+    {
+      "term": "Dialectic of Enlightenment",
+      "matchText": "in 1944 in the shadow of Nazism",
+      "wikiSlug": "Dialectic_of_Enlightenment",
+      "type": "concept"
+    },
+    {
+      "term": "postcolonialism",
+      "matchText": "The postcolonial count",
+      "wikiSlug": "Postcolonialism",
+      "type": "concept"
+    },
+    {
+      "term": "the civilizing mission",
+      "matchText": "the civilizing-mission justification of empire",
+      "wikiSlug": "Civilizing_mission",
+      "type": "concept"
+    }
   ]
 }

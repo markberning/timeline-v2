@@ -829,6 +829,12 @@
       "matchText": "Romance of Alexander",
       "wikiSlug": "Alexander_romance",
       "type": "concept"
+    },
+    {
+      "term": "Narmer",
+      "matchText": "Narmer",
+      "wikiSlug": "Narmer",
+      "type": "people"
     }
   ],
   "6": [
@@ -965,12 +971,6 @@
       "type": "people"
     },
     {
-      "term": "Jean-Francois Champollion",
-      "matchText": "Champollion",
-      "wikiSlug": "Jean-Fran%C3%A7ois_Champollion",
-      "type": "people"
-    },
-    {
       "term": "Mark Antony",
       "matchText": "Mark Antony",
       "wikiSlug": "Mark_Antony",
@@ -981,6 +981,12 @@
       "matchText": "Arses",
       "wikiSlug": "Arses_of_Persia",
       "type": "people"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1173,18 +1179,6 @@
       "type": "place"
     },
     {
-      "term": "Roman Empire",
-      "matchText": "Roman Empire",
-      "wikiSlug": "Roman_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Narmer",
-      "matchText": "Narmer",
-      "wikiSlug": "Narmer",
-      "type": "people"
-    },
-    {
       "term": "Ramesses III",
       "matchText": "Ramesses III",
       "wikiSlug": "Ramesses_III",
@@ -1195,6 +1189,12 @@
       "matchText": "Graffito of Esmet-Akhom",
       "wikiSlug": "Graffito_of_Esmet-Akhom",
       "type": "concept"
+    },
+    {
+      "term": "Jean-Francois Champollion",
+      "matchText": "Champollion",
+      "wikiSlug": "Jean-Fran%C3%A7ois_Champollion",
+      "type": "people"
     }
   ]
 }

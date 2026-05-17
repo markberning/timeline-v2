@@ -333,12 +333,6 @@
       "type": "concept"
     },
     {
-      "term": "Cuneiform",
-      "matchText": "cuneiform",
-      "wikiSlug": "Cuneiform",
-      "type": "concept"
-    },
-    {
       "term": "Cyclopean masonry",
       "matchText": "Cyclopean masonry",
       "wikiSlug": "Cyclopean_masonry",
@@ -808,6 +802,12 @@
       "term": "Linear B",
       "matchText": "Linear B",
       "wikiSlug": "Linear_B",
+      "type": "concept"
+    },
+    {
+      "term": "Cuneiform",
+      "matchText": "cuneiform",
+      "wikiSlug": "Cuneiform",
       "type": "concept"
     }
   ],

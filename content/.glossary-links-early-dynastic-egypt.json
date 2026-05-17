@@ -403,6 +403,12 @@
       "matchText": "Naqada Sequence",
       "wikiSlug": "Naqada_culture",
       "type": "concept"
+    },
+    {
+      "term": "cylinder seal",
+      "matchText": "cylinder-seal",
+      "wikiSlug": "Cylinder_seal",
+      "type": "concept"
     }
   ],
   "3": [
@@ -551,16 +557,16 @@
       "type": "place"
     },
     {
-      "term": "cylinder seal",
-      "matchText": "cylinder-seal",
-      "wikiSlug": "Cylinder_seal",
-      "type": "concept"
-    },
-    {
       "term": "Naqada II",
       "matchText": "Naqada II",
       "wikiSlug": "Naqada_culture",
       "type": "concept"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
     }
   ],
   "4": [
@@ -1013,12 +1019,6 @@
       "type": "concept"
     },
     {
-      "term": "Karnak",
-      "matchText": "Karnak",
-      "wikiSlug": "Karnak",
-      "type": "place"
-    },
-    {
       "term": "Lebanon",
       "matchText": "Lebanon",
       "wikiSlug": "Lebanon",
@@ -1029,6 +1029,18 @@
       "matchText": "Hor-Aha",
       "wikiSlug": "Hor-Aha",
       "type": "people"
+    },
+    {
+      "term": "Lagash",
+      "matchText": "Lagash",
+      "wikiSlug": "Lagash",
+      "type": "place"
+    },
+    {
+      "term": "Nippur",
+      "matchText": "Nippur",
+      "wikiSlug": "Nippur",
+      "type": "place"
     }
   ],
   "7": [
@@ -1123,18 +1135,6 @@
       "type": "concept"
     },
     {
-      "term": "Lagash",
-      "matchText": "Lagash",
-      "wikiSlug": "Lagash",
-      "type": "place"
-    },
-    {
-      "term": "Nippur",
-      "matchText": "Nippur",
-      "wikiSlug": "Nippur",
-      "type": "place"
-    },
-    {
       "term": "Step Pyramid",
       "matchText": "Step Pyramid",
       "wikiSlug": "Pyramid_of_Djoser",
@@ -1144,18 +1144,6 @@
       "term": "rammed earth",
       "matchText": "rammed-earth",
       "wikiSlug": "Rammed_earth",
-      "type": "concept"
-    },
-    {
-      "term": "Apophis (serpent)",
-      "matchText": "Apophis",
-      "wikiSlug": "Apophis_(deity)",
-      "type": "concept"
-    },
-    {
-      "term": "solar barque",
-      "matchText": "solar bark",
-      "wikiSlug": "Solar_barque",
       "type": "concept"
     }
   ],
@@ -1291,6 +1279,18 @@
       "matchText": "Khasekhemwy",
       "wikiSlug": "Khasekhemwy",
       "type": "people"
+    },
+    {
+      "term": "Apophis (serpent)",
+      "matchText": "Apophis",
+      "wikiSlug": "Apophis_(deity)",
+      "type": "concept"
+    },
+    {
+      "term": "solar barque",
+      "matchText": "solar bark",
+      "wikiSlug": "Solar_barque",
+      "type": "concept"
     }
   ]
 }

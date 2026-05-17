@@ -453,6 +453,12 @@
       "matchText": "Crimissus",
       "wikiSlug": "Crimissus",
       "type": "place"
+    },
+    {
+      "term": "mercenary system",
+      "matchText": "mercenaries and allied contingents",
+      "wikiSlug": "Military_of_Carthage",
+      "type": "concept"
     }
   ],
   "4": [
@@ -1012,12 +1018,6 @@
       "term": "Numidian cavalry",
       "matchText": "Numidian cavalry",
       "wikiSlug": "Numidia",
-      "type": "concept"
-    },
-    {
-      "term": "mercenary system",
-      "matchText": "mercenaries and allied contingents",
-      "wikiSlug": "Military_of_Carthage",
       "type": "concept"
     },
     {

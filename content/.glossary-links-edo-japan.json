@@ -80,7 +80,7 @@
     },
     {
       "term": "Kanto region",
-      "matchText": "Kantō",
+      "matchText": "Kant",
       "wikiSlug": "Kant%C5%8D_region",
       "type": "place"
     },
@@ -115,12 +115,6 @@
       "type": "people"
     },
     {
-      "term": "William Adams (sailor)",
-      "matchText": "William Adams",
-      "wikiSlug": "William_Adams_(pilot)",
-      "type": "people"
-    },
-    {
       "term": "Battle of Sekigahara",
       "matchText": "Sekigahara",
       "wikiSlug": "Battle_of_Sekigahara",
@@ -142,7 +136,7 @@
     },
     {
       "term": "Rōjū",
-      "matchText": "Rōjū",
+      "matchText": "Rōj",
       "wikiSlug": "R%C5%8Dj%C5%AB",
       "type": "concept"
     },
@@ -178,19 +172,19 @@
     },
     {
       "term": "Chōshū Domain",
-      "matchText": "Chōshū",
+      "matchText": "Chōsh",
       "wikiSlug": "Ch%C5%8Dsh%C5%AB_Domain",
       "type": "place"
     },
     {
       "term": "Tōkaidō",
-      "matchText": "Tōkaidō",
+      "matchText": "Tōkaid",
       "wikiSlug": "T%C5%8Dkaid%C5%8D_(road)",
       "type": "place"
     },
     {
       "term": "Nakasendō",
-      "matchText": "Nakasendō",
+      "matchText": "Nakasend",
       "wikiSlug": "Nakasend%C5%8D",
       "type": "place"
     },
@@ -202,7 +196,7 @@
     },
     {
       "term": "Daishō",
-      "matchText": "daishō",
+      "matchText": "daish",
       "wikiSlug": "Daish%C5%8D",
       "type": "concept"
     },
@@ -363,6 +357,12 @@
       "matchText": "Sakoku",
       "wikiSlug": "Sakoku",
       "type": "concept"
+    },
+    {
+      "term": "William Adams (sailor)",
+      "matchText": "William Adams",
+      "wikiSlug": "William_Adams_(pilot)",
+      "type": "people"
     }
   ],
   "4": [
@@ -392,7 +392,7 @@
     },
     {
       "term": "Tayū",
-      "matchText": "tayū",
+      "matchText": "tay",
       "wikiSlug": "Tay%C5%AB",
       "type": "concept"
     },
@@ -404,7 +404,7 @@
     },
     {
       "term": "Ichikawa Danjūrō",
-      "matchText": "Ichikawa Danjūrō",
+      "matchText": "Ichikawa Danjūr",
       "wikiSlug": "Ichikawa_Danj%C5%ABr%C5%8D",
       "type": "people"
     },
@@ -497,6 +497,24 @@
       "matchText": "Kinai",
       "wikiSlug": "Kinai",
       "type": "place"
+    },
+    {
+      "term": "Hokusai",
+      "matchText": "Hokusai",
+      "wikiSlug": "Hokusai",
+      "type": "people"
+    },
+    {
+      "term": "Hiroshige",
+      "matchText": "Hiroshige",
+      "wikiSlug": "Hiroshige",
+      "type": "people"
+    },
+    {
+      "term": "Utamaro",
+      "matchText": "Utamaro",
+      "wikiSlug": "Kitagawa_Utamaro",
+      "type": "people"
     }
   ],
   "5": [
@@ -520,7 +538,7 @@
     },
     {
       "term": "Ōishi Yoshio",
-      "matchText": "Ōishi Kuranosuke",
+      "matchText": "ishi Kuranosuke",
       "wikiSlug": "%C5%8Cishi_Yoshio",
       "type": "people"
     },
@@ -576,7 +594,7 @@
   "6": [
     {
       "term": "Kanpō",
-      "matchText": "kanpō",
+      "matchText": "kanp",
       "wikiSlug": "Kamp%C5%8D",
       "type": "concept"
     },
@@ -645,12 +663,6 @@
       "matchText": "European Enlightenment",
       "wikiSlug": "Age_of_Enlightenment",
       "type": "concept"
-    },
-    {
-      "term": "First Opium War",
-      "matchText": "First Opium War",
-      "wikiSlug": "First_Opium_War",
-      "type": "concept"
     }
   ],
   "7": [
@@ -698,7 +710,7 @@
     },
     {
       "term": "Ōshio Heihachirō",
-      "matchText": "Ōshio Heihachirō",
+      "matchText": "shio Heihachir",
       "wikiSlug": "%C5%8Cshio_Heihachir%C5%8D",
       "type": "people"
     },
@@ -733,22 +745,10 @@
       "type": "concept"
     },
     {
-      "term": "Hokusai",
-      "matchText": "Hokusai",
-      "wikiSlug": "Hokusai",
-      "type": "people"
-    },
-    {
-      "term": "Hiroshige",
-      "matchText": "Hiroshige",
-      "wikiSlug": "Hiroshige",
-      "type": "people"
-    },
-    {
-      "term": "Utamaro",
-      "matchText": "Utamaro",
-      "wikiSlug": "Kitagawa_Utamaro",
-      "type": "people"
+      "term": "First Opium War",
+      "matchText": "First Opium War",
+      "wikiSlug": "First_Opium_War",
+      "type": "concept"
     }
   ],
   "8": [
@@ -874,7 +874,7 @@
     },
     {
       "term": "Katsu Kaishū",
-      "matchText": "Katsu Kaishū",
+      "matchText": "Katsu Kaish",
       "wikiSlug": "Katsu_Kaish%C5%AB",
       "type": "people"
     },

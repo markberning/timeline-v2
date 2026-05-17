@@ -155,6 +155,18 @@
       "matchText": "Cleopatra",
       "wikiSlug": "Cleopatra",
       "type": "people"
+    },
+    {
+      "term": "Sumerians",
+      "matchText": "Sumerians",
+      "wikiSlug": "Sumer",
+      "type": "people"
+    },
+    {
+      "term": "Delos",
+      "matchText": "Delos",
+      "wikiSlug": "Delos",
+      "type": "place"
     }
   ],
   "2": [
@@ -267,12 +279,6 @@
       "type": "concept"
     },
     {
-      "term": "Sumerians",
-      "matchText": "Sumerians",
-      "wikiSlug": "Sumer",
-      "type": "people"
-    },
-    {
       "term": "Copper",
       "matchText": "copper",
       "wikiSlug": "Copper",
@@ -295,6 +301,12 @@
       "matchText": "Petsofas",
       "wikiSlug": "Petsofas",
       "type": "place"
+    },
+    {
+      "term": "Corbelling",
+      "matchText": "corbelled",
+      "wikiSlug": "Corbelling",
+      "type": "concept"
     }
   ],
   "3": [
@@ -452,6 +464,12 @@
       "term": "Knossos",
       "matchText": "Knossos",
       "wikiSlug": "Knossos",
+      "type": "place"
+    },
+    {
+      "term": "Nile Delta",
+      "matchText": "Nile Delta",
+      "wikiSlug": "Nile_Delta",
       "type": "place"
     }
   ],
@@ -613,12 +631,6 @@
       "type": "place"
     },
     {
-      "term": "Anemospilia",
-      "matchText": "Anemospilia",
-      "wikiSlug": "Anemospilia",
-      "type": "place"
-    },
-    {
       "term": "Neopalatial period",
       "matchText": "Neopalatial period",
       "wikiSlug": "Minoan_civilization",
@@ -628,12 +640,6 @@
       "term": "Terracotta",
       "matchText": "terracotta",
       "wikiSlug": "Terracotta",
-      "type": "concept"
-    },
-    {
-      "term": "Corbelling",
-      "matchText": "corbelled",
-      "wikiSlug": "Corbelling",
       "type": "concept"
     },
     {
@@ -811,6 +817,12 @@
       "matchText": "Anemospilia",
       "wikiSlug": "Anemospilia",
       "type": "place"
+    },
+    {
+      "term": "Anemospilia",
+      "matchText": "Anemospilia",
+      "wikiSlug": "Anemospilia",
+      "type": "place"
     }
   ],
   "6": [
@@ -927,12 +939,6 @@
       "matchText": "Critias",
       "wikiSlug": "Critias_(dialogue)",
       "type": "concept"
-    },
-    {
-      "term": "Nile Delta",
-      "matchText": "Nile Delta",
-      "wikiSlug": "Nile_Delta",
-      "type": "place"
     },
     {
       "term": "Sulfate",
@@ -1249,12 +1255,6 @@
       "matchText": "reinforced concrete",
       "wikiSlug": "Reinforced_concrete",
       "type": "concept"
-    },
-    {
-      "term": "Delos",
-      "matchText": "Delos",
-      "wikiSlug": "Delos",
-      "type": "place"
     },
     {
       "term": "Dictaean Cave",

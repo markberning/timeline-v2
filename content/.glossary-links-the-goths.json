@@ -123,18 +123,6 @@
       "type": "place"
     },
     {
-      "term": "Bosphorus",
-      "matchText": "Bosphorus",
-      "wikiSlug": "Bosphorus",
-      "type": "place"
-    },
-    {
-      "term": "Dardanelles",
-      "matchText": "Dardanelles",
-      "wikiSlug": "Dardanelles",
-      "type": "place"
-    },
-    {
       "term": "Maximinus Thrax",
       "matchText": "Maximinus Thrax",
       "wikiSlug": "Maximinus_Thrax",
@@ -153,22 +141,16 @@
       "type": "place"
     },
     {
-      "term": "foederati",
-      "matchText": "foederati",
-      "wikiSlug": "Foederati",
-      "type": "concept"
-    },
-    {
-      "term": "coloni",
-      "matchText": "coloni",
-      "wikiSlug": "Colonus_(person)",
-      "type": "concept"
-    },
-    {
       "term": "Alans",
       "matchText": "Alan",
       "wikiSlug": "Alans",
       "type": "group"
+    },
+    {
+      "term": "Eurasian steppe",
+      "matchText": "great Eurasian grassland highway",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
     }
   ],
   "3": [
@@ -249,6 +231,24 @@
       "matchText": "Decius",
       "wikiSlug": "Decius",
       "type": "people"
+    },
+    {
+      "term": "Bosphorus",
+      "matchText": "Bosphorus",
+      "wikiSlug": "Bosphorus",
+      "type": "place"
+    },
+    {
+      "term": "Dardanelles",
+      "matchText": "Dardanelles",
+      "wikiSlug": "Dardanelles",
+      "type": "place"
+    },
+    {
+      "term": "coloni",
+      "matchText": "coloni",
+      "wikiSlug": "Colonus_(person)",
+      "type": "concept"
     }
   ],
   "4": [
@@ -299,12 +299,6 @@
       "matchText": "Heruli",
       "wikiSlug": "Heruli",
       "type": "group"
-    },
-    {
-      "term": "Beowulf",
-      "matchText": "Beowulf",
-      "wikiSlug": "Beowulf",
-      "type": "other"
     },
     {
       "term": "Don River",
@@ -403,6 +397,12 @@
       "matchText": "Ulfilas",
       "wikiSlug": "Ulfilas",
       "type": "people"
+    },
+    {
+      "term": "Beowulf",
+      "matchText": "Beowulf",
+      "wikiSlug": "Beowulf",
+      "type": "other"
     }
   ],
   "6": [
@@ -449,22 +449,16 @@
       "type": "people"
     },
     {
-      "term": "Theodosius I",
-      "matchText": "Theodosius I",
-      "wikiSlug": "Theodosius_I",
-      "type": "people"
-    },
-    {
       "term": "Foedus",
       "matchText": "foedus",
       "wikiSlug": "Foederati",
       "type": "concept"
     },
     {
-      "term": "Eurasian steppe",
-      "matchText": "great Eurasian grassland highway",
-      "wikiSlug": "Eurasian_Steppe",
-      "type": "place"
+      "term": "foederati",
+      "matchText": "foederati",
+      "wikiSlug": "Foederati",
+      "type": "concept"
     }
   ],
   "7": [
@@ -478,12 +472,6 @@
       "term": "Gratian",
       "matchText": "Gratian",
       "wikiSlug": "Gratian",
-      "type": "people"
-    },
-    {
-      "term": "Honorius",
-      "matchText": "Honorius",
-      "wikiSlug": "Honorius_(emperor)",
       "type": "people"
     },
     {
@@ -527,6 +515,12 @@
       "matchText": "foedus",
       "wikiSlug": "Foederati",
       "type": "concept"
+    },
+    {
+      "term": "Theodosius I",
+      "matchText": "Theodosius I",
+      "wikiSlug": "Theodosius_I",
+      "type": "people"
     }
   ],
   "8": [
@@ -606,6 +600,12 @@
       "term": "Alaric I",
       "matchText": "Alaric",
       "wikiSlug": "Alaric_I",
+      "type": "people"
+    },
+    {
+      "term": "Honorius",
+      "matchText": "Honorius",
+      "wikiSlug": "Honorius_(emperor)",
       "type": "people"
     }
   ],

@@ -248,7 +248,7 @@
   "4": [
     {
       "term": "Æthelberht of Kent",
-      "matchText": "Æthelberht of Kent",
+      "matchText": "thelberht of Kent",
       "wikiSlug": "Æthelberht_of_Kent",
       "type": "people"
     },
@@ -455,12 +455,6 @@
       "type": "place"
     },
     {
-      "term": "computus",
-      "matchText": "computus",
-      "wikiSlug": "Computus",
-      "type": "concept"
-    },
-    {
       "term": "diocese",
       "matchText": "dioceses",
       "wikiSlug": "Diocese",
@@ -575,6 +569,12 @@
       "matchText": "Hexham",
       "wikiSlug": "Hexham_Abbey",
       "type": "place"
+    },
+    {
+      "term": "computus",
+      "matchText": "computus",
+      "wikiSlug": "Computus",
+      "type": "concept"
     }
   ],
   "8": [

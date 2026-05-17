@@ -607,12 +607,6 @@
       "matchText": "Emperor Konin",
       "wikiSlug": "Emperor_Kōnin",
       "type": "person"
-    },
-    {
-      "term": "Battle of Talas",
-      "matchText": "Battle of Talas",
-      "wikiSlug": "Battle_of_Talas",
-      "type": "concept"
     }
   ],
   "6": [
@@ -735,6 +729,12 @@
       "matchText": "Borobudur",
       "wikiSlug": "Borobudur",
       "type": "place"
+    },
+    {
+      "term": "Battle of Talas",
+      "matchText": "Battle of Talas",
+      "wikiSlug": "Battle_of_Talas",
+      "type": "concept"
     }
   ],
   "7": [

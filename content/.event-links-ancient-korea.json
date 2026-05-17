@@ -1,278 +1,83 @@
 {
   "1": [
-    {
-      "eventId": "evt-korean-bronze-age",
-      "matchText": "Korean Bronze Age"
-    }
   ],
   "2": [
-    {
-      "eventId": "evt-dangun-founding",
-      "matchText": "Dangun Wanggeom"
-    },
-    {
-      "eventId": "evt-dangun-founding",
-      "matchText": "National Foundation Day"
-    },
-    {
-      "eventId": "evt-korean-bronze-age",
-      "matchText": "Korean Bronze Age began roughly around 1500 BCE"
-    },
-    {
-      "eventId": "evt-mumun-pottery",
-      "matchText": "Mumun pottery period"
-    },
-    {
-      "eventId": "evt-dolmen-culture",
-      "matchText": "Korea has more dolmens than anywhere else on Earth"
-    },
-    {
-      "eventId": "evt-rice-cultivation-korea",
-      "matchText": "Wet-rice cultivation"
-    },
-    {
-      "eventId": "evt-korean-shamanism",
-      "matchText": "Korean shamanism"
-    }
+    {"eventId":"evt-dangun-founding","matchText":"Dangun Wanggeom"},
+    {"eventId":"evt-dangun-founding","matchText":"National Foundation Day"},
+    {"eventId":"evt-korean-bronze-age","matchText":"Korean Bronze Age began roughly around 1500 BCE"},
+    {"eventId":"evt-mumun-pottery","matchText":"Mumun pottery period"},
+    {"eventId":"evt-dolmen-culture","matchText":"Korea has more dolmens than anywhere else on Earth"},
+    {"eventId":"evt-rice-cultivation-korea","matchText":"Wet-rice cultivation"},
+    {"eventId":"evt-korean-shamanism","matchText":"Korean shamanism"},
+    {"eventId":"evt-korean-bronze-age","matchText":"Korean Bronze Age"}
   ],
   "3": [
-    {
-      "eventId": "evt-korean-iron-age",
-      "matchText": "a new technology reached the Korean peninsula from China: iron"
-    },
-    {
-      "eventId": "evt-wiman-joseon",
-      "matchText": "Wiman Joseon"
-    },
-    {
-      "eventId": "evt-fall-of-gojoseon",
-      "matchText": "In 108 BCE, internal rebels assassinated the Gojoseon king"
-    },
-    {
-      "eventId": "evt-han-commanderies",
-      "matchText": "He established four commanderies"
-    },
-    {
-      "eventId": "evt-lelang-commandery",
-      "matchText": "only Lelang"
-    },
-    {
-      "eventId": "evt-samhan-confederacies",
-      "matchText": "Samhan"
-    },
-    {
-      "eventId": "evt-iron-trade-gaya",
-      "matchText": "Byeonhan iron was being exported to China and Japan"
-    }
+    {"eventId":"evt-korean-iron-age","matchText":"a new technology reached the Korean peninsula from China: iron"},
+    {"eventId":"evt-wiman-joseon","matchText":"Wiman Joseon"},
+    {"eventId":"evt-fall-of-gojoseon","matchText":"In 108 BCE, internal rebels assassinated the Gojoseon king"},
+    {"eventId":"evt-han-commanderies","matchText":"He established four commanderies"},
+    {"eventId":"evt-lelang-commandery","matchText":"only Lelang"},
+    {"eventId":"evt-samhan-confederacies","matchText":"Samhan"},
+    {"eventId":"evt-iron-trade-gaya","matchText":"Byeonhan iron was being exported to China and Japan"}
   ],
   "4": [
-    {
-      "eventId": "evt-silla-founding",
-      "matchText": "Silla in 57 BCE"
-    },
-    {
-      "eventId": "evt-goguryeo-founding",
-      "matchText": "Goguryeo was established by Jumong"
-    },
-    {
-      "eventId": "evt-baekje-founding",
-      "matchText": "Baekje was founded by Onjo"
-    },
-    {
-      "eventId": "evt-gaya-founding",
-      "matchText": "Gaya Confederacy"
-    },
-    {
-      "eventId": "evt-silla-gold-crowns",
-      "matchText": "Silla gold crowns"
-    },
-    {
-      "eventId": "evt-silla-bone-rank",
-      "matchText": "bone-rank system"
-    },
-    {
-      "eventId": "evt-buddhism-goguryeo",
-      "matchText": "Goguryeo simultaneously adopted Buddhism"
-    },
-    {
-      "eventId": "evt-confucian-academy",
-      "matchText": "Taehak"
-    },
-    {
-      "eventId": "evt-goguryeo-conquers-lelang",
-      "matchText": "Goguryeo conquered Lelang Commandery"
-    },
-    {
-      "eventId": "evt-silla-gaya-conquest",
-      "matchText": "In 562 CE, Silla conquered the last Gaya states"
-    }
+    {"eventId":"evt-silla-founding","matchText":"Silla in 57 BCE"},
+    {"eventId":"evt-goguryeo-founding","matchText":"Goguryeo was established by Jumong"},
+    {"eventId":"evt-baekje-founding","matchText":"Baekje was founded by Onjo"},
+    {"eventId":"evt-gaya-founding","matchText":"Gaya Confederacy"},
+    {"eventId":"evt-silla-gold-crowns","matchText":"Silla gold crowns"},
+    {"eventId":"evt-silla-bone-rank","matchText":"bone-rank system"},
+    {"eventId":"evt-buddhism-goguryeo","matchText":"Goguryeo simultaneously adopted Buddhism"},
+    {"eventId":"evt-confucian-academy","matchText":"Taehak"},
+    {"eventId":"evt-goguryeo-conquers-lelang","matchText":"Goguryeo conquered Lelang Commandery"},
+    {"eventId":"evt-silla-gaya-conquest","matchText":"In 562 CE, Silla conquered the last Gaya states"},
+    {"eventId":"evt-goguryeo-fortress","matchText":"mountain fortresses"}
   ],
   "5": [
-    {
-      "eventId": "evt-gwanggaeto-expands",
-      "matchText": "Gwanggaeto"
-    },
-    {
-      "eventId": "evt-gwanggaeto-stele",
-      "matchText": "Gwanggaeto Stele"
-    },
-    {
-      "eventId": "evt-jangsu-moves-capital",
-      "matchText": "King Jangsu"
-    },
-    {
-      "eventId": "evt-goguryeo-tombs",
-      "matchText": "painted tombs"
-    },
-    {
-      "eventId": "evt-ondol-heating",
-      "matchText": "ondol"
-    },
-    {
-      "eventId": "evt-goguryeo-sui-war",
-      "matchText": "Battle of Salsu"
-    },
-    {
-      "eventId": "evt-eulji-mundeok",
-      "matchText": "Eulji Mundeok"
-    },
-    {
-      "eventId": "evt-goguryeo-fortress",
-      "matchText": "mountain fortresses"
-    },
-    {
-      "eventId": "evt-goguryeo-tang-war",
-      "matchText": "fortress of Ansi"
-    }
+    {"eventId":"evt-gwanggaeto-expands","matchText":"Gwanggaeto"},
+    {"eventId":"evt-gwanggaeto-stele","matchText":"Gwanggaeto Stele"},
+    {"eventId":"evt-jangsu-moves-capital","matchText":"King Jangsu"},
+    {"eventId":"evt-goguryeo-tombs","matchText":"painted tombs"},
+    {"eventId":"evt-ondol-heating","matchText":"ondol"},
+    {"eventId":"evt-goguryeo-sui-war","matchText":"Battle of Salsu"},
+    {"eventId":"evt-eulji-mundeok","matchText":"Eulji Mundeok"},
+    {"eventId":"evt-goguryeo-tang-war","matchText":"fortress of Ansi"}
   ],
   "6": [
-    {
-      "eventId": "evt-buddhism-baekje",
-      "matchText": "Buddhism arrived in 384 CE"
-    },
-    {
-      "eventId": "evt-buddhism-silla",
-      "matchText": "Ichadon"
-    },
-    {
-      "eventId": "evt-baekje-japan-trade",
-      "matchText": "Baekje transmitted a massive package of Chinese and Korean culture"
-    },
-    {
-      "eventId": "evt-baekje-buddhist-art",
-      "matchText": "Baekje Incense Burner"
-    },
-    {
-      "eventId": "evt-mireuksa",
-      "matchText": "Mireuksa"
-    },
-    {
-      "eventId": "evt-idu-writing",
-      "matchText": "Idu"
-    },
-    {
-      "eventId": "evt-samguk-sagi-sources",
-      "matchText": "Each of the Three Kingdoms also compiled official histories"
-    }
+    {"eventId":"evt-buddhism-baekje","matchText":"Buddhism arrived in 384 CE"},
+    {"eventId":"evt-buddhism-silla","matchText":"Ichadon"},
+    {"eventId":"evt-baekje-japan-trade","matchText":"Baekje transmitted a massive package of Chinese and Korean culture"},
+    {"eventId":"evt-baekje-buddhist-art","matchText":"Baekje Incense Burner"},
+    {"eventId":"evt-mireuksa","matchText":"Mireuksa"},
+    {"eventId":"evt-idu-writing","matchText":"Idu"},
+    {"eventId":"evt-samguk-sagi-sources","matchText":"Each of the Three Kingdoms also compiled official histories"}
   ],
   "7": [
-    {
-      "eventId": "evt-yeon-gaesomun",
-      "matchText": "Yeon Gaesomun"
-    },
-    {
-      "eventId": "evt-queen-seondeok",
-      "matchText": "Queen Seondeok"
-    },
-    {
-      "eventId": "evt-kim-yusin",
-      "matchText": "General Kim Yusin"
-    },
-    {
-      "eventId": "evt-hwarang",
-      "matchText": "Hwarang"
-    },
-    {
-      "eventId": "evt-baekje-falls",
-      "matchText": "The Baekje capital at Sabi fell"
-    },
-    {
-      "eventId": "evt-goguryeo-falls",
-      "matchText": "Pyongyang, fell after a siege"
-    },
-    {
-      "eventId": "evt-silla-unification",
-      "matchText": "Silla began a war against its former ally"
-    },
-    {
-      "eventId": "evt-silla-expels-tang",
-      "matchText": "Tang recognized Silla's sovereignty"
-    },
-    {
-      "eventId": "evt-cheomseongdae",
-      "matchText": "Cheomseongdae"
-    }
+    {"eventId":"evt-yeon-gaesomun","matchText":"Yeon Gaesomun"},
+    {"eventId":"evt-queen-seondeok","matchText":"Queen Seondeok"},
+    {"eventId":"evt-kim-yusin","matchText":"General Kim Yusin"},
+    {"eventId":"evt-hwarang","matchText":"Hwarang"},
+    {"eventId":"evt-baekje-falls","matchText":"The Baekje capital at Sabi fell"},
+    {"eventId":"evt-goguryeo-falls","matchText":"Pyongyang, fell after a siege"},
+    {"eventId":"evt-silla-unification","matchText":"Silla began a war against its former ally"},
+    {"eventId":"evt-silla-expels-tang","matchText":"Tang recognized Silla's sovereignty"},
+    {"eventId":"evt-cheomseongdae","matchText":"Cheomseongdae"}
   ],
   "8": [
-    {
-      "eventId": "evt-bulguksa",
-      "matchText": "Bulguksa"
-    },
-    {
-      "eventId": "evt-seokguram",
-      "matchText": "Seokguram Grotto"
-    },
-    {
-      "eventId": "evt-woodblock-printing",
-      "matchText": "Mugujeonggwang Great Dharani Sutra"
-    },
-    {
-      "eventId": "evt-emille-bell",
-      "matchText": "Emille Bell"
-    },
-    {
-      "eventId": "evt-wonhyo",
-      "matchText": "Wonhyo"
-    },
-    {
-      "eventId": "evt-unified-silla-golden-age",
-      "matchText": "golden age of ancient Korean civilization"
-    },
-    {
-      "eventId": "evt-gyeongju-royal-tombs",
-      "matchText": "over 150 massive burial mounds"
-    },
-    {
-      "eventId": "evt-hyangga-poetry",
-      "matchText": "hyangga"
-    },
-    {
-      "eventId": "evt-silla-national-academy",
-      "matchText": "Gukhak"
-    },
-    {
-      "eventId": "evt-silla-celadon-precursors",
-      "matchText": "celadon"
-    },
-    {
-      "eventId": "evt-silk-road-silla",
-      "matchText": "Glass beads, gold filigree, and decorative motifs"
-    },
-    {
-      "eventId": "evt-jang-bogo",
-      "matchText": "Jang Bogo"
-    },
-    {
-      "eventId": "evt-later-three-kingdoms",
-      "matchText": "Later Three Kingdoms"
-    },
-    {
-      "eventId": "evt-wang-geon-goryeo",
-      "matchText": "Wang Geon"
-    },
-    {
-      "eventId": "evt-silla-surrenders",
-      "matchText": "last Silla king, Gyeongsun, peacefully surrendered"
-    }
+    {"eventId":"evt-bulguksa","matchText":"Bulguksa"},
+    {"eventId":"evt-seokguram","matchText":"Seokguram Grotto"},
+    {"eventId":"evt-woodblock-printing","matchText":"Mugujeonggwang Great Dharani Sutra"},
+    {"eventId":"evt-emille-bell","matchText":"Emille Bell"},
+    {"eventId":"evt-wonhyo","matchText":"Wonhyo"},
+    {"eventId":"evt-unified-silla-golden-age","matchText":"golden age of ancient Korean civilization"},
+    {"eventId":"evt-gyeongju-royal-tombs","matchText":"over 150 massive burial mounds"},
+    {"eventId":"evt-hyangga-poetry","matchText":"hyangga"},
+    {"eventId":"evt-silla-national-academy","matchText":"Gukhak"},
+    {"eventId":"evt-silla-celadon-precursors","matchText":"celadon"},
+    {"eventId":"evt-silk-road-silla","matchText":"Glass beads, gold filigree, and decorative motifs"},
+    {"eventId":"evt-jang-bogo","matchText":"Jang Bogo"},
+    {"eventId":"evt-later-three-kingdoms","matchText":"Later Three Kingdoms"},
+    {"eventId":"evt-wang-geon-goryeo","matchText":"Wang Geon"},
+    {"eventId":"evt-silla-surrenders","matchText":"last Silla king, Gyeongsun, peacefully surrendered"}
   ]
 }

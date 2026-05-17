@@ -1,246 +1,75 @@
 {
   "1": [
-    {
-      "eventId": "evt-kush-independence",
-      "matchText": "Egypt entered what historians call the"
-    },
-    {
-      "eventId": "evt-kush-napata-state",
-      "matchText": "the Napatan state did not spring into existence"
-    },
-    {
-      "eventId": "evt-el-kurru-pyramids",
-      "matchText": "El-Kurru is the oldest royal burial ground"
-    },
-    {
-      "eventId": "evt-gold-trade",
-      "matchText": "Nubia had been the gold source"
-    },
-    {
-      "eventId": "evt-alara",
-      "matchText": "Alara is traditionally credited with unifying Upper Nubia"
-    },
-    {
-      "eventId": "evt-kashta",
-      "matchText": "he pushed north into Egypt"
-    },
-    {
-      "eventId": "evt-amenirdis",
-      "matchText": "Amenirdis I"
-    }
+    {"eventId":"evt-kush-independence","matchText":"Egypt entered what historians call the"},
+    {"eventId":"evt-kush-napata-state","matchText":"the Napatan state did not spring into existence"},
+    {"eventId":"evt-el-kurru-pyramids","matchText":"El-Kurru is the oldest royal burial ground"},
+    {"eventId":"evt-gold-trade","matchText":"Nubia had been the gold source"},
+    {"eventId":"evt-alara","matchText":"Alara is traditionally credited with unifying Upper Nubia"},
+    {"eventId":"evt-kashta","matchText":"he pushed north into Egypt"},
+    {"eventId":"evt-amenirdis","matchText":"Amenirdis I"}
   ],
   "2": [
-    {
-      "eventId": "evt-piye-reign",
-      "matchText": "Piye had inherited the throne from his father Kashta"
-    },
-    {
-      "eventId": "evt-piye-conquest",
-      "matchText": "Piye marched the entire length of the Nile"
-    },
-    {
-      "eventId": "evt-kush-piye-stela-detail",
-      "matchText": "Victory Stela of Piye"
-    },
-    {
-      "eventId": "evt-piye-victory-stela",
-      "matchText": "over 150 lines of hieroglyphic text"
-    },
-    {
-      "eventId": "evt-shabaka",
-      "matchText": "His brother Shabaka inherited"
-    }
+    {"eventId":"evt-piye-reign","matchText":"Piye had inherited the throne from his father Kashta"},
+    {"eventId":"evt-piye-conquest","matchText":"Piye marched the entire length of the Nile"},
+    {"eventId":"evt-kush-piye-stela-detail","matchText":"Victory Stela of Piye"},
+    {"eventId":"evt-piye-victory-stela","matchText":"over 150 lines of hieroglyphic text"},
+    {"eventId":"evt-shabaka","matchText":"His brother Shabaka inherited"},
+    {"eventId":"evt-fall-of-memphis","matchText":"captured Memphis"}
   ],
   "3": [
-    {
-      "eventId": "evt-shabaka",
-      "matchText": "Shabaka took the throne around 714 BCE"
-    },
-    {
-      "eventId": "evt-shabaka-stone",
-      "matchText": "Shabaka Stone"
-    },
-    {
-      "eventId": "evt-shebitku",
-      "matchText": "Shebitku"
-    },
-    {
-      "eventId": "evt-taharqa-reign",
-      "matchText": "Taharqa took the throne around 690 BCE"
-    },
-    {
-      "eventId": "evt-taharqa-karnak",
-      "matchText": "great colonnade in the first court"
-    },
-    {
-      "eventId": "evt-nuri-pyramids",
-      "matchText": "he began the royal pyramid necropolis at Nuri"
-    },
-    {
-      "eventId": "evt-gebel-barkal-temples",
-      "matchText": "greatly expanded the temple complex at Jebel Barkal"
-    },
-    {
-      "eventId": "evt-assyrian-invasion",
-      "matchText": "Neo-Assyrian Empire"
-    }
+    {"eventId":"evt-shabaka","matchText":"Shabaka took the throne around 714 BCE"},
+    {"eventId":"evt-shabaka-stone","matchText":"Shabaka Stone"},
+    {"eventId":"evt-shebitku","matchText":"Shebitku"},
+    {"eventId":"evt-taharqa-reign","matchText":"Taharqa took the throne around 690 BCE"},
+    {"eventId":"evt-taharqa-karnak","matchText":"great colonnade in the first court"},
+    {"eventId":"evt-nuri-pyramids","matchText":"he began the royal pyramid necropolis at Nuri"},
+    {"eventId":"evt-gebel-barkal-temples","matchText":"greatly expanded the temple complex at Jebel Barkal"},
+    {"eventId":"evt-assyrian-invasion","matchText":"Neo-Assyrian Empire"}
   ],
   "4": [
-    {
-      "eventId": "evt-assyrian-invasion",
-      "matchText": "first Assyrian attack on Egypt came in 674 BCE"
-    },
-    {
-      "eventId": "evt-fall-of-memphis",
-      "matchText": "captured Memphis"
-    },
-    {
-      "eventId": "evt-tantamani",
-      "matchText": "Tantamani launched a campaign northward"
-    },
-    {
-      "eventId": "evt-sack-thebes-663",
-      "matchText": "sacked Thebes"
-    },
-    {
-      "eventId": "evt-amun-worship",
-      "matchText": "Amun cult at Jebel Barkal grew more powerful"
-    },
-    {
-      "eventId": "evt-psamtik-invasion",
-      "matchText": "Psamtik II"
-    },
-    {
-      "eventId": "evt-aspelta",
-      "matchText": "Aspelta"
-    }
+    {"eventId":"evt-assyrian-invasion","matchText":"first Assyrian attack on Egypt came in 674 BCE"},
+    {"eventId":"evt-tantamani","matchText":"Tantamani launched a campaign northward"},
+    {"eventId":"evt-sack-thebes-663","matchText":"sacked Thebes"},
+    {"eventId":"evt-amun-worship","matchText":"Amun cult at Jebel Barkal grew more powerful"},
+    {"eventId":"evt-psamtik-invasion","matchText":"Psamtik II"},
+    {"eventId":"evt-aspelta","matchText":"Aspelta"}
   ],
   "5": [
-    {
-      "eventId": "evt-meroe-capital",
-      "matchText": "shift from Napata to Meroë"
-    },
-    {
-      "eventId": "evt-iron-smelting",
-      "matchText": "slag heaps"
-    },
-    {
-      "eventId": "evt-kush-meroe-iron",
-      "matchText": "Birmingham of ancient Africa"
-    },
-    {
-      "eventId": "evt-arkamani-i",
-      "matchText": "Arkamani I"
-    },
-    {
-      "eventId": "evt-meroitic-temples-amun",
-      "matchText": "Temple of Amun"
-    },
-    {
-      "eventId": "evt-royal-baths-meroe",
-      "matchText": "Royal Baths"
-    },
-    {
-      "eventId": "evt-meroe-pyramids",
-      "matchText": "Meroë Pyramid Necropolis"
-    },
-    {
-      "eventId": "evt-trade-routes",
-      "matchText": "routes leading east toward the Red Sea"
-    }
+    {"eventId":"evt-meroe-capital","matchText":"shift from Napata to"},
+    {"eventId":"evt-iron-smelting","matchText":"slag heaps"},
+    {"eventId":"evt-kush-meroe-iron","matchText":"Birmingham of ancient Africa"},
+    {"eventId":"evt-arkamani-i","matchText":"Arkamani I"},
+    {"eventId":"evt-meroitic-temples-amun","matchText":"Temple of Amun"},
+    {"eventId":"evt-royal-baths-meroe","matchText":"Royal Baths"},
+    {"eventId":"evt-meroe-pyramids","matchText":"Meroë Pyramid Necropolis"},
+    {"eventId":"evt-trade-routes","matchText":"routes leading east toward the Red Sea"}
   ],
   "6": [
-    {
-      "eventId": "evt-kush-meroitic-script-detail",
-      "matchText": "Meroitic script"
-    },
-    {
-      "eventId": "evt-meroitic-script",
-      "matchText": "first indigenous writing system created south of the Sahara"
-    },
-    {
-      "eventId": "evt-kush-apedemak",
-      "matchText": "Apedemak"
-    },
-    {
-      "eventId": "evt-apedemak-cult",
-      "matchText": "lion-headed warrior god"
-    },
-    {
-      "eventId": "evt-lion-temple-musawwarat",
-      "matchText": "Lion Temple at Musawwarat es-Sufra"
-    },
-    {
-      "eventId": "evt-kush-elephant-corps",
-      "matchText": "war elephants"
-    },
-    {
-      "eventId": "evt-kush-kandake-system",
-      "matchText": "Kandake"
-    },
-    {
-      "eventId": "evt-kandake-tradition",
-      "matchText": "powerful women who held royal authority"
-    },
-    {
-      "eventId": "evt-meroitic-pottery",
-      "matchText": "Meroitic fine ware"
-    }
+    {"eventId":"evt-kush-meroitic-script-detail","matchText":"Meroitic script"},
+    {"eventId":"evt-meroitic-script","matchText":"first indigenous writing system created south of the Sahara"},
+    {"eventId":"evt-kush-apedemak","matchText":"Apedemak"},
+    {"eventId":"evt-apedemak-cult","matchText":"lion-headed warrior god"},
+    {"eventId":"evt-lion-temple-musawwarat","matchText":"Lion Temple at Musawwarat es-Sufra"},
+    {"eventId":"evt-kush-elephant-corps","matchText":"war elephants"},
+    {"eventId":"evt-kush-kandake-system","matchText":"Kandake"},
+    {"eventId":"evt-kandake-tradition","matchText":"powerful women who held royal authority"},
+    {"eventId":"evt-meroitic-pottery","matchText":"Meroitic fine ware"}
   ],
   "7": [
-    {
-      "eventId": "evt-amanirenas",
-      "matchText": "Amanirenas"
-    },
-    {
-      "eventId": "evt-roman-war",
-      "matchText": "Amanirenas launched a raid across the Roman frontier"
-    },
-    {
-      "eventId": "evt-kush-bronze-head-augustus",
-      "matchText": "bronze head of Augustus"
-    },
-    {
-      "eventId": "evt-augustus-bronze-head",
-      "matchText": "buried face-down beneath the steps"
-    },
-    {
-      "eventId": "evt-treaty-of-samos",
-      "matchText": "Treaty of Samos"
-    },
-    {
-      "eventId": "evt-natakamani",
-      "matchText": "Natakamani"
-    },
-    {
-      "eventId": "evt-amanitore",
-      "matchText": "Amanitore"
-    },
-    {
-      "eventId": "evt-lion-temple-naqa",
-      "matchText": "Lion Temple at Naqa"
-    },
-    {
-      "eventId": "evt-kush-amanishakheto",
-      "matchText": "Amanishakheto"
-    },
-    {
-      "eventId": "evt-water-reservoirs",
-      "matchText": "hafirs"
-    }
+    {"eventId":"evt-amanirenas","matchText":"Amanirenas"},
+    {"eventId":"evt-roman-war","matchText":"Amanirenas launched a raid across the Roman frontier"},
+    {"eventId":"evt-kush-bronze-head-augustus","matchText":"bronze head of Augustus"},
+    {"eventId":"evt-augustus-bronze-head","matchText":"buried face-down beneath the steps"},
+    {"eventId":"evt-treaty-of-samos","matchText":"Treaty of Samos"},
+    {"eventId":"evt-natakamani","matchText":"Natakamani"},
+    {"eventId":"evt-amanitore","matchText":"Amanitore"},
+    {"eventId":"evt-lion-temple-naqa","matchText":"Lion Temple at Naqa"},
+    {"eventId":"evt-kush-amanishakheto","matchText":"Amanishakheto"},
+    {"eventId":"evt-water-reservoirs","matchText":"hafirs"}
   ],
   "8": [
-    {
-      "eventId": "evt-decline-trade-shift",
-      "matchText": "rise of Aksum"
-    },
-    {
-      "eventId": "evt-kush-aksumite-end",
-      "matchText": "Ezana invaded the Kingdom of Kush"
-    },
-    {
-      "eventId": "evt-aksumite-conquest",
-      "matchText": "around 350 CE"
-    }
+    {"eventId":"evt-decline-trade-shift","matchText":"rise of Aksum"},
+    {"eventId":"evt-kush-aksumite-end","matchText":"Ezana invaded the Kingdom of Kush"},
+    {"eventId":"evt-aksumite-conquest","matchText":"around 350 CE"}
   ]
 }

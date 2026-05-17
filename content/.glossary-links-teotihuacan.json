@@ -179,6 +179,12 @@
       "matchText": "freeze-thaw cycles",
       "wikiSlug": "Freeze%E2%80%93thaw_cycle",
       "type": "concept"
+    },
+    {
+      "term": "Bark paper",
+      "matchText": "bark-paper books",
+      "wikiSlug": "Amate",
+      "type": "concept"
     }
   ],
   "2": [
@@ -276,12 +282,6 @@
       "term": "Highland Guatemala",
       "matchText": "highland Guatemala",
       "wikiSlug": "Guatemalan_Highlands",
-      "type": "place"
-    },
-    {
-      "term": "Cerro Gordo",
-      "matchText": "Cerro Gordo",
-      "wikiSlug": "Cerro_Gordo_(Teotihuacan)",
       "type": "place"
     },
     {
@@ -423,6 +423,18 @@
       "matchText": "Ciudadela",
       "wikiSlug": "Teotihuacan",
       "type": "place"
+    },
+    {
+      "term": "Cerro Gordo",
+      "matchText": "Cerro Gordo",
+      "wikiSlug": "Cerro_Gordo_(Teotihuacan)",
+      "type": "place"
+    },
+    {
+      "term": "Venus",
+      "matchText": "planet Venus",
+      "wikiSlug": "Venus",
+      "type": "concept"
     }
   ],
   "4": [
@@ -514,12 +526,6 @@
       "term": "Guatemala",
       "matchText": "Guatemala",
       "wikiSlug": "Guatemala",
-      "type": "place"
-    },
-    {
-      "term": "Veracruz",
-      "matchText": "Veracruz",
-      "wikiSlug": "Veracruz",
       "type": "place"
     },
     {
@@ -651,12 +657,6 @@
       "type": "place"
     },
     {
-      "term": "Quetzal bird",
-      "matchText": "resplendent quetzal bird",
-      "wikiSlug": "Resplendent_quetzal",
-      "type": "concept"
-    },
-    {
       "term": "Tooth enamel isotopes",
       "matchText": "tooth enamel",
       "wikiSlug": "Tooth_enamel",
@@ -667,12 +667,6 @@
       "matchText": "ritual ballgame",
       "wikiSlug": "Mesoamerican_ballgame",
       "type": "concept"
-    },
-    {
-      "term": "Tenochtitlan",
-      "matchText": "Tenochtitlan",
-      "wikiSlug": "Tenochtitlan",
-      "type": "place"
     },
     {
       "term": "Constantinople",
@@ -727,6 +721,12 @@
       "matchText": "Tang dynasty",
       "wikiSlug": "Tang_dynasty",
       "type": "concept"
+    },
+    {
+      "term": "Veracruz",
+      "matchText": "Veracruz",
+      "wikiSlug": "Veracruz",
+      "type": "place"
     }
   ],
   "6": [
@@ -789,12 +789,6 @@
       "matchText": "cylindrical tripod vessels",
       "wikiSlug": "Teotihuacan",
       "type": "concept"
-    },
-    {
-      "term": "Calakmul",
-      "matchText": "Calakmul",
-      "wikiSlug": "Calakmul",
-      "type": "place"
     },
     {
       "term": "Stelae",
@@ -885,6 +879,12 @@
       "matchText": "Copán",
       "wikiSlug": "Copán",
       "type": "place"
+    },
+    {
+      "term": "Quetzal bird",
+      "matchText": "resplendent quetzal bird",
+      "wikiSlug": "Resplendent_quetzal",
+      "type": "concept"
     }
   ],
   "7": [
@@ -943,12 +943,6 @@
       "type": "concept"
     },
     {
-      "term": "Venus",
-      "matchText": "planet Venus",
-      "wikiSlug": "Venus",
-      "type": "concept"
-    },
-    {
       "term": "Spider Woman",
       "matchText": "Spider Woman",
       "wikiSlug": "Great_Goddess_of_Teotihuacan",
@@ -997,12 +991,6 @@
       "type": "concept"
     },
     {
-      "term": "Bark paper",
-      "matchText": "bark-paper books",
-      "wikiSlug": "Amate",
-      "type": "concept"
-    },
-    {
       "term": "Zapotec writing",
       "matchText": "Zapotecs",
       "wikiSlug": "Zapotec_writing",
@@ -1031,6 +1019,18 @@
       "matchText": "Feathered Serpent",
       "wikiSlug": "Feathered_Serpent",
       "type": "concept"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
     }
   ],
   "8": [
@@ -1057,12 +1057,6 @@
       "matchText": "Epiclassic period",
       "wikiSlug": "Epiclassic",
       "type": "concept"
-    },
-    {
-      "term": "Tenochtitlan",
-      "matchText": "Tenochtitlan",
-      "wikiSlug": "Tenochtitlan",
-      "type": "place"
     },
     {
       "term": "Mexica",
@@ -1165,6 +1159,12 @@
       "matchText": "Aztec Empire",
       "wikiSlug": "Aztec_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Calakmul",
+      "matchText": "Calakmul",
+      "wikiSlug": "Calakmul",
+      "type": "place"
     }
   ]
 }

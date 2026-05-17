@@ -1,294 +1,87 @@
 {
   "1": [
-    {
-      "eventId": "evt-asuka-buddhism-arrives",
-      "matchText": "small gilded bronze statue of the Buddha"
-    },
-    {
-      "eventId": "evt-asuka-mononobe-nakatomi",
-      "matchText": "The Mononobe and Nakatomi went straight to the sovereign"
-    },
-    {
-      "eventId": "evt-asuka-soga-iname",
-      "matchText": "Soga no Iname"
-    },
-    {
-      "eventId": "evt-asuka-soga-no-umako",
-      "matchText": "Soga no Umako"
-    },
-    {
-      "eventId": "evt-asuka-battle-of-shigisen",
-      "matchText": "Battle of Shigisen"
-    },
-    {
-      "eventId": "evt-asuka-empress-suiko",
-      "matchText": "Empress Suiko"
-    }
+    {"eventId":"evt-asuka-buddhism-arrives","matchText":"small gilded bronze statue of the Buddha"},
+    {"eventId":"evt-asuka-mononobe-nakatomi","matchText":"The Mononobe and Nakatomi went straight to the sovereign"},
+    {"eventId":"evt-asuka-soga-iname","matchText":"Soga no Iname"},
+    {"eventId":"evt-asuka-soga-no-umako","matchText":"Soga no Umako"},
+    {"eventId":"evt-asuka-battle-of-shigisen","matchText":"Battle of Shigisen"},
+    {"eventId":"evt-asuka-empress-suiko","matchText":"Empress Suiko"}
   ],
   "2": [
-    {
-      "eventId": "evt-asuka-shotoku-regency",
-      "matchText": "Shotoku Taishi"
-    },
-    {
-      "eventId": "evt-asuka-twelve-cap-ranks",
-      "matchText": "Twelve Level Cap and Rank System"
-    },
-    {
-      "eventId": "evt-asuka-seventeen-article",
-      "matchText": "Seventeen-Article Constitution"
-    },
-    {
-      "eventId": "evt-asuka-chinese-calendar",
-      "matchText": "Chinese lunisolar calendar"
-    },
-    {
-      "eventId": "evt-asuka-ono-no-imoko",
-      "matchText": "Ono no Imoko"
-    },
-    {
-      "eventId": "evt-asuka-horyu-ji-founded",
-      "matchText": "Horyu-ji"
-    },
-    {
-      "eventId": "evt-asuka-asuka-temples",
-      "matchText": "Asuka-dera"
-    },
-    {
-      "eventId": "evt-asuka-tori-busshi",
-      "matchText": "Tori Busshi"
-    },
-    {
-      "eventId": "evt-asuka-shotoku-death",
-      "matchText": "Shotoku died in 622"
-    }
+    {"eventId":"evt-asuka-shotoku-regency","matchText":"Shotoku Taishi"},
+    {"eventId":"evt-asuka-twelve-cap-ranks","matchText":"Twelve Level Cap and Rank System"},
+    {"eventId":"evt-asuka-seventeen-article","matchText":"Seventeen-Article Constitution"},
+    {"eventId":"evt-asuka-chinese-calendar","matchText":"Chinese lunisolar calendar"},
+    {"eventId":"evt-asuka-ono-no-imoko","matchText":"Ono no Imoko"},
+    {"eventId":"evt-asuka-horyu-ji-founded","matchText":"Horyu-ji"},
+    {"eventId":"evt-asuka-asuka-temples","matchText":"Asuka-dera"},
+    {"eventId":"evt-asuka-tori-busshi","matchText":"Tori Busshi"},
+    {"eventId":"evt-asuka-shotoku-death","matchText":"Shotoku died in 622"},
+    {"eventId":"evt-asuka-tang-emerges","matchText":"when the Sui collapsed in 618 and was replaced by the Tang"}
   ],
   "3": [
-    {
-      "eventId": "evt-asuka-isshi-incident",
-      "matchText": "Isshi Incident"
-    },
-    {
-      "eventId": "evt-asuka-fujiwara-no-kamatari",
-      "matchText": "Nakatomi no Kamatari"
-    },
-    {
-      "eventId": "evt-asuka-tang-emerges",
-      "matchText": "when the Sui collapsed in 618 and was replaced by the Tang"
-    },
-    {
-      "eventId": "evt-asuka-taika-reform",
-      "matchText": "Taika Edicts"
-    },
-    {
-      "eventId": "evt-asuka-naniwa-capital",
-      "matchText": "Naniwa-kyo"
-    },
-    {
-      "eventId": "evt-asuka-baekje-fall",
-      "matchText": "destroyed by a coalition of Tang Chinese armies"
-    },
-    {
-      "eventId": "evt-asuka-baekgang",
-      "matchText": "Baekgang"
-    },
-    {
-      "eventId": "evt-asuka-water-castles",
-      "matchText": "Mizuki"
-    },
-    {
-      "eventId": "evt-asuka-emperor-tenji",
-      "matchText": "Emperor Tenji"
-    },
-    {
-      "eventId": "evt-asuka-omi-code",
-      "matchText": "Omi Code"
-    }
+    {"eventId":"evt-asuka-isshi-incident","matchText":"Isshi Incident"},
+    {"eventId":"evt-asuka-fujiwara-no-kamatari","matchText":"Nakatomi no Kamatari"},
+    {"eventId":"evt-asuka-taika-reform","matchText":"Taika Edicts"},
+    {"eventId":"evt-asuka-naniwa-capital","matchText":"Naniwa-kyo"},
+    {"eventId":"evt-asuka-baekje-fall","matchText":"destroyed by a coalition of Tang Chinese armies"},
+    {"eventId":"evt-asuka-baekgang","matchText":"Baekgang"},
+    {"eventId":"evt-asuka-water-castles","matchText":"Mizuki"},
+    {"eventId":"evt-asuka-emperor-tenji","matchText":"Emperor Tenji"},
+    {"eventId":"evt-asuka-omi-code","matchText":"Omi Code"},
+    {"eventId":"evt-asuka-toraijin-baekje","matchText":"Tens of thousands of Baekje aristocrats"},
+    {"eventId":"evt-asuka-silla-unification","matchText":"Tang and Silla turned on each other in the post-conquest carve-up"}
   ],
   "4": [
-    {
-      "eventId": "evt-asuka-haku-ho-art",
-      "matchText": "Hakuho period"
-    },
-    {
-      "eventId": "evt-asuka-jinshin-war",
-      "matchText": "Jinshin War"
-    },
-    {
-      "eventId": "evt-asuka-emperor-tenmu",
-      "matchText": "Emperor Tenmu"
-    },
-    {
-      "eventId": "evt-asuka-yakushi-ji",
-      "matchText": "Yakushi-ji"
-    },
-    {
-      "eventId": "evt-asuka-empress-jito",
-      "matchText": "Empress Jito"
-    },
-    {
-      "eventId": "evt-asuka-asuka-kiyomihara-code",
-      "matchText": "Asuka Kiyomihara Code"
-    },
-    {
-      "eventId": "evt-asuka-fujiwara-kyo",
-      "matchText": "Fujiwara-kyo"
-    },
-    {
-      "eventId": "evt-nara-kakinomoto-hitomaro",
-      "matchText": "Kakinomoto no Hitomaro"
-    },
-    {
-      "eventId": "evt-asuka-toraijin-baekje",
-      "matchText": "Tens of thousands of Baekje aristocrats"
-    },
-    {
-      "eventId": "evt-asuka-silla-unification",
-      "matchText": "Tang and Silla turned on each other in the post-conquest carve-up"
-    }
+    {"eventId":"evt-asuka-haku-ho-art","matchText":"Hakuho period"},
+    {"eventId":"evt-asuka-jinshin-war","matchText":"Jinshin War"},
+    {"eventId":"evt-asuka-emperor-tenmu","matchText":"Emperor Tenmu"},
+    {"eventId":"evt-asuka-yakushi-ji","matchText":"Yakushi-ji"},
+    {"eventId":"evt-asuka-empress-jito","matchText":"Empress Jito"},
+    {"eventId":"evt-asuka-asuka-kiyomihara-code","matchText":"Asuka Kiyomihara Code"},
+    {"eventId":"evt-asuka-fujiwara-kyo","matchText":"Fujiwara-kyo"},
+    {"eventId":"evt-nara-kakinomoto-hitomaro","matchText":"Kakinomoto no Hitomaro"}
   ],
   "5": [
-    {
-      "eventId": "evt-asuka-taiho-code",
-      "matchText": "Taiho Code"
-    },
-    {
-      "eventId": "evt-asuka-fujiwara-no-fuhito",
-      "matchText": "Fujiwara no Fuhito"
-    },
-    {
-      "eventId": "evt-nara-yoro-code",
-      "matchText": "Yoro Code"
-    },
-    {
-      "eventId": "evt-nara-wado-kaichin",
-      "matchText": "Wado Kaichin"
-    },
-    {
-      "eventId": "evt-nara-empress-genmei",
-      "matchText": "Empress Genmei"
-    },
-    {
-      "eventId": "evt-nara-heijo-kyo",
-      "matchText": "Heijo-kyo"
-    },
-    {
-      "eventId": "evt-nara-kofuku-ji",
-      "matchText": "Kofuku-ji"
-    },
-    {
-      "eventId": "evt-nara-kojiki",
-      "matchText": "Kojiki"
-    },
-    {
-      "eventId": "evt-nara-nihon-shoki",
-      "matchText": "Nihon Shoki"
-    },
-    {
-      "eventId": "evt-nara-fudoki",
-      "matchText": "Fudoki"
-    }
+    {"eventId":"evt-asuka-taiho-code","matchText":"Taiho Code"},
+    {"eventId":"evt-asuka-fujiwara-no-fuhito","matchText":"Fujiwara no Fuhito"},
+    {"eventId":"evt-nara-yoro-code","matchText":"Yoro Code"},
+    {"eventId":"evt-nara-wado-kaichin","matchText":"Wado Kaichin"},
+    {"eventId":"evt-nara-empress-genmei","matchText":"Empress Genmei"},
+    {"eventId":"evt-nara-heijo-kyo","matchText":"Heijo-kyo"},
+    {"eventId":"evt-nara-kofuku-ji","matchText":"Kofuku-ji"},
+    {"eventId":"evt-nara-kojiki","matchText":"Kojiki"},
+    {"eventId":"evt-nara-nihon-shoki","matchText":"Nihon Shoki"},
+    {"eventId":"evt-nara-fudoki","matchText":"Fudoki"}
   ],
   "6": [
-    {
-      "eventId": "evt-nara-emperor-shomu",
-      "matchText": "Emperor Shomu"
-    },
-    {
-      "eventId": "evt-nara-fujiwara-four-deaths",
-      "matchText": "all four Fujiwara brothers"
-    },
-    {
-      "eventId": "evt-nara-kokubunji-edict",
-      "matchText": "Provincial Temple Edict"
-    },
-    {
-      "eventId": "evt-nara-todaiji",
-      "matchText": "Todai-ji"
-    },
-    {
-      "eventId": "evt-nara-empress-komyo",
-      "matchText": "Empress Komyo"
-    },
-    {
-      "eventId": "evt-nara-shoso-in",
-      "matchText": "Shoso-in"
-    },
-    {
-      "eventId": "evt-nara-six-schools",
-      "matchText": "Six Schools of Nara Buddhism"
-    },
-    {
-      "eventId": "evt-nara-gyoki",
-      "matchText": "Gyoki"
-    },
-    {
-      "eventId": "evt-nara-ganjin",
-      "matchText": "Ganjin"
-    },
-    {
-      "eventId": "evt-nara-toshodai-ji",
-      "matchText": "Toshodai-ji"
-    }
+    {"eventId":"evt-nara-emperor-shomu","matchText":"Emperor Shomu"},
+    {"eventId":"evt-nara-fujiwara-four-deaths","matchText":"all four Fujiwara brothers"},
+    {"eventId":"evt-nara-kokubunji-edict","matchText":"Provincial Temple Edict"},
+    {"eventId":"evt-nara-todaiji","matchText":"Todai-ji"},
+    {"eventId":"evt-nara-empress-komyo","matchText":"Empress Komyo"},
+    {"eventId":"evt-nara-shoso-in","matchText":"Shoso-in"},
+    {"eventId":"evt-nara-six-schools","matchText":"Six Schools of Nara Buddhism"},
+    {"eventId":"evt-nara-gyoki","matchText":"Gyoki"},
+    {"eventId":"evt-nara-ganjin","matchText":"Ganjin"},
+    {"eventId":"evt-nara-toshodai-ji","matchText":"Toshodai-ji"}
   ],
   "7": [
-    {
-      "eventId": "evt-nara-manyoshu",
-      "matchText": "Manyoshu"
-    },
-    {
-      "eventId": "evt-nara-otomo-yakamochi",
-      "matchText": "Otomo no Yakamochi"
-    },
-    {
-      "eventId": "evt-nara-empress-koken-shotoku",
-      "matchText": "Empress Koken"
-    },
-    {
-      "eventId": "evt-nara-fujiwara-no-nakamaro",
-      "matchText": "Fujiwara no Nakamaro Rebellion"
-    },
-    {
-      "eventId": "evt-nara-dokyo-affair",
-      "matchText": "Dokyo Affair"
-    },
-    {
-      "eventId": "evt-nara-hyakumanto-darani",
-      "matchText": "Hyakumanto Darani"
-    },
-    {
-      "eventId": "evt-nara-tang-embassies",
-      "matchText": "kentoshi missions to Tang China"
-    },
-    {
-      "eventId": "evt-nara-kibi-no-makibi",
-      "matchText": "Kibi no Makibi"
-    },
-    {
-      "eventId": "evt-nara-abe-no-nakamaro",
-      "matchText": "Abe no Nakamaro"
-    }
+    {"eventId":"evt-nara-manyoshu","matchText":"Manyoshu"},
+    {"eventId":"evt-nara-otomo-yakamochi","matchText":"Otomo no Yakamochi"},
+    {"eventId":"evt-nara-empress-koken-shotoku","matchText":"Empress Koken"},
+    {"eventId":"evt-nara-fujiwara-no-nakamaro","matchText":"Fujiwara no Nakamaro Rebellion"},
+    {"eventId":"evt-nara-dokyo-affair","matchText":"Dokyo Affair"},
+    {"eventId":"evt-nara-hyakumanto-darani","matchText":"Hyakumanto Darani"},
+    {"eventId":"evt-nara-tang-embassies","matchText":"kentoshi missions to Tang China"},
+    {"eventId":"evt-nara-kibi-no-makibi","matchText":"Kibi no Makibi"},
+    {"eventId":"evt-nara-abe-no-nakamaro","matchText":"Abe no Nakamaro"}
   ],
   "8": [
-    {
-      "eventId": "evt-nara-emperor-kammu",
-      "matchText": "Emperor Kammu"
-    },
-    {
-      "eventId": "evt-nara-nagaoka-kyo",
-      "matchText": "Nagaoka-kyo"
-    },
-    {
-      "eventId": "evt-nara-prince-sawara",
-      "matchText": "Sawara was stripped of his Crown Prince title and exiled"
-    },
-    {
-      "eventId": "evt-nara-heian-capital",
-      "matchText": "Heian-kyo"
-    },
-    {
-      "eventId": "evt-nara-emishi-campaigns",
-      "matchText": "Emishi"
-    }
+    {"eventId":"evt-nara-emperor-kammu","matchText":"Emperor Kammu"},
+    {"eventId":"evt-nara-nagaoka-kyo","matchText":"Nagaoka-kyo"},
+    {"eventId":"evt-nara-prince-sawara","matchText":"Sawara was stripped of his Crown Prince title and exiled"},
+    {"eventId":"evt-nara-heian-capital","matchText":"Heian-kyo"},
+    {"eventId":"evt-nara-emishi-campaigns","matchText":"Emishi"}
   ]
 }

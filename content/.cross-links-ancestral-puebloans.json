@@ -17,6 +17,12 @@
       "targetTl": "maya-civilization",
       "targetChapter": 1,
       "blurb": "Like the early Maya, they show maize farming slowly converting foragers into monument-builders."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 6,
+      "blurb": "The Great Drought that broke the Puebloan world is the same class of climate shock that ended Andean horizons — environment as the ultimate constraint."
     }
   ],
   "2": [
@@ -31,6 +37,14 @@
       "targetTl": "olmec-civilization",
       "targetChapter": 1,
       "blurb": "The pithouse-to-pueblo transition is the same village-deepening process that, far south, produced the Olmec."
+    }
+  ],
+  "3": [
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 4,
+      "blurb": "Chaco's great houses and the Mississippian mound centers are the two great monumental traditions of pre-contact North America, rising in parallel."
     }
   ],
   "4": [
@@ -109,20 +123,6 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 6,
       "blurb": "The Chavin Horizon saw a unifying religious movement spread across disparate Andean communities through shared ceremony and pilgrimage, binding strangers together through common ritual rather than political coercion. The emerging kachina belief system may have served an analogous function for migrating Puebloan communities — religion as social glue during a period when older structures of authority had broken down."
-    },
-    {
-      "matchText": "Early Andean civilizations",
-      "targetTl": "early-andean-civilizations",
-      "targetChapter": 6,
-      "blurb": "The Great Drought that broke the Puebloan world is the same class of climate shock that ended Andean horizons — environment as the ultimate constraint."
-    }
-  ],
-  "3": [
-    {
-      "matchText": "Mississippian Culture",
-      "targetTl": "mississippian-culture",
-      "targetChapter": 4,
-      "blurb": "Chaco's great houses and the Mississippian mound centers are the two great monumental traditions of pre-contact North America, rising in parallel."
     }
   ]
 }

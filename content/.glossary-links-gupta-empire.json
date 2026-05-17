@@ -341,18 +341,6 @@
       "type": "people"
     },
     {
-      "term": "Vakataka dynasty",
-      "matchText": "Vakataka dynasty",
-      "wikiSlug": "Vakataka_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "Varaha",
-      "matchText": "Varaha panel",
-      "wikiSlug": "Udayagiri_Caves",
-      "type": "concept"
-    },
-    {
       "term": "phosphorus",
       "matchText": "high phosphorus content",
       "wikiSlug": "Iron_pillar_of_Delhi#Composition",
@@ -861,6 +849,18 @@
       "matchText": "Bagh caves",
       "wikiSlug": "Bagh_Caves",
       "type": "place"
+    },
+    {
+      "term": "Varaha",
+      "matchText": "Varaha panel",
+      "wikiSlug": "Udayagiri_Caves",
+      "type": "concept"
+    },
+    {
+      "term": "Vikramashila",
+      "matchText": "Vikramashila",
+      "wikiSlug": "Vikramashila",
+      "type": "place"
     }
   ],
   "7": [
@@ -989,6 +989,12 @@
       "matchText": "White Huns",
       "wikiSlug": "Alchon_Huns",
       "type": "people"
+    },
+    {
+      "term": "Vakataka dynasty",
+      "matchText": "Vakataka dynasty",
+      "wikiSlug": "Vakataka_dynasty",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1087,12 +1093,6 @@
       "matchText": "Khmer Empire",
       "wikiSlug": "Khmer_Empire",
       "type": "concept"
-    },
-    {
-      "term": "Vikramashila",
-      "matchText": "Vikramashila",
-      "wikiSlug": "Vikramashila",
-      "type": "place"
     },
     {
       "term": "Vallabhi",

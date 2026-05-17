@@ -133,12 +133,6 @@
       "blurb": "The Ming intervention in Korea was the largest foreign military operation of the late Ming and arguably the most expensive. The Ming Dynasty TL covers the Imjin War from the Chinese side: the Wanli emperor's decision to defend the tributary, Li Rusong's Pyongyang campaign, the staggering silver outlays that helped trigger the fiscal crisis of the 1620s and 1630s, and the way that the Korean intervention contributed to the Ming collapse a half-century later."
     },
     {
-      "matchText": "Edo Japan",
-      "targetTl": "edo-japan",
-      "targetChapter": 1,
-      "blurb": "The Imjin War was Hideyoshi's invasion — the cataclysm that bled Joseon and helped clear the way for the Tokugawa order in Japan."
-    },
-    {
       "matchText": "Persian Empire",
       "targetTl": "persian-empire",
       "targetChapter": 5,
@@ -183,6 +177,12 @@
       "targetTl": "heian-japan",
       "targetChapter": 8,
       "blurb": "Late-Joseon Silhak 'practical learning' parallels other East Asian self-critiques as the old aristocratic order calcified."
+    },
+    {
+      "matchText": "Edo Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "The Imjin War was Hideyoshi's invasion — the cataclysm that bled Joseon and helped clear the way for the Tokugawa order in Japan."
     }
   ],
   "7": [

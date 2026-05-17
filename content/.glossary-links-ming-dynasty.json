@@ -19,12 +19,6 @@
       "type": "place"
     },
     {
-      "term": "Mandate of Heaven",
-      "matchText": "Mandate of Heaven",
-      "wikiSlug": "Mandate_of_Heaven",
-      "type": "concept"
-    },
-    {
       "term": "Confucianism",
       "matchText": "Confucian",
       "wikiSlug": "Confucianism",
@@ -49,12 +43,6 @@
       "type": "concept"
     },
     {
-      "term": "Lingchi",
-      "matchText": "lingchi",
-      "wikiSlug": "Lingchi",
-      "type": "concept"
-    },
-    {
       "term": "Eunuch",
       "matchText": "eunuchs",
       "wikiSlug": "Eunuch",
@@ -70,12 +58,6 @@
       "term": "Han dynasty",
       "matchText": "late Han",
       "wikiSlug": "Han_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "Jiaochao",
-      "matchText": "jiaochao",
-      "wikiSlug": "Jiaochao",
       "type": "concept"
     }
   ],
@@ -323,6 +305,12 @@
       "matchText": "weisuo military system",
       "wikiSlug": "Military_of_the_Ming_dynasty",
       "type": "concept"
+    },
+    {
+      "term": "Lingchi",
+      "matchText": "lingchi",
+      "wikiSlug": "Lingchi",
+      "type": "concept"
     }
   ],
   "5": [
@@ -346,7 +334,7 @@
     },
     {
       "term": "Potosi",
-      "matchText": "Potosí",
+      "matchText": "Potos",
       "wikiSlug": "Potos%C3%AD",
       "type": "place"
     },
@@ -420,6 +408,12 @@
       "term": "Single whip law",
       "matchText": "Single Whip Reform",
       "wikiSlug": "Single_whip_law",
+      "type": "concept"
+    },
+    {
+      "term": "Jiaochao",
+      "matchText": "jiaochao",
+      "wikiSlug": "Jiaochao",
       "type": "concept"
     }
   ],
@@ -750,6 +744,12 @@
       "term": "Peace of Westphalia",
       "matchText": "Peace of Westphalia",
       "wikiSlug": "Peace_of_Westphalia",
+      "type": "concept"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
       "type": "concept"
     }
   ]

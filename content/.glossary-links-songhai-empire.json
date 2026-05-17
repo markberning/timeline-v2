@@ -38,7 +38,7 @@
     },
     {
       "term": "Djenné",
-      "matchText": "Djenné",
+      "matchText": "Djenn",
       "wikiSlug": "Djenné",
       "type": "place"
     },
@@ -77,12 +77,6 @@
       "matchText": "Songhai",
       "wikiSlug": "Songhai_people",
       "type": "people"
-    },
-    {
-      "term": "Songhai language",
-      "matchText": "Songhai language",
-      "wikiSlug": "Songhay_languages",
-      "type": "concept"
     },
     {
       "term": "Nilo-Saharan languages",
@@ -160,7 +154,7 @@
   "2": [
     {
       "term": "Sankoré",
-      "matchText": "Sankoré",
+      "matchText": "Sankor",
       "wikiSlug": "Sankore_Madrasah",
       "type": "place"
     },
@@ -407,18 +401,6 @@
       "type": "concept"
     },
     {
-      "term": "Sijilmasa",
-      "matchText": "Sijilmasa",
-      "wikiSlug": "Sijilmasa",
-      "type": "place"
-    },
-    {
-      "term": "Tlemcen",
-      "matchText": "Tlemcen",
-      "wikiSlug": "Tlemcen",
-      "type": "place"
-    },
-    {
       "term": "Cairo",
       "matchText": "Cairo",
       "wikiSlug": "Cairo",
@@ -434,6 +416,24 @@
       "term": "Askia Mohammad I",
       "matchText": "Askia Muhammad",
       "wikiSlug": "Askia_Mohammad_I",
+      "type": "people"
+    },
+    {
+      "term": "Janissaries",
+      "matchText": "Janissary",
+      "wikiSlug": "Janissaries",
+      "type": "concept"
+    },
+    {
+      "term": "ghulam",
+      "matchText": "ghulam army",
+      "wikiSlug": "Ghilman",
+      "type": "concept"
+    },
+    {
+      "term": "Mesufa Berbers",
+      "matchText": "Mesufa Berber",
+      "wikiSlug": "Mesufa",
       "type": "people"
     }
   ],
@@ -487,18 +487,6 @@
       "type": "concept"
     },
     {
-      "term": "Janissaries",
-      "matchText": "Janissary",
-      "wikiSlug": "Janissaries",
-      "type": "concept"
-    },
-    {
-      "term": "ghulam",
-      "matchText": "ghulam army",
-      "wikiSlug": "Ghilman",
-      "type": "concept"
-    },
-    {
       "term": "sharia",
       "matchText": "sharia",
       "wikiSlug": "Sharia",
@@ -517,12 +505,6 @@
       "type": "place"
     },
     {
-      "term": "Mesufa Berbers",
-      "matchText": "Mesufa Berber",
-      "wikiSlug": "Mesufa",
-      "type": "people"
-    },
-    {
       "term": "Almoravids",
       "matchText": "Almoravid",
       "wikiSlug": "Almoravid_dynasty",
@@ -538,12 +520,6 @@
       "term": "Sufi",
       "matchText": "Sufi",
       "wikiSlug": "Sufism",
-      "type": "concept"
-    },
-    {
-      "term": "marabout",
-      "matchText": "marabout",
-      "wikiSlug": "Marabout",
       "type": "concept"
     },
     {
@@ -568,7 +544,7 @@
     },
     {
       "term": "Sankoré Mosque",
-      "matchText": "Sankoré",
+      "matchText": "Sankor",
       "wikiSlug": "Sankore_Madrasah",
       "type": "place"
     },
@@ -618,12 +594,6 @@
       "term": "qibla",
       "matchText": "qibla",
       "wikiSlug": "Qibla",
-      "type": "concept"
-    },
-    {
-      "term": "Quran",
-      "matchText": "Quran",
-      "wikiSlug": "Quran",
       "type": "concept"
     },
     {
@@ -697,6 +667,18 @@
       "matchText": "Atlantic slave trade",
       "wikiSlug": "Atlantic_slave_trade",
       "type": "concept"
+    },
+    {
+      "term": "Sijilmasa",
+      "matchText": "Sijilmasa",
+      "wikiSlug": "Sijilmasa",
+      "type": "place"
+    },
+    {
+      "term": "Tlemcen",
+      "matchText": "Tlemcen",
+      "wikiSlug": "Tlemcen",
+      "type": "place"
     }
   ],
   "6": [
@@ -806,6 +788,18 @@
       "term": "Sufism",
       "matchText": "Sufi",
       "wikiSlug": "Sufism",
+      "type": "concept"
+    },
+    {
+      "term": "marabout",
+      "matchText": "marabout",
+      "wikiSlug": "Marabout",
+      "type": "concept"
+    },
+    {
+      "term": "Quran",
+      "matchText": "Quran",
+      "wikiSlug": "Quran",
       "type": "concept"
     }
   ],
@@ -1039,6 +1033,12 @@
       "matchText": "Sultan Ahmad al-Mansur",
       "wikiSlug": "Ahmad_al-Mansur",
       "type": "people"
+    },
+    {
+      "term": "Songhai language",
+      "matchText": "Songhai language",
+      "wikiSlug": "Songhay_languages",
+      "type": "concept"
     }
   ]
 }

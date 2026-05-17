@@ -303,12 +303,6 @@
       "type": "place"
     },
     {
-      "term": "Ursa Minor",
-      "matchText": "Ursa Minor",
-      "wikiSlug": "Ursa_Minor",
-      "type": "concept"
-    },
-    {
       "term": "Zhou dynasty",
       "matchText": "Zhou dynasty",
       "wikiSlug": "Zhou_dynasty",
@@ -623,6 +617,12 @@
       "matchText": "Astarte",
       "wikiSlug": "Astarte",
       "type": "people"
+    },
+    {
+      "term": "Ursa Minor",
+      "matchText": "Ursa Minor",
+      "wikiSlug": "Ursa_Minor",
+      "type": "concept"
     }
   ],
   "5": [

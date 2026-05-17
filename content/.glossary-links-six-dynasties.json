@@ -149,6 +149,18 @@
       "matchText": "rhapsodies",
       "wikiSlug": "Fu_(poetry)",
       "type": "concept"
+    },
+    {
+      "term": "Gallic Empire",
+      "matchText": "Gallic Empire",
+      "wikiSlug": "Gallic_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Palmyrene Empire",
+      "matchText": "Palmyrene Empire",
+      "wikiSlug": "Palmyrene_Empire",
+      "type": "concept"
     }
   ],
   "2": [
@@ -255,18 +267,6 @@
       "type": "place"
     },
     {
-      "term": "Gallic Empire",
-      "matchText": "Gallic Empire",
-      "wikiSlug": "Gallic_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Palmyrene Empire",
-      "matchText": "Palmyrene Empire",
-      "wikiSlug": "Palmyrene_Empire",
-      "type": "concept"
-    },
-    {
       "term": "Jerome",
       "matchText": "Jerome",
       "wikiSlug": "Jerome",
@@ -339,12 +339,6 @@
       "matchText": "Gansu Corridor",
       "wikiSlug": "Hexi_Corridor",
       "type": "place"
-    },
-    {
-      "term": "Rouran",
-      "matchText": "Rouran",
-      "wikiSlug": "Rouran_Khaganate",
-      "type": "people"
     },
     {
       "term": "Later Qin",
@@ -789,6 +783,24 @@
       "matchText": "Shanxi",
       "wikiSlug": "Shanxi",
       "type": "place"
+    },
+    {
+      "term": "Rouran",
+      "matchText": "Rouran",
+      "wikiSlug": "Rouran_Khaganate",
+      "type": "people"
+    },
+    {
+      "term": "Liao dynasty",
+      "matchText": "Liao",
+      "wikiSlug": "Liao_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
     }
   ],
   "7": [
@@ -887,12 +899,6 @@
       "matchText": "Canton",
       "wikiSlug": "Guangzhou",
       "type": "place"
-    },
-    {
-      "term": "Chen Shubao",
-      "matchText": "Chen Shubao",
-      "wikiSlug": "Chen_Shubao",
-      "type": "people"
     },
     {
       "term": "Daming calendar",
@@ -1011,22 +1017,16 @@
       "type": "concept"
     },
     {
-      "term": "Liao dynasty",
-      "matchText": "Liao",
-      "wikiSlug": "Liao_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "Qing dynasty",
-      "matchText": "Qing",
-      "wikiSlug": "Qing_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "emperor in a well",
       "matchText": "palace well",
       "wikiSlug": "Chen_Shubao",
       "type": "concept"
+    },
+    {
+      "term": "Chen Shubao",
+      "matchText": "Chen Shubao",
+      "wikiSlug": "Chen_Shubao",
+      "type": "people"
     }
   ]
 }

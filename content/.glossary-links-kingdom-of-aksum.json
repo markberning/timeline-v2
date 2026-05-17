@@ -109,12 +109,6 @@
       "type": "concept"
     },
     {
-      "term": "obsidian",
-      "matchText": "obsidian",
-      "wikiSlug": "Obsidian",
-      "type": "concept"
-    },
-    {
       "term": "Axum",
       "matchText": "Axum",
       "wikiSlug": "Axum",
@@ -247,6 +241,18 @@
       "matchText": "King of Kings",
       "wikiSlug": "King_of_Kings",
       "type": "concept"
+    },
+    {
+      "term": "obsidian",
+      "matchText": "obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "Han Dynasty",
+      "matchText": "Han Dynasty",
+      "wikiSlug": "Han_dynasty",
+      "type": "concept"
     }
   ],
   "3": [
@@ -365,16 +371,10 @@
       "type": "people"
     },
     {
-      "term": "Han Dynasty",
-      "matchText": "Han Dynasty",
-      "wikiSlug": "Han_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "numismatic",
-      "matchText": "numismatic",
-      "wikiSlug": "Numismatics",
-      "type": "concept"
+      "term": "Addis Ababa",
+      "matchText": "Addis Ababa",
+      "wikiSlug": "Addis_Ababa",
+      "type": "place"
     }
   ],
   "4": [
@@ -503,6 +503,18 @@
       "matchText": "Ezana",
       "wikiSlug": "Ezana_of_Axum",
       "type": "people"
+    },
+    {
+      "term": "numismatic",
+      "matchText": "numismatic",
+      "wikiSlug": "Numismatics",
+      "type": "concept"
+    },
+    {
+      "term": "Ten Commandments",
+      "matchText": "Ten Commandments",
+      "wikiSlug": "Ten_Commandments",
+      "type": "concept"
     }
   ],
   "5": [
@@ -771,6 +783,12 @@
       "matchText": "Nine Saints",
       "wikiSlug": "Nine_Saints",
       "type": "concept"
+    },
+    {
+      "term": "Tis'atu Qiddusan",
+      "matchText": "Tis'atu Qiddusan",
+      "wikiSlug": "Nine_Saints",
+      "type": "concept"
     }
   ],
   "7": [
@@ -847,12 +865,6 @@
       "type": "concept"
     },
     {
-      "term": "Ibn Hawqal",
-      "matchText": "Ibn Hawqal",
-      "wikiSlug": "Ibn_Hawqal",
-      "type": "people"
-    },
-    {
       "term": "Solomon",
       "matchText": "Solomon",
       "wikiSlug": "Solomon",
@@ -865,21 +877,9 @@
       "type": "people"
     },
     {
-      "term": "Ten Commandments",
-      "matchText": "Ten Commandments",
-      "wikiSlug": "Ten_Commandments",
-      "type": "concept"
-    },
-    {
       "term": "Egyptian calendar",
       "matchText": "Egyptian calendar",
       "wikiSlug": "Egyptian_calendar",
-      "type": "concept"
-    },
-    {
-      "term": "Abbasid Caliphate",
-      "matchText": "Abbasid Caliphate",
-      "wikiSlug": "Abbasid_Caliphate",
       "type": "concept"
     },
     {
@@ -951,12 +951,6 @@
       "type": "concept"
     },
     {
-      "term": "Addis Ababa",
-      "matchText": "Addis Ababa",
-      "wikiSlug": "Addis_Ababa",
-      "type": "place"
-    },
-    {
       "term": "Ethiopian calendar",
       "matchText": "Ethiopian calendar",
       "wikiSlug": "Ethiopian_calendar",
@@ -987,12 +981,6 @@
       "type": "concept"
     },
     {
-      "term": "Tis'atu Qiddusan",
-      "matchText": "Tis'atu Qiddusan",
-      "wikiSlug": "Nine_Saints",
-      "type": "concept"
-    },
-    {
       "term": "New Jerusalem",
       "matchText": "New Jerusalem",
       "wikiSlug": "New_Jerusalem",
@@ -1008,6 +996,18 @@
       "term": "Song dynasty",
       "matchText": "Song dynasty",
       "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ibn Hawqal",
+      "matchText": "Ibn Hawqal",
+      "wikiSlug": "Ibn_Hawqal",
+      "type": "people"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
       "type": "concept"
     }
   ]

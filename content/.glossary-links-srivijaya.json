@@ -399,12 +399,6 @@
       "matchText": "Muara Takus",
       "wikiSlug": "Muara_Takus",
       "type": "place"
-    },
-    {
-      "term": "Prambanan",
-      "matchText": "Prambanan",
-      "wikiSlug": "Prambanan",
-      "type": "place"
     }
   ],
   "4": [
@@ -651,12 +645,6 @@
       "type": "people"
     },
     {
-      "term": "Larger Leiden Grant",
-      "matchText": "Larger Leiden Grant",
-      "wikiSlug": "Larger_Leiden_grant",
-      "type": "concept"
-    },
-    {
       "term": "Belitung shipwreck",
       "matchText": "Belitung shipwreck",
       "wikiSlug": "Belitung_shipwreck",
@@ -818,6 +806,12 @@
       "term": "Northern Song dynasty",
       "matchText": "Northern Song dynasty",
       "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Larger Leiden Grant",
+      "matchText": "Larger Leiden Grant",
+      "wikiSlug": "Larger_Leiden_grant",
       "type": "concept"
     }
   ],
@@ -1098,6 +1092,12 @@
       "term": "Strait of Malacca",
       "matchText": "Strait of Malacca",
       "wikiSlug": "Strait_of_Malacca",
+      "type": "place"
+    },
+    {
+      "term": "Prambanan",
+      "matchText": "Prambanan",
+      "wikiSlug": "Prambanan",
       "type": "place"
     }
   ]

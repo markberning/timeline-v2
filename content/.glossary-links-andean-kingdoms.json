@@ -85,12 +85,6 @@
       "type": "concept"
     },
     {
-      "term": "Ayllu",
-      "matchText": "ayllu",
-      "wikiSlug": "Ayllu",
-      "type": "concept"
-    },
-    {
       "term": "Roman Republic",
       "matchText": "Roman Republic and Empire",
       "wikiSlug": "Roman_Republic",
@@ -283,6 +277,12 @@
       "matchText": "Pacific",
       "wikiSlug": "Pacific_Ocean",
       "type": "place"
+    },
+    {
+      "term": "Ayllu",
+      "matchText": "ayllu",
+      "wikiSlug": "Ayllu",
+      "type": "concept"
     },
     {
       "term": "Ayllu",
@@ -557,18 +557,6 @@
       "matchText": "Huarmey Valley",
       "wikiSlug": "Huarmey_Province",
       "type": "place"
-    },
-    {
-      "term": "Anchovy fishery",
-      "matchText": "anchovy fishery",
-      "wikiSlug": "Peruvian_anchoveta",
-      "type": "concept"
-    },
-    {
-      "term": "Humboldt Current",
-      "matchText": "Humboldt Current",
-      "wikiSlug": "Humboldt_Current",
-      "type": "concept"
     },
     {
       "term": "Avocado",
@@ -1206,6 +1194,18 @@
       "term": "Vertical archipelago",
       "matchText": "vertical archipelago",
       "wikiSlug": "Vertical_archipelago",
+      "type": "concept"
+    },
+    {
+      "term": "Anchovy fishery",
+      "matchText": "anchovy fishery",
+      "wikiSlug": "Peruvian_anchoveta",
+      "type": "concept"
+    },
+    {
+      "term": "Humboldt Current",
+      "matchText": "Humboldt Current",
+      "wikiSlug": "Humboldt_Current",
       "type": "concept"
     }
   ]

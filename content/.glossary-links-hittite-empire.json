@@ -349,6 +349,12 @@
       "matchText": "Upper Mesopotamia",
       "wikiSlug": "Upper_Mesopotamia",
       "type": "place"
+    },
+    {
+      "term": "Cuneiform diplomacy",
+      "matchText": "cuneiform diplomacy",
+      "wikiSlug": "Amarna_letters",
+      "type": "concept"
     }
   ],
   "3": [
@@ -437,12 +443,6 @@
       "type": "concept"
     },
     {
-      "term": "Cuneiform diplomacy",
-      "matchText": "cuneiform diplomacy",
-      "wikiSlug": "Amarna_letters",
-      "type": "concept"
-    },
-    {
       "term": "Bubonic plague",
       "matchText": "bubonic plague",
       "wikiSlug": "Bubonic_plague",
@@ -477,6 +477,12 @@
       "matchText": "Aegean coast",
       "wikiSlug": "Aegean_Sea",
       "type": "place"
+    },
+    {
+      "term": "Book of Job",
+      "matchText": "Book of Job",
+      "wikiSlug": "Book_of_Job",
+      "type": "concept"
     }
   ],
   "4": [
@@ -598,12 +604,6 @@
       "term": "Catholic Church",
       "matchText": "Catholic Church",
       "wikiSlug": "Catholic_Church",
-      "type": "concept"
-    },
-    {
-      "term": "Book of Job",
-      "matchText": "Book of Job",
-      "wikiSlug": "Book_of_Job",
       "type": "concept"
     },
     {
@@ -1039,42 +1039,6 @@
       "type": "place"
     },
     {
-      "term": "Phrygians",
-      "matchText": "Phrygians",
-      "wikiSlug": "Phrygia",
-      "type": "concept"
-    },
-    {
-      "term": "Lydians",
-      "matchText": "Lydians",
-      "wikiSlug": "Lydia",
-      "type": "concept"
-    },
-    {
-      "term": "Byzantines",
-      "matchText": "Byzantines",
-      "wikiSlug": "Byzantine_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Ottoman Turks",
-      "matchText": "Ottoman Turks",
-      "wikiSlug": "Ottoman_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Constantinople",
-      "matchText": "Constantinople",
-      "wikiSlug": "Constantinople",
-      "type": "place"
-    },
-    {
-      "term": "Persians",
-      "matchText": "Persians",
-      "wikiSlug": "Achaemenid_Empire",
-      "type": "concept"
-    },
-    {
       "term": "Greeks",
       "matchText": "Greeks",
       "wikiSlug": "Ancient_Greece",
@@ -1258,7 +1222,7 @@
     },
     {
       "term": "Bedřich Hrozný",
-      "matchText": "Bedřich Hrozný",
+      "matchText": "Bedřich Hrozn",
       "wikiSlug": "Bedřich_Hrozný",
       "type": "people"
     },
@@ -1267,6 +1231,42 @@
       "matchText": "Tell el-Amarna",
       "wikiSlug": "Amarna",
       "type": "place"
+    },
+    {
+      "term": "Phrygians",
+      "matchText": "Phrygians",
+      "wikiSlug": "Phrygia",
+      "type": "concept"
+    },
+    {
+      "term": "Lydians",
+      "matchText": "Lydians",
+      "wikiSlug": "Lydia",
+      "type": "concept"
+    },
+    {
+      "term": "Byzantines",
+      "matchText": "Byzantines",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Ottoman Turks",
+      "matchText": "Ottoman Turks",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Persians",
+      "matchText": "Persians",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
     }
   ]
 }

@@ -59,6 +59,12 @@
       "targetTl": "mongol-empire",
       "targetChapter": 8,
       "blurb": "This narrative runs all the way to the Mongol conquest — the Yuan founding is its endpoint, the Song's destroyer."
+    },
+    {
+      "matchText": "Qin Dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 4,
+      "blurb": "Tang frontier policy inherited the Qin-Han wall-and-garrison logic, now projected deep into the steppe under the 'Heavenly Khan.'"
     }
   ],
   "2": [
@@ -97,12 +103,6 @@
       "targetTl": "han-dynasty",
       "targetChapter": 8,
       "blurb": "High Tang restored the cosmopolitan imperial confidence the late Han had lost — China's second great classical apogee."
-    },
-    {
-      "matchText": "Qin Dynasty",
-      "targetTl": "qin-dynasty",
-      "targetChapter": 4,
-      "blurb": "Tang frontier policy inherited the Qin-Han wall-and-garrison logic, now projected deep into the steppe under the 'Heavenly Khan.'"
     }
   ],
   "3": [
@@ -169,7 +169,7 @@
       "blurb": "The Battle of Talas in 751 was the only direct military collision between the Tang and the Abbasids, and its most consequential outcome was the transmission of Chinese papermaking to the Islamic world via captured Tang prisoners. Cheap paper transformed Abbasid intellectual life in the following century — the Islamic Golden Age depended on the same paper technology that Chang'an had been using for centuries — and the technology eventually relayed onward to medieval Europe through Islamic Spain and Sicily."
     },
     {
-      "matchText": "Heian-kyō",
+      "matchText": "Heian-ky",
       "targetTl": "heian-japan",
       "targetChapter": 8,
       "blurb": "Heian-kyō (modern Kyoto), founded in 794 a few decades after the An Lushan Rebellion's end, was modeled directly on Chang'an's grid plan. The Heian court that flourished there for nearly four centuries was deeply shaped by Tang cultural transmission, but the political structure was distinctively Japanese — a regent-led aristocratic court rather than a Tang-style emperor-and-bureaucracy state. The Tang model was visible everywhere in Heian Japan, but it was not adopted whole."

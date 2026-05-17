@@ -1,214 +1,67 @@
 {
   "1": [
-    {
-      "eventId": "evt-susa-founded",
-      "matchText": "Susa is one of the oldest continuously inhabited cities on Earth"
-    },
-    {
-      "eventId": "evt-proto-elamite-script",
-      "matchText": "Proto-Elamite"
-    },
-    {
-      "eventId": "evt-anshan-city",
-      "matchText": "500 acres of walled urban area by 2700 BCE"
-    },
-    {
-      "eventId": "evt-awan-dynasty",
-      "matchText": "Dynasty of Awan"
-    },
-    {
-      "eventId": "evt-inshushinak-worship",
-      "matchText": "cult of Inshushinak at Susa is one of the oldest continuous religious traditions"
-    },
-    {
-      "eventId": "evt-highland-trade-routes",
-      "matchText": "Iranian highland trade routes running through Elam"
-    },
-    {
-      "eventId": "evt-elamite-trade-network",
-      "matchText": "Elamite merchants are documented in Mesopotamian records as suppliers of metals and stones"
-    }
+    {"eventId":"evt-susa-founded","matchText":"Susa is one of the oldest continuously inhabited cities on Earth"},
+    {"eventId":"evt-proto-elamite-script","matchText":"Proto-Elamite"},
+    {"eventId":"evt-anshan-city","matchText":"500 acres of walled urban area by 2700 BCE"},
+    {"eventId":"evt-awan-dynasty","matchText":"Dynasty of Awan"},
+    {"eventId":"evt-inshushinak-worship","matchText":"cult of Inshushinak at Susa is one of the oldest continuous religious traditions"},
+    {"eventId":"evt-highland-trade-routes","matchText":"Iranian highland trade routes running through Elam"},
+    {"eventId":"evt-elamite-trade-network","matchText":"Elamite merchants are documented in Mesopotamian records as suppliers of metals and stones"},
+    {"eventId":"evt-copper-tin-trade","matchText":"tin carried by caravan through Elamite territory"}
   ],
   "2": [
-    {
-      "eventId": "evt-naram-sin-conquest",
-      "matchText": "Naram-Sin's armies invaded Elam again"
-    },
-    {
-      "eventId": "evt-elamite-akkadian-treaty",
-      "matchText": "preserved on a clay tablet now in the Louvre and dated to roughly 2250 BCE"
-    },
-    {
-      "eventId": "evt-elamite-linear-script",
-      "matchText": "Linear Elamite"
-    },
-    {
-      "eventId": "evt-puzur-inshushinak",
-      "matchText": "Puzur-Inshushinak"
-    },
-    {
-      "eventId": "evt-elamite-glyptic",
-      "matchText": "surviving royal statues of Puzur-Inshushinak carry bilingual inscriptions"
-    }
+    {"eventId":"evt-naram-sin-conquest","matchText":"Naram-Sin's armies invaded Elam again"},
+    {"eventId":"evt-elamite-akkadian-treaty","matchText":"preserved on a clay tablet now in the Louvre and dated to roughly 2250 BCE"},
+    {"eventId":"evt-elamite-linear-script","matchText":"Linear Elamite"},
+    {"eventId":"evt-puzur-inshushinak","matchText":"Puzur-Inshushinak"},
+    {"eventId":"evt-elamite-glyptic","matchText":"surviving royal statues of Puzur-Inshushinak carry bilingual inscriptions"}
   ],
   "3": [
-    {
-      "eventId": "evt-destruction-ur",
-      "matchText": "an Elamite army walked into the city of Ur and burned it to the ground"
-    },
-    {
-      "eventId": "evt-shimashki-dynasty",
-      "matchText": "Shimashki"
-    },
-    {
-      "eventId": "evt-elamite-matriliny",
-      "matchText": "fraternal and avuncular succession"
-    },
-    {
-      "eventId": "evt-elamite-cuneiform",
-      "matchText": "Elamite court made a decision"
-    },
-    {
-      "eventId": "evt-susa-acropolis",
-      "matchText": "temple of Inshushinak at Susa received votive offerings marked as"
-    },
-    {
-      "eventId": "evt-copper-tin-trade",
-      "matchText": "tin carried by caravan through Elamite territory"
-    },
-    {
-      "eventId": "evt-humban-pantheon",
-      "matchText": "Humban was the king of the Elamite gods"
-    },
-    {
-      "eventId": "evt-kiririsha",
-      "matchText": "Kiririsha"
-    },
-    {
-      "eventId": "evt-nahhunte-sun-god",
-      "matchText": "Nahhunte"
-    },
-    {
-      "eventId": "evt-pinikir-goddess",
-      "matchText": "Pinikir"
-    }
+    {"eventId":"evt-destruction-ur","matchText":"an Elamite army walked into the city of Ur and burned it to the ground"},
+    {"eventId":"evt-shimashki-dynasty","matchText":"Shimashki"},
+    {"eventId":"evt-elamite-matriliny","matchText":"fraternal and avuncular succession"},
+    {"eventId":"evt-elamite-cuneiform","matchText":"Elamite court made a decision"},
+    {"eventId":"evt-susa-acropolis","matchText":"temple of Inshushinak at Susa received votive offerings marked as"},
+    {"eventId":"evt-humban-pantheon","matchText":"Humban was the king of the Elamite gods"},
+    {"eventId":"evt-kiririsha","matchText":"Kiririsha"},
+    {"eventId":"evt-nahhunte-sun-god","matchText":"Nahhunte"},
+    {"eventId":"evt-pinikir-goddess","matchText":"Pinikir"},
+    {"eventId":"evt-humban-numena","matchText":"Humban-Numena"}
   ],
   "4": [
-    {
-      "eventId": "evt-sukkalmah-period",
-      "matchText": "sukkalmah"
-    },
-    {
-      "eventId": "evt-eparti-sukkalmah",
-      "matchText": "Eparti I"
-    },
-    {
-      "eventId": "evt-siwe-palar-hupak",
-      "matchText": "Siwe-palar-hupak"
-    },
-    {
-      "eventId": "evt-kudur-nahhunte-i",
-      "matchText": "Hammurabi personally defeated Siwe-palar-hupak in battle"
-    }
+    {"eventId":"evt-sukkalmah-period","matchText":"sukkalmah"},
+    {"eventId":"evt-eparti-sukkalmah","matchText":"Eparti I"},
+    {"eventId":"evt-siwe-palar-hupak","matchText":"Siwe-palar-hupak"},
+    {"eventId":"evt-kudur-nahhunte-i","matchText":"Hammurabi personally defeated Siwe-palar-hupak in battle"}
   ],
   "5": [
-    {
-      "eventId": "evt-igihalkid-dynasty",
-      "matchText": "Igihalkid dynasty"
-    },
-    {
-      "eventId": "evt-untash-napirisha",
-      "matchText": "Untash-Napirisha"
-    },
-    {
-      "eventId": "evt-chogha-zanbil",
-      "matchText": "Ziggurat of Chogha Zanbil"
-    },
-    {
-      "eventId": "evt-elamite-bronze-statue",
-      "matchText": "Bronze Statue of Queen Napir-Asu"
-    },
-    {
-      "eventId": "evt-humban-numena",
-      "matchText": "Humban-Numena"
-    },
-    {
-      "eventId": "evt-tepti-ahar",
-      "matchText": "Kidinuid"
-    },
-    {
-      "eventId": "evt-haft-tappeh",
-      "matchText": "restored the Elamite military, refortified Susa, rebuilt temples"
-    }
+    {"eventId":"evt-igihalkid-dynasty","matchText":"Igihalkid dynasty"},
+    {"eventId":"evt-untash-napirisha","matchText":"Untash-Napirisha"},
+    {"eventId":"evt-chogha-zanbil","matchText":"Ziggurat of Chogha Zanbil"},
+    {"eventId":"evt-elamite-bronze-statue","matchText":"Bronze Statue of Queen Napir-Asu"},
+    {"eventId":"evt-tepti-ahar","matchText":"Kidinuid"},
+    {"eventId":"evt-haft-tappeh","matchText":"restored the Elamite military, refortified Susa, rebuilt temples"}
   ],
   "6": [
-    {
-      "eventId": "evt-shutruk-nahhunte",
-      "matchText": "Shutruk-Nahhunte"
-    },
-    {
-      "eventId": "evt-sack-babylon-elamite",
-      "matchText": "1158 BCE"
-    },
-    {
-      "eventId": "evt-kutir-nahhunte",
-      "matchText": "Kutir-Nahhunte III"
-    },
-    {
-      "eventId": "evt-shilhak-inshushinak",
-      "matchText": "Shilhak-Inshushinak"
-    },
-    {
-      "eventId": "evt-sit-shamshi",
-      "matchText": "Sit Shamshi"
-    },
-    {
-      "eventId": "evt-hutelutush-inshushinak",
-      "matchText": "Hutelutush-Inshushinak"
-    },
-    {
-      "eventId": "evt-nebuchadnezzar-i-revenge",
-      "matchText": "Nebuchadnezzar I"
-    },
-    {
-      "eventId": "evt-elamite-warriors",
-      "matchText": "Elamite military was stretched thin garrisoning Mesopotamia"
-    }
+    {"eventId":"evt-shutruk-nahhunte","matchText":"Shutruk-Nahhunte"},
+    {"eventId":"evt-sack-babylon-elamite","matchText":"1158 BCE"},
+    {"eventId":"evt-kutir-nahhunte","matchText":"Kutir-Nahhunte III"},
+    {"eventId":"evt-shilhak-inshushinak","matchText":"Shilhak-Inshushinak"},
+    {"eventId":"evt-sit-shamshi","matchText":"Sit Shamshi"},
+    {"eventId":"evt-hutelutush-inshushinak","matchText":"Hutelutush-Inshushinak"},
+    {"eventId":"evt-nebuchadnezzar-i-revenge","matchText":"Nebuchadnezzar I"},
+    {"eventId":"evt-elamite-warriors","matchText":"Elamite military was stretched thin garrisoning Mesopotamia"}
   ],
   "7": [
-    {
-      "eventId": "evt-neo-elamite-revival",
-      "matchText": "Neo-Elamite period"
-    },
-    {
-      "eventId": "evt-te-umman-til-tuba",
-      "matchText": "Te-Umman"
-    },
-    {
-      "eventId": "evt-shamash-shum-ukin-alliance",
-      "matchText": "Humban-Nikash II"
-    },
-    {
-      "eventId": "evt-sack-susa-assyria",
-      "matchText": "Sack of Susa"
-    }
+    {"eventId":"evt-neo-elamite-revival","matchText":"Neo-Elamite period"},
+    {"eventId":"evt-te-umman-til-tuba","matchText":"Te-Umman"},
+    {"eventId":"evt-shamash-shum-ukin-alliance","matchText":"Humban-Nikash II"},
+    {"eventId":"evt-sack-susa-assyria","matchText":"Sack of Susa"}
   ],
   "8": [
-    {
-      "eventId": "evt-anshan-persian-title",
-      "matchText": "king of Anshan"
-    },
-    {
-      "eventId": "evt-elamite-legacy-persia",
-      "matchText": "Elamite-speaking scribes of the old Susa tradition"
-    },
-    {
-      "eventId": "evt-persepolis-fortification-archive",
-      "matchText": "Persepolis Fortification Archive"
-    },
-    {
-      "eventId": "evt-behistun-elamite",
-      "matchText": "Behistun"
-    }
+    {"eventId":"evt-anshan-persian-title","matchText":"king of Anshan"},
+    {"eventId":"evt-elamite-legacy-persia","matchText":"Elamite-speaking scribes of the old Susa tradition"},
+    {"eventId":"evt-persepolis-fortification-archive","matchText":"Persepolis Fortification Archive"},
+    {"eventId":"evt-behistun-elamite","matchText":"Behistun"}
   ]
 }

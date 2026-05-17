@@ -723,12 +723,6 @@
       "type": "concept"
     },
     {
-      "term": "Sichuan",
-      "matchText": "Sichuan",
-      "wikiSlug": "Sichuan",
-      "type": "place"
-    },
-    {
       "term": "Land reform",
       "matchText": "nationalized all land",
       "wikiSlug": "Land_reform_in_China",
@@ -1057,12 +1051,6 @@
       "type": "concept"
     },
     {
-      "term": "Five Elements",
-      "matchText": "Five Elements",
-      "wikiSlug": "Wuxing_(Chinese_philosophy)",
-      "type": "concept"
-    },
-    {
       "term": "Millenarianism",
       "matchText": "millenarian",
       "wikiSlug": "Millenarianism",
@@ -1073,6 +1061,12 @@
       "matchText": "theocratic state",
       "wikiSlug": "Theocracy",
       "type": "concept"
+    },
+    {
+      "term": "Sichuan",
+      "matchText": "Sichuan",
+      "wikiSlug": "Sichuan",
+      "type": "place"
     }
   ],
   "8": [
@@ -1218,6 +1212,12 @@
       "term": "Warlord",
       "matchText": "warlords",
       "wikiSlug": "Warlord",
+      "type": "concept"
+    },
+    {
+      "term": "Five Elements",
+      "matchText": "Five Elements",
+      "wikiSlug": "Wuxing_(Chinese_philosophy)",
       "type": "concept"
     }
   ]

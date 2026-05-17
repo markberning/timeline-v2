@@ -1,258 +1,78 @@
 {
   "1": [
-    {
-      "eventId": "evt-qin-shang-yang",
-      "matchText": "Shang Yang"
-    },
-    {
-      "eventId": "evt-qin-shang-yang-reforms",
-      "matchText": "Legalism"
-    },
-    {
-      "eventId": "evt-qin-duke-xiao",
-      "matchText": "Duke Xiao of Qin"
-    },
-    {
-      "eventId": "evt-qin-battle-changping",
-      "matchText": "Battle of Changping"
-    },
-    {
-      "eventId": "evt-qin-bai-qi",
-      "matchText": "Bai Qi"
-    },
-    {
-      "eventId": "evt-qin-sichuan-conquest",
-      "matchText": "Sichuan Basin"
-    },
-    {
-      "eventId": "evt-qin-zheng-guo-canal",
-      "matchText": "Zheng Guo Canal"
-    },
-    {
-      "eventId": "evt-qin-li-mu",
-      "matchText": "Lian Po"
-    }
+    {"eventId":"evt-qin-shang-yang","matchText":"Shang Yang"},
+    {"eventId":"evt-qin-shang-yang-reforms","matchText":"Legalism"},
+    {"eventId":"evt-qin-duke-xiao","matchText":"Duke Xiao of Qin"},
+    {"eventId":"evt-qin-battle-changping","matchText":"Battle of Changping"},
+    {"eventId":"evt-qin-bai-qi","matchText":"Bai Qi"},
+    {"eventId":"evt-qin-sichuan-conquest","matchText":"Sichuan Basin"},
+    {"eventId":"evt-qin-zheng-guo-canal","matchText":"Zheng Guo Canal"},
+    {"eventId":"evt-qin-li-mu","matchText":"Lian Po"}
   ],
   "2": [
-    {
-      "eventId": "evt-qin-qin-shi-huang",
-      "matchText": "Ying Zheng"
-    },
-    {
-      "eventId": "evt-qin-li-si",
-      "matchText": "Li Si"
-    },
-    {
-      "eventId": "evt-qin-han-feizi",
-      "matchText": "Han Feizi"
-    },
-    {
-      "eventId": "evt-qin-lao-ai-rebellion",
-      "matchText": "Lao Ai"
-    },
-    {
-      "eventId": "evt-qin-jing-ke",
-      "matchText": "Jing Ke"
-    },
-    {
-      "eventId": "evt-qin-conquest-han",
-      "matchText": "Nei Shi Teng"
-    },
-    {
-      "eventId": "evt-qin-conquest-zhao",
-      "matchText": "Handan"
-    },
-    {
-      "eventId": "evt-qin-conquest-wei",
-      "matchText": "Daliang"
-    },
-    {
-      "eventId": "evt-qin-wang-jian",
-      "matchText": "Wang Jian"
-    },
-    {
-      "eventId": "evt-qin-conquest-chu",
-      "matchText": "Chu"
-    },
-    {
-      "eventId": "evt-qin-conquest-yan-qi",
-      "matchText": "Qi"
-    },
-    {
-      "eventId": "evt-qin-first-emperor-title",
-      "matchText": "Huangdi"
-    }
+    {"eventId":"evt-qin-qin-shi-huang","matchText":"Ying Zheng"},
+    {"eventId":"evt-qin-li-si","matchText":"Li Si"},
+    {"eventId":"evt-qin-han-feizi","matchText":"Han Feizi"},
+    {"eventId":"evt-qin-lao-ai-rebellion","matchText":"Lao Ai"},
+    {"eventId":"evt-qin-jing-ke","matchText":"Jing Ke"},
+    {"eventId":"evt-qin-conquest-han","matchText":"Nei Shi Teng"},
+    {"eventId":"evt-qin-conquest-zhao","matchText":"Handan"},
+    {"eventId":"evt-qin-conquest-wei","matchText":"Daliang"},
+    {"eventId":"evt-qin-wang-jian","matchText":"Wang Jian"},
+    {"eventId":"evt-qin-conquest-chu","matchText":"Chu"},
+    {"eventId":"evt-qin-conquest-yan-qi","matchText":"Qi"},
+    {"eventId":"evt-qin-first-emperor-title","matchText":"Huangdi"}
   ],
   "3": [
-    {
-      "eventId": "evt-qin-standardization-script",
-      "matchText": "small seal script"
-    },
-    {
-      "eventId": "evt-qin-standardization-weights",
-      "matchText": "ban liang"
-    },
-    {
-      "eventId": "evt-qin-legalist-law-code",
-      "matchText": "Qin legal code"
-    },
-    {
-      "eventId": "evt-qin-qin-calendar",
-      "matchText": "Zhuanxu calendar"
-    },
-    {
-      "eventId": "evt-qin-road-network",
-      "matchText": "Chidao"
-    },
-    {
-      "eventId": "evt-qin-commandery-county-system",
-      "matchText": "commandery-and-county system"
-    },
-    {
-      "eventId": "evt-qin-shuihudi-bamboo-texts",
-      "matchText": "Shuihudi"
-    },
-    {
-      "eventId": "evt-qin-axle-standardization",
-      "matchText": "Axle widths"
-    },
-    {
-      "eventId": "evt-qin-five-phases-cosmology",
-      "matchText": "Five Phases"
-    }
+    {"eventId":"evt-qin-standardization-script","matchText":"small seal script"},
+    {"eventId":"evt-qin-standardization-weights","matchText":"ban liang"},
+    {"eventId":"evt-qin-legalist-law-code","matchText":"Qin legal code"},
+    {"eventId":"evt-qin-qin-calendar","matchText":"Zhuanxu calendar"},
+    {"eventId":"evt-qin-road-network","matchText":"Chidao"},
+    {"eventId":"evt-qin-commandery-county-system","matchText":"commandery-and-county system"},
+    {"eventId":"evt-qin-shuihudi-bamboo-texts","matchText":"Shuihudi"},
+    {"eventId":"evt-qin-axle-standardization","matchText":"Axle widths"},
+    {"eventId":"evt-qin-five-phases-cosmology","matchText":"Five Phases"}
   ],
   "4": [
-    {
-      "eventId": "evt-qin-great-wall",
-      "matchText": "Great Wall"
-    },
-    {
-      "eventId": "evt-qin-meng-tian",
-      "matchText": "Meng Tian"
-    },
-    {
-      "eventId": "evt-qin-ling-canal",
-      "matchText": "Lingqu Canal"
-    },
-    {
-      "eventId": "evt-qin-straight-road",
-      "matchText": "Straight Road"
-    },
-    {
-      "eventId": "evt-qin-baiyue-campaigns",
-      "matchText": "Baiyue"
-    },
-    {
-      "eventId": "evt-qin-meng-jiangnü",
-      "matchText": "Meng Jiangnü"
-    }
+    {"eventId":"evt-qin-great-wall","matchText":"Great Wall"},
+    {"eventId":"evt-qin-meng-tian","matchText":"Meng Tian"},
+    {"eventId":"evt-qin-ling-canal","matchText":"Lingqu Canal"},
+    {"eventId":"evt-qin-straight-road","matchText":"Straight Road"},
+    {"eventId":"evt-qin-baiyue-campaigns","matchText":"Baiyue"},
+    {"eventId":"evt-qin-meng-jiangnü","matchText":"Meng Jiangn"}
   ],
   "5": [
-    {
-      "eventId": "evt-qin-terracotta-army",
-      "matchText": "Terracotta Army"
-    },
-    {
-      "eventId": "evt-qin-mausoleum-complex",
-      "matchText": "mausoleum complex"
-    },
-    {
-      "eventId": "evt-qin-mercury-tomb-technology",
-      "matchText": "mercury concentrations"
-    },
-    {
-      "eventId": "evt-qin-sima-qian",
-      "matchText": "Sima Qian"
-    },
-    {
-      "eventId": "evt-qin-crossbow-mass-production",
-      "matchText": "crossbow triggers"
-    },
-    {
-      "eventId": "evt-qin-yang-zhifa",
-      "matchText": "Yang Zhifa"
-    }
+    {"eventId":"evt-qin-terracotta-army","matchText":"Terracotta Army"},
+    {"eventId":"evt-qin-mausoleum-complex","matchText":"mausoleum complex"},
+    {"eventId":"evt-qin-mercury-tomb-technology","matchText":"mercury concentrations"},
+    {"eventId":"evt-qin-sima-qian","matchText":"Sima Qian"},
+    {"eventId":"evt-qin-crossbow-mass-production","matchText":"crossbow triggers"},
+    {"eventId":"evt-qin-yang-zhifa","matchText":"Yang Zhifa"}
   ],
   "6": [
-    {
-      "eventId": "evt-qin-burning-books",
-      "matchText": "Burning of Books"
-    },
-    {
-      "eventId": "evt-qin-burying-scholars",
-      "matchText": "Burying of Scholars"
-    },
-    {
-      "eventId": "evt-qin-immortality-quest",
-      "matchText": "elixir of life"
-    },
-    {
-      "eventId": "evt-qin-xu-fu-expedition",
-      "matchText": "Xu Fu"
-    },
-    {
-      "eventId": "evt-qin-mount-tai-sacrifice",
-      "matchText": "feng and shan sacrifices"
-    },
-    {
-      "eventId": "evt-qin-lushi-chunqiu",
-      "matchText": "Hundred Schools of Thought"
-    }
+    {"eventId":"evt-qin-burning-books","matchText":"Burning of Books"},
+    {"eventId":"evt-qin-burying-scholars","matchText":"Burying of Scholars"},
+    {"eventId":"evt-qin-immortality-quest","matchText":"elixir of life"},
+    {"eventId":"evt-qin-xu-fu-expedition","matchText":"Xu Fu"},
+    {"eventId":"evt-qin-mount-tai-sacrifice","matchText":"feng and shan sacrifices"},
+    {"eventId":"evt-qin-lushi-chunqiu","matchText":"Hundred Schools of Thought"}
   ],
   "7": [
-    {
-      "eventId": "evt-qin-death-first-emperor",
-      "matchText": "Shaqiu"
-    },
-    {
-      "eventId": "evt-qin-zhao-gao",
-      "matchText": "Zhao Gao"
-    },
-    {
-      "eventId": "evt-qin-qin-er-shi",
-      "matchText": "Qin Er Shi"
-    },
-    {
-      "eventId": "evt-qin-chen-sheng-wu-guang",
-      "matchText": "Chen Sheng"
-    },
-    {
-      "eventId": "evt-qin-battle-julu",
-      "matchText": "Battle of Julu"
-    },
-    {
-      "eventId": "evt-qin-xiang-yu",
-      "matchText": "Xiang Yu"
-    },
-    {
-      "eventId": "evt-qin-liu-bang",
-      "matchText": "Liu Bang"
-    },
-    {
-      "eventId": "evt-qin-ziying-last-ruler",
-      "matchText": "Ziying"
-    },
-    {
-      "eventId": "evt-qin-han-xin",
-      "matchText": "Han Xin"
-    },
-    {
-      "eventId": "evt-qin-battle-gaixia",
-      "matchText": "Battle of Gaixia"
-    },
-    {
-      "eventId": "evt-qin-chu-han-contention",
-      "matchText": "Chu-Han Contention"
-    }
+    {"eventId":"evt-qin-death-first-emperor","matchText":"Shaqiu"},
+    {"eventId":"evt-qin-zhao-gao","matchText":"Zhao Gao"},
+    {"eventId":"evt-qin-qin-er-shi","matchText":"Qin Er Shi"},
+    {"eventId":"evt-qin-chen-sheng-wu-guang","matchText":"Chen Sheng"},
+    {"eventId":"evt-qin-battle-julu","matchText":"Battle of Julu"},
+    {"eventId":"evt-qin-xiang-yu","matchText":"Xiang Yu"},
+    {"eventId":"evt-qin-liu-bang","matchText":"Liu Bang"},
+    {"eventId":"evt-qin-ziying-last-ruler","matchText":"Ziying"},
+    {"eventId":"evt-qin-han-xin","matchText":"Han Xin"},
+    {"eventId":"evt-qin-battle-gaixia","matchText":"Battle of Gaixia"},
+    {"eventId":"evt-qin-chu-han-contention","matchText":"Chu-Han Contention"}
   ],
   "8": [
-    {
-      "eventId": "evt-qin-liu-bang",
-      "matchText": "Emperor Gaozu"
-    },
-    {
-      "eventId": "evt-qin-first-emperor-title",
-      "matchText": "Confucian outside, Legalist inside"
-    }
+    {"eventId":"evt-qin-liu-bang","matchText":"Emperor Gaozu"},
+    {"eventId":"evt-qin-first-emperor-title","matchText":"Confucian outside, Legalist inside"}
   ]
 }

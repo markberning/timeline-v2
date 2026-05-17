@@ -85,12 +85,6 @@
       "type": "concept"
     },
     {
-      "term": "Filibuster",
-      "matchText": "the filibuster",
-      "wikiSlug": "Filibuster_in_the_United_States_Senate",
-      "type": "concept"
-    },
-    {
       "term": "Plessy v. Ferguson",
       "matchText": "Plessy v. Ferguson",
       "wikiSlug": "Plessy_v._Ferguson",
@@ -533,12 +527,6 @@
   ],
   "6": [
     {
-      "term": "Sit-in",
-      "matchText": "the sit-in",
-      "wikiSlug": "Greensboro_sit-ins",
-      "type": "concept"
-    },
-    {
       "term": "Greensboro sit-ins",
       "matchText": "Woolworth's department store in Greensboro",
       "wikiSlug": "Greensboro_sit-ins",
@@ -941,6 +929,12 @@
       "matchText": "de facto",
       "wikiSlug": "De_facto",
       "type": "concept"
+    },
+    {
+      "term": "Filibuster",
+      "matchText": "the filibuster",
+      "wikiSlug": "Filibuster_in_the_United_States_Senate",
+      "type": "concept"
     }
   ],
   "11": [
@@ -1228,6 +1222,12 @@
       "term": "Maximum feasible participation",
       "matchText": "maximum feasible participation",
       "wikiSlug": "Community_Action_Agency",
+      "type": "concept"
+    },
+    {
+      "term": "Sit-in",
+      "matchText": "the sit-in",
+      "wikiSlug": "Greensboro_sit-ins",
       "type": "concept"
     }
   ],

@@ -1,246 +1,75 @@
 {
   "1": [
-    {
-      "eventId": "evt-oke-djoser",
-      "matchText": "Djoser"
-    },
-    {
-      "eventId": "evt-oke-imhotep",
-      "matchText": "Imhotep"
-    },
-    {
-      "eventId": "evt-oke-step-pyramid",
-      "matchText": "Step Pyramid"
-    },
-    {
-      "eventId": "evt-oke-stone-vessel-production",
-      "matchText": "Forty thousand of them"
-    },
-    {
-      "eventId": "evt-oke-sekhemkhet-pyramid",
-      "matchText": "Sekhemkhet"
-    },
-    {
-      "eventId": "evt-oke-nilometer",
-      "matchText": "nilometer"
-    },
-    {
-      "eventId": "evt-oke-sed-festival",
-      "matchText": "Sed Festival"
-    },
-    {
-      "eventId": "evt-oke-sinai-mining",
-      "matchText": "quarrying expeditions to Sinai"
-    }
+    {"eventId":"evt-oke-djoser","matchText":"Djoser"},
+    {"eventId":"evt-oke-imhotep","matchText":"Imhotep"},
+    {"eventId":"evt-oke-step-pyramid","matchText":"Step Pyramid"},
+    {"eventId":"evt-oke-stone-vessel-production","matchText":"Forty thousand of them"},
+    {"eventId":"evt-oke-sekhemkhet-pyramid","matchText":"Sekhemkhet"},
+    {"eventId":"evt-oke-nilometer","matchText":"nilometer"},
+    {"eventId":"evt-oke-sed-festival","matchText":"Sed Festival"}
   ],
   "2": [
-    {
-      "eventId": "evt-oke-sneferu",
-      "matchText": "Sneferu"
-    },
-    {
-      "eventId": "evt-oke-meidum-pyramid",
-      "matchText": "Meidum"
-    },
-    {
-      "eventId": "evt-oke-bent-pyramid",
-      "matchText": "Bent Pyramid"
-    },
-    {
-      "eventId": "evt-oke-red-pyramid",
-      "matchText": "Red Pyramid"
-    },
-    {
-      "eventId": "evt-oke-byblos-trade",
-      "matchText": "Byblos"
-    },
-    {
-      "eventId": "evt-oke-khufu",
-      "matchText": "Khufu"
-    }
+    {"eventId":"evt-oke-sneferu","matchText":"Sneferu"},
+    {"eventId":"evt-oke-meidum-pyramid","matchText":"Meidum"},
+    {"eventId":"evt-oke-bent-pyramid","matchText":"Bent Pyramid"},
+    {"eventId":"evt-oke-red-pyramid","matchText":"Red Pyramid"},
+    {"eventId":"evt-oke-byblos-trade","matchText":"Byblos"},
+    {"eventId":"evt-oke-khufu","matchText":"Khufu"}
   ],
   "3": [
-    {
-      "eventId": "evt-oke-great-pyramid",
-      "matchText": "Great Pyramid"
-    },
-    {
-      "eventId": "evt-oke-hemiunu",
-      "matchText": "Hemiunu"
-    },
-    {
-      "eventId": "evt-oke-giza-workers-village",
-      "matchText": "workers' village at Giza"
-    },
-    {
-      "eventId": "evt-oke-bread-beer-economy",
-      "matchText": "bread-and-beer economy"
-    },
-    {
-      "eventId": "evt-oke-khufu-ship",
-      "matchText": "solar barque"
-    },
-    {
-      "eventId": "evt-oke-papyrus",
-      "matchText": "papyrus"
-    },
-    {
-      "eventId": "evt-oke-hieratic",
-      "matchText": "hieratic"
-    }
+    {"eventId":"evt-oke-great-pyramid","matchText":"Great Pyramid"},
+    {"eventId":"evt-oke-hemiunu","matchText":"Hemiunu"},
+    {"eventId":"evt-oke-giza-workers-village","matchText":"workers' village at Giza"},
+    {"eventId":"evt-oke-bread-beer-economy","matchText":"bread-and-beer economy"},
+    {"eventId":"evt-oke-khufu-ship","matchText":"solar barque"},
+    {"eventId":"evt-oke-papyrus","matchText":"papyrus"},
+    {"eventId":"evt-oke-hieratic","matchText":"hieratic"}
   ],
   "4": [
-    {
-      "eventId": "evt-oke-khafre",
-      "matchText": "Khafre"
-    },
-    {
-      "eventId": "evt-oke-sphinx",
-      "matchText": "Great Sphinx of Giza"
-    },
-    {
-      "eventId": "evt-oke-menkaure",
-      "matchText": "Menkaure"
-    },
-    {
-      "eventId": "evt-oke-giza-causeway-valley-temple",
-      "matchText": "valley temple"
-    },
-    {
-      "eventId": "evt-oke-khamerernebty-ii",
-      "matchText": "Khamerernebty II"
-    },
-    {
-      "eventId": "evt-oke-meresankh-iii",
-      "matchText": "Meresankh III"
-    }
+    {"eventId":"evt-oke-khafre","matchText":"Khafre"},
+    {"eventId":"evt-oke-sphinx","matchText":"Great Sphinx of Giza"},
+    {"eventId":"evt-oke-menkaure","matchText":"Menkaure"},
+    {"eventId":"evt-oke-giza-causeway-valley-temple","matchText":"valley temple"},
+    {"eventId":"evt-oke-khamerernebty-ii","matchText":"Khamerernebty II"},
+    {"eventId":"evt-oke-meresankh-iii","matchText":"Meresankh III"}
   ],
   "5": [
-    {
-      "eventId": "evt-oke-userkaf",
-      "matchText": "Userkaf"
-    },
-    {
-      "eventId": "evt-oke-sun-temples",
-      "matchText": "sun temple"
-    },
-    {
-      "eventId": "evt-oke-sahure",
-      "matchText": "Sahure"
-    },
-    {
-      "eventId": "evt-oke-punt-expedition",
-      "matchText": "Land of Punt"
-    },
-    {
-      "eventId": "evt-oke-abusir-pyramids",
-      "matchText": "Abusir Papyri"
-    },
-    {
-      "eventId": "evt-oke-ptahhotep",
-      "matchText": "Instructions of Ptahhotep"
-    },
-    {
-      "eventId": "evt-oke-djedkare-isesi",
-      "matchText": "Djedkare Isesi"
-    },
-    {
-      "eventId": "evt-oke-palermo-stone",
-      "matchText": "Palermo Stone"
-    },
-    {
-      "eventId": "evt-oke-unas",
-      "matchText": "Unas"
-    },
-    {
-      "eventId": "evt-oke-pyramid-texts",
-      "matchText": "Pyramid Texts"
-    },
-    {
-      "eventId": "evt-oke-egyptian-calendar-reform",
-      "matchText": "scribal schools"
-    }
+    {"eventId":"evt-oke-userkaf","matchText":"Userkaf"},
+    {"eventId":"evt-oke-sun-temples","matchText":"sun temple"},
+    {"eventId":"evt-oke-sahure","matchText":"Sahure"},
+    {"eventId":"evt-oke-punt-expedition","matchText":"Land of Punt"},
+    {"eventId":"evt-oke-abusir-pyramids","matchText":"Abusir Papyri"},
+    {"eventId":"evt-oke-ptahhotep","matchText":"Instructions of Ptahhotep"},
+    {"eventId":"evt-oke-djedkare-isesi","matchText":"Djedkare Isesi"},
+    {"eventId":"evt-oke-palermo-stone","matchText":"Palermo Stone"},
+    {"eventId":"evt-oke-unas","matchText":"Unas"},
+    {"eventId":"evt-oke-pyramid-texts","matchText":"Pyramid Texts"},
+    {"eventId":"evt-oke-egyptian-calendar-reform","matchText":"scribal schools"}
   ],
   "6": [
-    {
-      "eventId": "evt-oke-teti",
-      "matchText": "Teti"
-    },
-    {
-      "eventId": "evt-oke-pepi-i",
-      "matchText": "Pepi I"
-    },
-    {
-      "eventId": "evt-oke-weni",
-      "matchText": "Weni the Elder"
-    },
-    {
-      "eventId": "evt-oke-harkhuf",
-      "matchText": "Harkhuf"
-    },
-    {
-      "eventId": "evt-oke-pepi-ii",
-      "matchText": "Pepi II"
-    },
-    {
-      "eventId": "evt-oke-nomarch-power",
-      "matchText": "nomarch"
-    }
+    {"eventId":"evt-oke-teti","matchText":"Teti"},
+    {"eventId":"evt-oke-pepi-i","matchText":"Pepi I"},
+    {"eventId":"evt-oke-weni","matchText":"Weni the Elder"},
+    {"eventId":"evt-oke-harkhuf","matchText":"Harkhuf"},
+    {"eventId":"evt-oke-pepi-ii","matchText":"Pepi II"},
+    {"eventId":"evt-oke-nomarch-power","matchText":"nomarch"}
   ],
   "7": [
-    {
-      "eventId": "evt-oke-old-kingdom-collapse",
-      "matchText": "First Intermediate Period"
-    },
-    {
-      "eventId": "evt-oke-famine-relief",
-      "matchText": "4.2-kiloyear event"
-    },
-    {
-      "eventId": "evt-oke-herakleopolis-dynasty",
-      "matchText": "Herakleopolis"
-    },
-    {
-      "eventId": "evt-oke-theban-rise",
-      "matchText": "Thebes"
-    },
-    {
-      "eventId": "evt-oke-ankhtifi",
-      "matchText": "Ankhtifi"
-    },
-    {
-      "eventId": "evt-oke-ipuwer",
-      "matchText": "Admonitions of Ipuwer"
-    },
-    {
-      "eventId": "evt-oke-coffin-texts",
-      "matchText": "Coffin Texts"
-    },
-    {
-      "eventId": "evt-oke-dialogue-man-soul",
-      "matchText": "Dialogue of a Man with His Soul"
-    },
-    {
-      "eventId": "evt-oke-merikare",
-      "matchText": "Instructions for King Merikare"
-    },
-    {
-      "eventId": "evt-oke-basin-irrigation",
-      "matchText": "Basin irrigation"
-    }
+    {"eventId":"evt-oke-old-kingdom-collapse","matchText":"First Intermediate Period"},
+    {"eventId":"evt-oke-famine-relief","matchText":"4.2-kiloyear event"},
+    {"eventId":"evt-oke-herakleopolis-dynasty","matchText":"Herakleopolis"},
+    {"eventId":"evt-oke-theban-rise","matchText":"Thebes"},
+    {"eventId":"evt-oke-ankhtifi","matchText":"Ankhtifi"},
+    {"eventId":"evt-oke-ipuwer","matchText":"Admonitions of Ipuwer"},
+    {"eventId":"evt-oke-coffin-texts","matchText":"Coffin Texts"},
+    {"eventId":"evt-oke-dialogue-man-soul","matchText":"Dialogue of a Man with His Soul"},
+    {"eventId":"evt-oke-merikare","matchText":"Instructions for King Merikare"},
+    {"eventId":"evt-oke-basin-irrigation","matchText":"Basin irrigation"}
   ],
   "8": [
-    {
-      "eventId": "evt-oke-mentuhotep-ii",
-      "matchText": "Mentuhotep II"
-    },
-    {
-      "eventId": "evt-oke-mortuary-temple-mentuhotep",
-      "matchText": "Deir el-Bahri"
-    },
-    {
-      "eventId": "evt-oke-calendar",
-      "matchText": "epagomenal days"
-    }
+    {"eventId":"evt-oke-mentuhotep-ii","matchText":"Mentuhotep II"},
+    {"eventId":"evt-oke-mortuary-temple-mentuhotep","matchText":"Deir el-Bahri"},
+    {"eventId":"evt-oke-calendar","matchText":"epagomenal days"},
+    {"eventId":"evt-oke-sinai-mining","matchText":"quarrying expeditions to Sinai"}
   ]
 }

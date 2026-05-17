@@ -355,12 +355,6 @@
       "type": "people"
     },
     {
-      "term": "Lateen sail",
-      "matchText": "lateen",
-      "wikiSlug": "Lateen",
-      "type": "concept"
-    },
-    {
       "term": "Al-Hakim bi-Amr Allah",
       "matchText": "al-Hakim bi-Amr Allah",
       "wikiSlug": "Al-Hakim_bi-Amr_Allah",
@@ -694,6 +688,12 @@
     },
     {
       "term": "Lateen",
+      "matchText": "lateen",
+      "wikiSlug": "Lateen",
+      "type": "concept"
+    },
+    {
+      "term": "Lateen sail",
       "matchText": "lateen",
       "wikiSlug": "Lateen",
       "type": "concept"

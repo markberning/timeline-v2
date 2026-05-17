@@ -239,6 +239,12 @@
       "targetTl": "ancient-israel",
       "targetChapter": 8,
       "blurb": "The Dome stands on the Temple Mount — Umayyad Islam inscribing itself onto the sacred geography of ancient Israel."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 6,
+      "blurb": "The Abbasid revolution that ended the Umayyads recurs as a pattern — the caliphate's legitimacy crisis the Ottomans would one day inherit and claim."
     }
   ],
   "8": [
@@ -271,12 +277,6 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 6,
       "blurb": "The Fatimid Caliphate (909–1171), an Ismaili Shia state that conquered Egypt and ruled from Cairo, was one of the major Shia counter-caliphates that emerged in opposition to the Sunni Abbasids. The Fatimids built al-Azhar in Cairo (founded 970), still the world's oldest continuously operating Islamic university, and patronized one of the great cosmopolitan medieval cultures. The Sunni-Shia geopolitical division that the Karbala killing had institutionalized produced its most successful Shia state experiment in Fatimid Egypt."
-    },
-    {
-      "matchText": "Ottoman Empire",
-      "targetTl": "ottoman-empire",
-      "targetChapter": 6,
-      "blurb": "The Abbasid revolution that ended the Umayyads recurs as a pattern — the caliphate's legitimacy crisis the Ottomans would one day inherit and claim."
     }
   ]
 }

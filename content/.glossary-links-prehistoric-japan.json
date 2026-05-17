@@ -119,6 +119,12 @@
       "matchText": "Haida",
       "wikiSlug": "Haida_people",
       "type": "people"
+    },
+    {
+      "term": "Sedentism",
+      "matchText": "sedentism",
+      "wikiSlug": "Sedentism",
+      "type": "concept"
     }
   ],
   "2": [
@@ -213,15 +219,15 @@
       "type": "concept"
     },
     {
-      "term": "Sedentism",
-      "matchText": "sedentism",
-      "wikiSlug": "Sedentism",
-      "type": "concept"
-    },
-    {
       "term": "Domestication",
       "matchText": "domesticated",
       "wikiSlug": "Domestication",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
       "type": "concept"
     }
   ],
@@ -367,15 +373,15 @@
       "type": "place"
     },
     {
-      "term": "Bronze Age",
-      "matchText": "Bronze Age",
-      "wikiSlug": "Bronze_Age",
-      "type": "concept"
-    },
-    {
       "term": "Granary",
       "matchText": "granaries",
       "wikiSlug": "Granary",
+      "type": "concept"
+    },
+    {
+      "term": "Palisade",
+      "matchText": "palisades",
+      "wikiSlug": "Palisade",
       "type": "concept"
     }
   ],
@@ -444,12 +450,6 @@
       "term": "Tributary system",
       "matchText": "tributary system",
       "wikiSlug": "Tributary_system_of_China",
-      "type": "concept"
-    },
-    {
-      "term": "Palisade",
-      "matchText": "palisades",
-      "wikiSlug": "Palisade",
       "type": "concept"
     },
     {

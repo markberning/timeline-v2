@@ -155,6 +155,24 @@
       "matchText": "Sargon II",
       "wikiSlug": "Sargon_II",
       "type": "people"
+    },
+    {
+      "term": "Persian Gulf",
+      "matchText": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf",
+      "type": "place"
+    },
+    {
+      "term": "Hurrians",
+      "matchText": "Hurrians",
+      "wikiSlug": "Hurrians",
+      "type": "concept"
+    },
+    {
+      "term": "Gutians",
+      "matchText": "Gutians",
+      "wikiSlug": "Gutian_people",
+      "type": "concept"
     }
   ],
   "2": [
@@ -249,12 +267,6 @@
       "type": "place"
     },
     {
-      "term": "Persian Gulf",
-      "matchText": "Persian Gulf",
-      "wikiSlug": "Persian_Gulf",
-      "type": "place"
-    },
-    {
       "term": "Kültepe",
       "matchText": "Kültepe",
       "wikiSlug": "Kültepe",
@@ -338,18 +350,6 @@
       "term": "Phoenician",
       "matchText": "Phoenician",
       "wikiSlug": "Phoenicia",
-      "type": "concept"
-    },
-    {
-      "term": "Hurrians",
-      "matchText": "Hurrians",
-      "wikiSlug": "Hurrians",
-      "type": "concept"
-    },
-    {
-      "term": "Gutians",
-      "matchText": "Gutians",
-      "wikiSlug": "Gutian_people",
       "type": "concept"
     },
     {

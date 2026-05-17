@@ -35,6 +35,18 @@
       "targetTl": "mongol-empire",
       "targetChapter": 5,
       "blurb": "The Safavid order arose in the post-Ilkhanate vacuum — the religious-military brotherhood filling the space the Mongol world-empire's collapse left in Iran."
+    },
+    {
+      "matchText": "Babur in 1526",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Babur's founding of the Mughal Empire in 1526 and Ismail's founding of the Safavid state in 1501 were almost exactly contemporary, and the two dynasties were linked from the start — Babur was a Timurid, competing in the same northwest Iranian and Central Asian space the Safavids were also claiming. The Safavid-Mughal relationship began as geopolitical competition and developed into one of the most culturally fertile bilateral relationships of the early-modern world."
+    },
+    {
+      "matchText": "Abbasid caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The institutional Shia clerical network that Ismail was importing Lebanese scholars to build in 1501 was the direct descendant of the Shia scholarly traditions that had developed in Iraq during the Abbasid period — the same Iraq where the Islamic Golden Age's great intellectual synthesis had happened. The Safavids were, in this sense, the inheritors of the Abbasid-era clerical-scholarly infrastructure, redirected toward Twelver Shia rather than Sunni purposes."
     }
   ],
   "2": [
@@ -49,18 +61,6 @@
       "targetTl": "maurya-empire",
       "targetChapter": 5,
       "blurb": "The structural comparison between Ismail and Ashoka is a study in contrasting methods of state-sponsored religious conversion. Ashoka used the machinery of the Mauryan state to propagate Buddhism — imported scholarly specialists, built new institutional infrastructure, used royal authority to elevate a minority religion — but relied on persuasion rather than coercion. The Safavid project used systematic state violence applied over generations. Ashoka's Buddhist India did not outlast his dynasty; the Safavid Shia Iran has lasted five centuries. The depressing inference writes itself."
-    },
-    {
-      "matchText": "Babur in 1526",
-      "targetTl": "mughal-empire",
-      "targetChapter": 1,
-      "blurb": "Babur's founding of the Mughal Empire in 1526 and Ismail's founding of the Safavid state in 1501 were almost exactly contemporary, and the two dynasties were linked from the start — Babur was a Timurid, competing in the same northwest Iranian and Central Asian space the Safavids were also claiming. The Safavid-Mughal relationship began as geopolitical competition and developed into one of the most culturally fertile bilateral relationships of the early-modern world."
-    },
-    {
-      "matchText": "Abbasid caliphate",
-      "targetTl": "islamic-golden-age",
-      "targetChapter": 1,
-      "blurb": "The institutional Shia clerical network that Ismail was importing Lebanese scholars to build in 1501 was the direct descendant of the Shia scholarly traditions that had developed in Iraq during the Abbasid period — the same Iraq where the Islamic Golden Age's great intellectual synthesis had happened. The Safavids were, in this sense, the inheritors of the Abbasid-era clerical-scholarly infrastructure, redirected toward Twelver Shia rather than Sunni purposes."
     },
     {
       "matchText": "Persian Empire",

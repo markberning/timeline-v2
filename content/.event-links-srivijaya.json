@@ -1,290 +1,86 @@
 {
   "1": [
-    {
-      "eventId": "evt-austronesian-expansion",
-      "matchText": "Austronesians"
-    },
-    {
-      "eventId": "evt-funan-kingdom",
-      "matchText": "Funan"
-    },
-    {
-      "eventId": "evt-monsoon-trade",
-      "matchText": "monsoon"
-    },
-    {
-      "eventId": "evt-han-china-trade",
-      "matchText": "ships from"
-    },
-    {
-      "eventId": "evt-indianization",
-      "matchText": "Indianization of Southeast Asia"
-    },
-    {
-      "eventId": "evt-suvarnabhumi",
-      "matchText": "Suvarnabhumi"
-    },
-    {
-      "eventId": "evt-palembang-capital",
-      "matchText": "Palembang"
-    },
-    {
-      "eventId": "evt-dapunta-hyang",
-      "matchText": "Dapunta Hyang Sri Jayanasa"
-    }
+    {"eventId":"evt-austronesian-expansion","matchText":"Austronesians"},
+    {"eventId":"evt-funan-kingdom","matchText":"Funan"},
+    {"eventId":"evt-monsoon-trade","matchText":"monsoon"},
+    {"eventId":"evt-han-china-trade","matchText":"ships from"},
+    {"eventId":"evt-indianization","matchText":"Indianization of Southeast Asia"},
+    {"eventId":"evt-suvarnabhumi","matchText":"Suvarnabhumi"},
+    {"eventId":"evt-palembang-capital","matchText":"Palembang"},
+    {"eventId":"evt-dapunta-hyang","matchText":"Dapunta Hyang Sri Jayanasa"}
   ],
   "2": [
-    {
-      "eventId": "evt-yijing-arrival",
-      "matchText": "Yijing"
-    },
-    {
-      "eventId": "evt-kedukan-bukit",
-      "matchText": "Kedukan Bukit Inscription"
-    },
-    {
-      "eventId": "evt-talang-tuwo",
-      "matchText": "Talang Tuwo Inscription"
-    },
-    {
-      "eventId": "evt-telaga-batu",
-      "matchText": "Telaga Batu Inscription"
-    },
-    {
-      "eventId": "evt-kota-kapur",
-      "matchText": "Kota Kapur Inscription"
-    },
-    {
-      "eventId": "evt-conquest-bangka",
-      "matchText": "Bangka Island"
-    },
-    {
-      "eventId": "evt-strait-malacca-control",
-      "matchText": "Srivijaya consolidated control"
-    },
-    {
-      "eventId": "evt-tang-tribute",
-      "matchText": "tribute missions to"
-    },
-    {
-      "eventId": "evt-old-malay",
-      "matchText": "Old Malay stone inscriptions"
-    }
+    {"eventId":"evt-yijing-arrival","matchText":"Yijing"},
+    {"eventId":"evt-kedukan-bukit","matchText":"Kedukan Bukit Inscription"},
+    {"eventId":"evt-talang-tuwo","matchText":"Talang Tuwo Inscription"},
+    {"eventId":"evt-telaga-batu","matchText":"Telaga Batu Inscription"},
+    {"eventId":"evt-kota-kapur","matchText":"Kota Kapur Inscription"},
+    {"eventId":"evt-conquest-bangka","matchText":"Bangka Island"},
+    {"eventId":"evt-strait-malacca-control","matchText":"Srivijaya consolidated control"},
+    {"eventId":"evt-tang-tribute","matchText":"tribute missions to"},
+    {"eventId":"evt-old-malay","matchText":"Old Malay stone inscriptions"}
   ],
   "3": [
-    {
-      "eventId": "evt-mahayana-center",
-      "matchText": "Mahayana"
-    },
-    {
-      "eventId": "evt-yijing-pilgrimage",
-      "matchText": "perhaps seven years at Srivijaya"
-    },
-    {
-      "eventId": "evt-sailendra-dynasty",
-      "matchText": "Sailendras"
-    },
-    {
-      "eventId": "evt-borobudur",
-      "matchText": "Borobudur"
-    },
-    {
-      "eventId": "evt-muara-takus",
-      "matchText": "Muara Takus"
-    },
-    {
-      "eventId": "evt-bronze-buddhas",
-      "matchText": "bronze Buddha statues"
-    },
-    {
-      "eventId": "evt-atisha-studies",
-      "matchText": "Atisha"
-    },
-    {
-      "eventId": "evt-dharmakirti-srivijaya",
-      "matchText": "Dharmakirti"
-    },
-    {
-      "eventId": "evt-bukit-seguntang",
-      "matchText": "Bukit Seguntang sacred hill"
-    }
+    {"eventId":"evt-mahayana-center","matchText":"Mahayana"},
+    {"eventId":"evt-yijing-pilgrimage","matchText":"perhaps seven years at Srivijaya"},
+    {"eventId":"evt-sailendra-dynasty","matchText":"Sailendras"},
+    {"eventId":"evt-borobudur","matchText":"Borobudur"},
+    {"eventId":"evt-muara-takus","matchText":"Muara Takus"},
+    {"eventId":"evt-bronze-buddhas","matchText":"bronze Buddha statues"},
+    {"eventId":"evt-atisha-studies","matchText":"Atisha"},
+    {"eventId":"evt-dharmakirti-srivijaya","matchText":"Dharmakirti"},
+    {"eventId":"evt-bukit-seguntang","matchText":"Bukit Seguntang sacred hill"}
   ],
   "4": [
-    {
-      "eventId": "evt-thalassocracy",
-      "matchText": "thalassocracy"
-    },
-    {
-      "eventId": "evt-srivijayan-navy",
-      "matchText": "Srivijayan fleet"
-    },
-    {
-      "eventId": "evt-tamil-merchants",
-      "matchText": "Ainurruvar"
-    },
-    {
-      "eventId": "evt-arab-zabag",
-      "matchText": "Maharaja of"
-    },
-    {
-      "eventId": "evt-srivijaya-population-estimate",
-      "matchText": "small Sumatran-ruled core"
-    }
+    {"eventId":"evt-thalassocracy","matchText":"thalassocracy"},
+    {"eventId":"evt-srivijayan-navy","matchText":"Srivijayan fleet"},
+    {"eventId":"evt-tamil-merchants","matchText":"Ainurruvar"},
+    {"eventId":"evt-arab-zabag","matchText":"Maharaja of"},
+    {"eventId":"evt-srivijaya-population-estimate","matchText":"small Sumatran-ruled core"},
+    {"eventId":"evt-arab-traders","matchText":"Arab and Persian"}
   ],
   "5": [
-    {
-      "eventId": "evt-spice-trade",
-      "matchText": "Cloves"
-    },
-    {
-      "eventId": "evt-camphor-trade",
-      "matchText": "Camphor"
-    },
-    {
-      "eventId": "evt-gold-from-interior",
-      "matchText": "gold panned from the rivers"
-    },
-    {
-      "eventId": "evt-tamil-inscription-lobu-tua",
-      "matchText": "Lobu Tua"
-    },
-    {
-      "eventId": "evt-balaputradeva",
-      "matchText": "Balaputradeva"
-    },
-    {
-      "eventId": "evt-nalanda-monastery",
-      "matchText": "Buddhist monastery at"
-    },
-    {
-      "eventId": "evt-manjusri-vihara",
-      "matchText": "Manjusri Vihara"
-    },
-    {
-      "eventId": "evt-belitung-shipwreck",
-      "matchText": "Belitung"
-    },
-    {
-      "eventId": "evt-leiden-plates",
-      "matchText": "Larger Leiden Grant"
-    },
-    {
-      "eventId": "evt-bay-of-bengal-trade",
-      "matchText": "Bay of Bengal trade"
-    },
-    {
-      "eventId": "evt-shipbuilding",
-      "matchText": "lashed-lug"
-    },
-    {
-      "eventId": "evt-monsoon-navigation",
-      "matchText": "monsoon wind patterns"
-    },
-    {
-      "eventId": "evt-indian-ocean-network",
-      "matchText": "Indian Ocean trade network"
-    },
-    {
-      "eventId": "evt-arab-traders",
-      "matchText": "Arab and Persian"
-    },
-    {
-      "eventId": "evt-sanskrit-buddhism",
-      "matchText": "translation"
-    },
-    {
-      "eventId": "evt-kedah-port",
-      "matchText": "Kedah"
-    },
-    {
-      "eventId": "evt-tambralinga",
-      "matchText": "Tambralinga"
-    }
+    {"eventId":"evt-spice-trade","matchText":"Cloves"},
+    {"eventId":"evt-camphor-trade","matchText":"Camphor"},
+    {"eventId":"evt-gold-from-interior","matchText":"gold panned from the rivers"},
+    {"eventId":"evt-tamil-inscription-lobu-tua","matchText":"Lobu Tua"},
+    {"eventId":"evt-balaputradeva","matchText":"Balaputradeva"},
+    {"eventId":"evt-nalanda-monastery","matchText":"Buddhist monastery at"},
+    {"eventId":"evt-manjusri-vihara","matchText":"Manjusri Vihara"},
+    {"eventId":"evt-belitung-shipwreck","matchText":"Belitung"},
+    {"eventId":"evt-shipbuilding","matchText":"lashed-lug"},
+    {"eventId":"evt-indian-ocean-network","matchText":"Indian Ocean trade network"},
+    {"eventId":"evt-sanskrit-buddhism","matchText":"translation"},
+    {"eventId":"evt-kedah-port","matchText":"Kedah"},
+    {"eventId":"evt-tambralinga","matchText":"Tambralinga"}
   ],
   "6": [
-    {
-      "eventId": "evt-rajendra-chola",
-      "matchText": "Rajendra Chola I"
-    },
-    {
-      "eventId": "evt-chola-raid-1025",
-      "matchText": "Chola war fleet"
-    },
-    {
-      "eventId": "evt-sangrama-vijayottungavarman",
-      "matchText": "Sangrama Vijayottungavarman"
-    },
-    {
-      "eventId": "evt-second-chola-raid",
-      "matchText": "Virarajendra Chola"
-    },
-    {
-      "eventId": "evt-srivijaya-attacks-mataram",
-      "matchText": "Srivijaya raided"
-    }
+    {"eventId":"evt-rajendra-chola","matchText":"Rajendra Chola I"},
+    {"eventId":"evt-chola-raid-1025","matchText":"Chola war fleet"},
+    {"eventId":"evt-sangrama-vijayottungavarman","matchText":"Sangrama Vijayottungavarman"},
+    {"eventId":"evt-second-chola-raid","matchText":"Virarajendra Chola"},
+    {"eventId":"evt-leiden-plates","matchText":"Larger Leiden Grant"},
+    {"eventId":"evt-bay-of-bengal-trade","matchText":"Bay of Bengal trade"},
+    {"eventId":"evt-monsoon-navigation","matchText":"monsoon wind patterns"}
   ],
   "7": [
-    {
-      "eventId": "evt-jambi-capital-shift",
-      "matchText": "Jambi"
-    },
-    {
-      "eventId": "evt-kediri-singhasari-rise",
-      "matchText": "Javanese power steadily shifted east"
-    },
-    {
-      "eventId": "evt-pamalayu-1275",
-      "matchText": "Pamalayu Expedition"
-    },
-    {
-      "eventId": "evt-zhao-rugua",
-      "matchText": "Zhao Rugua"
-    },
-    {
-      "eventId": "evt-islam-arrives-aceh",
-      "matchText": "Pasai Sultanate"
-    },
-    {
-      "eventId": "evt-ibn-battuta-visits",
-      "matchText": "Ibn Battuta"
-    },
-    {
-      "eventId": "evt-singhasari-1292-collapse",
-      "matchText": "killed in a coup"
-    },
-    {
-      "eventId": "evt-yuan-attack-java",
-      "matchText": "Yuan punitive expedition"
-    },
-    {
-      "eventId": "evt-srivijaya-fragmentation-1100s",
-      "matchText": "fragmented further"
-    }
+    {"eventId":"evt-jambi-capital-shift","matchText":"Jambi"},
+    {"eventId":"evt-kediri-singhasari-rise","matchText":"Javanese power steadily shifted east"},
+    {"eventId":"evt-pamalayu-1275","matchText":"Pamalayu Expedition"},
+    {"eventId":"evt-zhao-rugua","matchText":"Zhao Rugua"},
+    {"eventId":"evt-islam-arrives-aceh","matchText":"Pasai Sultanate"},
+    {"eventId":"evt-ibn-battuta-visits","matchText":"Ibn Battuta"},
+    {"eventId":"evt-singhasari-1292-collapse","matchText":"killed in a coup"},
+    {"eventId":"evt-yuan-attack-java","matchText":"Yuan punitive expedition"},
+    {"eventId":"evt-srivijaya-fragmentation-1100s","matchText":"fragmented further"},
+    {"eventId":"evt-srivijaya-attacks-mataram","matchText":"Srivijaya raided"}
   ],
   "8": [
-    {
-      "eventId": "evt-majapahit-conquest-1377",
-      "matchText": "Majapahit conquest of Palembang"
-    },
-    {
-      "eventId": "evt-majapahit-rise",
-      "matchText": "Majapahit"
-    },
-    {
-      "eventId": "evt-parameswara",
-      "matchText": "Parameswara"
-    },
-    {
-      "eventId": "evt-malacca-sultanate",
-      "matchText": "Malacca Sultanate"
-    },
-    {
-      "eventId": "evt-malay-language-survival",
-      "matchText": "Old Malay"
-    },
-    {
-      "eventId": "evt-coedes-1918",
-      "matchText": "George Coedes"
-    }
+    {"eventId":"evt-majapahit-conquest-1377","matchText":"Majapahit conquest of Palembang"},
+    {"eventId":"evt-majapahit-rise","matchText":"Majapahit"},
+    {"eventId":"evt-parameswara","matchText":"Parameswara"},
+    {"eventId":"evt-malacca-sultanate","matchText":"Malacca Sultanate"},
+    {"eventId":"evt-malay-language-survival","matchText":"Old Malay"},
+    {"eventId":"evt-coedes-1918","matchText":"George Coedes"}
   ]
 }

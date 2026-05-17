@@ -213,12 +213,6 @@
       "type": "concept"
     },
     {
-      "term": "Blues and Greens",
-      "matchText": "Blues and Greens",
-      "wikiSlug": "Circus_factions",
-      "type": "concept"
-    },
-    {
       "term": "Tribonian",
       "matchText": "Tribonian",
       "wikiSlug": "Tribonian",
@@ -343,6 +337,12 @@
       "matchText": "Ravenna",
       "wikiSlug": "Ravenna",
       "type": "place"
+    },
+    {
+      "term": "murex snail",
+      "matchText": "murex sea-snail",
+      "wikiSlug": "Murex",
+      "type": "concept"
     }
   ],
   "3": [
@@ -449,12 +449,6 @@
       "type": "concept"
     },
     {
-      "term": "Umayyad Caliphate",
-      "matchText": "Umayyad Caliphate",
-      "wikiSlug": "Umayyad_Caliphate",
-      "type": "concept"
-    },
-    {
       "term": "dynatoi",
       "matchText": "dynatoi",
       "wikiSlug": "Dynatoi",
@@ -495,6 +489,12 @@
       "matchText": "Amr ibn al-As",
       "wikiSlug": "Amr_ibn_al-As",
       "type": "people"
+    },
+    {
+      "term": "stratiotika ktemata",
+      "matchText": "stratiotika ktemata",
+      "wikiSlug": "Strateia",
+      "type": "concept"
     }
   ],
   "4": [
@@ -629,6 +629,12 @@
       "matchText": "Sunday of Orthodoxy",
       "wikiSlug": "Triumph_of_Orthodoxy",
       "type": "concept"
+    },
+    {
+      "term": "Umayyad Caliphate",
+      "matchText": "Umayyad Caliphate",
+      "wikiSlug": "Umayyad_Caliphate",
+      "type": "concept"
     }
   ],
   "5": [
@@ -751,6 +757,12 @@
       "matchText": "John I Tzimiskes",
       "wikiSlug": "John_I_Tzimiskes",
       "type": "people"
+    },
+    {
+      "term": "Carolingian Renaissance",
+      "matchText": "Carolingian Renaissance",
+      "wikiSlug": "Carolingian_Renaissance",
+      "type": "concept"
     }
   ],
   "6": [
@@ -851,18 +863,6 @@
       "type": "concept"
     },
     {
-      "term": "Theotokos",
-      "matchText": "Theotokos",
-      "wikiSlug": "Theotokos",
-      "type": "concept"
-    },
-    {
-      "term": "murex snail",
-      "matchText": "murex sea-snail",
-      "wikiSlug": "Murex",
-      "type": "concept"
-    },
-    {
       "term": "Neorion harbor",
       "matchText": "Neorion",
       "wikiSlug": "Neorion",
@@ -872,18 +872,6 @@
       "term": "blattai",
       "matchText": "blattai",
       "wikiSlug": "Blatta_(color)",
-      "type": "concept"
-    },
-    {
-      "term": "stratiotika ktemata",
-      "matchText": "stratiotika ktemata",
-      "wikiSlug": "Strateia",
-      "type": "concept"
-    },
-    {
-      "term": "Carolingian Renaissance",
-      "matchText": "Carolingian Renaissance",
-      "wikiSlug": "Carolingian_Renaissance",
       "type": "concept"
     },
     {
@@ -903,6 +891,12 @@
       "matchText": "Stoudios Monastery",
       "wikiSlug": "Monastery_of_Stoudios",
       "type": "place"
+    },
+    {
+      "term": "Blues and Greens",
+      "matchText": "Blues and Greens",
+      "wikiSlug": "Circus_factions",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1381,12 +1375,6 @@
       "type": "concept"
     },
     {
-      "term": "Battle of Varna",
-      "matchText": "Battle of Varna",
-      "wikiSlug": "Battle_of_Varna_(1444)",
-      "type": "concept"
-    },
-    {
       "term": "Chora Church",
       "matchText": "Chora Church",
       "wikiSlug": "Kariye_Mosque",
@@ -1450,7 +1438,7 @@
     },
     {
       "term": "Rumeli Hisari",
-      "matchText": "Rumeli Hisarı",
+      "matchText": "Rumeli Hisar",
       "wikiSlug": "Rumelihisarı",
       "type": "place"
     },
@@ -1560,6 +1548,12 @@
       "term": "Empire of Trebizond",
       "matchText": "Trebizond",
       "wikiSlug": "Empire_of_Trebizond",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Varna",
+      "matchText": "Battle of Varna",
+      "wikiSlug": "Battle_of_Varna_(1444)",
       "type": "concept"
     }
   ],
@@ -1695,6 +1689,12 @@
       "matchText": "Patriarch Gennadios II",
       "wikiSlug": "Gennadius_Scholarius",
       "type": "people"
+    },
+    {
+      "term": "Theotokos",
+      "matchText": "Theotokos",
+      "wikiSlug": "Theotokos",
+      "type": "concept"
     }
   ]
 }

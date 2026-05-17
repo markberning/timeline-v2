@@ -32,7 +32,7 @@
     },
     {
       "term": "Djenné",
-      "matchText": "Djenné",
+      "matchText": "Djenn",
       "wikiSlug": "Djenné",
       "type": "place"
     },
@@ -250,7 +250,7 @@
     },
     {
       "term": "Ögedei Khan",
-      "matchText": "Ögedei Khan",
+      "matchText": "gedei Khan",
       "wikiSlug": "Ögedei_Khan",
       "type": "people"
     },
@@ -357,24 +357,6 @@
       "matchText": "al-Umari",
       "wikiSlug": "Shihab_al-Umari",
       "type": "people"
-    },
-    {
-      "term": "Ibn Khaldun",
-      "matchText": "Ibn Khaldun",
-      "wikiSlug": "Ibn_Khaldun",
-      "type": "people"
-    },
-    {
-      "term": "Hadith",
-      "matchText": "hadith",
-      "wikiSlug": "Hadith",
-      "type": "concept"
-    },
-    {
-      "term": "Maliki school",
-      "matchText": "Maliki",
-      "wikiSlug": "Maliki_school",
-      "type": "concept"
     }
   ],
   "4": [
@@ -475,12 +457,6 @@
       "type": "concept"
     },
     {
-      "term": "Sudano-Sahelian architecture",
-      "matchText": "Sudano-Sahelian",
-      "wikiSlug": "Sudano-Sahelian_architecture",
-      "type": "concept"
-    },
-    {
       "term": "Mansa Suleyman",
       "matchText": "Mansa Suleyman",
       "wikiSlug": "Mansa_Suleyman",
@@ -497,6 +473,12 @@
       "matchText": "Black Death",
       "wikiSlug": "Black_Death",
       "type": "concept"
+    },
+    {
+      "term": "Ibn Khaldun",
+      "matchText": "Ibn Khaldun",
+      "wikiSlug": "Ibn_Khaldun",
+      "type": "people"
     }
   ],
   "5": [
@@ -514,7 +496,7 @@
     },
     {
       "term": "Sankoré Madrasah",
-      "matchText": "Sankoré",
+      "matchText": "Sankor",
       "wikiSlug": "Sankore_Madrasah",
       "type": "concept"
     },
@@ -613,6 +595,24 @@
       "matchText": "Marrakesh",
       "wikiSlug": "Marrakesh",
       "type": "place"
+    },
+    {
+      "term": "Hadith",
+      "matchText": "hadith",
+      "wikiSlug": "Hadith",
+      "type": "concept"
+    },
+    {
+      "term": "Maliki school",
+      "matchText": "Maliki",
+      "wikiSlug": "Maliki_school",
+      "type": "concept"
+    },
+    {
+      "term": "Sudano-Sahelian architecture",
+      "matchText": "Sudano-Sahelian",
+      "wikiSlug": "Sudano-Sahelian_architecture",
+      "type": "concept"
     }
   ],
   "6": [
@@ -656,12 +656,6 @@
       "term": "Tarikh al-Sudan",
       "matchText": "Tarikh al-Sudan",
       "wikiSlug": "Tarikh_al-Sudan",
-      "type": "concept"
-    },
-    {
-      "term": "Tarikh al-Fattash",
-      "matchText": "Tarikh al-Fattash",
-      "wikiSlug": "Tarikh_al-Fattash",
       "type": "concept"
     },
     {
@@ -785,6 +779,12 @@
       "matchText": "Alawites",
       "wikiSlug": "Alaouite_dynasty",
       "type": "concept"
+    },
+    {
+      "term": "Tarikh al-Fattash",
+      "matchText": "Tarikh al-Fattash",
+      "wikiSlug": "Tarikh_al-Fattash",
+      "type": "concept"
     }
   ],
   "8": [
@@ -880,7 +880,7 @@
     },
     {
       "term": "René Caillié",
-      "matchText": "René Caillié",
+      "matchText": "René Cailli",
       "wikiSlug": "René_Caillié",
       "type": "people"
     },
@@ -892,7 +892,7 @@
     },
     {
       "term": "Potosí",
-      "matchText": "Potosí",
+      "matchText": "Potos",
       "wikiSlug": "Potosí",
       "type": "place"
     },

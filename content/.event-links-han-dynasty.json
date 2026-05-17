@@ -1,322 +1,94 @@
 {
   "1": [
-    {
-      "eventId": "evt-han-liu-bang",
-      "matchText": "Liu Bang"
-    },
-    {
-      "eventId": "evt-han-battle-gaixia",
-      "matchText": "Battle of Gaixia"
-    },
-    {
-      "eventId": "evt-han-han-founded",
-      "matchText": "Emperor Gaozu of the Han dynasty"
-    },
-    {
-      "eventId": "evt-han-chang-an",
-      "matchText": "Chang'an"
-    },
-    {
-      "eventId": "evt-han-weiyang-palace",
-      "matchText": "Weiyang Palace"
-    },
-    {
-      "eventId": "evt-han-rebellion-seven-kingdoms",
-      "matchText": "Rebellion of the Seven Kingdoms"
-    },
-    {
-      "eventId": "evt-han-iron-casting",
-      "matchText": "Han cast iron"
-    }
+    {"eventId":"evt-han-liu-bang","matchText":"Liu Bang"},
+    {"eventId":"evt-han-battle-gaixia","matchText":"Battle of Gaixia"},
+    {"eventId":"evt-han-han-founded","matchText":"Emperor Gaozu of the Han dynasty"},
+    {"eventId":"evt-han-chang-an","matchText":"Chang'an"},
+    {"eventId":"evt-han-weiyang-palace","matchText":"Weiyang Palace"},
+    {"eventId":"evt-han-rebellion-seven-kingdoms","matchText":"Rebellion of the Seven Kingdoms"}
   ],
   "2": [
-    {
-      "eventId": "evt-han-empress-lu",
-      "matchText": "Empress Lu"
-    },
-    {
-      "eventId": "evt-han-emperor-wen",
-      "matchText": "Emperor Wen"
-    },
-    {
-      "eventId": "evt-han-jia-yi",
-      "matchText": "Jia Yi"
-    },
-    {
-      "eventId": "evt-han-emperor-jing",
-      "matchText": "Emperor Jing"
-    },
-    {
-      "eventId": "evt-han-white-deng",
-      "matchText": "Mount Baideng"
-    },
-    {
-      "eventId": "evt-han-heqin",
-      "matchText": "heqin"
-    },
-    {
-      "eventId": "evt-han-rebellion-seven-kingdoms",
-      "matchText": "Rebellion of the Seven Kingdoms"
-    },
-    {
-      "eventId": "evt-han-emperor-wen",
-      "matchText": "Rule of Wen and Jing"
-    }
+    {"eventId":"evt-han-empress-lu","matchText":"Empress Lu"},
+    {"eventId":"evt-han-emperor-wen","matchText":"Emperor Wen"},
+    {"eventId":"evt-han-jia-yi","matchText":"Jia Yi"},
+    {"eventId":"evt-han-emperor-jing","matchText":"Emperor Jing"},
+    {"eventId":"evt-han-white-deng","matchText":"Mount Baideng"},
+    {"eventId":"evt-han-heqin","matchText":"heqin"},
+    {"eventId":"evt-han-rebellion-seven-kingdoms","matchText":"Rebellion of the Seven Kingdoms"},
+    {"eventId":"evt-han-emperor-wen","matchText":"Rule of Wen and Jing"}
   ],
   "3": [
-    {
-      "eventId": "evt-han-emperor-wu",
-      "matchText": "Emperor Wu of Han"
-    },
-    {
-      "eventId": "evt-han-dong-zhongshu",
-      "matchText": "Dong Zhongshu"
-    },
-    {
-      "eventId": "evt-han-confucian-state-ideology",
-      "matchText": "Five Classics"
-    },
-    {
-      "eventId": "evt-han-imperial-academy",
-      "matchText": "Taixue"
-    },
-    {
-      "eventId": "evt-han-zhang-qian",
-      "matchText": "Zhang Qian"
-    },
-    {
-      "eventId": "evt-han-han-xiongnu-war",
-      "matchText": "Wei Qing"
-    },
-    {
-      "eventId": "evt-han-battle-mobei",
-      "matchText": "Battle of Mobei"
-    },
-    {
-      "eventId": "evt-han-great-wall-extension",
-      "matchText": "Great Wall"
-    },
-    {
-      "eventId": "evt-han-silk-road-opens",
-      "matchText": "Silk Road"
-    },
-    {
-      "eventId": "evt-han-salt-iron-monopoly",
-      "matchText": "salt and iron monopoly"
-    },
-    {
-      "eventId": "evt-han-feng-shan-sacrifices",
-      "matchText": "Feng and Shan sacrifices"
-    },
-    {
-      "eventId": "evt-han-yuefu-poetry",
-      "matchText": "Imperial Music Bureau"
-    },
-    {
-      "eventId": "evt-han-conquest-nanyue",
-      "matchText": "Nanyue"
-    },
-    {
-      "eventId": "evt-han-conquest-joseon",
-      "matchText": "Wiman Joseon"
-    },
-    {
-      "eventId": "evt-han-su-wu",
-      "matchText": "Su Wu"
-    },
-    {
-      "eventId": "evt-han-maoling-tomb",
-      "matchText": "Maoling"
-    },
-    {
-      "eventId": "evt-han-iron-casting",
-      "matchText": "Han crossbow"
-    }
+    {"eventId":"evt-han-emperor-wu","matchText":"Emperor Wu of Han"},
+    {"eventId":"evt-han-dong-zhongshu","matchText":"Dong Zhongshu"},
+    {"eventId":"evt-han-confucian-state-ideology","matchText":"Five Classics"},
+    {"eventId":"evt-han-imperial-academy","matchText":"Taixue"},
+    {"eventId":"evt-han-zhang-qian","matchText":"Zhang Qian"},
+    {"eventId":"evt-han-han-xiongnu-war","matchText":"Wei Qing"},
+    {"eventId":"evt-han-battle-mobei","matchText":"Battle of Mobei"},
+    {"eventId":"evt-han-great-wall-extension","matchText":"Great Wall"},
+    {"eventId":"evt-han-silk-road-opens","matchText":"Silk Road"},
+    {"eventId":"evt-han-salt-iron-monopoly","matchText":"salt and iron monopoly"},
+    {"eventId":"evt-han-feng-shan-sacrifices","matchText":"Feng and Shan sacrifices"},
+    {"eventId":"evt-han-yuefu-poetry","matchText":"Imperial Music Bureau"},
+    {"eventId":"evt-han-conquest-nanyue","matchText":"Nanyue"},
+    {"eventId":"evt-han-conquest-joseon","matchText":"Wiman Joseon"},
+    {"eventId":"evt-han-su-wu","matchText":"Su Wu"},
+    {"eventId":"evt-han-maoling-tomb","matchText":"Maoling"},
+    {"eventId":"evt-han-iron-casting","matchText":"Han crossbow"},
+    {"eventId":"evt-han-iron-casting","matchText":"Han cast iron"}
   ],
   "4": [
-    {
-      "eventId": "evt-han-sima-qian",
-      "matchText": "Sima Qian"
-    },
-    {
-      "eventId": "evt-han-shiji",
-      "matchText": "Shiji"
-    },
-    {
-      "eventId": "evt-han-five-classics-canonization",
-      "matchText": "Five Classics Canon"
-    },
-    {
-      "eventId": "evt-han-salt-iron-monopoly",
-      "matchText": "Discourses on Salt and Iron"
-    },
-    {
-      "eventId": "evt-han-nine-chapters-math",
-      "matchText": "Nine Chapters on the Mathematical Art"
-    },
-    {
-      "eventId": "evt-han-compass-lodestone",
-      "matchText": "south-pointing spoon"
-    }
+    {"eventId":"evt-han-sima-qian","matchText":"Sima Qian"},
+    {"eventId":"evt-han-shiji","matchText":"Shiji"},
+    {"eventId":"evt-han-five-classics-canonization","matchText":"Five Classics Canon"},
+    {"eventId":"evt-han-salt-iron-monopoly","matchText":"Discourses on Salt and Iron"},
+    {"eventId":"evt-han-nine-chapters-math","matchText":"Nine Chapters on the Mathematical Art"},
+    {"eventId":"evt-han-compass-lodestone","matchText":"south-pointing spoon"}
   ],
   "5": [
-    {
-      "eventId": "evt-han-emperor-zhao",
-      "matchText": "Emperor Zhao"
-    },
-    {
-      "eventId": "evt-han-huo-guang",
-      "matchText": "Huo Guang"
-    },
-    {
-      "eventId": "evt-han-emperor-xuan",
-      "matchText": "Emperor Xuan"
-    },
-    {
-      "eventId": "evt-han-western-regions-protectorate",
-      "matchText": "Western Regions Protectorate"
-    },
-    {
-      "eventId": "evt-han-wang-zhaojun",
-      "matchText": "Wang Zhaojun"
-    },
-    {
-      "eventId": "evt-han-emperor-yuan",
-      "matchText": "Emperor Yuan"
-    },
-    {
-      "eventId": "evt-han-wang-mang",
-      "matchText": "Wang Mang"
-    },
-    {
-      "eventId": "evt-han-xin-dynasty",
-      "matchText": "Xin"
-    },
-    {
-      "eventId": "evt-han-red-eyebrow-rebellion",
-      "matchText": "Red Eyebrow Rebellion"
-    },
-    {
-      "eventId": "evt-han-emperor-guangwu",
-      "matchText": "Liu Xiu"
-    },
-    {
-      "eventId": "evt-han-luoyang-capital",
-      "matchText": "Luoyang"
-    }
+    {"eventId":"evt-han-emperor-zhao","matchText":"Emperor Zhao"},
+    {"eventId":"evt-han-huo-guang","matchText":"Huo Guang"},
+    {"eventId":"evt-han-emperor-xuan","matchText":"Emperor Xuan"},
+    {"eventId":"evt-han-western-regions-protectorate","matchText":"Western Regions Protectorate"},
+    {"eventId":"evt-han-wang-zhaojun","matchText":"Wang Zhaojun"},
+    {"eventId":"evt-han-emperor-yuan","matchText":"Emperor Yuan"},
+    {"eventId":"evt-han-wang-mang","matchText":"Wang Mang"},
+    {"eventId":"evt-han-xin-dynasty","matchText":"Xin"},
+    {"eventId":"evt-han-red-eyebrow-rebellion","matchText":"Red Eyebrow Rebellion"},
+    {"eventId":"evt-han-emperor-guangwu","matchText":"Liu Xiu"},
+    {"eventId":"evt-han-luoyang-capital","matchText":"Luoyang"}
   ],
   "6": [
-    {
-      "eventId": "evt-han-emperor-ming",
-      "matchText": "Emperor Ming"
-    },
-    {
-      "eventId": "evt-han-buddhism-arrives",
-      "matchText": "White Horse Temple"
-    },
-    {
-      "eventId": "evt-han-trung-sisters-revolt",
-      "matchText": "Trung Trac"
-    },
-    {
-      "eventId": "evt-han-ma-yuan",
-      "matchText": "Ma Yuan"
-    },
-    {
-      "eventId": "evt-han-ban-chao",
-      "matchText": "Ban Chao"
-    },
-    {
-      "eventId": "evt-han-maritime-silk-road",
-      "matchText": "Maritime Silk Road"
-    },
-    {
-      "eventId": "evt-han-ban-gu",
-      "matchText": "Ban Gu"
-    },
-    {
-      "eventId": "evt-han-book-of-han",
-      "matchText": "Han Shu"
-    },
-    {
-      "eventId": "evt-han-ban-zhao",
-      "matchText": "Ban Zhao"
-    },
-    {
-      "eventId": "evt-han-cai-lun-paper",
-      "matchText": "Cai Lun"
-    },
-    {
-      "eventId": "evt-han-emperor-he",
-      "matchText": "Emperor He"
-    },
-    {
-      "eventId": "evt-han-dou-xian-northern-xiongnu",
-      "matchText": "Battle of Ikh Bayan"
-    }
+    {"eventId":"evt-han-emperor-ming","matchText":"Emperor Ming"},
+    {"eventId":"evt-han-buddhism-arrives","matchText":"White Horse Temple"},
+    {"eventId":"evt-han-trung-sisters-revolt","matchText":"Trung Trac"},
+    {"eventId":"evt-han-ma-yuan","matchText":"Ma Yuan"},
+    {"eventId":"evt-han-ban-chao","matchText":"Ban Chao"},
+    {"eventId":"evt-han-maritime-silk-road","matchText":"Maritime Silk Road"},
+    {"eventId":"evt-han-ban-gu","matchText":"Ban Gu"},
+    {"eventId":"evt-han-book-of-han","matchText":"Han Shu"},
+    {"eventId":"evt-han-ban-zhao","matchText":"Ban Zhao"},
+    {"eventId":"evt-han-cai-lun-paper","matchText":"Cai Lun"},
+    {"eventId":"evt-han-emperor-he","matchText":"Emperor He"},
+    {"eventId":"evt-han-dou-xian-northern-xiongnu","matchText":"Battle of Ikh Bayan"}
   ],
   "7": [
-    {
-      "eventId": "evt-han-an-shigao",
-      "matchText": "An Shigao"
-    },
-    {
-      "eventId": "evt-han-daoism-celestial-masters",
-      "matchText": "Celestial Masters"
-    },
-    {
-      "eventId": "evt-han-taiping-dao",
-      "matchText": "Way of Great Peace"
-    },
-    {
-      "eventId": "evt-han-wang-chong",
-      "matchText": "Wang Chong"
-    },
-    {
-      "eventId": "evt-han-zhang-heng",
-      "matchText": "Zhang Heng"
-    },
-    {
-      "eventId": "evt-han-seismograph",
-      "matchText": "seismograph"
-    },
-    {
-      "eventId": "evt-han-zheng-xuan",
-      "matchText": "Zheng Xuan"
-    }
+    {"eventId":"evt-han-an-shigao","matchText":"An Shigao"},
+    {"eventId":"evt-han-daoism-celestial-masters","matchText":"Celestial Masters"},
+    {"eventId":"evt-han-taiping-dao","matchText":"Way of Great Peace"},
+    {"eventId":"evt-han-wang-chong","matchText":"Wang Chong"},
+    {"eventId":"evt-han-zhang-heng","matchText":"Zhang Heng"},
+    {"eventId":"evt-han-seismograph","matchText":"seismograph"},
+    {"eventId":"evt-han-zheng-xuan","matchText":"Zheng Xuan"}
   ],
   "8": [
-    {
-      "eventId": "evt-han-yellow-turban-rebellion",
-      "matchText": "Yellow Turban"
-    },
-    {
-      "eventId": "evt-han-cao-cao",
-      "matchText": "Cao Cao"
-    },
-    {
-      "eventId": "evt-han-dong-zhuo",
-      "matchText": "Dong Zhuo"
-    },
-    {
-      "eventId": "evt-han-emperor-xian",
-      "matchText": "Emperor Xian"
-    },
-    {
-      "eventId": "evt-han-hua-tuo",
-      "matchText": "Hua Tuo"
-    },
-    {
-      "eventId": "evt-han-han-ends",
-      "matchText": "Han Dynasty Ends"
-    },
-    {
-      "eventId": "evt-han-yellow-turban-rebellion",
-      "matchText": "Zhang Jue"
-    },
-    {
-      "eventId": "evt-han-cao-cao",
-      "matchText": "Battle of Red Cliffs"
-    }
+    {"eventId":"evt-han-yellow-turban-rebellion","matchText":"Yellow Turban"},
+    {"eventId":"evt-han-cao-cao","matchText":"Cao Cao"},
+    {"eventId":"evt-han-dong-zhuo","matchText":"Dong Zhuo"},
+    {"eventId":"evt-han-emperor-xian","matchText":"Emperor Xian"},
+    {"eventId":"evt-han-hua-tuo","matchText":"Hua Tuo"},
+    {"eventId":"evt-han-han-ends","matchText":"Han Dynasty Ends"},
+    {"eventId":"evt-han-yellow-turban-rebellion","matchText":"Zhang Jue"},
+    {"eventId":"evt-han-cao-cao","matchText":"Battle of Red Cliffs"}
   ]
 }

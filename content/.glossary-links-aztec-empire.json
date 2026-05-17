@@ -143,6 +143,12 @@
       "matchText": "Popocatepetl",
       "wikiSlug": "Popocat%C3%A9petl",
       "type": "place"
+    },
+    {
+      "term": "Cocoxtli",
+      "matchText": "Cocoxtli",
+      "wikiSlug": "Cocoxtli",
+      "type": "people"
     }
   ],
   "2": [
@@ -240,12 +246,6 @@
       "term": "Tlacaelel",
       "matchText": "Tlacaelel",
       "wikiSlug": "Tlacaelel",
-      "type": "people"
-    },
-    {
-      "term": "Cocoxtli",
-      "matchText": "Cocoxtli",
-      "wikiSlug": "Cocoxtli",
       "type": "people"
     },
     {
@@ -393,12 +393,6 @@
       "matchText": "Hernando de Alvarado Tezozomoc",
       "wikiSlug": "Hernando_de_Alvarado_Tezoz%C3%B3moc",
       "type": "people"
-    },
-    {
-      "term": "Human sacrifice in Mesoamerica",
-      "matchText": "human sacrifice",
-      "wikiSlug": "Human_sacrifice_in_Aztec_culture",
-      "type": "concept"
     }
   ],
   "4": [
@@ -667,6 +661,18 @@
       "matchText": "Coyolxauhqui",
       "wikiSlug": "Coyolxauhqui",
       "type": "people"
+    },
+    {
+      "term": "Human sacrifice in Mesoamerica",
+      "matchText": "human sacrifice",
+      "wikiSlug": "Human_sacrifice_in_Aztec_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Coatlicue statue",
+      "matchText": "eight-foot basalt sculpture",
+      "wikiSlug": "Coatlicue_(statue)",
+      "type": "concept"
     }
   ],
   "6": [
@@ -905,12 +911,6 @@
       "matchText": "National Museum of Anthropology",
       "wikiSlug": "National_Museum_of_Anthropology_(Mexico)",
       "type": "place"
-    },
-    {
-      "term": "Coatlicue statue",
-      "matchText": "eight-foot basalt sculpture",
-      "wikiSlug": "Coatlicue_(statue)",
-      "type": "concept"
     },
     {
       "term": "Nezahualcoyotl",

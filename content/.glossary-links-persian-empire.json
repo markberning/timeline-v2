@@ -725,6 +725,18 @@
       "matchText": "Baghdad",
       "wikiSlug": "Baghdad",
       "type": "place"
+    },
+    {
+      "term": "Sassanid dynasty",
+      "matchText": "Sassanid dynasty",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Sasan",
+      "matchText": "Sasan",
+      "wikiSlug": "Sasan",
+      "type": "people"
     }
   ],
   "8": [
@@ -745,18 +757,6 @@
       "matchText": "Naqsh-e Rostam",
       "wikiSlug": "Naqsh-e_Rostam",
       "type": "place"
-    },
-    {
-      "term": "Sassanid dynasty",
-      "matchText": "Sassanid dynasty",
-      "wikiSlug": "Sasanian_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Sasan",
-      "matchText": "Sasan",
-      "wikiSlug": "Sasan",
-      "type": "people"
     },
     {
       "term": "Shapur I",

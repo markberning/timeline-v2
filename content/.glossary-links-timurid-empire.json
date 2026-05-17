@@ -215,6 +215,24 @@
       "matchText": "Samanids",
       "wikiSlug": "Samanid_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
+    },
+    {
+      "term": "Sharaf al-Din Yazdi",
+      "matchText": "Sharaf al-Din Yazdi",
+      "wikiSlug": "Sharaf_ad-Din_Ali_Yazdi",
+      "type": "people"
+    },
+    {
+      "term": "Seljuk Turks",
+      "matchText": "Seljuk Turks",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "concept"
     }
   ],
   "2": [
@@ -298,7 +316,7 @@
     },
     {
       "term": "Sack of Moscow (1382)",
-      "matchText": "sacking **Moscow**",
+      "matchText": "sacking **Moscow",
       "wikiSlug": "Siege_of_Moscow_(1382)",
       "type": "event"
     },
@@ -373,12 +391,6 @@
       "matchText": "Mansa Musa",
       "wikiSlug": "Mansa_Musa",
       "type": "people"
-    },
-    {
-      "term": "Tenochtitlan",
-      "matchText": "Tenochtitlan",
-      "wikiSlug": "Tenochtitlan",
-      "type": "place"
     },
     {
       "term": "Miran Shah",
@@ -461,18 +473,6 @@
       "type": "concept"
     },
     {
-      "term": "Ibn Khaldun",
-      "matchText": "Ibn Khaldun",
-      "wikiSlug": "Ibn_Khaldun",
-      "type": "people"
-    },
-    {
-      "term": "Muqaddimah",
-      "matchText": "Muqaddimah",
-      "wikiSlug": "Muqaddimah",
-      "type": "concept"
-    },
-    {
       "term": "Bayt al-Hikma",
       "matchText": "Bayt al-Hikma",
       "wikiSlug": "House_of_Wisdom",
@@ -494,12 +494,6 @@
       "term": "al-Khwarizmi",
       "matchText": "al-Khwarizmi",
       "wikiSlug": "Al-Khwarizmi",
-      "type": "people"
-    },
-    {
-      "term": "Sharaf al-Din Yazdi",
-      "matchText": "Sharaf al-Din Yazdi",
-      "wikiSlug": "Sharaf_ad-Din_Ali_Yazdi",
       "type": "people"
     },
     {
@@ -626,7 +620,7 @@
     },
     {
       "term": "Stefan Lazarević",
-      "matchText": "Stefan Lazarević",
+      "matchText": "Stefan Lazarevi",
       "wikiSlug": "Stefan_Lazarevi%C4%87",
       "type": "people"
     },
@@ -664,6 +658,24 @@
       "term": "Lodi dynasty",
       "matchText": "Lodi dynasty",
       "wikiSlug": "Lodi_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Sayyid dynasty",
+      "matchText": "Sayyid dynasty",
+      "wikiSlug": "Sayyid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ibn Khaldun",
+      "matchText": "Ibn Khaldun",
+      "wikiSlug": "Ibn_Khaldun",
+      "type": "people"
+    },
+    {
+      "term": "Muqaddimah",
+      "matchText": "Muqaddimah",
+      "wikiSlug": "Muqaddimah",
       "type": "concept"
     },
     {
@@ -830,12 +842,6 @@
       "term": "Samanid",
       "matchText": "Samanids",
       "wikiSlug": "Samanid_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Seljuk Turks",
-      "matchText": "Seljuk Turks",
-      "wikiSlug": "Seljuk_Empire",
       "type": "concept"
     },
     {
@@ -1188,12 +1194,6 @@
       "term": "Lodi dynasty",
       "matchText": "Lodi dynasty",
       "wikiSlug": "Lodi_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "Sayyid dynasty",
-      "matchText": "Sayyid dynasty",
-      "wikiSlug": "Sayyid_dynasty",
       "type": "concept"
     },
     {

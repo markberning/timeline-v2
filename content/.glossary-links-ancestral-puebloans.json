@@ -399,6 +399,18 @@
       "matchText": "great house",
       "wikiSlug": "Chaco_Canyon",
       "type": "concept"
+    },
+    {
+      "term": "West Virginia",
+      "matchText": "West Virginia",
+      "wikiSlug": "West_Virginia",
+      "type": "place"
+    },
+    {
+      "term": "strontium",
+      "matchText": "strontium",
+      "wikiSlug": "Strontium",
+      "type": "concept"
     }
   ],
   "4": [
@@ -499,18 +511,6 @@
       "type": "people"
     },
     {
-      "term": "coprolite",
-      "matchText": "coprolites",
-      "wikiSlug": "Coprolite",
-      "type": "concept"
-    },
-    {
-      "term": "West Virginia",
-      "matchText": "West Virginia",
-      "wikiSlug": "West_Virginia",
-      "type": "place"
-    },
-    {
       "term": "signal communication",
       "matchText": "signal communication",
       "wikiSlug": "Smoke_signal",
@@ -585,21 +585,9 @@
       "type": "concept"
     },
     {
-      "term": "soil depletion",
-      "matchText": "soil depletion",
-      "wikiSlug": "Soil_degradation",
-      "type": "concept"
-    },
-    {
       "term": "carrying capacity",
       "matchText": "carrying capacity",
       "wikiSlug": "Carrying_capacity",
-      "type": "concept"
-    },
-    {
-      "term": "strontium",
-      "matchText": "strontium",
-      "wikiSlug": "Strontium",
       "type": "concept"
     },
     {
@@ -637,12 +625,6 @@
       "matchText": "resource depletion",
       "wikiSlug": "Resource_depletion",
       "type": "concept"
-    },
-    {
-      "term": "Kayenta",
-      "matchText": "Kayenta",
-      "wikiSlug": "Kayenta,_Arizona",
-      "type": "place"
     },
     {
       "term": "Mesa Verde National Park",
@@ -841,18 +823,6 @@
       "type": "concept"
     },
     {
-      "term": "Kayenta region",
-      "matchText": "Kayenta region",
-      "wikiSlug": "Kayenta,_Arizona",
-      "type": "place"
-    },
-    {
-      "term": "Black Mesa",
-      "matchText": "Black Mesa",
-      "wikiSlug": "Black_Mesa_(Arizona)",
-      "type": "place"
-    },
-    {
       "term": "rock art motifs",
       "matchText": "rock art motifs",
       "wikiSlug": "Rock_art",
@@ -886,6 +856,18 @@
       "term": "projectile point",
       "matchText": "projectile points",
       "wikiSlug": "Projectile_point",
+      "type": "concept"
+    },
+    {
+      "term": "coprolite",
+      "matchText": "coprolites",
+      "wikiSlug": "Coprolite",
+      "type": "concept"
+    },
+    {
+      "term": "soil depletion",
+      "matchText": "soil depletion",
+      "wikiSlug": "Soil_degradation",
       "type": "concept"
     }
   ],
@@ -1051,6 +1033,24 @@
       "matchText": "dendrochronology",
       "wikiSlug": "Dendrochronology",
       "type": "concept"
+    },
+    {
+      "term": "Kayenta",
+      "matchText": "Kayenta",
+      "wikiSlug": "Kayenta,_Arizona",
+      "type": "place"
+    },
+    {
+      "term": "Kayenta region",
+      "matchText": "Kayenta region",
+      "wikiSlug": "Kayenta,_Arizona",
+      "type": "place"
+    },
+    {
+      "term": "Black Mesa",
+      "matchText": "Black Mesa",
+      "wikiSlug": "Black_Mesa_(Arizona)",
+      "type": "place"
     }
   ]
 }

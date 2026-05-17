@@ -431,12 +431,6 @@
       "type": "concept"
     },
     {
-      "term": "Liangzhu",
-      "matchText": "Liangzhu",
-      "wikiSlug": "Liangzhu_culture",
-      "type": "concept"
-    },
-    {
       "term": "chromatic scale",
       "matchText": "chromatic scale",
       "wikiSlug": "Chromatic_scale",
@@ -464,6 +458,12 @@
       "term": "alloy",
       "matchText": "alloyed",
       "wikiSlug": "Alloy",
+      "type": "concept"
+    },
+    {
+      "term": "owl zun",
+      "matchText": "owl-shaped zun",
+      "wikiSlug": "Zun",
       "type": "concept"
     }
   ],
@@ -601,12 +601,6 @@
       "type": "concept"
     },
     {
-      "term": "owl zun",
-      "matchText": "owl-shaped zun",
-      "wikiSlug": "Zun",
-      "type": "concept"
-    },
-    {
       "term": "Eurasian steppe",
       "matchText": "Eurasian steppes",
       "wikiSlug": "Eurasian_Steppe",
@@ -617,6 +611,12 @@
       "matchText": "Central Asian intermediaries",
       "wikiSlug": "Central_Asia",
       "type": "place"
+    },
+    {
+      "term": "Liangzhu",
+      "matchText": "Liangzhu",
+      "wikiSlug": "Liangzhu_culture",
+      "type": "concept"
     }
   ],
   "5": [

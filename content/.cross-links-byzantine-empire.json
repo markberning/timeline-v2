@@ -47,6 +47,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 4,
       "blurb": "The story ends in 1453 when an Ottoman cannon breaches the Theodosian Walls — but the Ottomans would also inherit and continue much of the Byzantine imperial template."
+    },
+    {
+      "matchText": "Plataea",
+      "targetTl": "persian-empire",
+      "targetChapter": 3,
+      "blurb": "The Greek victory at Plataea in 479 BCE — the battle that ended the Persian invasion of mainland Greece — produced the bronze Serpent Column that Constantine would later move to Constantinople's Hippodrome. The column's journey from Delphi to Byzantion is one of antiquity's longest threads: a Persian-war trophy became a Constantinopolitan decoration, still standing twelve centuries later when the Ottomans arrived."
+    },
+    {
+      "matchText": "gunpowder cannons",
+      "targetTl": "ancient-china",
+      "targetChapter": 7,
+      "blurb": "Gunpowder had been a Chinese invention of the ninth century that moved westward along the same Silk Road routes that had carried silk to Byzantine markets. By the fifteenth century, Ottoman engineers had developed the artillery technology to a scale the Theodosian Walls had not been designed to withstand. Chinese chemistry, filtering through Central Asian and Ottoman engineering, ended the Roman Empire."
     }
   ],
   "2": [
@@ -105,12 +117,6 @@
       "targetTl": "persian-empire",
       "targetChapter": 8,
       "blurb": "The Sasanian Empire that Heraclius fought to exhaustion was the direct heir of the Achaemenid and Parthian Persian states — a civilization that had been Rome's eastern rival for seven centuries. By 628 both empires had spent their military reserves destroying each other, leaving both fatally weakened when the Arab armies arrived. Heraclius's triumph over Sasanian Persia was also, in retrospect, a victory for neither side."
-    },
-    {
-      "matchText": "Plataea",
-      "targetTl": "persian-empire",
-      "targetChapter": 3,
-      "blurb": "The Greek victory at Plataea in 479 BCE — the battle that ended the Persian invasion of mainland Greece — produced the bronze Serpent Column that Constantine would later move to Constantinople's Hippodrome. The column's journey from Delphi to Byzantion is one of antiquity's longest threads: a Persian-war trophy became a Constantinopolitan decoration, still standing twelve centuries later when the Ottomans arrived."
     },
     {
       "matchText": "twelve hundred years earlier",
@@ -380,12 +386,6 @@
     }
   ],
   "11": [
-    {
-      "matchText": "gunpowder cannons",
-      "targetTl": "ancient-china",
-      "targetChapter": 7,
-      "blurb": "Gunpowder had been a Chinese invention of the ninth century that moved westward along the same Silk Road routes that had carried silk to Byzantine markets. By the fifteenth century, Ottoman engineers had developed the artillery technology to a scale the Theodosian Walls had not been designed to withstand. Chinese chemistry, filtering through Central Asian and Ottoman engineering, ended the Roman Empire."
-    },
     {
       "matchText": "Bessarion",
       "targetTl": "ancient-greece",

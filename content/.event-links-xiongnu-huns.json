@@ -1,310 +1,91 @@
 {
   "1": [
-    {
-      "eventId": "evt-xiongnu-early-nomads",
-      "matchText": "Mongolian steppe"
-    },
-    {
-      "eventId": "evt-xiongnu-warring-states-raids",
-      "matchText": "northern Chinese states had been building defensive walls"
-    },
-    {
-      "eventId": "evt-xiongnu-meng-tian",
-      "matchText": "Meng Tian"
-    },
-    {
-      "eventId": "evt-xiongnu-touman",
-      "matchText": "Touman"
-    },
-    {
-      "eventId": "evt-xiongnu-no-writing",
-      "matchText": "Xiongnu themselves left no written records"
-    },
-    {
-      "eventId": "evt-xiongnu-sima-qian",
-      "matchText": "Sima Qian"
-    }
+    {"eventId":"evt-xiongnu-early-nomads","matchText":"Mongolian steppe"},
+    {"eventId":"evt-xiongnu-warring-states-raids","matchText":"northern Chinese states had been building defensive walls"},
+    {"eventId":"evt-xiongnu-meng-tian","matchText":"Meng Tian"},
+    {"eventId":"evt-xiongnu-touman","matchText":"Touman"},
+    {"eventId":"evt-xiongnu-no-writing","matchText":"Xiongnu themselves left no written records"},
+    {"eventId":"evt-xiongnu-sima-qian","matchText":"Sima Qian"}
   ],
   "2": [
-    {
-      "eventId": "evt-xiongnu-modu-rise",
-      "matchText": "Modu killed his father and became chanyu"
-    },
-    {
-      "eventId": "evt-xiongnu-whistling-arrows",
-      "matchText": "whistling arrows"
-    },
-    {
-      "eventId": "evt-xiongnu-donghu-defeat",
-      "matchText": "Modu crushed them, enslaved their people"
-    },
-    {
-      "eventId": "evt-xiongnu-yuezhi-defeat",
-      "matchText": "Modu attacked them with his now-enlarged army"
-    },
-    {
-      "eventId": "evt-xiongnu-confederation",
-      "matchText": "Modu controlled an empire stretching from Manchuria"
-    },
-    {
-      "eventId": "evt-xiongnu-lateral-succession",
-      "matchText": "left wise king was typically"
-    },
-    {
-      "eventId": "evt-xiongnu-annual-assembly",
-      "matchText": "annual assembly"
-    },
-    {
-      "eventId": "evt-xiongnu-sky-worship",
-      "matchText": "Tengri"
-    },
-    {
-      "eventId": "evt-xiongnu-shamanism",
-      "matchText": "sacrifices to Tengri"
-    }
+    {"eventId":"evt-xiongnu-modu-rise","matchText":"Modu killed his father and became chanyu"},
+    {"eventId":"evt-xiongnu-whistling-arrows","matchText":"whistling arrows"},
+    {"eventId":"evt-xiongnu-donghu-defeat","matchText":"Modu crushed them, enslaved their people"},
+    {"eventId":"evt-xiongnu-yuezhi-defeat","matchText":"Modu attacked them with his now-enlarged army"},
+    {"eventId":"evt-xiongnu-confederation","matchText":"Modu controlled an empire stretching from Manchuria"},
+    {"eventId":"evt-xiongnu-lateral-succession","matchText":"left wise king was typically"},
+    {"eventId":"evt-xiongnu-annual-assembly","matchText":"annual assembly"},
+    {"eventId":"evt-xiongnu-sky-worship","matchText":"Tengri"},
+    {"eventId":"evt-xiongnu-shamanism","matchText":"sacrifices to Tengri"}
   ],
   "3": [
-    {
-      "eventId": "evt-xiongnu-baideng",
-      "matchText": "Battle of Baideng"
-    },
-    {
-      "eventId": "evt-xiongnu-heqin-treaties",
-      "matchText": "heqin"
-    },
-    {
-      "eventId": "evt-xiongnu-modu-letter",
-      "matchText": "Modu sent her a letter"
-    },
-    {
-      "eventId": "evt-xiongnu-silk-tribute",
-      "matchText": "Chinese silk reached Persian markets"
-    },
-    {
-      "eventId": "evt-xiongnu-laoshang",
-      "matchText": "Laoshang"
-    },
-    {
-      "eventId": "evt-xiongnu-junchen",
-      "matchText": "Junchen"
-    },
-    {
-      "eventId": "evt-xiongnu-horse-breeding",
-      "matchText": "spare horse"
-    }
+    {"eventId":"evt-xiongnu-baideng","matchText":"Battle of Baideng"},
+    {"eventId":"evt-xiongnu-heqin-treaties","matchText":"heqin"},
+    {"eventId":"evt-xiongnu-modu-letter","matchText":"Modu sent her a letter"},
+    {"eventId":"evt-xiongnu-silk-tribute","matchText":"Chinese silk reached Persian markets"},
+    {"eventId":"evt-xiongnu-laoshang","matchText":"Laoshang"},
+    {"eventId":"evt-xiongnu-junchen","matchText":"Junchen"},
+    {"eventId":"evt-xiongnu-horse-breeding","matchText":"spare horse"}
   ],
   "4": [
-    {
-      "eventId": "evt-xiongnu-mayi-ambush",
-      "matchText": "Mayi ambush"
-    },
-    {
-      "eventId": "evt-xiongnu-zhang-qian",
-      "matchText": "Zhang Qian"
-    },
-    {
-      "eventId": "evt-xiongnu-zhang-qian-second",
-      "matchText": "second mission"
-    },
-    {
-      "eventId": "evt-xiongnu-wei-qing",
-      "matchText": "Wei Qing"
-    },
-    {
-      "eventId": "evt-xiongnu-huo-qubing",
-      "matchText": "Huo Qubing"
-    },
-    {
-      "eventId": "evt-xiongnu-mobei",
-      "matchText": "Battle of Mobei"
-    },
-    {
-      "eventId": "evt-xiongnu-silk-road-opens",
-      "matchText": "Silk Road"
-    },
-    {
-      "eventId": "evt-xiongnu-li-ling",
-      "matchText": "Li Ling"
-    },
-    {
-      "eventId": "evt-xiongnu-wusun-alliance",
-      "matchText": "Wusun"
-    }
+    {"eventId":"evt-xiongnu-mayi-ambush","matchText":"Mayi ambush"},
+    {"eventId":"evt-xiongnu-zhang-qian","matchText":"Zhang Qian"},
+    {"eventId":"evt-xiongnu-zhang-qian-second","matchText":"second mission"},
+    {"eventId":"evt-xiongnu-wei-qing","matchText":"Wei Qing"},
+    {"eventId":"evt-xiongnu-huo-qubing","matchText":"Huo Qubing"},
+    {"eventId":"evt-xiongnu-mobei","matchText":"Battle of Mobei"},
+    {"eventId":"evt-xiongnu-silk-road-opens","matchText":"Silk Road"},
+    {"eventId":"evt-xiongnu-li-ling","matchText":"Li Ling"},
+    {"eventId":"evt-xiongnu-wusun-alliance","matchText":"Wusun"}
   ],
   "5": [
-    {
-      "eventId": "evt-xiongnu-succession-crisis",
-      "matchText": "five claimants"
-    },
-    {
-      "eventId": "evt-xiongnu-huhanye",
-      "matchText": "Huhanye"
-    },
-    {
-      "eventId": "evt-xiongnu-zhizhi-defeat",
-      "matchText": "Chen Tang"
-    },
-    {
-      "eventId": "evt-xiongnu-wang-zhaojun",
-      "matchText": "Wang Zhaojun"
-    },
-    {
-      "eventId": "evt-xiongnu-south-split",
-      "matchText": "Southern Xiongnu"
-    },
-    {
-      "eventId": "evt-xiongnu-ban-chao",
-      "matchText": "Ban Chao"
-    },
-    {
-      "eventId": "evt-xiongnu-battle-ikh-bayan",
-      "matchText": "Battle of Ikh Bayan"
-    },
-    {
-      "eventId": "evt-xiongnu-northern-vanish",
-      "matchText": "Northern Xiongnu were driven beyond the Altai Mountains"
-    },
-    {
-      "eventId": "evt-xiongnu-southern-frontier",
-      "matchText": "Southern Xiongnu settled into a pattern"
-    },
-    {
-      "eventId": "evt-xiongnu-liu-yuan",
-      "matchText": "Liu Yuan"
-    },
-    {
-      "eventId": "evt-xiongnu-sack-luoyang",
-      "matchText": "Liu Cong"
-    }
+    {"eventId":"evt-xiongnu-succession-crisis","matchText":"five claimants"},
+    {"eventId":"evt-xiongnu-huhanye","matchText":"Huhanye"},
+    {"eventId":"evt-xiongnu-zhizhi-defeat","matchText":"Chen Tang"},
+    {"eventId":"evt-xiongnu-wang-zhaojun","matchText":"Wang Zhaojun"},
+    {"eventId":"evt-xiongnu-south-split","matchText":"Southern Xiongnu"},
+    {"eventId":"evt-xiongnu-ban-chao","matchText":"Ban Chao"},
+    {"eventId":"evt-xiongnu-battle-ikh-bayan","matchText":"Battle of Ikh Bayan"},
+    {"eventId":"evt-xiongnu-northern-vanish","matchText":"Northern Xiongnu were driven beyond the Altai Mountains"},
+    {"eventId":"evt-xiongnu-southern-frontier","matchText":"Southern Xiongnu settled into a pattern"},
+    {"eventId":"evt-xiongnu-liu-yuan","matchText":"Liu Yuan"},
+    {"eventId":"evt-xiongnu-sack-luoyang","matchText":"Liu Cong"}
   ],
   "6": [
-    {
-      "eventId": "evt-huns-xiongnu-debate",
-      "matchText": "are the Huns the Xiongnu"
-    },
-    {
-      "eventId": "evt-huns-arrive-europe",
-      "matchText": "Huns announced themselves to history around 370 CE"
-    },
-    {
-      "eventId": "evt-huns-ostrogoths",
-      "matchText": "Ostrogoths"
-    },
-    {
-      "eventId": "evt-huns-visigoths-flee",
-      "matchText": "Visigoths"
-    },
-    {
-      "eventId": "evt-xiongnu-composite-bow",
-      "matchText": "composite bows on horseback"
-    },
-    {
-      "eventId": "evt-huns-ammianus",
-      "matchText": "Ammianus Marcellinus"
-    },
-    {
-      "eventId": "evt-huns-cranial-deformation",
-      "matchText": "artificial cranial deformation"
-    },
-    {
-      "eventId": "evt-huns-roman-mercenaries",
-      "matchText": "Hunnic mercenaries"
-    },
-    {
-      "eventId": "evt-xiongnu-noin-ula",
-      "matchText": "bronze cauldrons"
-    }
+    {"eventId":"evt-huns-xiongnu-debate","matchText":"are the Huns the Xiongnu"},
+    {"eventId":"evt-huns-arrive-europe","matchText":"Huns announced themselves to history around 370 CE"},
+    {"eventId":"evt-huns-ostrogoths","matchText":"Ostrogoths"},
+    {"eventId":"evt-huns-visigoths-flee","matchText":"Visigoths"},
+    {"eventId":"evt-xiongnu-composite-bow","matchText":"composite bows on horseback"},
+    {"eventId":"evt-huns-ammianus","matchText":"Ammianus Marcellinus"},
+    {"eventId":"evt-huns-cranial-deformation","matchText":"artificial cranial deformation"},
+    {"eventId":"evt-xiongnu-noin-ula","matchText":"bronze cauldrons"}
   ],
   "7": [
-    {
-      "eventId": "evt-huns-rua",
-      "matchText": "Rua"
-    },
-    {
-      "eventId": "evt-huns-attila-bleda",
-      "matchText": "Bleda"
-    },
-    {
-      "eventId": "evt-huns-treaty-margus",
-      "matchText": "Treaty of Margus"
-    },
-    {
-      "eventId": "evt-huns-bleda-murdered",
-      "matchText": "Attila murdered Bleda"
-    },
-    {
-      "eventId": "evt-huns-pannonian-base",
-      "matchText": "Hungarian plain"
-    },
-    {
-      "eventId": "evt-huns-priscus",
-      "matchText": "Priscus"
-    },
-    {
-      "eventId": "evt-huns-balkan-raids",
-      "matchText": "Singidunum"
-    },
-    {
-      "eventId": "evt-huns-honoria",
-      "matchText": "Justa Grata Honoria"
-    },
-    {
-      "eventId": "evt-huns-aetius",
-      "matchText": "Flavius Aetius"
-    },
-    {
-      "eventId": "evt-huns-catalaunian-plains",
-      "matchText": "Battle of the Catalaunian Plains"
-    },
-    {
-      "eventId": "evt-huns-italy-invasion",
-      "matchText": "he invaded Italy"
-    },
-    {
-      "eventId": "evt-huns-pope-leo",
-      "matchText": "Pope Leo I"
-    },
-    {
-      "eventId": "evt-huns-attila-death",
-      "matchText": "Ildico"
-    },
-    {
-      "eventId": "evt-huns-uldin",
-      "matchText": "Vandals"
-    }
+    {"eventId":"evt-huns-rua","matchText":"Rua"},
+    {"eventId":"evt-huns-attila-bleda","matchText":"Bleda"},
+    {"eventId":"evt-huns-treaty-margus","matchText":"Treaty of Margus"},
+    {"eventId":"evt-huns-bleda-murdered","matchText":"Attila murdered Bleda"},
+    {"eventId":"evt-huns-pannonian-base","matchText":"Hungarian plain"},
+    {"eventId":"evt-huns-priscus","matchText":"Priscus"},
+    {"eventId":"evt-huns-balkan-raids","matchText":"Singidunum"},
+    {"eventId":"evt-huns-honoria","matchText":"Justa Grata Honoria"},
+    {"eventId":"evt-huns-aetius","matchText":"Flavius Aetius"},
+    {"eventId":"evt-huns-catalaunian-plains","matchText":"Battle of the Catalaunian Plains"},
+    {"eventId":"evt-huns-italy-invasion","matchText":"he invaded Italy"},
+    {"eventId":"evt-huns-pope-leo","matchText":"Pope Leo I"},
+    {"eventId":"evt-huns-attila-death","matchText":"Ildico"},
+    {"eventId":"evt-huns-uldin","matchText":"Vandals"},
+    {"eventId":"evt-huns-roman-mercenaries","matchText":"Hunnic mercenaries"}
   ],
   "8": [
-    {
-      "eventId": "evt-huns-sons-fight",
-      "matchText": "Ellac"
-    },
-    {
-      "eventId": "evt-huns-nedao",
-      "matchText": "Battle of Nedao"
-    },
-    {
-      "eventId": "evt-huns-dengizich",
-      "matchText": "Dengizich"
-    },
-    {
-      "eventId": "evt-huns-dissolution",
-      "matchText": "Ernak"
-    },
-    {
-      "eventId": "evt-xiongnu-burial-practices",
-      "matchText": "Xiongnu left no written words, no cities, no monuments"
-    },
-    {
-      "eventId": "evt-xiongnu-metalwork",
-      "matchText": "composite bows"
-    },
-    {
-      "eventId": "evt-xiongnu-ivolga",
-      "matchText": "settled civilizations"
-    },
-    {
-      "eventId": "evt-xiongnu-ban-gu",
-      "matchText": "heqin system"
-    }
+    {"eventId":"evt-huns-sons-fight","matchText":"Ellac"},
+    {"eventId":"evt-huns-nedao","matchText":"Battle of Nedao"},
+    {"eventId":"evt-huns-dengizich","matchText":"Dengizich"},
+    {"eventId":"evt-huns-dissolution","matchText":"Ernak"},
+    {"eventId":"evt-xiongnu-burial-practices","matchText":"Xiongnu left no written words, no cities, no monuments"},
+    {"eventId":"evt-xiongnu-metalwork","matchText":"composite bows"},
+    {"eventId":"evt-xiongnu-ivolga","matchText":"settled civilizations"},
+    {"eventId":"evt-xiongnu-ban-gu","matchText":"heqin system"}
   ]
 }

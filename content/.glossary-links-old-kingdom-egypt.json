@@ -987,6 +987,12 @@
       "matchText": "Unas",
       "wikiSlug": "Unas",
       "type": "people"
+    },
+    {
+      "term": "Palestine",
+      "matchText": "Palestine",
+      "wikiSlug": "Palestine_(region)",
+      "type": "place"
     }
   ],
   "7": [
@@ -1120,12 +1126,6 @@
       "term": "Israel",
       "matchText": "Israel",
       "wikiSlug": "Israel",
-      "type": "place"
-    },
-    {
-      "term": "Palestine",
-      "matchText": "Palestine",
-      "wikiSlug": "Palestine_(region)",
       "type": "place"
     },
     {

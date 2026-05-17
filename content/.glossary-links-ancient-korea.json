@@ -449,12 +449,6 @@
       "type": "concept"
     },
     {
-      "term": "Baekje",
-      "matchText": "kingdom of Baekje",
-      "wikiSlug": "Baekje",
-      "type": "concept"
-    },
-    {
       "term": "Silla",
       "matchText": "kingdom of Silla",
       "wikiSlug": "Silla",
@@ -943,6 +937,12 @@
     {
       "term": "Baekje",
       "matchText": "Baekje",
+      "wikiSlug": "Baekje",
+      "type": "concept"
+    },
+    {
+      "term": "Baekje",
+      "matchText": "kingdom of Baekje",
       "wikiSlug": "Baekje",
       "type": "concept"
     }

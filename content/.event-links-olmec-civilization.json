@@ -1,270 +1,81 @@
 {
   "1": [
-    {
-      "eventId": "evt-melgar-discovery",
-      "matchText": "Melgar y Serrano"
-    },
-    {
-      "eventId": "evt-stirling-excavations",
-      "matchText": "Matthew Stirling"
-    },
-    {
-      "eventId": "evt-el-manati-offerings",
-      "matchText": "El Manati"
-    },
-    {
-      "eventId": "evt-rubber-balls",
-      "matchText": "rubber balls found there"
-    },
-    {
-      "eventId": "evt-rubber-vulcanization",
-      "matchText": "vulcanization"
-    },
-    {
-      "eventId": "evt-maize-cultivation",
-      "matchText": "Mesoamerican triad"
-    },
-    {
-      "eventId": "evt-san-lorenzo-founded",
-      "matchText": "San Lorenzo"
-    },
-    {
-      "eventId": "evt-la-venta-rises",
-      "matchText": "La Venta"
-    }
+    {"eventId":"evt-melgar-discovery","matchText":"Melgar y Serrano"},
+    {"eventId":"evt-stirling-excavations","matchText":"Matthew Stirling"},
+    {"eventId":"evt-el-manati-offerings","matchText":"El Manati"},
+    {"eventId":"evt-rubber-balls","matchText":"rubber balls found there"},
+    {"eventId":"evt-rubber-vulcanization","matchText":"vulcanization"},
+    {"eventId":"evt-maize-cultivation","matchText":"Mesoamerican triad"},
+    {"eventId":"evt-san-lorenzo-founded","matchText":"San Lorenzo"},
+    {"eventId":"evt-la-venta-rises","matchText":"La Venta"}
   ],
   "2": [
-    {
-      "eventId": "evt-san-lorenzo-founded",
-      "matchText": "first major urban center in the Americas"
-    },
-    {
-      "eventId": "evt-san-lorenzo-artificial-plateau",
-      "matchText": "artificial mesa rising above the swamps"
-    },
-    {
-      "eventId": "evt-san-lorenzo-drainage",
-      "matchText": "elaborate drainage system"
-    },
-    {
-      "eventId": "evt-olmec-wrestling",
-      "matchText": "Olmec Wrestler"
-    },
-    {
-      "eventId": "evt-colossal-heads-san-lorenzo",
-      "matchText": "colossal stone heads"
-    },
-    {
-      "eventId": "evt-olmec-shaman-rulers",
-      "matchText": "shaman-kings"
-    },
-    {
-      "eventId": "evt-san-lorenzo-monument14",
-      "matchText": "Monument 14 at San Lorenzo"
-    },
-    {
-      "eventId": "evt-san-lorenzo-monument-destruction",
-      "matchText": "deliberately defaced"
-    }
+    {"eventId":"evt-san-lorenzo-founded","matchText":"first major urban center in the Americas"},
+    {"eventId":"evt-san-lorenzo-artificial-plateau","matchText":"artificial mesa rising above the swamps"},
+    {"eventId":"evt-san-lorenzo-drainage","matchText":"elaborate drainage system"},
+    {"eventId":"evt-olmec-wrestling","matchText":"Olmec Wrestler"},
+    {"eventId":"evt-colossal-heads-san-lorenzo","matchText":"colossal stone heads"},
+    {"eventId":"evt-olmec-shaman-rulers","matchText":"shaman-kings"},
+    {"eventId":"evt-san-lorenzo-monument14","matchText":"Monument 14 at San Lorenzo"},
+    {"eventId":"evt-san-lorenzo-monument-destruction","matchText":"deliberately defaced"},
+    {"eventId":"evt-nahual-concept","matchText":"nahual"}
   ],
   "3": [
-    {
-      "eventId": "evt-colossal-heads-san-lorenzo",
-      "matchText": "Seventeen colossal heads"
-    },
-    {
-      "eventId": "evt-la-cobata-head",
-      "matchText": "La Cobata"
-    },
-    {
-      "eventId": "evt-basalt-transport",
-      "matchText": "Cerro Cintepec"
-    },
-    {
-      "eventId": "evt-throne-head-recycling",
-      "matchText": "thrones were carved first"
-    },
-    {
-      "eventId": "evt-san-lorenzo-monument14",
-      "matchText": "Monument 14"
-    },
-    {
-      "eventId": "evt-david-grove-research",
-      "matchText": "David Grove"
-    },
-    {
-      "eventId": "evt-mesoamerican-ballgame",
-      "matchText": "Mesoamerican ballgame"
-    }
+    {"eventId":"evt-colossal-heads-san-lorenzo","matchText":"Seventeen colossal heads"},
+    {"eventId":"evt-la-cobata-head","matchText":"La Cobata"},
+    {"eventId":"evt-basalt-transport","matchText":"Cerro Cintepec"},
+    {"eventId":"evt-throne-head-recycling","matchText":"thrones were carved first"},
+    {"eventId":"evt-san-lorenzo-monument14","matchText":"Monument 14"},
+    {"eventId":"evt-david-grove-research","matchText":"David Grove"},
+    {"eventId":"evt-mesoamerican-ballgame","matchText":"Mesoamerican ballgame"}
   ],
   "4": [
-    {
-      "eventId": "evt-were-jaguar",
-      "matchText": "were-jaguar"
-    },
-    {
-      "eventId": "evt-olmec-feathered-serpent",
-      "matchText": "Feathered Serpent"
-    },
-    {
-      "eventId": "evt-maize-god",
-      "matchText": "Maize God"
-    },
-    {
-      "eventId": "evt-olmec-bloodletting",
-      "matchText": "Bloodletting"
-    },
-    {
-      "eventId": "evt-mesoamerican-ballgame",
-      "matchText": "Mesoamerican ballgame"
-    },
-    {
-      "eventId": "evt-juxtlahuaca-cave",
-      "matchText": "Juxtlahuaca"
-    },
-    {
-      "eventId": "evt-oxtotitlan-cave",
-      "matchText": "Oxtotitlan"
-    },
-    {
-      "eventId": "evt-nahual-concept",
-      "matchText": "nahual"
-    }
+    {"eventId":"evt-were-jaguar","matchText":"were-jaguar"},
+    {"eventId":"evt-olmec-feathered-serpent","matchText":"Feathered Serpent"},
+    {"eventId":"evt-maize-god","matchText":"Maize God"},
+    {"eventId":"evt-olmec-bloodletting","matchText":"Bloodletting"},
+    {"eventId":"evt-mesoamerican-ballgame","matchText":"Mesoamerican ballgame"},
+    {"eventId":"evt-juxtlahuaca-cave","matchText":"Juxtlahuaca"},
+    {"eventId":"evt-oxtotitlan-cave","matchText":"Oxtotitlan"}
   ],
   "5": [
-    {
-      "eventId": "evt-jade-trade",
-      "matchText": "Motagua Valley"
-    },
-    {
-      "eventId": "evt-obsidian-trade",
-      "matchText": "Obsidian"
-    },
-    {
-      "eventId": "evt-magnetite-mirrors",
-      "matchText": "Magnetite mirrors"
-    },
-    {
-      "eventId": "evt-cacao-cultivation",
-      "matchText": "cacao"
-    },
-    {
-      "eventId": "evt-tlatilco-olmec",
-      "matchText": "Tlatilco"
-    },
-    {
-      "eventId": "evt-chalcatzingo",
-      "matchText": "Chalcatzingo"
-    },
-    {
-      "eventId": "evt-olmec-influence-spreads",
-      "matchText": "Olmec influence"
-    },
-    {
-      "eventId": "evt-olmec-trade-networks",
-      "matchText": "Olmec trade goods"
-    }
+    {"eventId":"evt-jade-trade","matchText":"Motagua Valley"},
+    {"eventId":"evt-obsidian-trade","matchText":"Obsidian"},
+    {"eventId":"evt-magnetite-mirrors","matchText":"Magnetite mirrors"},
+    {"eventId":"evt-cacao-cultivation","matchText":"cacao"},
+    {"eventId":"evt-tlatilco-olmec","matchText":"Tlatilco"},
+    {"eventId":"evt-chalcatzingo","matchText":"Chalcatzingo"},
+    {"eventId":"evt-olmec-influence-spreads","matchText":"Olmec influence"},
+    {"eventId":"evt-olmec-trade-networks","matchText":"Olmec trade goods"}
   ],
   "6": [
-    {
-      "eventId": "evt-la-venta-rises",
-      "matchText": "La Venta"
-    },
-    {
-      "eventId": "evt-great-pyramid-la-venta",
-      "matchText": "Great Pyramid"
-    },
-    {
-      "eventId": "evt-la-venta-complex-a",
-      "matchText": "Complex A"
-    },
-    {
-      "eventId": "evt-la-venta-mosaic",
-      "matchText": "serpentine mosaic pavements"
-    },
-    {
-      "eventId": "evt-massive-offerings",
-      "matchText": "sixteen figurines standing in a semicircle"
-    },
-    {
-      "eventId": "evt-tomb-of-columns",
-      "matchText": "Tomb of Columns"
-    },
-    {
-      "eventId": "evt-la-venta-stela1",
-      "matchText": "Stela 1"
-    },
-    {
-      "eventId": "evt-la-venta-decline",
-      "matchText": "La Venta was abandoned"
-    }
+    {"eventId":"evt-la-venta-rises","matchText":"La Venta"},
+    {"eventId":"evt-great-pyramid-la-venta","matchText":"Great Pyramid"},
+    {"eventId":"evt-la-venta-complex-a","matchText":"Complex A"},
+    {"eventId":"evt-la-venta-mosaic","matchText":"serpentine mosaic pavements"},
+    {"eventId":"evt-massive-offerings","matchText":"sixteen figurines standing in a semicircle"},
+    {"eventId":"evt-tomb-of-columns","matchText":"Tomb of Columns"},
+    {"eventId":"evt-la-venta-stela1","matchText":"Stela 1"},
+    {"eventId":"evt-la-venta-decline","matchText":"La Venta was abandoned"}
   ],
   "7": [
-    {
-      "eventId": "evt-cascajal-block",
-      "matchText": "Cascajal Block"
-    },
-    {
-      "eventId": "evt-olmec-hieroglyphs",
-      "matchText": "Olmec hieroglyphic system"
-    },
-    {
-      "eventId": "evt-zapotec-script",
-      "matchText": "Zapotec script"
-    },
-    {
-      "eventId": "evt-mesoamerican-calendar",
-      "matchText": "ritual calendar"
-    },
-    {
-      "eventId": "evt-olmec-long-count-origins",
-      "matchText": "Long Count"
-    },
-    {
-      "eventId": "evt-olmec-zero",
-      "matchText": "concept of zero"
-    },
-    {
-      "eventId": "evt-stela-c-tres-zapotes",
-      "matchText": "Stela C"
-    },
-    {
-      "eventId": "evt-isthmian-script",
-      "matchText": "Isthmian script"
-    }
+    {"eventId":"evt-cascajal-block","matchText":"Cascajal Block"},
+    {"eventId":"evt-olmec-hieroglyphs","matchText":"Olmec hieroglyphic system"},
+    {"eventId":"evt-zapotec-script","matchText":"Zapotec script"},
+    {"eventId":"evt-mesoamerican-calendar","matchText":"ritual calendar"},
+    {"eventId":"evt-olmec-long-count-origins","matchText":"Long Count"},
+    {"eventId":"evt-olmec-zero","matchText":"concept of zero"},
+    {"eventId":"evt-stela-c-tres-zapotes","matchText":"Stela C"},
+    {"eventId":"evt-isthmian-script","matchText":"Isthmian script"}
   ],
   "8": [
-    {
-      "eventId": "evt-tres-zapotes",
-      "matchText": "Tres Zapotes"
-    },
-    {
-      "eventId": "evt-epi-olmec",
-      "matchText": "Epi-Olmec"
-    },
-    {
-      "eventId": "evt-tuxtla-statuette",
-      "matchText": "Tuxtla Statuette"
-    },
-    {
-      "eventId": "evt-cerro-de-las-mesas",
-      "matchText": "Cerro de las Mesas"
-    },
-    {
-      "eventId": "evt-mother-culture-debate",
-      "matchText": "mother culture"
-    },
-    {
-      "eventId": "evt-covarrubias-olmec-art",
-      "matchText": "Miguel Covarrubias"
-    },
-    {
-      "eventId": "evt-monte-alban-rival",
-      "matchText": "Monte Albán"
-    },
-    {
-      "eventId": "evt-teotihuacan-emerges",
-      "matchText": "Teotihuacan"
-    }
+    {"eventId":"evt-tres-zapotes","matchText":"Tres Zapotes"},
+    {"eventId":"evt-epi-olmec","matchText":"Epi-Olmec"},
+    {"eventId":"evt-tuxtla-statuette","matchText":"Tuxtla Statuette"},
+    {"eventId":"evt-cerro-de-las-mesas","matchText":"Cerro de las Mesas"},
+    {"eventId":"evt-mother-culture-debate","matchText":"mother culture"},
+    {"eventId":"evt-covarrubias-olmec-art","matchText":"Miguel Covarrubias"},
+    {"eventId":"evt-monte-alban-rival","matchText":"Monte Albán"},
+    {"eventId":"evt-teotihuacan-emerges","matchText":"Teotihuacan"}
   ]
 }

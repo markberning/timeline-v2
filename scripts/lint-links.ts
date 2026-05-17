@@ -69,7 +69,12 @@ function matchesBody(matchText: string, body: string): boolean {
 
 function checkMatchText(tl: string, ch: string, kind: string, mt: string, title: string, body: string) {
   if (!mt || !mt.trim()) { add(tl, ch, kind, 'ERROR', `empty matchText`); return }
-  if (/[^\x00-\x7F]/.test(mt)) add(tl, ch, kind, 'ERROR', `non-ASCII matchText ${JSON.stringify(mt)} — \\b/ASCII rule, will not match`)
+  // JS `\b` is ASCII-defined, so a non-ASCII char only defeats the parser's
+  // `\b(...)\b` when it sits at the *boundary* (first/last char). Interior
+  // accents ("Monte Albán", "Albrecht Dürer") still match fine — let the
+  // exact `matchesBody` test below be the sole judge of those, otherwise this
+  // rule cries wolf on hundreds of links that actually work.
+  if (/^[^\x00-\x7F]/.test(mt) || /[^\x00-\x7F]$/.test(mt)) add(tl, ch, kind, 'ERROR', `non-ASCII at matchText boundary ${JSON.stringify(mt)} — \\b is ASCII-only, parser will not match`)
   if (/^[^\w]|[^\w'’]$/.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} has leading/trailing punctuation`)
   const words = mt.trim().split(/\s+/)
   if (words.length > 6 || /,/.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} looks sentence-like (likely sloppy)`)

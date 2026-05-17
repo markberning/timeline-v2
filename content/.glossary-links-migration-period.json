@@ -135,24 +135,6 @@
       "type": "place"
     },
     {
-      "term": "Hispania",
-      "matchText": "Hispania",
-      "wikiSlug": "Hispania",
-      "type": "place"
-    },
-    {
-      "term": "Pyrenees",
-      "matchText": "Pyrenees",
-      "wikiSlug": "Pyrenees",
-      "type": "place"
-    },
-    {
-      "term": "Alaric I",
-      "matchText": "Alaric",
-      "wikiSlug": "Alaric_I",
-      "type": "people"
-    },
-    {
       "term": "Zosimus",
       "matchText": "Zosimus",
       "wikiSlug": "Zosimus_(historian)",
@@ -224,6 +206,18 @@
       "term": "Rhône valley",
       "matchText": "Rhône valley",
       "wikiSlug": "Rhone",
+      "type": "place"
+    },
+    {
+      "term": "Hispania",
+      "matchText": "Hispania",
+      "wikiSlug": "Hispania",
+      "type": "place"
+    },
+    {
+      "term": "Pyrenees",
+      "matchText": "Pyrenees",
+      "wikiSlug": "Pyrenees",
       "type": "place"
     }
   ],
@@ -593,6 +587,12 @@
       "matchText": "Domain of Soissons",
       "wikiSlug": "Domain_of_Soissons",
       "type": "concept"
+    },
+    {
+      "term": "Alaric I",
+      "matchText": "Alaric",
+      "wikiSlug": "Alaric_I",
+      "type": "people"
     }
   ],
   "8": [
@@ -660,12 +660,6 @@
       "term": "Nika Riots",
       "matchText": "Nika riots",
       "wikiSlug": "Nika_riots",
-      "type": "concept"
-    },
-    {
-      "term": "Exarch of Ravenna",
-      "matchText": "Exarch",
-      "wikiSlug": "Exarchate_of_Ravenna",
       "type": "concept"
     },
     {
@@ -752,6 +746,12 @@
       "term": "bubo",
       "matchText": "buboes",
       "wikiSlug": "Bubo",
+      "type": "concept"
+    },
+    {
+      "term": "Exarch of Ravenna",
+      "matchText": "Exarch",
+      "wikiSlug": "Exarchate_of_Ravenna",
       "type": "concept"
     }
   ]

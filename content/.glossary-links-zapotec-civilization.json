@@ -149,6 +149,18 @@
       "matchText": "Gulf Coast",
       "wikiSlug": "Gulf_Coast_of_Mexico",
       "type": "place"
+    },
+    {
+      "term": "Chiefdom",
+      "matchText": "chiefdom",
+      "wikiSlug": "Chiefdom",
+      "type": "concept"
+    },
+    {
+      "term": "Lime plaster",
+      "matchText": "lime-plastered",
+      "wikiSlug": "Lime_plaster",
+      "type": "concept"
     }
   ],
   "2": [
@@ -265,18 +277,6 @@
       "matchText": "San José Mogote",
       "wikiSlug": "San_José_Mogote",
       "type": "place"
-    },
-    {
-      "term": "Chiefdom",
-      "matchText": "chiefdom",
-      "wikiSlug": "Chiefdom",
-      "type": "concept"
-    },
-    {
-      "term": "Lime plaster",
-      "matchText": "lime-plastered",
-      "wikiSlug": "Lime_plaster",
-      "type": "concept"
     },
     {
       "term": "Mesoamerican chronology",
@@ -557,6 +557,12 @@
       "matchText": "Oaxacan-style grayware",
       "wikiSlug": "Zapotec_civilization",
       "type": "concept"
+    },
+    {
+      "term": "Terraced platforms",
+      "matchText": "terraced residential platforms",
+      "wikiSlug": "Terrace_(agriculture)",
+      "type": "concept"
     }
   ],
   "5": [
@@ -687,12 +693,6 @@
       "type": "concept"
     },
     {
-      "term": "Pachuca obsidian",
-      "matchText": "Pachuca",
-      "wikiSlug": "Pachuca",
-      "type": "place"
-    },
-    {
       "term": "Sui dynasty",
       "matchText": "Sui",
       "wikiSlug": "Sui_dynasty",
@@ -785,18 +785,6 @@
       "type": "concept"
     },
     {
-      "term": "Postclassic Mesoamerica",
-      "matchText": "Postclassic period",
-      "wikiSlug": "Mesoamerican_chronology",
-      "type": "concept"
-    },
-    {
-      "term": "Terraced platforms",
-      "matchText": "terraced residential platforms",
-      "wikiSlug": "Terrace_(agriculture)",
-      "type": "concept"
-    },
-    {
       "term": "Obsidian trade",
       "matchText": "obsidian from central Mexico",
       "wikiSlug": "Obsidian_use_in_Mesoamerica",
@@ -837,6 +825,12 @@
       "matchText": "ball courts",
       "wikiSlug": "Mesoamerican_ballcourt",
       "type": "concept"
+    },
+    {
+      "term": "Pachuca obsidian",
+      "matchText": "Pachuca",
+      "wikiSlug": "Pachuca",
+      "type": "place"
     }
   ],
   "7": [
@@ -883,26 +877,8 @@
       "type": "concept"
     },
     {
-      "term": "UNESCO World Heritage",
-      "matchText": "UNESCO World Heritage Site",
-      "wikiSlug": "World_Heritage_Site",
-      "type": "concept"
-    },
-    {
-      "term": "INAH",
-      "matchText": "INAH",
-      "wikiSlug": "Instituto_Nacional_de_Antropología_e_Historia",
-      "type": "concept"
-    },
-    {
-      "term": "Museo de las Culturas de Oaxaca",
-      "matchText": "Museo de las Culturas de Oaxaca",
-      "wikiSlug": "Museo_de_las_Culturas_de_Oaxaca",
-      "type": "place"
-    },
-    {
       "term": "Chichén Itzá",
-      "matchText": "Chichén Itzá",
+      "matchText": "Chichén Itz",
       "wikiSlug": "Chichen_Itza",
       "type": "place"
     },
@@ -949,24 +925,6 @@
       "type": "concept"
     },
     {
-      "term": "Cochineal dye",
-      "matchText": "cochineal",
-      "wikiSlug": "Cochineal",
-      "type": "concept"
-    },
-    {
-      "term": "Oaxaca City",
-      "matchText": "Oaxaca City",
-      "wikiSlug": "Oaxaca_de_Juárez",
-      "type": "place"
-    },
-    {
-      "term": "Genealogical Lienzo",
-      "matchText": "lienzos",
-      "wikiSlug": "Lienzo",
-      "type": "concept"
-    },
-    {
       "term": "Death god (Mesoamerican)",
       "matchText": "Mixtec death god",
       "wikiSlug": "Death_gods_(Mesoamerican)",
@@ -979,16 +937,16 @@
       "type": "concept"
     },
     {
-      "term": "Juchitán",
-      "matchText": "Juchitán",
-      "wikiSlug": "Heroica_Ciudad_de_Juchitán_de_Zaragoza",
-      "type": "place"
-    },
-    {
       "term": "Mitla",
       "matchText": "Mitla",
       "wikiSlug": "Mitla",
       "type": "place"
+    },
+    {
+      "term": "Postclassic Mesoamerica",
+      "matchText": "Postclassic period",
+      "wikiSlug": "Mesoamerican_chronology",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1117,6 +1075,48 @@
       "matchText": "conquest that would destroy the Aztec Empire",
       "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire",
       "type": "concept"
+    },
+    {
+      "term": "UNESCO World Heritage",
+      "matchText": "UNESCO World Heritage Site",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
+    },
+    {
+      "term": "INAH",
+      "matchText": "INAH",
+      "wikiSlug": "Instituto_Nacional_de_Antropología_e_Historia",
+      "type": "concept"
+    },
+    {
+      "term": "Museo de las Culturas de Oaxaca",
+      "matchText": "Museo de las Culturas de Oaxaca",
+      "wikiSlug": "Museo_de_las_Culturas_de_Oaxaca",
+      "type": "place"
+    },
+    {
+      "term": "Cochineal dye",
+      "matchText": "cochineal",
+      "wikiSlug": "Cochineal",
+      "type": "concept"
+    },
+    {
+      "term": "Oaxaca City",
+      "matchText": "Oaxaca City",
+      "wikiSlug": "Oaxaca_de_Juárez",
+      "type": "place"
+    },
+    {
+      "term": "Genealogical Lienzo",
+      "matchText": "lienzos",
+      "wikiSlug": "Lienzo",
+      "type": "concept"
+    },
+    {
+      "term": "Juchitán",
+      "matchText": "Juchitán",
+      "wikiSlug": "Heroica_Ciudad_de_Juchitán_de_Zaragoza",
+      "type": "place"
     }
   ]
 }

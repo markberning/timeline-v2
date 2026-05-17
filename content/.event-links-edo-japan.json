@@ -1,334 +1,97 @@
 {
   "1": [
-    {
-      "eventId": "evt-toyotomi-hideyoshi-death",
-      "matchText": "Hideyoshi died in September 1598"
-    },
-    {
-      "eventId": "evt-korean-invasions",
-      "matchText": "Korean invasions"
-    },
-    {
-      "eventId": "evt-battle-sekigahara",
-      "matchText": "Sekigahara"
-    },
-    {
-      "eventId": "evt-tokugawa-ieyasu",
-      "matchText": "Tokugawa Ieyasu"
-    },
-    {
-      "eventId": "evt-osaka-castle-siege",
-      "matchText": "Sieges of Osaka"
-    },
-    {
-      "eventId": "evt-buke-shohatto",
-      "matchText": "Buke Shohatto"
-    },
-    {
-      "eventId": "evt-ikkoku-ichijo",
-      "matchText": "Ikkoku Ichijō Rei"
-    },
-    {
-      "eventId": "evt-nikko-toshogu",
-      "matchText": "Nikkō Tōshō-gū"
-    }
+    {"eventId":"evt-toyotomi-hideyoshi-death","matchText":"Hideyoshi died in September 1598"},
+    {"eventId":"evt-korean-invasions","matchText":"Korean invasions"},
+    {"eventId":"evt-battle-sekigahara","matchText":"Sekigahara"},
+    {"eventId":"evt-tokugawa-ieyasu","matchText":"Tokugawa Ieyasu"},
+    {"eventId":"evt-osaka-castle-siege","matchText":"Sieges of Osaka"},
+    {"eventId":"evt-buke-shohatto","matchText":"Buke Shohatto"},
+    {"eventId":"evt-ikkoku-ichijo","matchText":"Ikkoku Ichijō Rei"},
+    {"eventId":"evt-nikko-toshogu","matchText":"Nikkō Tōshō-g"},
+    {"eventId":"evt-himeji-castle","matchText":"Himeji"}
   ],
   "2": [
-    {
-      "eventId": "evt-bakuhan-system",
-      "matchText": "bakuhan system"
-    },
-    {
-      "eventId": "evt-tokugawa-iemitsu",
-      "matchText": "Tokugawa Iemitsu"
-    },
-    {
-      "eventId": "evt-sankin-kotai",
-      "matchText": "sankin-kōtai"
-    },
-    {
-      "eventId": "evt-gokaido",
-      "matchText": "Gokaidō"
-    },
-    {
-      "eventId": "evt-shi-no-ko-sho",
-      "matchText": "shi-nō-kō-shō"
-    },
-    {
-      "eventId": "evt-terauke-system",
-      "matchText": "terauke"
-    },
-    {
-      "eventId": "evt-shoheiko",
-      "matchText": "Shōheikō"
-    },
-    {
-      "eventId": "evt-tokugawa-hidetada",
-      "matchText": "Hidetada"
-    },
-    {
-      "eventId": "evt-himeji-castle",
-      "matchText": "Himeji"
-    },
-    {
-      "eventId": "evt-edo-castle-expansion",
-      "matchText": "Edo Castle"
-    },
-    {
-      "eventId": "evt-ise-shrine-rebuild",
-      "matchText": "Ise Grand Shrine"
-    }
+    {"eventId":"evt-bakuhan-system","matchText":"bakuhan system"},
+    {"eventId":"evt-tokugawa-iemitsu","matchText":"Tokugawa Iemitsu"},
+    {"eventId":"evt-sankin-kotai","matchText":"sankin-kōtai"},
+    {"eventId":"evt-gokaido","matchText":"Gokaid"},
+    {"eventId":"evt-shi-no-ko-sho","matchText":"shi-nō-kō-sh"},
+    {"eventId":"evt-terauke-system","matchText":"terauke"},
+    {"eventId":"evt-shoheiko","matchText":"Shōheik"},
+    {"eventId":"evt-edo-castle-expansion","matchText":"Edo Castle"},
+    {"eventId":"evt-ise-shrine-rebuild","matchText":"Ise Grand Shrine"}
   ],
   "3": [
-    {
-      "eventId": "evt-christianity-banned",
-      "matchText": "Christian Expulsion Edict"
-    },
-    {
-      "eventId": "evt-fumi-e",
-      "matchText": "fumi-e"
-    },
-    {
-      "eventId": "evt-shimabara-rebellion",
-      "matchText": "Shimabara Rebellion"
-    },
-    {
-      "eventId": "evt-amakusa-shiro",
-      "matchText": "Amakusa Shirō"
-    },
-    {
-      "eventId": "evt-sakoku-edict",
-      "matchText": "sakoku"
-    },
-    {
-      "eventId": "evt-portuguese-expelled",
-      "matchText": "Portuguese were expelled from Japan"
-    },
-    {
-      "eventId": "evt-dejima-trade",
-      "matchText": "Dejima"
-    },
-    {
-      "eventId": "evt-kakure-kirishitan",
-      "matchText": "crypto-Christians"
-    }
+    {"eventId":"evt-christianity-banned","matchText":"Christian Expulsion Edict"},
+    {"eventId":"evt-fumi-e","matchText":"fumi-e"},
+    {"eventId":"evt-shimabara-rebellion","matchText":"Shimabara Rebellion"},
+    {"eventId":"evt-amakusa-shiro","matchText":"Amakusa Shir"},
+    {"eventId":"evt-sakoku-edict","matchText":"sakoku"},
+    {"eventId":"evt-portuguese-expelled","matchText":"Portuguese were expelled from Japan"},
+    {"eventId":"evt-dejima-trade","matchText":"Dejima"},
+    {"eventId":"evt-kakure-kirishitan","matchText":"crypto-Christians"},
+    {"eventId":"evt-tokugawa-hidetada","matchText":"Hidetada"}
   ],
   "4": [
-    {
-      "eventId": "evt-genroku-culture",
-      "matchText": "Genroku"
-    },
-    {
-      "eventId": "evt-tokugawa-tsunayoshi",
-      "matchText": "Tokugawa Tsunayoshi"
-    },
-    {
-      "eventId": "evt-shorui-awaremi",
-      "matchText": "Edicts of Compassion for Living Beings"
-    },
-    {
-      "eventId": "evt-floating-world",
-      "matchText": "floating world"
-    },
-    {
-      "eventId": "evt-yoshiwara",
-      "matchText": "Yoshiwara"
-    },
-    {
-      "eventId": "evt-great-meireki-fire",
-      "matchText": "Great Meireki Fire"
-    },
-    {
-      "eventId": "evt-kabuki-theater",
-      "matchText": "Kabuki"
-    },
-    {
-      "eventId": "evt-bunraku",
-      "matchText": "Bunraku"
-    },
-    {
-      "eventId": "evt-chikamatsu",
-      "matchText": "Chikamatsu Monzaemon"
-    },
-    {
-      "eventId": "evt-matsuo-basho",
-      "matchText": "Matsuo Bashō"
-    },
-    {
-      "eventId": "evt-ihara-saikaku",
-      "matchText": "Ihara Saikaku"
-    },
-    {
-      "eventId": "evt-hishikawa-moronobu",
-      "matchText": "Hishikawa Moronobu"
-    },
-    {
-      "eventId": "evt-rice-market-osaka",
-      "matchText": "Dōjima Rice Exchange"
-    },
-    {
-      "eventId": "evt-mitsui-house",
-      "matchText": "House of Mitsui"
-    }
+    {"eventId":"evt-genroku-culture","matchText":"Genroku"},
+    {"eventId":"evt-tokugawa-tsunayoshi","matchText":"Tokugawa Tsunayoshi"},
+    {"eventId":"evt-shorui-awaremi","matchText":"Edicts of Compassion for Living Beings"},
+    {"eventId":"evt-floating-world","matchText":"floating world"},
+    {"eventId":"evt-yoshiwara","matchText":"Yoshiwara"},
+    {"eventId":"evt-great-meireki-fire","matchText":"Great Meireki Fire"},
+    {"eventId":"evt-kabuki-theater","matchText":"Kabuki"},
+    {"eventId":"evt-bunraku","matchText":"Bunraku"},
+    {"eventId":"evt-chikamatsu","matchText":"Chikamatsu Monzaemon"},
+    {"eventId":"evt-matsuo-basho","matchText":"Matsuo Bash"},
+    {"eventId":"evt-ihara-saikaku","matchText":"Ihara Saikaku"},
+    {"eventId":"evt-hishikawa-moronobu","matchText":"Hishikawa Moronobu"},
+    {"eventId":"evt-rice-market-osaka","matchText":"Dōjima Rice Exchange"},
+    {"eventId":"evt-mitsui-house","matchText":"House of Mitsui"},
+    {"eventId":"evt-kitagawa-utamaro","matchText":"Utamaro"},
+    {"eventId":"evt-hokusai-wave","matchText":"Hokusai"},
+    {"eventId":"evt-hiroshige","matchText":"Hiroshige"}
   ],
   "5": [
-    {
-      "eventId": "evt-ako-incident",
-      "matchText": "Akō incident"
-    },
-    {
-      "eventId": "evt-bushido",
-      "matchText": "Hagakure"
-    },
-    {
-      "eventId": "evt-wasan-math",
-      "matchText": "Seki Takakazu"
-    }
+    {"eventId":"evt-ako-incident","matchText":"Akō incident"},
+    {"eventId":"evt-bushido","matchText":"Hagakure"},
+    {"eventId":"evt-wasan-math","matchText":"Seki Takakazu"}
   ],
   "6": [
-    {
-      "eventId": "evt-sugita-genpaku",
-      "matchText": "Sugita Genpaku"
-    },
-    {
-      "eventId": "evt-tokugawa-yoshimune",
-      "matchText": "Tokugawa Yoshimune"
-    },
-    {
-      "eventId": "evt-kyoho-reforms",
-      "matchText": "Kyōhō Reforms"
-    },
-    {
-      "eventId": "evt-rangaku",
-      "matchText": "Rangaku"
-    },
-    {
-      "eventId": "evt-aoki-konyo",
-      "matchText": "Aoki Kon"
-    },
-    {
-      "eventId": "evt-hiraga-gennai",
-      "matchText": "Hiraga Gennai"
-    },
-    {
-      "eventId": "evt-ino-tadataka",
-      "matchText": "Inō Tadataka"
-    }
+    {"eventId":"evt-sugita-genpaku","matchText":"Sugita Genpaku"},
+    {"eventId":"evt-tokugawa-yoshimune","matchText":"Tokugawa Yoshimune"},
+    {"eventId":"evt-kyoho-reforms","matchText":"Kyōhō Reforms"},
+    {"eventId":"evt-rangaku","matchText":"Rangaku"},
+    {"eventId":"evt-aoki-konyo","matchText":"Aoki Kon"},
+    {"eventId":"evt-hiraga-gennai","matchText":"Hiraga Gennai"},
+    {"eventId":"evt-ino-tadataka","matchText":"Inō Tadataka"}
   ],
   "7": [
-    {
-      "eventId": "evt-tanuma-okitsugu",
-      "matchText": "Tanuma Okitsugu"
-    },
-    {
-      "eventId": "evt-kansei-reforms",
-      "matchText": "Kansei Reforms"
-    },
-    {
-      "eventId": "evt-tenpo-reforms",
-      "matchText": "Tenpō Reforms"
-    },
-    {
-      "eventId": "evt-tenmei-famine",
-      "matchText": "Tenmei famine"
-    },
-    {
-      "eventId": "evt-mount-asama-eruption",
-      "matchText": "Mount Asama"
-    },
-    {
-      "eventId": "evt-tenpo-famine",
-      "matchText": "Tenpō famine"
-    },
-    {
-      "eventId": "evt-oshio-rebellion",
-      "matchText": "Ōshio Heihachirō"
-    },
-    {
-      "eventId": "evt-morrison-incident",
-      "matchText": "Morrison Incident"
-    },
-    {
-      "eventId": "evt-kokugaku",
-      "matchText": "Kokugaku"
-    },
-    {
-      "eventId": "evt-motoori-norinaga",
-      "matchText": "Motoori Norinaga"
-    },
-    {
-      "eventId": "evt-kitagawa-utamaro",
-      "matchText": "Utamaro"
-    },
-    {
-      "eventId": "evt-hokusai-wave",
-      "matchText": "Hokusai"
-    },
-    {
-      "eventId": "evt-hiroshige",
-      "matchText": "Hiroshige"
-    }
+    {"eventId":"evt-tanuma-okitsugu","matchText":"Tanuma Okitsugu"},
+    {"eventId":"evt-kansei-reforms","matchText":"Kansei Reforms"},
+    {"eventId":"evt-tenpo-reforms","matchText":"Tenpō Reforms"},
+    {"eventId":"evt-tenmei-famine","matchText":"Tenmei famine"},
+    {"eventId":"evt-mount-asama-eruption","matchText":"Mount Asama"},
+    {"eventId":"evt-tenpo-famine","matchText":"Tenpō famine"},
+    {"eventId":"evt-oshio-rebellion","matchText":"shio Heihachir"},
+    {"eventId":"evt-morrison-incident","matchText":"Morrison Incident"},
+    {"eventId":"evt-kokugaku","matchText":"Kokugaku"},
+    {"eventId":"evt-motoori-norinaga","matchText":"Motoori Norinaga"}
   ],
   "8": [
-    {
-      "eventId": "evt-perry-arrival",
-      "matchText": "Matthew Calbraith Perry"
-    },
-    {
-      "eventId": "evt-treaty-kanagawa",
-      "matchText": "Treaty of Kanagawa"
-    },
-    {
-      "eventId": "evt-harris-treaty",
-      "matchText": "Harris Treaty"
-    },
-    {
-      "eventId": "evt-ansei-treaties",
-      "matchText": "Ansei Treaties"
-    },
-    {
-      "eventId": "evt-ansei-purge",
-      "matchText": "Ansei Purge"
-    },
-    {
-      "eventId": "evt-sakuradamon-incident",
-      "matchText": "Sakuradamon Incident"
-    },
-    {
-      "eventId": "evt-sonno-joi",
-      "matchText": "sonnō jōi"
-    },
-    {
-      "eventId": "evt-bombardment-shimonoseki",
-      "matchText": "Shimonoseki"
-    },
-    {
-      "eventId": "evt-choshun-war",
-      "matchText": "Chōshū Expedition"
-    },
-    {
-      "eventId": "evt-satcho-alliance",
-      "matchText": "Satsuma-Chōshū Alliance"
-    },
-    {
-      "eventId": "evt-sakamoto-ryoma",
-      "matchText": "Sakamoto Ryōma"
-    },
-    {
-      "eventId": "evt-tokugawa-yoshinobu",
-      "matchText": "Tokugawa Yoshinobu"
-    },
-    {
-      "eventId": "evt-boshin-war",
-      "matchText": "Boshin War"
-    },
-    {
-      "eventId": "evt-meiji-restoration",
-      "matchText": "Meiji Restoration"
-    },
-    {
-      "eventId": "evt-charter-oath",
-      "matchText": "Charter Oath"
-    }
+    {"eventId":"evt-perry-arrival","matchText":"Matthew Calbraith Perry"},
+    {"eventId":"evt-treaty-kanagawa","matchText":"Treaty of Kanagawa"},
+    {"eventId":"evt-harris-treaty","matchText":"Harris Treaty"},
+    {"eventId":"evt-ansei-treaties","matchText":"Ansei Treaties"},
+    {"eventId":"evt-ansei-purge","matchText":"Ansei Purge"},
+    {"eventId":"evt-sakuradamon-incident","matchText":"Sakuradamon Incident"},
+    {"eventId":"evt-sonno-joi","matchText":"sonnō jōi"},
+    {"eventId":"evt-bombardment-shimonoseki","matchText":"Shimonoseki"},
+    {"eventId":"evt-choshun-war","matchText":"Chōshū Expedition"},
+    {"eventId":"evt-satcho-alliance","matchText":"Satsuma-Chōshū Alliance"},
+    {"eventId":"evt-sakamoto-ryoma","matchText":"Sakamoto Ryōma"},
+    {"eventId":"evt-tokugawa-yoshinobu","matchText":"Tokugawa Yoshinobu"},
+    {"eventId":"evt-boshin-war","matchText":"Boshin War"},
+    {"eventId":"evt-meiji-restoration","matchText":"Meiji Restoration"},
+    {"eventId":"evt-charter-oath","matchText":"Charter Oath"}
   ]
 }

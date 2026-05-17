@@ -227,6 +227,12 @@
       "targetTl": "late-medieval-europe",
       "targetChapter": 8,
       "blurb": "Granada, the last kingdom, survived as a tributary in the gaps of the late-medieval European order until 1492 closed them."
+    },
+    {
+      "matchText": "Late Medieval Europe",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 8,
+      "blurb": "1492 — Granada's fall and Columbus's departure in the same months — is the hinge from the medieval to the early-modern world."
     }
   ],
   "17": [
@@ -249,10 +255,10 @@
       "blurb": "The Spanish Inquisition established in 1478 drew on legal and theological frameworks being refined across the Catholic world, including Renaissance Italy's own church councils. From the Italian side, the same humanist revival that was rediscovering Greek and Arabic learning through Andalusi channels was also producing the ecclesiastical machinery that would be turned against conversos and eventually Moriscos — the Renaissance and the Inquisition were products of the same energized Latin Christendom."
     },
     {
-      "matchText": "Late Medieval Europe",
-      "targetTl": "late-medieval-europe",
-      "targetChapter": 8,
-      "blurb": "1492 — Granada's fall and Columbus's departure in the same months — is the hinge from the medieval to the early-modern world."
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "The expelled Moriscos scattered across the Mediterranean — many to the Ottoman lands, the great refuge for Iberia's exiled Muslims and Jews."
     }
   ],
   "18": [
@@ -261,12 +267,6 @@
       "targetTl": "enlightenment",
       "targetChapter": 20,
       "blurb": "Washington Irving's 1832 Tales of the Alhambra arrived in the middle of the Romantic movement's fascination with the medieval Islamic world — itself a reaction against Enlightenment rationalism. From the Enlightenment's side, the eighteenth century had first produced the scholarly apparatus (translations, critical editions, comparative history) that made al-Andalus legible to European readers, and then the Romantics used that apparatus to construct the nostalgic golden-age image that tourism and popular history still largely reproduce."
-    },
-    {
-      "matchText": "Ottoman Empire",
-      "targetTl": "ottoman-empire",
-      "targetChapter": 5,
-      "blurb": "The expelled Moriscos scattered across the Mediterranean — many to the Ottoman lands, the great refuge for Iberia's exiled Muslims and Jews."
     }
   ]
 }

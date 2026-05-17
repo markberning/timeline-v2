@@ -1,314 +1,92 @@
 {
   "1": [
-    {
-      "eventId": "evt-sheikh-safi-al-din",
-      "matchText": "Safi al-Din"
-    },
-    {
-      "eventId": "evt-junayd-militarization",
-      "matchText": "Junayd was the first Safavid leader who actively raised"
-    },
-    {
-      "eventId": "evt-haydar-red-turban",
-      "matchText": "Haydar designed a distinctive twelve-pointed red headgear"
-    },
-    {
-      "eventId": "evt-qizilbash-military",
-      "matchText": "Qizilbash"
-    },
-    {
-      "eventId": "evt-safavid-order-origins",
-      "matchText": "Safaviyya"
-    }
+    {"eventId":"evt-sheikh-safi-al-din","matchText":"Safi al-Din"},
+    {"eventId":"evt-junayd-militarization","matchText":"Junayd was the first Safavid leader who actively raised"},
+    {"eventId":"evt-haydar-red-turban","matchText":"Haydar designed a distinctive twelve-pointed red headgear"},
+    {"eventId":"evt-qizilbash-military","matchText":"Qizilbash"},
+    {"eventId":"evt-safavid-order-origins","matchText":"Safaviyya"}
   ],
   "2": [
-    {
-      "eventId": "evt-shah-ismail-conquest",
-      "matchText": "Shah Ismail I"
-    },
-    {
-      "eventId": "evt-ismail-i-tabriz",
-      "matchText": "capture of Tabriz"
-    },
-    {
-      "eventId": "evt-shia-conversion",
-      "matchText": "Twelver Shia Islam the state religion"
-    },
-    {
-      "eventId": "evt-arabic-shia-clerics",
-      "matchText": "Arab Shia scholars from Jabal Amil and Bahrain"
-    },
-    {
-      "eventId": "evt-iraqi-arab-conquest",
-      "matchText": "captured Baghdad"
-    },
-    {
-      "eventId": "evt-ottoman-uzbek-two-front",
-      "matchText": "Battle of Merv"
-    },
-    {
-      "eventId": "evt-twelver-shiism-doctrine",
-      "matchText": "Twelver Shia Islam"
-    },
-    {
-      "eventId": "evt-muhaqqiq-al-karaki",
-      "matchText": "Muhaqqiq al-Karaki"
-    }
+    {"eventId":"evt-shah-ismail-conquest","matchText":"Shah Ismail I"},
+    {"eventId":"evt-ismail-i-tabriz","matchText":"capture of Tabriz"},
+    {"eventId":"evt-shia-conversion","matchText":"Twelver Shia Islam the state religion"},
+    {"eventId":"evt-arabic-shia-clerics","matchText":"Arab Shia scholars from Jabal Amil and Bahrain"},
+    {"eventId":"evt-ottoman-uzbek-two-front","matchText":"Battle of Merv"},
+    {"eventId":"evt-twelver-shiism-doctrine","matchText":"Twelver Shia Islam"},
+    {"eventId":"evt-muhaqqiq-al-karaki","matchText":"Muhaqqiq al-Karaki"}
   ],
   "3": [
-    {
-      "eventId": "evt-battle-chaldiran",
-      "matchText": "Chaldiran"
-    },
-    {
-      "eventId": "evt-tahmasp-i",
-      "matchText": "Tahmasp I"
-    },
-    {
-      "eventId": "evt-ottoman-safavid-peace",
-      "matchText": "Peace of Amasya"
-    },
-    {
-      "eventId": "evt-capital-qazvin",
-      "matchText": "Tahmasp moved the capital inland to"
-    },
-    {
-      "eventId": "evt-shah-name-writing",
-      "matchText": "Shahnameh of Shah Tahmasp"
-    },
-    {
-      "eventId": "evt-tabriz-school-painting",
-      "matchText": "Tabriz school of painting"
-    },
-    {
-      "eventId": "evt-ismail-ii",
-      "matchText": "Ismail II"
-    },
-    {
-      "eventId": "evt-pari-khan-khanum",
-      "matchText": "Pari Khan Khanum"
-    },
-    {
-      "eventId": "evt-humayun-refuge",
-      "matchText": "Humayun"
-    },
-    {
-      "eventId": "evt-qizilbash-civil-wars",
-      "matchText": "Qizilbash factional warfare"
-    },
-    {
-      "eventId": "evt-ottoman-safavid-war-1578",
-      "matchText": "Ottoman-Safavid War of 1578"
-    }
+    {"eventId":"evt-battle-chaldiran","matchText":"Chaldiran"},
+    {"eventId":"evt-tahmasp-i","matchText":"Tahmasp I"},
+    {"eventId":"evt-ottoman-safavid-peace","matchText":"Peace of Amasya"},
+    {"eventId":"evt-capital-qazvin","matchText":"Tahmasp moved the capital inland to"},
+    {"eventId":"evt-shah-name-writing","matchText":"Shahnameh of Shah Tahmasp"},
+    {"eventId":"evt-tabriz-school-painting","matchText":"Tabriz school of painting"},
+    {"eventId":"evt-ismail-ii","matchText":"Ismail II"},
+    {"eventId":"evt-pari-khan-khanum","matchText":"Pari Khan Khanum"},
+    {"eventId":"evt-humayun-refuge","matchText":"Humayun"},
+    {"eventId":"evt-qizilbash-civil-wars","matchText":"Qizilbash factional warfare"},
+    {"eventId":"evt-ottoman-safavid-war-1578","matchText":"Ottoman-Safavid War of 1578"}
   ],
   "4": [
-    {
-      "eventId": "evt-abbas-i",
-      "matchText": "Abbas the Great"
-    },
-    {
-      "eventId": "evt-ghulam-army",
-      "matchText": "ghulam army"
-    },
-    {
-      "eventId": "evt-allahverdi-khan",
-      "matchText": "Allahverdi Khan"
-    },
-    {
-      "eventId": "evt-isfahan-capital",
-      "matchText": "Isfahan"
-    },
-    {
-      "eventId": "evt-naqsh-e-jahan",
-      "matchText": "Naqsh-e Jahan"
-    },
-    {
-      "eventId": "evt-shah-mosque",
-      "matchText": "Shah Mosque"
-    },
-    {
-      "eventId": "evt-sheikh-lotfollah-mosque",
-      "matchText": "Sheikh Lotfollah Mosque"
-    },
-    {
-      "eventId": "evt-ali-qapu-palace",
-      "matchText": "Ali Qapu palace"
-    },
-    {
-      "eventId": "evt-allahverdi-khan-bridge",
-      "matchText": "Si-o-se-pol bridge"
-    },
-    {
-      "eventId": "evt-battle-sufiyan",
-      "matchText": "Sufiyan"
-    },
-    {
-      "eventId": "evt-ottoman-safavid-war-1603",
-      "matchText": "Treaty of Nasuh Pasha"
-    },
-    {
-      "eventId": "evt-recovery-baghdad",
-      "matchText": "captured Baghdad in 1623"
-    }
+    {"eventId":"evt-abbas-i","matchText":"Abbas the Great"},
+    {"eventId":"evt-allahverdi-khan","matchText":"Allahverdi Khan"},
+    {"eventId":"evt-isfahan-capital","matchText":"Isfahan"},
+    {"eventId":"evt-naqsh-e-jahan","matchText":"Naqsh-e Jahan"},
+    {"eventId":"evt-shah-mosque","matchText":"Shah Mosque"},
+    {"eventId":"evt-sheikh-lotfollah-mosque","matchText":"Sheikh Lotfollah Mosque"},
+    {"eventId":"evt-ali-qapu-palace","matchText":"Ali Qapu palace"},
+    {"eventId":"evt-allahverdi-khan-bridge","matchText":"Si-o-se-pol bridge"},
+    {"eventId":"evt-battle-sufiyan","matchText":"Sufiyan"},
+    {"eventId":"evt-ottoman-safavid-war-1603","matchText":"Treaty of Nasuh Pasha"}
   ],
   "5": [
-    {
-      "eventId": "evt-mir-damad",
-      "matchText": "Mir Damad"
-    },
-    {
-      "eventId": "evt-sheikh-bahai",
-      "matchText": "Sheikh Bahai"
-    },
-    {
-      "eventId": "evt-mulla-sadra",
-      "matchText": "Mulla Sadra"
-    },
-    {
-      "eventId": "evt-mujtahid-system",
-      "matchText": "mujtahid"
-    },
-    {
-      "eventId": "evt-akhbari-usuli-debate",
-      "matchText": "Akhbari-Usuli"
-    },
-    {
-      "eventId": "evt-imam-reza-shrine",
-      "matchText": "Imam Reza"
-    },
-    {
-      "eventId": "evt-fatima-masumeh-shrine",
-      "matchText": "Fatima Masumeh"
-    },
-    {
-      "eventId": "evt-qom-seminary",
-      "matchText": "Qom hawza"
-    },
-    {
-      "eventId": "evt-majlisi-shia-orthodoxy",
-      "matchText": "Muhammad Baqir Majlisi"
-    },
-    {
-      "eventId": "evt-bihar-al-anwar",
-      "matchText": "Bihar al-Anwar"
-    }
+    {"eventId":"evt-mir-damad","matchText":"Mir Damad"},
+    {"eventId":"evt-sheikh-bahai","matchText":"Sheikh Bahai"},
+    {"eventId":"evt-mulla-sadra","matchText":"Mulla Sadra"},
+    {"eventId":"evt-mujtahid-system","matchText":"mujtahid"},
+    {"eventId":"evt-akhbari-usuli-debate","matchText":"Akhbari-Usuli"},
+    {"eventId":"evt-imam-reza-shrine","matchText":"Imam Reza"},
+    {"eventId":"evt-fatima-masumeh-shrine","matchText":"Fatima Masumeh"},
+    {"eventId":"evt-qom-seminary","matchText":"Qom hawza"},
+    {"eventId":"evt-majlisi-shia-orthodoxy","matchText":"Muhammad Baqir Majlisi"},
+    {"eventId":"evt-bihar-al-anwar","matchText":"Bihar al-Anwar"}
   ],
   "6": [
-    {
-      "eventId": "evt-silk-trade-expansion",
-      "matchText": "royal monopoly"
-    },
-    {
-      "eventId": "evt-armenian-resettlement",
-      "matchText": "New Julfa"
-    },
-    {
-      "eventId": "evt-dutch-east-india-company",
-      "matchText": "English East India Company"
-    },
-    {
-      "eventId": "evt-recapture-hormuz",
-      "matchText": "Hormuz"
-    },
-    {
-      "eventId": "evt-ardabil-carpet",
-      "matchText": "Ardabil Carpet"
-    },
-    {
-      "eventId": "evt-persian-carpet-trade",
-      "matchText": "royal carpet workshops"
-    },
-    {
-      "eventId": "evt-reza-abbasi",
-      "matchText": "Reza Abbasi"
-    },
-    {
-      "eventId": "evt-safavid-mughal-relations",
-      "matchText": "Safavid-Mughal"
-    },
-    {
-      "eventId": "evt-persian-poetry-safavid",
-      "matchText": "Sabk-e Hindi"
-    },
-    {
-      "eventId": "evt-saib-tabrizi",
-      "matchText": "Saib Tabrizi"
-    }
+    {"eventId":"evt-silk-trade-expansion","matchText":"royal monopoly"},
+    {"eventId":"evt-armenian-resettlement","matchText":"New Julfa"},
+    {"eventId":"evt-dutch-east-india-company","matchText":"English East India Company"},
+    {"eventId":"evt-recapture-hormuz","matchText":"Hormuz"},
+    {"eventId":"evt-ardabil-carpet","matchText":"Ardabil Carpet"},
+    {"eventId":"evt-persian-carpet-trade","matchText":"royal carpet workshops"},
+    {"eventId":"evt-reza-abbasi","matchText":"Reza Abbasi"},
+    {"eventId":"evt-safavid-mughal-relations","matchText":"Safavid-Mughal"},
+    {"eventId":"evt-persian-poetry-safavid","matchText":"Sabk-e Hindi"},
+    {"eventId":"evt-saib-tabrizi","matchText":"Saib Tabrizi"}
   ],
   "7": [
-    {
-      "eventId": "evt-safi-i",
-      "matchText": "Safi I"
-    },
-    {
-      "eventId": "evt-loss-of-baghdad",
-      "matchText": "forty-day siege"
-    },
-    {
-      "eventId": "evt-treaty-zuhab",
-      "matchText": "Treaty of Zuhab"
-    },
-    {
-      "eventId": "evt-abbas-ii",
-      "matchText": "Abbas II"
-    },
-    {
-      "eventId": "evt-kandahar-campaigns",
-      "matchText": "Kandahar"
-    },
-    {
-      "eventId": "evt-khwaju-bridge",
-      "matchText": "Khwaju Bridge"
-    },
-    {
-      "eventId": "evt-chehel-sotoun",
-      "matchText": "Chehel Sotoun"
-    },
-    {
-      "eventId": "evt-soleyman-i",
-      "matchText": "Soleyman I"
-    },
-    {
-      "eventId": "evt-shah-sultan-husayn",
-      "matchText": "Sultan Husayn"
-    },
-    {
-      "eventId": "evt-madrasa-chahar-bagh",
-      "matchText": "Madrasa-ye Chahar Bagh"
-    },
-    {
-      "eventId": "evt-afghan-revolt",
-      "matchText": "Mir Wais Hotak"
-    },
-    {
-      "eventId": "evt-battle-gulnabad",
-      "matchText": "Gulnabad"
-    }
+    {"eventId":"evt-safi-i","matchText":"Safi I"},
+    {"eventId":"evt-loss-of-baghdad","matchText":"forty-day siege"},
+    {"eventId":"evt-treaty-zuhab","matchText":"Treaty of Zuhab"},
+    {"eventId":"evt-abbas-ii","matchText":"Abbas II"},
+    {"eventId":"evt-kandahar-campaigns","matchText":"Kandahar"},
+    {"eventId":"evt-khwaju-bridge","matchText":"Khwaju Bridge"},
+    {"eventId":"evt-chehel-sotoun","matchText":"Chehel Sotoun"},
+    {"eventId":"evt-soleyman-i","matchText":"Soleyman I"},
+    {"eventId":"evt-shah-sultan-husayn","matchText":"Sultan Husayn"},
+    {"eventId":"evt-madrasa-chahar-bagh","matchText":"Madrasa-ye Chahar Bagh"},
+    {"eventId":"evt-afghan-revolt","matchText":"Mir Wais Hotak"},
+    {"eventId":"evt-battle-gulnabad","matchText":"Gulnabad"},
+    {"eventId":"evt-iraqi-arab-conquest","matchText":"captured Baghdad"},
+    {"eventId":"evt-ghulam-army","matchText":"ghulam army"},
+    {"eventId":"evt-recovery-baghdad","matchText":"captured Baghdad in 1623"}
   ],
   "8": [
-    {
-      "eventId": "evt-mir-mahmud-invasion",
-      "matchText": "Mir Mahmud Hotak"
-    },
-    {
-      "eventId": "evt-afghan-siege-isfahan",
-      "matchText": "siege lasted six and a half months"
-    },
-    {
-      "eventId": "evt-russian-ottoman-partition",
-      "matchText": "Treaty of Constantinople"
-    },
-    {
-      "eventId": "evt-nader-expels-afghans",
-      "matchText": "Battle of Damghan"
-    },
-    {
-      "eventId": "evt-nader-shah-rise",
-      "matchText": "Nader Shah Afshar"
-    },
-    {
-      "eventId": "evt-safavid-end",
-      "matchText": "formally deposed Abbas III"
-    }
+    {"eventId":"evt-mir-mahmud-invasion","matchText":"Mir Mahmud Hotak"},
+    {"eventId":"evt-afghan-siege-isfahan","matchText":"siege lasted six and a half months"},
+    {"eventId":"evt-russian-ottoman-partition","matchText":"Treaty of Constantinople"},
+    {"eventId":"evt-nader-expels-afghans","matchText":"Battle of Damghan"},
+    {"eventId":"evt-nader-shah-rise","matchText":"Nader Shah Afshar"},
+    {"eventId":"evt-safavid-end","matchText":"formally deposed Abbas III"}
   ]
 }
