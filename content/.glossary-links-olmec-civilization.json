@@ -1,198 +1,1122 @@
 {
   "1": [
-    {"term": "Tres Zapotes", "matchText": "Tres Zapotes", "wikiSlug": "Tres_Zapotes", "type": "place"},
-    {"term": "Veracruz", "matchText": "Veracruz", "wikiSlug": "Veracruz", "type": "place"},
-    {"term": "Gulf of Mexico", "matchText": "Gulf of Mexico", "wikiSlug": "Gulf_of_Mexico", "type": "place"},
-    {"term": "Gulf Coast", "matchText": "Gulf Coast", "wikiSlug": "Gulf_Coast_of_Mexico", "type": "place"},
-    {"term": "Smithsonian Institution", "matchText": "Smithsonian Institution", "wikiSlug": "Smithsonian_Institution", "type": "concept"},
-    {"term": "basalt", "matchText": "basalt", "wikiSlug": "Basalt", "type": "concept"},
-    {"term": "Tabasco", "matchText": "Tabasco", "wikiSlug": "Tabasco", "type": "place"},
-    {"term": "Sierra de los Tuxtlas", "matchText": "Sierra de los Tuxtlas", "wikiSlug": "Sierra_de_los_Tuxtlas", "type": "place"},
-    {"term": "Coatzacoalcos River", "matchText": "Coatzacoalcos", "wikiSlug": "Coatzacoalcos_River", "type": "place"},
-    {"term": "Castilla elastica", "matchText": "Castilla elastica", "wikiSlug": "Castilla_elastica", "type": "concept"},
-    {"term": "latex", "matchText": "latex", "wikiSlug": "Latex", "type": "concept"},
-    {"term": "Charles Goodyear", "matchText": "Charles Goodyear", "wikiSlug": "Charles_Goodyear", "type": "people"},
-    {"term": "teosinte", "matchText": "teosinte", "wikiSlug": "Teosinte", "type": "concept"},
-    {"term": "milpa", "matchText": "milpa", "wikiSlug": "Milpa", "type": "concept"},
-    {"term": "Mesoamerica", "matchText": "Mesoamerica", "wikiSlug": "Mesoamerica", "type": "place"},
-    {"term": "Aztec", "matchText": "Aztecs", "wikiSlug": "Aztecs", "type": "concept"},
-    {"term": "Maya", "matchText": "Maya", "wikiSlug": "Maya_civilization", "type": "concept"},
-    {"term": "alluvial soil", "matchText": "alluvial soils", "wikiSlug": "Alluvium", "type": "concept"},
-    {"term": "Norte Chico", "matchText": "Norte Chico civilization of Peru", "wikiSlug": "Norte_Chico_civilization", "type": "concept"},
-    {"term": "Punjab", "matchText": "Punjab", "wikiSlug": "Punjab", "type": "place"},
-    {"term": "San Lorenzo", "matchText": "San Lorenzo", "wikiSlug": "San_Lorenzo_Tenochtitlán", "type": "place"},
-    {"term": "La Venta", "matchText": "La Venta", "wikiSlug": "La_Venta", "type": "place"},
-    {"term": "Western Hemisphere", "matchText": "Western Hemisphere", "wikiSlug": "Western_Hemisphere", "type": "place"}
+    {
+      "term": "Tres Zapotes",
+      "matchText": "Tres Zapotes",
+      "wikiSlug": "Tres_Zapotes",
+      "type": "place"
+    },
+    {
+      "term": "Veracruz",
+      "matchText": "Veracruz",
+      "wikiSlug": "Veracruz",
+      "type": "place"
+    },
+    {
+      "term": "Gulf of Mexico",
+      "matchText": "Gulf of Mexico",
+      "wikiSlug": "Gulf_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Gulf Coast",
+      "matchText": "Gulf Coast",
+      "wikiSlug": "Gulf_Coast_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Smithsonian Institution",
+      "matchText": "Smithsonian Institution",
+      "wikiSlug": "Smithsonian_Institution",
+      "type": "concept"
+    },
+    {
+      "term": "basalt",
+      "matchText": "basalt",
+      "wikiSlug": "Basalt",
+      "type": "concept"
+    },
+    {
+      "term": "Tabasco",
+      "matchText": "Tabasco",
+      "wikiSlug": "Tabasco",
+      "type": "place"
+    },
+    {
+      "term": "Sierra de los Tuxtlas",
+      "matchText": "Sierra de los Tuxtlas",
+      "wikiSlug": "Sierra_de_los_Tuxtlas",
+      "type": "place"
+    },
+    {
+      "term": "Coatzacoalcos River",
+      "matchText": "Coatzacoalcos",
+      "wikiSlug": "Coatzacoalcos_River",
+      "type": "place"
+    },
+    {
+      "term": "Castilla elastica",
+      "matchText": "Castilla elastica",
+      "wikiSlug": "Castilla_elastica",
+      "type": "concept"
+    },
+    {
+      "term": "latex",
+      "matchText": "latex",
+      "wikiSlug": "Latex",
+      "type": "concept"
+    },
+    {
+      "term": "Charles Goodyear",
+      "matchText": "Charles Goodyear",
+      "wikiSlug": "Charles_Goodyear",
+      "type": "people"
+    },
+    {
+      "term": "teosinte",
+      "matchText": "teosinte",
+      "wikiSlug": "Teosinte",
+      "type": "concept"
+    },
+    {
+      "term": "milpa",
+      "matchText": "milpa",
+      "wikiSlug": "Milpa",
+      "type": "concept"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Aztec",
+      "matchText": "Aztecs",
+      "wikiSlug": "Aztecs",
+      "type": "concept"
+    },
+    {
+      "term": "Maya",
+      "matchText": "Maya",
+      "wikiSlug": "Maya_civilization",
+      "type": "concept"
+    },
+    {
+      "term": "alluvial soil",
+      "matchText": "alluvial soils",
+      "wikiSlug": "Alluvium",
+      "type": "concept"
+    },
+    {
+      "term": "Norte Chico",
+      "matchText": "Norte Chico civilization of Peru",
+      "wikiSlug": "Norte_Chico_civilization",
+      "type": "concept"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "wikiSlug": "San_Lorenzo_Tenochtitlán",
+      "type": "place"
+    },
+    {
+      "term": "La Venta",
+      "matchText": "La Venta",
+      "wikiSlug": "La_Venta",
+      "type": "place"
+    },
+    {
+      "term": "Western Hemisphere",
+      "matchText": "Western Hemisphere",
+      "wikiSlug": "Western_Hemisphere",
+      "type": "place"
+    },
+    {
+      "term": "El Manatí",
+      "matchText": "El Manatí",
+      "wikiSlug": "El_Manatí",
+      "type": "place"
+    }
   ],
   "2": [
-    {"term": "Coatzacoalcos River", "matchText": "Coatzacoalcos River", "wikiSlug": "Coatzacoalcos_River", "type": "place"},
-    {"term": "Babylon", "matchText": "Babylon", "wikiSlug": "Babylon", "type": "place"},
-    {"term": "Thebes", "matchText": "Thebes", "wikiSlug": "Thebes,_Egypt", "type": "place"},
-    {"term": "Tuxtla Mountains", "matchText": "Tuxtla Mountains", "wikiSlug": "Sierra_de_los_Tuxtlas", "type": "place"},
-    {"term": "nahual", "matchText": "nahual", "wikiSlug": "Nagual", "type": "concept"},
-    {"term": "shaman", "matchText": "shaman", "wikiSlug": "Shamanism", "type": "concept"},
-    {"term": "obsidian", "matchText": "obsidian", "wikiSlug": "Obsidian", "type": "concept"},
-    {"term": "jade", "matchText": "jade figurines", "wikiSlug": "Jade_use_in_Mesoamerica", "type": "concept"},
-    {"term": "hallucinogenic substances", "matchText": "hallucinogenic substances", "wikiSlug": "Hallucinogen", "type": "concept"},
-    {"term": "Cerro Cintepec", "matchText": "Cerro Cintepec", "wikiSlug": "Sierra_de_los_Tuxtlas", "type": "place"},
-    {"term": "Khufu", "matchText": "Khufu", "wikiSlug": "Khufu", "type": "people"},
-    {"term": "Valley of the Kings", "matchText": "Valley of the Kings", "wikiSlug": "Valley_of_the_Kings", "type": "place"},
-    {"term": "hectare", "matchText": "hectares", "wikiSlug": "Hectare", "type": "concept"},
-    {"term": "draft animals", "matchText": "draft animals", "wikiSlug": "Working_animal", "type": "concept"},
-    {"term": "San Lorenzo", "matchText": "San Lorenzo", "wikiSlug": "San_Lorenzo_Tenochtitlán", "type": "place"},
-    {"term": "La Venta", "matchText": "La Venta", "wikiSlug": "La_Venta", "type": "place"},
-    {"term": "stingray spine", "matchText": "stingray spines", "wikiSlug": "Stingray", "type": "concept"},
-    {"term": "Mesoamerican archaeology", "matchText": "Mesoamerican archaeologists", "wikiSlug": "Mesoamerican_archaeology", "type": "concept"},
-    {"term": "Shang dynasty", "matchText": "Shang dynasty", "wikiSlug": "Shang_dynasty", "type": "concept"},
-    {"term": "New Kingdom", "matchText": "New Kingdom", "wikiSlug": "New_Kingdom_of_Egypt", "type": "concept"},
-    {"term": "Western Hemisphere", "matchText": "Western Hemisphere", "wikiSlug": "Western_Hemisphere", "type": "place"},
-    {"term": "pre-Columbian", "matchText": "pre-Columbian", "wikiSlug": "Pre-Columbian_era", "type": "concept"},
-    {"term": "underworld", "matchText": "underworld", "wikiSlug": "Underworld", "type": "concept"},
-    {"term": "Mesopotamia", "matchText": "Mesopotamia", "wikiSlug": "Mesopotamia", "type": "place"},
-    {"term": "basalt", "matchText": "basalt", "wikiSlug": "Basalt", "type": "concept"}
+    {
+      "term": "Coatzacoalcos River",
+      "matchText": "Coatzacoalcos River",
+      "wikiSlug": "Coatzacoalcos_River",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Tuxtla Mountains",
+      "matchText": "Tuxtla Mountains",
+      "wikiSlug": "Sierra_de_los_Tuxtlas",
+      "type": "place"
+    },
+    {
+      "term": "nahual",
+      "matchText": "nahual",
+      "wikiSlug": "Nagual",
+      "type": "concept"
+    },
+    {
+      "term": "shaman",
+      "matchText": "shaman",
+      "wikiSlug": "Shamanism",
+      "type": "concept"
+    },
+    {
+      "term": "obsidian",
+      "matchText": "obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "jade",
+      "matchText": "jade figurines",
+      "wikiSlug": "Jade_use_in_Mesoamerica",
+      "type": "concept"
+    },
+    {
+      "term": "hallucinogenic substances",
+      "matchText": "hallucinogenic substances",
+      "wikiSlug": "Hallucinogen",
+      "type": "concept"
+    },
+    {
+      "term": "Cerro Cintepec",
+      "matchText": "Cerro Cintepec",
+      "wikiSlug": "Sierra_de_los_Tuxtlas",
+      "type": "place"
+    },
+    {
+      "term": "Khufu",
+      "matchText": "Khufu",
+      "wikiSlug": "Khufu",
+      "type": "people"
+    },
+    {
+      "term": "Valley of the Kings",
+      "matchText": "Valley of the Kings",
+      "wikiSlug": "Valley_of_the_Kings",
+      "type": "place"
+    },
+    {
+      "term": "hectare",
+      "matchText": "hectares",
+      "wikiSlug": "Hectare",
+      "type": "concept"
+    },
+    {
+      "term": "draft animals",
+      "matchText": "draft animals",
+      "wikiSlug": "Working_animal",
+      "type": "concept"
+    },
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "wikiSlug": "San_Lorenzo_Tenochtitlán",
+      "type": "place"
+    },
+    {
+      "term": "La Venta",
+      "matchText": "La Venta",
+      "wikiSlug": "La_Venta",
+      "type": "place"
+    },
+    {
+      "term": "stingray spine",
+      "matchText": "stingray spines",
+      "wikiSlug": "Stingray",
+      "type": "concept"
+    },
+    {
+      "term": "Mesoamerican archaeology",
+      "matchText": "Mesoamerican archaeologists",
+      "wikiSlug": "Mesoamerican_archaeology",
+      "type": "concept"
+    },
+    {
+      "term": "Shang dynasty",
+      "matchText": "Shang dynasty",
+      "wikiSlug": "Shang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "New Kingdom",
+      "matchText": "New Kingdom",
+      "wikiSlug": "New_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Western Hemisphere",
+      "matchText": "Western Hemisphere",
+      "wikiSlug": "Western_Hemisphere",
+      "type": "place"
+    },
+    {
+      "term": "pre-Columbian",
+      "matchText": "pre-Columbian",
+      "wikiSlug": "Pre-Columbian_era",
+      "type": "concept"
+    },
+    {
+      "term": "underworld",
+      "matchText": "underworld",
+      "wikiSlug": "Underworld",
+      "type": "concept"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "basalt",
+      "matchText": "basalt",
+      "wikiSlug": "Basalt",
+      "type": "concept"
+    }
   ],
   "3": [
-    {"term": "San Lorenzo", "matchText": "San Lorenzo", "wikiSlug": "San_Lorenzo_Tenochtitlán", "type": "place"},
-    {"term": "La Venta", "matchText": "La Venta", "wikiSlug": "La_Venta", "type": "place"},
-    {"term": "basalt", "matchText": "basalt", "wikiSlug": "Basalt", "type": "concept"},
-    {"term": "Tuxtla Mountains", "matchText": "Tuxtla Mountains", "wikiSlug": "Sierra_de_los_Tuxtlas", "type": "place"},
-    {"term": "Egyptian royal sculpture", "matchText": "Egyptian royal sculpture", "wikiSlug": "Art_of_ancient_Egypt", "type": "concept"},
-    {"term": "pharaoh", "matchText": "pharaohs", "wikiSlug": "Pharaoh", "type": "concept"},
-    {"term": "were-jaguar", "matchText": "were-jaguar", "wikiSlug": "Olmec_religion", "type": "concept"},
-    {"term": "limestone", "matchText": "limestone", "wikiSlug": "Limestone", "type": "concept"},
-    {"term": "granite", "matchText": "granite", "wikiSlug": "Granite", "type": "concept"},
-    {"term": "Nile", "matchText": "the Nile", "wikiSlug": "Nile", "type": "place"},
-    {"term": "copper", "matchText": "copper", "wikiSlug": "Copper", "type": "concept"},
-    {"term": "pyramids of Egypt", "matchText": "Egyptian pyramids", "wikiSlug": "Egyptian_pyramids", "type": "concept"},
-    {"term": "person-days", "matchText": "person-days", "wikiSlug": "Person-hour", "type": "concept"},
-    {"term": "Cerro Cintepec", "matchText": "Cerro Cintepec", "wikiSlug": "Sierra_de_los_Tuxtlas", "type": "place"},
-    {"term": "La Cobata", "matchText": "La Cobata", "wikiSlug": "Olmec_colossal_heads", "type": "place"},
-    {"term": "obsidian", "matchText": "obsidian", "wikiSlug": "Obsidian", "type": "concept"},
-    {"term": "pre-Columbian", "matchText": "pre-Columbian", "wikiSlug": "Pre-Columbian_era", "type": "concept"},
-    {"term": "draft animals", "matchText": "draft animals", "wikiSlug": "Working_animal", "type": "concept"},
-    {"term": "Maya pyramids", "matchText": "Maya pyramids", "wikiSlug": "Mesoamerican_pyramids", "type": "concept"},
-    {"term": "ancestor spirit", "matchText": "ancestor spirit", "wikiSlug": "Ancestor_worship", "type": "concept"},
-    {"term": "jade", "matchText": "jade", "wikiSlug": "Jade_use_in_Mesoamerica", "type": "concept"},
-    {"term": "abrasive", "matchText": "abrasive sand", "wikiSlug": "Abrasive", "type": "concept"}
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "wikiSlug": "San_Lorenzo_Tenochtitlán",
+      "type": "place"
+    },
+    {
+      "term": "La Venta",
+      "matchText": "La Venta",
+      "wikiSlug": "La_Venta",
+      "type": "place"
+    },
+    {
+      "term": "basalt",
+      "matchText": "basalt",
+      "wikiSlug": "Basalt",
+      "type": "concept"
+    },
+    {
+      "term": "Tuxtla Mountains",
+      "matchText": "Tuxtla Mountains",
+      "wikiSlug": "Sierra_de_los_Tuxtlas",
+      "type": "place"
+    },
+    {
+      "term": "Egyptian royal sculpture",
+      "matchText": "Egyptian royal sculpture",
+      "wikiSlug": "Art_of_ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "pharaoh",
+      "matchText": "pharaohs",
+      "wikiSlug": "Pharaoh",
+      "type": "concept"
+    },
+    {
+      "term": "were-jaguar",
+      "matchText": "were-jaguar",
+      "wikiSlug": "Olmec_religion",
+      "type": "concept"
+    },
+    {
+      "term": "limestone",
+      "matchText": "limestone",
+      "wikiSlug": "Limestone",
+      "type": "concept"
+    },
+    {
+      "term": "granite",
+      "matchText": "granite",
+      "wikiSlug": "Granite",
+      "type": "concept"
+    },
+    {
+      "term": "Nile",
+      "matchText": "the Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "copper",
+      "matchText": "copper",
+      "wikiSlug": "Copper",
+      "type": "concept"
+    },
+    {
+      "term": "pyramids of Egypt",
+      "matchText": "Egyptian pyramids",
+      "wikiSlug": "Egyptian_pyramids",
+      "type": "concept"
+    },
+    {
+      "term": "person-days",
+      "matchText": "person-days",
+      "wikiSlug": "Person-hour",
+      "type": "concept"
+    },
+    {
+      "term": "Cerro Cintepec",
+      "matchText": "Cerro Cintepec",
+      "wikiSlug": "Sierra_de_los_Tuxtlas",
+      "type": "place"
+    },
+    {
+      "term": "La Cobata",
+      "matchText": "La Cobata",
+      "wikiSlug": "Olmec_colossal_heads",
+      "type": "place"
+    },
+    {
+      "term": "obsidian",
+      "matchText": "obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "pre-Columbian",
+      "matchText": "pre-Columbian",
+      "wikiSlug": "Pre-Columbian_era",
+      "type": "concept"
+    },
+    {
+      "term": "draft animals",
+      "matchText": "draft animals",
+      "wikiSlug": "Working_animal",
+      "type": "concept"
+    },
+    {
+      "term": "Maya pyramids",
+      "matchText": "Maya pyramids",
+      "wikiSlug": "Mesoamerican_pyramids",
+      "type": "concept"
+    },
+    {
+      "term": "ancestor spirit",
+      "matchText": "ancestor spirit",
+      "wikiSlug": "Ancestor_worship",
+      "type": "concept"
+    },
+    {
+      "term": "jade",
+      "matchText": "jade",
+      "wikiSlug": "Jade_use_in_Mesoamerica",
+      "type": "concept"
+    },
+    {
+      "term": "abrasive",
+      "matchText": "abrasive sand",
+      "wikiSlug": "Abrasive",
+      "type": "concept"
+    }
   ],
   "4": [
-    {"term": "jaguar", "matchText": "jaguar", "wikiSlug": "Jaguar", "type": "concept"},
-    {"term": "caiman", "matchText": "caiman", "wikiSlug": "Caiman", "type": "concept"},
-    {"term": "Quetzalcoatl", "matchText": "Quetzalcoatl", "wikiSlug": "Quetzalcoatl", "type": "concept"},
-    {"term": "Nahuatl", "matchText": "Nahuatl", "wikiSlug": "Nahuatl", "type": "concept"},
-    {"term": "Popol Vuh", "matchText": "Popol Vuh", "wikiSlug": "Popol_Vuh", "type": "concept"},
-    {"term": "Hero Twins", "matchText": "Hero Twins", "wikiSlug": "Maya_Hero_Twins", "type": "concept"},
-    {"term": "Guerrero", "matchText": "Guerrero", "wikiSlug": "Guerrero", "type": "place"},
-    {"term": "polychrome", "matchText": "polychrome", "wikiSlug": "Polychrome", "type": "concept"},
-    {"term": "stingray spine", "matchText": "stingray spines", "wikiSlug": "Stingray", "type": "concept"},
-    {"term": "obsidian blade", "matchText": "obsidian blades", "wikiSlug": "Obsidian", "type": "concept"},
-    {"term": "Castilla elastica", "matchText": "Castilla elastica", "wikiSlug": "Castilla_elastica", "type": "concept"},
-    {"term": "morning glory", "matchText": "morning glory vine", "wikiSlug": "Morning_glory", "type": "concept"},
-    {"term": "shamanic practice", "matchText": "shamanic practice", "wikiSlug": "Shamanism", "type": "concept"},
-    {"term": "oracle bones", "matchText": "oracle bones", "wikiSlug": "Oracle_bone", "type": "concept"},
-    {"term": "maize", "matchText": "maize", "wikiSlug": "Maize", "type": "concept"},
-    {"term": "La Venta", "matchText": "La Venta", "wikiSlug": "La_Venta", "type": "place"},
-    {"term": "San Lorenzo", "matchText": "San Lorenzo", "wikiSlug": "San_Lorenzo_Tenochtitlán", "type": "place"},
-    {"term": "Spanish conquest", "matchText": "Spanish conquest", "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire", "type": "concept"},
-    {"term": "Mesoamerican cosmology", "matchText": "Mesoamerican cosmology", "wikiSlug": "Mesoamerican_cosmology", "type": "concept"},
-    {"term": "Maya art", "matchText": "Maya art", "wikiSlug": "Maya_art", "type": "concept"}
+    {
+      "term": "jaguar",
+      "matchText": "jaguar",
+      "wikiSlug": "Jaguar",
+      "type": "concept"
+    },
+    {
+      "term": "caiman",
+      "matchText": "caiman",
+      "wikiSlug": "Caiman",
+      "type": "concept"
+    },
+    {
+      "term": "Quetzalcoatl",
+      "matchText": "Quetzalcoatl",
+      "wikiSlug": "Quetzalcoatl",
+      "type": "concept"
+    },
+    {
+      "term": "Nahuatl",
+      "matchText": "Nahuatl",
+      "wikiSlug": "Nahuatl",
+      "type": "concept"
+    },
+    {
+      "term": "Popol Vuh",
+      "matchText": "Popol Vuh",
+      "wikiSlug": "Popol_Vuh",
+      "type": "concept"
+    },
+    {
+      "term": "Hero Twins",
+      "matchText": "Hero Twins",
+      "wikiSlug": "Maya_Hero_Twins",
+      "type": "concept"
+    },
+    {
+      "term": "Guerrero",
+      "matchText": "Guerrero",
+      "wikiSlug": "Guerrero",
+      "type": "place"
+    },
+    {
+      "term": "polychrome",
+      "matchText": "polychrome",
+      "wikiSlug": "Polychrome",
+      "type": "concept"
+    },
+    {
+      "term": "stingray spine",
+      "matchText": "stingray spines",
+      "wikiSlug": "Stingray",
+      "type": "concept"
+    },
+    {
+      "term": "obsidian blade",
+      "matchText": "obsidian blades",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "Castilla elastica",
+      "matchText": "Castilla elastica",
+      "wikiSlug": "Castilla_elastica",
+      "type": "concept"
+    },
+    {
+      "term": "morning glory",
+      "matchText": "morning glory vine",
+      "wikiSlug": "Morning_glory",
+      "type": "concept"
+    },
+    {
+      "term": "shamanic practice",
+      "matchText": "shamanic practice",
+      "wikiSlug": "Shamanism",
+      "type": "concept"
+    },
+    {
+      "term": "oracle bones",
+      "matchText": "oracle bones",
+      "wikiSlug": "Oracle_bone",
+      "type": "concept"
+    },
+    {
+      "term": "maize",
+      "matchText": "maize",
+      "wikiSlug": "Maize",
+      "type": "concept"
+    },
+    {
+      "term": "La Venta",
+      "matchText": "La Venta",
+      "wikiSlug": "La_Venta",
+      "type": "place"
+    },
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "wikiSlug": "San_Lorenzo_Tenochtitlán",
+      "type": "place"
+    },
+    {
+      "term": "Spanish conquest",
+      "matchText": "Spanish conquest",
+      "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mesoamerican cosmology",
+      "matchText": "Mesoamerican cosmology",
+      "wikiSlug": "Mesoamerican_cosmology",
+      "type": "concept"
+    },
+    {
+      "term": "Maya art",
+      "matchText": "Maya art",
+      "wikiSlug": "Maya_art",
+      "type": "concept"
+    }
   ],
   "5": [
-    {"term": "jade", "matchText": "Jade", "wikiSlug": "Jade_use_in_Mesoamerica", "type": "concept"},
-    {"term": "Motagua Valley", "matchText": "Motagua Valley", "wikiSlug": "Motagua_River", "type": "place"},
-    {"term": "Guatemala", "matchText": "Guatemala", "wikiSlug": "Guatemala", "type": "place"},
-    {"term": "obsidian", "matchText": "Obsidian", "wikiSlug": "Obsidian", "type": "concept"},
-    {"term": "Puebla", "matchText": "Puebla", "wikiSlug": "Puebla", "type": "place"},
-    {"term": "Hidalgo", "matchText": "Hidalgo", "wikiSlug": "Hidalgo_(state)", "type": "place"},
-    {"term": "Jalisco", "matchText": "Jalisco", "wikiSlug": "Jalisco", "type": "place"},
-    {"term": "X-ray fluorescence", "matchText": "X-ray fluorescence", "wikiSlug": "X-ray_fluorescence", "type": "concept"},
-    {"term": "magnetite", "matchText": "magnetite", "wikiSlug": "Magnetite", "type": "concept"},
-    {"term": "Valley of Oaxaca", "matchText": "Valley of Oaxaca", "wikiSlug": "Central_Valleys_of_Oaxaca", "type": "place"},
-    {"term": "Theobroma cacao", "matchText": "Theobroma cacao", "wikiSlug": "Theobroma_cacao", "type": "concept"},
-    {"term": "theobromine", "matchText": "theobromine", "wikiSlug": "Theobromine", "type": "concept"},
-    {"term": "Tlatilco", "matchText": "Tlatilco", "wikiSlug": "Tlatilco", "type": "place"},
-    {"term": "Valley of Mexico", "matchText": "Valley of Mexico", "wikiSlug": "Valley_of_Mexico", "type": "place"},
-    {"term": "Chalcatzingo", "matchText": "Chalcatzingo", "wikiSlug": "Chalcatzingo", "type": "place"},
-    {"term": "Morelos", "matchText": "Morelos", "wikiSlug": "Morelos", "type": "place"},
-    {"term": "celts", "matchText": "celts", "wikiSlug": "Celt_(tool)", "type": "concept"},
-    {"term": "Costa Rica", "matchText": "Costa Rica", "wikiSlug": "Costa_Rica", "type": "place"},
-    {"term": "Guerrero", "matchText": "Guerrero", "wikiSlug": "Guerrero", "type": "place"},
-    {"term": "pectoral", "matchText": "pectorals", "wikiSlug": "Pectoral_(ancient_jewelry)", "type": "concept"},
-    {"term": "cacao beans as currency", "matchText": "cacao beans were used as currency", "wikiSlug": "Cacao_bean#Currency", "type": "concept"}
+    {
+      "term": "jade",
+      "matchText": "Jade",
+      "wikiSlug": "Jade_use_in_Mesoamerica",
+      "type": "concept"
+    },
+    {
+      "term": "Motagua Valley",
+      "matchText": "Motagua Valley",
+      "wikiSlug": "Motagua_River",
+      "type": "place"
+    },
+    {
+      "term": "Guatemala",
+      "matchText": "Guatemala",
+      "wikiSlug": "Guatemala",
+      "type": "place"
+    },
+    {
+      "term": "obsidian",
+      "matchText": "Obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "Puebla",
+      "matchText": "Puebla",
+      "wikiSlug": "Puebla",
+      "type": "place"
+    },
+    {
+      "term": "Hidalgo",
+      "matchText": "Hidalgo",
+      "wikiSlug": "Hidalgo_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Jalisco",
+      "matchText": "Jalisco",
+      "wikiSlug": "Jalisco",
+      "type": "place"
+    },
+    {
+      "term": "X-ray fluorescence",
+      "matchText": "X-ray fluorescence",
+      "wikiSlug": "X-ray_fluorescence",
+      "type": "concept"
+    },
+    {
+      "term": "magnetite",
+      "matchText": "magnetite",
+      "wikiSlug": "Magnetite",
+      "type": "concept"
+    },
+    {
+      "term": "Valley of Oaxaca",
+      "matchText": "Valley of Oaxaca",
+      "wikiSlug": "Central_Valleys_of_Oaxaca",
+      "type": "place"
+    },
+    {
+      "term": "Theobroma cacao",
+      "matchText": "Theobroma cacao",
+      "wikiSlug": "Theobroma_cacao",
+      "type": "concept"
+    },
+    {
+      "term": "theobromine",
+      "matchText": "theobromine",
+      "wikiSlug": "Theobromine",
+      "type": "concept"
+    },
+    {
+      "term": "Tlatilco",
+      "matchText": "Tlatilco",
+      "wikiSlug": "Tlatilco",
+      "type": "place"
+    },
+    {
+      "term": "Valley of Mexico",
+      "matchText": "Valley of Mexico",
+      "wikiSlug": "Valley_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Chalcatzingo",
+      "matchText": "Chalcatzingo",
+      "wikiSlug": "Chalcatzingo",
+      "type": "place"
+    },
+    {
+      "term": "Morelos",
+      "matchText": "Morelos",
+      "wikiSlug": "Morelos",
+      "type": "place"
+    },
+    {
+      "term": "celts",
+      "matchText": "celts",
+      "wikiSlug": "Celt_(tool)",
+      "type": "concept"
+    },
+    {
+      "term": "Costa Rica",
+      "matchText": "Costa Rica",
+      "wikiSlug": "Costa_Rica",
+      "type": "place"
+    },
+    {
+      "term": "Guerrero",
+      "matchText": "Guerrero",
+      "wikiSlug": "Guerrero",
+      "type": "place"
+    },
+    {
+      "term": "pectoral",
+      "matchText": "pectorals",
+      "wikiSlug": "Pectoral_(ancient_jewelry)",
+      "type": "concept"
+    },
+    {
+      "term": "cacao beans as currency",
+      "matchText": "cacao beans were used as currency",
+      "wikiSlug": "Cacao_bean#Currency",
+      "type": "concept"
+    }
   ],
   "6": [
-    {"term": "La Venta", "matchText": "La Venta", "wikiSlug": "La_Venta", "type": "place"},
-    {"term": "mangrove", "matchText": "mangrove marshes", "wikiSlug": "Mangrove", "type": "concept"},
-    {"term": "Tonalá basin", "matchText": "Tonalá basin", "wikiSlug": "Tonalá_River_(Tabasco)", "type": "place"},
-    {"term": "serpentine", "matchText": "serpentine", "wikiSlug": "Serpentine_subgroup", "type": "concept"},
-    {"term": "Tuxtla Mountains", "matchText": "Tuxtla Mountains", "wikiSlug": "Sierra_de_los_Tuxtlas", "type": "place"},
-    {"term": "iron ore", "matchText": "iron-ore mirrors", "wikiSlug": "Iron_ore", "type": "concept"},
-    {"term": "jade", "matchText": "jade", "wikiSlug": "Jade_use_in_Mesoamerica", "type": "concept"},
-    {"term": "San Lorenzo", "matchText": "San Lorenzo", "wikiSlug": "San_Lorenzo_Tenochtitlán", "type": "place"},
-    {"term": "stelae", "matchText": "stelae", "wikiSlug": "Stele", "type": "concept"},
-    {"term": "Pleiades", "matchText": "Pleiades", "wikiSlug": "Pleiades", "type": "concept"},
-    {"term": "Great Pyramid of Giza", "matchText": "Great Pyramid of Khufu at Giza", "wikiSlug": "Great_Pyramid_of_Giza", "type": "place"},
-    {"term": "Tres Zapotes", "matchText": "Tres Zapotes", "wikiSlug": "Tres_Zapotes", "type": "place"},
-    {"term": "basalt columns", "matchText": "basalt columns", "wikiSlug": "Basalt", "type": "concept"},
-    {"term": "astronomical alignment", "matchText": "astronomical alignment", "wikiSlug": "Archaeoastronomy", "type": "concept"},
-    {"term": "Long Count calendar", "matchText": "Long Count calendar", "wikiSlug": "Mesoamerican_Long_Count_calendar", "type": "concept"},
-    {"term": "basalt", "matchText": "basalt", "wikiSlug": "Basalt", "type": "concept"},
-    {"term": "cardinal directions", "matchText": "cardinal", "wikiSlug": "Cardinal_direction", "type": "concept"},
-    {"term": "Guatemala", "matchText": "Guatemala", "wikiSlug": "Guatemala", "type": "place"},
-    {"term": "Maya", "matchText": "Maya", "wikiSlug": "Maya_civilization", "type": "concept"},
-    {"term": "underworld", "matchText": "underworld", "wikiSlug": "Underworld", "type": "concept"},
-    {"term": "solstice", "matchText": "solstices", "wikiSlug": "Solstice", "type": "concept"},
-    {"term": "conical mound", "matchText": "conical mound", "wikiSlug": "Pyramid", "type": "concept"},
-    {"term": "hectares", "matchText": "hectares", "wikiSlug": "Hectare", "type": "concept"}
+    {
+      "term": "La Venta",
+      "matchText": "La Venta",
+      "wikiSlug": "La_Venta",
+      "type": "place"
+    },
+    {
+      "term": "mangrove",
+      "matchText": "mangrove marshes",
+      "wikiSlug": "Mangrove",
+      "type": "concept"
+    },
+    {
+      "term": "Tonalá basin",
+      "matchText": "Tonalá basin",
+      "wikiSlug": "Tonalá_River_(Tabasco)",
+      "type": "place"
+    },
+    {
+      "term": "serpentine",
+      "matchText": "serpentine",
+      "wikiSlug": "Serpentine_subgroup",
+      "type": "concept"
+    },
+    {
+      "term": "Tuxtla Mountains",
+      "matchText": "Tuxtla Mountains",
+      "wikiSlug": "Sierra_de_los_Tuxtlas",
+      "type": "place"
+    },
+    {
+      "term": "iron ore",
+      "matchText": "iron-ore mirrors",
+      "wikiSlug": "Iron_ore",
+      "type": "concept"
+    },
+    {
+      "term": "jade",
+      "matchText": "jade",
+      "wikiSlug": "Jade_use_in_Mesoamerica",
+      "type": "concept"
+    },
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "wikiSlug": "San_Lorenzo_Tenochtitlán",
+      "type": "place"
+    },
+    {
+      "term": "stelae",
+      "matchText": "stelae",
+      "wikiSlug": "Stele",
+      "type": "concept"
+    },
+    {
+      "term": "Pleiades",
+      "matchText": "Pleiades",
+      "wikiSlug": "Pleiades",
+      "type": "concept"
+    },
+    {
+      "term": "Great Pyramid of Giza",
+      "matchText": "Great Pyramid of Khufu at Giza",
+      "wikiSlug": "Great_Pyramid_of_Giza",
+      "type": "place"
+    },
+    {
+      "term": "Tres Zapotes",
+      "matchText": "Tres Zapotes",
+      "wikiSlug": "Tres_Zapotes",
+      "type": "place"
+    },
+    {
+      "term": "basalt columns",
+      "matchText": "basalt columns",
+      "wikiSlug": "Basalt",
+      "type": "concept"
+    },
+    {
+      "term": "astronomical alignment",
+      "matchText": "astronomical alignment",
+      "wikiSlug": "Archaeoastronomy",
+      "type": "concept"
+    },
+    {
+      "term": "Long Count calendar",
+      "matchText": "Long Count calendar",
+      "wikiSlug": "Mesoamerican_Long_Count_calendar",
+      "type": "concept"
+    },
+    {
+      "term": "basalt",
+      "matchText": "basalt",
+      "wikiSlug": "Basalt",
+      "type": "concept"
+    },
+    {
+      "term": "cardinal directions",
+      "matchText": "cardinal",
+      "wikiSlug": "Cardinal_direction",
+      "type": "concept"
+    },
+    {
+      "term": "Guatemala",
+      "matchText": "Guatemala",
+      "wikiSlug": "Guatemala",
+      "type": "place"
+    },
+    {
+      "term": "Maya",
+      "matchText": "Maya",
+      "wikiSlug": "Maya_civilization",
+      "type": "concept"
+    },
+    {
+      "term": "underworld",
+      "matchText": "underworld",
+      "wikiSlug": "Underworld",
+      "type": "concept"
+    },
+    {
+      "term": "solstice",
+      "matchText": "solstices",
+      "wikiSlug": "Solstice",
+      "type": "concept"
+    },
+    {
+      "term": "conical mound",
+      "matchText": "conical mound",
+      "wikiSlug": "Pyramid",
+      "type": "concept"
+    },
+    {
+      "term": "hectares",
+      "matchText": "hectares",
+      "wikiSlug": "Hectare",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "Cascajal", "matchText": "Cascajal", "wikiSlug": "Cascajal_Block", "type": "place"},
-    {"term": "serpentine", "matchText": "serpentine", "wikiSlug": "Serpentine_subgroup", "type": "concept"},
-    {"term": "San Lorenzo", "matchText": "San Lorenzo", "wikiSlug": "San_Lorenzo_Tenochtitlán", "type": "place"},
-    {"term": "proto-cuneiform", "matchText": "proto-cuneiform", "wikiSlug": "Proto-cuneiform", "type": "concept"},
-    {"term": "Egyptian hieroglyphs", "matchText": "Egyptian hieroglyphs", "wikiSlug": "Egyptian_hieroglyphs", "type": "concept"},
-    {"term": "Indus Valley script", "matchText": "Indus Valley script", "wikiSlug": "Indus_script", "type": "concept"},
-    {"term": "oracle bone script", "matchText": "oracle bone script", "wikiSlug": "Oracle_bone_script", "type": "concept"},
-    {"term": "Monte Alban", "matchText": "Monte Albán", "wikiSlug": "Monte_Albán", "type": "place"},
-    {"term": "Maya script", "matchText": "Maya script", "wikiSlug": "Maya_script", "type": "concept"},
-    {"term": "Tonalpohualli", "matchText": "Tonalpohualli", "wikiSlug": "Tonalpohualli", "type": "concept"},
-    {"term": "Calendar Round", "matchText": "Calendar Round", "wikiSlug": "Calendar_round", "type": "concept"},
-    {"term": "Tehuantepec", "matchText": "Tehuantepec", "wikiSlug": "Isthmus_of_Tehuantepec", "type": "place"},
-    {"term": "positional number system", "matchText": "positional number system", "wikiSlug": "Positional_notation", "type": "concept"},
-    {"term": "Babylonians", "matchText": "Babylonians", "wikiSlug": "Babylonian_mathematics", "type": "concept"},
-    {"term": "Roman numerals", "matchText": "Roman numerals", "wikiSlug": "Roman_numerals", "type": "concept"},
-    {"term": "Tres Zapotes", "matchText": "Tres Zapotes", "wikiSlug": "Tres_Zapotes", "type": "place"},
-    {"term": "Zapotec", "matchText": "Zapotec", "wikiSlug": "Zapotec_civilization", "type": "concept"},
-    {"term": "cuneiform", "matchText": "cuneiform", "wikiSlug": "Cuneiform", "type": "concept"},
-    {"term": "Stela C", "matchText": "Stela C", "wikiSlug": "Tres_Zapotes", "type": "concept"},
-    {"term": "baktun", "matchText": "baktun", "wikiSlug": "Maya_calendar", "type": "concept"},
-    {"term": "katun", "matchText": "katun", "wikiSlug": "Maya_calendar", "type": "concept"}
+    {
+      "term": "Cascajal",
+      "matchText": "Cascajal",
+      "wikiSlug": "Cascajal_Block",
+      "type": "place"
+    },
+    {
+      "term": "serpentine",
+      "matchText": "serpentine",
+      "wikiSlug": "Serpentine_subgroup",
+      "type": "concept"
+    },
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "wikiSlug": "San_Lorenzo_Tenochtitlán",
+      "type": "place"
+    },
+    {
+      "term": "proto-cuneiform",
+      "matchText": "proto-cuneiform",
+      "wikiSlug": "Proto-cuneiform",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptian hieroglyphs",
+      "matchText": "Egyptian hieroglyphs",
+      "wikiSlug": "Egyptian_hieroglyphs",
+      "type": "concept"
+    },
+    {
+      "term": "Indus Valley script",
+      "matchText": "Indus Valley script",
+      "wikiSlug": "Indus_script",
+      "type": "concept"
+    },
+    {
+      "term": "oracle bone script",
+      "matchText": "oracle bone script",
+      "wikiSlug": "Oracle_bone_script",
+      "type": "concept"
+    },
+    {
+      "term": "Monte Alban",
+      "matchText": "Monte Albán",
+      "wikiSlug": "Monte_Albán",
+      "type": "place"
+    },
+    {
+      "term": "Maya script",
+      "matchText": "Maya script",
+      "wikiSlug": "Maya_script",
+      "type": "concept"
+    },
+    {
+      "term": "Tonalpohualli",
+      "matchText": "Tonalpohualli",
+      "wikiSlug": "Tonalpohualli",
+      "type": "concept"
+    },
+    {
+      "term": "Calendar Round",
+      "matchText": "Calendar Round",
+      "wikiSlug": "Calendar_round",
+      "type": "concept"
+    },
+    {
+      "term": "Tehuantepec",
+      "matchText": "Tehuantepec",
+      "wikiSlug": "Isthmus_of_Tehuantepec",
+      "type": "place"
+    },
+    {
+      "term": "positional number system",
+      "matchText": "positional number system",
+      "wikiSlug": "Positional_notation",
+      "type": "concept"
+    },
+    {
+      "term": "Babylonians",
+      "matchText": "Babylonians",
+      "wikiSlug": "Babylonian_mathematics",
+      "type": "concept"
+    },
+    {
+      "term": "Roman numerals",
+      "matchText": "Roman numerals",
+      "wikiSlug": "Roman_numerals",
+      "type": "concept"
+    },
+    {
+      "term": "Tres Zapotes",
+      "matchText": "Tres Zapotes",
+      "wikiSlug": "Tres_Zapotes",
+      "type": "place"
+    },
+    {
+      "term": "Zapotec",
+      "matchText": "Zapotec",
+      "wikiSlug": "Zapotec_civilization",
+      "type": "concept"
+    },
+    {
+      "term": "cuneiform",
+      "matchText": "cuneiform",
+      "wikiSlug": "Cuneiform",
+      "type": "concept"
+    },
+    {
+      "term": "Stela C",
+      "matchText": "Stela C",
+      "wikiSlug": "Tres_Zapotes",
+      "type": "concept"
+    },
+    {
+      "term": "baktun",
+      "matchText": "baktun",
+      "wikiSlug": "Maya_calendar",
+      "type": "concept"
+    },
+    {
+      "term": "katun",
+      "matchText": "katun",
+      "wikiSlug": "Maya_calendar",
+      "type": "concept"
+    }
   ],
   "8": [
-    {"term": "Tres Zapotes", "matchText": "Tres Zapotes", "wikiSlug": "Tres_Zapotes", "type": "place"},
-    {"term": "Tuxtla Mountains", "matchText": "Tuxtla Mountains", "wikiSlug": "Sierra_de_los_Tuxtlas", "type": "place"},
-    {"term": "Sylvanus Morley", "matchText": "Sylvanus Morley", "wikiSlug": "Sylvanus_Morley", "type": "people"},
-    {"term": "Mixe-Zoquean", "matchText": "Mixe-Zoquean", "wikiSlug": "Mixe–Zoquean_languages", "type": "concept"},
-    {"term": "Cerro de las Mesas", "matchText": "Cerro de las Mesas", "wikiSlug": "Cerro_de_las_Mesas", "type": "place"},
-    {"term": "Monte Alban", "matchText": "Monte Albán", "wikiSlug": "Monte_Albán", "type": "place"},
-    {"term": "Teotihuacan", "matchText": "Teotihuacan", "wikiSlug": "Teotihuacan", "type": "place"},
-    {"term": "Alfonso Caso", "matchText": "Alfonso Caso", "wikiSlug": "Alfonso_Caso_y_Andrade", "type": "people"},
-    {"term": "Miguel Covarrubias", "matchText": "Miguel Covarrubias", "wikiSlug": "Miguel_Covarrubias", "type": "people"},
-    {"term": "Kent Flannery", "matchText": "Kent Flannery", "wikiSlug": "Kent_Flannery", "type": "people"},
-    {"term": "Joyce Marcus", "matchText": "Joyce Marcus", "wikiSlug": "Joyce_Marcus", "type": "people"},
-    {"term": "University of Michigan", "matchText": "University of Michigan", "wikiSlug": "University_of_Michigan", "type": "concept"},
-    {"term": "San Jose Mogote", "matchText": "San Jose Mogote", "wikiSlug": "San_José_Mogote", "type": "place"},
-    {"term": "Soconusco", "matchText": "Soconusco", "wikiSlug": "Soconusco", "type": "place"},
-    {"term": "Quetzalcoatl", "matchText": "Quetzalcoatl", "wikiSlug": "Quetzalcoatl", "type": "concept"},
-    {"term": "Toltec", "matchText": "Toltecs", "wikiSlug": "Toltec", "type": "concept"},
-    {"term": "Nahuatl", "matchText": "Nahuatl", "wikiSlug": "Nahuatl", "type": "concept"},
-    {"term": "Chiapas", "matchText": "Chiapas", "wikiSlug": "Chiapas", "type": "place"},
-    {"term": "Petén lowlands", "matchText": "Petén lowlands", "wikiSlug": "Petén_Department", "type": "place"},
-    {"term": "Aztec sun stone", "matchText": "Aztec sun stone", "wikiSlug": "Aztec_sun_stone", "type": "concept"},
-    {"term": "Oaxaca", "matchText": "Oaxaca", "wikiSlug": "Oaxaca", "type": "place"},
-    {"term": "Maya pyramids", "matchText": "Maya pyramids", "wikiSlug": "Mesoamerican_pyramids", "type": "concept"},
-    {"term": "Spanish conquest", "matchText": "Spanish conquest", "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire", "type": "concept"},
-    {"term": "Zapotec", "matchText": "Zapotecs", "wikiSlug": "Zapotec_civilization", "type": "concept"},
-    {"term": "Formative period", "matchText": "Formative periods", "wikiSlug": "Mesoamerican_chronology", "type": "concept"}
+    {
+      "term": "Tres Zapotes",
+      "matchText": "Tres Zapotes",
+      "wikiSlug": "Tres_Zapotes",
+      "type": "place"
+    },
+    {
+      "term": "Tuxtla Mountains",
+      "matchText": "Tuxtla Mountains",
+      "wikiSlug": "Sierra_de_los_Tuxtlas",
+      "type": "place"
+    },
+    {
+      "term": "Sylvanus Morley",
+      "matchText": "Sylvanus Morley",
+      "wikiSlug": "Sylvanus_Morley",
+      "type": "people"
+    },
+    {
+      "term": "Mixe-Zoquean",
+      "matchText": "Mixe-Zoquean",
+      "wikiSlug": "Mixe–Zoquean_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Cerro de las Mesas",
+      "matchText": "Cerro de las Mesas",
+      "wikiSlug": "Cerro_de_las_Mesas",
+      "type": "place"
+    },
+    {
+      "term": "Monte Alban",
+      "matchText": "Monte Albán",
+      "wikiSlug": "Monte_Albán",
+      "type": "place"
+    },
+    {
+      "term": "Teotihuacan",
+      "matchText": "Teotihuacan",
+      "wikiSlug": "Teotihuacan",
+      "type": "place"
+    },
+    {
+      "term": "Alfonso Caso",
+      "matchText": "Alfonso Caso",
+      "wikiSlug": "Alfonso_Caso_y_Andrade",
+      "type": "people"
+    },
+    {
+      "term": "Miguel Covarrubias",
+      "matchText": "Miguel Covarrubias",
+      "wikiSlug": "Miguel_Covarrubias",
+      "type": "people"
+    },
+    {
+      "term": "Kent Flannery",
+      "matchText": "Kent Flannery",
+      "wikiSlug": "Kent_Flannery",
+      "type": "people"
+    },
+    {
+      "term": "Joyce Marcus",
+      "matchText": "Joyce Marcus",
+      "wikiSlug": "Joyce_Marcus",
+      "type": "people"
+    },
+    {
+      "term": "University of Michigan",
+      "matchText": "University of Michigan",
+      "wikiSlug": "University_of_Michigan",
+      "type": "concept"
+    },
+    {
+      "term": "San Jose Mogote",
+      "matchText": "San Jose Mogote",
+      "wikiSlug": "San_José_Mogote",
+      "type": "place"
+    },
+    {
+      "term": "Soconusco",
+      "matchText": "Soconusco",
+      "wikiSlug": "Soconusco",
+      "type": "place"
+    },
+    {
+      "term": "Quetzalcoatl",
+      "matchText": "Quetzalcoatl",
+      "wikiSlug": "Quetzalcoatl",
+      "type": "concept"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltecs",
+      "wikiSlug": "Toltec",
+      "type": "concept"
+    },
+    {
+      "term": "Nahuatl",
+      "matchText": "Nahuatl",
+      "wikiSlug": "Nahuatl",
+      "type": "concept"
+    },
+    {
+      "term": "Chiapas",
+      "matchText": "Chiapas",
+      "wikiSlug": "Chiapas",
+      "type": "place"
+    },
+    {
+      "term": "Petén lowlands",
+      "matchText": "Petén lowlands",
+      "wikiSlug": "Petén_Department",
+      "type": "place"
+    },
+    {
+      "term": "Aztec sun stone",
+      "matchText": "Aztec sun stone",
+      "wikiSlug": "Aztec_sun_stone",
+      "type": "concept"
+    },
+    {
+      "term": "Oaxaca",
+      "matchText": "Oaxaca",
+      "wikiSlug": "Oaxaca",
+      "type": "place"
+    },
+    {
+      "term": "Maya pyramids",
+      "matchText": "Maya pyramids",
+      "wikiSlug": "Mesoamerican_pyramids",
+      "type": "concept"
+    },
+    {
+      "term": "Spanish conquest",
+      "matchText": "Spanish conquest",
+      "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Zapotec",
+      "matchText": "Zapotecs",
+      "wikiSlug": "Zapotec_civilization",
+      "type": "concept"
+    },
+    {
+      "term": "Formative period",
+      "matchText": "Formative periods",
+      "wikiSlug": "Mesoamerican_chronology",
+      "type": "concept"
+    },
+    {
+      "term": "Isthmian script",
+      "matchText": "Isthmian script",
+      "wikiSlug": "Isthmian_script",
+      "type": "concept"
+    },
+    {
+      "term": "Tres Zapotes",
+      "matchText": "Stela C",
+      "wikiSlug": "Tres_Zapotes",
+      "type": "concept"
+    },
+    {
+      "term": "San José Mogote",
+      "matchText": "San José Mogote",
+      "wikiSlug": "San_José_Mogote",
+      "type": "place"
+    }
   ]
 }

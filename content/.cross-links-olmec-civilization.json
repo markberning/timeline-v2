@@ -11,6 +11,12 @@
       "targetTl": "indus-valley",
       "targetChapter": 4,
       "blurb": "The Indus Valley Civilization spread across the dry, manageable floodplains of modern Pakistan and northwest India, building standardized brick cities with grid streets and the ancient world's most sophisticated urban drainage. Unlike the Olmec's jungle environment, the Indus landscape rewarded planning and control — and the Indus people standardized everything from brick sizes to weights across a vast, uniform region."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The Olmec are Mesoamerica's Caral — the first complex society on the isthmus, arising independently the way the Andes' first civilization did."
     }
   ],
   "2": [
@@ -31,6 +37,18 @@
       "targetTl": "indus-valley",
       "targetChapter": 5,
       "blurb": "The Indus Valley Civilization had been building covered brick drains under its streets since roughly 2600 BCE, over a thousand years before San Lorenzo's basalt-trough drainage system. The Indus drains served cities of 40,000 people with standardized urban planning — a dramatically larger scale than San Lorenzo, but the engineering sophistication is comparable."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "San Lorenzo's colossal heads and elite ritual are the Olmec equivalent of Shang bronze kingship — monumental power without writing-as-record."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 4,
+      "blurb": "Like the Indus, the Olmec built a sophisticated civilization whose script (if it was one) we cannot read — a great culture that speaks mostly through objects."
     }
   ],
   "4": [
@@ -47,6 +65,12 @@
       "targetTl": "shang-dynasty",
       "targetChapter": 3,
       "blurb": "The Shang dynasty's jade-carving tradition at Anyang produced some of the finest jade objects in the ancient world — ceremonial blades, ornaments, and ritual objects carved with a mastery that developed independently of the Olmec tradition on the opposite side of the Pacific. Both civilizations treated jade as the most precious material in their world, a remarkable convergence with no contact between them."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Olmec jade trade network mirrors the Shang prestige-goods economy — rare green stone as the currency of elite power across a vast region."
     }
   ],
   "6": [
@@ -61,6 +85,12 @@
       "targetTl": "old-kingdom-egypt",
       "targetChapter": 3,
       "blurb": "The Great Pyramid of Khufu, built around 2560 BCE, contains about 91 million cubic feet of stone and represents the resources of a unified Egyptian state that could conscript tens of thousands of laborers. La Venta's Great Pyramid, built roughly 1,800 years later with packed earth carried in baskets, is less famous but arguably more impressive per capita — achieving monumental scale with the resources of a single polity in a tropical swamp."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 6,
+      "blurb": "La Venta's planned ceremonial core is Mesoamerica's answer to the Shang ritual city — sacred geometry organizing labor and belief."
     }
   ],
   "7": [
@@ -87,6 +117,12 @@
       "targetTl": "indus-valley",
       "targetChapter": 6,
       "blurb": "The Indus Valley script, used from roughly 2600 to 1900 BCE on seals, tablets, and pottery, remains undeciphered after a century of effort. Like the Olmec Cascajal Block, it sits in the uncertain zone between proto-writing and true writing, and some scholars have argued it isn't writing at all — making it and the Cascajal Block the two great unresolved cases in the history of writing."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 6,
+      "blurb": "Olmec proto-writing and calendar marks pose the same puzzle as the Indus script — early notation we can see but not yet read."
     }
   ]
 }
