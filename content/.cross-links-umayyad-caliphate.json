@@ -4,13 +4,13 @@
       "matchText": "Sasanian Persian Empire",
       "targetTl": "persian-empire",
       "targetChapter": 9,
-      "blurb": "The Sasanian Empire \u2014 last of the great pre-Islamic Iranian dynasties \u2014 had ruled from Ctesiphon since 224 CE and was, by 600, the eastern superpower of the late antique world. The most recent Roman-Persian war (602\u2013628) under Khosrow II had drained both empires; the Arab armies that erupted from Arabia after Muhammad's death would destroy the Sasanian state in less than two decades. The Persian cultural tradition, however, would outlast the conquest and reshape the Abbasid Caliphate that followed."
+      "blurb": "The Sasanian Empire — last of the great pre-Islamic Iranian dynasties — had ruled from Ctesiphon since 224 CE and was, by 600, the eastern superpower of the late antique world. The most recent Roman-Persian war (602–628) under Khosrow II had drained both empires; the Arab armies that erupted from Arabia after Muhammad's death would destroy the Sasanian state in less than two decades. The Persian cultural tradition, however, would outlast the conquest and reshape the Abbasid Caliphate that followed."
     },
     {
       "matchText": "Byzantine Empire",
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
-      "blurb": "The Byzantine Empire under Heraclius (610\u2013641) was both the great Christian power of the late antique world and the empire that the Arab armies were about to dismantle. Heraclius had just won the most spectacular comeback of late antique military history \u2014 defeating the Sasanians at Nineveh in 627 and recovering the True Cross \u2014 but the war had bankrupted Byzantium and depopulated its eastern provinces. The Yarmouk catastrophe of 636 took everything Heraclius had recovered."
+      "blurb": "The Byzantine Empire under Heraclius (610–641) was both the great Christian power of the late antique world and the empire that the Arab armies were about to dismantle. Heraclius had just won the most spectacular comeback of late antique military history — defeating the Sasanians at Nineveh in 627 and recovering the True Cross — but the war had bankrupted Byzantium and depopulated its eastern provinces. The Yarmouk catastrophe of 636 took everything Heraclius had recovered."
     },
     {
       "matchText": "Aksum",
@@ -22,7 +22,19 @@
       "matchText": "Bedouin mercenaries",
       "targetTl": "ancient-rome",
       "targetChapter": 10,
-      "blurb": "The collapse of the Western Roman Empire in the fifth century had left the Mediterranean political map of the late antique world in the hands of the Eastern Roman (Byzantine) state and the Sasanian Persians. The Arab conquests of the seventh century would be the second great reorganization of that map \u2014 replacing two ancient empires with one new one over half their combined territory in a single generation."
+      "blurb": "The collapse of the Western Roman Empire in the fifth century had left the Mediterranean political map of the late antique world in the hands of the Eastern Roman (Byzantine) state and the Sasanian Persians. The Arab conquests of the seventh century would be the second great reorganization of that map — replacing two ancient empires with one new one over half their combined territory in a single generation."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Pre-Islamic Arabia sat between the two exhausted superpowers — Sassanid Persia and Byzantium — whose mutual ruin opened the door for the conquests."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 7,
+      "blurb": "The 7th-century world Islam erupted into had just seen Gupta India shattered too — the classical order collapsing on every front."
     }
   ],
   "2": [
@@ -30,7 +42,7 @@
       "matchText": "Heraclius",
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
-      "blurb": "Heraclius's twenty-year war against the Sasanians (Byzantine Empire Ch 3) and his triumphant return of the True Cross to Jerusalem in 630 \u2014 the same year as Muhammad's conquest of Mecca \u2014 was the high point of Byzantine recovery. Six years later, Heraclius would lose Syria to the army Muhammad had built. The two greatest religious-political accomplishments of 630 happened on opposite sides of the same Arabian frontier and would shortly meet in catastrophe for one of them."
+      "blurb": "Heraclius's twenty-year war against the Sasanians (Byzantine Empire Ch 3) and his triumphant return of the True Cross to Jerusalem in 630 — the same year as Muhammad's conquest of Mecca — was the high point of Byzantine recovery. Six years later, Heraclius would lose Syria to the army Muhammad had built. The two greatest religious-political accomplishments of 630 happened on opposite sides of the same Arabian frontier and would shortly meet in catastrophe for one of them."
     },
     {
       "matchText": "Tang Dynasty",
@@ -42,7 +54,19 @@
       "matchText": "Asuka period",
       "targetTl": "heian-japan",
       "targetChapter": 6,
-      "blurb": "The Asuka period in Japan (538\u2013710) saw the formal adoption of Buddhism as state religion, the introduction of Chinese-style centralized administration under the Taika reforms (645), and the construction of the first major Buddhist temples on the Japanese archipelago. While Muhammad was preaching at Mecca and his successors were conquering Persia, the Japanese state was being reorganized along continental Asian lines under Korean and Chinese influence."
+      "blurb": "The Asuka period in Japan (538–710) saw the formal adoption of Buddhism as state religion, the introduction of Chinese-style centralized administration under the Taika reforms (645), and the construction of the first major Buddhist temples on the Japanese archipelago. While Muhammad was preaching at Mecca and his successors were conquering Persia, the Japanese state was being reorganized along continental Asian lines under Korean and Chinese influence."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "Muhammad's lifetime overlapped the catastrophic last Byzantine-Sassanid war — the context that made the conquests possible."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Within a generation of Muhammad's death the Sassanid Persian Empire would simply cease to exist — absorbed entirely into the Caliphate."
     }
   ],
   "3": [
@@ -62,13 +86,25 @@
       "matchText": "Coptic Christian population of Egypt",
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
-      "blurb": "The Coptic Christians of Egypt had been Monophysites under heavy Constantinopolitan persecution since the Council of Chalcedon in 451 \u2014 two centuries of theological harassment that the Arabs ended overnight. The Copts did not resist the Arab conquest with any enthusiasm; their bishops negotiated terms; they accepted the dhimmi arrangement and kept their religion. Egypt became Arabic-speaking and Muslim very gradually over the following centuries, but the political-administrative shift was instantaneous."
+      "blurb": "The Coptic Christians of Egypt had been Monophysites under heavy Constantinopolitan persecution since the Council of Chalcedon in 451 — two centuries of theological harassment that the Arabs ended overnight. The Copts did not resist the Arab conquest with any enthusiasm; their bishops negotiated terms; they accepted the dhimmi arrangement and kept their religion. Egypt became Arabic-speaking and Muslim very gradually over the following centuries, but the political-administrative shift was instantaneous."
     },
     {
       "matchText": "Spring of Khosrow carpet",
       "targetTl": "mesopotamia",
       "targetChapter": 13,
-      "blurb": "The Sawad \u2014 the irrigated grain belt of southern Iraq, the most productive farmland in the medieval world \u2014 had been the agricultural foundation of every Mesopotamian state from Sumer through the Sasanians (Mesopotamia Ch 13). The Arabs inherited it intact, used it to feed their new garrison cities at Kufa and Basra, and would later use it to feed Abbasid Baghdad. The Sasanian throne room and Spring of Khosrow carpet that fell to the Arabs at Ctesiphon in 636 marked the end of Mesopotamia's pre-Islamic political continuity."
+      "blurb": "The Sawad — the irrigated grain belt of southern Iraq, the most productive farmland in the medieval world — had been the agricultural foundation of every Mesopotamian state from Sumer through the Sasanians (Mesopotamia Ch 13). The Arabs inherited it intact, used it to feed their new garrison cities at Kufa and Basra, and would later use it to feed Abbasid Baghdad. The Sasanian throne room and Spring of Khosrow carpet that fell to the Arabs at Ctesiphon in 636 marked the end of Mesopotamia's pre-Islamic political continuity."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "The Rashidun conquests are antiquity's closest analogue to the Mongol explosion — a peripheral people overrunning the settled superpowers with stunning speed."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 8,
+      "blurb": "The Arab armies reached the Indus within decades — knocking on the door of the post-Gupta Indian world."
     }
   ],
   "4": [
@@ -76,13 +112,13 @@
       "matchText": "Christological controversies",
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
-      "blurb": "The Sunni-Shia split that crystallized at Karbala in 680 has its closest structural analogue in the Christological controversies of the fifth and sixth centuries \u2014 disputes over Christ's nature that produced the Chalcedonian, Monophysite, and Nestorian traditions of Christianity. Both Islam and Christianity, in their first centuries, produced foundational schisms whose theological substance was real but whose political driver was a contested succession. The Christian schisms produced the Orthodox-Catholic-Oriental divide; the Muslim schism produced Sunni-Shia. Both are still operative in 2026."
+      "blurb": "The Sunni-Shia split that crystallized at Karbala in 680 has its closest structural analogue in the Christological controversies of the fifth and sixth centuries — disputes over Christ's nature that produced the Chalcedonian, Monophysite, and Nestorian traditions of Christianity. Both Islam and Christianity, in their first centuries, produced foundational schisms whose theological substance was real but whose political driver was a contested succession. The Christian schisms produced the Orthodox-Catholic-Oriental divide; the Muslim schism produced Sunni-Shia. Both are still operative in 2026."
     },
     {
       "matchText": "Safavid conversion of Iran",
       "targetTl": "safavid-persia",
       "targetChapter": 2,
-      "blurb": "The conversion of Iran from Sunni to Twelver Shia under the Safavid dynasty in 1501 \u2014 eight centuries after Karbala \u2014 was the moment the Karbala-shaped Shia tradition got a major state to call home. Safavid Iran became the institutional anchor of Twelver Shia Islam, with the imported Lebanese clerics from Jabal Amil training the Iranian clerical class that eventually produced the marja-i taqlid system, Ayatollah Khomeini, and the Islamic Republic of 1979. The thread from Karbala to Tehran runs through the Safavid revolution."
+      "blurb": "The conversion of Iran from Sunni to Twelver Shia under the Safavid dynasty in 1501 — eight centuries after Karbala — was the moment the Karbala-shaped Shia tradition got a major state to call home. Safavid Iran became the institutional anchor of Twelver Shia Islam, with the imported Lebanese clerics from Jabal Amil training the Iranian clerical class that eventually produced the marja-i taqlid system, Ayatollah Khomeini, and the Islamic Republic of 1979. The thread from Karbala to Tehran runs through the Safavid revolution."
     },
     {
       "matchText": "Mongol sack of Baghdad",
@@ -94,7 +130,13 @@
       "matchText": "Iranian Revolution",
       "targetTl": "safavid-persia",
       "targetChapter": 5,
-      "blurb": "The 1979 Islamic Revolution in Iran was the moment when the Twelver Shia clerical hierarchy that the Safavids had built \u2014 and that the Karbala memory had given its emotional vocabulary \u2014 became the ruling political institution of a major modern state. The chain runs Karbala 680 \u2192 Safavid Iran 1501 \u2192 late Safavid Usuli mujtahids \u2192 Qajar marja-i taqlid system \u2192 Khomeini \u2192 the current Islamic Republic. Modern Iran is, institutionally, the most direct heir of the Karbala-shaped Shia tradition."
+      "blurb": "The 1979 Islamic Revolution in Iran was the moment when the Twelver Shia clerical hierarchy that the Safavids had built — and that the Karbala memory had given its emotional vocabulary — became the ruling political institution of a major modern state. The chain runs Karbala 680 → Safavid Iran 1501 → late Safavid Usuli mujtahids → Qajar marja-i taqlid system → Khomeini → the current Islamic Republic. Modern Iran is, institutionally, the most direct heir of the Karbala-shaped Shia tradition."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Sunni-Shia split born here would, nine centuries on, become the Safavid state religion — the fault line still defining the region."
     }
   ],
   "5": [
@@ -102,19 +144,31 @@
       "matchText": "inherited Byzantine bureaucracy",
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
-      "blurb": "Mu'awiya's choice to keep his capital at Damascus rather than returning to Medina meant running the new caliphate through inherited Byzantine institutions \u2014 Greek-speaking civil servants, Roman tax registers, late antique urban infrastructure. The Umayyad state was, structurally, a Byzantine afterlife under Arab management. Abd al-Malik's Arabization reform of 695 began the long replacement of this Greek-administrative substrate with Arabic \u2014 a process that took a generation but locked Arabic in as the language of the Middle East."
+      "blurb": "Mu'awiya's choice to keep his capital at Damascus rather than returning to Medina meant running the new caliphate through inherited Byzantine institutions — Greek-speaking civil servants, Roman tax registers, late antique urban infrastructure. The Umayyad state was, structurally, a Byzantine afterlife under Arab management. Abd al-Malik's Arabization reform of 695 began the long replacement of this Greek-administrative substrate with Arabic — a process that took a generation but locked Arabic in as the language of the Middle East."
     },
     {
       "matchText": "solidi",
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
-      "blurb": "The Umayyad gold dinar of 696 deliberately replaced the Byzantine solidi and Sasanian drachms \u2014 the two great imperial coins of late antiquity \u2014 with a new Islamic currency that bore Arabic Quranic inscriptions and no human imagery. The coinage reform was a sovereignty statement and a religious one simultaneously. The dinar would dominate medieval Mediterranean and Middle Eastern commerce for the next four centuries."
+      "blurb": "The Umayyad gold dinar of 696 deliberately replaced the Byzantine solidi and Sasanian drachms — the two great imperial coins of late antiquity — with a new Islamic currency that bore Arabic Quranic inscriptions and no human imagery. The coinage reform was a sovereignty statement and a religious one simultaneously. The dinar would dominate medieval Mediterranean and Middle Eastern commerce for the next four centuries."
     },
     {
       "matchText": "Persian-speaking",
       "targetTl": "persian-empire",
       "targetChapter": 10,
       "blurb": "The Persian-speaking population of post-conquest Iraq and Iran was the social base from which the Abbasid Revolution would eventually draw its strength. Under the Umayyads they were second-class mawali Muslims paying disproportionate taxes; under the Abbasids they would become the senior administrative class of the new caliphate, carrying Sasanian governance traditions into the Islamic state. The continuity of Persian administrative culture across the regime change of 651 and again across the regime change of 750 is the through-line of post-Sasanian Iranian history."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 5,
+      "blurb": "Umayyad Damascus ran the largest empire on earth while northern Europe was still pre-Viking — the civilizational gap was vast."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "The Umayyad century is contemporary with the Maya Postclassic reorganization — two unconnected worlds reshaping at once."
     }
   ],
   "6": [
@@ -134,13 +188,19 @@
       "matchText": "Sind",
       "targetTl": "gupta-empire",
       "targetChapter": 8,
-      "blurb": "Muhammad ibn al-Qasim's 711 conquest of Sind was the first major Muslim foothold on the Indian subcontinent, more than a century after the Gupta Empire had collapsed and several centuries before the Delhi Sultanate would consolidate Muslim political rule over northern India. The Sind conquest is the founding moment of Indian Islam; the long process by which Muslim rule would extend across the subcontinent \u2014 and by which Indian Islamic civilization would develop its distinctive synthesis with Hindu and Buddhist cultures \u2014 was beginning here."
+      "blurb": "Muhammad ibn al-Qasim's 711 conquest of Sind was the first major Muslim foothold on the Indian subcontinent, more than a century after the Gupta Empire had collapsed and several centuries before the Delhi Sultanate would consolidate Muslim political rule over northern India. The Sind conquest is the founding moment of Indian Islam; the long process by which Muslim rule would extend across the subcontinent — and by which Indian Islamic civilization would develop its distinctive synthesis with Hindu and Buddhist cultures — was beginning here."
     },
     {
       "matchText": "Constantinople in 718",
       "targetTl": "byzantine-empire",
       "targetChapter": 4,
-      "blurb": "The 717\u2013718 siege ended in Arab catastrophe \u2014 Greek fire, the Theodosian Walls, an unusually severe winter, and a Bulgarian intervention from the north combining to destroy the largest Arab military operation ever launched against the Byzantine capital. Of 1,800 Arab ships, only five returned to the Caliphate. Leo III, who had taken the Byzantine throne five months before the siege began, became the founder of the Iconoclast period and saved Christian eastern Europe from absorption into the Caliphate."
+      "blurb": "The 717–718 siege ended in Arab catastrophe — Greek fire, the Theodosian Walls, an unusually severe winter, and a Bulgarian intervention from the north combining to destroy the largest Arab military operation ever launched against the Byzantine capital. Of 1,800 Arab ships, only five returned to the Caliphate. Leo III, who had taken the Byzantine throne five months before the siege began, became the founder of the Iconoclast period and saved Christian eastern Europe from absorption into the Caliphate."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "The conquest of Visigothic Spain extinguished the last western-Roman successor kingdom — 711 finishing what 476 began."
     }
   ],
   "7": [
@@ -148,25 +208,37 @@
       "matchText": "Temple Mount",
       "targetTl": "ancient-israel",
       "targetChapter": 8,
-      "blurb": "The Temple Mount platform that Abd al-Malik chose for the Dome of the Rock in 691 had been the site of the Jewish Second Temple destroyed by the Romans in 70 CE. The platform had been abandoned for over six centuries \u2014 Christianity having concentrated its religious building at the Holy Sepulchre across the city. The Umayyad decision to build the Dome of the Rock and al-Aqsa on the abandoned Temple Mount made Jerusalem the third-holiest city in Islam and locked in the layered Jewish-Christian-Muslim sacred geography that has shaped the city ever since."
+      "blurb": "The Temple Mount platform that Abd al-Malik chose for the Dome of the Rock in 691 had been the site of the Jewish Second Temple destroyed by the Romans in 70 CE. The platform had been abandoned for over six centuries — Christianity having concentrated its religious building at the Holy Sepulchre across the city. The Umayyad decision to build the Dome of the Rock and al-Aqsa on the abandoned Temple Mount made Jerusalem the third-holiest city in Islam and locked in the layered Jewish-Christian-Muslim sacred geography that has shaped the city ever since."
     },
     {
       "matchText": "Hadad",
       "targetTl": "phoenicia",
       "targetChapter": 7,
-      "blurb": "The Damascus mosque site had hosted a temple of the Aramean storm god Hadad since at least the Iron Age, then a Roman temple of Jupiter, then a Christian basilica of John the Baptist, before becoming a mosque under al-Walid I. Aramaic \u2014 the lingua franca of the Levant and Mesopotamia for over a thousand years \u2014 would be displaced from everyday use over the following centuries by Arabic, persisting only in liturgical use among Eastern Christian churches and a few isolated villages. The Aramean cultural layer beneath Damascus is one of the deepest substrates of Levantine history."
+      "blurb": "The Damascus mosque site had hosted a temple of the Aramean storm god Hadad since at least the Iron Age, then a Roman temple of Jupiter, then a Christian basilica of John the Baptist, before becoming a mosque under al-Walid I. Aramaic — the lingua franca of the Levant and Mesopotamia for over a thousand years — would be displaced from everyday use over the following centuries by Arabic, persisting only in liturgical use among Eastern Christian churches and a few isolated villages. The Aramean cultural layer beneath Damascus is one of the deepest substrates of Levantine history."
     },
     {
       "matchText": "iconoclast movement",
       "targetTl": "byzantine-empire",
       "targetChapter": 4,
-      "blurb": "The Byzantine iconoclast movement that began under Leo III in 726 \u2014 only a few decades after the Dome of the Rock \u2014 was partly inspired by what Byzantine elites had observed of Islamic aniconism. The Umayyad refusal to use human or animal imagery on coins or in religious buildings impressed some Byzantine observers as a return to authentic monotheistic discipline. The eighth-century Byzantine iconoclast controversy is one of the few cases where Islamic theological practice influenced Christian theological practice rather than the other way around."
+      "blurb": "The Byzantine iconoclast movement that began under Leo III in 726 — only a few decades after the Dome of the Rock — was partly inspired by what Byzantine elites had observed of Islamic aniconism. The Umayyad refusal to use human or animal imagery on coins or in religious buildings impressed some Byzantine observers as a return to authentic monotheistic discipline. The eighth-century Byzantine iconoclast controversy is one of the few cases where Islamic theological practice influenced Christian theological practice rather than the other way around."
     },
     {
       "matchText": "Pact of Umar",
       "targetTl": "ancient-israel",
       "targetChapter": 8,
-      "blurb": "The dhimmi system that the Umayyads codified for Christian, Jewish, and Zoroastrian subjects ran for thirteen centuries \u2014 from the seventh-century Arab conquest through the late nineteenth-century Ottoman tanzimat reforms. Jewish communities under Islamic rule generally fared substantially better than Jewish communities in contemporary Christian Europe, particularly in the medieval Mediterranean. The protected-minority arrangement was not equality, but it was a workable framework that allowed Jewish religious and communal life to continue under Islamic political authority."
+      "blurb": "The dhimmi system that the Umayyads codified for Christian, Jewish, and Zoroastrian subjects ran for thirteen centuries — from the seventh-century Arab conquest through the late nineteenth-century Ottoman tanzimat reforms. Jewish communities under Islamic rule generally fared substantially better than Jewish communities in contemporary Christian Europe, particularly in the medieval Mediterranean. The protected-minority arrangement was not equality, but it was a workable framework that allowed Jewish religious and communal life to continue under Islamic political authority."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "The Dome of the Rock was a deliberate architectural answer to Byzantine Christianity — Islam announcing itself in Jerusalem's skyline."
+    },
+    {
+      "matchText": "Ancient Israel",
+      "targetTl": "ancient-israel",
+      "targetChapter": 8,
+      "blurb": "The Dome stands on the Temple Mount — Umayyad Islam inscribing itself onto the sacred geography of ancient Israel."
     }
   ],
   "8": [
@@ -180,25 +252,31 @@
       "matchText": "Baghdad",
       "targetTl": "islamic-golden-age",
       "targetChapter": 1,
-      "blurb": "Baghdad, founded by the Abbasid caliph al-Mansur in 762 north of the ruined Sasanian capital at Ctesiphon, was a perfect circle 1.5 miles in diameter \u2014 the first major city in human history that was purely Islamic from the foundation stones up. The Round City would shortly become the seat of the most productive intellectual workshop in the medieval world, the cultural center of the Abbasid Caliphate, and the eventual victim of the 1258 Mongol sack that ended the institutional Islamic Golden Age."
+      "blurb": "Baghdad, founded by the Abbasid caliph al-Mansur in 762 north of the ruined Sasanian capital at Ctesiphon, was a perfect circle 1.5 miles in diameter — the first major city in human history that was purely Islamic from the foundation stones up. The Round City would shortly become the seat of the most productive intellectual workshop in the medieval world, the cultural center of the Abbasid Caliphate, and the eventual victim of the 1258 Mongol sack that ended the institutional Islamic Golden Age."
     },
     {
       "matchText": "translation of Greek",
       "targetTl": "islamic-golden-age",
       "targetChapter": 2,
-      "blurb": "The Translation Movement that began in scattered late Umayyad form and exploded under Abbasid patronage was the central intellectual project of medieval Islamic civilization. Greek philosophical, mathematical, medical, and astronomical texts were translated into Arabic at the House of Wisdom in Baghdad \u2014 and centuries later re-translated from Arabic into Latin to seed the European Renaissance. The chain Athens \u2192 Sasanian Gundishapur \u2192 Abbasid Baghdad \u2192 medieval Toledo \u2192 Renaissance Europe runs through the project that picked up steam under the Abbasids."
+      "blurb": "The Translation Movement that began in scattered late Umayyad form and exploded under Abbasid patronage was the central intellectual project of medieval Islamic civilization. Greek philosophical, mathematical, medical, and astronomical texts were translated into Arabic at the House of Wisdom in Baghdad — and centuries later re-translated from Arabic into Latin to seed the European Renaissance. The chain Athens → Sasanian Gundishapur → Abbasid Baghdad → medieval Toledo → Renaissance Europe runs through the project that picked up steam under the Abbasids."
     },
     {
       "matchText": "Mongol army",
       "targetTl": "mongol-empire",
       "targetChapter": 5,
-      "blurb": "The Mongol sack of Baghdad in 1258 ended the institutional Abbasid Caliphate after five centuries \u2014 exactly half a millennium of continuity from the Umayyad-Abbasid transition of 750. Hulagu Khan's army destroyed the House of Wisdom, killed the last effective Abbasid caliph al-Musta'sim by reportedly rolling him in a carpet and trampling him with horses, and effectively ended the central institutional life of medieval Islamic civilization. The buildings, the scholarly traditions, and the dynastic afterlife in Mamluk Cairo all survived; the institutional center did not."
+      "blurb": "The Mongol sack of Baghdad in 1258 ended the institutional Abbasid Caliphate after five centuries — exactly half a millennium of continuity from the Umayyad-Abbasid transition of 750. Hulagu Khan's army destroyed the House of Wisdom, killed the last effective Abbasid caliph al-Musta'sim by reportedly rolling him in a carpet and trampling him with horses, and effectively ended the central institutional life of medieval Islamic civilization. The buildings, the scholarly traditions, and the dynastic afterlife in Mamluk Cairo all survived; the institutional center did not."
     },
     {
       "matchText": "Fatimid Caliphate",
       "targetTl": "islamic-golden-age",
       "targetChapter": 6,
-      "blurb": "The Fatimid Caliphate (909\u20131171), an Ismaili Shia state that conquered Egypt and ruled from Cairo, was one of the major Shia counter-caliphates that emerged in opposition to the Sunni Abbasids. The Fatimids built al-Azhar in Cairo (founded 970), still the world's oldest continuously operating Islamic university, and patronized one of the great cosmopolitan medieval cultures. The Sunni-Shia geopolitical division that the Karbala killing had institutionalized produced its most successful Shia state experiment in Fatimid Egypt."
+      "blurb": "The Fatimid Caliphate (909–1171), an Ismaili Shia state that conquered Egypt and ruled from Cairo, was one of the major Shia counter-caliphates that emerged in opposition to the Sunni Abbasids. The Fatimids built al-Azhar in Cairo (founded 970), still the world's oldest continuously operating Islamic university, and patronized one of the great cosmopolitan medieval cultures. The Sunni-Shia geopolitical division that the Karbala killing had institutionalized produced its most successful Shia state experiment in Fatimid Egypt."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 6,
+      "blurb": "The Abbasid revolution that ended the Umayyads recurs as a pattern — the caliphate's legitimacy crisis the Ottomans would one day inherit and claim."
     }
   ]
 }
