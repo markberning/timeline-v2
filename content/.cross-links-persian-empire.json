@@ -17,6 +17,24 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "Confucius and Cyrus the Great were near-exact contemporaries — two men who reshaped their civilizations at the same historical moment. While Cyrus was conquering Babylon and inventing multicultural empire, Confucius was teaching ethics and governance in the small states of Zhou-era China, laying the philosophical groundwork for Chinese civilization."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Cyrus built the Achaemenid Empire on Elamite foundations — Susa, the Elamite script, the highland-lowland fusion Elam pioneered."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Cyrus's model of a tolerant multi-ethnic world-empire is the template later universal empires, including the Ottomans, would consciously echo."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "As Persia built the first true world-empire, the Andes were running the Chavín horizon — complex order arising on a wholly separate track."
     }
   ],
   "2": [
@@ -25,6 +43,18 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
       "blurb": "The Persepolis Fortification Archive was written in Elamite, not Persian — proving that the Elamite bureaucratic tradition survived the destruction of the Elamite state and became the administrative backbone of the Persian Empire. Elamite scribes were still doing the paperwork two centuries after their kingdom was destroyed."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 8,
+      "blurb": "Darius's administrative machine — satrapies, royal roads, standardized coinage — perfected the imperial bureaucracy Mesopotamia had been inventing for two millennia."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 8,
+      "blurb": "The Persian chancery ran partly in Elamite — the absorbed civilization's afterlife written into the empire's paperwork."
     }
   ],
   "3": [
@@ -49,6 +79,12 @@
       "targetTl": "indus-valley",
       "targetChapter": 10,
       "blurb": "When Alexander reached the Indus frontier, the mature Indus Valley civilization was three thousand years gone — but its successor cultures had produced the Gandhara region that had been an Achaemenid satrapy, and the trade networks that connected India to Iran were still running the same routes the Harappan merchants had pioneered."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "Alexander ended the Achaemenids just as the Andean Early Horizon was ending — two unconnected worlds turning a historical page at once."
     }
   ],
   "6": [
@@ -80,6 +116,18 @@
       "targetTl": "gokturk-khaganate",
       "targetChapter": 4,
       "blurb": "The Hephthalite confederation that Khosrow I was fighting on the eastern frontier was, within a generation, going to be crushed by the new Turkic power on the steppe — and the Sasanians and Gokturks worked it out together. The 557-563 Sasanian-Gokturk alliance pincered the Hephthalite empire from both sides and split its territory between the two new neighbors. The Gokturk Khaganate narrative's Chapter 4 is the inside view of that diplomatic acrobatics from the Turkic side."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Sassanid golden age set the Persianate template — court, art, kingship — that the Mongols' Ilkhanate would later adopt wholesale."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "The Sassanid golden age is the model the Safavids consciously revived a thousand years later — Iran reimagining its own imperial classical age."
     }
   ],
   "10": [
@@ -100,6 +148,18 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 1,
       "blurb": "The cultural continuity thread that runs from Elamite Susa through Achaemenid Persepolis to Sassanid Gundishapur to Abbasid Baghdad is one of the longest institutional lineages in human history. The Elamite bureaucratic tradition that started five thousand years ago at Susa survived every conquest and kept reshaping each new master's civilization from within."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "The last Persian Empire fell to the Arab conquest — the same kind of sudden imperial collapse the Mongols would later inflict and suffer."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Sassanid Persia's fall to Islam sets up the long road to the Safavids — the dynasty that would finally re-fuse Persian identity with a state religion."
     }
   ]
 }
