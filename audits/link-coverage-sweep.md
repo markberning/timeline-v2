@@ -83,7 +83,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | safavid-persia | 8 | **DONE** Persian chain COMPLETE | a79bbd8 |
 | early-andean-civilizations | 8 | **DONE** | f881a6c |
 | andean-kingdoms | 8 | **DONE** | 23aeea7 |
-| middle-horizon-empires | 8 | **DONE** | +this |
+| middle-horizon-empires | 8 | **DONE** | d20e360 |
+| inca-empire | 8 | **DONE** Andean chain COMPLETE | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

@@ -101,6 +101,12 @@
       "matchText": "Huatanay",
       "wikiSlug": "Huatanay_River",
       "type": "place"
+    },
+    {
+      "term": "Chanka",
+      "matchText": "Chanka",
+      "wikiSlug": "Chanka",
+      "type": "people"
     }
   ],
   "2": [
@@ -157,6 +163,18 @@
       "matchText": "Cuntisuyu",
       "wikiSlug": "Kuntisuyu",
       "type": "concept"
+    },
+    {
+      "term": "Sapa Inca",
+      "matchText": "Sapa Inca",
+      "wikiSlug": "Sapa_Inca",
+      "type": "concept"
+    },
+    {
+      "term": "Pachacuti",
+      "matchText": "Pachacuti",
+      "wikiSlug": "Pachacuti",
+      "type": "people"
     }
   ],
   "3": [
@@ -672,6 +690,12 @@
       "term": "Wiphala",
       "matchText": "wiphala",
       "wikiSlug": "Wiphala",
+      "type": "concept"
+    },
+    {
+      "term": "Requerimiento",
+      "matchText": "requerimiento",
+      "wikiSlug": "Requerimiento",
       "type": "concept"
     }
   ]
