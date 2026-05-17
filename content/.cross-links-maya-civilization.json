@@ -23,6 +23,18 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 5,
       "blurb": "Andean civilizations around Lake Titicaca developed raised-field agriculture independently of the Maya — elevated planting surfaces in wetlands surrounded by irrigation canals, converting marginal land into productive farmland. Both systems solved the same problem (feeding large populations in challenging environments) with nearly identical engineering solutions, separated by thousands of miles with no contact."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 2,
+      "blurb": "The Maya built on Olmec foundations — the calendar, the ballgame, the divine-king idea all trace back to the 'mother culture' on the Gulf coast."
+    },
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 2,
+      "blurb": "Maize agriculture that powered the Maya is the same crop revolution that, much later, built the Mississippian mound centers far to the north."
     }
   ],
   "2": [
@@ -31,6 +43,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 10,
       "blurb": "Babylonian astronomers developed a placeholder symbol for zero around 300 BCE to keep their positional number system from collapsing — a practical fix for a computational problem. The Maya invented zero independently, roughly 650 years later, for similar reasons: their vigesimal positional system needed a way to mark empty places. Two civilizations, no contact, same mathematical breakthrough."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 4,
+      "blurb": "Classic Maya city-states and the later Aztec empire are the two poles of Mesoamerican civilization — shared cosmology, very different political scale."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 10,
+      "blurb": "The Maya Classic was a system of warring royal city-states — structurally Sumer-like, divine kings and patron gods, never a single empire."
     }
   ],
   "3": [
@@ -39,6 +63,12 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 1,
       "blurb": "The Zhou dynasty invented the Mandate of Heaven — the idea that one ruler held divine authority over the entire civilized world, and that Heaven could withdraw the mandate from a corrupt ruler and grant it to a worthier one. This universal claim to sovereignty made Chinese empire conceptually possible in a way that Maya kingship, which was local and personal, never allowed."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Tikal–Calakmul superpower rivalry is the Maya analogue of the Zhou-era hegemon contests — prestige, alliance, and proxy war among peer kingdoms."
     }
   ],
   "4": [
@@ -59,6 +89,12 @@
       "targetTl": "old-kingdom-egypt",
       "targetChapter": 4,
       "blurb": "Egyptian Blue, developed around 2500 BCE, was one of the first synthetic pigments — a calcium copper silicate created by heating sand, copper, and limestone together. Like Maya Blue, it was a triumph of ancient chemistry that produced a color so stable it survives on artifacts thousands of years old. Both pigments were independently developed, hemispheres apart, using completely different chemistry."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 4,
+      "blurb": "The Maya golden age perfected the blood-and-jaguar kingship the Olmec invented — divine rulers feeding the gods to keep time running."
     }
   ],
   "6": [
@@ -99,6 +135,26 @@
       "targetTl": "mesopotamia",
       "targetChapter": 10,
       "blurb": "Babylonian astronomers compiled eclipse records spanning centuries, eventually computing the Saros cycle — an 18-year pattern that predicts eclipses with high accuracy. The Maya achieved comparable predictive power through their own centuries of observation, encoded in the Dresden Codex's eclipse tables. Two independent astronomical traditions, same sky, same mathematical precision."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 7,
+      "blurb": "Maya writing and the Long Count are the mature form of the notation the Olmec and Isthmian cultures first sketched."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 10,
+      "blurb": "Maya astronomy and zero put them alongside Babylon as one of antiquity's great independent mathematical-astronomical traditions."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 1,
+      "blurb": "The Classic Maya collapse — drought, overpopulation, political failure — prefigures the later unravelling of the Mississippian mound world."
     }
   ]
 }
