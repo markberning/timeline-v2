@@ -60,7 +60,7 @@ src/
     chronology-data.ts          — sorted civs, chain lookup, lane-packing, year formatting
     accent-colors.ts            — region-driven accent colors with WCAG-safe variants
     categories.ts               — event category metadata (8 categories)
-    navigator-tls.ts            — 95 navigator TLs with hasContent flag (76 shipped)
+    navigator-tls.ts            — 100 navigator TLs with hasContent flag (100 shipped)
     globe2-data.ts              — 86 globe civs, 10 region groups, GLOBE_TO_READER mapping
     navigator-themes.ts         — Stone theme constants
     offline.ts                  — SW registration, download/delete/status store
@@ -125,9 +125,9 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 - **The informal voice is the product** — don't sand it down
 
 ## Civilization Roadmap
-89 of 100 navigator TLs shipped. Narratives follow chain order from `reference-data/tl-chains.ts`. (medieval-europe omnibus split into early/high/late; ancient-japan omnibus split into prehistoric/asuka-nara/heian; the Northern European chain gained a 5-TL Germanic sub-chain bridging the old 50 BCE–793 CE gap.)
+100 of 100 navigator TLs shipped (every navigator entry has hasContent: true). Narratives follow chain order from `reference-data/tl-chains.ts`. (medieval-europe omnibus split into early/high/late — stale reference-data/medieval-europe.json still on disk, slated for deletion; ancient-japan omnibus split into prehistoric/asuka-nara/heian — chapter maps for the 3 new Japan TLs NOT yet generated, stale public/maps/ancient-japan/ folder still on disk; the Northern European chain gained a 5-TL Germanic sub-chain bridging the old 50 BCE–793 CE gap.)
 
-**Near East:** ✅ umayyad-caliphate (8 ch) → islamic-golden-age (links via Abbasid revolution)
+**Near East:** ✅ umayyad-caliphate (8 ch) — shipped but DANGLING (no chain in tl-chains.ts; the umayyad → islamic-golden-age link is prose/cross-link only). islamic-golden-age is chained under Mesopotamian Succession.
 **Mesopotamian Succession:** ✅ mesopotamia (13 ch) · ✅ assyrian-empire (8 ch) · ✅ islamic-golden-age (10 ch)
 **Indian Subcontinent:** ✅ indus-valley (10 ch) · ✅ vedic-period (8 ch) · ✅ maurya-empire (8 ch) · ✅ post-maurya-kingdoms (8 ch) · ✅ gupta-empire (8 ch) · ✅ medieval-india (8 ch) · ✅ delhi-sultanate (8 ch) · ✅ mughal-empire (9 ch) · ✅ modern-india (15 ch)
 **Chinese Dynasties:** ✅ ancient-china (8 ch) · ✅ shang-dynasty (8 ch) · ✅ zhou-dynasty (9 ch) · ✅ qin-dynasty (8 ch) · ✅ han-dynasty (8 ch) · ✅ six-dynasties (8 ch) · ✅ tang-song-china (9 ch) · ✅ yuan-dynasty (8 ch) · ✅ ming-dynasty (8 ch) · ✅ qing-dynasty (13 ch) · ✅ chinese-revolution (15 ch) · ✅ rise-of-china (15 ch)
@@ -136,22 +136,22 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 **West African Empires:** ✅ mali-empire (8 ch) · ✅ songhai-empire (8 ch)
 **Persian Tradition:** ✅ elamite-civilization (8 ch) · ✅ persian-empire (10 ch) · ✅ safavid-persia (8 ch)
 **Andean:** ✅ early-andean-civilizations (8 ch) · ✅ andean-kingdoms (8 ch) · ✅ middle-horizon-empires (8 ch) · ✅ inca-empire (8 ch)
-**Mesoamerican:** ✅ olmec-civilization (8 ch) · ✅ maya-civilization (8 ch) · ✅ zapotec-civilization (8 ch) · ✅ teotihuacan (8 ch) · ✅ aztec-empire (8 ch)
+**Mesoamerican:** ✅ olmec-civilization (8 ch) · ✅ maya-civilization (8 ch) · ✅ aztec-empire (8 ch) — active `mesoamerican` chain is olmec → maya → aztec only · ✅ zapotec-civilization (8 ch) · ✅ teotihuacan (8 ch) — shipped but DANGLING (in no chain)
 **Greco-Roman:** ✅ minoan-civilization (8 ch) · ✅ mycenaean-civilization (8 ch) · ✅ ancient-greece (8 ch) · ✅ ancient-rome (10 ch) · ✅ byzantine-empire (12 ch)
 **Western European:** ✅ early-medieval-europe (8 ch) · ✅ high-medieval-europe (8 ch) · ✅ late-medieval-europe (8 ch) · ✅ renaissance-italy (8 ch) · ✅ scientific-revolution (20 ch) · ✅ enlightenment (20 ch) · ✅ industrial-revolution (20 ch) — completes the Western European Ideas chain · ✅ al-andalus (18 ch) — Islamic Iberia 711–1492 + the Morisco afterlife; standalone (not in a chain)
-**SE Asian Maritime:** ✅ srivijaya (8 ch) · ✅ khmer-empire (10 ch) · ✅ dai-viet (13 ch) · ✅ majapahit (10 ch)
+**SE Asian Maritime:** ✅ srivijaya (8 ch) · ✅ khmer-empire (10 ch) — active `southeast-asian-maritime` chain is srivijaya → khmer-empire only · ✅ dai-viet (13 ch) · ✅ majapahit (10 ch) — dai-viet & majapahit are shipped but DANGLING (in no chain in tl-chains.ts)
 **Korean Civilization:** ✅ ancient-korea (8 ch) · ✅ joseon-korea (8 ch) · ✅ korean-modern (8 ch)
 **Anatolian Succession:** ✅ hittite-empire (8 ch) · ✅ ottoman-empire (12 ch)
 **Central Asian Steppe:** ✅ scythians (8 ch) · ✅ xiongnu-huns (8 ch) · ✅ gokturk-khaganate (8 ch) · ✅ mongol-empire (9 ch) · ✅ timurid-empire (8 ch)
-**Northern European:** ✅ celtic-cultures (8 ch) · 🚧 germanic-tribes · 🚧 the-goths · 🚧 migration-period · 🚧 anglo-saxon-england · 🚧 vendel-scandinavia · ✅ viking-age (8 ch) — 🚧 = spine laid (navigator entry, chain transitions, reference-data skeleton), narrative pending. Chain order: celtic → germanic-tribes → the-goths → migration-period → anglo-saxon-england → vendel-scandinavia → viking-age.
+**Northern European:** ✅ celtic-cultures (8 ch) · ✅ germanic-tribes (10 ch) · ✅ the-goths (11 ch) · ✅ migration-period (9 ch) · ✅ anglo-saxon-england (10 ch) · ✅ vendel-scandinavia (8 ch) · ✅ viking-age (8 ch) — the 5-TL Germanic sub-chain (full pipeline: narrative, 5-persona audit, settled event pools, summaries, links, cross-civ pass, Gemini maps) bridges the old 50 BCE–793 CE gap. Chain order: celtic → germanic-tribes → the-goths → migration-period → anglo-saxon-england → vendel-scandinavia → viking-age.
 **Russian Civilization:** ✅ kievan-rus (12 ch) · ✅ russian-empire (20 ch) · ✅ soviet-union (20 ch) — chain: Rus' 882–1240 → Empire 1721–1917 → USSR 1922–1991
 **Japanese Civilization:** ✅ prehistoric-japan (8 ch) · ✅ asuka-nara-japan (8 ch) · ✅ heian-japan (8 ch) · ✅ edo-japan (8 ch) · ✅ meiji-japan (8 ch) · ✅ japanese-economic-miracle (8 ch)
-**Standalone:** ✅ phoenicia (8 ch) · ✅ polynesian-voyagers (8 ch) · ✅ ancient-israel (8 ch) · ✅ carthage (8 ch) · ✅ mississippian-culture (10 ch) — Cahokia & the mound-builder world 800–1600, archaeological discovery-frame structure
-**American Republic:** ✅ early-american-republic (18 ch) · ✅ antebellum-america (18 ch) · 🚧 reconstruction · 🚧 roaring-twenties · 🚧 civil-rights-era — chain: 1776 Declaration → republic finds its feet (1776–1828) → expansion & the slavery crisis to 1865 → Reconstruction → 1920s → Civil Rights
+**Standalone / dangling (in no tl-chains.ts chain):** ✅ phoenicia (8 ch) · ✅ polynesian-voyagers (8 ch) · ✅ ancient-israel (8 ch) · ✅ carthage (8 ch) · ✅ mississippian-culture (10 ch) — Cahokia & the mound-builder world 800–1600 · ✅ ancestral-puebloans (Mesa Verde & Chaco, -100–1300) — shipped but absent from this roadmap until now · ✅ al-andalus (also listed under Western European) · plus teotihuacan, zapotec-civilization, dai-viet, majapahit, umayyad-caliphate (cross-listed under their region rows above). Full dangling set = 12 TLs.
+**American Republic:** ✅ early-american-republic (18 ch) · ✅ antebellum-america (18 ch) · ✅ reconstruction · ✅ roaring-twenties · ✅ civil-rights-era — chain: 1776 Declaration → republic finds its feet (1776–1828) → expansion & the slavery crisis to 1865 → Reconstruction → 1920s → Civil Rights
 
-**Remaining (8):** *North American (3):* reconstruction · roaring-twenties · civil-rights-era. *Germanic sub-chain (5, spine laid):* germanic-tribes · the-goths · migration-period · anglo-saxon-england · vendel-scandinavia. These are the only TLs left without `hasContent: true` in `navigator-tls.ts` (the authoritative source; the ✅ marks above can lag behind it).
+**Remaining (0):** all 100 navigator TLs have `hasContent: true`. The next work is the ~17 new TLs (not yet added to `navigator-tls.ts`).
 
-**Maps pending Gemini generation:** the 5 Germanic sub-chain TLs once their narratives are written (maps are pipeline step 12, post-narrative). All other shipped TLs have chapter maps. New TLs go through `scripts/generate-maps.mjs <tlId>` (gemini-3-pro-image-preview), audit, regen if needed, then `scripts/optimize-maps.mjs`.
+**Maps pending Gemini generation:** prehistoric-japan, asuka-nara-japan, heian-japan — the ancient-japan omnibus split has no chapter-map folders for the 3 new TLs (stale public/maps/ancient-japan/ still holds the old 8 WebPs). All other 97 shipped TLs have chapter maps (incl. the 5 Germanic sub-chain TLs). New/split TLs go through `scripts/generate-maps.mjs <tlId>` (gemini-3-pro-image-preview), audit, regen if needed, then `scripts/optimize-maps.mjs`.
 
 ## Color System
 - **Region-driven accent colors** in `src/lib/accent-colors.ts`: Near East = amber `#d97706`, Africa = rust `#b44d3b`, Asia = violet `#7c3aed`, Europe = blue `#1d4ed8`, Americas = green `#047857`.
