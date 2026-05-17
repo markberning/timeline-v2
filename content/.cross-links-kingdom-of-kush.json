@@ -17,6 +17,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "In the same centuries that the Napatan kings were consolidating the upper Nile, the Western Zhou dynasty in China was collapsing into the fragmented Spring and Autumn period. Both civilizations were at hinge points: Kush was building toward its Egyptian conquest, while China was entering centuries of interstate competition."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 10,
+      "blurb": "As the Napatan state consolidated, Assyria was becoming the terror of the Near East — the empire whose later collision with Kush would shape both."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "The same centuries saw the Phoenician city-states at their Mediterranean height — two trade-and-prestige civilizations on opposite edges of the Near Eastern world."
     }
   ],
   "2": [
@@ -37,6 +49,12 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 6,
       "blurb": "When Shutruk-Nahhunte sacked Babylon in 1158 BCE and carried the Code of Hammurabi to Susa, he too went home rather than staying to rule the conquered territory. The parallel with Piye is striking: both were outsider kings who won a spectacular victory and then retreated to their homeland."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 11,
+      "blurb": "Piye conquered Egypt just as Tiglath-Pileser III's Assyria perfected the provincial-and-deportation imperial machine — two expanding powers on a collision course over Egypt."
     }
   ],
   "3": [
@@ -57,6 +75,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "While Taharqa ruled the unified Nile, China was deep in the Spring and Autumn period of interstate competition. Both civilizations were grappling with the same question — how to hold a large territory together — but arriving at opposite answers."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 11,
+      "blurb": "Taharqa's reign overlapped Sennacherib's sack of Babylon and murder — the Kushite pharaohs ruling Egypt as Assyria spiraled toward its own crisis."
     }
   ],
   "4": [
@@ -83,6 +107,12 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
       "blurb": "Elam's survival pattern after Ashurbanipal's devastation mirrors Kush's retreat to Napata. Both kingdoms absorbed the loss of their most visible territory and rebuilt from a more defensible core. Elamite administrative traditions re-emerged as the bureaucratic spine of Persia; Kush reinvented itself at Meroe."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 11,
+      "blurb": "The sack of Thebes and Kushite retreat came a generation before Nineveh itself fell (612 BCE) — Assyria's victory over Kush bought it only forty more years."
     }
   ],
   "5": [
@@ -97,6 +127,12 @@
       "targetTl": "indus-valley",
       "targetChapter": 10,
       "blurb": "At the same moment Kush was reinventing itself at Meroe, the Maurya Empire under Ashoka was governing most of the Indian subcontinent and erecting edicts in Brahmi script. Both civilizations were asserting cultural independence through their own writing systems in the same century."
+    },
+    {
+      "matchText": "Ancient Greece",
+      "targetTl": "ancient-greece",
+      "targetChapter": 8,
+      "blurb": "The move to Meroë coincides with the Hellenistic age — Ptolemaic Greek-ruled Egypt now Kush's northern neighbor, the classical Mediterranean reaching the upper Nile."
     }
   ],
   "6": [
@@ -113,7 +149,20 @@
       "blurb": "China developed oracle bone script around 1200 BCE for divination purposes, nearly a thousand years before Meroe invented the Meroitic script. Both were indigenous solutions to the same problem — recording language in a system designed for the local tongue rather than borrowed from a neighbor."
     }
   ],
-  "7": [],
+  "7": [
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "The Kushite-Roman war happened exactly as the Republic became Augustus's Empire — Meroë fought, and negotiated a favorable peace with, Rome at its zenith."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 6,
+      "blurb": "Rome's main rival in this era was Parthia — the Iranian power on the far side of the same Augustan world Meroë bordered."
+    }
+  ],
   "8": [
     {
       "matchText": "Harappan collapse on the Indus",
@@ -126,6 +175,18 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
       "blurb": "When Kush fell around 350 CE, the Sassanid Persians were building the last great pre-Islamic Iranian state on foundations that stretched back through Parthia to the Achaemenids — and ultimately to the Elamite administrative traditions that had survived every conquest. Elam's bureaucratic DNA outlasted Kush by centuries."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Kush's end came as Sassanid Persia and Christian Rome reorganized the late-antique world — Meroë outlived the classical age it began in."
+    },
+    {
+      "matchText": "Kingdom of Aksum",
+      "targetTl": "kingdom-of-aksum",
+      "targetChapter": 1,
+      "blurb": "Kush fell to Ezana's Aksum — the Ethiopian power that inherited the Red Sea trade and the role of the great northeast-African kingdom."
     }
   ]
 }
