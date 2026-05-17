@@ -16,9 +16,17 @@
 // PARENT article that legitimately covers the term — same civ/era/thread — is
 // a PASS; thin-EN-coverage civs often have only a parent (a glossary term
 // like "merit land" or "Daesik" frequently has no dedicated article).
-// Irreducible residuals are waived per-term in
-// content/.glossary-slug-waivers-<tlId>.json ({ "<term>": "reason" }),
-// mirroring G10 .event-slug-waivers / G3 .link-waivers / G1 density-baseline.
+//
+// Resolution order for "no good EN article" (canonical, 2026-05-17):
+//   1. authored `definition` blurb (no wikiSlug) — parse normalizes it to a
+//      `def:` token; GlossarySheet shows the house-voice prose and NO wiki
+//      link. SKIPPED here (auto-PASS): nothing to land on wrong, and the
+//      blurb is 5-persona-audited author prose. This is the PREFERRED answer
+//      and scales to thin-EN-coverage civs without degrading the tap.
+//   2. correct broad on-thread PARENT slug (same civ/era/thread).
+//   3. residual waived per-term in
+//      content/.glossary-slug-waivers-<tlId>.json ({ "<term>": "reason" }),
+//      mirroring G10 .event-slug-waivers / G3 .link-waivers / G1 baseline.
 //
 // Usage:
 //   node --env-file=.env.local scripts/audit-glossary.mjs <tlId>
@@ -66,12 +74,27 @@ const slugWaivers = new Map(Object.entries(rawWaivers).map(([k, v]) => [k.toLowe
 const ai = new GoogleGenAI({ apiKey })
 function extractJson(t) { const m = t.match(/\[[\s\S]*\]|\{[\s\S]*\}/); if (!m) throw new Error('no JSON'); return JSON.parse(m[0]) }
 
+const isDef = (e) => e.wikiSlug.startsWith('def:')
+
 const verdicts = new Map()
 for (const e of entries) {
+  // Authored-blurb entries: parse-narratives normalizes a `definition`
+  // with no wikiSlug to a stable `def:` token, and GlossarySheet renders
+  // the house-voice blurb with NO Wikipedia link. There is no external
+  // page for the reader to land on wrong, and the blurb is author-written
+  // + 5-persona-audited prose — so there is nothing for a coherence gate
+  // to check. Skip the model call (PASS), mirroring G10 skipping slug-less
+  // events whose curated description renders standalone. This makes the
+  // authored `definition` the canonical "no good EN article" answer for
+  // glossary (the slug-waiver remains for the broad-parent-stretch case).
+  if (isDef(e)) {
+    verdicts.set(e.term, { verdict: 'PASS', reason: 'authored definition (def: token — no Wikipedia link rendered)' })
+    continue
+  }
   const w = slugWaivers.get(e.term.toLowerCase())
   if (w) verdicts.set(e.term, { verdict: 'PASS', reason: `waived: ${w}` })
 }
-const pending = entries.filter((e) => !slugWaivers.has(e.term.toLowerCase()))
+const pending = entries.filter((e) => !isDef(e) && !slugWaivers.has(e.term.toLowerCase()))
 const BATCH = 12
 for (let i = 0; i < pending.length; i += BATCH) {
   const batch = pending.slice(i, i + BATCH)

@@ -11,7 +11,7 @@
 // Run via `npm run build`; parse is triggered automatically via the
 // `prebuild` lifecycle script before this executes.
 
-import { existsSync, renameSync, mkdirSync, rmSync } from 'node:fs'
+import { existsSync, renameSync, mkdirSync, rmSync, readFileSync, statSync } from 'node:fs'
 import { spawnSync } from 'node:child_process'
 import { join } from 'node:path'
 
@@ -55,6 +55,33 @@ try {
     }
   }
   if (existsSync(STASH_ROOT)) rmSync(STASH_ROOT, { recursive: true, force: true })
+}
+
+// Shipped-page regression guard. Every hasContent:true civ MUST have a real
+// page in out/. This is the single check that prevents the recurring "civ
+// groups turned off in prod" regression; wiring it into the build makes it
+// fail-closed — a build missing a shipped civ cannot be deployed, and nobody
+// has to remember to run it. (ship-check is per-civ and pre-build, so it is
+// the wrong home; this was the one genuinely valuable part of the discarded
+// promote.mjs.) Only runs if next build itself succeeded.
+if (exitCode === 0) {
+  const navSrc = readFileSync(join(ROOT, 'src/lib/navigator-tls.ts'), 'utf8')
+  const shipped = [...navSrc.matchAll(/id:\s*'([a-z0-9-]+)'[^}]*hasContent:\s*true/g)].map((m) => m[1])
+  const missing = []
+  for (const id of shipped) {
+    const p = join(ROOT, 'out', id, 'index.html')
+    if (!existsSync(p) || statSync(p).size < 20000) {
+      missing.push(`${id}${existsSync(p) ? ` (thin ${statSync(p).size}b)` : ' (absent)'}`)
+    }
+  }
+  if (missing.length) {
+    console.error(`\n[build-static] ✗ SHIPPED-PAGE GUARD FAILED: ${missing.length}/${shipped.length} hasContent civ(s) missing or thin in out/:`)
+    console.error(`  ${missing.join(', ')}`)
+    console.error('  This is exactly the "civ turned off in prod" regression — refusing the build.')
+    exitCode = 1
+  } else {
+    console.log(`[build-static] ✓ shipped-page guard: all ${shipped.length} hasContent civs rendered in out/`)
+  }
 }
 
 process.exit(exitCode)
