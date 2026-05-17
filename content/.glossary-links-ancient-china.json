@@ -1,226 +1,1296 @@
 {
   "1": [
-    {"term": "Great Wall of China", "matchText": "Great Wall", "wikiSlug": "Great_Wall_of_China", "type": "place"},
-    {"term": "Forbidden City", "matchText": "Forbidden City", "wikiSlug": "Forbidden_City", "type": "place"},
-    {"term": "Confucius", "matchText": "Confucius", "wikiSlug": "Confucius", "type": "people"},
-    {"term": "Mesopotamia", "matchText": "Mesopotamia", "wikiSlug": "Mesopotamia", "type": "place"},
-    {"term": "cuneiform", "matchText": "cuneiform", "wikiSlug": "Cuneiform", "type": "concept"},
-    {"term": "Indus Valley Civilisation", "matchText": "Indus Valley civilization", "wikiSlug": "Indus_Valley_Civilisation", "type": "place"},
-    {"term": "Tibetan Plateau", "matchText": "Tibetan Plateau", "wikiSlug": "Tibetan_Plateau", "type": "place"},
-    {"term": "Himalayas", "matchText": "Himalayas", "wikiSlug": "Himalayas", "type": "place"},
-    {"term": "Kunlun Mountains", "matchText": "Kunlun Mountains", "wikiSlug": "Kunlun_Mountains", "type": "place"},
-    {"term": "Xinjiang", "matchText": "Xinjiang", "wikiSlug": "Xinjiang", "type": "place"},
-    {"term": "Mekong", "matchText": "Mekong", "wikiSlug": "Mekong", "type": "place"},
-    {"term": "Brahmaputra", "matchText": "Brahmaputra", "wikiSlug": "Brahmaputra_River", "type": "place"},
-    {"term": "Yellow River", "matchText": "Yellow River", "wikiSlug": "Yellow_River", "type": "place"},
-    {"term": "Yangtze", "matchText": "Yangtze", "wikiSlug": "Yangtze", "type": "place"},
-    {"term": "Ordos Desert", "matchText": "Ordos Desert", "wikiSlug": "Ordos_Desert", "type": "place"},
-    {"term": "Bohai Sea", "matchText": "Bohai Sea", "wikiSlug": "Bohai_Sea", "type": "place"},
-    {"term": "Loess Plateau", "matchText": "Loess Plateau", "wikiSlug": "Loess_Plateau", "type": "place"},
-    {"term": "loess", "matchText": "loess", "wikiSlug": "Loess", "type": "concept"},
-    {"term": "Shanxi", "matchText": "Shanxi", "wikiSlug": "Shanxi", "type": "place"},
-    {"term": "Shaanxi", "matchText": "Shaanxi", "wikiSlug": "Shaanxi", "type": "place"},
-    {"term": "Three Gorges", "matchText": "Three Gorges", "wikiSlug": "Three_Gorges", "type": "place"},
-    {"term": "Sichuan", "matchText": "Sichuan", "wikiSlug": "Sichuan", "type": "place"},
-    {"term": "Henan", "matchText": "Henan", "wikiSlug": "Henan", "type": "place"},
-    {"term": "oracle bones", "matchText": "oracle bones", "wikiSlug": "Oracle_bone", "type": "concept"},
-    {"term": "Mongolian steppe", "matchText": "Mongolian steppe", "wikiSlug": "Mongolian-Manchurian_grassland", "type": "place"},
-    {"term": "Liaoning", "matchText": "Liaoning", "wikiSlug": "Liaoning", "type": "place"},
-    {"term": "Inner Mongolia", "matchText": "Inner Mongolia", "wikiSlug": "Inner_Mongolia", "type": "place"},
-    {"term": "Hongshan culture", "matchText": "Hongshan", "wikiSlug": "Hongshan_culture", "type": "people"},
-    {"term": "Last Glacial Period", "matchText": "last glacial period", "wikiSlug": "Last_Glacial_Period", "type": "concept"},
-    {"term": "North China Plain", "matchText": "North China Plain", "wikiSlug": "North_China_Plain", "type": "place"},
-    {"term": "Jiahu", "matchText": "Jiahu", "wikiSlug": "Jiahu", "type": "place"},
-    {"term": "red-crowned crane", "matchText": "red-crowned crane", "wikiSlug": "Red-crowned_crane", "type": "concept"}
+    {
+      "term": "Great Wall of China",
+      "matchText": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China",
+      "type": "place"
+    },
+    {
+      "term": "Forbidden City",
+      "matchText": "Forbidden City",
+      "wikiSlug": "Forbidden_City",
+      "type": "place"
+    },
+    {
+      "term": "Confucius",
+      "matchText": "Confucius",
+      "wikiSlug": "Confucius",
+      "type": "people"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "cuneiform",
+      "matchText": "cuneiform",
+      "wikiSlug": "Cuneiform",
+      "type": "concept"
+    },
+    {
+      "term": "Indus Valley Civilisation",
+      "matchText": "Indus Valley civilization",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "place"
+    },
+    {
+      "term": "Tibetan Plateau",
+      "matchText": "Tibetan Plateau",
+      "wikiSlug": "Tibetan_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayas",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "Kunlun Mountains",
+      "matchText": "Kunlun Mountains",
+      "wikiSlug": "Kunlun_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Xinjiang",
+      "matchText": "Xinjiang",
+      "wikiSlug": "Xinjiang",
+      "type": "place"
+    },
+    {
+      "term": "Mekong",
+      "matchText": "Mekong",
+      "wikiSlug": "Mekong",
+      "type": "place"
+    },
+    {
+      "term": "Brahmaputra",
+      "matchText": "Brahmaputra",
+      "wikiSlug": "Brahmaputra_River",
+      "type": "place"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Yangtze",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze",
+      "type": "place"
+    },
+    {
+      "term": "Ordos Desert",
+      "matchText": "Ordos Desert",
+      "wikiSlug": "Ordos_Desert",
+      "type": "place"
+    },
+    {
+      "term": "Bohai Sea",
+      "matchText": "Bohai Sea",
+      "wikiSlug": "Bohai_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Loess Plateau",
+      "matchText": "Loess Plateau",
+      "wikiSlug": "Loess_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "loess",
+      "matchText": "loess",
+      "wikiSlug": "Loess",
+      "type": "concept"
+    },
+    {
+      "term": "Shanxi",
+      "matchText": "Shanxi",
+      "wikiSlug": "Shanxi",
+      "type": "place"
+    },
+    {
+      "term": "Shaanxi",
+      "matchText": "Shaanxi",
+      "wikiSlug": "Shaanxi",
+      "type": "place"
+    },
+    {
+      "term": "Three Gorges",
+      "matchText": "Three Gorges",
+      "wikiSlug": "Three_Gorges",
+      "type": "place"
+    },
+    {
+      "term": "Sichuan",
+      "matchText": "Sichuan",
+      "wikiSlug": "Sichuan",
+      "type": "place"
+    },
+    {
+      "term": "Henan",
+      "matchText": "Henan",
+      "wikiSlug": "Henan",
+      "type": "place"
+    },
+    {
+      "term": "oracle bones",
+      "matchText": "oracle bones",
+      "wikiSlug": "Oracle_bone",
+      "type": "concept"
+    },
+    {
+      "term": "Mongolian steppe",
+      "matchText": "Mongolian steppe",
+      "wikiSlug": "Mongolian-Manchurian_grassland",
+      "type": "place"
+    },
+    {
+      "term": "Liaoning",
+      "matchText": "Liaoning",
+      "wikiSlug": "Liaoning",
+      "type": "place"
+    },
+    {
+      "term": "Inner Mongolia",
+      "matchText": "Inner Mongolia",
+      "wikiSlug": "Inner_Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Hongshan culture",
+      "matchText": "Hongshan",
+      "wikiSlug": "Hongshan_culture",
+      "type": "people"
+    },
+    {
+      "term": "Last Glacial Period",
+      "matchText": "last glacial period",
+      "wikiSlug": "Last_Glacial_Period",
+      "type": "concept"
+    },
+    {
+      "term": "North China Plain",
+      "matchText": "North China Plain",
+      "wikiSlug": "North_China_Plain",
+      "type": "place"
+    },
+    {
+      "term": "Jiahu",
+      "matchText": "Jiahu",
+      "wikiSlug": "Jiahu",
+      "type": "place"
+    },
+    {
+      "term": "red-crowned crane",
+      "matchText": "red-crowned crane",
+      "wikiSlug": "Red-crowned_crane",
+      "type": "concept"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Huang He",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Yangtze",
+      "matchText": "Chang Jiang",
+      "wikiSlug": "Yangtze",
+      "type": "place"
+    }
   ],
   "2": [
-    {"term": "Neolithic", "matchText": "Neolithic", "wikiSlug": "Neolithic", "type": "concept"},
-    {"term": "Yellow River", "matchText": "Yellow River valley", "wikiSlug": "Yellow_River", "type": "place"},
-    {"term": "Hebei", "matchText": "Hebei", "wikiSlug": "Hebei", "type": "place"},
-    {"term": "Henan", "matchText": "Henan", "wikiSlug": "Henan", "type": "place"},
-    {"term": "millet", "matchText": "millet", "wikiSlug": "Millet", "type": "concept"},
-    {"term": "broomcorn millet", "matchText": "broomcorn millet", "wikiSlug": "Proso_millet", "type": "concept"},
-    {"term": "Shang dynasty", "matchText": "Shang dynasty", "wikiSlug": "Shang_dynasty", "type": "people"},
-    {"term": "Han dynasty", "matchText": "Han dynasty", "wikiSlug": "Han_dynasty", "type": "people"},
-    {"term": "Tang dynasty", "matchText": "Tang dynasty", "wikiSlug": "Tang_dynasty", "type": "people"},
-    {"term": "kiln", "matchText": "kiln", "wikiSlug": "Kiln", "type": "concept"},
-    {"term": "Taihang Mountains", "matchText": "Taihang Mountains", "wikiSlug": "Taihang_Mountains", "type": "place"},
-    {"term": "Cishan culture", "matchText": "Cishan culture", "wikiSlug": "Cishan_culture", "type": "people"},
-    {"term": "Yangtze River valley", "matchText": "Yangtze River valley", "wikiSlug": "Yangtze", "type": "place"},
-    {"term": "rice", "matchText": "rice", "wikiSlug": "Rice", "type": "concept"},
-    {"term": "Oryza rufipogon", "matchText": "Oryza rufipogon", "wikiSlug": "Oryza_rufipogon", "type": "concept"},
-    {"term": "paddy field", "matchText": "paddy agriculture", "wikiSlug": "Paddy_field", "type": "concept"},
-    {"term": "Shangshan culture", "matchText": "Shangshan", "wikiSlug": "Shangshan_culture", "type": "place"},
-    {"term": "Jiahu", "matchText": "Jiahu", "wikiSlug": "Jiahu", "type": "place"},
-    {"term": "pentatonic scale", "matchText": "pentatonic", "wikiSlug": "Pentatonic_scale", "type": "concept"},
-    {"term": "oracle bone script", "matchText": "oracle bone script", "wikiSlug": "Oracle_bone_script", "type": "language"},
-    {"term": "Egyptian pyramids", "matchText": "Egyptian pyramids", "wikiSlug": "Egyptian_pyramids", "type": "place"}
+    {
+      "term": "Neolithic",
+      "matchText": "Neolithic",
+      "wikiSlug": "Neolithic",
+      "type": "concept"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River valley",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Hebei",
+      "matchText": "Hebei",
+      "wikiSlug": "Hebei",
+      "type": "place"
+    },
+    {
+      "term": "Henan",
+      "matchText": "Henan",
+      "wikiSlug": "Henan",
+      "type": "place"
+    },
+    {
+      "term": "millet",
+      "matchText": "millet",
+      "wikiSlug": "Millet",
+      "type": "concept"
+    },
+    {
+      "term": "broomcorn millet",
+      "matchText": "broomcorn millet",
+      "wikiSlug": "Proso_millet",
+      "type": "concept"
+    },
+    {
+      "term": "Shang dynasty",
+      "matchText": "Shang dynasty",
+      "wikiSlug": "Shang_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Han dynasty",
+      "matchText": "Han dynasty",
+      "wikiSlug": "Han_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Tang dynasty",
+      "matchText": "Tang dynasty",
+      "wikiSlug": "Tang_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "kiln",
+      "matchText": "kiln",
+      "wikiSlug": "Kiln",
+      "type": "concept"
+    },
+    {
+      "term": "Taihang Mountains",
+      "matchText": "Taihang Mountains",
+      "wikiSlug": "Taihang_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Cishan culture",
+      "matchText": "Cishan culture",
+      "wikiSlug": "Cishan_culture",
+      "type": "people"
+    },
+    {
+      "term": "Yangtze River valley",
+      "matchText": "Yangtze River valley",
+      "wikiSlug": "Yangtze",
+      "type": "place"
+    },
+    {
+      "term": "rice",
+      "matchText": "rice",
+      "wikiSlug": "Rice",
+      "type": "concept"
+    },
+    {
+      "term": "Oryza rufipogon",
+      "matchText": "Oryza rufipogon",
+      "wikiSlug": "Oryza_rufipogon",
+      "type": "concept"
+    },
+    {
+      "term": "paddy field",
+      "matchText": "paddy agriculture",
+      "wikiSlug": "Paddy_field",
+      "type": "concept"
+    },
+    {
+      "term": "Shangshan culture",
+      "matchText": "Shangshan",
+      "wikiSlug": "Shangshan_culture",
+      "type": "place"
+    },
+    {
+      "term": "Jiahu",
+      "matchText": "Jiahu",
+      "wikiSlug": "Jiahu",
+      "type": "place"
+    },
+    {
+      "term": "pentatonic scale",
+      "matchText": "pentatonic",
+      "wikiSlug": "Pentatonic_scale",
+      "type": "concept"
+    },
+    {
+      "term": "oracle bone script",
+      "matchText": "oracle bone script",
+      "wikiSlug": "Oracle_bone_script",
+      "type": "language"
+    },
+    {
+      "term": "Egyptian pyramids",
+      "matchText": "Egyptian pyramids",
+      "wikiSlug": "Egyptian_pyramids",
+      "type": "place"
+    }
   ],
   "3": [
-    {"term": "Yangshao culture", "matchText": "Yangshao culture", "wikiSlug": "Yangshao_culture", "type": "people"},
-    {"term": "Johan Gunnar Andersson", "matchText": "Johan Gunnar Andersson", "wikiSlug": "Johan_Gunnar_Andersson", "type": "people"},
-    {"term": "slip (ceramics)", "matchText": "slip", "wikiSlug": "Slip_(ceramics)", "type": "concept"},
-    {"term": "Xi'an", "matchText": "Xi'an", "wikiSlug": "Xi%27an", "type": "place"},
-    {"term": "Shaanxi", "matchText": "Shaanxi province", "wikiSlug": "Shaanxi", "type": "place"},
-    {"term": "Wei River", "matchText": "Wei River", "wikiSlug": "Wei_River", "type": "place"},
-    {"term": "Zhejiang", "matchText": "Zhejiang province", "wikiSlug": "Zhejiang", "type": "place"},
-    {"term": "mortise and tenon", "matchText": "mortise-and-tenon", "wikiSlug": "Mortise_and_tenon", "type": "concept"},
-    {"term": "water chestnut", "matchText": "water chestnut", "wikiSlug": "Eleocharis_dulcis", "type": "concept"},
-    {"term": "Chinese lacquerware", "matchText": "Chinese lacquerwork", "wikiSlug": "Chinese_lacquerware", "type": "concept"},
-    {"term": "lacquer tree", "matchText": "lacquer tree", "wikiSlug": "Toxicodendron_vernicifluum", "type": "concept"},
-    {"term": "Silk Road", "matchText": "Silk Road", "wikiSlug": "Silk_Road", "type": "place"},
-    {"term": "Bombyx mori", "matchText": "Bombyx mori", "wikiSlug": "Bombyx_mori", "type": "concept"},
-    {"term": "white mulberry", "matchText": "white mulberry", "wikiSlug": "Morus_alba", "type": "concept"},
-    {"term": "Leizu", "matchText": "Leizu", "wikiSlug": "Leizu", "type": "people"},
-    {"term": "Three Sovereigns and Five Emperors", "matchText": "Three Sovereigns and Five Emperors", "wikiSlug": "Three_Sovereigns_and_Five_Emperors", "type": "people"},
-    {"term": "Sima Qian", "matchText": "Sima Qian", "wikiSlug": "Sima_Qian", "type": "people"},
-    {"term": "Records of the Grand Historian", "matchText": "Records of the Grand Historian", "wikiSlug": "Records_of_the_Grand_Historian", "type": "concept"},
-    {"term": "Book of Documents", "matchText": "Book of Documents", "wikiSlug": "Book_of_Documents", "type": "concept"},
-    {"term": "Nüwa", "matchText": "Nüwa", "wikiSlug": "Nüwa", "type": "people"},
-    {"term": "Bagua", "matchText": "bagua", "wikiSlug": "Bagua", "type": "concept"},
-    {"term": "I Ching", "matchText": "I Ching", "wikiSlug": "I_Ching", "type": "concept"},
-    {"term": "feng shui", "matchText": "feng shui", "wikiSlug": "Feng_shui", "type": "concept"},
-    {"term": "Shennong Bencao Jing", "matchText": "Shennong Bencao Jing", "wikiSlug": "Shennong_Ben_Cao_Jing", "type": "concept"},
-    {"term": "traditional Chinese medicine", "matchText": "traditional Chinese medicine", "wikiSlug": "Traditional_Chinese_medicine", "type": "concept"},
-    {"term": "jade", "matchText": "jade", "wikiSlug": "Jade", "type": "concept"}
+    {
+      "term": "Yangshao culture",
+      "matchText": "Yangshao culture",
+      "wikiSlug": "Yangshao_culture",
+      "type": "people"
+    },
+    {
+      "term": "Johan Gunnar Andersson",
+      "matchText": "Johan Gunnar Andersson",
+      "wikiSlug": "Johan_Gunnar_Andersson",
+      "type": "people"
+    },
+    {
+      "term": "slip (ceramics)",
+      "matchText": "slip",
+      "wikiSlug": "Slip_(ceramics)",
+      "type": "concept"
+    },
+    {
+      "term": "Xi'an",
+      "matchText": "Xi'an",
+      "wikiSlug": "Xi%27an",
+      "type": "place"
+    },
+    {
+      "term": "Shaanxi",
+      "matchText": "Shaanxi province",
+      "wikiSlug": "Shaanxi",
+      "type": "place"
+    },
+    {
+      "term": "Wei River",
+      "matchText": "Wei River",
+      "wikiSlug": "Wei_River",
+      "type": "place"
+    },
+    {
+      "term": "Zhejiang",
+      "matchText": "Zhejiang province",
+      "wikiSlug": "Zhejiang",
+      "type": "place"
+    },
+    {
+      "term": "mortise and tenon",
+      "matchText": "mortise-and-tenon",
+      "wikiSlug": "Mortise_and_tenon",
+      "type": "concept"
+    },
+    {
+      "term": "water chestnut",
+      "matchText": "water chestnut",
+      "wikiSlug": "Eleocharis_dulcis",
+      "type": "concept"
+    },
+    {
+      "term": "Chinese lacquerware",
+      "matchText": "Chinese lacquerwork",
+      "wikiSlug": "Chinese_lacquerware",
+      "type": "concept"
+    },
+    {
+      "term": "lacquer tree",
+      "matchText": "lacquer tree",
+      "wikiSlug": "Toxicodendron_vernicifluum",
+      "type": "concept"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "place"
+    },
+    {
+      "term": "Bombyx mori",
+      "matchText": "Bombyx mori",
+      "wikiSlug": "Bombyx_mori",
+      "type": "concept"
+    },
+    {
+      "term": "white mulberry",
+      "matchText": "white mulberry",
+      "wikiSlug": "Morus_alba",
+      "type": "concept"
+    },
+    {
+      "term": "Leizu",
+      "matchText": "Leizu",
+      "wikiSlug": "Leizu",
+      "type": "people"
+    },
+    {
+      "term": "Three Sovereigns and Five Emperors",
+      "matchText": "Three Sovereigns and Five Emperors",
+      "wikiSlug": "Three_Sovereigns_and_Five_Emperors",
+      "type": "people"
+    },
+    {
+      "term": "Sima Qian",
+      "matchText": "Sima Qian",
+      "wikiSlug": "Sima_Qian",
+      "type": "people"
+    },
+    {
+      "term": "Records of the Grand Historian",
+      "matchText": "Records of the Grand Historian",
+      "wikiSlug": "Records_of_the_Grand_Historian",
+      "type": "concept"
+    },
+    {
+      "term": "Book of Documents",
+      "matchText": "Book of Documents",
+      "wikiSlug": "Book_of_Documents",
+      "type": "concept"
+    },
+    {
+      "term": "Nüwa",
+      "matchText": "Nüwa",
+      "wikiSlug": "Nüwa",
+      "type": "people"
+    },
+    {
+      "term": "Bagua",
+      "matchText": "bagua",
+      "wikiSlug": "Bagua",
+      "type": "concept"
+    },
+    {
+      "term": "I Ching",
+      "matchText": "I Ching",
+      "wikiSlug": "I_Ching",
+      "type": "concept"
+    },
+    {
+      "term": "feng shui",
+      "matchText": "feng shui",
+      "wikiSlug": "Feng_shui",
+      "type": "concept"
+    },
+    {
+      "term": "Shennong Bencao Jing",
+      "matchText": "Shennong Bencao Jing",
+      "wikiSlug": "Shennong_Ben_Cao_Jing",
+      "type": "concept"
+    },
+    {
+      "term": "traditional Chinese medicine",
+      "matchText": "traditional Chinese medicine",
+      "wikiSlug": "Traditional_Chinese_medicine",
+      "type": "concept"
+    },
+    {
+      "term": "jade",
+      "matchText": "jade",
+      "wikiSlug": "Jade",
+      "type": "concept"
+    }
   ],
   "4": [
-    {"term": "jade", "matchText": "Jade", "wikiSlug": "Jade", "type": "concept"},
-    {"term": "nephrite", "matchText": "nephrite", "wikiSlug": "Nephrite", "type": "concept"},
-    {"term": "jadeite", "matchText": "jadeite", "wikiSlug": "Jadeite", "type": "concept"},
-    {"term": "Kunlun Mountains", "matchText": "Kunlun Mountains", "wikiSlug": "Kunlun_Mountains", "type": "place"},
-    {"term": "Qing dynasty", "matchText": "Qing dynasty", "wikiSlug": "Qing_dynasty", "type": "people"},
-    {"term": "Zhou dynasty", "matchText": "Zhou dynasty", "wikiSlug": "Zhou_dynasty", "type": "people"},
-    {"term": "jade burial suit", "matchText": "suits stitched together from thousands of jade plaques", "wikiSlug": "Jade_burial_suit", "type": "concept"},
-    {"term": "Liaoning", "matchText": "Liaoning", "wikiSlug": "Liaoning", "type": "place"},
-    {"term": "Inner Mongolia", "matchText": "Inner Mongolia", "wikiSlug": "Inner_Mongolia", "type": "place"},
-    {"term": "Hongshan culture", "matchText": "Hongshan culture", "wikiSlug": "Hongshan_culture", "type": "people"},
-    {"term": "Niuheliang", "matchText": "Niuheliang", "wikiSlug": "Niuheliang", "type": "place"},
-    {"term": "Goddess Temple (Niuheliang)", "matchText": "Goddess Temple", "wikiSlug": "Niuheliang", "type": "place"},
-    {"term": "Chinese dragon", "matchText": "Chinese dragon", "wikiSlug": "Chinese_dragon", "type": "concept"},
-    {"term": "Ming dynasty", "matchText": "Ming dynasty", "wikiSlug": "Ming_dynasty", "type": "people"},
-    {"term": "Qin dynasty", "matchText": "Qin", "wikiSlug": "Qin_dynasty", "type": "people"},
-    {"term": "Qingming Festival", "matchText": "Qingming festival", "wikiSlug": "Qingming_Festival", "type": "concept"},
-    {"term": "Liangzhu culture", "matchText": "Liangzhu", "wikiSlug": "Liangzhu_culture", "type": "people"}
+    {
+      "term": "jade",
+      "matchText": "Jade",
+      "wikiSlug": "Jade",
+      "type": "concept"
+    },
+    {
+      "term": "nephrite",
+      "matchText": "nephrite",
+      "wikiSlug": "Nephrite",
+      "type": "concept"
+    },
+    {
+      "term": "jadeite",
+      "matchText": "jadeite",
+      "wikiSlug": "Jadeite",
+      "type": "concept"
+    },
+    {
+      "term": "Kunlun Mountains",
+      "matchText": "Kunlun Mountains",
+      "wikiSlug": "Kunlun_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing dynasty",
+      "wikiSlug": "Qing_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Zhou dynasty",
+      "matchText": "Zhou dynasty",
+      "wikiSlug": "Zhou_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "jade burial suit",
+      "matchText": "suits stitched together from thousands of jade plaques",
+      "wikiSlug": "Jade_burial_suit",
+      "type": "concept"
+    },
+    {
+      "term": "Liaoning",
+      "matchText": "Liaoning",
+      "wikiSlug": "Liaoning",
+      "type": "place"
+    },
+    {
+      "term": "Inner Mongolia",
+      "matchText": "Inner Mongolia",
+      "wikiSlug": "Inner_Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Hongshan culture",
+      "matchText": "Hongshan culture",
+      "wikiSlug": "Hongshan_culture",
+      "type": "people"
+    },
+    {
+      "term": "Niuheliang",
+      "matchText": "Niuheliang",
+      "wikiSlug": "Niuheliang",
+      "type": "place"
+    },
+    {
+      "term": "Goddess Temple (Niuheliang)",
+      "matchText": "Goddess Temple",
+      "wikiSlug": "Niuheliang",
+      "type": "place"
+    },
+    {
+      "term": "Chinese dragon",
+      "matchText": "Chinese dragon",
+      "wikiSlug": "Chinese_dragon",
+      "type": "concept"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming dynasty",
+      "wikiSlug": "Ming_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Qin dynasty",
+      "matchText": "Qin",
+      "wikiSlug": "Qin_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Qingming Festival",
+      "matchText": "Qingming festival",
+      "wikiSlug": "Qingming_Festival",
+      "type": "concept"
+    },
+    {
+      "term": "Liangzhu culture",
+      "matchText": "Liangzhu",
+      "wikiSlug": "Liangzhu_culture",
+      "type": "people"
+    },
+    {
+      "term": "Pig dragon",
+      "matchText": "pig-dragon",
+      "wikiSlug": "Pig_dragon",
+      "type": "concept"
+    }
   ],
   "5": [
-    {"term": "Liangzhu culture", "matchText": "Liangzhu", "wikiSlug": "Liangzhu_culture", "type": "people"},
-    {"term": "Hangzhou", "matchText": "Hangzhou", "wikiSlug": "Hangzhou", "type": "place"},
-    {"term": "Zhejiang", "matchText": "Zhejiang province", "wikiSlug": "Zhejiang", "type": "place"},
-    {"term": "Lake Tai", "matchText": "Lake Tai", "wikiSlug": "Lake_Tai", "type": "place"},
-    {"term": "UNESCO World Heritage Site", "matchText": "UNESCO World Heritage Site", "wikiSlug": "World_Heritage_Site", "type": "concept"},
-    {"term": "Forbidden City", "matchText": "Forbidden City", "wikiSlug": "Forbidden_City", "type": "place"},
-    {"term": "rammed earth", "matchText": "rammed earth", "wikiSlug": "Rammed_earth", "type": "concept"},
-    {"term": "Han dynasty", "matchText": "Han dynasty", "wikiSlug": "Han_dynasty", "type": "people"},
-    {"term": "chiefdom", "matchText": "chiefdom", "wikiSlug": "Chiefdom", "type": "concept"},
-    {"term": "Hongshan culture", "matchText": "Hongshan", "wikiSlug": "Hongshan_culture", "type": "people"},
-    {"term": "Bi (jade)", "matchText": "bi", "wikiSlug": "Bi_(jade)", "type": "concept"},
-    {"term": "Cong (jade)", "matchText": "cong", "wikiSlug": "Cong_(vessel)", "type": "concept"},
-    {"term": "yue (weapon)", "matchText": "jade ceremonial axe", "wikiSlug": "Yue_(weapon)", "type": "concept"},
-    {"term": "taotie", "matchText": "taotie", "wikiSlug": "Taotie", "type": "concept"},
-    {"term": "Shang bronzes", "matchText": "Shang bronzes", "wikiSlug": "Chinese_ritual_bronzes", "type": "concept"},
-    {"term": "Fanshan", "matchText": "Fanshan burial ground", "wikiSlug": "Liangzhu_culture", "type": "place"},
-    {"term": "4.2-kiloyear event", "matchText": "4.2 kiloyear event", "wikiSlug": "4.2-kiloyear_event", "type": "concept"},
-    {"term": "Akkadian Empire", "matchText": "Akkadian Empire", "wikiSlug": "Akkadian_Empire", "type": "people"},
-    {"term": "Old Kingdom of Egypt", "matchText": "Egypt's Old Kingdom", "wikiSlug": "Old_Kingdom_of_Egypt", "type": "place"},
-    {"term": "Indus Valley Civilisation", "matchText": "Indus Valley Civilization", "wikiSlug": "Indus_Valley_Civilisation", "type": "place"},
-    {"term": "Yu the Great", "matchText": "Yu the Great", "wikiSlug": "Yu_the_Great", "type": "people"},
-    {"term": "Longshan culture", "matchText": "Longshan horizon", "wikiSlug": "Longshan_culture", "type": "people"}
+    {
+      "term": "Liangzhu culture",
+      "matchText": "Liangzhu",
+      "wikiSlug": "Liangzhu_culture",
+      "type": "people"
+    },
+    {
+      "term": "Hangzhou",
+      "matchText": "Hangzhou",
+      "wikiSlug": "Hangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Zhejiang",
+      "matchText": "Zhejiang province",
+      "wikiSlug": "Zhejiang",
+      "type": "place"
+    },
+    {
+      "term": "Lake Tai",
+      "matchText": "Lake Tai",
+      "wikiSlug": "Lake_Tai",
+      "type": "place"
+    },
+    {
+      "term": "UNESCO World Heritage Site",
+      "matchText": "UNESCO World Heritage Site",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
+    },
+    {
+      "term": "Forbidden City",
+      "matchText": "Forbidden City",
+      "wikiSlug": "Forbidden_City",
+      "type": "place"
+    },
+    {
+      "term": "rammed earth",
+      "matchText": "rammed earth",
+      "wikiSlug": "Rammed_earth",
+      "type": "concept"
+    },
+    {
+      "term": "Han dynasty",
+      "matchText": "Han dynasty",
+      "wikiSlug": "Han_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "chiefdom",
+      "matchText": "chiefdom",
+      "wikiSlug": "Chiefdom",
+      "type": "concept"
+    },
+    {
+      "term": "Hongshan culture",
+      "matchText": "Hongshan",
+      "wikiSlug": "Hongshan_culture",
+      "type": "people"
+    },
+    {
+      "term": "Bi (jade)",
+      "matchText": "bi",
+      "wikiSlug": "Bi_(jade)",
+      "type": "concept"
+    },
+    {
+      "term": "Cong (jade)",
+      "matchText": "cong",
+      "wikiSlug": "Cong_(vessel)",
+      "type": "concept"
+    },
+    {
+      "term": "yue (weapon)",
+      "matchText": "jade ceremonial axe",
+      "wikiSlug": "Yue_(weapon)",
+      "type": "concept"
+    },
+    {
+      "term": "taotie",
+      "matchText": "taotie",
+      "wikiSlug": "Taotie",
+      "type": "concept"
+    },
+    {
+      "term": "Shang bronzes",
+      "matchText": "Shang bronzes",
+      "wikiSlug": "Chinese_ritual_bronzes",
+      "type": "concept"
+    },
+    {
+      "term": "Fanshan",
+      "matchText": "Fanshan burial ground",
+      "wikiSlug": "Liangzhu_culture",
+      "type": "place"
+    },
+    {
+      "term": "4.2-kiloyear event",
+      "matchText": "4.2 kiloyear event",
+      "wikiSlug": "4.2-kiloyear_event",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian Empire",
+      "matchText": "Akkadian Empire",
+      "wikiSlug": "Akkadian_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Old Kingdom of Egypt",
+      "matchText": "Egypt's Old Kingdom",
+      "wikiSlug": "Old_Kingdom_of_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Indus Valley Civilisation",
+      "matchText": "Indus Valley Civilization",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "place"
+    },
+    {
+      "term": "Yu the Great",
+      "matchText": "Yu the Great",
+      "wikiSlug": "Yu_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Longshan culture",
+      "matchText": "Longshan horizon",
+      "wikiSlug": "Longshan_culture",
+      "type": "people"
+    }
   ],
   "6": [
-    {"term": "Longshan culture", "matchText": "Longshan horizon", "wikiSlug": "Longshan_culture", "type": "people"},
-    {"term": "North China Plain", "matchText": "North China Plain", "wikiSlug": "North_China_Plain", "type": "place"},
-    {"term": "Yangshao culture", "matchText": "Yangshao", "wikiSlug": "Yangshao_culture", "type": "people"},
-    {"term": "potter's wheel", "matchText": "fast kick-wheel", "wikiSlug": "Potter%27s_wheel", "type": "concept"},
-    {"term": "reduction firing", "matchText": "reduction firing", "wikiSlug": "Reduction_atmosphere", "type": "concept"},
-    {"term": "bronze casting", "matchText": "bronze casting", "wikiSlug": "Bronze_casting", "type": "concept"},
-    {"term": "Shandong", "matchText": "Shandong", "wikiSlug": "Shandong", "type": "place"},
-    {"term": "rammed earth", "matchText": "rammed-earth walls", "wikiSlug": "Rammed_earth", "type": "concept"},
-    {"term": "hangtu", "matchText": "hangtu", "wikiSlug": "Rammed_earth", "type": "concept"},
-    {"term": "Uruk", "matchText": "Uruk", "wikiSlug": "Uruk", "type": "place"},
-    {"term": "Kot Diji", "matchText": "Kot Diji", "wikiSlug": "Kot_Diji", "type": "place"},
-    {"term": "Taosi", "matchText": "Taosi", "wikiSlug": "Taosi", "type": "place"},
-    {"term": "Liangchengzhen", "matchText": "Liangchengzhen", "wikiSlug": "Liangchengzhen", "type": "place"},
-    {"term": "foundation sacrifice", "matchText": "foundation sacrifice", "wikiSlug": "Foundation_sacrifice", "type": "concept"},
-    {"term": "Royal Cemetery at Ur", "matchText": "Royal Tombs of Ur", "wikiSlug": "Royal_Cemetery_at_Ur", "type": "place"},
-    {"term": "Five Emperors", "matchText": "Five Emperors", "wikiSlug": "Three_Sovereigns_and_Five_Emperors", "type": "people"},
-    {"term": "Huangdi", "matchText": "Huangdi", "wikiSlug": "Yellow_Emperor", "type": "people"},
-    {"term": "Han Chinese", "matchText": "Han Chinese", "wikiSlug": "Han_Chinese", "type": "people"},
-    {"term": "Leizu", "matchText": "Leizu", "wikiSlug": "Leizu", "type": "people"},
-    {"term": "Chiyou", "matchText": "Chi You", "wikiSlug": "Chiyou", "type": "people"},
-    {"term": "Quipu", "matchText": "quipus", "wikiSlug": "Quipu", "type": "concept"},
-    {"term": "Chinese characters", "matchText": "Chinese characters", "wikiSlug": "Chinese_characters", "type": "language"},
-    {"term": "ancestor worship", "matchText": "Ancestor worship", "wikiSlug": "Ancestor_veneration_in_China", "type": "concept"},
-    {"term": "lapis lazuli", "matchText": "lapis lazuli", "wikiSlug": "Lapis_lazuli", "type": "concept"},
-    {"term": "Badakhshan", "matchText": "Badakhshan", "wikiSlug": "Badakhshan", "type": "place"},
-    {"term": "Shortughai", "matchText": "Shortughai", "wikiSlug": "Shortugai", "type": "place"},
-    {"term": "solstice", "matchText": "summer solstice", "wikiSlug": "Solstice", "type": "concept"},
-    {"term": "equinox", "matchText": "spring equinox", "wikiSlug": "Equinox", "type": "concept"},
-    {"term": "Stonehenge", "matchText": "Stonehenge", "wikiSlug": "Stonehenge", "type": "place"},
-    {"term": "Emperor Yao", "matchText": "Emperor Yao", "wikiSlug": "Emperor_Yao", "type": "people"},
-    {"term": "Son of Heaven", "matchText": "Son of Heaven", "wikiSlug": "Son_of_Heaven", "type": "concept"}
+    {
+      "term": "Longshan culture",
+      "matchText": "Longshan horizon",
+      "wikiSlug": "Longshan_culture",
+      "type": "people"
+    },
+    {
+      "term": "North China Plain",
+      "matchText": "North China Plain",
+      "wikiSlug": "North_China_Plain",
+      "type": "place"
+    },
+    {
+      "term": "Yangshao culture",
+      "matchText": "Yangshao",
+      "wikiSlug": "Yangshao_culture",
+      "type": "people"
+    },
+    {
+      "term": "potter's wheel",
+      "matchText": "fast kick-wheel",
+      "wikiSlug": "Potter%27s_wheel",
+      "type": "concept"
+    },
+    {
+      "term": "reduction firing",
+      "matchText": "reduction firing",
+      "wikiSlug": "Reduction_atmosphere",
+      "type": "concept"
+    },
+    {
+      "term": "bronze casting",
+      "matchText": "bronze casting",
+      "wikiSlug": "Bronze_casting",
+      "type": "concept"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    },
+    {
+      "term": "rammed earth",
+      "matchText": "rammed-earth walls",
+      "wikiSlug": "Rammed_earth",
+      "type": "concept"
+    },
+    {
+      "term": "hangtu",
+      "matchText": "hangtu",
+      "wikiSlug": "Rammed_earth",
+      "type": "concept"
+    },
+    {
+      "term": "Uruk",
+      "matchText": "Uruk",
+      "wikiSlug": "Uruk",
+      "type": "place"
+    },
+    {
+      "term": "Kot Diji",
+      "matchText": "Kot Diji",
+      "wikiSlug": "Kot_Diji",
+      "type": "place"
+    },
+    {
+      "term": "Taosi",
+      "matchText": "Taosi",
+      "wikiSlug": "Taosi",
+      "type": "place"
+    },
+    {
+      "term": "Liangchengzhen",
+      "matchText": "Liangchengzhen",
+      "wikiSlug": "Liangchengzhen",
+      "type": "place"
+    },
+    {
+      "term": "foundation sacrifice",
+      "matchText": "foundation sacrifice",
+      "wikiSlug": "Foundation_sacrifice",
+      "type": "concept"
+    },
+    {
+      "term": "Royal Cemetery at Ur",
+      "matchText": "Royal Tombs of Ur",
+      "wikiSlug": "Royal_Cemetery_at_Ur",
+      "type": "place"
+    },
+    {
+      "term": "Five Emperors",
+      "matchText": "Five Emperors",
+      "wikiSlug": "Three_Sovereigns_and_Five_Emperors",
+      "type": "people"
+    },
+    {
+      "term": "Huangdi",
+      "matchText": "Huangdi",
+      "wikiSlug": "Yellow_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Han Chinese",
+      "matchText": "Han Chinese",
+      "wikiSlug": "Han_Chinese",
+      "type": "people"
+    },
+    {
+      "term": "Leizu",
+      "matchText": "Leizu",
+      "wikiSlug": "Leizu",
+      "type": "people"
+    },
+    {
+      "term": "Chiyou",
+      "matchText": "Chi You",
+      "wikiSlug": "Chiyou",
+      "type": "people"
+    },
+    {
+      "term": "Quipu",
+      "matchText": "quipus",
+      "wikiSlug": "Quipu",
+      "type": "concept"
+    },
+    {
+      "term": "Chinese characters",
+      "matchText": "Chinese characters",
+      "wikiSlug": "Chinese_characters",
+      "type": "language"
+    },
+    {
+      "term": "ancestor worship",
+      "matchText": "Ancestor worship",
+      "wikiSlug": "Ancestor_veneration_in_China",
+      "type": "concept"
+    },
+    {
+      "term": "lapis lazuli",
+      "matchText": "lapis lazuli",
+      "wikiSlug": "Lapis_lazuli",
+      "type": "concept"
+    },
+    {
+      "term": "Badakhshan",
+      "matchText": "Badakhshan",
+      "wikiSlug": "Badakhshan",
+      "type": "place"
+    },
+    {
+      "term": "Shortughai",
+      "matchText": "Shortughai",
+      "wikiSlug": "Shortugai",
+      "type": "place"
+    },
+    {
+      "term": "solstice",
+      "matchText": "summer solstice",
+      "wikiSlug": "Solstice",
+      "type": "concept"
+    },
+    {
+      "term": "equinox",
+      "matchText": "spring equinox",
+      "wikiSlug": "Equinox",
+      "type": "concept"
+    },
+    {
+      "term": "Stonehenge",
+      "matchText": "Stonehenge",
+      "wikiSlug": "Stonehenge",
+      "type": "place"
+    },
+    {
+      "term": "Emperor Yao",
+      "matchText": "Emperor Yao",
+      "wikiSlug": "Emperor_Yao",
+      "type": "people"
+    },
+    {
+      "term": "Son of Heaven",
+      "matchText": "Son of Heaven",
+      "wikiSlug": "Son_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Yellow Emperor",
+      "matchText": "Yellow Emperor",
+      "wikiSlug": "Yellow_Emperor",
+      "type": "people"
+    }
   ],
   "7": [
-    {"term": "Records of the Grand Historian", "matchText": "Records of the Grand Historian", "wikiSlug": "Records_of_the_Grand_Historian", "type": "concept"},
-    {"term": "Emperor Yao", "matchText": "Emperor Yao", "wikiSlug": "Emperor_Yao", "type": "people"},
-    {"term": "Gun (Chinese mythology)", "matchText": "Gun", "wikiSlug": "Gun_(Chinese_mythology)", "type": "people"},
-    {"term": "Emperor Shun", "matchText": "Emperor Shun", "wikiSlug": "Emperor_Shun", "type": "people"},
-    {"term": "Danzhu", "matchText": "Danzhu", "wikiSlug": "Danzhu", "type": "people"},
-    {"term": "Qi of Xia", "matchText": "Qi", "wikiSlug": "Qi_of_Xia", "type": "people"},
-    {"term": "hereditary dynasty", "matchText": "hereditary dynasty", "wikiSlug": "Hereditary_monarchy", "type": "concept"},
-    {"term": "Qing dynasty", "matchText": "Qing emperor", "wikiSlug": "Qing_dynasty", "type": "people"},
-    {"term": "sinologist", "matchText": "sinologists", "wikiSlug": "Sinology", "type": "people"},
-    {"term": "Sima Qian", "matchText": "Sima Qian", "wikiSlug": "Sima_Qian", "type": "people"},
-    {"term": "Jishi Gorge", "matchText": "Jishi Gorge", "wikiSlug": "Jishi_Gorge", "type": "place"},
-    {"term": "Qinghai", "matchText": "Qinghai", "wikiSlug": "Qinghai", "type": "place"},
-    {"term": "Gansu", "matchText": "Gansu", "wikiSlug": "Gansu", "type": "place"},
-    {"term": "outburst flood", "matchText": "outburst", "wikiSlug": "Outburst_flood", "type": "concept"},
-    {"term": "4.2-kiloyear event", "matchText": "4.2 kiloyear event", "wikiSlug": "4.2-kiloyear_event", "type": "concept"},
-    {"term": "Akkadian Empire", "matchText": "Akkadian Empire", "wikiSlug": "Akkadian_Empire", "type": "people"},
-    {"term": "Old Kingdom of Egypt", "matchText": "Egyptian Old Kingdom", "wikiSlug": "Old_Kingdom_of_Egypt", "type": "place"},
-    {"term": "Indus Valley Civilisation", "matchText": "Indus Valley Civilization", "wikiSlug": "Indus_Valley_Civilisation", "type": "place"},
-    {"term": "Liangzhu culture", "matchText": "Liangzhu", "wikiSlug": "Liangzhu_culture", "type": "people"},
-    {"term": "Ziusudra", "matchText": "Ziusudra", "wikiSlug": "Ziusudra", "type": "people"},
-    {"term": "Erlitou culture", "matchText": "Erlitou culture", "wikiSlug": "Erlitou_culture", "type": "people"},
-    {"term": "Chinese calendar", "matchText": "Chinese lunisolar calendar", "wikiSlug": "Chinese_calendar", "type": "concept"},
-    {"term": "Chinese New Year", "matchText": "Chinese New Year", "wikiSlug": "Chinese_New_Year", "type": "concept"},
-    {"term": "Mid-Autumn Festival", "matchText": "Mid-Autumn Festival", "wikiSlug": "Mid-Autumn_Festival", "type": "concept"},
-    {"term": "Mandate of Heaven", "matchText": "Mandate of Heaven", "wikiSlug": "Mandate_of_Heaven", "type": "concept"},
-    {"term": "Zhou dynasty", "matchText": "Zhou dynasty", "wikiSlug": "Zhou_dynasty", "type": "people"},
-    {"term": "dynastic cycle", "matchText": "dynastic cycle", "wikiSlug": "Dynastic_cycle", "type": "concept"}
+    {
+      "term": "Records of the Grand Historian",
+      "matchText": "Records of the Grand Historian",
+      "wikiSlug": "Records_of_the_Grand_Historian",
+      "type": "concept"
+    },
+    {
+      "term": "Emperor Yao",
+      "matchText": "Emperor Yao",
+      "wikiSlug": "Emperor_Yao",
+      "type": "people"
+    },
+    {
+      "term": "Gun (Chinese mythology)",
+      "matchText": "Gun",
+      "wikiSlug": "Gun_(Chinese_mythology)",
+      "type": "people"
+    },
+    {
+      "term": "Emperor Shun",
+      "matchText": "Emperor Shun",
+      "wikiSlug": "Emperor_Shun",
+      "type": "people"
+    },
+    {
+      "term": "Danzhu",
+      "matchText": "Danzhu",
+      "wikiSlug": "Danzhu",
+      "type": "people"
+    },
+    {
+      "term": "Qi of Xia",
+      "matchText": "Qi",
+      "wikiSlug": "Qi_of_Xia",
+      "type": "people"
+    },
+    {
+      "term": "hereditary dynasty",
+      "matchText": "hereditary dynasty",
+      "wikiSlug": "Hereditary_monarchy",
+      "type": "concept"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing emperor",
+      "wikiSlug": "Qing_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "sinologist",
+      "matchText": "sinologists",
+      "wikiSlug": "Sinology",
+      "type": "people"
+    },
+    {
+      "term": "Sima Qian",
+      "matchText": "Sima Qian",
+      "wikiSlug": "Sima_Qian",
+      "type": "people"
+    },
+    {
+      "term": "Jishi Gorge",
+      "matchText": "Jishi Gorge",
+      "wikiSlug": "Jishi_Gorge",
+      "type": "place"
+    },
+    {
+      "term": "Qinghai",
+      "matchText": "Qinghai",
+      "wikiSlug": "Qinghai",
+      "type": "place"
+    },
+    {
+      "term": "Gansu",
+      "matchText": "Gansu",
+      "wikiSlug": "Gansu",
+      "type": "place"
+    },
+    {
+      "term": "outburst flood",
+      "matchText": "outburst",
+      "wikiSlug": "Outburst_flood",
+      "type": "concept"
+    },
+    {
+      "term": "4.2-kiloyear event",
+      "matchText": "4.2 kiloyear event",
+      "wikiSlug": "4.2-kiloyear_event",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian Empire",
+      "matchText": "Akkadian Empire",
+      "wikiSlug": "Akkadian_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Old Kingdom of Egypt",
+      "matchText": "Egyptian Old Kingdom",
+      "wikiSlug": "Old_Kingdom_of_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Indus Valley Civilisation",
+      "matchText": "Indus Valley Civilization",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "place"
+    },
+    {
+      "term": "Liangzhu culture",
+      "matchText": "Liangzhu",
+      "wikiSlug": "Liangzhu_culture",
+      "type": "people"
+    },
+    {
+      "term": "Ziusudra",
+      "matchText": "Ziusudra",
+      "wikiSlug": "Ziusudra",
+      "type": "people"
+    },
+    {
+      "term": "Erlitou culture",
+      "matchText": "Erlitou culture",
+      "wikiSlug": "Erlitou_culture",
+      "type": "people"
+    },
+    {
+      "term": "Chinese calendar",
+      "matchText": "Chinese lunisolar calendar",
+      "wikiSlug": "Chinese_calendar",
+      "type": "concept"
+    },
+    {
+      "term": "Chinese New Year",
+      "matchText": "Chinese New Year",
+      "wikiSlug": "Chinese_New_Year",
+      "type": "concept"
+    },
+    {
+      "term": "Mid-Autumn Festival",
+      "matchText": "Mid-Autumn Festival",
+      "wikiSlug": "Mid-Autumn_Festival",
+      "type": "concept"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Zhou dynasty",
+      "matchText": "Zhou dynasty",
+      "wikiSlug": "Zhou_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "dynastic cycle",
+      "matchText": "dynastic cycle",
+      "wikiSlug": "Dynastic_cycle",
+      "type": "concept"
+    },
+    {
+      "term": "Yu the Great",
+      "matchText": "Yi",
+      "wikiSlug": "Yu_the_Great",
+      "type": "people"
+    }
   ],
   "8": [
-    {"term": "Erlitou culture", "matchText": "Erlitou", "wikiSlug": "Erlitou_culture", "type": "place"},
-    {"term": "Luoyang", "matchText": "Luoyang", "wikiSlug": "Luoyang", "type": "place"},
-    {"term": "Henan", "matchText": "Henan province", "wikiSlug": "Henan", "type": "place"},
-    {"term": "Shang dynasty", "matchText": "Shang dynasty", "wikiSlug": "Shang_dynasty", "type": "people"},
-    {"term": "Anyang", "matchText": "Anyang", "wikiSlug": "Anyang", "type": "place"},
-    {"term": "Yinxu", "matchText": "Yinxu", "wikiSlug": "Yinxu", "type": "place"},
-    {"term": "oracle bones", "matchText": "oracle bones", "wikiSlug": "Oracle_bone", "type": "concept"},
-    {"term": "Xu Xusheng", "matchText": "Xu Xusheng", "wikiSlug": "Xu_Xusheng", "type": "people"},
-    {"term": "stratigraphy", "matchText": "stratigraphy", "wikiSlug": "Stratigraphy_(archaeology)", "type": "concept"},
-    {"term": "radiocarbon dating", "matchText": "radiocarbon analysis", "wikiSlug": "Radiocarbon_dating", "type": "concept"},
-    {"term": "Xia dynasty", "matchText": "Xia Dynasty", "wikiSlug": "Xia_dynasty", "type": "people"},
-    {"term": "rammed earth", "matchText": "rammed-earth", "wikiSlug": "Rammed_earth", "type": "concept"},
-    {"term": "colonnade", "matchText": "colonnade", "wikiSlug": "Colonnade", "type": "concept"},
-    {"term": "Weiyang Palace", "matchText": "Weiyang Palace", "wikiSlug": "Weiyang_Palace_(Han_dynasty)", "type": "place"},
-    {"term": "Chang'an", "matchText": "Chang'an", "wikiSlug": "Chang%27an", "type": "place"},
-    {"term": "Forbidden City", "matchText": "Forbidden City", "wikiSlug": "Forbidden_City", "type": "place"},
-    {"term": "Ming dynasty", "matchText": "Ming dynasty", "wikiSlug": "Ming_dynasty", "type": "people"},
-    {"term": "Jue (vessel)", "matchText": "jue", "wikiSlug": "Jue_(vessel)", "type": "concept"},
-    {"term": "piece-mold casting", "matchText": "piece-mold casting", "wikiSlug": "Chinese_ritual_bronzes", "type": "concept"},
-    {"term": "lost-wax casting", "matchText": "lost-wax casting", "wikiSlug": "Lost-wax_casting", "type": "concept"},
-    {"term": "taotie", "matchText": "taotie", "wikiSlug": "Taotie", "type": "concept"},
-    {"term": "Bronze Age", "matchText": "Chinese Bronze Age", "wikiSlug": "Bronze_Age", "type": "concept"},
-    {"term": "turquoise", "matchText": "turquoise", "wikiSlug": "Turquoise", "type": "concept"},
-    {"term": "tessera", "matchText": "tesserae", "wikiSlug": "Tessera", "type": "concept"},
-    {"term": "cowrie", "matchText": "Cowrie shells", "wikiSlug": "Cowrie", "type": "concept"},
-    {"term": "Tang of Shang", "matchText": "Tang of Shang", "wikiSlug": "Tang_of_Shang", "type": "people"},
-    {"term": "Mo Xi", "matchText": "Mo Xi", "wikiSlug": "Mo_Xi", "type": "people"},
-    {"term": "Di Xin", "matchText": "Di Xin", "wikiSlug": "King_Zhou_of_Shang", "type": "people"},
-    {"term": "Yi Yin", "matchText": "Yi Yin", "wikiSlug": "Yi_Yin", "type": "people"},
-    {"term": "Mandate of Heaven", "matchText": "Mandate of Heaven", "wikiSlug": "Mandate_of_Heaven", "type": "concept"},
-    {"term": "Battle of Muye", "matchText": "Battle of Muye", "wikiSlug": "Battle_of_Muye", "type": "concept"},
-    {"term": "dynastic cycle", "matchText": "dynastic cycle", "wikiSlug": "Dynastic_cycle", "type": "concept"}
+    {
+      "term": "Erlitou culture",
+      "matchText": "Erlitou",
+      "wikiSlug": "Erlitou_culture",
+      "type": "place"
+    },
+    {
+      "term": "Luoyang",
+      "matchText": "Luoyang",
+      "wikiSlug": "Luoyang",
+      "type": "place"
+    },
+    {
+      "term": "Henan",
+      "matchText": "Henan province",
+      "wikiSlug": "Henan",
+      "type": "place"
+    },
+    {
+      "term": "Shang dynasty",
+      "matchText": "Shang dynasty",
+      "wikiSlug": "Shang_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Anyang",
+      "matchText": "Anyang",
+      "wikiSlug": "Anyang",
+      "type": "place"
+    },
+    {
+      "term": "Yinxu",
+      "matchText": "Yinxu",
+      "wikiSlug": "Yinxu",
+      "type": "place"
+    },
+    {
+      "term": "oracle bones",
+      "matchText": "oracle bones",
+      "wikiSlug": "Oracle_bone",
+      "type": "concept"
+    },
+    {
+      "term": "Xu Xusheng",
+      "matchText": "Xu Xusheng",
+      "wikiSlug": "Xu_Xusheng",
+      "type": "people"
+    },
+    {
+      "term": "stratigraphy",
+      "matchText": "stratigraphy",
+      "wikiSlug": "Stratigraphy_(archaeology)",
+      "type": "concept"
+    },
+    {
+      "term": "radiocarbon dating",
+      "matchText": "radiocarbon analysis",
+      "wikiSlug": "Radiocarbon_dating",
+      "type": "concept"
+    },
+    {
+      "term": "Xia dynasty",
+      "matchText": "Xia Dynasty",
+      "wikiSlug": "Xia_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "rammed earth",
+      "matchText": "rammed-earth",
+      "wikiSlug": "Rammed_earth",
+      "type": "concept"
+    },
+    {
+      "term": "colonnade",
+      "matchText": "colonnade",
+      "wikiSlug": "Colonnade",
+      "type": "concept"
+    },
+    {
+      "term": "Weiyang Palace",
+      "matchText": "Weiyang Palace",
+      "wikiSlug": "Weiyang_Palace_(Han_dynasty)",
+      "type": "place"
+    },
+    {
+      "term": "Chang'an",
+      "matchText": "Chang'an",
+      "wikiSlug": "Chang%27an",
+      "type": "place"
+    },
+    {
+      "term": "Forbidden City",
+      "matchText": "Forbidden City",
+      "wikiSlug": "Forbidden_City",
+      "type": "place"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming dynasty",
+      "wikiSlug": "Ming_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Jue (vessel)",
+      "matchText": "jue",
+      "wikiSlug": "Jue_(vessel)",
+      "type": "concept"
+    },
+    {
+      "term": "piece-mold casting",
+      "matchText": "piece-mold casting",
+      "wikiSlug": "Chinese_ritual_bronzes",
+      "type": "concept"
+    },
+    {
+      "term": "lost-wax casting",
+      "matchText": "lost-wax casting",
+      "wikiSlug": "Lost-wax_casting",
+      "type": "concept"
+    },
+    {
+      "term": "taotie",
+      "matchText": "taotie",
+      "wikiSlug": "Taotie",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Chinese Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "turquoise",
+      "matchText": "turquoise",
+      "wikiSlug": "Turquoise",
+      "type": "concept"
+    },
+    {
+      "term": "tessera",
+      "matchText": "tesserae",
+      "wikiSlug": "Tessera",
+      "type": "concept"
+    },
+    {
+      "term": "cowrie",
+      "matchText": "Cowrie shells",
+      "wikiSlug": "Cowrie",
+      "type": "concept"
+    },
+    {
+      "term": "Tang of Shang",
+      "matchText": "Tang of Shang",
+      "wikiSlug": "Tang_of_Shang",
+      "type": "people"
+    },
+    {
+      "term": "Mo Xi",
+      "matchText": "Mo Xi",
+      "wikiSlug": "Mo_Xi",
+      "type": "people"
+    },
+    {
+      "term": "Di Xin",
+      "matchText": "Di Xin",
+      "wikiSlug": "King_Zhou_of_Shang",
+      "type": "people"
+    },
+    {
+      "term": "Yi Yin",
+      "matchText": "Yi Yin",
+      "wikiSlug": "Yi_Yin",
+      "type": "people"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Muye",
+      "matchText": "Battle of Muye",
+      "wikiSlug": "Battle_of_Muye",
+      "type": "concept"
+    },
+    {
+      "term": "dynastic cycle",
+      "matchText": "dynastic cycle",
+      "wikiSlug": "Dynastic_cycle",
+      "type": "concept"
+    }
   ]
 }
