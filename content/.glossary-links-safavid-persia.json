@@ -395,6 +395,12 @@
       "matchText": "Mashhad",
       "wikiSlug": "Mashhad",
       "type": "place"
+    },
+    {
+      "term": "Qizilbash",
+      "matchText": "Qizilbash",
+      "wikiSlug": "Qizilbash",
+      "type": "people"
     }
   ],
   "5": [
@@ -493,6 +499,12 @@
       "matchText": "hadith",
       "wikiSlug": "Hadith",
       "type": "concept"
+    },
+    {
+      "term": "Muhammad al-Mahdi",
+      "matchText": "Hidden Imam Muhammad al-Mahdi",
+      "wikiSlug": "Muhammad_al-Mahdi",
+      "type": "people"
     }
   ],
   "6": [
@@ -653,6 +665,12 @@
       "matchText": "Manchu conquest",
       "wikiSlug": "Qing_dynasty",
       "type": "concept"
+    },
+    {
+      "term": "Ghilman",
+      "matchText": "ghulam army",
+      "wikiSlug": "Ghilman",
+      "type": "concept"
     }
   ],
   "8": [
@@ -727,6 +745,18 @@
       "matchText": "Islamic Republic of Iran",
       "wikiSlug": "Iran",
       "type": "concept"
+    },
+    {
+      "term": "Nader Shah",
+      "matchText": "Nader",
+      "wikiSlug": "Nader_Shah",
+      "type": "people"
+    },
+    {
+      "term": "Ashraf Hotak",
+      "matchText": "Ashraf Hotak",
+      "wikiSlug": "Ashraf_Hotak",
+      "type": "people"
     }
   ]
 }

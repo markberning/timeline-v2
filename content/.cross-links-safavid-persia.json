@@ -29,6 +29,12 @@
       "targetTl": "ming-dynasty",
       "targetChapter": 1,
       "blurb": "While the Safaviyya was militarizing in northwestern Iran in the late fifteenth century, the Ming Dynasty in China was turning inward after the great voyages of Zheng He — contracting the same year the Safavids were expanding. The two empires at the opposite ends of Eurasia represent the divergence of early-modern trajectories: one turning outward and continental, one pulling back from maritime projection."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Safavid order arose in the post-Ilkhanate vacuum — the religious-military brotherhood filling the space the Mongol world-empire's collapse left in Iran."
     }
   ],
   "2": [
@@ -55,6 +61,24 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 1,
       "blurb": "The institutional Shia clerical network that Ismail was importing Lebanese scholars to build in 1501 was the direct descendant of the Shia scholarly traditions that had developed in Iraq during the Abbasid period — the same Iraq where the Islamic Golden Age's great intellectual synthesis had happened. The Safavids were, in this sense, the inheritors of the Abbasid-era clerical-scholarly infrastructure, redirected toward Twelver Shia rather than Sunni purposes."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Ismail's Shia revolution re-founded Iran as a state — the first durable Persian empire since the Sassanids fell to Islam nearly a millennium before."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Ismail's empire-by-charisma was being built the same decade Cortés destroyed the Aztecs — two messianic conquest-states, one rising, one falling."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 5,
+      "blurb": "Like Ashoka turning an empire to a creed, Ismail bound the Safavid state to Twelver Shiism — religion as the spine of a new imperial identity."
     }
   ],
   "3": [
@@ -81,6 +105,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 10,
       "blurb": "The Sasanian Empire destroyed in the Arab conquest of 651 CE had been the direct predecessor of the Safavid state on Iranian soil — the same Iranian plateau, the same administrative traditions, the same tension between a Persian-speaking culture and an imposed religion from outside. The Safavids saw themselves as heirs to the Iranian imperial tradition stretching back through the Sasanians to the Achaemenids, and the Shahnameh they patronized was the epic text that preserved that tradition."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Chaldiran (1514) — Ottoman guns shattering Safavid cavalry — set the western frontier that would define Iran for centuries, the old Persian-vs-west line redrawn."
     }
   ],
   "4": [
@@ -133,6 +163,12 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
       "blurb": "The Jabal Amil Shia scholarly community in Lebanon that supplied the Safavids with their founding clerical class had itself been formed in the intellectual culture of the Islamic Golden Age — trained in Arabic jurisprudence, philosophy, and hadith science at the great Shia scholarly centers of Najaf and Karbala. The Safavid importation of these scholars was a transfer of Islamic Golden Age institutional knowledge into a new state context."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Isfahan school's clergy-and-philosophy synthesis consciously revived the Sassanid-era fusion of Persian kingship and a state faith."
     }
   ],
   "6": [
@@ -153,6 +189,12 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
       "blurb": "Persian carpets, Safavid silk textiles, and Iranian luxury goods appear regularly in Dutch Golden Age paintings — most visibly as the exotic floor coverings in Vermeer's domestic interiors. The Dutch VOC that bought Safavid silk at Bandar Abbas was the same commercial organization that connected the Safavid economy to the Amsterdam commodity markets and made Iran an integral node of the seventeenth-century global trade system."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Safavid silk-and-carpet trade ran on the same Eurasian routes the Sassanids had worked — Iran again the hinge between east and west."
     }
   ],
   "7": [
@@ -205,6 +247,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 8,
       "blurb": "The Safavid collapse in 1722 preceded the Ottoman collapse by two centuries — but both were driven by the same structural forces: weak successors, military decay, fiscal exhaustion, and the growing pressure of European commercial and eventually military power. The Safavids fell to an Afghan tribal army; the Ottomans fell to nationalism and the Allied powers of World War I. Different immediate causes, the same civilizational pattern of the early-modern Islamic gunpowder empires reaching their institutional limits."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Afghan sack of Isfahan (1722) ended the Safavids the way steppe shocks ended earlier Iranian dynasties — sudden collapse from the frontier."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Nader Shah's brief restoration was a last echo of the Cyrus-to-Sassanid imperial tradition — Persian power flaring once more before fragmenting."
     }
   ]
 }

@@ -79,7 +79,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | mali-empire | 8 | **DONE** | 88177c8 |
 | songhai-empire | 8 | **DONE** West African chain COMPLETE | b3d827d |
 | elamite-civilization | 8 | **DONE** | a4c8b1e |
-| persian-empire | 10 | **DONE** | +this |
+| persian-empire | 10 | **DONE** | f9ba14d |
+| safavid-persia | 8 | **DONE** Persian Tradition chain COMPLETE | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
