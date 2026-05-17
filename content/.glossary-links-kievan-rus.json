@@ -1,314 +1,1772 @@
 {
   "1": [
-    { "term": "Kievan Rus'", "matchText": "Kievan Rus", "wikiSlug": "Kievan_Rus%27", "type": "institution" },
-    { "term": "Kyiv", "matchText": "Kyiv", "wikiSlug": "Kyiv", "type": "place" },
-    { "term": "Dnieper", "matchText": "Dnieper", "wikiSlug": "Dnieper", "type": "place" },
-    { "term": "steppe", "matchText": "the open steppe", "wikiSlug": "Eurasian_Steppe", "type": "place" },
-    { "term": "Carpathian Mountains", "matchText": "Carpathian Mountains", "wikiSlug": "Carpathian_Mountains", "type": "place" },
-    { "term": "Volga", "matchText": "the Volga", "wikiSlug": "Volga", "type": "place" },
-    { "term": "Caspian Sea", "matchText": "the Caspian", "wikiSlug": "Caspian_Sea", "type": "place" },
-    { "term": "Black Sea", "matchText": "the Black Sea", "wikiSlug": "Black_Sea", "type": "place" },
-    { "term": "Baltic Sea", "matchText": "the Baltic", "wikiSlug": "Baltic_Sea", "type": "place" },
-    { "term": "Nestor the Chronicler", "matchText": "Nestor", "wikiSlug": "Nestor_the_Chronicler", "type": "person" },
-    { "term": "Kyiv Pechersk Lavra", "matchText": "Kyiv Caves Monastery", "wikiSlug": "Kyiv_Pechersk_Lavra", "type": "institution" },
-    { "term": "Abbasid Caliphate", "matchText": "Abbasid Caliphate", "wikiSlug": "Abbasid_Caliphate", "type": "institution" },
-    { "term": "Constantine VII Porphyrogenitus", "matchText": "Constantine VII", "wikiSlug": "Constantine_VII", "type": "person" },
-    { "term": "De Administrando Imperio", "matchText": "De Administrando Imperio", "wikiSlug": "De_Administrando_Imperio", "type": "object" },
-    { "term": "Varangians", "matchText": "Varangians", "wikiSlug": "Varangians", "type": "people" },
-    { "term": "Norse", "matchText": "Norse", "wikiSlug": "Norsemen", "type": "people" },
-    { "term": "Vikings", "matchText": "Vikings", "wikiSlug": "Vikings", "type": "people" },
-    { "term": "Slavic languages", "matchText": "Slavic languages", "wikiSlug": "Slavic_languages", "type": "concept" },
-    { "term": "Polans", "matchText": "the Polans", "wikiSlug": "Polans_(eastern)", "type": "people" },
-    { "term": "Drevlians", "matchText": "the Drevlians", "wikiSlug": "Drevlians", "type": "people" },
-    { "term": "Novgorod", "matchText": "Novgorod", "wikiSlug": "Veliky_Novgorod", "type": "place" },
-    { "term": "Volkhov River", "matchText": "Volkhov", "wikiSlug": "Volkhov_(river)", "type": "place" },
-    { "term": "Lake Ladoga", "matchText": "Lake Ladoga", "wikiSlug": "Lake_Ladoga", "type": "place" },
-    { "term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place" },
-    { "term": "Byzantine Empire", "matchText": "Byzantine Empire", "wikiSlug": "Byzantine_Empire", "type": "institution" },
-    { "term": "Macedonian Renaissance", "matchText": "Macedonian Renaissance", "wikiSlug": "Macedonian_Renaissance", "type": "concept" },
-    { "term": "Pechenegs", "matchText": "Pechenegs", "wikiSlug": "Pechenegs", "type": "people" },
-    { "term": "Cumans", "matchText": "Cumans", "wikiSlug": "Cumans", "type": "people" },
-    { "term": "Charlemagne", "matchText": "Charlemagne", "wikiSlug": "Charlemagne", "type": "person" },
-    { "term": "Magyars", "matchText": "Magyars", "wikiSlug": "Hungarian_people", "type": "people" },
-    { "term": "Gotland", "matchText": "Gotland", "wikiSlug": "Gotland", "type": "place" }
+    {
+      "term": "Kievan Rus'",
+      "matchText": "Kievan Rus",
+      "wikiSlug": "Kievan_Rus%27",
+      "type": "institution"
+    },
+    {
+      "term": "Kyiv",
+      "matchText": "Kyiv",
+      "wikiSlug": "Kyiv",
+      "type": "place"
+    },
+    {
+      "term": "Dnieper",
+      "matchText": "Dnieper",
+      "wikiSlug": "Dnieper",
+      "type": "place"
+    },
+    {
+      "term": "steppe",
+      "matchText": "the open steppe",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
+    },
+    {
+      "term": "Carpathian Mountains",
+      "matchText": "Carpathian Mountains",
+      "wikiSlug": "Carpathian_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Volga",
+      "matchText": "the Volga",
+      "wikiSlug": "Volga",
+      "type": "place"
+    },
+    {
+      "term": "Caspian Sea",
+      "matchText": "the Caspian",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "the Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Baltic Sea",
+      "matchText": "the Baltic",
+      "wikiSlug": "Baltic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Nestor the Chronicler",
+      "matchText": "Nestor",
+      "wikiSlug": "Nestor_the_Chronicler",
+      "type": "person"
+    },
+    {
+      "term": "Kyiv Pechersk Lavra",
+      "matchText": "Kyiv Caves Monastery",
+      "wikiSlug": "Kyiv_Pechersk_Lavra",
+      "type": "institution"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "institution"
+    },
+    {
+      "term": "Constantine VII Porphyrogenitus",
+      "matchText": "Constantine VII",
+      "wikiSlug": "Constantine_VII",
+      "type": "person"
+    },
+    {
+      "term": "De Administrando Imperio",
+      "matchText": "De Administrando Imperio",
+      "wikiSlug": "De_Administrando_Imperio",
+      "type": "object"
+    },
+    {
+      "term": "Varangians",
+      "matchText": "Varangians",
+      "wikiSlug": "Varangians",
+      "type": "people"
+    },
+    {
+      "term": "Norse",
+      "matchText": "Norse",
+      "wikiSlug": "Norsemen",
+      "type": "people"
+    },
+    {
+      "term": "Vikings",
+      "matchText": "Vikings",
+      "wikiSlug": "Vikings",
+      "type": "people"
+    },
+    {
+      "term": "Slavic languages",
+      "matchText": "Slavic languages",
+      "wikiSlug": "Slavic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Polans",
+      "matchText": "the Polans",
+      "wikiSlug": "Polans_(eastern)",
+      "type": "people"
+    },
+    {
+      "term": "Drevlians",
+      "matchText": "the Drevlians",
+      "wikiSlug": "Drevlians",
+      "type": "people"
+    },
+    {
+      "term": "Novgorod",
+      "matchText": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod",
+      "type": "place"
+    },
+    {
+      "term": "Volkhov River",
+      "matchText": "Volkhov",
+      "wikiSlug": "Volkhov_(river)",
+      "type": "place"
+    },
+    {
+      "term": "Lake Ladoga",
+      "matchText": "Lake Ladoga",
+      "wikiSlug": "Lake_Ladoga",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Byzantine Empire",
+      "matchText": "Byzantine Empire",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "institution"
+    },
+    {
+      "term": "Macedonian Renaissance",
+      "matchText": "Macedonian Renaissance",
+      "wikiSlug": "Macedonian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Pechenegs",
+      "matchText": "Pechenegs",
+      "wikiSlug": "Pechenegs",
+      "type": "people"
+    },
+    {
+      "term": "Cumans",
+      "matchText": "Cumans",
+      "wikiSlug": "Cumans",
+      "type": "people"
+    },
+    {
+      "term": "Charlemagne",
+      "matchText": "Charlemagne",
+      "wikiSlug": "Charlemagne",
+      "type": "person"
+    },
+    {
+      "term": "Magyars",
+      "matchText": "Magyars",
+      "wikiSlug": "Hungarian_people",
+      "type": "people"
+    },
+    {
+      "term": "Gotland",
+      "matchText": "Gotland",
+      "wikiSlug": "Gotland",
+      "type": "place"
+    },
+    {
+      "term": "Primary Chronicle",
+      "matchText": "Povest' vremennykh let",
+      "wikiSlug": "Primary_Chronicle",
+      "type": "concept"
+    }
   ],
   "2": [
-    { "term": "Finnic peoples", "matchText": "Finnic tribes", "wikiSlug": "Finnic_peoples", "type": "people" },
-    { "term": "Invitation of the Varangians", "matchText": "Invitation of the Varangians", "wikiSlug": "Invitation_of_the_Varangians", "type": "concept" },
-    { "term": "Ladoga", "matchText": "Ladoga", "wikiSlug": "Staraya_Ladoga", "type": "place" },
-    { "term": "Primary Chronicle", "matchText": "Primary Chronicle", "wikiSlug": "Primary_Chronicle", "type": "object" },
-    { "term": "The Song of Roland", "matchText": "Song of Roland", "wikiSlug": "The_Song_of_Roland", "type": "object" },
-    { "term": "Rorik of Dorestad", "matchText": "Rorik of Dorestad", "wikiSlug": "Rorik_of_Dorestad", "type": "person" },
-    { "term": "Frisia", "matchText": "Frisia", "wikiSlug": "Frisia", "type": "place" },
-    { "term": "Mikhail Lomonosov", "matchText": "Mikhail Lomonosov", "wikiSlug": "Mikhail_Lomonosov", "type": "person" },
-    { "term": "Russian Academy of Sciences", "matchText": "Russian Academy of Sciences", "wikiSlug": "Russian_Academy_of_Sciences", "type": "institution" },
-    { "term": "Joseph Stalin", "matchText": "Stalin", "wikiSlug": "Joseph_Stalin", "type": "person" },
-    { "term": "Normandy", "matchText": "Normandy", "wikiSlug": "Duchy_of_Normandy", "type": "place" },
-    { "term": "Normans", "matchText": "Normans", "wikiSlug": "Normans", "type": "people" },
-    { "term": "Norman Conquest", "matchText": "conquer England", "wikiSlug": "Norman_Conquest", "type": "concept" },
-    { "term": "Bulgars", "matchText": "Bulgars", "wikiSlug": "Bulgars", "type": "people" },
-    { "term": "Annals of Saint-Bertin", "matchText": "Annals of Saint-Bertin", "wikiSlug": "Annales_Bertiniani", "type": "object" },
-    { "term": "Khagan", "matchText": "khagan", "wikiSlug": "Khagan", "type": "concept" },
-    { "term": "Khazars", "matchText": "Khazars", "wikiSlug": "Khazars", "type": "people" },
-    { "term": "Sweden", "matchText": "Swedes", "wikiSlug": "Sweden", "type": "people" },
-    { "term": "Kyiv", "matchText": "Kyiv", "wikiSlug": "Kyiv", "type": "place" },
-    { "term": "Novgorod", "matchText": "Novgorod", "wikiSlug": "Veliky_Novgorod", "type": "place" },
-    { "term": "Dnieper", "matchText": "Dnieper", "wikiSlug": "Dnieper", "type": "place" },
-    { "term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place" },
-    { "term": "Helgi", "matchText": "Helgi", "wikiSlug": "Helgi", "type": "concept" },
-    { "term": "Tsars of Russia", "matchText": "tsars of Russia", "wikiSlug": "Tsar", "type": "institution" }
+    {
+      "term": "Finnic peoples",
+      "matchText": "Finnic tribes",
+      "wikiSlug": "Finnic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Invitation of the Varangians",
+      "matchText": "Invitation of the Varangians",
+      "wikiSlug": "Invitation_of_the_Varangians",
+      "type": "concept"
+    },
+    {
+      "term": "Ladoga",
+      "matchText": "Ladoga",
+      "wikiSlug": "Staraya_Ladoga",
+      "type": "place"
+    },
+    {
+      "term": "Primary Chronicle",
+      "matchText": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle",
+      "type": "object"
+    },
+    {
+      "term": "The Song of Roland",
+      "matchText": "Song of Roland",
+      "wikiSlug": "The_Song_of_Roland",
+      "type": "object"
+    },
+    {
+      "term": "Rorik of Dorestad",
+      "matchText": "Rorik of Dorestad",
+      "wikiSlug": "Rorik_of_Dorestad",
+      "type": "person"
+    },
+    {
+      "term": "Frisia",
+      "matchText": "Frisia",
+      "wikiSlug": "Frisia",
+      "type": "place"
+    },
+    {
+      "term": "Mikhail Lomonosov",
+      "matchText": "Mikhail Lomonosov",
+      "wikiSlug": "Mikhail_Lomonosov",
+      "type": "person"
+    },
+    {
+      "term": "Russian Academy of Sciences",
+      "matchText": "Russian Academy of Sciences",
+      "wikiSlug": "Russian_Academy_of_Sciences",
+      "type": "institution"
+    },
+    {
+      "term": "Joseph Stalin",
+      "matchText": "Stalin",
+      "wikiSlug": "Joseph_Stalin",
+      "type": "person"
+    },
+    {
+      "term": "Normandy",
+      "matchText": "Normandy",
+      "wikiSlug": "Duchy_of_Normandy",
+      "type": "place"
+    },
+    {
+      "term": "Normans",
+      "matchText": "Normans",
+      "wikiSlug": "Normans",
+      "type": "people"
+    },
+    {
+      "term": "Norman Conquest",
+      "matchText": "conquer England",
+      "wikiSlug": "Norman_Conquest",
+      "type": "concept"
+    },
+    {
+      "term": "Bulgars",
+      "matchText": "Bulgars",
+      "wikiSlug": "Bulgars",
+      "type": "people"
+    },
+    {
+      "term": "Annals of Saint-Bertin",
+      "matchText": "Annals of Saint-Bertin",
+      "wikiSlug": "Annales_Bertiniani",
+      "type": "object"
+    },
+    {
+      "term": "Khagan",
+      "matchText": "khagan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
+    },
+    {
+      "term": "Khazars",
+      "matchText": "Khazars",
+      "wikiSlug": "Khazars",
+      "type": "people"
+    },
+    {
+      "term": "Sweden",
+      "matchText": "Swedes",
+      "wikiSlug": "Sweden",
+      "type": "people"
+    },
+    {
+      "term": "Kyiv",
+      "matchText": "Kyiv",
+      "wikiSlug": "Kyiv",
+      "type": "place"
+    },
+    {
+      "term": "Novgorod",
+      "matchText": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod",
+      "type": "place"
+    },
+    {
+      "term": "Dnieper",
+      "matchText": "Dnieper",
+      "wikiSlug": "Dnieper",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Helgi",
+      "matchText": "Helgi",
+      "wikiSlug": "Helgi",
+      "type": "concept"
+    },
+    {
+      "term": "Tsars of Russia",
+      "matchText": "tsars of Russia",
+      "wikiSlug": "Tsar",
+      "type": "institution"
+    }
   ],
   "3": [
-    { "term": "Oleg of Novgorod", "matchText": "Oleg the Wise", "wikiSlug": "Oleg_the_Wise", "type": "person" },
-    { "term": "Igor of Kyiv", "matchText": "the infant Igor", "wikiSlug": "Igor_of_Kiev", "type": "person" },
-    { "term": "Mother of cities of the Rus'", "matchText": "the mother of cities of the Rus", "wikiSlug": "Mother_of_Rus%27_Cities", "type": "concept" },
-    { "term": "Severians", "matchText": "Severians", "wikiSlug": "Severians", "type": "people" },
-    { "term": "Radimichs", "matchText": "Radimichs", "wikiSlug": "Radimichs", "type": "people" },
-    { "term": "Poliudye", "matchText": "poliudye", "wikiSlug": "Polyudye", "type": "concept" },
-    { "term": "Khazars", "matchText": "Khazars", "wikiSlug": "Khazars", "type": "people" },
-    { "term": "Bosphorus", "matchText": "the Bosphorus", "wikiSlug": "Bosporus", "type": "place" },
-    { "term": "Photius of Constantinople", "matchText": "Photius", "wikiSlug": "Photios_I_of_Constantinople", "type": "person" },
-    { "term": "Patriarch of Constantinople", "matchText": "patriarch of Constantinople", "wikiSlug": "Ecumenical_Patriarch_of_Constantinople", "type": "institution" },
-    { "term": "Pope", "matchText": "the Pope", "wikiSlug": "Pope", "type": "institution" },
-    { "term": "Cyril and Methodius", "matchText": "Cyril and Methodius", "wikiSlug": "Saints_Cyril_and_Methodius", "type": "person" },
-    { "term": "Great Moravia", "matchText": "Great Moravia", "wikiSlug": "Great_Moravia", "type": "institution" },
-    { "term": "Cyrillic script", "matchText": "Cyrillic", "wikiSlug": "Cyrillic_script", "type": "object" },
-    { "term": "Greek fire", "matchText": "Greek-Rus' diplomatic originals", "wikiSlug": "Byzantine_diplomacy", "type": "concept" },
-    { "term": "Tang dynasty", "matchText": "Tang dynasty", "wikiSlug": "Tang_dynasty", "type": "institution" },
-    { "term": "Alfred the Great", "matchText": "Alfred the Great", "wikiSlug": "Alfred_the_Great", "type": "person" },
-    { "term": "First Bulgarian Empire", "matchText": "First Bulgarian Empire", "wikiSlug": "First_Bulgarian_Empire", "type": "institution" },
-    { "term": "Novgorod", "matchText": "Novgorod", "wikiSlug": "Veliky_Novgorod", "type": "place" },
-    { "term": "Dnieper", "matchText": "Dnieper", "wikiSlug": "Dnieper", "type": "place" },
-    { "term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place" },
-    { "term": "Baghdad", "matchText": "Baghdad", "wikiSlug": "Baghdad", "type": "place" },
-    { "term": "Soothsayer", "matchText": "a soothsayer's prophecy", "wikiSlug": "Soothsayer", "type": "concept" }
+    {
+      "term": "Oleg of Novgorod",
+      "matchText": "Oleg the Wise",
+      "wikiSlug": "Oleg_the_Wise",
+      "type": "person"
+    },
+    {
+      "term": "Igor of Kyiv",
+      "matchText": "the infant Igor",
+      "wikiSlug": "Igor_of_Kiev",
+      "type": "person"
+    },
+    {
+      "term": "Mother of cities of the Rus'",
+      "matchText": "the mother of cities of the Rus",
+      "wikiSlug": "Mother_of_Rus%27_Cities",
+      "type": "concept"
+    },
+    {
+      "term": "Severians",
+      "matchText": "Severians",
+      "wikiSlug": "Severians",
+      "type": "people"
+    },
+    {
+      "term": "Radimichs",
+      "matchText": "Radimichs",
+      "wikiSlug": "Radimichs",
+      "type": "people"
+    },
+    {
+      "term": "Poliudye",
+      "matchText": "poliudye",
+      "wikiSlug": "Polyudye",
+      "type": "concept"
+    },
+    {
+      "term": "Khazars",
+      "matchText": "Khazars",
+      "wikiSlug": "Khazars",
+      "type": "people"
+    },
+    {
+      "term": "Bosphorus",
+      "matchText": "the Bosphorus",
+      "wikiSlug": "Bosporus",
+      "type": "place"
+    },
+    {
+      "term": "Photius of Constantinople",
+      "matchText": "Photius",
+      "wikiSlug": "Photios_I_of_Constantinople",
+      "type": "person"
+    },
+    {
+      "term": "Patriarch of Constantinople",
+      "matchText": "patriarch of Constantinople",
+      "wikiSlug": "Ecumenical_Patriarch_of_Constantinople",
+      "type": "institution"
+    },
+    {
+      "term": "Pope",
+      "matchText": "the Pope",
+      "wikiSlug": "Pope",
+      "type": "institution"
+    },
+    {
+      "term": "Cyril and Methodius",
+      "matchText": "Cyril and Methodius",
+      "wikiSlug": "Saints_Cyril_and_Methodius",
+      "type": "person"
+    },
+    {
+      "term": "Great Moravia",
+      "matchText": "Great Moravia",
+      "wikiSlug": "Great_Moravia",
+      "type": "institution"
+    },
+    {
+      "term": "Cyrillic script",
+      "matchText": "Cyrillic",
+      "wikiSlug": "Cyrillic_script",
+      "type": "object"
+    },
+    {
+      "term": "Greek fire",
+      "matchText": "Greek-Rus' diplomatic originals",
+      "wikiSlug": "Byzantine_diplomacy",
+      "type": "concept"
+    },
+    {
+      "term": "Tang dynasty",
+      "matchText": "Tang dynasty",
+      "wikiSlug": "Tang_dynasty",
+      "type": "institution"
+    },
+    {
+      "term": "Alfred the Great",
+      "matchText": "Alfred the Great",
+      "wikiSlug": "Alfred_the_Great",
+      "type": "person"
+    },
+    {
+      "term": "First Bulgarian Empire",
+      "matchText": "First Bulgarian Empire",
+      "wikiSlug": "First_Bulgarian_Empire",
+      "type": "institution"
+    },
+    {
+      "term": "Novgorod",
+      "matchText": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod",
+      "type": "place"
+    },
+    {
+      "term": "Dnieper",
+      "matchText": "Dnieper",
+      "wikiSlug": "Dnieper",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Baghdad",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Soothsayer",
+      "matchText": "a soothsayer's prophecy",
+      "wikiSlug": "Soothsayer",
+      "type": "concept"
+    }
   ],
   "4": [
-    { "term": "al-Mas'udi", "matchText": "al-Mas'udi", "wikiSlug": "Al-Masudi", "type": "person" },
-    { "term": "Caspian Sea", "matchText": "the Caspian Sea", "wikiSlug": "Caspian_Sea", "type": "place" },
-    { "term": "Greek fire siphon", "matchText": "bronze siphons", "wikiSlug": "Greek_fire", "type": "object" },
-    { "term": "Drevlians", "matchText": "Drevlians", "wikiSlug": "Drevlians", "type": "people" },
-    { "term": "Prince Mal", "matchText": "their own prince Mal", "wikiSlug": "Mal_of_Drevlia", "type": "person" },
-    { "term": "Leo the Deacon", "matchText": "Leo the Deacon", "wikiSlug": "Leo_the_Deacon", "type": "person" },
-    { "term": "Olga of Kyiv", "matchText": "Olga", "wikiSlug": "Olga_of_Kiev", "type": "person" },
-    { "term": "Svyatoslav I", "matchText": "Svyatoslav", "wikiSlug": "Sviatoslav_I", "type": "person" },
-    { "term": "Iskorosten", "matchText": "Iskorosten", "wikiSlug": "Korosten", "type": "place" },
-    { "term": "Perun", "matchText": "Perun", "wikiSlug": "Perun", "type": "concept" },
-    { "term": "Pogost", "matchText": "pogosty", "wikiSlug": "Pogost", "type": "concept" },
-    { "term": "Constantine VII Porphyrogenitus", "matchText": "Constantine VII Porphyrogenitus", "wikiSlug": "Constantine_VII", "type": "person" },
-    { "term": "Otto I", "matchText": "Otto I", "wikiSlug": "Otto_I,_Holy_Roman_Emperor", "type": "person" },
-    { "term": "Holy Roman Emperor", "matchText": "Holy Roman Emperor", "wikiSlug": "Holy_Roman_Emperor", "type": "institution" },
-    { "term": "Adalbert of Magdeburg", "matchText": "a monk named Adalbert", "wikiSlug": "Adalbert_of_Magdeburg", "type": "person" },
-    { "term": "Pechenegs", "matchText": "Pechenegs", "wikiSlug": "Pechenegs", "type": "people" },
-    { "term": "Khazars", "matchText": "Khazar permission", "wikiSlug": "Khazars", "type": "people" },
-    { "term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place" },
-    { "term": "Volga", "matchText": "the Volga", "wikiSlug": "Volga", "type": "place" },
-    { "term": "Primary Chronicle", "matchText": "Primary Chronicle", "wikiSlug": "Primary_Chronicle", "type": "object" },
-    { "term": "Equal-to-apostles", "matchText": "Equal to the Apostles", "wikiSlug": "Equal-to-apostles", "type": "concept" }
+    {
+      "term": "al-Mas'udi",
+      "matchText": "al-Mas'udi",
+      "wikiSlug": "Al-Masudi",
+      "type": "person"
+    },
+    {
+      "term": "Caspian Sea",
+      "matchText": "the Caspian Sea",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Greek fire siphon",
+      "matchText": "bronze siphons",
+      "wikiSlug": "Greek_fire",
+      "type": "object"
+    },
+    {
+      "term": "Drevlians",
+      "matchText": "Drevlians",
+      "wikiSlug": "Drevlians",
+      "type": "people"
+    },
+    {
+      "term": "Prince Mal",
+      "matchText": "their own prince Mal",
+      "wikiSlug": "Mal_of_Drevlia",
+      "type": "person"
+    },
+    {
+      "term": "Leo the Deacon",
+      "matchText": "Leo the Deacon",
+      "wikiSlug": "Leo_the_Deacon",
+      "type": "person"
+    },
+    {
+      "term": "Olga of Kyiv",
+      "matchText": "Olga",
+      "wikiSlug": "Olga_of_Kiev",
+      "type": "person"
+    },
+    {
+      "term": "Svyatoslav I",
+      "matchText": "Svyatoslav",
+      "wikiSlug": "Sviatoslav_I",
+      "type": "person"
+    },
+    {
+      "term": "Iskorosten",
+      "matchText": "Iskorosten",
+      "wikiSlug": "Korosten",
+      "type": "place"
+    },
+    {
+      "term": "Perun",
+      "matchText": "Perun",
+      "wikiSlug": "Perun",
+      "type": "concept"
+    },
+    {
+      "term": "Pogost",
+      "matchText": "pogosty",
+      "wikiSlug": "Pogost",
+      "type": "concept"
+    },
+    {
+      "term": "Constantine VII Porphyrogenitus",
+      "matchText": "Constantine VII Porphyrogenitus",
+      "wikiSlug": "Constantine_VII",
+      "type": "person"
+    },
+    {
+      "term": "Otto I",
+      "matchText": "Otto I",
+      "wikiSlug": "Otto_I,_Holy_Roman_Emperor",
+      "type": "person"
+    },
+    {
+      "term": "Holy Roman Emperor",
+      "matchText": "Holy Roman Emperor",
+      "wikiSlug": "Holy_Roman_Emperor",
+      "type": "institution"
+    },
+    {
+      "term": "Adalbert of Magdeburg",
+      "matchText": "a monk named Adalbert",
+      "wikiSlug": "Adalbert_of_Magdeburg",
+      "type": "person"
+    },
+    {
+      "term": "Pechenegs",
+      "matchText": "Pechenegs",
+      "wikiSlug": "Pechenegs",
+      "type": "people"
+    },
+    {
+      "term": "Khazars",
+      "matchText": "Khazar permission",
+      "wikiSlug": "Khazars",
+      "type": "people"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Volga",
+      "matchText": "the Volga",
+      "wikiSlug": "Volga",
+      "type": "place"
+    },
+    {
+      "term": "Primary Chronicle",
+      "matchText": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle",
+      "type": "object"
+    },
+    {
+      "term": "Equal-to-apostles",
+      "matchText": "Equal to the Apostles",
+      "wikiSlug": "Equal-to-apostles",
+      "type": "concept"
+    },
+    {
+      "term": "Olga of Kiev",
+      "matchText": "the Widow Who Burned a City",
+      "wikiSlug": "Olga_of_Kiev",
+      "type": "people"
+    }
   ],
   "5": [
-    { "term": "Svyatoslav I", "matchText": "Svyatoslav", "wikiSlug": "Sviatoslav_I", "type": "person" },
-    { "term": "Leo the Deacon", "matchText": "Leo the Deacon", "wikiSlug": "Leo_the_Deacon", "type": "person" },
-    { "term": "Baggage train", "matchText": "no baggage train", "wikiSlug": "Baggage_train", "type": "concept" },
-    { "term": "Druzhina", "matchText": "his druzhina", "wikiSlug": "Druzhina", "type": "institution" },
-    { "term": "Khazar Khaganate", "matchText": "Khazar Khaganate", "wikiSlug": "Khazars", "type": "institution" },
-    { "term": "Vyatichi", "matchText": "Vyatichi", "wikiSlug": "Vyatichi", "type": "people" },
-    { "term": "Sarkel", "matchText": "Sarkel", "wikiSlug": "Sarkel", "type": "place" },
-    { "term": "Atil", "matchText": "Atil", "wikiSlug": "Atil", "type": "place" },
-    { "term": "Don River", "matchText": "the Don", "wikiSlug": "Don_(river)", "type": "place" },
-    { "term": "First Bulgarian Empire", "matchText": "First Bulgarian Empire", "wikiSlug": "First_Bulgarian_Empire", "type": "institution" },
-    { "term": "Danube", "matchText": "the Danube", "wikiSlug": "Danube", "type": "place" },
-    { "term": "Pereyaslavets", "matchText": "Pereyaslavets", "wikiSlug": "Pereyaslavets", "type": "place" },
-    { "term": "Bohemia", "matchText": "Bohemia", "wikiSlug": "Bohemia", "type": "place" },
-    { "term": "Hungary", "matchText": "Hungary", "wikiSlug": "Principality_of_Hungary", "type": "place" },
-    { "term": "Pechenegs", "matchText": "Pechenegs", "wikiSlug": "Pechenegs", "type": "people" },
-    { "term": "John I Tzimiskes", "matchText": "John I Tzimiskes", "wikiSlug": "John_I_Tzimiskes", "type": "person" },
-    { "term": "Dorostolon", "matchText": "Dorostolon", "wikiSlug": "Drastar", "type": "place" },
-    { "term": "Khan Kurya", "matchText": "their khan Kurya", "wikiSlug": "Kurya_(khan)", "type": "person" },
-    { "term": "Krum of Bulgaria", "matchText": "the Bulgar khan Krum", "wikiSlug": "Krum", "type": "person" },
-    { "term": "Nikephoros I", "matchText": "Nikephoros I", "wikiSlug": "Nikephoros_I", "type": "person" },
-    { "term": "Dnieper Rapids", "matchText": "the Dnieper rapids", "wikiSlug": "Dnieper_Rapids", "type": "place" },
-    { "term": "Olga of Kyiv", "matchText": "his mother Olga", "wikiSlug": "Olga_of_Kiev", "type": "person" }
+    {
+      "term": "Svyatoslav I",
+      "matchText": "Svyatoslav",
+      "wikiSlug": "Sviatoslav_I",
+      "type": "person"
+    },
+    {
+      "term": "Leo the Deacon",
+      "matchText": "Leo the Deacon",
+      "wikiSlug": "Leo_the_Deacon",
+      "type": "person"
+    },
+    {
+      "term": "Baggage train",
+      "matchText": "no baggage train",
+      "wikiSlug": "Baggage_train",
+      "type": "concept"
+    },
+    {
+      "term": "Druzhina",
+      "matchText": "his druzhina",
+      "wikiSlug": "Druzhina",
+      "type": "institution"
+    },
+    {
+      "term": "Khazar Khaganate",
+      "matchText": "Khazar Khaganate",
+      "wikiSlug": "Khazars",
+      "type": "institution"
+    },
+    {
+      "term": "Vyatichi",
+      "matchText": "Vyatichi",
+      "wikiSlug": "Vyatichi",
+      "type": "people"
+    },
+    {
+      "term": "Sarkel",
+      "matchText": "Sarkel",
+      "wikiSlug": "Sarkel",
+      "type": "place"
+    },
+    {
+      "term": "Atil",
+      "matchText": "Atil",
+      "wikiSlug": "Atil",
+      "type": "place"
+    },
+    {
+      "term": "Don River",
+      "matchText": "the Don",
+      "wikiSlug": "Don_(river)",
+      "type": "place"
+    },
+    {
+      "term": "First Bulgarian Empire",
+      "matchText": "First Bulgarian Empire",
+      "wikiSlug": "First_Bulgarian_Empire",
+      "type": "institution"
+    },
+    {
+      "term": "Danube",
+      "matchText": "the Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Pereyaslavets",
+      "matchText": "Pereyaslavets",
+      "wikiSlug": "Pereyaslavets",
+      "type": "place"
+    },
+    {
+      "term": "Bohemia",
+      "matchText": "Bohemia",
+      "wikiSlug": "Bohemia",
+      "type": "place"
+    },
+    {
+      "term": "Hungary",
+      "matchText": "Hungary",
+      "wikiSlug": "Principality_of_Hungary",
+      "type": "place"
+    },
+    {
+      "term": "Pechenegs",
+      "matchText": "Pechenegs",
+      "wikiSlug": "Pechenegs",
+      "type": "people"
+    },
+    {
+      "term": "John I Tzimiskes",
+      "matchText": "John I Tzimiskes",
+      "wikiSlug": "John_I_Tzimiskes",
+      "type": "person"
+    },
+    {
+      "term": "Dorostolon",
+      "matchText": "Dorostolon",
+      "wikiSlug": "Drastar",
+      "type": "place"
+    },
+    {
+      "term": "Khan Kurya",
+      "matchText": "their khan Kurya",
+      "wikiSlug": "Kurya_(khan)",
+      "type": "person"
+    },
+    {
+      "term": "Krum of Bulgaria",
+      "matchText": "the Bulgar khan Krum",
+      "wikiSlug": "Krum",
+      "type": "person"
+    },
+    {
+      "term": "Nikephoros I",
+      "matchText": "Nikephoros I",
+      "wikiSlug": "Nikephoros_I",
+      "type": "person"
+    },
+    {
+      "term": "Dnieper Rapids",
+      "matchText": "the Dnieper rapids",
+      "wikiSlug": "Dnieper_Rapids",
+      "type": "place"
+    },
+    {
+      "term": "Olga of Kyiv",
+      "matchText": "his mother Olga",
+      "wikiSlug": "Olga_of_Kiev",
+      "type": "person"
+    }
   ],
   "6": [
-    { "term": "Yaropolk I", "matchText": "Yaropolk", "wikiSlug": "Yaropolk_I_of_Kiev", "type": "person" },
-    { "term": "Vladimir the Great", "matchText": "Vladimir", "wikiSlug": "Vladimir_the_Great", "type": "person" },
-    { "term": "Harald Hardrada", "matchText": "Harald Hardrada", "wikiSlug": "Harald_Hardrada", "type": "person" },
-    { "term": "Perun", "matchText": "Perun", "wikiSlug": "Perun", "type": "concept" },
-    { "term": "Slavic paganism", "matchText": "the Slavic gods", "wikiSlug": "Slavic_paganism", "type": "concept" },
-    { "term": "Volga Bulgaria", "matchText": "the Volga Bulgars", "wikiSlug": "Volga_Bulgaria", "type": "institution" },
-    { "term": "Islam", "matchText": "described Islam", "wikiSlug": "Islam", "type": "concept" },
-    { "term": "Judaism", "matchText": "presented Judaism", "wikiSlug": "Judaism", "type": "concept" },
-    { "term": "Jerusalem", "matchText": "Jerusalem", "wikiSlug": "Jerusalem", "type": "place" },
-    { "term": "Hagia Sophia", "matchText": "Hagia Sophia", "wikiSlug": "Hagia_Sophia", "type": "object" },
-    { "term": "Eastern Orthodoxy", "matchText": "Byzantine Orthodoxy", "wikiSlug": "Eastern_Orthodox_Church", "type": "institution" },
-    { "term": "Basil II", "matchText": "Basil II", "wikiSlug": "Basil_II", "type": "person" },
-    { "term": "Bardas Phokas the Younger", "matchText": "Bardas Phokas", "wikiSlug": "Bardas_Phokas_the_Younger", "type": "person" },
-    { "term": "Anna Porphyrogenita", "matchText": "Anna", "wikiSlug": "Anna_Porphyrogenita", "type": "person" },
-    { "term": "Porphyrogennetos", "matchText": "porphyrogenita", "wikiSlug": "Porphyrogennetos", "type": "concept" },
-    { "term": "Chersonesus", "matchText": "Chersonesus", "wikiSlug": "Chersonesus", "type": "place" },
-    { "term": "Crimea", "matchText": "the Crimea", "wikiSlug": "Crimea", "type": "place" },
-    { "term": "Varangian Guard", "matchText": "Varangian Guard", "wikiSlug": "Varangian_Guard", "type": "institution" },
-    { "term": "Metropolitan bishop", "matchText": "metropolitan", "wikiSlug": "Metropolitan_bishop", "type": "institution" },
-    { "term": "Tithe", "matchText": "a tithe", "wikiSlug": "Tithe", "type": "concept" },
-    { "term": "Old Church Slavonic", "matchText": "Old Church Slavonic", "wikiSlug": "Old_Church_Slavonic", "type": "concept" },
-    { "term": "Cyrillic script", "matchText": "Cyrillic", "wikiSlug": "Cyrillic_script", "type": "object" },
-    { "term": "Saint Cyril", "matchText": "Saint Cyril", "wikiSlug": "Cyril_the_Philosopher", "type": "person" },
-    { "term": "Volkhvy", "matchText": "the sorcerers called", "wikiSlug": "Volkhv", "type": "concept" },
-    { "term": "Serpent's Walls", "matchText": "Serpent's Walls", "wikiSlug": "Serpent%27s_Wall_(ancient)", "type": "object" }
+    {
+      "term": "Yaropolk I",
+      "matchText": "Yaropolk",
+      "wikiSlug": "Yaropolk_I_of_Kiev",
+      "type": "person"
+    },
+    {
+      "term": "Vladimir the Great",
+      "matchText": "Vladimir",
+      "wikiSlug": "Vladimir_the_Great",
+      "type": "person"
+    },
+    {
+      "term": "Harald Hardrada",
+      "matchText": "Harald Hardrada",
+      "wikiSlug": "Harald_Hardrada",
+      "type": "person"
+    },
+    {
+      "term": "Perun",
+      "matchText": "Perun",
+      "wikiSlug": "Perun",
+      "type": "concept"
+    },
+    {
+      "term": "Slavic paganism",
+      "matchText": "the Slavic gods",
+      "wikiSlug": "Slavic_paganism",
+      "type": "concept"
+    },
+    {
+      "term": "Volga Bulgaria",
+      "matchText": "the Volga Bulgars",
+      "wikiSlug": "Volga_Bulgaria",
+      "type": "institution"
+    },
+    {
+      "term": "Islam",
+      "matchText": "described Islam",
+      "wikiSlug": "Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Judaism",
+      "matchText": "presented Judaism",
+      "wikiSlug": "Judaism",
+      "type": "concept"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "object"
+    },
+    {
+      "term": "Eastern Orthodoxy",
+      "matchText": "Byzantine Orthodoxy",
+      "wikiSlug": "Eastern_Orthodox_Church",
+      "type": "institution"
+    },
+    {
+      "term": "Basil II",
+      "matchText": "Basil II",
+      "wikiSlug": "Basil_II",
+      "type": "person"
+    },
+    {
+      "term": "Bardas Phokas the Younger",
+      "matchText": "Bardas Phokas",
+      "wikiSlug": "Bardas_Phokas_the_Younger",
+      "type": "person"
+    },
+    {
+      "term": "Anna Porphyrogenita",
+      "matchText": "Anna",
+      "wikiSlug": "Anna_Porphyrogenita",
+      "type": "person"
+    },
+    {
+      "term": "Porphyrogennetos",
+      "matchText": "porphyrogenita",
+      "wikiSlug": "Porphyrogennetos",
+      "type": "concept"
+    },
+    {
+      "term": "Chersonesus",
+      "matchText": "Chersonesus",
+      "wikiSlug": "Chersonesus",
+      "type": "place"
+    },
+    {
+      "term": "Crimea",
+      "matchText": "the Crimea",
+      "wikiSlug": "Crimea",
+      "type": "place"
+    },
+    {
+      "term": "Varangian Guard",
+      "matchText": "Varangian Guard",
+      "wikiSlug": "Varangian_Guard",
+      "type": "institution"
+    },
+    {
+      "term": "Metropolitan bishop",
+      "matchText": "metropolitan",
+      "wikiSlug": "Metropolitan_bishop",
+      "type": "institution"
+    },
+    {
+      "term": "Tithe",
+      "matchText": "a tithe",
+      "wikiSlug": "Tithe",
+      "type": "concept"
+    },
+    {
+      "term": "Old Church Slavonic",
+      "matchText": "Old Church Slavonic",
+      "wikiSlug": "Old_Church_Slavonic",
+      "type": "concept"
+    },
+    {
+      "term": "Cyrillic script",
+      "matchText": "Cyrillic",
+      "wikiSlug": "Cyrillic_script",
+      "type": "object"
+    },
+    {
+      "term": "Saint Cyril",
+      "matchText": "Saint Cyril",
+      "wikiSlug": "Cyril_the_Philosopher",
+      "type": "person"
+    },
+    {
+      "term": "Volkhvy",
+      "matchText": "the sorcerers called",
+      "wikiSlug": "Volkhv",
+      "type": "concept"
+    },
+    {
+      "term": "Serpent's Walls",
+      "matchText": "Serpent's Walls",
+      "wikiSlug": "Serpent%27s_Wall_(ancient)",
+      "type": "object"
+    }
   ],
   "7": [
-    { "term": "Svyatopolk the Accursed", "matchText": "Svyatopolk", "wikiSlug": "Sviatopolk_I_of_Kiev", "type": "person" },
-    { "term": "Boris and Gleb", "matchText": "Boris and Gleb", "wikiSlug": "Boris_and_Gleb", "type": "person" },
-    { "term": "Passion bearer", "matchText": "passion-bearers", "wikiSlug": "Passion_bearer", "type": "concept" },
-    { "term": "Yaroslav the Wise", "matchText": "Yaroslav", "wikiSlug": "Yaroslav_the_Wise", "type": "person" },
-    { "term": "Bolesław I the Brave", "matchText": "Bolesław the Brave", "wikiSlug": "Bolesław_I_the_Brave", "type": "person" },
-    { "term": "Alta River", "matchText": "the Alta River", "wikiSlug": "Alta_(river)", "type": "place" },
-    { "term": "Tmutarakan", "matchText": "Tmutarakan", "wikiSlug": "Tmutarakan", "type": "place" },
-    { "term": "Sea of Azov", "matchText": "the Sea of Azov", "wikiSlug": "Sea_of_Azov", "type": "place" },
-    { "term": "Pechenegs", "matchText": "Pechenegs", "wikiSlug": "Pechenegs", "type": "people" },
-    { "term": "Saint Sophia Cathedral, Kyiv", "matchText": "Saint Sophia Cathedral of Kyiv", "wikiSlug": "Saint_Sophia_Cathedral,_Kyiv", "type": "object" },
-    { "term": "Apse", "matchText": "apse", "wikiSlug": "Apse", "type": "concept" },
-    { "term": "Orans", "matchText": "Orans", "wikiSlug": "Orans", "type": "concept" },
-    { "term": "Golden Gate of Kyiv", "matchText": "Golden Gate of Kyiv", "wikiSlug": "Golden_Gate,_Kyiv", "type": "object" },
-    { "term": "Kyiv Pechersk Lavra", "matchText": "Kyiv Caves Monastery", "wikiSlug": "Kyiv_Pechersk_Lavra", "type": "institution" },
-    { "term": "Russkaya Pravda", "matchText": "Russkaya Pravda", "wikiSlug": "Russkaya_Pravda", "type": "object" },
-    { "term": "Blood feud", "matchText": "blood feud", "wikiSlug": "Feud", "type": "concept" },
-    { "term": "Wergild", "matchText": "vira", "wikiSlug": "Weregild", "type": "concept" },
-    { "term": "Anne of Kyiv", "matchText": "Anne", "wikiSlug": "Anne_of_Kiev", "type": "person" },
-    { "term": "Henry I of France", "matchText": "King Henry I of France", "wikiSlug": "Henry_I_of_France", "type": "person" },
-    { "term": "Philip I of France", "matchText": "King Philip I", "wikiSlug": "Philip_I_of_France", "type": "person" },
-    { "term": "Harald Hardrada", "matchText": "Harald Hardrada", "wikiSlug": "Harald_Hardrada", "type": "person" },
-    { "term": "Battle of Stamford Bridge", "matchText": "Stamford Bridge", "wikiSlug": "Battle_of_Stamford_Bridge", "type": "concept" },
-    { "term": "Battle of Hastings", "matchText": "Hastings", "wikiSlug": "Battle_of_Hastings", "type": "concept" },
-    { "term": "Hilarion of Kyiv", "matchText": "Hilarion", "wikiSlug": "Hilarion_of_Kiev", "type": "person" },
-    { "term": "Constantine IX Monomachos", "matchText": "Greek-influenced medical treatise", "wikiSlug": "Constantine_IX_Monomachos", "type": "person" }
+    {
+      "term": "Svyatopolk the Accursed",
+      "matchText": "Svyatopolk",
+      "wikiSlug": "Sviatopolk_I_of_Kiev",
+      "type": "person"
+    },
+    {
+      "term": "Boris and Gleb",
+      "matchText": "Boris and Gleb",
+      "wikiSlug": "Boris_and_Gleb",
+      "type": "person"
+    },
+    {
+      "term": "Passion bearer",
+      "matchText": "passion-bearers",
+      "wikiSlug": "Passion_bearer",
+      "type": "concept"
+    },
+    {
+      "term": "Yaroslav the Wise",
+      "matchText": "Yaroslav",
+      "wikiSlug": "Yaroslav_the_Wise",
+      "type": "person"
+    },
+    {
+      "term": "Bolesław I the Brave",
+      "matchText": "Bolesław the Brave",
+      "wikiSlug": "Bolesław_I_the_Brave",
+      "type": "person"
+    },
+    {
+      "term": "Alta River",
+      "matchText": "the Alta River",
+      "wikiSlug": "Alta_(river)",
+      "type": "place"
+    },
+    {
+      "term": "Tmutarakan",
+      "matchText": "Tmutarakan",
+      "wikiSlug": "Tmutarakan",
+      "type": "place"
+    },
+    {
+      "term": "Sea of Azov",
+      "matchText": "the Sea of Azov",
+      "wikiSlug": "Sea_of_Azov",
+      "type": "place"
+    },
+    {
+      "term": "Pechenegs",
+      "matchText": "Pechenegs",
+      "wikiSlug": "Pechenegs",
+      "type": "people"
+    },
+    {
+      "term": "Saint Sophia Cathedral, Kyiv",
+      "matchText": "Saint Sophia Cathedral of Kyiv",
+      "wikiSlug": "Saint_Sophia_Cathedral,_Kyiv",
+      "type": "object"
+    },
+    {
+      "term": "Apse",
+      "matchText": "apse",
+      "wikiSlug": "Apse",
+      "type": "concept"
+    },
+    {
+      "term": "Orans",
+      "matchText": "Orans",
+      "wikiSlug": "Orans",
+      "type": "concept"
+    },
+    {
+      "term": "Golden Gate of Kyiv",
+      "matchText": "Golden Gate of Kyiv",
+      "wikiSlug": "Golden_Gate,_Kyiv",
+      "type": "object"
+    },
+    {
+      "term": "Kyiv Pechersk Lavra",
+      "matchText": "Kyiv Caves Monastery",
+      "wikiSlug": "Kyiv_Pechersk_Lavra",
+      "type": "institution"
+    },
+    {
+      "term": "Russkaya Pravda",
+      "matchText": "Russkaya Pravda",
+      "wikiSlug": "Russkaya_Pravda",
+      "type": "object"
+    },
+    {
+      "term": "Blood feud",
+      "matchText": "blood feud",
+      "wikiSlug": "Feud",
+      "type": "concept"
+    },
+    {
+      "term": "Wergild",
+      "matchText": "vira",
+      "wikiSlug": "Weregild",
+      "type": "concept"
+    },
+    {
+      "term": "Anne of Kyiv",
+      "matchText": "Anne",
+      "wikiSlug": "Anne_of_Kiev",
+      "type": "person"
+    },
+    {
+      "term": "Henry I of France",
+      "matchText": "King Henry I of France",
+      "wikiSlug": "Henry_I_of_France",
+      "type": "person"
+    },
+    {
+      "term": "Philip I of France",
+      "matchText": "King Philip I",
+      "wikiSlug": "Philip_I_of_France",
+      "type": "person"
+    },
+    {
+      "term": "Harald Hardrada",
+      "matchText": "Harald Hardrada",
+      "wikiSlug": "Harald_Hardrada",
+      "type": "person"
+    },
+    {
+      "term": "Battle of Stamford Bridge",
+      "matchText": "Stamford Bridge",
+      "wikiSlug": "Battle_of_Stamford_Bridge",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Hastings",
+      "matchText": "Hastings",
+      "wikiSlug": "Battle_of_Hastings",
+      "type": "concept"
+    },
+    {
+      "term": "Hilarion of Kyiv",
+      "matchText": "Hilarion",
+      "wikiSlug": "Hilarion_of_Kiev",
+      "type": "person"
+    },
+    {
+      "term": "Constantine IX Monomachos",
+      "matchText": "Greek-influenced medical treatise",
+      "wikiSlug": "Constantine_IX_Monomachos",
+      "type": "person"
+    },
+    {
+      "term": "Yaroslav the Wise",
+      "matchText": "the Wise",
+      "wikiSlug": "Yaroslav_the_Wise",
+      "type": "people"
+    }
   ],
   "8": [
-    { "term": "Primogeniture", "matchText": "primogeniture", "wikiSlug": "Primogeniture", "type": "concept" },
-    { "term": "Rota system", "matchText": "the rota", "wikiSlug": "Rota_system", "type": "concept" },
-    { "term": "Lestvitsa", "matchText": "lestvitsa", "wikiSlug": "Rota_system", "type": "concept" },
-    { "term": "Chernigov", "matchText": "Chernigov", "wikiSlug": "Chernihiv", "type": "place" },
-    { "term": "Pereyaslavl", "matchText": "Pereyaslavl", "wikiSlug": "Pereiaslav", "type": "place" },
-    { "term": "Izgoi", "matchText": "izgoi", "wikiSlug": "Izgoi", "type": "concept" },
-    { "term": "Cumans", "matchText": "the Cumans", "wikiSlug": "Cumans", "type": "people" },
-    { "term": "Yaroslavichi", "matchText": "Yaroslavichi", "wikiSlug": "Yaroslavichi_Triumvirate", "type": "institution" },
-    { "term": "Alta River", "matchText": "the Alta River", "wikiSlug": "Alta_(river)", "type": "place" },
-    { "term": "Veche", "matchText": "veche", "wikiSlug": "Veche", "type": "institution" },
-    { "term": "Vasilko of Terebovlia", "matchText": "Vasilko", "wikiSlug": "Vasilko_of_Terebovlia", "type": "person" },
-    { "term": "Council of Liubech", "matchText": "Lyubech", "wikiSlug": "Council_of_Liubech", "type": "concept" },
-    { "term": "Patrimony", "matchText": "his own patrimony", "wikiSlug": "Patrimony", "type": "concept" },
-    { "term": "Vladimir II Monomakh", "matchText": "Vladimir Monomakh", "wikiSlug": "Vladimir_II_Monomakh", "type": "person" },
-    { "term": "Constantine IX Monomachos", "matchText": "Constantine IX Monomachos", "wikiSlug": "Constantine_IX_Monomachos", "type": "person" },
-    { "term": "Dolobsk", "matchText": "a council at Dolobsk", "wikiSlug": "Council_of_Dolobsk", "type": "concept" },
-    { "term": "Debt bondage", "matchText": "debt-slavery", "wikiSlug": "Debt_bondage", "type": "concept" },
-    { "term": "Instruction of Vladimir Monomakh", "matchText": "Instruction", "wikiSlug": "Instruction_of_Vladimir_Monomakh", "type": "object" },
-    { "term": "Mstislav I of Kyiv", "matchText": "Mstislav the Great", "wikiSlug": "Mstislav_I_of_Kiev", "type": "person" },
-    { "term": "Yaroslav the Wise", "matchText": "Yaroslav", "wikiSlug": "Yaroslav_the_Wise", "type": "person" },
-    { "term": "Kyiv", "matchText": "Kyiv", "wikiSlug": "Kyiv", "type": "place" }
+    {
+      "term": "Primogeniture",
+      "matchText": "primogeniture",
+      "wikiSlug": "Primogeniture",
+      "type": "concept"
+    },
+    {
+      "term": "Rota system",
+      "matchText": "the rota",
+      "wikiSlug": "Rota_system",
+      "type": "concept"
+    },
+    {
+      "term": "Lestvitsa",
+      "matchText": "lestvitsa",
+      "wikiSlug": "Rota_system",
+      "type": "concept"
+    },
+    {
+      "term": "Chernigov",
+      "matchText": "Chernigov",
+      "wikiSlug": "Chernihiv",
+      "type": "place"
+    },
+    {
+      "term": "Pereyaslavl",
+      "matchText": "Pereyaslavl",
+      "wikiSlug": "Pereiaslav",
+      "type": "place"
+    },
+    {
+      "term": "Izgoi",
+      "matchText": "izgoi",
+      "wikiSlug": "Izgoi",
+      "type": "concept"
+    },
+    {
+      "term": "Cumans",
+      "matchText": "the Cumans",
+      "wikiSlug": "Cumans",
+      "type": "people"
+    },
+    {
+      "term": "Yaroslavichi",
+      "matchText": "Yaroslavichi",
+      "wikiSlug": "Yaroslavichi_Triumvirate",
+      "type": "institution"
+    },
+    {
+      "term": "Alta River",
+      "matchText": "the Alta River",
+      "wikiSlug": "Alta_(river)",
+      "type": "place"
+    },
+    {
+      "term": "Veche",
+      "matchText": "veche",
+      "wikiSlug": "Veche",
+      "type": "institution"
+    },
+    {
+      "term": "Vasilko of Terebovlia",
+      "matchText": "Vasilko",
+      "wikiSlug": "Vasilko_of_Terebovlia",
+      "type": "person"
+    },
+    {
+      "term": "Council of Liubech",
+      "matchText": "Lyubech",
+      "wikiSlug": "Council_of_Liubech",
+      "type": "concept"
+    },
+    {
+      "term": "Patrimony",
+      "matchText": "his own patrimony",
+      "wikiSlug": "Patrimony",
+      "type": "concept"
+    },
+    {
+      "term": "Vladimir II Monomakh",
+      "matchText": "Vladimir Monomakh",
+      "wikiSlug": "Vladimir_II_Monomakh",
+      "type": "person"
+    },
+    {
+      "term": "Constantine IX Monomachos",
+      "matchText": "Constantine IX Monomachos",
+      "wikiSlug": "Constantine_IX_Monomachos",
+      "type": "person"
+    },
+    {
+      "term": "Dolobsk",
+      "matchText": "a council at Dolobsk",
+      "wikiSlug": "Council_of_Dolobsk",
+      "type": "concept"
+    },
+    {
+      "term": "Debt bondage",
+      "matchText": "debt-slavery",
+      "wikiSlug": "Debt_bondage",
+      "type": "concept"
+    },
+    {
+      "term": "Instruction of Vladimir Monomakh",
+      "matchText": "Instruction",
+      "wikiSlug": "Instruction_of_Vladimir_Monomakh",
+      "type": "object"
+    },
+    {
+      "term": "Mstislav I of Kyiv",
+      "matchText": "Mstislav the Great",
+      "wikiSlug": "Mstislav_I_of_Kiev",
+      "type": "person"
+    },
+    {
+      "term": "Yaroslav the Wise",
+      "matchText": "Yaroslav",
+      "wikiSlug": "Yaroslav_the_Wise",
+      "type": "person"
+    },
+    {
+      "term": "Kyiv",
+      "matchText": "Kyiv",
+      "wikiSlug": "Kyiv",
+      "type": "place"
+    }
   ],
   "9": [
-    { "term": "Era of Fragmentation", "matchText": "the era of fragmentation", "wikiSlug": "Feudal_fragmentation", "type": "concept" },
-    { "term": "Novgorod Republic", "matchText": "Novgorod", "wikiSlug": "Novgorod_Republic", "type": "institution" },
-    { "term": "Hanseatic League", "matchText": "Hanseatic League", "wikiSlug": "Hanseatic_League", "type": "institution" },
-    { "term": "Boyar", "matchText": "merchant boyars", "wikiSlug": "Boyar", "type": "concept" },
-    { "term": "Veche", "matchText": "the veche", "wikiSlug": "Veche", "type": "institution" },
-    { "term": "Posadnik", "matchText": "posadnik", "wikiSlug": "Posadnik", "type": "concept" },
-    { "term": "Republic of Venice", "matchText": "medieval Venice", "wikiSlug": "Republic_of_Venice", "type": "institution" },
-    { "term": "Galicia–Volhynia", "matchText": "Galicia–Volhynia", "wikiSlug": "Kingdom_of_Galicia–Volhynia", "type": "institution" },
-    { "term": "Roman the Great", "matchText": "Roman the Great", "wikiSlug": "Roman_the_Great", "type": "person" },
-    { "term": "Daniel of Galicia", "matchText": "its prince Daniel", "wikiSlug": "Daniel_of_Galicia", "type": "person" },
-    { "term": "Poland", "matchText": "Catholic Poland", "wikiSlug": "Kingdom_of_Poland_(1025–1385)", "type": "place" },
-    { "term": "Polotsk", "matchText": "Polotsk", "wikiSlug": "Principality_of_Polotsk", "type": "place" },
-    { "term": "Vladimir-Suzdal", "matchText": "Vladimir–Suzdal", "wikiSlug": "Vladimir-Suzdal", "type": "institution" },
-    { "term": "Finnic peoples", "matchText": "Finnic peoples", "wikiSlug": "Finnic_peoples", "type": "people" },
-    { "term": "Yuri Dolgorukiy", "matchText": "Yuri Dolgoruki", "wikiSlug": "Yuri_Dolgorukiy", "type": "person" },
-    { "term": "Hypatian Codex", "matchText": "the Hypatian Chronicle", "wikiSlug": "Hypatian_Codex", "type": "object" },
-    { "term": "Moscow", "matchText": "to Moscow", "wikiSlug": "Moscow", "type": "place" },
-    { "term": "Andrei Bogolyubsky", "matchText": "Andrei Bogolyubsky", "wikiSlug": "Andrey_Bogolyubsky", "type": "person" },
-    { "term": "Theotokos of Vladimir", "matchText": "Our Lady of Vladimir", "wikiSlug": "Theotokos_of_Vladimir", "type": "object" },
-    { "term": "Palladium", "matchText": "the palladium", "wikiSlug": "Palladium_(protective_image)", "type": "concept" },
-    { "term": "Church of the Intercession on the Nerl", "matchText": "Church of the Intercession on the Nerl", "wikiSlug": "Church_of_the_Intercession_on_the_Nerl", "type": "object" },
-    { "term": "Dormition Cathedral, Vladimir", "matchText": "Dormition Cathedral of Vladimir", "wikiSlug": "Dormition_Cathedral,_Vladimir", "type": "object" },
-    { "term": "Vsevolod the Big Nest", "matchText": "Vsevolod the Big Nest", "wikiSlug": "Vsevolod_the_Big_Nest", "type": "person" },
-    { "term": "Belarus", "matchText": "Belarus", "wikiSlug": "Belarus", "type": "place" }
+    {
+      "term": "Era of Fragmentation",
+      "matchText": "the era of fragmentation",
+      "wikiSlug": "Feudal_fragmentation",
+      "type": "concept"
+    },
+    {
+      "term": "Novgorod Republic",
+      "matchText": "Novgorod",
+      "wikiSlug": "Novgorod_Republic",
+      "type": "institution"
+    },
+    {
+      "term": "Hanseatic League",
+      "matchText": "Hanseatic League",
+      "wikiSlug": "Hanseatic_League",
+      "type": "institution"
+    },
+    {
+      "term": "Boyar",
+      "matchText": "merchant boyars",
+      "wikiSlug": "Boyar",
+      "type": "concept"
+    },
+    {
+      "term": "Veche",
+      "matchText": "the veche",
+      "wikiSlug": "Veche",
+      "type": "institution"
+    },
+    {
+      "term": "Posadnik",
+      "matchText": "posadnik",
+      "wikiSlug": "Posadnik",
+      "type": "concept"
+    },
+    {
+      "term": "Republic of Venice",
+      "matchText": "medieval Venice",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "institution"
+    },
+    {
+      "term": "Galicia–Volhynia",
+      "matchText": "Galicia–Volhynia",
+      "wikiSlug": "Kingdom_of_Galicia–Volhynia",
+      "type": "institution"
+    },
+    {
+      "term": "Roman the Great",
+      "matchText": "Roman the Great",
+      "wikiSlug": "Roman_the_Great",
+      "type": "person"
+    },
+    {
+      "term": "Daniel of Galicia",
+      "matchText": "its prince Daniel",
+      "wikiSlug": "Daniel_of_Galicia",
+      "type": "person"
+    },
+    {
+      "term": "Poland",
+      "matchText": "Catholic Poland",
+      "wikiSlug": "Kingdom_of_Poland_(1025–1385)",
+      "type": "place"
+    },
+    {
+      "term": "Polotsk",
+      "matchText": "Polotsk",
+      "wikiSlug": "Principality_of_Polotsk",
+      "type": "place"
+    },
+    {
+      "term": "Vladimir-Suzdal",
+      "matchText": "Vladimir–Suzdal",
+      "wikiSlug": "Vladimir-Suzdal",
+      "type": "institution"
+    },
+    {
+      "term": "Finnic peoples",
+      "matchText": "Finnic peoples",
+      "wikiSlug": "Finnic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Yuri Dolgorukiy",
+      "matchText": "Yuri Dolgoruki",
+      "wikiSlug": "Yuri_Dolgorukiy",
+      "type": "person"
+    },
+    {
+      "term": "Hypatian Codex",
+      "matchText": "the Hypatian Chronicle",
+      "wikiSlug": "Hypatian_Codex",
+      "type": "object"
+    },
+    {
+      "term": "Moscow",
+      "matchText": "to Moscow",
+      "wikiSlug": "Moscow",
+      "type": "place"
+    },
+    {
+      "term": "Andrei Bogolyubsky",
+      "matchText": "Andrei Bogolyubsky",
+      "wikiSlug": "Andrey_Bogolyubsky",
+      "type": "person"
+    },
+    {
+      "term": "Theotokos of Vladimir",
+      "matchText": "Our Lady of Vladimir",
+      "wikiSlug": "Theotokos_of_Vladimir",
+      "type": "object"
+    },
+    {
+      "term": "Palladium",
+      "matchText": "the palladium",
+      "wikiSlug": "Palladium_(protective_image)",
+      "type": "concept"
+    },
+    {
+      "term": "Church of the Intercession on the Nerl",
+      "matchText": "Church of the Intercession on the Nerl",
+      "wikiSlug": "Church_of_the_Intercession_on_the_Nerl",
+      "type": "object"
+    },
+    {
+      "term": "Dormition Cathedral, Vladimir",
+      "matchText": "Dormition Cathedral of Vladimir",
+      "wikiSlug": "Dormition_Cathedral,_Vladimir",
+      "type": "object"
+    },
+    {
+      "term": "Vsevolod the Big Nest",
+      "matchText": "Vsevolod the Big Nest",
+      "wikiSlug": "Vsevolod_the_Big_Nest",
+      "type": "person"
+    },
+    {
+      "term": "Belarus",
+      "matchText": "Belarus",
+      "wikiSlug": "Belarus",
+      "type": "place"
+    }
   ],
   "10": [
-    { "term": "Sable", "matchText": "sable", "wikiSlug": "Sable", "type": "concept" },
-    { "term": "Amber", "matchText": "amber", "wikiSlug": "Amber", "type": "object" },
-    { "term": "Beeswax", "matchText": "wax", "wikiSlug": "Beeswax", "type": "object" },
-    { "term": "Dirham", "matchText": "dirhams", "wikiSlug": "Dirham", "type": "object" },
-    { "term": "Samanid Empire", "matchText": "Samanids", "wikiSlug": "Samanid_Empire", "type": "institution" },
-    { "term": "Bukhara", "matchText": "Bukhara", "wikiSlug": "Bukhara", "type": "place" },
-    { "term": "Slavery", "matchText": "slave traders", "wikiSlug": "Slavery_in_medieval_Europe", "type": "concept" },
-    { "term": "Trident of Ukraine", "matchText": "trident", "wikiSlug": "Coat_of_arms_of_Ukraine", "type": "object" },
-    { "term": "Ibn Fadlan", "matchText": "Ibn Fadlan", "wikiSlug": "Ahmad_ibn_Fadlan", "type": "person" },
-    { "term": "Constantine VII", "matchText": "Constantine VII", "wikiSlug": "Constantine_VII", "type": "person" },
-    { "term": "Birch bark manuscript", "matchText": "birchbark letters", "wikiSlug": "Birch_bark_manuscript", "type": "object" },
-    { "term": "Novgorod Codex", "matchText": "Novgorod Codex", "wikiSlug": "Novgorod_Codex", "type": "object" },
-    { "term": "Ostromir Gospel", "matchText": "Ostromir Gospel", "wikiSlug": "Ostromir_Gospel", "type": "object" },
-    { "term": "Smerd", "matchText": "smerdy", "wikiSlug": "Smerd", "type": "concept" },
-    { "term": "Kholop", "matchText": "kholopy", "wikiSlug": "Kholop", "type": "concept" },
-    { "term": "Niello", "matchText": "niello", "wikiSlug": "Niello", "type": "concept" },
-    { "term": "Cloisonné", "matchText": "cloisonné enamel", "wikiSlug": "Cloisonné", "type": "concept" },
-    { "term": "Galen", "matchText": "Galen", "wikiSlug": "Galen", "type": "person" },
-    { "term": "Hippocrates", "matchText": "Hippocrates", "wikiSlug": "Hippocrates", "type": "person" },
-    { "term": "Humorism", "matchText": "humoral theory", "wikiSlug": "Humorism", "type": "concept" },
-    { "term": "John Chrysostom", "matchText": "John Chrysostom", "wikiSlug": "John_Chrysostom", "type": "person" },
-    { "term": "Cyril of Turov", "matchText": "Cyril of Turov", "wikiSlug": "Cyril_of_Turov", "type": "person" },
-    { "term": "Daniel the Traveller", "matchText": "Abbot Daniel", "wikiSlug": "Daniel_the_Traveller", "type": "person" },
-    { "term": "Kirik of Novgorod", "matchText": "Kirik of Novgorod", "wikiSlug": "Kirik_of_Novgorod", "type": "person" },
-    { "term": "Domovoy", "matchText": "domovoi", "wikiSlug": "Domovoy", "type": "concept" },
-    { "term": "Dvoeverie", "matchText": "dvoeverie", "wikiSlug": "Dvoeverie", "type": "concept" }
+    {
+      "term": "Sable",
+      "matchText": "sable",
+      "wikiSlug": "Sable",
+      "type": "concept"
+    },
+    {
+      "term": "Amber",
+      "matchText": "amber",
+      "wikiSlug": "Amber",
+      "type": "object"
+    },
+    {
+      "term": "Beeswax",
+      "matchText": "wax",
+      "wikiSlug": "Beeswax",
+      "type": "object"
+    },
+    {
+      "term": "Dirham",
+      "matchText": "dirhams",
+      "wikiSlug": "Dirham",
+      "type": "object"
+    },
+    {
+      "term": "Samanid Empire",
+      "matchText": "Samanids",
+      "wikiSlug": "Samanid_Empire",
+      "type": "institution"
+    },
+    {
+      "term": "Bukhara",
+      "matchText": "Bukhara",
+      "wikiSlug": "Bukhara",
+      "type": "place"
+    },
+    {
+      "term": "Slavery",
+      "matchText": "slave traders",
+      "wikiSlug": "Slavery_in_medieval_Europe",
+      "type": "concept"
+    },
+    {
+      "term": "Trident of Ukraine",
+      "matchText": "trident",
+      "wikiSlug": "Coat_of_arms_of_Ukraine",
+      "type": "object"
+    },
+    {
+      "term": "Ibn Fadlan",
+      "matchText": "Ibn Fadlan",
+      "wikiSlug": "Ahmad_ibn_Fadlan",
+      "type": "person"
+    },
+    {
+      "term": "Constantine VII",
+      "matchText": "Constantine VII",
+      "wikiSlug": "Constantine_VII",
+      "type": "person"
+    },
+    {
+      "term": "Birch bark manuscript",
+      "matchText": "birchbark letters",
+      "wikiSlug": "Birch_bark_manuscript",
+      "type": "object"
+    },
+    {
+      "term": "Novgorod Codex",
+      "matchText": "Novgorod Codex",
+      "wikiSlug": "Novgorod_Codex",
+      "type": "object"
+    },
+    {
+      "term": "Ostromir Gospel",
+      "matchText": "Ostromir Gospel",
+      "wikiSlug": "Ostromir_Gospel",
+      "type": "object"
+    },
+    {
+      "term": "Smerd",
+      "matchText": "smerdy",
+      "wikiSlug": "Smerd",
+      "type": "concept"
+    },
+    {
+      "term": "Kholop",
+      "matchText": "kholopy",
+      "wikiSlug": "Kholop",
+      "type": "concept"
+    },
+    {
+      "term": "Niello",
+      "matchText": "niello",
+      "wikiSlug": "Niello",
+      "type": "concept"
+    },
+    {
+      "term": "Cloisonné",
+      "matchText": "cloisonné enamel",
+      "wikiSlug": "Cloisonné",
+      "type": "concept"
+    },
+    {
+      "term": "Galen",
+      "matchText": "Galen",
+      "wikiSlug": "Galen",
+      "type": "person"
+    },
+    {
+      "term": "Hippocrates",
+      "matchText": "Hippocrates",
+      "wikiSlug": "Hippocrates",
+      "type": "person"
+    },
+    {
+      "term": "Humorism",
+      "matchText": "humoral theory",
+      "wikiSlug": "Humorism",
+      "type": "concept"
+    },
+    {
+      "term": "John Chrysostom",
+      "matchText": "John Chrysostom",
+      "wikiSlug": "John_Chrysostom",
+      "type": "person"
+    },
+    {
+      "term": "Cyril of Turov",
+      "matchText": "Cyril of Turov",
+      "wikiSlug": "Cyril_of_Turov",
+      "type": "person"
+    },
+    {
+      "term": "Daniel the Traveller",
+      "matchText": "Abbot Daniel",
+      "wikiSlug": "Daniel_the_Traveller",
+      "type": "person"
+    },
+    {
+      "term": "Kirik of Novgorod",
+      "matchText": "Kirik of Novgorod",
+      "wikiSlug": "Kirik_of_Novgorod",
+      "type": "person"
+    },
+    {
+      "term": "Domovoy",
+      "matchText": "domovoi",
+      "wikiSlug": "Domovoy",
+      "type": "concept"
+    },
+    {
+      "term": "Dvoeverie",
+      "matchText": "dvoeverie",
+      "wikiSlug": "Dvoeverie",
+      "type": "concept"
+    }
   ],
   "11": [
-    { "term": "Pontic–Caspian steppe", "matchText": "Pontic–Caspian steppe", "wikiSlug": "Pontic–Caspian_steppe", "type": "place" },
-    { "term": "Khazars", "matchText": "The Khazars", "wikiSlug": "Khazars", "type": "people" },
-    { "term": "Pechenegs", "matchText": "Pechenegs", "wikiSlug": "Pechenegs", "type": "people" },
-    { "term": "Cumans", "matchText": "the Cumans", "wikiSlug": "Cumans", "type": "people" },
-    { "term": "Kipchaks", "matchText": "the Kipchaks", "wikiSlug": "Kipchak_people", "type": "people" },
-    { "term": "Stugna River", "matchText": "the Stugna", "wikiSlug": "Stuhna", "type": "place" },
-    { "term": "Igor Svyatoslavich", "matchText": "Igor Svyatoslavich", "wikiSlug": "Igor_Svyatoslavich", "type": "person" },
-    { "term": "The Tale of Igor's Campaign", "matchText": "Tale of Igor's Campaign", "wikiSlug": "The_Tale_of_Igor%27s_Campaign", "type": "object" },
-    { "term": "Yaroslavna", "matchText": "Igor's wife Yaroslavna", "wikiSlug": "Yaroslavna", "type": "person" },
-    { "term": "Andrey Zaliznyak", "matchText": "Andrey Zaliznyak", "wikiSlug": "Andrey_Zaliznyak", "type": "person" },
-    { "term": "Fire of Moscow (1812)", "matchText": "the burning of Moscow in 1812", "wikiSlug": "Fire_of_Moscow_(1812)", "type": "concept" },
-    { "term": "Genghis Khan", "matchText": "Genghis Khan", "wikiSlug": "Genghis_Khan", "type": "person" },
-    { "term": "Mongol Empire", "matchText": "the Mongol Empire", "wikiSlug": "Mongol_Empire", "type": "institution" },
-    { "term": "Khwarazmian Empire", "matchText": "the great Islamic empire of Khwarazm", "wikiSlug": "Khwarazmian_Empire", "type": "institution" },
-    { "term": "Subutai", "matchText": "Subutai", "wikiSlug": "Subutai", "type": "person" },
-    { "term": "Jebe", "matchText": "Jebe", "wikiSlug": "Jebe", "type": "person" },
-    { "term": "Caucasus", "matchText": "the Caucasus", "wikiSlug": "Caucasus", "type": "place" },
-    { "term": "Battle of the Kalka River", "matchText": "Battle of the Kalka River", "wikiSlug": "Battle_of_the_Kalka_River", "type": "concept" },
-    { "term": "Feigned retreat", "matchText": "the feigned retreat", "wikiSlug": "Feigned_retreat", "type": "concept" },
-    { "term": "Solar eclipse", "matchText": "a solar eclipse", "wikiSlug": "Solar_eclipse", "type": "concept" }
+    {
+      "term": "Pontic–Caspian steppe",
+      "matchText": "Pontic–Caspian steppe",
+      "wikiSlug": "Pontic–Caspian_steppe",
+      "type": "place"
+    },
+    {
+      "term": "Khazars",
+      "matchText": "The Khazars",
+      "wikiSlug": "Khazars",
+      "type": "people"
+    },
+    {
+      "term": "Pechenegs",
+      "matchText": "Pechenegs",
+      "wikiSlug": "Pechenegs",
+      "type": "people"
+    },
+    {
+      "term": "Cumans",
+      "matchText": "the Cumans",
+      "wikiSlug": "Cumans",
+      "type": "people"
+    },
+    {
+      "term": "Kipchaks",
+      "matchText": "the Kipchaks",
+      "wikiSlug": "Kipchak_people",
+      "type": "people"
+    },
+    {
+      "term": "Stugna River",
+      "matchText": "the Stugna",
+      "wikiSlug": "Stuhna",
+      "type": "place"
+    },
+    {
+      "term": "Igor Svyatoslavich",
+      "matchText": "Igor Svyatoslavich",
+      "wikiSlug": "Igor_Svyatoslavich",
+      "type": "person"
+    },
+    {
+      "term": "The Tale of Igor's Campaign",
+      "matchText": "Tale of Igor's Campaign",
+      "wikiSlug": "The_Tale_of_Igor%27s_Campaign",
+      "type": "object"
+    },
+    {
+      "term": "Yaroslavna",
+      "matchText": "Igor's wife Yaroslavna",
+      "wikiSlug": "Yaroslavna",
+      "type": "person"
+    },
+    {
+      "term": "Andrey Zaliznyak",
+      "matchText": "Andrey Zaliznyak",
+      "wikiSlug": "Andrey_Zaliznyak",
+      "type": "person"
+    },
+    {
+      "term": "Fire of Moscow (1812)",
+      "matchText": "the burning of Moscow in 1812",
+      "wikiSlug": "Fire_of_Moscow_(1812)",
+      "type": "concept"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "the Mongol Empire",
+      "wikiSlug": "Mongol_Empire",
+      "type": "institution"
+    },
+    {
+      "term": "Khwarazmian Empire",
+      "matchText": "the great Islamic empire of Khwarazm",
+      "wikiSlug": "Khwarazmian_Empire",
+      "type": "institution"
+    },
+    {
+      "term": "Subutai",
+      "matchText": "Subutai",
+      "wikiSlug": "Subutai",
+      "type": "person"
+    },
+    {
+      "term": "Jebe",
+      "matchText": "Jebe",
+      "wikiSlug": "Jebe",
+      "type": "person"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "the Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Battle of the Kalka River",
+      "matchText": "Battle of the Kalka River",
+      "wikiSlug": "Battle_of_the_Kalka_River",
+      "type": "concept"
+    },
+    {
+      "term": "Feigned retreat",
+      "matchText": "the feigned retreat",
+      "wikiSlug": "Feigned_retreat",
+      "type": "concept"
+    },
+    {
+      "term": "Solar eclipse",
+      "matchText": "a solar eclipse",
+      "wikiSlug": "Solar_eclipse",
+      "type": "concept"
+    }
   ],
   "12": [
-    { "term": "Batu Khan", "matchText": "Batu Khan", "wikiSlug": "Batu_Khan", "type": "person" },
-    { "term": "Subutai", "matchText": "Subutai", "wikiSlug": "Subutai", "type": "person" },
-    { "term": "Trebuchet", "matchText": "counterweight trebuchets", "wikiSlug": "Trebuchet", "type": "object" },
-    { "term": "Ryazan", "matchText": "Ryazan", "wikiSlug": "Old_Ryazan", "type": "place" },
-    { "term": "Vladimir, Russia", "matchText": "Vladimir", "wikiSlug": "Vladimir,_Russia", "type": "place" },
-    { "term": "Sit River", "matchText": "Sit River", "wikiSlug": "Sit_River", "type": "place" },
-    { "term": "Kozelsk", "matchText": "Kozelsk", "wikiSlug": "Kozelsk", "type": "place" },
-    { "term": "Chernigov", "matchText": "Chernigov", "wikiSlug": "Chernihiv", "type": "place" },
-    { "term": "Golden Gate of Kyiv", "matchText": "the Golden Gate", "wikiSlug": "Golden_Gate,_Kyiv", "type": "object" },
-    { "term": "Giovanni da Pian del Carpine", "matchText": "John of Plano Carpini", "wikiSlug": "Giovanni_da_Pian_del_Carpine", "type": "person" },
-    { "term": "Golden Horde", "matchText": "Golden Horde", "wikiSlug": "Golden_Horde", "type": "institution" },
-    { "term": "Mongol yoke", "matchText": "Mongol Yoke", "wikiSlug": "Mongol_yoke", "type": "concept" },
-    { "term": "Yarlyk", "matchText": "yarlik", "wikiSlug": "Yarlyk", "type": "object" },
-    { "term": "Tver", "matchText": "the city of Tver", "wikiSlug": "Tver", "type": "place" },
-    { "term": "Ivan I of Moscow", "matchText": "Ivan Kalita", "wikiSlug": "Ivan_I_of_Moscow", "type": "person" },
-    { "term": "Berke", "matchText": "its khans Berke", "wikiSlug": "Berke", "type": "person" },
-    { "term": "Öz Beg Khan", "matchText": "Öz Beg", "wikiSlug": "Öz_Beg_Khan", "type": "person" },
-    { "term": "Caffa", "matchText": "Caffa", "wikiSlug": "Feodosia", "type": "place" },
-    { "term": "Black Death", "matchText": "the Black Death", "wikiSlug": "Black_Death", "type": "concept" },
-    { "term": "Alexander Nevsky", "matchText": "Alexander Nevsky", "wikiSlug": "Alexander_Nevsky", "type": "person" },
-    { "term": "Neva River", "matchText": "Neva", "wikiSlug": "Neva", "type": "place" },
-    { "term": "Lake Peipus", "matchText": "Lake Peipus", "wikiSlug": "Lake_Peipus", "type": "place" },
-    { "term": "Livonian Order", "matchText": "the Livonian Order's knights", "wikiSlug": "Livonian_Order", "type": "institution" },
-    { "term": "Grand Duchy of Lithuania", "matchText": "the Grand Duchy of Lithuania", "wikiSlug": "Grand_Duchy_of_Lithuania", "type": "institution" },
-    { "term": "Ukraine", "matchText": "Ukraine", "wikiSlug": "Ukraine", "type": "place" },
-    { "term": "Belarus", "matchText": "Belarus", "wikiSlug": "Belarus", "type": "place" }
+    {
+      "term": "Batu Khan",
+      "matchText": "Batu Khan",
+      "wikiSlug": "Batu_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Subutai",
+      "matchText": "Subutai",
+      "wikiSlug": "Subutai",
+      "type": "person"
+    },
+    {
+      "term": "Trebuchet",
+      "matchText": "counterweight trebuchets",
+      "wikiSlug": "Trebuchet",
+      "type": "object"
+    },
+    {
+      "term": "Ryazan",
+      "matchText": "Ryazan",
+      "wikiSlug": "Old_Ryazan",
+      "type": "place"
+    },
+    {
+      "term": "Vladimir, Russia",
+      "matchText": "Vladimir",
+      "wikiSlug": "Vladimir,_Russia",
+      "type": "place"
+    },
+    {
+      "term": "Sit River",
+      "matchText": "Sit River",
+      "wikiSlug": "Sit_River",
+      "type": "place"
+    },
+    {
+      "term": "Kozelsk",
+      "matchText": "Kozelsk",
+      "wikiSlug": "Kozelsk",
+      "type": "place"
+    },
+    {
+      "term": "Chernigov",
+      "matchText": "Chernigov",
+      "wikiSlug": "Chernihiv",
+      "type": "place"
+    },
+    {
+      "term": "Golden Gate of Kyiv",
+      "matchText": "the Golden Gate",
+      "wikiSlug": "Golden_Gate,_Kyiv",
+      "type": "object"
+    },
+    {
+      "term": "Giovanni da Pian del Carpine",
+      "matchText": "John of Plano Carpini",
+      "wikiSlug": "Giovanni_da_Pian_del_Carpine",
+      "type": "person"
+    },
+    {
+      "term": "Golden Horde",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "institution"
+    },
+    {
+      "term": "Mongol yoke",
+      "matchText": "Mongol Yoke",
+      "wikiSlug": "Mongol_yoke",
+      "type": "concept"
+    },
+    {
+      "term": "Yarlyk",
+      "matchText": "yarlik",
+      "wikiSlug": "Yarlyk",
+      "type": "object"
+    },
+    {
+      "term": "Tver",
+      "matchText": "the city of Tver",
+      "wikiSlug": "Tver",
+      "type": "place"
+    },
+    {
+      "term": "Ivan I of Moscow",
+      "matchText": "Ivan Kalita",
+      "wikiSlug": "Ivan_I_of_Moscow",
+      "type": "person"
+    },
+    {
+      "term": "Berke",
+      "matchText": "its khans Berke",
+      "wikiSlug": "Berke",
+      "type": "person"
+    },
+    {
+      "term": "Öz Beg Khan",
+      "matchText": "Öz Beg",
+      "wikiSlug": "Öz_Beg_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Caffa",
+      "matchText": "Caffa",
+      "wikiSlug": "Feodosia",
+      "type": "place"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "the Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    },
+    {
+      "term": "Alexander Nevsky",
+      "matchText": "Alexander Nevsky",
+      "wikiSlug": "Alexander_Nevsky",
+      "type": "person"
+    },
+    {
+      "term": "Neva River",
+      "matchText": "Neva",
+      "wikiSlug": "Neva",
+      "type": "place"
+    },
+    {
+      "term": "Lake Peipus",
+      "matchText": "Lake Peipus",
+      "wikiSlug": "Lake_Peipus",
+      "type": "place"
+    },
+    {
+      "term": "Livonian Order",
+      "matchText": "the Livonian Order's knights",
+      "wikiSlug": "Livonian_Order",
+      "type": "institution"
+    },
+    {
+      "term": "Grand Duchy of Lithuania",
+      "matchText": "the Grand Duchy of Lithuania",
+      "wikiSlug": "Grand_Duchy_of_Lithuania",
+      "type": "institution"
+    },
+    {
+      "term": "Ukraine",
+      "matchText": "Ukraine",
+      "wikiSlug": "Ukraine",
+      "type": "place"
+    },
+    {
+      "term": "Belarus",
+      "matchText": "Belarus",
+      "wikiSlug": "Belarus",
+      "type": "place"
+    }
   ]
 }

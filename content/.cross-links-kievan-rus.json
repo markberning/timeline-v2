@@ -11,6 +11,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "The Constantinople the Rus' raided, traded with, and finally imitated was in its own golden age. Under Basil I, Constantine VII, and Basil II the empire was reconquering territory, codifying law, and running missionary policy as statecraft aimed at every pagan neighbor at once."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Kievan Rus' is the eastern half of the Viking expansion — the Norse who rowed down the Russian rivers after silver, not the ones who raided the Atlantic."
     }
   ],
   "2": [
@@ -19,6 +25,12 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "The Viking Age narrative tells the founding from the Norse end and lands on the same skeptical verdict from the opposite direction. Two narratives built independently both treat the polite invitation as legitimation myth wrapped around a real commercial penetration up the rivers."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "The 'invitation to the Varangians' is the Rus' foundation legend — the eastern Norse story the Viking narrative tells from the Scandinavian end."
     }
   ],
   "3": [
@@ -33,6 +45,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "Byzantium handed out such concessions only to powers it could not just defeat. In these very decades its army and attention were pinned by the grinding wars with the First Bulgarian Empire on its European doorstep, which made buying off a Rus' fleet worth the tax exemptions."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Oleg's shield on Constantinople's gate marks the relationship that defined Rus' — Byzantium as trade partner, military target, and civilizational model."
     }
   ],
   "4": [
@@ -61,6 +79,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "The Bulgarian wars were Byzantium's defining Balkan struggle. The Byzantine narrative tells the 968–971 Rus'–Byzantine–Bulgarian tangle from the Greek side, with Tzimiskes driving Svyatoslav off the Danube and Basil II annihilating the First Bulgarian Empire a generation later."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Svyatoslav's wars smashed the Khazars and battered Byzantium — the pagan Rus' at its most ferocious, just before the great conversion."
     }
   ],
   "6": [
@@ -75,6 +99,12 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "The Guard became a permanent conduit binding Kyiv, Constantinople, and Scandinavia. The Viking Age narrative follows its later composition, including the Anglo-Saxons who joined after fleeing the Norman Conquest, and Harald Hardrada's stint in it before he won Norway."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Vladimir's choice of Greek Christianity (988), sealed by marriage to Basil II's sister, bound Rus' to Byzantium — the decision that made Russia Orthodox."
     }
   ],
   "7": [
@@ -89,6 +119,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "The Constantinople Yaroslav copied was Basil II's, at the Macedonian peak: the treasury overflowing, Bulgaria just annihilated, the emperor reportedly blinding fifteen thousand prisoners. Kyiv's Saint Sophia took its name from a Hagia Sophia standing in a city at its most triumphant."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Yaroslav's golden-age Kyiv consciously imitated Constantinople — its own Hagia Sophia, its own Golden Gate, a daughter-civilization of Byzantium."
     }
   ],
   "9": [
@@ -111,6 +147,12 @@
       "targetTl": "mongol-empire",
       "targetChapter": 4,
       "blurb": "Before turning on Rus', Batu's army spent 1236–37 systematically destroying the Cumans, called Kipchaks further east, the same confederation. The Mongol narrative shows the Rus' principalities' one experienced steppe partner shattered and scattered before the towns understood what was coming."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "The Pecheneg and Cuman horsemen were the steppe's standing threat to Rus' — the world that would, in its final form, produce the Mongols."
     }
   ],
   "12": [
@@ -137,6 +179,18 @@
       "targetTl": "russian-empire",
       "targetChapter": 1,
       "blurb": "The Russian Empire narrative opens with this Muscovite inheritance: an autocratic state that grew out of the northeast's tax-collecting service to the Horde, explicitly claiming to be the legitimate heir of Kyiv, and carrying that absolutist model forward for centuries."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "The sack of Kyiv (1240) by Batu's western campaign ends Kievan Rus' — the steppe apocalypse that scattered its inheritance north and west."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 1,
+      "blurb": "What grew after — Moscow, the gathering of the Rus' lands — is the direct sequel: the Russian Empire's deep root is the Kievan inheritance."
     }
   ]
 }
