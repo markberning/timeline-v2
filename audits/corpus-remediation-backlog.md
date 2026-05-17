@@ -38,6 +38,34 @@ reader exposure before spending money.**
 
 ---
 
+## Run log
+
+**2026-05-17 — Tier A started (economical first pass: instant local checks).**
+
+- **#15 ☑ DONE.** Disk diff vs live `NARRATIVE_FILES`: one orphan,
+  `reference-data/medieval-europe.json` (medieval-europe split into
+  early/high/late). The sweep also caught a **live reader-facing 404**, not
+  just dead weight: `globe2-data.ts` mapped globe entities `franks` & `hre` →
+  `medieval-europe`, and `globe2.tsx` turns that into a navigable
+  `<a href="/medieval-europe">` (no such page). Fixed: retargeted
+  `franks → early-medieval-europe`, `hre → high-medieval-europe`; deleted the
+  orphan JSON (commit `4ebd025`). `civ-icons.ts` / `civ-icons-strip.tsx`
+  `medieval-europe` refs intentionally left — decorative `aria-hidden` img, no
+  link, icon file still exists; cosmetic, not a defect. No orphan narratives;
+  old `public/maps/ancient-japan/` already gone (CLAUDE.md claim verified).
+- **#14 ◐ detection done, remediation pending.** Map-count vs chapter-count
+  corpus-wide: 2 real defects — `qin-dynasty` ch8 has no map (maps 1–7 only);
+  `vedic-period` ch4 has no map (mid-series gap: 1,2,3,5,6,7,8). Fix =
+  regenerate 2 maps via the **G4 Gemini pipeline (billable)** —
+  **awaiting greenlight**, not auto-run (economy directive).
+- `goryeo-korea` registered w/o maps = the in-progress pipeline trial (maps are
+  step 12); expected WIP, not a defect.
+
+**Next economical step:** #1 dead-wikiSlug sweep (free, but a slow live-Wiki
+network pass — existing `lint-links.ts` script).
+
+---
+
 ## Tier A — Free, deterministic, run now (no decision needed)
 
 | # | Item | Traces to | Volume (known/sampled) | Status |
@@ -46,8 +74,8 @@ reader exposure before spending money.**
 | 2 | Parser-dropped-link **classifier** (detection only) | pipeline-audit debt #1 | classifier un-built; raw `--contention` ≈2211 is un-triaged, not a worklist | ☐ |
 | 11 | Build/data audit (Track 3) | `memory/project_corpus_audit_plan` | parse/data-shape integrity corpus-wide | ☐ |
 | 13 | Image **liveness** (dead Commons thumbnails) | gap on review; `feedback_image_quality` | unknown; HTTP HEAD over enriched manifest | ☐ |
-| 14 | Map↔chapter **count** integrity | gap on review; medieval-europe / ancient-japan splits | per-civ map count vs chapter count | ☐ |
-| 15 | Superseded split-TL artifact sweep | CLAUDE.md (stale `reference-data/medieval-europe.json`, old `public/maps/ancient-japan/`) | deterministic disk diff vs live `NARRATIVE_FILES` | ☐ |
+| 14 | Map↔chapter **count** integrity | gap on review; medieval-europe / ancient-japan splits | per-civ map count vs chapter count | ◐ |
+| 15 | Superseded split-TL artifact sweep | CLAUDE.md (stale `reference-data/medieval-europe.json`, old `public/maps/ancient-japan/`) | deterministic disk diff vs live `NARRATIVE_FILES` | ☑ |
 
 These have zero marginal cost and surface real bugs. There is no reason to hold
 them behind the billable decision — do them first, independently. **#13–15 are
