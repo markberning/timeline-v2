@@ -91,7 +91,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | teotihuacan | 8 | **DONE** | a22badf |
 | aztec-empire | 8 | **DONE** Mesoamerican chain COMPLETE | d32e187 |
 | srivijaya | 8 | **DONE** | e2cf8d0 |
-| ancient-korea | 8 | **DONE** | +this |
+| ancient-korea | 8 | **DONE** | ac1098b |
+| joseon-korea | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

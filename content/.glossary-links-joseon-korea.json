@@ -101,6 +101,12 @@
       "matchText": "Pachacuti",
       "wikiSlug": "Pachacuti",
       "type": "people"
+    },
+    {
+      "term": "Yangban",
+      "matchText": "yangban",
+      "wikiSlug": "Yangban",
+      "type": "concept"
     }
   ],
   "2": [
@@ -180,6 +186,12 @@
       "term": "Sundial",
       "matchText": "sundials",
       "wikiSlug": "Sundial",
+      "type": "concept"
+    },
+    {
+      "term": "Hangul",
+      "matchText": "Yi Do",
+      "wikiSlug": "Hangul",
       "type": "concept"
     }
   ],
@@ -487,6 +499,12 @@
       "matchText": "Wanli Emperor",
       "wikiSlug": "Wanli_Emperor",
       "type": "people"
+    },
+    {
+      "term": "Nurhaci",
+      "matchText": "Nurhaci",
+      "wikiSlug": "Nurhaci",
+      "type": "people"
     }
   ],
   "6": [
@@ -572,6 +590,12 @@
       "term": "Ukiyo-e",
       "matchText": "ukiyo-e",
       "wikiSlug": "Ukiyo-e",
+      "type": "concept"
+    },
+    {
+      "term": "Silhak",
+      "matchText": "Bangye",
+      "wikiSlug": "Silhak",
       "type": "concept"
     }
   ],
@@ -762,6 +786,12 @@
       "term": "Korea under Japanese rule",
       "matchText": "Korea would be a Japanese colony",
       "wikiSlug": "Korea_under_Japanese_rule",
+      "type": "concept"
+    },
+    {
+      "term": "Donghak",
+      "matchText": "Choe Si-hyeong",
+      "wikiSlug": "Donghak",
       "type": "concept"
     }
   ]
