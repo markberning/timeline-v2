@@ -13,7 +13,8 @@
     "lint:links": "tsx scripts/lint-links.ts",
     "ship:check": "node scripts/ship-check.mjs",
     "audit:events": "node --env-file=.env.local scripts/audit-events.mjs",
-    "audit:crosslinks": "node --env-file=.env.local scripts/audit-crosslinks.mjs"
+    "audit:crosslinks": "node --env-file=.env.local scripts/audit-crosslinks.mjs",
+    "audit:glossary": "node --env-file=.env.local scripts/audit-glossary.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

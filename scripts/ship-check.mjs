@@ -60,6 +60,12 @@ check('cross-link QA passed (no CROSSLINK-FAILURES artifact)', () => {
     throw new Error(`CROSSLINK-FAILURES-${tlId}.txt present — cross-link coherence gate (G11) failed; resolve + re-run audit-crosslinks`)
   return 'clean'
 })
+check('glossary QA passed (no GLOSSARY-FAILURES artifact)', () => {
+  const p = join(ROOT, `GLOSSARY-FAILURES-${tlId}.txt`)
+  if (existsSync(p) && readFileSync(p, 'utf8').trim())
+    throw new Error(`GLOSSARY-FAILURES-${tlId}.txt present — glossary coherence gate (G12) failed; resolve + re-run audit-glossary`)
+  return 'clean'
+})
 
 // 3. Links 0-ERROR (G2).
 check('lint:links --strict', () => { sh('npx', ['tsx', 'scripts/lint-links.ts', `--tl=${tlId}`, '--strict']); return '0 ERROR' })
