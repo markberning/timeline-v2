@@ -129,7 +129,16 @@ reader exposure before spending money.**
     Atetelco — only passing mentions exist; narrative inline-defines).
     lint-links 0 ERROR. **Triage principle: link only to a specifically
     on-subject article; DROP rather than dump a term on the giant main
-    article.** **Remaining still-dead corpus-wide: ~481.**
+    article.**
+  - ☑ `ottoman-empire` (16 dead): 15 retargeted (mostly people/terms with
+    malformed slugs — Orban_(cannon_founder)→Orbán_(ironmaster),
+    Caesar_of_Rome_(Ottoman)→Ottoman_claim_to_Roman_succession, Hahambaşı→
+    Hakham_Bashi, Mülkiye→Faculty_of_Political_Science,_Ankara_University),
+    1 dropped (`ayan` — no article). Caught a **slug-collision**: one dead
+    slug (`Yirmisekiz_Mehmed_Efendi`) was reused for two different subjects
+    (the genre "Sefaretname" + the person) — split by matchText
+    (→`Sefâretnâme` vs the person). lint-links 0 ERROR. **Remaining
+    still-dead corpus-wide: ~465.**
 
 **Next economical step:** decide #1 remediation approach (see options put to
 user); then #11 build/data audit or #13 image liveness (both free).
