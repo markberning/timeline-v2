@@ -527,6 +527,12 @@
       "matchText": "Ahuitzotl",
       "wikiSlug": "Ahuitzotl",
       "type": "people"
+    },
+    {
+      "term": "Calmecac",
+      "matchText": "calmecac",
+      "wikiSlug": "Calmecac",
+      "type": "concept"
     }
   ],
   "5": [
@@ -655,6 +661,12 @@
       "matchText": "Saecular Games",
       "wikiSlug": "Saeculum",
       "type": "concept"
+    },
+    {
+      "term": "Coyolxauhqui",
+      "matchText": "Coyolxauhqui",
+      "wikiSlug": "Coyolxauhqui",
+      "type": "people"
     }
   ],
   "6": [
@@ -783,6 +795,12 @@
       "matchText": "Petrarch",
       "wikiSlug": "Petrarch",
       "type": "people"
+    },
+    {
+      "term": "Tlatoani",
+      "matchText": "tlatoani",
+      "wikiSlug": "Tlatoani",
+      "type": "concept"
     }
   ],
   "7": [
@@ -911,6 +929,12 @@
       "matchText": "Atahualpa",
       "wikiSlug": "Atahualpa",
       "type": "people"
+    },
+    {
+      "term": "Purépecha",
+      "matchText": "Purépecha",
+      "wikiSlug": "Purépecha",
+      "type": "people"
     }
   ],
   "8": [
@@ -1038,6 +1062,18 @@
       "term": "Francisco Pizarro",
       "matchText": "Pizarro",
       "wikiSlug": "Francisco_Pizarro",
+      "type": "people"
+    },
+    {
+      "term": "Flower war",
+      "matchText": "Flower War",
+      "wikiSlug": "Flower_war",
+      "type": "concept"
+    },
+    {
+      "term": "La Malinche",
+      "matchText": "Doña Marina",
+      "wikiSlug": "La_Malinche",
       "type": "people"
     }
   ]

@@ -23,6 +23,30 @@
       "targetTl": "andean-kingdoms",
       "targetChapter": 8,
       "blurb": "Around 1325, the Inca were a minor kingdom in the Andean highlands around Cuzco, roughly equivalent in size and ambition to the Mexica settling their mud island. Both would go on to build the largest empires their respective hemispheres had ever seen, both were destroyed by the Spanish within a generation of each other, and neither ever knew the other existed. The parallel is one of the most remarkable symmetries in pre-Columbian history."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 1,
+      "blurb": "The Aztecs were Mesoamerica's last great civilization — heirs to two thousand years of Olmec, Maya, and Zapotec tradition they consciously claimed."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 1,
+      "blurb": "The Aztecs revered Teotihuacan's ruins as the birthplace of the gods — building their imperial ideology on a city that had fallen 700 years before them."
+    },
+    {
+      "matchText": "Zapotec Civilization",
+      "targetTl": "zapotec-civilization",
+      "targetChapter": 1,
+      "blurb": "Aztec statecraft drew on the long highland tradition Monte Albán had pioneered — the disembedded capital, the tribute network, the war-and-writing state."
+    },
+    {
+      "matchText": "Andean Kingdoms",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 8,
+      "blurb": "The Aztec and Inca empires peaked simultaneously — the two great pre-Columbian powers, unconnected, both about to meet the same European catastrophe."
     }
   ],
   "2": [
@@ -43,6 +67,12 @@
       "targetTl": "teotihuacan",
       "targetChapter": 4,
       "blurb": "Obsidian — the volcanic glass the Mexica used for sacrificial blades, weapons, and tools — had been Teotihuacan's great economic lever for centuries. The city controlled the Sierra de las Navajas green obsidian source and distributed blades across Mesoamerica. The Aztecs inherited the trade routes, inherited the cultural prestige of the material, and inherited the same Pachuca-area quarries. The obsidian knife that cut Maxtla's chest at the founding of the Triple Alliance came from the same highland sources that had supplied Teotihuacan's four hundred workshops."
+    },
+    {
+      "matchText": "Zapotec Civilization",
+      "targetTl": "zapotec-civilization",
+      "targetChapter": 8,
+      "blurb": "Aztec expansion swallowed older Oaxacan and valley peoples — the Zapotec among them — into a tribute empire run from Tenochtitlan."
     }
   ],
   "3": [
@@ -89,6 +119,12 @@
       "targetTl": "maya-civilization",
       "targetChapter": 2,
       "blurb": "The Maya had been using cacao beans as a standardized medium of exchange in the lowland markets for centuries before the Aztecs adopted the convention. The trade routes that brought Soconusco cacao into the Basin of Mexico followed paths the Maya had established long before Tenochtitlan existed. When Aztec pochteca traveled southeast toward the cacao coast, they were walking Maya trade routes into Maya cultural territory, carrying a currency the Maya had invented."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 2,
+      "blurb": "Tenochtitlan was the second great planned metropolis of the Mexican highlands — consciously echoing, and surpassing, Teotihuacan's urban grandeur."
     }
   ],
   "5": [
@@ -109,6 +145,18 @@
       "targetTl": "olmec-civilization",
       "targetChapter": 4,
       "blurb": "The Olmec carved feathered serpent imagery on monuments at La Venta and San Lorenzo over a thousand years before Teotihuacan built its spectacular Feathered Serpent Temple. The deity the Aztecs called Quetzalcoatl was among the most ancient continuously transmitted religious ideas in the Americas — from Olmec stone carvings to Aztec painted codices, an unbroken lineage spanning two and a half millennia."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 4,
+      "blurb": "Aztec mass sacrifice was the extreme endpoint of the blood-and-cosmos kingship the Olmec first sketched three thousand years earlier."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 8,
+      "blurb": "The Aztec dread of the sun failing — the reason for the sacrifices — was rooted in the memory of fallen cities like Teotihuacan, proof that worlds end."
     }
   ],
   "6": [
@@ -129,6 +177,12 @@
       "targetTl": "zapotec-civilization",
       "targetChapter": 7,
       "blurb": "Nezahualcoyotl's legal code for Texcoco, his poetry questioning the sacrificial cosmology, and his hydraulic engineering projects made him the most intellectually distinguished figure in the Aztec imperial system. The Zapotec tradition had its own tradition of philosophical and astronomical sophistication — Monte Alban's observatory and calendar systems predated the Aztecs by centuries. Both civilizations produced thinker-rulers, though only Nezahualcoyotl's poems survived the conquest."
+    },
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 6,
+      "blurb": "Aztec ritualized warfare and elite captive-taking has a North American cousin in the Mississippian chiefdoms' war-and-prestige complex."
     }
   ],
   "7": [
@@ -149,6 +203,12 @@
       "targetTl": "andean-kingdoms",
       "targetChapter": 8,
       "blurb": "Motecuzoma II's paralysis before Cortés and Atahualpa's paralysis before Pizarro are the most striking parallel in the entire history of European contact with the Americas. Both rulers faced unprecedented technology, both were operating under cosmological frameworks that made the invaders difficult to categorize, both attempted to neutralize the threat by admitting the strangers to their capital, and both were taken hostage within weeks of the meeting. Pizarro's conquest of the Inca came just twelve years after Cortés's conquest of the Aztecs — and the Spanish used exactly the same playbook."
+    },
+    {
+      "matchText": "Andean Kingdoms",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 8,
+      "blurb": "Ahuitzotl's high tide is contemporary with the Inca apogee — the two American empires at maximum extent within a generation of Columbus."
     }
   ],
   "8": [
@@ -175,6 +235,12 @@
       "targetTl": "inca-empire",
       "targetChapter": 8,
       "blurb": "The Inca Empire's fall to Pizarro in 1532–33, eleven years after Tenochtitlan fell to Cortés, is the structural twin of the Aztec catastrophe — same Spanish playbook, same combination of steel, disease, and exploited internal divisions, same outcome. The Inca Empire narrative covers the conquest from the Andean side: a civil war the Spanish walked into, a smallpox epidemic that had preceded them, and a ruler captured at first contact at Cajamarca."
+    },
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 9,
+      "blurb": "The fall of Tenochtitlan and the Columbian-exchange pandemics gutted the Mississippian world too — one conquest era ending the independent Americas."
     }
   ]
 }
