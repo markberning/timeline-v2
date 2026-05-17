@@ -17,6 +17,12 @@
       "targetTl": "celtic-cultures",
       "targetChapter": 8,
       "blurb": "The Britons facing the Saxon advance were the inheritors of a Celtic civilization that had stretched from Ireland to Galatia in its Iron Age prime. Their hillforts, their druids, their Brittonic tongue, and their fierce resistance to Rome had defined the island before the empire arrived — and it was that pre-Roman Celtic substrate that the Anglo-Saxons were now, slowly and violently, overwriting."
+    },
+    {
+      "matchText": "Migration Period",
+      "targetTl": "migration-period",
+      "targetChapter": 9,
+      "blurb": "'The year the letters stopped' is Roman Britain's end — the western edge of the migration-period collapse, antiquity going dark."
     }
   ],
   "2": [
@@ -25,6 +31,18 @@
       "targetTl": "germanic-tribes",
       "targetChapter": 9,
       "blurb": "The mechanism Vortigern used — hiring Germanic warriors who then couldn't be dislodged — was the same pattern playing out across the dying empire simultaneously. In Gaul the Franks, in Spain the Visigoths, in Africa the Vandals: everywhere the hired hands became the owners. Britain was one island in a continental-scale transformation of the same basic type."
+    },
+    {
+      "matchText": "Migration Period",
+      "targetTl": "migration-period",
+      "targetChapter": 7,
+      "blurb": "The Adventus Saxonum is one more successor-kingdom story — Germanic settlers carving a post-Roman realm, like the Goths and Vandals elsewhere."
+    },
+    {
+      "matchText": "Germanic Tribes",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 10,
+      "blurb": "The Angles and Saxons are 'what the Germani became' in Britain — the deep north-European world finally crossing the Channel."
     }
   ],
   "3": [
@@ -73,6 +91,12 @@
       "targetTl": "early-medieval-europe",
       "targetChapter": 3,
       "blurb": "The Continental Germanic kingdoms had been writing law codes in Latin for roughly a century before Æthelberht: the Frankish Lex Salica under Clovis, the Visigoths and Burgundians in the same era. What made the Kentish code genuinely new was not writing law — it was writing law in the spoken language of the people it governed, an innovation the Continent had not attempted."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "The Gregorian mission to Kent is part of the wider Christianization of the post-Roman West — Rome re-converting the provinces it had lost."
     }
   ],
   "6": [
@@ -81,6 +105,12 @@
       "targetTl": "early-medieval-europe",
       "targetChapter": 4,
       "blurb": "The decision at Whitby pulled England's church permanently toward Rome and the Continent, away from the Irish monastic world it had partially grown from. That meant Latin, papal authority, episcopal hierarchy — the same organizational model the Frankish church was building across the Channel. England's intellectual orientation would point south and east for the next nine hundred years."
+    },
+    {
+      "matchText": "Celtic Cultures",
+      "targetTl": "celtic-cultures",
+      "targetChapter": 8,
+      "blurb": "Whitby (664) settled the contest between Irish-Celtic and Roman Christianity — the Celtic church the older Insular tradition this narrative inherits."
     }
   ],
   "7": [
@@ -101,6 +131,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 8,
       "blurb": "Bede placed himself in a tradition of rigorous historical writing that included Tacitus and Livy, the great Roman historians whose methods of naming sources and distinguishing evidence from legend he aspired to match. From a monastery on the North Sea, centuries after the empire had collapsed, a Northumbrian monk was consciously continuing a classical tradition of critical history."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "The Northumbrian golden age — Bede, the Lindisfarne Gospels — fed directly into the Carolingian Renaissance via Alcuin of York."
     }
   ],
   "8": [
@@ -115,6 +151,12 @@
       "targetTl": "celtic-cultures",
       "targetChapter": 8,
       "blurb": "Offa's Dyke ran along the frontier between Mercia and the Welsh kingdoms — the still-Brittonic, Celtic-speaking peoples who had never been conquered by the English and maintained their own language, law, and identity in the western highlands. The Dyke was a statement that this was where England ended and something older began, a boundary that acknowledged, implicitly, that the Anglo-Saxon world had reached its western limit."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 6,
+      "blurb": "Offa's Mercian supremacy was a recognized peer of Charlemagne's world — Anglo-Saxon England a player in the Carolingian order."
     }
   ],
   "9": [
@@ -155,6 +197,12 @@
       "targetTl": "early-medieval-europe",
       "targetChapter": 7,
       "blurb": "Alcuin was at Charlemagne's court when news of Lindisfarne reached him — the Northumbrian scholar had been recruited to run the palace school of the most powerful ruler in Europe. His letters home in horror are the most vivid contemporary response to the raid, and the fact that England's greatest scholar was writing from the heart of the Carolingian court is itself the measure of how far English learning had traveled since Benedict Biscop's first journey to Rome."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 2,
+      "blurb": "'The eve of the storm' is 793 — Lindisfarne, where the Viking narrative's western raids begin and Anglo-Saxon England's old world ends."
     }
   ]
 }
