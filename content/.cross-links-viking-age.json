@@ -1,6 +1,12 @@
 {
   "1": [
     {
+      "matchText": "high tide in Baghdad",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Abbasid Caliphate in Baghdad at the time of the first Viking raids was heir to a millennium of Persian imperial administration. The Abbasids had taken power from the Umayyads in 750 on the strength of Persian and Khurasani support, and their court culture, bureaucratic practice, and intellectual life were deeply Persian. The dirhams the Vikings would chase across the Volga were minted in a city built on Persian models by a dynasty running a Persian-staffed government."
+    },
+    {
       "matchText": "Carolingian Empire",
       "targetTl": "celtic-cultures",
       "targetChapter": 8,
@@ -176,6 +182,18 @@
     }
   ],
   "5": [
+    {
+      "matchText": "doomed nobility",
+      "targetTl": "scythians",
+      "targetChapter": 1,
+      "blurb": "Norse mythology's central preoccupation with doomed heroism — fighting knowing you will lose at Ragnarök — has a structural parallel in the Scythian warrior ethos as described by Herodotus: warriors who preferred death in battle to dishonor, who dragged their enemies into suicide pacts, and who built the great kurgans as monuments to fallen chiefs. Both cultures built their warrior identity around the acceptance of inevitable death and the conviction that how you died mattered more than whether you survived."
+    },
+    {
+      "matchText": "converted in 1000",
+      "targetTl": "phoenicia",
+      "targetChapter": 5,
+      "blurb": "Iceland's peaceful parliamentary conversion to Christianity in 1000 CE is worth contrasting with the violent Christianization happening elsewhere. The Phoenicians had faced the opposite pressure a millennium earlier — their Canaanite religious tradition being absorbed and eventually suppressed by the spread of monotheism from their Israelite neighbors. In both cases, an Atlantic-facing maritime culture was navigating the transition between older polytheist practice and a new universal religion. Iceland managed it without martyrs. The Phoenicians did not get the choice."
+    },
     {
       "matchText": "Olaf Tryggvason",
       "targetTl": "celtic-cultures",

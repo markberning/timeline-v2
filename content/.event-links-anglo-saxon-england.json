@@ -32,7 +32,7 @@
   "4": [
     {"eventId":"evt-ase-heptarchy","matchText":"The Heptarchy"},
     {"eventId":"evt-ase-bretwalda","matchText":"Bretwalda"},
-    {"eventId":"evt-ase-aethelberht","matchText":"thelberht of Kent"},
+    {"eventId":"evt-ase-aethelberht","matchText":"Æthelberht of Kent"},
     {"eventId":"evt-ase-bertha-kent","matchText":"Bertha"},
     {"eventId":"evt-ase-raedwald","matchText":"Rædwald"},
     {"eventId":"evt-ase-sutton-hoo","matchText":"Sutton Hoo Ship Burial"},
@@ -61,7 +61,8 @@
     {"eventId":"evt-ase-theodore","matchText":"Theodore of Tarsus"},
     {"eventId":"evt-ase-church-councils","matchText":"council of the whole English"},
     {"eventId":"evt-ase-double-monasteries","matchText":"double monastery"},
-    {"eventId":"evt-ase-canterbury","matchText":"The See of Canterbury"}
+    {"eventId":"evt-ase-canterbury","matchText":"The See of Canterbury"},
+    {"eventId":"evt-ase-caedmon","matchText":"Cædmon's Hymn"}
   ],
   "7": [
     {"eventId":"evt-ase-benedict-biscop","matchText":"Benedict Biscop"},

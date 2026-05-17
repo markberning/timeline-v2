@@ -605,6 +605,36 @@
   ],
   "3": [
     {
+      "term": "Place-name suffix -by",
+      "matchText": "Whitby",
+      "wikiSlug": "By_(place_name_element)",
+      "type": "concept"
+    },
+    {
+      "term": "Thingvellir",
+      "matchText": "Þingvellir",
+      "wikiSlug": "%C3%9Eingvellir",
+      "type": "place"
+    },
+    {
+      "term": "Gragas law code",
+      "matchText": "Grágás",
+      "wikiSlug": "Gr%C3%A1g%C3%A1s",
+      "type": "concept"
+    },
+    {
+      "term": "Reykjavik",
+      "matchText": "Reykjavík",
+      "wikiSlug": "Reykjav%C3%ADk",
+      "type": "place"
+    },
+    {
+      "term": "Landnámabók",
+      "matchText": "Landnámabók",
+      "wikiSlug": "Landn%C3%A1mab%C3%B3k",
+      "type": "concept"
+    },
+    {
       "term": "Alfred the Great",
       "matchText": "Alfred the Great",
       "wikiSlug": "Alfred_the_Great",
@@ -943,6 +973,36 @@
       "matchText": "Toltec",
       "wikiSlug": "Toltec",
       "type": "concept"
+    },
+    {
+      "term": "Mjolnir",
+      "matchText": "Mjölnir",
+      "wikiSlug": "Mj%C3%B6lnir",
+      "type": "concept"
+    },
+    {
+      "term": "Ragnarok",
+      "matchText": "Ragnarök",
+      "wikiSlug": "Ragnar%C3%B6k",
+      "type": "concept"
+    },
+    {
+      "term": "Blot",
+      "matchText": "blót",
+      "wikiSlug": "Bl%C3%B3t",
+      "type": "concept"
+    },
+    {
+      "term": "Utiseta",
+      "matchText": "útiseta",
+      "wikiSlug": "%C3%9Atiseta",
+      "type": "concept"
+    },
+    {
+      "term": "Seidr",
+      "matchText": "seiðr",
+      "wikiSlug": "Sei%C3%B0r",
+      "type": "concept"
     }
   ],
   "6": [
@@ -1010,6 +1070,42 @@
       "term": "Sanskrit literature",
       "matchText": "Sanskrit court poetry",
       "wikiSlug": "Sanskrit_literature",
+      "type": "concept"
+    },
+    {
+      "term": "Rök runestone",
+      "matchText": "carved around 800",
+      "wikiSlug": "R%C3%B6k_runestone",
+      "type": "concept"
+    },
+    {
+      "term": "Dróttkvætt",
+      "matchText": "dróttkvætt",
+      "wikiSlug": "Dr%C3%B3ttkv%C3%A6tt",
+      "type": "concept"
+    },
+    {
+      "term": "Höfuðlausn",
+      "matchText": "Höfuðlausn",
+      "wikiSlug": "H%C3%B6fu%C3%B0lausn",
+      "type": "concept"
+    },
+    {
+      "term": "Völuspá",
+      "matchText": "Völuspá",
+      "wikiSlug": "V%C3%B6lusp%C3%A1",
+      "type": "concept"
+    },
+    {
+      "term": "Hávamál",
+      "matchText": "Hávamál",
+      "wikiSlug": "H%C3%A1vam%C3%A1l",
+      "type": "concept"
+    },
+    {
+      "term": "Njal's Saga",
+      "matchText": "Njál's Saga",
+      "wikiSlug": "Nj%C3%A1ls_saga",
       "type": "concept"
     }
   ],
@@ -1079,6 +1175,12 @@
       "matchText": "Khazar Khaganate",
       "wikiSlug": "Khazar_Khaganate",
       "type": "concept"
+    },
+    {
+      "term": "Aethelred II",
+      "matchText": "Æthelred II",
+      "wikiSlug": "%C3%86thelred_the_Unready",
+      "type": "people"
     }
   ],
   "8": [

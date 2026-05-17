@@ -497,6 +497,12 @@
       "matchText": "Nizari Ismaili Assassins",
       "wikiSlug": "Order_of_Assassins",
       "type": "concept"
+    },
+    {
+      "term": "Volga Bulgars",
+      "matchText": "Bulgars",
+      "wikiSlug": "Volga_Bulgaria",
+      "type": "people"
     }
   ],
   "5": [
@@ -580,7 +586,7 @@
     },
     {
       "term": "Hülegü Khan",
-      "matchText": "Hüleg",
+      "matchText": "Hülegü",
       "wikiSlug": "Hulagu_Khan",
       "type": "people"
     },
@@ -745,6 +751,12 @@
       "type": "concept"
     },
     {
+      "term": "Paiza (travel pass)",
+      "matchText": "paiza",
+      "wikiSlug": "Paiza",
+      "type": "concept"
+    },
+    {
       "term": "Ghazan Khan",
       "matchText": "Ghazan Khan",
       "wikiSlug": "Ghazan",
@@ -776,7 +788,7 @@
     },
     {
       "term": "Öljaitü",
-      "matchText": "ljait",
+      "matchText": "Öljaitü",
       "wikiSlug": "Oljeitu",
       "type": "people"
     },

@@ -74,7 +74,7 @@ function checkMatchText(tl: string, ch: string, kind: string, mt: string, title:
   // Non-ASCII matchText is fine now: the parser uses Unicode-aware boundaries,
   // so accented terms ("Þingvellir", "Reykjavík", "Hernán Cortés") match as
   // written. `matchesBody` below is the sole judge — no separate ASCII rule.
-  if (/^[^\w]|[^\w'’]$/.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} has leading/trailing punctuation`)
+  if (/^[^\p{L}\p{N}]/u.test(mt) || /[^\p{L}\p{N}'’]$/u.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} has leading/trailing punctuation`)
   const words = mt.trim().split(/\s+/)
   if (words.length > 6 || /,/.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} looks sentence-like (likely sloppy)`)
   const tl2 = title.toLowerCase(), mtl = mt.toLowerCase()

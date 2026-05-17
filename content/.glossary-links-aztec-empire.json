@@ -131,6 +131,24 @@
       "matchText": "Cocoxtli",
       "wikiSlug": "Cocoxtli",
       "type": "people"
+    },
+    {
+      "term": "Bernal Díaz del Castillo",
+      "matchText": "Bernal Díaz del Castillo",
+      "wikiSlug": "Bernal_D%C3%ADaz_del_Castillo",
+      "type": "people"
+    },
+    {
+      "term": "Bernardino de Sahagún",
+      "matchText": "Bernardino de Sahagún",
+      "wikiSlug": "Bernardino_de_Sahag%C3%BAn",
+      "type": "people"
+    },
+    {
+      "term": "Popocatépetl",
+      "matchText": "Popocatépetl",
+      "wikiSlug": "Popocat%C3%A9petl",
+      "type": "place"
     }
   ],
   "2": [
@@ -369,6 +387,12 @@
       "matchText": "Hernando de Alvarado Tezozomoc",
       "wikiSlug": "Hernando_de_Alvarado_Tezoz%C3%B3moc",
       "type": "people"
+    },
+    {
+      "term": "Albarradón de Nezahualcoyotl",
+      "matchText": "Albarradón de Nezahualcoyotl",
+      "wikiSlug": "Albarrad%C3%B3n_de_Nezahualc%C3%B3yotl",
+      "type": "place"
     }
   ],
   "4": [
@@ -887,6 +911,18 @@
       "matchText": "Purépecha",
       "wikiSlug": "Purépecha",
       "type": "people"
+    },
+    {
+      "term": "Lake Pátzcuaro",
+      "matchText": "Lake Pátzcuaro",
+      "wikiSlug": "Lake_P%C3%A1tzcuaro",
+      "type": "place"
+    },
+    {
+      "term": "Michoacán",
+      "matchText": "Michoacán",
+      "wikiSlug": "Michoac%C3%A1n",
+      "type": "place"
     }
   ],
   "8": [
@@ -997,6 +1033,30 @@
       "matchText": "Doña Marina",
       "wikiSlug": "La_Malinche",
       "type": "people"
+    },
+    {
+      "term": "Hernán Cortés",
+      "matchText": "Hernán Cortés",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "people"
+    },
+    {
+      "term": "Pánfilo de Narváez",
+      "matchText": "Pánfilo de Narváez",
+      "wikiSlug": "P%C3%A1nfilo_de_Narv%C3%A1ez",
+      "type": "people"
+    },
+    {
+      "term": "Iztaccíhuatl",
+      "matchText": "Iztaccíhuatl",
+      "wikiSlug": "Iztacc%C3%ADhuatl",
+      "type": "place"
+    },
+    {
+      "term": "Zócalo",
+      "matchText": "Zócalo",
+      "wikiSlug": "Z%C3%B3calo",
+      "type": "place"
     }
   ]
 }

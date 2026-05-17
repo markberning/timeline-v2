@@ -33,6 +33,7 @@
     {"eventId":"evt-waterford-limerick-wexford","matchText":"Limerick"}
   ],
   "3": [
+    {"eventId":"evt-danelaw-established","matchText":"Norse legal custom"},
     {"eventId":"evt-battle-edington","matchText":"Battle of Edington"},
     {"eventId":"evt-treaty-wedmore","matchText":"Treaty of Wedmore"},
     {"eventId":"evt-hafrsfjord","matchText":"Battle of Hafrsfjord"},
@@ -58,6 +59,9 @@
     {"eventId":"evt-vladimir-converts-rus","matchText":"Vladimir"}
   ],
   "5": [
+    {"eventId":"evt-norse-blot-sacrifice","matchText":"animal slaughter"},
+    {"eventId":"evt-disablot-midwinter","matchText":"dísir"},
+    {"eventId":"evt-thorgeir-lawspeaker","matchText":"Þorgeirr Ljósvetningagoði"},
     {"eventId":"evt-temple-at-uppsala","matchText":"Great Heathen Temple at Uppsala"},
     {"eventId":"evt-conversion-denmark-bluetooth","matchText":"Harald Bluetooth"},
     {"eventId":"evt-jelling-stones","matchText":"Jelling Stones"},

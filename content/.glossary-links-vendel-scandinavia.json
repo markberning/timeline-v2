@@ -59,6 +59,12 @@
       "matchText": "Vendel Age",
       "wikiSlug": "Vendel_Period",
       "type": "concept"
+    },
+    {
+      "term": "Ragnarök",
+      "matchText": "Ragnarök",
+      "wikiSlug": "Ragnarök",
+      "type": "concept"
     }
   ],
   "2": [
@@ -103,6 +109,12 @@
       "matchText": "clinker-built",
       "wikiSlug": "Clinker_(boat_building)",
       "type": "concept"
+    },
+    {
+      "term": "Lake Mälaren",
+      "matchText": "Lake Mälaren",
+      "wikiSlug": "Lake_Mälaren",
+      "type": "place"
     }
   ],
   "3": [
@@ -171,6 +183,12 @@
       "matchText": "Beowulf",
       "wikiSlug": "Beowulf",
       "type": "writing"
+    },
+    {
+      "term": "Hrólf Kraki",
+      "matchText": "Hrólf Kraki",
+      "wikiSlug": "Hrólf_Kraki",
+      "type": "people"
     }
   ],
   "4": [
@@ -239,6 +257,18 @@
       "matchText": "Temple at Uppsala",
       "wikiSlug": "Temple_at_Uppsala",
       "type": "place"
+    },
+    {
+      "term": "Njörd",
+      "matchText": "Njörd",
+      "wikiSlug": "Njörðr",
+      "type": "people"
+    },
+    {
+      "term": "Blót",
+      "matchText": "blót",
+      "wikiSlug": "Blót",
+      "type": "concept"
     }
   ],
   "5": [
@@ -301,6 +331,18 @@
       "matchText": "glass beads",
       "wikiSlug": "Viking_Age_glass_beads",
       "type": "concept"
+    },
+    {
+      "term": "Helgö",
+      "matchText": "Helgö",
+      "wikiSlug": "Helgö",
+      "type": "place"
+    },
+    {
+      "term": "Grobiņa",
+      "matchText": "Grobiņa",
+      "wikiSlug": "Grobiņa",
+      "type": "place"
     }
   ],
   "6": [
@@ -357,6 +399,12 @@
       "matchText": "the Indus",
       "wikiSlug": "Indus_Valley_Civilisation",
       "type": "concept"
+    },
+    {
+      "term": "Åhus",
+      "matchText": "Åhus",
+      "wikiSlug": "Åhus",
+      "type": "place"
     }
   ],
   "7": [
@@ -493,6 +541,12 @@
       "matchText": "Viking Age",
       "wikiSlug": "Viking_Age",
       "type": "concept"
+    },
+    {
+      "term": "Sámi people",
+      "matchText": "Sámi",
+      "wikiSlug": "Sámi_people",
+      "type": "people"
     }
   ]
 }
