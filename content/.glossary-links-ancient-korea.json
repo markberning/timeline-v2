@@ -331,6 +331,12 @@
       "matchText": "millet",
       "wikiSlug": "Millet",
       "type": "concept"
+    },
+    {
+      "term": "Dangun",
+      "matchText": "Dangun",
+      "wikiSlug": "Dangun",
+      "type": "people"
     }
   ],
   "3": [
@@ -793,6 +799,12 @@
       "matchText": "radiant floor heating",
       "wikiSlug": "Underfloor_heating",
       "type": "concept"
+    },
+    {
+      "term": "Goguryeo",
+      "matchText": "Goguryeo",
+      "wikiSlug": "Goguryeo",
+      "type": "concept"
     }
   ],
   "6": [
@@ -927,6 +939,12 @@
       "matchText": "Geum River",
       "wikiSlug": "Geum_River",
       "type": "place"
+    },
+    {
+      "term": "Baekje",
+      "matchText": "Baekje",
+      "wikiSlug": "Baekje",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1254,6 +1272,12 @@
       "term": "Movable metal type",
       "matchText": "movable metal type",
       "wikiSlug": "Movable_type",
+      "type": "concept"
+    },
+    {
+      "term": "Bell of King Seongdeok",
+      "matchText": "Divine Bell of King Seongdeok",
+      "wikiSlug": "Bell_of_King_Seongdeok",
       "type": "concept"
     }
   ]
