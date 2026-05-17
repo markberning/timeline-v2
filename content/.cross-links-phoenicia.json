@@ -31,6 +31,24 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 1,
       "blurb": "In 1000 BCE, the Zhou dynasty governed China through a feudal system of vassal lords, producing the era's greatest thinkers — Confucius, Laozi, Sunzi — but had zero interest in the sea. While the Phoenicians were building a maritime empire across the Mediterranean, China's civilization was entirely inland and river-based."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 9,
+      "blurb": "Phoenicia rose from the Bronze Age Collapse's wreckage — small coastal cities thriving in the vacuum the great Mesopotamian-Hittite powers left."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 3,
+      "blurb": "The Phoenician cities prospered as tributary clients of the Assyrian war-state — paying for the autonomy to keep trading."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 5,
+      "blurb": "The Phoenician alphabet's birth is one of history's great information breakthroughs — a different path from the logographic systems of China."
     }
   ],
   "3": [
@@ -59,9 +77,28 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 4,
       "blurb": "The Assyrian palaces at Nimrud were treasure houses of tribute extracted from the entire Near East. Thousands of exquisite Phoenician ivory carvings found in Nimrud's storerooms — sphinxes, lotus flowers, winged figures — were either tribute payments or war booty, now among the finest small-scale artworks surviving from the ancient world."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 3,
+      "blurb": "Hiram's golden-age Tyre operated in the shadow of, and in profitable accommodation with, the rising Assyrian empire."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Tyrian purple — the murex dye — would still be the color of emperors more than a thousand years later in Byzantium."
     }
   ],
-  "5": [],
+  "5": [
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 7,
+      "blurb": "The Phoenicians were antiquity's Vikings of trade — a maritime diaspora of emporia and colonies, from Cyprus to Cadiz, run by ship not army."
+    }
+  ],
   "6": [
     {
       "matchText": "Shalmaneser III",
@@ -86,6 +123,18 @@
       "targetTl": "ancient-greece",
       "targetChapter": 4,
       "blurb": "Salamis was the naval battle that saved Greek independence — 370 triremes lured the massive Persian fleet into a narrow strait and destroyed it. The Phoenician contingent was the cream of the Persian navy, and their defeat in someone else's war humiliated the greatest sailors in the Mediterranean."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Under the Assyrian then Persian empires, the Phoenician cities survived by becoming the imperial navy and merchant marine."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Phoenician fleets were the naval backbone of the Achaemenid Empire — the sea power of a land empire."
     }
   ],
   "7": [
@@ -106,6 +155,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 5,
       "blurb": "The Numidians were North African horsemen whose lightning cavalry tactics made them the most sought-after mercenaries in the western Mediterranean. Their switch from Carthaginian to Roman allegiance at Zama was the decisive factor — Scipio turned Hannibal's own tactical playbook against him using the cavalry that had once been Carthage's greatest asset."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 1,
+      "blurb": "The Carthaginian century is Phoenicia's western afterlife — the colony that outgrew and outlived the homeland."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 4,
+      "blurb": "As the eastern Phoenician cities faded under Persia, Carthage carried the civilization on alone in the west."
     }
   ],
   "8": [
@@ -120,6 +181,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 6,
       "blurb": "Rome's destruction of both Carthage and Corinth in 146 BCE was the Mediterranean's year of no return. The two greatest commercial cities outside Rome itself were erased within months of each other — one the Phoenician capital of the west, the other the Greek trading hub of the east. Rome had no rival left."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 8,
+      "blurb": "Phoenicia proper ended with Alexander's sack of Tyre — but the Phoenician story continues, and ends, with Carthage."
     }
   ]
 }
