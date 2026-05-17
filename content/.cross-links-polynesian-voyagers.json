@@ -11,6 +11,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 2,
       "blurb": "Mesopotamian civilization was built on rivers, not oceans. Sumerian and Akkadian merchants used reed boats and wooden barges to haul grain, copper, and textiles up and down the Tigris and Euphrates, and traded by sea with Dilmun (Bahrain) in the Persian Gulf. Open-ocean navigation was simply not part of the Mesopotamian toolkit."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "The Lapita expansion is one of humanity's great pristine migrations — a Neolithic seafaring people colonizing empty ocean, as original as Sumer's first cities."
+    },
+    {
+      "matchText": "Minoan Civilization",
+      "targetTl": "minoan-civilization",
+      "targetChapter": 5,
+      "blurb": "Lapita was a maritime culture defined by the sea — a Pacific cousin to the thalassocratic instinct the Minoans showed in the Aegean."
     }
   ],
   "2": [
@@ -25,9 +37,22 @@
       "targetTl": "ancient-china",
       "targetChapter": 3,
       "blurb": "The Mandate of Heaven was China's answer to the same question every civilization faces: why should this ruler rule? The Chinese version said Heaven chose the ruler and could revoke the choice if he governed badly. The Polynesian version said the chief's mana was observable in results. Both systems tied political legitimacy to something larger than the ruler himself."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 3,
+      "blurb": "The Austronesian voyagers ultimately trace to a south-China/Taiwan origin — the same East Asian Neolithic world that produced early China."
     }
   ],
-  "3": [],
+  "3": [
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Polynesian wayfinding and the Norse ocean craft are history's two great non-instrument deep-sea navigation traditions — opposite hemispheres, same problem solved."
+    }
+  ],
   "4": [
     {
       "matchText": "it took the Phoenicians roughly the same amount of time to colonize the Mediterranean",
@@ -48,6 +73,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "By the time the Tu'i Tonga empire was projecting power across the western Pacific, the Mesopotamian model of empire, roads and armies and walled cities, was over three thousand years old. Sargon, Hammurabi, and the Assyrians had all built empires by marching soldiers across land. The Tu'i Tonga built theirs by sailing war canoes across water. Same ambition, opposite medium."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "The Polynesian 'empire of the sea' — Tonga's maritime chiefdom — is a thalassocratic state as real as any Mesopotamian land empire, just built on water."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 3,
+      "blurb": "The chiefdom-to-paramount-chiefdom climb in Polynesia is the same emergent-complexity process early China ran on land."
     }
   ],
   "6": [
@@ -68,6 +105,12 @@
       "targetTl": "inca-empire",
       "targetChapter": 8,
       "blurb": "The sweet potato is one of the few hard pieces of evidence that pre-Columbian Polynesian voyagers may have reached South American coasts — and the Andean civilization they would have encountered, in the centuries before the Inca, was the same continuous tradition that produced the Inca Empire. The Inca chapter on the Spanish conquest covers the late-Andean world that the sweet potato story brushes against from the Pacific side."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 4,
+      "blurb": "Reaching the farthest shores — Hawaii, Rapa Nui, Aotearoa — completed the largest migration in human history before the European age."
     }
   ],
   "7": [
@@ -106,6 +149,18 @@
       "targetTl": "old-kingdom-egypt",
       "targetChapter": 2,
       "blurb": "Egyptian royal sibling marriage was a theological strategy: by marrying within the divine bloodline, pharaohs kept the sacred power concentrated. The practice was especially prominent in later dynasties but had roots in the Old Kingdom's ideology of the pharaoh as a god apart from ordinary humanity. Hawaiian ali'i arrived at the same solution independently, for the same reason: when your ruler is divine, you cannot dilute the bloodline."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 6,
+      "blurb": "Rapa Nui's moai are a Pacific parallel to Olmec monumental sculpture — colossal stone identity-marking on an isolated island world."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 4,
+      "blurb": "Hawaiian sacred kingship and kapu is a Pacific divine-rulership system as elaborate as the Shang's — taboo and mana in place of oracle bones."
     }
   ],
   "8": [
@@ -120,6 +175,12 @@
       "targetTl": "phoenicia",
       "targetChapter": 6,
       "blurb": "Phoenician sailors were the ancient Mediterranean's boldest navigators, possibly circumnavigating Africa under Egyptian commission around 600 BCE. But even their most ambitious voyages followed coastlines. The Polynesians sailed into featureless open ocean with no coastline to follow, no charts, and no metal instruments. The comparison is not meant to diminish the Phoenicians but to show just how extraordinary the Polynesian achievement was."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "A civilization of water rather than river-valley irrigation — Polynesia inverts the standard origin story while reaching the same complexity."
     }
   ]
 }

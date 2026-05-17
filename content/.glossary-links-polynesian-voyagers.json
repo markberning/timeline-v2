@@ -1,232 +1,1326 @@
 {
   "1": [
-    {"term": "Bismarck Archipelago", "matchText": "Bismarck Archipelago", "wikiSlug": "Bismarck_Archipelago", "type": "place"},
-    {"term": "Lapita culture", "matchText": "Lapita", "wikiSlug": "Lapita_culture", "type": "concept"},
-    {"term": "New Guinea", "matchText": "New Guinea", "wikiSlug": "New_Guinea", "type": "place"},
-    {"term": "New Caledonia", "matchText": "New Caledonia", "wikiSlug": "New_Caledonia", "type": "place"},
-    {"term": "Melanesia", "matchText": "Melanesian peoples", "wikiSlug": "Melanesia", "type": "place"},
-    {"term": "Austronesian languages", "matchText": "Austronesian", "wikiSlug": "Austronesian_languages", "type": "concept"},
-    {"term": "Taiwan", "matchText": "Taiwan", "wikiSlug": "Taiwan", "type": "place"},
-    {"term": "Philippines", "matchText": "Philippines", "wikiSlug": "Philippines", "type": "place"},
-    {"term": "Madagascar", "matchText": "Madagascar", "wikiSlug": "Madagascar", "type": "place"},
-    {"term": "Indo-European languages", "matchText": "Indo-European family", "wikiSlug": "Indo-European_languages", "type": "concept"},
-    {"term": "dentate stamping", "matchText": "dentate stamping", "wikiSlug": "Dentate_stamp", "type": "concept"},
-    {"term": "outrigger canoe", "matchText": "outrigger canoe", "wikiSlug": "Outrigger_canoe", "type": "concept"},
-    {"term": "obsidian", "matchText": "obsidian", "wikiSlug": "Obsidian", "type": "concept"},
-    {"term": "New Britain", "matchText": "New Britain", "wikiSlug": "New_Britain", "type": "place"},
-    {"term": "taro", "matchText": "taro", "wikiSlug": "Taro", "type": "concept"},
-    {"term": "breadfruit", "matchText": "breadfruit", "wikiSlug": "Breadfruit", "type": "concept"},
-    {"term": "coconut", "matchText": "coconuts", "wikiSlug": "Coconut", "type": "concept"},
-    {"term": "sugarcane", "matchText": "sugarcane", "wikiSlug": "Sugarcane", "type": "concept"},
-    {"term": "Near Oceania", "matchText": "Near Oceania", "wikiSlug": "Near_Oceania", "type": "place"},
-    {"term": "Solomon Islands", "matchText": "Solomons", "wikiSlug": "Solomon_Islands", "type": "place"},
-    {"term": "Vanuatu", "matchText": "Vanuatu", "wikiSlug": "Vanuatu", "type": "place"},
-    {"term": "Remote Oceania", "matchText": "Remote Oceania", "wikiSlug": "Remote_Oceania", "type": "place"},
-    {"term": "Fiji", "matchText": "Fiji", "wikiSlug": "Fiji", "type": "place"},
-    {"term": "Tonga", "matchText": "Tonga", "wikiSlug": "Tonga", "type": "place"},
-    {"term": "Samoa", "matchText": "Samoa", "wikiSlug": "Samoa", "type": "place"},
-    {"term": "Polynesian rat", "matchText": "Rattus exulans", "wikiSlug": "Polynesian_rat", "type": "concept"},
-    {"term": "Clovis culture", "matchText": "Clovis people", "wikiSlug": "Clovis_culture", "type": "concept"},
-    {"term": "yam", "matchText": "yams", "wikiSlug": "Yam_(vegetable)", "type": "concept"},
-    {"term": "banana", "matchText": "bananas", "wikiSlug": "Banana", "type": "concept"},
-    {"term": "Australia", "matchText": "Australia", "wikiSlug": "Australia", "type": "place"},
-    {"term": "dugout canoe", "matchText": "dugout canoe", "wikiSlug": "Dugout_canoe", "type": "concept"},
-    {"term": "Island Southeast Asia", "matchText": "Island Southeast Asia", "wikiSlug": "Maritime_Southeast_Asia", "type": "place"},
-    {"term": "Easter Island", "matchText": "Easter Island", "wikiSlug": "Easter_Island", "type": "place"},
-    {"term": "Mediterranean", "matchText": "Mediterranean", "wikiSlug": "Mediterranean_Sea", "type": "place"},
-    {"term": "ancestor worship", "matchText": "ancestor worship", "wikiSlug": "Ancestor_worship", "type": "concept"}
+    {
+      "term": "Bismarck Archipelago",
+      "matchText": "Bismarck Archipelago",
+      "wikiSlug": "Bismarck_Archipelago",
+      "type": "place"
+    },
+    {
+      "term": "Lapita culture",
+      "matchText": "Lapita",
+      "wikiSlug": "Lapita_culture",
+      "type": "concept"
+    },
+    {
+      "term": "New Guinea",
+      "matchText": "New Guinea",
+      "wikiSlug": "New_Guinea",
+      "type": "place"
+    },
+    {
+      "term": "New Caledonia",
+      "matchText": "New Caledonia",
+      "wikiSlug": "New_Caledonia",
+      "type": "place"
+    },
+    {
+      "term": "Melanesia",
+      "matchText": "Melanesian peoples",
+      "wikiSlug": "Melanesia",
+      "type": "place"
+    },
+    {
+      "term": "Austronesian languages",
+      "matchText": "Austronesian",
+      "wikiSlug": "Austronesian_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Taiwan",
+      "matchText": "Taiwan",
+      "wikiSlug": "Taiwan",
+      "type": "place"
+    },
+    {
+      "term": "Philippines",
+      "matchText": "Philippines",
+      "wikiSlug": "Philippines",
+      "type": "place"
+    },
+    {
+      "term": "Madagascar",
+      "matchText": "Madagascar",
+      "wikiSlug": "Madagascar",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European languages",
+      "matchText": "Indo-European family",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "dentate stamping",
+      "matchText": "dentate stamping",
+      "wikiSlug": "Dentate_stamp",
+      "type": "concept"
+    },
+    {
+      "term": "outrigger canoe",
+      "matchText": "outrigger canoe",
+      "wikiSlug": "Outrigger_canoe",
+      "type": "concept"
+    },
+    {
+      "term": "obsidian",
+      "matchText": "obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "New Britain",
+      "matchText": "New Britain",
+      "wikiSlug": "New_Britain",
+      "type": "place"
+    },
+    {
+      "term": "taro",
+      "matchText": "taro",
+      "wikiSlug": "Taro",
+      "type": "concept"
+    },
+    {
+      "term": "breadfruit",
+      "matchText": "breadfruit",
+      "wikiSlug": "Breadfruit",
+      "type": "concept"
+    },
+    {
+      "term": "coconut",
+      "matchText": "coconuts",
+      "wikiSlug": "Coconut",
+      "type": "concept"
+    },
+    {
+      "term": "sugarcane",
+      "matchText": "sugarcane",
+      "wikiSlug": "Sugarcane",
+      "type": "concept"
+    },
+    {
+      "term": "Near Oceania",
+      "matchText": "Near Oceania",
+      "wikiSlug": "Near_Oceania",
+      "type": "place"
+    },
+    {
+      "term": "Solomon Islands",
+      "matchText": "Solomons",
+      "wikiSlug": "Solomon_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Vanuatu",
+      "matchText": "Vanuatu",
+      "wikiSlug": "Vanuatu",
+      "type": "place"
+    },
+    {
+      "term": "Remote Oceania",
+      "matchText": "Remote Oceania",
+      "wikiSlug": "Remote_Oceania",
+      "type": "place"
+    },
+    {
+      "term": "Fiji",
+      "matchText": "Fiji",
+      "wikiSlug": "Fiji",
+      "type": "place"
+    },
+    {
+      "term": "Tonga",
+      "matchText": "Tonga",
+      "wikiSlug": "Tonga",
+      "type": "place"
+    },
+    {
+      "term": "Samoa",
+      "matchText": "Samoa",
+      "wikiSlug": "Samoa",
+      "type": "place"
+    },
+    {
+      "term": "Polynesian rat",
+      "matchText": "Rattus exulans",
+      "wikiSlug": "Polynesian_rat",
+      "type": "concept"
+    },
+    {
+      "term": "Clovis culture",
+      "matchText": "Clovis people",
+      "wikiSlug": "Clovis_culture",
+      "type": "concept"
+    },
+    {
+      "term": "yam",
+      "matchText": "yams",
+      "wikiSlug": "Yam_(vegetable)",
+      "type": "concept"
+    },
+    {
+      "term": "banana",
+      "matchText": "bananas",
+      "wikiSlug": "Banana",
+      "type": "concept"
+    },
+    {
+      "term": "Australia",
+      "matchText": "Australia",
+      "wikiSlug": "Australia",
+      "type": "place"
+    },
+    {
+      "term": "dugout canoe",
+      "matchText": "dugout canoe",
+      "wikiSlug": "Dugout_canoe",
+      "type": "concept"
+    },
+    {
+      "term": "Island Southeast Asia",
+      "matchText": "Island Southeast Asia",
+      "wikiSlug": "Maritime_Southeast_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Easter Island",
+      "matchText": "Easter Island",
+      "wikiSlug": "Easter_Island",
+      "type": "place"
+    },
+    {
+      "term": "Mediterranean",
+      "matchText": "Mediterranean",
+      "wikiSlug": "Mediterranean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "ancestor worship",
+      "matchText": "ancestor worship",
+      "wikiSlug": "Ancestor_worship",
+      "type": "concept"
+    },
+    {
+      "term": "Lapita culture",
+      "matchText": "Lapita People",
+      "wikiSlug": "Lapita_culture",
+      "type": "concept"
+    }
   ],
   "2": [
-    {"term": "Long Pause", "matchText": "Long Pause", "wikiSlug": "Polynesian_navigation#Long_Pause", "type": "concept"},
-    {"term": "mana", "matchText": "mana", "wikiSlug": "Mana", "type": "concept"},
-    {"term": "tapu", "matchText": "tapu", "wikiSlug": "Tapu_(Polynesian_culture)", "type": "concept"},
-    {"term": "kava", "matchText": "kava", "wikiSlug": "Kava", "type": "concept"},
-    {"term": "Piper methysticum", "matchText": "Piper methysticum", "wikiSlug": "Kava", "type": "concept"},
-    {"term": "tapa cloth", "matchText": "tapa", "wikiSlug": "Tapa_cloth", "type": "concept"},
-    {"term": "paper mulberry", "matchText": "paper mulberry", "wikiSlug": "Paper_mulberry", "type": "concept"},
-    {"term": "tattooing", "matchText": "Tattooing", "wikiSlug": "Tattooing_in_the_Pacific_Islands", "type": "concept"},
-    {"term": "Polynesian Outliers", "matchText": "Polynesian Outliers", "wikiSlug": "Polynesian_outlier", "type": "concept"},
-    {"term": "Tikopia", "matchText": "Tikopia", "wikiSlug": "Tikopia", "type": "place"},
-    {"term": "Anuta", "matchText": "Anuta", "wikiSlug": "Anuta", "type": "place"},
-    {"term": "Kapingamarangi", "matchText": "Kapingamarangi", "wikiSlug": "Kapingamarangi", "type": "place"},
-    {"term": "Micronesia", "matchText": "Micronesian", "wikiSlug": "Micronesia", "type": "place"},
-    {"term": "earth oven", "matchText": "umu", "wikiSlug": "Earth_oven", "type": "concept"},
-    {"term": "hangi", "matchText": "hangi", "wikiSlug": "H%C4%81ngi", "type": "concept"},
-    {"term": "oral tradition", "matchText": "oral recitation", "wikiSlug": "Oral_tradition", "type": "concept"},
-    {"term": "ariki", "matchText": "ariki", "wikiSlug": "Ariki", "type": "concept"},
-    {"term": "matai", "matchText": "matai", "wikiSlug": "Matai", "type": "concept"},
-    {"term": "divine kingship", "matchText": "divine kingship", "wikiSlug": "Sacred_king", "type": "concept"},
-    {"term": "genealogy", "matchText": "genealogy", "wikiSlug": "Genealogy", "type": "concept"},
-    {"term": "Mandate of Heaven", "matchText": "Mandate of Heaven", "wikiSlug": "Mandate_of_Heaven", "type": "concept"},
-    {"term": "tatau", "matchText": "tatau", "wikiSlug": "Tatau_(tattoo)", "type": "concept"}
+    {
+      "term": "Long Pause",
+      "matchText": "Long Pause",
+      "wikiSlug": "Polynesian_navigation#Long_Pause",
+      "type": "concept"
+    },
+    {
+      "term": "mana",
+      "matchText": "mana",
+      "wikiSlug": "Mana",
+      "type": "concept"
+    },
+    {
+      "term": "tapu",
+      "matchText": "tapu",
+      "wikiSlug": "Tapu_(Polynesian_culture)",
+      "type": "concept"
+    },
+    {
+      "term": "kava",
+      "matchText": "kava",
+      "wikiSlug": "Kava",
+      "type": "concept"
+    },
+    {
+      "term": "Piper methysticum",
+      "matchText": "Piper methysticum",
+      "wikiSlug": "Kava",
+      "type": "concept"
+    },
+    {
+      "term": "tapa cloth",
+      "matchText": "tapa",
+      "wikiSlug": "Tapa_cloth",
+      "type": "concept"
+    },
+    {
+      "term": "paper mulberry",
+      "matchText": "paper mulberry",
+      "wikiSlug": "Paper_mulberry",
+      "type": "concept"
+    },
+    {
+      "term": "tattooing",
+      "matchText": "Tattooing",
+      "wikiSlug": "Tattooing_in_the_Pacific_Islands",
+      "type": "concept"
+    },
+    {
+      "term": "Polynesian Outliers",
+      "matchText": "Polynesian Outliers",
+      "wikiSlug": "Polynesian_outlier",
+      "type": "concept"
+    },
+    {
+      "term": "Tikopia",
+      "matchText": "Tikopia",
+      "wikiSlug": "Tikopia",
+      "type": "place"
+    },
+    {
+      "term": "Anuta",
+      "matchText": "Anuta",
+      "wikiSlug": "Anuta",
+      "type": "place"
+    },
+    {
+      "term": "Kapingamarangi",
+      "matchText": "Kapingamarangi",
+      "wikiSlug": "Kapingamarangi",
+      "type": "place"
+    },
+    {
+      "term": "Micronesia",
+      "matchText": "Micronesian",
+      "wikiSlug": "Micronesia",
+      "type": "place"
+    },
+    {
+      "term": "earth oven",
+      "matchText": "umu",
+      "wikiSlug": "Earth_oven",
+      "type": "concept"
+    },
+    {
+      "term": "hangi",
+      "matchText": "hangi",
+      "wikiSlug": "H%C4%81ngi",
+      "type": "concept"
+    },
+    {
+      "term": "oral tradition",
+      "matchText": "oral recitation",
+      "wikiSlug": "Oral_tradition",
+      "type": "concept"
+    },
+    {
+      "term": "ariki",
+      "matchText": "ariki",
+      "wikiSlug": "Ariki",
+      "type": "concept"
+    },
+    {
+      "term": "matai",
+      "matchText": "matai",
+      "wikiSlug": "Matai",
+      "type": "concept"
+    },
+    {
+      "term": "divine kingship",
+      "matchText": "divine kingship",
+      "wikiSlug": "Sacred_king",
+      "type": "concept"
+    },
+    {
+      "term": "genealogy",
+      "matchText": "genealogy",
+      "wikiSlug": "Genealogy",
+      "type": "concept"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "tatau",
+      "matchText": "tatau",
+      "wikiSlug": "Tatau_(tattoo)",
+      "type": "concept"
+    }
   ],
   "3": [
-    {"term": "Pacific Ocean", "matchText": "Pacific Ocean", "wikiSlug": "Pacific_Ocean", "type": "place"},
-    {"term": "Polynesian navigation", "matchText": "Polynesian navigation", "wikiSlug": "Polynesian_navigation", "type": "concept"},
-    {"term": "star compass", "matchText": "star compass", "wikiSlug": "Star_compass", "type": "concept"},
-    {"term": "trade winds", "matchText": "trade winds", "wikiSlug": "Trade_winds", "type": "concept"},
-    {"term": "wave piloting", "matchText": "wave piloting", "wikiSlug": "Polynesian_navigation#Swell_and_wave_patterns", "type": "concept"},
-    {"term": "Marshall Islands", "matchText": "Marshall Islanders", "wikiSlug": "Marshall_Islands", "type": "place"},
-    {"term": "stick chart", "matchText": "stick charts", "wikiSlug": "Marshall_Islands_stick_chart", "type": "concept"},
-    {"term": "golden plover", "matchText": "golden plover", "wikiSlug": "Pacific_golden_plover", "type": "concept"},
-    {"term": "frigatebird", "matchText": "frigatebird", "wikiSlug": "Frigatebird", "type": "concept"},
-    {"term": "double-hulled canoe", "matchText": "double-hull voyaging canoes", "wikiSlug": "Double-hulled_canoe", "type": "concept"},
-    {"term": "pandanus", "matchText": "pandanus", "wikiSlug": "Pandanus", "type": "concept"},
-    {"term": "sennit", "matchText": "sennit", "wikiSlug": "Sennit", "type": "concept"},
-    {"term": "drua", "matchText": "drua", "wikiSlug": "Drua", "type": "concept"},
-    {"term": "crab claw sail", "matchText": "crab-claw", "wikiSlug": "Crab_claw_sail", "type": "concept"},
-    {"term": "James Cook", "matchText": "Captain James Cook", "wikiSlug": "James_Cook", "type": "people"},
-    {"term": "tohunga", "matchText": "tohunga", "wikiSlug": "Tohunga", "type": "concept"},
-    {"term": "palu", "matchText": "palu", "wikiSlug": "Pwo_navigator", "type": "concept"},
-    {"term": "azimuth", "matchText": "azimuth", "wikiSlug": "Azimuth", "type": "concept"},
-    {"term": "compass rose", "matchText": "compass rose", "wikiSlug": "Compass_rose", "type": "concept"},
-    {"term": "ocean swell", "matchText": "ocean swells", "wikiSlug": "Swell_(ocean)", "type": "concept"},
-    {"term": "cowrie shell", "matchText": "cowrie shells", "wikiSlug": "Cowrie", "type": "concept"},
-    {"term": "coconut fiber", "matchText": "coconut-fiber cordage", "wikiSlug": "Coir", "type": "concept"}
+    {
+      "term": "Pacific Ocean",
+      "matchText": "Pacific Ocean",
+      "wikiSlug": "Pacific_Ocean",
+      "type": "place"
+    },
+    {
+      "term": "Polynesian navigation",
+      "matchText": "Polynesian navigation",
+      "wikiSlug": "Polynesian_navigation",
+      "type": "concept"
+    },
+    {
+      "term": "star compass",
+      "matchText": "star compass",
+      "wikiSlug": "Star_compass",
+      "type": "concept"
+    },
+    {
+      "term": "trade winds",
+      "matchText": "trade winds",
+      "wikiSlug": "Trade_winds",
+      "type": "concept"
+    },
+    {
+      "term": "wave piloting",
+      "matchText": "wave piloting",
+      "wikiSlug": "Polynesian_navigation#Swell_and_wave_patterns",
+      "type": "concept"
+    },
+    {
+      "term": "Marshall Islands",
+      "matchText": "Marshall Islanders",
+      "wikiSlug": "Marshall_Islands",
+      "type": "place"
+    },
+    {
+      "term": "stick chart",
+      "matchText": "stick charts",
+      "wikiSlug": "Marshall_Islands_stick_chart",
+      "type": "concept"
+    },
+    {
+      "term": "golden plover",
+      "matchText": "golden plover",
+      "wikiSlug": "Pacific_golden_plover",
+      "type": "concept"
+    },
+    {
+      "term": "frigatebird",
+      "matchText": "frigatebird",
+      "wikiSlug": "Frigatebird",
+      "type": "concept"
+    },
+    {
+      "term": "double-hulled canoe",
+      "matchText": "double-hull voyaging canoes",
+      "wikiSlug": "Double-hulled_canoe",
+      "type": "concept"
+    },
+    {
+      "term": "pandanus",
+      "matchText": "pandanus",
+      "wikiSlug": "Pandanus",
+      "type": "concept"
+    },
+    {
+      "term": "sennit",
+      "matchText": "sennit",
+      "wikiSlug": "Sennit",
+      "type": "concept"
+    },
+    {
+      "term": "drua",
+      "matchText": "drua",
+      "wikiSlug": "Drua",
+      "type": "concept"
+    },
+    {
+      "term": "crab claw sail",
+      "matchText": "crab-claw",
+      "wikiSlug": "Crab_claw_sail",
+      "type": "concept"
+    },
+    {
+      "term": "James Cook",
+      "matchText": "Captain James Cook",
+      "wikiSlug": "James_Cook",
+      "type": "people"
+    },
+    {
+      "term": "tohunga",
+      "matchText": "tohunga",
+      "wikiSlug": "Tohunga",
+      "type": "concept"
+    },
+    {
+      "term": "palu",
+      "matchText": "palu",
+      "wikiSlug": "Pwo_navigator",
+      "type": "concept"
+    },
+    {
+      "term": "azimuth",
+      "matchText": "azimuth",
+      "wikiSlug": "Azimuth",
+      "type": "concept"
+    },
+    {
+      "term": "compass rose",
+      "matchText": "compass rose",
+      "wikiSlug": "Compass_rose",
+      "type": "concept"
+    },
+    {
+      "term": "ocean swell",
+      "matchText": "ocean swells",
+      "wikiSlug": "Swell_(ocean)",
+      "type": "concept"
+    },
+    {
+      "term": "cowrie shell",
+      "matchText": "cowrie shells",
+      "wikiSlug": "Cowrie",
+      "type": "concept"
+    },
+    {
+      "term": "coconut fiber",
+      "matchText": "coconut-fiber cordage",
+      "wikiSlug": "Coir",
+      "type": "concept"
+    }
   ],
   "4": [
-    {"term": "Marquesas Islands", "matchText": "Marquesas Islands", "wikiSlug": "Marquesas_Islands", "type": "place"},
-    {"term": "Thor Heyerdahl", "matchText": "Thor Heyerdahl", "wikiSlug": "Thor_Heyerdahl", "type": "people"},
-    {"term": "Kon-Tiki", "matchText": "Kon-Tiki", "wikiSlug": "Kon-Tiki_expedition", "type": "concept"},
-    {"term": "Society Islands", "matchText": "Society Islands", "wikiSlug": "Society_Islands", "type": "place"},
-    {"term": "Tahiti", "matchText": "Tahiti", "wikiSlug": "Tahiti", "type": "place"},
-    {"term": "Cook Islands", "matchText": "Cook Islands", "wikiSlug": "Cook_Islands", "type": "place"},
-    {"term": "Tuamotu", "matchText": "Tuamotu", "wikiSlug": "Tuamotu", "type": "place"},
-    {"term": "Austral Islands", "matchText": "Austral Islands", "wikiSlug": "Austral_Islands", "type": "place"},
-    {"term": "Phoenicians", "matchText": "Phoenicians", "wikiSlug": "Phoenicia", "type": "people"},
-    {"term": "radiocarbon dating", "matchText": "radiocarbon", "wikiSlug": "Radiocarbon_dating", "type": "concept"},
-    {"term": "Hawaiki", "matchText": "Hawaiki", "wikiSlug": "Hawaiki", "type": "concept"},
-    {"term": "Hokule'a", "matchText": "Hokule'a", "wikiSlug": "H%C5%8Dk%C5%ABle%CA%BBa", "type": "concept"},
-    {"term": "ari'i", "matchText": "ari'i nui", "wikiSlug": "Ari%CA%BBi", "type": "concept"},
-    {"term": "Ta'aroa", "matchText": "Ta'aroa", "wikiSlug": "Ta%CA%BBaroa", "type": "concept"},
-    {"term": "marae", "matchText": "marae", "wikiSlug": "Marae", "type": "concept"},
-    {"term": "Marquesan art", "matchText": "Marquesan carving", "wikiSlug": "Art_of_the_Marquesas_Islands", "type": "concept"},
-    {"term": "coral reef", "matchText": "coral reefs", "wikiSlug": "Coral_reef", "type": "concept"},
-    {"term": "South America", "matchText": "South America", "wikiSlug": "South_America", "type": "place"},
-    {"term": "atoll", "matchText": "atolls", "wikiSlug": "Atoll", "type": "concept"}
+    {
+      "term": "Marquesas Islands",
+      "matchText": "Marquesas Islands",
+      "wikiSlug": "Marquesas_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Thor Heyerdahl",
+      "matchText": "Thor Heyerdahl",
+      "wikiSlug": "Thor_Heyerdahl",
+      "type": "people"
+    },
+    {
+      "term": "Kon-Tiki",
+      "matchText": "Kon-Tiki",
+      "wikiSlug": "Kon-Tiki_expedition",
+      "type": "concept"
+    },
+    {
+      "term": "Society Islands",
+      "matchText": "Society Islands",
+      "wikiSlug": "Society_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Tahiti",
+      "matchText": "Tahiti",
+      "wikiSlug": "Tahiti",
+      "type": "place"
+    },
+    {
+      "term": "Cook Islands",
+      "matchText": "Cook Islands",
+      "wikiSlug": "Cook_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Tuamotu",
+      "matchText": "Tuamotu",
+      "wikiSlug": "Tuamotu",
+      "type": "place"
+    },
+    {
+      "term": "Austral Islands",
+      "matchText": "Austral Islands",
+      "wikiSlug": "Austral_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Phoenicians",
+      "matchText": "Phoenicians",
+      "wikiSlug": "Phoenicia",
+      "type": "people"
+    },
+    {
+      "term": "radiocarbon dating",
+      "matchText": "radiocarbon",
+      "wikiSlug": "Radiocarbon_dating",
+      "type": "concept"
+    },
+    {
+      "term": "Hawaiki",
+      "matchText": "Hawaiki",
+      "wikiSlug": "Hawaiki",
+      "type": "concept"
+    },
+    {
+      "term": "Hokule'a",
+      "matchText": "Hokule'a",
+      "wikiSlug": "H%C5%8Dk%C5%ABle%CA%BBa",
+      "type": "concept"
+    },
+    {
+      "term": "ari'i",
+      "matchText": "ari'i nui",
+      "wikiSlug": "Ari%CA%BBi",
+      "type": "concept"
+    },
+    {
+      "term": "Ta'aroa",
+      "matchText": "Ta'aroa",
+      "wikiSlug": "Ta%CA%BBaroa",
+      "type": "concept"
+    },
+    {
+      "term": "marae",
+      "matchText": "marae",
+      "wikiSlug": "Marae",
+      "type": "concept"
+    },
+    {
+      "term": "Marquesan art",
+      "matchText": "Marquesan carving",
+      "wikiSlug": "Art_of_the_Marquesas_Islands",
+      "type": "concept"
+    },
+    {
+      "term": "coral reef",
+      "matchText": "coral reefs",
+      "wikiSlug": "Coral_reef",
+      "type": "concept"
+    },
+    {
+      "term": "South America",
+      "matchText": "South America",
+      "wikiSlug": "South_America",
+      "type": "place"
+    },
+    {
+      "term": "atoll",
+      "matchText": "atolls",
+      "wikiSlug": "Atoll",
+      "type": "concept"
+    },
+    {
+      "term": "Hawaiki",
+      "matchText": "Havai'i",
+      "wikiSlug": "Hawaiki",
+      "type": "concept"
+    }
   ],
   "5": [
-    {"term": "Tu'i Tonga", "matchText": "Tu'i Tonga", "wikiSlug": "Tu%CA%BBi_Tonga", "type": "concept"},
-    {"term": "Tangaloa", "matchText": "Tangaloa", "wikiSlug": "Tangaloa", "type": "concept"},
-    {"term": "inasi", "matchText": "inasi", "wikiSlug": "%CA%BBInasi", "type": "concept"},
-    {"term": "Tongatapu", "matchText": "Tongatapu", "wikiSlug": "Tongatapu", "type": "place"},
-    {"term": "langi", "matchText": "langi", "wikiSlug": "Langi", "type": "place"},
-    {"term": "Ha'amonga 'a Maui", "matchText": "Ha'amonga 'a Maui", "wikiSlug": "Ha%CA%BBamonga_%CA%BBa_Maui", "type": "place"},
-    {"term": "trilithon", "matchText": "trilithon", "wikiSlug": "Trilithon", "type": "concept"},
-    {"term": "marae", "matchText": "marae", "wikiSlug": "Marae", "type": "concept"},
-    {"term": "heiau", "matchText": "heiau", "wikiSlug": "Heiau", "type": "concept"},
-    {"term": "breadfruit", "matchText": "Breadfruit", "wikiSlug": "Breadfruit", "type": "concept"},
-    {"term": "taro", "matchText": "Taro", "wikiSlug": "Taro", "type": "concept"},
-    {"term": "Tui Manu'a", "matchText": "Tui Manu'a", "wikiSlug": "Tui_Manu%CA%BBa", "type": "concept"},
-    {"term": "matai", "matchText": "matai", "wikiSlug": "Matai", "type": "concept"},
-    {"term": "Bau", "matchText": "Bau", "wikiSlug": "Bau_(island)", "type": "place"},
-    {"term": "basalt", "matchText": "basalt", "wikiSlug": "Basalt", "type": "concept"},
-    {"term": "adze", "matchText": "adzes", "wikiSlug": "Adze", "type": "concept"},
-    {"term": "Mauna Kea", "matchText": "Mauna Kea", "wikiSlug": "Mauna_Kea", "type": "place"},
-    {"term": "nephrite", "matchText": "nephrite", "wikiSlug": "Nephrite_jade", "type": "concept"},
-    {"term": "pearl shell", "matchText": "pearl shells", "wikiSlug": "Pearl_oyster", "type": "concept"},
-    {"term": "Mu'a", "matchText": "Mu'a", "wikiSlug": "Mu%CA%BBa_(Tonga)", "type": "place"},
-    {"term": "solstice", "matchText": "solstices", "wikiSlug": "Solstice", "type": "concept"},
-    {"term": "drua", "matchText": "drua", "wikiSlug": "Drua", "type": "concept"},
-    {"term": "whale tooth", "matchText": "whale teeth", "wikiSlug": "Tabua", "type": "concept"},
-    {"term": "human sacrifice", "matchText": "human sacrifice", "wikiSlug": "Human_sacrifice", "type": "concept"},
-    {"term": "fine mat", "matchText": "fine mats", "wikiSlug": "%CA%BBie_t%C5%8Dga", "type": "concept"},
-    {"term": "coral limestone", "matchText": "coral limestone", "wikiSlug": "Coral_limestone", "type": "concept"},
-    {"term": "Rewa", "matchText": "Rewa", "wikiSlug": "Rewa_Province", "type": "place"},
-    {"term": "Verata", "matchText": "Verata", "wikiSlug": "Verata", "type": "place"},
-    {"term": "Tongan-Samoan wars", "matchText": "Tongan-Samoan wars", "wikiSlug": "Tongan%E2%80%93Samoan_War", "type": "concept"}
+    {
+      "term": "Tu'i Tonga",
+      "matchText": "Tu'i Tonga",
+      "wikiSlug": "Tu%CA%BBi_Tonga",
+      "type": "concept"
+    },
+    {
+      "term": "Tangaloa",
+      "matchText": "Tangaloa",
+      "wikiSlug": "Tangaloa",
+      "type": "concept"
+    },
+    {
+      "term": "inasi",
+      "matchText": "inasi",
+      "wikiSlug": "%CA%BBInasi",
+      "type": "concept"
+    },
+    {
+      "term": "Tongatapu",
+      "matchText": "Tongatapu",
+      "wikiSlug": "Tongatapu",
+      "type": "place"
+    },
+    {
+      "term": "langi",
+      "matchText": "langi",
+      "wikiSlug": "Langi",
+      "type": "place"
+    },
+    {
+      "term": "Ha'amonga 'a Maui",
+      "matchText": "Ha'amonga 'a Maui",
+      "wikiSlug": "Ha%CA%BBamonga_%CA%BBa_Maui",
+      "type": "place"
+    },
+    {
+      "term": "trilithon",
+      "matchText": "trilithon",
+      "wikiSlug": "Trilithon",
+      "type": "concept"
+    },
+    {
+      "term": "marae",
+      "matchText": "marae",
+      "wikiSlug": "Marae",
+      "type": "concept"
+    },
+    {
+      "term": "heiau",
+      "matchText": "heiau",
+      "wikiSlug": "Heiau",
+      "type": "concept"
+    },
+    {
+      "term": "breadfruit",
+      "matchText": "Breadfruit",
+      "wikiSlug": "Breadfruit",
+      "type": "concept"
+    },
+    {
+      "term": "taro",
+      "matchText": "Taro",
+      "wikiSlug": "Taro",
+      "type": "concept"
+    },
+    {
+      "term": "Tui Manu'a",
+      "matchText": "Tui Manu'a",
+      "wikiSlug": "Tui_Manu%CA%BBa",
+      "type": "concept"
+    },
+    {
+      "term": "matai",
+      "matchText": "matai",
+      "wikiSlug": "Matai",
+      "type": "concept"
+    },
+    {
+      "term": "Bau",
+      "matchText": "Bau",
+      "wikiSlug": "Bau_(island)",
+      "type": "place"
+    },
+    {
+      "term": "basalt",
+      "matchText": "basalt",
+      "wikiSlug": "Basalt",
+      "type": "concept"
+    },
+    {
+      "term": "adze",
+      "matchText": "adzes",
+      "wikiSlug": "Adze",
+      "type": "concept"
+    },
+    {
+      "term": "Mauna Kea",
+      "matchText": "Mauna Kea",
+      "wikiSlug": "Mauna_Kea",
+      "type": "place"
+    },
+    {
+      "term": "nephrite",
+      "matchText": "nephrite",
+      "wikiSlug": "Nephrite_jade",
+      "type": "concept"
+    },
+    {
+      "term": "pearl shell",
+      "matchText": "pearl shells",
+      "wikiSlug": "Pearl_oyster",
+      "type": "concept"
+    },
+    {
+      "term": "Mu'a",
+      "matchText": "Mu'a",
+      "wikiSlug": "Mu%CA%BBa_(Tonga)",
+      "type": "place"
+    },
+    {
+      "term": "solstice",
+      "matchText": "solstices",
+      "wikiSlug": "Solstice",
+      "type": "concept"
+    },
+    {
+      "term": "drua",
+      "matchText": "drua",
+      "wikiSlug": "Drua",
+      "type": "concept"
+    },
+    {
+      "term": "whale tooth",
+      "matchText": "whale teeth",
+      "wikiSlug": "Tabua",
+      "type": "concept"
+    },
+    {
+      "term": "human sacrifice",
+      "matchText": "human sacrifice",
+      "wikiSlug": "Human_sacrifice",
+      "type": "concept"
+    },
+    {
+      "term": "fine mat",
+      "matchText": "fine mats",
+      "wikiSlug": "%CA%BBie_t%C5%8Dga",
+      "type": "concept"
+    },
+    {
+      "term": "coral limestone",
+      "matchText": "coral limestone",
+      "wikiSlug": "Coral_limestone",
+      "type": "concept"
+    },
+    {
+      "term": "Rewa",
+      "matchText": "Rewa",
+      "wikiSlug": "Rewa_Province",
+      "type": "place"
+    },
+    {
+      "term": "Verata",
+      "matchText": "Verata",
+      "wikiSlug": "Verata",
+      "type": "place"
+    },
+    {
+      "term": "Tongan-Samoan wars",
+      "matchText": "Tongan-Samoan wars",
+      "wikiSlug": "Tongan%E2%80%93Samoan_War",
+      "type": "concept"
+    }
   ],
   "6": [
-    {"term": "Hawaii", "matchText": "Hawai'i", "wikiSlug": "Hawaii", "type": "place"},
-    {"term": "Easter Island", "matchText": "Rapa Nui", "wikiSlug": "Easter_Island", "type": "place"},
-    {"term": "New Zealand", "matchText": "Aotearoa", "wikiSlug": "New_Zealand", "type": "place"},
-    {"term": "Polynesian Triangle", "matchText": "Polynesian Triangle", "wikiSlug": "Polynesian_Triangle", "type": "concept"},
-    {"term": "Hawaiian Islands", "matchText": "Hawaiian archipelago", "wikiSlug": "Hawaiian_Islands", "type": "place"},
-    {"term": "Hawaiian fishpond", "matchText": "Hawaiian fishpond", "wikiSlug": "Hawaiian_fishpond", "type": "concept"},
-    {"term": "kapu", "matchText": "kapu", "wikiSlug": "Kapu_(Hawaiian_culture)", "type": "concept"},
-    {"term": "Lono", "matchText": "Lono", "wikiSlug": "Lono", "type": "concept"},
-    {"term": "Pitcairn Island", "matchText": "Pitcairn", "wikiSlug": "Pitcairn_Islands", "type": "place"},
-    {"term": "Southern Alps", "matchText": "Southern Alps", "wikiSlug": "Southern_Alps", "type": "place"},
-    {"term": "Roaring Forties", "matchText": "Roaring Forties", "wikiSlug": "Roaring_Forties", "type": "concept"},
-    {"term": "Maori people", "matchText": "Maori oral tradition", "wikiSlug": "M%C4%81ori_people", "type": "people"},
-    {"term": "iwi", "matchText": "iwi", "wikiSlug": "Iwi", "type": "concept"},
-    {"term": "moa", "matchText": "moa", "wikiSlug": "Moa", "type": "concept"},
-    {"term": "kumara", "matchText": "kumara", "wikiSlug": "K%C5%ABmara_(sweet_potato)", "type": "concept"},
-    {"term": "sweet potato", "matchText": "sweet potato", "wikiSlug": "Sweet_potato", "type": "concept"},
-    {"term": "Quechua", "matchText": "Quechua", "wikiSlug": "Quechuan_languages", "type": "concept"},
-    {"term": "bracken fern", "matchText": "bracken fern", "wikiSlug": "Pteridium", "type": "concept"},
-    {"term": "aquaculture", "matchText": "aquaculture", "wikiSlug": "Aquaculture", "type": "concept"},
-    {"term": "Chile", "matchText": "Chile", "wikiSlug": "Chile", "type": "place"},
-    {"term": "O'ahu", "matchText": "O'ahu", "wikiSlug": "Oahu", "type": "place"},
-    {"term": "North America", "matchText": "North America", "wikiSlug": "North_America", "type": "place"},
-    {"term": "South Island", "matchText": "South Island", "wikiSlug": "South_Island", "type": "place"},
-    {"term": "Waka Hourua", "matchText": "Waka Hourua", "wikiSlug": "Waka_hourua", "type": "concept"}
+    {
+      "term": "Hawaii",
+      "matchText": "Hawai'i",
+      "wikiSlug": "Hawaii",
+      "type": "place"
+    },
+    {
+      "term": "Easter Island",
+      "matchText": "Rapa Nui",
+      "wikiSlug": "Easter_Island",
+      "type": "place"
+    },
+    {
+      "term": "New Zealand",
+      "matchText": "Aotearoa",
+      "wikiSlug": "New_Zealand",
+      "type": "place"
+    },
+    {
+      "term": "Polynesian Triangle",
+      "matchText": "Polynesian Triangle",
+      "wikiSlug": "Polynesian_Triangle",
+      "type": "concept"
+    },
+    {
+      "term": "Hawaiian Islands",
+      "matchText": "Hawaiian archipelago",
+      "wikiSlug": "Hawaiian_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Hawaiian fishpond",
+      "matchText": "Hawaiian fishpond",
+      "wikiSlug": "Hawaiian_fishpond",
+      "type": "concept"
+    },
+    {
+      "term": "kapu",
+      "matchText": "kapu",
+      "wikiSlug": "Kapu_(Hawaiian_culture)",
+      "type": "concept"
+    },
+    {
+      "term": "Lono",
+      "matchText": "Lono",
+      "wikiSlug": "Lono",
+      "type": "concept"
+    },
+    {
+      "term": "Pitcairn Island",
+      "matchText": "Pitcairn",
+      "wikiSlug": "Pitcairn_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Southern Alps",
+      "matchText": "Southern Alps",
+      "wikiSlug": "Southern_Alps",
+      "type": "place"
+    },
+    {
+      "term": "Roaring Forties",
+      "matchText": "Roaring Forties",
+      "wikiSlug": "Roaring_Forties",
+      "type": "concept"
+    },
+    {
+      "term": "Maori people",
+      "matchText": "Maori oral tradition",
+      "wikiSlug": "M%C4%81ori_people",
+      "type": "people"
+    },
+    {
+      "term": "iwi",
+      "matchText": "iwi",
+      "wikiSlug": "Iwi",
+      "type": "concept"
+    },
+    {
+      "term": "moa",
+      "matchText": "moa",
+      "wikiSlug": "Moa",
+      "type": "concept"
+    },
+    {
+      "term": "kumara",
+      "matchText": "kumara",
+      "wikiSlug": "K%C5%ABmara_(sweet_potato)",
+      "type": "concept"
+    },
+    {
+      "term": "sweet potato",
+      "matchText": "sweet potato",
+      "wikiSlug": "Sweet_potato",
+      "type": "concept"
+    },
+    {
+      "term": "Quechua",
+      "matchText": "Quechua",
+      "wikiSlug": "Quechuan_languages",
+      "type": "concept"
+    },
+    {
+      "term": "bracken fern",
+      "matchText": "bracken fern",
+      "wikiSlug": "Pteridium",
+      "type": "concept"
+    },
+    {
+      "term": "aquaculture",
+      "matchText": "aquaculture",
+      "wikiSlug": "Aquaculture",
+      "type": "concept"
+    },
+    {
+      "term": "Chile",
+      "matchText": "Chile",
+      "wikiSlug": "Chile",
+      "type": "place"
+    },
+    {
+      "term": "O'ahu",
+      "matchText": "O'ahu",
+      "wikiSlug": "Oahu",
+      "type": "place"
+    },
+    {
+      "term": "North America",
+      "matchText": "North America",
+      "wikiSlug": "North_America",
+      "type": "place"
+    },
+    {
+      "term": "South Island",
+      "matchText": "South Island",
+      "wikiSlug": "South_Island",
+      "type": "place"
+    },
+    {
+      "term": "Waka Hourua",
+      "matchText": "Waka Hourua",
+      "wikiSlug": "Waka_hourua",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "moai", "matchText": "moai", "wikiSlug": "Moai", "type": "concept"},
-    {"term": "tuff", "matchText": "tuff", "wikiSlug": "Tuff", "type": "concept"},
-    {"term": "Rano Raraku", "matchText": "Rano Raraku", "wikiSlug": "Rano_Raraku", "type": "place"},
-    {"term": "ahu", "matchText": "ahu", "wikiSlug": "Ahu", "type": "concept"},
-    {"term": "Ahu Tongariki", "matchText": "Ahu Tongariki", "wikiSlug": "Ahu_Tongariki", "type": "place"},
-    {"term": "ali'i", "matchText": "ali'i", "wikiSlug": "Ali%CA%BBi", "type": "concept"},
-    {"term": "kahuna", "matchText": "kahuna", "wikiSlug": "Kahuna", "type": "concept"},
-    {"term": "ahupua'a", "matchText": "ahupua'a", "wikiSlug": "Ahupua%CA%BBa", "type": "concept"},
-    {"term": "Makahiki", "matchText": "Makahiki", "wikiSlug": "Makahiki", "type": "concept"},
-    {"term": "Pi'ilani", "matchText": "Pi'ilani", "wikiSlug": "Pi%CA%BBilani", "type": "people"},
-    {"term": "Maui", "matchText": "Maui", "wikiSlug": "Maui", "type": "place"},
-    {"term": "hula", "matchText": "hula", "wikiSlug": "Hula", "type": "concept"},
-    {"term": "Kumulipo", "matchText": "Kumulipo", "wikiSlug": "Kumulipo", "type": "concept"},
-    {"term": "pa", "matchText": "pa", "wikiSlug": "P%C4%81_(M%C4%81ori)", "type": "concept"},
-    {"term": "haka", "matchText": "haka", "wikiSlug": "Haka", "type": "concept"},
-    {"term": "taiaha", "matchText": "taiaha", "wikiSlug": "Taiaha", "type": "concept"},
-    {"term": "mere", "matchText": "mere", "wikiSlug": "Mere_(weapon)", "type": "concept"},
-    {"term": "pounamu", "matchText": "greenstone", "wikiSlug": "Pounamu", "type": "concept"},
-    {"term": "wharenui", "matchText": "wharenui", "wikiSlug": "Wharenui", "type": "concept"},
-    {"term": "whakairo", "matchText": "whakairo", "wikiSlug": "Whakairo", "type": "concept"},
-    {"term": "Arioi", "matchText": "Arioi", "wikiSlug": "%CA%BBarioi", "type": "concept"},
-    {"term": "Oro", "matchText": "Oro", "wikiSlug": "%CA%BBOro", "type": "concept"},
-    {"term": "Tangata Manu", "matchText": "Tangata Manu", "wikiSlug": "Tangata_manu", "type": "concept"},
-    {"term": "Motu Nui", "matchText": "Motu Nui", "wikiSlug": "Motu_Nui", "type": "place"},
-    {"term": "sooty tern", "matchText": "sooty tern", "wikiSlug": "Sooty_tern", "type": "concept"},
-    {"term": "rongorongo", "matchText": "rongorongo", "wikiSlug": "Rongorongo", "type": "concept"},
-    {"term": "boustrophedon", "matchText": "boustrophedon", "wikiSlug": "Boustrophedon", "type": "concept"},
-    {"term": "Umi-a-Liloa", "matchText": "Umi-a-Liloa", "wikiSlug": "Umi_a_L%C4%ABloa", "type": "people"},
-    {"term": "patu", "matchText": "patu", "wikiSlug": "Patu_(weapon)", "type": "concept"},
-    {"term": "Alaloa", "matchText": "Alaloa", "wikiSlug": "King%27s_Highway_(Maui)", "type": "place"},
-    {"term": "kumu hula", "matchText": "kumu hula", "wikiSlug": "Kumu_hula", "type": "concept"},
-    {"term": "stimulus diffusion", "matchText": "stimulus diffusion", "wikiSlug": "Trans-cultural_diffusion#Stimulus_diffusion", "type": "concept"},
-    {"term": "kauwa", "matchText": "kauwa", "wikiSlug": "Kauwa", "type": "concept"},
-    {"term": "surfing", "matchText": "surfing", "wikiSlug": "Surfing", "type": "concept"},
-    {"term": "Ku", "matchText": "war god Ku", "wikiSlug": "K%C5%AB", "type": "concept"}
+    {
+      "term": "moai",
+      "matchText": "moai",
+      "wikiSlug": "Moai",
+      "type": "concept"
+    },
+    {
+      "term": "tuff",
+      "matchText": "tuff",
+      "wikiSlug": "Tuff",
+      "type": "concept"
+    },
+    {
+      "term": "Rano Raraku",
+      "matchText": "Rano Raraku",
+      "wikiSlug": "Rano_Raraku",
+      "type": "place"
+    },
+    {
+      "term": "ahu",
+      "matchText": "ahu",
+      "wikiSlug": "Ahu",
+      "type": "concept"
+    },
+    {
+      "term": "Ahu Tongariki",
+      "matchText": "Ahu Tongariki",
+      "wikiSlug": "Ahu_Tongariki",
+      "type": "place"
+    },
+    {
+      "term": "ali'i",
+      "matchText": "ali'i",
+      "wikiSlug": "Ali%CA%BBi",
+      "type": "concept"
+    },
+    {
+      "term": "kahuna",
+      "matchText": "kahuna",
+      "wikiSlug": "Kahuna",
+      "type": "concept"
+    },
+    {
+      "term": "ahupua'a",
+      "matchText": "ahupua'a",
+      "wikiSlug": "Ahupua%CA%BBa",
+      "type": "concept"
+    },
+    {
+      "term": "Makahiki",
+      "matchText": "Makahiki",
+      "wikiSlug": "Makahiki",
+      "type": "concept"
+    },
+    {
+      "term": "Pi'ilani",
+      "matchText": "Pi'ilani",
+      "wikiSlug": "Pi%CA%BBilani",
+      "type": "people"
+    },
+    {
+      "term": "Maui",
+      "matchText": "Maui",
+      "wikiSlug": "Maui",
+      "type": "place"
+    },
+    {
+      "term": "hula",
+      "matchText": "hula",
+      "wikiSlug": "Hula",
+      "type": "concept"
+    },
+    {
+      "term": "Kumulipo",
+      "matchText": "Kumulipo",
+      "wikiSlug": "Kumulipo",
+      "type": "concept"
+    },
+    {
+      "term": "pa",
+      "matchText": "pa",
+      "wikiSlug": "P%C4%81_(M%C4%81ori)",
+      "type": "concept"
+    },
+    {
+      "term": "haka",
+      "matchText": "haka",
+      "wikiSlug": "Haka",
+      "type": "concept"
+    },
+    {
+      "term": "taiaha",
+      "matchText": "taiaha",
+      "wikiSlug": "Taiaha",
+      "type": "concept"
+    },
+    {
+      "term": "mere",
+      "matchText": "mere",
+      "wikiSlug": "Mere_(weapon)",
+      "type": "concept"
+    },
+    {
+      "term": "pounamu",
+      "matchText": "greenstone",
+      "wikiSlug": "Pounamu",
+      "type": "concept"
+    },
+    {
+      "term": "wharenui",
+      "matchText": "wharenui",
+      "wikiSlug": "Wharenui",
+      "type": "concept"
+    },
+    {
+      "term": "whakairo",
+      "matchText": "whakairo",
+      "wikiSlug": "Whakairo",
+      "type": "concept"
+    },
+    {
+      "term": "Arioi",
+      "matchText": "Arioi",
+      "wikiSlug": "%CA%BBarioi",
+      "type": "concept"
+    },
+    {
+      "term": "Oro",
+      "matchText": "Oro",
+      "wikiSlug": "%CA%BBOro",
+      "type": "concept"
+    },
+    {
+      "term": "Tangata Manu",
+      "matchText": "Tangata Manu",
+      "wikiSlug": "Tangata_manu",
+      "type": "concept"
+    },
+    {
+      "term": "Motu Nui",
+      "matchText": "Motu Nui",
+      "wikiSlug": "Motu_Nui",
+      "type": "place"
+    },
+    {
+      "term": "sooty tern",
+      "matchText": "sooty tern",
+      "wikiSlug": "Sooty_tern",
+      "type": "concept"
+    },
+    {
+      "term": "rongorongo",
+      "matchText": "rongorongo",
+      "wikiSlug": "Rongorongo",
+      "type": "concept"
+    },
+    {
+      "term": "boustrophedon",
+      "matchText": "boustrophedon",
+      "wikiSlug": "Boustrophedon",
+      "type": "concept"
+    },
+    {
+      "term": "Umi-a-Liloa",
+      "matchText": "Umi-a-Liloa",
+      "wikiSlug": "Umi_a_L%C4%ABloa",
+      "type": "people"
+    },
+    {
+      "term": "patu",
+      "matchText": "patu",
+      "wikiSlug": "Patu_(weapon)",
+      "type": "concept"
+    },
+    {
+      "term": "Alaloa",
+      "matchText": "Alaloa",
+      "wikiSlug": "King%27s_Highway_(Maui)",
+      "type": "place"
+    },
+    {
+      "term": "kumu hula",
+      "matchText": "kumu hula",
+      "wikiSlug": "Kumu_hula",
+      "type": "concept"
+    },
+    {
+      "term": "stimulus diffusion",
+      "matchText": "stimulus diffusion",
+      "wikiSlug": "Trans-cultural_diffusion#Stimulus_diffusion",
+      "type": "concept"
+    },
+    {
+      "term": "kauwa",
+      "matchText": "kauwa",
+      "wikiSlug": "Kauwa",
+      "type": "concept"
+    },
+    {
+      "term": "surfing",
+      "matchText": "surfing",
+      "wikiSlug": "Surfing",
+      "type": "concept"
+    },
+    {
+      "term": "Ku",
+      "matchText": "war god Ku",
+      "wikiSlug": "K%C5%AB",
+      "type": "concept"
+    },
+    {
+      "term": "Kapu",
+      "matchText": "kapu",
+      "wikiSlug": "Kapu",
+      "type": "concept"
+    }
   ],
   "8": [
-    {"term": "Hokule'a", "matchText": "Hokule'a", "wikiSlug": "H%C5%8Dk%C5%ABle%CA%BBa", "type": "concept"},
-    {"term": "Polynesian Voyaging Society", "matchText": "Polynesian Voyaging Society", "wikiSlug": "Polynesian_Voyaging_Society", "type": "concept"},
-    {"term": "Mau Piailug", "matchText": "Mau Piailug", "wikiSlug": "Mau_Piailug", "type": "people"},
-    {"term": "Satawal", "matchText": "Satawal", "wikiSlug": "Satawal", "type": "place"},
-    {"term": "Caroline Islands", "matchText": "Caroline Islands", "wikiSlug": "Caroline_Islands", "type": "place"},
-    {"term": "Nainoa Thompson", "matchText": "Nainoa Thompson", "wikiSlug": "Nainoa_Thompson", "type": "people"},
-    {"term": "Arcturus", "matchText": "Arcturus", "wikiSlug": "Arcturus", "type": "concept"},
-    {"term": "Tu'i Ha'atakalaua", "matchText": "Tu'i Ha'atakalaua", "wikiSlug": "Tu%CA%BBi_Ha%CA%BBatakalaua", "type": "concept"},
-    {"term": "Tu'i Kanokupolu", "matchText": "Tu'i Kanokupolu", "wikiSlug": "Tu%CA%BBi_Kanokupolu", "type": "concept"},
-    {"term": "Andrew Sharp", "matchText": "Andrew Sharp", "wikiSlug": "Andrew_Sharp_(historian)", "type": "people"},
-    {"term": "Jared Diamond", "matchText": "Jared Diamond", "wikiSlug": "Jared_Diamond", "type": "people"},
-    {"term": "Collapse (book)", "matchText": "Collapse", "wikiSlug": "Collapse:_How_Societies_Choose_to_Fail_or_Succeed", "type": "concept"},
-    {"term": "Hawaiian language", "matchText": "Hawaiian language", "wikiSlug": "Hawaiian_language", "type": "concept"},
-    {"term": "Zheng He", "matchText": "Zheng He", "wikiSlug": "Zheng_He", "type": "people"},
-    {"term": "Te Aurere", "matchText": "Te Aurere", "wikiSlug": "Te_Aurere", "type": "concept"},
-    {"term": "Makali'i", "matchText": "Makali'i", "wikiSlug": "Makali%CA%BBi_(canoe)", "type": "concept"},
-    {"term": "Fa'afaite", "matchText": "Fa'afaite", "wikiSlug": "Fa%CA%BBafaite", "type": "concept"},
-    {"term": "rock garden agriculture", "matchText": "rock-garden agriculture", "wikiSlug": "Lithic_mulch", "type": "concept"},
-    {"term": "Columbus", "matchText": "Columbus", "wikiSlug": "Christopher_Columbus", "type": "people"},
-    {"term": "Norse", "matchText": "Norse", "wikiSlug": "Norsemen", "type": "people"},
-    {"term": "astrolabe", "matchText": "astrolabes", "wikiSlug": "Astrolabe", "type": "concept"},
-    {"term": "chronometer", "matchText": "chronometers", "wikiSlug": "Marine_chronometer", "type": "concept"},
-    {"term": "deforestation", "matchText": "deforestation", "wikiSlug": "Deforestation", "type": "concept"},
-    {"term": "carrying capacity", "matchText": "carrying capacity", "wikiSlug": "Carrying_capacity", "type": "concept"},
-    {"term": "shogun", "matchText": "shogun", "wikiSlug": "Sh%C5%8Dgun", "type": "concept"},
-    {"term": "Greenland", "matchText": "Greenland", "wikiSlug": "Greenland", "type": "place"},
-    {"term": "Indian Ocean", "matchText": "Indian Ocean", "wikiSlug": "Indian_Ocean", "type": "place"},
-    {"term": "circumnavigation", "matchText": "circumnavigation", "wikiSlug": "Circumnavigation", "type": "concept"}
+    {
+      "term": "Hokule'a",
+      "matchText": "Hokule'a",
+      "wikiSlug": "H%C5%8Dk%C5%ABle%CA%BBa",
+      "type": "concept"
+    },
+    {
+      "term": "Polynesian Voyaging Society",
+      "matchText": "Polynesian Voyaging Society",
+      "wikiSlug": "Polynesian_Voyaging_Society",
+      "type": "concept"
+    },
+    {
+      "term": "Mau Piailug",
+      "matchText": "Mau Piailug",
+      "wikiSlug": "Mau_Piailug",
+      "type": "people"
+    },
+    {
+      "term": "Satawal",
+      "matchText": "Satawal",
+      "wikiSlug": "Satawal",
+      "type": "place"
+    },
+    {
+      "term": "Caroline Islands",
+      "matchText": "Caroline Islands",
+      "wikiSlug": "Caroline_Islands",
+      "type": "place"
+    },
+    {
+      "term": "Nainoa Thompson",
+      "matchText": "Nainoa Thompson",
+      "wikiSlug": "Nainoa_Thompson",
+      "type": "people"
+    },
+    {
+      "term": "Arcturus",
+      "matchText": "Arcturus",
+      "wikiSlug": "Arcturus",
+      "type": "concept"
+    },
+    {
+      "term": "Tu'i Ha'atakalaua",
+      "matchText": "Tu'i Ha'atakalaua",
+      "wikiSlug": "Tu%CA%BBi_Ha%CA%BBatakalaua",
+      "type": "concept"
+    },
+    {
+      "term": "Tu'i Kanokupolu",
+      "matchText": "Tu'i Kanokupolu",
+      "wikiSlug": "Tu%CA%BBi_Kanokupolu",
+      "type": "concept"
+    },
+    {
+      "term": "Andrew Sharp",
+      "matchText": "Andrew Sharp",
+      "wikiSlug": "Andrew_Sharp_(historian)",
+      "type": "people"
+    },
+    {
+      "term": "Jared Diamond",
+      "matchText": "Jared Diamond",
+      "wikiSlug": "Jared_Diamond",
+      "type": "people"
+    },
+    {
+      "term": "Collapse (book)",
+      "matchText": "Collapse",
+      "wikiSlug": "Collapse:_How_Societies_Choose_to_Fail_or_Succeed",
+      "type": "concept"
+    },
+    {
+      "term": "Hawaiian language",
+      "matchText": "Hawaiian language",
+      "wikiSlug": "Hawaiian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Zheng He",
+      "matchText": "Zheng He",
+      "wikiSlug": "Zheng_He",
+      "type": "people"
+    },
+    {
+      "term": "Te Aurere",
+      "matchText": "Te Aurere",
+      "wikiSlug": "Te_Aurere",
+      "type": "concept"
+    },
+    {
+      "term": "Makali'i",
+      "matchText": "Makali'i",
+      "wikiSlug": "Makali%CA%BBi_(canoe)",
+      "type": "concept"
+    },
+    {
+      "term": "Fa'afaite",
+      "matchText": "Fa'afaite",
+      "wikiSlug": "Fa%CA%BBafaite",
+      "type": "concept"
+    },
+    {
+      "term": "rock garden agriculture",
+      "matchText": "rock-garden agriculture",
+      "wikiSlug": "Lithic_mulch",
+      "type": "concept"
+    },
+    {
+      "term": "Columbus",
+      "matchText": "Columbus",
+      "wikiSlug": "Christopher_Columbus",
+      "type": "people"
+    },
+    {
+      "term": "Norse",
+      "matchText": "Norse",
+      "wikiSlug": "Norsemen",
+      "type": "people"
+    },
+    {
+      "term": "astrolabe",
+      "matchText": "astrolabes",
+      "wikiSlug": "Astrolabe",
+      "type": "concept"
+    },
+    {
+      "term": "chronometer",
+      "matchText": "chronometers",
+      "wikiSlug": "Marine_chronometer",
+      "type": "concept"
+    },
+    {
+      "term": "deforestation",
+      "matchText": "deforestation",
+      "wikiSlug": "Deforestation",
+      "type": "concept"
+    },
+    {
+      "term": "carrying capacity",
+      "matchText": "carrying capacity",
+      "wikiSlug": "Carrying_capacity",
+      "type": "concept"
+    },
+    {
+      "term": "shogun",
+      "matchText": "shogun",
+      "wikiSlug": "Sh%C5%8Dgun",
+      "type": "concept"
+    },
+    {
+      "term": "Greenland",
+      "matchText": "Greenland",
+      "wikiSlug": "Greenland",
+      "type": "place"
+    },
+    {
+      "term": "Indian Ocean",
+      "matchText": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean",
+      "type": "place"
+    },
+    {
+      "term": "circumnavigation",
+      "matchText": "circumnavigation",
+      "wikiSlug": "Circumnavigation",
+      "type": "concept"
+    },
+    {
+      "term": "Hula",
+      "matchText": "hula",
+      "wikiSlug": "Hula",
+      "type": "concept"
+    }
   ]
 }
