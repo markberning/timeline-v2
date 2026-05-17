@@ -93,6 +93,27 @@ reader exposure before spending money.**
     handled in-session as normal work. The only real knobs are Phase-1
     auto-apply strictness and all-at-once vs. chain-prioritized.
 
+  **Phase 1 RESULT (run 2026-05-17, `scripts/resolve-dead-slugs.mjs` +
+  `apply-safe-slug-fixes.mjs`; report `audits/dead-slugs-resolution-2026-05-17.json`):**
+  A first resolver pass "resolved" 157 by stripping the parenthetical
+  disambiguator and accepting any *live* bare title — but `lint-links` checks
+  **liveness, not subject**, so that landed many on disambiguation pages /
+  homonyms (`Emergence_(mythology)`→`Emergence`,
+  `Status_Quo_(Holy_Land_sites)`→`Status_Quo`,
+  `Theodora_(empress,_wife_of_Theophilos)`→ a disambig page). Those 167 refs
+  were reverted **before commit** (a wrong article is worse than an honest
+  404). Auto-apply was then re-scoped to the **encoding/punctuation-equivalent
+  class only** (same subject by construction — decode + diacritic-fold +
+  punctuation, parentheticals retained): **26 unique slugs · 27 refs · 21
+  files, applied + re-validated live (0 still-missing).** Remaining still-dead
+  = **517**: `needsReview` 131 (a live candidate exists but subject is a
+  judgment call — machine suggestion kept as a triage *hint only*, NOT trusted)
+  + `residue` 386 (no live candidate). **Lesson (durable):** optimizing an
+  auto-fixer for a liveness gate manufactures coherence defects the gate can't
+  see — auto-apply must be restricted to provably-equivalent transforms; the
+  131 + 386 are inline-triage work using each glossary entry's `matchText`
+  context. Status stays ◐.
+
 **Next economical step:** decide #1 remediation approach (see options put to
 user); then #11 build/data audit or #13 image liveness (both free).
 
