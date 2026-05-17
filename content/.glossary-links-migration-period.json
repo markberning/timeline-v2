@@ -1,139 +1,758 @@
 {
   "1": [
-    { "term": "Goths", "matchText": "Goths", "wikiSlug": "Goths", "type": "people" },
-    { "term": "Völkerwanderung", "matchText": "Völkerwanderung", "wikiSlug": "Migration_Period", "type": "concept" },
-    { "term": "Pontic steppe", "matchText": "Pontic steppe", "wikiSlug": "Pontic%E2%80%93Caspian_steppe", "type": "place" },
-    { "term": "Xiongnu", "matchText": "Xiongnu", "wikiSlug": "Xiongnu", "type": "people" },
-    { "term": "composite bow", "matchText": "composite bow", "wikiSlug": "Composite_bow", "type": "concept" },
-    { "term": "Greuthungi", "matchText": "Greuthungi", "wikiSlug": "Greuthungi", "type": "people" },
-    { "term": "Tervingi", "matchText": "Tervingi", "wikiSlug": "Tervingi", "type": "people" },
-    { "term": "Valens", "matchText": "Valens", "wikiSlug": "Valens", "type": "people" },
-    { "term": "foederati", "matchText": "foederati", "wikiSlug": "Foederati", "type": "concept" },
-    { "term": "Theodosius I", "matchText": "Theodosius I", "wikiSlug": "Theodosius_I", "type": "people" },
-    { "term": "Danube", "matchText": "the Danube", "wikiSlug": "Danube", "type": "place" },
-    { "term": "Rhine", "matchText": "the Rhine", "wikiSlug": "Rhine", "type": "place" },
-    { "term": "Ostrogoths", "matchText": "Ostrogoths", "wikiSlug": "Ostrogoths", "type": "people" },
-    { "term": "Visigoths", "matchText": "Visigoths", "wikiSlug": "Visigoths", "type": "people" },
-    { "term": "Pannonia", "matchText": "Pannonia", "wikiSlug": "Pannonia", "type": "place" }
+    {
+      "term": "Goths",
+      "matchText": "Goths",
+      "wikiSlug": "Goths",
+      "type": "people"
+    },
+    {
+      "term": "Völkerwanderung",
+      "matchText": "Völkerwanderung",
+      "wikiSlug": "Migration_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Pontic steppe",
+      "matchText": "Pontic steppe",
+      "wikiSlug": "Pontic%E2%80%93Caspian_steppe",
+      "type": "place"
+    },
+    {
+      "term": "Xiongnu",
+      "matchText": "Xiongnu",
+      "wikiSlug": "Xiongnu",
+      "type": "people"
+    },
+    {
+      "term": "composite bow",
+      "matchText": "composite bow",
+      "wikiSlug": "Composite_bow",
+      "type": "concept"
+    },
+    {
+      "term": "Greuthungi",
+      "matchText": "Greuthungi",
+      "wikiSlug": "Greuthungi",
+      "type": "people"
+    },
+    {
+      "term": "Tervingi",
+      "matchText": "Tervingi",
+      "wikiSlug": "Tervingi",
+      "type": "people"
+    },
+    {
+      "term": "Valens",
+      "matchText": "Valens",
+      "wikiSlug": "Valens",
+      "type": "people"
+    },
+    {
+      "term": "foederati",
+      "matchText": "foederati",
+      "wikiSlug": "Foederati",
+      "type": "concept"
+    },
+    {
+      "term": "Theodosius I",
+      "matchText": "Theodosius I",
+      "wikiSlug": "Theodosius_I",
+      "type": "people"
+    },
+    {
+      "term": "Danube",
+      "matchText": "the Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "the Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Ostrogoths",
+      "matchText": "Ostrogoths",
+      "wikiSlug": "Ostrogoths",
+      "type": "people"
+    },
+    {
+      "term": "Visigoths",
+      "matchText": "Visigoths",
+      "wikiSlug": "Visigoths",
+      "type": "people"
+    },
+    {
+      "term": "Pannonia",
+      "matchText": "Pannonia",
+      "wikiSlug": "Pannonia",
+      "type": "place"
+    }
   ],
   "2": [
-    { "term": "Honorius", "matchText": "Honorius", "wikiSlug": "Honorius_(emperor)", "type": "people" },
-    { "term": "Vandals", "matchText": "Vandals", "wikiSlug": "Vandals", "type": "people" },
-    { "term": "Suebi", "matchText": "Suebi", "wikiSlug": "Suebi", "type": "people" },
-    { "term": "Alans", "matchText": "Alans", "wikiSlug": "Alans", "type": "people" },
-    { "term": "Jerome", "matchText": "Jerome", "wikiSlug": "Jerome", "type": "people" },
-    { "term": "Constantine the Great", "matchText": "Constantine the Great", "wikiSlug": "Constantine_the_Great", "type": "people" },
-    { "term": "Gaul", "matchText": "Gaul", "wikiSlug": "Gaul", "type": "place" },
-    { "term": "Hispania", "matchText": "Hispania", "wikiSlug": "Hispania", "type": "place" },
-    { "term": "Pyrenees", "matchText": "Pyrenees", "wikiSlug": "Pyrenees", "type": "place" },
-    { "term": "Alaric I", "matchText": "Alaric", "wikiSlug": "Alaric_I", "type": "people" },
-    { "term": "Zosimus", "matchText": "Zosimus", "wikiSlug": "Zosimus_(historian)", "type": "people" },
-    { "term": "civitates", "matchText": "civitates", "wikiSlug": "Civitas", "type": "concept" }
+    {
+      "term": "Honorius",
+      "matchText": "Honorius",
+      "wikiSlug": "Honorius_(emperor)",
+      "type": "people"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    },
+    {
+      "term": "Suebi",
+      "matchText": "Suebi",
+      "wikiSlug": "Suebi",
+      "type": "people"
+    },
+    {
+      "term": "Alans",
+      "matchText": "Alans",
+      "wikiSlug": "Alans",
+      "type": "people"
+    },
+    {
+      "term": "Jerome",
+      "matchText": "Jerome",
+      "wikiSlug": "Jerome",
+      "type": "people"
+    },
+    {
+      "term": "Constantine the Great",
+      "matchText": "Constantine the Great",
+      "wikiSlug": "Constantine_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Hispania",
+      "matchText": "Hispania",
+      "wikiSlug": "Hispania",
+      "type": "place"
+    },
+    {
+      "term": "Pyrenees",
+      "matchText": "Pyrenees",
+      "wikiSlug": "Pyrenees",
+      "type": "place"
+    },
+    {
+      "term": "Alaric I",
+      "matchText": "Alaric",
+      "wikiSlug": "Alaric_I",
+      "type": "people"
+    },
+    {
+      "term": "Zosimus",
+      "matchText": "Zosimus",
+      "wikiSlug": "Zosimus_(historian)",
+      "type": "people"
+    },
+    {
+      "term": "civitates",
+      "matchText": "civitates",
+      "wikiSlug": "Civitas",
+      "type": "concept"
+    }
   ],
   "3": [
-    { "term": "Burgundians", "matchText": "Burgundians", "wikiSlug": "Burgundians", "type": "people" },
-    { "term": "Aquitaine", "matchText": "Aquitaine", "wikiSlug": "Aquitaine", "type": "place" },
-    { "term": "Worms", "matchText": "Worms", "wikiSlug": "Worms,_Germany", "type": "place" },
-    { "term": "Nibelungs", "matchText": "Nibelungs", "wikiSlug": "Nibelungenlied", "type": "concept" },
-    { "term": "Aetius", "matchText": "Aetius", "wikiSlug": "Aetius", "type": "people" },
-    { "term": "Gallaecia", "matchText": "Gallaecia", "wikiSlug": "Gallaecia", "type": "place" },
-    { "term": "Toulouse", "matchText": "Toulouse", "wikiSlug": "Toulouse", "type": "place" },
-    { "term": "Gepids", "matchText": "Gepids", "wikiSlug": "Gepids", "type": "people" },
-    { "term": "Iberian Peninsula", "matchText": "Iberian Peninsula", "wikiSlug": "Iberian_Peninsula", "type": "place" },
-    { "term": "Rhône valley", "matchText": "Rhône valley", "wikiSlug": "Rhone", "type": "place" }
+    {
+      "term": "Burgundians",
+      "matchText": "Burgundians",
+      "wikiSlug": "Burgundians",
+      "type": "people"
+    },
+    {
+      "term": "Aquitaine",
+      "matchText": "Aquitaine",
+      "wikiSlug": "Aquitaine",
+      "type": "place"
+    },
+    {
+      "term": "Worms",
+      "matchText": "Worms",
+      "wikiSlug": "Worms,_Germany",
+      "type": "place"
+    },
+    {
+      "term": "Nibelungs",
+      "matchText": "Nibelungs",
+      "wikiSlug": "Nibelungenlied",
+      "type": "concept"
+    },
+    {
+      "term": "Aetius",
+      "matchText": "Aetius",
+      "wikiSlug": "Aetius",
+      "type": "people"
+    },
+    {
+      "term": "Gallaecia",
+      "matchText": "Gallaecia",
+      "wikiSlug": "Gallaecia",
+      "type": "place"
+    },
+    {
+      "term": "Toulouse",
+      "matchText": "Toulouse",
+      "wikiSlug": "Toulouse",
+      "type": "place"
+    },
+    {
+      "term": "Gepids",
+      "matchText": "Gepids",
+      "wikiSlug": "Gepids",
+      "type": "people"
+    },
+    {
+      "term": "Iberian Peninsula",
+      "matchText": "Iberian Peninsula",
+      "wikiSlug": "Iberian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Rhône valley",
+      "matchText": "Rhône valley",
+      "wikiSlug": "Rhone",
+      "type": "place"
+    }
   ],
   "4": [
-    { "term": "Geiseric", "matchText": "Geiseric", "wikiSlug": "Genseric", "type": "people" },
-    { "term": "annona", "matchText": "annona", "wikiSlug": "Cura_Annonae", "type": "concept" },
-    { "term": "Victor of Vita", "matchText": "Victor of Vita", "wikiSlug": "Victor_of_Vita", "type": "people" },
-    { "term": "Augustine of Hippo", "matchText": "Augustine", "wikiSlug": "Augustine_of_Hippo", "type": "people" },
-    { "term": "Hippo Regius", "matchText": "Hippo Regius", "wikiSlug": "Hippo_Regius", "type": "place" },
-    { "term": "City of God", "matchText": "City of God", "wikiSlug": "City_of_God_(book)", "type": "concept" },
-    { "term": "Carthage", "matchText": "Carthage", "wikiSlug": "Carthage", "type": "place" },
-    { "term": "Pope Leo I", "matchText": "Pope Leo", "wikiSlug": "Pope_Leo_I", "type": "people" },
-    { "term": "Strait of Gibraltar", "matchText": "Strait of Gibraltar", "wikiSlug": "Strait_of_Gibraltar", "type": "place" },
-    { "term": "North Africa", "matchText": "Roman North Africa", "wikiSlug": "Africa_(Roman_province)", "type": "place" },
-    { "term": "Valentinian III", "matchText": "Valentinian III", "wikiSlug": "Valentinian_III", "type": "people" },
-    { "term": "Sardinia", "matchText": "Sardinia", "wikiSlug": "Sardinia", "type": "place" },
-    { "term": "Sicily", "matchText": "Sicily", "wikiSlug": "Sicily", "type": "place" }
+    {
+      "term": "Geiseric",
+      "matchText": "Geiseric",
+      "wikiSlug": "Genseric",
+      "type": "people"
+    },
+    {
+      "term": "annona",
+      "matchText": "annona",
+      "wikiSlug": "Cura_Annonae",
+      "type": "concept"
+    },
+    {
+      "term": "Victor of Vita",
+      "matchText": "Victor of Vita",
+      "wikiSlug": "Victor_of_Vita",
+      "type": "people"
+    },
+    {
+      "term": "Augustine of Hippo",
+      "matchText": "Augustine",
+      "wikiSlug": "Augustine_of_Hippo",
+      "type": "people"
+    },
+    {
+      "term": "Hippo Regius",
+      "matchText": "Hippo Regius",
+      "wikiSlug": "Hippo_Regius",
+      "type": "place"
+    },
+    {
+      "term": "City of God",
+      "matchText": "City of God",
+      "wikiSlug": "City_of_God_(book)",
+      "type": "concept"
+    },
+    {
+      "term": "Carthage",
+      "matchText": "Carthage",
+      "wikiSlug": "Carthage",
+      "type": "place"
+    },
+    {
+      "term": "Pope Leo I",
+      "matchText": "Pope Leo",
+      "wikiSlug": "Pope_Leo_I",
+      "type": "people"
+    },
+    {
+      "term": "Strait of Gibraltar",
+      "matchText": "Strait of Gibraltar",
+      "wikiSlug": "Strait_of_Gibraltar",
+      "type": "place"
+    },
+    {
+      "term": "North Africa",
+      "matchText": "Roman North Africa",
+      "wikiSlug": "Africa_(Roman_province)",
+      "type": "place"
+    },
+    {
+      "term": "Valentinian III",
+      "matchText": "Valentinian III",
+      "wikiSlug": "Valentinian_III",
+      "type": "people"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "wikiSlug": "Sardinia",
+      "type": "place"
+    },
+    {
+      "term": "Sicily",
+      "matchText": "Sicily",
+      "wikiSlug": "Sicily",
+      "type": "place"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    }
   ],
   "5": [
-    { "term": "Bleda", "matchText": "Bleda", "wikiSlug": "Bleda", "type": "people" },
-    { "term": "Priscus", "matchText": "Priscus", "wikiSlug": "Priscus", "type": "people" },
-    { "term": "Ardaric", "matchText": "Ardaric", "wikiSlug": "Ardaric", "type": "people" },
-    { "term": "Aquileia", "matchText": "Aquileia", "wikiSlug": "Aquileia", "type": "place" },
-    { "term": "Venice", "matchText": "Venice", "wikiSlug": "Venice", "type": "place" },
-    { "term": "Champagne", "matchText": "Champagne region", "wikiSlug": "Champagne_(historical_province)", "type": "place" },
-    { "term": "Balkans", "matchText": "Balkans", "wikiSlug": "Balkans", "type": "place" },
-    { "term": "Theodoric I", "matchText": "Theodoric I", "wikiSlug": "Theodoric_I", "type": "people" },
-    { "term": "Hungarian plain", "matchText": "Hungarian plain", "wikiSlug": "Great_Hungarian_Plain", "type": "place" },
-    { "term": "Jordanes", "matchText": "Jordanes", "wikiSlug": "Jordanes", "type": "people" },
-    { "term": "papal supremacy", "matchText": "papal supremacy", "wikiSlug": "Papal_supremacy", "type": "concept" },
-    { "term": "Mincio", "matchText": "river Mincio", "wikiSlug": "Mincio", "type": "place" }
+    {
+      "term": "Bleda",
+      "matchText": "Bleda",
+      "wikiSlug": "Bleda",
+      "type": "people"
+    },
+    {
+      "term": "Priscus",
+      "matchText": "Priscus",
+      "wikiSlug": "Priscus",
+      "type": "people"
+    },
+    {
+      "term": "Ardaric",
+      "matchText": "Ardaric",
+      "wikiSlug": "Ardaric",
+      "type": "people"
+    },
+    {
+      "term": "Aquileia",
+      "matchText": "Aquileia",
+      "wikiSlug": "Aquileia",
+      "type": "place"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "wikiSlug": "Venice",
+      "type": "place"
+    },
+    {
+      "term": "Champagne",
+      "matchText": "Champagne region",
+      "wikiSlug": "Champagne_(historical_province)",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Theodoric I",
+      "matchText": "Theodoric I",
+      "wikiSlug": "Theodoric_I",
+      "type": "people"
+    },
+    {
+      "term": "Hungarian plain",
+      "matchText": "Hungarian plain",
+      "wikiSlug": "Great_Hungarian_Plain",
+      "type": "place"
+    },
+    {
+      "term": "Jordanes",
+      "matchText": "Jordanes",
+      "wikiSlug": "Jordanes",
+      "type": "people"
+    },
+    {
+      "term": "papal supremacy",
+      "matchText": "papal supremacy",
+      "wikiSlug": "Papal_supremacy",
+      "type": "concept"
+    },
+    {
+      "term": "Mincio",
+      "matchText": "river Mincio",
+      "wikiSlug": "Mincio",
+      "type": "place"
+    },
+    {
+      "term": "Attila",
+      "matchText": "Attila",
+      "wikiSlug": "Attila",
+      "type": "people"
+    },
+    {
+      "term": "Flavius Aetius",
+      "matchText": "Aetius",
+      "wikiSlug": "Flavius_Aetius",
+      "type": "people"
+    }
   ],
   "6": [
-    { "term": "Ricimer", "matchText": "Ricimer", "wikiSlug": "Ricimer", "type": "people" },
-    { "term": "Arianism", "matchText": "Arian", "wikiSlug": "Arianism", "type": "concept" },
-    { "term": "Majorian", "matchText": "Majorian", "wikiSlug": "Majorian", "type": "people" },
-    { "term": "Syagrius", "matchText": "Syagrius", "wikiSlug": "Syagrius", "type": "people" },
-    { "term": "Odoacer", "matchText": "Odoacer", "wikiSlug": "Odoacer", "type": "people" },
-    { "term": "Julius Nepos", "matchText": "Julius Nepos", "wikiSlug": "Julius_Nepos", "type": "people" },
-    { "term": "Romulus Augustulus", "matchText": "Romulus Augustulus", "wikiSlug": "Romulus_Augustulus", "type": "people" },
-    { "term": "Scirians", "matchText": "Scirian", "wikiSlug": "Scirian", "type": "people" },
-    { "term": "Dalmatia", "matchText": "Dalmatia", "wikiSlug": "Dalmatia", "type": "place" },
-    { "term": "Campania", "matchText": "Campania", "wikiSlug": "Campania", "type": "place" },
-    { "term": "Edward Gibbon", "matchText": "Edward Gibbon", "wikiSlug": "Edward_Gibbon", "type": "people" },
-    { "term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place" }
+    {
+      "term": "Ricimer",
+      "matchText": "Ricimer",
+      "wikiSlug": "Ricimer",
+      "type": "people"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arian",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Majorian",
+      "matchText": "Majorian",
+      "wikiSlug": "Majorian",
+      "type": "people"
+    },
+    {
+      "term": "Syagrius",
+      "matchText": "Syagrius",
+      "wikiSlug": "Syagrius",
+      "type": "people"
+    },
+    {
+      "term": "Odoacer",
+      "matchText": "Odoacer",
+      "wikiSlug": "Odoacer",
+      "type": "people"
+    },
+    {
+      "term": "Julius Nepos",
+      "matchText": "Julius Nepos",
+      "wikiSlug": "Julius_Nepos",
+      "type": "people"
+    },
+    {
+      "term": "Romulus Augustulus",
+      "matchText": "Romulus Augustulus",
+      "wikiSlug": "Romulus_Augustulus",
+      "type": "people"
+    },
+    {
+      "term": "Scirians",
+      "matchText": "Scirian",
+      "wikiSlug": "Scirian",
+      "type": "people"
+    },
+    {
+      "term": "Dalmatia",
+      "matchText": "Dalmatia",
+      "wikiSlug": "Dalmatia",
+      "type": "place"
+    },
+    {
+      "term": "Campania",
+      "matchText": "Campania",
+      "wikiSlug": "Campania",
+      "type": "place"
+    },
+    {
+      "term": "Edward Gibbon",
+      "matchText": "Edward Gibbon",
+      "wikiSlug": "Edward_Gibbon",
+      "type": "people"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    }
   ],
   "7": [
-    { "term": "Franks", "matchText": "Franks", "wikiSlug": "Franks", "type": "people" },
-    { "term": "Clovis I", "matchText": "Clovis", "wikiSlug": "Clovis_I", "type": "people" },
-    { "term": "Merovingians", "matchText": "Merovingians", "wikiSlug": "Merovingian_dynasty", "type": "people" },
-    { "term": "Charlemagne", "matchText": "Charlemagne", "wikiSlug": "Charlemagne", "type": "people" },
-    { "term": "Alemanni", "matchText": "Alemanni", "wikiSlug": "Alemanni", "type": "people" },
-    { "term": "Gregory of Tours", "matchText": "Gregory of Tours", "wikiSlug": "Gregory_of_Tours", "type": "people" },
-    { "term": "Council of Nicaea", "matchText": "Council of Nicaea", "wikiSlug": "First_Council_of_Nicaea", "type": "concept" },
-    { "term": "Theodoric the Great", "matchText": "Theodoric the Great", "wikiSlug": "Theodoric_the_Great", "type": "people" },
-    { "term": "Boethius", "matchText": "Boethius", "wikiSlug": "Boethius", "type": "people" },
-    { "term": "Cassiodorus", "matchText": "Cassiodorus", "wikiSlug": "Cassiodorus", "type": "people" },
-    { "term": "Ravenna", "matchText": "Ravenna", "wikiSlug": "Ravenna", "type": "place" },
-    { "term": "Alaric II", "matchText": "Alaric II", "wikiSlug": "Alaric_II", "type": "people" },
-    { "term": "Gundobad", "matchText": "Gundobad", "wikiSlug": "Gundobad", "type": "people" },
-    { "term": "Reccared I", "matchText": "King Reccared", "wikiSlug": "Reccared_I", "type": "people" },
-    { "term": "Third Council of Toledo", "matchText": "Third Council of Toledo", "wikiSlug": "Third_Council_of_Toledo", "type": "concept" },
-    { "term": "Consolation of Philosophy", "matchText": "Consolation of Philosophy", "wikiSlug": "The_Consolation_of_Philosophy", "type": "concept" },
-    { "term": "Lex Salica", "matchText": "Lex Salica", "wikiSlug": "Lex_Salica", "type": "concept" },
-    { "term": "Battle of Vouille", "matchText": "Battle of Vouille", "wikiSlug": "Battle_of_Vouille", "type": "concept" },
-    { "term": "Hundred Years War", "matchText": "Hundred Years' War", "wikiSlug": "Hundred_Years%27_War", "type": "concept" }
+    {
+      "term": "Franks",
+      "matchText": "Franks",
+      "wikiSlug": "Franks",
+      "type": "people"
+    },
+    {
+      "term": "Clovis I",
+      "matchText": "Clovis",
+      "wikiSlug": "Clovis_I",
+      "type": "people"
+    },
+    {
+      "term": "Merovingians",
+      "matchText": "Merovingians",
+      "wikiSlug": "Merovingian_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Charlemagne",
+      "matchText": "Charlemagne",
+      "wikiSlug": "Charlemagne",
+      "type": "people"
+    },
+    {
+      "term": "Alemanni",
+      "matchText": "Alemanni",
+      "wikiSlug": "Alemanni",
+      "type": "people"
+    },
+    {
+      "term": "Gregory of Tours",
+      "matchText": "Gregory of Tours",
+      "wikiSlug": "Gregory_of_Tours",
+      "type": "people"
+    },
+    {
+      "term": "Council of Nicaea",
+      "matchText": "Council of Nicaea",
+      "wikiSlug": "First_Council_of_Nicaea",
+      "type": "concept"
+    },
+    {
+      "term": "Theodoric the Great",
+      "matchText": "Theodoric the Great",
+      "wikiSlug": "Theodoric_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Boethius",
+      "matchText": "Boethius",
+      "wikiSlug": "Boethius",
+      "type": "people"
+    },
+    {
+      "term": "Cassiodorus",
+      "matchText": "Cassiodorus",
+      "wikiSlug": "Cassiodorus",
+      "type": "people"
+    },
+    {
+      "term": "Ravenna",
+      "matchText": "Ravenna",
+      "wikiSlug": "Ravenna",
+      "type": "place"
+    },
+    {
+      "term": "Alaric II",
+      "matchText": "Alaric II",
+      "wikiSlug": "Alaric_II",
+      "type": "people"
+    },
+    {
+      "term": "Gundobad",
+      "matchText": "Gundobad",
+      "wikiSlug": "Gundobad",
+      "type": "people"
+    },
+    {
+      "term": "Reccared I",
+      "matchText": "King Reccared",
+      "wikiSlug": "Reccared_I",
+      "type": "people"
+    },
+    {
+      "term": "Third Council of Toledo",
+      "matchText": "Third Council of Toledo",
+      "wikiSlug": "Third_Council_of_Toledo",
+      "type": "concept"
+    },
+    {
+      "term": "Consolation of Philosophy",
+      "matchText": "Consolation of Philosophy",
+      "wikiSlug": "The_Consolation_of_Philosophy",
+      "type": "concept"
+    },
+    {
+      "term": "Lex Salica",
+      "matchText": "Lex Salica",
+      "wikiSlug": "Lex_Salica",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Vouille",
+      "matchText": "Battle of Vouille",
+      "wikiSlug": "Battle_of_Vouille",
+      "type": "concept"
+    },
+    {
+      "term": "Hundred Years War",
+      "matchText": "Hundred Years' War",
+      "wikiSlug": "Hundred_Years%27_War",
+      "type": "concept"
+    },
+    {
+      "term": "Domain of Soissons",
+      "matchText": "Domain of Soissons",
+      "wikiSlug": "Domain_of_Soissons",
+      "type": "concept"
+    }
   ],
   "8": [
-    { "term": "Justinian I", "matchText": "Justinian", "wikiSlug": "Justinian_I", "type": "people" },
-    { "term": "Theodora", "matchText": "Theodora", "wikiSlug": "Theodora_(wife_of_Justinian_I)", "type": "people" },
-    { "term": "Belisarius", "matchText": "Belisarius", "wikiSlug": "Belisarius", "type": "people" },
-    { "term": "Narses", "matchText": "Narses", "wikiSlug": "Narses", "type": "people" },
-    { "term": "Procopius", "matchText": "Procopius", "wikiSlug": "Procopius", "type": "people" },
-    { "term": "Totila", "matchText": "Totila", "wikiSlug": "Totila", "type": "people" },
-    { "term": "Gelimer", "matchText": "Gelimer", "wikiSlug": "Gelimer", "type": "people" },
-    { "term": "renovatio imperii", "matchText": "renovatio imperii", "wikiSlug": "Renovatio_imperii", "type": "concept" },
-    { "term": "pragmatic sanction", "matchText": "Pragmatic Sanction", "wikiSlug": "Pragmatic_Sanction_of_554", "type": "concept" },
-    { "term": "Hagia Sophia", "matchText": "Hagia Sophia", "wikiSlug": "Hagia_Sophia", "type": "place" },
-    { "term": "Nika Riots", "matchText": "Nika riots", "wikiSlug": "Nika_riots", "type": "concept" },
-    { "term": "Exarch of Ravenna", "matchText": "Exarch", "wikiSlug": "Exarchate_of_Ravenna", "type": "concept" },
-    { "term": "Caesarea Maritima", "matchText": "Caesarea", "wikiSlug": "Caesarea_Maritima", "type": "place" }
+    {
+      "term": "Justinian I",
+      "matchText": "Justinian",
+      "wikiSlug": "Justinian_I",
+      "type": "people"
+    },
+    {
+      "term": "Theodora",
+      "matchText": "Theodora",
+      "wikiSlug": "Theodora_(wife_of_Justinian_I)",
+      "type": "people"
+    },
+    {
+      "term": "Belisarius",
+      "matchText": "Belisarius",
+      "wikiSlug": "Belisarius",
+      "type": "people"
+    },
+    {
+      "term": "Narses",
+      "matchText": "Narses",
+      "wikiSlug": "Narses",
+      "type": "people"
+    },
+    {
+      "term": "Procopius",
+      "matchText": "Procopius",
+      "wikiSlug": "Procopius",
+      "type": "people"
+    },
+    {
+      "term": "Totila",
+      "matchText": "Totila",
+      "wikiSlug": "Totila",
+      "type": "people"
+    },
+    {
+      "term": "Gelimer",
+      "matchText": "Gelimer",
+      "wikiSlug": "Gelimer",
+      "type": "people"
+    },
+    {
+      "term": "renovatio imperii",
+      "matchText": "renovatio imperii",
+      "wikiSlug": "Renovatio_imperii",
+      "type": "concept"
+    },
+    {
+      "term": "pragmatic sanction",
+      "matchText": "Pragmatic Sanction",
+      "wikiSlug": "Pragmatic_Sanction_of_554",
+      "type": "concept"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "place"
+    },
+    {
+      "term": "Nika Riots",
+      "matchText": "Nika riots",
+      "wikiSlug": "Nika_riots",
+      "type": "concept"
+    },
+    {
+      "term": "Exarch of Ravenna",
+      "matchText": "Exarch",
+      "wikiSlug": "Exarchate_of_Ravenna",
+      "type": "concept"
+    },
+    {
+      "term": "Caesarea Maritima",
+      "matchText": "Caesarea",
+      "wikiSlug": "Caesarea_Maritima",
+      "type": "place"
+    }
   ],
   "9": [
-    { "term": "Yersinia pestis", "matchText": "Yersinia pestis", "wikiSlug": "Yersinia_pestis", "type": "concept" },
-    { "term": "Black Death", "matchText": "Black Death", "wikiSlug": "Black_Death", "type": "concept" },
-    { "term": "Lombards", "matchText": "Lombards", "wikiSlug": "Lombards", "type": "people" },
-    { "term": "Alboin", "matchText": "Alboin", "wikiSlug": "Alboin", "type": "people" },
-    { "term": "Pavia", "matchText": "Pavia", "wikiSlug": "Pavia", "type": "place" },
-    { "term": "Po valley", "matchText": "Po valley", "wikiSlug": "Po_Valley", "type": "place" },
-    { "term": "Gepids", "matchText": "Gepids", "wikiSlug": "Gepids", "type": "people" },
-    { "term": "Benedict of Nursia", "matchText": "Benedict of Nursia", "wikiSlug": "Benedict_of_Nursia", "type": "people" },
-    { "term": "Rule of Saint Benedict", "matchText": "Rule of Saint Benedict", "wikiSlug": "Rule_of_Saint_Benedict", "type": "concept" },
-    { "term": "Monte Cassino", "matchText": "Monte Cassino", "wikiSlug": "Monte_Cassino", "type": "place" },
-    { "term": "Exarchate of Ravenna", "matchText": "Ravenna", "wikiSlug": "Exarchate_of_Ravenna", "type": "place" },
-    { "term": "stratosphere", "matchText": "stratosphere", "wikiSlug": "Stratosphere", "type": "concept" },
-    { "term": "bubo", "matchText": "buboes", "wikiSlug": "Bubo", "type": "concept" }
+    {
+      "term": "Yersinia pestis",
+      "matchText": "Yersinia pestis",
+      "wikiSlug": "Yersinia_pestis",
+      "type": "concept"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    },
+    {
+      "term": "Lombards",
+      "matchText": "Lombards",
+      "wikiSlug": "Lombards",
+      "type": "people"
+    },
+    {
+      "term": "Alboin",
+      "matchText": "Alboin",
+      "wikiSlug": "Alboin",
+      "type": "people"
+    },
+    {
+      "term": "Pavia",
+      "matchText": "Pavia",
+      "wikiSlug": "Pavia",
+      "type": "place"
+    },
+    {
+      "term": "Po valley",
+      "matchText": "Po valley",
+      "wikiSlug": "Po_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Gepids",
+      "matchText": "Gepids",
+      "wikiSlug": "Gepids",
+      "type": "people"
+    },
+    {
+      "term": "Benedict of Nursia",
+      "matchText": "Benedict of Nursia",
+      "wikiSlug": "Benedict_of_Nursia",
+      "type": "people"
+    },
+    {
+      "term": "Rule of Saint Benedict",
+      "matchText": "Rule of Saint Benedict",
+      "wikiSlug": "Rule_of_Saint_Benedict",
+      "type": "concept"
+    },
+    {
+      "term": "Monte Cassino",
+      "matchText": "Monte Cassino",
+      "wikiSlug": "Monte_Cassino",
+      "type": "place"
+    },
+    {
+      "term": "Exarchate of Ravenna",
+      "matchText": "Ravenna",
+      "wikiSlug": "Exarchate_of_Ravenna",
+      "type": "place"
+    },
+    {
+      "term": "stratosphere",
+      "matchText": "stratosphere",
+      "wikiSlug": "Stratosphere",
+      "type": "concept"
+    },
+    {
+      "term": "bubo",
+      "matchText": "buboes",
+      "wikiSlug": "Bubo",
+      "type": "concept"
+    }
   ]
 }

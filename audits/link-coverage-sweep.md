@@ -121,7 +121,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | chinese-revolution | ~16 | **DONE** | d4e0633 |
 | rise-of-china | 14 | **DONE** Chinese-modern COMPLETE | 33dc2a4 |
 | germanic-tribes | 10 | **DONE** | 480c37a |
-| the-goths | 10 | **DONE** | +this |
+| the-goths | 10 | **DONE** | d8ff2a8 |
+| migration-period | 9 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

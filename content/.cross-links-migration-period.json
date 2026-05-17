@@ -23,6 +23,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "The Roman Empire the Huns set in motion in 375 had been building for a thousand years before its western half dissolved. The arc from the Republic's legions to the federate system that gave the empire away is the long arc of the Roman story — the context that makes the migration period's speed of dissolution comprehensible."
+    },
+    {
+      "matchText": "Germanic Tribes",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 9,
+      "blurb": "The Migration Period is the storm germanic-tribes ended on the edge of — the Völkerwanderung the long Roman frontier finally failed to hold."
+    },
+    {
+      "matchText": "Xiongnu-Huns",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 6,
+      "blurb": "The domino that fell was the Huns — the steppe pressure that shoved the whole Germanic world over the Roman frontier."
     }
   ],
   "2": [
@@ -71,6 +83,12 @@
       "targetTl": "the-goths",
       "targetChapter": 4,
       "blurb": "While Geiseric was building his Vandal kingdom in Africa in the 430s and 440s, the Visigoths were consolidating in Aquitaine and beginning to expand into Spain. The two greatest successor kingdoms of the western Mediterranean were taking shape simultaneously — one controlling the sea, one holding the land bridge to the Pyrenees."
+    },
+    {
+      "matchText": "The Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 8,
+      "blurb": "The Vandals' sack of Rome (455) is the companion catastrophe to the Gothic sack of 410 — the western empire bleeding out in installments."
     }
   ],
   "5": [
@@ -85,6 +103,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "Attila's campaigns against Constantinople and then the West happened against the backdrop of an Eastern Empire that had never stopped functioning — still wealthy enough to pay the tribute, still capable of fielding armies on two fronts. The contrast with the hollowed Western state is the deepest structural fact of the period."
+    },
+    {
+      "matchText": "Xiongnu-Huns",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 7,
+      "blurb": "Attila is the hinge of the whole period — the same campaigns the Hunnic narrative tells, here from the Roman-collapse side."
     }
   ],
   "6": [
@@ -105,6 +129,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
       "blurb": "When Odoacer sent the imperial regalia back to Constantinople in 476, he was acknowledging what the East had always claimed — that there was one Roman Empire, governed from the Bosphorus, and the West was temporarily under barbarian management. The Eastern Empire that received those regalia would eventually try to make that claim militarily real."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "The fall of the West (476) is this period's climax — the deposition of the last western emperor that ancient-rome ends on."
     }
   ],
   "7": [
@@ -125,6 +155,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The successor kings who wrote down law — Lex Salica, Breviary of Alaric, Gundobad's dual codes — were doing so in Latin, using Roman legal categories, explicitly claiming to be Rome's heirs and managers. The Roman legal tradition they preserved became the foundation of continental European law, a thread running unbroken from the Digest of Justinian to modern civil-law systems."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "The successor kingdoms are the post-Roman West — exactly where the early-medieval story picks up."
+    },
+    {
+      "matchText": "The Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 9,
+      "blurb": "The Visigothic and Ostrogothic kingdoms are the largest of these successors — the Gothic narrative's western chapters."
     }
   ],
   "8": [
@@ -139,6 +181,12 @@
       "targetTl": "the-goths",
       "targetChapter": 8,
       "blurb": "The Gothic War in Italy that ground on from 535 to 554 was the Ostrogoths' last chapter — the final act of the story that began when the Huns pushed the Goths across the Danube in 376. King Totila's campaigns, the sieges of Rome, the final defeat under Narses — the full Gothic narrative belongs to the Gothic book."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "The eastern reconquest is Justinian's bid to undo the migrations — Byzantium briefly clawing back Africa and Italy."
     }
   ],
   "9": [
@@ -159,6 +207,12 @@
       "targetTl": "anglo-saxon-england",
       "targetChapter": 1,
       "blurb": "While the Lombards were walking into a ruined Italy in 568, the Angles, Saxons, and Jutes had been building something genuinely new in Britain for over a century — a post-Roman world that did not inherit the Latin church, the Roman law, or the surviving elite that shaped the continental successor kingdoms. Two different ways of being post-Roman, happening at the same time on opposite ends of the former empire."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The end of antiquity in the West — plague, contraction, the Lombards — is where the medieval world properly begins."
     }
   ]
 }
