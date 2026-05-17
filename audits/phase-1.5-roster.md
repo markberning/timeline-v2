@@ -28,12 +28,22 @@ Date: 2026-05-16. Lane: maps/sync/chains (audits/ in-lane, safe to commit).
 
 | # | Proposed `tlId` | Title | Range | Inserts into | Gap | Pri | Est. ch |
 |---|-----------------|-------|-------|--------------|-----|-----|---------|
-| 1 | `babylon-to-persia` | Babylon to Persia | −626→651 | Mesopotamian, between `assyrian-empire` & `islamic-golden-age` | 1,359-yr gap (Neo-Babylon→Achaemenid→Parthian→Sasanian) | CRITICAL | 12–15 |
+| 1 | ~~`babylon-to-persia`~~ → `babylonia-under-empire` (RESCOPED) | Babylonia Under Empire | −539→651 | standalone / enrichment (NOT a chain-bridge) | **DROPPED as scoped — see note ▼** | ~~CRITICAL~~ **LOW** | ~~12–15~~ **6–8** |
 | 2 | `uyghur-steppe` | The Uyghur & Qara-Khitai Steppe | 744→1206 | Central Asian Steppe, between `gokturk-khaganate` & `mongol-empire` | 462-yr steppe gap | HIGH | 8 |
 | 3 | `medieval-japan` | Medieval Japan (the Samurai era) | 1185→1603 | Japanese, between `heian-japan` & `edo-japan` | 418-yr Kamakura–Muromachi–Sengoku hole | HIGH | 12–15 |
 | 4 | `goryeo-korea` | Goryeo Korea | 918→1392 | Korean, between `ancient-korea` & `joseon-korea` | 457-yr hole | HIGH | 8–10 |
 | 5 | `islamic-persia` | Islamic Persia | 651→1501 | Persian, between `persian-empire` & `safavid-persia` | 850-yr Persian-thread hole | HIGH | 10–13 |
 | 6 | `muscovite-russia` | Muscovite Russia | 1240→1721 | Russian, between `kievan-rus` & `russian-empire` | 481-yr hole (Mongol yoke → rise of Moscow) | HIGH | 10–13 |
+
+> **▼ Roster amendment — 2026-05-17 (LOCKED roster, amended by user decision; step-0.5 scoping override).**
+> Row 1 `babylon-to-persia` as scoped was a **flawed audit row**: the "1,359-yr Mesopotamian gap" is a *chain-adjacency illusion*, not a content gap. Verified against the corpus:
+> - **`persian-empire` (shipped, 10 ch, −559→651)** already tells the full Achaemenid→Parthian→Sasanian→Arab-conquest arc (Ch1 Cyrus … Ch10 The Last Persian Empire; Ctesiphon ×15 — it even covers Mesopotamia-under-Persia).
+> - **`mesopotamia` (shipped, 13 ch)** already tells the Neo-Babylonian Empire (Ch12 "Babylon Resurgent", Ch13 "Cyrus and the Long Echo / 539").
+> - A −626→651 `babylon-to-persia` would duplicate a shipped 10-ch TL + the tail of another.
+>
+> **Decision:** (1) **DROPPED** as a CRITICAL chain-bridge. (2) **Closed the perceived Mesopotamian seam with cross-links instead of a TL** — `assyrian-empire`/`mesopotamia` ↔ `persian-empire` ↔ `islamic-golden-age` (logged for the corpus-remediation stream; do NOT assign while its agent is mid-run — coordinator picks it up at merge). (3) **RESCOPED** to `babylonia-under-empire`: the only genuinely-untold residue — Babylonia *as protagonist* 539 BCE→651 CE (Jewish Babylonian diaspora & the Talmudic academies of Sura/Pumbedita, the Church of the East, Seleucia-Ctesiphon as a continuous metropolis). LOW priority, ~6–8 ch, standalone/enrichment, **built late or possibly not at all** — re-decide when reached. (4) The 17 is now effectively **16 firm + 1 demoted**.
+>
+> **Build order changed: `uyghur-steppe` is civ #1** (true no-overlap gap: `gokturk-khaganate` → *nothing* → `mongol-empire`, the 744–1206 steppe hole; cf. `memory/project_coverage_finding_steppe_gap`). The pipeline-trial slot is already spent (goryeo, shipped); the 17 build begins here.
 
 ### B. New `atlantic-world` chain — the early-modern global thread (currently absent)
 
