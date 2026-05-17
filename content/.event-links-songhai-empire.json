@@ -109,10 +109,6 @@
       "matchText": "Tomb of Askia"
     },
     {
-      "eventId": "evt-songhai-provincial-system",
-      "matchText": "twelve provinces"
-    },
-    {
       "eventId": "evt-songhai-ministerial-system",
       "matchText": "ministerial system"
     },
@@ -126,7 +122,7 @@
     },
     {
       "eventId": "evt-songhai-greatest-extent",
-      "matchText": "greatest territorial extent"
+      "matchText": "greatest extent"
     },
     {
       "eventId": "evt-songhai-askia-musa",
@@ -233,10 +229,6 @@
     {
       "eventId": "evt-songhai-mossi-wars",
       "matchText": "Mossi cavalry"
-    },
-    {
-      "eventId": "evt-songhai-griot-tradition",
-      "matchText": "Griots"
     }
   ],
   "7": [
@@ -284,11 +276,11 @@
     },
     {
       "eventId": "evt-songhai-gao-occupied",
-      "matchText": "occupied Gao"
+      "matchText": "Moroccan occupation"
     },
     {
       "eventId": "evt-songhai-fall-timbuktu",
-      "matchText": "Timbuktu in April 1591"
+      "matchText": "April 1591"
     },
     {
       "eventId": "evt-songhai-ahmed-baba-exile",

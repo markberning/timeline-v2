@@ -26,7 +26,7 @@
     },
     {
       "term": "kap system",
-      "matchText": "kap system",
+      "matchText": "kap",
       "wikiSlug": "Kap_(Ancient_Egypt)",
       "type": "concept"
     },
@@ -514,7 +514,7 @@
   "5": [
     {
       "term": "Meroe",
-      "matchText": "Mero",
+      "matchText": "Meroë",
       "wikiSlug": "Mero%C3%AB",
       "type": "place"
     },
@@ -907,12 +907,6 @@
       "type": "concept"
     },
     {
-      "term": "Samos",
-      "matchText": "island of Samos",
-      "wikiSlug": "Samos",
-      "type": "place"
-    },
-    {
       "term": "Parthia",
       "matchText": "Parthia",
       "wikiSlug": "Parthian_Empire",
@@ -1012,7 +1006,7 @@
     },
     {
       "term": "Isis temple at Philae",
-      "matchText": "temple of Isis at Philae",
+      "matchText": "Philae temple",
       "wikiSlug": "Philae",
       "type": "place"
     },

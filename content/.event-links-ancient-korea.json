@@ -4,7 +4,6 @@
   "2": [
     {"eventId":"evt-dangun-founding","matchText":"Dangun Wanggeom"},
     {"eventId":"evt-dangun-founding","matchText":"National Foundation Day"},
-    {"eventId":"evt-korean-bronze-age","matchText":"Korean Bronze Age began roughly around 1500 BCE"},
     {"eventId":"evt-mumun-pottery","matchText":"Mumun pottery period"},
     {"eventId":"evt-dolmen-culture","matchText":"Korea has more dolmens than anywhere else on Earth"},
     {"eventId":"evt-rice-cultivation-korea","matchText":"Wet-rice cultivation"},
@@ -15,21 +14,21 @@
     {"eventId":"evt-korean-iron-age","matchText":"a new technology reached the Korean peninsula from China: iron"},
     {"eventId":"evt-wiman-joseon","matchText":"Wiman Joseon"},
     {"eventId":"evt-fall-of-gojoseon","matchText":"In 108 BCE, internal rebels assassinated the Gojoseon king"},
-    {"eventId":"evt-han-commanderies","matchText":"He established four commanderies"},
-    {"eventId":"evt-lelang-commandery","matchText":"only Lelang"},
+    {"eventId":"evt-han-commanderies","matchText":"four commanderies"},
+    {"eventId":"evt-lelang-commandery","matchText":"sole functioning Chinese outpost"},
     {"eventId":"evt-samhan-confederacies","matchText":"Samhan"},
     {"eventId":"evt-iron-trade-gaya","matchText":"Byeonhan iron was being exported to China and Japan"}
   ],
   "4": [
-    {"eventId":"evt-silla-founding","matchText":"Silla in 57 BCE"},
-    {"eventId":"evt-goguryeo-founding","matchText":"Goguryeo was established by Jumong"},
-    {"eventId":"evt-baekje-founding","matchText":"Baekje was founded by Onjo"},
+    {"eventId":"evt-silla-founding","matchText":"Silla's founding myth"},
+    {"eventId":"evt-goguryeo-founding","matchText":"fled south with followers"},
+    {"eventId":"evt-baekje-founding","matchText":"Baekje's founding myth"},
     {"eventId":"evt-gaya-founding","matchText":"Gaya Confederacy"},
     {"eventId":"evt-silla-gold-crowns","matchText":"Silla gold crowns"},
     {"eventId":"evt-silla-bone-rank","matchText":"bone-rank system"},
     {"eventId":"evt-buddhism-goguryeo","matchText":"Goguryeo simultaneously adopted Buddhism"},
     {"eventId":"evt-confucian-academy","matchText":"Taehak"},
-    {"eventId":"evt-goguryeo-conquers-lelang","matchText":"Goguryeo conquered Lelang Commandery"},
+    {"eventId":"evt-goguryeo-conquers-lelang","matchText":"Chinese colonial presence"},
     {"eventId":"evt-silla-gaya-conquest","matchText":"In 562 CE, Silla conquered the last Gaya states"},
     {"eventId":"evt-goguryeo-fortress","matchText":"mountain fortresses"}
   ],
@@ -41,7 +40,7 @@
     {"eventId":"evt-ondol-heating","matchText":"ondol"},
     {"eventId":"evt-goguryeo-sui-war","matchText":"Battle of Salsu"},
     {"eventId":"evt-eulji-mundeok","matchText":"Eulji Mundeok"},
-    {"eventId":"evt-goguryeo-tang-war","matchText":"fortress of Ansi"}
+    {"eventId":"evt-goguryeo-tang-war","matchText":"over sixty days"}
   ],
   "6": [
     {"eventId":"evt-buddhism-baekje","matchText":"Buddhism arrived in 384 CE"},
@@ -78,6 +77,6 @@
     {"eventId":"evt-jang-bogo","matchText":"Jang Bogo"},
     {"eventId":"evt-later-three-kingdoms","matchText":"Later Three Kingdoms"},
     {"eventId":"evt-wang-geon-goryeo","matchText":"Wang Geon"},
-    {"eventId":"evt-silla-surrenders","matchText":"last Silla king, Gyeongsun, peacefully surrendered"}
+    {"eventId":"evt-silla-surrenders","matchText":"peacefully surrendered to Wang Geon"}
   ]
 }

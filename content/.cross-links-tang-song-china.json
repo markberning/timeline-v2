@@ -55,12 +55,6 @@
       "blurb": "Sui is the Qin of its age: a short, brutal, hyper-ambitious dynasty whose grand projects (the Grand Canal) outlived it and whose collapse birthed a golden age."
     },
     {
-      "matchText": "Mongol Empire",
-      "targetTl": "mongol-empire",
-      "targetChapter": 8,
-      "blurb": "This narrative runs all the way to the Mongol conquest — the Yuan founding is its endpoint, the Song's destroyer."
-    },
-    {
       "matchText": "Qin Dynasty",
       "targetTl": "qin-dynasty",
       "targetChapter": 4,
@@ -97,12 +91,6 @@
       "targetTl": "ancient-korea",
       "targetChapter": 6,
       "blurb": "The Silla kingdom unified the Korean peninsula in 668 with Tang military assistance against Goguryeo and Baekje, then promptly fought Tang armies to assert independence. The resulting compromise produced the unified Silla state that would dominate Korea for the next 250 years and that maintained extensive cultural exchange with the Tang — Silla students at the Tang capital, Tang Buddhist monks in Korea, and the Korean adoption of Tang law, art, and bureaucracy."
-    },
-    {
-      "matchText": "Han Dynasty",
-      "targetTl": "han-dynasty",
-      "targetChapter": 8,
-      "blurb": "High Tang restored the cosmopolitan imperial confidence the late Han had lost — China's second great classical apogee."
     }
   ],
   "3": [
@@ -169,7 +157,7 @@
       "blurb": "The Battle of Talas in 751 was the only direct military collision between the Tang and the Abbasids, and its most consequential outcome was the transmission of Chinese papermaking to the Islamic world via captured Tang prisoners. Cheap paper transformed Abbasid intellectual life in the following century — the Islamic Golden Age depended on the same paper technology that Chang'an had been using for centuries — and the technology eventually relayed onward to medieval Europe through Islamic Spain and Sicily."
     },
     {
-      "matchText": "Heian-ky",
+      "matchText": "Heian-kyō",
       "targetTl": "heian-japan",
       "targetChapter": 8,
       "blurb": "Heian-kyō (modern Kyoto), founded in 794 a few decades after the An Lushan Rebellion's end, was modeled directly on Chang'an's grid plan. The Heian court that flourished there for nearly four centuries was deeply shaped by Tang cultural transmission, but the political structure was distinctively Japanese — a regent-led aristocratic court rather than a Tang-style emperor-and-bureaucracy state. The Tang model was visible everywhere in Heian Japan, but it was not adopted whole."
@@ -179,18 +167,6 @@
       "targetTl": "mongol-empire",
       "targetChapter": 5,
       "blurb": "The Mongol conquests of the 13th century — the only pre-modern conflict whose death toll competes with the An Lushan Rebellion's — would similarly reshape the Eurasian political map. The Mongols would take down the Jurchen Jin (which had risen in the wake of the Tang collapse), the Tangut Western Xia, the Abbasid Caliphate (Hulagu's sack of Baghdad in 1258 finished the Islamic Golden Age in much the way An Lushan had finished the Tang's golden age), and finally the Southern Song itself in 1279."
-    },
-    {
-      "matchText": "Asuka-Nara Japan",
-      "targetTl": "asuka-nara-japan",
-      "targetChapter": 7,
-      "blurb": "The An Lushan catastrophe broke High Tang — even as Nara Japan was still importing the Tang model wholesale."
-    },
-    {
-      "matchText": "Byzantine Empire",
-      "targetTl": "byzantine-empire",
-      "targetChapter": 5,
-      "blurb": "The Tang's mid-life near-death and partial recovery parallels Byzantium's contemporary survival crisis — both classical empires that bent without breaking."
     }
   ],
   "5": [
@@ -207,16 +183,10 @@
       "blurb": "The Holy Roman Empire under Otto I, crowned in 962, was a contemporary medieval European institution-building project that the Song founding paralleled at the eastern end of Eurasia. Both projects were attempting to reassemble centralized authority after centuries of fragmentation, both relied heavily on alliances with major religious institutions, and both faced the chronic problem of how to subordinate powerful regional lords (German dukes for the Ottonians, Chinese military commissioners for the Song)."
     },
     {
-      "matchText": "Han Dynasty",
+      "matchText": "Han collapse",
       "targetTl": "han-dynasty",
       "targetChapter": 5,
       "blurb": "The Five Dynasties interregnum is a compressed replay of the Han-collapse pattern — brief warlord states before reunification under the Song."
-    },
-    {
-      "matchText": "Maya Civilization",
-      "targetTl": "maya-civilization",
-      "targetChapter": 6,
-      "blurb": "The Tang-Song transition coincides with the Maya Postclassic reorganization — old centers gone, new orders rising, on both sides of the Pacific."
     }
   ],
   "6": [
@@ -239,16 +209,10 @@
       "blurb": "Shen Kuo's empirical, authority-doubting temper is exactly what the Needham Question asks about: why did this not become a self-sustaining scientific revolution in China (Scientific Revolution Ch 20)."
     },
     {
-      "matchText": "Mongol Empire",
+      "matchText": "Mongols",
       "targetTl": "mongol-empire",
       "targetChapter": 5,
       "blurb": "Northern Song wealth and weakness set the stage: the richest state on earth, militarily fragile, the prize the steppe would eventually take."
-    },
-    {
-      "matchText": "Six Dynasties",
-      "targetTl": "six-dynasties",
-      "targetChapter": 4,
-      "blurb": "Song civil-officialdom deliberately broke the military aristocracy that had wrecked every dynasty since the Six Dynasties."
     }
   ],
   "7": [
@@ -271,13 +235,13 @@
       "blurb": "Hangzhou under the Southern Song was the largest city in the world and the single most important prize the Mongols would eventually capture — its surrender in 1276 was the formal end of the Southern Song state, even though loyalist resistance continued for three more years. The city retained its commercial pre-eminence under Mongol Yuan rule and was the administrative and economic center of the Yuan dynasty's southern provinces."
     },
     {
-      "matchText": "Heian Japan",
+      "matchText": "Heian",
       "targetTl": "heian-japan",
       "targetChapter": 8,
       "blurb": "The Jurchen catastrophe drove the Song south just as Heian Japan's own aristocratic order was unravelling into warrior rule — parallel pivots to a harder age."
     },
     {
-      "matchText": "Byzantine Empire",
+      "matchText": "Byzantine memory",
       "targetTl": "byzantine-empire",
       "targetChapter": 7,
       "blurb": "The Southern Song, like contemporary Byzantium, was a brilliant rump state managing decline with money and diplomacy against stronger neighbors."

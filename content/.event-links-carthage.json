@@ -26,7 +26,7 @@
     },
     {
       "eventId": "evt-melqart-cult-carthage",
-      "matchText": "cult of Melqart"
+      "matchText": "Temple of Melqart"
     },
     {
       "eventId": "evt-punic-script",
@@ -56,7 +56,7 @@
     },
     {
       "eventId": "evt-carthage-sardinia",
-      "matchText": "Phoenician colonies in Sardinia"
+      "matchText": "Carthage took control"
     },
     {
       "eventId": "evt-carthage-iberian-expansion",
@@ -188,13 +188,13 @@
     },
     {
       "eventId": "evt-rome-seizes-sardinia-corsica",
-      "matchText": "Rome seized Sardinia and Corsica"
+      "matchText": "Sardinia and Corsica"
     }
   ],
   "5": [
     {
       "eventId": "evt-hamilcar-barca-spain",
-      "matchText": "crossed to Iberia"
+      "matchText": "Hamilcar Barca"
     },
     {
       "eventId": "evt-hasdrubal-fair",
@@ -271,10 +271,6 @@
     {
       "eventId": "evt-navigation-techniques",
       "matchText": "Carthaginian navigation"
-    },
-    {
-      "eventId": "evt-carthage-azores-coins",
-      "matchText": "Azores"
     },
     {
       "eventId": "evt-balearic-slingers",

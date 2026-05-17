@@ -390,7 +390,7 @@
     },
     {
       "term": "Emperor Wu of Han",
-      "matchText": "emperor, Wu",
+      "matchText": "Han emperor",
       "wikiSlug": "Emperor_Wu_of_Han",
       "type": "people"
     },
@@ -450,7 +450,7 @@
     },
     {
       "term": "Silla",
-      "matchText": "kingdom of Silla",
+      "matchText": "Silla",
       "wikiSlug": "Silla",
       "type": "concept"
     },
@@ -470,12 +470,6 @@
       "term": "Liaoning",
       "matchText": "Liaoning",
       "wikiSlug": "Liaoning",
-      "type": "place"
-    },
-    {
-      "term": "Wanggeom-seong",
-      "matchText": "Wanggeom-seong",
-      "wikiSlug": "Gojoseon",
       "type": "place"
     },
     {
@@ -956,7 +950,7 @@
     },
     {
       "term": "King Uija of Baekje",
-      "matchText": "King Uija",
+      "matchText": "Uija",
       "wikiSlug": "Uija_of_Baekje",
       "type": "people"
     },

@@ -52,7 +52,7 @@
     },
     {
       "eventId": "evt-elamite-rivalry",
-      "matchText": "rival civilization of Elam"
+      "matchText": "the rival civilization"
     },
     {
       "eventId": "evt-lugalzagesi",
@@ -82,7 +82,7 @@
   "5": [
     {
       "eventId": "evt-sargon-akkad",
-      "matchText": "Sargon seized the throne"
+      "matchText": "seized the throne"
     },
     {
       "eventId": "evt-lugalzagesi",
@@ -90,7 +90,7 @@
     },
     {
       "eventId": "evt-mari-kingdom",
-      "matchText": "trading cities of Mari"
+      "matchText": "important trading cities"
     },
     {
       "eventId": "evt-enheduanna",
@@ -134,7 +134,7 @@
   "7": [
     {
       "eventId": "evt-hammurabi",
-      "matchText": "a king named Hammurabi"
+      "matchText": "king named"
     },
     {
       "eventId": "evt-code-hammurabi",
@@ -343,10 +343,6 @@
     {
       "eventId": "evt-cyrus-cylinder",
       "matchText": "Cyrus Cylinder"
-    },
-    {
-      "eventId": "evt-epic-gilgamesh-written",
-      "matchText": "Epic of Gilgamesh"
     },
     {
       "eventId": "evt-sumerian-astronomy",

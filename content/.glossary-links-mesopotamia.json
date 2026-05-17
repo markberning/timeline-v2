@@ -366,7 +366,7 @@
     },
     {
       "term": "Çatalhöyük",
-      "matchText": "atalhöyük",
+      "matchText": "Çatalhöyük",
       "wikiSlug": "Çatalhöyük",
       "type": "place"
     },
@@ -414,7 +414,7 @@
     },
     {
       "term": "Erlitou culture",
-      "matchText": "Erlitou culture",
+      "matchText": "Erlitou",
       "wikiSlug": "Erlitou_culture",
       "type": "concept"
     },
@@ -444,7 +444,7 @@
     },
     {
       "term": "Egyptian hieroglyphs",
-      "matchText": "Egyptian hieroglyphs",
+      "matchText": "Egyptian hieroglyphic",
       "wikiSlug": "Egyptian_hieroglyphs",
       "type": "concept"
     },
@@ -876,7 +876,7 @@
     },
     {
       "term": "Shimashkians",
-      "matchText": "Shimashkians",
+      "matchText": "Shimashki dynasty",
       "wikiSlug": "Shimashki_dynasty",
       "type": "people"
     },
@@ -903,12 +903,6 @@
       "matchText": "Babylonia",
       "wikiSlug": "Babylonia",
       "type": "place"
-    },
-    {
-      "term": "Amorites",
-      "matchText": "Amorites",
-      "wikiSlug": "Amorites",
-      "type": "people"
     }
   ],
   "7": [
@@ -1210,7 +1204,7 @@
     },
     {
       "term": "Elamites",
-      "matchText": "Elamites",
+      "matchText": "eastern rival",
       "wikiSlug": "Elam",
       "type": "people"
     },
@@ -1885,12 +1879,6 @@
       "type": "concept"
     },
     {
-      "term": "Achaemenes",
-      "matchText": "Achaemenes",
-      "wikiSlug": "Achaemenes",
-      "type": "people"
-    },
-    {
       "term": "Opis",
       "matchText": "Opis",
       "wikiSlug": "Opis",
@@ -1993,24 +1981,6 @@
       "type": "people"
     },
     {
-      "term": "Ur-Nammu",
-      "matchText": "Ur-Nammu",
-      "wikiSlug": "Ur-Nammu",
-      "type": "people"
-    },
-    {
-      "term": "Hammurabi",
-      "matchText": "Hammurabi",
-      "wikiSlug": "Hammurabi",
-      "type": "people"
-    },
-    {
-      "term": "Ashurbanipal",
-      "matchText": "Ashurbanipal",
-      "wikiSlug": "Ashurbanipal",
-      "type": "people"
-    },
-    {
       "term": "Nebuchadnezzar",
       "matchText": "Nebuchadnezzar",
       "wikiSlug": "Nebuchadnezzar_II",
@@ -2051,12 +2021,6 @@
       "matchText": "Abbasid caliphs",
       "wikiSlug": "Abbasid_Caliphate",
       "type": "people"
-    },
-    {
-      "term": "Library of Ashurbanipal",
-      "matchText": "Library of Ashurbanipal",
-      "wikiSlug": "Library_of_Ashurbanipal",
-      "type": "place"
     }
   ]
 }

@@ -7,7 +7,7 @@
     { "eventId": "evt-cre-second-reconstruction", "matchText": "Second Reconstruction" },
     { "eventId": "evt-cre-great-depression-black", "matchText": "Great Depression" },
     { "eventId": "evt-cre-new-deal-mixed", "matchText": "New Deal programs were repeatedly written or administered to accommodate them" },
-    { "eventId": "evt-cre-second-great-migration", "matchText": "the Great Migration, the vast movement of Black Southerners" },
+    { "eventId": "evt-cre-second-great-migration", "matchText": "five million Black Southerners" },
     { "eventId": "evt-cre-randolph-march-threat", "matchText": "threatened to bring a hundred thousand Black marchers to Washington" },
     { "eventId": "evt-cre-fepc", "matchText": "Fair Employment Practice Committee" },
     { "eventId": "evt-cre-double-v", "matchText": "Double-V campaign" },
@@ -50,7 +50,7 @@
     { "eventId": "evt-cre-montgomery-boycott", "matchText": "one-day bus boycott" },
     { "eventId": "evt-cre-mia", "matchText": "Montgomery Improvement Association" },
     { "eventId": "evt-cre-mlk", "matchText": "Martin Luther King Jr" },
-    { "eventId": "evt-cre-black-church-engine", "matchText": "the Black church was not a backdrop to the movement" },
+    { "eventId": "evt-cre-black-church-engine", "matchText": "institutional engine" },
     { "eventId": "evt-cre-economic-boycott-weapon", "matchText": "economic boycott as a weapon" },
     { "eventId": "evt-cre-browder-v-gayle", "matchText": "Browder v. Gayle" },
     { "eventId": "evt-cre-baton-rouge-boycott", "matchText": "Black-owned taxis" }
@@ -84,7 +84,7 @@
     { "eventId": "evt-cre-boynton-v-virginia", "matchText": "Boynton v. Virginia" },
     { "eventId": "evt-cre-james-farmer", "matchText": "James Farmer" },
     { "eventId": "evt-cre-anniston-bus", "matchText": "Anniston" },
-    { "eventId": "evt-cre-diane-nash", "matchText": "Diane Nash and the Nashville students refused to let the rides end" },
+    { "eventId": "evt-cre-diane-nash", "matchText": "refused to let the rides end" },
     { "eventId": "evt-cre-kennedys-civil-rights", "matchText": "John Kennedy" },
     { "eventId": "evt-cre-albany-movement", "matchText": "Albany Movement" },
     { "eventId": "evt-cre-laurie-pritchett", "matchText": "Laurie Pritchett" }
@@ -125,7 +125,7 @@
     { "eventId": "evt-cre-howard-smith-sex-amendment", "matchText": "added on the House floor by a Virginia segregationist" },
     { "eventId": "evt-cre-heart-of-atlanta", "matchText": "Heart of Atlanta Motel v. United States" },
     { "eventId": "evt-cre-civil-rights-cases-commerce", "matchText": "Commerce Clause" },
-    { "eventId": "evt-cre-de-jure-de-facto", "matchText": "de jure segregation, segregation mandated by law" }
+    { "eventId": "evt-cre-de-jure-de-facto", "matchText": "segregation mandated by law" }
   ],
   "11": [
     { "eventId": "evt-cre-bob-moses", "matchText": "Bob Moses" },
@@ -153,7 +153,6 @@
   ],
   "13": [
     { "eventId": "evt-cre-watts-uprising", "matchText": "Watts" },
-    { "eventId": "evt-cre-de-jure-de-facto", "matchText": "de jure versus de facto segregation" },
     { "eventId": "evt-cre-redlining", "matchText": "redlining" },
     { "eventId": "evt-cre-urban-renewal", "matchText": "urban renewal" },
     { "eventId": "evt-cre-baldwin-fire", "matchText": "James Baldwin" },
@@ -209,7 +208,7 @@
   ],
   "17": [
     { "eventId": "evt-cre-george-wallace", "matchText": "George Wallace" },
-    { "eventId": "evt-cre-1968-election", "matchText": "in 1968 Richard Nixon built a strategy" },
+    { "eventId": "evt-cre-1968-election", "matchText": "built a strategy" },
     { "eventId": "evt-cre-southern-strategy", "matchText": "Southern Strategy" },
     { "eventId": "evt-cre-green-v-county", "matchText": "Green" },
     { "eventId": "evt-cre-swann-busing", "matchText": "Swann" },
@@ -234,7 +233,7 @@
     { "eventId": "evt-cre-chicano-movement", "matchText": "Chicano movement" },
     { "eventId": "evt-cre-northern-ireland-civil-rights", "matchText": "Northern Ireland" },
     { "eventId": "evt-cre-redlining", "matchText": "redlining's legacy" },
-    { "eventId": "evt-cre-mlk-memory", "matchText": "the sanitizing of the memory" },
+    { "eventId": "evt-cre-mlk-memory", "matchText": "sanitizing of the memory" },
     { "eventId": "evt-cre-cointelpro", "matchText": "COINTELPRO" }
   ]
 }

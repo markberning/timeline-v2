@@ -189,12 +189,6 @@
       "type": "concept"
     },
     {
-      "term": "Kultepe",
-      "matchText": "Kultepe",
-      "wikiSlug": "K%C3%BCltepe",
-      "type": "place"
-    },
-    {
       "term": "Tin",
       "matchText": "tin",
       "wikiSlug": "Tin",
@@ -363,18 +357,6 @@
       "matchText": "Levant",
       "wikiSlug": "Levant",
       "type": "place"
-    },
-    {
-      "term": "Kingdom of Israel",
-      "matchText": "Kingdom of Israel",
-      "wikiSlug": "Kingdom_of_Israel_(united_monarchy)",
-      "type": "concept"
-    },
-    {
-      "term": "Kingdom of Judah",
-      "matchText": "Kingdom of Judah",
-      "wikiSlug": "Kingdom_of_Judah",
-      "type": "concept"
     },
     {
       "term": "Homer",
@@ -1036,7 +1018,7 @@
     },
     {
       "term": "Moon god Sin",
-      "matchText": "moon god Sin",
+      "matchText": "moon god",
       "wikiSlug": "Sin_(mythology)",
       "type": "people"
     },

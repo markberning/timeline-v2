@@ -140,7 +140,7 @@
     },
     {
       "term": "El Manatí",
-      "matchText": "El Manat",
+      "matchText": "El Manatí",
       "wikiSlug": "El_Manatí",
       "type": "place"
     }
@@ -183,18 +183,6 @@
       "type": "concept"
     },
     {
-      "term": "obsidian",
-      "matchText": "obsidian",
-      "wikiSlug": "Obsidian",
-      "type": "concept"
-    },
-    {
-      "term": "jade",
-      "matchText": "jade figurines",
-      "wikiSlug": "Jade_use_in_Mesoamerica",
-      "type": "concept"
-    },
-    {
       "term": "hallucinogenic substances",
       "matchText": "hallucinogenic substances",
       "wikiSlug": "Hallucinogen",
@@ -205,12 +193,6 @@
       "matchText": "Cerro Cintepec",
       "wikiSlug": "Sierra_de_los_Tuxtlas",
       "type": "place"
-    },
-    {
-      "term": "Khufu",
-      "matchText": "Khufu",
-      "wikiSlug": "Khufu",
-      "type": "people"
     },
     {
       "term": "Valley of the Kings",
@@ -295,12 +277,6 @@
       "matchText": "shamanic practice",
       "wikiSlug": "Shamanism",
       "type": "concept"
-    },
-    {
-      "term": "hectares",
-      "matchText": "hectares",
-      "wikiSlug": "Hectare",
-      "type": "concept"
     }
   ],
   "3": [
@@ -338,12 +314,6 @@
       "term": "pharaoh",
       "matchText": "pharaohs",
       "wikiSlug": "Pharaoh",
-      "type": "concept"
-    },
-    {
-      "term": "were-jaguar",
-      "matchText": "were-jaguar",
-      "wikiSlug": "Olmec_religion",
       "type": "concept"
     },
     {
@@ -413,21 +383,9 @@
       "type": "concept"
     },
     {
-      "term": "Maya pyramids",
-      "matchText": "Maya pyramids",
-      "wikiSlug": "Mesoamerican_pyramids",
-      "type": "concept"
-    },
-    {
       "term": "ancestor spirit",
       "matchText": "ancestor spirit",
       "wikiSlug": "Ancestor_worship",
-      "type": "concept"
-    },
-    {
-      "term": "jade",
-      "matchText": "jade",
-      "wikiSlug": "Jade_use_in_Mesoamerica",
       "type": "concept"
     },
     {
@@ -526,12 +484,6 @@
       "term": "La Venta",
       "matchText": "La Venta",
       "wikiSlug": "La_Venta",
-      "type": "place"
-    },
-    {
-      "term": "San Lorenzo",
-      "matchText": "San Lorenzo",
-      "wikiSlug": "San_Lorenzo_Tenochtitlán",
       "type": "place"
     },
     {
@@ -750,7 +702,7 @@
     },
     {
       "term": "Great Pyramid of Giza",
-      "matchText": "Great Pyramid of Khufu at Giza",
+      "matchText": "Khufu",
       "wikiSlug": "Great_Pyramid_of_Giza",
       "type": "place"
     },
@@ -806,12 +758,6 @@
       "term": "underworld",
       "matchText": "underworld",
       "wikiSlug": "Underworld",
-      "type": "concept"
-    },
-    {
-      "term": "solstice",
-      "matchText": "solstices",
-      "wikiSlug": "Solstice",
       "type": "concept"
     },
     {
@@ -988,7 +934,7 @@
     },
     {
       "term": "Teotihuacan",
-      "matchText": "Teotihuacan",
+      "matchText": "Teotihuacán",
       "wikiSlug": "Teotihuacan",
       "type": "place"
     },
@@ -1024,7 +970,7 @@
     },
     {
       "term": "San Jose Mogote",
-      "matchText": "San Jose Mogote",
+      "matchText": "San José Mogote",
       "wikiSlug": "San_José_Mogote",
       "type": "place"
     },

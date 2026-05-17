@@ -38,7 +38,7 @@
     },
     {
       "term": "Djenné",
-      "matchText": "Djenn",
+      "matchText": "Djenné",
       "wikiSlug": "Djenné",
       "type": "place"
     },
@@ -154,7 +154,7 @@
   "2": [
     {
       "term": "Sankoré",
-      "matchText": "Sankor",
+      "matchText": "Sankoré",
       "wikiSlug": "Sankore_Madrasah",
       "type": "place"
     },
@@ -204,18 +204,6 @@
       "term": "qadi",
       "matchText": "qadi",
       "wikiSlug": "Qadi",
-      "type": "concept"
-    },
-    {
-      "term": "ulama",
-      "matchText": "ulama",
-      "wikiSlug": "Ulama",
-      "type": "concept"
-    },
-    {
-      "term": "fatwa",
-      "matchText": "fatwa",
-      "wikiSlug": "Fatwa",
       "type": "concept"
     },
     {
@@ -371,12 +359,6 @@
       "type": "concept"
     },
     {
-      "term": "Akbar",
-      "matchText": "Akbar",
-      "wikiSlug": "Akbar",
-      "type": "people"
-    },
-    {
       "term": "Hernán Cortés",
       "matchText": "Hernán Cortés",
       "wikiSlug": "Hernán_Cortés",
@@ -405,12 +387,6 @@
       "matchText": "Cairo",
       "wikiSlug": "Cairo",
       "type": "place"
-    },
-    {
-      "term": "ijaza",
-      "matchText": "ijazas",
-      "wikiSlug": "Ijazah",
-      "type": "concept"
     },
     {
       "term": "Askia Mohammad I",
@@ -482,7 +458,7 @@
     },
     {
       "term": "arquebus",
-      "matchText": "arquebus",
+      "matchText": "arquebuses",
       "wikiSlug": "Arquebus",
       "type": "concept"
     },
@@ -517,12 +493,6 @@
       "type": "concept"
     },
     {
-      "term": "Sufi",
-      "matchText": "Sufi",
-      "wikiSlug": "Sufism",
-      "type": "concept"
-    },
-    {
       "term": "fari",
       "matchText": "fari",
       "wikiSlug": "Songhai_Empire",
@@ -544,7 +514,7 @@
     },
     {
       "term": "Sankoré Mosque",
-      "matchText": "Sankor",
+      "matchText": "Sankoré",
       "wikiSlug": "Sankore_Madrasah",
       "type": "place"
     },
@@ -657,18 +627,6 @@
       "type": "place"
     },
     {
-      "term": "ulama",
-      "matchText": "ulama",
-      "wikiSlug": "Ulama",
-      "type": "concept"
-    },
-    {
-      "term": "Atlantic slave trade",
-      "matchText": "Atlantic slave trade",
-      "wikiSlug": "Atlantic_slave_trade",
-      "type": "concept"
-    },
-    {
       "term": "Sijilmasa",
       "matchText": "Sijilmasa",
       "wikiSlug": "Sijilmasa",
@@ -731,12 +689,6 @@
       "type": "concept"
     },
     {
-      "term": "fatwa",
-      "matchText": "fatwa",
-      "wikiSlug": "Fatwa",
-      "type": "concept"
-    },
-    {
       "term": "qadi",
       "matchText": "qadi",
       "wikiSlug": "Qadi",
@@ -788,12 +740,6 @@
       "term": "Sufism",
       "matchText": "Sufi",
       "wikiSlug": "Sufism",
-      "type": "concept"
-    },
-    {
-      "term": "marabout",
-      "matchText": "marabout",
-      "wikiSlug": "Marabout",
       "type": "concept"
     },
     {
@@ -853,18 +799,6 @@
       "type": "place"
     },
     {
-      "term": "Morisco",
-      "matchText": "Morisco",
-      "wikiSlug": "Moriscos",
-      "type": "people"
-    },
-    {
-      "term": "Pasha",
-      "matchText": "Pasha",
-      "wikiSlug": "Pasha",
-      "type": "concept"
-    },
-    {
       "term": "Spanish Armada",
       "matchText": "Spanish Armada",
       "wikiSlug": "Spanish_Armada",
@@ -901,12 +835,6 @@
       "type": "people"
     },
     {
-      "term": "Bambara",
-      "matchText": "Bambara",
-      "wikiSlug": "Bambara_people",
-      "type": "people"
-    },
-    {
       "term": "Abd al-Malik",
       "matchText": "Abd al-Malik",
       "wikiSlug": "Abd_Al-Malik_of_Morocco",
@@ -916,7 +844,7 @@
   "8": [
     {
       "term": "Andalusian Morisco",
-      "matchText": "Andalusian Morisco",
+      "matchText": "Andalusian Moriscos",
       "wikiSlug": "Moriscos",
       "type": "people"
     },

@@ -10,20 +10,20 @@
   ],
   "2": [
     {"eventId":"evt-piye-reign","matchText":"Piye had inherited the throne from his father Kashta"},
-    {"eventId":"evt-piye-conquest","matchText":"Piye marched the entire length of the Nile"},
+    {"eventId":"evt-piye-conquest","matchText":"marched the entire length of the Nile"},
     {"eventId":"evt-kush-piye-stela-detail","matchText":"Victory Stela of Piye"},
     {"eventId":"evt-piye-victory-stela","matchText":"over 150 lines of hieroglyphic text"},
     {"eventId":"evt-shabaka","matchText":"His brother Shabaka inherited"},
     {"eventId":"evt-fall-of-memphis","matchText":"captured Memphis"}
   ],
   "3": [
-    {"eventId":"evt-shabaka","matchText":"Shabaka took the throne around 714 BCE"},
+    {"eventId":"evt-shabaka","matchText":"took the throne around 714 BCE"},
     {"eventId":"evt-shabaka-stone","matchText":"Shabaka Stone"},
     {"eventId":"evt-shebitku","matchText":"Shebitku"},
-    {"eventId":"evt-taharqa-reign","matchText":"Taharqa took the throne around 690 BCE"},
+    {"eventId":"evt-taharqa-reign","matchText":"took the throne around 690 BCE"},
     {"eventId":"evt-taharqa-karnak","matchText":"great colonnade in the first court"},
-    {"eventId":"evt-nuri-pyramids","matchText":"he began the royal pyramid necropolis at Nuri"},
-    {"eventId":"evt-gebel-barkal-temples","matchText":"greatly expanded the temple complex at Jebel Barkal"},
+    {"eventId":"evt-nuri-pyramids","matchText":"began the royal pyramid necropolis"},
+    {"eventId":"evt-gebel-barkal-temples","matchText":"greatly expanded the temple complex"},
     {"eventId":"evt-assyrian-invasion","matchText":"Neo-Assyrian Empire"}
   ],
   "4": [
@@ -42,7 +42,7 @@
     {"eventId":"evt-meroitic-temples-amun","matchText":"Temple of Amun"},
     {"eventId":"evt-royal-baths-meroe","matchText":"Royal Baths"},
     {"eventId":"evt-meroe-pyramids","matchText":"Meroë Pyramid Necropolis"},
-    {"eventId":"evt-trade-routes","matchText":"routes leading east toward the Red Sea"}
+    {"eventId":"evt-trade-routes","matchText":"east-west trade axis"}
   ],
   "6": [
     {"eventId":"evt-kush-meroitic-script-detail","matchText":"Meroitic script"},
@@ -68,7 +68,7 @@
     {"eventId":"evt-water-reservoirs","matchText":"hafirs"}
   ],
   "8": [
-    {"eventId":"evt-decline-trade-shift","matchText":"rise of Aksum"},
+    {"eventId":"evt-decline-trade-shift","matchText":"shifting eastward"},
     {"eventId":"evt-kush-aksumite-end","matchText":"Ezana invaded the Kingdom of Kush"},
     {"eventId":"evt-aksumite-conquest","matchText":"around 350 CE"}
   ]

@@ -7,25 +7,24 @@
     {"eventId":"evt-osaka-castle-siege","matchText":"Sieges of Osaka"},
     {"eventId":"evt-buke-shohatto","matchText":"Buke Shohatto"},
     {"eventId":"evt-ikkoku-ichijo","matchText":"Ikkoku Ichijō Rei"},
-    {"eventId":"evt-nikko-toshogu","matchText":"Nikkō Tōshō-g"},
+    {"eventId":"evt-nikko-toshogu","matchText":"Nikkō Tōshō-gū"},
     {"eventId":"evt-himeji-castle","matchText":"Himeji"}
   ],
   "2": [
     {"eventId":"evt-bakuhan-system","matchText":"bakuhan system"},
     {"eventId":"evt-tokugawa-iemitsu","matchText":"Tokugawa Iemitsu"},
     {"eventId":"evt-sankin-kotai","matchText":"sankin-kōtai"},
-    {"eventId":"evt-gokaido","matchText":"Gokaid"},
-    {"eventId":"evt-shi-no-ko-sho","matchText":"shi-nō-kō-sh"},
+    {"eventId":"evt-gokaido","matchText":"Gokaidō"},
+    {"eventId":"evt-shi-no-ko-sho","matchText":"shi-nō-kō-shō"},
     {"eventId":"evt-terauke-system","matchText":"terauke"},
-    {"eventId":"evt-shoheiko","matchText":"Shōheik"},
-    {"eventId":"evt-edo-castle-expansion","matchText":"Edo Castle"},
+    {"eventId":"evt-shoheiko","matchText":"Shōheikō"},
     {"eventId":"evt-ise-shrine-rebuild","matchText":"Ise Grand Shrine"}
   ],
   "3": [
     {"eventId":"evt-christianity-banned","matchText":"Christian Expulsion Edict"},
     {"eventId":"evt-fumi-e","matchText":"fumi-e"},
     {"eventId":"evt-shimabara-rebellion","matchText":"Shimabara Rebellion"},
-    {"eventId":"evt-amakusa-shiro","matchText":"Amakusa Shir"},
+    {"eventId":"evt-amakusa-shiro","matchText":"Amakusa Shirō"},
     {"eventId":"evt-sakoku-edict","matchText":"sakoku"},
     {"eventId":"evt-portuguese-expelled","matchText":"Portuguese were expelled from Japan"},
     {"eventId":"evt-dejima-trade","matchText":"Dejima"},
@@ -42,7 +41,7 @@
     {"eventId":"evt-kabuki-theater","matchText":"Kabuki"},
     {"eventId":"evt-bunraku","matchText":"Bunraku"},
     {"eventId":"evt-chikamatsu","matchText":"Chikamatsu Monzaemon"},
-    {"eventId":"evt-matsuo-basho","matchText":"Matsuo Bash"},
+    {"eventId":"evt-matsuo-basho","matchText":"Matsuo Bashō"},
     {"eventId":"evt-ihara-saikaku","matchText":"Ihara Saikaku"},
     {"eventId":"evt-hishikawa-moronobu","matchText":"Hishikawa Moronobu"},
     {"eventId":"evt-rice-market-osaka","matchText":"Dōjima Rice Exchange"},
@@ -53,8 +52,7 @@
   ],
   "5": [
     {"eventId":"evt-ako-incident","matchText":"Akō incident"},
-    {"eventId":"evt-bushido","matchText":"Hagakure"},
-    {"eventId":"evt-wasan-math","matchText":"Seki Takakazu"}
+    {"eventId":"evt-bushido","matchText":"Hagakure"}
   ],
   "6": [
     {"eventId":"evt-sugita-genpaku","matchText":"Sugita Genpaku"},
@@ -72,10 +70,8 @@
     {"eventId":"evt-tenmei-famine","matchText":"Tenmei famine"},
     {"eventId":"evt-mount-asama-eruption","matchText":"Mount Asama"},
     {"eventId":"evt-tenpo-famine","matchText":"Tenpō famine"},
-    {"eventId":"evt-oshio-rebellion","matchText":"shio Heihachir"},
-    {"eventId":"evt-morrison-incident","matchText":"Morrison Incident"},
-    {"eventId":"evt-kokugaku","matchText":"Kokugaku"},
-    {"eventId":"evt-motoori-norinaga","matchText":"Motoori Norinaga"}
+    {"eventId":"evt-oshio-rebellion","matchText":"Ōshio Heihachirō"},
+    {"eventId":"evt-morrison-incident","matchText":"Morrison Incident"}
   ],
   "8": [
     {"eventId":"evt-perry-arrival","matchText":"Matthew Calbraith Perry"},

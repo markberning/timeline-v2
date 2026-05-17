@@ -659,12 +659,6 @@
       "matchText": "Laurie Pritchett",
       "wikiSlug": "Laurie_Pritchett",
       "type": "person"
-    },
-    {
-      "term": "Freedom Riders",
-      "matchText": "Freedom Rider",
-      "wikiSlug": "Freedom_Riders",
-      "type": "concept"
     }
   ],
   "8": [
@@ -920,7 +914,7 @@
     },
     {
       "term": "De jure segregation",
-      "matchText": "de jure segregation, segregation mandated by law",
+      "matchText": "de jure segregation",
       "wikiSlug": "De_jure",
       "type": "concept"
     },
@@ -1130,7 +1124,7 @@
     },
     {
       "term": "De facto segregation",
-      "matchText": "de facto segregation",
+      "matchText": "de facto",
       "wikiSlug": "De_facto",
       "type": "concept"
     },
@@ -1478,7 +1472,7 @@
     },
     {
       "term": "Memphis sanitation strike",
-      "matchText": "striking Black sanitation workers",
+      "matchText": "Memphis",
       "wikiSlug": "Memphis_sanitation_strike",
       "type": "event"
     },
