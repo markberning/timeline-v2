@@ -41,6 +41,24 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
       "blurb": "Justinian's Byzantine reconquest of the western Roman Empire (530s–550s) and his rebuilding of the Hagia Sophia were nearly contemporary with Yang Jian's reunification of China and Yuwen Kai's design of Daxing — both were ambitious imperial reconstruction projects funded by massive state resources. Both empires immediately overstretched and faced internal-cohesion crises, though the Sui collapsed within decades while the Byzantines limped on for centuries."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 8,
+      "blurb": "Sui reunification ends nearly four centuries of division — the reassembly the Six Dynasties story had been building toward."
+    },
+    {
+      "matchText": "Qin Dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 7,
+      "blurb": "Sui is the Qin of its age: a short, brutal, hyper-ambitious dynasty whose grand projects (the Grand Canal) outlived it and whose collapse birthed a golden age."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 8,
+      "blurb": "This narrative runs all the way to the Mongol conquest — the Yuan founding is its endpoint, the Song's destroyer."
     }
   ],
   "2": [
@@ -73,6 +91,18 @@
       "targetTl": "ancient-korea",
       "targetChapter": 6,
       "blurb": "The Silla kingdom unified the Korean peninsula in 668 with Tang military assistance against Goguryeo and Baekje, then promptly fought Tang armies to assert independence. The resulting compromise produced the unified Silla state that would dominate Korea for the next 250 years and that maintained extensive cultural exchange with the Tang — Silla students at the Tang capital, Tang Buddhist monks in Korea, and the Korean adoption of Tang law, art, and bureaucracy."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 8,
+      "blurb": "High Tang restored the cosmopolitan imperial confidence the late Han had lost — China's second great classical apogee."
+    },
+    {
+      "matchText": "Qin Dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 4,
+      "blurb": "Tang frontier policy inherited the Qin-Han wall-and-garrison logic, now projected deep into the steppe under the 'Heavenly Khan.'"
     }
   ],
   "3": [
@@ -111,6 +141,18 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "Charlemagne's coronation as Holy Roman Emperor on Christmas Day 800 set up the medieval European political system in much the same period that the Tang was at its absolute peak. The Carolingians traded with the Abbasid Caliphate and indirectly with the Tang through long-distance Silk Road relays — Tang silk and porcelain reached Carolingian Europe via Constantinople and Baghdad."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Chang'an's cosmopolitan boulevards held Persian, Arab, and Sogdian quarters — the late Sassanid/early-Islamic world flowing east along the Silk Road."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "Tang Chang'an and Byzantine Constantinople were the two great cosmopolitan capitals of the 7th century, each the terminus of the other's trade."
     }
   ],
   "4": [
@@ -137,6 +179,18 @@
       "targetTl": "mongol-empire",
       "targetChapter": 5,
       "blurb": "The Mongol conquests of the 13th century — the only pre-modern conflict whose death toll competes with the An Lushan Rebellion's — would similarly reshape the Eurasian political map. The Mongols would take down the Jurchen Jin (which had risen in the wake of the Tang collapse), the Tangut Western Xia, the Abbasid Caliphate (Hulagu's sack of Baghdad in 1258 finished the Islamic Golden Age in much the way An Lushan had finished the Tang's golden age), and finally the Southern Song itself in 1279."
+    },
+    {
+      "matchText": "Asuka-Nara Japan",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 7,
+      "blurb": "The An Lushan catastrophe broke High Tang — even as Nara Japan was still importing the Tang model wholesale."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "The Tang's mid-life near-death and partial recovery parallels Byzantium's contemporary survival crisis — both classical empires that bent without breaking."
     }
   ],
   "5": [
@@ -151,6 +205,18 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 7,
       "blurb": "The Holy Roman Empire under Otto I, crowned in 962, was a contemporary medieval European institution-building project that the Song founding paralleled at the eastern end of Eurasia. Both projects were attempting to reassemble centralized authority after centuries of fragmentation, both relied heavily on alliances with major religious institutions, and both faced the chronic problem of how to subordinate powerful regional lords (German dukes for the Ottonians, Chinese military commissioners for the Song)."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 5,
+      "blurb": "The Five Dynasties interregnum is a compressed replay of the Han-collapse pattern — brief warlord states before reunification under the Song."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "The Tang-Song transition coincides with the Maya Postclassic reorganization — old centers gone, new orders rising, on both sides of the Pacific."
     }
   ],
   "6": [
@@ -171,6 +237,18 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 20,
       "blurb": "Shen Kuo's empirical, authority-doubting temper is exactly what the Needham Question asks about: why did this not become a self-sustaining scientific revolution in China (Scientific Revolution Ch 20)."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "Northern Song wealth and weakness set the stage: the richest state on earth, militarily fragile, the prize the steppe would eventually take."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 4,
+      "blurb": "Song civil-officialdom deliberately broke the military aristocracy that had wrecked every dynasty since the Six Dynasties."
     }
   ],
   "7": [
@@ -191,6 +269,18 @@
       "targetTl": "mongol-empire",
       "targetChapter": 8,
       "blurb": "Hangzhou under the Southern Song was the largest city in the world and the single most important prize the Mongols would eventually capture — its surrender in 1276 was the formal end of the Southern Song state, even though loyalist resistance continued for three more years. The city retained its commercial pre-eminence under Mongol Yuan rule and was the administrative and economic center of the Yuan dynasty's southern provinces."
+    },
+    {
+      "matchText": "Heian Japan",
+      "targetTl": "heian-japan",
+      "targetChapter": 8,
+      "blurb": "The Jurchen catastrophe drove the Song south just as Heian Japan's own aristocratic order was unravelling into warrior rule — parallel pivots to a harder age."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "The Southern Song, like contemporary Byzantium, was a brilliant rump state managing decline with money and diplomacy against stronger neighbors."
     }
   ],
   "8": [
@@ -223,6 +313,18 @@
       "targetTl": "vedic-period",
       "targetChapter": 8,
       "blurb": "Mencius wrote in 4th-century-BCE China at roughly the same moment that the Vedic-tradition philosophers in India were producing the Upanishads and the early Buddhist and Jain texts. The intellectual conversation that the Northern Song Neo-Confucians were having with Buddhism — Confucianism trying to absorb the metaphysical sophistication of an Indian-origin religion — was the late echo of a millennium-long Indian-Chinese philosophical exchange that began with the early classical-period traffic of texts and ideas across Central Asia."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 4,
+      "blurb": "Song Neo-Confucianism reworked the classical canon the Han had first institutionalized — the examination state reaching its mature form."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 7,
+      "blurb": "Neo-Confucian metaphysics is the Hundred Schools argument resumed a millennium on, now the official ideology rather than one voice among many."
     }
   ],
   "9": [
@@ -267,6 +369,12 @@
       "targetTl": "ming-dynasty",
       "targetChapter": 1,
       "blurb": "The Ming that succeeded the Yuan was a deliberate restoration of the Tang-Song bureaucratic model — examination-selected civilian officials, Neo-Confucian state ideology, anti-Mongol Han revivalism. The Ming Dynasty TL covers Hongwu's founding generation and the long arc of the dynasty that consciously modeled itself on the Song governance template this chapter has been describing."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 7,
+      "blurb": "The Mongol storm that ended the Song was the same one battering Korea into submission in the same decades."
     }
   ]
 }
