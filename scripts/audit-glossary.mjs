@@ -145,9 +145,9 @@ for (let i = 0; i < modelPending.length; i += BATCH) {
   const batch = modelPending.slice(i, i + BATCH)
   const prompt = `Each item is a glossary entry in a history reading app: the reader taps "term" and gets the Wikipedia page "wikiSlug" with intro "wikiExtract". Decide whether the reader lands on a CORRECT, ON-SUBJECT page that helps explain the term.
 
-PASS if the page (or extract) explains the term OR is a broader parent topic that legitimately covers it — same civilization, same era, same thread of history. Many real glossary terms only have a broad parent article on English Wikipedia; landing on the correct parent is fine. Empty wikiExtract is PASS as long as the wikiSlug is plausibly the right page.
+PASS if the page (or extract) explains the term, OR is a broader parent topic that ACTUALLY COVERS the term within itself (the term is discussed on that page, not merely adjacent to it). A broad parent is fine only when the reader who taps the term and lands there learns what the term is.
 
-FAIL only if the page is genuinely WRONG for the reader: a disambiguation page, a same-name-different-thing (wrong city/person/sense), or a redirect to an off-subject topic that does not explain this term at all. Breadth alone is NOT a failure — wrongness is.
+FAIL if the page is genuinely WRONG for the reader: a disambiguation page; a same-name-different-thing (wrong city/person/sense); a redirect to an off-subject topic; OR — this is the dodge, judge it strictly — a *specific named term* (a ceremony, rite, office, title, person, artifact, concept) pointed at a *whole-civilization / whole-empire / whole-dynasty* article that does NOT itself explain that term. "Same civ/era/thread" is necessary but NOT sufficient: if the target page does not actually tell the reader what THIS term is, it FAILS, however on-thread it is. Example FAIL: term "ʻinasi" → page "Tuʻi Tonga Empire" (the empire is the right thread but the article does not explain the ʻinasi ceremony). Empty wikiExtract is PASS only if the wikiSlug is plausibly a page that covers the term; an empty extract on a whole-empire slug for a specific term is a FAIL.
 
 Respond ONLY with a JSON array, same order: [{"term":"...","verdict":"PASS"|"FAIL","reason":"short"}]
 

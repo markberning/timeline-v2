@@ -228,10 +228,31 @@ open all/some/none question forever. User sign-off needed only on the threshold.
 ignoring that each deliverable is a *forward gate* that also covers the 17.
 - **#12:** build `audit-summaries.mjs` (text: do the bullets faithfully
   represent the chapter?) alongside the 17 pipeline.
-- **#17 (build first):** a cheap text pass — same model call as G12 but judging
-  "does this blurb correctly and on-subject describe its term?" instead of a
-  wiki page. Coordinator-owned (gate infra). **Must land before remediation
-  #4 authors blurbs en masse**, or #4's output is an unaudited reader surface.
+- **#17 (REFRAMED 2026-05-17):** a cheap text pass — same model call as G12 but
+  judging "does this blurb correctly and on-subject describe its term?" instead
+  of a wiki page. Coordinator-owned (gate infra). **No longer a prerequisite for
+  authoring definitions.** Rationale (user, 2026-05-17, the live `ʻinasi →
+  Tuʻi Tonga Empire` dodge): an author-written blurb is *strictly better for the
+  reader* than a whole-empire-parent dodge even while ungated, so definitions
+  are sanctioned NOW; #17 becomes a *post-hoc* audit of the authored blurbs, run
+  after the dodge-sweep, not a gate that blocks writing them.
+
+- **#4 ANTI-DODGE + dodge-sweep post-pass (added 2026-05-17).** Loophole found
+  live: backlog #1 retargeted dead specific-term slugs to whole-civ/empire/
+  dynasty articles (e.g. `ʻinasi → Tuʻi Tonga Empire`), and the G12 calibration
+  "broad on-thread parent = PASS" *tolerates* these — the model never flags them,
+  so the 5 slice agents (frozen on the pre-tightening script) will not catch
+  them. Canon tightened (CLAUDE.md step 10d + `audit-glossary.mjs` prompt): a
+  specific named term pointed at a whole-civ/empire/dynasty article that does
+  not itself explain the term is a **FAIL (dodge)**, "on-thread" necessary but
+  not sufficient. Because the running fleet can't be redirected, after the slices
+  finish run a **coordinator dodge-sweep**: deterministically flag glossary
+  entries whose slug is a whole-civ/empire/dynasty article (or the TL's own main
+  slug) for a specific-type term, plus every queued blurb-residual in the
+  `g12-blurb-queue-*` ledgers, and resolve each to a specific slug, a genuinely
+  covering parent, or an **authored `definition`** (preferred). The agents'
+  legitimate specific-slug/covering-parent fixes are kept; only the dodge subset
+  + queued residuals get this second pass. Then run #17 over all new blurbs.
 
 **Standing method principle (applies to #3/#4/#5/#16 — every model gate retro):**
 gates only ever inspect FAILs, so a *false PASS* (a wrong page/blurb the model
