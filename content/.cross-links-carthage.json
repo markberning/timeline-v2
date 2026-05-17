@@ -23,6 +23,18 @@
       "targetTl": "phoenicia",
       "targetChapter": 6,
       "blurb": "Tyre's defense was legendary — the city sat on an island half a mile offshore, surrounded by massive walls rising directly from the sea. Nebuchadnezzar besieged it for 13 years and failed to take it. Alexander the Great had to build a causeway across open water to breach it. Carthage achieved comparable defensive strength through engineering rather than geography, ringing its peninsula with triple walls 45 feet high and 30 feet thick."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 5,
+      "blurb": "Carthage was Tyre's greatest colony — the Phoenician trade-diaspora's western capital, founded to outlive the homeland it did."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 4,
+      "blurb": "Carthage rose precisely as Assyrian pressure was strangling the Phoenician homeland — the colony inheriting the trade the empire choked."
     }
   ],
   "2": [
@@ -37,6 +49,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "The Persian Empire under Darius I stretched from Egypt to India but had no serious naval tradition of its own — it relied on Phoenician and Greek subject fleets for maritime power. While Carthage was exploring the Atlantic in both directions, the Persians were building royal roads and relay stations across a continental empire. Two superpowers, one facing the sea, the other facing the land."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "Carthage perfected the Phoenician model — a maritime empire of ports and monopolies, ruling the western sea by fleet not territory."
     }
   ],
   "3": [
@@ -57,11 +75,31 @@
       "targetTl": "new-kingdom-egypt",
       "targetChapter": 9,
       "blurb": "Egypt had been the ancient Mediterranean's greatest grain exporter for millennia — the Nile's annual flood produced agricultural surpluses that fed the pharaohs' ambitions and, eventually, the Roman Empire. By the fifth century BCE, Carthage's African estates rivaled Egyptian output, making the two North African powers the breadbaskets of the Mediterranean world."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 4,
+      "blurb": "Carthage's African land empire made it more than a Phoenician city — a territorial power, unlike its commercial eastern parent."
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 3,
+      "blurb": "The collision with Rome is the hinge of Carthaginian history — the Punic Wars that would define, and end, the western Phoenician world."
+    }
+  ],
   "5": [],
-  "6": [],
+  "6": [
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 3,
+      "blurb": "Hannibal's war is 'the war that changed everything' — the closest Rome ever came to destruction, and the reason Carthage had to die."
+    }
+  ],
   "7": [
     {
       "matchText": "rooted in the Phoenician tradition",
@@ -92,6 +130,12 @@
       "targetTl": "phoenicia",
       "targetChapter": 4,
       "blurb": "Phoenician sailors were the first Mediterranean navigators to use Ursa Minor (the Little Bear) for celestial navigation — a technique so exclusively associated with them that the Greeks literally called the constellation 'the Phoenician.' Carthage inherited this navigational expertise and pushed it further, sailing into the open Atlantic along routes that no other Mediterranean civilization would attempt for a millennium."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "Carthaginian religion, the molk, and the gold-and-tin trade are the Phoenician inheritance, evolved in the west."
     }
   ],
   "8": [
@@ -100,6 +144,18 @@
       "targetTl": "phoenicia",
       "targetChapter": 3,
       "blurb": "The Phoenician alphabet, humanity's most influential invention, spread westward through exactly the trade routes that Carthage dominated. Every time a Carthaginian merchant scratched a Punic inscription on a votive stele in Sardinia or a warehouse receipt in Spain, he was extending the reach of the script that would eventually become Greek, Latin, and every alphabet you can read today."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 3,
+      "blurb": "Carthago delenda est: Rome did not defeat Carthage, it erased it — the most deliberate civicide in ancient history."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 3,
+      "blurb": "With Carthage's destruction, the entire Phoenician civilizational thread — east and west — finally ended."
     }
   ]
 }
