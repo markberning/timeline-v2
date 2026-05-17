@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "parse": "tsx scripts/parse-narratives.ts",
-    "prebuild": "tsx scripts/parse-narratives.ts",
+    "gate": "tsx scripts/lint-links.ts --strict --no-slugs",
+    "prebuild": "npm run gate && tsx scripts/parse-narratives.ts",
     "dev": "next dev",
     "build": "node scripts/build-static.mjs",
     "start": "next start",

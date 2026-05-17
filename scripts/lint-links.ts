@@ -16,6 +16,10 @@
  *   tsx scripts/lint-links.ts --tl=viking-age # lint one civ
  *   tsx scripts/lint-links.ts --strict        # exit 1 if any ERROR
  *   tsx scripts/lint-links.ts --no-slugs      # skip the Wikipedia slug check
+ *   tsx scripts/lint-links.ts --contention    # +parser silent-drop pass (WARN)
+ *
+ * `--strict --no-slugs` is the wired prebuild gate (proven checks, 0 ERROR
+ * corpus-wide). `--contention` is opt-in curation aid, never build-breaking.
  */
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs'
 import { join } from 'path'
@@ -30,6 +34,11 @@ const args = process.argv.slice(2)
 const onlyTl = args.find(a => a.startsWith('--tl='))?.slice(5)
 const strict = args.includes('--strict')
 const skipSlugs = args.includes('--no-slugs')
+// Span-contention pass mirrors the parser's own silent-drop stream (~2.2k
+// corpus-wide, mostly benign shorter-vs-longer overlap). Useful when curating a
+// NEW civ to see what the parser will drop; too imprecise to ever build-break,
+// so it is opt-in and WARN-only.
+const auditContention = args.includes('--contention')
 
 // Generic slugs whose Wikipedia lead image is likely the wrong culture —
 // flag for a manual image sanity check (the `Longhouse`→totem-pole class).
@@ -89,6 +98,59 @@ function loadJson<T>(p: string): T | null {
   return existsSync(p) ? JSON.parse(readFileSync(p, 'utf-8')) as T : null
 }
 
+// Mirror parse-narratives.ts replaceOutsideAnchors EXACTLY: replace the first
+// whole-word match outside existing <a>…</a>, Unicode-aware boundary.
+function replaceOutsideAnchors(text: string, matchText: string): { result: string; replaced: boolean } {
+  const parts = text.split(/(<a\b[^>]*>[\s\S]*?<\/a>)/g)
+  const escaped = matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  let regex: RegExp
+  try { regex = new RegExp(`(?<![\\p{L}\\p{N}_])(${escaped})(?![\\p{L}\\p{N}_])`, 'iu') }
+  catch { return { result: text, replaced: false } }
+  for (let i = 0; i < parts.length; i++) {
+    if (i % 2 === 1) continue // already an anchor — skip
+    const after = parts[i].replace(regex, '<a>$1</a>')
+    if (after !== parts[i]) { parts[i] = after; return { result: parts.join(''), replaced: true } }
+  }
+  return { result: text, replaced: false }
+}
+
+// Simulate the parser's full per-chapter injection (cross → event → glossary,
+// longest matchText first, dedup-by-eventId for events / by matchText for
+// glossary) and report any curated link whose matchText DOES occur in the body
+// but never gets injected because an earlier link already consumed its only
+// span. This is the silent-drop foot-gun the parser does not warn about when
+// the term is genuinely present (HANDOFF lesson: cross steals event/glossary
+// spans). Mirrors parse-narratives.ts:419-499.
+function checkSpanContention(
+  tl: string, ch: string, body: string,
+  cx: { matchText: string }[], ev: { eventId: string; matchText: string }[], gl: { matchText: string; wikiSlug: string }[],
+) {
+  let linked = body
+  const drop = (kind: string, mt: string) => {
+    // WARN only: most of these are benign (a shorter matchText losing its span
+    // to an intentional longer/cross link — the reader still gets a link
+    // there). Surfaced for new-civ curation, never build-breaking.
+    if (matchesBody(mt, body)) add(tl, ch, kind, 'WARN',
+      `matchText ${JSON.stringify(mt)} present in ch${ch} but its span is consumed by an earlier link (parser cross→event→glossary, longest first) — parser will drop this entry`)
+  }
+  for (const c of [...cx].sort((a, b) => b.matchText.length - a.matchText.length)) {
+    const r = replaceOutsideAnchors(linked, c.matchText); linked = r.result
+    if (!r.replaced) drop('cross', c.matchText)
+  }
+  const evLinked = new Set<string>()
+  for (const e of [...ev].sort((a, b) => b.matchText.length - a.matchText.length)) {
+    if (evLinked.has(e.eventId)) continue
+    const r = replaceOutsideAnchors(linked, e.matchText); linked = r.result
+    if (r.replaced) evLinked.add(e.eventId); else drop('event', e.matchText)
+  }
+  const glLinked = new Set<string>()
+  for (const g of [...gl].sort((a, b) => b.matchText.length - a.matchText.length)) {
+    if (glLinked.has(g.matchText.toLowerCase())) continue
+    const r = replaceOutsideAnchors(linked, g.matchText); linked = r.result
+    if (r.replaced) glLinked.add(g.matchText.toLowerCase()); else drop('glossary', g.matchText)
+  }
+}
+
 const tls = (onlyTl ? [onlyTl] : readdirSync(NARR)
   .filter(f => f.endsWith('.md') && !f.endsWith('.summaries.json'))
   .map(f => f.replace('.md', '')))
@@ -134,6 +196,15 @@ for (const tl of tls) {
   for (const [ch, arr] of Object.entries(cx)) {
     const meta = chs.get(ch); if (!meta) { add(tl, ch, 'cross', 'ERROR', `chapter ${ch} not in narrative`); continue }
     for (const c of arr) checkMatchText(tl, ch, 'cross', c.matchText, meta.title, meta.body)
+  }
+  // Opt-in parser-accurate span-contention pass (--contention): surfaces links
+  // the parser will drop because an earlier link consumed the span.
+  if (auditContention) {
+    const allChapters = new Set<string>([...Object.keys(gloss), ...Object.keys(ev), ...Object.keys(cx)])
+    for (const ch of allChapters) {
+      const meta = chs.get(ch); if (!meta) continue
+      checkSpanContention(tl, ch, meta.body, cx[ch] ?? [], ev[ch] ?? [], gloss[ch] ?? [])
+    }
   }
 }
 
