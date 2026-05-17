@@ -10,7 +10,8 @@
     "build": "node scripts/build-static.mjs",
     "start": "next start",
     "lint": "eslint",
-    "lint:links": "tsx scripts/lint-links.ts"
+    "lint:links": "tsx scripts/lint-links.ts",
+    "ship:check": "node scripts/ship-check.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
