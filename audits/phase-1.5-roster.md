@@ -9,7 +9,11 @@ re-weighted by how thin actual coverage is per region.
 War module (`memory/project_phase2_plan`), not built as reader-TLs here. This
 resolves the prior open scoping question.
 
-Target: **exactly 17, no wars.** Status: **DRAFT — pending user lock.** Nothing
+Target: **exactly 17, no wars.** Status: **✅ LOCKED 2026-05-17** — user agreed
+to the 17 as proposed; the four open scoping questions resolve to their proposed
+defaults (Africa = 5 TLs incl. benin-and-ife; ethiopian-empire 1137–1855;
+mainland-southeast-asia as one TL; slot 17 = haudenosaunee; parked overflow
+unused). First build = pipeline trial on one civ. Nothing
 built; none in `navigator-tls.ts` yet. Per-civ build follows the agreed workflow
 in root `HANDOFF.md`; chapter/event counts get OK'd before writing.
 
