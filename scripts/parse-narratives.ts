@@ -163,6 +163,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'middle-horizon-empires.md': 'middle-horizon-empires',
   'edo-japan.md': 'edo-japan',
   'gokturk-khaganate.md': 'gokturk-khaganate',
+  'uyghur-steppe.md': 'uyghur-steppe',
   'mali-empire.md': 'mali-empire',
   'songhai-empire.md': 'songhai-empire',
   'tang-song-china.md': 'tang-song-china',

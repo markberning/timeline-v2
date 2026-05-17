@@ -198,7 +198,8 @@ export const TL_CHAINS: TlChain[] = [
     entries: [
       { timelineId: 'scythians', transition: 'The Scythians were displaced by the Sarmatians in the west, but on the eastern steppe a new power was rising. Modu Chanyu unified the Xiongnu tribes around 209 BCE, creating the first true steppe empire and the template every successor would follow.' },
       { timelineId: 'xiongnu-huns', transition: 'After the Xiongnu split and their western remnants possibly became the Huns, the steppe saw centuries of smaller confederacies before the Göktürks created the first empire to call itself "Turk."' },
-      { timelineId: 'gokturk-khaganate', transition: 'The Göktürk Khaganate fragmented and was absorbed by the Tang Chinese and Uighurs. Four centuries later, Temüjin united the Mongol tribes and launched the largest contiguous land empire in history.' },
+      { timelineId: 'gokturk-khaganate', transition: 'The Göktürk Khaganate fragmented, and in 744 its subject Uyghurs overthrew the last Türk qaghan and seized the Orkhon — a new Turkic empire that picked up exactly where the Göktürks fell.' },
+      { timelineId: 'uyghur-steppe', transition: 'The Uyghur Khaganate was destroyed by the Kyrgyz in 840 and the steppe throne stood empty for 366 years, while the Uyghur world reinvented itself in the oases and the Karluks became the first Turkic Muslims. Then Temüjin united the Mongol tribes and launched the largest contiguous land empire in history — run, scripted, and administered on the Uyghur model.' },
       { timelineId: 'mongol-empire', transition: 'The Mongol Empire fractured into successor khanates. From the ruins of the Chagatai Khanate, Timur built a Central Asian empire that rivaled the Mongols in military ambition if not in territorial extent.' },
       { timelineId: 'timurid-empire' },
     ],
@@ -327,7 +328,7 @@ export const TL_CHAINS: TlChain[] = [
 // ── TIER 1: Chain existing orphan TLs (minimal new TLs needed) ──
 //
 // Central Asian Steppe — IMPLEMENTED as 'central-asian-steppe'
-//   scythians → xiongnu-huns → gokturk-khaganate → mongol-empire → timurid-empire
+//   scythians → xiongnu-huns → gokturk-khaganate → uyghur-steppe → mongol-empire → timurid-empire
 //
 // Islamic Civilization
 //   (umayyad-caliphate — NEW) → islamic-golden-age → (mamluk-sultanate — NEW) → ottoman-empire
