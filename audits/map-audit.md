@@ -1,6 +1,6 @@
 # Corpus Map-Quality Audit
 
-**Status:** COMPLETE — 98 of 98 TLs inspected (~878 chapter maps). PLUS a separate **generation** gap (not regen): 3 shipped Japan-split TLs (`prehistoric-japan`, `asuka-nara-japan`, `heian-japan`) have **no maps at all** — ~24 chapters to generate; stale `public/maps/ancient-japan/` (8 old WebPs) to delete. See Tier 0.
+**Status:** ✅ RESOLVED (2026-05-16) — full corpus audited (98/98 TLs) AND regenerated under hardened rules: Tier 0 (24 Japan maps generated, stale ancient-japan removed), Tier 1 (mesopotamia 13 + indus-valley 8 full-series), Tier 2 (14 blocker TLs), stragglers (9), Tier 3 (~150 majors), Pass-1 re-roll (40). Final lenient re-audit: 39/40 pass + the last defect (mali-empire ch6) fixed. **The entire ~870-chapter corpus passes the locked acceptance criteria** (criteria: memory `feedback_dont_over_generalize_defect_rules` — repeated river labels / province + modern reference outlines are NOT defects; only garble/wrong-location/adjacent-dup/compass-words/frame are). Commits: 9d29d36 → 9c08daa. The detail below is the original pre-regen diagnosis, retained for history.
 **Scope:** every `public/maps/{tlId}/chapter-*.webp` vs `map-prompts/{tlId}.md`.
 
 ## Headline
