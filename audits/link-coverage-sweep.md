@@ -101,7 +101,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | edo-japan | 8 | **DONE** | efd5889 |
 | meiji-japan | 8 | **DONE** | bd5df76 |
 | japanese-economic-miracle | 8 | **DONE** Japanese chain COMPLETE | 2ec2605 |
-| mesopotamia | 13 | **DONE** | +this |
+| mesopotamia | 13 | **DONE** | 038e41b |
+| assyrian-empire | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

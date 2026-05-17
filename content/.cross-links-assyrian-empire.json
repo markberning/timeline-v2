@@ -17,6 +17,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 6,
       "blurb": "The Third Dynasty of Ur was the last great Sumerian state, ruling all of Mesopotamia from about 2112 to 2004 BCE. Assur was a subject city under Ur III, absorbing the bureaucratic traditions of Sumerian temple administration that would later inform Assyrian provincial governance."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "Ashur began as one Mesopotamian city among many — the merchant town that would become the ancient world's most feared war-machine."
     }
   ],
   "2": [
@@ -25,6 +31,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "Hammurabi of Babylon conquered most of Mesopotamia around 1792-1750 BCE, absorbing Shamshi-Adad's crumbling kingdom. His famous law code and the Old Babylonian period he inaugurated defined Mesopotamian civilization for centuries -- and created the Babylon that Assyria would spend a millennium trying to control."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "The Old Assyrian merchant colonies ran a long-distance trade network as sophisticated as anything in Hammurabi's Babylon."
     }
   ],
   "3": [
@@ -39,6 +51,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 5,
       "blurb": "While Assyria was recovering from the Bronze Age Collapse and fighting Aramean migrations, China's Zhou dynasty was entering its classical period. The two civilizations developed in near-total isolation from each other, yet both produced bureaucratic innovations in governing large territories that would shape their regions for millennia."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Assyria spent centuries as a second-rank power overshadowed by Babylon and the Bronze Age great kings."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 5,
+      "blurb": "Assyria's iron-and-terror military revolution is the Near Eastern counterpart to the state-formation surge happening, unconnected, in Bronze Age China."
     }
   ],
   "4": [
@@ -61,6 +85,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 10,
       "blurb": "The Fall of Israel in 722 BCE and the deportation of its population was one of the most consequential applications of Assyrian policy. The surviving Kingdom of Judah would endure another century as an Assyrian vassal before Nebuchadnezzar destroyed Jerusalem in 587 BCE."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Assyria invented the template — provinces, deportation, royal roads, standing army — that Persia would inherit and humanize."
     }
   ],
   "6": [
@@ -69,6 +99,12 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 6,
       "blurb": "The Elamites were Mesopotamia's oldest and most persistent eastern rival, based at Susa in southwestern Iran. Their intervention in the Babylonian revolt -- capturing and presumably killing Sennacherib's son Ashur-nadin-shumi -- triggered the chain of events that led Sennacherib to destroy Babylon itself in 689 BCE."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 6,
+      "blurb": "Sennacherib's wars ran on every front at once, including the perennial Elamite one — the eastern rival that never stayed down."
     }
   ],
   "7": [
@@ -95,6 +131,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 1,
       "blurb": "The Persians who filled the vacuum left by Elam's destruction would build an empire that absorbed Assyria's entire administrative toolkit -- provincial governors, road networks, relay stations, intelligence services -- but replaced terror with tolerance. Cyrus the Great's empire was a deliberate repudiation of the Assyrian model."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Ashurbanipal's library and overstretched empire are the apex before the fall — the model and the warning Cyrus's Persia would learn from."
     }
   ],
   "8": [
@@ -121,6 +163,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 12,
       "blurb": "Josiah's death at Megiddo in 609 BCE trying to block Egyptian support for Assyria left Judah fatally weakened. Within a generation, Nebuchadnezzar II would destroy Jerusalem and exile the population to Babylon -- the defining catastrophe of Jewish history, set in motion by the chaotic endgame of the Assyrian Empire."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 12,
+      "blurb": "Nineveh's destruction (612 BCE) by Babylonians and Medes is the most total imperial collapse in ancient history — and the opening for Babylon's last revival."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "Assyria fell so completely it was half-forgotten — the opposite of China's continuous dynastic memory."
     }
   ]
 }
