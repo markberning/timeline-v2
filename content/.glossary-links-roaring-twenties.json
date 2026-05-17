@@ -1,271 +1,1490 @@
 {
   "1": [
-    { "term": "the Great Depression", "matchText": "Great Depression", "wikiSlug": "Great_Depression", "type": "event" },
-    { "term": "the Charleston", "matchText": "doing the Charleston", "wikiSlug": "Charleston_(dance)", "type": "concept" },
-    { "term": "Model T", "matchText": "a Model T, a stock ticker", "wikiSlug": "Ford_Model_T", "type": "concept" },
-    { "term": "Reconstruction", "matchText": "Reconstruction is the subject of the narrative that comes right before this one", "wikiSlug": "Reconstruction_era", "type": "event" },
-    { "term": "the Civil War", "matchText": "after the Civil War", "wikiSlug": "American_Civil_War", "type": "event" },
-    { "term": "Fourteenth Amendment", "matchText": "The Fourteenth and Fifteenth Amendments", "wikiSlug": "Fourteenth_Amendment_to_the_United_States_Constitution", "type": "writing" },
-    { "term": "the first Ku Klux Klan", "matchText": "Ku Klux Klan, then the rifle clubs", "wikiSlug": "Ku_Klux_Klan", "type": "institution" },
-    { "term": "sharecropping", "matchText": "locked Black Southerners into sharecropping", "wikiSlug": "Sharecropping", "type": "concept" },
-    { "term": "lynching", "matchText": "enforced the whole arrangement with lynching", "wikiSlug": "Lynching_in_the_United_States", "type": "concept" },
-    { "term": "Plessy v. Ferguson", "matchText": "in 1896 it ruled", "wikiSlug": "Plessy_v._Ferguson", "type": "event" },
-    { "term": "the Great Migration", "matchText": "drives the", "wikiSlug": "Great_Migration_(African_American)", "type": "event" },
-    { "term": "the Gilded Age", "matchText": "are usually called the", "wikiSlug": "Gilded_Age", "type": "concept" },
-    { "term": "trusts", "matchText": "the giant monopolistic corporations called", "wikiSlug": "Trust_(business)", "type": "concept" },
-    { "term": "the Progressive Era", "matchText": "1900 to 1917, called the", "wikiSlug": "Progressive_Era", "type": "concept" },
-    { "term": "the Federal Reserve", "matchText": "the national central bank created in 1913", "wikiSlug": "Federal_Reserve", "type": "institution" },
-    { "term": "pogroms", "matchText": "the pogroms of the Russian Empire", "wikiSlug": "Pogrom", "type": "concept" },
-    { "term": "the armistice", "matchText": "By the armistice of November 11, 1918", "wikiSlug": "Armistice_of_11_November_1918", "type": "event" },
-    { "term": "Espionage Act of 1917", "matchText": "wartime Espionage Act of 1917", "wikiSlug": "Espionage_Act_of_1917", "type": "writing" },
-    { "term": "Eugene Debs", "matchText": "The Socialist leader Eugene Debs", "wikiSlug": "Eugene_V._Debs", "type": "person" },
-    { "term": "the Russian Revolution", "matchText": "the Russian Revolution gave it a new target", "wikiSlug": "Russian_Revolution", "type": "event" }
+    {
+      "term": "the Great Depression",
+      "matchText": "Great Depression",
+      "wikiSlug": "Great_Depression",
+      "type": "event"
+    },
+    {
+      "term": "the Charleston",
+      "matchText": "doing the Charleston",
+      "wikiSlug": "Charleston_(dance)",
+      "type": "concept"
+    },
+    {
+      "term": "Model T",
+      "matchText": "a Model T, a stock ticker",
+      "wikiSlug": "Ford_Model_T",
+      "type": "concept"
+    },
+    {
+      "term": "Reconstruction",
+      "matchText": "Reconstruction is the subject of the narrative that comes right before this one",
+      "wikiSlug": "Reconstruction_era",
+      "type": "event"
+    },
+    {
+      "term": "the Civil War",
+      "matchText": "after the Civil War",
+      "wikiSlug": "American_Civil_War",
+      "type": "event"
+    },
+    {
+      "term": "Fourteenth Amendment",
+      "matchText": "The Fourteenth and Fifteenth Amendments",
+      "wikiSlug": "Fourteenth_Amendment_to_the_United_States_Constitution",
+      "type": "writing"
+    },
+    {
+      "term": "the first Ku Klux Klan",
+      "matchText": "Ku Klux Klan, then the rifle clubs",
+      "wikiSlug": "Ku_Klux_Klan",
+      "type": "institution"
+    },
+    {
+      "term": "sharecropping",
+      "matchText": "locked Black Southerners into sharecropping",
+      "wikiSlug": "Sharecropping",
+      "type": "concept"
+    },
+    {
+      "term": "lynching",
+      "matchText": "enforced the whole arrangement with lynching",
+      "wikiSlug": "Lynching_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Plessy v. Ferguson",
+      "matchText": "in 1896 it ruled",
+      "wikiSlug": "Plessy_v._Ferguson",
+      "type": "event"
+    },
+    {
+      "term": "the Great Migration",
+      "matchText": "drives the",
+      "wikiSlug": "Great_Migration_(African_American)",
+      "type": "event"
+    },
+    {
+      "term": "the Gilded Age",
+      "matchText": "are usually called the",
+      "wikiSlug": "Gilded_Age",
+      "type": "concept"
+    },
+    {
+      "term": "trusts",
+      "matchText": "the giant monopolistic corporations called",
+      "wikiSlug": "Trust_(business)",
+      "type": "concept"
+    },
+    {
+      "term": "the Progressive Era",
+      "matchText": "1900 to 1917, called the",
+      "wikiSlug": "Progressive_Era",
+      "type": "concept"
+    },
+    {
+      "term": "the Federal Reserve",
+      "matchText": "the national central bank created in 1913",
+      "wikiSlug": "Federal_Reserve",
+      "type": "institution"
+    },
+    {
+      "term": "pogroms",
+      "matchText": "the pogroms of the Russian Empire",
+      "wikiSlug": "Pogrom",
+      "type": "concept"
+    },
+    {
+      "term": "the armistice",
+      "matchText": "By the armistice of November 11, 1918",
+      "wikiSlug": "Armistice_of_11_November_1918",
+      "type": "event"
+    },
+    {
+      "term": "Espionage Act of 1917",
+      "matchText": "wartime Espionage Act of 1917",
+      "wikiSlug": "Espionage_Act_of_1917",
+      "type": "writing"
+    },
+    {
+      "term": "Eugene Debs",
+      "matchText": "The Socialist leader Eugene Debs",
+      "wikiSlug": "Eugene_V._Debs",
+      "type": "person"
+    },
+    {
+      "term": "the Russian Revolution",
+      "matchText": "the Russian Revolution gave it a new target",
+      "wikiSlug": "Russian_Revolution",
+      "type": "event"
+    }
   ],
   "2": [
-    { "term": "the 1918 influenza pandemic", "matchText": "1918 influenza pandemic", "wikiSlug": "Spanish_flu", "type": "event" },
-    { "term": "Spanish flu", "matchText": "not because it came from Spain", "wikiSlug": "Spanish_flu", "type": "concept" },
-    { "term": "Liberty Loan", "matchText": "a giant Liberty Loan war-bond parade", "wikiSlug": "Liberty_bond", "type": "concept" },
-    { "term": "demobilization", "matchText": "demobilization meant the army simply mustered", "wikiSlug": "Demobilization", "type": "concept" },
-    { "term": "general strike", "matchText": "It was the first", "wikiSlug": "General_strike", "type": "concept" },
-    { "term": "organized labor", "matchText": "essentially all", "wikiSlug": "Trade_union", "type": "concept" },
-    { "term": "Bolsheviks", "matchText": "watching Bolsheviks", "wikiSlug": "Bolsheviks", "type": "group" },
-    { "term": "Calvin Coolidge", "matchText": "Vermont-born Republican named", "wikiSlug": "Calvin_Coolidge", "type": "person" },
-    { "term": "Great Steel Strike", "matchText": "There was also the", "wikiSlug": "Steel_strike_of_1919", "type": "event" },
-    { "term": "injunctions", "matchText": "court injunctions", "wikiSlug": "Injunction", "type": "concept" },
-    { "term": "the Nineteenth Amendment", "matchText": "barring the denial of the vote", "wikiSlug": "Nineteenth_Amendment_to_the_United_States_Constitution", "type": "writing" },
-    { "term": "the Equal Rights Amendment", "matchText": "the militant wing that drafted, in 1923, the first", "wikiSlug": "Equal_Rights_Amendment", "type": "writing" },
-    { "term": "League of Women Voters", "matchText": "the moderate League of Women Voters", "wikiSlug": "League_of_Women_Voters", "type": "institution" },
-    { "term": "Woodrow Wilson", "matchText": "the Massachusetts governor", "wikiSlug": "Woodrow_Wilson", "type": "person" }
+    {
+      "term": "the 1918 influenza pandemic",
+      "matchText": "1918 influenza pandemic",
+      "wikiSlug": "Spanish_flu",
+      "type": "event"
+    },
+    {
+      "term": "Spanish flu",
+      "matchText": "not because it came from Spain",
+      "wikiSlug": "Spanish_flu",
+      "type": "concept"
+    },
+    {
+      "term": "Liberty Loan",
+      "matchText": "a giant Liberty Loan war-bond parade",
+      "wikiSlug": "Liberty_bond",
+      "type": "concept"
+    },
+    {
+      "term": "demobilization",
+      "matchText": "demobilization meant the army simply mustered",
+      "wikiSlug": "Demobilization",
+      "type": "concept"
+    },
+    {
+      "term": "general strike",
+      "matchText": "It was the first",
+      "wikiSlug": "General_strike",
+      "type": "concept"
+    },
+    {
+      "term": "organized labor",
+      "matchText": "essentially all",
+      "wikiSlug": "Trade_union",
+      "type": "concept"
+    },
+    {
+      "term": "Bolsheviks",
+      "matchText": "watching Bolsheviks",
+      "wikiSlug": "Bolsheviks",
+      "type": "group"
+    },
+    {
+      "term": "Calvin Coolidge",
+      "matchText": "Vermont-born Republican named",
+      "wikiSlug": "Calvin_Coolidge",
+      "type": "person"
+    },
+    {
+      "term": "Great Steel Strike",
+      "matchText": "There was also the",
+      "wikiSlug": "Steel_strike_of_1919",
+      "type": "event"
+    },
+    {
+      "term": "injunctions",
+      "matchText": "court injunctions",
+      "wikiSlug": "Injunction",
+      "type": "concept"
+    },
+    {
+      "term": "the Nineteenth Amendment",
+      "matchText": "barring the denial of the vote",
+      "wikiSlug": "Nineteenth_Amendment_to_the_United_States_Constitution",
+      "type": "writing"
+    },
+    {
+      "term": "the Equal Rights Amendment",
+      "matchText": "the militant wing that drafted, in 1923, the first",
+      "wikiSlug": "Equal_Rights_Amendment",
+      "type": "writing"
+    },
+    {
+      "term": "League of Women Voters",
+      "matchText": "the moderate League of Women Voters",
+      "wikiSlug": "League_of_Women_Voters",
+      "type": "institution"
+    },
+    {
+      "term": "Woodrow Wilson",
+      "matchText": "the Massachusetts governor",
+      "wikiSlug": "Woodrow_Wilson",
+      "type": "person"
+    }
   ],
   "3": [
-    { "term": "the First Red Scare", "matchText": "The result was the", "wikiSlug": "First_Red_Scare", "type": "event" },
-    { "term": "anarchists", "matchText": "Italian-American anarchists", "wikiSlug": "Anarchism", "type": "concept" },
-    { "term": "Luigi Galleani", "matchText": "who followed", "wikiSlug": "Luigi_Galleani", "type": "person" },
-    { "term": "A. Mitchell Palmer", "matchText": "the U.S. Attorney General", "wikiSlug": "A._Mitchell_Palmer", "type": "person" },
-    { "term": "Felix Frankfurter", "matchText": "the future Supreme Court justice Felix Frankfurter", "wikiSlug": "Felix_Frankfurter", "type": "person" },
-    { "term": "Franklin Roosevelt", "matchText": "Franklin Roosevelt, then the assistant secretary of the Navy", "wikiSlug": "Franklin_D._Roosevelt", "type": "person" },
-    { "term": "the Wall Street bombing", "matchText": "deadliest such attack on American soil to that point", "wikiSlug": "Wall_Street_bombing", "type": "event" },
-    { "term": "the Palmer Raids", "matchText": "carried out the", "wikiSlug": "Palmer_Raids", "type": "event" },
-    { "term": "J. Edgar Hoover", "matchText": "a 24-year-old aide named", "wikiSlug": "J._Edgar_Hoover", "type": "person" },
-    { "term": "the FBI", "matchText": "the federal investigative bureau that became the", "wikiSlug": "Federal_Bureau_of_Investigation", "type": "institution" },
-    { "term": "Emma Goldman", "matchText": "among them", "wikiSlug": "Emma_Goldman", "type": "person" },
-    { "term": "the American Civil Liberties Union", "matchText": "was founded in 1920, specifically in response to the wartime sedition prosecutions", "wikiSlug": "American_Civil_Liberties_Union", "type": "institution" },
-    { "term": "ballistics", "matchText": "ballistics analysis", "wikiSlug": "Forensic_firearm_examination", "type": "concept" },
-    { "term": "the NAACP", "matchText": "an official of the", "wikiSlug": "NAACP", "type": "institution" },
-    { "term": "the Red Summer", "matchText": "named the season the", "wikiSlug": "Red_Summer", "type": "event" },
-    { "term": "Elaine, Arkansas", "matchText": "Elaine, Arkansas", "wikiSlug": "Elaine_massacre", "type": "place" },
-    { "term": "Tulsa, Oklahoma", "matchText": "Tulsa, Oklahoma", "wikiSlug": "Tulsa_race_massacre", "type": "place" }
+    {
+      "term": "the First Red Scare",
+      "matchText": "The result was the",
+      "wikiSlug": "First_Red_Scare",
+      "type": "event"
+    },
+    {
+      "term": "anarchists",
+      "matchText": "Italian-American anarchists",
+      "wikiSlug": "Anarchism",
+      "type": "concept"
+    },
+    {
+      "term": "Luigi Galleani",
+      "matchText": "who followed",
+      "wikiSlug": "Luigi_Galleani",
+      "type": "person"
+    },
+    {
+      "term": "A. Mitchell Palmer",
+      "matchText": "the U.S. Attorney General",
+      "wikiSlug": "A._Mitchell_Palmer",
+      "type": "person"
+    },
+    {
+      "term": "Felix Frankfurter",
+      "matchText": "the future Supreme Court justice Felix Frankfurter",
+      "wikiSlug": "Felix_Frankfurter",
+      "type": "person"
+    },
+    {
+      "term": "Franklin Roosevelt",
+      "matchText": "Franklin Roosevelt, then the assistant secretary of the Navy",
+      "wikiSlug": "Franklin_D._Roosevelt",
+      "type": "person"
+    },
+    {
+      "term": "the Wall Street bombing",
+      "matchText": "deadliest such attack on American soil to that point",
+      "wikiSlug": "Wall_Street_bombing",
+      "type": "event"
+    },
+    {
+      "term": "the Palmer Raids",
+      "matchText": "carried out the",
+      "wikiSlug": "Palmer_Raids",
+      "type": "event"
+    },
+    {
+      "term": "J. Edgar Hoover",
+      "matchText": "a 24-year-old aide named",
+      "wikiSlug": "J._Edgar_Hoover",
+      "type": "person"
+    },
+    {
+      "term": "the FBI",
+      "matchText": "the federal investigative bureau that became the",
+      "wikiSlug": "Federal_Bureau_of_Investigation",
+      "type": "institution"
+    },
+    {
+      "term": "Emma Goldman",
+      "matchText": "among them",
+      "wikiSlug": "Emma_Goldman",
+      "type": "person"
+    },
+    {
+      "term": "the American Civil Liberties Union",
+      "matchText": "was founded in 1920, specifically in response to the wartime sedition prosecutions",
+      "wikiSlug": "American_Civil_Liberties_Union",
+      "type": "institution"
+    },
+    {
+      "term": "ballistics",
+      "matchText": "ballistics analysis",
+      "wikiSlug": "Forensic_firearm_examination",
+      "type": "concept"
+    },
+    {
+      "term": "the NAACP",
+      "matchText": "an official of the",
+      "wikiSlug": "NAACP",
+      "type": "institution"
+    },
+    {
+      "term": "the Red Summer",
+      "matchText": "named the season the",
+      "wikiSlug": "Red_Summer",
+      "type": "event"
+    },
+    {
+      "term": "Elaine, Arkansas",
+      "matchText": "Elaine, Arkansas",
+      "wikiSlug": "Elaine_massacre",
+      "type": "place"
+    },
+    {
+      "term": "Tulsa, Oklahoma",
+      "matchText": "Tulsa, Oklahoma",
+      "wikiSlug": "Tulsa_race_massacre",
+      "type": "place"
+    },
+    {
+      "term": "First Red Scare",
+      "matchText": "Red Scare",
+      "wikiSlug": "First_Red_Scare",
+      "type": "concept"
+    }
   ],
   "4": [
-    { "term": "Warren Harding", "matchText": "a Republican senator from Ohio named", "wikiSlug": "Warren_G._Harding", "type": "person" },
-    { "term": "normalcy", "matchText": "was not, as legend later had it, a word Harding invented by mistake", "wikiSlug": "Return_to_normalcy", "type": "concept" },
-    { "term": "the League of Nations", "matchText": "the U.S. into his League of Nations", "wikiSlug": "League_of_Nations", "type": "institution" },
-    { "term": "Treaty of Versailles", "matchText": "the 1919 Treaty of Versailles", "wikiSlug": "Treaty_of_Versailles", "type": "writing" },
-    { "term": "landslide", "matchText": "the largest popular-vote landslide", "wikiSlug": "Landslide_victory", "type": "concept" },
-    { "term": "Andrew Mellon", "matchText": "Harding appointed", "wikiSlug": "Andrew_Mellon", "type": "person" },
-    { "term": "supply-side", "matchText": "the", "wikiSlug": "Supply-side_economics", "type": "concept" },
-    { "term": "Herbert Hoover", "matchText": "the famous engineer who had run Belgian war relief", "wikiSlug": "Herbert_Hoover", "type": "person" },
-    { "term": "the radio spectrum", "matchText": "the regulation of the new radio spectrum", "wikiSlug": "Radio_spectrum", "type": "concept" },
-    { "term": "Charles Evans Hughes", "matchText": "Harding had", "wikiSlug": "Charles_Evans_Hughes", "type": "person" },
-    { "term": "Washington Naval Conference", "matchText": "who hosted the 1921–22", "wikiSlug": "Washington_Naval_Conference", "type": "event" },
-    { "term": "the Ohio Gang", "matchText": "the press came to call the", "wikiSlug": "Ohio_Gang", "type": "group" },
-    { "term": "the pardon power", "matchText": "The pardon power is the president's constitutional authority", "wikiSlug": "Federal_pardons_in_the_United_States", "type": "concept" },
-    { "term": "Veterans' Bureau", "matchText": "put in charge of the brand-new Veterans' Bureau", "wikiSlug": "United_States_Department_of_Veterans_Affairs", "type": "institution" },
-    { "term": "Teapot Dome", "matchText": "the scandal that gave the decade its byword for corruption was", "wikiSlug": "Teapot_Dome_scandal", "type": "event" },
-    { "term": "Albert Fall", "matchText": "The Secretary of the Interior, Albert Fall", "wikiSlug": "Albert_B._Fall", "type": "person" }
+    {
+      "term": "Warren Harding",
+      "matchText": "a Republican senator from Ohio named",
+      "wikiSlug": "Warren_G._Harding",
+      "type": "person"
+    },
+    {
+      "term": "normalcy",
+      "matchText": "was not, as legend later had it, a word Harding invented by mistake",
+      "wikiSlug": "Return_to_normalcy",
+      "type": "concept"
+    },
+    {
+      "term": "the League of Nations",
+      "matchText": "the U.S. into his League of Nations",
+      "wikiSlug": "League_of_Nations",
+      "type": "institution"
+    },
+    {
+      "term": "Treaty of Versailles",
+      "matchText": "the 1919 Treaty of Versailles",
+      "wikiSlug": "Treaty_of_Versailles",
+      "type": "writing"
+    },
+    {
+      "term": "landslide",
+      "matchText": "the largest popular-vote landslide",
+      "wikiSlug": "Landslide_victory",
+      "type": "concept"
+    },
+    {
+      "term": "Andrew Mellon",
+      "matchText": "Harding appointed",
+      "wikiSlug": "Andrew_Mellon",
+      "type": "person"
+    },
+    {
+      "term": "supply-side",
+      "matchText": "the",
+      "wikiSlug": "Supply-side_economics",
+      "type": "concept"
+    },
+    {
+      "term": "Herbert Hoover",
+      "matchText": "the famous engineer who had run Belgian war relief",
+      "wikiSlug": "Herbert_Hoover",
+      "type": "person"
+    },
+    {
+      "term": "the radio spectrum",
+      "matchText": "the regulation of the new radio spectrum",
+      "wikiSlug": "Radio_spectrum",
+      "type": "concept"
+    },
+    {
+      "term": "Charles Evans Hughes",
+      "matchText": "Harding had",
+      "wikiSlug": "Charles_Evans_Hughes",
+      "type": "person"
+    },
+    {
+      "term": "Washington Naval Conference",
+      "matchText": "who hosted the 1921–22",
+      "wikiSlug": "Washington_Naval_Conference",
+      "type": "event"
+    },
+    {
+      "term": "the Ohio Gang",
+      "matchText": "the press came to call the",
+      "wikiSlug": "Ohio_Gang",
+      "type": "group"
+    },
+    {
+      "term": "the pardon power",
+      "matchText": "The pardon power is the president's constitutional authority",
+      "wikiSlug": "Federal_pardons_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Veterans' Bureau",
+      "matchText": "put in charge of the brand-new Veterans' Bureau",
+      "wikiSlug": "United_States_Department_of_Veterans_Affairs",
+      "type": "institution"
+    },
+    {
+      "term": "Teapot Dome",
+      "matchText": "the scandal that gave the decade its byword for corruption was",
+      "wikiSlug": "Teapot_Dome_scandal",
+      "type": "event"
+    },
+    {
+      "term": "Albert Fall",
+      "matchText": "The Secretary of the Interior, Albert Fall",
+      "wikiSlug": "Albert_B._Fall",
+      "type": "person"
+    }
   ],
   "5": [
-    { "term": "Calvin Coolidge", "matchText": "vice president, was visiting his father's farmhouse", "wikiSlug": "Calvin_Coolidge", "type": "person" },
-    { "term": "notary public", "matchText": "was a notary public", "wikiSlug": "Notary_public", "type": "concept" },
-    { "term": "Silent Cal", "matchText": "almost aggressively silent", "wikiSlug": "Calvin_Coolidge", "type": "person" },
-    { "term": "the business of America is business", "matchText": "the business of America is business", "wikiSlug": "Calvin_Coolidge", "type": "concept" },
-    { "term": "Revenue Act", "matchText": "the big 1926 Revenue Act", "wikiSlug": "Revenue_Act_of_1926", "type": "writing" },
-    { "term": "McNary–Haugen", "matchText": "He twice vetoed the", "wikiSlug": "McNary–Haugen_Farm_Relief_Bill", "type": "writing" },
-    { "term": "Robert La Follette", "matchText": "a Progressive third-party candidate, Robert La Follette", "wikiSlug": "Robert_M._La_Follette", "type": "person" },
-    { "term": "gross national product", "matchText": "The gross national product", "wikiSlug": "Gross_national_income", "type": "concept" },
-    { "term": "the Soviet Union", "matchText": "The Soviet Union, in this same decade", "wikiSlug": "Soviet_Union", "type": "place" },
-    { "term": "the sick industries", "matchText": "coal, textiles, New England manufacturing", "wikiSlug": "Coal_industry", "type": "concept" },
-    { "term": "Battle of Blair Mountain", "matchText": "the largest armed labor uprising in American history", "wikiSlug": "Battle_of_Blair_Mountain", "type": "event" },
-    { "term": "the crop-lien system", "matchText": "sharecropping and the crop-lien system", "wikiSlug": "Crop-lien_system", "type": "concept" }
+    {
+      "term": "Calvin Coolidge",
+      "matchText": "vice president, was visiting his father's farmhouse",
+      "wikiSlug": "Calvin_Coolidge",
+      "type": "person"
+    },
+    {
+      "term": "notary public",
+      "matchText": "was a notary public",
+      "wikiSlug": "Notary_public",
+      "type": "concept"
+    },
+    {
+      "term": "Silent Cal",
+      "matchText": "almost aggressively silent",
+      "wikiSlug": "Calvin_Coolidge",
+      "type": "person"
+    },
+    {
+      "term": "the business of America is business",
+      "matchText": "the business of America is business",
+      "wikiSlug": "Calvin_Coolidge",
+      "type": "concept"
+    },
+    {
+      "term": "Revenue Act",
+      "matchText": "the big 1926 Revenue Act",
+      "wikiSlug": "Revenue_Act_of_1926",
+      "type": "writing"
+    },
+    {
+      "term": "McNary–Haugen",
+      "matchText": "He twice vetoed the",
+      "wikiSlug": "McNary–Haugen_Farm_Relief_Bill",
+      "type": "writing"
+    },
+    {
+      "term": "Robert La Follette",
+      "matchText": "a Progressive third-party candidate, Robert La Follette",
+      "wikiSlug": "Robert_M._La_Follette",
+      "type": "person"
+    },
+    {
+      "term": "gross national product",
+      "matchText": "The gross national product",
+      "wikiSlug": "Gross_national_income",
+      "type": "concept"
+    },
+    {
+      "term": "the Soviet Union",
+      "matchText": "The Soviet Union, in this same decade",
+      "wikiSlug": "Soviet_Union",
+      "type": "place"
+    },
+    {
+      "term": "the sick industries",
+      "matchText": "coal, textiles, New England manufacturing",
+      "wikiSlug": "Coal_industry",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Blair Mountain",
+      "matchText": "the largest armed labor uprising in American history",
+      "wikiSlug": "Battle_of_Blair_Mountain",
+      "type": "event"
+    },
+    {
+      "term": "the crop-lien system",
+      "matchText": "sharecropping and the crop-lien system",
+      "wikiSlug": "Crop-lien_system",
+      "type": "concept"
+    }
   ],
   "6": [
-    { "term": "the automobile", "matchText": "the way the car was built is the way everything in the consumer economy was eventually built", "wikiSlug": "History_of_the_automobile", "type": "concept" },
-    { "term": "Henry Ford", "matchText": "Start with", "wikiSlug": "Henry_Ford", "type": "person" },
-    { "term": "the assembly line", "matchText": "as Ford perfected it works on a single principle", "wikiSlug": "Assembly_line", "type": "concept" },
-    { "term": "the Model T", "matchText": "the one model Ford built", "wikiSlug": "Ford_Model_T", "type": "concept" },
-    { "term": "the five-dollar day", "matchText": "five dollars a day", "wikiSlug": "Five-dollar_day", "type": "concept" },
-    { "term": "mass production", "matchText": "mass production making goods cheap enough for the masses", "wikiSlug": "Mass_production", "type": "concept" },
-    { "term": "Alfred Sloan", "matchText": "The man who saw what came next was", "wikiSlug": "Alfred_P._Sloan", "type": "person" },
-    { "term": "General Motors", "matchText": "who took over", "wikiSlug": "General_Motors", "type": "institution" },
-    { "term": "the annual model change", "matchText": "GM introduced the", "wikiSlug": "Planned_obsolescence", "type": "concept" },
-    { "term": "planned obsolescence", "matchText": "the technique now called planned, or really", "wikiSlug": "Planned_obsolescence", "type": "concept" },
-    { "term": "the Model A", "matchText": "completely retool from the Model T to the new", "wikiSlug": "Ford_Model_A_(1927–1931)", "type": "concept" },
-    { "term": "the suburb", "matchText": "the change worth opening up is the", "wikiSlug": "Suburb", "type": "concept" },
-    { "term": "zoning", "matchText": "protected by", "wikiSlug": "Zoning_in_the_United_States", "type": "concept" },
-    { "term": "Federal-Aid Highway Act of 1921", "matchText": "the", "wikiSlug": "Federal_Aid_Highway_Act_of_1921", "type": "writing" },
-    { "term": "Route 66", "matchText": "the storied Chicago-to-Los-Angeles", "wikiSlug": "U.S._Route_66", "type": "place" },
-    { "term": "Middletown", "matchText": "published in 1929 as", "wikiSlug": "Middletown_studies", "type": "writing" }
+    {
+      "term": "the automobile",
+      "matchText": "the way the car was built is the way everything in the consumer economy was eventually built",
+      "wikiSlug": "History_of_the_automobile",
+      "type": "concept"
+    },
+    {
+      "term": "Henry Ford",
+      "matchText": "Start with",
+      "wikiSlug": "Henry_Ford",
+      "type": "person"
+    },
+    {
+      "term": "the assembly line",
+      "matchText": "as Ford perfected it works on a single principle",
+      "wikiSlug": "Assembly_line",
+      "type": "concept"
+    },
+    {
+      "term": "the Model T",
+      "matchText": "the one model Ford built",
+      "wikiSlug": "Ford_Model_T",
+      "type": "concept"
+    },
+    {
+      "term": "the five-dollar day",
+      "matchText": "five dollars a day",
+      "wikiSlug": "Five-dollar_day",
+      "type": "concept"
+    },
+    {
+      "term": "mass production",
+      "matchText": "mass production making goods cheap enough for the masses",
+      "wikiSlug": "Mass_production",
+      "type": "concept"
+    },
+    {
+      "term": "Alfred Sloan",
+      "matchText": "The man who saw what came next was",
+      "wikiSlug": "Alfred_P._Sloan",
+      "type": "person"
+    },
+    {
+      "term": "General Motors",
+      "matchText": "who took over",
+      "wikiSlug": "General_Motors",
+      "type": "institution"
+    },
+    {
+      "term": "the annual model change",
+      "matchText": "GM introduced the",
+      "wikiSlug": "Planned_obsolescence",
+      "type": "concept"
+    },
+    {
+      "term": "planned obsolescence",
+      "matchText": "the technique now called planned, or really",
+      "wikiSlug": "Planned_obsolescence",
+      "type": "concept"
+    },
+    {
+      "term": "the Model A",
+      "matchText": "completely retool from the Model T to the new",
+      "wikiSlug": "Ford_Model_A_(1927–1931)",
+      "type": "concept"
+    },
+    {
+      "term": "the suburb",
+      "matchText": "the change worth opening up is the",
+      "wikiSlug": "Suburb",
+      "type": "concept"
+    },
+    {
+      "term": "zoning",
+      "matchText": "protected by",
+      "wikiSlug": "Zoning_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Federal-Aid Highway Act of 1921",
+      "matchText": "the",
+      "wikiSlug": "Federal_Aid_Highway_Act_of_1921",
+      "type": "writing"
+    },
+    {
+      "term": "Route 66",
+      "matchText": "the storied Chicago-to-Los-Angeles",
+      "wikiSlug": "U.S._Route_66",
+      "type": "place"
+    },
+    {
+      "term": "Middletown",
+      "matchText": "published in 1929 as",
+      "wikiSlug": "Middletown_studies",
+      "type": "writing"
+    }
   ],
   "7": [
-    { "term": "consumer debt", "matchText": "consumer debt carried a moral stigma", "wikiSlug": "Consumer_debt", "type": "concept" },
-    { "term": "the installment plan", "matchText": "through the", "wikiSlug": "Hire_purchase", "type": "concept" },
-    { "term": "buying on margin", "matchText": "the same logic as buying stock", "wikiSlug": "Margin_(finance)", "type": "concept" },
-    { "term": "advertising", "matchText": "gave them the wanting", "wikiSlug": "History_of_advertising", "type": "concept" },
-    { "term": "Madison Avenue", "matchText": "much of it on Madison Avenue", "wikiSlug": "Madison_Avenue", "type": "place" },
-    { "term": "Listerine", "matchText": "The textbook case is Listerine", "wikiSlug": "Listerine", "type": "concept" },
-    { "term": "halitosis", "matchText": "an obscure quasi-medical word for bad breath", "wikiSlug": "Bad_breath", "type": "concept" },
-    { "term": "Bruce Barton", "matchText": "the ad executive Bruce Barton", "wikiSlug": "Bruce_Fairchild_Barton", "type": "person" },
-    { "term": "The Man Nobody Knows", "matchText": "a 1925 bestseller by the ad executive Bruce Barton", "wikiSlug": "The_Man_Nobody_Knows", "type": "writing" },
-    { "term": "the chain store", "matchText": "the answer changed the American main street permanently", "wikiSlug": "Chain_store", "type": "concept" },
-    { "term": "A&P", "matchText": "A&P in groceries opened thousands of identical stores", "wikiSlug": "The_Great_Atlantic_%26_Pacific_Tea_Company", "type": "institution" },
-    { "term": "Piggly Wiggly", "matchText": "Piggly Wiggly invented the self-service aisle", "wikiSlug": "Piggly_Wiggly", "type": "institution" },
-    { "term": "electrification", "matchText": "the modern home a place worth filling with appliances", "wikiSlug": "Electrification", "type": "concept" },
-    { "term": "the mass consumer economy", "matchText": "This is the first", "wikiSlug": "Consumerism", "type": "concept" }
+    {
+      "term": "consumer debt",
+      "matchText": "consumer debt carried a moral stigma",
+      "wikiSlug": "Consumer_debt",
+      "type": "concept"
+    },
+    {
+      "term": "the installment plan",
+      "matchText": "through the",
+      "wikiSlug": "Hire_purchase",
+      "type": "concept"
+    },
+    {
+      "term": "buying on margin",
+      "matchText": "the same logic as buying stock",
+      "wikiSlug": "Margin_(finance)",
+      "type": "concept"
+    },
+    {
+      "term": "advertising",
+      "matchText": "gave them the wanting",
+      "wikiSlug": "History_of_advertising",
+      "type": "concept"
+    },
+    {
+      "term": "Madison Avenue",
+      "matchText": "much of it on Madison Avenue",
+      "wikiSlug": "Madison_Avenue",
+      "type": "place"
+    },
+    {
+      "term": "Listerine",
+      "matchText": "The textbook case is Listerine",
+      "wikiSlug": "Listerine",
+      "type": "concept"
+    },
+    {
+      "term": "halitosis",
+      "matchText": "an obscure quasi-medical word for bad breath",
+      "wikiSlug": "Bad_breath",
+      "type": "concept"
+    },
+    {
+      "term": "Bruce Barton",
+      "matchText": "the ad executive Bruce Barton",
+      "wikiSlug": "Bruce_Fairchild_Barton",
+      "type": "person"
+    },
+    {
+      "term": "The Man Nobody Knows",
+      "matchText": "a 1925 bestseller by the ad executive Bruce Barton",
+      "wikiSlug": "The_Man_Nobody_Knows",
+      "type": "writing"
+    },
+    {
+      "term": "the chain store",
+      "matchText": "the answer changed the American main street permanently",
+      "wikiSlug": "Chain_store",
+      "type": "concept"
+    },
+    {
+      "term": "A&P",
+      "matchText": "A&P in groceries opened thousands of identical stores",
+      "wikiSlug": "The_Great_Atlantic_%26_Pacific_Tea_Company",
+      "type": "institution"
+    },
+    {
+      "term": "Piggly Wiggly",
+      "matchText": "Piggly Wiggly invented the self-service aisle",
+      "wikiSlug": "Piggly_Wiggly",
+      "type": "institution"
+    },
+    {
+      "term": "electrification",
+      "matchText": "the modern home a place worth filling with appliances",
+      "wikiSlug": "Electrification",
+      "type": "concept"
+    },
+    {
+      "term": "the mass consumer economy",
+      "matchText": "This is the first",
+      "wikiSlug": "Consumerism",
+      "type": "concept"
+    }
   ],
   "8": [
-    { "term": "KDKA", "matchText": "the call letters", "wikiSlug": "KDKA_(AM)", "type": "institution" },
-    { "term": "the radio craze", "matchText": "a piece of furniture in roughly a third of American homes", "wikiSlug": "Golden_Age_of_Radio", "type": "concept" },
-    { "term": "the BBC", "matchText": "Britain built its national broadcaster, the BBC", "wikiSlug": "BBC", "type": "institution" },
-    { "term": "the Radio Act of 1927", "matchText": "was resolved by the", "wikiSlug": "Radio_Act_of_1927", "type": "writing" },
-    { "term": "NBC", "matchText": "RCA launched the", "wikiSlug": "NBC", "type": "institution" },
-    { "term": "CBS", "matchText": "followed in 1927 and was bought the next year by William Paley", "wikiSlug": "CBS", "type": "institution" },
-    { "term": "William Paley", "matchText": "bought the next year by William Paley", "wikiSlug": "William_S._Paley", "type": "person" },
-    { "term": "the studio system", "matchText": "the American film industry had consolidated into the", "wikiSlug": "Studio_system", "type": "concept" },
-    { "term": "the movie palace", "matchText": "The lavish", "wikiSlug": "Movie_palace", "type": "concept" },
-    { "term": "Fatty Arbuckle", "matchText": "The comedian Roscoe \"Fatty\" Arbuckle", "wikiSlug": "Roscoe_Arbuckle", "type": "person" },
-    { "term": "Rudolph Valentino", "matchText": "When the romantic idol", "wikiSlug": "Rudolph_Valentino", "type": "person" },
-    { "term": "Will Hays", "matchText": "the Republican politician Will Hays", "wikiSlug": "Will_H._Hays", "type": "person" },
-    { "term": "the Production Code", "matchText": "his office grew into the", "wikiSlug": "Motion_Picture_Production_Code", "type": "writing" },
-    { "term": "The Jazz Singer", "matchText": "the film that killed the silent era", "wikiSlug": "The_Jazz_Singer", "type": "writing" },
-    { "term": "Al Jolson", "matchText": "the most quoted of them Al Jolson's ad-libbed", "wikiSlug": "Al_Jolson", "type": "person" },
-    { "term": "blackface", "matchText": "a white star, Jolson, in", "wikiSlug": "Blackface", "type": "concept" },
-    { "term": "Amos 'n' Andy", "matchText": "network radio's first national smash", "wikiSlug": "Amos_%27n%27_Andy", "type": "concept" }
+    {
+      "term": "KDKA",
+      "matchText": "the call letters",
+      "wikiSlug": "KDKA_(AM)",
+      "type": "institution"
+    },
+    {
+      "term": "the radio craze",
+      "matchText": "a piece of furniture in roughly a third of American homes",
+      "wikiSlug": "Golden_Age_of_Radio",
+      "type": "concept"
+    },
+    {
+      "term": "the BBC",
+      "matchText": "Britain built its national broadcaster, the BBC",
+      "wikiSlug": "BBC",
+      "type": "institution"
+    },
+    {
+      "term": "the Radio Act of 1927",
+      "matchText": "was resolved by the",
+      "wikiSlug": "Radio_Act_of_1927",
+      "type": "writing"
+    },
+    {
+      "term": "NBC",
+      "matchText": "RCA launched the",
+      "wikiSlug": "NBC",
+      "type": "institution"
+    },
+    {
+      "term": "CBS",
+      "matchText": "followed in 1927 and was bought the next year by William Paley",
+      "wikiSlug": "CBS",
+      "type": "institution"
+    },
+    {
+      "term": "William Paley",
+      "matchText": "bought the next year by William Paley",
+      "wikiSlug": "William_S._Paley",
+      "type": "person"
+    },
+    {
+      "term": "the studio system",
+      "matchText": "the American film industry had consolidated into the",
+      "wikiSlug": "Studio_system",
+      "type": "concept"
+    },
+    {
+      "term": "the movie palace",
+      "matchText": "The lavish",
+      "wikiSlug": "Movie_palace",
+      "type": "concept"
+    },
+    {
+      "term": "Fatty Arbuckle",
+      "matchText": "The comedian Roscoe \"Fatty\" Arbuckle",
+      "wikiSlug": "Roscoe_Arbuckle",
+      "type": "person"
+    },
+    {
+      "term": "Rudolph Valentino",
+      "matchText": "When the romantic idol",
+      "wikiSlug": "Rudolph_Valentino",
+      "type": "person"
+    },
+    {
+      "term": "Will Hays",
+      "matchText": "the Republican politician Will Hays",
+      "wikiSlug": "Will_H._Hays",
+      "type": "person"
+    },
+    {
+      "term": "the Production Code",
+      "matchText": "his office grew into the",
+      "wikiSlug": "Motion_Picture_Production_Code",
+      "type": "writing"
+    },
+    {
+      "term": "The Jazz Singer",
+      "matchText": "the film that killed the silent era",
+      "wikiSlug": "The_Jazz_Singer",
+      "type": "writing"
+    },
+    {
+      "term": "Al Jolson",
+      "matchText": "the most quoted of them Al Jolson's ad-libbed",
+      "wikiSlug": "Al_Jolson",
+      "type": "person"
+    },
+    {
+      "term": "blackface",
+      "matchText": "a white star, Jolson, in",
+      "wikiSlug": "Blackface",
+      "type": "concept"
+    },
+    {
+      "term": "Amos 'n' Andy",
+      "matchText": "network radio's first national smash",
+      "wikiSlug": "Amos_%27n%27_Andy",
+      "type": "concept"
+    }
   ],
   "9": [
-    { "term": "Chinese Exclusion Act", "matchText": "the Chinese Exclusion Act of 1882", "wikiSlug": "Chinese_Exclusion_Act", "type": "writing" },
-    { "term": "nativism", "matchText": "the postwar fusion of anti-immigrant", "wikiSlug": "Nativism_(politics)", "type": "concept" },
-    { "term": "100% Americanism", "matchText": "a single movement that called itself", "wikiSlug": "Americanization_(immigration)", "type": "concept" },
-    { "term": "the Know-Nothings", "matchText": "the Know-Nothings of the 1850s", "wikiSlug": "Know_Nothing", "type": "group" },
-    { "term": "the quota", "matchText": "The legal mechanism was the", "wikiSlug": "Immigration_Act_of_1924", "type": "concept" },
-    { "term": "Emergency Quota Act of 1921", "matchText": "the first move, the", "wikiSlug": "Emergency_Quota_Act", "type": "writing" },
-    { "term": "the Immigration Act of 1924", "matchText": "so the permanent law, the", "wikiSlug": "Immigration_Act_of_1924", "type": "writing" },
-    { "term": "Johnson–Reed Act", "matchText": "the", "wikiSlug": "Immigration_Act_of_1924", "type": "writing" },
-    { "term": "the National Origins Formula", "matchText": "took final effect in 1929", "wikiSlug": "National_Origins_Formula", "type": "concept" },
-    { "term": "naturalization", "matchText": "a 1790 statute had limited naturalization", "wikiSlug": "Naturalization_Act_of_1790", "type": "concept" },
-    { "term": "eugenics", "matchText": "a science that was entirely mainstream in the twenties", "wikiSlug": "Eugenics_in_the_United_States", "type": "concept" },
-    { "term": "Buck v. Bell", "matchText": "the United States Supreme Court itself, in", "wikiSlug": "Buck_v._Bell", "type": "event" },
-    { "term": "Oliver Wendell Holmes", "matchText": "Justice Oliver Wendell Holmes", "wikiSlug": "Oliver_Wendell_Holmes_Jr.", "type": "person" },
-    { "term": "the Indian Citizenship Act of 1924", "matchText": "finally granted U.S. citizenship to all Native Americans born in the country", "wikiSlug": "Indian_Citizenship_Act", "type": "writing" }
+    {
+      "term": "Chinese Exclusion Act",
+      "matchText": "the Chinese Exclusion Act of 1882",
+      "wikiSlug": "Chinese_Exclusion_Act",
+      "type": "writing"
+    },
+    {
+      "term": "nativism",
+      "matchText": "the postwar fusion of anti-immigrant",
+      "wikiSlug": "Nativism_(politics)",
+      "type": "concept"
+    },
+    {
+      "term": "100% Americanism",
+      "matchText": "a single movement that called itself",
+      "wikiSlug": "Americanization_(immigration)",
+      "type": "concept"
+    },
+    {
+      "term": "the Know-Nothings",
+      "matchText": "the Know-Nothings of the 1850s",
+      "wikiSlug": "Know_Nothing",
+      "type": "group"
+    },
+    {
+      "term": "the quota",
+      "matchText": "The legal mechanism was the",
+      "wikiSlug": "Immigration_Act_of_1924",
+      "type": "concept"
+    },
+    {
+      "term": "Emergency Quota Act of 1921",
+      "matchText": "the first move, the",
+      "wikiSlug": "Emergency_Quota_Act",
+      "type": "writing"
+    },
+    {
+      "term": "the Immigration Act of 1924",
+      "matchText": "so the permanent law, the",
+      "wikiSlug": "Immigration_Act_of_1924",
+      "type": "writing"
+    },
+    {
+      "term": "Johnson–Reed Act",
+      "matchText": "the",
+      "wikiSlug": "Immigration_Act_of_1924",
+      "type": "writing"
+    },
+    {
+      "term": "the National Origins Formula",
+      "matchText": "took final effect in 1929",
+      "wikiSlug": "National_Origins_Formula",
+      "type": "concept"
+    },
+    {
+      "term": "naturalization",
+      "matchText": "a 1790 statute had limited naturalization",
+      "wikiSlug": "Naturalization_Act_of_1790",
+      "type": "concept"
+    },
+    {
+      "term": "eugenics",
+      "matchText": "a science that was entirely mainstream in the twenties",
+      "wikiSlug": "Eugenics_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Buck v. Bell",
+      "matchText": "the United States Supreme Court itself, in",
+      "wikiSlug": "Buck_v._Bell",
+      "type": "event"
+    },
+    {
+      "term": "Oliver Wendell Holmes",
+      "matchText": "Justice Oliver Wendell Holmes",
+      "wikiSlug": "Oliver_Wendell_Holmes_Jr.",
+      "type": "person"
+    },
+    {
+      "term": "the Indian Citizenship Act of 1924",
+      "matchText": "finally granted U.S. citizenship to all Native Americans born in the country",
+      "wikiSlug": "Indian_Citizenship_Act",
+      "type": "writing"
+    }
   ],
   "10": [
-    { "term": "the Ku Klux Klan", "matchText": "They were the", "wikiSlug": "Ku_Klux_Klan", "type": "institution" },
-    { "term": "the first Klan", "matchText": "the Reconstruction-era terrorist insurgency of the 1860s", "wikiSlug": "Ku_Klux_Klan", "type": "institution" },
-    { "term": "the second Klan", "matchText": "The Klan of", "wikiSlug": "Ku_Klux_Klan", "type": "institution" },
-    { "term": "Stone Mountain", "matchText": "a 1915 ceremony on Stone Mountain", "wikiSlug": "Stone_Mountain", "type": "place" },
-    { "term": "The Birth of a Nation", "matchText": "had rewritten the first Klan as heroic saviors", "wikiSlug": "The_Birth_of_a_Nation", "type": "writing" },
-    { "term": "the Lost Cause", "matchText": "the version of Reconstruction that the Lost Cause", "wikiSlug": "Lost_Cause_of_the_Confederacy", "type": "concept" },
-    { "term": "the Dunning School", "matchText": "the academic Dunning School had already installed in textbooks", "wikiSlug": "Dunning_School", "type": "concept" },
-    { "term": "100% Americanism", "matchText": "with a costume, a fee schedule, and a national sales force", "wikiSlug": "Americanization_(immigration)", "type": "concept" },
-    { "term": "Mer Rouge, Louisiana", "matchText": "in Mer Rouge, Louisiana", "wikiSlug": "Mer_Rouge,_Louisiana", "type": "place" },
-    { "term": "Indiana", "matchText": "It effectively controlled the government of", "wikiSlug": "Indiana", "type": "place" },
-    { "term": "platform", "matchText": "A party's national convention adopts a", "wikiSlug": "Party_platform", "type": "concept" },
-    { "term": "the 1924 Democratic convention", "matchText": "at the 1924 Democratic convention in New York", "wikiSlug": "1924_Democratic_National_Convention", "type": "event" },
-    { "term": "D. C. Stephenson", "matchText": "held the title of Grand Dragon", "wikiSlug": "D._C._Stephenson", "type": "person" },
-    { "term": "Grand Dragon", "matchText": "the Klan's chief officer for Indiana", "wikiSlug": "Grand_Dragon", "type": "concept" }
+    {
+      "term": "the Ku Klux Klan",
+      "matchText": "They were the",
+      "wikiSlug": "Ku_Klux_Klan",
+      "type": "institution"
+    },
+    {
+      "term": "the first Klan",
+      "matchText": "the Reconstruction-era terrorist insurgency of the 1860s",
+      "wikiSlug": "Ku_Klux_Klan",
+      "type": "institution"
+    },
+    {
+      "term": "the second Klan",
+      "matchText": "The Klan of",
+      "wikiSlug": "Ku_Klux_Klan",
+      "type": "institution"
+    },
+    {
+      "term": "Stone Mountain",
+      "matchText": "a 1915 ceremony on Stone Mountain",
+      "wikiSlug": "Stone_Mountain",
+      "type": "place"
+    },
+    {
+      "term": "The Birth of a Nation",
+      "matchText": "had rewritten the first Klan as heroic saviors",
+      "wikiSlug": "The_Birth_of_a_Nation",
+      "type": "writing"
+    },
+    {
+      "term": "the Lost Cause",
+      "matchText": "the version of Reconstruction that the Lost Cause",
+      "wikiSlug": "Lost_Cause_of_the_Confederacy",
+      "type": "concept"
+    },
+    {
+      "term": "the Dunning School",
+      "matchText": "the academic Dunning School had already installed in textbooks",
+      "wikiSlug": "Dunning_School",
+      "type": "concept"
+    },
+    {
+      "term": "100% Americanism",
+      "matchText": "with a costume, a fee schedule, and a national sales force",
+      "wikiSlug": "Americanization_(immigration)",
+      "type": "concept"
+    },
+    {
+      "term": "Mer Rouge, Louisiana",
+      "matchText": "in Mer Rouge, Louisiana",
+      "wikiSlug": "Mer_Rouge,_Louisiana",
+      "type": "place"
+    },
+    {
+      "term": "Indiana",
+      "matchText": "It effectively controlled the government of",
+      "wikiSlug": "Indiana",
+      "type": "place"
+    },
+    {
+      "term": "platform",
+      "matchText": "A party's national convention adopts a",
+      "wikiSlug": "Party_platform",
+      "type": "concept"
+    },
+    {
+      "term": "the 1924 Democratic convention",
+      "matchText": "at the 1924 Democratic convention in New York",
+      "wikiSlug": "1924_Democratic_National_Convention",
+      "type": "event"
+    },
+    {
+      "term": "D. C. Stephenson",
+      "matchText": "held the title of Grand Dragon",
+      "wikiSlug": "D._C._Stephenson",
+      "type": "person"
+    },
+    {
+      "term": "Grand Dragon",
+      "matchText": "the Klan's chief officer for Indiana",
+      "wikiSlug": "Grand_Dragon",
+      "type": "concept"
+    }
   ],
   "11": [
-    { "term": "the Eighteenth Amendment", "matchText": "the only amendment in American history that took a personal freedom away", "wikiSlug": "Eighteenth_Amendment_to_the_United_States_Constitution", "type": "writing" },
-    { "term": "Prohibition", "matchText": "was not imposed by a tipsy majority", "wikiSlug": "Prohibition_in_the_United_States", "type": "event" },
-    { "term": "the Anti-Saloon League", "matchText": "the most effective single-issue pressure group in American history to that point", "wikiSlug": "Anti-Saloon_League", "type": "institution" },
-    { "term": "the Volstead Act", "matchText": "the law that defined and enforced it", "wikiSlug": "Volstead_Act", "type": "writing" },
-    { "term": "the speakeasy", "matchText": "an illegal bar entered by password", "wikiSlug": "Speakeasy", "type": "concept" },
-    { "term": "Rum Row", "matchText": "Ships anchored on", "wikiSlug": "Rum-running", "type": "concept" },
-    { "term": "the Purple Gang", "matchText": "ran Canadian whiskey across the river", "wikiSlug": "Purple_Gang", "type": "group" },
-    { "term": "moonshine", "matchText": "rural Americans distilled", "wikiSlug": "Moonshine", "type": "concept" },
-    { "term": "NASCAR", "matchText": "one of the documented roots", "wikiSlug": "NASCAR", "type": "institution" },
-    { "term": "organized crime", "matchText": "the one that outlived Prohibition itself, was", "wikiSlug": "American_Mafia", "type": "concept" },
-    { "term": "Al Capone", "matchText": "Its emblem is", "wikiSlug": "Al_Capone", "type": "person" },
-    { "term": "the St. Valentine's Day Massacre", "matchText": "turned the public decisively against him was the", "wikiSlug": "Saint_Valentine%27s_Day_Massacre", "type": "event" },
-    { "term": "the Wickersham Commission", "matchText": "Hoover appointed the Wickersham Commission", "wikiSlug": "Wickersham_Commission", "type": "institution" },
-    { "term": "the Twenty-first Amendment", "matchText": "by the Twenty-first Amendment", "wikiSlug": "Twenty-first_Amendment_to_the_United_States_Constitution", "type": "writing" }
+    {
+      "term": "the Eighteenth Amendment",
+      "matchText": "the only amendment in American history that took a personal freedom away",
+      "wikiSlug": "Eighteenth_Amendment_to_the_United_States_Constitution",
+      "type": "writing"
+    },
+    {
+      "term": "Prohibition",
+      "matchText": "was not imposed by a tipsy majority",
+      "wikiSlug": "Prohibition_in_the_United_States",
+      "type": "event"
+    },
+    {
+      "term": "the Anti-Saloon League",
+      "matchText": "the most effective single-issue pressure group in American history to that point",
+      "wikiSlug": "Anti-Saloon_League",
+      "type": "institution"
+    },
+    {
+      "term": "the Volstead Act",
+      "matchText": "the law that defined and enforced it",
+      "wikiSlug": "Volstead_Act",
+      "type": "writing"
+    },
+    {
+      "term": "the speakeasy",
+      "matchText": "an illegal bar entered by password",
+      "wikiSlug": "Speakeasy",
+      "type": "concept"
+    },
+    {
+      "term": "Rum Row",
+      "matchText": "Ships anchored on",
+      "wikiSlug": "Rum-running",
+      "type": "concept"
+    },
+    {
+      "term": "the Purple Gang",
+      "matchText": "ran Canadian whiskey across the river",
+      "wikiSlug": "Purple_Gang",
+      "type": "group"
+    },
+    {
+      "term": "moonshine",
+      "matchText": "rural Americans distilled",
+      "wikiSlug": "Moonshine",
+      "type": "concept"
+    },
+    {
+      "term": "NASCAR",
+      "matchText": "one of the documented roots",
+      "wikiSlug": "NASCAR",
+      "type": "institution"
+    },
+    {
+      "term": "organized crime",
+      "matchText": "the one that outlived Prohibition itself, was",
+      "wikiSlug": "American_Mafia",
+      "type": "concept"
+    },
+    {
+      "term": "Al Capone",
+      "matchText": "Its emblem is",
+      "wikiSlug": "Al_Capone",
+      "type": "person"
+    },
+    {
+      "term": "the St. Valentine's Day Massacre",
+      "matchText": "turned the public decisively against him was the",
+      "wikiSlug": "Saint_Valentine%27s_Day_Massacre",
+      "type": "event"
+    },
+    {
+      "term": "the Wickersham Commission",
+      "matchText": "Hoover appointed the Wickersham Commission",
+      "wikiSlug": "Wickersham_Commission",
+      "type": "institution"
+    },
+    {
+      "term": "the Twenty-first Amendment",
+      "matchText": "by the Twenty-first Amendment",
+      "wikiSlug": "Twenty-first_Amendment_to_the_United_States_Constitution",
+      "type": "writing"
+    },
+    {
+      "term": "Prohibition in the United States",
+      "matchText": "Prohibition",
+      "wikiSlug": "Prohibition_in_the_United_States",
+      "type": "concept"
+    }
   ],
   "12": [
-    { "term": "the Scopes trial", "matchText": "lasted eight days, was carried live on the radio", "wikiSlug": "Scopes_trial", "type": "event" },
-    { "term": "modernists", "matchText": "On one side were the", "wikiSlug": "Modernism", "type": "concept" },
-    { "term": "fundamentalists", "matchText": "On the other side were the", "wikiSlug": "Christian_fundamentalism", "type": "concept" },
-    { "term": "The Fundamentals", "matchText": "a series of cheap doctrinal pamphlets", "wikiSlug": "The_Fundamentals", "type": "writing" },
-    { "term": "the fundamentalist–modernist controversy", "matchText": "tore through the major denominations all decade", "wikiSlug": "Fundamentalist–Modernist_controversy", "type": "event" },
-    { "term": "a denomination", "matchText": "A denomination is an organized Protestant church body", "wikiSlug": "Christian_denomination", "type": "concept" },
-    { "term": "the Butler Act", "matchText": "Tennessee fired the first legal shot with the", "wikiSlug": "Butler_Act", "type": "writing" },
-    { "term": "John Scopes", "matchText": "football coach named", "wikiSlug": "John_T._Scopes", "type": "person" },
-    { "term": "William Jennings Bryan", "matchText": "three-time Democratic presidential nominee, former Secretary of State", "wikiSlug": "William_Jennings_Bryan", "type": "person" },
-    { "term": "Clarence Darrow", "matchText": "the most famous courtroom lawyer in the country, a militant agnostic", "wikiSlug": "Clarence_Darrow", "type": "person" },
-    { "term": "Leopold and Loeb", "matchText": "saved Nathan Leopold and Richard Loeb", "wikiSlug": "Leopold_and_Loeb", "type": "event" },
-    { "term": "H. L. Mencken", "matchText": "the ferociously witty Baltimore newspaper columnist", "wikiSlug": "H._L._Mencken", "type": "person" },
-    { "term": "the Bible Belt", "matchText": "what he was popularizing as the", "wikiSlug": "Bible_Belt", "type": "concept" },
-    { "term": "Aimee Semple McPherson", "matchText": "the Los Angeles revivalist", "wikiSlug": "Aimee_Semple_McPherson", "type": "person" }
+    {
+      "term": "the Scopes trial",
+      "matchText": "lasted eight days, was carried live on the radio",
+      "wikiSlug": "Scopes_trial",
+      "type": "event"
+    },
+    {
+      "term": "modernists",
+      "matchText": "On one side were the",
+      "wikiSlug": "Modernism",
+      "type": "concept"
+    },
+    {
+      "term": "fundamentalists",
+      "matchText": "On the other side were the",
+      "wikiSlug": "Christian_fundamentalism",
+      "type": "concept"
+    },
+    {
+      "term": "The Fundamentals",
+      "matchText": "a series of cheap doctrinal pamphlets",
+      "wikiSlug": "The_Fundamentals",
+      "type": "writing"
+    },
+    {
+      "term": "the fundamentalist–modernist controversy",
+      "matchText": "tore through the major denominations all decade",
+      "wikiSlug": "Fundamentalist–Modernist_controversy",
+      "type": "event"
+    },
+    {
+      "term": "a denomination",
+      "matchText": "A denomination is an organized Protestant church body",
+      "wikiSlug": "Christian_denomination",
+      "type": "concept"
+    },
+    {
+      "term": "the Butler Act",
+      "matchText": "Tennessee fired the first legal shot with the",
+      "wikiSlug": "Butler_Act",
+      "type": "writing"
+    },
+    {
+      "term": "John Scopes",
+      "matchText": "football coach named",
+      "wikiSlug": "John_T._Scopes",
+      "type": "person"
+    },
+    {
+      "term": "William Jennings Bryan",
+      "matchText": "three-time Democratic presidential nominee, former Secretary of State",
+      "wikiSlug": "William_Jennings_Bryan",
+      "type": "person"
+    },
+    {
+      "term": "Clarence Darrow",
+      "matchText": "the most famous courtroom lawyer in the country, a militant agnostic",
+      "wikiSlug": "Clarence_Darrow",
+      "type": "person"
+    },
+    {
+      "term": "Leopold and Loeb",
+      "matchText": "saved Nathan Leopold and Richard Loeb",
+      "wikiSlug": "Leopold_and_Loeb",
+      "type": "event"
+    },
+    {
+      "term": "H. L. Mencken",
+      "matchText": "the ferociously witty Baltimore newspaper columnist",
+      "wikiSlug": "H._L._Mencken",
+      "type": "person"
+    },
+    {
+      "term": "the Bible Belt",
+      "matchText": "what he was popularizing as the",
+      "wikiSlug": "Bible_Belt",
+      "type": "concept"
+    },
+    {
+      "term": "Aimee Semple McPherson",
+      "matchText": "the Los Angeles revivalist",
+      "wikiSlug": "Aimee_Semple_McPherson",
+      "type": "person"
+    },
+    {
+      "term": "Scopes trial",
+      "matchText": "Scopes",
+      "wikiSlug": "Scopes_trial",
+      "type": "concept"
+    }
   ],
   "13": [
-    { "term": "the Great Migration", "matchText": "The result was the", "wikiSlug": "Great_Migration_(African_American)", "type": "event" },
-    { "term": "Jim Crow", "matchText": "The push was Jim Crow, debt, and lynching", "wikiSlug": "Jim_Crow_laws", "type": "concept" },
-    { "term": "the Chicago Defender", "matchText": "the Black press, above all the", "wikiSlug": "The_Chicago_Defender", "type": "institution" },
-    { "term": "Pullman porters", "matchText": "Black railroad workers, of whom more below", "wikiSlug": "Pullman_porter", "type": "group" },
-    { "term": "the Harlem Renaissance", "matchText": "The literary wing is usually called the", "wikiSlug": "Harlem_Renaissance", "type": "concept" },
-    { "term": "The New Negro", "matchText": "Its manifesto was", "wikiSlug": "The_New_Negro", "type": "writing" },
-    { "term": "Alain Locke", "matchText": "a 1925 anthology assembled by Alain Locke", "wikiSlug": "Alain_LeRoy_Locke", "type": "person" },
-    { "term": "Langston Hughes", "matchText": "Its defining poet", "wikiSlug": "Langston_Hughes", "type": "person" },
-    { "term": "Zora Neale Hurston", "matchText": "trained as an anthropologist", "wikiSlug": "Zora_Neale_Hurston", "type": "person" },
-    { "term": "Claude McKay", "matchText": "the Jamaican-born", "wikiSlug": "Claude_McKay", "type": "person" },
-    { "term": "Marcus Garvey", "matchText": "Universal Negro Improvement Association built the largest Black mass movement", "wikiSlug": "Marcus_Garvey", "type": "person" },
-    { "term": "the NAACP", "matchText": "ran the long campaign against lynching", "wikiSlug": "NAACP", "type": "institution" },
-    { "term": "a filibuster", "matchText": "watch Southern senators kill it with a", "wikiSlug": "Filibuster", "type": "concept" },
-    { "term": "A. Philip Randolph", "matchText": "founded the Brotherhood of Sleeping Car Porters", "wikiSlug": "A._Philip_Randolph", "type": "person" },
-    { "term": "the Pullman Company", "matchText": "the sleeping-car attendants of the Pullman Company", "wikiSlug": "Pullman_Company", "type": "institution" },
-    { "term": "jazz", "matchText": "had come up the river out of New Orleans's Black musical world", "wikiSlug": "Jazz", "type": "concept" },
-    { "term": "Louis Armstrong", "matchText": "the figure who, more than any other, remade what it could be was", "wikiSlug": "Louis_Armstrong", "type": "person" },
-    { "term": "Duke Ellington", "matchText": "orchestra began its residency at Harlem's", "wikiSlug": "Duke_Ellington", "type": "person" },
-    { "term": "the Cotton Club", "matchText": "the most famous nightclub in America", "wikiSlug": "Cotton_Club", "type": "place" },
-    { "term": "Bessie Smith", "matchText": "sold records by the hundreds of thousands into the segregated", "wikiSlug": "Bessie_Smith", "type": "person" }
+    {
+      "term": "the Great Migration",
+      "matchText": "The result was the",
+      "wikiSlug": "Great_Migration_(African_American)",
+      "type": "event"
+    },
+    {
+      "term": "Jim Crow",
+      "matchText": "The push was Jim Crow, debt, and lynching",
+      "wikiSlug": "Jim_Crow_laws",
+      "type": "concept"
+    },
+    {
+      "term": "the Chicago Defender",
+      "matchText": "the Black press, above all the",
+      "wikiSlug": "The_Chicago_Defender",
+      "type": "institution"
+    },
+    {
+      "term": "Pullman porters",
+      "matchText": "Black railroad workers, of whom more below",
+      "wikiSlug": "Pullman_porter",
+      "type": "group"
+    },
+    {
+      "term": "the Harlem Renaissance",
+      "matchText": "The literary wing is usually called the",
+      "wikiSlug": "Harlem_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "The New Negro",
+      "matchText": "Its manifesto was",
+      "wikiSlug": "The_New_Negro",
+      "type": "writing"
+    },
+    {
+      "term": "Alain Locke",
+      "matchText": "a 1925 anthology assembled by Alain Locke",
+      "wikiSlug": "Alain_LeRoy_Locke",
+      "type": "person"
+    },
+    {
+      "term": "Langston Hughes",
+      "matchText": "Its defining poet",
+      "wikiSlug": "Langston_Hughes",
+      "type": "person"
+    },
+    {
+      "term": "Zora Neale Hurston",
+      "matchText": "trained as an anthropologist",
+      "wikiSlug": "Zora_Neale_Hurston",
+      "type": "person"
+    },
+    {
+      "term": "Claude McKay",
+      "matchText": "the Jamaican-born",
+      "wikiSlug": "Claude_McKay",
+      "type": "person"
+    },
+    {
+      "term": "Marcus Garvey",
+      "matchText": "Universal Negro Improvement Association built the largest Black mass movement",
+      "wikiSlug": "Marcus_Garvey",
+      "type": "person"
+    },
+    {
+      "term": "the NAACP",
+      "matchText": "ran the long campaign against lynching",
+      "wikiSlug": "NAACP",
+      "type": "institution"
+    },
+    {
+      "term": "a filibuster",
+      "matchText": "watch Southern senators kill it with a",
+      "wikiSlug": "Filibuster",
+      "type": "concept"
+    },
+    {
+      "term": "A. Philip Randolph",
+      "matchText": "founded the Brotherhood of Sleeping Car Porters",
+      "wikiSlug": "A._Philip_Randolph",
+      "type": "person"
+    },
+    {
+      "term": "the Pullman Company",
+      "matchText": "the sleeping-car attendants of the Pullman Company",
+      "wikiSlug": "Pullman_Company",
+      "type": "institution"
+    },
+    {
+      "term": "jazz",
+      "matchText": "had come up the river out of New Orleans's Black musical world",
+      "wikiSlug": "Jazz",
+      "type": "concept"
+    },
+    {
+      "term": "Louis Armstrong",
+      "matchText": "the figure who, more than any other, remade what it could be was",
+      "wikiSlug": "Louis_Armstrong",
+      "type": "person"
+    },
+    {
+      "term": "Duke Ellington",
+      "matchText": "orchestra began its residency at Harlem's",
+      "wikiSlug": "Duke_Ellington",
+      "type": "person"
+    },
+    {
+      "term": "the Cotton Club",
+      "matchText": "the most famous nightclub in America",
+      "wikiSlug": "Cotton_Club",
+      "type": "place"
+    },
+    {
+      "term": "Bessie Smith",
+      "matchText": "sold records by the hundreds of thousands into the segregated",
+      "wikiSlug": "Bessie_Smith",
+      "type": "person"
+    },
+    {
+      "term": "Harlem Renaissance",
+      "matchText": "Harlem Renaissance",
+      "wikiSlug": "Harlem_Renaissance",
+      "type": "concept"
+    }
   ],
   "14": [
-    { "term": "the Jazz Age", "matchText": "coined \"the Jazz Age\" for the era", "wikiSlug": "Jazz_Age", "type": "concept" },
-    { "term": "F. Scott Fitzgerald", "matchText": "the decade he had named", "wikiSlug": "F._Scott_Fitzgerald", "type": "person" },
-    { "term": "The Great Gatsby", "matchText": "in 1925 published", "wikiSlug": "The_Great_Gatsby", "type": "writing" },
-    { "term": "the Lost Generation", "matchText": "is the writer Gertrude Stein's phrase", "wikiSlug": "Lost_Generation", "type": "concept" },
-    { "term": "Ernest Hemingway", "matchText": "made famous by", "wikiSlug": "Ernest_Hemingway", "type": "person" },
-    { "term": "The Sun Also Rises", "matchText": "who used it as an epigraph to", "wikiSlug": "The_Sun_Also_Rises", "type": "writing" },
-    { "term": "Gertrude Stein", "matchText": "congregating in 1920s Paris", "wikiSlug": "Gertrude_Stein", "type": "person" },
-    { "term": "Sylvia Beach", "matchText": "the bookshop of Sylvia Beach", "wikiSlug": "Sylvia_Beach", "type": "person" },
-    { "term": "Ulysses", "matchText": "published James Joyce's", "wikiSlug": "Ulysses_(novel)", "type": "writing" },
-    { "term": "H. L. Mencken", "matchText": "the role of professional skeptic was filled by", "wikiSlug": "H._L._Mencken", "type": "person" },
-    { "term": "The American Mercury", "matchText": "who founded", "wikiSlug": "The_American_Mercury", "type": "writing" },
-    { "term": "Babbitt", "matchText": "the novelist Sinclair Lewis had skewered in", "wikiSlug": "Babbitt_(novel)", "type": "writing" },
-    { "term": "the flapper", "matchText": "bobbed hair, hemlines at the knee", "wikiSlug": "Flapper", "type": "concept" },
-    { "term": "the Charleston", "matchText": "the frantic dance, popularized by the 1923 Black musical", "wikiSlug": "Charleston_(dance)", "type": "concept" },
-    { "term": "Margaret Sanger", "matchText": "led by Margaret Sanger", "wikiSlug": "Margaret_Sanger", "type": "person" },
-    { "term": "Babe Ruth", "matchText": "whose 60 home runs in 1927", "wikiSlug": "Babe_Ruth", "type": "person" },
-    { "term": "Gertrude Ederle", "matchText": "who in 1926 became the first woman to swim the English Channel", "wikiSlug": "Gertrude_Ederle", "type": "person" },
-    { "term": "Jack Dempsey", "matchText": "the heavyweight Jack Dempsey", "wikiSlug": "Jack_Dempsey", "type": "person" },
-    { "term": "Charles Lindbergh", "matchText": "The apotheosis of the whole machinery was", "wikiSlug": "Charles_Lindbergh", "type": "person" },
-    { "term": "the Spirit of St. Louis", "matchText": "a tiny single-engine plane, the", "wikiSlug": "Spirit_of_St._Louis", "type": "concept" }
+    {
+      "term": "the Jazz Age",
+      "matchText": "coined \"the Jazz Age\" for the era",
+      "wikiSlug": "Jazz_Age",
+      "type": "concept"
+    },
+    {
+      "term": "F. Scott Fitzgerald",
+      "matchText": "the decade he had named",
+      "wikiSlug": "F._Scott_Fitzgerald",
+      "type": "person"
+    },
+    {
+      "term": "The Great Gatsby",
+      "matchText": "in 1925 published",
+      "wikiSlug": "The_Great_Gatsby",
+      "type": "writing"
+    },
+    {
+      "term": "the Lost Generation",
+      "matchText": "is the writer Gertrude Stein's phrase",
+      "wikiSlug": "Lost_Generation",
+      "type": "concept"
+    },
+    {
+      "term": "Ernest Hemingway",
+      "matchText": "made famous by",
+      "wikiSlug": "Ernest_Hemingway",
+      "type": "person"
+    },
+    {
+      "term": "The Sun Also Rises",
+      "matchText": "who used it as an epigraph to",
+      "wikiSlug": "The_Sun_Also_Rises",
+      "type": "writing"
+    },
+    {
+      "term": "Gertrude Stein",
+      "matchText": "congregating in 1920s Paris",
+      "wikiSlug": "Gertrude_Stein",
+      "type": "person"
+    },
+    {
+      "term": "Sylvia Beach",
+      "matchText": "the bookshop of Sylvia Beach",
+      "wikiSlug": "Sylvia_Beach",
+      "type": "person"
+    },
+    {
+      "term": "Ulysses",
+      "matchText": "published James Joyce's",
+      "wikiSlug": "Ulysses_(novel)",
+      "type": "writing"
+    },
+    {
+      "term": "H. L. Mencken",
+      "matchText": "the role of professional skeptic was filled by",
+      "wikiSlug": "H._L._Mencken",
+      "type": "person"
+    },
+    {
+      "term": "The American Mercury",
+      "matchText": "who founded",
+      "wikiSlug": "The_American_Mercury",
+      "type": "writing"
+    },
+    {
+      "term": "Babbitt",
+      "matchText": "the novelist Sinclair Lewis had skewered in",
+      "wikiSlug": "Babbitt_(novel)",
+      "type": "writing"
+    },
+    {
+      "term": "the flapper",
+      "matchText": "bobbed hair, hemlines at the knee",
+      "wikiSlug": "Flapper",
+      "type": "concept"
+    },
+    {
+      "term": "the Charleston",
+      "matchText": "the frantic dance, popularized by the 1923 Black musical",
+      "wikiSlug": "Charleston_(dance)",
+      "type": "concept"
+    },
+    {
+      "term": "Margaret Sanger",
+      "matchText": "led by Margaret Sanger",
+      "wikiSlug": "Margaret_Sanger",
+      "type": "person"
+    },
+    {
+      "term": "Babe Ruth",
+      "matchText": "whose 60 home runs in 1927",
+      "wikiSlug": "Babe_Ruth",
+      "type": "person"
+    },
+    {
+      "term": "Gertrude Ederle",
+      "matchText": "who in 1926 became the first woman to swim the English Channel",
+      "wikiSlug": "Gertrude_Ederle",
+      "type": "person"
+    },
+    {
+      "term": "Jack Dempsey",
+      "matchText": "the heavyweight Jack Dempsey",
+      "wikiSlug": "Jack_Dempsey",
+      "type": "person"
+    },
+    {
+      "term": "Charles Lindbergh",
+      "matchText": "The apotheosis of the whole machinery was",
+      "wikiSlug": "Charles_Lindbergh",
+      "type": "person"
+    },
+    {
+      "term": "the Spirit of St. Louis",
+      "matchText": "a tiny single-engine plane, the",
+      "wikiSlug": "Spirit_of_St._Louis",
+      "type": "concept"
+    }
   ],
   "15": [
-    { "term": "the Crash", "matchText": "is the perfect ending to this book", "wikiSlug": "Wall_Street_crash_of_1929", "type": "event" },
-    { "term": "the Florida land boom", "matchText": "had a real-estate mania", "wikiSlug": "Florida_land_boom_of_the_1920s", "type": "event" },
-    { "term": "a speculative bubble", "matchText": "It was a textbook speculative bubble", "wikiSlug": "Economic_bubble", "type": "concept" },
-    { "term": "Coral Gables", "matchText": "the new town of Coral Gables", "wikiSlug": "Coral_Gables,_Florida", "type": "place" },
-    { "term": "Herbert Hoover", "matchText": "Into this came the decade's last president", "wikiSlug": "Herbert_Hoover", "type": "person" },
-    { "term": "Al Smith", "matchText": "beating the Democrat Al Smith", "wikiSlug": "Al_Smith", "type": "person" },
-    { "term": "buying on margin", "matchText": "The first was buying", "wikiSlug": "Margin_(finance)", "type": "concept" },
-    { "term": "collateral", "matchText": "pledging the stock itself as", "wikiSlug": "Collateral_(finance)", "type": "concept" },
-    { "term": "the investment trust", "matchText": "The second device was the", "wikiSlug": "Investment_trust", "type": "concept" },
-    { "term": "leverage", "matchText": "the general name for using borrowed money", "wikiSlug": "Leverage_(finance)", "type": "concept" },
-    { "term": "Irving Fisher", "matchText": "Yale's Irving Fisher", "wikiSlug": "Irving_Fisher", "type": "person" },
-    { "term": "the Federal Reserve", "matchText": "saw the speculation and was paralyzed by a real dilemma", "wikiSlug": "Federal_Reserve", "type": "institution" },
-    { "term": "the Dow Jones Industrial Average", "matchText": "a Dow Jones Industrial Average of 381", "wikiSlug": "Dow_Jones_Industrial_Average", "type": "concept" },
-    { "term": "Black Thursday", "matchText": "panic selling hit the floor", "wikiSlug": "Wall_Street_crash_of_1929", "type": "event" },
-    { "term": "Black Tuesday", "matchText": "the dam broke completely", "wikiSlug": "Wall_Street_crash_of_1929", "type": "event" },
-    { "term": "the Great Depression", "matchText": "did not, by itself, cause the", "wikiSlug": "Great_Depression", "type": "event" },
-    { "term": "Smoot–Hawley tariff", "matchText": "the 1930 Smoot–Hawley tariff", "wikiSlug": "Smoot–Hawley_Tariff_Act", "type": "writing" }
+    {
+      "term": "the Crash",
+      "matchText": "is the perfect ending to this book",
+      "wikiSlug": "Wall_Street_crash_of_1929",
+      "type": "event"
+    },
+    {
+      "term": "the Florida land boom",
+      "matchText": "had a real-estate mania",
+      "wikiSlug": "Florida_land_boom_of_the_1920s",
+      "type": "event"
+    },
+    {
+      "term": "a speculative bubble",
+      "matchText": "It was a textbook speculative bubble",
+      "wikiSlug": "Economic_bubble",
+      "type": "concept"
+    },
+    {
+      "term": "Coral Gables",
+      "matchText": "the new town of Coral Gables",
+      "wikiSlug": "Coral_Gables,_Florida",
+      "type": "place"
+    },
+    {
+      "term": "Herbert Hoover",
+      "matchText": "Into this came the decade's last president",
+      "wikiSlug": "Herbert_Hoover",
+      "type": "person"
+    },
+    {
+      "term": "Al Smith",
+      "matchText": "beating the Democrat Al Smith",
+      "wikiSlug": "Al_Smith",
+      "type": "person"
+    },
+    {
+      "term": "buying on margin",
+      "matchText": "The first was buying",
+      "wikiSlug": "Margin_(finance)",
+      "type": "concept"
+    },
+    {
+      "term": "collateral",
+      "matchText": "pledging the stock itself as",
+      "wikiSlug": "Collateral_(finance)",
+      "type": "concept"
+    },
+    {
+      "term": "the investment trust",
+      "matchText": "The second device was the",
+      "wikiSlug": "Investment_trust",
+      "type": "concept"
+    },
+    {
+      "term": "leverage",
+      "matchText": "the general name for using borrowed money",
+      "wikiSlug": "Leverage_(finance)",
+      "type": "concept"
+    },
+    {
+      "term": "Irving Fisher",
+      "matchText": "Yale's Irving Fisher",
+      "wikiSlug": "Irving_Fisher",
+      "type": "person"
+    },
+    {
+      "term": "the Federal Reserve",
+      "matchText": "saw the speculation and was paralyzed by a real dilemma",
+      "wikiSlug": "Federal_Reserve",
+      "type": "institution"
+    },
+    {
+      "term": "the Dow Jones Industrial Average",
+      "matchText": "a Dow Jones Industrial Average of 381",
+      "wikiSlug": "Dow_Jones_Industrial_Average",
+      "type": "concept"
+    },
+    {
+      "term": "Black Thursday",
+      "matchText": "panic selling hit the floor",
+      "wikiSlug": "Wall_Street_crash_of_1929",
+      "type": "event"
+    },
+    {
+      "term": "Black Tuesday",
+      "matchText": "the dam broke completely",
+      "wikiSlug": "Wall_Street_crash_of_1929",
+      "type": "event"
+    },
+    {
+      "term": "the Great Depression",
+      "matchText": "did not, by itself, cause the",
+      "wikiSlug": "Great_Depression",
+      "type": "event"
+    },
+    {
+      "term": "Smoot–Hawley tariff",
+      "matchText": "the 1930 Smoot–Hawley tariff",
+      "wikiSlug": "Smoot–Hawley_Tariff_Act",
+      "type": "writing"
+    }
   ]
 }

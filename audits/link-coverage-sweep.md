@@ -128,7 +128,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | mississippian-culture | 10 | **DONE** | 7a58f3f |
 | early-american-republic | 18 | **DONE** | b5df85d |
 | antebellum-america | 18 | **DONE** | 93aebba |
-| reconstruction | 16 | **DONE** | +this |
+| reconstruction | 16 | **DONE** | 3d68080 |
+| roaring-twenties | 15 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

@@ -23,6 +23,12 @@
       "targetTl": "reconstruction",
       "targetChapter": 16,
       "blurb": "The 1896 Plessy v. Ferguson ruling made 'separate but equal' the law of the land. The Reconstruction narrative's final chapter, on the long afterlife of the era, traces how the Supreme Court disarmed the Fourteenth Amendment and how the Lost Cause and the Dunning School rewrote the whole story, the legal and cultural machinery the twenties inherited intact."
+    },
+    {
+      "matchText": "Reconstruction",
+      "targetTl": "reconstruction",
+      "targetChapter": 16,
+      "blurb": "The Great Migration that reshaped the 1920s is Reconstruction's long afterlife — Black Americans fleeing the Jim Crow order Redemption built."
     }
   ],
   "3": [
@@ -37,6 +43,12 @@
       "targetTl": "civil-rights-era",
       "targetChapter": 1,
       "blurb": "A crucial difference from earlier waves was that many of the Black men in these cities were veterans who had been to France, were armed, and fought back. The Civil Rights narrative opens on exactly this thread, returning Black veterans, the long NAACP legal campaign, the slow runway to Brown, the tradition of organized self-defense and mass action that the institutions built in this decade would launch."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 3,
+      "blurb": "The First Red Scare was America reacting to the Russian Revolution — the Bolshevik victory turned into a domestic panic."
     }
   ],
   "5": [
@@ -45,6 +57,12 @@
       "targetTl": "reconstruction",
       "targetChapter": 3,
       "blurb": "The migration is one story with Reconstruction, not two. The Reconstruction narrative's 'Slavery by Another Name' chapter sets out the 'forty acres' promise and its swift reversal, the Black Codes, and the birth of sharecropping. When emancipation came without land, the freed people were forced into a debt trap with no way out but, sixty years later, the road north."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 2,
+      "blurb": "Coolidge's pro-business 'normalcy' is the ideological mirror-image of the Soviet experiment unfolding at the same moment — two opposite answers to the modern economy."
     }
   ],
   "9": [
@@ -105,6 +123,12 @@
       "targetTl": "civil-rights-era",
       "targetChapter": 1,
       "blurb": "The justice did not come in this decade; the base for it did. The Civil Rights narrative, two narratives down the chain, is launched from exactly what the twenties built, the porters' union and the NAACP, the migrant cities and the money and the audiences, and the confidence of a generation that had made the century's defining American music while shut out of the room."
+    },
+    {
+      "matchText": "Civil Rights Era",
+      "targetTl": "civil-rights-era",
+      "targetChapter": 1,
+      "blurb": "The 'New Negro' and the Harlem Renaissance are the cultural prologue to the civil-rights movement — assertion before the legal battle."
     }
   ],
   "15": [
@@ -125,6 +149,28 @@
       "targetTl": "civil-rights-era",
       "targetChapter": 1,
       "blurb": "This is the bridge to the next narrative in the chain. The Civil Rights narrative opens on the Depression, the New Deal's mixed record, the second Great Migration, and the returning Black veterans of World War II, the heirs of the institutions Chapter 13 built, who carried the long campaign that became the movement."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 20,
+      "blurb": "The 1929 bubble and crash is the boom-and-bust the Industrial Revolution's critics had always warned the system would produce."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 17,
+      "blurb": "The assembly line that 'made the decade' is the Second Industrial Revolution's climax — mass production creating mass consumption."
+    }
+  ],
+  "11": [
+    {
+      "matchText": "Antebellum America",
+      "targetTl": "antebellum-america",
+      "targetChapter": 8,
+      "blurb": "Prohibition is the Age of Reform's last great crusade — the temperance movement, born antebellum, finally written into the Constitution and failing."
     }
   ]
 }
