@@ -633,6 +633,12 @@
       "matchText": "monastic libraries",
       "wikiSlug": "Monastic_library",
       "type": "place"
+    },
+    {
+      "term": "Mosque–Cathedral of Córdoba",
+      "matchText": "Great Mosque of Córdoba",
+      "wikiSlug": "Mosque–Cathedral_of_Córdoba",
+      "type": "place"
     }
   ],
   "7": [
@@ -1361,6 +1367,18 @@
       "matchText": "azafea",
       "wikiSlug": "Azafea",
       "type": "object"
+    },
+    {
+      "term": "Al-Zarqali",
+      "matchText": "Arzachel",
+      "wikiSlug": "Al-Zarqali",
+      "type": "people"
+    },
+    {
+      "term": "Al-Zahrawi",
+      "matchText": "Abulcasis",
+      "wikiSlug": "Al-Zahrawi",
+      "type": "people"
     }
   ],
   "14": [
@@ -1477,6 +1495,12 @@
       "matchText": "Murcia",
       "wikiSlug": "Murcia",
       "type": "place"
+    },
+    {
+      "term": "Maimonides",
+      "matchText": "Maimonides",
+      "wikiSlug": "Maimonides",
+      "type": "people"
     }
   ],
   "15": [
@@ -1807,6 +1831,12 @@
       "matchText": "Nasrid civil war",
       "wikiSlug": "Granada_War",
       "type": "concept"
+    },
+    {
+      "term": "Muhammad XII of Granada",
+      "matchText": "Muhammad XII",
+      "wikiSlug": "Muhammad_XII_of_Granada",
+      "type": "people"
     }
   ],
   "18": [
@@ -1905,6 +1935,12 @@
       "matchText": "Sierra Nevada",
       "wikiSlug": "Sierra_Nevada_(Spain)",
       "type": "place"
+    },
+    {
+      "term": "Morisco",
+      "matchText": "Morisco",
+      "wikiSlug": "Morisco",
+      "type": "people"
     }
   ]
 }
