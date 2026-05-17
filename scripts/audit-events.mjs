@@ -17,6 +17,16 @@
 // FAIL-CLOSED: any API/parse error = FAIL, never a silent pass (cf. G4).
 // On failure writes EVENT-FAILURES-<tlId>.txt (ship-check asserts its absence).
 //
+// Calibration (2026-05-17): the text stage catches WRONG / redirected /
+// off-subject / same-name-different-thing pages. A broad PARENT article that
+// legitimately contains the event's subject is a PASS, not a fail — thin-
+// EN-Wikipedia-coverage civs (medieval Korea, etc.) often have only a parent
+// article and the reader still lands on a correct, on-topic page. Genuine
+// residuals (no on-subject page exists at all) are waived per-event in
+// content/.event-slug-waivers-<tlId>.json ({ "<eventId>": "reason" }),
+// mirroring G3 .link-waivers and G1 density-baseline. Image mismatches are
+// still handled via content/.image-rejections.json (drops the photo).
+//
 // Usage:
 //   node --env-file=.env.local scripts/audit-events.mjs <tlId>
 //   ... --no-vision        # stage 1 only (no image cost)
@@ -50,6 +60,12 @@ let events = (JSON.parse(readFileSync(contentPath, 'utf8')).events || []).map((e
 }))
 if (limit) events = events.slice(0, limit)
 
+// G10 slug waivers: { "<eventId>": "reason" } — broad-but-correct parent
+// articles a thin-coverage civ cannot improve. Waived events skip the text
+// stage (PASS) and never reach EVENT-FAILURES. Vision stage still applies.
+const waiverPath = `content/.event-slug-waivers-${tlId}.json`
+const slugWaivers = existsSync(waiverPath) ? JSON.parse(readFileSync(waiverPath, 'utf8')) : {}
+
 const ai = new GoogleGenAI({ apiKey })
 const verdicts = new Map() // id → { text?, vision? }
 const setV = (id, k, v) => { const o = verdicts.get(id) || {}; o[k] = v; verdicts.set(id, o) }
@@ -61,12 +77,21 @@ function extractJson(text) {
 }
 
 // ---- Stage 1: TEXT coherence (batched) ----
-const textTargets = events.filter((e) => e.wikiExtract || e.wikiSlug)
+// Waived events: PASS without spending a model call.
+for (const e of events) {
+  if (slugWaivers[e.id]) setV(e.id, 'text', { verdict: 'PASS', reason: `waived: ${slugWaivers[e.id]}` })
+}
+const textTargets = events.filter((e) => (e.wikiExtract || e.wikiSlug) && !slugWaivers[e.id])
 const BATCH = 12
 for (let i = 0; i < textTargets.length; i += BATCH) {
   const batch = textTargets.slice(i, i + BATCH)
   const payload = batch.map((e) => ({ id: e.id, label: e.label, description: e.description, wikiSlug: e.wikiSlug, wikiExtract: e.wikiExtract }))
-  const prompt = `For each event below, decide if the wikiSlug page and wikiExtract are about the SAME subject as the event's label+description (a reader tapping this event must not get a Wikipedia blurb about a different/broader/redirected topic). A loosely-related broader page is a FAIL if a more specific subject was meant. Empty wikiExtract is OK (not a fail) as long as wikiSlug is plausibly the right page.
+  const prompt = `You are QAing the Wikipedia page behind each event link in a history reading app. For each event, decide whether a reader who taps it lands on a CORRECT, ON-SUBJECT page.
+
+PASS if the wikiSlug page (and wikiExtract, when present) is about this event's subject OR about a broader parent topic that legitimately contains it — same civilization, same era, same thread of history. Many real subjects only have a broad parent article on English Wikipedia; landing on the correct parent is fine. Empty wikiExtract is OK as long as the wikiSlug is plausibly the right page.
+
+FAIL only if the page is genuinely WRONG for the reader: a different subject, a same-name-different-thing, a redirect/disambiguation pointing elsewhere, an off-subject page (e.g. a modern-geography article when a historical event was meant, a person's page for an event clearly about a different person, a generic global-technology page unrelated to this culture's specific development). Breadth alone is NOT a failure — wrongness is.
+
 Respond ONLY with a JSON array, one object per event, same order:
 [{"id":"...","verdict":"PASS"|"FAIL","reason":"short"}]
 

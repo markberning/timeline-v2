@@ -11,6 +11,15 @@
 // GLOSSARY-FAILURES-<tlId>.txt (ship-check asserts its absence).
 // Mirrors audit-crosslinks.mjs.
 //
+// Calibration (2026-05-17, mirrors G10/audit-events): FAIL only a WRONG page
+// (disambiguation, same-name-different-thing, redirect/off-subject). A broad
+// PARENT article that legitimately covers the term — same civ/era/thread — is
+// a PASS; thin-EN-coverage civs often have only a parent (a glossary term
+// like "merit land" or "Daesik" frequently has no dedicated article).
+// Irreducible residuals are waived per-term in
+// content/.glossary-slug-waivers-<tlId>.json ({ "<term>": "reason" }),
+// mirroring G10 .event-slug-waivers / G3 .link-waivers / G1 density-baseline.
+//
 // Usage:
 //   node --env-file=.env.local scripts/audit-glossary.mjs <tlId>
 //   ... --model M --json --report-only --limit N
@@ -47,14 +56,31 @@ for (const g of glossary) {
   entries.push({ term: stripHtml(g.term), wikiSlug: g.wikiSlug || '', wikiExtract: stripHtml(g.wikiExtract).slice(0, 500) })
 }
 
+// G12 slug waivers: { "<term>": "reason" } — broad-but-correct parent the
+// civ cannot improve. Waived terms skip the model call (PASS), matched
+// case-insensitively, and never reach GLOSSARY-FAILURES.
+const waiverPath = `content/.glossary-slug-waivers-${tlId}.json`
+const rawWaivers = existsSync(waiverPath) ? JSON.parse(readFileSync(waiverPath, 'utf8')) : {}
+const slugWaivers = new Map(Object.entries(rawWaivers).map(([k, v]) => [k.toLowerCase(), v]))
+
 const ai = new GoogleGenAI({ apiKey })
 function extractJson(t) { const m = t.match(/\[[\s\S]*\]|\{[\s\S]*\}/); if (!m) throw new Error('no JSON'); return JSON.parse(m[0]) }
 
 const verdicts = new Map()
+for (const e of entries) {
+  const w = slugWaivers.get(e.term.toLowerCase())
+  if (w) verdicts.set(e.term, { verdict: 'PASS', reason: `waived: ${w}` })
+}
+const pending = entries.filter((e) => !slugWaivers.has(e.term.toLowerCase()))
 const BATCH = 12
-for (let i = 0; i < entries.length; i += BATCH) {
-  const batch = entries.slice(i, i + BATCH)
-  const prompt = `Each item is a glossary entry in a history app: the reader taps "term" and gets the Wikipedia page "wikiSlug" with intro "wikiExtract". FAIL if the slug/extract is the WRONG subject for the term: a disambiguation page, a same-name different thing (wrong city/person/sense), or a redirect to a topic too broad to explain the term as used in history writing. PASS if it plausibly explains the term. An empty wikiExtract is PASS as long as the wikiSlug is plausibly the right page for the term.
+for (let i = 0; i < pending.length; i += BATCH) {
+  const batch = pending.slice(i, i + BATCH)
+  const prompt = `Each item is a glossary entry in a history reading app: the reader taps "term" and gets the Wikipedia page "wikiSlug" with intro "wikiExtract". Decide whether the reader lands on a CORRECT, ON-SUBJECT page that helps explain the term.
+
+PASS if the page (or extract) explains the term OR is a broader parent topic that legitimately covers it — same civilization, same era, same thread of history. Many real glossary terms only have a broad parent article on English Wikipedia; landing on the correct parent is fine. Empty wikiExtract is PASS as long as the wikiSlug is plausibly the right page.
+
+FAIL only if the page is genuinely WRONG for the reader: a disambiguation page, a same-name-different-thing (wrong city/person/sense), or a redirect to an off-subject topic that does not explain this term at all. Breadth alone is NOT a failure — wrongness is.
+
 Respond ONLY with a JSON array, same order: [{"term":"...","verdict":"PASS"|"FAIL","reason":"short"}]
 
 ENTRIES:
