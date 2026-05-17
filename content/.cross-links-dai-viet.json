@@ -1,116 +1,164 @@
 {
- "1": [
-  {
-   "matchText": "the Khmer were absorbing a *different* great civilization's package",
-   "targetTl": "khmer-empire",
-   "targetChapter": 1,
-   "blurb": "Vietnam and the Khmer are the two great test cases of cultural transmission in mainland Southeast Asia, by opposite mechanisms. The Khmer absorbed India's Sanskrit-Hindu-Buddhist package voluntarily, never conquered, over centuries of trade and prestige. Vietnam absorbed China's package as a conquered province for a thousand years — and then weaponized it against the lender. Same outcome (a sophisticated Indianized/Sinicized state), opposite causes."
-  },
-  {
-   "matchText": "the Han dynasty of China — then at its expansionist height under Emperor Wu",
-   "targetTl": "han-dynasty",
-   "targetChapter": 3,
-   "blurb": "The Han annexation of the Red River delta in 111 BCE was one front of Emperor Wu's vast expansion — the same Martial Emperor whose campaigns against the Xiongnu, into Korea, and across Central Asia define the Han imperial peak. Vietnam's thousand years of Chinese rule begins as a footnote to Han expansionism told in full from the Chinese side."
-  }
- ],
- "2": [
-  {
-   "matchText": "the great dynasty that had just reunified China",
-   "targetTl": "tang-song-china",
-   "targetChapter": 5,
-   "blurb": "Lê Hoàn's defeat of the Song invasion of 981 came at the very moment the Song had reunified China after the Five Dynasties chaos. The newly whole Chinese empire tested its southern frontier against the newly independent Vietnamese state and was thrown back — fixing the tribute-and-defiance relationship that held for centuries."
-  }
- ],
- "3": [
-  {
-   "matchText": "the contemporary Northern Song was running at vast scale",
-   "targetTl": "tang-song-china",
-   "targetChapter": 6,
-   "blurb": "Vietnam held its first civil service examination in 1075, importing the Confucian meritocratic recruitment the Northern Song was then running at the largest scale in the world. The Lý state was a small-scale, Buddhist-flavored version of the same scholar-bureaucratic machine, proof the model travelled the moment a state wanted it."
-  }
- ],
- "4": [
-  {
-   "matchText": "Suryavarman II of Angkor invaded Đại Việt in the 1120s–40s",
-   "targetTl": "khmer-empire",
-   "targetChapter": 5,
-   "blurb": "The Đại Việt–Champa–Khmer triangle is one war told from three sides. Suryavarman II, the builder of Angkor Wat, campaigned against both Champa and Đại Việt in the 1120s–40s; the Khmer narrative covers his aggression from Angkor's side, the Vietnamese narrative feels it as one more pressure on the southern frontier."
-  },
-  {
-   "matchText": "the same Cham, and the same language-family fact, that sacked Angkor in 1177",
-   "targetTl": "khmer-empire",
-   "targetChapter": 6,
-   "blurb": "The Cham who fought the Lý are the same Austronesian-speaking maritime people who, from the Khmer side, sailed up the Mekong and sacked Angkor in 1177. The language-family gap (Austronesian Cham vs Austroasiatic Vietnamese and Khmer) is the same fact load-bearing in both books, set up here and paid off in the nam tiến."
-  },
-  {
-   "matchText": "the maritime commerce that linked Song China, Champa, and the Srivijaya world",
-   "targetTl": "srivijaya",
-   "targetChapter": 5,
-   "blurb": "Champa and Đại Việt's ports plugged into the same monsoon trade network that made Srivijaya rich — the maritime SE Asian commercial world. The destruction of Champa removed one of the old players from that network just as European traders were entering it through Hội An."
-  }
- ],
- "5": [
-  {
-   "matchText": "the Mongol Empire was the largest contiguous land empire in history",
-   "targetTl": "mongol-empire",
-   "targetChapter": 6,
-   "blurb": "Đại Việt is one of the very short list of states that defeated the Mongols and survived. Set the three Vietnamese victories against the Mongol Empire's record of conquering China, Persia, and the Russian principalities: the same Kublai-era war machine that built the Yuan met, in the Red River delta, one of its rare unambiguous failures."
-  },
-  {
-   "matchText": "turning south",
-   "targetTl": "yuan-dynasty",
-   "targetChapter": 1,
-   "blurb": "Kublai Khan's invasions of Đại Việt ran in parallel with his conquest of the Southern Song and the proclamation of the Yuan. The Yuan narrative is the view from the conqueror's capital; the Vietnamese narrative is one of the frontiers where the universal empire's southward expansion was stopped cold."
-  },
-  {
-   "matchText": "the sea between them and Japan",
-   "targetTl": "yuan-dynasty",
-   "targetChapter": 3,
-   "blurb": "The Mongols failed against Đại Việt by land and against Japan by sea in the same decades. The Japanese were saved by the typhoons later called kamikaze; the Vietnamese saved themselves by strategy — evacuation, attrition, and the Bạch Đằng stake-trap. The two great Mongol failures of the 1280s, compared, isolate what actually stopped them."
-  },
-  {
-   "matchText": "the only contemporaries who reliably stopped them were",
-   "targetTl": "majapahit",
-   "targetChapter": 2,
-   "blurb": "Add Java to the company. Majapahit Chapter 2 is the third failed Mongol seaborne invasion beside Japan's storms and Đại Việt's stakes — Raden Wijaya beat the Yuan fleet by a double-cross, the only one of the set undone by a single ruler's nerve."
-  }
- ],
- "7": [
-  {
-   "matchText": "the same reign that built the Forbidden City and launched Zheng He's treasure fleets",
-   "targetTl": "ming-dynasty",
-   "targetChapter": 2,
-   "blurb": "The Ming conquest and twenty-year occupation of Vietnam was a project of the Yongle Emperor — the same aggressive, expansionist reign that built the Forbidden City and sent out Zheng He's fleets. Vietnam was the one major Yongle conquest that was fought back off, the limiting case of early-Ming expansion."
-  }
- ],
- "8": [
-  {
-   "matchText": "Confucian scholar-bureaucracy decisively displaced Buddhism",
-   "targetTl": "khmer-empire",
-   "targetChapter": 2,
-   "blurb": "Vietnam and the Khmer Empire ran opposite religious trajectories. Angkor's god-king Hinduism gave way to apolitical Theravada Buddhism, dissolving the temple-state. Đại Việt's state Buddhism gave way to an intensely political Confucian bureaucracy, strengthening the state. Two Southeast Asian civilizations, two religions replaced by their opposites, two opposite outcomes."
-  },
-  {
-   "matchText": "stormed and obliterated the Cham capital",
-   "targetTl": "majapahit",
-   "targetChapter": 5,
-   "blurb": "The Javanese twin of this atrocity. Majapahit Chapter 5 tells the Bubat massacre the same way this chapter tells Vijaya: a national hero (Gajah Mada / Lê Thánh Tông) destroying a culturally distinct neighbour, remembered as glorious unification on the victor's side and as the end of a people on the other."
-  }
- ],
- "11": [
-  {
-   "matchText": "post-Angkor Cambodia spent these centuries as a shrinking buffer",
-   "targetTl": "khmer-empire",
-   "targetChapter": 9,
-   "blurb": "The nam tiến is the Vietnamese side of the squeeze that the Khmer narrative describes from Cambodia's side: post-Angkor Cambodia, caught between an expanding Siam and an expanding Vietnam, lost the entire Mekong delta to the Nguyễn by 1757. The land that fed Angkor became southern Vietnam."
-  }
- ],
- "12": [
-  {
-   "matchText": "the Manchu dynasty then ruling China",
-   "targetTl": "ming-dynasty",
-   "targetChapter": 8,
-   "blurb": "The Qing army Quang Trung destroyed at Đống Đa in 1789 belonged to the Manchu dynasty whose conquest of Ming China is told in the Ming narrative. The last Chinese attempt to decide who ruled Vietnam was made by the same Manchu power, and it failed in days — the early-modern echo of Bạch Đằng."
-  }
- ]
+  "1": [
+    {
+      "matchText": "the Khmer were absorbing a *different* great civilization's package",
+      "targetTl": "khmer-empire",
+      "targetChapter": 1,
+      "blurb": "Vietnam and the Khmer are the two great test cases of cultural transmission in mainland Southeast Asia, by opposite mechanisms. The Khmer absorbed India's Sanskrit-Hindu-Buddhist package voluntarily, never conquered, over centuries of trade and prestige. Vietnam absorbed China's package as a conquered province for a thousand years — and then weaponized it against the lender. Same outcome (a sophisticated Indianized/Sinicized state), opposite causes."
+    },
+    {
+      "matchText": "the Han dynasty of China — then at its expansionist height under Emperor Wu",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Han annexation of the Red River delta in 111 BCE was one front of Emperor Wu's vast expansion — the same Martial Emperor whose campaigns against the Xiongnu, into Korea, and across Central Asia define the Han imperial peak. Vietnam's thousand years of Chinese rule begins as a footnote to Han expansionism told in full from the Chinese side."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "Vietnam's first millennium was as a Chinese province — a thousand years of Han and successor rule that made Dai Viet a Confucian-Sinic state even in resisting China."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "the great dynasty that had just reunified China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "Lê Hoàn's defeat of the Song invasion of 981 came at the very moment the Song had reunified China after the Five Dynasties chaos. The newly whole Chinese empire tested its southern frontier against the newly independent Vietnamese state and was thrown back — fixing the tribute-and-defiance relationship that held for centuries."
+    }
+  ],
+  "3": [
+    {
+      "matchText": "the contemporary Northern Song was running at vast scale",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Vietnam held its first civil service examination in 1075, importing the Confucian meritocratic recruitment the Northern Song was then running at the largest scale in the world. The Lý state was a small-scale, Buddhist-flavored version of the same scholar-bureaucratic machine, proof the model travelled the moment a state wanted it."
+    },
+    {
+      "matchText": "Khmer Empire",
+      "targetTl": "khmer-empire",
+      "targetChapter": 3,
+      "blurb": "The Ly Buddhist state rose beside the Khmer Empire — two contemporary Indianized-vs-Sinicized Southeast Asian powers sharing a frontier."
+    }
+  ],
+  "4": [
+    {
+      "matchText": "Suryavarman II of Angkor invaded Đại Việt in the 1120s–40s",
+      "targetTl": "khmer-empire",
+      "targetChapter": 5,
+      "blurb": "The Đại Việt–Champa–Khmer triangle is one war told from three sides. Suryavarman II, the builder of Angkor Wat, campaigned against both Champa and Đại Việt in the 1120s–40s; the Khmer narrative covers his aggression from Angkor's side, the Vietnamese narrative feels it as one more pressure on the southern frontier."
+    },
+    {
+      "matchText": "the same Cham, and the same language-family fact, that sacked Angkor in 1177",
+      "targetTl": "khmer-empire",
+      "targetChapter": 6,
+      "blurb": "The Cham who fought the Lý are the same Austronesian-speaking maritime people who, from the Khmer side, sailed up the Mekong and sacked Angkor in 1177. The language-family gap (Austronesian Cham vs Austroasiatic Vietnamese and Khmer) is the same fact load-bearing in both books, set up here and paid off in the nam tiến."
+    },
+    {
+      "matchText": "the maritime commerce that linked Song China, Champa, and the Srivijaya world",
+      "targetTl": "srivijaya",
+      "targetChapter": 5,
+      "blurb": "Champa and Đại Việt's ports plugged into the same monsoon trade network that made Srivijaya rich — the maritime SE Asian commercial world. The destruction of Champa removed one of the old players from that network just as European traders were entering it through Hội An."
+    },
+    {
+      "matchText": "Srivijaya",
+      "targetTl": "srivijaya",
+      "targetChapter": 5,
+      "blurb": "The Cham frontier plugged Dai Viet into the maritime Southeast Asian world Srivijaya had dominated — the sea-trade sphere on its southern flank."
+    },
+    {
+      "matchText": "Khmer Empire",
+      "targetTl": "khmer-empire",
+      "targetChapter": 9,
+      "blurb": "Champa, caught between Dai Viet and the Khmer, was the buffer both expanding powers chewed through."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "the Mongol Empire was the largest contiguous land empire in history",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Đại Việt is one of the very short list of states that defeated the Mongols and survived. Set the three Vietnamese victories against the Mongol Empire's record of conquering China, Persia, and the Russian principalities: the same Kublai-era war machine that built the Yuan met, in the Red River delta, one of its rare unambiguous failures."
+    },
+    {
+      "matchText": "turning south",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "Kublai Khan's invasions of Đại Việt ran in parallel with his conquest of the Southern Song and the proclamation of the Yuan. The Yuan narrative is the view from the conqueror's capital; the Vietnamese narrative is one of the frontiers where the universal empire's southward expansion was stopped cold."
+    },
+    {
+      "matchText": "the sea between them and Japan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Mongols failed against Đại Việt by land and against Japan by sea in the same decades. The Japanese were saved by the typhoons later called kamikaze; the Vietnamese saved themselves by strategy — evacuation, attrition, and the Bạch Đằng stake-trap. The two great Mongol failures of the 1280s, compared, isolate what actually stopped them."
+    },
+    {
+      "matchText": "the only contemporaries who reliably stopped them were",
+      "targetTl": "majapahit",
+      "targetChapter": 2,
+      "blurb": "Add Java to the company. Majapahit Chapter 2 is the third failed Mongol seaborne invasion beside Japan's storms and Đại Việt's stakes — Raden Wijaya beat the Yuan fleet by a double-cross, the only one of the set undone by a single ruler's nerve."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "The three Mongol invasions of Dai Viet were repelled — one of the few states, with Japan, to beat the Mongols outright."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Yuan amphibious assaults on Dai Viet failed like the Japan invasions — the limits of Mongol power at the monsoon edge of Asia."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "the same reign that built the Forbidden City and launched Zheng He's treasure fleets",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 2,
+      "blurb": "The Ming conquest and twenty-year occupation of Vietnam was a project of the Yongle Emperor — the same aggressive, expansionist reign that built the Forbidden City and sent out Zheng He's fleets. Vietnam was the one major Yongle conquest that was fought back off, the limiting case of early-Ming expansion."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Ming occupation (1407-27) and Le Loi's war of liberation is Vietnam's defining anti-Chinese epic — independence reasserted against the early Ming."
+    }
+  ],
+  "8": [
+    {
+      "matchText": "Confucian scholar-bureaucracy decisively displaced Buddhism",
+      "targetTl": "khmer-empire",
+      "targetChapter": 2,
+      "blurb": "Vietnam and the Khmer Empire ran opposite religious trajectories. Angkor's god-king Hinduism gave way to apolitical Theravada Buddhism, dissolving the temple-state. Đại Việt's state Buddhism gave way to an intensely political Confucian bureaucracy, strengthening the state. Two Southeast Asian civilizations, two religions replaced by their opposites, two opposite outcomes."
+    },
+    {
+      "matchText": "stormed and obliterated the Cham capital",
+      "targetTl": "majapahit",
+      "targetChapter": 5,
+      "blurb": "The Javanese twin of this atrocity. Majapahit Chapter 5 tells the Bubat massacre the same way this chapter tells Vijaya: a national hero (Gajah Mada / Lê Thánh Tông) destroying a culturally distinct neighbour, remembered as glorious unification on the victor's side and as the end of a people on the other."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "Le Thanh Tong's Confucian golden age built a Ming-modeled bureaucratic state — Vietnam out-Confucianizing its old overlord."
+    }
+  ],
+  "11": [
+    {
+      "matchText": "post-Angkor Cambodia spent these centuries as a shrinking buffer",
+      "targetTl": "khmer-empire",
+      "targetChapter": 9,
+      "blurb": "The nam tiến is the Vietnamese side of the squeeze that the Khmer narrative describes from Cambodia's side: post-Angkor Cambodia, caught between an expanding Siam and an expanding Vietnam, lost the entire Mekong delta to the Nguyễn by 1757. The land that fed Angkor became southern Vietnam."
+    }
+  ],
+  "12": [
+    {
+      "matchText": "the Manchu dynasty then ruling China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Qing army Quang Trung destroyed at Đống Đa in 1789 belonged to the Manchu dynasty whose conquest of Ming China is told in the Ming narrative. The last Chinese attempt to decide who ruled Vietnam was made by the same Manchu power, and it failed in days — the early-modern echo of Bạch Đằng."
+    }
+  ]
 }
