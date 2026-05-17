@@ -1,5 +1,36 @@
 # Pipeline Audit — gate-readiness for the 17 new civs
 
+## ✅ RESOLVED (2026-05-16) — rewrite shipped, G1–G9 all implemented
+
+| Gate | Shipped as | Commit |
+|---|---|---|
+| G1 density (10–15/ch) | `scripts/lint-density.ts` + `audits/density-baseline.json`, wired into `npm run gate` | 185cb21 |
+| G2 links hard gate | `prebuild` = `gate` (lint:links --strict) → parse; +`--contention` pass | 139ba36 |
+| G3 link-coverage | `scripts/link-coverage.ts` (Pass A gated, Pass B advisory) | 903a551 |
+| G4 map vision-QA | `audit-maps.mjs` + `lint-map-prompt.mjs` + `maps-build.mjs` (auto-regen) | b35be7d |
+| G5 map-existence | folded into `ship-check.mjs` | 94aa637 |
+| G6 chapter-flow | audit-narrative.md "Build dependency" field; WEAK/REWRITE ship-blocking | 5d75789 |
+| G7 backward cross-civ | audit skill "default defer" → mandatory; CLAUDE.md step 11 gate | 5d75789 |
+| G8 chapter-count rigor | narrative-movement map, user-approved, no cap, no no-stop bypass | 5d75789 |
+| G9 ship-check | `scripts/ship-check.mjs` (`npm run ship:check <tl>`) gates hasContent | 94aa637 |
+
+**Two large pre-existing-debt findings surfaced during the rewrite (NOT pipeline
+defects; separate remediation, user's call — they do not block the 17):**
+1. **~2211 parser-dropped links corpus-wide** (`lint-links --contention`). Mostly
+   benign (shorter matchText losing its span to an intentional longer/cross
+   link — reader still gets *a* link there); an unknown bad subset is terms
+   that end up unlinked. The link sweep's "0 ERROR" only ever meant matchText
+   *validity*, never span contention.
+2. **559 chapters across 98/100 civs below 10 event-links** (`lint-density`).
+   The existing corpus broadly misses the density bar; grandfathered in
+   `audits/density-baseline.json` so legacy builds pass. The 17 new civs are
+   held to 10–15 with zero tolerance.
+
+The 17 are now safe to build: every bar the user named is an enforced gate.
+Backfilling the two debt items across the existing 100 is a separate decision.
+
+---
+
 **Date:** 2026-05-16. **Trigger:** before building the 17 (`audits/phase-1.5-roster.md`),
 verify the pipeline *guarantees* the user's quality bars rather than relying on
 agent diligence that historically slipped (corpus link sweep + corpus map regen
