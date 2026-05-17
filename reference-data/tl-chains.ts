@@ -68,7 +68,9 @@ export const TL_CHAINS: TlChain[] = [
     shortLabel: 'Mesoamerica',
     origins: 'Mesoamerica\'s first complex societies emerged from villages that domesticated maize, beans, and squash. By 1500 BCE, monumental architecture and long-distance trade networks were already taking shape along the Gulf Coast.',
     entries: [
-      { timelineId: 'olmec-civilization', transition: 'Olmec cultural innovations — the calendar, writing, ballgame, and monumental sculpture — spread across Mesoamerica and deeply influenced the Maya who followed.' },
+      { timelineId: 'olmec-civilization', transition: 'Olmec innovations — the calendar, writing, the ballgame, monumental sculpture — radiated outward. In the highland Valley of Oaxaca, the Zapotec raised Monte Albán, one of the Americas\' first true cities, on an artificially leveled mountaintop.' },
+      { timelineId: 'zapotec-civilization', transition: 'As Monte Albán matured, a far larger city was rising in the Valley of Mexico. Teotihuacan would become the greatest metropolis in the pre-Columbian Americas, its influence reaching as far as the Maya lowlands.' },
+      { timelineId: 'teotihuacan', transition: 'Teotihuacan burned and emptied around 550 CE, but its prestige outlived it. To the southeast, the Maya city-states were entering their Classic golden age of dynastic kings, astronomy, and the only fully written script in the ancient Americas.' },
       { timelineId: 'maya-civilization', transition: 'While Maya city-states persisted in the Yucatán, the Valley of Mexico saw the rise of the Aztec Triple Alliance, which built the largest empire Mesoamerica had ever seen.' },
       { timelineId: 'aztec-empire' },
     ],
@@ -96,6 +98,17 @@ export const TL_CHAINS: TlChain[] = [
       { timelineId: 'reconstruction', transition: 'The end of Reconstruction left Black Americans largely unprotected in the South, while industrialization transformed the nation into a global economic power.' },
       { timelineId: 'roaring-twenties', transition: 'The Depression and World War II reshaped American society, and returning Black veterans helped spark the Civil Rights movement that would transform the country again.' },
       { timelineId: 'civil-rights-era' },
+    ],
+  },
+
+  {
+    id: 'north-american-indigenous',
+    label: 'North American Indigenous',
+    shortLabel: 'N America',
+    origins: 'Long before European contact, the peoples of North America built complex societies without the wheel, draft animals, or Old World grains — sustained by maize agriculture, continental trade networks, and monumental construction in earth and stone.',
+    entries: [
+      { timelineId: 'ancestral-puebloans', transition: 'As prolonged drought emptied the Chaco great houses and the Mesa Verde cliff towns of the arid Southwest, a very different center was peaking on the Mississippi floodplain — Cahokia, the largest city north of Mexico, raised entirely from earthen mounds.' },
+      { timelineId: 'mississippian-culture' },
     ],
   },
 
@@ -169,7 +182,9 @@ export const TL_CHAINS: TlChain[] = [
     origins: 'The waters between the Indian and Pacific Oceans have been a crossroads of trade since prehistoric times. Indian cultural influence — Hinduism, Buddhism, Sanskrit — spread to Southeast Asia through merchant networks, not conquest.',
     entries: [
       { timelineId: 'srivijaya', transition: 'As Srivijaya\'s maritime dominance faded, the Khmer Empire — centered at Angkor in mainland Southeast Asia — became the region\'s most powerful state.' },
-      { timelineId: 'khmer-empire' },
+      { timelineId: 'khmer-empire', transition: 'Angkor was gradually abandoned as power shifted back to the sea. In the Java Sea, Majapahit assembled the richest maritime realm the region had yet seen, drawing tribute from ports across the archipelago.' },
+      { timelineId: 'majapahit', transition: 'As Majapahit fragmented and Islam spread through the islands, the enduring power was Đại Việt — the Vietnamese state that had outlasted a thousand years of Chinese rule and pushed steadily south down the coast.' },
+      { timelineId: 'dai-viet' },
     ],
   },
 
@@ -282,6 +297,18 @@ export const TL_CHAINS: TlChain[] = [
     origins: 'Anatolia (modern Turkey) has been a crossroads between Europe and Asia since prehistory. The region hosted some of the world\'s earliest settlements, including Çatalhöyük, before Bronze Age kingdoms rose to prominence.',
     entries: [
       { timelineId: 'hittite-empire', transition: 'The Hittite Empire collapsed in the Bronze Age catastrophe around 1200 BCE. Anatolia passed through Phrygian, Lydian, Persian, Greek, Roman, and Byzantine hands before the Ottoman Turks conquered Constantinople in 1453.' },
+      { timelineId: 'ottoman-empire' },
+    ],
+  },
+
+  {
+    id: 'islamic-civilization',
+    label: 'Islamic Civilization',
+    shortLabel: 'Islam',
+    origins: 'In 622 CE Muhammad and his followers left Mecca for Medina, founding a community that within a century would rule from the Atlantic to the Indus. The Rashidun caliphs who succeeded him forged that explosive expansion into a state.',
+    entries: [
+      { timelineId: 'umayyad-caliphate', transition: 'The Abbasid revolution of 750 toppled the Umayyads and built a new round capital on the Tigris — Baghdad — where translation, mathematics, and philosophy ignited a centuries-long intellectual golden age.' },
+      { timelineId: 'islamic-golden-age', transition: 'As the Abbasid order fractured among Turkic and Mongol successors, leadership of the Sunni world eventually passed to a frontier dynasty in Anatolia. The Ottomans took Constantinople in 1453 and ruled the Islamic heartland for four centuries.' },
       { timelineId: 'ottoman-empire' },
     ],
   },
