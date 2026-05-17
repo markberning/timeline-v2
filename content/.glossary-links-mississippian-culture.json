@@ -1,205 +1,1144 @@
 {
   "1": [
-    { "term": "Mounds", "matchText": "deliberately built hills of piled-up earth", "wikiSlug": "Platform_mound", "type": "object" },
-    { "term": "Mound Builder Myth", "matchText": "Mound Builder Myth", "wikiSlug": "Mound_Builders", "type": "concept" },
-    { "term": "Toltec", "matchText": "Toltecs", "wikiSlug": "Toltec", "type": "people" },
-    { "term": "Tula", "matchText": "city of Tula", "wikiSlug": "Tula_(Mesoamerican_site)", "type": "place" },
-    { "term": "Lost Tribes of Israel", "matchText": "lost tribes of Israel", "wikiSlug": "Ten_Lost_Tribes", "type": "concept" },
-    { "term": "Atlantis", "matchText": "sunken Atlantis", "wikiSlug": "Atlantis", "type": "place" },
-    { "term": "Chickasaw", "matchText": "Chickasaw", "wikiSlug": "Chickasaw", "type": "people" },
-    { "term": "Choctaw", "matchText": "Choctaw", "wikiSlug": "Choctaw", "type": "people" },
-    { "term": "Seminole", "matchText": "Seminole", "wikiSlug": "Seminole", "type": "people" },
-    { "term": "Stratigraphy", "matchText": "stratigraphy", "wikiSlug": "Stratigraphy_(archaeology)", "type": "concept" },
-    { "term": "Notes on the State of Virginia", "matchText": "Notes on the State of Virginia", "wikiSlug": "Notes_on_the_State_of_Virginia", "type": "work" },
-    { "term": "James Smithson", "matchText": "James Smithson", "wikiSlug": "James_Smithson", "type": "person" },
-    { "term": "Ephraim Squier", "matchText": "Ephraim Squier", "wikiSlug": "Ephraim_George_Squier", "type": "person" },
-    { "term": "Edwin Davis", "matchText": "Edwin Davis", "wikiSlug": "Edwin_Hamilton_Davis", "type": "person" },
-    { "term": "Bureau of Ethnology", "matchText": "Bureau of Ethnology", "wikiSlug": "Bureau_of_American_Ethnology", "type": "institution" },
-    { "term": "Ethnology", "matchText": "ethnology", "wikiSlug": "Ethnology", "type": "concept" },
-    { "term": "Tree-ring dating", "matchText": "tree-ring dating", "wikiSlug": "Dendrochronology", "type": "technology" },
-    { "term": "Indus Valley seals", "matchText": "Indus Valley seals", "wikiSlug": "Indus_script", "type": "writing" },
-    { "term": "Maya script", "matchText": "fully developed writing system", "wikiSlug": "Maya_script", "type": "writing" },
-    { "term": "Great Pyramid of Giza", "matchText": "Great Pyramid of Giza", "wikiSlug": "Great_Pyramid_of_Giza", "type": "place" },
-    { "term": "Mississippi River", "matchText": "Mississippi and Ohio valleys", "wikiSlug": "Mississippi_River", "type": "place" },
-    { "term": "Conquistador", "matchText": "conquistador", "wikiSlug": "Conquistador", "type": "concept" },
-    { "term": "Phoenicia", "matchText": "Welsh, Phoenician", "wikiSlug": "Phoenicia", "type": "people" }
+    {
+      "term": "Mounds",
+      "matchText": "deliberately built hills of piled-up earth",
+      "wikiSlug": "Platform_mound",
+      "type": "object"
+    },
+    {
+      "term": "Mound Builder Myth",
+      "matchText": "Mound Builder Myth",
+      "wikiSlug": "Mound_Builders",
+      "type": "concept"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltecs",
+      "wikiSlug": "Toltec",
+      "type": "people"
+    },
+    {
+      "term": "Tula",
+      "matchText": "city of Tula",
+      "wikiSlug": "Tula_(Mesoamerican_site)",
+      "type": "place"
+    },
+    {
+      "term": "Lost Tribes of Israel",
+      "matchText": "lost tribes of Israel",
+      "wikiSlug": "Ten_Lost_Tribes",
+      "type": "concept"
+    },
+    {
+      "term": "Atlantis",
+      "matchText": "sunken Atlantis",
+      "wikiSlug": "Atlantis",
+      "type": "place"
+    },
+    {
+      "term": "Chickasaw",
+      "matchText": "Chickasaw",
+      "wikiSlug": "Chickasaw",
+      "type": "people"
+    },
+    {
+      "term": "Choctaw",
+      "matchText": "Choctaw",
+      "wikiSlug": "Choctaw",
+      "type": "people"
+    },
+    {
+      "term": "Seminole",
+      "matchText": "Seminole",
+      "wikiSlug": "Seminole",
+      "type": "people"
+    },
+    {
+      "term": "Stratigraphy",
+      "matchText": "stratigraphy",
+      "wikiSlug": "Stratigraphy_(archaeology)",
+      "type": "concept"
+    },
+    {
+      "term": "Notes on the State of Virginia",
+      "matchText": "Notes on the State of Virginia",
+      "wikiSlug": "Notes_on_the_State_of_Virginia",
+      "type": "work"
+    },
+    {
+      "term": "James Smithson",
+      "matchText": "James Smithson",
+      "wikiSlug": "James_Smithson",
+      "type": "person"
+    },
+    {
+      "term": "Ephraim Squier",
+      "matchText": "Ephraim Squier",
+      "wikiSlug": "Ephraim_George_Squier",
+      "type": "person"
+    },
+    {
+      "term": "Edwin Davis",
+      "matchText": "Edwin Davis",
+      "wikiSlug": "Edwin_Hamilton_Davis",
+      "type": "person"
+    },
+    {
+      "term": "Bureau of Ethnology",
+      "matchText": "Bureau of Ethnology",
+      "wikiSlug": "Bureau_of_American_Ethnology",
+      "type": "institution"
+    },
+    {
+      "term": "Ethnology",
+      "matchText": "ethnology",
+      "wikiSlug": "Ethnology",
+      "type": "concept"
+    },
+    {
+      "term": "Tree-ring dating",
+      "matchText": "tree-ring dating",
+      "wikiSlug": "Dendrochronology",
+      "type": "technology"
+    },
+    {
+      "term": "Indus Valley seals",
+      "matchText": "Indus Valley seals",
+      "wikiSlug": "Indus_script",
+      "type": "writing"
+    },
+    {
+      "term": "Maya script",
+      "matchText": "fully developed writing system",
+      "wikiSlug": "Maya_script",
+      "type": "writing"
+    },
+    {
+      "term": "Great Pyramid of Giza",
+      "matchText": "Great Pyramid of Giza",
+      "wikiSlug": "Great_Pyramid_of_Giza",
+      "type": "place"
+    },
+    {
+      "term": "Mississippi River",
+      "matchText": "Mississippi and Ohio valleys",
+      "wikiSlug": "Mississippi_River",
+      "type": "place"
+    },
+    {
+      "term": "Conquistador",
+      "matchText": "conquistador",
+      "wikiSlug": "Conquistador",
+      "type": "concept"
+    },
+    {
+      "term": "Phoenicia",
+      "matchText": "Welsh, Phoenician",
+      "wikiSlug": "Phoenicia",
+      "type": "people"
+    }
   ],
   "2": [
-    { "term": "Drainage basin", "matchText": "drainage basin", "wikiSlug": "Drainage_basin", "type": "concept" },
-    { "term": "Missouri River", "matchText": "Missouri", "wikiSlug": "Missouri_River", "type": "place" },
-    { "term": "Ohio River", "matchText": "Ohio", "wikiSlug": "Ohio_River", "type": "place" },
-    { "term": "Appalachian Mountains", "matchText": "Appalachian Mountains", "wikiSlug": "Appalachian_Mountains", "type": "place" },
-    { "term": "Floodplain", "matchText": "floodplain", "wikiSlug": "Floodplain", "type": "concept" },
-    { "term": "Gulf of Mexico", "matchText": "Gulf of Mexico", "wikiSlug": "Gulf_of_Mexico", "type": "place" },
-    { "term": "Norte Chico", "matchText": "Norte Chico centers", "wikiSlug": "Caral%E2%80%93Supe_civilization", "type": "people" },
-    { "term": "Archaic period", "matchText": "hunters, gatherers, and fishers", "wikiSlug": "Archaic_period_(North_America)", "type": "concept" },
-    { "term": "Goosefoot", "matchText": "goosefoot", "wikiSlug": "Chenopodium_berlandieri", "type": "object" },
-    { "term": "Sumpweed", "matchText": "sumpweed", "wikiSlug": "Iva_annua", "type": "object" },
-    { "term": "Quinoa", "matchText": "quinoa", "wikiSlug": "Quinoa", "type": "object" },
-    { "term": "Sunflower", "matchText": "domesticated", "wikiSlug": "Sunflower", "type": "object" },
-    { "term": "Obsidian", "matchText": "obsidian", "wikiSlug": "Obsidian", "type": "object" },
-    { "term": "Mica", "matchText": "mica", "wikiSlug": "Mica", "type": "object" },
-    { "term": "Copper", "matchText": "copper", "wikiSlug": "Copper", "type": "object" },
-    { "term": "Maize", "matchText": "Maize", "wikiSlug": "Maize", "type": "object" },
-    { "term": "Teosinte", "matchText": "teosinte", "wikiSlug": "Teosinte", "type": "object" },
-    { "term": "Roman Republic", "matchText": "Roman Republic", "wikiSlug": "Roman_Republic", "type": "institution" },
-    { "term": "Hebrew Bible", "matchText": "Hebrew Bible", "wikiSlug": "Hebrew_Bible", "type": "work" },
-    { "term": "Tigris and Euphrates", "matchText": "Tigris and Euphrates", "wikiSlug": "Tigris%E2%80%93Euphrates_river_system", "type": "place" },
-    { "term": "Nile", "matchText": "annual flood of the Nile", "wikiSlug": "Nile", "type": "place" },
-    { "term": "Mast (botany)", "matchText": "the fallen nut crop", "wikiSlug": "Mast_(botany)", "type": "concept" }
+    {
+      "term": "Drainage basin",
+      "matchText": "drainage basin",
+      "wikiSlug": "Drainage_basin",
+      "type": "concept"
+    },
+    {
+      "term": "Missouri River",
+      "matchText": "Missouri",
+      "wikiSlug": "Missouri_River",
+      "type": "place"
+    },
+    {
+      "term": "Ohio River",
+      "matchText": "Ohio",
+      "wikiSlug": "Ohio_River",
+      "type": "place"
+    },
+    {
+      "term": "Appalachian Mountains",
+      "matchText": "Appalachian Mountains",
+      "wikiSlug": "Appalachian_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Floodplain",
+      "matchText": "floodplain",
+      "wikiSlug": "Floodplain",
+      "type": "concept"
+    },
+    {
+      "term": "Gulf of Mexico",
+      "matchText": "Gulf of Mexico",
+      "wikiSlug": "Gulf_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Norte Chico",
+      "matchText": "Norte Chico centers",
+      "wikiSlug": "Caral%E2%80%93Supe_civilization",
+      "type": "people"
+    },
+    {
+      "term": "Archaic period",
+      "matchText": "hunters, gatherers, and fishers",
+      "wikiSlug": "Archaic_period_(North_America)",
+      "type": "concept"
+    },
+    {
+      "term": "Goosefoot",
+      "matchText": "goosefoot",
+      "wikiSlug": "Chenopodium_berlandieri",
+      "type": "object"
+    },
+    {
+      "term": "Sumpweed",
+      "matchText": "sumpweed",
+      "wikiSlug": "Iva_annua",
+      "type": "object"
+    },
+    {
+      "term": "Quinoa",
+      "matchText": "quinoa",
+      "wikiSlug": "Quinoa",
+      "type": "object"
+    },
+    {
+      "term": "Sunflower",
+      "matchText": "domesticated",
+      "wikiSlug": "Sunflower",
+      "type": "object"
+    },
+    {
+      "term": "Obsidian",
+      "matchText": "obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "object"
+    },
+    {
+      "term": "Mica",
+      "matchText": "mica",
+      "wikiSlug": "Mica",
+      "type": "object"
+    },
+    {
+      "term": "Copper",
+      "matchText": "copper",
+      "wikiSlug": "Copper",
+      "type": "object"
+    },
+    {
+      "term": "Maize",
+      "matchText": "Maize",
+      "wikiSlug": "Maize",
+      "type": "object"
+    },
+    {
+      "term": "Teosinte",
+      "matchText": "teosinte",
+      "wikiSlug": "Teosinte",
+      "type": "object"
+    },
+    {
+      "term": "Roman Republic",
+      "matchText": "Roman Republic",
+      "wikiSlug": "Roman_Republic",
+      "type": "institution"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "work"
+    },
+    {
+      "term": "Tigris and Euphrates",
+      "matchText": "Tigris and Euphrates",
+      "wikiSlug": "Tigris%E2%80%93Euphrates_river_system",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "annual flood of the Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Mast (botany)",
+      "matchText": "the fallen nut crop",
+      "wikiSlug": "Mast_(botany)",
+      "type": "concept"
+    }
   ],
   "3": [
-    { "term": "Muskogean languages", "matchText": "Muskogean", "wikiSlug": "Muskogean_languages", "type": "language" },
-    { "term": "Siouan languages", "matchText": "Siouan", "wikiSlug": "Siouan_languages", "type": "language" },
-    { "term": "Caddoan languages", "matchText": "Caddoan", "wikiSlug": "Caddoan_languages", "type": "language" },
-    { "term": "Natchez language", "matchText": "Natchez of the Deep South", "wikiSlug": "Natchez_language", "type": "language" },
-    { "term": "Sioux", "matchText": "Plains Sioux", "wikiSlug": "Sioux", "type": "people" },
-    { "term": "Caddo", "matchText": "Caddo of the Red and Arkansas river country", "wikiSlug": "Caddo", "type": "people" },
-    { "term": "Olmec", "matchText": "Olmec", "wikiSlug": "Olmec", "type": "people" },
-    { "term": "Mesoamerica", "matchText": "Mesoamerican cultural sphere", "wikiSlug": "Mesoamerica", "type": "place" },
-    { "term": "Platform mound", "matchText": "platform mound", "wikiSlug": "Platform_mound", "type": "object" },
-    { "term": "Plaza", "matchText": "plaza", "wikiSlug": "Plaza", "type": "concept" },
-    { "term": "Burial mound", "matchText": "burial mounds", "wikiSlug": "Tumulus", "type": "object" },
-    { "term": "Temper (pottery)", "matchText": "Temper", "wikiSlug": "Temper_(pottery)", "type": "technology" },
-    { "term": "Thermal shock", "matchText": "thermal shock", "wikiSlug": "Thermal_shock", "type": "concept" },
-    { "term": "Charnel house", "matchText": "charnel house", "wikiSlug": "Charnel_house", "type": "object" },
-    { "term": "Tribe", "matchText": "tribe", "wikiSlug": "Tribe", "type": "concept" },
-    { "term": "State (polity)", "matchText": "is at the other end", "wikiSlug": "State_(polity)", "type": "concept" },
-    { "term": "Kinship", "matchText": "kinship", "wikiSlug": "Kinship", "type": "concept" },
-    { "term": "Tribute", "matchText": "tribute", "wikiSlug": "Tribute", "type": "concept" },
-    { "term": "Quipu", "matchText": "knotted-cord accounting system", "wikiSlug": "Quipu", "type": "technology" },
-    { "term": "Pachacuti", "matchText": "conqueror Pachacuti", "wikiSlug": "Pachacuti", "type": "person" },
-    { "term": "Black Warrior River", "matchText": "Black Warrior valley in Alabama", "wikiSlug": "Black_Warrior_River", "type": "place" },
-    { "term": "Cuzco", "matchText": "Cuzco-basin polity", "wikiSlug": "Cusco", "type": "place" }
+    {
+      "term": "Muskogean languages",
+      "matchText": "Muskogean",
+      "wikiSlug": "Muskogean_languages",
+      "type": "language"
+    },
+    {
+      "term": "Siouan languages",
+      "matchText": "Siouan",
+      "wikiSlug": "Siouan_languages",
+      "type": "language"
+    },
+    {
+      "term": "Caddoan languages",
+      "matchText": "Caddoan",
+      "wikiSlug": "Caddoan_languages",
+      "type": "language"
+    },
+    {
+      "term": "Natchez language",
+      "matchText": "Natchez of the Deep South",
+      "wikiSlug": "Natchez_language",
+      "type": "language"
+    },
+    {
+      "term": "Sioux",
+      "matchText": "Plains Sioux",
+      "wikiSlug": "Sioux",
+      "type": "people"
+    },
+    {
+      "term": "Caddo",
+      "matchText": "Caddo of the Red and Arkansas river country",
+      "wikiSlug": "Caddo",
+      "type": "people"
+    },
+    {
+      "term": "Olmec",
+      "matchText": "Olmec",
+      "wikiSlug": "Olmec",
+      "type": "people"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican cultural sphere",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Platform mound",
+      "matchText": "platform mound",
+      "wikiSlug": "Platform_mound",
+      "type": "object"
+    },
+    {
+      "term": "Plaza",
+      "matchText": "plaza",
+      "wikiSlug": "Plaza",
+      "type": "concept"
+    },
+    {
+      "term": "Burial mound",
+      "matchText": "burial mounds",
+      "wikiSlug": "Tumulus",
+      "type": "object"
+    },
+    {
+      "term": "Temper (pottery)",
+      "matchText": "Temper",
+      "wikiSlug": "Temper_(pottery)",
+      "type": "technology"
+    },
+    {
+      "term": "Thermal shock",
+      "matchText": "thermal shock",
+      "wikiSlug": "Thermal_shock",
+      "type": "concept"
+    },
+    {
+      "term": "Charnel house",
+      "matchText": "charnel house",
+      "wikiSlug": "Charnel_house",
+      "type": "object"
+    },
+    {
+      "term": "Tribe",
+      "matchText": "tribe",
+      "wikiSlug": "Tribe",
+      "type": "concept"
+    },
+    {
+      "term": "State (polity)",
+      "matchText": "is at the other end",
+      "wikiSlug": "State_(polity)",
+      "type": "concept"
+    },
+    {
+      "term": "Kinship",
+      "matchText": "kinship",
+      "wikiSlug": "Kinship",
+      "type": "concept"
+    },
+    {
+      "term": "Tribute",
+      "matchText": "tribute",
+      "wikiSlug": "Tribute",
+      "type": "concept"
+    },
+    {
+      "term": "Quipu",
+      "matchText": "knotted-cord accounting system",
+      "wikiSlug": "Quipu",
+      "type": "technology"
+    },
+    {
+      "term": "Pachacuti",
+      "matchText": "conqueror Pachacuti",
+      "wikiSlug": "Pachacuti",
+      "type": "person"
+    },
+    {
+      "term": "Black Warrior River",
+      "matchText": "Black Warrior valley in Alabama",
+      "wikiSlug": "Black_Warrior_River",
+      "type": "place"
+    },
+    {
+      "term": "Cuzco",
+      "matchText": "Cuzco-basin polity",
+      "wikiSlug": "Cusco",
+      "type": "place"
+    }
   ],
   "4": [
-    { "term": "Illinois Confederacy", "matchText": "Illinois Confederacy", "wikiSlug": "Illinois_Confederation", "type": "people" },
-    { "term": "Algonquian languages", "matchText": "Algonquian-speaking", "wikiSlug": "Algonquian_languages", "type": "language" },
-    { "term": "Chaco Canyon", "matchText": "Chaco Canyon system", "wikiSlug": "Chaco_Canyon", "type": "place" },
-    { "term": "Chimor", "matchText": "Chimor kingdom", "wikiSlug": "Chimor", "type": "people" },
-    { "term": "Chan Chan", "matchText": "Chan Chan", "wikiSlug": "Chan_Chan", "type": "place" },
-    { "term": "Great Pyramid of Giza", "matchText": "Great Pyramid of Giza", "wikiSlug": "Great_Pyramid_of_Giza", "type": "place" },
-    { "term": "El Mirador", "matchText": "El Mirador", "wikiSlug": "El_Mirador", "type": "place" },
-    { "term": "La Danta", "matchText": "La Danta", "wikiSlug": "El_Mirador", "type": "object" },
-    { "term": "Draft animal", "matchText": "draft animals", "wikiSlug": "Working_animal", "type": "concept" },
-    { "term": "Trappists", "matchText": "Trappist monks", "wikiSlug": "Trappists", "type": "institution" },
-    { "term": "Red cedar", "matchText": "red cedar", "wikiSlug": "Juniperus_virginiana", "type": "object" },
-    { "term": "Equinox", "matchText": "equinoxes", "wikiSlug": "Equinox", "type": "concept" },
-    { "term": "Solstice", "matchText": "solstices", "wikiSlug": "Solstice", "type": "concept" },
-    { "term": "Kaifeng", "matchText": "Kaifeng", "wikiSlug": "Kaifeng", "type": "place" },
-    { "term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place" },
-    { "term": "Córdoba", "matchText": "Córdoba", "wikiSlug": "C%C3%B3rdoba,_Spain", "type": "place" },
-    { "term": "London", "matchText": "London", "wikiSlug": "History_of_London", "type": "place" },
-    { "term": "Philadelphia", "matchText": "Philadelphia", "wikiSlug": "History_of_Philadelphia", "type": "place" },
-    { "term": "Tenochtitlan", "matchText": "Tenochtitlan", "wikiSlug": "Tenochtitlan", "type": "place" },
-    { "term": "Tikal", "matchText": "Classic Tikal", "wikiSlug": "Tikal", "type": "place" },
-    { "term": "Song dynasty", "matchText": "Song-dynasty China", "wikiSlug": "Song_dynasty", "type": "institution" }
+    {
+      "term": "Illinois Confederacy",
+      "matchText": "Illinois Confederacy",
+      "wikiSlug": "Illinois_Confederation",
+      "type": "people"
+    },
+    {
+      "term": "Algonquian languages",
+      "matchText": "Algonquian-speaking",
+      "wikiSlug": "Algonquian_languages",
+      "type": "language"
+    },
+    {
+      "term": "Chaco Canyon",
+      "matchText": "Chaco Canyon system",
+      "wikiSlug": "Chaco_Canyon",
+      "type": "place"
+    },
+    {
+      "term": "Chimor",
+      "matchText": "Chimor kingdom",
+      "wikiSlug": "Chimor",
+      "type": "people"
+    },
+    {
+      "term": "Chan Chan",
+      "matchText": "Chan Chan",
+      "wikiSlug": "Chan_Chan",
+      "type": "place"
+    },
+    {
+      "term": "Great Pyramid of Giza",
+      "matchText": "Great Pyramid of Giza",
+      "wikiSlug": "Great_Pyramid_of_Giza",
+      "type": "place"
+    },
+    {
+      "term": "El Mirador",
+      "matchText": "El Mirador",
+      "wikiSlug": "El_Mirador",
+      "type": "place"
+    },
+    {
+      "term": "La Danta",
+      "matchText": "La Danta",
+      "wikiSlug": "El_Mirador",
+      "type": "object"
+    },
+    {
+      "term": "Draft animal",
+      "matchText": "draft animals",
+      "wikiSlug": "Working_animal",
+      "type": "concept"
+    },
+    {
+      "term": "Trappists",
+      "matchText": "Trappist monks",
+      "wikiSlug": "Trappists",
+      "type": "institution"
+    },
+    {
+      "term": "Red cedar",
+      "matchText": "red cedar",
+      "wikiSlug": "Juniperus_virginiana",
+      "type": "object"
+    },
+    {
+      "term": "Equinox",
+      "matchText": "equinoxes",
+      "wikiSlug": "Equinox",
+      "type": "concept"
+    },
+    {
+      "term": "Solstice",
+      "matchText": "solstices",
+      "wikiSlug": "Solstice",
+      "type": "concept"
+    },
+    {
+      "term": "Kaifeng",
+      "matchText": "Kaifeng",
+      "wikiSlug": "Kaifeng",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Córdoba",
+      "matchText": "Córdoba",
+      "wikiSlug": "C%C3%B3rdoba,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "History_of_London",
+      "type": "place"
+    },
+    {
+      "term": "Philadelphia",
+      "matchText": "Philadelphia",
+      "wikiSlug": "History_of_Philadelphia",
+      "type": "place"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
+    },
+    {
+      "term": "Tikal",
+      "matchText": "Classic Tikal",
+      "wikiSlug": "Tikal",
+      "type": "place"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song-dynasty China",
+      "wikiSlug": "Song_dynasty",
+      "type": "institution"
+    },
+    {
+      "term": "Cahokia",
+      "matchText": "Cahokia",
+      "wikiSlug": "Cahokia",
+      "type": "place"
+    },
+    {
+      "term": "Monks Mound",
+      "matchText": "Monks Mound",
+      "wikiSlug": "Monks_Mound",
+      "type": "place"
+    }
   ],
   "5": [
-    { "term": "Litter (vehicle)", "matchText": "litter", "wikiSlug": "Litter_(vehicle)", "type": "object" },
-    { "term": "Marine-shell disc beads", "matchText": "marine-shell disc beads", "wikiSlug": "Shell_money", "type": "object" },
-    { "term": "Peregrine falcon", "matchText": "peregrine falcon", "wikiSlug": "Peregrine_falcon", "type": "object" },
-    { "term": "Embossed copper plates", "matchText": "embossed copper plates", "wikiSlug": "Mississippian_copper_plates", "type": "object" },
-    { "term": "Above World", "matchText": "Above World", "wikiSlug": "Mississippian_culture", "type": "concept" },
-    { "term": "Beneath World", "matchText": "Beneath World", "wikiSlug": "Mississippian_culture", "type": "concept" },
-    { "term": "Red Horn", "matchText": "Red Horn", "wikiSlug": "Red_Horn", "type": "deity" },
-    { "term": "Morning Star", "matchText": "Morning Star", "wikiSlug": "Morning_Star_(Pawnee_mythology)", "type": "deity" },
-    { "term": "Underwater Panther", "matchText": "Underwater Panther", "wikiSlug": "Underwater_panther", "type": "deity" },
-    { "term": "Corn Mother", "matchText": "Corn Mother", "wikiSlug": "Corn_Mother", "type": "deity" },
-    { "term": "Pachamama", "matchText": "Pachamama", "wikiSlug": "Pachamama", "type": "deity" },
-    { "term": "Maya Maize God", "matchText": "Maya Maize God", "wikiSlug": "Maya_maize_god", "type": "deity" },
-    { "term": "Kiva", "matchText": "kiva", "wikiSlug": "Kiva", "type": "object" },
-    { "term": "Sipapu", "matchText": "sipapu", "wikiSlug": "Sipapu", "type": "concept" },
-    { "term": "Eagle warrior", "matchText": "Aztec eagle warriors", "wikiSlug": "Eagle_warrior", "type": "concept" },
-    { "term": "Bastion", "matchText": "bastions", "wikiSlug": "Bastion", "type": "object" },
-    { "term": "Microlith", "matchText": "microliths", "wikiSlug": "Microlith", "type": "technology" },
-    { "term": "Borrow pit", "matchText": "borrow pits", "wikiSlug": "Borrow_pit", "type": "concept" },
-    { "term": "Dhegihan languages", "matchText": "Dhegihan-Siouan", "wikiSlug": "Dhegihan_languages", "type": "language" },
-    { "term": "Osage", "matchText": "Osage", "wikiSlug": "Osage_Nation", "type": "people" }
+    {
+      "term": "Litter (vehicle)",
+      "matchText": "litter",
+      "wikiSlug": "Litter_(vehicle)",
+      "type": "object"
+    },
+    {
+      "term": "Marine-shell disc beads",
+      "matchText": "marine-shell disc beads",
+      "wikiSlug": "Shell_money",
+      "type": "object"
+    },
+    {
+      "term": "Peregrine falcon",
+      "matchText": "peregrine falcon",
+      "wikiSlug": "Peregrine_falcon",
+      "type": "object"
+    },
+    {
+      "term": "Embossed copper plates",
+      "matchText": "embossed copper plates",
+      "wikiSlug": "Mississippian_copper_plates",
+      "type": "object"
+    },
+    {
+      "term": "Above World",
+      "matchText": "Above World",
+      "wikiSlug": "Mississippian_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Beneath World",
+      "matchText": "Beneath World",
+      "wikiSlug": "Mississippian_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Red Horn",
+      "matchText": "Red Horn",
+      "wikiSlug": "Red_Horn",
+      "type": "deity"
+    },
+    {
+      "term": "Morning Star",
+      "matchText": "Morning Star",
+      "wikiSlug": "Morning_Star_(Pawnee_mythology)",
+      "type": "deity"
+    },
+    {
+      "term": "Underwater Panther",
+      "matchText": "Underwater Panther",
+      "wikiSlug": "Underwater_panther",
+      "type": "deity"
+    },
+    {
+      "term": "Corn Mother",
+      "matchText": "Corn Mother",
+      "wikiSlug": "Corn_Mother",
+      "type": "deity"
+    },
+    {
+      "term": "Pachamama",
+      "matchText": "Pachamama",
+      "wikiSlug": "Pachamama",
+      "type": "deity"
+    },
+    {
+      "term": "Maya Maize God",
+      "matchText": "Maya Maize God",
+      "wikiSlug": "Maya_maize_god",
+      "type": "deity"
+    },
+    {
+      "term": "Kiva",
+      "matchText": "kiva",
+      "wikiSlug": "Kiva",
+      "type": "object"
+    },
+    {
+      "term": "Sipapu",
+      "matchText": "sipapu",
+      "wikiSlug": "Sipapu",
+      "type": "concept"
+    },
+    {
+      "term": "Eagle warrior",
+      "matchText": "Aztec eagle warriors",
+      "wikiSlug": "Eagle_warrior",
+      "type": "concept"
+    },
+    {
+      "term": "Bastion",
+      "matchText": "bastions",
+      "wikiSlug": "Bastion",
+      "type": "object"
+    },
+    {
+      "term": "Microlith",
+      "matchText": "microliths",
+      "wikiSlug": "Microlith",
+      "type": "technology"
+    },
+    {
+      "term": "Borrow pit",
+      "matchText": "borrow pits",
+      "wikiSlug": "Borrow_pit",
+      "type": "concept"
+    },
+    {
+      "term": "Dhegihan languages",
+      "matchText": "Dhegihan-Siouan",
+      "wikiSlug": "Dhegihan_languages",
+      "type": "language"
+    },
+    {
+      "term": "Osage",
+      "matchText": "Osage",
+      "wikiSlug": "Osage_Nation",
+      "type": "people"
+    }
   ],
   "6": [
-    { "term": "Black Warrior River", "matchText": "Black Warrior River", "wikiSlug": "Black_Warrior_River", "type": "place" },
-    { "term": "Etowah River", "matchText": "Etowah River", "wikiSlug": "Etowah_River", "type": "place" },
-    { "term": "Craig Mound", "matchText": "Craig Mound", "wikiSlug": "Spiro_Mounds", "type": "object" },
-    { "term": "Gorget", "matchText": "gorgets", "wikiSlug": "Gorget", "type": "object" },
-    { "term": "Ocmulgee", "matchText": "Ocmulgee", "wikiSlug": "Ocmulgee_Mounds_National_Historical_Park", "type": "place" },
-    { "term": "Town Creek", "matchText": "Town Creek", "wikiSlug": "Town_Creek_Indian_Mound", "type": "place" },
-    { "term": "Caddo", "matchText": "Caddo", "wikiSlug": "Caddo", "type": "people" },
-    { "term": "Whelk", "matchText": "whelk and conch", "wikiSlug": "Whelk", "type": "object" },
-    { "term": "Galena", "matchText": "galena", "wikiSlug": "Galena", "type": "object" },
-    { "term": "Smelting", "matchText": "smelted", "wikiSlug": "Smelting", "type": "technology" },
-    { "term": "Native copper", "matchText": "native copper", "wikiSlug": "Native_copper", "type": "object" },
-    { "term": "Spondylus", "matchText": "tropical", "wikiSlug": "Spondylus", "type": "object" },
-    { "term": "Forked eye", "matchText": "forked-eye", "wikiSlug": "Southeastern_Ceremonial_Complex", "type": "concept" },
-    { "term": "Cross-in-circle", "matchText": "cross-in-circle", "wikiSlug": "Sun_cross", "type": "concept" },
-    { "term": "Bilobed arrow", "matchText": "bilobed arrow", "wikiSlug": "Southeastern_Ceremonial_Complex", "type": "object" },
-    { "term": "Endemic warfare", "matchText": "endemic warfare", "wikiSlug": "Mississippian_culture", "type": "concept" },
-    { "term": "Arm-ring", "matchText": "arm-rings", "wikiSlug": "Arm_ring", "type": "object" },
-    { "term": "Prestige-gift economy", "matchText": "prestige-gift economies", "wikiSlug": "Gift_economy", "type": "concept" },
-    { "term": "Chunkey stone", "matchText": "chunkey stone", "wikiSlug": "Chunkey", "type": "object" },
-    { "term": "Angel Mounds", "matchText": "Angel", "wikiSlug": "Angel_Mounds", "type": "place" },
-    { "term": "Kincaid", "matchText": "Kincaid", "wikiSlug": "Kincaid_Mounds_State_Historic_Site", "type": "place" }
+    {
+      "term": "Black Warrior River",
+      "matchText": "Black Warrior River",
+      "wikiSlug": "Black_Warrior_River",
+      "type": "place"
+    },
+    {
+      "term": "Etowah River",
+      "matchText": "Etowah River",
+      "wikiSlug": "Etowah_River",
+      "type": "place"
+    },
+    {
+      "term": "Craig Mound",
+      "matchText": "Craig Mound",
+      "wikiSlug": "Spiro_Mounds",
+      "type": "object"
+    },
+    {
+      "term": "Gorget",
+      "matchText": "gorgets",
+      "wikiSlug": "Gorget",
+      "type": "object"
+    },
+    {
+      "term": "Ocmulgee",
+      "matchText": "Ocmulgee",
+      "wikiSlug": "Ocmulgee_Mounds_National_Historical_Park",
+      "type": "place"
+    },
+    {
+      "term": "Town Creek",
+      "matchText": "Town Creek",
+      "wikiSlug": "Town_Creek_Indian_Mound",
+      "type": "place"
+    },
+    {
+      "term": "Caddo",
+      "matchText": "Caddo",
+      "wikiSlug": "Caddo",
+      "type": "people"
+    },
+    {
+      "term": "Whelk",
+      "matchText": "whelk and conch",
+      "wikiSlug": "Whelk",
+      "type": "object"
+    },
+    {
+      "term": "Galena",
+      "matchText": "galena",
+      "wikiSlug": "Galena",
+      "type": "object"
+    },
+    {
+      "term": "Smelting",
+      "matchText": "smelted",
+      "wikiSlug": "Smelting",
+      "type": "technology"
+    },
+    {
+      "term": "Native copper",
+      "matchText": "native copper",
+      "wikiSlug": "Native_copper",
+      "type": "object"
+    },
+    {
+      "term": "Spondylus",
+      "matchText": "tropical",
+      "wikiSlug": "Spondylus",
+      "type": "object"
+    },
+    {
+      "term": "Forked eye",
+      "matchText": "forked-eye",
+      "wikiSlug": "Southeastern_Ceremonial_Complex",
+      "type": "concept"
+    },
+    {
+      "term": "Cross-in-circle",
+      "matchText": "cross-in-circle",
+      "wikiSlug": "Sun_cross",
+      "type": "concept"
+    },
+    {
+      "term": "Bilobed arrow",
+      "matchText": "bilobed arrow",
+      "wikiSlug": "Southeastern_Ceremonial_Complex",
+      "type": "object"
+    },
+    {
+      "term": "Endemic warfare",
+      "matchText": "endemic warfare",
+      "wikiSlug": "Mississippian_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Arm-ring",
+      "matchText": "arm-rings",
+      "wikiSlug": "Arm_ring",
+      "type": "object"
+    },
+    {
+      "term": "Prestige-gift economy",
+      "matchText": "prestige-gift economies",
+      "wikiSlug": "Gift_economy",
+      "type": "concept"
+    },
+    {
+      "term": "Chunkey stone",
+      "matchText": "chunkey stone",
+      "wikiSlug": "Chunkey",
+      "type": "object"
+    },
+    {
+      "term": "Angel Mounds",
+      "matchText": "Angel",
+      "wikiSlug": "Angel_Mounds",
+      "type": "place"
+    },
+    {
+      "term": "Kincaid",
+      "matchText": "Kincaid",
+      "wikiSlug": "Kincaid_Mounds_State_Historic_Site",
+      "type": "place"
+    }
   ],
   "7": [
-    { "term": "Sapa Inca", "matchText": "Sapa Inca", "wikiSlug": "Sapa_Inca", "type": "concept" },
-    { "term": "Inti", "matchText": "sun god Inti", "wikiSlug": "Inti", "type": "deity" },
-    { "term": "Jesuits", "matchText": "Jesuit priests", "wikiSlug": "Society_of_Jesus", "type": "institution" },
-    { "term": "History of Louisiana", "matchText": "History of Louisiana", "wikiSlug": "Antoine-Simon_Le_Page_du_Pratz", "type": "work" },
-    { "term": "Perpetual sacred fire", "matchText": "perpetual sacred fire", "wikiSlug": "Sacred_fire_of_Vesta", "type": "religion" },
-    { "term": "New Fire ceremony", "matchText": "Aztec New Fire ceremony", "wikiSlug": "New_Fire_ceremony", "type": "religion" },
-    { "term": "Suns (Natchez)", "matchText": "ruling lineage, kin of the Great Sun", "wikiSlug": "Natchez_people", "type": "concept" },
-    { "term": "Stinkards", "matchText": "Stinkards", "wikiSlug": "Natchez_people", "type": "concept" },
-    { "term": "Exogamy", "matchText": "exogamy", "wikiSlug": "Exogamy", "type": "concept" },
-    { "term": "Matrilineality", "matchText": "matrilineal", "wikiSlug": "Matrilineality", "type": "concept" },
-    { "term": "Pipiltin", "matchText": "pipiltin", "wikiSlug": "Pipiltin", "type": "concept" },
-    { "term": "Honoreds", "matchText": "Honoreds", "wikiSlug": "Natchez_people", "type": "concept" },
-    { "term": "Fort Rosalie", "matchText": "Fort Rosalie", "wikiSlug": "Fort_Rosalie", "type": "place" },
-    { "term": "Choctaw", "matchText": "Choctaw forces", "wikiSlug": "Choctaw", "type": "people" },
-    { "term": "Saint-Domingue", "matchText": "Saint-Domingue", "wikiSlug": "Saint-Domingue", "type": "place" },
-    { "term": "Chickasaw", "matchText": "Chickasaw", "wikiSlug": "Chickasaw", "type": "people" },
-    { "term": "St. Catherine Creek", "matchText": "St. Catherine Creek", "wikiSlug": "St._Catherine_Creek", "type": "place" }
+    {
+      "term": "Sapa Inca",
+      "matchText": "Sapa Inca",
+      "wikiSlug": "Sapa_Inca",
+      "type": "concept"
+    },
+    {
+      "term": "Inti",
+      "matchText": "sun god Inti",
+      "wikiSlug": "Inti",
+      "type": "deity"
+    },
+    {
+      "term": "Jesuits",
+      "matchText": "Jesuit priests",
+      "wikiSlug": "Society_of_Jesus",
+      "type": "institution"
+    },
+    {
+      "term": "History of Louisiana",
+      "matchText": "History of Louisiana",
+      "wikiSlug": "Antoine-Simon_Le_Page_du_Pratz",
+      "type": "work"
+    },
+    {
+      "term": "Perpetual sacred fire",
+      "matchText": "perpetual sacred fire",
+      "wikiSlug": "Sacred_fire_of_Vesta",
+      "type": "religion"
+    },
+    {
+      "term": "New Fire ceremony",
+      "matchText": "Aztec New Fire ceremony",
+      "wikiSlug": "New_Fire_ceremony",
+      "type": "religion"
+    },
+    {
+      "term": "Suns (Natchez)",
+      "matchText": "ruling lineage, kin of the Great Sun",
+      "wikiSlug": "Natchez_people",
+      "type": "concept"
+    },
+    {
+      "term": "Stinkards",
+      "matchText": "Stinkards",
+      "wikiSlug": "Natchez_people",
+      "type": "concept"
+    },
+    {
+      "term": "Exogamy",
+      "matchText": "exogamy",
+      "wikiSlug": "Exogamy",
+      "type": "concept"
+    },
+    {
+      "term": "Matrilineality",
+      "matchText": "matrilineal",
+      "wikiSlug": "Matrilineality",
+      "type": "concept"
+    },
+    {
+      "term": "Pipiltin",
+      "matchText": "pipiltin",
+      "wikiSlug": "Pipiltin",
+      "type": "concept"
+    },
+    {
+      "term": "Honoreds",
+      "matchText": "Honoreds",
+      "wikiSlug": "Natchez_people",
+      "type": "concept"
+    },
+    {
+      "term": "Fort Rosalie",
+      "matchText": "Fort Rosalie",
+      "wikiSlug": "Fort_Rosalie",
+      "type": "place"
+    },
+    {
+      "term": "Choctaw",
+      "matchText": "Choctaw forces",
+      "wikiSlug": "Choctaw",
+      "type": "people"
+    },
+    {
+      "term": "Saint-Domingue",
+      "matchText": "Saint-Domingue",
+      "wikiSlug": "Saint-Domingue",
+      "type": "place"
+    },
+    {
+      "term": "Chickasaw",
+      "matchText": "Chickasaw",
+      "wikiSlug": "Chickasaw",
+      "type": "people"
+    },
+    {
+      "term": "St. Catherine Creek",
+      "matchText": "St. Catherine Creek",
+      "wikiSlug": "St._Catherine_Creek",
+      "type": "place"
+    },
+    {
+      "term": "Natchez people",
+      "matchText": "Natchez",
+      "wikiSlug": "Natchez_people",
+      "type": "people"
+    }
   ],
   "8": [
-    { "term": "Medieval Warm Period", "matchText": "Medieval Warm Period", "wikiSlug": "Medieval_Warm_Period", "type": "concept" },
-    { "term": "Sediment records", "matchText": "sediment records", "wikiSlug": "Sediment", "type": "concept" },
-    { "term": "Chaco Canyon", "matchText": "Chaco Canyon", "wikiSlug": "Chaco_Canyon", "type": "place" },
-    { "term": "Tiwanaku", "matchText": "Tiwanaku", "wikiSlug": "Tiwanaku", "type": "people" },
-    { "term": "Wari", "matchText": "Wari states", "wikiSlug": "Wari_Empire", "type": "people" },
-    { "term": "Greenland Norse", "matchText": "Norse farming colony in Greenland", "wikiSlug": "Norse_colonization_of_North_America", "type": "people" },
-    { "term": "Classic Maya collapse", "matchText": "Classic Maya collapse", "wikiSlug": "Classic_Maya_collapse", "type": "event" },
-    { "term": "Paramount chiefdom", "matchText": "paramount chiefdom", "wikiSlug": "Paramount_chief", "type": "concept" },
-    { "term": "Cahokian wood crisis", "matchText": "wood crisis", "wikiSlug": "Cahokia", "type": "concept" },
-    { "term": "Mississippi River", "matchText": "Mississippi flooding", "wikiSlug": "Mississippi_River", "type": "place" },
-    { "term": "Tree-ring dating", "matchText": "tree-ring and related paleoclimate work", "wikiSlug": "Dendrochronology", "type": "technology" }
+    {
+      "term": "Medieval Warm Period",
+      "matchText": "Medieval Warm Period",
+      "wikiSlug": "Medieval_Warm_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Sediment records",
+      "matchText": "sediment records",
+      "wikiSlug": "Sediment",
+      "type": "concept"
+    },
+    {
+      "term": "Chaco Canyon",
+      "matchText": "Chaco Canyon",
+      "wikiSlug": "Chaco_Canyon",
+      "type": "place"
+    },
+    {
+      "term": "Tiwanaku",
+      "matchText": "Tiwanaku",
+      "wikiSlug": "Tiwanaku",
+      "type": "people"
+    },
+    {
+      "term": "Wari",
+      "matchText": "Wari states",
+      "wikiSlug": "Wari_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Greenland Norse",
+      "matchText": "Norse farming colony in Greenland",
+      "wikiSlug": "Norse_colonization_of_North_America",
+      "type": "people"
+    },
+    {
+      "term": "Classic Maya collapse",
+      "matchText": "Classic Maya collapse",
+      "wikiSlug": "Classic_Maya_collapse",
+      "type": "event"
+    },
+    {
+      "term": "Paramount chiefdom",
+      "matchText": "paramount chiefdom",
+      "wikiSlug": "Paramount_chief",
+      "type": "concept"
+    },
+    {
+      "term": "Cahokian wood crisis",
+      "matchText": "wood crisis",
+      "wikiSlug": "Cahokia",
+      "type": "concept"
+    },
+    {
+      "term": "Mississippi River",
+      "matchText": "Mississippi flooding",
+      "wikiSlug": "Mississippi_River",
+      "type": "place"
+    },
+    {
+      "term": "Tree-ring dating",
+      "matchText": "tree-ring and related paleoclimate work",
+      "wikiSlug": "Dendrochronology",
+      "type": "technology"
+    }
   ],
   "9": [
-    { "term": "Conquistador", "matchText": "conquistador", "wikiSlug": "Conquistador", "type": "concept" },
-    { "term": "Inca Empire", "matchText": "Inca Empire in Peru", "wikiSlug": "Inca_Empire", "type": "people" },
-    { "term": "War dogs", "matchText": "war dogs", "wikiSlug": "Dogs_in_warfare", "type": "concept" },
-    { "term": "Entrada", "matchText": "entrada", "wikiSlug": "Entrada_(exploration)", "type": "concept" },
-    { "term": "Rodrigo Rangel", "matchText": "Rodrigo Rangel", "wikiSlug": "Hernando_de_Soto", "type": "person" },
-    { "term": "Gonzalo Fernández de Oviedo", "matchText": "Gonzalo Fernández de Oviedo", "wikiSlug": "Gonzalo_Fern%C3%A1ndez_de_Oviedo_y_Vald%C3%A9s", "type": "person" },
-    { "term": "La Florida del Inca", "matchText": "La Florida del Inca", "wikiSlug": "La_Florida_del_Inca", "type": "work" },
-    { "term": "Atahualpa", "matchText": "Inca emperor Atahualpa", "wikiSlug": "Atahualpa", "type": "person" },
-    { "term": "Cajamarca", "matchText": "Cajamarca", "wikiSlug": "Battle_of_Cajamarca", "type": "place" },
-    { "term": "Epidemiology", "matchText": "epidemiology", "wikiSlug": "Epidemiology", "type": "concept" },
-    { "term": "Acquired immunity", "matchText": "no acquired immunity", "wikiSlug": "Adaptive_immune_system", "type": "concept" },
-    { "term": "Smallpox", "matchText": "smallpox", "wikiSlug": "Smallpox", "type": "concept" },
-    { "term": "Slave raiding", "matchText": "slave raiding", "wikiSlug": "Slavery_among_Native_Americans_in_the_United_States", "type": "concept" },
-    { "term": "Pizarro", "matchText": "Pizarro's army", "wikiSlug": "Francisco_Pizarro", "type": "person" },
-    { "term": "Mississippi River", "matchText": "de Soto's death on the Mississippi", "wikiSlug": "Mississippi_River", "type": "place" }
+    {
+      "term": "Conquistador",
+      "matchText": "conquistador",
+      "wikiSlug": "Conquistador",
+      "type": "concept"
+    },
+    {
+      "term": "Inca Empire",
+      "matchText": "Inca Empire in Peru",
+      "wikiSlug": "Inca_Empire",
+      "type": "people"
+    },
+    {
+      "term": "War dogs",
+      "matchText": "war dogs",
+      "wikiSlug": "Dogs_in_warfare",
+      "type": "concept"
+    },
+    {
+      "term": "Entrada",
+      "matchText": "entrada",
+      "wikiSlug": "Entrada_(exploration)",
+      "type": "concept"
+    },
+    {
+      "term": "Rodrigo Rangel",
+      "matchText": "Rodrigo Rangel",
+      "wikiSlug": "Hernando_de_Soto",
+      "type": "person"
+    },
+    {
+      "term": "Gonzalo Fernández de Oviedo",
+      "matchText": "Gonzalo Fernández de Oviedo",
+      "wikiSlug": "Gonzalo_Fern%C3%A1ndez_de_Oviedo_y_Vald%C3%A9s",
+      "type": "person"
+    },
+    {
+      "term": "La Florida del Inca",
+      "matchText": "La Florida del Inca",
+      "wikiSlug": "La_Florida_del_Inca",
+      "type": "work"
+    },
+    {
+      "term": "Atahualpa",
+      "matchText": "Inca emperor Atahualpa",
+      "wikiSlug": "Atahualpa",
+      "type": "person"
+    },
+    {
+      "term": "Cajamarca",
+      "matchText": "Cajamarca",
+      "wikiSlug": "Battle_of_Cajamarca",
+      "type": "place"
+    },
+    {
+      "term": "Epidemiology",
+      "matchText": "epidemiology",
+      "wikiSlug": "Epidemiology",
+      "type": "concept"
+    },
+    {
+      "term": "Acquired immunity",
+      "matchText": "no acquired immunity",
+      "wikiSlug": "Adaptive_immune_system",
+      "type": "concept"
+    },
+    {
+      "term": "Smallpox",
+      "matchText": "smallpox",
+      "wikiSlug": "Smallpox",
+      "type": "concept"
+    },
+    {
+      "term": "Slave raiding",
+      "matchText": "slave raiding",
+      "wikiSlug": "Slavery_among_Native_Americans_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Pizarro",
+      "matchText": "Pizarro's army",
+      "wikiSlug": "Francisco_Pizarro",
+      "type": "person"
+    },
+    {
+      "term": "Mississippi River",
+      "matchText": "de Soto's death on the Mississippi",
+      "wikiSlug": "Mississippi_River",
+      "type": "place"
+    },
+    {
+      "term": "Hernando de Soto",
+      "matchText": "de Soto",
+      "wikiSlug": "Hernando_de_Soto",
+      "type": "people"
+    }
   ],
   "10": [
-    { "term": "Coalescent society", "matchText": "coalescence", "wikiSlug": "Coalescent_society", "type": "concept" },
-    { "term": "Catawba", "matchText": "Catawba", "wikiSlug": "Catawba_people", "type": "people" },
-    { "term": "Choctaw", "matchText": "Choctaw", "wikiSlug": "Choctaw", "type": "people" },
-    { "term": "Chickasaw", "matchText": "Chickasaw", "wikiSlug": "Chickasaw", "type": "people" },
-    { "term": "Caddo confederacies", "matchText": "confederacies of the Red River country", "wikiSlug": "Caddo", "type": "people" },
-    { "term": "Piedmont", "matchText": "piedmont", "wikiSlug": "Piedmont_(United_States)", "type": "place" },
-    { "term": "Postclassic Maya", "matchText": "Postclassic political forms", "wikiSlug": "Mesoamerican_chronology#Postclassic_period", "type": "concept" },
-    { "term": "Cahokia Mounds", "matchText": "Cahokia Mounds", "wikiSlug": "Cahokia", "type": "place" },
-    { "term": "UNESCO World Heritage Site", "matchText": "global list", "wikiSlug": "World_Heritage_Site", "type": "concept" },
-    { "term": "Parthenon", "matchText": "Parthenon", "wikiSlug": "Parthenon", "type": "place" },
-    { "term": "Yucatán", "matchText": "Yucatán", "wikiSlug": "Yucat%C3%A1n_Peninsula", "type": "place" }
+    {
+      "term": "Coalescent society",
+      "matchText": "coalescence",
+      "wikiSlug": "Coalescent_society",
+      "type": "concept"
+    },
+    {
+      "term": "Catawba",
+      "matchText": "Catawba",
+      "wikiSlug": "Catawba_people",
+      "type": "people"
+    },
+    {
+      "term": "Choctaw",
+      "matchText": "Choctaw",
+      "wikiSlug": "Choctaw",
+      "type": "people"
+    },
+    {
+      "term": "Chickasaw",
+      "matchText": "Chickasaw",
+      "wikiSlug": "Chickasaw",
+      "type": "people"
+    },
+    {
+      "term": "Caddo confederacies",
+      "matchText": "confederacies of the Red River country",
+      "wikiSlug": "Caddo",
+      "type": "people"
+    },
+    {
+      "term": "Piedmont",
+      "matchText": "piedmont",
+      "wikiSlug": "Piedmont_(United_States)",
+      "type": "place"
+    },
+    {
+      "term": "Postclassic Maya",
+      "matchText": "Postclassic political forms",
+      "wikiSlug": "Mesoamerican_chronology#Postclassic_period",
+      "type": "concept"
+    },
+    {
+      "term": "Cahokia Mounds",
+      "matchText": "Cahokia Mounds",
+      "wikiSlug": "Cahokia",
+      "type": "place"
+    },
+    {
+      "term": "UNESCO World Heritage Site",
+      "matchText": "global list",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
+    },
+    {
+      "term": "Parthenon",
+      "matchText": "Parthenon",
+      "wikiSlug": "Parthenon",
+      "type": "place"
+    },
+    {
+      "term": "Yucatán",
+      "matchText": "Yucatán",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula",
+      "type": "place"
+    }
   ]
 }
