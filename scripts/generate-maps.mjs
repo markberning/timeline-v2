@@ -114,13 +114,17 @@ function parsePrompts(md) {
   const chapters = []
   let i = firstChapterIdx
   while (i < lines.length) {
-    const m = lines[i].match(/^## Chapter (\d+)\s*[—-]\s*(.+)$/)
+    // Accept both `## Chapter N — Title` (newer/redo files) and bare
+    // `## Chapter N` (older files like mesopotamia/indus-valley, where the
+    // title lives in the prose body). Title is cosmetic (console logging
+    // only) — the body, which carries the real title, is what is sent.
+    const m = lines[i].match(/^## Chapter (\d+)\s*(?:[—-]\s*(.+?))?\s*$/)
     if (!m) {
       i++
       continue
     }
     const number = Number(m[1])
-    const title = m[2].trim()
+    const title = (m[2] || `Chapter ${m[1]}`).trim()
     const start = i
     let end = lines.length
     for (let j = i + 1; j < lines.length; j++) {
