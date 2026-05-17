@@ -23,6 +23,12 @@
       "targetTl": "teotihuacan",
       "targetChapter": 6,
       "blurb": "Teotihuacan in the Valley of Mexico was just past its peak in the seventh century CE and beginning the slow decline that would empty the city by 750 CE. The Mesoamerican imperial peer of the Middle Horizon Andean states, it ran a comparable urban-administrative project on the same continent at the same time — and like Tiwanaku and Wari, it left no decipherable writing about itself."
+    },
+    {
+      "matchText": "Andean Kingdoms",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 8,
+      "blurb": "The Middle Horizon opens where the regional kingdoms ended — Moche and Nazca gone, Wari and Tiwanaku rising to impose the Andes' first true imperial order."
     }
   ],
   "2": [
@@ -63,6 +69,18 @@
       "targetTl": "andean-kingdoms",
       "targetChapter": 5,
       "blurb": "The 2012 discovery of the Castillo de Huarmey royal mausoleum on the north-central coast extended back into Wari territory the same warrior-priest burial pattern documented in the Andean Kingdoms TL for the Moche elite — Lord of Sipán, Lady of Cao, the priestess of San José de Moro. The Wari elite at Huarmey were buried in the same regional tradition, with similar quantities of gold and craft offerings, but with the addition of distinctive Wari iconography on the textiles."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "Wari's road-and-storehouse empire was being built in the same centuries as Tang China's — two unconnected continents independently inventing the administered state."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 4,
+      "blurb": "Wari and Tiwanaku peaked while the Classic Maya did — the Americas running two great contemporary civilizations, north and south."
     }
   ],
   "4": [
@@ -83,6 +101,12 @@
       "targetTl": "tang-song-china",
       "targetChapter": 3,
       "blurb": "The Tang Dynasty maintained an active diplomatic and tributary network across East and Central Asia — embassies to and from Korea, Japan, the Tibetan Empire, the Uyghur Khaganate, the Abbasid caliphate after 750 — all documented in detailed surviving Tang records. The contrast with the Andean record is total: the Tang kept letters, treaties, and embassy logs, while Tiwanaku and Wari left no comparable diplomatic documentation despite running comparable interstate relations."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Two empires side by side, sharing a frontier without conquering each other, is a configuration the Old World rarely managed — compare Byzantium's tense coexistences."
     }
   ],
   "5": [
@@ -175,6 +199,18 @@
       "targetTl": "inca-empire",
       "targetChapter": 4,
       "blurb": "Pachacuti is the founding figure the Inca Empire narrative builds its imperial machine around. The Wari template described in this chapter — planned administrative cities, the Qhapaq Ñan road network, the qollqa storehouses, the wamani provincial structure, mit'a labor tribute — is exactly the institutional infrastructure Pachacuti and his successors picked up and scaled to continental size in the fifteenth century. The Inca chapter on the imperial machine is, in a real sense, the second running of the Wari template."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "The Middle Horizon collapse left the template the Inca would later reuse — roads, khipus, vertical control — to build the largest empire the Americas ever saw."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Wari and Tiwanaku unravelled around 1000 CE, in the same window as the Classic Maya collapse — drought and political failure across the hemisphere."
     }
   ]
 }
