@@ -23,9 +23,34 @@
       "targetTl": "maurya-empire",
       "targetChapter": 6,
       "blurb": "Ashoka's dharma experiment — the first ruler in history to carve his regrets into stone — had transformed the Maurya Empire into a moral experiment. But by the time the Han dynasty was founded, the Mauryas were in their final decades, their bureaucratic reach contracting and their successors scrambling for legitimacy. Two empires founded on radically different visions of rule: Liu Bang's pragmatic minimalism and Ashoka's ethical maximalism."
+    },
+    {
+      "matchText": "Qin Dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 7,
+      "blurb": "The Han rose from the wreckage of the Qin collapse — keeping Qin's centralized machine but softening its Legalist edge, the formula that lasted 400 years."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 2,
+      "blurb": "Han expansion planted commanderies in the Korean peninsula — the channel through which Chinese statecraft and writing entered Korea."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 7,
+      "blurb": "Han China and Maurya/post-Maurya India were the two great classical empires of the era, soon linked by the Silk Road the Han opened."
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "The Han's defining external problem was the Xiongnu steppe confederation — the same nomad-empire dynamic the Mongols would later perfect."
+    }
+  ],
   "3": [
     {
       "matchText": "had taken from the Xiongnu under the Qin",
@@ -44,6 +69,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 6,
       "blurb": "Rome at its height under Augustus and his successors consumed Chinese silk in quantities that alarmed Roman moralists. Pliny the Elder complained that silk imports were draining Rome's gold reserves to the east. The two empires never made direct diplomatic contact, but Roman gold coins have been found in Vietnam and Chinese silk fragments in Roman Egypt — the Silk Road connected civilizations that barely knew the other existed."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 4,
+      "blurb": "Emperor Wu's expansionist, monopoly-running state is China's analogue of the Mauryan imperial machine — and his envoys reached the Indo-Greek world."
     }
   ],
   "4": [
@@ -52,6 +83,12 @@
       "targetTl": "ancient-greece",
       "targetChapter": 5,
       "blurb": "Herodotus, writing around 440 BCE, invented historical narrative in the Western tradition — weaving together oral accounts, personal observation, and ethnographic description into a continuous story. Sima Qian, working three centuries later, invented the biographical approach independently. Both are called 'the Father of History' in their respective traditions, and both were willing to include unflattering truths alongside heroic narratives."
+    },
+    {
+      "matchText": "Qin Dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 6,
+      "blurb": "Sima Qian wrote the Grand Historian's record partly to make sense of the Qin catastrophe — history as the dynasty's mirror."
     }
   ],
   "5": [
@@ -74,6 +111,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 8,
       "blurb": "Parthian merchants at the Persian Gulf told Ban Chao's envoy Gan Ying that the sea voyage to Rome took two years and could kill him with homesickness. The Parthians had every reason to keep China and Rome from establishing direct contact — they were the middlemen profiting from the Silk Road trade between them. Persia's position between East and West made it the gatekeeper of transcontinental commerce."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 6,
+      "blurb": "The Eastern Han's Buddhist arrival opens the religious transformation that Gupta India was simultaneously driving from the other end of the Silk Road."
     }
   ],
   "7": [
