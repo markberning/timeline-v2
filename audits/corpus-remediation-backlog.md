@@ -22,7 +22,8 @@ passes. Corrected:
 
 Still **separate from the 17-civ build and the goryeo-korea trial.** Status
 legend: ☐ not started · ◐ in progress · ☑ done. **Item IDs are stable** (1–12
-original; 13–16 added 2026-05-17 — gaps found on review) — other docs
+original; 13–16 added 2026-05-17 — gaps found on review; 17 added 2026-05-17 —
+def-blurb gate, the canon's missing audit) — other docs
 cross-reference them; tiers regroup, IDs don't move.
 
 **Sequencing principle.** Within Tier B: cheap/deterministic text first
@@ -221,11 +222,24 @@ open all/some/none question forever. User sign-off needed only on the threshold.
 | # | Item | Why it's not LOW | Status |
 |---|------|------------------|--------|
 | 12 | Summary-bullets coherence (G13) | Only ungated reader surface; building it **also gates the 17 new civs**, not just backfills the 100 — dual value beats single-purpose retro | ☐ |
+| 17 | **def-blurb coherence gate (G12-def)** | The authored `definition` glossary blurb is the new canonical "no good EN page" answer, but it is currently UNGATED — it lives in `.glossary-links` JSON, NOT covered by the 5-persona narrative audit. G12 skips `def:` entries entirely. Gates the 17 too; **HARD DEPENDENCY for #4** (which mass-authors blurbs). | ☐ |
 
-Bumped from LOW. Its old priority was set by retro cost alone and ignored that
-the deliverable is a *forward gate*. Build `audit-summaries.mjs` (text: do the
-bullets faithfully represent the chapter?) alongside the 17 pipeline; the
-corpus-retro then falls out as a Tier-B-style run.
+**#12 / #17** bumped from LOW: their priority was mis-set by retro cost alone,
+ignoring that each deliverable is a *forward gate* that also covers the 17.
+- **#12:** build `audit-summaries.mjs` (text: do the bullets faithfully
+  represent the chapter?) alongside the 17 pipeline.
+- **#17 (build first):** a cheap text pass — same model call as G12 but judging
+  "does this blurb correctly and on-subject describe its term?" instead of a
+  wiki page. Coordinator-owned (gate infra). **Must land before remediation
+  #4 authors blurbs en masse**, or #4's output is an unaudited reader surface.
+
+**Standing method principle (applies to #3/#4/#5/#16 — every model gate retro):**
+gates only ever inspect FAILs, so a *false PASS* (a wrong page/blurb the model
+waved through) is invisible. Each retro must **sample-review N PASSes per civ**,
+not just triage the FAIL list — `feedback_gate_pass_not_correct`. Also owed:
+**prove Fix #2** (the generate-maps prose-bleed global rule) with one deliberate
+test (bleed-prone scene sentence, no per-instance bullet, regen, confirm) before
+the 17 rely on it — currently only verified as injected, not as obeyed.
 
 ## Tier E — Defer (low yield)
 

@@ -29,9 +29,21 @@ The `definition` field (authored house-voice glossary blurb, `wikiSlug:""`) is f
 ### Deploy model — DECIDED (do not reopen)
 The **production-branch idea is discarded** (user, 2026-05-17). `scripts/promote.mjs` exists untracked but is **not used, not tracked, not activated** — do not resurrect it. Publish path is the documented one: **commit locally freely; on the user's explicit per-push OK, `git push origin main` + clean atomic `rm -rf out && npm run build && npx wrangler deploy`** (the manual deploy is authoritative). The "germanic civs turned off" race was a multi-session artifact; single-session + clean atomic deploy is the mitigation. PUBLISH GATE (CLAUDE.md): never push/deploy without explicit per-push say-so — overrides the global always-push.
 
+### Concurrent work model — DECIDED (user, 2026-05-17)
+Two streams run in parallel: **the 17 new civs** and **the corpus-remediation backlog**. "Just two sessions on `main`" is forbidden — that is the exact cause of the historical "germanic civs turned off" prod race. The safe model:
+
+- **Isolated git worktrees, one branch per stream.** The-17 → `feat/the-17`; remediation → `chore/corpus-remediation`. No shared working tree (kills parse/`git add` clobber). Background remediation agent runs `isolation: "worktree"`.
+- **File ownership (hard boundary):**
+  - *The-17 owns:* new-civ files (`narratives/`, `reference-data/`, `content/.*-{newtl}.json`, `public/maps/{newtl}/`, `map-prompts/{newtl}.md`, `audits/{newtl}.audit.md`), `navigator-tls.ts`, `tl-chains.ts`, `parse-narratives.ts` NARRATIVE_FILES registration.
+  - *Remediation owns:* existing-100 `content/.*-links-*` / waiver files, `audits/corpus-remediation-backlog.md`.
+  - *Coordinator-only (NEITHER stream edits ad hoc):* `CLAUDE.md`, gate scripts (`scripts/audit-*.mjs`, `lint-*`, `ship-check`, `build-static`), shared pipeline infra. Prevents the orphaned-edit mess. Shared-infra changes are serialized through the coordinator on `main`.
+- **No stream pushes or deploys.** Streams commit to their own branch only. The coordinator (on the user's explicit OK) merges both → `main` → ONE clean atomic `rm -rf out && npm run build && npx wrangler deploy`. The **shipped-page guard in `build-static.mjs` is the concurrency safety net** — a stale/partial merge cannot reach prod because the build fails closed.
+- **Regenerated artifacts are never committed by a stream** (`content/*.json`, `public/offline/*`, `public/search-index.json` — all gitignored). They regenerate at the single publish build.
+- **Dependency:** backlog **#17 (def-blurb coherence gate)** must exist before remediation **#4** mass-authors `definition` blurbs (those blurbs are otherwise an ungated reader surface). Build #17 (coordinator/Tier-D) first or gate #4 behind it.
+
 ## Operational notes (stable)
 - **Heredoc/Python file edits: foreground only.** A `python3 - <<EOF` (or chained heredoc commits) inside a backgrounded/`&&` chain mangles silently — apply edits in the foreground, background only plain `parse`/gate command chains.
-- `content/` is fully gitignored. `git add -f` the new TL's `.event-links/.glossary-links/.cross-links/.link-waivers/.event-slug-waivers/.glossary-slug-waivers/.map-waivers-{tl}.json` + every reference `.cross-links-{ref}.json` touched in the backward pass. `content/{tl}.json` + `public/offline/*.manifest.json` are gitignored regenerated artifacts (do NOT commit). `public/search-index.json` IS tracked (commit if it changed).
+- `content/` is fully gitignored. `git add -f` the new TL's `.event-links/.glossary-links/.cross-links/.link-waivers/.event-slug-waivers/.glossary-slug-waivers/.map-waivers-{tl}.json` + every reference `.cross-links-{ref}.json` touched in the backward pass. `content/{tl}.json`, `public/offline/*.manifest.json`, and **`public/search-index.json`** are gitignored regenerated artifacts — **do NOT commit** (search-index was untracked 2026-05-17: it is a 12 MB pure build output and the worst cross-stream merge point; the build regenerates it via prebuild→parse, every deploy ships a fresh one).
 - Commit email `mebernin@gmail.com`; trailer `Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>`.
 - `.env.local` has `GOOGLE_API_KEY` only; gate scripts run on Gemini `gemini-3-pro-preview`. Claude Code's OAuth cannot be used by the standalone gate scripts.
 - Restart `npm run dev` after `npm run parse` (in-memory cache in `lib/data.ts`).

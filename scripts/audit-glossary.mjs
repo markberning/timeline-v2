@@ -20,9 +20,14 @@
 // Resolution order for "no good EN article" (canonical, 2026-05-17):
 //   1. authored `definition` blurb (no wikiSlug) — parse normalizes it to a
 //      `def:` token; GlossarySheet shows the house-voice prose and NO wiki
-//      link. SKIPPED here (auto-PASS): nothing to land on wrong, and the
-//      blurb is 5-persona-audited author prose. This is the PREFERRED answer
-//      and scales to thin-EN-coverage civs without degrading the tap.
+//      link. SKIPPED here (auto-PASS): there is no external page to land on
+//      wrong, so a wiki-coherence gate has nothing to check. CAVEAT: the
+//      blurb text itself is currently UNGATED — it is authored in the
+//      .glossary-links JSON, which the 5-persona NARRATIVE audit does NOT
+//      cover. A def-blurb coherence check (G12-def, like G13 for summaries)
+//      is owed — corpus-remediation backlog #17; hard dependency before any
+//      mass blurb authoring (#4). Still the PREFERRED answer (scales to
+//      thin-coverage civs without degrading the tap), just not yet gated.
 //   2. correct broad on-thread PARENT slug (same civ/era/thread).
 //   3. residual waived per-term in
 //      content/.glossary-slug-waivers-<tlId>.json ({ "<term>": "reason" }),
@@ -81,10 +86,12 @@ for (const e of entries) {
   // Authored-blurb entries: parse-narratives normalizes a `definition`
   // with no wikiSlug to a stable `def:` token, and GlossarySheet renders
   // the house-voice blurb with NO Wikipedia link. There is no external
-  // page for the reader to land on wrong, and the blurb is author-written
-  // + 5-persona-audited prose — so there is nothing for a coherence gate
-  // to check. Skip the model call (PASS), mirroring G10 skipping slug-less
-  // events whose curated description renders standalone. This makes the
+  // page for the reader to land on wrong, so THIS wiki-coherence gate has
+  // nothing to check — skip the model call (PASS), mirroring G10 skipping
+  // slug-less events whose curated description renders standalone. NOTE the
+  // blurb text itself is not audited here and is NOT covered by the
+  // narrative 5-persona audit (it lives in .glossary-links JSON); a
+  // separate def-blurb coherence gate is owed (backlog #17). This makes the
   // authored `definition` the canonical "no good EN article" answer for
   // glossary (the slug-waiver remains for the broad-parent-stretch case).
   if (isDef(e)) {
