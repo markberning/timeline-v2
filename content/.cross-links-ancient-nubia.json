@@ -5,6 +5,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 3,
       "blurb": "While A-Group villages were trading eggshell-thin pottery with predynastic Egypt around 3800 BCE, the Sumerian town of Uruk in southern Iraq was expanding into what most archaeologists consider the first real city in human history. Two zones of the Bronze Age crossing the complexity threshold on parallel tracks, neither aware of the other."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "Nubia, the 'Land of the Bow,' was Egypt's mirror civilization on the upper Nile — as old, but recorded mostly through its powerful neighbor, the way small states near Sumer were."
     }
   ],
   "2": [
@@ -12,19 +18,37 @@
       "matchText": "the Royal Tombs of Ur",
       "targetTl": "mesopotamia",
       "targetChapter": 4,
-      "blurb": "While Lower Nubia went silent under Egyptian pressure, Sumerian city-states were fighting each other in the wars that filled the Royal Tombs of Ur \u2014 sacrificed attendants, lapis lazuli jewelry, Queen Puabi's crown, and the grim archaeology of Early Dynastic Sumer. The same stretch of time that was an archaeological blank in Nubia was one of the best-documented centuries in Mesopotamia."
+      "blurb": "While Lower Nubia went silent under Egyptian pressure, Sumerian city-states were fighting each other in the wars that filled the Royal Tombs of Ur — sacrificed attendants, lapis lazuli jewelry, Queen Puabi's crown, and the grim archaeology of Early Dynastic Sumer. The same stretch of time that was an archaeological blank in Nubia was one of the best-documented centuries in Mesopotamia."
     },
     {
       "matchText": "walled towns like Kot Diji were being built",
       "targetTl": "indus-valley",
       "targetChapter": 3,
-      "blurb": "Kot Diji was one of the Early Harappan walled towns going up along the Indus during the same centuries that Nubia was emptying out. The Indus Valley was rumbling toward its own urban explosion \u2014 Mohenjo-daro and Harappa were about 400 years away."
+      "blurb": "Kot Diji was one of the Early Harappan walled towns going up along the Indus during the same centuries that Nubia was emptying out. The Indus Valley was rumbling toward its own urban explosion — Mohenjo-daro and Harappa were about 400 years away."
     },
     {
       "matchText": "the first Longshan walled towns were going up along the Yellow River",
       "targetTl": "ancient-china",
       "targetChapter": 6,
       "blurb": "The Longshan period along the Yellow River was the era of China's first rammed-earth walled towns, Taosi's astronomical observatory, and the early warlord states that would eventually coalesce into the legendary Xia dynasty. Walled defensive architecture was in the air across the Bronze Age world; Nubia, Mesopotamia, Indus, and China were all doing it simultaneously."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "Nubia's post-collapse recovery (the A-Group to Kerma arc) is the same village-to-kingdom climb playing out independently along its own great river."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 3,
+      "blurb": "Like the Indus, much of early Nubia speaks through material culture, not text — a civilization read from pottery and graves."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "Kerma's rise parallels the competitive chiefdom-to-state process Mesopotamia ran two millennia earlier."
     }
   ],
   "3": [
@@ -32,19 +56,31 @@
       "matchText": "a king named Sargon of Akkad was only a couple of generations away from stitching it all into the world's first empire",
       "targetTl": "mesopotamia",
       "targetChapter": 5,
-      "blurb": "Sargon of Akkad (c. 2334 BCE) was the first ruler in recorded history to build what we would recognize as an empire: a single king ruling multiple conquered city-states through appointed governors, standardized measures, and a professional army. The Akkadian empire was the political experiment that every later Mesopotamian dynasty \u2014 and arguably every later empire anywhere \u2014 was measured against."
+      "blurb": "Sargon of Akkad (c. 2334 BCE) was the first ruler in recorded history to build what we would recognize as an empire: a single king ruling multiple conquered city-states through appointed governors, standardized measures, and a professional army. The Akkadian empire was the political experiment that every later Mesopotamian dynasty — and arguably every later empire anywhere — was measured against."
     },
     {
       "matchText": "Mohenjo-daro** and its gridded contemporaries had already crossed the urban threshold around 2600 BCE",
       "targetTl": "indus-valley",
       "targetChapter": 4,
-      "blurb": "By the time Kerma's Western Deffufa began rising around 2400 BCE, Mohenjo-daro was already in full flower \u2014 a gridded, planned city with standardized bricks, covered drains, and a Great Bath at its center. The Indus Valley had crossed the urban threshold about two centuries before Nubia did."
+      "blurb": "By the time Kerma's Western Deffufa began rising around 2400 BCE, Mohenjo-daro was already in full flower — a gridded, planned city with standardized bricks, covered drains, and a Great Bath at its center. The Indus Valley had crossed the urban threshold about two centuries before Nubia did."
     },
     {
       "matchText": "coming into their own as fortified proto-state centers",
       "targetTl": "ancient-china",
       "targetChapter": 6,
-      "blurb": "Shimao was a massive stone-walled site on a loess plateau in northern China, active around 2300\u20131800 BCE, with terraced fortifications, jade caches, and foundation pits containing decapitated young women's heads. Like Kerma, it was a 'state with teeth' \u2014 organized, hierarchical, and willing to spend human lives on ritual architecture."
+      "blurb": "Shimao was a massive stone-walled site on a loess plateau in northern China, active around 2300–1800 BCE, with terraced fortifications, jade caches, and foundation pits containing decapitated young women's heads. Like Kerma, it was a 'state with teeth' — organized, hierarchical, and willing to spend human lives on ritual architecture."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 4,
+      "blurb": "Harkhuf's trade expeditions show Nubia plugged into a long-distance exchange web — incense, ivory, gold — like the Indus-Mesopotamia sea trade."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 3,
+      "blurb": "Nubia, like the Andes, built complex society on trade and ritual authority rather than on conquest of a great rival."
     }
   ],
   "4": [
@@ -52,7 +88,13 @@
       "matchText": "China's hangtu walls were two expressions",
       "targetTl": "ancient-china",
       "targetChapter": 6,
-      "blurb": "Rammed earth \u2014 hangtu \u2014 was the foundational Chinese fortification technology, invented during the Longshan period and continuously refined for four thousand years. It built the walls of every Chinese city from Shimao onward, and eventually the earliest Great Wall itself. Egypt's Middle Kingdom forts and China's hangtu walls were two Bronze Age answers to the same problem of projecting state power along a frontier."
+      "blurb": "Rammed earth — hangtu — was the foundational Chinese fortification technology, invented during the Longshan period and continuously refined for four thousand years. It built the walls of every Chinese city from Shimao onward, and eventually the earliest Great Wall itself. Egypt's Middle Kingdom forts and China's hangtu walls were two Bronze Age answers to the same problem of projecting state power along a frontier."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "The Egyptian fortress chain along the cataracts is a frontier-control system as deliberate as China's later walled borders."
     }
   ],
   "5": [
@@ -60,25 +102,37 @@
       "matchText": "the largest royal grave (Queen Puabi's",
       "targetTl": "mesopotamia",
       "targetChapter": 4,
-      "blurb": "Queen Puabi was buried at Ur around 2600 BCE with 74 sacrificed attendants laid out in rows beside her coffin \u2014 the largest known death pit from the Royal Tombs of Ur. Leonard Woolley's 1920s excavations found the attendants still wearing their jewelry and clutching musical instruments, as if they had been arranged to sleep at the moment of death. It is the Mesopotamian parallel to Kerma's royal tumuli, and an order of magnitude smaller."
+      "blurb": "Queen Puabi was buried at Ur around 2600 BCE with 74 sacrificed attendants laid out in rows beside her coffin — the largest known death pit from the Royal Tombs of Ur. Leonard Woolley's 1920s excavations found the attendants still wearing their jewelry and clutching musical instruments, as if they had been arranged to sleep at the moment of death. It is the Mesopotamian parallel to Kerma's royal tumuli, and an order of magnitude smaller."
     },
     {
       "matchText": "through Shimao to Kerma",
       "targetTl": "ancient-china",
       "targetChapter": 6,
-      "blurb": "Shimao's foundation pits contain the severed heads of young women walled up as ritual deposits beneath the city's stone gates. The early Shang royal tombs at Yinxu continued the practice a thousand years later with sacrificed retainers in the dozens per tomb. China and Mesopotamia both practiced Bronze Age retainer sacrifice at smaller scale than Kerma did \u2014 and the Indus Valley, alone among the four cradles, did not practice it at all."
+      "blurb": "Shimao's foundation pits contain the severed heads of young women walled up as ritual deposits beneath the city's stone gates. The early Shang royal tombs at Yinxu continued the practice a thousand years later with sacrificed retainers in the dozens per tomb. China and Mesopotamia both practiced Bronze Age retainer sacrifice at smaller scale than Kerma did — and the Indus Valley, alone among the four cradles, did not practice it at all."
     },
     {
       "matchText": "The Harappan cities produced almost no royal burials",
       "targetTl": "indus-valley",
       "targetChapter": 8,
-      "blurb": "The absence of royal burials is one of the strangest features of the Indus Valley Civilization. No kings in gold masks, no deep shaft tombs, no retainer pits, no grave-goods arms races. The Harappan elite \u2014 whoever they were \u2014 decided not to commemorate themselves the way the elites of Ur, Kerma, and Shang China did. Indus Valley Ch 8 is the detailed version of this mystery."
+      "blurb": "The absence of royal burials is one of the strangest features of the Indus Valley Civilization. No kings in gold masks, no deep shaft tombs, no retainer pits, no grave-goods arms races. The Harappan elite — whoever they were — decided not to commemorate themselves the way the elites of Ur, Kerma, and Shang China did. Indus Valley Ch 8 is the detailed version of this mystery."
     },
     {
       "matchText": "closest analogue in the Bronze Age is the Indus Valley",
       "targetTl": "indus-valley",
       "targetChapter": 6,
-      "blurb": "The Indus Valley's 'invisible rulers' problem is the closest parallel to Kerma's silence. Harappan cities left behind thousands of short inscriptions on stone seals \u2014 the Indus script \u2014 which no one has ever deciphered, and which almost nobody thinks is full phonetic writing. The two great missing voices of the Bronze Age (Kerma and Indus) are missing in different ways, but both force the same question: how does a state this sophisticated govern itself without the thing the other great ancient states treated as a fundamental tool?"
+      "blurb": "The Indus Valley's 'invisible rulers' problem is the closest parallel to Kerma's silence. Harappan cities left behind thousands of short inscriptions on stone seals — the Indus script — which no one has ever deciphered, and which almost nobody thinks is full phonetic writing. The two great missing voices of the Bronze Age (Kerma and Indus) are missing in different ways, but both force the same question: how does a state this sophisticated govern itself without the thing the other great ancient states treated as a fundamental tool?"
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 8,
+      "blurb": "Classic Kerma — monumental deffufa, royal tumuli, mass retainer sacrifice — is a fully realized African kingdom, as sophisticated as any Bronze Age peer."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "Kerma's retainer burials echo the royal death-pits of Ur — early kingship asserting cosmic power over life itself."
     }
   ],
   "6": [
@@ -86,7 +140,7 @@
       "matchText": "ancient Mesopotamian tongue of Hammurabi",
       "targetTl": "mesopotamia",
       "targetChapter": 7,
-      "blurb": "Hammurabi was the Old Babylonian king (c. 1792\u20131750 BCE) whose famous law code is one of the earliest substantial legal texts in human history. He spoke Akkadian, a Semitic language in the same broad family as the tongue of the Hyksos rulers who were about to take over the Egyptian delta. The linguistic affinity is coincidence \u2014 there's no evidence of direct contact \u2014 but it means the Hyksos would have been closer in language to Babylon than to the Egypt they ruled."
+      "blurb": "Hammurabi was the Old Babylonian king (c. 1792–1750 BCE) whose famous law code is one of the earliest substantial legal texts in human history. He spoke Akkadian, a Semitic language in the same broad family as the tongue of the Hyksos rulers who were about to take over the Egyptian delta. The linguistic affinity is coincidence — there's no evidence of direct contact — but it means the Hyksos would have been closer in language to Babylon than to the Egypt they ruled."
     }
   ],
   "7": [
@@ -94,25 +148,31 @@
       "matchText": "Sargon of Akkad had begun appointing his own loyal governors to rule conquered city-states roughly 1,800 years earlier",
       "targetTl": "mesopotamia",
       "targetChapter": 5,
-      "blurb": "Sargon of Akkad was the first ruler we know of who systematically replaced the local elites of conquered cities with his own appointed governors \u2014 the basic idea that every later ancient empire, including the Egyptian New Kingdom's Viceroy of Kush system, would eventually rediscover. The Viceroy of Kush was innovative for Egypt, but the underlying concept was 1,800 years old."
+      "blurb": "Sargon of Akkad was the first ruler we know of who systematically replaced the local elites of conquered cities with his own appointed governors — the basic idea that every later ancient empire, including the Egyptian New Kingdom's Viceroy of Kush system, would eventually rediscover. The Viceroy of Kush was innovative for Egypt, but the underlying concept was 1,800 years old."
     },
     {
       "matchText": "The Kassite kings of Babylon",
       "targetTl": "mesopotamia",
       "targetChapter": 8,
-      "blurb": "The Kassites were a non-Semitic dynasty that took over Babylon after the Old Babylonian state collapsed, and they ruled Mesopotamia for about four centuries \u2014 the longest single dynasty in Babylonian history. Their kings wrote fawning letters to the Egyptian pharaoh begging for gold from the Nubian mines. The Amarna Letters are the other end of Nubia's gold pipeline."
+      "blurb": "The Kassites were a non-Semitic dynasty that took over Babylon after the Old Babylonian state collapsed, and they ruled Mesopotamia for about four centuries — the longest single dynasty in Babylonian history. Their kings wrote fawning letters to the Egyptian pharaoh begging for gold from the Nubian mines. The Amarna Letters are the other end of Nubia's gold pipeline."
     },
     {
       "matchText": "the terrifying Neo-Assyrian empire that would dominate the Near East three centuries later",
       "targetTl": "mesopotamia",
       "targetChapter": 10,
-      "blurb": "The Neo-Assyrian empire (roughly 900\u2013600 BCE) was the largest empire the ancient Near East had ever seen: ruthlessly efficient, industrial in its cruelty, and the first state to systematically use mass deportation as a tool of imperial control. It eventually conquered Egypt itself \u2014 defeating the Kushite pharaohs who had briefly held the throne after Nubia's absorption of the Amun cult."
+      "blurb": "The Neo-Assyrian empire (roughly 900–600 BCE) was the largest empire the ancient Near East had ever seen: ruthlessly efficient, industrial in its cruelty, and the first state to systematically use mass deportation as a tool of imperial control. It eventually conquered Egypt itself — defeating the Kushite pharaohs who had briefly held the throne after Nubia's absorption of the Amun cult."
     },
     {
       "matchText": "governed everything from the Aegean to the Indus with a similar layered provincial system",
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
-      "blurb": "The Achaemenid Persian Empire that inherited the layered provincial model from Egypt was itself running on an Elamite bureaucratic backbone. Its 30,000-tablet Persepolis Fortification Archive \u2014 the day-to-day administrative paperwork of the largest ancient state in history \u2014 was written in Elamite cuneiform, not Persian, by scribes trained in the old Susa chancery tradition. The satrapies Cyrus and Darius managed their empire through were, in their working language, a direct extension of the Elamite kingdom that Ashurbanipal thought he had destroyed a century earlier."
+      "blurb": "The Achaemenid Persian Empire that inherited the layered provincial model from Egypt was itself running on an Elamite bureaucratic backbone. Its 30,000-tablet Persepolis Fortification Archive — the day-to-day administrative paperwork of the largest ancient state in history — was written in Elamite cuneiform, not Persian, by scribes trained in the old Susa chancery tradition. The satrapies Cyrus and Darius managed their empire through were, in their working language, a direct extension of the Elamite kingdom that Ashurbanipal thought he had destroyed a century earlier."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 10,
+      "blurb": "As a New Kingdom 'province of gold,' Nubia was the colony that funded an empire — extraction on the scale Mesopotamian imperial cores ran."
     }
   ],
   "8": [
@@ -120,7 +180,7 @@
       "matchText": "installed his own daughter **Enheduanna** as high priestess",
       "targetTl": "mesopotamia",
       "targetChapter": 5,
-      "blurb": "Enheduanna was Sargon of Akkad's daughter, installed as high priestess of the moon god at Ur around 2300 BCE. She is also the earliest known named author in human history \u2014 she composed hymns that survive on cuneiform tablets, with her name on them. Sargon used her to bind a conquered Sumerian city to his new Akkadian dynasty through ritual control \u2014 a thousand years before Egypt's kap system tried a similar trick with Nubian princes."
+      "blurb": "Enheduanna was Sargon of Akkad's daughter, installed as high priestess of the moon god at Ur around 2300 BCE. She is also the earliest known named author in human history — she composed hymns that survive on cuneiform tablets, with her name on them. Sargon used her to bind a conquered Sumerian city to his new Akkadian dynasty through ritual control — a thousand years before Egypt's kap system tried a similar trick with Nubian princes."
     },
     {
       "matchText": "the Kassite dynasty of Babylon fell",
@@ -132,7 +192,19 @@
       "matchText": "the Persians ran something similar for the sons of their satraps",
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
-      "blurb": "The 'Persians' running that court-school program were themselves a hybrid culture whose public administrative apparatus ran on the Elamite scribal tradition \u2014 Cyrus the Great titled himself 'king of Anshan' after the old Elamite highland capital, and his grandson's Behistun Inscription carved its Elamite version first, before the Old Persian or Babylonian translations. When the Persian satraps were educating their sons for imperial service, the language and scribal methods they were passing down came out of an Elamite chancery tradition reaching back to 2000 BCE."
+      "blurb": "The 'Persians' running that court-school program were themselves a hybrid culture whose public administrative apparatus ran on the Elamite scribal tradition — Cyrus the Great titled himself 'king of Anshan' after the old Elamite highland capital, and his grandson's Behistun Inscription carved its Elamite version first, before the Old Persian or Babylonian translations. When the Persian satraps were educating their sons for imperial service, the language and scribal methods they were passing down came out of an Elamite chancery tradition reaching back to 2000 BCE."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Nubia's role as cultural bridge — passing Egyptian forms south and African goods north — parallels the satrapal connector regions of the Persian world."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 9,
+      "blurb": "Napata's rise sets up the Kushite pharaohs — the colony that would conquer its colonizer, a reversal Mesopotamia's periphery powers also achieved."
     }
   ]
 }

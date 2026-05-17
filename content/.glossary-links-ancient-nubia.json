@@ -197,6 +197,12 @@
       "matchText": "University of Chicago",
       "wikiSlug": "University_of_Chicago",
       "type": "place"
+    },
+    {
+      "term": "Qustul",
+      "matchText": "Qustul",
+      "wikiSlug": "Qustul",
+      "type": "place"
     }
   ],
   "2": [
@@ -709,6 +715,12 @@
       "matchText": "papyrus",
       "wikiSlug": "Papyrus",
       "type": "concept"
+    },
+    {
+      "term": "Kerma",
+      "matchText": "Classic Kerma",
+      "wikiSlug": "Kerma",
+      "type": "place"
     }
   ],
   "6": [
@@ -1153,6 +1165,12 @@
       "matchText": "Kushite kings",
       "wikiSlug": "Twenty-fifth_Dynasty_of_Egypt",
       "type": "people"
+    },
+    {
+      "term": "Napata",
+      "matchText": "Napata",
+      "wikiSlug": "Napata",
+      "type": "place"
     }
   ]
 }
