@@ -1,429 +1,2408 @@
 {
   "1": [
-    { "term": "Antebellum", "matchText": "Antebellum", "wikiSlug": "Antebellum_South", "type": "concept" },
-    { "term": "Civil War", "matchText": "Civil War of 1861", "wikiSlug": "American_Civil_War", "type": "event" },
-    { "term": "Fort Sumter", "matchText": "guns at Fort Sumter", "wikiSlug": "Battle_of_Fort_Sumter", "type": "place" },
-    { "term": "the Constitution", "matchText": "wrote a Constitution that protected slavery", "wikiSlug": "Constitution_of_the_United_States", "type": "writing" },
-    { "term": "Atlantic slave trade", "matchText": "Atlantic slave trade", "wikiSlug": "Atlantic_slave_trade", "type": "concept" },
-    { "term": "Electoral College", "matchText": "Electoral College", "wikiSlug": "United_States_Electoral_College", "type": "institution" },
-    { "term": "House of Representatives", "matchText": "House of Representatives", "wikiSlug": "United_States_House_of_Representatives", "type": "institution" },
-    { "term": "Thomas Jefferson", "matchText": "Thomas Jefferson", "wikiSlug": "Thomas_Jefferson", "type": "person" },
-    { "term": "the franchise", "matchText": "the franchise, meaning who could vote", "wikiSlug": "Suffrage", "type": "concept" },
-    { "term": "Jacksonian democracy", "matchText": "Jacksonian democracy", "wikiSlug": "Jacksonian_democracy", "type": "concept" },
-    { "term": "the self-made man", "matchText": "self-made man", "wikiSlug": "Self-made_man", "type": "concept" },
-    { "term": "the spoils system", "matchText": "spoils system", "wikiSlug": "Spoils_system", "type": "concept" },
-    { "term": "Battle of New Orleans", "matchText": "lopsided battle at New Orleans", "wikiSlug": "Battle_of_New_Orleans", "type": "event" },
-    { "term": "coverture", "matchText": "coverture", "wikiSlug": "Coverture", "type": "concept" },
-    { "term": "herrenvolk democracy", "matchText": "herrenvolk democracy", "wikiSlug": "Herrenvolk_democracy", "type": "concept" },
-    { "term": "Pennsylvania", "matchText": "Pennsylvania disenfranchised them", "wikiSlug": "Pennsylvania", "type": "place" },
-    { "term": "the Senate", "matchText": "Every state, regardless of population, gets exactly two senators", "wikiSlug": "United_States_Senate", "type": "institution" },
-    { "term": "the U.S. Supreme Court", "matchText": "by the Supreme Court in 1857", "wikiSlug": "Supreme_Court_of_the_United_States", "type": "institution" },
-    { "term": "the Federal Writers' Project", "matchText": "Federal Writers' Project", "wikiSlug": "Federal_Writers%27_Project", "type": "institution" },
-    { "term": "the New Deal", "matchText": "New Deal", "wikiSlug": "New_Deal", "type": "concept" },
-    { "term": "the Great Depression", "matchText": "Great Depression", "wikiSlug": "Great_Depression", "type": "event" },
-    { "term": "Franklin Roosevelt", "matchText": "President Franklin Roosevelt", "wikiSlug": "Franklin_D._Roosevelt", "type": "person" },
-    { "term": "Jim Crow", "matchText": "Jim Crow", "wikiSlug": "Jim_Crow_laws", "type": "concept" },
-    { "term": "Reconstruction", "matchText": "the white South built after Reconstruction", "wikiSlug": "Reconstruction_era", "type": "event" },
-    { "term": "Missouri", "matchText": "when Missouri applied to join the Union", "wikiSlug": "Missouri", "type": "place" }
+    {
+      "term": "Antebellum",
+      "matchText": "Antebellum",
+      "wikiSlug": "Antebellum_South",
+      "type": "concept"
+    },
+    {
+      "term": "Civil War",
+      "matchText": "Civil War of 1861",
+      "wikiSlug": "American_Civil_War",
+      "type": "event"
+    },
+    {
+      "term": "Fort Sumter",
+      "matchText": "guns at Fort Sumter",
+      "wikiSlug": "Battle_of_Fort_Sumter",
+      "type": "place"
+    },
+    {
+      "term": "the Constitution",
+      "matchText": "wrote a Constitution that protected slavery",
+      "wikiSlug": "Constitution_of_the_United_States",
+      "type": "writing"
+    },
+    {
+      "term": "Atlantic slave trade",
+      "matchText": "Atlantic slave trade",
+      "wikiSlug": "Atlantic_slave_trade",
+      "type": "concept"
+    },
+    {
+      "term": "Electoral College",
+      "matchText": "Electoral College",
+      "wikiSlug": "United_States_Electoral_College",
+      "type": "institution"
+    },
+    {
+      "term": "House of Representatives",
+      "matchText": "House of Representatives",
+      "wikiSlug": "United_States_House_of_Representatives",
+      "type": "institution"
+    },
+    {
+      "term": "Thomas Jefferson",
+      "matchText": "Thomas Jefferson",
+      "wikiSlug": "Thomas_Jefferson",
+      "type": "person"
+    },
+    {
+      "term": "the franchise",
+      "matchText": "the franchise, meaning who could vote",
+      "wikiSlug": "Suffrage",
+      "type": "concept"
+    },
+    {
+      "term": "Jacksonian democracy",
+      "matchText": "Jacksonian democracy",
+      "wikiSlug": "Jacksonian_democracy",
+      "type": "concept"
+    },
+    {
+      "term": "the self-made man",
+      "matchText": "self-made man",
+      "wikiSlug": "Self-made_man",
+      "type": "concept"
+    },
+    {
+      "term": "the spoils system",
+      "matchText": "spoils system",
+      "wikiSlug": "Spoils_system",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of New Orleans",
+      "matchText": "lopsided battle at New Orleans",
+      "wikiSlug": "Battle_of_New_Orleans",
+      "type": "event"
+    },
+    {
+      "term": "coverture",
+      "matchText": "coverture",
+      "wikiSlug": "Coverture",
+      "type": "concept"
+    },
+    {
+      "term": "herrenvolk democracy",
+      "matchText": "herrenvolk democracy",
+      "wikiSlug": "Herrenvolk_democracy",
+      "type": "concept"
+    },
+    {
+      "term": "Pennsylvania",
+      "matchText": "Pennsylvania disenfranchised them",
+      "wikiSlug": "Pennsylvania",
+      "type": "place"
+    },
+    {
+      "term": "the Senate",
+      "matchText": "Every state, regardless of population, gets exactly two senators",
+      "wikiSlug": "United_States_Senate",
+      "type": "institution"
+    },
+    {
+      "term": "the U.S. Supreme Court",
+      "matchText": "by the Supreme Court in 1857",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "institution"
+    },
+    {
+      "term": "the Federal Writers' Project",
+      "matchText": "Federal Writers' Project",
+      "wikiSlug": "Federal_Writers%27_Project",
+      "type": "institution"
+    },
+    {
+      "term": "the New Deal",
+      "matchText": "New Deal",
+      "wikiSlug": "New_Deal",
+      "type": "concept"
+    },
+    {
+      "term": "the Great Depression",
+      "matchText": "Great Depression",
+      "wikiSlug": "Great_Depression",
+      "type": "event"
+    },
+    {
+      "term": "Franklin Roosevelt",
+      "matchText": "President Franklin Roosevelt",
+      "wikiSlug": "Franklin_D._Roosevelt",
+      "type": "person"
+    },
+    {
+      "term": "Jim Crow",
+      "matchText": "Jim Crow",
+      "wikiSlug": "Jim_Crow_laws",
+      "type": "concept"
+    },
+    {
+      "term": "Reconstruction",
+      "matchText": "the white South built after Reconstruction",
+      "wikiSlug": "Reconstruction_era",
+      "type": "event"
+    },
+    {
+      "term": "Missouri",
+      "matchText": "when Missouri applied to join the Union",
+      "wikiSlug": "Missouri",
+      "type": "place"
+    }
   ],
   "2": [
-    { "term": "the Whigs", "matchText": "Whigs", "wikiSlug": "Whig_Party_(United_States)", "type": "institution" },
-    { "term": "the Bank War", "matchText": "the Bank War", "wikiSlug": "Bank_War", "type": "event" },
-    { "term": "Tennessee", "matchText": "land speculation in Tennessee", "wikiSlug": "Tennessee", "type": "place" },
-    { "term": "the War of 1812", "matchText": "the treaty ending the War of 1812", "wikiSlug": "War_of_1812", "type": "event" },
-    { "term": "John Quincy Adams", "matchText": "John Quincy Adams", "wikiSlug": "John_Quincy_Adams", "type": "person" },
-    { "term": "Henry Clay", "matchText": "Henry Clay", "wikiSlug": "Henry_Clay", "type": "person" },
-    { "term": "the veto", "matchText": "presidents have a veto", "wikiSlug": "Veto", "type": "concept" },
-    { "term": "Nicholas Biddle", "matchText": "Nicholas Biddle", "wikiSlug": "Nicholas_Biddle_(banker)", "type": "person" },
-    { "term": "specie", "matchText": "specie", "wikiSlug": "Hard_money_(policy)", "type": "concept" },
-    { "term": "banknotes", "matchText": "banknotes", "wikiSlug": "Banknote", "type": "object" },
-    { "term": "Philadelphia", "matchText": "Philadelphia aristocrat", "wikiSlug": "Philadelphia", "type": "place" },
-    { "term": "central bank", "matchText": "privately run central bank", "wikiSlug": "Central_bank", "type": "concept" },
-    { "term": "hard money", "matchText": "hard-money man", "wikiSlug": "Hard_money_(policy)", "type": "concept" },
-    { "term": "secretary of the treasury", "matchText": "secretary of the treasury", "wikiSlug": "United_States_Secretary_of_the_Treasury", "type": "institution" },
-    { "term": "depression", "matchText": "a depression that lasted into the 1840s", "wikiSlug": "Depression_(economics)", "type": "concept" },
-    { "term": "patronage", "matchText": "He did not invent patronage", "wikiSlug": "Patronage", "type": "concept" },
-    { "term": "Peggy Eaton", "matchText": "Peggy Eaton", "wikiSlug": "Peggy_Eaton", "type": "person" },
-    { "term": "secretary of war", "matchText": "secretary of war", "wikiSlug": "United_States_Secretary_of_War", "type": "institution" },
-    { "term": "the cabinet", "matchText": "the other cabinet members", "wikiSlug": "Cabinet_of_the_United_States", "type": "institution" },
-    { "term": "Martin Van Buren", "matchText": "a brilliant New York operator named", "wikiSlug": "Martin_Van_Buren", "type": "person" },
-    { "term": "1832 election", "matchText": "the 1832 election", "wikiSlug": "1832_United_States_presidential_election", "type": "event" },
-    { "term": "speculation", "matchText": "a wild speculative boom", "wikiSlug": "Speculation", "type": "concept" },
-    { "term": "the Constitution", "matchText": "trampling the Constitution", "wikiSlug": "Constitution_of_the_United_States", "type": "writing" }
+    {
+      "term": "the Whigs",
+      "matchText": "Whigs",
+      "wikiSlug": "Whig_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "the Bank War",
+      "matchText": "the Bank War",
+      "wikiSlug": "Bank_War",
+      "type": "event"
+    },
+    {
+      "term": "Tennessee",
+      "matchText": "land speculation in Tennessee",
+      "wikiSlug": "Tennessee",
+      "type": "place"
+    },
+    {
+      "term": "the War of 1812",
+      "matchText": "the treaty ending the War of 1812",
+      "wikiSlug": "War_of_1812",
+      "type": "event"
+    },
+    {
+      "term": "John Quincy Adams",
+      "matchText": "John Quincy Adams",
+      "wikiSlug": "John_Quincy_Adams",
+      "type": "person"
+    },
+    {
+      "term": "Henry Clay",
+      "matchText": "Henry Clay",
+      "wikiSlug": "Henry_Clay",
+      "type": "person"
+    },
+    {
+      "term": "the veto",
+      "matchText": "presidents have a veto",
+      "wikiSlug": "Veto",
+      "type": "concept"
+    },
+    {
+      "term": "Nicholas Biddle",
+      "matchText": "Nicholas Biddle",
+      "wikiSlug": "Nicholas_Biddle_(banker)",
+      "type": "person"
+    },
+    {
+      "term": "specie",
+      "matchText": "specie",
+      "wikiSlug": "Hard_money_(policy)",
+      "type": "concept"
+    },
+    {
+      "term": "banknotes",
+      "matchText": "banknotes",
+      "wikiSlug": "Banknote",
+      "type": "object"
+    },
+    {
+      "term": "Philadelphia",
+      "matchText": "Philadelphia aristocrat",
+      "wikiSlug": "Philadelphia",
+      "type": "place"
+    },
+    {
+      "term": "central bank",
+      "matchText": "privately run central bank",
+      "wikiSlug": "Central_bank",
+      "type": "concept"
+    },
+    {
+      "term": "hard money",
+      "matchText": "hard-money man",
+      "wikiSlug": "Hard_money_(policy)",
+      "type": "concept"
+    },
+    {
+      "term": "secretary of the treasury",
+      "matchText": "secretary of the treasury",
+      "wikiSlug": "United_States_Secretary_of_the_Treasury",
+      "type": "institution"
+    },
+    {
+      "term": "depression",
+      "matchText": "a depression that lasted into the 1840s",
+      "wikiSlug": "Depression_(economics)",
+      "type": "concept"
+    },
+    {
+      "term": "patronage",
+      "matchText": "He did not invent patronage",
+      "wikiSlug": "Patronage",
+      "type": "concept"
+    },
+    {
+      "term": "Peggy Eaton",
+      "matchText": "Peggy Eaton",
+      "wikiSlug": "Peggy_Eaton",
+      "type": "person"
+    },
+    {
+      "term": "secretary of war",
+      "matchText": "secretary of war",
+      "wikiSlug": "United_States_Secretary_of_War",
+      "type": "institution"
+    },
+    {
+      "term": "the cabinet",
+      "matchText": "the other cabinet members",
+      "wikiSlug": "Cabinet_of_the_United_States",
+      "type": "institution"
+    },
+    {
+      "term": "Martin Van Buren",
+      "matchText": "a brilliant New York operator named",
+      "wikiSlug": "Martin_Van_Buren",
+      "type": "person"
+    },
+    {
+      "term": "1832 election",
+      "matchText": "the 1832 election",
+      "wikiSlug": "1832_United_States_presidential_election",
+      "type": "event"
+    },
+    {
+      "term": "speculation",
+      "matchText": "a wild speculative boom",
+      "wikiSlug": "Speculation",
+      "type": "concept"
+    },
+    {
+      "term": "the Constitution",
+      "matchText": "trampling the Constitution",
+      "wikiSlug": "Constitution_of_the_United_States",
+      "type": "writing"
+    }
   ],
   "3": [
-    { "term": "secession", "matchText": "secession", "wikiSlug": "Secession_in_the_United_States", "type": "concept" },
-    { "term": "tariff", "matchText": "A high tariff hurt the South", "wikiSlug": "Tariff", "type": "concept" },
-    { "term": "South Carolina", "matchText": "South Carolina", "wikiSlug": "South_Carolina", "type": "place" },
-    { "term": "John C. Calhoun", "matchText": "the man, because the doctrine is his", "wikiSlug": "John_C._Calhoun", "type": "person" },
-    { "term": "vice president", "matchText": "vice president of the United States", "wikiSlug": "Vice_President_of_the_United_States", "type": "institution" },
-    { "term": "cotton", "matchText": "it grew cotton and sold it to Britain", "wikiSlug": "Cotton", "type": "object" },
-    { "term": "the compact theory", "matchText": "the compact theory", "wikiSlug": "Compact_theory", "type": "concept" },
-    { "term": "the Constitution", "matchText": "the Constitution is a", "wikiSlug": "Constitution_of_the_United_States", "type": "writing" },
-    { "term": "Alien and Sedition Acts", "matchText": "the Alien and Sedition Acts", "wikiSlug": "Alien_and_Sedition_Acts", "type": "writing" },
-    { "term": "James Madison", "matchText": "Thomas Jefferson and James Madison", "wikiSlug": "James_Madison", "type": "person" },
-    { "term": "free speech", "matchText": "against a law about free speech", "wikiSlug": "Freedom_of_speech_in_the_United_States", "type": "concept" },
-    { "term": "Declaration of Independence", "matchText": "the authors of the Declaration of Independence", "wikiSlug": "United_States_Declaration_of_Independence", "type": "writing" },
-    { "term": "Henry Clay, the great compromiser", "matchText": "Henry Clay, the great compromiser", "wikiSlug": "Henry_Clay", "type": "person" },
-    { "term": "Andrew Jackson", "matchText": "Jackson left office in 1837", "wikiSlug": "Andrew_Jackson", "type": "person" },
-    { "term": "treason", "matchText": "regarded nullification as treason", "wikiSlug": "Treason", "type": "concept" },
-    { "term": "Charleston", "matchText": "Charleston harbor", "wikiSlug": "Charleston,_South_Carolina", "type": "place" },
-    { "term": "the state militia", "matchText": "the state militia", "wikiSlug": "State_defense_force", "type": "institution" },
-    { "term": "states' rights", "matchText": "the language of states' rights", "wikiSlug": "States%27_rights", "type": "concept" },
-    { "term": "the Union", "matchText": "the destruction of the Union", "wikiSlug": "Union_(American_Civil_War)", "type": "concept" },
-    { "term": "customs officers", "matchText": "bar customs officers from collecting the duty", "wikiSlug": "U.S._Customs_Service", "type": "institution" },
-    { "term": "Kentucky Resolution", "matchText": "Kentucky Resolution had used the word", "wikiSlug": "Kentucky_and_Virginia_Resolutions", "type": "writing" },
-    { "term": "Spiro Agnew", "matchText": "Spiro Agnew", "wikiSlug": "Spiro_Agnew", "type": "person" },
-    { "term": "the cast-iron man", "matchText": "the cast-iron man", "wikiSlug": "John_C._Calhoun", "type": "concept" }
+    {
+      "term": "secession",
+      "matchText": "secession",
+      "wikiSlug": "Secession_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "tariff",
+      "matchText": "A high tariff hurt the South",
+      "wikiSlug": "Tariff",
+      "type": "concept"
+    },
+    {
+      "term": "South Carolina",
+      "matchText": "South Carolina",
+      "wikiSlug": "South_Carolina",
+      "type": "place"
+    },
+    {
+      "term": "John C. Calhoun",
+      "matchText": "the man, because the doctrine is his",
+      "wikiSlug": "John_C._Calhoun",
+      "type": "person"
+    },
+    {
+      "term": "vice president",
+      "matchText": "vice president of the United States",
+      "wikiSlug": "Vice_President_of_the_United_States",
+      "type": "institution"
+    },
+    {
+      "term": "cotton",
+      "matchText": "it grew cotton and sold it to Britain",
+      "wikiSlug": "Cotton",
+      "type": "object"
+    },
+    {
+      "term": "the compact theory",
+      "matchText": "the compact theory",
+      "wikiSlug": "Compact_theory",
+      "type": "concept"
+    },
+    {
+      "term": "the Constitution",
+      "matchText": "the Constitution is a",
+      "wikiSlug": "Constitution_of_the_United_States",
+      "type": "writing"
+    },
+    {
+      "term": "Alien and Sedition Acts",
+      "matchText": "the Alien and Sedition Acts",
+      "wikiSlug": "Alien_and_Sedition_Acts",
+      "type": "writing"
+    },
+    {
+      "term": "James Madison",
+      "matchText": "Thomas Jefferson and James Madison",
+      "wikiSlug": "James_Madison",
+      "type": "person"
+    },
+    {
+      "term": "free speech",
+      "matchText": "against a law about free speech",
+      "wikiSlug": "Freedom_of_speech_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Declaration of Independence",
+      "matchText": "the authors of the Declaration of Independence",
+      "wikiSlug": "United_States_Declaration_of_Independence",
+      "type": "writing"
+    },
+    {
+      "term": "Henry Clay, the great compromiser",
+      "matchText": "Henry Clay, the great compromiser",
+      "wikiSlug": "Henry_Clay",
+      "type": "person"
+    },
+    {
+      "term": "Andrew Jackson",
+      "matchText": "Jackson left office in 1837",
+      "wikiSlug": "Andrew_Jackson",
+      "type": "person"
+    },
+    {
+      "term": "treason",
+      "matchText": "regarded nullification as treason",
+      "wikiSlug": "Treason",
+      "type": "concept"
+    },
+    {
+      "term": "Charleston",
+      "matchText": "Charleston harbor",
+      "wikiSlug": "Charleston,_South_Carolina",
+      "type": "place"
+    },
+    {
+      "term": "the state militia",
+      "matchText": "the state militia",
+      "wikiSlug": "State_defense_force",
+      "type": "institution"
+    },
+    {
+      "term": "states' rights",
+      "matchText": "the language of states' rights",
+      "wikiSlug": "States%27_rights",
+      "type": "concept"
+    },
+    {
+      "term": "the Union",
+      "matchText": "the destruction of the Union",
+      "wikiSlug": "Union_(American_Civil_War)",
+      "type": "concept"
+    },
+    {
+      "term": "customs officers",
+      "matchText": "bar customs officers from collecting the duty",
+      "wikiSlug": "U.S._Customs_Service",
+      "type": "institution"
+    },
+    {
+      "term": "Kentucky Resolution",
+      "matchText": "Kentucky Resolution had used the word",
+      "wikiSlug": "Kentucky_and_Virginia_Resolutions",
+      "type": "writing"
+    },
+    {
+      "term": "Spiro Agnew",
+      "matchText": "Spiro Agnew",
+      "wikiSlug": "Spiro_Agnew",
+      "type": "person"
+    },
+    {
+      "term": "the cast-iron man",
+      "matchText": "the cast-iron man",
+      "wikiSlug": "John_C._Calhoun",
+      "type": "concept"
+    },
+    {
+      "term": "Nullification crisis",
+      "matchText": "Nullification Crisis",
+      "wikiSlug": "Nullification_crisis",
+      "type": "concept"
+    }
   ],
   "4": [
-    { "term": "the Cherokee", "matchText": "the Cherokee", "wikiSlug": "Cherokee", "type": "people" },
-    { "term": "the Creek", "matchText": "Muscogee", "wikiSlug": "Muscogee", "type": "people" },
-    { "term": "the Choctaw", "matchText": "the Choctaw", "wikiSlug": "Choctaw", "type": "people" },
-    { "term": "the Chickasaw", "matchText": "the Chickasaw", "wikiSlug": "Chickasaw", "type": "people" },
-    { "term": "the Seminole", "matchText": "the Seminole", "wikiSlug": "Seminole", "type": "people" },
-    { "term": "the Mississippian world", "matchText": "Mississippian world", "wikiSlug": "Mississippian_culture", "type": "concept" },
-    { "term": "Five Civilized Tribes", "matchText": "Five Civilized Tribes", "wikiSlug": "Five_Civilized_Tribes", "type": "concept" },
-    { "term": "Sequoyah", "matchText": "Sequoyah", "wikiSlug": "Sequoyah", "type": "person" },
-    { "term": "Georgia", "matchText": "Georgia, in particular, simply extended state law", "wikiSlug": "Georgia_(U.S._state)", "type": "place" },
-    { "term": "Indian Territory", "matchText": "Indian Territory", "wikiSlug": "Indian_Territory", "type": "place" },
-    { "term": "Oklahoma", "matchText": "present-day Oklahoma", "wikiSlug": "Oklahoma", "type": "place" },
-    { "term": "John Marshall", "matchText": "Chief Justice", "wikiSlug": "John_Marshall", "type": "person" },
-    { "term": "domestic dependent nation", "matchText": "domestic dependent nation", "wikiSlug": "Domestic_dependent_nation", "type": "concept" },
-    { "term": "Andrew Jackson", "matchText": "the executive branch was Andrew Jackson", "wikiSlug": "Andrew_Jackson", "type": "person" },
-    { "term": "the Treaty Party", "matchText": "the Treaty Party", "wikiSlug": "Treaty_Party_(Cherokee)", "type": "concept" },
-    { "term": "Major Ridge", "matchText": "Major Ridge", "wikiSlug": "Major_Ridge", "type": "person" },
-    { "term": "Elias Boudinot", "matchText": "Elias Boudinot", "wikiSlug": "Elias_Boudinot_(Cherokee)", "type": "person" },
-    { "term": "Winfield Scott", "matchText": "General Winfield Scott", "wikiSlug": "Winfield_Scott", "type": "person" },
-    { "term": "Florida", "matchText": "in the Florida swamps", "wikiSlug": "Florida", "type": "place" },
-    { "term": "Moundville", "matchText": "Moundville", "wikiSlug": "Moundville_Archaeological_Site", "type": "place" },
-    { "term": "Etowah", "matchText": "Etowah", "wikiSlug": "Etowah_Indian_Mounds", "type": "place" },
-    { "term": "the Louisiana Purchase", "matchText": "the entire Louisiana Purchase", "wikiSlug": "Louisiana_Purchase", "type": "event" },
-    { "term": "Lancashire", "matchText": "the spinning mills of Lancashire", "wikiSlug": "Lancashire", "type": "place" }
+    {
+      "term": "the Cherokee",
+      "matchText": "the Cherokee",
+      "wikiSlug": "Cherokee",
+      "type": "people"
+    },
+    {
+      "term": "the Creek",
+      "matchText": "Muscogee",
+      "wikiSlug": "Muscogee",
+      "type": "people"
+    },
+    {
+      "term": "the Choctaw",
+      "matchText": "the Choctaw",
+      "wikiSlug": "Choctaw",
+      "type": "people"
+    },
+    {
+      "term": "the Chickasaw",
+      "matchText": "the Chickasaw",
+      "wikiSlug": "Chickasaw",
+      "type": "people"
+    },
+    {
+      "term": "the Seminole",
+      "matchText": "the Seminole",
+      "wikiSlug": "Seminole",
+      "type": "people"
+    },
+    {
+      "term": "the Mississippian world",
+      "matchText": "Mississippian world",
+      "wikiSlug": "Mississippian_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Five Civilized Tribes",
+      "matchText": "Five Civilized Tribes",
+      "wikiSlug": "Five_Civilized_Tribes",
+      "type": "concept"
+    },
+    {
+      "term": "Sequoyah",
+      "matchText": "Sequoyah",
+      "wikiSlug": "Sequoyah",
+      "type": "person"
+    },
+    {
+      "term": "Georgia",
+      "matchText": "Georgia, in particular, simply extended state law",
+      "wikiSlug": "Georgia_(U.S._state)",
+      "type": "place"
+    },
+    {
+      "term": "Indian Territory",
+      "matchText": "Indian Territory",
+      "wikiSlug": "Indian_Territory",
+      "type": "place"
+    },
+    {
+      "term": "Oklahoma",
+      "matchText": "present-day Oklahoma",
+      "wikiSlug": "Oklahoma",
+      "type": "place"
+    },
+    {
+      "term": "John Marshall",
+      "matchText": "Chief Justice",
+      "wikiSlug": "John_Marshall",
+      "type": "person"
+    },
+    {
+      "term": "domestic dependent nation",
+      "matchText": "domestic dependent nation",
+      "wikiSlug": "Domestic_dependent_nation",
+      "type": "concept"
+    },
+    {
+      "term": "Andrew Jackson",
+      "matchText": "the executive branch was Andrew Jackson",
+      "wikiSlug": "Andrew_Jackson",
+      "type": "person"
+    },
+    {
+      "term": "the Treaty Party",
+      "matchText": "the Treaty Party",
+      "wikiSlug": "Treaty_Party_(Cherokee)",
+      "type": "concept"
+    },
+    {
+      "term": "Major Ridge",
+      "matchText": "Major Ridge",
+      "wikiSlug": "Major_Ridge",
+      "type": "person"
+    },
+    {
+      "term": "Elias Boudinot",
+      "matchText": "Elias Boudinot",
+      "wikiSlug": "Elias_Boudinot_(Cherokee)",
+      "type": "person"
+    },
+    {
+      "term": "Winfield Scott",
+      "matchText": "General Winfield Scott",
+      "wikiSlug": "Winfield_Scott",
+      "type": "person"
+    },
+    {
+      "term": "Florida",
+      "matchText": "in the Florida swamps",
+      "wikiSlug": "Florida",
+      "type": "place"
+    },
+    {
+      "term": "Moundville",
+      "matchText": "Moundville",
+      "wikiSlug": "Moundville_Archaeological_Site",
+      "type": "place"
+    },
+    {
+      "term": "Etowah",
+      "matchText": "Etowah",
+      "wikiSlug": "Etowah_Indian_Mounds",
+      "type": "place"
+    },
+    {
+      "term": "the Louisiana Purchase",
+      "matchText": "the entire Louisiana Purchase",
+      "wikiSlug": "Louisiana_Purchase",
+      "type": "event"
+    },
+    {
+      "term": "Lancashire",
+      "matchText": "the spinning mills of Lancashire",
+      "wikiSlug": "Lancashire",
+      "type": "place"
+    },
+    {
+      "term": "Trail of Tears",
+      "matchText": "Trail of Tears",
+      "wikiSlug": "Trail_of_Tears",
+      "type": "concept"
+    }
   ],
   "5": [
-    { "term": "the Market Revolution", "matchText": "the Market Revolution", "wikiSlug": "Market_Revolution", "type": "concept" },
-    { "term": "Lake Erie", "matchText": "Lake Erie", "wikiSlug": "Lake_Erie", "type": "place" },
-    { "term": "New York City", "matchText": "New York City", "wikiSlug": "New_York_City", "type": "place" },
-    { "term": "the Hudson River", "matchText": "the Hudson River", "wikiSlug": "Hudson_River", "type": "place" },
-    { "term": "the Great Lakes", "matchText": "Great Lakes and the interior", "wikiSlug": "Great_Lakes", "type": "place" },
-    { "term": "steamboat", "matchText": "boats driven by steam engines", "wikiSlug": "Steamboat", "type": "technology" },
-    { "term": "the Mississippi River", "matchText": "the Mississippi", "wikiSlug": "Mississippi_River", "type": "place" },
-    { "term": "the factory system", "matchText": "factory system", "wikiSlug": "Factory_system", "type": "concept" },
-    { "term": "Samuel Morse", "matchText": "Samuel Morse", "wikiSlug": "Samuel_Morse", "type": "person" },
-    { "term": "the telegraph", "matchText": "an experimental", "wikiSlug": "Electrical_telegraph", "type": "technology" },
-    { "term": "Morse code", "matchText": "Morse code", "wikiSlug": "Morse_code", "type": "technology" },
-    { "term": "common carrier", "matchText": "common carrier", "wikiSlug": "Common_carrier", "type": "concept" },
-    { "term": "the railroads", "matchText": "railroads", "wikiSlug": "Rail_transport", "type": "technology" },
-    { "term": "Ireland", "matchText": "From Ireland", "wikiSlug": "Ireland", "type": "place" },
-    { "term": "the German states", "matchText": "From the German states", "wikiSlug": "German_Confederation", "type": "place" },
-    { "term": "nativism", "matchText": "the first organized", "wikiSlug": "Nativism_(politics)", "type": "concept" },
-    { "term": "the American Party", "matchText": "the American Party", "wikiSlug": "Know_Nothing", "type": "institution" },
-    { "term": "the Free Soil movement", "matchText": "Free Soil movement", "wikiSlug": "Free_Soil_Party", "type": "institution" },
-    { "term": "the Republican Party", "matchText": "the Republican Party", "wikiSlug": "Republican_Party_(United_States)", "type": "institution" },
-    { "term": "the Pope", "matchText": "Catholics owed allegiance to the Pope", "wikiSlug": "Pope", "type": "person" },
-    { "term": "revolutions of 1848", "matchText": "the failed European revolutions of 1848", "wikiSlug": "Revolutions_of_1848", "type": "event" },
-    { "term": "Buffalo", "matchText": "from Buffalo", "wikiSlug": "Buffalo,_New_York", "type": "place" },
-    { "term": "Liverpool", "matchText": "Liverpool", "wikiSlug": "Liverpool", "type": "place" }
+    {
+      "term": "the Market Revolution",
+      "matchText": "the Market Revolution",
+      "wikiSlug": "Market_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Lake Erie",
+      "matchText": "Lake Erie",
+      "wikiSlug": "Lake_Erie",
+      "type": "place"
+    },
+    {
+      "term": "New York City",
+      "matchText": "New York City",
+      "wikiSlug": "New_York_City",
+      "type": "place"
+    },
+    {
+      "term": "the Hudson River",
+      "matchText": "the Hudson River",
+      "wikiSlug": "Hudson_River",
+      "type": "place"
+    },
+    {
+      "term": "the Great Lakes",
+      "matchText": "Great Lakes and the interior",
+      "wikiSlug": "Great_Lakes",
+      "type": "place"
+    },
+    {
+      "term": "steamboat",
+      "matchText": "boats driven by steam engines",
+      "wikiSlug": "Steamboat",
+      "type": "technology"
+    },
+    {
+      "term": "the Mississippi River",
+      "matchText": "the Mississippi",
+      "wikiSlug": "Mississippi_River",
+      "type": "place"
+    },
+    {
+      "term": "the factory system",
+      "matchText": "factory system",
+      "wikiSlug": "Factory_system",
+      "type": "concept"
+    },
+    {
+      "term": "Samuel Morse",
+      "matchText": "Samuel Morse",
+      "wikiSlug": "Samuel_Morse",
+      "type": "person"
+    },
+    {
+      "term": "the telegraph",
+      "matchText": "an experimental",
+      "wikiSlug": "Electrical_telegraph",
+      "type": "technology"
+    },
+    {
+      "term": "Morse code",
+      "matchText": "Morse code",
+      "wikiSlug": "Morse_code",
+      "type": "technology"
+    },
+    {
+      "term": "common carrier",
+      "matchText": "common carrier",
+      "wikiSlug": "Common_carrier",
+      "type": "concept"
+    },
+    {
+      "term": "the railroads",
+      "matchText": "railroads",
+      "wikiSlug": "Rail_transport",
+      "type": "technology"
+    },
+    {
+      "term": "Ireland",
+      "matchText": "From Ireland",
+      "wikiSlug": "Ireland",
+      "type": "place"
+    },
+    {
+      "term": "the German states",
+      "matchText": "From the German states",
+      "wikiSlug": "German_Confederation",
+      "type": "place"
+    },
+    {
+      "term": "nativism",
+      "matchText": "the first organized",
+      "wikiSlug": "Nativism_(politics)",
+      "type": "concept"
+    },
+    {
+      "term": "the American Party",
+      "matchText": "the American Party",
+      "wikiSlug": "Know_Nothing",
+      "type": "institution"
+    },
+    {
+      "term": "the Free Soil movement",
+      "matchText": "Free Soil movement",
+      "wikiSlug": "Free_Soil_Party",
+      "type": "institution"
+    },
+    {
+      "term": "the Republican Party",
+      "matchText": "the Republican Party",
+      "wikiSlug": "Republican_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "the Pope",
+      "matchText": "Catholics owed allegiance to the Pope",
+      "wikiSlug": "Pope",
+      "type": "person"
+    },
+    {
+      "term": "revolutions of 1848",
+      "matchText": "the failed European revolutions of 1848",
+      "wikiSlug": "Revolutions_of_1848",
+      "type": "event"
+    },
+    {
+      "term": "Buffalo",
+      "matchText": "from Buffalo",
+      "wikiSlug": "Buffalo,_New_York",
+      "type": "place"
+    },
+    {
+      "term": "Liverpool",
+      "matchText": "Liverpool",
+      "wikiSlug": "Liverpool",
+      "type": "place"
+    }
   ],
   "6": [
-    { "term": "King Cotton", "matchText": "King Cotton", "wikiSlug": "King_Cotton", "type": "concept" },
-    { "term": "James Henry Hammond", "matchText": "James Henry Hammond", "wikiSlug": "James_Henry_Hammond", "type": "person" },
-    { "term": "the Atlantic economy", "matchText": "whole Atlantic economy", "wikiSlug": "Atlantic_World", "type": "concept" },
-    { "term": "Lancashire", "matchText": "the mills of Lancashire in England", "wikiSlug": "Lancashire", "type": "place" },
-    { "term": "New England", "matchText": "the mills of New England", "wikiSlug": "New_England", "type": "place" },
-    { "term": "Eli Whitney", "matchText": "Eli Whitney", "wikiSlug": "Eli_Whitney", "type": "person" },
-    { "term": "short-staple cotton", "matchText": "short-staple cotton", "wikiSlug": "Gossypium_hirsutum", "type": "object" },
-    { "term": "tobacco", "matchText": "with tobacco soil exhausted", "wikiSlug": "Cultivation_of_tobacco", "type": "object" },
-    { "term": "the planter class", "matchText": "they require precise description", "wikiSlug": "Planter_class", "type": "concept" },
-    { "term": "the Upper South", "matchText": "the Upper South", "wikiSlug": "Upper_South", "type": "place" },
-    { "term": "the Black Belt", "matchText": "Black Belt", "wikiSlug": "Black_Belt_(region_of_Alabama)", "type": "place" },
-    { "term": "cotton factor", "matchText": "the cotton factors", "wikiSlug": "Factor_(agent)", "type": "concept" },
-    { "term": "wage slaves", "matchText": "wage slaves", "wikiSlug": "Wage_slavery", "type": "concept" },
-    { "term": "Bengal", "matchText": "the deindustrialization of Bengal", "wikiSlug": "Bengal", "type": "place" },
-    { "term": "Virginia", "matchText": "the original Atlantic states", "wikiSlug": "Virginia", "type": "place" },
-    { "term": "Alabama", "matchText": "Alabama and Mississippi", "wikiSlug": "Alabama", "type": "place" },
-    { "term": "New York banking fortunes", "matchText": "New York banking fortunes", "wikiSlug": "Economic_history_of_the_United_States", "type": "concept" },
-    { "term": "monoculture", "matchText": "intensive cotton monoculture exhausts land", "wikiSlug": "Monoculture", "type": "concept" },
-    { "term": "the territories", "matchText": "the question of slavery in the", "wikiSlug": "Territories_of_the_United_States", "type": "concept" },
-    { "term": "Louisiana", "matchText": "then on toward Louisiana", "wikiSlug": "Louisiana", "type": "place" }
+    {
+      "term": "King Cotton",
+      "matchText": "King Cotton",
+      "wikiSlug": "King_Cotton",
+      "type": "concept"
+    },
+    {
+      "term": "James Henry Hammond",
+      "matchText": "James Henry Hammond",
+      "wikiSlug": "James_Henry_Hammond",
+      "type": "person"
+    },
+    {
+      "term": "the Atlantic economy",
+      "matchText": "whole Atlantic economy",
+      "wikiSlug": "Atlantic_World",
+      "type": "concept"
+    },
+    {
+      "term": "Lancashire",
+      "matchText": "the mills of Lancashire in England",
+      "wikiSlug": "Lancashire",
+      "type": "place"
+    },
+    {
+      "term": "New England",
+      "matchText": "the mills of New England",
+      "wikiSlug": "New_England",
+      "type": "place"
+    },
+    {
+      "term": "Eli Whitney",
+      "matchText": "Eli Whitney",
+      "wikiSlug": "Eli_Whitney",
+      "type": "person"
+    },
+    {
+      "term": "short-staple cotton",
+      "matchText": "short-staple cotton",
+      "wikiSlug": "Gossypium_hirsutum",
+      "type": "object"
+    },
+    {
+      "term": "tobacco",
+      "matchText": "with tobacco soil exhausted",
+      "wikiSlug": "Cultivation_of_tobacco",
+      "type": "object"
+    },
+    {
+      "term": "the planter class",
+      "matchText": "they require precise description",
+      "wikiSlug": "Planter_class",
+      "type": "concept"
+    },
+    {
+      "term": "the Upper South",
+      "matchText": "the Upper South",
+      "wikiSlug": "Upper_South",
+      "type": "place"
+    },
+    {
+      "term": "the Black Belt",
+      "matchText": "Black Belt",
+      "wikiSlug": "Black_Belt_(region_of_Alabama)",
+      "type": "place"
+    },
+    {
+      "term": "cotton factor",
+      "matchText": "the cotton factors",
+      "wikiSlug": "Factor_(agent)",
+      "type": "concept"
+    },
+    {
+      "term": "wage slaves",
+      "matchText": "wage slaves",
+      "wikiSlug": "Wage_slavery",
+      "type": "concept"
+    },
+    {
+      "term": "Bengal",
+      "matchText": "the deindustrialization of Bengal",
+      "wikiSlug": "Bengal",
+      "type": "place"
+    },
+    {
+      "term": "Virginia",
+      "matchText": "the original Atlantic states",
+      "wikiSlug": "Virginia",
+      "type": "place"
+    },
+    {
+      "term": "Alabama",
+      "matchText": "Alabama and Mississippi",
+      "wikiSlug": "Alabama",
+      "type": "place"
+    },
+    {
+      "term": "New York banking fortunes",
+      "matchText": "New York banking fortunes",
+      "wikiSlug": "Economic_history_of_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "monoculture",
+      "matchText": "intensive cotton monoculture exhausts land",
+      "wikiSlug": "Monoculture",
+      "type": "concept"
+    },
+    {
+      "term": "the territories",
+      "matchText": "the question of slavery in the",
+      "wikiSlug": "Territories_of_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Louisiana",
+      "matchText": "then on toward Louisiana",
+      "wikiSlug": "Louisiana",
+      "type": "place"
+    }
   ],
   "7": [
-    { "term": "the Burned-Over District", "matchText": "the Burned-Over District", "wikiSlug": "Burned-over_district", "type": "place" },
-    { "term": "revivalism", "matchText": "the fire of revivalism", "wikiSlug": "Revival_meeting", "type": "concept" },
-    { "term": "Calvinism", "matchText": "the older Calvinism", "wikiSlug": "Calvinism", "type": "religion" },
-    { "term": "Puritan New England", "matchText": "Puritan New England", "wikiSlug": "Puritans", "type": "concept" },
-    { "term": "predestination", "matchText": "predestination", "wikiSlug": "Predestination", "type": "concept" },
-    { "term": "Jonathan Edwards", "matchText": "Jonathan Edwards", "wikiSlug": "Jonathan_Edwards_(theologian)", "type": "person" },
-    { "term": "perfection", "matchText": "moral", "wikiSlug": "Christian_perfection", "type": "concept" },
-    { "term": "the anxious bench", "matchText": "anxious bench", "wikiSlug": "Anxious_bench", "type": "concept" },
-    { "term": "the altar call", "matchText": "the public altar call", "wikiSlug": "Altar_call", "type": "concept" },
-    { "term": "Joseph Smith", "matchText": "A young farmer named", "wikiSlug": "Joseph_Smith", "type": "person" },
-    { "term": "Latter-day Saints", "matchText": "Latter-day Saints", "wikiSlug": "The_Church_of_Jesus_Christ_of_Latter-day_Saints", "type": "religion" },
-    { "term": "the Mormons", "matchText": "became known as", "wikiSlug": "Mormons", "type": "people" },
-    { "term": "polygamy", "matchText": "polygamy", "wikiSlug": "Mormonism_and_polygamy", "type": "concept" },
-    { "term": "Brigham Young", "matchText": "Under his successor", "wikiSlug": "Brigham_Young", "type": "person" },
-    { "term": "Salt Lake City", "matchText": "founded", "wikiSlug": "Salt_Lake_City", "type": "place" },
-    { "term": "the Great Salt Lake", "matchText": "the Great Salt Lake valley", "wikiSlug": "Great_Salt_Lake", "type": "place" },
-    { "term": "Carthage, Illinois", "matchText": "a jail at Carthage, Illinois", "wikiSlug": "Carthage,_Illinois", "type": "place" },
-    { "term": "utopian communities", "matchText": "utopian communities", "wikiSlug": "Utopia", "type": "concept" },
-    { "term": "the Shakers", "matchText": "the United Society of Believers", "wikiSlug": "Shakers", "type": "religion" },
-    { "term": "Robert Owen", "matchText": "the Welsh industrialist and socialist Robert Owen", "wikiSlug": "Robert_Owen", "type": "person" },
-    { "term": "Ralph Waldo Emerson", "matchText": "Ralph Waldo Emerson", "wikiSlug": "Ralph_Waldo_Emerson", "type": "person" },
-    { "term": "Henry David Thoreau", "matchText": "Henry David Thoreau", "wikiSlug": "Henry_David_Thoreau", "type": "person" },
-    { "term": "Concord, Massachusetts", "matchText": "centered in Concord, Massachusetts", "wikiSlug": "Concord,_Massachusetts", "type": "place" },
-    { "term": "Walden Pond", "matchText": "Walden Pond", "wikiSlug": "Walden_Pond", "type": "place" },
-    { "term": "Mohandas Gandhi", "matchText": "Mohandas Gandhi", "wikiSlug": "Mahatma_Gandhi", "type": "person" }
+    {
+      "term": "the Burned-Over District",
+      "matchText": "the Burned-Over District",
+      "wikiSlug": "Burned-over_district",
+      "type": "place"
+    },
+    {
+      "term": "revivalism",
+      "matchText": "the fire of revivalism",
+      "wikiSlug": "Revival_meeting",
+      "type": "concept"
+    },
+    {
+      "term": "Calvinism",
+      "matchText": "the older Calvinism",
+      "wikiSlug": "Calvinism",
+      "type": "religion"
+    },
+    {
+      "term": "Puritan New England",
+      "matchText": "Puritan New England",
+      "wikiSlug": "Puritans",
+      "type": "concept"
+    },
+    {
+      "term": "predestination",
+      "matchText": "predestination",
+      "wikiSlug": "Predestination",
+      "type": "concept"
+    },
+    {
+      "term": "Jonathan Edwards",
+      "matchText": "Jonathan Edwards",
+      "wikiSlug": "Jonathan_Edwards_(theologian)",
+      "type": "person"
+    },
+    {
+      "term": "perfection",
+      "matchText": "moral",
+      "wikiSlug": "Christian_perfection",
+      "type": "concept"
+    },
+    {
+      "term": "the anxious bench",
+      "matchText": "anxious bench",
+      "wikiSlug": "Anxious_bench",
+      "type": "concept"
+    },
+    {
+      "term": "the altar call",
+      "matchText": "the public altar call",
+      "wikiSlug": "Altar_call",
+      "type": "concept"
+    },
+    {
+      "term": "Joseph Smith",
+      "matchText": "A young farmer named",
+      "wikiSlug": "Joseph_Smith",
+      "type": "person"
+    },
+    {
+      "term": "Latter-day Saints",
+      "matchText": "Latter-day Saints",
+      "wikiSlug": "The_Church_of_Jesus_Christ_of_Latter-day_Saints",
+      "type": "religion"
+    },
+    {
+      "term": "the Mormons",
+      "matchText": "became known as",
+      "wikiSlug": "Mormons",
+      "type": "people"
+    },
+    {
+      "term": "polygamy",
+      "matchText": "polygamy",
+      "wikiSlug": "Mormonism_and_polygamy",
+      "type": "concept"
+    },
+    {
+      "term": "Brigham Young",
+      "matchText": "Under his successor",
+      "wikiSlug": "Brigham_Young",
+      "type": "person"
+    },
+    {
+      "term": "Salt Lake City",
+      "matchText": "founded",
+      "wikiSlug": "Salt_Lake_City",
+      "type": "place"
+    },
+    {
+      "term": "the Great Salt Lake",
+      "matchText": "the Great Salt Lake valley",
+      "wikiSlug": "Great_Salt_Lake",
+      "type": "place"
+    },
+    {
+      "term": "Carthage, Illinois",
+      "matchText": "a jail at Carthage, Illinois",
+      "wikiSlug": "Carthage,_Illinois",
+      "type": "place"
+    },
+    {
+      "term": "utopian communities",
+      "matchText": "utopian communities",
+      "wikiSlug": "Utopia",
+      "type": "concept"
+    },
+    {
+      "term": "the Shakers",
+      "matchText": "the United Society of Believers",
+      "wikiSlug": "Shakers",
+      "type": "religion"
+    },
+    {
+      "term": "Robert Owen",
+      "matchText": "the Welsh industrialist and socialist Robert Owen",
+      "wikiSlug": "Robert_Owen",
+      "type": "person"
+    },
+    {
+      "term": "Ralph Waldo Emerson",
+      "matchText": "Ralph Waldo Emerson",
+      "wikiSlug": "Ralph_Waldo_Emerson",
+      "type": "person"
+    },
+    {
+      "term": "Henry David Thoreau",
+      "matchText": "Henry David Thoreau",
+      "wikiSlug": "Henry_David_Thoreau",
+      "type": "person"
+    },
+    {
+      "term": "Concord, Massachusetts",
+      "matchText": "centered in Concord, Massachusetts",
+      "wikiSlug": "Concord,_Massachusetts",
+      "type": "place"
+    },
+    {
+      "term": "Walden Pond",
+      "matchText": "Walden Pond",
+      "wikiSlug": "Walden_Pond",
+      "type": "place"
+    },
+    {
+      "term": "Mohandas Gandhi",
+      "matchText": "Mohandas Gandhi",
+      "wikiSlug": "Mahatma_Gandhi",
+      "type": "person"
+    }
   ],
   "8": [
-    { "term": "social reform", "matchText": "the most intense period of organized social reform", "wikiSlug": "Reform_movement", "type": "concept" },
-    { "term": "prohibition", "matchText": "demanding legal", "wikiSlug": "Prohibition_in_the_United_States", "type": "concept" },
-    { "term": "abstinence", "matchText": "demanding total abstinence", "wikiSlug": "Teetotalism", "type": "concept" },
-    { "term": "Maine", "matchText": "Maine's, proved hard to enforce", "wikiSlug": "Maine", "type": "place" },
-    { "term": "the common school", "matchText": "common school", "wikiSlug": "Common_school", "type": "concept" },
-    { "term": "public education", "matchText": "the direct ancestor of American public education", "wikiSlug": "State_school", "type": "concept" },
-    { "term": "the asylum", "matchText": "building public asylums", "wikiSlug": "Psychiatric_hospital", "type": "institution" },
-    { "term": "Massachusetts", "matchText": "a Massachusetts schoolteacher", "wikiSlug": "Massachusetts", "type": "place" },
-    { "term": "women's rights", "matchText": "the movement for", "wikiSlug": "Women%27s_rights", "type": "concept" },
-    { "term": "Sarah Grimke", "matchText": "Sarah with", "wikiSlug": "Sarah_Moore_Grimk%C3%A9", "type": "person" },
-    { "term": "Angelina Grimke", "matchText": "Angelina by debating a hostile clergy", "wikiSlug": "Angelina_Grimk%C3%A9", "type": "person" },
-    { "term": "coverture", "matchText": "doctrine behind this had a name", "wikiSlug": "Coverture", "type": "concept" },
-    { "term": "Lucretia Mott", "matchText": "Lucretia Mott", "wikiSlug": "Lucretia_Mott", "type": "person" },
-    { "term": "Elizabeth Cady Stanton", "matchText": "Elizabeth Cady Stanton", "wikiSlug": "Elizabeth_Cady_Stanton", "type": "person" },
-    { "term": "London", "matchText": "a World Anti-Slavery Convention in London", "wikiSlug": "London", "type": "place" },
-    { "term": "Declaration of Independence", "matchText": "a line-by-line rewrite of the Declaration of Independence", "wikiSlug": "United_States_Declaration_of_Independence", "type": "writing" },
-    { "term": "woman suffrage", "matchText": "the right to vote", "wikiSlug": "Women%27s_suffrage_in_the_United_States", "type": "concept" },
-    { "term": "temperance societies", "matchText": "Temperance societies", "wikiSlug": "Temperance_movement", "type": "institution" },
-    { "term": "moral reform", "matchText": "moral reform", "wikiSlug": "Reform_movement", "type": "concept" },
-    { "term": "Ohio", "matchText": "an Ohio women's convention", "wikiSlug": "Ohio", "type": "place" },
-    { "term": "abolition", "matchText": "and above all abolition", "wikiSlug": "Abolitionism_in_the_United_States", "type": "concept" },
-    { "term": "Horace Mann", "matchText": "secretary of the Massachusetts board of education", "wikiSlug": "Horace_Mann", "type": "person" }
+    {
+      "term": "social reform",
+      "matchText": "the most intense period of organized social reform",
+      "wikiSlug": "Reform_movement",
+      "type": "concept"
+    },
+    {
+      "term": "prohibition",
+      "matchText": "demanding legal",
+      "wikiSlug": "Prohibition_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "abstinence",
+      "matchText": "demanding total abstinence",
+      "wikiSlug": "Teetotalism",
+      "type": "concept"
+    },
+    {
+      "term": "Maine",
+      "matchText": "Maine's, proved hard to enforce",
+      "wikiSlug": "Maine",
+      "type": "place"
+    },
+    {
+      "term": "the common school",
+      "matchText": "common school",
+      "wikiSlug": "Common_school",
+      "type": "concept"
+    },
+    {
+      "term": "public education",
+      "matchText": "the direct ancestor of American public education",
+      "wikiSlug": "State_school",
+      "type": "concept"
+    },
+    {
+      "term": "the asylum",
+      "matchText": "building public asylums",
+      "wikiSlug": "Psychiatric_hospital",
+      "type": "institution"
+    },
+    {
+      "term": "Massachusetts",
+      "matchText": "a Massachusetts schoolteacher",
+      "wikiSlug": "Massachusetts",
+      "type": "place"
+    },
+    {
+      "term": "women's rights",
+      "matchText": "the movement for",
+      "wikiSlug": "Women%27s_rights",
+      "type": "concept"
+    },
+    {
+      "term": "Sarah Grimke",
+      "matchText": "Sarah with",
+      "wikiSlug": "Sarah_Moore_Grimk%C3%A9",
+      "type": "person"
+    },
+    {
+      "term": "Angelina Grimke",
+      "matchText": "Angelina by debating a hostile clergy",
+      "wikiSlug": "Angelina_Grimk%C3%A9",
+      "type": "person"
+    },
+    {
+      "term": "coverture",
+      "matchText": "doctrine behind this had a name",
+      "wikiSlug": "Coverture",
+      "type": "concept"
+    },
+    {
+      "term": "Lucretia Mott",
+      "matchText": "Lucretia Mott",
+      "wikiSlug": "Lucretia_Mott",
+      "type": "person"
+    },
+    {
+      "term": "Elizabeth Cady Stanton",
+      "matchText": "Elizabeth Cady Stanton",
+      "wikiSlug": "Elizabeth_Cady_Stanton",
+      "type": "person"
+    },
+    {
+      "term": "London",
+      "matchText": "a World Anti-Slavery Convention in London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Declaration of Independence",
+      "matchText": "a line-by-line rewrite of the Declaration of Independence",
+      "wikiSlug": "United_States_Declaration_of_Independence",
+      "type": "writing"
+    },
+    {
+      "term": "woman suffrage",
+      "matchText": "the right to vote",
+      "wikiSlug": "Women%27s_suffrage_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "temperance societies",
+      "matchText": "Temperance societies",
+      "wikiSlug": "Temperance_movement",
+      "type": "institution"
+    },
+    {
+      "term": "moral reform",
+      "matchText": "moral reform",
+      "wikiSlug": "Reform_movement",
+      "type": "concept"
+    },
+    {
+      "term": "Ohio",
+      "matchText": "an Ohio women's convention",
+      "wikiSlug": "Ohio",
+      "type": "place"
+    },
+    {
+      "term": "abolition",
+      "matchText": "and above all abolition",
+      "wikiSlug": "Abolitionism_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Horace Mann",
+      "matchText": "secretary of the Massachusetts board of education",
+      "wikiSlug": "Horace_Mann",
+      "type": "person"
+    }
   ],
   "9": [
-    { "term": "the peculiar institution", "matchText": "the peculiar institution", "wikiSlug": "Slavery_in_the_United_States", "type": "concept" },
-    { "term": "the internal slave trade", "matchText": "a vast", "wikiSlug": "Slave_trade_in_the_United_States", "type": "concept" },
-    { "term": "coffles", "matchText": "coffles", "wikiSlug": "Coffle", "type": "concept" },
-    { "term": "the Middle Passage", "matchText": "the original Middle Passage", "wikiSlug": "Middle_Passage", "type": "event" },
-    { "term": "New York City", "matchText": "New York City held over", "wikiSlug": "New_York_City", "type": "place" },
-    { "term": "Philadelphia", "matchText": "the next largest, Philadelphia", "wikiSlug": "Philadelphia", "type": "place" },
-    { "term": "the gang system", "matchText": "the regime on most large cotton", "wikiSlug": "Gang_system", "type": "concept" },
-    { "term": "the task system", "matchText": "more common in the rice districts", "wikiSlug": "Task_system", "type": "concept" },
-    { "term": "the overseer", "matchText": "the whip of an", "wikiSlug": "Overseer", "type": "concept" },
-    { "term": "the whip", "matchText": "the whip was not an aberration", "wikiSlug": "Whip", "type": "object" },
-    { "term": "the spirituals", "matchText": "sung in the", "wikiSlug": "Spiritual_(music)", "type": "concept" },
-    { "term": "the Exodus", "matchText": "the deliverance of an enslaved people from Egypt", "wikiSlug": "The_Exodus", "type": "writing" },
-    { "term": "the banjo", "matchText": "the banjo", "wikiSlug": "Banjo", "type": "object" },
-    { "term": "call-and-response singing", "matchText": "call-and-response singing", "wikiSlug": "Call_and_response_(music)", "type": "concept" },
-    { "term": "okra", "matchText": "such as okra", "wikiSlug": "Okra", "type": "object" },
-    { "term": "the Deep South", "matchText": "sugar regions of the Deep South", "wikiSlug": "Deep_South", "type": "place" },
-    { "term": "wolf by the ears", "matchText": "wolf by the ears", "wikiSlug": "Thomas_Jefferson_and_slavery", "type": "concept" },
-    { "term": "positive good", "matchText": "positive good", "wikiSlug": "Slavery_as_a_positive_good_in_the_United_States", "type": "concept" },
-    { "term": "James Henley Thornwell", "matchText": "James Henley Thornwell", "wikiSlug": "James_Henley_Thornwell", "type": "person" },
-    { "term": "George Fitzhugh", "matchText": "the sociologist George Fitzhugh", "wikiSlug": "George_Fitzhugh", "type": "person" },
-    { "term": "the slave narratives", "matchText": "In the slave narratives", "wikiSlug": "Slave_narrative", "type": "concept" },
-    { "term": "the auction block", "matchText": "the auction block", "wikiSlug": "Slave_auction", "type": "concept" }
+    {
+      "term": "the peculiar institution",
+      "matchText": "the peculiar institution",
+      "wikiSlug": "Slavery_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "the internal slave trade",
+      "matchText": "a vast",
+      "wikiSlug": "Slave_trade_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "coffles",
+      "matchText": "coffles",
+      "wikiSlug": "Coffle",
+      "type": "concept"
+    },
+    {
+      "term": "the Middle Passage",
+      "matchText": "the original Middle Passage",
+      "wikiSlug": "Middle_Passage",
+      "type": "event"
+    },
+    {
+      "term": "New York City",
+      "matchText": "New York City held over",
+      "wikiSlug": "New_York_City",
+      "type": "place"
+    },
+    {
+      "term": "Philadelphia",
+      "matchText": "the next largest, Philadelphia",
+      "wikiSlug": "Philadelphia",
+      "type": "place"
+    },
+    {
+      "term": "the gang system",
+      "matchText": "the regime on most large cotton",
+      "wikiSlug": "Gang_system",
+      "type": "concept"
+    },
+    {
+      "term": "the task system",
+      "matchText": "more common in the rice districts",
+      "wikiSlug": "Task_system",
+      "type": "concept"
+    },
+    {
+      "term": "the overseer",
+      "matchText": "the whip of an",
+      "wikiSlug": "Overseer",
+      "type": "concept"
+    },
+    {
+      "term": "the whip",
+      "matchText": "the whip was not an aberration",
+      "wikiSlug": "Whip",
+      "type": "object"
+    },
+    {
+      "term": "the spirituals",
+      "matchText": "sung in the",
+      "wikiSlug": "Spiritual_(music)",
+      "type": "concept"
+    },
+    {
+      "term": "the Exodus",
+      "matchText": "the deliverance of an enslaved people from Egypt",
+      "wikiSlug": "The_Exodus",
+      "type": "writing"
+    },
+    {
+      "term": "the banjo",
+      "matchText": "the banjo",
+      "wikiSlug": "Banjo",
+      "type": "object"
+    },
+    {
+      "term": "call-and-response singing",
+      "matchText": "call-and-response singing",
+      "wikiSlug": "Call_and_response_(music)",
+      "type": "concept"
+    },
+    {
+      "term": "okra",
+      "matchText": "such as okra",
+      "wikiSlug": "Okra",
+      "type": "object"
+    },
+    {
+      "term": "the Deep South",
+      "matchText": "sugar regions of the Deep South",
+      "wikiSlug": "Deep_South",
+      "type": "place"
+    },
+    {
+      "term": "wolf by the ears",
+      "matchText": "wolf by the ears",
+      "wikiSlug": "Thomas_Jefferson_and_slavery",
+      "type": "concept"
+    },
+    {
+      "term": "positive good",
+      "matchText": "positive good",
+      "wikiSlug": "Slavery_as_a_positive_good_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "James Henley Thornwell",
+      "matchText": "James Henley Thornwell",
+      "wikiSlug": "James_Henley_Thornwell",
+      "type": "person"
+    },
+    {
+      "term": "George Fitzhugh",
+      "matchText": "the sociologist George Fitzhugh",
+      "wikiSlug": "George_Fitzhugh",
+      "type": "person"
+    },
+    {
+      "term": "the slave narratives",
+      "matchText": "In the slave narratives",
+      "wikiSlug": "Slave_narrative",
+      "type": "concept"
+    },
+    {
+      "term": "the auction block",
+      "matchText": "the auction block",
+      "wikiSlug": "Slave_auction",
+      "type": "concept"
+    }
   ],
   "10": [
-    { "term": "abolitionist movement", "matchText": "the abolitionist movement", "wikiSlug": "Abolitionism_in_the_United_States", "type": "concept" },
-    { "term": "David Walker", "matchText": "David Walker", "wikiSlug": "David_Walker_(abolitionist)", "type": "person" },
-    { "term": "Boston", "matchText": "a free Black man in Boston", "wikiSlug": "Boston", "type": "place" },
-    { "term": "Southampton County", "matchText": "Southampton County, Virginia", "wikiSlug": "Southampton_County,_Virginia", "type": "place" },
-    { "term": "solar eclipse", "matchText": "a solar eclipse", "wikiSlug": "Solar_eclipse", "type": "concept" },
-    { "term": "slave codes", "matchText": "harsher", "wikiSlug": "Slave_codes", "type": "writing" },
-    { "term": "Virginia", "matchText": "Virginia held an actual legislative debate", "wikiSlug": "Virginia", "type": "place" },
-    { "term": "Harriet Tubman", "matchText": "Its most celebrated figure is", "wikiSlug": "Harriet_Tubman", "type": "person" },
-    { "term": "Maryland", "matchText": "escaped slavery in Maryland", "wikiSlug": "Maryland", "type": "place" },
-    { "term": "Canada", "matchText": "to Canada", "wikiSlug": "Canada", "type": "place" },
-    { "term": "Richard Allen", "matchText": "led by", "wikiSlug": "Richard_Allen_(bishop)", "type": "person" },
-    { "term": "gradualism", "matchText": "Gradualism", "wikiSlug": "Gradualism", "type": "concept" },
-    { "term": "colonization", "matchText": "the proposal, embodied in the American Colonization Society", "wikiSlug": "Back-to-Africa_movement", "type": "concept" },
-    { "term": "Liberia", "matchText": "the independent country of", "wikiSlug": "Liberia", "type": "place" },
-    { "term": "Monrovia", "matchText": "its capital, Monrovia", "wikiSlug": "Monrovia", "type": "place" },
-    { "term": "immediatism", "matchText": "Immediatism", "wikiSlug": "Immediatism", "type": "concept" },
-    { "term": "William Lloyd Garrison", "matchText": "the Boston printer who on January 1", "wikiSlug": "William_Lloyd_Garrison", "type": "person" },
-    { "term": "Frederick Douglass", "matchText": "The single most important figure to come out of the movement was", "wikiSlug": "Frederick_Douglass", "type": "person" },
-    { "term": "the Clapham Sect", "matchText": "the Clapham Sect", "wikiSlug": "Clapham_Sect", "type": "concept" },
-    { "term": "Alton, Illinois", "matchText": "an abolitionist editor in Alton, Illinois", "wikiSlug": "Alton,_Illinois", "type": "place" },
-    { "term": "Abraham Lincoln", "matchText": "the young lawyer Abraham Lincoln", "wikiSlug": "Abraham_Lincoln", "type": "person" },
-    { "term": "the Slave Power", "matchText": "an aggressive", "wikiSlug": "Slave_Power", "type": "concept" },
-    { "term": "John Quincy Adams", "matchText": "Former president John Quincy Adams", "wikiSlug": "John_Quincy_Adams", "type": "person" }
+    {
+      "term": "abolitionist movement",
+      "matchText": "the abolitionist movement",
+      "wikiSlug": "Abolitionism_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "David Walker",
+      "matchText": "David Walker",
+      "wikiSlug": "David_Walker_(abolitionist)",
+      "type": "person"
+    },
+    {
+      "term": "Boston",
+      "matchText": "a free Black man in Boston",
+      "wikiSlug": "Boston",
+      "type": "place"
+    },
+    {
+      "term": "Southampton County",
+      "matchText": "Southampton County, Virginia",
+      "wikiSlug": "Southampton_County,_Virginia",
+      "type": "place"
+    },
+    {
+      "term": "solar eclipse",
+      "matchText": "a solar eclipse",
+      "wikiSlug": "Solar_eclipse",
+      "type": "concept"
+    },
+    {
+      "term": "slave codes",
+      "matchText": "harsher",
+      "wikiSlug": "Slave_codes",
+      "type": "writing"
+    },
+    {
+      "term": "Virginia",
+      "matchText": "Virginia held an actual legislative debate",
+      "wikiSlug": "Virginia",
+      "type": "place"
+    },
+    {
+      "term": "Harriet Tubman",
+      "matchText": "Its most celebrated figure is",
+      "wikiSlug": "Harriet_Tubman",
+      "type": "person"
+    },
+    {
+      "term": "Maryland",
+      "matchText": "escaped slavery in Maryland",
+      "wikiSlug": "Maryland",
+      "type": "place"
+    },
+    {
+      "term": "Canada",
+      "matchText": "to Canada",
+      "wikiSlug": "Canada",
+      "type": "place"
+    },
+    {
+      "term": "Richard Allen",
+      "matchText": "led by",
+      "wikiSlug": "Richard_Allen_(bishop)",
+      "type": "person"
+    },
+    {
+      "term": "gradualism",
+      "matchText": "Gradualism",
+      "wikiSlug": "Gradualism",
+      "type": "concept"
+    },
+    {
+      "term": "colonization",
+      "matchText": "the proposal, embodied in the American Colonization Society",
+      "wikiSlug": "Back-to-Africa_movement",
+      "type": "concept"
+    },
+    {
+      "term": "Liberia",
+      "matchText": "the independent country of",
+      "wikiSlug": "Liberia",
+      "type": "place"
+    },
+    {
+      "term": "Monrovia",
+      "matchText": "its capital, Monrovia",
+      "wikiSlug": "Monrovia",
+      "type": "place"
+    },
+    {
+      "term": "immediatism",
+      "matchText": "Immediatism",
+      "wikiSlug": "Immediatism",
+      "type": "concept"
+    },
+    {
+      "term": "William Lloyd Garrison",
+      "matchText": "the Boston printer who on January 1",
+      "wikiSlug": "William_Lloyd_Garrison",
+      "type": "person"
+    },
+    {
+      "term": "Frederick Douglass",
+      "matchText": "The single most important figure to come out of the movement was",
+      "wikiSlug": "Frederick_Douglass",
+      "type": "person"
+    },
+    {
+      "term": "the Clapham Sect",
+      "matchText": "the Clapham Sect",
+      "wikiSlug": "Clapham_Sect",
+      "type": "concept"
+    },
+    {
+      "term": "Alton, Illinois",
+      "matchText": "an abolitionist editor in Alton, Illinois",
+      "wikiSlug": "Alton,_Illinois",
+      "type": "place"
+    },
+    {
+      "term": "Abraham Lincoln",
+      "matchText": "the young lawyer Abraham Lincoln",
+      "wikiSlug": "Abraham_Lincoln",
+      "type": "person"
+    },
+    {
+      "term": "the Slave Power",
+      "matchText": "an aggressive",
+      "wikiSlug": "Slave_Power",
+      "type": "concept"
+    },
+    {
+      "term": "John Quincy Adams",
+      "matchText": "Former president John Quincy Adams",
+      "wikiSlug": "John_Quincy_Adams",
+      "type": "person"
+    }
   ],
   "11": [
-    { "term": "John O'Sullivan", "matchText": "John O'Sullivan", "wikiSlug": "John_L._O%27Sullivan", "type": "person" },
-    { "term": "Manifest Destiny", "matchText": "Define the ideology precisely", "wikiSlug": "Manifest_destiny", "type": "concept" },
-    { "term": "Providence", "matchText": "the rhetoric of Providence", "wikiSlug": "Divine_providence", "type": "concept" },
-    { "term": "the civilizing mission", "matchText": "civilizing mission", "wikiSlug": "Civilizing_mission", "type": "concept" },
-    { "term": "Texas", "matchText": "The first and most consequential acquisition was", "wikiSlug": "Texas", "type": "place" },
-    { "term": "Mexico", "matchText": "Texas had been part of Mexico", "wikiSlug": "Mexico", "type": "place" },
-    { "term": "Spain", "matchText": "winning independence from Spain in 1821", "wikiSlug": "Spain", "type": "place" },
-    { "term": "Tejas", "matchText": "its sparsely populated northern province of Tejas", "wikiSlug": "Tejano", "type": "place" },
-    { "term": "indentured servants", "matchText": "indentured servants", "wikiSlug": "Indentured_servitude", "type": "concept" },
-    { "term": "the Alamo", "matchText": "Its iconic episode is the", "wikiSlug": "Battle_of_the_Alamo", "type": "place" },
-    { "term": "San Antonio", "matchText": "a small mission-fort in San Antonio", "wikiSlug": "San_Antonio", "type": "place" },
-    { "term": "James Bowie", "matchText": "James Bowie", "wikiSlug": "Jim_Bowie", "type": "person" },
-    { "term": "Goliad", "matchText": "surrendered Texan prisoners at Goliad", "wikiSlug": "Goliad_massacre", "type": "event" },
-    { "term": "the Lone Star Republic", "matchText": "Lone Star Republic", "wikiSlug": "Republic_of_Texas", "type": "place" },
-    { "term": "Oregon", "matchText": "take Oregon", "wikiSlug": "Oregon_Country", "type": "place" },
-    { "term": "the Pacific Northwest", "matchText": "the Pacific Northwest", "wikiSlug": "Pacific_Northwest", "type": "place" },
-    { "term": "Britain", "matchText": "jointly occupied by the United States and Britain", "wikiSlug": "United_Kingdom", "type": "place" },
-    { "term": "the 49th parallel", "matchText": "the 49th parallel", "wikiSlug": "49th_parallel_north", "type": "concept" },
-    { "term": "British Columbia", "matchText": "British Columbia", "wikiSlug": "British_Columbia", "type": "place" },
-    { "term": "the Slave Power", "matchText": "an aggressive", "wikiSlug": "Slave_Power", "type": "concept" }
+    {
+      "term": "John O'Sullivan",
+      "matchText": "John O'Sullivan",
+      "wikiSlug": "John_L._O%27Sullivan",
+      "type": "person"
+    },
+    {
+      "term": "Manifest Destiny",
+      "matchText": "Define the ideology precisely",
+      "wikiSlug": "Manifest_destiny",
+      "type": "concept"
+    },
+    {
+      "term": "Providence",
+      "matchText": "the rhetoric of Providence",
+      "wikiSlug": "Divine_providence",
+      "type": "concept"
+    },
+    {
+      "term": "the civilizing mission",
+      "matchText": "civilizing mission",
+      "wikiSlug": "Civilizing_mission",
+      "type": "concept"
+    },
+    {
+      "term": "Texas",
+      "matchText": "The first and most consequential acquisition was",
+      "wikiSlug": "Texas",
+      "type": "place"
+    },
+    {
+      "term": "Mexico",
+      "matchText": "Texas had been part of Mexico",
+      "wikiSlug": "Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Spain",
+      "matchText": "winning independence from Spain in 1821",
+      "wikiSlug": "Spain",
+      "type": "place"
+    },
+    {
+      "term": "Tejas",
+      "matchText": "its sparsely populated northern province of Tejas",
+      "wikiSlug": "Tejano",
+      "type": "place"
+    },
+    {
+      "term": "indentured servants",
+      "matchText": "indentured servants",
+      "wikiSlug": "Indentured_servitude",
+      "type": "concept"
+    },
+    {
+      "term": "the Alamo",
+      "matchText": "Its iconic episode is the",
+      "wikiSlug": "Battle_of_the_Alamo",
+      "type": "place"
+    },
+    {
+      "term": "San Antonio",
+      "matchText": "a small mission-fort in San Antonio",
+      "wikiSlug": "San_Antonio",
+      "type": "place"
+    },
+    {
+      "term": "James Bowie",
+      "matchText": "James Bowie",
+      "wikiSlug": "Jim_Bowie",
+      "type": "person"
+    },
+    {
+      "term": "Goliad",
+      "matchText": "surrendered Texan prisoners at Goliad",
+      "wikiSlug": "Goliad_massacre",
+      "type": "event"
+    },
+    {
+      "term": "the Lone Star Republic",
+      "matchText": "Lone Star Republic",
+      "wikiSlug": "Republic_of_Texas",
+      "type": "place"
+    },
+    {
+      "term": "Oregon",
+      "matchText": "take Oregon",
+      "wikiSlug": "Oregon_Country",
+      "type": "place"
+    },
+    {
+      "term": "the Pacific Northwest",
+      "matchText": "the Pacific Northwest",
+      "wikiSlug": "Pacific_Northwest",
+      "type": "place"
+    },
+    {
+      "term": "Britain",
+      "matchText": "jointly occupied by the United States and Britain",
+      "wikiSlug": "United_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "the 49th parallel",
+      "matchText": "the 49th parallel",
+      "wikiSlug": "49th_parallel_north",
+      "type": "concept"
+    },
+    {
+      "term": "British Columbia",
+      "matchText": "British Columbia",
+      "wikiSlug": "British_Columbia",
+      "type": "place"
+    },
+    {
+      "term": "the Slave Power",
+      "matchText": "an aggressive",
+      "wikiSlug": "Slave_Power",
+      "type": "concept"
+    },
+    {
+      "term": "Manifest Destiny",
+      "matchText": "Manifest Destiny",
+      "wikiSlug": "Manifest_Destiny",
+      "type": "concept"
+    }
   ],
   "12": [
-    { "term": "California", "matchText": "wanted California and the Southwest", "wikiSlug": "California", "type": "place" },
-    { "term": "casus belli", "matchText": "manufactured a casus belli", "wikiSlug": "Casus_belli", "type": "concept" },
-    { "term": "the Rio Grande", "matchText": "extended south to the Rio Grande", "wikiSlug": "Rio_Grande", "type": "place" },
-    { "term": "the Nueces River", "matchText": "the Nueces River", "wikiSlug": "Nueces_River", "type": "place" },
-    { "term": "the Gulf of Mexico", "matchText": "running to the Gulf of Mexico", "wikiSlug": "Gulf_of_Mexico", "type": "place" },
-    { "term": "Zachary Taylor", "matchText": "General", "wikiSlug": "Zachary_Taylor", "type": "person" },
-    { "term": "Buena Vista", "matchText": "a hard fight at", "wikiSlug": "Battle_of_Buena_Vista", "type": "event" },
-    { "term": "Stephen Kearny", "matchText": "Stephen Kearny", "wikiSlug": "Stephen_W._Kearny", "type": "person" },
-    { "term": "New Mexico", "matchText": "took New Mexico", "wikiSlug": "New_Mexico", "type": "place" },
-    { "term": "Winfield Scott", "matchText": "the same general who oversaw the Cherokee removal", "wikiSlug": "Winfield_Scott", "type": "person" },
-    { "term": "Veracruz", "matchText": "landed an army by sea at", "wikiSlug": "Veracruz_(city)", "type": "place" },
-    { "term": "Mexico City", "matchText": "to Mexico City", "wikiSlug": "Mexico_City", "type": "place" },
-    { "term": "Hernan Cortes", "matchText": "the Spanish conquistador", "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s", "type": "person" },
-    { "term": "the Duke of Wellington", "matchText": "the Duke of Wellington", "wikiSlug": "Arthur_Wellesley,_1st_Duke_of_Wellington", "type": "person" },
-    { "term": "the Whig Party", "matchText": "The Whig Party, the main opposition party", "wikiSlug": "Whig_Party_(United_States)", "type": "institution" },
-    { "term": "Abraham Lincoln", "matchText": "A freshman Whig congressman from Illinois named", "wikiSlug": "Abraham_Lincoln", "type": "person" },
-    { "term": "the Slave Power", "matchText": "a conspiracy by the", "wikiSlug": "Slave_Power", "type": "concept" },
-    { "term": "David Wilmot", "matchText": "Pennsylvania Democratic congressman named", "wikiSlug": "David_Wilmot", "type": "person" },
-    { "term": "the Mexican Cession", "matchText": "an enormous territory", "wikiSlug": "Mexican_Cession", "type": "place" },
-    { "term": "judicial review", "matchText": "only Congress can declare war", "wikiSlug": "War_Powers_Clause", "type": "concept" }
+    {
+      "term": "California",
+      "matchText": "wanted California and the Southwest",
+      "wikiSlug": "California",
+      "type": "place"
+    },
+    {
+      "term": "casus belli",
+      "matchText": "manufactured a casus belli",
+      "wikiSlug": "Casus_belli",
+      "type": "concept"
+    },
+    {
+      "term": "the Rio Grande",
+      "matchText": "extended south to the Rio Grande",
+      "wikiSlug": "Rio_Grande",
+      "type": "place"
+    },
+    {
+      "term": "the Nueces River",
+      "matchText": "the Nueces River",
+      "wikiSlug": "Nueces_River",
+      "type": "place"
+    },
+    {
+      "term": "the Gulf of Mexico",
+      "matchText": "running to the Gulf of Mexico",
+      "wikiSlug": "Gulf_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Zachary Taylor",
+      "matchText": "General",
+      "wikiSlug": "Zachary_Taylor",
+      "type": "person"
+    },
+    {
+      "term": "Buena Vista",
+      "matchText": "a hard fight at",
+      "wikiSlug": "Battle_of_Buena_Vista",
+      "type": "event"
+    },
+    {
+      "term": "Stephen Kearny",
+      "matchText": "Stephen Kearny",
+      "wikiSlug": "Stephen_W._Kearny",
+      "type": "person"
+    },
+    {
+      "term": "New Mexico",
+      "matchText": "took New Mexico",
+      "wikiSlug": "New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Winfield Scott",
+      "matchText": "the same general who oversaw the Cherokee removal",
+      "wikiSlug": "Winfield_Scott",
+      "type": "person"
+    },
+    {
+      "term": "Veracruz",
+      "matchText": "landed an army by sea at",
+      "wikiSlug": "Veracruz_(city)",
+      "type": "place"
+    },
+    {
+      "term": "Mexico City",
+      "matchText": "to Mexico City",
+      "wikiSlug": "Mexico_City",
+      "type": "place"
+    },
+    {
+      "term": "Hernan Cortes",
+      "matchText": "the Spanish conquistador",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "person"
+    },
+    {
+      "term": "the Duke of Wellington",
+      "matchText": "the Duke of Wellington",
+      "wikiSlug": "Arthur_Wellesley,_1st_Duke_of_Wellington",
+      "type": "person"
+    },
+    {
+      "term": "the Whig Party",
+      "matchText": "The Whig Party, the main opposition party",
+      "wikiSlug": "Whig_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "Abraham Lincoln",
+      "matchText": "A freshman Whig congressman from Illinois named",
+      "wikiSlug": "Abraham_Lincoln",
+      "type": "person"
+    },
+    {
+      "term": "the Slave Power",
+      "matchText": "a conspiracy by the",
+      "wikiSlug": "Slave_Power",
+      "type": "concept"
+    },
+    {
+      "term": "David Wilmot",
+      "matchText": "Pennsylvania Democratic congressman named",
+      "wikiSlug": "David_Wilmot",
+      "type": "person"
+    },
+    {
+      "term": "the Mexican Cession",
+      "matchText": "an enormous territory",
+      "wikiSlug": "Mexican_Cession",
+      "type": "place"
+    },
+    {
+      "term": "judicial review",
+      "matchText": "only Congress can declare war",
+      "wikiSlug": "War_Powers_Clause",
+      "type": "concept"
+    }
   ],
   "13": [
-    { "term": "Sutter's Mill", "matchText": "gold was discovered at a sawmill in California", "wikiSlug": "Sutter%27s_Mill", "type": "place" },
-    { "term": "San Francisco", "matchText": "ships reached San Francisco", "wikiSlug": "San_Francisco", "type": "place" },
-    { "term": "the Isthmus of Panama", "matchText": "the Isthmus of Panama", "wikiSlug": "Isthmus_of_Panama", "type": "place" },
-    { "term": "South America", "matchText": "around the tip of South America", "wikiSlug": "South_America", "type": "place" },
-    { "term": "Daniel Webster", "matchText": "of Massachusetts", "wikiSlug": "Daniel_Webster", "type": "person" },
-    { "term": "John C. Calhoun", "matchText": "of South Carolina", "wikiSlug": "John_C._Calhoun", "type": "person" },
-    { "term": "the District of Columbia", "matchText": "the District of Columbia", "wikiSlug": "Washington,_D.C.", "type": "place" },
-    { "term": "Utah", "matchText": "the territories of New Mexico and Utah", "wikiSlug": "Utah_Territory", "type": "place" },
-    { "term": "popular sovereignty", "matchText": "popular sovereignty", "wikiSlug": "Popular_sovereignty_in_the_United_States", "type": "concept" },
-    { "term": "the slave trade", "matchText": "The slave", "wikiSlug": "Slave_trade_in_the_United_States", "type": "concept" },
-    { "term": "Harriet Beecher Stowe", "matchText": "a New England writer named", "wikiSlug": "Harriet_Beecher_Stowe", "type": "person" },
-    { "term": "Boston", "matchText": "dragged south under federal guns past crowds", "wikiSlug": "Boston", "type": "place" },
-    { "term": "Charles Dickens", "matchText": "Charles Dickens", "wikiSlug": "Charles_Dickens", "type": "person" },
-    { "term": "the Great Compromiser", "matchText": "Great Compromiser", "wikiSlug": "Henry_Clay", "type": "concept" },
-    { "term": "rendition", "matchText": "watched a rendition", "wikiSlug": "Rendition_(law)", "type": "concept" },
-    { "term": "Kentucky", "matchText": "of Kentucky", "wikiSlug": "Kentucky", "type": "place" },
-    { "term": "the Compromise of 1850", "matchText": "originally Clay's attempt to bundle everything into one grand omnibus bill", "wikiSlug": "Compromise_of_1850", "type": "event" },
-    { "term": "anti-Tom novels", "matchText": "anti-Tom", "wikiSlug": "Anti-Tom_literature", "type": "writing" },
-    { "term": "Abraham Lincoln", "matchText": "story has Lincoln greeting Stowe", "wikiSlug": "Abraham_Lincoln", "type": "person" },
-    { "term": "Illinois", "matchText": "the young Illinois senator", "wikiSlug": "Illinois", "type": "place" }
+    {
+      "term": "Sutter's Mill",
+      "matchText": "gold was discovered at a sawmill in California",
+      "wikiSlug": "Sutter%27s_Mill",
+      "type": "place"
+    },
+    {
+      "term": "San Francisco",
+      "matchText": "ships reached San Francisco",
+      "wikiSlug": "San_Francisco",
+      "type": "place"
+    },
+    {
+      "term": "the Isthmus of Panama",
+      "matchText": "the Isthmus of Panama",
+      "wikiSlug": "Isthmus_of_Panama",
+      "type": "place"
+    },
+    {
+      "term": "South America",
+      "matchText": "around the tip of South America",
+      "wikiSlug": "South_America",
+      "type": "place"
+    },
+    {
+      "term": "Daniel Webster",
+      "matchText": "of Massachusetts",
+      "wikiSlug": "Daniel_Webster",
+      "type": "person"
+    },
+    {
+      "term": "John C. Calhoun",
+      "matchText": "of South Carolina",
+      "wikiSlug": "John_C._Calhoun",
+      "type": "person"
+    },
+    {
+      "term": "the District of Columbia",
+      "matchText": "the District of Columbia",
+      "wikiSlug": "Washington,_D.C.",
+      "type": "place"
+    },
+    {
+      "term": "Utah",
+      "matchText": "the territories of New Mexico and Utah",
+      "wikiSlug": "Utah_Territory",
+      "type": "place"
+    },
+    {
+      "term": "popular sovereignty",
+      "matchText": "popular sovereignty",
+      "wikiSlug": "Popular_sovereignty_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "the slave trade",
+      "matchText": "The slave",
+      "wikiSlug": "Slave_trade_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Harriet Beecher Stowe",
+      "matchText": "a New England writer named",
+      "wikiSlug": "Harriet_Beecher_Stowe",
+      "type": "person"
+    },
+    {
+      "term": "Boston",
+      "matchText": "dragged south under federal guns past crowds",
+      "wikiSlug": "Boston",
+      "type": "place"
+    },
+    {
+      "term": "Charles Dickens",
+      "matchText": "Charles Dickens",
+      "wikiSlug": "Charles_Dickens",
+      "type": "person"
+    },
+    {
+      "term": "the Great Compromiser",
+      "matchText": "Great Compromiser",
+      "wikiSlug": "Henry_Clay",
+      "type": "concept"
+    },
+    {
+      "term": "rendition",
+      "matchText": "watched a rendition",
+      "wikiSlug": "Rendition_(law)",
+      "type": "concept"
+    },
+    {
+      "term": "Kentucky",
+      "matchText": "of Kentucky",
+      "wikiSlug": "Kentucky",
+      "type": "place"
+    },
+    {
+      "term": "the Compromise of 1850",
+      "matchText": "originally Clay's attempt to bundle everything into one grand omnibus bill",
+      "wikiSlug": "Compromise_of_1850",
+      "type": "event"
+    },
+    {
+      "term": "anti-Tom novels",
+      "matchText": "anti-Tom",
+      "wikiSlug": "Anti-Tom_literature",
+      "type": "writing"
+    },
+    {
+      "term": "Abraham Lincoln",
+      "matchText": "story has Lincoln greeting Stowe",
+      "wikiSlug": "Abraham_Lincoln",
+      "type": "person"
+    },
+    {
+      "term": "Illinois",
+      "matchText": "the young Illinois senator",
+      "wikiSlug": "Illinois",
+      "type": "place"
+    }
   ],
   "14": [
-    { "term": "popular sovereignty", "matchText": "work of a phrase", "wikiSlug": "Popular_sovereignty_in_the_United_States", "type": "concept" },
-    { "term": "Stephen A. Douglas", "matchText": "the same compact, brilliant", "wikiSlug": "Stephen_A._Douglas", "type": "person" },
-    { "term": "transcontinental railroad", "matchText": "a transcontinental railroad", "wikiSlug": "First_transcontinental_railroad", "type": "technology" },
-    { "term": "Chicago", "matchText": "run west from Chicago", "wikiSlug": "Chicago", "type": "place" },
-    { "term": "Missouri", "matchText": "the unorganized territory west of Missouri", "wikiSlug": "Missouri", "type": "place" },
-    { "term": "Kansas", "matchText": "the new territories of Kansas and Nebraska", "wikiSlug": "Kansas_Territory", "type": "place" },
-    { "term": "Nebraska", "matchText": "Kansas and Nebraska", "wikiSlug": "Nebraska_Territory", "type": "place" },
-    { "term": "the Whigs", "matchText": "Democrats and", "wikiSlug": "Whig_Party_(United_States)", "type": "institution" },
-    { "term": "the Free Soil party", "matchText": "the Free Soil party", "wikiSlug": "Free_Soil_Party", "type": "institution" },
-    { "term": "the Republican Party", "matchText": "They took the name", "wikiSlug": "Republican_Party_(United_States)", "type": "institution" },
-    { "term": "guerrilla war", "matchText": "irregular fighting with no front lines", "wikiSlug": "Guerrilla_warfare", "type": "concept" },
-    { "term": "Lawrence", "matchText": "the free-state town of", "wikiSlug": "Lawrence,_Kansas", "type": "place" },
-    { "term": "John Brown", "matchText": "a fanatical abolitionist named", "wikiSlug": "John_Brown_(abolitionist)", "type": "person" },
-    { "term": "Charles Sumner", "matchText": "Senator", "wikiSlug": "Charles_Sumner", "type": "person" },
-    { "term": "Andrew Butler", "matchText": "the elderly South Carolina senator", "wikiSlug": "Andrew_Butler", "type": "person" },
-    { "term": "Preston Brooks", "matchText": "Representative", "wikiSlug": "Preston_Brooks", "type": "person" },
-    { "term": "the Slave Power", "matchText": "the Slave Power would stop at nothing", "wikiSlug": "Slave_Power", "type": "concept" },
-    { "term": "emigrant-aid societies", "matchText": "emigrant-aid societies", "wikiSlug": "New_England_Emigrant_Aid_Company", "type": "institution" },
-    { "term": "abolition", "matchText": "not the abolition of slavery where it existed", "wikiSlug": "Abolitionism_in_the_United_States", "type": "concept" },
-    { "term": "the Crime Against Kansas", "matchText": "The Crime Against Kansas", "wikiSlug": "Crime_Against_Kansas", "type": "writing" }
+    {
+      "term": "popular sovereignty",
+      "matchText": "work of a phrase",
+      "wikiSlug": "Popular_sovereignty_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Stephen A. Douglas",
+      "matchText": "the same compact, brilliant",
+      "wikiSlug": "Stephen_A._Douglas",
+      "type": "person"
+    },
+    {
+      "term": "transcontinental railroad",
+      "matchText": "a transcontinental railroad",
+      "wikiSlug": "First_transcontinental_railroad",
+      "type": "technology"
+    },
+    {
+      "term": "Chicago",
+      "matchText": "run west from Chicago",
+      "wikiSlug": "Chicago",
+      "type": "place"
+    },
+    {
+      "term": "Missouri",
+      "matchText": "the unorganized territory west of Missouri",
+      "wikiSlug": "Missouri",
+      "type": "place"
+    },
+    {
+      "term": "Kansas",
+      "matchText": "the new territories of Kansas and Nebraska",
+      "wikiSlug": "Kansas_Territory",
+      "type": "place"
+    },
+    {
+      "term": "Nebraska",
+      "matchText": "Kansas and Nebraska",
+      "wikiSlug": "Nebraska_Territory",
+      "type": "place"
+    },
+    {
+      "term": "the Whigs",
+      "matchText": "Democrats and",
+      "wikiSlug": "Whig_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "the Free Soil party",
+      "matchText": "the Free Soil party",
+      "wikiSlug": "Free_Soil_Party",
+      "type": "institution"
+    },
+    {
+      "term": "the Republican Party",
+      "matchText": "They took the name",
+      "wikiSlug": "Republican_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "guerrilla war",
+      "matchText": "irregular fighting with no front lines",
+      "wikiSlug": "Guerrilla_warfare",
+      "type": "concept"
+    },
+    {
+      "term": "Lawrence",
+      "matchText": "the free-state town of",
+      "wikiSlug": "Lawrence,_Kansas",
+      "type": "place"
+    },
+    {
+      "term": "John Brown",
+      "matchText": "a fanatical abolitionist named",
+      "wikiSlug": "John_Brown_(abolitionist)",
+      "type": "person"
+    },
+    {
+      "term": "Charles Sumner",
+      "matchText": "Senator",
+      "wikiSlug": "Charles_Sumner",
+      "type": "person"
+    },
+    {
+      "term": "Andrew Butler",
+      "matchText": "the elderly South Carolina senator",
+      "wikiSlug": "Andrew_Butler",
+      "type": "person"
+    },
+    {
+      "term": "Preston Brooks",
+      "matchText": "Representative",
+      "wikiSlug": "Preston_Brooks",
+      "type": "person"
+    },
+    {
+      "term": "the Slave Power",
+      "matchText": "the Slave Power would stop at nothing",
+      "wikiSlug": "Slave_Power",
+      "type": "concept"
+    },
+    {
+      "term": "emigrant-aid societies",
+      "matchText": "emigrant-aid societies",
+      "wikiSlug": "New_England_Emigrant_Aid_Company",
+      "type": "institution"
+    },
+    {
+      "term": "abolition",
+      "matchText": "not the abolition of slavery where it existed",
+      "wikiSlug": "Abolitionism_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "the Crime Against Kansas",
+      "matchText": "The Crime Against Kansas",
+      "wikiSlug": "Crime_Against_Kansas",
+      "type": "writing"
+    }
   ],
   "15": [
-    { "term": "Dred Scott", "matchText": "an enslaved man whose owner", "wikiSlug": "Dred_Scott", "type": "person" },
-    { "term": "John Emerson", "matchText": "an army surgeon named John Emerson", "wikiSlug": "Dred_Scott_v._Sandford", "type": "person" },
-    { "term": "Illinois", "matchText": "into Illinois", "wikiSlug": "Illinois", "type": "place" },
-    { "term": "the Wisconsin Territory", "matchText": "the Wisconsin Territory", "wikiSlug": "Wisconsin_Territory", "type": "place" },
-    { "term": "Missouri", "matchText": "returning to slave Missouri", "wikiSlug": "Missouri", "type": "place" },
-    { "term": "Roger B. Taney", "matchText": "whose chief justice was", "wikiSlug": "Roger_B._Taney", "type": "person" },
-    { "term": "citizen of the United States", "matchText": "could be a citizen of the United States", "wikiSlug": "Citizenship_of_the_United_States", "type": "concept" },
-    { "term": "the Fifth Amendment", "matchText": "the Fifth Amendment protected property", "wikiSlug": "Fifth_Amendment_to_the_United_States_Constitution", "type": "writing" },
-    { "term": "judicial review", "matchText": "the case that established the Court's power of judicial review", "wikiSlug": "Judicial_review_in_the_United_States", "type": "concept" },
-    { "term": "the Slave Power", "matchText": "had been captured by the Slave Power", "wikiSlug": "Slave_Power", "type": "concept" },
-    { "term": "Ohio Life Insurance and Trust Company", "matchText": "the Ohio Life Insurance and Trust Company", "wikiSlug": "Ohio_Life_Insurance_and_Trust_Company", "type": "institution" },
-    { "term": "Abraham Lincoln", "matchText": "the former one-term Whig congressman", "wikiSlug": "Abraham_Lincoln", "type": "person" },
-    { "term": "the Freeport Doctrine", "matchText": "forced Douglas into the", "wikiSlug": "Freeport_Doctrine", "type": "concept" },
-    { "term": "slave patrols", "matchText": "slave patrols", "wikiSlug": "Slave_patrol", "type": "institution" },
-    { "term": "Harpers Ferry", "matchText": "a raid on the federal arsenal at", "wikiSlug": "Harpers_Ferry,_West_Virginia", "type": "place" },
-    { "term": "John Brown", "matchText": "last seen hacking pro-slavery settlers to death in Kansas", "wikiSlug": "John_Brown_(abolitionist)", "type": "person" },
-    { "term": "U.S. Marines", "matchText": "a detachment of U.S. Marines", "wikiSlug": "United_States_Marine_Corps", "type": "institution" },
-    { "term": "treason", "matchText": "tried for treason against Virginia", "wikiSlug": "Treason", "type": "concept" },
-    { "term": "the Democratic Party", "matchText": "it split the Democratic Party", "wikiSlug": "Democratic_Party_(United_States)", "type": "institution" },
-    { "term": "Stephen Douglas", "matchText": "to challenge Stephen Douglas", "wikiSlug": "Stephen_A._Douglas", "type": "person" }
+    {
+      "term": "Dred Scott",
+      "matchText": "an enslaved man whose owner",
+      "wikiSlug": "Dred_Scott",
+      "type": "person"
+    },
+    {
+      "term": "John Emerson",
+      "matchText": "an army surgeon named John Emerson",
+      "wikiSlug": "Dred_Scott_v._Sandford",
+      "type": "person"
+    },
+    {
+      "term": "Illinois",
+      "matchText": "into Illinois",
+      "wikiSlug": "Illinois",
+      "type": "place"
+    },
+    {
+      "term": "the Wisconsin Territory",
+      "matchText": "the Wisconsin Territory",
+      "wikiSlug": "Wisconsin_Territory",
+      "type": "place"
+    },
+    {
+      "term": "Missouri",
+      "matchText": "returning to slave Missouri",
+      "wikiSlug": "Missouri",
+      "type": "place"
+    },
+    {
+      "term": "Roger B. Taney",
+      "matchText": "whose chief justice was",
+      "wikiSlug": "Roger_B._Taney",
+      "type": "person"
+    },
+    {
+      "term": "citizen of the United States",
+      "matchText": "could be a citizen of the United States",
+      "wikiSlug": "Citizenship_of_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "the Fifth Amendment",
+      "matchText": "the Fifth Amendment protected property",
+      "wikiSlug": "Fifth_Amendment_to_the_United_States_Constitution",
+      "type": "writing"
+    },
+    {
+      "term": "judicial review",
+      "matchText": "the case that established the Court's power of judicial review",
+      "wikiSlug": "Judicial_review_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "the Slave Power",
+      "matchText": "had been captured by the Slave Power",
+      "wikiSlug": "Slave_Power",
+      "type": "concept"
+    },
+    {
+      "term": "Ohio Life Insurance and Trust Company",
+      "matchText": "the Ohio Life Insurance and Trust Company",
+      "wikiSlug": "Ohio_Life_Insurance_and_Trust_Company",
+      "type": "institution"
+    },
+    {
+      "term": "Abraham Lincoln",
+      "matchText": "the former one-term Whig congressman",
+      "wikiSlug": "Abraham_Lincoln",
+      "type": "person"
+    },
+    {
+      "term": "the Freeport Doctrine",
+      "matchText": "forced Douglas into the",
+      "wikiSlug": "Freeport_Doctrine",
+      "type": "concept"
+    },
+    {
+      "term": "slave patrols",
+      "matchText": "slave patrols",
+      "wikiSlug": "Slave_patrol",
+      "type": "institution"
+    },
+    {
+      "term": "Harpers Ferry",
+      "matchText": "a raid on the federal arsenal at",
+      "wikiSlug": "Harpers_Ferry,_West_Virginia",
+      "type": "place"
+    },
+    {
+      "term": "John Brown",
+      "matchText": "last seen hacking pro-slavery settlers to death in Kansas",
+      "wikiSlug": "John_Brown_(abolitionist)",
+      "type": "person"
+    },
+    {
+      "term": "U.S. Marines",
+      "matchText": "a detachment of U.S. Marines",
+      "wikiSlug": "United_States_Marine_Corps",
+      "type": "institution"
+    },
+    {
+      "term": "treason",
+      "matchText": "tried for treason against Virginia",
+      "wikiSlug": "Treason",
+      "type": "concept"
+    },
+    {
+      "term": "the Democratic Party",
+      "matchText": "it split the Democratic Party",
+      "wikiSlug": "Democratic_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "Stephen Douglas",
+      "matchText": "to challenge Stephen Douglas",
+      "wikiSlug": "Stephen_A._Douglas",
+      "type": "person"
+    },
+    {
+      "term": "Dred Scott v. Sandford",
+      "matchText": "Dred Scott",
+      "wikiSlug": "Dred_Scott_v._Sandford",
+      "type": "concept"
+    }
   ],
   "16": [
-    { "term": "the Democratic Party", "matchText": "The Democrats were the last surviving national party", "wikiSlug": "Democratic_Party_(United_States)", "type": "institution" },
-    { "term": "the Freeport Doctrine", "matchText": "Dred Scott and the Freeport Doctrine", "wikiSlug": "Freeport_Doctrine", "type": "concept" },
-    { "term": "a federal slave code", "matchText": "a federal slave code", "wikiSlug": "Slave_codes", "type": "writing" },
-    { "term": "Stephen A. Douglas", "matchText": "for the Northern Democrats on popular sovereignty", "wikiSlug": "Stephen_A._Douglas", "type": "person" },
-    { "term": "John Bell", "matchText": "ran", "wikiSlug": "John_Bell_(Tennessee_politician)", "type": "person" },
-    { "term": "Tennessee", "matchText": "slaveholder from Tennessee", "wikiSlug": "Tennessee", "type": "place" },
-    { "term": "the Republicans", "matchText": "And the Republicans, sensing the opening", "wikiSlug": "Republican_Party_(United_States)", "type": "institution" },
-    { "term": "the popular vote", "matchText": "about 40 percent of the popular vote", "wikiSlug": "Direct_election", "type": "concept" },
-    { "term": "the Muslim League", "matchText": "the Muslim League", "wikiSlug": "All-India_Muslim_League", "type": "institution" },
-    { "term": "secession winter", "matchText": "secession winter", "wikiSlug": "Secession_winter", "type": "event" },
-    { "term": "South Carolina", "matchText": "the state that had rehearsed this in 1832", "wikiSlug": "South_Carolina", "type": "place" },
-    { "term": "Montgomery, Alabama", "matchText": "met at Montgomery, Alabama", "wikiSlug": "Montgomery,_Alabama", "type": "place" },
-    { "term": "Jefferson Davis", "matchText": "of Mississippi", "wikiSlug": "Jefferson_Davis", "type": "person" },
-    { "term": "James Buchanan", "matchText": "The president was still", "wikiSlug": "James_Buchanan", "type": "person" },
-    { "term": "John J. Crittenden", "matchText": "Senator John J. Crittenden", "wikiSlug": "John_J._Crittenden", "type": "person" },
-    { "term": "the Electoral College", "matchText": "a clear majority of the Electoral College", "wikiSlug": "United_States_Electoral_College", "type": "institution" },
-    { "term": "containment", "matchText": "His position was containment", "wikiSlug": "Free_Soil_Party", "type": "concept" },
-    { "term": "abolitionist", "matchText": "Lincoln was not an abolitionist", "wikiSlug": "Abolitionism_in_the_United_States", "type": "concept" },
-    { "term": "the border together", "matchText": "hold the border together", "wikiSlug": "Border_states_(American_Civil_War)", "type": "concept" },
-    { "term": "Mississippi", "matchText": "Mississippi's opens", "wikiSlug": "Mississippi", "type": "place" }
+    {
+      "term": "the Democratic Party",
+      "matchText": "The Democrats were the last surviving national party",
+      "wikiSlug": "Democratic_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "the Freeport Doctrine",
+      "matchText": "Dred Scott and the Freeport Doctrine",
+      "wikiSlug": "Freeport_Doctrine",
+      "type": "concept"
+    },
+    {
+      "term": "a federal slave code",
+      "matchText": "a federal slave code",
+      "wikiSlug": "Slave_codes",
+      "type": "writing"
+    },
+    {
+      "term": "Stephen A. Douglas",
+      "matchText": "for the Northern Democrats on popular sovereignty",
+      "wikiSlug": "Stephen_A._Douglas",
+      "type": "person"
+    },
+    {
+      "term": "John Bell",
+      "matchText": "ran",
+      "wikiSlug": "John_Bell_(Tennessee_politician)",
+      "type": "person"
+    },
+    {
+      "term": "Tennessee",
+      "matchText": "slaveholder from Tennessee",
+      "wikiSlug": "Tennessee",
+      "type": "place"
+    },
+    {
+      "term": "the Republicans",
+      "matchText": "And the Republicans, sensing the opening",
+      "wikiSlug": "Republican_Party_(United_States)",
+      "type": "institution"
+    },
+    {
+      "term": "the popular vote",
+      "matchText": "about 40 percent of the popular vote",
+      "wikiSlug": "Direct_election",
+      "type": "concept"
+    },
+    {
+      "term": "the Muslim League",
+      "matchText": "the Muslim League",
+      "wikiSlug": "All-India_Muslim_League",
+      "type": "institution"
+    },
+    {
+      "term": "secession winter",
+      "matchText": "secession winter",
+      "wikiSlug": "Secession_winter",
+      "type": "event"
+    },
+    {
+      "term": "South Carolina",
+      "matchText": "the state that had rehearsed this in 1832",
+      "wikiSlug": "South_Carolina",
+      "type": "place"
+    },
+    {
+      "term": "Montgomery, Alabama",
+      "matchText": "met at Montgomery, Alabama",
+      "wikiSlug": "Montgomery,_Alabama",
+      "type": "place"
+    },
+    {
+      "term": "Jefferson Davis",
+      "matchText": "of Mississippi",
+      "wikiSlug": "Jefferson_Davis",
+      "type": "person"
+    },
+    {
+      "term": "James Buchanan",
+      "matchText": "The president was still",
+      "wikiSlug": "James_Buchanan",
+      "type": "person"
+    },
+    {
+      "term": "John J. Crittenden",
+      "matchText": "Senator John J. Crittenden",
+      "wikiSlug": "John_J._Crittenden",
+      "type": "person"
+    },
+    {
+      "term": "the Electoral College",
+      "matchText": "a clear majority of the Electoral College",
+      "wikiSlug": "United_States_Electoral_College",
+      "type": "institution"
+    },
+    {
+      "term": "containment",
+      "matchText": "His position was containment",
+      "wikiSlug": "Free_Soil_Party",
+      "type": "concept"
+    },
+    {
+      "term": "abolitionist",
+      "matchText": "Lincoln was not an abolitionist",
+      "wikiSlug": "Abolitionism_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "the border together",
+      "matchText": "hold the border together",
+      "wikiSlug": "Border_states_(American_Civil_War)",
+      "type": "concept"
+    },
+    {
+      "term": "Mississippi",
+      "matchText": "Mississippi's opens",
+      "wikiSlug": "Mississippi",
+      "type": "place"
+    }
   ],
   "17": [
-    { "term": "second inaugural address", "matchText": "his second inaugural address", "wikiSlug": "Abraham_Lincoln%27s_second_inaugural_address", "type": "writing" },
-    { "term": "Charleston", "matchText": "in the harbor of Charleston", "wikiSlug": "Charleston,_South_Carolina", "type": "place" },
-    { "term": "Virginia", "matchText": "brought the Confederacy its largest population", "wikiSlug": "Virginia", "type": "place" },
-    { "term": "Tredegar Iron Works", "matchText": "the Tredegar Iron Works", "wikiSlug": "Tredegar_Iron_Works", "type": "institution" },
-    { "term": "Robert E. Lee", "matchText": "the U.S. Army's most respected officer", "wikiSlug": "Robert_E._Lee", "type": "person" },
-    { "term": "Richmond", "matchText": "barely a hundred miles from Washington", "wikiSlug": "Richmond,_Virginia", "type": "place" },
-    { "term": "Washington, D.C.", "matchText": "surrounded Washington, D.C., on three sides", "wikiSlug": "Washington,_D.C.", "type": "place" },
-    { "term": "Maryland", "matchText": "had Maryland gone", "wikiSlug": "Maryland", "type": "place" },
-    { "term": "Kentucky", "matchText": "Kentucky controlled the Ohio River", "wikiSlug": "Kentucky", "type": "place" },
-    { "term": "Delaware", "matchText": "Delaware was small and barely slaveholding", "wikiSlug": "Delaware", "type": "place" },
-    { "term": "the naval blockade", "matchText": "a strategy of leveraging", "wikiSlug": "Union_blockade", "type": "concept" },
-    { "term": "Manassas", "matchText": "called Manassas in the South", "wikiSlug": "First_Battle_of_Bull_Run", "type": "event" },
-    { "term": "Napoleonic close-order tactics", "matchText": "Napoleonic close-order tactics", "wikiSlug": "Napoleonic_tactics", "type": "concept" },
-    { "term": "smoothbore musket", "matchText": "a smoothbore musket", "wikiSlug": "Musket", "type": "object" },
-    { "term": "Claude-Etienne Minie", "matchText": "a French army officer who developed it", "wikiSlug": "Claude-%C3%89tienne_Mini%C3%A9", "type": "person" },
-    { "term": "germ theory", "matchText": "the germ theory of infection", "wikiSlug": "Germ_theory_of_disease", "type": "concept" },
-    { "term": "amputation", "matchText": "amputation was the standard treatment", "wikiSlug": "Amputation", "type": "concept" },
-    { "term": "dysentery", "matchText": "mainly dysentery", "wikiSlug": "Dysentery", "type": "concept" },
-    { "term": "border states", "matchText": "the loyal border states", "wikiSlug": "Border_states_(American_Civil_War)", "type": "concept" },
-    { "term": "the Clapham Sect", "matchText": "a generation of Clapham Sect abolitionist campaigning", "wikiSlug": "Clapham_Sect", "type": "concept" }
+    {
+      "term": "second inaugural address",
+      "matchText": "his second inaugural address",
+      "wikiSlug": "Abraham_Lincoln%27s_second_inaugural_address",
+      "type": "writing"
+    },
+    {
+      "term": "Charleston",
+      "matchText": "in the harbor of Charleston",
+      "wikiSlug": "Charleston,_South_Carolina",
+      "type": "place"
+    },
+    {
+      "term": "Virginia",
+      "matchText": "brought the Confederacy its largest population",
+      "wikiSlug": "Virginia",
+      "type": "place"
+    },
+    {
+      "term": "Tredegar Iron Works",
+      "matchText": "the Tredegar Iron Works",
+      "wikiSlug": "Tredegar_Iron_Works",
+      "type": "institution"
+    },
+    {
+      "term": "Robert E. Lee",
+      "matchText": "the U.S. Army's most respected officer",
+      "wikiSlug": "Robert_E._Lee",
+      "type": "person"
+    },
+    {
+      "term": "Richmond",
+      "matchText": "barely a hundred miles from Washington",
+      "wikiSlug": "Richmond,_Virginia",
+      "type": "place"
+    },
+    {
+      "term": "Washington, D.C.",
+      "matchText": "surrounded Washington, D.C., on three sides",
+      "wikiSlug": "Washington,_D.C.",
+      "type": "place"
+    },
+    {
+      "term": "Maryland",
+      "matchText": "had Maryland gone",
+      "wikiSlug": "Maryland",
+      "type": "place"
+    },
+    {
+      "term": "Kentucky",
+      "matchText": "Kentucky controlled the Ohio River",
+      "wikiSlug": "Kentucky",
+      "type": "place"
+    },
+    {
+      "term": "Delaware",
+      "matchText": "Delaware was small and barely slaveholding",
+      "wikiSlug": "Delaware",
+      "type": "place"
+    },
+    {
+      "term": "the naval blockade",
+      "matchText": "a strategy of leveraging",
+      "wikiSlug": "Union_blockade",
+      "type": "concept"
+    },
+    {
+      "term": "Manassas",
+      "matchText": "called Manassas in the South",
+      "wikiSlug": "First_Battle_of_Bull_Run",
+      "type": "event"
+    },
+    {
+      "term": "Napoleonic close-order tactics",
+      "matchText": "Napoleonic close-order tactics",
+      "wikiSlug": "Napoleonic_tactics",
+      "type": "concept"
+    },
+    {
+      "term": "smoothbore musket",
+      "matchText": "a smoothbore musket",
+      "wikiSlug": "Musket",
+      "type": "object"
+    },
+    {
+      "term": "Claude-Etienne Minie",
+      "matchText": "a French army officer who developed it",
+      "wikiSlug": "Claude-%C3%89tienne_Mini%C3%A9",
+      "type": "person"
+    },
+    {
+      "term": "germ theory",
+      "matchText": "the germ theory of infection",
+      "wikiSlug": "Germ_theory_of_disease",
+      "type": "concept"
+    },
+    {
+      "term": "amputation",
+      "matchText": "amputation was the standard treatment",
+      "wikiSlug": "Amputation",
+      "type": "concept"
+    },
+    {
+      "term": "dysentery",
+      "matchText": "mainly dysentery",
+      "wikiSlug": "Dysentery",
+      "type": "concept"
+    },
+    {
+      "term": "border states",
+      "matchText": "the loyal border states",
+      "wikiSlug": "Border_states_(American_Civil_War)",
+      "type": "concept"
+    },
+    {
+      "term": "the Clapham Sect",
+      "matchText": "a generation of Clapham Sect abolitionist campaigning",
+      "wikiSlug": "Clapham_Sect",
+      "type": "concept"
+    }
   ],
   "18": [
-    { "term": "Lee", "matchText": "Lee invaded the North for the second time", "wikiSlug": "Robert_E._Lee", "type": "person" },
-    { "term": "Pennsylvania", "matchText": "Pennsylvania, in a three-day battle", "wikiSlug": "Pennsylvania", "type": "place" },
-    { "term": "George Pickett", "matchText": "George Pickett", "wikiSlug": "George_Pickett", "type": "person" },
-    { "term": "the Mississippi River", "matchText": "complete control of the", "wikiSlug": "Mississippi_River", "type": "place" },
-    { "term": "West Point", "matchText": "a West Point graduate", "wikiSlug": "United_States_Military_Academy", "type": "institution" },
-    { "term": "the 54th Massachusetts Infantry", "matchText": "the", "wikiSlug": "54th_Massachusetts_Infantry_Regiment", "type": "institution" },
-    { "term": "the Union naval blockade", "matchText": "The Union naval blockade", "wikiSlug": "Union_blockade", "type": "concept" },
-    { "term": "Jefferson Davis", "matchText": "Confederate president Jefferson Davis", "wikiSlug": "Jefferson_Davis", "type": "person" },
-    { "term": "the federal military draft", "matchText": "the new federal military draft", "wikiSlug": "Conscription_in_the_United_States", "type": "concept" },
-    { "term": "Irish immigrants", "matchText": "many of them Irish immigrants", "wikiSlug": "Irish_Americans", "type": "people" },
-    { "term": "total war", "matchText": "total war", "wikiSlug": "Total_war", "type": "concept" },
-    { "term": "attrition", "matchText": "material attrition required", "wikiSlug": "Attrition_warfare", "type": "concept" },
-    { "term": "William Tecumseh Sherman", "matchText": "General", "wikiSlug": "William_Tecumseh_Sherman", "type": "person" },
-    { "term": "Atlanta", "matchText": "captured Atlanta", "wikiSlug": "Atlanta", "type": "place" },
-    { "term": "Savannah", "matchText": "to the port of", "wikiSlug": "Savannah,_Georgia", "type": "place" },
-    { "term": "Georgia", "matchText": "across Georgia", "wikiSlug": "Georgia_(U.S._state)", "type": "place" },
-    { "term": "George McClellan", "matchText": "the dismissed Union general George McClellan", "wikiSlug": "George_B._McClellan", "type": "person" },
-    { "term": "John Wilkes Booth", "matchText": "John Wilkes Booth", "wikiSlug": "John_Wilkes_Booth", "type": "person" },
-    { "term": "Ford's Theatre", "matchText": "Ford's Theatre", "wikiSlug": "Ford%27s_Theatre", "type": "place" },
-    { "term": "Andrew Johnson", "matchText": "his successor Andrew Johnson", "wikiSlug": "Andrew_Johnson", "type": "person" },
-    { "term": "J. David Hacker", "matchText": "the demographer J. David Hacker's 2011 study", "wikiSlug": "American_Civil_War_casualties", "type": "person" },
-    { "term": "paroled", "matchText": "the Confederate soldiers were", "wikiSlug": "Parole", "type": "concept" }
+    {
+      "term": "Lee",
+      "matchText": "Lee invaded the North for the second time",
+      "wikiSlug": "Robert_E._Lee",
+      "type": "person"
+    },
+    {
+      "term": "Pennsylvania",
+      "matchText": "Pennsylvania, in a three-day battle",
+      "wikiSlug": "Pennsylvania",
+      "type": "place"
+    },
+    {
+      "term": "George Pickett",
+      "matchText": "George Pickett",
+      "wikiSlug": "George_Pickett",
+      "type": "person"
+    },
+    {
+      "term": "the Mississippi River",
+      "matchText": "complete control of the",
+      "wikiSlug": "Mississippi_River",
+      "type": "place"
+    },
+    {
+      "term": "West Point",
+      "matchText": "a West Point graduate",
+      "wikiSlug": "United_States_Military_Academy",
+      "type": "institution"
+    },
+    {
+      "term": "the 54th Massachusetts Infantry",
+      "matchText": "the",
+      "wikiSlug": "54th_Massachusetts_Infantry_Regiment",
+      "type": "institution"
+    },
+    {
+      "term": "the Union naval blockade",
+      "matchText": "The Union naval blockade",
+      "wikiSlug": "Union_blockade",
+      "type": "concept"
+    },
+    {
+      "term": "Jefferson Davis",
+      "matchText": "Confederate president Jefferson Davis",
+      "wikiSlug": "Jefferson_Davis",
+      "type": "person"
+    },
+    {
+      "term": "the federal military draft",
+      "matchText": "the new federal military draft",
+      "wikiSlug": "Conscription_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Irish immigrants",
+      "matchText": "many of them Irish immigrants",
+      "wikiSlug": "Irish_Americans",
+      "type": "people"
+    },
+    {
+      "term": "total war",
+      "matchText": "total war",
+      "wikiSlug": "Total_war",
+      "type": "concept"
+    },
+    {
+      "term": "attrition",
+      "matchText": "material attrition required",
+      "wikiSlug": "Attrition_warfare",
+      "type": "concept"
+    },
+    {
+      "term": "William Tecumseh Sherman",
+      "matchText": "General",
+      "wikiSlug": "William_Tecumseh_Sherman",
+      "type": "person"
+    },
+    {
+      "term": "Atlanta",
+      "matchText": "captured Atlanta",
+      "wikiSlug": "Atlanta",
+      "type": "place"
+    },
+    {
+      "term": "Savannah",
+      "matchText": "to the port of",
+      "wikiSlug": "Savannah,_Georgia",
+      "type": "place"
+    },
+    {
+      "term": "Georgia",
+      "matchText": "across Georgia",
+      "wikiSlug": "Georgia_(U.S._state)",
+      "type": "place"
+    },
+    {
+      "term": "George McClellan",
+      "matchText": "the dismissed Union general George McClellan",
+      "wikiSlug": "George_B._McClellan",
+      "type": "person"
+    },
+    {
+      "term": "John Wilkes Booth",
+      "matchText": "John Wilkes Booth",
+      "wikiSlug": "John_Wilkes_Booth",
+      "type": "person"
+    },
+    {
+      "term": "Ford's Theatre",
+      "matchText": "Ford's Theatre",
+      "wikiSlug": "Ford%27s_Theatre",
+      "type": "place"
+    },
+    {
+      "term": "Andrew Johnson",
+      "matchText": "his successor Andrew Johnson",
+      "wikiSlug": "Andrew_Johnson",
+      "type": "person"
+    },
+    {
+      "term": "J. David Hacker",
+      "matchText": "the demographer J. David Hacker's 2011 study",
+      "wikiSlug": "American_Civil_War_casualties",
+      "type": "person"
+    },
+    {
+      "term": "paroled",
+      "matchText": "the Confederate soldiers were",
+      "wikiSlug": "Parole",
+      "type": "concept"
+    }
   ]
 }

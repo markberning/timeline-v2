@@ -23,6 +23,12 @@
       "targetTl": "modern-india",
       "targetChapter": 1,
       "blurb": "The same Britain whose 1832 Reform Act this chapter compares the United States to was, in those exact years, ruling tens of millions of colonial subjects in India who had no franchise of any kind. The British electorate at home expanded while its imperial subjects had zero political voice. It is the selective freedom of herrenvolk democracy run on a global rather than a domestic scale, the same bargain pointed across an ocean instead of across a color line."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "Jacksonian 'common man' democracy and Bolshevik 'workers' state' are opposite mass-politics ideologies — both claiming to govern for the ordinary man."
     }
   ],
   "2": [
@@ -59,6 +65,18 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 16,
       "blurb": "Follow the rope all the way out: the federal government took the land by force, the land grew cotton, the cotton was picked by enslaved people marched south, and the cotton fed the spinning mills of Lancashire. A worker in a Manchester cotton mill in 1840 stood, without knowing it, at the far end of a circuit running back through a New York banker, a Mississippi auction block, and a stockade on the Trail of Tears. The Industrial Revolution narrative tells this same circuit from the British mill end, where slave-grown cotton became the largest industry of the industrial age."
+    },
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 10,
+      "blurb": "The Trail of Tears removed the Mound Builders' heirs — the Southeastern nations dispossessed so the cotton frontier could expand."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 16,
+      "blurb": "Indian Removal cleared land for the slave-cotton economy feeding the Industrial Revolution's mills."
     }
   ],
   "5": [
@@ -67,6 +85,12 @@
       "targetTl": "modern-india",
       "targetChapter": 1,
       "blurb": "What turned the Irish potato failure into a million deaths was the British government's adherence to free-market orthodoxy: the doctrine that the state must not interfere with grain markets, so food was exported from Ireland while its people starved. That same political economy, market non-interference applied to mass famine, was being deployed by the same British administrative class in India in the same era, and produced the same result there. The ideology that filled American cities with Irish refugees was a single doctrine with a global body count."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 14,
+      "blurb": "The American Market Revolution is the Industrial Revolution crossing the Atlantic — canals, mills, and wage labor remaking the republic."
     }
   ],
   "6": [
@@ -89,6 +113,12 @@
       "targetTl": "modern-india",
       "targetChapter": 3,
       "blurb": "Thoreau's argument that conscience outranks the statute book ran straight from the Burned-Over District into the abolitionists and then out the far end of the century into the largest civil-disobedience movement in history. Mohandas Gandhi read Civil Disobedience in South Africa and cited Thoreau by name as one of the streams that fed his method of mass nonviolent resistance against the British Empire. The Modern India narrative shows how that Concord essay became a working political technology on the other side of the planet."
+    },
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 3,
+      "blurb": "The Burned-Over District's mass religious enthusiasm has a structural cousin in other mass devotional movements — bottom-up faith reshaping society."
     }
   ],
   "8": [
@@ -97,6 +127,12 @@
       "targetTl": "modern-india",
       "targetChapter": 2,
       "blurb": "The pattern by which the American women's-rights movement was born, women organizing en masse for someone else's liberation and then finding their own exclusion intolerable, is one of the recurring routes by which women's political movements emerge. In colonial India women entered public life in large numbers through the reform and nationalist campaigns and then pressed, on the same logic, for political standing of their own. A movement that asks women to organize for someone else's freedom teaches them how to organize and then cannot, in conscience or logic, deny them their own."
+    },
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 2,
+      "blurb": "The Age of Reform — abolition, temperance, women's rights — is a civil-society awakening comparable to other modernizing reform eras."
     }
   ],
   "9": [
@@ -111,6 +147,12 @@
       "targetTl": "soviet-union",
       "targetChapter": 6,
       "blurb": "When the defenders of a coercive system stop apologizing and start boasting, the system has passed the point where argument can reach it. The South moved from calling slavery a necessary evil to glorifying it as a positive good; the Soviet state made the same inversion, from Lenin's open admission that War Communism was a savage emergency to Stalin's celebration of forced collectivization and the labor camp as liberation and virtue. A society that regards its central institution as a sacred good cannot be argued out of it; it will fight to defend and expand it."
+    },
+    {
+      "matchText": "Reconstruction",
+      "targetTl": "reconstruction",
+      "targetChapter": 1,
+      "blurb": "'The Peculiar Institution' is the system whose violent end Reconstruction would try, and fail, to remake the South around."
     }
   ],
   "10": [
@@ -125,6 +167,12 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 13,
       "blurb": "The single most effective weapon against slavery was the testimony of a person who had been enslaved, speaking for himself, which is why Frederick Douglass mattered so much. The British factory-reform movement found the same thing in the same era: the firsthand account of a person describing what the system had done to their own body did what no abstract argument could. The general rule both movements jointly demonstrate is that injustice survives as long as it is an abstraction and becomes intolerable the moment the public must look at a specific human being it was done to."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 13,
+      "blurb": "Slave resistance and abolition confront the human cost of the cotton economy that powered industrial capitalism."
     }
   ],
   "11": [
@@ -133,6 +181,18 @@
       "targetTl": "modern-india",
       "targetChapter": 1,
       "blurb": "Manifest Destiny was the domestic American version of a doctrine the whole nineteenth-century West shared. The British called their version the civilizing mission and used it to justify the conquest and administration of India as benevolent tutelage of inferior peoples. American continental destiny and the British imperial mission were the same legitimizing idea, that a superior people had a providential right and duty to take and govern the land of an inferior one, pointed in one case across a continent and in the other across an ocean."
+    },
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 1,
+      "blurb": "Manifest Destiny's continental expansion is the American settler-imperial project — territory as destiny, like other empires' frontier ideologies."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 10,
+      "blurb": "Continental expansion by a self-described liberty-loving republic is the same paradox other expansionist powers, the USSR included, embodied."
     }
   ],
   "12": [
@@ -155,6 +215,12 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 13,
       "blurb": "Uncle Tom's Cabin worked because a story a million people weep over moves a society in a way a statistic a million people read never does. The novel turned into a political weapon was a defining mechanism of the industrial age, not unique to abolition. In the same years Charles Dickens was smuggling the workhouse and the debtors' prison into mass-market bestsellers and reshaping British opinion on poverty by exactly the same means. The Industrial Revolution narrative tells how reform fiction became a working instrument of political change."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 6,
+      "blurb": "The doomed compromises over slavery are the fault line a great power could not paper over — system-level contradictions that demand a reckoning."
     }
   ],
   "14": [
@@ -169,6 +235,12 @@
       "targetTl": "modern-india",
       "targetChapter": 2,
       "blurb": "Popular sovereignty converted a constitutional question into a contest won by whoever physically got more people onto the ground and outvoted or out-fought the other side. The general failure mode, a political question handed to let-the-people-on-the-ground-decide and thereby converted into a mass-mobilization contest enforced by intimidation and force, recurs in the struggle over the Partition of Bengal, where a contested administrative decision became a mass-mobilization contest over who could control the cultural and political ground. When the rule is whoever turns out wins, the incentive is to turn out armed."
+    },
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 2,
+      "blurb": "Bleeding Kansas is partition-by-referendum gone violent — the territorial-communal logic that tears societies apart."
     }
   ],
   "16": [
@@ -211,6 +283,12 @@
       "targetTl": "modern-india",
       "targetChapter": 4,
       "blurb": "Slavery did not end because the country was argued out of it; it ended because it was destroyed by war and sealed shut by the Constitution. Large-scale liberation almost never comes from a system being morally persuaded to release its grip; it comes when the structural cost of maintaining it is forced past what its holders can bear. Indian independence, similarly, did not arrive because Britain was converted to the injustice of empire; it arrived when war had bankrupted Britain and holding India had become impossible. Moral argument names the injustice; the change in structural cost actually ends the system."
+    },
+    {
+      "matchText": "Reconstruction",
+      "targetTl": "reconstruction",
+      "targetChapter": 1,
+      "blurb": "'The Death of Slavery' is exactly where the Reconstruction story begins — emancipation as the start, not the end, of the struggle."
     }
   ]
 }
