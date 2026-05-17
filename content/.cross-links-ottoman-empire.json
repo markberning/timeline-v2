@@ -35,6 +35,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "Nicomedia had been the preferred capital of the emperor Diocletian and a major Roman city before becoming Constantinopolitan territory. When Orhan took it in 1337, the Ottomans were absorbing a city whose Roman foundations predated Christianity. The layering of civilizations in northwestern Anatolia ran very deep."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Ottomans rose as a frontier ghazi beylik gnawing at a dying Byzantium — the new empire literally growing out of the old Roman one's corpse."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "The Anatolian frontier the Ottomans exploited had been smashed open by the Mongols — the beyliks filled the vacuum the Ilkhanate left."
     }
   ],
   "2": [
@@ -61,6 +73,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "The Battle of Adrianople in 378 — where Gothic cavalry destroyed a Roman army and killed the emperor Valens — is one of the founding catastrophes of the late empire. The city where the Goths won their defining victory against Rome became, a millennium later, the working capital of the empire that replaced Byzantium. The same ground absorbed multiple civilizational layers."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Ottoman conquest of the Balkans encircled Constantinople — the Palaiologan rump reduced to a city-state inside an Ottoman sea."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "The Ottomans would claim the Roman mantle (Kayser-i Rum) — Constantine's city passing, after eleven centuries, to a new 'Caesar.'"
     }
   ],
   "3": [
@@ -87,6 +111,12 @@
       "targetTl": "han-dynasty",
       "targetChapter": 8,
       "blurb": "The great Ming fleet voyages of Zheng He (1405–1433) and the Ottoman recovery from Ankara were contemporary events — two of the most consequential institutional stories of the early fifteenth century, unfolding simultaneously on opposite ends of Eurasia. While Mehmed I was rebuilding the Ottoman state, Yongle was sending treasure fleets to the Indian Ocean."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "Timur's catastrophe at Ankara (1402) — a Mongol-tradition conqueror capturing Bayezid — nearly ended the Ottoman project in its cradle."
     }
   ],
   "4": [
@@ -119,6 +149,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
       "blurb": "The timar system — land grants to soldiers in exchange for military service — was the Ottoman variant of the Byzantine theme system (stratiotika ktemata). The Ottomans inherited the basic administrative geography of Byzantine Anatolia and the Balkans and adapted its fiscal and military organization to their own institutional needs, keeping the operational logic while changing the ruling class."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "1453: Mehmed II's cannon breaches the Theodosian Walls — the end of the Roman Empire and the hinge of this whole story."
     }
   ],
   "5": [
@@ -163,6 +199,18 @@
       "targetTl": "ming-dynasty",
       "targetChapter": 5,
       "blurb": "The Jiajing-era Ming was contemporary with late Süleyman and was, in its own quieter way, going through a parallel mid-dynastic transformation — the silver globalization, the Single Whip tax reform, and the Wanli-era cultural peak that all play out in the next half-century. The Ming Dynasty TL covers the same sixteenth-century Eurasian moment from the Chinese side."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "Suleiman's law-and-empire system absorbed the Persianate-administrative tradition the Mongols had carried west."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "The Ottomans consciously inherited Byzantine statecraft — ceremonial, taxation, the church-state fusion — Justinian's machine under a sultan."
     }
   ],
   "6": [
@@ -189,6 +237,18 @@
       "targetTl": "ancient-israel",
       "targetChapter": 8,
       "blurb": "The dhimmi framework — the Islamic legal category of protected non-Muslim communities — was derived from the treatment of Jewish and Christian communities under early Islamic governance. The millet system was the Ottoman elaboration of the same principle: recognized corporate communities with internal legal autonomy, paying special taxes, protected from forced conversion but permanently subordinate."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "The devshirme and millet systems are Ottoman extensions of late-Roman/Byzantine practice — managed minorities and a slave-administrator elite."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "The Janissary-and-devshirme machine was honed in the long Ottoman-Safavid wars — two gunpowder empires shaping each other across the Iranian frontier."
     }
   ],
   "7": [
@@ -233,6 +293,12 @@
       "targetTl": "mughal-empire",
       "targetChapter": 7,
       "blurb": "Aurangzeb's Mughal Empire reached its greatest territorial extent in the same decades the Ottoman state was wrestling with the Sultanate of Women and the Köprülü reforms. The Mughal Empire TL covers the long Mughal decline that began under Aurangzeb and accelerated through the eighteenth century — a parallel trajectory to the Ottoman decline of the same period, with similar institutional pathologies."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 7,
+      "blurb": "The 'Sultanate of Women' and harem politics parallel contemporary Safavid court intrigue — both gunpowder empires turning inward."
     }
   ],
   "8": [
@@ -373,6 +439,12 @@
       "targetTl": "hittite-empire",
       "targetChapter": 1,
       "blurb": "Mustafa Kemal's choice of Ankara as the capital of the Turkish nationalist movement — and then of the Republic — was geographically significant. Ankara sits in the central Anatolian plateau, the same heartland where the Hittites had built their empire three thousand years earlier. The Turkish Republic deliberately oriented itself toward Anatolian geography rather than the Bosphorus-centered Ottoman imperial geography."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "The empire's WWI dismemberment echoes 1204 — Constantinople and its hinterland carved up by outside powers, this time terminally."
     }
   ],
   "12": [
@@ -405,6 +477,12 @@
       "targetTl": "ancient-greece",
       "targetChapter": 1,
       "blurb": "The Greek population expelled from western Anatolia in 1923 were the last remnant of a Greek-speaking presence that had begun with the eighth-century BCE colonial settlements at Miletus, Ephesus, and Smyrna — the same Ionian cities where pre-Socratic philosophy was born. The ancient Greece narrative begins with those colonial settlements; the Ottoman narrative ends with their expulsion, twenty-seven centuries later."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "What endured — the Roman idea, Istanbul, the imperial-administrative DNA — closes the circle the Byzantine story opened."
     }
   ]
 }

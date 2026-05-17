@@ -1,213 +1,1178 @@
 {
   "1": [
-    {"term": "beylik", "matchText": "beyliks", "wikiSlug": "Anatolian_beyliks", "type": "concept"},
-    {"term": "Sultanate of Rum", "matchText": "Seljuk Sultanate of Rum", "wikiSlug": "Sultanate_of_Rum", "type": "concept"},
-    {"term": "Mongol Ilkhanate", "matchText": "Mongol Ilkhanate", "wikiSlug": "Ilkhanate", "type": "concept"},
-    {"term": "Bithynia", "matchText": "Bithynian frontier", "wikiSlug": "Bithynia", "type": "place"},
-    {"term": "Söğüt", "matchText": "Söğüt", "wikiSlug": "S%C3%B6%C4%9F%C3%BCt", "type": "place"},
-    {"term": "Ertuğrul", "matchText": "Ertuğrul", "wikiSlug": "Ertu%C4%9Frul", "type": "people"},
-    {"term": "ghazi", "matchText": "ghazis", "wikiSlug": "Ghazi_(warrior)", "type": "concept"},
-    {"term": "gaza ideology", "matchText": "gaza", "wikiSlug": "Ghazi_(warrior)", "type": "concept"},
-    {"term": "Babai movement", "matchText": "Babai", "wikiSlug": "Babai_uprising", "type": "concept"},
-    {"term": "Karamanids", "matchText": "Karamanids", "wikiSlug": "Karamanids", "type": "concept"},
-    {"term": "Nicaea", "matchText": "Nicaea", "wikiSlug": "Nicaea", "type": "place"},
-    {"term": "madrasa", "matchText": "madrasa", "wikiSlug": "Madrasa", "type": "concept"},
-    {"term": "Dardanelles", "matchText": "Dardanelles", "wikiSlug": "Dardanelles", "type": "place"},
-    {"term": "John Kantakouzenos", "matchText": "Kantakouzenos", "wikiSlug": "John_VI_Kantakouzenos", "type": "people"},
-    {"term": "Pax Mongolica", "matchText": "Pax Mongolica", "wikiSlug": "Pax_Mongolica", "type": "concept"},
-    {"term": "akçe", "matchText": "akçes", "wikiSlug": "Ak%C3%A7e", "type": "concept"},
-    {"term": "Sea of Marmara", "matchText": "Sea of Marmara", "wikiSlug": "Sea_of_Marmara", "type": "place"},
-    {"term": "Sultan Süleyman Pasha", "matchText": "Süleyman Pasha", "wikiSlug": "Suleyman_Pasha_(son_of_Orhan)", "type": "people"},
-    {"term": "Germiyanid beylik", "matchText": "Germiyanid", "wikiSlug": "Germiyanids", "type": "concept"},
-    {"term": "Battle of Manzikert", "matchText": "Battle of Manzikert", "wikiSlug": "Battle_of_Manzikert", "type": "concept"}
+    {
+      "term": "beylik",
+      "matchText": "beyliks",
+      "wikiSlug": "Anatolian_beyliks",
+      "type": "concept"
+    },
+    {
+      "term": "Sultanate of Rum",
+      "matchText": "Seljuk Sultanate of Rum",
+      "wikiSlug": "Sultanate_of_Rum",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol Ilkhanate",
+      "matchText": "Mongol Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Bithynia",
+      "matchText": "Bithynian frontier",
+      "wikiSlug": "Bithynia",
+      "type": "place"
+    },
+    {
+      "term": "Söğüt",
+      "matchText": "Söğüt",
+      "wikiSlug": "S%C3%B6%C4%9F%C3%BCt",
+      "type": "place"
+    },
+    {
+      "term": "Ertuğrul",
+      "matchText": "Ertuğrul",
+      "wikiSlug": "Ertu%C4%9Frul",
+      "type": "people"
+    },
+    {
+      "term": "ghazi",
+      "matchText": "ghazis",
+      "wikiSlug": "Ghazi_(warrior)",
+      "type": "concept"
+    },
+    {
+      "term": "gaza ideology",
+      "matchText": "gaza",
+      "wikiSlug": "Ghazi_(warrior)",
+      "type": "concept"
+    },
+    {
+      "term": "Babai movement",
+      "matchText": "Babai",
+      "wikiSlug": "Babai_uprising",
+      "type": "concept"
+    },
+    {
+      "term": "Karamanids",
+      "matchText": "Karamanids",
+      "wikiSlug": "Karamanids",
+      "type": "concept"
+    },
+    {
+      "term": "Nicaea",
+      "matchText": "Nicaea",
+      "wikiSlug": "Nicaea",
+      "type": "place"
+    },
+    {
+      "term": "madrasa",
+      "matchText": "madrasa",
+      "wikiSlug": "Madrasa",
+      "type": "concept"
+    },
+    {
+      "term": "Dardanelles",
+      "matchText": "Dardanelles",
+      "wikiSlug": "Dardanelles",
+      "type": "place"
+    },
+    {
+      "term": "John Kantakouzenos",
+      "matchText": "Kantakouzenos",
+      "wikiSlug": "John_VI_Kantakouzenos",
+      "type": "people"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "akçe",
+      "matchText": "akçes",
+      "wikiSlug": "Ak%C3%A7e",
+      "type": "concept"
+    },
+    {
+      "term": "Sea of Marmara",
+      "matchText": "Sea of Marmara",
+      "wikiSlug": "Sea_of_Marmara",
+      "type": "place"
+    },
+    {
+      "term": "Sultan Süleyman Pasha",
+      "matchText": "Süleyman Pasha",
+      "wikiSlug": "Suleyman_Pasha_(son_of_Orhan)",
+      "type": "people"
+    },
+    {
+      "term": "Germiyanid beylik",
+      "matchText": "Germiyanid",
+      "wikiSlug": "Germiyanids",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Manzikert",
+      "matchText": "Battle of Manzikert",
+      "wikiSlug": "Battle_of_Manzikert",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolian beyliks",
+      "matchText": "beylik",
+      "wikiSlug": "Anatolian_beyliks",
+      "type": "concept"
+    }
   ],
   "2": [
-    {"term": "Second Bulgarian Empire", "matchText": "Second Bulgarian Empire", "wikiSlug": "Second_Bulgarian_Empire", "type": "concept"},
-    {"term": "Stefan Dušan", "matchText": "Stefan Dušan", "wikiSlug": "Stefan_Du%C5%A1an", "type": "people"},
-    {"term": "Lazar Hrebeljanović", "matchText": "Lazar Hrebeljanović", "wikiSlug": "Lazar_of_Serbia", "type": "people"},
-    {"term": "Kosovo Polje", "matchText": "Kosovo Polje", "wikiSlug": "Field_of_Blackbirds", "type": "place"},
-    {"term": "Miloš Obilić", "matchText": "Miloš Obilić", "wikiSlug": "Milo%C5%A1_Obili%C4%87", "type": "people"},
-    {"term": "Milica of Serbia", "matchText": "Princess Milica", "wikiSlug": "Milica_of_Serbia", "type": "people"},
-    {"term": "Yıldırım", "matchText": "Yıldırım", "wikiSlug": "Bayezid_I", "type": "concept"},
-    {"term": "Stefan Lazarević", "matchText": "Stefan Lazarević", "wikiSlug": "Stefan_Lazarevi%C4%87", "type": "people"},
-    {"term": "Sigismund of Hungary", "matchText": "Sigismund of Hungary", "wikiSlug": "Sigismund,_Holy_Roman_Emperor", "type": "people"},
-    {"term": "John the Fearless", "matchText": "John the Fearless", "wikiSlug": "John_the_Fearless", "type": "people"},
-    {"term": "Anadoluhisarı", "matchText": "Anadoluhisarı", "wikiSlug": "Anadoluhisar%C4%B1", "type": "place"},
-    {"term": "Edirne", "matchText": "Edirne", "wikiSlug": "Edirne", "type": "place"}
+    {
+      "term": "Second Bulgarian Empire",
+      "matchText": "Second Bulgarian Empire",
+      "wikiSlug": "Second_Bulgarian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Stefan Dušan",
+      "matchText": "Stefan Dušan",
+      "wikiSlug": "Stefan_Du%C5%A1an",
+      "type": "people"
+    },
+    {
+      "term": "Lazar Hrebeljanović",
+      "matchText": "Lazar Hrebeljanović",
+      "wikiSlug": "Lazar_of_Serbia",
+      "type": "people"
+    },
+    {
+      "term": "Kosovo Polje",
+      "matchText": "Kosovo Polje",
+      "wikiSlug": "Field_of_Blackbirds",
+      "type": "place"
+    },
+    {
+      "term": "Miloš Obilić",
+      "matchText": "Miloš Obilić",
+      "wikiSlug": "Milo%C5%A1_Obili%C4%87",
+      "type": "people"
+    },
+    {
+      "term": "Milica of Serbia",
+      "matchText": "Princess Milica",
+      "wikiSlug": "Milica_of_Serbia",
+      "type": "people"
+    },
+    {
+      "term": "Yıldırım",
+      "matchText": "Yıldırım",
+      "wikiSlug": "Bayezid_I",
+      "type": "concept"
+    },
+    {
+      "term": "Stefan Lazarević",
+      "matchText": "Stefan Lazarević",
+      "wikiSlug": "Stefan_Lazarevi%C4%87",
+      "type": "people"
+    },
+    {
+      "term": "Sigismund of Hungary",
+      "matchText": "Sigismund of Hungary",
+      "wikiSlug": "Sigismund,_Holy_Roman_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "John the Fearless",
+      "matchText": "John the Fearless",
+      "wikiSlug": "John_the_Fearless",
+      "type": "people"
+    },
+    {
+      "term": "Anadoluhisarı",
+      "matchText": "Anadoluhisarı",
+      "wikiSlug": "Anadoluhisar%C4%B1",
+      "type": "place"
+    },
+    {
+      "term": "Edirne",
+      "matchText": "Edirne",
+      "wikiSlug": "Edirne",
+      "type": "place"
+    }
   ],
   "3": [
-    {"term": "Timur (Tamerlane)", "matchText": "Tamerlane", "wikiSlug": "Timur", "type": "people"},
-    {"term": "Samarkand", "matchText": "Samarkand", "wikiSlug": "Samarkand", "type": "place"},
-    {"term": "Transoxiana", "matchText": "Transoxiana", "wikiSlug": "Transoxiana", "type": "place"},
-    {"term": "Chagatai Khanate", "matchText": "Chagatai", "wikiSlug": "Chagatai_Khanate", "type": "concept"},
-    {"term": "Jalayirid dynasty", "matchText": "Jalayirid", "wikiSlug": "Jalayirids", "type": "concept"},
-    {"term": "Çubuk Plain", "matchText": "Çubuk Plain", "wikiSlug": "Battle_of_Ankara", "type": "place"},
-    {"term": "Süleyman Çelebi", "matchText": "Süleyman Çelebi", "wikiSlug": "S%C3%BCleyman_%C3%87elebi_(son_of_Bayezid_I)", "type": "people"},
-    {"term": "Mehmed Çelebi", "matchText": "Mehmed Çelebi", "wikiSlug": "Mehmed_I", "type": "people"},
-    {"term": "Sheikh Bedreddin", "matchText": "Sheikh Bedreddin", "wikiSlug": "Sheikh_Bedreddin", "type": "people"},
-    {"term": "Fetret Devri", "matchText": "Fetret Devri", "wikiSlug": "Ottoman_Interregnum", "type": "concept"},
-    {"term": "Władysław III of Varna", "matchText": "Władysław III", "wikiSlug": "Wladislaus_III_of_Poland", "type": "people"},
-    {"term": "John Hunyadi", "matchText": "John Hunyadi", "wikiSlug": "John_Hunyadi", "type": "people"}
+    {
+      "term": "Timur (Tamerlane)",
+      "matchText": "Tamerlane",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Transoxiana",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Chagatai Khanate",
+      "matchText": "Chagatai",
+      "wikiSlug": "Chagatai_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Jalayirid dynasty",
+      "matchText": "Jalayirid",
+      "wikiSlug": "Jalayirids",
+      "type": "concept"
+    },
+    {
+      "term": "Çubuk Plain",
+      "matchText": "Çubuk Plain",
+      "wikiSlug": "Battle_of_Ankara",
+      "type": "place"
+    },
+    {
+      "term": "Süleyman Çelebi",
+      "matchText": "Süleyman Çelebi",
+      "wikiSlug": "S%C3%BCleyman_%C3%87elebi_(son_of_Bayezid_I)",
+      "type": "people"
+    },
+    {
+      "term": "Mehmed Çelebi",
+      "matchText": "Mehmed Çelebi",
+      "wikiSlug": "Mehmed_I",
+      "type": "people"
+    },
+    {
+      "term": "Sheikh Bedreddin",
+      "matchText": "Sheikh Bedreddin",
+      "wikiSlug": "Sheikh_Bedreddin",
+      "type": "people"
+    },
+    {
+      "term": "Fetret Devri",
+      "matchText": "Fetret Devri",
+      "wikiSlug": "Ottoman_Interregnum",
+      "type": "concept"
+    },
+    {
+      "term": "Władysław III of Varna",
+      "matchText": "Władysław III",
+      "wikiSlug": "Wladislaus_III_of_Poland",
+      "type": "people"
+    },
+    {
+      "term": "John Hunyadi",
+      "matchText": "John Hunyadi",
+      "wikiSlug": "John_Hunyadi",
+      "type": "people"
+    }
   ],
   "4": [
-    {"term": "Rumelihisarı", "matchText": "Rumelihisarı", "wikiSlug": "Rumelihisar%C4%B1", "type": "place"},
-    {"term": "Orban (cannon founder)", "matchText": "Orban", "wikiSlug": "Orban_(cannon_founder)", "type": "people"},
-    {"term": "Constantine XI Palaiologos", "matchText": "Constantine XI Palaiologos", "wikiSlug": "Constantine_XI_Palaiologos", "type": "people"},
-    {"term": "Golden Horn", "matchText": "Golden Horn", "wikiSlug": "Golden_Horn", "type": "place"},
-    {"term": "Giovanni Giustiniani Longo", "matchText": "Giovanni Giustiniani Longo", "wikiSlug": "Giovanni_Giustiniani", "type": "people"},
-    {"term": "Saint Romanus Gate", "matchText": "Saint Romanus Gate", "wikiSlug": "Saint_Romanus_Gate", "type": "place"},
-    {"term": "Halil Pasha", "matchText": "Halil Pasha", "wikiSlug": "Halil_Chandarli_Pasha_the_Younger", "type": "people"},
-    {"term": "Kayser-i Rûm", "matchText": "Kayser-i Rûm", "wikiSlug": "Caesar_of_Rome_(Ottoman)", "type": "concept"},
-    {"term": "Topkapı Palace", "matchText": "Topkapı", "wikiSlug": "Topkap%C4%B1_Palace", "type": "place"},
-    {"term": "kulliye", "matchText": "kulliye", "wikiSlug": "K%C3%BClliye", "type": "concept"},
-    {"term": "fratricide law", "matchText": "fratricide law", "wikiSlug": "Ottoman_succession_laws", "type": "concept"},
-    {"term": "timar system", "matchText": "timar system", "wikiSlug": "Timar", "type": "concept"},
-    {"term": "sipahi", "matchText": "sipahis", "wikiSlug": "Sipahi", "type": "concept"},
-    {"term": "Zoe Palaiologina", "matchText": "Zoe Palaiologina", "wikiSlug": "Sophia_Palaiologina", "type": "people"},
-    {"term": "Skanderbeg", "matchText": "Skanderbeg", "wikiSlug": "Skanderbeg", "type": "people"},
-    {"term": "Gentile Bellini", "matchText": "Gentile Bellini", "wikiSlug": "Gentile_Bellini", "type": "people"}
+    {
+      "term": "Rumelihisarı",
+      "matchText": "Rumelihisarı",
+      "wikiSlug": "Rumelihisar%C4%B1",
+      "type": "place"
+    },
+    {
+      "term": "Orban (cannon founder)",
+      "matchText": "Orban",
+      "wikiSlug": "Orban_(cannon_founder)",
+      "type": "people"
+    },
+    {
+      "term": "Constantine XI Palaiologos",
+      "matchText": "Constantine XI Palaiologos",
+      "wikiSlug": "Constantine_XI_Palaiologos",
+      "type": "people"
+    },
+    {
+      "term": "Golden Horn",
+      "matchText": "Golden Horn",
+      "wikiSlug": "Golden_Horn",
+      "type": "place"
+    },
+    {
+      "term": "Giovanni Giustiniani Longo",
+      "matchText": "Giovanni Giustiniani Longo",
+      "wikiSlug": "Giovanni_Giustiniani",
+      "type": "people"
+    },
+    {
+      "term": "Saint Romanus Gate",
+      "matchText": "Saint Romanus Gate",
+      "wikiSlug": "Saint_Romanus_Gate",
+      "type": "place"
+    },
+    {
+      "term": "Halil Pasha",
+      "matchText": "Halil Pasha",
+      "wikiSlug": "Halil_Chandarli_Pasha_the_Younger",
+      "type": "people"
+    },
+    {
+      "term": "Kayser-i Rûm",
+      "matchText": "Kayser-i Rûm",
+      "wikiSlug": "Caesar_of_Rome_(Ottoman)",
+      "type": "concept"
+    },
+    {
+      "term": "Topkapı Palace",
+      "matchText": "Topkapı",
+      "wikiSlug": "Topkap%C4%B1_Palace",
+      "type": "place"
+    },
+    {
+      "term": "kulliye",
+      "matchText": "kulliye",
+      "wikiSlug": "K%C3%BClliye",
+      "type": "concept"
+    },
+    {
+      "term": "fratricide law",
+      "matchText": "fratricide law",
+      "wikiSlug": "Ottoman_succession_laws",
+      "type": "concept"
+    },
+    {
+      "term": "timar system",
+      "matchText": "timar system",
+      "wikiSlug": "Timar",
+      "type": "concept"
+    },
+    {
+      "term": "sipahi",
+      "matchText": "sipahis",
+      "wikiSlug": "Sipahi",
+      "type": "concept"
+    },
+    {
+      "term": "Zoe Palaiologina",
+      "matchText": "Zoe Palaiologina",
+      "wikiSlug": "Sophia_Palaiologina",
+      "type": "people"
+    },
+    {
+      "term": "Skanderbeg",
+      "matchText": "Skanderbeg",
+      "wikiSlug": "Skanderbeg",
+      "type": "people"
+    },
+    {
+      "term": "Gentile Bellini",
+      "matchText": "Gentile Bellini",
+      "wikiSlug": "Gentile_Bellini",
+      "type": "people"
+    }
   ],
   "5": [
-    {"term": "Cem Sultan", "matchText": "Cem", "wikiSlug": "Cem_Sultan", "type": "people"},
-    {"term": "Alhambra Decree", "matchText": "Alhambra Decree", "wikiSlug": "Alhambra_Decree", "type": "concept"},
-    {"term": "Salonika", "matchText": "Salonika", "wikiSlug": "Thessaloniki", "type": "place"},
-    {"term": "jizya", "matchText": "jizya", "wikiSlug": "Jizya", "type": "concept"},
-    {"term": "Piri Reis", "matchText": "Piri Reis", "wikiSlug": "Piri_Reis", "type": "people"},
-    {"term": "Shah Ismail I", "matchText": "Shah Ismail I", "wikiSlug": "Ismail_I", "type": "people"},
-    {"term": "Safaviyya", "matchText": "Safaviyya", "wikiSlug": "Safaviyya", "type": "concept"},
-    {"term": "Twelver Shi'a", "matchText": "Twelver Shi'a", "wikiSlug": "Twelver", "type": "concept"},
-    {"term": "Qizilbash", "matchText": "Qizilbash", "wikiSlug": "Qizilbash", "type": "people"},
-    {"term": "Şahkulu rebellion", "matchText": "Şahkulu rebellion", "wikiSlug": "%C5%9Eahkulu_rebellion", "type": "concept"},
-    {"term": "Chaldiran", "matchText": "Chaldiran", "wikiSlug": "Battle_of_Chaldiran", "type": "place"},
-    {"term": "Mamluk Sultanate", "matchText": "Mamluk Sultanate", "wikiSlug": "Mamluk_Sultanate_(Cairo)", "type": "concept"},
-    {"term": "Marj Dabiq", "matchText": "Marj Dabiq", "wikiSlug": "Battle_of_Marj_Dabiq", "type": "place"},
-    {"term": "Qansuh al-Ghawri", "matchText": "Qansuh al-Ghawri", "wikiSlug": "Qansuh_al-Ghawri", "type": "people"},
-    {"term": "Tuman Bay II", "matchText": "Tuman Bay II", "wikiSlug": "Tuman_bay_II", "type": "people"},
-    {"term": "Two Holy Cities", "matchText": "Two Holy Cities", "wikiSlug": "Custodian_of_the_Two_Holy_Mosques", "type": "concept"},
-    {"term": "sharia", "matchText": "sharia", "wikiSlug": "Sharia", "type": "concept"},
-    {"term": "kanun", "matchText": "kanun", "wikiSlug": "Kanun_(Ottoman_law)", "type": "concept"},
-    {"term": "Sheikh ul-Islam", "matchText": "Sheikh ul-Islam", "wikiSlug": "Sheikh_ul-Islam", "type": "concept"},
-    {"term": "Şehzade Mosque", "matchText": "Şehzade Mosque", "wikiSlug": "%C5%9Eehzade_Mosque", "type": "place"},
-    {"term": "pendentive", "matchText": "pendentive", "wikiSlug": "Pendentive", "type": "concept"},
-    {"term": "Francis I of France", "matchText": "King Francis I of France", "wikiSlug": "Francis_I_of_France", "type": "people"},
-    {"term": "Iznik tiles", "matchText": "Iznik tiles", "wikiSlug": "%C4%B0znik_pottery", "type": "concept"}
+    {
+      "term": "Cem Sultan",
+      "matchText": "Cem",
+      "wikiSlug": "Cem_Sultan",
+      "type": "people"
+    },
+    {
+      "term": "Alhambra Decree",
+      "matchText": "Alhambra Decree",
+      "wikiSlug": "Alhambra_Decree",
+      "type": "concept"
+    },
+    {
+      "term": "Salonika",
+      "matchText": "Salonika",
+      "wikiSlug": "Thessaloniki",
+      "type": "place"
+    },
+    {
+      "term": "jizya",
+      "matchText": "jizya",
+      "wikiSlug": "Jizya",
+      "type": "concept"
+    },
+    {
+      "term": "Piri Reis",
+      "matchText": "Piri Reis",
+      "wikiSlug": "Piri_Reis",
+      "type": "people"
+    },
+    {
+      "term": "Shah Ismail I",
+      "matchText": "Shah Ismail I",
+      "wikiSlug": "Ismail_I",
+      "type": "people"
+    },
+    {
+      "term": "Safaviyya",
+      "matchText": "Safaviyya",
+      "wikiSlug": "Safaviyya",
+      "type": "concept"
+    },
+    {
+      "term": "Twelver Shi'a",
+      "matchText": "Twelver Shi'a",
+      "wikiSlug": "Twelver",
+      "type": "concept"
+    },
+    {
+      "term": "Qizilbash",
+      "matchText": "Qizilbash",
+      "wikiSlug": "Qizilbash",
+      "type": "people"
+    },
+    {
+      "term": "Şahkulu rebellion",
+      "matchText": "Şahkulu rebellion",
+      "wikiSlug": "%C5%9Eahkulu_rebellion",
+      "type": "concept"
+    },
+    {
+      "term": "Chaldiran",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "place"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluk Sultanate",
+      "wikiSlug": "Mamluk_Sultanate_(Cairo)",
+      "type": "concept"
+    },
+    {
+      "term": "Marj Dabiq",
+      "matchText": "Marj Dabiq",
+      "wikiSlug": "Battle_of_Marj_Dabiq",
+      "type": "place"
+    },
+    {
+      "term": "Qansuh al-Ghawri",
+      "matchText": "Qansuh al-Ghawri",
+      "wikiSlug": "Qansuh_al-Ghawri",
+      "type": "people"
+    },
+    {
+      "term": "Tuman Bay II",
+      "matchText": "Tuman Bay II",
+      "wikiSlug": "Tuman_bay_II",
+      "type": "people"
+    },
+    {
+      "term": "Two Holy Cities",
+      "matchText": "Two Holy Cities",
+      "wikiSlug": "Custodian_of_the_Two_Holy_Mosques",
+      "type": "concept"
+    },
+    {
+      "term": "sharia",
+      "matchText": "sharia",
+      "wikiSlug": "Sharia",
+      "type": "concept"
+    },
+    {
+      "term": "kanun",
+      "matchText": "kanun",
+      "wikiSlug": "Kanun_(Ottoman_law)",
+      "type": "concept"
+    },
+    {
+      "term": "Sheikh ul-Islam",
+      "matchText": "Sheikh ul-Islam",
+      "wikiSlug": "Sheikh_ul-Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Şehzade Mosque",
+      "matchText": "Şehzade Mosque",
+      "wikiSlug": "%C5%9Eehzade_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "pendentive",
+      "matchText": "pendentive",
+      "wikiSlug": "Pendentive",
+      "type": "concept"
+    },
+    {
+      "term": "Francis I of France",
+      "matchText": "King Francis I of France",
+      "wikiSlug": "Francis_I_of_France",
+      "type": "people"
+    },
+    {
+      "term": "Iznik tiles",
+      "matchText": "Iznik tiles",
+      "wikiSlug": "%C4%B0znik_pottery",
+      "type": "concept"
+    }
   ],
   "6": [
-    {"term": "orta", "matchText": "ortas", "wikiSlug": "Janissaries", "type": "concept"},
-    {"term": "kapıkulu", "matchText": "kapıkulu", "wikiSlug": "Kap%C4%B1kulu", "type": "concept"},
-    {"term": "Janissary Ağa", "matchText": "Janissary commander", "wikiSlug": "Janissaries", "type": "concept"},
-    {"term": "arquebuse", "matchText": "arquebuses", "wikiSlug": "Arquebus", "type": "concept"},
-    {"term": "Bektashi order", "matchText": "bektashi", "wikiSlug": "Bektashi_Order", "type": "concept"},
-    {"term": "pilav", "matchText": "pilav", "wikiSlug": "Pilaf", "type": "concept"},
-    {"term": "acemi oğlanlar", "matchText": "acemi oğlanlar", "wikiSlug": "Janissaries", "type": "concept"},
-    {"term": "dhimmi", "matchText": "dhimmi", "wikiSlug": "Dhimmi", "type": "concept"},
-    {"term": "Rum millet", "matchText": "Rum millet", "wikiSlug": "Millet_(Ottoman_Empire)", "type": "concept"},
-    {"term": "Armenian Apostolic Church", "matchText": "Armenian Apostolic Church", "wikiSlug": "Armenian_Apostolic_Church", "type": "concept"},
-    {"term": "Hahambaşı", "matchText": "Hahambaşı", "wikiSlug": "Hahamb%C4%B1%C5%9F%C4%B1_of_Istanbul", "type": "concept"},
-    {"term": "Romaniote Jews", "matchText": "Romaniote", "wikiSlug": "Romaniotes", "type": "people"},
-    {"term": "Corpus Juris Civilis", "matchText": "Corpus Juris Civilis", "wikiSlug": "Corpus_Juris_Civilis", "type": "concept"},
-    {"term": "tagmata", "matchText": "tagmata", "wikiSlug": "Tagmata", "type": "concept"},
-    {"term": "harac", "matchText": "harac", "wikiSlug": "Kharaj", "type": "concept"},
-    {"term": "Patriarch Gennadios II", "matchText": "Patriarch Gennadios II", "wikiSlug": "Gennadius_II", "type": "people"}
+    {
+      "term": "orta",
+      "matchText": "ortas",
+      "wikiSlug": "Janissaries",
+      "type": "concept"
+    },
+    {
+      "term": "kapıkulu",
+      "matchText": "kapıkulu",
+      "wikiSlug": "Kap%C4%B1kulu",
+      "type": "concept"
+    },
+    {
+      "term": "Janissary Ağa",
+      "matchText": "Janissary commander",
+      "wikiSlug": "Janissaries",
+      "type": "concept"
+    },
+    {
+      "term": "arquebuse",
+      "matchText": "arquebuses",
+      "wikiSlug": "Arquebus",
+      "type": "concept"
+    },
+    {
+      "term": "Bektashi order",
+      "matchText": "bektashi",
+      "wikiSlug": "Bektashi_Order",
+      "type": "concept"
+    },
+    {
+      "term": "pilav",
+      "matchText": "pilav",
+      "wikiSlug": "Pilaf",
+      "type": "concept"
+    },
+    {
+      "term": "acemi oğlanlar",
+      "matchText": "acemi oğlanlar",
+      "wikiSlug": "Janissaries",
+      "type": "concept"
+    },
+    {
+      "term": "dhimmi",
+      "matchText": "dhimmi",
+      "wikiSlug": "Dhimmi",
+      "type": "concept"
+    },
+    {
+      "term": "Rum millet",
+      "matchText": "Rum millet",
+      "wikiSlug": "Millet_(Ottoman_Empire)",
+      "type": "concept"
+    },
+    {
+      "term": "Armenian Apostolic Church",
+      "matchText": "Armenian Apostolic Church",
+      "wikiSlug": "Armenian_Apostolic_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Hahambaşı",
+      "matchText": "Hahambaşı",
+      "wikiSlug": "Hahamb%C4%B1%C5%9F%C4%B1_of_Istanbul",
+      "type": "concept"
+    },
+    {
+      "term": "Romaniote Jews",
+      "matchText": "Romaniote",
+      "wikiSlug": "Romaniotes",
+      "type": "people"
+    },
+    {
+      "term": "Corpus Juris Civilis",
+      "matchText": "Corpus Juris Civilis",
+      "wikiSlug": "Corpus_Juris_Civilis",
+      "type": "concept"
+    },
+    {
+      "term": "tagmata",
+      "matchText": "tagmata",
+      "wikiSlug": "Tagmata",
+      "type": "concept"
+    },
+    {
+      "term": "harac",
+      "matchText": "harac",
+      "wikiSlug": "Kharaj",
+      "type": "concept"
+    },
+    {
+      "term": "Patriarch Gennadios II",
+      "matchText": "Patriarch Gennadios II",
+      "wikiSlug": "Gennadius_II",
+      "type": "people"
+    },
+    {
+      "term": "Devshirme",
+      "matchText": "devshirme",
+      "wikiSlug": "Devshirme",
+      "type": "concept"
+    },
+    {
+      "term": "Millet (Ottoman Empire)",
+      "matchText": "millet",
+      "wikiSlug": "Millet_(Ottoman_Empire)",
+      "type": "concept"
+    },
+    {
+      "term": "Janissary",
+      "matchText": "Janissaries",
+      "wikiSlug": "Janissary",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "valide sultan", "matchText": "valide sultans", "wikiSlug": "Valide_sultan", "type": "concept"},
-    {"term": "Kadınlar Saltanatı", "matchText": "Kadınlar Saltanatı", "wikiSlug": "Sultanate_of_Women", "type": "concept"},
-    {"term": "Kösem Sultan", "matchText": "Kösem Sultan", "wikiSlug": "K%C3%B6sem_Sultan", "type": "people"},
-    {"term": "Rüstem Pasha", "matchText": "Rüstem Pasha", "wikiSlug": "R%C3%BCstem_Pasha", "type": "people"},
-    {"term": "Turhan Sultan", "matchText": "Turhan Sultan", "wikiSlug": "Turhan_Hatice_Sultan", "type": "people"},
-    {"term": "Atik Valide Mosque", "matchText": "Atik Valide Mosque", "wikiSlug": "Atik_Valide_Mosque", "type": "place"},
-    {"term": "Kafes", "matchText": "Kafes", "wikiSlug": "Kafes", "type": "concept"},
-    {"term": "Ibrahim I", "matchText": "Ibrahim I", "wikiSlug": "Ibrahim_of_the_Ottoman_Empire", "type": "people"},
-    {"term": "Mustafa I", "matchText": "Mustafa I", "wikiSlug": "Mustafa_I", "type": "people"},
-    {"term": "Ahmed I", "matchText": "Ahmed I", "wikiSlug": "Ahmed_I", "type": "people"},
-    {"term": "Don John of Austria", "matchText": "Don John of Austria", "wikiSlug": "John_of_Austria", "type": "people"},
-    {"term": "Treaty of Zsitvatorok", "matchText": "Treaty of Zsitvatorok", "wikiSlug": "Peace_of_Zsitvatorok", "type": "concept"},
-    {"term": "Sedefkar Mehmed Aga", "matchText": "Sedefkar Mehmed Aga", "wikiSlug": "Sedefk%C3%A2r_Mehmed_A%C4%9Fa", "type": "people"},
-    {"term": "Fazıl Ahmed Köprülü", "matchText": "Fazıl Ahmed Pasha Köprülü", "wikiSlug": "K%C3%B6pr%C3%BCl%C3%BC_Fazil_Ahmed_Pasha", "type": "people"},
-    {"term": "Murad IV", "matchText": "Murad IV", "wikiSlug": "Murad_IV", "type": "people"}
+    {
+      "term": "valide sultan",
+      "matchText": "valide sultans",
+      "wikiSlug": "Valide_sultan",
+      "type": "concept"
+    },
+    {
+      "term": "Kadınlar Saltanatı",
+      "matchText": "Kadınlar Saltanatı",
+      "wikiSlug": "Sultanate_of_Women",
+      "type": "concept"
+    },
+    {
+      "term": "Kösem Sultan",
+      "matchText": "Kösem Sultan",
+      "wikiSlug": "K%C3%B6sem_Sultan",
+      "type": "people"
+    },
+    {
+      "term": "Rüstem Pasha",
+      "matchText": "Rüstem Pasha",
+      "wikiSlug": "R%C3%BCstem_Pasha",
+      "type": "people"
+    },
+    {
+      "term": "Turhan Sultan",
+      "matchText": "Turhan Sultan",
+      "wikiSlug": "Turhan_Hatice_Sultan",
+      "type": "people"
+    },
+    {
+      "term": "Atik Valide Mosque",
+      "matchText": "Atik Valide Mosque",
+      "wikiSlug": "Atik_Valide_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Kafes",
+      "matchText": "Kafes",
+      "wikiSlug": "Kafes",
+      "type": "concept"
+    },
+    {
+      "term": "Ibrahim I",
+      "matchText": "Ibrahim I",
+      "wikiSlug": "Ibrahim_of_the_Ottoman_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Mustafa I",
+      "matchText": "Mustafa I",
+      "wikiSlug": "Mustafa_I",
+      "type": "people"
+    },
+    {
+      "term": "Ahmed I",
+      "matchText": "Ahmed I",
+      "wikiSlug": "Ahmed_I",
+      "type": "people"
+    },
+    {
+      "term": "Don John of Austria",
+      "matchText": "Don John of Austria",
+      "wikiSlug": "John_of_Austria",
+      "type": "people"
+    },
+    {
+      "term": "Treaty of Zsitvatorok",
+      "matchText": "Treaty of Zsitvatorok",
+      "wikiSlug": "Peace_of_Zsitvatorok",
+      "type": "concept"
+    },
+    {
+      "term": "Sedefkar Mehmed Aga",
+      "matchText": "Sedefkar Mehmed Aga",
+      "wikiSlug": "Sedefk%C3%A2r_Mehmed_A%C4%9Fa",
+      "type": "people"
+    },
+    {
+      "term": "Fazıl Ahmed Köprülü",
+      "matchText": "Fazıl Ahmed Pasha Köprülü",
+      "wikiSlug": "K%C3%B6pr%C3%BCl%C3%BC_Fazil_Ahmed_Pasha",
+      "type": "people"
+    },
+    {
+      "term": "Murad IV",
+      "matchText": "Murad IV",
+      "wikiSlug": "Murad_IV",
+      "type": "people"
+    }
   ],
   "8": [
-    {"term": "Holy League (1683)", "matchText": "Holy League", "wikiSlug": "Holy_League_(1684)", "type": "concept"},
-    {"term": "John III Sobieski", "matchText": "John III Sobieski", "wikiSlug": "John_III_Sobieski", "type": "people"},
-    {"term": "Charles V of Lorraine", "matchText": "Charles V of Lorraine", "wikiSlug": "Charles_V,_Duke_of_Lorraine", "type": "people"},
-    {"term": "Ernst von Starhemberg", "matchText": "Ernst Rüdiger von Starhemberg", "wikiSlug": "Ernst_R%C3%BCdiger_von_Starhemberg", "type": "people"},
-    {"term": "Imre Thököly", "matchText": "Imre Thököly", "wikiSlug": "Imre_Th%C3%B6k%C3%B6ly", "type": "people"},
-    {"term": "Lale Devri", "matchText": "Lale Devri", "wikiSlug": "Tulip_period", "type": "concept"},
-    {"term": "Damat Ibrahim Pasha", "matchText": "Damat Ibrahim Pasha", "wikiSlug": "Damad_Ibrahim_Pasha", "type": "people"},
-    {"term": "Treaty of Passarowitz", "matchText": "Treaty of Passarowitz", "wikiSlug": "Treaty_of_Passarowitz", "type": "concept"},
-    {"term": "Sefaretname", "matchText": "Sefaretname", "wikiSlug": "Yirmisekiz_Mehmed_Efendi", "type": "concept"},
-    {"term": "Yirmisekiz Çelebi", "matchText": "Yirmisekiz Çelebi Mehmed Efendi", "wikiSlug": "Yirmisekiz_Mehmed_Efendi", "type": "people"},
-    {"term": "Westphalian state system", "matchText": "Westphalian state system", "wikiSlug": "Westphalian_sovereignty", "type": "concept"},
-    {"term": "Patrona Halil", "matchText": "Patrona Halil", "wikiSlug": "Patrona_Halil_revolt", "type": "people"}
+    {
+      "term": "Holy League (1683)",
+      "matchText": "Holy League",
+      "wikiSlug": "Holy_League_(1684)",
+      "type": "concept"
+    },
+    {
+      "term": "John III Sobieski",
+      "matchText": "John III Sobieski",
+      "wikiSlug": "John_III_Sobieski",
+      "type": "people"
+    },
+    {
+      "term": "Charles V of Lorraine",
+      "matchText": "Charles V of Lorraine",
+      "wikiSlug": "Charles_V,_Duke_of_Lorraine",
+      "type": "people"
+    },
+    {
+      "term": "Ernst von Starhemberg",
+      "matchText": "Ernst Rüdiger von Starhemberg",
+      "wikiSlug": "Ernst_R%C3%BCdiger_von_Starhemberg",
+      "type": "people"
+    },
+    {
+      "term": "Imre Thököly",
+      "matchText": "Imre Thököly",
+      "wikiSlug": "Imre_Th%C3%B6k%C3%B6ly",
+      "type": "people"
+    },
+    {
+      "term": "Lale Devri",
+      "matchText": "Lale Devri",
+      "wikiSlug": "Tulip_period",
+      "type": "concept"
+    },
+    {
+      "term": "Damat Ibrahim Pasha",
+      "matchText": "Damat Ibrahim Pasha",
+      "wikiSlug": "Damad_Ibrahim_Pasha",
+      "type": "people"
+    },
+    {
+      "term": "Treaty of Passarowitz",
+      "matchText": "Treaty of Passarowitz",
+      "wikiSlug": "Treaty_of_Passarowitz",
+      "type": "concept"
+    },
+    {
+      "term": "Sefaretname",
+      "matchText": "Sefaretname",
+      "wikiSlug": "Yirmisekiz_Mehmed_Efendi",
+      "type": "concept"
+    },
+    {
+      "term": "Yirmisekiz Çelebi",
+      "matchText": "Yirmisekiz Çelebi Mehmed Efendi",
+      "wikiSlug": "Yirmisekiz_Mehmed_Efendi",
+      "type": "people"
+    },
+    {
+      "term": "Westphalian state system",
+      "matchText": "Westphalian state system",
+      "wikiSlug": "Westphalian_sovereignty",
+      "type": "concept"
+    },
+    {
+      "term": "Patrona Halil",
+      "matchText": "Patrona Halil",
+      "wikiSlug": "Patrona_Halil_revolt",
+      "type": "people"
+    }
   ],
   "9": [
-    {"term": "Nizam-ı Cedid", "matchText": "Nizam-ı Cedid", "wikiSlug": "Nizam-i_Cedid", "type": "concept"},
-    {"term": "Vaka-yı Hayriye", "matchText": "Vaka-yı Hayriye", "wikiSlug": "Auspicious_Incident", "type": "concept"},
-    {"term": "Eşkinciyan", "matchText": "Eşkinciyan", "wikiSlug": "Sekban-i_Cedid", "type": "concept"},
-    {"term": "Battle of Çeşme", "matchText": "Battle of Çeşme", "wikiSlug": "Battle_of_Cesme", "type": "concept"},
-    {"term": "fatwa", "matchText": "fatwa", "wikiSlug": "Fatwa", "type": "concept"},
-    {"term": "Treaty of Hünkar İskelesi", "matchText": "Treaty of Hünkar İskelesi", "wikiSlug": "Treaty_of_H%C3%BCnk%C3%A2r_%C4%B0skelesi", "type": "concept"},
-    {"term": "Mehmed Ali Pasha", "matchText": "Mehmed Ali Pasha", "wikiSlug": "Muhammad_Ali_of_Egypt", "type": "people"},
-    {"term": "Battle of Navarino", "matchText": "Battle of Navarino", "wikiSlug": "Battle_of_Navarino", "type": "concept"},
-    {"term": "philhellene", "matchText": "philhellene", "wikiSlug": "Philhellenism", "type": "concept"},
-    {"term": "Khanate of Crimea", "matchText": "Khanate of Crimea", "wikiSlug": "Crimean_Khanate", "type": "concept"},
-    {"term": "Mustafa IV", "matchText": "Mustafa IV", "wikiSlug": "Mustafa_IV", "type": "people"},
-    {"term": "Bektashi order", "matchText": "Bektashi Sufi order", "wikiSlug": "Bektashi_Order", "type": "concept"},
-    {"term": "ayan", "matchText": "ayan", "wikiSlug": "Ayan_(Ottoman_Empire)", "type": "concept"}
+    {
+      "term": "Nizam-ı Cedid",
+      "matchText": "Nizam-ı Cedid",
+      "wikiSlug": "Nizam-i_Cedid",
+      "type": "concept"
+    },
+    {
+      "term": "Vaka-yı Hayriye",
+      "matchText": "Vaka-yı Hayriye",
+      "wikiSlug": "Auspicious_Incident",
+      "type": "concept"
+    },
+    {
+      "term": "Eşkinciyan",
+      "matchText": "Eşkinciyan",
+      "wikiSlug": "Sekban-i_Cedid",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Çeşme",
+      "matchText": "Battle of Çeşme",
+      "wikiSlug": "Battle_of_Cesme",
+      "type": "concept"
+    },
+    {
+      "term": "fatwa",
+      "matchText": "fatwa",
+      "wikiSlug": "Fatwa",
+      "type": "concept"
+    },
+    {
+      "term": "Treaty of Hünkar İskelesi",
+      "matchText": "Treaty of Hünkar İskelesi",
+      "wikiSlug": "Treaty_of_H%C3%BCnk%C3%A2r_%C4%B0skelesi",
+      "type": "concept"
+    },
+    {
+      "term": "Mehmed Ali Pasha",
+      "matchText": "Mehmed Ali Pasha",
+      "wikiSlug": "Muhammad_Ali_of_Egypt",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Navarino",
+      "matchText": "Battle of Navarino",
+      "wikiSlug": "Battle_of_Navarino",
+      "type": "concept"
+    },
+    {
+      "term": "philhellene",
+      "matchText": "philhellene",
+      "wikiSlug": "Philhellenism",
+      "type": "concept"
+    },
+    {
+      "term": "Khanate of Crimea",
+      "matchText": "Khanate of Crimea",
+      "wikiSlug": "Crimean_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Mustafa IV",
+      "matchText": "Mustafa IV",
+      "wikiSlug": "Mustafa_IV",
+      "type": "people"
+    },
+    {
+      "term": "Bektashi order",
+      "matchText": "Bektashi Sufi order",
+      "wikiSlug": "Bektashi_Order",
+      "type": "concept"
+    },
+    {
+      "term": "ayan",
+      "matchText": "ayan",
+      "wikiSlug": "Ayan_(Ottoman_Empire)",
+      "type": "concept"
+    },
+    {
+      "term": "Tanzimat",
+      "matchText": "Tanzimat",
+      "wikiSlug": "Tanzimat",
+      "type": "concept"
+    }
   ],
   "10": [
-    {"term": "nizamiye courts", "matchText": "nizamiye", "wikiSlug": "Tanzimat", "type": "concept"},
-    {"term": "Galatasaray Lisesi", "matchText": "Galatasaray Imperial Lyceum", "wikiSlug": "Galatasaray_High_School", "type": "place"},
-    {"term": "Darülfünun", "matchText": "Darülfünun", "wikiSlug": "Dar%C3%BClfun%C3%BBn", "type": "concept"},
-    {"term": "rüşdiye schools", "matchText": "rüşdiye", "wikiSlug": "R%C3%BC%C5%9Fdiye", "type": "concept"},
-    {"term": "Siege of Sevastopol", "matchText": "Siege of Sevastopol", "wikiSlug": "Siege_of_Sevastopol_(1854%E2%80%9355)", "type": "concept"},
-    {"term": "Florence Nightingale", "matchText": "Florence Nightingale", "wikiSlug": "Florence_Nightingale", "type": "people"},
-    {"term": "Charge of the Light Brigade", "matchText": "Charge of the Light Brigade", "wikiSlug": "Charge_of_the_Light_Brigade", "type": "concept"},
-    {"term": "Concert of Europe", "matchText": "Concert of Europe", "wikiSlug": "Concert_of_Europe", "type": "concept"},
-    {"term": "Dolmabahçe Palace", "matchText": "Dolmabahçe Palace", "wikiSlug": "Dolmabah%C3%A7e_Palace", "type": "place"},
-    {"term": "Yıldız Palace", "matchText": "Yıldız", "wikiSlug": "Y%C4%B1ld%C4%B1z_Palace", "type": "place"},
-    {"term": "pan-Islamic", "matchText": "pan-Islamic", "wikiSlug": "Pan-Islamism", "type": "concept"},
-    {"term": "Hijaz Railway", "matchText": "Hijaz Railway", "wikiSlug": "Hejaz_railway", "type": "concept"},
-    {"term": "Hamidiye cavalry", "matchText": "Hamidiye", "wikiSlug": "Hamidiye_(cavalry)", "type": "concept"},
-    {"term": "Committee of Union and Progress", "matchText": "Committee of Union and Progress", "wikiSlug": "Committee_of_Union_and_Progress", "type": "concept"},
-    {"term": "Midhat Pasha", "matchText": "Midhat Pasha", "wikiSlug": "Midhat_Pasha", "type": "people"},
-    {"term": "Congress of Berlin", "matchText": "Congress of Berlin", "wikiSlug": "Congress_of_Berlin", "type": "concept"},
-    {"term": "Mülkiye", "matchText": "Mülkiye", "wikiSlug": "Ankara_University_Faculty_of_Political_Science", "type": "concept"},
-    {"term": "Treaty of San Stefano", "matchText": "Treaty of San Stefano", "wikiSlug": "Treaty_of_San_Stefano", "type": "concept"}
+    {
+      "term": "nizamiye courts",
+      "matchText": "nizamiye",
+      "wikiSlug": "Tanzimat",
+      "type": "concept"
+    },
+    {
+      "term": "Galatasaray Lisesi",
+      "matchText": "Galatasaray Imperial Lyceum",
+      "wikiSlug": "Galatasaray_High_School",
+      "type": "place"
+    },
+    {
+      "term": "Darülfünun",
+      "matchText": "Darülfünun",
+      "wikiSlug": "Dar%C3%BClfun%C3%BBn",
+      "type": "concept"
+    },
+    {
+      "term": "rüşdiye schools",
+      "matchText": "rüşdiye",
+      "wikiSlug": "R%C3%BC%C5%9Fdiye",
+      "type": "concept"
+    },
+    {
+      "term": "Siege of Sevastopol",
+      "matchText": "Siege of Sevastopol",
+      "wikiSlug": "Siege_of_Sevastopol_(1854%E2%80%9355)",
+      "type": "concept"
+    },
+    {
+      "term": "Florence Nightingale",
+      "matchText": "Florence Nightingale",
+      "wikiSlug": "Florence_Nightingale",
+      "type": "people"
+    },
+    {
+      "term": "Charge of the Light Brigade",
+      "matchText": "Charge of the Light Brigade",
+      "wikiSlug": "Charge_of_the_Light_Brigade",
+      "type": "concept"
+    },
+    {
+      "term": "Concert of Europe",
+      "matchText": "Concert of Europe",
+      "wikiSlug": "Concert_of_Europe",
+      "type": "concept"
+    },
+    {
+      "term": "Dolmabahçe Palace",
+      "matchText": "Dolmabahçe Palace",
+      "wikiSlug": "Dolmabah%C3%A7e_Palace",
+      "type": "place"
+    },
+    {
+      "term": "Yıldız Palace",
+      "matchText": "Yıldız",
+      "wikiSlug": "Y%C4%B1ld%C4%B1z_Palace",
+      "type": "place"
+    },
+    {
+      "term": "pan-Islamic",
+      "matchText": "pan-Islamic",
+      "wikiSlug": "Pan-Islamism",
+      "type": "concept"
+    },
+    {
+      "term": "Hijaz Railway",
+      "matchText": "Hijaz Railway",
+      "wikiSlug": "Hejaz_railway",
+      "type": "concept"
+    },
+    {
+      "term": "Hamidiye cavalry",
+      "matchText": "Hamidiye",
+      "wikiSlug": "Hamidiye_(cavalry)",
+      "type": "concept"
+    },
+    {
+      "term": "Committee of Union and Progress",
+      "matchText": "Committee of Union and Progress",
+      "wikiSlug": "Committee_of_Union_and_Progress",
+      "type": "concept"
+    },
+    {
+      "term": "Midhat Pasha",
+      "matchText": "Midhat Pasha",
+      "wikiSlug": "Midhat_Pasha",
+      "type": "people"
+    },
+    {
+      "term": "Congress of Berlin",
+      "matchText": "Congress of Berlin",
+      "wikiSlug": "Congress_of_Berlin",
+      "type": "concept"
+    },
+    {
+      "term": "Mülkiye",
+      "matchText": "Mülkiye",
+      "wikiSlug": "Ankara_University_Faculty_of_Political_Science",
+      "type": "concept"
+    },
+    {
+      "term": "Treaty of San Stefano",
+      "matchText": "Treaty of San Stefano",
+      "wikiSlug": "Treaty_of_San_Stefano",
+      "type": "concept"
+    }
   ],
   "11": [
-    {"term": "Three Pashas", "matchText": "Three Pashas", "wikiSlug": "Three_Pashas", "type": "concept"},
-    {"term": "Battle of Sarıkamış", "matchText": "Battle of Sarıkamış", "wikiSlug": "Battle_of_Sarikamis", "type": "concept"},
-    {"term": "Siege of Kut al-Amara", "matchText": "Siege of Kut al-Amara", "wikiSlug": "Siege_of_Kut", "type": "concept"},
-    {"term": "Edmund Allenby", "matchText": "Edmund Allenby", "wikiSlug": "Edmund_Allenby,_1st_Viscount_Allenby", "type": "people"},
-    {"term": "Arab Revolt", "matchText": "Arab Revolt", "wikiSlug": "Arab_Revolt", "type": "concept"},
-    {"term": "T.E. Lawrence", "matchText": "T.E. Lawrence", "wikiSlug": "T._E._Lawrence", "type": "people"},
-    {"term": "Otto Liman von Sanders", "matchText": "Otto Liman von Sanders", "wikiSlug": "Otto_Liman_von_Sanders", "type": "people"},
-    {"term": "Anzac", "matchText": "Anzac", "wikiSlug": "ANZAC", "type": "concept"},
-    {"term": "Deir ez-Zor", "matchText": "Deir ez-Zor", "wikiSlug": "Deir_ez-Zor_massacre", "type": "place"},
-    {"term": "Henry Morgenthau Sr.", "matchText": "Henry Morgenthau", "wikiSlug": "Henry_Morgenthau_Sr.", "type": "people"},
-    {"term": "Teşkilât-ı Mahsusa", "matchText": "Teşkilât-ı Mahsusa", "wikiSlug": "Te%C5%9Fkilat-%C4%B1_Mahsusa", "type": "concept"},
-    {"term": "Treaty of Sèvres", "matchText": "Treaty of Sèvres", "wikiSlug": "Treaty_of_S%C3%A8vres", "type": "concept"},
-    {"term": "Soghomon Tehlirian", "matchText": "Soghomon Tehlirian", "wikiSlug": "Soghomon_Tehlirian", "type": "people"},
-    {"term": "Treaty of Lausanne", "matchText": "Treaty of Lausanne", "wikiSlug": "Treaty_of_Lausanne", "type": "concept"},
-    {"term": "Grand National Assembly", "matchText": "Grand National Assembly", "wikiSlug": "Grand_National_Assembly_of_Turkey", "type": "concept"},
-    {"term": "Mehmed VI", "matchText": "Mehmed VI Vahdettin", "wikiSlug": "Mehmed_VI", "type": "people"},
-    {"term": "population exchange 1923", "matchText": "population exchange", "wikiSlug": "Convention_Concerning_the_Exchange_of_Greek_and_Turkish_Populations", "type": "concept"}
+    {
+      "term": "Three Pashas",
+      "matchText": "Three Pashas",
+      "wikiSlug": "Three_Pashas",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Sarıkamış",
+      "matchText": "Battle of Sarıkamış",
+      "wikiSlug": "Battle_of_Sarikamis",
+      "type": "concept"
+    },
+    {
+      "term": "Siege of Kut al-Amara",
+      "matchText": "Siege of Kut al-Amara",
+      "wikiSlug": "Siege_of_Kut",
+      "type": "concept"
+    },
+    {
+      "term": "Edmund Allenby",
+      "matchText": "Edmund Allenby",
+      "wikiSlug": "Edmund_Allenby,_1st_Viscount_Allenby",
+      "type": "people"
+    },
+    {
+      "term": "Arab Revolt",
+      "matchText": "Arab Revolt",
+      "wikiSlug": "Arab_Revolt",
+      "type": "concept"
+    },
+    {
+      "term": "T.E. Lawrence",
+      "matchText": "T.E. Lawrence",
+      "wikiSlug": "T._E._Lawrence",
+      "type": "people"
+    },
+    {
+      "term": "Otto Liman von Sanders",
+      "matchText": "Otto Liman von Sanders",
+      "wikiSlug": "Otto_Liman_von_Sanders",
+      "type": "people"
+    },
+    {
+      "term": "Anzac",
+      "matchText": "Anzac",
+      "wikiSlug": "ANZAC",
+      "type": "concept"
+    },
+    {
+      "term": "Deir ez-Zor",
+      "matchText": "Deir ez-Zor",
+      "wikiSlug": "Deir_ez-Zor_massacre",
+      "type": "place"
+    },
+    {
+      "term": "Henry Morgenthau Sr.",
+      "matchText": "Henry Morgenthau",
+      "wikiSlug": "Henry_Morgenthau_Sr.",
+      "type": "people"
+    },
+    {
+      "term": "Teşkilât-ı Mahsusa",
+      "matchText": "Teşkilât-ı Mahsusa",
+      "wikiSlug": "Te%C5%9Fkilat-%C4%B1_Mahsusa",
+      "type": "concept"
+    },
+    {
+      "term": "Treaty of Sèvres",
+      "matchText": "Treaty of Sèvres",
+      "wikiSlug": "Treaty_of_S%C3%A8vres",
+      "type": "concept"
+    },
+    {
+      "term": "Soghomon Tehlirian",
+      "matchText": "Soghomon Tehlirian",
+      "wikiSlug": "Soghomon_Tehlirian",
+      "type": "people"
+    },
+    {
+      "term": "Treaty of Lausanne",
+      "matchText": "Treaty of Lausanne",
+      "wikiSlug": "Treaty_of_Lausanne",
+      "type": "concept"
+    },
+    {
+      "term": "Grand National Assembly",
+      "matchText": "Grand National Assembly",
+      "wikiSlug": "Grand_National_Assembly_of_Turkey",
+      "type": "concept"
+    },
+    {
+      "term": "Mehmed VI",
+      "matchText": "Mehmed VI Vahdettin",
+      "wikiSlug": "Mehmed_VI",
+      "type": "people"
+    },
+    {
+      "term": "population exchange 1923",
+      "matchText": "population exchange",
+      "wikiSlug": "Convention_Concerning_the_Exchange_of_Greek_and_Turkish_Populations",
+      "type": "concept"
+    }
   ],
   "12": [
-    {"term": "Republican People's Party", "matchText": "Republican People's Party", "wikiSlug": "Republican_People%27s_Party_(Turkey)", "type": "concept"},
-    {"term": "Atatürk", "matchText": "Atatürk", "wikiSlug": "Mustafa_Kemal_Atat%C3%BCrk", "type": "people"},
-    {"term": "Abdülmecid II", "matchText": "Abdülmecid II", "wikiSlug": "Abdulmejid_II", "type": "people"},
-    {"term": "Mevlevi order", "matchText": "Mevlevi", "wikiSlug": "Mevlevi_Order", "type": "concept"},
-    {"term": "Naqshbandi order", "matchText": "Naqshbandi", "wikiSlug": "Naqshbandi", "type": "concept"},
-    {"term": "Sufi tariqats", "matchText": "Sufi tariqats", "wikiSlug": "Tariqa", "type": "concept"},
-    {"term": "fez", "matchText": "fez", "wikiSlug": "Fez_(hat)", "type": "concept"},
-    {"term": "Turkish Language Society", "matchText": "Turkish Language Society", "wikiSlug": "Turkish_Language_Association", "type": "concept"},
-    {"term": "Sunni-Shia divide", "matchText": "Sunni-Shi'a divide", "wikiSlug": "Shia%E2%80%93Sunni_relations", "type": "concept"},
-    {"term": "sultanate was abolished", "matchText": "sultanate was abolished", "wikiSlug": "Abolition_of_the_Ottoman_sultanate", "type": "concept"},
-    {"term": "waqf", "matchText": "waqfs", "wikiSlug": "Waqf", "type": "concept"},
-    {"term": "vilayet", "matchText": "vilayet", "wikiSlug": "Vilayet", "type": "concept"},
-    {"term": "ISIS caliphate", "matchText": "Islamic State of Iraq and Syria", "wikiSlug": "Islamic_State_of_Iraq_and_the_Levant", "type": "concept"}
+    {
+      "term": "Republican People's Party",
+      "matchText": "Republican People's Party",
+      "wikiSlug": "Republican_People%27s_Party_(Turkey)",
+      "type": "concept"
+    },
+    {
+      "term": "Atatürk",
+      "matchText": "Atatürk",
+      "wikiSlug": "Mustafa_Kemal_Atat%C3%BCrk",
+      "type": "people"
+    },
+    {
+      "term": "Abdülmecid II",
+      "matchText": "Abdülmecid II",
+      "wikiSlug": "Abdulmejid_II",
+      "type": "people"
+    },
+    {
+      "term": "Mevlevi order",
+      "matchText": "Mevlevi",
+      "wikiSlug": "Mevlevi_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Naqshbandi order",
+      "matchText": "Naqshbandi",
+      "wikiSlug": "Naqshbandi",
+      "type": "concept"
+    },
+    {
+      "term": "Sufi tariqats",
+      "matchText": "Sufi tariqats",
+      "wikiSlug": "Tariqa",
+      "type": "concept"
+    },
+    {
+      "term": "fez",
+      "matchText": "fez",
+      "wikiSlug": "Fez_(hat)",
+      "type": "concept"
+    },
+    {
+      "term": "Turkish Language Society",
+      "matchText": "Turkish Language Society",
+      "wikiSlug": "Turkish_Language_Association",
+      "type": "concept"
+    },
+    {
+      "term": "Sunni-Shia divide",
+      "matchText": "Sunni-Shi'a divide",
+      "wikiSlug": "Shia%E2%80%93Sunni_relations",
+      "type": "concept"
+    },
+    {
+      "term": "sultanate was abolished",
+      "matchText": "sultanate was abolished",
+      "wikiSlug": "Abolition_of_the_Ottoman_sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "waqf",
+      "matchText": "waqfs",
+      "wikiSlug": "Waqf",
+      "type": "concept"
+    },
+    {
+      "term": "vilayet",
+      "matchText": "vilayet",
+      "wikiSlug": "Vilayet",
+      "type": "concept"
+    },
+    {
+      "term": "ISIS caliphate",
+      "matchText": "Islamic State of Iraq and Syria",
+      "wikiSlug": "Islamic_State_of_Iraq_and_the_Levant",
+      "type": "concept"
+    }
   ]
 }
