@@ -72,8 +72,26 @@ reader exposure before spending money.**
 - `goryeo-korea` registered w/o maps = the in-progress pipeline trial (maps are
   step 12); expected WIP, not a defect.
 
-**Next economical step:** #1 dead-wikiSlug sweep (free, but a slow live-Wiki
-network pass — existing `lint-links.ts` script).
+- **#1 ◐ SWEPT (free part done) — remediation strategy pending decision.**
+  Corpus-wide live-Wikipedia pass (cache 367→11,768 slugs). Result: **577 dead
+  references · 543 unique dead slugs · 93 of 100 civs** — zero non-slug ERRORs.
+  The mali datapoint ("1 → likely dozens") understated it by ~50×. Worklist
+  persisted: **`audits/dead-slugs-2026-05-17.txt`** (`civ⇥chapter⇥slug`).
+  **Key constraint:** `lint-links.ts` already URL-decodes and treats redirect
+  pages as valid (lines 236–257) — it only flags API-`missing` titles. So
+  these are *genuinely wrong titles*, NOT decode/redirect false alarms; no
+  cheap blanket transform recovers them. Recovery = find the right article per
+  slug. **Recommended 2-phase economical remediation (awaiting go-ahead):**
+  - *Phase 1 (free, deterministic):* Wikipedia opensearch/search-API resolver
+    per slug; auto-apply only on a strict similarity gate (recovers the
+    mechanical majority — wrong disambiguator, spelling, `(cannon_founder)`-type
+    parentheticals), each fix re-validated live so no new dead links.
+  - *Phase 2 (billable, measured):* the post-Phase-1 residue (genuinely
+    ambiguous / no-article → model-pick-or-drop). Decide go/no-go on the
+    residual count, not blind on 543.
+
+**Next economical step:** decide #1 remediation approach (see options put to
+user); then #11 build/data audit or #13 image liveness (both free).
 
 ---
 
@@ -81,7 +99,7 @@ network pass — existing `lint-links.ts` script).
 
 | # | Item | Traces to | Volume (known/sampled) | Status |
 |---|------|-----------|------------------------|--------|
-| 1 | Dead wikiSlugs corpus-wide | lint-links slug check (prebuild uses `--no-slugs`) | mali-empire alone had 1 (Ahmed_Baba 404) → likely dozens+ | ☐ |
+| 1 | Dead wikiSlugs corpus-wide | lint-links slug check (prebuild uses `--no-slugs`) | **SWEPT: 577 refs · 543 unique · 93/100 civs** (`audits/dead-slugs-2026-05-17.txt`) | ◐ |
 | 2 | Parser-dropped-link **classifier** (detection only) | pipeline-audit debt #1 | classifier un-built; raw `--contention` ≈2211 is un-triaged, not a worklist | ☐ |
 | 11 | Build/data audit (Track 3) | `memory/project_corpus_audit_plan` | parse/data-shape integrity corpus-wide | ☐ |
 | 13 | Image **liveness** (dead Commons thumbnails) | gap on review; `feedback_image_quality` | unknown; HTTP HEAD over enriched manifest | ☐ |
