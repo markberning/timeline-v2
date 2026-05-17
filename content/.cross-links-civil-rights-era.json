@@ -23,6 +23,12 @@
       "targetTl": "roaring-twenties",
       "targetChapter": 13,
       "blurb": "The Roaring Twenties narrative covers the first Great Migration and the Harlem Renaissance in full: the World War I-era exodus north, the New Negro, Garvey and the UNIA, jazz, and the concentration of Black voters in big Northern industrial states. That concentration is exactly the political leverage A. Philip Randolph would use in 1941, and the runway this chapter begins on."
+    },
+    {
+      "matchText": "Reconstruction",
+      "targetTl": "reconstruction",
+      "targetChapter": 16,
+      "blurb": "'The Broken Promise' is Reconstruction's failure — the civil-rights era is the bill, a century overdue, for the Second Founding that was never enforced."
     }
   ],
   "2": [
@@ -61,6 +67,12 @@
       "targetTl": "antebellum-america",
       "targetChapter": 3,
       "blurb": "When Faubus used the Arkansas Guard to defy a federal court, he raised the supremacy question the Antebellum America narrative covers in the Nullification Crisis of 1832: can a state interpose its sovereignty against federal authority? Calhoun said yes; Jackson threatened force; the Civil War settled it for good. Eisenhower could not concede that a governor could nullify the Constitution without unmaking the answer the war had written."
+    },
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 3,
+      "blurb": "The movement's nonviolent strategy was consciously imported from Gandhi — Indian satyagraha re-engineered for the American South."
     }
   ],
   "6": [],
@@ -129,15 +141,34 @@
       "targetTl": "roaring-twenties",
       "targetChapter": 3,
       "blurb": "The Roaring Twenties narrative covers the 1919 Red Summer and the Chicago riot, when white mobs attacked Black neighborhoods for days after the Great Migration brought Black Southerners into the city. The Marquette Park mobs that shocked King in 1966 were the same phenomenon, white Northern resistance to residential integration, forty-seven years apart. King was not encountering something new in the North; he was encountering something the North had been doing the whole time."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 13,
+      "blurb": "'The Other America' — poverty amid plenty — was also a Cold War vulnerability the USSR exploited; civil rights was fought partly under that global spotlight."
     }
   ],
-  "14": [],
+  "14": [
+    {
+      "matchText": "Antebellum America",
+      "targetTl": "antebellum-america",
+      "targetChapter": 10,
+      "blurb": "'The Longer Tradition' reaches back to antebellum Black resistance and abolition — the movement as the latest chapter of an old struggle."
+    }
+  ],
   "15": [
     {
       "matchText": "a Senate select committee, the Church Committee, investigated and published it",
       "targetTl": "reconstruction",
       "targetChapter": 16,
       "blurb": "The Reconstruction narrative's afterlife chapter sets up the longer pattern: the federal government that was finally forced to enforce the amendments was the same one that had abandoned them in 1877 and would tolerate, even run, campaigns against Black political power. COINTELPRO is the twentieth-century instance, the same Bureau that stood aside while the Freedom Riders were beaten running a clandestine, illegal operation to destroy the movement's most independent wing."
+    },
+    {
+      "matchText": "Roaring Twenties",
+      "targetTl": "roaring-twenties",
+      "targetChapter": 13,
+      "blurb": "Black Power's cultural assertion has its roots in the New Negro and the Harlem Renaissance — pride as politics, decades before the slogan."
     }
   ],
   "16": [],
@@ -179,6 +210,12 @@
       "targetTl": "reconstruction",
       "targetChapter": 8,
       "blurb": "The Reconstruction narrative develops at length the argument that freedom without an economic base was freedom on paper only, and that the defeat of land redistribution, forty acres, doomed the freedpeople to sharecropping and debt. The Poor People's Campaign's economic bill of rights was refused in 1968 by, at bottom, the same mechanism: a governing coalition subordinating economic redistribution to propertied interests. The same promise was refused twice for the same reason."
+    },
+    {
+      "matchText": "Reconstruction",
+      "targetTl": "reconstruction",
+      "targetChapter": 1,
+      "blurb": "'The Second Reconstruction' names itself — the civil-rights era explicitly finishing the work the first Reconstruction began and lost."
     }
   ]
 }

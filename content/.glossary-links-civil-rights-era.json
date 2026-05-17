@@ -1,317 +1,1736 @@
 {
   "1": [
-    { "term": "Thirteenth Amendment", "matchText": "Thirteenth Amendment", "wikiSlug": "Thirteenth_Amendment_to_the_United_States_Constitution", "type": "concept" },
-    { "term": "Fourteenth Amendment", "matchText": "Fourteenth Amendment", "wikiSlug": "Fourteenth_Amendment_to_the_United_States_Constitution", "type": "concept" },
-    { "term": "Fifteenth Amendment", "matchText": "Fifteenth Amendment", "wikiSlug": "Fifteenth_Amendment_to_the_United_States_Constitution", "type": "concept" },
-    { "term": "Reconstruction", "matchText": "That period is called Reconstruction", "wikiSlug": "Reconstruction_era", "type": "event" },
-    { "term": "Ku Klux Klan", "matchText": "the Klan", "wikiSlug": "Ku_Klux_Klan", "type": "group" },
-    { "term": "Jim Crow", "matchText": "the deliberate, systematic construction of something new", "wikiSlug": "Jim_Crow_laws", "type": "concept" },
-    { "term": "Minstrel show", "matchText": "minstrel shows of the 1830s", "wikiSlug": "Minstrel_show", "type": "concept" },
-    { "term": "Segregation", "matchText": "laws requiring the physical separation of Black and white people", "wikiSlug": "Racial_segregation_in_the_United_States", "type": "concept" },
-    { "term": "Disfranchisement", "matchText": "disfranchisement", "wikiSlug": "Disfranchisement_after_the_Reconstruction_era", "type": "concept" },
-    { "term": "Poll tax", "matchText": "poll tax", "wikiSlug": "Poll_taxes_in_the_United_States", "type": "concept" },
-    { "term": "Literacy test", "matchText": "literacy test", "wikiSlug": "Literacy_test", "type": "concept" },
-    { "term": "Grandfather clause", "matchText": "grandfather clause", "wikiSlug": "Grandfather_clause", "type": "concept" },
-    { "term": "White primary", "matchText": "all-white primary", "wikiSlug": "White_primary", "type": "concept" },
-    { "term": "Lynching", "matchText": "lynching, the public", "wikiSlug": "Lynching_in_the_United_States", "type": "concept" },
-    { "term": "Filibuster", "matchText": "the filibuster", "wikiSlug": "Filibuster_in_the_United_States_Senate", "type": "concept" },
-    { "term": "Plessy v. Ferguson", "matchText": "Plessy v. Ferguson", "wikiSlug": "Plessy_v._Ferguson", "type": "event" },
-    { "term": "Separate but equal", "matchText": "separate but equal", "wikiSlug": "Separate_but_equal", "type": "concept" },
-    { "term": "Great Migration", "matchText": "Great Migration", "wikiSlug": "Great_Migration_(African_American)", "type": "event" },
-    { "term": "Harlem Renaissance", "matchText": "Harlem Renaissance", "wikiSlug": "Harlem_Renaissance", "type": "event" },
-    { "term": "New Deal", "matchText": "New Deal", "wikiSlug": "New_Deal", "type": "concept" },
-    { "term": "A. Philip Randolph", "matchText": "A. Philip Randolph", "wikiSlug": "A._Philip_Randolph", "type": "person" },
-    { "term": "Brotherhood of Sleeping Car Porters", "matchText": "Brotherhood of Sleeping Car Porters", "wikiSlug": "Brotherhood_of_Sleeping_Car_Porters", "type": "group" },
-    { "term": "Executive Order 9981", "matchText": "Executive Order 9981", "wikiSlug": "Executive_Order_9981", "type": "concept" },
-    { "term": "Dixiecrats", "matchText": "Dixiecrats", "wikiSlug": "Dixiecrat", "type": "group" },
-    { "term": "NAACP", "matchText": "NAACP", "wikiSlug": "NAACP", "type": "group" },
-    { "term": "Charles Hamilton Houston", "matchText": "Charles Hamilton Houston", "wikiSlug": "Charles_Hamilton_Houston", "type": "person" },
-    { "term": "Thurgood Marshall", "matchText": "Thurgood Marshall", "wikiSlug": "Thurgood_Marshall", "type": "person" },
-    { "term": "NAACP Legal Defense Fund", "matchText": "Legal Defense Fund", "wikiSlug": "NAACP_Legal_Defense_and_Educational_Fund", "type": "group" },
-    { "term": "Clark doll experiment", "matchText": "Kenneth and Mamie Clark", "wikiSlug": "Clark_doll_experiment", "type": "concept" }
+    {
+      "term": "Thirteenth Amendment",
+      "matchText": "Thirteenth Amendment",
+      "wikiSlug": "Thirteenth_Amendment_to_the_United_States_Constitution",
+      "type": "concept"
+    },
+    {
+      "term": "Fourteenth Amendment",
+      "matchText": "Fourteenth Amendment",
+      "wikiSlug": "Fourteenth_Amendment_to_the_United_States_Constitution",
+      "type": "concept"
+    },
+    {
+      "term": "Fifteenth Amendment",
+      "matchText": "Fifteenth Amendment",
+      "wikiSlug": "Fifteenth_Amendment_to_the_United_States_Constitution",
+      "type": "concept"
+    },
+    {
+      "term": "Reconstruction",
+      "matchText": "That period is called Reconstruction",
+      "wikiSlug": "Reconstruction_era",
+      "type": "event"
+    },
+    {
+      "term": "Ku Klux Klan",
+      "matchText": "the Klan",
+      "wikiSlug": "Ku_Klux_Klan",
+      "type": "group"
+    },
+    {
+      "term": "Jim Crow",
+      "matchText": "the deliberate, systematic construction of something new",
+      "wikiSlug": "Jim_Crow_laws",
+      "type": "concept"
+    },
+    {
+      "term": "Minstrel show",
+      "matchText": "minstrel shows of the 1830s",
+      "wikiSlug": "Minstrel_show",
+      "type": "concept"
+    },
+    {
+      "term": "Segregation",
+      "matchText": "laws requiring the physical separation of Black and white people",
+      "wikiSlug": "Racial_segregation_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Disfranchisement",
+      "matchText": "disfranchisement",
+      "wikiSlug": "Disfranchisement_after_the_Reconstruction_era",
+      "type": "concept"
+    },
+    {
+      "term": "Poll tax",
+      "matchText": "poll tax",
+      "wikiSlug": "Poll_taxes_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Literacy test",
+      "matchText": "literacy test",
+      "wikiSlug": "Literacy_test",
+      "type": "concept"
+    },
+    {
+      "term": "Grandfather clause",
+      "matchText": "grandfather clause",
+      "wikiSlug": "Grandfather_clause",
+      "type": "concept"
+    },
+    {
+      "term": "White primary",
+      "matchText": "all-white primary",
+      "wikiSlug": "White_primary",
+      "type": "concept"
+    },
+    {
+      "term": "Lynching",
+      "matchText": "lynching, the public",
+      "wikiSlug": "Lynching_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Filibuster",
+      "matchText": "the filibuster",
+      "wikiSlug": "Filibuster_in_the_United_States_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Plessy v. Ferguson",
+      "matchText": "Plessy v. Ferguson",
+      "wikiSlug": "Plessy_v._Ferguson",
+      "type": "event"
+    },
+    {
+      "term": "Separate but equal",
+      "matchText": "separate but equal",
+      "wikiSlug": "Separate_but_equal",
+      "type": "concept"
+    },
+    {
+      "term": "Great Migration",
+      "matchText": "Great Migration",
+      "wikiSlug": "Great_Migration_(African_American)",
+      "type": "event"
+    },
+    {
+      "term": "Harlem Renaissance",
+      "matchText": "Harlem Renaissance",
+      "wikiSlug": "Harlem_Renaissance",
+      "type": "event"
+    },
+    {
+      "term": "New Deal",
+      "matchText": "New Deal",
+      "wikiSlug": "New_Deal",
+      "type": "concept"
+    },
+    {
+      "term": "A. Philip Randolph",
+      "matchText": "A. Philip Randolph",
+      "wikiSlug": "A._Philip_Randolph",
+      "type": "person"
+    },
+    {
+      "term": "Brotherhood of Sleeping Car Porters",
+      "matchText": "Brotherhood of Sleeping Car Porters",
+      "wikiSlug": "Brotherhood_of_Sleeping_Car_Porters",
+      "type": "group"
+    },
+    {
+      "term": "Executive Order 9981",
+      "matchText": "Executive Order 9981",
+      "wikiSlug": "Executive_Order_9981",
+      "type": "concept"
+    },
+    {
+      "term": "Dixiecrats",
+      "matchText": "Dixiecrats",
+      "wikiSlug": "Dixiecrat",
+      "type": "group"
+    },
+    {
+      "term": "NAACP",
+      "matchText": "NAACP",
+      "wikiSlug": "NAACP",
+      "type": "group"
+    },
+    {
+      "term": "Charles Hamilton Houston",
+      "matchText": "Charles Hamilton Houston",
+      "wikiSlug": "Charles_Hamilton_Houston",
+      "type": "person"
+    },
+    {
+      "term": "Thurgood Marshall",
+      "matchText": "Thurgood Marshall",
+      "wikiSlug": "Thurgood_Marshall",
+      "type": "person"
+    },
+    {
+      "term": "NAACP Legal Defense Fund",
+      "matchText": "Legal Defense Fund",
+      "wikiSlug": "NAACP_Legal_Defense_and_Educational_Fund",
+      "type": "group"
+    },
+    {
+      "term": "Clark doll experiment",
+      "matchText": "Kenneth and Mamie Clark",
+      "wikiSlug": "Clark_doll_experiment",
+      "type": "concept"
+    }
   ],
   "2": [
-    { "term": "Earl Warren", "matchText": "Earl Warren", "wikiSlug": "Earl_Warren", "type": "person" },
-    { "term": "Brown v. Board of Education", "matchText": "Brown v. Board of Education", "wikiSlug": "Brown_v._Board_of_Education", "type": "event" },
-    { "term": "Equal Protection Clause", "matchText": "equal protection", "wikiSlug": "Equal_Protection_Clause", "type": "concept" },
-    { "term": "Decolonization", "matchText": "decolonizing", "wikiSlug": "Decolonization", "type": "concept" },
-    { "term": "Bandung Conference", "matchText": "Bandung Conference", "wikiSlug": "Bandung_Conference", "type": "event" },
-    { "term": "Ghana independence", "matchText": "first sub-Saharan African colony to win independence", "wikiSlug": "History_of_Ghana", "type": "event" },
-    { "term": "Cold War", "matchText": "Cold War", "wikiSlug": "Cold_War", "type": "concept" },
-    { "term": "Brown II", "matchText": "Brown II", "wikiSlug": "Brown_v._Board_of_Education", "type": "event" },
-    { "term": "Massive Resistance", "matchText": "Massive Resistance", "wikiSlug": "Massive_resistance", "type": "concept" },
-    { "term": "Southern Manifesto", "matchText": "Southern Manifesto", "wikiSlug": "Southern_Manifesto", "type": "concept" },
-    { "term": "Interposition", "matchText": "interposition", "wikiSlug": "Interposition", "type": "concept" },
-    { "term": "John C. Calhoun", "matchText": "John C. Calhoun", "wikiSlug": "John_C._Calhoun", "type": "person" },
-    { "term": "Nullification Crisis", "matchText": "Nullification Crisis of 1832", "wikiSlug": "Nullification_crisis", "type": "event" },
-    { "term": "Prince Edward County", "matchText": "Prince Edward", "wikiSlug": "Prince_Edward_County_Public_Schools_(Virginia)", "type": "place" },
-    { "term": "Segregation academy", "matchText": "White families opened private", "wikiSlug": "Segregation_academy", "type": "concept" },
-    { "term": "White Citizens' Councils", "matchText": "White Citizens' Councils", "wikiSlug": "White_Citizens%27_Council", "type": "group" }
+    {
+      "term": "Earl Warren",
+      "matchText": "Earl Warren",
+      "wikiSlug": "Earl_Warren",
+      "type": "person"
+    },
+    {
+      "term": "Brown v. Board of Education",
+      "matchText": "Brown v. Board of Education",
+      "wikiSlug": "Brown_v._Board_of_Education",
+      "type": "event"
+    },
+    {
+      "term": "Equal Protection Clause",
+      "matchText": "equal protection",
+      "wikiSlug": "Equal_Protection_Clause",
+      "type": "concept"
+    },
+    {
+      "term": "Decolonization",
+      "matchText": "decolonizing",
+      "wikiSlug": "Decolonization",
+      "type": "concept"
+    },
+    {
+      "term": "Bandung Conference",
+      "matchText": "Bandung Conference",
+      "wikiSlug": "Bandung_Conference",
+      "type": "event"
+    },
+    {
+      "term": "Ghana independence",
+      "matchText": "first sub-Saharan African colony to win independence",
+      "wikiSlug": "History_of_Ghana",
+      "type": "event"
+    },
+    {
+      "term": "Cold War",
+      "matchText": "Cold War",
+      "wikiSlug": "Cold_War",
+      "type": "concept"
+    },
+    {
+      "term": "Brown II",
+      "matchText": "Brown II",
+      "wikiSlug": "Brown_v._Board_of_Education",
+      "type": "event"
+    },
+    {
+      "term": "Massive Resistance",
+      "matchText": "Massive Resistance",
+      "wikiSlug": "Massive_resistance",
+      "type": "concept"
+    },
+    {
+      "term": "Southern Manifesto",
+      "matchText": "Southern Manifesto",
+      "wikiSlug": "Southern_Manifesto",
+      "type": "concept"
+    },
+    {
+      "term": "Interposition",
+      "matchText": "interposition",
+      "wikiSlug": "Interposition",
+      "type": "concept"
+    },
+    {
+      "term": "John C. Calhoun",
+      "matchText": "John C. Calhoun",
+      "wikiSlug": "John_C._Calhoun",
+      "type": "person"
+    },
+    {
+      "term": "Nullification Crisis",
+      "matchText": "Nullification Crisis of 1832",
+      "wikiSlug": "Nullification_crisis",
+      "type": "event"
+    },
+    {
+      "term": "Prince Edward County",
+      "matchText": "Prince Edward",
+      "wikiSlug": "Prince_Edward_County_Public_Schools_(Virginia)",
+      "type": "place"
+    },
+    {
+      "term": "Segregation academy",
+      "matchText": "White families opened private",
+      "wikiSlug": "Segregation_academy",
+      "type": "concept"
+    },
+    {
+      "term": "White Citizens' Councils",
+      "matchText": "White Citizens' Councils",
+      "wikiSlug": "White_Citizens%27_Council",
+      "type": "group"
+    }
   ],
   "3": [
-    { "term": "Emmett Till", "matchText": "Emmett Till", "wikiSlug": "Murder_of_Emmett_Till", "type": "person" },
-    { "term": "Mississippi Delta", "matchText": "Mississippi Delta", "wikiSlug": "Mississippi_Delta", "type": "place" },
-    { "term": "Tallahatchie River", "matchText": "Tallahatchie River", "wikiSlug": "Tallahatchie_River", "type": "place" },
-    { "term": "Lynching", "matchText": "Lynching in the Jim Crow South", "wikiSlug": "Lynching_in_the_United_States", "type": "concept" },
-    { "term": "Mamie Till-Mobley", "matchText": "Mamie Till-Mobley", "wikiSlug": "Mamie_Till", "type": "person" },
-    { "term": "Open casket", "matchText": "open casket", "wikiSlug": "Murder_of_Emmett_Till", "type": "concept" },
-    { "term": "Jet magazine", "matchText": "Jet", "wikiSlug": "Jet_(magazine)", "type": "concept" },
-    { "term": "Chicago Defender", "matchText": "The Chicago", "wikiSlug": "The_Chicago_Defender", "type": "concept" },
-    { "term": "Pittsburgh Courier", "matchText": "Pittsburgh", "wikiSlug": "The_Pittsburgh_Courier", "type": "concept" },
-    { "term": "Black press", "matchText": "the Black press", "wikiSlug": "African-American_newspapers", "type": "concept" },
-    { "term": "Double jeopardy", "matchText": "double jeopardy", "wikiSlug": "Double_Jeopardy_Clause", "type": "concept" },
-    { "term": "Cotton gin", "matchText": "cotton-gin fan", "wikiSlug": "Cotton_gin", "type": "concept" }
+    {
+      "term": "Emmett Till",
+      "matchText": "Emmett Till",
+      "wikiSlug": "Murder_of_Emmett_Till",
+      "type": "person"
+    },
+    {
+      "term": "Mississippi Delta",
+      "matchText": "Mississippi Delta",
+      "wikiSlug": "Mississippi_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Tallahatchie River",
+      "matchText": "Tallahatchie River",
+      "wikiSlug": "Tallahatchie_River",
+      "type": "place"
+    },
+    {
+      "term": "Lynching",
+      "matchText": "Lynching in the Jim Crow South",
+      "wikiSlug": "Lynching_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Mamie Till-Mobley",
+      "matchText": "Mamie Till-Mobley",
+      "wikiSlug": "Mamie_Till",
+      "type": "person"
+    },
+    {
+      "term": "Open casket",
+      "matchText": "open casket",
+      "wikiSlug": "Murder_of_Emmett_Till",
+      "type": "concept"
+    },
+    {
+      "term": "Jet magazine",
+      "matchText": "Jet",
+      "wikiSlug": "Jet_(magazine)",
+      "type": "concept"
+    },
+    {
+      "term": "Chicago Defender",
+      "matchText": "The Chicago",
+      "wikiSlug": "The_Chicago_Defender",
+      "type": "concept"
+    },
+    {
+      "term": "Pittsburgh Courier",
+      "matchText": "Pittsburgh",
+      "wikiSlug": "The_Pittsburgh_Courier",
+      "type": "concept"
+    },
+    {
+      "term": "Black press",
+      "matchText": "the Black press",
+      "wikiSlug": "African-American_newspapers",
+      "type": "concept"
+    },
+    {
+      "term": "Double jeopardy",
+      "matchText": "double jeopardy",
+      "wikiSlug": "Double_Jeopardy_Clause",
+      "type": "concept"
+    },
+    {
+      "term": "Cotton gin",
+      "matchText": "cotton-gin fan",
+      "wikiSlug": "Cotton_gin",
+      "type": "concept"
+    },
+    {
+      "term": "Emmett Till",
+      "matchText": "Emmett Till",
+      "wikiSlug": "Emmett_Till",
+      "type": "people"
+    }
   ],
   "4": [
-    { "term": "Montgomery Bus Boycott", "matchText": "Montgomery Bus Boycott", "wikiSlug": "Montgomery_bus_boycott", "type": "event" },
-    { "term": "Rosa Parks", "matchText": "Rosa Parks", "wikiSlug": "Rosa_Parks", "type": "person" },
-    { "term": "Highlander Folk School", "matchText": "Highlander Folk School", "wikiSlug": "Highlander_Research_and_Education_Center", "type": "place" },
-    { "term": "Claudette Colvin", "matchText": "Claudette Colvin", "wikiSlug": "Claudette_Colvin", "type": "person" },
-    { "term": "Women's Political Council", "matchText": "Women's Political Council", "wikiSlug": "Women%27s_Political_Council", "type": "group" },
-    { "term": "Jo Ann Robinson", "matchText": "Jo Ann Robinson", "wikiSlug": "Jo_Ann_Robinson", "type": "person" },
-    { "term": "Mimeograph", "matchText": "mimeographing", "wikiSlug": "Mimeograph", "type": "concept" },
-    { "term": "Montgomery Improvement Association", "matchText": "Montgomery Improvement Association", "wikiSlug": "Montgomery_Improvement_Association", "type": "group" },
-    { "term": "Martin Luther King Jr.", "matchText": "Martin Luther King Jr", "wikiSlug": "Martin_Luther_King_Jr.", "type": "person" },
-    { "term": "Dexter Avenue Baptist Church", "matchText": "Dexter Avenue Baptist Church", "wikiSlug": "Dexter_Avenue_Baptist_Church", "type": "place" },
-    { "term": "E. D. Nixon", "matchText": "E. D. Nixon", "wikiSlug": "E._D._Nixon", "type": "person" },
-    { "term": "Black church", "matchText": "Black church", "wikiSlug": "Black_church", "type": "concept" },
-    { "term": "Browder v. Gayle", "matchText": "Browder v. Gayle", "wikiSlug": "Browder_v._Gayle", "type": "event" }
+    {
+      "term": "Montgomery Bus Boycott",
+      "matchText": "Montgomery Bus Boycott",
+      "wikiSlug": "Montgomery_bus_boycott",
+      "type": "event"
+    },
+    {
+      "term": "Rosa Parks",
+      "matchText": "Rosa Parks",
+      "wikiSlug": "Rosa_Parks",
+      "type": "person"
+    },
+    {
+      "term": "Highlander Folk School",
+      "matchText": "Highlander Folk School",
+      "wikiSlug": "Highlander_Research_and_Education_Center",
+      "type": "place"
+    },
+    {
+      "term": "Claudette Colvin",
+      "matchText": "Claudette Colvin",
+      "wikiSlug": "Claudette_Colvin",
+      "type": "person"
+    },
+    {
+      "term": "Women's Political Council",
+      "matchText": "Women's Political Council",
+      "wikiSlug": "Women%27s_Political_Council",
+      "type": "group"
+    },
+    {
+      "term": "Jo Ann Robinson",
+      "matchText": "Jo Ann Robinson",
+      "wikiSlug": "Jo_Ann_Robinson",
+      "type": "person"
+    },
+    {
+      "term": "Mimeograph",
+      "matchText": "mimeographing",
+      "wikiSlug": "Mimeograph",
+      "type": "concept"
+    },
+    {
+      "term": "Montgomery Improvement Association",
+      "matchText": "Montgomery Improvement Association",
+      "wikiSlug": "Montgomery_Improvement_Association",
+      "type": "group"
+    },
+    {
+      "term": "Martin Luther King Jr.",
+      "matchText": "Martin Luther King Jr",
+      "wikiSlug": "Martin_Luther_King_Jr.",
+      "type": "person"
+    },
+    {
+      "term": "Dexter Avenue Baptist Church",
+      "matchText": "Dexter Avenue Baptist Church",
+      "wikiSlug": "Dexter_Avenue_Baptist_Church",
+      "type": "place"
+    },
+    {
+      "term": "E. D. Nixon",
+      "matchText": "E. D. Nixon",
+      "wikiSlug": "E._D._Nixon",
+      "type": "person"
+    },
+    {
+      "term": "Black church",
+      "matchText": "Black church",
+      "wikiSlug": "Black_church",
+      "type": "concept"
+    },
+    {
+      "term": "Browder v. Gayle",
+      "matchText": "Browder v. Gayle",
+      "wikiSlug": "Browder_v._Gayle",
+      "type": "event"
+    },
+    {
+      "term": "Montgomery bus boycott",
+      "matchText": "bus boycott",
+      "wikiSlug": "Montgomery_bus_boycott",
+      "type": "concept"
+    }
   ],
   "5": [
-    { "term": "SCLC", "matchText": "Southern Christian Leadership Conference", "wikiSlug": "Southern_Christian_Leadership_Conference", "type": "group" },
-    { "term": "Ella Baker", "matchText": "Ella Baker", "wikiSlug": "Ella_Baker", "type": "person" },
-    { "term": "Bayard Rustin", "matchText": "Bayard Rustin", "wikiSlug": "Bayard_Rustin", "type": "person" },
-    { "term": "Gandhian nonviolence", "matchText": "Gandhian nonviolence", "wikiSlug": "Nonviolent_resistance", "type": "concept" },
-    { "term": "Satyagraha", "matchText": "satyagraha", "wikiSlug": "Satyagraha", "type": "concept" },
-    { "term": "Little Rock Nine", "matchText": "Little Rock Nine", "wikiSlug": "Little_Rock_Nine", "type": "group" },
-    { "term": "Orval Faubus", "matchText": "Orval Faubus", "wikiSlug": "Orval_Faubus", "type": "person" },
-    { "term": "Arkansas National Guard", "matchText": "Arkansas National Guard", "wikiSlug": "Arkansas_National_Guard", "type": "group" },
-    { "term": "Dwight Eisenhower", "matchText": "Dwight Eisenhower", "wikiSlug": "Dwight_D._Eisenhower", "type": "person" },
-    { "term": "101st Airborne Division", "matchText": "101st Airborne Division", "wikiSlug": "101st_Airborne_Division", "type": "group" },
-    { "term": "Cooper v. Aaron", "matchText": "Cooper v. Aaron", "wikiSlug": "Cooper_v._Aaron", "type": "event" },
-    { "term": "Civil Rights Act of 1957", "matchText": "Civil Rights Act of 1957", "wikiSlug": "Civil_Rights_Act_of_1957", "type": "concept" },
-    { "term": "Lyndon Johnson", "matchText": "Lyndon Johnson", "wikiSlug": "Lyndon_B._Johnson", "type": "person" },
-    { "term": "Strom Thurmond", "matchText": "Strom Thurmond", "wikiSlug": "Strom_Thurmond", "type": "person" },
-    { "term": "Filibuster", "matchText": "A filibuster is the Senate tactic", "wikiSlug": "Filibuster_in_the_United_States_Senate", "type": "concept" }
+    {
+      "term": "SCLC",
+      "matchText": "Southern Christian Leadership Conference",
+      "wikiSlug": "Southern_Christian_Leadership_Conference",
+      "type": "group"
+    },
+    {
+      "term": "Ella Baker",
+      "matchText": "Ella Baker",
+      "wikiSlug": "Ella_Baker",
+      "type": "person"
+    },
+    {
+      "term": "Bayard Rustin",
+      "matchText": "Bayard Rustin",
+      "wikiSlug": "Bayard_Rustin",
+      "type": "person"
+    },
+    {
+      "term": "Gandhian nonviolence",
+      "matchText": "Gandhian nonviolence",
+      "wikiSlug": "Nonviolent_resistance",
+      "type": "concept"
+    },
+    {
+      "term": "Satyagraha",
+      "matchText": "satyagraha",
+      "wikiSlug": "Satyagraha",
+      "type": "concept"
+    },
+    {
+      "term": "Little Rock Nine",
+      "matchText": "Little Rock Nine",
+      "wikiSlug": "Little_Rock_Nine",
+      "type": "group"
+    },
+    {
+      "term": "Orval Faubus",
+      "matchText": "Orval Faubus",
+      "wikiSlug": "Orval_Faubus",
+      "type": "person"
+    },
+    {
+      "term": "Arkansas National Guard",
+      "matchText": "Arkansas National Guard",
+      "wikiSlug": "Arkansas_National_Guard",
+      "type": "group"
+    },
+    {
+      "term": "Dwight Eisenhower",
+      "matchText": "Dwight Eisenhower",
+      "wikiSlug": "Dwight_D._Eisenhower",
+      "type": "person"
+    },
+    {
+      "term": "101st Airborne Division",
+      "matchText": "101st Airborne Division",
+      "wikiSlug": "101st_Airborne_Division",
+      "type": "group"
+    },
+    {
+      "term": "Cooper v. Aaron",
+      "matchText": "Cooper v. Aaron",
+      "wikiSlug": "Cooper_v._Aaron",
+      "type": "event"
+    },
+    {
+      "term": "Civil Rights Act of 1957",
+      "matchText": "Civil Rights Act of 1957",
+      "wikiSlug": "Civil_Rights_Act_of_1957",
+      "type": "concept"
+    },
+    {
+      "term": "Lyndon Johnson",
+      "matchText": "Lyndon Johnson",
+      "wikiSlug": "Lyndon_B._Johnson",
+      "type": "person"
+    },
+    {
+      "term": "Strom Thurmond",
+      "matchText": "Strom Thurmond",
+      "wikiSlug": "Strom_Thurmond",
+      "type": "person"
+    },
+    {
+      "term": "Filibuster",
+      "matchText": "A filibuster is the Senate tactic",
+      "wikiSlug": "Filibuster_in_the_United_States_Senate",
+      "type": "concept"
+    }
   ],
   "6": [
-    { "term": "Sit-in", "matchText": "the sit-in", "wikiSlug": "Greensboro_sit-ins", "type": "concept" },
-    { "term": "Greensboro sit-ins", "matchText": "Woolworth's department store in Greensboro", "wikiSlug": "Greensboro_sit-ins", "type": "event" },
-    { "term": "CORE", "matchText": "Congress of Racial Equality", "wikiSlug": "Congress_of_Racial_Equality", "type": "group" },
-    { "term": "Nashville sit-ins", "matchText": "Nashville", "wikiSlug": "Nashville_sit-ins", "type": "event" },
-    { "term": "Diane Nash", "matchText": "Diane Nash", "wikiSlug": "Diane_Nash", "type": "person" },
-    { "term": "John Lewis", "matchText": "John Lewis", "wikiSlug": "John_Lewis", "type": "person" },
-    { "term": "James Lawson", "matchText": "James Lawson", "wikiSlug": "James_Lawson_(activist)", "type": "person" },
-    { "term": "Sermon on the Mount", "matchText": "Sermon on the Mount", "wikiSlug": "Sermon_on_the_Mount", "type": "concept" },
-    { "term": "Ella Baker", "matchText": "Ella Baker", "wikiSlug": "Ella_Baker", "type": "person" },
-    { "term": "SNCC", "matchText": "Student Nonviolent Coordinating Committee", "wikiSlug": "Student_Nonviolent_Coordinating_Committee", "type": "group" }
+    {
+      "term": "Sit-in",
+      "matchText": "the sit-in",
+      "wikiSlug": "Greensboro_sit-ins",
+      "type": "concept"
+    },
+    {
+      "term": "Greensboro sit-ins",
+      "matchText": "Woolworth's department store in Greensboro",
+      "wikiSlug": "Greensboro_sit-ins",
+      "type": "event"
+    },
+    {
+      "term": "CORE",
+      "matchText": "Congress of Racial Equality",
+      "wikiSlug": "Congress_of_Racial_Equality",
+      "type": "group"
+    },
+    {
+      "term": "Nashville sit-ins",
+      "matchText": "Nashville",
+      "wikiSlug": "Nashville_sit-ins",
+      "type": "event"
+    },
+    {
+      "term": "Diane Nash",
+      "matchText": "Diane Nash",
+      "wikiSlug": "Diane_Nash",
+      "type": "person"
+    },
+    {
+      "term": "John Lewis",
+      "matchText": "John Lewis",
+      "wikiSlug": "John_Lewis",
+      "type": "person"
+    },
+    {
+      "term": "James Lawson",
+      "matchText": "James Lawson",
+      "wikiSlug": "James_Lawson_(activist)",
+      "type": "person"
+    },
+    {
+      "term": "Sermon on the Mount",
+      "matchText": "Sermon on the Mount",
+      "wikiSlug": "Sermon_on_the_Mount",
+      "type": "concept"
+    },
+    {
+      "term": "Ella Baker",
+      "matchText": "Ella Baker",
+      "wikiSlug": "Ella_Baker",
+      "type": "person"
+    },
+    {
+      "term": "SNCC",
+      "matchText": "Student Nonviolent Coordinating Committee",
+      "wikiSlug": "Student_Nonviolent_Coordinating_Committee",
+      "type": "group"
+    }
   ],
   "7": [
-    { "term": "Freedom Riders", "matchText": "Freedom Riders", "wikiSlug": "Freedom_Riders", "type": "group" },
-    { "term": "Boynton v. Virginia", "matchText": "Boynton v. Virginia", "wikiSlug": "Boynton_v._Virginia", "type": "event" },
-    { "term": "Interstate travel", "matchText": "interstate bus", "wikiSlug": "Interstate_Highway_System", "type": "concept" },
-    { "term": "CORE", "matchText": "CORE", "wikiSlug": "Congress_of_Racial_Equality", "type": "group" },
-    { "term": "James Farmer", "matchText": "James Farmer", "wikiSlug": "James_L._Farmer_Jr.", "type": "person" },
-    { "term": "Anniston", "matchText": "Anniston", "wikiSlug": "Anniston,_Alabama", "type": "place" },
-    { "term": "Diane Nash", "matchText": "Diane Nash", "wikiSlug": "Diane_Nash", "type": "person" },
-    { "term": "Parchman Farm", "matchText": "Mississippi's Parchman penitentiary", "wikiSlug": "Mississippi_State_Penitentiary", "type": "place" },
-    { "term": "John F. Kennedy", "matchText": "John Kennedy", "wikiSlug": "John_F._Kennedy", "type": "person" },
-    { "term": "Robert F. Kennedy", "matchText": "Robert Kennedy", "wikiSlug": "Robert_F._Kennedy", "type": "person" },
-    { "term": "Interstate Commerce Commission", "matchText": "Interstate Commerce Commission", "wikiSlug": "Interstate_Commerce_Commission", "type": "group" },
-    { "term": "Albany Movement", "matchText": "Albany Movement", "wikiSlug": "Albany_Movement", "type": "event" },
-    { "term": "Laurie Pritchett", "matchText": "Laurie Pritchett", "wikiSlug": "Laurie_Pritchett", "type": "person" }
+    {
+      "term": "Freedom Riders",
+      "matchText": "Freedom Riders",
+      "wikiSlug": "Freedom_Riders",
+      "type": "group"
+    },
+    {
+      "term": "Boynton v. Virginia",
+      "matchText": "Boynton v. Virginia",
+      "wikiSlug": "Boynton_v._Virginia",
+      "type": "event"
+    },
+    {
+      "term": "Interstate travel",
+      "matchText": "interstate bus",
+      "wikiSlug": "Interstate_Highway_System",
+      "type": "concept"
+    },
+    {
+      "term": "CORE",
+      "matchText": "CORE",
+      "wikiSlug": "Congress_of_Racial_Equality",
+      "type": "group"
+    },
+    {
+      "term": "James Farmer",
+      "matchText": "James Farmer",
+      "wikiSlug": "James_L._Farmer_Jr.",
+      "type": "person"
+    },
+    {
+      "term": "Anniston",
+      "matchText": "Anniston",
+      "wikiSlug": "Anniston,_Alabama",
+      "type": "place"
+    },
+    {
+      "term": "Diane Nash",
+      "matchText": "Diane Nash",
+      "wikiSlug": "Diane_Nash",
+      "type": "person"
+    },
+    {
+      "term": "Parchman Farm",
+      "matchText": "Mississippi's Parchman penitentiary",
+      "wikiSlug": "Mississippi_State_Penitentiary",
+      "type": "place"
+    },
+    {
+      "term": "John F. Kennedy",
+      "matchText": "John Kennedy",
+      "wikiSlug": "John_F._Kennedy",
+      "type": "person"
+    },
+    {
+      "term": "Robert F. Kennedy",
+      "matchText": "Robert Kennedy",
+      "wikiSlug": "Robert_F._Kennedy",
+      "type": "person"
+    },
+    {
+      "term": "Interstate Commerce Commission",
+      "matchText": "Interstate Commerce Commission",
+      "wikiSlug": "Interstate_Commerce_Commission",
+      "type": "group"
+    },
+    {
+      "term": "Albany Movement",
+      "matchText": "Albany Movement",
+      "wikiSlug": "Albany_Movement",
+      "type": "event"
+    },
+    {
+      "term": "Laurie Pritchett",
+      "matchText": "Laurie Pritchett",
+      "wikiSlug": "Laurie_Pritchett",
+      "type": "person"
+    },
+    {
+      "term": "Freedom Riders",
+      "matchText": "Freedom Rider",
+      "wikiSlug": "Freedom_Riders",
+      "type": "concept"
+    }
   ],
   "8": [
-    { "term": "Birmingham", "matchText": "Birmingham", "wikiSlug": "Birmingham_campaign", "type": "place" },
-    { "term": "Bombingham", "matchText": "Bombingham", "wikiSlug": "Birmingham,_Alabama", "type": "place" },
-    { "term": "Bull Connor", "matchText": "Eugene \"Bull\" Connor", "wikiSlug": "Bull_Connor", "type": "person" },
-    { "term": "Project C", "matchText": "Project C", "wikiSlug": "Birmingham_campaign", "type": "concept" },
-    { "term": "Children's Crusade", "matchText": "Children's Crusade", "wikiSlug": "Children%27s_Crusade_(1963)", "type": "event" },
-    { "term": "James Bevel", "matchText": "James Bevel", "wikiSlug": "James_Bevel", "type": "person" },
-    { "term": "Television", "matchText": "television had reached the large majority of American homes", "wikiSlug": "History_of_television", "type": "concept" },
-    { "term": "Letter from Birmingham Jail", "matchText": "Letter from Birmingham Jail", "wikiSlug": "Letter_from_Birmingham_Jail", "type": "concept" },
-    { "term": "White moderate", "matchText": "white moderate", "wikiSlug": "Letter_from_Birmingham_Jail", "type": "concept" },
-    { "term": "James Meredith", "matchText": "James Meredith", "wikiSlug": "James_Meredith", "type": "person" },
-    { "term": "University of Mississippi", "matchText": "University of Mississippi", "wikiSlug": "Ole_Miss_riot_of_1962", "type": "place" },
-    { "term": "Ross Barnett", "matchText": "Ross Barnett", "wikiSlug": "Ross_Barnett", "type": "person" }
+    {
+      "term": "Birmingham",
+      "matchText": "Birmingham",
+      "wikiSlug": "Birmingham_campaign",
+      "type": "place"
+    },
+    {
+      "term": "Bombingham",
+      "matchText": "Bombingham",
+      "wikiSlug": "Birmingham,_Alabama",
+      "type": "place"
+    },
+    {
+      "term": "Bull Connor",
+      "matchText": "Eugene \"Bull\" Connor",
+      "wikiSlug": "Bull_Connor",
+      "type": "person"
+    },
+    {
+      "term": "Project C",
+      "matchText": "Project C",
+      "wikiSlug": "Birmingham_campaign",
+      "type": "concept"
+    },
+    {
+      "term": "Children's Crusade",
+      "matchText": "Children's Crusade",
+      "wikiSlug": "Children%27s_Crusade_(1963)",
+      "type": "event"
+    },
+    {
+      "term": "James Bevel",
+      "matchText": "James Bevel",
+      "wikiSlug": "James_Bevel",
+      "type": "person"
+    },
+    {
+      "term": "Television",
+      "matchText": "television had reached the large majority of American homes",
+      "wikiSlug": "History_of_television",
+      "type": "concept"
+    },
+    {
+      "term": "Letter from Birmingham Jail",
+      "matchText": "Letter from Birmingham Jail",
+      "wikiSlug": "Letter_from_Birmingham_Jail",
+      "type": "concept"
+    },
+    {
+      "term": "White moderate",
+      "matchText": "white moderate",
+      "wikiSlug": "Letter_from_Birmingham_Jail",
+      "type": "concept"
+    },
+    {
+      "term": "James Meredith",
+      "matchText": "James Meredith",
+      "wikiSlug": "James_Meredith",
+      "type": "person"
+    },
+    {
+      "term": "University of Mississippi",
+      "matchText": "University of Mississippi",
+      "wikiSlug": "Ole_Miss_riot_of_1962",
+      "type": "place"
+    },
+    {
+      "term": "Ross Barnett",
+      "matchText": "Ross Barnett",
+      "wikiSlug": "Ross_Barnett",
+      "type": "person"
+    }
   ],
   "9": [
-    { "term": "March on Washington", "matchText": "March on Washington for Jobs and Freedom", "wikiSlug": "March_on_Washington_for_Jobs_and_Freedom", "type": "event" },
-    { "term": "Lincoln Memorial", "matchText": "Lincoln Memorial", "wikiSlug": "Lincoln_Memorial", "type": "place" },
-    { "term": "A. Philip Randolph", "matchText": "A. Philip Randolph", "wikiSlug": "A._Philip_Randolph", "type": "person" },
-    { "term": "Thaddeus Stevens", "matchText": "Thaddeus Stevens's defeated proposal", "wikiSlug": "Thaddeus_Stevens", "type": "person" },
-    { "term": "Forty acres", "matchText": "forty acres", "wikiSlug": "Forty_acres_and_a_mule", "type": "concept" },
-    { "term": "Bayard Rustin", "matchText": "Bayard Rustin", "wikiSlug": "Bayard_Rustin", "type": "person" },
-    { "term": "Big Six", "matchText": "Big Six", "wikiSlug": "Big_Six_(activists)", "type": "group" },
-    { "term": "Roy Wilkins", "matchText": "Roy Wilkins", "wikiSlug": "Roy_Wilkins", "type": "person" },
-    { "term": "Whitney Young", "matchText": "Whitney Young", "wikiSlug": "Whitney_Young", "type": "person" },
-    { "term": "Urban League", "matchText": "Urban League", "wikiSlug": "National_Urban_League", "type": "group" },
-    { "term": "James Farmer", "matchText": "James Farmer", "wikiSlug": "James_L._Farmer_Jr.", "type": "person" },
-    { "term": "Dorothy Height", "matchText": "Dorothy Height", "wikiSlug": "Dorothy_Height", "type": "person" },
-    { "term": "I Have a Dream", "matchText": "I Have a Dream", "wikiSlug": "I_Have_a_Dream", "type": "concept" },
-    { "term": "Mahalia Jackson", "matchText": "Mahalia Jackson", "wikiSlug": "Mahalia_Jackson", "type": "person" },
-    { "term": "Medgar Evers", "matchText": "Medgar Evers", "wikiSlug": "Medgar_Evers", "type": "person" },
-    { "term": "16th Street Baptist Church", "matchText": "16th Street Baptist Church", "wikiSlug": "16th_Street_Baptist_Church_bombing", "type": "place" }
+    {
+      "term": "March on Washington",
+      "matchText": "March on Washington for Jobs and Freedom",
+      "wikiSlug": "March_on_Washington_for_Jobs_and_Freedom",
+      "type": "event"
+    },
+    {
+      "term": "Lincoln Memorial",
+      "matchText": "Lincoln Memorial",
+      "wikiSlug": "Lincoln_Memorial",
+      "type": "place"
+    },
+    {
+      "term": "A. Philip Randolph",
+      "matchText": "A. Philip Randolph",
+      "wikiSlug": "A._Philip_Randolph",
+      "type": "person"
+    },
+    {
+      "term": "Thaddeus Stevens",
+      "matchText": "Thaddeus Stevens's defeated proposal",
+      "wikiSlug": "Thaddeus_Stevens",
+      "type": "person"
+    },
+    {
+      "term": "Forty acres",
+      "matchText": "forty acres",
+      "wikiSlug": "Forty_acres_and_a_mule",
+      "type": "concept"
+    },
+    {
+      "term": "Bayard Rustin",
+      "matchText": "Bayard Rustin",
+      "wikiSlug": "Bayard_Rustin",
+      "type": "person"
+    },
+    {
+      "term": "Big Six",
+      "matchText": "Big Six",
+      "wikiSlug": "Big_Six_(activists)",
+      "type": "group"
+    },
+    {
+      "term": "Roy Wilkins",
+      "matchText": "Roy Wilkins",
+      "wikiSlug": "Roy_Wilkins",
+      "type": "person"
+    },
+    {
+      "term": "Whitney Young",
+      "matchText": "Whitney Young",
+      "wikiSlug": "Whitney_Young",
+      "type": "person"
+    },
+    {
+      "term": "Urban League",
+      "matchText": "Urban League",
+      "wikiSlug": "National_Urban_League",
+      "type": "group"
+    },
+    {
+      "term": "James Farmer",
+      "matchText": "James Farmer",
+      "wikiSlug": "James_L._Farmer_Jr.",
+      "type": "person"
+    },
+    {
+      "term": "Dorothy Height",
+      "matchText": "Dorothy Height",
+      "wikiSlug": "Dorothy_Height",
+      "type": "person"
+    },
+    {
+      "term": "I Have a Dream",
+      "matchText": "I Have a Dream",
+      "wikiSlug": "I_Have_a_Dream",
+      "type": "concept"
+    },
+    {
+      "term": "Mahalia Jackson",
+      "matchText": "Mahalia Jackson",
+      "wikiSlug": "Mahalia_Jackson",
+      "type": "person"
+    },
+    {
+      "term": "Medgar Evers",
+      "matchText": "Medgar Evers",
+      "wikiSlug": "Medgar_Evers",
+      "type": "person"
+    },
+    {
+      "term": "16th Street Baptist Church",
+      "matchText": "16th Street Baptist Church",
+      "wikiSlug": "16th_Street_Baptist_Church_bombing",
+      "type": "place"
+    }
   ],
   "10": [
-    { "term": "Lyndon B. Johnson", "matchText": "Lyndon Johnson", "wikiSlug": "Lyndon_B._Johnson", "type": "person" },
-    { "term": "Filibuster", "matchText": "a determined minority can simply refuse to stop talking", "wikiSlug": "Filibuster_in_the_United_States_Senate", "type": "concept" },
-    { "term": "Cloture", "matchText": "cloture", "wikiSlug": "Cloture", "type": "concept" },
-    { "term": "Richard Russell", "matchText": "Richard Russell", "wikiSlug": "Richard_Russell_Jr.", "type": "person" },
-    { "term": "Quorum", "matchText": "quorum", "wikiSlug": "Quorum", "type": "concept" },
-    { "term": "Civil Rights Act of 1964", "matchText": "Civil Rights Act of 1964", "wikiSlug": "Civil_Rights_Act_of_1964", "type": "concept" },
-    { "term": "Everett Dirksen", "matchText": "Everett Dirksen", "wikiSlug": "Everett_Dirksen", "type": "person" },
-    { "term": "Hubert Humphrey", "matchText": "Hubert Humphrey", "wikiSlug": "Hubert_Humphrey", "type": "person" },
-    { "term": "Clair Engle", "matchText": "Clair Engle", "wikiSlug": "Clair_Engle", "type": "person" },
-    { "term": "Howard W. Smith", "matchText": "Representative Howard Smith", "wikiSlug": "Howard_W._Smith", "type": "person" },
-    { "term": "Heart of Atlanta Motel v. United States", "matchText": "Heart of Atlanta Motel v. United States", "wikiSlug": "Heart_of_Atlanta_Motel,_Inc._v._United_States", "type": "event" },
-    { "term": "Civil Rights Cases", "matchText": "Civil Rights Cases", "wikiSlug": "Civil_Rights_Cases", "type": "event" },
-    { "term": "Commerce Clause", "matchText": "Commerce Clause", "wikiSlug": "Commerce_Clause", "type": "concept" },
-    { "term": "De jure segregation", "matchText": "de jure segregation, segregation mandated by law", "wikiSlug": "De_jure", "type": "concept" },
-    { "term": "De facto segregation", "matchText": "de facto", "wikiSlug": "De_facto", "type": "concept" }
+    {
+      "term": "Lyndon B. Johnson",
+      "matchText": "Lyndon Johnson",
+      "wikiSlug": "Lyndon_B._Johnson",
+      "type": "person"
+    },
+    {
+      "term": "Filibuster",
+      "matchText": "a determined minority can simply refuse to stop talking",
+      "wikiSlug": "Filibuster_in_the_United_States_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Cloture",
+      "matchText": "cloture",
+      "wikiSlug": "Cloture",
+      "type": "concept"
+    },
+    {
+      "term": "Richard Russell",
+      "matchText": "Richard Russell",
+      "wikiSlug": "Richard_Russell_Jr.",
+      "type": "person"
+    },
+    {
+      "term": "Quorum",
+      "matchText": "quorum",
+      "wikiSlug": "Quorum",
+      "type": "concept"
+    },
+    {
+      "term": "Civil Rights Act of 1964",
+      "matchText": "Civil Rights Act of 1964",
+      "wikiSlug": "Civil_Rights_Act_of_1964",
+      "type": "concept"
+    },
+    {
+      "term": "Everett Dirksen",
+      "matchText": "Everett Dirksen",
+      "wikiSlug": "Everett_Dirksen",
+      "type": "person"
+    },
+    {
+      "term": "Hubert Humphrey",
+      "matchText": "Hubert Humphrey",
+      "wikiSlug": "Hubert_Humphrey",
+      "type": "person"
+    },
+    {
+      "term": "Clair Engle",
+      "matchText": "Clair Engle",
+      "wikiSlug": "Clair_Engle",
+      "type": "person"
+    },
+    {
+      "term": "Howard W. Smith",
+      "matchText": "Representative Howard Smith",
+      "wikiSlug": "Howard_W._Smith",
+      "type": "person"
+    },
+    {
+      "term": "Heart of Atlanta Motel v. United States",
+      "matchText": "Heart of Atlanta Motel v. United States",
+      "wikiSlug": "Heart_of_Atlanta_Motel,_Inc._v._United_States",
+      "type": "event"
+    },
+    {
+      "term": "Civil Rights Cases",
+      "matchText": "Civil Rights Cases",
+      "wikiSlug": "Civil_Rights_Cases",
+      "type": "event"
+    },
+    {
+      "term": "Commerce Clause",
+      "matchText": "Commerce Clause",
+      "wikiSlug": "Commerce_Clause",
+      "type": "concept"
+    },
+    {
+      "term": "De jure segregation",
+      "matchText": "de jure segregation, segregation mandated by law",
+      "wikiSlug": "De_jure",
+      "type": "concept"
+    },
+    {
+      "term": "De facto segregation",
+      "matchText": "de facto",
+      "wikiSlug": "De_facto",
+      "type": "concept"
+    }
   ],
   "11": [
-    { "term": "SNCC", "matchText": "SNCC", "wikiSlug": "Student_Nonviolent_Coordinating_Committee", "type": "group" },
-    { "term": "Bob Moses", "matchText": "Bob Moses", "wikiSlug": "Bob_Moses_(activist)", "type": "person" },
-    { "term": "Medgar Evers", "matchText": "Medgar Evers", "wikiSlug": "Medgar_Evers", "type": "person" },
-    { "term": "Amzie Moore", "matchText": "Amzie Moore", "wikiSlug": "Amzie_Moore", "type": "person" },
-    { "term": "Freedom Summer", "matchText": "Freedom Summer", "wikiSlug": "Freedom_Summer", "type": "event" },
-    { "term": "Freedom Schools", "matchText": "Freedom Schools", "wikiSlug": "Freedom_Schools", "type": "concept" },
-    { "term": "Chaney, Goodman, and Schwerner", "matchText": "James Chaney", "wikiSlug": "Murders_of_Chaney,_Goodman,_and_Schwerner", "type": "event" },
-    { "term": "Andrew Goodman", "matchText": "Andrew Goodman", "wikiSlug": "Andrew_Goodman", "type": "person" },
-    { "term": "Michael Schwerner", "matchText": "Michael Schwerner", "wikiSlug": "Michael_Schwerner", "type": "person" },
-    { "term": "Civil rights conspiracy law", "matchText": "civil rights conspiracy law", "wikiSlug": "Enforcement_Acts", "type": "concept" },
-    { "term": "Mississippi Freedom Democratic Party", "matchText": "Mississippi Freedom Democratic Party", "wikiSlug": "Mississippi_Freedom_Democratic_Party", "type": "group" },
-    { "term": "Fannie Lou Hamer", "matchText": "Fannie Lou Hamer", "wikiSlug": "Fannie_Lou_Hamer", "type": "person" },
-    { "term": "Walter Reuther", "matchText": "Walter Reuther", "wikiSlug": "Walter_Reuther", "type": "person" },
-    { "term": "Walter Mondale", "matchText": "Walter Mondale", "wikiSlug": "Walter_Mondale", "type": "person" }
+    {
+      "term": "SNCC",
+      "matchText": "SNCC",
+      "wikiSlug": "Student_Nonviolent_Coordinating_Committee",
+      "type": "group"
+    },
+    {
+      "term": "Bob Moses",
+      "matchText": "Bob Moses",
+      "wikiSlug": "Bob_Moses_(activist)",
+      "type": "person"
+    },
+    {
+      "term": "Medgar Evers",
+      "matchText": "Medgar Evers",
+      "wikiSlug": "Medgar_Evers",
+      "type": "person"
+    },
+    {
+      "term": "Amzie Moore",
+      "matchText": "Amzie Moore",
+      "wikiSlug": "Amzie_Moore",
+      "type": "person"
+    },
+    {
+      "term": "Freedom Summer",
+      "matchText": "Freedom Summer",
+      "wikiSlug": "Freedom_Summer",
+      "type": "event"
+    },
+    {
+      "term": "Freedom Schools",
+      "matchText": "Freedom Schools",
+      "wikiSlug": "Freedom_Schools",
+      "type": "concept"
+    },
+    {
+      "term": "Chaney, Goodman, and Schwerner",
+      "matchText": "James Chaney",
+      "wikiSlug": "Murders_of_Chaney,_Goodman,_and_Schwerner",
+      "type": "event"
+    },
+    {
+      "term": "Andrew Goodman",
+      "matchText": "Andrew Goodman",
+      "wikiSlug": "Andrew_Goodman",
+      "type": "person"
+    },
+    {
+      "term": "Michael Schwerner",
+      "matchText": "Michael Schwerner",
+      "wikiSlug": "Michael_Schwerner",
+      "type": "person"
+    },
+    {
+      "term": "Civil rights conspiracy law",
+      "matchText": "civil rights conspiracy law",
+      "wikiSlug": "Enforcement_Acts",
+      "type": "concept"
+    },
+    {
+      "term": "Mississippi Freedom Democratic Party",
+      "matchText": "Mississippi Freedom Democratic Party",
+      "wikiSlug": "Mississippi_Freedom_Democratic_Party",
+      "type": "group"
+    },
+    {
+      "term": "Fannie Lou Hamer",
+      "matchText": "Fannie Lou Hamer",
+      "wikiSlug": "Fannie_Lou_Hamer",
+      "type": "person"
+    },
+    {
+      "term": "Walter Reuther",
+      "matchText": "Walter Reuther",
+      "wikiSlug": "Walter_Reuther",
+      "type": "person"
+    },
+    {
+      "term": "Walter Mondale",
+      "matchText": "Walter Mondale",
+      "wikiSlug": "Walter_Mondale",
+      "type": "person"
+    }
   ],
   "12": [
-    { "term": "Voting Rights Act of 1965", "matchText": "Voting Rights Act of 1965", "wikiSlug": "Voting_Rights_Act_of_1965", "type": "concept" },
-    { "term": "Selma", "matchText": "Selma", "wikiSlug": "Selma_to_Montgomery_marches", "type": "place" },
-    { "term": "Jim Clark", "matchText": "a sheriff, Jim Clark", "wikiSlug": "Jim_Clark_(sheriff)", "type": "person" },
-    { "term": "Jimmie Lee Jackson", "matchText": "Jimmie Lee Jackson", "wikiSlug": "Jimmie_Lee_Jackson", "type": "person" },
-    { "term": "James Bevel", "matchText": "James Bevel", "wikiSlug": "James_Bevel", "type": "person" },
-    { "term": "Edmund Pettus Bridge", "matchText": "Edmund Pettus Bridge", "wikiSlug": "Edmund_Pettus_Bridge", "type": "place" },
-    { "term": "John Lewis", "matchText": "John Lewis", "wikiSlug": "John_Lewis", "type": "person" },
-    { "term": "Edmund Pettus", "matchText": "Edmund Pettus, a Confederate general", "wikiSlug": "Edmund_Pettus", "type": "person" },
-    { "term": "Bloody Sunday", "matchText": "Bloody Sunday", "wikiSlug": "Selma_to_Montgomery_marches", "type": "event" },
-    { "term": "Injunction", "matchText": "injunction", "wikiSlug": "Injunction", "type": "concept" },
-    { "term": "Turnaround Tuesday", "matchText": "Turnaround Tuesday", "wikiSlug": "Selma_to_Montgomery_marches", "type": "event" },
-    { "term": "Viola Liuzzo", "matchText": "Viola Liuzzo", "wikiSlug": "Viola_Liuzzo", "type": "person" },
-    { "term": "Preclearance", "matchText": "preclearance", "wikiSlug": "Voting_Rights_Act_of_1965", "type": "concept" },
-    { "term": "Fifteenth Amendment", "matchText": "Fifteenth Amendment", "wikiSlug": "Fifteenth_Amendment_to_the_United_States_Constitution", "type": "concept" }
+    {
+      "term": "Voting Rights Act of 1965",
+      "matchText": "Voting Rights Act of 1965",
+      "wikiSlug": "Voting_Rights_Act_of_1965",
+      "type": "concept"
+    },
+    {
+      "term": "Selma",
+      "matchText": "Selma",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "type": "place"
+    },
+    {
+      "term": "Jim Clark",
+      "matchText": "a sheriff, Jim Clark",
+      "wikiSlug": "Jim_Clark_(sheriff)",
+      "type": "person"
+    },
+    {
+      "term": "Jimmie Lee Jackson",
+      "matchText": "Jimmie Lee Jackson",
+      "wikiSlug": "Jimmie_Lee_Jackson",
+      "type": "person"
+    },
+    {
+      "term": "James Bevel",
+      "matchText": "James Bevel",
+      "wikiSlug": "James_Bevel",
+      "type": "person"
+    },
+    {
+      "term": "Edmund Pettus Bridge",
+      "matchText": "Edmund Pettus Bridge",
+      "wikiSlug": "Edmund_Pettus_Bridge",
+      "type": "place"
+    },
+    {
+      "term": "John Lewis",
+      "matchText": "John Lewis",
+      "wikiSlug": "John_Lewis",
+      "type": "person"
+    },
+    {
+      "term": "Edmund Pettus",
+      "matchText": "Edmund Pettus, a Confederate general",
+      "wikiSlug": "Edmund_Pettus",
+      "type": "person"
+    },
+    {
+      "term": "Bloody Sunday",
+      "matchText": "Bloody Sunday",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "type": "event"
+    },
+    {
+      "term": "Injunction",
+      "matchText": "injunction",
+      "wikiSlug": "Injunction",
+      "type": "concept"
+    },
+    {
+      "term": "Turnaround Tuesday",
+      "matchText": "Turnaround Tuesday",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "type": "event"
+    },
+    {
+      "term": "Viola Liuzzo",
+      "matchText": "Viola Liuzzo",
+      "wikiSlug": "Viola_Liuzzo",
+      "type": "person"
+    },
+    {
+      "term": "Preclearance",
+      "matchText": "preclearance",
+      "wikiSlug": "Voting_Rights_Act_of_1965",
+      "type": "concept"
+    },
+    {
+      "term": "Fifteenth Amendment",
+      "matchText": "Fifteenth Amendment",
+      "wikiSlug": "Fifteenth_Amendment_to_the_United_States_Constitution",
+      "type": "concept"
+    },
+    {
+      "term": "Selma to Montgomery marches",
+      "matchText": "Selma",
+      "wikiSlug": "Selma_to_Montgomery_marches",
+      "type": "concept"
+    }
   ],
   "13": [
-    { "term": "Watts", "matchText": "Watts", "wikiSlug": "Watts_riots", "type": "place" },
-    { "term": "De jure segregation", "matchText": "de jure", "wikiSlug": "De_jure", "type": "concept" },
-    { "term": "De facto segregation", "matchText": "de facto segregation", "wikiSlug": "De_facto", "type": "concept" },
-    { "term": "Redlining", "matchText": "redlining", "wikiSlug": "Redlining", "type": "concept" },
-    { "term": "Federal Housing Administration", "matchText": "Federal Housing Administration", "wikiSlug": "Federal_Housing_Administration", "type": "group" },
-    { "term": "Urban renewal", "matchText": "urban renewal", "wikiSlug": "Urban_renewal", "type": "concept" },
-    { "term": "James Baldwin", "matchText": "James Baldwin", "wikiSlug": "James_Baldwin", "type": "person" },
-    { "term": "Crop-lien system", "matchText": "crop-lien system", "wikiSlug": "Sharecropping", "type": "concept" },
-    { "term": "Chicago Freedom Movement", "matchText": "Chicago Freedom Movement", "wikiSlug": "Chicago_Freedom_Movement", "type": "event" },
-    { "term": "Open housing", "matchText": "open housing", "wikiSlug": "Fair_housing", "type": "concept" },
-    { "term": "Operation Breadbasket", "matchText": "Operation Breadbasket", "wikiSlug": "Operation_Breadbasket", "type": "group" },
-    { "term": "Jesse Jackson", "matchText": "Jesse Jackson", "wikiSlug": "Jesse_Jackson", "type": "person" },
-    { "term": "Great Society", "matchText": "Great Society", "wikiSlug": "Great_Society", "type": "concept" },
-    { "term": "War on Poverty", "matchText": "War on Poverty", "wikiSlug": "War_on_poverty", "type": "concept" },
-    { "term": "Medicare", "matchText": "Medicare", "wikiSlug": "Medicare_(United_States)", "type": "concept" },
-    { "term": "Medicaid", "matchText": "Medicaid", "wikiSlug": "Medicaid", "type": "concept" },
-    { "term": "Head Start", "matchText": "Head Start", "wikiSlug": "Head_Start_(program)", "type": "concept" },
-    { "term": "Maximum feasible participation", "matchText": "maximum feasible participation", "wikiSlug": "Community_Action_Agency", "type": "concept" }
+    {
+      "term": "Watts",
+      "matchText": "Watts",
+      "wikiSlug": "Watts_riots",
+      "type": "place"
+    },
+    {
+      "term": "De jure segregation",
+      "matchText": "de jure",
+      "wikiSlug": "De_jure",
+      "type": "concept"
+    },
+    {
+      "term": "De facto segregation",
+      "matchText": "de facto segregation",
+      "wikiSlug": "De_facto",
+      "type": "concept"
+    },
+    {
+      "term": "Redlining",
+      "matchText": "redlining",
+      "wikiSlug": "Redlining",
+      "type": "concept"
+    },
+    {
+      "term": "Federal Housing Administration",
+      "matchText": "Federal Housing Administration",
+      "wikiSlug": "Federal_Housing_Administration",
+      "type": "group"
+    },
+    {
+      "term": "Urban renewal",
+      "matchText": "urban renewal",
+      "wikiSlug": "Urban_renewal",
+      "type": "concept"
+    },
+    {
+      "term": "James Baldwin",
+      "matchText": "James Baldwin",
+      "wikiSlug": "James_Baldwin",
+      "type": "person"
+    },
+    {
+      "term": "Crop-lien system",
+      "matchText": "crop-lien system",
+      "wikiSlug": "Sharecropping",
+      "type": "concept"
+    },
+    {
+      "term": "Chicago Freedom Movement",
+      "matchText": "Chicago Freedom Movement",
+      "wikiSlug": "Chicago_Freedom_Movement",
+      "type": "event"
+    },
+    {
+      "term": "Open housing",
+      "matchText": "open housing",
+      "wikiSlug": "Fair_housing",
+      "type": "concept"
+    },
+    {
+      "term": "Operation Breadbasket",
+      "matchText": "Operation Breadbasket",
+      "wikiSlug": "Operation_Breadbasket",
+      "type": "group"
+    },
+    {
+      "term": "Jesse Jackson",
+      "matchText": "Jesse Jackson",
+      "wikiSlug": "Jesse_Jackson",
+      "type": "person"
+    },
+    {
+      "term": "Great Society",
+      "matchText": "Great Society",
+      "wikiSlug": "Great_Society",
+      "type": "concept"
+    },
+    {
+      "term": "War on Poverty",
+      "matchText": "War on Poverty",
+      "wikiSlug": "War_on_poverty",
+      "type": "concept"
+    },
+    {
+      "term": "Medicare",
+      "matchText": "Medicare",
+      "wikiSlug": "Medicare_(United_States)",
+      "type": "concept"
+    },
+    {
+      "term": "Medicaid",
+      "matchText": "Medicaid",
+      "wikiSlug": "Medicaid",
+      "type": "concept"
+    },
+    {
+      "term": "Head Start",
+      "matchText": "Head Start",
+      "wikiSlug": "Head_Start_(program)",
+      "type": "concept"
+    },
+    {
+      "term": "Maximum feasible participation",
+      "matchText": "maximum feasible participation",
+      "wikiSlug": "Community_Action_Agency",
+      "type": "concept"
+    }
   ],
   "14": [
-    { "term": "Malcolm X", "matchText": "Malcolm X", "wikiSlug": "Malcolm_X", "type": "person" },
-    { "term": "Nation of Islam", "matchText": "Nation of Islam", "wikiSlug": "Nation_of_Islam", "type": "group" },
-    { "term": "Elijah Muhammad", "matchText": "Elijah Muhammad", "wikiSlug": "Elijah_Muhammad", "type": "person" },
-    { "term": "Heterodox", "matchText": "heterodox", "wikiSlug": "Heterodoxy", "type": "concept" },
-    { "term": "Sunni Islam", "matchText": "Sunni Islam", "wikiSlug": "Sunni_Islam", "type": "concept" },
-    { "term": "Black separatism", "matchText": "Black separatism", "wikiSlug": "Black_separatism", "type": "concept" },
-    { "term": "By any means necessary", "matchText": "by any means necessary", "wikiSlug": "By_any_means_necessary", "type": "concept" },
-    { "term": "Hajj", "matchText": "hajj", "wikiSlug": "Hajj", "type": "concept" },
-    { "term": "Alex Haley", "matchText": "Alex Haley", "wikiSlug": "Alex_Haley", "type": "person" },
-    { "term": "Roots", "matchText": "Roots", "wikiSlug": "Roots:_The_Saga_of_an_American_Family", "type": "concept" },
-    { "term": "The Autobiography of Malcolm X", "matchText": "The Autobiography of Malcolm X", "wikiSlug": "The_Autobiography_of_Malcolm_X", "type": "concept" },
-    { "term": "Robert F. Williams", "matchText": "Robert F. Williams", "wikiSlug": "Robert_F._Williams", "type": "person" },
-    { "term": "Negroes with Guns", "matchText": "Negroes With Guns", "wikiSlug": "Negroes_with_Guns", "type": "concept" },
-    { "term": "Huey Newton", "matchText": "Huey Newton", "wikiSlug": "Huey_P._Newton", "type": "person" },
-    { "term": "Deacons for Defense and Justice", "matchText": "Deacons for Defense and Justice", "wikiSlug": "Deacons_for_Defense_and_Justice", "type": "group" }
+    {
+      "term": "Malcolm X",
+      "matchText": "Malcolm X",
+      "wikiSlug": "Malcolm_X",
+      "type": "person"
+    },
+    {
+      "term": "Nation of Islam",
+      "matchText": "Nation of Islam",
+      "wikiSlug": "Nation_of_Islam",
+      "type": "group"
+    },
+    {
+      "term": "Elijah Muhammad",
+      "matchText": "Elijah Muhammad",
+      "wikiSlug": "Elijah_Muhammad",
+      "type": "person"
+    },
+    {
+      "term": "Heterodox",
+      "matchText": "heterodox",
+      "wikiSlug": "Heterodoxy",
+      "type": "concept"
+    },
+    {
+      "term": "Sunni Islam",
+      "matchText": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Black separatism",
+      "matchText": "Black separatism",
+      "wikiSlug": "Black_separatism",
+      "type": "concept"
+    },
+    {
+      "term": "By any means necessary",
+      "matchText": "by any means necessary",
+      "wikiSlug": "By_any_means_necessary",
+      "type": "concept"
+    },
+    {
+      "term": "Hajj",
+      "matchText": "hajj",
+      "wikiSlug": "Hajj",
+      "type": "concept"
+    },
+    {
+      "term": "Alex Haley",
+      "matchText": "Alex Haley",
+      "wikiSlug": "Alex_Haley",
+      "type": "person"
+    },
+    {
+      "term": "Roots",
+      "matchText": "Roots",
+      "wikiSlug": "Roots:_The_Saga_of_an_American_Family",
+      "type": "concept"
+    },
+    {
+      "term": "The Autobiography of Malcolm X",
+      "matchText": "The Autobiography of Malcolm X",
+      "wikiSlug": "The_Autobiography_of_Malcolm_X",
+      "type": "concept"
+    },
+    {
+      "term": "Robert F. Williams",
+      "matchText": "Robert F. Williams",
+      "wikiSlug": "Robert_F._Williams",
+      "type": "person"
+    },
+    {
+      "term": "Negroes with Guns",
+      "matchText": "Negroes With Guns",
+      "wikiSlug": "Negroes_with_Guns",
+      "type": "concept"
+    },
+    {
+      "term": "Huey Newton",
+      "matchText": "Huey Newton",
+      "wikiSlug": "Huey_P._Newton",
+      "type": "person"
+    },
+    {
+      "term": "Deacons for Defense and Justice",
+      "matchText": "Deacons for Defense and Justice",
+      "wikiSlug": "Deacons_for_Defense_and_Justice",
+      "type": "group"
+    }
   ],
   "15": [
-    { "term": "James Meredith", "matchText": "James Meredith", "wikiSlug": "James_Meredith", "type": "person" },
-    { "term": "March Against Fear", "matchText": "March Against Fear", "wikiSlug": "March_Against_Fear", "type": "event" },
-    { "term": "Stokely Carmichael", "matchText": "Stokely Carmichael", "wikiSlug": "Stokely_Carmichael", "type": "person" },
-    { "term": "Black Power", "matchText": "Black Power", "wikiSlug": "Black_Power", "type": "concept" },
-    { "term": "Lowndes County", "matchText": "Lowndes County", "wikiSlug": "Lowndes_County_Freedom_Organization", "type": "place" },
-    { "term": "Black is beautiful", "matchText": "Black is beautiful", "wikiSlug": "Black_is_beautiful", "type": "concept" },
-    { "term": "CORE", "matchText": "CORE", "wikiSlug": "Congress_of_Racial_Equality", "type": "group" },
-    { "term": "Black Panther Party", "matchText": "Black Panther Party", "wikiSlug": "Black_Panther_Party", "type": "group" },
-    { "term": "Bobby Seale", "matchText": "Bobby Seale", "wikiSlug": "Bobby_Seale", "type": "person" },
-    { "term": "Ten-Point Program", "matchText": "Ten-Point Program", "wikiSlug": "Ten-Point_Program", "type": "concept" },
-    { "term": "Free Breakfast for Children", "matchText": "Free Breakfast for Children", "wikiSlug": "Free_Breakfast_for_Children", "type": "concept" },
-    { "term": "J. Edgar Hoover", "matchText": "J. Edgar Hoover", "wikiSlug": "J._Edgar_Hoover", "type": "person" },
-    { "term": "Church Committee", "matchText": "Church Committee", "wikiSlug": "Church_Committee", "type": "group" },
-    { "term": "COINTELPRO", "matchText": "COINTELPRO", "wikiSlug": "COINTELPRO", "type": "concept" },
-    { "term": "Fred Hampton", "matchText": "Fred Hampton", "wikiSlug": "Fred_Hampton", "type": "person" }
+    {
+      "term": "James Meredith",
+      "matchText": "James Meredith",
+      "wikiSlug": "James_Meredith",
+      "type": "person"
+    },
+    {
+      "term": "March Against Fear",
+      "matchText": "March Against Fear",
+      "wikiSlug": "March_Against_Fear",
+      "type": "event"
+    },
+    {
+      "term": "Stokely Carmichael",
+      "matchText": "Stokely Carmichael",
+      "wikiSlug": "Stokely_Carmichael",
+      "type": "person"
+    },
+    {
+      "term": "Black Power",
+      "matchText": "Black Power",
+      "wikiSlug": "Black_Power",
+      "type": "concept"
+    },
+    {
+      "term": "Lowndes County",
+      "matchText": "Lowndes County",
+      "wikiSlug": "Lowndes_County_Freedom_Organization",
+      "type": "place"
+    },
+    {
+      "term": "Black is beautiful",
+      "matchText": "Black is beautiful",
+      "wikiSlug": "Black_is_beautiful",
+      "type": "concept"
+    },
+    {
+      "term": "CORE",
+      "matchText": "CORE",
+      "wikiSlug": "Congress_of_Racial_Equality",
+      "type": "group"
+    },
+    {
+      "term": "Black Panther Party",
+      "matchText": "Black Panther Party",
+      "wikiSlug": "Black_Panther_Party",
+      "type": "group"
+    },
+    {
+      "term": "Bobby Seale",
+      "matchText": "Bobby Seale",
+      "wikiSlug": "Bobby_Seale",
+      "type": "person"
+    },
+    {
+      "term": "Ten-Point Program",
+      "matchText": "Ten-Point Program",
+      "wikiSlug": "Ten-Point_Program",
+      "type": "concept"
+    },
+    {
+      "term": "Free Breakfast for Children",
+      "matchText": "Free Breakfast for Children",
+      "wikiSlug": "Free_Breakfast_for_Children",
+      "type": "concept"
+    },
+    {
+      "term": "J. Edgar Hoover",
+      "matchText": "J. Edgar Hoover",
+      "wikiSlug": "J._Edgar_Hoover",
+      "type": "person"
+    },
+    {
+      "term": "Church Committee",
+      "matchText": "Church Committee",
+      "wikiSlug": "Church_Committee",
+      "type": "group"
+    },
+    {
+      "term": "COINTELPRO",
+      "matchText": "COINTELPRO",
+      "wikiSlug": "COINTELPRO",
+      "type": "concept"
+    },
+    {
+      "term": "Fred Hampton",
+      "matchText": "Fred Hampton",
+      "wikiSlug": "Fred_Hampton",
+      "type": "person"
+    }
   ],
   "16": [
-    { "term": "Newark riots", "matchText": "Newark", "wikiSlug": "1967_Newark_riots", "type": "place" },
-    { "term": "Detroit riot", "matchText": "Detroit", "wikiSlug": "1967_Detroit_riot", "type": "place" },
-    { "term": "Blind pig", "matchText": "blind pig", "wikiSlug": "Speakeasy", "type": "concept" },
-    { "term": "Kerner Commission", "matchText": "Kerner Commission", "wikiSlug": "Kerner_Commission", "type": "group" },
-    { "term": "Beyond Vietnam", "matchText": "Beyond Vietnam", "wikiSlug": "Beyond_Vietnam:_A_Time_to_Break_Silence", "type": "concept" },
-    { "term": "Riverside Church", "matchText": "Riverside Church", "wikiSlug": "Riverside_Church", "type": "place" },
-    { "term": "Vietnam War", "matchText": "Vietnam War", "wikiSlug": "Vietnam_War", "type": "event" },
-    { "term": "Military draft deferment", "matchText": "deferments", "wikiSlug": "Conscription_in_the_United_States", "type": "concept" },
-    { "term": "Muhammad Ali", "matchText": "Muhammad Ali", "wikiSlug": "Muhammad_Ali", "type": "person" },
-    { "term": "Poor People's Campaign", "matchText": "Poor People's Campaign", "wikiSlug": "Poor_People%27s_Campaign", "type": "event" },
-    { "term": "Memphis sanitation strike", "matchText": "striking Black sanitation workers", "wikiSlug": "Memphis_sanitation_strike", "type": "event" },
-    { "term": "I Am a Man", "matchText": "I Am a Man", "wikiSlug": "I_AM_a_Man!", "type": "concept" },
-    { "term": "I've Been to the Mountaintop", "matchText": "I've Been to the Mountaintop", "wikiSlug": "I%27ve_Been_to_the_Mountaintop", "type": "concept" },
-    { "term": "Lorraine Motel", "matchText": "Lorraine Motel", "wikiSlug": "National_Civil_Rights_Museum", "type": "place" },
-    { "term": "Fair Housing Act", "matchText": "Fair Housing Act", "wikiSlug": "Civil_Rights_Act_of_1968", "type": "concept" },
-    { "term": "Ralph Abernathy", "matchText": "Ralph Abernathy", "wikiSlug": "Ralph_Abernathy", "type": "person" },
-    { "term": "Resurrection City", "matchText": "Resurrection City", "wikiSlug": "Poor_People%27s_Campaign", "type": "place" },
-    { "term": "Robert F. Kennedy", "matchText": "Robert Kennedy", "wikiSlug": "Robert_F._Kennedy", "type": "person" }
+    {
+      "term": "Newark riots",
+      "matchText": "Newark",
+      "wikiSlug": "1967_Newark_riots",
+      "type": "place"
+    },
+    {
+      "term": "Detroit riot",
+      "matchText": "Detroit",
+      "wikiSlug": "1967_Detroit_riot",
+      "type": "place"
+    },
+    {
+      "term": "Blind pig",
+      "matchText": "blind pig",
+      "wikiSlug": "Speakeasy",
+      "type": "concept"
+    },
+    {
+      "term": "Kerner Commission",
+      "matchText": "Kerner Commission",
+      "wikiSlug": "Kerner_Commission",
+      "type": "group"
+    },
+    {
+      "term": "Beyond Vietnam",
+      "matchText": "Beyond Vietnam",
+      "wikiSlug": "Beyond_Vietnam:_A_Time_to_Break_Silence",
+      "type": "concept"
+    },
+    {
+      "term": "Riverside Church",
+      "matchText": "Riverside Church",
+      "wikiSlug": "Riverside_Church",
+      "type": "place"
+    },
+    {
+      "term": "Vietnam War",
+      "matchText": "Vietnam War",
+      "wikiSlug": "Vietnam_War",
+      "type": "event"
+    },
+    {
+      "term": "Military draft deferment",
+      "matchText": "deferments",
+      "wikiSlug": "Conscription_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Muhammad Ali",
+      "matchText": "Muhammad Ali",
+      "wikiSlug": "Muhammad_Ali",
+      "type": "person"
+    },
+    {
+      "term": "Poor People's Campaign",
+      "matchText": "Poor People's Campaign",
+      "wikiSlug": "Poor_People%27s_Campaign",
+      "type": "event"
+    },
+    {
+      "term": "Memphis sanitation strike",
+      "matchText": "striking Black sanitation workers",
+      "wikiSlug": "Memphis_sanitation_strike",
+      "type": "event"
+    },
+    {
+      "term": "I Am a Man",
+      "matchText": "I Am a Man",
+      "wikiSlug": "I_AM_a_Man!",
+      "type": "concept"
+    },
+    {
+      "term": "I've Been to the Mountaintop",
+      "matchText": "I've Been to the Mountaintop",
+      "wikiSlug": "I%27ve_Been_to_the_Mountaintop",
+      "type": "concept"
+    },
+    {
+      "term": "Lorraine Motel",
+      "matchText": "Lorraine Motel",
+      "wikiSlug": "National_Civil_Rights_Museum",
+      "type": "place"
+    },
+    {
+      "term": "Fair Housing Act",
+      "matchText": "Fair Housing Act",
+      "wikiSlug": "Civil_Rights_Act_of_1968",
+      "type": "concept"
+    },
+    {
+      "term": "Ralph Abernathy",
+      "matchText": "Ralph Abernathy",
+      "wikiSlug": "Ralph_Abernathy",
+      "type": "person"
+    },
+    {
+      "term": "Resurrection City",
+      "matchText": "Resurrection City",
+      "wikiSlug": "Poor_People%27s_Campaign",
+      "type": "place"
+    },
+    {
+      "term": "Robert F. Kennedy",
+      "matchText": "Robert Kennedy",
+      "wikiSlug": "Robert_F._Kennedy",
+      "type": "person"
+    }
   ],
   "17": [
-    { "term": "George Wallace", "matchText": "George Wallace", "wikiSlug": "George_Wallace", "type": "person" },
-    { "term": "Stand in the Schoolhouse Door", "matchText": "physically stood in a doorway at the University of Alabama", "wikiSlug": "Stand_in_the_Schoolhouse_Door", "type": "event" },
-    { "term": "Richard Nixon", "matchText": "Richard Nixon", "wikiSlug": "Richard_Nixon", "type": "person" },
-    { "term": "Southern Strategy", "matchText": "Southern Strategy", "wikiSlug": "Southern_strategy", "type": "concept" },
-    { "term": "Party realignment", "matchText": "completed a realignment", "wikiSlug": "Realignment_(United_States_politics)", "type": "concept" },
-    { "term": "Green v. County School Board", "matchText": "Green", "wikiSlug": "Green_v._County_School_Board_of_New_Kent_County", "type": "event" },
-    { "term": "Swann v. Charlotte-Mecklenburg", "matchText": "Swann", "wikiSlug": "Swann_v._Charlotte-Mecklenburg_Board_of_Education", "type": "event" },
-    { "term": "Desegregation busing", "matchText": "busing", "wikiSlug": "Desegregation_busing", "type": "concept" },
-    { "term": "Boston busing crisis", "matchText": "ordered Boston to integrate its schools by busing", "wikiSlug": "Desegregation_busing_in_Boston", "type": "event" },
-    { "term": "Milliken v. Bradley", "matchText": "Milliken v. Bradley", "wikiSlug": "Milliken_v._Bradley", "type": "event" },
-    { "term": "Affirmative action", "matchText": "affirmative action", "wikiSlug": "Affirmative_action_in_the_United_States", "type": "concept" },
-    { "term": "Griggs v. Duke Power", "matchText": "Griggs v. Duke Power", "wikiSlug": "Griggs_v._Duke_Power_Co.", "type": "event" },
-    { "term": "Disparate impact", "matchText": "disparate impact", "wikiSlug": "Disparate_impact", "type": "concept" },
-    { "term": "Philadelphia Plan", "matchText": "Philadelphia Plan", "wikiSlug": "Philadelphia_Plan", "type": "concept" },
-    { "term": "Shirley Chisholm", "matchText": "Shirley Chisholm", "wikiSlug": "Shirley_Chisholm", "type": "person" },
-    { "term": "Congressional Black Caucus", "matchText": "Congressional Black Caucus", "wikiSlug": "Congressional_Black_Caucus", "type": "group" },
-    { "term": "Maynard Jackson", "matchText": "Maynard Jackson", "wikiSlug": "Maynard_Jackson", "type": "person" },
-    { "term": "Coleman Young", "matchText": "Coleman Young", "wikiSlug": "Coleman_Young", "type": "person" }
+    {
+      "term": "George Wallace",
+      "matchText": "George Wallace",
+      "wikiSlug": "George_Wallace",
+      "type": "person"
+    },
+    {
+      "term": "Stand in the Schoolhouse Door",
+      "matchText": "physically stood in a doorway at the University of Alabama",
+      "wikiSlug": "Stand_in_the_Schoolhouse_Door",
+      "type": "event"
+    },
+    {
+      "term": "Richard Nixon",
+      "matchText": "Richard Nixon",
+      "wikiSlug": "Richard_Nixon",
+      "type": "person"
+    },
+    {
+      "term": "Southern Strategy",
+      "matchText": "Southern Strategy",
+      "wikiSlug": "Southern_strategy",
+      "type": "concept"
+    },
+    {
+      "term": "Party realignment",
+      "matchText": "completed a realignment",
+      "wikiSlug": "Realignment_(United_States_politics)",
+      "type": "concept"
+    },
+    {
+      "term": "Green v. County School Board",
+      "matchText": "Green",
+      "wikiSlug": "Green_v._County_School_Board_of_New_Kent_County",
+      "type": "event"
+    },
+    {
+      "term": "Swann v. Charlotte-Mecklenburg",
+      "matchText": "Swann",
+      "wikiSlug": "Swann_v._Charlotte-Mecklenburg_Board_of_Education",
+      "type": "event"
+    },
+    {
+      "term": "Desegregation busing",
+      "matchText": "busing",
+      "wikiSlug": "Desegregation_busing",
+      "type": "concept"
+    },
+    {
+      "term": "Boston busing crisis",
+      "matchText": "ordered Boston to integrate its schools by busing",
+      "wikiSlug": "Desegregation_busing_in_Boston",
+      "type": "event"
+    },
+    {
+      "term": "Milliken v. Bradley",
+      "matchText": "Milliken v. Bradley",
+      "wikiSlug": "Milliken_v._Bradley",
+      "type": "event"
+    },
+    {
+      "term": "Affirmative action",
+      "matchText": "affirmative action",
+      "wikiSlug": "Affirmative_action_in_the_United_States",
+      "type": "concept"
+    },
+    {
+      "term": "Griggs v. Duke Power",
+      "matchText": "Griggs v. Duke Power",
+      "wikiSlug": "Griggs_v._Duke_Power_Co.",
+      "type": "event"
+    },
+    {
+      "term": "Disparate impact",
+      "matchText": "disparate impact",
+      "wikiSlug": "Disparate_impact",
+      "type": "concept"
+    },
+    {
+      "term": "Philadelphia Plan",
+      "matchText": "Philadelphia Plan",
+      "wikiSlug": "Philadelphia_Plan",
+      "type": "concept"
+    },
+    {
+      "term": "Shirley Chisholm",
+      "matchText": "Shirley Chisholm",
+      "wikiSlug": "Shirley_Chisholm",
+      "type": "person"
+    },
+    {
+      "term": "Congressional Black Caucus",
+      "matchText": "Congressional Black Caucus",
+      "wikiSlug": "Congressional_Black_Caucus",
+      "type": "group"
+    },
+    {
+      "term": "Maynard Jackson",
+      "matchText": "Maynard Jackson",
+      "wikiSlug": "Maynard_Jackson",
+      "type": "person"
+    },
+    {
+      "term": "Coleman Young",
+      "matchText": "Coleman Young",
+      "wikiSlug": "Coleman_Young",
+      "type": "person"
+    }
   ],
   "18": [
-    { "term": "Fourteenth Amendment", "matchText": "In 1868 and 1870 the Constitution promised", "wikiSlug": "Fourteenth_Amendment_to_the_United_States_Constitution", "type": "concept" },
-    { "term": "Jim Crow", "matchText": "Jim Crow", "wikiSlug": "Jim_Crow_laws", "type": "concept" },
-    { "term": "Plessy v. Ferguson", "matchText": "segregation, disfranchisement, and terror, blessed by", "wikiSlug": "Plessy_v._Ferguson", "type": "event" },
-    { "term": "Second Reconstruction", "matchText": "Second Reconstruction", "wikiSlug": "Civil_rights_movement", "type": "concept" },
-    { "term": "Brown v. Board of Education", "matchText": "a mass movement forced the country to enforce them", "wikiSlug": "Brown_v._Board_of_Education", "type": "event" },
-    { "term": "Voting Rights Act of 1965", "matchText": "the Voting Rights Act of 1965 finally gave the Fifteenth Amendment", "wikiSlug": "Voting_Rights_Act_of_1965", "type": "concept" },
-    { "term": "Loving v. Virginia", "matchText": "Loving v. Virginia", "wikiSlug": "Loving_v._Virginia", "type": "event" },
-    { "term": "Chicano Movement", "matchText": "Chicano movement", "wikiSlug": "Chicano_Movement", "type": "concept" },
-    { "term": "César Chávez", "matchText": "César Chávez", "wikiSlug": "Cesar_Chavez", "type": "person" },
-    { "term": "Northern Ireland Civil Rights Association", "matchText": "Northern Ireland", "wikiSlug": "Northern_Ireland_Civil_Rights_Association", "type": "group" },
-    { "term": "African National Congress", "matchText": "African National Congress", "wikiSlug": "African_National_Congress", "type": "group" },
-    { "term": "Sharpeville massacre", "matchText": "Sharpeville massacre", "wikiSlug": "Sharpeville_massacre", "type": "event" },
-    { "term": "Forty acres", "matchText": "Forty acres", "wikiSlug": "Forty_acres_and_a_mule", "type": "concept" },
-    { "term": "Thaddeus Stevens", "matchText": "Thaddeus Stevens", "wikiSlug": "Thaddeus_Stevens", "type": "person" },
-    { "term": "COINTELPRO", "matchText": "COINTELPRO", "wikiSlug": "COINTELPRO", "type": "concept" },
-    { "term": "Lost Cause", "matchText": "turned the cause of the Civil War into a myth", "wikiSlug": "Lost_Cause_of_the_Confederacy", "type": "concept" }
+    {
+      "term": "Fourteenth Amendment",
+      "matchText": "In 1868 and 1870 the Constitution promised",
+      "wikiSlug": "Fourteenth_Amendment_to_the_United_States_Constitution",
+      "type": "concept"
+    },
+    {
+      "term": "Jim Crow",
+      "matchText": "Jim Crow",
+      "wikiSlug": "Jim_Crow_laws",
+      "type": "concept"
+    },
+    {
+      "term": "Plessy v. Ferguson",
+      "matchText": "segregation, disfranchisement, and terror, blessed by",
+      "wikiSlug": "Plessy_v._Ferguson",
+      "type": "event"
+    },
+    {
+      "term": "Second Reconstruction",
+      "matchText": "Second Reconstruction",
+      "wikiSlug": "Civil_rights_movement",
+      "type": "concept"
+    },
+    {
+      "term": "Brown v. Board of Education",
+      "matchText": "a mass movement forced the country to enforce them",
+      "wikiSlug": "Brown_v._Board_of_Education",
+      "type": "event"
+    },
+    {
+      "term": "Voting Rights Act of 1965",
+      "matchText": "the Voting Rights Act of 1965 finally gave the Fifteenth Amendment",
+      "wikiSlug": "Voting_Rights_Act_of_1965",
+      "type": "concept"
+    },
+    {
+      "term": "Loving v. Virginia",
+      "matchText": "Loving v. Virginia",
+      "wikiSlug": "Loving_v._Virginia",
+      "type": "event"
+    },
+    {
+      "term": "Chicano Movement",
+      "matchText": "Chicano movement",
+      "wikiSlug": "Chicano_Movement",
+      "type": "concept"
+    },
+    {
+      "term": "César Chávez",
+      "matchText": "César Chávez",
+      "wikiSlug": "Cesar_Chavez",
+      "type": "person"
+    },
+    {
+      "term": "Northern Ireland Civil Rights Association",
+      "matchText": "Northern Ireland",
+      "wikiSlug": "Northern_Ireland_Civil_Rights_Association",
+      "type": "group"
+    },
+    {
+      "term": "African National Congress",
+      "matchText": "African National Congress",
+      "wikiSlug": "African_National_Congress",
+      "type": "group"
+    },
+    {
+      "term": "Sharpeville massacre",
+      "matchText": "Sharpeville massacre",
+      "wikiSlug": "Sharpeville_massacre",
+      "type": "event"
+    },
+    {
+      "term": "Forty acres",
+      "matchText": "Forty acres",
+      "wikiSlug": "Forty_acres_and_a_mule",
+      "type": "concept"
+    },
+    {
+      "term": "Thaddeus Stevens",
+      "matchText": "Thaddeus Stevens",
+      "wikiSlug": "Thaddeus_Stevens",
+      "type": "person"
+    },
+    {
+      "term": "COINTELPRO",
+      "matchText": "COINTELPRO",
+      "wikiSlug": "COINTELPRO",
+      "type": "concept"
+    },
+    {
+      "term": "Lost Cause",
+      "matchText": "turned the cause of the Civil War into a myth",
+      "wikiSlug": "Lost_Cause_of_the_Confederacy",
+      "type": "concept"
+    }
   ]
 }
