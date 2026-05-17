@@ -190,7 +190,7 @@ the split-TL leftovers CLAUDE.md flags by hand (#15).
 | # | Item | Cost (text / vision) | Pri | Status |
 |---|------|----------------------|-----|--------|
 | 3 | G10 event-popup coherence retro | **$ text** / $$$ vision | **HIGH** | ☐ |
-| 4 | G12 glossary coherence retro | $$ text-only | MED | ☐ |
+| 4 | G12 glossary coherence retro + def:-popup canon (no dodge/drop) | $$ text-only (cheaper post def:-skip) | MED | ☐ |
 | 5 | G11 cross-link coherence retro (Part B) | $$ text-only | MED | ☐ |
 | 16 | Backward/reciprocal cross-link retro on the 100 | $$ text-only (pairs with #5) | MED | ☐ |
 | 7 | G3 link-coverage retro | curation (post-detect) | MED | ☐ |
@@ -262,10 +262,30 @@ civs. Fixes go via wikiSlug correction, link→eventId fix,
 `.image-overrides.json` / `.caption-overrides.json`. This is the user's
 explicit ask; the cheap-text-first path makes the near-term cost small.
 
-**4. G12 glossary / 5. G11 cross-link coherence (Tier B).** Text-only, cheaper
-than G10. `audit-glossary.mjs` / `audit-crosslinks.mjs` over the 100, batched.
-G11 Part A (target resolution) already verified clean corpus-wide — only the
-semantic (blurb↔target↔subject) Part B is owed.
+**4. G12 glossary coherence retro + def:-popup canon (Tier B).** Text-only,
+cheaper than G10. `audit-glossary.mjs` over the 101, batched. The 100 were
+built BEFORE the 2026-05-17 G12 recalibration and the authored-`definition`
+mechanism, so they contain alive-but-wrong glossary slugs — disambiguation
+pages, same-name-different-thing, and whole-civilization / over-broad "dodge"
+targets (e.g. a niche envoy pointed at the entire civ article). #1 (dead
+slugs) only covered 404s; this covers slugs that resolve but are *wrong*.
+**Acceptance standard (locked, mirrors CLAUDE.md step 10d — the user's
+"pipeline writes its own popup, never drop a word" principle):** every G12
+FAIL is resolved in this order — (1) correct specific slug; (2) a genuine
+on-thread parent that actually explains the term to the reader (same
+civ/era/thread, not the whole-civ article as a dodge); (3) **authored
+`definition` blurb** (no `wikiSlug`; parse normalizes to a `def:` token,
+GlossarySheet renders house-voice prose + no Wikipedia link, G12 skips it).
+**Never leave a disambiguation/over-broad dodge; never drop the term to
+plain text.** Now materially cheaper and unblocked: the `def:` skip means
+definition-resolved terms auto-PASS with no re-audit churn, and the
+recalibration kills the broad-parent false-positives that previously made
+this look huge. #1 already used this exact blurb mechanism for 193 dead
+slugs — this extends the same standard to the wrong-but-alive set.
+
+**5. G11 cross-link coherence (Tier B).** Text-only. `audit-crosslinks.mjs`
+over the 100, batched. G11 Part A (target resolution) already verified clean
+corpus-wide — only the semantic (blurb↔target↔subject) Part B is owed.
 
 **6. Density backfill (Tier C).** 559 chapters < 10 event-links (98/100 civs;
 `audits/density-baseline.json`). This is retroactive standard drift, not a bug
