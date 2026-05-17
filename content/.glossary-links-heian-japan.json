@@ -451,6 +451,18 @@
       "matchText": "Kagero Diary",
       "wikiSlug": "Kagerō_Nikki",
       "type": "concept"
+    },
+    {
+      "term": "The Tale of Genji",
+      "matchText": "onnade",
+      "wikiSlug": "The_Tale_of_Genji",
+      "type": "concept"
+    },
+    {
+      "term": "Sei Shōnagon",
+      "matchText": "Kiyohara Nagiko",
+      "wikiSlug": "Sei_Shōnagon",
+      "type": "people"
     }
   ],
   "6": [
@@ -560,6 +572,12 @@
       "term": "Mikoshi",
       "matchText": "mikoshi",
       "wikiSlug": "Mikoshi",
+      "type": "concept"
+    },
+    {
+      "term": "Cloistered rule",
+      "matchText": "retired emperor",
+      "wikiSlug": "Cloistered_rule",
       "type": "concept"
     }
   ],

@@ -29,6 +29,24 @@
       "targetTl": "ancient-korea",
       "targetChapter": 7,
       "blurb": "When Kammu founded Heian-kyo in 794, the Korean Silla kingdom that had unified the peninsula in the 670s was entering its late decline. Silla had been the cultural intermediary through which much of Tang Chinese civilization had originally reached Japan, and Silla's weakening through the ninth century parallels Tang's decline — both processes that left Heian Japan increasingly cut off from the continental cultural traffic it had previously depended on."
+    },
+    {
+      "matchText": "Asuka-Nara Japan",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 6,
+      "blurb": "Heian-kyo was founded to escape the Nara monasteries' grip on the throne — the new capital a deliberate reset of the church-state problem."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "The new capital was a scale model of Tang Chang'an — Heian Japan still orbiting the Chinese civilizational sun, even as Tang itself declined."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Heian's elaborate court ceremonial and rank-obsession is the East Asian sibling of Byzantine palace ritual — power as performed hierarchy."
     }
   ],
   "2": [
@@ -55,6 +73,18 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 3,
       "blurb": "While Saicho and Kukai were importing esoteric Buddhism to Japan in the early ninth century, the Abbasid Caliphate of the same period was building its institutional dhimmi system for managing minority religions — a different model from the Heian shinbutsu-shugo synthesis that interpenetrated Shinto and Buddhism into a single seamless religious landscape rather than maintaining them as separate traditions."
+    },
+    {
+      "matchText": "Asuka-Nara Japan",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 7,
+      "blurb": "Saicho and Kukai's new Buddhism answered the Nara schools Heian was built to escape — esoteric mountain sects displacing the old state temples."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 7,
+      "blurb": "The continental Buddhism they reimported still flowed through the Korea-China channel that had carried it for centuries."
     }
   ],
   "3": [
@@ -81,6 +111,18 @@
       "targetTl": "tang-song-china",
       "targetChapter": 7,
       "blurb": "Michizane's 894 cancellation of the Tang embassies was a clear-eyed reading of Tang's collapse trajectory. The dynasty had perhaps fifteen years of nominal existence left when Michizane made the call — the An Lushan rebellion of 755–763 had broken Tang central authority a century earlier, and by the late ninth century the dynasty was a hollow institution presiding over a fragmenting empire. The Heian inward turn was a recognition of changed continental conditions."
+    },
+    {
+      "matchText": "Asuka-Nara Japan",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 4,
+      "blurb": "The Fujiwara regency perfected the marriage-politics machine the Nara court had only sketched — rule through the emperor's maternal kin."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 6,
+      "blurb": "While the Fujiwara wrote regency politics in poetry, the Norse were writing power in skaldic verse — two aristocratic worlds, opposite ends of Eurasia."
     }
   ],
   "4": [
@@ -101,6 +143,12 @@
       "targetTl": "tang-song-china",
       "targetChapter": 5,
       "blurb": "While the Heian court was inventing its kana literature and aesthetic vocabulary, the Northern Song dynasty (960–1127) was assembling the Chinese literati culture of poetry, painting, and aesthetic philosophy that would dominate East Asian high culture for the next thousand years. The Heian and Song aesthetic projects developed in parallel without direct contact — the embassies had been cancelled in 894 — but private maritime trade kept the two cultures dimly aware of each other."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "As Heian aesthetics turned inward and away from China, the Tang fell and the Song rose — Japan's 'national' culture born partly from severed contact."
     }
   ],
   "5": [
@@ -127,6 +175,12 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 6,
       "blurb": "The decade around 1010 was a remarkable global creative moment: Murasaki Shikibu finishing Genji, the Fatimid caliph al-Hakim founding al-Azhar university in Cairo, the Chola dynasty under Rajaraja building monumental temples in southern India, the Northern Song dynasty in China developing movable-type printing. Civilizations across Eurasia were doing distinctively creative work in the same generation."
+    },
+    {
+      "matchText": "Umayyad Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "The Brilliant Women — Murasaki, Sei Shonagon — produced a vernacular literary golden age contemporary with the Islamic world's own great flowering."
     }
   ],
   "6": [
@@ -153,6 +207,12 @@
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "The late Insei era under Toba and Go-Shirakawa coincides with the Northern Song's catastrophic loss of north China to the Jurchen Jin dynasty in 1127 and the Song court's flight south to Hangzhou. The maritime trade between Heian Japan and Song China — Kiyomori's Inland Sea ports were a major Japanese terminus — continued through this disruption and would intensify under the Southern Song."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The Insei 'cloistered rule' is a Japanese answer to the universal dynastic problem the Song solved with bureaucracy — power behind the throne, not on it."
     }
   ],
   "7": [
@@ -179,6 +239,12 @@
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "Kiyomori's Inland Sea ports were the Japanese terminus of the maritime trade with Southern Song China — Chinese coins, ceramics, books, and Buddhist images flowing east in exchange for Japanese gold, sulfur, and lacquerware. The wealth this commerce generated was a major Taira asset and one reason the old Heian aristocracy considered the Taira vulgar — the senior court treated maritime commerce as beneath the dignity of a real court family."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "The Hogen and Heiji disturbances let the warrior houses into court politics — the opening of the door that ends aristocratic rule, as Korea's own order shifted."
     }
   ],
   "8": [
@@ -217,6 +283,18 @@
       "targetTl": "teotihuacan",
       "targetChapter": 8,
       "blurb": "By the time of Dannoura in 1185, Teotihuacan in central Mexico had been a ruin for three centuries — abandoned in the seventh or eighth century in circumstances that remain poorly understood. The world of 1185 was already a world full of the ruins of earlier civilizations, and the Heian court that ended at Dannoura would itself become one of those ruins for the warrior governments that followed."
+    },
+    {
+      "matchText": "Meiji Japan",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The Genpei War ends the Heian aristocratic order and births the shogunate — the warrior state that runs until the Meiji Restoration undoes it."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "As Heian Japan fell to its warriors, Song China was being pressed by its own frontier armies — the age of the aristocrat ending across East Asia."
     }
   ]
 }
