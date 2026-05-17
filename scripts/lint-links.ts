@@ -66,6 +66,19 @@ function chapters(tl: string): Map<string, { title: string; body: string }> {
   return out
 }
 
+// tlId → Set of chapter numbers, for cross-link target resolution. Built from
+// ALL narratives (independent of --tl) so a cross-link's target is validated
+// even when linting one civ. A dangling target is silently dropped by the
+// parser today — same severity as a dead wikiSlug, so: ERROR.
+const targetChapters = new Map<string, Set<number>>()
+for (const f of readdirSync(NARR).filter(f => f.endsWith('.md'))) {
+  const id = f.replace('.md', '')
+  try {
+    const md = readFileSync(join(NARR, f), 'utf-8')
+    targetChapters.set(id, new Set([...md.matchAll(/^# Chapter (\d+)/gm)].map(m => Number(m[1]))))
+  } catch { /* unreadable narrative — skip */ }
+}
+
 // Exactly the parser's match test.
 function matchesBody(matchText: string, body: string): boolean {
   const escaped = matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -195,7 +208,12 @@ for (const tl of tls) {
   }
   for (const [ch, arr] of Object.entries(cx)) {
     const meta = chs.get(ch); if (!meta) { add(tl, ch, 'cross', 'ERROR', `chapter ${ch} not in narrative`); continue }
-    for (const c of arr) checkMatchText(tl, ch, 'cross', c.matchText, meta.title, meta.body)
+    for (const c of arr) {
+      checkMatchText(tl, ch, 'cross', c.matchText, meta.title, meta.body)
+      const tgt = targetChapters.get(c.targetTl)
+      if (!tgt) add(tl, ch, 'cross', 'ERROR', `targetTl ${JSON.stringify(c.targetTl)} is not a known civ (parser silently drops this cross-link)`)
+      else if (!tgt.has(c.targetChapter)) add(tl, ch, 'cross', 'ERROR', `targetTl ${c.targetTl} has no chapter ${c.targetChapter} (parser silently drops this cross-link)`)
+    }
   }
   // Opt-in parser-accurate span-contention pass (--contention): surfaces links
   // the parser will drop because an earlier link consumed the span.

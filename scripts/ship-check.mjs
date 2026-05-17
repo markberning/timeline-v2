@@ -54,6 +54,12 @@ check('event-popup QA passed (no EVENT-FAILURES artifact)', () => {
     throw new Error(`EVENT-FAILURES-${tlId}.txt present — popup coherence gate (G10) failed; resolve + re-run audit-events`)
   return 'clean'
 })
+check('cross-link QA passed (no CROSSLINK-FAILURES artifact)', () => {
+  const p = join(ROOT, `CROSSLINK-FAILURES-${tlId}.txt`)
+  if (existsSync(p) && readFileSync(p, 'utf8').trim())
+    throw new Error(`CROSSLINK-FAILURES-${tlId}.txt present — cross-link coherence gate (G11) failed; resolve + re-run audit-crosslinks`)
+  return 'clean'
+})
 
 // 3. Links 0-ERROR (G2).
 check('lint:links --strict', () => { sh('npx', ['tsx', 'scripts/lint-links.ts', `--tl=${tlId}`, '--strict']); return '0 ERROR' })
