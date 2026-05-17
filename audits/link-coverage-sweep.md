@@ -74,7 +74,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | new-kingdom-egypt | 9 | **DONE** | 83962a8 |
 | late-egypt | 8 | **DONE** Nile chain COMPLETE | a5ad68a |
 | ancient-nubia | 8 | **DONE** | e06f4aa |
-| kingdom-of-kush | 8 | **DONE** | +this |
+| kingdom-of-kush | 8 | **DONE** | 7d8974b |
+| kingdom-of-aksum | 8 | **DONE** Nubian Tradition chain COMPLETE | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

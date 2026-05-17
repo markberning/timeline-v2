@@ -1,181 +1,1014 @@
 {
   "1": [
-    {"term": "Ethiopian highlands", "matchText": "Ethiopian highlands", "wikiSlug": "Ethiopian_Highlands", "type": "place"},
-    {"term": "Blue Nile", "matchText": "Blue Nile", "wikiSlug": "Blue_Nile", "type": "place"},
-    {"term": "Lake Tana", "matchText": "Tana", "wikiSlug": "Lake_Tana", "type": "place"},
-    {"term": "Afar Depression", "matchText": "Afar Depression", "wikiSlug": "Afar_Triangle", "type": "place"},
-    {"term": "Red Sea", "matchText": "Red Sea", "wikiSlug": "Red_Sea", "type": "place"},
-    {"term": "teff", "matchText": "teff", "wikiSlug": "Teff", "type": "concept"},
-    {"term": "injera", "matchText": "injera", "wikiSlug": "Injera", "type": "concept"},
-    {"term": "D'mt", "matchText": "D'mt", "wikiSlug": "D%CA%BCmt", "type": "concept"},
-    {"term": "Sabaean language", "matchText": "Semitic language", "wikiSlug": "Old_South_Arabian", "type": "concept"},
-    {"term": "Almaqah", "matchText": "Almaqah", "wikiSlug": "Almaqah", "type": "concept"},
-    {"term": "Eritrea", "matchText": "Eritrea", "wikiSlug": "Eritrea", "type": "place"},
-    {"term": "Ge'ez language", "matchText": "Ge'ez", "wikiSlug": "Ge%CA%BDez", "type": "concept"},
-    {"term": "Arabian Peninsula", "matchText": "Arabian Peninsula", "wikiSlug": "Arabian_Peninsula", "type": "place"},
-    {"term": "Khartoum", "matchText": "Khartoum", "wikiSlug": "Khartoum", "type": "place"},
-    {"term": "Colorado Plateau", "matchText": "Colorado Plateau", "wikiSlug": "Colorado_Plateau", "type": "place"},
-    {"term": "Horn of Africa", "matchText": "Horn of Africa", "wikiSlug": "Horn_of_Africa", "type": "place"},
-    {"term": "Mani", "matchText": "Mani", "wikiSlug": "Mani_(prophet)", "type": "people"},
-    {"term": "historiography of Africa", "matchText": "historiography of Africa", "wikiSlug": "Historiography_of_Africa", "type": "concept"},
-    {"term": "obsidian", "matchText": "obsidian", "wikiSlug": "Obsidian", "type": "concept"},
-    {"term": "Axum", "matchText": "Axum", "wikiSlug": "Axum", "type": "place"}
+    {
+      "term": "Ethiopian highlands",
+      "matchText": "Ethiopian highlands",
+      "wikiSlug": "Ethiopian_Highlands",
+      "type": "place"
+    },
+    {
+      "term": "Blue Nile",
+      "matchText": "Blue Nile",
+      "wikiSlug": "Blue_Nile",
+      "type": "place"
+    },
+    {
+      "term": "Lake Tana",
+      "matchText": "Tana",
+      "wikiSlug": "Lake_Tana",
+      "type": "place"
+    },
+    {
+      "term": "Afar Depression",
+      "matchText": "Afar Depression",
+      "wikiSlug": "Afar_Triangle",
+      "type": "place"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea",
+      "type": "place"
+    },
+    {
+      "term": "teff",
+      "matchText": "teff",
+      "wikiSlug": "Teff",
+      "type": "concept"
+    },
+    {
+      "term": "injera",
+      "matchText": "injera",
+      "wikiSlug": "Injera",
+      "type": "concept"
+    },
+    {
+      "term": "D'mt",
+      "matchText": "D'mt",
+      "wikiSlug": "D%CA%BCmt",
+      "type": "concept"
+    },
+    {
+      "term": "Sabaean language",
+      "matchText": "Semitic language",
+      "wikiSlug": "Old_South_Arabian",
+      "type": "concept"
+    },
+    {
+      "term": "Almaqah",
+      "matchText": "Almaqah",
+      "wikiSlug": "Almaqah",
+      "type": "concept"
+    },
+    {
+      "term": "Eritrea",
+      "matchText": "Eritrea",
+      "wikiSlug": "Eritrea",
+      "type": "place"
+    },
+    {
+      "term": "Ge'ez language",
+      "matchText": "Ge'ez",
+      "wikiSlug": "Ge%CA%BDez",
+      "type": "concept"
+    },
+    {
+      "term": "Arabian Peninsula",
+      "matchText": "Arabian Peninsula",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Khartoum",
+      "matchText": "Khartoum",
+      "wikiSlug": "Khartoum",
+      "type": "place"
+    },
+    {
+      "term": "Colorado Plateau",
+      "matchText": "Colorado Plateau",
+      "wikiSlug": "Colorado_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Horn of Africa",
+      "matchText": "Horn of Africa",
+      "wikiSlug": "Horn_of_Africa",
+      "type": "place"
+    },
+    {
+      "term": "Mani",
+      "matchText": "Mani",
+      "wikiSlug": "Mani_(prophet)",
+      "type": "people"
+    },
+    {
+      "term": "historiography of Africa",
+      "matchText": "historiography of Africa",
+      "wikiSlug": "Historiography_of_Africa",
+      "type": "concept"
+    },
+    {
+      "term": "obsidian",
+      "matchText": "obsidian",
+      "wikiSlug": "Obsidian",
+      "type": "concept"
+    },
+    {
+      "term": "Axum",
+      "matchText": "Axum",
+      "wikiSlug": "Axum",
+      "type": "place"
+    }
   ],
   "2": [
-    {"term": "Adulis", "matchText": "Adulis", "wikiSlug": "Adulis", "type": "place"},
-    {"term": "Massawa", "matchText": "Massawa", "wikiSlug": "Massawa", "type": "place"},
-    {"term": "Periplus", "matchText": "Periplus", "wikiSlug": "Periplus_of_the_Erythraean_Sea", "type": "concept"},
-    {"term": "monsoon", "matchText": "monsoon winds", "wikiSlug": "Monsoon", "type": "concept"},
-    {"term": "frankincense", "matchText": "frankincense", "wikiSlug": "Frankincense", "type": "concept"},
-    {"term": "myrrh", "matchText": "myrrh", "wikiSlug": "Myrrh", "type": "concept"},
-    {"term": "Boswellia", "matchText": "Boswellia", "wikiSlug": "Boswellia", "type": "concept"},
-    {"term": "land of Punt", "matchText": "land of Punt", "wikiSlug": "Land_of_Punt", "type": "place"},
-    {"term": "Nabataean kingdom", "matchText": "Nabataean kingdom", "wikiSlug": "Nabataean_Kingdom", "type": "concept"},
-    {"term": "Petra", "matchText": "Petra", "wikiSlug": "Petra", "type": "place"},
-    {"term": "Palmyra", "matchText": "Palmyra", "wikiSlug": "Palmyra", "type": "place"},
-    {"term": "Beja", "matchText": "Beja", "wikiSlug": "Beja_people", "type": "people"},
-    {"term": "amphora", "matchText": "amphoras", "wikiSlug": "Amphora", "type": "concept"},
-    {"term": "Himyarite kingdom", "matchText": "Himyarite kingdom", "wikiSlug": "Himyarite_Kingdom", "type": "concept"},
-    {"term": "Pliny the Elder", "matchText": "Pliny the Elder", "wikiSlug": "Pliny_the_Elder", "type": "people"},
-    {"term": "Kushan Empire", "matchText": "Kushan Empire", "wikiSlug": "Kushan_Empire", "type": "concept"},
-    {"term": "ivory", "matchText": "ivory", "wikiSlug": "Ivory", "type": "concept"},
-    {"term": "Cosmas Indicopleustes", "matchText": "Cosmas Indicopleustes", "wikiSlug": "Cosmas_Indicopleustes", "type": "people"},
-    {"term": "rhinoceros horn", "matchText": "rhinoceros horn", "wikiSlug": "Rhinoceros#Horn", "type": "concept"},
-    {"term": "tortoiseshell", "matchText": "tortoiseshell", "wikiSlug": "Tortoiseshell", "type": "concept"},
-    {"term": "King of Kings", "matchText": "King of Kings", "wikiSlug": "King_of_Kings", "type": "concept"}
+    {
+      "term": "Adulis",
+      "matchText": "Adulis",
+      "wikiSlug": "Adulis",
+      "type": "place"
+    },
+    {
+      "term": "Massawa",
+      "matchText": "Massawa",
+      "wikiSlug": "Massawa",
+      "type": "place"
+    },
+    {
+      "term": "Periplus",
+      "matchText": "Periplus",
+      "wikiSlug": "Periplus_of_the_Erythraean_Sea",
+      "type": "concept"
+    },
+    {
+      "term": "monsoon",
+      "matchText": "monsoon winds",
+      "wikiSlug": "Monsoon",
+      "type": "concept"
+    },
+    {
+      "term": "frankincense",
+      "matchText": "frankincense",
+      "wikiSlug": "Frankincense",
+      "type": "concept"
+    },
+    {
+      "term": "myrrh",
+      "matchText": "myrrh",
+      "wikiSlug": "Myrrh",
+      "type": "concept"
+    },
+    {
+      "term": "Boswellia",
+      "matchText": "Boswellia",
+      "wikiSlug": "Boswellia",
+      "type": "concept"
+    },
+    {
+      "term": "land of Punt",
+      "matchText": "land of Punt",
+      "wikiSlug": "Land_of_Punt",
+      "type": "place"
+    },
+    {
+      "term": "Nabataean kingdom",
+      "matchText": "Nabataean kingdom",
+      "wikiSlug": "Nabataean_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Petra",
+      "matchText": "Petra",
+      "wikiSlug": "Petra",
+      "type": "place"
+    },
+    {
+      "term": "Palmyra",
+      "matchText": "Palmyra",
+      "wikiSlug": "Palmyra",
+      "type": "place"
+    },
+    {
+      "term": "Beja",
+      "matchText": "Beja",
+      "wikiSlug": "Beja_people",
+      "type": "people"
+    },
+    {
+      "term": "amphora",
+      "matchText": "amphoras",
+      "wikiSlug": "Amphora",
+      "type": "concept"
+    },
+    {
+      "term": "Himyarite kingdom",
+      "matchText": "Himyarite kingdom",
+      "wikiSlug": "Himyarite_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Pliny the Elder",
+      "matchText": "Pliny the Elder",
+      "wikiSlug": "Pliny_the_Elder",
+      "type": "people"
+    },
+    {
+      "term": "Kushan Empire",
+      "matchText": "Kushan Empire",
+      "wikiSlug": "Kushan_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "ivory",
+      "matchText": "ivory",
+      "wikiSlug": "Ivory",
+      "type": "concept"
+    },
+    {
+      "term": "Cosmas Indicopleustes",
+      "matchText": "Cosmas Indicopleustes",
+      "wikiSlug": "Cosmas_Indicopleustes",
+      "type": "people"
+    },
+    {
+      "term": "rhinoceros horn",
+      "matchText": "rhinoceros horn",
+      "wikiSlug": "Rhinoceros#Horn",
+      "type": "concept"
+    },
+    {
+      "term": "tortoiseshell",
+      "matchText": "tortoiseshell",
+      "wikiSlug": "Tortoiseshell",
+      "type": "concept"
+    },
+    {
+      "term": "King of Kings",
+      "matchText": "King of Kings",
+      "wikiSlug": "King_of_Kings",
+      "type": "concept"
+    }
   ],
   "3": [
-    {"term": "stela", "matchText": "stelae", "wikiSlug": "Stele", "type": "concept"},
-    {"term": "Gobedra Hill", "matchText": "Gobedra Hill", "wikiSlug": "Kingdom_of_Aksum", "type": "place"},
-    {"term": "abjad", "matchText": "abjad", "wikiSlug": "Abjad", "type": "concept"},
-    {"term": "abugida", "matchText": "abugida", "wikiSlug": "Abugida", "type": "concept"},
-    {"term": "Amharic", "matchText": "Amharic", "wikiSlug": "Amharic", "type": "concept"},
-    {"term": "Tigrinya", "matchText": "Tigrinya", "wikiSlug": "Tigrinya_language", "type": "concept"},
-    {"term": "solidus", "matchText": "solidus", "wikiSlug": "Solidus_(coin)", "type": "concept"},
-    {"term": "disc-and-crescent", "matchText": "disc-and-crescent", "wikiSlug": "Star_and_crescent", "type": "concept"},
-    {"term": "Brahmi script", "matchText": "Brahmi script", "wikiSlug": "Brahmi_script", "type": "concept"},
-    {"term": "Linear B", "matchText": "Linear B", "wikiSlug": "Linear_B", "type": "concept"},
-    {"term": "obelisk", "matchText": "obelisk", "wikiSlug": "Obelisk", "type": "concept"},
-    {"term": "Karnak", "matchText": "Karnak", "wikiSlug": "Karnak", "type": "place"},
-    {"term": "Aswan", "matchText": "Aswan", "wikiSlug": "Aswan", "type": "place"},
-    {"term": "Baalbek", "matchText": "Baalbek", "wikiSlug": "Baalbek", "type": "place"},
-    {"term": "corbelled arch", "matchText": "corbelled arches", "wikiSlug": "Corbel_arch", "type": "concept"},
-    {"term": "Crisis of the Third Century", "matchText": "Crisis of the Third Century", "wikiSlug": "Crisis_of_the_Third_Century", "type": "concept"},
-    {"term": "Sasanian Persian Empire", "matchText": "Sasanian Persian Empire", "wikiSlug": "Sasanian_Empire", "type": "concept"},
-    {"term": "Diocletian", "matchText": "Diocletian", "wikiSlug": "Diocletian", "type": "people"},
-    {"term": "Constantine", "matchText": "Constantine", "wikiSlug": "Constantine_the_Great", "type": "people"},
-    {"term": "Han Dynasty", "matchText": "Han Dynasty", "wikiSlug": "Han_dynasty", "type": "concept"},
-    {"term": "numismatic", "matchText": "numismatic", "wikiSlug": "Numismatics", "type": "concept"}
+    {
+      "term": "stela",
+      "matchText": "stelae",
+      "wikiSlug": "Stele",
+      "type": "concept"
+    },
+    {
+      "term": "Gobedra Hill",
+      "matchText": "Gobedra Hill",
+      "wikiSlug": "Kingdom_of_Aksum",
+      "type": "place"
+    },
+    {
+      "term": "abjad",
+      "matchText": "abjad",
+      "wikiSlug": "Abjad",
+      "type": "concept"
+    },
+    {
+      "term": "abugida",
+      "matchText": "abugida",
+      "wikiSlug": "Abugida",
+      "type": "concept"
+    },
+    {
+      "term": "Amharic",
+      "matchText": "Amharic",
+      "wikiSlug": "Amharic",
+      "type": "concept"
+    },
+    {
+      "term": "Tigrinya",
+      "matchText": "Tigrinya",
+      "wikiSlug": "Tigrinya_language",
+      "type": "concept"
+    },
+    {
+      "term": "solidus",
+      "matchText": "solidus",
+      "wikiSlug": "Solidus_(coin)",
+      "type": "concept"
+    },
+    {
+      "term": "disc-and-crescent",
+      "matchText": "disc-and-crescent",
+      "wikiSlug": "Star_and_crescent",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmi script",
+      "matchText": "Brahmi script",
+      "wikiSlug": "Brahmi_script",
+      "type": "concept"
+    },
+    {
+      "term": "Linear B",
+      "matchText": "Linear B",
+      "wikiSlug": "Linear_B",
+      "type": "concept"
+    },
+    {
+      "term": "obelisk",
+      "matchText": "obelisk",
+      "wikiSlug": "Obelisk",
+      "type": "concept"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Aswan",
+      "matchText": "Aswan",
+      "wikiSlug": "Aswan",
+      "type": "place"
+    },
+    {
+      "term": "Baalbek",
+      "matchText": "Baalbek",
+      "wikiSlug": "Baalbek",
+      "type": "place"
+    },
+    {
+      "term": "corbelled arch",
+      "matchText": "corbelled arches",
+      "wikiSlug": "Corbel_arch",
+      "type": "concept"
+    },
+    {
+      "term": "Crisis of the Third Century",
+      "matchText": "Crisis of the Third Century",
+      "wikiSlug": "Crisis_of_the_Third_Century",
+      "type": "concept"
+    },
+    {
+      "term": "Sasanian Persian Empire",
+      "matchText": "Sasanian Persian Empire",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Diocletian",
+      "matchText": "Diocletian",
+      "wikiSlug": "Diocletian",
+      "type": "people"
+    },
+    {
+      "term": "Constantine",
+      "matchText": "Constantine",
+      "wikiSlug": "Constantine_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Han Dynasty",
+      "matchText": "Han Dynasty",
+      "wikiSlug": "Han_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "numismatic",
+      "matchText": "numismatic",
+      "wikiSlug": "Numismatics",
+      "type": "concept"
+    }
   ],
   "4": [
-    {"term": "Tyre", "matchText": "Tyre", "wikiSlug": "Tyre,_Lebanon", "type": "place"},
-    {"term": "Rufinus", "matchText": "Rufinus", "wikiSlug": "Tyrannius_Rufinus", "type": "people"},
-    {"term": "Edict of Milan", "matchText": "Edict of Milan", "wikiSlug": "Edict_of_Milan", "type": "concept"},
-    {"term": "Athanasius", "matchText": "Athanasius", "wikiSlug": "Athanasius_of_Alexandria", "type": "people"},
-    {"term": "Coptic Church", "matchText": "Coptic Church", "wikiSlug": "Coptic_Orthodox_Church_of_Alexandria", "type": "concept"},
-    {"term": "Armenian Apostolic Church", "matchText": "Armenian Apostolic Church", "wikiSlug": "Armenian_Apostolic_Church", "type": "concept"},
-    {"term": "Arian controversy", "matchText": "Arian controversy", "wikiSlug": "Arianism", "type": "concept"},
-    {"term": "Nicene", "matchText": "Nicene position", "wikiSlug": "Nicene_Creed", "type": "concept"},
-    {"term": "Armenia", "matchText": "Armenia", "wikiSlug": "Armenia", "type": "place"},
-    {"term": "Tiridates III", "matchText": "Tiridates III", "wikiSlug": "Tiridates_III_of_Armenia", "type": "people"},
-    {"term": "Meroe", "matchText": "Meroe", "wikiSlug": "Meroe", "type": "place"},
-    {"term": "Rosetta Stone", "matchText": "Rosetta Stone", "wikiSlug": "Rosetta_Stone", "type": "concept"},
-    {"term": "Ark of the Covenant", "matchText": "Ark of the Covenant", "wikiSlug": "Ark_of_the_Covenant", "type": "concept"},
-    {"term": "Theodosius I", "matchText": "Theodosius I", "wikiSlug": "Theodosius_I", "type": "people"},
-    {"term": "Noba", "matchText": "Noba", "wikiSlug": "Noba", "type": "people"},
-    {"term": "Ethiopian Orthodox Church", "matchText": "Ethiopian Orthodox Church", "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church", "type": "concept"},
-    {"term": "trilingual", "matchText": "trilingual victory monument", "wikiSlug": "Multilingualism", "type": "concept"},
-    {"term": "Sabaean script", "matchText": "Sabaean", "wikiSlug": "Old_South_Arabian", "type": "concept"},
-    {"term": "Mahrem", "matchText": "Mahrem", "wikiSlug": "Maher_(deity)", "type": "concept"},
-    {"term": "Oriental Orthodox", "matchText": "Oriental Orthodox", "wikiSlug": "Oriental_Orthodoxy", "type": "concept"}
+    {
+      "term": "Tyre",
+      "matchText": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Rufinus",
+      "matchText": "Rufinus",
+      "wikiSlug": "Tyrannius_Rufinus",
+      "type": "people"
+    },
+    {
+      "term": "Edict of Milan",
+      "matchText": "Edict of Milan",
+      "wikiSlug": "Edict_of_Milan",
+      "type": "concept"
+    },
+    {
+      "term": "Athanasius",
+      "matchText": "Athanasius",
+      "wikiSlug": "Athanasius_of_Alexandria",
+      "type": "people"
+    },
+    {
+      "term": "Coptic Church",
+      "matchText": "Coptic Church",
+      "wikiSlug": "Coptic_Orthodox_Church_of_Alexandria",
+      "type": "concept"
+    },
+    {
+      "term": "Armenian Apostolic Church",
+      "matchText": "Armenian Apostolic Church",
+      "wikiSlug": "Armenian_Apostolic_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Arian controversy",
+      "matchText": "Arian controversy",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Nicene",
+      "matchText": "Nicene position",
+      "wikiSlug": "Nicene_Creed",
+      "type": "concept"
+    },
+    {
+      "term": "Armenia",
+      "matchText": "Armenia",
+      "wikiSlug": "Armenia",
+      "type": "place"
+    },
+    {
+      "term": "Tiridates III",
+      "matchText": "Tiridates III",
+      "wikiSlug": "Tiridates_III_of_Armenia",
+      "type": "people"
+    },
+    {
+      "term": "Meroe",
+      "matchText": "Meroe",
+      "wikiSlug": "Meroe",
+      "type": "place"
+    },
+    {
+      "term": "Rosetta Stone",
+      "matchText": "Rosetta Stone",
+      "wikiSlug": "Rosetta_Stone",
+      "type": "concept"
+    },
+    {
+      "term": "Ark of the Covenant",
+      "matchText": "Ark of the Covenant",
+      "wikiSlug": "Ark_of_the_Covenant",
+      "type": "concept"
+    },
+    {
+      "term": "Theodosius I",
+      "matchText": "Theodosius I",
+      "wikiSlug": "Theodosius_I",
+      "type": "people"
+    },
+    {
+      "term": "Noba",
+      "matchText": "Noba",
+      "wikiSlug": "Noba",
+      "type": "people"
+    },
+    {
+      "term": "Ethiopian Orthodox Church",
+      "matchText": "Ethiopian Orthodox Church",
+      "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church",
+      "type": "concept"
+    },
+    {
+      "term": "trilingual",
+      "matchText": "trilingual victory monument",
+      "wikiSlug": "Multilingualism",
+      "type": "concept"
+    },
+    {
+      "term": "Sabaean script",
+      "matchText": "Sabaean",
+      "wikiSlug": "Old_South_Arabian",
+      "type": "concept"
+    },
+    {
+      "term": "Mahrem",
+      "matchText": "Mahrem",
+      "wikiSlug": "Maher_(deity)",
+      "type": "concept"
+    },
+    {
+      "term": "Oriental Orthodox",
+      "matchText": "Oriental Orthodox",
+      "wikiSlug": "Oriental_Orthodoxy",
+      "type": "concept"
+    },
+    {
+      "term": "Ezana of Axum",
+      "matchText": "Ezana",
+      "wikiSlug": "Ezana_of_Axum",
+      "type": "people"
+    }
   ],
   "5": [
-    {"term": "Himyarite Kingdom", "matchText": "Himyarite Kingdom", "wikiSlug": "Himyarite_Kingdom", "type": "concept"},
-    {"term": "Najran", "matchText": "Najran", "wikiSlug": "Najran", "type": "place"},
-    {"term": "Bab el-Mandeb", "matchText": "Bab el-Mandeb", "wikiSlug": "Bab-el-Mandeb", "type": "place"},
-    {"term": "Justinian I", "matchText": "Justinian I", "wikiSlug": "Justinian_I", "type": "people"},
-    {"term": "Byzantine Empire", "matchText": "Byzantine Empire", "wikiSlug": "Byzantine_Empire", "type": "concept"},
-    {"term": "Sasanian Persians", "matchText": "Sasanian Persians", "wikiSlug": "Sasanian_Empire", "type": "concept"},
-    {"term": "Cathedral of Sanaa", "matchText": "Cathedral of Sanaa", "wikiSlug": "Al_Qalis_Church,_Sana%27a", "type": "place"},
-    {"term": "Kaaba", "matchText": "Kaaba", "wikiSlug": "Kaaba", "type": "place"},
-    {"term": "Surat al-Fil", "matchText": "Surat al-Fil", "wikiSlug": "Al-Fil", "type": "concept"},
-    {"term": "Year of the Elephant", "matchText": "Year of the Elephant", "wikiSlug": "Year_of_the_Elephant", "type": "concept"},
-    {"term": "Church of the Holy Sepulchre", "matchText": "Church of the Holy Sepulchre", "wikiSlug": "Church_of_the_Holy_Sepulchre", "type": "place"},
-    {"term": "Yemen", "matchText": "Yemen", "wikiSlug": "Yemen", "type": "place"},
-    {"term": "Corpus Juris Civilis", "matchText": "Corpus Juris Civilis", "wikiSlug": "Corpus_Juris_Civilis", "type": "concept"},
-    {"term": "Hagia Sophia", "matchText": "Hagia Sophia", "wikiSlug": "Hagia_Sophia", "type": "place"},
-    {"term": "Silk Road", "matchText": "Silk Road", "wikiSlug": "Silk_Road", "type": "concept"},
-    {"term": "Syriac", "matchText": "Syriac", "wikiSlug": "Syriac_language", "type": "concept"},
-    {"term": "Constantinople", "matchText": "Constantinople", "wikiSlug": "Constantinople", "type": "place"},
-    {"term": "Mecca", "matchText": "Mecca", "wikiSlug": "Mecca", "type": "place"},
-    {"term": "amphibious warfare", "matchText": "amphibious campaigns", "wikiSlug": "Amphibious_warfare", "type": "concept"},
-    {"term": "Dhu Nuwas", "matchText": "Dhu Nuwas", "wikiSlug": "Dhu_Nuwas", "type": "people"}
+    {
+      "term": "Himyarite Kingdom",
+      "matchText": "Himyarite Kingdom",
+      "wikiSlug": "Himyarite_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Najran",
+      "matchText": "Najran",
+      "wikiSlug": "Najran",
+      "type": "place"
+    },
+    {
+      "term": "Bab el-Mandeb",
+      "matchText": "Bab el-Mandeb",
+      "wikiSlug": "Bab-el-Mandeb",
+      "type": "place"
+    },
+    {
+      "term": "Justinian I",
+      "matchText": "Justinian I",
+      "wikiSlug": "Justinian_I",
+      "type": "people"
+    },
+    {
+      "term": "Byzantine Empire",
+      "matchText": "Byzantine Empire",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Sasanian Persians",
+      "matchText": "Sasanian Persians",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Cathedral of Sanaa",
+      "matchText": "Cathedral of Sanaa",
+      "wikiSlug": "Al_Qalis_Church,_Sana%27a",
+      "type": "place"
+    },
+    {
+      "term": "Kaaba",
+      "matchText": "Kaaba",
+      "wikiSlug": "Kaaba",
+      "type": "place"
+    },
+    {
+      "term": "Surat al-Fil",
+      "matchText": "Surat al-Fil",
+      "wikiSlug": "Al-Fil",
+      "type": "concept"
+    },
+    {
+      "term": "Year of the Elephant",
+      "matchText": "Year of the Elephant",
+      "wikiSlug": "Year_of_the_Elephant",
+      "type": "concept"
+    },
+    {
+      "term": "Church of the Holy Sepulchre",
+      "matchText": "Church of the Holy Sepulchre",
+      "wikiSlug": "Church_of_the_Holy_Sepulchre",
+      "type": "place"
+    },
+    {
+      "term": "Yemen",
+      "matchText": "Yemen",
+      "wikiSlug": "Yemen",
+      "type": "place"
+    },
+    {
+      "term": "Corpus Juris Civilis",
+      "matchText": "Corpus Juris Civilis",
+      "wikiSlug": "Corpus_Juris_Civilis",
+      "type": "concept"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "place"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Syriac",
+      "matchText": "Syriac",
+      "wikiSlug": "Syriac_language",
+      "type": "concept"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "amphibious warfare",
+      "matchText": "amphibious campaigns",
+      "wikiSlug": "Amphibious_warfare",
+      "type": "concept"
+    },
+    {
+      "term": "Dhu Nuwas",
+      "matchText": "Dhu Nuwas",
+      "wikiSlug": "Dhu_Nuwas",
+      "type": "people"
+    },
+    {
+      "term": "Kaleb of Axum",
+      "matchText": "Kaleb",
+      "wikiSlug": "Kaleb_of_Axum",
+      "type": "people"
+    }
   ],
   "6": [
-    {"term": "hagiography", "matchText": "hagiography", "wikiSlug": "Hagiography", "type": "concept"},
-    {"term": "Council of Chalcedon", "matchText": "Council of Chalcedon", "wikiSlug": "Council_of_Chalcedon", "type": "concept"},
-    {"term": "Miaphysite", "matchText": "Miaphysite", "wikiSlug": "Miaphysitism", "type": "concept"},
-    {"term": "Tewahedo", "matchText": "Tewahedo", "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church", "type": "concept"},
-    {"term": "amba", "matchText": "amba", "wikiSlug": "Amba_(geography)", "type": "concept"},
-    {"term": "Cappadocia", "matchText": "Cappadocia", "wikiSlug": "Cappadocia", "type": "place"},
-    {"term": "parchment", "matchText": "parchment", "wikiSlug": "Parchment", "type": "concept"},
-    {"term": "codex", "matchText": "codices", "wikiSlug": "Codex", "type": "concept"},
-    {"term": "Book of Enoch", "matchText": "Book of Enoch", "wikiSlug": "Book_of_Enoch", "type": "concept"},
-    {"term": "Book of Jubilees", "matchText": "Book of Jubilees", "wikiSlug": "Book_of_Jubilees", "type": "concept"},
-    {"term": "Septuagint", "matchText": "Septuagint", "wikiSlug": "Septuagint", "type": "concept"},
-    {"term": "James Bruce", "matchText": "James Bruce", "wikiSlug": "James_Bruce", "type": "people"},
-    {"term": "sistrum", "matchText": "sistrum", "wikiSlug": "Sistrum", "type": "concept"},
-    {"term": "kebero", "matchText": "kebero", "wikiSlug": "Kebero", "type": "concept"},
-    {"term": "zema", "matchText": "zema", "wikiSlug": "Ethiopian_chant", "type": "concept"},
-    {"term": "Abba Aregawi", "matchText": "Abba Aregawi", "wikiSlug": "Za_Mika%27el_Aregawi", "type": "people"},
-    {"term": "Adwa", "matchText": "Adwa", "wikiSlug": "Adwa", "type": "place"},
-    {"term": "evangelist portrait", "matchText": "evangelist portraits", "wikiSlug": "Evangelist_portrait", "type": "concept"},
-    {"term": "canon table", "matchText": "canon tables", "wikiSlug": "Canon_table", "type": "concept"},
-    {"term": "Monophysite", "matchText": "Monophysite", "wikiSlug": "Monophysitism", "type": "concept"},
-    {"term": "Latin", "matchText": "Latin", "wikiSlug": "Latin", "type": "concept"},
-    {"term": "Romance languages", "matchText": "Romance languages", "wikiSlug": "Romance_languages", "type": "concept"}
+    {
+      "term": "hagiography",
+      "matchText": "hagiography",
+      "wikiSlug": "Hagiography",
+      "type": "concept"
+    },
+    {
+      "term": "Council of Chalcedon",
+      "matchText": "Council of Chalcedon",
+      "wikiSlug": "Council_of_Chalcedon",
+      "type": "concept"
+    },
+    {
+      "term": "Miaphysite",
+      "matchText": "Miaphysite",
+      "wikiSlug": "Miaphysitism",
+      "type": "concept"
+    },
+    {
+      "term": "Tewahedo",
+      "matchText": "Tewahedo",
+      "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church",
+      "type": "concept"
+    },
+    {
+      "term": "amba",
+      "matchText": "amba",
+      "wikiSlug": "Amba_(geography)",
+      "type": "concept"
+    },
+    {
+      "term": "Cappadocia",
+      "matchText": "Cappadocia",
+      "wikiSlug": "Cappadocia",
+      "type": "place"
+    },
+    {
+      "term": "parchment",
+      "matchText": "parchment",
+      "wikiSlug": "Parchment",
+      "type": "concept"
+    },
+    {
+      "term": "codex",
+      "matchText": "codices",
+      "wikiSlug": "Codex",
+      "type": "concept"
+    },
+    {
+      "term": "Book of Enoch",
+      "matchText": "Book of Enoch",
+      "wikiSlug": "Book_of_Enoch",
+      "type": "concept"
+    },
+    {
+      "term": "Book of Jubilees",
+      "matchText": "Book of Jubilees",
+      "wikiSlug": "Book_of_Jubilees",
+      "type": "concept"
+    },
+    {
+      "term": "Septuagint",
+      "matchText": "Septuagint",
+      "wikiSlug": "Septuagint",
+      "type": "concept"
+    },
+    {
+      "term": "James Bruce",
+      "matchText": "James Bruce",
+      "wikiSlug": "James_Bruce",
+      "type": "people"
+    },
+    {
+      "term": "sistrum",
+      "matchText": "sistrum",
+      "wikiSlug": "Sistrum",
+      "type": "concept"
+    },
+    {
+      "term": "kebero",
+      "matchText": "kebero",
+      "wikiSlug": "Kebero",
+      "type": "concept"
+    },
+    {
+      "term": "zema",
+      "matchText": "zema",
+      "wikiSlug": "Ethiopian_chant",
+      "type": "concept"
+    },
+    {
+      "term": "Abba Aregawi",
+      "matchText": "Abba Aregawi",
+      "wikiSlug": "Za_Mika%27el_Aregawi",
+      "type": "people"
+    },
+    {
+      "term": "Adwa",
+      "matchText": "Adwa",
+      "wikiSlug": "Adwa",
+      "type": "place"
+    },
+    {
+      "term": "evangelist portrait",
+      "matchText": "evangelist portraits",
+      "wikiSlug": "Evangelist_portrait",
+      "type": "concept"
+    },
+    {
+      "term": "canon table",
+      "matchText": "canon tables",
+      "wikiSlug": "Canon_table",
+      "type": "concept"
+    },
+    {
+      "term": "Monophysite",
+      "matchText": "Monophysite",
+      "wikiSlug": "Monophysitism",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Romance languages",
+      "matchText": "Romance languages",
+      "wikiSlug": "Romance_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Nine Saints",
+      "matchText": "Nine Saints",
+      "wikiSlug": "Nine_Saints",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "Muhammad", "matchText": "Muhammad", "wikiSlug": "Muhammad", "type": "people"},
-    {"term": "Islam", "matchText": "Islam", "wikiSlug": "Islam", "type": "concept"},
-    {"term": "Quraysh", "matchText": "Quraysh", "wikiSlug": "Quraysh", "type": "people"},
-    {"term": "Hijra", "matchText": "Hijra", "wikiSlug": "Hegira", "type": "concept"},
-    {"term": "Medina", "matchText": "Medina", "wikiSlug": "Medina", "type": "place"},
-    {"term": "Quran", "matchText": "Quran", "wikiSlug": "Quran", "type": "concept"},
-    {"term": "Mary", "matchText": "Mary", "wikiSlug": "Mary,_mother_of_Jesus", "type": "people"},
-    {"term": "Makeda", "matchText": "Makeda", "wikiSlug": "Queen_of_Sheba", "type": "people"},
-    {"term": "Menelik I", "matchText": "Menelik I", "wikiSlug": "Menelik_I", "type": "people"},
-    {"term": "Aeneid", "matchText": "Aeneid", "wikiSlug": "Aeneid", "type": "concept"},
-    {"term": "political asylum", "matchText": "political asylum", "wikiSlug": "Right_of_asylum", "type": "concept"},
-    {"term": "absentee funeral prayer", "matchText": "absentee funeral prayer", "wikiSlug": "Salat_al-Janazah", "type": "concept"},
-    {"term": "Ibn Hawqal", "matchText": "Ibn Hawqal", "wikiSlug": "Ibn_Hawqal", "type": "people"},
-    {"term": "Solomon", "matchText": "Solomon", "wikiSlug": "Solomon", "type": "people"},
-    {"term": "Queen of Sheba", "matchText": "Queen of Sheba", "wikiSlug": "Queen_of_Sheba", "type": "people"},
-    {"term": "Ten Commandments", "matchText": "Ten Commandments", "wikiSlug": "Ten_Commandments", "type": "concept"},
-    {"term": "Egyptian calendar", "matchText": "Egyptian calendar", "wikiSlug": "Egyptian_calendar", "type": "concept"},
-    {"term": "Abbasid Caliphate", "matchText": "Abbasid Caliphate", "wikiSlug": "Abbasid_Caliphate", "type": "concept"},
-    {"term": "highland fortress", "matchText": "highland fortress", "wikiSlug": "History_of_Ethiopia", "type": "concept"}
+    {
+      "term": "Muhammad",
+      "matchText": "Muhammad",
+      "wikiSlug": "Muhammad",
+      "type": "people"
+    },
+    {
+      "term": "Islam",
+      "matchText": "Islam",
+      "wikiSlug": "Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Quraysh",
+      "matchText": "Quraysh",
+      "wikiSlug": "Quraysh",
+      "type": "people"
+    },
+    {
+      "term": "Hijra",
+      "matchText": "Hijra",
+      "wikiSlug": "Hegira",
+      "type": "concept"
+    },
+    {
+      "term": "Medina",
+      "matchText": "Medina",
+      "wikiSlug": "Medina",
+      "type": "place"
+    },
+    {
+      "term": "Quran",
+      "matchText": "Quran",
+      "wikiSlug": "Quran",
+      "type": "concept"
+    },
+    {
+      "term": "Mary",
+      "matchText": "Mary",
+      "wikiSlug": "Mary,_mother_of_Jesus",
+      "type": "people"
+    },
+    {
+      "term": "Makeda",
+      "matchText": "Makeda",
+      "wikiSlug": "Queen_of_Sheba",
+      "type": "people"
+    },
+    {
+      "term": "Menelik I",
+      "matchText": "Menelik I",
+      "wikiSlug": "Menelik_I",
+      "type": "people"
+    },
+    {
+      "term": "Aeneid",
+      "matchText": "Aeneid",
+      "wikiSlug": "Aeneid",
+      "type": "concept"
+    },
+    {
+      "term": "political asylum",
+      "matchText": "political asylum",
+      "wikiSlug": "Right_of_asylum",
+      "type": "concept"
+    },
+    {
+      "term": "absentee funeral prayer",
+      "matchText": "absentee funeral prayer",
+      "wikiSlug": "Salat_al-Janazah",
+      "type": "concept"
+    },
+    {
+      "term": "Ibn Hawqal",
+      "matchText": "Ibn Hawqal",
+      "wikiSlug": "Ibn_Hawqal",
+      "type": "people"
+    },
+    {
+      "term": "Solomon",
+      "matchText": "Solomon",
+      "wikiSlug": "Solomon",
+      "type": "people"
+    },
+    {
+      "term": "Queen of Sheba",
+      "matchText": "Queen of Sheba",
+      "wikiSlug": "Queen_of_Sheba",
+      "type": "people"
+    },
+    {
+      "term": "Ten Commandments",
+      "matchText": "Ten Commandments",
+      "wikiSlug": "Ten_Commandments",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptian calendar",
+      "matchText": "Egyptian calendar",
+      "wikiSlug": "Egyptian_calendar",
+      "type": "concept"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "highland fortress",
+      "matchText": "highland fortress",
+      "wikiSlug": "History_of_Ethiopia",
+      "type": "concept"
+    }
   ],
   "8": [
-    {"term": "Zagwe dynasty", "matchText": "Zagwe", "wikiSlug": "Zagwe_dynasty", "type": "concept"},
-    {"term": "Agaw", "matchText": "Agaw", "wikiSlug": "Agaw_people", "type": "people"},
-    {"term": "Lalibela", "matchText": "Lalibela", "wikiSlug": "Lalibela", "type": "place"},
-    {"term": "Yekuno Amlak", "matchText": "Yekuno Amlak", "wikiSlug": "Yekuno_Amlak", "type": "people"},
-    {"term": "Solomonic dynasty", "matchText": "Solomonic dynasty", "wikiSlug": "Solomonic_dynasty", "type": "concept"},
-    {"term": "Haile Selassie", "matchText": "Haile Selassie", "wikiSlug": "Haile_Selassie", "type": "people"},
-    {"term": "Rastafari", "matchText": "Rastafari", "wikiSlug": "Rastafari", "type": "concept"},
-    {"term": "Marcus Garvey", "matchText": "Marcus Garvey", "wikiSlug": "Marcus_Garvey", "type": "people"},
-    {"term": "Beta Israel", "matchText": "Beta Israel", "wikiSlug": "Beta_Israel", "type": "people"},
-    {"term": "League of Nations", "matchText": "League of Nations", "wikiSlug": "League_of_Nations", "type": "concept"},
-    {"term": "Addis Ababa", "matchText": "Addis Ababa", "wikiSlug": "Addis_Ababa", "type": "place"},
-    {"term": "Ethiopian calendar", "matchText": "Ethiopian calendar", "wikiSlug": "Ethiopian_calendar", "type": "concept"},
-    {"term": "rock-hewn churches", "matchText": "rock-hewn churches", "wikiSlug": "Rock-hewn_church", "type": "concept"},
-    {"term": "Dungur", "matchText": "Dungur Palace", "wikiSlug": "Dungur", "type": "place"},
-    {"term": "Cushitic", "matchText": "Cushitic-speaking", "wikiSlug": "Cushitic_languages", "type": "concept"},
-    {"term": "pan-Africanism", "matchText": "pan-Africanist", "wikiSlug": "Pan-Africanism", "type": "concept"},
-    {"term": "Tis'atu Qiddusan", "matchText": "Tis'atu Qiddusan", "wikiSlug": "Nine_Saints", "type": "concept"},
-    {"term": "New Jerusalem", "matchText": "New Jerusalem", "wikiSlug": "New_Jerusalem", "type": "concept"},
-    {"term": "Viking Age", "matchText": "Viking Age", "wikiSlug": "Viking_Age", "type": "concept"},
-    {"term": "Song dynasty", "matchText": "Song dynasty", "wikiSlug": "Song_dynasty", "type": "concept"}
+    {
+      "term": "Zagwe dynasty",
+      "matchText": "Zagwe",
+      "wikiSlug": "Zagwe_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Agaw",
+      "matchText": "Agaw",
+      "wikiSlug": "Agaw_people",
+      "type": "people"
+    },
+    {
+      "term": "Lalibela",
+      "matchText": "Lalibela",
+      "wikiSlug": "Lalibela",
+      "type": "place"
+    },
+    {
+      "term": "Yekuno Amlak",
+      "matchText": "Yekuno Amlak",
+      "wikiSlug": "Yekuno_Amlak",
+      "type": "people"
+    },
+    {
+      "term": "Solomonic dynasty",
+      "matchText": "Solomonic dynasty",
+      "wikiSlug": "Solomonic_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Haile Selassie",
+      "matchText": "Haile Selassie",
+      "wikiSlug": "Haile_Selassie",
+      "type": "people"
+    },
+    {
+      "term": "Rastafari",
+      "matchText": "Rastafari",
+      "wikiSlug": "Rastafari",
+      "type": "concept"
+    },
+    {
+      "term": "Marcus Garvey",
+      "matchText": "Marcus Garvey",
+      "wikiSlug": "Marcus_Garvey",
+      "type": "people"
+    },
+    {
+      "term": "Beta Israel",
+      "matchText": "Beta Israel",
+      "wikiSlug": "Beta_Israel",
+      "type": "people"
+    },
+    {
+      "term": "League of Nations",
+      "matchText": "League of Nations",
+      "wikiSlug": "League_of_Nations",
+      "type": "concept"
+    },
+    {
+      "term": "Addis Ababa",
+      "matchText": "Addis Ababa",
+      "wikiSlug": "Addis_Ababa",
+      "type": "place"
+    },
+    {
+      "term": "Ethiopian calendar",
+      "matchText": "Ethiopian calendar",
+      "wikiSlug": "Ethiopian_calendar",
+      "type": "concept"
+    },
+    {
+      "term": "rock-hewn churches",
+      "matchText": "rock-hewn churches",
+      "wikiSlug": "Rock-hewn_church",
+      "type": "concept"
+    },
+    {
+      "term": "Dungur",
+      "matchText": "Dungur Palace",
+      "wikiSlug": "Dungur",
+      "type": "place"
+    },
+    {
+      "term": "Cushitic",
+      "matchText": "Cushitic-speaking",
+      "wikiSlug": "Cushitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "pan-Africanism",
+      "matchText": "pan-Africanist",
+      "wikiSlug": "Pan-Africanism",
+      "type": "concept"
+    },
+    {
+      "term": "Tis'atu Qiddusan",
+      "matchText": "Tis'atu Qiddusan",
+      "wikiSlug": "Nine_Saints",
+      "type": "concept"
+    },
+    {
+      "term": "New Jerusalem",
+      "matchText": "New Jerusalem",
+      "wikiSlug": "New_Jerusalem",
+      "type": "concept"
+    },
+    {
+      "term": "Viking Age",
+      "matchText": "Viking Age",
+      "wikiSlug": "Viking_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song dynasty",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    }
   ]
 }

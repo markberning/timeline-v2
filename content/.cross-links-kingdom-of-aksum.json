@@ -11,6 +11,18 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 5,
       "blurb": "The Neo-Assyrian Empire conquered Egypt under Esarhaddon and Ashurbanipal in the seventh century BCE, extending Mesopotamian power into northeast Africa. By the time Aksum emerged, Assyria was long gone, but the trade routes it had shaped still connected the Red Sea world to the Mediterranean."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "As the Ethiopian highlands took shape, the Neo-Assyrian Empire dominated the Near East and had even conquered Egypt — the far backdrop to Aksum's eventual Red Sea world."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Cyrus's Persia was building the first world-empire while pre-Aksumite culture was still forming — Aksum would later inherit the Indian Ocean trade routes Persia helped knit."
     }
   ],
   "2": [
@@ -31,6 +43,12 @@
       "targetTl": "han-dynasty",
       "targetChapter": 5,
       "blurb": "Chinese silk traveled the Silk Road to Rome, where elites paid enormous prices for it. Aksum sat on the alternative maritime route through the Red Sea that bypassed Persian middlemen on the overland Silk Road, making the kingdom a key node in the global silk trade."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Aksum's trade empire rose on the Roman Red Sea boom — the Antonine peak, when Roman gold flowed to India and Aksum sat astride the route."
     }
   ],
   "3": [
@@ -39,6 +57,12 @@
       "targetTl": "mycenaean-civilization",
       "targetChapter": 3,
       "blurb": "The shaft graves at Mycenae contained royal burials of extraordinary wealth, including gold death masks and bronze weapons. The underground tomb chambers beneath the Aksumite stelae field, with their precisely fitted granite blocks and corbelled arches, represent a comparable level of engineering sophistication from a completely independent architectural tradition."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 8,
+      "blurb": "The great stelae went up as Rome endured the Crisis of the Third Century — Aksum ascending exactly as its main trade partner nearly collapsed."
     }
   ],
   "4": [
@@ -59,6 +83,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 5,
       "blurb": "Sargon of Akkad rose from cupbearer to conqueror, founding the first empire in Mesopotamian history. The story of Frumentius rising from shipwrecked stranger to royal advisor at the Aksumite court follows the same ancient literary pattern of a foreigner ascending to power through talent and circumstance."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "Ezana adopted Christianity around 330 CE — essentially alongside Constantine's Rome, making Aksum one of the first Christian states on earth."
     }
   ],
   "5": [
@@ -73,6 +103,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 5,
       "blurb": "Xerxes' crossing of the Hellespont into Greece in 480 BCE was one of the ancient world's most ambitious amphibious campaigns. Kaleb's invasion of Yemen five centuries later required the same combination of naval capability, logistical planning, and willingness to fight far from home."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Kaleb's Yemen expedition was coordinated with Justinian's Byzantium — Aksum acting as Christendom's southern arm against Sasanian-aligned Himyar."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Yemen war was a proxy front of the great Byzantine-Sasanian rivalry — Aksum and Sassanid Persia fighting through Arabian clients."
     }
   ],
   "7": [
@@ -89,6 +131,18 @@
       "targetTl": "mali-empire",
       "targetChapter": 1,
       "blurb": "The next great sub-Saharan African state to leave a comparable record was the Ghana Empire, rising in the western Sahel just as Aksum was contracting — and Ghana would in turn give way to Mali. The continuity is not direct (the two African polities knew almost nothing of each other) but the shape is similar: a settled state that got rich on long-distance trade in a high-value commodity (Aksum on Red Sea ivory and incense, Mali on trans-Saharan gold) and built a literate, monetized administration around it. The Mali Empire narrative opens with the Ghana predecessor and that whole alternative African political tradition."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Aksum's end (~940 CE) falls in the Viking Age — the Red Sea routes going dark as a new trade-and-raid world reshaped the far north."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Aksum declined as the Abbasid-centered Islamic trade world, past its peak but still vast, redrew the Red Sea commerce Aksum had lived on."
     }
   ]
 }
