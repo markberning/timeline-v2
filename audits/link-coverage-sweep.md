@@ -18,8 +18,7 @@ concepts, no cap) across **all 89 shipped civs**, chapter by chapter, using the
 6. **Commit per civ immediately**, file-scoped; `git pull --rebase` before push.
 
 ## Coordination (anti-clobber)
-- **Excluded (other instance, IN PROGRESS):** the 5 newly-added Germanic civs
-  (tlIds TBD — confirm before touching anything Germanic/new). Do NOT touch until shipped.
+- **Excluded:** NONE — all 100 civs shipped 2026-05-16; full universe in scope.
 - **NOW IN SCOPE (shipped 2026-05-16 by other instance):** mississippian-culture,
   early-american-republic, antebellum-america, reconstruction, roaring-twenties,
   civil-rights-era — add to sweep queue (do when reaching the Americas/US chain).
@@ -101,7 +100,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | heian-japan | 8 | **DONE** | 402a953 |
 | edo-japan | 8 | **DONE** | efd5889 |
 | meiji-japan | 8 | **DONE** | bd5df76 |
-| japanese-economic-miracle | 8 | **DONE** Japanese chain COMPLETE | +this |
+| japanese-economic-miracle | 8 | **DONE** Japanese chain COMPLETE | 2ec2605 |
+| mesopotamia | 13 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
