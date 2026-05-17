@@ -119,7 +119,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | majapahit | 10 | **DONE** SE Asian chain COMPLETE | f4eaa11 |
 | qing-dynasty | 13 | **DONE** | 83d76a2 |
 | chinese-revolution | ~16 | **DONE** | d4e0633 |
-| rise-of-china | 14 | **DONE** Chinese-modern COMPLETE | +this |
+| rise-of-china | 14 | **DONE** Chinese-modern COMPLETE | 33dc2a4 |
+| germanic-tribes | 10 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
