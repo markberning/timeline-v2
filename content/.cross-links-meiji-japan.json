@@ -10,13 +10,13 @@
       "matchText": "Tokugawa Ieyasu",
       "targetTl": "edo-japan",
       "targetChapter": 1,
-      "blurb": "Ieyasu's victory at Sekigahara in 1600 founded the Tokugawa shogunate that the Meiji Restoration would dismantle 268 years later. The southwestern tozama domains who would lead the overthrow \u2014 Satsuma, Choshu, Tosa \u2014 were the descendants of the clans that had lost to Ieyasu at Sekigahara and been kept out of central power ever since. The grudge ran a long time."
+      "blurb": "Ieyasu's victory at Sekigahara in 1600 founded the Tokugawa shogunate that the Meiji Restoration would dismantle 268 years later. The southwestern tozama domains who would lead the overthrow — Satsuma, Choshu, Tosa — were the descendants of the clans that had lost to Ieyasu at Sekigahara and been kept out of central power ever since. The grudge ran a long time."
     },
     {
       "matchText": "warrior class first took over",
       "targetTl": "heian-japan",
       "targetChapter": 8,
-      "blurb": "The Genpei War of 1180\u201385 and the founding of the Kamakura shogunate by Minamoto no Yoritomo in 1192 ended the Heian aristocratic order and put the warrior class in charge of Japanese politics for the first time. The seven centuries of military government that the Meiji Restoration ended in 1868 began with that twelfth-century transition."
+      "blurb": "The Genpei War of 1180–85 and the founding of the Kamakura shogunate by Minamoto no Yoritomo in 1192 ended the Heian aristocratic order and put the warrior class in charge of Japanese politics for the first time. The seven centuries of military government that the Meiji Restoration ended in 1868 began with that twelfth-century transition."
     },
     {
       "matchText": "1630s under the",
@@ -28,19 +28,19 @@
       "matchText": "Tang-Song China was nine centuries gone",
       "targetTl": "tang-song-china",
       "targetChapter": 9,
-      "blurb": "The Qing China that the Opium Wars humiliated was a Manchu successor state several dynasties removed from the Tang and Song high points of Chinese civilization. The Sino-Japanese War of 1894\u201395 would mark the moment when the Japanese student decisively surpassed the Chinese teacher \u2014 a reversal of the East Asian cultural hierarchy that had held since the Tang dynasty exported writing, Buddhism, and political institutions to Japan in the seventh and eighth centuries."
+      "blurb": "The Qing China that the Opium Wars humiliated was a Manchu successor state several dynasties removed from the Tang and Song high points of Chinese civilization. The Sino-Japanese War of 1894–95 would mark the moment when the Japanese student decisively surpassed the Chinese teacher — a reversal of the East Asian cultural hierarchy that had held since the Tang dynasty exported writing, Buddhism, and political institutions to Japan in the seventh and eighth centuries."
     },
     {
       "matchText": "rangaku",
       "targetTl": "edo-japan",
       "targetChapter": 6,
-      "blurb": "The rangaku Dutch-learning tradition that Edo-period Japanese scholars built up in defiance of sakoku \u2014 translating European medical, astronomical, and military texts smuggled in through Dejima \u2014 produced the small but capable cadre of intellectuals already familiar with Western knowledge when the country was forced open in 1853. Without rangaku, the Meiji modernization could not have moved as fast as it did."
+      "blurb": "The rangaku Dutch-learning tradition that Edo-period Japanese scholars built up in defiance of sakoku — translating European medical, astronomical, and military texts smuggled in through Dejima — produced the small but capable cadre of intellectuals already familiar with Western knowledge when the country was forced open in 1853. Without rangaku, the Meiji modernization could not have moved as fast as it did."
     },
     {
       "matchText": "Imjin War",
       "targetTl": "joseon-korea",
       "targetChapter": 4,
-      "blurb": "The Boshin War of 1868\u201369 was a small civil war by the standards of the Imjin War of 1592\u201398, in which Hideyoshi's Japanese forces invaded Korea and produced casualties on a vastly larger scale. The same Joseon Korea that had been the victim of Japanese aggression in the 1590s would be the victim again, on a different schedule and a different scale, after the Meiji Restoration set Japan on the path to renewed continental expansion."
+      "blurb": "The Boshin War of 1868–69 was a small civil war by the standards of the Imjin War of 1592–98, in which Hideyoshi's Japanese forces invaded Korea and produced casualties on a vastly larger scale. The same Joseon Korea that had been the victim of Japanese aggression in the 1590s would be the victim again, on a different schedule and a different scale, after the Meiji Restoration set Japan on the path to renewed continental expansion."
     },
     {
       "matchText": "thousand years",
@@ -58,7 +58,19 @@
       "matchText": "commercial economy already in place from the Edo period",
       "targetTl": "edo-japan",
       "targetChapter": 4,
-      "blurb": "The Genroku-era commercial economy of seventeenth- and eighteenth-century Edo Japan \u2014 Osaka rice exchanges, the merchant houses that became the founding stock of the zaibatsu, the urbanization of Edo and Osaka, the proto-industrial silk and cotton districts \u2014 was the financial and human infrastructure on which Meiji industrialization would build. Without two centuries of Tokugawa commercial development, the developmentalist state of the 1870s would have had nothing to develop."
+      "blurb": "The Genroku-era commercial economy of seventeenth- and eighteenth-century Edo Japan — Osaka rice exchanges, the merchant houses that became the founding stock of the zaibatsu, the urbanization of Edo and Osaka, the proto-industrial silk and cotton districts — was the financial and human infrastructure on which Meiji industrialization would build. Without two centuries of Tokugawa commercial development, the developmentalist state of the 1870s would have had nothing to develop."
+    },
+    {
+      "matchText": "Edo Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 8,
+      "blurb": "The Restoration is the Black Ships' aftershock — the Tokugawa order the previous narrative ended now violently replaced."
+    },
+    {
+      "matchText": "Joseon Korea",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "Japan met Western pressure with revolutionary self-transformation; Joseon Korea met the same pressure with rigidity — divergent fates from one shock."
     }
   ],
   "2": [
@@ -66,13 +78,19 @@
       "matchText": "Ottoman",
       "targetTl": "ottoman-empire",
       "targetChapter": 9,
-      "blurb": "The Tanzimat-era Ottoman state attempted a similar dismantling of feudal-military privilege \u2014 abolishing the Janissaries in 1826, reorganizing the army on European lines, building modern educational institutions \u2014 but never managed the comprehensive structural reset that Haihan Chiken accomplished in a single edict. The Ottoman reforms had to fight entrenched conservative resistance every step; the Meiji oligarchs had captured the central state intact and could simply impose."
+      "blurb": "The Tanzimat-era Ottoman state attempted a similar dismantling of feudal-military privilege — abolishing the Janissaries in 1826, reorganizing the army on European lines, building modern educational institutions — but never managed the comprehensive structural reset that Haihan Chiken accomplished in a single edict. The Ottoman reforms had to fight entrenched conservative resistance every step; the Meiji oligarchs had captured the central state intact and could simply impose."
     },
     {
       "matchText": "Korean",
       "targetTl": "joseon-korea",
       "targetChapter": 8,
       "blurb": "The Joseon dynasty in 1873 was still nominally subject to Qing China and pursuing its own version of sakoku-style isolation. Saigo Takamori's proposal to invade Korea over a diplomatic insult was the first explicit articulation of what would become Japanese policy two decades later: that Korea was the strategic key to the Asian mainland and was within the Japanese sphere of influence. The Korea that Saigo wanted to invade in 1873 would be a protectorate by 1905 and an annexed colony by 1910."
+    },
+    {
+      "matchText": "Joseon Korea",
+      "targetTl": "joseon-korea",
+      "targetChapter": 8,
+      "blurb": "Dismantling feudalism is exactly what Joseon failed to do — the comparison that explains why one was colonizer and the other colonized."
     }
   ],
   "3": [
@@ -80,7 +98,7 @@
       "matchText": "Boshin War",
       "targetTl": "edo-japan",
       "targetChapter": 8,
-      "blurb": "Saigo Takamori had led the imperial forces at Toba-Fushimi in early 1868, accepted the bloodless surrender of Edo from Katsu Kaishu later that same year, and personified the moral seriousness of the Restoration. The same Boshin War in which Saigo and Yamagata had fought as comrades against the bakufu would, nine years later, see them fight as enemies at Shiroyama \u2014 the institutional momentum of the Meiji project breaking up the very alliance that had created it."
+      "blurb": "Saigo Takamori had led the imperial forces at Toba-Fushimi in early 1868, accepted the bloodless surrender of Edo from Katsu Kaishu later that same year, and personified the moral seriousness of the Restoration. The same Boshin War in which Saigo and Yamagata had fought as comrades against the bakufu would, nine years later, see them fight as enemies at Shiroyama — the institutional momentum of the Meiji project breaking up the very alliance that had created it."
     }
   ],
   "4": [
@@ -95,6 +113,12 @@
       "targetTl": "soviet-union",
       "targetChapter": 6,
       "blurb": "Every industrializing state had to solve the same structural problem: how to squeeze an agricultural surplus to pay for factories. Meiji's answer was the Matsukata deflation — rural debt, tenancy, and migration into the mills, severe but survivable. The Soviet narrative covers the other answer: collectivization and dekulakization, which solved the same equation by force and produced a death toll the Meiji squeeze, brutal as it was, never approached."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 18,
+      "blurb": "'Industrial revolution by decree' compressed Britain's century-long process into decades — the developmental-state model born here."
     }
   ],
   "5": [
@@ -109,6 +133,12 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 11,
       "blurb": "The Meiji Constitution's right of supreme command (tosuiken) gave the Japanese army and navy the same kind of institutional autonomy from civilian control that produced the late Ottoman military's effective independence from the Porte in the early twentieth century. Both states ended up with militaries powerful enough to overrule their own civilian governments, and both paid the price in a generation that began with constitutional government and ended with military catastrophe."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 9,
+      "blurb": "The Meiji Constitution succeeded where the Ottoman constitutional experiment stalled — controlled top-down reform versus reform-and-backlash."
     }
   ],
   "6": [
@@ -128,7 +158,13 @@
       "matchText": "kokugaku",
       "targetTl": "edo-japan",
       "targetChapter": 6,
-      "blurb": "The kokugaku 'national learning' movement of the Tokugawa period \u2014 Motoori Norinaga's textual scholarship on the Kojiki, Hirata Atsutane's nativist theology, the Mito School's imperial-loyalist political philosophy \u2014 built the ideological resources that the Meiji ideologists would systematize into kokutai doctrine. The Edo-period rangaku tradition gave Meiji Japan its Western technical knowledge; the Edo-period kokugaku tradition gave it its imperial-Shinto nationalism. Both inheritances were essential."
+      "blurb": "The kokugaku 'national learning' movement of the Tokugawa period — Motoori Norinaga's textual scholarship on the Kojiki, Hirata Atsutane's nativist theology, the Mito School's imperial-loyalist political philosophy — built the ideological resources that the Meiji ideologists would systematize into kokutai doctrine. The Edo-period rangaku tradition gave Meiji Japan its Western technical knowledge; the Edo-period kokugaku tradition gave it its imperial-Shinto nationalism. Both inheritances were essential."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 9,
+      "blurb": "State-engineered education and national identity is the nation-building toolkit the late Ottoman reformers also reached for, with less success."
     }
   ],
   "7": [
@@ -136,19 +172,25 @@
       "matchText": "Joseon dynasty",
       "targetTl": "joseon-korea",
       "targetChapter": 7,
-      "blurb": "The late Joseon dynasty in the 1880s and 1890s was in serious institutional decay \u2014 yangban factional warfare, peasant rebellions, foreign concession pressure, the failure of the Gabo Reforms to stabilize the state. The Korean inability to resist Japanese pressure during the Sino-Japanese War was the direct consequence of the institutional rot the previous TL chronicled. Korea was conquered before it could complete its own modernization, by a Japan that had completed modernization first."
+      "blurb": "The late Joseon dynasty in the 1880s and 1890s was in serious institutional decay — yangban factional warfare, peasant rebellions, foreign concession pressure, the failure of the Gabo Reforms to stabilize the state. The Korean inability to resist Japanese pressure during the Sino-Japanese War was the direct consequence of the institutional rot the previous TL chronicled. Korea was conquered before it could complete its own modernization, by a Japan that had completed modernization first."
     },
     {
       "matchText": "Manchu Korean War of 1636",
       "targetTl": "joseon-korea",
       "targetChapter": 5,
-      "blurb": "The 1636 Manchu invasion forced the Joseon king to perform the ritual three-bow-nine-kowtow submission to the Qing emperor and made Korea a Qing tributary for the next two and a half centuries. The Treaty of Shimonoseki's recognition of Korean 'complete independence' in 1895 ended that tributary status \u2014 and immediately delivered Korea to Japanese influence instead. The same Korea that had been a Chinese tributary since the seventeenth century became a Japanese protectorate within a decade."
+      "blurb": "The 1636 Manchu invasion forced the Joseon king to perform the ritual three-bow-nine-kowtow submission to the Qing emperor and made Korea a Qing tributary for the next two and a half centuries. The Treaty of Shimonoseki's recognition of Korean 'complete independence' in 1895 ended that tributary status — and immediately delivered Korea to Japanese influence instead. The same Korea that had been a Chinese tributary since the seventeenth century became a Japanese protectorate within a decade."
     },
     {
       "matchText": "Young Turk Revolution",
       "targetTl": "ottoman-empire",
       "targetChapter": 9,
       "blurb": "The 1908 Young Turk Revolution that revived the suspended 1876 Ottoman Constitution drew explicit inspiration from the Russo-Japanese War's demonstration that an Asian constitutional state could defeat a European autocratic empire. For roughly fifteen years after Tsushima, the Meiji Constitution and Japanese institutional design were considered, throughout the colonized and semi-colonized world, the model for what an Asian society could accomplish if it modernized aggressively."
+    },
+    {
+      "matchText": "Joseon Korea",
+      "targetTl": "joseon-korea",
+      "targetChapter": 7,
+      "blurb": "The Sino-Japanese and Russo-Japanese wars were fought largely over Korea — Meiji Japan's victories sealed Joseon's fate."
     }
   ],
   "8": [
@@ -156,7 +198,7 @@
       "matchText": "519-year Joseon dynasty",
       "targetTl": "joseon-korea",
       "targetChapter": 1,
-      "blurb": "The Joseon dynasty had been founded in 1392 by Yi Seong-gye after his coup against the previous Goryeo dynasty. The 519-year run that ended with the August 1910 annexation was one of the longest unbroken dynastic continuities in East Asian history \u2014 outlasting every Chinese dynasty of the same period, every Japanese shogunate, every European royal house. Joseon Korea Chapter 1 covers the founding moment that Meiji Japan brought to its conclusion."
+      "blurb": "The Joseon dynasty had been founded in 1392 by Yi Seong-gye after his coup against the previous Goryeo dynasty. The 519-year run that ended with the August 1910 annexation was one of the longest unbroken dynastic continuities in East Asian history — outlasting every Chinese dynasty of the same period, every Japanese shogunate, every European royal house. Joseon Korea Chapter 1 covers the founding moment that Meiji Japan brought to its conclusion."
     },
     {
       "matchText": "comfort women",
@@ -168,7 +210,13 @@
       "matchText": "ten thousand kamikaze",
       "targetTl": "heian-japan",
       "targetChapter": 8,
-      "blurb": "The kamikaze ('divine wind') name itself comes from the typhoons that destroyed the Mongol invasion fleets of 1274 and 1281, when the Yuan dynasty under Kublai Khan attempted to conquer Japan and was repelled by storms interpreted at the time as divine intervention on Japan's behalf. The 1944\u201345 use of the name for suicide pilots was a deliberate invocation of that thirteenth-century deliverance \u2014 and the same kokutai ideology that produced the kamikaze had earlier mythologized the original kamikaze events into proof of Japan's sacred uniqueness."
+      "blurb": "The kamikaze ('divine wind') name itself comes from the typhoons that destroyed the Mongol invasion fleets of 1274 and 1281, when the Yuan dynasty under Kublai Khan attempted to conquer Japan and was repelled by storms interpreted at the time as divine intervention on Japan's behalf. The 1944–45 use of the name for suicide pilots was a deliberate invocation of that thirteenth-century deliverance — and the same kokutai ideology that produced the kamikaze had earlier mythologized the original kamikaze events into proof of Japan's sacred uniqueness."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 12,
+      "blurb": "Meiji ends with Japan a great power and Korea annexed — the opposite endpoint to the Ottoman collapse from the same modernization race."
     }
   ]
 }
