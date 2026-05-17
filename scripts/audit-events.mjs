@@ -10,9 +10,17 @@
 //   Stage 1 TEXT  — every event with a wikiSlug/extract, BATCHED. Does the
 //                   wikiExtract / wikiSlug match the event's label+description?
 //                   (catches wrong / redirected / off-subject pages.)
-//   Stage 2 VISION — only events that HAVE a photo. Does the image depict the
-//                   subject, and does the caption match the image+subject?
-//                   (catches the Longhouse→totem-pole class.) --no-vision skips.
+//   Stage 2 IMAGE  — HYBRID (2026-05-17, user-approved). The Commons filename
+//                   is already in the thumbnail URL (free, no fetch) and is
+//                   descriptive by convention. 2a: a batched TEXT judgment
+//                   over filename+caption clears the bulk (PASS/FAIL) and
+//                   marks the rest UNSURE. 2b: a real pixel-VISION call is
+//                   spent ONLY on the UNSURE residual (generic/uninformative
+//                   filename, or text can't tell). ~80-90% of vision cost &
+//                   rate-limit stalls removed; the Longhouse→totem-pole class
+//                   is still caught (descriptively named → 2a; generic name →
+//                   2b sees it). --full-vision forces 2b on every image;
+//                   --no-vision skips Stage 2 entirely.
 //
 // FAIL-CLOSED: any API/parse error = FAIL, never a silent pass (cf. G4).
 // On failure writes EVENT-FAILURES-<tlId>.txt (ship-check asserts its absence).
@@ -29,7 +37,8 @@
 //
 // Usage:
 //   node --env-file=.env.local scripts/audit-events.mjs <tlId>
-//   ... --no-vision        # stage 1 only (no image cost)
+//   ... --no-vision        # stage 1 only (no image check at all)
+//   ... --full-vision      # pixel-check every image (skip the 2a text pass)
 //   ... --model M --text-model M --json --report-only --limit N
 
 import { readFileSync, existsSync, writeFileSync, rmSync } from 'node:fs'
@@ -110,29 +119,71 @@ ${JSON.stringify(payload, null, 1)}`
   }
 }
 
-// ---- Stage 2: VISION coherence (only imaged events) ----
-if (!noVision) {
-  const imaged = events.filter((e) => e.thumbnailUrl)
-  for (const e of imaged) {
-    try {
-      const r = await fetch(e.thumbnailUrl, { headers: { 'User-Agent': 'timeline-v2-audit-events/1.0 (https://stuffhappened.com)' } })
-      if (!r.ok) throw new Error(`image fetch ${r.status}`)
-      const mimeType = r.headers.get('content-type')?.split(';')[0] || 'image/jpeg'
-      const data = Buffer.from(await r.arrayBuffer()).toString('base64')
-      const prompt = `This image is the photo shown in a history app when the reader taps the event below. Decide PASS/FAIL:
+// ---- Stage 2: IMAGE coherence (hybrid: filename+caption text, vision on residual) ----
+const fullVision = args.includes('--full-vision')
+function commonsFilename(url) {
+  try {
+    const parts = new URL(url).pathname.split('/').filter(Boolean)
+    const ti = parts.indexOf('thumb')
+    const seg = ti >= 0 ? parts[parts.length - 2] : parts[parts.length - 1]
+    return decodeURIComponent(seg).replace(/_/g, ' ')
+  } catch { return '' }
+}
+async function pixelVision(e) {
+  try {
+    const r = await fetch(e.thumbnailUrl, { headers: { 'User-Agent': 'timeline-v2-audit-events/1.0 (https://stuffhappened.com)' } })
+    if (!r.ok) throw new Error(`image fetch ${r.status}`)
+    const mimeType = r.headers.get('content-type')?.split(';')[0] || 'image/jpeg'
+    const data = Buffer.from(await r.arrayBuffer()).toString('base64')
+    const prompt = `This image is the photo shown in a history app when the reader taps the event below. Decide PASS/FAIL:
 - Does the image plausibly depict THIS event's subject (or a directly relevant map/artifact/place/person of it)? A generic image of the wrong culture/topic is a FAIL.
 - Does the caption describe what is actually in the image AND stay on this subject?
 Event label: ${e.label}
 Event description: ${e.description}
 Caption shown under the image: ${e.imageCaption || '(none)'}
 Respond ONLY: {"verdict":"PASS"|"FAIL","reason":"short"}`
-      const res = await ai.models.generateContent({ model: visionModel, contents: [{ parts: [{ text: prompt }, { inlineData: { mimeType, data } }] }] })
-      const v = extractJson((res?.text ?? (res?.candidates?.[0]?.content?.parts ?? []).map((p) => p.text).filter(Boolean).join(' ')).trim())
-      setV(e.id, 'vision', { verdict: v.verdict === 'PASS' ? 'PASS' : 'FAIL', reason: v.reason || '' })
-    } catch (err) {
-      setV(e.id, 'vision', { verdict: 'FAIL', reason: `vision QA errored: ${String(err?.message || err).slice(0, 120)}` })
+    const res = await ai.models.generateContent({ model: visionModel, contents: [{ parts: [{ text: prompt }, { inlineData: { mimeType, data } }] }] })
+    const v = extractJson((res?.text ?? (res?.candidates?.[0]?.content?.parts ?? []).map((p) => p.text).filter(Boolean).join(' ')).trim())
+    setV(e.id, 'vision', { verdict: v.verdict === 'PASS' ? 'PASS' : 'FAIL', reason: v.reason || '' })
+  } catch (err) {
+    setV(e.id, 'vision', { verdict: 'FAIL', reason: `vision QA errored: ${String(err?.message || err).slice(0, 120)}` })
+  }
+}
+if (!noVision) {
+  const imaged = events.filter((e) => e.thumbnailUrl).map((e) => ({ ...e, fileName: commonsFilename(e.thumbnailUrl) }))
+  const residual = []
+  // Stage 2a — batched text judgment from filename + caption (no image fetch).
+  if (!fullVision) {
+    const IB = 12
+    for (let i = 0; i < imaged.length; i += IB) {
+      const batch = imaged.slice(i, i + IB)
+      const payload = batch.map((e) => ({ id: e.id, label: e.label, description: e.description.slice(0, 300), imageFileName: e.fileName, caption: e.imageCaption || '' }))
+      const prompt = `Each item is an event in a history app, plus the FILENAME of the Wikimedia Commons photo shown and its caption. You CANNOT see the image — judge ONLY from filename + caption + the event.
+- "FAIL" if the filename or caption clearly indicates the WRONG subject/era/culture (anachronism, different topic, different civilization, off-subject caption).
+- "PASS" if filename + caption clearly indicate the image is on-subject (right subject/era/place/person; caption consistent and on-topic).
+- "UNSURE" if the filename is generic/uninformative (e.g. DSC_1234, IMG, image, photo, scan, a bare number/hash) OR you genuinely cannot tell from text alone.
+Respond ONLY with a JSON array, same order: [{"id":"...","verdict":"PASS"|"FAIL"|"UNSURE","reason":"short"}]
+
+ITEMS:
+${JSON.stringify(payload, null, 1)}`
+      try {
+        const res = await ai.models.generateContent({ model: textModel, contents: prompt })
+        const out = extractJson((res?.text ?? (res?.candidates?.[0]?.content?.parts ?? []).map((p) => p.text).filter(Boolean).join(' ')).trim())
+        const byId = new Map(out.map((o) => [o.id, o]))
+        for (const e of batch) {
+          const v = byId.get(e.id)
+          if (!v) { residual.push(e); continue }
+          if (v.verdict === 'PASS') setV(e.id, 'vision', { verdict: 'PASS', reason: `filename/caption: ${v.reason || 'on-subject'}` })
+          else if (v.verdict === 'FAIL') setV(e.id, 'vision', { verdict: 'FAIL', reason: `filename/caption: ${v.reason || 'wrong subject'}` })
+          else residual.push(e) // UNSURE → real pixel vision
+        }
+      } catch {
+        for (const e of batch) residual.push(e) // text pass errored → fall through to vision (fail-closed there)
+      }
     }
   }
+  // Stage 2b — real pixel vision, ONLY on the residual (or every image if --full-vision).
+  for (const e of (fullVision ? imaged : residual)) await pixelVision(e)
 }
 
 // ---- report ----
