@@ -17,6 +17,24 @@
       "targetTl": "mesopotamia",
       "targetChapter": 6,
       "blurb": "The Assyrian trading colony at Kanesh in central Turkey (c. 1950-1750 BCE) was a commercial outpost built to access tin and textiles -- a resource-extraction colony separated from the home city of Ashur by over 600 miles of hostile territory. The Shang's Panlongcheng colony, built 500 km south of Zhengzhou to access copper and tin, is the closest East Asian parallel: same logic, same era, opposite ends of the continent."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "The Shang is where Chinese legend becomes archaeology — Erlitou's successor, the first dynasty with writing you can read."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 3,
+      "blurb": "Like the Indus, the Shang built a bronze-and-city civilization; unlike it, the Shang left readable script, so we know its kings' names."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Shang divination-kingship parallels Mesopotamian temple-states — rulers as the indispensable channel between people and gods."
     }
   ],
   "2": [
@@ -25,6 +43,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 3,
       "blurb": "Mesopotamia's cuneiform clay tablet archives are the other great written record of the Bronze Age world. Cuneiform began around 3400 BCE -- over two thousand years before the Shang oracle bones -- as pictographic marks pressed into wet clay to track grain and labor. By the time the Shang were carving their first inscriptions, Mesopotamia had already produced the Epic of Gilgamesh, law codes, diplomatic correspondence, and centuries of administrative records."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 5,
+      "blurb": "Oracle-bone writing is the script Longshan and Liangzhu were groping toward — China's threshold of literate history."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "Oracle bones are to China what cuneiform tablets are to Sumer: bureaucratic-religious record-keeping that accidentally preserved a civilization."
     }
   ],
   "3": [
@@ -39,6 +69,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "While the Shang were casting massive bronze ritual vessels, the Mycenaean Greeks were burying their kings with gold death masks and cups in the Shaft Graves at Mycenae. Two contemporary Bronze Age civilizations expressing royal power through completely different materials -- gold in the Aegean, bronze in the Yellow River plain -- each producing artworks of astonishing beauty in their own tradition."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 3,
+      "blurb": "Shang ritual bronzes are the technical apex of a metallurgical tradition reaching back into the painted-pottery Neolithic."
     }
   ],
   "4": [
@@ -61,6 +97,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 4,
       "blurb": "The Royal Tombs of Ur (c. 2600-2400 BCE) are the most famous case of mass human sacrifice in Mesopotamia: Queen Puabi's death pit held 74 attendants -- soldiers, musicians, ladies-in-waiting -- apparently drugged and killed to accompany her. But even Ur's death pits pale beside the Shang royal tombs at Xibeigang, where oracle bones record sacrificial events of 100 to 300 people at a single ceremony."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "Shang ancestor worship and royal divination is a cousin of Mesopotamian cult — the dead and the gods as an administered relationship."
     }
   ],
   "6": [
@@ -75,6 +117,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "The north-south axiality of the Shang palace -- ruler in the north, facing south, principal buildings aligned on a central axis -- is the same spatial grammar as Erlitou's Palace No. 1, and it would persist through every Chinese imperial capital for three thousand years. The Forbidden City in Beijing, built in the 15th century CE, still follows the template the Shang refined at Zhengzhou and Yinxu."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "The Shang world — walled towns, chariots, bronze, human sacrifice — is the mature form of what Erlitou began."
     }
   ],
   "7": [
@@ -89,6 +137,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "Sanxingdui shattered the old narrative that Chinese civilization began in the Yellow River valley -- with Yangshao, Longshan, and Erlitou -- and radiated outward from there. The Ancient China TL traces that Yellow River sequence through eight chapters, from Neolithic millet farmers to the Erlitou proto-state. Sanxingdui proves that Bronze Age China had multiple independent centers of complexity, not just one."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 2,
+      "blurb": "Sanxingdui's alien bronzes prove early China was not one culture but several — the Yellow River was never the only story."
     }
   ],
   "8": [
