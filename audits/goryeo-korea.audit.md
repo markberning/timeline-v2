@@ -675,3 +675,46 @@ reference TL is a grandfathered legacy narrative. **Recommended pipeline
 fix:** scope G7's lint requirement to "introduces no NEW errors in the
 touched TL" (diff against a pre-edit baseline), not "TL is globally clean" —
 the latter is the standing corpus-remediation backlog, not a per-civ blocker.
+
+---
+
+## G10 result (2026-05-17, gemini-3-pro-preview) — CENTRAL TRIAL FINDING
+
+First clean G10 run on the corrected model: **52 PASS / 55 FAIL** (107 events).
+Failure shape: ~39 `text:` ("wikiSlug page is too broad — a more specific
+subject was meant"), ~16 `image:` (enriched lead-image depicts a different
+era/topic than the event).
+
+**The structural finding (go/no-go-level):**
+G10 is fail-closed with **no waiver/accept mechanism** (unlike G1, which has
+`audits/density-baseline.json`, and G3, which has `content/.link-waivers-*`).
+ship-check hard-blocks on `EVENT-FAILURES-*.txt`. Its text criterion fails a
+*broad-but-correct parent article* "if a more specific subject was meant."
+
+For a **from-scratch civ in a thin-EN-Wikipedia-coverage area** (medieval
+Korea), most events legitimately have **only a broad parent article** on
+English Wikipedia — there is no separate EN article for the Battle of Gongsan,
+the Jeonsigwa land system, the Gyojeong Dogam, the Manggwondang, the 1254
+campaign, "first Mongol contact 1219", the gongnyeo tribute, each of the three
+Khitan invasions, etc. Slug correction can fix only ~10–15 of the 55 (subjects
+that *do* have specific articles: Jeong Mong-ju, Battle of Gwiju, etc.). The
+remaining ~35–40 are **irreducible**: the correct page IS the broad parent,
+and G10 fails it by design. The original 100 civs never hit this because they
+were grandfathered past G10 entirely.
+
+**Conclusion:** the gated pipeline as built **cannot ship goryeo-korea — or
+any thin-coverage from-scratch civ among the 17** (Islamic Persia, Muscovite
+Russia, the African set are all at risk) — without a pipeline change. This is
+the trial's primary deliverable.
+
+**Recommended pipeline fix (consistent with existing patterns):**
+Add a G10 waiver, `content/.event-slug-waivers-goryeo-korea.json`
+(`{ "<eventId>": "reason" }`), exactly mirroring G3's `.link-waivers-*` and
+G1's density-baseline. `audit-events.mjs` skips waived eventIds (text stage);
+ship-check counts waived = pass. Pair with a prompt recalibration so G10
+distinguishes **broad-but-on-subject (PASS)** from **wrong/redirected/
+off-subject (FAIL)** — the latter is the real defect the gate should catch;
+the former is unavoidable for thin-coverage civs and is what `.image-
+rejections.json` already does for the image stage. Image fails: drop the
+mismatched lead image via `content/.image-rejections.json` (text-only event,
+no Stage-2 vision) where no coherent Commons image exists.
