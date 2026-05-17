@@ -1,187 +1,1056 @@
 {
   "1": [
-    {"term": "maize", "matchText": "maize", "wikiSlug": "Maize", "type": "concept"},
-    {"term": "teosinte", "matchText": "teosinte", "wikiSlug": "Teosinte", "type": "concept"},
-    {"term": "Four Corners", "matchText": "Four Corners", "wikiSlug": "Four_Corners", "type": "place"},
-    {"term": "Colorado Plateau", "matchText": "Colorado Plateau", "wikiSlug": "Colorado_Plateau", "type": "place"},
-    {"term": "mesa", "matchText": "Mesas", "wikiSlug": "Mesa", "type": "concept"},
-    {"term": "Anasazi", "matchText": "Anasazi", "wikiSlug": "Ancestral_Puebloans", "type": "concept"},
-    {"term": "Navajo", "matchText": "Navajo", "wikiSlug": "Navajo_people", "type": "people"},
-    {"term": "Hopi", "matchText": "Hopi", "wikiSlug": "Hopi", "type": "people"},
-    {"term": "Zuni", "matchText": "Zuni", "wikiSlug": "Zuni_people", "type": "people"},
-    {"term": "Pueblo peoples", "matchText": "Pueblo peoples", "wikiSlug": "Puebloans", "type": "people"},
-    {"term": "atlatl", "matchText": "atlatl", "wikiSlug": "Spear-thrower", "type": "concept"},
-    {"term": "Archaic period", "matchText": "Archaic", "wikiSlug": "Archaic_period_(North_America)", "type": "concept"},
-    {"term": "Basketmaker", "matchText": "Basketmaker", "wikiSlug": "Basketmaker_II_Era", "type": "concept"},
-    {"term": "pithouse", "matchText": "pithouses", "wikiSlug": "Pit-house", "type": "concept"},
-    {"term": "cist", "matchText": "cists", "wikiSlug": "Cist", "type": "concept"},
-    {"term": "dendrochronology", "matchText": "dendrochronology", "wikiSlug": "Dendrochronology", "type": "concept"},
-    {"term": "sandstone", "matchText": "sandstone", "wikiSlug": "Sandstone", "type": "concept"},
-    {"term": "pinyon", "matchText": "pinyon nuts", "wikiSlug": "Pinyon_pine", "type": "concept"},
-    {"term": "yucca", "matchText": "yucca", "wikiSlug": "Yucca", "type": "concept"},
-    {"term": "anthropomorphic", "matchText": "anthropomorphic", "wikiSlug": "Anthropomorphism", "type": "concept"},
-    {"term": "monsoon", "matchText": "summer monsoon", "wikiSlug": "North_American_monsoon", "type": "concept"},
-    {"term": "flash flood", "matchText": "flash flood", "wikiSlug": "Flash_flood", "type": "concept"}
+    {
+      "term": "maize",
+      "matchText": "maize",
+      "wikiSlug": "Maize",
+      "type": "concept"
+    },
+    {
+      "term": "teosinte",
+      "matchText": "teosinte",
+      "wikiSlug": "Teosinte",
+      "type": "concept"
+    },
+    {
+      "term": "Four Corners",
+      "matchText": "Four Corners",
+      "wikiSlug": "Four_Corners",
+      "type": "place"
+    },
+    {
+      "term": "Colorado Plateau",
+      "matchText": "Colorado Plateau",
+      "wikiSlug": "Colorado_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "mesa",
+      "matchText": "Mesas",
+      "wikiSlug": "Mesa",
+      "type": "concept"
+    },
+    {
+      "term": "Anasazi",
+      "matchText": "Anasazi",
+      "wikiSlug": "Ancestral_Puebloans",
+      "type": "concept"
+    },
+    {
+      "term": "Navajo",
+      "matchText": "Navajo",
+      "wikiSlug": "Navajo_people",
+      "type": "people"
+    },
+    {
+      "term": "Hopi",
+      "matchText": "Hopi",
+      "wikiSlug": "Hopi",
+      "type": "people"
+    },
+    {
+      "term": "Zuni",
+      "matchText": "Zuni",
+      "wikiSlug": "Zuni_people",
+      "type": "people"
+    },
+    {
+      "term": "Pueblo peoples",
+      "matchText": "Pueblo peoples",
+      "wikiSlug": "Puebloans",
+      "type": "people"
+    },
+    {
+      "term": "atlatl",
+      "matchText": "atlatl",
+      "wikiSlug": "Spear-thrower",
+      "type": "concept"
+    },
+    {
+      "term": "Archaic period",
+      "matchText": "Archaic",
+      "wikiSlug": "Archaic_period_(North_America)",
+      "type": "concept"
+    },
+    {
+      "term": "Basketmaker",
+      "matchText": "Basketmaker",
+      "wikiSlug": "Basketmaker_II_Era",
+      "type": "concept"
+    },
+    {
+      "term": "pithouse",
+      "matchText": "pithouses",
+      "wikiSlug": "Pit-house",
+      "type": "concept"
+    },
+    {
+      "term": "cist",
+      "matchText": "cists",
+      "wikiSlug": "Cist",
+      "type": "concept"
+    },
+    {
+      "term": "dendrochronology",
+      "matchText": "dendrochronology",
+      "wikiSlug": "Dendrochronology",
+      "type": "concept"
+    },
+    {
+      "term": "sandstone",
+      "matchText": "sandstone",
+      "wikiSlug": "Sandstone",
+      "type": "concept"
+    },
+    {
+      "term": "pinyon",
+      "matchText": "pinyon nuts",
+      "wikiSlug": "Pinyon_pine",
+      "type": "concept"
+    },
+    {
+      "term": "yucca",
+      "matchText": "yucca",
+      "wikiSlug": "Yucca",
+      "type": "concept"
+    },
+    {
+      "term": "anthropomorphic",
+      "matchText": "anthropomorphic",
+      "wikiSlug": "Anthropomorphism",
+      "type": "concept"
+    },
+    {
+      "term": "monsoon",
+      "matchText": "summer monsoon",
+      "wikiSlug": "North_American_monsoon",
+      "type": "concept"
+    },
+    {
+      "term": "flash flood",
+      "matchText": "flash flood",
+      "wikiSlug": "Flash_flood",
+      "type": "concept"
+    }
   ],
   "2": [
-    {"term": "Pecos Conference", "matchText": "Pecos Conference", "wikiSlug": "Pecos_Classification", "type": "concept"},
-    {"term": "Basketmaker II", "matchText": "Basketmaker II", "wikiSlug": "Basketmaker_II_Era", "type": "concept"},
-    {"term": "Basketmaker III", "matchText": "Basketmaker III", "wikiSlug": "Basketmaker_III_Era", "type": "concept"},
-    {"term": "coil-and-scrape", "matchText": "coil-and-scrape", "wikiSlug": "Coiling_(pottery)", "type": "concept"},
-    {"term": "Three Sisters", "matchText": "Three Sisters", "wikiSlug": "Three_Sisters_(agriculture)", "type": "concept"},
-    {"term": "kiva", "matchText": "kiva", "wikiSlug": "Kiva", "type": "concept"},
-    {"term": "sipapu", "matchText": "sipapu", "wikiSlug": "Sipapu", "type": "concept"},
-    {"term": "cribbed log roof", "matchText": "cribbed log roof", "wikiSlug": "Cribbing_(construction)", "type": "concept"},
-    {"term": "turkey domestication", "matchText": "wild turkey", "wikiSlug": "Domesticated_turkey", "type": "concept"},
-    {"term": "turkey-feather blanket", "matchText": "turkey-feather blankets", "wikiSlug": "Ancestral_Puebloans", "type": "concept"},
-    {"term": "Pueblo I", "matchText": "Pueblo I", "wikiSlug": "Pueblo_I_Era", "type": "concept"},
-    {"term": "Chaco Canyon", "matchText": "Chaco Canyon", "wikiSlug": "Chaco_Canyon", "type": "place"},
-    {"term": "squash", "matchText": "squash", "wikiSlug": "Squash_(plant)", "type": "concept"},
-    {"term": "bow and arrow", "matchText": "bow and arrow", "wikiSlug": "Bow_and_arrow", "type": "concept"},
-    {"term": "emergence cosmology", "matchText": "emergence cosmology", "wikiSlug": "Emergence_(mythology)", "type": "concept"},
-    {"term": "iron oxide", "matchText": "iron-oxide", "wikiSlug": "Iron_oxide", "type": "concept"},
-    {"term": "bighorn sheep", "matchText": "bighorn sheep", "wikiSlug": "Bighorn_sheep", "type": "concept"},
-    {"term": "nitrogen fixation", "matchText": "fix nitrogen", "wikiSlug": "Nitrogen_fixation", "type": "concept"},
-    {"term": "ventilator shaft", "matchText": "ventilator shaft", "wikiSlug": "Kiva", "type": "concept"},
-    {"term": "amino acids", "matchText": "amino acids", "wikiSlug": "Amino_acid", "type": "concept"},
-    {"term": "Shabik'eshchee", "matchText": "Shabik'eshchee", "wikiSlug": "Shabik%27eshchee_Village", "type": "place"}
+    {
+      "term": "Pecos Conference",
+      "matchText": "Pecos Conference",
+      "wikiSlug": "Pecos_Classification",
+      "type": "concept"
+    },
+    {
+      "term": "Basketmaker II",
+      "matchText": "Basketmaker II",
+      "wikiSlug": "Basketmaker_II_Era",
+      "type": "concept"
+    },
+    {
+      "term": "Basketmaker III",
+      "matchText": "Basketmaker III",
+      "wikiSlug": "Basketmaker_III_Era",
+      "type": "concept"
+    },
+    {
+      "term": "coil-and-scrape",
+      "matchText": "coil-and-scrape",
+      "wikiSlug": "Coiling_(pottery)",
+      "type": "concept"
+    },
+    {
+      "term": "Three Sisters",
+      "matchText": "Three Sisters",
+      "wikiSlug": "Three_Sisters_(agriculture)",
+      "type": "concept"
+    },
+    {
+      "term": "kiva",
+      "matchText": "kiva",
+      "wikiSlug": "Kiva",
+      "type": "concept"
+    },
+    {
+      "term": "sipapu",
+      "matchText": "sipapu",
+      "wikiSlug": "Sipapu",
+      "type": "concept"
+    },
+    {
+      "term": "cribbed log roof",
+      "matchText": "cribbed log roof",
+      "wikiSlug": "Cribbing_(construction)",
+      "type": "concept"
+    },
+    {
+      "term": "turkey domestication",
+      "matchText": "wild turkey",
+      "wikiSlug": "Domesticated_turkey",
+      "type": "concept"
+    },
+    {
+      "term": "turkey-feather blanket",
+      "matchText": "turkey-feather blankets",
+      "wikiSlug": "Ancestral_Puebloans",
+      "type": "concept"
+    },
+    {
+      "term": "Pueblo I",
+      "matchText": "Pueblo I",
+      "wikiSlug": "Pueblo_I_Era",
+      "type": "concept"
+    },
+    {
+      "term": "Chaco Canyon",
+      "matchText": "Chaco Canyon",
+      "wikiSlug": "Chaco_Canyon",
+      "type": "place"
+    },
+    {
+      "term": "squash",
+      "matchText": "squash",
+      "wikiSlug": "Squash_(plant)",
+      "type": "concept"
+    },
+    {
+      "term": "bow and arrow",
+      "matchText": "bow and arrow",
+      "wikiSlug": "Bow_and_arrow",
+      "type": "concept"
+    },
+    {
+      "term": "emergence cosmology",
+      "matchText": "emergence cosmology",
+      "wikiSlug": "Emergence_(mythology)",
+      "type": "concept"
+    },
+    {
+      "term": "iron oxide",
+      "matchText": "iron-oxide",
+      "wikiSlug": "Iron_oxide",
+      "type": "concept"
+    },
+    {
+      "term": "bighorn sheep",
+      "matchText": "bighorn sheep",
+      "wikiSlug": "Bighorn_sheep",
+      "type": "concept"
+    },
+    {
+      "term": "nitrogen fixation",
+      "matchText": "fix nitrogen",
+      "wikiSlug": "Nitrogen_fixation",
+      "type": "concept"
+    },
+    {
+      "term": "ventilator shaft",
+      "matchText": "ventilator shaft",
+      "wikiSlug": "Kiva",
+      "type": "concept"
+    },
+    {
+      "term": "amino acids",
+      "matchText": "amino acids",
+      "wikiSlug": "Amino_acid",
+      "type": "concept"
+    },
+    {
+      "term": "Shabik'eshchee",
+      "matchText": "Shabik'eshchee",
+      "wikiSlug": "Shabik%27eshchee_Village",
+      "type": "place"
+    }
   ],
   "3": [
-    {"term": "Pueblo Bonito", "matchText": "Pueblo Bonito", "wikiSlug": "Pueblo_Bonito", "type": "place"},
-    {"term": "San Juan Basin", "matchText": "San Juan Basin", "wikiSlug": "San_Juan_Basin", "type": "place"},
-    {"term": "core-and-veneer masonry", "matchText": "core-and-veneer masonry", "wikiSlug": "Chaco_Culture_National_Historical_Park", "type": "concept"},
-    {"term": "viga", "matchText": "vigas", "wikiSlug": "Viga_(architecture)", "type": "concept"},
-    {"term": "latilla", "matchText": "latillas", "wikiSlug": "Latilla", "type": "concept"},
-    {"term": "Chuska Mountains", "matchText": "Chuska Mountains", "wikiSlug": "Chuska_Mountains", "type": "place"},
-    {"term": "isotopic analysis", "matchText": "isotopic analysis", "wikiSlug": "Isotope_analysis", "type": "concept"},
-    {"term": "ponderosa pine", "matchText": "ponderosa pine", "wikiSlug": "Pinus_ponderosa", "type": "concept"},
-    {"term": "Douglas fir", "matchText": "Douglas fir", "wikiSlug": "Douglas_fir", "type": "concept"},
-    {"term": "Fajada Butte", "matchText": "Fajada Butte", "wikiSlug": "Fajada_Butte", "type": "place"},
-    {"term": "Sun Dagger", "matchText": "Sun Dagger", "wikiSlug": "Sun_Dagger", "type": "concept"},
-    {"term": "lunar standstill", "matchText": "lunar standstill cycle", "wikiSlug": "Lunar_standstill", "type": "concept"},
-    {"term": "summer solstice", "matchText": "summer solstice", "wikiSlug": "Summer_solstice", "type": "concept"},
-    {"term": "winter solstice", "matchText": "winter solstice", "wikiSlug": "Winter_solstice", "type": "concept"},
-    {"term": "equinox", "matchText": "equinoxes", "wikiSlug": "Equinox", "type": "concept"},
-    {"term": "Crab Nebula", "matchText": "Crab Nebula", "wikiSlug": "Crab_Nebula", "type": "concept"},
-    {"term": "Casa Rinconada", "matchText": "Casa Rinconada", "wikiSlug": "Casa_Rinconada", "type": "place"},
-    {"term": "Chetro Ketl", "matchText": "Chetro Ketl", "wikiSlug": "Chetro_Ketl", "type": "place"},
-    {"term": "petroglyph", "matchText": "petroglyphs", "wikiSlug": "Petroglyph", "type": "concept"},
-    {"term": "New Mexico", "matchText": "New Mexico", "wikiSlug": "New_Mexico", "type": "place"},
-    {"term": "supernova", "matchText": "supernova", "wikiSlug": "Supernova", "type": "concept"}
+    {
+      "term": "Pueblo Bonito",
+      "matchText": "Pueblo Bonito",
+      "wikiSlug": "Pueblo_Bonito",
+      "type": "place"
+    },
+    {
+      "term": "San Juan Basin",
+      "matchText": "San Juan Basin",
+      "wikiSlug": "San_Juan_Basin",
+      "type": "place"
+    },
+    {
+      "term": "core-and-veneer masonry",
+      "matchText": "core-and-veneer masonry",
+      "wikiSlug": "Chaco_Culture_National_Historical_Park",
+      "type": "concept"
+    },
+    {
+      "term": "viga",
+      "matchText": "vigas",
+      "wikiSlug": "Viga_(architecture)",
+      "type": "concept"
+    },
+    {
+      "term": "latilla",
+      "matchText": "latillas",
+      "wikiSlug": "Latilla",
+      "type": "concept"
+    },
+    {
+      "term": "Chuska Mountains",
+      "matchText": "Chuska Mountains",
+      "wikiSlug": "Chuska_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "isotopic analysis",
+      "matchText": "isotopic analysis",
+      "wikiSlug": "Isotope_analysis",
+      "type": "concept"
+    },
+    {
+      "term": "ponderosa pine",
+      "matchText": "ponderosa pine",
+      "wikiSlug": "Pinus_ponderosa",
+      "type": "concept"
+    },
+    {
+      "term": "Douglas fir",
+      "matchText": "Douglas fir",
+      "wikiSlug": "Douglas_fir",
+      "type": "concept"
+    },
+    {
+      "term": "Fajada Butte",
+      "matchText": "Fajada Butte",
+      "wikiSlug": "Fajada_Butte",
+      "type": "place"
+    },
+    {
+      "term": "Sun Dagger",
+      "matchText": "Sun Dagger",
+      "wikiSlug": "Sun_Dagger",
+      "type": "concept"
+    },
+    {
+      "term": "lunar standstill",
+      "matchText": "lunar standstill cycle",
+      "wikiSlug": "Lunar_standstill",
+      "type": "concept"
+    },
+    {
+      "term": "summer solstice",
+      "matchText": "summer solstice",
+      "wikiSlug": "Summer_solstice",
+      "type": "concept"
+    },
+    {
+      "term": "winter solstice",
+      "matchText": "winter solstice",
+      "wikiSlug": "Winter_solstice",
+      "type": "concept"
+    },
+    {
+      "term": "equinox",
+      "matchText": "equinoxes",
+      "wikiSlug": "Equinox",
+      "type": "concept"
+    },
+    {
+      "term": "Crab Nebula",
+      "matchText": "Crab Nebula",
+      "wikiSlug": "Crab_Nebula",
+      "type": "concept"
+    },
+    {
+      "term": "Casa Rinconada",
+      "matchText": "Casa Rinconada",
+      "wikiSlug": "Casa_Rinconada",
+      "type": "place"
+    },
+    {
+      "term": "Chetro Ketl",
+      "matchText": "Chetro Ketl",
+      "wikiSlug": "Chetro_Ketl",
+      "type": "place"
+    },
+    {
+      "term": "petroglyph",
+      "matchText": "petroglyphs",
+      "wikiSlug": "Petroglyph",
+      "type": "concept"
+    },
+    {
+      "term": "New Mexico",
+      "matchText": "New Mexico",
+      "wikiSlug": "New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "supernova",
+      "matchText": "supernova",
+      "wikiSlug": "Supernova",
+      "type": "concept"
+    },
+    {
+      "term": "Chaco Canyon",
+      "matchText": "Chaco Canyon",
+      "wikiSlug": "Chaco_Canyon",
+      "type": "place"
+    },
+    {
+      "term": "Chacoan great house",
+      "matchText": "great house",
+      "wikiSlug": "Chaco_Canyon",
+      "type": "concept"
+    }
   ],
   "4": [
-    {"term": "Cerrillos Hills", "matchText": "Cerrillos Hills", "wikiSlug": "Cerrillos,_New_Mexico", "type": "place"},
-    {"term": "turquoise", "matchText": "turquoise", "wikiSlug": "Turquoise", "type": "concept"},
-    {"term": "scarlet macaw", "matchText": "Scarlet macaw", "wikiSlug": "Scarlet_macaw", "type": "concept"},
-    {"term": "copper bell", "matchText": "Copper bells", "wikiSlug": "Mesoamerican_metallurgy", "type": "concept"},
-    {"term": "lost-wax casting", "matchText": "lost-wax casting", "wikiSlug": "Lost-wax_casting", "type": "concept"},
-    {"term": "theobromine", "matchText": "theobromine", "wikiSlug": "Theobromine", "type": "concept"},
-    {"term": "cacao", "matchText": "cacao", "wikiSlug": "Theobroma_cacao", "type": "concept"},
-    {"term": "Casas Grandes", "matchText": "Casas Grandes", "wikiSlug": "Paquim%C3%A9", "type": "place"},
-    {"term": "Chihuahua", "matchText": "Chihuahua", "wikiSlug": "Chihuahua_(state)", "type": "place"},
-    {"term": "Sierra Madre", "matchText": "Sierra Madre", "wikiSlug": "Sierra_Madre_Occidental", "type": "place"},
-    {"term": "pochteca", "matchText": "pochteca", "wikiSlug": "Pochteca", "type": "concept"},
-    {"term": "Chimney Rock", "matchText": "Chimney Rock", "wikiSlug": "Chimney_Rock_National_Monument", "type": "place"},
-    {"term": "Santa Fe", "matchText": "Santa Fe", "wikiSlug": "Santa_Fe,_New_Mexico", "type": "place"},
-    {"term": "great kiva", "matchText": "great kivas", "wikiSlug": "Great_kiva", "type": "concept"},
-    {"term": "cylinder jar", "matchText": "cylinder jars", "wikiSlug": "Ancestral_Puebloans", "type": "concept"},
-    {"term": "Charles Di Peso", "matchText": "Charles Di Peso", "wikiSlug": "Charles_Di_Peso", "type": "people"},
-    {"term": "coprolite", "matchText": "coprolites", "wikiSlug": "Coprolite", "type": "concept"},
-    {"term": "West Virginia", "matchText": "West Virginia", "wikiSlug": "West_Virginia", "type": "place"},
-    {"term": "signal communication", "matchText": "signal communication", "wikiSlug": "Smoke_signal", "type": "concept"},
-    {"term": "antelope", "matchText": "antelope", "wikiSlug": "Pronghorn", "type": "concept"}
+    {
+      "term": "Cerrillos Hills",
+      "matchText": "Cerrillos Hills",
+      "wikiSlug": "Cerrillos,_New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "turquoise",
+      "matchText": "turquoise",
+      "wikiSlug": "Turquoise",
+      "type": "concept"
+    },
+    {
+      "term": "scarlet macaw",
+      "matchText": "Scarlet macaw",
+      "wikiSlug": "Scarlet_macaw",
+      "type": "concept"
+    },
+    {
+      "term": "copper bell",
+      "matchText": "Copper bells",
+      "wikiSlug": "Mesoamerican_metallurgy",
+      "type": "concept"
+    },
+    {
+      "term": "lost-wax casting",
+      "matchText": "lost-wax casting",
+      "wikiSlug": "Lost-wax_casting",
+      "type": "concept"
+    },
+    {
+      "term": "theobromine",
+      "matchText": "theobromine",
+      "wikiSlug": "Theobromine",
+      "type": "concept"
+    },
+    {
+      "term": "cacao",
+      "matchText": "cacao",
+      "wikiSlug": "Theobroma_cacao",
+      "type": "concept"
+    },
+    {
+      "term": "Casas Grandes",
+      "matchText": "Casas Grandes",
+      "wikiSlug": "Paquim%C3%A9",
+      "type": "place"
+    },
+    {
+      "term": "Chihuahua",
+      "matchText": "Chihuahua",
+      "wikiSlug": "Chihuahua_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Sierra Madre",
+      "matchText": "Sierra Madre",
+      "wikiSlug": "Sierra_Madre_Occidental",
+      "type": "place"
+    },
+    {
+      "term": "pochteca",
+      "matchText": "pochteca",
+      "wikiSlug": "Pochteca",
+      "type": "concept"
+    },
+    {
+      "term": "Chimney Rock",
+      "matchText": "Chimney Rock",
+      "wikiSlug": "Chimney_Rock_National_Monument",
+      "type": "place"
+    },
+    {
+      "term": "Santa Fe",
+      "matchText": "Santa Fe",
+      "wikiSlug": "Santa_Fe,_New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "great kiva",
+      "matchText": "great kivas",
+      "wikiSlug": "Great_kiva",
+      "type": "concept"
+    },
+    {
+      "term": "cylinder jar",
+      "matchText": "cylinder jars",
+      "wikiSlug": "Ancestral_Puebloans",
+      "type": "concept"
+    },
+    {
+      "term": "Charles Di Peso",
+      "matchText": "Charles Di Peso",
+      "wikiSlug": "Charles_Di_Peso",
+      "type": "people"
+    },
+    {
+      "term": "coprolite",
+      "matchText": "coprolites",
+      "wikiSlug": "Coprolite",
+      "type": "concept"
+    },
+    {
+      "term": "West Virginia",
+      "matchText": "West Virginia",
+      "wikiSlug": "West_Virginia",
+      "type": "place"
+    },
+    {
+      "term": "signal communication",
+      "matchText": "signal communication",
+      "wikiSlug": "Smoke_signal",
+      "type": "concept"
+    },
+    {
+      "term": "antelope",
+      "matchText": "antelope",
+      "wikiSlug": "Pronghorn",
+      "type": "concept"
+    }
   ],
   "5": [
-    {"term": "drought", "matchText": "drought", "wikiSlug": "Drought", "type": "concept"},
-    {"term": "arroyo", "matchText": "Arroyos", "wikiSlug": "Arroyo_(creek)", "type": "concept"},
-    {"term": "deforestation", "matchText": "deforestation", "wikiSlug": "Deforestation", "type": "concept"},
-    {"term": "erosion", "matchText": "erosion", "wikiSlug": "Erosion", "type": "concept"},
-    {"term": "Aztec Ruins", "matchText": "Aztec Ruins", "wikiSlug": "Aztec_Ruins_National_Monument", "type": "place"},
-    {"term": "Animas River", "matchText": "Animas River", "wikiSlug": "Animas_River", "type": "place"},
-    {"term": "Farmington", "matchText": "Farmington", "wikiSlug": "Farmington,_New_Mexico", "type": "place"},
-    {"term": "Jemez Mountains", "matchText": "Jemez", "wikiSlug": "Jemez_Mountains", "type": "place"},
-    {"term": "San Mateo Mountains", "matchText": "San Mateo", "wikiSlug": "San_Mateo_Mountains_(New_Mexico)", "type": "place"},
-    {"term": "water table", "matchText": "water table", "wikiSlug": "Water_table", "type": "concept"},
-    {"term": "soil depletion", "matchText": "soil depletion", "wikiSlug": "Soil_degradation", "type": "concept"},
-    {"term": "carrying capacity", "matchText": "carrying capacity", "wikiSlug": "Carrying_capacity", "type": "concept"},
-    {"term": "strontium", "matchText": "strontium", "wikiSlug": "Strontium", "type": "concept"},
-    {"term": "ecological capital", "matchText": "ecological capital", "wikiSlug": "Natural_capital", "type": "concept"},
-    {"term": "Earl Morris", "matchText": "Earl Morris", "wikiSlug": "Earl_H._Morris", "type": "people"},
-    {"term": "alkaline soil", "matchText": "alkaline soils", "wikiSlug": "Alkali_soil", "type": "concept"},
-    {"term": "Easter Island", "matchText": "Easter Island", "wikiSlug": "Easter_Island", "type": "place"},
-    {"term": "tree-ring dating", "matchText": "tree-ring data", "wikiSlug": "Dendrochronology", "type": "concept"},
-    {"term": "resource depletion", "matchText": "resource depletion", "wikiSlug": "Resource_depletion", "type": "concept"},
-    {"term": "Kayenta", "matchText": "Kayenta", "wikiSlug": "Kayenta,_Arizona", "type": "place"}
+    {
+      "term": "drought",
+      "matchText": "drought",
+      "wikiSlug": "Drought",
+      "type": "concept"
+    },
+    {
+      "term": "arroyo",
+      "matchText": "Arroyos",
+      "wikiSlug": "Arroyo_(creek)",
+      "type": "concept"
+    },
+    {
+      "term": "deforestation",
+      "matchText": "deforestation",
+      "wikiSlug": "Deforestation",
+      "type": "concept"
+    },
+    {
+      "term": "erosion",
+      "matchText": "erosion",
+      "wikiSlug": "Erosion",
+      "type": "concept"
+    },
+    {
+      "term": "Aztec Ruins",
+      "matchText": "Aztec Ruins",
+      "wikiSlug": "Aztec_Ruins_National_Monument",
+      "type": "place"
+    },
+    {
+      "term": "Animas River",
+      "matchText": "Animas River",
+      "wikiSlug": "Animas_River",
+      "type": "place"
+    },
+    {
+      "term": "Farmington",
+      "matchText": "Farmington",
+      "wikiSlug": "Farmington,_New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Jemez Mountains",
+      "matchText": "Jemez",
+      "wikiSlug": "Jemez_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "San Mateo Mountains",
+      "matchText": "San Mateo",
+      "wikiSlug": "San_Mateo_Mountains_(New_Mexico)",
+      "type": "place"
+    },
+    {
+      "term": "water table",
+      "matchText": "water table",
+      "wikiSlug": "Water_table",
+      "type": "concept"
+    },
+    {
+      "term": "soil depletion",
+      "matchText": "soil depletion",
+      "wikiSlug": "Soil_degradation",
+      "type": "concept"
+    },
+    {
+      "term": "carrying capacity",
+      "matchText": "carrying capacity",
+      "wikiSlug": "Carrying_capacity",
+      "type": "concept"
+    },
+    {
+      "term": "strontium",
+      "matchText": "strontium",
+      "wikiSlug": "Strontium",
+      "type": "concept"
+    },
+    {
+      "term": "ecological capital",
+      "matchText": "ecological capital",
+      "wikiSlug": "Natural_capital",
+      "type": "concept"
+    },
+    {
+      "term": "Earl Morris",
+      "matchText": "Earl Morris",
+      "wikiSlug": "Earl_H._Morris",
+      "type": "people"
+    },
+    {
+      "term": "alkaline soil",
+      "matchText": "alkaline soils",
+      "wikiSlug": "Alkali_soil",
+      "type": "concept"
+    },
+    {
+      "term": "Easter Island",
+      "matchText": "Easter Island",
+      "wikiSlug": "Easter_Island",
+      "type": "place"
+    },
+    {
+      "term": "tree-ring dating",
+      "matchText": "tree-ring data",
+      "wikiSlug": "Dendrochronology",
+      "type": "concept"
+    },
+    {
+      "term": "resource depletion",
+      "matchText": "resource depletion",
+      "wikiSlug": "Resource_depletion",
+      "type": "concept"
+    },
+    {
+      "term": "Kayenta",
+      "matchText": "Kayenta",
+      "wikiSlug": "Kayenta,_Arizona",
+      "type": "place"
+    },
+    {
+      "term": "Mesa Verde National Park",
+      "matchText": "Mesa Verde",
+      "wikiSlug": "Mesa_Verde_National_Park",
+      "type": "place"
+    }
   ],
   "6": [
-    {"term": "Mesa Verde", "matchText": "Mesa Verde", "wikiSlug": "Mesa_Verde_National_Park", "type": "place"},
-    {"term": "Cliff Palace", "matchText": "Cliff Palace", "wikiSlug": "Cliff_Palace", "type": "place"},
-    {"term": "Balcony House", "matchText": "Balcony House", "wikiSlug": "Balcony_House", "type": "place"},
-    {"term": "Canyon de Chelly", "matchText": "Canyon de Chelly", "wikiSlug": "Canyon_de_Chelly_National_Monument", "type": "place"},
-    {"term": "White House Ruin", "matchText": "White House Ruin", "wikiSlug": "White_House_Ruin", "type": "place"},
-    {"term": "Hovenweep", "matchText": "Hovenweep", "wikiSlug": "Hovenweep_National_Monument", "type": "place"},
-    {"term": "mano and metate", "matchText": "manos and metates", "wikiSlug": "Metate", "type": "concept"},
-    {"term": "piki bread", "matchText": "piki bread", "wikiSlug": "Piki_bread", "type": "concept"},
-    {"term": "Mesa Verde Black-on-White", "matchText": "Mesa Verde Black-on-White", "wikiSlug": "Ancestral_Pueblo_pottery", "type": "concept"},
-    {"term": "Kuaua", "matchText": "Kuaua", "wikiSlug": "Kuaua_Pueblo", "type": "place"},
-    {"term": "Pottery Mound", "matchText": "Pottery Mound", "wikiSlug": "Pottery_Mound", "type": "place"},
-    {"term": "thermal mass", "matchText": "thermal mass", "wikiSlug": "Thermal_mass", "type": "concept"},
-    {"term": "sandstone alcove", "matchText": "sandstone alcove", "wikiSlug": "Rock_shelter", "type": "concept"},
-    {"term": "Pueblo III", "matchText": "Pueblo III", "wikiSlug": "Pueblo_III_Era", "type": "concept"},
-    {"term": "Ute", "matchText": "Ute", "wikiSlug": "Ute_people", "type": "people"},
-    {"term": "Paiute", "matchText": "Paiute", "wikiSlug": "Paiute_people", "type": "people"},
-    {"term": "cosmological", "matchText": "cosmological meaning", "wikiSlug": "Cosmology", "type": "concept"},
-    {"term": "Colorado", "matchText": "Colorado", "wikiSlug": "Colorado", "type": "place"},
-    {"term": "Arizona", "matchText": "Arizona", "wikiSlug": "Arizona", "type": "place"},
-    {"term": "Utah", "matchText": "Utah", "wikiSlug": "Utah", "type": "place"}
+    {
+      "term": "Mesa Verde",
+      "matchText": "Mesa Verde",
+      "wikiSlug": "Mesa_Verde_National_Park",
+      "type": "place"
+    },
+    {
+      "term": "Cliff Palace",
+      "matchText": "Cliff Palace",
+      "wikiSlug": "Cliff_Palace",
+      "type": "place"
+    },
+    {
+      "term": "Balcony House",
+      "matchText": "Balcony House",
+      "wikiSlug": "Balcony_House",
+      "type": "place"
+    },
+    {
+      "term": "Canyon de Chelly",
+      "matchText": "Canyon de Chelly",
+      "wikiSlug": "Canyon_de_Chelly_National_Monument",
+      "type": "place"
+    },
+    {
+      "term": "White House Ruin",
+      "matchText": "White House Ruin",
+      "wikiSlug": "White_House_Ruin",
+      "type": "place"
+    },
+    {
+      "term": "Hovenweep",
+      "matchText": "Hovenweep",
+      "wikiSlug": "Hovenweep_National_Monument",
+      "type": "place"
+    },
+    {
+      "term": "mano and metate",
+      "matchText": "manos and metates",
+      "wikiSlug": "Metate",
+      "type": "concept"
+    },
+    {
+      "term": "piki bread",
+      "matchText": "piki bread",
+      "wikiSlug": "Piki_bread",
+      "type": "concept"
+    },
+    {
+      "term": "Mesa Verde Black-on-White",
+      "matchText": "Mesa Verde Black-on-White",
+      "wikiSlug": "Ancestral_Pueblo_pottery",
+      "type": "concept"
+    },
+    {
+      "term": "Kuaua",
+      "matchText": "Kuaua",
+      "wikiSlug": "Kuaua_Pueblo",
+      "type": "place"
+    },
+    {
+      "term": "Pottery Mound",
+      "matchText": "Pottery Mound",
+      "wikiSlug": "Pottery_Mound",
+      "type": "place"
+    },
+    {
+      "term": "thermal mass",
+      "matchText": "thermal mass",
+      "wikiSlug": "Thermal_mass",
+      "type": "concept"
+    },
+    {
+      "term": "sandstone alcove",
+      "matchText": "sandstone alcove",
+      "wikiSlug": "Rock_shelter",
+      "type": "concept"
+    },
+    {
+      "term": "Pueblo III",
+      "matchText": "Pueblo III",
+      "wikiSlug": "Pueblo_III_Era",
+      "type": "concept"
+    },
+    {
+      "term": "Ute",
+      "matchText": "Ute",
+      "wikiSlug": "Ute_people",
+      "type": "people"
+    },
+    {
+      "term": "Paiute",
+      "matchText": "Paiute",
+      "wikiSlug": "Paiute_people",
+      "type": "people"
+    },
+    {
+      "term": "cosmological",
+      "matchText": "cosmological meaning",
+      "wikiSlug": "Cosmology",
+      "type": "concept"
+    },
+    {
+      "term": "Colorado",
+      "matchText": "Colorado",
+      "wikiSlug": "Colorado",
+      "type": "place"
+    },
+    {
+      "term": "Arizona",
+      "matchText": "Arizona",
+      "wikiSlug": "Arizona",
+      "type": "place"
+    },
+    {
+      "term": "Utah",
+      "matchText": "Utah",
+      "wikiSlug": "Utah",
+      "type": "place"
+    }
   ],
   "7": [
-    {"term": "Great Drought", "matchText": "Great Drought", "wikiSlug": "Ancestral_Puebloans", "type": "concept"},
-    {"term": "tree-ring dating", "matchText": "dendrochronology", "wikiSlug": "Dendrochronology", "type": "concept"},
-    {"term": "Sand Canyon Pueblo", "matchText": "Sand Canyon Pueblo", "wikiSlug": "Sand_Canyon_Pueblo", "type": "place"},
-    {"term": "kachina", "matchText": "kachina", "wikiSlug": "Kachina", "type": "concept"},
-    {"term": "Christy Turner", "matchText": "Christy Turner", "wikiSlug": "Christy_G._Turner_II", "type": "people"},
-    {"term": "cannibalism", "matchText": "cannibalism", "wikiSlug": "Cannibalism", "type": "concept"},
-    {"term": "witchcraft", "matchText": "witchcraft", "wikiSlug": "Witchcraft", "type": "concept"},
-    {"term": "ethnography", "matchText": "ethnography", "wikiSlug": "Ethnography", "type": "concept"},
-    {"term": "coprolite", "matchText": "coprolites", "wikiSlug": "Coprolite", "type": "concept"},
-    {"term": "post-mortem processing", "matchText": "post-mortem processing", "wikiSlug": "Taphonomy", "type": "concept"},
-    {"term": "cranial fracture", "matchText": "cranial fractures", "wikiSlug": "Skull_fracture", "type": "concept"},
-    {"term": "Kayenta region", "matchText": "Kayenta region", "wikiSlug": "Kayenta,_Arizona", "type": "place"},
-    {"term": "Black Mesa", "matchText": "Black Mesa", "wikiSlug": "Black_Mesa_(Arizona)", "type": "place"},
-    {"term": "rock art motifs", "matchText": "rock art motifs", "wikiSlug": "Rock_art", "type": "concept"},
-    {"term": "social innovation", "matchText": "social innovation", "wikiSlug": "Social_innovation", "type": "concept"},
-    {"term": "carrying capacity", "matchText": "carrying capacity", "wikiSlug": "Carrying_capacity", "type": "concept"},
-    {"term": "aggregation", "matchText": "aggregation", "wikiSlug": "Settlement_pattern", "type": "concept"},
-    {"term": "Arizona State University", "matchText": "Arizona State University", "wikiSlug": "Arizona_State_University", "type": "place"},
-    {"term": "projectile point", "matchText": "projectile points", "wikiSlug": "Projectile_point", "type": "concept"}
+    {
+      "term": "Great Drought",
+      "matchText": "Great Drought",
+      "wikiSlug": "Ancestral_Puebloans",
+      "type": "concept"
+    },
+    {
+      "term": "tree-ring dating",
+      "matchText": "dendrochronology",
+      "wikiSlug": "Dendrochronology",
+      "type": "concept"
+    },
+    {
+      "term": "Sand Canyon Pueblo",
+      "matchText": "Sand Canyon Pueblo",
+      "wikiSlug": "Sand_Canyon_Pueblo",
+      "type": "place"
+    },
+    {
+      "term": "kachina",
+      "matchText": "kachina",
+      "wikiSlug": "Kachina",
+      "type": "concept"
+    },
+    {
+      "term": "Christy Turner",
+      "matchText": "Christy Turner",
+      "wikiSlug": "Christy_G._Turner_II",
+      "type": "people"
+    },
+    {
+      "term": "cannibalism",
+      "matchText": "cannibalism",
+      "wikiSlug": "Cannibalism",
+      "type": "concept"
+    },
+    {
+      "term": "witchcraft",
+      "matchText": "witchcraft",
+      "wikiSlug": "Witchcraft",
+      "type": "concept"
+    },
+    {
+      "term": "ethnography",
+      "matchText": "ethnography",
+      "wikiSlug": "Ethnography",
+      "type": "concept"
+    },
+    {
+      "term": "coprolite",
+      "matchText": "coprolites",
+      "wikiSlug": "Coprolite",
+      "type": "concept"
+    },
+    {
+      "term": "post-mortem processing",
+      "matchText": "post-mortem processing",
+      "wikiSlug": "Taphonomy",
+      "type": "concept"
+    },
+    {
+      "term": "cranial fracture",
+      "matchText": "cranial fractures",
+      "wikiSlug": "Skull_fracture",
+      "type": "concept"
+    },
+    {
+      "term": "Kayenta region",
+      "matchText": "Kayenta region",
+      "wikiSlug": "Kayenta,_Arizona",
+      "type": "place"
+    },
+    {
+      "term": "Black Mesa",
+      "matchText": "Black Mesa",
+      "wikiSlug": "Black_Mesa_(Arizona)",
+      "type": "place"
+    },
+    {
+      "term": "rock art motifs",
+      "matchText": "rock art motifs",
+      "wikiSlug": "Rock_art",
+      "type": "concept"
+    },
+    {
+      "term": "social innovation",
+      "matchText": "social innovation",
+      "wikiSlug": "Social_innovation",
+      "type": "concept"
+    },
+    {
+      "term": "carrying capacity",
+      "matchText": "carrying capacity",
+      "wikiSlug": "Carrying_capacity",
+      "type": "concept"
+    },
+    {
+      "term": "aggregation",
+      "matchText": "aggregation",
+      "wikiSlug": "Settlement_pattern",
+      "type": "concept"
+    },
+    {
+      "term": "Arizona State University",
+      "matchText": "Arizona State University",
+      "wikiSlug": "Arizona_State_University",
+      "type": "place"
+    },
+    {
+      "term": "projectile point",
+      "matchText": "projectile points",
+      "wikiSlug": "Projectile_point",
+      "type": "concept"
+    }
   ],
   "8": [
-    {"term": "Rio Grande", "matchText": "Rio Grande", "wikiSlug": "Rio_Grande", "type": "place"},
-    {"term": "Taos Pueblo", "matchText": "Taos", "wikiSlug": "Taos_Pueblo", "type": "place"},
-    {"term": "Santa Clara Pueblo", "matchText": "Santa Clara", "wikiSlug": "Santa_Clara_Pueblo,_New_Mexico", "type": "place"},
-    {"term": "San Ildefonso Pueblo", "matchText": "San Ildefonso", "wikiSlug": "San_Ildefonso_Pueblo,_New_Mexico", "type": "place"},
-    {"term": "Pecos Pueblo", "matchText": "Pecos Pueblo", "wikiSlug": "Pecos_National_Historical_Park", "type": "place"},
-    {"term": "Oraibi", "matchText": "Oraibi", "wikiSlug": "Oraibi,_Arizona", "type": "place"},
-    {"term": "Seven Cities of Cibola", "matchText": "Seven Cities of Cibola", "wikiSlug": "Seven_Cities_of_Gold", "type": "concept"},
-    {"term": "Coronado", "matchText": "Coronado", "wikiSlug": "Francisco_V%C3%A1squez_de_Coronado", "type": "people"},
-    {"term": "A.E. Douglass", "matchText": "A.E. Douglass", "wikiSlug": "Andrew_Ellicott_Douglass", "type": "people"},
-    {"term": "stratigraphy", "matchText": "stratigraphy", "wikiSlug": "Stratigraphy_(archaeology)", "type": "concept"},
-    {"term": "Alfred V. Kidder", "matchText": "Alfred V. Kidder", "wikiSlug": "Alfred_V._Kidder", "type": "people"},
-    {"term": "Pecos Classification", "matchText": "Pecos Classification", "wikiSlug": "Pecos_Classification", "type": "concept"},
-    {"term": "Richard Wetherill", "matchText": "Richard Wetherill", "wikiSlug": "Richard_Wetherill", "type": "people"},
-    {"term": "Charlie Mason", "matchText": "Charlie Mason", "wikiSlug": "Cliff_Palace#Discovery", "type": "people"},
-    {"term": "Theodore Roosevelt", "matchText": "Theodore Roosevelt", "wikiSlug": "Theodore_Roosevelt", "type": "people"},
-    {"term": "Antiquities Act", "matchText": "Antiquities Act", "wikiSlug": "Antiquities_Act", "type": "concept"},
-    {"term": "NAGPRA", "matchText": "NAGPRA", "wikiSlug": "Native_American_Graves_Protection_and_Repatriation_Act", "type": "concept"},
-    {"term": "Acoma", "matchText": "Acoma", "wikiSlug": "Acoma_Pueblo", "type": "place"},
-    {"term": "Laguna", "matchText": "Laguna", "wikiSlug": "Laguna_Pueblo", "type": "place"},
-    {"term": "boarding school era", "matchText": "boarding school era", "wikiSlug": "American_Indian_boarding_schools", "type": "concept"},
-    {"term": "Tewa", "matchText": "Tewa", "wikiSlug": "Tewa_peoples", "type": "people"},
-    {"term": "adobe", "matchText": "adobe", "wikiSlug": "Adobe", "type": "concept"},
-    {"term": "Cochiti Pueblo", "matchText": "Cochiti", "wikiSlug": "Cochiti,_New_Mexico", "type": "place"},
-    {"term": "repatriation", "matchText": "Repatriation", "wikiSlug": "Repatriation_(cultural_heritage)", "type": "concept"},
-    {"term": "Isleta Pueblo", "matchText": "Isleta", "wikiSlug": "Isleta_Pueblo,_New_Mexico", "type": "place"},
-    {"term": "Bears Ears", "matchText": "Bears Ears", "wikiSlug": "Bears_Ears_National_Monument", "type": "place"}
+    {
+      "term": "Rio Grande",
+      "matchText": "Rio Grande",
+      "wikiSlug": "Rio_Grande",
+      "type": "place"
+    },
+    {
+      "term": "Taos Pueblo",
+      "matchText": "Taos",
+      "wikiSlug": "Taos_Pueblo",
+      "type": "place"
+    },
+    {
+      "term": "Santa Clara Pueblo",
+      "matchText": "Santa Clara",
+      "wikiSlug": "Santa_Clara_Pueblo,_New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "San Ildefonso Pueblo",
+      "matchText": "San Ildefonso",
+      "wikiSlug": "San_Ildefonso_Pueblo,_New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Pecos Pueblo",
+      "matchText": "Pecos Pueblo",
+      "wikiSlug": "Pecos_National_Historical_Park",
+      "type": "place"
+    },
+    {
+      "term": "Oraibi",
+      "matchText": "Oraibi",
+      "wikiSlug": "Oraibi,_Arizona",
+      "type": "place"
+    },
+    {
+      "term": "Seven Cities of Cibola",
+      "matchText": "Seven Cities of Cibola",
+      "wikiSlug": "Seven_Cities_of_Gold",
+      "type": "concept"
+    },
+    {
+      "term": "Coronado",
+      "matchText": "Coronado",
+      "wikiSlug": "Francisco_V%C3%A1squez_de_Coronado",
+      "type": "people"
+    },
+    {
+      "term": "A.E. Douglass",
+      "matchText": "A.E. Douglass",
+      "wikiSlug": "Andrew_Ellicott_Douglass",
+      "type": "people"
+    },
+    {
+      "term": "stratigraphy",
+      "matchText": "stratigraphy",
+      "wikiSlug": "Stratigraphy_(archaeology)",
+      "type": "concept"
+    },
+    {
+      "term": "Alfred V. Kidder",
+      "matchText": "Alfred V. Kidder",
+      "wikiSlug": "Alfred_V._Kidder",
+      "type": "people"
+    },
+    {
+      "term": "Pecos Classification",
+      "matchText": "Pecos Classification",
+      "wikiSlug": "Pecos_Classification",
+      "type": "concept"
+    },
+    {
+      "term": "Richard Wetherill",
+      "matchText": "Richard Wetherill",
+      "wikiSlug": "Richard_Wetherill",
+      "type": "people"
+    },
+    {
+      "term": "Charlie Mason",
+      "matchText": "Charlie Mason",
+      "wikiSlug": "Cliff_Palace#Discovery",
+      "type": "people"
+    },
+    {
+      "term": "Theodore Roosevelt",
+      "matchText": "Theodore Roosevelt",
+      "wikiSlug": "Theodore_Roosevelt",
+      "type": "people"
+    },
+    {
+      "term": "Antiquities Act",
+      "matchText": "Antiquities Act",
+      "wikiSlug": "Antiquities_Act",
+      "type": "concept"
+    },
+    {
+      "term": "NAGPRA",
+      "matchText": "NAGPRA",
+      "wikiSlug": "Native_American_Graves_Protection_and_Repatriation_Act",
+      "type": "concept"
+    },
+    {
+      "term": "Acoma",
+      "matchText": "Acoma",
+      "wikiSlug": "Acoma_Pueblo",
+      "type": "place"
+    },
+    {
+      "term": "Laguna",
+      "matchText": "Laguna",
+      "wikiSlug": "Laguna_Pueblo",
+      "type": "place"
+    },
+    {
+      "term": "boarding school era",
+      "matchText": "boarding school era",
+      "wikiSlug": "American_Indian_boarding_schools",
+      "type": "concept"
+    },
+    {
+      "term": "Tewa",
+      "matchText": "Tewa",
+      "wikiSlug": "Tewa_peoples",
+      "type": "people"
+    },
+    {
+      "term": "adobe",
+      "matchText": "adobe",
+      "wikiSlug": "Adobe",
+      "type": "concept"
+    },
+    {
+      "term": "Cochiti Pueblo",
+      "matchText": "Cochiti",
+      "wikiSlug": "Cochiti,_New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "repatriation",
+      "matchText": "Repatriation",
+      "wikiSlug": "Repatriation_(cultural_heritage)",
+      "type": "concept"
+    },
+    {
+      "term": "Isleta Pueblo",
+      "matchText": "Isleta",
+      "wikiSlug": "Isleta_Pueblo,_New_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Bears Ears",
+      "matchText": "Bears Ears",
+      "wikiSlug": "Bears_Ears_National_Monument",
+      "type": "place"
+    },
+    {
+      "term": "Dendrochronology",
+      "matchText": "dendrochronology",
+      "wikiSlug": "Dendrochronology",
+      "type": "concept"
+    }
   ]
 }

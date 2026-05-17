@@ -5,6 +5,18 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 1,
       "blurb": "The Early Andean civilizations built monumental architecture in a desert even drier than the Four Corners, though with access to river water descending from the Andes and the rich marine resources of the Pacific coast. Both the Ancestral Puebloans and the ancient Andeans demonstrate that aridity does not prevent civilization — it shapes it."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The Ancestral Puebloans built complexity in an arid landscape — a North American parallel to the Andes' own desert-and-altitude civilization."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 1,
+      "blurb": "Like the early Maya, they show maize farming slowly converting foragers into monument-builders."
     }
   ],
   "2": [
@@ -13,6 +25,12 @@
       "targetTl": "olmec-civilization",
       "targetChapter": 1,
       "blurb": "The Three Sisters agricultural triad — maize, beans, and squash — were all domesticated in the highlands and lowlands of Mesoamerica over millennia. The Olmec civilization was the first major culture to build on this agricultural base, and the crops they cultivated eventually traveled northward through trade networks to reach the American Southwest."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 1,
+      "blurb": "The pithouse-to-pueblo transition is the same village-deepening process that, far south, produced the Olmec."
     }
   ],
   "4": [
@@ -33,6 +51,18 @@
       "targetTl": "maya-civilization",
       "targetChapter": 5,
       "blurb": "The Maya consumed cacao in elaborate ritual contexts, drinking chocolate from tall vessels during royal ceremonies and feasts. The cacao residue found in Chacoan cylinder jars proves that this Mesoamerican ritual beverage traveled over 1,200 miles north along trade networks linking the Puebloan and Maya worlds."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 3,
+      "blurb": "The Chaco world's planned ritual landscape and road network is a smaller, drier echo of Teotihuacan's sacred urbanism."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Chaco's reliance on a fragile maize-and-rain system made it as vulnerable to drought as the Classic Maya were."
     }
   ],
   "5": [
@@ -53,6 +83,24 @@
       "targetTl": "polynesian-voyagers",
       "targetChapter": 6,
       "blurb": "Easter Island's ecological crisis saw deforestation eliminate the resources needed to sustain the island's monumental building tradition. The pattern parallels Chaco's timber exhaustion: in both cases, the construction that made the civilization magnificent was consuming the environmental foundation that made it habitable."
+    },
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 6,
+      "blurb": "Chaco's fall — overextension, drought, possible violence — prefigures the later unravelling of the Mississippian chiefdoms."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 8,
+      "blurb": "The Puebloans did not vanish — like the Maya, they reorganized and persist as living peoples, a continuity the 'mysterious collapse' framing erases."
+    },
+    {
+      "matchText": "Polynesian Voyagers",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 6,
+      "blurb": "Their dispersal to defensible cliff sites is the kind of adaptive relocation isolated peoples make under stress — a land-bound cousin of the Pacific migrations."
     }
   ],
   "7": [
@@ -61,6 +109,20 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 6,
       "blurb": "The Chavin Horizon saw a unifying religious movement spread across disparate Andean communities through shared ceremony and pilgrimage, binding strangers together through common ritual rather than political coercion. The emerging kachina belief system may have served an analogous function for migrating Puebloan communities — religion as social glue during a period when older structures of authority had broken down."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 6,
+      "blurb": "The Great Drought that broke the Puebloan world is the same class of climate shock that ended Andean horizons — environment as the ultimate constraint."
+    }
+  ],
+  "3": [
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 4,
+      "blurb": "Chaco's great houses and the Mississippian mound centers are the two great monumental traditions of pre-contact North America, rising in parallel."
     }
   ]
 }

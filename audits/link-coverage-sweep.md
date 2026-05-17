@@ -109,7 +109,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | umayyad-caliphate | 8 | **DONE** | 81e499d |
 | islamic-golden-age | 10 | **DONE** | 03b5beb |
 | polynesian-voyagers | 8 | **DONE** Standalone civs COMPLETE | 4bc4fc2 |
-| al-andalus | 18 | **DONE** | +this |
+| al-andalus | 18 | **DONE** | 58a1ebb |
+| ancestral-puebloans | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
