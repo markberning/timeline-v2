@@ -15,6 +15,14 @@
 | G9 ship-check | `scripts/ship-check.mjs` (`npm run ship:check <tl>`) gates hasContent | 94aa637 |
 | G10 event-popup coherence | `scripts/audit-events.mjs` (2-stage: text every event + vision imaged); CLAUDE.md 10b; ship-check artifact | a40b979 |
 | G11 cross-link coherence | Part A: lint-links ERRORs unresolvable targetTl/targetChapter (was a silent parser drop). Part B: `scripts/audit-crosslinks.mjs` (text: blurb↔target↔tapped-subject); CLAUDE.md 10c; ship-check artifact | f48fc3d |
+| G12 glossary coherence | `scripts/audit-glossary.mjs` (text-only — sheet has no image; catches alive-but-wrong slug: disambig / same-name / over-broad); CLAUDE.md 10d; ship-check artifact | fbae628 |
+
+**Reader-surface coherence inventory (all interactive surfaces now gated):**
+event popup → G10 · cross-link sheet → G11 · glossary sheet → G12 · chapter
+map → G4 · lightbox = the map (G4). Narrative prose + chapter flow → 5-persona
+audit + G6. The only content surface NOT model-coherence-checked is **summary
+bullets** (do they faithfully represent the chapter) — currently covered only
+by the 5-persona narrative audit; a G13 is possible if wanted.
 
 **Two large pre-existing-debt findings surfaced during the rewrite (NOT pipeline
 defects; separate remediation, user's call — they do not block the 17):**
