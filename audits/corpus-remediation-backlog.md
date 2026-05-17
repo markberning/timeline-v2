@@ -81,14 +81,17 @@ reader exposure before spending money.**
   pages as valid (lines 236–257) — it only flags API-`missing` titles. So
   these are *genuinely wrong titles*, NOT decode/redirect false alarms; no
   cheap blanket transform recovers them. Recovery = find the right article per
-  slug. **Recommended 2-phase economical remediation (awaiting go-ahead):**
+  slug. **Recommended 2-phase remediation — no separate spend (see
+  `memory/feedback_cost_framing`: the "$$$ billable" tier is for vision passes,
+  not text slug triage):**
   - *Phase 1 (free, deterministic):* Wikipedia opensearch/search-API resolver
     per slug; auto-apply only on a strict similarity gate (recovers the
     mechanical majority — wrong disambiguator, spelling, `(cannon_founder)`-type
     parentheticals), each fix re-validated live so no new dead links.
-  - *Phase 2 (billable, measured):* the post-Phase-1 residue (genuinely
-    ambiguous / no-article → model-pick-or-drop). Decide go/no-go on the
-    residual count, not blind on 543.
+  - *Phase 2 (inline triage, NOT a billable pass):* the post-Phase-1 residue
+    (genuinely ambiguous / no-article: pick the right title or drop the link),
+    handled in-session as normal work. The only real knobs are Phase-1
+    auto-apply strictness and all-at-once vs. chain-prioritized.
 
 **Next economical step:** decide #1 remediation approach (see options put to
 user); then #11 build/data audit or #13 image liveness (both free).
