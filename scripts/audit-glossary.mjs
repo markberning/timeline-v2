@@ -102,9 +102,47 @@ for (const e of entries) {
   if (w) verdicts.set(e.term, { verdict: 'PASS', reason: `waived: ${w}` })
 }
 const pending = entries.filter((e) => !isDef(e) && !slugWaivers.has(e.term.toLowerCase()))
+
+// Deterministic disambiguation prefilter (free — no Gemini). A glossary slug
+// that resolves to a Wikipedia *disambiguation* page is ALWAYS wrong for a
+// reader tap; the REST summary API reports `type:"disambiguation"` for free,
+// and the API is strictly more reliable at this one call than the model.
+// FAIL such entries deterministically and drop them from the model batch.
+// FAIL-OPEN: only a definitive disambiguation type triggers this; any fetch
+// error / non-200 / other type falls through to the model unchanged, so
+// correctness is identical — this only removes provably-wasted Gemini calls.
+// (lint-links/G2 already ERRORs dead/empty slugs upstream, so a 404 here is
+// rare; treat it as model-bound, not a deterministic verdict.)
+async function isDisambig(slug) {
+  try {
+    const u = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}`
+    const ac = new AbortController()
+    const t = setTimeout(() => ac.abort(), 8000)
+    const r = await fetch(u, { signal: ac.signal, headers: { 'accept': 'application/json' } })
+    clearTimeout(t)
+    if (!r.ok) return false
+    const j = await r.json()
+    return j?.type === 'disambiguation'
+  } catch { return false }
+}
+let prefiltered = 0
+const POOL = 6
+for (let i = 0; i < pending.length; i += POOL) {
+  const chunk = pending.slice(i, i + POOL)
+  const flags = await Promise.all(chunk.map((e) => isDisambig(e.wikiSlug)))
+  chunk.forEach((e, k) => {
+    if (flags[k]) {
+      verdicts.set(e.term, { verdict: 'FAIL', reason: 'disambiguation page (deterministic prefilter — no model call)' })
+      prefiltered++
+    }
+  })
+}
+const modelPending = pending.filter((e) => !verdicts.has(e.term))
+if (!asJson && prefiltered) console.log(`  (prefilter: ${prefiltered} disambiguation FAIL caught free; ${modelPending.length} → model)`)
+
 const BATCH = 12
-for (let i = 0; i < pending.length; i += BATCH) {
-  const batch = pending.slice(i, i + BATCH)
+for (let i = 0; i < modelPending.length; i += BATCH) {
+  const batch = modelPending.slice(i, i + BATCH)
   const prompt = `Each item is a glossary entry in a history reading app: the reader taps "term" and gets the Wikipedia page "wikiSlug" with intro "wikiExtract". Decide whether the reader lands on a CORRECT, ON-SUBJECT page that helps explain the term.
 
 PASS if the page (or extract) explains the term OR is a broader parent topic that legitimately covers it — same civilization, same era, same thread of history. Many real glossary terms only have a broad parent article on English Wikipedia; landing on the correct parent is fine. Empty wikiExtract is PASS as long as the wikiSlug is plausibly the right page.
