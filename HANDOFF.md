@@ -67,6 +67,7 @@ The QA model gates (G4/G10/G11/G12) are billable; default model `gemini-3-pro`, 
 
 ## Still owed (separate, low-urgency)
 
+- **Corpus remediation backlog** — `audits/corpus-remediation-backlog.md` is the umbrella tracker: the existing 100 civs were never run through the new G3/G6/G10/G11/G12 gates (grandfathered). Includes dead-slug sweep, ~2211 dropped-link triage, 559 thin-density chapters, retro coherence passes. Deferred / separate from the 17; several items billable. Subsumes the next two bullets.
 - **Term-precision cross-civ sweep** — `audits/term-precision-sweep.md` (Scandinavia≠Nordic class). Do only if asked, after the 17.
 - **khmer/dai-viet backward residuals** into non-majapahit TLs (`audits/khmer-empire.audit.md` Part 2, `audits/dai-viet.audit.md` Part 2) — fold into the next Persona-E pass whose reference set overlaps.
 - **Two pipeline-debt findings** (existing 100, not blocking the 17): ~2211 parser-dropped links (mostly benign overlap) + 559 sub-10-density chapters grandfathered in `audits/density-baseline.json`. See `audits/pipeline-audit.md`.
