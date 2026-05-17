@@ -1,29 +1,134 @@
 {
   "1": [
-    {"matchText": "the original Industrial Revolution", "targetTl": "industrial-revolution", "targetChapter": 1, "blurb": "Marx worked out his system in the Manchester of the 1840s, watching the factory floors and slums the cotton machines had created. The Industrial Revolution narrative is the story of the crisis that produced Marxism in the first place: cheap coal next to expensive labour, the children in the mill, and the new industrial poverty that made a theory of class struggle plausible."},
-    {"matchText": "the direct continuation of a Tsarist machinery", "targetTl": "russian-empire", "targetChapter": 12, "blurb": "The Russian Empire narrative traces the political-police file in a straight line from Peter the Great's informers through Nicholas I's Third Section to the late-imperial Okhrana. The Bolsheviks did not invent the secret state; they inherited a four-century apparatus of surveillance and Siberian exile and then expanded it past anything the tsars had dared."},
-    {"matchText": "later than almost anywhere in Europe", "targetTl": "russian-empire", "targetChapter": 14, "blurb": "Alexander II freed roughly twenty-three million serfs in the Emancipation of 1861, saddling them with decades of redemption payments for land they thought was already theirs. The Russian Empire narrative shows how that half-finished freedom left a land-hungry peasantry whose grievance the Bolsheviks would ride to power and then, in collectivization, betray."}
+    {
+      "matchText": "the original Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "Marx worked out his system in the Manchester of the 1840s, watching the factory floors and slums the cotton machines had created. The Industrial Revolution narrative is the story of the crisis that produced Marxism in the first place: cheap coal next to expensive labour, the children in the mill, and the new industrial poverty that made a theory of class struggle plausible."
+    },
+    {
+      "matchText": "the direct continuation of a Tsarist machinery",
+      "targetTl": "russian-empire",
+      "targetChapter": 12,
+      "blurb": "The Russian Empire narrative traces the political-police file in a straight line from Peter the Great's informers through Nicholas I's Third Section to the late-imperial Okhrana. The Bolsheviks did not invent the secret state; they inherited a four-century apparatus of surveillance and Siberian exile and then expanded it past anything the tsars had dared."
+    },
+    {
+      "matchText": "later than almost anywhere in Europe",
+      "targetTl": "russian-empire",
+      "targetChapter": 14,
+      "blurb": "Alexander II freed roughly twenty-three million serfs in the Emancipation of 1861, saddling them with decades of redemption payments for land they thought was already theirs. The Russian Empire narrative shows how that half-finished freedom left a land-hungry peasantry whose grievance the Bolsheviks would ride to power and then, in collectivization, betray."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 20,
+      "blurb": "The Soviet Union is the Russian Empire's explosion and reconstruction — the contradictions of the old autocracy detonating into a new kind of state."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 19,
+      "blurb": "Bolshevism was the Enlightenment project at its most extreme — reason and history weaponized to rebuild society from blueprints."
+    }
   ],
   "2": [
-    {"matchText": "told in full in the Russian Empire narrative", "targetTl": "russian-empire", "targetChapter": 20, "blurb": "The Russian Empire narrative ends where this one begins: World War I bleeding the army white, bread riots in Petrograd, and Nicholas II abdicating in a train carriage in March 1917. The fuse had reached the powder; the three-hundred-year Romanov state simply fell, and nobody fully controlled what came next."}
+    {
+      "matchText": "told in full in the Russian Empire narrative",
+      "targetTl": "russian-empire",
+      "targetChapter": 20,
+      "blurb": "The Russian Empire narrative ends where this one begins: World War I bleeding the army white, bread riots in Petrograd, and Nicholas II abdicating in a train carriage in March 1917. The fuse had reached the powder; the three-hundred-year Romanov state simply fell, and nobody fully controlled what came next."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 20,
+      "blurb": "1917 is the fuse the imperial narrative ended on reaching the powder — the Romanov collapse the Soviet story grows from."
+    }
   ],
   "6": [
-    {"matchText": "the Irish Famine", "targetTl": "industrial-revolution", "targetChapter": 10, "blurb": "A century before Ukraine, British officials invoking the political economy of laissez-faire restrained relief and allowed grain to keep leaving Ireland while roughly a million people starved inside the United Kingdom. The Industrial Revolution narrative covers it as the era's monstrous proof that letting doctrine override visible mass starvation was not unique to communism."}
+    {
+      "matchText": "the Irish Famine",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 10,
+      "blurb": "A century before Ukraine, British officials invoking the political economy of laissez-faire restrained relief and allowed grain to keep leaving Ireland while roughly a million people starved inside the United Kingdom. The Industrial Revolution narrative covers it as the era's monstrous proof that letting doctrine override visible mass starvation was not unique to communism."
+    }
   ],
   "7": [
-    {"matchText": "Meiji Japan (the modern-Japan narrative) industrialized fast by squeezing its own peasantry with the Matsukata land tax", "targetTl": "meiji-japan", "targetChapter": 4, "blurb": "Japan ran the fastest industrial catch-up the world had yet seen, roughly thirty-eight years, by squeezing its own peasants with the Matsukata land tax and driving their daughters into the Tomioka silk mills. The Meiji narrative is the other great state-led crash industrialization template; the Soviet plan demolished even its speed record, but at a famine-and-camp cost Japan never deliberately chose."},
-    {"matchText": "newly independent India under Nehru, looking for a way to industrialize fast", "targetTl": "modern-india", "targetChapter": 6, "blurb": "Nehru's republic consciously modeled its First Five-Year Plan on Soviet planning, took the commanding heights of heavy industry into the public sector, and built showpiece steel mills like Bhilai with direct Soviet collaboration. The modern-India narrative shows the Soviet furnace being watched and copied across the decolonizing world as proof a poor country could industrialize on its own terms."}
+    {
+      "matchText": "Meiji Japan (the modern-Japan narrative) industrialized fast by squeezing its own peasantry with the Matsukata land tax",
+      "targetTl": "meiji-japan",
+      "targetChapter": 4,
+      "blurb": "Japan ran the fastest industrial catch-up the world had yet seen, roughly thirty-eight years, by squeezing its own peasants with the Matsukata land tax and driving their daughters into the Tomioka silk mills. The Meiji narrative is the other great state-led crash industrialization template; the Soviet plan demolished even its speed record, but at a famine-and-camp cost Japan never deliberately chose."
+    },
+    {
+      "matchText": "newly independent India under Nehru, looking for a way to industrialize fast",
+      "targetTl": "modern-india",
+      "targetChapter": 6,
+      "blurb": "Nehru's republic consciously modeled its First Five-Year Plan on Soviet planning, took the commanding heights of heavy industry into the public sector, and built showpiece steel mills like Bhilai with direct Soviet collaboration. The modern-India narrative shows the Soviet furnace being watched and copied across the decolonizing world as proof a poor country could industrialize on its own terms."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 18,
+      "blurb": "Stalin's 'furnace' compressed Britain's century of industrialization into a decade of coerced, state-driven heavy industry — the dark mirror of the developmental state."
+    }
   ],
   "13": [
-    {"matchText": "newly independent India under Nehru refused to join either camp", "targetTl": "modern-india", "targetChapter": 6, "blurb": "While Europe froze into two blocs, Nehru's India led the Non-Aligned Movement with Tito and Nasser, a third pole of post-colonial states that took neither NATO nor Warsaw Pact membership yet accepted Soviet industrial collaboration. The modern-India narrative tells the story of that sophisticated triangulation from Delhi's side."}
+    {
+      "matchText": "newly independent India under Nehru refused to join either camp",
+      "targetTl": "modern-india",
+      "targetChapter": 6,
+      "blurb": "While Europe froze into two blocs, Nehru's India led the Non-Aligned Movement with Tito and Nasser, a third pole of post-colonial states that took neither NATO nor Warsaw Pact membership yet accepted Soviet industrial collaboration. The modern-India narrative tells the story of that sophisticated triangulation from Delhi's side."
+    },
+    {
+      "matchText": "Korean modern",
+      "targetTl": "korean-modern",
+      "targetChapter": 2,
+      "blurb": "The Iron Curtain's first hot war was Korea — the Soviet-armed North against the US-backed South, the Cold War's template conflict."
+    },
+    {
+      "matchText": "Rise of China",
+      "targetTl": "rise-of-china",
+      "targetChapter": 1,
+      "blurb": "The other great communist revolution — Mao's China — was both the USSR's ideological sibling and, after the split, its rival."
+    }
   ],
   "16": [
-    {"matchText": "two planned economies, one buffered and one squeezed by the same price", "targetTl": "modern-india", "targetChapter": 7, "blurb": "The 1973 oil shock that briefly enriched the petro-fattened USSR pushed oil-importing, state-planned India deeper into difficulty and toward closer partnership with Moscow. The modern-India narrative follows the Indira years, the Indo-Soviet Treaty, and two planned economies drawn together by the same price that buffered one and squeezed the other."}
+    {
+      "matchText": "two planned economies, one buffered and one squeezed by the same price",
+      "targetTl": "modern-india",
+      "targetChapter": 7,
+      "blurb": "The 1973 oil shock that briefly enriched the petro-fattened USSR pushed oil-importing, state-planned India deeper into difficulty and toward closer partnership with Moscow. The modern-India narrative follows the Indira years, the Indo-Soviet Treaty, and two planned economies drawn together by the same price that buffered one and squeezed the other."
+    }
   ],
   "18": [
-    {"matchText": "Soviet diplomatic and military backing of India, formalized in the Indo-Soviet Treaty", "targetTl": "modern-india", "targetChapter": 7, "blurb": "In 1971 Soviet backing helped India to a swift, decisive victory over U.S.-aligned Pakistan and the creation of Bangladesh, the most successful Soviet Cold War intervention in the region. The modern-India narrative tells that war from Indira Gandhi's side; eight years later Afghanistan would be the catastrophic overreach that helped end the regime that had won it."}
+    {
+      "matchText": "Soviet diplomatic and military backing of India, formalized in the Indo-Soviet Treaty",
+      "targetTl": "modern-india",
+      "targetChapter": 7,
+      "blurb": "In 1971 Soviet backing helped India to a swift, decisive victory over U.S.-aligned Pakistan and the creation of Bangladesh, the most successful Soviet Cold War intervention in the region. The modern-India narrative tells that war from Indira Gandhi's side; eight years later Afghanistan would be the catastrophic overreach that helped end the regime that had won it."
+    }
   ],
   "19": [
-    {"matchText": "India, whose economy had been built on the Soviet-influenced plan", "targetTl": "modern-india", "targetChapter": 10, "blurb": "In 1991, the same year the USSR dissolved, India hit its own balance-of-payments wall and began dismantling the Soviet-influenced planning model in favor of the market. The modern-India narrative covers the 1991 crisis and Manmohan Singh's liberalization: the template and its abandonment moved together across the same year."}
+    {
+      "matchText": "India, whose economy had been built on the Soviet-influenced plan",
+      "targetTl": "modern-india",
+      "targetChapter": 10,
+      "blurb": "In 1991, the same year the USSR dissolved, India hit its own balance-of-payments wall and began dismantling the Soviet-influenced planning model in favor of the market. The modern-India narrative covers the 1991 crisis and Manmohan Singh's liberalization: the template and its abandonment moved together across the same year."
+    }
+  ],
+  "20": [
+    {
+      "matchText": "Rise of China",
+      "targetTl": "rise-of-china",
+      "targetChapter": 1,
+      "blurb": "The USSR's collapse left China as the surviving communist giant — the system the Soviets pioneered, outlived by the model they once mentored."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 1,
+      "blurb": "1991 closed the circle: the Soviet collapse re-posed the imperial problem — how to hold the largest country on earth together."
+    }
   ]
 }

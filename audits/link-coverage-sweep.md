@@ -112,7 +112,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | al-andalus | 18 | **DONE** | 58a1ebb |
 | ancestral-puebloans | 8 | **DONE** | 4add63b |
 | kievan-rus | 12 | **DONE** | 6cfc802 |
-| russian-empire | 20 | **DONE** | +this |
+| russian-empire | 20 | **DONE** | fda0f87 |
+| soviet-union | 20 | **DONE** Russian chain COMPLETE | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
