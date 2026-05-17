@@ -11,6 +11,24 @@
       "targetTl": "early-dynastic-egypt",
       "targetChapter": 3,
       "blurb": "Egyptian pharaohs were themselves gods in human form -- a fundamentally different legitimacy framework from the Zhou's conditional Mandate of Heaven. The pharaoh's authority was inherent in his divine nature, not earned through virtuous governance. Nobody in Egypt asked whether Pharaoh deserved the throne; the question was incoherent, like asking whether a river deserved to flow."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Zhou conquered the Shang and invented the Mandate of Heaven to justify it — the political theology every later Chinese dynasty would invoke."
+    },
+    {
+      "matchText": "Early Dynastic Egypt",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 3,
+      "blurb": "Zhou sacral kingship — the ruler as cosmic linchpin — has a deep parallel in early Egypt's divine pharaoh, two independent god-king ideologies."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "Zhou ritual statecraft echoes Mesopotamian temple-kingship: legitimacy as a ceremony performed, not merely a power held."
     }
   ],
   "2": [
@@ -31,6 +49,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "The horse-drawn chariot entered China from Central Asian steppe cultures around 1200 BCE, roughly the same time the Shang were using it at Anyang. By the Warring States period, chariots were obsolete -- replaced by mass infantry and cavalry that the steppe peoples themselves had pioneered. China kept borrowing military technology from the north, but it always adapted it beyond recognition."
+    },
+    {
+      "matchText": "Early Dynastic Egypt",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 6,
+      "blurb": "The Zhou ritual state — graded bronzes, ancestral rites, hierarchy as cosmic order — is China's version of Egypt's ritualized royal cult."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 2,
+      "blurb": "The Zhou feudal order grew out of, and codified, the multi-cradle Chinese world of the Neolithic and Shang."
     }
   ],
   "3": [
@@ -39,6 +69,18 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 3,
       "blurb": "In 841 BCE -- the year Chinese historical records become continuously datable -- the Assyrian Empire under Shalmaneser III was campaigning across the Near East, extracting tribute from Israel, Phoenicia, and the Syrian kingdoms. Two great empires, at opposite ends of Asia, both peaking in the 9th century BCE and both building the administrative systems that would define their civilizations."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 3,
+      "blurb": "As the Zhou Mandate slipped into the Spring-and-Autumn free-for-all, the Assyrians were building the opposite — a ruthlessly centralized war-empire."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "The collapse of Zhou central authority returned China to the competing-polities condition Erlitou and the Shang had briefly transcended."
     }
   ],
   "4": [
@@ -81,6 +123,24 @@
       "targetTl": "minoan-civilization",
       "targetChapter": 3,
       "blurb": "Chinese silk reached the Aegean world through long chains of intermediaries, passing from Central Asian steppe peoples to Persian merchants to Greek and Phoenician traders. By the time a bolt of silk reached Athens, nobody knew where it came from. The Minoans had run their own long-distance trade networks a thousand years earlier, but those networks collapsed with the Bronze Age -- the Warring States silk trade was building something more durable."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "The Warring States' iron armies and total-war logic are China's analogue of the Assyrian military revolution."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "While China fragmented into warring states, Persia built the era's largest unified bureaucratic empire — opposite answers to the same age."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "The iron-and-mass-army states of the late Zhou are the Longshan warlord world scaled up to continental stakes."
     }
   ],
   "9": [

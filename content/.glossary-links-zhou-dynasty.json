@@ -1,198 +1,1100 @@
 {
   "1": [
-    {"term": "Shang Dynasty", "matchText": "Shang Dynasty", "wikiSlug": "Shang_dynasty", "type": "concept"},
-    {"term": "Yellow River", "matchText": "Yellow River", "wikiSlug": "Yellow_River", "type": "place"},
-    {"term": "oracle bones", "matchText": "oracle bones", "wikiSlug": "Oracle_bone", "type": "concept"},
-    {"term": "Shangdi", "matchText": "Shangdi", "wikiSlug": "Shangdi", "type": "concept"},
-    {"term": "Tian", "matchText": "Tian", "wikiSlug": "Tian", "type": "concept"},
-    {"term": "Son of Heaven", "matchText": "Son of Heaven", "wikiSlug": "Son_of_Heaven", "type": "concept"},
-    {"term": "Di Xin", "matchText": "Di Xin", "wikiSlug": "King_Zhou_of_Shang", "type": "people"},
-    {"term": "Henan", "matchText": "Henan province", "wikiSlug": "Henan", "type": "place"},
-    {"term": "Luoyang", "matchText": "Luoyang", "wikiSlug": "Luoyang", "type": "place"},
-    {"term": "Wei River", "matchText": "Wei River valley", "wikiSlug": "Wei_River", "type": "place"},
-    {"term": "Xi'an", "matchText": "Xi'an", "wikiSlug": "Xi%27an", "type": "place"},
-    {"term": "Shaanxi", "matchText": "Shaanxi province", "wikiSlug": "Shaanxi", "type": "place"},
-    {"term": "Confucius", "matchText": "Confucius", "wikiSlug": "Confucius", "type": "people"},
-    {"term": "tianming", "matchText": "tianming", "wikiSlug": "Mandate_of_Heaven", "type": "concept"},
-    {"term": "bronze inscriptions", "matchText": "bronze inscriptions", "wikiSlug": "Chinese_bronze_inscriptions", "type": "concept"},
-    {"term": "Weizi Qi", "matchText": "Weizi Qi", "wikiSlug": "Weizi", "type": "people"},
-    {"term": "state of Song", "matchText": "state of Song", "wikiSlug": "Song_(state)", "type": "place"},
-    {"term": "Feng River", "matchText": "Feng River", "wikiSlug": "Feng_River_(Shaanxi)", "type": "place"},
-    {"term": "social contract", "matchText": "social contract", "wikiSlug": "Social_contract", "type": "concept"},
-    {"term": "John Locke", "matchText": "John Locke", "wikiSlug": "John_Locke", "type": "people"},
-    {"term": "Jean-Jacques Rousseau", "matchText": "Jean-Jacques Rousseau", "wikiSlug": "Jean-Jacques_Rousseau", "type": "people"},
-    {"term": "Jesuit", "matchText": "Jesuit", "wikiSlug": "Society_of_Jesus", "type": "concept"}
+    {
+      "term": "Shang Dynasty",
+      "matchText": "Shang Dynasty",
+      "wikiSlug": "Shang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "oracle bones",
+      "matchText": "oracle bones",
+      "wikiSlug": "Oracle_bone",
+      "type": "concept"
+    },
+    {
+      "term": "Shangdi",
+      "matchText": "Shangdi",
+      "wikiSlug": "Shangdi",
+      "type": "concept"
+    },
+    {
+      "term": "Tian",
+      "matchText": "Tian",
+      "wikiSlug": "Tian",
+      "type": "concept"
+    },
+    {
+      "term": "Son of Heaven",
+      "matchText": "Son of Heaven",
+      "wikiSlug": "Son_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Di Xin",
+      "matchText": "Di Xin",
+      "wikiSlug": "King_Zhou_of_Shang",
+      "type": "people"
+    },
+    {
+      "term": "Henan",
+      "matchText": "Henan province",
+      "wikiSlug": "Henan",
+      "type": "place"
+    },
+    {
+      "term": "Luoyang",
+      "matchText": "Luoyang",
+      "wikiSlug": "Luoyang",
+      "type": "place"
+    },
+    {
+      "term": "Wei River",
+      "matchText": "Wei River valley",
+      "wikiSlug": "Wei_River",
+      "type": "place"
+    },
+    {
+      "term": "Xi'an",
+      "matchText": "Xi'an",
+      "wikiSlug": "Xi%27an",
+      "type": "place"
+    },
+    {
+      "term": "Shaanxi",
+      "matchText": "Shaanxi province",
+      "wikiSlug": "Shaanxi",
+      "type": "place"
+    },
+    {
+      "term": "Confucius",
+      "matchText": "Confucius",
+      "wikiSlug": "Confucius",
+      "type": "people"
+    },
+    {
+      "term": "tianming",
+      "matchText": "tianming",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "bronze inscriptions",
+      "matchText": "bronze inscriptions",
+      "wikiSlug": "Chinese_bronze_inscriptions",
+      "type": "concept"
+    },
+    {
+      "term": "Weizi Qi",
+      "matchText": "Weizi Qi",
+      "wikiSlug": "Weizi",
+      "type": "people"
+    },
+    {
+      "term": "state of Song",
+      "matchText": "state of Song",
+      "wikiSlug": "Song_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Feng River",
+      "matchText": "Feng River",
+      "wikiSlug": "Feng_River_(Shaanxi)",
+      "type": "place"
+    },
+    {
+      "term": "social contract",
+      "matchText": "social contract",
+      "wikiSlug": "Social_contract",
+      "type": "concept"
+    },
+    {
+      "term": "John Locke",
+      "matchText": "John Locke",
+      "wikiSlug": "John_Locke",
+      "type": "people"
+    },
+    {
+      "term": "Jean-Jacques Rousseau",
+      "matchText": "Jean-Jacques Rousseau",
+      "wikiSlug": "Jean-Jacques_Rousseau",
+      "type": "people"
+    },
+    {
+      "term": "Jesuit",
+      "matchText": "Jesuit",
+      "wikiSlug": "Society_of_Jesus",
+      "type": "concept"
+    }
   ],
   "2": [
-    {"term": "li", "matchText": "ritual propriety", "wikiSlug": "Li_(Confucianism)", "type": "concept"},
-    {"term": "Shijing", "matchText": "Shijing", "wikiSlug": "Classic_of_Poetry", "type": "concept"},
-    {"term": "Five Classics", "matchText": "Five Classics", "wikiSlug": "Chinese_classics", "type": "concept"},
-    {"term": "jingtian", "matchText": "jingtian", "wikiSlug": "Well-field_system", "type": "concept"},
-    {"term": "millet", "matchText": "Millet", "wikiSlug": "Millet", "type": "concept"},
-    {"term": "rice cultivation", "matchText": "Rice cultivation", "wikiSlug": "History_of_rice_cultivation", "type": "concept"},
-    {"term": "Yangtze River", "matchText": "Yangtze River", "wikiSlug": "Yangtze", "type": "place"},
-    {"term": "Shandong", "matchText": "Shandong peninsula", "wikiSlug": "Shandong", "type": "place"},
-    {"term": "Kunlun Mountains", "matchText": "Kunlun Mountains", "wikiSlug": "Kunlun_Mountains", "type": "place"},
-    {"term": "Queen Mother of the West", "matchText": "Queen Mother of the West", "wikiSlug": "Queen_Mother_of_the_West", "type": "concept"},
-    {"term": "Qiang", "matchText": "Qiang", "wikiSlug": "Qiang_people", "type": "concept"},
-    {"term": "Zhongyuan", "matchText": "Zhongyuan", "wikiSlug": "Zhongyuan", "type": "place"},
-    {"term": "Yi", "matchText": "Yi", "wikiSlug": "Dongyi", "type": "concept"},
-    {"term": "Rong", "matchText": "Rong", "wikiSlug": "Rong_(ancient_China)", "type": "concept"},
-    {"term": "Chu", "matchText": "Chu", "wikiSlug": "Chu_(state)", "type": "place"},
-    {"term": "yin and yang", "matchText": "yin", "wikiSlug": "Yin_and_yang", "type": "concept"},
-    {"term": "hexagram", "matchText": "hexagrams", "wikiSlug": "Hexagram_(I_Ching)", "type": "concept"},
-    {"term": "Gottfried Leibniz", "matchText": "Gottfried Leibniz", "wikiSlug": "Gottfried_Wilhelm_Leibniz", "type": "people"},
-    {"term": "binary mathematics", "matchText": "binary mathematics", "wikiSlug": "Binary_number", "type": "concept"},
-    {"term": "Temple of Heaven", "matchText": "Temple of Heaven", "wikiSlug": "Temple_of_Heaven", "type": "place"},
-    {"term": "loess", "matchText": "loess soils", "wikiSlug": "Loess", "type": "concept"}
+    {
+      "term": "li",
+      "matchText": "ritual propriety",
+      "wikiSlug": "Li_(Confucianism)",
+      "type": "concept"
+    },
+    {
+      "term": "Shijing",
+      "matchText": "Shijing",
+      "wikiSlug": "Classic_of_Poetry",
+      "type": "concept"
+    },
+    {
+      "term": "Five Classics",
+      "matchText": "Five Classics",
+      "wikiSlug": "Chinese_classics",
+      "type": "concept"
+    },
+    {
+      "term": "jingtian",
+      "matchText": "jingtian",
+      "wikiSlug": "Well-field_system",
+      "type": "concept"
+    },
+    {
+      "term": "millet",
+      "matchText": "Millet",
+      "wikiSlug": "Millet",
+      "type": "concept"
+    },
+    {
+      "term": "rice cultivation",
+      "matchText": "Rice cultivation",
+      "wikiSlug": "History_of_rice_cultivation",
+      "type": "concept"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze River",
+      "wikiSlug": "Yangtze",
+      "type": "place"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong peninsula",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    },
+    {
+      "term": "Kunlun Mountains",
+      "matchText": "Kunlun Mountains",
+      "wikiSlug": "Kunlun_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Queen Mother of the West",
+      "matchText": "Queen Mother of the West",
+      "wikiSlug": "Queen_Mother_of_the_West",
+      "type": "concept"
+    },
+    {
+      "term": "Qiang",
+      "matchText": "Qiang",
+      "wikiSlug": "Qiang_people",
+      "type": "concept"
+    },
+    {
+      "term": "Zhongyuan",
+      "matchText": "Zhongyuan",
+      "wikiSlug": "Zhongyuan",
+      "type": "place"
+    },
+    {
+      "term": "Yi",
+      "matchText": "Yi",
+      "wikiSlug": "Dongyi",
+      "type": "concept"
+    },
+    {
+      "term": "Rong",
+      "matchText": "Rong",
+      "wikiSlug": "Rong_(ancient_China)",
+      "type": "concept"
+    },
+    {
+      "term": "Chu",
+      "matchText": "Chu",
+      "wikiSlug": "Chu_(state)",
+      "type": "place"
+    },
+    {
+      "term": "yin and yang",
+      "matchText": "yin",
+      "wikiSlug": "Yin_and_yang",
+      "type": "concept"
+    },
+    {
+      "term": "hexagram",
+      "matchText": "hexagrams",
+      "wikiSlug": "Hexagram_(I_Ching)",
+      "type": "concept"
+    },
+    {
+      "term": "Gottfried Leibniz",
+      "matchText": "Gottfried Leibniz",
+      "wikiSlug": "Gottfried_Wilhelm_Leibniz",
+      "type": "people"
+    },
+    {
+      "term": "binary mathematics",
+      "matchText": "binary mathematics",
+      "wikiSlug": "Binary_number",
+      "type": "concept"
+    },
+    {
+      "term": "Temple of Heaven",
+      "matchText": "Temple of Heaven",
+      "wikiSlug": "Temple_of_Heaven",
+      "type": "place"
+    },
+    {
+      "term": "loess",
+      "matchText": "loess soils",
+      "wikiSlug": "Loess",
+      "type": "concept"
+    }
   ],
   "3": [
-    {"term": "Shanxi", "matchText": "Shanxi province", "wikiSlug": "Shanxi", "type": "place"},
-    {"term": "King Xuan", "matchText": "King Xuan", "wikiSlug": "King_Xuan_of_Zhou", "type": "people"},
-    {"term": "Bao Si", "matchText": "Bao Si", "wikiSlug": "Bao_Si", "type": "people"},
-    {"term": "Marquis of Shen", "matchText": "Marquis of Shen", "wikiSlug": "Marquis_Wen_of_Shen", "type": "people"},
-    {"term": "Quanrong", "matchText": "Quanrong", "wikiSlug": "Quanrong", "type": "concept"},
-    {"term": "Haojing", "matchText": "Haojing", "wikiSlug": "Feng,_Zhou", "type": "place"},
-    {"term": "King Ping", "matchText": "King Ping", "wikiSlug": "King_Ping_of_Zhou", "type": "people"},
-    {"term": "Daji", "matchText": "Daji", "wikiSlug": "Daji", "type": "people"},
-    {"term": "Records of the Grand Historian", "matchText": "Records of the Grand Historian", "wikiSlug": "Records_of_the_Grand_Historian", "type": "concept"},
-    {"term": "Assyrian Empire", "matchText": "Assyrian Empire", "wikiSlug": "Assyria", "type": "concept"},
-    {"term": "Shalmaneser III", "matchText": "Shalmaneser III", "wikiSlug": "Shalmaneser_III", "type": "people"},
-    {"term": "Herodotus", "matchText": "Herodotus", "wikiSlug": "Herodotus", "type": "people"},
-    {"term": "beacon fires", "matchText": "beacon fires", "wikiSlug": "Beacon", "type": "concept"},
-    {"term": "Jie of Xia", "matchText": "Jie of Xia", "wikiSlug": "Jie_of_Xia", "type": "people"},
-    {"term": "Helen of Troy", "matchText": "fall of Troy", "wikiSlug": "Helen_of_Troy", "type": "people"},
-    {"term": "Mycenaean collapse", "matchText": "Mycenaean collapse", "wikiSlug": "Greek_Dark_Ages", "type": "concept"},
-    {"term": "Greek Dark Age", "matchText": "Dark Age", "wikiSlug": "Greek_Dark_Ages", "type": "concept"},
-    {"term": "Zhi", "matchText": "Zhi", "wikiSlug": "King_Li_of_Zhou", "type": "place"}
+    {
+      "term": "Shanxi",
+      "matchText": "Shanxi province",
+      "wikiSlug": "Shanxi",
+      "type": "place"
+    },
+    {
+      "term": "King Xuan",
+      "matchText": "King Xuan",
+      "wikiSlug": "King_Xuan_of_Zhou",
+      "type": "people"
+    },
+    {
+      "term": "Bao Si",
+      "matchText": "Bao Si",
+      "wikiSlug": "Bao_Si",
+      "type": "people"
+    },
+    {
+      "term": "Marquis of Shen",
+      "matchText": "Marquis of Shen",
+      "wikiSlug": "Marquis_Wen_of_Shen",
+      "type": "people"
+    },
+    {
+      "term": "Quanrong",
+      "matchText": "Quanrong",
+      "wikiSlug": "Quanrong",
+      "type": "concept"
+    },
+    {
+      "term": "Haojing",
+      "matchText": "Haojing",
+      "wikiSlug": "Feng,_Zhou",
+      "type": "place"
+    },
+    {
+      "term": "King Ping",
+      "matchText": "King Ping",
+      "wikiSlug": "King_Ping_of_Zhou",
+      "type": "people"
+    },
+    {
+      "term": "Daji",
+      "matchText": "Daji",
+      "wikiSlug": "Daji",
+      "type": "people"
+    },
+    {
+      "term": "Records of the Grand Historian",
+      "matchText": "Records of the Grand Historian",
+      "wikiSlug": "Records_of_the_Grand_Historian",
+      "type": "concept"
+    },
+    {
+      "term": "Assyrian Empire",
+      "matchText": "Assyrian Empire",
+      "wikiSlug": "Assyria",
+      "type": "concept"
+    },
+    {
+      "term": "Shalmaneser III",
+      "matchText": "Shalmaneser III",
+      "wikiSlug": "Shalmaneser_III",
+      "type": "people"
+    },
+    {
+      "term": "Herodotus",
+      "matchText": "Herodotus",
+      "wikiSlug": "Herodotus",
+      "type": "people"
+    },
+    {
+      "term": "beacon fires",
+      "matchText": "beacon fires",
+      "wikiSlug": "Beacon",
+      "type": "concept"
+    },
+    {
+      "term": "Jie of Xia",
+      "matchText": "Jie of Xia",
+      "wikiSlug": "Jie_of_Xia",
+      "type": "people"
+    },
+    {
+      "term": "Helen of Troy",
+      "matchText": "fall of Troy",
+      "wikiSlug": "Helen_of_Troy",
+      "type": "people"
+    },
+    {
+      "term": "Mycenaean collapse",
+      "matchText": "Mycenaean collapse",
+      "wikiSlug": "Greek_Dark_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Greek Dark Age",
+      "matchText": "Dark Age",
+      "wikiSlug": "Greek_Dark_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Zhi",
+      "matchText": "Zhi",
+      "wikiSlug": "King_Li_of_Zhou",
+      "type": "place"
+    }
   ],
   "4": [
-    {"term": "state of Qi", "matchText": "state of Qi", "wikiSlug": "Qi_(state)", "type": "place"},
-    {"term": "state of Jin", "matchText": "state of Jin", "wikiSlug": "Jin_(Chinese_state)", "type": "place"},
-    {"term": "hegemon", "matchText": "hegemon", "wikiSlug": "Hegemony_in_ancient_China", "type": "concept"},
-    {"term": "Chunqiu", "matchText": "Spring and Autumn Annals", "wikiSlug": "Spring_and_Autumn_Annals", "type": "concept"},
-    {"term": "state of Lu", "matchText": "state of Lu", "wikiSlug": "Lu_(state)", "type": "place"},
-    {"term": "Bao Shuya", "matchText": "Bao Shuya", "wikiSlug": "Bao_Shu", "type": "people"},
-    {"term": "iron", "matchText": "iron", "wikiSlug": "Iron", "type": "concept"},
-    {"term": "zunwang rangyi", "matchText": "respect the king, resist the barbarians", "wikiSlug": "Duke_Huan_of_Qi", "type": "concept"},
-    {"term": "Wei family", "matchText": "Wei, Han, and Zhao", "wikiSlug": "Partition_of_Jin", "type": "concept"},
-    {"term": "shi class", "matchText": "shi", "wikiSlug": "Shi_(Chinese_social_class)", "type": "concept"},
-    {"term": "wang title", "matchText": "king", "wikiSlug": "Wang_(surname)", "type": "concept"},
-    {"term": "state of Qin", "matchText": "Qin", "wikiSlug": "Qin_(state)", "type": "place"},
-    {"term": "state of Chu", "matchText": "state of Chu", "wikiSlug": "Chu_(state)", "type": "place"},
-    {"term": "Shandong", "matchText": "Shandong", "wikiSlug": "Shandong", "type": "place"}
+    {
+      "term": "state of Qi",
+      "matchText": "state of Qi",
+      "wikiSlug": "Qi_(state)",
+      "type": "place"
+    },
+    {
+      "term": "state of Jin",
+      "matchText": "state of Jin",
+      "wikiSlug": "Jin_(Chinese_state)",
+      "type": "place"
+    },
+    {
+      "term": "hegemon",
+      "matchText": "hegemon",
+      "wikiSlug": "Hegemony_in_ancient_China",
+      "type": "concept"
+    },
+    {
+      "term": "Chunqiu",
+      "matchText": "Spring and Autumn Annals",
+      "wikiSlug": "Spring_and_Autumn_Annals",
+      "type": "concept"
+    },
+    {
+      "term": "state of Lu",
+      "matchText": "state of Lu",
+      "wikiSlug": "Lu_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Bao Shuya",
+      "matchText": "Bao Shuya",
+      "wikiSlug": "Bao_Shu",
+      "type": "people"
+    },
+    {
+      "term": "iron",
+      "matchText": "iron",
+      "wikiSlug": "Iron",
+      "type": "concept"
+    },
+    {
+      "term": "zunwang rangyi",
+      "matchText": "respect the king, resist the barbarians",
+      "wikiSlug": "Duke_Huan_of_Qi",
+      "type": "concept"
+    },
+    {
+      "term": "Wei family",
+      "matchText": "Wei, Han, and Zhao",
+      "wikiSlug": "Partition_of_Jin",
+      "type": "concept"
+    },
+    {
+      "term": "shi class",
+      "matchText": "shi",
+      "wikiSlug": "Shi_(Chinese_social_class)",
+      "type": "concept"
+    },
+    {
+      "term": "wang title",
+      "matchText": "king",
+      "wikiSlug": "Wang_(surname)",
+      "type": "concept"
+    },
+    {
+      "term": "state of Qin",
+      "matchText": "Qin",
+      "wikiSlug": "Qin_(state)",
+      "type": "place"
+    },
+    {
+      "term": "state of Chu",
+      "matchText": "state of Chu",
+      "wikiSlug": "Chu_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    }
   ],
   "5": [
-    {"term": "Hundred Schools", "matchText": "Hundred Schools of Thought", "wikiSlug": "Hundred_Schools_of_Thought", "type": "concept"},
-    {"term": "Axial Age", "matchText": "Axial Age", "wikiSlug": "Axial_Age", "type": "concept"},
-    {"term": "Karl Jaspers", "matchText": "Karl Jaspers", "wikiSlug": "Karl_Jaspers", "type": "people"},
-    {"term": "Buddha", "matchText": "Buddha", "wikiSlug": "Gautama_Buddha", "type": "people"},
-    {"term": "Upanishads", "matchText": "Upanishadic", "wikiSlug": "Upanishads", "type": "concept"},
-    {"term": "pre-Socratic", "matchText": "pre-Socratic philosophers", "wikiSlug": "Pre-Socratic_philosophy", "type": "concept"},
-    {"term": "Socrates", "matchText": "Socrates", "wikiSlug": "Socrates", "type": "people"},
-    {"term": "ren", "matchText": "Ren", "wikiSlug": "Ren_(Confucianism)", "type": "concept"},
-    {"term": "junzi", "matchText": "Junzi", "wikiSlug": "Junzi", "type": "concept"},
-    {"term": "Golden Rule", "matchText": "Golden Rule", "wikiSlug": "Golden_Rule", "type": "concept"},
-    {"term": "Li Er", "matchText": "Li Er", "wikiSlug": "Laozi", "type": "people"},
-    {"term": "Dao", "matchText": "Dao", "wikiSlug": "Tao", "type": "concept"},
-    {"term": "wuwei", "matchText": "wuwei", "wikiSlug": "Wuwei", "type": "concept"},
-    {"term": "jian ai", "matchText": "jian ai", "wikiSlug": "Mohism", "type": "concept"},
-    {"term": "juzi", "matchText": "juzi", "wikiSlug": "Mohism", "type": "concept"},
-    {"term": "Mohism", "matchText": "Mohism", "wikiSlug": "Mohism", "type": "concept"},
-    {"term": "Confucianism", "matchText": "Confucianism", "wikiSlug": "Confucianism", "type": "concept"},
-    {"term": "Daoism", "matchText": "Daoism", "wikiSlug": "Taoism", "type": "concept"},
-    {"term": "Plato", "matchText": "Plato", "wikiSlug": "Plato", "type": "people"},
-    {"term": "Hangu Pass", "matchText": "Hangu Pass", "wikiSlug": "Hanguguan", "type": "place"},
-    {"term": "pinhole camera", "matchText": "pinhole camera effect", "wikiSlug": "Pinhole_camera", "type": "concept"},
-    {"term": "Kong Qiu", "matchText": "Kong Qiu", "wikiSlug": "Confucius", "type": "people"},
-    {"term": "state of Lu", "matchText": "small feudal state", "wikiSlug": "Lu_(state)", "type": "place"},
-    {"term": "Shandong", "matchText": "Shandong province", "wikiSlug": "Shandong", "type": "place"},
-    {"term": "Bible", "matchText": "Bible", "wikiSlug": "Bible", "type": "concept"}
+    {
+      "term": "Hundred Schools",
+      "matchText": "Hundred Schools of Thought",
+      "wikiSlug": "Hundred_Schools_of_Thought",
+      "type": "concept"
+    },
+    {
+      "term": "Axial Age",
+      "matchText": "Axial Age",
+      "wikiSlug": "Axial_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Karl Jaspers",
+      "matchText": "Karl Jaspers",
+      "wikiSlug": "Karl_Jaspers",
+      "type": "people"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "wikiSlug": "Gautama_Buddha",
+      "type": "people"
+    },
+    {
+      "term": "Upanishads",
+      "matchText": "Upanishadic",
+      "wikiSlug": "Upanishads",
+      "type": "concept"
+    },
+    {
+      "term": "pre-Socratic",
+      "matchText": "pre-Socratic philosophers",
+      "wikiSlug": "Pre-Socratic_philosophy",
+      "type": "concept"
+    },
+    {
+      "term": "Socrates",
+      "matchText": "Socrates",
+      "wikiSlug": "Socrates",
+      "type": "people"
+    },
+    {
+      "term": "ren",
+      "matchText": "Ren",
+      "wikiSlug": "Ren_(Confucianism)",
+      "type": "concept"
+    },
+    {
+      "term": "junzi",
+      "matchText": "Junzi",
+      "wikiSlug": "Junzi",
+      "type": "concept"
+    },
+    {
+      "term": "Golden Rule",
+      "matchText": "Golden Rule",
+      "wikiSlug": "Golden_Rule",
+      "type": "concept"
+    },
+    {
+      "term": "Li Er",
+      "matchText": "Li Er",
+      "wikiSlug": "Laozi",
+      "type": "people"
+    },
+    {
+      "term": "Dao",
+      "matchText": "Dao",
+      "wikiSlug": "Tao",
+      "type": "concept"
+    },
+    {
+      "term": "wuwei",
+      "matchText": "wuwei",
+      "wikiSlug": "Wuwei",
+      "type": "concept"
+    },
+    {
+      "term": "jian ai",
+      "matchText": "jian ai",
+      "wikiSlug": "Mohism",
+      "type": "concept"
+    },
+    {
+      "term": "juzi",
+      "matchText": "juzi",
+      "wikiSlug": "Mohism",
+      "type": "concept"
+    },
+    {
+      "term": "Mohism",
+      "matchText": "Mohism",
+      "wikiSlug": "Mohism",
+      "type": "concept"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucianism",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Daoism",
+      "matchText": "Daoism",
+      "wikiSlug": "Taoism",
+      "type": "concept"
+    },
+    {
+      "term": "Plato",
+      "matchText": "Plato",
+      "wikiSlug": "Plato",
+      "type": "people"
+    },
+    {
+      "term": "Hangu Pass",
+      "matchText": "Hangu Pass",
+      "wikiSlug": "Hanguguan",
+      "type": "place"
+    },
+    {
+      "term": "pinhole camera",
+      "matchText": "pinhole camera effect",
+      "wikiSlug": "Pinhole_camera",
+      "type": "concept"
+    },
+    {
+      "term": "Kong Qiu",
+      "matchText": "Kong Qiu",
+      "wikiSlug": "Confucius",
+      "type": "people"
+    },
+    {
+      "term": "state of Lu",
+      "matchText": "small feudal state",
+      "wikiSlug": "Lu_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong province",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    },
+    {
+      "term": "Bible",
+      "matchText": "Bible",
+      "wikiSlug": "Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Mozi",
+      "matchText": "Mo Di",
+      "wikiSlug": "Mozi",
+      "type": "people"
+    }
   ],
   "6": [
-    {"term": "Qin", "matchText": "Qin", "wikiSlug": "Qin_(state)", "type": "place"},
-    {"term": "Qi", "matchText": "Qi", "wikiSlug": "Qi_(state)", "type": "place"},
-    {"term": "Wei", "matchText": "Wei", "wikiSlug": "Wei_(state)", "type": "place"},
-    {"term": "Han", "matchText": "Han", "wikiSlug": "Han_(state)", "type": "place"},
-    {"term": "Zhao", "matchText": "Zhao", "wikiSlug": "Zhao_(state)", "type": "place"},
-    {"term": "Yan", "matchText": "Yan", "wikiSlug": "Yan_(state)", "type": "place"},
-    {"term": "cavalry", "matchText": "Cavalry", "wikiSlug": "Cavalry", "type": "concept"},
-    {"term": "siege warfare", "matchText": "Siege warfare", "wikiSlug": "Siege", "type": "concept"},
-    {"term": "mass conscript infantry", "matchText": "mass conscript infantry", "wikiSlug": "Conscription", "type": "concept"},
-    {"term": "Sunzi", "matchText": "Sunzi", "wikiSlug": "Sun_Tzu", "type": "people"},
-    {"term": "Sun Wu", "matchText": "Sun Wu", "wikiSlug": "Sun_Tzu", "type": "people"},
-    {"term": "Napoleon", "matchText": "Napoleon", "wikiSlug": "Napoleon", "type": "people"},
-    {"term": "Vertical and Horizontal", "matchText": "Vertical", "wikiSlug": "School_of_Diplomacy", "type": "concept"},
-    {"term": "Zhang Yi", "matchText": "Zhang Yi", "wikiSlug": "Zhang_Yi_(strategist)", "type": "people"},
-    {"term": "traveling persuaders", "matchText": "traveling persuaders", "wikiSlug": "Warring_States_period", "type": "concept"},
-    {"term": "chariot warfare", "matchText": "chariot", "wikiSlug": "Chariot", "type": "concept"},
-    {"term": "bronze trigger", "matchText": "bronze trigger mechanism", "wikiSlug": "Crossbow", "type": "concept"},
-    {"term": "xian", "matchText": "xian", "wikiSlug": "Xian_(administrative_division)", "type": "concept"},
-    {"term": "state of Wu", "matchText": "Wu", "wikiSlug": "Wu_(state)", "type": "place"},
-    {"term": "deception", "matchText": "deception", "wikiSlug": "Military_deception", "type": "concept"}
+    {
+      "term": "Qin",
+      "matchText": "Qin",
+      "wikiSlug": "Qin_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Qi",
+      "matchText": "Qi",
+      "wikiSlug": "Qi_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Wei",
+      "matchText": "Wei",
+      "wikiSlug": "Wei_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Han",
+      "matchText": "Han",
+      "wikiSlug": "Han_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Zhao",
+      "matchText": "Zhao",
+      "wikiSlug": "Zhao_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Yan",
+      "matchText": "Yan",
+      "wikiSlug": "Yan_(state)",
+      "type": "place"
+    },
+    {
+      "term": "cavalry",
+      "matchText": "Cavalry",
+      "wikiSlug": "Cavalry",
+      "type": "concept"
+    },
+    {
+      "term": "siege warfare",
+      "matchText": "Siege warfare",
+      "wikiSlug": "Siege",
+      "type": "concept"
+    },
+    {
+      "term": "mass conscript infantry",
+      "matchText": "mass conscript infantry",
+      "wikiSlug": "Conscription",
+      "type": "concept"
+    },
+    {
+      "term": "Sunzi",
+      "matchText": "Sunzi",
+      "wikiSlug": "Sun_Tzu",
+      "type": "people"
+    },
+    {
+      "term": "Sun Wu",
+      "matchText": "Sun Wu",
+      "wikiSlug": "Sun_Tzu",
+      "type": "people"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon",
+      "wikiSlug": "Napoleon",
+      "type": "people"
+    },
+    {
+      "term": "Vertical and Horizontal",
+      "matchText": "Vertical",
+      "wikiSlug": "School_of_Diplomacy",
+      "type": "concept"
+    },
+    {
+      "term": "Zhang Yi",
+      "matchText": "Zhang Yi",
+      "wikiSlug": "Zhang_Yi_(strategist)",
+      "type": "people"
+    },
+    {
+      "term": "traveling persuaders",
+      "matchText": "traveling persuaders",
+      "wikiSlug": "Warring_States_period",
+      "type": "concept"
+    },
+    {
+      "term": "chariot warfare",
+      "matchText": "chariot",
+      "wikiSlug": "Chariot",
+      "type": "concept"
+    },
+    {
+      "term": "bronze trigger",
+      "matchText": "bronze trigger mechanism",
+      "wikiSlug": "Crossbow",
+      "type": "concept"
+    },
+    {
+      "term": "xian",
+      "matchText": "xian",
+      "wikiSlug": "Xian_(administrative_division)",
+      "type": "concept"
+    },
+    {
+      "term": "state of Wu",
+      "matchText": "Wu",
+      "wikiSlug": "Wu_(state)",
+      "type": "place"
+    },
+    {
+      "term": "deception",
+      "matchText": "deception",
+      "wikiSlug": "Military_deception",
+      "type": "concept"
+    },
+    {
+      "term": "Chu (state)",
+      "matchText": "Chu",
+      "wikiSlug": "Chu_(state)",
+      "type": "concept"
+    }
   ],
   "7": [
-    {"term": "Mencius text", "matchText": "Meng Ke", "wikiSlug": "Mencius", "type": "people"},
-    {"term": "four moral sprouts", "matchText": "moral sprouts", "wikiSlug": "Four_Beginnings", "type": "concept"},
-    {"term": "Zhu Yuanzhang", "matchText": "Zhu Yuanzhang", "wikiSlug": "Hongwu_Emperor", "type": "people"},
-    {"term": "Ming dynasty", "matchText": "Ming dynasty", "wikiSlug": "Ming_dynasty", "type": "concept"},
-    {"term": "Zhuang Zhou", "matchText": "Zhuang Zhou", "wikiSlug": "Zhuangzi_(book)", "type": "people"},
-    {"term": "butterfly dream", "matchText": "butterfly dream", "wikiSlug": "Zhuangzi_(book)", "type": "concept"},
-    {"term": "Descartes", "matchText": "Descartes", "wikiSlug": "Ren%C3%A9_Descartes", "type": "people"},
-    {"term": "Cook Ding", "matchText": "Cook Ding", "wikiSlug": "Cook_Ding", "type": "people"},
-    {"term": "Linzi", "matchText": "Linzi", "wikiSlug": "Linzi", "type": "place"},
-    {"term": "Xun Kuang", "matchText": "Xun Kuang", "wikiSlug": "Xunzi", "type": "people"},
-    {"term": "Legalism", "matchText": "Legalism", "wikiSlug": "Legalism_(Chinese_philosophy)", "type": "concept"},
-    {"term": "Li Si", "matchText": "Li Si", "wikiSlug": "Li_Si", "type": "people"},
-    {"term": "Shen Buhai", "matchText": "Shen Buhai", "wikiSlug": "Shen_Buhai", "type": "people"},
-    {"term": "Shen Dao", "matchText": "Shen Dao", "wikiSlug": "Shen_Dao", "type": "people"},
-    {"term": "fa", "matchText": "law", "wikiSlug": "Fa_(concept)", "type": "concept"},
-    {"term": "Miluo River", "matchText": "Miluo River", "wikiSlug": "Miluo_River", "type": "place"},
-    {"term": "zongzi", "matchText": "rice dumplings", "wikiSlug": "Zongzi", "type": "concept"},
-    {"term": "Chu Ci", "matchText": "Li Sao", "wikiSlug": "Li_Sao", "type": "concept"},
-    {"term": "Alexandria", "matchText": "Alexandria", "wikiSlug": "Alexandria", "type": "place"},
-    {"term": "king of Chu", "matchText": "king of Chu", "wikiSlug": "Chu_(state)", "type": "place"},
-    {"term": "state of Chu", "matchText": "state of Chu", "wikiSlug": "Chu_(state)", "type": "place"}
+    {
+      "term": "Mencius text",
+      "matchText": "Meng Ke",
+      "wikiSlug": "Mencius",
+      "type": "people"
+    },
+    {
+      "term": "four moral sprouts",
+      "matchText": "moral sprouts",
+      "wikiSlug": "Four_Beginnings",
+      "type": "concept"
+    },
+    {
+      "term": "Zhu Yuanzhang",
+      "matchText": "Zhu Yuanzhang",
+      "wikiSlug": "Hongwu_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming dynasty",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Zhuang Zhou",
+      "matchText": "Zhuang Zhou",
+      "wikiSlug": "Zhuangzi_(book)",
+      "type": "people"
+    },
+    {
+      "term": "butterfly dream",
+      "matchText": "butterfly dream",
+      "wikiSlug": "Zhuangzi_(book)",
+      "type": "concept"
+    },
+    {
+      "term": "Descartes",
+      "matchText": "Descartes",
+      "wikiSlug": "Ren%C3%A9_Descartes",
+      "type": "people"
+    },
+    {
+      "term": "Cook Ding",
+      "matchText": "Cook Ding",
+      "wikiSlug": "Cook_Ding",
+      "type": "people"
+    },
+    {
+      "term": "Linzi",
+      "matchText": "Linzi",
+      "wikiSlug": "Linzi",
+      "type": "place"
+    },
+    {
+      "term": "Xun Kuang",
+      "matchText": "Xun Kuang",
+      "wikiSlug": "Xunzi",
+      "type": "people"
+    },
+    {
+      "term": "Legalism",
+      "matchText": "Legalism",
+      "wikiSlug": "Legalism_(Chinese_philosophy)",
+      "type": "concept"
+    },
+    {
+      "term": "Li Si",
+      "matchText": "Li Si",
+      "wikiSlug": "Li_Si",
+      "type": "people"
+    },
+    {
+      "term": "Shen Buhai",
+      "matchText": "Shen Buhai",
+      "wikiSlug": "Shen_Buhai",
+      "type": "people"
+    },
+    {
+      "term": "Shen Dao",
+      "matchText": "Shen Dao",
+      "wikiSlug": "Shen_Dao",
+      "type": "people"
+    },
+    {
+      "term": "fa",
+      "matchText": "law",
+      "wikiSlug": "Fa_(concept)",
+      "type": "concept"
+    },
+    {
+      "term": "Miluo River",
+      "matchText": "Miluo River",
+      "wikiSlug": "Miluo_River",
+      "type": "place"
+    },
+    {
+      "term": "zongzi",
+      "matchText": "rice dumplings",
+      "wikiSlug": "Zongzi",
+      "type": "concept"
+    },
+    {
+      "term": "Chu Ci",
+      "matchText": "Li Sao",
+      "wikiSlug": "Li_Sao",
+      "type": "concept"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "king of Chu",
+      "matchText": "king of Chu",
+      "wikiSlug": "Chu_(state)",
+      "type": "place"
+    },
+    {
+      "term": "state of Chu",
+      "matchText": "state of Chu",
+      "wikiSlug": "Chu_(state)",
+      "type": "place"
+    }
   ],
   "8": [
-    {"term": "bloomery", "matchText": "bloomery", "wikiSlug": "Bloomery", "type": "concept"},
-    {"term": "cast iron", "matchText": "cast iron", "wikiSlug": "Cast_iron", "type": "concept"},
-    {"term": "wrought iron", "matchText": "wrought iron", "wikiSlug": "Wrought_iron", "type": "concept"},
-    {"term": "blast furnace", "matchText": "blast furnaces", "wikiSlug": "Blast_furnace", "type": "concept"},
-    {"term": "Sichuan Basin", "matchText": "Sichuan Basin", "wikiSlug": "Sichuan_Basin", "type": "place"},
-    {"term": "Min River", "matchText": "Min River", "wikiSlug": "Min_River_(Sichuan)", "type": "place"},
-    {"term": "Chengdu Plain", "matchText": "Chengdu Plain", "wikiSlug": "Chengdu_Plain", "type": "place"},
-    {"term": "Li Bing", "matchText": "Li Bing", "wikiSlug": "Li_Bing_(engineer)", "type": "people"},
-    {"term": "UNESCO", "matchText": "UNESCO World Heritage Site", "wikiSlug": "World_Heritage_Site", "type": "concept"},
-    {"term": "silk", "matchText": "silk", "wikiSlug": "Silk", "type": "concept"},
-    {"term": "Silk Road", "matchText": "Silk Road", "wikiSlug": "Silk_Road", "type": "concept"},
-    {"term": "Scythians", "matchText": "Scythians", "wikiSlug": "Scythians", "type": "concept"},
-    {"term": "Sogdians", "matchText": "Sogdians", "wikiSlug": "Sogdia", "type": "concept"},
-    {"term": "Han dynasty", "matchText": "Han dynasty", "wikiSlug": "Han_dynasty", "type": "concept"},
-    {"term": "Zhang Qian", "matchText": "Zhang Qian", "wikiSlug": "Zhang_Qian", "type": "people"},
-    {"term": "rammed-earth", "matchText": "rammed-earth construction", "wikiSlug": "Rammed_earth", "type": "concept"},
-    {"term": "nomadic incursions", "matchText": "nomadic incursions", "wikiSlug": "Xiongnu", "type": "concept"},
-    {"term": "cowrie shells", "matchText": "cowrie shells", "wikiSlug": "Cowrie", "type": "concept"},
-    {"term": "Changsha", "matchText": "Changsha", "wikiSlug": "Changsha", "type": "place"},
-    {"term": "Hunan", "matchText": "Hunan province", "wikiSlug": "Hunan", "type": "place"},
-    {"term": "paper invention", "matchText": "invention of paper", "wikiSlug": "History_of_paper", "type": "concept"},
-    {"term": "Kerameikos", "matchText": "Kerameikos", "wikiSlug": "Kerameikos", "type": "place"},
-    {"term": "Athens", "matchText": "Athens", "wikiSlug": "Athens", "type": "place"}
+    {
+      "term": "bloomery",
+      "matchText": "bloomery",
+      "wikiSlug": "Bloomery",
+      "type": "concept"
+    },
+    {
+      "term": "cast iron",
+      "matchText": "cast iron",
+      "wikiSlug": "Cast_iron",
+      "type": "concept"
+    },
+    {
+      "term": "wrought iron",
+      "matchText": "wrought iron",
+      "wikiSlug": "Wrought_iron",
+      "type": "concept"
+    },
+    {
+      "term": "blast furnace",
+      "matchText": "blast furnaces",
+      "wikiSlug": "Blast_furnace",
+      "type": "concept"
+    },
+    {
+      "term": "Sichuan Basin",
+      "matchText": "Sichuan Basin",
+      "wikiSlug": "Sichuan_Basin",
+      "type": "place"
+    },
+    {
+      "term": "Min River",
+      "matchText": "Min River",
+      "wikiSlug": "Min_River_(Sichuan)",
+      "type": "place"
+    },
+    {
+      "term": "Chengdu Plain",
+      "matchText": "Chengdu Plain",
+      "wikiSlug": "Chengdu_Plain",
+      "type": "place"
+    },
+    {
+      "term": "Li Bing",
+      "matchText": "Li Bing",
+      "wikiSlug": "Li_Bing_(engineer)",
+      "type": "people"
+    },
+    {
+      "term": "UNESCO",
+      "matchText": "UNESCO World Heritage Site",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
+    },
+    {
+      "term": "silk",
+      "matchText": "silk",
+      "wikiSlug": "Silk",
+      "type": "concept"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Scythians",
+      "matchText": "Scythians",
+      "wikiSlug": "Scythians",
+      "type": "concept"
+    },
+    {
+      "term": "Sogdians",
+      "matchText": "Sogdians",
+      "wikiSlug": "Sogdia",
+      "type": "concept"
+    },
+    {
+      "term": "Han dynasty",
+      "matchText": "Han dynasty",
+      "wikiSlug": "Han_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Zhang Qian",
+      "matchText": "Zhang Qian",
+      "wikiSlug": "Zhang_Qian",
+      "type": "people"
+    },
+    {
+      "term": "rammed-earth",
+      "matchText": "rammed-earth construction",
+      "wikiSlug": "Rammed_earth",
+      "type": "concept"
+    },
+    {
+      "term": "nomadic incursions",
+      "matchText": "nomadic incursions",
+      "wikiSlug": "Xiongnu",
+      "type": "concept"
+    },
+    {
+      "term": "cowrie shells",
+      "matchText": "cowrie shells",
+      "wikiSlug": "Cowrie",
+      "type": "concept"
+    },
+    {
+      "term": "Changsha",
+      "matchText": "Changsha",
+      "wikiSlug": "Changsha",
+      "type": "place"
+    },
+    {
+      "term": "Hunan",
+      "matchText": "Hunan province",
+      "wikiSlug": "Hunan",
+      "type": "place"
+    },
+    {
+      "term": "paper invention",
+      "matchText": "invention of paper",
+      "wikiSlug": "History_of_paper",
+      "type": "concept"
+    },
+    {
+      "term": "Kerameikos",
+      "matchText": "Kerameikos",
+      "wikiSlug": "Kerameikos",
+      "type": "place"
+    },
+    {
+      "term": "Athens",
+      "matchText": "Athens",
+      "wikiSlug": "Athens",
+      "type": "place"
+    }
   ],
   "9": [
-    {"term": "First Emperor", "matchText": "First Emperor", "wikiSlug": "Qin_Shi_Huang", "type": "people"},
-    {"term": "Qin dynasty", "matchText": "Qin", "wikiSlug": "Qin_dynasty", "type": "concept"},
-    {"term": "Zhao Kuo", "matchText": "Zhao Kuo", "wikiSlug": "Zhao_Kuo", "type": "people"},
-    {"term": "nine cauldrons", "matchText": "nine cauldrons", "wikiSlug": "Nine_Ding", "type": "concept"},
-    {"term": "Liang Qichao", "matchText": "Liang Qichao", "wikiSlug": "Liang_Qichao", "type": "people"},
-    {"term": "examination system", "matchText": "examination system", "wikiSlug": "Imperial_examination", "type": "concept"},
-    {"term": "Confucian outside Legalist inside", "matchText": "Confucian outside, Legalist inside", "wikiSlug": "Legalism_(Chinese_philosophy)", "type": "concept"},
-    {"term": "Alexander", "matchText": "Alexander", "wikiSlug": "Alexander_the_Great", "type": "people"},
-    {"term": "mutual-surveillance groups", "matchText": "groups of five and ten households", "wikiSlug": "Baojia", "type": "concept"},
-    {"term": "Qing dynasty", "matchText": "Qing", "wikiSlug": "Qing_dynasty", "type": "concept"},
-    {"term": "twenty military ranks", "matchText": "twenty military ranks", "wikiSlug": "Twenty_Ranks_of_Merit", "type": "concept"},
-    {"term": "Shang Yang reforms", "matchText": "Shang Yang reforms", "wikiSlug": "Shang_Yang", "type": "concept"},
-    {"term": "Han dynasty", "matchText": "Han dynasty", "wikiSlug": "Han_dynasty", "type": "concept"},
-    {"term": "Book of Songs", "matchText": "Book of Songs", "wikiSlug": "Classic_of_Poetry", "type": "concept"}
+    {
+      "term": "First Emperor",
+      "matchText": "First Emperor",
+      "wikiSlug": "Qin_Shi_Huang",
+      "type": "people"
+    },
+    {
+      "term": "Qin dynasty",
+      "matchText": "Qin",
+      "wikiSlug": "Qin_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Zhao Kuo",
+      "matchText": "Zhao Kuo",
+      "wikiSlug": "Zhao_Kuo",
+      "type": "people"
+    },
+    {
+      "term": "nine cauldrons",
+      "matchText": "nine cauldrons",
+      "wikiSlug": "Nine_Ding",
+      "type": "concept"
+    },
+    {
+      "term": "Liang Qichao",
+      "matchText": "Liang Qichao",
+      "wikiSlug": "Liang_Qichao",
+      "type": "people"
+    },
+    {
+      "term": "examination system",
+      "matchText": "examination system",
+      "wikiSlug": "Imperial_examination",
+      "type": "concept"
+    },
+    {
+      "term": "Confucian outside Legalist inside",
+      "matchText": "Confucian outside, Legalist inside",
+      "wikiSlug": "Legalism_(Chinese_philosophy)",
+      "type": "concept"
+    },
+    {
+      "term": "Alexander",
+      "matchText": "Alexander",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "mutual-surveillance groups",
+      "matchText": "groups of five and ten households",
+      "wikiSlug": "Baojia",
+      "type": "concept"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "twenty military ranks",
+      "matchText": "twenty military ranks",
+      "wikiSlug": "Twenty_Ranks_of_Merit",
+      "type": "concept"
+    },
+    {
+      "term": "Shang Yang reforms",
+      "matchText": "Shang Yang reforms",
+      "wikiSlug": "Shang_Yang",
+      "type": "concept"
+    },
+    {
+      "term": "Han dynasty",
+      "matchText": "Han dynasty",
+      "wikiSlug": "Han_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Book of Songs",
+      "matchText": "Book of Songs",
+      "wikiSlug": "Classic_of_Poetry",
+      "type": "concept"
+    }
   ]
 }
