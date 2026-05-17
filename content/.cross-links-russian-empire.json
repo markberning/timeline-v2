@@ -11,6 +11,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 4,
       "blurb": "From the conqueror's side this is the climax, not a footnote. Mehmed II's cannon broke the walls of Constantinople on 29 May 1453, ending the Roman Empire that had stood for over a thousand years and making the sultan Kayser-i Rum, Caesar of Rome. The fall is precisely what left the vacuum Moscow rushed to fill with its Third Rome claim."
+    },
+    {
+      "matchText": "Kievan Rus'",
+      "targetTl": "kievan-rus",
+      "targetChapter": 12,
+      "blurb": "The Russian Empire's deep root is Kievan Rus' — Moscow gathered the lands the Mongols had shattered into the heir of the old Rus'."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Muscovy was forged under the 'Tatar yoke' — the Mongol domination that shaped Russian autocracy as much as Byzantium shaped its faith."
     }
   ],
   "3": [
@@ -19,6 +31,12 @@
       "targetTl": "enlightenment",
       "targetChapter": 2,
       "blurb": "England was the working model the Enlightenment built on. The Glorious Revolution of 1688 and the Bill of Rights had just made Parliament a body that could say no to a monarch, with Locke supplying the theory of government by consent. Peter toured the institution and wanted the shipwrights and the cannon, not the part that bound the king."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "Peter's 'Window on the West' is the Enlightenment imported by decree — a tsar forcibly dragging a state into the European scientific-administrative world."
     }
   ],
   "6": [
@@ -33,6 +51,12 @@
       "targetTl": "enlightenment",
       "targetChapter": 12,
       "blurb": "The Enlightenment narrative files Catherine, Frederick, and Joseph II together as the enlightened despots and uses them to triangulate exactly this choice. Joseph II genuinely abolished serfdom in the Habsburg lands and abolished judicial torture; Frederick kept Prussian serfdom for his army. Catherine had both working examples in front of her and chose Frederick's path."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 12,
+      "blurb": "Catherine corresponded with Voltaire and Diderot — the model 'enlightened despot,' applying the philosophes' ideas atop serf Russia."
     }
   ],
   "7": [
@@ -79,6 +103,12 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 15,
       "blurb": "The industrial narrative tracks how the Continental latecomers built state-backed railway networks from the 1830s under List's infant-industry doctrine, with the military value of rail already proven in the 1848-49 mobilizations. Russia was not vaguely behind the West; it was specifically behind the industrial-policy states it had spent two decades watching modernize, held back by its own autocratic-fiscal paralysis."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 18,
+      "blurb": "The Crimean War 'told the truth': a serf, pre-industrial empire could not stand against the industrialized West — the shock that forced the Great Reforms."
     }
   ],
   "14": [
@@ -123,6 +153,28 @@
       "targetTl": "soviet-union",
       "targetChapter": 2,
       "blurb": "From the Soviet side this is the founding act. The disciplined party Lenin built out of the 1903 split returned in 1917 promising Peace, Land, Bread, took power in October against a Provisional Government that would not end the war or settle the land question, and then dispersed the freely elected Constituent Assembly within a day, beginning the world's first avowedly communist state on the ruins of the empire."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "The fuse reaching the powder is the direct prologue to 1917 — the Russian Empire's contradictions detonating into the Soviet century."
+    }
+  ],
+  "10": [
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 16,
+      "blurb": "1812 — Napoleon's catastrophe in Russia — is the Enlightenment-and-Revolution's armed export breaking on the Russian winter."
+    }
+  ],
+  "17": [
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 10,
+      "blurb": "Russia's southward expansion ran through the 'Eastern Question' — the slow Ottoman collapse Russia spent a century trying to inherit."
     }
   ]
 }

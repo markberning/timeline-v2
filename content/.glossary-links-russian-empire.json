@@ -881,6 +881,18 @@
       "matchText": "Masonic lodges",
       "wikiSlug": "Freemasonry_in_Russia",
       "type": "institution"
+    },
+    {
+      "term": "Serfdom in Russia",
+      "matchText": "serfdom",
+      "wikiSlug": "Serfdom_in_Russia",
+      "type": "concept"
+    },
+    {
+      "term": "Pugachev's Rebellion",
+      "matchText": "Pugachev",
+      "wikiSlug": "Pugachev%27s_Rebellion",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1193,6 +1205,12 @@
       "matchText": "a recovering Prussia",
       "wikiSlug": "Kingdom_of_Prussia",
       "type": "place"
+    },
+    {
+      "term": "Grande Armée",
+      "matchText": "Grande Armée",
+      "wikiSlug": "Grande_Armée",
+      "type": "concept"
     }
   ],
   "11": [
@@ -1303,6 +1321,12 @@
       "matchText": "grapeshot",
       "wikiSlug": "Grapeshot",
       "type": "object"
+    },
+    {
+      "term": "Decembrist revolt",
+      "matchText": "Decembrist",
+      "wikiSlug": "Decembrist_revolt",
+      "type": "concept"
     }
   ],
   "12": [
