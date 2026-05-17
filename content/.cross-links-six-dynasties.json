@@ -11,6 +11,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The Roman Empire split east-west in the late fourth century CE, with geography determining the fault lines of fracture — just as the Yangtze had divided China. The wealthier eastern half survived for a millennium; in China, the wealthier southern half outlasted the northern kingdoms too."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Three Kingdoms is the Han collapse's immediate sequel — the Yellow Turban chaos hardening into three rival successor states."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "China's long division after the Han is its Fall-of-Rome — except China eventually reassembled, where the Roman West did not."
     }
   ],
   "2": [
@@ -31,6 +43,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The fall of Luoyang in 311 CE predates the sack of Rome by the Visigoths in 410 CE by almost exactly a century. Both were ancient imperial capitals taken by peoples who had lived inside the empire for generations, and both triggered massive refugee movements that carried the old culture to safer ground."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 2,
+      "blurb": "The Jin's brief reunion tried to restore the Han imperial model — and failed the same way, undone by succession wars and over-mighty kin."
     }
   ],
   "3": [
@@ -39,6 +57,12 @@
       "targetTl": "xiongnu-huns",
       "targetChapter": 2,
       "blurb": "The Donghu, an eastern steppe confederation, were destroyed by the Xiongnu leader Modu Chanyu around 209 BCE. Their remnants eventually became the Xianbei, who rose to dominate the northern frontier after the Xiongnu splintered. The Tuoba Xianbei clan that founded Northern Wei descended from these Donghu survivors — a lineage stretching from Xiongnu victims to Chinese empire-builders."
+    },
+    {
+      "matchText": "Xiongnu-Huns",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 2,
+      "blurb": "The north shattered under steppe peoples — including Xiongnu-descended states — the eastern face of the same Eurasian nomad surge that broke Rome."
     }
   ],
   "4": [
@@ -47,6 +71,12 @@
       "targetTl": "shang-dynasty",
       "targetChapter": 3,
       "blurb": "Chinese calligraphy began with the Shang dynasty's oracle bone inscriptions, where diviners carved questions into turtle shells and ox bones. Wang Xizhi's calligraphy a thousand years later transformed this ancient writing tradition into the highest visual art in Chinese culture, but the tools and the reverence for the written character trace back to the Shang."
+    },
+    {
+      "matchText": "Shang Dynasty",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 3,
+      "blurb": "The aristocratic émigré culture of the south preserved high Chinese tradition the way refuges always have — a portable elite identity, bronze-age-deep."
     }
   ],
   "5": [
@@ -61,6 +91,18 @@
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 8,
       "blurb": "Faxian's journey to India coincided with the Gupta Empire's golden age. He described a prosperous, urbanized subcontinent with thriving Buddhist monasteries — the world that Gupta patronage had created. His observations provide rare external confirmation of what Indian sources describe about this classical period."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 7,
+      "blurb": "Buddhism's transformation of China is the maturation of the faith the Eastern Han first received — now reshaping art, philosophy, and the state."
+    },
+    {
+      "matchText": "Post-Maurya Kingdoms",
+      "targetTl": "post-maurya-kingdoms",
+      "targetChapter": 8,
+      "blurb": "The monks and texts came down the Silk Road from the Indo-Buddhist world the post-Maurya centuries had built."
     }
   ],
   "8": [
@@ -81,6 +123,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "Yang Jian's reunification of China in 589 CE came just over a century after Rome's final collapse in 476 CE. Both empires fragmented for similar reasons — overextension, frontier pressure, civil war. But China reunified and Rome did not. The critical difference may have been Sinicization: the non-Chinese conquerors married into Chinese families and adopted Chinese culture, producing a hybrid ruling class with both the military capacity to reunify and the cultural legitimacy to govern."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Reunion under Sui/Tang is the counterfactual Rome never got — proof that imperial collapse need not be permanent."
     }
   ]
 }
