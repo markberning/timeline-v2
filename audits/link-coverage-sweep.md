@@ -95,7 +95,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | joseon-korea | 8 | **DONE** | 58fc710 |
 | korean-modern | 8 | **DONE** Korean chain COMPLETE | c70d735 |
 | hittite-empire | 8 | **DONE** | 1e82891 |
-| ottoman-empire | 12 | **DONE** Anatolian chain COMPLETE | +this |
+| ottoman-empire | 12 | **DONE** Anatolian chain COMPLETE | b7863b3 |
+| prehistoric-japan | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

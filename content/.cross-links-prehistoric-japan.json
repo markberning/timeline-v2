@@ -11,6 +11,12 @@
       "targetTl": "early-dynastic-egypt",
       "targetChapter": 1,
       "blurb": "Egypt would not produce pottery for another four to five thousand years after the first Jomon vessels and would not unify under a single pharaoh for ten thousand years. The Jomon were already deep into their pottery tradition when the first farming villages appeared along the Nile. The reader should keep this scale in mind throughout: prehistoric Japan begins long before any of the river-valley civilizations that usually anchor the start of world history."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 1,
+      "blurb": "Like the earliest Mesoamericans, the Jomon show that monumental, settled, ritual life can precede farming."
     }
   ],
   "2": [
@@ -31,6 +37,12 @@
       "targetTl": "early-dynastic-egypt",
       "targetChapter": 3,
       "blurb": "Egyptian pottery of the same period — the late Predynastic and early Dynastic eras around 3500–3000 BCE — was utilitarian and standardized, tied to the rapidly centralizing state and its administrative needs. The Jomon flame pots are the opposite: explosive ceremonial creativity by hunter-gatherer communities with no central state to standardize them, no granary economy to make them functional, and no reason to make them at all except artistic and spiritual."
+    },
+    {
+      "matchText": "Polynesian Voyagers",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 1,
+      "blurb": "Jomon maritime foraging is an Austronesian-adjacent island adaptation — the same sea-centered way of life the Pacific voyagers later carried east."
     }
   ],
   "3": [
@@ -71,6 +83,18 @@
       "targetTl": "vedic-period",
       "targetChapter": 8,
       "blurb": "The Yayoi transformation occupies the same world-historical centuries as the rise of the Maurya Empire under Chandragupta and Ashoka in India, the founding of the Qin and Han Dynasties in China, and the early Roman Republic in the Mediterranean. The post-Vedic period of north Indian state formation, with its iron tools and rice agriculture and emerging urban centers, was the South Asian parallel to the East Asian transformation that was reshaping the Japanese islands at the same time."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 2,
+      "blurb": "The Yayoi revolution — rice, metal, and migration from the peninsula — is the moment Korea began civilizing Japan."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "Yayoi Japan entered history as a Han tributary periphery — the 'land of Wa' in Chinese records, on the far edge of the Han world."
     }
   ],
   "5": [
@@ -85,6 +109,18 @@
       "targetTl": "ancient-korea",
       "targetChapter": 4,
       "blurb": "The early Three Kingdoms period in Korea — Goguryeo, Baekje, and Silla emerging from the earlier confederations in the centuries around 100 BCE to 100 CE — was the political world that connected Yayoi Japan to the Chinese mainland. Korean polities were the bridge through which Han bronze mirrors, iron technology, and continental trade goods reached the Japanese chiefdoms. The Korean intermediaries are the reason Japanese prehistory has any documentary visibility at all in this period."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 4,
+      "blurb": "The hundred warring kingdoms of Wa mirror the contemporary Korean Three Kingdoms — a peninsula-and-archipelago world coalescing in parallel."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Himiko's era is contemporary with the Roman Principate — the far ends of Eurasia each consolidating, mutually invisible."
     }
   ],
   "6": [
@@ -99,6 +135,18 @@
       "targetTl": "ancient-korea",
       "targetChapter": 5,
       "blurb": "Korean shamanic political traditions of the same period show similar patterns to Himiko's Yamatai: female religious specialists with significant social and political authority, organized around trance, divination, and ancestor intercession. Himiko was not an isolated curiosity. She was the first surviving Japanese example of a political-religious role that was widespread across Northeast Asia, with strong parallels in contemporary Korean and Siberian shamanic cultures."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 3,
+      "blurb": "Queen Himiko's shaman-queenship is a striking parallel to other early divine-ruler systems, from the Maya to the Andes."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 1,
+      "blurb": "Himiko sent embassies to the Wei court — Yamatai plugged into the Chinese Three Kingdoms diplomatic world."
     }
   ],
   "7": [
@@ -119,6 +167,18 @@
       "targetTl": "six-dynasties",
       "targetChapter": 2,
       "blurb": "The Kofun period overlaps with the Six Dynasties era in China — the long fragmented post-Han centuries when the Chinese north and south were divided among rival states, with the Western Jin briefly reuniting the country before fragmenting again. The continued Chinese diplomatic presence in Korea and the regular technological transfer from Chinese sources through Korean intermediaries continued through this entire period, providing the upstream end of the East Asian cultural cascade that was reshaping Yamato Japan."
+    },
+    {
+      "matchText": "Asuka-Nara Japan",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "The Kofun tomb-builders are the proto-Yamato state — the dynasty that becomes the historical Japan of the next narrative."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 5,
+      "blurb": "Kofun elite culture was saturated with peninsular imports — horse gear, ironwork, and craftsmen from the Korean kingdoms."
     }
   ],
   "8": [
@@ -139,6 +199,12 @@
       "targetTl": "six-dynasties",
       "targetChapter": 5,
       "blurb": "The Buddhist religious-political world that the 538 statue brought Japan into was the same world that defined the Northern and Southern Dynasties period in China. Chinese Buddhism, having absorbed Indian textual traditions through three centuries of translation work, was at this point the most sophisticated religious-philosophical system in East Asia, and Korean Buddhism (and now Japanese Buddhism) was downstream of the Chinese tradition. Japan in 538 was joining a Buddhist East Asian world whose intellectual center was somewhere between Luoyang and Jiankang."
+    },
+    {
+      "matchText": "Ancient Korea",
+      "targetTl": "ancient-korea",
+      "targetChapter": 6,
+      "blurb": "On the threshold of history, Buddhism arrives (traditionally 538) via Baekje — Korea handing Japan the religion that would define its classical age."
     }
   ]
 }
