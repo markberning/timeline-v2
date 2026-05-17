@@ -23,6 +23,24 @@
       "targetTl": "ancient-china",
       "targetChapter": 1,
       "blurb": "While Egypt and Mesopotamia were domesticating wheat and barley from the same Near Eastern package, China was running a completely independent experiment with millet in the north and rice in the south. The two grain traditions would eventually support one of the world's largest civilizations, but in 5000 BCE the Chinese Neolithic was still a scatter of semi-subterranean pit-houses along the Yellow River — parallel to Egypt's Fayum villages but with no contact whatsoever."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Egypt and Sumer are the twin first civilizations — both river valleys turning Neolithic villages into states, in the same millennium, by different roads."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "The Nile, Indus, and Tigris-Euphrates each independently bootstrapped urban civilization — three pristine origins, only loosely in contact."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "China's Yellow River was the fourth such cradle — the same pattern, a continent away, with no contact at all."
     }
   ],
   "2": [
@@ -37,6 +55,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 2,
       "blurb": "As the Badarian phase was shading into Naqada I around 3800 BCE, the Mesopotamian Ubaid culture was crystallizing around proto-urban temple centers like Eridu — the site the Sumerians themselves would later call the oldest city in the world. Eridu's mud-brick temple sequence, rebuilt layer upon layer over centuries, represents the same slow accumulation of religious authority that was happening at Hierakonpolis on the Nile."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Badarian material culture is Egypt's equivalent of Sumer's Ubaid phase — the deep village substrate the later state grew from."
     }
   ],
   "3": [
@@ -45,6 +69,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 2,
       "blurb": "By 3300 BCE Uruk was a city of roughly 40,000 people — the largest human settlement in the world — with monumental temple architecture, the first proto-cuneiform tablets, and a 'colonial' trading network stretching from the Persian Gulf to Syria. Egypt's Naqada II elites were importing Mesopotamian cylinder seals and niched-facade architectural ideas from this same Uruk expansion, the first indirect contact between the two great river-valley civilizations."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "Naqada's elite tombs and craft specialization parallel Uruk's rise — competitive chiefdoms hardening toward kingship."
     }
   ],
   "4": [
@@ -65,6 +95,12 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 1,
       "blurb": "The A-Group culture of Lower Nubia was Egypt's southern neighbor and earliest regular trading partner. Nubian gold, ebony, ivory, incense, and exotic goods flowed north into the predynastic Egyptian economy, while Egyptian grain, pottery, and manufactured goods flowed south. The relationship was mutually profitable until the early dynastic period, when Egyptian military expeditions began pushing south of the First Cataract."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "As Upper Egypt unified, its southern neighbor and rival-partner Nubia was developing in parallel along the same river — the two Nile civilizations entwined from the start."
     }
   ],
   "5": [
@@ -87,6 +123,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 3,
       "blurb": "While Egypt's First Dynasty was building a centralized bureaucratic state under a single king, the Sumerian city-states were doing the opposite — consolidating as independent kingdoms that would spend the next several centuries fighting each other for regional dominance. The contrast between Egypt's top-down unity and Mesopotamia's competitive fragmentation is one of the defining structural differences between the two civilizations."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "The First Dynasty's administrative apparatus — sealings, taxation, royal cult — is Egypt's version of the bureaucratic state Sumer's cities pioneered."
     }
   ],
   "7": [
@@ -107,6 +149,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 6,
       "blurb": "The Longshan culture in the Yellow River valley was China's equivalent of Egypt's late predynastic and early dynastic period — the phase when walled towns, wheel-made black pottery, and rammed-earth fortifications appeared, and when the first serious political competition between regional centers was producing something that looked increasingly like early states. Both civilizations were solving the same problem at roughly the same time."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "The Second Dynasty crisis — possible religious civil war — recalls the dynastic ruptures that punctuate Mesopotamian history; early states were fragile."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 2,
+      "blurb": "Where the Indus stayed eerily uniform, Egypt's crises are loud and recorded — two opposite signatures of early-state stress."
     }
   ],
   "8": [
@@ -133,6 +187,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 7,
       "blurb": "When Khasekhemwy dies around 2686 BCE, China is in the late Longshan period — a century or two away from the legendary Xia dynasty and the first historical Shang. The Chinese were building walled towns, producing exquisite wheel-turned pottery, and generating the kind of inter-community competition that would soon produce the first Chinese states, but they had not yet crossed the threshold into bronze-working or palace-building urbanism."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 2,
+      "blurb": "Khasekhemwy's reign sets up the Pyramid Age — monumental architecture as state power, the same equation Caral made on the Peruvian coast."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 3,
+      "blurb": "The eve of the pyramids in Egypt is contemporary with China's late-Neolithic jade-and-wall cultures — monumental ambition rising on two continents."
     }
   ]
 }

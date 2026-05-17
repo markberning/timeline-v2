@@ -397,6 +397,12 @@
       "matchText": "Social hierarchy",
       "wikiSlug": "Social_stratification",
       "type": "concept"
+    },
+    {
+      "term": "Naqada culture",
+      "matchText": "Naqada Sequence",
+      "wikiSlug": "Naqada_culture",
+      "type": "concept"
     }
   ],
   "3": [
@@ -694,6 +700,12 @@
       "term": "Girga",
       "matchText": "Girga",
       "wikiSlug": "Girga",
+      "type": "place"
+    },
+    {
+      "term": "Hierakonpolis",
+      "matchText": "Hierakonpolis",
+      "wikiSlug": "Hierakonpolis",
       "type": "place"
     }
   ],
@@ -1011,6 +1023,12 @@
       "matchText": "Lebanon",
       "wikiSlug": "Lebanon",
       "type": "place"
+    },
+    {
+      "term": "Hor-Aha",
+      "matchText": "Hor-Aha",
+      "wikiSlug": "Hor-Aha",
+      "type": "people"
     }
   ],
   "7": [
@@ -1267,6 +1285,12 @@
       "matchText": "mudbrick",
       "wikiSlug": "Mudbrick",
       "type": "concept"
+    },
+    {
+      "term": "Khasekhemwy",
+      "matchText": "Khasekhemwy",
+      "wikiSlug": "Khasekhemwy",
+      "type": "people"
     }
   ]
 }
