@@ -23,6 +23,18 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 2,
       "blurb": "The monumental platform mounds at Caral on the coast of Peru were roughly contemporary with the Step Pyramid — built by a cotton-and-anchovy economy that had no pottery, no writing, and no metal tools. Both civilizations independently discovered that organized labor could build mountains, on opposite sides of the planet."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 2,
+      "blurb": "Egypt's pyramid age is contemporary with China's late-Neolithic monument cultures — colossal labor mobilization arising independently."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 2,
+      "blurb": "Caral's platform mounds and Egypt's pyramids are the same idea on two continents: monumental architecture as the signature of the first states."
     }
   ],
   "2": [
@@ -37,6 +49,12 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 2,
       "blurb": "The city of Caral was at its peak at the same time Sneferu was building at Dahshur — with sunken circular plazas and monumental adobe platforms, contemporary with the Bent and Red Pyramids but built by a culture with no pottery, no metal, and no writing. Both civilizations were mobilizing large labor forces for monumental construction, independently and without contact."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 3,
+      "blurb": "Sneferu's experimental pyramids show the engineering learning curve — the kind of accumulated craft tradition Bronze Age China built in bronze."
     }
   ],
   "3": [],
@@ -53,6 +71,18 @@
       "targetTl": "indus-valley",
       "targetChapter": 7,
       "blurb": "During the Fifth Dynasty, the Mature Harappan civilization was at its commercial peak — Mohenjo-daro may have had 40,000 residents, and Indus Valley merchants were shipping goods to Mesopotamian ports via the Persian Gulf. The Indus and Egyptian civilizations had no direct contact, but both were linked through Mesopotamia's trade networks."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 3,
+      "blurb": "The Sun Kings' solar theology centralized cosmic authority in the crown — comparable to the religious centralization at Chavín."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "The rise of the sun cult and powerful priesthoods parallels Mesopotamian temple economies — religion as a pillar of, and rival to, the throne."
     }
   ],
   "6": [
@@ -69,6 +99,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 5,
       "blurb": "The Akkadian Empire collapsed at almost exactly the same time as the Old Kingdom, under similar environmental stress from the 4.2-kiloyear drought event. The Tell Leilan site in northeastern Syria shows abrupt abandonment around 2200 BCE, with a dust layer in the archaeological record. Both civilizations were brought down by the same climate crisis, on opposite ends of the Fertile Crescent."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "The First Intermediate Period collapse — climate, fiscal strain, decentralization — mirrors the recurring Mesopotamian dark ages between dynasties."
     }
   ],
   "8": [
@@ -101,6 +137,18 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 4,
       "blurb": "In southwestern Iran, the Shimashki dynasty was asserting Elamite independence after the fall of the Ur III state. Elam and Egypt were both rebuilding from periods of external domination at roughly the same time — Elam recovering from Mesopotamian control, Egypt recovering from internal collapse."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 2,
+      "blurb": "Reunification reasserted Egyptian power over Nubia — the southern Nile relationship that would define both civilizations for millennia."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 4,
+      "blurb": "Egypt's collapse-and-recovery cycle is the same resilience pattern Elam showed against Mesopotamia — early states that broke and reformed."
     }
   ]
 }
