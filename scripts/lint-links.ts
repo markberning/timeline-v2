@@ -61,7 +61,9 @@ function chapters(tl: string): Map<string, { title: string; body: string }> {
 function matchesBody(matchText: string, body: string): boolean {
   const escaped = matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   try {
-    return new RegExp(`\\b(${escaped})\\b`, 'i').test(body)
+    // Mirror parse-narratives.ts replaceOutsideAnchors EXACTLY (Unicode-aware
+    // word boundary — accented matchText matches as written).
+    return new RegExp(`(?<![\\p{L}\\p{N}_])(${escaped})(?![\\p{L}\\p{N}_])`, 'iu').test(body)
   } catch {
     return false
   }
@@ -69,12 +71,9 @@ function matchesBody(matchText: string, body: string): boolean {
 
 function checkMatchText(tl: string, ch: string, kind: string, mt: string, title: string, body: string) {
   if (!mt || !mt.trim()) { add(tl, ch, kind, 'ERROR', `empty matchText`); return }
-  // JS `\b` is ASCII-defined, so a non-ASCII char only defeats the parser's
-  // `\b(...)\b` when it sits at the *boundary* (first/last char). Interior
-  // accents ("Monte Albán", "Albrecht Dürer") still match fine — let the
-  // exact `matchesBody` test below be the sole judge of those, otherwise this
-  // rule cries wolf on hundreds of links that actually work.
-  if (/^[^\x00-\x7F]/.test(mt) || /[^\x00-\x7F]$/.test(mt)) add(tl, ch, kind, 'ERROR', `non-ASCII at matchText boundary ${JSON.stringify(mt)} — \\b is ASCII-only, parser will not match`)
+  // Non-ASCII matchText is fine now: the parser uses Unicode-aware boundaries,
+  // so accented terms ("Þingvellir", "Reykjavík", "Hernán Cortés") match as
+  // written. `matchesBody` below is the sole judge — no separate ASCII rule.
   if (/^[^\w]|[^\w'’]$/.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} has leading/trailing punctuation`)
   const words = mt.trim().split(/\s+/)
   if (words.length > 6 || /,/.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} looks sentence-like (likely sloppy)`)

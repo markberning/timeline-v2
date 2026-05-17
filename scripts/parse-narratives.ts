@@ -397,7 +397,13 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
   function replaceOutsideAnchors(text: string, matchText: string, replacement: string): { result: string; replaced: boolean } {
     const parts = text.split(/(<a\b[^>]*>[\s\S]*?<\/a>)/g)
     const escaped = matchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    const regex = new RegExp(`\\b(${escaped})\\b`, 'i')
+    // Unicode-aware word boundary. JS `\b` is ASCII-only, so a matchText that
+    // starts or ends with an accented letter ("Þingvellir", "Reykjavík",
+    // "Hernán Cortés") never matched and the link was silently dropped. The
+    // \p{L}\p{N}_ lookarounds treat accented letters as word chars, so accented
+    // matchText matches exactly as written — and it is *stricter* than \b for
+    // ASCII (won't match "Mal" inside "Mälaren").
+    const regex = new RegExp(`(?<![\\p{L}\\p{N}_])(${escaped})(?![\\p{L}\\p{N}_])`, 'iu')
     for (let i = 0; i < parts.length; i++) {
       if (i % 2 === 1) continue // already an anchor — skip
       const before = parts[i]
@@ -550,7 +556,7 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
       const entry = allGlossaryLinks.find(l => l.matchText === term)
       if (!entry || used.has(entry.wikiSlug)) continue
       const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-      const regex = new RegExp(`(?<!<[^>]*)\\b(${escaped})\\b`)
+      const regex = new RegExp(`(?<!<[^>]*)(?<![\\p{L}\\p{N}_])(${escaped})(?![\\p{L}\\p{N}_])`, 'u')
       const before = result
       result = result.replace(regex, `<a class="glossary-link" data-wiki-slug="${entry.wikiSlug}">${term}</a>`)
       if (result !== before) used.add(entry.wikiSlug)
