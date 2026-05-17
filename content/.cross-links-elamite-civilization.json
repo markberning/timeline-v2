@@ -35,6 +35,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 4,
       "blurb": "Queen Puabi's death pit at Ur contained 74 sacrificed attendants, gold jewelry, and the most famous lapis-and-carnelian headdress of the Bronze Age — all of it routed to Ur through Elamite overland caravans and Indus maritime trade. Mesopotamia Chapter 4 walks through the Royal Tombs and the wealth they document."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "Elam is Mesopotamia's oldest mirror and rival — a highland-and-lowland civilization on the Iranian plateau, recorded mostly through its Sumerian-Akkadian neighbor."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 3,
+      "blurb": "Proto-Elamite Susa sat on the trade road between Sumer and the Indus — a hinge in the Bronze Age long-distance network."
     }
   ],
   "2": [
@@ -63,6 +75,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 3,
       "blurb": "The Shang oracle bones from Anyang record repeated brother-to-brother throne transfers rather than father-to-son inheritance — exactly the pattern the Shimashki and Sukkalmah Elamite dynasties would formalize. Ancient China Chapter 3 covers the Shang succession system, which is the closest structural parallel anywhere in the ancient world to Elam's collective kingship."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 6,
+      "blurb": "The fall of Ur and Elam's role in it is one of the great set-pieces of Mesopotamian history — Elam as the eastern power that could topple the lowland hegemon."
+    },
+    {
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 3,
+      "blurb": "Elam's distinctive script and pantheon mark it as a pristine highland civilization — independent the way early China's was, not a Sumerian colony."
     }
   ],
   "4": [
@@ -97,6 +121,24 @@
       "targetTl": "mesopotamia",
       "targetChapter": 8,
       "blurb": "Middle Elamite Elam was part of the Late Bronze Age great-power club documented in the Amarna Letters — the cuneiform diplomatic archive in which Kassite Babylonian, Mitanni, Hittite, and Assyrian kings all wrote to Egypt as peers. Mesopotamia Chapter 8 covers the diplomatic system in which Chogha Zanbil's Elam was an equal player."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 8,
+      "blurb": "The Ziggurat Generation — Chogha Zanbil — shows Elam matching and outbuilding Mesopotamian sacred architecture at its peak."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 7,
+      "blurb": "Elam, like Nubia, was a proud periphery power that periodically humiliated the great river civilization it lived beside."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 5,
+      "blurb": "Elam's monumental religious architecture is its version of the temple-mound statehood the Andes built independently."
     }
   ],
   "6": [
@@ -117,6 +159,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 9,
       "blurb": "Nebuchadnezzar I — the first king of that name, not to be confused with the Neo-Babylonian Nebuchadnezzar II six centuries later — organized the Babylonian counterattack that sacked Susa and recovered the Marduk statue. Mesopotamia Chapter 9 covers his war and its cultural aftermath, including the Enuma Elish that was composed to celebrate Marduk's return."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 8,
+      "blurb": "The Elamite sack of Babylon — carrying off the Victory Stele of Naram-Sin and Hammurabi's laws — is one of history's great cultural plunders."
     }
   ],
   "7": [
@@ -150,13 +198,25 @@
       "matchText": "Chinese script, running from the Shang oracle bones",
       "targetTl": "ancient-china",
       "targetChapter": 8,
-      "blurb": "Chinese script's unbroken 3,200-year run begins with the Shang oracle bones \u2014 turtle plastrons and ox scapulae inscribed with divinations about rain, harvests, and royal hunts, found by the tens of thousands at the Shang capital of Anyang. Ancient China Chapter 8 closes on the Erlitou-to-Shang transition that the oracle bones grow directly out of \u2014 the beginning of the writing tradition that would outlast every other ancient scribal system including Elam's own."
+      "blurb": "Chinese script's unbroken 3,200-year run begins with the Shang oracle bones — turtle plastrons and ox scapulae inscribed with divinations about rain, harvests, and royal hunts, found by the tens of thousands at the Shang capital of Anyang. Ancient China Chapter 8 closes on the Erlitou-to-Shang transition that the oracle bones grow directly out of — the beginning of the writing tradition that would outlast every other ancient scribal system including Elam's own."
     },
     {
       "matchText": "everything from Egypt to the Indus River",
       "targetTl": "ancient-nubia",
       "targetChapter": 7,
-      "blurb": "The Persian Empire inherited the Egyptian provincial administrative system when Cambyses II conquered Egypt in 525 BCE \u2014 and the model Egypt had built for governing Nubia was the prototype that Cambyses's new satrapy machinery now pointed upriver. Ancient Nubia Chapter 7 tells the pharaonic side of the same story: the Viceroy of Kush, the gold-pipeline bureaucracy, the colonial governor model that Egypt pioneered around 1550 BCE and that the Persians plugged straight into their own satrapy system a thousand years later."
+      "blurb": "The Persian Empire inherited the Egyptian provincial administrative system when Cambyses II conquered Egypt in 525 BCE — and the model Egypt had built for governing Nubia was the prototype that Cambyses's new satrapy machinery now pointed upriver. Ancient Nubia Chapter 7 tells the pharaonic side of the same story: the Viceroy of Kush, the gold-pipeline bureaucracy, the colonial governor model that Egypt pioneered around 1550 BCE and that the Persians plugged straight into their own satrapy system a thousand years later."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Elam's true afterlife is Persia: Susa became an Achaemenid capital, Elamite became a Persian chancery language — the civilization absorbed but echoing on."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 10,
+      "blurb": "Like the Indus dissolving into Vedic India, Elam dissolved into the Persian world — not destroyed so much as inherited."
     }
   ]
 }
