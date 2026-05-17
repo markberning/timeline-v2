@@ -131,6 +131,12 @@
       "matchText": "Buddha",
       "wikiSlug": "Gautama_Buddha",
       "type": "person"
+    },
+    {
+      "term": "Prince Shōtoku",
+      "matchText": "Shotoku Taishi",
+      "wikiSlug": "Prince_Shōtoku",
+      "type": "people"
     }
   ],
   "2": [
@@ -357,6 +363,12 @@
       "matchText": "Xuanwu Gate Incident",
       "wikiSlug": "Xuanwu_Gate_Incident",
       "type": "concept"
+    },
+    {
+      "term": "Taika Reform",
+      "matchText": "Taika Reform",
+      "wikiSlug": "Taika_Reform",
+      "type": "concept"
     }
   ],
   "4": [
@@ -473,6 +485,12 @@
       "matchText": "Wu Zetian",
       "wikiSlug": "Wu_Zetian",
       "type": "person"
+    },
+    {
+      "term": "Nihon Shoki",
+      "matchText": "Nihon Shoki",
+      "wikiSlug": "Nihon_Shoki",
+      "type": "concept"
     }
   ],
   "5": [
@@ -845,6 +863,18 @@
       "matchText": "Tang Emperor Xuanzong",
       "wikiSlug": "Emperor_Xuanzong_of_Tang",
       "type": "person"
+    },
+    {
+      "term": "Ō no Yasumaro",
+      "matchText": "O no Yasumaro",
+      "wikiSlug": "Ō_no_Yasumaro",
+      "type": "people"
+    },
+    {
+      "term": "Hiragana",
+      "matchText": "hiragana",
+      "wikiSlug": "Hiragana",
+      "type": "concept"
     }
   ],
   "8": [
