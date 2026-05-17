@@ -4,19 +4,31 @@
       "matchText": "Mongol Empire",
       "targetTl": "mongol-empire",
       "targetChapter": 1,
-      "blurb": "Sundiata's adult life ran almost exactly parallel to the Mongol expansion under Genghis Khan and his sons. Genghis died in 1227, the same decade Sundiata's military career was beginning. The Mongol invasions reshaped the Islamic world Mali was about to integrate into \u2014 sacking Baghdad in 1258 and ending the Abbasid caliphate that had been the institutional center of Sunni Islamic scholarship. The diffusion of Islamic learning into peripheral regions like Mali accelerated as scholars relocated from the destroyed center."
+      "blurb": "Sundiata's adult life ran almost exactly parallel to the Mongol expansion under Genghis Khan and his sons. Genghis died in 1227, the same decade Sundiata's military career was beginning. The Mongol invasions reshaped the Islamic world Mali was about to integrate into — sacking Baghdad in 1258 and ending the Abbasid caliphate that had been the institutional center of Sunni Islamic scholarship. The diffusion of Islamic learning into peripheral regions like Mali accelerated as scholars relocated from the destroyed center."
     },
     {
       "matchText": "Almoravids",
       "targetTl": "islamic-golden-age",
       "targetChapter": 8,
-      "blurb": "The Almoravid dynasty was the militant Sunni Berber movement from the western Sahara that conquered Morocco and Muslim Spain in the late eleventh century, and the same movement that pressured Ghana's northern frontier in the 1070s. The Almoravids represent the moment when sub-Saharan Africa first came into sustained military contact with the broader Islamic world's reform-and-conquest movements \u2014 a pattern that would repeat with the later Saadian, Fula, and Wahhabi-influenced movements that successively reshaped West African politics."
+      "blurb": "The Almoravid dynasty was the militant Sunni Berber movement from the western Sahara that conquered Morocco and Muslim Spain in the late eleventh century, and the same movement that pressured Ghana's northern frontier in the 1070s. The Almoravids represent the moment when sub-Saharan Africa first came into sustained military contact with the broader Islamic world's reform-and-conquest movements — a pattern that would repeat with the later Saadian, Fula, and Wahhabi-influenced movements that successively reshaped West African politics."
     },
     {
       "matchText": "Abbasid caliphate",
       "targetTl": "islamic-golden-age",
       "targetChapter": 10,
-      "blurb": "The Abbasid Caliphate at Baghdad was, until its destruction by the Mongols in 1258, the institutional center of Sunni Islamic scholarship and the producer of the broader intellectual tradition Mali would shortly inherit. The Sankor\u00e9-era Timbuktu scholarship of the fourteenth and fifteenth centuries was directly continuous with the Abbasid scholarly synthesis, working from the same Arabic-language texts and the same chains of teacher-student transmission. The Islamic Golden Age was Mali's intellectual ancestor at one remove."
+      "blurb": "The Abbasid Caliphate at Baghdad was, until its destruction by the Mongols in 1258, the institutional center of Sunni Islamic scholarship and the producer of the broader intellectual tradition Mali would shortly inherit. The Sankoré-era Timbuktu scholarship of the fourteenth and fifteenth centuries was directly continuous with the Abbasid scholarly synthesis, working from the same Arabic-language texts and the same chains of teacher-student transmission. The Islamic Golden Age was Mali's intellectual ancestor at one remove."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 8,
+      "blurb": "While Mali formed in the Sahel, the Postclassic Maya were reorganizing in the Yucatán — parallel non-European civilizations the Atlantic age would later disrupt."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "Mali's founding generation is roughly contemporary with the Aztec arrival in the Valley of Mexico — two empires being born unconnected on two continents."
     }
   ],
   "2": [
@@ -24,13 +36,13 @@
       "matchText": "Magna Carta",
       "targetTl": "byzantine-empire",
       "targetChapter": 8,
-      "blurb": "The thirteenth century was a moment of constitutional document-making across multiple civilizations \u2014 Magna Carta in England in 1215, the Kurukan Fuga in Mali in 1236, and the elaborate Byzantine legal compilations of the same period that would shortly become the basis of late-medieval Eastern Roman law. The fact that three completely independent political traditions all produced foundational legal-constitutional documents within a generation of each other is one of those striking convergences that suggests broader thirteenth-century institutional pressures than any single regional explanation can capture."
+      "blurb": "The thirteenth century was a moment of constitutional document-making across multiple civilizations — Magna Carta in England in 1215, the Kurukan Fuga in Mali in 1236, and the elaborate Byzantine legal compilations of the same period that would shortly become the basis of late-medieval Eastern Roman law. The fact that three completely independent political traditions all produced foundational legal-constitutional documents within a generation of each other is one of those striking convergences that suggests broader thirteenth-century institutional pressures than any single regional explanation can capture."
     },
     {
       "matchText": "Mongol Empire",
       "targetTl": "mongol-empire",
       "targetChapter": 4,
-      "blurb": "\u00d6gedei Khan launched the western Mongol invasion of Russia and Eastern Europe in 1236 \u2014 the same year Sundiata convened the assembly at Kurukan Fuga. While Sundiata was establishing Mali as a structured multi-ethnic empire with codified inter-clan obligations, the Mongols were demonstrating an alternative model of imperial integration: rapid conquest and absorption of subject peoples into a central military-administrative system. The two empires would never meet directly, but the contrast in approach is one of the defining structural choices of thirteenth-century imperialism."
+      "blurb": "Ögedei Khan launched the western Mongol invasion of Russia and Eastern Europe in 1236 — the same year Sundiata convened the assembly at Kurukan Fuga. While Sundiata was establishing Mali as a structured multi-ethnic empire with codified inter-clan obligations, the Mongols were demonstrating an alternative model of imperial integration: rapid conquest and absorption of subject peoples into a central military-administrative system. The two empires would never meet directly, but the contrast in approach is one of the defining structural choices of thirteenth-century imperialism."
     },
     {
       "matchText": "Hojo regents",
@@ -42,7 +54,19 @@
       "matchText": "Genghis Khan",
       "targetTl": "mongol-empire",
       "targetChapter": 2,
-      "blurb": "Sundiata Keita and Genghis Khan are almost exactly contemporary as founding figures of major thirteenth-century empires \u2014 Genghis died in 1227, Sundiata won at Kirina around 1235. The two empires represent opposite ends of the spectrum of thirteenth-century imperial style: the Mongols were a steppe military empire built on cavalry mobility and mass conquest, Mali was a Sahelian commercial empire built on trade networks and inter-ethnic accommodation. They never came into contact \u2014 the Sahara and the Persian-Turkic world stood between them \u2014 but they were the two most successful new states of the early thirteenth century."
+      "blurb": "Sundiata Keita and Genghis Khan are almost exactly contemporary as founding figures of major thirteenth-century empires — Genghis died in 1227, Sundiata won at Kirina around 1235. The two empires represent opposite ends of the spectrum of thirteenth-century imperial style: the Mongols were a steppe military empire built on cavalry mobility and mass conquest, Mali was a Sahelian commercial empire built on trade networks and inter-ethnic accommodation. They never came into contact — the Sahara and the Persian-Turkic world stood between them — but they were the two most successful new states of the early thirteenth century."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "Sundiata's founding of Mali (1235) is the same generation as the Latin sack and Nicaean exile of Byzantium — empires made and unmade across the 13th-century world."
+    },
+    {
+      "matchText": "Andean Kingdoms",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 5,
+      "blurb": "Mali's consolidation parallels the Andean kingdoms' own pre-Inca state-building — complex empires rising outside the literate Old World's notice."
     }
   ],
   "3": [
@@ -50,7 +74,7 @@
       "matchText": "African rice",
       "targetTl": "kingdom-of-aksum",
       "targetChapter": 1,
-      "blurb": "African rice \u2014 Oryza glaberrima \u2014 is one of the great independent agricultural achievements of sub-Saharan Africa, domesticated in West Africa around 1500 BCE roughly contemporary with the Aksumite-period independent domestication of teff in the Ethiopian highlands and the East African development of finger millet and sorghum. African civilizations developed entirely separate crop packages adapted to their specific ecological zones, making the continent one of the world's major centers of independent crop domestication."
+      "blurb": "African rice — Oryza glaberrima — is one of the great independent agricultural achievements of sub-Saharan Africa, domesticated in West Africa around 1500 BCE roughly contemporary with the Aksumite-period independent domestication of teff in the Ethiopian highlands and the East African development of finger millet and sorghum. African civilizations developed entirely separate crop packages adapted to their specific ecological zones, making the continent one of the world's major centers of independent crop domestication."
     }
   ],
   "4": [
@@ -64,25 +88,37 @@
       "matchText": "Catalan Atlas",
       "targetTl": "byzantine-empire",
       "targetChapter": 10,
-      "blurb": "Mediterranean Europe in 1375 \u2014 when the Catalan Atlas was drawn \u2014 was in a state of fundamental commercial and political reorganization driven by the Black Death (which killed roughly a third of Europe in 1347\u201351), the gradual loss of Byzantine territory to the Ottoman Turks, and the rise of Italian banking houses dependent on stable gold supplies. The Mansa Musa image on the Catalan Atlas reflects the central importance of West African gold to fourteenth-century Mediterranean monetization \u2014 Italian banks like the Medici would shortly build their fortunes partly on bullion that had flowed north from Mali through North African intermediaries."
+      "blurb": "Mediterranean Europe in 1375 — when the Catalan Atlas was drawn — was in a state of fundamental commercial and political reorganization driven by the Black Death (which killed roughly a third of Europe in 1347–51), the gradual loss of Byzantine territory to the Ottoman Turks, and the rise of Italian banking houses dependent on stable gold supplies. The Mansa Musa image on the Catalan Atlas reflects the central importance of West African gold to fourteenth-century Mediterranean monetization — Italian banks like the Medici would shortly build their fortunes partly on bullion that had flowed north from Mali through North African intermediaries."
     },
     {
       "matchText": "Black Death",
       "targetTl": "islamic-golden-age",
       "targetChapter": 10,
-      "blurb": "The Black Death reached Cairo and Damascus in 1347\u201348, the decade after Mansa Musa's death, and killed roughly a third of the Mamluk Egyptian population by some estimates. The plague struck the Mediterranean Islamic world as severely as it struck Christian Europe and reshaped the regional economy in ways that paralleled (and entangled with) the Christian European post-plague crisis. Mali's trans-Saharan trade partners were disrupted by the plague, though Mali itself was largely spared the direct demographic catastrophe."
+      "blurb": "The Black Death reached Cairo and Damascus in 1347–48, the decade after Mansa Musa's death, and killed roughly a third of the Mamluk Egyptian population by some estimates. The plague struck the Mediterranean Islamic world as severely as it struck Christian Europe and reshaped the regional economy in ways that paralleled (and entangled with) the Christian European post-plague crisis. Mali's trans-Saharan trade partners were disrupted by the plague, though Mali itself was largely spared the direct demographic catastrophe."
     },
     {
       "matchText": "Muhammad bin Tughluq",
       "targetTl": "delhi-sultanate",
       "targetChapter": 4,
-      "blurb": "Muhammad bin Tughluq's reign in Delhi (1325\u20131351) overlapped almost exactly with Mansa Musa's later years and his successors' reigns in Mali \u2014 and the two sultans were doing structurally similar things at opposite ends of the Islamic world. Both were observant Muslims patronizing scholars, both ran economically catastrophic monetary experiments that destabilized their treasuries, and both presided over Islamic empires that reached their territorial maximums in the 1330s before contracting. Ibn Battuta would shortly serve them both \u2014 Tughluq's court for several years as a judge, Mansa Suleyman's at Niani."
+      "blurb": "Muhammad bin Tughluq's reign in Delhi (1325–1351) overlapped almost exactly with Mansa Musa's later years and his successors' reigns in Mali — and the two sultans were doing structurally similar things at opposite ends of the Islamic world. Both were observant Muslims patronizing scholars, both ran economically catastrophic monetary experiments that destabilized their treasuries, and both presided over Islamic empires that reached their territorial maximums in the 1330s before contracting. Ibn Battuta would shortly serve them both — Tughluq's court for several years as a judge, Mansa Suleyman's at Niani."
     },
     {
       "matchText": "Mongol Yuan dynasty",
       "targetTl": "yuan-dynasty",
       "targetChapter": 6,
       "blurb": "The Yuan dynasty at its 1320s peak was running the Pax Mongolica that allowed Marco Polo, Ibn Battuta, and a generation of long-distance travelers to circulate across Eurasia in ways that were no longer possible a century later. The Yuan TL covers this commercial and cultural moment from the Khanbaliq side: Persian astronomers correcting Chinese calendars, Tibetan Buddhists at the Mongol court, paper currency circulating from China to Tabriz. Mansa Musa's hajj happened inside this Eurasian information system; the gold he distributed in Cairo would have been priced in dirhams that traders elsewhere were converting to Yuan paper money."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Mansa Musa's hajj (1324) flooded Cairo with gold just as the Pax Mongolica's Eurasian trade peaked — the medieval world economy at its richest."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 2,
+      "blurb": "Mansa Musa's Mali and the rising Aztec hegemony were the two great non-European imperial powers of the 14th century."
     }
   ],
   "5": [
@@ -90,25 +126,25 @@
       "matchText": "Tuareg",
       "targetTl": "scythians",
       "targetChapter": 6,
-      "blurb": "The Tuareg are one of several Saharan and Sahelian nomadic peoples whose military and economic role in their region recapitulates patterns established much earlier by the Eurasian steppe nomads \u2014 mobile pastoral confederations with periodic political consolidation, complex trading relationships with adjacent agricultural empires, and a structural ability to dominate or seize control of those empires when the central authority weakened. The Scythian-Sarmatian relationship to the classical Mediterranean world is the closest broad analogy to the Tuareg-Sahelian relationship through the medieval and early-modern periods."
+      "blurb": "The Tuareg are one of several Saharan and Sahelian nomadic peoples whose military and economic role in their region recapitulates patterns established much earlier by the Eurasian steppe nomads — mobile pastoral confederations with periodic political consolidation, complex trading relationships with adjacent agricultural empires, and a structural ability to dominate or seize control of those empires when the central authority weakened. The Scythian-Sarmatian relationship to the classical Mediterranean world is the closest broad analogy to the Tuareg-Sahelian relationship through the medieval and early-modern periods."
     },
     {
       "matchText": "Avicennian",
       "targetTl": "islamic-golden-age",
       "targetChapter": 6,
-      "blurb": "Avicenna \u2014 Ibn Sina (980\u20131037), the Persian polymath whose synthesis of Aristotelian philosophy and Galenic medicine became the standard medical reference across the Islamic world for six centuries \u2014 was the intellectual ancestor of Timbuktu's medical tradition. The Timbuktu manuscripts on medicine that survive in modern collections work directly from the Avicennian synthesis, demonstrating the unbroken continuity of an intellectual lineage from eleventh-century Persia through fourteenth-century Egypt to fifteenth-century West Africa."
+      "blurb": "Avicenna — Ibn Sina (980–1037), the Persian polymath whose synthesis of Aristotelian philosophy and Galenic medicine became the standard medical reference across the Islamic world for six centuries — was the intellectual ancestor of Timbuktu's medical tradition. The Timbuktu manuscripts on medicine that survive in modern collections work directly from the Avicennian synthesis, demonstrating the unbroken continuity of an intellectual lineage from eleventh-century Persia through fourteenth-century Egypt to fifteenth-century West Africa."
     },
     {
       "matchText": "Ibn Battuta",
       "targetTl": "kingdom-of-aksum",
       "targetChapter": 7,
-      "blurb": "Ibn Battuta's career as the most widely traveled person of the pre-modern world \u2014 75,000 miles by his own account, including East Africa, the Maldives, China, and Mali \u2014 was made possible by the same Indian Ocean trade networks that had once integrated the Aksumite kingdom into the broader medieval commercial world. Ibn Battuta's East African leg, including Mombasa and Kilwa, traced trade routes that had been functioning since the Aksumite period seven centuries earlier."
+      "blurb": "Ibn Battuta's career as the most widely traveled person of the pre-modern world — 75,000 miles by his own account, including East Africa, the Maldives, China, and Mali — was made possible by the same Indian Ocean trade networks that had once integrated the Aksumite kingdom into the broader medieval commercial world. Ibn Battuta's East African leg, including Mombasa and Kilwa, traced trade routes that had been functioning since the Aksumite period seven centuries earlier."
     },
     {
       "matchText": "Songhai",
       "targetTl": "islamic-golden-age",
       "targetChapter": 8,
-      "blurb": "The Songhai Empire under Sonni Ali and Askia Muhammad represents the third major phase of West African Islamic-period state-building, after Ghana and Mali. The intellectual and architectural inheritance these empires drew on was the Islamic Golden Age tradition \u2014 Mansa Musa imported scholars from the Maghreb, Askia Muhammad consulted al-Maghili on questions of governance modeled on classical Islamic political philosophy, and the Timbuktu manuscript collection grew from Arabic-language scholarly texts that were the direct successors of the Baghdad and Cairo scholarly traditions."
+      "blurb": "The Songhai Empire under Sonni Ali and Askia Muhammad represents the third major phase of West African Islamic-period state-building, after Ghana and Mali. The intellectual and architectural inheritance these empires drew on was the Islamic Golden Age tradition — Mansa Musa imported scholars from the Maghreb, Askia Muhammad consulted al-Maghili on questions of governance modeled on classical Islamic political philosophy, and the Timbuktu manuscript collection grew from Arabic-language scholarly texts that were the direct successors of the Baghdad and Cairo scholarly traditions."
     }
   ],
   "6": [
@@ -116,31 +152,49 @@
       "matchText": "Mehmed II",
       "targetTl": "byzantine-empire",
       "targetChapter": 12,
-      "blurb": "The Ottoman conquest of Constantinople in 1453 under Mehmed II and the Songhai conquest of Timbuktu in 1468 under Sonni Ali were both decisive moments of fifteenth-century Islamic-period state expansion, just fifteen years apart. The two events had different structural significance \u2014 Constantinople ended the Eastern Roman Empire, Timbuktu shifted regional Sahelian dominance \u2014 but both reflected the broader fifteenth-century pattern in which Islamic-period polities expanded at the expense of older established orders. The Black Sea-Indian Ocean-Sahel arc of fifteenth-century imperial reorganization is one of the major structural shifts of the late medieval period."
+      "blurb": "The Ottoman conquest of Constantinople in 1453 under Mehmed II and the Songhai conquest of Timbuktu in 1468 under Sonni Ali were both decisive moments of fifteenth-century Islamic-period state expansion, just fifteen years apart. The two events had different structural significance — Constantinople ended the Eastern Roman Empire, Timbuktu shifted regional Sahelian dominance — but both reflected the broader fifteenth-century pattern in which Islamic-period polities expanded at the expense of older established orders. The Black Sea-Indian Ocean-Sahel arc of fifteenth-century imperial reorganization is one of the major structural shifts of the late medieval period."
     },
     {
       "matchText": "Reconquista",
       "targetTl": "islamic-golden-age",
       "targetChapter": 9,
-      "blurb": "The completion of the Spanish Reconquista in 1492 \u2014 the same year Sonni Ali died \u2014 was the structural counterpart of Songhai's expansion: a Christian Mediterranean state pushing back against the Islamic-period political order that had governed Iberia for nearly eight centuries, while a non-Muslim-majority North African political style (Songhai's mixed Sonni-pagan tradition under Sonni Ali, then Islamicized under Askia Muhammad) pushed against the Mali Islamic order in the Sahel. Both transitions were happening at the same moment, on opposite sides of the Mediterranean, in opposite directions."
+      "blurb": "The completion of the Spanish Reconquista in 1492 — the same year Sonni Ali died — was the structural counterpart of Songhai's expansion: a Christian Mediterranean state pushing back against the Islamic-period political order that had governed Iberia for nearly eight centuries, while a non-Muslim-majority North African political style (Songhai's mixed Sonni-pagan tradition under Sonni Ali, then Islamicized under Askia Muhammad) pushed against the Mali Islamic order in the Sahel. Both transitions were happening at the same moment, on opposite sides of the Mediterranean, in opposite directions."
     },
     {
       "matchText": "Vasco da Gama",
       "targetTl": "ottoman-empire",
       "targetChapter": 4,
-      "blurb": "Vasco da Gama's 1498 maritime voyage to India \u2014 happening the year after Askia Muhammad's hajj \u2014 was the moment that began the structural transformation of Indian Ocean trade away from the Islamic-controlled Red Sea route and toward the Portuguese-controlled Cape of Good Hope route. The Ottoman Empire under Selim I would shortly absorb Mamluk Egypt (1517) and try to defend the Red Sea route against Portuguese competition. The downstream effects of da Gama's voyage included the gradual reduction of trans-Saharan trade volumes that contributed to Songhai and Mali's later seventeenth-century decline."
+      "blurb": "Vasco da Gama's 1498 maritime voyage to India — happening the year after Askia Muhammad's hajj — was the moment that began the structural transformation of Indian Ocean trade away from the Islamic-controlled Red Sea route and toward the Portuguese-controlled Cape of Good Hope route. The Ottoman Empire under Selim I would shortly absorb Mamluk Egypt (1517) and try to defend the Red Sea route against Portuguese competition. The downstream effects of da Gama's voyage included the gradual reduction of trans-Saharan trade volumes that contributed to Songhai and Mali's later seventeenth-century decline."
     },
     {
       "matchText": "Pachacuti",
       "targetTl": "andean-kingdoms",
       "targetChapter": 6,
-      "blurb": "The Inca Empire under Pachacuti and his successors was at its expansionist peak through the same decades Songhai was absorbing the Mali eastern provinces \u2014 both empires representing fifteenth-century imperial consolidation in regions that had previously had multiple competing smaller states. The structural parallels are striking: both used heavy infantry as their core military force (Inca using clubs and slings, Songhai using cavalry and infantry), both built state religious systems that legitimized imperial rule, and both would shortly face civilization-altering external shocks (the Spanish for the Inca, the Saadian Moroccans for Songhai)."
+      "blurb": "The Inca Empire under Pachacuti and his successors was at its expansionist peak through the same decades Songhai was absorbing the Mali eastern provinces — both empires representing fifteenth-century imperial consolidation in regions that had previously had multiple competing smaller states. The structural parallels are striking: both used heavy infantry as their core military force (Inca using clubs and slings, Songhai using cavalry and infantry), both built state religious systems that legitimized imperial rule, and both would shortly face civilization-altering external shocks (the Spanish for the Inca, the Saadian Moroccans for Songhai)."
     },
     {
       "matchText": "Sonni Ali",
       "targetTl": "songhai-empire",
       "targetChapter": 1,
-      "blurb": "Sonni Ali's twenty-eight-year campaign of conquest \u2014 which captured Timbuktu in 1468, Djenn\u00e9 in 1473, and turned the small Niger Bend kingdom of Gao into the dominant West African empire \u2014 is the founding act of the Songhai Empire narrative. The Mali contraction this chapter describes from the Mande side is the Songhai expansion from the Songhai side. Both stories happen at the same time, on the same Niger Bend, and the resentments Sonni Ali generated among the Timbuktu scholarly class would shape the political-religious history of the Sahel for the next century."
+      "blurb": "Sonni Ali's twenty-eight-year campaign of conquest — which captured Timbuktu in 1468, Djenné in 1473, and turned the small Niger Bend kingdom of Gao into the dominant West African empire — is the founding act of the Songhai Empire narrative. The Mali contraction this chapter describes from the Mande side is the Songhai expansion from the Songhai side. Both stories happen at the same time, on the same Niger Bend, and the resentments Sonni Ali generated among the Timbuktu scholarly class would shape the political-religious history of the Sahel for the next century."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "As Songhai began eating Mali, Ming China was founding its own native dynasty — both Old World powers reorganizing in the 14th–15th centuries."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Mali's decline runs alongside Byzantium's final fall (1453) — two old powers fading as the early-modern world took shape."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 5,
+      "blurb": "Mali shrank as the Aztec Triple Alliance reached its high tide — the medieval imperial baton passing on both continents."
     }
   ],
   "7": [
@@ -148,13 +202,13 @@
       "matchText": "Tondibi",
       "targetTl": "ottoman-empire",
       "targetChapter": 5,
-      "blurb": "The matchlock musket that decided Tondibi in 1591 was the same weapon system that had earlier given the Ottoman Janissaries their dominant battlefield position in the eastern Mediterranean and Persian frontier. The technology was being diffused across the Islamic world through the late sixteenth century \u2014 the Saadian Moroccans bought their muskets from Ottoman trade and from European arms dealers, and the Ottoman gunpowder revolution of the fifteenth century had already established the broad pattern that would now play out at Tondibi against the Sahelian cavalry tradition."
+      "blurb": "The matchlock musket that decided Tondibi in 1591 was the same weapon system that had earlier given the Ottoman Janissaries their dominant battlefield position in the eastern Mediterranean and Persian frontier. The technology was being diffused across the Islamic world through the late sixteenth century — the Saadian Moroccans bought their muskets from Ottoman trade and from European arms dealers, and the Ottoman gunpowder revolution of the fifteenth century had already established the broad pattern that would now play out at Tondibi against the Sahelian cavalry tradition."
     },
     {
       "matchText": "Saadian dynasty",
       "targetTl": "ottoman-empire",
       "targetChapter": 4,
-      "blurb": "The Saadian dynasty of Morocco was the structural counterpart of the Safavid and Mughal dynasties \u2014 a sixteenth-century Sunni Islamic state that built its political legitimacy on religious credentials (sharifian descent from the Prophet) and used European-pattern military technology (matchlock muskets, artillery) to project force regionally. The Saadian-Ottoman relationship was complex: Morocco was independent of Ottoman authority but participated in the broader Ottoman-influenced Sunni political order, and used Ottoman-supplied weapons in the campaigns that finished Songhai and reshaped the Sahel."
+      "blurb": "The Saadian dynasty of Morocco was the structural counterpart of the Safavid and Mughal dynasties — a sixteenth-century Sunni Islamic state that built its political legitimacy on religious credentials (sharifian descent from the Prophet) and used European-pattern military technology (matchlock muskets, artillery) to project force regionally. The Saadian-Ottoman relationship was complex: Morocco was independent of Ottoman authority but participated in the broader Ottoman-influenced Sunni political order, and used Ottoman-supplied weapons in the campaigns that finished Songhai and reshaped the Sahel."
     },
     {
       "matchText": "Atlantic slave trade",
@@ -166,7 +220,7 @@
       "matchText": "Askia Ishaq II",
       "targetTl": "songhai-empire",
       "targetChapter": 8,
-      "blurb": "The destruction of Askia Ishaq II's Songhai army at Tondibi is the closing event of the Songhai Empire narrative \u2014 the moment a Sahelian cavalry empire was wiped out in a single afternoon by a much smaller force armed with matchlock muskets and cannon. The Songhai TL covers the same battle from the Songhai side: how the imperial military system Askia Muhammad had built failed against gunpowder, and what happened to Gao, Timbuktu, and Djenn\u00e9 after the Saadian occupation."
+      "blurb": "The destruction of Askia Ishaq II's Songhai army at Tondibi is the closing event of the Songhai Empire narrative — the moment a Sahelian cavalry empire was wiped out in a single afternoon by a much smaller force armed with matchlock muskets and cannon. The Songhai TL covers the same battle from the Songhai side: how the imperial military system Askia Muhammad had built failed against gunpowder, and what happened to Gao, Timbuktu, and Djenné after the Saadian occupation."
     }
   ],
   "8": [
@@ -174,25 +228,43 @@
       "matchText": "UNESCO",
       "targetTl": "byzantine-empire",
       "targetChapter": 12,
-      "blurb": "The UNESCO Intangible Cultural Heritage program \u2014 under which the Manden Charter was inscribed in 2009 \u2014 emerged in the late twentieth century as a way to recognize cultural achievements that survive primarily in oral and ritual transmission rather than physical artifacts. The contrast with the older UNESCO World Heritage Site program (which protects physical sites like Hagia Sophia or the Pyramids) reflects the broader recognition that pre-modern oral traditions are as much a part of human cultural heritage as monumental physical remains."
+      "blurb": "The UNESCO Intangible Cultural Heritage program — under which the Manden Charter was inscribed in 2009 — emerged in the late twentieth century as a way to recognize cultural achievements that survive primarily in oral and ritual transmission rather than physical artifacts. The contrast with the older UNESCO World Heritage Site program (which protects physical sites like Hagia Sophia or the Pyramids) reflects the broader recognition that pre-modern oral traditions are as much a part of human cultural heritage as monumental physical remains."
     },
     {
       "matchText": "al-Qaeda in the Islamic Maghreb",
       "targetTl": "ottoman-empire",
       "targetChapter": 11,
-      "blurb": "The 2012 jihadist occupation of Timbuktu was part of a broader pattern of late-twentieth- and early-twenty-first-century militant Sunni movements that draw their ideological inspiration from a particular reading of the Saudi-Wahhabi tradition and that treat traditional Sufi-influenced popular Islam as unacceptable folk practice. The same broad ideological lineage runs through movements active in Iraq, Syria, Afghanistan, the Sahel, and Yemen \u2014 and the structural challenge they pose to the older Islamic civilizational synthesis is one of the defining religious-political crises of the contemporary Muslim world."
+      "blurb": "The 2012 jihadist occupation of Timbuktu was part of a broader pattern of late-twentieth- and early-twenty-first-century militant Sunni movements that draw their ideological inspiration from a particular reading of the Saudi-Wahhabi tradition and that treat traditional Sufi-influenced popular Islam as unacceptable folk practice. The same broad ideological lineage runs through movements active in Iraq, Syria, Afghanistan, the Sahel, and Yemen — and the structural challenge they pose to the older Islamic civilizational synthesis is one of the defining religious-political crises of the contemporary Muslim world."
     },
     {
       "matchText": "Aurangzeb",
       "targetTl": "safavid-persia",
       "targetChapter": 7,
-      "blurb": "The Mughal Empire under Aurangzeb (1658\u20131707) and the Safavid Empire under Sultan Husayn (1694\u20131722) were both Islamic-period polities entering long structural decline at the same moment Mali was finally evaporating as an institutional state. The three Islamic-period empires of the early-modern world outside the Ottoman core were all facing similar structural crises in the same period: rising European Atlantic commercial power, internal religious-political fragmentation, and the gradual obsolescence of older military traditions in the face of European gunpowder technology."
+      "blurb": "The Mughal Empire under Aurangzeb (1658–1707) and the Safavid Empire under Sultan Husayn (1694–1722) were both Islamic-period polities entering long structural decline at the same moment Mali was finally evaporating as an institutional state. The three Islamic-period empires of the early-modern world outside the Ottoman core were all facing similar structural crises in the same period: rising European Atlantic commercial power, internal religious-political fragmentation, and the gradual obsolescence of older military traditions in the face of European gunpowder technology."
     },
     {
-      "matchText": "Potos\u00ed",
+      "matchText": "Potosí",
       "targetTl": "andean-kingdoms",
       "targetChapter": 8,
-      "blurb": "The colonial Spanish silver extraction at Potos\u00ed in the seventeenth century \u2014 pumping enormous quantities of Andean silver into the global economy \u2014 did to the seventeenth-century European silver supply something analogous to what Mansa Musa's gold had done to the fourteenth-century Egyptian gold supply, but on a much larger scale and through coerced indigenous labor rather than royal display. The two episodes bracket the period during which non-European bullion fundamentally shaped European monetary history."
+      "blurb": "The colonial Spanish silver extraction at Potosí in the seventeenth century — pumping enormous quantities of Andean silver into the global economy — did to the seventeenth-century European silver supply something analogous to what Mansa Musa's gold had done to the fourteenth-century Egyptian gold supply, but on a much larger scale and through coerced indigenous labor rather than royal display. The two episodes bracket the period during which non-European bullion fundamentally shaped European monetary history."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "Mali's long tail — a remembered name long after real power was gone — is the kind of afterlife the Roman idea also enjoyed."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 9,
+      "blurb": "Mali's final dissolution coincides with the Ottoman early-modern reordering of the Islamic world — the Saadian gunpowder strike that broke Songhai part of the same arc."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "Like the old Mesopotamian states, Mali ended not in a single catastrophe but in a slow dissolution into successors."
     }
   ]
 }
