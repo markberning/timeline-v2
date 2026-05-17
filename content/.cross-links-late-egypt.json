@@ -17,6 +17,12 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 5,
       "blurb": "The Zhou Dynasty in China was undergoing its own crisis of political fragmentation during the Spring and Autumn period, roughly contemporary with Egypt's Saite Renaissance. Both civilizations in crisis looked backward for legitimacy — the Egyptians to Old Kingdom monuments, Confucius to idealized early Zhou ritual."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 5,
+      "blurb": "The Saites pushed out the Nubian 25th Dynasty — the Kushite pharaohs retreating south to Meroë as native Egyptian power revived."
     }
   ],
   "2": [
@@ -31,6 +37,12 @@
       "targetTl": "phoenicia",
       "targetChapter": 4,
       "blurb": "The Phoenicians were the ancient world's most accomplished mariners, and Necho II's circumnavigation of Africa — if it occurred — was achieved by Phoenician professionals. Their three-year voyage was the longest sea journey in antiquity, over two thousand years before Vasco da Gama."
+    },
+    {
+      "matchText": "Phoenicia",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "Saite Egypt's outward turn ran on Phoenician and Greek sailors and mercenaries — the Mediterranean maritime network Phoenicia had built."
     }
   ],
   "3": [
@@ -51,6 +63,24 @@
       "targetTl": "vedic-period",
       "targetChapter": 7,
       "blurb": "India's Vedic period was giving way to the Upanishads and the Buddha was about to be born, contemporary with Amasis's reign in Egypt. The sixth century BCE saw parallel intellectual revolutions across the Old World — Greek philosophy, Indian Buddhism, Chinese Confucianism, and Egyptian artistic revival."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "The last great native pharaohs ruled in the shadow of Cyrus's rising Persia — the superpower that would swallow Egypt within a generation."
+    },
+    {
+      "matchText": "Vedic Period",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Egypt's twilight as an independent civilization coincides with India's Axial-age ferment — old sacred orders questioned at both ends of the known world."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 8,
+      "blurb": "Late Egypt, like late Elam, lived as a proud old civilization in the Persian Empire's shadow — absorbed but never quite erased."
     }
   ],
   "4": [
@@ -79,6 +109,12 @@
       "targetTl": "new-kingdom-egypt",
       "targetChapter": 4,
       "blurb": "Hatshepsut had used divine birth narratives over a thousand years earlier to legitimize her unprecedented rule as a female pharaoh. The Thirtieth Dynasty formalized these narratives architecturally in mammisi birth houses, creating a standardized form that the Ptolemies would later adopt."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 5,
+      "blurb": "Egypt's last independence ended for good with Alexander — the same Macedonian conquest that destroyed the Persian Empire absorbed Egypt into the Hellenistic world."
     }
   ],
   "6": [

@@ -71,7 +71,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | ming-dynasty | 8 | **DONE** Chinese chain COMPLETE | 8299674 |
 | early-dynastic-egypt | 8 | **DONE** | 33fbd53 |
 | old-kingdom-egypt | 8 | **DONE** | d877787 |
-| new-kingdom-egypt | 9 | **DONE** | +this |
+| new-kingdom-egypt | 9 | **DONE** | 83962a8 |
+| late-egypt | 8 | **DONE** Nile Valley chain COMPLETE | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |
