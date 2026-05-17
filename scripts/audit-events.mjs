@@ -31,8 +31,8 @@ const noVision = args.includes('--no-vision')
 const asJson = args.includes('--json')
 const reportOnly = args.includes('--report-only')
 const arg = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : d }
-const visionModel = arg('--model', 'gemini-3-pro')
-const textModel = arg('--text-model', 'gemini-3-pro')
+const visionModel = arg('--model', 'gemini-3-pro-preview')
+const textModel = arg('--text-model', 'gemini-3-pro-preview')
 const limit = Number(arg('--limit', '0')) || 0
 
 if (!tlId) { console.error('Usage: node --env-file=.env.local scripts/audit-events.mjs <tlId> [--no-vision] [--report-only]'); process.exit(2) }

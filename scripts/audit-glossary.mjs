@@ -23,7 +23,7 @@ const tlId = args.find((a) => !a.startsWith('--'))
 const asJson = args.includes('--json')
 const reportOnly = args.includes('--report-only')
 const arg = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : d }
-const model = arg('--model', 'gemini-3-pro')
+const model = arg('--model', 'gemini-3-pro-preview')
 const limit = Number(arg('--limit', '0')) || 0
 
 if (!tlId) { console.error('Usage: node --env-file=.env.local scripts/audit-glossary.mjs <tlId> [--report-only]'); process.exit(2) }

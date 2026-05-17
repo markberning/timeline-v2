@@ -634,3 +634,44 @@ This is a confident, well-structured narrative with a genuine argument running t
 ---
 
 **Total findings: 8 STRONG, 14 CHECK, 0 SOFT**
+
+---
+
+## G7 Backward-pass disposition (2026-05-17, trial)
+
+**APPLIED (citation/accuracy errors — mandatory, done):**
+- tang-song-china.md Ch (Mongol absorption): "(Ancient Korea Ch 7)" for Goryeo's
+  1259 Mongol submission was a dead citation (Ancient Korea ends 935). → corrected
+  to **(Goryeo Korea Ch 6)**.
+- yuan-dynasty.md Ch (first Japan invasion): "(Ancient Korea Ch 8 — ... 1270 ...)"
+  dead citation. → corrected to **(Goryeo Korea Ch 7)**.
+- yuan-dynasty.md Ch (Dadu cosmopolitan court): "Korean tribute envoys from the
+  Goryeo court" upgraded with a terse son-in-law clause + **(Goryeo Korea Ch 7)**.
+
+**LEDGERED (reciprocal cross-link enrichments) — reason, not deferral:**
+The remaining ~19 Persona-E backward findings (ancient-korea #1–2; tang-song
+#3,#5–9; mongol-empire #10–13; yuan #14,#16; joseon #17–22) are *reciprocal
+enrichments*, not errors. The reader bridge they describe is already delivered
+in the live direction by `content/.cross-links-goryeo-korea.json`, which points
+readers from those exact topics (Mongol survival, the gwageo, Song celadon,
+metal type, the Wihwado handoff, etc.) into the specific reference-TL chapters.
+The reference narratives are frozen shipped prose with their own
+parser-validated link layers; inserting backward matchText into them is the
+standing **corpus-remediation backward-link** work item, not a goryeo-trial
+blocker. The two **chain-reciprocal** pairs that most warrant live links
+(ancient-korea → goryeo-korea, joseon-korea → goryeo-korea, mongol-empire ↔
+goryeo-korea) are queued as a bounded follow-up before `hasContent` flip.
+
+**TRIAL FINDING — G7 lint requirement vs. grandfathered corpus:**
+CLAUDE.md step 11 requires `lint:links --strict` to PASS for every reference
+TL touched in the backward pass. But the original 100 TLs were never run
+through G2's dead-slug check (they predate it; `project_corpus_remediation
+_backlog`). `tang-song-china` has 6 pre-existing dead wikiSlugs (Daxingcheng,
+Yuwen_Kai, Wordless_Stele, Mawei_Coup, Slender_Gold, Lü_Wenhuan) entirely
+unrelated to Goryeo. My backward edit *removed* one ERROR (a mis-targeted
+ancient-korea Ch7 cross-link, retargeted to goryeo-korea Ch6) and introduced
+none. As written, G7's "must pass" is unsatisfiable whenever the touched
+reference TL is a grandfathered legacy narrative. **Recommended pipeline
+fix:** scope G7's lint requirement to "introduces no NEW errors in the
+touched TL" (diff against a pre-edit baseline), not "TL is globally clean" —
+the latter is the standing corpus-remediation backlog, not a per-civ blocker.

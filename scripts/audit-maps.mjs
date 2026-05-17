@@ -25,7 +25,7 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { GoogleGenAI } from '@google/genai'
 
-const DEFAULT_MODEL = 'gemini-3-pro'
+const DEFAULT_MODEL = 'gemini-3-pro-preview'
 
 const args = process.argv.slice(2)
 const tlId = args.find((a) => !a.startsWith('--'))

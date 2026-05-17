@@ -23,9 +23,15 @@ gate — especially the high-risk cross-civ ones (G7 backward into shipped
    and get the narrative-movement map (chapter list + one-line throughline each)
    **user-approved before writing** — this is a hard gate.
 2. Run every gate. First time the QA model is hit for real: **confirm the
-   `gemini-3-pro` model id works** (`scripts/audit-maps.mjs`,
-   `audit-events/crosslinks/glossary`); they are fail-closed, so a bad id fails
-   loud — fix via `--model` and record the working id back here.
+   model id works** (`scripts/audit-maps.mjs`, `audit-events/crosslinks/glossary`);
+   they are fail-closed, so a bad id fails loud.
+   **RESOLVED 2026-05-17 (trial):** the placeholder default `gemini-3-pro`
+   is invalid (`404 not found for v1beta`). Working id is **`gemini-3-pro-preview`**.
+   All four gate-script defaults (`audit-events.mjs` --model/--text-model,
+   `audit-crosslinks.mjs`, `audit-glossary.mjs`, `audit-maps.mjs` DEFAULT_MODEL)
+   have been updated to `gemini-3-pro-preview`. The other 16 civs no longer
+   need a `--model` override. (Newer `gemini-3.1-pro-preview` is also available
+   if a bump is wanted later.)
 3. Treat this as a **pipeline test**: when a gate fires, note whether it caught
    a real defect or mis-fired, so the pipeline can be tuned before the other 16.
 4. `npm run ship:check goryeo-korea` must pass before flipping `hasContent`.
