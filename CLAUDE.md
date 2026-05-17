@@ -189,5 +189,13 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 ## Session Conventions
 At the end of every task or set of changes, always provide a **Changes made this pass** section.
 
-## Git
-Always commit and push completed work without asking.
+## Git — PUBLISH GATE (overrides the global "always push" instruction)
+`git push` and `npx wrangler deploy` PUBLISH to stuffhappened.com (Cloudflare
+auto-deploys `main`). Multiple concurrent sessions publishing caused recurring
+prod regressions (whole civ groups vanishing).
+
+**Rule for ALL sessions:** commit locally freely and often — but **NEVER
+`git push`, push any branch, or `wrangler deploy` without the user's explicit
+say-so for that specific push.** "Always commit and push" (global instruction)
+is overridden here: commit yes, publish only on the user's word. This holds
+even in no-stop / autonomous modes. Staging branches/tags count as publishing.
