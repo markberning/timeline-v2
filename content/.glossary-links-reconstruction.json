@@ -532,7 +532,7 @@
   "5": [
     {
       "term": "the Second Founding",
-      "matchText": "Second Founding",
+      "matchText": "Fourteenth Amendment",
       "wikiSlug": "Reconstruction_Amendments",
       "type": "concept"
     },
@@ -1319,6 +1319,12 @@
       "matchText": "he suspended habeas corpus in nine South Carolina counties",
       "wikiSlug": "South_Carolina_in_the_American_Civil_War",
       "type": "event"
+    },
+    {
+      "term": "Ku Klux Klan",
+      "matchText": "Ku Klux Klan",
+      "wikiSlug": "Ku_Klux_Klan",
+      "type": "concept"
     }
   ],
   "11": [
@@ -1697,6 +1703,12 @@
       "matchText": "the Democrats had also taken the U.S. House",
       "wikiSlug": "United_States_House_of_Representatives",
       "type": "concept"
+    },
+    {
+      "term": "Colfax massacre",
+      "matchText": "Colfax",
+      "wikiSlug": "Colfax_massacre",
+      "type": "concept"
     }
   ],
   "14": [
@@ -1923,6 +1935,12 @@
       "matchText": "the disgraced Andrew Johnson",
       "wikiSlug": "Andrew_Johnson",
       "type": "person"
+    },
+    {
+      "term": "Compromise of 1877",
+      "matchText": "Compromise of 1877",
+      "wikiSlug": "Compromise_of_1877",
+      "type": "concept"
     }
   ],
   "16": [

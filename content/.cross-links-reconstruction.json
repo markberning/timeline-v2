@@ -17,6 +17,18 @@
       "targetTl": "civil-rights-era",
       "targetChapter": 18,
       "blurb": "The twentieth-century civil rights movement understood itself as a Second Reconstruction, finishing the work this generation began and that was destroyed by terror in 1877. Its final reckoning is with exactly this: a democratic revolution defeated by violence, then buried under fifty years of propaganda, and only slowly recovered. The same constitutional amendments are the spine of both stories."
+    },
+    {
+      "matchText": "Antebellum America",
+      "targetTl": "antebellum-america",
+      "targetChapter": 18,
+      "blurb": "Reconstruction begins exactly where the antebellum story ends — emancipation as the opening question, not the answer."
+    },
+    {
+      "matchText": "Civil Rights Era",
+      "targetTl": "civil-rights-era",
+      "targetChapter": 1,
+      "blurb": "The rights Reconstruction wrote into the Constitution and then failed to enforce are the unfinished business the civil-rights movement would take up a century later."
     }
   ],
   "2": [
@@ -73,6 +85,12 @@
       "targetTl": "antebellum-america",
       "targetChapter": 1,
       "blurb": "It is one of the era's bitter ironies that the amendment written to protect freedpeople was, for two generations, wielded mostly by business corporations claiming to be persons. The protections the antebellum order had denied Black Americans by law were now reread by the courts to shield capital instead, leaving the people the amendment named without its force."
+    },
+    {
+      "matchText": "Antebellum America",
+      "targetTl": "antebellum-america",
+      "targetChapter": 15,
+      "blurb": "The 'Second Founding' — the 13th/14th/15th Amendments — answers the constitutional contradictions Dred Scott and the antebellum crisis exposed."
     }
   ],
   "6": [
@@ -123,6 +141,12 @@
       "targetTl": "civil-rights-era",
       "targetChapter": 18,
       "blurb": "The 1869 split between Black male suffrage and women's suffrage, and the racism some white suffragists deployed in that fight, was a wound the movement carried for decades. The civil rights era's reckoning with its own internal hierarchies of race, sex, and class is the long downstream of exactly this triage: a partial revolution forcing bitter choices among the people it leaves out."
+    },
+    {
+      "matchText": "Antebellum America",
+      "targetTl": "antebellum-america",
+      "targetChapter": 8,
+      "blurb": "The Grant-era struggle to enforce Black citizenship is the reform impulse of the Age of Reform, now armed with federal power and failing."
     }
   ],
   "10": [
@@ -227,6 +251,12 @@
       "targetTl": "civil-rights-era",
       "targetChapter": 18,
       "blurb": "The civil rights narrative's final chapter makes the continuity explicit: it traces the long arc back to 1865 and 1877 and argues that the twentieth-century movement did not invent new constitutional language but reached back and picked up the words written here. Same question, same amendments, same unfinished revolution, resumed."
+    },
+    {
+      "matchText": "Civil Rights Era",
+      "targetTl": "civil-rights-era",
+      "targetChapter": 1,
+      "blurb": "Reconstruction's 'long afterlife' — Jim Crow, the disarmed amendments — is precisely the order the civil-rights era was built to overthrow."
     }
   ]
 }
