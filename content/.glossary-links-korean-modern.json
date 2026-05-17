@@ -101,6 +101,12 @@
       "matchText": "Zainichi Korean",
       "wikiSlug": "Zainichi_Koreans",
       "type": "people"
+    },
+    {
+      "term": "Korea under Japanese rule",
+      "matchText": "Chōsen",
+      "wikiSlug": "Korea_under_Japanese_rule",
+      "type": "concept"
     }
   ],
   "2": [
@@ -181,6 +187,12 @@
       "matchText": "Kim Ju-yul",
       "wikiSlug": "Kim_Ju-yul",
       "type": "people"
+    },
+    {
+      "term": "38th parallel north",
+      "matchText": "38th parallel north",
+      "wikiSlug": "38th_parallel_north",
+      "type": "concept"
     }
   ],
   "3": [
@@ -275,6 +287,12 @@
       "matchText": "Citizens' Settlement Committee",
       "wikiSlug": "Gwangju_Uprising",
       "type": "concept"
+    },
+    {
+      "term": "Kim Il-sung",
+      "matchText": "Kim Il-sung",
+      "wikiSlug": "Kim_Il_Sung",
+      "type": "people"
     }
   ],
   "5": [
@@ -405,6 +423,12 @@
       "matchText": "Big Hit Entertainment",
       "wikiSlug": "HYBE_Corporation",
       "type": "concept"
+    },
+    {
+      "term": "K-pop",
+      "matchText": "Park Jae-sang",
+      "wikiSlug": "K-pop",
+      "type": "concept"
     }
   ],
   "7": [
@@ -517,6 +541,12 @@
       "matchText": "Gangnam",
       "wikiSlug": "Gangnam_District",
       "type": "place"
+    },
+    {
+      "term": "Chaebol",
+      "matchText": "Samsung Electronics",
+      "wikiSlug": "Chaebol",
+      "type": "concept"
     }
   ]
 }
