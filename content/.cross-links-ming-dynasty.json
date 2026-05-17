@@ -1,234 +1,312 @@
 {
- "1": [
-  {
-   "matchText": "Yuan-Dynasty Ch 8",
-   "targetTl": "yuan-dynasty",
-   "targetChapter": 8,
-   "blurb": "Yuan Dynasty Chapter 8 covers Zhu Yuanzhang's rise from peasant orphan to Buddhist novice to Red Turban warlord across the late-Yuan civil wars of the 1350s and 1360s. The Hongwu story properly begins there — the Ming founding chapter you are reading now picks up the morning after the Mongol Yuan court fled Khanbaliq in September 1368."
-  },
-  {
-   "matchText": "An Lushan Rebellion",
-   "targetTl": "tang-song-china",
-   "targetChapter": 4,
-   "blurb": "The Tang collapse after the An Lushan Rebellion of 755–763 was the founding cautionary tale that Hongwu's military reforms were designed to prevent. The weisuo hereditary garrison system, the Nine Frontier Garrisons, and the deliberate dispersal of military command across imperial princes were all attempts to avoid the regional warlordism that had destroyed the Tang's fubing professional army system. Tang-Song China Ch 4 covers the original An Lushan crisis."
-  },
-  {
-   "matchText": "late Han",
-   "targetTl": "han-dynasty",
-   "targetChapter": 8,
-   "blurb": "The late Han dynasty's collapse under court eunuch domination was the deepest historical model that Hongwu was trying to avoid when he inscribed the iron tablet forbidding eunuchs from political office. Han Dynasty Ch 8 covers the role of the late-Han court eunuch factions in the dynasty's terminal decline — exactly the pattern that would eventually overtake the Ming despite Hongwu's prohibitions."
-  },
-  {
-   "matchText": "Mongol period",
-   "targetTl": "yuan-dynasty",
-   "targetChapter": 2,
-   "blurb": "The Yuan four-class ethnic system that placed Han Chinese at the bottom of legal hierarchy was the institutional reality the Ming founding was reacting against. Yuan Dynasty Ch 2 describes Kublai Khan's ethnic-political architecture — Mongols, Semu, northern Han, southern Han — that Hongwu's proclamations explicitly denounced and abolished as offenses against the Mandate of Heaven."
-  },
-  {
-   "matchText": "Mongol Empire Ch 7",
-   "targetTl": "mongol-empire",
-   "targetChapter": 7,
-   "blurb": "Mongol Empire Ch 7 covers the post-Genghis fragmentation into the four khanates — Yuan in China, Ilkhanate in Persia, Golden Horde in the western steppe, Chagatai Khanate in Central Asia — and Timur's late-fourteenth-century catastrophic empire-building. Timur was actively planning an invasion of Ming China when he died in 1405 — the Hongwu reign overlapped almost exactly with Timur's career, and the threatened Timurid invasion was one of the strategic anxieties of late Hongwu and early Yongle policy."
-  }
- ],
- "2": [
-  {
-   "matchText": "Mongolian steppe",
-   "targetTl": "mongol-empire",
-   "targetChapter": 4,
-   "blurb": "The Mongolian heartland that Yongle marched into on his five personal campaigns was the same territory the Mongols had launched their thirteenth-century conquests from. The Onon River that Yongle's forces reached in the early fifteenth century was near the geographic origin point of the Mongol Empire under Genghis Khan two centuries earlier. Mongol Empire Ch 4 covers the original Mongol heartland and its political geography."
-  },
-  {
-   "matchText": "Brunelleschi dome",
-   "targetTl": "byzantine-empire",
-   "targetChapter": 12,
-   "blurb": "The Forbidden City was rising in Beijing during exactly the decades the Byzantine Empire was reaching its terminal crisis — Constantinople would fall to the Ottomans in 1453, just thirty-three years after the Forbidden City's completion. Byzantine Empire Ch 12 covers the final Ottoman conquest, an event roughly contemporary with the Yongle building program but at the opposite end of Eurasia."
-  },
-  {
-   "matchText": "Joseon dynasty",
-   "targetTl": "joseon-korea",
-   "targetChapter": 2,
-   "blurb": "The Korean Joseon dynasty (1392–1897) was founded six years before Hongwu's death and was contemporary with the entire Ming period. Joseon Korea Ch 2 covers the early Joseon institutional consolidation under King Sejong (reigned 1418–1450, exactly contemporary with Yongle's reign), including the invention of the Hangul script — one of the great early-modern East Asian intellectual achievements alongside the Yongle Encyclopedia."
-  },
-  {
-   "matchText": "Ottoman recovery",
-   "targetTl": "ottoman-empire",
-   "targetChapter": 3,
-   "blurb": "The Ottoman recovery under Mehmed I after the catastrophic interregnum that followed Timur's victory at Ankara in 1402 was almost exactly contemporary with the Yongle Emperor's accession — the two recoveries from late-fourteenth-century crises proceeded in parallel at opposite ends of Eurasia. Ottoman Empire Ch 3 covers the Ottoman fifteenth-century rebuild that would culminate in the conquest of Constantinople in 1453."
-  }
- ],
- "3": [
-  {
-   "matchText": "Indian Ocean trade network",
-   "targetTl": "tang-song-china",
-   "targetChapter": 8,
-   "blurb": "The Indian Ocean trade network that Zheng He sailed into in the early fifteenth century had been operating at scale since at least the Song period (960–1279). Tang-Song China Ch 8 covers the Song maritime infrastructure — the multi-masted junks with watertight bulkheads, the magnetic compass, the Quanzhou and Guangzhou trading networks — that the Ming inherited and that Zheng He's expeditions used. Zheng He was sailing into a network the Chinese had been part of for four centuries."
-  },
-  {
-   "matchText": "Persian Gulf",
-   "targetTl": "safavid-persia",
-   "targetChapter": 6,
-   "blurb": "The Persian Gulf that Zheng He's fourth voyage reached in the 1410s was, two centuries later, the same gulf where the Safavid Shah Abbas I would expel the Portuguese from Hormuz in 1622 with English East India Company naval assistance. Safavid Persia Ch 6 covers the seventeenth-century Hormuz politics — the same strategic chokepoint Zheng He's fleet had visited as a peaceful tributary mission."
-  },
-  {
-   "matchText": "Mecca",
-   "targetTl": "islamic-golden-age",
-   "targetChapter": 1,
-   "blurb": "When detachments of Zheng He's seventh voyage reached Mecca in 1432 and his Muslim sailors performed the Hajj on the imperial expedition's behalf, they were arriving at the spiritual center of Islam through a tradition of Hui Muslim Chinese-Arabian contact that ran back to the Tang and Abbasid periods. Islamic Golden Age Ch 1 covers the early Islamic civilization that built Mecca into the most important pilgrimage destination in the medieval world."
-  },
-  {
-   "matchText": "captured a major pirate chief at Palembang",
-   "targetTl": "majapahit",
-   "targetChapter": 9,
-   "blurb": "Majapahit Chapter 9 shows what the treasure fleet meant for a declining Java: around 1406 some 170 of Zheng He's men were killed in the Paregreg civil war and the matter settled with a gold indemnity, not an invasion — a miniature of who now moved freely in these waters."
-  }
- ],
- "4": [
-  {
-   "matchText": "Mongol leader",
-   "targetTl": "mongol-empire",
-   "targetChapter": 9,
-   "blurb": "Esen Taishi was the most powerful Mongol leader of the post-Yuan period, briefly unifying the Oirat (western Mongol) confederation enough to threaten the Ming directly. Mongol Empire Ch 9 covers the post-1368 Mongol political fragmentation in which various Mongol leaders attempted unification in the centuries between the Yuan collapse and the rise of the Manchus. Esen's 1449 ambush at Tumu was the high-water mark of fifteenth-century Mongol resurgence."
-  },
-  {
-   "matchText": "Qin Dynasty",
-   "targetTl": "qin-dynasty",
-   "targetChapter": 4,
-   "blurb": "The Great Wall of popular imagination is often confused with the Qin Dynasty wall built by the First Emperor in the 220s BCE. Qin Dynasty Ch 4 covers the original Qin Wall — built of rammed earth, on a different route, mostly disappeared into the soil. The brick-and-stone Wall that tourists visit today is almost entirely Ming construction from 1450–1600, built in response to the Tumu Crisis."
-  },
-  {
-   "matchText": "fall of Constantinople",
-   "targetTl": "byzantine-empire",
-   "targetChapter": 12,
-   "blurb": "The fall of Constantinople to the Ottomans in 1453 came just four years after the Tumu Crisis. The two events were contemporary failures of the great mid-Eurasian empires of the late medieval world — the Ming captured emperor and the Byzantine fall happened within a single half-decade, marking the transition between the medieval and early-modern periods at opposite ends of Eurasia."
-  }
- ],
- "5": [
-  {
-   "matchText": "Spanish Habsburg",
-   "targetTl": "ottoman-empire",
-   "targetChapter": 5,
-   "blurb": "The Spanish Habsburg silver economy that funded the wars against the Dutch revolt and the Ottomans was simultaneously the western pole of the same global silver system whose eastern pole was Ming China. The Habsburg-Ottoman Mediterranean conflict and the Habsburg-Ming silver-and-silk Pacific trade were two faces of the same early-modern silver-driven world economy. Ottoman Empire Ch 5 covers the Suleiman-era Ottoman peak that Habsburg silver was largely raised to fight."
-  },
-  {
-   "matchText": "Shah Abbas the Great",
-   "targetTl": "safavid-persia",
-   "targetChapter": 4,
-   "blurb": "Shah Abbas the Great in Safavid Iran (reigned 1588–1629) was almost an exact contemporary of the Wanli Emperor (reigned 1572–1620). The two rulers presided over their respective empires at the same moment, both at the height of cultural achievement and commercial integration into the early-modern global economy, both producing some of the most sophisticated cultural output of the early-modern world. Abbas's Isfahan and Wanli's Beijing were the two great Asian capitals of the early seventeenth century."
-  },
-  {
-   "matchText": "Manila",
-   "targetTl": "polynesian-voyagers",
-   "targetChapter": 8,
-   "blurb": "The Manila galleon trade route that ran between Acapulco and Manila for two and a half centuries was the longest scheduled trans-oceanic shipping route in pre-modern history — and it ran across the same Pacific that Polynesian voyagers had been navigating for two millennia. Polynesian Voyagers Ch 8 covers the long Polynesian Pacific tradition that the Manila galleon route operated on top of, mostly without Spanish or Chinese awareness of the much older Pacific maritime culture."
-  },
-  {
-   "matchText": "Iwami",
-   "targetTl": "heian-japan",
-   "targetChapter": 8,
-   "blurb": "The Iwami silver mines that supplied so much of the Japanese silver flowing into Ming China during the late sixteenth century were located in western Honshu in the modern Shimane prefecture. Ancient Japan Ch 8 covers the late-Heian Japanese economic-political development that established the regional structures the Sengoku-period Iwami silver boom would build on. The mines were producing 20-30% of total global silver output for several decades."
-  },
-  {
-   "matchText": "Tokugawa shogunate",
-   "targetTl": "edo-japan",
-   "targetChapter": 1,
-   "blurb": "The Tokugawa shogunate that established itself in 1603 — overlapping with the late Wanli reign and the early Manchu rise — would within decades begin restricting Japanese silver export through the Sakoku edicts that essentially sealed Japan off from European trade. Edo Japan Ch 1 covers the Tokugawa founding. The Tokugawa silver restrictions in the 1620s and 1630s contributed directly to the late-Ming fiscal crisis by reducing one of the two main silver flows feeding the Single Whip economy."
-  }
- ],
- "6": [
-  {
-   "matchText": "the unifier of Japan",
-   "targetTl": "heian-japan",
-   "targetChapter": 8,
-   "blurb": "The Sengoku period of Japanese civil wars ran from the 1460s to the 1590s — a century of political fragmentation comparable to the Spring and Autumn period in ancient China. Ancient Japan Ch 8 covers the late-classical Japanese political development that set the stage for the Sengoku breakdown. Hideyoshi's unification of Japan by 1590 was the immediate precondition for the Imjin invasion."
-  },
-  {
-   "matchText": "Korean peninsula",
-   "targetTl": "joseon-korea",
-   "targetChapter": 4,
-   "blurb": "The Korean Joseon dynasty bore the entire human cost of the Imjin War, with perhaps a million Korean deaths and devastation from which the country took most of the seventeenth century to recover. Joseon Korea Ch 4 covers the Korean side of the war — Yi Sun-sin's naval campaigns from the Korean perspective, the Korean court's complex relationship with the Ming relief armies, and the long post-war recovery."
-  },
-  {
-   "matchText": "bridge through which Chinese culture",
-   "targetTl": "ancient-korea",
-   "targetChapter": 7,
-   "blurb": "The Korean peninsula had been the bridge through which Chinese culture, Buddhist religion, and political institutions had reached Japan for over a millennium before the Imjin War. Ancient Korea Ch 7 covers the long pre-modern Korean civilizational role as the conduit between China and Japan — the historical context that explains why Hideyoshi chose Korea as his invasion route."
-  }
- ],
- "7": [
-  {
-   "matchText": "Yuan dramas",
-   "targetTl": "yuan-dynasty",
-   "targetChapter": 5,
-   "blurb": "The Yuan zaju vernacular drama tradition that Guan Hanqing and other Yuan playwrights had pioneered was widely reprinted in the late Ming and provided much of the dramatic material that the four great Ming novels drew on. Yuan Dynasty Ch 5 covers the original Yuan vernacular literary revolution that produced the cultural infrastructure on which the late Ming literary peak was built — the line from Yuan zaju to Romance of the Three Kingdoms is direct."
-  },
-  {
-   "matchText": "Three Kingdoms period",
-   "targetTl": "six-dynasties",
-   "targetChapter": 1,
-   "blurb": "The Three Kingdoms period (220–280 CE) that the Romance of the Three Kingdoms dramatizes was the actual historical era that followed the Han collapse. Six Dynasties Ch 1 covers the real history of the Wei, Shu, and Wu states — the political-military reality that the Ming-era novel reshaped into the canonical Chinese cultural understanding of heroic warfare."
-  },
-  {
-   "matchText": "seventh-century pilgrimage",
-   "targetTl": "tang-song-china",
-   "targetChapter": 3,
-   "blurb": "The historical Tang monk Xuanzang who traveled to India between 629 and 645 CE to retrieve Buddhist scriptures was the real-world source that Wu Cheng'en's Journey to the West turned into vernacular myth. Tang-Song China Ch 3 covers the early Tang cosmopolitan period in which Xuanzang's actual pilgrimage took place — a real diplomatic-religious journey that the Ming novel transformed into the most beloved fantasy adventure in Chinese literary tradition."
-  },
-  {
-   "matchText": "Zhu Xi",
-   "targetTl": "tang-song-china",
-   "targetChapter": 8,
-   "blurb": "Zhu Xi (1130–1200) was the great Southern Song neo-Confucian synthesizer whose orthodoxy Wang Yangming was reacting against. Tang-Song China Ch 8 covers the Southern Song intellectual period in which Zhu Xi's school was established as the dominant Chinese philosophical orthodoxy — the orthodoxy that would shape the Ming examination system for almost three centuries before Wang Yangming's School of Mind challenged it from inside the Confucian tradition."
-  },
-  {
-   "matchText": "Persian and Ottoman",
-   "targetTl": "ottoman-empire",
-   "targetChapter": 6,
-   "blurb": "The Iznik ceramic tradition that the Ottomans developed in the sixteenth century was partly inspired by Ming blue-and-white porcelain, and the cobalt-blue palette traveled across multiple empires before becoming a global aesthetic standard. Ottoman Empire Ch 6 covers the parallel Ottoman cultural-economic peak that paralleled the late Ming flowering — both empires producing some of the most globally consequential luxury goods of the early-modern world."
-  }
- ],
- "8": [
-  {
-   "matchText": "Jurchen",
-   "targetTl": "tang-song-china",
-   "targetChapter": 8,
-   "blurb": "The Jurchen — the Tungusic-speaking ancestors of the Manchus — had founded the Jin dynasty in the twelfth century and conquered northern China from the Northern Song. Tang-Song China Ch 8 covers the original Jurchen Jin conquest and the catastrophic Jingkang Incident of 1127 in which the Jurchen captured the Northern Song imperial family. The Manchu rise in the early seventeenth century was, in their own self-understanding, a deliberate restoration of Jurchen Jin glory."
-  },
-  {
-   "matchText": "Mongol conquest of the Jin",
-   "targetTl": "yuan-dynasty",
-   "targetChapter": 1,
-   "blurb": "The Mongol conquest of the Jurchen Jin between 1211 and 1234 broke Jurchen political unity for four centuries until Nurhaci unified the Manchu tribes. Yuan Dynasty Ch 1 covers the original Mongol-Jin war and its catastrophic demographic consequences for north China. The Manchus rising against the late Ming were the political descendants of the people the Mongols had broken three centuries earlier — and they would conquer Beijing through exactly the route the Mongols had taken before them."
-  },
-  {
-   "matchText": "Yongli emperor",
-   "targetTl": "joseon-korea",
-   "targetChapter": 5,
-   "blurb": "The Joseon Korean court's complicated post-Imjin relationship with the Ming and then the Qing is one of the underexplored chapters of seventeenth-century East Asian politics. Joseon Korea Ch 5 covers the Korean reaction to the Manchu rise and the eventual Qing demand for Korean tributary submission — Korea's reluctant transition from Ming-loyal to Qing-tributary status occurring at roughly the same moment as the Yongli regime's flight into Burma."
-  },
-  {
-   "matchText": "Mughals",
-   "targetTl": "delhi-sultanate",
-   "targetChapter": 8,
-   "blurb": "The Mughal Empire was at its territorial peak under Aurangzeb (1658–1707) just as the Qing was consolidating its own rule over China — the two great early-modern Asian conquest empires were near-contemporaries. Delhi Sultanate Ch 8 covers the early Mughal period that the Mughal apex grew out of. Both empires would face structurally similar institutional decay across the eighteenth and nineteenth centuries, with parallel arcs from peak power to terminal crisis."
-  },
-  {
-   "matchText": "Ottoman Empire",
-   "targetTl": "ottoman-empire",
-   "targetChapter": 8,
-   "blurb": "The Ottoman Empire's long decline through the eighteenth and nineteenth centuries paralleled the eventual decline of the Qing in striking ways — both were early-modern empires that fell to the combination of internal institutional decay and external European pressure. Ottoman Empire Ch 8 covers the parallel late-Ottoman decline that started under similar pressures to the late-Ming and late-Qing crises."
-  },
-  {
-   "matchText": "Safavid dynasty in Persia",
-   "targetTl": "safavid-persia",
-   "targetChapter": 8,
-   "blurb": "The Safavid collapse in 1722 — eighty years after the Ming — followed an almost identical pattern: bankrupted treasury after major foreign wars, politically weak emperor presiding over institutional decay, peripheral tribal force the central state could not defeat, foreign-origin successor dynasty taking the imperial center. Safavid Persia Ch 8 covers the Afghan catastrophe and Nader Shah's restoration. Both dynasties left enduring cultural legacies that vastly outlasted their political collapse."
-  },
-  {
-   "matchText": "Tokugawa shogunate",
-   "targetTl": "edo-japan",
-   "targetChapter": 2,
-   "blurb": "The Tokugawa shogunate's Sakoku edicts of the 1630s and 1640s — sealing Japan off from European trade and Christianity for two and a half centuries — were the maximalist version of the maritime-isolation policy the Ming had nominally followed but never enforced. Edo Japan Ch 2 covers the early Tokugawa consolidation, which was happening at exactly the moment the Ming was collapsing. The two Asian great powers chose opposite responses to the European maritime presence — one sealing itself off, the other being conquered from the inside."
-  }
- ]
+  "1": [
+    {
+      "matchText": "Yuan-Dynasty Ch 8",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 8,
+      "blurb": "Yuan Dynasty Chapter 8 covers Zhu Yuanzhang's rise from peasant orphan to Buddhist novice to Red Turban warlord across the late-Yuan civil wars of the 1350s and 1360s. The Hongwu story properly begins there — the Ming founding chapter you are reading now picks up the morning after the Mongol Yuan court fled Khanbaliq in September 1368."
+    },
+    {
+      "matchText": "An Lushan Rebellion",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "The Tang collapse after the An Lushan Rebellion of 755–763 was the founding cautionary tale that Hongwu's military reforms were designed to prevent. The weisuo hereditary garrison system, the Nine Frontier Garrisons, and the deliberate dispersal of military command across imperial princes were all attempts to avoid the regional warlordism that had destroyed the Tang's fubing professional army system. Tang-Song China Ch 4 covers the original An Lushan crisis."
+    },
+    {
+      "matchText": "late Han",
+      "targetTl": "han-dynasty",
+      "targetChapter": 8,
+      "blurb": "The late Han dynasty's collapse under court eunuch domination was the deepest historical model that Hongwu was trying to avoid when he inscribed the iron tablet forbidding eunuchs from political office. Han Dynasty Ch 8 covers the role of the late-Han court eunuch factions in the dynasty's terminal decline — exactly the pattern that would eventually overtake the Ming despite Hongwu's prohibitions."
+    },
+    {
+      "matchText": "Mongol period",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 2,
+      "blurb": "The Yuan four-class ethnic system that placed Han Chinese at the bottom of legal hierarchy was the institutional reality the Ming founding was reacting against. Yuan Dynasty Ch 2 describes Kublai Khan's ethnic-political architecture — Mongols, Semu, northern Han, southern Han — that Hongwu's proclamations explicitly denounced and abolished as offenses against the Mandate of Heaven."
+    },
+    {
+      "matchText": "Mongol Empire Ch 7",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Mongol Empire Ch 7 covers the post-Genghis fragmentation into the four khanates — Yuan in China, Ilkhanate in Persia, Golden Horde in the western steppe, Chagatai Khanate in Central Asia — and Timur's late-fourteenth-century catastrophic empire-building. Timur was actively planning an invasion of Ming China when he died in 1405 — the Hongwu reign overlapped almost exactly with Timur's career, and the threatened Timurid invasion was one of the strategic anxieties of late Hongwu and early Yongle policy."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Ming is the native restoration the Yuan collapse made possible — Zhu Yuanzhang expelling the Mongols and rebuilding a Han Chinese empire."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "Hongwu consciously reached past the Mongol century to the Song-Tang model — Confucian, agrarian, examination-run."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "Ming and Ottoman were the two great gunpowder empires consolidating at opposite ends of Eurasia in the same century."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "Mongolian steppe",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "The Mongolian heartland that Yongle marched into on his five personal campaigns was the same territory the Mongols had launched their thirteenth-century conquests from. The Onon River that Yongle's forces reached in the early fifteenth century was near the geographic origin point of the Mongol Empire under Genghis Khan two centuries earlier. Mongol Empire Ch 4 covers the original Mongol heartland and its political geography."
+    },
+    {
+      "matchText": "Brunelleschi dome",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "The Forbidden City was rising in Beijing during exactly the decades the Byzantine Empire was reaching its terminal crisis — Constantinople would fall to the Ottomans in 1453, just thirty-three years after the Forbidden City's completion. Byzantine Empire Ch 12 covers the final Ottoman conquest, an event roughly contemporary with the Yongle building program but at the opposite end of Eurasia."
+    },
+    {
+      "matchText": "Joseon dynasty",
+      "targetTl": "joseon-korea",
+      "targetChapter": 2,
+      "blurb": "The Korean Joseon dynasty (1392–1897) was founded six years before Hongwu's death and was contemporary with the entire Ming period. Joseon Korea Ch 2 covers the early Joseon institutional consolidation under King Sejong (reigned 1418–1450, exactly contemporary with Yongle's reign), including the invention of the Hangul script — one of the great early-modern East Asian intellectual achievements alongside the Yongle Encyclopedia."
+    },
+    {
+      "matchText": "Ottoman recovery",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 3,
+      "blurb": "The Ottoman recovery under Mehmed I after the catastrophic interregnum that followed Timur's victory at Ankara in 1402 was almost exactly contemporary with the Yongle Emperor's accession — the two recoveries from late-fourteenth-century crises proceeded in parallel at opposite ends of Eurasia. Ottoman Empire Ch 3 covers the Ottoman fifteenth-century rebuild that would culminate in the conquest of Constantinople in 1453."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 5,
+      "blurb": "Yongle's grand capital and cosmic kingship parallel the great early-modern Islamic imperial capitals — power written in monumental architecture."
+    }
+  ],
+  "3": [
+    {
+      "matchText": "Indian Ocean trade network",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "The Indian Ocean trade network that Zheng He sailed into in the early fifteenth century had been operating at scale since at least the Song period (960–1279). Tang-Song China Ch 8 covers the Song maritime infrastructure — the multi-masted junks with watertight bulkheads, the magnetic compass, the Quanzhou and Guangzhou trading networks — that the Ming inherited and that Zheng He's expeditions used. Zheng He was sailing into a network the Chinese had been part of for four centuries."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "The Persian Gulf that Zheng He's fourth voyage reached in the 1410s was, two centuries later, the same gulf where the Safavid Shah Abbas I would expel the Portuguese from Hormuz in 1622 with English East India Company naval assistance. Safavid Persia Ch 6 covers the seventeenth-century Hormuz politics — the same strategic chokepoint Zheng He's fleet had visited as a peaceful tributary mission."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "When detachments of Zheng He's seventh voyage reached Mecca in 1432 and his Muslim sailors performed the Hajj on the imperial expedition's behalf, they were arriving at the spiritual center of Islam through a tradition of Hui Muslim Chinese-Arabian contact that ran back to the Tang and Abbasid periods. Islamic Golden Age Ch 1 covers the early Islamic civilization that built Mecca into the most important pilgrimage destination in the medieval world."
+    },
+    {
+      "matchText": "captured a major pirate chief at Palembang",
+      "targetTl": "majapahit",
+      "targetChapter": 9,
+      "blurb": "Majapahit Chapter 9 shows what the treasure fleet meant for a declining Java: around 1406 some 170 of Zheng He's men were killed in the Paregreg civil war and the matter settled with a gold indemnity, not an invasion — a miniature of who now moved freely in these waters."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 5,
+      "blurb": "Zheng He's treasure fleets and the Aztec tribute empire peaked in the same century — two maximalist states the Atlantic age would soon eclipse."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "The Ming's choice to burn the fleets and turn inward contrasts sharply with the outward-facing Safavid and Ottoman trade empires."
+    }
+  ],
+  "4": [
+    {
+      "matchText": "Mongol leader",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "Esen Taishi was the most powerful Mongol leader of the post-Yuan period, briefly unifying the Oirat (western Mongol) confederation enough to threaten the Ming directly. Mongol Empire Ch 9 covers the post-1368 Mongol political fragmentation in which various Mongol leaders attempted unification in the centuries between the Yuan collapse and the rise of the Manchus. Esen's 1449 ambush at Tumu was the high-water mark of fifteenth-century Mongol resurgence."
+    },
+    {
+      "matchText": "Qin Dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 4,
+      "blurb": "The Great Wall of popular imagination is often confused with the Qin Dynasty wall built by the First Emperor in the 220s BCE. Qin Dynasty Ch 4 covers the original Qin Wall — built of rammed earth, on a different route, mostly disappeared into the soil. The brick-and-stone Wall that tourists visit today is almost entirely Ming construction from 1450–1600, built in response to the Tumu Crisis."
+    },
+    {
+      "matchText": "fall of Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "The fall of Constantinople to the Ottomans in 1453 came just four years after the Tumu Crisis. The two events were contemporary failures of the great mid-Eurasian empires of the late medieval world — the Ming captured emperor and the Byzantine fall happened within a single half-decade, marking the transition between the medieval and early-modern periods at opposite ends of Eurasia."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 2,
+      "blurb": "The Ming kept the Yuan capital (Beijing) and much of its administrative geography — restoration built on Mongol foundations."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Spanish Habsburg",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "The Spanish Habsburg silver economy that funded the wars against the Dutch revolt and the Ottomans was simultaneously the western pole of the same global silver system whose eastern pole was Ming China. The Habsburg-Ottoman Mediterranean conflict and the Habsburg-Ming silver-and-silk Pacific trade were two faces of the same early-modern silver-driven world economy. Ottoman Empire Ch 5 covers the Suleiman-era Ottoman peak that Habsburg silver was largely raised to fight."
+    },
+    {
+      "matchText": "Shah Abbas the Great",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Shah Abbas the Great in Safavid Iran (reigned 1588–1629) was almost an exact contemporary of the Wanli Emperor (reigned 1572–1620). The two rulers presided over their respective empires at the same moment, both at the height of cultural achievement and commercial integration into the early-modern global economy, both producing some of the most sophisticated cultural output of the early-modern world. Abbas's Isfahan and Wanli's Beijing were the two great Asian capitals of the early seventeenth century."
+    },
+    {
+      "matchText": "Manila",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 8,
+      "blurb": "The Manila galleon trade route that ran between Acapulco and Manila for two and a half centuries was the longest scheduled trans-oceanic shipping route in pre-modern history — and it ran across the same Pacific that Polynesian voyagers had been navigating for two millennia. Polynesian Voyagers Ch 8 covers the long Polynesian Pacific tradition that the Manila galleon route operated on top of, mostly without Spanish or Chinese awareness of the much older Pacific maritime culture."
+    },
+    {
+      "matchText": "Iwami",
+      "targetTl": "heian-japan",
+      "targetChapter": 8,
+      "blurb": "The Iwami silver mines that supplied so much of the Japanese silver flowing into Ming China during the late sixteenth century were located in western Honshu in the modern Shimane prefecture. Ancient Japan Ch 8 covers the late-Heian Japanese economic-political development that established the regional structures the Sengoku-period Iwami silver boom would build on. The mines were producing 20-30% of total global silver output for several decades."
+    },
+    {
+      "matchText": "Tokugawa shogunate",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "The Tokugawa shogunate that established itself in 1603 — overlapping with the late Wanli reign and the early Manchu rise — would within decades begin restricting Japanese silver export through the Sakoku edicts that essentially sealed Japan off from European trade. Edo Japan Ch 1 covers the Tokugawa founding. The Tokugawa silver restrictions in the 1620s and 1630s contributed directly to the late-Ming fiscal crisis by reducing one of the two main silver flows feeding the Single Whip economy."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "The Single Whip silver tax plugged Ming China into the global bullion flow — the same New World silver river that ran through Safavid and Ottoman markets."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "the unifier of Japan",
+      "targetTl": "heian-japan",
+      "targetChapter": 8,
+      "blurb": "The Sengoku period of Japanese civil wars ran from the 1460s to the 1590s — a century of political fragmentation comparable to the Spring and Autumn period in ancient China. Ancient Japan Ch 8 covers the late-classical Japanese political development that set the stage for the Sengoku breakdown. Hideyoshi's unification of Japan by 1590 was the immediate precondition for the Imjin invasion."
+    },
+    {
+      "matchText": "Korean peninsula",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "The Korean Joseon dynasty bore the entire human cost of the Imjin War, with perhaps a million Korean deaths and devastation from which the country took most of the seventeenth century to recover. Joseon Korea Ch 4 covers the Korean side of the war — Yi Sun-sin's naval campaigns from the Korean perspective, the Korean court's complex relationship with the Ming relief armies, and the long post-war recovery."
+    },
+    {
+      "matchText": "bridge through which Chinese culture",
+      "targetTl": "ancient-korea",
+      "targetChapter": 7,
+      "blurb": "The Korean peninsula had been the bridge through which Chinese culture, Buddhist religion, and political institutions had reached Japan for over a millennium before the Imjin War. Ancient Korea Ch 7 covers the long pre-modern Korean civilizational role as the conduit between China and Japan — the historical context that explains why Hideyoshi chose Korea as his invasion route."
+    },
+    {
+      "matchText": "Joseon Korea",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "The Imjin War is the same war Korea calls its national trauma — Ming armies bleeding to keep Hideyoshi's Japan out of the mainland."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "Hideyoshi's continental ambition and the Ming-Joseon resistance is East Asia's version of the era's great confessional-imperial collisions."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "Yuan dramas",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 5,
+      "blurb": "The Yuan zaju vernacular drama tradition that Guan Hanqing and other Yuan playwrights had pioneered was widely reprinted in the late Ming and provided much of the dramatic material that the four great Ming novels drew on. Yuan Dynasty Ch 5 covers the original Yuan vernacular literary revolution that produced the cultural infrastructure on which the late Ming literary peak was built — the line from Yuan zaju to Romance of the Three Kingdoms is direct."
+    },
+    {
+      "matchText": "Three Kingdoms period",
+      "targetTl": "six-dynasties",
+      "targetChapter": 1,
+      "blurb": "The Three Kingdoms period (220–280 CE) that the Romance of the Three Kingdoms dramatizes was the actual historical era that followed the Han collapse. Six Dynasties Ch 1 covers the real history of the Wei, Shu, and Wu states — the political-military reality that the Ming-era novel reshaped into the canonical Chinese cultural understanding of heroic warfare."
+    },
+    {
+      "matchText": "seventh-century pilgrimage",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "The historical Tang monk Xuanzang who traveled to India between 629 and 645 CE to retrieve Buddhist scriptures was the real-world source that Wu Cheng'en's Journey to the West turned into vernacular myth. Tang-Song China Ch 3 covers the early Tang cosmopolitan period in which Xuanzang's actual pilgrimage took place — a real diplomatic-religious journey that the Ming novel transformed into the most beloved fantasy adventure in Chinese literary tradition."
+    },
+    {
+      "matchText": "Zhu Xi",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "Zhu Xi (1130–1200) was the great Southern Song neo-Confucian synthesizer whose orthodoxy Wang Yangming was reacting against. Tang-Song China Ch 8 covers the Southern Song intellectual period in which Zhu Xi's school was established as the dominant Chinese philosophical orthodoxy — the orthodoxy that would shape the Ming examination system for almost three centuries before Wang Yangming's School of Mind challenged it from inside the Confucian tradition."
+    },
+    {
+      "matchText": "Persian and Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 6,
+      "blurb": "The Iznik ceramic tradition that the Ottomans developed in the sixteenth century was partly inspired by Ming blue-and-white porcelain, and the cobalt-blue palette traveled across multiple empires before becoming a global aesthetic standard. Ottoman Empire Ch 6 covers the parallel Ottoman cultural-economic peak that paralleled the late Ming flowering — both empires producing some of the most globally consequential luxury goods of the early-modern world."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "The late-Ming cultural peak — the great vernacular novels — is the Song literati culture's final, popular flowering."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 1,
+      "blurb": "Late-Ming aesthetic refinement amid political rot recalls the Six Dynasties' brilliant decadence — culture blooming as the state hollows."
+    }
+  ],
+  "8": [
+    {
+      "matchText": "Jurchen",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "The Jurchen — the Tungusic-speaking ancestors of the Manchus — had founded the Jin dynasty in the twelfth century and conquered northern China from the Northern Song. Tang-Song China Ch 8 covers the original Jurchen Jin conquest and the catastrophic Jingkang Incident of 1127 in which the Jurchen captured the Northern Song imperial family. The Manchu rise in the early seventeenth century was, in their own self-understanding, a deliberate restoration of Jurchen Jin glory."
+    },
+    {
+      "matchText": "Mongol conquest of the Jin",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Mongol conquest of the Jurchen Jin between 1211 and 1234 broke Jurchen political unity for four centuries until Nurhaci unified the Manchu tribes. Yuan Dynasty Ch 1 covers the original Mongol-Jin war and its catastrophic demographic consequences for north China. The Manchus rising against the late Ming were the political descendants of the people the Mongols had broken three centuries earlier — and they would conquer Beijing through exactly the route the Mongols had taken before them."
+    },
+    {
+      "matchText": "Yongli emperor",
+      "targetTl": "joseon-korea",
+      "targetChapter": 5,
+      "blurb": "The Joseon Korean court's complicated post-Imjin relationship with the Ming and then the Qing is one of the underexplored chapters of seventeenth-century East Asian politics. Joseon Korea Ch 5 covers the Korean reaction to the Manchu rise and the eventual Qing demand for Korean tributary submission — Korea's reluctant transition from Ming-loyal to Qing-tributary status occurring at roughly the same moment as the Yongli regime's flight into Burma."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 8,
+      "blurb": "The Mughal Empire was at its territorial peak under Aurangzeb (1658–1707) just as the Qing was consolidating its own rule over China — the two great early-modern Asian conquest empires were near-contemporaries. Delhi Sultanate Ch 8 covers the early Mughal period that the Mughal apex grew out of. Both empires would face structurally similar institutional decay across the eighteenth and nineteenth centuries, with parallel arcs from peak power to terminal crisis."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "The Ottoman Empire's long decline through the eighteenth and nineteenth centuries paralleled the eventual decline of the Qing in striking ways — both were early-modern empires that fell to the combination of internal institutional decay and external European pressure. Ottoman Empire Ch 8 covers the parallel late-Ottoman decline that started under similar pressures to the late-Ming and late-Qing crises."
+    },
+    {
+      "matchText": "Safavid dynasty in Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 8,
+      "blurb": "The Safavid collapse in 1722 — eighty years after the Ming — followed an almost identical pattern: bankrupted treasury after major foreign wars, politically weak emperor presiding over institutional decay, peripheral tribal force the central state could not defeat, foreign-origin successor dynasty taking the imperial center. Safavid Persia Ch 8 covers the Afghan catastrophe and Nader Shah's restoration. Both dynasties left enduring cultural legacies that vastly outlasted their political collapse."
+    },
+    {
+      "matchText": "Tokugawa shogunate",
+      "targetTl": "edo-japan",
+      "targetChapter": 2,
+      "blurb": "The Tokugawa shogunate's Sakoku edicts of the 1630s and 1640s — sealing Japan off from European trade and Christianity for two and a half centuries — were the maximalist version of the maritime-isolation policy the Ming had nominally followed but never enforced. Edo Japan Ch 2 covers the early Tokugawa consolidation, which was happening at exactly the moment the Ming was collapsing. The two Asian great powers chose opposite responses to the European maritime presence — one sealing itself off, the other being conquered from the inside."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Manchu conquest replays the Yuan: a northern steppe-frontier people taking all of China when the native dynasty rots from within."
+    }
+  ]
 }

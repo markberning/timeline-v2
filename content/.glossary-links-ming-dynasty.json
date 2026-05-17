@@ -1,137 +1,756 @@
 {
   "1": [
-    { "term": "Anhui", "matchText": "Anhui", "wikiSlug": "Anhui", "type": "place" },
-    { "term": "Red Turban Rebellions", "matchText": "Red Turban", "wikiSlug": "Red_Turban_Rebellions", "type": "concept" },
-    { "term": "Khanbaliq", "matchText": "Khanbaliq", "wikiSlug": "Khanbaliq", "type": "place" },
-    { "term": "Mandate of Heaven", "matchText": "Mandate of Heaven", "wikiSlug": "Mandate_of_Heaven", "type": "concept" },
-    { "term": "Confucianism", "matchText": "Confucian", "wikiSlug": "Confucianism", "type": "concept" },
-    { "term": "Yelu Chucai", "matchText": "Toghon Temur", "wikiSlug": "Toghon_Temur", "type": "people" },
-    { "term": "Tibetan Buddhism", "matchText": "Tibetan Buddhism", "wikiSlug": "Tibetan_Buddhism", "type": "concept" },
-    { "term": "Imperial examinations", "matchText": "civil-service examinations", "wikiSlug": "Imperial_examination", "type": "concept" },
-    { "term": "Lingchi", "matchText": "lingchi", "wikiSlug": "Lingchi", "type": "concept" },
-    { "term": "Eunuch", "matchText": "eunuchs", "wikiSlug": "Eunuch", "type": "concept" },
-    { "term": "Tang dynasty", "matchText": "late Tang", "wikiSlug": "Tang_dynasty", "type": "concept" },
-    { "term": "Han dynasty", "matchText": "late Han", "wikiSlug": "Han_dynasty", "type": "concept" },
-    { "term": "Jiaochao", "matchText": "jiaochao", "wikiSlug": "Jiaochao", "type": "concept" }
+    {
+      "term": "Anhui",
+      "matchText": "Anhui",
+      "wikiSlug": "Anhui",
+      "type": "place"
+    },
+    {
+      "term": "Red Turban Rebellions",
+      "matchText": "Red Turban",
+      "wikiSlug": "Red_Turban_Rebellions",
+      "type": "concept"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Khanbaliq",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Yelu Chucai",
+      "matchText": "Toghon Temur",
+      "wikiSlug": "Toghon_Temur",
+      "type": "people"
+    },
+    {
+      "term": "Tibetan Buddhism",
+      "matchText": "Tibetan Buddhism",
+      "wikiSlug": "Tibetan_Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Imperial examinations",
+      "matchText": "civil-service examinations",
+      "wikiSlug": "Imperial_examination",
+      "type": "concept"
+    },
+    {
+      "term": "Lingchi",
+      "matchText": "lingchi",
+      "wikiSlug": "Lingchi",
+      "type": "concept"
+    },
+    {
+      "term": "Eunuch",
+      "matchText": "eunuchs",
+      "wikiSlug": "Eunuch",
+      "type": "concept"
+    },
+    {
+      "term": "Tang dynasty",
+      "matchText": "late Tang",
+      "wikiSlug": "Tang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Han dynasty",
+      "matchText": "late Han",
+      "wikiSlug": "Han_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Jiaochao",
+      "matchText": "jiaochao",
+      "wikiSlug": "Jiaochao",
+      "type": "concept"
+    }
   ],
   "2": [
-    { "term": "Beiping", "matchText": "Beiping", "wikiSlug": "Beijing", "type": "place" },
-    { "term": "Crown prince", "matchText": "crown prince", "wikiSlug": "Crown_prince", "type": "concept" },
-    { "term": "Yangtze River", "matchText": "Yangtze", "wikiSlug": "Yangtze", "type": "place" },
-    { "term": "Hall of Supreme Harmony", "matchText": "Hall of Supreme Harmony", "wikiSlug": "Hall_of_Supreme_Harmony", "type": "place" },
-    { "term": "Nanmu wood", "matchText": "nanmu", "wikiSlug": "Phoebe_zhennan", "type": "concept" },
-    { "term": "Five Elements", "matchText": "Five Elements", "wikiSlug": "Wuxing_(Chinese_philosophy)", "type": "concept" },
-    { "term": "Palace Museum", "matchText": "Palace Museum", "wikiSlug": "Palace_Museum", "type": "place" },
-    { "term": "UNESCO World Heritage site", "matchText": "UNESCO World Heritage site", "wikiSlug": "World_Heritage_Site", "type": "concept" },
-    { "term": "Cultural Revolution", "matchText": "Cultural Revolution", "wikiSlug": "Cultural_Revolution", "type": "concept" },
-    { "term": "Hall of Prayer for Good Harvests", "matchText": "Hall of Prayer for Good Harvests", "wikiSlug": "Temple_of_Heaven", "type": "place" },
-    { "term": "Onon River", "matchText": "Onon River", "wikiSlug": "Onon_River", "type": "place" },
-    { "term": "Encyclopedie", "matchText": "Encyclopédie", "wikiSlug": "Encyclop%C3%A9die", "type": "concept" }
+    {
+      "term": "Beiping",
+      "matchText": "Beiping",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Crown prince",
+      "matchText": "crown prince",
+      "wikiSlug": "Crown_prince",
+      "type": "concept"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze",
+      "type": "place"
+    },
+    {
+      "term": "Hall of Supreme Harmony",
+      "matchText": "Hall of Supreme Harmony",
+      "wikiSlug": "Hall_of_Supreme_Harmony",
+      "type": "place"
+    },
+    {
+      "term": "Nanmu wood",
+      "matchText": "nanmu",
+      "wikiSlug": "Phoebe_zhennan",
+      "type": "concept"
+    },
+    {
+      "term": "Five Elements",
+      "matchText": "Five Elements",
+      "wikiSlug": "Wuxing_(Chinese_philosophy)",
+      "type": "concept"
+    },
+    {
+      "term": "Palace Museum",
+      "matchText": "Palace Museum",
+      "wikiSlug": "Palace_Museum",
+      "type": "place"
+    },
+    {
+      "term": "UNESCO World Heritage site",
+      "matchText": "UNESCO World Heritage site",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
+    },
+    {
+      "term": "Cultural Revolution",
+      "matchText": "Cultural Revolution",
+      "wikiSlug": "Cultural_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Hall of Prayer for Good Harvests",
+      "matchText": "Hall of Prayer for Good Harvests",
+      "wikiSlug": "Temple_of_Heaven",
+      "type": "place"
+    },
+    {
+      "term": "Onon River",
+      "matchText": "Onon River",
+      "wikiSlug": "Onon_River",
+      "type": "place"
+    },
+    {
+      "term": "Encyclopedie",
+      "matchText": "Encyclopédie",
+      "wikiSlug": "Encyclop%C3%A9die",
+      "type": "concept"
+    }
   ],
   "3": [
-    { "term": "Hui people", "matchText": "Hui Muslim", "wikiSlug": "Hui_people", "type": "people" },
-    { "term": "Yunnan", "matchText": "Yunnan", "wikiSlug": "Yunnan", "type": "place" },
-    { "term": "Hajj", "matchText": "Hajj", "wikiSlug": "Hajj", "type": "concept" },
-    { "term": "Indian Ocean trade", "matchText": "Indian Ocean trade network", "wikiSlug": "Indian_Ocean_trade", "type": "concept" },
-    { "term": "Watertight bulkhead", "matchText": "watertight bulkhead", "wikiSlug": "Bulkhead_(partition)", "type": "concept" },
-    { "term": "Magnetic compass", "matchText": "magnetic compass", "wikiSlug": "Compass", "type": "concept" },
-    { "term": "Champa", "matchText": "Champa", "wikiSlug": "Champa", "type": "place" },
-    { "term": "Calicut", "matchText": "Calicut", "wikiSlug": "Kozhikode", "type": "place" },
-    { "term": "Sri Lanka", "matchText": "Sri Lanka", "wikiSlug": "Sri_Lanka", "type": "place" },
-    { "term": "Hormuz", "matchText": "Hormuz", "wikiSlug": "Hormuz_Island", "type": "place" },
-    { "term": "Malindi", "matchText": "Malindi", "wikiSlug": "Malindi", "type": "place" },
-    { "term": "Qilin", "matchText": "qilin", "wikiSlug": "Qilin", "type": "concept" },
-    { "term": "Mecca", "matchText": "Mecca", "wikiSlug": "Mecca", "type": "place" },
-    { "term": "Vasco da Gama", "matchText": "Vasco da Gama", "wikiSlug": "Vasco_da_Gama", "type": "people" },
-    { "term": "Mogadishu", "matchText": "Mogadishu", "wikiSlug": "Mogadishu", "type": "place" }
+    {
+      "term": "Hui people",
+      "matchText": "Hui Muslim",
+      "wikiSlug": "Hui_people",
+      "type": "people"
+    },
+    {
+      "term": "Yunnan",
+      "matchText": "Yunnan",
+      "wikiSlug": "Yunnan",
+      "type": "place"
+    },
+    {
+      "term": "Hajj",
+      "matchText": "Hajj",
+      "wikiSlug": "Hajj",
+      "type": "concept"
+    },
+    {
+      "term": "Indian Ocean trade",
+      "matchText": "Indian Ocean trade network",
+      "wikiSlug": "Indian_Ocean_trade",
+      "type": "concept"
+    },
+    {
+      "term": "Watertight bulkhead",
+      "matchText": "watertight bulkhead",
+      "wikiSlug": "Bulkhead_(partition)",
+      "type": "concept"
+    },
+    {
+      "term": "Magnetic compass",
+      "matchText": "magnetic compass",
+      "wikiSlug": "Compass",
+      "type": "concept"
+    },
+    {
+      "term": "Champa",
+      "matchText": "Champa",
+      "wikiSlug": "Champa",
+      "type": "place"
+    },
+    {
+      "term": "Calicut",
+      "matchText": "Calicut",
+      "wikiSlug": "Kozhikode",
+      "type": "place"
+    },
+    {
+      "term": "Sri Lanka",
+      "matchText": "Sri Lanka",
+      "wikiSlug": "Sri_Lanka",
+      "type": "place"
+    },
+    {
+      "term": "Hormuz",
+      "matchText": "Hormuz",
+      "wikiSlug": "Hormuz_Island",
+      "type": "place"
+    },
+    {
+      "term": "Malindi",
+      "matchText": "Malindi",
+      "wikiSlug": "Malindi",
+      "type": "place"
+    },
+    {
+      "term": "Qilin",
+      "matchText": "qilin",
+      "wikiSlug": "Qilin",
+      "type": "concept"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Vasco da Gama",
+      "matchText": "Vasco da Gama",
+      "wikiSlug": "Vasco_da_Gama",
+      "type": "people"
+    },
+    {
+      "term": "Mogadishu",
+      "matchText": "Mogadishu",
+      "wikiSlug": "Mogadishu",
+      "type": "place"
+    },
+    {
+      "term": "Treasure ship",
+      "matchText": "baochuan",
+      "wikiSlug": "Treasure_ship",
+      "type": "concept"
+    }
   ],
   "4": [
-    { "term": "Esen Taishi", "matchText": "Esen Taishi", "wikiSlug": "Esen_Taishi", "type": "people" },
-    { "term": "Oirats", "matchText": "Oirat", "wikiSlug": "Oirats", "type": "people" },
-    { "term": "Si Li Jian", "matchText": "Directorate of Ceremonial", "wikiSlug": "Twelve_Directorates", "type": "concept" },
-    { "term": "Eastern Depot", "matchText": "Eastern Depot", "wikiSlug": "Eastern_Depot", "type": "concept" },
-    { "term": "Jiayuguan", "matchText": "Jiayuguan", "wikiSlug": "Jiayu_Pass", "type": "place" },
-    { "term": "Shanhaiguan", "matchText": "Shanhaiguan", "wikiSlug": "Shanhai_Pass", "type": "place" },
-    { "term": "Mutianyu", "matchText": "Mutianyu", "wikiSlug": "Mutianyu", "type": "place" },
-    { "term": "Badaling", "matchText": "Badaling", "wikiSlug": "Badaling", "type": "place" },
-    { "term": "Suzhou", "matchText": "Suzhou", "wikiSlug": "Suzhou", "type": "place" },
-    { "term": "Hangzhou", "matchText": "Hangzhou", "wikiSlug": "Hangzhou", "type": "place" },
-    { "term": "Yangzhou", "matchText": "Yangzhou", "wikiSlug": "Yangzhou", "type": "place" }
+    {
+      "term": "Esen Taishi",
+      "matchText": "Esen Taishi",
+      "wikiSlug": "Esen_Taishi",
+      "type": "people"
+    },
+    {
+      "term": "Oirats",
+      "matchText": "Oirat",
+      "wikiSlug": "Oirats",
+      "type": "people"
+    },
+    {
+      "term": "Si Li Jian",
+      "matchText": "Directorate of Ceremonial",
+      "wikiSlug": "Twelve_Directorates",
+      "type": "concept"
+    },
+    {
+      "term": "Eastern Depot",
+      "matchText": "Eastern Depot",
+      "wikiSlug": "Eastern_Depot",
+      "type": "concept"
+    },
+    {
+      "term": "Jiayuguan",
+      "matchText": "Jiayuguan",
+      "wikiSlug": "Jiayu_Pass",
+      "type": "place"
+    },
+    {
+      "term": "Shanhaiguan",
+      "matchText": "Shanhaiguan",
+      "wikiSlug": "Shanhai_Pass",
+      "type": "place"
+    },
+    {
+      "term": "Mutianyu",
+      "matchText": "Mutianyu",
+      "wikiSlug": "Mutianyu",
+      "type": "place"
+    },
+    {
+      "term": "Badaling",
+      "matchText": "Badaling",
+      "wikiSlug": "Badaling",
+      "type": "place"
+    },
+    {
+      "term": "Suzhou",
+      "matchText": "Suzhou",
+      "wikiSlug": "Suzhou",
+      "type": "place"
+    },
+    {
+      "term": "Hangzhou",
+      "matchText": "Hangzhou",
+      "wikiSlug": "Hangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Yangzhou",
+      "matchText": "Yangzhou",
+      "wikiSlug": "Yangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Military of the Ming dynasty",
+      "matchText": "weisuo military system",
+      "wikiSlug": "Military_of_the_Ming_dynasty",
+      "type": "concept"
+    }
   ],
   "5": [
-    { "term": "Grand Secretariat", "matchText": "Grand Secretariat", "wikiSlug": "Grand_Secretariat", "type": "concept" },
-    { "term": "Hubei", "matchText": "Hubei", "wikiSlug": "Hubei", "type": "place" },
-    { "term": "Sycee", "matchText": "sycee", "wikiSlug": "Sycee", "type": "concept" },
-    { "term": "Potosi", "matchText": "Potosí", "wikiSlug": "Potos%C3%AD", "type": "place" },
-    { "term": "Acapulco", "matchText": "Acapulco", "wikiSlug": "Acapulco", "type": "place" },
-    { "term": "Manila", "matchText": "Manila", "wikiSlug": "Manila", "type": "place" },
-    { "term": "Iwami silver mine", "matchText": "Iwami", "wikiSlug": "Iwami_Ginzan_Silver_Mine", "type": "place" },
-    { "term": "Ryukyu Kingdom", "matchText": "Ryukyu Islands", "wikiSlug": "Ryukyu_Kingdom", "type": "place" },
-    { "term": "Spanish Habsburgs", "matchText": "Spanish Habsburg", "wikiSlug": "Spanish_Habsburgs", "type": "concept" },
-    { "term": "Tokugawa shogunate", "matchText": "Tokugawa shogunate", "wikiSlug": "Tokugawa_shogunate", "type": "concept" },
-    { "term": "Society of Jesus", "matchText": "Society of Jesus", "wikiSlug": "Society_of_Jesus", "type": "concept" },
-    { "term": "Ignatius of Loyola", "matchText": "Ignatius of Loyola", "wikiSlug": "Ignatius_of_Loyola", "type": "people" },
-    { "term": "Roman College", "matchText": "Roman College", "wikiSlug": "Roman_College", "type": "place" },
-    { "term": "Euclid's Elements", "matchText": "Euclidean geometry", "wikiSlug": "Euclid%27s_Elements", "type": "concept" },
-    { "term": "Ming Tombs", "matchText": "Ming Tombs", "wikiSlug": "Ming_tombs", "type": "place" }
+    {
+      "term": "Grand Secretariat",
+      "matchText": "Grand Secretariat",
+      "wikiSlug": "Grand_Secretariat",
+      "type": "concept"
+    },
+    {
+      "term": "Hubei",
+      "matchText": "Hubei",
+      "wikiSlug": "Hubei",
+      "type": "place"
+    },
+    {
+      "term": "Sycee",
+      "matchText": "sycee",
+      "wikiSlug": "Sycee",
+      "type": "concept"
+    },
+    {
+      "term": "Potosi",
+      "matchText": "Potosí",
+      "wikiSlug": "Potos%C3%AD",
+      "type": "place"
+    },
+    {
+      "term": "Acapulco",
+      "matchText": "Acapulco",
+      "wikiSlug": "Acapulco",
+      "type": "place"
+    },
+    {
+      "term": "Manila",
+      "matchText": "Manila",
+      "wikiSlug": "Manila",
+      "type": "place"
+    },
+    {
+      "term": "Iwami silver mine",
+      "matchText": "Iwami",
+      "wikiSlug": "Iwami_Ginzan_Silver_Mine",
+      "type": "place"
+    },
+    {
+      "term": "Ryukyu Kingdom",
+      "matchText": "Ryukyu Islands",
+      "wikiSlug": "Ryukyu_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Spanish Habsburgs",
+      "matchText": "Spanish Habsburg",
+      "wikiSlug": "Spanish_Habsburgs",
+      "type": "concept"
+    },
+    {
+      "term": "Tokugawa shogunate",
+      "matchText": "Tokugawa shogunate",
+      "wikiSlug": "Tokugawa_shogunate",
+      "type": "concept"
+    },
+    {
+      "term": "Society of Jesus",
+      "matchText": "Society of Jesus",
+      "wikiSlug": "Society_of_Jesus",
+      "type": "concept"
+    },
+    {
+      "term": "Ignatius of Loyola",
+      "matchText": "Ignatius of Loyola",
+      "wikiSlug": "Ignatius_of_Loyola",
+      "type": "people"
+    },
+    {
+      "term": "Roman College",
+      "matchText": "Roman College",
+      "wikiSlug": "Roman_College",
+      "type": "place"
+    },
+    {
+      "term": "Euclid's Elements",
+      "matchText": "Euclidean geometry",
+      "wikiSlug": "Euclid%27s_Elements",
+      "type": "concept"
+    },
+    {
+      "term": "Ming Tombs",
+      "matchText": "Ming Tombs",
+      "wikiSlug": "Ming_tombs",
+      "type": "place"
+    },
+    {
+      "term": "Single whip law",
+      "matchText": "Single Whip Reform",
+      "wikiSlug": "Single_whip_law",
+      "type": "concept"
+    }
   ],
   "6": [
-    { "term": "Toyotomi Hideyoshi", "matchText": "Toyotomi Hideyoshi", "wikiSlug": "Toyotomi_Hideyoshi", "type": "people" },
-    { "term": "Sengoku period", "matchText": "Sengoku", "wikiSlug": "Sengoku_period", "type": "concept" },
-    { "term": "Busan", "matchText": "Busan", "wikiSlug": "Busan", "type": "place" },
-    { "term": "Oda Nobunaga", "matchText": "Oda Nobunaga", "wikiSlug": "Oda_Nobunaga", "type": "people" },
-    { "term": "Tokugawa Ieyasu", "matchText": "Tokugawa Ieyasu", "wikiSlug": "Tokugawa_Ieyasu", "type": "people" },
-    { "term": "Daimyo", "matchText": "daimyo", "wikiSlug": "Daimyo", "type": "concept" },
-    { "term": "Joseon dynasty", "matchText": "Joseon dynasty", "wikiSlug": "Joseon", "type": "concept" },
-    { "term": "Pyongyang", "matchText": "Pyongyang", "wikiSlug": "Pyongyang", "type": "place" },
-    { "term": "Yi Sun-sin", "matchText": "Yi Sun-sin", "wikiSlug": "Yi_Sun-sin", "type": "people" },
-    { "term": "Turtle ship", "matchText": "geobukseon", "wikiSlug": "Turtle_ship", "type": "concept" },
-    { "term": "Battle of Hansando", "matchText": "Hansando", "wikiSlug": "Battle_of_Hansan_Island", "type": "concept" },
-    { "term": "Battle of Myeongnyang", "matchText": "Myeongnyang", "wikiSlug": "Battle_of_Myeongnyang", "type": "concept" },
-    { "term": "Mound of Ears", "matchText": "Mound of Ears", "wikiSlug": "Mimizuka", "type": "place" },
-    { "term": "Battle of Sekigahara", "matchText": "Battle of Sekigahara", "wikiSlug": "Battle_of_Sekigahara", "type": "concept" }
+    {
+      "term": "Toyotomi Hideyoshi",
+      "matchText": "Toyotomi Hideyoshi",
+      "wikiSlug": "Toyotomi_Hideyoshi",
+      "type": "people"
+    },
+    {
+      "term": "Sengoku period",
+      "matchText": "Sengoku",
+      "wikiSlug": "Sengoku_period",
+      "type": "concept"
+    },
+    {
+      "term": "Busan",
+      "matchText": "Busan",
+      "wikiSlug": "Busan",
+      "type": "place"
+    },
+    {
+      "term": "Oda Nobunaga",
+      "matchText": "Oda Nobunaga",
+      "wikiSlug": "Oda_Nobunaga",
+      "type": "people"
+    },
+    {
+      "term": "Tokugawa Ieyasu",
+      "matchText": "Tokugawa Ieyasu",
+      "wikiSlug": "Tokugawa_Ieyasu",
+      "type": "people"
+    },
+    {
+      "term": "Daimyo",
+      "matchText": "daimyo",
+      "wikiSlug": "Daimyo",
+      "type": "concept"
+    },
+    {
+      "term": "Joseon dynasty",
+      "matchText": "Joseon dynasty",
+      "wikiSlug": "Joseon",
+      "type": "concept"
+    },
+    {
+      "term": "Pyongyang",
+      "matchText": "Pyongyang",
+      "wikiSlug": "Pyongyang",
+      "type": "place"
+    },
+    {
+      "term": "Yi Sun-sin",
+      "matchText": "Yi Sun-sin",
+      "wikiSlug": "Yi_Sun-sin",
+      "type": "people"
+    },
+    {
+      "term": "Turtle ship",
+      "matchText": "geobukseon",
+      "wikiSlug": "Turtle_ship",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Hansando",
+      "matchText": "Hansando",
+      "wikiSlug": "Battle_of_Hansan_Island",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Myeongnyang",
+      "matchText": "Myeongnyang",
+      "wikiSlug": "Battle_of_Myeongnyang",
+      "type": "concept"
+    },
+    {
+      "term": "Mound of Ears",
+      "matchText": "Mound of Ears",
+      "wikiSlug": "Mimizuka",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Sekigahara",
+      "matchText": "Battle of Sekigahara",
+      "wikiSlug": "Battle_of_Sekigahara",
+      "type": "concept"
+    }
   ],
   "7": [
-    { "term": "Wenyan", "matchText": "literary Chinese", "wikiSlug": "Classical_Chinese", "type": "concept" },
-    { "term": "Vernacular Chinese", "matchText": "vernacular Chinese", "wikiSlug": "Written_vernacular_Chinese", "type": "concept" },
-    { "term": "Three Kingdoms period", "matchText": "Three Kingdoms", "wikiSlug": "Three_Kingdoms", "type": "concept" },
-    { "term": "Guan Yu", "matchText": "Guan Yu", "wikiSlug": "Guan_Yu", "type": "people" },
-    { "term": "Zhuge Liang", "matchText": "Zhuge Liang", "wikiSlug": "Zhuge_Liang", "type": "people" },
-    { "term": "Cao Cao", "matchText": "Cao Cao", "wikiSlug": "Cao_Cao", "type": "people" },
-    { "term": "Liangshan Marsh", "matchText": "Liangshan Marsh", "wikiSlug": "Liangshan_(Outlaws_of_the_Marsh)", "type": "place" },
-    { "term": "Mao Zedong", "matchText": "Mao Zedong", "wikiSlug": "Mao_Zedong", "type": "people" },
-    { "term": "Xuanzang", "matchText": "Xuanzang", "wikiSlug": "Xuanzang", "type": "people" },
-    { "term": "Sun Wukong", "matchText": "Sun Wukong", "wikiSlug": "Sun_Wukong", "type": "people" },
-    { "term": "Cheng-Zhu school", "matchText": "Cheng-Zhu", "wikiSlug": "Neo-Confucianism", "type": "concept" },
-    { "term": "Zhu Xi", "matchText": "Zhu Xi", "wikiSlug": "Zhu_Xi", "type": "people" },
-    { "term": "Li Zhi", "matchText": "Li Zhi", "wikiSlug": "Li_Zhi_(philosopher)", "type": "people" },
-    { "term": "Yomeigaku", "matchText": "Yomeigaku", "wikiSlug": "Neo-Confucianism_in_Japan", "type": "concept" },
-    { "term": "Wuxi", "matchText": "Wuxi", "wikiSlug": "Wuxi", "type": "place" },
-    { "term": "Woodblock printing", "matchText": "Woodblock printing", "wikiSlug": "Woodblock_printing", "type": "concept" },
-    { "term": "Gutenberg", "matchText": "Gutenberg", "wikiSlug": "Johannes_Gutenberg", "type": "people" },
-    { "term": "Kaolin", "matchText": "kaolin", "wikiSlug": "Kaolinite", "type": "concept" },
-    { "term": "Cobalt blue", "matchText": "cobalt-blue", "wikiSlug": "Cobalt_blue", "type": "concept" },
-    { "term": "Delft", "matchText": "Delft", "wikiSlug": "Delft", "type": "place" }
+    {
+      "term": "Wenyan",
+      "matchText": "literary Chinese",
+      "wikiSlug": "Classical_Chinese",
+      "type": "concept"
+    },
+    {
+      "term": "Vernacular Chinese",
+      "matchText": "vernacular Chinese",
+      "wikiSlug": "Written_vernacular_Chinese",
+      "type": "concept"
+    },
+    {
+      "term": "Three Kingdoms period",
+      "matchText": "Three Kingdoms",
+      "wikiSlug": "Three_Kingdoms",
+      "type": "concept"
+    },
+    {
+      "term": "Guan Yu",
+      "matchText": "Guan Yu",
+      "wikiSlug": "Guan_Yu",
+      "type": "people"
+    },
+    {
+      "term": "Zhuge Liang",
+      "matchText": "Zhuge Liang",
+      "wikiSlug": "Zhuge_Liang",
+      "type": "people"
+    },
+    {
+      "term": "Cao Cao",
+      "matchText": "Cao Cao",
+      "wikiSlug": "Cao_Cao",
+      "type": "people"
+    },
+    {
+      "term": "Liangshan Marsh",
+      "matchText": "Liangshan Marsh",
+      "wikiSlug": "Liangshan_(Outlaws_of_the_Marsh)",
+      "type": "place"
+    },
+    {
+      "term": "Mao Zedong",
+      "matchText": "Mao Zedong",
+      "wikiSlug": "Mao_Zedong",
+      "type": "people"
+    },
+    {
+      "term": "Xuanzang",
+      "matchText": "Xuanzang",
+      "wikiSlug": "Xuanzang",
+      "type": "people"
+    },
+    {
+      "term": "Sun Wukong",
+      "matchText": "Sun Wukong",
+      "wikiSlug": "Sun_Wukong",
+      "type": "people"
+    },
+    {
+      "term": "Cheng-Zhu school",
+      "matchText": "Cheng-Zhu",
+      "wikiSlug": "Neo-Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Zhu Xi",
+      "matchText": "Zhu Xi",
+      "wikiSlug": "Zhu_Xi",
+      "type": "people"
+    },
+    {
+      "term": "Li Zhi",
+      "matchText": "Li Zhi",
+      "wikiSlug": "Li_Zhi_(philosopher)",
+      "type": "people"
+    },
+    {
+      "term": "Yomeigaku",
+      "matchText": "Yomeigaku",
+      "wikiSlug": "Neo-Confucianism_in_Japan",
+      "type": "concept"
+    },
+    {
+      "term": "Wuxi",
+      "matchText": "Wuxi",
+      "wikiSlug": "Wuxi",
+      "type": "place"
+    },
+    {
+      "term": "Woodblock printing",
+      "matchText": "Woodblock printing",
+      "wikiSlug": "Woodblock_printing",
+      "type": "concept"
+    },
+    {
+      "term": "Gutenberg",
+      "matchText": "Gutenberg",
+      "wikiSlug": "Johannes_Gutenberg",
+      "type": "people"
+    },
+    {
+      "term": "Kaolin",
+      "matchText": "kaolin",
+      "wikiSlug": "Kaolinite",
+      "type": "concept"
+    },
+    {
+      "term": "Cobalt blue",
+      "matchText": "cobalt-blue",
+      "wikiSlug": "Cobalt_blue",
+      "type": "concept"
+    },
+    {
+      "term": "Delft",
+      "matchText": "Delft",
+      "wikiSlug": "Delft",
+      "type": "place"
+    },
+    {
+      "term": "Luo Guanzhong",
+      "matchText": "Luo Guanzhong",
+      "wikiSlug": "Luo_Guanzhong",
+      "type": "people"
+    }
   ],
   "8": [
-    { "term": "Madam Ke", "matchText": "Madam Ke", "wikiSlug": "Madam_Ke", "type": "people" },
-    { "term": "Yang Lian", "matchText": "Yang Lian", "wikiSlug": "Yang_Lian_(Ming_dynasty)", "type": "people" },
-    { "term": "Tungusic peoples", "matchText": "Tungusic", "wikiSlug": "Tungusic_peoples", "type": "concept" },
-    { "term": "Jurchen people", "matchText": "Jurchen", "wikiSlug": "Jurchen_people", "type": "people" },
-    { "term": "Jin dynasty (1115-1234)", "matchText": "Jin dynasty", "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)", "type": "concept" },
-    { "term": "Manchuria", "matchText": "Manchuria", "wikiSlug": "Manchuria", "type": "place" },
-    { "term": "Manchu language", "matchText": "Manchu script", "wikiSlug": "Manchu_alphabet", "type": "concept" },
-    { "term": "Hong Taiji", "matchText": "Hong Taiji", "wikiSlug": "Hong_Taiji", "type": "people" },
-    { "term": "Dorgon", "matchText": "Dorgon", "wikiSlug": "Dorgon", "type": "people" },
-    { "term": "Shunzhi Emperor", "matchText": "Shunzhi Emperor", "wikiSlug": "Shunzhi_Emperor", "type": "people" },
-    { "term": "Shaanxi", "matchText": "Shaanxi", "wikiSlug": "Shaanxi", "type": "place" },
-    { "term": "Xi'an", "matchText": "Xi'an", "wikiSlug": "Xi%27an", "type": "place" },
-    { "term": "Princess Changping", "matchText": "Princess Changping", "wikiSlug": "Princess_Changping", "type": "people" },
-    { "term": "Jingshan Park", "matchText": "Jingshan Park", "wikiSlug": "Jingshan_Park", "type": "place" },
-    { "term": "Three Feudatories", "matchText": "Three Feudatories", "wikiSlug": "Revolt_of_the_Three_Feudatories", "type": "concept" },
-    { "term": "Fort Zeelandia", "matchText": "Fort Zeelandia", "wikiSlug": "Fort_Zeelandia_(Taiwan)", "type": "place" },
-    { "term": "Dutch East India Company", "matchText": "Dutch East India Company", "wikiSlug": "Dutch_East_India_Company", "type": "concept" },
-    { "term": "Sakoku", "matchText": "Sakoku", "wikiSlug": "Sakoku", "type": "concept" },
-    { "term": "Peace of Westphalia", "matchText": "Peace of Westphalia", "wikiSlug": "Peace_of_Westphalia", "type": "concept" }
+    {
+      "term": "Madam Ke",
+      "matchText": "Madam Ke",
+      "wikiSlug": "Madam_Ke",
+      "type": "people"
+    },
+    {
+      "term": "Yang Lian",
+      "matchText": "Yang Lian",
+      "wikiSlug": "Yang_Lian_(Ming_dynasty)",
+      "type": "people"
+    },
+    {
+      "term": "Tungusic peoples",
+      "matchText": "Tungusic",
+      "wikiSlug": "Tungusic_peoples",
+      "type": "concept"
+    },
+    {
+      "term": "Jurchen people",
+      "matchText": "Jurchen",
+      "wikiSlug": "Jurchen_people",
+      "type": "people"
+    },
+    {
+      "term": "Jin dynasty (1115-1234)",
+      "matchText": "Jin dynasty",
+      "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)",
+      "type": "concept"
+    },
+    {
+      "term": "Manchuria",
+      "matchText": "Manchuria",
+      "wikiSlug": "Manchuria",
+      "type": "place"
+    },
+    {
+      "term": "Manchu language",
+      "matchText": "Manchu script",
+      "wikiSlug": "Manchu_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Hong Taiji",
+      "matchText": "Hong Taiji",
+      "wikiSlug": "Hong_Taiji",
+      "type": "people"
+    },
+    {
+      "term": "Dorgon",
+      "matchText": "Dorgon",
+      "wikiSlug": "Dorgon",
+      "type": "people"
+    },
+    {
+      "term": "Shunzhi Emperor",
+      "matchText": "Shunzhi Emperor",
+      "wikiSlug": "Shunzhi_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Shaanxi",
+      "matchText": "Shaanxi",
+      "wikiSlug": "Shaanxi",
+      "type": "place"
+    },
+    {
+      "term": "Xi'an",
+      "matchText": "Xi'an",
+      "wikiSlug": "Xi%27an",
+      "type": "place"
+    },
+    {
+      "term": "Princess Changping",
+      "matchText": "Princess Changping",
+      "wikiSlug": "Princess_Changping",
+      "type": "people"
+    },
+    {
+      "term": "Jingshan Park",
+      "matchText": "Jingshan Park",
+      "wikiSlug": "Jingshan_Park",
+      "type": "place"
+    },
+    {
+      "term": "Three Feudatories",
+      "matchText": "Three Feudatories",
+      "wikiSlug": "Revolt_of_the_Three_Feudatories",
+      "type": "concept"
+    },
+    {
+      "term": "Fort Zeelandia",
+      "matchText": "Fort Zeelandia",
+      "wikiSlug": "Fort_Zeelandia_(Taiwan)",
+      "type": "place"
+    },
+    {
+      "term": "Dutch East India Company",
+      "matchText": "Dutch East India Company",
+      "wikiSlug": "Dutch_East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Sakoku",
+      "matchText": "Sakoku",
+      "wikiSlug": "Sakoku",
+      "type": "concept"
+    },
+    {
+      "term": "Peace of Westphalia",
+      "matchText": "Peace of Westphalia",
+      "wikiSlug": "Peace_of_Westphalia",
+      "type": "concept"
+    }
   ]
 }
