@@ -27,6 +27,7 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 7. **Curate glossary links** — `content/.glossary-links-{tlId}.json`, format `[{term, matchText, wikiSlug, type}]`. Target ~20–35 per chapter.
 8. **Curate cross-civ links** — `content/.cross-links-{tlId}.json` per chapter with `{matchText, targetTl, targetChapter, blurb}`.
 9. **Write summary bullets** — `narratives/{tlId}.summaries.json`, 6–10 bullets per chapter. See WRITING-RULES.md for spec.
+9b. **Lint links** — `npm run lint:links --tl={tlId}` before ship. Catches dead wikiSlugs (live Wikipedia check, cached), matchText not present in the chapter body (the parser silently drops these — it also now warns), non-ASCII/punctuation/sentence-like/chapter-title-fragment matchText, dupes, and generic image-risk slugs. `--strict` exits non-zero on ERROR. Fix all ERRORs before parse.
 10. **Enrich events** — `npm run parse` fetches thumbnails + Wikipedia extracts. **Restart dev server after parse** — `lib/data.ts` caches in-memory.
 11. **Backward cross-cultural pass** — add cross-link entries to completed TLs pointing at chapters in the new TL.
 12. **Generate chapter maps** — `node --env-file=.env.local scripts/generate-maps.mjs {tlId}` parses `map-prompts/{tlId}.md` and calls the Gemini image API (`gemini-3-pro-image-preview`) per chapter. Audit thumbnails, regen bad chapters with `--chapter N`, then `node scripts/optimize-maps.mjs` (PNG → WebP q85, deletes PNG originals). See `map-prompts/README.md` for prompt house style.

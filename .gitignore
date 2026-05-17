@@ -9,3 +9,4 @@ public/offline/
 .env
 .env.local
 .env.*.local
+audits/.slug-validation-cache.json

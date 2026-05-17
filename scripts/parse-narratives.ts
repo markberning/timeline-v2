@@ -196,6 +196,11 @@ const NARRATIVE_FILES: Record<string, string> = {
   'kievan-rus.md': 'kievan-rus',
   'russian-empire.md': 'russian-empire',
   'soviet-union.md': 'soviet-union',
+  'germanic-tribes.md': 'germanic-tribes',
+  'the-goths.md': 'the-goths',
+  'migration-period.md': 'migration-period',
+  'anglo-saxon-england.md': 'anglo-saxon-england',
+  'vendel-scandinavia.md': 'vendel-scandinavia',
   'mississippian-culture.md': 'mississippian-culture',
   'early-american-republic.md': 'early-american-republic',
   'antebellum-america.md': 'antebellum-america',
@@ -451,17 +456,27 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
     // Sort by length descending so longer matches are replaced first
     const sorted = [...chapterLinks].sort((a, b) => b.matchText.length - a.matchText.length)
     const linked = new Set<string>()
+    const eventAttempts = new Map<string, string[]>()
     for (const link of sorted) {
       if (linked.has(link.eventId)) continue
       if (!categoryMap.has(link.eventId)) {
         console.warn(`  ⚠ stale event link in ch${ch.number}: ${link.eventId} (skipping)`)
         continue
       }
+      const mts = eventAttempts.get(link.eventId) ?? []
+      mts.push(link.matchText)
+      eventAttempts.set(link.eventId, mts)
       const cat = categoryMap.get(link.eventId) ?? 'people'
       const replacement = `<a class="event-link" data-event-id="${link.eventId}" data-category="${cat}">${link.matchText}</a>`
       const res = replaceOutsideAnchors(linkedBody, link.matchText, replacement)
       linkedBody = res.result
       if (res.replaced) linked.add(link.eventId)
+    }
+    // Surface event links that never matched (every matchText for the eventId failed)
+    for (const [eid, mts] of eventAttempts) {
+      if (!linked.has(eid)) {
+        console.warn(`  ⚠ event link ch${ch.number}: ${eid} — no matchText found in body (${mts.map(m => JSON.stringify(m)).join(', ')})`)
+      }
     }
 
     // Inject glossary links (runs after events so events win where they overlap)
@@ -474,6 +489,7 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
       const res = replaceOutsideAnchors(linkedBody, link.matchText, replacement)
       linkedBody = res.result
       if (res.replaced) glossaryLinked.add(link.matchText.toLowerCase())
+      else console.warn(`  ⚠ glossary link ch${ch.number}: matchText ${JSON.stringify(link.matchText)} not found in body (→ ${link.wikiSlug})`)
     }
 
     const html = await markdownToHtml(linkedBody)
