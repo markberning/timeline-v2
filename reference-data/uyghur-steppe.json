@@ -1,0 +1,1103 @@
+{
+ "id": "uyghur-steppe",
+ "label": "The Uyghur & Qara-Khitai Steppe",
+ "type": "civilization",
+ "region": "asia",
+ "source": "curated",
+ "wikiSlug": "Uyghur_Khaganate",
+ "imageWikiSlug": "Bezeklik_Thousand_Buddha_Caves",
+ "pitch": "Between the Göktürks and Genghis Khan lies the steppe's forgotten half-millennium. The Uyghurs overthrew the Turks in 744, rescued the Tang dynasty from collapse and walked away as its creditor, and made a Persian gnostic religion — Manichaeism — their state faith. Destroyed in a single year by the Kyrgyz in 840, they reinvented themselves as settled Buddhist oasis merchants of the Silk Road, while their Karluk cousins became the first Turkic Muslims. Then a Buddhist Khitan refugee dynasty, the Qara-Khitai, fled China and ended up ruling Muslim Central Asia — until the Mongols swallowed it all.\n\n🔑 Key Facts:\n• The Uyghur intervention in the An Lushan rebellion (755–763) inverted the steppe–China balance: China paid the nomads.\n• Bögü Khan's conversion to Manichaeism (762) is the only case of a steppe empire adopting a literate missionary religion of the settled world.\n• The Kingdom of Qocho turned a destroyed nomad khaganate into a multireligious agrarian trade state — and gave the Mongols their script and scribes.\n• Yelü Dashi's Qara-Khitai crushed the Seljuk sultan at Qatwan (1141), the battle that seeded Europe's 'Prester John' legend.\n\n🤔 Why It Matters: This is the bridge the reader is missing — how the Turkic world became literate, urban, and Muslim, and how the administrative DNA the Mongol Empire ran on was Uyghur.\n\n🎲 Wild Card: Küchlüg, a Naiman prince and Christian, usurped the throne of a Buddhist empire and then persecuted its Muslim majority — until a Mongol general had him hunted down in 1218 and his head paraded through the cities he had oppressed.",
+ "countryIds": [],
+ "spans": [
+  {
+   "id": "span-uyghur-steppe-khaganate",
+   "label": "The Uyghur Khaganate",
+   "startYear": 744,
+   "endYear": 840,
+   "description": "From the overthrow of the Second Turkic Khaganate to the Kyrgyz sack of Ordu-Baliq — a literate, Manichaean steppe empire that lived off the Tang silk trade.",
+   "wikiSlug": "Uyghur_Khaganate"
+  },
+  {
+   "id": "span-uyghur-steppe-manichaean",
+   "label": "The Manichaean State",
+   "startYear": 762,
+   "endYear": 840,
+   "description": "Bögü Khan's adoption of Manichaeism and the Sogdian-influenced, urban, scribal character of the Uyghur elite.",
+   "wikiSlug": "Manichaeism"
+  },
+  {
+   "id": "span-uyghur-steppe-qocho",
+   "label": "The Oasis Kingdoms",
+   "startYear": 840,
+   "endYear": 1209,
+   "description": "The Ganzhou and Qocho Uyghur states: nomads turned settled Buddhist Silk Road merchants of the Tarim.",
+   "wikiSlug": "Kingdom_of_Qocho"
+  },
+  {
+   "id": "span-uyghur-steppe-karakhanid",
+   "label": "The Kara-Khanid Khanate",
+   "startYear": 840,
+   "endYear": 1212,
+   "description": "The first Turkic Muslim dynasty: Satuq Bughra Khan's conversion, the conquest of Transoxiana, and the birth of Turkic-Islamic literature.",
+   "wikiSlug": "Kara-Khanid_Khanate"
+  },
+  {
+   "id": "span-uyghur-steppe-qarakhitai",
+   "label": "The Qara-Khitai",
+   "startYear": 1124,
+   "endYear": 1218,
+   "description": "Yelü Dashi's Western Liao: a Chinese-Buddhist refugee dynasty ruling a Muslim Central Asia by tolerant indirect rule.",
+   "wikiSlug": "Qara_Khitai"
+  },
+  {
+   "id": "span-uyghur-steppe-mongol-eve",
+   "label": "The Eve of the Mongols",
+   "startYear": 1180,
+   "endYear": 1218,
+   "description": "Küchlüg's usurpation, Genghis Khan's unification of the steppe, and the absorption of the Uyghur and Qara-Khitai worlds into the Mongol Empire.",
+   "wikiSlug": "Küchlüg"
+  }
+ ],
+ "events": [
+  {
+   "id": "evt-uyghur-001",
+   "label": "The Three-Tribe Revolt Against the Türks",
+   "year": 742,
+   "description": "The Uyghur, Karluk, and Basmyl tribes rose together against the failing Second Turkic Khaganate, beginning the war that would end Göktürk power on the Orkhon.",
+   "wikiSlug": "Second_Turkic_Khaganate",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-002",
+   "label": "Qutlugh Bilge Köl Founds the Uyghur Khaganate",
+   "year": 744,
+   "description": "Qutlugh Bilge Köl Kaghan defeated the last Göktürk ruler and proclaimed the Uyghur Khaganate, making the Uyghurs masters of the eastern steppe.",
+   "wikiSlug": "Qutlugh_Bilge_Köl_Qaghan",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-003",
+   "label": "Death of the Last Eastern Türk Qaghan",
+   "year": 745,
+   "description": "Özmiş Qaghan, the last ruler of the Göktürk line, was killed and his head sent to the Tang court — the formal extinction of the empire the Uyghurs replaced.",
+   "wikiSlug": "Özmiş_Qaghan",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-004",
+   "label": "Accession of Bayanchur Khan",
+   "year": 747,
+   "description": "El Etmish Bilge Qaghan, known as Bayanchur or Moyun Chur, took the throne and expanded the khaganate to its greatest steppe extent.",
+   "wikiSlug": "Bayanchur_Khan",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-005",
+   "label": "Construction of Ordu-Baliq",
+   "year": 750,
+   "description": "The Uyghurs built a walled imperial capital, Ordu-Baliq (Karabalgasun), on the Orkhon River — a fortified, planned city, rare for a nomad empire.",
+   "wikiSlug": "Ordu-Baliq",
+   "tier": 1,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-006",
+   "label": "The Shine Usu and Tariat Inscriptions",
+   "year": 760,
+   "description": "Bayanchur Khan recorded his campaigns and the founding of the khaganate in Old Turkic runic inscriptions, the chief native source for early Uyghur history.",
+   "wikiSlug": "Bayanchur_Khan",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-007",
+   "label": "The Battle of Talas",
+   "year": 751,
+   "description": "When the Karluks defected mid-battle, an Abbasid army defeated the Tang at Talas — a turning point that pulled the western steppe toward the Islamic world.",
+   "wikiSlug": "Battle_of_Talas",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-008",
+   "label": "Sogdian Merchants Enter Uyghur Service",
+   "year": 752,
+   "description": "Sogdian traders and scribes from the Silk Road oases became the khaganate's diplomats, financiers, and administrators, tying the nomad state to settled commerce.",
+   "wikiSlug": "Sogdia",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-009",
+   "label": "The An Lushan Rebellion Erupts",
+   "year": 755,
+   "description": "An Lushan's revolt nearly destroyed the Tang dynasty, emptying north China of order and forcing the emperor to flee — and to look to the steppe for rescue.",
+   "wikiSlug": "An_Lushan_rebellion",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-010",
+   "label": "Tang Appeals to the Uyghurs for Aid",
+   "year": 756,
+   "description": "The cornered Tang court bought Uyghur cavalry with the promise of plunder and tribute, beginning the relationship that would invert the steppe–China order.",
+   "wikiSlug": "An_Lushan_rebellion",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-011",
+   "label": "Uyghurs Recapture Chang'an and Luoyang",
+   "year": 757,
+   "description": "Uyghur horsemen spearheaded the reconquest of both Tang capitals, with Luoyang handed over to a brutal three-day sack as the agreed price.",
+   "wikiSlug": "An_Lushan_rebellion",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-012",
+   "label": "Princess Ningguo Married to the Kaghan",
+   "year": 758,
+   "description": "The Tang sent a true imperial princess to the Uyghur ruler — a humiliating reversal of the usual direction of steppe–China marriage diplomacy.",
+   "wikiSlug": "Princess_Ningguo",
+   "tier": 2,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-013",
+   "label": "The Horse-and-Silk Trade",
+   "year": 760,
+   "description": "The Uyghurs forced the Tang into a fixed exchange of broken-down steppe horses for vast quantities of silk, draining the Chinese treasury for decades.",
+   "wikiSlug": "Silk_Road",
+   "tier": 1,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-014",
+   "label": "Bögü Khan's Second Intervention",
+   "year": 762,
+   "description": "Tengri Bögü Khan led a fresh Uyghur army into China, retook Luoyang from rebel remnants, and met the Sogdian Manichaean priests who would change his court.",
+   "wikiSlug": "Bögü_Qaghan",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-015",
+   "label": "Bögü Khan Converts to Manichaeism",
+   "year": 763,
+   "description": "Bögü Khan adopted Manichaeism, a dualist Persian religion of the settled world, after debating with Sogdian Electi in occupied Luoyang.",
+   "wikiSlug": "Bögü_Qaghan",
+   "tier": 1,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-016",
+   "label": "Manichaeism Becomes the State Religion",
+   "year": 763,
+   "description": "The khaganate made Manichaeism official — the only steppe empire ever to take a literate, missionary, scriptural faith of the agrarian world as its state religion.",
+   "wikiSlug": "Manichaeism",
+   "tier": 1,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-017",
+   "label": "Manichaean Monasteries at Ordu-Baliq",
+   "year": 768,
+   "description": "Manichaean clergy, temples, and a scriptorium were established in the Uyghur capital, giving the nomad elite a resident literate priesthood.",
+   "wikiSlug": "Manichaeism",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-018",
+   "label": "The Old Uyghur Alphabet",
+   "year": 770,
+   "description": "The Uyghurs adapted the Sogdian script into the Old Uyghur alphabet, the writing system later borrowed by the Mongols and Manchus.",
+   "wikiSlug": "Old_Uyghur_alphabet",
+   "tier": 1,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-019",
+   "label": "The Karabalgasun Trilingual Inscription",
+   "year": 808,
+   "description": "A great stele at the capital recorded Uyghur history and the Manichaean conversion in Old Turkic, Sogdian, and Chinese — a monument to a deliberately multilingual state.",
+   "wikiSlug": "Karabalgasun_inscription",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-020",
+   "label": "Sogdian Advisers Dominate the Court",
+   "year": 780,
+   "description": "Manichaean Sogdians ran Uyghur diplomacy and finance, pushing aggressive trade demands on China and steering the khaganate's foreign policy.",
+   "wikiSlug": "Sogdia",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-021",
+   "label": "Anti-Uyghur Backlash at the Tang Court",
+   "year": 779,
+   "description": "After Bögü Khan's death, resentment of Uyghur arrogance and the ruinous trade burst into massacres of Uyghur and Sogdian merchants in China.",
+   "wikiSlug": "An_Lushan_rebellion",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-022",
+   "label": "Assassination of Bögü Khan",
+   "year": 779,
+   "description": "Bögü Khan was killed by his minister Tun Bagha Tarkhan in a coup that checked the Manichaean-Sogdian war party but kept the religion.",
+   "wikiSlug": "Bögü_Qaghan",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-023",
+   "label": "The Kaghan Builds in Stone and Silk",
+   "year": 800,
+   "description": "Arab and Chinese visitors described Ordu-Baliq's golden tent, fortified walls, and markets — the wealth a nomad empire accumulated by taxing trade.",
+   "wikiSlug": "Ordu-Baliq",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-024",
+   "label": "Succession Wars Weaken the Khaganate",
+   "year": 825,
+   "description": "A run of short reigns and assassinated kaghans hollowed out central authority in the decades before the collapse.",
+   "wikiSlug": "Uyghur_Khaganate",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-025",
+   "label": "The Great Steppe Famine",
+   "year": 839,
+   "description": "A catastrophic winter killed the herds and brought epidemic and starvation, fatally weakening the khaganate just before the Kyrgyz attack.",
+   "wikiSlug": "Uyghur_Khaganate",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-026",
+   "label": "A Rebel General Invites the Kyrgyz",
+   "year": 839,
+   "description": "The disaffected commander Külüg Bagha defected and guided the Yenisei Kyrgyz army down onto the Orkhon heartland.",
+   "wikiSlug": "Yenisei_Kyrgyz",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-027",
+   "label": "The Kyrgyz Sack Ordu-Baliq",
+   "year": 840,
+   "description": "A Kyrgyz army stormed and burned the Uyghur capital, killed the kaghan, and destroyed the khaganate in a single campaigning season.",
+   "wikiSlug": "Yenisei_Kyrgyz",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-028",
+   "label": "The Uyghur Diaspora",
+   "year": 840,
+   "description": "The surviving Uyghurs scattered in three great migrations — south to the Tang frontier, west to the Gansu corridor, and southwest to the Tarim oases.",
+   "wikiSlug": "Uyghur_Khaganate",
+   "tier": 1,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-029",
+   "label": "The Tang Persecute the Manichaeans",
+   "year": 843,
+   "description": "With their Uyghur protectors gone, the Manichaean church in China was crushed: temples seized, priests killed or defrocked, in a prelude to the wider Huichang persecutions.",
+   "wikiSlug": "Great_Anti-Buddhist_Persecution",
+   "tier": 2,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-030",
+   "label": "The Kyrgyz Fail to Hold the Steppe",
+   "year": 848,
+   "description": "The Yenisei Kyrgyz looted the Orkhon but withdrew to Siberia rather than rule it, leaving a power vacuum that lasted until the Mongols.",
+   "wikiSlug": "Yenisei_Kyrgyz",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-031",
+   "label": "The Ganzhou Uyghur Kingdom",
+   "year": 848,
+   "description": "Uyghur refugees in the Gansu corridor founded the Ganzhou Kingdom, controlling a key Silk Road stretch between China and the Tarim.",
+   "wikiSlug": "Ganzhou_Uyghur_Kingdom",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-032",
+   "label": "Pugu Jun Founds the Kingdom of Qocho",
+   "year": 866,
+   "description": "A Uyghur leader took Turfan and Beshbalik and established the Kingdom of Qocho, the longest-lived and richest of the oasis Uyghur states.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-033",
+   "label": "The Qocho Uyghurs Turn Buddhist",
+   "year": 900,
+   "description": "In the Tarim oases the Uyghurs gradually abandoned Manichaeism for Buddhism, with a Nestorian Christian minority — a wholesale religious reinvention.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 1,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-034",
+   "label": "The Bezeklik Thousand Buddha Caves",
+   "year": 950,
+   "description": "Uyghur patrons filled the Bezeklik cave temples near Turfan with murals, fusing Indian, Chinese, and Iranian styles into a distinct Uyghur Buddhist art.",
+   "wikiSlug": "Bezeklik_Thousand_Buddha_Caves",
+   "tier": 1,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-035",
+   "label": "Old Uyghur Becomes a Literary Language",
+   "year": 950,
+   "description": "Qocho's scribes translated Buddhist and Manichaean texts into Old Uyghur, producing one of medieval Inner Asia's largest surviving literatures.",
+   "wikiSlug": "Old_Uyghur_alphabet",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-036",
+   "label": "Qocho as a Silk Road Entrepôt",
+   "year": 980,
+   "description": "The oasis Uyghurs grew rich as middlemen — taxing caravans, lending capital, and supplying scribes and interpreters across the Tarim trade network.",
+   "wikiSlug": "Silk_Road",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-037",
+   "label": "Uyghur Block Printing",
+   "year": 1000,
+   "description": "Qocho workshops printed Buddhist texts with woodblocks and movable wooden type, part of the oasis Uyghurs' deeply literate settled culture.",
+   "wikiSlug": "Woodblock_printing",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-uyghur-038",
+   "label": "The Wang Yande Embassy to Qocho",
+   "year": 982,
+   "description": "A Song Chinese envoy described Qocho's irrigated fields, libraries, and Buddhist temples — an eyewitness portrait of a nomad people gone fully agrarian.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 3,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-039",
+   "label": "The Kara-Khanid Khanate Forms",
+   "year": 840,
+   "description": "Out of the Karluk, Yagma, and Chigil tribes a new western Turkic confederation, the Kara-Khanids, took shape around Kashgar and Balasagun.",
+   "wikiSlug": "Kara-Khanid_Khanate",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-040",
+   "label": "Satuq Bughra Khan Converts to Islam",
+   "year": 934,
+   "description": "The Kara-Khanid prince Satuq Bughra Khan accepted Islam, seized power, and became the first Turkic Muslim ruler — a hinge in world history.",
+   "wikiSlug": "Sultan_Satuq_Bughra_Khan",
+   "tier": 1,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-041",
+   "label": "The Conversion of the Two Hundred Thousand Tents",
+   "year": 960,
+   "description": "Arabic sources report a mass conversion of some 200,000 Turkic households to Islam under Satuq's successors — the religious tipping point of the steppe.",
+   "wikiSlug": "Kara-Khanid_Khanate",
+   "tier": 1,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-042",
+   "label": "The Kara-Khanids Take Bukhara",
+   "year": 999,
+   "description": "Kara-Khanid armies seized Bukhara and ended the Persian Samanid dynasty, putting Transoxiana under Turkic Muslim rule for the first time.",
+   "wikiSlug": "Samanid_Empire",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-043",
+   "label": "The Dual-Kaghanate Constitution",
+   "year": 1000,
+   "description": "The Kara-Khanids ruled through a layered system of senior and junior khans over eastern and western realms — flexible, fissile, and uniquely steppe-Islamic.",
+   "wikiSlug": "Kara-Khanid_Khanate",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-044",
+   "label": "Kashgar and Balasagun Rise",
+   "year": 1020,
+   "description": "The Kara-Khanid capitals became centers of Turkic-Islamic architecture, madrasas, and caravan wealth on the western Silk Road.",
+   "wikiSlug": "Kashgar",
+   "tier": 2,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-045",
+   "label": "Yusuf Khass Hajib Writes the Kutadgu Bilig",
+   "year": 1069,
+   "description": "The Kutadgu Bilig, a long Turkic mirror-for-princes composed at Kashgar, was the first major literary work of Islamic Turkic civilization.",
+   "wikiSlug": "Kutadgu_Bilig",
+   "tier": 1,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-046",
+   "label": "Mahmud al-Kashgari's Dīwān Lughāt al-Turk",
+   "year": 1074,
+   "description": "Mahmud al-Kashgari compiled a vast Turkic-Arabic dictionary and the first known map centered on the Turkic world, preserving the language and its peoples.",
+   "wikiSlug": "Mahmud_al-Kashgari",
+   "tier": 1,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-uyghur-047",
+   "label": "The Kara-Khanids Become Seljuk Vassals",
+   "year": 1089,
+   "description": "The Great Seljuk sultan Malik-Shah I forced the western Kara-Khanids into vassalage, drawing the eastern Turkic world into the wider Islamic order.",
+   "wikiSlug": "Seljuk_Empire",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-048",
+   "label": "Madrasas Spread in the Eastern Turkic World",
+   "year": 1100,
+   "description": "Islamic colleges, Sufi lodges, and Arabic-Persian learning took root from Kashgar to Bukhara, binding the Turks into Islamic high culture.",
+   "wikiSlug": "Madrasa",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-uyghur-049",
+   "label": "The Liao Dynasty Falls to the Jurchen",
+   "year": 1125,
+   "description": "The Jurchen Jin destroyed the Khitan Liao empire in north China, sending a remnant of the Khitan elite fleeing west under Yelü Dashi.",
+   "wikiSlug": "Liao_dynasty",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-050",
+   "label": "Yelü Dashi's March West",
+   "year": 1130,
+   "description": "With a few thousand followers Yelü Dashi crossed the steppe, gathered tribes, and seized the old Uyghur and Kara-Khanid lands of Central Asia.",
+   "wikiSlug": "Yelü_Dashi",
+   "tier": 1,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-051",
+   "label": "Yelü Dashi Proclaimed Gurkhan",
+   "year": 1132,
+   "description": "Yelü Dashi took the title Gurkhan ('khan of khans') and founded the Qara-Khitai, or Western Liao — a Chinese-Buddhist dynasty on Muslim soil.",
+   "wikiSlug": "Yelü_Dashi",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-052",
+   "label": "The Battle of Qatwan",
+   "year": 1141,
+   "description": "Yelü Dashi crushed the Great Seljuk sultan Sanjar near Samarkand — the largest defeat of a Muslim army in the East and the seed of Europe's Prester John legend.",
+   "wikiSlug": "Battle_of_Qatwan",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-053",
+   "label": "A Buddhist Empire Over Muslim Subjects",
+   "year": 1145,
+   "description": "The Qara-Khitai ruled a majority-Muslim Central Asia with a Chinese administrative model and conspicuous religious tolerance, taxing rather than converting.",
+   "wikiSlug": "Qara_Khitai",
+   "tier": 1,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-054",
+   "label": "Rule by Vassal and Tribute",
+   "year": 1150,
+   "description": "The Gurkhans governed indirectly through subordinate Kara-Khanid khans, the Khwarazm-Shahs, and the Qocho idiqut, collecting tribute and hostages rather than annexing.",
+   "wikiSlug": "Qara_Khitai",
+   "tier": 2,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-055",
+   "label": "The Prester John Legend",
+   "year": 1145,
+   "description": "Garbled news of a Christian-seeming king who had smashed a Muslim army at Qatwan reached the Crusader West as the myth of Prester John.",
+   "wikiSlug": "Prester_John",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-056",
+   "label": "The Qara-Khitai Control the Silk Roads",
+   "year": 1160,
+   "description": "From Balasagun the Gurkhans held the trans-Asian trade arteries, and their stable, tolerant rule is remembered as a high point for the oasis cities.",
+   "wikiSlug": "Qara_Khitai",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-057",
+   "label": "The Qocho Uyghurs Submit to the Qara-Khitai",
+   "year": 1130,
+   "description": "The Buddhist Uyghur kingdom of Qocho accepted Qara-Khitai overlordship, paying tribute through a resident commissioner.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-058",
+   "label": "Khwarazm and the Kara-Khanids Revolt",
+   "year": 1190,
+   "description": "The rising Khwarazmian Empire and restless Kara-Khanid vassals began tearing at an overstretched Qara-Khitai from the west.",
+   "wikiSlug": "Khwarazmian_Empire",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-059",
+   "label": "Genghis Khan Destroys the Naiman",
+   "year": 1204,
+   "description": "Temüjin shattered the Naiman confederation; the Naiman prince Küchlüg fled west toward the Qara-Khitai court.",
+   "wikiSlug": "Naimans",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-060",
+   "label": "Temüjin Proclaimed Genghis Khan",
+   "year": 1206,
+   "description": "At a great assembly on the Onon, Temüjin was proclaimed Genghis Khan and the whole eastern steppe was unified under one ruler for the first time since the Uyghurs.",
+   "wikiSlug": "Genghis_Khan",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-061",
+   "label": "The Uyghur Idiqut Submits to Genghis Khan",
+   "year": 1209,
+   "description": "Barchuq, the idiqut of Qocho, killed the Qara-Khitai resident and voluntarily submitted to the Mongols, becoming a privileged 'fifth son' of Genghis Khan.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-062",
+   "label": "Küchlüg Usurps the Qara-Khitai Throne",
+   "year": 1211,
+   "description": "The fugitive Naiman prince Küchlüg seized the Gurkhan's throne by marriage and coup, ending the Yelü line's rule from within.",
+   "wikiSlug": "Küchlüg",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-063",
+   "label": "Küchlüg Persecutes the Muslims",
+   "year": 1213,
+   "description": "Küchlüg, a convert to Buddhism, abandoned the dynasty's tolerance and persecuted the Muslim majority of the Tarim, turning his subjects against him.",
+   "wikiSlug": "Küchlüg",
+   "tier": 2,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-064",
+   "label": "Jebe Destroys Küchlüg",
+   "year": 1218,
+   "description": "The Mongol general Jebe overran the Qara-Khitai, proclaimed religious freedom to win the population, and had Küchlüg hunted down and killed.",
+   "wikiSlug": "Jebe",
+   "tier": 1,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-065",
+   "label": "The Uyghurs Become the Mongols' Scribes",
+   "year": 1206,
+   "description": "The Mongols adopted the Old Uyghur alphabet for their own language and staffed their new empire's chancery with literate Uyghur administrators.",
+   "wikiSlug": "Old_Uyghur_alphabet",
+   "tier": 1,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-066",
+   "label": "Tatatonga Brings the Seal and the Script",
+   "year": 1204,
+   "description": "A captured Uyghur scribe of the Naiman, Tatatonga, taught the Mongols the use of the state seal and the Uyghur script — the administrative bridge into the Mongol era.",
+   "wikiSlug": "Tata-tonga",
+   "tier": 2,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-067",
+   "label": "The Tarim and Steppe Pass to the Mongols",
+   "year": 1218,
+   "description": "With Qocho a willing vassal and the Qara-Khitai annexed, the entire Uyghur and Central Asian world fell into the Mongol Empire, closing the post-Türk interregnum.",
+   "wikiSlug": "Mongol_Empire",
+   "tier": 1,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-068",
+   "label": "The Manichaean Hymnbook of Qocho",
+   "year": 900,
+   "description": "The Mahrnamag and other illuminated Manichaean manuscripts from Qocho preserve the only substantial surviving Manichaean art and liturgy in the world.",
+   "wikiSlug": "Manichaeism",
+   "tier": 3,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-069",
+   "label": "Uyghur Cavalry in the Tang Civil Wars",
+   "year": 765,
+   "description": "Uyghur mercenary armies repeatedly re-entered China through the 760s, propping up and pressuring the Tang in exchange for ever-larger payments.",
+   "wikiSlug": "Tang_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-070",
+   "label": "The Idiqut Title and the Qocho Court",
+   "year": 920,
+   "description": "Qocho's rulers took the title idiqut and built a Chinese-style bureaucratic court over an irrigated agrarian economy, the antithesis of the old khaganate.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-071",
+   "label": "Nestorian Christianity in the Tarim",
+   "year": 980,
+   "description": "The Church of the East maintained bishoprics and monasteries among the Uyghurs of Qocho, part of the oasis world's dense religious pluralism.",
+   "wikiSlug": "Church_of_the_East",
+   "tier": 3,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-072",
+   "label": "The Karluk Migration to Semirechye",
+   "year": 766,
+   "description": "The Karluks seized the Western Türk lands around the Ili and Chu valleys, founding the western Turkic base from which the Kara-Khanids would later grow.",
+   "wikiSlug": "Karluks",
+   "tier": 2,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-073",
+   "label": "The Uyghurs Tax the Caravans",
+   "year": 800,
+   "description": "At their height the khaganate's wealth rested less on plunder than on protecting and taxing the Sogdian Silk Road traffic through its territory.",
+   "wikiSlug": "Silk_Road",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-074",
+   "label": "Mahmud al-Kashgari Maps the Turkic World",
+   "year": 1074,
+   "description": "Al-Kashgari's circular world map, centered on Balasagun, is the earliest surviving map drawn from a Turkic point of view.",
+   "wikiSlug": "Mahmud_al-Kashgari",
+   "tier": 2,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-075",
+   "label": "The Western Kara-Khanids Under the Seljuks",
+   "year": 1130,
+   "description": "Sanjar's Seljuks dominated the western Kara-Khanid khans until Qatwan, when the Qara-Khitai displaced Seljuk power east of the Oxus.",
+   "wikiSlug": "Ahmad_Sanjar",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-076",
+   "label": "The Gurkhan's Tolerant Tax State",
+   "year": 1155,
+   "description": "Contemporaries praised Qara-Khitai justice: light, regular taxation, no forced conversion, and protection of merchants — rare stability before the Mongol storm.",
+   "wikiSlug": "Qara_Khitai",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-077",
+   "label": "The Khwarazm-Shah Breaks Free",
+   "year": 1210,
+   "description": "Ala ad-Din Muhammad of Khwarazm defeated Qara-Khitai forces and threw off tribute, hastening the dynasty's collapse just as Küchlüg seized its center.",
+   "wikiSlug": "Muhammad_II_of_Khwarazm",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-078",
+   "label": "The Steppe's Literate Memory",
+   "year": 1070,
+   "description": "The Kutadgu Bilig and the Dīwān together announced that the Turks now had their own Islamic literary civilization, not merely a borrowed one.",
+   "wikiSlug": "Kutadgu_Bilig",
+   "tier": 3,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-079",
+   "label": "Uyghur Loanwords Enter Mongol Statecraft",
+   "year": 1210,
+   "description": "Mongol terms for writing, taxation, and office were borrowed wholesale from Uyghur, the clearest proof that the Mongol Empire ran on Uyghur administrative DNA.",
+   "wikiSlug": "Mongol_Empire",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-uyghur-080",
+   "label": "Bayanchur's Sogdian City-Builders",
+   "year": 757,
+   "description": "Bayanchur Khan settled Sogdian and Chinese craftsmen to build the fortress-town of Bay Baliq on the Selenga — nomads commissioning a city.",
+   "wikiSlug": "Bay_Baliq",
+   "tier": 3,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-081",
+   "label": "The Uyghur Princesses of the Tang",
+   "year": 821,
+   "description": "The Tang sent Princess Taihe to the Uyghur kaghan; her ordeal and rescue after the 840 collapse became a famous tale of the steppe–China bond.",
+   "wikiSlug": "Princess_Taihe",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-082",
+   "label": "The Qocho Uyghurs Translate the Buddhist Canon",
+   "year": 1000,
+   "description": "Qocho's monasteries rendered Sanskrit, Tocharian, and Chinese scriptures into Old Uyghur, making it a major language of Central Asian Buddhism.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 3,
+   "tags": [],
+   "category": "religion"
+  },
+  {
+   "id": "evt-uyghur-083",
+   "label": "Satuq Bughra Khan's Holy War",
+   "year": 940,
+   "description": "Satuq's seizure of Kashgar was framed as a war of Islam against the pagan Turks, casting the Kara-Khanid conversion as a religious revolution.",
+   "wikiSlug": "Sultan_Satuq_Bughra_Khan",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-084",
+   "label": "Yelü Dashi's Chinese Institutions",
+   "year": 1134,
+   "description": "The Gurkhan kept Liao reign-titles, a Chinese-style chancery, and centralized salaried officials rather than granting nomadic appanages — a transplanted Chinese state.",
+   "wikiSlug": "Qara_Khitai",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-085",
+   "label": "The Uyghur–Tang Alliance of 744",
+   "year": 744,
+   "description": "Qutlugh Bilge Köl allied with the Tang against the Basmyl and the last Türks, securing Chinese recognition for the new khaganate at its birth.",
+   "wikiSlug": "Uyghur_Khaganate",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-086",
+   "label": "The Toquz Oghuz Tribal Order",
+   "year": 745,
+   "description": "The khaganate was built on the Toquz Oghuz, a confederation of nine core tribes under the ruling Yaglakar clan — the political skeleton of Uyghur power.",
+   "wikiSlug": "Toquz_Oghuz",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-087",
+   "label": "The Uyghur Heavy Cavalry",
+   "year": 748,
+   "description": "Uyghur armies fielded armored lancers in disciplined tümen formations, the striking force that made them indispensable to the Tang.",
+   "wikiSlug": "Uyghur_Khaganate",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-088",
+   "label": "The First Horse-Market Agreement",
+   "year": 750,
+   "description": "An early fixed-rate exchange of Uyghur horses for Tang silk was negotiated, the template for the trade that would later bleed the Chinese treasury.",
+   "wikiSlug": "Silk_Road",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-089",
+   "label": "Bay Baliq, the Town on the Selenga",
+   "year": 758,
+   "description": "Sogdian and Chinese craftsmen built Bayanchur Khan a second walled town, Bay Baliq, evidence of a deliberate Uyghur turn toward urban settlement.",
+   "wikiSlug": "Bay_Baliq",
+   "tier": 3,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-090",
+   "label": "Manichaean Astronomy at the Court",
+   "year": 790,
+   "description": "Manichaean and Sogdian clergy brought calendrical and astronomical learning to Ordu-Baliq, giving the khaganate a literate scientific elite.",
+   "wikiSlug": "Manichaeism",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-uyghur-091",
+   "label": "Princess Taihe Sent to the Kaghan",
+   "year": 821,
+   "description": "The Tang dispatched Princess Taihe to the Uyghur ruler in a lavish embassy, the last great marriage-alliance before the collapse.",
+   "wikiSlug": "Princess_Taihe",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-092",
+   "label": "The Regicide Cycle",
+   "year": 832,
+   "description": "Kaghan Zhaoli was murdered by his own ministers, one of a run of palace killings that gutted Uyghur central authority in the 830s.",
+   "wikiSlug": "Uyghur_Khaganate",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-093",
+   "label": "Plague Among the Herds",
+   "year": 838,
+   "description": "Disease swept the Uyghur horse and sheep herds just before the killing winter, compounding the subsistence crisis that doomed the khaganate.",
+   "wikiSlug": "Uyghur_Khaganate",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-094",
+   "label": "The Golden Tent Burned",
+   "year": 840,
+   "description": "The Kyrgyz killed the last kaghan, Hesa, and burned the royal golden tent — the symbolic end of the Uyghur imperial line on the Orkhon.",
+   "wikiSlug": "Yenisei_Kyrgyz",
+   "tier": 2,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-095",
+   "label": "The Southern Migration Destroyed",
+   "year": 843,
+   "description": "The Uyghur remnant that fled toward the Tang frontier was attacked and broken by Chinese armies at the Battle of Shahu, ending hopes of a restoration.",
+   "wikiSlug": "Tang_dynasty",
+   "tier": 3,
+   "tags": [],
+   "category": "wars"
+  },
+  {
+   "id": "evt-uyghur-096",
+   "label": "The Orkhon Falls Silent",
+   "year": 848,
+   "description": "For the first time in three centuries no steppe empire ruled from the Orkhon; the imperial heartland lay empty until Genghis Khan in 1206.",
+   "wikiSlug": "Orkhon_Valley",
+   "tier": 2,
+   "tags": [],
+   "category": "rulers"
+  },
+  {
+   "id": "evt-uyghur-097",
+   "label": "The Karez Irrigation of Turfan",
+   "year": 950,
+   "description": "The Qocho Uyghurs maintained and extended the karez underground canal system, turning the Turfan depression into productive farmland.",
+   "wikiSlug": "Qanat",
+   "tier": 3,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-uyghur-098",
+   "label": "The Ruins of Gaochang",
+   "year": 900,
+   "description": "The Uyghur capital of Qocho at Gaochang grew into a great mud-brick city of temples and monasteries whose ruins still stand near Turfan.",
+   "wikiSlug": "Gaochang",
+   "tier": 3,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-099",
+   "label": "The Tomb of Satuq Bughra Khan",
+   "year": 1000,
+   "description": "The shrine of the first Muslim Turkic ruler at Artush became a pilgrimage center, anchoring the memory of the Kara-Khanid conversion.",
+   "wikiSlug": "Sultan_Satuq_Bughra_Khan",
+   "tier": 3,
+   "tags": [],
+   "category": "architecture"
+  },
+  {
+   "id": "evt-uyghur-100",
+   "label": "The Ortoq Merchant Partnerships",
+   "year": 1050,
+   "description": "Uyghur and Central Asian traders ran ortoq capital-pooling partnerships, a commercial institution the Mongols later adopted empire-wide as the ortogh.",
+   "wikiSlug": "Ortoq",
+   "tier": 3,
+   "tags": [],
+   "category": "trade"
+  },
+  {
+   "id": "evt-uyghur-101",
+   "label": "Yelü Dashi, the Scholar-Prince",
+   "year": 1115,
+   "description": "Yelü Dashi was a jinshi-degree Khitan aristocrat steeped in Chinese letters, the unlikely refugee who would carry a Chinese state into Muslim Asia.",
+   "wikiSlug": "Yelü_Dashi",
+   "tier": 3,
+   "tags": [],
+   "category": "people"
+  },
+  {
+   "id": "evt-uyghur-102",
+   "label": "The Mausoleum of Yusuf Khass Hajib",
+   "year": 1080,
+   "description": "The poet of the Kutadgu Bilig was honored with a tomb at Kashgar that remains a monument to the birth of Turkic-Islamic literature.",
+   "wikiSlug": "Yusuf_Balasaguni",
+   "tier": 3,
+   "tags": [],
+   "category": "writing"
+  },
+  {
+   "id": "evt-uyghur-103",
+   "label": "Uyghur Scribes Staff the Mongol Chancery",
+   "year": 1211,
+   "description": "Literate Qocho Uyghurs became the clerks, tutors, and tax-officials of the early Mongol Empire, transmitting settled statecraft to the conquerors.",
+   "wikiSlug": "Mongol_Empire",
+   "tier": 2,
+   "tags": [],
+   "category": "science"
+  },
+  {
+   "id": "evt-uyghur-104",
+   "label": "The Idiqut Honored as Genghis Khan's Fifth Son",
+   "year": 1211,
+   "description": "Barchuq the idiqut was rewarded for early submission with a Mongol princess and the rank of a son of Genghis Khan — the Uyghurs' privileged place in the new order.",
+   "wikiSlug": "Kingdom_of_Qocho",
+   "tier": 3,
+   "tags": [],
+   "category": "rulers"
+  }
+ ]
+}
