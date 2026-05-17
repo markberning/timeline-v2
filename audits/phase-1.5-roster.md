@@ -28,7 +28,7 @@ Date: 2026-05-16. Lane: maps/sync/chains (audits/ in-lane, safe to commit).
 
 | # | Proposed `tlId` | Title | Range | Inserts into | Gap | Pri | Est. ch |
 |---|-----------------|-------|-------|--------------|-----|-----|---------|
-| 1 | ~~`babylon-to-persia`~~ → `babylonia-under-empire` (RESCOPED) | Babylonia Under Empire | −539→651 | standalone / enrichment (NOT a chain-bridge) | **DROPPED as scoped — see note ▼** | ~~CRITICAL~~ **LOW** | ~~12–15~~ **6–8** |
+| ~~1~~ | ~~`babylon-to-persia`~~ — **DROPPED, NOT replaced** | — | — | — | **Duplicate of shipped `persian-empire` + `mesopotamia` Ch12–13; seam → cross-links only. See note ▼** | — | — |
 | 2 | `uyghur-steppe` | The Uyghur & Qara-Khitai Steppe | 744→1206 | Central Asian Steppe, between `gokturk-khaganate` & `mongol-empire` | 462-yr steppe gap | HIGH | 8 |
 | 3 | `medieval-japan` | Medieval Japan (the Samurai era) | 1185→1603 | Japanese, between `heian-japan` & `edo-japan` | 418-yr Kamakura–Muromachi–Sengoku hole | HIGH | 12–15 |
 | 4 | `goryeo-korea` | Goryeo Korea | 918→1392 | Korean, between `ancient-korea` & `joseon-korea` | 457-yr hole | HIGH | 8–10 |
@@ -41,7 +41,7 @@ Date: 2026-05-16. Lane: maps/sync/chains (audits/ in-lane, safe to commit).
 > - **`mesopotamia` (shipped, 13 ch)** already tells the Neo-Babylonian Empire (Ch12 "Babylon Resurgent", Ch13 "Cyrus and the Long Echo / 539").
 > - A −626→651 `babylon-to-persia` would duplicate a shipped 10-ch TL + the tail of another.
 >
-> **Decision:** (1) **DROPPED** as a CRITICAL chain-bridge. (2) **Closed the perceived Mesopotamian seam with cross-links instead of a TL** — `assyrian-empire`/`mesopotamia` ↔ `persian-empire` ↔ `islamic-golden-age` (logged for the corpus-remediation stream; do NOT assign while its agent is mid-run — coordinator picks it up at merge). (3) **RESCOPED** to `babylonia-under-empire`: the only genuinely-untold residue — Babylonia *as protagonist* 539 BCE→651 CE (Jewish Babylonian diaspora & the Talmudic academies of Sura/Pumbedita, the Church of the East, Seleucia-Ctesiphon as a continuous metropolis). LOW priority, ~6–8 ch, standalone/enrichment, **built late or possibly not at all** — re-decide when reached. (4) The 17 is now effectively **16 firm + 1 demoted**.
+> **Decision (user, 2026-05-17 — fully drop):** (1) **DROPPED entirely, NOT replaced** — no `babylon-to-persia`, no rescoped `babylonia-under-empire`. The Babylonia-as-protagonist residue (Jewish diaspora/Talmudic academies, Church of the East, Seleucia-Ctesiphon) is *not* worth a TL — it can be absorbed as enrichment/cross-links in the existing `persian-empire`/`mesopotamia` if ever desired. (2) **Perceived Mesopotamian seam closed with cross-links only** — `assyrian-empire`/`mesopotamia` ↔ `persian-empire` ↔ `islamic-golden-age` (logged for the corpus-remediation stream; do NOT assign while its agent is mid-run — coordinator picks it up at merge). (3) **The roster is now 16, not 17** (row 1 removed, no backfill from parked overflow unless the user asks).
 >
 > **Build order changed: `uyghur-steppe` is civ #1** (true no-overlap gap: `gokturk-khaganate` → *nothing* → `mongol-empire`, the 744–1206 steppe hole; cf. `memory/project_coverage_finding_steppe_gap`). The pipeline-trial slot is already spent (goryeo, shipped); the 17 build begins here.
 
