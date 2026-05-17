@@ -417,6 +417,12 @@
       "matchText": "wolves",
       "wikiSlug": "Wolf",
       "type": "concept"
+    },
+    {
+      "term": "Teotihuacan",
+      "matchText": "Ciudadela",
+      "wikiSlug": "Teotihuacan",
+      "type": "place"
     }
   ],
   "4": [
@@ -873,6 +879,12 @@
       "matchText": "war serpent headdresses",
       "wikiSlug": "Waxaklahun_Ubah_Kan",
       "type": "concept"
+    },
+    {
+      "term": "Copán",
+      "matchText": "Copán",
+      "wikiSlug": "Copán",
+      "type": "place"
     }
   ],
   "7": [
@@ -1012,6 +1024,12 @@
       "term": "Obsidian use in Mesoamerica",
       "matchText": "obsidian",
       "wikiSlug": "Obsidian_use_in_Mesoamerica",
+      "type": "concept"
+    },
+    {
+      "term": "Feathered Serpent",
+      "matchText": "Feathered Serpent",
+      "wikiSlug": "Feathered_Serpent",
       "type": "concept"
     }
   ],

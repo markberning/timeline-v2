@@ -87,7 +87,8 @@ Order = roadmap chain order. `done` = all chapters swept + committed.
 | inca-empire | 8 | **DONE** Andean chain COMPLETE | 026026c |
 | olmec-civilization | 8 | **DONE** | b4afdb7 |
 | maya-civilization | 8 | **DONE** | 0e32a86 |
-| zapotec-civilization | 8 | **DONE** | +this |
+| zapotec-civilization | 8 | **DONE** | 3f7b0c3 |
+| teotihuacan | 8 | **DONE** | +this |
 | _Indian Subcontinent chain COMPLETE; next: Chinese Dynasties chain_ | | pending | |
 | _next: mughal-empire, modern-india (finish Indian chain), then roadmap_ | | pending | |
 | _Western European chain COMPLETE_ | | | |

@@ -17,6 +17,24 @@
       "targetTl": "ancient-rome",
       "targetChapter": 5,
       "blurb": "Around the same decades that Teotihuacan's grid was being laid out in the Valley of Mexico, Augustus was transforming the Roman Republic into the Roman Empire. Two of history's most ambitious urban experiments were taking shape simultaneously on opposite sides of the Atlantic, separated by 6,000 miles of open ocean and utterly unaware of each other."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 3,
+      "blurb": "Teotihuacan rose in the highland vacuum after the Olmec — inheriting the Mesoamerican template and scaling it into the New World's first true metropolis."
+    },
+    {
+      "matchText": "Early Andean civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "Teotihuacan's planned sacred city is the Mesoamerican peak of the same monumental-urbanism impulse the Andes expressed at Chavín."
+    },
+    {
+      "matchText": "Zapotec Civilization",
+      "targetTl": "zapotec-civilization",
+      "targetChapter": 2,
+      "blurb": "Teotihuacan and Monte Albán were the two great highland capitals of Classic Mesoamerica — rivals and trade partners, each a planned ceremonial city."
     }
   ],
   "2": [
@@ -31,6 +49,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 8,
       "blurb": "Around 100 CE, when the Pyramid of the Sun was being completed, Trajan's Rome was the capital of an empire of 60 million people with concrete domes, aqueducts, and professional legions. Teotihuacan had none of these technologies but built a city plan equally ambitious. The two cities peaked in population at the same time, among the largest on earth, knowing nothing of each other's existence."
+    },
+    {
+      "matchText": "Olmec Civilization",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 4,
+      "blurb": "The Street of the Dead organizes the city around blood-and-cosmos ritual the Olmec first systematized."
     }
   ],
   "3": [
@@ -81,9 +105,22 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 8,
       "blurb": "While Teotihuacan was projecting power into the Maya lowlands, the Moche on Peru's north coast were producing their finest portrait vessels and building the Huacas del Sol and de la Luna. Both civilizations peaked around 400 CE, dominated their respective regions through a mix of trade and military power, and collapsed within a century of each other — the Americas' twin experiments in pre-Columbian urbanism."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 2,
+      "blurb": "The 'Entrada' — Teotihuacan's intervention at Tikal in 378 CE — is the moment the metropolis reached into the Maya world and rewrote its dynasties."
     }
   ],
-  "7": [],
+  "7": [
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 6,
+      "blurb": "The Storm God and Feathered Serpent of Teotihuacan became Tlaloc and Quetzalcoatl — the Aztecs literally worshipped at, and mythologized, this ruined city."
+    }
+  ],
   "8": [
     {
       "matchText": "Epiclassic period",
@@ -102,6 +139,18 @@
       "targetTl": "zapotec-civilization",
       "targetChapter": 6,
       "blurb": "Monte Albán's decline after Teotihuacan's collapse ended one of the longest diplomatic relationships in Mesoamerican history. The two cities had maintained the Oaxacan Barrio connection for centuries — Zapotec residents living permanently in Teotihuacan, maintaining their culture while participating in the great city's economy. When both cities fell, the entire diplomatic architecture of Mesoamerica dissolved."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 3,
+      "blurb": "Teotihuacan's fiery fall sent shockwaves through the Maya world it had dominated — the superpower's collapse reordering Classic Mesoamerica."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 5,
+      "blurb": "Centuries later the Aztecs named the ruins 'the place where the gods were made' — Teotihuacan as the sacred origin of the world they built."
     }
   ]
 }
