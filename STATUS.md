@@ -75,12 +75,10 @@ build aborting at the density gate, NOT a tsx/sandbox failure — verified.
 **Next (nothing urgent — the shipped work is closed):**
 1. ~~commit the `node_modules` symlink removal~~ — **DONE `2833e00`** (see
    repo-hygiene item above).
-2. **Optional cleanup (user-gated, low value):** `feat/the-17` worktree
-   (`../timeline-v2-the17`) is fully superseded — its work is on `main` and
-   `main` is ahead. Safe to `git worktree remove` it + delete the branch. It
-   still holds untracked scratch (`narratives/.draft-sc-*`,
-   `LINK-FIX-NEEDED-*.txt`, an untracked `content/` curated set now tracked on
-   main). `../timeline-v2-lcr` (chore/link-coverage-redesign) likewise.
+2. ~~Optional cleanup: feat/the-17 + lcr worktrees~~ — **DONE 2026-05-18.**
+   Both worktrees removed + all stale local branches deleted (verified fully
+   in main first). See "Branch / worktree topology". Only the dead remote ref
+   `origin/chore/link-coverage-redesign` is left (optional remote prune).
 3. **The-17 roster continues** (`audits/phase-1.5-roster.md`): swahili-coast
    was the build-opti acceptance test AND roster work; remaining roster civs
    build the same optimized way (`audits/build-optimization.md` → "Locked
@@ -219,14 +217,19 @@ number — this chapter is the template.
 
 ## Branch / worktree topology
 
-- `main` — canonical. The fix-links fix + this file commit here.
-- `feat/the-17` @ `1da7ce2` — **real, unmerged.** uyghur-steppe shipped
-  text-only; only G4 maps + ship-check + publish remain.
-- `chore/link-coverage-redesign` @ `1376548` — **MERGED to `main` (`e77736a`,
-  2026-05-18, clean, no conflicts).** Branch can be deleted with the dead set.
-- `chore/g12-{a..e}`, `chore/g12-{a..e}-sweep`, `chore/corpus-remediation`,
-  `worktree-agent-*` (×6) — **all dead/superseded** per git history. Safe to
-  delete (refs only; no work lost). Prune command below — user-gated, low value.
+**CLEANED 2026-05-18.** Single worktree, single branch:
+- `main` — the only worktree (`/Users/mberning/projects/personal/timeline-v2`)
+  and the only local branch. `main == origin/main`, clean.
+- `feat/the-17` + `chore/link-coverage-redesign` worktrees (`../timeline-v2-the17`,
+  `../timeline-v2-lcr`) **removed**; both branches **verified fully contained in
+  main** (zero commits not in main, `git cherry` empty, worktrees clean) before
+  deletion — uyghur-steppe + swahili-coast `hasContent:true` on main AND live on
+  prod (200). The old "feat/the-17 real, unmerged" note was stale; corrected.
+- All `chore/g12-*`, `chore/corpus-remediation`, `worktree-agent-*` (×6) local
+  branches **deleted** (were refs only, no work lost).
+- **Still on origin:** `origin/chore/link-coverage-redesign` (work is merged to
+  main → dead remote ref). Not pruned: deleting a remote branch is outward-
+  facing — `git push origin --delete chore/link-coverage-redesign` when wanted.
 
 ## DO NOT START (deferred by the user — until they say otherwise)
 
@@ -241,10 +244,10 @@ number — this chapter is the template.
   `node scripts/fix-links.mjs <tlId> --apply` then `npm run parse`. Drops
   recycled/off-topic images (a few per civ corpus-wide). Content change → commit
   ok, deploy gated.
-- **Branch prune:** `git branch -D chore/g12-a chore/g12-a-sweep chore/g12-b
-  chore/g12-b-sweep chore/g12-c chore/g12-c-sweep chore/g12-d chore/g12-d-sweep
-  chore/g12-e chore/g12-e-sweep chore/corpus-remediation` + the 6
-  `worktree-agent-*`. Keep `main`, `feat/the-17`, `chore/link-coverage-redesign`.
+- ~~**Branch prune**~~ — **DONE 2026-05-18.** All stale local branches + the
+  `feat/the-17` & `lcr` worktrees removed (verified fully in main first). Only
+  `origin/chore/link-coverage-redesign` remains on the remote (optional:
+  `git push origin --delete chore/link-coverage-redesign`).
 - **Push/deploy** the local `main` commits (tool fix + this file): tooling/docs
   only, does not change the reader site, but `git push` auto-deploys — **gated
   on the user's explicit word.**
@@ -254,7 +257,14 @@ number — this chapter is the template.
 - Backlog **#17**: ~226 authored fallback blurbs never reviewed for correctness.
 - Backlog **#12**: summary-bullet sanity gate (forward gate + 100-civ retro).
 - Backlog **#7**: the 22,877 coverage gaps (deferred — see above).
-- `feat/the-17`: finish uyghur-steppe maps → ship-check → merge → deploy.
+- **New-pipeline coverage debt (NOT deferred-#7):** uyghur-steppe (131) +
+  goryeo-korea (97) = 228 surfaced gaps. Both are live + `hasContent:true`;
+  de-grandfathering does not unship them, but their `ship-check` coverage gate
+  now blocks until linked/waived. Real work before treating those two as
+  pipeline-complete. (uyghur-steppe maps/ship-check are DONE — it's live 200;
+  the old "finish the-17 maps" item was stale.)
+- The-17 roster continuation (`audits/phase-1.5-roster.md`) — build remaining
+  new civs the optimized way (now incl. `npm run parse:index` at ship).
 
 ## Commands
 
