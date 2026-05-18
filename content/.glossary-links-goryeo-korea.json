@@ -173,6 +173,48 @@
       "matchText": "Gaegyeong",
       "wikiSlug": "Kaesong",
       "type": "place"
+    },
+    {
+      "term": "Song China",
+      "matchText": "Song China",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "type": "person",
+      "wikiSlug": "Gautama_Buddha"
+    },
+    {
+      "term": "Manchuria",
+      "matchText": "Manchuria",
+      "type": "place",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "term": "Fatimid Caliphate",
+      "matchText": "Fatimid Caliphate",
+      "type": "people",
+      "wikiSlug": "Fatimid_Caliphate"
+    },
+    {
+      "term": "Carolingian",
+      "matchText": "Carolingian",
+      "type": "people",
+      "wikiSlug": "Carolingian_Empire"
+    },
+    {
+      "term": "Liao dynasty",
+      "matchText": "Liao",
+      "type": "people",
+      "wikiSlug": "Liao_dynasty"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "type": "concept",
+      "wikiSlug": "Buddhism"
     }
   ],
   "2": [
@@ -259,6 +301,48 @@
       "matchText": "Hyeonjong",
       "wikiSlug": "Hyeonjong_of_Goryeo",
       "type": "person"
+    },
+    {
+      "term": "Wang Geon",
+      "matchText": "Wang Geon",
+      "type": "person",
+      "wikiSlug": "Taejo_of_Goryeo"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "type": "concept",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "under the Song",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Tang dynasty",
+      "matchText": "post-Tang",
+      "type": "people",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "term": "Song China",
+      "matchText": "Song China",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Joseon",
+      "matchText": "Joseon dynasty",
+      "type": "people",
+      "wikiSlug": "Joseon"
+    },
+    {
+      "term": "Gaegyeong",
+      "matchText": "Gaegyeong",
+      "type": "place",
+      "wikiSlug": "Kaesong"
     }
   ],
   "3": [
@@ -381,6 +465,60 @@
       "matchText": "Khitan",
       "wikiSlug": "Khitan_people",
       "type": "people"
+    },
+    {
+      "term": "Mongolic languages",
+      "matchText": "Mongolic",
+      "type": "concept",
+      "wikiSlug": "Mongolic_languages"
+    },
+    {
+      "term": "Mongols",
+      "matchText": "later Mongols",
+      "type": "people",
+      "wikiSlug": "Mongols"
+    },
+    {
+      "term": "Balhae",
+      "matchText": "Balhae",
+      "type": "people",
+      "wikiSlug": "Balhae"
+    },
+    {
+      "term": "Tang China",
+      "matchText": "Tang",
+      "type": "people",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "term": "Goguryeo",
+      "matchText": "Goguryeo",
+      "type": "people",
+      "wikiSlug": "Goguryeo"
+    },
+    {
+      "term": "Hyeonjong",
+      "matchText": "Hyeonjong",
+      "type": "person",
+      "wikiSlug": "Hyeonjong_of_Goryeo"
+    },
+    {
+      "term": "Gaegyeong",
+      "matchText": "Gaegyeong",
+      "type": "place",
+      "wikiSlug": "Kaesong"
+    },
+    {
+      "term": "Kaesong",
+      "matchText": "Kaesong",
+      "type": "place",
+      "wikiSlug": "Kaesong"
+    },
+    {
+      "term": "Great Wall of China",
+      "matchText": "Great Wall of China",
+      "type": "place",
+      "wikiSlug": "Great_Wall_of_China"
     }
   ],
   "4": [
@@ -491,6 +629,90 @@
       "matchText": "Gyo",
       "wikiSlug": "Korean_Buddhism",
       "type": "concept"
+    },
+    {
+      "term": "Battle of Gwiju",
+      "matchText": "Gwiju",
+      "type": "event",
+      "wikiSlug": "Battle_of_Gwiju"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song Chinese",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Song China",
+      "matchText": "Song China",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Khitan",
+      "matchText": "Khitan",
+      "type": "people",
+      "wikiSlug": "Khitan_people"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "type": "concept",
+      "wikiSlug": "Buddhism"
+    },
+    {
+      "term": "Chan Buddhism",
+      "matchText": "Chan",
+      "type": "concept",
+      "wikiSlug": "Chan_Buddhism"
+    },
+    {
+      "term": "Jeonsigwa",
+      "matchText": "Jeonsigwa",
+      "type": "concept",
+      "wikiSlug": "Goryeo"
+    },
+    {
+      "term": "Goguryeo",
+      "matchText": "Goguryeo",
+      "type": "people",
+      "wikiSlug": "Goguryeo"
+    },
+    {
+      "term": "Manchuria",
+      "matchText": "Manchuria",
+      "type": "place",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "term": "Mongolic languages",
+      "matchText": "Mongolic",
+      "type": "concept",
+      "wikiSlug": "Mongolic_languages"
+    },
+    {
+      "term": "Manchu people",
+      "matchText": "Manchus",
+      "type": "people",
+      "wikiSlug": "Manchu_people"
+    },
+    {
+      "term": "Wang Geon",
+      "matchText": "Wang Geon",
+      "type": "person",
+      "wikiSlug": "Taejo_of_Goryeo"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian establishment",
+      "type": "concept",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "term": "Silla",
+      "matchText": "Silla-rooted",
+      "type": "people",
+      "wikiSlug": "Silla"
     }
   ],
   "5": [
@@ -565,6 +787,24 @@
       "matchText": "Choe Seungno",
       "wikiSlug": "Choe_Seungno",
       "type": "person"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian reformer",
+      "type": "concept",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "term": "Gyeongju",
+      "matchText": "Gyeongju",
+      "type": "place",
+      "wikiSlug": "Gyeongju"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "type": "place",
+      "wikiSlug": "Central_Asia"
     }
   ],
   "6": [
@@ -693,6 +933,78 @@
       "matchText": "Tripitaka Koreana",
       "wikiSlug": "Tripitaka_Koreana",
       "type": "concept"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol Empire",
+      "type": "people",
+      "wikiSlug": "Mongol_Empire"
+    },
+    {
+      "term": "Khwarazmian Empire",
+      "matchText": "Khwarazmian empire",
+      "type": "people",
+      "wikiSlug": "Khwarazmian_Empire"
+    },
+    {
+      "term": "Rus' principalities",
+      "matchText": "Rus' principalities",
+      "type": "people",
+      "wikiSlug": "Kievan_Rus%27"
+    },
+    {
+      "term": "Cheolli Jangseong",
+      "matchText": "Cheolli Jangseong",
+      "type": "place",
+      "wikiSlug": "Cheolli_Jangseong"
+    },
+    {
+      "term": "Khitan",
+      "matchText": "Khitan cavalry",
+      "type": "people",
+      "wikiSlug": "Khitan_people"
+    },
+    {
+      "term": "Silla",
+      "matchText": "Silla capital",
+      "type": "people",
+      "wikiSlug": "Silla"
+    },
+    {
+      "term": "Goryeosa",
+      "matchText": "Goryeosa",
+      "type": "concept",
+      "wikiSlug": "Goryeosa"
+    },
+    {
+      "term": "Joseon",
+      "matchText": "Joseon dynasty",
+      "type": "people",
+      "wikiSlug": "Joseon"
+    },
+    {
+      "term": "Tang China",
+      "matchText": "Tang",
+      "type": "people",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "term": "Song China",
+      "matchText": "Song China",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Scientific Revolution",
+      "matchText": "Scientific Revolution",
+      "type": "concept",
+      "wikiSlug": "Scientific_Revolution"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "type": "person",
+      "wikiSlug": "Genghis_Khan"
     }
   ],
   "7": [
@@ -821,6 +1133,108 @@
       "matchText": "tribute women",
       "wikiSlug": "Goryeo_under_Mongol_rule",
       "type": "concept"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "the Song",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Khwarazmian Empire",
+      "matchText": "Khwarazmians",
+      "type": "people",
+      "wikiSlug": "Khwarazmian_Empire"
+    },
+    {
+      "term": "Rus' principalities",
+      "matchText": "Rus' principalities",
+      "type": "people",
+      "wikiSlug": "Kievan_Rus%27"
+    },
+    {
+      "term": "Wonjong",
+      "matchText": "Wonjong",
+      "type": "person",
+      "wikiSlug": "Wonjong_of_Goryeo"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "placed on Kublai",
+      "type": "person",
+      "wikiSlug": "Kublai_Khan"
+    },
+    {
+      "term": "Wang Geon",
+      "matchText": "Wang Geon",
+      "type": "person",
+      "wikiSlug": "Taejo_of_Goryeo"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "type": "person",
+      "wikiSlug": "Kublai_Khan"
+    },
+    {
+      "term": "Yuan dynasty",
+      "matchText": "the Yuan collapsed",
+      "type": "people",
+      "wikiSlug": "Yuan_dynasty"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "type": "place",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "term": "Pyongyang",
+      "matchText": "Pyongyang",
+      "type": "place",
+      "wikiSlug": "Pyongyang"
+    },
+    {
+      "term": "Jeju Island",
+      "matchText": "Jeju Island",
+      "type": "place",
+      "wikiSlug": "Jeju_Island"
+    },
+    {
+      "term": "Goryeosa",
+      "matchText": "Goryeosa",
+      "type": "concept",
+      "wikiSlug": "Goryeosa"
+    },
+    {
+      "term": "Kim Bu-sik",
+      "matchText": "Kim Bu-sik",
+      "type": "person",
+      "wikiSlug": "Kim_Bu-sik"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian establishment",
+      "type": "concept",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "term": "Tang China",
+      "matchText": "Tang",
+      "type": "people",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "term": "Song China",
+      "matchText": "Song China",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Kaesong",
+      "matchText": "reign at Kaesong",
+      "type": "place",
+      "wikiSlug": "Kaesong"
     }
   ],
   "8": [
@@ -973,6 +1387,102 @@
       "matchText": "Taejo",
       "wikiSlug": "Taejo_of_Joseon",
       "type": "person"
+    },
+    {
+      "term": "Mongols",
+      "matchText": "the Mongols from the inside",
+      "type": "people",
+      "wikiSlug": "Mongols"
+    },
+    {
+      "term": "Yuan dynasty",
+      "matchText": "dying Yuan court",
+      "type": "people",
+      "wikiSlug": "Yuan_dynasty"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol princess",
+      "type": "people",
+      "wikiSlug": "Mongol_Empire"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "savior Buddha",
+      "type": "person",
+      "wikiSlug": "Gautama_Buddha"
+    },
+    {
+      "term": "Chungseon",
+      "matchText": "Chungseon",
+      "type": "person",
+      "wikiSlug": "Chungseon_of_Goryeo"
+    },
+    {
+      "term": "Tang China",
+      "matchText": "Tang",
+      "type": "people",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "term": "Song China",
+      "matchText": "Song China",
+      "type": "people",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "term": "Geum River",
+      "matchText": "Geum River",
+      "type": "place",
+      "wikiSlug": "Geum_River"
+    },
+    {
+      "term": "Ganghwa Island",
+      "matchText": "back on Ganghwa",
+      "type": "place",
+      "wikiSlug": "Ganghwa_Island"
+    },
+    {
+      "term": "Scientific Revolution",
+      "matchText": "Scientific Revolution",
+      "type": "concept",
+      "wikiSlug": "Scientific_Revolution"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Neo-Confucian scholar class",
+      "type": "concept",
+      "wikiSlug": "Korean_Confucianism"
+    },
+    {
+      "term": "Wang Geon",
+      "matchText": "Wang Geon",
+      "type": "person",
+      "wikiSlug": "Taejo_of_Goryeo"
+    },
+    {
+      "term": "Yalu River",
+      "matchText": "across the Yalu",
+      "type": "place",
+      "wikiSlug": "Yalu_River"
+    },
+    {
+      "term": "Jeonsigwa",
+      "matchText": "Jeonsigwa",
+      "type": "concept",
+      "wikiSlug": "Goryeo"
+    },
+    {
+      "term": "Silla",
+      "matchText": "past Silla",
+      "type": "people",
+      "wikiSlug": "Silla"
+    },
+    {
+      "term": "Goguryeo",
+      "matchText": "to Goguryeo",
+      "type": "people",
+      "wikiSlug": "Goguryeo"
     }
   ]
 }
