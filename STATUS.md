@@ -17,14 +17,11 @@ deploy from their terminal, wrangler uploaded 553 files;
 live search-index, home/emep/mali 200 (no regression). Build-opti acceptance
 test + The Swahili Coast: **DONE, live, closed.**
 
-**One outstanding repo-hygiene item (recommended, not yet done):** a symlink
-`node_modules` was historically committed (a "non-directory" tracked path);
-`npm ci` correctly replaced it with a real dir, so `git status` now shows
-`D node_modules` staged-as-deleted. Committing that deletion (`git rm --cached
-node_modules && commit`) is the right durable fix — the tracked node_modules
-symlink is the root cause of the multi-hour "tsx exits 194 / build silently
-dies" tail this session. Left for the user to bless since it's a structural
-git change. Until done, fresh checkouts/worktrees risk the same breakage.
+**Repo-hygiene item — DONE 2026-05-18 (`2833e00`, pushed):** the historically-
+committed `node_modules` symlink blob (git mode 120000) is untracked via
+`git rm --cached` (real dir kept on disk; `.gitignore`'s `node_modules/` rule
+now takes over). This was the root cause of the multi-hour "tsx exits 194 /
+build silently dies" tail. Fresh checkouts/worktrees no longer inherit it.
 
 **Deploy-tail lesson (cost ~3h of false leads — durable):** `content/` is
 gitignored. Every per-civ curated file (`.event-links/.glossary-links/
@@ -66,8 +63,8 @@ build aborting at the density gate, NOT a tsx/sandbox failure — verified.
   files that were local-only).
 
 **Next (nothing urgent — the shipped work is closed):**
-1. **(Recommended, structural) commit the `node_modules` symlink removal** —
-   see the repo-hygiene item above; prevents the deploy-tail class of failure.
+1. ~~commit the `node_modules` symlink removal~~ — **DONE `2833e00`** (see
+   repo-hygiene item above).
 2. **Optional cleanup (user-gated, low value):** `feat/the-17` worktree
    (`../timeline-v2-the17`) is fully superseded — its work is on `main` and
    `main` is ahead. Safe to `git worktree remove` it + delete the branch. It
