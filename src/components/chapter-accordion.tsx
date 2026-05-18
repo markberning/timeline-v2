@@ -158,6 +158,10 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     const dy = t.clientY - touchStart.current.y
     touchStart.current = null
     if (!open) return
+    // iOS: dragging text-selection handles ends with a horizontal delta.
+    // If text is selected this was a selection, not a swipe — selection wins.
+    const sel = window.getSelection()
+    if (sel && !sel.isCollapsed && sel.toString().trim()) return
     const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
     if (swipeRight) collapse()
   }

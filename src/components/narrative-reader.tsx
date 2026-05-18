@@ -327,6 +327,11 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     const s = swipeStart.current
     swipeStart.current = null
     if (!s || openChapter !== null) return
+    // iOS: extending a text selection by dragging the handles ends with a
+    // horizontal delta. If text is selected, this was a selection, not a
+    // swipe-back — never hijack it (selection must win in a reading app).
+    const sel = window.getSelection()
+    if (sel && !sel.isCollapsed && sel.toString().trim()) return
     const t = e.changedTouches[0]
     const dx = t.clientX - s.x
     const dy = t.clientY - s.y
