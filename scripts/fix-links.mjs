@@ -30,6 +30,8 @@ const tlId = args.find((a) => !a.startsWith('--'))
 const chapterArg = args.find((a) => a.startsWith('--chapter='))
 const onlyChapter = chapterArg ? chapterArg.split('=')[1] : null
 const apply = args.includes('--apply')
+const emitArg = args.find((a) => a.startsWith('--emit-flags='))
+const emitFlags = emitArg ? emitArg.split('=')[1] : null
 if (!tlId) { console.error('Usage: node scripts/fix-links.mjs <tlId> [--chapter=N]'); process.exit(2) }
 
 const readJson = (p, fb) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : fb)
@@ -83,6 +85,21 @@ const near = (x, y) => {
 }
 const has = (t, set) => { for (const u of set) if (near(t, u)) return true; return false }
 const overlap = (a, b) => { let n = 0; for (const t of a) if (has(t, b)) n++; return a.size ? n / a.size : 1 }
+
+// Romanization-insensitive name flattening so the SAME name written in two
+// systems collapses to one form: "Yi Ja-gyeom" == "Yi Chagyŏm". Letters only,
+// RR↔MR vowel digraphs and the j/ch consonant unified, doubles collapsed.
+// Used ONLY slug-name vs page-title (the most reliable identity signal); kept
+// strict (exact or clean containment, no edit slack) so a true mismatch like
+// "Panku" vs "Pangu" is NOT wrongly rescued.
+const squash = (s) => fold(s).replace(/[^a-z]/g, '')
+  .replace(/eo/g, 'o').replace(/eu/g, 'u').replace(/oe/g, 'o').replace(/ae/g, 'e')
+  .replace(/ch/g, 'j').replace(/(.)\1+/g, '$1')
+const sameName = (a, b) => {
+  const x = squash(a), y = squash(b)
+  if (x.length < 5 || y.length < 5) return false
+  return x === y || x.includes(y) || y.includes(x)
+}
 
 // ── chapter scope ─────────────────────────────────────────────────────────
 const chapters = onlyChapter ? [onlyChapter] : Object.keys(eventLinks)
@@ -138,7 +155,9 @@ for (const w of work) {
   const slugT = toks(w.slug.replace(/_/g, ' '), GENERIC)
   // subject ok if the named term OR the slug's own words appear in title+lead.
   const sc = Math.max(overlap(termT, pageT), overlap(slugT, pageT))
-  if (sc === 0) { SUBJECT_FAIL.push({ ...w, why: `0 word-overlap with "${r.title}" — ${r.lead.slice(0, 90)}…` }); continue }
+  if (sc === 0 && !sameName(w.slug.replace(/_/g, ' '), r.title)) {
+    SUBJECT_FAIL.push({ ...w, why: `0 word-overlap with "${r.title}" — ${r.lead.slice(0, 90)}…` }); continue
+  }
 
   if (w.kind === 'event') {
     const img = imageOf(w)
@@ -179,7 +198,12 @@ for (const [img, group] of byImage) {
 // Links that genuinely point at the wrong/dead page are NOT auto-edited —
 // retargeting or writing a replacement blurb is a human/agent call. They are
 // listed in a fix-needed file.
-const linkFix = [...PAGE_FAIL, ...SUBJECT_FAIL].map((x) => `${x.kind}\t${x.id}\tslug=${x.slug}\t${x.why}`)
+const linkFixObjs = [...PAGE_FAIL, ...SUBJECT_FAIL].map((x) => ({
+  tl: tlId, kind: x.kind, id: x.id, term: x.term, slug: x.slug,
+  reason: x.why, context: (x.subjectStr || x.term || '').replace(/\s+/g, ' ').trim().slice(0, 300),
+}))
+const linkFix = linkFixObjs.map((x) => `${x.kind}\t${x.id}\tslug=${x.slug}\t${x.reason}`)
+if (emitFlags) { writeFileSync(emitFlags, JSON.stringify(linkFixObjs, null, 2) + '\n'); console.log(`emitted ${linkFixObjs.length} flags → ${emitFlags}`) }
 
 // ── report ────────────────────────────────────────────────────────────────
 const tag = apply ? 'APPLIED' : 'DRY RUN, no writes'
