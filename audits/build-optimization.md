@@ -69,7 +69,18 @@ and the single serial applier. The "iterate/fix" phase — the actual bottleneck
 — should drop to a small fraction of what it was. Writing is unchanged
 (it was never the problem). No gate removed → quality unchanged by construction.
 
-## First run
+## Sequence (HARD GATE — user-locked 2026-05-18)
 
-The **Chapter-3 → 3-chapter split** of `early-medieval-europe` is the first
-build done the new way (batched + scoped rebuild + parallel per-chapter).
+The **Chapter-3 → 3-chapter split** of `early-medieval-europe` does **NOT**
+start until BOTH are done:
+1. ✅ **DONE 2026-05-18** — word-finder shipped: `link-coverage.ts` S7
+   rare-word signal (lowercase word ≤6/102 civs ⇒ ADVISORY `rare` tag; never
+   gates; verified emep ch3 still 0 GATE). User accepted it as a noisy-but-safe
+   curator hint; clean version (common-word-list subtraction) deliberately
+   deferred as a rabbit-hole, revisit only if noise slows real curation.
+2. ☐ the three-pillar optimization above is implemented (IN PROGRESS — Pillar 2
+   per-civ scoped rebuild first).
+
+The Chapter-3 split is then the **acceptance test of both** — the first build
+run the new way; if it isn't dramatically faster with zero quality loss, the
+optimization isn't done. Do not begin the split before both land.
