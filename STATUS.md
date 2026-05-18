@@ -75,6 +75,19 @@ alarms cleared, genuine "needs a human" + duplicate-photo flags preserved.
   design). Enforcement is `ship-check` at the hasContent flip + the
   build-static shipped-page guard, NOT the build. Sound *iff* ship-check is run.
 
+## ⚠ KNOWN ISSUE — GitHub→Cloudflare auto-deploy NOT firing (2026-05-18)
+
+`git push origin main` is **NOT auto-deploying.** Evidence: origin/main =
+`fc832dd` pushed 2026-05-18; `npx wrangler deployments list` shows **no
+deployment newer than 2026-05-17**; prod still serves pre-push content
+(blurb-probe = 0 hits 24+ min after push). **Do not assume push == deployed —
+always verify prod** with: `curl -sL https://stuffhappened.com/early-medieval-
+europe/ | grep -c "supreme act of ascetic devotion"` (>0 = fc832dd live).
+Until the GitHub integration is fixed, prod updates ONLY via the documented
+manual atomic deploy: `rm -rf out && npm run build && npx wrangler deploy`
+(deploys the working tree — mind scope: unpushed/uncommitted changes go too).
+Separately: the broken auto-deploy integration itself needs investigation.
+
 ## Worked example — early-medieval-europe ch3 (shipped 2026-05-18 for review)
 
 Full link-coverage closure of one chapter, as the reference pattern: **46 GATE
