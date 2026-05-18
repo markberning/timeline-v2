@@ -164,6 +164,33 @@ function corpusDict() {
   return d
 }
 
+// ── corpus rarity (cross-civ document frequency) ────────────────────────────
+// How many distinct civ narratives each lowercase word appears in. A word in
+// many civs' stories is ordinary English; one in only a few is domain jargon a
+// lay reader needs (anchorite, plainsong, cenobitic, tonsure, scriptoria…).
+// Built once from the narratives the script already reads. Drives the S7
+// rare-word ADVISORY signal — it never gates, so it can never block a build.
+let _df: Map<string, number> | null = null
+let _dfDocs = 0
+function corpusWordDF() {
+  if (_df) return _df
+  const df = new Map<string, number>()
+  const files = readdirSync(NARR).filter(f => f.endsWith('.md'))
+  _dfDocs = files.length
+  for (const f of files) {
+    let md: string
+    try { md = readFileSync(join(NARR, f), 'utf-8') } catch { continue }
+    const seen = new Set<string>()
+    for (const w of (md.toLowerCase().match(/[a-z][a-z'’-]{2,}/g) ?? [])) {
+      const t = w.replace(/[’'-]+$/, '')
+      if (t.length >= 3) seen.add(t)
+    }
+    for (const t of seen) df.set(t, (df.get(t) ?? 0) + 1)
+  }
+  _df = df
+  return df
+}
+
 // ── narrative chapters ──────────────────────────────────────────────────────
 function chapters(tl: string): Map<string, string> {
   const md = readFileSync(join(NARR, `${tl}.md`), 'utf-8')
@@ -304,6 +331,27 @@ function scanChapter(tl: string, ch: string, body: string,
     const words = term.split(/\s+/)
     if (words.length <= 3 && /^\p{Lu}/u.test(term) && !STOP.has(toks(term)[0])) {
       a.bold = true; a.shaped3 = true
+    }
+  }
+
+  // S7 — rare lowercase word: domain jargon a lay reader won't know. A single
+  // lowercase word, length ≥ 6, that appears in only a few civs' narratives
+  // (low cross-civ document frequency) and isn't already linked/waived (the
+  // tag()/ensure() filter drops covered + STOP + universal automatically).
+  // ADVISORY ONLY — `rare` is deliberately NOT in the gate condition below, so
+  // it can never block a build; it just lands on the "should this be a link?"
+  // worklist the curator resolves at creation time. This is the fix for the
+  // lowercase-jargon blind spot (anchorite/plainsong/etc. that step S1–S6 miss).
+  {
+    const df = corpusWordDF()
+    const RARE_MAX = Math.max(3, Math.round(_dfDocs * 0.06)) // ≲6% of civs
+    // pure single lowercase word ≥6 letters, NOT part of an ad-hoc hyphenated
+    // / apostrophe compound ("ox-carts", "conversion-or-death") — those are
+    // never single link targets and were the bulk of the noise.
+    for (const m of plain.matchAll(/(?<![\p{L}\p{N}'’-])[a-z]{6,}(?![\p{L}\p{N}'’-])/gu)) {
+      const w = m[0]
+      const d = df.get(w) ?? 0
+      if (d > 0 && d <= RARE_MAX) tag(w, 'rare', 'glossary')
     }
   }
 

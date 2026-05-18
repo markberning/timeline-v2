@@ -19,9 +19,11 @@
 
 name: Deploy to Cloudflare
 
+# PARKED 2026-05-18: auto-run on push is disabled so it stops fail-emailing on
+# every push while the post-gate build failure is unresolved (deprioritized per
+# user — manual `npx wrangler deploy` is the working path). Re-add the `push:`
+# trigger below to reactivate once the remaining build/deploy step is fixed.
 on:
-  push:
-    branches: [main]
   workflow_dispatch: {}
 
 concurrency:
