@@ -75,15 +75,17 @@ alarms cleared, genuine "needs a human" + duplicate-photo flags preserved.
   design). Enforcement is `ship-check` at the hasContent flip + the
   build-static shipped-page guard, NOT the build. Sound *iff* ship-check is run.
 
-## ⚠ KNOWN ISSUE — GitHub→Cloudflare auto-deploy NOT firing (2026-05-18)
+## ✅ RESOLVED (verifying) — auto-deploy reactivated via in-repo Action (2026-05-18)
 
-`git push origin main` is **NOT auto-deploying.** Root cause: the old deploy
-path was a **Cloudflare-dashboard Git integration** (no repo workflow file)
-that silently stopped firing 2026-05-18 — pushes land on GitHub, no Cloudflare
-deployment is created, prod goes stale with zero signal. **Do not assume
-push == deployed — always verify prod**: `curl -sL https://stuffhappened.com/
+`git push origin main` auto-deploys again as of 2026-05-18. The old
+**Cloudflare-dashboard Git integration** silently died; it's replaced by the
+in-repo `.github/workflows/deploy.yml`. Both GitHub Actions secrets are now set
+(`CLOUDFLARE_API_TOKEN` — rolled after being pasted in chat, so the exposed
+value is dead — and `CLOUDFLARE_ACCOUNT_ID`). **This STATUS commit is the
+first live test** of the reactivated path. Discipline stays: **never assume
+push == deployed — verify prod**: `curl -sL https://stuffhappened.com/
 early-medieval-europe/ | grep -c "supreme act of ascetic devotion"` (>0 =
-fc832dd-or-later live).
+current build live).
 
 **Durable fix added:** `.github/workflows/deploy.yml` (in-repo GitHub Action:
 push→build→`wrangler deploy`, fails loudly). **INERT until the owner adds 2
