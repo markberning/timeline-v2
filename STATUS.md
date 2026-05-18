@@ -51,14 +51,19 @@ alarms cleared, genuine "needs a human" + duplicate-photo flags preserved.
   `fix-links --strict` + `lint:links --strict` (zero-tolerance, new civs).
   CLAUDE.md step 6 is creation-first (born-verified). A civ cannot go live
   without passing. ✓
-- **Link coverage: BUILT BUT NOT MERGED — pipeline gap.** The rebuilt
-  multi-signal detector is `1376548` on `chore/link-coverage-redesign`,
-  UNMERGED. On `main`, `scripts/link-coverage.ts` is the OLD weak detector
-  (`903a551`, "missed ~38 of ~44 gaps"); `ship-check` line 81 runs that old one.
-  **Fix = merge `chore/link-coverage-redesign` → `main`** (its 4 conflict files
-  — CLAUDE.md, WRITING-RULES.md, .gitignore, ship-check.mjs — were deliberately
-  NOT touched by `e213a52`, so the merge should be clean). Until then: pipeline
-  produces link-*correct* civs, not coverage-*complete* ones.
+- **Link coverage: MERGED into the pipeline (`e77736a`, 2026-05-18).** The
+  rebuilt multi-signal detector + its (civ,chapter,term) grandfather baseline
+  are on `main`; `ship-check.mjs` line 87 runs the NEW detector. Verified:
+  legacy `mali-empire --strict` = 281 gaps / **0 NEW** → passes (102 not
+  broken); detector genuinely surfaces real recurring-unlinked entities.
+  - **OPEN DECISION (production hole):** the grandfather baseline was snapshotted
+    with `uyghur-steppe` (a the-17 *new*-roster civ) already present, so it
+    passes `--strict` with **131 gaps / 0 NEW** — grandfathered, not gated.
+    "New civs zero-tolerance" currently only holds for civs created *after* the
+    snapshot. Fix = regenerate baseline scoped to the **legacy 102 only**
+    (`--write-coverage-baseline` minus the-17 roster) so new production is
+    actually held to coverage at creation. User-gated (uyghur shipped text-only
+    by explicit exception — decide if it must also clear coverage).
 - **The build itself does not validate links** (`prebuild` gate =
   `lint-links --no-slugs && lint-density`, no fix-links/coverage — speed
   design). Enforcement is `ship-check` at the hasContent flip + the
@@ -69,12 +74,8 @@ alarms cleared, genuine "needs a human" + duplicate-photo flags preserved.
 - `main` — canonical. The fix-links fix + this file commit here.
 - `feat/the-17` @ `1da7ce2` — **real, unmerged.** uyghur-steppe shipped
   text-only; only G4 maps + ship-check + publish remain.
-- `chore/link-coverage-redesign` @ `1376548` — **real, unmerged, pushed.** G3
-  link-coverage rebuilt (multi-signal). Merge surface when it lands: `CLAUDE.md`,
-  `WRITING-RULES.md`, `.gitignore`, `scripts/ship-check.mjs` (comment only),
-  `scripts/link-coverage.ts` (full rewrite), new `audits/link-coverage-*`.
-  **Avoid editing those 4 files on `main` until this merges** to keep the
-  reconcile trivial.
+- `chore/link-coverage-redesign` @ `1376548` — **MERGED to `main` (`e77736a`,
+  2026-05-18, clean, no conflicts).** Branch can be deleted with the dead set.
 - `chore/g12-{a..e}`, `chore/g12-{a..e}-sweep`, `chore/corpus-remediation`,
   `worktree-agent-*` (×6) — **all dead/superseded** per git history. Safe to
   delete (refs only; no work lost). Prune command below — user-gated, low value.
