@@ -4,9 +4,19 @@ _Current 2026-05-17 (late session, post hard-stop). Overwrite the dated/state se
 
 ---
 
-## ▶ STATE — everything is STOPPED and torn down
+## ▶ STATE — uyghur-steppe SHIPPED text-only (2026-05-17, post-resume)
 
-The user issued repeated, escalating hard-stop orders ("stop all gemini work now", "stop all work", "stop all worktrees and sub agents"). As of now: **0 Gemini/build processes, all 6 background agents terminated, ALL worktrees removed except the primary `main` checkout, nothing merged, nothing deployed.** The user said this session took "an unfathomable amount of time" and **will reassess the approach** — do not assume "just continue." Expect a strategy decision from the user first.
+Superseding the prior hard-stop state. The user resumed and directed: finish uyghur-steppe **except maps**, then **"ship it without maps."** Done & **LIVE on stuffhappened.com**:
+- **`main` @ `811d154`** (merge of `feat/the-17`), pushed to origin, deployed (wrangler version `46e035fb`). uyghur-steppe `hasContent: true` — **102 hasContent civs**.
+- Fixed a real non-maps blocker en route: **G1 density** (ch1/2/3 were 9 events; added one verbatim-anchored pool-event placement each → 10). ship-check then green on **every gate except maps**.
+- **Shipped text-only — G4 maps DELIBERATELY DEFERRED per explicit user instruction.** Override is cleanly scoped: ship-check confirmed `maps 1:1` was the *only* failing gate (G1/G2/G3/G6/G7 + G10/G11/G12 artifacts all green). Reader degrades gracefully — `chapter-accordion.tsx` probes each map and only mounts the block on load success, so map-less chapters show **no broken images**. Shipped-page guard only checks page size, not maps.
+- **OWED: uyghur-steppe G4 maps** (8 ch). `map-prompts/uyghur-steppe.md` already authored. The aborted maps-build's 3 partial un-QA'd PNGs were deleted (ships cleanly map-less). When resumed: `node --env-file=.env.local scripts/maps-build.mjs uyghur-steppe` → re-`npm run build` → `wrangler deploy` → push. No `hasContent` change needed (already true).
+- The 744–1206 Central Asian Steppe gap (Göktürk→Mongol) is now CLOSED — see memory `project_coverage_finding_steppe_gap`.
+
+Corpus-remediation state below is UNCHANGED (still parked; `chore/g12-a-sweep` @ `8b4c71d` still the one real salvaged deliverable).
+
+### (historical) the prior hard-stop
+The user had issued repeated, escalating hard-stop orders ("stop all gemini work now", "stop all work", "stop all worktrees and sub agents"); session took "an unfathomable amount of time." That hold was lifted by the resume above.
 
 ### Worktree / branch topology
 - **Only checkout now:** `/Users/mberning/projects/personal/timeline-v2` on **`main`** @ `250cf4b` (unchanged this session — nothing merged, nothing deployed, no `hasContent` flips). `git worktree list` shows just this one.
