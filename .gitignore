@@ -11,3 +11,4 @@ public/search-index.json
 .env.local
 .env.*.local
 audits/.slug-validation-cache.json
+audits/.wiki-verify-cache.json

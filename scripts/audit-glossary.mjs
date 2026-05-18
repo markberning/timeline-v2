@@ -1,56 +1,34 @@
-// audit-glossary.mjs — coherence QA gate for glossary sheets (G12).
+// audit-glossary.mjs — DETERMINISTIC ship gate for glossary sheets (G12).
 //
-// lint-links (G2) already hard-ERRORs an empty or DEAD wikiSlug. But a slug can
-// be ALIVE and still wrong: a disambiguation page, a same-name different-thing,
-// or a redirect to an over-broad topic. The GlossarySheet renders ONLY the
-// term + the Wikipedia extract + a link (no image), so this is a single cheap
-// TEXT stage: does the wikiSlug page / wikiExtract actually correspond to the
-// term the reader tapped?
+// REDESIGN 2026-05-17 (memory/project_link_verification_redesign): no LLM.
+// Same model as audit-events: subject-correctness ("does this page actually
+// explain the term") is decided at CREATION time by verify-links.mjs and
+// recorded in content/.link-snapshots-<tl>.json; this gate deterministically
+// proves the page didn't drift (still exists, not a disambiguation page,
+// title stable). The canonical answer for a term with no good page is an
+// authored `definition` blurb (a `def:` token — no Wikipedia link rendered),
+// which is skipped here because there is no external page to be wrong.
 //
-// FAIL-CLOSED (any API/parse error = FAIL). On failure writes
-// GLOSSARY-FAILURES-<tlId>.txt (ship-check asserts its absence).
-// Mirrors audit-crosslinks.mjs.
+// PASS without check: a `def:` (authored-blurb) entry, or a term waived in
+// content/.glossary-slug-waivers-<tl>.json. FAIL (block, fail-closed): a
+// real slug with no snapshot entry, dead/disambiguation, or title drift.
 //
-// Calibration (2026-05-17, mirrors G10/audit-events): FAIL only a WRONG page
-// (disambiguation, same-name-different-thing, redirect/off-subject). A broad
-// PARENT article that legitimately covers the term — same civ/era/thread — is
-// a PASS; thin-EN-coverage civs often have only a parent (a glossary term
-// like "merit land" or "Daesik" frequently has no dedicated article).
+// Same contract: writes GLOSSARY-FAILURES-<tl>.txt on failure, exit 1
+// unless --report-only.
 //
-// Resolution order for "no good EN article" (canonical, 2026-05-17):
-//   1. authored `definition` blurb (no wikiSlug) — parse normalizes it to a
-//      `def:` token; GlossarySheet shows the house-voice prose and NO wiki
-//      link. SKIPPED here (auto-PASS): there is no external page to land on
-//      wrong, so a wiki-coherence gate has nothing to check. CAVEAT: the
-//      blurb text itself is currently UNGATED — it is authored in the
-//      .glossary-links JSON, which the 5-persona NARRATIVE audit does NOT
-//      cover. A def-blurb coherence check (G12-def, like G13 for summaries)
-//      is owed — corpus-remediation backlog #17; hard dependency before any
-//      mass blurb authoring (#4). Still the PREFERRED answer (scales to
-//      thin-coverage civs without degrading the tap), just not yet gated.
-//   2. correct broad on-thread PARENT slug (same civ/era/thread).
-//   3. residual waived per-term in
-//      content/.glossary-slug-waivers-<tlId>.json ({ "<term>": "reason" }),
-//      mirroring G10 .event-slug-waivers / G3 .link-waivers / G1 baseline.
-//
-// Usage:
-//   node --env-file=.env.local scripts/audit-glossary.mjs <tlId>
-//   ... --model M --json --report-only --limit N
+// Usage: node scripts/audit-glossary.mjs <tlId> [--json] [--report-only] [--limit N] [--refresh]
 
 import { readFileSync, existsSync, writeFileSync, rmSync } from 'node:fs'
-import { GoogleGenAI } from '@google/genai'
+import { verifySlugs, isDefSlug } from './lib/wiki-verify.mjs'
 
 const args = process.argv.slice(2)
 const tlId = args.find((a) => !a.startsWith('--'))
 const asJson = args.includes('--json')
 const reportOnly = args.includes('--report-only')
+const refresh = args.includes('--refresh')
 const arg = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : d }
-const model = arg('--model', 'gemini-3-pro-preview')
 const limit = Number(arg('--limit', '0')) || 0
-
-if (!tlId) { console.error('Usage: node --env-file=.env.local scripts/audit-glossary.mjs <tlId> [--report-only]'); process.exit(2) }
-const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY
-if (!apiKey) { console.error('Missing GEMINI_API_KEY or GOOGLE_API_KEY'); process.exit(2) }
+if (!tlId) { console.error('Usage: node scripts/audit-glossary.mjs <tlId> [--report-only]'); process.exit(2) }
 
 const contentPath = `content/${tlId}.json`
 if (!existsSync(contentPath)) { console.error(`No ${contentPath} — run npm run parse first`); process.exit(2) }
@@ -59,130 +37,53 @@ if (limit) glossary = glossary.slice(0, limit)
 if (glossary.length === 0) { console.log(`audit-glossary ${tlId}: no glossary entries`); process.exit(0) }
 
 const stripHtml = (s) => (s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
-// Dedup by term — the sheet is keyed by term; one verdict per distinct term.
 const seen = new Set()
 const entries = []
 for (const g of glossary) {
   const k = (g.term || '').toLowerCase()
   if (!k || seen.has(k)) continue
   seen.add(k)
-  entries.push({ term: stripHtml(g.term), wikiSlug: g.wikiSlug || '', wikiExtract: stripHtml(g.wikiExtract).slice(0, 500) })
+  entries.push({ term: stripHtml(g.term), wikiSlug: g.wikiSlug || '' })
 }
 
-// G12 slug waivers: { "<term>": "reason" } — broad-but-correct parent the
-// civ cannot improve. Waived terms skip the model call (PASS), matched
-// case-insensitively, and never reach GLOSSARY-FAILURES.
 const waiverPath = `content/.glossary-slug-waivers-${tlId}.json`
 const rawWaivers = existsSync(waiverPath) ? JSON.parse(readFileSync(waiverPath, 'utf8')) : {}
 const slugWaivers = new Map(Object.entries(rawWaivers).map(([k, v]) => [k.toLowerCase(), v]))
 
-const ai = new GoogleGenAI({ apiKey })
-function extractJson(t) { const m = t.match(/\[[\s\S]*\]|\{[\s\S]*\}/); if (!m) throw new Error('no JSON'); return JSON.parse(m[0]) }
+const snapPath = `content/.link-snapshots-${tlId}.json`
+const snapshot = existsSync(snapPath) ? (JSON.parse(readFileSync(snapPath, 'utf8')).glossary || {}) : null
 
-const isDef = (e) => e.wikiSlug.startsWith('def:')
+const norm = (t) => (t || '').replace(/\s+/g, ' ').trim().toLowerCase()
 
-const verdicts = new Map()
-for (const e of entries) {
-  // Authored-blurb entries: parse-narratives normalizes a `definition`
-  // with no wikiSlug to a stable `def:` token, and GlossarySheet renders
-  // the house-voice blurb with NO Wikipedia link. There is no external
-  // page for the reader to land on wrong, so THIS wiki-coherence gate has
-  // nothing to check — skip the model call (PASS), mirroring G10 skipping
-  // slug-less events whose curated description renders standalone. NOTE the
-  // blurb text itself is not audited here and is NOT covered by the
-  // narrative 5-persona audit (it lives in .glossary-links JSON); a
-  // separate def-blurb coherence gate is owed (backlog #17). This makes the
-  // authored `definition` the canonical "no good EN article" answer for
-  // glossary (the slug-waiver remains for the broad-parent-stretch case).
-  if (isDef(e)) {
-    verdicts.set(e.term, { verdict: 'PASS', reason: 'authored definition (def: token — no Wikipedia link rendered)' })
-    continue
-  }
-  const w = slugWaivers.get(e.term.toLowerCase())
-  if (w) verdicts.set(e.term, { verdict: 'PASS', reason: `waived: ${w}` })
-}
-const pending = entries.filter((e) => !isDef(e) && !slugWaivers.has(e.term.toLowerCase()))
-
-// Deterministic disambiguation prefilter (free — no Gemini). A glossary slug
-// that resolves to a Wikipedia *disambiguation* page is ALWAYS wrong for a
-// reader tap; the REST summary API reports `type:"disambiguation"` for free,
-// and the API is strictly more reliable at this one call than the model.
-// FAIL such entries deterministically and drop them from the model batch.
-// FAIL-OPEN: only a definitive disambiguation type triggers this; any fetch
-// error / non-200 / other type falls through to the model unchanged, so
-// correctness is identical — this only removes provably-wasted Gemini calls.
-// (lint-links/G2 already ERRORs dead/empty slugs upstream, so a 404 here is
-// rare; treat it as model-bound, not a deterministic verdict.)
-async function isDisambig(slug) {
-  try {
-    const u = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}`
-    const ac = new AbortController()
-    const t = setTimeout(() => ac.abort(), 8000)
-    const r = await fetch(u, { signal: ac.signal, headers: { 'accept': 'application/json' } })
-    clearTimeout(t)
-    if (!r.ok) return false
-    const j = await r.json()
-    return j?.type === 'disambiguation'
-  } catch { return false }
-}
-let prefiltered = 0
-const POOL = 6
-for (let i = 0; i < pending.length; i += POOL) {
-  const chunk = pending.slice(i, i + POOL)
-  const flags = await Promise.all(chunk.map((e) => isDisambig(e.wikiSlug)))
-  chunk.forEach((e, k) => {
-    if (flags[k]) {
-      verdicts.set(e.term, { verdict: 'FAIL', reason: 'disambiguation page (deterministic prefilter — no model call)' })
-      prefiltered++
-    }
-  })
-}
-const modelPending = pending.filter((e) => !verdicts.has(e.term))
-if (!asJson && prefiltered) console.log(`  (prefilter: ${prefiltered} disambiguation FAIL caught free; ${modelPending.length} → model)`)
-
-const BATCH = 12
-for (let i = 0; i < modelPending.length; i += BATCH) {
-  const batch = modelPending.slice(i, i + BATCH)
-  const prompt = `Each item is a glossary entry in a history reading app: the reader taps "term" and gets the Wikipedia page "wikiSlug" with intro "wikiExtract". Decide whether the reader lands on a CORRECT, ON-SUBJECT page that helps explain the term.
-
-PASS if the page (or extract) explains the term, OR is a broader parent topic that ACTUALLY COVERS the term within itself (the term is discussed on that page, not merely adjacent to it). A broad parent is fine only when the reader who taps the term and lands there learns what the term is.
-
-FAIL if the page is genuinely WRONG for the reader: a disambiguation page; a same-name-different-thing (wrong city/person/sense); a redirect to an off-subject topic; OR — this is the dodge, judge it strictly — a *specific named term* (a ceremony, rite, office, title, person, artifact, concept) pointed at a *whole-civilization / whole-empire / whole-dynasty* article that does NOT itself explain that term. "Same civ/era/thread" is necessary but NOT sufficient: if the target page does not actually tell the reader what THIS term is, it FAILS, however on-thread it is. Example FAIL: term "ʻinasi" → page "Tuʻi Tonga Empire" (the empire is the right thread but the article does not explain the ʻinasi ceremony). Empty wikiExtract is PASS only if the wikiSlug is plausibly a page that covers the term; an empty extract on a whole-empire slug for a specific term is a FAIL.
-
-Respond ONLY with a JSON array, same order: [{"term":"...","verdict":"PASS"|"FAIL","reason":"short"}]
-
-ENTRIES:
-${JSON.stringify(batch, null, 1)}`
-  try {
-    const res = await ai.models.generateContent({ model, contents: prompt })
-    const out = extractJson((res?.text ?? (res?.candidates?.[0]?.content?.parts ?? []).map((p) => p.text).filter(Boolean).join(' ')).trim())
-    const byTerm = new Map(out.map((o) => [(o.term || '').toLowerCase(), o]))
-    for (const e of batch) {
-      const v = byTerm.get(e.term.toLowerCase())
-      verdicts.set(e.term, v ? { verdict: v.verdict === 'PASS' ? 'PASS' : 'FAIL', reason: v.reason || '' } : { verdict: 'FAIL', reason: 'no verdict returned' })
-    }
-  } catch (err) {
-    for (const e of batch) verdicts.set(e.term, { verdict: 'FAIL', reason: `QA errored: ${String(err?.message || err).slice(0, 120)}` })
-  }
-}
+const targets = entries.filter((e) => e.wikiSlug && !isDefSlug(e.wikiSlug) && !slugWaivers.has(e.term.toLowerCase()))
+const live = targets.length ? await verifySlugs(targets.map((e) => e.wikiSlug), { refresh }) : new Map()
 
 const rows = entries.map((e) => {
-  const v = verdicts.get(e.term) || { verdict: 'FAIL', reason: 'not evaluated' }
-  return { term: e.term, wikiSlug: e.wikiSlug, ok: v.verdict === 'PASS', reason: v.reason }
+  if (!e.wikiSlug || isDefSlug(e.wikiSlug)) return { term: e.term, wikiSlug: e.wikiSlug, ok: true, reason: 'authored definition / slug-less (no Wikipedia link rendered — auto-pass)' }
+  const w = slugWaivers.get(e.term.toLowerCase())
+  if (w) return { term: e.term, wikiSlug: e.wikiSlug, ok: true, reason: `waived: ${w}` }
+  if (!snapshot) return { term: e.term, wikiSlug: e.wikiSlug, ok: false, reason: `no snapshot file — run: node scripts/verify-links.mjs ${tlId} --write-snapshot` }
+  const snap = snapshot[e.wikiSlug]
+  if (!snap) return { term: e.term, wikiSlug: e.wikiSlug, ok: false, reason: `slug never confirmed at creation (not in snapshot) — run verify-links` }
+  const r = live.get(e.wikiSlug)
+  if (!r || !r.exists) return { term: e.term, wikiSlug: e.wikiSlug, ok: false, reason: r?.reason || 'dead page' }
+  if (r.disambiguation) return { term: e.term, wikiSlug: e.wikiSlug, ok: false, reason: 'now a disambiguation page' }
+  if (norm(r.title) !== norm(snap.title)) return { term: e.term, wikiSlug: e.wikiSlug, ok: false, reason: `page moved/redirected since confirmation: "${snap.title}" → "${r.title}" (re-confirm + re-snapshot)` }
+  return { term: e.term, wikiSlug: e.wikiSlug, ok: true, reason: 'matches confirmed snapshot' }
 })
-const failed = rows.filter((r) => !r.ok)
 
+const failed = rows.filter((r) => !r.ok)
 if (asJson) {
   console.log(JSON.stringify({ tlId, total: rows.length, failed: failed.length, rows }, null, 2))
 } else {
   for (const r of failed) console.log(`  ✗ "${r.term}" → ${r.wikiSlug} — ${r.reason}`)
-  console.log(`\naudit-glossary ${tlId}: ${rows.length} terms · ${rows.length - failed.length} PASS · ${failed.length} FAIL`)
+  console.log(`\naudit-glossary ${tlId}: ${rows.length} terms · ${rows.length - failed.length} PASS · ${failed.length} FAIL (deterministic, no LLM)`)
 }
 
 const artifact = `GLOSSARY-FAILURES-${tlId}.txt`
 if (failed.length > 0) {
   writeFileSync(artifact, failed.map((r) => `${r.term}\t${r.wikiSlug}\t${r.reason}`).join('\n') + '\n')
-  console.error(`Wrote ${artifact} — fix the wikiSlug (or the term), then re-run.`)
+  console.error(`Wrote ${artifact} — retarget the slug (then re-run verify-links --write-snapshot), write an authored definition blurb, or waive it; then re-run.`)
   if (!reportOnly) process.exit(1)
 } else if (existsSync(artifact)) {
   rmSync(artifact)
