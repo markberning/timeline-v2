@@ -10,17 +10,21 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-18 (session cleared here; read this FIRST)
 
-**Git:** `origin/main` @ `5be78b6`. `swahili-coast` is **built, ship-check
-CLEAR, merged to main, repo self-contained** (curated link files force-added
-past the `content/` gitignore; 8 stray `.draft-sc-*` temp files removed). iOS
-swipe fix also committed (`25706b7`). **Nothing is on prod yet** —
-`stuffhappened.com/swahili-coast/` = 404; prod still serves prior content
-healthily (home/emep 200). **SHIPPED + LIVE 2026-05-18** — user ran the deploy from their terminal;
-wrangler uploaded 553 files. **Verified live:**
-`stuffhappened.com/swahili-coast/` = HTTP 200 serving real content; in the
-live search-index; home/emep/mali 200 (no regression). The iOS swipe fix
-shipped in the same deploy (it was an ancestor on main). Build-opti
-acceptance test + The Swahili Coast: **DONE, live.**
+**Git:** `main` == `origin/main` @ `107ea65`, in sync. **The Swahili Coast +
+the iOS swipe fix are SHIPPED and VERIFIED LIVE** (2026-05-18): user ran the
+deploy from their terminal, wrangler uploaded 553 files;
+`stuffhappened.com/swahili-coast/` = HTTP 200 serving real content, in the
+live search-index, home/emep/mali 200 (no regression). Build-opti acceptance
+test + The Swahili Coast: **DONE, live, closed.**
+
+**One outstanding repo-hygiene item (recommended, not yet done):** a symlink
+`node_modules` was historically committed (a "non-directory" tracked path);
+`npm ci` correctly replaced it with a real dir, so `git status` now shows
+`D node_modules` staged-as-deleted. Committing that deletion (`git rm --cached
+node_modules && commit`) is the right durable fix — the tracked node_modules
+symlink is the root cause of the multi-hour "tsx exits 194 / build silently
+dies" tail this session. Left for the user to bless since it's a structural
+git change. Until done, fresh checkouts/worktrees risk the same breakage.
 
 **Deploy-tail lesson (cost ~3h of false leads — durable):** `content/` is
 gitignored. Every per-civ curated file (`.event-links/.glossary-links/
@@ -61,19 +65,24 @@ build aborting at the density gate, NOT a tsx/sandbox failure — verified.
   (manual deploy). Repo made self-contained (`df41b09` committed 2 event-link
   files that were local-only).
 
-**Next — DECISIONS PENDING (both gated on the user's explicit word):**
-1. **Deploy the iOS swipe fix** to prod (committed+pushed to main, not live;
-   classifier blocked the mid-opti manual deploy — needs a clean atomic
-   `rm -rf out && npm run build && npx wrangler deploy`).
-2. **Merge `feat/the-17` → main + deploy `swahili-coast`** (ship-check CLEAR;
-   merge is the integration step, push/wrangler is the deploy — both held on
-   the user's "deploy"/"merge" per operating-model pt 4 and an explicit
-   in-session promise).
+**Next (nothing urgent — the shipped work is closed):**
+1. **(Recommended, structural) commit the `node_modules` symlink removal** —
+   see the repo-hygiene item above; prevents the deploy-tail class of failure.
+2. **Optional cleanup (user-gated, low value):** `feat/the-17` worktree
+   (`../timeline-v2-the17`) is fully superseded — its work is on `main` and
+   `main` is ahead. Safe to `git worktree remove` it + delete the branch. It
+   still holds untracked scratch (`narratives/.draft-sc-*`,
+   `LINK-FIX-NEEDED-*.txt`, an untracked `content/` curated set now tracked on
+   main). `../timeline-v2-lcr` (chore/link-coverage-redesign) likewise.
+3. **The-17 roster continues** (`audits/phase-1.5-roster.md`): swahili-coast
+   was the build-opti acceptance test AND roster work; remaining roster civs
+   build the same optimized way (`audits/build-optimization.md` → "Locked
+   build procedure"; memory `project_build_optimization_done`). Mind the
+   ship-packaging traps: memory `feedback_civ_ship_packaging`.
 - The `emep` ch3 → 3-chapter split is **no longer the acceptance test**
   (superseded) but remains available as ordinary content work if wanted.
-
-**iOS swipe fix: COMMITTED (`25706b7`, pushed to main), user confirmed
-on-device. Not yet deployed — see "DECISIONS PENDING" above.**
+- Deferred unchanged: backlog **#7** (22,877 coverage gaps), **#17**, **#12**
+  — see "DO NOT START" / "Remaining real work" below.
 
 **Auto-deploy: PARKED (user deprioritized).** `deploy.yml` no longer runs on
 push (stops the failure emails). Manual deploy is the working path:
