@@ -1,7 +1,7 @@
 {
   "runLabel": "swahili-coast — first build the optimized way (wall start 9:34am 2026-05-18)",
   "start": 1779122222382,
-  "last": 1779126598563,
+  "last": 1779129653388,
   "marks": [
     {
       "label": "Setup: worktree+deps+timer+topology+reference-pattern study",
@@ -72,6 +72,36 @@
       "label": "PARALLEL backward cross-cultural pass: 21 findings into 7 reference TLs (5 agents, step-11 gate, 0 new lint err)",
       "atMs": 1779126598563,
       "deltaMs": 258516
+    },
+    {
+      "label": "Author map-prompt spec (8 chapters, SERIAL coordinator — like the chapter spec)",
+      "atMs": 1779126730982,
+      "deltaMs": 132419
+    },
+    {
+      "label": "G4 maps: Gemini gen + vision-QA + auto-regen + optimize (background, exit 0)",
+      "atMs": 1779127769002,
+      "deltaMs": 1038020
+    },
+    {
+      "label": "G4 maps regen ch2 + full re-audit: 8/8 PASS, optimized to webp (background)",
+      "atMs": 1779128439219,
+      "deltaMs": 670217
+    },
+    {
+      "label": "Full corpus parse (step 10, SERIAL — search index + all manifests, 7m31s, before ship)",
+      "atMs": 1779128917715,
+      "deltaMs": 478496
+    },
+    {
+      "label": "Coverage curation (waivers: link load-bearing / waive context-and-already-linked) + ship-check CLEAR + hasContent flip",
+      "atMs": 1779129173440,
+      "deltaMs": 255725
+    },
+    {
+      "label": "Full corpus parse #2 (post-flip, swahili-coast in search index) + ship-check re-confirm CLEAR",
+      "atMs": 1779129653388,
+      "deltaMs": 479948
     }
   ]
 }
