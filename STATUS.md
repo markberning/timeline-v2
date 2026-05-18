@@ -10,11 +10,26 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-18 (session cleared here; read this FIRST)
 
-**Git:** iOS swipe fix is **committed + pushed to `main`** (`25706b7`,
-user confirmed on-device) but **NOT deployed to prod** (manual deploy was
-classifier-blocked mid-optimization; still owed a deploy). Build-opti tooling
-commits also on `main`. **`swahili-coast` is built + ship-check-CLEAR on
-`feat/the-17`, NOT merged to main, NOT deployed — gated on user's word.**
+**Git:** `origin/main` @ `5be78b6`. `swahili-coast` is **built, ship-check
+CLEAR, merged to main, repo self-contained** (curated link files force-added
+past the `content/` gitignore; 8 stray `.draft-sc-*` temp files removed). iOS
+swipe fix also committed (`25706b7`). **Nothing is on prod yet** —
+`stuffhappened.com/swahili-coast/` = 404; prod still serves prior content
+healthily (home/emep 200). The ONLY remaining step is the production deploy,
+which must be run from the **user's own terminal** (the full build is too long
+for the chat `!` runner and this session's `tsx` toolchain is environment-
+broken): `cd /Users/mberning/projects/personal/timeline-v2 && git pull &&
+rm -rf out && npm run build 2>&1 | tee /tmp/deploy.log && npx wrangler deploy`.
+
+**Deploy-tail lesson (cost ~3h of false leads — durable):** `content/` is
+gitignored. Every per-civ curated file (`.event-links/.glossary-links/
+.cross-links/.link-waivers/.link-snapshots-<tl>.json`) MUST be `git add -f`'d
+or it silently never reaches main and the density/coverage gates see the civ
+as 0-events. And NEVER `git add -A` during a build — it sweeps the parallel
+writers' `.draft-sc-*.md` / `.fix-sc-*.md` scratch files into the commit,
+which then lint as phantom 0-event civs and abort the build. Both bit this
+build; both fixed in `5be78b6`. The repeated "exit 194, no output" was the
+build aborting at the density gate, NOT a tsx/sandbox failure — verified.
 
 **Done & durable:**
 - **Word-finder** — `scripts/link-coverage.ts` S7 rare-word signal: a
