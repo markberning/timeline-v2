@@ -77,8 +77,14 @@ check('fix-links --strict (born-verified)', () => { sh('node', ['scripts/fix-lin
 // 4. Density in band (G1) — new civs are not grandfathered.
 check('lint-density --strict', () => { sh('npx', ['tsx', 'scripts/lint-density.ts', `--tl=${tlId}`, '--strict']); return '10–15/ch' })
 
-// 5. Link coverage triaged (G3) — bolded-unlinked must be linked or waived.
-check('link-coverage --strict', () => { sh('npx', ['tsx', 'scripts/link-coverage.ts', `--tl=${tlId}`, '--strict']); return 'all bolded terms triaged' })
+// 5. Link coverage triaged (G3) — multi-signal under-linking detector.
+// Flags named people/places/jargon introduced in prose but linked nowhere
+// (pronunciation gloss · foreign-term gloss · corpus cross-reference ·
+// inline-definition · recurrence · bold). Legacy 102 grandfathered per
+// (civ,chapter,term) in audits/link-coverage-baseline.json; a GATE hit NOT in
+// the baseline fails — so new civs are zero-tolerance and new gaps in old
+// civs block. Triage each: link it, or waive in .link-waivers-<tl>.json.
+check('link-coverage --strict', () => { sh('npx', ['tsx', 'scripts/link-coverage.ts', `--tl=${tlId}`, '--strict']); return 'no new uncovered terms' })
 
 // 6. Chapter flow (G6) — no Persona-D WEAK/REWRITE, no "no" build dependency.
 check('audit: no WEAK/REWRITE, no broken build-dependency', () => {
