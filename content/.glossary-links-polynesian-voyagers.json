@@ -227,7 +227,7 @@
     {
       "term": "mana",
       "matchText": "mana",
-      "wikiSlug": "Mana",
+      "wikiSlug": "Mana_(Oceanic_cultures)",
       "type": "concept"
     },
     {
@@ -323,7 +323,7 @@
     {
       "term": "matai",
       "matchText": "matai",
-      "wikiSlug": "Matai",
+      "wikiSlug": "Faʻamatai",
       "type": "concept"
     },
     {
@@ -623,8 +623,9 @@
     {
       "term": "langi",
       "matchText": "langi",
-      "wikiSlug": "Langi",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A langi is a Tongan royal tomb: a flat-topped pyramid of huge cut and fitted stone slabs, built for the Tuʻi Tonga sacred kings. The grandest cluster of them, at Lapaha in Muʻa, is the biggest stone monument-building in Polynesia outside Easter Island."
     },
     {
       "term": "Ha'amonga 'a Maui",
@@ -671,7 +672,7 @@
     {
       "term": "matai",
       "matchText": "matai",
-      "wikiSlug": "Matai",
+      "wikiSlug": "Faʻamatai",
       "type": "concept"
     },
     {
@@ -749,8 +750,9 @@
     {
       "term": "Verata",
       "matchText": "Verata",
-      "wikiSlug": "Verata",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "Verata was one of the oldest and most powerful chiefly confederacies of pre-colonial Fiji, on the east coast of Viti Levu. For centuries it was the power rival Fijian chiefdoms had to reckon with, before later states like Bau eclipsed it."
     },
     {
       "term": "Tongan-Samoan wars",
@@ -927,8 +929,9 @@
     {
       "term": "ahu",
       "matchText": "ahu",
-      "wikiSlug": "Ahu",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "An ahu is a stone ceremonial platform on Easter Island that worked as an altar and burial place — and as the pedestal the giant moai statues stood on, facing inland to watch over the living."
     },
     {
       "term": "Ahu Tongariki",
@@ -1113,7 +1116,7 @@
     {
       "term": "Kapu",
       "matchText": "kapu",
-      "wikiSlug": "Kapu",
+      "wikiSlug": "Kapu_(Hawaiian_culture)",
       "type": "concept"
     }
   ],

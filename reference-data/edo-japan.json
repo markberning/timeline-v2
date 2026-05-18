@@ -60,7 +60,9 @@
       "description": "Tokugawa Ieyasu defeated the western coalition under Ishida Mitsunari at Sekigahara on October 21, 1600, ending decades of civil war and opening the path to the Tokugawa shogunate.",
       "wikiSlug": "Battle_of_Sekigahara",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "wars"
     },
     {
@@ -70,7 +72,9 @@
       "description": "The death of Hideyoshi, the unifier of Japan, left a five-year-old heir and a council of regents that fractured into the eastern and western coalitions that fought at Sekigahara.",
       "wikiSlug": "Toyotomi_Hideyoshi",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -92,7 +96,9 @@
       "description": "Tokugawa Ieyasu was appointed shogun by the emperor in 1603, founding a dynasty that would rule Japan for 265 years. He chose the small fishing village of Edo as his capital.",
       "wikiSlug": "Tokugawa_Ieyasu",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -163,7 +169,6 @@
       "label": "One Castle Per Province Edict",
       "year": 1615,
       "description": "Ieyasu's 1615 edict required daimyo to demolish all but one castle per province, breaking the military infrastructure of potential rivals and ending the era of castle warfare.",
-      "wikiSlug": "Ikkoku_ichij%C5%8D_rei",
       "tier": 3,
       "tags": [],
       "category": "wars"
@@ -185,7 +190,9 @@
       "description": "The lavishly decorated shrine built to enshrine Tokugawa Ieyasu as the deity Tōshō Daigongen became one of Japan's most ornate religious complexes and the cult center of the dynasty.",
       "wikiSlug": "Nikkō_Tōshō-gū",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -223,9 +230,10 @@
       "label": "Christianity Banned",
       "year": 1614,
       "description": "Ieyasu's 1614 edict ordered the expulsion of all Christian missionaries and the suppression of the faith — by the 1630s an estimated 300,000 Japanese Christians had been killed, exiled, or forced to apostatize.",
-      "wikiSlug": "Anti-Christian_edicts_in_Japan",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -246,7 +254,9 @@
       "description": "A revolt by Christian converts and oppressed peasants on the Shimabara Peninsula was crushed at Hara Castle in April 1638, with roughly 37,000 rebels and their families killed and Christianity effectively eradicated as a public faith.",
       "wikiSlug": "Shimabara_Rebellion",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "wars"
     },
     {
@@ -256,7 +266,9 @@
       "description": "The teenage charismatic leader of the Shimabara rebels, said to perform miracles, was beheaded after the fall of Hara Castle and his head displayed at Nagasaki as a warning.",
       "wikiSlug": "Amakusa_Shir%C5%8D",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -347,7 +359,9 @@
       "description": "The fifth shogun, known as the Dog Shogun for his eccentric edicts protecting animals, presided over the Genroku cultural flowering and the bakufu's first major fiscal crisis.",
       "wikiSlug": "Tokugawa_Tsunayoshi",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -355,7 +369,7 @@
       "label": "Edicts of Compassion for Living Beings",
       "year": 1687,
       "description": "Tsunayoshi's animal-protection edicts criminalized harming dogs (and many other creatures), built dog kennels housing 50,000 strays at public expense, and made the shogun a national joke.",
-      "wikiSlug": "Tsunayoshi%27s_animal_protection_edicts",
+      "wikiSlug": "Shōrui_Awaremi_no_Rei",
       "tier": 3,
       "tags": [],
       "category": "rulers"
@@ -398,7 +412,9 @@
       "description": "Matsuo Bashō walked over 1,500 miles through northern Japan and produced Oku no Hosomichi (Narrow Road to the Deep North), elevating haiku from comic verse to a serious literary art form.",
       "wikiSlug": "Matsuo_Bashō",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -408,7 +424,9 @@
       "description": "The Osaka merchant-poet's ukiyo-zōshi novels — The Life of an Amorous Man (1682), The Life of an Amorous Woman, Five Women Who Loved Love — invented Japanese realist popular fiction.",
       "wikiSlug": "Ihara_Saikaku",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -418,7 +436,9 @@
       "description": "Japan's greatest playwright wrote The Love Suicides at Sonezaki and dozens of other bunraku puppet plays, pioneering realistic domestic drama for the merchant class.",
       "wikiSlug": "Chikamatsu_Monzaemon",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -448,7 +468,9 @@
       "description": "The pioneer of single-sheet ukiyo-e prints established the woodblock-print industry that would dominate Edo popular visual culture for the next two hundred years.",
       "wikiSlug": "Hishikawa_Moronobu",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -478,7 +500,9 @@
       "description": "Seki Takakazu independently developed determinants, infinite series, and concepts equivalent to integral calculus, establishing wasan (Japanese mathematics) as a sophisticated tradition working in parallel with European mathematics.",
       "wikiSlug": "Seki_Takakazu",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -520,7 +544,9 @@
       "description": "The eighth shogun, called the Rice Shogun, enacted the Kyōhō Reforms, relaxed the ban on Western books in 1720, and is generally considered the most capable Tokugawa ruler after Ieyasu.",
       "wikiSlug": "Tokugawa_Yoshimune",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -558,9 +584,11 @@
       "label": "Aoki Konyō",
       "year": 1745,
       "description": "Yoshimune's appointed Dutch-learning specialist studied Dutch language and promoted sweet potato cultivation as a famine crop, helping launch the rangaku tradition.",
-      "wikiSlug": "Aoki_Kon%27y%C5%8D",
+      "wikiSlug": "Aoki_Konyō",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -570,7 +598,9 @@
       "description": "Sugita Genpaku and Maeno Ryōtaku translated the Dutch Tafel Anatomia as Kaitai Shinsho after attending an autopsy in 1771 — the document that demonstrated decisively that Western anatomy was correct and Chinese medical theory was not.",
       "wikiSlug": "Sugita_Genpaku",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -580,7 +610,9 @@
       "description": "The polymath inventor built Japan's first electrostatic generator (the elekiteru), wrote satirical novels and kabuki plays, painted in oil, and ended his life in prison after killing a colleague in a fit of rage.",
       "wikiSlug": "Hiraga_Gennai",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -591,7 +623,9 @@
       "description": "Starting at age fifty-five, Inō Tadataka surveyed the entire Japanese coastline on foot over seventeen years, producing maps so accurate that the British Navy still used them in the 1860s.",
       "wikiSlug": "In%C5%8D_Tadataka",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -611,7 +645,9 @@
       "description": "The greatest kokugaku scholar spent thirty-five years on a colossal commentary on the Kojiki, completed in 1798, that argued for the primacy of native Japanese spirituality over Confucianism and Buddhism — and laid intellectual groundwork later mobilized by the Meiji Restoration.",
       "wikiSlug": "Motoori_Norinaga",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -651,7 +687,7 @@
       "label": "Kansei Reforms",
       "year": 1787,
       "description": "Matsudaira Sadanobu reversed Tanuma's policies with strict moral austerity, debt cancellation for samurai, Neo-Confucian orthodoxy, and censorship of heterodox ideas.",
-      "wikiSlug": "Kansei_Reforms",
+      "wikiSlug": "Matsudaira_Sadanobu",
       "tier": 3,
       "tags": [],
       "category": "rulers"
@@ -663,7 +699,9 @@
       "description": "The greatest master of bijin-ga (pictures of beautiful women) produced ukiyo-e prints of Yoshiwara courtesans whose half-length close-up compositions transformed the genre.",
       "wikiSlug": "Kitagawa_Utamaro",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -673,7 +711,9 @@
       "description": "An almost completely unknown artist produced 145 startlingly expressive kabuki actor portraits in ten months in 1794-95, then disappeared from history — one of art's great vanishing acts.",
       "wikiSlug": "T%C5%8Dsh%C5%ABsai_Sharaku",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -683,7 +723,9 @@
       "description": "Katsushika Hokusai published Thirty-six Views of Mount Fuji, including The Great Wave off Kanagawa, one of the most reproduced images in world art and the print that decisively shaped European Japonisme.",
       "wikiSlug": "Katsushika_Hokusai",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -714,7 +756,9 @@
       "description": "The former bakufu police official and Wang Yangming Confucian led a one-day armed uprising in Osaka against grain hoarders during the Tenpō famine, shocking the shogunate by exposing dissent inside its own ranks.",
       "wikiSlug": "%C5%8Cshio_Heihachir%C5%8D",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "wars"
     },
     {
@@ -824,7 +868,6 @@
       "year": 1864,
       "endYear": 1866,
       "description": "The shogunate's two military campaigns against the rebellious Chōshū domain — the second a humiliating failure in 1866 — exposed the bakufu's military obsolescence and accelerated its collapse.",
-      "wikiSlug": "Chōshū_expeditions",
       "tier": 3,
       "tags": [],
       "category": "wars"
@@ -846,7 +889,9 @@
       "description": "The Tosa rōnin who brokered the Satsuma-Chōshū alliance and drafted an eight-point plan for a constitutional monarchy was assassinated in Kyoto in late 1867, becoming a foundational hero of modern Japan.",
       "wikiSlug": "Sakamoto_Ry%C5%8Dma",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -856,7 +901,9 @@
       "description": "The fifteenth and last Tokugawa shogun resigned his office in November 1867 in the Taisei Hōkan, formally returning political authority to the emperor in a peaceful surrender that he hoped would preserve a Tokugawa role in the new government.",
       "wikiSlug": "Tokugawa_Yoshinobu",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {

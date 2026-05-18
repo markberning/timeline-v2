@@ -85,7 +85,7 @@
     {
       "id": "evt-samudragupta-campaigns",
       "label": "Samudragupta's Southern Campaign",
-      "year": 344.0,
+      "year": 344,
       "description": "Samudragupta led a sweeping military campaign through southern India, defeating twelve kings and extending Gupta influence to the Deccan.",
       "wikiSlug": "Samudragupta#Military_campaigns",
       "tier": 2,
@@ -201,7 +201,7 @@
     {
       "id": "evt-surya-siddhanta",
       "label": "Surya Siddhanta",
-      "year": 391.0,
+      "year": 391,
       "description": "The Surya Siddhanta astronomical treatise was composed, calculating planetary motions, eclipses, and the sidereal year with remarkable accuracy.",
       "wikiSlug": "Surya_Siddhanta",
       "tier": 3,
@@ -221,7 +221,7 @@
     {
       "id": "evt-kalidasa",
       "label": "Kalidasa, Greatest Sanskrit Poet",
-      "year": 394.0,
+      "year": 394,
       "description": "Kalidasa composed masterworks including Shakuntala and Meghaduta, earning recognition as the greatest poet in the Sanskrit language.",
       "wikiSlug": "Kalidasa",
       "tier": 1,
@@ -231,7 +231,7 @@
     {
       "id": "evt-shakuntala",
       "label": "Abhijnanasakuntalam",
-      "year": 397.0,
+      "year": 397,
       "description": "Kalidasa's play Shakuntala became the most celebrated work of Sanskrit drama, later translated by William Jones and influencing European Romanticism.",
       "wikiSlug": "Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam",
       "tier": 2,
@@ -241,7 +241,7 @@
     {
       "id": "evt-ramayana-mahabharata-finalized",
       "label": "Epics Take Final Form",
-      "year": 347.0,
+      "year": 347,
       "description": "The Ramayana and Mahabharata reached their final written forms during the Gupta period, becoming the foundational texts of Hindu culture.",
       "wikiSlug": "Indian_epic_poetry",
       "tier": 2,
@@ -313,7 +313,6 @@
       "label": "Gupta Gold Coinage",
       "year": 335,
       "description": "The Guptas issued exquisitely crafted gold coins (dinars) depicting rulers in various poses, reflecting imperial wealth and artistic sophistication.",
-      "wikiSlug": "Coinage_of_the_Gupta_Empire",
       "tier": 2,
       "tags": [],
       "category": "trade"
@@ -331,7 +330,7 @@
     {
       "id": "evt-maritime-trade",
       "label": "Maritime Trade Flourishes",
-      "year": 403.0,
+      "year": 403,
       "description": "Gupta-era ports like Tamralipti and Bharuch connected India to Southeast Asia, China, and the Roman world through thriving maritime commerce.",
       "wikiSlug": "Indian_Ocean_trade",
       "tier": 3,
@@ -371,7 +370,7 @@
     {
       "id": "evt-yoga-sutras-commentary",
       "label": "Vyasa's Yoga Commentary",
-      "year": 406.0,
+      "year": 406,
       "description": "Vyasa composed the earliest surviving commentary on Patanjali's Yoga Sutras during the Gupta period, systematizing yoga philosophy.",
       "wikiSlug": "Yoga_Sutras_of_Patanjali",
       "tier": 3,
@@ -391,7 +390,7 @@
     {
       "id": "evt-sanskrit-flourishes",
       "label": "Sanskrit as Court Language",
-      "year": 353.0,
+      "year": 353,
       "description": "Sanskrit became the preeminent language of administration, literature, and scholarship under the Guptas, spreading across South and Southeast Asia.",
       "wikiSlug": "Sanskrit#Classical_Sanskrit",
       "tier": 3,
@@ -401,7 +400,7 @@
     {
       "id": "evt-sushruta-samhita",
       "label": "Sushruta Samhita Redacted",
-      "year": 409.0,
+      "year": 409,
       "description": "The ancient surgical text Sushruta Samhita was redacted during the Gupta period, describing procedures including rhinoplasty and cataract surgery.",
       "wikiSlug": "Sushruta_Samhita",
       "tier": 3,
@@ -441,7 +440,7 @@
     {
       "id": "evt-vatsyayana",
       "label": "Vatsyayana's Kama Sutra",
-      "year": 356.0,
+      "year": 356,
       "description": "Vatsyayana composed the Kama Sutra, a systematic treatise on human desire and social conduct that became one of India's most famous texts.",
       "wikiSlug": "Kama_Sutra",
       "tier": 3,
@@ -1067,7 +1066,7 @@
       "label": "Ghatotkacha, Gupta Dynastic Link",
       "year": 280,
       "description": "Ghatotkacha — son of Sri Gupta and father of Chandragupta I — is the obscure middle link in the Gupta founding lineage. Named after the half-demon giant of the Mahabharata, he ruled a small Magadha territory but left no surviving inscriptions or coins; his significance is genealogical, bridging the dynasty's shadowy origins to its imperial launch under his son.",
-      "wikiSlug": "Ghatotkacha_(Gupta_king)",
+      "wikiSlug": "Ghatotkacha_(king)",
       "tier": 3,
       "tags": [],
       "category": "rulers"
@@ -1077,9 +1076,11 @@
       "label": "Kumaradevi, the Lichchhavi Queen",
       "year": 320,
       "description": "Kumaradevi, princess of the prestigious Lichchhavi confederation, married Chandragupta I and gave the young Gupta dynasty its crucial legitimacy boost. She is depicted alongside her husband on the famous Chandragupta I–Kumaradevi gold coins — the first Indian coins to show a queen as co-equal partner — with the reverse legend 'Lichchhavayah' advertising her family's ancient pedigree.",
-      "wikiSlug": "Kumaradevi_(Gupta_queen)",
+      "wikiSlug": "Kumaradevi",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1089,7 +1090,9 @@
       "description": "Dhruvadevi was queen first to Ramagupta and then, after Chandragupta II seized the throne, to Chandragupta II himself — a levirate remarriage attested in Gupta inscriptions. Vishakhadatta's play Devichandraguptam dramatized the succession, depicting Dhruvadevi as central to the coup that displaced Ramagupta. She later appears in epigraphy as queen-mother of Kumaragupta I.",
       "wikiSlug": "Dhruvadevi",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1119,7 +1122,9 @@
       "description": "Kalidasa's mahakavya Kumarasambhava — 'The Birth of the War-God' — depicts the courtship of Shiva and Parvati, the destruction of the love-god Kama when he interrupts Shiva's meditation, and the eventual conception of their son Kartikeya. Its erotic and theological range made it one of the most celebrated and controversial Sanskrit court epics, containing some of the most explicitly sensuous passages in the canon.",
       "wikiSlug": "Kum%C4%81rasambhava",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -1159,9 +1164,11 @@
       "label": "Bhitari Pillar Inscription of Skandagupta",
       "year": 458,
       "description": "Skandagupta's victory pillar at Bhitari in modern Uttar Pradesh is the primary epigraphic source for his contested succession and his wars against the Huns. Its famous passage — 'From whom the earth shook, when their armies clashed; whose battle had to be fought hand to hand; in which the splash of blood fell like rain' — is the most vivid battle description in any Gupta inscription and the chief evidence for the scale and ferocity of the Hephthalite invasion Skandagupta repelled.",
-      "wikiSlug": "Bhitari_pillar_inscription",
+      "wikiSlug": "Bhitari_pillar_inscription_of_Skandagupta",
       "tier": 2,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "writing"
     }
   ]

@@ -64,7 +64,9 @@
       "description": "Zoskales is the earliest named Aksumite ruler, described in the Periplus as 'miserly but otherwise a fine man' who was literate in Greek.",
       "wikiSlug": "Zoskales",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -121,7 +123,7 @@
     {
       "id": "evt-aksum-stelae-field",
       "label": "Aksumite stelae erected",
-      "year": 194.0,
+      "year": 194,
       "description": "The Aksumites carved enormous granite stelae, some over 20 meters tall, as funerary monuments for royalty. They are among the largest monoliths ever carved.",
       "wikiSlug": "Obelisk_of_Axum",
       "tier": 1,
@@ -131,7 +133,7 @@
     {
       "id": "evt-aksum-india-trade",
       "label": "Indian Ocean trade connections",
-      "year": 197.0,
+      "year": 197,
       "description": "Aksumite merchants traded across the Indian Ocean, exchanging African goods for Indian spices, Chinese silk, and Southeast Asian aromatics.",
       "wikiSlug": "Indian_Ocean_trade",
       "tier": 3,
@@ -151,9 +153,9 @@
     {
       "id": "evt-aksum-incense-trade",
       "label": "Frankincense and myrrh trade",
-      "year": 203.0,
+      "year": 203,
       "description": "Aksum profited enormously from the trade in frankincense and myrrh from the Horn of Africa, prized across the ancient world for religious rituals and medicine.",
-      "wikiSlug": "Frankincense_trade_route",
+      "wikiSlug": "Incense_trade_route",
       "tier": 3,
       "tags": [],
       "category": "trade"
@@ -161,7 +163,7 @@
     {
       "id": "evt-aksum-wa-za-eba",
       "label": "King Wa'za'eba",
-      "year": 206.0,
+      "year": 206,
       "endYear": 230,
       "description": "Wa'za'eba was among the earliest documented Aksumite kings, known from coin inscriptions. His reign reflects Aksum's growing political sophistication.",
       "wikiSlug": "Kingdom_of_Aksum",
@@ -343,7 +345,9 @@
       "description": "After Ezana's conversion, Aksumite coins replaced the pagan disc-and-crescent symbol with the Christian cross — the first coinage in world history to bear the cross.",
       "wikiSlug": "Aksumite_currency",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "trade"
     },
     {
@@ -365,7 +369,9 @@
       "description": "Ezana launched military campaigns against the Beja people in the northern lowlands, securing Aksum's control over trade routes between the Nile Valley and the Red Sea coast.",
       "wikiSlug": "Ezana_of_Axum",
       "tier": 3,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "wars"
     },
     {
@@ -385,7 +391,7 @@
       "label": "Ezana Stone inscribed",
       "year": 350,
       "description": "The Ezana Stone records Ezana's military victories in Geez, Greek, and Sabaean, comparable to the Rosetta Stone in its trilingual importance for understanding Aksumite history.",
-      "wikiSlug": "Stone_of_Ezana",
+      "wikiSlug": "Ezana_Stone",
       "tier": 2,
       "tags": [],
       "category": "writing"
@@ -408,7 +414,9 @@
       "description": "The Patriarch Athanasius of Alexandria wrote to the Aksumite kings Ezana and Saizana urging them to reject the Arian bishop Theophilus, revealing Aksum's integration into early Christian theological disputes.",
       "wikiSlug": "Athanasius_of_Alexandria",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -498,7 +506,9 @@
       "description": "Abba Aregawi, one of the Nine Saints, founded Debre Damo monastery atop a flat-topped mountain accessible only by rope, making it one of Ethiopia's oldest and most inaccessible monasteries.",
       "wikiSlug": "Debre_Damo",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -572,7 +582,7 @@
       "label": "Aksumite conquest of Yemen",
       "year": 525,
       "description": "Kaleb's forces crossed the Red Sea and conquered the Himyarite Kingdom after its Jewish king Dhu Nuwas massacred Christians at Najran.",
-      "wikiSlug": "Aksumite%E2%80%93Himyarite_wars",
+      "wikiSlug": "Himyar",
       "tier": 2,
       "tags": [],
       "category": "wars"
@@ -596,7 +606,9 @@
       "description": "Abraha, an Aksumite general, overthrew the Aksumite-appointed governor and ruled Yemen independently while nominally acknowledging Aksumite sovereignty. He built the Cathedral of Sanaa and reportedly marched on Mecca.",
       "wikiSlug": "Abraha",
       "tier": 2,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "people"
     },
     {
@@ -606,7 +618,9 @@
       "description": "King Kaleb reportedly abdicated the throne and retired to a monastery, sending his crown to the Church of the Holy Sepulchre in Jerusalem as an act of Christian devotion.",
       "wikiSlug": "Kaleb_of_Axum",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -625,7 +639,7 @@
       "label": "Persians expel Aksumites from Yemen",
       "year": 570,
       "description": "The Sasanian Persians conquered Yemen, permanently ending Aksumite presence in Arabia and eliminating a key source of revenue and strategic influence.",
-      "wikiSlug": "Sasanian_conquest_of_Yemen",
+      "wikiSlug": "Sasanian_Yemen",
       "tier": 2,
       "tags": [],
       "category": "wars"
@@ -637,7 +651,9 @@
       "description": "Emperor Justinian I forged a military and trade alliance with Aksum, recognizing Kaleb as an equal Christian monarch and coordinating against their shared Sasanian rival.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "wars"
     },
     {
@@ -677,7 +693,9 @@
       "description": "Prophet Muhammad sent a group of persecuted early Muslims to seek refuge with the Aksumite king (Najashi), who granted them protection. This established a tradition of mutual respect between Aksum and early Islam.",
       "wikiSlug": "Migration_to_Abyssinia",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -707,7 +725,9 @@
       "description": "Arab forces sacked the port of Adulis, severing Aksum's access to the Red Sea and ending centuries of maritime trade that had been the kingdom's economic lifeline.",
       "wikiSlug": "Adulis",
       "tier": 2,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "wars"
     },
     {

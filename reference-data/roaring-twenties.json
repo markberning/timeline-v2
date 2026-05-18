@@ -140,11 +140,13 @@
     {
       "id": "evt-rt-wilson-fourteen-points",
       "label": "Wilson's Fourteen Points & Versailles",
-      "year": 1919.0,
+      "year": 1919,
       "description": "President Woodrow Wilson went to Paris to build a League of Nations on his Fourteen Points. The 1919 Treaty of Versailles included the League, but the U.S. Senate rejected the treaty in 1919–20, and America never joined.",
       "wikiSlug": "Fourteen_Points",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -181,7 +183,9 @@
       "description": "Boston's police struck for the right to unionize in September 1919, and looting followed. Massachusetts Governor Calvin Coolidge broke the strike and declared 'there is no right to strike against the public safety,' a single sentence that made him a national figure.",
       "wikiSlug": "Boston_police_strike",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -223,11 +227,13 @@
     {
       "id": "evt-rt-palmer-raids",
       "label": "The Palmer Raids",
-      "year": 1920.0,
+      "year": 1920,
       "description": "Attorney General A. Mitchell Palmer and his young aide J. Edgar Hoover arrested as many as 6,000 suspected radicals in raids across the country in late 1919 and January 1920, mostly without warrants. Hundreds of immigrants were deported.",
       "wikiSlug": "Palmer_Raids",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -255,7 +261,9 @@
       "description": "Two Italian immigrant anarchists, Nicola Sacco and Bartolomeo Vanzetti, were arrested in May 1920 for a payroll robbery and murder in Massachusetts. Their trial became the era's defining test of whether radicals and immigrants could get a fair hearing.",
       "wikiSlug": "Sacco_and_Vanzetti",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -283,7 +291,9 @@
       "description": "Carrie Chapman Catt founded the League of Women Voters in 1920 to turn newly enfranchised women into informed voters. The militant suffragist Alice Paul instead drafted the first Equal Rights Amendment, introduced in 1923.",
       "wikiSlug": "League_of_Women_Voters",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -302,7 +312,9 @@
       "description": "Ohio senator Warren G. Harding won the 1920 election in the largest popular-vote landslide to that point, promising 'not heroics but healing, not nostrums but normalcy.' It was the first presidential election in which women could vote nationwide.",
       "wikiSlug": "1920_United_States_presidential_election",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -344,7 +356,7 @@
     {
       "id": "evt-rt-great-migration",
       "label": "The Great Migration",
-      "year": 1920.0,
+      "year": 1920,
       "description": "Between roughly 1916 and 1930 more than 1.5 million Black Americans left the rural South for Northern and Midwestern cities, fleeing Jim Crow and lynching and drawn by wartime factory jobs. It remade Chicago, Detroit, New York, and the politics of all three.",
       "wikiSlug": "Great_Migration_(African_American)",
       "tier": 1,
@@ -353,7 +365,7 @@
     {
       "id": "evt-rt-second-klan-rise",
       "label": "Rebirth of the Ku Klux Klan",
-      "year": 1921.0,
+      "year": 1921,
       "description": "Refounded at Stone Mountain, Georgia, in 1915 and turned into a mass organization by professional fundraisers, the second Klan was anti-Black, anti-Catholic, anti-Jewish, and anti-immigrant, and national in reach. Membership exploded after 1920.",
       "wikiSlug": "Ku_Klux_Klan",
       "tier": 1,
@@ -375,7 +387,9 @@
       "description": "Marcus Garvey's Universal Negro Improvement Association built the largest Black mass movement in American history, preaching racial pride, economic self-help, and a return to Africa. Its 1920 New York convention drew 25,000 delegates.",
       "wikiSlug": "Marcus_Garvey",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -385,7 +399,9 @@
       "description": "Treasury Secretary Andrew Mellon, one of the richest men in America, began cutting wartime tax rates with the Revenue Act of 1921. Over the decade the top income-tax rate fell from 73 percent to 24 percent, on the theory that lower rates would unleash investment.",
       "wikiSlug": "Andrew_Mellon",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -431,13 +447,15 @@
       "description": "Interior Secretary Albert Fall secretly leased the Navy's Teapot Dome and Elk Hills oil reserves to private oilmen in exchange for about $400,000 in bribes. Exposed by a Senate investigation, it was the worst federal corruption scandal before Watergate.",
       "wikiSlug": "Teapot_Dome_scandal",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
       "id": "evt-rt-ohio-gang",
       "label": "The Ohio Gang",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Harding's circle of poker-playing Ohio cronies sold pardons, paroles, liquor permits, and government contracts. The Justice Department, the Veterans' Bureau, and the Alien Property office were all looted; one investigator estimated the fraud at $200 million.",
       "wikiSlug": "Ohio_Gang",
       "tier": 2,
@@ -450,7 +468,9 @@
       "description": "Charles Forbes, head of the Veterans' Bureau, embezzled or wasted an estimated $200 million meant for disabled World War veterans through kickbacks on hospital construction and supplies. He was convicted and imprisoned.",
       "wikiSlug": "Charles_R._Forbes",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -460,7 +480,9 @@
       "description": "Alice Paul drafted the Equal Rights Amendment and had it introduced in Congress in 1923. It split the women's movement — labor feminists feared it would void protective laws for women workers — and went nowhere for half a century.",
       "wikiSlug": "Equal_Rights_Amendment",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -470,7 +492,9 @@
       "description": "Henry Luce and Briton Hadden launched Time in March 1923 as a weekly news digest for the busy modern reader. It pioneered a brisk, opinionated national news style and built one of the great twentieth-century media empires.",
       "wikiSlug": "Time_(magazine)",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -480,7 +504,9 @@
       "description": "Harding died suddenly in San Francisco on August 2, 1923, probably of a heart attack, as the scandals were closing in. He was mourned as a beloved president; the looting of his administration surfaced over the following two years.",
       "wikiSlug": "Warren_G._Harding",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -490,7 +516,9 @@
       "description": "Vice President Calvin Coolidge was visiting his father's farm in Plymouth Notch, Vermont, with no electricity when word of Harding's death arrived. His father, a notary, administered the oath by kerosene lamp at 2:47 a.m. on August 3, 1923.",
       "wikiSlug": "Calvin_Coolidge",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -500,7 +528,9 @@
       "description": "American banker Charles Dawes engineered a 1924 plan to reschedule German war reparations and pump U.S. loans into Germany, which paid reparations to Britain and France, which repaid war debts to the U.S. The circular flow held until 1929.",
       "wikiSlug": "Dawes_Plan",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -528,7 +558,9 @@
       "description": "Running on 'Keep Cool with Coolidge' and a booming economy, Calvin Coolidge won the 1924 election easily. Robert La Follette's Progressive third-party run drew nearly five million votes but carried only Wisconsin.",
       "wikiSlug": "1924_United_States_presidential_election",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -547,7 +579,9 @@
       "description": "D.C. Stephenson, the Klan boss who controlled Indiana politics, was convicted of second-degree murder in November 1925 after the death of a woman he had abducted and assaulted. The conviction and his exposure of Klan bribery shattered the movement; membership collapsed within two years.",
       "wikiSlug": "D._C._Stephenson",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -557,7 +591,9 @@
       "description": "In July 1925, biology teacher John Scopes was tried in Dayton, Tennessee, for teaching evolution in violation of state law. The clash between Clarence Darrow and William Jennings Bryan, carried live on radio, became the decade's set-piece on fundamentalism versus modernism.",
       "wikiSlug": "Scopes_trial",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -567,23 +603,27 @@
       "description": "William Jennings Bryan, three-time presidential candidate and the prosecution's star at Scopes, died in his sleep in Dayton five days after the trial ended. His death was widely read as the end of an era of agrarian Protestant populism.",
       "wikiSlug": "William_Jennings_Bryan",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
       "id": "evt-rt-aimee-mcpherson",
       "label": "Aimee Semple McPherson's Angelus Temple",
-      "year": 1923.0,
+      "year": 1923,
       "description": "Evangelist Aimee Semple McPherson opened the 5,300-seat Angelus Temple in Los Angeles in 1923 and built one of the first religious broadcasting empires on her own radio station. Her 1926 disappearance and reappearance became a national tabloid sensation.",
       "wikiSlug": "Aimee_Semple_McPherson",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
       "id": "evt-rt-fundamentals",
       "label": "The fundamentalist–modernist controversy",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Conservative Protestants who affirmed 'the fundamentals' — biblical inerrancy, the virgin birth, the literal resurrection — split with modernizers who reconciled faith with science. The fight, named for a 1910s tract series, divided major denominations through the decade.",
       "wikiSlug": "Fundamentalist–Modernist_controversy",
       "tier": 2,
@@ -592,7 +632,7 @@
     {
       "id": "evt-rt-ford-model-t-peak",
       "label": "The Model T conquers America",
-      "year": 1923.0,
+      "year": 1923,
       "description": "By the mid-1920s Ford's Model T cost under $300, and a moving assembly line built one every 24 seconds. More than 15 million were made by 1927; by then over half the cars on earth were Model Ts, and most American families owned a car.",
       "wikiSlug": "Ford_Model_T",
       "tier": 1,
@@ -601,20 +641,21 @@
     {
       "id": "evt-rt-ford-five-dollar-day",
       "label": "The legacy of the five-dollar day",
-      "year": 1921.0,
+      "year": 1921,
       "description": "Ford's 1914 five-dollar day and moving assembly line had shown that paying workers enough to buy what they built was a business strategy. By the twenties, mass production plus mass purchasing power was the model the whole economy ran on.",
-      "wikiSlug": "Five-dollar_day",
       "tier": 2,
       "category": "trade"
     },
     {
       "id": "evt-rt-general-motors-sloan",
       "label": "Alfred Sloan reorganizes General Motors",
-      "year": 1923.0,
+      "year": 1923,
       "description": "Alfred Sloan took over General Motors and built 'a car for every purse and purpose,' annual model changes, and installment credit through GMAC. By 1927 GM's marketing-driven model overtook Ford's single cheap car.",
       "wikiSlug": "Alfred_P._Sloan",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -647,7 +688,7 @@
     {
       "id": "evt-rt-suburbs",
       "label": "The first car suburbs",
-      "year": 1925.0,
+      "year": 1925,
       "description": "Cheap cars and paved roads let the middle class live miles from work for the first time. Developments like Beverly Hills and the Country Club District of Kansas City pioneered the planned, zoned, car-dependent suburb that defined later American growth.",
       "wikiSlug": "Streetcar_suburb",
       "tier": 3,
@@ -656,7 +697,7 @@
     {
       "id": "evt-rt-electrification",
       "label": "The electrified home",
-      "year": 1925.0,
+      "year": 1925,
       "description": "By the late twenties nearly two-thirds of American homes had electricity, up from a small minority in 1918, though most farms still had none. Electric light, the refrigerator, the washing machine, and the vacuum cleaner remade domestic life.",
       "wikiSlug": "Electrification",
       "tier": 2,
@@ -665,7 +706,7 @@
     {
       "id": "evt-rt-consumer-credit",
       "label": "The installment-credit economy",
-      "year": 1924.0,
+      "year": 1924,
       "description": "'Buy now, pay later' went mainstream in the twenties: by 1927 roughly 15 percent of all retail and the majority of car, radio, and appliance sales were on installment plans. Consumer debt became a structural feature of the American economy for the first time.",
       "wikiSlug": "Installment_loan",
       "tier": 1,
@@ -674,7 +715,7 @@
     {
       "id": "evt-rt-advertising-industry",
       "label": "The modern advertising industry",
-      "year": 1923.0,
+      "year": 1923,
       "description": "Madison Avenue agencies industrialized desire, selling not products but status, romance, and fear of inadequacy. Bruce Barton's 1925 bestseller The Man Nobody Knows recast Jesus as the founder of modern business — advertising as the decade's true religion.",
       "wikiSlug": "History_of_advertising",
       "tier": 2,
@@ -683,7 +724,7 @@
     {
       "id": "evt-rt-chain-stores",
       "label": "The rise of the chain store",
-      "year": 1925.0,
+      "year": 1925,
       "description": "A&P, Woolworth, and Piggly Wiggly's self-service model spread nationally in the twenties, undercutting local merchants with volume buying. The chain store and the brand replaced the general store and the clerk.",
       "wikiSlug": "Chain_store",
       "tier": 3,
@@ -714,7 +755,9 @@
       "description": "The Columbia Broadcasting System launched in 1927 and was bought the next year by 26-year-old William S. Paley, who built it into NBC's great rival. Two networks now competed for a national audience.",
       "wikiSlug": "CBS",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -729,7 +772,7 @@
     {
       "id": "evt-rt-hollywood-studio-system",
       "label": "The Hollywood studio system",
-      "year": 1922.0,
+      "year": 1922,
       "description": "By the early twenties the major studios — many founded by Eastern European Jewish immigrants — controlled production, distribution, and theaters from a Los Angeles suburb. Movies became the country's fourth-largest industry and its dominant storyteller.",
       "wikiSlug": "Studio_system",
       "tier": 1,
@@ -742,7 +785,9 @@
       "description": "Comedy star Roscoe 'Fatty' Arbuckle was tried three times for the 1921 death of actress Virginia Rappe; the third jury acquitted him and apologized. The scandal ended his career and triggered Hollywood's drive to clean up its image.",
       "wikiSlug": "Roscoe_Arbuckle",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -752,7 +797,9 @@
       "description": "To preempt government censorship after a run of scandals, the studios hired Postmaster General Will Hays in 1922 to police movie morality. His office evolved into the Production Code that governed what American films could show until the 1960s.",
       "wikiSlug": "Motion_Picture_Production_Code",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -762,7 +809,9 @@
       "description": "Italian immigrant Rudolph Valentino became the silent screen's great romantic idol with The Sheik (1921). His sudden death in 1926 at 31 set off mass public hysteria and a riot at his New York funeral, the template for modern celebrity mourning.",
       "wikiSlug": "Rudolph_Valentino",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -772,7 +821,9 @@
       "description": "Charlie Chaplin's The Gold Rush (1925), with the boot-eating dinner and the dance of the rolls, was the silent era's comic peak and a global success. Chaplin's Tramp was arguably the most recognized human image on earth in the twenties.",
       "wikiSlug": "The_Gold_Rush",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -782,7 +833,9 @@
       "description": "Warner Bros.' The Jazz Singer, premiering October 1927 with synchronized song and a few lines of speech, ended the silent era within three years. Its star Al Jolson performed in blackface — the new medium's debut was built on minstrelsy.",
       "wikiSlug": "The_Jazz_Singer",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -797,7 +850,7 @@
     {
       "id": "evt-rt-tabloids",
       "label": "The tabloid press",
-      "year": 1924.0,
+      "year": 1924,
       "description": "The New York Daily News (1919) and its imitators built mass circulation on photographs, crime, sex, and sport. The 1928 secret photograph of Ruth Snyder's execution and the Hall–Mills murder trial defined the tabloid's appetite for sensation.",
       "wikiSlug": "Tabloid_journalism",
       "tier": 3,
@@ -810,7 +863,9 @@
       "description": "Babe Ruth's 60 home runs in 1927 capped a career that transformed baseball from a low-scoring contest into a power spectacle and made him the most famous athlete in the world. Yankee Stadium (1923) was 'the House That Ruth Built.'",
       "wikiSlug": "Babe_Ruth",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -820,7 +875,9 @@
       "description": "Jack Dempsey, the era's great heavyweight, lost to Gene Tunney before 104,000 fans in Chicago in 1927; a disputed long count let Tunney recover from a knockdown. The gate topped $2 million, the first 'million-dollar' era of sport.",
       "wikiSlug": "Gene_Tunney",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -830,7 +887,9 @@
       "description": "Illinois halfback 'Red' Grange, the Galloping Ghost, signed with the Chicago Bears days after his last college game in 1925, drawing 70,000 fans and putting the struggling National Football League on the map.",
       "wikiSlug": "Red_Grange",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -840,7 +899,9 @@
       "description": "Amateur Bobby Jones dominated golf in the twenties, winning thirteen majors and, in 1930, the Grand Slam. Mass-market golf and the country club spread with the suburbs and the new leisure economy.",
       "wikiSlug": "Bobby_Jones_(golfer)",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -850,7 +911,9 @@
       "description": "On August 6, 1926, 20-year-old Gertrude Ederle became the first woman to swim the English Channel, beating the men's record by nearly two hours. Two million people met her ticker-tape parade — proof that a woman could be a national sports hero.",
       "wikiSlug": "Gertrude_Ederle",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -860,7 +923,9 @@
       "description": "On May 20–21, 1927, Charles Lindbergh flew the Spirit of St. Louis 3,600 miles from New York to Paris alone in 33.5 hours, the first solo nonstop transatlantic flight. He became the most celebrated person on earth and the symbol of the air age.",
       "wikiSlug": "Charles_Lindbergh",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -879,7 +944,9 @@
       "description": "Amelia Earhart became the first woman to cross the Atlantic by air in 1928, as a passenger, and was instantly made a celebrity by publisher George Putnam. She used the fame to campaign for women in aviation and to plan her own solo flights.",
       "wikiSlug": "Amelia_Earhart",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -889,7 +956,9 @@
       "description": "Louis Armstrong's 1925–28 Hot Five and Hot Seven records remade jazz around the virtuoso soloist and Armstrong's trumpet and voice. He carried New Orleans jazz to Chicago and then to the world via the phonograph.",
       "wikiSlug": "Louis_Armstrong",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -899,7 +968,9 @@
       "description": "Duke Ellington's orchestra began its residency at Harlem's whites-only Cotton Club in December 1927; its nightly radio broadcasts made him a national name. The club epitomized the era's exploitation of Black art for white audiences.",
       "wikiSlug": "Duke_Ellington",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -909,7 +980,9 @@
       "description": "Bessie Smith's 1923 recordings sold hundreds of thousands of copies into the 'race records' market and made her the highest-paid Black entertainer of the decade. The blues and the phonograph carried Southern Black music to a national audience.",
       "wikiSlug": "Bessie_Smith",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -919,7 +992,9 @@
       "description": "Jelly Roll Morton's Red Hot Peppers recordings (1926–27) were among the first to fully arrange jazz, fixing the New Orleans style on record. The phonograph and radio were spreading a regional Black music nationwide within a few years.",
       "wikiSlug": "Jelly_Roll_Morton",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -929,7 +1004,9 @@
       "description": "George Gershwin premiered Rhapsody in Blue in New York in February 1924, an attempt to fuse jazz with the concert hall. It signaled jazz crossing into mainstream and 'respectable' American music.",
       "wikiSlug": "Rhapsody_in_Blue",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -939,17 +1016,21 @@
       "description": "Alain Locke's 1925 anthology The New Negro became the manifesto of the Harlem Renaissance, gathering Hughes, Hurston, McKay, and others to argue that Black art was remaking American culture from Harlem outward.",
       "wikiSlug": "The_New_Negro",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
       "id": "evt-rt-langston-hughes",
       "label": "Langston Hughes, The Weary Blues",
-      "year": 1926.0,
+      "year": 1926,
       "description": "Langston Hughes published The Weary Blues in 1926 and his manifesto 'The Negro Artist and the Racial Mountain,' insisting Black writers draw on jazz, the blues, and Black vernacular without apology. He became the Harlem Renaissance's defining poet.",
       "wikiSlug": "Langston_Hughes",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -959,23 +1040,27 @@
       "description": "Zora Neale Hurston arrived in Harlem in 1925, trained as an anthropologist under Franz Boas, and began collecting Southern Black folklore. Her work fused fieldwork and fiction and became central to the renaissance and to later American letters.",
       "wikiSlug": "Zora_Neale_Hurston",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
       "id": "evt-rt-claude-mckay",
       "label": "Claude McKay's protest verse",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Jamaican-born Claude McKay's militant 1919 sonnet 'If We Must Die,' written after the Red Summer, and his 1922 collection Harlem Shadows gave the renaissance its angriest early voice. His 1928 novel Home to Harlem was a bestseller.",
       "wikiSlug": "Claude_McKay",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
       "id": "evt-rt-cotton-club",
       "label": "The Cotton Club",
-      "year": 1923.0,
+      "year": 1923,
       "description": "The Cotton Club, opened in Harlem in 1923 by a bootlegger, presented Black performers to whites-only audiences in 'jungle'-themed shows. It was the most famous nightclub of the age and a symbol of how the Jazz Age commodified Black culture.",
       "wikiSlug": "Cotton_Club",
       "tier": 2,
@@ -997,7 +1082,9 @@
       "description": "A. Philip Randolph founded the Brotherhood of Sleeping Car Porters in 1925, organizing the Black men who staffed Pullman railroad cars. It became the first Black-led union to win a major contract and a training ground for the later civil-rights movement.",
       "wikiSlug": "Brotherhood_of_Sleeping_Car_Porters",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -1007,7 +1094,9 @@
       "description": "Marcus Garvey was convicted of mail fraud connected to his Black Star steamship line in 1923, imprisoned, and deported to Jamaica in 1927. The collapse of the largest Black mass movement of the era was a lasting blow and a long controversy.",
       "wikiSlug": "Marcus_Garvey",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -1017,7 +1106,9 @@
       "description": "F. Scott Fitzgerald's debut novel This Side of Paradise (1920) made him famous at 23 and defined the 'flapper' and the disillusioned postwar youth. He coined the phrase 'the Jazz Age' for the decade he became its chronicler of.",
       "wikiSlug": "This_Side_of_Paradise",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -1027,7 +1118,9 @@
       "description": "F. Scott Fitzgerald's The Great Gatsby (1925) turned the decade's bootleggers, new money, and hollow glamour into the era's defining novel. It sold modestly in the twenties and was rediscovered as an American masterpiece after Fitzgerald's death.",
       "wikiSlug": "The_Great_Gatsby",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -1037,13 +1130,15 @@
       "description": "Ernest Hemingway's The Sun Also Rises (1926) gave the 'Lost Generation' of postwar expatriates its portrait and a stripped-down prose style that reshaped American writing. Its epigraph from Gertrude Stein named the generation.",
       "wikiSlug": "The_Sun_Also_Rises",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
       "id": "evt-rt-lost-generation",
       "label": "The Lost Generation in Paris",
-      "year": 1924.0,
+      "year": 1924,
       "description": "Hemingway, Fitzgerald, Stein, Pound, and others gathered in 1920s Paris, alienated by the war and Prohibition-era America. The expatriate scene around Gertrude Stein's salon and Sylvia Beach's bookshop produced much of modern American literature.",
       "wikiSlug": "Lost_Generation",
       "tier": 2,
@@ -1052,17 +1147,19 @@
     {
       "id": "evt-rt-mencken-american-mercury",
       "label": "H. L. Mencken and The American Mercury",
-      "year": 1924.0,
+      "year": 1924,
       "description": "H. L. Mencken, the decade's most quoted critic, co-founded The American Mercury in 1924 and skewered the 'booboisie,' Prohibition, fundamentalism, and the Klan. He coined 'the Bible Belt' and covered Scopes as cultural warfare.",
       "wikiSlug": "H._L._Mencken",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
       "id": "evt-rt-algonquin-round-table",
       "label": "The Algonquin Round Table",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Dorothy Parker, Robert Benchley, and a circle of New York wits lunched daily at the Algonquin Hotel through the early twenties, their quips amplified by newspaper columns. They embodied the decade's urbane, sardonic literary celebrity.",
       "wikiSlug": "Algonquin_Round_Table",
       "tier": 3,
@@ -1071,7 +1168,7 @@
     {
       "id": "evt-rt-the-new-woman",
       "label": "The flapper and the 'New Woman'",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Bobbed hair, raised hemlines, cigarettes, cosmetics, and the Charleston marked the 'flapper,' the decade's image of liberated young womanhood. The reality was more limited than the image, but the public revolt against Victorian constraint was real.",
       "wikiSlug": "Flapper",
       "tier": 2,
@@ -1089,7 +1186,7 @@
     {
       "id": "evt-rt-speakeasies",
       "label": "Speakeasies and bootlegging",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Prohibition created tens of thousands of illegal bars — 'speakeasies' — and a vast smuggling and home-distilling economy. By the mid-twenties New York alone had an estimated 30,000–100,000 speakeasies, more drinking spots than before the ban.",
       "wikiSlug": "Speakeasy",
       "tier": 1,
@@ -1098,7 +1195,7 @@
     {
       "id": "evt-rt-rumrunning",
       "label": "Rum Row and the bootleg supply chain",
-      "year": 1923.0,
+      "year": 1923,
       "description": "Ships anchored on 'Rum Row' just outside the three-mile limit, fast boats ran liquor ashore, and Detroit's Purple Gang ferried Canadian whiskey across the river. Bootlegging built fortunes, fast cars, and the organized smuggling networks of the modern Mafia.",
       "wikiSlug": "Rum-running",
       "tier": 3,
@@ -1107,7 +1204,7 @@
     {
       "id": "evt-rt-organized-crime",
       "label": "Prohibition and organized crime",
-      "year": 1924.0,
+      "year": 1924,
       "description": "The illegal liquor trade handed criminal gangs a multibillion-dollar industry and the money to corrupt police, courts, and city hall. The national crime syndicate of the 1930s was built on twenties bootleg profits.",
       "wikiSlug": "American_Mafia",
       "tier": 1,
@@ -1120,7 +1217,9 @@
       "description": "Al Capone took over the Chicago Outfit in 1925 and built a bootlegging, gambling, and vice empire grossing an estimated $60 million a year. He effectively controlled the city's police and politicians and became the era's celebrity gangster.",
       "wikiSlug": "Al_Capone",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -1135,7 +1234,7 @@
     {
       "id": "evt-rt-prohibition-enforcement-fail",
       "label": "Prohibition's failure becomes undeniable",
-      "year": 1926.0,
+      "year": 1926,
       "description": "By the mid-twenties poisoned industrial alcohol was killing thousands, the government was deliberately denaturing it, juries refused to convict, and 'wet' politics was rising. Prohibition's collapse was visible years before its 1933 repeal.",
       "wikiSlug": "Prohibition_in_the_United_States",
       "tier": 2,
@@ -1148,7 +1247,9 @@
       "description": "In a January 1925 speech Coolidge said 'the chief business of the American people is business,' summing up an administration that cut taxes, slashed regulation, and trusted prosperity to private enterprise. The line became the decade's motto.",
       "wikiSlug": "Calvin_Coolidge",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1163,7 +1264,7 @@
     {
       "id": "evt-rt-farm-crisis",
       "label": "The farm depression of the twenties",
-      "year": 1923.0,
+      "year": 1923,
       "description": "Farm prices collapsed after wartime demand vanished and never recovered; a quarter of farmers lost their land in the twenties. Congress twice passed the McNary–Haugen farm-relief bill; Coolidge vetoed it both times. The countryside never got the boom.",
       "wikiSlug": "McNary–Haugen_Farm_Relief_Bill",
       "tier": 2,
@@ -1172,7 +1273,7 @@
     {
       "id": "evt-rt-coal-textile-decline",
       "label": "The 'sick industries'",
-      "year": 1925.0,
+      "year": 1925,
       "description": "Coal, textiles, and New England manufacturing stagnated or shrank through the boom as oil, the South, and synthetics undercut them. The 1929 Loray Mill strike in Gastonia, North Carolina, exposed how little prosperity reached the textile South.",
       "wikiSlug": "Loray_Mill_strike",
       "tier": 3,
@@ -1181,7 +1282,7 @@
     {
       "id": "evt-rt-scientific-management",
       "label": "Taylorism and the efficiency cult",
-      "year": 1921.0,
+      "year": 1921,
       "description": "Frederick Taylor's 'scientific management' — time-and-motion study, the stopwatch, the standardized task — spread from the factory floor into offices, schools, and homes in the twenties. Efficiency became a national value and a household ideology.",
       "wikiSlug": "Scientific_management",
       "tier": 3,
@@ -1190,11 +1291,13 @@
     {
       "id": "evt-rt-freud-vogue",
       "label": "Freud's American vogue",
-      "year": 1924.0,
+      "year": 1924,
       "description": "Popularized (and simplified) psychoanalysis swept twenties America: the 'inferiority complex,' the unconscious, and 'repression' entered everyday speech and advertising. Edward Bernays applied his uncle Freud's ideas to selling and called it public relations.",
       "wikiSlug": "Sigmund_Freud",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -1222,23 +1325,27 @@
       "description": "On the trial's seventh day, defense lawyer Clarence Darrow put prosecutor William Jennings Bryan on the stand as an expert on the Bible and exposed his literalism to ridicule before a national radio audience. It was the trial's decisive scene.",
       "wikiSlug": "Clarence_Darrow",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
       "id": "evt-rt-billy-sunday",
       "label": "Billy Sunday's revival circuit",
-      "year": 1920.0,
+      "year": 1920,
       "description": "Former baseball player Billy Sunday was the most famous revivalist of the era, preaching a muscular, anti-modern, pro-Prohibition Christianity to millions in purpose-built wooden tabernacles. He embodied the populist Protestant resistance to the Jazz Age.",
       "wikiSlug": "Billy_Sunday",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
       "id": "evt-rt-florida-land-boom",
       "label": "The Florida land boom",
-      "year": 1925.0,
+      "year": 1925,
       "description": "From 1923 to 1925 a speculative frenzy in Florida real estate drove lots in Miami and Coral Gables to absurd prices, often bought sight-unseen with 'binder' down payments and flipped within weeks. It was the dress rehearsal for the stock bubble.",
       "wikiSlug": "Florida_land_boom_of_the_1920s",
       "tier": 2,
@@ -1265,7 +1372,7 @@
     {
       "id": "evt-rt-skyscraper-race",
       "label": "The skyscraper race",
-      "year": 1928.0,
+      "year": 1928,
       "description": "New developers competed to build the world's tallest building as a corporate billboard. The contest between the Bank of Manhattan at 40 Wall Street, the Chrysler Building, and the planned Empire State Building defined the late-twenties skyline.",
       "wikiSlug": "Skyscraper",
       "tier": 2,
@@ -1283,7 +1390,7 @@
     {
       "id": "evt-rt-art-deco",
       "label": "Art Deco in America",
-      "year": 1925.0,
+      "year": 1925,
       "description": "The streamlined, geometric Art Deco style, launched at a 1925 Paris exposition, swept American skyscrapers, theaters, radios, and cars. It was the visual signature of the machine-age, consumer-age decade.",
       "wikiSlug": "Art_Deco",
       "tier": 3,
@@ -1292,7 +1399,7 @@
     {
       "id": "evt-rt-movie-palaces",
       "label": "The movie palaces",
-      "year": 1927.0,
+      "year": 1927,
       "description": "Lavish 'movie palaces' seating thousands — Roxy's 1927 New York theater held 5,920 — turned moviegoing into an opulent mass ritual. By 1929 some 80 million Americans, two-thirds of the country, went to the movies every week.",
       "wikiSlug": "Movie_palace",
       "tier": 3,
@@ -1314,7 +1421,9 @@
       "description": "New York Governor Al Smith, the first Catholic nominated for president by a major party, was the Democrats' 1928 candidate. The campaign unleashed open anti-Catholic bigotry, whispering that the Pope would run the country from Rome.",
       "wikiSlug": "Al_Smith",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -1324,13 +1433,15 @@
       "description": "Herbert Hoover, the celebrated engineer and Commerce secretary, beat Al Smith in a 1928 landslide, promising 'a final triumph over poverty' and 'a chicken in every pot.' He took office in March 1929, seven months before the Crash.",
       "wikiSlug": "1928_United_States_presidential_election",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
       "id": "evt-rt-bull-market",
       "label": "The great bull market",
-      "year": 1928.0,
+      "year": 1928,
       "description": "Stock prices roughly doubled between early 1928 and September 1929 on a flood of optimism and borrowed money. 'Everybody ought to be rich,' a Democratic financier wrote in 1929; shoeshine boys gave stock tips.",
       "wikiSlug": "Wall_Street_Crash_of_1929",
       "tier": 1,
@@ -1348,7 +1459,7 @@
     {
       "id": "evt-rt-investment-trusts",
       "label": "Investment trusts and leverage",
-      "year": 1929.0,
+      "year": 1929,
       "description": "Investment trusts — companies that owned shares in other companies, often layered on borrowed money — proliferated in 1928–29. The pyramided leverage that magnified gains made the eventual collapse far worse.",
       "wikiSlug": "Investment_trust",
       "tier": 2,
@@ -1402,7 +1513,7 @@
     {
       "id": "evt-rt-jim-crow-entrenched",
       "label": "Jim Crow at its height",
-      "year": 1919.0,
+      "year": 1919,
       "description": "By 1918 the Southern system of legal segregation, Black disfranchisement, and lynching built after Reconstruction was fully entrenched. It was the engine of the Great Migration and the backdrop to every Black story of the decade.",
       "wikiSlug": "Jim_Crow_laws",
       "tier": 1,
@@ -1411,7 +1522,7 @@
     {
       "id": "evt-rt-progressive-era-legacy",
       "label": "The Progressive Era's legacy",
-      "year": 1918.0,
+      "year": 1918,
       "description": "The 1900s–1910s reform wave gave the twenties the income tax, the Federal Reserve, direct election of senators, women's suffrage, and Prohibition. The decade lived off Progressive machinery while repudiating Progressive politics.",
       "wikiSlug": "Progressive_Era",
       "tier": 2,
@@ -1420,7 +1531,7 @@
     {
       "id": "evt-rt-gilded-age-industrialization",
       "label": "The Gilded Age inheritance",
-      "year": 1918.0,
+      "year": 1918,
       "description": "The post-1877 decades of railroads, steel, oil, mass immigration, and the great trusts built the industrial machine the twenties consumer economy ran on. The Gilded Age made the factories; the twenties learned how to sell their output to everyone.",
       "wikiSlug": "Gilded_Age",
       "tier": 2,
@@ -1442,7 +1553,9 @@
       "description": "The 1917 Espionage and 1918 Sedition Acts jailed antiwar socialists like Eugene Debs and built the surveillance apparatus turned on radicals after the war. The Red Scare ran on machinery the war had already installed.",
       "wikiSlug": "Sedition_Act_of_1918",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1452,7 +1565,9 @@
       "description": "Socialist leader Eugene Debs, jailed under the Sedition Act for an antiwar speech and a 1920 presidential candidate from his prison cell, was released by Harding's commutation at Christmas 1921. It signaled the Red Scare's exhaustion.",
       "wikiSlug": "Eugene_V._Debs",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1462,7 +1577,9 @@
       "description": "Albert Fall was convicted of bribery in 1929, the first U.S. cabinet officer imprisoned for crimes in office. The oilman who bribed him was acquitted of bribing him — a verdict that became a national joke about justice for the rich.",
       "wikiSlug": "Albert_B._Fall",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1495,7 +1612,7 @@
     {
       "id": "evt-rt-nativism",
       "label": "Nativism and '100% Americanism'",
-      "year": 1921.0,
+      "year": 1921,
       "description": "Postwar nativism fused anti-immigrant, anti-Catholic, anti-radical, and anti-Black feeling into a '100% American' movement that powered the Klan, immigration restriction, and the Red Scare. It was the decade's organizing political emotion outside the cities.",
       "wikiSlug": "Nativism_(politics)",
       "tier": 2,
@@ -1504,17 +1621,19 @@
     {
       "id": "evt-rt-tennessee-valley-origin",
       "label": "The Muscle Shoals fight",
-      "year": 1925.0,
+      "year": 1925,
       "description": "Senator George Norris fought through the twenties to keep the government's wartime Muscle Shoals dam and nitrate plant public; Coolidge and Hoover wanted it sold to private interests like Henry Ford. The deadlocked fight set up the later public-power debate.",
       "wikiSlug": "Muscle_Shoals,_Alabama",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
       "id": "evt-rt-scopes-aftermath",
       "label": "Anti-evolution laws spread",
-      "year": 1928.0,
+      "year": 1928,
       "description": "Despite the ridicule of Scopes, Mississippi and Arkansas passed their own anti-evolution laws (1926, 1928), and textbook publishers quietly dropped Darwin for decades. The 'modernists' won the press; the fundamentalists won the curriculum.",
       "wikiSlug": "Scopes_trial",
       "tier": 3,
@@ -1527,7 +1646,9 @@
       "description": "On August 2, 1927, the fourth anniversary of his accession, Coolidge handed reporters a single sentence: 'I do not choose to run for President in nineteen twenty eight.' He left office before the boom he presided over collapsed.",
       "wikiSlug": "Calvin_Coolidge",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1573,7 +1694,9 @@
       "description": "Philo Farnsworth transmitted the first electronic television image in 1927 and AT&T demonstrated TV in 1927; the technology that would dominate the next era was already being born inside the radio decade.",
       "wikiSlug": "Philo_Farnsworth",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -1583,13 +1706,15 @@
       "description": "On March 16, 1926, Robert Goddard launched the world's first liquid-fueled rocket from a Massachusetts farm; it flew 41 feet. Ridiculed at the time, it was the seed of twentieth-century rocketry.",
       "wikiSlug": "Robert_H._Goddard",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
       "id": "evt-rt-penicillin-context",
       "label": "Insulin and the medical twenties",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Insulin, first used on a patient in 1922, turned diabetes from a death sentence into a managed disease and signaled the decade's real scientific advance amid the boom. Medicine, like industry, was being transformed by the laboratory.",
       "wikiSlug": "Insulin",
       "tier": 3,
@@ -1620,7 +1745,9 @@
       "description": "The 1927 trial of Ruth Snyder and Judd Gray for murdering her husband was a tabloid sensation; a photographer's hidden camera caught her execution for the Daily News front page. It captured the decade's appetite for crime as mass entertainment.",
       "wikiSlug": "Ruth_Snyder",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -1635,7 +1762,7 @@
     {
       "id": "evt-rt-women-workforce",
       "label": "Women in the modern workforce",
-      "year": 1925.0,
+      "year": 1925,
       "description": "More women worked for wages in the twenties — as typists, telephone operators, clerks, and salesgirls — but mostly in low-paid 'pink-collar' jobs, and most quit at marriage. The vote had not delivered economic equality.",
       "wikiSlug": "Women_in_the_workforce",
       "tier": 3,
@@ -1644,17 +1771,19 @@
     {
       "id": "evt-rt-birth-control",
       "label": "Margaret Sanger's birth-control movement",
-      "year": 1923.0,
+      "year": 1923,
       "description": "Margaret Sanger opened the first legal U.S. birth-control clinic in 1923 and built a movement that was genuinely liberatory for women and, like much of the era's reform, entangled with eugenics. Family size fell sharply in the urban twenties.",
       "wikiSlug": "Margaret_Sanger",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
       "id": "evt-rt-automobile-society",
       "label": "How the car remade society",
-      "year": 1926.0,
+      "year": 1926,
       "description": "By the late twenties the car had reshaped dating, churchgoing, vacations, crime, and city form; sociologists studying 'Middletown' in 1929 found families would 'go without clothes' before giving up the automobile.",
       "wikiSlug": "Middletown_studies",
       "tier": 2,
@@ -1663,17 +1792,19 @@
     {
       "id": "evt-rt-middletown",
       "label": "The Middletown study",
-      "year": 1929.0,
+      "year": 1929,
       "description": "Robert and Helen Lynd's 1929 sociological study of Muncie, Indiana, documented how the car, the radio, advertising, and the factory had transformed an ordinary American town in a single generation. It is the decade's self-portrait.",
       "wikiSlug": "Middletown_studies",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
       "id": "evt-rt-mah-jongg-fads",
       "label": "Fads and crazes",
-      "year": 1924.0,
+      "year": 1924,
       "description": "Mah-jongg, crossword puzzles, flagpole sitting, dance marathons, and Coué's 'every day in every way' auto-suggestion swept the decade. Mass media could now make a national craze out of almost anything within weeks.",
       "wikiSlug": "Fad",
       "tier": 3,
@@ -1682,7 +1813,7 @@
     {
       "id": "evt-rt-jazz-spreads",
       "label": "Jazz goes national",
-      "year": 1925.0,
+      "year": 1925,
       "description": "Radio, phonograph records, and the Great Migration carried New Orleans and Chicago jazz to white dance halls, college campuses, and Europe within a decade. Older critics called it degenerate; the young made it the sound of modern life.",
       "wikiSlug": "Jazz",
       "tier": 1,
@@ -1691,17 +1822,19 @@
     {
       "id": "evt-rt-paul-whiteman",
       "label": "Paul Whiteman, the 'King of Jazz'",
-      "year": 1924.0,
+      "year": 1924,
       "description": "Bandleader Paul Whiteman sold a polished, orchestrated 'symphonic jazz' to mass white audiences and was crowned the 'King of Jazz' — a marketing of Black music that made him rich while its originators went largely unpaid.",
       "wikiSlug": "Paul_Whiteman",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
       "id": "evt-rt-college-culture",
       "label": "The rise of college culture",
-      "year": 1925.0,
+      "year": 1925,
       "description": "College enrollment doubled in the twenties, and the campus — football, fraternities, raccoon coats, the 'collegiate' style — became a mass cultural model. Higher education was becoming a middle-class expectation, not an elite preserve.",
       "wikiSlug": "Higher_education_in_the_United_States",
       "tier": 3,
@@ -1710,7 +1843,7 @@
     {
       "id": "evt-rt-anti-saloon-league",
       "label": "The Anti-Saloon League's power",
-      "year": 1920.0,
+      "year": 1920,
       "description": "The Anti-Saloon League, the most effective single-issue lobby in American history to that point, had pushed Prohibition through and policed dry politicians for a decade. Its grip showed how an organized minority could write the Constitution.",
       "wikiSlug": "Anti-Saloon_League",
       "tier": 3,
@@ -1728,11 +1861,13 @@
     {
       "id": "evt-rt-hoover-commerce",
       "label": "Hoover's 'associative state'",
-      "year": 1922.0,
+      "year": 1922,
       "description": "As Commerce secretary from 1921 to 1928, Herbert Hoover built an activist department that promoted standardization, trade associations, radio regulation, and aviation. The decade's most dynamic administrator believed government should organize, not run, the economy.",
       "wikiSlug": "Herbert_Hoover",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -1760,7 +1895,9 @@
       "description": "Walt Disney's Steamboat Willie, premiering November 1928, introduced Mickey Mouse and synchronized cartoon sound. A new American mass-entertainment empire began in the same months as the bull market's final surge.",
       "wikiSlug": "Steamboat_Willie",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -1775,21 +1912,25 @@
     {
       "id": "evt-rt-okeeffe-stieglitz",
       "label": "An American modernism",
-      "year": 1925.0,
+      "year": 1925,
       "description": "Georgia O'Keeffe, Edward Hopper, and the Stieglitz circle built a distinctly American modern art in the twenties, while Harlem's Aaron Douglas gave the renaissance its visual style. The decade asked what American culture, freed from Europe, looked like.",
       "wikiSlug": "Georgia_O%27Keeffe",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "architecture"
     },
     {
       "id": "evt-rt-prohibition-women",
       "label": "Women, drink, and Prohibition's reversal",
-      "year": 1928.0,
+      "year": 1928,
       "description": "Pauline Sabin's Women's Organization for National Prohibition Reform, founded 1929, turned the argument that women wanted Prohibition on its head and gave repeal a respectable face. The dry coalition was cracking from inside.",
       "wikiSlug": "Pauline_Sabin",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -1799,13 +1940,15 @@
       "description": "Economist Roger Babson predicted a crash in September 1929 and was mocked; Yale's Irving Fisher countered that stocks had reached 'a permanently high plateau' days before the Crash. The experts who reassured the public were the ones believed.",
       "wikiSlug": "Irving_Fisher",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
       "id": "evt-rt-bank-of-us",
       "label": "The banking system's hidden fragility",
-      "year": 1929.0,
+      "year": 1929,
       "description": "Beneath the boom, 25,000 mostly small, undiversified, unit banks operated with no deposit insurance. The structure that made the Crash become a depression was built into the twenties financial system long before October 1929.",
       "wikiSlug": "Bank_run",
       "tier": 2,
@@ -1859,17 +2002,19 @@
     {
       "id": "evt-rt-supreme-court-taft",
       "label": "The Taft Court and business",
-      "year": 1922.0,
+      "year": 1922,
       "description": "Chief Justice William Howard Taft's Supreme Court (1921–30) struck down child-labor laws and minimum-wage laws and limited union power, writing the decade's pro-business ideology into constitutional law. It was the legal arm of 'the business of America.'",
       "wikiSlug": "Taft_Court",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
       "id": "evt-rt-immigrant-cities",
       "label": "The immigrant city before the door closed",
-      "year": 1920.0,
+      "year": 1920,
       "description": "The 1920 census was the first to find most Americans living in cities, many of them densely packed immigrant neighborhoods built by the pre-1924 waves. The twenties closed the door on the system that had made those cities.",
       "wikiSlug": "Immigration_to_the_United_States",
       "tier": 2,
@@ -1887,7 +2032,7 @@
     {
       "id": "evt-rt-moton-tuskegee",
       "label": "Black institutions in the Jim Crow twenties",
-      "year": 1925.0,
+      "year": 1925,
       "description": "Black colleges, the Black press, the church, and Black-owned businesses expanded in the twenties, North and South, building the institutional base that the civil-rights movement would later mobilize. Survival under Jim Crow was itself organized.",
       "wikiSlug": "Historically_black_colleges_and_universities",
       "tier": 3,
@@ -1905,7 +2050,7 @@
     {
       "id": "evt-rt-prohibition-rich-poor",
       "label": "A law for the poor",
-      "year": 1925.0,
+      "year": 1925,
       "description": "The rich kept stocked cellars and drank at private clubs; Prohibition fell hardest on working people and immigrants whose saloons were raided and whose bootleg liquor was deadliest. The class double standard fueled the case for repeal.",
       "wikiSlug": "Prohibition_in_the_United_States",
       "tier": 3,
@@ -1916,7 +2061,6 @@
       "label": "The Jones Law stiffens Prohibition",
       "year": 1929.21,
       "description": "The 1929 Jones Law made first-offense bootlegging a felony with up to five years and $10,000 in penalties, the dry movement's last hardening of the law just as public support collapsed. Within four years Prohibition was repealed.",
-      "wikiSlug": "Jones_Law_(United_States)",
       "tier": 3,
       "category": "rulers"
     },
@@ -1950,7 +2094,7 @@
     {
       "id": "evt-rt-tourism-national-parks",
       "label": "The car and the national parks",
-      "year": 1926.0,
+      "year": 1926,
       "description": "Auto tourism transformed the national parks in the twenties: visitor numbers multiplied, the Park Service built roads and lodges, and the cross-country motor trip became a middle-class ritual. Leisure itself was becoming an industry.",
       "wikiSlug": "National_Park_Service",
       "tier": 3,
@@ -1972,7 +2116,9 @@
       "description": "In 1922 the American expatriate Sylvia Beach published James Joyce's Ulysses from her Paris bookshop, Shakespeare and Company, after every commercial house refused it and U.S. obscenity law banned it. Her shop was the clubhouse of the Lost Generation expatriates and her gamble became a landmark of literary modernism.",
       "wikiSlug": "Sylvia_Beach",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -1982,7 +2128,9 @@
       "description": "In 1920 a group of prominent lawyers including the Harvard professor and future Supreme Court justice Felix Frankfurter published a report documenting the illegal practices of the Justice Department in the Palmer Raids. It helped turn elite opinion against the Red Scare and stands as an early defense of civil liberties.",
       "wikiSlug": "Felix_Frankfurter",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {

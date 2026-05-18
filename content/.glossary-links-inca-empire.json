@@ -195,7 +195,7 @@
     {
       "term": "Quito",
       "matchText": "Quito",
-      "wikiSlug": "Kingdom_of_Quito",
+      "wikiSlug": "Quito",
       "type": "place"
     },
     {
@@ -219,7 +219,7 @@
     {
       "term": "Yahuarcocha",
       "matchText": "Yahuarcocha",
-      "wikiSlug": "Yahuarcocha",
+      "wikiSlug": "Yawarkucha",
       "type": "place"
     },
     {
@@ -397,8 +397,9 @@
     {
       "term": "Illapa",
       "matchText": "Illapa",
-      "wikiSlug": "Illapa",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Illapa was the Inca god of thunder, lightning, and rain — one of the most important deities in the empire, since the people who controlled the weather controlled the harvest. He was pictured as a warrior in the sky who struck a jug of celestial water with his sling to make it rain."
     },
     {
       "term": "Pachamama",
@@ -421,13 +422,14 @@
     {
       "term": "Coya",
       "matchText": "Coya",
-      "wikiSlug": "Coya",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The Coya was the queen of the Inca empire — the chief wife of the Sapa Inca, frequently his own sister to keep the royal bloodline 'pure.' She held real religious authority of her own, especially over the cult of the moon goddess."
     },
     {
       "term": "Panaca",
       "matchText": "panaca",
-      "wikiSlug": "Panaca",
+      "wikiSlug": "Panakas",
       "type": "concept"
     },
     {
@@ -584,7 +586,7 @@
     {
       "term": "Rumiñahui",
       "matchText": "Rumiñahui",
-      "wikiSlug": "Rumiñawi",
+      "wikiSlug": "Rumiñawi_(Inca_warrior)",
       "type": "people"
     }
   ],

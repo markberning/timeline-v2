@@ -161,7 +161,6 @@
       "label": "Death of Genghis Khan",
       "year": 1227,
       "description": "Genghis Khan died during the final campaign against Western Xia. His empire was divided among his four sons.",
-      "wikiSlug": "Death_of_Genghis_Khan",
       "tier": 1,
       "category": "rulers",
       "tags": [
@@ -286,7 +285,7 @@
     {
       "id": "evt-ain-jalut",
       "label": "Battle of Ain Jalut",
-      "year": 1250.0,
+      "year": 1250,
       "description": "The Egyptian Mamluks defeated a Mongol army at Ain Jalut in Palestine, marking the first major Mongol defeat and halting their westward advance.",
       "wikiSlug": "Battle_of_Ain_Jalut",
       "tier": 2,
@@ -295,7 +294,7 @@
     {
       "id": "evt-kublai-khan",
       "label": "Kublai Khan",
-      "year": 1255.0,
+      "year": 1255,
       "endYear": 1294,
       "description": "Kublai Khan became Great Khan and later founded the Yuan dynasty, ruling the largest contiguous land empire in history.",
       "wikiSlug": "Kublai_Khan",
@@ -446,7 +445,7 @@
       "label": "Fall of the Yuan dynasty",
       "year": 1368,
       "description": "The Red Turban Rebellion drove the Mongols from China as Zhu Yuanzhang founded the Ming dynasty, ending Mongol rule in China.",
-      "wikiSlug": "Fall_of_the_Yuan_dynasty",
+      "wikiSlug": "Red_Turban_Rebellions",
       "tier": 1,
       "category": "wars",
       "tags": [
@@ -527,7 +526,7 @@
     {
       "id": "evt-berke-khan-islam",
       "label": "Berke Khan converts to Islam",
-      "year": 1270.0,
+      "year": 1270,
       "description": "Golden Horde ruler Berke became the first Mongol khan to convert to Islam, allying with the Mamluks against his cousin Hulegu's Ilkhanate.",
       "wikiSlug": "Berke",
       "tier": 3,
@@ -603,7 +602,7 @@
       "label": "Silver Tree Fountain of Karakorum",
       "year": 1253,
       "description": "French silversmith Guillaume Boucher completed the Silver Tree for Ögedei Khan's palace at Karakorum — a monumental fountain with four spouts dispensing wine, mead, rice wine, and grape wine, powered by a bellows-driven angel at the crown.",
-      "wikiSlug": "Silver_Tree_of_Karakorum",
+      "wikiSlug": "Guillaume_Boucher",
       "tier": 3,
       "category": "architecture",
       "tags": []
@@ -785,7 +784,7 @@
       "label": "Sack of Bukhara",
       "year": 1220,
       "description": "Genghis Khan led his army in a surprise flanking march through the supposedly impassable Kyzylkum Desert to take Bukhara from behind. In the city's great mosque he reportedly declared himself the flail of God punishing the people for their sins. The city's inhabitants were spared; its garrison was massacred.",
-      "wikiSlug": "Sack_of_Bukhara",
+      "wikiSlug": "Siege_of_Bukhara",
       "tier": 2,
       "category": "wars",
       "tags": []
@@ -850,7 +849,9 @@
       "wikiSlug": "Töregene_Khatun",
       "tier": 2,
       "category": "rulers",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-guyuk-khan",
@@ -882,7 +883,9 @@
       "wikiSlug": "Berke",
       "tier": 2,
       "category": "religion",
-      "tags": ["rulers"]
+      "tags": [
+        "rulers"
+      ]
     },
     {
       "id": "evt-alamut-taken",
@@ -902,7 +905,9 @@
       "wikiSlug": "Nasir_al-Din_al-Tusi",
       "tier": 2,
       "category": "science",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-daoist-buddhist-debate",
@@ -929,7 +934,7 @@
       "label": "Sack of Vladimir",
       "year": 1238,
       "description": "Batu Khan's forces captured and burned Vladimir, the capital of the Vladimir-Suzdal principality and the most powerful city in northeastern Rus'. Grand Prince Yuri II fled but was killed at the Battle of the Sit River soon after. The destruction of Vladimir effectively ended the Kievan Rus' political order in the northeast.",
-      "wikiSlug": "Sack_of_Vladimir",
+      "wikiSlug": "Siege_of_Vladimir",
       "tier": 2,
       "category": "wars",
       "tags": []
@@ -942,7 +947,9 @@
       "wikiSlug": "Öz_Beg_Khan",
       "tier": 2,
       "category": "religion",
-      "tags": ["rulers"]
+      "tags": [
+        "rulers"
+      ]
     },
     {
       "id": "evt-caffa-plague-siege",
@@ -952,7 +959,9 @@
       "wikiSlug": "Siege_of_Caffa",
       "tier": 2,
       "category": "wars",
-      "tags": ["trade"]
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "evt-xiangyang-siege",
@@ -973,7 +982,9 @@
       "wikiSlug": "Battle_of_Yamen",
       "tier": 3,
       "category": "science",
-      "tags": ["wars"]
+      "tags": [
+        "wars"
+      ]
     },
     {
       "id": "evt-arghun-european-alliance",
@@ -984,7 +995,9 @@
       "wikiSlug": "Arghun",
       "tier": 3,
       "category": "people",
-      "tags": ["trade"]
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "evt-tegüder-ahmad-converts",
@@ -995,7 +1008,9 @@
       "wikiSlug": "Tegüder",
       "tier": 3,
       "category": "religion",
-      "tags": ["rulers"]
+      "tags": [
+        "rulers"
+      ]
     },
     {
       "id": "evt-ghazan-reforms",
@@ -1006,7 +1021,9 @@
       "wikiSlug": "Ghazan",
       "tier": 2,
       "category": "trade",
-      "tags": ["rulers"]
+      "tags": [
+        "rulers"
+      ]
     },
     {
       "id": "evt-abu-said-death-ilkhanate-end",
@@ -1023,10 +1040,12 @@
       "label": "Kebek Khan's currency reform",
       "year": 1321,
       "description": "Chagatai Khan Kebek introduced a standardized silver coin (the kebeki) that became the dominant currency across Central Asia for over a century. He also built a fixed palace at Qarshi — unusual for a khanate that had remained proudly nomadic — signaling a slow drift toward settled administration in the western Chagatai domains.",
-      "wikiSlug": "Kebek_Khan",
+      "wikiSlug": "Kebek",
       "tier": 3,
       "category": "trade",
-      "tags": ["rulers"]
+      "tags": [
+        "rulers"
+      ]
     },
     {
       "id": "evt-tarmashirin-converts",
@@ -1036,7 +1055,9 @@
       "wikiSlug": "Tarmashirin",
       "tier": 3,
       "category": "religion",
-      "tags": ["rulers"]
+      "tags": [
+        "rulers"
+      ]
     },
     {
       "id": "evt-red-turban-rebellion",
@@ -1111,7 +1132,9 @@
       "wikiSlug": "Jamukha",
       "tier": 2,
       "category": "people",
-      "tags": ["rulers"]
+      "tags": [
+        "rulers"
+      ]
     },
     {
       "id": "evt-mukhali",
@@ -1132,7 +1155,9 @@
       "wikiSlug": "Inalchuq",
       "tier": 3,
       "category": "people",
-      "tags": ["wars"]
+      "tags": [
+        "wars"
+      ]
     },
     {
       "id": "evt-kara-khitai-conquest",
@@ -1152,7 +1177,9 @@
       "wikiSlug": "House_of_Wisdom",
       "tier": 2,
       "category": "writing",
-      "tags": ["architecture"]
+      "tags": [
+        "architecture"
+      ]
     },
     {
       "id": "evt-kitbuqa",
@@ -1162,7 +1189,9 @@
       "wikiSlug": "Kitbuqa",
       "tier": 3,
       "category": "people",
-      "tags": ["wars"]
+      "tags": [
+        "wars"
+      ]
     },
     {
       "id": "evt-ariq-boke",
@@ -1180,10 +1209,12 @@
       "label": "Sarai — Golden Horde capital",
       "year": 1254,
       "description": "Batu Khan established Sarai (also called Old Sarai or Sarai Batu) on the lower Volga near modern Astrakhan as the administrative capital of the Golden Horde. The city grew into one of the largest in the medieval world, with a population estimated at one hundred thousand at its peak, containing mosques, churches, craft workshops, and a resident Genoese merchant quarter. All Russian princes were required to travel to Sarai to receive their yarlyk (patent of rule) from the khan.",
-      "wikiSlug": "Sarai,_Golden_Horde",
+      "wikiSlug": "Sarai_(city)",
       "tier": 3,
       "category": "architecture",
-      "tags": ["trade"]
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "evt-lu-xiufu",
@@ -1193,7 +1224,9 @@
       "wikiSlug": "Lu_Xiufu",
       "tier": 3,
       "category": "people",
-      "tags": ["wars"]
+      "tags": [
+        "wars"
+      ]
     }
   ],
   "wikiSlug": "Mongol_Empire",

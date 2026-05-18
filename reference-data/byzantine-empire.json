@@ -98,7 +98,7 @@
       "label": "Division of the Empire",
       "year": 395,
       "description": "Upon the death of Theodosius I, the Roman Empire was permanently divided into eastern and western halves.",
-      "wikiSlug": "East%E2%80%93West_Schism_of_395",
+      "wikiSlug": "East–West_Schism",
       "tier": 3,
       "category": "rulers"
     },
@@ -428,7 +428,7 @@
       "label": "Venetian Trade Privileges",
       "year": 1082,
       "description": "Alexios I granted Venice sweeping tax exemptions in exchange for naval aid, giving Italian merchants dominance in Byzantine commerce.",
-      "wikiSlug": "Chrysobull_of_1082",
+      "wikiSlug": "Byzantine–Venetian_treaty_of_1082",
       "tier": 3,
       "category": "trade"
     },
@@ -651,7 +651,7 @@
       "label": "Procopius's Secret History",
       "year": 550,
       "description": "Procopius's scandalous unpublished memoir savaged Justinian, Theodora, and Belisarius in unsparing detail, offering a counter-narrative to his official panegyrics.",
-      "wikiSlug": "Secret_History_(Procopius)",
+      "wikiSlug": "The_Secret_History",
       "tier": 3,
       "tags": [],
       "category": "writing"
@@ -681,7 +681,7 @@
       "label": "Rus'–Byzantine Treaty",
       "year": 907,
       "description": "Prince Oleg of Kyiv's naval raid on Constantinople forced a treaty granting Rus' merchants advantageous trading terms in the imperial capital.",
-      "wikiSlug": "Rus%E2%80%93Byzantine_Treaty_(907)",
+      "wikiSlug": "Rus'–Byzantine_Treaty_(945)",
       "tier": 3,
       "tags": [],
       "category": "trade"
@@ -922,7 +922,7 @@
       "label": "Currency Debasement Begins",
       "year": 1030,
       "description": "Starting under Constantine IX, emperors began systematically reducing the gold content of the nomisma — the coin that had held stable for 700 years. By the 1070s it had lost 70% of its gold, triggering inflation and fiscal crisis.",
-      "wikiSlug": "Debasement_of_the_Byzantine_solidus",
+      "wikiSlug": "Solidus",
       "tier": 3,
       "category": "trade"
     },
@@ -962,7 +962,6 @@
       "label": "Genoese and Pisan Trade Privileges",
       "year": 1111,
       "description": "John II and his successors extended sweeping trade concessions to Pisa (1111) and Genoa (1155), completing the transfer of Byzantine maritime commerce to Italian city-states and devastating domestic Greek merchants.",
-      "wikiSlug": "Chrysobull_of_1155",
       "tier": 3,
       "category": "trade"
     },
@@ -1019,7 +1018,7 @@
       "label": "Ottomans Cross into Europe",
       "year": 1354,
       "description": "The Ottomans seized Gallipoli — their first permanent foothold in Europe — largely because John VI Kantakouzenos had invited them as mercenaries during the civil war. Byzantium had inadvertently handed its eventual destroyers a bridgehead.",
-      "wikiSlug": "Ottoman_capture_of_Gallipoli",
+      "wikiSlug": "Fall_of_Gallipoli",
       "tier": 3,
       "category": "wars"
     },
@@ -1217,7 +1216,9 @@
       "description": "Constantine's mother Helena made a pilgrimage to Jerusalem and reportedly discovered the True Cross buried under a pagan temple on Golgotha, establishing the relic that would become the empire's most sacred object and a recurring character in Byzantine history.",
       "wikiSlug": "Helena_(empress)",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -1259,7 +1260,9 @@
       "description": "Byzantine historian and eyewitness of the 1204 sack, his Chronicle is the essential source for the Fourth Crusade and its aftermath — a horrified firsthand account of Crusaders looting Hagia Sophia and the systematic destruction of nine centuries of Byzantine civilization in three days.",
       "wikiSlug": "Niketas_Choniates",
       "tier": 3,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "people"
     },
     {
@@ -1320,7 +1323,9 @@
       "description": "Constantine XI's personal secretary and lifelong friend, Sphrantzes survived the fall of Constantinople and wrote the Memoirs — a firsthand chronicle of the last decades of the empire and the most intimate account of the emperor's final days inside the besieged city.",
       "wikiSlug": "George_Sphrantzes",
       "tier": 3,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "people"
     },
     {

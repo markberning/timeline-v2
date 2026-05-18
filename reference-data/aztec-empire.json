@@ -136,7 +136,6 @@
       "label": "Tepanec War",
       "year": 1428,
       "description": "The Mexica, allied with Texcoco and Tlacopan, defeated the Tepanec capital Azcapotzalco and ended Tepanec dominance in the Valley of Mexico.",
-      "wikiSlug": "Tepanec_War",
       "tier": 2,
       "tags": [
         "rulers"
@@ -244,7 +243,7 @@
       "label": "Nezahualcoyotl's Poetry",
       "year": 1460,
       "description": "The philosopher-king of Texcoco composed renowned Nahuatl poetry exploring themes of mortality, beauty, and the divine.",
-      "wikiSlug": "Nezahualcoyotl",
+      "wikiSlug": "Ciudad_Nezahualcóyotl",
       "tier": 2,
       "tags": [
         "people"
@@ -302,7 +301,6 @@
       "label": "Defeat by Tarascans",
       "year": 1479,
       "description": "Axayacatl's army suffered a catastrophic defeat against the Tarascan Empire, one of the few powers the Aztecs never conquered.",
-      "wikiSlug": "Battle_of_Tlaximaloyan",
       "tier": 3,
       "tags": [],
       "category": "wars"
@@ -355,9 +353,9 @@
     {
       "id": "evt-tlatelolco-market",
       "label": "Tlatelolco Market at Peak",
-      "year": 1494.0,
+      "year": 1494,
       "description": "The Tlatelolco market served 60,000 daily visitors, making it one of the largest marketplaces in the world at the time.",
-      "wikiSlug": "Tlatelolco_marketplace",
+      "wikiSlug": "Marketplace",
       "tier": 3,
       "tags": [],
       "category": "trade"
@@ -390,7 +388,7 @@
     {
       "id": "evt-aztec-calendar",
       "label": "Tonalpohualli Calendar System",
-      "year": 1498.0,
+      "year": 1498,
       "description": "The Aztec dual calendar combined a 260-day ritual cycle (tonalpohualli) with a 365-day solar cycle (xiuhpohualli) to organize religious and civic life.",
       "wikiSlug": "Tonalpohualli",
       "tier": 3,
@@ -402,7 +400,7 @@
     {
       "id": "evt-herbal-medicine",
       "label": "Aztec Herbal Medicine",
-      "year": 1502.0,
+      "year": 1502,
       "description": "Aztec physicians used over 1,200 medicinal plants, maintaining botanical gardens and a sophisticated medical tradition.",
       "wikiSlug": "Aztec_medicine",
       "tier": 3,
@@ -434,7 +432,7 @@
     {
       "id": "evt-cortes-arrives",
       "label": "Cortes Arrives",
-      "year": 1504.0,
+      "year": 1504,
       "description": "Hernan Cortes landed on the Gulf Coast with 500 soldiers and began his march toward Tenochtitlan.",
       "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
       "tier": 1,
@@ -446,7 +444,7 @@
     {
       "id": "evt-la-malinche",
       "label": "La Malinche",
-      "year": 1514.0,
+      "year": 1514,
       "description": "Malintzin (La Malinche), a Nahua woman, became Cortes's interpreter and advisor, playing a pivotal role in the conquest.",
       "wikiSlug": "La_Malinche",
       "tier": 2,
@@ -456,7 +454,7 @@
     {
       "id": "evt-tlaxcala-alliance",
       "label": "Tlaxcala Allies with Cortes",
-      "year": 1524.0,
+      "year": 1524,
       "description": "The Tlaxcalans, longtime Aztec enemies, allied with Cortes, providing thousands of warriors for the march on Tenochtitlan.",
       "wikiSlug": "Tlaxcala_(Nahua_state)",
       "tier": 2,
@@ -466,7 +464,7 @@
     {
       "id": "evt-cholula-massacre",
       "label": "Cholula Massacre",
-      "year": 1534.0,
+      "year": 1534,
       "description": "Spanish forces and Tlaxcalan allies killed thousands of Cholulans, sending a terror signal throughout the Aztec tributary network.",
       "wikiSlug": "Cholula_massacre",
       "tier": 3,
@@ -476,7 +474,7 @@
     {
       "id": "evt-noche-triste",
       "label": "La Noche Triste",
-      "year": 1506.0,
+      "year": 1506,
       "description": "The Aztecs drove the Spanish out of Tenochtitlan in a devastating nighttime battle, killing hundreds of conquistadors.",
       "wikiSlug": "La_Noche_Triste",
       "tier": 2,
@@ -486,7 +484,7 @@
     {
       "id": "evt-cuitlahuac",
       "label": "Cuitlahuac",
-      "year": 1510.0,
+      "year": 1510,
       "endYear": 1520,
       "description": "Tenth tlatoani who led the resistance during La Noche Triste but died of smallpox after only 80 days in power.",
       "wikiSlug": "Cuitl%C3%A1huac",
@@ -573,7 +571,7 @@
       "label": "Great Flood of Tenochtitlan",
       "year": 1449,
       "description": "A catastrophic flood inundated Tenochtitlan, prompting Nezahualcoyotl to design a massive dike across Lake Texcoco to protect the city.",
-      "wikiSlug": "Nezahualcoyotl#Dike",
+      "wikiSlug": "Nezahualcoyotl_(tlatoani)",
       "tier": 3,
       "tags": [
         "science"
@@ -616,7 +614,7 @@
     {
       "id": "evt-massacre-templo-mayor",
       "label": "Massacre at the Templo Mayor",
-      "year": 1540.0,
+      "year": 1540,
       "description": "Pedro de Alvarado ordered the massacre of unarmed Aztec nobles during the festival of Toxcatl at the Templo Mayor, sparking the uprising that led to La Noche Triste.",
       "wikiSlug": "Massacre_in_the_Great_Temple",
       "tier": 3,
@@ -779,7 +777,7 @@
       "label": "Cocoxtli Grants Tizapan",
       "year": 1299,
       "description": "The Culhua ruler Cocoxtli granted the wandering Mexica the desolate land of Tizapan on the southern shore of Lake Texcoco. What was meant as punishment became a foothold; the Mexica turned Tizapan into a settlement and began earning status as Culhua warriors.",
-      "wikiSlug": "Tizapan",
+      "wikiSlug": "Tizapán_el_Alto",
       "tier": 3,
       "tags": [],
       "category": "people"
@@ -949,7 +947,6 @@
       "label": "Tlatocan Judicial System",
       "year": 1435,
       "description": "Aztec civil and criminal justice was administered through a hierarchy of courts culminating in the tlatocan (supreme council). Judges were full-time specialists who heard cases daily; bribery of a judge was a capital offense. Nezahualcoyotl formalized this system in Texcoco and it spread throughout the empire.",
-      "wikiSlug": "Aztec_law",
       "tier": 3,
       "tags": [],
       "category": "people"
@@ -979,7 +976,7 @@
       "label": "The Binding of the Years",
       "year": 1455,
       "description": "The 52-year calendar round (xiuhmolpilli, meaning 'binding of the years') was the longest Aztec time cycle in common use — when both the 260-day ritual calendar and the 365-day solar calendar returned to their shared starting point. At each end-of-cycle, the Aztecs performed the New Fire Ceremony to ensure cosmic renewal.",
-      "wikiSlug": "Xiuhmolpilli",
+      "wikiSlug": "New_Fire_ceremony",
       "tier": 3,
       "tags": [
         "science"
@@ -1053,7 +1050,7 @@
       "label": "First Smallpox Wave 1520",
       "year": 1520,
       "description": "Smallpox arrived in Mexico in 1520 aboard a Spanish relief fleet, spreading ahead of Cortés's forces. The disease killed tens of thousands including tlatoani Cuitlahuac after only 80 days in power — and had no name in Nahuatl because nothing like it had ever existed in the Americas. The epidemic destroyed military command structures and demoralized defenders at the worst possible moment.",
-      "wikiSlug": "1520_Aztec_smallpox_epidemic",
+      "wikiSlug": "Smallpox",
       "tier": 2,
       "tags": [],
       "category": "science"
@@ -1147,7 +1144,7 @@
       "label": "Nezahualcoyotl's Legal Code",
       "year": 1445,
       "description": "Nezahualcoyotl of Texcoco established an 80-article legal code covering property, marriage, criminal offenses, and military conduct. Key provisions included death penalties for murder, adultery, theft by officials, and battlefield cowardice — making Texcoco one of the most legally sophisticated polities in Mesoamerica.",
-      "wikiSlug": "Nezahualcoyotl",
+      "wikiSlug": "Ciudad_Nezahualcóyotl",
       "tier": 3,
       "tags": [],
       "category": "writing"
@@ -1157,9 +1154,10 @@
       "label": "Albarradón of Nezahualcoyotl",
       "year": 1449,
       "description": "After the catastrophic flood of 1449, Nezahualcoyotl designed and supervised construction of a 10-mile stone dike across Lake Texcoco — the largest hydraulic engineering project in pre-Columbian Americas. The dike separated the brackish eastern lake from the freshwater chinampa zone to the west, protecting Tenochtitlan from further flooding and enabling the chinampa agriculture that fed the empire's capital.",
-      "wikiSlug": "Albarrad%C3%B3n_de_Nezahualc%C3%B3yotl",
       "tier": 2,
-      "tags": ["science"],
+      "tags": [
+        "science"
+      ],
       "category": "architecture"
     },
     {
@@ -1181,7 +1179,9 @@
       "description": "Last independent tlatoani of Tlatelolco, Moquihuix attempted to build an anti-Tenochtitlan coalition among rival city-states. Axayacatl crushed the revolt in 1473; Moquihuix died in the assault on Tlatelolco's Templo Mayor, ending the sister city's political independence and uniting the two island capitals under Tenochtitlan's rule.",
       "wikiSlug": "Moquihuix",
       "tier": 3,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "rulers"
     },
     {
@@ -1191,7 +1191,9 @@
       "description": "The Aztec creation myth placed at Teotihuacan: a humble, scabrous god named Nanahuatzin threw himself without hesitation into the sacrificial fire while the beautiful god Tecuciztecatl lost his nerve. Nanahuatzin was reborn as the sun, and the myth became the theological foundation for human sacrifice — the gods had sacrificed themselves to set the sun in motion, and humans owed the same debt to keep it moving.",
       "wikiSlug": "Nanahuatzin",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {

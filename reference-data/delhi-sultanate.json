@@ -60,7 +60,9 @@
       "description": "Qutb-ud-din Aibak, a Turkic slave-soldier whom Muhammad of Ghor had purchased and trained as a general, proclaimed himself Sultan at Lahore in 1206 after Muhammad's assassination. He is the founder of the Mamluk or 'Slave' dynasty — a slave-soldier dynasty ruling north India from Delhi.",
       "wikiSlug": "Qutb_ud-Din_Aibak",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -71,7 +73,9 @@
       "description": "The Quwwat-ul-Islam ('Might of Islam') mosque, the first congregational mosque in Delhi, was built by Aibak on the site of twenty-seven demolished Hindu and Jain temples whose carved columns were reused in its construction.",
       "wikiSlug": "Quwwat-ul-Islam_Mosque",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -82,7 +86,9 @@
       "description": "The Qutb Minar in Delhi, a 240-foot fluted sandstone-and-marble victory tower begun by Aibak and completed under his successors, is the tallest brick minaret in the world and the defining monument of Mamluk-era Delhi.",
       "wikiSlug": "Qutb_Minar",
       "tier": 1,
-      "tags": ["architecture"],
+      "tags": [
+        "architecture"
+      ],
       "category": "architecture"
     },
     {
@@ -93,7 +99,9 @@
       "description": "Aibak's son-in-law Iltutmish was the real consolidator of the early Sultanate — defeating Aibak's rivals, securing the Khalifa's investiture from Baghdad, building Delhi's first true administrative state, and surviving the early threat of Genghis Khan's Mongols on the western frontier.",
       "wikiSlug": "Iltutmish",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -101,7 +109,7 @@
       "label": "Tomb of Iltutmish",
       "year": 1236,
       "description": "The Tomb of Iltutmish in the Qutb complex is the earliest surviving Islamic mausoleum in India, with intricate Arabic and Persian calligraphy carved into red sandstone.",
-      "wikiSlug": "Tomb_of_Iltutmish",
+      "wikiSlug": "Iltutmish",
       "tier": 3,
       "tags": [],
       "category": "architecture"
@@ -113,7 +121,9 @@
       "description": "Genghis Khan personally pursued the Khwarezmian prince Jalaluddin Mingburnu to the Indus river in 1221, briefly bringing the Mongol army within striking distance of Delhi. Iltutmish wisely refused to shelter the fugitive prince and the Mongols withdrew, sparing the new Sultanate its first existential test.",
       "wikiSlug": "Mongol_invasions_of_India",
       "tier": 2,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "wars"
     },
     {
@@ -124,7 +134,9 @@
       "description": "Iltutmish's daughter Razia ruled the Delhi Sultanate from 1236 to 1240 — the only female sultan of medieval India and one of very few women to hold sovereign power in the medieval Islamic world. She was deposed and killed by the Turkic noble faction known as the Forty.",
       "wikiSlug": "Razia_Sultana",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -145,7 +157,9 @@
       "description": "Ghiyas-ud-din Balban, originally one of the Forty, took the throne and broke their power. He introduced Persian court ceremonial (sijdah and paibos prostration), built up a professional army to deal with Mongol raids, and ruled with calculated terror to restore the central state.",
       "wikiSlug": "Ghiyas_ud_din_Balban",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -167,7 +181,9 @@
       "description": "Jalaluddin Khalji deposed the last Mamluk sultan and founded the Khalji dynasty in 1290. He ruled gently for six years until he was murdered by his own nephew Alauddin in a riverside meeting at Kara.",
       "wikiSlug": "Jalal-ud-din_Khalji",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -178,7 +194,10 @@
       "description": "Alauddin Khalji, who came to the throne by murdering his uncle Jalaluddin in 1296, became the most powerful ruler the Sultanate ever produced. He repulsed six Mongol invasions, conquered the Rajput citadels, sent Malik Kafur on raids deep into the south, and ran a centrally-planned price-control economy.",
       "wikiSlug": "Alauddin_Khalji",
       "tier": 1,
-      "tags": ["rulers", "wars"],
+      "tags": [
+        "rulers",
+        "wars"
+      ],
       "category": "rulers"
     },
     {
@@ -189,7 +208,9 @@
       "description": "Between 1296 and 1306, six separate Mongol armies from the Chagatai khanate invaded the Sultanate. Alauddin's reorganized army, equipped with new fortified frontier garrisons under generals like Zafar Khan and Ghazi Malik, defeated all six. The most dangerous invasion, in 1303, reached Delhi itself but failed to take the city.",
       "wikiSlug": "Mongol_invasions_of_India",
       "tier": 1,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "wars"
     },
     {
@@ -199,7 +220,9 @@
       "description": "After the 1303 Mongol siege of Delhi, Alauddin built a new fortified city, Siri, to house his expanded army. The walls were reportedly mortared with the skulls of Mongol prisoners, a detail recorded by the chronicler Barani that may be propaganda.",
       "wikiSlug": "Siri_Fort",
       "tier": 3,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "architecture"
     },
     {
@@ -210,7 +233,9 @@
       "description": "Alauddin Khalji's armies systematically reduced the Rajput strongholds: Ranthambore (1301), Chittor (1303 — site of the legendary jauhar of Padmini), Mandu, Siwana, and Jalor. The conquests effectively ended Rajput political independence in north India for the rest of the Sultanate period.",
       "wikiSlug": "Siege_of_Chittorgarh_(1303)",
       "tier": 2,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "wars"
     },
     {
@@ -221,7 +246,10 @@
       "description": "Alauddin's slave-general Malik Kafur led three southern campaigns that raided the Yadavas of Devagiri, the Kakatiyas of Warangal, the Hoysalas of Dwarasamudra, and the Pandyas of Madurai. The raids reached as far south as Madurai (~1,400 miles from Delhi) and brought back unprecedented quantities of treasure including the Koh-i-Noor diamond.",
       "wikiSlug": "Malik_Kafur",
       "tier": 1,
-      "tags": ["wars", "people"],
+      "tags": [
+        "wars",
+        "people"
+      ],
       "category": "wars"
     },
     {
@@ -231,7 +259,9 @@
       "description": "Alauddin Khalji set fixed prices in the Delhi markets for grain, cloth, slaves, and animals, enforced by an elaborate intelligence network and a separate market-supervision department under Malik Yaqub. The system funded a large standing army at low cost and is the most ambitious medieval Indian experiment in state economic planning.",
       "wikiSlug": "Alauddin_Khalji",
       "tier": 2,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "trade"
     },
     {
@@ -242,7 +272,10 @@
       "description": "Amir Khusrau, court poet to seven successive sultans, was the most influential Persian and Hindavi-language writer of the Sultanate. He pioneered the qawwali devotional song form, attended the dargah of Nizamuddin Auliya, and is sometimes credited (probably apocryphally) with inventing the sitar and tabla.",
       "wikiSlug": "Amir_Khusrau",
       "tier": 1,
-      "tags": ["writing", "people"],
+      "tags": [
+        "writing",
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -253,7 +286,9 @@
       "description": "Ziauddin Barani, courtier of Muhammad bin Tughlaq and chronicler of the Sultanate from Balban to Firuz Shah, wrote the Tarikh-i Firuzshahi — the most important Persian-language history of fourteenth-century Delhi.",
       "wikiSlug": "Ziauddin_Barani",
       "tier": 2,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "writing"
     },
     {
@@ -264,7 +299,9 @@
       "description": "Ghazi Malik, the Khalji frontier governor who had defeated Mongols on the Punjab line, deposed the Khalji usurper Khusrau Khan in 1320 and proclaimed himself Ghiyasuddin Tughlaq, founding the Tughlaq dynasty. He died in 1325 when a wooden pavilion built to welcome him on his return from Bengal collapsed — possibly an accident, possibly a coup engineered by his son.",
       "wikiSlug": "Ghiyath_al-Din_Tughluq",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -275,7 +312,9 @@
       "description": "Ghiyasuddin Tughlaq built the massive new fortress city of Tughlaqabad on the southern outskirts of Delhi — six and a half miles of cyclopean walls enclosing a citadel and palace complex. It was abandoned within a few years of his death, possibly because it lacked a reliable water supply.",
       "wikiSlug": "Tughlaqabad_Fort",
       "tier": 3,
-      "tags": ["architecture"],
+      "tags": [
+        "architecture"
+      ],
       "category": "architecture"
     },
     {
@@ -286,7 +325,9 @@
       "description": "Muhammad bin Tughlaq, perhaps the most controversial sultan of medieval India, was a brilliant scholar — fluent in Arabic and Persian philosophy, mathematician, astronomer — whose imperial experiments routinely ended in catastrophe. He moved the capital to Daulatabad, introduced a token currency, attempted to invade Khurasan, and lost most of the south to revolt during his reign.",
       "wikiSlug": "Muhammad_bin_Tughluq",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -296,7 +337,9 @@
       "description": "Muhammad bin Tughlaq ordered the entire population of Delhi to migrate 700 miles south to a new capital at Daulatabad in the Deccan, intending to govern the recently conquered south more closely. The migration produced enormous suffering and the move was reversed within a few years.",
       "wikiSlug": "Daulatabad_Fort",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -307,7 +350,9 @@
       "description": "Muhammad bin Tughlaq introduced a brass and copper token coinage backed by the imperial treasury — six centuries before fiat currency became normal. The experiment collapsed when the empire could not prevent forgers from minting their own tokens, and the treasury accepted them all back at face value, draining the gold reserve.",
       "wikiSlug": "Muhammad_bin_Tughluq",
       "tier": 2,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "trade"
     },
     {
@@ -317,7 +362,9 @@
       "description": "Muhammad bin Tughlaq raised an army of 370,000 troops to invade Khurasan and overthrow the Chagatai khanate. The army was paid for a year and then disbanded without leaving Delhi when the political situation in Central Asia changed, draining the treasury for nothing.",
       "wikiSlug": "Muhammad_bin_Tughluq",
       "tier": 3,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "wars"
     },
     {
@@ -328,7 +375,10 @@
       "description": "The Moroccan traveler Ibn Battuta arrived in Delhi in 1334 and served as a qadi (Islamic judge) at Muhammad bin Tughlaq's court for eight years. His Rihla provides the most detailed surviving outsider account of the Sultanate at its territorial peak.",
       "wikiSlug": "Ibn_Battuta",
       "tier": 2,
-      "tags": ["people", "writing"],
+      "tags": [
+        "people",
+        "writing"
+      ],
       "category": "people"
     },
     {
@@ -338,7 +388,9 @@
       "description": "Discontented Deccan officials revolted against Muhammad bin Tughlaq in 1347 and proclaimed Hasan Gangu as Alauddin Bahman Shah, founding the independent Bahmani Sultanate. The Deccan would never again be ruled directly from Delhi.",
       "wikiSlug": "Bahmani_Sultanate",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -348,7 +400,9 @@
       "description": "Two brothers, Harihara and Bukka — formerly officials of the Kakatiya kingdom captured and converted to Islam by the Tughlaq forces — were sent south to govern the Deccan, then re-converted to Hinduism and founded the Vijayanagara empire on the Tungabhadra river. Vijayanagara would become the dominant Hindu power of southern India for the next two centuries.",
       "wikiSlug": "Vijayanagara_Empire",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -359,7 +413,9 @@
       "description": "Firuz Shah Tughlaq inherited a contracting empire and ruled it for 37 years with policies of fiscal restraint, public works, and conservative orthodoxy. He built canals, founded new cities (Firuzabad, Hisar, Jaunpur), and recorded his reign in his autobiographical Futuhat-i Firuzshahi.",
       "wikiSlug": "Firuz_Shah_Tughlaq",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -367,9 +423,11 @@
       "label": "Firuz Shah's Canals",
       "year": 1355,
       "description": "Firuz Shah Tughlaq built the West Yamuna Canal and several other irrigation works that transformed agriculture in the Punjab and around Delhi. The canal network was rebuilt by the Mughals and parts of it remain in use today.",
-      "wikiSlug": "West_Yamuna_Canal",
+      "wikiSlug": "Western_Yamuna_Canal",
       "tier": 3,
-      "tags": ["science"],
+      "tags": [
+        "science"
+      ],
       "category": "science"
     },
     {
@@ -379,7 +437,10 @@
       "description": "Firuz Shah Tughlaq, fascinated by ancient inscriptions, transported two Ashoka pillars (the Topra and Meerut pillars) to Delhi at enormous engineering effort. He could not read the Brahmi script — the inscriptions would not be deciphered until James Prinsep in 1837 — but he preserved the pillars as imperial trophies.",
       "wikiSlug": "Pillars_of_Ashoka",
       "tier": 3,
-      "tags": ["architecture", "writing"],
+      "tags": [
+        "architecture",
+        "writing"
+      ],
       "category": "architecture"
     },
     {
@@ -390,7 +451,9 @@
       "description": "Malik Sarwar, formerly a Tughlaq governor, declared independence in the eastern Ganges plain and founded the Jaunpur Sultanate. Under the Sharqi dynasty, Jaunpur became one of the most culturally productive of the breakaway sultanates, building the distinctive Atala Mosque and patronizing Hindavi poetry.",
       "wikiSlug": "Jaunpur_Sultanate",
       "tier": 3,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -401,7 +464,10 @@
       "description": "Bengal had been functionally independent of Delhi for most of the fourteenth century. Shamsuddin Ilyas Shah formalized the breakaway in 1352, founding the Ilyas Shahi dynasty. The Bengal Sultanate became one of the wealthiest Islamic states in the world, the patron of Bengali-language literature, and the trading hub between the Sultanate and the Indian Ocean spice routes.",
       "wikiSlug": "Bengal_Sultanate",
       "tier": 3,
-      "tags": ["rulers", "trade"],
+      "tags": [
+        "rulers",
+        "trade"
+      ],
       "category": "rulers"
     },
     {
@@ -412,7 +478,9 @@
       "description": "Dilawar Khan Ghuri, governor of Malwa, declared independence after Timur's invasion. The Malwa Sultanate's capital at Mandu became the patron of one of the most distinctive Indo-Islamic architectural styles, with the Jahaz Mahal palace and the Hoshang Shah's Tomb (a model for the Taj Mahal).",
       "wikiSlug": "Malwa_Sultanate",
       "tier": 3,
-      "tags": ["architecture"],
+      "tags": [
+        "architecture"
+      ],
       "category": "rulers"
     },
     {
@@ -423,7 +491,9 @@
       "description": "Zafar Khan, Tughlaq governor of Gujarat, declared independence as Muzaffar Shah in 1407, founding the Gujarat Sultanate. Gujarat became the wealthiest of the breakaway sultanates, controlling the western Indian Ocean trade through the port of Cambay and later Surat.",
       "wikiSlug": "Gujarat_Sultanate",
       "tier": 3,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "rulers"
     },
     {
@@ -433,7 +503,9 @@
       "description": "Timur invaded northern India in 1398, defeated the Tughlaq sultan Mahmud Shah at the Battle of Delhi, sacked the city for three days, and reportedly massacred 100,000 prisoners outside its walls before retreating to Samarkand. The sack effectively destroyed the Tughlaq state and reduced Delhi to rubble for a generation.",
       "wikiSlug": "Timur",
       "tier": 1,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "wars"
     },
     {
@@ -443,7 +515,9 @@
       "description": "Khizr Khan, Timur's appointed governor of the Punjab, captured Delhi in 1414 and founded the Sayyid dynasty as nominal vassals of the Timurids. The Sayyids never controlled more than the territory immediately around Delhi; the dynasty ruled a city, not an empire.",
       "wikiSlug": "Sayyid_dynasty",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -454,7 +528,9 @@
       "description": "Bahlul Lodi, an Afghan chieftain from the Pashtun Lodi tribe, took Delhi from the last Sayyid sultan in 1451 and founded the Lodi dynasty — the first non-Turkic dynasty of the Sultanate. He spent his reign reabsorbing the Sharqi Sultanate of Jaunpur into Delhi's orbit.",
       "wikiSlug": "Bahlul_Khan_Lodi",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -465,7 +541,9 @@
       "description": "Bahlul's son Sikandar Lodi was the most capable Lodi sultan. He founded the new city of Agra in 1504 to better control the Doab, expanded Sultanate authority into Bihar, and patronized Persian and Hindavi poetry under his pen-name Gulrukhi.",
       "wikiSlug": "Sikandar_Lodi",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -486,7 +564,9 @@
       "description": "Ibrahim Lodi, the last Sultan of Delhi, alienated his Afghan nobility through harsh treatment, lost battles to rebellious uncles and dissident governors, and was finally challenged when the Punjab governor Daulat Khan Lodi invited Babur of Kabul to invade. Ibrahim died at the First Battle of Panipat in 1526.",
       "wikiSlug": "Ibrahim_Lodi",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -497,7 +577,9 @@
       "description": "The Lodi sultans pioneered the octagonal-tomb architectural style — exemplified in the tombs of Sikandar Lodi and Muhammad Shah Sayyid in modern Lodi Gardens — that the Mughals would refine into the Humayun's Tomb and ultimately the Taj Mahal.",
       "wikiSlug": "Lodi_Gardens",
       "tier": 3,
-      "tags": ["architecture"],
+      "tags": [
+        "architecture"
+      ],
       "category": "architecture"
     },
     {
@@ -507,7 +589,9 @@
       "description": "On April 21, 1526, Babur — the Timurid prince who had been driven out of Samarkand and built a kingdom at Kabul — defeated Ibrahim Lodi's much larger army at Panipat, 55 miles north of Delhi, using matchlock musketeers behind a wagon-fort and field artillery to break repeated Afghan cavalry charges. Ibrahim died on the field. The Sultanate was over.",
       "wikiSlug": "First_Battle_of_Panipat",
       "tier": 1,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "wars"
     },
     {
@@ -517,7 +601,10 @@
       "description": "Babur, the Timurid-Mongol prince ruling from Kabul since 1504, accepted Daulat Khan Lodi's invitation to invade and crossed the Indus with a small but well-equipped army including Ottoman-trained matchlock musketeers and Turkish field artillery. The campaign that destroyed the Sultanate also founded the Mughal Empire.",
       "wikiSlug": "Babur",
       "tier": 1,
-      "tags": ["rulers", "wars"],
+      "tags": [
+        "rulers",
+        "wars"
+      ],
       "category": "rulers"
     },
     {
@@ -527,7 +614,9 @@
       "description": "Malik Kafur's southern raids brought the Koh-i-Noor diamond — the great Golconda stone, eventually one of the largest cut diamonds in the world — into the Delhi treasury for the first time. The stone would pass to the Mughals, then to Nader Shah after his 1739 sack of Delhi, and ultimately to the British Crown Jewels.",
       "wikiSlug": "Koh-i-Noor",
       "tier": 3,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "trade"
     },
     {
@@ -538,7 +627,10 @@
       "description": "Sheikh Nizamuddin Auliya of Delhi was the most influential Chishti Sufi master of the Sultanate period. His dargah — still a working pilgrimage site in modern Delhi — drew disciples from every social class and sultanate dynasty, and his teachings on universal love and tolerance shaped Indian Sufism for centuries.",
       "wikiSlug": "Nizamuddin_Auliya",
       "tier": 1,
-      "tags": ["religion", "people"],
+      "tags": [
+        "religion",
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -548,7 +640,9 @@
       "description": "Khwaja Moinuddin Chishti, originally from Sistan in eastern Iran, settled at Ajmer in Rajasthan in the 1190s and founded the Chishti Sufi order in India. The Chishti dargah at Ajmer remains one of the most visited religious sites on the subcontinent, attracting pilgrims of every faith.",
       "wikiSlug": "Chishti_Order",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -559,7 +653,10 @@
       "description": "Khwaja Moinuddin Chishti, the founder of the Chishti order in India, settled at Ajmer in Rajasthan around the time of Muhammad of Ghor's victories. His dargah at Ajmer is the most visited Sufi shrine in the world, drawing both Muslim and Hindu pilgrims through to the present day.",
       "wikiSlug": "Moinuddin_Chishti",
       "tier": 2,
-      "tags": ["religion", "people"],
+      "tags": [
+        "religion",
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -570,7 +667,10 @@
       "description": "The Bhakti devotional movement, which had begun in the Tamil south centuries earlier, reached its northern peak during the late Sultanate. Vernacular Hindi-Hindavi devotional poetry by Kabir, Ravidas, Surdas, Mirabai, and Tulsidas reframed Hindu worship around personal love of a chosen deity, accessible to all castes.",
       "wikiSlug": "Bhakti_movement",
       "tier": 1,
-      "tags": ["religion", "writing"],
+      "tags": [
+        "religion",
+        "writing"
+      ],
       "category": "religion"
     },
     {
@@ -581,7 +681,10 @@
       "description": "Kabir, the Banaras weaver-poet, wrote ferociously plain Hindavi verse mocking both Brahmin priestcraft and Sufi formalism, and pointing past both to a single formless God. His poetry was central to the late-Sultanate Bhakti movement and his verses entered both the Hindu Bhakti canon and the Sikh Adi Granth.",
       "wikiSlug": "Kabir",
       "tier": 1,
-      "tags": ["writing", "religion"],
+      "tags": [
+        "writing",
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -592,7 +695,10 @@
       "description": "Guru Nanak, born in Punjab in 1469, founded the religion that became Sikhism. Drawing on Bhakti devotionalism and Sufi mysticism, Nanak preached one formless God, the equality of all human beings, and devotion expressed through honest work and shared community kitchens — the langar.",
       "wikiSlug": "Guru_Nanak",
       "tier": 1,
-      "tags": ["religion", "people"],
+      "tags": [
+        "religion",
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -603,7 +709,10 @@
       "description": "Ravidas, a Banaras leather-worker (a low-caste profession that would later be classed as Dalit) and contemporary of Kabir, wrote Bhakti devotional poetry that addressed God directly and explicitly rejected the legitimacy of caste hierarchy. His verses are sung as devotional hymns and are included in the Sikh scriptures.",
       "wikiSlug": "Ravidas",
       "tier": 3,
-      "tags": ["writing", "religion"],
+      "tags": [
+        "writing",
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -614,7 +723,10 @@
       "description": "Mirabai, a Rajput princess of the Mewar royal family, abandoned her marital obligations to write Krishna-devotional poetry that would become some of the most beloved Hindi devotional verse ever written. Her songs, addressed to Krishna as her divine lover, reframed Bhakti devotion through unmistakably female-voiced longing.",
       "wikiSlug": "Mirabai",
       "tier": 3,
-      "tags": ["writing", "people"],
+      "tags": [
+        "writing",
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -624,7 +736,10 @@
       "description": "The qawwali — Sufi devotional song with a leader-and-chorus structure, percussion accompaniment, and rising emotional intensity — was developed at the Chishti dargahs of Sultanate-era Delhi, traditionally credited to Amir Khusrau. Modern qawwali, performed at Sufi shrines from Delhi to Lahore, is a direct continuation of the tradition.",
       "wikiSlug": "Qawwali",
       "tier": 3,
-      "tags": ["religion", "writing"],
+      "tags": [
+        "religion",
+        "writing"
+      ],
       "category": "religion"
     },
     {
@@ -634,7 +749,9 @@
       "description": "Hindavi — the contact language of Persian-speaking soldiers and administrators meeting Hindi-speaking subjects in the bazaars and barracks of Sultanate-era Delhi — was the first form of what would later differentiate into Urdu and Hindi. Amir Khusrau wrote some of the earliest surviving Hindavi verse.",
       "wikiSlug": "Hindi%E2%80%93Urdu_controversy",
       "tier": 2,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "writing"
     },
     {
@@ -644,7 +761,9 @@
       "description": "The Sultanate ran on the iqta system inherited from the eastern Islamic world: revenue from a designated district was assigned to a military officer (an iqtadar) in lieu of cash salary, in exchange for maintaining a stipulated number of cavalry. The system funded the Sultanate's army and shaped land-tenure patterns the Mughals would inherit.",
       "wikiSlug": "Iqta",
       "tier": 2,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "trade"
     },
     {
@@ -654,7 +773,10 @@
       "description": "The Sultanate levied jizya, the Islamic poll-tax on non-Muslim dhimmi subjects, on its overwhelmingly Hindu population — though enforcement varied dramatically by sultan, with Firuz Shah Tughlaq the strictest and most pre-Lodi sultans applying it loosely or only in cities.",
       "wikiSlug": "Jizya",
       "tier": 2,
-      "tags": ["trade", "religion"],
+      "tags": [
+        "trade",
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -664,7 +786,9 @@
       "description": "The Sultanate court spoke and wrote in Persian, dressed in Persian and Central Asian style, kept Persian poetic conventions, and consciously modeled itself on the Samanid and Ghaznavid Persianate courts. Persian remained the official language of north Indian administration through the Mughals and into the early British period — until 1837.",
       "wikiSlug": "Persianate_society",
       "tier": 2,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "writing"
     },
     {
@@ -674,7 +798,9 @@
       "description": "Sultanate architecture — the Qutb complex, Tughlaqabad, the Lodi tombs, the Atala Mosque at Jaunpur, the Adina Mosque in Bengal — fused Persian arch-and-dome construction with Indian craftsmen's stone-carving techniques to produce a distinct Indo-Islamic style. The Mughals would build directly on this template.",
       "wikiSlug": "Indo-Islamic_architecture",
       "tier": 2,
-      "tags": ["architecture"],
+      "tags": [
+        "architecture"
+      ],
       "category": "architecture"
     },
     {
@@ -684,7 +810,9 @@
       "description": "The fourth-century Gupta-era Iron Pillar — a 24-foot, six-ton pillar of nearly pure wrought iron that has resisted rust for sixteen centuries — was incorporated into the Quwwat-ul-Islam mosque courtyard by Aibak. Its survival in the Sultanate's premier mosque is one of the more striking instances of architectural reuse in world history.",
       "wikiSlug": "Iron_pillar_of_Delhi",
       "tier": 3,
-      "tags": ["science"],
+      "tags": [
+        "science"
+      ],
       "category": "science"
     },
     {
@@ -694,7 +822,9 @@
       "description": "Firuz Shah Tughlaq founded a new fortified palace-city, Firuzabad — modern Firuz Shah Kotla in central Delhi — as the Tughlaq capital after the failures of Daulatabad. The fortress walls and the Ashoka pillar Firuz transported there are still standing.",
       "wikiSlug": "Firoz_Shah_Kotla",
       "tier": 3,
-      "tags": ["architecture"],
+      "tags": [
+        "architecture"
+      ],
       "category": "architecture"
     },
     {
@@ -705,7 +835,9 @@
       "description": "The Bahmani Sultanate fractured between 1490 and 1518 into five successor sultanates: Ahmadnagar, Bijapur, Berar, Bidar, and Golconda. The five Deccan sultanates would dominate central India until the Mughal conquests of the seventeenth century and would build some of the most distinctive Indo-Persian architecture of the period (Bijapur's Gol Gumbaz dome, Golconda's fort).",
       "wikiSlug": "Deccan_sultanates",
       "tier": 3,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -716,7 +848,9 @@
       "description": "Vijayanagara grew from its 1336 founding into the dominant Hindu power of southern India, controlling the Deccan plateau and the south coast and accumulating vast wealth from Indian Ocean trade. At its peak under Krishnadevaraya (1509–1529), the empire was a deliberate Hindu counterweight to the Sultanate north and the Bahmani Sultanate east.",
       "wikiSlug": "Vijayanagara_Empire",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -726,7 +860,10 @@
       "description": "Vasco da Gama landed at Calicut on the Malabar coast in 1498, opening direct sea trade between Europe and India. The arrival of the Portuguese — and shortly the Dutch, English, and French — would transform the economic geography of the subcontinent in ways the inland Sultanate did not initially grasp.",
       "wikiSlug": "Vasco_da_Gama",
       "tier": 2,
-      "tags": ["trade", "people"],
+      "tags": [
+        "trade",
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -736,7 +873,9 @@
       "description": "Afonso de Albuquerque captured Goa from the Bijapur Sultanate in 1510, founding the first European territorial possession in India. Portuguese Goa would remain in European hands for 451 years, until India annexed it in 1961.",
       "wikiSlug": "Portuguese_India",
       "tier": 3,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "trade"
     },
     {
@@ -746,7 +885,9 @@
       "description": "Sharaf al-Din Ali Yazdi's Zafarnama, the official Timurid chronicle of Timur's campaigns including the 1398 Indian invasion, was completed at the Timurid court at Herat. It is the principal Persian source for Timur's sack of Delhi.",
       "wikiSlug": "Zafarnama_(Yazdi_biography)",
       "tier": 3,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "writing"
     },
     {
@@ -756,7 +897,10 @@
       "description": "Babur's Chagatai Turkish autobiography, the Baburnama, includes detailed eyewitness descriptions of Hindustan's geography, plants, animals, and people on the eve of his conquest — a unique outsider perspective on the late-Sultanate landscape from the man who ended it.",
       "wikiSlug": "Baburnama",
       "tier": 2,
-      "tags": ["writing", "people"],
+      "tags": [
+        "writing",
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -767,7 +911,9 @@
       "description": "Beyond the Chishti, the Suhrawardi (centered at Multan), the Naqshbandi (introduced from Central Asia in the late Sultanate), and the Qadiri orders all established Indian branches during the Sultanate centuries. Sufi dargahs became major institutions of religious, cultural, and even political authority across north India.",
       "wikiSlug": "Sufism_in_India",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -776,9 +922,10 @@
       "year": 1206,
       "endYear": 1526,
       "description": "The Sultanate's record on Hindu and Jain temples is uneven: massive destruction in conquest campaigns (Aibak's Delhi mosques on temple foundations, Alauddin's sack of Somnath, Malik Kafur's southern raids), passive tolerance under most sultans, and active patronage by some rulers (Firuz Shah's repairs to certain Jain temples). Temple-building continued unabated outside direct Sultanate control, especially in Vijayanagara and Rajasthan.",
-      "wikiSlug": "Iconoclasm_in_the_Indian_subcontinent",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -789,7 +936,9 @@
       "description": "Despite Alauddin Khalji's reduction of the Rajput strongholds, the Rajput dynasties of Mewar (Sisodia), Marwar (Rathore), Amber (Kachhwaha), and others survived and reasserted themselves during the Sultanate's contractions. Rana Sanga of Mewar fielded the army that opposed Babur after Panipat at the Battle of Khanwa in 1527.",
       "wikiSlug": "Rajput",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -800,7 +949,9 @@
       "description": "The Sultanate plugged into the Indian Ocean trade system that had been operating since the Cholas. Arab and Persian merchants brought horses (the Sultanate's perpetual cavalry shortage made horse-imports critical), and Indian textiles, indigo, and spices flowed back. The Sultanate also traded overland with Central Asia and China through the same Khyber Pass routes its founders had invaded by.",
       "wikiSlug": "Indian_Ocean_trade",
       "tier": 2,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "trade"
     },
     {
@@ -810,7 +961,9 @@
       "description": "Paper-making, known to the Islamic world since the eighth century, spread into India during the Sultanate period through Central Asian and Persian channels. By the Tughlaq era, paper had largely displaced palm-leaf and birch-bark for administrative records and Persian literary manuscripts.",
       "wikiSlug": "History_of_paper",
       "tier": 3,
-      "tags": ["science"],
+      "tags": [
+        "science"
+      ],
       "category": "science"
     },
     {
@@ -820,7 +973,9 @@
       "description": "The Mughal Empire that succeeded the Sultanate at Panipat inherited and refined the Sultanate's institutional framework: the iqta-derived land-revenue system, the Persian language of administration, the Indo-Islamic architectural tradition, the Sufi-ulama balance in religious affairs, and the practice of governing a Hindu-majority population through a Muslim military aristocracy.",
       "wikiSlug": "Mughal_Empire",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -830,7 +985,9 @@
       "description": "The Hindavi spoken in Sultanate-era Delhi gradually accumulated Persian and Arabic vocabulary into what would, by the Mughal period, be called Rekhta and eventually Urdu. The bazaar-and-barracks language of the Sultanate is the direct linguistic ancestor of one of the most-spoken languages in the world today.",
       "wikiSlug": "Urdu",
       "tier": 3,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "writing"
     },
     {
@@ -840,7 +997,9 @@
       "description": "Iltutmish introduced the silver tanka and copper jital as the standard coinage of the Sultanate, replacing the irregular regional coinages of Hindu kingdoms. The silver tanka would be the basic unit of Indian currency through the Mughal period and the etymological ancestor of the modern Bangladeshi taka.",
       "wikiSlug": "Tanka",
       "tier": 3,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "trade"
     },
     {
@@ -850,7 +1009,9 @@
       "description": "Bahauddin Zakariya, founder of the Indian Suhrawardi Sufi order, established his khanqah at Multan and built one of the most influential Sufi institutions of the early Sultanate. The Suhrawardi order's tradition of accumulating wealth and political influence (in contrast to the more austere Chishtis) made it a player in dynastic politics.",
       "wikiSlug": "Suhrawardiyya",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -861,7 +1022,9 @@
       "description": "The Bahmani Sultanate built a distinctive Deccan-Persian architectural tradition at its capitals Gulbarga and (after 1432) Bidar, including the great Jami Mosque at Gulbarga and the Madrasa of Mahmud Gawan at Bidar — among the largest medieval madrasas in the Islamic world.",
       "wikiSlug": "Bahmani_Sultanate",
       "tier": 3,
-      "tags": ["architecture"],
+      "tags": [
+        "architecture"
+      ],
       "category": "architecture"
     },
     {
@@ -872,7 +1035,9 @@
       "description": "The late Sultanate coincided with the end of the Medieval Warm Period and the onset of the Little Ice Age across Eurasia. Repeated famines under Muhammad bin Tughlaq — which Barani's chronicle blames on royal mismanagement — likely also reflected real climate stress on Indian agriculture.",
       "wikiSlug": "Little_Ice_Age",
       "tier": 3,
-      "tags": ["science"],
+      "tags": [
+        "science"
+      ],
       "category": "science"
     },
     {
@@ -882,7 +1047,9 @@
       "description": "Abdul Malik Isami's Futuh-us-Salatin, completed in the Bahmani court in 1350, is the principal verse chronicle of the early Sultanate from the Mamluks through the Tughlaqs — a crucial counterweight to the Delhi-court chronicle of Barani.",
       "wikiSlug": "Isami",
       "tier": 3,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "writing"
     }
   ]

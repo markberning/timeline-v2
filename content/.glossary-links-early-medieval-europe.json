@@ -153,7 +153,7 @@
     {
       "term": "Saint Remigius",
       "matchText": "Remigius",
-      "wikiSlug": "Remigius",
+      "wikiSlug": "Saint_Remigius",
       "type": "people"
     }
   ],
@@ -854,8 +854,9 @@
     {
       "term": "Ordinatio Imperii",
       "matchText": "Ordinatio Imperii",
-      "wikiSlug": "Ordinatio_Imperii",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The Ordinatio Imperii was Louis the Pious's 817 decree spelling out how the Frankish empire would pass to his sons — meant to keep the realm whole under one senior emperor, it instead lit the fuse for decades of civil war among his heirs."
     },
     {
       "term": "Missus dominicus",

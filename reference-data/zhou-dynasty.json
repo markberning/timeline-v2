@@ -2058,7 +2058,7 @@
       "label": "Feng-Hao Twin Capitals",
       "year": -1046,
       "description": "The Zhou built twin capitals at Feng and Hao near modern Xi'an — Feng as the ceremonial center and Hao as the administrative capital — establishing a model of dual capitals used throughout Chinese history.",
-      "wikiSlug": "Feng,_Zhou",
+      "wikiSlug": "Fenghao",
       "tier": 3,
       "tags": [],
       "category": "architecture",
@@ -2755,7 +2755,7 @@
       "label": "Linzi — Warring States Metropolis",
       "year": -374,
       "description": "Linzi, capital of Qi, grew into a city of 300,000–700,000 people — the largest city on Earth during the Warring States period — a center of trade, philosophy, and iron manufacturing.",
-      "wikiSlug": "Linzi",
+      "wikiSlug": "Ancient_Linzi",
       "tier": 2,
       "tags": [],
       "category": "architecture",
@@ -2895,7 +2895,7 @@
       "year": -310,
       "endYear": -235,
       "description": "Xunzi argued that human nature is inherently selfish and requires education and ritual to become good — the opposite of Mencius. His students Han Feizi and Li Si built the Qin Empire.",
-      "wikiSlug": "Xunzi",
+      "wikiSlug": "Xunzi_(philosopher)",
       "tier": 3,
       "tags": [],
       "category": "people",
@@ -3108,7 +3108,9 @@
       "description": "After 19 years in exile, Duke Wen claimed the Jin throne and became hegemon, establishing Jin as the dominant northern power at the Battle of Chengpu.",
       "wikiSlug": "Duke_Wen_of_Jin",
       "tier": 3,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "rulers"
     },
     {
@@ -3169,7 +3171,9 @@
       "description": "King Wuling of Zhao adopted nomadic riding dress and cavalry tactics, a cultural revolution that shocked the Chinese world and transformed Warring States warfare.",
       "wikiSlug": "King_Wuling_of_Zhao",
       "tier": 3,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "rulers"
     },
     {
@@ -3179,7 +3183,9 @@
       "description": "The foundational text of Daoism, attributed to Laozi, offered an alternative to Confucianism through paradox, naturalness, and wuwei. It is the second most translated book in world history.",
       "wikiSlug": "Tao_Te_Ching",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -3190,7 +3196,9 @@
       "description": "Zou Yan systematized the yin-yang and five-phases cosmological framework that would underpin Chinese medicine, astrology, and dynastic succession theory for millennia.",
       "wikiSlug": "Zou_Yan",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -3241,7 +3249,9 @@
       "description": "Qin's most feared general, credited with killing over one million enemy soldiers. His massacre of 400,000 Zhao prisoners at Changping remains one of history's most devastating atrocities.",
       "wikiSlug": "Bai_Qi",
       "tier": 3,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "people"
     },
     {

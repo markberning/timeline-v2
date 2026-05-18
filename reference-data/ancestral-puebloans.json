@@ -76,7 +76,7 @@
       "label": "Coiled Basketry Tradition",
       "year": -50,
       "description": "Basketmaker peoples developed extraordinarily fine coiled baskets woven so tightly they could hold water, using yucca fiber and other desert plants in intricate designs.",
-      "wikiSlug": "Basketmaker_II_Era",
+      "wikiSlug": "Basketmaker_culture",
       "tier": 2,
       "tags": [],
       "category": "architecture"
@@ -126,7 +126,7 @@
       "label": "Woven Yucca Sandals",
       "year": 250,
       "description": "Basketmaker artisans crafted elaborately woven sandals from yucca fiber, with distinctive square-toe and round-toe styles that varied by region, serving as one of the earliest markers of Puebloan cultural identity.",
-      "wikiSlug": "Basketmaker_II_Era",
+      "wikiSlug": "Basketmaker_culture",
       "tier": 3,
       "tags": [],
       "category": "trade"
@@ -146,7 +146,7 @@
       "label": "Pottery Production Begins",
       "year": 500,
       "description": "Ancestral Puebloans began producing gray-ware pottery using coil-and-scrape techniques, replacing baskets for cooking and storage and enabling more efficient food preparation.",
-      "wikiSlug": "Ancestral_Pueblo_pottery",
+      "wikiSlug": "Pueblo_pottery",
       "tier": 1,
       "tags": [],
       "category": "architecture"
@@ -178,7 +178,9 @@
       "description": "Modified Basketmaker communities developed the first true kivas — circular underground ceremonial chambers evolved from pithouses — with ventilator shafts, fire pits, and sipapus (symbolic openings to the underworld).",
       "wikiSlug": "Kiva",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -206,7 +208,7 @@
       "label": "Black-on-White Pottery",
       "year": 600,
       "description": "Puebloan potters developed the iconic black-on-white ceramic tradition, painting geometric designs with yucca-leaf brushes using iron-oxide pigments on polished gray clay.",
-      "wikiSlug": "Ancestral_Pueblo_pottery",
+      "wikiSlug": "Pueblo_pottery",
       "tier": 2,
       "tags": [],
       "category": "architecture"
@@ -296,7 +298,6 @@
       "label": "Chacoan Road System",
       "year": 950,
       "description": "The Chacoans engineered an extensive network of arrow-straight roads up to 30 feet wide, cut into bedrock and cleared of vegetation, connecting Chaco Canyon to outlier communities across a 25,000-square-mile area.",
-      "wikiSlug": "Chaco_road_system",
       "tier": 1,
       "tags": [],
       "category": "science"
@@ -306,9 +307,11 @@
       "label": "Great Kivas at Chaco",
       "year": 950,
       "description": "Chacoans built enormous great kivas up to 60 feet in diameter, sunken ceremonial chambers large enough to hold hundreds of people, with massive roof beams, floor vaults, and niches for ritual objects.",
-      "wikiSlug": "Great_kiva",
+      "wikiSlug": "Kiva",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {

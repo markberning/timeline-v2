@@ -7,7 +7,14 @@
   "wikiSlug": "Scientific_revolution",
   "imageWikiSlug": "Isaac_Newton",
   "pitch": "When Copernicus published De Revolutionibus in 1543, he lit a fuse that would blow apart two thousand years of received wisdom. Within a century and a half, Kepler replaced perfect circles with ellipses, Galileo's telescope revealed moons orbiting Jupiter, Harvey traced the circulation of the blood, Boyle's air pump made the vacuum real, microscopes uncovered an invisible kingdom of life, and Newton's Principia bound the heavens and the Earth under one set of laws. The method these thinkers built — test your beliefs against evidence, not authority — became the engine of the modern world.",
-  "countryIds": ["826", "380", "250", "276", "616", "528"],
+  "countryIds": [
+    "826",
+    "380",
+    "250",
+    "276",
+    "616",
+    "528"
+  ],
   "spans": [
     {
       "id": "span-scientific-revolution-old-cosmos",
@@ -78,7 +85,9 @@
       "description": "Pope Paul IV issued the Index Librorum Prohibitorum, the Catholic Church's official list of banned books. Copernicus' work was added in 1616 and Galileo's Dialogue in 1633; the Index was not abolished until 1966.",
       "wikiSlug": "Index_Librorum_Prohibitorum",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -128,7 +137,9 @@
       "description": "Pope Gregory XIII reformed the Julian calendar, which had drifted ten days from the solar year. Protestant and Orthodox countries resisted for centuries, but the Gregorian calendar eventually became the global civil standard.",
       "wikiSlug": "Gregorian_calendar",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "science"
     },
     {
@@ -168,7 +179,9 @@
       "description": "The Roman Inquisition burned the friar Giordano Bruno in Rome after an eight-year trial. Among his heresies was the claim that the universe was infinite and filled with countless inhabited worlds; he became a lasting symbol of inquiry crushed by authority.",
       "wikiSlug": "Giordano_Bruno",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -228,7 +241,9 @@
       "description": "Galileo published The Starry Messenger, reporting four moons orbiting Jupiter, mountains on the Moon, and countless unseen stars. It was the first scientific work based on telescopic observation and made him famous across Europe.",
       "wikiSlug": "Sidereus_Nuncius",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -268,7 +283,9 @@
       "description": "A panel of theologians judged the motion of the Earth formally heretical. Cardinal Bellarmine privately warned Galileo not to hold or defend the idea, and Copernicus' book was suspended pending correction.",
       "wikiSlug": "Galileo_affair",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -279,7 +296,9 @@
       "description": "Europe's most destructive religious war killed perhaps a third of the German population and disrupted scholarship across the continent — Kepler among its refugees. The Peace of Westphalia in 1648 established the modern principle of state sovereignty.",
       "wikiSlug": "Thirty_Years%27_War",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "wars"
     },
     {
@@ -289,7 +308,9 @@
       "description": "Francis Bacon published Novum Organum, arguing that knowledge must be built up from systematic observation and experiment, not deduced from ancient authority. His vision of organized, useful science became the charter of the Royal Society.",
       "wikiSlug": "Novum_Organum",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -319,7 +340,9 @@
       "description": "William Harvey published De Motu Cordis, proving by measurement and experiment that the heart pumps blood in a continuous circuit through the body. It overturned Galen's model that had governed medicine for fourteen centuries.",
       "wikiSlug": "William_Harvey",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -339,7 +362,9 @@
       "description": "The Roman Inquisition tried Galileo for defending heliocentrism, forced him to recant on his knees, and condemned him to house arrest for life. The trial became the founding legend of the conflict between science and religious authority.",
       "wikiSlug": "Galileo_affair",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -349,7 +374,9 @@
       "description": "René Descartes published the Discourse on the Method, rebuilding all knowledge on systematic doubt and reason from the single certainty 'I think, therefore I am.' It set the rationalist program for modern philosophy and science.",
       "wikiSlug": "Discourse_on_the_Method",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -411,7 +438,9 @@
       "description": "Louis XIV ruled France for seventy-two years, the longest reign in European history. His minister Colbert founded the Académie des Sciences and put the French state behind organized research.",
       "wikiSlug": "Louis_XIV",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -469,7 +498,6 @@
       "label": "Huygens explains Saturn's rings",
       "year": 1659,
       "description": "Christiaan Huygens, using a better telescope, discovered Saturn's moon Titan and showed Saturn was encircled by a flat ring. He solved a puzzle that had baffled Galileo for half a century.",
-      "wikiSlug": "Systema_Saturnium",
       "tier": 3,
       "tags": [],
       "category": "science"
@@ -560,9 +588,11 @@
       "label": "Newton's plague years",
       "year": 1666,
       "description": "Sent home from Cambridge by the plague, the twenty-three-year-old Isaac Newton invented calculus, split white light with a prism, and conceived universal gravitation in roughly eighteen months — his annus mirabilis.",
-      "wikiSlug": "Annus_mirabilis_(Newton)",
+      "wikiSlug": "Annus_mirabilis",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -572,7 +602,9 @@
       "description": "Louis XIV's minister Colbert founded the Académie des Sciences in Paris as a salaried state institution. Where the Royal Society was a private club, the Académie made the scientist a paid servant of the state.",
       "wikiSlug": "French_Academy_of_Sciences",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "science"
     },
     {
@@ -602,7 +634,9 @@
       "description": "Published after his early death, Pascal's Pensées wrestled with what the new infinite, silent universe meant for faith — 'the eternal silence of these infinite spaces frightens me.' Science had unsettled the soul as well as the cosmos.",
       "wikiSlug": "Pens%C3%A9es",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -622,7 +656,9 @@
       "description": "Gottfried Wilhelm Leibniz developed his own version of the calculus with the elegant notation still taught today. His independent path led to the most poisonous priority dispute in the history of science.",
       "wikiSlug": "Gottfried_Wilhelm_Leibniz",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -652,7 +688,9 @@
       "description": "Antonie van Leeuwenhoek, a self-taught Delft draper, used handmade single-bead microscopes to see bacteria and protozoa — 'animalcules' — for the first time. He revealed an entire living world nobody knew existed.",
       "wikiSlug": "Antonie_van_Leeuwenhoek",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -662,7 +700,9 @@
       "description": "Published after his death, Baruch Spinoza's Ethics pushed the mechanical philosophy to its limit, identifying God with nature itself. It made plain how radical, and how dangerous, the new worldview could be.",
       "wikiSlug": "Ethics_(Spinoza_book)",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -692,7 +732,9 @@
       "description": "Funded and goaded by Edmond Halley, Isaac Newton published the Principia, deriving Kepler's laws from three laws of motion and a single universal force of gravity. It unified the heavens and the Earth and is often called the greatest scientific book ever written.",
       "wikiSlug": "Philosophi%C3%A6_Naturalis_Principia_Mathematica",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -712,7 +754,9 @@
       "description": "John Locke argued that the mind begins as a blank slate and all knowledge comes from experience. His empiricism turned Newton's method into a theory of the human mind and seeded the Enlightenment.",
       "wikiSlug": "An_Essay_Concerning_Human_Understanding",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -722,7 +766,9 @@
       "description": "Twenty people were executed for witchcraft in Massachusetts in the same decade Newton's Principia was being read in London. The era of the Scientific Revolution was also an era of witch-hunts — the new reason had not yet won.",
       "wikiSlug": "Salem_witch_trials",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -742,7 +788,9 @@
       "description": "Isaac Newton left Cambridge to become Warden, then Master, of the Royal Mint, overseeing the Great Recoinage and personally hunting counterfeiters. The era's greatest scientist spent his last thirty years as a civil servant.",
       "wikiSlug": "Isaac_Newton",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -772,7 +820,9 @@
       "description": "Queen Anne knighted Isaac Newton, the first scientist ever knighted, though the honor owed as much to a Cambridge parliamentary election as to his work. When he died in 1727 he was buried in Westminster Abbey like a king.",
       "wikiSlug": "Isaac_Newton",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {

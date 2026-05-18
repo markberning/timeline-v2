@@ -356,8 +356,9 @@
     {
       "term": "thughur",
       "matchText": "thughur",
-      "wikiSlug": "Thughur",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The thughur were the fortified frontier marches of the Islamic world — chains of garrison towns and border fortresses guarding the edge of Muslim territory, most famously the war-zone facing the Byzantine Empire."
     }
   ],
   "4": [
@@ -653,7 +654,7 @@
     {
       "term": "razzia",
       "matchText": "razzia",
-      "wikiSlug": "Razzia",
+      "wikiSlug": "Razzia_(military)",
       "type": "concept"
     },
     {
@@ -683,7 +684,7 @@
     {
       "term": "ghazwa (raid)",
       "matchText": "ghazwa",
-      "wikiSlug": "Razzia",
+      "wikiSlug": "Razzia_(military)",
       "type": "concept"
     },
     {
@@ -1344,8 +1345,9 @@
     {
       "term": "Andrew Watson (historian)",
       "matchText": "Andrew Watson",
-      "wikiSlug": "Andrew_Watson_(historian)",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "Andrew Watson was an economic historian best known for his 1970s thesis that early Islamic rule spread a wave of new crops and irrigation across the Mediterranean — the so-called 'Arab Agricultural Revolution.'"
     },
     {
       "term": "durum wheat",

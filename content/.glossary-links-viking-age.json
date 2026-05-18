@@ -339,8 +339,9 @@
     {
       "term": "Amidships",
       "matchText": "amidships",
-      "wikiSlug": "Amidships",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A sailor's word for \"in the middle of the ship\" — the broad central section halfway between the bow and the stern, the steadiest part of a longship and where the heaviest cargo and the mast usually sat."
     },
     {
       "term": "Square rig",
@@ -845,7 +846,7 @@
     {
       "term": "Itil",
       "matchText": "Itil",
-      "wikiSlug": "Itil",
+      "wikiSlug": "Atil",
       "type": "place"
     },
     {
@@ -997,8 +998,9 @@
     {
       "term": "Utiseta",
       "matchText": "útiseta",
-      "wikiSlug": "%C3%9Atiseta",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Old Norse \"sitting out\": a divination ritual where a seeker spent the night alone outdoors — often on a grave or at a crossroads — to reach the spirits or the dead and come back with hidden knowledge or a glimpse of the future."
     },
     {
       "term": "Seidr",
@@ -1083,14 +1085,16 @@
     {
       "term": "Dróttkvætt",
       "matchText": "dróttkvætt",
-      "wikiSlug": "Dr%C3%B3ttkv%C3%A6tt",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The dense, showy \"lordly meter\" of Viking court poetry: eight-line stanzas locked down by strict internal rhyme, alliteration, and syllable counts, and stuffed with riddling kennings. It was hard to compose and hard to follow — which was exactly the point, since pulling it off proved a skald's skill."
     },
     {
       "term": "Höfuðlausn",
       "matchText": "Höfuðlausn",
-      "wikiSlug": "H%C3%B6fu%C3%B0lausn",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Old Norse for \"head-ransom\": a praise-poem a skald composed for a king who had him in his power, the verse literally buying back the poet's own neck. The most famous is the one Egil Skallagrímsson is said to have improvised overnight to flatter an enemy king out of executing him."
     },
     {
       "term": "Völuspá",

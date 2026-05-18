@@ -6,7 +6,7 @@
   "source": "curated",
   "wikiSlug": "Xiongnu",
   "imageWikiSlug": "Xiongnu",
-  "pitch": "The Xiongnu were the original steppe superpower — a nomadic confederacy that humiliated Han China at the Battle of Baideng, forced centuries of tribute marriages, and prompted the construction of the Great Wall. Under Modu Chanyu, they built an empire stretching from Manchuria to Central Asia, inventing the political template that every later steppe empire would follow. When Han armies finally broke them, the Northern Xiongnu vanished westward into the grasslands — and something terrifying emerged on the other side.\n\n\ud83d\udd11 Key Facts:\n\u2022 Modu Chanyu murdered his father and unified the steppe tribes with whistling arrows and ruthless discipline\n\u2022 The heqin treaties forced Han China to send imperial princesses, silk, and grain to buy peace from nomads they called barbarians\n\u2022 Emperor Wu's campaigns cost more than the wars were worth — bankrupting the Han treasury to push the Xiongnu beyond the Gobi\n\u2022 Zhang Qian's failed diplomatic mission accidentally opened the Silk Road, connecting China to Rome for the first time\n\u2022 Attila the Hun extracted 2,100 pounds of gold annually from Constantinople and invaded Gaul and Italy before dying on his wedding night\n\n\ud83e\udd14 Why It Matters: The Xiongnu-to-Hun question is one of history's great mysteries — whether the Huns who destroyed Rome's western half were descendants of the nomads who tormented Han China. Either way, steppe peoples on horseback shaped both ends of Eurasia.\n\n\ud83c\udfb2 Wild Card: When Attila died in 453, his empire dissolved overnight — the peoples he'd terrorized for decades dismantled Hun power in a single battle at Nedao, proving that personality-driven empires die with their founders.",
+  "pitch": "The Xiongnu were the original steppe superpower — a nomadic confederacy that humiliated Han China at the Battle of Baideng, forced centuries of tribute marriages, and prompted the construction of the Great Wall. Under Modu Chanyu, they built an empire stretching from Manchuria to Central Asia, inventing the political template that every later steppe empire would follow. When Han armies finally broke them, the Northern Xiongnu vanished westward into the grasslands — and something terrifying emerged on the other side.\n\n🔑 Key Facts:\n• Modu Chanyu murdered his father and unified the steppe tribes with whistling arrows and ruthless discipline\n• The heqin treaties forced Han China to send imperial princesses, silk, and grain to buy peace from nomads they called barbarians\n• Emperor Wu's campaigns cost more than the wars were worth — bankrupting the Han treasury to push the Xiongnu beyond the Gobi\n• Zhang Qian's failed diplomatic mission accidentally opened the Silk Road, connecting China to Rome for the first time\n• Attila the Hun extracted 2,100 pounds of gold annually from Constantinople and invaded Gaul and Italy before dying on his wedding night\n\n🤔 Why It Matters: The Xiongnu-to-Hun question is one of history's great mysteries — whether the Huns who destroyed Rome's western half were descendants of the nomads who tormented Han China. Either way, steppe peoples on horseback shaped both ends of Eurasia.\n\n🎲 Wild Card: When Attila died in 453, his empire dissolved overnight — the peoples he'd terrorized for decades dismantled Hun power in a single battle at Nedao, proving that personality-driven empires die with their founders.",
   "countryIds": [
     "156",
     "496"
@@ -407,7 +407,7 @@
       "label": "Noin-Ula Royal Tombs",
       "year": -20,
       "description": "The Noin-Ula burial site in northern Mongolia contained elite Xiongnu graves with Chinese silk, Greek-inspired textiles, and lacquerware — evidence of the Xiongnu's far-reaching trade connections.",
-      "wikiSlug": "Noyon_uul",
+      "wikiSlug": "Noin-Ula_burial_site",
       "tier": 2,
       "tags": [],
       "category": "architecture"
@@ -527,7 +527,7 @@
       "label": "Liu Yuan Founds Han Zhao",
       "year": 304,
       "description": "Liu Yuan, a Sinicized Southern Xiongnu aristocrat, declared himself emperor of a revived Han dynasty — the first of the Sixteen Kingdoms that fragmented northern China after the Western Jin collapse.",
-      "wikiSlug": "Liu_Yuan_(emperor)",
+      "wikiSlug": "Liu_Yuan_(Han-Zhao)",
       "tier": 2,
       "tags": [],
       "category": "rulers"
@@ -537,7 +537,7 @@
       "label": "Xiongnu Sack Luoyang",
       "year": 311,
       "description": "Liu Yuan's successor Liu Cong captured and sacked the Western Jin capital Luoyang, taking the emperor prisoner — a shocking reversal in which former frontier barbarians destroyed China's imperial capital.",
-      "wikiSlug": "Fall_of_Luoyang",
+      "wikiSlug": "Disaster_of_Yongjia",
       "tier": 1,
       "tags": [],
       "category": "wars"
@@ -727,7 +727,7 @@
       "label": "Attila Invades Italy",
       "year": 452,
       "description": "Attila crossed the Alps and sacked Aquileia, Milan, and other northern Italian cities. Refugees fleeing the destruction founded settlements in the Venetian lagoon — the legendary origin of Venice.",
-      "wikiSlug": "Attila%27s_invasion_of_Italy",
+      "wikiSlug": "Attila",
       "tier": 1,
       "tags": [],
       "category": "wars"

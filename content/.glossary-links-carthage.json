@@ -373,8 +373,9 @@
     {
       "term": "gold dust",
       "matchText": "gold dust",
-      "wikiSlug": "Gold_dust",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Gold dust was loose grains of gold — the form West African gold reached Carthaginian traders in. Phoenician and Carthaginian merchants famously bartered for it down the Atlantic coast of Africa by 'silent trade': leaving goods on the beach, withdrawing, and returning to see how much gold dust the locals had left in exchange."
     },
     {
       "term": "Timoleon",
@@ -385,7 +386,7 @@
     {
       "term": "Corinth",
       "matchText": "Corinthian",
-      "wikiSlug": "Corinth",
+      "wikiSlug": "Ancient_Corinth",
       "type": "place"
     },
     {
@@ -751,7 +752,7 @@
     {
       "term": "Flaminius",
       "matchText": "Flaminius",
-      "wikiSlug": "Gaius_Flaminius",
+      "wikiSlug": "Gaius_Flaminius_(consul_223_BC)",
       "type": "people"
     },
     {
@@ -1085,7 +1086,7 @@
     {
       "term": "Corinth",
       "matchText": "Corinth",
-      "wikiSlug": "Corinth",
+      "wikiSlug": "Ancient_Corinth",
       "type": "place"
     },
     {

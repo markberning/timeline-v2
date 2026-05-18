@@ -143,7 +143,7 @@
     {
       "id": "evt-cre-great-depression-black",
       "label": "Depression Hits Black America First",
-      "year": 1932.0,
+      "year": 1932,
       "description": "The Great Depression devastated Black Americans, who were fired before white workers under a 'last hired, first fired' rule and excluded from many relief programs. Black unemployment in some cities exceeded 50 percent.",
       "wikiSlug": "Great_Depression",
       "tier": 2,
@@ -152,7 +152,7 @@
     {
       "id": "evt-cre-new-deal-mixed",
       "label": "The New Deal's Mixed Record",
-      "year": 1935.0,
+      "year": 1935,
       "description": "New Deal programs delivered real relief but were often administered along segregated lines, and key labor and Social Security laws excluded farm and domestic workers, the categories most Black Southerners worked in. The shift of Black voters from Republican to Democrat began here.",
       "wikiSlug": "New_Deal",
       "tier": 2,
@@ -161,7 +161,7 @@
     {
       "id": "evt-cre-naacp-founded-context",
       "label": "The NAACP's Long Campaign",
-      "year": 1930.0,
+      "year": 1930,
       "description": "The National Association for the Advancement of Colored People, founded in 1909, built a national legal and lobbying machine. By the 1930s it had committed to a deliberate, decades-long courtroom assault on segregation.",
       "wikiSlug": "NAACP",
       "tier": 2,
@@ -170,17 +170,19 @@
     {
       "id": "evt-cre-houston-strategy",
       "label": "Charles Hamilton Houston's Legal Strategy",
-      "year": 1935.0,
+      "year": 1935,
       "description": "Howard Law School dean Charles Hamilton Houston designed the strategy to dismantle segregation by attacking 'separate but equal' where it was most expensive to maintain: graduate and professional schools. He trained the lawyers, including Thurgood Marshall, who would win Brown.",
       "wikiSlug": "Charles_Hamilton_Houston",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-second-great-migration",
       "label": "The Second Great Migration Begins",
-      "year": 1940.0,
+      "year": 1940,
       "description": "Wartime industrial jobs pulled a second, larger wave of Black Southerners north and west. Roughly five million people moved between 1940 and 1970, reshaping the cities the Northern movement would later confront.",
       "wikiSlug": "Second_Great_Migration_(African_American)",
       "tier": 2,
@@ -194,7 +196,9 @@
       "wikiSlug": "A._Philip_Randolph",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-fepc",
@@ -217,7 +221,7 @@
     {
       "id": "evt-cre-tuskegee-airmen",
       "label": "The Tuskegee Airmen",
-      "year": 1943.0,
+      "year": 1943,
       "description": "The all-Black fighter pilots trained at Tuskegee, Alabama flew combat missions in Europe with a distinguished record, refuting the military's official position that Black men lacked the aptitude to fly.",
       "wikiSlug": "Tuskegee_Airmen",
       "tier": 2,
@@ -276,7 +280,9 @@
       "wikiSlug": "Jackie_Robinson",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-truman-military",
@@ -317,20 +323,22 @@
     {
       "id": "evt-cre-thurgood-marshall",
       "label": "Thurgood Marshall",
-      "year": 1940.0,
-      "endYear": 1961.0,
+      "year": 1940,
+      "endYear": 1961,
       "description": "As head of the NAACP Legal Defense Fund, Marshall argued and won the cases that dismantled legal segregation, including Brown. He later became the first Black justice of the Supreme Court.",
       "wikiSlug": "Thurgood_Marshall",
       "tier": 1,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-ldf-doll-study",
       "label": "The Clark Doll Studies",
-      "year": 1947.0,
+      "year": 1947,
       "description": "Psychologists Kenneth and Mamie Clark's experiments, in which Black children preferred white dolls, were cited by the Supreme Court in Brown as evidence that segregation harmed children's self-image. It was an early, contested use of social science in constitutional law.",
-      "wikiSlug": "Doll_experiments",
+      "wikiSlug": "Kenneth_and_Mamie_Clark",
       "tier": 3,
       "category": "science"
     },
@@ -352,7 +360,9 @@
       "wikiSlug": "Earl_Warren",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-brown-ii",
@@ -384,7 +394,7 @@
     {
       "id": "evt-cre-white-citizens-councils",
       "label": "The White Citizens' Councils",
-      "year": 1955.0,
+      "year": 1955,
       "description": "Founded after Brown, the Councils used economic pressure, firing and evicting Black activists, rather than open violence. They were called the 'uptown Klan' and spread across the South.",
       "wikiSlug": "White_Citizens%27_Council",
       "tier": 3,
@@ -407,7 +417,9 @@
       "wikiSlug": "Mamie_Till",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-baton-rouge-boycott",
@@ -426,7 +438,9 @@
       "wikiSlug": "Rosa_Parks",
       "tier": 1,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-claudette-colvin",
@@ -436,7 +450,9 @@
       "wikiSlug": "Claudette_Colvin",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-montgomery-boycott",
@@ -465,7 +481,9 @@
       "wikiSlug": "Jo_Ann_Robinson",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-mlk",
@@ -476,7 +494,9 @@
       "wikiSlug": "Martin_Luther_King_Jr.",
       "tier": 1,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-browder-v-gayle",
@@ -505,18 +525,22 @@
       "wikiSlug": "Bayard_Rustin",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-ella-baker",
       "label": "Ella Baker",
       "year": 1957.5,
-      "endYear": 1965.0,
+      "endYear": 1965,
       "description": "Ella Baker, a veteran organizer who ran the SCLC's early operations, distrusted charismatic leadership and championed grassroots, participatory democracy. She midwifed SNCC and shaped the movement's bottom-up wing.",
       "wikiSlug": "Ella_Baker",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-tallahassee-boycott",
@@ -535,7 +559,9 @@
       "wikiSlug": "Autherine_Lucy",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-little-rock-nine",
@@ -630,7 +656,7 @@
     {
       "id": "evt-cre-core",
       "label": "CORE and the Sit-In Tradition",
-      "year": 1960.0,
+      "year": 1960,
       "description": "The Congress of Racial Equality, founded in 1942 and committed to interracial nonviolent direct action, had pioneered sit-ins in the 1940s and now helped lead the Freedom Rides. It was one of the era's 'Big Five' organizations.",
       "wikiSlug": "Congress_of_Racial_Equality",
       "tier": 2,
@@ -645,7 +671,9 @@
       "wikiSlug": "Diane_Nash",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-john-lewis",
@@ -656,7 +684,9 @@
       "wikiSlug": "John_Lewis",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-boynton-v-virginia",
@@ -697,7 +727,7 @@
     {
       "id": "evt-cre-albany-movement",
       "label": "The Albany Movement",
-      "year": 1962.0,
+      "year": 1962,
       "description": "The 1961–62 campaign in Albany, Georgia failed: a shrewd sheriff avoided televised brutality and made mass arrests without spectacle. The defeat taught the SCLC to choose targets where the violence would be visible.",
       "wikiSlug": "Albany_Movement",
       "tier": 2,
@@ -711,7 +741,9 @@
       "wikiSlug": "Laurie_Pritchett",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-james-meredith-ole-miss",
@@ -721,7 +753,9 @@
       "wikiSlug": "James_Meredith",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-ross-barnett",
@@ -749,7 +783,9 @@
       "wikiSlug": "Bull_Connor",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-childrens-crusade",
@@ -786,7 +822,9 @@
       "wikiSlug": "Medgar_Evers",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-march-on-washington",
@@ -814,7 +852,9 @@
       "wikiSlug": "A._Philip_Randolph",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-16th-street-bombing",
@@ -843,7 +883,9 @@
       "wikiSlug": "Lyndon_B._Johnson",
       "tier": 1,
       "category": "rulers",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-civil-rights-act-1964",
@@ -916,7 +958,9 @@
       "wikiSlug": "Fannie_Lou_Hamer",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-atlantic-city-1964",
@@ -948,19 +992,21 @@
     {
       "id": "evt-cre-j-edgar-hoover",
       "label": "J. Edgar Hoover",
-      "year": 1956.0,
-      "endYear": 1971.0,
+      "year": 1956,
+      "endYear": 1971,
       "description": "FBI director J. Edgar Hoover regarded the movement as a Communist front and King as a personal enemy, running surveillance and disruption operations against it for over a decade. He is the era's chief antagonist inside the federal government.",
       "wikiSlug": "J._Edgar_Hoover",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-cointelpro",
       "label": "COINTELPRO",
       "year": 1956.5,
-      "endYear": 1971.0,
+      "endYear": 1971,
       "description": "The FBI's Counter Intelligence Program infiltrated, discredited, and disrupted civil rights and Black Power organizations, escalating from surveillance to provocation and, in the Panther case, complicity in killings.",
       "wikiSlug": "COINTELPRO",
       "tier": 2,
@@ -978,19 +1024,21 @@
     {
       "id": "evt-cre-malcolm-x",
       "label": "Malcolm X",
-      "year": 1954.0,
+      "year": 1954,
       "endYear": 1965.14,
       "description": "Malcolm X, the Nation of Islam's most electrifying spokesman, articulated Black self-defense, separatism, and pride as a militant alternative to integrationist nonviolence. His critique shaped the coming generation more than his organization ever did.",
       "wikiSlug": "Malcolm_X",
       "tier": 1,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-nation-of-islam",
       "label": "The Nation of Islam",
-      "year": 1955.0,
-      "endYear": 1965.0,
+      "year": 1955,
+      "endYear": 1965,
       "description": "Under Elijah Muhammad the Nation of Islam preached Black separatism, self-discipline, and economic self-sufficiency from a heterodox religious base. It was the most visible institutional rejection of the integrationist program.",
       "wikiSlug": "Nation_of_Islam",
       "tier": 2,
@@ -1040,7 +1088,9 @@
       "wikiSlug": "Jimmie_Lee_Jackson",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-bloody-sunday",
@@ -1077,14 +1127,15 @@
       "wikiSlug": "Viola_Liuzzo",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-lbj-we-shall-overcome",
       "label": "Johnson's 'We Shall Overcome' Speech",
       "year": 1965.2,
       "description": "Eight days after Bloody Sunday, Johnson addressed Congress, called disfranchisement a national wrong, and adopted the movement's anthem, telling the country 'we shall overcome.' He then sent up the voting-rights bill.",
-      "wikiSlug": "We_Shall_Overcome_(speech)",
       "tier": 2,
       "category": "rulers"
     },
@@ -1100,7 +1151,7 @@
     {
       "id": "evt-cre-vra-impact",
       "label": "The Voting Rights Act Transforms the South",
-      "year": 1967.0,
+      "year": 1967,
       "description": "Black registration in Mississippi rose from under 7 percent to nearly 60 percent within two years, and thousands of Black officials were elected over the next decade. It was the era's most measurable structural change.",
       "wikiSlug": "Voting_Rights_Act_of_1965",
       "tier": 2,
@@ -1173,12 +1224,14 @@
       "id": "evt-cre-stokely-carmichael",
       "label": "Stokely Carmichael",
       "year": 1966.4,
-      "endYear": 1968.0,
+      "endYear": 1968,
       "description": "Stokely Carmichael (later Kwame Ture), a Freedom Rider and SNCC chairman, popularized Black Power and pushed SNCC toward Black self-organization and away from interracial nonviolence.",
       "wikiSlug": "Stokely_Carmichael",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-sncc-radicalizes",
@@ -1192,7 +1245,7 @@
     {
       "id": "evt-cre-lowndes-county",
       "label": "The Lowndes County Freedom Organization",
-      "year": 1966.0,
+      "year": 1966,
       "description": "SNCC organizers in Lowndes County, Alabama built an independent Black political party whose ballot symbol, a black panther, was borrowed by Oakland militants. It modeled Black political self-determination.",
       "wikiSlug": "Lowndes_County_Freedom_Organization",
       "tier": 3,
@@ -1210,7 +1263,7 @@
     {
       "id": "evt-cre-panther-breakfast",
       "label": "The Panthers' Free Breakfast Program",
-      "year": 1969.0,
+      "year": 1969,
       "description": "The Panthers fed tens of thousands of children daily through Free Breakfast for Children, the survival program Hoover called the greatest internal threat to the country. The community programs, not the guns, frightened the FBI most.",
       "wikiSlug": "Free_Breakfast_for_Children",
       "tier": 3,
@@ -1224,7 +1277,9 @@
       "wikiSlug": "Fred_Hampton",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-newark-1967",
@@ -1283,8 +1338,8 @@
     {
       "id": "evt-cre-vietnam-burden",
       "label": "The Disproportionate Burden of Vietnam",
-      "year": 1966.0,
-      "endYear": 1968.0,
+      "year": 1966,
+      "endYear": 1968,
       "description": "Black soldiers, often without the deferments available to college-bound white men, died in Vietnam at rates well above their share of the population early in the war. The war drained money and moral focus from the domestic agenda.",
       "wikiSlug": "African_Americans_in_the_Vietnam_War",
       "tier": 3,
@@ -1298,7 +1353,9 @@
       "wikiSlug": "Muhammad_Ali",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-poor-peoples-campaign",
@@ -1399,7 +1456,9 @@
       "wikiSlug": "George_Wallace",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-southern-strategy",
@@ -1433,7 +1492,7 @@
       "label": "The Boston Busing Crisis",
       "year": 1974.7,
       "description": "Court-ordered busing in Boston in 1974–75 met sustained white violence, showing that the de facto segregation of the Northern city was as fiercely defended as the South's had been.",
-      "wikiSlug": "Desegregation_busing_in_Boston",
+      "wikiSlug": "Boston_desegregation_busing_crisis",
       "tier": 3,
       "category": "architecture"
     },
@@ -1481,7 +1540,9 @@
       "wikiSlug": "Shirley_Chisholm",
       "tier": 2,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-congressional-black-caucus",
@@ -1510,7 +1571,9 @@
       "wikiSlug": "Angela_Davis",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-attica",
@@ -1533,7 +1596,7 @@
     {
       "id": "evt-cre-black-church-engine",
       "label": "The Black Church as the Movement's Engine",
-      "year": 1956.0,
+      "year": 1956,
       "description": "The independent Black church supplied the movement's buildings, money, mass meetings, music, and a leadership class beyond white economic control. It was the single most important institution of the freedom struggle.",
       "wikiSlug": "Black_church",
       "tier": 2,
@@ -1556,7 +1619,9 @@
       "wikiSlug": "Septima_Poinsette_Clark",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-freedom-songs",
@@ -1597,7 +1662,7 @@
     {
       "id": "evt-cre-nina-simone",
       "label": "Nina Simone's 'Mississippi Goddam'",
-      "year": 1964.0,
+      "year": 1964,
       "description": "After the Birmingham church bombing, Nina Simone wrote 'Mississippi Goddam,' a furious break with the movement's patient public voice. Her music gave the rising anger an art form.",
       "wikiSlug": "Mississippi_Goddam",
       "tier": 3,
@@ -1606,7 +1671,7 @@
     {
       "id": "evt-cre-television",
       "label": "Television and the Movement",
-      "year": 1963.0,
+      "year": 1963,
       "description": "Network television, which reached most American homes by the early 1960s, carried Birmingham's dogs and Selma's clubs into living rooms nationwide. The movement's strategists understood and exploited the new medium with precision.",
       "wikiSlug": "Civil_rights_movement_in_popular_culture",
       "tier": 2,
@@ -1642,8 +1707,8 @@
     {
       "id": "evt-cre-bombingham",
       "label": "'Bombingham' and Klan Terror",
-      "year": 1958.0,
-      "endYear": 1965.0,
+      "year": 1958,
+      "endYear": 1965,
       "description": "Birmingham saw so many unsolved bombings of Black homes and churches that it was nicknamed 'Bombingham.' Klan and police terror was a sustained campaign, not a series of isolated incidents.",
       "wikiSlug": "Birmingham,_Alabama",
       "tier": 3,
@@ -1652,7 +1717,7 @@
     {
       "id": "evt-cre-urban-renewal",
       "label": "Urban Renewal and 'Negro Removal'",
-      "year": 1960.0,
+      "year": 1960,
       "description": "Federal urban-renewal and highway programs bulldozed thriving Black neighborhoods in cities across the country, a process James Baldwin called 'Negro removal.' The segregated landscape was built by policy, not accident.",
       "wikiSlug": "Urban_renewal",
       "tier": 3,
@@ -1670,7 +1735,7 @@
     {
       "id": "evt-cre-redlining",
       "label": "Redlining and the Segregated Landscape",
-      "year": 1950.0,
+      "year": 1950,
       "description": "Federally backed mortgage maps marked Black neighborhoods in red as ineligible for loans, channeling postwar wealth to white suburbs and locking Black families out of the era's great asset boom. De facto segregation had a paper trail.",
       "wikiSlug": "Redlining",
       "tier": 2,
@@ -1679,17 +1744,19 @@
     {
       "id": "evt-cre-hud-weaver",
       "label": "HUD and Robert Weaver",
-      "year": 1966.0,
+      "year": 1966,
       "description": "Johnson created the Department of Housing and Urban Development in 1965 and named Robert Weaver its head, the first Black member of a presidential cabinet, even as federal housing policy kept reinforcing segregation.",
       "wikiSlug": "Robert_C._Weaver",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-de-jure-de-facto",
       "label": "De Jure Versus De Facto Segregation",
-      "year": 1965.0,
+      "year": 1965,
       "description": "The South's segregation was de jure, written into law and beatable in court; the North's was de facto, produced by housing, lending, and policing without a statute to strike down. The distinction explains why the movement stalled when it went north.",
       "wikiSlug": "Racial_segregation_in_the_United_States",
       "tier": 2,
@@ -1712,12 +1779,14 @@
       "wikiSlug": "Jesse_Jackson",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-african-decolonization",
       "label": "African Decolonization",
-      "year": 1960.0,
+      "year": 1960,
       "description": "Seventeen African nations became independent in 1960 alone. The global retreat of white colonial rule shamed Cold War America and gave Black Americans an internationalist frame for their own struggle.",
       "wikiSlug": "Decolonisation_of_Africa",
       "tier": 2,
@@ -1726,7 +1795,7 @@
     {
       "id": "evt-cre-cold-war-pressure",
       "label": "The Cold War and Civil Rights",
-      "year": 1957.0,
+      "year": 1957,
       "description": "Soviet propaganda made Little Rock and Birmingham global embarrassments, and the State Department itself argued that segregation was a Cold War liability. Geopolitics quietly pushed reluctant presidents toward action.",
       "wikiSlug": "Cold_War",
       "tier": 2,
@@ -1750,40 +1819,48 @@
       "wikiSlug": "Ralph_Abernathy",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-roy-wilkins",
       "label": "Roy Wilkins and the NAACP",
-      "year": 1955.0,
-      "endYear": 1968.0,
+      "year": 1955,
+      "endYear": 1968,
       "description": "Roy Wilkins led the NAACP through the era, championing the legal and legislative strategy and clashing with the direct-action and Black Power wings. He represented the movement's institutional, gradualist center.",
       "wikiSlug": "Roy_Wilkins",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-whitney-young",
       "label": "Whitney Young and the Urban League",
-      "year": 1961.0,
-      "endYear": 1969.0,
+      "year": 1961,
+      "endYear": 1969,
       "description": "Whitney Young led the National Urban League, working the corporate and government inside track for jobs and his 'domestic Marshall Plan.' He was the movement's negotiator with white power.",
       "wikiSlug": "Whitney_Young",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-james-farmer",
       "label": "James Farmer and CORE",
       "year": 1961.35,
-      "endYear": 1966.0,
+      "endYear": 1966,
       "description": "James Farmer, who launched the Freedom Rides as CORE's director, was one of the 'Big Six' leaders. CORE's later turn toward Black Power tracked the movement's broader radicalization.",
       "wikiSlug": "James_Farmer",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-bob-moses",
@@ -1794,13 +1871,15 @@
       "wikiSlug": "Bob_Moses_(activist)",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-medgar-evers-naacp",
       "label": "The Mississippi NAACP Network",
-      "year": 1955.0,
-      "endYear": 1963.0,
+      "year": 1955,
+      "endYear": 1963,
       "description": "Medgar Evers, Amzie Moore, Aaron Henry, and other local NAACP leaders kept an organizing infrastructure alive in the most dangerous state for years before the students arrived. The famous campaigns rested on this hidden base.",
       "wikiSlug": "Medgar_Evers",
       "tier": 3,
@@ -1814,34 +1893,40 @@
       "wikiSlug": "Daisy_Bates_(activist)",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-pauli-murray",
       "label": "Pauli Murray",
-      "year": 1956.0,
-      "endYear": 1965.0,
+      "year": 1956,
+      "endYear": 1965,
       "description": "Pauli Murray, lawyer, poet, and theorist, coined 'Jane Crow' for the double bind of Black women, and her legal arguments shaped both civil rights and sex-discrimination law. She is among the movement's most underrecognized intellects.",
       "wikiSlug": "Pauli_Murray",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-dorothy-height",
       "label": "Dorothy Height",
-      "year": 1957.0,
-      "endYear": 1968.0,
+      "year": 1957,
+      "endYear": 1968,
       "description": "Dorothy Height led the National Council of Negro Women and was the lone woman among the era's recognized 'leaders,' though kept off the March on Washington program. Women organized the movement and were largely written out of its memory.",
       "wikiSlug": "Dorothy_Height",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-women-of-the-movement",
       "label": "The Women Who Ran the Movement",
-      "year": 1962.0,
+      "year": 1962,
       "description": "Ella Baker, Septima Clark, Fannie Lou Hamer, Diane Nash, Jo Ann Robinson, Daisy Bates, and thousands of unnamed women supplied most of the movement's day-to-day organizing while men took the podiums. Recovering them has reshaped the field.",
       "wikiSlug": "Women_in_the_civil_rights_movement",
       "tier": 2,
@@ -1850,7 +1935,7 @@
     {
       "id": "evt-cre-poll-tax-literacy",
       "label": "Poll Taxes and Literacy Tests",
-      "year": 1954.0,
+      "year": 1954,
       "description": "Poll taxes, literacy tests, grandfather clauses, and 'understanding' clauses were the machinery the white South had built after Reconstruction to strip Black citizens of the vote the Fifteenth Amendment guaranteed. Dismantling it was the era's central legal project.",
       "wikiSlug": "Voter_suppression_in_the_United_States",
       "tier": 2,
@@ -1859,7 +1944,7 @@
     {
       "id": "evt-cre-jim-crow-system",
       "label": "The Jim Crow System",
-      "year": 1954.0,
+      "year": 1954,
       "description": "Jim Crow was the comprehensive legal and customary regime of segregation, disfranchisement, and racial terror the white South constructed after the 1877 collapse of Reconstruction. The era's target was this system, not isolated prejudice.",
       "wikiSlug": "Jim_Crow_laws",
       "tier": 1,
@@ -1886,7 +1971,7 @@
     {
       "id": "evt-cre-second-reconstruction",
       "label": "The 'Second Reconstruction'",
-      "year": 1965.0,
+      "year": 1965,
       "description": "Historians call the movement the Second Reconstruction: a second federal attempt to make Black Americans equal citizens, ninety years after the first was abandoned. The framing is the spine that ties the era back to 1865–77.",
       "wikiSlug": "Civil_rights_movement",
       "tier": 1,
@@ -1895,7 +1980,7 @@
     {
       "id": "evt-cre-mlk-memory",
       "label": "The Sanitizing of King's Memory",
-      "year": 1983.0,
+      "year": 1983,
       "description": "After his death King was reduced in popular memory to a single dream and a federal holiday, his radicalism on war, poverty, and capitalism largely erased. Contested memory is itself part of the era's history.",
       "wikiSlug": "Martin_Luther_King_Jr._Day",
       "tier": 2,
@@ -1958,7 +2043,7 @@
     {
       "id": "evt-cre-busing-national",
       "label": "Busing Goes National",
-      "year": 1972.0,
+      "year": 1972,
       "description": "By 1972 court-ordered busing had become the country's most divisive racial issue, with Nixon and Wallace running against it and Northern cities resisting as fiercely as the South ever had.",
       "wikiSlug": "Desegregation_busing",
       "tier": 2,
@@ -2021,7 +2106,7 @@
     {
       "id": "evt-cre-emmett-till-confession",
       "label": "The Look Magazine Confession",
-      "year": 1956.0,
+      "year": 1956,
       "description": "Months after their acquittal, Till's killers sold a full confession to Look magazine, protected by double jeopardy. The open impunity was itself a recruiting poster for the movement.",
       "wikiSlug": "Murder_of_Emmett_Till",
       "tier": 3,
@@ -2057,7 +2142,7 @@
     {
       "id": "evt-cre-deacons-for-defense",
       "label": "The Deacons for Defense",
-      "year": 1965.0,
+      "year": 1965,
       "description": "Armed Black men in Louisiana formed the Deacons for Defense to protect activists and communities from Klan attack, a reminder that armed self-defense coexisted with nonviolence throughout the rural movement.",
       "wikiSlug": "Deacons_for_Defense_and_Justice",
       "tier": 3,
@@ -2071,7 +2156,9 @@
       "wikiSlug": "Robert_F._Williams",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-mississippi-burning-trial",
@@ -2090,7 +2177,9 @@
       "wikiSlug": "Gloria_Richardson",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-st-augustine",
@@ -2110,29 +2199,35 @@
       "wikiSlug": "James_Bevel",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-andrew-young",
       "label": "Andrew Young",
-      "year": 1961.0,
+      "year": 1961,
       "endYear": 1968.4,
       "description": "Andrew Young was a key SCLC negotiator and strategist who later became a congressman and UN ambassador, embodying the movement's path into electoral and diplomatic power.",
       "wikiSlug": "Andrew_Young",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-coretta-scott-king",
       "label": "Coretta Scott King",
       "year": 1955.93,
-      "endYear": 1969.0,
+      "endYear": 1969,
       "description": "Coretta Scott King was an activist in her own right who pushed her husband on peace and economic justice and, after his death, fought to keep the radical King from being erased. She built and partly contested his memory.",
       "wikiSlug": "Coretta_Scott_King",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-poor-march-abernathy",
@@ -2155,8 +2250,8 @@
     {
       "id": "evt-cre-naacp-ldf-split",
       "label": "The LDF and the Litigation Front",
-      "year": 1956.0,
-      "endYear": 1971.0,
+      "year": 1956,
+      "endYear": 1971,
       "description": "The NAACP Legal Defense Fund, the courtroom arm Marshall built, kept winning the cases, from Brown through Green and Swann, that turned street victories into enforceable law. Litigation was a parallel campaign, not a relic.",
       "wikiSlug": "NAACP_Legal_Defense_and_Educational_Fund",
       "tier": 2,
@@ -2174,7 +2269,7 @@
     {
       "id": "evt-cre-voter-reg-data",
       "label": "Measuring the Movement",
-      "year": 1968.0,
+      "year": 1968,
       "description": "Registration statistics, the number of Black elected officials, school-integration percentages, and poverty rates became the era's hard evidence, the data by which its real, partial success can be judged.",
       "wikiSlug": "Voting_Rights_Act_of_1965",
       "tier": 3,
@@ -2183,8 +2278,8 @@
     {
       "id": "evt-cre-elijah-muhammad",
       "label": "Elijah Muhammad",
-      "year": 1955.0,
-      "endYear": 1968.0,
+      "year": 1955,
+      "endYear": 1968,
       "description": "Elijah Muhammad led the Nation of Islam for decades, building a disciplined Black religious and economic organization whose theology and separatism set it sharply apart from the Christian-rooted movement.",
       "wikiSlug": "Elijah_Muhammad",
       "tier": 3,
@@ -2202,7 +2297,7 @@
     {
       "id": "evt-cre-naacp-membership-surge",
       "label": "The Postwar NAACP Surge",
-      "year": 1946.0,
+      "year": 1946,
       "description": "NAACP membership grew roughly tenfold during World War II, building the dues-paying mass base and local chapter network that the postwar campaigns would mobilize.",
       "wikiSlug": "NAACP",
       "tier": 3,
@@ -2216,7 +2311,9 @@
       "wikiSlug": "Isaac_Woodard",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-cicero-riot",
@@ -2262,12 +2359,14 @@
       "wikiSlug": "Prathia_Hall",
       "tier": 3,
       "category": "people",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-eyes-on-the-prize",
       "label": "Contested Memory and the Record",
-      "year": 1987.0,
+      "year": 1987,
       "description": "From the documentary 'Eyes on the Prize' to a vast archive of oral histories, FBI files, and SNCC papers, the era is one of the best-documented in American history, which is exactly why its sanitized memory is contested.",
       "wikiSlug": "Eyes_on_the_Prize",
       "tier": 3,
@@ -2281,7 +2380,9 @@
       "wikiSlug": "Richard_Russell_Jr.",
       "tier": 2,
       "category": "rulers",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-cloture-vote-1964",
@@ -2309,7 +2410,9 @@
       "wikiSlug": "Howard_W._Smith",
       "tier": 3,
       "category": "writing",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-monroe-williams-exile",
@@ -2319,7 +2422,9 @@
       "wikiSlug": "Robert_F._Williams",
       "tier": 3,
       "category": "wars",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-bandung-conference",
@@ -2347,7 +2452,9 @@
       "wikiSlug": "Maynard_Jackson",
       "tier": 3,
       "category": "rulers",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-mahalia-jackson-march",
@@ -2357,7 +2464,9 @@
       "wikiSlug": "Mahalia_Jackson",
       "tier": 3,
       "category": "religion",
-      "tags": ["people"]
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "evt-cre-northern-ireland-civil-rights",

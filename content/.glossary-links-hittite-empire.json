@@ -75,7 +75,7 @@
     {
       "term": "Karum",
       "matchText": "karums",
-      "wikiSlug": "Karum",
+      "wikiSlug": "Lake_Karum",
       "type": "concept"
     },
     {
@@ -397,7 +397,7 @@
     {
       "term": "Ay",
       "matchText": "Ay",
-      "wikiSlug": "Ay",
+      "wikiSlug": "Ay_(pharaoh)",
       "type": "people"
     },
     {
@@ -580,8 +580,9 @@
     {
       "term": "Panther",
       "matchText": "panther",
-      "wikiSlug": "Panther",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A big spotted cat (the leopard, basically) that shows up in Hittite religious art — the Sun Goddess of Arinna is shown standing on one in the carved processions at Yazılıkaya."
     },
     {
       "term": "Luwian",
@@ -654,7 +655,7 @@
     {
       "term": "Kadesh",
       "matchText": "Kadesh",
-      "wikiSlug": "Kadesh",
+      "wikiSlug": "Battle_of_Kadesh",
       "type": "place"
     },
     {
@@ -678,7 +679,7 @@
     {
       "term": "Ishtar",
       "matchText": "Ishtar",
-      "wikiSlug": "Ishtar",
+      "wikiSlug": "Ishtar_Gate",
       "type": "people"
     },
     {

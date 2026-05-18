@@ -97,7 +97,9 @@
       "description": "Dante Alighieri began The Divine Comedy around 1308 and finished it shortly before his death in 1321, writing the epic in vernacular Italian rather than Latin and effectively founding modern Italian literature.",
       "wikiSlug": "Divine_Comedy",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -107,7 +109,9 @@
       "description": "King Philip IV of France arrested every Templar in his kingdom on Friday October 13, 1307, extracted confessions of heresy under torture, and pressured Pope Clement V to suppress the order in 1312. The Templars' last grand master Jacques de Molay was burned at the stake in 1314.",
       "wikiSlug": "Knights_Templar",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -117,7 +121,9 @@
       "description": "Pope Clement V relocated the papal court to Avignon in southern France in 1309 under French royal pressure, beginning a 68-year period in which seven successive popes ruled from Avignon rather than Rome.",
       "wikiSlug": "Avignon_Papacy",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -127,7 +133,9 @@
       "description": "Edward III of England claimed the French throne through his mother Isabella in 1337, conventionally beginning the Hundred Years War. The dynastic claim was thin, but the underlying struggle was over English continental possessions, French royal authority over Gascony, and control of the Flemish wool trade.",
       "wikiSlug": "Edward_III_of_England",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -199,7 +207,9 @@
       "description": "From late 1348 through 1349, mobs across the Rhineland, Alsace, Switzerland, and Catalonia massacred Jewish communities accused of poisoning wells to spread the plague. Strasbourg burned 900 Jews alive on February 14, 1349; Mainz, Cologne, Worms, and Frankfurt were emptied within months.",
       "wikiSlug": "Black_Death_Jewish_persecutions",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -209,7 +219,9 @@
       "description": "Bands of penitents called Flagellants roamed central Europe in 1348–1349 whipping themselves bloody in public processions to atone for the sins they believed had brought the plague. Pope Clement VI condemned the movement in October 1349.",
       "wikiSlug": "Flagellant",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -260,7 +272,9 @@
       "description": "Charles V of France, a sickly, scholarly king with the brilliant general Bertrand du Guesclin at his side, recovered most of what France had lost at Brétigny through patient siege warfare and avoidance of pitched battles between 1369 and 1380.",
       "wikiSlug": "Charles_V_of_France",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -270,7 +284,9 @@
       "description": "Pope Gregory XI moved the papal court back from Avignon to Rome in January 1377 under pressure from Catherine of Siena and the deteriorating French political situation. He died fourteen months later, triggering the disputed conclave that produced the Western Schism.",
       "wikiSlug": "Pope_Gregory_XI",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -281,7 +297,9 @@
       "description": "From 1378 to 1417, two and at one point three rival popes claimed the throne of Saint Peter simultaneously, splitting Latin Christendom and ending only at the Council of Constance in 1417.",
       "wikiSlug": "Western_Schism",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -311,7 +329,10 @@
       "description": "The English priest John Ball preached an egalitarian gospel — 'When Adam delved and Eve span, who was then the gentleman?' — that helped ignite the Peasants' Revolt of 1381. He was hanged, drawn, and quartered at St Albans on July 15, 1381.",
       "wikiSlug": "John_Ball_(priest)",
       "tier": 3,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -321,7 +342,10 @@
       "description": "The Oxford theologian John Wycliffe attacked papal authority, transubstantiation, clerical wealth, and the church's monopoly on scripture; his followers, called Lollards, produced the first complete English-language Bible around 1382.",
       "wikiSlug": "John_Wycliffe",
       "tier": 2,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -331,7 +355,9 @@
       "description": "Geoffrey Chaucer began The Canterbury Tales around 1387, a collection of stories told by pilgrims traveling to Thomas Becket's shrine that became the founding masterpiece of English vernacular literature.",
       "wikiSlug": "The_Canterbury_Tales",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -351,7 +377,9 @@
       "description": "An Ottoman army under Sultan Bayezid I crushed the last great pan-European crusade at Nicopolis on the Danube on September 25, 1396, killing or capturing thousands of French and Hungarian knights and ending serious western intervention in the Balkans for a century.",
       "wikiSlug": "Battle_of_Nicopolis",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "wars"
     },
     {
@@ -361,7 +389,9 @@
       "description": "Richard II of England, increasingly autocratic and unpopular, was deposed by his cousin Henry Bolingbroke in 1399 and probably starved to death in Pontefract Castle the next year. Henry took the throne as Henry IV — the first Lancastrian king and the trigger for the dynastic conflict that became the Wars of the Roses.",
       "wikiSlug": "Richard_II_of_England",
       "tier": 3,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -392,7 +422,9 @@
       "description": "Henry V of England, immortalized by Shakespeare, won Agincourt in 1415 and forced the Treaty of Troyes in 1420 making him heir to the French throne — only to die of dysentery in 1422 before he could inherit, leaving an infant son.",
       "wikiSlug": "Henry_V_of_England",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -412,7 +444,10 @@
       "description": "The Czech reformer Jan Hus was burned alive at the Council of Constance on July 6, 1415 — despite holding a written safe-conduct from Emperor Sigismund — for refusing to recant his Wycliffite doctrines, igniting the Hussite Wars in Bohemia.",
       "wikiSlug": "Jan_Hus",
       "tier": 2,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -422,7 +457,9 @@
       "description": "The Council of Constance (1414–1418) deposed the three rival popes of the Western Schism, elected the new Martin V, and burned Jan Hus — the most consequential church council of the Middle Ages and the high-water mark of conciliarism.",
       "wikiSlug": "Council_of_Constance",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -433,7 +470,9 @@
       "description": "Jan Hus's Bohemian followers fought five papal-imperial crusades to a standstill between 1419 and 1434, defeating heavy cavalry with proto-Hussite war wagons and gunpowder field guns under the brilliant general Jan Žižka.",
       "wikiSlug": "Hussite_Wars",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "wars"
     },
     {
@@ -441,9 +480,12 @@
       "label": "Joan of Arc at Orléans",
       "year": 1429,
       "description": "A teenage peasant girl from Domrémy claiming to hear the voices of Saints Catherine, Margaret, and Michael led French troops to break the English siege of Orléans on May 8, 1429, reversing the trajectory of the Hundred Years War.",
-      "wikiSlug": "Siege_of_Orl%C3%A9ans",
+      "wikiSlug": "Siege_of_Orléans_(1428–1429)",
       "tier": 1,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "wars"
     },
     {
@@ -453,7 +495,10 @@
       "description": "Joan of Arc was burned at the stake at Rouen on May 30, 1431 by an English-controlled ecclesiastical court for heresy, witchcraft, and cross-dressing. She was nineteen. Her conviction was overturned in 1456 and she was canonized by Pope Benedict XV in 1920.",
       "wikiSlug": "Joan_of_Arc",
       "tier": 1,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -463,7 +508,9 @@
       "description": "Joan of Arc led the Dauphin Charles to Reims Cathedral for his coronation as Charles VII on July 17, 1429 — the symbolic act that legitimized his kingship in the eyes of the French people and broke the Anglo-Burgundian dynastic claim.",
       "wikiSlug": "Charles_VII_of_France",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "rulers"
     },
     {
@@ -485,7 +532,9 @@
       "description": "Philip the Good ruled the composite Burgundian state — the duchy of Burgundy plus most of the modern Low Countries — from 1419 to 1467, switching sides from England to France in 1435 and patronizing the Flemish painters who reinvented oil painting.",
       "wikiSlug": "Philip_the_Good",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -526,7 +575,9 @@
       "description": "Cosimo de' Medici, the founder of Medici political power in Florence, ran the largest bank in fifteenth-century Europe, financed the Council of Florence, patronized Brunelleschi and Donatello, and ruled the city without ever holding formal office.",
       "wikiSlug": "Cosimo_de%27_Medici",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -537,7 +588,9 @@
       "description": "Lorenzo de' Medici ruled Florence from 1469 to 1492 as the most accomplished political and cultural patron of the early Renaissance, sponsoring Botticelli, Michelangelo, Pico della Mirandola, and Poliziano while letting his bank slide toward bankruptcy.",
       "wikiSlug": "Lorenzo_de%27_Medici",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -547,7 +600,9 @@
       "description": "Francesco Petrarca — Petrarch — climbed Mont Ventoux in 1336 in what is conventionally called the first 'Renaissance' moment of self-conscious aesthetic appreciation of nature, and spent the next forty years rediscovering classical Latin manuscripts, writing sonnets to Laura, and inventing the cult of the individual that defines Renaissance humanism.",
       "wikiSlug": "Petrarch",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -557,7 +612,9 @@
       "description": "Giovanni Boccaccio finished the Decameron around 1353 — one hundred bawdy, satirical, and tender tales told by ten Florentines fleeing the Black Death in a country villa, the first major prose masterpiece in Italian.",
       "wikiSlug": "The_Decameron",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -578,7 +635,9 @@
       "description": "Donatello reinvented European sculpture between roughly 1408 and 1466, producing the bronze David around 1440 — the first freestanding nude statue cast in Europe since antiquity — and the equestrian Gattamelata in Padua, the first such monument since the Romans.",
       "wikiSlug": "Donatello",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "architecture"
     },
     {
@@ -588,7 +647,9 @@
       "description": "Masaccio painted the Brancacci Chapel frescoes in Florence around 1424–1427 with rigorous linear perspective, modeled chiaroscuro figures, and emotional psychological depth — the founding moment of Renaissance painting. He died at twenty-six.",
       "wikiSlug": "Masaccio",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "architecture"
     },
     {
@@ -598,7 +659,9 @@
       "description": "Jan van Eyck completed the Ghent Altarpiece in 1432 and the Arnolfini Portrait in 1434, perfecting the oil painting technique that gave Northern Renaissance art its luminous depth and microscopic detail. He worked for Philip the Good of Burgundy as court painter and diplomat.",
       "wikiSlug": "Jan_van_Eyck",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "architecture"
     },
     {
@@ -608,7 +671,9 @@
       "description": "Hieronymus Bosch painted the Garden of Earthly Delights triptych around 1490–1510 in 's-Hertogenbosch, populating his canvases with grotesque hybrid creatures, theological visions, and proto-surrealist imagery without parallel in late-medieval art.",
       "wikiSlug": "Hieronymus_Bosch",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "architecture"
     },
     {
@@ -618,7 +683,9 @@
       "description": "Johannes Gutenberg in Mainz developed movable-type printing in the 1440s; his 42-line Bible appeared around 1455. By 1500, presses had been set up in more than 200 European cities and had printed perhaps 20 million books, collapsing the cost of writing and making the Reformation possible.",
       "wikiSlug": "Printing_press",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -690,7 +757,10 @@
       "description": "The Dominican friar Girolamo Savonarola briefly ruled Florence as a theocratic republic from 1494 to 1498, organizing 'bonfires of the vanities' that burned books, paintings, mirrors, and cosmetics — until he was excommunicated by Alexander VI, hanged, and burned in the Piazza della Signoria.",
       "wikiSlug": "Girolamo_Savonarola",
       "tier": 3,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -711,7 +781,9 @@
       "description": "Ferdinand of Aragon and Isabella of Castile married in 1469, conjoining their kingdoms into the dynastic union that became Spain. Together they conquered Granada in 1492, expelled the Jews, established the Spanish Inquisition, and funded Columbus.",
       "wikiSlug": "Catholic_Monarchs",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -721,7 +793,9 @@
       "description": "Pope Sixtus IV authorized the Spanish Inquisition in 1478 at the request of Ferdinand and Isabella. Run by the Spanish crown rather than the papacy, it focused initially on conversos — Jewish converts to Christianity suspected of secretly practicing Judaism — and would not be abolished until 1834.",
       "wikiSlug": "Spanish_Inquisition",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -731,7 +805,9 @@
       "description": "Ferdinand of Aragon and Isabella of Castile accepted the surrender of the last Muslim ruler of Granada, Boabdil, on January 2, 1492, completing the 781-year Reconquista of the Iberian peninsula and ending Muslim political rule in western Europe.",
       "wikiSlug": "Granada_War",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "wars"
     },
     {
@@ -741,7 +817,9 @@
       "description": "The Alhambra Decree of March 31, 1492, ordered all Jews to convert or leave the kingdoms of Castile and Aragon by July 31, ending one of the largest and most culturally productive Jewish communities in medieval Europe and scattering Sephardic refugees to the Ottoman Empire, North Africa, the Netherlands, and Italy.",
       "wikiSlug": "Alhambra_Decree",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -751,7 +829,9 @@
       "description": "Christopher Columbus, sailing under Castilian patronage, made landfall on a Bahamian island on October 12, 1492, opening the Atlantic exchange between Europe, Africa, and the Americas and conventionally marking the end of the Middle Ages.",
       "wikiSlug": "Voyages_of_Christopher_Columbus",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -761,7 +841,9 @@
       "description": "The Portuguese navigator Bartolomeu Dias rounded the Cape of Good Hope at the southern tip of Africa in 1488, the first European to enter the Indian Ocean by sea and the proof that the long Portuguese probing of the African coast had finally found a route to Asia.",
       "wikiSlug": "Bartolomeu_Dias",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -771,7 +853,9 @@
       "description": "Vasco da Gama's Portuguese fleet reached Calicut on the Malabar Coast on May 20, 1498, completing the first sea voyage from Europe to India and beginning the Portuguese maritime empire that would dominate the Indian Ocean for a century.",
       "wikiSlug": "Vasco_da_Gama",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -791,7 +875,9 @@
       "description": "Henry, Duke of Viseu — known to history as Prince Henry the Navigator — sponsored the Portuguese exploration of the West African coast from his base at Sagres beginning around 1418, training generations of pilots and cartographers and triggering the Atlantic slave trade by 1444.",
       "wikiSlug": "Prince_Henry_the_Navigator",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -811,7 +897,9 @@
       "description": "The Dominican inquisitor Heinrich Kramer published the Malleus Maleficarum ('Hammer of Witches') in 1486, a printed witch-hunter's manual that would help drive the European witch craze of the sixteenth and seventeenth centuries — a problem the medieval church had largely ignored.",
       "wikiSlug": "Malleus_Maleficarum",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "writing"
     },
     {
@@ -822,7 +910,9 @@
       "description": "Sigismund of Luxembourg, King of Hungary, of Bohemia, and Holy Roman Emperor from 1411 to 1437, convened the Council of Constance, betrayed Jan Hus, fought the losing crusade at Nicopolis, and presided over the late-medieval imperial state at its institutional weakest.",
       "wikiSlug": "Sigismund,_Holy_Roman_Emperor",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -832,7 +922,9 @@
       "description": "The doctrine that a general council of the Church holds higher authority than the pope — conciliarism — peaked at the Councils of Constance (1414–1418) and Basel (1431–1449) before being decisively rejected by the papacy. It was the closest medieval Christianity ever came to constitutional reform.",
       "wikiSlug": "Conciliarism",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -872,7 +964,9 @@
       "description": "The German cardinal-philosopher Nicholas of Cusa argued in De Docta Ignorantia (1440) that the universe is infinite and has no fixed center, anticipating Copernicus by a century while remaining a thoroughly conventional medieval theologian.",
       "wikiSlug": "Nicholas_of_Cusa",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "science"
     },
     {
@@ -882,7 +976,9 @@
       "description": "Pope Innocent VIII issued the bull Summis desiderantes affectibus in 1484 authorizing inquisitorial action against witches in the Rhineland, the licensing document that legitimized two centuries of European witch-hunting and informed the Malleus Maleficarum.",
       "wikiSlug": "Summis_desiderantes_affectibus",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     }
   ]

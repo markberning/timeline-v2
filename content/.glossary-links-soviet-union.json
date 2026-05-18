@@ -437,8 +437,9 @@
     {
       "term": "NEPmen",
       "matchText": "NEPmen",
-      "wikiSlug": "NEPman",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "The private traders, shopkeepers, and small businessmen who got rich during the 1920s New Economic Policy, when Lenin briefly allowed a slice of capitalism back into Soviet Russia. They were resented as profiteers, became a stock villain in Soviet propaganda, and were squeezed out of existence once Stalin ended the policy."
     },
     {
       "term": "Workers' Opposition",
@@ -1620,7 +1621,7 @@
     {
       "term": "filtration camps",
       "matchText": "filtration camps",
-      "wikiSlug": "Filtration_camp",
+      "wikiSlug": "NKVD_filtration_camps",
       "type": "concept"
     },
     {
@@ -2242,7 +2243,7 @@
     {
       "term": "tamizdat",
       "matchText": "tamizdat",
-      "wikiSlug": "Tamizdat",
+      "wikiSlug": "Samizdat",
       "type": "concept"
     },
     {

@@ -143,7 +143,7 @@
     {
       "id": "evt-emancipation-proclamation-recon",
       "label": "Emancipation Proclamation takes effect",
-      "year": 1863.0,
+      "year": 1863,
       "description": "On January 1, 1863, Lincoln's proclamation declared enslaved people in Confederate-held territory free and authorized Black enlistment. As a war measure resting on the president's war powers, it freed no one in the loyal border states and could plausibly be unwound by a future court or peace settlement, which is exactly why a constitutional amendment would later be needed.",
       "wikiSlug": "Emancipation_Proclamation",
       "tier": 2,
@@ -262,7 +262,7 @@
       "label": "Johnson's amnesty proclamation",
       "year": 1865.4,
       "description": "In May 1865 Johnson offered a broad amnesty to most ex-Confederates who swore loyalty, while requiring the wealthiest planters and high officials to apply for individual pardons. He then granted those pardons by the thousands, personally restoring the old ruling class to power.",
-      "wikiSlug": "Amnesty_Proclamation",
+      "wikiSlug": "Pardons_for_ex-Confederates",
       "tier": 2,
       "category": "rulers"
     },
@@ -305,7 +305,7 @@
     {
       "id": "evt-thirteenth-amendment-exception-clause",
       "label": "Convict leasing exploits the 13th's loophole",
-      "year": 1866.0,
+      "year": 1866,
       "description": "Because the Thirteenth Amendment allowed involuntary servitude 'as a punishment for crime,' Southern states began arresting Black men under vagrancy laws and leasing convict labor to planters, railroads, and mines. Convict leasing produced conditions often deadlier than slavery and persisted into the twentieth century.",
       "wikiSlug": "Convict_leasing",
       "tier": 2,
@@ -533,7 +533,7 @@
     {
       "id": "evt-fourteenth-amendment-corporations",
       "label": "14th Amendment and corporate personhood",
-      "year": 1869.0,
+      "year": 1869,
       "description": "Almost immediately, corporations began arguing in court that the Fourteenth Amendment's protection of 'persons' applied to them. By the 1880s the Supreme Court would use the amendment far more often to shield railroads and businesses than to protect freedpeople, one of the great ironies of Reconstruction's constitutional legacy.",
       "wikiSlug": "Corporate_personhood",
       "tier": 3,
@@ -658,7 +658,6 @@
       "label": "Congress investigates the Klan",
       "year": 1871.5,
       "description": "A joint congressional committee took thousands of pages of testimony in 1871–72 documenting Klan whippings, rapes, mutilations, and murders across the South. The thirteen-volume report is one of the fullest records of organized racial terror in American history and demolished the claim that the violence was exaggerated.",
-      "wikiSlug": "Joint_Select_Committee_on_the_Condition_of_Affairs_in_the_Late_Insurrectionary_States",
       "tier": 3,
       "category": "writing"
     },
@@ -683,7 +682,7 @@
     {
       "id": "evt-freedmens-savings-bank",
       "label": "Freedman's Savings Bank",
-      "year": 1872.0,
+      "year": 1872,
       "description": "Chartered in 1865, the Freedman's Savings and Trust Company drew tens of thousands of Black depositors who entrusted it with their savings. Mismanaged and looted by speculative loans, it collapsed in 1874, wiping out an estimated $3 million in Black wealth and poisoning trust in financial institutions for generations.",
       "wikiSlug": "Freedman%27s_Savings_Bank",
       "tier": 2,
@@ -865,7 +864,6 @@
       "label": "Clinton massacre",
       "year": 1875.66,
       "description": "At a Republican barbecue in Clinton, Mississippi, in September 1875, white Democrats opened fire and then hunted Black residents for days, killing an estimated 20 to 50. Governor Adelbert Ames's plea for federal troops was refused by the Grant administration, a turning point in the abandonment of Mississippi.",
-      "wikiSlug": "Clinton_riot_of_1875",
       "tier": 2,
       "category": "wars"
     },
@@ -980,7 +978,7 @@
     {
       "id": "evt-sharecropping-system",
       "label": "Sharecropping replaces the gang system",
-      "year": 1867.0,
+      "year": 1867,
       "description": "Freedpeople refused to work in slavery-style gangs, and planters lacked cash to pay wages, so the South settled into sharecropping: a family farmed a plot for a share of the crop. It gave laborers daily autonomy but, combined with the crop-lien, trapped most in permanent debt.",
       "wikiSlug": "Sharecropping",
       "tier": 1,
@@ -989,7 +987,7 @@
     {
       "id": "evt-crop-lien-system",
       "label": "Crop-lien system entraps farmers",
-      "year": 1868.0,
+      "year": 1868,
       "description": "Cash-poor farmers, Black and white, bought supplies on credit from merchants who took a lien on the unharvested crop at ruinous interest. Settled accounts often left the farmer deeper in debt each year, binding sharecroppers to the land and the merchant in a cycle that long outlasted Reconstruction.",
       "wikiSlug": "Crop-lien_system",
       "tier": 2,
@@ -1016,7 +1014,7 @@
     {
       "id": "evt-cotton-economy-rebuilt",
       "label": "The cotton South rebuilt on credit",
-      "year": 1870.0,
+      "year": 1870,
       "description": "By the early 1870s Southern cotton output had recovered, but it was produced by indebted sharecroppers and tenant farmers rather than enslaved gangs, and the profits flowed largely to merchants and Northern creditors. The region was reintegrated into the global cotton market as its poorest section.",
       "wikiSlug": "History_of_cotton",
       "tier": 3,
@@ -1079,7 +1077,7 @@
     {
       "id": "evt-public-school-systems-south",
       "label": "The South's first public schools",
-      "year": 1869.0,
+      "year": 1869,
       "description": "Reconstruction state constitutions created the South's first tax-funded public school systems, open in principle to Black and white children, though almost always segregated. Underfunded and resented, these systems were nonetheless one of Reconstruction's most durable legacies.",
       "wikiSlug": "Reconstruction_era",
       "tier": 2,
@@ -1097,7 +1095,7 @@
     {
       "id": "evt-robert-brown-elliott",
       "label": "Robert Brown Elliott's House oratory",
-      "year": 1874.0,
+      "year": 1874,
       "description": "Robert Brown Elliott of South Carolina delivered a celebrated 1874 House speech defending the Civil Rights Act and rebutting ex-Confederate Alexander Stephens. A brilliant, formally educated lawyer, he stood as living refutation of the claim that Black legislators were ignorant.",
       "wikiSlug": "Robert_Brown_Elliott",
       "tier": 3,
@@ -1106,7 +1104,7 @@
     {
       "id": "evt-carpetbaggers-scalawags",
       "label": "'Carpetbaggers' and 'scalawags' as slurs",
-      "year": 1868.0,
+      "year": 1868,
       "description": "Southern Democrats branded Northern newcomers 'carpetbaggers' (opportunists with all they owned in a cheap carpet bag) and white Southern Republicans 'scalawags' (worthless livestock). The labels, accepted as fact for a century, caricatured a varied group of teachers, veterans, investors, and reformers.",
       "wikiSlug": "Carpetbagger",
       "tier": 2,
@@ -1115,7 +1113,7 @@
     {
       "id": "evt-redemption-state-by-state",
       "label": "Redemption sweeps the South",
-      "year": 1874.0,
+      "year": 1874,
       "description": "Between 1869 and 1877 Democratic 'Redeemers' retook every Southern state: Virginia and Tennessee first, then through violence and the depression the rest, with Mississippi (1875) and South Carolina, Louisiana, and Florida (1877) last. Each fall narrowed where federal protection still reached.",
       "wikiSlug": "Redeemers",
       "tier": 2,
@@ -1124,7 +1122,7 @@
     {
       "id": "evt-enforcement-acts-unenforced",
       "label": "Enforcement abandoned after 1874",
-      "year": 1875.0,
+      "year": 1875,
       "description": "After the 1874 Democratic House takeover and the Cruikshank ruling, the administration stopped sending troops and prosecutors south even as the killing intensified. The collapse was less a defeat than a federal decision to stop resisting an insurgency it had the constitutional tools to fight.",
       "wikiSlug": "Enforcement_Acts",
       "tier": 2,
@@ -1171,7 +1169,7 @@
       "label": "Grant's Indian Peace Policy",
       "year": 1869.5,
       "description": "Grant's 'Peace Policy' put church groups in charge of Indian agencies and aimed at assimilation rather than extermination, the same federal-power-as-moral-project impulse driving Reconstruction. In practice it coexisted with continued conquest and the breaking of treaties on the Plains.",
-      "wikiSlug": "Grant%27s_peace_policy",
+      "wikiSlug": "Native_American_policy_of_the_Grant_administration",
       "tier": 3,
       "category": "rulers"
     },
@@ -1214,7 +1212,7 @@
     {
       "id": "evt-long-depression",
       "label": "The Long Depression",
-      "year": 1875.0,
+      "year": 1875,
       "description": "The downturn that began in 1873 lasted, with deep unemployment and falling wages, until roughly 1879, the longest contraction in U.S. history by some measures. It made the North inward-looking and broke the political coalition that had sustained Reconstruction.",
       "wikiSlug": "Long_Depression",
       "tier": 2,
@@ -1241,7 +1239,7 @@
     {
       "id": "evt-dunning-school",
       "label": "The Dunning School writes the textbooks",
-      "year": 1907.0,
+      "year": 1907,
       "description": "Around 1900–1910, historians led by William Dunning at Columbia produced an influential interpretation casting Reconstruction as a corrupt, vindictive imposition of Black and carpetbagger misrule, nobly ended by white Redeemers. It dominated American textbooks and films, like The Birth of a Nation, for roughly fifty years.",
       "wikiSlug": "Dunning_School",
       "tier": 2,
@@ -1250,7 +1248,7 @@
     {
       "id": "evt-lost-cause-myth",
       "label": "The Lost Cause myth is constructed",
-      "year": 1880.0,
+      "year": 1880,
       "description": "From the 1870s onward, ex-Confederates and groups like the United Daughters of the Confederacy promoted the 'Lost Cause': the war was about states' rights, slavery was benign, and Reconstruction was Northern tyranny. Monuments, textbooks, and Memorial Day rituals embedded it in American memory.",
       "wikiSlug": "Lost_Cause_of_the_Confederacy",
       "tier": 2,
@@ -1259,7 +1257,7 @@
     {
       "id": "evt-confederate-monuments-begin",
       "label": "Confederate memorialization begins",
-      "year": 1885.0,
+      "year": 1885,
       "description": "The first wave of Confederate cemeteries and monuments, followed by a much larger Jim Crow-era wave around 1900–1920, physically inscribed the Lost Cause on Southern courthouse lawns. The monuments were political statements about who controlled public space, not neutral commemoration.",
       "wikiSlug": "Confederate_monuments_and_memorials",
       "tier": 3,
@@ -1268,7 +1266,7 @@
     {
       "id": "evt-plessy-foreshadowed",
       "label": "Plessy v. Ferguson legalizes segregation",
-      "year": 1896.0,
+      "year": 1896,
       "description": "In 1896 the Supreme Court, building directly on the gutted Reconstruction amendments of the 1870s, upheld 'separate but equal' in Plessy v. Ferguson, constitutionalizing Jim Crow. It is the direct legal endpoint of the judicial dismantling Cruikshank and Reese began, and is taken up fully in a later narrative in this chain.",
       "wikiSlug": "Plessy_v._Ferguson",
       "tier": 2,
@@ -1277,7 +1275,7 @@
     {
       "id": "evt-disfranchisement-constitutions",
       "label": "Southern disfranchisement constitutions",
-      "year": 1890.0,
+      "year": 1890,
       "description": "Beginning with Mississippi in 1890, Southern states rewrote their constitutions to strip Black men of the vote through poll taxes, literacy tests, and grandfather clauses, exploiting the very loopholes Reese had blessed. Black registration in some states fell from majorities to near zero within a decade.",
       "wikiSlug": "Disfranchisement_after_the_Reconstruction_era",
       "tier": 2,
@@ -1286,7 +1284,7 @@
     {
       "id": "evt-du-bois-black-reconstruction",
       "label": "Du Bois publishes Black Reconstruction",
-      "year": 1935.0,
+      "year": 1935,
       "description": "In 1935 W. E. B. Du Bois published Black Reconstruction in America, demolishing the Dunning School and arguing Reconstruction was a heroic, sabotaged experiment in democracy and that Black people were its agents, not its problem. It took mainstream scholarship another generation to catch up.",
       "wikiSlug": "Black_Reconstruction_in_America",
       "tier": 2,
@@ -1295,7 +1293,7 @@
     {
       "id": "evt-foner-second-founding",
       "label": "The 'Second Founding' consensus",
-      "year": 1988.0,
+      "year": 1988,
       "description": "Eric Foner's 1988 synthesis and later work established the modern consensus: Reconstruction was an unfinished revolution and the Reconstruction amendments amounted to a 'Second Founding' of the United States. This is the scholarly framing this narrative follows.",
       "wikiSlug": "Reconstruction_era",
       "tier": 3,
@@ -1304,7 +1302,7 @@
     {
       "id": "evt-thaddeus-stevens",
       "label": "Thaddeus Stevens leads the Radicals",
-      "year": 1866.0,
+      "year": 1866,
       "description": "Thaddeus Stevens of Pennsylvania, the fierce, sardonic House leader of the Radical Republicans, pushed hardest for Black equality and land confiscation for the freedpeople. He died in 1868 and was buried, by his own design, in an integrated cemetery as a final statement of his principles.",
       "wikiSlug": "Thaddeus_Stevens",
       "tier": 2,
@@ -1331,7 +1329,7 @@
     {
       "id": "evt-andrew-johnson-elected-senate-1875",
       "label": "Johnson returns to the Senate",
-      "year": 1875.0,
+      "year": 1875,
       "description": "In a remarkable coda, Tennessee sent the disgraced Andrew Johnson back to the U.S. Senate in 1875, the only former president ever to serve there. He died months later, a symbol of how thoroughly the Redeemer South had reversed the verdict of the 1860s.",
       "wikiSlug": "Andrew_Johnson",
       "tier": 3,
@@ -1379,7 +1377,7 @@
     {
       "id": "evt-enforcement-marshals-south",
       "label": "Federal marshals and the deep South",
-      "year": 1872.0,
+      "year": 1872,
       "description": "Where U.S. attorneys and marshals were energetic, as in the 1871–72 South Carolina prosecutions, Klan violence dropped sharply; where they were starved of money and backing after 1873, it surged. The pattern is the strongest evidence that Reconstruction's failure was a question of will, not capacity.",
       "wikiSlug": "Enforcement_Acts",
       "tier": 3,
@@ -1412,7 +1410,7 @@
     {
       "id": "evt-exodusters",
       "label": "The Exoduster migration",
-      "year": 1879.0,
+      "year": 1879,
       "description": "As Redemption closed in, tens of thousands of Black Southerners, the 'Exodusters,' fled to Kansas in 1879–1880 seeking land and safety beyond the reach of the Redeemer South. It was the first mass Black migration out of the South and a verdict on what Reconstruction's end meant on the ground.",
       "wikiSlug": "Exodusters",
       "tier": 3,
@@ -1460,7 +1458,7 @@
     {
       "id": "evt-johnson-vetoes-pattern",
       "label": "Johnson's wall of vetoes",
-      "year": 1867.0,
+      "year": 1867,
       "description": "Johnson vetoed nearly every Reconstruction measure, including the Freedmen's Bureau bill, the Civil Rights Act, and the Reconstruction Acts, and Congress overrode him a record number of times. He cast more vetoes overridden than any president before him, a measure of total institutional rupture.",
       "wikiSlug": "Andrew_Johnson",
       "tier": 3,
@@ -1505,7 +1503,7 @@
     {
       "id": "evt-black-landownership-gains",
       "label": "The slow rise of Black landowning",
-      "year": 1880.0,
+      "year": 1880,
       "description": "Despite the failure of redistribution, by 1880 a minority of Black Southern families had bought land through extraordinary saving, and Black landownership kept rising slowly toward a peak around 1910. It was real progress built without the federal land grant that might have made it general.",
       "wikiSlug": "Reconstruction_era",
       "tier": 3,
@@ -1541,7 +1539,7 @@
     {
       "id": "evt-katharine-lee-reconstruction-women",
       "label": "Northern teachers go south",
-      "year": 1866.0,
+      "year": 1866,
       "description": "Thousands of Northern women, Black and white, traveled south as teachers in the freedmen's schools, often facing ostracism and Klan threats. Figures like Charlotte Forten and the missionary teachers were a quiet, central engine of the era's revolution in Black literacy.",
       "wikiSlug": "Charlotte_Forten_Grimk%C3%A9",
       "tier": 3,
@@ -1559,7 +1557,7 @@
     {
       "id": "evt-easter-1873-aftermath",
       "label": "Colfax goes unpunished",
-      "year": 1874.0,
+      "year": 1874,
       "description": "Of the dozens of men charged for the Colfax massacre, only nine went to trial, three were convicted, and all convictions were thrown out by Cruikshank. That a massacre of this scale produced no punishment broadcast across the South that organized terror would be tolerated.",
       "wikiSlug": "Colfax_massacre",
       "tier": 3,
@@ -1568,7 +1566,7 @@
     {
       "id": "evt-reconstruction-amendments-dormant",
       "label": "The amendments go dormant",
-      "year": 1900.0,
+      "year": 1900,
       "description": "From roughly the 1880s to the 1950s the Reconstruction amendments were largely inert as guarantees of Black rights, kept alive mainly in dissents and in Black institutional memory until the civil rights movement revived them, a story told in a later narrative in this chain.",
       "wikiSlug": "Reconstruction_era",
       "tier": 2,
@@ -1577,7 +1575,7 @@
     {
       "id": "evt-second-founding-framing",
       "label": "Reconstruction as the 'Second Founding'",
-      "year": 1990.0,
+      "year": 1990,
       "description": "Modern scholarship treats the Thirteenth, Fourteenth, and Fifteenth Amendments as a refounding of the republic that the original 1787 Constitution's compromises with slavery had left incomplete. On this reading Reconstruction is not a failed appendix to the Civil War but the unfinished core of American constitutional democracy.",
       "wikiSlug": "Reconstruction_era",
       "tier": 2,
@@ -1586,7 +1584,7 @@
     {
       "id": "evt-reconstruction-historiography-shift",
       "label": "The textbooks finally turn",
-      "year": 1965.0,
+      "year": 1965,
       "description": "Spurred by the civil rights movement and historians like Kenneth Stampp and John Hope Franklin, mainstream textbooks abandoned the Dunning interpretation around the 1960s, roughly a century after the events and thirty years after Du Bois had already made the case.",
       "wikiSlug": "Reconstruction_era",
       "tier": 3,
@@ -1649,7 +1647,7 @@
     {
       "id": "evt-reconstruction-railroads-south",
       "label": "Reconstruction railroad building",
-      "year": 1870.0,
+      "year": 1870,
       "description": "Reconstruction legislatures poured bonds into railroad construction to rebuild and modernize the South, expanding track but also generating debt, graft, and the corruption charges Redeemers weaponized. The rail map of the modern South was substantially laid in these years.",
       "wikiSlug": "Reconstruction_era",
       "tier": 3,
@@ -1658,7 +1656,7 @@
     {
       "id": "evt-rebuilding-the-south",
       "label": "Rebuilding the devastated South",
-      "year": 1868.0,
+      "year": 1868,
       "description": "Reconstruction governments rebuilt burned cities, bridges, levees, courthouses, and asylums and built the region's first significant public infrastructure for ordinary people, an expensive program that raised taxes on a wrecked economy and fed the tax-revolt politics of Redemption.",
       "wikiSlug": "Reconstruction_era",
       "tier": 3,
@@ -1667,7 +1665,7 @@
     {
       "id": "evt-state-capitols-rebuilt",
       "label": "Statehouses change hands",
-      "year": 1877.0,
+      "year": 1877,
       "description": "The Southern statehouses, briefly the seats of biracial governments, passed back to all-white Redeemer Democrats by 1877, and the new regimes slashed the school and infrastructure spending Reconstruction had begun. The physical buildings outlasted the democracy that had briefly filled them.",
       "wikiSlug": "Redeemers",
       "tier": 3,
@@ -1730,7 +1728,7 @@
     {
       "id": "evt-slave-narratives-postwar",
       "label": "Postwar testimony of the freed",
-      "year": 1868.0,
+      "year": 1868,
       "description": "Reconstruction-era congressional hearings, Bureau records, and pension files captured an enormous body of first-person testimony from formerly enslaved people, complementing the slave narratives and the later WPA interviews. It is a core source for writing Reconstruction from the inside.",
       "wikiSlug": "Slave_narrative",
       "tier": 3,
@@ -1739,7 +1737,7 @@
     {
       "id": "evt-emancipation-celebrations",
       "label": "Emancipation Day celebrations",
-      "year": 1866.0,
+      "year": 1866,
       "description": "Freedpeople created their own civic calendar, parading and celebrating emancipation anniversaries like Juneteenth and the January 1 'Watch Night,' often defended against white hostility. These public rituals asserted citizenship as visibly as voting did.",
       "wikiSlug": "Emancipation_Day",
       "tier": 3,
@@ -1775,7 +1773,7 @@
     {
       "id": "evt-grant-personal-integrity",
       "label": "Grant: honest man, scandalous administration",
-      "year": 1873.0,
+      "year": 1873,
       "description": "Grant himself was never shown to have profited corruptly, but his loyalty to dishonest friends and weak administrative grip let scandal metastasize. The reputational damage was real and politically fatal to the cause he genuinely wanted to defend.",
       "wikiSlug": "Ulysses_S._Grant",
       "tier": 3,
@@ -1787,7 +1785,7 @@
     {
       "id": "evt-mississippi-1860-demographics",
       "label": "Where the freedpeople were",
-      "year": 1865.0,
+      "year": 1865,
       "description": "In 1860 enslaved people were a majority in South Carolina and Mississippi and over 40 percent of the population in several other states, so emancipation and Black suffrage instantly created potential Black voting majorities. That demographic fact is why the Reconstruction South became a battleground over the ballot.",
       "wikiSlug": "Slavery_in_the_United_States",
       "tier": 3,
@@ -1832,7 +1830,7 @@
     {
       "id": "evt-louisiana-1872-dual-government",
       "label": "Louisiana's dual governments",
-      "year": 1873.0,
+      "year": 1873,
       "description": "Louisiana's bitterly disputed 1872 election produced rival governors and legislatures, federal intervention, and near-permanent crisis through 1877. It made Louisiana the era's worst case of contested legitimacy and the setting for Colfax and Liberty Place.",
       "wikiSlug": "Reconstruction_era",
       "tier": 3,
@@ -1850,7 +1848,7 @@
     {
       "id": "evt-civil-rights-cases-1883",
       "label": "The Civil Rights Cases finish the job",
-      "year": 1883.0,
+      "year": 1883,
       "description": "In 1883 the Supreme Court struck down the Civil Rights Act of 1875, holding the Fourteenth Amendment reached only state, not private, discrimination. With Cruikshank it left the federal government nearly powerless against private racial subordination until the 1960s.",
       "wikiSlug": "Civil_Rights_Cases",
       "tier": 2,
@@ -1859,7 +1857,7 @@
     {
       "id": "evt-reconstruction-toll-of-violence",
       "label": "Counting the dead of Redemption",
-      "year": 1876.0,
+      "year": 1876,
       "description": "No one tallied the killings precisely, but documented massacres and the Klan record imply that thousands of Black Southerners and their allies were murdered for political reasons between 1865 and 1877. The terror was not incidental to Redemption; it was the method.",
       "wikiSlug": "Reconstruction_era",
       "tier": 2,
@@ -1898,7 +1896,7 @@
     {
       "id": "evt-birth-of-a-nation-1915",
       "label": "Hollywood enshrines the Lost Cause",
-      "year": 1915.0,
+      "year": 1915,
       "description": "D. W. Griffith's 1915 film The Birth of a Nation dramatized the Dunning version, depicting the Klan as heroic redeemers, was screened in the White House, and helped inspire the Klan's mass twentieth-century revival. It shows how the historiographical crime became mass culture.",
       "wikiSlug": "The_Birth_of_a_Nation",
       "tier": 3,
@@ -1943,7 +1941,7 @@
     {
       "id": "evt-colored-baptist-conventions",
       "label": "Independent Black Baptist conventions",
-      "year": 1867.0,
+      "year": 1867,
       "description": "Freed Baptists, the largest Black denomination, organized independent state conventions across the South after 1865, culminating decades later in the National Baptist Convention. The Black Baptist church became, with the AME, the central institution of Black civic life.",
       "wikiSlug": "National_Baptist_Convention,_USA,_Inc.",
       "tier": 3,
@@ -1979,7 +1977,7 @@
     {
       "id": "evt-agricultural-technology-stagnation",
       "label": "Why Southern farming stayed backward",
-      "year": 1874.0,
+      "year": 1874,
       "description": "Locked into cotton by the crop-lien and starved of capital, the postwar South largely missed the mechanization transforming Northern and Western agriculture. The technological gap widened for decades, a structural consequence of how emancipation was financed, not of any natural inferiority of the land or its people.",
       "wikiSlug": "Sharecropping",
       "tier": 3,
@@ -2006,7 +2004,7 @@
     {
       "id": "evt-black-towns-founded",
       "label": "All-Black towns founded",
-      "year": 1877.0,
+      "year": 1877,
       "description": "Some freedpeople, despairing of safety in the redeemed South, founded all-Black towns like Mound Bayou, Mississippi, and the Kansas settlements, governing themselves entirely. They were small but pointed experiments in autonomy when integration was being violently foreclosed.",
       "wikiSlug": "Freedmen%27s_town",
       "tier": 3,
@@ -2057,7 +2055,7 @@
     {
       "id": "evt-northern-segregation",
       "label": "The North's own color line",
-      "year": 1870.0,
+      "year": 1870,
       "description": "Most Northern states still segregated or barred Black children from schools, denied Black men the vote until forced by the Fifteenth Amendment, and resisted integration. Reconstruction's collapse was a national, not merely Southern, failure of will.",
       "wikiSlug": "Reconstruction_era",
       "tier": 3,
@@ -2084,7 +2082,7 @@
     {
       "id": "evt-railroad-land-grants",
       "label": "Railroads and the national land grab",
-      "year": 1871.0,
+      "year": 1871,
       "description": "Congress handed railroads tens of millions of acres of public land during Reconstruction, fueling the speculative boom that ended in the Panic of 1873. The same Congress that could not find land for freedpeople gave empires of it to corporations.",
       "wikiSlug": "Land_grant",
       "tier": 3,

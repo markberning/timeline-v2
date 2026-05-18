@@ -311,7 +311,7 @@
     {
       "term": "Longcheng",
       "matchText": "Longcheng",
-      "wikiSlug": "Longcheng",
+      "wikiSlug": "Longcheng,_Mongolia",
       "type": "place"
     },
     {
@@ -403,7 +403,7 @@
     {
       "term": "Chen Ping",
       "matchText": "Chen Ping",
-      "wikiSlug": "Chen_Ping",
+      "wikiSlug": "Chen_Ping_(Han_dynasty)",
       "type": "people"
     },
     {
@@ -1002,7 +1002,7 @@
     {
       "term": "Naissus",
       "matchText": "Naissus",
-      "wikiSlug": "Naissus",
+      "wikiSlug": "Battle_of_Naissus",
       "type": "place"
     },
     {
@@ -1098,8 +1098,9 @@
     {
       "term": "Flagellum Dei",
       "matchText": "Flagellum Dei",
-      "wikiSlug": "Scourge_of_God",
-      "type": "concept"
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "\"Flagellum Dei\" is Latin for \"the Scourge of God\" — the nickname terrified Christians pinned on Attila the Hun, the idea being that this unstoppable steppe warlord was divine punishment sent to whip a sinful world into line."
     },
     {
       "term": "Po Valley",

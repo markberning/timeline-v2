@@ -62,7 +62,9 @@
       "description": "Wooden busts, rubber balls, jade axes, and infant remains were deposited at the sacred spring of El Manati, revealing early Olmec ritual practices.",
       "wikiSlug": "El_Manat%C3%AD",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -102,7 +104,9 @@
       "description": "The Olmec played the earliest known version of the Mesoamerican ballgame, a ritual sport with cosmological significance using solid rubber balls that spread across all later civilizations.",
       "wikiSlug": "Mesoamerican_ballgame",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -200,7 +204,7 @@
       "label": "Olmec Wrestler Sculpture",
       "year": -1200,
       "description": "The Olmec Wrestler is a startlingly naturalistic basalt sculpture of a seated muscular figure, demonstrating that Olmec artists were capable of pure realism when they chose it.",
-      "wikiSlug": "Olmec_Wrestler",
+      "wikiSlug": "The_Wrestler_(sculpture)",
       "tier": 3,
       "tags": [],
       "category": "architecture"
@@ -370,7 +374,6 @@
       "label": "Maize God Imagery",
       "year": -1000,
       "description": "Olmec carvings show figures with vegetation sprouting from their heads and cleft foreheads resembling germinating corn kernels, the origin of the Mesoamerican Maize God tradition.",
-      "wikiSlug": "Maize_deity",
       "tier": 3,
       "tags": [],
       "category": "religion"
@@ -402,7 +405,9 @@
       "description": "The Great Pyramid at La Venta, a 110-foot conical mound of packed earth built entirely with basket-carried fill, was the largest structure in Mesoamerica and ancestor of every later pyramid.",
       "wikiSlug": "La_Venta#Complex_C",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -422,7 +427,9 @@
       "description": "Three elaborate mosaic floors of precisely cut green serpentine blocks depicting jaguar masks were crafted and immediately buried under fill at La Venta, never intended to be seen again.",
       "wikiSlug": "La_Venta#Mosaics",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -632,7 +639,7 @@
       "label": "David Grove's Research",
       "year": 1970,
       "description": "Archaeologist David Grove proposed the throne-to-head recycling theory and led major excavations at Chalcatzingo, advancing understanding of Olmec political organization and regional influence.",
-      "wikiSlug": "David_Grove_(archaeologist)",
+      "wikiSlug": "David_Grove",
       "tier": 3,
       "tags": [],
       "category": "people"

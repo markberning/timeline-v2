@@ -221,7 +221,7 @@
     {
       "term": "Battle of Mount Gilboa",
       "matchText": "Battle of Mount Gilboa",
-      "wikiSlug": "Battle_of_Mount_Gilboa",
+      "wikiSlug": "Mount_Gilboa",
       "type": "concept"
     },
     {
@@ -299,13 +299,13 @@
     {
       "term": "Megiddo",
       "matchText": "Megiddo",
-      "wikiSlug": "Megiddo",
+      "wikiSlug": "Tel_Megiddo",
       "type": "place"
     },
     {
       "term": "Hazor",
       "matchText": "Hazor",
-      "wikiSlug": "Hazor",
+      "wikiSlug": "Tel_Hazor",
       "type": "place"
     },
     {
@@ -397,7 +397,7 @@
     {
       "term": "Mount Moriah",
       "matchText": "Mount Moriah",
-      "wikiSlug": "Mount_Moriah",
+      "wikiSlug": "Moriah",
       "type": "place"
     },
     {
@@ -1146,8 +1146,9 @@
     {
       "term": "Nebuzaradan",
       "matchText": "Nebuzaradan",
-      "wikiSlug": "Nebuzaradan",
-      "type": "people"
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "Nebuzaradan was the captain of Nebuchadnezzar II's guard — the Babylonian officer who actually carried out the destruction of Jerusalem in 587 BCE, burning the Temple and the palace and marching the survivors into exile."
     },
     {
       "term": "Tisha B'Av",

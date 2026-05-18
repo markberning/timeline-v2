@@ -130,8 +130,9 @@
     {
       "term": "Manden",
       "matchText": "Manden",
-      "wikiSlug": "Manden",
-      "type": "place"
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "The Mandinka heartland on the upper Niger River in present-day Mali and Guinea — the cluster of small chiefdoms that Sundiata Keita welded together in the 1230s to form the core of the Mali Empire. To the Mandinka it is simply the homeland, the place the empire grew out of."
     },
     {
       "term": "Genghis Khan",
@@ -350,7 +351,7 @@
     {
       "term": "Abu Bakr II",
       "matchText": "Abu Bakr the Second",
-      "wikiSlug": "Abu_Bakr_II",
+      "wikiSlug": "Abu_Bakr",
       "type": "people"
     },
     {
@@ -558,7 +559,7 @@
     {
       "term": "Rihla",
       "matchText": "Rihla",
-      "wikiSlug": "The_Rihla",
+      "wikiSlug": "Rihla",
       "type": "concept"
     },
     {

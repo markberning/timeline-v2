@@ -61,7 +61,9 @@
       "description": "The reforming emperor who moved the capital first to Nagaoka and then to Heian-kyo in 794 to escape the political weight of Nara's Buddhist clergy, and who launched the Emishi campaigns that extended Yamato control into northern Honshu.",
       "wikiSlug": "Emperor_Kanmu",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -71,7 +73,9 @@
       "description": "Kammu relocated the imperial capital to Heian-kyo, modeled on Tang Chang'an with a strict north-south grid, the Daigokuden audience hall at the head of Suzaku Avenue, and a planned area of roughly 9 square miles. Kyoto remained the imperial capital for over a thousand years.",
       "wikiSlug": "Heian-kyō",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "architecture"
     },
     {
@@ -82,7 +86,9 @@
       "description": "Sakanoue no Tamuramaro, named Sei-i Taishogun (the title that would later become 'shogun'), led campaigns that pushed the frontier deep into northern Honshu and broke the organized resistance of the indigenous Emishi people.",
       "wikiSlug": "Sakanoue_no_Tamuramaro",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "wars"
     },
     {
@@ -90,7 +96,6 @@
       "label": "Chinese-style Conscript Army Abolished",
       "year": 792,
       "description": "Kammu scrapped the Tang-modeled peasant conscript army, which had never worked well in Japan, and replaced it with a system of provincial warrior officials — a decision that would, two centuries later, produce a samurai class with no rival military authority.",
-      "wikiSlug": "Conscription_in_Japan",
       "tier": 3,
       "tags": [],
       "category": "rulers"
@@ -102,7 +107,9 @@
       "description": "After studying in Tang China, the monk Saicho established the Tendai school of Buddhism on Mount Hiei northeast of Kyoto, importing the Lotus Sutra-centered teaching that would dominate Japanese religious life for centuries.",
       "wikiSlug": "Saichō",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -112,7 +119,10 @@
       "description": "Kukai (posthumously Kobo Daishi), a polymath monk who had studied esoteric Buddhism at Chang'an, founded the Shingon school at Mount Koya south of the capital — the most thoroughly esoteric school of East Asian Buddhism, with mantras, mandalas, and elaborate ritual at its core.",
       "wikiSlug": "Kūkai",
       "tier": 1,
-      "tags": ["people", "writing"],
+      "tags": [
+        "people",
+        "writing"
+      ],
       "category": "religion"
     },
     {
@@ -122,7 +132,9 @@
       "description": "Saicho's Enryakuji on Mount Hiei grew over centuries into a self-governing monastic city of thousands of monks and tens of thousands of armed retainers — the largest and most politically powerful Buddhist institution in Japan.",
       "wikiSlug": "Enryaku-ji",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -132,7 +144,9 @@
       "description": "Kukai consecrated the temple complex at Mount Koya in the Kii peninsula, designed as a three-dimensional mandala in the mountains and intended as the eastern counterpart to the great esoteric centers of Tang China.",
       "wikiSlug": "Mount_Kōya",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -152,7 +166,9 @@
       "description": "Two phonetic syllabaries — hiragana, derived from cursive Chinese characters, and katakana, derived from character fragments — emerged from the older man'yogana system, allowing Japanese to be written natively for the first time.",
       "wikiSlug": "Kana",
       "tier": 1,
-      "tags": ["science"],
+      "tags": [
+        "science"
+      ],
       "category": "writing"
     },
     {
@@ -162,7 +178,9 @@
       "description": "Fujiwara no Yoshifusa, grandfather of the child Emperor Seiwa, took the title sessho (regent for a child emperor) — the first non-imperial regent in Japanese history. The Fujiwara would hold the regency, in either sessho or kampaku form, for most of the next two centuries.",
       "wikiSlug": "Fujiwara_no_Yoshifusa",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -202,7 +220,9 @@
       "description": "Sugawara no Michizane recommended canceling the embassy to Tang China — the Tang was visibly collapsing and the voyages were dangerous — and the court agreed. Japan entered a period of cultural independence that would last for centuries.",
       "wikiSlug": "Japanese_missions_to_Imperial_China",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "trade"
     },
     {
@@ -212,7 +232,9 @@
       "description": "The scholar-politician was destroyed by Fujiwara intrigue, exiled to Kyushu, and died in despair in 903. After plagues and lightning strikes hit the capital, the court deified him as Tenjin, god of learning. Japanese students still pray at Tenjin shrines before exams.",
       "wikiSlug": "Sugawara_no_Michizane",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -222,7 +244,9 @@
       "description": "The first imperial anthology of waka poetry, compiled by Ki no Tsurayuki and others on the order of Emperor Daigo. Its preface, written in vernacular kana rather than Chinese, was a literary manifesto: Japanese poetry was now a serious art with its own rules.",
       "wikiSlug": "Kokin_Wakashū",
       "tier": 2,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "writing"
     },
     {
@@ -273,7 +297,9 @@
       "description": "Michinaga dominated court politics for thirty-two years, married four daughters to emperors, and saw three grandsons become emperors in succession. His full-moon poem ('this world, I think, is indeed my world') is the textbook statement of Heian political dominance.",
       "wikiSlug": "Fujiwara_no_Michinaga",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -293,7 +319,10 @@
       "description": "Sei Shonagon, a sharp-tongued lady-in-waiting at the court of Empress Teishi, completed The Pillow Book — a collection of lists, anecdotes, observations, and opinions that essentially invented the zuihitsu essay form. She invented the listicle a thousand years before BuzzFeed.",
       "wikiSlug": "The_Pillow_Book",
       "tier": 1,
-      "tags": ["people", "writing"],
+      "tags": [
+        "people",
+        "writing"
+      ],
       "category": "writing"
     },
     {
@@ -304,7 +333,9 @@
       "description": "Lady-in-waiting at the court of Empress Shoshi (Michinaga's daughter), Murasaki Shikibu kept an acerbic diary and wrote The Tale of Genji — one of the most celebrated works of world literature.",
       "wikiSlug": "Murasaki_Shikibu",
       "tier": 1,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "people"
     },
     {
@@ -314,7 +345,9 @@
       "description": "Murasaki Shikibu completed The Tale of Genji — over a thousand pages, three generations, more than four hundred characters, and a sustained psychological realism that anticipates the European novel by seven centuries. Often called the world's first novel, with caveats.",
       "wikiSlug": "The_Tale_of_Genji",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "writing"
     },
     {
@@ -324,7 +357,9 @@
       "description": "Genshin's Ojoyoshu ('Essentials of Salvation') in 985 popularized the Pure Land teaching that calling on the name of Amida Buddha (the nembutsu) could secure rebirth in his Western Paradise. The doctrine reached commoners in a way previous Buddhist schools had not.",
       "wikiSlug": "Pure_Land_Buddhism",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -344,7 +379,9 @@
       "description": "Fujiwara no Yorimichi converted his father Michinaga's villa at Uji into a temple. The Phoenix Hall, with bronze phoenix ornaments on its roof and a gilded Amida inside, was built as a representation of the Pure Land paradise. It is on the Japanese 10-yen coin.",
       "wikiSlug": "Byōdō-in",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -354,7 +391,9 @@
       "description": "The monk Honen left the establishment Tendai school on Mount Hiei to teach that pure faith in Amida Buddha — expressed through chanting the nembutsu — was the only effective religious practice in the age of mappo. He founded the Jodo-shu (Pure Land School), the first explicitly populist Buddhist order in Japan.",
       "wikiSlug": "Hōnen",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -406,7 +445,9 @@
       "description": "Emperor Shirakawa abdicated in 1086 but continued to rule from Buddhist retirement quarters as a 'cloistered emperor' (in), free from Fujiwara regents and ceremonial obligations. The insei system would dominate court politics for the next seventy years.",
       "wikiSlug": "Cloistered_rule",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -417,7 +458,9 @@
       "description": "Reigned 1073–1086, then ruled as cloistered emperor until his death in 1129. The most politically active retired emperor in Japanese history and the architect of the insei system.",
       "wikiSlug": "Emperor_Shirakawa",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -435,7 +478,7 @@
       "label": "Genji Monogatari Emaki Picture Scrolls",
       "year": 1130,
       "description": "Illustrated handscrolls of selected Genji scenes painted in the courtly fukinuki yatai ('blown-off-roof') perspective, with figures rendered in the stylized hikime kagibana ('line eye, hook nose') convention. Among the earliest and finest surviving Japanese narrative paintings.",
-      "wikiSlug": "Tale_of_Genji_Scrolls",
+      "wikiSlug": "The_Tale_of_Genji",
       "tier": 3,
       "tags": [],
       "category": "writing"
@@ -468,7 +511,9 @@
       "description": "Kiyomori became Daijo-daijin (Grand Minister) in 1167 — the first warrior to hold the highest civilian office in Japan. He married his daughter to the emperor and saw his grandson Antoku enthroned as a child, exactly the Fujiwara playbook applied by a samurai house.",
       "wikiSlug": "Taira_no_Kiyomori",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -520,7 +565,9 @@
       "description": "Spared as a child after the Heiji Disturbance and exiled to the Izu Peninsula for twenty years, Yoritomo raised the Minamoto banner in 1180, organized warriors from his eastern base at Kamakura, and after the Taira destruction in 1185 founded the Kamakura shogunate — Japan's first warrior government.",
       "wikiSlug": "Minamoto_no_Yoritomo",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -531,7 +578,9 @@
       "description": "Yoritomo's younger half-brother, the tactical genius of the Genpei War. His audacious cliff-charge at Ichinotani, his amphibious assault at Yashima, and his command at Dannoura made him a legend — and his subsequent fall to Yoritomo's jealousy made him Japan's archetypal tragic hero.",
       "wikiSlug": "Minamoto_no_Yoshitsune",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -601,7 +650,9 @@
       "description": "At Dannoura, the eight-year-old Emperor Antoku — Kiyomori's grandson — was taken by his grandmother Tokiko into the sea rather than be captured by the Minamoto. He drowned with the imperial sword in his arms. He is the only Japanese emperor known to have died in battle.",
       "wikiSlug": "Emperor_Antoku",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -652,7 +703,9 @@
       "description": "Cloistered emperor through the entire Genpei War, Go-Shirakawa survived three different warrior strongmen (Kiyomori, Yoshinaka, Yoritomo), played them against each other, and kept the imperial institution alive through the most violent decade of Heian history.",
       "wikiSlug": "Emperor_Go-Shirakawa",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -693,7 +746,9 @@
       "description": "Michinaga's eldest son, regent for over fifty years (1017–1068), and builder of the Byodoin Phoenix Hall in 1053. The last of the great Fujiwara regents — after Yorimichi, no Fujiwara daughter produced an heir, and the regency lost its grip on the throne.",
       "wikiSlug": "Fujiwara_no_Yorimichi",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -714,7 +769,9 @@
       "description": "The most famous onmyoji (yin-yang master) of the Heian period and a real historical court official whose surviving documents include calendars and divination records. By the medieval period he had been folded into legend as a half-supernatural sorcerer.",
       "wikiSlug": "Abe_no_Seimei",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     }
   ]

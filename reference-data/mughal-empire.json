@@ -72,7 +72,9 @@
       "description": "A fifth-generation descendant of Timur on his father's side and a Genghisid through his mother, Babur was driven from his ancestral Ferghana by the Uzbeks, captured Kabul in 1504, and turned south to conquer India. His memoir, the Baburnama, is one of the great autobiographies of world literature.",
       "wikiSlug": "Babur",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -112,7 +114,9 @@
       "description": "Babur's army of roughly 12,000, equipped with Ottoman-style field artillery and matchlock musketeers behind a wagon-fort line, broke Ibrahim Lodi's force of perhaps 100,000 in a single morning. Ibrahim Lodi was killed; Babur entered Delhi unopposed and proclaimed himself Padshah.",
       "wikiSlug": "First_Battle_of_Panipat",
       "tier": 1,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "wars"
     },
     {
@@ -164,7 +168,9 @@
       "description": "Babur's son lost the empire to Sher Shah Suri in 1540, spent fifteen years in exile in Safavid Persia and Kabul, recovered Delhi in 1555, and died six months later when he tripped on the steps of his library carrying an armful of books.",
       "wikiSlug": "Humayun",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -175,7 +181,9 @@
       "description": "An Afghan general from Bihar, Sher Shah defeated Humayun at Chausa (1539) and Kannauj (1540), drove him into exile, and ruled north India for five years as the Sur Sultanate. His revenue reforms and the modernization of the Grand Trunk Road were directly inherited by Akbar's administration.",
       "wikiSlug": "Sher_Shah_Suri",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -248,7 +256,9 @@
       "description": "Akbar reigned for forty-nine years, expanded the empire across most of the subcontinent, abolished the jizya tax on non-Muslims, married Rajput princesses, founded the syncretic religion Din-i-Ilahi, and built Fatehpur Sikri. He was illiterate but ran one of the most sophisticated state administrations in the world.",
       "wikiSlug": "Akbar",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -256,7 +266,7 @@
       "label": "Akbar's Rajput marriage alliances",
       "year": 1562,
       "description": "Akbar married the Kachhwaha princess of Amber (later mother of Jahangir) in 1562, beginning a decades-long policy of integrating Rajput princes into the Mughal nobility through marriage. Rajput rulers retained their kingdoms in exchange for military service and a daughter at the Mughal court.",
-      "wikiSlug": "Mughal-Rajput_relations",
+      "wikiSlug": "Rajput",
       "tier": 3,
       "tags": [],
       "category": "rulers"
@@ -298,7 +308,7 @@
       "label": "Mansabdari system established",
       "year": 1577,
       "description": "Akbar formalized the mansabdari system: military-bureaucratic ranks numbered from 10 to 10,000, with each rank specifying a fixed number of cavalry and a fixed salary. The system created a centralized hierarchy that governed the empire's vast territory and replaced the older iqta land-grant tradition.",
-      "wikiSlug": "Mansabdari_system",
+      "wikiSlug": "Mansabdar",
       "tier": 2,
       "tags": [],
       "category": "rulers"
@@ -310,7 +320,9 @@
       "description": "Akbar promulgated Din-i-Ilahi (the Divine Faith), a syncretic order drawing from Islam, Hinduism, Christianity, Zoroastrianism, and Jainism. It never had more than a few dozen formal members, all courtiers, and disappeared at his death — but it scandalized orthodox Sunni clerics and inspired Shaikh Ahmad Sirhindi's reform movement.",
       "wikiSlug": "Din-i-Ilahi",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "religion"
     },
     {
@@ -383,7 +395,9 @@
       "description": "Akbar's son Jahangir was a wine-and-opium connoisseur who delegated much of the actual governance to his Persian wife Nur Jahan. His memoir, the Tuzuk-i-Jahangiri, is a major historical source. Mughal painting reached its peak during his reign.",
       "wikiSlug": "Jahangir",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -394,7 +408,9 @@
       "description": "Jahangir's twentieth and favorite wife, the Persian-born Mehr-un-Nissa, ran the empire in his name through the last decade of his reign. She issued imperial orders, struck coinage in her name, and led an armed rescue when Jahangir was captured in 1626 — the only Mughal empress to hold real political power.",
       "wikiSlug": "Nur_Jahan",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -446,7 +462,9 @@
       "description": "Jahangir's third son Khurram took the throne after killing his rival brothers. His thirty-year reign was the architectural climax of the Mughal Empire — the Taj Mahal, the Red Fort, the Jama Masjid, and the new capital Shahjahanabad. He died imprisoned by Aurangzeb in Agra Fort.",
       "wikiSlug": "Shah_Jahan",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -456,7 +474,9 @@
       "description": "Shah Jahan's chief consort Arjumand Banu Begum, known as Mumtaz Mahal, died at Burhanpur in the Deccan giving birth to her fourteenth child. Shah Jahan reportedly went into mourning for two years and emerged determined to build her tomb — the Taj Mahal.",
       "wikiSlug": "Mumtaz_Mahal",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -527,7 +547,9 @@
       "description": "Shah Jahan's eldest son and favorite was a Sufi scholar who translated the Upanishads into Persian as the Sirr-i-Akbar (the Greatest Secret), arguing for a synthesis of Hindu Vedanta and Sufi metaphysics. He was defeated by Aurangzeb at Samugarh in 1658, captured, paraded through Delhi in chains, and executed.",
       "wikiSlug": "Dara_Shukoh",
       "tier": 2,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -560,7 +582,10 @@
       "description": "Shah Jahan's third son seized the throne in a civil war, ruled for forty-nine years, expanded the empire to its greatest extent, reimposed the jizya in 1679, and spent his last twenty-six years bogged down in the Deccan against the Marathas. Devout, austere, hard-working, and ultimately exhausted by the empire he had won.",
       "wikiSlug": "Aurangzeb",
       "tier": 1,
-      "tags": ["people", "wars"],
+      "tags": [
+        "people",
+        "wars"
+      ],
       "category": "rulers"
     },
     {
@@ -581,7 +606,9 @@
       "description": "Shivaji Bhonsle, the founder of the Maratha kingdom, used hill-fort warfare and rapid cavalry raids to carve a Hindu kingdom out of the western Deccan. He was crowned Chhatrapati at Raigad in 1674. His descendants and lieutenants took over the Mughal Deccan after Aurangzeb's death.",
       "wikiSlug": "Shivaji",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -589,7 +616,7 @@
       "label": "Shivaji crowned Chhatrapati",
       "year": 1674,
       "description": "Shivaji's coronation at Raigad fort revived a Hindu sovereign title and established the formal Maratha kingdom. The ceremony was conducted by a Kashi Brahmin and explicitly framed as a restoration of Hindu rule against Mughal authority.",
-      "wikiSlug": "Coronation_of_Shivaji",
+      "wikiSlug": "Shivaji",
       "tier": 3,
       "tags": [],
       "category": "rulers"
@@ -631,9 +658,10 @@
       "label": "Mughal-Sikh conflicts",
       "year": 1675,
       "description": "Aurangzeb's execution of the ninth Sikh Guru Tegh Bahadur in 1675 intensified Sikh resistance and led to the militarization of the Sikh community under his son, Guru Gobind Singh, who founded the Khalsa in 1699. The Mughal-Sikh wars would continue into the eighteenth century.",
-      "wikiSlug": "Mughal%E2%80%93Sikh_Wars",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "wars"
     },
     {
@@ -663,7 +691,9 @@
       "description": "Aurangzeb's vast red-sandstone mosque at Lahore, completed in 1673, can hold 100,000 worshippers in its courtyard and remained the largest mosque in the world for over three centuries. It was a deliberate architectural counterweight to Shah Jahan's Taj Mahal — power, not love, in stone.",
       "wikiSlug": "Badshahi_Mosque",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -880,7 +910,9 @@
       "description": "Tipu Sultan, the Tiger of Mysore, fought four Anglo-Mysore Wars against the East India Company between 1767 and 1799. He pioneered the military use of iron-cased rockets — a technology the British copied as the Congreve rocket — and was killed defending Seringapatam in 1799.",
       "wikiSlug": "Tipu_Sultan",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -900,7 +932,6 @@
       "year": 1845,
       "endYear": 1849,
       "description": "Two Anglo-Sikh Wars (1845-46, 1848-49) ended Ranjit Singh's Sikh Empire and brought the Punjab under British rule. The annexation included the surrender of the Koh-i-Noor diamond, which was set into the British crown.",
-      "wikiSlug": "Anglo-Sikh_Wars",
       "tier": 3,
       "tags": [],
       "category": "wars"
@@ -924,7 +955,9 @@
       "description": "Akbar's eleventh-generation descendant Bahadur Shah II — pen name Zafar, an accomplished Urdu poet and Sufi devotee — held the Mughal throne as a Company pensioner. The 1857 rebels proclaimed him emperor of India; the British convicted him of treason, exiled him to Rangoon, and ended the dynasty.",
       "wikiSlug": "Bahadur_Shah_II",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {

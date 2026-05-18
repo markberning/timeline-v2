@@ -7,7 +7,9 @@
   "wikiSlug": "Meiji_era",
   "imageWikiSlug": "Meiji_Emperor",
   "pitch": "The Meiji Restoration of 1868 launched the fastest national transformation in history: within one generation, Japan went from samurai swords to steam engines, from feudal domains to a constitutional state, from sealed islands to a Pacific empire.",
-  "countryIds": ["392"],
+  "countryIds": [
+    "392"
+  ],
   "spans": [
     {
       "id": "span-meiji-restoration",
@@ -102,7 +104,9 @@
       "description": "Mutsuhito, posthumously called Emperor Meiji, ascended the throne at fifteen in 1867 and reigned for forty-five years over the most rapid national modernization in history. He attended cabinet meetings, dressed in Western military uniform from 1872, and became the personal symbol of the new state.",
       "wikiSlug": "Emperor_Meiji",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -141,7 +145,7 @@
       "label": "First Railway Opens",
       "year": 1872,
       "description": "Japan's first railway line opened October 14, 1872 between Tokyo's Shimbashi station and Yokohama, eighteen miles of British-built track. The emperor rode the inaugural train. Within twenty years the country had a national rail network.",
-      "wikiSlug": "Tokyo%E2%80%93Yokohama_railway",
+      "wikiSlug": "History_of_rail_transport_in_Japan",
       "tier": 2,
       "tags": [],
       "category": "science"
@@ -192,7 +196,6 @@
       "label": "Conscription Law",
       "year": 1873,
       "description": "The 1873 Conscription Law required three years of military service from every able-bodied male over twenty, regardless of class. It dissolved the samurai monopoly on bearing arms — the act that, more than any other, ended the warrior caste as a social fact.",
-      "wikiSlug": "Conscription_in_Japan",
       "tier": 2,
       "tags": [],
       "category": "wars"
@@ -225,7 +228,9 @@
       "description": "Saigo Takamori, the Satsuma samurai who had led the imperial forces at Toba-Fushimi and taken Edo without a fight in 1868, became the most popular leader of the new state — and then resigned in 1873 over the Korea question, returned to Kagoshima, and led the Satsuma Rebellion to its destruction at Shiroyama.",
       "wikiSlug": "Saig%C5%8D_Takamori",
       "tier": 2,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "people"
     },
     {
@@ -338,7 +343,9 @@
       "description": "Ito Hirobumi, a low-rank Choshu samurai who had stowed away to Britain in 1863, became Japan's first prime minister in 1885, the principal architect of the Meiji Constitution, and four-time premier. He was assassinated by a Korean nationalist at Harbin railway station in 1909.",
       "wikiSlug": "It%C5%8D_Hirobumi",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -638,7 +645,9 @@
       "description": "Admiral Togo Heihachiro, the Satsuma samurai who had trained in the British Royal Navy in the 1870s, commanded the Combined Fleet at the Yellow Sea (1904) and Tsushima (1905). Western press called him 'the Nelson of the East.' He lived to attend the 1922 Washington Naval Conference and to mentor an officer named Yamamoto Isoroku.",
       "wikiSlug": "T%C5%8Dg%C5%8D_Heihachir%C5%8D",
       "tier": 3,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "people"
     },
     {
@@ -696,7 +705,7 @@
       "label": "Japanese Industrial Revolution",
       "year": 1886,
       "description": "From the late 1880s, Japanese industrial output surged: textile mills around Osaka, steelworks at Yawata (founded 1901, the first integrated mill in Asia), shipbuilding at Nagasaki and Kobe. By 1914 Japan was the world's largest silk exporter and the largest cotton-textile producer in Asia.",
-      "wikiSlug": "Japanese_industrial_revolution",
+      "wikiSlug": "Industrial_Revolution",
       "tier": 2,
       "tags": [],
       "category": "science"

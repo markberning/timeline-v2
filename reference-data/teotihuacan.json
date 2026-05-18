@@ -82,7 +82,9 @@
       "description": "The Pyramid of the Sun was constructed over a sacred cave, rising 216 feet (66 m) with a base nearly as large as the Great Pyramid of Giza — the third-largest pyramid in the ancient world.",
       "wikiSlug": "Pyramid_of_the_Sun",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -100,7 +102,7 @@
       "label": "Street of the Dead",
       "year": 100,
       "description": "The Street of the Dead, a 2-mile (3.2 km) ceremonial avenue running north-south through the city center, was laid out as the main axis connecting the major pyramid complexes.",
-      "wikiSlug": "Street_of_the_Dead",
+      "wikiSlug": "Dead-end_street",
       "tier": 1,
       "tags": [],
       "category": "architecture"
@@ -112,7 +114,9 @@
       "description": "The Pyramid of the Moon was built at the northern terminus of the Street of the Dead, constructed in seven successive phases with sacrificial burials interred at each stage.",
       "wikiSlug": "Pyramid_of_the_Moon",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -160,7 +164,7 @@
       "label": "The Ciudadela",
       "year": 200,
       "description": "The Ciudadela ('citadel') was a massive enclosed compound surrounding the Temple of the Feathered Serpent, likely serving as the administrative and political center of the city.",
-      "wikiSlug": "La_Ciudadela",
+      "wikiSlug": "Estadio_La_Ciudadela",
       "tier": 2,
       "tags": [],
       "category": "architecture"
@@ -200,7 +204,6 @@
       "label": "Sierra de las Navajas Obsidian Source",
       "year": 50,
       "description": "Teotihuacan controlled the Sierra de las Navajas (Hill of Knives), the richest source of green obsidian in Mesoamerica, giving it a near-monopoly on the most prized cutting material in the region.",
-      "wikiSlug": "Sierra_de_las_Navajas",
       "tier": 2,
       "tags": [],
       "category": "trade"
@@ -270,9 +273,10 @@
       "label": "Tepantitla Murals",
       "year": 350,
       "description": "The Tepantitla apartment compound's murals depict a paradise scene with the Great Goddess dispensing water and seeds, while small human figures play, swim, and sing in an elaborate vision of the afterlife.",
-      "wikiSlug": "Tepantitla",
       "tier": 2,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "architecture"
     },
     {
@@ -280,7 +284,6 @@
       "label": "Tetitla Murals",
       "year": 350,
       "description": "The Tetitla compound preserves some of Teotihuacan's finest murals, including jaguar and coyote warriors, net-jaguar figures, and elaborately dressed priests in procession.",
-      "wikiSlug": "Tetitla",
       "tier": 3,
       "tags": [],
       "category": "architecture"
@@ -290,7 +293,6 @@
       "label": "Atetelco Murals",
       "year": 400,
       "description": "The Atetelco compound's murals feature processional warriors in elaborate costumes, coyotes and jaguars devouring hearts, and ritual scenes that reveal Teotihuacan's militaristic ideology.",
-      "wikiSlug": "Atetelco",
       "tier": 3,
       "tags": [],
       "category": "architecture"
@@ -320,7 +322,6 @@
       "label": "Thin Orange Pottery",
       "year": 300,
       "description": "Thin Orange ware, a distinctive fine pottery produced in southern Puebla under Teotihuacan's influence, became a prestige trade good found at sites across Mesoamerica — a marker of Teotihuacan's commercial reach.",
-      "wikiSlug": "Thin_Orange",
       "tier": 2,
       "tags": [],
       "category": "trade"
@@ -372,7 +373,9 @@
       "description": "The highland Maya city of Kaminaljuyú in modern Guatemala City adopted talud-tablero architecture, Teotihuacan ceramics, and burial practices, suggesting direct political or commercial domination.",
       "wikiSlug": "Kaminaljuyú",
       "tier": 2,
-      "tags": ["wars"],
+      "tags": [
+        "wars"
+      ],
       "category": "rulers"
     },
     {
@@ -380,9 +383,11 @@
       "label": "Entrada of 378: Conquest of Tikal",
       "year": 378,
       "description": "Siyaj K'ahk' ('Fire is Born') arrived at Tikal on January 16, 378 CE under Teotihuacan patronage, overthrew the existing Maya dynasty, and installed a new ruling line — the most dramatic projection of Teotihuacan power.",
-      "wikiSlug": "Siyaj_K%27ahk%27",
+      "wikiSlug": "Siyaj_Kʼakʼ",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "wars"
     },
     {
@@ -390,7 +395,7 @@
       "label": "Siyaj K'ahk' (Fire is Born)",
       "year": 378,
       "description": "Siyaj K'ahk', a warrior-general likely from or backed by Teotihuacan, conquered Tikal and installed Yax Nuun Ahiin I as king. His arrival reshaped Maya politics for over a century.",
-      "wikiSlug": "Siyaj_K%27ahk%27",
+      "wikiSlug": "Siyaj_Kʼakʼ",
       "tier": 2,
       "tags": [],
       "category": "people"
@@ -473,7 +478,9 @@
       "description": "Teotihuacan produced elaborate 'theater-type' incense burners with butterfly and deity-face adornments, mass-produced in standardized workshops — evidence of state-controlled ritual production.",
       "wikiSlug": "Teotihuacan#Ceramics",
       "tier": 3,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "science"
     },
     {
@@ -571,7 +578,7 @@
       "label": "Teotihuacan Stone Masks",
       "year": 300,
       "description": "Artisans carved stylized stone masks from greenstone, basalt, and onyx with idealized features — flat faces, open eyes, and serene expressions. These masks may have been attached to funerary bundles or temple figures.",
-      "wikiSlug": "Teotihuacan_mask",
+      "wikiSlug": "Teotihuacan",
       "tier": 2,
       "tags": [],
       "category": "architecture"
@@ -621,7 +628,7 @@
       "label": "Epiclassic Power Vacuum",
       "year": 550,
       "description": "Teotihuacan's collapse triggered a power vacuum across central Mexico. Regional centers like Xochicalco, Cacaxtla, and Cholula competed to fill the void, inaugurating the Epiclassic period.",
-      "wikiSlug": "Epiclassic",
+      "wikiSlug": "Mesoamerican_Epiclassic_Period",
       "tier": 2,
       "tags": [],
       "category": "rulers"

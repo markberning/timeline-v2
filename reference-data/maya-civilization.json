@@ -170,7 +170,7 @@
       "label": "Siyaj K'ahk' Conquers Tikal",
       "year": 378,
       "description": "The warrior Siyaj K'ahk' arrives at Tikal and overthrows its king, installing a new Teotihuacan-linked dynasty in a pivotal power shift.",
-      "wikiSlug": "Siyaj_K%27ahk%27",
+      "wikiSlug": "Siyaj_Kʼakʼ",
       "tier": 2,
       "tags": [
         "rulers"
@@ -537,7 +537,6 @@
       "label": "Ah Kukum Xiu",
       "year": 1441,
       "description": "The Xiu lord who led the revolt against the Cocom dynasty at Mayapán, reshaping the political landscape of the Postclassic Yucatán.",
-      "wikiSlug": "Xiu_dynasty",
       "tier": 3,
       "tags": [
         "rulers"
@@ -656,7 +655,6 @@
       "label": "Raised Field Agriculture",
       "year": 200,
       "description": "Maya farmers construct elaborate raised field and canal systems in seasonal wetlands, supporting dense populations in the Petén lowlands.",
-      "wikiSlug": "Maya_agriculture",
       "tier": 3,
       "tags": [],
       "category": "science"
@@ -711,7 +709,9 @@
       "description": "The myth of the Hero Twins Hunahpu and Xbalanque, who outwit the lords of the underworld, becomes central to Maya religion and is depicted in art across the Classic period.",
       "wikiSlug": "Maya_Hero_Twins",
       "tier": 2,
-      "tags": ["writing"],
+      "tags": [
+        "writing"
+      ],
       "category": "religion"
     },
     {
@@ -729,7 +729,7 @@
       "label": "Hernández de Córdoba Expedition",
       "year": 1517,
       "description": "Francisco Hernández de Córdoba leads the first Spanish expedition to the Yucatán coast, encountering stone cities and fierce Maya resistance that wounded him fatally.",
-      "wikiSlug": "Francisco_Hern%C3%A1ndez_de_C%C3%B3rdoba_(explorer)",
+      "wikiSlug": "Hernández_de_Córdoba_expedition",
       "tier": 2,
       "tags": [],
       "category": "wars"
@@ -739,7 +739,7 @@
       "label": "Fall of Tayasal",
       "year": 1697,
       "description": "The Spanish finally conquer Nojpetén (Tayasal), capital of the Itza Maya on Lake Petén Itzá, the last independent Maya state — 175 years after Montejo's first campaign.",
-      "wikiSlug": "Fall_of_Nojpet%C3%A9n",
+      "wikiSlug": "Spanish_conquest_of_Petén",
       "tier": 1,
       "tags": [],
       "category": "wars"

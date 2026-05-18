@@ -208,7 +208,7 @@
     {
       "id": "evt-phaistos-disc",
       "label": "Phaistos Disc",
-      "year": -1740.0,
+      "year": -1740,
       "description": "The mysterious Phaistos Disc features stamped symbols in a spiral pattern. Its script is unique and undeciphered — it may be the world's earliest 'printed' text.",
       "wikiSlug": "Phaistos_Disc",
       "tier": 2,
@@ -218,7 +218,7 @@
     {
       "id": "evt-earthquake-destruction",
       "label": "Earthquake Destroys First Palaces",
-      "year": -1730.0,
+      "year": -1730,
       "description": "A major earthquake destroyed the first palaces around 1700 BCE, but the Minoans rebuilt on an even grander scale, ushering in the Neopalatial golden age.",
       "wikiSlug": "Minoan_civilization",
       "tier": 2,
@@ -228,7 +228,7 @@
     {
       "id": "evt-knossos-palace",
       "label": "Palace of Knossos",
-      "year": -1720.0,
+      "year": -1720,
       "description": "The rebuilt Palace of Knossos covered 20,000 square meters with over 1,000 rooms, lustral basins, grand staircases, and elaborate frescoes — the heart of Minoan civilization.",
       "wikiSlug": "Knossos",
       "tier": 1,
@@ -238,7 +238,7 @@
     {
       "id": "evt-egyptian-trade",
       "label": "Minoan-Egyptian Trade",
-      "year": -1710.0,
+      "year": -1710,
       "description": "Minoan goods and artistic influence reached Egypt, and Egyptian objects flowed to Crete. Tomb paintings at Thebes depict 'Keftiu' (Cretans) bearing gifts to the pharaoh.",
       "wikiSlug": "Minoan_civilization",
       "tier": 3,
@@ -280,7 +280,7 @@
       "label": "Palace of Galatas",
       "year": -1700,
       "description": "The small palace at Galatas in the Pediada region demonstrates that Minoan palatial administration extended beyond the major centers. Though modest compared to Knossos, it had a central court, storage magazines, and cult rooms following the standard palace plan.",
-      "wikiSlug": "Galatas_(Crete)",
+      "wikiSlug": "Galatas_Palace",
       "tier": 3,
       "tags": [],
       "category": "architecture"
@@ -290,7 +290,7 @@
       "label": "Palace of Petras",
       "year": -1700,
       "description": "The palace complex at Petras near Siteia in eastern Crete controlled a small harbor and agricultural territory. Its archive of Linear A tablets is one of the largest found outside the major palace sites.",
-      "wikiSlug": "Petras,_Crete",
+      "wikiSlug": "Petras",
       "tier": 3,
       "tags": [],
       "category": "architecture"
@@ -308,7 +308,7 @@
     {
       "id": "evt-double-axe-symbol",
       "label": "Labrys (Double Axe) Symbol",
-      "year": -1690.0,
+      "year": -1690,
       "description": "The double axe (labrys) was the most important Minoan religious symbol, found throughout palaces and sanctuaries. The word 'labyrinth' likely derives from it.",
       "wikiSlug": "Labrys",
       "tier": 3,
@@ -318,7 +318,7 @@
     {
       "id": "evt-minoan-roads",
       "label": "Minoan Road Network",
-      "year": -1680.0,
+      "year": -1680,
       "description": "The Minoans built paved roads connecting palaces across Crete, some over 3.5 meters wide with drainage channels — the first road system in Europe.",
       "wikiSlug": "Minoan_civilization",
       "tier": 3,
@@ -328,7 +328,7 @@
     {
       "id": "evt-minoan-weights",
       "label": "Minoan Weights and Measures",
-      "year": -1670.0,
+      "year": -1670,
       "description": "Standardized stone weights found across Minoan sites and trading partners demonstrate a sophisticated commercial system integrated with Egyptian and Near Eastern standards.",
       "wikiSlug": "Minoan_civilization",
       "tier": 3,
@@ -340,7 +340,7 @@
     {
       "id": "evt-goddess-worship",
       "label": "Minoan Goddess Worship",
-      "year": -1660.0,
+      "year": -1660,
       "description": "Minoan religion appears to have centered on powerful female deities associated with nature, animals, and fertility — a stark contrast to the male-dominated pantheons of the Near East.",
       "wikiSlug": "Minoan_religion",
       "tier": 2,
@@ -396,7 +396,7 @@
     {
       "id": "evt-bull-leaping",
       "label": "Bull-Leaping Fresco",
-      "year": -1620.0,
+      "year": -1620,
       "description": "The famous Bull-Leaping Fresco from Knossos depicts athletes somersaulting over a charging bull — a dangerous ritual sport central to Minoan religion and identity.",
       "wikiSlug": "Bull-leaping",
       "tier": 1,
@@ -418,7 +418,7 @@
     {
       "id": "evt-thalassocracy",
       "label": "Minoan Thalassocracy",
-      "year": -1610.0,
+      "year": -1610,
       "endYear": -1450,
       "description": "The Minoans controlled Mediterranean sea routes, establishing trading posts and colonies across the Aegean. Their naval dominance made palace walls unnecessary — Knossos was unfortified.",
       "wikiSlug": "Minoan_civilization",
@@ -489,7 +489,7 @@
     {
       "id": "evt-zakros-palace",
       "label": "Palace of Zakros",
-      "year": -1590.0,
+      "year": -1590,
       "description": "The easternmost Minoan palace at Zakros served as a gateway for trade with Egypt and the Near East, with a unique ceremonial pool in its central court.",
       "wikiSlug": "Zakros",
       "tier": 3,
@@ -501,7 +501,7 @@
     {
       "id": "evt-copper-trade",
       "label": "Minoan Copper Trade",
-      "year": -1580.0,
+      "year": -1580,
       "description": "The Minoans imported massive quantities of copper from Cyprus, processing it into bronze for tools, weapons, and art objects in palace-controlled workshops.",
       "wikiSlug": "Minoan_civilization",
       "tier": 3,
@@ -515,7 +515,6 @@
       "label": "Boxer Rhyton",
       "year": -1550,
       "description": "The black steatite Boxer Rhyton from Hagia Triada depicts boxing and bull-leaping scenes in relief — athletes wearing helmets and gloves in what may be a religious festival. It is one of the finest examples of Minoan stone carving.",
-      "wikiSlug": "Boxer_vase",
       "tier": 3,
       "tags": [],
       "category": "people"
@@ -565,7 +564,6 @@
       "label": "Isopata Ring",
       "year": -1500,
       "description": "The gold Isopata Ring found in a tomb near Knossos depicts four women performing an ecstatic dance in a flower-filled field while a smaller figure descends from the sky. It is the most vivid representation of Minoan ritual dance and possible divine epiphany.",
-      "wikiSlug": "Isopata_ring",
       "tier": 3,
       "tags": [],
       "category": "religion"
@@ -687,7 +685,6 @@
       "label": "Subminoan Period",
       "year": -1100,
       "description": "The Subminoan period marks Crete's transition from the Bronze Age to the Iron Age. Iron tools gradually replaced bronze, population declined sharply, and Minoan cultural traditions finally dissolved into the emerging Greek world of the Early Iron Age.",
-      "wikiSlug": "Sub-Minoan_pottery",
       "tier": 3,
       "tags": [],
       "category": "science"

@@ -63,7 +63,9 @@
       "description": "Soga clan chief who first championed Buddhism at the Yamato court, accepting the Baekje Buddha image as a private devotional figure when no other clan would touch it. His patronage of the new religion launched the Soga clan's century-long rise.",
       "wikiSlug": "Soga_no_Iname",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -85,7 +87,9 @@
       "description": "Son of Soga no Iname who completed the Soga rise to power, defeating the Mononobe in 587 and installing his own niece as Empress Suiko. He effectively ran the Yamato court for forty years and is buried at Ishibutai Kofun, one of Japan's largest visible megalithic tombs.",
       "wikiSlug": "Soga_no_Umako",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -106,7 +110,9 @@
       "description": "Japan's first reigning empress, niece of Soga no Umako, who appointed her nephew Prince Shotoku Taishi as regent. Her thirty-five-year reign produced the Seventeen-Article Constitution, embassies to Sui China, and the founding of Hōryū-ji.",
       "wikiSlug": "Empress_Suiko",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -117,7 +123,10 @@
       "description": "Prince Shotoku Taishi served as regent under his aunt Empress Suiko and is the closest thing Japan has to a founding father. He promoted Buddhism, sent embassies to Sui China, founded Hōryū-ji, and drafted the Seventeen-Article Constitution.",
       "wikiSlug": "Prince_Shōtoku",
       "tier": 1,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "rulers"
     },
     {
@@ -137,7 +146,9 @@
       "description": "Promulgated by Prince Shotoku, this moral code for court officials blended Buddhist compassion, Confucian hierarchy, and a pragmatic insistence on court harmony. It is Japan's first written political document and one of the earliest constitutional texts in East Asia.",
       "wikiSlug": "Seventeen-article_constitution",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "writing"
     },
     {
@@ -167,7 +178,9 @@
       "description": "Prince Shotoku founded Hōryū-ji near Asuka. The temple's main hall and five-story pagoda are the oldest surviving wooden buildings anywhere in the world — they have stood for over fourteen centuries through earthquakes, typhoons, and wars.",
       "wikiSlug": "Hōryū-ji",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -187,7 +200,9 @@
       "description": "Tori Busshi, grandson of a Korean immigrant from Baekje, became the leading Buddhist sculptor of the Asuka period. His Shaka Triad bronze at Hōryū-ji (623) and the Asuka-dera Daibutsu (609) defined the early Japanese Buddhist sculptural style.",
       "wikiSlug": "Tori_Busshi",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -217,7 +232,9 @@
       "description": "Prince Naka no Ōe and Nakatomi no Kamatari assassinated Soga no Iruka in front of Empress Kōgyoku at a court ceremony, then exterminated the rest of the Soga clan. The coup ended sixty years of Soga dominance and triggered the Taika Reform.",
       "wikiSlug": "Isshi_incident",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "wars"
     },
     {
@@ -228,7 +245,9 @@
       "description": "Co-author of the Isshi Incident with Prince Naka no Ōe. On his deathbed in 669 he was granted the new surname Fujiwara, founding the clan that would dominate Japanese court politics for the next four centuries.",
       "wikiSlug": "Fujiwara_no_Kamatari",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -260,7 +279,9 @@
       "description": "Prince Naka no Ōe finally took the throne as Emperor Tenji and presided over the Baekgang catastrophe, the construction of fortresses across Kyushu against possible Tang invasion, and the first comprehensive census and household registry (the Kōgo-nenjaku).",
       "wikiSlug": "Emperor_Tenji",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -288,7 +309,7 @@
       "label": "Mizuki and Kyushu Defenses",
       "year": 664,
       "description": "After Baekgang, Emperor Tenji rushed defensive earthworks across northern Kyushu — the Mizuki ('water castle') embankment and a chain of mountain fortresses — fearing a Tang counter-invasion that never came. Korean Baekje refugee engineers designed the fortifications.",
-      "wikiSlug": "Mizuki_(fortification)",
+      "wikiSlug": "Mizuki_Castle",
       "tier": 3,
       "tags": [],
       "category": "architecture"
@@ -310,7 +331,9 @@
       "description": "A succession dispute between Emperor Tenji's brother Prince Ōama and Tenji's son Prince Ōtomo erupted into the largest civil war of ancient Japan. Ōama's eastern coalition won, he took the throne as Emperor Tenmu, and imperial authority was significantly strengthened.",
       "wikiSlug": "Jinshin_War",
       "tier": 2,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "wars"
     },
     {
@@ -321,7 +344,9 @@
       "description": "Tenmu was the architectural emperor of late Asuka — he formalized the title tennō ('heavenly sovereign'), commissioned the Kojiki and Nihon Shoki, decreed the Asuka Kiyomihara Code, and elevated state Buddhism while strengthening Shinto rites at Ise.",
       "wikiSlug": "Emperor_Tenmu",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -332,7 +357,9 @@
       "description": "Tenmu's widow took the throne and finished her late husband's program: she promulgated the Asuka Kiyomihara Code (689), oversaw the move to Fujiwara-kyo (694), and held the imperial line steady until her grandson Mommu was old enough to inherit.",
       "wikiSlug": "Empress_Jitō",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -374,7 +401,9 @@
       "description": "Son of Kamatari and the political architect of Nara-era Fujiwara dominance. He drafted the Taihō Code, the Yōrō Code, and married his daughters into the imperial family — establishing the marriage strategy that would let his descendants control the throne for four centuries.",
       "wikiSlug": "Fujiwara_no_Fuhito",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -395,7 +424,9 @@
       "description": "Empress Genmei moved the capital to Heijō-kyō in 710 and commissioned the Kojiki, the first surviving Japanese chronicle, completed in 712. She abdicated in favor of her daughter Empress Genshō, the only consecutive mother-daughter imperial succession in Japanese history.",
       "wikiSlug": "Empress_Genmei",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -405,7 +436,9 @@
       "description": "Empress Genmei moved the imperial capital to Heijō-kyō (modern Nara), a brand-new city laid out on a grid pattern modeled on Tang Chang'an. At its peak Nara housed 100,000–200,000 people — Japan's first true planned permanent capital.",
       "wikiSlug": "Heijō-kyō",
       "tier": 1,
-      "tags": ["rulers"],
+      "tags": [
+        "rulers"
+      ],
       "category": "architecture"
     },
     {
@@ -466,7 +499,9 @@
       "description": "Emperor Shōmu promoted Buddhism as a state-protective religion, ordering provincial temples (kokubunji) in every province and the Tōdai-ji Great Buddha at the center. His reign spanned plague, drought, and the Fujiwara political collapse of 737.",
       "wikiSlug": "Emperor_Shōmu",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "rulers"
     },
     {
@@ -477,7 +512,9 @@
       "description": "Daughter of Fujiwara no Fuhito and the first non-imperial woman to be made empress consort. Co-ruler with Shōmu in everything but title, she founded charity hospitals, championed Buddhist patronage, and donated Shōmu's personal collection to Tōdai-ji to create the Shōsō-in.",
       "wikiSlug": "Empress_Kōmyō",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -507,7 +544,9 @@
       "description": "Emperor Shōmu dedicated the Daibutsu (Great Buddha) at Tōdai-ji in Nara — a 49-foot bronze seated Buddha cast from copper, tin, mercury, and gold drawn from across the country. The dedication ceremony drew over 10,000 monks and musicians from China, Korea, India, and Central Asia.",
       "wikiSlug": "Tōdai-ji",
       "tier": 1,
-      "tags": ["religion"],
+      "tags": [
+        "religion"
+      ],
       "category": "architecture"
     },
     {
@@ -527,7 +566,9 @@
       "description": "After five failed sea voyages over twelve years (one cost him his eyesight), the Tang Chinese monk Ganjin (Jianzhen) finally reached Japan in 753, bringing the proper Buddhist ordination lineage. He founded Tōshōdai-ji in Nara and established the Ritsu school of Buddhist monastic discipline.",
       "wikiSlug": "Jianzhen",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "religion"
     },
     {
@@ -537,7 +578,9 @@
       "description": "Empress Kōmyō donated Emperor Shōmu's personal collection of over 9,000 objects to Tōdai-ji, stored in the raised-floor Shōsō-in log storehouse. The collection has survived intact for over 1,200 years and contains Persian glass, Chinese mirrors, Indian musical instruments, and Central Asian textiles.",
       "wikiSlug": "Shōsō-in",
       "tier": 2,
-      "tags": ["trade"],
+      "tags": [
+        "trade"
+      ],
       "category": "architecture"
     },
     {
@@ -548,7 +591,9 @@
       "description": "Daughter of Shōmu and Kōmyō who reigned twice — once as Kōken (749–758), then again as Shōtoku (764–770) after deposing her cousin. Her second reign was dominated by her favored monk Dōkyō, an episode that scandalized the court and ended reigning empresses for a thousand years.",
       "wikiSlug": "Empress_Shōtoku",
       "tier": 2,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -559,7 +604,10 @@
       "description": "The monk Dōkyō rose from imperial physician to chancellor and Buddhist 'Dharma King' under Empress Shōtoku, nearly being named her successor in 769 before the Wake no Kiyomaro oracle from Usa Hachiman shrine blocked him. His near-coup terrified the court for generations.",
       "wikiSlug": "Dōkyō",
       "tier": 2,
-      "tags": ["people", "religion"],
+      "tags": [
+        "people",
+        "religion"
+      ],
       "category": "people"
     },
     {
@@ -590,7 +638,9 @@
       "description": "Aristocrat-poet generally credited as the principal compiler of the Manyoshu. He wrote 473 of the anthology's poems himself — the largest contribution of any single author — and his selections preserved the poetry of court women and frontier soldiers alongside emperors.",
       "wikiSlug": "Ōtomo_no_Yakamochi",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -612,7 +662,9 @@
       "description": "Reforming emperor whose mother was descended from a Baekje royal — a fact later acknowledged by the Heisei emperor in 2001. Kammu moved the capital twice, prosecuted the Emishi wars, and reorganized provincial administration to reduce Buddhist political power.",
       "wikiSlug": "Emperor_Kammu",
       "tier": 1,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "rulers"
     },
     {
@@ -633,7 +685,9 @@
       "description": "Emperor Kammu's brother and crown prince was implicated in the assassination of Fujiwara no Tanetsugu and exiled. He died on the journey, possibly by self-imposed starvation, and his angry spirit was blamed for plague, drought, and the death of Kammu's wife — driving the move from Nagaoka-kyo to Heian-kyō.",
       "wikiSlug": "Prince_Sawara",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -685,7 +739,9 @@
       "description": "Scholar-statesman who spent eighteen years in Tang China, brought back astronomy, military strategy, and Chinese instruments, and rose to become one of the highest-ranking non-Fujiwara officials of the Nara period. Traditionally credited (probably wrongly) with inventing katakana.",
       "wikiSlug": "Kibi_no_Makibi",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {
@@ -696,7 +752,9 @@
       "description": "Sent to Tang China at sixteen on a 717 embassy, Abe no Nakamaro passed the imperial examinations, became a high official under Emperor Xuanzong, befriended the poets Li Bai and Wang Wei, and spent his life in China — never managing to return home alive despite multiple attempts.",
       "wikiSlug": "Abe_no_Nakamaro",
       "tier": 3,
-      "tags": ["people"],
+      "tags": [
+        "people"
+      ],
       "category": "people"
     },
     {

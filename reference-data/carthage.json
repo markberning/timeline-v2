@@ -7,7 +7,9 @@
   "wikiSlug": "Ancient_Carthage",
   "imageWikiSlug": "Carthage",
   "pitch": "A Phoenician colony on the coast of Tunisia grew into the undisputed master of the western Mediterranean — a commercial empire that controlled shipping lanes from Spain to Sicily, mined silver in Iberia, traded gold with West Africa, and built a circular military harbor that could shelter 220 warships. Carthage never sought to conquer the way Assyria or Persia did; it preferred trade monopolies enforced by a navy that no rival could match. When that model finally collided with Rome, it produced three wars that shaped the ancient world — and one general, Hannibal Barca, who crossed the Alps with elephants and came closer to destroying Rome than anyone before or after.\n\n🔑 Key Facts:\n• Founded by Tyrian colonists led by Queen Dido (Elissa) around 814 BCE, Carthage grew from a trading post into a city of 300,000–400,000 people at its peak\n• Hanno the Navigator sailed down the West African coast around 500 BCE, possibly reaching modern Cameroon — the most ambitious exploration voyage of the ancient world\n• Mago's 28-volume agricultural treatise was so respected that the Roman Senate ordered it translated into Latin after Carthage's destruction — the only Carthaginian book Rome deliberately saved\n• Hannibal's double-envelopment at Cannae (216 BCE) killed or captured 70,000 Roman soldiers in a single afternoon — still studied at military academies as the gold standard of tactical annihilation\n• The Carthaginian cothon (circular harbor) was an engineering marvel: a ring of ship sheds surrounding a central admiralty island, connected to a rectangular commercial harbor — the ancient world's most sophisticated naval installation\n• Kerkouane, the only intact Punic city (abandoned before Rome could destroy it), reveals advanced urban planning with indoor bathing, mosaic floors, and a gridded street plan\n• The Tophet of Carthage — a sanctuary containing thousands of urns with cremated infant remains — remains archaeology's most heated debate: ritual sacrifice or sacred burial ground?\n• Carthage's mixed constitution (elected suffetes, council of elders, popular assembly) impressed Aristotle, who ranked it among the best-governed states in the Mediterranean\n\n🤔 Why It Matters: Carthage proved that a commercial republic could project power across an entire sea without a standing army of citizens — relying instead on mercenaries, allied contingents, and naval supremacy. Its three wars with Rome (264–146 BCE) forced Rome to become a naval power, develop new military tactics, and ultimately transform from an Italian city-state into a Mediterranean empire. Rome's total destruction of Carthage in 146 BCE was so thorough that nearly all Punic literature was lost, leaving Carthaginian history told almost entirely through the words of its enemies.\n\n🎲 Wild Card: The Carthaginians may have reached the Azores. Carthaginian coins from the 3rd century BCE have been found on the islands — 900 miles into the open Atlantic — suggesting Punic sailors ventured far beyond the Pillars of Hercules into waters no Mediterranean civilization would explore again for over a thousand years.",
-  "countryIds": ["788"],
+  "countryIds": [
+    "788"
+  ],
   "spans": [
     {
       "id": "span-carthage-founding",
@@ -164,7 +166,6 @@
       "label": "Carthaginian City Walls",
       "year": -600,
       "description": "Carthage ringed its peninsula with triple fortification walls stretching over 20 miles (32 km), with the landward wall reportedly 45 feet (14 m) high and 30 feet (9 m) thick, incorporating stables for 300 elephants and 4,000 horses within the wall structure itself.",
-      "wikiSlug": "Walls_of_Carthage",
       "tier": 2,
       "tags": [],
       "category": "architecture"
@@ -185,7 +186,6 @@
       "label": "Malchus Campaigns in Sicily and Sardinia",
       "year": -570,
       "description": "The Carthaginian general Malchus (possibly a title meaning 'king') led successful campaigns to secure Punic positions in western Sicily and Sardinia, but was exiled after a failed expedition to Sardinia and later seized Carthage by force before being executed.",
-      "wikiSlug": "Malchus_(Carthaginian_general)",
       "tier": 3,
       "tags": [],
       "category": "wars"
@@ -276,7 +276,7 @@
       "label": "Mago's Agricultural Treatise",
       "year": -450,
       "description": "The Carthaginian writer Mago produced a 28-volume treatise on farming — covering viticulture, olive cultivation, livestock management, and estate organization — that the Roman Senate ordered translated into Latin after Carthage's destruction. It was the only Carthaginian book Rome deliberately preserved.",
-      "wikiSlug": "Mago_(agriculture)",
+      "wikiSlug": "Mago_(agricultural_writer)",
       "tier": 2,
       "tags": [],
       "category": "writing"
@@ -386,7 +386,6 @@
       "label": "Punic Votive Inscriptions",
       "year": -400,
       "description": "Thousands of votive stelae with Punic inscriptions have been found at tophets across the Carthaginian world — dedicating offerings to Tanit and Baal Hammon with formulaic phrases that provide the largest surviving corpus of Punic writing, since Rome destroyed virtually all Carthaginian literature.",
-      "wikiSlug": "Punic_inscriptions",
       "tier": 3,
       "tags": [],
       "category": "writing"
@@ -456,7 +455,6 @@
       "label": "Bomilcar's Failed Coup",
       "year": -308,
       "description": "The Carthaginian general Bomilcar attempted to seize power as tyrant during the crisis of Agathocles' invasion of North Africa, marching troops through the streets of Carthage. The coup failed and Bomilcar was crucified in the marketplace — a reminder that Carthage's oligarchic republic violently resisted one-man rule.",
-      "wikiSlug": "Bomilcar_(general)",
       "tier": 3,
       "tags": [],
       "category": "rulers"
@@ -546,7 +544,7 @@
       "label": "Xanthippus Defeats Regulus",
       "year": -255,
       "description": "When a Roman army invaded North Africa, Carthage hired the Spartan mercenary general Xanthippus, who reorganized the Punic army and routed the Romans at the Battle of Tunis — capturing the consul Regulus and demonstrating the effectiveness of Carthage's mercenary military model.",
-      "wikiSlug": "Xanthippus_(Carthaginian_general)",
+      "wikiSlug": "Xanthippus_(Spartan_commander)",
       "tier": 2,
       "tags": [],
       "category": "people"

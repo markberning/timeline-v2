@@ -99,7 +99,7 @@
     {
       "id": "evt-su-october-revolution",
       "label": "October Revolution",
-      "year": 1912.0,
+      "year": 1912,
       "description": "The Bolsheviks under Lenin seized power from the Provisional Government, establishing the world's first socialist state.",
       "wikiSlug": "October_Revolution",
       "tier": 1,
@@ -111,7 +111,7 @@
     {
       "id": "evt-su-lenin",
       "label": "Lenin leads Soviet state",
-      "year": 1922.0,
+      "year": 1922,
       "endYear": 1924,
       "description": "Vladimir Lenin served as head of the Soviet state, implementing war communism and later the New Economic Policy to stabilize the devastated economy.",
       "wikiSlug": "Vladimir_Lenin",
@@ -623,7 +623,7 @@
       "label": "Storming of the Winter Palace",
       "year": 1917.83,
       "description": "Red Guards and revolutionary sailors seized the Winter Palace and arrested the Provisional Government, the symbolic climax of the Bolshevik takeover.",
-      "wikiSlug": "Storming_of_the_Winter_Palace",
+      "wikiSlug": "The_Storming_of_the_Winter_Palace",
       "tier": 3,
       "category": "wars",
       "tags": []
@@ -1104,7 +1104,7 @@
       "label": "Wartime evacuation of industry",
       "year": 1941.6,
       "description": "Over 1,500 factories were dismantled and shipped east of the Urals, where they were reassembled and out-produced Germany in tanks and aircraft.",
-      "wikiSlug": "Soviet_economy_during_World_War_II",
+      "wikiSlug": "Evacuation_in_the_Soviet_Union",
       "tier": 3,
       "category": "trade",
       "tags": []
@@ -1895,7 +1895,6 @@
       "label": "Anti-alcohol campaign",
       "year": 1985.4,
       "description": "Gorbachev's drive to curb drinking cut vodka output but slashed budget revenue and bred resentment, an early misstep.",
-      "wikiSlug": "Soviet_anti-alcohol_campaign",
       "tier": 3,
       "category": "trade",
       "tags": []
@@ -2015,7 +2014,7 @@
       "label": "Party monopoly abolished",
       "year": 1990.15,
       "description": "The repeal of Article 6 ended the Communist Party's constitutional monopoly on power, formally legalizing political pluralism.",
-      "wikiSlug": "Article_6_of_the_1977_Soviet_Constitution",
+      "wikiSlug": "1977_Constitution_of_the_Soviet_Union",
       "tier": 3,
       "category": "rulers",
       "tags": []
@@ -2796,7 +2795,7 @@
       "label": "The great grain deal",
       "year": 1972.6,
       "description": "Massive secret Soviet purchases of American wheat — the 'great grain robbery' — exposed the chronic failure of collectivized agriculture.",
-      "wikiSlug": "Russian_grain_robbery",
+      "wikiSlug": "1973_United_States–Soviet_Union_wheat_deal",
       "tier": 3,
       "category": "trade",
       "tags": []
@@ -2836,7 +2835,7 @@
       "label": "Law on Cooperatives",
       "year": 1988.4,
       "description": "Legalizing private cooperatives created the first legal Soviet entrepreneurs, the seedbed of a post-Soviet market economy.",
-      "wikiSlug": "Law_on_Cooperatives_in_the_Soviet_Union",
+      "wikiSlug": "Law_on_Cooperatives",
       "tier": 3,
       "category": "trade",
       "tags": []
@@ -3215,7 +3214,7 @@
     {
       "id": "evt-su-red-army-rape-1945",
       "label": "Red Army mass rape and pillage in 1944-45",
-      "year": 1945.0,
+      "year": 1945,
       "description": "As the Red Army rolled through East Prussia, Poland, Hungary, and into Germany, its troops committed mass rape and pillage against German civilians and the civilians of countries being liberated, an atrocity suppressed for decades by the Soviet state and now established in the historical record.",
       "wikiSlug": "Rape_during_the_occupation_of_Germany",
       "tier": 2,
@@ -3225,7 +3224,7 @@
     {
       "id": "evt-su-jewish-antifascist-committee",
       "label": "Destruction of the Jewish Anti-Fascist Committee",
-      "year": 1948.0,
+      "year": 1948,
       "endYear": 1952,
       "description": "Created by the regime during the war to rally Jewish opinion abroad behind the Soviet cause, the Jewish Anti-Fascist Committee was dissolved once the war was won, its leading members arrested in the anti-cosmopolitan campaign, and thirteen of them shot on a single night in August 1952 in what became known as the Night of the Murdered Poets.",
       "wikiSlug": "Jewish_Anti-Fascist_Committee",
@@ -3246,7 +3245,7 @@
     {
       "id": "evt-su-klaus-fuchs-espionage",
       "label": "Klaus Fuchs and atomic espionage",
-      "year": 1945.0,
+      "year": 1945,
       "endYear": 1949,
       "description": "The Soviet atomic program under Igor Kurchatov was genuine science significantly accelerated by espionage, most famously by Klaus Fuchs, a German-born physicist on the Anglo-American bomb project who passed detailed design information to Moscow, a documented case confirmed in both Soviet and Western archives.",
       "wikiSlug": "Klaus_Fuchs",
@@ -3267,7 +3266,7 @@
     {
       "id": "evt-su-chronicle-current-events",
       "label": "The Chronicle of Current Events",
-      "year": 1968.0,
+      "year": 1968,
       "endYear": 1982,
       "description": "The long-running samizdat human-rights bulletin recorded each arrest, search, and trial in flat, sourced, unemotional prose from 1968 to 1982, a deliberately dry factual register that was harder to dismiss as propaganda and that documented the regime's own lawbreaking.",
       "wikiSlug": "Chronicle_of_Current_Events",
@@ -3289,7 +3288,7 @@
     {
       "id": "evt-su-raphael-lemkin-genocide",
       "label": "Raphael Lemkin and the genocide concept",
-      "year": 1944.0,
+      "year": 1944,
       "endYear": 1953,
       "description": "Raphael Lemkin, the Polish-Jewish jurist who coined the word genocide in 1944 and drove the drafting of the 1948 UN Genocide Convention, argued in a 1953 address that the Soviet destruction of the Ukrainian nation was a classic case of what he meant by the term, which is why his name carries weight in the Holodomor genocide dispute.",
       "wikiSlug": "Raphael_Lemkin",
