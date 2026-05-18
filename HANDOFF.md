@@ -4,19 +4,21 @@ _Current 2026-05-17 (late session, post hard-stop). Overwrite the dated/state se
 
 ---
 
-## ▶ STATE — uyghur-steppe SHIPPED text-only (2026-05-17, post-resume)
+## ▶ STATE — link pipeline rebuilt, AI is maps-only, all on `main` & LIVE (2026-05-17)
 
-Superseding the prior hard-stop state. The user resumed and directed: finish uyghur-steppe **except maps**, then **"ship it without maps."** Done & **LIVE on stuffhappened.com**:
-- **`main` @ `811d154`** (merge of `feat/the-17`), pushed to origin, deployed (wrangler version `46e035fb`). uyghur-steppe `hasContent: true` — **102 hasContent civs**.
-- Fixed a real non-maps blocker en route: **G1 density** (ch1/2/3 were 9 events; added one verbatim-anchored pool-event placement each → 10). ship-check then green on **every gate except maps**.
-- **Shipped text-only — G4 maps DELIBERATELY DEFERRED per explicit user instruction.** Override is cleanly scoped: ship-check confirmed `maps 1:1` was the *only* failing gate (G1/G2/G3/G6/G7 + G10/G11/G12 artifacts all green). Reader degrades gracefully — `chapter-accordion.tsx` probes each map and only mounts the block on load success, so map-less chapters show **no broken images**. Shipped-page guard only checks page size, not maps.
-- **OWED: uyghur-steppe G4 maps** (8 ch). `map-prompts/uyghur-steppe.md` already authored. The aborted maps-build's 3 partial un-QA'd PNGs were deleted (ships cleanly map-less). When resumed: `node --env-file=.env.local scripts/maps-build.mjs uyghur-steppe` → re-`npm run build` → `wrangler deploy` → push. No `hasContent` change needed (already true).
-- The 744–1206 Central Asian Steppe gap (Göktürk→Mongol) is now CLOSED — see memory `project_coverage_finding_steppe_gap`.
+`main` @ **`4ef9cb6`**, pushed, deployed (wrangler `dc28650c`). stuffhappened.com current. 102 `hasContent` civs. Nothing parked, nothing mid-flight. Major changes this session, newest first:
 
-Corpus-remediation state below is UNCHANGED (still parked; `chore/g12-a-sweep` @ `8b4c71d` still the one real salvaged deliverable).
+1. **matchText length sweep + gate (`c0bce72`, `4ef9cb6`).** Link `matchText` must be the tight term, not the clause. lint-links promotes the existing ">6 words or comma = sentence-like" check from WARN to a **`--strict` ERROR**, but the existing corpus is **grandfathered** via `audits/matchtext-baseline.json` (mirrors density-baseline; regen `--write-matchtext-baseline`) so the corpus build stays green; new + de-grandfathered civs are held to it. Per-civ exact-string waiver `content/.matchtext-waivers-<tl>.json`. **uyghur-steppe (98 spans) + goryeo-korea (84) swept tight by 2 parallel per-civ agents, de-grandfathered, validated (corpus lint:links --strict 0 ERROR / 102 civs), LIVE.** CLAUDE.md step 6 + WRITING-RULES updated.
+2. **Link-verification redesign — ALL LLM link gates removed; AI is now maps-only (`ba4f419`).** G10/G11/G12 are no longer Gemini passes. Correctness is confirmed at **creation time** by `scripts/verify-links.mjs` (+ `scripts/lib/wiki-verify.mjs`, one deterministic MediaWiki call: exists / disambiguation / redirect / title / lead / image) which writes a confirmed-page snapshot `content/.link-snapshots-<tl>.json`; the three `audit-*.mjs` are now deterministic snapshot/floor checks (same artifact + exit + waiver contract → ship-check unchanged). Block-don't-warn, fail-closed. Validated on uyghur (suite 0.08s vs ~2h Gemini); it immediately caught **2 genuinely-dead Wikipedia links** the old pipeline shipped (`Qutlugh_Bilge_Köl_Qaghan`, `Bay_Baliq`), now **fixed + live** (`75df049`: → `Uyghur_Khaganate`, `Bayanchur_Khan`, 1 dropped to blurb-only). Memory: `project_link_verification_redesign`.
+3. **uyghur-steppe** remains shipped **text-only — G4 maps still OWED** (8 ch; `map-prompts/uyghur-steppe.md` authored; `node --env-file=.env.local scripts/maps-build.mjs uyghur-steppe` → rebuild → deploy → push; `hasContent` already true). Reader degrades gracefully on missing maps. The 744–1206 steppe gap is CLOSED (`project_coverage_finding_steppe_gap`).
 
-### (historical) the prior hard-stop
-The user had issued repeated, escalating hard-stop orders ("stop all gemini work now", "stop all work", "stop all worktrees and sub agents"); session took "an unfathomable amount of time." That hold was lifted by the resume above.
+**OWED / next:**
+- **Corpus remediation #18 (locked = the FULL subject-confirm, user said "full", `bfb58d6`):** the other ~95 old civs need (a) the deterministic verify+snapshot AND (b) a human/agent subject-confirm of every link, then de-grandfather. uyghur's snapshot is currently the **(a)-only bootstrap** (adopted old-gate slugs + 3 hand-fixed); it is in this cohort, not exempt. No model spend, but real attention — NOT trivial. See `audits/corpus-remediation-backlog.md` #18.
+- The other ~95 civs' long matchText is still grandfathered in `audits/matchtext-baseline.json` (fold the tightening into the #18 per-civ pass — same traversal, no AI).
+- uyghur G4 maps (above).
+
+### (historical) earlier this session
+uyghur-steppe was built via the the-17 pipeline and shipped text-only after the user lifted a prior hard-stop ("ship it without maps"); then the link pipeline was rethought end-to-end (above). The prior corpus-remediation parked state (`chore/g12-a-sweep` etc.) is **superseded** — the LLM-gate retros (#3/#4/#5/#16) no longer exist; #18 replaces them.
 
 ### Worktree / branch topology
 - **Only checkout now:** `/Users/mberning/projects/personal/timeline-v2` on **`main`** @ `250cf4b` (unchanged this session — nothing merged, nothing deployed, no `hasContent` flips). `git worktree list` shows just this one.
