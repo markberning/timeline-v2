@@ -12,3 +12,4 @@ public/search-index.json
 .env.*.local
 audits/.slug-validation-cache.json
 audits/.wiki-verify-cache.json
+audits/link-coverage/

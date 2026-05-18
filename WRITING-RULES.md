@@ -229,6 +229,19 @@ The reader is a newcomer to ALL of history, not just Mesopotamian. If a term req
 
 ---
 
+## Rule: Defined-on-first-use ⟹ must be a curated link (the coverage gate)
+
+A term you stopped to explain — pronunciation gloss, foreign-term translation, an em-dash/parenthetical definition, or a proper noun you bolded on first use — is, by your own writing, a term the zero-knowledge reader doesn't know. **It must also be a curated event/glossary/cross link** (or an explicit waiver). "Inline-defined but linked nowhere" is the exact under-linking that made chapters feel dense; it is now a deterministic ship gate (`scripts/link-coverage.ts --strict`, CLAUDE.md step 7b), zero-tolerance for new civs.
+
+Practical consequences for how you write:
+
+- **Reserve `**bold**` for a linkable term on first use.** Do NOT bold for rhetorical emphasis ("did **not**", "**First**, he organized…", "**asserted papal primacy**"). Emphasis = italics or plain prose. Bold is a link-me marker; the gate now treats a bolded 1–3-word proper noun as a hard signal, so a bolded emphasis-clause becomes false noise the curator must waive.
+- **The pronunciation gloss is a contract.** If you write `Columba (kuh-LUM-buh)` you are certifying it's an unfamiliar proper noun → it gets a link. Don't pronounce a name you won't link.
+- **A foreign term gets its quoted English gloss AND a link** (`peregrinatio pro Christo, "pilgrimage for Christ"` → glossary).
+- The gate also flags any term that is a curated link in *some other civ* but raw text here, so a name's first appearance anywhere in the corpus sets the bar for all of it. Skipping modern country names / universal basics is automatic — you don't need to waive "France" or "Christianity".
+
+---
+
 ## Rule: When raising "may have been real," address the bigger question
 
 When the text raises the historicity question for a specific person, don't leave it hanging. Give broader context: roughly when does the historical record become reliable enough that we stop saying "may have"? Who is generally considered the earliest verified historical person? Where does THIS person fall on that spectrum? Turns a one-off uncertainty into a teaching moment about how we know what we know.
