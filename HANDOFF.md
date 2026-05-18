@@ -1,3 +1,7 @@
+> ⛔ **SUPERSEDED — read `STATUS.md` (repo root) instead.** That is now the
+> single canonical state + operating model. This file is history only; do not
+> trust its dated numbers without re-verifying per STATUS.md.
+
 # Handoff — cold-start brief
 
 _Current 2026-05-17 (late session, post hard-stop). Overwrite the dated/state sections when they change; operational notes are stable. Read this top-to-bottom before doing anything._

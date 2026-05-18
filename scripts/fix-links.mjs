@@ -160,10 +160,23 @@ for (const w of work) {
 
   const termT = toks(w.term, GENERIC)
   const pageT = new Set([...toks(r.title), ...toks(r.lead)])
-  const slugT = toks(w.slug.replace(/_/g, ' '), GENERIC)
+  const slugBare = w.slug.replace(/_/g, ' ').replace(/\s*\([^)]*\)\s*/g, ' ')
+  const slugT = toks(slugBare, GENERIC)
   // subject ok if the named term OR the slug's own words appear in title+lead.
   const sc = Math.max(overlap(termT, pageT), overlap(slugT, pageT))
-  if (sc === 0 && !sameName(w.slug.replace(/_/g, ' '), r.title)) {
+  // Author-fidelity rescue: the author wrote a slug that IS the term (every
+  // slug word is in the term or vice versa, or the same squashed name), so
+  // they named the right page — Wikipedia then renamed / redirected / merged
+  // that correctly-named page to a differently-titled article (Gukjagam→
+  // Kukchagam, teosinte→Zea, squash→Cucurbita, Hisarlik→Troy). The page is
+  // already verified live & not-a-disambiguation at this point, so
+  // Wikipedia's routing of an exactly-named page is authoritative, NOT a
+  // wrong-subject defect. A "dodge" (term≠slug, e.g. ʻinasi→Tuʻi_Tonga_
+  // Empire) fails this by construction — dodge detection is unchanged.
+  const allIn = (A, B) => A.size > 0 && [...A].every((t) => has(t, B))
+  const authorNamedItRight =
+    allIn(slugT, termT) || allIn(termT, slugT) || sameName(slugBare, w.term)
+  if (sc === 0 && !authorNamedItRight && !sameName(slugBare, r.title)) {
     SUBJECT_FAIL.push({ ...w, why: `0 word-overlap with "${r.title}" — ${r.lead.slice(0, 90)}…` }); continue
   }
 
