@@ -106,8 +106,10 @@ if (asJson) {
 if (write) {
   const snapPath = `content/.link-snapshots-${tlId}.json`
   writeFileSync(snapPath, JSON.stringify(snapshot, null, 2) + '\n')
-  console.log(`\nWrote ${snapPath} (${Object.keys(snapshot.events).length} event + ${Object.keys(snapshot.glossary).length} glossary confirmed pages).`)
-  console.log('This snapshot is the contract the deterministic ship gate enforces. Only commit it if the CONFIRM list is subject-correct.')
+  // stderr under --json so stdout stays valid JSON for piping.
+  const notice = (m) => (asJson ? console.error(m) : console.log(m))
+  notice(`\nWrote ${snapPath} (${Object.keys(snapshot.events).length} event + ${Object.keys(snapshot.glossary).length} glossary confirmed pages).`)
+  notice('This snapshot is the contract the deterministic ship gate enforces. Only commit it if the CONFIRM list is subject-correct.')
 }
 
 if (autoFail.length && !reportOnly && !write) process.exit(1)
