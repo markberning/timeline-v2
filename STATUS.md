@@ -233,9 +233,10 @@ number — this chapter is the template.
 
 ## DO NOT START (deferred by the user — until they say otherwise)
 
-- **Backlog #7 — link-coverage remediation: 22,877 gaps** across 102 civs.
-  Detector + per-civ worklists exist (`npx tsx scripts/link-coverage.ts
-  --corpus`). The user **explicitly deferred closing these.** Do not start.
+- ~~Backlog #7 deferral~~ — **LIFTED by the user 2026-05-18.** The full
+  legacy link-coverage sweep + the 2 required new-pipeline civs are now
+  ACTIVE work (user chose "the 2 + full legacy sweep"). See the program
+  section below. Backlog #7 is no longer deferred.
 - Anything reader-facing **deployed** while the user is reassessing.
 
 ## Ready to run — user-gated (commands staged, do not run unprompted)
@@ -256,15 +257,46 @@ number — this chapter is the template.
 
 - Backlog **#17**: ~226 authored fallback blurbs never reviewed for correctness.
 - Backlog **#12**: summary-bullet sanity gate (forward gate + 100-civ retro).
-- Backlog **#7**: the 22,877 coverage gaps (deferred — see above).
-- **New-pipeline coverage debt (NOT deferred-#7):** uyghur-steppe (131) +
-  goryeo-korea (97) = 228 surfaced gaps. Both are live + `hasContent:true`;
-  de-grandfathering does not unship them, but their `ship-check` coverage gate
-  now blocks until linked/waived. Real work before treating those two as
-  pipeline-complete. (uyghur-steppe maps/ship-check are DONE — it's live 200;
-  the old "finish the-17 maps" item was stale.)
+- **Backlog #7 — NOW ACTIVE (deferral lifted 2026-05-18).** See the program
+  section below — this is the current major effort.
 - The-17 roster continuation (`audits/phase-1.5-roster.md`) — build remaining
   new civs the optimized way (now incl. `npm run parse:index` at ship).
+
+## ▶ ACTIVE PROGRAM — full link-coverage sweep (started 2026-05-18)
+
+**Mandate:** user chose "the 2 + full legacy sweep" — close **every** GATE
+coverage gap corpus-wide. Verified scope (fresh `--corpus`, current rebuilt
+2026-05-17 detector, 2026-05-18): **22,848 GATE gaps across 102 civs · 343
+genuinely-blocking (NEW) · 83,109 advisory (ignore — noise by design).**
+swahili-coast already 0 (built born-verified). Detection is DONE & current —
+worklists `audits/link-coverage/LINK-COVERAGE-NEEDED-<tl>.txt`, ranking
+`audits/link-coverage-ledger.md`. No re-detection needed.
+
+**Per-civ procedure (the locked emed-ch3 template — born-verified, NOT
+number-zeroing):** for each GATE term in a civ's worklist → (a) add a
+confirmed glossary/event link (slug born-verified vs the real Wikipedia page
+via `fix-links.mjs`), OR (b) an authored house-voice `definition` blurb if no
+genuinely on-subject live page, OR (c) a documented waiver in
+`content/.link-waivers-<tl>.json` for universals / inline-defined / already
+cross-linked. Then per civ: `link-coverage --tl=<civ> --strict` → 0, AND
+`lint-links --tl=<civ> --strict` → 0 ERROR (matchText-in-body — coverage
+does NOT check this), AND `npm run parse -- --tl=<civ>`. A missing link beats
+a wrong link; waive universals — do not link-spam to hit zero.
+
+**Execution model:** parallel, **worst-civ-first** by GATE count
+(islamic-golden-age 635, ottoman-empire 629, renaissance-italy 577,
+byzantine-empire 552, delhi-sultanate 541 …). Each civ is an independent
+edit surface (its own `content/.{glossary,event,link-waivers}-<tl>.json`).
+≤5 concurrent agents (hard ceiling — scar tissue), separate worktrees, ONE
+coordinator merges + runs gates + commits per batch. `lint-links --strict`
+the gate after every link edit (matchText-italic-boundary class).
+**Reader-facing** (adds links) → batched commits; deploy gated per the
+publish policy. This is a sustained multi-batch program, not one session;
+progress tracked civ-by-civ in `audits/link-coverage-ledger.md`.
+
+Phase 1 (first batch, in progress): the 2 required new-pipeline civs
+(uyghur-steppe 131, goryeo-korea 97) — closes the only ship-blocking debt
+and re-confirms the template at scale before the legacy worst-first roll.
 
 ## Commands
 
