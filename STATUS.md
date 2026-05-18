@@ -45,6 +45,25 @@ already live & not-a-disambiguation, trust Wikipedia's routing. A real "dodge"
 (term ≠ slug) still fails — gate unchanged where it should bite. Verified: false
 alarms cleared, genuine "needs a human" + duplicate-photo flags preserved.
 
+## Pipeline state (production, not just checkers) — verified 2026-05-17
+
+- **Link correctness: IN the pipeline + gated.** `ship-check.mjs` runs
+  `fix-links --strict` + `lint:links --strict` (zero-tolerance, new civs).
+  CLAUDE.md step 6 is creation-first (born-verified). A civ cannot go live
+  without passing. ✓
+- **Link coverage: BUILT BUT NOT MERGED — pipeline gap.** The rebuilt
+  multi-signal detector is `1376548` on `chore/link-coverage-redesign`,
+  UNMERGED. On `main`, `scripts/link-coverage.ts` is the OLD weak detector
+  (`903a551`, "missed ~38 of ~44 gaps"); `ship-check` line 81 runs that old one.
+  **Fix = merge `chore/link-coverage-redesign` → `main`** (its 4 conflict files
+  — CLAUDE.md, WRITING-RULES.md, .gitignore, ship-check.mjs — were deliberately
+  NOT touched by `e213a52`, so the merge should be clean). Until then: pipeline
+  produces link-*correct* civs, not coverage-*complete* ones.
+- **The build itself does not validate links** (`prebuild` gate =
+  `lint-links --no-slugs && lint-density`, no fix-links/coverage — speed
+  design). Enforcement is `ship-check` at the hasContent flip + the
+  build-static shipped-page guard, NOT the build. Sound *iff* ship-check is run.
+
 ## Branch / worktree topology
 
 - `main` — canonical. The fix-links fix + this file commit here.
