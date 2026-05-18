@@ -2,9 +2,8 @@
 
 import { useRef, useEffect, useCallback, useMemo } from 'react'
 import { REGION_COLORS, REGION_LABELS } from '@/lib/navigator-tls'
-import { SORTED_CIVS, CIV_CHAIN_MAP, formatYearRange } from '@/lib/chronology-data'
+import { SORTED_CIVS, CIV_CHAIN_MAP, CHAINS_BY_REGION, formatYearRange } from '@/lib/chronology-data'
 import type { NavigatorTl } from '@/lib/navigator-tls'
-import { TL_CHAINS } from '../../../reference-data/tl-chains'
 
 interface CivListProps {
   activeCivId: string | null
@@ -31,9 +30,13 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
   const externalLockUntil = useRef<number>(0)
 
   // Compute filtered + reordered civs when a chain is solo'd
+  // Resolve from CHAINS_BY_REGION (not TL_CHAINS) so the synthetic
+  // "__standalone__<region>" chains the picker offers also resolve here —
+  // TL_CHAINS holds only real chains, so a soloed Standalone group would
+  // otherwise return null and the list would silently not filter.
   const soloChain = useMemo(() => {
     if (!soloChainId) return null
-    return TL_CHAINS.find(c => c.id === soloChainId) ?? null
+    return CHAINS_BY_REGION.flatMap(g => g.chains).find(c => c.id === soloChainId) ?? null
   }, [soloChainId])
 
   const displayCivs: NavigatorTl[] = useMemo(() => {
