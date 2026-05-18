@@ -6,6 +6,7 @@ import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { MinCivHeader } from '@/components/min-civ-header'
 import { getChainsForTimeline, getChainPosition } from '../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
+import { formatYearRange } from '@/lib/chronology-data'
 import { getCivIconPath } from '@/lib/civ-icons'
 
 interface PageProps {
@@ -38,6 +39,7 @@ export default async function CivilizationPage({ params }: PageProps) {
   const prevTl = prevId ? NAVIGATOR_TLS.find(t => t.id === prevId) : null
   const nextTl = nextId ? NAVIGATOR_TLS.find(t => t.id === nextId) : null
   const currentTl = NAVIGATOR_TLS.find(t => t.id === civilizationId)
+  const dateRange = currentTl ? formatYearRange(currentTl.startYear, currentTl.endYear) : null
   const iconPath = getCivIconPath(civilizationId)
 
   return (
@@ -82,6 +84,7 @@ export default async function CivilizationPage({ params }: PageProps) {
             lives here now (removed from the hero to avoid duplication). */}
         <MinCivHeader
           label={narrative.label}
+          dates={dateRange}
           prev={prevTl ? { id: prevId!, label: prevTl.label, hasContent: !!prevTl.hasContent } : null}
           next={nextTl ? { id: nextId!, label: nextTl.label, hasContent: !!nextTl.hasContent } : null}
         />

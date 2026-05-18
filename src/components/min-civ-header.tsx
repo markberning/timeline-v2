@@ -10,6 +10,7 @@ interface Side {
 
 interface MinCivHeaderProps {
   label: string
+  dates: string | null
   prev: Side | null
   next: Side | null
 }
@@ -29,7 +30,7 @@ interface MinCivHeaderProps {
  * only fires when the nav or this bar actually change *size* (e.g. the
  * text-size control) — never on scroll — so it can't cause jank.
  */
-export function MinCivHeader({ label, prev, next }: MinCivHeaderProps) {
+export function MinCivHeader({ label, dates, prev, next }: MinCivHeaderProps) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -76,6 +77,11 @@ export function MinCivHeader({ label, prev, next }: MinCivHeaderProps) {
         <span className="block truncate font-semibold font-[family-name:var(--font-lora)] text-foreground/80">
           {label}
         </span>
+        {dates && (
+          <span className="block truncate text-[10px] tabular-nums text-foreground/45 mt-0.5">
+            {dates}
+          </span>
+        )}
       </div>
 
       <div className="flex-1 min-w-0">
