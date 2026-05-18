@@ -70,6 +70,10 @@ check('glossary QA passed (no GLOSSARY-FAILURES artifact)', () => {
 // 3. Links 0-ERROR (G2).
 check('lint:links --strict', () => { sh('npx', ['tsx', 'scripts/lint-links.ts', `--tl=${tlId}`, '--strict']); return '0 ERROR' })
 
+// 3b. Born-verified: no NEW wrong-subject/dead link or bad/recycled photo
+// vs audits/fix-links-baseline.json (the legacy 100 grandfathered).
+check('fix-links --strict (born-verified)', () => { sh('node', ['scripts/fix-links.mjs', `--tl=${tlId}`, '--strict']); return 'no new wrong/dead/recycled' })
+
 // 4. Density in band (G1) — new civs are not grandfathered.
 check('lint-density --strict', () => { sh('npx', ['tsx', 'scripts/lint-density.ts', `--tl=${tlId}`, '--strict']); return '10–15/ch' })
 

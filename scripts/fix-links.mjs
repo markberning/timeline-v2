@@ -26,10 +26,14 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { verifySlugs, isDefSlug } from './lib/wiki-verify.mjs'
 
 const args = process.argv.slice(2)
-const tlId = args.find((a) => !a.startsWith('--'))
+const tlArg = args.find((a) => a.startsWith('--tl='))
+const tlId = tlArg ? tlArg.split('=')[1] : args.find((a) => !a.startsWith('--'))
 const chapterArg = args.find((a) => a.startsWith('--chapter='))
 const onlyChapter = chapterArg ? chapterArg.split('=')[1] : null
 const apply = args.includes('--apply')
+const strict = args.includes('--strict')          // ship gate: exit 1 on non-grandfathered failures
+const writeBaseline = args.includes('--write-baseline') // grandfather the current corpus state
+const BASELINE = 'audits/fix-links-baseline.json'
 const emitArg = args.find((a) => a.startsWith('--emit-flags='))
 const emitFlags = emitArg ? emitArg.split('=')[1] : null
 if (!tlId) { console.error('Usage: node scripts/fix-links.mjs <tlId> [--chapter=N]'); process.exit(2) }
@@ -133,7 +137,11 @@ const slugs = [...new Set(work.map((w) => w.slug))]
 const res = await verifySlugs(slugs)
 
 // ── reuse map: same page-image filename across unrelated events ────────────
-const imageOf = (w) => w.commonsFile || (res.get(w.slug)?.image || '')
+// An event already in .image-rejections.json shows NO picture to the reader
+// (enrich-events skips it), so it is NOT a photo failure and must not count
+// toward image reuse — treat it as having no image.
+const rejections = readJson('content/.image-rejections.json', {})
+const imageOf = (w) => (rejections[w.id] ? '' : (w.commonsFile || (res.get(w.slug)?.image || '')))
 const imgUsers = new Map()
 for (const w of work.filter((w) => w.kind === 'event')) {
   const img = imageOf(w); if (!img) continue
@@ -234,4 +242,30 @@ if (apply) {
   console.log('run `npm run parse` for the dropped pictures to take effect, then restart the dev server.')
 } else {
   console.log('\n(re-run with --apply to write these changes)')
+}
+
+// ── born-verified ship gate ────────────────────────────────────────────────
+// Every dead/disambig (PAGE), wrong-subject (SUBJECT) and bad/recycled photo
+// (PHOTO) is a failure. The legacy 100 are grandfathered in
+// audits/fix-links-baseline.json (merge-written, like the density/matchtext
+// baselines); a new civ has zero tolerance. ship-check runs `--strict`.
+const failKeys = []
+for (const x of PAGE_FAIL) failKeys.push(`${tlId}|${x.kind}|${x.id}|page`)
+for (const x of SUBJECT_FAIL) failKeys.push(`${tlId}|${x.kind}|${x.id}|subject`)
+for (const x of PHOTO_FAIL) failKeys.push(`${tlId}|${x.kind}|${x.id}|photo`)
+
+if (writeBaseline) {
+  const base = readJson(BASELINE, {})
+  for (const k of failKeys) base[k] = true
+  writeFileSync(BASELINE, JSON.stringify(base, Object.keys(base).sort(), 2) + '\n')
+  console.log(`\n[baseline] grandfathered ${failKeys.length} existing flags for ${tlId} (total ${Object.keys(base).length})`)
+} else if (strict) {
+  const base = readJson(BASELINE, {})
+  const fresh = failKeys.filter((k) => !base[k])
+  if (fresh.length) {
+    console.error(`\n✗ fix-links --strict: ${fresh.length} NON-GRANDFATHERED link/photo failure(s) in ${tlId} — fix at creation (born-verified), do not ship:`)
+    for (const k of fresh) console.error(`  ${k}`)
+    process.exit(1)
+  }
+  console.log(`\n✓ fix-links --strict: ${tlId} clean (no new wrong-subject/dead link or bad/recycled photo vs baseline)`)
 }

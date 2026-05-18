@@ -1,0 +1,951 @@
+{
+  "events": {
+    "Huns": {
+      "title": "Huns",
+      "lead": "The Huns were a nomadic people who lived in Central Asia, the Caucasus, and Eastern Europe between the 4th and 6th centuries CE. According to European tradition, they were first reported living east of the Volga River, in an area that was p",
+      "image": "Huns450.png"
+    },
+    "Migration_Period": {
+      "title": "Migration Period",
+      "lead": "The Migration Period (c. 300 to 600 AD), also known as the Barbarian Invasions, was a period in European history marked by large-scale migrations that saw the fall of the Western Roman Empire and subsequent settlement of its former territor",
+      "image": "Invasions_of_the_Roman_Empire_1.png"
+    },
+    "Battle_of_Adrianople": {
+      "title": "Battle of Adrianople",
+      "lead": "The Battle of Adrianople, also known as Battle of Hadrianopolis, was fought between the Eastern Roman army led by the Roman emperor Valens and Gothic rebels (largely Thervings as well as Greutungs, non-Gothic Alans, and various local rebels",
+      "image": "Battle_of_Adrianople_378_en.svg"
+    },
+    "Foederati": {
+      "title": "Foederati",
+      "lead": "Foederati ( FED-ə-RAY-ty; singular: foederatus FED-ə-RAY-təs) were peoples and cities bound by a treaty, known as foedus, with Rome. During the Roman Republic, the term identified the socii, but during the Roman Empire, it was used to descr",
+      "image": ""
+    },
+    "Goths": {
+      "title": "Goths",
+      "lead": "The Goths were a Germanic people who played a major role in the fall of the Western Roman Empire and the emergence of medieval Europe. They were first mentioned by Greco-Roman authors in the 3rd century AD, living north of the Danube in wha",
+      "image": ""
+    },
+    "Stilicho": {
+      "title": "Stilicho",
+      "lead": "Stilicho (; c. 359 – 22 August 408) was a military commander in the Roman army who, for a time, became the most powerful man in the Western Roman Empire. He was partly of Vandal origins and married to Serena, the niece of emperor Theodosius",
+      "image": "Diptych_of_Stilicho.jpg"
+    },
+    "Alaric_I": {
+      "title": "Alaric I",
+      "lead": "Alaric I (; Gothic: 𐌰𐌻𐌰𐍂𐌴𐌹𐌺𐍃, Alarīks lit.'ruler of all'; Latin: Alaricus; c. 370 – 411 AD) was the first king of the Visigoths, from 395 to 410. He rose to leadership of the Goths who came to occupy Moesia—territory acquired a coup",
+      "image": "Alaric_entering_Athens.jpg"
+    },
+    "Sack_of_Rome_(410)": {
+      "title": "Sack of Rome (410)",
+      "lead": "The sack of Rome on 24 August 410 AD was undertaken by the Visigoths led by their king, Alaric. At that time, Rome was no longer the administrative capital of the Western Roman Empire, having been replaced first by Mediolanum (now Milan) in",
+      "image": "Visigoths_sack_Rome.jpg"
+    },
+    "Radagaisus": {
+      "title": "Radagaisus",
+      "lead": "Radagaisus (died 23 August 406) was a Gothic king who led an invasion of Roman Italy in late 405 and the first half of 406. A committed pagan, he was executed after being defeated by the general Stilicho.",
+      "image": "Giorgio_Vasari_-_Defeat_of_Radagasio_below_Fiesole_-_Google_Art_Project.jpg"
+    },
+    "Crossing_of_the_Rhine": {
+      "title": "Crossing of the Rhine",
+      "lead": "The crossing of the Rhine by a mixed group of barbarians which included Vandals, Alans and Suebi is traditionally considered to have occurred on 31 December 406. The crossing transgressed one of the Late Roman Empire's most secure limes or ",
+      "image": "Invasions_of_the_Roman_Empire_1.png"
+    },
+    "Vandals": {
+      "title": "Vandals",
+      "lead": "The Vandals were a group of Germanic peoples who were first mentioned by a small number of Roman writers in the first and second centuries. The Vandal name reappeared in Roman accounts in the late second century during the tumultuous Marcom",
+      "image": "KHM_Wien_VIIb_105_-_Vandalic_goldfoil_jewelry,_c._300_AD.jpg"
+    },
+    "Constantine_III_(Western_Roman_emperor)": {
+      "title": "Constantine III (Western Roman emperor)",
+      "lead": "Constantine III (Latin: Flavius Claudius Constantinus; died shortly before 18 September 411) was a common Roman soldier who was declared emperor in Roman Britain in 407 and established himself in Gaul. He was recognised as co-emperor of the",
+      "image": "Solidus_of_Constantine_III_(west).png"
+    },
+    "End_of_Roman_rule_in_Britain": {
+      "title": "End of Roman rule in Britain",
+      "lead": "Roman rule in Britain ended as Roman military forces withdrew to defend or seize the Western Roman Empire's continental core, leaving behind an autonomous post-Roman Britain. In 383, the usurper Magnus Maximus withdrew troops from northern ",
+      "image": "End.of.Roman.rule.in.Britain.383.410.jpg"
+    },
+    "Kingdom_of_the_Burgundians": {
+      "title": "Kingdom of the Burgundians",
+      "lead": "The Kingdom of the Burgundians, or First Kingdom of Burgundy, was one of the so called \"barbarian kingdoms\" of the late Western Roman Empire in the fifth and sixth centuries. It began in what is now western Switzerland and southeastern Fran",
+      "image": "Karte_Koenigreich_Burgund_DE.png"
+    },
+    "Visigothic_Kingdom": {
+      "title": "Visigothic Kingdom",
+      "lead": "The Visigothic Kingdom, Visigothic Spain or Kingdom of the Goths (Latin: Regnum Gothorum) was a barbarian kingdom that occupied what is now southwestern France and the Iberian Peninsula from the 5th to the 8th century. One of the Germanic s",
+      "image": "Leovigild_CNG_97-722237_(obverse).jpg"
+    },
+    "Kingdom_of_the_Suebi": {
+      "title": "Kingdom of the Suebi",
+      "lead": "The Kingdom of the Suebi (Latin: Regnum Suevorum), also called the Kingdom of Galicia (Latin: Regnum Galicia) or Suebi Kingdom of Galicia (Latin: Galicia suevorum regnum), was a Germanic post-Roman kingdom that was one of the first to separ",
+      "image": "Reino_suevo_em_448-pt.svg"
+    },
+    "Alans": {
+      "title": "Alans",
+      "lead": "The Alans (Latin: Alani) were an ancient and medieval Iranic nomadic pastoral people who migrated to what is today the North Caucasus; some continued on to Europe and later North Africa. They are generally regarded as part of the Sarmatians",
+      "image": "Alans.jpg"
+    },
+    "Genseric": {
+      "title": "Gaiseric",
+      "lead": "Gaiseric (c. 389 – 25 January 477 AD), also known as Geiseric or Genseric (Latin: Gaisericus, Geisericus; reconstructed Vandalic: *Gaisarīx) was king of the Vandals and Alans from 428 to 477 AD. He ruled over the Vandal kingdom and played a",
+      "image": "Siliqua_of_Gaiseric,_ca._455-476.jpg"
+    },
+    "Augustine_of_Hippo": {
+      "title": "Augustine of Hippo",
+      "lead": "Augustine of Hippo ( aw-GUST-in, US also AW-gə-steen; Latin: Aurelius Augustinus Hipponensis; 13 November 354 – 28 August 430) was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius. He is",
+      "image": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    },
+    "Vandal_Kingdom": {
+      "title": "Vandal Kingdom",
+      "lead": "The Vandal Kingdom (Latin: Regnum Vandalum) or Kingdom of the Vandals and Alans (Latin: Regnum Vandalorum et Alanorum) was a confederation of Vandals and Alans, and a barbarian kingdom established under Gaiseric (or Genseric), a Vandalic wa",
+      "image": "Münze_50_Denari_-_Gelimer_-_König_der_Vandalen_(cropped).jpg"
+    },
+    "Attila": {
+      "title": "Attila",
+      "lead": "Attila ( ə-TIL-ə or AT-il-ə; c. 406 – 453), frequently called Attila the Hun, was the ruler of the Huns from 434 until his death in early 453. He was also the leader of an empire consisting of Huns, Ostrogoths, Alans, and Gepids, among othe",
+      "image": "Attila_(Képes_krónika)_(cropped).jpg"
+    },
+    "Bleda": {
+      "title": "Bleda",
+      "lead": "Bleda () was a Hunnic ruler, the brother of Attila the Hun. As nephews to Rugila, Attila and his elder brother Bleda succeeded him to the throne. Bleda's reign lasted for eleven years until his death. While it has been speculated by Jordane",
+      "image": ""
+    },
+    "Priscus": {
+      "title": "Priscus",
+      "lead": "Priscus of Panium (; Greek: Πρίσκος; 410s/420s AD – after 472 AD) was an Eastern Roman diplomat and Greek historian and rhetorician (or sophist).",
+      "image": "PriscusofPanium.jpg"
+    },
+    "Battle_of_the_Catalaunian_Plains": {
+      "title": "Battle of the Catalaunian Plains",
+      "lead": "The Battle of the Catalaunian Plains (or Fields), also called the Battle of the Campus Mauriacus, Battle of Châlons, Battle of Troyes or the Battle of Maurica, took place on 20 June 451 AD, between a coalition, led by the Roman general Flav",
+      "image": "Thuróczy_krónika_-_Attila_király_csatája_a_catalaunumi_síkon.jpg"
+    },
+    "Theodoric_I": {
+      "title": "Theodoric I",
+      "lead": "Theodoric I (Gothic: Þiudarīks; Latin: Theodericus; c. 390 or 393 – 20 or 24 June 451) was the king of the Visigoths from 418 to 451. Theodoric is famous for his part in stopping Attila the Hun at the Battle of the Catalaunian Plains in 451",
+      "image": "Félix_Castello,_\"Teodorico,_rey_godo\",_1635.jpg"
+    },
+    "Pope_Leo_I": {
+      "title": "Pope Leo I",
+      "lead": "Pope Leo I (Italian: Leone I) (c. 391 – 10 November 461), also known as Leo the Great (Latin: Leo Magnus; Italian: Leone Magno), was Bishop of Rome from 29 September 440 until his death on 10 November 461. He is the first of the three Popes",
+      "image": "Pope_St._Leo_I_the_Great.jpg"
+    },
+    "Battle_of_Nedao": {
+      "title": "Battle of Nedao",
+      "lead": "The Battle of Nedao was fought in Pannonia in 454 between the Huns and their former vassals or allies. The Nedao is believed to be a tributary of the Sava.",
+      "image": "Pannonian_Basin_geographic_map.svg"
+    },
+    "Flavius_Aetius": {
+      "title": "Flavius Aetius",
+      "lead": "Flavius Aetius (also spelled Aëtius; Latin: [aːˈɛtiʊs]; c. 390 – 21 September 454) was a Roman general and statesman of the closing period of the Western Roman Empire. He was a military commander and the most influential man in the Empire f",
+      "image": "8746_-_Roma,_museo_civiltà_Romana_-_Sarcofago_di_Stilicone_-_Foto_Giovanni_Dall'Orto_12-Apr-2008_(cropped).jpg"
+    },
+    "Valentinian_III": {
+      "title": "Valentinian III",
+      "lead": "Valentinian III (Latin: Placidus Valentinianus; 2 July 419 – 16 March 455) was Roman emperor in the West from 425 to 455. Starting in childhood, his reign over the Roman Empire was one of the longest, but was dominated by civil wars among p",
+      "image": "Bust_of_Valentinian_III,_Louvre_(cropped).jpg"
+    },
+    "Sack_of_Rome_(455)": {
+      "title": "Sack of Rome (455)",
+      "lead": "The sack of Rome in 455 was carried out by the Vandals led by their king Gaiseric. A 442 treaty between the Western Roman Empire and Vandal Kingdom included a marriage of state between the daughter of Roman Emperor Valentinian III and the s",
+      "image": "Genseric_sacking_rome_456.jpg"
+    },
+    "Fall_of_the_Western_Roman_Empire": {
+      "title": "Fall of the Western Roman Empire",
+      "lead": "The fall of the Western Roman Empire, also called the fall of the Roman Empire or the fall of Rome, was the loss of central political control in the Western Roman Empire, a process in which the Empire failed to enforce its rule, and its vas",
+      "image": "Roman_Republic_Empire_map.gif"
+    },
+    "Ricimer": {
+      "title": "Ricimer",
+      "lead": "Ricimer ( RISS-im-ər, Latin: [ˈrɪkɪmɛr]; c. 418 – 19 August 472) was a Romanized Germanic general, who ruled the remaining territory of the Western Roman Empire from 456 after defeating Avitus, until his death in 472, with a brief interlude",
+      "image": "Ricimer's_Seal_(1).jpg"
+    },
+    "Majorian": {
+      "title": "Majorian",
+      "lead": "Majorian (Latin: Iulius Valerius Maiorianus; c. 420 – 7 August 461) was Western Roman emperor from 457 to 461. A prominent commander in the Western military, Majorian deposed Avitus in 457 with the aid of his ally Ricimer at the Battle of P",
+      "image": "Solidus_Majorian_Arles_(obverse).jpg"
+    },
+    "Domain_of_Soissons": {
+      "title": "Kingdom of Soissons",
+      "lead": "The Kingdom or Domain of Soissons is the historiographical name for the de facto independent Roman remnant of the Diocese of Gaul, which existed during late antiquity as a rump state of the Western Roman Empire until its conquest by the Fra",
+      "image": "Map_of_Gaul,_476_AD.png"
+    },
+    "Romulus_Augustulus": {
+      "title": "Romulus Augustulus",
+      "lead": "Romulus Augustus (c. 460–465 – c. 511–530), nicknamed Augustulus, was Roman emperor of the West from 31 October 475 until 4 September 476. Romulus was placed on the imperial throne while still a minor by his father Orestes, the magister mil",
+      "image": "Gold_Solidus_of_Romulus_Augustulus.jpg"
+    },
+    "Odoacer": {
+      "title": "Odoacer",
+      "lead": "Odoacer (c. 433 – 15 March 493 AD), also spelled Odovacer or Odovacar, was a barbarian soldier and statesman from the Middle Danube who was an officer of the Roman army and deposed the Western Roman child emperor Romulus Augustulus to becom",
+      "image": "Coin_of_Odoacer_at_the_British_Museum_(obverse).png"
+    },
+    "Julius_Nepos": {
+      "title": "Julius Nepos",
+      "lead": "Julius Nepos (died 9 May 480), or simply Nepos, ruled as Roman emperor of the West from 24 June 474 to 28 August 475. After losing power in Italy, Nepos retreated to his home province of Dalmatia, from which he continued to claim the wester",
+      "image": "Solidus_of_Julius_Nepos.png"
+    },
+    "Cura_Annonae": {
+      "title": "Cura annonae",
+      "lead": "In Imperial Rome, cura annonae (lit. 'care of the grain') was the logistics system which procured and distributed grain for the cities of Rome and, after its foundation, Constantinople. The city of Rome imported all the grain consumed by it",
+      "image": "Roman_SPQR_banner.svg"
+    },
+    "Late_antiquity": {
+      "title": "Late antiquity",
+      "lead": "Late antiquity is a time period between classical antiquity and the Early Middle Ages. The exact start and end dates are debatable. Late antiquity represents a cultural sphere covering much of the Mediterranean world, including parts of Eur",
+      "image": "Diptych_Barberini_Louvre_OA9063_whole.jpg"
+    },
+    "Clovis_I": {
+      "title": "Clovis I",
+      "lead": "Clovis I (Latin: Chlodovechus; reconstructed Frankish: *Hlodowig; c. 466 – 27 November 511) was the first Frankish king to unite the Franks, changing the form of leadership from a group of petty kings to rule by a single king, and ensuring ",
+      "image": "Saint_Remy_baptise_Clovis_détail.jpg"
+    },
+    "Battle_of_Soissons_(486)": {
+      "title": "Battle of Soissons (486)",
+      "lead": "The Battle of Soissons was fought in 486 between Frankish forces under Clovis I and the Gallo-Roman domain of Soissons under Syagrius. The battle was a victory for the Franks, and led to the conquest of the Roman rump state of Soissons, a m",
+      "image": "Syagrius_brought_before_Clovis.jpg"
+    },
+    "Battle_of_Vouillé": {
+      "title": "Battle of Vouillé",
+      "lead": "The Battle of Vouillé (from Latin Campus Vogladensis) was a battle in the Franco-Gothic War and was fought in the northern marches of Visigothic territory, at Vouillé, near Poitiers (Gaul), around spring 507 between the Franks, commanded by",
+      "image": "Clovis_tue_Alaric_II.jpg"
+    },
+    "Lex_Salica": {
+      "title": "Salic law",
+      "lead": "The Salic law ( or ; Latin: Lex salica), also called the Salian law, was a Frankish civil law code compiled around 500 AD by Clovis, the first Frankish king. The name may refer to the Salii, or \"Salian Franks\", but this is debated. The writ",
+      "image": "Jugement_de_Childebert_III_accordant_à_l'abbaye_de_Saint-Denis_la_terre_de_Hodenc-l'Evêque_dans_l'Oise.jpg"
+    },
+    "Gundobad": {
+      "title": "Gundobad",
+      "lead": "Gundobad (Latin: Flavius Gundobadus; French: Gondebaud, Gondovald; c. 452 – 516) was King of the Burgundians (473–516), succeeding his father Gundioc of Burgundy. Previous to this, he had been a patrician of the moribund Western Roman Empir",
+      "image": "Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG"
+    },
+    "Breviary_of_Alaric": {
+      "title": "Breviary of Alaric",
+      "lead": "The Breviary of Alaric (Breviarium Alaricianum or Lex Romana Visigothorum) is a collection of Roman law, compiled by Roman jurists and issued by referendary Anianus on the order of Alaric II, King of the Visigoths, with the approval of his ",
+      "image": "Paris,_BnF_Ms_Latin_4404_fol_1v-2r_Breviarium_Alarici_Frontispiece.jpg"
+    },
+    "Theodoric_the_Great": {
+      "title": "Theodoric the Great",
+      "lead": "Theodoric (or Theoderic) the Great (about 454 – 30 August 526), also called the Amal, was king of the Ostrogoths (475–526), and ruler of the Ostrogothic Kingdom of Italy between 493 and 526, regent of the Visigoths (511–526), and a patricia",
+      "image": "Teodorico_re_dei_Goti_(493-526).png"
+    },
+    "Boethius": {
+      "title": "Boethius",
+      "lead": "Anicius Manlius Severinus Boethius, commonly known simply as Boethius (; Latin: Boetius; c. 480–524 AD), was a Roman senator, consul, magister officiorum, polymath, historian, and philosopher of the Early Middle Ages. He was a central figur",
+      "image": "Boethius.jpeg"
+    },
+    "Cassiodorus": {
+      "title": "Cassiodorus",
+      "lead": "Magnus Aurelius Cassiodorus Senator (c. 485 – c. 585), commonly known as Cassiodorus (), was a Roman statesman, scholar, and writer who served in the administration of Theodoric the Great, king of the Ostrogoths. Senator was part of his sur",
+      "image": "Gesta_Theodorici_-_Flavius_Magnus_Aurelius_Cassiodorus_(c_485_-_c_580).jpg"
+    },
+    "Arianism": {
+      "title": "Arianism",
+      "lead": "Arianism (Koine Greek: Ἀρειανισμός, romanized: Areianismós) is a Christological doctrine that rejects the traditional notion of the Trinity, teaching that Jesus was created by God and is therefore distinct from God. It is named after its pr",
+      "image": ""
+    },
+    "Francia": {
+      "title": "Francia",
+      "lead": "The Kingdom of the Franks (Latin: Regnum Francorum), also known as the Frankish Kingdom or Francia, was the largest post-Roman kingdom in Western Europe. It was established by the Franks, one of the Germanic peoples. Its founder was King Cl",
+      "image": "Franks_expansion.gif"
+    },
+    "Justinian_I": {
+      "title": "Justinian I",
+      "lead": "Justinian I (Latin: Iustinianus, Ancient Greek: Ἰουστινιανός, romanized: Ioustinianós; 482 – 14 November 565), also known as Justinian the Great, was Roman emperor from 527 to 565. His reign was marked by the ambitious but only partly reali",
+      "image": "Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg"
+    },
+    "Corpus_juris_civilis": {
+      "title": "Corpus Juris Civilis",
+      "lead": "The Corpus Juris (or Iuris) Civilis (\"Body of Civil Law\") is the modern name for a collection of fundamental works in jurisprudence, enacted from 529 to 534 by order of Roman Emperor Justinian I. It is also sometimes referred to metonymical",
+      "image": "Corpus_Iuris_Civilis_-_Dionísio_Godofredo_-_1583.jpg"
+    },
+    "Belisarius": {
+      "title": "Belisarius",
+      "lead": "Flavius Belisarius (Latin pronunciation: [bɛ.lɪˈsaː.ri.ʊs]; Greek: Βελισάριος; c. 500 – March 565) was a military commander of the Byzantine Empire under Emperor Justinian I. Belisarius was instrumental in the reconquest of much of the Medi",
+      "image": "Belisarius_mosaic.jpg"
+    },
+    "Vandalic_War": {
+      "title": "Vandalic War",
+      "lead": "The Vandalic War (533–534) was a conflict fought in North Africa between the forces of the Byzantine Empire (also known as the Eastern Roman Empire) and the Germanic Vandal Kingdom. It was the first war of Emperor Justinian I's Renovatio im",
+      "image": "Vandalic_War_campaign_map.png"
+    },
+    "Gothic_War_(535–554)": {
+      "title": "Gothic War (535–554)",
+      "lead": "The Gothic War between the Eastern Roman Empire (Byzantine Empire) during the reign of Emperor Justinian I and the Ostrogothic Kingdom of Italy took place from 535 to 554 in the Italian peninsula, Dalmatia, Sardinia, Sicily, and Corsica. It",
+      "image": "Erster_und_Zweiter_Gotenkrieg.png"
+    },
+    "Narses": {
+      "title": "Narses",
+      "lead": "Narses (also spelled Nerses; Latin pronunciation: [ˈnarseːs]; Armenian: Ներսէս; Greek: Ναρσής; c. 478–573) was a distinguished Roman general and statesman of Armenian heritage, renowned for his critical role in Emperor Justinian I's militar",
+      "image": "Narses.jpg"
+    },
+    "Pragmatic_sanction": {
+      "title": "Pragmatic sanction",
+      "lead": "A pragmatic sanction is a sovereign's solemn decree on a matter of primary importance and has the force of fundamental law. In the late history of the Holy Roman Empire, it referred more specifically to an edict issued by the Emperor. When ",
+      "image": ""
+    },
+    "Lazic_War": {
+      "title": "Lazic War",
+      "lead": "The Lazic War, also known as the Colchidian War or in Georgian historiography as the Great War of Egrisi, was fought between the Byzantine Empire and the Sasanian Empire for control of the ancient Georgian region of Lazica. The Lazic War la",
+      "image": ""
+    },
+    "Volcanic_winter_of_536": {
+      "title": "Volcanic winter of 536",
+      "lead": "The volcanic winter of 536 was among the most severe and protracted episodes of climatic cooling in the Northern Hemisphere in the last two thousand years. The volcanic winter was caused by at least three eruptions of uncertain origin, with",
+      "image": "SS_Filippo_e_Giacomo,_Nosedo._Lapide_del_536_d.c._Photo_by_Giovanni_Dall'Orto,_3_July_2022_2.jpg"
+    },
+    "Plague_of_Justinian": {
+      "title": "Plague of Justinian",
+      "lead": "The plague of Justinian or Justinianic plague (AD 541–549) was an epidemic of plague that afflicted the entire Mediterranean Basin, Europe, and the Near East, especially the Sasanian Empire and the Byzantine Empire. The plague is named for ",
+      "image": "Plaguet03.jpg"
+    },
+    "Lombards": {
+      "title": "Lombards",
+      "lead": "The Lombards, Longobards or Langobards (Latin: Langobardi) were a Germanic people who conquered most of the Italian Peninsula between 568 and 774 AD. They had previously settled in the Middle Danube in the 5th century, near what is now Aust",
+      "image": "Italien_zur_Langobardenzeit.jpg"
+    },
+    "Alboin": {
+      "title": "Alboin",
+      "lead": "Alboin (530s – 28 June 572) was king of the Lombards from about 560 until 572. During his reign the Lombards ended their migrations by settling in Italy, the northern part of which Alboin conquered between 569 and 572. He had a lasting effe",
+      "image": "Nuremberg_chronicles_f_147v_1.jpg"
+    },
+    "Lombard_Kingdom": {
+      "title": "Kingdom of the Lombards",
+      "lead": "The Kingdom of the Lombards, also known as the Lombard Kingdom and later as the Kingdom of all Italy (Latin: Regnum totius Italiae), was an early medieval state established by the Lombards, a Germanic people, on the Italian Peninsula in the",
+      "image": "Lombard_(Kingdom_of)_Italy.png"
+    },
+    "Barbarian_kingdoms": {
+      "title": "Barbarian kingdoms",
+      "lead": "The barbarian kingdoms were states founded by various non-Roman, primarily Germanic, peoples in Western Europe and North Africa following the collapse of the Western Roman Empire in the 5th century CE. The barbarian kingdoms were the princi",
+      "image": "Europe_and_the_Near_East_at_476_AD.png"
+    },
+    "Roman_villa": {
+      "title": "Roman villa",
+      "lead": "A Roman villa was typically a farmhouse or country house in the territory of the Roman Republic and the Roman Empire, sometimes reaching extravagant proportions. Nevertheless, the term \"Roman villa\" generally covers buildings with the commo",
+      "image": "Jardín_Villa_Poppaea_04.JPG"
+    },
+    "Catholic_Church": {
+      "title": "Catholic Church",
+      "lead": "The Catholic Church (Latin: Ecclesia Catholica), commonly called the Roman Catholic Church, is the largest Christian church, with an estimated 1.28 to 1.41 billion baptized members worldwide as of 2026. It consists of 24 autonomous (sui iur",
+      "image": "Saint_Peter's_Basilica_facade,_Rome,_Italy.jpg"
+    },
+    "Lex_Burgundionum": {
+      "title": "Lex Burgundionum",
+      "lead": "The Lex Burgundionum (Latin for Burgundian Laws, also Lex Gundobada) is the law code of the Burgundians, probably issued by king Gundobad. It is influenced by Roman law and deals with domestic laws concerning marriage and inheritance as wel",
+      "image": "St._Sigismund.jpg"
+    },
+    "Ravenna": {
+      "title": "Ravenna",
+      "lead": "Ravenna ( rə-VEN-ə; Italian: [raˈvenna], also locally [raˈvɛn(n)a] ; Romagnol: Ravèna, Ravêna) is the capital city of the Province of Ravenna, in the Emilia-Romagna region of Northern Italy. It was the capital city of the Western Roman Empi",
+      "image": "Ravenna_Cattedrale_Metropolitana_della_Risurrezione_di_Nostro_Signore_Gesù_Cristo_Esterno_Lato_Nord_1.jpg"
+    },
+    "Hagia_Sophia": {
+      "title": "Hagia Sophia",
+      "lead": "Hagia Sophia, officially the Hagia Sophia Grand Mosque, is a mosque and a major cultural and historical site in Istanbul, Turkey. It was formerly a church (360–1453) and a museum (1935–2020). The last of three church buildings to be success",
+      "image": "Hagia_Sophia_(228968325).jpeg"
+    },
+    "Edictum_Rothari": {
+      "title": "Edictum Rothari",
+      "lead": "The Edictum Rothari (transl. Edict of Rothari; also Edictus Rothari or Edictum Rotharis) was the first written compilation of Lombard law, codified and promulgated on 22 November 643 by King Rothari in Pavia by a gairethinx, an assembly of ",
+      "image": "St._Gallen,_Stiftsbibliothek_St._Gallen,_Cod._Sang._730,_p._18.png"
+    },
+    "Migration_Period_art": {
+      "title": "Migration Period art",
+      "lead": "Migration Period art denotes the artwork of the Germanic peoples during the Migration period (c. 300 – 800). It includes the Migration art of the Germanic tribes on the continent, as well the start of the Insular art or Hiberno-Saxon art of",
+      "image": "Sutton.Hoo.ShoulderClasp2.RobRoy.jpg"
+    },
+    "Theodora_(wife_of_Justinian_I)": {
+      "title": "Theodora (wife of Justinian I)",
+      "lead": "Theodora (; Greek: Θεοδώρα; c. 490/500 – 28 June 548) was Eastern Roman empress and wife of emperor Justinian I. She was of humble origins and became empress when her husband became emperor in 527. Theodora was one of his chief political ad",
+      "image": "Theodora_mosaic_-_Basilica_San_Vitale_(Ravenna)_v2.jpg"
+    },
+    "Nika_riots": {
+      "title": "Nika riots",
+      "lead": "The Nika riots (Greek: Στάσις τοῦ Νίκα, romanized: Stásis toû Níka), Nika revolt or Nika sedition took place against Byzantine emperor Justinian I in Constantinople over the course of a week in 532 AD. They are often regarded as the most vi",
+      "image": "Turkey-03228_-_Hippodrome_of_Constantinople_(11312626353).jpg"
+    },
+    "Third_Council_of_Toledo": {
+      "title": "Third Council of Toledo",
+      "lead": "The Third Council of Toledo (589) marks the entry of Visigothic Spain into the Catholic Church, and is known for codifying the filioque clause into Western Christianity. The council also enacted restrictions on Jews, and the conversion of t",
+      "image": "III_Concilio_de_Toledo_(Museo_del_Prado).jpg"
+    },
+    "Rule_of_Saint_Benedict": {
+      "title": "Rule of Saint Benedict",
+      "lead": "The Rule of Saint Benedict (Latin: Regula Sancti Benedicti) is a book of precepts written in Latin c. 530 by St. Benedict of Nursia (c. AD 480–550) for monks living communally under the authority of an abbot. The spirit of Saint Benedict's ",
+      "image": "MS._Hatton_48_fol._6v-7r.jpg"
+    },
+    "Silk_Road": {
+      "title": "Silk Road",
+      "lead": "The Silk Road was a network of Asian trade routes active from the second century BCE until the mid-15th century. Spanning over 6,400 km (4,000 mi) on land, it played a central role in facilitating economic, cultural, political, and religiou",
+      "image": "Silk_road_Kazakhstan.svg"
+    },
+    "Battle_of_Tolbiac": {
+      "title": "Battle of Tolbiac",
+      "lead": "The Battle of Tolbiac was fought between the Franks, who were fighting under Clovis I, and the Alamanni, whose leader is not known. The date of the battle has traditionally been given as 496, though other accounts suggest it may either have",
+      "image": "Ary_Scheffer_-_Bataille_de_Tolbiac_496.jpg"
+    },
+    "Council_of_Orléans_(511)": {
+      "title": "First Council of Orléans",
+      "lead": "The First Council of Orléans was a synod convoked by Clovis I, King of the Franks, in 511. Clovis called for this synod four years after his victory over the Visigoths under Alaric II at the Battle of Vouillé in 507. The council was attende",
+      "image": ""
+    }
+  },
+  "glossary": {
+    "Migration_Period": {
+      "title": "Migration Period",
+      "lead": "The Migration Period (c. 300 to 600 AD), also known as the Barbarian Invasions, was a period in European history marked by large-scale migrations that saw the fall of the Western Roman Empire and subsequent settlement of its former territor",
+      "image": "Invasions_of_the_Roman_Empire_1.png"
+    },
+    "Foederati": {
+      "title": "Foederati",
+      "lead": "Foederati ( FED-ə-RAY-ty; singular: foederatus FED-ə-RAY-təs) were peoples and cities bound by a treaty, known as foedus, with Rome. During the Roman Republic, the term identified the socii, but during the Roman Empire, it was used to descr",
+      "image": ""
+    },
+    "Goths": {
+      "title": "Goths",
+      "lead": "The Goths were a Germanic people who played a major role in the fall of the Western Roman Empire and the emergence of medieval Europe. They were first mentioned by Greco-Roman authors in the 3rd century AD, living north of the Danube in wha",
+      "image": ""
+    },
+    "Alaric_I": {
+      "title": "Alaric I",
+      "lead": "Alaric I (; Gothic: 𐌰𐌻𐌰𐍂𐌴𐌹𐌺𐍃, Alarīks lit.'ruler of all'; Latin: Alaricus; c. 370 – 411 AD) was the first king of the Visigoths, from 395 to 410. He rose to leadership of the Goths who came to occupy Moesia—territory acquired a coup",
+      "image": "Alaric_entering_Athens.jpg"
+    },
+    "Vandals": {
+      "title": "Vandals",
+      "lead": "The Vandals were a group of Germanic peoples who were first mentioned by a small number of Roman writers in the first and second centuries. The Vandal name reappeared in Roman accounts in the late second century during the tumultuous Marcom",
+      "image": "KHM_Wien_VIIb_105_-_Vandalic_goldfoil_jewelry,_c._300_AD.jpg"
+    },
+    "Alans": {
+      "title": "Alans",
+      "lead": "The Alans (Latin: Alani) were an ancient and medieval Iranic nomadic pastoral people who migrated to what is today the North Caucasus; some continued on to Europe and later North Africa. They are generally regarded as part of the Sarmatians",
+      "image": "Alans.jpg"
+    },
+    "Genseric": {
+      "title": "Gaiseric",
+      "lead": "Gaiseric (c. 389 – 25 January 477 AD), also known as Geiseric or Genseric (Latin: Gaisericus, Geisericus; reconstructed Vandalic: *Gaisarīx) was king of the Vandals and Alans from 428 to 477 AD. He ruled over the Vandal kingdom and played a",
+      "image": "Siliqua_of_Gaiseric,_ca._455-476.jpg"
+    },
+    "Augustine_of_Hippo": {
+      "title": "Augustine of Hippo",
+      "lead": "Augustine of Hippo ( aw-GUST-in, US also AW-gə-steen; Latin: Aurelius Augustinus Hipponensis; 13 November 354 – 28 August 430) was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius. He is",
+      "image": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    },
+    "Attila": {
+      "title": "Attila",
+      "lead": "Attila ( ə-TIL-ə or AT-il-ə; c. 406 – 453), frequently called Attila the Hun, was the ruler of the Huns from 434 until his death in early 453. He was also the leader of an empire consisting of Huns, Ostrogoths, Alans, and Gepids, among othe",
+      "image": "Attila_(Képes_krónika)_(cropped).jpg"
+    },
+    "Bleda": {
+      "title": "Bleda",
+      "lead": "Bleda () was a Hunnic ruler, the brother of Attila the Hun. As nephews to Rugila, Attila and his elder brother Bleda succeeded him to the throne. Bleda's reign lasted for eleven years until his death. While it has been speculated by Jordane",
+      "image": ""
+    },
+    "Priscus": {
+      "title": "Priscus",
+      "lead": "Priscus of Panium (; Greek: Πρίσκος; 410s/420s AD – after 472 AD) was an Eastern Roman diplomat and Greek historian and rhetorician (or sophist).",
+      "image": "PriscusofPanium.jpg"
+    },
+    "Theodoric_I": {
+      "title": "Theodoric I",
+      "lead": "Theodoric I (Gothic: Þiudarīks; Latin: Theodericus; c. 390 or 393 – 20 or 24 June 451) was the king of the Visigoths from 418 to 451. Theodoric is famous for his part in stopping Attila the Hun at the Battle of the Catalaunian Plains in 451",
+      "image": "Félix_Castello,_\"Teodorico,_rey_godo\",_1635.jpg"
+    },
+    "Pope_Leo_I": {
+      "title": "Pope Leo I",
+      "lead": "Pope Leo I (Italian: Leone I) (c. 391 – 10 November 461), also known as Leo the Great (Latin: Leo Magnus; Italian: Leone Magno), was Bishop of Rome from 29 September 440 until his death on 10 November 461. He is the first of the three Popes",
+      "image": "Pope_St._Leo_I_the_Great.jpg"
+    },
+    "Flavius_Aetius": {
+      "title": "Flavius Aetius",
+      "lead": "Flavius Aetius (also spelled Aëtius; Latin: [aːˈɛtiʊs]; c. 390 – 21 September 454) was a Roman general and statesman of the closing period of the Western Roman Empire. He was a military commander and the most influential man in the Empire f",
+      "image": "8746_-_Roma,_museo_civiltà_Romana_-_Sarcofago_di_Stilicone_-_Foto_Giovanni_Dall'Orto_12-Apr-2008_(cropped).jpg"
+    },
+    "Valentinian_III": {
+      "title": "Valentinian III",
+      "lead": "Valentinian III (Latin: Placidus Valentinianus; 2 July 419 – 16 March 455) was Roman emperor in the West from 425 to 455. Starting in childhood, his reign over the Roman Empire was one of the longest, but was dominated by civil wars among p",
+      "image": "Bust_of_Valentinian_III,_Louvre_(cropped).jpg"
+    },
+    "Ricimer": {
+      "title": "Ricimer",
+      "lead": "Ricimer ( RISS-im-ər, Latin: [ˈrɪkɪmɛr]; c. 418 – 19 August 472) was a Romanized Germanic general, who ruled the remaining territory of the Western Roman Empire from 456 after defeating Avitus, until his death in 472, with a brief interlude",
+      "image": "Ricimer's_Seal_(1).jpg"
+    },
+    "Majorian": {
+      "title": "Majorian",
+      "lead": "Majorian (Latin: Iulius Valerius Maiorianus; c. 420 – 7 August 461) was Western Roman emperor from 457 to 461. A prominent commander in the Western military, Majorian deposed Avitus in 457 with the aid of his ally Ricimer at the Battle of P",
+      "image": "Solidus_Majorian_Arles_(obverse).jpg"
+    },
+    "Domain_of_Soissons": {
+      "title": "Kingdom of Soissons",
+      "lead": "The Kingdom or Domain of Soissons is the historiographical name for the de facto independent Roman remnant of the Diocese of Gaul, which existed during late antiquity as a rump state of the Western Roman Empire until its conquest by the Fra",
+      "image": "Map_of_Gaul,_476_AD.png"
+    },
+    "Romulus_Augustulus": {
+      "title": "Romulus Augustulus",
+      "lead": "Romulus Augustus (c. 460–465 – c. 511–530), nicknamed Augustulus, was Roman emperor of the West from 31 October 475 until 4 September 476. Romulus was placed on the imperial throne while still a minor by his father Orestes, the magister mil",
+      "image": "Gold_Solidus_of_Romulus_Augustulus.jpg"
+    },
+    "Odoacer": {
+      "title": "Odoacer",
+      "lead": "Odoacer (c. 433 – 15 March 493 AD), also spelled Odovacer or Odovacar, was a barbarian soldier and statesman from the Middle Danube who was an officer of the Roman army and deposed the Western Roman child emperor Romulus Augustulus to becom",
+      "image": "Coin_of_Odoacer_at_the_British_Museum_(obverse).png"
+    },
+    "Julius_Nepos": {
+      "title": "Julius Nepos",
+      "lead": "Julius Nepos (died 9 May 480), or simply Nepos, ruled as Roman emperor of the West from 24 June 474 to 28 August 475. After losing power in Italy, Nepos retreated to his home province of Dalmatia, from which he continued to claim the wester",
+      "image": "Solidus_of_Julius_Nepos.png"
+    },
+    "Cura_Annonae": {
+      "title": "Cura annonae",
+      "lead": "In Imperial Rome, cura annonae (lit. 'care of the grain') was the logistics system which procured and distributed grain for the cities of Rome and, after its foundation, Constantinople. The city of Rome imported all the grain consumed by it",
+      "image": "Roman_SPQR_banner.svg"
+    },
+    "Clovis_I": {
+      "title": "Clovis I",
+      "lead": "Clovis I (Latin: Chlodovechus; reconstructed Frankish: *Hlodowig; c. 466 – 27 November 511) was the first Frankish king to unite the Franks, changing the form of leadership from a group of petty kings to rule by a single king, and ensuring ",
+      "image": "Saint_Remy_baptise_Clovis_détail.jpg"
+    },
+    "Lex_Salica": {
+      "title": "Salic law",
+      "lead": "The Salic law ( or ; Latin: Lex salica), also called the Salian law, was a Frankish civil law code compiled around 500 AD by Clovis, the first Frankish king. The name may refer to the Salii, or \"Salian Franks\", but this is debated. The writ",
+      "image": "Jugement_de_Childebert_III_accordant_à_l'abbaye_de_Saint-Denis_la_terre_de_Hodenc-l'Evêque_dans_l'Oise.jpg"
+    },
+    "Gundobad": {
+      "title": "Gundobad",
+      "lead": "Gundobad (Latin: Flavius Gundobadus; French: Gondebaud, Gondovald; c. 452 – 516) was King of the Burgundians (473–516), succeeding his father Gundioc of Burgundy. Previous to this, he had been a patrician of the moribund Western Roman Empir",
+      "image": "Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG"
+    },
+    "Theodoric_the_Great": {
+      "title": "Theodoric the Great",
+      "lead": "Theodoric (or Theoderic) the Great (about 454 – 30 August 526), also called the Amal, was king of the Ostrogoths (475–526), and ruler of the Ostrogothic Kingdom of Italy between 493 and 526, regent of the Visigoths (511–526), and a patricia",
+      "image": "Teodorico_re_dei_Goti_(493-526).png"
+    },
+    "Boethius": {
+      "title": "Boethius",
+      "lead": "Anicius Manlius Severinus Boethius, commonly known simply as Boethius (; Latin: Boetius; c. 480–524 AD), was a Roman senator, consul, magister officiorum, polymath, historian, and philosopher of the Early Middle Ages. He was a central figur",
+      "image": "Boethius.jpeg"
+    },
+    "Arianism": {
+      "title": "Arianism",
+      "lead": "Arianism (Koine Greek: Ἀρειανισμός, romanized: Areianismós) is a Christological doctrine that rejects the traditional notion of the Trinity, teaching that Jesus was created by God and is therefore distinct from God. It is named after its pr",
+      "image": ""
+    },
+    "Justinian_I": {
+      "title": "Justinian I",
+      "lead": "Justinian I (Latin: Iustinianus, Ancient Greek: Ἰουστινιανός, romanized: Ioustinianós; 482 – 14 November 565), also known as Justinian the Great, was Roman emperor from 527 to 565. His reign was marked by the ambitious but only partly reali",
+      "image": "Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg"
+    },
+    "Belisarius": {
+      "title": "Belisarius",
+      "lead": "Flavius Belisarius (Latin pronunciation: [bɛ.lɪˈsaː.ri.ʊs]; Greek: Βελισάριος; c. 500 – March 565) was a military commander of the Byzantine Empire under Emperor Justinian I. Belisarius was instrumental in the reconquest of much of the Medi",
+      "image": "Belisarius_mosaic.jpg"
+    },
+    "Narses": {
+      "title": "Narses",
+      "lead": "Narses (also spelled Nerses; Latin pronunciation: [ˈnarseːs]; Armenian: Ներսէս; Greek: Ναρσής; c. 478–573) was a distinguished Roman general and statesman of Armenian heritage, renowned for his critical role in Emperor Justinian I's militar",
+      "image": "Narses.jpg"
+    },
+    "Lombards": {
+      "title": "Lombards",
+      "lead": "The Lombards, Longobards or Langobards (Latin: Langobardi) were a Germanic people who conquered most of the Italian Peninsula between 568 and 774 AD. They had previously settled in the Middle Danube in the 5th century, near what is now Aust",
+      "image": "Italien_zur_Langobardenzeit.jpg"
+    },
+    "Alboin": {
+      "title": "Alboin",
+      "lead": "Alboin (530s – 28 June 572) was king of the Lombards from about 560 until 572. During his reign the Lombards ended their migrations by settling in Italy, the northern part of which Alboin conquered between 569 and 572. He had a lasting effe",
+      "image": "Nuremberg_chronicles_f_147v_1.jpg"
+    },
+    "Ravenna": {
+      "title": "Ravenna",
+      "lead": "Ravenna ( rə-VEN-ə; Italian: [raˈvenna], also locally [raˈvɛn(n)a] ; Romagnol: Ravèna, Ravêna) is the capital city of the Province of Ravenna, in the Emilia-Romagna region of Northern Italy. It was the capital city of the Western Roman Empi",
+      "image": "Ravenna_Cattedrale_Metropolitana_della_Risurrezione_di_Nostro_Signore_Gesù_Cristo_Esterno_Lato_Nord_1.jpg"
+    },
+    "Hagia_Sophia": {
+      "title": "Hagia Sophia",
+      "lead": "Hagia Sophia, officially the Hagia Sophia Grand Mosque, is a mosque and a major cultural and historical site in Istanbul, Turkey. It was formerly a church (360–1453) and a museum (1935–2020). The last of three church buildings to be success",
+      "image": "Hagia_Sophia_(228968325).jpeg"
+    },
+    "Theodora_(wife_of_Justinian_I)": {
+      "title": "Theodora (wife of Justinian I)",
+      "lead": "Theodora (; Greek: Θεοδώρα; c. 490/500 – 28 June 548) was Eastern Roman empress and wife of emperor Justinian I. She was of humble origins and became empress when her husband became emperor in 527. Theodora was one of his chief political ad",
+      "image": "Theodora_mosaic_-_Basilica_San_Vitale_(Ravenna)_v2.jpg"
+    },
+    "Nika_riots": {
+      "title": "Nika riots",
+      "lead": "The Nika riots (Greek: Στάσις τοῦ Νίκα, romanized: Stásis toû Níka), Nika revolt or Nika sedition took place against Byzantine emperor Justinian I in Constantinople over the course of a week in 532 AD. They are often regarded as the most vi",
+      "image": "Turkey-03228_-_Hippodrome_of_Constantinople_(11312626353).jpg"
+    },
+    "Pontic%E2%80%93Caspian_steppe": {
+      "title": "Pontic–Caspian steppe",
+      "lead": "The Pontic–Caspian Steppe is a steppe extending across Eastern Europe to Central Asia, formed by the Caspian and Pontic steppes. It stretches from the northern shores of the Black Sea (the Pontus Euxinus of antiquity) to the northern area a",
+      "image": "Обитатели_Азово-Сивашского_заповедника_на_Бирючем_острове.jpg"
+    },
+    "Xiongnu": {
+      "title": "Xiongnu",
+      "lead": "The Xiongnu (Chinese: 匈奴; [ɕjʊ́ŋ.nǔ]) were a tribal confederation of nomadic peoples who, according to ancient Chinese sources, inhabited the eastern Eurasian Steppe from the 3rd century BC to the late 1st century AD. Modu Chanyu, the supre",
+      "image": ""
+    },
+    "Composite_bow": {
+      "title": "Composite bow",
+      "lead": "A composite bow is a bow made from many different materials. Composite bows can be made from any combination of horn, antler, bamboo, wood, or sinew. These materials are typically laminated together with glue. Materials such as horn or antl",
+      "image": "A_Manchu_Archer_Wellcome_L0040987.jpg"
+    },
+    "Greuthungi": {
+      "title": "Greuthungi",
+      "lead": "The Greuthungi (also spelled Greutungi) were a Gothic people who lived on the Pontic steppe between the Dniester and Don rivers in what is now Ukraine, in the 3rd and the 4th centuries. They had close contacts with the Tervingi, another Got",
+      "image": "Chernyakhov.PNG"
+    },
+    "Tervingi": {
+      "title": "Thervingi",
+      "lead": "The Thervingi, Tervingi, or Teruingi (sometimes pluralised Tervings or Thervings) were a Gothic people of the plains north of the Lower Danube and west of the Dniester River in the 3rd and the 4th centuries. They had close contacts with the",
+      "image": ""
+    },
+    "Valens": {
+      "title": "Valens",
+      "lead": "Valens (; Ancient Greek: Οὐάλης, romanized: Ouálēs; 328 – 9 August 378) was Roman emperor from 364 to 378. Following a largely unremarkable military career, he was named co-emperor by his elder brother Valentinian I, who gave him the easter",
+      "image": "INC-3015-a_Солид._Валент_II._Ок._364_г._(аверс).png"
+    },
+    "Danube": {
+      "title": "Danube",
+      "lead": "The Danube ( DAN-yoob; see also other names) is a river in Europe, the second-longest after the Volga in Russia. It flows through Central and Southeastern Europe, from the Black Forest of Germany south through the Danube Delta in Romania in",
+      "image": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg"
+    },
+    "Rhine": {
+      "title": "Rhine",
+      "lead": "The Rhine ( RYNE) is one of the major rivers of Europe. The river begins in the Swiss canton of Graubünden in the southeastern Swiss Alps. It forms part of the Swiss–Liechtenstein border, then part of the Swiss–Austrian border. From Lake Co",
+      "image": "Middle_Bridge,_Basel,_Switzerland.JPG"
+    },
+    "Ostrogoths": {
+      "title": "Ostrogoths",
+      "lead": "The Ostrogoths (Latin: Ostrogothi, Austrogothi) were a Roman-era Germanic people who, in the 5th and 6th centuries, established one of the two major Gothic kingdoms within the Western Roman Empire. They drew on large Gothic populations sett",
+      "image": "Tomb_of_Theodoric_the_Great_Ravenna_(cropped).jpg"
+    },
+    "Visigoths": {
+      "title": "Visigoths",
+      "lead": "The Visigoths (; Latin: Visigothi, Wisigothi, Vesi, Visi, Wesi, Wisi) were a Gothic people who emerged in the Balkans during late antiquity. Likely descended from the Thervingi who entered the Roman Empire in 376 and defeated the Romans at ",
+      "image": "Visigothic_-_Pair_of_Eagle_Fibula_-_Walters_54421,_54422_-_Group.jpg"
+    },
+    "Honorius_(emperor)": {
+      "title": "Honorius",
+      "lead": "Honorius (; 9 September 384 – 15 August 423) was Roman emperor from 393 to 423. He was the younger son of emperor Theodosius I and his first wife Aelia Flaccilla. After the death of Theodosius in 395, Honorius, under the regency of Stilicho",
+      "image": "Diptych_of_Honorius_(head)_(2).jpg"
+    },
+    "Suebi": {
+      "title": "Suebi",
+      "lead": "The Suebi (also spelled Suevi or Suavi) were a large group of Germanic peoples first reported by Julius Caesar in the 1st century BC. In different contexts over several centuries, peoples within this umbrella category were sometimes simply ",
+      "image": "Osterby_Man_Suebian-Knot.jpg"
+    },
+    "Jerome": {
+      "title": "Jerome",
+      "lead": "Jerome (; Latin: Eusebius Sophronius Hieronymus; Ancient Greek: Εὐσέβιος Σωφρόνιος Ἱερώνυμος; c. 342–347 – 30 September 420), also known as Jerome of Stridon, was an early Christian priest, confessor, theologian, translator, and historian; ",
+      "image": "MatthiasStom-SaintJerome-Nantes.jpg"
+    },
+    "Constantine_the_Great": {
+      "title": "Constantine the Great",
+      "lead": "Constantine I (27 February 272 – 22 May 337), also known as Constantine the Great, was Roman emperor from AD 306 to 337 and the first Roman emperor to convert to Christianity. He played a pivotal role in elevating the status of Christianity",
+      "image": "Statua_di_Costantino_ai_musei_capitolini.jpg"
+    },
+    "Gaul": {
+      "title": "Gaul",
+      "lead": "Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing present-day France, Belgium, Luxembourg, and parts of Switzerland, the Netherlands, Germany, and Northern Italy. It covered an area of 4",
+      "image": "Map_Gallia_Tribes_Towns-la.svg"
+    },
+    "Zosimus_(historian)": {
+      "title": "Zosimus (historian)",
+      "lead": "Zosimus (Ancient Greek: Ζώσιμος [ˈzosimos]; fl. 490s–510s) was a Proto-Rhomios historian who lived in Constantinople during the reign of the eastern Roman Emperor Anastasius I (491–518). According to Photius, he was a comes, and held the of",
+      "image": ""
+    },
+    "Civitas": {
+      "title": "Civitas",
+      "lead": "In Ancient Rome, a civitas (Latin pronunciation: [ˈkiːwɪtaːs]; plural civitates), sometimes translated as \"city\", was the social body of the cives, or citizens, united by their laws, which gave them responsibilities (Latin: munera) on the o",
+      "image": "Roman_military_diploma_Carnuntum_02.jpg"
+    },
+    "Burgundians": {
+      "title": "Burgundians",
+      "lead": "The Burgundians (Latin: Burgundiones or less commonly Burgundii) were a Germanic people of the Roman imperial era, who established the powerful Kingdom of the Burgundians within the Roman empire in what is now western Switzerland and south-",
+      "image": "Conquests_of_Clovis.png"
+    },
+    "Aquitaine": {
+      "title": "Aquitaine",
+      "lead": "Aquitaine (UK: , US: ; French: [akitɛn] ; Occitan: Aquitània [akiˈtanjɔ]; Basque: Akitania; Poitevin-Saintongeais: Aguiéne), archaic Guyenne or Guienne (Occitan: Guiana), is a historical region of southwestern France and a former administra",
+      "image": "Flag_of_Aquitaine.svg"
+    },
+    "Worms,_Germany": {
+      "title": "Worms, Germany",
+      "lead": "Worms (; German pronunciation: [vɔʁms] ) is a city in Rhineland-Palatinate, Germany, situated on the Upper Rhine about 60 km (40 mi) south-southwest of Frankfurt am Main. It had about 84,646 inhabitants as of 2022. A pre-Roman foundation, W",
+      "image": "Nibelungenbrücke_mit_Dom,_Rhein,_Rheinpromenade_und_Innenstadt_Worms.jpg"
+    },
+    "Nibelungenlied": {
+      "title": "Nibelungenlied",
+      "lead": "The Nibelungenlied (German pronunciation: [ˈniːbəlʊŋən-], [ˈnɪbəlʊŋən-] or [ˌniːbəˈlʊŋənˌliːt] ; Middle High German: Der Nibelunge liet or Der Nibelunge nôt), translated as The Song of the Nibelungs, is an epic poem written around 1200 in M",
+      "image": "Nibelungenlied_manuscript-c_f1r.jpg"
+    },
+    "Gallaecia": {
+      "title": "Gallaecia",
+      "lead": "Gallaecia, originally known as Callaecia, was the name of a Roman province in the northwest of Hispania, approximately present-day Galicia, northern Portugal, Asturias and León, and the later Suevic and medieval kingdom of Gallaecia. The Ro",
+      "image": ""
+    },
+    "Toulouse": {
+      "title": "Toulouse",
+      "lead": "Toulouse (, too-LOOZ, French: [tuluz] ; Occitan: Tolosa [tuˈluzɔ] ) is a city in Southern France, the prefecture of the Haute-Garonne department and of the Occitania region. The city is on the banks of the River Garonne, 150 kilometres (93 ",
+      "image": "Toulouse_-_vue_du_Vieux_Toulouse_depuis_St_Sernin_06.jpg"
+    },
+    "Iberian_Peninsula": {
+      "title": "Iberian Peninsula",
+      "lead": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Mostly separated from the rest of continental Europe by the Pyrenees, the Iberian Peninsula includes Peninsular Spain and Continental ",
+      "image": "España_y_Portugal.jpg"
+    },
+    "Rhone": {
+      "title": "Rhône",
+      "lead": "The Rhône ( ROHN, French: [ʁon] ; Occitan: Ròse; Arpitan: Rôno) is a major river in France and Switzerland, rising in the Alps and flowing west and south through Lake Geneva and Southeastern France before discharging into the Mediterranean ",
+      "image": "Vue_du_Rhône_depuis_le_Pont_Wilson_(Lyon),_mai_2019.jpg"
+    },
+    "Hispania": {
+      "title": "Hispania",
+      "lead": "Hispania was the Roman name for the Iberian Peninsula. Under the Roman Republic, it was divided into two provinces: Hispania Citerior and Hispania Ulterior. During the Roman Empire, under the Principate, Hispania Ulterior was subdivided int",
+      "image": "Conquista_Hispania.svg"
+    },
+    "Pyrenees": {
+      "title": "Pyrenees",
+      "lead": "The Pyrenees are a mountain range in southwestern Europe, straddling the France–Spain border. They extend nearly 500 kilometres (310 mi) from their union with the Cantabrian Mountains to Cap de Creus on the Mediterranean coast, reaching a m",
+      "image": "Central_pyrenees.jpg"
+    },
+    "Victor_of_Vita": {
+      "title": "Victor Vitensis",
+      "lead": "Victor Vitensis (or Victor of Vita; born circa 430) was an African bishop of the Province of Byzacena (called Vitensis from his See of Vita). His importance rests on his Historia persecutionis Africanae Provinciae, temporibus Genserici et H",
+      "image": ""
+    },
+    "Hippo_Regius": {
+      "title": "Hippo Regius",
+      "lead": "Hippo Regius (also known as Hippo or Hippone) is the ancient name of the modern city of Annaba, Algeria. It served as an important city for the Phoenicians, Berbers, Romans, and Vandals. Hippo was the capital city of the Vandal Kingdom from",
+      "image": "Hippo_Regius,_Africa_Proconsularis,_Algeria_-_52575435338.jpg"
+    },
+    "City_of_God_(book)": {
+      "title": "The City of God",
+      "lead": "On the City of God Against the Pagans (Latin: De civitate Dei contra paganos), often called The City of God, is a book of Christian philosophy written in Latin by Augustine of Hippo in the early 5th century AD. Augustine wrote the book to r",
+      "image": "City_of_God_Manuscript.jpg"
+    },
+    "Carthage": {
+      "title": "Carthage",
+      "lead": "Carthage (Arabic: قرطاج, ) was an ancient city in Northern Africa founded by the legendary queen Dido on the eastern side of the Lake of Tunis in what is now Tunisia. Carthage was one of the most important trading hubs of the Ancient Medite",
+      "image": "Montage_ville_de_Carthage.png"
+    },
+    "Strait_of_Gibraltar": {
+      "title": "Strait of Gibraltar",
+      "lead": "The Strait of Gibraltar, also known as the Straits of Gibraltar, is a narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates Europe from Africa. The two continents are separated by 7.7 nautical miles (14.2 kil",
+      "image": "STS059-238-074_Strait_of_Gibraltar.jpg"
+    },
+    "Africa_(Roman_province)": {
+      "title": "Africa (Roman province)",
+      "lead": "Africa was a Roman province on the northern coast of the continent of Africa. It was established in 146 BC, following the Roman Republic's conquest of Carthage in the Third Punic War. It roughly comprised the territory of present-day Tunisi",
+      "image": "Roman_Empire_-_Africa_Proconsularis_(125_AD).svg"
+    },
+    "Sardinia": {
+      "title": "Sardinia",
+      "lead": "Sardinia ( sar-DIN-ee-ə; Sardinian: Sardigna [saɾˈdiɲːa]; Italian: Sardegna [sarˈdeɲɲa] ), officially the Autonomous Region of Sardinia, is the second largest island in the Mediterranean Sea after Sicily, and one of the twenty regions of It",
+      "image": "Sardinia_in_Italy.svg"
+    },
+    "Sicily": {
+      "title": "Sicily",
+      "lead": "Sicily (Italian and Sicilian: Sicilia), officially the Sicilian Region, is an island in the central Mediterranean Sea and one of the twenty regions of Italy, situated south of the Italian Peninsula in continental Europe. With over 4.7 milli",
+      "image": "Sicily_in_Italy.svg"
+    },
+    "Ardaric": {
+      "title": "Ardaric",
+      "lead": "Ardaric (Latin: Ardaricus; fl. c. 450 AD) was the king of the Gepids, a Germanic tribe closely related to the Goths.",
+      "image": ""
+    },
+    "Aquileia": {
+      "title": "Aquileia",
+      "lead": "Aquileia is a comune (municipality) in the Friuli-Venezia Giulia region of northeastern Italy. It is situated at the head of the Adriatic at the edge of the lagoons, about 10 kilometres (6 mi) from the sea, on the river Natiso (modern Natis",
+      "image": "Basilica_Patriarcale_(Aquileia)_-_Exterior.jpg"
+    },
+    "Venice": {
+      "title": "Venice",
+      "lead": "Venice is a city in northeastern Italy and the capital of the region of Veneto. It is built on a group of 126 islands that are separated by expanses of open water and by canals; portions of the city are linked by 472 bridges. The islands ar",
+      "image": "Venezia_aerial_view.jpg"
+    },
+    "Champagne_(historical_province)": {
+      "title": "Champagne (province)",
+      "lead": "Champagne (French pronunciation: [ʃɑ̃paɲ] ) was a province in the northeast of the Kingdom of France, now best known as the Champagne wine region for the sparkling white wine that bears its name in modern-day France. The County of Champagne",
+      "image": "Flag_of_Champagne-Ardenne.svg"
+    },
+    "Balkans": {
+      "title": "Balkans",
+      "lead": "The Balkans ( BAWL-kənz, BOL-kənz), corresponding partially with the Balkan Peninsula, is a geographical area in southeastern Europe with various geographical and historical definitions. The region takes its name from the Balkan Mountains t",
+      "image": "Geographic_map_of_Balkan_Peninsula.svg"
+    },
+    "Great_Hungarian_Plain": {
+      "title": "Great Hungarian Plain",
+      "lead": "The Great Hungarian Plain (also known as Alföld or Great Alföld, Hungarian: Alföld [ˈɒlføld] or Nagy Alföld) is a plain occupying the majority of the modern territory of Hungary. It is the largest part of the wider Pannonian Plain (however,",
+      "image": "HU_region_1._Alföld.png"
+    },
+    "Jordanes": {
+      "title": "Jordanes",
+      "lead": "Jordanes (; Greek: Ιορδάνης), also written as Jordanis or Jornandes, was a 6th-century Eastern Roman bureaucrat, of Gothic descent, who became a historian later in life. He wrote two works, one on Roman history (Romana) and the other on the",
+      "image": ""
+    },
+    "Papal_supremacy": {
+      "title": "Papal supremacy",
+      "lead": "Papal supremacy is the doctrine of the Catholic Church that the pope, by reason of his office as vicar of Christ, the visible source and foundation of the unity both of the bishops and of the whole company of the faithful, and as priest of ",
+      "image": "Pope_Pius_IX_at_the_First_Vatican_Council_(cropped).jpg"
+    },
+    "Mincio": {
+      "title": "Mincio",
+      "lead": "The Mincio (Italian: [ˈmintʃo]; Lombard: Mens; Venetian: Menzo; Latin: Mincius; Ancient Greek: Μίγχιος, romanized: Mínchios) is a river in the Lombardy region of northern Italy. The river is the main outlet of Lake Garda. It is a part of th",
+      "image": "Mincio_a_Peschiera.jpg"
+    },
+    "Syagrius": {
+      "title": "Syagrius",
+      "lead": "Syagrius (c. 430 – 486 or 487 or 493–4) was a Roman general and the last ruler of a Western Roman rump state in northern Gaul, now called the Kingdom of Soissons. Gregory of Tours referred to him as King of the Romans. Syagrius's defeat by ",
+      "image": ""
+    },
+    "Scirian": {
+      "title": "Sciri",
+      "lead": "The Sciri, or Scirians, were a Germanic people, who were first mentioned in the late 3rd century BC as participants in a raid on the city of Olbia near modern-day Odesa. Along with the Bastarnae, who are much more frequently mentioned, they",
+      "image": "Odovacar_Ravenna_477.jpg"
+    },
+    "Dalmatia": {
+      "title": "Dalmatia",
+      "lead": "Dalmatia ( ; Croatian: Dalmacija [dǎlmatsija]; Italian: Dalmazia [dal'mattsja]) is a historical region located in modern-day Croatia and Montenegro, on the eastern shore of the Adriatic Sea. It is a narrow land belt stretching from the isla",
+      "image": "Dalmatia_(Kotor).svg"
+    },
+    "Campania": {
+      "title": "Campania",
+      "lead": "Campania is an administrative region of Italy, located in the south of the country; most of it is in the southwestern portion of the Italian Peninsula (with the Tyrrhenian Sea to its west), but it also includes the small Phlegraean Islands ",
+      "image": "Campania_in_Italy.svg"
+    },
+    "Edward_Gibbon": {
+      "title": "Edward Gibbon",
+      "lead": "Edward Gibbon (; 8 May 1737 – 16 January 1794) was a British essayist, historian and minor politician. His most important and influential work, The History of the Decline and Fall of the Roman Empire, was published in six volumes between 17",
+      "image": "Edward_Emily_Gibbon.jpg"
+    },
+    "Constantinople": {
+      "title": "Constantinople",
+      "lead": "Constantinople (see other names) was a historical city located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopolis in Bithynia, Anatolia (Asia Minor) to th",
+      "image": "Byzantine_Constantinople-en.png"
+    },
+    "Franks": {
+      "title": "Franks",
+      "lead": "The Franks (Latin: Franci or gens Francorum) were a northern European group of peoples who first appeared in the third century AD as a new name for the Germanic tribes living near the lower stretches of the Rhine River military border of th",
+      "image": "Germania_inferior_roads_towns.png"
+    },
+    "Merovingian_dynasty": {
+      "title": "Merovingian dynasty",
+      "lead": "The Merovingian dynasty () was the ruling family of the Franks from around the middle of the 5th century until Pepin the Short in 751. They first appear as \"Kings of the Franks\" in the Roman army of northern Gaul. By 509 they had united all",
+      "image": "Merovingian_dynasty-1.jpg"
+    },
+    "Charlemagne": {
+      "title": "Charlemagne",
+      "lead": "Charlemagne ( SHAR-lə-mayn; 2 April 748 – 28 January 814) was King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800. He united most of Western and Central Europe and ",
+      "image": "Charlemagne_denier_Mayence_812_814.jpg"
+    },
+    "Alemanni": {
+      "title": "Alemanni",
+      "lead": "The Alemanni or Alamanni were a confederation of Germanic tribes on the Upper Rhine River during the 1st millennium. They are first mentioned by Cassius Dio in the context of the campaign of Roman emperor Caracalla of 213 AD, the Alemanni c",
+      "image": "Alemanni_expansion.png"
+    },
+    "Gregory_of_Tours": {
+      "title": "Gregory of Tours",
+      "lead": "Gregory of Tours (born Georgius Florentius; 30 November c. 538 – 17 November 594 AD) was a Gallo-Roman historian and Bishop of Tours during the Merovingian period and is known as the \"father of French history\". Gregory's most notable work i",
+      "image": "Gregory_of_Tours_cour_Napoleon_Louvre.jpg"
+    },
+    "First_Council_of_Nicaea": {
+      "title": "First Council of Nicaea",
+      "lead": "The First Council of Nicaea was a council of Christian bishops convened in the Bithynian city of Nicaea (now İznik, Turkey) by the Roman Emperor Constantine I, also known as the First Ecumenical Council. It met from May until the end of Jul",
+      "image": "Μιχαήλ_Δαμασκηνός_-_Α΄_Οικουμενική_Σύνοδος_7741.jpg"
+    },
+    "Alaric_II": {
+      "title": "Alaric II",
+      "lead": "Alaric II (Gothic: 𐌰𐌻𐌰𐍂𐌴𐌹𐌺𐍃, Alareiks, 'ruler of all'; Latin: Alaricus; c. 458/466 – August 507) was the King of the Visigoths from 484 until 507. He succeeded his father Euric as King of the Visigoths in Toulouse on 28 December 484",
+      "image": "Anneau_sigillaire_Alaric_II.jpg"
+    },
+    "Reccared_I": {
+      "title": "Reccared I",
+      "lead": "Reccared I (or Recared; Latin: Flavius Reccaredus; Spanish: Flavio Recaredo; c. 559 – December 601; reigned 586–601) was the king of the Visigoths, ruling in Hispania, Gallaecia and Septimania. His reign marked a climactic shift in history,",
+      "image": "Recaredo_Tremis_Ispali.jpg"
+    },
+    "The_Consolation_of_Philosophy": {
+      "title": "On the Consolation of Philosophy",
+      "lead": "On the Consolation of Philosophy (Latin: De consolatione philosophiae), often titled as The Consolation of Philosophy or simply the Consolation, is a philosophical work by the Roman philosopher and Christian theologian Boethius. Written in ",
+      "image": "Boethius,_Consolatio_philosophiae_(French).jpg"
+    },
+    "Hundred_Years%27_War": {
+      "title": "Hundred Years' War",
+      "lead": "The Hundred Years' War (French: Guerre de Cent Ans; 1337–1453 [116 years]) was a conflict between the kingdoms of England and France and a civil war in France during the late Middle Ages. It emerged from feudal disputes over the Duchy of Aq",
+      "image": "Schlacht_von_Azincourt.jpg"
+    },
+    "Battle_of_Vouille": {
+      "title": "Battle of Vouillé",
+      "lead": "The Battle of Vouillé (from Latin Campus Vogladensis) was a battle in the Franco-Gothic War and was fought in the northern marches of Visigothic territory, at Vouillé, near Poitiers (Gaul), around spring 507 between the Franks, commanded by",
+      "image": "Clovis_tue_Alaric_II.jpg"
+    },
+    "Procopius": {
+      "title": "Procopius",
+      "lead": "Procopius of Caesarea (; Ancient Greek: Προκόπιος ὁ Καισαρεύς Prokópios ho Kaisareús; Latin: Procopius Caesariensis; c. 500 – 565) was a prominent Byzantine Greek scholar and historian from Caesarea Maritima. Accompanying the Byzantine gene",
+      "image": ""
+    },
+    "Totila": {
+      "title": "Totila",
+      "lead": "Totila, original name Baduila (died 1 July 552), was the penultimate King of the Ostrogoths, reigning from 541 to 552. A skilled military and political leader, Totila reversed the tide of the Gothic War, recovering by 543 almost all the ter",
+      "image": "Tremissis_of_Baduila.jpg"
+    },
+    "Gelimer": {
+      "title": "Gelimer",
+      "lead": "Gelimer (original form possibly Geilamir, c. 480–553 AD), was a Germanic king who ruled the Vandal Kingdom in North Africa during classical antiquity from 530 to 534 AD. He became ruler on 15 June 530 AD after deposing his first cousin twic",
+      "image": "Münze_50_Denari_-_Gelimer_-_König_der_Vandalen_(cropped).jpg"
+    },
+    "Renovatio_imperii": {
+      "title": "Renovatio imperii Romanorum",
+      "lead": "Renovatio imperii Romanorum (\"renewal of the empire of the Romans\") was a formula declaring an intention to restore or revive the Roman Empire. The formula (and variations) was used by several emperors of the Carolingian and Ottonian dynast",
+      "image": "Silver_denarius_of_Carausius_RIC_571_(FindID_854967).jpg"
+    },
+    "Caesarea_Maritima": {
+      "title": "Caesarea Maritima",
+      "lead": "Caesarea (), also Caesarea Maritima, Caesarea Palaestinae or Caesarea Stratonis, was an ancient and medieval port city on the coast of the eastern Mediterranean, and later a small fishing village. It was the capital of Roman Judaea, Syria P",
+      "image": "Caesarea.JPG"
+    },
+    "Yersinia_pestis": {
+      "title": "Yersinia pestis",
+      "lead": "Yersinia pestis (Y. pestis; formerly Pasteurella pestis) is a gram-negative, non-motile, coccobacillus bacterium without spores. It is related to pathogens Yersinia enterocolitica, and Yersinia pseudotuberculosis, from which it evolved. Yer",
+      "image": "Yersinia_pestis.jpg"
+    },
+    "Black_Death": {
+      "title": "Black Death",
+      "lead": "The Black Death was a plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most fatal pandemics in human history; as many as 50 million people died, perhaps 50% of Europe's 14th-century population. The disease is cau",
+      "image": "1346-1353_spread_of_the_Black_Death_in_Europe_map.svg"
+    },
+    "Pavia": {
+      "title": "Pavia",
+      "lead": "Pavia (UK: PAH-vee-ə, US: pə-VEE-ə; Italian: [paˈviːa] ) is a town and comune in south-western Lombardy, Northern Italy, 35 kilometres (22 miles) south of Milan on the lower Ticino near its confluence with the Po. It has a population of abo",
+      "image": "20160807-Pavia-002.jpg"
+    },
+    "Po_Valley": {
+      "title": "Po Valley",
+      "lead": "The Po Valley, Po Plain, Plain of the Po, or Padan Plain (Italian: Pianura Padana, pronounced [pjaˈnuːra paˈdaːna], or Val Padana) is a major geographical feature of northern Italy. It extends approximately 650 km (400 mi) in an east-west d",
+      "image": "Pia_padana.jpg"
+    },
+    "Gepids": {
+      "title": "Gepids",
+      "lead": "The Gepids (Latin: Gepidae, Gipedae; Ancient Greek: Γήπαιδες, romanized: Gḗpaides) were an East Germanic tribe who lived in the area of modern Romania, Hungary, and Serbia, roughly between the Tisza, Sava, and Carpathian Mountains. They wer",
+      "image": "Europe_and_the_Near_East_at_476_AD.png"
+    },
+    "Exarchate_of_Ravenna": {
+      "title": "Exarchate of Ravenna",
+      "lead": "The Exarchate of Ravenna (Latin: Exarchatus Ravennatis; Greek: Ἐξαρχᾶτον τῆς Ῥαβέννης, romanized: Exarcháton tís Ravénis), also known as the Exarchate of Italy, was an exarchate (administrative district) of the Eastern Roman Empire comprisi",
+      "image": "Exarchate_of_Italy_-_600_AD.png"
+    },
+    "Stratosphere": {
+      "title": "Stratosphere",
+      "lead": "The stratosphere is the second-lowest layer of the atmosphere of Earth, located above the troposphere and below the mesosphere. Pronounced , the name originates from Ancient Greek στρωτός (strōtós) 'layer, stratum' and -sphere. The stratosp",
+      "image": "ISS-46_Soyuz_TMA-17M_reentry.jpg"
+    },
+    "Bubo": {
+      "title": "Bubo",
+      "lead": "A bubo (Greek βουβών, boubṓn, 'groin') is adenitis or inflammation of the lymph nodes and is an example of reactive infectious lymphadenopathy.",
+      "image": "Plague_-buboes.jpg"
+    }
+  }
+}

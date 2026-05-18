@@ -1,0 +1,551 @@
+{
+  "events": {
+    "Greater_India": {
+      "title": "Greater India",
+      "lead": "Greater India, also known as the Indian cultural sphere, the Indic world, or the Hindu Cultural Sphere is an area composed of several countries and regions in South Asia, East Asia and Southeast Asia that were historically influenced by Ind",
+      "image": "Indian_cultural_zone.svg"
+    },
+    "Shailendra_dynasty": {
+      "title": "Shailendra dynasty",
+      "lead": "The Shailendra dynasty (IAST: Śailēndra, Indonesian pronunciation: [ʃaɪlenˈdraː] derived from Sanskrit combined words Śaila and Indra, meaning \"King of the Mountain\", also spelled Sailendra, Syailendra or Selendra) was the name of a notable",
+      "image": "Sailendra_King_and_Queen,_Borobudur.jpg"
+    },
+    "Mataram_Kingdom": {
+      "title": "Mataram kingdom",
+      "lead": "The Mataram kingdom (, Javanese: ꦩꦠꦫꦩ꧀, Javanese pronunciation: [mətaram]); also known as Medang kingdom was a Javanese Hindu-Buddhist kingdom that flourished between the 8th and 11th centuries. It was based in Central Java, and later in Ea",
+      "image": "Mataram_Kingdom_en.svg"
+    },
+    "Borobudur": {
+      "title": "Borobudur",
+      "lead": "Borobudur, also transcribed Barabudur (Indonesian: Candi Borobudur, Javanese: ꦕꦤ꧀ꦝꦶꦧꦫꦧꦸꦝꦸꦂ, romanized: Candhi Barabudhur), is a 9th-century Mahayana Buddhist temple in Magelang Regency, near the town of Muntilan, northwest of the city of Yo",
+      "image": "Pradaksina.jpg"
+    },
+    "Prambanan": {
+      "title": "Prambanan",
+      "lead": "Prambanan (Indonesian: Candi Prambanan, Javanese: Rara Jonggrang, Hanacaraka: ꦫꦫꦗꦺꦴꦁꦒꦿꦁ) is a 9th-century Hindu temple compound in the Special Region of Yogyakarta, in southern Java, Indonesia, dedicated to the Trimūrti, the expression of G",
+      "image": "Prambanan_Temple_Yogyakarta_Indonesia.jpg"
+    },
+    "Mpu_Sindok": {
+      "title": "Mpu Sindok",
+      "lead": "Śrī Mahārāja Rake Halu Dyaḥ Siṇḍok Śrī Īśānawikrama Dharmottuṅgadewawijaya (also known as Dyah Sindok, Mpu Sindok or Sindok) was the last king of the Sanjaya dynasty who ruled the Kingdom of Mataram from Central Java, reigned from around 92",
+      "image": ""
+    },
+    "Mount_Merapi": {
+      "title": "Mount Merapi",
+      "lead": "Mount Merapi (Indonesian: Gunung Merapi; Javanese: ꦒꦸꦤꦸꦁ​ꦩꦼꦫꦥꦶ, romanized: gunung měrapi, lit. 'Fire Mountain') is an active stratovolcano located on the border between the province of Central Java and the Special Region of Yogyakarta, Indo",
+      "image": "Pendidikan_Karakter_Dan_Nasionalisme.jpg"
+    },
+    "Brantas_River": {
+      "title": "Brantas River",
+      "lead": "The Brantas is the longest river in East Java, Indonesia. It has a length of 320 km, and drains an area of over 11,000 km2 from the southern slope of Mount Kawi-Kelud-Butak, Mount Wilis, and the northern slopes of Mount Liman-Limas, Mount W",
+      "image": "Brantas_River_in_Minggiran,_East_Java.jpg"
+    },
+    "Kingdom_of_Kediri": {
+      "title": "Kediri kingdom",
+      "lead": "Kediri Kingdom or Kadiri, also known as Panjalu, was a Hindu-Buddhist Javanese kingdom based in East Java from 1042 until 1222 (1292–1293 under Jayakatwang). This kingdom is centered in the ancient city Dahanapura, despite the lack of archa",
+      "image": "Southeast_Asia_trade_route_map_XIIcentury.jpg"
+    },
+    "Kakawin": {
+      "title": "Kakawin",
+      "lead": "Kakawin are long narrative poems composed in Old Javanese, also called \"Kawi\", written in verse form with rhythms and meters derived from Sanskrit literature. Poets used a formalized literary language, rather than the vernacular. Poets comp",
+      "image": ""
+    },
+    "Ken_Arok": {
+      "title": "Ken Arok",
+      "lead": "Ken Arok (or Ken Angrok) (Kawi script: 𑼒𑼾𑼥𑽁𑼄𑼖𑽂𑼔𑽂𑼬𑼾𑼴𑼒𑽁) (Javanese script: ꦏꦺꦤ꧀ꦄꦁꦫꦺꦴꦏ꧀), Rajasa (died c. 1227), was the founder and first ruler of Singhasari (also spelled Singosari), a medieval Indianized Hindu–Buddhist kingdom",
+      "image": "Bali-lontar-Tojan-Kénangrok.jpg"
+    },
+    "Singhasari": {
+      "title": "Singhasari",
+      "lead": "Singhasari (Javanese: ꦏꦫꦠꦺꦴꦤ꧀ꦱꦶꦔ꧀ꦲꦱꦫꦶ, romanized: Karaton Singhasari or Karaton Singosari, Indonesian: Kerajaan Singasari), also known as Tumapel, was a Javanese Hindu-Buddhist kingdom located in east Java between 1222 and 1292. The kingdom",
+      "image": "Singhasari_Kingdom_en.svg"
+    },
+    "Wisnuwardhana": {
+      "title": "Wisnuwardhana",
+      "lead": "Wisnuwardhana, also known as Jayawisnuwardhana (died in Singhasari, 1270/1272), alias Nararya Seminingrat, was king of Tumapel from 1248 until his death in 1268 under the regnal title: Śrī Jayawisnuwarddhana Sang Mapāñji Seminingrat Śrī Sak",
+      "image": "013_King_Wisnuwardhana_(38617993410).jpg"
+    },
+    "Kertanegara_of_Singhasari": {
+      "title": "Kertanagara",
+      "lead": "Sri Maharajadiraja Sri Kertanagara Wikrama Dharmatunggadewa, Kritanagara, or Sivabuddha (died 1292), alias Nararya Murdhaja, was the last and most important ruler of the Singhasari kingdom of Java, reigning from 1268 to 1292. Under his rule",
+      "image": "063_Main_Statue,_Joko_Dolog_(39706345204).jpg"
+    },
+    "Pamalayu_expedition": {
+      "title": "Pamalayu",
+      "lead": "The Pamalayu campaign was a diplomatic and military expeditionary force sent by the Javanese King Kertanegara of Singhasari to conquer the Sumatran Melayu Kingdom. It was decreed in 1275, though perhaps not undertaken until later. Little is",
+      "image": "Amoghapasa_Padang_Roco_Inscription_Front.JPG"
+    },
+    "Srivijaya": {
+      "title": "Srivijaya",
+      "lead": "Srivijaya, also spelled Sri Vijaya or Sriwijaya, was a Malay thalassocratic empire based on the island of Sumatra (in modern-day Indonesia) that influenced much of Southeast Asia. Srivijaya was an important centre for the expansion of Buddh",
+      "image": "Srivijaya_Empire.svg"
+    },
+    "Kublai_Khan": {
+      "title": "Kublai Khan",
+      "lead": "Kublai Khan (23 September 1215 – 18 February 1294), also known by his temple name as the Emperor Shizu of Yuan and his regnal name Setsen Khan, was the founder and first emperor of the Mongol-led Yuan dynasty of China. He proclaimed the dyn",
+      "image": "YuanEmperorAlbumKhubilaiPortrait.jpg"
+    },
+    "Mongol_invasion_of_Java": {
+      "title": "Mongol invasion of Java",
+      "lead": "The Yuan dynasty under Kublai Khan attempted in 1293 to invade Java, an island in modern Indonesia, with 20,000 to 30,000 soldiers. This was intended as a punitive expedition against Kertanegara of Singhasari, who had refused to pay tribute",
+      "image": "Mongol_invasion_of_java_(map).png"
+    },
+    "Jayakatwang": {
+      "title": "Jayakatwang",
+      "lead": "Jayakatwang (died May 1293) was the king of short-lived second Kingdom of Kediri (also known as Gelang-Gelang Kingdom) of Java, after his overthrow of Kertanegara, the last king of Singhasari. He was eventually defeated by Raden Wijaya, Ker",
+      "image": ""
+    },
+    "Raden_Wijaya": {
+      "title": "Raden Wijaya",
+      "lead": "Raden Wijaya (Rāden Wijaya, also spelt Vijaya) alias Nararya Sangramawijaya (Regnal name Kertarajasa Jayawardhana) was a Javanese prince and the founder of the Majapahit Empire, which ruled Java and much of the Nusantara spanning both Asia ",
+      "image": "Harihara_Majapahit_1.JPG"
+    },
+    "Majapahit": {
+      "title": "Majapahit",
+      "lead": "Majapahit (Javanese: ꦩꦗꦥꦲꦶꦠ꧀, romanized: Måjåpahit; Javanese pronunciation: [mɔd͡ʒɔpaɪt] (eastern and central dialect) or [mad͡ʒapaɪt] (western dialect)), also known as Wilwatikta (Javanese: ꦮꦶꦭ꧀ꦮꦠꦶꦏ꧀ꦠ; Javanese pronunciation: [wɪlwatɪkta],",
+      "image": "Naval_flag_of_Majapahit_Kingdom.svg"
+    },
+    "Trowulan": {
+      "title": "Trowulan",
+      "lead": "Trowulan is an archaeological site in Trowulan Subdistrict, Mojokerto Regency, in the Indonesian province of East Java. It includes approximately 100 square kilometres and has been theorized to be the site of the eponymous capital city of t",
+      "image": "Eksotika_Candi_Bajang_Ratu.jpg"
+    },
+    "Gayatri_Rajapatni": {
+      "title": "Gayatri Rajapatni",
+      "lead": "Gayatri Rajapatni (c.1276—1350) was the queen consort of Majapahit's founder and first king Kertarajasa Jayawardhana, and also the mother of Tribhuwana Wijayatunggadewi, the queen regnant of Majapahit. A devout Buddhist, she was the younges",
+      "image": "Prajnaparamita_Java_Side_Detail.JPG"
+    },
+    "Pararaton": {
+      "title": "Pararaton",
+      "lead": "The Pararaton (Book of Kings), also known as the Katuturanira Ken Angrok (Story of Ken Angrok), is a 16th-century Javanese historical chronicle written in Kawi (Old Javanese). The comparatively short text of 32 folio-size pages (1126 lines)",
+      "image": "COLLECTIE_TROPENMUSEUM_Beeld_van_Dewi_Sri_de_rijstgodin_TMnr_60016918.jpg"
+    },
+    "Jayanegara": {
+      "title": "Jayanegara",
+      "lead": "Jayanegara or Jayanagara (formal regnal name Sri Maharaja Wiralandagopala Sri Sundarapandya Dewa Adhiswara or Sri Sundarapandyadevadhisvara Vikramottungadeva, also known as Kala Gemet) was a Javanese emperor and the second monarch of the Ma",
+      "image": ""
+    },
+    "Fela_Kuti": {
+      "title": "Fela Kuti",
+      "lead": "Fela Aníkúlápó Kútì (Yoruba: [fɛ̄lá āníkúlák͡pó kútì] born Olufela Olusegun Oludotun Ransome-Kuti; 15 October 1938 – 2 August 1997) was a Nigerian musician and political activist. He is regarded as the principal innovator of Afrobeat, a Nig",
+      "image": "Fela_Kuti_circa_1986.jpg"
+    },
+    "Gajah_Mada": {
+      "title": "Gajah Mada",
+      "lead": "Gajah Mada (c. 1290 – c. 1364), also known as Jirnnodhara, was a powerful military leader and mahapatih of the Javanese empire of Majapahit during the 14th century. He is credited in Old Javanese manuscripts, poems, and inscriptions with br",
+      "image": "Gajah_Mada_in_Relief_of_Indonesian_History,_Monas.JPG"
+    },
+    "Tribhuwana_Wijayatunggadewi": {
+      "title": "Tribhuwana Wijayatunggadewi",
+      "lead": "Tribhuwana Wijayatunggadewi, known in her regnal name Tribhuwannottunggadewi Jayawishnuwardhani, also known as Dyah Gitarja or Gitarja, was a Javanese queen regnant/empress and the third Majapahit monarch, reigning from 1328 to 1350. She al",
+      "image": "Parvati_Majapahit_1.JPG"
+    },
+    "Palapa_oath": {
+      "title": "Palapa oath",
+      "lead": "The Palapa oath (Indonesian: Sumpah Palapa) was an oath taken by Gajah Mada, a 14th-century Prime Minister of the Javanese Majapahit Empire described in the Pararaton (Book of Kings). In the oath, Gajah Mada swore that he would not rest as ",
+      "image": "Relief_of_Indonesian_History,_Monas.JPG"
+    },
+    "Nusantara_(term)": {
+      "title": "Nusantara (term)",
+      "lead": "Nusantara is the Indonesian name of Maritime Southeast Asia (or parts of it). It is an Old Javanese term that literally means \"outer islands\". In Indonesia, it is generally taken to mean the Indonesian Archipelago. Outside of Indonesia, the",
+      "image": "Indonesian_Archipelago_and_Students.JPG"
+    },
+    "Bali_Kingdom": {
+      "title": "Bali Kingdom",
+      "lead": "The Bali Kingdom (Balinese: ᭚ᬓᭂᬭᬚ᭡ᬦ᭄ᬩᬮᬶ, romanized: Kĕrajaan Bali) was a series of Hindu-Buddhist kingdoms that once ruled some parts of the volcanic island of Bali, in Lesser Sunda Islands, Indonesia. With a history of native Balinese king",
+      "image": "Old_Flag_of_Bali.svg"
+    },
+    "Kingdom_of_Singapura": {
+      "title": "Kingdom of Singapura",
+      "lead": "The Kingdom of Singapura (Malay: Kerajaan Singapura) was a Malay polity believed to have been founded as a Hindu–Buddhist kingdom during the early history of Singapore on the island of Temasek, lasting from 1299 until its decline and fall b",
+      "image": "Part_of_Singapore_Island_(British_Library_India_Office_Records,_1825,_detail).jpg"
+    },
+    "Battle_of_Bubat": {
+      "title": "Battle of Bubat",
+      "lead": "The Battle of Bubat, also known as Pasunda Bubat, is the battle between the Sundanese royal family and the Majapahit army that took place in Bubat Square on the northern part of Trowulan (Majapahit capital city) in 1279 Saka or 1357 CE.",
+      "image": "Bubat_war_statue.jpg"
+    },
+    "Dyah_Pitaloka_Citraresmi": {
+      "title": "Dyah Pitaloka Citraresmi",
+      "lead": "Dyah Pitaloka Citraresmi or Citra Rashmi (1340–1357), was the princess of the United Sunda Kingdom and Galuh Kingdom in Western Java. According to the Pararaton or Book of Kings, she was supposed to marry Hayam Wuruk, the new young king of ",
+      "image": "Bubat_war_statue.jpg"
+    },
+    "Kidung_Sunda": {
+      "title": "Kidung Sunda",
+      "lead": "Kidung Sunda is a Middle-Javanese kidung of probable Balinese provenance. In this poem, the story of King Hayam Wuruk of Majapahit who was looking for a bride-to-be, is narrated. At last, he chose the princess of Sunda, a kingdom in West Ja",
+      "image": "Bali-lontar-kidung-sunda-400ppi.pdf"
+    },
+    "Hayam_Wuruk": {
+      "title": "Hayam Wuruk",
+      "lead": "Hayam Vuruk (Indonesian: Hayam Wuruk; Sanskrit: हयम् वुरुक्; Javanese: ꦲꦪꦩ꧀ꦮꦸꦫꦸꦏ꧀) (1334–1389), also called Rajasanagara, Pa-ta-na-pa-na-wu, or Bhatara Prabhu after 1350, was a Javanese Hindu emperor from the Rajasa dynasty and the 4th empe",
+      "image": ""
+    },
+    "Nagarakretagama": {
+      "title": "Nagarakretagama",
+      "lead": "The Nagarakretagama or Nagarakṛtāgama (Sanskrit: नगरकृतगाम, lit. 'the advanced city'), also known in Bali as Desawarnana or Deśavarṇana (Sanskrit: देशवर्णन, lit. 'country's description'), is an Old Javanese eulogy to Hayam Wuruk, a Javanese",
+      "image": "COLLECTIE_TROPENMUSEUM_Beeld_van_Dewi_Sri_de_rijstgodin_TMnr_60016918.jpg"
+    },
+    "Prapanca": {
+      "title": "Conceptual proliferation",
+      "lead": "In Buddhism and Advaita Vedanta, conceptual proliferation (Pāli: papañca; Sanskrit: prapañca) or, alternatively, mental proliferation or conceptual elaboration, refers to unbounded conceptualization, \"tend[ing] to obscure the true state of ",
+      "image": ""
+    },
+    "Candi_bentar": {
+      "title": "Candi bentar",
+      "lead": "Candi bentar, or split gateway, is a classical Javanese and Balinese gateway entrance commonly found at the entrance of religious compounds, palaces, or cemeteries in Indonesia. It is a candi-like structure split perfectly in two to create ",
+      "image": "Pura_Lempuyang_Luhur,_Gunung_Lempuyang,_Bali_(492079834).jpg"
+    },
+    "Devaraja": {
+      "title": "Devaraja",
+      "lead": "Devaraja (Sanskrit: देवराज, romanized: Devarāja) was the religious and political concept of the \"god-king\" or deified monarch in ancient and medieval India and Southeast Asia. The concept of the devaraja developed from both Hinduism and oth",
+      "image": "Harihara_Majapahit_1.JPG"
+    },
+    "Kakawin_Sutasoma": {
+      "title": "Kakawin Sutasoma",
+      "lead": "Kakawin Sutasoma is an Old Javanese poem in poetic meters (kakawin or kavya), based on Mahasutasoma Jataka. It is the source of the motto of Indonesia, Bhinneka Tunggal Ika, which is usually translated as Unity in Diversity, although it mea",
+      "image": "COLLECTIE_TROPENMUSEUM_Beeld_van_Dewi_Sri_de_rijstgodin_TMnr_60016918.jpg"
+    },
+    "Bhinneka_Tunggal_Ika": {
+      "title": "Bhinneka Tunggal Ika",
+      "lead": "Bhinneka Tunggal Ika is the official national motto of Indonesia. It is inscribed in the national emblem of Indonesia, the Garuda Pancasila, written on the scroll gripped by the Garuda's claws. The phrase comes from Old Javanese, meaning \"U",
+      "image": "National_emblem_of_Indonesia_Garuda_Pancasila.svg"
+    },
+    "Surya_Majapahit": {
+      "title": "Surya Majapahit",
+      "lead": "Surya Majapahit (Kawi: ꦱꦸꦂꦪꦩꦙꦭꦲꦶꦡ꧀, Sanskrit: मजपहितस्य सूर्य) (Surya of the Majapahit) is the emblem commonly found in ruins dated from the Majapahit era. The emblem commonly took the form of an eight-pointed sun ray with the rounded part ",
+      "image": "Surya_Majapahit_Diagram.svg"
+    },
+    "Mandala_(political_model)": {
+      "title": "Mandala (political model)",
+      "lead": "The term mandala (Sanskrit: मंडल, romanized: maṇḍala, lit. 'circle') is used to describe a model of decentralized political systems in the early historical era of medieval Southeast Asia. At that time, authority radiated from a core centre ",
+      "image": "Southeast_Asian_Historical_Mandalas.svg"
+    },
+    "Maluku_Islands": {
+      "title": "Maluku Islands",
+      "lead": "The Maluku Islands ( mə-LUU-koo, -⁠LOO-; Indonesian: Kepulauan Maluku, IPA: [kəpuˈlawan maˈluku]) or the Moluccas ( mə-LUK-əz; Dutch: Molukken [ˌmoːˈlʏkə(n)]) are an archipelago in the eastern part of Indonesia. Tectonically they are locate",
+      "image": "Maluku_Islands_en.png"
+    },
+    "Tuban": {
+      "title": "Tuban",
+      "lead": "Tuban is a town located on the north coast of Java, in Tuban Regency (of which the town is the administrative capital), approximately 100 km (62 mi) west of Surabaya, the capital of East Java. Tuban Regency is surrounded by Lamongan Regency",
+      "image": "Masjid_Al-Ikhlas_Desa_Sekaran,_Jatirogo,_Tuban_Setyo_Irman_Faurachmad.jpg"
+    },
+    "Kepeng": {
+      "title": "Cash coins in Indonesia",
+      "lead": "The cash coins of Indonesia (Indonesian: Kepeng; Balinese: Pis Bolong; Javanese: Picis, Pitjis, or Gobog) was a historical currency in Indonesia based on Chinese imperial coinage during the Tang dynasty era (dynasty based in Mainland China)",
+      "image": "Indonesian_bulk_strings_of_cash_coins_-_Scott_Semans.jpg"
+    },
+    "Wang_Dayuan": {
+      "title": "Wang Dayuan",
+      "lead": "Wang Dayuan (Chinese: 汪大淵; pinyin: Wāng Dàyuān, fl. 1311–1350), courtesy name Huanzhang (Chinese: 煥章; pinyin: Huànzhāng), was a Chinese traveller from Jiangxi in the 14th century. He is known for his two major ship voyages. Wang Dayuan was ",
+      "image": ""
+    },
+    "Wikramawardhana": {
+      "title": "Vikramavardhana",
+      "lead": "Vikramavardhana (Javanese: ꦮꦶꦑꦿꦩꦮꦂꦝꦟ, romanized: Wikramawardhana), often known by his regnal name Bhra Hyang Wisesa was a Javanese emperor and succeeded Hayam Wuruk as the fifth monarch of the Majapahit, reigning from 1389 to 1429.",
+      "image": ""
+    },
+    "Regreg_War": {
+      "title": "Regreg War",
+      "lead": "The Regreg War (often erroneously called the Paregreg) was a civil war that took place in 1404–1406 within the Javanese empire of Majapahit. The conflict was fought as a war of independence between the Kedhaton Kulon (Western court) led by ",
+      "image": ""
+    },
+    "Paregreg_war": {
+      "title": "Regreg War",
+      "lead": "The Regreg War (often erroneously called the Paregreg) was a civil war that took place in 1404–1406 within the Javanese empire of Majapahit. The conflict was fought as a war of independence between the Kedhaton Kulon (Western court) led by ",
+      "image": ""
+    },
+    "Suhita": {
+      "title": "Suhita",
+      "lead": "Suhita or Soheeta (died 1447), was a Javanese queen regnant and the sixth monarch of the Majapahit empire, ruling from 1429 to 1447.",
+      "image": "Suhita.jpg"
+    },
+    "Kertawijaya": {
+      "title": "Kertawijaya",
+      "lead": "Kertawijaya or Dyah Kertawijaya was the seventh monarch of Majapahit reigning from 1447 to 1451 by the regnal name Sri Maharaja Wijayaparakramawardhana.",
+      "image": ""
+    },
+    "Ming_treasure_voyages": {
+      "title": "Ming treasure voyages",
+      "lead": "The Ming treasure voyages were maritime expeditions undertaken by Ming China's treasure fleet between 1405 and 1433. The Yongle Emperor ordered the construction of the fleet in 1403. The grand project resulted in seven far-reaching ocean vo",
+      "image": "ZhengHeShips.gif"
+    },
+    "Ma_Huan": {
+      "title": "Ma Huan",
+      "lead": "Ma Huan (simplified Chinese: 马欢; traditional Chinese: 馬歡; pinyin: Mǎ Huān, Xiao'erjing: ﻣَﺎ ﺧُﻮًا) (c. 1380–1460), courtesy name Zongdao (Chinese: 宗道; pinyin: Zōngdào), pen name Mountain-woodcutter (會稽山樵), was a Chinese explorer, translator",
+      "image": "Yingya_Shenglan_(Jilu_Huiban),_first_page.jpg"
+    },
+    "Spread_of_Islam_in_Indonesia": {
+      "title": "Spread of Islam in Indonesia",
+      "lead": "The history of the arrival of Islam in Indonesia is somewhat unclear. One theory states that Islam arrived directly from Arabia as early as the 9th century, during the time of the Umayyad and Abbasid caliphates. Another theory credits Sufi ",
+      "image": "Meuseujid_Raya_Bayturrahman.JPG"
+    },
+    "Pasisir": {
+      "title": "Pasisir",
+      "lead": "Pasisir is the name given to the northern coastal region of Java. Unlike the agricultural kingdoms of the hinterland, the pasisiran economy has been based on trade via the Java Sea and its cultural identity has been shaped by foreign contac",
+      "image": ""
+    },
+    "Wali_Sanga": {
+      "title": "Wali Sanga",
+      "lead": "Wali Sanga (Javanese: ꦮꦭꦶꦱꦔ, lit. 'Nine Walis'), also transcribed as Wali Songo, are a group of nine da'is (Islamic missionary) that contributed to the spread of Islam in Indonesia, especially on the island of Java. The word wali sanga is d",
+      "image": "Borobdur9205.jpg"
+    },
+    "Wayang": {
+      "title": "Wayang",
+      "lead": "Wayang (Javanese: ꦮꦪꦁ, romanized: wayang (in the ngoko register), ꦫꦶꦁꦒꦶꦠ꧀, ringgit (in the krama register)) is a traditional Javanese form of puppet theatre. The term wayang refers both to the show as a whole and the puppet in particular. P",
+      "image": "Wayang_sejarah.jpg"
+    },
+    "Demak_Sultanate": {
+      "title": "Demak Sultanate",
+      "lead": "The Demak Sultanate (کسلطانن دمق‎) was a Javanese Muslim state located on Java's north coast in Indonesia, at the site of the present-day city of Demak. A port fief to the Hindu-Buddhist Majapahit kingdom thought to have been founded in the",
+      "image": "MUS_Koin_Sultan_Pangeran_Raden_Fatah.png"
+    },
+    "Raden_Patah": {
+      "title": "Raden Patah",
+      "lead": "Raden Patah, also known as Jin Bun (Javanese: ꦫꦢꦺꦤ꧀ꦦꦠꦃ; Chinese: 靳文; pinyin: Jìn wén) (1455 in Jepara – 1518 in Demak) was the first sultan of the Demak Sultanate. Ascending to the throne in 1475, he remained a vassal of the Majapahit Empir",
+      "image": "MUS_Koin_Sultan_Pangeran_Raden_Fatah.png"
+    },
+    "Girindrawardhana": {
+      "title": "Girindrawardhana",
+      "lead": "Bhatara Prabhu Girindrawardhana Dyah Ranawijaya (abbreviated as Brawijaya) was the last King of Daha from 1486 until his death. He is referred in a Jiyu inscription as Sri Wilwatikta Jenggala Kediri, which means ruler of Majapahit, Janggala",
+      "image": ""
+    },
+    "Trenggana": {
+      "title": "Trenggana",
+      "lead": "Trenggana (1521–1546), also called Trenggono, was the third Sultan of Demak after he succeeded Pati Unus. Sultan Trenggana was crowned by Sunan Gunungjati, one of the Wali Songo who spread Islam in Java. He became the third and greatest rul",
+      "image": ""
+    },
+    "Balinese_people": {
+      "title": "Balinese people",
+      "lead": "The Balinese (Balinese: ᬳᬦᬓ᭄‌ᬩᬮᬶ, romanized: Anak Bali (in the ketah register), ᬯᭀᬂᬩᬮᬶ, Wong Bali (in the madia register), ᬓ᭄ᬭᬫᬩᬮᬶ, Krama Bali (in the singgih register); Indonesian: Orang Bali) are an Austronesian ethnic group native to the",
+      "image": "Balinese_couple_in_traditional_drees.jpg"
+    },
+    "Balinese_Hinduism": {
+      "title": "Balinese Hinduism",
+      "lead": "Balinese Hinduism (Balinese: ᬳᬶᬦ᭄ᬤᬸᬯᬶᬲ᭄ᬾᬩᬮᬶ; Indonesian: Hindu Bali or Agama Hindu Dharma) is a distinct form of Hinduism practised primarily on the island of Bali, Indonesia. It developed through a long process of religious syncretism, com",
+      "image": "TanahLot_2014.JPG"
+    },
+    "Tenggerese_people": {
+      "title": "Tenggerese people",
+      "lead": "The Tenggerese people are a sub-ethnic group of Javanese in eastern Java who are centered in the isolated Tengger mountains (Mount Bromo) in the Bromo Tengger Semeru National Park in eastern Java. The majority of the Tenggerese population p",
+      "image": "COLLECTIE_TROPENMUSEUM_Ceremonie_TMnr_20018455.jpg"
+    },
+    "Lombok": {
+      "title": "Lombok",
+      "lead": "Lombok is an island in West Nusa Tenggara province, Indonesia. It forms part of the chain of the Lesser Sunda Islands, with the Lombok Strait separating it from Bali to the west and the Alas Strait between it and Sumbawa to the east. It is ",
+      "image": "Camping_above_the_clouds_at_Rinjani.jpg"
+    },
+    "Greater_Indonesia": {
+      "title": "Greater Indonesia",
+      "lead": "Greater Indonesia (Indonesian: Indonesia Raya) was an irredentist political concept that sought to bring the so-called Malay race together, by uniting the territories of the Dutch East Indies (and Portuguese Timor) with British Malaya and B",
+      "image": "Greater_Indonesia_Locator.svg"
+    },
+    "Palapa": {
+      "title": "Palapa",
+      "lead": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which tim",
+      "image": "STS-41-B_Palapa_B-2_deployment.jpg"
+    }
+  },
+  "glossary": {
+    "Srivijaya": {
+      "title": "Srivijaya",
+      "lead": "Srivijaya, also spelled Sri Vijaya or Sriwijaya, was a Malay thalassocratic empire based on the island of Sumatra (in modern-day Indonesia) that influenced much of Southeast Asia. Srivijaya was an important centre for the expansion of Buddh",
+      "image": "Srivijaya_Empire.svg"
+    },
+    "Pararaton": {
+      "title": "Pararaton",
+      "lead": "The Pararaton (Book of Kings), also known as the Katuturanira Ken Angrok (Story of Ken Angrok), is a 16th-century Javanese historical chronicle written in Kawi (Old Javanese). The comparatively short text of 32 folio-size pages (1126 lines)",
+      "image": "COLLECTIE_TROPENMUSEUM_Beeld_van_Dewi_Sri_de_rijstgodin_TMnr_60016918.jpg"
+    },
+    "Palapa_oath": {
+      "title": "Palapa oath",
+      "lead": "The Palapa oath (Indonesian: Sumpah Palapa) was an oath taken by Gajah Mada, a 14th-century Prime Minister of the Javanese Majapahit Empire described in the Pararaton (Book of Kings). In the oath, Gajah Mada swore that he would not rest as ",
+      "image": "Relief_of_Indonesian_History,_Monas.JPG"
+    },
+    "Hayam_Wuruk": {
+      "title": "Hayam Wuruk",
+      "lead": "Hayam Vuruk (Indonesian: Hayam Wuruk; Sanskrit: हयम् वुरुक्; Javanese: ꦲꦪꦩ꧀ꦮꦸꦫꦸꦏ꧀) (1334–1389), also called Rajasanagara, Pa-ta-na-pa-na-wu, or Bhatara Prabhu after 1350, was a Javanese Hindu emperor from the Rajasa dynasty and the 4th empe",
+      "image": ""
+    },
+    "Nagarakretagama": {
+      "title": "Nagarakretagama",
+      "lead": "The Nagarakretagama or Nagarakṛtāgama (Sanskrit: नगरकृतगाम, lit. 'the advanced city'), also known in Bali as Desawarnana or Deśavarṇana (Sanskrit: देशवर्णन, lit. 'country's description'), is an Old Javanese eulogy to Hayam Wuruk, a Javanese",
+      "image": "COLLECTIE_TROPENMUSEUM_Beeld_van_Dewi_Sri_de_rijstgodin_TMnr_60016918.jpg"
+    },
+    "Maluku_Islands": {
+      "title": "Maluku Islands",
+      "lead": "The Maluku Islands ( mə-LUU-koo, -⁠LOO-; Indonesian: Kepulauan Maluku, IPA: [kəpuˈlawan maˈluku]) or the Moluccas ( mə-LUK-əz; Dutch: Molukken [ˌmoːˈlʏkə(n)]) are an archipelago in the eastern part of Indonesia. Tectonically they are locate",
+      "image": "Maluku_Islands_en.png"
+    },
+    "Demak_Sultanate": {
+      "title": "Demak Sultanate",
+      "lead": "The Demak Sultanate (کسلطانن دمق‎) was a Javanese Muslim state located on Java's north coast in Indonesia, at the site of the present-day city of Demak. A port fief to the Hindu-Buddhist Majapahit kingdom thought to have been founded in the",
+      "image": "MUS_Koin_Sultan_Pangeran_Raden_Fatah.png"
+    },
+    "Lombok": {
+      "title": "Lombok",
+      "lead": "Lombok is an island in West Nusa Tenggara province, Indonesia. It forms part of the chain of the Lesser Sunda Islands, with the Lombok Strait separating it from Bali to the west and the Alas Strait between it and Sumbawa to the east. It is ",
+      "image": "Camping_above_the_clouds_at_Rinjani.jpg"
+    },
+    "Java": {
+      "title": "Java",
+      "lead": "Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the Indian Ocean to the south and the Java Sea (a part of Pacific Ocean) to the north. With a population of 156.9 million people (inclu",
+      "image": "Java_Topography.png"
+    },
+    "Monsoon": {
+      "title": "Monsoon",
+      "lead": "A monsoon () is traditionally a seasonal reversing wind accompanied by corresponding changes in precipitation but is now used to describe seasonal changes in atmospheric circulation and precipitation associated with annual latitudinal oscil",
+      "image": "Monsoon_clouds_near_Nagercoil.jpg"
+    },
+    "Sanskrit": {
+      "title": "Sanskrit",
+      "lead": "Sanskrit (; stem form संस्कृत; nominal singular संस्कृतम्, saṃskṛtam,) is a classical language belonging to the Indo-Aryan branch of the Indo-European languages. It arose in South Asia after its predecessor languages had diffused there from",
+      "image": "BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg"
+    },
+    "Hinduism": {
+      "title": "Hinduism",
+      "lead": "Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that are unified by adherence to the concept of dharma, a cosmic order maintained by its followers through rituals and righteous living, ",
+      "image": ""
+    },
+    "Shiva": {
+      "title": "Shiva",
+      "lead": "Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IAST: Mahādevaḥ, [mɐɦaːd̪eːʋɐh], lit. 'The Great God') and Hara (Sanskrit: हर, lit. 'The Remover'), is one of the principal deities ",
+      "image": "Bangalore_Shiva.jpg"
+    },
+    "Mahayana": {
+      "title": "Mahayana",
+      "lead": "Mahayana is the largest branch of Buddhism, followed by Theravada. It is a broad group of Buddhist traditions, texts, philosophies, and practices that developed in the Amaravati region of ancient India (c. 1st century BCE onwards). Mahāyāna",
+      "image": "Astasahasrika_Prajnaparamita_Maitreya_Detail.jpeg"
+    },
+    "Old_Javanese": {
+      "title": "Old Javanese",
+      "lead": "Old Javanese or Kawi is an Austronesian language and the oldest attested phase of the Javanese language. It was natively spoken in the central and eastern part of Java Island, what is now Central Java, Yogyakarta and East Java Provinces, In",
+      "image": "Copy_of_a_stone_stele_written_in_Kawi_script.jpg"
+    },
+    "Stupa": {
+      "title": "Stupa",
+      "lead": "In Buddhism, a stupa (Sanskrit: स्तूप, lit. 'heap', IAST: stūpa) is a domed hemispherical structure containing several types of sacred relics, including images, statues, metals, and śarīra—the remains of Buddhist monks or nuns. It is used a",
+      "image": "Stupa_1,_Sanchi_02.jpg"
+    },
+    "Charlemagne": {
+      "title": "Charlemagne",
+      "lead": "Charlemagne ( SHAR-lə-mayn; 2 April 748 – 28 January 814) was King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800. He united most of Western and Central Europe and ",
+      "image": "Charlemagne_denier_Mayence_812_814.jpg"
+    },
+    "Java_Sea": {
+      "title": "Java Sea",
+      "lead": "The Java Sea (Indonesian: Laut Jawa, Javanese: Segara Jawa) is an extensive shallow sea in Indonesia. It lies on the Sunda Shelf, between the islands of Borneo to the north, Java to the south, Sumatra to the west, and Sulawesi to the east. ",
+      "image": "Karangsong_beach_in_Indramayu,_West_Jawa.jpg"
+    },
+    "Mongol_Empire": {
+      "title": "Mongol Empire",
+      "lead": "The Mongol Empire was the largest contiguous empire in history. Originating in present-day Mongolia in East Asia, the medieval empire at its height stretched from the Sea of Japan to Eastern Europe, extending northward into Siberia and east",
+      "image": "Expansion_of_the_Mongol_Empire_1206–1294.gif"
+    },
+    "Genghis_Khan": {
+      "title": "Genghis Khan",
+      "lead": "Genghis Khan (born Temüjin; c. 1162 – August 1227), also known as Chinggis Khan, was the founder and first khan of the Mongol Empire. After spending most of his life uniting the Mongol tribes, he launched a series of military campaigns, con",
+      "image": "YuanEmperorAlbumGenghisPortrait.jpg"
+    },
+    "Kamikaze": {
+      "title": "Kamikaze",
+      "lead": "Kamikaze (神風; pronounced [kamiꜜkaze]; 'divine wind' or 'spirit wind'), officially Shinpū Tokubetsu Kōgekitai (神風特別攻撃隊; 'Divine Wind Special Attack Unit'), were a part of the Japanese Special Attack Units of military aviators who flew suicid",
+      "image": "Kamikaze_WW2_USN.gif"
+    },
+    "History_of_Yuan": {
+      "title": "History of Yuan",
+      "lead": "The History of Yuan (Yuán Shǐ), also known as the Yuanshi, is one of the official Chinese historical works known as the Twenty-Four Histories of China. Commissioned by the court of the Ming dynasty, in accordance to political tradition, the",
+      "image": ""
+    },
+    "Mojokerto_Regency": {
+      "title": "Mojokerto Regency",
+      "lead": "Mojokerto Regency (Indonesian: Kabupaten Mojokerto; Javanese: ꦩꦗꦏꦼꦂꦠ, romanized: Måjåkertå) is a regency in East Java Province of Indonesia. It is part of the Surabaya metropolitan area (known as Gerbangkertosusila) which comprises Gresik R",
+      "image": "Brahu_Temple_Trowulan.jpg"
+    },
+    "Regnal_name": {
+      "title": "Regnal name",
+      "lead": "A regnal name, regnant name, or reign name is the name used by monarchs and popes during their reigns and subsequently, historically. Since ancient times, some monarchs have chosen to use a different name from their original name when they ",
+      "image": ""
+    },
+    "Bali": {
+      "title": "Bali",
+      "lead": "Bali (English: ; Indonesian: ['bali]; Balinese: ᬩᬮᬶ) is an Indonesian island and province and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore ",
+      "image": "Bali_in_Indonesia_(special_marker).svg"
+    },
+    "Sunda_Kingdom": {
+      "title": "Sunda Kingdom",
+      "lead": "The Sunda Kingdom (Old Sundanese: ᮕᮢ(pra)ᮠ(ha)ᮏᮡ (jya)ᮔ᮪(n) ᮞᮥ(su)ᮔ᮪(n)ᮓ(da), romanized: Prahajyan Sunda, Indonesian pronunciation: [ˈsunda]) was a Sundanese Hindu kingdom located in the western portion of the island of Java from 669 to aro",
+      "image": "Sunda_Kingdom.svg"
+    },
+    "History_of_Singapore": {
+      "title": "History of Singapore",
+      "lead": "The history of the modern state of Singapore dates back to its founding in the early 19th century; however, evidence suggests that a significant trading settlement existed on the island in the 14th century. The last ruler of the Kingdom of ",
+      "image": "Plan_of_the_British_settlement_of_Singapore_published_1828.jpg"
+    },
+    "Gautama_Buddha": {
+      "title": "The Buddha",
+      "lead": "Siddhartha Gautama, most commonly referred to as the Buddha (lit. 'the awakened one'), was a wandering ascetic and religious teacher who lived in the eastern Indo-Gangetic Plains during the 6th or 5th century BCE and founded Buddhism. Accor",
+      "image": "Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg"
+    },
+    "Mughal_Empire": {
+      "title": "Mughal Empire",
+      "lead": "The Mughal Empire was an early modern empire in South Asia. At its peak, the empire stretched from the outer fringes of the Indus River Basin in the west, northern Afghanistan in the northwest, and Kashmir in the north, to the highlands of ",
+      "image": "Joppen1907India1700a.jpg"
+    },
+    "Thalassocracy": {
+      "title": "Thalassocracy",
+      "lead": "A thalassocracy or thalattocracy, sometimes also maritime empire, is a state with primarily maritime realms, an empire at sea, or a seaborne empire. Traditional thalassocracies seldom dominate interiors, even in their home territories. Exam",
+      "image": "Carthage_323_BC.png"
+    },
+    "Borneo": {
+      "title": "Borneo",
+      "lead": "Borneo () is the third-largest island in the world, with an area of 748,168 km2 (288,869 sq mi), and population of 23,053,723 (2020 national censuses). Situated at the geographic centre of Maritime Southeast Asia, it is one of the Greater S",
+      "image": "Administrative_map_of_Borneo_(Indonesian).png"
+    },
+    "Sumatra": {
+      "title": "Sumatra",
+      "lead": "Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian territory, as well as the sixth-largest island in the world at 482,286.55 km2 (182,812 mi.2), including adjacent islands s",
+      "image": "Sumatra_Topography.png"
+    },
+    "Surabaya": {
+      "title": "Surabaya",
+      "lead": "Surabaya is the capital and largest city of East Java province and the second-largest city in Indonesia, after Jakarta. Located on the northeastern corner of Java island, on the Madura Strait, it is one of the earliest port cities in Southe",
+      "image": "Central_Surabaya_view_taken_from_JW_Marriott_Surabaya.jpg"
+    },
+    "Appanage": {
+      "title": "Appanage",
+      "lead": "An appanage, or apanage (; French: apanage [apanaʒ] ), is the grant of an estate, title, office or other thing of value to a younger child of a monarch, who would otherwise have no inheritance under the system of primogeniture (where only t",
+      "image": "Bayeux_Tapestry_scene23_Harold_sacramentum_fecit_Willelmo_duci.jpg"
+    },
+    "Ming_dynasty": {
+      "title": "Ming dynasty",
+      "lead": "The Ming dynasty, officially the Great Ming, was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan dynasty. The Ming was the last imperial dynasty of China ruled by the Han people, the ",
+      "image": "Map_of_Ming_Chinese_empire_1415_(cropped_2).jpg"
+    },
+    "Indian_Ocean": {
+      "title": "Indian Ocean",
+      "lead": "The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water area of Earth's surface. It is bounded by Asia to the north, Africa to the west and Au",
+      "image": "Indian_Ocean-CIA_WFB_Map.png"
+    },
+    "Gujarat": {
+      "title": "Gujarat",
+      "lead": "Gujarat (Gujarati: Gujarāt, pronounced [ˈɡudʒəɾaːt] ) is a state along the western coast of India. Its coastline of about 2,340 km (1,450 mi) is the longest in the country, most of which lies on the Kathiawar peninsula. Gujarat is the fifth",
+      "image": "Rani_ki_vav_02.jpg"
+    },
+    "Sultanate": {
+      "title": "Sultan",
+      "lead": "Sultan (; Arabic: سلطان sulṭān, pronounced [sʊlˈtˤɑːn, solˈtˤɑːn]) is a position with several historical meanings. Originally, it was an Arabic abstract noun meaning \"strength\", \"authority\", \"rulership\", derived from the verbal noun سلطة su",
+      "image": "EmperorSuleiman.jpg"
+    },
+    "Dutch_East_Indies": {
+      "title": "Dutch East Indies",
+      "lead": "The Dutch East Indies, also known as the Netherlands East Indies, was a Dutch colony with territory mostly comprising the modern state of Indonesia, which declared independence on 17 August 1945. Following the Indonesian War of Independence",
+      "image": "Flag_of_the_Netherlands.svg"
+    },
+    "National_emblem_of_Indonesia": {
+      "title": "National emblem of Indonesia",
+      "lead": "The national emblem of Indonesia is called Garuda Pancasila. The main part is the Garuda with a heraldic shield on its chest and a scroll gripped by its legs. The shield's five emblems represent Pancasila, the five principles of Indonesia's",
+      "image": "National_emblem_of_Indonesia_Garuda_Pancasila.svg"
+    }
+  }
+}

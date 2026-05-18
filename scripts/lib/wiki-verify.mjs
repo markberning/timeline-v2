@@ -29,7 +29,14 @@ const UA = 'timeline-v2-wiki-verify/1.0 (https://stuffhappened.com)'
 const API = 'https://en.wikipedia.org/w/api.php'
 const CACHE_DEFAULT = join(process.cwd(), 'audits', '.wiki-verify-cache.json')
 
-const slugToTitle = (s) => decodeURIComponent(String(s).replace(/_/g, ' ')).trim()
+// Never throw: a single slug with broken percent-encoding must not poison its
+// 19 batch-mates (decodeURIComponent throws "URI malformed"). Decode valid
+// percent-runs, leave un-decodable ones literal so only the bad slug 404s.
+const slugToTitle = (s) => {
+  const u = String(s).replace(/_/g, ' ').trim()
+  try { return decodeURIComponent(u) } catch { /* fall through */ }
+  return u.replace(/(?:%[0-9A-Fa-f]{2})+/g, (seq) => { try { return decodeURIComponent(seq) } catch { return seq } })
+}
 const norm = (t) => t.replace(/\s+/g, ' ').trim().toLowerCase()
 
 // One MediaWiki query for up to 20 titles: existence + redirects + normalize

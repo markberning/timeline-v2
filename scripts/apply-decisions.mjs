@@ -10,13 +10,16 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs'
 
 const dry = process.argv.includes('--dry')
+const dir = (process.argv.find((a) => a.startsWith('--dir=')) || '').split('=')[1] || '/tmp/decisions'
+const fixesArg = (process.argv.find((a) => a.startsWith('--fixes=')) || '').split('=')[1]
+const fixesPath = fixesArg === undefined ? '/tmp/suspect-fixes.json' : fixesArg // pass --fixes= (empty) to skip
 const fixes = new Map()
-for (const x of JSON.parse(readFileSync('/tmp/suspect-fixes.json', 'utf8'))) fixes.set(`${x.tl}::${x.id}`, x)
+if (fixesPath) for (const x of JSON.parse(readFileSync(fixesPath, 'utf8'))) fixes.set(`${x.tl}::${x.id}`, x)
 
 const byTl = new Map()
-for (const f of readdirSync('/tmp/decisions')) {
+for (const f of readdirSync(dir)) {
   if (!f.endsWith('.json')) continue
-  const arr = JSON.parse(readFileSync(`/tmp/decisions/${f}`, 'utf8'))
+  const arr = JSON.parse(readFileSync(`${dir}/${f}`, 'utf8'))
   for (const d of arr) {
     const fx = fixes.get(`${d.tl}::${d.id}`)
     if (fx) { // overlay the safety-sweep verdict
