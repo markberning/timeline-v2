@@ -53,6 +53,12 @@
       "targetTl": "ancient-korea",
       "targetChapter": 8,
       "blurb": "The Goryeo kingdom of Korea was one of the closest states to the Mongol heartland and one of the first outside China to feel the empire's weight. Mongol invasions of the Korean peninsula began in 1231 and continued intermittently for three decades until Goryeo submitted as a vassal state in 1259 — the same year Möngke Khan died. For the rest of the Mongol period, Goryeo was directly integrated into the Yuan system: Goryeo kings married Mongol princesses, Korean soldiers and sailors crewed the invasion fleets sent against Japan, and Korean scholars had access to the largest library network in East Asia."
+    },
+    {
+      "matchText": "the Naimans had borrowed from the more sophisticated Uyghur Khaganate",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 3,
+      "blurb": "The writing system the Naimans loaned to the Mongols originated not with the Naimans but with the Uyghurs, who adapted it from the Sogdian alphabet on the Orkhon steppe — in Chapter 3, as part of the state Manichaeism project that required a script capable of transmitting a Persian religion's sacred texts. That alphabet, built for a church, became the administrative backbone of the largest empire on earth."
     }
   ],
   "2": [
@@ -67,6 +73,12 @@
       "targetTl": "xiongnu-huns",
       "targetChapter": 2,
       "blurb": "The Xiongnu's decimal military organization — tens, hundreds, thousands, the structural logic of a steppe army — was already ancient when Modu used it to build the first great eastern steppe empire around 200 BCE. Genghis Khan's innovation was not inventing the system but enforcing it across mixed tribal units where tribal loyalty was structurally impossible. He made the army larger than any single tribe, which made defection along tribal lines suicidal rather than rational."
+    },
+    {
+      "matchText": "which incidentally delivered to Temüjin the Naiman scribes and the Uyghur script",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 8,
+      "blurb": "The Uyghur scribe Tatatonga, captured at Chakirmaut as keeper of the Naiman seal, and the Buddhist idiqut Barchuq's voluntary submission in 1209 are both told from the Uyghur side in Chapter 8 — the administrative hinge between an illiterate steppe conquest and a literate empire. Chapter 8 is where the Uyghur story ends and where the Mongol Empire's operating system begins."
     }
   ],
   "3": [
@@ -93,6 +105,12 @@
       "targetTl": "kievan-rus",
       "targetChapter": 11,
       "blurb": "Why did the Rus' lose so catastrophically at the Kalka? Told from the Rus' side, the answer is structural, not tactical: the rota succession system had left the Rus' with no unified command, so the princes advanced in jealous, uncoordinated contingents while the Cuman line broke and spread the rout. The Kievan Rus' narrative treats Kalka as eight chapters of political fragmentation compressed into a single disastrous day — a preview of the full conquest to come."
+    },
+    {
+      "matchText": "a Buddhist Khitan-led successor state in modern Xinjiang and eastern Central Asia, founded by Liao-dynasty refugees in the 1130s after the Jin destroyed the Liao in north China",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 7,
+      "blurb": "Chapter 7 is the full account of the Qara-Khitai: Yelü Dashi's flight from the collapsing Liao, the Battle of Qatwan (1141) that made the Gurkhans masters of Central Asia, the Prester John legend their victory accidentally generated in the Latin West, and the tolerant-rule model — tax and leave alone — that the Mongols observed and later emulated. The Kara-Khitai chapter is the political and institutional template the Mongol Empire borrowed for governing Muslim subjects without converting them."
     }
   ],
   "4": [
@@ -273,6 +291,12 @@
       "targetTl": "maurya-empire",
       "targetChapter": 1,
       "blurb": "Timur's conquests in the 1390s briefly extended into the Indian subcontinent — his 1398 sack of Delhi was one of the most devastating events in medieval Indian history, killing tens of thousands and destabilizing the Delhi Sultanate for a generation. The Timurid-Mongol tradition would return to India permanently when Babur, Timur's great-great-great-grandson, founded the Mughal Empire in 1526. The Indian subcontinent that the Maurya had first unified under a single empire would eventually be reunified again under rulers tracing their lineage to Genghis Khan."
+    },
+    {
+      "matchText": "in the Uyghur script that the Mongols had captured at Chakirmaut in 1204",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 3,
+      "blurb": "The script the Mongols were still writing in at the empire's end was a Sogdian-derived alphabet the Uyghurs adapted for their own language — originally to transmit Manichaean sacred texts on the Orkhon steppe. Chapter 3 tells that origin story: how a Persian religion's need for a portable script produced the writing system that would outlive every empire it passed through."
     }
   ]
 }

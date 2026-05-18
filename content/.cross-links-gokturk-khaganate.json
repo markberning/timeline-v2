@@ -95,6 +95,12 @@
   ],
   "3": [
     {
+      "matchText": "steppe warriors and oasis traders",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 3,
+      "blurb": "The full payoff of the Türk-Sogdian symbiosis described here — a foreign merchant diaspora becoming the administrative and cultural backbone of a steppe empire — arrived one empire later, with the Uyghurs. The Uyghurs took the same Sogdian partnership, added Manichaean state religion, built the Sogdian-descended Old Uyghur script into a literate administration, and ran the most commercially sophisticated nomadic state the steppe ever produced."
+    },
+    {
       "matchText": "Sephardic Jewish",
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
@@ -221,6 +227,18 @@
       "targetTl": "tang-song-china",
       "targetChapter": 5,
       "blurb": "The Second Türk Khaganate's decades of conflict with the Tang Empire under Empress Wu Zetian, Emperor Zhongzong, and Emperor Xuanzong are one of the major frontier stories of the early-to-mid Tang period. The Tang court treated the Second Khaganate as a chronic management problem rather than an existential threat — a regional power to be contained rather than destroyed — and the policy was largely successful until Bilge's death in 734 brought instability back to the Türk side and made the 744 Uyghur takeover possible without major Tang involvement."
+    },
+    {
+      "matchText": "When you stayed in the Otuken forest and sent caravans, you had no troubles",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 4,
+      "blurb": "The Uyghurs are the empirical case study for exactly the counsel Bilge delivered here. They ignored it: they built Ordu-Baliq (called Karabalghasun), the first true city ever raised by a steppe empire in Mongolia. The city Bilge warned against became the Uyghurs' defining achievement — and their fatal vulnerability. In 840 the Yenisei Kyrgyz destroyed it in a single campaign, and the Uyghur Khaganate was over by nightfall. Chapter 4 is that destruction."
+    },
+    {
+      "matchText": "Tonyukuk argued explicitly against Türk conversion to Buddhism",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 3,
+      "blurb": "The Uyghurs broke with Tonyukuk's counsel here, but not in the way he feared. They did not convert to Buddhism — they converted to Manichaeism, the syncretic Persian religion Mani had founded in the third century. The structural consequences Tonyukuk warned against — a contemplative religion softening warrior culture, a foreign ideology reorganizing state power — arrived anyway, routed through a different scripture. Chapter 3 is the Manichaean conversion and what it actually produced."
     }
   ],
   "8": [
@@ -259,6 +277,12 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 6,
       "blurb": "The post-Türk Turkic diaspora that produced the Karluks, Karakhanids, Khwarezmians, and Seljuks is one of the great population-and-language stories of early Islamic history. Every later Türk-speaking Muslim state — from the Ghaznavids to the Karakhanids to the Seljuks to the Mamluks to the Khwarezmians to the Ottomans — descended in some sense from the Western Türk-derived peoples who began their long Islamic conversion after the Karluk defection at Talas in 751."
+    },
+    {
+      "matchText": "succeeded the Türks as the dominant power on the Mongolian steppe",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 1,
+      "blurb": "The Uyghur Khaganate that replaced the Türks in 744 is the subject of its own narrative now. The full story — how they built the only Manichaean steppe state in history, how they became the Tang dynasty's indispensable creditor and military rescuer, how 840 ended everything — is told there from the start."
     }
   ]
 }

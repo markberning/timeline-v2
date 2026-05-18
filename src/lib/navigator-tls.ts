@@ -90,6 +90,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'scythians', label: 'Scythians', subtitle: "gold-clad horse nomads of the Pontic steppe", region: 'asia', startYear: -800, endYear: -200, hasContent: true },
   { id: 'xiongnu-huns', label: 'Xiongnu & Huns', subtitle: "the steppe rivals who haunted China and Rome", region: 'asia', startYear: -209, endYear: 469, hasContent: true },
   { id: 'gokturk-khaganate', label: 'Göktürk Khaganate', subtitle: "the first people to call themselves Turk", region: 'asia', startYear: 552, endYear: 744, hasContent: true },
+  { id: 'uyghur-steppe', label: 'Uyghur & Qara-Khitai Steppe', subtitle: "the steppe's forgotten half-millennium", region: 'asia', startYear: 744, endYear: 1206, hasContent: true },
   { id: 'mongol-empire', label: 'Mongol Empire', subtitle: "Genghis Khan's conquest of Eurasia", region: 'asia', startYear: 1206, endYear: 1368, hasContent: true },
   { id: 'timurid-empire', label: 'Timurid Empire', subtitle: "Tamerlane's Central Asian renaissance", region: 'asia', startYear: 1370, endYear: 1507, hasContent: true },
 
