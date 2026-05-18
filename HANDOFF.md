@@ -4,9 +4,25 @@ _Current 2026-05-17 (late session, post hard-stop). Overwrite the dated/state se
 
 ---
 
-## ▶ STATE — link pipeline rebuilt, AI is maps-only, all on `main` & LIVE (2026-05-17)
+## ▶ STATE — corpus link cleanup DONE (no-AI), all on `main` & LIVE (2026-05-17)
 
-`main` @ **`4ef9cb6`**, pushed, deployed (wrangler `dc28650c`). stuffhappened.com current. 102 `hasContent` civs. Nothing parked, nothing mid-flight. Major changes this session, newest first:
+`main` @ **`9e5ad11`**, pushed, deployed (wrangler version `9467f20a`). stuffhappened.com current. 102 `hasContent` civs. Nothing parked, nothing mid-flight.
+
+**This session — backlog #18 executed via a no-AI tool the user asked for (`8334ae9`, `9e5ad11`):**
+- New deterministic tools: `scripts/fix-links.mjs` (page-valid + subject-word-overlap + photo filename/caption + reuse check; `--apply` drops recycled pictures keeping the single best match; `--emit-flags` JSON), `scripts/retarget-links.mjs` (Wikipedia-search retarget, conservative), `scripts/audit-retargets.mjs` (coordinator safety sweep — catches confidently-wrong auto-matches), `scripts/apply-decisions.mjs` (single-writer apply). NO AI anywhere; AI remains maps-only.
+- **Pictures:** 2,340+ recycled/off-topic images tidied corpus-wide (merged into `content/.image-rejections.json`, `1cf9cbe`).
+- **Links:** corpus scan flagged **801** broken/wrong links across 99 civs. Resolved by **8 parallel resolver agents** (disjoint civ groups, per-run wiki cache, agents write only `/tmp/decisions/*.json`, coordinator single-writer applies) + a coordinator safety sweep (caught Orban→cannon-founder-not-modern-PM, White Lotus→society-not-HBO-show, poetry-work→author-not-TV-actor, 20 vague-parent fixes). Final: **481 retargeted, 208 → authored house-voice definitions, 111 false-alarm synonyms left alone.** `lint:links --strict` 0 ERROR / 102 civs; corpus broken-link 801→111 (residual = correct pages under a synonym name — expected, harmless).
+- `audits/corpus-remediation-backlog.md` #18 marked DONE. Memory: `project_fix_links_tool`.
+
+**OWED / next:**
+- **Snapshot-write step**: #18 did the de-break + subject-confirm + de-dupe but did NOT run `verify-links.mjs --write-snapshot` per civ. If the deterministic ship gate is to *enforce* this corpus state, snapshots still need writing (mechanical, no AI).
+- **uyghur-steppe G4 maps still OWED** (8 ch; `map-prompts/uyghur-steppe.md` authored; `node --env-file=.env.local scripts/maps-build.mjs uyghur-steppe` → rebuild → deploy → push; `hasContent` already true; reader degrades gracefully).
+- Long-matchText tightening across the corpus still grandfathered in `audits/matchtext-baseline.json` (deterministic, no AI; fix-links already flags it).
+
+---
+### (historical) prior session — link pipeline rebuilt, AI is maps-only
+
+Was `main` @ `4ef9cb6`. Major changes that session, newest first:
 
 1. **matchText length sweep + gate (`c0bce72`, `4ef9cb6`).** Link `matchText` must be the tight term, not the clause. lint-links promotes the existing ">6 words or comma = sentence-like" check from WARN to a **`--strict` ERROR**, but the existing corpus is **grandfathered** via `audits/matchtext-baseline.json` (mirrors density-baseline; regen `--write-matchtext-baseline`) so the corpus build stays green; new + de-grandfathered civs are held to it. Per-civ exact-string waiver `content/.matchtext-waivers-<tl>.json`. **uyghur-steppe (98 spans) + goryeo-korea (84) swept tight by 2 parallel per-civ agents, de-grandfathered, validated (corpus lint:links --strict 0 ERROR / 102 civs), LIVE.** CLAUDE.md step 6 + WRITING-RULES updated.
 2. **Link-verification redesign — ALL LLM link gates removed; AI is now maps-only (`ba4f419`).** G10/G11/G12 are no longer Gemini passes. Correctness is confirmed at **creation time** by `scripts/verify-links.mjs` (+ `scripts/lib/wiki-verify.mjs`, one deterministic MediaWiki call: exists / disambiguation / redirect / title / lead / image) which writes a confirmed-page snapshot `content/.link-snapshots-<tl>.json`; the three `audit-*.mjs` are now deterministic snapshot/floor checks (same artifact + exit + waiver contract → ship-check unchanged). Block-don't-warn, fail-closed. Validated on uyghur (suite 0.08s vs ~2h Gemini); it immediately caught **2 genuinely-dead Wikipedia links** the old pipeline shipped (`Qutlugh_Bilge_Köl_Qaghan`, `Bay_Baliq`), now **fixed + live** (`75df049`: → `Uyghur_Khaganate`, `Bayanchur_Khan`, 1 dropped to blurb-only). Memory: `project_link_verification_redesign`.
