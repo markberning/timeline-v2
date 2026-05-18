@@ -15,11 +15,12 @@ CLEAR, merged to main, repo self-contained** (curated link files force-added
 past the `content/` gitignore; 8 stray `.draft-sc-*` temp files removed). iOS
 swipe fix also committed (`25706b7`). **Nothing is on prod yet** —
 `stuffhappened.com/swahili-coast/` = 404; prod still serves prior content
-healthily (home/emep 200). The ONLY remaining step is the production deploy,
-which must be run from the **user's own terminal** (the full build is too long
-for the chat `!` runner and this session's `tsx` toolchain is environment-
-broken): `cd /Users/mberning/projects/personal/timeline-v2 && git pull &&
-rm -rf out && npm run build 2>&1 | tee /tmp/deploy.log && npx wrangler deploy`.
+healthily (home/emep 200). **SHIPPED + LIVE 2026-05-18** — user ran the deploy from their terminal;
+wrangler uploaded 553 files. **Verified live:**
+`stuffhappened.com/swahili-coast/` = HTTP 200 serving real content; in the
+live search-index; home/emep/mali 200 (no regression). The iOS swipe fix
+shipped in the same deploy (it was an ancestor on main). Build-opti
+acceptance test + The Swahili Coast: **DONE, live.**
 
 **Deploy-tail lesson (cost ~3h of false leads — durable):** `content/` is
 gitignored. Every per-civ curated file (`.event-links/.glossary-links/
