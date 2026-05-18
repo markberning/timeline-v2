@@ -1,0 +1,67 @@
+{
+  "runLabel": "swahili-coast — first build the optimized way (wall start 9:34am 2026-05-18)",
+  "start": 1779122222382,
+  "last": 1779125633794,
+  "marks": [
+    {
+      "label": "Setup: worktree+deps+timer+topology+reference-pattern study",
+      "atMs": 1779122302754,
+      "deltaMs": 80372
+    },
+    {
+      "label": "Study WRITING-RULES + all file formats (writer brief inputs)",
+      "atMs": 1779122391710,
+      "deltaMs": 88956
+    },
+    {
+      "label": "Author spec part 1/2: chapter-movement map + framing notes (SERIAL — single-author bottleneck, measured)",
+      "atMs": 1779122543815,
+      "deltaMs": 152105
+    },
+    {
+      "label": "Author spec part 2/2: 106-event pool + 5 spans across 8 categories (SERIAL — measured)",
+      "atMs": 1779122826060,
+      "deltaMs": 282245
+    },
+    {
+      "label": "Register civ (navigator-tls + NARRATIVE_FILES) — end of SERIAL spec phase",
+      "atMs": 1779122925542,
+      "deltaMs": 99482
+    },
+    {
+      "label": "PARALLEL chapter drafting: 8 chapters by 4 writers concurrent (wall=longest writer; serial-sum would be ~3x)",
+      "atMs": 1779123765453,
+      "deltaMs": 839911
+    },
+    {
+      "label": "Coordinator assemble: 8 drafts -> narratives/swahili-coast.md, cleanup",
+      "atMs": 1779123818097,
+      "deltaMs": 52644
+    },
+    {
+      "label": "PARALLEL audit: 4 personas (A/B/D/E) concurrent, each wrote its report file",
+      "atMs": 1779124387360,
+      "deltaMs": 569263
+    },
+    {
+      "label": "Coordinator: merge 4 persona reports + triage into ONE batched fix list (Pillar 1)",
+      "atMs": 1779124511978,
+      "deltaMs": 124618
+    },
+    {
+      "label": "PARALLEL apply: 4 fixers concurrent (batched fix list, per-chapter isolated copies)",
+      "atMs": 1779124999921,
+      "deltaMs": 487943
+    },
+    {
+      "label": "Coordinator voice/continuity pass (1 agent, whole-book: de-dup defs, vary source-codas, seams, khums)",
+      "atMs": 1779125617810,
+      "deltaMs": 617889
+    },
+    {
+      "label": "ONE scoped rebuild: npm run parse --tl=swahili-coast (Pillar 2 — 5.2s vs full-corpus minutes)",
+      "atMs": 1779125633794,
+      "deltaMs": 15984
+    }
+  ]
+}
