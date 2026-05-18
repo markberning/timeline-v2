@@ -177,7 +177,7 @@ user); then #11 build/data audit or #13 image liveness (both free).
 | 13 | Image **liveness** (dead Commons thumbnails) | gap on review; `feedback_image_quality` | unknown; HTTP HEAD over enriched manifest | ☐ |
 | 14 | Map↔chapter **count** integrity | gap on review; medieval-europe / ancient-japan splits | per-civ map count vs chapter count | ☑ |
 | 15 | Superseded split-TL artifact sweep | CLAUDE.md (stale `reference-data/medieval-europe.json`, old `public/maps/ancient-japan/`) | deterministic disk diff vs live `NARRATIVE_FILES` | ☑ |
-| 18 | **Corpus re-verify under the new deterministic link process** | 2026-05-17 link-verification redesign (`memory/project_link_verification_redesign`) | every existing civ's event+glossary Wikipedia links re-checked (exists / not disambiguation / not redirected-away / title-stable) + snapshotted; failures fixed by retarget or authored blurb | ☐ |
+| 18 | **Corpus FULL subject-confirm under the new link process** | 2026-05-17 link-verification redesign (`memory/project_link_verification_redesign`) | every existing civ's event+glossary link **(a)** mechanically de-broken (dead/disambig/redirected fixed) **AND (b)** its page subject-confirmed by a human/agent eyeballing title+lead vs the term/event — plausible-but-wrong pages fixed — THEN snapshotted. The strong guarantee, NOT the bootstrap. No model spend; substantial attention. | ☐ |
 
 These have zero marginal cost and surface real bugs. There is no reason to hold
 them behind the billable decision — do them first, independently. **#13–15 are
@@ -187,20 +187,28 @@ actually *loads* (#13); #9 is the *billable* map-quality re-QA, not the *free*
 "every chapter has exactly one map, no orphans" check (#14); and nothing sweeps
 the split-TL leftovers CLAUDE.md flags by hand (#15).
 
-**18. Corpus re-verify under the new deterministic link process (Tier A).**
+**18. Corpus FULL subject-confirm under the new link process (no-AI, substantial).**
 The 2026-05-17 redesign (`memory/project_link_verification_redesign`) removed all
-LLM link-coherence gates: correctness is now confirmed at creation time and the
-ship gate is a deterministic snapshot-compare (page still exists, not a
-disambiguation page, not redirected away, title stable). The existing ~100 civs
-were never snapshotted. Method: run `scripts/verify-links.mjs <civ>` corpus-wide
-to (a) deterministically flag dead / disambiguation / redirected-away slugs and
-(b) write the confirmed-page snapshot per civ; then resolve every flagged slug
-by retarget-to-correct-page or authored house-voice blurb (the canonical "no
-good page" answer — never leave a wrong page). Free, deterministic, no spend.
-**This supersedes the billable framing of #3/#4/#5/#16** — those LLM retros no
-longer exist as designed; their reader-surface risk is now covered by this
-deterministic pass. Separate background cleanup; **not a blocker for the 15
-remaining new civs**, which adopt the new process at creation.
+LLM link-coherence gates: correctness is confirmed at creation time and the ship
+gate is a deterministic snapshot-compare (exists, not disambiguation, not
+redirected away, title stable). The existing ~100 civs were built under the old
+AI gate and never went through the new creation-time confirm. **Scope (locked
+2026-05-17, user: "full"): the STRONG guarantee, not the bootstrap.** Per civ,
+`scripts/verify-links.mjs <civ>`: **(a)** the deterministic sweep — fix every
+dead / disambiguation / redirected-away slug (retarget to the correct page, or
+authored house-voice blurb; never leave a wrong page); **(b)** the full
+subject-confirm — a human/agent reads EVERY remaining link's page (title + lead)
+against the tapped term/event and fixes the plausible-but-wrong ones (a real
+page, exists, not a disambiguation — just not the right subject; the
+deterministic sweep cannot see these). Only then `--write-snapshot`. This is the
+same confirmation new civs get at creation, applied retroactively. **No model
+spend, but real human/agent attention — NOT a trivial mechanical Tier-A item;
+do not let it silently ship as the (a)-only bootstrap.** uyghur-steppe is
+currently at the (a)-only bootstrap level (snapshot adopted from the old gate +
+3 hand-fixed) — it is part of this cohort, not exempt. **Supersedes the billable
+framing of #3/#4/#5/#16** — those LLM retros no longer exist; their
+reader-surface risk is covered here. Separate background cleanup; **not a
+blocker for the 15 remaining new civs**, which get (b) at creation by default.
 
 ## Tier B — Billable model passes (explicit go/no-go required)
 
