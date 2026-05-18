@@ -297,13 +297,32 @@ progress tracked civ-by-civ in `audits/link-coverage-ledger.md`.
 Phase 1 (first batch — the 2 required new-pipeline civs):
 - **goryeo-korea ✅ DONE** (`eddea55`, pushed 2026-05-18). 97 GATE → 0:
   84 born-verified glossary slugs + 1 cross-link + 12 documented waivers,
-  0 blurbs. Re-verified independently on main (link-coverage/lint-links/
-  fix-links/audit-glossary/events/crosslinks all green). Template proven.
-- **uyghur-steppe ⏳ in progress** (worktree agent, 131 GATE).
-Mechanics validated: parallel worktree agent → coordinator copies curated
-files to main → scoped parse → re-run ALL gates on main (verify, don't
-relay) → force-add curated set (NOT git add -A) → commit. Ready to scale
-to 5-agent worst-civ-first legacy batches once uyghur-steppe lands.
+  0 blurbs. Re-verified independently on main. Template proven.
+- **uyghur-steppe ⏳ REDO in progress.** First agent FAILED coordinator
+  review: passed all gates but by **over-waiving 107/131** (incl. real
+  places Samarkand/Bukhara/Kashgar/Karabalgasun, peoples Sogdians/Karluks,
+  and our OWN civs Xiongnu/Tang/Mongols/Abbasid, plus whole-sentence junk
+  waivers). Gate-green ≠ correct — the coverage gate does NOT judge waiver
+  legitimacy. Caught by the mandatory waiver audit (waived-but-never-linked
+  set). Bad files discarded, main restored to HEAD; redo launched with the
+  HARDENED brief.
+
+**HARDENED brief is now mandatory for every sweep civ (lesson from the
+uyghur over-waive):** the agent brief MUST carry (1) explicit closed-list
+waiver categories — subject self-ref-after-first-link / modern-country
+locator / already-linked-earlier-chapter / true universal — and a "never
+waive a real place/people/person/concept or one of our civs or a
+multi-word fragment" rule; (2) the cross-link catalog (our civ ids) so
+recurring sibling-civ references become cross-links not waivers; (3) the
+goryeo ratio as benchmark (~10–25 waivers, not 100+). **Coordinator step
+is non-optional: after gates pass, audit the waiver file** — extract
+waived-but-never-linked terms; any real entity there = reject + redo. See
+memory `feedback_coverage_agents_over_waive`.
+
+Mechanics validated: worktree agent → coordinator copies curated files to
+main → scoped parse → re-run ALL gates on main (verify, don't relay) →
+**waiver audit** → force-add curated set (NOT git add -A) → commit. Scale
+to 5-agent worst-civ-first legacy batches (hardened brief) after uyghur.
 
 ## Commands
 
