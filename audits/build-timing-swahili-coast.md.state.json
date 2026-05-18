@@ -1,7 +1,7 @@
 {
   "runLabel": "swahili-coast — first build the optimized way (wall start 9:34am 2026-05-18)",
   "start": 1779122222382,
-  "last": 1779125633794,
+  "last": 1779126340047,
   "marks": [
     {
       "label": "Setup: worktree+deps+timer+topology+reference-pattern study",
@@ -62,6 +62,11 @@
       "label": "ONE scoped rebuild: npm run parse --tl=swahili-coast (Pillar 2 — 5.2s vs full-corpus minutes)",
       "atMs": 1779125633794,
       "deltaMs": 15984
+    },
+    {
+      "label": "PARALLEL links+summaries (4 agents) + coordinator assemble + born-verified batch fix (0 dead, lint 0 ERR)",
+      "atMs": 1779126340047,
+      "deltaMs": 706253
     }
   ]
 }
