@@ -75,6 +75,18 @@ alarms cleared, genuine "needs a human" + duplicate-photo flags preserved.
   design). Enforcement is `ship-check` at the hasContent flip + the
   build-static shipped-page guard, NOT the build. Sound *iff* ship-check is run.
 
+## Worked example — early-medieval-europe ch3 (shipped 2026-05-18 for review)
+
+Full link-coverage closure of one chapter, as the reference pattern: **46 GATE
+gaps → 0** (43 born-verified glossary links + 3 documented waivers in
+`content/.link-waivers-early-medieval-europe.json`: `monastery` generic/inline-
+defined, `Northumbrian` adjectival form of linked place, `Tang-Song China`
+already a cross-link). 1 term (`peregrinatio pro Christo`) was a dead Wikipedia
+page → authored house-voice blurb, not a guessed slug. `fix-links` 326/326
+PASS, 0 retarget. Pushed/deployed for user review. Note: closing coverage is
+curation-with-judgement (link load-bearing, waive universals), not zeroing a
+number — this chapter is the template.
+
 ## Branch / worktree topology
 
 - `main` — canonical. The fix-links fix + this file commit here.
