@@ -1,7 +1,7 @@
 {
   "runLabel": "swahili-coast — first build the optimized way (wall start 9:34am 2026-05-18)",
   "start": 1779122222382,
-  "last": 1779126340047,
+  "last": 1779126598563,
   "marks": [
     {
       "label": "Setup: worktree+deps+timer+topology+reference-pattern study",
@@ -67,6 +67,11 @@
       "label": "PARALLEL links+summaries (4 agents) + coordinator assemble + born-verified batch fix (0 dead, lint 0 ERR)",
       "atMs": 1779126340047,
       "deltaMs": 706253
+    },
+    {
+      "label": "PARALLEL backward cross-cultural pass: 21 findings into 7 reference TLs (5 agents, step-11 gate, 0 new lint err)",
+      "atMs": 1779126598563,
+      "deltaMs": 258516
     }
   ]
 }

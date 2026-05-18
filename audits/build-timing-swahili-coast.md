@@ -17,3 +17,4 @@ Started: 2026-05-18T16:37:02.382Z
 | 10:33:37 | 10m 17.9s | Coordinator voice/continuity pass (1 agent, whole-book: de-dup defs, vary source-codas, seams, khums) |
 | 10:33:53 | 15.98s | ONE scoped rebuild: npm run parse --tl=swahili-coast (Pillar 2 — 5.2s vs full-corpus minutes) |
 | 10:45:40 | 11m 46.3s | PARALLEL links+summaries (4 agents) + coordinator assemble + born-verified batch fix (0 dead, lint 0 ERR) |
+| 10:49:58 | 4m 18.5s | PARALLEL backward cross-cultural pass: 21 findings into 7 reference TLs (5 agents, step-11 gate, 0 new lint err) |
