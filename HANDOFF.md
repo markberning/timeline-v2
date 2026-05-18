@@ -4,20 +4,23 @@ _Current 2026-05-17 (late session, post hard-stop). Overwrite the dated/state se
 
 ---
 
-## ▶ STATE — corpus link cleanup DONE (no-AI), all on `main` & LIVE (2026-05-17)
+## ▶ STATE — corpus link layer DONE + LOCKED, born-verified gate live (2026-05-17)
 
-`main` @ **`9e5ad11`**, pushed, deployed (wrangler version `9467f20a`). stuffhappened.com current. 102 `hasContent` civs. Nothing parked, nothing mid-flight.
+`main` @ **`2ab0fe9`**, pushed, deployed (wrangler version `a3d03102`). stuffhappened.com current. 102 `hasContent` civs. Nothing parked, nothing mid-flight, no open tasks.
 
-**This session — backlog #18 executed via a no-AI tool the user asked for (`8334ae9`, `9e5ad11`):**
-- New deterministic tools: `scripts/fix-links.mjs` (page-valid + subject-word-overlap + photo filename/caption + reuse check; `--apply` drops recycled pictures keeping the single best match; `--emit-flags` JSON), `scripts/retarget-links.mjs` (Wikipedia-search retarget, conservative), `scripts/audit-retargets.mjs` (coordinator safety sweep — catches confidently-wrong auto-matches), `scripts/apply-decisions.mjs` (single-writer apply). NO AI anywhere; AI remains maps-only.
-- **Pictures:** 2,340+ recycled/off-topic images tidied corpus-wide (merged into `content/.image-rejections.json`, `1cf9cbe`).
-- **Links:** corpus scan flagged **801** broken/wrong links across 99 civs. Resolved by **8 parallel resolver agents** (disjoint civ groups, per-run wiki cache, agents write only `/tmp/decisions/*.json`, coordinator single-writer applies) + a coordinator safety sweep (caught Orban→cannon-founder-not-modern-PM, White Lotus→society-not-HBO-show, poetry-work→author-not-TV-actor, 20 vague-parent fixes). Final: **481 retargeted, 208 → authored house-voice definitions, 111 false-alarm synonyms left alone.** `lint:links --strict` 0 ERROR / 102 civs; corpus broken-link 801→111 (residual = correct pages under a synonym name — expected, harmless).
-- `audits/corpus-remediation-backlog.md` #18 marked DONE. Memory: `project_fix_links_tool`.
+**This session — backlog #18 fully executed AND turned into a prevention gate (`8334ae9` → `2ab0fe9`):**
+- New no-AI tools: `scripts/fix-links.mjs` (page-valid + subject-word-overlap + photo filename/caption + reuse; `--apply` tidies photos; `--emit-flags`; **`--strict`/`--write-baseline` = ship gate**; respects `.image-rejections.json`; `--tl=`), plus LEGACY-100-CLEANUP-ONLY `retarget-links.mjs` / `collect-autofails.mjs` / `audit-retargets.mjs` / `apply-decisions.mjs`. AI remains maps-only.
+- **Round 1** (chapter-linked terms): 801 flags / 99 civs → 481 retarget / 208 authored blurb / 111 keep, via 8 parallel resolver agents + coordinator safety sweep (caught Orban→cannon-founder, White-Lotus→not-HBO, etc.).
+- **Round 2** (wider event pool via `collect-autofails`): 119 → 88 retarget / 18 blurb / 13 keep.
+- **`lib/wiki-verify.mjs` hardened**: one malformed slug no longer poisons its 20-slug batch (was false-failing 11 good safavid links — a latent corpus-wide fragility).
+- **~2,340 pictures tidied. Fresh snapshots all 102 civs: 0 auto-fail corpus-wide** — the genuinely-locked state.
+- **Born-verified pipeline**: `audits/fix-links-baseline.json` grandfathers the legacy 100 (249 = 78 synonym false-alarms + 171 reused photos, **0 dead**); new civs zero-tolerance; `fix-links --strict` wired into `ship-check`. CLAUDE.md steps 6/7/10b/14 rewritten: links born-verified at creation, snapshot chain demoted to a rot/regression net, cleanup tools marked legacy-only. Memory: `project_fix_links_tool` (DONE+SHIPPED). `audits/corpus-remediation-backlog.md` #18 = DONE.
 
-**OWED / next:**
-- **Snapshot-write step**: #18 did the de-break + subject-confirm + de-dupe but did NOT run `verify-links.mjs --write-snapshot` per civ. If the deterministic ship gate is to *enforce* this corpus state, snapshots still need writing (mechanical, no AI).
+**OWED / next (none urgent, nothing mid-flight):**
+- **~226 authored definitions are unreviewed** — when no good page existed we wrote our own 1-liner; nothing has accuracy-checked them (backlog #17, now elevated; biggest thing *introduced* this session).
 - **uyghur-steppe G4 maps still OWED** (8 ch; `map-prompts/uyghur-steppe.md` authored; `node --env-file=.env.local scripts/maps-build.mjs uyghur-steppe` → rebuild → deploy → push; `hasContent` already true; reader degrades gracefully).
-- Long-matchText tightening across the corpus still grandfathered in `audits/matchtext-baseline.json` (deterministic, no AI; fix-links already flags it).
+- **Missing-link coverage** (backlog #7) — we fixed *wrong* links, never added links that *should* exist (e.g. "Frisia" unlinked in early-medieval-europe). Distinct, lower-stakes.
+- Long-matchText tightening still grandfathered in `audits/matchtext-baseline.json` (deterministic; fix-links flags it).
 
 ---
 ### (historical) prior session — link pipeline rebuilt, AI is maps-only

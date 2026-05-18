@@ -187,7 +187,7 @@ actually *loads* (#13); #9 is the *billable* map-quality re-QA, not the *free*
 "every chapter has exactly one map, no orphans" check (#14); and nothing sweeps
 the split-TL leftovers CLAUDE.md flags by hand (#15).
 
-**18. Corpus FULL subject-confirm under the new link process (no-AI, substantial).**
+**18. Corpus FULL subject-confirm under the new link process (no-AI, substantial). — ☑ DONE + SHIPPED 2026-05-17 (`2ab0fe9`).** Executed via `fix-links`/`retarget-links`/`audit-retargets` + 8 parallel agents + coordinator safety sweep + a wider-pool round 2; 0 broken links corpus-wide, fresh snapshots all 102 civs, and promoted to a born-verified ship gate (`fix-links --strict`, `audits/fix-links-baseline.json`). See `memory/project_fix_links_tool`. Original spec below, for history:
 The 2026-05-17 redesign (`memory/project_link_verification_redesign`) removed all
 LLM link-coherence gates: correctness is confirmed at creation time and the ship
 gate is a deterministic snapshot-compare (exists, not disambiguation, not
