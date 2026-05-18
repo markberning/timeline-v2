@@ -663,6 +663,19 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
 async function main() {
   mkdirSync(CONTENT_DIR, { recursive: true })
 
+  // Iteration fast path: `npm run parse -- --tl=<civ>` rebuilds ONLY that
+  // civ's content (+ its offline manifest) and skips the corpus-wide search
+  // index. Minutes → seconds while iterating one civ. The full parse (no
+  // --tl) is unchanged and is what prebuild/ship/deploy run, so prod is
+  // never stale. Pass 1 below stays corpus-wide regardless — cross-links in
+  // the scoped civ must still resolve titles in every other civ.
+  const onlyTl = process.argv.find(a => a.startsWith('--tl='))?.slice(5)
+  if (onlyTl && !Object.values(NARRATIVE_FILES).includes(onlyTl)) {
+    console.error(`--tl=${onlyTl}: unknown tlId (not in NARRATIVE_FILES)`)
+    process.exit(2)
+  }
+  if (onlyTl) console.log(`[scoped] parsing ONLY ${onlyTl} — corpus search-index/manifests NOT regenerated; run full \`npm run parse\` before ship/deploy`)
+
   // Pass 1: collect chapter titles + labels + region for every TL so cross-links
   // can resolve targets without a second full parse.
   const tlMetaMap = new Map<string, TlMeta>()
@@ -682,12 +695,19 @@ async function main() {
   }
 
   for (const [filename, tlId] of Object.entries(NARRATIVE_FILES)) {
+    if (onlyTl && tlId !== onlyTl) continue
     const path = join(NARRATIVES_DIR, filename)
     if (existsSync(path)) {
       await parseNarrative(filename, tlId, tlMetaMap)
     } else {
       console.warn(`Skipping ${filename}: file not found`)
     }
+  }
+
+  if (onlyTl) {
+    console.log(`[scoped] ${onlyTl} parsed — skipped corpus search-index regen (iteration fast path). Run full \`npm run parse\` before ship/deploy.`)
+    console.log('Done!')
+    return
   }
 
   // ── Generate search index ──────────────────────────────────────
