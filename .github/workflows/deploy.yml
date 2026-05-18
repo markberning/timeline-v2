@@ -1,0 +1,58 @@
+# Deploy to Cloudflare on push to main.
+#
+# WHY THIS EXISTS: the previous deploy path was a Cloudflare-dashboard Git
+# integration (no repo file), which silently stopped firing on 2026-05-18 —
+# pushes landed on GitHub but no deployment was created, and prod went stale
+# with no signal. This workflow makes deploy an explicit, version-controlled,
+# in-repo step so a push that lands == a deploy that runs (and fails loudly
+# if the build/gate fails, instead of silently not deploying).
+#
+# ONE-TIME ACTIVATION (only the repo owner can do this — I cannot set secrets):
+#   1. Cloudflare dashboard → My Profile → API Tokens → Create Token
+#      → "Edit Cloudflare Workers" template (Account: Workers Scripts:Edit,
+#      Account Settings:Read; Zone not required for workers.dev/custom-domain
+#      static assets).
+#   2. GitHub repo → Settings → Secrets and variables → Actions → New secret:
+#        CLOUDFLARE_API_TOKEN   = <the token above>
+#        CLOUDFLARE_ACCOUNT_ID  = 3149ac14b33df309a6ce83201305a973
+#   3. Once both secrets exist, every push to main deploys automatically.
+#      Then DISCONNECT the old Cloudflare-dashboard Git integration to avoid
+#      double deploys.
+# Until activated this workflow is inert; manual `npx wrangler deploy`
+# (see STATUS.md) remains the deploy path.
+
+name: Deploy to Cloudflare
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+concurrency:
+  group: deploy-main
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build (runs the prebuild gate + parse, then static export)
+        run: npm run build
+
+      - name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
