@@ -164,6 +164,7 @@ const NARRATIVE_FILES: Record<string, string> = {
   'edo-japan.md': 'edo-japan',
   'gokturk-khaganate.md': 'gokturk-khaganate',
   'uyghur-steppe.md': 'uyghur-steppe',
+  'swahili-coast.md': 'swahili-coast',
   'mali-empire.md': 'mali-empire',
   'songhai-empire.md': 'songhai-empire',
   'tang-song-china.md': 'tang-song-china',

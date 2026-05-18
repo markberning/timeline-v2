@@ -58,6 +58,7 @@ export const NAVIGATOR_TLS: NavigatorTl[] = [
   { id: 'carthage', label: 'Carthage', subtitle: "Hannibal's Mediterranean trade empire", region: 'africa', startYear: -814, endYear: -146, hasContent: true },
   { id: 'late-egypt', label: 'Late Egypt', subtitle: 'pharaohs under foreign rule', region: 'africa', startYear: -664, endYear: -332, hasContent: true },
   { id: 'kingdom-of-aksum', label: 'Kingdom of Aksum', subtitle: "Ethiopia's Red Sea trade empire", region: 'africa', startYear: 80, endYear: 940, hasContent: true },
+  { id: 'swahili-coast', label: 'The Swahili Coast', subtitle: 'the African civilization that chose the ocean', region: 'africa', startYear: 600, endYear: 1700, hasContent: false },
   { id: 'mali-empire', label: 'Mali Empire', subtitle: "west Africa's gold, salt, and Mansa Musa", region: 'africa', startYear: 1235, endYear: 1670, hasContent: true },
   { id: 'songhai-empire', label: 'Songhai Empire', subtitle: "Timbuktu's last great ruler", region: 'africa', startYear: 1464, endYear: 1591, hasContent: true },
 
