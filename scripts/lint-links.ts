@@ -29,6 +29,15 @@ const NARR = join(ROOT, 'narratives')
 const CONTENT = join(ROOT, 'content')
 const CACHE = join(ROOT, 'audits', '.slug-validation-cache.json')
 const UA = 'timeline-v2-lint-links/1.0 (https://stuffhappened.com)'
+// matchText length gate. Sentence-like matchText (>6 words or a comma) is a
+// reader-facing defect: the link underline spans a whole clause instead of
+// the term. Promoted from WARN to a --strict ERROR, but the existing corpus
+// is grandfathered via audits/matchtext-baseline.json (mirrors
+// density-baseline) so the corpus build doesn't break — only new civs and
+// de-grandfathered civs are held to the bar. Per-civ exact-string waivers in
+// content/.matchtext-waivers-<tl>.json for a rare legit long proper noun.
+const MT_BASELINE = join(ROOT, 'audits', 'matchtext-baseline.json')
+const mtBaseline: Record<string, boolean> = existsSync(MT_BASELINE) ? JSON.parse(readFileSync(MT_BASELINE, 'utf-8')) : {}
 
 const args = process.argv.slice(2)
 const onlyTl = args.find(a => a.startsWith('--tl='))?.slice(5)
@@ -39,6 +48,7 @@ const skipSlugs = args.includes('--no-slugs')
 // NEW civ to see what the parser will drop; too imprecise to ever build-break,
 // so it is opt-in and WARN-only.
 const auditContention = args.includes('--contention')
+const writeMtBaseline = args.includes('--write-matchtext-baseline')
 
 // Generic slugs whose Wikipedia lead image is likely the wrong culture —
 // flag for a manual image sanity check (the `Longhouse`→totem-pole class).
@@ -91,6 +101,15 @@ function matchesBody(matchText: string, body: string): boolean {
   }
 }
 
+const mtWaiverCache = new Map<string, Set<string>>()
+function mtWaivers(tl: string): Set<string> {
+  if (!mtWaiverCache.has(tl)) {
+    const arr = loadJson<string[]>(join(CONTENT, `.matchtext-waivers-${tl}.json`)) ?? []
+    mtWaiverCache.set(tl, new Set(arr))
+  }
+  return mtWaiverCache.get(tl)!
+}
+
 function checkMatchText(tl: string, ch: string, kind: string, mt: string, title: string, body: string) {
   if (!mt || !mt.trim()) { add(tl, ch, kind, 'ERROR', `empty matchText`); return }
   // Non-ASCII matchText is fine now: the parser uses Unicode-aware boundaries,
@@ -98,7 +117,10 @@ function checkMatchText(tl: string, ch: string, kind: string, mt: string, title:
   // written. `matchesBody` below is the sole judge — no separate ASCII rule.
   if (/^[^\p{L}\p{N}]/u.test(mt) || /[^\p{L}\p{N}'’]$/u.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} has leading/trailing punctuation`)
   const words = mt.trim().split(/\s+/)
-  if (words.length > 6 || /,/.test(mt)) add(tl, ch, kind, 'WARN', `matchText ${JSON.stringify(mt)} looks sentence-like (likely sloppy)`)
+  if ((words.length > 6 || /,/.test(mt)) && !mtWaivers(tl).has(mt)) {
+    const gf = !!mtBaseline[tl]
+    add(tl, ch, kind, (strict && !gf) ? 'ERROR' : 'WARN', `matchText ${JSON.stringify(mt)} looks sentence-like (likely sloppy — should be the tight term, not the clause)${gf ? ' [grandfathered]' : ''}`)
+  }
   const tl2 = title.toLowerCase(), mtl = mt.toLowerCase()
   // Only flag multi-word matchText that overlaps the title (single proper
   // nouns legitimately recur in titles, e.g. "Lindisfarne").
@@ -272,6 +294,14 @@ async function validateSlugs(slugs: string[]): Promise<Record<string, boolean>> 
 }
 
 async function main() {
+if (writeMtBaseline) {
+  const offenders = [...new Set(issues.filter(i => /looks sentence-like/.test(i.msg)).map(i => i.tl))].sort()
+  const out: Record<string, boolean> = {}
+  for (const t of offenders) out[t] = true
+  writeFileSync(MT_BASELINE, JSON.stringify(out, null, 2) + '\n')
+  console.log(`Wrote ${MT_BASELINE}: ${offenders.length} civs grandfathered for sentence-like matchText`)
+  process.exit(0)
+}
 if (!skipSlugs && slugSet.size) {
   const verdict = await validateSlugs([...slugSet])
   for (const { slug, tl, ch } of slugRefs) {

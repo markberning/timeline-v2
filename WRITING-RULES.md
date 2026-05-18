@@ -370,6 +370,7 @@ The parse script injects event, glossary, and cross-links into every bullet afte
 - **Phrasing should mirror the narrative's plain-text spans** so the existing event/glossary/cross-link entries hit. If the narrative calls it "the 4.2 kiloyear event," the bullet should too — not "the 4.2-kya drought event."
 - **No markdown formatting inside bullets** (no bold, no italics, no links). Plain text only. The parse script's word-boundary regex silently fails on anything starting or ending with a non-word character, same rules as `content/.event-links-{tlId}.json`.
 - **No parentheticals immediately adjacent to a key noun** that would break up a matchText span. "Enheduanna (high priestess of Nanna)" is fine, but "Enheduanna, high priestess of Nanna at Ur," flows as one linkable phrase.
+- **The linkable term must be a short standalone phrase** (≤6 words, no internal comma), so the curated matchText is the *term* and not a clause. A link underline spanning a whole sentence is a reader-facing defect — now a gated `lint:links --strict` ERROR for new civs (see CLAUDE.md step 6). Write so the proper noun / concept reads as its own tight phrase, not buried mid-clause.
 - After parsing, eyeball the collapsed card on dev to confirm the links you expect actually rendered. If a bullet has zero links but the chapter has events and glossary coverage, the phrasing is probably off — rewrite the bullet to match the narrative's wording.
 
 ### dateRange format
