@@ -8,6 +8,65 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ---
 
+## ▶ COLD-START HANDOFF — 2026-05-18 (session cleared here; read this FIRST)
+
+**Git:** `main` == `origin/main` @ `fb2114c`, tree clean **except** the
+deliberately-uncommitted iOS swipe fix (below). Everything else is
+committed + pushed.
+
+**Done & durable:**
+- **Word-finder** — `scripts/link-coverage.ts` S7 rare-word signal: a
+  lowercase word appearing in ≤6 of 102 civ narratives gets an **ADVISORY**
+  `rare` tag. It never gates (verified: emep ch3 still 0 GATE) so it cannot
+  block a build. User **ACCEPTED** it as a noisy-but-safe curator hint; the
+  clean version (subtract a common-English word list) is deliberately
+  deferred as a rabbit-hole — revisit only if noise slows real curation.
+- **Optimization Pillar 2** — `npm run parse -- --tl=<civ>` rebuilds only
+  that civ (~3s vs full-corpus minutes). Opt-in; default/prebuild/ship/deploy
+  path is unchanged so prod is never stale. **OUTSTANDING:** not yet
+  byte-verified identical to a full parse — confirm before relying on the
+  fast path (snapshot a civ's content, scoped-parse, full-parse, diff).
+- emep **ch3** fully link-curated + the flat-earth prose fix, LIVE on prod
+  (manual deploy). Repo made self-contained (`df41b09` committed 2 event-link
+  files that were local-only).
+
+**Next — LOCKED SEQUENCE, do in order (`audits/build-optimization.md`):**
+1. Finish the optimization: **Pillar 1** = batch-fixes discipline (process,
+   no code — collect all findings, one apply pass, one rebuild, one review;
+   never drip). **Pillar 3** = restructure read/suggest/apply (shard reads,
+   push judgement to deterministic tools, apply per-chapter in parallel
+   within the model concurrency ceiling).
+2. THEN the **emep ch3 → 3-chapter split** — map proposed + user-approved in
+   `audits/build-optimization.md`. It is the **acceptance test** of the
+   word-finder + optimization. **User asked for per-step timing logged during
+   this test** — bake timestamps into the steps and emit a before/after
+   ledger (a deterministic timing log, NOT a babysitting agent). Do NOT start
+   the split before step 1 is done.
+
+**Uncommitted by design — do not lose, do not deploy unconfirmed:** iOS
+text-selection-vs-swipe fix in `src/components/narrative-reader.tsx` +
+`chapter-accordion.tsx` (both gesture handlers bail when a text selection is
+active). Correct, local-only, **awaiting the user's on-device iPhone test**
+before commit + deploy.
+
+**Auto-deploy: PARKED (user deprioritized).** `deploy.yml` no longer runs on
+push (stops the failure emails). Manual deploy is the working path:
+`rm -rf out && npm run build && npx wrangler deploy` (wrangler OAuth auth on
+this Mac). Diagnostic for whenever it's resumed: a faithful clean
+`npm ci && npm run build` **passes (exit 0)** — so the remaining Action
+failure is the **Cloudflare deploy step**, almost certainly the API token's
+permission scope. Resume path: recreate the token via the **"Edit Cloudflare
+Workers" template** (not a narrow custom token), update the
+`CLOUDFLARE_API_TOKEN` GitHub secret, re-add the `push:` trigger in
+`deploy.yml`. Cloudflare secrets are set; the chat-exposed token was rolled
+(dead).
+
+**Communication (auto-inherited via memory + `~/.claude/CLAUDE.md`):** every
+message to the user begins with the literal ***Message to you*** then plain
+normal text — plain language, no jargon, lead with the point, short.
+
+---
+
 ## Operating model (durable — this is how this project is run)
 
 1. **One writer at a time on `main`.** Concurrent work goes in an isolated
