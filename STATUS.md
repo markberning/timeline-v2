@@ -56,14 +56,20 @@ alarms cleared, genuine "needs a human" + duplicate-photo flags preserved.
   are on `main`; `ship-check.mjs` line 87 runs the NEW detector. Verified:
   legacy `mali-empire --strict` = 281 gaps / **0 NEW** → passes (102 not
   broken); detector genuinely surfaces real recurring-unlinked entities.
-  - **OPEN DECISION (production hole):** the grandfather baseline was snapshotted
-    with `uyghur-steppe` (a the-17 *new*-roster civ) already present, so it
-    passes `--strict` with **131 gaps / 0 NEW** — grandfathered, not gated.
-    "New civs zero-tolerance" currently only holds for civs created *after* the
-    snapshot. Fix = regenerate baseline scoped to the **legacy 102 only**
-    (`--write-coverage-baseline` minus the-17 roster) so new production is
-    actually held to coverage at creation. User-gated (uyghur shipped text-only
-    by explicit exception — decide if it must also clear coverage).
+  - **RESOLVED 2026-05-18 (user-approved).** Baseline surgically scoped to the
+    **100 legacy civs only** — `uyghur-steppe` (131) and `goryeo-korea` (97),
+    both the-17 *new-pipeline* civs, removed from
+    `audits/link-coverage-baseline.json` (102→100 keys; the 100 legacy entries
+    left byte-identical → zero risk to them). Verified: uyghur-steppe &
+    goryeo-korea `--strict` now **exit 1 (gated)**; mali-empire & ancient-rome
+    `--strict` still **exit 0 (legacy untouched)**. New production is now
+    actually held to coverage at creation.
+  - **Follow-on (NOT started — not deferred-#7):** uyghur-steppe & goryeo-korea
+    are live (`hasContent:true`); de-grandfathering does NOT unship them and
+    does not change the site, but their `ship-check` coverage gate now blocks
+    until their **228 surfaced gaps** (131+97) are linked or waived. That is
+    new-pipeline debt distinct from the DEFERRED legacy #7 (22,877). Closing it
+    is real work; do it before treating those two as pipeline-complete.
 - **The build itself does not validate links** (`prebuild` gate =
   `lint-links --no-slugs && lint-density`, no fix-links/coverage — speed
   design). Enforcement is `ship-check` at the hasContent flip + the
