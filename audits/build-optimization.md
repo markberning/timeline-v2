@@ -108,7 +108,11 @@ joins the batch — it does not trigger its own cycle.
 **Pillar 2 — scoped rebuild while iterating.** `npm run parse -- --tl=<civ>`
 (seconds) for every iteration. The full corpus `npm run parse` runs ONLY at
 ship/deploy (prebuild/ship-check already do this) so prod is never stale.
-Byte-verified equivalent for per-civ artifacts.
+Byte-verified equivalent for per-civ artifacts. **At ship time, after the
+`hasContent` flip, run `npm run parse:index` (≈1s, byte-identical to a full
+parse's index step) — NOT a standalone full `npm run parse` — to get the
+civ into the search index for the ship-check re-confirm.** The deploy's
+`npm run build`→`prebuild` then runs the one unavoidable full parse.
 
 **Pillar 3 — parallel read/suggest/apply, one coordinator writes.**
 - *Read:* per-chapter line-level audits run in parallel helper agents (small
@@ -168,7 +172,24 @@ not process waste:**
   "uniquely African" sewn-hull claim, a cross-TL factual contradiction about
   African coinage). Nothing waved through.
 
-**Next lever if pushing further (not started):** the post-`hasContent`-flip
-full corpus parse (~8m) exists only to add the civ to the search index — a
-targeted index-append would reclaim it. Sharding the coordinator voice pass is
-the other candidate. Neither is required; the targeted bottleneck is solved.
+**Lever DONE 2026-05-18 — `npm run parse:index` (post-flip ~8m → ~1s):**
+the post-`hasContent`-flip full corpus parse existed only to add the new civ
+to `public/search-index.json`; the index step never re-parsed markdown (it
+reads the already-current `content/*.json`), so re-running the whole corpus
+parse was pure waste. `scripts/parse-narratives.ts` now extracts the index
+build into one shared `generateSearchIndex()` and `--search-index-only`
+(npm script `parse:index`) runs ONLY that. **Proven byte-identical** to the
+full parse's index (same sha256, `cmp -s` clean) — a provably-equivalent
+transform, zero risk. **Ship-step change:** after the `hasContent` flip run
+`npm run parse:index` (≈1s) instead of a full `npm run parse` before the
+ship-check re-confirm. (The deploy's own `npm run build`→`prebuild` still
+runs the full parse — that is the unavoidable, by-design ship artifact, not
+this step.) Reclaims ~6.5% of total civ-build wall clock.
+
+**Remaining lever (not started, lower value / quality-risky):** sharding the
+coordinator whole-book voice/continuity pass (~10m, ~8%). It is the one-mind
+de-dup/seam pass — splitting it trades coherence quality for time. Not
+recommended unless explicitly pushing. The targeted bottleneck is solved and
+the largest remaining costs (Gemini maps ~28m, the by-design pre-ship full
+parse, the one-mind coherence pass, the single-author spec) are external or
+quality-load-bearing, not process waste.

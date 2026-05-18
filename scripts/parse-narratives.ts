@@ -661,57 +661,12 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
   console.log(`  → ${manifestPath} (${mapUrls.length} maps, ${thumbnails.length} thumbnails)`)
 }
 
-async function main() {
-  mkdirSync(CONTENT_DIR, { recursive: true })
-
-  // Iteration fast path: `npm run parse -- --tl=<civ>` rebuilds ONLY that
-  // civ's content (+ its offline manifest) and skips the corpus-wide search
-  // index. Minutes → seconds while iterating one civ. The full parse (no
-  // --tl) is unchanged and is what prebuild/ship/deploy run, so prod is
-  // never stale. Pass 1 below stays corpus-wide regardless — cross-links in
-  // the scoped civ must still resolve titles in every other civ.
-  const onlyTl = process.argv.find(a => a.startsWith('--tl='))?.slice(5)
-  if (onlyTl && !Object.values(NARRATIVE_FILES).includes(onlyTl)) {
-    console.error(`--tl=${onlyTl}: unknown tlId (not in NARRATIVE_FILES)`)
-    process.exit(2)
-  }
-  if (onlyTl) console.log(`[scoped] parsing ONLY ${onlyTl} — corpus search-index/manifests NOT regenerated; run full \`npm run parse\` before ship/deploy`)
-
-  // Pass 1: collect chapter titles + labels + region for every TL so cross-links
-  // can resolve targets without a second full parse.
-  const tlMetaMap = new Map<string, TlMeta>()
-  for (const [filename, tlId] of Object.entries(NARRATIVE_FILES)) {
-    const path = join(NARRATIVES_DIR, filename)
-    if (!existsSync(path)) continue
-    const md = readFileSync(path, 'utf-8')
-    const rawChapters = splitIntoChapters(md)
-    const refData = loadReferenceData(tlId)
-    const accent = getAccentColors(tlId)
-    tlMetaMap.set(tlId, {
-      label: refData.label,
-      chapters: new Map(rawChapters.map(c => [c.number, c.title])),
-      colorLight: accent.text,
-      colorDark: accent.base,
-    })
-  }
-
-  for (const [filename, tlId] of Object.entries(NARRATIVE_FILES)) {
-    if (onlyTl && tlId !== onlyTl) continue
-    const path = join(NARRATIVES_DIR, filename)
-    if (existsSync(path)) {
-      await parseNarrative(filename, tlId, tlMetaMap)
-    } else {
-      console.warn(`Skipping ${filename}: file not found`)
-    }
-  }
-
-  if (onlyTl) {
-    console.log(`[scoped] ${onlyTl} parsed — skipped corpus search-index regen (iteration fast path). Run full \`npm run parse\` before ship/deploy.`)
-    console.log('Done!')
-    return
-  }
-
-  // ── Generate search index ──────────────────────────────────────
+// ── Generate the corpus search index from already-parsed content/*.json ──
+// Reads each civ's content JSON (NOT the markdown — no re-parse) and emits
+// public/search-index.json. Pure function of content/*.json + hasContent;
+// called by the full parse AND the --search-index-only fast path, so both
+// produce byte-identical output by construction.
+async function generateSearchIndex() {
   console.log('Generating search index...')
   const searchIndex: { tlId: string; label: string; region: string; chapters: { number: number; title: string; sentences: string[] }[] }[] = []
 
@@ -756,6 +711,72 @@ async function main() {
   writeFileSync(searchPath, JSON.stringify(searchIndex))
   const sizeMB = (Buffer.byteLength(JSON.stringify(searchIndex)) / 1024 / 1024).toFixed(1)
   console.log(`  → ${searchPath} (${searchIndex.length} TLs, ${sizeMB} MB)`)
+}
+
+async function main() {
+  mkdirSync(CONTENT_DIR, { recursive: true })
+
+  // Iteration fast path: `npm run parse -- --tl=<civ>` rebuilds ONLY that
+  // civ's content (+ its offline manifest) and skips the corpus-wide search
+  // index. Minutes → seconds while iterating one civ. The full parse (no
+  // --tl) is unchanged and is what prebuild/ship/deploy run, so prod is
+  // never stale. Pass 1 below stays corpus-wide regardless — cross-links in
+  // the scoped civ must still resolve titles in every other civ.
+  const onlyTl = process.argv.find(a => a.startsWith('--tl='))?.slice(5)
+  if (onlyTl && !Object.values(NARRATIVE_FILES).includes(onlyTl)) {
+    console.error(`--tl=${onlyTl}: unknown tlId (not in NARRATIVE_FILES)`)
+    process.exit(2)
+  }
+  if (onlyTl) console.log(`[scoped] parsing ONLY ${onlyTl} — corpus search-index/manifests NOT regenerated; run full \`npm run parse\` before ship/deploy`)
+
+  // Post-hasContent-flip fast path: rebuild ONLY public/search-index.json
+  // from the already-current content/*.json, skipping the redundant
+  // corpus-wide narrative re-parse (~8min → seconds). Used at ship time:
+  // the scoped `parse --tl=<civ>` during the build already wrote the new
+  // civ's content JSON; after flipping hasContent this is all that's left
+  // to do. Same code as the full parse's index step → byte-identical.
+  if (process.argv.includes('--search-index-only')) {
+    console.log('[search-index-only] skipping narrative re-parse — rebuilding public/search-index.json from existing content/*.json')
+    await generateSearchIndex()
+    console.log('Done!')
+    return
+  }
+
+  // Pass 1: collect chapter titles + labels + region for every TL so cross-links
+  // can resolve targets without a second full parse.
+  const tlMetaMap = new Map<string, TlMeta>()
+  for (const [filename, tlId] of Object.entries(NARRATIVE_FILES)) {
+    const path = join(NARRATIVES_DIR, filename)
+    if (!existsSync(path)) continue
+    const md = readFileSync(path, 'utf-8')
+    const rawChapters = splitIntoChapters(md)
+    const refData = loadReferenceData(tlId)
+    const accent = getAccentColors(tlId)
+    tlMetaMap.set(tlId, {
+      label: refData.label,
+      chapters: new Map(rawChapters.map(c => [c.number, c.title])),
+      colorLight: accent.text,
+      colorDark: accent.base,
+    })
+  }
+
+  for (const [filename, tlId] of Object.entries(NARRATIVE_FILES)) {
+    if (onlyTl && tlId !== onlyTl) continue
+    const path = join(NARRATIVES_DIR, filename)
+    if (existsSync(path)) {
+      await parseNarrative(filename, tlId, tlMetaMap)
+    } else {
+      console.warn(`Skipping ${filename}: file not found`)
+    }
+  }
+
+  if (onlyTl) {
+    console.log(`[scoped] ${onlyTl} parsed — skipped corpus search-index regen (iteration fast path). Run full \`npm run parse\` before ship/deploy.`)
+    console.log('Done!')
+    return
+  }
+
+  await generateSearchIndex()
 
   console.log('Done!')
 }

@@ -58,6 +58,16 @@ build aborting at the density gate, NOT a tsx/sandbox failure — verified.
   validated where aimed (fix loop no longer the bottleneck; scoped rebuild 5s
   vs 8min; creation parallelized); remaining cost is vendor map API + the
   mandatory full-parse ship tax, not process waste. Zero quality loss.
+- **Build-opti 4th refinement DONE 2026-05-18 — `npm run parse:index`.**
+  Post-`hasContent`-flip parse (~8m, the "get civ into search index" step)
+  → **~1s**, **proven byte-identical** to the full parse's index (same
+  sha256, `cmp -s` clean). `parse-narratives.ts` now shares one
+  `generateSearchIndex()`; `--search-index-only` runs only it. Ship step:
+  after the flip use `npm run parse:index`, not a standalone full parse
+  (the deploy's `npm run build`→prebuild still does the one unavoidable
+  full parse). Docs+memory updated. Multi-civ guidance: 2 civs via
+  STAGGERED pipeline only (separate worktrees; backward-pass +
+  ship/parse/deploy serialized; never shrink a gate's fan-out for speed).
 - emep **ch3** fully link-curated + the flat-earth prose fix, LIVE on prod
   (manual deploy). Repo made self-contained (`df41b09` committed 2 event-link
   files that were local-only).
