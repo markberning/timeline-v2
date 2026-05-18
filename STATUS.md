@@ -21,27 +21,29 @@ committed + pushed.
   block a build. User **ACCEPTED** it as a noisy-but-safe curator hint; the
   clean version (subtract a common-English word list) is deliberately
   deferred as a rabbit-hole — revisit only if noise slows real curation.
-- **Optimization Pillar 2** — `npm run parse -- --tl=<civ>` rebuilds only
-  that civ (~3s vs full-corpus minutes). Opt-in; default/prebuild/ship/deploy
-  path is unchanged so prod is never stale. **OUTSTANDING:** not yet
-  byte-verified identical to a full parse — confirm before relying on the
-  fast path (snapshot a civ's content, scoped-parse, full-parse, diff).
+- **Build optimization — ALL 3 PILLARS DONE + codified 2026-05-18.**
+  Pillar 1 (batch-don't-drip) + Pillar 3 (parallel read/suggest/apply, one
+  coordinator) codified as the locked build procedure in
+  `audits/build-optimization.md` + memory `project_build_optimization_done`.
+  Pillar 2 (`npm run parse -- --tl=<civ>`, ~2s) **byte-verified**: scoped
+  phoenicia output == committed full-parse content JSON + manifest, clean
+  tree. Deterministic suggest tools Pillar 3 needs all confirmed present.
+  `scripts/build-timer.mjs` (begin/mark/summary) is the deterministic
+  per-step timing ledger for the acceptance test — NOT a monitoring agent.
 - emep **ch3** fully link-curated + the flat-earth prose fix, LIVE on prod
   (manual deploy). Repo made self-contained (`df41b09` committed 2 event-link
   files that were local-only).
 
-**Next — LOCKED SEQUENCE, do in order (`audits/build-optimization.md`):**
-1. Finish the optimization: **Pillar 1** = batch-fixes discipline (process,
-   no code — collect all findings, one apply pass, one rebuild, one review;
-   never drip). **Pillar 3** = restructure read/suggest/apply (shard reads,
-   push judgement to deterministic tools, apply per-chapter in parallel
-   within the model concurrency ceiling).
-2. THEN the **emep ch3 → 3-chapter split** — map proposed + user-approved in
-   `audits/build-optimization.md`. It is the **acceptance test** of the
-   word-finder + optimization. **User asked for per-step timing logged during
-   this test** — bake timestamps into the steps and emit a before/after
-   ledger (a deterministic timing log, NOT a babysitting agent). Do NOT start
-   the split before step 1 is done.
+**Next — LOCKED SEQUENCE:**
+1. ✅ **DONE 2026-05-18** — optimization finished (all 3 pillars; see "Done
+   & durable" above and `audits/build-optimization.md` → "Locked build
+   procedure").
+2. **NEXT — the `emep` ch3 → 3-chapter split** — map proposed + user-approved
+   in `audits/build-optimization.md`. It is the **acceptance test** of the
+   word-finder + optimization: run the build the new way (batch / scoped /
+   parallel) with `scripts/build-timer.mjs` wrapping each step → emit the
+   before/after ledger. Unblocked now. It is reader-facing content work, so
+   confirm go before starting and again before deploy (operating-model pt 4).
 
 **Uncommitted by design — do not lose, do not deploy unconfirmed:** iOS
 text-selection-vs-swipe fix in `src/components/narrative-reader.tsx` +

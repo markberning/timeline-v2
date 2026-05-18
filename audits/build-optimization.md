@@ -78,9 +78,58 @@ start until BOTH are done:
    gates; verified emep ch3 still 0 GATE). User accepted it as a noisy-but-safe
    curator hint; clean version (common-word-list subtraction) deliberately
    deferred as a rabbit-hole, revisit only if noise slows real curation.
-2. ☐ the three-pillar optimization above is implemented (IN PROGRESS — Pillar 2
-   per-civ scoped rebuild first).
+2. ✅ **DONE 2026-05-18** — the three-pillar optimization is implemented:
+   - **Pillar 2** ✅ byte-verified: scoped `npm run parse -- --tl=phoenicia`
+     (1.86s) produced output **byte-identical** to the committed full-parse
+     content JSON + offline manifest (clean git tree). Safe by construction —
+     `parseNarrative()` is the same function in both modes and cross-link
+     Pass 1 is always corpus-wide; only the search-index regen is scoped out,
+     and ship/deploy re-runs the full parse.
+   - **Pillar 1** ✅ codified below (batch-fix discipline — locked procedure).
+   - **Pillar 3** ✅ codified below (parallel read/suggest/apply). The
+     deterministic suggest tools it depends on already exist and were
+     confirmed present: `fix-links`, `link-coverage`, `lint-links`,
+     `lint-density`, `verify-links`, `audit-events/crosslinks/glossary` —
+     all no-AI. Pillar 3 needs no new code, only the orchestration discipline.
 
 The Chapter-3 split is then the **acceptance test of both** — the first build
 run the new way; if it isn't dramatically faster with zero quality loss, the
-optimization isn't done. Do not begin the split before both land.
+optimization isn't done. Both have landed; the split is now unblocked.
+
+## Locked build procedure (the new way — follow this verbatim)
+
+**Pillar 1 — batch, never drip (process; the single biggest win).**
+Within a chapter/civ: collect EVERY finding first (all audits, all
+deterministic-tool flags), then ONE apply pass, then ONE scoped rebuild
+(`npm run parse -- --tl=<civ>`), then ONE consolidated review surface. Never
+fix→rebuild→restart→review per item. If a new finding appears mid-batch, it
+joins the batch — it does not trigger its own cycle.
+
+**Pillar 2 — scoped rebuild while iterating.** `npm run parse -- --tl=<civ>`
+(seconds) for every iteration. The full corpus `npm run parse` runs ONLY at
+ship/deploy (prebuild/ship-check already do this) so prod is never stale.
+Byte-verified equivalent for per-civ artifacts.
+
+**Pillar 3 — parallel read/suggest/apply, one coordinator writes.**
+- *Read:* per-chapter line-level audits run in parallel helper agents (small
+  context each) + ONE whole-narrative flow/continuity pass. Not 5 agents each
+  re-reading the whole book.
+- *Suggest:* anything a deterministic tool can decide is taken off the agents
+  — the tool detects+verifies+presents the candidate; the agent only
+  confirms-or-corrects. Agents reserved for irreducible judgment (prose, flow).
+  Never auto-apply links.
+- *Apply:* batched findings applied in parallel **per chapter** (independent
+  edit surfaces) in isolated copies; a thin coordinator merges + does ONE
+  final voice/continuity pass and is the ONLY writer to `main`.
+- **Never exceed the model concurrency ceiling (~5)** — past it agents stall
+  and produce ~nothing (proven scar tissue). Never two sessions on the same
+  files.
+
+**Timing instrumentation (for the acceptance test + any future build).**
+`scripts/build-timer.mjs` — deterministic per-step ledger, NOT a monitoring
+agent (a watcher is a second concurrent session, guesses step boundaries, and
+burns tokens). Each build step stamps its own boundary:
+`node scripts/build-timer.mjs <ledger.md> begin "<run>"`, then
+`… mark "<step that just finished>"` after each step, then `… summary`. Emits
+a wall-clock log + slowest-first table — the before/after artifact the user
+asked for.
