@@ -294,9 +294,16 @@ the gate after every link edit (matchText-italic-boundary class).
 publish policy. This is a sustained multi-batch program, not one session;
 progress tracked civ-by-civ in `audits/link-coverage-ledger.md`.
 
-Phase 1 (first batch, in progress): the 2 required new-pipeline civs
-(uyghur-steppe 131, goryeo-korea 97) — closes the only ship-blocking debt
-and re-confirms the template at scale before the legacy worst-first roll.
+Phase 1 (first batch — the 2 required new-pipeline civs):
+- **goryeo-korea ✅ DONE** (`eddea55`, pushed 2026-05-18). 97 GATE → 0:
+  84 born-verified glossary slugs + 1 cross-link + 12 documented waivers,
+  0 blurbs. Re-verified independently on main (link-coverage/lint-links/
+  fix-links/audit-glossary/events/crosslinks all green). Template proven.
+- **uyghur-steppe ⏳ in progress** (worktree agent, 131 GATE).
+Mechanics validated: parallel worktree agent → coordinator copies curated
+files to main → scoped parse → re-run ALL gates on main (verify, don't
+relay) → force-add curated set (NOT git add -A) → commit. Ready to scale
+to 5-agent worst-civ-first legacy batches once uyghur-steppe lands.
 
 ## Commands
 
