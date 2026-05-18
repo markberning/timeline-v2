@@ -10,9 +10,11 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-18 (session cleared here; read this FIRST)
 
-**Git:** `main` == `origin/main` @ `fb2114c`, tree clean **except** the
-deliberately-uncommitted iOS swipe fix (below). Everything else is
-committed + pushed.
+**Git:** iOS swipe fix is **committed + pushed to `main`** (`25706b7`,
+user confirmed on-device) but **NOT deployed to prod** (manual deploy was
+classifier-blocked mid-optimization; still owed a deploy). Build-opti tooling
+commits also on `main`. **`swahili-coast` is built + ship-check-CLEAR on
+`feat/the-17`, NOT merged to main, NOT deployed — gated on user's word.**
 
 **Done & durable:**
 - **Word-finder** — `scripts/link-coverage.ts` S7 rare-word signal: a
@@ -30,26 +32,32 @@ committed + pushed.
   tree. Deterministic suggest tools Pillar 3 needs all confirmed present.
   `scripts/build-timer.mjs` (begin/mark/summary) is the deterministic
   per-step timing ledger for the acceptance test — NOT a monitoring agent.
+- **Build-opti ACCEPTANCE TEST PASSED** — `swahili-coast` built brand-new
+  end-to-end the optimized way (the test replaced the emep ch3 split at user
+  request: a full new civ exercises the whole pipeline). 8 ch, ~23k words,
+  all 12 ship-check gates green, shipped on `feat/the-17`. Total wall **2h
+  4m**, full per-step ledger `audits/build-timing-swahili-coast.md`, verdict
+  in `audits/build-optimization.md` → "Acceptance test RESULT". Optimization
+  validated where aimed (fix loop no longer the bottleneck; scoped rebuild 5s
+  vs 8min; creation parallelized); remaining cost is vendor map API + the
+  mandatory full-parse ship tax, not process waste. Zero quality loss.
 - emep **ch3** fully link-curated + the flat-earth prose fix, LIVE on prod
   (manual deploy). Repo made self-contained (`df41b09` committed 2 event-link
   files that were local-only).
 
-**Next — LOCKED SEQUENCE:**
-1. ✅ **DONE 2026-05-18** — optimization finished (all 3 pillars; see "Done
-   & durable" above and `audits/build-optimization.md` → "Locked build
-   procedure").
-2. **NEXT — the `emep` ch3 → 3-chapter split** — map proposed + user-approved
-   in `audits/build-optimization.md`. It is the **acceptance test** of the
-   word-finder + optimization: run the build the new way (batch / scoped /
-   parallel) with `scripts/build-timer.mjs` wrapping each step → emit the
-   before/after ledger. Unblocked now. It is reader-facing content work, so
-   confirm go before starting and again before deploy (operating-model pt 4).
+**Next — DECISIONS PENDING (both gated on the user's explicit word):**
+1. **Deploy the iOS swipe fix** to prod (committed+pushed to main, not live;
+   classifier blocked the mid-opti manual deploy — needs a clean atomic
+   `rm -rf out && npm run build && npx wrangler deploy`).
+2. **Merge `feat/the-17` → main + deploy `swahili-coast`** (ship-check CLEAR;
+   merge is the integration step, push/wrangler is the deploy — both held on
+   the user's "deploy"/"merge" per operating-model pt 4 and an explicit
+   in-session promise).
+- The `emep` ch3 → 3-chapter split is **no longer the acceptance test**
+  (superseded) but remains available as ordinary content work if wanted.
 
-**Uncommitted by design — do not lose, do not deploy unconfirmed:** iOS
-text-selection-vs-swipe fix in `src/components/narrative-reader.tsx` +
-`chapter-accordion.tsx` (both gesture handlers bail when a text selection is
-active). Correct, local-only, **awaiting the user's on-device iPhone test**
-before commit + deploy.
+**iOS swipe fix: COMMITTED (`25706b7`, pushed to main), user confirmed
+on-device. Not yet deployed — see "DECISIONS PENDING" above.**
 
 **Auto-deploy: PARKED (user deprioritized).** `deploy.yml` no longer runs on
 push (stops the failure emails). Manual deploy is the working path:

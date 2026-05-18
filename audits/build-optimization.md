@@ -133,3 +133,42 @@ burns tokens). Each build step stamps its own boundary:
 `… mark "<step that just finished>"` after each step, then `… summary`. Emits
 a wall-clock log + slowest-first table — the before/after artifact the user
 asked for.
+
+## Acceptance test RESULT — swahili-coast, first build the optimized way (2026-05-18)
+
+The Chapter-3 split was superseded by a stronger test at user request: build a
+**brand-new civ end-to-end the optimized way** (exercises the whole pipeline,
+not one chapter restructure) with the timing ledger on. Civ:
+`swahili-coast` (8 ch, ~23k words, 106 events, 109 event-links, ~160 glossary,
+25 cross-links, 79 summary bullets, 8 G4-passed maps, 21 backward cross-refs
+into 7 reference TLs). **All 12 ship-check gates green; shipped on
+`feat/the-17`.** Ledger: `audits/build-timing-swahili-coast.md`.
+
+**Total wall: 2h 4m** for a complete, fully-gated civilization.
+
+**Verdict — the optimization works where it was aimed; the remaining cost is
+not process waste:**
+- *Fix loop (the diagnosed bottleneck) is no longer the bottleneck.* Audit→fix
+  ran as ONE triage → ONE parallel apply (4 fixers) → ONE coordinator pass →
+  ONE rebuild → ONE born-verify batch. No drip.
+- *Pillar 2 is the biggest mechanical win:* scoped rebuild **5.2s** vs the
+  **~8min** full-corpus parse. The old way paid minutes on every fix cycle;
+  that tax is gone from iteration.
+- *Creation was parallelized* (the prior open question): 8 chapters drafted by
+  4 concurrent writers ≈ 14m wall vs ≈29m serial-sum; audit/apply/links/
+  backward each ~1.5–2× via concurrency.
+- *Honest long poles, all predicted, none process-fixable:* Gemini maps
+  ~28m/23% (vendor API wall, incl. one ch2 re-roll); two mandatory full-corpus
+  parses ~16m/13% (ship tax by design — Pillar 2 keeps the fast path for
+  iteration only); one whole-book coherence pass ~10m/8% (irreducibly serial —
+  quality needs one mind over the whole book once); single-author spec ~9m/7%
+  (irreducibly serial).
+- *Zero quality loss:* 12/12 gates green; the audit caught and forced real
+  corrections (a chili-pepper anachronism in a 1331 menu, an overstated
+  "uniquely African" sewn-hull claim, a cross-TL factual contradiction about
+  African coinage). Nothing waved through.
+
+**Next lever if pushing further (not started):** the post-`hasContent`-flip
+full corpus parse (~8m) exists only to add the civ to the search index — a
+targeted index-append would reclaim it. Sharding the coordinator voice pass is
+the other candidate. Neither is required; the targeted bottleneck is solved.
