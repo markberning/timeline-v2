@@ -8,14 +8,52 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ---
 
-## ▶ COLD-START HANDOFF — 2026-05-18 (session cleared here; read this FIRST)
+## ▶ COLD-START HANDOFF — 2026-05-18 (end of session; read this FIRST)
 
-**Git:** `main` == `origin/main` @ `107ea65`, in sync. **The Swahili Coast +
-the iOS swipe fix are SHIPPED and VERIFIED LIVE** (2026-05-18): user ran the
-deploy from their terminal, wrangler uploaded 553 files;
-`stuffhappened.com/swahili-coast/` = HTTP 200 serving real content, in the
-live search-index, home/emep/mali 200 (no regression). Build-opti acceptance
-test + The Swahili Coast: **DONE, live, closed.**
+**Git:** `main` == `origin/main` @ `c35d99e`, clean tree, **no agents
+running** (clean stop). Single worktree (`main`), single local branch.
+
+**THE ACTIVE PROGRAM is the full link-coverage sweep (backlog #7) — see
+the "▶ ACTIVE PROGRAM" section below for the authoritative detail; this is
+a summary.** User lifted the #7 deferral and chose the full legacy sweep.
+
+**Where the sweep stands (end of day):** Phase 1 + Batch 1 = **6 civs
+swept, verified, committed, pushed — 2,533 worklist GATE gaps closed:**
+goryeo-korea `eddea55`, uyghur-steppe `dfc42cd`, renaissance-italy
+`8d2d78a`, byzantine-empire `1efa3c5`, islamic-golden-age `c9f35c1`,
+delhi-sultanate `93d7e3f`. **ottoman-empire is PARKED** (rejected: its
+agent admitted waiving Süleyman/Janissaries as civ-self-reference).
+~94 legacy civs remain. The process is proven + de-risked at the worst-5
+scale; nothing reader-facing changed adversely (build/deploy don't run
+link-coverage).
+
+**Two load-bearing facts for whoever continues (full detail in ACTIVE
+PROGRAM + memory):**
+- **The gate is corpus-coupled** → one-pass parallel sweep can't reach
+  global 0; model is **SWEEP + CONVERGE** (commit each civ at
+  worklist-closed + waiver-audit-clean; bounded sibling-drift residual is
+  mopped by a final `--corpus` convergence pass). Memory
+  `project_coverage_sweep_corpus_coupled`.
+- **Coordinator waiver-audit had a keying bug** (used glossary `term`
+  label not `matchText`) → false "never-linked" flags, nearly false-
+  rejected delhi-sultanate. Corrected method documented in memory
+  `feedback_coverage_agents_over_waive`. Bug = false-positive only, so the
+  6 accepts are safe; **use the corrected audit next session.**
+
+**▶ NEXT SESSION START HERE:** (1) re-check ottoman-empire with the
+CORRECTED waiver audit, then redo with the hardened+tightened brief if
+still defective (likely); (2) legacy sweep Batch 2 = next 5 worst in
+`audits/link-coverage-ledger.md` (skip the 6 done + ottoman), same
+hardened brief + ≤5 worktree agents + corrected coordinator protocol;
+(3) continue worst-first to corpus end, then the convergence pass. Full
+per-civ procedure + brief + waiver discipline: "▶ ACTIVE PROGRAM" below.
+
+**Shipped & closed earlier this session (do not re-litigate):** Standalone
+chain-picker fix (`30c03a2`, live), civ date-range in the sticky header
+(`23db240`, live), `node_modules` symlink untracked (`2833e00`),
+`npm run parse:index` post-flip optimization (`74ae3fe`, ~8m→~1s, proven
+byte-identical), worktree/branch cleanup. The Swahili Coast + iOS swipe
+fix remain live on prod.
 
 **Repo-hygiene item — DONE 2026-05-18 (`2833e00`, pushed):** the historically-
 committed `node_modules` symlink blob (git mode 120000) is untracked via
@@ -33,61 +71,15 @@ which then lint as phantom 0-event civs and abort the build. Both bit this
 build; both fixed in `5be78b6`. The repeated "exit 194, no output" was the
 build aborting at the density gate, NOT a tsx/sandbox failure — verified.
 
-**Done & durable:**
-- **Word-finder** — `scripts/link-coverage.ts` S7 rare-word signal: a
-  lowercase word appearing in ≤6 of 102 civ narratives gets an **ADVISORY**
-  `rare` tag. It never gates (verified: emep ch3 still 0 GATE) so it cannot
-  block a build. User **ACCEPTED** it as a noisy-but-safe curator hint; the
-  clean version (subtract a common-English word list) is deliberately
-  deferred as a rabbit-hole — revisit only if noise slows real curation.
-- **Build optimization — ALL 3 PILLARS DONE + codified 2026-05-18.**
-  Pillar 1 (batch-don't-drip) + Pillar 3 (parallel read/suggest/apply, one
-  coordinator) codified as the locked build procedure in
-  `audits/build-optimization.md` + memory `project_build_optimization_done`.
-  Pillar 2 (`npm run parse -- --tl=<civ>`, ~2s) **byte-verified**: scoped
-  phoenicia output == committed full-parse content JSON + manifest, clean
-  tree. Deterministic suggest tools Pillar 3 needs all confirmed present.
-  `scripts/build-timer.mjs` (begin/mark/summary) is the deterministic
-  per-step timing ledger for the acceptance test — NOT a monitoring agent.
-- **Build-opti ACCEPTANCE TEST PASSED** — `swahili-coast` built brand-new
-  end-to-end the optimized way (the test replaced the emep ch3 split at user
-  request: a full new civ exercises the whole pipeline). 8 ch, ~23k words,
-  all 12 ship-check gates green, shipped on `feat/the-17`. Total wall **2h
-  4m**, full per-step ledger `audits/build-timing-swahili-coast.md`, verdict
-  in `audits/build-optimization.md` → "Acceptance test RESULT". Optimization
-  validated where aimed (fix loop no longer the bottleneck; scoped rebuild 5s
-  vs 8min; creation parallelized); remaining cost is vendor map API + the
-  mandatory full-parse ship tax, not process waste. Zero quality loss.
-- **Build-opti 4th refinement DONE 2026-05-18 — `npm run parse:index`.**
-  Post-`hasContent`-flip parse (~8m, the "get civ into search index" step)
-  → **~1s**, **proven byte-identical** to the full parse's index (same
-  sha256, `cmp -s` clean). `parse-narratives.ts` now shares one
-  `generateSearchIndex()`; `--search-index-only` runs only it. Ship step:
-  after the flip use `npm run parse:index`, not a standalone full parse
-  (the deploy's `npm run build`→prebuild still does the one unavoidable
-  full parse). Docs+memory updated. Multi-civ guidance: 2 civs via
-  STAGGERED pipeline only (separate worktrees; backward-pass +
-  ship/parse/deploy serialized; never shrink a gate's fan-out for speed).
-- emep **ch3** fully link-curated + the flat-earth prose fix, LIVE on prod
-  (manual deploy). Repo made self-contained (`df41b09` committed 2 event-link
-  files that were local-only).
-
-**Next (nothing urgent — the shipped work is closed):**
-1. ~~commit the `node_modules` symlink removal~~ — **DONE `2833e00`** (see
-   repo-hygiene item above).
-2. ~~Optional cleanup: feat/the-17 + lcr worktrees~~ — **DONE 2026-05-18.**
-   Both worktrees removed + all stale local branches deleted (verified fully
-   in main first). See "Branch / worktree topology". Only the dead remote ref
-   `origin/chore/link-coverage-redesign` is left (optional remote prune).
-3. **The-17 roster continues** (`audits/phase-1.5-roster.md`): swahili-coast
-   was the build-opti acceptance test AND roster work; remaining roster civs
-   build the same optimized way (`audits/build-optimization.md` → "Locked
-   build procedure"; memory `project_build_optimization_done`). Mind the
-   ship-packaging traps: memory `feedback_civ_ship_packaging`.
-- The `emep` ch3 → 3-chapter split is **no longer the acceptance test**
-  (superseded) but remains available as ordinary content work if wanted.
-- Deferred unchanged: backlog **#7** (22,877 coverage gaps), **#17**, **#12**
-  — see "DO NOT START" / "Remaining real work" below.
+**Durable context still in force (not the active task — background):**
+- Build optimization (3 pillars + `npm run parse:index` 4th refinement) is
+  DONE/codified — `audits/build-optimization.md`, memory
+  `project_build_optimization_done`. The-17 roster + emep ch3 split remain
+  available as ordinary content work but are NOT the current priority — the
+  link-coverage sweep is. Backlog **#17**/**#12** still deferred; **#7 is
+  NO LONGER deferred — it is the ACTIVE PROGRAM.**
+- `scripts/link-coverage.ts` S7 rare-word signal is an accepted noisy-but-
+  safe advisory (never gates).
 
 **Auto-deploy: PARKED (user deprioritized).** `deploy.yml` no longer runs on
 push (stops the failure emails). Manual deploy is the working path:
