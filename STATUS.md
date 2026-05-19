@@ -10,6 +10,14 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-18 (end of session; read this FIRST)
 
+> **⏸ PROGRAM PAUSED BY USER 2026-05-19 — DO NOT RESUME UNTIL ~2026-05-21.**
+> User is holding the link-coverage sweep (incl. ottoman redo + Batch 2)
+> until their weekly usage resets (~2 days, i.e. on/after 2026-05-21).
+> **Do NOT launch any sweep agents or auto-continue the program before then,
+> even though the autonomy memories say "just keep going" — this pause
+> overrides that.** When resumed, "▶ NEXT SESSION START HERE" below is the
+> entry point, unchanged. Nothing else changed; clean stop still holds.
+
 **Git:** `main` == `origin/main` @ `c35d99e`, clean tree, **no agents
 running** (clean stop). Single worktree (`main`), single local branch.
 
@@ -225,10 +233,15 @@ number — this chapter is the template.
 
 ## DO NOT START (deferred by the user — until they say otherwise)
 
+- **Link-coverage sweep — PAUSED by user 2026-05-19 until ~2026-05-21**
+  (weekly usage reset). Active program, not deferred/cancelled — just on
+  hold for ~2 days. Do not launch sweep agents before then. Resume at
+  "▶ NEXT SESSION START HERE".
 - ~~Backlog #7 deferral~~ — **LIFTED by the user 2026-05-18.** The full
   legacy link-coverage sweep + the 2 required new-pipeline civs are now
   ACTIVE work (user chose "the 2 + full legacy sweep"). See the program
-  section below. Backlog #7 is no longer deferred.
+  section below. Backlog #7 is no longer deferred. (Currently PAUSED — see
+  above.)
 - Anything reader-facing **deployed** while the user is reassessing.
 
 ## Ready to run — user-gated (commands staged, do not run unprompted)
