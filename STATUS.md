@@ -10,13 +10,15 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-18 (end of session; read this FIRST)
 
-> **⏸ PROGRAM PAUSED BY USER 2026-05-19 — DO NOT RESUME UNTIL ~2026-05-21.**
-> User is holding the link-coverage sweep (incl. ottoman redo + Batch 2)
-> until their weekly usage resets (~2 days, i.e. on/after 2026-05-21).
-> **Do NOT launch any sweep agents or auto-continue the program before then,
-> even though the autonomy memories say "just keep going" — this pause
-> overrides that.** When resumed, "▶ NEXT SESSION START HERE" below is the
-> entry point, unchanged. Nothing else changed; clean stop still holds.
+> **⏸ PAUSED until 2026-05-21 10:05 AM America/Los_Angeles, then a SCHEDULED
+> ROUTINE auto-resumes (user-set 2026-05-19).** A recurring daily cron agent
+> takes over on/after that moment and runs the corpus programs batch-by-batch
+> in the locked order: **#7 link-coverage sweep to completion FIRST, then #19
+> chapter-intro retrofit.** Until 2026-05-21 10:05 PT: **do NOT launch any
+> sweep/intro agents** (autonomy memories' "just keep going" is overridden by
+> this pause). On/after it: the routine follows "▶ SCHEDULED-RUN PLAYBOOK"
+> below — that is the canonical automated entrypoint, not "NEXT SESSION START
+> HERE" (which it incorporates). Clean stop still holds; nothing else changed.
 
 **Git:** `main` == `origin/main` @ `c35d99e`, clean tree, **no agents
 running** (clean stop). Single worktree (`main`), single local branch.
@@ -104,6 +106,56 @@ Workers" template** (not a narrow custom token), update the
 **Communication (auto-inherited via memory + `~/.claude/CLAUDE.md`):** every
 message to the user begins with the literal ***Message to you*** then plain
 normal text — plain language, no jargon, lead with the point, short.
+
+---
+
+## ▶ SCHEDULED-RUN PLAYBOOK (automated cron entrypoint — added 2026-05-19)
+
+A recurring daily scheduled agent (created 2026-05-19, first fire **2026-05-21
+10:05 America/Los_Angeles**) runs this. **Each fire = at most ONE batch, then
+stop.** User-locked order: **#7 link-coverage sweep to completion, THEN #19
+chapter-intro retrofit.** Per fire, in order:
+
+1. **Read this whole file first.** It is canonical. Determine the active
+   program + the next batch from the run logs in "▶ ACTIVE PROGRAM" (#7) and
+   backlog `#19`, and from `audits/link-coverage-ledger.md`.
+2. **Budget guard.** If weekly usage is exhausted / clearly not yet reset →
+   **no-op this fire**, append one line to the run log, exit cleanly. Never
+   burn an exhausted budget; tomorrow's fire retries. (Belt-and-suspenders:
+   the first fire is timed to the reset, but do not assume.)
+3. **Pick the active program.** #7 is active until `link-coverage --corpus`
+   shows 0 NEW corpus-wide (sweep + convergence done). Then #19 is active
+   until `audits/intro-baseline.json` is empty (all 102 de-grandfathered).
+   When both are done, the routine **self-deletes** (see CronDelete in the
+   schedule) and writes a DONE line here.
+4. **Run exactly one batch with that program's LOCKED protocol:**
+   - **#7:** start with **ottoman-empire** (re-check with the *corrected*
+     waiver audit — matchText+term keying; redo with the hardened+tightened
+     brief only if genuinely defective). Then next 5 worst civs from the
+     ledger (skip the 6 done + any since-completed). Hardened brief MANDATORY;
+     ≤5 worktree agents (hard ceiling); ONE coordinator merges, re-runs ALL
+     gates, runs the CORRECTED waiver audit, force-adds the curated set (NEVER
+     `git add -A`), commits per civ. Detail: "▶ ACTIVE PROGRAM" + memories
+     `feedback_coverage_agents_over_waive`, `project_coverage_sweep_corpus_coupled`.
+   - **#19:** next 5 civs (worst/most-read first). Author `narratives/{tl}.intros.json`
+     to the **rich** spec (CLAUDE.md step 8b; `early-medieval-europe` is the
+     template; rich backstory NOT terse — `feedback_chapter_intros_rich`).
+     `lint-intros --tl={tl} --strict` → 0, scoped parse, **remove the civ from
+     `audits/intro-baseline.json`** (the done-marker). ≤5 worktree agents, one
+     coordinator; coordinator **sample-reads** each civ for the rich-runway
+     intent (gate-green ≠ correct). Detail: backlog `#19`.
+5. **Verify, don't relay.** Re-run the deterministic tools yourself. If ANY
+   gate/verification fails for a civ → STOP that civ, leave `main` clean, do
+   **NOT** push partial/bad content, write the failure to the run log, and
+   continue only with civs that fully passed.
+6. **Record + publish.** Append a dated run-log line (civs done, commits,
+   failures). Commit STATUS. Deploy a fully-passed batch per the publish
+   policy (clean atomic `rm -rf out && npm run build && npx wrangler deploy`,
+   verify prod). Then **stop** — do not start the next batch this fire.
+
+**Hard stops:** two consecutive failing fires on the same civ/batch → stop
+the routine and leave for a human (write STOP-FOR-HUMAN here). The schedule
+can be cancelled anytime with the `schedule` skill or by the user.
 
 ---
 
