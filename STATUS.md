@@ -119,10 +119,16 @@ chapter-intro retrofit.** Per fire, in order:
 1. **Read this whole file first.** It is canonical. Determine the active
    program + the next batch from the run logs in "▶ ACTIVE PROGRAM" (#7) and
    backlog `#19`, and from `audits/link-coverage-ledger.md`.
-2. **Budget guard.** If weekly usage is exhausted / clearly not yet reset →
-   **no-op this fire**, append one line to the run log, exit cleanly. Never
-   burn an exhausted budget; tomorrow's fire retries. (Belt-and-suspenders:
-   the first fire is timed to the reset, but do not assume.)
+2. **Date guard (HARD).** If the current UTC date is **before 2026-05-21**,
+   do nothing at all and exit immediately — no commit, no STATUS write, no
+   agents. The recurring cron (`5 17 * * *`) will fire on 2026-05-20 before
+   the user's usage reset; that fire MUST be a silent no-op. First real
+   working fire = 2026-05-21. (A remote agent cannot introspect the user's
+   weekly claude.ai usage, so this guard is date-based by design, not a
+   usage check — it is the deliberate proxy for "after the weekly reset.")
+   If a fire ever detects a `DONE` marker for BOTH programs in the run log,
+   also no-op (the work is finished; the user disables the routine at
+   claude.ai/code/routines).
 3. **Pick the active program.** #7 is active until `link-coverage --corpus`
    shows 0 NEW corpus-wide (sweep + convergence done). Then #19 is active
    until `audits/intro-baseline.json` is empty (all 102 de-grandfathered).
@@ -148,10 +154,20 @@ chapter-intro retrofit.** Per fire, in order:
    gate/verification fails for a civ → STOP that civ, leave `main` clean, do
    **NOT** push partial/bad content, write the failure to the run log, and
    continue only with civs that fully passed.
-6. **Record + publish.** Append a dated run-log line (civs done, commits,
-   failures). Commit STATUS. Deploy a fully-passed batch per the publish
-   policy (clean atomic `rm -rf out && npm run build && npx wrangler deploy`,
-   verify prod). Then **stop** — do not start the next batch this fire.
+6. **Record + push (PUSH-ONLY — do NOT deploy).** Append a dated run-log
+   line (civs done, commits, failures). Commit STATUS. `git push origin
+   main`. **Do NOT run `npm run build` / `npx wrangler deploy`** — this is a
+   remote cloud agent with no Cloudflare auth; deploy is impossible here and
+   is a deliberate manual local step (user chose push-only 2026-05-19).
+   Append each pushed civ to the **DEPLOY DEBT** list below so a later local
+   session deploys them. Then **stop** — at most one batch per fire; do not
+   start the next batch this fire. Execution is **serial** (no Agent/worktree
+   fan-out in the remote tool set) — a "batch" here is a small serial run
+   (≤5 civs), stop early on any failure.
+
+**DEPLOY DEBT (pushed to main by the routine, NOT yet on stuffhappened.com):**
+_(none yet — the routine appends civ ids + commit here; a local session runs
+the clean atomic deploy and clears this list)_
 
 **Hard stops:** two consecutive failing fires on the same civ/batch → stop
 the routine and leave for a human (write STOP-FOR-HUMAN here). The schedule
