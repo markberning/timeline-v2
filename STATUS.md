@@ -266,6 +266,18 @@ number — this chapter is the template.
   section below — this is the current major effort.
 - The-17 roster continuation (`audits/phase-1.5-roster.md`) — build remaining
   new civs the optimized way (now incl. `npm run parse:index` at ship).
+- **Chapter-intro retrofit (NEW backlog, 2026-05-19).** The chapter-intro
+  framing card + G13 gate shipped; `early-medieval-europe` is the live pilot
+  (`e141fda`, deployed + prod-verified on stuffhappened.com). The other **102
+  civs are grandfathered** in `audits/intro-baseline.json` (no intros yet) —
+  the site is unaffected, but their `ship-check` now has a G13 gate that
+  stays green only via the grandfather. Authoring `narratives/{tl}.intros.json`
+  for all 102 (then removing each from the baseline) is a separate scheduled
+  program, parallelizable like the link sweep. **Gated on the user's read of
+  the pilot** — they want to judge density on their phone first ("if the
+  intro is also too dense we can remove content") before the retrofit and
+  before deciding the re-chaptering/pacing question (the deferred half of
+  the original idea). Do NOT start the retrofit until they green-light it.
 
 ## ▶ ACTIVE PROGRAM — full link-coverage sweep (started 2026-05-18)
 
