@@ -7,7 +7,7 @@
       "blurb": "The Türks the Uyghurs overthrew are the subject of their own narrative: the Göktürk Khaganate, the first empire on earth to call itself \"Turk.\" This chapter is the revived Second Khaganate under Bilge Kagan — the dynasty at its last height, in the decades before the Uyghurs, Karluks, and Basmyl brought it down in 742–744."
     },
     {
-      "matchText": "the mounted confederation",
+      "matchText": "Xiongnu",
       "targetTl": "xiongnu-huns",
       "targetChapter": 2,
       "blurb": "The Xiongnu were the first true steppe empire and the template every later one — including this book's — would follow: a grass economy that taxed and terrified a grain one. Their story, and the Modu Chanyu who built it, is told here."
@@ -29,6 +29,54 @@
       "targetTl": "early-medieval-europe",
       "targetChapter": 5,
       "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures just how wealthy and urban this \"forgotten\" steppe empire actually was."
+    },
+    {
+      "matchText": "Huns",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 2,
+      "blurb": "The Xiongnu were the first great steppe empire — the mounted confederation that fought Han China to a standstill and gave the West the \"Huns.\" They are the template every later steppe power in this book, the Uyghurs included, would follow."
+    },
+    {
+      "matchText": "Göktürk Khaganate",
+      "targetTl": "gokturk-khaganate",
+      "targetChapter": 8,
+      "blurb": "The Türks the Uyghurs overthrew were the first people on earth to call themselves \"Turk.\" The Göktürk TL's final chapter is the Uyghur take-over itself — the same 742–744 handoff this book opens with, told from the losing side."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Tang China is the grain empire the whole Uyghur story orbits — customer, debtor, and the civilization whose silk paid for the steppe's only literate empire. This chapter is the An Lushan catastrophe that made the Uyghurs its creditors."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "The Song dynasty reunified China in 960, two centuries after the Tang collapse, and ran a commercial revolution behind the Jin frontier. This is the Southern Song world whose envoy Wang Yande would later visit the Uyghur kingdom of Qocho."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "The Umayyad caliphs the Abbasid Revolution of 750 overthrew ran Islam's first imperial century from Damascus. This is that dynasty — the order whose fall founded the Baghdad-centered world the western half of this book joins."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution of 750 founded the Baghdad-centered, Persianized Islamic world that the western Turkic half of this book is eventually absorbed into. This chapter is that revolution and the empire it built."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures how wealthy and urban this 'forgotten' steppe empire actually was."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures how wealthy and urban this 'forgotten' steppe empire actually was."
     }
   ],
   "2": [
@@ -43,6 +91,36 @@
       "targetTl": "early-medieval-europe",
       "targetChapter": 5,
       "blurb": "While the Uyghurs were extracting silk from the Tang and the Abbasids were building Baghdad, the Frankish west was a thin, rural world about to be consolidated by Charlemagne. The contrast measures just how wealthy this 'forgotten' steppe empire actually was."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Tang China is the grain empire the whole Uyghur story orbits — customer, debtor, and the civilization whose silk paid for the steppe's only literate empire. This chapter is the An Lushan catastrophe that made the Uyghurs its creditors."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "The Song dynasty reunified China in 960, two centuries after the Tang collapse, and ran a commercial revolution behind the Jin frontier. This is the Southern Song world whose envoy Wang Yande would later visit the Uyghur kingdom of Qocho."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution of 750 founded the Baghdad-centered, Persianized Islamic world that the western Turkic half of this book is eventually absorbed into. This chapter is that revolution and the empire it built."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures how wealthy and urban this 'forgotten' steppe empire actually was."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures how wealthy and urban this 'forgotten' steppe empire actually was."
     }
   ],
   "3": [
@@ -69,6 +147,66 @@
       "targetTl": "mongol-empire",
       "targetChapter": 2,
       "blurb": "The writing system the Uyghurs invented here — the Old Uyghur script, descended from the Sogdian alphabet — is exactly what the Mongols adopted: at the Battle of Chakirmaut in 1204 Temüjin captured the Naiman scribes and with them a script, the Mongols' first. This chapter is that capture and the rise to Genghis Khan."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Tang China is the grain empire the whole Uyghur story orbits — customer, debtor, and the civilization whose silk paid for the steppe's only literate empire. This chapter is the An Lushan catastrophe that made the Uyghurs its creditors."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Tang China is the grain empire the whole Uyghur story orbits — customer, debtor, and the civilization whose silk paid for the steppe's only literate empire. This chapter is the An Lushan catastrophe that made the Uyghurs its creditors."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongols ran their world-empire on borrowed Uyghur infrastructure — the Old Uyghur script, the ortoq merchant partnerships, the registered-scribe tax model. This chapter is the great conquest those tools made governable."
+    },
+    {
+      "matchText": "Qing Dynasty",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Manchu script the Qing used for their own language descended from the Mongol script, which descended from the Old Uyghur alphabet. This chapter is the Manchu conquest — the downstream inheritors of a writing system first adapted from Sogdian on the Orkhon."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution of 750 founded the Baghdad-centered, Persianized Islamic world that the western Turkic half of this book is eventually absorbed into. This chapter is that revolution and the empire it built."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution of 750 founded the Baghdad-centered, Persianized Islamic world that the western Turkic half of this book is eventually absorbed into. This chapter is that revolution and the empire it built."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "While the Uyghurs adopted Manichaeism, the Byzantine Empire was ripping itself apart over icons — another eighth-century empire where how to practice a scriptural religion was also a fight over who held state power. This chapter is that Iconoclast crisis."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 8,
+      "blurb": "Manzikert in 1071 shattered the Byzantine army and opened Anatolia to the Turks; this chapter is the Komnenian recovery and the 1095 appeal to the Latin West that became the First Crusade — the Turkic surge whose taproot lay in the Kara-Khanid conversion."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures how wealthy and urban this 'forgotten' steppe empire actually was."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures how wealthy and urban this 'forgotten' steppe empire actually was."
     }
   ],
   "4": [
@@ -95,6 +233,60 @@
       "targetTl": "mongol-empire",
       "targetChapter": 2,
       "blurb": "The 366-year vacancy this chapter ends on closes when Temüjin is proclaimed Genghis Khan at a kurultai on the Onon River in 1206. This chapter is that rise — the unification of the Mongolian steppe that finally filled the vacuum the Uyghur collapse had left behind."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongols ran their world-empire on borrowed Uyghur infrastructure — the Old Uyghur script, the ortoq merchant partnerships, the registered-scribe tax model. This chapter is the great conquest those tools made governable."
+    },
+    {
+      "matchText": "Charlemagne",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 6,
+      "blurb": "The Treaty of Verdun (843), the same year the Uyghurs' southern refugees were destroyed at Shahu, split Charlemagne's empire into the three pieces that became France, Germany, and the contested middle. This chapter follows that Carolingian fracture."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "While the Uyghurs were taxing the richest economy on earth, the Frankish west was a thin, rural order about to be consolidated by Charlemagne — the contrast that measures how wealthy and urban this 'forgotten' steppe empire actually was."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 3,
+      "blurb": "While the Uyghur world collapsed in 840, Viking raiding in the west was escalating toward the Great Heathen Army and the Danelaw — the shift from seasonal raiding to permanent settlement. This chapter follows that transition."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "The Abbasid 'empire' fragmented early into a belt of regional dynasties held together by a shared culture rather than a shared sovereign. This chapter is that fragmentation — the world of rival caliphates the steppe collapse of 840 was synchronous with."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution of 750 founded the Baghdad-centered, Persianized Islamic world that the western Turkic half of this book is eventually absorbed into. This chapter is that revolution and the empire it built."
+    },
+    {
+      "matchText": "Genghis Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "The 366-year vacancy on the Orkhon closed when Temüjin was proclaimed Genghis Khan in 1206. This chapter is that rise — the unification of the Mongolian steppe that finally filled the vacuum the Uyghur collapse had left."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongols ran their world-empire on borrowed Uyghur infrastructure — the Old Uyghur script, the ortoq merchant partnerships, the registered-scribe tax model. This chapter is the great conquest those tools made governable."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "The Orkhon throne stood empty for 366 years — longer than the entire history of the Roman Empire as an empire. This chapter is that Roman imperial span, the yardstick the narrative measures the steppe's vacancy against."
     }
   ],
   "5": [
@@ -109,6 +301,48 @@
       "targetTl": "mongol-empire",
       "targetChapter": 3,
       "blurb": "The administrative inheritance this chapter describes — the Old Uyghur script, the ortoq merchant partnerships, the tax-registered settled-subject model — became the Mongol Empire's operating system. This chapter is the great conquest and the policy that made it stick: the Mongols ran the conquered world on captured scribes and administrators like Yelü Chucai rather than killing them."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "The Song dynasty reunified China in 960, two centuries after the Tang collapse, and ran a commercial revolution behind the Jin frontier. This is the Southern Song world whose envoy Wang Yande would later visit the Uyghur kingdom of Qocho."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Tang China is the grain empire the whole Uyghur story orbits — customer, debtor, and the civilization whose silk paid for the steppe's only literate empire. This chapter is the An Lushan catastrophe that made the Uyghurs its creditors."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "The Song dynasty reunified China in 960, two centuries after the Tang collapse, and ran a commercial revolution behind the Jin frontier. This is the Southern Song world whose envoy Wang Yande would later visit the Uyghur kingdom of Qocho."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution of 750 founded the Baghdad-centered, Persianized Islamic world that the western Turkic half of this book is eventually absorbed into. This chapter is that revolution and the empire it built."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongols ran their world-empire on borrowed Uyghur infrastructure — the Old Uyghur script, the ortoq merchant partnerships, the registered-scribe tax model. This chapter is the great conquest those tools made governable."
+    },
+    {
+      "matchText": "Genghis Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "The 366-year vacancy on the Orkhon closed when Temüjin was proclaimed Genghis Khan in 1206. This chapter is that rise — the unification of the Mongolian steppe that finally filled the vacuum the Uyghur collapse had left."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongols ran their world-empire on borrowed Uyghur infrastructure — the Old Uyghur script, the ortoq merchant partnerships, the registered-scribe tax model. This chapter is the great conquest those tools made governable."
     }
   ],
   "6": [
@@ -123,6 +357,30 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 8,
       "blurb": "Manzikert in 1071 shattered the Byzantine army and opened Anatolia to the Turks; this chapter is the Komnenian recovery that followed — Alexios I rebuilding from the wreck and, in 1095, appealing to the Latin West, the request that became the First Crusade."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution of 750 founded the Baghdad-centered, Persianized Islamic world that the western Turkic half of this book is eventually absorbed into. This chapter is that revolution and the empire it built."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "The Ottoman dynasty was Turkic and Muslim, downstream of exactly the steppe-to-Islam transition the Kara-Khanids began. This chapter is where that story starts — the first Turkic state to carry the Caliph's title to Constantinople."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughals who ruled Persianate India were a Turkic-Muslim dynasty far downstream of the tenth-century Kara-Khanid conversion this chapter describes. This chapter opens that imperial story."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 8,
+      "blurb": "Manzikert in 1071 shattered the Byzantine army and opened Anatolia to the Turks; this chapter is the Komnenian recovery and the 1095 appeal to the Latin West that became the First Crusade — the Turkic surge whose taproot lay in the Kara-Khanid conversion."
     }
   ],
   "7": [
@@ -143,6 +401,36 @@
       "targetTl": "al-andalus",
       "targetChapter": 10,
       "blurb": "While the Qara-Khitai ruled Central Asia with deliberate tolerance — a Buddhist dynasty that taxed its Muslim subjects but never policed their faith — the Almohads were the mirror image at the far end of the Dar al-Islam: a Berber reform movement (al-Muwahhidun, 'the Unitarians') that swept al-Andalus and the Maghreb imposing a severe, doctrinaire orthodoxy and narrowing the philosophical openness earlier Andalusi rulers had tolerated. This chapter is that Almohad order in Spain."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongols ran their world-empire on borrowed Uyghur infrastructure — the Old Uyghur script, the ortoq merchant partnerships, the registered-scribe tax model. This chapter is the great conquest those tools made governable."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 10,
+      "blurb": "While the Qara-Khitai taxed their Muslim subjects but never policed their faith, the Almohads swept al-Andalus and the Maghreb imposing a doctrinaire orthodoxy. This chapter is that Almohad order, the Qara-Khitai's ideological opposite."
+    },
+    {
+      "matchText": "Al-Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 10,
+      "blurb": "While the Qara-Khitai ruled Central Asia with deliberate tolerance, the Almohads were the mirror image at the far end of the Dar al-Islam — a Berber reform movement imposing severe orthodoxy on al-Andalus and the Maghreb. This chapter is that Almohad order in Spain."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "The Song dynasty reunified China in 960, two centuries after the Tang collapse, and ran a commercial revolution behind the Jin frontier. This is the Southern Song world whose envoy Wang Yande would later visit the Uyghur kingdom of Qocho."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Tang China is the grain empire the whole Uyghur story orbits — customer, debtor, and the civilization whose silk paid for the steppe's only literate empire. This chapter is the An Lushan catastrophe that made the Uyghurs its creditors."
     }
   ],
   "8": [
@@ -163,6 +451,18 @@
       "targetTl": "gokturk-khaganate",
       "targetChapter": 8,
       "blurb": "The Göktürks' final chapter is titled 'The Uyghur Take-Over and the Turkic Diaspora' — the view from the other side of the handoff this book opened with. Where this narrative begins with the Uyghurs seizing the Orkhon throne in 742–744, the Göktürk TL ends with exactly that same event as a collapse: the same moment, two very different stories."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Tang China is the grain empire the whole Uyghur story orbits — customer, debtor, and the civilization whose silk paid for the steppe's only literate empire. This chapter is the An Lushan catastrophe that made the Uyghurs its creditors."
+    },
+    {
+      "matchText": "Qing Dynasty",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Manchu script the Qing used for their own language descended from the Mongol script, which descended from the Old Uyghur alphabet. This chapter is the Manchu conquest — the downstream inheritors of a writing system first adapted from Sogdian on the Orkhon."
     }
   ]
 }

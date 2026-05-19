@@ -89,6 +89,66 @@
       "matchText": "Battle of Talas",
       "wikiSlug": "Battle_of_Talas",
       "type": "concept"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "concept"
+    },
+    {
+      "term": "Manchuria",
+      "matchText": "Manchuria",
+      "wikiSlug": "Manchuria",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Han China",
+      "matchText": "Han China",
+      "wikiSlug": "Han_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "Uyghur Khaganate",
+      "matchText": "Uyghur Khaganate",
+      "wikiSlug": "Uyghur_Khaganate",
+      "type": "concept"
+    },
+    {
+      "term": "Uyghurs",
+      "matchText": "Uyghurs",
+      "wikiSlug": "Uyghur_Khaganate",
+      "type": "people"
+    },
+    {
+      "term": "Karabalgasun",
+      "matchText": "Karabalgasun",
+      "wikiSlug": "Ordu-Baliq",
+      "type": "concept"
+    },
+    {
+      "term": "Shine Usu",
+      "matchText": "Shine Usu",
+      "type": "concept",
+      "definition": "One of two great inscribed stelae left by the Uyghur qaghan Bayanchur (the other is the Tariat inscription), found at Shine Usu in Mongolia and cut in runiform Old Turkic. It narrates his campaigns and the founding of the khaganate in the Uyghurs' own voice — a rare inside source for a people otherwise seen through their enemies' records."
+    },
+    {
+      "term": "Tariat",
+      "matchText": "Tariat",
+      "type": "concept",
+      "definition": "A monumental Old Turkic inscription raised by the Uyghur qaghan Bayanchur (also called the Terkhin inscription), companion to the Shine Usu stele. Together they are the Uyghur Khaganate's own runiform account of its founding and wars — the thin counter-voice to the Chinese histories that otherwise narrate the steppe."
     }
   ],
   "2": [
@@ -112,7 +172,7 @@
     },
     {
       "term": "Sogdian",
-      "matchText": "an Iranian-speaking Silk Road trading people",
+      "matchText": "Sogdian",
       "type": "people",
       "definition": "An Iranian-speaking people of the oasis cities of Samarkand and Bukhara (in modern Uzbekistan) whose caravan networks were the commercial nervous system of Inner Asia. Sogdians served as merchants, scribes, financiers, and diplomats across the steppe world for centuries."
     },
@@ -150,6 +210,30 @@
       "term": "Inner Asia",
       "matchText": "Inner Asia",
       "wikiSlug": "Inner_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "Greater_Iran",
+      "type": "concept"
+    },
+    {
+      "term": "Orkhon",
+      "matchText": "Orkhon",
+      "wikiSlug": "Orkhon_River",
+      "type": "concept"
+    },
+    {
+      "term": "Bayanchur",
+      "matchText": "Bayanchur",
+      "wikiSlug": "Bayanchur_Khan",
+      "type": "person"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
       "type": "concept"
     }
   ],
@@ -243,6 +327,90 @@
       "matchText": "Bukhara",
       "wikiSlug": "Bukhara",
       "type": "concept"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Mani",
+      "matchText": "Mani",
+      "wikiSlug": "Mani_(prophet)",
+      "type": "concept"
+    },
+    {
+      "term": "Zoroastrian",
+      "matchText": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism",
+      "type": "concept"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "concept"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "wikiSlug": "Gautama_Buddha",
+      "type": "concept"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian-speaking",
+      "matchText": "Iranian-speaking",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Inner Asia",
+      "matchText": "Inner Asia",
+      "wikiSlug": "Inner_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "Luoyang",
+      "matchText": "Luoyang",
+      "wikiSlug": "Luoyang",
+      "type": "concept"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucianism",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Manchu",
+      "matchText": "Manchu",
+      "wikiSlug": "Manchu_people",
+      "type": "people"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Orkhon",
+      "matchText": "Orkhon",
+      "wikiSlug": "Orkhon_River",
+      "type": "concept"
+    },
+    {
+      "term": "Ordu-Baliq",
+      "matchText": "Ordu-Baliq",
+      "wikiSlug": "Ordu-Baliq",
+      "type": "concept"
     }
   ],
   "4": [
@@ -287,6 +455,42 @@
       "matchText": "soldier-dominated crisis of Samarra",
       "type": "concept",
       "wikiSlug": "Anarchy_at_Samarra"
+    },
+    {
+      "term": "Toquz Oghuz",
+      "matchText": "Toquz Oghuz",
+      "wikiSlug": "Toquz_Oghuz",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Ordu-Baliq",
+      "matchText": "Ordu-Baliq",
+      "wikiSlug": "Ordu-Baliq",
+      "type": "concept"
+    },
+    {
+      "term": "Bayanchur",
+      "matchText": "Bayanchur",
+      "wikiSlug": "Bayanchur_Khan",
+      "type": "person"
     }
   ],
   "5": [
@@ -361,6 +565,54 @@
       "matchText": "ortoq",
       "type": "concept",
       "definition": "A Central Asian capital-pooling trade partnership in which investors — merchants, nobles, even rulers — entrusted silver or silk to a traveling merchant and shared the profits on the caravan's return. The Uyghurs of Qocho ran ortoq networks across the Silk Road; when the Mongol Empire emerged it adopted the institution empire-wide as the *ortogh*, the commercial system that tied the Mongols' vast territories into a single trade network."
+    },
+    {
+      "term": "Gansu",
+      "matchText": "Gansu",
+      "wikiSlug": "Hexi_Corridor",
+      "type": "concept"
+    },
+    {
+      "term": "Tarim",
+      "matchText": "Tarim",
+      "wikiSlug": "Tarim_Basin",
+      "type": "concept"
+    },
+    {
+      "term": "Qocho Uyghurs",
+      "matchText": "Qocho Uyghurs",
+      "wikiSlug": "Qocho",
+      "type": "concept"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Orkhon",
+      "matchText": "Orkhon",
+      "wikiSlug": "Orkhon_River",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Karluks",
+      "matchText": "Karluks",
+      "wikiSlug": "Karluks",
+      "type": "people"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
     }
   ],
   "6": [
@@ -458,6 +710,78 @@
       "term": "Manzikert",
       "matchText": "Manzikert",
       "wikiSlug": "Battle_of_Manzikert",
+      "type": "concept"
+    },
+    {
+      "term": "Karluks",
+      "matchText": "Karluks",
+      "wikiSlug": "Karluks",
+      "type": "people"
+    },
+    {
+      "term": "Tian Shan",
+      "matchText": "Tian Shan",
+      "wikiSlug": "Tian_Shan",
+      "type": "concept"
+    },
+    {
+      "term": "Tarim",
+      "matchText": "Tarim",
+      "wikiSlug": "Tarim_Basin",
+      "type": "concept"
+    },
+    {
+      "term": "Khurasan",
+      "matchText": "Khurasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "concept"
+    },
+    {
+      "term": "Sufi",
+      "matchText": "Sufi",
+      "wikiSlug": "Sufism",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic Muslim",
+      "matchText": "Turkic Muslim rule",
+      "wikiSlug": "Islam_in_Central_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "concept"
+    },
+    {
+      "term": "Damascus",
+      "matchText": "Damascus",
+      "wikiSlug": "Damascus",
+      "type": "concept"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusades",
+      "wikiSlug": "Crusades",
+      "type": "concept"
+    },
+    {
+      "term": "Bukhara",
+      "matchText": "Bukhara",
+      "wikiSlug": "Bukhara",
       "type": "concept"
     }
   ],
@@ -557,6 +881,84 @@
       "matchText": "Almohads",
       "wikiSlug": "Almohad_Caliphate",
       "type": "people"
+    },
+    {
+      "term": "Mongolic",
+      "matchText": "Mongolic",
+      "wikiSlug": "Mongolic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "concept"
+    },
+    {
+      "term": "Bukhara",
+      "matchText": "Bukhara",
+      "wikiSlug": "Bukhara",
+      "type": "concept"
+    },
+    {
+      "term": "Kashgar",
+      "matchText": "Kashgar",
+      "wikiSlug": "Kashgar",
+      "type": "concept"
+    },
+    {
+      "term": "Karluks",
+      "matchText": "Karluks",
+      "wikiSlug": "Karluks",
+      "type": "people"
+    },
+    {
+      "term": "Confucian",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "Amu Darya",
+      "matchText": "Amu Darya",
+      "wikiSlug": "Amu_Darya",
+      "type": "concept"
+    },
+    {
+      "term": "Aral Sea",
+      "matchText": "Aral Sea",
+      "wikiSlug": "Aral_Sea",
+      "type": "concept"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "Greater_Iran",
+      "type": "concept"
+    },
+    {
+      "term": "Nestorian Christians",
+      "matchText": "Nestorian Christians",
+      "wikiSlug": "Church_of_the_East",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "concept"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
     }
   ],
   "8": [
@@ -631,6 +1033,72 @@
       "matchText": "ortogh",
       "definition": "The Mongol Empire's empire-wide version of the Uyghur ortoq merchant partnership — a capital-pooling arrangement in which investors (often the khan himself) backed long-distance traders, who carried the money across Central Asia and returned the profits. The Mongols adopted both the institution and the word wholesale from the oasis Uyghurs of Qocho.",
       "type": "concept"
+    },
+    {
+      "term": "Nestorian Christian",
+      "matchText": "Nestorian Christian",
+      "wikiSlug": "Church_of_the_East",
+      "type": "concept"
+    },
+    {
+      "term": "Orkhon",
+      "matchText": "Orkhon",
+      "wikiSlug": "Orkhon_River",
+      "type": "concept"
+    },
+    {
+      "term": "Ordu-Baliq",
+      "matchText": "Ordu-Baliq",
+      "wikiSlug": "Ordu-Baliq",
+      "type": "concept"
+    },
+    {
+      "term": "Tarim",
+      "matchText": "Tarim",
+      "wikiSlug": "Tarim_Basin",
+      "type": "concept"
+    },
+    {
+      "term": "Yelü Dashi",
+      "matchText": "Yelü Dashi",
+      "wikiSlug": "Yelü_Dashi",
+      "type": "concept"
+    },
+    {
+      "term": "Jurchen",
+      "matchText": "Jurchen",
+      "wikiSlug": "Jurchen_people",
+      "type": "people"
+    },
+    {
+      "term": "Gurkhan",
+      "matchText": "Gurkhan",
+      "type": "concept",
+      "definition": "A steppe title meaning roughly 'universal khan' or 'khan of khans' — a claim to supreme suzerainty over other rulers, not merely one people. Yelü Dashi took it in 1132 to announce that the Qara-Khitai stood above the Kara-Khanid khans, the Khwarazm-Shahs, and the Qocho idiqut, all of whom paid him tribute."
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Khotan",
+      "matchText": "Khotan",
+      "wikiSlug": "Kingdom_of_Khotan",
+      "type": "concept"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
     }
   ]
 }
