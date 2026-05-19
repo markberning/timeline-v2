@@ -347,14 +347,60 @@ Empire"). A named ruler/sultan/king/person, a named institution/army/corps
 (a). Waiver audit now also rejects any ruler/institution/person in the
 waived-but-never-linked set.
 
-**Legacy sweep — Batch 1** (5 worst civs, hardened brief, worktree
-agents): renaissance-italy ✅ (`8d2d78a`, 577→0, waiver-clean).
-ottoman-empire ❌ REJECTED (12 NEW unmet on main + Süleyman/Janissaries
-mis-waived) — redo under tightened brief. islamic-golden-age /
-byzantine-empire / delhi-sultanate ⏳ in flight (handle under sweep+
-converge; expect commit-time-0, accept later drift). **Batch 2 NOT
-launched** — paused until the in-flight 3 land + model recorded.
-Worst-first down `audits/link-coverage-ledger.md`.
+**Legacy sweep — Batch 1 CLOSED 2026-05-18 (end of day): 4 of 5
+committed, 1 parked.**
+- renaissance-italy ✅ `8d2d78a` (577→0, waiver-clean)
+- byzantine-empire ✅ `1efa3c5` (552→0; 8 drift)
+- islamic-golden-age ✅ `c9f35c1` (635→0; 23 drift; agent wrote
+  .link-waivers to MAIN not its worktree — content verified correct)
+- delhi-sultanate ✅ `93d7e3f` (541→0; 171 waivers = legitimate
+  verbose-(c), proven by fuller-form recheck; 6 drift)
+- ottoman-empire ❌ PARKED for next session — first agent admitted
+  waiving Süleyman/Janissaries as (a) + coverage didn't reproduce on
+  main. NOT redone today (user said finish-these-and-stop). Redo with
+  tightened brief next session — AND re-check with the corrected
+  waiver audit (see bug below) before assuming full redo; its reject
+  had independent grounds (agent self-admitted (a)-abuse) so likely
+  still a redo, but verify cleanly.
+
+**Phase 1 + Batch 1 sweep total committed: 6 civs, 2,533 worklist GATE
+closed** — goryeo-korea `eddea55`, uyghur-steppe `dfc42cd`,
+renaissance-italy `8d2d78a`, byzantine-empire `1efa3c5`,
+islamic-golden-age `c9f35c1`, delhi-sultanate `93d7e3f`. main ==
+origin/main, clean. Nothing reader-facing changed adversely; build/
+deploy unaffected (they don't run link-coverage).
+
+**COORDINATOR-AUDIT BUG found+fixed-in-method 2026-05-18:** the
+waiver-audit one-liner built the `linked` set from glossary
+`e.term||e.matchText` (the descriptive LABEL), not `e.matchText` (the
+actually-linked prose string). For link-once-waive-variant pairs
+(term="Tughlaq dynasty", matchText="Tughlaq"; waiver "Tughlaq") it
+false-flagged the waiver as never-linked → nearly false-rejected
+delhi-sultanate. **Bug direction = FALSE POSITIVE only** (over-flag),
+so the 5 earlier accepts are SAFE (their small never-linked sets were
+genuinely universal). **Corrected method (use next session):** build
+`linked` from glossary `e.matchText` AND `e.term`, cross/event
+`e.matchText`, and for any flagged term also substring-check it
+against all linked term+matchText forms before calling it a defect.
+
+**Convergence-phase debt (sweep+converge):** per-civ residual NEW from
+sibling-commit cross-reference drift — uyghur ~6, byzantine 8, islamic
+23, delhi 6 (renaissance/goryeo 0 at commit, will have drifted since).
+Bounded + expected; the end-of-program `--corpus` convergence pass
+mops all of it at once. NOT a defect, do not panic-revert.
+
+**▶ NEXT SESSION START HERE (in order):**
+1. ottoman-empire: re-run the CORRECTED waiver audit on the rejected
+   attempt's files if still in its worktree; if genuinely defective
+   (likely — agent self-admitted Süleyman as (a)), redo with the
+   hardened+tightened brief. One civ.
+2. Legacy sweep Batch 2: next 5 worst from
+   `audits/link-coverage-ledger.md` after the 6 done (skip
+   ottoman/the 6) — same hardened brief, ≤5 worktree agents, the
+   coordinator protocol with the CORRECTED waiver audit.
+3. Continue worst-first batches to corpus end, then the convergence
+   pass (re-run `--corpus`; mop residual drift to global 0).
+**Batch 2 NOT launched. No new agents running. Clean stop.**
 
 ## Commands
 
