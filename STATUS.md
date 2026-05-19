@@ -266,18 +266,22 @@ number — this chapter is the template.
   section below — this is the current major effort.
 - The-17 roster continuation (`audits/phase-1.5-roster.md`) — build remaining
   new civs the optimized way (now incl. `npm run parse:index` at ship).
-- **Chapter-intro retrofit (NEW backlog, 2026-05-19).** The chapter-intro
-  framing card + G13 gate shipped; `early-medieval-europe` is the live pilot
-  (`e141fda`, deployed + prod-verified on stuffhappened.com). The other **102
-  civs are grandfathered** in `audits/intro-baseline.json` (no intros yet) —
-  the site is unaffected, but their `ship-check` now has a G13 gate that
-  stays green only via the grandfather. Authoring `narratives/{tl}.intros.json`
-  for all 102 (then removing each from the baseline) is a separate scheduled
-  program, parallelizable like the link sweep. **Gated on the user's read of
-  the pilot** — they want to judge density on their phone first ("if the
-  intro is also too dense we can remove content") before the retrofit and
-  before deciding the re-chaptering/pacing question (the deferred half of
-  the original idea). Do NOT start the retrofit until they green-light it.
+- **Chapter-intro retrofit = backlog #19 (Tier C, user-approved 2026-05-19).**
+  Pilot read + approved by the user ("this is great"); the *richer* spec is
+  now locked (real "story so far" + "lay of the land" backstory — see
+  `memory/feedback_chapter_intros_rich`, CLAUDE.md step 8b). The chapter-intro
+  card + G13 gate are shipped and IN the new-civ pipeline (ship-check G13,
+  zero-tolerance for non-grandfathered + audit-skill scope note);
+  `early-medieval-europe` is the live reference template (`e141fda`/`8c51fc3`,
+  prod-verified). The other **102 civs are grandfathered** in
+  `audits/intro-baseline.json` — site unaffected. Full per-civ procedure +
+  execution model now in `audits/corpus-remediation-backlog.md` **#19**.
+  **NOT started — planning only.** Concept is approved; what's NOT yet
+  decided is *scheduling*: it's a corpus-scale authoring campaign the same
+  shape/effort as the #7 link sweep and carries the **same weekly-usage
+  budget** — the two must be sequenced, not both run unbudgeted, and #7 is
+  itself paused until ~2026-05-21. Do not launch #19 agents without an
+  explicit go + a decision on its order vs #7.
 
 ## ▶ ACTIVE PROGRAM — full link-coverage sweep (started 2026-05-18)
 

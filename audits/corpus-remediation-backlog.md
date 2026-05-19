@@ -238,6 +238,33 @@ text flags** — not "G10 is $$$, defer." Treat the text pass as nearly-Tier-A.
 |---|------|--------|---------------------|--------|
 | 6 | Density backfill | 559 sub-10 chapters, 98/100 civs | **Worst-only + accept rest as legacy** | ☐ |
 | 10 | Term-precision sweep | Scandinavia≠Nordic class corpus-wide | Opportunistic, not a campaign | ☐ |
+| 19 | **Chapter-intro retrofit (G13)** | 102 civs, no `.intros.json` yet | **Committed campaign — author all, user-approved 2026-05-19** | ☐ |
+
+**#19 is a committed feature backfill, NOT standard drift to tolerate.** The
+chapter-intro framing card + G13 gate (`lint-intros.ts`) shipped 2026-05-19;
+`early-medieval-europe` is the live, user-approved **reference template**
+(8 ch, deployed, prod-verified). The other **102 civs are grandfathered in
+`audits/intro-baseline.json`** (no intros yet) — the site is unaffected, but
+each civ's `ship-check` now carries a G13 gate that stays green only via that
+grandfather. The user has approved doing this for the whole corpus (not
+"worst-only" — every civ gets intros). **Per-civ procedure** (the locked
+emep template, the *richer* spec — see CLAUDE.md step 8b): author
+`narratives/{tl}.intros.json` — `bridge` "the story so far" (how we got
+here + prior-chapter players, ch≥2, 40–180w), `setup` "the lay of the land"
+(why / who drives / who opposes / what it replaces / stakes, 60–220w),
+`cast` 2–6 nameplates, `takeaway` one sentence; total ≤620w; house voice;
+no flat outcome dump. Then `lint-intros --tl={tl} --strict` → 0, scoped
+parse, and **remove that civ from `audits/intro-baseline.json`** (the
+done-marker: de-grandfathering makes the gate live for it). **Execution
+model:** parallel, worst/most-read-first, ≤5 worktree agents, one
+coordinator merges + re-runs the gate + audits a sample for quality (gate-
+green ≠ correct — `feedback_gate_pass_not_correct`: the cap can be met by a
+thin intro; sample-read N civs for the richer-runway intent the user
+locked). Reader-facing → batched commits, deploy per publish policy.
+**NOT a defect cleanup — it is content authoring at corpus scale, same
+shape/effort as the link-coverage sweep (#7), and carries the same
+weekly-usage-budget consideration; sequence the two, do not run both
+unbudgeted.** NOT started; planning only.
 
 **#6 is standard drift, not a defect.** 98/100 civs "violating" the 10–15
 gate means the *bar was raised after they shipped* — they read fine and shipped
@@ -251,7 +278,7 @@ open all/some/none question forever. User sign-off needed only on the threshold.
 
 | # | Item | Why it's not LOW | Status |
 |---|------|------------------|--------|
-| 12 | Summary-bullets coherence (G13) | Only ungated reader surface; building it **also gates the 17 new civs**, not just backfills the 100 — dual value beats single-purpose retro | ☐ |
+| 12 | Summary-bullets coherence (G14) | Only ungated reader surface; building it **also gates the 17 new civs**, not just backfills the 100 — dual value beats single-purpose retro | ☐ |
 | 17 | **def-blurb coherence gate (G12-def)** | The authored `definition` glossary blurb is the new canonical "no good EN page" answer, but it is currently UNGATED — it lives in `.glossary-links` JSON, NOT covered by the 5-persona narrative audit. G12 skips `def:` entries entirely. Gates the 17 too; **HARD DEPENDENCY for #4** (which mass-authors blurbs). | ☐ |
 
 **#12 / #17** bumped from LOW: their priority was mis-set by retro cost alone,
@@ -433,8 +460,10 @@ Remaining genuine user calls:
    reader-traffic ranking so Tier B sorts by exposure, not cost.
 2. **#6 density threshold** — what links/ch floor triggers a backfill; the
    accept-rest-as-legacy default stands unless overridden.
-3. **#12 G13** — confirm it's built alongside the 17 (forward gate) rather than
-   booked as pure retro.
+3. **#12 G14** — confirm it's built alongside the 17 (forward gate) rather than
+   booked as pure retro. (Gate ID note: the planned summary-bullets gate is
+   **G14**, not G13 — **G13 was taken by the shipped chapter-intro gate
+   2026-05-19**, backlog #19. The next free gate number is G15.)
 
 (Resolved by this rewrite: Tier A no longer needs a decision; #6 scope default
 set; #12 reprioritized.)

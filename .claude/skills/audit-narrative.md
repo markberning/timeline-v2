@@ -23,6 +23,8 @@ This skill exists because human-in-the-loop debugging of every chapter is unsust
 
 Use the Read tool with no offset/limit so you get every line. The personas need the complete document. If the file is huge (>2000 lines), still read it all — chapter narratives need full context.
 
+**Also read the chapter-intro sidecar if it exists** (`narratives/<id>.intros.json`). Intros are reader-facing house-voice prose NOT in the .md, so they are otherwise unaudited. When present, inline its text alongside the chapter it belongs to and tell the personas to vet it under the same standards as the prose: **Persona A** — is the intro intelligible to a zero-knowledge reader, does it *set up* without dumping the outcome; **Persona B** — any invented specific (a date/number/quote/name in the intro not supported by the chapter); **Persona D** — does the "story so far" bridge faithfully recap the prior chapters' arc and players. The deterministic G13 gate (`lint-intros`) only checks presence/length — gate-green ≠ correct (`feedback_gate_pass_not_correct`); this is where intro *content* is judged.
+
 ### 3. Spawn all four personas in parallel
 
 Use the Agent tool with `subagent_type: "general-purpose"` to spawn **four subagents in a single message** (parallel tool calls). Each gets a clean context.
