@@ -294,18 +294,14 @@ the gate after every link edit (matchText-italic-boundary class).
 publish policy. This is a sustained multi-batch program, not one session;
 progress tracked civ-by-civ in `audits/link-coverage-ledger.md`.
 
-Phase 1 (first batch — the 2 required new-pipeline civs):
-- **goryeo-korea ✅ DONE** (`eddea55`, pushed 2026-05-18). 97 GATE → 0:
-  84 born-verified glossary slugs + 1 cross-link + 12 documented waivers,
-  0 blurbs. Re-verified independently on main. Template proven.
-- **uyghur-steppe ⏳ REDO in progress.** First agent FAILED coordinator
-  review: passed all gates but by **over-waiving 107/131** (incl. real
-  places Samarkand/Bukhara/Kashgar/Karabalgasun, peoples Sogdians/Karluks,
-  and our OWN civs Xiongnu/Tang/Mongols/Abbasid, plus whole-sentence junk
-  waivers). Gate-green ≠ correct — the coverage gate does NOT judge waiver
-  legitimacy. Caught by the mandatory waiver audit (waived-but-never-linked
-  set). Bad files discarded, main restored to HEAD; redo launched with the
-  HARDENED brief.
+**Phase 1 ✅ COMPLETE — the 2 required new-pipeline civs closed + verified:**
+- **goryeo-korea** (`eddea55`). 97 GATE → 0: 84 slugs + 1 cross + 12 waivers.
+- **uyghur-steppe** (`dfc42cd`). 131 GATE → 0: 160 slugs + 21 blurbs + 50
+  new cross-links + 12 waivers (8 distinct, all modern-locator / anchored
+  self-ref). **Attempt #1 REJECTED** by the coordinator waiver audit —
+  passed all gates but over-waived 107/131 (real places/peoples/our-civs/
+  junk fragments); discarded, main restored, redone with the hardened
+  brief. The catch validated verify-don't-relay + the waiver audit.
 
 **HARDENED brief is now mandatory for every sweep civ (lesson from the
 uyghur over-waive):** the agent brief MUST carry (1) explicit closed-list
@@ -321,8 +317,17 @@ memory `feedback_coverage_agents_over_waive`.
 
 Mechanics validated: worktree agent → coordinator copies curated files to
 main → scoped parse → re-run ALL gates on main (verify, don't relay) →
-**waiver audit** → force-add curated set (NOT git add -A) → commit. Scale
-to 5-agent worst-civ-first legacy batches (hardened brief) after uyghur.
+**waiver audit** (waived-but-never-linked must be only modern-locator) →
+force-add curated set (NOT git add -A) → commit per civ.
+
+**Legacy sweep — Batch 1 LAUNCHED 2026-05-18** (5 worst civs, hardened
+brief, worktree agents): islamic-golden-age (~635), ottoman-empire
+(~629), renaissance-italy (~577), byzantine-empire (~552),
+delhi-sultanate (~541). ≈2,934 GATE. Each lands → coordinator
+verify+waiver-audit+commit independently (staggered). Then next worst-5
+batch. Progresses worst-first down `audits/link-coverage-ledger.md`
+(~22.6k legacy GATE remaining after Phase 1). Sustained multi-batch
+program — report per batch, gate-green is necessary not sufficient.
 
 ## Commands
 
