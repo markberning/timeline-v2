@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import type { NarrativeChapter, TlEvent } from '@/lib/types'
 import { Lightbox } from './lightbox'
+import { ChapterIntroCard } from './chapter-intro-card'
 
 interface ChapterAccordionProps {
   chapter: NarrativeChapter
@@ -327,6 +328,8 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
               />
             </div>
           )}
+
+          {chapter.intro && <ChapterIntroCard intro={chapter.intro} />}
 
           <article
             data-chapter-content

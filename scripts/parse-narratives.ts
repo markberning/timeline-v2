@@ -75,6 +75,19 @@ interface ChapterSummary {
   dateRange: string
 }
 
+interface ChapterIntroCast {
+  name: string
+  note: string
+}
+
+interface ChapterIntro {
+  chapter: number
+  bridge?: string
+  setup: string
+  cast: ChapterIntroCast[]
+  takeaway: string
+}
+
 interface TlEventDetail {
   label: string
   text: string
@@ -285,6 +298,24 @@ function loadSummaries(tlId: string): ChapterSummary[] {
   return []
 }
 
+function loadIntros(tlId: string): ChapterIntro[] {
+  // Same dual naming pattern as loadSummaries; intros are optional —
+  // a civ without the sidecar simply renders no framing card (the
+  // grandfathered ship gate, not the parser, enforces presence).
+  const patterns = [
+    join(NARRATIVES_DIR, `${tlId}.intros.json`),
+    join(NARRATIVES_DIR, `${Object.entries(NARRATIVE_FILES).find(([, id]) => id === tlId)?.[0]?.replace('.md', '')}.intros.json`),
+  ]
+
+  for (const path of patterns) {
+    if (existsSync(path)) {
+      return JSON.parse(readFileSync(path, 'utf-8'))
+    }
+  }
+
+  return []
+}
+
 function loadReferenceData(tlId: string): { events: TlEvent[]; spans: TlSpan[]; label: string; mapCommonsFile?: string; accentColor?: string } {
   const path = join(REFERENCE_DIR, `${tlId}.json`)
   if (!existsSync(path)) {
@@ -331,6 +362,7 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
   const markdown = readFileSync(join(NARRATIVES_DIR, filename), 'utf-8')
   const rawChapters = splitIntoChapters(markdown)
   const summaries = loadSummaries(tlId)
+  const intros = loadIntros(tlId)
   const refData = loadReferenceData(tlId)
 
   // Enrich events with thumbnails and Wikipedia extracts
@@ -590,11 +622,21 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
     mapCommonsFile: refData.mapCommonsFile,
     chapters: chapters.map(ch => {
       const summary = summaries.find(s => s.chapter === ch.number)
+      const introEntry = intros.find(i => i.chapter === ch.number)
+      const intro = introEntry
+        ? {
+            bridge: introEntry.bridge,
+            setup: introEntry.setup,
+            cast: introEntry.cast,
+            takeaway: introEntry.takeaway,
+          }
+        : undefined
       return {
         ...ch,
         subtitle: summary?.subtitle ?? undefined,
         summary: summary?.summary ?? '',
         dateRange: summary?.dateRange ?? '',
+        intro,
       }
     }),
     events: refData.events.map(e => {

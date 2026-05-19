@@ -77,6 +77,13 @@ check('fix-links --strict (born-verified)', () => { sh('node', ['scripts/fix-lin
 // 4. Density in band (G1) — new civs are not grandfathered.
 check('lint-density --strict', () => { sh('npx', ['tsx', 'scripts/lint-density.ts', `--tl=${tlId}`, '--strict']); return '10–15/ch' })
 
+// 4b. Chapter intros present + lighter-than-chapter (G13). Forward-looking
+// framing card before each chapter; the load-bearing rule is the TOTAL
+// word cap (an intro that grows into a second wall defeats its purpose).
+// Legacy civs grandfathered in audits/intro-baseline.json (no intros yet);
+// a civ NOT in the baseline is zero-tolerance, same model as density.
+check('lint-intros --strict', () => { sh('npx', ['tsx', 'scripts/lint-intros.ts', `--tl=${tlId}`, '--strict']); return 'intros present + within budget' })
+
 // 5. Link coverage triaged (G3) — multi-signal under-linking detector.
 // Flags named people/places/jargon introduced in prose but linked nowhere
 // (pronunciation gloss · foreign-term gloss · corpus cross-reference ·
