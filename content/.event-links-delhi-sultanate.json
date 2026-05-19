@@ -39,6 +39,26 @@
     {
       "eventId": "evt-aibak-mamluk-founding",
       "matchText": "Aibak"
+    },
+    {
+      "eventId": "evt-siri-fort",
+      "matchText": "Siri"
+    },
+    {
+      "eventId": "evt-tughlaqabad",
+      "matchText": "Tughlaqabad"
+    },
+    {
+      "eventId": "evt-firuzabad",
+      "matchText": "Firuzabad"
+    },
+    {
+      "eventId": "evt-firuz-shah-tughlaq",
+      "matchText": "Firuz Shah Tughlaq"
+    },
+    {
+      "eventId": "evt-qutb-minar",
+      "matchText": "UNESCO World Heritage Site"
     }
   ],
   "2": [
@@ -73,6 +93,18 @@
     {
       "eventId": "evt-aibak-mamluk-founding",
       "matchText": "Mamluk dynasty"
+    },
+    {
+      "eventId": "evt-mongol-genghis-frontier",
+      "matchText": "Genghis Khan"
+    },
+    {
+      "eventId": "evt-chihalgani-forty",
+      "matchText": "Forty"
+    },
+    {
+      "eventId": "evt-qutb-minar",
+      "matchText": "Qutb Minar"
     }
   ],
   "3": [
@@ -115,6 +147,30 @@
     {
       "eventId": "evt-amir-khusrau",
       "matchText": "Amir Khusrau"
+    },
+    {
+      "eventId": "evt-mongol-invasions-khalji",
+      "matchText": "Khyber Pass"
+    },
+    {
+      "eventId": "evt-ghiyasuddin-tughlaq",
+      "matchText": "Ghazi Malik"
+    },
+    {
+      "eventId": "evt-ghiyasuddin-tughlaq",
+      "matchText": "Ghiyas-ud-din Tughlaq"
+    },
+    {
+      "eventId": "evt-iltutmish",
+      "matchText": "Iltutmish"
+    },
+    {
+      "eventId": "evt-balban",
+      "matchText": "Balban"
+    },
+    {
+      "eventId": "evt-price-control",
+      "matchText": "Malik Yaqub"
     }
   ],
   "4": [
@@ -165,6 +221,22 @@
     {
       "eventId": "evt-firuz-shah-ashoka-pillars",
       "matchText": "Ashoka pillars"
+    },
+    {
+      "eventId": "evt-alauddin-khalji",
+      "matchText": "Alauddin Khalji"
+    },
+    {
+      "eventId": "evt-malik-kafur",
+      "matchText": "Malik Kafur"
+    },
+    {
+      "eventId": "evt-ziauddin-barani",
+      "matchText": "Ziauddin Barani"
+    },
+    {
+      "eventId": "evt-iltutmish",
+      "matchText": "Iltutmish"
     }
   ],
   "5": [
@@ -207,6 +279,22 @@
     {
       "eventId": "evt-bahlul-lodi",
       "matchText": "Bahlul Lodi"
+    },
+    {
+      "eventId": "evt-timur-invasion",
+      "matchText": "Timurids"
+    },
+    {
+      "eventId": "evt-firuzabad",
+      "matchText": "Firuzabad"
+    },
+    {
+      "eventId": "evt-tughlaqabad",
+      "matchText": "Tughlaqabad"
+    },
+    {
+      "eventId": "evt-vijayanagara-rise",
+      "matchText": "Harihara"
     }
   ],
   "6": [
@@ -253,6 +341,34 @@
     {
       "eventId": "evt-hindavi-emerges",
       "matchText": "Hindavi"
+    },
+    {
+      "eventId": "evt-iltutmish",
+      "matchText": "Iltutmish"
+    },
+    {
+      "eventId": "evt-ziauddin-barani",
+      "matchText": "Ziauddin Barani"
+    },
+    {
+      "eventId": "evt-balban",
+      "matchText": "Balban"
+    },
+    {
+      "eventId": "evt-jalaluddin-khalji",
+      "matchText": "Jalaluddin Khalji"
+    },
+    {
+      "eventId": "evt-alauddin-khalji",
+      "matchText": "Alauddin Khalji"
+    },
+    {
+      "eventId": "evt-ghiyasuddin-tughlaq",
+      "matchText": "Ghiyas-ud-din Tughlaq"
+    },
+    {
+      "eventId": "evt-babur-arrives",
+      "matchText": "Babur"
     }
   ],
   "7": [
@@ -345,6 +461,46 @@
     {
       "eventId": "evt-temple-destruction-rebuilding",
       "matchText": "destroy Hindu temples"
+    },
+    {
+      "eventId": "evt-first-panipat",
+      "matchText": "Panipat"
+    },
+    {
+      "eventId": "evt-aibak-mamluk-founding",
+      "matchText": "Aibak"
+    },
+    {
+      "eventId": "evt-qutb-minar",
+      "matchText": "Qutb Minar"
+    },
+    {
+      "eventId": "evt-tughlaqabad",
+      "matchText": "Tughlaqabad"
+    },
+    {
+      "eventId": "evt-firuzabad",
+      "matchText": "Firuzabad"
+    },
+    {
+      "eventId": "evt-bahmani-architecture",
+      "matchText": "Bidar"
+    },
+    {
+      "eventId": "evt-bhakti-movement-north",
+      "matchText": "Bhakti"
+    },
+    {
+      "eventId": "evt-chishti-order",
+      "matchText": "Chishti"
+    },
+    {
+      "eventId": "evt-amir-khusrau",
+      "matchText": "Amir Khusrau"
+    },
+    {
+      "eventId": "evt-rajput-survival",
+      "matchText": "Rajput"
     }
   ]
 }

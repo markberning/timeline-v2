@@ -53,6 +53,72 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 9,
       "blurb": "A frontier Muslim military state shielding a rich agrarian core from steppe cavalry: structurally the Sultanate played, in India, the role Byzantium played against the Turks."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Baghdad, the Abbasid capital, was the symbolic center of the Sunni Islamic world the Sultanate joined; Aibak’s successors sought formal investiture from the Abbasid Caliph there, and the caliphate’s nominal authority gave the new Delhi regime its Islamic legal legitimacy even after real power had passed to regional Turkic and Persian dynasties."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 7,
+      "blurb": "The Iron Pillar in the Quwwat-ul-Islam courtyard was forged around 400 CE during the Gupta Empire, the north Indian golden age whose Sanskrit-Hindu high culture the medieval kingdoms had inherited — and which the Sultanate physically built over at Mehrauli."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "The Crusader sack of Constantinople in 1204, two years before Aibak proclaimed himself Sultan, marked the same political moment in Mediterranean history that the Ghurid collapse marked in the east."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 4,
+      "blurb": "In 1206 the Holy Roman Empire was contesting the succession after the death of Henry VI while Pope Innocent III prepared the Albigensian Crusade — the European backdrop against which Aibak and Genghis Khan were simultaneously declaring empires."
+    },
+    {
+      "matchText": "Southern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "In 1206 the Southern Song dynasty ruled the wealthier southern half of China while Genghis Khan prepared to attack its northern Jurchen Jin neighbors — the East Asian half of the Mongol-shadowed thirteenth-century world the Sultanate was joining."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "The Song dynasty of China, which fell to the Mongols by 1279, was one of the major Eurasian states whose fate ran parallel to the Sultanate’s: the Sultanate survived the Mongol century the Song did not."
+    },
+    {
+      "matchText": "Khmer Empire",
+      "targetTl": "khmer-empire",
+      "targetChapter": 8,
+      "blurb": "In 1206 the Khmer Empire at Angkor was rebuilding after the death of Jayavarman VII — one of the contemporary Asian great powers whose arc the early Sultanate paralleled."
+    },
+    {
+      "matchText": "Saladin",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "The Ayyubid Sultanate that Saladin founded in Egypt in the 1170s, after defeating the Crusaders, was the principal Islamic power facing the Crusader states during the Sultanate’s founding period."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughal Empire, founded by Babur after Panipat in 1526, inherited the Sultanate’s Persianate, Sunni, Delhi-ruled framework — the Sultanate is why the Mughal state took the form it did."
+    },
+    {
+      "matchText": "Razia",
+      "targetTl": "medieval-india",
+      "targetChapter": 8,
+      "blurb": "Razia, the daughter Iltutmish named to succeed him, became the only woman to rule the Delhi Sultanate — the central drama of the next chapter, foreshadowed here at the close of the founding chapter."
+    },
+    {
+      "matchText": "Muhyiddin Ibn Arabi",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Ibn Arabi, the great Andalusian Sufi metaphysician teaching in Damascus in the early thirteenth century, was synthesizing the Sufi theology that would shape the Chishti and other orders soon taking root in Sultanate India."
     }
   ],
   "2": [
@@ -97,6 +163,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 8,
       "blurb": "The Sultanate's Persianate court culture descended from the Sassanid-Islamic synthesis — Persian as the language of administration and prestige far from Iran."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongol Empire under Genghis Khan crushed the Khwarazmian empire in 1219–21 and pursued the fugitive prince Jalaluddin Mingburnu to the Indus, bringing the Mongol world-empire to the Sultanate’s western frontier for the first time."
     }
   ],
   "3": [
@@ -147,6 +219,48 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "The slave-soldier institution that ran the Sultanate was a cousin of the Rus' and Mamluk slave economies — captured manpower as the engine of medieval Islamic states."
+    },
+    {
+      "matchText": "Muhammad of Ghor",
+      "targetTl": "medieval-india",
+      "targetChapter": 8,
+      "blurb": "Muhammad of Ghor’s 1192 victory at the Second Battle of Tarain over Prithviraj Chauhan opened north India to Turkic rule; the Rajput forts Alauddin Khalji reduced were the strongholds that had held out since Ghor’s time."
+    },
+    {
+      "matchText": "Babur",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Babur, who would take the Koh-i-Noor after Panipat in 1526 and found the Mughal Empire, is the figure into whose treasury the diamond passed two centuries after Alauddin Khalji’s raids first brought it to Delhi."
+    },
+    {
+      "matchText": "Panipat",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The First Battle of Panipat in 1526, where Babur destroyed the last Sultanate army, is the endpoint of the dynastic arc the Khalji imperial moment begins."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughals inherited the pan-Indian imperial precedent Alauddin Khalji’s southern raids established — that Delhi’s authority was, theoretically, subcontinental — and made it real two centuries later."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "While Alauddin Khalji broke the Mongols on the Indus, the Yuan Dynasty under Kublai Khan’s successors ruled China — the eastern pole of the same thirteenth-century Mongol world the Sultanate uniquely resisted."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "The Ottoman beylik founded by Osman I in northwestern Anatolia around 1299 — the same decade Alauddin Khalji was defeating the Mongols — would become the Sultanate’s partial mirror-image across the next four centuries."
+    },
+    {
+      "matchText": "Viking raids",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "The Viking raids on western Europe are the closest analogy to Malik Kafur’s southern campaigns: enormously profitable extractions of treasure and tribute that did not, at least at first, translate into permanent territorial control."
     }
   ],
   "4": [
@@ -191,6 +305,48 @@
       "targetTl": "maurya-empire",
       "targetChapter": 5,
       "blurb": "Tughlaq's over-centralized reach exceeding his grasp echoes the classic Indian imperial failure the Mauryas first demonstrated."
+    },
+    {
+      "matchText": "Timur",
+      "targetTl": "mongol-empire",
+      "targetChapter": 8,
+      "blurb": "Timur, the Turco-Mongol conqueror who would sack Delhi in 1398, found the post-Firuz Shah Tughlaq succession crisis and made it catastrophically worse — the subject of the next chapter."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "The Yuan Dynasty in China was collapsing into the Ming restoration in 1368, one of the great fourteenth-century political reorganizations that paralleled the Sultanate’s decline under the Tughlaqs."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "The Mali Empire was at its peak under Mansa Musa, whose 1324 hajj through Cairo distributed so much gold that Egyptian prices crashed for a decade — the contemporary African Islamic great power running parallel to the Tughlaq Sultanate."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Mansa Musa’s reign was the peak of the Mali Empire, whose famous 1324 hajj is the most celebrated diplomatic statement of medieval Islamic wealth — contemporary with Muhammad bin Tughlaq."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "While the Tughlaqs ran their empire, the Ottomans were establishing themselves in the Balkans, winning the Battle of Kosovo in 1389 — a rising power whose trajectory would mirror the Sultanate’s across the coming centuries."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "The Ottoman establishment in the Balkans, sealed at the 1389 Battle of Kosovo, was one of the major fourteenth-century political reorganizations contemporary with the Tughlaq Sultanate’s decline."
+    },
+    {
+      "matchText": "Aztecs",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "The Aztecs were founding Tenochtitlan in central Mexico around 1325, the same decade Muhammad bin Tughlaq was moving the Sultanate’s capital to Daulatabad — independent civilizations passing through their own fourteenth-century reorganizations."
     }
   ],
   "5": [
@@ -235,6 +391,48 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 3,
       "blurb": "Timur gutted the Delhi Sultanate the same way he gutted the Ottomans at Ankara (1402) — the same conqueror humbling two great Muslim states in five years."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Constantinople fell to Mehmed II in 1453, ending the thousand-year Byzantine Empire just as the hollowed-out Sayyid Sultanate gave way to the Lodis — two long-declining medieval orders ending within two years of each other."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "The Byzantine Empire, ended by Mehmed II’s 1453 capture of Constantinople, was — like the Sayyid Sultanate — the residue of something that had once been great, contracting to a single city before its final fall."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "songhai-empire",
+      "targetChapter": 1,
+      "blurb": "The Mali Empire in West Africa was at the end of its peak in the mid-fifteenth century, soon to be displaced by the rising Songhai Empire — the African parallel to the Sultanate’s own dynastic exhaustion under the Sayyids."
+    },
+    {
+      "matchText": "Joseon Dynasty",
+      "targetTl": "joseon-korea",
+      "targetChapter": 1,
+      "blurb": "The Joseon Dynasty ruled Korea under King Sejong, inventor of Hangul in 1443 — one of the contemporary fifteenth-century states whose cultural achievements ran parallel to the fragmenting Sultanate."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ming Dynasty in China was at the height of its naval-expansion phase under the Yongle Emperor and Admiral Zheng He, whose voyages reached East Africa in 1417 — the East Asian great power contemporary with the Sayyid Sultanate."
+    },
+    {
+      "matchText": "Yongle Emperor",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Yongle Emperor’s reign was the peak of Ming naval expansion, with Zheng He’s treasure fleets reaching East Africa — contemporary with the small Sayyid Sultanate confined to Delhi."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "The Inca Empire in the Andes was just consolidating under Pachacuti while the Sayyid Sultanate was a small kingdom remembered for being the residue of something once great."
     }
   ],
   "6": [
@@ -273,6 +471,30 @@
       "targetTl": "medieval-india",
       "targetChapter": 6,
       "blurb": "This was the second great wave of the Bhakti movement medieval-India traced — now fused with Sufism into a shared devotional idiom across the religious divide."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughal Empire that succeeded the Sultanate at Panipat inherited the composite Indo-Islamic culture — Sufi-Bhakti devotion, qawwali, Indo-Persian poetry — that this chapter describes, and developed it further under Akbar and his successors."
+    },
+    {
+      "matchText": "Bengal",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Guru Nanak’s travels reached Bengal, the wealthy eastern sultanate whose syncretic Hindu-Muslim religious culture was one of the regional environments in which the Sultanate-era devotional synthesis unfolded."
+    },
+    {
+      "matchText": "Muhammad of Ghor",
+      "targetTl": "medieval-india",
+      "targetChapter": 8,
+      "blurb": "Sufism arrived in India with Muhammad of Ghor’s Ghurid armies; Moinuddin Chishti settled at Ajmer within months of Ghor’s 1192 victory at Tarain, the conquest that opened north India to the Sufi orders."
+    },
+    {
+      "matchText": "Nizamuddin Dargah",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Nizamuddin Dargah, the working Chishti shrine in Delhi where Amir Khusrau is buried beside his master, remained under continuous patronage into the Mughal period — Akbar was a major patron of the Chishti dargahs the Sultanate-era synthesis produced."
     }
   ],
   "7": [
@@ -305,6 +527,42 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 12,
       "blurb": "The provincial-sultanate fragmentation is the Indian analogue of the post-1453 successor scramble — a great political order dissolved into regional heirs."
+    },
+    {
+      "matchText": "Mamluk Sultanate of Egypt",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 9,
+      "blurb": "The Mamluk Sultanate of Egypt, the slave-soldier state that had defeated the Mongols at Ain Jalut, was conquered by Selim I’s Ottomans in 1517 — the western Islamic counterpart to the Sultanate’s own dynastic ending at Panipat nine years later."
+    },
+    {
+      "matchText": "Safavid Empire",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "The Safavid Empire, founded in Iran in 1501 by Ismail I, was the new Shia great power on the Sultanate’s western horizon as the Lodi dynasty entered its final decades."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Mehmed II’s Ottoman capture of Constantinople in 1453 ended the Byzantine Empire while the Lodis were beginning their rule at Delhi — the eastern Mediterranean half of the same gunpowder-era transformation."
+    },
+    {
+      "matchText": "Mehmed II",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Mehmed II the Conqueror, who took Constantinople in 1453 and ended the Byzantine Empire, was the early-Lodi-era Ottoman sultan whose gunpowder armies prefigured the technology that would end the Sultanate at Panipat."
+    },
+    {
+      "matchText": "Lodi Sultanate",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Lodi Sultanate was the last and weakest phase of the Delhi Sultanate; its defeat at Panipat in 1526 handed Babur the fragmented constellation of regional states that the Mughal Empire would spend a century reorganizing."
+    },
+    {
+      "matchText": "Nizamuddin Dargah",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Nizamuddin Dargah at Delhi, one of the Sufi shrines spread across the late-Sultanate political map, continued as a major Chishti pilgrimage site under heavy Mughal patronage after 1526."
     }
   ],
   "8": [
@@ -355,6 +613,48 @@
       "targetTl": "medieval-india",
       "targetChapter": 5,
       "blurb": "Panipat closes the Sultanate and opens the Mughal age — the political through-line from the medieval-India kingdoms now passing to a new Turco-Mongol dynasty."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughal Empire that Babur founded after Panipat adopted, modified, and refined nearly everything the Sultanate had built — the iqta-derived mansabdari system, the Persianate administration, the Indo-Islamic architecture, the Sufi-Bhakti devotional world."
+    },
+    {
+      "matchText": "Cholas",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "The Cholas built the Indian Ocean trading network the Sultanate maintained and extended through the Bengal and Gujarat ports — the maritime substructure that long outlasted the dynasties at Delhi."
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Cortés’s 1521 victory at Tenochtitlan is the same kind of event as Babur’s at Panipat: a small, well-equipped, disciplined invading army defeating a large pre-gunpowder defender with imported military technology."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "In 1526, the year of Panipat, Charles V of the Holy Roman Empire was at the height of his power across Spain, the Netherlands, the German lands and Italy while the Reformation spread — the European pole of the global pivot the Sultanate’s end belongs to."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "The Mongols, whom the Sultanate uniquely resisted across the thirteenth and fourteenth centuries, are one bookend of its world; Babur, a Timurid descendant of the Mongol-Turkic steppe, is the other."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "The Song dynasty, which the Mongols destroyed by 1279, is the East Asian contrast to the Sultanate: where the Sultanate survived the Mongol century, the Song did not."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Babur read the Ottoman tactical manuals on the wagenburg gunpowder formation; his gun-master Ustad Ali Quli had served in the Ottoman army, so the technology that ended the Sultanate at Panipat came directly from the contemporary Ottoman military revolution."
     }
   ]
 }
