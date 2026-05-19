@@ -22,13 +22,13 @@ export function ChapterIntroCard({ intro }: { intro: ChapterIntro }) {
 
       <div className="mt-4 space-y-4" style={{ fontSize: 'var(--ch-subtitle)' }}>
         {intro.bridge && (
-          <IntroSection label="Where we are">
-            <p className="leading-snug text-foreground/70 italic">{intro.bridge}</p>
+          <IntroSection label="The story so far">
+            <p className="leading-relaxed text-foreground/70">{intro.bridge}</p>
           </IntroSection>
         )}
 
-        <IntroSection label="The setup">
-          <p className="leading-snug text-foreground/85">{intro.setup}</p>
+        <IntroSection label="The lay of the land">
+          <p className="leading-relaxed text-foreground/85">{intro.setup}</p>
         </IntroSection>
 
         {intro.cast.length > 0 && (

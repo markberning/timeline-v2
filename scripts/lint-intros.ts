@@ -9,14 +9,21 @@
  * primary invariant — the intro must stay lighter than the chapter.
  *
  * Per chapter the sidecar must provide:
- *   - bridge   "Where we are" — REQUIRED for ch ≥ 2, FORBIDDEN on ch 1
- *              (there is no "before" the first chapter). 8–60 words.
- *   - setup    "The setup" — situation + stakes. REQUIRED. 25–95 words.
+ *   - bridge   "The story so far" — a real recap: how we got here, the
+ *              major players before this chapter, what the prior arc set
+ *              up. REQUIRED for ch ≥ 2, FORBIDDEN on ch 1 (no "before"
+ *              the first chapter). 40–180 words.
+ *   - setup    "The lay of the land" — why this is happening, who is
+ *              driving it, who opposes it, what it is replacing, what is
+ *              at stake. REQUIRED. 60–220 words.
  *   - cast     "Who & what to watch" — 2–6 nameplates; name ≤ 6 words,
- *              note 3–14 words (a tag, not a definition).
+ *              note 3–16 words (a tag, not a definition).
  *   - takeaway "By the end" — REQUIRED, 5–40 words (one sentence; >1
  *              sentence is a WARN, not a block).
- *   - TOTAL words (bridge+setup+notes+takeaway) ≤ 220 → ERROR if over.
+ *   - TOTAL words (bridge+setup+notes+takeaway) ≤ 620 → ERROR if over.
+ *              The intro is now a real briefing, not a one-liner — the
+ *              cap is a runway, far short of a 1500–4000w chapter, so it
+ *              still cannot become a second wall.
  *
  * Legacy civs (no intros authored yet) are grandfathered as a flat list
  * in audits/intro-baseline.json, same fail-closed model as
@@ -37,13 +44,13 @@ const ROOT = join(__dirname, '..')
 const NARR = join(ROOT, 'narratives')
 const BASELINE = join(ROOT, 'audits', 'intro-baseline.json')
 
-const SETUP_MIN = 25, SETUP_MAX = 95
-const BRIDGE_MIN = 8, BRIDGE_MAX = 60
-const NOTE_MIN = 3, NOTE_MAX = 14
+const SETUP_MIN = 60, SETUP_MAX = 220
+const BRIDGE_MIN = 40, BRIDGE_MAX = 180
+const NOTE_MIN = 3, NOTE_MAX = 16
 const NAME_MAX_WORDS = 6
 const CAST_MIN = 2, CAST_MAX = 6
 const TAKEAWAY_MIN = 5, TAKEAWAY_MAX = 40
-const TOTAL_MAX = 220 // the anti-density invariant — keep the card lighter than the chapter
+const TOTAL_MAX = 620 // anti-wall ceiling: a real briefing/runway, still ≪ a 1500–4000w chapter
 
 const args = process.argv.slice(2)
 const onlyTl = args.find(a => a.startsWith('--tl='))?.slice(5)
