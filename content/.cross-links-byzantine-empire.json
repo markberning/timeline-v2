@@ -59,6 +59,36 @@
       "targetTl": "ancient-china",
       "targetChapter": 7,
       "blurb": "Gunpowder had been a Chinese invention of the ninth century that moved westward along the same Silk Road routes that had carried silk to Byzantine markets. By the fifteenth century, Ottoman engineers had developed the artillery technology to a scale the Theodosian Walls had not been designed to withstand. Chinese chemistry, filtering through Central Asian and Ottoman engineering, ended the Roman Empire."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "The classical Roman Empire — the one that began as a city on the Tiber and grew to rule the Mediterranean. Byzantium is not its successor but its direct continuation: the same state, the same law, the same unbroken line of emperors, simply governed from Constantinople in Greek rather than from Rome in Latin."
+    },
+    {
+      "matchText": "Sasanian Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Sasanian Empire was Rome's and then Byzantium's great eastern rival — the last pre-Islamic Persian dynasty, Zoroastrian, centred on Ctesiphon. For four centuries the two empires fought over Armenia, Mesopotamia, and Syria until both exhausted themselves just in time for the Arab conquests."
+    },
+    {
+      "matchText": "Rus' in 860",
+      "targetTl": "kievan-rus",
+      "targetChapter": 1,
+      "blurb": "The Rus' — Norse-led river traders and raiders along the Dnieper — first appear in Byzantine eyes as the fleet that attacked Constantinople in 860. Two centuries later their descendants would be the empire's elite Varangian bodyguard and Orthodox converts; this is the start of one of Byzantium's most consequential relationships."
+    },
+    {
+      "matchText": "Anglo-Saxon England",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "The Angles, Saxons, and Jutes who crossed into Britain as Rome's western provinces collapsed built the kingdoms that became England — a world away from Constantinople, and a useful gauge of how thoroughly the Latin west had to reinvent statecraft that the Greek east never lost."
+    },
+    {
+      "matchText": "Vendel Age",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "The pre-Viking Scandinavian world of the sixth to eighth centuries — the society that built the longship and shared the cultural language of the Anglo-Saxons. Centuries later its descendants would row down the Russian rivers to Constantinople and serve in the Varangian Guard."
     }
   ],
   "2": [
@@ -109,6 +139,36 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 5,
       "blurb": "The Hagia Sophia Justinian raised would become, nine centuries later, the model and the mosque of the Ottoman sultans."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Justinian's wars were an attempt to physically reconstitute the classical Roman Empire — Italy, Africa, the western islands all back under one emperor. The Ancient Rome narrative is the empire he was trying to restore."
+    },
+    {
+      "matchText": "Migration Period",
+      "targetTl": "migration-period",
+      "targetChapter": 1,
+      "blurb": "How the Vandals crossed the Rhine, traversed Gaul and Spain, ferried over to Africa, built a fleet, and sacked Rome — the whole barbarian-migration drama that handed Justinian the kingdoms he set out to reconquer."
+    },
+    {
+      "matchText": "marched on Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 8,
+      "blurb": "The city Belisarius retook in 533 was Roman Carthage, rebuilt on the ruins of the Punic metropolis Rome had razed seven centuries earlier — by then capital of the Vandal Kingdom. The Carthage narrative covers the long afterlife of the site Byzantium briefly recovered."
+    },
+    {
+      "matchText": "the Goths narrative",
+      "targetTl": "the-goths",
+      "targetChapter": 1,
+      "blurb": "The full Ostrogothic story — from Scandza and the Danube to Theodoric's competent rule of Italy — is the Goths narrative. Justinian's reconquest is the war that extinguished the kingdom that story builds toward."
+    },
+    {
+      "matchText": "into Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 12,
+      "blurb": "When Khosrow I sacked Antioch in 540 he deported its population deep into Sasanian Mesopotamia — the same Tigris–Euphrates heartland that had been civilization's core since Sumer, now the Persian imperial centre."
     }
   ],
   "3": [
@@ -173,6 +233,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "Pope Stephen II's turn to the Franks in 754 was the moment western Christendom formally transferred its primary political alignment from the eastern Roman emperor in Constantinople to the Frankish king north of the Alps. Charlemagne's coronation as Imperator Romanorum in 800 created two rival claims to Roman imperial legitimacy that would compete for seven centuries — the Greek-speaking Orthodox emperor in Constantinople and the Latin-speaking Holy Roman Emperor in the West."
+    },
+    {
+      "matchText": "Abbasid revolution of 750",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Umayyad failure at Constantinople in 718 fed the credibility crisis that the Abbasids exploited to seize the caliphate in 750 — moving its centre from Damascus to Baghdad and opening the Islamic Golden Age. The Islamic Golden Age narrative is the inside view of that revolution and the civilization it launched."
     }
   ],
   "5": [
@@ -273,6 +339,18 @@
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "The Northern Song court that was running Kaifeng's enormous urban economy in roughly the same century as the Book of the Eparch was solving the same regulatory problem at much greater scale: a million-person capital whose markets, guilds, and monopoly industries had to be administered by a literate bureaucracy. The Song state ran a paper-money system, a salt-and-tea monopoly, and government workshops that would have been instantly recognizable to a Constantinopolitan eparch — and the two empires sat at opposite ends of the same Silk Road economy."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "By the year 1000 the largest cities on Earth were in Song China — Kaifeng and later Hangzhou dwarfed even Constantinople. The Sui, Tang & Song China narrative is the eastern end of the same Eurasian world Byzantium anchored in the west."
+    },
+    {
+      "matchText": "Abbasid capital",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Tenth-century Baghdad was the one city that outshone Constantinople — the Abbasid capital at the height of the Islamic Golden Age, a centre of science, translation, and trade larger and richer than the Byzantine capital it rivalled."
     }
   ],
   "7": [
@@ -389,6 +467,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "The Palaiologan twilight is Rome's longest sunset — Constantine's Christian capital surviving 1,100 years after he founded it, now a city-state pretending to be an empire."
+    },
+    {
+      "matchText": "the Goths narrative",
+      "targetTl": "the-goths",
+      "targetChapter": 9,
+      "blurb": "How a starved and cheated Gothic refugee nation destroyed a Roman field army at Adrianople in 378 and permanently changed Rome's relationship with the barbarian peoples — told in full in the Goths narrative."
     }
   ],
   "11": [
@@ -403,6 +487,18 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "The Byzantine princess who married Ivan III of Moscow in 1472 brought with her the double-headed eagle, the imperial court ceremonial, and the theological claim to be the Third Rome — the heir of a Christian empire whose Orthodox conversion had begun with Vladimir's baptism in the Dnieper in 988. The Norse-Rus state that Constantinople had converted in the tenth century inherited the Byzantine imperial idea in the fifteenth."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "The empire that took Constantinople and inherited its capital, its administrative template, and its imperial idea. The Ottoman Empire narrative tells the conquest of 1453 and the six-century state Mehmed II built on Byzantium's ruins."
+    },
+    {
+      "matchText": "Renaissance Italy",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Byzantine scholars like Bessarion and the lectures of Plethon at Florence carried Greek learning west precisely as the Italian city-states were reviving classical antiquity. The Renaissance Italy narrative is the world that absorbed the dying empire's intellectual inheritance."
     }
   ],
   "12": [
@@ -435,6 +531,24 @@
       "targetTl": "hittite-empire",
       "targetChapter": 8,
       "blurb": "Byzantium's afterlife — its law, liturgy, and 'Third Rome' idea passing to Russia — is the deepest example of an empire outliving itself through inheritance, like Hatti's echoes in Iron Age Anatolia."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "The empire that inherited Constantinople, the Patriarchate, the millet system, the administrative geography, and the domed-mosque tradition. The Ottoman Empire narrative is the most direct institutional continuation of the Byzantine state."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "The Byzantine refugee scholars brought the Greek manuscripts, the language, and the Platonic tradition that turned the Italian Renaissance into a serious engagement with Greek thought. The Renaissance Italy narrative is what they fed into."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 1,
+      "blurb": "Through Zoe Palaiologina's marriage, the double-headed eagle, the title Tsar, and the Third Rome doctrine, the Byzantine imperial idea passed to Moscow. The Russian Empire narrative is where that inheritance became a great power's self-image."
     }
   ]
 }
