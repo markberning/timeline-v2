@@ -320,14 +320,41 @@ main → scoped parse → re-run ALL gates on main (verify, don't relay) →
 **waiver audit** (waived-but-never-linked must be only modern-locator) →
 force-add curated set (NOT git add -A) → commit per civ.
 
-**Legacy sweep — Batch 1 LAUNCHED 2026-05-18** (5 worst civs, hardened
-brief, worktree agents): islamic-golden-age (~635), ottoman-empire
-(~629), renaissance-italy (~577), byzantine-empire (~552),
-delhi-sultanate (~541). ≈2,934 GATE. Each lands → coordinator
-verify+waiver-audit+commit independently (staggered). Then next worst-5
-batch. Progresses worst-first down `audits/link-coverage-ledger.md`
-(~22.6k legacy GATE remaining after Phase 1). Sustained multi-batch
-program — report per batch, gate-green is necessary not sufficient.
+**ARCHITECTURAL FINDING 2026-05-18 — the gate is corpus-coupled; one-pass
+parallel sweep cannot reach global 0.** The link-coverage detector has a
+"term linked in another civ → GATE here" signal. So every civ committed
+adds small NEW gaps to all not-yet-final civs AND re-opens already-"0"
+civs. Proven: uyghur-steppe was committed verified `0 NEW`; after
+renaissance-italy committed it shows `6 NEW` on current main. The target
+moves with every commit. **Revised model = SWEEP + CONVERGE:**
+- *Sweep phase:* parallel agents close each civ's full GATE→0 vs the
+  corpus at their start (the expensive born-verified work). Coordinator
+  verify + waiver-audit + commit. Accept that earlier civs drift to small
+  NEW counts (single/low-double digits) as later civs land — expected,
+  bounded, NOT a failure.
+- *Converge phase:* after all 102 swept once, re-run `--corpus`; the
+  residual per-civ NEW is small + mostly recurrences of now-linked terms.
+  Mop up in 1–2 fast convergence iterations until the whole corpus is
+  simultaneously 0. (Full serialization was considered & rejected — kills
+  parallel throughput for ~100 civs to avoid a small bounded tax.)
+- *Done-definition:* a civ is "swept" when committed at commit-time-0;
+  the program is "done" when a `--corpus` pass shows 0 NEW corpus-wide.
+
+**Brief tightened (ottoman-empire defect):** category (a) waiver = the
+civilization's OWN NAME string ONLY (e.g. "Ottoman"/"Ottomans"/"Ottoman
+Empire"). A named ruler/sultan/king/person, a named institution/army/corps
+(Janissaries), a people, or a place is ALWAYS a born-verified link, NEVER
+(a). Waiver audit now also rejects any ruler/institution/person in the
+waived-but-never-linked set.
+
+**Legacy sweep — Batch 1** (5 worst civs, hardened brief, worktree
+agents): renaissance-italy ✅ (`8d2d78a`, 577→0, waiver-clean).
+ottoman-empire ❌ REJECTED (12 NEW unmet on main + Süleyman/Janissaries
+mis-waived) — redo under tightened brief. islamic-golden-age /
+byzantine-empire / delhi-sultanate ⏳ in flight (handle under sweep+
+converge; expect commit-time-0, accept later drift). **Batch 2 NOT
+launched** — paused until the in-flight 3 land + model recorded.
+Worst-first down `audits/link-coverage-ledger.md`.
 
 ## Commands
 
