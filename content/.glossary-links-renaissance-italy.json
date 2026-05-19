@@ -155,6 +155,336 @@
       "matchText": "Western Schism",
       "wikiSlug": "Western_Schism",
       "type": "concept"
+    },
+    {
+      "term": "Renaissance Italy",
+      "matchText": "Renaissance Italy",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Five Powers",
+      "matchText": "Five Powers",
+      "type": "concept",
+      "definition": "The five major Italian powers formalized by the 1454 Peace of Lodi — Florence, Venice, Milan, the Papal States, and Naples — whose competitive balance, with their five rival courts and patronage systems, was the political precondition for the artistic explosion of the next century and a half."
+    },
+    {
+      "term": "Castile",
+      "matchText": "Castile",
+      "type": "place",
+      "wikiSlug": "Crown_of_Castile"
+    },
+    {
+      "term": "Alps",
+      "matchText": "Alps",
+      "type": "place",
+      "wikiSlug": "Alps"
+    },
+    {
+      "term": "Holy Roman Emperor",
+      "matchText": "Holy Roman Emperor",
+      "type": "concept",
+      "wikiSlug": "Holy_Roman_Emperor"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon",
+      "type": "people",
+      "wikiSlug": "Napoleon"
+    },
+    {
+      "term": "Spanish Habsburg",
+      "matchText": "Spanish Habsburg",
+      "type": "concept",
+      "wikiSlug": "Habsburg_Spain"
+    },
+    {
+      "term": "Renaissance",
+      "matchText": "Renaissance",
+      "type": "concept",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "term": "Arno",
+      "matchText": "Arno",
+      "type": "place",
+      "wikiSlug": "Arno"
+    },
+    {
+      "term": "Florentine",
+      "matchText": "Florentine",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Bardi",
+      "matchText": "Bardi",
+      "type": "concept",
+      "wikiSlug": "Bardi_family"
+    },
+    {
+      "term": "Peruzzi",
+      "matchText": "Peruzzi",
+      "type": "concept",
+      "wikiSlug": "Peruzzi"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "type": "place",
+      "wikiSlug": "Alexandria"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "type": "place",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "term": "Dalmatian",
+      "matchText": "Dalmatian",
+      "type": "place",
+      "wikiSlug": "Dalmatia"
+    },
+    {
+      "term": "Adriatic",
+      "matchText": "Adriatic",
+      "type": "place",
+      "wikiSlug": "Adriatic_Sea"
+    },
+    {
+      "term": "Doge",
+      "matchText": "Doge",
+      "type": "concept",
+      "wikiSlug": "Doge_of_Venice"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "type": "concept",
+      "wikiSlug": "Latin"
+    },
+    {
+      "term": "Avignon",
+      "matchText": "Avignon",
+      "type": "concept",
+      "wikiSlug": "Avignon_Papacy"
+    },
+    {
+      "term": "Colosseum",
+      "matchText": "Colosseum",
+      "type": "place",
+      "wikiSlug": "Colosseum"
+    },
+    {
+      "term": "Pantheon",
+      "matchText": "Pantheon",
+      "type": "concept",
+      "wikiSlug": "Pantheon,_Rome"
+    },
+    {
+      "term": "Pope Urban VIII",
+      "matchText": "Pope Urban VIII",
+      "type": "people",
+      "wikiSlug": "Pope_Urban_VIII"
+    },
+    {
+      "term": "Pius II",
+      "matchText": "Pius II",
+      "type": "people",
+      "wikiSlug": "Pope_Pius_II"
+    },
+    {
+      "term": "Sixtus IV",
+      "matchText": "Sixtus IV",
+      "type": "people",
+      "wikiSlug": "Pope_Sixtus_IV"
+    },
+    {
+      "term": "Alexander VI",
+      "matchText": "Alexander VI",
+      "type": "people",
+      "wikiSlug": "Pope_Alexander_VI"
+    },
+    {
+      "term": "Julius II",
+      "matchText": "Julius II",
+      "type": "people",
+      "wikiSlug": "Pope_Julius_II"
+    },
+    {
+      "term": "Sistine Chapel",
+      "matchText": "Sistine Chapel",
+      "type": "concept",
+      "wikiSlug": "Sistine_Chapel"
+    },
+    {
+      "term": "Vatican",
+      "matchText": "Vatican",
+      "type": "place",
+      "wikiSlug": "Vatican_City"
+    },
+    {
+      "term": "Gonzaga",
+      "matchText": "Gonzaga",
+      "type": "concept",
+      "wikiSlug": "House_of_Gonzaga"
+    },
+    {
+      "term": "Este",
+      "matchText": "Este",
+      "type": "concept",
+      "wikiSlug": "House_of_Este"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Bramante",
+      "matchText": "Bramante",
+      "type": "people",
+      "wikiSlug": "Donato_Bramante"
+    },
+    {
+      "term": "Genoese",
+      "matchText": "Genoese",
+      "type": "concept",
+      "wikiSlug": "Republic_of_Genoa"
+    },
+    {
+      "term": "Christopher Columbus",
+      "matchText": "Christopher Columbus",
+      "type": "people",
+      "wikiSlug": "Christopher_Columbus"
+    },
+    {
+      "term": "Peace of Constance",
+      "matchText": "Peace of Constance",
+      "type": "concept",
+      "wikiSlug": "Peace_of_Constance"
+    },
+    {
+      "term": "Frederick Barbarossa",
+      "matchText": "Frederick Barbarossa",
+      "type": "people",
+      "wikiSlug": "Frederick_Barbarossa"
+    },
+    {
+      "term": "Lübeck",
+      "matchText": "Lübeck",
+      "type": "place",
+      "wikiSlug": "L%C3%BCbeck"
+    },
+    {
+      "term": "Hamburg",
+      "matchText": "Hamburg",
+      "type": "place",
+      "wikiSlug": "Hamburg"
+    },
+    {
+      "term": "Virgil",
+      "matchText": "Virgil",
+      "type": "people",
+      "wikiSlug": "Virgil"
+    },
+    {
+      "term": "Cicero",
+      "matchText": "Cicero",
+      "type": "people",
+      "wikiSlug": "Cicero"
+    },
+    {
+      "term": "Ovid",
+      "matchText": "Ovid",
+      "type": "people",
+      "wikiSlug": "Ovid"
+    },
+    {
+      "term": "Horace",
+      "matchText": "Horace",
+      "type": "people",
+      "wikiSlug": "Horace"
+    },
+    {
+      "term": "Goths",
+      "matchText": "Goths",
+      "type": "concept",
+      "wikiSlug": "Goths"
+    },
+    {
+      "term": "Chartres",
+      "matchText": "Chartres",
+      "type": "place",
+      "wikiSlug": "Chartres_Cathedral"
+    },
+    {
+      "term": "Deccan",
+      "matchText": "Deccan",
+      "type": "place",
+      "wikiSlug": "Deccan_Plateau"
+    },
+    {
+      "term": "Valley of Mexico",
+      "matchText": "Valley of Mexico",
+      "type": "place",
+      "wikiSlug": "Valley_of_Mexico"
+    },
+    {
+      "term": "dux",
+      "matchText": "dux",
+      "type": "concept",
+      "wikiSlug": "Dux"
+    },
+    {
+      "term": "Martin V",
+      "matchText": "Martin V",
+      "type": "people",
+      "wikiSlug": "Pope_Martin_V"
+    },
+    {
+      "term": "Nicholas V",
+      "matchText": "Nicholas V",
+      "type": "people",
+      "wikiSlug": "Pope_Nicholas_V"
+    },
+    {
+      "term": "Leo X",
+      "matchText": "Leo X",
+      "type": "people",
+      "wikiSlug": "Pope_Leo_X"
+    },
+    {
+      "term": "Lucca",
+      "matchText": "Lucca",
+      "type": "place",
+      "wikiSlug": "Lucca"
+    },
+    {
+      "term": "Venetian",
+      "matchText": "Venetian",
+      "type": "concept",
+      "wikiSlug": "Venetian_painting"
+    },
+    {
+      "term": "Hell",
+      "matchText": "Hell",
+      "type": "concept",
+      "wikiSlug": "Inferno_(Dante)"
+    },
+    {
+      "term": "Purgatory",
+      "matchText": "Purgatory",
+      "type": "concept",
+      "wikiSlug": "Purgatorio"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian",
+      "type": "concept",
+      "definition": "Of the connected landmass of Europe and Asia treated as a single zone of exchange — the framing this narrative uses for its cross-civilization checks, in which fourteenth-to-seventeenth-century Italy is one node in a wider system of plague, trade, and imperial expansion."
     }
   ],
   "2": [
@@ -283,6 +613,210 @@
       "matchText": "Masaccio",
       "wikiSlug": "Masaccio",
       "type": "people"
+    },
+    {
+      "term": "Trecento",
+      "matchText": "Trecento",
+      "type": "concept",
+      "wikiSlug": "Trecento"
+    },
+    {
+      "term": "Renaissance",
+      "matchText": "Renaissance",
+      "type": "concept",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "type": "concept",
+      "wikiSlug": "Latin"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Laura",
+      "matchText": "Laura",
+      "type": "people",
+      "wikiSlug": "Laura_de_Noves"
+    },
+    {
+      "term": "Florentine",
+      "matchText": "Florentine",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Tuscan Italian",
+      "matchText": "Tuscan Italian",
+      "type": "concept",
+      "wikiSlug": "Tuscan_dialect"
+    },
+    {
+      "term": "White Guelphs",
+      "matchText": "White Guelphs",
+      "type": "concept",
+      "wikiSlug": "Guelphs_and_Ghibellines"
+    },
+    {
+      "term": "Verona",
+      "matchText": "Verona",
+      "type": "place",
+      "wikiSlug": "Verona"
+    },
+    {
+      "term": "Hell",
+      "matchText": "Hell",
+      "type": "concept",
+      "wikiSlug": "Inferno_(Dante)"
+    },
+    {
+      "term": "Purgatory",
+      "matchText": "Purgatory",
+      "type": "concept",
+      "wikiSlug": "Purgatorio"
+    },
+    {
+      "term": "Tuscan",
+      "matchText": "Tuscan",
+      "type": "place",
+      "wikiSlug": "Tuscany"
+    },
+    {
+      "term": "Naples",
+      "matchText": "Naples",
+      "type": "place",
+      "wikiSlug": "Kingdom_of_Naples"
+    },
+    {
+      "term": "Mary",
+      "matchText": "Mary",
+      "type": "people",
+      "wikiSlug": "Mary,_mother_of_Jesus"
+    },
+    {
+      "term": "Bethlehem",
+      "matchText": "Bethlehem",
+      "type": "place",
+      "wikiSlug": "Bethlehem"
+    },
+    {
+      "term": "Ognissanti Madonna",
+      "matchText": "Ognissanti Madonna",
+      "type": "concept",
+      "wikiSlug": "Ognissanti_Madonna"
+    },
+    {
+      "term": "Provence",
+      "matchText": "Provence",
+      "type": "place",
+      "wikiSlug": "Provence"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "type": "place",
+      "wikiSlug": "Milan"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "type": "concept",
+      "wikiSlug": "Venice"
+    },
+    {
+      "term": "Canzoniere",
+      "matchText": "Canzoniere",
+      "type": "concept",
+      "wikiSlug": "Il_Canzoniere"
+    },
+    {
+      "term": "Shakespeare",
+      "matchText": "Shakespeare",
+      "type": "people",
+      "wikiSlug": "William_Shakespeare"
+    },
+    {
+      "term": "Fiammetta",
+      "matchText": "Fiammetta",
+      "type": "concept",
+      "wikiSlug": "Fiammetta"
+    },
+    {
+      "term": "Reformation",
+      "matchText": "Reformation",
+      "type": "concept",
+      "wikiSlug": "Reformation"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian",
+      "type": "concept",
+      "definition": "Of the connected landmass of Europe and Asia treated as a single zone of exchange — the framing this narrative uses for its cross-civilization checks, in which fourteenth-to-seventeenth-century Italy is one node in a wider system of plague, trade, and imperial expansion."
+    },
+    {
+      "term": "Mamluks",
+      "matchText": "Mamluks",
+      "type": "concept",
+      "wikiSlug": "Mamluk_Sultanate"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "type": "place",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "term": "De vulgari eloquentia",
+      "matchText": "De vulgari eloquentia",
+      "type": "concept",
+      "wikiSlug": "De_vulgari_eloquentia"
+    },
+    {
+      "term": "Rime sparse",
+      "matchText": "Rime sparse",
+      "type": "concept",
+      "wikiSlug": "Il_Canzoniere"
+    },
+    {
+      "term": "deka hēmerai",
+      "matchText": "deka hēmerai",
+      "type": "concept",
+      "definition": "Greek for 'ten days' — the etymology of the title of Boccaccio's Decameron, the hundred stories told by ten young Florentines over ten days while sheltering from the Black Death."
+    },
+    {
+      "term": "Petrarchan beloved",
+      "matchText": "Petrarchan beloved",
+      "type": "concept",
+      "wikiSlug": "Petrarch%27s_and_Shakespeare%27s_sonnets"
+    },
+    {
+      "term": "Robert of Anjou",
+      "matchText": "Robert of Anjou",
+      "type": "people",
+      "wikiSlug": "Robert,_King_of_Naples"
+    },
+    {
+      "term": "Lucca",
+      "matchText": "Lucca",
+      "type": "place",
+      "wikiSlug": "Lucca"
+    },
+    {
+      "term": "Venetian",
+      "matchText": "Venetian",
+      "type": "concept",
+      "wikiSlug": "Venetian_painting"
+    },
+    {
+      "term": "Quattrocento",
+      "matchText": "Quattrocento",
+      "type": "concept",
+      "wikiSlug": "Quattrocento"
     }
   ],
   "3": [
@@ -435,6 +969,426 @@
       "matchText": "linear perspective",
       "wikiSlug": "Perspective_(graphical)",
       "type": "concept"
+    },
+    {
+      "term": "Quattrocento",
+      "matchText": "Quattrocento",
+      "type": "concept",
+      "wikiSlug": "Quattrocento"
+    },
+    {
+      "term": "Florentine",
+      "matchText": "Florentine",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Padua",
+      "matchText": "Padua",
+      "type": "place",
+      "wikiSlug": "Padua"
+    },
+    {
+      "term": "Mantua",
+      "matchText": "Mantua",
+      "type": "place",
+      "wikiSlug": "Mantua"
+    },
+    {
+      "term": "Piero",
+      "matchText": "Piero",
+      "type": "people",
+      "wikiSlug": "Piero_the_Unfortunate"
+    },
+    {
+      "term": "Urbino",
+      "matchText": "Urbino",
+      "type": "place",
+      "wikiSlug": "Urbino"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "type": "concept",
+      "wikiSlug": "Venice"
+    },
+    {
+      "term": "Gothic",
+      "matchText": "Gothic",
+      "type": "concept",
+      "wikiSlug": "Gothic_architecture"
+    },
+    {
+      "term": "Renaissance",
+      "matchText": "Renaissance",
+      "type": "concept",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "term": "Corinthian",
+      "matchText": "Corinthian",
+      "type": "concept",
+      "wikiSlug": "Corinthian_order"
+    },
+    {
+      "term": "Santa Croce",
+      "matchText": "Santa Croce",
+      "type": "place",
+      "wikiSlug": "Basilica_of_Santa_Croce,_Florence"
+    },
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "type": "place",
+      "wikiSlug": "San_Lorenzo,_Florence"
+    },
+    {
+      "term": "Santo Spirito",
+      "matchText": "Santo Spirito",
+      "type": "place",
+      "wikiSlug": "Santo_Spirito,_Florence"
+    },
+    {
+      "term": "De Pictura",
+      "matchText": "De Pictura",
+      "type": "concept",
+      "wikiSlug": "De_pictura"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "type": "concept",
+      "wikiSlug": "Latin"
+    },
+    {
+      "term": "Renaissance Man",
+      "matchText": "Renaissance Man",
+      "type": "concept",
+      "wikiSlug": "Polymath"
+    },
+    {
+      "term": "Habakkuk",
+      "matchText": "Habakkuk",
+      "type": "people",
+      "wikiSlug": "Zuccone"
+    },
+    {
+      "term": "Florentines",
+      "matchText": "Florentines",
+      "type": "people",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Gattamelata",
+      "matchText": "Gattamelata",
+      "type": "concept",
+      "wikiSlug": "Equestrian_Statue_of_Gattamelata"
+    },
+    {
+      "term": "Marcus Aurelius",
+      "matchText": "Marcus Aurelius",
+      "type": "people",
+      "wikiSlug": "Marcus_Aurelius"
+    },
+    {
+      "term": "Constantine",
+      "matchText": "Constantine",
+      "type": "people",
+      "wikiSlug": "Constantine_the_Great"
+    },
+    {
+      "term": "Capitoline Hill",
+      "matchText": "Capitoline Hill",
+      "type": "place",
+      "wikiSlug": "Capitoline_Hill"
+    },
+    {
+      "term": "Magdalene",
+      "matchText": "Magdalene",
+      "type": "people",
+      "wikiSlug": "Penitent_Magdalene_(Donatello)"
+    },
+    {
+      "term": "Goliath",
+      "matchText": "Goliath",
+      "type": "people",
+      "wikiSlug": "Goliath"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Fra Filippo Lippi",
+      "matchText": "Fra Filippo Lippi",
+      "type": "people",
+      "wikiSlug": "Filippo_Lippi"
+    },
+    {
+      "term": "Andrea del Castagno",
+      "matchText": "Andrea del Castagno",
+      "type": "people",
+      "wikiSlug": "Andrea_del_Castagno"
+    },
+    {
+      "term": "Giovanni",
+      "matchText": "Giovanni",
+      "type": "people",
+      "wikiSlug": "Giovanni_di_Bicci_de%27_Medici"
+    },
+    {
+      "term": "Roman Curia",
+      "matchText": "Roman Curia",
+      "type": "concept",
+      "wikiSlug": "Roman_Curia"
+    },
+    {
+      "term": "Avignon",
+      "matchText": "Avignon",
+      "type": "concept",
+      "wikiSlug": "Avignon_Papacy"
+    },
+    {
+      "term": "Bruges",
+      "matchText": "Bruges",
+      "type": "place",
+      "wikiSlug": "Bruges"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "type": "place",
+      "wikiSlug": "London"
+    },
+    {
+      "term": "Albizzi",
+      "matchText": "Albizzi",
+      "type": "concept",
+      "wikiSlug": "Albizzi"
+    },
+    {
+      "term": "Dominican",
+      "matchText": "Dominican",
+      "type": "concept",
+      "wikiSlug": "Dominican_Order"
+    },
+    {
+      "term": "San Marco",
+      "matchText": "San Marco",
+      "type": "place",
+      "wikiSlug": "San_Marco,_Florence"
+    },
+    {
+      "term": "Patriarch of Constantinople",
+      "matchText": "Patriarch of Constantinople",
+      "type": "people",
+      "wikiSlug": "Ecumenical_Patriarch_of_Constantinople"
+    },
+    {
+      "term": "Pater Patriae",
+      "matchText": "Pater Patriae",
+      "type": "people",
+      "wikiSlug": "Pater_Patriae"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Roman Senate",
+      "type": "concept",
+      "wikiSlug": "Roman_Senate"
+    },
+    {
+      "term": "Cicero",
+      "matchText": "Cicero",
+      "type": "people",
+      "wikiSlug": "Cicero"
+    },
+    {
+      "term": "High Renaissance",
+      "matchText": "High Renaissance",
+      "type": "concept",
+      "wikiSlug": "High_Renaissance"
+    },
+    {
+      "term": "Primavera",
+      "matchText": "Primavera",
+      "type": "concept",
+      "wikiSlug": "Primavera_(Botticelli)"
+    },
+    {
+      "term": "Hebrew",
+      "matchText": "Hebrew",
+      "type": "concept",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "type": "concept",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "term": "Aramaic",
+      "matchText": "Aramaic",
+      "type": "concept",
+      "wikiSlug": "Aramaic"
+    },
+    {
+      "term": "Pope Alexander VI",
+      "matchText": "Pope Alexander VI",
+      "type": "people",
+      "wikiSlug": "Pope_Alexander_VI"
+    },
+    {
+      "term": "Giuliano",
+      "matchText": "Giuliano",
+      "type": "people",
+      "wikiSlug": "Giuliano_de%27_Medici"
+    },
+    {
+      "term": "Naples",
+      "matchText": "Naples",
+      "type": "place",
+      "wikiSlug": "Kingdom_of_Naples"
+    },
+    {
+      "term": "Ferrara",
+      "matchText": "Ferrara",
+      "type": "place",
+      "wikiSlug": "Ferrara"
+    },
+    {
+      "term": "Franciscan",
+      "matchText": "Franciscan",
+      "type": "concept",
+      "wikiSlug": "Franciscans"
+    },
+    {
+      "term": "Reformation",
+      "matchText": "Reformation",
+      "type": "concept",
+      "wikiSlug": "Reformation"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "type": "place",
+      "wikiSlug": "Milan"
+    },
+    {
+      "term": "Persian Gulf",
+      "matchText": "Persian Gulf",
+      "type": "place",
+      "wikiSlug": "Persian_Gulf"
+    },
+    {
+      "term": "Songhai Empire",
+      "matchText": "Songhai Empire",
+      "type": "concept",
+      "wikiSlug": "Songhai_Empire"
+    },
+    {
+      "term": "Mexico",
+      "matchText": "Mexico",
+      "type": "place",
+      "wikiSlug": "Valley_of_Mexico"
+    },
+    {
+      "term": "Pachacuti",
+      "matchText": "Pachacuti",
+      "type": "people",
+      "wikiSlug": "Pachacuti"
+    },
+    {
+      "term": "Bartolomeu Dias",
+      "matchText": "Bartolomeu Dias",
+      "type": "people",
+      "wikiSlug": "Bartolomeu_Dias"
+    },
+    {
+      "term": "Cape of Good Hope",
+      "matchText": "Cape of Good Hope",
+      "type": "place",
+      "wikiSlug": "Cape_of_Good_Hope"
+    },
+    {
+      "term": "Indian Ocean",
+      "matchText": "Indian Ocean",
+      "type": "place",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "term": "lo Zuccone",
+      "matchText": "lo Zuccone",
+      "type": "concept",
+      "wikiSlug": "Zuccone"
+    },
+    {
+      "term": "il Magnifico",
+      "matchText": "il Magnifico",
+      "type": "concept",
+      "definition": "'The Magnificent' — the nickname that stuck to Lorenzo de' Medici, who dominated Florence 1469–1492 and whose household patronage of Botticelli, Pico, Poliziano, and the young Michelangelo produced the cultural moment the High Renaissance inherited."
+    },
+    {
+      "term": "il Fatuo",
+      "matchText": "il Fatuo",
+      "type": "concept",
+      "definition": "'The Unfortunate' (more literally 'the foolish') — the dynastic nickname for Piero de' Medici, Lorenzo the Magnificent's son, who mismanaged the 1494 French crisis so badly that an angry Florentine mob drove the Medici into exile."
+    },
+    {
+      "term": "Arnolfo di Cambio",
+      "matchText": "Arnolfo di Cambio",
+      "type": "people",
+      "wikiSlug": "Arnolfo_di_Cambio"
+    },
+    {
+      "term": "St. George",
+      "matchText": "St. George",
+      "type": "people",
+      "wikiSlug": "Saint_George_(Donatello)"
+    },
+    {
+      "term": "Piero il Gottoso",
+      "matchText": "Piero il Gottoso",
+      "type": "people",
+      "wikiSlug": "Piero_di_Cosimo_de%27_Medici"
+    },
+    {
+      "term": "Alexander VI",
+      "matchText": "Alexander VI",
+      "type": "people",
+      "wikiSlug": "Pope_Alexander_VI"
+    },
+    {
+      "term": "Portuguese voyages",
+      "matchText": "Portuguese voyages",
+      "type": "concept",
+      "wikiSlug": "Portuguese_discoveries"
+    },
+    {
+      "term": "Arno",
+      "matchText": "Arno",
+      "type": "place",
+      "wikiSlug": "Arno"
+    },
+    {
+      "term": "Venetian",
+      "matchText": "Venetian",
+      "type": "concept",
+      "wikiSlug": "Venetian_painting"
+    },
+    {
+      "term": "Aristotelian",
+      "matchText": "Aristotelian",
+      "type": "concept",
+      "wikiSlug": "Aristotelianism"
+    },
+    {
+      "term": "Five Powers",
+      "matchText": "Five Powers",
+      "type": "concept",
+      "definition": "The five major Italian powers formalized by the 1454 Peace of Lodi — Florence, Venice, Milan, the Papal States, and Naples — whose competitive balance, with their five rival courts and patronage systems, was the political precondition for the artistic explosion of the next century and a half."
     }
   ],
   "4": [
@@ -611,6 +1565,420 @@
       "matchText": "Domenico Ghirlandaio",
       "wikiSlug": "Domenico_Ghirlandaio",
       "type": "people"
+    },
+    {
+      "term": "High Renaissance",
+      "matchText": "High Renaissance",
+      "type": "concept",
+      "wikiSlug": "High_Renaissance"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "type": "place",
+      "wikiSlug": "Milan"
+    },
+    {
+      "term": "Renaissance",
+      "matchText": "Renaissance",
+      "type": "concept",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "term": "Italian Wars",
+      "matchText": "Italian Wars",
+      "type": "concept",
+      "wikiSlug": "Italian_Wars"
+    },
+    {
+      "term": "Charles VIII",
+      "matchText": "Charles VIII",
+      "type": "people",
+      "wikiSlug": "Charles_VIII_of_France"
+    },
+    {
+      "term": "Florentine",
+      "matchText": "Florentine",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Renaissance Man",
+      "matchText": "Renaissance Man",
+      "type": "concept",
+      "wikiSlug": "Polymath"
+    },
+    {
+      "term": "Annunciation",
+      "matchText": "Annunciation",
+      "type": "concept",
+      "wikiSlug": "Annunciation_(Leonardo)"
+    },
+    {
+      "term": "Louvre",
+      "matchText": "Louvre",
+      "type": "concept",
+      "wikiSlug": "Louvre"
+    },
+    {
+      "term": "Mary",
+      "matchText": "Mary",
+      "type": "people",
+      "wikiSlug": "Mary,_mother_of_Jesus"
+    },
+    {
+      "term": "Neoplatonic",
+      "matchText": "Neoplatonic",
+      "type": "concept",
+      "wikiSlug": "Neoplatonism"
+    },
+    {
+      "term": "Newton",
+      "matchText": "Newton",
+      "type": "people",
+      "wikiSlug": "Isaac_Newton"
+    },
+    {
+      "term": "Christopher Wren",
+      "matchText": "Christopher Wren",
+      "type": "people",
+      "wikiSlug": "Christopher_Wren"
+    },
+    {
+      "term": "Amboise",
+      "matchText": "Amboise",
+      "type": "place",
+      "wikiSlug": "Ch%C3%A2teau_d%27Amboise"
+    },
+    {
+      "term": "French Revolution",
+      "matchText": "French Revolution",
+      "type": "concept",
+      "wikiSlug": "French_Revolution"
+    },
+    {
+      "term": "Caprese",
+      "matchText": "Caprese",
+      "type": "place",
+      "wikiSlug": "Caprese_Michelangelo"
+    },
+    {
+      "term": "Pisa",
+      "matchText": "Pisa",
+      "type": "place",
+      "wikiSlug": "Pisa"
+    },
+    {
+      "term": "Shakespeare",
+      "matchText": "Shakespeare",
+      "type": "people",
+      "wikiSlug": "William_Shakespeare"
+    },
+    {
+      "term": "Christopher Columbus",
+      "matchText": "Christopher Columbus",
+      "type": "people",
+      "wikiSlug": "Christopher_Columbus"
+    },
+    {
+      "term": "Goliath",
+      "matchText": "Goliath",
+      "type": "people",
+      "wikiSlug": "Goliath"
+    },
+    {
+      "term": "Signoria",
+      "matchText": "Signoria",
+      "type": "concept",
+      "wikiSlug": "Signoria_of_Florence"
+    },
+    {
+      "term": "Palazzo Vecchio",
+      "matchText": "Palazzo Vecchio",
+      "type": "concept",
+      "wikiSlug": "Palazzo_Vecchio"
+    },
+    {
+      "term": "Papal States",
+      "matchText": "Papal States",
+      "type": "place",
+      "wikiSlug": "Papal_States"
+    },
+    {
+      "term": "Genesis",
+      "matchText": "Genesis",
+      "type": "concept",
+      "wikiSlug": "Book_of_Genesis"
+    },
+    {
+      "term": "Creation of Adam",
+      "matchText": "Creation of Adam",
+      "type": "concept",
+      "wikiSlug": "The_Creation_of_Adam"
+    },
+    {
+      "term": "Medici Chapel",
+      "matchText": "Medici Chapel",
+      "type": "concept",
+      "wikiSlug": "Medici_Chapels"
+    },
+    {
+      "term": "San Lorenzo",
+      "matchText": "San Lorenzo",
+      "type": "place",
+      "wikiSlug": "San_Lorenzo,_Florence"
+    },
+    {
+      "term": "Il Braghettone",
+      "matchText": "Il Braghettone",
+      "type": "people",
+      "wikiSlug": "Daniele_da_Volterra"
+    },
+    {
+      "term": "Laurentian Library",
+      "matchText": "Laurentian Library",
+      "type": "concept",
+      "wikiSlug": "Laurentian_Library"
+    },
+    {
+      "term": "Urbino",
+      "matchText": "Urbino",
+      "type": "place",
+      "wikiSlug": "Urbino"
+    },
+    {
+      "term": "Pantheon",
+      "matchText": "Pantheon",
+      "type": "concept",
+      "wikiSlug": "Pantheon,_Rome"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Parnassus",
+      "matchText": "Parnassus",
+      "type": "concept",
+      "wikiSlug": "The_Parnassus"
+    },
+    {
+      "term": "Plato",
+      "matchText": "Plato",
+      "type": "people",
+      "wikiSlug": "Plato"
+    },
+    {
+      "term": "Socrates",
+      "matchText": "Socrates",
+      "type": "people",
+      "wikiSlug": "Socrates"
+    },
+    {
+      "term": "Pythagoras",
+      "matchText": "Pythagoras",
+      "type": "people",
+      "wikiSlug": "Pythagoras"
+    },
+    {
+      "term": "Euclid",
+      "matchText": "Euclid",
+      "type": "people",
+      "wikiSlug": "Euclid"
+    },
+    {
+      "term": "Pope Leo",
+      "matchText": "Pope Leo",
+      "type": "people",
+      "wikiSlug": "Pope_Leo_X"
+    },
+    {
+      "term": "Baldassare Castiglione",
+      "matchText": "Baldassare Castiglione",
+      "type": "people",
+      "wikiSlug": "Baldassare_Castiglione"
+    },
+    {
+      "term": "Transfiguration",
+      "matchText": "Transfiguration",
+      "type": "concept",
+      "wikiSlug": "Transfiguration_(Raphael)"
+    },
+    {
+      "term": "Holy Roman Empire",
+      "matchText": "Holy Roman Empire",
+      "type": "concept",
+      "wikiSlug": "Holy_Roman_Empire"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "type": "concept",
+      "wikiSlug": "Venice"
+    },
+    {
+      "term": "Naples",
+      "matchText": "Naples",
+      "type": "place",
+      "wikiSlug": "Kingdom_of_Naples"
+    },
+    {
+      "term": "Battle of Cerignola",
+      "matchText": "Battle of Cerignola",
+      "type": "concept",
+      "wikiSlug": "Battle_of_Cerignola"
+    },
+    {
+      "term": "Concordat of Bologna",
+      "matchText": "Concordat of Bologna",
+      "type": "concept",
+      "wikiSlug": "Concordat_of_Bologna"
+    },
+    {
+      "term": "Vandal",
+      "matchText": "Vandal",
+      "type": "concept",
+      "wikiSlug": "Sack_of_Rome_(455)"
+    },
+    {
+      "term": "Hadrian",
+      "matchText": "Hadrian",
+      "type": "people",
+      "wikiSlug": "Hadrian"
+    },
+    {
+      "term": "Tiber",
+      "matchText": "Tiber",
+      "type": "place",
+      "wikiSlug": "Tiber"
+    },
+    {
+      "term": "Holy Roman Emperor",
+      "matchText": "Holy Roman Emperor",
+      "type": "concept",
+      "wikiSlug": "Holy_Roman_Emperor"
+    },
+    {
+      "term": "Bologna",
+      "matchText": "Bologna",
+      "type": "place",
+      "wikiSlug": "Bologna"
+    },
+    {
+      "term": "Parmigianino",
+      "matchText": "Parmigianino",
+      "type": "people",
+      "wikiSlug": "Parmigianino"
+    },
+    {
+      "term": "Sebastiano del Piombo",
+      "matchText": "Sebastiano del Piombo",
+      "type": "people",
+      "wikiSlug": "Sebastiano_del_Piombo"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "type": "place",
+      "wikiSlug": "Safavid_Iran"
+    },
+    {
+      "term": "Twelver Shia Islam",
+      "matchText": "Twelver Shia Islam",
+      "type": "concept",
+      "wikiSlug": "Twelver_Shia"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "type": "place",
+      "wikiSlug": "Tabriz"
+    },
+    {
+      "term": "Wittenberg",
+      "matchText": "Wittenberg",
+      "type": "place",
+      "wikiSlug": "Wittenberg"
+    },
+    {
+      "term": "St. Peter's dome",
+      "matchText": "St. Peter's dome",
+      "type": "concept",
+      "wikiSlug": "St._Peter%27s_Basilica"
+    },
+    {
+      "term": "Stanza della Segnatura",
+      "matchText": "Stanza della Segnatura",
+      "type": "concept",
+      "wikiSlug": "Stanze_di_Raffaello"
+    },
+    {
+      "term": "Spanish tercio",
+      "matchText": "Spanish tercio",
+      "type": "concept",
+      "wikiSlug": "Tercio"
+    },
+    {
+      "term": "Giulio de' Medici",
+      "matchText": "Giulio de' Medici",
+      "type": "people",
+      "wikiSlug": "Pope_Clement_VII"
+    },
+    {
+      "term": "Pizarro",
+      "matchText": "Pizarro",
+      "type": "people",
+      "wikiSlug": "Francisco_Pizarro"
+    },
+    {
+      "term": "Martin Luther",
+      "matchText": "Martin Luther",
+      "type": "people",
+      "wikiSlug": "Martin_Luther"
+    },
+    {
+      "term": "Tuscan",
+      "matchText": "Tuscan",
+      "type": "place",
+      "wikiSlug": "Tuscany"
+    },
+    {
+      "term": "Dominican",
+      "matchText": "Dominican",
+      "type": "concept",
+      "wikiSlug": "Dominican_Order"
+    },
+    {
+      "term": "San Marco",
+      "matchText": "San Marco",
+      "type": "place",
+      "wikiSlug": "San_Marco,_Florence"
+    },
+    {
+      "term": "Giuliano",
+      "matchText": "Giuliano",
+      "type": "people",
+      "wikiSlug": "Giuliano_de%27_Medici"
+    },
+    {
+      "term": "Quattrocento",
+      "matchText": "Quattrocento",
+      "type": "concept",
+      "wikiSlug": "Quattrocento"
+    },
+    {
+      "term": "Lutheran",
+      "matchText": "Lutheran",
+      "type": "concept",
+      "wikiSlug": "Lutheranism"
     }
   ],
   "5": [
@@ -799,6 +2167,522 @@
       "matchText": "Jacopo Robusti",
       "wikiSlug": "Tintoretto",
       "type": "people"
+    },
+    {
+      "term": "Florentine",
+      "matchText": "Florentine",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Venetian Renaissance",
+      "matchText": "Venetian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Venetian_painting"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "High Renaissance",
+      "matchText": "High Renaissance",
+      "type": "concept",
+      "wikiSlug": "High_Renaissance"
+    },
+    {
+      "term": "Late Renaissance",
+      "matchText": "Late Renaissance",
+      "type": "concept",
+      "wikiSlug": "Mannerism"
+    },
+    {
+      "term": "Counter-Reformation",
+      "matchText": "Counter-Reformation",
+      "type": "concept",
+      "wikiSlug": "Counter-Reformation"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "type": "place",
+      "wikiSlug": "Aegean_Sea"
+    },
+    {
+      "term": "Crete",
+      "matchText": "Crete",
+      "type": "place",
+      "wikiSlug": "Crete"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "type": "place",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "term": "Caffa",
+      "matchText": "Caffa",
+      "type": "place",
+      "wikiSlug": "Feodosia"
+    },
+    {
+      "term": "Genoese",
+      "matchText": "Genoese",
+      "type": "concept",
+      "wikiSlug": "Republic_of_Genoa"
+    },
+    {
+      "term": "Trebizond",
+      "matchText": "Trebizond",
+      "type": "place",
+      "wikiSlug": "Empire_of_Trebizond"
+    },
+    {
+      "term": "Padua",
+      "matchText": "Padua",
+      "type": "place",
+      "wikiSlug": "Padua"
+    },
+    {
+      "term": "Senate",
+      "matchText": "Senate",
+      "type": "concept",
+      "wikiSlug": "Venetian_Senate"
+    },
+    {
+      "term": "Signoria",
+      "matchText": "Signoria",
+      "type": "concept",
+      "wikiSlug": "Signoria_of_Florence"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "type": "concept",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "term": "Phoenicians",
+      "matchText": "Phoenicians",
+      "type": "concept",
+      "wikiSlug": "Phoenicia"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "type": "place",
+      "wikiSlug": "Alexandria"
+    },
+    {
+      "term": "Beirut",
+      "matchText": "Beirut",
+      "type": "place",
+      "wikiSlug": "Beirut"
+    },
+    {
+      "term": "Grand Canal",
+      "matchText": "Grand Canal",
+      "type": "place",
+      "wikiSlug": "Grand_Canal_(Venice)"
+    },
+    {
+      "term": "Gothic",
+      "matchText": "Gothic",
+      "type": "concept",
+      "wikiSlug": "Gothic_architecture"
+    },
+    {
+      "term": "Nicolosia",
+      "matchText": "Nicolosia",
+      "type": "people",
+      "definition": "Nicolosia Bellini, daughter of the painter Jacopo Bellini and sister of Gentile and Giovanni Bellini; her marriage to the Paduan painter Andrea Mantegna helped channel Florentine perspective and classical archaeology into the Venetian-Paduan visual world."
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "type": "place",
+      "wikiSlug": "London"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Habsburg",
+      "matchText": "Habsburg",
+      "type": "concept",
+      "wikiSlug": "House_of_Habsburg"
+    },
+    {
+      "term": "Renaissance",
+      "matchText": "Renaissance",
+      "type": "concept",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "term": "Mary",
+      "matchText": "Mary",
+      "type": "people",
+      "wikiSlug": "Mary,_mother_of_Jesus"
+    },
+    {
+      "term": "Pesaro Madonna",
+      "matchText": "Pesaro Madonna",
+      "type": "concept",
+      "wikiSlug": "Pesaro_Madonna"
+    },
+    {
+      "term": "Ariadne",
+      "matchText": "Ariadne",
+      "type": "concept",
+      "wikiSlug": "Ariadne"
+    },
+    {
+      "term": "Ferrara",
+      "matchText": "Ferrara",
+      "type": "place",
+      "wikiSlug": "Ferrara"
+    },
+    {
+      "term": "Saxon",
+      "matchText": "Saxon",
+      "type": "place",
+      "wikiSlug": "Electorate_of_Saxony"
+    },
+    {
+      "term": "Velázquez",
+      "matchText": "Velázquez",
+      "type": "people",
+      "wikiSlug": "Diego_Vel%C3%A1zquez"
+    },
+    {
+      "term": "Pietà",
+      "matchText": "Pietà",
+      "type": "concept",
+      "wikiSlug": "Piet%C3%A0_(Michelangelo)"
+    },
+    {
+      "term": "Flaying of Marsyas",
+      "matchText": "Flaying of Marsyas",
+      "type": "concept",
+      "wikiSlug": "Flaying_of_Marsyas_(Titian)"
+    },
+    {
+      "term": "Rembrandt",
+      "matchText": "Rembrandt",
+      "type": "people",
+      "wikiSlug": "Rembrandt"
+    },
+    {
+      "term": "Baroque",
+      "matchText": "Baroque",
+      "type": "concept",
+      "wikiSlug": "Baroque"
+    },
+    {
+      "term": "Caravaggio",
+      "matchText": "Caravaggio",
+      "type": "concept",
+      "wikiSlug": "Caravaggio"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon",
+      "type": "people",
+      "wikiSlug": "Napoleon"
+    },
+    {
+      "term": "Louvre",
+      "matchText": "Louvre",
+      "type": "concept",
+      "wikiSlug": "Louvre"
+    },
+    {
+      "term": "Venetian Inquisition",
+      "matchText": "Venetian Inquisition",
+      "type": "concept",
+      "wikiSlug": "Venetian_Inquisition"
+    },
+    {
+      "term": "Washington",
+      "matchText": "Washington",
+      "type": "place",
+      "wikiSlug": "Washington,_D.C."
+    },
+    {
+      "term": "Palladianism",
+      "matchText": "Palladianism",
+      "type": "concept",
+      "wikiSlug": "Palladian_architecture"
+    },
+    {
+      "term": "Vivaldi",
+      "matchText": "Vivaldi",
+      "type": "concept",
+      "wikiSlug": "Antonio_Vivaldi"
+    },
+    {
+      "term": "Euboea",
+      "matchText": "Euboea",
+      "type": "place",
+      "wikiSlug": "Euboea"
+    },
+    {
+      "term": "Peloponnese",
+      "matchText": "Peloponnese",
+      "type": "place",
+      "wikiSlug": "Peloponnese"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "type": "place",
+      "wikiSlug": "Kingdom_of_Cyprus"
+    },
+    {
+      "term": "Famagusta",
+      "matchText": "Famagusta",
+      "type": "place",
+      "wikiSlug": "Famagusta"
+    },
+    {
+      "term": "Marcantonio Bragadin",
+      "matchText": "Marcantonio Bragadin",
+      "type": "people",
+      "wikiSlug": "Marco_Antonio_Bragadin"
+    },
+    {
+      "term": "Lala Mustafa Pasha",
+      "matchText": "Lala Mustafa Pasha",
+      "type": "people",
+      "wikiSlug": "Lala_Mustafa_Pasha"
+    },
+    {
+      "term": "Papal States",
+      "matchText": "Papal States",
+      "type": "place",
+      "wikiSlug": "Papal_States"
+    },
+    {
+      "term": "Genoa",
+      "matchText": "Genoa",
+      "type": "place",
+      "wikiSlug": "Republic_of_Genoa"
+    },
+    {
+      "term": "Müezzinzade Ali Pasha",
+      "matchText": "Müezzinzade Ali Pasha",
+      "type": "people",
+      "wikiSlug": "M%C3%BCezzinzade_Ali_Pasha"
+    },
+    {
+      "term": "Gulf of Patras",
+      "matchText": "Gulf of Patras",
+      "type": "place",
+      "wikiSlug": "Gulf_of_Patras"
+    },
+    {
+      "term": "Sokollu Mehmed Pasha",
+      "matchText": "Sokollu Mehmed Pasha",
+      "type": "people",
+      "wikiSlug": "Sokollu_Mehmed_Pasha"
+    },
+    {
+      "term": "Reformation",
+      "matchText": "Reformation",
+      "type": "concept",
+      "wikiSlug": "Reformation"
+    },
+    {
+      "term": "Dutch",
+      "matchText": "Dutch",
+      "type": "concept",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "term": "Indian Ocean",
+      "matchText": "Indian Ocean",
+      "type": "place",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "term": "Cape of Good Hope",
+      "matchText": "Cape of Good Hope",
+      "type": "place",
+      "wikiSlug": "Cape_of_Good_Hope"
+    },
+    {
+      "term": "Amsterdam",
+      "matchText": "Amsterdam",
+      "type": "place",
+      "wikiSlug": "Amsterdam"
+    },
+    {
+      "term": "Belgrade",
+      "matchText": "Belgrade",
+      "type": "place",
+      "wikiSlug": "Belgrade"
+    },
+    {
+      "term": "Rhodes",
+      "matchText": "Rhodes",
+      "type": "place",
+      "wikiSlug": "Rhodes"
+    },
+    {
+      "term": "Yemen",
+      "matchText": "Yemen",
+      "type": "place",
+      "wikiSlug": "Yemen_Eyalet"
+    },
+    {
+      "term": "Hungary",
+      "matchText": "Hungary",
+      "type": "place",
+      "wikiSlug": "Kingdom_of_Hungary"
+    },
+    {
+      "term": "Potosí",
+      "matchText": "Potosí",
+      "type": "concept",
+      "wikiSlug": "Potos%C3%AD"
+    },
+    {
+      "term": "Manila",
+      "matchText": "Manila",
+      "type": "place",
+      "wikiSlug": "Manila"
+    },
+    {
+      "term": "Seville",
+      "matchText": "Seville",
+      "type": "place",
+      "wikiSlug": "Seville"
+    },
+    {
+      "term": "Serenissima Repubblica di Venezia",
+      "matchText": "Serenissima Repubblica di Venezia",
+      "type": "concept",
+      "wikiSlug": "Republic_of_Venice"
+    },
+    {
+      "term": "Libro d'Oro",
+      "matchText": "Libro d'Oro",
+      "type": "concept",
+      "wikiSlug": "Venetian_nobility"
+    },
+    {
+      "term": "dār al-ṣināʿa",
+      "matchText": "dār al-ṣināʿa",
+      "type": "concept",
+      "definition": "Arabic, 'house of manufacture' — the etymological root of the word 'arsenal,' borrowed into Venetian for the state shipyard whose prefabricated, sequential galley assembly anticipated the industrial assembly line by three centuries."
+    },
+    {
+      "term": "San Zaccaria altarpiece",
+      "matchText": "San Zaccaria altarpiece",
+      "type": "concept",
+      "wikiSlug": "San_Zaccaria_Altarpiece"
+    },
+    {
+      "term": "Habsburg dynasty",
+      "matchText": "Habsburg dynasty",
+      "type": "concept",
+      "wikiSlug": "House_of_Habsburg"
+    },
+    {
+      "term": "Religious altarpieces",
+      "matchText": "Religious altarpieces",
+      "type": "concept",
+      "wikiSlug": "Altarpiece"
+    },
+    {
+      "term": "Mythologies",
+      "matchText": "Mythologies",
+      "type": "concept",
+      "definition": "In Titian's output, the group of large mythological paintings — the Bacchus and Ariadne, the Venus of Urbino, the late Diana and Actaeon and Diana and Callisto for Philip II — that adapted classical myth to a Venetian erotic-poetic mood, painted with the same seriousness earlier artists reserved for biblical subjects."
+    },
+    {
+      "term": "Bacchus and Ariadne",
+      "matchText": "Bacchus and Ariadne",
+      "type": "concept",
+      "wikiSlug": "Bacchus_and_Ariadne"
+    },
+    {
+      "term": "Diana and Actaeon",
+      "matchText": "Diana and Actaeon",
+      "type": "concept",
+      "wikiSlug": "Diana_and_Actaeon_(Titian)"
+    },
+    {
+      "term": "Diana and Callisto",
+      "matchText": "Diana and Callisto",
+      "type": "concept",
+      "wikiSlug": "Diana_and_Callisto"
+    },
+    {
+      "term": "Portraits",
+      "matchText": "Portraits",
+      "type": "concept",
+      "definition": "Across the Renaissance the freestanding painted portrait emerged as a distinct prestige genre — the sitter in three-quarter pose, in rich dress, in a calm psychological register against a neutral or atmospheric ground — perfected by Bellini, Raphael, and above all Titian, who painted more European royalty than any other Renaissance figure."
+    },
+    {
+      "term": "Crowning with Thorns",
+      "matchText": "Crowning with Thorns",
+      "type": "concept",
+      "wikiSlug": "Christ_Crowned_with_Thorns_(Titian)"
+    },
+    {
+      "term": "Music",
+      "matchText": "Music",
+      "type": "concept",
+      "definition": "The other great Venetian Renaissance achievement alongside painting: the polychoral style pioneered at San Marco by the Gabrielis, with separated choirs producing stereophonic spatial effects, which fed directly into the early opera of Monteverdi and the Baroque concertos of Vivaldi."
+    },
+    {
+      "term": "Sacrae Symphoniae",
+      "matchText": "Sacrae Symphoniae",
+      "type": "concept",
+      "definition": "Giovanni Gabrieli’s 1597 collection of polychoral motets and instrumental canzonas for San Marco — the most famous monument of the Venetian polychoral style, whose spatially separated choirs and instrumental groups influenced composers across seventeenth-century Europe."
+    },
+    {
+      "term": "Pius V",
+      "matchText": "Pius V",
+      "type": "people",
+      "wikiSlug": "Pope_Pius_V"
+    },
+    {
+      "term": "Spanish silver",
+      "matchText": "Spanish silver",
+      "type": "concept",
+      "definition": "Silver mined at Potosí in the Andes from 1545 flowed through Manila to China and through Seville to Europe, restructuring global monetary relationships in ways that progressively disadvantaged the Mediterranean trading economies — including Venice — that had financed the Renaissance."
+    },
+    {
+      "term": "Quattrocento",
+      "matchText": "Quattrocento",
+      "type": "concept",
+      "wikiSlug": "Quattrocento"
+    },
+    {
+      "term": "Verona",
+      "matchText": "Verona",
+      "type": "place",
+      "wikiSlug": "Verona"
+    },
+    {
+      "term": "Hell",
+      "matchText": "Hell",
+      "type": "concept",
+      "wikiSlug": "Inferno_(Dante)"
+    },
+    {
+      "term": "San Marco",
+      "matchText": "San Marco",
+      "type": "place",
+      "wikiSlug": "San_Marco,_Florence"
     }
   ],
   "6": [
@@ -1011,6 +2895,366 @@
       "matchText": "Capuchin",
       "wikiSlug": "Order_of_Friars_Minor_Capuchin",
       "type": "concept"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Protestant Reformation",
+      "matchText": "Protestant Reformation",
+      "type": "concept",
+      "wikiSlug": "Reformation"
+    },
+    {
+      "term": "Lutheran",
+      "matchText": "Lutheran",
+      "type": "concept",
+      "wikiSlug": "Lutheranism"
+    },
+    {
+      "term": "Counter-Reformation",
+      "matchText": "Counter-Reformation",
+      "type": "concept",
+      "wikiSlug": "Counter-Reformation"
+    },
+    {
+      "term": "Reformation",
+      "matchText": "Reformation",
+      "type": "concept",
+      "wikiSlug": "Reformation"
+    },
+    {
+      "term": "Renaissance",
+      "matchText": "Renaissance",
+      "type": "concept",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "term": "Dutch",
+      "matchText": "Dutch",
+      "type": "concept",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "term": "Paris",
+      "matchText": "Paris",
+      "type": "place",
+      "wikiSlug": "Paris"
+    },
+    {
+      "term": "Oxford",
+      "matchText": "Oxford",
+      "type": "concept",
+      "wikiSlug": "University_of_Oxford"
+    },
+    {
+      "term": "Cambridge",
+      "matchText": "Cambridge",
+      "type": "concept",
+      "wikiSlug": "University_of_Cambridge"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "type": "concept",
+      "wikiSlug": "Venice"
+    },
+    {
+      "term": "Basel",
+      "matchText": "Basel",
+      "type": "place",
+      "wikiSlug": "Basel"
+    },
+    {
+      "term": "Bologna",
+      "matchText": "Bologna",
+      "type": "place",
+      "wikiSlug": "Bologna"
+    },
+    {
+      "term": "Padua",
+      "matchText": "Padua",
+      "type": "place",
+      "wikiSlug": "Padua"
+    },
+    {
+      "term": "High Renaissance",
+      "matchText": "High Renaissance",
+      "type": "concept",
+      "wikiSlug": "High_Renaissance"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "type": "concept",
+      "wikiSlug": "Latin"
+    },
+    {
+      "term": "Greek New Testament",
+      "matchText": "Greek New Testament",
+      "type": "concept",
+      "wikiSlug": "Novum_Instrumentum_omne"
+    },
+    {
+      "term": "Jerome",
+      "matchText": "Jerome",
+      "type": "people",
+      "wikiSlug": "Jerome"
+    },
+    {
+      "term": "Saxony",
+      "matchText": "Saxony",
+      "type": "place",
+      "wikiSlug": "Electorate_of_Saxony"
+    },
+    {
+      "term": "Castle Church",
+      "matchText": "Castle Church",
+      "type": "concept",
+      "wikiSlug": "All_Saints%27_Church,_Wittenberg"
+    },
+    {
+      "term": "Pope Leo",
+      "matchText": "Pope Leo",
+      "type": "people",
+      "wikiSlug": "Pope_Leo_X"
+    },
+    {
+      "term": "Elizabeth",
+      "matchText": "Elizabeth",
+      "type": "concept",
+      "wikiSlug": "Elizabeth_I"
+    },
+    {
+      "term": "Alps",
+      "matchText": "Alps",
+      "type": "place",
+      "wikiSlug": "Alps"
+    },
+    {
+      "term": "Naples",
+      "matchText": "Naples",
+      "type": "place",
+      "wikiSlug": "Kingdom_of_Naples"
+    },
+    {
+      "term": "Juan de Valdés",
+      "matchText": "Juan de Valdés",
+      "type": "people",
+      "wikiSlug": "Juan_de_Vald%C3%A9s"
+    },
+    {
+      "term": "Lucca",
+      "matchText": "Lucca",
+      "type": "place",
+      "wikiSlug": "Lucca"
+    },
+    {
+      "term": "Modena",
+      "matchText": "Modena",
+      "type": "place",
+      "wikiSlug": "Modena"
+    },
+    {
+      "term": "Ferrara",
+      "matchText": "Ferrara",
+      "type": "place",
+      "wikiSlug": "Ferrara"
+    },
+    {
+      "term": "Pietro Aretino",
+      "matchText": "Pietro Aretino",
+      "type": "people",
+      "wikiSlug": "Pietro_Aretino"
+    },
+    {
+      "term": "Spanish Habsburg",
+      "matchText": "Spanish Habsburg",
+      "type": "concept",
+      "wikiSlug": "Habsburg_Spain"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "type": "place",
+      "wikiSlug": "London"
+    },
+    {
+      "term": "Catholicism",
+      "matchText": "Catholicism",
+      "type": "concept",
+      "wikiSlug": "Catholic_Church"
+    },
+    {
+      "term": "Last Judgment",
+      "matchText": "Last Judgment",
+      "type": "concept",
+      "wikiSlug": "The_Last_Judgment_(Michelangelo)"
+    },
+    {
+      "term": "Sistine Chapel",
+      "matchText": "Sistine Chapel",
+      "type": "concept",
+      "wikiSlug": "Sistine_Chapel"
+    },
+    {
+      "term": "Il Braghettone",
+      "matchText": "Il Braghettone",
+      "type": "people",
+      "wikiSlug": "Daniele_da_Volterra"
+    },
+    {
+      "term": "Jesuits",
+      "matchText": "Jesuits",
+      "type": "concept",
+      "wikiSlug": "Jesuits"
+    },
+    {
+      "term": "Gesù",
+      "matchText": "Gesù",
+      "type": "concept",
+      "wikiSlug": "Church_of_the_Ges%C3%B9"
+    },
+    {
+      "term": "Baroque",
+      "matchText": "Baroque",
+      "type": "concept",
+      "wikiSlug": "Baroque"
+    },
+    {
+      "term": "Barnabites",
+      "matchText": "Barnabites",
+      "type": "concept",
+      "wikiSlug": "Barnabites"
+    },
+    {
+      "term": "Oratorians",
+      "matchText": "Oratorians",
+      "type": "concept",
+      "wikiSlug": "Oratory_of_Saint_Philip_Neri"
+    },
+    {
+      "term": "Holy Roman Empire",
+      "matchText": "Holy Roman Empire",
+      "type": "concept",
+      "wikiSlug": "Holy_Roman_Empire"
+    },
+    {
+      "term": "Italian Wars",
+      "matchText": "Italian Wars",
+      "type": "concept",
+      "wikiSlug": "Italian_Wars"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "type": "place",
+      "wikiSlug": "Sardinia"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "type": "place",
+      "wikiSlug": "Milan"
+    },
+    {
+      "term": "Papal States",
+      "matchText": "Papal States",
+      "type": "place",
+      "wikiSlug": "Papal_States"
+    },
+    {
+      "term": "Sunni",
+      "matchText": "Sunni",
+      "type": "concept",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "term": "Din-i Ilahi",
+      "matchText": "Din-i Ilahi",
+      "type": "concept",
+      "wikiSlug": "Din-i_Ilahi"
+    },
+    {
+      "term": "Encomium Moriae",
+      "matchText": "Encomium Moriae",
+      "type": "concept",
+      "wikiSlug": "In_Praise_of_Folly"
+    },
+    {
+      "term": "poenitentiam agite",
+      "matchText": "poenitentiam agite",
+      "type": "concept",
+      "definition": "The Latin Vulgate's rendering of the Greek 'metanoeite' in Matthew 4:17 — 'do penance' — which the medieval Church used to ground the sacrament of penance; Erasmus's 1516 retranslation to 'repent' (resipiscite) undermined that textual basis."
+    },
+    {
+      "term": "resipiscite",
+      "matchText": "resipiscite",
+      "type": "concept",
+      "definition": "Erasmus's 1516 retranslation of the Greek 'metanoeite' in Matthew 4:17 — 'be of changed mind, repent' — replacing the Vulgate's 'poenitentiam agite' ('do penance') and so removing a key scriptural support for the Catholic sacrament of penance."
+    },
+    {
+      "term": "cuius regio, eius religio",
+      "matchText": "cuius regio, eius religio",
+      "type": "concept",
+      "definition": "Latin, 'whose realm, his religion' — the principle established by the 1555 Peace of Augsburg under which each German prince chose Catholicism or Lutheranism for his own territory and his subjects had to follow, the structural template for European religious accommodation."
+    },
+    {
+      "term": "Christian humanism",
+      "matchText": "Christian humanism",
+      "type": "concept",
+      "wikiSlug": "Christian_humanism"
+    },
+    {
+      "term": "Italian period",
+      "matchText": "Italian period",
+      "type": "concept",
+      "definition": "Erasmus's three years in Italy (1506–1509), spent at the peak of the High Renaissance working with Aldus Manutius on the Aldine classical editions; he left unimpressed by the moneymaking ecclesiastical institutions and never returned, and the satirical anti-clerical work that followed 'laid the egg that Luther hatched.'"
+    },
+    {
+      "term": "Julius II",
+      "matchText": "Julius II",
+      "type": "people",
+      "wikiSlug": "Pope_Julius_II"
+    },
+    {
+      "term": "Purgatory",
+      "matchText": "Purgatory",
+      "type": "concept",
+      "wikiSlug": "Purgatorio"
+    },
+    {
+      "term": "Clerical celibacy",
+      "matchText": "Clerical celibacy",
+      "type": "concept",
+      "wikiSlug": "Clerical_celibacy"
+    },
+    {
+      "term": "Dominican",
+      "matchText": "Dominican",
+      "type": "concept",
+      "wikiSlug": "Dominican_Order"
+    },
+    {
+      "term": "Quattrocento",
+      "matchText": "Quattrocento",
+      "type": "concept",
+      "wikiSlug": "Quattrocento"
+    },
+    {
+      "term": "Venetian",
+      "matchText": "Venetian",
+      "type": "concept",
+      "wikiSlug": "Venetian_painting"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian",
+      "type": "concept",
+      "definition": "Of the connected landmass of Europe and Asia treated as a single zone of exchange — the framing this narrative uses for its cross-civilization checks, in which fourteenth-to-seventeenth-century Italy is one node in a wider system of plague, trade, and imperial expansion."
     }
   ],
   "7": [
@@ -1193,6 +3437,276 @@
       "matchText": "Cinquecento",
       "wikiSlug": "Cinquecento",
       "type": "concept"
+    },
+    {
+      "term": "Late Renaissance",
+      "matchText": "Late Renaissance",
+      "type": "concept",
+      "wikiSlug": "Mannerism"
+    },
+    {
+      "term": "Counter-Reformation",
+      "matchText": "Counter-Reformation",
+      "type": "concept",
+      "wikiSlug": "Counter-Reformation"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "type": "concept",
+      "wikiSlug": "Venice"
+    },
+    {
+      "term": "Roman Inquisition",
+      "matchText": "Roman Inquisition",
+      "type": "concept",
+      "wikiSlug": "Roman_Inquisition"
+    },
+    {
+      "term": "Renaissance",
+      "matchText": "Renaissance",
+      "type": "concept",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "term": "Baroque",
+      "matchText": "Baroque",
+      "type": "concept",
+      "wikiSlug": "Baroque"
+    },
+    {
+      "term": "Florentine",
+      "matchText": "Florentine",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Guillaume Dufay",
+      "matchText": "Guillaume Dufay",
+      "type": "people",
+      "wikiSlug": "Guillaume_Du_Fay"
+    },
+    {
+      "term": "Johannes Ockeghem",
+      "matchText": "Johannes Ockeghem",
+      "type": "people",
+      "wikiSlug": "Johannes_Ockeghem"
+    },
+    {
+      "term": "Mass",
+      "matchText": "Mass",
+      "type": "concept",
+      "wikiSlug": "Mass_(music)"
+    },
+    {
+      "term": "Sistine Chapel",
+      "matchText": "Sistine Chapel",
+      "type": "concept",
+      "wikiSlug": "Sistine_Chapel"
+    },
+    {
+      "term": "Venetian",
+      "matchText": "Venetian",
+      "type": "concept",
+      "wikiSlug": "Venetian_painting"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Mantua",
+      "matchText": "Mantua",
+      "type": "place",
+      "wikiSlug": "Mantua"
+    },
+    {
+      "term": "Count Giovanni Bardi",
+      "matchText": "Count Giovanni Bardi",
+      "type": "people",
+      "wikiSlug": "Giovanni_de%27_Bardi"
+    },
+    {
+      "term": "Ottavio Rinuccini",
+      "matchText": "Ottavio Rinuccini",
+      "type": "people",
+      "wikiSlug": "Ottavio_Rinuccini"
+    },
+    {
+      "term": "Subiaco",
+      "matchText": "Subiaco",
+      "type": "place",
+      "wikiSlug": "Subiaco,_Lazio"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "type": "concept",
+      "wikiSlug": "Latin"
+    },
+    {
+      "term": "Basel",
+      "matchText": "Basel",
+      "type": "place",
+      "wikiSlug": "Basel"
+    },
+    {
+      "term": "Hebrew",
+      "matchText": "Hebrew",
+      "type": "concept",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "term": "Latin Vulgate",
+      "matchText": "Latin Vulgate",
+      "type": "concept",
+      "wikiSlug": "Vulgate"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Amsterdam",
+      "matchText": "Amsterdam",
+      "type": "place",
+      "wikiSlug": "Amsterdam"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "type": "place",
+      "wikiSlug": "London"
+    },
+    {
+      "term": "Pisa",
+      "matchText": "Pisa",
+      "type": "place",
+      "wikiSlug": "Pisa"
+    },
+    {
+      "term": "Shakespeare",
+      "matchText": "Shakespeare",
+      "type": "people",
+      "wikiSlug": "William_Shakespeare"
+    },
+    {
+      "term": "University of Pisa",
+      "matchText": "University of Pisa",
+      "type": "concept",
+      "wikiSlug": "University_of_Pisa"
+    },
+    {
+      "term": "Aristotelian",
+      "matchText": "Aristotelian",
+      "type": "concept",
+      "wikiSlug": "Aristotelianism"
+    },
+    {
+      "term": "Tycho Brahe",
+      "matchText": "Tycho Brahe",
+      "type": "people",
+      "wikiSlug": "Tycho_Brahe"
+    },
+    {
+      "term": "Saturn",
+      "matchText": "Saturn",
+      "type": "place",
+      "wikiSlug": "Saturn"
+    },
+    {
+      "term": "Venetian Republic",
+      "matchText": "Venetian Republic",
+      "type": "concept",
+      "wikiSlug": "Republic_of_Venice"
+    },
+    {
+      "term": "Jesuit",
+      "matchText": "Jesuit",
+      "type": "concept",
+      "wikiSlug": "Jesuits"
+    },
+    {
+      "term": "Jesuits",
+      "matchText": "Jesuits",
+      "type": "concept",
+      "wikiSlug": "Jesuits"
+    },
+    {
+      "term": "Cambridge",
+      "matchText": "Cambridge",
+      "type": "concept",
+      "wikiSlug": "University_of_Cambridge"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "type": "place",
+      "wikiSlug": "Isfahan"
+    },
+    {
+      "term": "Matteo Ricci",
+      "matchText": "Matteo Ricci",
+      "type": "people",
+      "wikiSlug": "Matteo_Ricci"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "type": "place",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "term": "Tokugawa Ieyasu",
+      "matchText": "Tokugawa Ieyasu",
+      "type": "people",
+      "wikiSlug": "Tokugawa_Ieyasu"
+    },
+    {
+      "term": "stile rappresentativo",
+      "matchText": "stile rappresentativo",
+      "type": "concept",
+      "wikiSlug": "Monody"
+    },
+    {
+      "term": "Venetian school",
+      "matchText": "Venetian school",
+      "type": "concept",
+      "wikiSlug": "Venetian_painting"
+    },
+    {
+      "term": "Spanish school",
+      "matchText": "Spanish school",
+      "type": "concept",
+      "wikiSlug": "Tom%C3%A1s_Luis_de_Victoria"
+    },
+    {
+      "term": "Mantuan court",
+      "matchText": "Mantuan court",
+      "type": "concept",
+      "wikiSlug": "Duchy_of_Mantua"
+    },
+    {
+      "term": "De revolutionibus",
+      "matchText": "De revolutionibus",
+      "type": "concept",
+      "wikiSlug": "De_revolutionibus_orbium_coelestium"
+    },
+    {
+      "term": "Tokugawa shogunate",
+      "matchText": "Tokugawa shogunate",
+      "type": "concept",
+      "wikiSlug": "Tokugawa_shogunate"
+    },
+    {
+      "term": "Tuscan",
+      "matchText": "Tuscan",
+      "type": "place",
+      "wikiSlug": "Tuscany"
     }
   ],
   "8": [
@@ -1375,6 +3889,330 @@
       "matchText": "Palladio",
       "wikiSlug": "Andrea_Palladio",
       "type": "people"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Philip II of Spain",
+      "matchText": "Philip II of Spain",
+      "type": "concept",
+      "wikiSlug": "Philip_II_of_Spain"
+    },
+    {
+      "term": "Elizabeth",
+      "matchText": "Elizabeth",
+      "type": "concept",
+      "wikiSlug": "Elizabeth_I"
+    },
+    {
+      "term": "Naples",
+      "matchText": "Naples",
+      "type": "place",
+      "wikiSlug": "Kingdom_of_Naples"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "type": "place",
+      "wikiSlug": "Sardinia"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "type": "place",
+      "wikiSlug": "Milan"
+    },
+    {
+      "term": "Florentine",
+      "matchText": "Florentine",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Papal States",
+      "matchText": "Papal States",
+      "type": "place",
+      "wikiSlug": "Papal_States"
+    },
+    {
+      "term": "Venetian Republic",
+      "matchText": "Venetian Republic",
+      "type": "concept",
+      "wikiSlug": "Republic_of_Venice"
+    },
+    {
+      "term": "Mantua",
+      "matchText": "Mantua",
+      "type": "place",
+      "wikiSlug": "Mantua"
+    },
+    {
+      "term": "Ferrara",
+      "matchText": "Ferrara",
+      "type": "place",
+      "wikiSlug": "Ferrara"
+    },
+    {
+      "term": "Urbino",
+      "matchText": "Urbino",
+      "type": "place",
+      "wikiSlug": "Urbino"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "type": "place",
+      "wikiSlug": "Levant"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "type": "place",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "type": "place",
+      "wikiSlug": "Florence"
+    },
+    {
+      "term": "Amsterdam",
+      "matchText": "Amsterdam",
+      "type": "place",
+      "wikiSlug": "Amsterdam"
+    },
+    {
+      "term": "Henry VIII",
+      "matchText": "Henry VIII",
+      "type": "people",
+      "wikiSlug": "Henry_VIII"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "type": "place",
+      "wikiSlug": "London"
+    },
+    {
+      "term": "Seville",
+      "matchText": "Seville",
+      "type": "place",
+      "wikiSlug": "Seville"
+    },
+    {
+      "term": "Genoa",
+      "matchText": "Genoa",
+      "type": "place",
+      "wikiSlug": "Republic_of_Genoa"
+    },
+    {
+      "term": "North Sea",
+      "matchText": "North Sea",
+      "type": "place",
+      "wikiSlug": "North_Sea"
+    },
+    {
+      "term": "Dutch Republic",
+      "matchText": "Dutch Republic",
+      "type": "concept",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "term": "Louis XIV",
+      "matchText": "Louis XIV",
+      "type": "people",
+      "wikiSlug": "Louis_XIV"
+    },
+    {
+      "term": "Genoese",
+      "matchText": "Genoese",
+      "type": "concept",
+      "wikiSlug": "Republic_of_Genoa"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "type": "concept",
+      "wikiSlug": "Venice"
+    },
+    {
+      "term": "Renaissance Italy",
+      "matchText": "Renaissance Italy",
+      "type": "concept",
+      "wikiSlug": "Italian_Renaissance"
+    },
+    {
+      "term": "Four Books of Architecture",
+      "matchText": "Four Books of Architecture",
+      "type": "concept",
+      "wikiSlug": "I_quattro_libri_dell%27architettura"
+    },
+    {
+      "term": "Locke",
+      "matchText": "Locke",
+      "type": "people",
+      "wikiSlug": "John_Locke"
+    },
+    {
+      "term": "Livy",
+      "matchText": "Livy",
+      "type": "people",
+      "wikiSlug": "Livy"
+    },
+    {
+      "term": "Leviathan",
+      "matchText": "Leviathan",
+      "type": "concept",
+      "wikiSlug": "Leviathan_(Hobbes_book)"
+    },
+    {
+      "term": "Gothic",
+      "matchText": "Gothic",
+      "type": "concept",
+      "wikiSlug": "Gothic_architecture"
+    },
+    {
+      "term": "Doric",
+      "matchText": "Doric",
+      "type": "concept",
+      "wikiSlug": "Doric_order"
+    },
+    {
+      "term": "Corinthian",
+      "matchText": "Corinthian",
+      "type": "concept",
+      "wikiSlug": "Corinthian_order"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "type": "concept",
+      "wikiSlug": "Latin"
+    },
+    {
+      "term": "Sistine Chapel",
+      "matchText": "Sistine Chapel",
+      "type": "concept",
+      "wikiSlug": "Sistine_Chapel"
+    },
+    {
+      "term": "Pantheon",
+      "matchText": "Pantheon",
+      "type": "concept",
+      "wikiSlug": "Pantheon,_Rome"
+    },
+    {
+      "term": "Tokyo",
+      "matchText": "Tokyo",
+      "type": "place",
+      "wikiSlug": "Tokyo"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "type": "place",
+      "wikiSlug": "Isfahan"
+    },
+    {
+      "term": "Cortés",
+      "matchText": "Cortés",
+      "type": "people",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s"
+    },
+    {
+      "term": "Tokugawa-period",
+      "matchText": "Tokugawa-period",
+      "type": "concept",
+      "wikiSlug": "Edo_period"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "type": "place",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "term": "renovatio",
+      "matchText": "renovatio",
+      "type": "concept",
+      "wikiSlug": "Renovatio_imperii"
+    },
+    {
+      "term": "Cellini",
+      "matchText": "Cellini",
+      "type": "people",
+      "wikiSlug": "Benvenuto_Cellini"
+    },
+    {
+      "term": "Torrigiano",
+      "matchText": "Torrigiano",
+      "type": "people",
+      "wikiSlug": "Pietro_Torrigiano"
+    },
+    {
+      "term": "Federico Zuccari",
+      "matchText": "Federico Zuccari",
+      "type": "people",
+      "wikiSlug": "Federico_Zuccari"
+    },
+    {
+      "term": "Italian study trip",
+      "matchText": "Italian study trip",
+      "type": "concept",
+      "definition": "By the late sixteenth century every serious northern European painter or architect was expected to spend several years in Italy — usually based in Rome with side trips to Florence, Venice, and Naples — studying the masters and the Roman antiquities; the convention continued through the eighteenth-century Grand Tour and into the nineteenth century."
+    },
+    {
+      "term": "Books and prints",
+      "matchText": "Books and prints",
+      "type": "concept",
+      "definition": "The third mechanism by which the Italian Renaissance spread across Europe: the systematic publication of Italian art treatises, architectural manuals, classical editions, and engraved reproductions of Italian masterworks that transmitted Italian knowledge without requiring travel."
+    },
+    {
+      "term": "Italian translations",
+      "matchText": "Italian translations",
+      "type": "concept",
+      "definition": "Italian-language renderings of Greek and Roman classical texts that circulated across sixteenth- and seventeenth-century Europe, one of the channels through which the Italian Renaissance humanist recovery of antiquity reached readers who could not read Latin or Greek."
+    },
+    {
+      "term": "Engraved reproductions",
+      "matchText": "Engraved reproductions",
+      "type": "concept",
+      "definition": "Printed engravings of major Italian paintings and sculptures — pioneered by Italian printmakers like Marcantonio Raimondi in the early sixteenth century, then taken up by northern print houses — that put images of Italian masterworks in the hands of artists across Europe who could not visit Italy."
+    },
+    {
+      "term": "Spinoza",
+      "matchText": "Spinoza",
+      "type": "people",
+      "wikiSlug": "Baruch_Spinoza"
+    },
+    {
+      "term": "Rousseau",
+      "matchText": "Rousseau",
+      "type": "people",
+      "wikiSlug": "Jean-Jacques_Rousseau"
+    },
+    {
+      "term": "High Renaissance",
+      "matchText": "High Renaissance",
+      "type": "concept",
+      "wikiSlug": "High_Renaissance"
+    },
+    {
+      "term": "Tuscan",
+      "matchText": "Tuscan",
+      "type": "place",
+      "wikiSlug": "Tuscany"
+    },
+    {
+      "term": "Modena",
+      "matchText": "Modena",
+      "type": "place",
+      "wikiSlug": "Modena"
     }
   ]
 }

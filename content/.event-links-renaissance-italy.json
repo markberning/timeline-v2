@@ -1,93 +1,658 @@
 {
   "1": [
-    {"eventId":"evt-italian-city-states","matchText":"patchwork of independent and semi-independent political units"},
-    {"eventId":"evt-avignon-papacy-effect","matchText":"papal court relocated to the small French town of"},
-    {"eventId":"evt-visconti-milan","matchText":"Visconti"},
-    {"eventId":"evt-sforza-milan","matchText":"Francesco Sforza"},
-    {"eventId":"evt-florin-currency","matchText":"florin"}
+    {
+      "eventId": "evt-italian-city-states",
+      "matchText": "patchwork of independent and semi-independent political units"
+    },
+    {
+      "eventId": "evt-avignon-papacy-effect",
+      "matchText": "papal court relocated to the small French town of"
+    },
+    {
+      "eventId": "evt-visconti-milan",
+      "matchText": "Visconti"
+    },
+    {
+      "eventId": "evt-sforza-milan",
+      "matchText": "Francesco Sforza"
+    },
+    {
+      "eventId": "evt-florin-currency",
+      "matchText": "florin"
+    },
+    {
+      "eventId": "evt-medici-bank",
+      "matchText": "Medici"
+    },
+    {
+      "eventId": "evt-sack-of-rome",
+      "matchText": "Sack of Rome"
+    },
+    {
+      "eventId": "evt-castiglione-courtier",
+      "matchText": "Book of the Courtier"
+    },
+    {
+      "eventId": "evt-brunelleschi",
+      "matchText": "Brunelleschi"
+    },
+    {
+      "eventId": "evt-divine-comedy",
+      "matchText": "Divine Comedy"
+    },
+    {
+      "eventId": "evt-petrarch",
+      "matchText": "Petrarch"
+    },
+    {
+      "eventId": "evt-leonardo-da-vinci",
+      "matchText": "Leonardo"
+    },
+    {
+      "eventId": "evt-monteverdi-orfeo",
+      "matchText": "Monteverdi"
+    },
+    {
+      "eventId": "evt-raphael",
+      "matchText": "Raphael"
+    }
   ],
   "2": [
-    {"eventId":"evt-dante","matchText":"Dante Alighieri"},
-    {"eventId":"evt-divine-comedy","matchText":"Divine Comedy"},
-    {"eventId":"evt-giotto","matchText":"Giotto di Bondone"},
-    {"eventId":"evt-scrovegni-chapel","matchText":"Scrovegni Chapel"},
-    {"eventId":"evt-petrarch","matchText":"Petrarch"},
-    {"eventId":"evt-boccaccio-decameron","matchText":"Decameron"},
-    {"eventId":"evt-black-death-italy","matchText":"Black Death"}
+    {
+      "eventId": "evt-dante",
+      "matchText": "Dante Alighieri"
+    },
+    {
+      "eventId": "evt-divine-comedy",
+      "matchText": "Divine Comedy"
+    },
+    {
+      "eventId": "evt-giotto",
+      "matchText": "Giotto di Bondone"
+    },
+    {
+      "eventId": "evt-scrovegni-chapel",
+      "matchText": "Scrovegni Chapel"
+    },
+    {
+      "eventId": "evt-petrarch",
+      "matchText": "Petrarch"
+    },
+    {
+      "eventId": "evt-boccaccio-decameron",
+      "matchText": "Decameron"
+    },
+    {
+      "eventId": "evt-black-death-italy",
+      "matchText": "Black Death"
+    },
+    {
+      "eventId": "evt-boccaccio-decameron",
+      "matchText": "Boccaccio"
+    },
+    {
+      "eventId": "evt-botticelli",
+      "matchText": "Botticelli"
+    },
+    {
+      "eventId": "evt-uffizi-built",
+      "matchText": "Uffizi"
+    },
+    {
+      "eventId": "evt-petrarch",
+      "matchText": "Francesco Petrarca"
+    },
+    {
+      "eventId": "evt-boccaccio-decameron",
+      "matchText": "Giovanni Boccaccio"
+    },
+    {
+      "eventId": "evt-brunelleschi",
+      "matchText": "Brunelleschi"
+    },
+    {
+      "eventId": "evt-baptistery-doors-competition",
+      "matchText": "Ghiberti"
+    },
+    {
+      "eventId": "evt-donatello",
+      "matchText": "Donatello"
+    },
+    {
+      "eventId": "evt-medici-bank",
+      "matchText": "Medici"
+    },
+    {
+      "eventId": "evt-michelangelo",
+      "matchText": "Michelangelo"
+    },
+    {
+      "eventId": "evt-cosimo-medici",
+      "matchText": "Cosimo de' Medici"
+    },
+    {
+      "eventId": "evt-leonardo-da-vinci",
+      "matchText": "Leonardo"
+    }
   ],
   "3": [
-    {"eventId":"evt-baptistery-doors-competition","matchText":"Lorenzo Ghiberti"},
-    {"eventId":"evt-brunelleschi","matchText":"Filippo Brunelleschi"},
-    {"eventId":"evt-florence-cathedral-dome","matchText":"double-shelled brick dome"},
-    {"eventId":"evt-linear-perspective","matchText":"reinvented"},
-    {"eventId":"evt-donatello","matchText":"Donatello"},
-    {"eventId":"evt-donatello-david","matchText":"bronze David"},
-    {"eventId":"evt-masaccio","matchText":"Masaccio"},
-    {"eventId":"evt-brancacci-chapel","matchText":"Brancacci Chapel"},
-    {"eventId":"evt-alberti","matchText":"Leon Battista Alberti"},
-    {"eventId":"evt-cosimo-medici","matchText":"Cosimo de' Medici"},
-    {"eventId":"evt-medici-bank","matchText":"Medici Bank"},
-    {"eventId":"evt-council-of-florence","matchText":"Council of Florence"},
-    {"eventId":"evt-platonic-academy","matchText":"Marsilio Ficino"},
-    {"eventId":"evt-lorenzo-medici","matchText":"Lorenzo de' Medici"},
-    {"eventId":"evt-pazzi-conspiracy","matchText":"Pazzi Conspiracy"},
-    {"eventId":"evt-botticelli","matchText":"Sandro Botticelli"},
-    {"eventId":"evt-birth-of-venus","matchText":"Birth of Venus"},
-    {"eventId":"evt-pico-mirandola","matchText":"Oration on the Dignity of Man"},
-    {"eventId":"evt-french-invasion","matchText":"Charles VIII of France"},
-    {"eventId":"evt-savonarola","matchText":"Savonarola"},
-    {"eventId":"evt-greek-scholars-italy","matchText":"Greek scholars who attended"}
+    {
+      "eventId": "evt-baptistery-doors-competition",
+      "matchText": "Lorenzo Ghiberti"
+    },
+    {
+      "eventId": "evt-brunelleschi",
+      "matchText": "Filippo Brunelleschi"
+    },
+    {
+      "eventId": "evt-florence-cathedral-dome",
+      "matchText": "double-shelled brick dome"
+    },
+    {
+      "eventId": "evt-linear-perspective",
+      "matchText": "reinvented"
+    },
+    {
+      "eventId": "evt-donatello",
+      "matchText": "Donatello"
+    },
+    {
+      "eventId": "evt-donatello-david",
+      "matchText": "bronze David"
+    },
+    {
+      "eventId": "evt-masaccio",
+      "matchText": "Masaccio"
+    },
+    {
+      "eventId": "evt-brancacci-chapel",
+      "matchText": "Brancacci Chapel"
+    },
+    {
+      "eventId": "evt-alberti",
+      "matchText": "Leon Battista Alberti"
+    },
+    {
+      "eventId": "evt-cosimo-medici",
+      "matchText": "Cosimo de' Medici"
+    },
+    {
+      "eventId": "evt-medici-bank",
+      "matchText": "Medici Bank"
+    },
+    {
+      "eventId": "evt-council-of-florence",
+      "matchText": "Council of Florence"
+    },
+    {
+      "eventId": "evt-platonic-academy",
+      "matchText": "Marsilio Ficino"
+    },
+    {
+      "eventId": "evt-lorenzo-medici",
+      "matchText": "Lorenzo de' Medici"
+    },
+    {
+      "eventId": "evt-pazzi-conspiracy",
+      "matchText": "Pazzi Conspiracy"
+    },
+    {
+      "eventId": "evt-botticelli",
+      "matchText": "Sandro Botticelli"
+    },
+    {
+      "eventId": "evt-birth-of-venus",
+      "matchText": "Birth of Venus"
+    },
+    {
+      "eventId": "evt-pico-mirandola",
+      "matchText": "Oration on the Dignity of Man"
+    },
+    {
+      "eventId": "evt-french-invasion",
+      "matchText": "Charles VIII of France"
+    },
+    {
+      "eventId": "evt-savonarola",
+      "matchText": "Savonarola"
+    },
+    {
+      "eventId": "evt-greek-scholars-italy",
+      "matchText": "Greek scholars who attended"
+    },
+    {
+      "eventId": "evt-dante",
+      "matchText": "Dante"
+    },
+    {
+      "eventId": "evt-florence-cathedral-dome",
+      "matchText": "Florence Cathedral"
+    },
+    {
+      "eventId": "evt-michelangelo",
+      "matchText": "Michelangelo"
+    },
+    {
+      "eventId": "evt-michelangelo",
+      "matchText": "Michelangelo Buonarroti"
+    },
+    {
+      "eventId": "evt-last-supper",
+      "matchText": "Last Supper"
+    },
+    {
+      "eventId": "evt-leonardo-da-vinci",
+      "matchText": "Leonardo da Vinci"
+    },
+    {
+      "eventId": "evt-raphael",
+      "matchText": "Raphael"
+    },
+    {
+      "eventId": "evt-vasari-lives",
+      "matchText": "Vasari"
+    }
   ],
   "4": [
-    {"eventId":"evt-leonardo-da-vinci","matchText":"Leonardo da Vinci"},
-    {"eventId":"evt-last-supper","matchText":"Last Supper"},
-    {"eventId":"evt-mona-lisa","matchText":"Mona Lisa"},
-    {"eventId":"evt-leonardo-notebooks","matchText":"notebooks"},
-    {"eventId":"evt-michelangelo","matchText":"Michelangelo Buonarroti"},
-    {"eventId":"evt-pieta","matchText":"Pietà"},
-    {"eventId":"evt-david-statue","matchText":"David"},
-    {"eventId":"evt-julius-ii","matchText":"Pope Julius II"},
-    {"eventId":"evt-sistine-chapel-ceiling","matchText":"Sistine Chapel ceiling"},
-    {"eventId":"evt-raphael","matchText":"Raphael Sanzio"},
-    {"eventId":"evt-school-of-athens","matchText":"School of Athens"},
-    {"eventId":"evt-bramante","matchText":"Bramante"},
-    {"eventId":"evt-st-peters-basilica","matchText":"St. Peter's Basilica"},
-    {"eventId":"evt-cesare-borgia","matchText":"the Borgia"},
-    {"eventId":"evt-battle-of-marignano","matchText":"Battle of Marignano"},
-    {"eventId":"evt-sack-of-rome","matchText":"Sack of Rome"}
+    {
+      "eventId": "evt-leonardo-da-vinci",
+      "matchText": "Leonardo da Vinci"
+    },
+    {
+      "eventId": "evt-last-supper",
+      "matchText": "Last Supper"
+    },
+    {
+      "eventId": "evt-mona-lisa",
+      "matchText": "Mona Lisa"
+    },
+    {
+      "eventId": "evt-leonardo-notebooks",
+      "matchText": "notebooks"
+    },
+    {
+      "eventId": "evt-michelangelo",
+      "matchText": "Michelangelo Buonarroti"
+    },
+    {
+      "eventId": "evt-pieta",
+      "matchText": "Pietà"
+    },
+    {
+      "eventId": "evt-david-statue",
+      "matchText": "David"
+    },
+    {
+      "eventId": "evt-julius-ii",
+      "matchText": "Pope Julius II"
+    },
+    {
+      "eventId": "evt-sistine-chapel-ceiling",
+      "matchText": "Sistine Chapel ceiling"
+    },
+    {
+      "eventId": "evt-raphael",
+      "matchText": "Raphael Sanzio"
+    },
+    {
+      "eventId": "evt-school-of-athens",
+      "matchText": "School of Athens"
+    },
+    {
+      "eventId": "evt-bramante",
+      "matchText": "Bramante"
+    },
+    {
+      "eventId": "evt-st-peters-basilica",
+      "matchText": "St. Peter's Basilica"
+    },
+    {
+      "eventId": "evt-cesare-borgia",
+      "matchText": "the Borgia"
+    },
+    {
+      "eventId": "evt-battle-of-marignano",
+      "matchText": "Battle of Marignano"
+    },
+    {
+      "eventId": "evt-sack-of-rome",
+      "matchText": "Sack of Rome"
+    },
+    {
+      "eventId": "evt-medici-bank",
+      "matchText": "Medici"
+    },
+    {
+      "eventId": "evt-peace-of-cateau-cambresis",
+      "matchText": "Peace of Cateau-Cambrésis"
+    },
+    {
+      "eventId": "evt-botticelli",
+      "matchText": "Andrea del Verrocchio"
+    },
+    {
+      "eventId": "evt-titian",
+      "matchText": "Titian"
+    },
+    {
+      "eventId": "evt-vasari-lives",
+      "matchText": "Vasari"
+    },
+    {
+      "eventId": "evt-vesalius-anatomy",
+      "matchText": "Vesalius"
+    },
+    {
+      "eventId": "evt-copernicus",
+      "matchText": "Copernicus"
+    },
+    {
+      "eventId": "evt-galileo-pisa",
+      "matchText": "Galileo"
+    },
+    {
+      "eventId": "evt-lorenzo-medici",
+      "matchText": "Lorenzo"
+    },
+    {
+      "eventId": "evt-donatello",
+      "matchText": "Donatello"
+    },
+    {
+      "eventId": "evt-machiavelli",
+      "matchText": "Machiavelli"
+    },
+    {
+      "eventId": "evt-vasari-lives",
+      "matchText": "Lives of the Artists"
+    },
+    {
+      "eventId": "evt-raphael",
+      "matchText": "Raffaello Sanzio"
+    },
+    {
+      "eventId": "evt-lorenzo-medici",
+      "matchText": "Lorenzo the Magnificent"
+    },
+    {
+      "eventId": "evt-mona-lisa",
+      "matchText": "La Gioconda"
+    },
+    {
+      "eventId": "evt-lorenzo-medici",
+      "matchText": "Lorenzo de' Medici's"
+    }
   ],
   "5": [
-    {"eventId":"evt-doge-venice","matchText":"Most Serene Republic of Venice"},
-    {"eventId":"evt-venetian-arsenal","matchText":"Venetian Arsenal"},
-    {"eventId":"evt-titian","matchText":"Titian"},
-    {"eventId":"evt-tintoretto","matchText":"Tintoretto"},
-    {"eventId":"evt-veronese","matchText":"Paolo Veronese"},
-    {"eventId":"evt-palladio","matchText":"Andrea Palladio"},
-    {"eventId":"evt-battle-of-lepanto","matchText":"Battle of Lepanto"},
-    {"eventId":"evt-doge-venice","matchText":"elected for life by an elaborate multi-stage process"}
+    {
+      "eventId": "evt-doge-venice",
+      "matchText": "Most Serene Republic of Venice"
+    },
+    {
+      "eventId": "evt-venetian-arsenal",
+      "matchText": "Venetian Arsenal"
+    },
+    {
+      "eventId": "evt-titian",
+      "matchText": "Titian"
+    },
+    {
+      "eventId": "evt-tintoretto",
+      "matchText": "Tintoretto"
+    },
+    {
+      "eventId": "evt-veronese",
+      "matchText": "Paolo Veronese"
+    },
+    {
+      "eventId": "evt-palladio",
+      "matchText": "Andrea Palladio"
+    },
+    {
+      "eventId": "evt-battle-of-lepanto",
+      "matchText": "Battle of Lepanto"
+    },
+    {
+      "eventId": "evt-doge-venice",
+      "matchText": "elected for life by an elaborate multi-stage process"
+    },
+    {
+      "eventId": "evt-brunelleschi",
+      "matchText": "Brunelleschi"
+    },
+    {
+      "eventId": "evt-donatello",
+      "matchText": "Donatello"
+    },
+    {
+      "eventId": "evt-masaccio",
+      "matchText": "Masaccio"
+    },
+    {
+      "eventId": "evt-michelangelo",
+      "matchText": "Michelangelo"
+    },
+    {
+      "eventId": "evt-titian",
+      "matchText": "Tiziano Vecellio"
+    },
+    {
+      "eventId": "evt-mona-lisa",
+      "matchText": "Mona Lisa"
+    },
+    {
+      "eventId": "evt-last-supper",
+      "matchText": "Last Supper"
+    },
+    {
+      "eventId": "evt-monteverdi-orfeo",
+      "matchText": "Monteverdi"
+    }
   ],
   "6": [
-    {"eventId":"evt-erasmus","matchText":"Erasmus of Rotterdam"},
-    {"eventId":"evt-luther-95-theses","matchText":"95 Theses"},
-    {"eventId":"evt-council-of-trent","matchText":"Council of Trent"}
+    {
+      "eventId": "evt-erasmus",
+      "matchText": "Erasmus of Rotterdam"
+    },
+    {
+      "eventId": "evt-luther-95-theses",
+      "matchText": "95 Theses"
+    },
+    {
+      "eventId": "evt-council-of-trent",
+      "matchText": "Council of Trent"
+    },
+    {
+      "eventId": "evt-petrarch",
+      "matchText": "Petrarch"
+    },
+    {
+      "eventId": "evt-aldine-press",
+      "matchText": "Aldine Press"
+    },
+    {
+      "eventId": "evt-galileo-pisa",
+      "matchText": "Galileo Galilei"
+    },
+    {
+      "eventId": "evt-peace-of-cateau-cambresis",
+      "matchText": "Peace of Cateau-Cambrésis"
+    }
   ],
   "7": [
-    {"eventId":"evt-palestrina","matchText":"Palestrina"},
-    {"eventId":"evt-monteverdi-orfeo","matchText":"L'Orfeo"},
-    {"eventId":"evt-aldine-press","matchText":"Aldine Press"},
-    {"eventId":"evt-index-forbidden-books","matchText":"Index of Forbidden Books"},
-    {"eventId":"evt-galileo-pisa","matchText":"Galileo Galilei"},
-    {"eventId":"evt-copernicus","matchText":"Copernican heliocentric model"},
-    {"eventId":"evt-vesalius-anatomy","matchText":"Vesalius"},
-    {"eventId":"evt-printing-press-italy","matchText":"Sweynheym and Pannartz"}
+    {
+      "eventId": "evt-palestrina",
+      "matchText": "Palestrina"
+    },
+    {
+      "eventId": "evt-monteverdi-orfeo",
+      "matchText": "L'Orfeo"
+    },
+    {
+      "eventId": "evt-aldine-press",
+      "matchText": "Aldine Press"
+    },
+    {
+      "eventId": "evt-index-forbidden-books",
+      "matchText": "Index of Forbidden Books"
+    },
+    {
+      "eventId": "evt-galileo-pisa",
+      "matchText": "Galileo Galilei"
+    },
+    {
+      "eventId": "evt-copernicus",
+      "matchText": "Copernican heliocentric model"
+    },
+    {
+      "eventId": "evt-vesalius-anatomy",
+      "matchText": "Vesalius"
+    },
+    {
+      "eventId": "evt-printing-press-italy",
+      "matchText": "Sweynheym and Pannartz"
+    },
+    {
+      "eventId": "evt-council-of-trent",
+      "matchText": "Council of Trent"
+    },
+    {
+      "eventId": "evt-palladio",
+      "matchText": "Palladio"
+    },
+    {
+      "eventId": "evt-donatello",
+      "matchText": "Donatello"
+    },
+    {
+      "eventId": "evt-michelangelo",
+      "matchText": "Michelangelo"
+    },
+    {
+      "eventId": "evt-erasmus",
+      "matchText": "Erasmus"
+    },
+    {
+      "eventId": "evt-medici-bank",
+      "matchText": "Medici"
+    },
+    {
+      "eventId": "evt-copernicus",
+      "matchText": "Copernicus"
+    },
+    {
+      "eventId": "evt-boccaccio-decameron",
+      "matchText": "Boccaccio's"
+    },
+    {
+      "eventId": "evt-machiavelli-prince",
+      "matchText": "Machiavelli's"
+    },
+    {
+      "eventId": "evt-leonardo-da-vinci",
+      "matchText": "Leonardo"
+    }
   ],
   "8": [
-    {"eventId":"evt-peace-of-cateau-cambresis","matchText":"Peace of Cateau-Cambrésis"},
-    {"eventId":"evt-castiglione-courtier","matchText":"Book of the Courtier"},
-    {"eventId":"evt-machiavelli","matchText":"Machiavelli"},
-    {"eventId":"evt-machiavelli-prince","matchText":"Prince"},
-    {"eventId":"evt-vasari-lives","matchText":"Lives of the Artists"},
-    {"eventId":"evt-uffizi-built","matchText":"Uffizi"},
-    {"eventId":"evt-burckhardt-coined-renaissance","matchText":"Civilization of the Renaissance in Italy"}
+    {
+      "eventId": "evt-peace-of-cateau-cambresis",
+      "matchText": "Peace of Cateau-Cambrésis"
+    },
+    {
+      "eventId": "evt-castiglione-courtier",
+      "matchText": "Book of the Courtier"
+    },
+    {
+      "eventId": "evt-machiavelli",
+      "matchText": "Machiavelli"
+    },
+    {
+      "eventId": "evt-machiavelli-prince",
+      "matchText": "Prince"
+    },
+    {
+      "eventId": "evt-vasari-lives",
+      "matchText": "Lives of the Artists"
+    },
+    {
+      "eventId": "evt-uffizi-built",
+      "matchText": "Uffizi"
+    },
+    {
+      "eventId": "evt-burckhardt-coined-renaissance",
+      "matchText": "Civilization of the Renaissance in Italy"
+    },
+    {
+      "eventId": "evt-sack-of-rome",
+      "matchText": "Sack of Rome"
+    },
+    {
+      "eventId": "evt-council-of-trent",
+      "matchText": "Council of Trent"
+    },
+    {
+      "eventId": "evt-medici-bank",
+      "matchText": "Medici"
+    },
+    {
+      "eventId": "evt-michelangelo",
+      "matchText": "Michelangelo"
+    },
+    {
+      "eventId": "evt-brancacci-chapel",
+      "matchText": "Brancacci Chapel"
+    },
+    {
+      "eventId": "evt-index-forbidden-books",
+      "matchText": "Index of Forbidden Books"
+    },
+    {
+      "eventId": "evt-vasari-lives",
+      "matchText": "Vasari"
+    },
+    {
+      "eventId": "evt-dante",
+      "matchText": "Dante"
+    },
+    {
+      "eventId": "evt-palestrina",
+      "matchText": "Palestrina"
+    },
+    {
+      "eventId": "evt-florence-cathedral-dome",
+      "matchText": "Florence Cathedral"
+    },
+    {
+      "eventId": "evt-brunelleschi",
+      "matchText": "Brunelleschi"
+    },
+    {
+      "eventId": "evt-leonardo-da-vinci",
+      "matchText": "Leonardo"
+    },
+    {
+      "eventId": "evt-mona-lisa",
+      "matchText": "Mona Lisa"
+    },
+    {
+      "eventId": "evt-david-statue",
+      "matchText": "David"
+    },
+    {
+      "eventId": "evt-galileo-pisa",
+      "matchText": "Galileo"
+    },
+    {
+      "eventId": "evt-boccaccio-decameron",
+      "matchText": "Boccaccio"
+    },
+    {
+      "eventId": "evt-monteverdi-orfeo",
+      "matchText": "Monteverdi"
+    },
+    {
+      "eventId": "evt-lorenzo-medici",
+      "matchText": "Lorenzo"
+    }
   ]
 }

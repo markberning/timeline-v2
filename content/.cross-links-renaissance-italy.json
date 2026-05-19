@@ -53,6 +53,90 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "As Italy's city-states jostled, the Safavid Sufi order in Persia was a generation from forging the empire that would define early-modern Shia Islam."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 4,
+      "blurb": "Where French kings could build a centralized monarchy on Frankish foundations, post-Roman Italy had no comparable political nucleus — one root of its enduring fragmentation."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Byzantine rule and culture shaped early-medieval Italy and, through Greek manuscripts and refugee scholars, fed the fifteenth-century Italian rediscovery of classical Greek learning."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Carolingian rule in Italy and Charlemagne's coronation as Holy Roman Emperor in Rome on Christmas Day 800 created the imperial title that nominally claimed northern Italy for the next thousand years."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "The post-Roman centuries — Ostrogothic, Lombard, Byzantine, and Carolingian rule over Italy, Charlemagne's 800 imperial coronation — left the peninsula with no single consolidating dynasty, the structural precondition for later Italian fragmentation."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The 1348 plague killed roughly half of Florence's population; the surviving merchant elite inherited concentrated wealth that funded the next century and a half of Italian artistic patronage."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The fourteenth-century crisis — the Black Death, the Avignon papacy, the Western Schism, the Wycliffe-Hus reform rehearsals — is the immediate European backdrop the Renaissance grew out of."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Byzantine Constantinople was the repository of the classical Greek manuscripts whose transmission to Italy — via the Council of Florence and post-1453 refugees — fed the Renaissance recovery of Greek learning."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Mansa Musa's Mali was at its imperial peak in the same decades Italian banking matured; his 1324 hajj distributed so much gold it reportedly devalued Egyptian currency for years, a flow Italian banking houses tracked."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The commercialized, highly urbanized economy of Tang–Song China that the Yuan inherited was the contemporary Eurasian benchmark of urban-commercial development against which the Italian city-states were one node."
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "The Aztec would not found Tenochtitlan until 1325 — about when Giotto was finishing his Padua frescoes — and would have no contact with Italy until Cortés arrived in 1519."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "The Andean polities were reorganizing into what would become the Inca imperial expansion under Pachacuti from 1438 — a parallel non-European state formation contemporary with the Italian Renaissance."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ming founding in 1368 ended the Mongol Yuan urban culture; the Ming voyages and inward turn are the Chinese counterpoint to the fifteenth-century Italian and Atlantic expansion."
+    },
+    {
+      "matchText": "Ilkhanate",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "The Mongol Ilkhanate in Iran collapsed in 1335, opening the political vacuum the Safavids would eventually fill — part of the wider fourteenth-century Eurasian flux contemporary with Trecento Italy."
+    },
+    {
+      "matchText": "Delhi Sultanate",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 6,
+      "blurb": "The Delhi Sultanate under the Tughlaqs was projecting power south into the Deccan in the same early-fourteenth-century decades the Italian city-states were taking institutional shape."
     }
   ],
   "2": [
@@ -85,6 +169,30 @@
       "targetTl": "mali-empire",
       "targetChapter": 5,
       "blurb": "The Mali Empire under Mansa Sulayman was largely spared by the Black Death — the trans-Saharan trade routes appear not to have been efficient plague vectors, possibly because of the Sahara's role as a biological filter. The asymmetric demographic experience of fourteenth-century Eurasia and West Africa is one of the structural facts of the period: Italy lost roughly half its population, Mali continued to function at full demographic capacity, and the cumulative gap shaped the relative trajectories of the two civilizations through the next two centuries."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The fourteenth-century crisis — the Black Death, the Avignon papacy, the Western Schism, the Wycliffe-Hus reform rehearsals — is the immediate European backdrop the Renaissance grew out of."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "The Ottoman beyliks in Anatolia were absorbing fourteenth-century plague refugees and consolidating the power that would shortly produce the great Ottoman expansion."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 4,
+      "blurb": "The Yuan Dynasty in China was the most urbanized civilization on earth in the early fourteenth century before its 1368 collapse — the contemporary top-down imperial counterpoint to the Italian competitive city-state model."
+    },
+    {
+      "matchText": "Ottoman beyliks",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "The Ottoman beyliks in Anatolia were absorbing disrupted plague refugees and consolidating the power that would shortly produce the Ottoman conquest of Constantinople and the Balkans."
     }
   ],
   "3": [
@@ -135,6 +243,42 @@
       "targetTl": "aztec-empire",
       "targetChapter": 3,
       "blurb": "While Florence built domes, the Aztecs were building Tenochtitlan's engine of conquest — two unconnected imperial cultures at their height."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Byzantine Constantinople was the repository of the classical Greek manuscripts whose transmission to Italy — via the Council of Florence and post-1453 refugees — fed the Renaissance recovery of Greek learning."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 5,
+      "blurb": "The Ming, mid-arc during the Italian Quattrocento — Zheng He's 1405–1433 voyages then a turn inward — is the contemporary Chinese imperial counterpoint to Italy's competitive city-state model."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ming founding in 1368 ended the Mongol Yuan urban culture; the Ming voyages and inward turn are the Chinese counterpoint to the fifteenth-century Italian and Atlantic expansion."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "The collapse of the western Roman Empire in 476 created the political vacuum that, over a thousand years, allowed Italian regional powers to evolve into the autonomous Renaissance city-states."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 3,
+      "blurb": "The Inca Empire began its imperial expansion under Pachacuti from 1438 and was conquered by Pizarro in 1532–33 — its arc runs exactly parallel to the Italian Quattrocento and High Renaissance."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The fourteenth-century crisis — the Black Death, the Avignon papacy, the Western Schism, the Wycliffe-Hus reform rehearsals — is the immediate European backdrop the Renaissance grew out of."
     }
   ],
   "4": [
@@ -185,6 +329,30 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "Safavid Persia's own artistic golden age — miniature painting, Isfahan — was rising in the same generation as the Italian High Renaissance."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 3,
+      "blurb": "As Florence built domes, the Aztec Empire was consolidating its dominion over central Mexico from Tenochtitlan — two unconnected imperial cultures cresting at the same moment."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 3,
+      "blurb": "The Inca Empire began its imperial expansion under Pachacuti from 1438 and was conquered by Pizarro in 1532–33 — its arc runs exactly parallel to the Italian Quattrocento and High Renaissance."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "The Ottoman beyliks in Anatolia were absorbing fourteenth-century plague refugees and consolidating the power that would shortly produce the great Ottoman expansion."
+    },
+    {
+      "matchText": "Babur",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Babur founded the Mughal Empire in India in 1526, a year before the Sack of Rome — a parallel early-modern flowering of imperial art and architecture contemporary with the Italian High Renaissance."
     }
   ],
   "5": [
@@ -217,6 +385,54 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 11,
       "blurb": "Venice had grown rich as Byzantium's heir and rival in the eastern Mediterranean — its colonial empire literally carved from the Byzantine corpse after 1204."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The 1348 plague killed roughly half of Florence's population; the surviving merchant elite inherited concentrated wealth that funded the next century and a half of Italian artistic patronage."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "The Venetian Arsenal pioneered standardized prefabricated components and sequential workstations three centuries before the Industrial Revolution made the assembly line famous in other industries."
+    },
+    {
+      "matchText": "Safavids",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Safavid Sufi order was a generation from forging the Persian empire that would define early-modern Shia Islam, filling the vacuum the Ilkhanate's collapse had left."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Safavid Persia under Tahmasp I and then Abbas the Great consolidated the Iranian Shia state and traded silk through Armenian merchants to European markets including Venice."
+    },
+    {
+      "matchText": "Abbas the Great",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Abbas the Great (1588–1629) brought Safavid Persia to its peak — rebuilt Isfahan, the Naqsh-e Jahan Square, Reza Abbasi's painting — exactly contemporary with the late Italian Renaissance."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughal Empire, founded 1526 and the wealthiest state in the world by the early seventeenth century, was the contemporary Indian imperial counterpoint to the late Italian Renaissance; Akbar's workshop absorbed European print-derived perspective."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 4,
+      "blurb": "Akbar the Great (r. 1556–1605) pursued a religious-tolerationist policy unique among sixteenth-century rulers and ran a painting workshop that absorbed Italian Renaissance pictorial technique."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The fourteenth-century crisis — the Black Death, the Avignon papacy, the Western Schism, the Wycliffe-Hus reform rehearsals — is the immediate European backdrop the Renaissance grew out of."
     }
   ],
   "6": [
@@ -249,6 +465,48 @@
       "targetTl": "aztec-empire",
       "targetChapter": 8,
       "blurb": "The Counter-Reformation Church that emerged was the same militant institution then evangelizing the conquered Aztec world."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The fourteenth-century crisis — the Black Death, the Avignon papacy, the Western Schism, the Wycliffe-Hus reform rehearsals — is the immediate European backdrop the Renaissance grew out of."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 5,
+      "blurb": "The Mughal Empire in India expanded under Akbar from 1556 and became the world's wealthiest state by the early seventeenth century — the great contemporary Indian imperial culture during the late Italian Renaissance."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 4,
+      "blurb": "Akbar the Great (r. 1556–1605) pursued a religious-tolerationist policy unique among sixteenth-century rulers and ran a painting workshop that absorbed Italian Renaissance pictorial technique."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "The Andean polities were reorganizing into what would become the Inca imperial expansion under Pachacuti from 1438 — a parallel non-European state formation contemporary with the Italian Renaissance."
+    },
+    {
+      "matchText": "Suleiman the Magnificent",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Suleiman the Magnificent (1520–1566) ruled the Ottoman Empire at its peak, confronting the Habsburg-Catholic alliance from the east while the Reformation split it from within."
+    },
+    {
+      "matchText": "Ismail I",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "Ismail I founded the Safavid dynasty in 1501 and forcibly converted Persia to Twelver Shia Islam — Leonardo was painting the Last Supper while Ismail was conquering Tabriz; the religious revolution and the High Renaissance are exactly contemporary."
+    },
+    {
+      "matchText": "Akbar the Great",
+      "targetTl": "mughal-empire",
+      "targetChapter": 4,
+      "blurb": "Akbar the Great became Mughal emperor in 1556 and pursued a religious-tolerationist policy — including the heterodox Din-i Ilahi — that was the structural opposite of the Counter-Reformation hardening then under way in Italy."
     }
   ],
   "7": [
@@ -281,6 +539,60 @@
       "targetTl": "ming-dynasty",
       "targetChapter": 7,
       "blurb": "The late Renaissance's print-and-science surge was contemporary with the late Ming cultural peak — two literate high cultures cresting, soon to be measured against each other by Jesuits."
+    },
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 1,
+      "blurb": "The Scientific Revolution that transformed European thought happened largely in the Protestant cities Counter-Reformation censorship did not reach; Galileo's trial is the bridge from the Italian Renaissance into it."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Byzantine rule and culture shaped early-medieval Italy and, through Greek manuscripts and refugee scholars, fed the fifteenth-century Italian rediscovery of classical Greek learning."
+    },
+    {
+      "matchText": "Royal Society",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 10,
+      "blurb": "The intellectual leadership of European science migrated to places like the Royal Society in London, where the institutional framework permitted the open inquiry Counter-Reformation Italy increasingly forbade."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughal Empire, founded 1526 and the wealthiest state in the world by the early seventeenth century, was the contemporary Indian imperial counterpoint to the late Italian Renaissance; Akbar's workshop absorbed European print-derived perspective."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 4,
+      "blurb": "Akbar the Great (r. 1556–1605) pursued a religious-tolerationist policy unique among sixteenth-century rulers and ran a painting workshop that absorbed Italian Renaissance pictorial technique."
+    },
+    {
+      "matchText": "Jahangir",
+      "targetTl": "mughal-empire",
+      "targetChapter": 6,
+      "blurb": "Jahangir (r. 1605–1627) presided over the Mughal cultural peak whose painting workshop drew on imported Safavid and Italian models — the Indian counterpoint to the late Italian Renaissance."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 5,
+      "blurb": "The Mughal Empire in India expanded under Akbar from 1556 and became the world's wealthiest state by the early seventeenth century — the great contemporary Indian imperial culture during the late Italian Renaissance."
+    },
+    {
+      "matchText": "Abbas the Great",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Abbas the Great (1588–1629) brought Safavid Persia to its peak — rebuilt Isfahan, the Naqsh-e Jahan Square, Reza Abbasi's painting — exactly contemporary with the late Italian Renaissance."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "The Ottoman Empire under Suleiman the Magnificent was the eastern superpower across the late Italian Renaissance — its contest with Venice for the eastern Mediterranean climaxed at Lepanto in 1571."
     }
   ],
   "8": [
@@ -325,6 +637,48 @@
       "targetTl": "safavid-persia",
       "targetChapter": 6,
       "blurb": "The Renaissance idea of the named, celebrated artist had a near-contemporary in Safavid Persia's Reza Abbasi — the individual master emerging in two traditions at once."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 5,
+      "blurb": "The Mughal Empire in India expanded under Akbar from 1556 and became the world's wealthiest state by the early seventeenth century — the great contemporary Indian imperial culture during the late Italian Renaissance."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 4,
+      "blurb": "Akbar the Great (r. 1556–1605) pursued a religious-tolerationist policy unique among sixteenth-century rulers and ran a painting workshop that absorbed Italian Renaissance pictorial technique."
+    },
+    {
+      "matchText": "Safavid Reza Abbasi",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Reza Abbasi's naturalistic single-figure paintings in Abbas the Great's Isfahan were a regional artistic peak exactly contemporary with late Venetian painting — the named individual master emerging in two traditions at once."
+    },
+    {
+      "matchText": "Aztec Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "The Aztec capital Tenochtitlan that Cortés found in 1519 — a city of perhaps 200,000 with infrastructure unmatched in contemporary Europe — was a regional cultural achievement equal to the Italian Renaissance, without its global afterlife."
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "The Aztec would not found Tenochtitlan until 1325 — about when Giotto was finishing his Padua frescoes — and would have no contact with Italy until Cortés arrived in 1519."
+    },
+    {
+      "matchText": "Mughal painting workshop",
+      "targetTl": "mughal-empire",
+      "targetChapter": 6,
+      "blurb": "Akbar's Mughal painting workshop combined Persian Safavid technique, European print-derived perspective, and indigenous Indian colour — a regional cultural peak comparable to the Italian Renaissance and exactly contemporary with it."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The fourteenth-century crisis — the Black Death, the Avignon papacy, the Western Schism, the Wycliffe-Hus reform rehearsals — is the immediate European backdrop the Renaissance grew out of."
     }
   ]
 }
