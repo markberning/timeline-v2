@@ -44,7 +44,21 @@ Route NO-PAGE rows to stage 3.
 - `lint-links --tl=<civ> --strict`: 0 ERROR.
 - `fix-links <civ>`: 0 disambiguation/dead/wrong-subject flags.
 - `parse -- --tl=<civ>`: no avoidable "not found in body" drops.
+- **`audit-reuse-links <civ>`: REUSE wrong-subject scan (added 2026-05-21).**
+  fix-links proves a page is live/non-disambig/word-overlapping, but CANNOT catch
+  a wrong subject whose *name* overlaps (Assassins→Assassin's_Creed the video
+  game; Mansur→Ustad_Mansur the Mughal painter). This flags the complete subset
+  where that hides — slug words diverge from the term, or a pop-culture/modern
+  slug pattern — so the coordinator eyeballs ALL of it, not a random sample.
+  Exits 1 on any pop-culture pattern (near-certain wrong link). The flagged list
+  is mostly legitimate aliases (Ibn Sina→Avicenna, Jabal Tariq→Gibraltar);
+  confirm each page SUBJECT matches the chapter. This replaces ad-hoc spot-checks.
 - Waiver audit: final waivers ≤ ~30, every one cat A/B/C.
+
+## Snapshot (coordinator, after gates pass)
+`verify-links <civ> --write-snapshot` (0 auto-fail) then `audit-events`/
+`audit-glossary`/`audit-crosslinks` all PASS — regenerates the G10/G11/G12
+ship-gate contract for the new links.
 
 ## Future hardening (optional)
 Make `link-coverage` itself refuse lazy skips: cap waivers/civ and auto-reject a
