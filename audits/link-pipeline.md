@@ -39,6 +39,31 @@ Route NO-PAGE rows to stage 3.
 
 ### 3. BLURB — author `definition` blurbs for NO-PAGE terms (no wikiSlug).
 
+## Coordinator (automated — added 2026-05-21)
+
+The merge + verify hand-work is now two scripts (replacing the per-civ manual steps):
+
+```sh
+# 1. merge agent outputs (pass-1 dir, and pass-2/residual dir if present)
+node scripts/sweep-merge.mjs <civ> /tmp/<civ>/out /tmp/<civ>/out2
+# 2. run the whole verification + snapshot + ship gates as one report
+node scripts/sweep-verify.mjs <civ> --fix-drops
+```
+
+- **sweep-merge** dedups new matchText against existing glossary + cross + **event**
+  links (kills the silent-drop collision class), derives the chapter set from the
+  narrative's `# Chapter N` headers (no more hard-coded ch9/ch10 bug), and *reports*
+  every skipped collision instead of dropping it silently.
+- **sweep-verify** runs parse (classifying "not found" drops into redundant vs
+  form-mismatch; `--fix-drops` auto-removes the redundant glossary entries an existing
+  cross/event link already covers), link-coverage (TOTAL), lint --strict, fix-links,
+  audit-reuse-links, snapshot regen, and G10/G11/G12 — printing one ✅/❌ report.
+  The waiver flag is advisory (bold-only/artifact/duplicate waivers are legit; eyeball
+  them). `--no-snapshot` skips the slow snapshot+ship-gate tail for a fast iteration.
+
+The manual gate-by-gate sequence below is what those two scripts run; keep it as the
+reference for what each check means.
+
 ## Verify (coordinator, every civ — verify don't relay)
 - `link-coverage --tl=<civ>` (no --strict): TOTAL GATE ≈ 0 (NOT just "0 NEW").
 - `lint-links --tl=<civ> --strict`: 0 ERROR.
