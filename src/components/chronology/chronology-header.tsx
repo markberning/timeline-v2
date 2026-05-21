@@ -13,15 +13,9 @@ export function ChronologyHeader({ isDesktop, ribbonMode, onRibbonModeChange, on
   return (
     <header
       className="flex items-start justify-between shrink-0"
-      style={{ padding: '20px 20px 12px' }}
+      style={{ padding: '14px 20px 12px' }}
     >
       <div>
-        <div
-          className="font-[family-name:var(--font-geist-sans)]"
-          style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase' as const, color: 'var(--foreground)', opacity: 0.4, marginBottom: 4 }}
-        >
-          Stuff Happened
-        </div>
         <h1
           className="font-[family-name:var(--font-lora)]"
           style={{ fontSize: 28, fontStyle: 'italic', fontWeight: 400, lineHeight: 1.15, color: 'var(--foreground)' }}
