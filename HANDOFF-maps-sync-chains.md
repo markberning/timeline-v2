@@ -55,7 +55,7 @@ Settled over 3 user corrections; full text in memory `feedback_dont_over_general
 
 - **Audit Track 2 (cross-link) + Track 3 (build/data)** — gated on the link sweep finishing. Then run per `memory/project_corpus_audit_plan`.
 - **Coverage findings** (`audits/coverage-audit.md`) — Mesopotamian 1,359-yr gap, steppe gap (744–1206), Persian/Korean/Japanese/etc. gaps. The **~17-civ phase-1.5 backlog** + bridge-TL decisions are the user's call; nothing built.
-- **Phase 2** (4-mode app: Civ/War/Art/Music) — thin-slice scope committed, audit-first prerequisite now satisfied; not started. See `memory/project_phase2_plan`. World Wars routed to the War module (`memory/project_phase2_plan`).
+- **Phase 2** (4-mode app: Civ/War/Art/Music) — thin-slice scope committed, audit-first prerequisite now satisfied; not started. See `memory/project_phase2_plan`. World Wars routed to the War module (`memory/project_phase2_plan`). **Music-mode design** (Western-classical form-following listening guides) documented in `PHASE2-MUSIC-MODULE.md`.
 - **`reference-data/medieval-europe.json`** orphan — delete once the concurrent reference-data session is done (deferred to avoid collision).
 
 ## Operational gotchas (learned the hard way)
