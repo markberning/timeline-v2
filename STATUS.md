@@ -518,6 +518,41 @@ delhi 8 · ottoman 0 = real; islamic-golden-age 645 = FALSE-DONE (above).
 NEW gaps (mughal 536→524, etc.) per the defective "0 NEW" brief. Partial
 work preserved in worktrees; re-tasked at TRUE full scope (TOTAL→~0).
 
+**▶ BATCH 2 ✅ COMPLETE + DEPLOYED 2026-05-21.** All 5 + ottoman LIVE on
+stuffhappened.com (verified by curl per civ). Commits: yuan 72e2ff2
+(+disambig 44b4398), timurid 15a8230, umayyad a040033, medieval-india
+fa35357, mughal c2d5435, ottoman 671894d. ~2,000 born-verified links
+added. **Two-pass story (the durable lesson): sonnet full-sweep agents
+OVER-WAIVED massively** (timurid 223, medieval-india 201, umayyad 105
+waivers — waiving real entities + whole sibling civs as "bold-only");
+**opus COMPREHENSIVE-CORRECTIVE agents fixed it** (timurid→45, mughal→15,
+umayyad→45, medieval-india→87 waivers; +130/+33/+39/+38 links; all
+dropped-matchText fixed; fix-links clean). yuan came out good first pass.
+**Convergence debt: ~31 residual drift NEW gaps** (ottoman 10, medieval 9,
+timurid 6, umayyad 4, yuan 2 — sibling-commit ⟨dict⟩ drift) for the
+end-of-program `--corpus` pass; bounded, not a defect.
+
+**▶ LINK PIPELINE BUILT 2026-05-21 (use for islamic + all remaining civs,
+NOT the old full-sweep).** `scripts/link-suggest.mjs` (committed 26c2ed3
++ hardening b8c066f) pre-resolves every worklist term → REUSE (slug
+born-verified in another civ — ~80% hit, corpus index ~18k slugs, shows
+lead + flags homonyms) / CROSS / SKIP (only own-name/modern-locator/
+generic) / LINK-CANDIDATE / NO-PAGE→blurb. Splits "decide vs do" so no
+stage can dodge by mass-waiving. Doc: `audits/link-pipeline.md`. Memory
+`project_coverage_bold_is_linkable` (bold IS linkable; never waive
+bold-only; verify by TOTAL gap count not --strict).
+
+**▶ DEPLOY REALITY (verified 2026-05-21).** Auto-deploy is OFF: `deploy.yml`
+is `workflow_dispatch`-only (no push trigger), and the Cloudflare dash
+integration is dead → **`git push` does NOT publish; only manual
+`npx wrangler deploy` does.** The agent harness BLOCKS the agent from
+running a prod deploy AND from editing settings to self-permit → **deploy
+is a user-run step** (`npx wrangler deploy` in their terminal, no `!`
+prefix). Local wrangler OAuth (mebernin@gmail.com) has full workers/pages
+write perms — auth is fine, the STATUS worry about token scope was stale.
+To let the agent deploy: user adds `Bash(npx wrangler deploy:*)` to
+`~/.claude/settings.json` allow-list themselves.
+
 **ottoman-empire ✅ CLOSED 2026-05-21 (`671894d`, pushed).** The
 parked civ is done. Finding: the `a00501` worktree held a *corrected*
 attempt (Süleyman linked as `Süleyman I`, Janissaries fully linked —
