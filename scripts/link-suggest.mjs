@@ -77,7 +77,7 @@ const MODERN = new Set(['afghanistan', 'pakistan', 'india', 'iran', 'iraq', 'chi
 
 // ── corpus indexes (term -> born-verified slug elsewhere; term -> cross target)
 function buildCorpusIndexes() {
-  const slugIdx = new Map()   // norm(term) -> { slug, tl, count }
+  const slugIdx = new Map()   // norm(term) -> Map<slug, { tl, count }>  (ALL slugs seen — to expose homonyms)
   const crossIdx = new Map()  // norm(term) -> { targetTl, count }
   const files = readdirSync('content')
   for (const f of files) {
@@ -88,9 +88,9 @@ function buildCorpusIndexes() {
         if (!e.wikiSlug || String(e.wikiSlug).startsWith('def:')) continue
         for (const key of [e.matchText, e.term]) {
           const k = norm(key); if (!k) continue
-          const cur = slugIdx.get(k)
-          if (!cur) slugIdx.set(k, { slug: e.wikiSlug, tl: m[1], count: 1 })
-          else if (cur.slug === e.wikiSlug) cur.count++
+          let bySlug = slugIdx.get(k); if (!bySlug) { bySlug = new Map(); slugIdx.set(k, bySlug) }
+          const cur = bySlug.get(e.wikiSlug)
+          if (!cur) bySlug.set(e.wikiSlug, { tl: m[1], count: 1 }); else cur.count++
         }
       }
     }
@@ -142,9 +142,27 @@ async function classify(item, idx) {
   if (cx) return { ...item, decision: 'CROSS', targetTl: cx.targetTl, conf: 'high', why: `cross-linked elsewhere ×${cx.count}` }
   const civ = isCivName(raw)
   if (civ) return { ...item, decision: 'CROSS', targetTl: civ, conf: 'med', why: 'matches a civ id' }
-  // 3. REUSE — already a born-verified glossary link in another civ
-  const reuse = idx.slugIdx.get(n)
-  if (reuse) return { ...item, decision: 'REUSE', slug: reuse.slug, conf: 'high', why: `linked in ${reuse.tl} ×${reuse.count}` }
+  // 3. REUSE — already a born-verified glossary link in another civ.
+  // NOT a guarantee: the original could be wrong, and the SAME string can mean a
+  // DIFFERENT subject here (homonyms: Emperor Wu, Tripoli, Alexandria…). So we
+  // verify the page, SHOW the lead for subject-confirmation, and flag ambiguity.
+  const bySlug = idx.slugIdx.get(n)
+  if (bySlug) {
+    const ranked = [...bySlug.entries()].sort((a, b) => b[1].count - a[1].count)
+    const [slug, meta] = ranked[0]
+    const ambiguous = ranked.length > 1
+    const v = (await verifySlugs([slug], { refresh })).get(slug)
+    const alts = ranked.slice(1).map(([s, m]) => `${s}(${m.tl})`)
+    if (v && v.ok && !v.disambiguation) {
+      return {
+        ...item, decision: 'REUSE', slug, title: v.title, lead: v.lead,
+        conf: ambiguous ? 'CONFIRM-homonym' : 'high',
+        why: `linked in ${meta.tl} ×${meta.count}` + (ambiguous ? ` — ⚠ AMBIGUOUS: also ${alts.join(', ')}` : ''),
+        alts: ambiguous ? alts : undefined,
+      }
+    }
+    // reused slug is itself dead/disambig now → don't propagate; treat as fresh search
+  }
   // 4. LINK-CANDIDATE — Wikipedia search + verify
   const cands = await searchWiki(raw)
   let pick = null, why = ''
@@ -184,7 +202,7 @@ let md = `# link-suggest — ${TL}\n\n${JSON.stringify(tally)}\n\nConfirm each r
 let curCh = -1
 for (const r of rows) {
   if (r.chapter !== curCh) { curCh = r.chapter; md += `\n## Chapter ${curCh}\n` }
-  if (r.decision === 'REUSE') md += `- **${r.term}** → REUSE \`${r.slug}\`  (${r.why})\n`
+  if (r.decision === 'REUSE') md += `- **${r.term}** → REUSE \`${r.slug}\` [${r.conf}] — _${r.title}_: ${r.lead?.slice(0, 110)}  (${r.why})\n`
   else if (r.decision === 'CROSS') md += `- **${r.term}** → CROSS → \`${r.targetTl}\`  (${r.why})\n`
   else if (r.decision === 'SKIP') md += `- ${r.term} → SKIP (${r.reason}, cat ${r.cat})\n`
   else if (r.decision === 'LINK-CANDIDATE') md += `- **${r.term}** → \`${r.slug}\` [${r.conf}] — _${r.title}_: ${r.lead?.slice(0, 120)}\n`
