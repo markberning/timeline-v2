@@ -15,6 +15,7 @@ export default async function CivilizationLayout({
   return (
     <div className="accent-scope" style={{
       '--accent': colors.base,
+      '--accent-base-dark': colors.baseDark ?? colors.base,
       '--accent-text': colors.text,
       '--accent-badge': colors.badge,
     } as React.CSSProperties}>

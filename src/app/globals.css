@@ -8,6 +8,7 @@
   --surface: #f5f0e8;
   --foreground: #171717;
   --accent: #a1a1aa;
+  --accent-base-dark: #a1a1aa; /* dark-mode accent; overridden per-scope when an accent sets baseDark */
   --accent-text: #4b5563;
   --accent-badge: #6b7280;
   --prose-size: 1rem;
@@ -30,10 +31,13 @@ html.dark body {
   background-color: #22201e;
 }
 
-/* In dark mode, accent colors have enough contrast on dark bg — use base color */
+/* In dark mode, use the dark-mode accent (baseDark if the accent set one,
+   otherwise base) for decoration, links, and badges. For region accents
+   --accent-base-dark equals --accent, so this is a no-op for them. */
 .dark .accent-scope {
-  --accent-text: var(--accent) !important;
-  --accent-badge: var(--accent) !important;
+  --accent: var(--accent-base-dark) !important;
+  --accent-text: var(--accent-base-dark) !important;
+  --accent-badge: var(--accent-base-dark) !important;
 }
 
 /* Dark mode: swap dark-filled Asia icons to bright violet */
