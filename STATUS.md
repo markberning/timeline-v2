@@ -28,13 +28,15 @@ steer this session from phone / claude.ai/code).
 sweep is PARTWAY; a NEW PIPELINE replaces the old method. Next session:
 "try out the new process" on the next batch (user's words).**
 
-**State: 12 of 103 civs genuinely swept** (current total GATE in single/
+**State: 13 of 103 civs genuinely swept** (current total GATE in single/
 low-double digits, down from 350–645): goryeo-korea, uyghur-steppe,
 renaissance-italy, byzantine-empire, delhi-sultanate, swahili-coast (older)
-+ **this session:** ottoman-empire, mughal-empire, umayyad-caliphate,
-medieval-india, yuan-dynasty, timurid-empire — ALL committed + DEPLOYED
-LIVE (verified). **~91 civs remain** (incl. islamic-golden-age, which was
-FALSE-DONE — see below).
++ ottoman-empire, mughal-empire, umayyad-caliphate, medieval-india,
+yuan-dynasty, timurid-empire (prior session) + **this session:
+islamic-golden-age** (the FALSE-DONE civ — now GENUINELY swept via the
+NEW PIPELINE: 665 GATE → 0, 0 ERROR, fix-links 747/747, G10/G11/G12 all
+pass; committed; **deploy still owed — see DEPLOY DEBT**). **~90 civs
+remain.**
 
 **▶ USE THE NEW PIPELINE for every remaining civ — NOT the old full-sweep
 agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
@@ -55,11 +57,27 @@ agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
 5. Force-add the 5 curated files (NEVER `git add -A`), commit per civ, push.
 Full doc: `audits/link-pipeline.md`.
 
-**▶ NEXT BATCH (worst-first, after the 12 done):** islamic-golden-age
-(REDO — false-done), safavid-persia, high-medieval-europe, mongol-empire,
-late-medieval-europe. Then continue worst-first down `audits/link-coverage-
-ledger.md` to corpus end, then an end-of-program `--corpus` convergence
-pass to mop residual drift (currently ~31 across the swept 12 — bounded).
+**▶ NEXT BATCH (worst-first, after the 13 done):** safavid-persia,
+high-medieval-europe, mongol-empire, late-medieval-europe, tang-song-china.
+Then continue worst-first down `audits/link-coverage-ledger.md` to corpus
+end, then an end-of-program `--corpus` convergence pass to mop residual
+drift (currently ~31 across the swept 12 — bounded).
+
+**▶ NEW-PIPELINE RUN VALIDATED 2026-05-21 (islamic-golden-age).** The
+`link-suggest.mjs` worksheet + split PROPOSE/LINK/BLURB pipeline works well:
+ran 5 per-chapter LINK agents ×2 waves (born-verify each slug vs the page
+lead), then a 2-agent residual pass for convergence-drift demonyms, then
+coordinator merge+gates. Caught real wrong-subject REUSE the worksheet
+suggested (Mansur→Ustad_Mansur the Mughal painter, Ibn Furat→wrong
+historian, Slavic→Saqaliba, "God's unity"→Baháʼí page) AND one the agents
+let through that the coordinator spot-check caught (Assassins→Assassin's_Creed
+the VIDEO GAME → fixed to Order_of_Assassins). LESSON: coordinator MUST
+spot-check REUSE links where slug overlaps the term but subject can differ —
+fix-links' word-overlap test passes those. Also: ~12 new glossary entries
+collided with existing cross/event links (same matchText) → dropped by parser;
+coordinator removed the redundant glossary (existing link covers the term).
+77 of 180 CROSS suggestions were self-references (targetTl==the civ) → agents
+correctly converted to glossary links.
 
 **▶ DEPLOY IS A USER-RUN STEP.** Auto-deploy is OFF (deploy.yml is
 `workflow_dispatch`-only). The agent harness BLOCKS the agent from running
@@ -201,9 +219,10 @@ chapter-intro retrofit.** Per fire, in order:
    fan-out in the remote tool set) — a "batch" here is a small serial run
    (≤5 civs), stop early on any failure.
 
-**DEPLOY DEBT (pushed to main by the routine, NOT yet on stuffhappened.com):**
-_(none yet — the routine appends civ ids + commit here; a local session runs
-the clean atomic deploy and clears this list)_
+**DEPLOY DEBT (committed to main, NOT yet on stuffhappened.com):**
+- **islamic-golden-age** (swept 2026-05-21, new pipeline; commit pending in
+  this session) — user runs `npx wrangler deploy` to publish. Adds ~600
+  born-verified glossary/cross links; reader-facing.
 
 **Hard stops:** two consecutive failing fires on the same civ/batch → stop
 the routine and leave for a human (write STOP-FOR-HUMAN here). The schedule
@@ -476,12 +495,12 @@ waived-but-never-linked set.
 committed, 1 parked.**
 - renaissance-italy ✅ `8d2d78a` (577→0, waiver-clean)
 - byzantine-empire ✅ `1efa3c5` (552→0; 8 drift)
-- islamic-golden-age ❌ **FALSE-DONE — verified 2026-05-21.** Commit
-  `c9f35c1` ("close all 635") changed ONLY `.link-waivers` (+7 lines);
-  the ~600 glossary links were NEVER committed (lost on 05-18 — the
-  agent-wrote-to-MAIN note was wrong; content was NOT verified correct).
-  Sits at **645 GATE today**. RE-QUEUED for a real full sweep. The
-  "2,533 closed / 6 civs" total below is overstated — only 5 are real.
+- islamic-golden-age ✅ **RESOLVED 2026-05-21** (was FALSE-DONE: commit
+  `c9f35c1` had changed ONLY `.link-waivers`; the ~600 glossary links were
+  never committed). Re-swept properly via the NEW PIPELINE this session:
+  665 GATE → 0, +491+50 glossary, +52 cross, 52 clean waivers; 0 ERROR,
+  fix-links 747/747, G10/G11/G12 pass, snapshot regenerated. Committed
+  (deploy owed — see DEPLOY DEBT).
 - delhi-sultanate ✅ `93d7e3f` (541→0; 171 waivers = legitimate
   verbose-(c), proven by fuller-form recheck; 6 drift)
 - ottoman-empire ❌ PARKED for next session — first agent admitted

@@ -41,6 +41,18 @@
       "targetTl": "uyghur-steppe",
       "targetChapter": 6,
       "blurb": "Those same Karluks did not stop at Talas. Over the following two centuries they consolidated into the Kara-Khanid Khanate — the first Turkic state to adopt Islam as its official religion. Uyghur Chapter 6 tells that conversion story: the frontier pressure from Samanid missionaries, the khagan's declaration, and why the Kara-Khanids are the headwaters of every later Turkic Muslim dynasty from the Seljuks to the Ottomans."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "While the Abbasids were building Baghdad, their old rival to the northwest was deep in the Iconoclast Century — a generations-long fight over whether holy images were idolatry. The shrunken Eastern Roman empire ringed by Constantinople's walls was the Caliphate's permanent frontier enemy, and Harun al-Rashid alternated pilgrimage years with raids across the Anatolian border into it."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "The 'Frankish king' Harun traded embassies and an elephant with was Charlemagne, then stitching western Europe back together in the Carolingian Renaissance. From Baghdad he looked like a useful counterweight: a Latin-Christian power pressing Byzantium from the west while the Caliphate pressed it from the east."
     }
   ],
   "2": [
@@ -73,6 +85,24 @@
       "targetTl": "gupta-empire",
       "targetChapter": 5,
       "blurb": "Indian mathematics and astronomy — Gupta-era place value and the sciences — flowed into Baghdad and were transformed there."
+    },
+    {
+      "matchText": "Sasanian",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Sasanians were the last great Persian empire before Islam, and the Abbasids inherited their entire administrative and intellectual estate. The House of Wisdom ran on translated Pahlavi manuals, and the Sasanian science academy at Gundishapur was relocated, staff and library and all, into Baghdad. Much of what looks like an Arab golden age is a Persian one re-published in Arabic."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "While Baghdad was systematically importing Greek learning, the Byzantines were the living heirs of that Greek world — and the Abbasid translators raided their territory for manuscripts. Hunayn ibn Ishaq traveled to Byzantine lands to track down better copies of Galen and Aristotle, carrying classical Greek science out of a Christian empire and into a Muslim one."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "When the translation movement claimed to absorb 'the wisdom of Greece, Persia, and India,' the Persian half meant the deep scientific and literary tradition of the Sasanian court — astronomy, medicine, and statecraft that Baghdad swallowed whole and rewrote in Arabic."
     }
   ],
   "3": [
@@ -105,6 +135,54 @@
       "targetTl": "gupta-empire",
       "targetChapter": 5,
       "blurb": "Al-Khwarizmi's numerals and algebra built on the Indian decimal system the Gupta golden age had produced — the 'Arabic' numerals are Indian."
+    },
+    {
+      "matchText": "Gundishapur",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Gondeshapur was the great learning center of Sasanian Persia — a hospital and academy where Greek, Syriac, and Indian medical and astronomical knowledge had already been gathered and translated into Pahlavi before the Arabs arrived. The Abbasids inherited its scholars and its books."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "The land between the Tigris and Euphrates had been the cradle of cities, writing, and astronomy for over three thousand years before Baghdad rose on the same ground — the Sabians of Harran were heirs to that ancient Babylonian sky-watching tradition."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Aristotle, Plato's most brilliant student, built the systematic philosophy — logic, ethics, physics, metaphysics — that the Islamic world inherited in Arabic translation. Al-Farabi was nicknamed the 'Second Teacher' precisely because Aristotle was the first."
+    },
+    {
+      "matchText": "Plato",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Plato's Republic, with its ideal of philosopher-kings ruling a virtuous city, was the model al-Farabi reworked into an Islamic political philosophy a thousand years and a thousand miles away."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "The rediscovery of ancient learning that swept Italy from the 1300s onward leaned heavily on Greek texts that had survived only in Arabic — and on Islamic advances like algebra and frequency analysis that Europe was only now catching up to."
+    },
+    {
+      "matchText": "Macedonian Renaissance",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "While Baghdad's scholars were at their peak, Byzantium was having its own scholarly revival under the Macedonian emperors — copying and preserving ancient Greek manuscripts, the very texts the Abbasid translators were hunting down."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Greek-speaking Roman Empire centered on Constantinople was the Caliphate's great northern rival — and, awkwardly, the keeper of the Greek scientific manuscripts the Abbasids most wanted to translate."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "At the other end of Asia, Tang China was the era's other superpower — a cosmopolitan empire with its own sophisticated mathematics and positional notation, though a general algebra would not appear there until the later Song."
     }
   ],
   "4": [
@@ -139,12 +217,6 @@
       "blurb": "Ibn Sina's floating man reached the structure of Descartes' cogito six centuries early; the European arrival was independent but not unprecedented (Scientific Revolution Ch 7)."
     },
     {
-      "matchText": "double-action suction pump",
-      "targetTl": "scientific-revolution",
-      "targetChapter": 9,
-      "blurb": "Al-Jazari's 1206 suction pump implied a working command of vacuum that European theory would not articulate until Torricelli, Pascal, and Guericke four centuries later (Scientific Revolution Ch 9)."
-    },
-    {
       "matchText": "Greek optics",
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
@@ -155,6 +227,36 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "Much of the medical and engineering tradition was Sassanid Persian in origin — Jundishapur's hospitals scaled up under the Abbasids."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Aristotle did his teaching in fourth-century Athens, the Greek city at the height of its cultural golden age. Twelve hundred years later his works — logic, physics, metaphysics, biology — were translated into Arabic in Baghdad and became the backbone of Islamic philosophy. Ibn Sina read the Metaphysics forty times before al-Farabi's commentary made it click."
+    },
+    {
+      "matchText": "Plato",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Plato founded his Academy in golden-age Athens, and his theory of vision — that the eye sends out rays to touch the world — was still the textbook view a millennium later. Ibn al-Haytham would dismantle it by experiment in eleventh-century Cairo."
+    },
+    {
+      "matchText": "Gundishapur",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Gundishapur was the great teaching hospital and translation center of Sassanid Persia, where Greek, Syriac, Persian, and Indian medicine all met. When the Abbasids built their hospitals in Baghdad, they were rebuilding Gundishapur — the institutional model, the physician families, and the synthesis of traditions all came north with it."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Upper Mesopotamia — the land between the Tigris and Euphrates — had been the world's oldest urban heartland for over three thousand years before al-Jazari built his automata at the Artuqid court there. The same fertile river valley that birthed the first cities was still, in 1206, a place where engineers solved problems."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 4,
+      "blurb": "Al-Jazari's double-action suction pump worked out the exact mechanical trick — converting rotary motion into reciprocating piston strokes — that the steam engine would need. He had no steam source and treated it as a courtly toy. Six centuries later, in a different economy with expensive labor and cheap coal, that same kinematics became the heart of the Industrial Revolution's engine."
     }
   ],
   "5": [
@@ -175,6 +277,42 @@
       "targetTl": "delhi-sultanate",
       "targetChapter": 6,
       "blurb": "Al-Ghazali's Ihya — the eleventh-century synthesis that made Sufism a normal feature of mainstream Sunni religious life — was the institutional precondition for the Sufi explosion that transformed Indian religious life under the Delhi Sultanate. The Chishti, Suhrawardi, and other Sufi orders that arrived in India with the Ghurid armies and then radiated across the subcontinent were carrying forward exactly the Ghazalian synthesis: legal-jurisprudential observance plus inner experiential mysticism. The Delhi Sultanate's most enduring religious legacy is arguably the Sufi-Bhakti devotional landscape it indirectly produced."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "The Hanafi school that took shape in eighth-century Iraq became the official legal madhhab of the Ottoman state, and under Süleyman \"the Lawgiver\" the empire built an entire bureaucratic legal order on top of it — the sultan's secular kanun decrees running alongside Hanafi sharia, administered by a salaried hierarchy of judges. The most rationalist of the four schools became, centuries later, the law of the largest Sunni empire in history."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Hanafi law followed Turko-Persian conquerors east into India, where Akbar's Mughal court made it the working legal framework of the subcontinent's Muslim administration — even as Akbar himself experimented with religious synthesis that pushed well past anything the jurists imagined. The eastern Caliphate's favored school had become the law of Hindustan."
+    },
+    {
+      "matchText": "Sufism",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The mystical tradition described here did not stay a quiet stream of ascetics. Centuries later in northwestern Iran, a Sufi brotherhood called the Safavid order militarized itself, turned its devotees into a fighting force, and seized a kingdom — the rare case of a Sufi lineage becoming a dynasty and remaking a whole country's religion."
+    },
+    {
+      "matchText": "Sunni-Shia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "The divide that began as a seventh-century succession quarrel and hardened into two jurisprudential traditions during the Golden Age got its sharpest political edge much later: when Shah Ismail conquered Iran around 1500 he forcibly converted a majority-Sunni land to Twelver Shi'ism, drawing the Sunni-Shia line across the map of the Middle East roughly where it still runs."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "The philosopher whose works al-Ghazali attacked and Ibn Rushd defended was a fourth-century-BCE Athenian — Plato's student, Alexander the Great's tutor, founder of the Lyceum. His treatises on logic, metaphysics, and natural philosophy, lost to Latin Europe for centuries, survived in Arabic translation and became the battleground of Islamic philosophy a thousand years after his death."
+    },
+    {
+      "matchText": "al-Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 14,
+      "blurb": "Ibn Rushd — Averroes, \"the Commentator\" — worked at the western edge of the Islamic world, in Muslim Spain, where a Cordoban judge could write the definitive commentaries on Aristotle even as al-Andalus itself slid toward political collapse. His books were burned at home and treasured in Christian Paris a generation later."
     }
   ],
   "6": [
@@ -201,6 +339,18 @@
       "targetTl": "songhai-empire",
       "targetChapter": 5,
       "blurb": "The Sanhaja Berber commercial-religious networks that the Almoravids built into a Saharan empire eventually carried Maliki Islam and trans-Saharan commerce south into the Niger Bend, where they fed the Timbuktu scholarly establishment that the Songhai Empire would patronize three centuries later. Askia Muhammad's Timbuktu Renaissance — the late-medieval flowering of Maliki jurisprudence and Arabic scholarship in the Sahel — was the southernmost extension of the same Maghrebi Islamic intellectual tradition the Almoravids had carried west and south."
+    },
+    {
+      "matchText": "Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Al-Andalus is Muslim Iberia — the slice of Spain and Portugal that stayed under Islamic rule for the better part of eight centuries. It started as a far western province of the Damascus caliphate, then went its own way under the Cordoban Umayyads, and became one of the most cultured corners of the medieval world. Its full rise-and-fall story is told as its own narrative."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "The gold the Almoravids hauled north across the Sahara came largely from the West African empire of Mali. The clearest snapshot of that wealth is Mansa Musa's 1324 pilgrimage to Mecca, when he passed through Cairo handing out so much gold that he reportedly tanked the local price for years. Mali's gold and the trans-Saharan caravan trade were the southern anchor of the same Islamic economy that connected Cordoba, Cairo, and Baghdad."
     }
   ],
   "7": [
@@ -215,6 +365,36 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "The Toledo translation movement was the western counterpart to what the Byzantine encyclopedist Constantine VII was doing at the same moment in Constantinople: systematically collecting, organizing, and preserving the Greek intellectual inheritance. The difference was direction — the Byzantines were preserving Greek texts in Greek, while Toledo was translating Arabic texts (which were often themselves translations from Greek) into Latin. The two projects together kept the Greek intellectual tradition alive in both halves of the medieval Mediterranean."
+    },
+    {
+      "matchText": "Umayyad Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "The Damascus-based caliphate that ruled the whole Muslim world after 661 — and the dynasty whose lone survivor would flee west and rebuild it in Spain. Al-Andalus began as just another far-flung province of this empire."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the great Christian capital on the Bosporus was the only European city that dwarfed Cordoba. The Byzantines held the eastern Mediterranean while the Umayyads built their rival glory in the west."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "The European rebirth of learning that, centuries later, ran substantially on texts preserved, translated, and commented on in Arabic — the long-delayed payoff of Cordoba's libraries and Toledo's translators."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "The eighteenth-century project of grounding knowledge in unaided reason. Ibn Tufayl's desert-island philosopher, translated into Latin in 1671, fed straight into this argument that an uncorrupted mind could derive truth without ecclesiastical authority."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "The Athenian philosopher whose logic and natural science became the shared inheritance of the medieval world. Arabic scholars preserved and expanded him for three centuries before Toledo's translators handed him back to Latin Christendom."
     }
   ],
   "8": [
@@ -247,6 +427,54 @@
       "targetTl": "han-dynasty",
       "targetChapter": 5,
       "blurb": "Abbasid trade reached Tang China by sea and Silk Road — reconnecting the network the Han first opened."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "While Abbasid merchants were unloading Chinese porcelain on the docks of Baghdad and Basra, Tang China was the eastern anchor of the same trade world. Its cosmopolitan capital at Chang'an hosted Arab and Persian merchant colonies, and Tang goods — silk, ceramics, paper — flowed west along the Silk Road and across the Indian Ocean into the Caliphate's markets. The two empires never met directly, but their economies were stitched together by the caravans and dhows in between."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "Song China ran the most commercialized economy on earth in this period — paper money, vast cities, an export ceramics industry — and its porcelain and silk were luxury staples in Abbasid markets. The Chinese goods that reached a ninth-century Baghdad shop had traveled the same Indian Ocean and Silk Road networks the Caliphate's wealth was built on."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "The Persian Gulf was the western mouth of the Indian Ocean trade, the channel through which spices, textiles, and gemstones reached Basra and Baghdad. Centuries later the same Gulf would be the commercial artery of Safavid Persia's silk-and-carpet trade with the wider world — a different dynasty running goods through the same water."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 7,
+      "blurb": "The slaves the Vikings sold east for Abbasid silver were largely captives taken in raids on the Frankish coasts of western Europe. To the Carolingian world, those longship raids were one prong of a triple shock — Vikings, Magyars, Saracens — that battered ninth-century Christendom. The human cargo that ended up in Islamic markets came out of that violence."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 6,
+      "blurb": "The Scandinavian merchants who hauled furs and slaves south for Abbasid dirhams were the heirs of the Vendel-era trading culture that had already built towns and a silver economy in the north. The dirham flood pouring up the Russian rivers transformed a region two thousand miles from Baghdad — silver from Iranian mines reshaping the economy of pre-Viking and Viking Scandinavia."
+    },
+    {
+      "matchText": "Golden Horde",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "By Ibn Battuta's day the steppe north of the Black Sea belonged to the Golden Horde, one of the four khanates the Mongol Empire fractured into. He passed through its territory and the Crimea on his way east — the Islamic traveler crossing the Mongol successor states that now ruled the lands the dirham trade had once flowed through."
+    },
+    {
+      "matchText": "Delhi Sultanate",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 1,
+      "blurb": "When Ibn Battuta reached India he served for years as a judge in the Delhi Sultanate, the Turkic-Muslim power that ruled northern India. It was exactly the kind of place his Maliki legal credentials and Arabic literacy made him instantly employable — a Moroccan scholar walking into a court two oceans from home and being handed a judgeship, proof of how connected the Islamic world had become."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Ibn Battuta's last great journey took him across the Sahara to the Mali Empire, the gold-rich West African state plugged into the Islamic world by the trans-Saharan caravan trade. Mali's gold was one of the redundant revenue streams that kept the Islamic commercial world afloat after the Iranian silver mines gave out — and a Maliki-trained traveler found familiar mosques and scholars even there."
     }
   ],
   "9": [
@@ -291,6 +519,36 @@
       "targetTl": "persian-empire",
       "targetChapter": 8,
       "blurb": "The Seljuk Turks who eclipsed the caliph re-Persianized the east — the Sassanid-style sultanate behind a figurehead caliph."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "While the Khwarezmians were lording it over the eastern Islamic world, a new force was gathering on the steppe. Within a few years of the Otrar massacre, Genghis Khan's armies would tear through Transoxiana and Iran in the single most destructive campaign of the medieval world — the whirlwind that sacked Nishapur, Merv, and eventually Baghdad itself."
+    },
+    {
+      "matchText": "Genghis Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "The Mongol ruler whose merchants the Khwarezmian governor executed at Otrar was no minor steppe chief. Temüjin had spent decades clawing the fractured tribes of Mongolia into a single war machine and taking the title Genghis Khan. The insult at Otrar gave that machine its excuse to turn west."
+    },
+    {
+      "matchText": "Sasanian",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "When Nizam al-Mulk reorganized the Seljuk state 'along Sasanian-Persian lines,' he was reaching back five centuries to the administrative playbook of pre-Islamic Iran. The Sasanian Empire's court bureaucracy, mirror-for-princes literature, and ideas of kingship kept getting recycled by every dynasty that ruled the Iranian plateau — Islamic ones included."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Manzikert cracked open Anatolia to Turkic settlement, and over the next four centuries that highland filled with Turkish Muslim warrior bands. Out of one of those frontier principalities — a small beylik on the Byzantine border — would grow the Ottoman Empire, the most powerful Islamic state of the early modern world. Modern Turkey is, in a real sense, the long aftershock of 1071."
+    },
+    {
+      "matchText": "Carolingian campaigns",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "The last time Western Europe had launched a serious military intervention into the Islamic world was under Charlemagne three centuries before the First Crusade — the Carolingian campaigns along the Spanish March. Charlemagne's Frankish empire was the high-water mark of early-medieval Western power; by 1095 its successors were the knights who took the cross."
     }
   ],
   "10": [
@@ -341,6 +599,60 @@
       "targetTl": "mongol-empire",
       "targetChapter": 3,
       "blurb": "The Mongol sack of Baghdad (1258) — the caliph rolled in a carpet and trampled — is the apocalyptic end of the Abbasid golden age."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "While the Abbasid center at Baghdad lay in ruins, a new Turkish power was quietly forming on the Byzantine frontier in Anatolia — a small warband under a chief named Osman that would grow into the Ottoman Empire. It became one of the great heirs of the Islamic political tradition, eventually claiming the caliphate itself."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "The Ottomans pushed into southeastern Europe within a few generations of their founding, taking the Balkans and turning a frontier raiding state into a Eurasian empire. The Islamic intellectual and religious tradition that had centered on Baghdad found one of its great later homes in Ottoman lands stretching from Anatolia into Christian Europe."
+    },
+    {
+      "matchText": "Safavids",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Persian tradition that survived the Mongols and flourished under the Ilkhanate and Timurids reached its next great state in the Safavids, who from 1501 rebuilt Iran as a unified, Shia kingdom. The Safavid court at Isfahan became one of the most brilliant centers of Persian art, architecture, and scholarship — direct continuation of the culture the Mongols had failed to extinguish."
+    },
+    {
+      "matchText": "Timurids",
+      "targetTl": "timurid-empire",
+      "targetChapter": 1,
+      "blurb": "A century and a half after the sack of Baghdad, the conqueror Timur (Tamerlane) built a new empire across Central Asia and Iran from his capital at Samarkand. The Timurid courts became dazzling patrons of Persian science, painting, and architecture — proof that the Persianate intellectual tradition the Mongols had wounded had not only survived but was producing some of its most spectacular work."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The translation movement that built the Golden Age depended on Greek manuscripts gathered from Byzantine territory — the surviving eastern Roman empire centered on Constantinople, which had kept much of the ancient Greek corpus alive. Scholars like Hunayn ibn Ishaq traveled into Byzantine lands hunting for texts to bring back to Baghdad."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "al-andalus",
+      "targetChapter": 3,
+      "blurb": "Far to the west, the Iberian city of Córdoba had been the capital of a rival Islamic golden age — al-Andalus — whose libraries and scholars rivaled Baghdad's. The Andalusian intellectual tradition kept producing scholarship into the fifteenth century, entirely untouched by the Mongol catastrophe in the east, and it was through Córdoba and Toledo that much of this learning reached Latin Europe."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "The philosopher whose works the Islamic world translated, preserved, and built upon was Aristotle, who had founded his school the Lyceum in fourth-century Athens. His logic, physics, and metaphysics became the backbone of medieval philosophy in both the Islamic and Latin Christian worlds — and Ibn Rushd's commentaries on him were among the most influential ever written."
+    },
+    {
+      "matchText": "Andalusian",
+      "targetTl": "al-andalus",
+      "targetChapter": 16,
+      "blurb": "While Baghdad burned, the Islamic civilization of Iberia carried on. Even after most of al-Andalus had fallen to the Christian kingdoms, the Nasrid emirate of Granada kept the Andalusian scholarly and artistic tradition alive until 1492 — a parallel Islamic high culture in the far west, wholly independent of events in the Mongol east."
+    },
+    {
+      "matchText": "Delhi",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 1,
+      "blurb": "After 1258, Delhi became one of the new self-standing centers of the Islamic intellectual world. The Delhi Sultanate, the Turkic-Muslim power that had ruled northern India since 1206, now hosted its own court culture, scholars, and patronage networks — part of the polycentric Islamic world that replaced the lost unified system centered on Baghdad."
     }
   ]
 }
