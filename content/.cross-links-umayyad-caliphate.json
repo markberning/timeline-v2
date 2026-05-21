@@ -35,6 +35,18 @@
       "targetTl": "gupta-empire",
       "targetChapter": 7,
       "blurb": "The 7th-century world Islam erupted into had just seen Gupta India shattered too — the classical order collapsing on every front."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The Tang Dynasty, founded in 618 (four years before the Hijra), was the great consolidator of the Sui institutional reforms and one of the most powerful states in world history at the time. While Arabia was producing the religion that would conquer the late-antique west, China was producing the empire that would dominate the east. The Tang and the Caliphate expanded toward each other across Eurasia for a century before their armies finally met at Talas in 751."
+    },
+    {
+      "matchText": "Heraclian recovery",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "Heraclius's recovery of Byzantium — the spectacular comeback that defeated the Sasanians at Nineveh in 627 and returned the True Cross to Jerusalem — was the high point of late-antique Roman power and the immediate prelude to its collapse. The war had bankrupted Byzantium and depopulated its eastern provinces; within a decade the Arab armies erupting from Arabia would take everything Heraclius had just recovered."
     }
   ],
   "2": [
@@ -67,6 +79,30 @@
       "targetTl": "persian-empire",
       "targetChapter": 10,
       "blurb": "Within a generation of Muhammad's death the Sassanid Persian Empire would simply cease to exist — absorbed entirely into the Caliphate."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "Byzantium under Heraclius was, during Muhammad's lifetime, simultaneously at the peak of its late-antique recovery and on the verge of catastrophe. The empire's twenty-six-year war with Sasanian Persia had drained both superpowers; the Arab armies Muhammad's successors built would strip Byzantium of Syria, Palestine, and Egypt within a generation of his death in 632."
+    },
+    {
+      "matchText": "Sasanian",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "The Sasanian Persian Empire was, in Muhammad's lifetime, the eastern superpower of the late-antique world — and within twenty years of his death it would simply cease to exist, absorbed entirely into the Caliphate. The Persian cultural and administrative tradition, however, outlived the conquest and would reshape the Abbasid state that replaced the Umayyads."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The early Tang Dynasty in China was the exact eastern contemporary of Muhammad and the Rashidun caliphs — the two great expanding states of seventh-century Eurasia, growing toward each other from opposite ends of the landmass without either fully understanding what the other was. Their trajectories would eventually collide at the Battle of Talas in 751."
+    },
+    {
+      "matchText": "Heraclian recovery",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "Heraclius's recovery of Byzantium — defeating the Sasanians at Nineveh in 627 and returning the True Cross to Jerusalem in 630, the same year Muhammad conquered Mecca — was the high point of late-antique Roman power. The two greatest religious-political accomplishments of 630 happened on opposite sides of the same Arabian frontier; within six years the army Muhammad built would take Syria from the empire Heraclius had just rescued."
     }
   ],
   "3": [
@@ -105,6 +141,18 @@
       "targetTl": "gupta-empire",
       "targetChapter": 8,
       "blurb": "The Arab armies reached the Indus within decades — knocking on the door of the post-Gupta Indian world."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Tang China was the one great late-antique power left intact after the mid-seventh-century reorganization: Persia destroyed by the Arabs, half of Rome taken by the Arabs, India fragmenting — only China continuing to grow. The political geography that emerged was the early-medieval one, dominated in the west by the Caliphate and in the east by the Tang."
+    },
+    {
+      "matchText": "Heraclian collapse",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "The Heraclian collapse — the loss of Syria, Palestine, and Egypt to the Arabs in the decade after 636 — undid everything Heraclius had recovered from the Sasanians and left Byzantium reduced to Anatolia and the Balkans. The aged emperor spent his final years watching the empire he had rescued be dismantled by an enemy nobody in Constantinople had seen coming."
     }
   ],
   "4": [
@@ -137,6 +185,24 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "The Sunni-Shia split born here would, nine centuries on, become the Safavid state religion — the fault line still defining the region."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The Karbala killing in 680 happened during the reign of Empress Wu in Tang China (690–705) — the Tang at its height, exactly contemporary with the Umayyad caliphate's consolidation under Abd al-Malik. Two of the most powerful states of the era were reorganizing their religious-political foundations at the same moment, on opposite ends of Eurasia."
+    },
+    {
+      "matchText": "Heraclian",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "The late Heraclian period in Byzantium — the reign of Justinian II (685–711), just before the Iconoclast century — was contemporary with the Karbala crisis and the early Umayyad consolidation. The Byzantine state had stabilized after the catastrophic seventh-century losses but was about to enter its own century of religious-political upheaval over the use of icons."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "The Ismaili Shia line that split from the Twelvers over the succession to the Sixth Imam eventually produced the Fatimid Caliphate (909–1171), an Ismaili state that conquered Egypt and ruled from Cairo. The Fatimids were one of the major Shia counter-caliphates that emerged in opposition to the Sunni Abbasids and built al-Azhar, still the oldest continuously operating Islamic university in the world."
     }
   ],
   "5": [
@@ -169,6 +235,36 @@
       "targetTl": "maya-civilization",
       "targetChapter": 6,
       "blurb": "The Umayyad century is contemporary with the Maya Postclassic reorganization — two unconnected worlds reshaping at once."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "The Umayyad state at Damascus was, structurally, a Byzantine afterlife under Arab management — run through inherited Greek-speaking civil servants, Roman tax registers, and late-antique urban infrastructure. Abd al-Malik's Arabization reform of the 690s began the long replacement of this Byzantine administrative substrate with Arabic, locking Arabic in as the language of the Middle East."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The early Umayyad period under Abd al-Malik (685–705) was exactly contemporary with Empress Wu's reign in Tang China. Both empires were moving from improvised post-conquest governance toward systematic bureaucratic administration, and both were investing imperial wealth in monumental religious architecture — the Dome of the Rock in Jerusalem, the great Buddhist temples and pagodas of Tang Chang'an — as statements of dynastic legitimacy."
+    },
+    {
+      "matchText": "Late Classic",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "The early Umayyad century overlaps with the Maya Late Classic period in Mesoamerica — the height of Classic Maya city-state civilization, just before the ninth-century collapse of the southern lowland centers. Two unconnected worlds, the Umayyad Mediterranean and the Maya lowlands, were at their respective peaks at the same moment, neither aware the other existed."
+    },
+    {
+      "matchText": "Heraclian convulsion",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "The Heraclian convulsion in Byzantium — the loss of the southern provinces of Syria, Palestine, and Egypt to the Arabs after 636 — left the empire reduced to Anatolia and the Balkans and reorganizing for survival. This was the exact contemporary backdrop to Abd al-Malik's consolidation of the Umayyad state, which was building its monumental religious architecture (the Dome of the Rock, 691) on territory Byzantium had just lost."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Arabic, locked in as the language of the Middle East by Abd al-Malik's Arabization reform, became the vehicle of the Islamic Golden Age that flowered under the Abbasids — the language of the Translation Movement, of Baghdad's House of Wisdom, and of five centuries of philosophical, mathematical, medical, and astronomical scholarship that would later reseed learning in medieval Europe."
     }
   ],
   "6": [
@@ -201,6 +297,36 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "The conquest of Visigothic Spain extinguished the last western-Roman successor kingdom — 711 finishing what 476 began."
+    },
+    {
+      "matchText": "Delhi Sultanate",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 1,
+      "blurb": "Muhammad ibn al-Qasim's 711 conquest of Sind was the first Muslim foothold on the Indian subcontinent. Muslim political power would not become dominant in northern India until the Delhi Sultanate consolidated it in the thirteenth century — five centuries later — but the 711 campaign is the founding moment of Islam in South Asia, the seed of everything that followed."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughal Empire of the sixteenth century would be the high point of Muslim political and cultural power in India, the eventual culmination of a process that began with the Umayyad conquest of Sind in 711. From that first Arab foothold on the lower Indus, Islam would spread across the subcontinent over the following eight centuries and produce, in the Mughals, one of the great empires of the early-modern world."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The Umayyad eastern conquests in Transoxiana pushed the Caliphate's frontier toward the Tang Chinese sphere in Central Asia, with the two empires separated only by the Tian Shan and the Pamirs. Their expansions would finally collide at the Battle of Talas in 751 — a generation later, after the Abbasids had replaced the Umayyads — and Central Asia would be Islamicized rather than Sinicized for the next thousand years."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Tang China and the Umayyad Caliphate were the eastern and western anchors of early-eighth-century Eurasian state power, both at the peak of their expansion and both about to enter structural crisis at almost the same moment — the An Lushan Rebellion nearly destroying the Tang in 755, the Abbasid Revolution destroying the Umayyads in 750."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Al-Andalus — Muslim Spain — would become one of the great cultural centers of the medieval Mediterranean, producing the Great Mosque of Córdoba, the Alhambra, and the philosophical work of Ibn Rushd (Averroes). The Iberian branch of the Islamic Golden Age, running in parallel with the Abbasid east, was one of the principal channels by which Greek and Arabic learning passed into Latin Christendom."
     }
   ],
   "7": [
@@ -245,6 +371,24 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 6,
       "blurb": "The Abbasid revolution that ended the Umayyads recurs as a pattern — the caliphate's legitimacy crisis the Ottomans would one day inherit and claim."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The early Umayyad investment in monumental religious architecture — the Dome of the Rock, the Great Mosque of Damascus — was contemporary with the Tang Dynasty's own architectural ambition under Empress Wu, who built great Buddhist cave temples and Chang'an pagodas in the same period. Both empires were giving the religion that legitimized the state a public architectural face."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Nestorian Christianity expanded eastward into Tang China in exactly the period the Umayyads were codifying the dhimmi system for the Christians, Jews, and Zoroastrians of the Caliphate — the famous Xi'an Stele documenting the Nestorian presence in the Tang capital was erected in 781, just after the Umayyad period. Different empires, different religions, broadly similar problem: how to govern multi-religious populations under one political authority."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 5,
+      "blurb": "The Mu'tazila — the rationalist theologians who emerged late in the Umayyad period — would explode in importance under the early Abbasids, when caliphal patronage briefly made their rationalist creed state doctrine during the mihna inquisition. The intellectual movements seeded in the late Umayyad century (the collection of hadith, the development of fiqh, the rise of kalam theology) became the foundations of the Islamic Golden Age that followed under the Abbasids."
     }
   ],
   "8": [
@@ -277,6 +421,18 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 6,
       "blurb": "The Fatimid Caliphate (909–1171), an Ismaili Shia state that conquered Egypt and ruled from Cairo, was one of the major Shia counter-caliphates that emerged in opposition to the Sunni Abbasids. The Fatimids built al-Azhar in Cairo (founded 970), still the world's oldest continuously operating Islamic university, and patronized one of the great cosmopolitan medieval cultures. The Sunni-Shia geopolitical division that the Karbala killing had institutionalized produced its most successful Shia state experiment in Fatimid Egypt."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Revolution that destroyed the Umayyads in 750 was one element of a larger mid-eighth-century reorganization of the Eurasian state system: in Tang China, the catastrophic An Lushan Rebellion (755–763) nearly destroyed the dynasty in the same years the Abbasids were consolidating power. Both great early-medieval empires entered structural crisis at almost the same moment."
+    },
+    {
+      "matchText": "Tang Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The civilization that emerged from the mid-eighth-century reorganization — Abbasid Baghdad, Tang Chang'an, Byzantine Constantinople, Carolingian Aachen — would shape the early-medieval world. Chang'an, the Tang capital, was the eastern counterpart to the new Abbasid Round City at Baghdad: the two greatest cities of the eighth-century world, anchoring the eastern and western halves of Eurasia."
     }
   ]
 }
