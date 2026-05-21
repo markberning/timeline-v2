@@ -10,15 +10,15 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-18 (end of session; read this FIRST)
 
-> **⏸ PAUSED until 2026-05-21 10:05 AM America/Los_Angeles, then a SCHEDULED
-> ROUTINE auto-resumes (user-set 2026-05-19).** A recurring daily cron agent
-> takes over on/after that moment and runs the corpus programs batch-by-batch
-> in the locked order: **#7 link-coverage sweep to completion FIRST, then #19
-> chapter-intro retrofit.** Until 2026-05-21 10:05 PT: **do NOT launch any
-> sweep/intro agents** (autonomy memories' "just keep going" is overridden by
-> this pause). On/after it: the routine follows "▶ SCHEDULED-RUN PLAYBOOK"
-> below — that is the canonical automated entrypoint, not "NEXT SESSION START
-> HERE" (which it incorporates). Clean stop still holds; nothing else changed.
+> **▶ SCHEDULE STOPPED BY USER 2026-05-21 10:04 PT.** The recurring routine
+> (`trig_013gYpKAMEdBVBAhpu1HwaGd`) was **disabled** (`enabled:false`) one
+> minute before its first real fire — it never ran a real batch (the 05-20
+> fire was a date-guard no-op). The corpus programs (#7 link sweep, #19 intro
+> retrofit) are now to be run **interactively/live in a session**, not by the
+> cron. The "▶ SCHEDULED-RUN PLAYBOOK" below is retained as the per-batch
+> procedure but is no longer auto-triggered. To re-arm the routine: re-enable
+> at claude.ai/code/routines or via the `schedule` skill. **Order still
+> locked: #7 to completion FIRST, then #19.** No agents running; clean stop.
 
 **Git:** `main` == `origin/main` @ `c35d99e`, clean tree, **no agents
 running** (clean stop). Single worktree (`main`), single local branch.
