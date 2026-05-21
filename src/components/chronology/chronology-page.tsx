@@ -68,7 +68,7 @@ export function ChronologyPage() {
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="flex flex-col h-dvh bg-background text-foreground">
+    <div className="flex flex-col flex-1 min-h-0 bg-background text-foreground">
       <ChronologyHeader isDesktop={isDesktop} ribbonMode={ribbonMode} onRibbonModeChange={setRibbonMode} onSearchOpen={() => setSearchOpen(true)} />
       <CivIconsStrip />
 
