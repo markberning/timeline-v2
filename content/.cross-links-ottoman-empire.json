@@ -47,6 +47,66 @@
       "targetTl": "mongol-empire",
       "targetChapter": 7,
       "blurb": "The Anatolian frontier the Ottomans exploited had been smashed open by the Mongols — the beyliks filled the vacuum the Ilkhanate left."
+    },
+    {
+      "matchText": "Sufi",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 5,
+      "blurb": "Sufism — Islam's mystical tradition of orders, lodges and saints — took shape in the Abbasid Golden Age; the heterodox dervish networks of the Anatolian frontier that gave the early Ottomans their religious legitimacy descend from it."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Persia-based Mongol Ilkhanate that shattered Seljuk power in Anatolia would later be the same Iranian world the Safavids rebuilt into the Ottomans' great Shia rival."
+    },
+    {
+      "matchText": "Kublai Khan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "Kublai Khan, Genghis's grandson, founded the Yuan dynasty in China; Marco Polo was at his court while Osman was raiding Bithynia — the Ottoman beylik was a backwater compared to the Mongol world-system."
+    },
+    {
+      "matchText": "Yuan dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Yuan dynasty, the Mongol regime ruling China, was at its peak during Osman's lifetime — one measure of how marginal the early Ottoman beylik was on the Eurasian stage."
+    },
+    {
+      "matchText": "Mamluk Sultanate",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Mamluk Sultanate of Egypt — the slave-soldier state that stopped the Mongols at Ayn Jalut in 1260 — was the dominant Sunni power of the Mediterranean world; the early Ottomans were a frontier afterthought beside it."
+    },
+    {
+      "matchText": "Ghazan Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Ghazan Khan, the Ilkhanid ruler who converted the Persia-based Mongol khanate to Islam in 1295, governed the very Mongol successor state whose collapse opened the Anatolian frontier Osman exploited."
+    },
+    {
+      "matchText": "Magna Carta",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 4,
+      "blurb": "Magna Carta, the 1215 English charter limiting royal power, had been signed forty years before Osman's rise — a reminder of how much was happening in a thirteenth century where the Ottoman beylik barely registered."
+    },
+    {
+      "matchText": "Song dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "The Song dynasty of China had recently fallen to Kublai's Mongols during Osman's last years — one of the era's great political extinctions, dwarfing the obscure Anatolian frontier."
+    },
+    {
+      "matchText": "Ayn Jalut",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "At Ayn Jalut in 1260 the Mamluks halted the Mongol advance into Syria and Egypt — the battle that preserved the Sunni Mediterranean order the early Ottomans were eventually born into."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "The \"Latin occupation\" was the period 1204–1261 when crusaders held Constantinople and the Byzantine government ran from Nicaea — the catastrophe that left the empire Osman gnawed at a fraction of its former self."
     }
   ],
   "2": [
@@ -85,6 +145,90 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "The Ottomans would claim the Roman mantle (Kayser-i Rum) — Constantine's city passing, after eleven centuries, to a new 'Caesar.'"
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "The Mongols had broken the Sultanate of Rum at Köse Dağ in 1243 the way the Ottomans now broke the Balkan kingdoms — a comparison the chapter draws explicitly."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Constantinople — the Byzantine capital Murad I's armies were steadily encircling — was by the 1360s a shrunken city ruling little beyond its own walls and a strip of Thrace."
+    },
+    {
+      "matchText": "Manzikert",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Nicopolis was the worst Christian defeat against the Ottomans since Manzikert in 1071 — the Byzantine catastrophe that had first opened Anatolia to Turkic settlement."
+    },
+    {
+      "matchText": "Mamluk Sultanate",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Mamluk Sultanate of Egypt, which had stopped the Mongols at Ayn Jalut, remained the senior Sunni power while the Ottomans were still absorbing the Balkans."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "At the moment of Nicopolis the Ming dynasty was in its first generation under the Hongwu Emperor — one of several expanding powers the Ottoman Empire was a peer of by 1400."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 6,
+      "blurb": "The Mali Empire of West Africa was past its peak under Mansa Musa's distant successors when Bayezid I crushed the Nicopolis crusade."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 5,
+      "blurb": "Mansa Musa, whose legendary pilgrimage had made Mali a byword for gold, was generations dead by the time the Ottomans were the terror of Christian Europe."
+    },
+    {
+      "matchText": "Aztec Triple Alliance",
+      "targetTl": "aztec-empire",
+      "targetChapter": 2,
+      "blurb": "The Aztec Triple Alliance in central Mexico was just consolidating, Tenochtitlan founded only seventy years earlier, as the Ottoman Empire reached its first imperial peak under Bayezid I."
+    },
+    {
+      "matchText": "Timur",
+      "targetTl": "timurid-empire",
+      "targetChapter": 4,
+      "blurb": "Timur — finishing his campaigns through Persia and India around 1400 — was the conqueror who would, two years later, briefly erase the Ottoman state entirely at Ankara."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Timur was campaigning through Persia and India in the 1390s — the Iranian world that would, a century on, produce the Safavid counter-empire to the Ottomans."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "The Hundred Years' War between England and France was in a quiet phase between Crécy and Agincourt as Bayezid I built the largest, most aggressive of the world's expanding powers."
+    },
+    {
+      "matchText": "Hongwu Emperor",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Hongwu Emperor, founder of the Ming, was establishing the dynasty that would be East Asia's great power for the next three centuries, exactly as the Ottomans consolidated their Balkan empire."
+    },
+    {
+      "matchText": "Ming dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ming dynasty was in its first generation under the Hongwu Emperor at the moment of Nicopolis — a parallel imperial founding to the Ottomans' own."
+    },
+    {
+      "matchText": "Joseon dynasty",
+      "targetTl": "joseon-korea",
+      "targetChapter": 1,
+      "blurb": "Korea was entering the Joseon dynasty in 1392, four years before Nicopolis — another of the new dynastic orders consolidating across Eurasia as the Ottomans peaked."
     }
   ],
   "3": [
@@ -117,6 +261,108 @@
       "targetTl": "mongol-empire",
       "targetChapter": 9,
       "blurb": "Timur's catastrophe at Ankara (1402) — a Mongol-tradition conqueror capturing Bayezid — nearly ended the Ottoman project in its cradle."
+    },
+    {
+      "matchText": "Timur",
+      "targetTl": "timurid-empire",
+      "targetChapter": 1,
+      "blurb": "Timur — known in Europe as Tamerlane — built the largest Eurasian empire outside the Ming from his capital at Samarkand; his 1402 turn on Anatolia is the worst catastrophe in Ottoman history."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Timur rebuilt a Mongol-style empire across the Iranian world — the Persia that, a century later, the Safavids would forge into the Ottomans' permanent eastern rival."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Timur conquered much of Mesopotamia — the Tigris–Euphrates land whose ancient cities had been the cradle of civilization and would later be an Ottoman province."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Timur ruled the largest single state in Eurasia outside the Ming dynasty; he died in 1405 while preparing to invade Ming China."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Bayezid lifted his blockade of Constantinople to face Timur — the Byzantine capital would have fallen within a year had he kept it up, and its final fall was merely postponed half a century."
+    },
+    {
+      "matchText": "Timurid",
+      "targetTl": "timurid-empire",
+      "targetChapter": 5,
+      "blurb": "Timur's death left a Timurid succession war that consumed his own empire — the dynasty whose Herat renaissance and astronomer-kings are the subject of the Timurid story."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "Timur died in 1405 marching on Ming China; the Ming would instead spend the century consolidating and dispatching Zheng He's fleets while the Ottomans clawed back from Ankara."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Musa allied with Wallachian and Byzantine forces during the Interregnum — the shrunken Palaiologan Byzantium was now reduced to playing kingmaker among feuding Ottoman princes."
+    },
+    {
+      "matchText": "Sufi",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 5,
+      "blurb": "The Sheikh Bedreddin uprising drew on heterodox Sufi networks — the mystical tradition systematized in the Islamic Golden Age that repeatedly fed Anatolian social-religious revolt."
+    },
+    {
+      "matchText": "Sufism",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 5,
+      "blurb": "Bedreddin combined heterodox Sufism with peasant grievance — a recurring fusion in the Islamic world whose mystical orders crystallized in the Abbasid Golden Age."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Ming dispatched Admiral Zheng He's treasure fleets into the Indian Ocean from 1405 — the same year Timur died — projecting Chinese power as the Ottomans rebuilt from collapse."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "The Inca Empire was beginning its great Andean expansion under Pachacuti's father exactly as the Ottomans recovered from the Interregnum."
+    },
+    {
+      "matchText": "Pachacuti",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Pachacuti, who would forge the Inca into South America's great empire, was a generation away as Mehmed I reunited the shattered Ottoman state."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "In the central Andes the Inca were starting the expansion that built the largest empire of the pre-Columbian Americas, parallel to the Ottoman fifteenth-century recovery."
+    },
+    {
+      "matchText": "Aztec Triple Alliance",
+      "targetTl": "aztec-empire",
+      "targetChapter": 3,
+      "blurb": "The Aztec Triple Alliance was about to launch its great imperial expansion under the first Moctezuma — one of several Eurasian and American consolidations contemporary with the Ottoman comeback."
+    },
+    {
+      "matchText": "Mehmed II",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "By 1453 Mehmed II would wield the artillery park his grandfather Murad II had begun developing against the Theodosian Walls — the engine of Constantinople's fall."
+    },
+    {
+      "matchText": "Zheng He",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Admiral Zheng He's first treasure-fleet voyage left the Yangtze the same year Timur died, 1405 — the Ming projecting maritime power as the Ottomans fought their civil war."
     }
   ],
   "4": [
@@ -155,6 +401,54 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 11,
       "blurb": "1453: Mehmed II's cannon breaches the Theodosian Walls — the end of the Roman Empire and the hinge of this whole story."
+    },
+    {
+      "matchText": "Venice",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 5,
+      "blurb": "Venice — the Italian maritime republic whose Aegean and Adriatic empire Mehmed II spent two decades dismembering — was at its Renaissance commercial height even as it lost the eastern Mediterranean."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "The Hundred Years' War between England and France ended in October 1453, the same year Constantinople fell — a coincidence that bookends the conventional end of the European Middle Ages."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 7,
+      "blurb": "In 1453 the Ming dynasty under the Jingtai emperor was recovering from the Tumu Crisis of 1449 — one of several great political dramas of the 1450s, alongside the Ottoman conquest."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "The Inca Empire was beginning its great Andean expansion under Pachacuti in the 1450s, the same decade Mehmed II took Constantinople."
+    },
+    {
+      "matchText": "Pachacuti",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Pachacuti was launching the Inca imperial expansion in the central Andes precisely as Mehmed II remade the eastern Mediterranean."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "In the Andes the Inca expansion under Pachacuti was a parallel mid-fifteenth-century empire-building to Mehmed II's, on the far side of the world."
+    },
+    {
+      "matchText": "Aztec",
+      "targetTl": "aztec-empire",
+      "targetChapter": 3,
+      "blurb": "Moctezuma I was presiding over a major expansion of the Aztec Triple Alliance in the 1450s — one of the parallel imperial consolidations contemporary with Mehmed II's conquest."
+    },
+    {
+      "matchText": "Ming dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 7,
+      "blurb": "The Ming dynasty under the Jingtai emperor was recovering from the 1449 Tumu Crisis as Mehmed II conquered Constantinople — global politics of the 1450s running in parallel."
     }
   ],
   "5": [
@@ -211,6 +505,90 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 2,
       "blurb": "The Ottomans consciously inherited Byzantine statecraft — ceremonial, taxation, the church-state fusion — Justinian's machine under a sultan."
+    },
+    {
+      "matchText": "Mehmed II",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Mehmed II — the conqueror of Constantinople whose institutional and military inheritance Selim and Süleyman built on — had remade the Ottoman state into a world empire just decades earlier."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "The Safavid Empire of Persia, founded in 1501 by Shah Ismail on militant Twelver Shi'ism, was the new force whose challenge defined Selim I's reign and the entire Ottoman eastern frontier."
+    },
+    {
+      "matchText": "Tahmasp I",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "Shah Tahmasp I rebuilt the Safavid army shattered at Chaldiran and used scorched-earth retreat to deny Süleyman a decisive victory — the Persian side of the long Ottoman-Safavid wars."
+    },
+    {
+      "matchText": "Shah Tahmasp",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "The long recovery of Safavid power under Shah Tahmasp, after the trauma of Chaldiran and the loss of Tabriz, is the Persian counterpart to Süleyman's eastern campaigns."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "mughal-empire",
+      "targetChapter": 5,
+      "blurb": "Portuguese voyages around the Cape of Good Hope had opened an Indian Ocean route bypassing the Egyptian spice trade — the maritime world the Mughals' India also faced as Europe arrived."
+    },
+    {
+      "matchText": "Ayn Jalut",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Mamluks had defeated the Mongols at Ayn Jalut in 1260 and ruled the eastern Mediterranean for two and a half centuries until Selim I destroyed them."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Egypt's grain fed Istanbul's growing population just as it had fed Constantinople's a millennium earlier — the same fiscal role under a new empire."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Tigris-Euphrates valleys had been the heart of the Islamic world under the Abbasid Caliphate; Süleyman's 1534 conquest of Baghdad placed the old caliphal capital under Ottoman rule."
+    },
+    {
+      "matchText": "Habsburg",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 8,
+      "blurb": "The Habsburgs — whose Hungarian and Austrian lands Süleyman repeatedly campaigned against, twice reaching Vienna — were the great Christian dynastic rival of Ottoman power in central Europe."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Süleyman's conquest of Baghdad brought all of Mesopotamia — the ancient land between the Tigris and Euphrates — under Ottoman control."
+    },
+    {
+      "matchText": "Justinian",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Sinan faced the same structural problem Justinian's architects Anthemius and Isidore had solved at Hagia Sophia ten centuries earlier — the great dome over a square interior."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Hagia Sophia, Justinian's sixth-century masterpiece, was the structural ancestor of every Ottoman imperial mosque Sinan refined and surpassed."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Akbar the Great of the Mughal Empire — the Persian-Mongol-descended dynasty in India — was beginning his major reign the year Süleyman died, one of the early-modern world's great consolidations."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Ottoman fleets repeatedly tried to expel the Portuguese from the Red Sea and Persian Gulf — the maritime margin of the Safavid world and the Indian Ocean trade."
     }
   ],
   "6": [
@@ -249,6 +627,60 @@
       "targetTl": "safavid-persia",
       "targetChapter": 4,
       "blurb": "The Janissary-and-devshirme machine was honed in the long Ottoman-Safavid wars — two gunpowder empires shaping each other across the Iranian frontier."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "The Janissaries were the units that took Constantinople in 1453 — the defining Ottoman military feat against the last Roman capital."
+    },
+    {
+      "matchText": "Marj Dabiq",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "At Marj Dabiq the Janissaries' gunpowder broke the Mamluk Sultanate — the slave-soldier state that had itself stopped the Mongols at Ayn Jalut."
+    },
+    {
+      "matchText": "Chaldiran",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "The Janissaries' victory at Chaldiran in 1514 halted Safavid expansion into Anatolia and froze the Sunni-Shi'a frontier for centuries."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "The Ottoman slave-soldier logic was Byzantine, Mamluk, and Abbasid — the Abbasid caliphs had pioneered the personally-loyal military slave (the ghulam/mamluk) centuries earlier."
+    },
+    {
+      "matchText": "Safavid Empire",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "The Safavid Empire independently built the same slave-soldier solution under Shah Abbas I — a ghulam corps from Caucasus boys — showing a shared early-modern Islamic answer to the loyal-army problem."
+    },
+    {
+      "matchText": "Mehmed II",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Mehmed II established the Enderun palace school around 1455 and appointed Patriarch Gennadios II head of the Greek Orthodox community in 1454 — the institutional foundations of the millet system."
+    },
+    {
+      "matchText": "Greek Orthodox",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "The Rum millet — the Greek Orthodox community under the Patriarch of Constantinople — was the Ottoman continuation of the Byzantine Orthodox church's structure and self-identification as \"Romans.\""
+    },
+    {
+      "matchText": "Sufi",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 5,
+      "blurb": "The Bektashi order — the syncretic Sufi brotherhood that was the Janissaries' spiritual home — descended from the mystical traditions formalized in the Islamic Golden Age."
+    },
+    {
+      "matchText": "Sufism",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 5,
+      "blurb": "Bektashi theology drew on Sufism, Twelver Shi'ism and folk tradition — the heterodox mystical current that ran through Ottoman religious life from the Golden Age onward."
     }
   ],
   "7": [
@@ -299,6 +731,84 @@
       "targetTl": "safavid-persia",
       "targetChapter": 7,
       "blurb": "The 'Sultanate of Women' and harem politics parallel contemporary Safavid court intrigue — both gunpowder empires turning inward."
+    },
+    {
+      "matchText": "Mehmed II",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "The fratricide law Mehmed II codified in 1477 — the legal basis for executing a new sultan's brothers — was the institutional backdrop the Cage system replaced."
+    },
+    {
+      "matchText": "Safavid Empire",
+      "targetTl": "safavid-persia",
+      "targetChapter": 7,
+      "blurb": "The Safavid Empire fell into the same trap almost simultaneously — Shah Abbas confining his heirs inside the Isfahan palace, producing a generation of princes with no administrative experience."
+    },
+    {
+      "matchText": "Shah Abbas the Great",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Shah Abbas the Great's decision to cage his sons in the Isfahan palace mirrored the Ottoman Kafes — a shared early-modern Islamic dynastic pathology."
+    },
+    {
+      "matchText": "Habsburg",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 8,
+      "blurb": "The Long Turkish War with the Habsburgs (1593–1606) was the first major Ottoman conflict in which the empire's military edge over the Habsburg armies had clearly disappeared."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Ahmed I's Blue Mosque was deliberately built directly opposite Hagia Sophia — a paired architectural statement on the site of the Byzantine Great Palace."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Murad IV took Baghdad back from the Safavids in 1638, reversing Shah Abbas I's 1623 capture — a rare late-Ottoman offensive success on the Persian frontier."
+    },
+    {
+      "matchText": "Thirty Years' War",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 8,
+      "blurb": "The seventeenth-century Ottoman period of court-based bureaucratic rule ran parallel to the Thirty Years' War that was convulsing central Europe."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Manchu conquest of Ming China and founding of the Qing (1644 onward) was contemporary with the Köprülü rescue of the drifting Ottoman state."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "The fall of Ming China to the Manchus was one of the great seventeenth-century political ruptures, parallel to the Ottoman court crisis the Köprülüs resolved."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The founding of the Qing dynasty in 1644 coincided with the Ottoman seventeenth-century governance crisis — both Eurasian giants reordering at once."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 6,
+      "blurb": "The Mughal Empire's peak under Aurangzeb after 1658 was contemporary with the Köprülü era — two great Islamic empires at very different points in their arcs."
+    },
+    {
+      "matchText": "Manchu conquest",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Manchu conquest that founded the Qing dynasty is the East Asian counterpart to the seventeenth-century convulsions the Ottoman court survived."
+    },
+    {
+      "matchText": "Qing dynasty",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Qing dynasty's founding in 1644 was one of the era's great state transformations, running alongside the Ottoman court-based seventeenth century."
     }
   ],
   "8": [
@@ -325,6 +835,36 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 11,
       "blurb": "The Westphalian sovereign state system — which the Ottomans were being forced to operate within after Karlowitz — was the European political innovation that most directly challenged Ottoman multi-ethnic imperial governance. Byzantium had operated within the older Roman imperial universalism; the Ottoman successors faced a world that had replaced universalism with state sovereignty, and the millet system was incompatible with the new framework."
+    },
+    {
+      "matchText": "Habsburg",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 8,
+      "blurb": "Ottoman armies could still defeat most non-Habsburg European forces well into the eighteenth century; it was the Habsburg military-fiscal transformation the Ottomans could not match."
+    },
+    {
+      "matchText": "Venice",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 5,
+      "blurb": "Venice was part of the Holy League that broke the 1683 Vienna siege and recovered most of the Peloponnese in the Great Turkish War."
+    },
+    {
+      "matchText": "Peter the Great",
+      "targetTl": "russian-empire",
+      "targetChapter": 3,
+      "blurb": "Russian forces under Peter the Great's predecessors began pushing south against the Crimean Tatars and the Black Sea provinces during the Great Turkish War — the start of the long Russian pressure on the Ottoman north."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 7,
+      "blurb": "Ahmed III's planned campaign against Persia — the war taxes that helped trigger the Patrona Halil revolt — came as the Safavid state was itself collapsing under the Afghans."
+    },
+    {
+      "matchText": "Thirty Years' War",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 8,
+      "blurb": "The Westphalian state system that emerged after the Thirty Years' War was being extended to the Ottoman frontier at Karlowitz — treaty-bound diplomacy replacing conquest."
     }
   ],
   "9": [
@@ -363,6 +903,60 @@
       "targetTl": "russian-empire",
       "targetChapter": 13,
       "blurb": "Watch where this clause leads. The Russian Empire narrative shows Nicholas I invoking this exact provision from the 1774 treaty as the pretext for the Crimean War in 1853 — the claim to protect Orthodox access to the holy sites of Jerusalem. The 'recurring observation' the Ottoman side makes here becomes, in the Russian telling, the lever that detonated the war that exposed Russia's own backwardness."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "The Janissary corps was the institution that had taken Constantinople in 1453 — the very elite Mahmud II annihilated in 1826 to clear the path for modernization."
+    },
+    {
+      "matchText": "Mamluks",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Janissaries had defeated the Mamluks — the slave-soldier state that stopped the Mongols at Ayn Jalut — at the height of Ottoman power, three centuries before their own destruction."
+    },
+    {
+      "matchText": "Muhammad Ali",
+      "targetTl": "safavid-persia",
+      "targetChapter": 5,
+      "blurb": "Mehmed Ali Pasha built Egypt into the most modernized province of the empire and nearly toppled the Ottoman state itself in the Egyptian Crisis — a parallel modernizing autocrat to those reshaping Persia."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Ibrahim Pasha's capture of Damascus and Aleppo in 1832 put the great old Islamic cities of the Levant briefly under Egyptian rather than Ottoman rule."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "Mahmud II's reforms were contemporary with the British Industrial Revolution entering its second phase — the economic transformation that widened the gap the Ottomans were trying to close."
+    },
+    {
+      "matchText": "Qajar Dynasty",
+      "targetTl": "safavid-persia",
+      "targetChapter": 8,
+      "blurb": "Mahmud II's modernization paralleled similar programs under the early Qajars in Iran — the dynasty that succeeded the Safavids and faced the same European pressure."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 8,
+      "blurb": "The late Mughal Empire was falling under increasing British control while the Ottomans modernized — two great Islamic empires on diverging paths under European pressure."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 8,
+      "blurb": "Persia under the early Qajars was running a parallel institutional modernization to Mahmud II's — one variant of a global early-modern state-modernization pattern."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 9,
+      "blurb": "China under the late Qing was attempting the same adaptation to European institutional and military pressure as the Ottomans — partially succeeding, partially not."
     }
   ],
   "10": [
@@ -413,6 +1007,60 @@
       "targetTl": "russian-empire",
       "targetChapter": 15,
       "blurb": "The Russian Empire narrative does not give this war its own chapter — it falls in the gap of the early 1880s — but the Russian side belongs to the post-Emancipation generation. The 1877–78 war was a real military achievement under Alexander II, won by the army the Great Reforms had rebuilt, and it ran alongside the revolutionary climate this stretch of the Russian story tracks: a foreign victory that distracted from, and ultimately could not substitute for, internal reform."
+    },
+    {
+      "matchText": "Mehmed II",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "The European Ottoman empire built by Murad I, Bayezid I and Mehmed II between the 1360s and 1450s was, by 1878, a few decades from complete dissolution."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "The Hijaz Railway ran from Damascus — the old Umayyad and Abbasid metropolis — south toward the holy cities, projecting late-Ottoman state power into Arabia."
+    },
+    {
+      "matchText": "Self-Strengthening Movement",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 9,
+      "blurb": "The Self-Strengthening Movement in late Qing China was a parallel non-Western response to European industrial-imperial pressure — partial modernization that left the state weakened but surviving."
+    },
+    {
+      "matchText": "American Civil War",
+      "targetTl": "antebellum-america",
+      "targetChapter": 18,
+      "blurb": "The American Civil War and Reconstruction were contemporary with the Tanzimat — one of the global mid-nineteenth-century state reorderings against which the Ottoman reforms ran."
+    },
+    {
+      "matchText": "Reconstruction",
+      "targetTl": "reconstruction",
+      "targetChapter": 1,
+      "blurb": "The post-Civil-War Reconstruction era in the United States ran parallel to the Ottoman Tanzimat — both states rebuilding institutions and citizenship under strain."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "The late stages of the Industrial Revolution were widening the economic gap the Tanzimat reforms could not close fast enough."
+    },
+    {
+      "matchText": "Meiji Japan",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meiji Japan produced the era's one fully successful non-Western modernization, retaining full sovereignty — the benchmark against which the partial Ottoman reforms are measured."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 9,
+      "blurb": "China under the late Qing fell, like the Ottomans, into the category of partial modernization — weakened but surviving under European pressure."
+    },
+    {
+      "matchText": "Sephardic Jewish",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Salonika's Sephardic Jewish majority traced to the refugees Bayezid II welcomed after 1492 — a community whose Iberian Jewish heritage runs back through the Islamic Golden Age of al-Andalus."
     }
   ],
   "11": [
@@ -445,6 +1093,60 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 9,
       "blurb": "The empire's WWI dismemberment echoes 1204 — Constantinople and its hinterland carved up by outside powers, this time terminally."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Constantinople had been the Ottoman working capital since Mehmed II took it from Byzantium in 1453; Edirne, lost and recovered in the Balkan Wars, had been the capital before it."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "The British pushed up the Tigris-Euphrates valley and by war's end held all of Mesopotamia — the ancient land that had been an Ottoman province for four centuries."
+    },
+    {
+      "matchText": "Hamidian Massacres",
+      "targetTl": "ancient-israel",
+      "targetChapter": 1,
+      "blurb": "The institutional precedent of the Hamidian Massacres of 1894–1896 was extended catastrophically into the Armenian Genocide — a continuity of state-directed mass violence."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 20,
+      "blurb": "The Russian Empire's collapse in 1917 ended the Caucasus war effort and briefly opened lost territories to Ottoman reconquest before German support evaporated."
+    },
+    {
+      "matchText": "Latin Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "The Allied occupation of Istanbul in 1918 was the first foreign military occupation of the city since the Latin Empire of 1204–1261 — a seven-century echo."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "1922, the year the Ottoman sultanate was abolished, was also the year the Soviet Union was formally established — one of four post-WWI multi-ethnic imperial dissolutions."
+    },
+    {
+      "matchText": "Habsburg",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 8,
+      "blurb": "The post-WWI dissolution of the Ottoman, Habsburg, German and Russian multi-ethnic empires created the modern political geography of the Middle East and central Europe in one concentrated period."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Baghdad — the old Abbasid caliphal capital and a four-century Ottoman provincial city — fell to the British in March 1917."
+    },
+    {
+      "matchText": "Selim I",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "The split of Caliph from Sultan in 1922 reversed the institutional fusion Selim I had claimed in 1517 after destroying the Mamluks and the Safavid frontier war began."
     }
   ],
   "12": [
@@ -483,6 +1185,96 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
       "blurb": "What endured — the Roman idea, Istanbul, the imperial-administrative DNA — closes the circle the Byzantine story opened."
+    },
+    {
+      "matchText": "Meiji Japan",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The Republican cultural rupture was more thoroughgoing than the parallel modernizations in Meiji Japan, post-Tsarist Russia or post-imperial China — each retaining more continuity with its pre-modern past."
+    },
+    {
+      "matchText": "Janissary",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Janissary band music — the mehter — was the precursor of the European military marching-band tradition, one strand of the Ottoman cultural inheritance that outlived the empire's institutions."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "The architecture of Damascus, Aleppo, Cairo and Baghdad preserved Ottoman building traditions extensively — the empire's aesthetic outlived its politics across the old Islamic heartland."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Baghdad — the Abbasid caliphal capital that became a four-century Ottoman province — kept its Ottoman architectural and waqf institutions long after the empire fell."
+    },
+    {
+      "matchText": "Abdülhamid II",
+      "targetTl": "safavid-persia",
+      "targetChapter": 5,
+      "blurb": "The Hijaz Railway, built under Abdülhamid II, continued to operate in modified form for decades after the empire's collapse — one of the most durable late-Ottoman engineering legacies."
+    },
+    {
+      "matchText": "Chaldiran",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "The Sunni-Shi'a religious geography of the modern Middle East was shaped by the Ottoman-Safavid rivalry that began at Chaldiran in 1514 and is recognizable in today's sectarian politics."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "The Ottoman Empire was the institutional successor to Byzantium — taking over Constantinople and the surviving Roman administrative apparatus of the eastern Mediterranean."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "The Roman Empire that had refused to die for eleven hundred years as Byzantium finally received, in the Ottomans, an institutional successor that in some respects continued its role."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ottoman six centuries overlap the Yuan, Ming and Qing dynasties of China — the empire was a contemporary of the entire late-imperial Chinese arc."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ottoman span overlaps the Ming dynasty of China in full — two of the great early-modern imperial continuities running in parallel."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ottoman Empire's final centuries overlap the entire Qing dynasty — both multi-ethnic empires dissolving within a few years of each other in the early twentieth century."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Ottoman six centuries overlap the Safavid and Qajar dynasties of Persia — the Iranian world that was the Ottomans' permanent eastern counterpart."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 1,
+      "blurb": "Only the Russian Empire had comparable longevity among early-modern empires — the other great heir of Byzantium, claiming the Third Rome as the Ottomans claimed Kayser-i Rûm."
+    },
+    {
+      "matchText": "Abbasids",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "The Sunni Caliphate passed from the Abbasids to the Mamluks to the Ottomans — a chain of formal continuity the Republic finally broke in 1924."
+    },
+    {
+      "matchText": "Mamluks",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "The Mamluks held the shadow Caliphate after the Mongols sacked Baghdad in 1258, until Selim I took it to Istanbul in 1517."
     }
   ]
 }
