@@ -8,7 +8,7 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ---
 
-## ▶ COLD-START HANDOFF — 2026-05-18 (end of session; read this FIRST)
+## ▶ COLD-START HANDOFF — 2026-05-21 (read this FIRST)
 
 > **▶ SCHEDULE STOPPED BY USER 2026-05-21 10:04 PT.** The recurring routine
 > (`trig_013gYpKAMEdBVBAhpu1HwaGd`) was **disabled** (`enabled:false`) one
@@ -20,43 +20,60 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 > at claude.ai/code/routines or via the `schedule` skill. **Order still
 > locked: #7 to completion FIRST, then #19.** No agents running; clean stop.
 
-**Git:** `main` == `origin/main` @ `c35d99e`, clean tree, **no agents
-running** (clean stop). Single worktree (`main`), single local branch.
+**Git:** `main` == `origin/main`, clean tree, **no agents running**, single
+worktree (`main`). **Remote Control is ON + persistent** (user can monitor/
+steer this session from phone / claude.ai/code).
 
-**THE ACTIVE PROGRAM is the full link-coverage sweep (backlog #7) — see
-the "▶ ACTIVE PROGRAM" section below for the authoritative detail; this is
-a summary.** User lifted the #7 deferral and chose the full legacy sweep.
+**▶ THE TASK FOR THIS SESSION (user-authorized 2026-05-21): run BOTH corpus
+programs LIVE, in order #7 then #19, batch by batch, deploying as we go.**
+The user stopped the scheduled routine specifically to drive this live (not
+unattended). This IS the heavy-usage run; the weekly budget reset 2026-05-21
+and the user is ready. Standing order: "run both as you suggest" → keep going
+batch after batch until a gate genuinely fails or the user says stop;
+checkpoint with the user after the first batch or two for sanity. Fail-closed
+always — a failing civ is reverted + skipped, never pushed.
 
-**Where the sweep stands (end of day):** Phase 1 + Batch 1 = **6 civs
-swept, verified, committed, pushed — 2,533 worklist GATE gaps closed:**
-goryeo-korea `eddea55`, uyghur-steppe `dfc42cd`, renaissance-italy
-`8d2d78a`, byzantine-empire `1efa3c5`, islamic-golden-age `c9f35c1`,
-delhi-sultanate `93d7e3f`. **ottoman-empire is PARKED** (rejected: its
-agent admitted waiving Süleyman/Janissaries as civ-self-reference).
-~94 legacy civs remain. The process is proven + de-risked at the worst-5
-scale; nothing reader-facing changed adversely (build/deploy don't run
-link-coverage).
+**THE PLAN (live version of the playbook — this session CAN deploy, unlike
+the disabled remote routine):**
+1. **#7 link-coverage sweep — RESUME.** 6 civs already done + pushed
+   (goryeo-korea, uyghur-steppe, renaissance-italy, byzantine-empire,
+   islamic-golden-age, delhi-sultanate; 2,533 GATE gaps closed). **Start with
+   ottoman-empire** (PARKED — its first agent admitted waiving Süleyman/
+   Janissaries as self-reference; re-check the rejected attempt with the
+   CORRECTED waiver audit, redo with the hardened+tightened brief only if
+   genuinely defective). Then worst-first batches of ~5 civs from
+   `audits/link-coverage-ledger.md` (skip the 6 done): ≤5 worktree agents,
+   ONE coordinator → merge → re-run ALL gates → CORRECTED waiver audit →
+   force-add curated set (NEVER `git add -A`) → commit per civ → deploy the
+   batch (clean atomic `rm -rf out && npm run build && npx wrangler deploy`,
+   verify prod). Continue worst-first to corpus end, then a `--corpus`
+   convergence pass to global 0. Full detail: "▶ ACTIVE PROGRAM" +
+   "▶ SCHEDULED-RUN PLAYBOOK" below.
+2. **#19 chapter-intro retrofit — AFTER #7 is fully done.** Author
+   `narratives/<tl>.intros.json` for the 102 grandfathered civs to the RICH
+   spec (CLAUDE.md step 8b; `early-medieval-europe` is the live template —
+   rich "story so far" + "lay of the land", NOT terse). Per civ:
+   `lint-intros --tl=<tl> --strict` 0 → scoped parse → REMOVE civ from
+   `audits/intro-baseline.json` (the done-marker) → commit → deploy batch.
+   Detail: backlog #19 in `audits/corpus-remediation-backlog.md`.
 
-**Two load-bearing facts for whoever continues (full detail in ACTIVE
-PROGRAM + memory):**
+**Two load-bearing facts for #7 (full detail in ACTIVE PROGRAM + memory):**
 - **The gate is corpus-coupled** → one-pass parallel sweep can't reach
-  global 0; model is **SWEEP + CONVERGE** (commit each civ at
-  worklist-closed + waiver-audit-clean; bounded sibling-drift residual is
-  mopped by a final `--corpus` convergence pass). Memory
-  `project_coverage_sweep_corpus_coupled`.
-- **Coordinator waiver-audit had a keying bug** (used glossary `term`
-  label not `matchText`) → false "never-linked" flags, nearly false-
-  rejected delhi-sultanate. Corrected method documented in memory
-  `feedback_coverage_agents_over_waive`. Bug = false-positive only, so the
-  6 accepts are safe; **use the corrected audit next session.**
+  global 0; model is **SWEEP + CONVERGE** (commit each civ at worklist-closed
+  + waiver-audit-clean; bounded sibling-drift residual mopped by a final
+  `--corpus` convergence pass). Memory `project_coverage_sweep_corpus_coupled`.
+- **Use the CORRECTED waiver audit** (the earlier one had a keying bug — used
+  glossary `term` not `matchText` → false "never-linked" flags). Build the
+  linked set from glossary `matchText` AND `term` + cross/event `matchText`,
+  and substring-check any flagged term before calling it a defect. Memory
+  `feedback_coverage_agents_over_waive`. Any real place/people/person/ruler/
+  institution/our-civ in the waived-but-never-linked set = reject the civ.
 
-**▶ NEXT SESSION START HERE:** (1) re-check ottoman-empire with the
-CORRECTED waiver audit, then redo with the hardened+tightened brief if
-still defective (likely); (2) legacy sweep Batch 2 = next 5 worst in
-`audits/link-coverage-ledger.md` (skip the 6 done + ottoman), same
-hardened brief + ≤5 worktree agents + corrected coordinator protocol;
-(3) continue worst-first to corpus end, then the convergence pass. Full
-per-civ procedure + brief + waiver discipline: "▶ ACTIVE PROGRAM" below.
+**Done in the 2026-05-19→21 sessions (do NOT redo):** chapter-intro feature +
+G13 gate shipped & LIVE (pilot `early-medieval-europe`, rich form, prod-
+verified); #19 added to corpus remediation; intros wired into the new-civ
+pipeline + audit skill; G13/G14 gate-collision fixed; scheduled routine
+`trig_013gYpKAMEdBVBAhpu1HwaGd` created then **DISABLED** (banner above).
 
 **Shipped & closed earlier this session (do not re-litigate):** Standalone
 chain-picker fix (`30c03a2`, live), civ date-range in the sticky header
