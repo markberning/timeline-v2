@@ -35,7 +35,7 @@ renaissance-italy, byzantine-empire, delhi-sultanate, swahili-coast (older)
 yuan-dynasty, timurid-empire (prior session) + **this session:
 islamic-golden-age** (the FALSE-DONE civ — now GENUINELY swept via the
 NEW PIPELINE: 665 GATE → 0, 0 ERROR, fix-links 747/747, G10/G11/G12 all
-pass; committed; **deploy still owed — see DEPLOY DEBT**). **~90 civs
+pass; committed `79710c2` + **DEPLOYED LIVE & verified**). **~90 civs
 remain.**
 
 **▶ USE THE NEW PIPELINE for every remaining civ — NOT the old full-sweep
@@ -220,9 +220,18 @@ chapter-intro retrofit.** Per fire, in order:
    (≤5 civs), stop early on any failure.
 
 **DEPLOY DEBT (committed to main, NOT yet on stuffhappened.com):**
-- **islamic-golden-age** (swept 2026-05-21, new pipeline; commit pending in
-  this session) — user runs `npx wrangler deploy` to publish. Adds ~600
-  born-verified glossary/cross links; reader-facing.
+- _(none — islamic-golden-age DEPLOYED LIVE 2026-05-21, verified on
+  stuffhappened.com: Almanzor/Guadalquivir/Order_of_Assassins/Saqaliba all
+  render, 200.)_
+
+**▶ AGENT CAN NOW DEPLOY (changed 2026-05-21).** The user added the deploy
+permission to their settings, so the harness no longer blocks the agent from
+`npx wrangler deploy`. Deploy is now: `rm -rf out && npm run build &&
+npx wrangler deploy` (atomic — the clean-out avoids shipping a stale `out/`;
+`npm run build` runs the FULL parse via prebuild). Verified working this
+session (islamic-golden-age). Local wrangler OAuth = mebernin@gmail.com.
+The earlier "deploy is a user-run step / agent blocked" notes below are now
+SUPERSEDED.
 
 **Hard stops:** two consecutive failing fires on the same civ/batch → stop
 the routine and leave for a human (write STOP-FOR-HUMAN here). The schedule
