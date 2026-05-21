@@ -1,5 +1,13 @@
 export type NavigatorRegion = 'near-east' | 'africa' | 'asia' | 'europe' | 'americas'
 
+/**
+ * The content vertical a timeline belongs to (Phase 2 mode-switcher).
+ * `civ` is the original 100-civ corpus; war/art/music are the planned
+ * verticals. Entries omit `kind` to mean `'civ'` — read it through
+ * `tlKind()`, never `tl.kind` directly, so the default lives in one place.
+ */
+export type TlKind = 'civ' | 'war' | 'art' | 'music'
+
 export interface NavigatorTl {
   id: string
   label: string
@@ -9,6 +17,7 @@ export interface NavigatorTl {
   endYear: number
   isReal?: boolean
   hasContent?: boolean
+  kind?: TlKind // omitted ⇒ 'civ'; read via tlKind()
 }
 
 export const REGION_ORDER: NavigatorRegion[] = [
@@ -33,6 +42,32 @@ export const REGION_COLORS: Record<NavigatorRegion, string> = {
   'asia': '#7c3aed',
   'europe': '#1d4ed8',
   'americas': '#047857',
+}
+
+// ── Content verticals (Phase 2 mode-switcher) ──
+// Order the four doors appear in the switcher.
+export const TL_KIND_ORDER: TlKind[] = ['civ', 'war', 'art', 'music']
+
+export const TL_KIND_LABELS: Record<TlKind, string> = {
+  civ: 'Civilizations',
+  war: 'Wars',
+  art: 'Art',
+  music: 'Music',
+}
+
+// Which verticals have shipped. Only `civ` is live today; the rest render
+// as "coming soon" doors until their content lands. Flip a flag when a
+// vertical ships — the shell reads this, no other change needed.
+export const TL_KIND_LIVE: Record<TlKind, boolean> = {
+  civ: true,
+  war: false,
+  art: false,
+  music: false,
+}
+
+/** A timeline's vertical, with the corpus default applied (`undefined` ⇒ 'civ'). */
+export function tlKind(tl: NavigatorTl): TlKind {
+  return tl.kind ?? 'civ'
 }
 
 export const NAVIGATOR_TLS: NavigatorTl[] = [
