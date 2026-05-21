@@ -24,38 +24,57 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 worktree (`main`). **Remote Control is ON + persistent** (user can monitor/
 steer this session from phone / claude.ai/code).
 
-**▶ THE TASK FOR THIS SESSION (user-authorized 2026-05-21): run BOTH corpus
-programs LIVE, in order #7 then #19, batch by batch, deploying as we go.**
-The user stopped the scheduled routine specifically to drive this live (not
-unattended). This IS the heavy-usage run; the weekly budget reset 2026-05-21
-and the user is ready. Standing order: "run both as you suggest" → keep going
-batch after batch until a gate genuinely fails or the user says stop;
-checkpoint with the user after the first batch or two for sanity. Fail-closed
-always — a failing civ is reverted + skipped, never pushed.
+**▶ HANDOFF 2026-05-21 (end of a long live session). #7 link-coverage
+sweep is PARTWAY; a NEW PIPELINE replaces the old method. Next session:
+"try out the new process" on the next batch (user's words).**
 
-**THE PLAN (live version of the playbook — this session CAN deploy, unlike
-the disabled remote routine):**
-1. **#7 link-coverage sweep — RESUME.** 6 civs already done + pushed
-   (goryeo-korea, uyghur-steppe, renaissance-italy, byzantine-empire,
-   islamic-golden-age, delhi-sultanate; 2,533 GATE gaps closed). **Start with
-   ottoman-empire** (PARKED — its first agent admitted waiving Süleyman/
-   Janissaries as self-reference; re-check the rejected attempt with the
-   CORRECTED waiver audit, redo with the hardened+tightened brief only if
-   genuinely defective). Then worst-first batches of ~5 civs from
-   `audits/link-coverage-ledger.md` (skip the 6 done): ≤5 worktree agents,
-   ONE coordinator → merge → re-run ALL gates → CORRECTED waiver audit →
-   force-add curated set (NEVER `git add -A`) → commit per civ → deploy the
-   batch (clean atomic `rm -rf out && npm run build && npx wrangler deploy`,
-   verify prod). Continue worst-first to corpus end, then a `--corpus`
-   convergence pass to global 0. Full detail: "▶ ACTIVE PROGRAM" +
-   "▶ SCHEDULED-RUN PLAYBOOK" below.
-2. **#19 chapter-intro retrofit — AFTER #7 is fully done.** Author
-   `narratives/<tl>.intros.json` for the 102 grandfathered civs to the RICH
-   spec (CLAUDE.md step 8b; `early-medieval-europe` is the live template —
-   rich "story so far" + "lay of the land", NOT terse). Per civ:
-   `lint-intros --tl=<tl> --strict` 0 → scoped parse → REMOVE civ from
-   `audits/intro-baseline.json` (the done-marker) → commit → deploy batch.
-   Detail: backlog #19 in `audits/corpus-remediation-backlog.md`.
+**State: 12 of 103 civs genuinely swept** (current total GATE in single/
+low-double digits, down from 350–645): goryeo-korea, uyghur-steppe,
+renaissance-italy, byzantine-empire, delhi-sultanate, swahili-coast (older)
++ **this session:** ottoman-empire, mughal-empire, umayyad-caliphate,
+medieval-india, yuan-dynasty, timurid-empire — ALL committed + DEPLOYED
+LIVE (verified). **~91 civs remain** (incl. islamic-golden-age, which was
+FALSE-DONE — see below).
+
+**▶ USE THE NEW PIPELINE for every remaining civ — NOT the old full-sweep
+agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
+1. `node scripts/link-suggest.mjs --tl=<civ>` → `audits/link-suggest/<civ>.{json,md}`
+   pre-resolves every worklist term: REUSE (~80%, slug born-verified in
+   another civ, shows lead + ⚠ homonym flag) / CROSS / SKIP (ONLY own-name/
+   modern-locator/generic) / LINK-CANDIDATE / NO-PAGE. (Worklists exist in
+   `audits/link-coverage/`; regen with `tsx scripts/link-coverage.ts --corpus`
+   if stale.)
+2. A LINK agent/coordinator consumes the worksheet: confirm each REUSE/CROSS
+   (subject vs the shown lead — homonyms!), confirm/fix LINK-CANDIDATE, write
+   the curated glossary/cross entry. **matchText = verbatim body substring
+   (bold is fine — bold IS linkable).** CANNOT skip outside the SKIP set.
+3. BLURB the NO-PAGE terms (authored `definition`, no slug).
+4. Verify (coordinator, verify-don't-relay): `link-coverage --tl=<civ>`
+   TOTAL≈0 (NOT just "0 NEW"), `lint-links --strict` 0 ERROR, `fix-links`
+   0 flags, `parse` no avoidable drops, waivers ≤~30 cat A/B/C.
+5. Force-add the 5 curated files (NEVER `git add -A`), commit per civ, push.
+Full doc: `audits/link-pipeline.md`.
+
+**▶ NEXT BATCH (worst-first, after the 12 done):** islamic-golden-age
+(REDO — false-done), safavid-persia, high-medieval-europe, mongol-empire,
+late-medieval-europe. Then continue worst-first down `audits/link-coverage-
+ledger.md` to corpus end, then an end-of-program `--corpus` convergence
+pass to mop residual drift (currently ~31 across the swept 12 — bounded).
+
+**▶ DEPLOY IS A USER-RUN STEP.** Auto-deploy is OFF (deploy.yml is
+`workflow_dispatch`-only). The agent harness BLOCKS the agent from running
+`wrangler deploy` AND from self-permitting. After committing+pushing a
+batch, hand the user: `npx wrangler deploy` (in their terminal, NO `!`
+prefix — `!` in a shell means NOT and silently no-ops the command). Local
+wrangler OAuth (mebernin@gmail.com) has full workers/pages perms. To let
+the agent deploy: user adds `Bash(npx wrangler deploy:*)` to
+`~/.claude/settings.json` allow themselves.
+
+**#19 chapter-intro retrofit — still AFTER #7.** Author
+`narratives/<tl>.intros.json` for grandfathered civs to the RICH spec
+(CLAUDE.md step 8b; `early-medieval-europe` template). Per civ:
+`lint-intros --tl=<tl> --strict` 0 → scoped parse → remove civ from
+`audits/intro-baseline.json` → commit. Detail: backlog #19.
 
 **Two load-bearing facts for #7 (full detail in ACTIVE PROGRAM + memory):**
 - **The gate is corpus-coupled** → one-pass parallel sweep can't reach
