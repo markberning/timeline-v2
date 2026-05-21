@@ -33,10 +33,30 @@ low-double digits, down from 350–645): goryeo-korea, uyghur-steppe,
 renaissance-italy, byzantine-empire, delhi-sultanate, swahili-coast (older)
 + ottoman-empire, mughal-empire, umayyad-caliphate, medieval-india,
 yuan-dynasty, timurid-empire (prior session) + **this session:
-islamic-golden-age** (665→0, `79710c2`, DEPLOYED) **+ safavid-persia**
-(453 GATE → 0 via the new pipeline; 0 ERROR, fix-links 0-retarget,
-audit-reuse-links clean, G10/G11/G12 pass; committed + deployed).
-**14 of 103 done; ~89 remain.**
+islamic-golden-age** (665→0, DEPLOYED), **safavid-persia** (453→0,
+DEPLOYED), **high-medieval-europe** (383→0, `e78381e`, DEPLOYED — first
+civ through the hardened coordinator scripts). **15 of 103 done; ~88
+remain.**
+
+**▶ HARDENED COORDINATOR (2026-05-21, committed `b8301cb`):** `scripts/
+sweep-merge.mjs <civ> <dir...>` (dedup vs glossary+cross+EVENT, chapter
+count from narrative, collision report) + `scripts/sweep-verify.mjs <civ>
+--fix-drops` (parse+drop-classify+auto-remove redundant, coverage, lint,
+fix-links, audit-reuse-links, snapshot, G10/11/12, waiver-flag → one
+✅/❌). Plus `scripts/audit-reuse-links.mjs` (REUSE wrong-subject scan —
+catches name-overlap homonyms fix-links misses, e.g. Assassins→
+Assassin's_Creed). Per-civ coordinator work is now ~2 commands.
+
+**▶ KNOWN QUALITY GAP — bold-only matcher limitation (surfaced 2026-05-21):**
+the link matcher will not render a link whose ONLY occurrence in a chapter
+is inside `**bold**` (house first-use style). Real entities that appear
+only bolded (hme: Raymond of Toulouse, County of Tripoli, Spanish
+Inquisition, Pisa, Córdoba, Valencia, Seville, etc. — ~20) get waived
+"bold-only-renders-nowhere" — coverage gate passes (it reads JSON) but no
+link renders. Same in every civ (STATUS noted ~37 in ottoman). If the
+matcher were taught to render a link inside/around a bold span, it would
+unlock these corpus-wide. NOT yet investigated — flagged as a high-value
+follow-up.
 
 **▶ USE THE NEW PIPELINE for every remaining civ — NOT the old full-sweep
 agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
@@ -57,8 +77,8 @@ agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
 5. Force-add the 5 curated files (NEVER `git add -A`), commit per civ, push.
 Full doc: `audits/link-pipeline.md`.
 
-**▶ NEXT BATCH (worst-first, after the 14 done):** high-medieval-europe,
-mongol-empire, late-medieval-europe, tang-song-china.
+**▶ NEXT BATCH (worst-first, after the 15 done):** mongol-empire,
+late-medieval-europe, tang-song-china, then continue down the ledger.
 Then continue worst-first down `audits/link-coverage-ledger.md` to corpus
 end, then an end-of-program `--corpus` convergence pass to mop residual
 drift (currently ~31 across the swept 12 — bounded).
