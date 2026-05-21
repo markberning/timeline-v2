@@ -33,10 +33,10 @@ low-double digits, down from 350–645): goryeo-korea, uyghur-steppe,
 renaissance-italy, byzantine-empire, delhi-sultanate, swahili-coast (older)
 + ottoman-empire, mughal-empire, umayyad-caliphate, medieval-india,
 yuan-dynasty, timurid-empire (prior session) + **this session:
-islamic-golden-age** (the FALSE-DONE civ — now GENUINELY swept via the
-NEW PIPELINE: 665 GATE → 0, 0 ERROR, fix-links 747/747, G10/G11/G12 all
-pass; committed `79710c2` + **DEPLOYED LIVE & verified**). **~90 civs
-remain.**
+islamic-golden-age** (665→0, `79710c2`, DEPLOYED) **+ safavid-persia**
+(453 GATE → 0 via the new pipeline; 0 ERROR, fix-links 0-retarget,
+audit-reuse-links clean, G10/G11/G12 pass; committed + deployed).
+**14 of 103 done; ~89 remain.**
 
 **▶ USE THE NEW PIPELINE for every remaining civ — NOT the old full-sweep
 agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
@@ -57,8 +57,8 @@ agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
 5. Force-add the 5 curated files (NEVER `git add -A`), commit per civ, push.
 Full doc: `audits/link-pipeline.md`.
 
-**▶ NEXT BATCH (worst-first, after the 13 done):** safavid-persia,
-high-medieval-europe, mongol-empire, late-medieval-europe, tang-song-china.
+**▶ NEXT BATCH (worst-first, after the 14 done):** high-medieval-europe,
+mongol-empire, late-medieval-europe, tang-song-china.
 Then continue worst-first down `audits/link-coverage-ledger.md` to corpus
 end, then an end-of-program `--corpus` convergence pass to mop residual
 drift (currently ~31 across the swept 12 — bounded).

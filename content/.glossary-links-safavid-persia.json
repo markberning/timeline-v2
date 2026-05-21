@@ -131,6 +131,216 @@
       "matchText": "Shafi'i",
       "wikiSlug": "Shafi'i",
       "type": "concept"
+    },
+    {
+      "term": "Shia",
+      "matchText": "Shia",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Sunni",
+      "matchText": "Sunni",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Sufi",
+      "matchText": "Sufi",
+      "wikiSlug": "Sufism",
+      "type": "concept"
+    },
+    {
+      "term": "Caspian Sea",
+      "matchText": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Uzbeks",
+      "matchText": "Uzbeks",
+      "wikiSlug": "Uzbeks",
+      "type": "people"
+    },
+    {
+      "term": "Prophet Muhammad",
+      "matchText": "Prophet Muhammad",
+      "wikiSlug": "Muhammad",
+      "type": "people"
+    },
+    {
+      "term": "Mevlevi",
+      "matchText": "Mevlevi",
+      "wikiSlug": "Mevlevi_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Compendium of Chronicles",
+      "matchText": "Compendium of Chronicles",
+      "wikiSlug": "Compendium_of_Chronicles",
+      "type": "concept"
+    },
+    {
+      "term": "Jalayirids",
+      "matchText": "Jalayirids",
+      "wikiSlug": "Jalayirid_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Chobanids",
+      "matchText": "Chobanids",
+      "wikiSlug": "Chobanids",
+      "type": "concept"
+    },
+    {
+      "term": "Muzaffarids",
+      "matchText": "Muzaffarids",
+      "wikiSlug": "Muzaffarids_(Iran)",
+      "type": "concept"
+    },
+    {
+      "term": "Transoxiana",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Jami",
+      "matchText": "Jami",
+      "wikiSlug": "Jami",
+      "type": "people"
+    },
+    {
+      "term": "Twelve Imams",
+      "matchText": "twelve imams",
+      "wikiSlug": "Twelve_Imams",
+      "type": "concept"
+    },
+    {
+      "term": "Twelver Shia Islam",
+      "matchText": "Twelver Shia Islam",
+      "wikiSlug": "Twelver",
+      "type": "concept"
+    },
+    {
+      "term": "Ismail",
+      "matchText": "Ismail",
+      "wikiSlug": "Ismail_I",
+      "type": "people"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Shah",
+      "matchText": "Shah",
+      "wikiSlug": "Shah",
+      "type": "concept"
+    },
+    {
+      "term": "Achaemenid",
+      "matchText": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Babai",
+      "matchText": "Babai",
+      "wikiSlug": "Babai_uprising",
+      "type": "concept"
+    },
+    {
+      "term": "Bayezid II",
+      "matchText": "Bayezid II",
+      "wikiSlug": "Bayezid_II",
+      "type": "people"
+    },
+    {
+      "term": "Columbus",
+      "matchText": "Columbus",
+      "wikiSlug": "Christopher_Columbus",
+      "type": "people"
+    },
+    {
+      "term": "Persian-speaking world",
+      "matchText": "Persian-speaking",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Persians",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Chaldiran",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "concept"
+    },
+    {
+      "term": "Hans Roemer",
+      "matchText": "Hans Roemer",
+      "definition": "Hans Robert Roemer (1915-1997) was a German orientalist and historian, a leading twentieth-century scholar of late-medieval and early-modern Iran — the Timurids, the Turkmen confederations, and the Safavids. He wrote the influential 'Safavid Period' and 'Timur in Iran' chapters of The Cambridge History of Iran, and is cited here for his characterization of early Qizilbash religion as closer to a millenarian cult than to orthodox Shia Islam.",
+      "type": "people"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "Timur",
+      "matchText": "Tamerlane",
+      "wikiSlug": "Timur",
+      "type": "glossary"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic-speaking",
+      "wikiSlug": "Turkic_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "Muhammad al-Mahdi",
+      "matchText": "Twelfth Imam",
+      "wikiSlug": "Muhammad_al-Mahdi",
+      "type": "glossary"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "glossary"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -247,6 +457,270 @@
       "matchText": "Spanish Inquisition",
       "wikiSlug": "Spanish_Inquisition",
       "type": "concept"
+    },
+    {
+      "term": "Turcoman",
+      "matchText": "Turcoman",
+      "wikiSlug": "Turkoman_(ethnonym)",
+      "type": "people"
+    },
+    {
+      "term": "Sunni",
+      "matchText": "Sunni",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Qizilbash",
+      "matchText": "Qizilbash",
+      "wikiSlug": "Qizilbash",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Iranian",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Safaviyya",
+      "matchText": "Safaviyya",
+      "wikiSlug": "Safaviyya",
+      "type": "concept"
+    },
+    {
+      "term": "Alvand",
+      "matchText": "Alvand",
+      "wikiSlug": "Alvand_Beg",
+      "type": "people"
+    },
+    {
+      "term": "Twelfth Imam",
+      "matchText": "Twelfth Imam",
+      "wikiSlug": "Muhammad_al-Mahdi",
+      "type": "people"
+    },
+    {
+      "term": "Ali ibn Abi Talib",
+      "matchText": "Ali ibn Abi Talib",
+      "wikiSlug": "Ali",
+      "type": "people"
+    },
+    {
+      "term": "Abu Bakr",
+      "matchText": "Abu Bakr",
+      "wikiSlug": "Abu_Bakr",
+      "type": "people"
+    },
+    {
+      "term": "Ismaili",
+      "matchText": "Ismaili",
+      "wikiSlug": "Isma%27ilism",
+      "type": "concept"
+    },
+    {
+      "term": "Mazandaran",
+      "matchText": "Mazandaran",
+      "wikiSlug": "Mazandaran_Province",
+      "type": "place"
+    },
+    {
+      "term": "Nishapur",
+      "matchText": "Nishapur",
+      "wikiSlug": "Nishapur",
+      "type": "place"
+    },
+    {
+      "term": "Shiraz",
+      "matchText": "Shiraz",
+      "wikiSlug": "Shiraz",
+      "type": "place"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Herat",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "John Foran",
+      "matchText": "John Foran",
+      "wikiSlug": "John_Foran_(sociologist)",
+      "type": "people"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Persian Gulf",
+      "matchText": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf",
+      "type": "place"
+    },
+    {
+      "term": "Ayatollah Khomeini",
+      "matchText": "Ayatollah Khomeini",
+      "wikiSlug": "Ruhollah_Khomeini",
+      "type": "people"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Chaldiran",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "concept"
+    },
+    {
+      "term": "High Renaissance",
+      "matchText": "High Renaissance",
+      "wikiSlug": "High_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Michelangelo",
+      "matchText": "Michelangelo",
+      "wikiSlug": "Michelangelo",
+      "type": "people"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "wikiSlug": "Florence",
+      "type": "place"
+    },
+    {
+      "term": "Ninety-Five Theses",
+      "matchText": "Ninety-Five Theses",
+      "wikiSlug": "Ninety-five_Theses",
+      "type": "concept"
+    },
+    {
+      "term": "Sharur",
+      "matchText": "Sharur",
+      "wikiSlug": "Battle_of_Sharur",
+      "type": "concept"
+    },
+    {
+      "term": "Martin Luther",
+      "matchText": "Martin Luther",
+      "wikiSlug": "Martin_Luther",
+      "type": "people"
+    },
+    {
+      "term": "Cortés",
+      "matchText": "Cortés",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "people"
+    },
+    {
+      "term": "Yavuz",
+      "matchText": "Yavuz",
+      "definition": "Yavuz (\"the Grim\" or \"the Resolute\") is the Ottoman honorific by which Sultan Selim I is remembered — a tribute to the ruthless decisiveness with which he eliminated rivals, crushed the Safavids at Chaldiran in 1514, and conquered the Mamluk Sultanate to make the Ottomans the dominant Muslim power.",
+      "type": "people"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "glossary"
+    },
+    {
+      "term": "Muhammad (the Prophet)",
+      "matchText": "Prophet Muhammad",
+      "wikiSlug": "Muhammad",
+      "type": "glossary"
+    },
+    {
+      "term": "Muhammad (the Prophet)",
+      "matchText": "Prophet",
+      "wikiSlug": "Muhammad",
+      "type": "glossary"
+    },
+    {
+      "term": "Umar",
+      "matchText": "Umar",
+      "wikiSlug": "Umar",
+      "type": "glossary"
+    },
+    {
+      "term": "Uthman",
+      "matchText": "Uthman",
+      "wikiSlug": "Uthman",
+      "type": "glossary"
+    },
+    {
+      "term": "Lebanese people",
+      "matchText": "Lebanese",
+      "wikiSlug": "Lebanese_people",
+      "type": "glossary"
+    },
+    {
+      "term": "Kerman",
+      "matchText": "Kerman",
+      "wikiSlug": "Kerman",
+      "type": "glossary"
+    },
+    {
+      "term": "Mongols",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "glossary"
+    },
+    {
+      "term": "Leonardo da Vinci",
+      "matchText": "Leonardo",
+      "wikiSlug": "Leonardo_da_Vinci",
+      "type": "glossary"
+    },
+    {
+      "term": "Raphael",
+      "matchText": "Raphael",
+      "wikiSlug": "Raphael",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -322,6 +796,252 @@
       "matchText": "Kandahar",
       "wikiSlug": "Kandahar",
       "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Shah Ismail",
+      "matchText": "Shah Ismail",
+      "wikiSlug": "Ismail_I",
+      "type": "people"
+    },
+    {
+      "term": "Turcoman",
+      "matchText": "Turcoman",
+      "wikiSlug": "Turkmens",
+      "type": "people"
+    },
+    {
+      "term": "Aq Qoyunlu",
+      "matchText": "Aq Qoyunlu",
+      "wikiSlug": "Aq_Qoyunlu",
+      "type": "concept"
+    },
+    {
+      "term": "Selim I",
+      "matchText": "Selim",
+      "wikiSlug": "Selim_I",
+      "type": "people"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluks",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Hidden Imam",
+      "matchText": "Hidden Imam",
+      "wikiSlug": "Occultation_(Islam)",
+      "type": "concept"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Uzbeks",
+      "matchText": "Uzbeks",
+      "wikiSlug": "Uzbeks",
+      "type": "people"
+    },
+    {
+      "term": "Ubaydullah Khan",
+      "matchText": "Ubaydullah Khan",
+      "wikiSlug": "Ubaidullah_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Abbas the Great",
+      "matchText": "Abbas",
+      "wikiSlug": "Abbas_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Samanid Empire",
+      "matchText": "Samanid",
+      "wikiSlug": "Samanid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Aga Khan Museum",
+      "matchText": "Aga Khan Museum",
+      "wikiSlug": "Aga_Khan_Museum",
+      "type": "place"
+    },
+    {
+      "term": "Bihzad",
+      "matchText": "Bihzad",
+      "wikiSlug": "Kamal_ud-Din_Behzad",
+      "type": "people"
+    },
+    {
+      "term": "Mir Sayyid Ali",
+      "matchText": "Mir Sayyid Ali",
+      "wikiSlug": "Mir_Sayyid_Ali",
+      "type": "people"
+    },
+    {
+      "term": "Sunni Islam",
+      "matchText": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Muhammad Khudabanda",
+      "matchText": "Muhammad Khudabanda",
+      "wikiSlug": "Mohammad_Khodabanda",
+      "type": "people"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Treaty of Constantinople (1590)",
+      "matchText": "Treaty of Constantinople",
+      "wikiSlug": "Treaty_of_Constantinople_(1590)",
+      "type": "concept"
+    },
+    {
+      "term": "Spanish Empire",
+      "matchText": "Spanish Empire",
+      "wikiSlug": "Spanish_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Philip II of Spain",
+      "matchText": "Philip II",
+      "wikiSlug": "Philip_II_of_Spain",
+      "type": "people"
+    },
+    {
+      "term": "Ivan the Terrible",
+      "matchText": "Ivan the Terrible",
+      "wikiSlug": "Ivan_the_Terrible",
+      "type": "people"
+    },
+    {
+      "term": "Selim II",
+      "matchText": "Selim II",
+      "wikiSlug": "Selim_II",
+      "type": "people"
+    },
+    {
+      "term": "Herat school",
+      "matchText": "Herat school",
+      "wikiSlug": "Timurid_art",
+      "type": "concept"
+    },
+    {
+      "term": "Abd al-Samad",
+      "matchText": "Abd al-Samad",
+      "wikiSlug": "Abd_al-Samad",
+      "type": "people"
+    },
+    {
+      "term": "Tudor dynasty",
+      "matchText": "Tudor dynasty",
+      "wikiSlug": "House_of_Tudor",
+      "type": "concept"
+    },
+    {
+      "term": "Khata'i",
+      "matchText": "Khata'i",
+      "definition": "The poetic pen name under which Shah Ismail I wrote his verse — mostly in Turkic, some in Persian. Like other Persian and Turkic poets he adopted a takhallus (a single signature word woven into his closing lines), and his collected poems circulated as the Divan-i Khata'i. The melancholy verse he produced after Chaldiran was written under this name.",
+      "type": "concept"
+    },
+    {
+      "term": "Safavid-Mughal relationship",
+      "matchText": "Safavid-Mughal",
+      "definition": "The two-century entanglement between Safavid Iran and Mughal India, defined by a mix of cultural intimacy and political rivalry. The two courts shared the Persian language and a common high culture of poetry, painting, and manners, and exchanged artists, scholars, and refugees freely; at the same time they fought repeatedly over the strategic frontier city of Kandahar, which changed hands several times between them.",
+      "type": "concept"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "glossary"
+    },
+    {
+      "term": "Janissaries",
+      "matchText": "Janissary",
+      "wikiSlug": "Janissaries",
+      "type": "glossary"
+    },
+    {
+      "term": "Muhammad (the Prophet)",
+      "matchText": "Prophet",
+      "wikiSlug": "Muhammad",
+      "type": "glossary"
+    },
+    {
+      "term": "Lebanese people",
+      "matchText": "Lebanese",
+      "wikiSlug": "Lebanese_people",
+      "type": "glossary"
+    },
+    {
+      "term": "Shahnameh",
+      "matchText": "Book of Kings",
+      "wikiSlug": "Shahnameh",
+      "type": "glossary"
+    },
+    {
+      "term": "Persian language",
+      "matchText": "Persian-speaking",
+      "wikiSlug": "Persian_language",
+      "type": "glossary"
+    },
+    {
+      "term": "Delhi",
+      "matchText": "Delhi",
+      "wikiSlug": "Delhi",
+      "type": "glossary"
+    },
+    {
+      "term": "Ismail I",
+      "matchText": "Ismail I",
+      "wikiSlug": "Ismail_I",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -403,6 +1123,318 @@
       "matchText": "Qizilbash",
       "wikiSlug": "Qizilbash",
       "type": "people"
+    },
+    {
+      "term": "Uzbeks",
+      "matchText": "Uzbeks",
+      "wikiSlug": "Uzbeks",
+      "type": "people"
+    },
+    {
+      "term": "Greater Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Treaty of Constantinople (1590)",
+      "matchText": "Treaty of Constantinople",
+      "wikiSlug": "Treaty_of_Constantinople_(1590)",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Chaldiran",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "concept"
+    },
+    {
+      "term": "Arabic language",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Circassians",
+      "matchText": "Circassians",
+      "wikiSlug": "Circassians",
+      "type": "people"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia Islam",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Ottomans",
+      "matchText": "Ottomans",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Ottoman",
+      "matchText": "Ottoman",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Fars province",
+      "matchText": "Fars",
+      "wikiSlug": "Fars_Province",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Herat (1598)",
+      "matchText": "Din Muhammad Khan",
+      "wikiSlug": "Battle_of_Herat_(1598)",
+      "type": "concept"
+    },
+    {
+      "term": "Herat",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "English East India Company",
+      "matchText": "English East India Company",
+      "wikiSlug": "East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Hormuz Island",
+      "matchText": "Hormuz",
+      "wikiSlug": "Hormuz_Island",
+      "type": "place"
+    },
+    {
+      "term": "Persian Gulf",
+      "matchText": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf",
+      "type": "place"
+    },
+    {
+      "term": "Najaf",
+      "matchText": "Najaf",
+      "wikiSlug": "Najaf",
+      "type": "place"
+    },
+    {
+      "term": "Karbala",
+      "matchText": "Karbala",
+      "wikiSlug": "Karbala",
+      "type": "place"
+    },
+    {
+      "term": "Zagros Mountains",
+      "matchText": "Zagros",
+      "wikiSlug": "Zagros_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Seljuk Empire",
+      "matchText": "Seljuks",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Qazvin",
+      "matchText": "Qazvin",
+      "wikiSlug": "Qazvin",
+      "type": "place"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Grand Bazaar, Istanbul",
+      "matchText": "Grand Bazaar",
+      "wikiSlug": "Grand_Bazaar,_Istanbul",
+      "type": "place"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Sheikh Bahai",
+      "matchText": "Sheikh Bahai",
+      "wikiSlug": "Baha_al-Din_al-Amili",
+      "type": "people"
+    },
+    {
+      "term": "Abbas II of Persia",
+      "matchText": "Abbas II",
+      "wikiSlug": "Abbas_II_of_Persia",
+      "type": "people"
+    },
+    {
+      "term": "Istanbul",
+      "matchText": "Istanbul",
+      "wikiSlug": "Istanbul",
+      "type": "place"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Paris",
+      "matchText": "Paris",
+      "wikiSlug": "Paris",
+      "type": "place"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Dutch East India Company",
+      "matchText": "Dutch East India Company",
+      "wikiSlug": "Dutch_East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Augustinians",
+      "matchText": "Augustinians",
+      "wikiSlug": "Augustinians",
+      "type": "concept"
+    },
+    {
+      "term": "Kashan",
+      "matchText": "Kashan",
+      "wikiSlug": "Kashan",
+      "type": "place"
+    },
+    {
+      "term": "Fatehpur Sikri",
+      "matchText": "Fatehpur Sikri",
+      "wikiSlug": "Fatehpur_Sikri",
+      "type": "place"
+    },
+    {
+      "term": "Elizabeth I",
+      "matchText": "Elizabeth I",
+      "wikiSlug": "Elizabeth_I",
+      "type": "people"
+    },
+    {
+      "term": "William Shakespeare",
+      "matchText": "Shakespeare",
+      "wikiSlug": "William_Shakespeare",
+      "type": "people"
+    },
+    {
+      "term": "Mughal Empire",
+      "matchText": "Mughal",
+      "wikiSlug": "Mughal_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Murad III",
+      "matchText": "Murad III",
+      "wikiSlug": "Murad_III",
+      "type": "people"
+    },
+    {
+      "term": "Khaju Bridge",
+      "matchText": "Khwaju bridge",
+      "wikiSlug": "Khaju_Bridge",
+      "type": "place"
+    },
+    {
+      "term": "Henry IV of France",
+      "matchText": "Henry IV",
+      "wikiSlug": "Henry_IV_of_France",
+      "type": "people"
+    },
+    {
+      "term": "Safi of Persia",
+      "matchText": "Safi I",
+      "wikiSlug": "Safi_of_Persia",
+      "type": "people"
+    },
+    {
+      "term": "Golden Age of India",
+      "matchText": "Mughal golden age",
+      "wikiSlug": "Golden_Age_of_India",
+      "type": "concept"
+    },
+    {
+      "term": "Classical Age of the Ottoman Empire",
+      "matchText": "Ottoman classical age",
+      "wikiSlug": "Classical_Age_of_the_Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mohammad Khodabanda",
+      "matchText": "Muhammad Khudabanda",
+      "wikiSlug": "Mohammad_Khodabanda",
+      "type": "glossary"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "Kandahar",
+      "matchText": "Kandahar",
+      "wikiSlug": "Kandahar",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
+    },
+    {
+      "term": "Armenians",
+      "matchText": "Armenian",
+      "wikiSlug": "Armenians",
+      "type": "glossary"
+    },
+    {
+      "term": "Mehmed III",
+      "matchText": "Mehmed III",
+      "wikiSlug": "Mehmed_III",
+      "type": "glossary"
+    },
+    {
+      "term": "Thirty Years' War",
+      "matchText": "Thirty Years War",
+      "wikiSlug": "Thirty_Years'_War",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -467,12 +1499,6 @@
       "type": "place"
     },
     {
-      "term": "Fatima Masumeh",
-      "matchText": "Fatima Masumeh",
-      "wikiSlug": "Fatima_Masumeh_Shrine",
-      "type": "people"
-    },
-    {
       "term": "Qom hawza",
       "matchText": "Qom hawza",
       "wikiSlug": "Hawza",
@@ -492,7 +1518,7 @@
     },
     {
       "term": "Gundishapur Academy",
-      "matchText": "Gundishapur Academy",
+      "matchText": "Gundishapur",
       "wikiSlug": "Gundeshapur",
       "type": "place"
     },
@@ -507,6 +1533,282 @@
       "matchText": "Hidden Imam Muhammad al-Mahdi",
       "wikiSlug": "Muhammad_al-Mahdi",
       "type": "people"
+    },
+    {
+      "term": "Twelver Shia Islam",
+      "matchText": "Twelver Shia Islam",
+      "wikiSlug": "Twelver",
+      "type": "concept"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Shia",
+      "matchText": "Shia",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Twelfth Imam",
+      "matchText": "Twelfth Imam",
+      "wikiSlug": "Muhammad_al-Mahdi",
+      "type": "people"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Quran",
+      "matchText": "Quran",
+      "wikiSlug": "Quran",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian Revolution",
+      "matchText": "Iranian Revolution",
+      "wikiSlug": "Iranian_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Islamic Republic of Iran",
+      "matchText": "Islamic Republic of Iran",
+      "wikiSlug": "Iran",
+      "type": "place"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Iranian",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Najaf",
+      "matchText": "Najaf",
+      "wikiSlug": "Najaf",
+      "type": "place"
+    },
+    {
+      "term": "Karbala",
+      "matchText": "Karbala",
+      "wikiSlug": "Karbala",
+      "type": "place"
+    },
+    {
+      "term": "Iranian Shia",
+      "matchText": "Iranian Shia",
+      "wikiSlug": "Islam_in_Iran",
+      "type": "concept"
+    },
+    {
+      "term": "School of Isfahan",
+      "matchText": "School of Isfahan",
+      "wikiSlug": "School_of_Isfahan",
+      "type": "concept"
+    },
+    {
+      "term": "Aristotelian",
+      "matchText": "Aristotelian",
+      "wikiSlug": "Aristotelianism",
+      "type": "concept"
+    },
+    {
+      "term": "Neoplatonic",
+      "matchText": "Neoplatonic",
+      "wikiSlug": "Neoplatonism",
+      "type": "concept"
+    },
+    {
+      "term": "Sufi mysticism",
+      "matchText": "Sufi mysticism",
+      "wikiSlug": "Sufism",
+      "type": "concept"
+    },
+    {
+      "term": "Shiraz",
+      "matchText": "Shiraz",
+      "wikiSlug": "Shiraz",
+      "type": "place"
+    },
+    {
+      "term": "Shah Mosque",
+      "matchText": "Shah Mosque",
+      "wikiSlug": "Shah_Mosque_(Isfahan)",
+      "type": "place"
+    },
+    {
+      "term": "Zoroastrian",
+      "matchText": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism",
+      "type": "concept"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Medina",
+      "matchText": "Medina",
+      "wikiSlug": "Medina",
+      "type": "place"
+    },
+    {
+      "term": "Sunni",
+      "matchText": "Sunni",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Kazimiyah",
+      "matchText": "Kazimiyah",
+      "wikiSlug": "Al-Kazimiyya_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Samarra",
+      "matchText": "Samarra",
+      "wikiSlug": "Samarra",
+      "type": "place"
+    },
+    {
+      "term": "Mashhad",
+      "matchText": "Mashhad",
+      "wikiSlug": "Mashhad",
+      "type": "place"
+    },
+    {
+      "term": "Ardabil",
+      "matchText": "Ardabil",
+      "wikiSlug": "Ardabil",
+      "type": "place"
+    },
+    {
+      "term": "Ardabil Carpet",
+      "matchText": "Ardabil Carpet",
+      "wikiSlug": "Ardabil_Carpet",
+      "type": "concept"
+    },
+    {
+      "term": "Sultan Husayn",
+      "matchText": "Sultan Husayn",
+      "wikiSlug": "Soltan_Hoseyn",
+      "type": "people"
+    },
+    {
+      "term": "Nader Shah",
+      "matchText": "Nader Shah",
+      "wikiSlug": "Nader_Shah",
+      "type": "people"
+    },
+    {
+      "term": "Qajar",
+      "matchText": "Qajar",
+      "wikiSlug": "Qajar_Iran",
+      "type": "place"
+    },
+    {
+      "term": "Pahlavi",
+      "matchText": "Pahlavi",
+      "wikiSlug": "Pahlavi_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Descartes",
+      "matchText": "Descartes",
+      "wikiSlug": "Ren%C3%A9_Descartes",
+      "type": "people"
+    },
+    {
+      "term": "Newton",
+      "matchText": "Newton",
+      "wikiSlug": "Isaac_Newton",
+      "type": "people"
+    },
+    {
+      "term": "usul al-fiqh",
+      "matchText": "usul al-fiqh",
+      "wikiSlug": "Principles_of_Islamic_jurisprudence",
+      "type": "concept"
+    },
+    {
+      "term": "al-hikma al-muta'aliya",
+      "matchText": "al-hikma al-muta'aliya",
+      "wikiSlug": "Transcendent_theosophy",
+      "type": "concept"
+    },
+    {
+      "term": "Peripatetic philosophy",
+      "matchText": "Peripatetic philosophy",
+      "wikiSlug": "Peripatetic_school",
+      "type": "concept"
+    },
+    {
+      "term": "Lebanese",
+      "matchText": "Lebanese",
+      "wikiSlug": "Lebanese_people",
+      "type": "people"
+    },
+    {
+      "term": "Kahak",
+      "matchText": "Kahak",
+      "definition": "A small village near Qom in central Iran. It is remembered almost entirely as the place of Mulla Sadra's rural exile, where, cut off from the patronage and the persecution of Isfahan, he wrote the bulk of his major philosophical work over roughly seven to twelve years.",
+      "type": "place"
+    },
+    {
+      "term": "akhbar",
+      "matchText": "akhbar",
+      "definition": "Arabic for \"reports\" or \"traditions\" — the transmitted narrations attributed to the Prophet and the Twelve Imams. The Akhbari school of Shia jurisprudence took its name from these reports, holding that religious guidance should come from applying them as directly as possible, with no independent reasoning by the contemporary scholar.",
+      "type": "concept"
+    },
+    {
+      "term": "Prophet Muhammad",
+      "matchText": "Prophet",
+      "wikiSlug": "Muhammad",
+      "type": "person"
+    },
+    {
+      "term": "Ismail I",
+      "matchText": "Ismail",
+      "wikiSlug": "Ismail_I",
+      "type": "person"
+    },
+    {
+      "term": "Abbas the Great",
+      "matchText": "Abbas",
+      "wikiSlug": "Abbas_the_Great",
+      "type": "person"
+    },
+    {
+      "term": "Galileo",
+      "matchText": "Galileo",
+      "wikiSlug": "Galileo_Galilei",
+      "type": "person"
+    },
+    {
+      "term": "Kepler",
+      "matchText": "Kepler",
+      "wikiSlug": "Johannes_Kepler",
+      "type": "person"
+    },
+    {
+      "term": "Arabia",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
     }
   ],
   "6": [
@@ -559,12 +1861,6 @@
       "type": "concept"
     },
     {
-      "term": "Pazyryk Carpet",
-      "matchText": "Pazyryk Carpet",
-      "wikiSlug": "Pazyryk_carpet",
-      "type": "concept"
-    },
-    {
       "term": "Kashan",
       "matchText": "Kashan",
       "wikiSlug": "Kashan",
@@ -599,6 +1895,288 @@
       "matchText": "Persianate world",
       "wikiSlug": "Persianate_society",
       "type": "concept"
+    },
+    {
+      "term": "Armenians",
+      "matchText": "Armenian",
+      "wikiSlug": "Armenians",
+      "type": "people"
+    },
+    {
+      "term": "Mazandaran",
+      "matchText": "Mazandaran",
+      "wikiSlug": "Mazandaran_Province",
+      "type": "place"
+    },
+    {
+      "term": "Caspian Sea",
+      "matchText": "Caspian",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Aleppo",
+      "matchText": "Aleppo",
+      "wikiSlug": "Aleppo",
+      "type": "place"
+    },
+    {
+      "term": "Bursa",
+      "matchText": "Bursa",
+      "wikiSlug": "Bursa",
+      "type": "place"
+    },
+    {
+      "term": "Persian Gulf",
+      "matchText": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf",
+      "type": "place"
+    },
+    {
+      "term": "Volga",
+      "matchText": "Volga",
+      "wikiSlug": "Volga",
+      "type": "place"
+    },
+    {
+      "term": "Moscow",
+      "matchText": "Moscow",
+      "wikiSlug": "Moscow",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Nor Jugha",
+      "matchText": "Nor Jugha",
+      "wikiSlug": "New_Julfa",
+      "type": "place"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "wikiSlug": "Venice",
+      "type": "place"
+    },
+    {
+      "term": "Amsterdam",
+      "matchText": "Amsterdam",
+      "wikiSlug": "Amsterdam",
+      "type": "place"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Istanbul",
+      "matchText": "Istanbul",
+      "wikiSlug": "Istanbul",
+      "type": "place"
+    },
+    {
+      "term": "Surat",
+      "matchText": "Surat",
+      "wikiSlug": "Surat",
+      "type": "place"
+    },
+    {
+      "term": "Manila",
+      "matchText": "Manila",
+      "wikiSlug": "Manila",
+      "type": "place"
+    },
+    {
+      "term": "Acapulco",
+      "matchText": "Acapulco",
+      "wikiSlug": "Acapulco",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Sebouh Aslanian",
+      "matchText": "Sebouh Aslanian",
+      "wikiSlug": "Sebouh_David_Aslanian",
+      "type": "people"
+    },
+    {
+      "term": "Dutch East India Company",
+      "matchText": "Dutch East India Company",
+      "wikiSlug": "Dutch_East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Malacca",
+      "matchText": "Malacca",
+      "wikiSlug": "Malacca",
+      "type": "place"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Siberia",
+      "matchText": "Siberia",
+      "wikiSlug": "Siberia",
+      "type": "place"
+    },
+    {
+      "term": "Timurid dynasty",
+      "matchText": "Timurid",
+      "wikiSlug": "Timurid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kerman",
+      "matchText": "Kerman",
+      "wikiSlug": "Kerman",
+      "type": "place"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Johannes Vermeer",
+      "matchText": "Vermeer",
+      "wikiSlug": "Johannes_Vermeer",
+      "type": "people"
+    },
+    {
+      "term": "Rumi",
+      "matchText": "Rumi",
+      "wikiSlug": "Rumi",
+      "type": "people"
+    },
+    {
+      "term": "Hafez",
+      "matchText": "Hafez",
+      "wikiSlug": "Hafez",
+      "type": "people"
+    },
+    {
+      "term": "Saadi Shirazi",
+      "matchText": "Sa'di",
+      "wikiSlug": "Saadi_Shirazi",
+      "type": "people"
+    },
+    {
+      "term": "Ferdowsi",
+      "matchText": "Ferdowsi",
+      "wikiSlug": "Ferdowsi",
+      "type": "people"
+    },
+    {
+      "term": "Kandahar",
+      "matchText": "Kandahar",
+      "wikiSlug": "Kandahar",
+      "type": "place"
+    },
+    {
+      "term": "Mir Sayyid Ali",
+      "matchText": "Mir Sayyid Ali",
+      "wikiSlug": "Mir_Sayyid_Ali",
+      "type": "people"
+    },
+    {
+      "term": "Abd al-Samad",
+      "matchText": "Abd al-Samad",
+      "wikiSlug": "Abd_al-Samad",
+      "type": "people"
+    },
+    {
+      "term": "Ismail II",
+      "matchText": "Ismail II",
+      "wikiSlug": "Ismail_II",
+      "type": "people"
+    },
+    {
+      "term": "Urfi Shirazi",
+      "matchText": "Urfi Shirazi",
+      "wikiSlug": "'Orfi_Shirazi",
+      "type": "people"
+    },
+    {
+      "term": "Shah Jahan",
+      "matchText": "Shah Jahan",
+      "wikiSlug": "Shah_Jahan",
+      "type": "people"
+    },
+    {
+      "term": "Rembrandt",
+      "matchText": "Rembrandt",
+      "wikiSlug": "Rembrandt",
+      "type": "people"
+    },
+    {
+      "term": "Philippines",
+      "matchText": "Philippines",
+      "wikiSlug": "Philippines",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "place"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia Islam",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolian",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Delhi",
+      "matchText": "Delhi",
+      "wikiSlug": "Delhi",
+      "type": "place"
+    },
+    {
+      "term": "Afghan",
+      "matchText": "Afghan",
+      "wikiSlug": "Afghans",
+      "type": "people"
     }
   ],
   "7": [
@@ -657,12 +2235,6 @@
       "type": "place"
     },
     {
-      "term": "Tokugawa shogunate",
-      "matchText": "Tokugawa shogunate",
-      "wikiSlug": "Tokugawa_shogunate",
-      "type": "concept"
-    },
-    {
       "term": "Manchu conquest",
       "matchText": "Manchu conquest",
       "wikiSlug": "Qing_dynasty",
@@ -673,6 +2245,216 @@
       "matchText": "ghulam army",
       "wikiSlug": "Ghilman",
       "type": "concept"
+    },
+    {
+      "term": "Shah Abbas the Great",
+      "matchText": "Shah Abbas the Great",
+      "wikiSlug": "Abbas_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Mazandaran",
+      "matchText": "Mazandaran",
+      "wikiSlug": "Mazandaran_Province",
+      "type": "place"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Imam Quli Khan",
+      "matchText": "Imam Quli Khan",
+      "wikiSlug": "Imam_Quli_Khan_(Safavid_governor)",
+      "type": "people"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Najaf",
+      "matchText": "Najaf",
+      "wikiSlug": "Najaf",
+      "type": "place"
+    },
+    {
+      "term": "Karbala",
+      "matchText": "Karbala",
+      "wikiSlug": "Karbala",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "United Nations",
+      "matchText": "United Nations",
+      "wikiSlug": "United_Nations",
+      "type": "concept"
+    },
+    {
+      "term": "Zayanderud",
+      "matchText": "Zayanderud",
+      "wikiSlug": "Zayanderud",
+      "type": "place"
+    },
+    {
+      "term": "Humayun",
+      "matchText": "Humayun",
+      "wikiSlug": "Humayun",
+      "type": "people"
+    },
+    {
+      "term": "Shah Ismail",
+      "matchText": "Shah Ismail",
+      "wikiSlug": "Ismail_I",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Sufiyan",
+      "matchText": "Sufiyan",
+      "wikiSlug": "Battle_of_Sufiyan",
+      "type": "concept"
+    },
+    {
+      "term": "Capture of Hormuz",
+      "matchText": "Hormuz",
+      "wikiSlug": "Anglo-Persian_capture_of_Hormuz",
+      "type": "concept"
+    },
+    {
+      "term": "Afghans",
+      "matchText": "Afghan",
+      "wikiSlug": "Afghans",
+      "type": "people"
+    },
+    {
+      "term": "Sufism",
+      "matchText": "Sufi orders",
+      "wikiSlug": "Sufism",
+      "type": "concept"
+    },
+    {
+      "term": "Mulla Sadra",
+      "matchText": "Mulla Sadra",
+      "wikiSlug": "Mulla_Sadra",
+      "type": "people"
+    },
+    {
+      "term": "Soleyman I",
+      "matchText": "Sam Mirza",
+      "wikiSlug": "Suleiman_I_of_Persia",
+      "type": "people"
+    },
+    {
+      "term": "Roger Savory",
+      "matchText": "Roger Savory",
+      "wikiSlug": "Roger_Savory",
+      "type": "people"
+    },
+    {
+      "term": "Louis XIV",
+      "matchText": "Louis XIV",
+      "wikiSlug": "Louis_XIV",
+      "type": "people"
+    },
+    {
+      "term": "Muhammad Baqir Majlisi",
+      "matchText": "Muhammad Baqir Majlisi",
+      "wikiSlug": "Mohammad-Baqer_Majlesi",
+      "type": "people"
+    },
+    {
+      "term": "Laurence Lockhart",
+      "matchText": "Laurence Lockhart",
+      "wikiSlug": "Laurence_Lockhart",
+      "type": "people"
+    },
+    {
+      "term": "Sunni Islam",
+      "matchText": "Sunni",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Gurgin Khan",
+      "matchText": "Gurgin Khan",
+      "wikiSlug": "George_XI_of_Kartli",
+      "type": "people"
+    },
+    {
+      "term": "Herat",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Mir Mahmud Hotak",
+      "matchText": "Mir Mahmud Hotak",
+      "wikiSlug": "Mahmud_Hotak",
+      "type": "people"
+    },
+    {
+      "term": "English Civil War",
+      "matchText": "English Civil War",
+      "wikiSlug": "English_Civil_War",
+      "type": "concept"
+    },
+    {
+      "term": "Glorious Revolution",
+      "matchText": "Glorious Revolution",
+      "wikiSlug": "Glorious_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Romanov dynasty",
+      "matchText": "Romanov dynasty",
+      "wikiSlug": "House_of_Romanov",
+      "type": "people"
+    },
+    {
+      "term": "Mughal Empire",
+      "matchText": "Mughal Empire",
+      "wikiSlug": "Mughal_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "place"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Mughal Empire",
+      "matchText": "Mughals",
+      "wikiSlug": "Mughal_Empire",
+      "type": "civilization"
     }
   ],
   "8": [
@@ -759,6 +2541,318 @@
       "matchText": "Ashraf Hotak",
       "wikiSlug": "Ashraf_Hotak",
       "type": "people"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Afghans",
+      "matchText": "Afghan",
+      "wikiSlug": "Afghans",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Gulnabad",
+      "matchText": "Gulnabad",
+      "wikiSlug": "Battle_of_Gulnabad",
+      "type": "concept"
+    },
+    {
+      "term": "Sultan Husayn",
+      "matchText": "Sultan Husayn",
+      "wikiSlug": "Soltan_Hoseyn",
+      "type": "people"
+    },
+    {
+      "term": "Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Tahmasp Mirza",
+      "matchText": "Tahmasp Mirza",
+      "wikiSlug": "Tahmasp_II",
+      "type": "people"
+    },
+    {
+      "term": "Caspian Sea",
+      "matchText": "Caspian",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Ismail I",
+      "matchText": "Ismail I",
+      "wikiSlug": "Ismail_I",
+      "type": "people"
+    },
+    {
+      "term": "Russians",
+      "matchText": "Russians",
+      "wikiSlug": "Russians",
+      "type": "people"
+    },
+    {
+      "term": "Qizilbash",
+      "matchText": "Qizilbash",
+      "wikiSlug": "Qizilbash",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Murche-Khort",
+      "matchText": "Murche-Khort",
+      "wikiSlug": "Battle_of_Murche-Khort",
+      "type": "concept"
+    },
+    {
+      "term": "Kandahar",
+      "matchText": "Kandahar",
+      "wikiSlug": "Kandahar",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Treaty of Zuhab",
+      "matchText": "Treaty of Zuhab",
+      "wikiSlug": "Treaty_of_Zuhab",
+      "type": "concept"
+    },
+    {
+      "term": "Treaty of Resht",
+      "matchText": "Treaty of Resht",
+      "wikiSlug": "Treaty_of_Resht",
+      "type": "concept"
+    },
+    {
+      "term": "Treaty of Ganja",
+      "matchText": "Treaty of Ganja",
+      "wikiSlug": "Treaty_of_Ganja",
+      "type": "concept"
+    },
+    {
+      "term": "Hindu Kush",
+      "matchText": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush",
+      "type": "place"
+    },
+    {
+      "term": "Kabul",
+      "matchText": "Kabul",
+      "wikiSlug": "Kabul",
+      "type": "place"
+    },
+    {
+      "term": "Lahore",
+      "matchText": "Lahore",
+      "wikiSlug": "Lahore",
+      "type": "place"
+    },
+    {
+      "term": "Muhammad Shah",
+      "matchText": "Muhammad Shah",
+      "wikiSlug": "Muhammad_Shah",
+      "type": "people"
+    },
+    {
+      "term": "Mughal Empire",
+      "matchText": "Mughals",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Reza Quli",
+      "matchText": "Reza Quli",
+      "wikiSlug": "Reza_Qoli_Mirza_Afshar",
+      "type": "people"
+    },
+    {
+      "term": "Adel Shah",
+      "matchText": "Adel Shah",
+      "wikiSlug": "Adel_Shah",
+      "type": "people"
+    },
+    {
+      "term": "Shahrokh Shah",
+      "matchText": "Shahrokh Shah",
+      "wikiSlug": "Shahrokh_Shah",
+      "type": "people"
+    },
+    {
+      "term": "Kashan",
+      "matchText": "Kashan",
+      "wikiSlug": "Kashan",
+      "type": "place"
+    },
+    {
+      "term": "Mashhad",
+      "matchText": "Mashhad",
+      "wikiSlug": "Mashhad",
+      "type": "place"
+    },
+    {
+      "term": "Ardabil",
+      "matchText": "Ardabil",
+      "wikiSlug": "Ardabil",
+      "type": "place"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Usulism",
+      "matchText": "Usuli",
+      "wikiSlug": "Usulism",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Parthian Empire",
+      "matchText": "Parthian",
+      "wikiSlug": "Parthian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Duc d'Orléans",
+      "matchText": "Orléans",
+      "wikiSlug": "Philippe_II,_Duke_of_Orl%C3%A9ans",
+      "type": "people"
+    },
+    {
+      "term": "Kangxi Emperor",
+      "matchText": "Kangxi",
+      "wikiSlug": "Kangxi_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Yongzheng Emperor",
+      "matchText": "Yongzheng",
+      "wikiSlug": "Yongzheng_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Mughan plain",
+      "matchText": "Mughan plain",
+      "wikiSlug": "Mughan_plain",
+      "type": "place"
+    },
+    {
+      "term": "Pahlavi dynasty",
+      "matchText": "Pahlavi dynasty",
+      "wikiSlug": "Pahlavi_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Decline of the Mughal Empire",
+      "matchText": "Mughal decline",
+      "wikiSlug": "Decline_of_the_Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Twelver Shia Islam",
+      "matchText": "Twelver Shia Islam",
+      "wikiSlug": "Twelver",
+      "type": "concept"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Sunni Islam",
+      "matchText": "Sunni",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Shia–Sunni relations",
+      "matchText": "Sunni-Shia",
+      "wikiSlug": "Shia%E2%80%93Sunni_relations",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian Shia clergy",
+      "matchText": "Iranian Shia",
+      "definition": "The institutionally independent clerical class the Safavids created to staff their new Twelver Shia state — Iranian-trained mujtahids who, by the late Safavid period, had grown powerful enough to set religious policy themselves. When Nader Shah tried to fold Shia Islam back into Sunnism in 1736, this clergy simply refused, demonstrating that it had outgrown the dynasty that built it. That same clerical establishment is the direct ancestor of the marja-i taqlid system and, ultimately, the clerical leadership of the modern Islamic Republic.",
+      "type": "concept"
+    },
+    {
+      "term": "Sikh",
+      "matchText": "Sikh",
+      "wikiSlug": "Sikhs",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Kerman",
+      "matchText": "Kerman",
+      "wikiSlug": "Kerman",
+      "type": "place"
+    },
+    {
+      "term": "Armenian",
+      "matchText": "Armenian",
+      "wikiSlug": "Armenians",
+      "type": "people"
+    },
+    {
+      "term": "Arab",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Armenia",
+      "matchText": "Armenia",
+      "wikiSlug": "Armenia",
+      "type": "place"
+    },
+    {
+      "term": "Georgia",
+      "matchText": "Georgia",
+      "wikiSlug": "Georgia_(country)",
+      "type": "place"
     }
   ]
 }
