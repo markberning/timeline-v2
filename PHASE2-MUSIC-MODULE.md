@@ -5,6 +5,41 @@ the in-repo home for the Music-mode design. The canonical Phase-2 memory file
 (`memory/project_phase2_plan`) should cross-reference it; it could not be edited
 from the web container (memory store not synced into the ephemeral clone).
 
+## Pick up here (2026-05-21)
+
+A runnable thin-slice prototype is built and committed under `phase2-music/`.
+Nothing is wired into the Next app or the gated pipeline; it's deliberately
+standalone.
+
+**Done:**
+- This design doc + the K.458 worked example.
+- `phase2-music/` prototype: authored guide (`guides/k458-mvt1.json`),
+  `player.html` (self-contained synced player + tap-calibrate + export),
+  `align.py` (audio-to-score alignment, the "ear"), `merge.mjs` (alignment →
+  per-cue timings, verified), `templates/sonata.json`, `README.md`.
+
+**Not done (your call, on a real machine):**
+1. **See it run with a real recording.** Open `phase2-music/player.html`, load an
+   audio file. Then get accurate timing one of two ways (both in
+   `phase2-music/README.md`):
+   - *No tools:* Calibrate-by-tapping in the player, export timings. OR
+   - *Automatic:* download a recording (Musopen) + a MusicXML/MIDI score
+     (OpenScore/KernScores), `pip install librosa pretty_midi music21 synctoolbox
+     numpy scipy soundfile`, run `align.py` → `merge.mjs`, load the timings file.
+2. **Verify the measure numbers** in `guides/k458-mvt1.json` against one pinned
+   edition (currently approximate).
+3. **Spot-check `align.py`** by ear — it's untested in-container, a best-effort
+   first cut.
+4. **Productionize** (later): port `player.html` to a Next.js `/music/...` route
+   + component; add the gates in this doc; decide the content-file home.
+
+**Open decisions (also at the bottom of this doc):** edition to pin; recording-
+source policy; how Music mode attaches to civs.
+
+**Note:** the canonical `memory/project_phase2_plan` couldn't be edited from the
+web container — this in-repo doc is the source of truth; mirror a one-line
+pointer back into the memory file when convenient.
+
 ## Scope (narrowed — this is the whole point)
 
 The Music mode explains **Western classical music** by showing, in real time as a
