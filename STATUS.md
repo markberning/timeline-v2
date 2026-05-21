@@ -457,8 +457,12 @@ waived-but-never-linked set.
 committed, 1 parked.**
 - renaissance-italy ✅ `8d2d78a` (577→0, waiver-clean)
 - byzantine-empire ✅ `1efa3c5` (552→0; 8 drift)
-- islamic-golden-age ✅ `c9f35c1` (635→0; 23 drift; agent wrote
-  .link-waivers to MAIN not its worktree — content verified correct)
+- islamic-golden-age ❌ **FALSE-DONE — verified 2026-05-21.** Commit
+  `c9f35c1` ("close all 635") changed ONLY `.link-waivers` (+7 lines);
+  the ~600 glossary links were NEVER committed (lost on 05-18 — the
+  agent-wrote-to-MAIN note was wrong; content was NOT verified correct).
+  Sits at **645 GATE today**. RE-QUEUED for a real full sweep. The
+  "2,533 closed / 6 civs" total below is overstated — only 5 are real.
 - delhi-sultanate ✅ `93d7e3f` (541→0; 171 waivers = legitimate
   verbose-(c), proven by fuller-form recheck; 6 drift)
 - ottoman-empire ❌ PARKED for next session — first agent admitted
@@ -494,6 +498,25 @@ sibling-commit cross-reference drift — uyghur ~6, byzantine 8, islamic
 23, delhi 6 (renaissance/goryeo 0 at commit, will have drifted since).
 Bounded + expected; the end-of-program `--corpus` convergence pass
 mops all of it at once. NOT a defect, do not panic-revert.
+
+**▶▶ HARD LESSON 2026-05-21 — "0 NEW" IS NOT THE TARGET; TOTAL GATE→~0
+IS.** `link-coverage --strict` EXITS 0 when NEW(★)=0 **even with
+hundreds of grandfathered GATE gaps remaining** (grandfathered = in
+`link-coverage-baseline.json`). The PROGRAM goal (#7) is to actually
+CLOSE every GATE term in the worklist — drive the printed "N GATE
+coverage gap(s)" TOTAL to ~0 (a few drift NEW are ok), exactly like
+renaissance (577→12) / byzantine (552→18) / delhi (541→8). A sweep
+agent briefed only to "pass --strict / 0 NEW" will close ~7–25 gaps and
+leave ~480 — gate-green, job-undone (same failure family as
+over-waiving). **Verify a swept civ by `link-coverage --tl=<civ>`
+TOTAL count, NOT by --strict exit code.** Genuine-sweep audit (remaining
+total GATE): goryeo 3 · uyghur 10 · renaissance 12 · byzantine 18 ·
+delhi 8 · ottoman 0 = real; islamic-golden-age 645 = FALSE-DONE (above).
+
+**Batch 2 attempt #1 (mughal/umayyad/medieval-india/yuan/timurid),
+2026-05-21 — UNDER-DELIVERED, NOT committed.** Agents closed only the
+NEW gaps (mughal 536→524, etc.) per the defective "0 NEW" brief. Partial
+work preserved in worktrees; re-tasked at TRUE full scope (TOTAL→~0).
 
 **ottoman-empire ✅ CLOSED 2026-05-21 (`671894d`, pushed).** The
 parked civ is done. Finding: the `a00501` worktree held a *corrected*
